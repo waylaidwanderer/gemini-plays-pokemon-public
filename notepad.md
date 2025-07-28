@@ -42,39 +42,35 @@
 - **Victory Road 2F - Western Trap:** Pushing the boulder onto the switch at (2, 17) primes a trap that opens the barrier at (8, 9) and (8, 10) after leaving and re-entering the floor.
 - **Victory Road 3F - Hole Puzzle:** Pushing the boulder at (14, 13) south into the hole at (14, 15) causes it to drop to the floor below.
 
-# IV. Lessons Learned
-- **Tool Reliability:** While automated tools like `gem_pathfinder` can be powerful, they can also break. It's critical to have a robust debugging process and be prepared to switch to manual navigation when a tool fails. Relying solely on a single tool without a backup plan is a major vulnerability.
+# IV. Lessons Learned & Tool Development
+
 - **Systematic Problem-Solving:** When faced with a navigation paradox, like on Route 22, I must avoid chaotic, repeated manual attempts. The correct approach is to trust the game state data (e.g., `navigable_warps`) as the source of truth and systematically eliminate possibilities.
 - **Efficient Debugging:** Repetitively running the same failing test case is inefficient. I must vary the test conditions (e.g., change the target destination) to gather new diagnostic data and isolate bugs more effectively.
 - **Immediate Action:** Deferring tasks like tool repair or documentation is a critical error. All maintenance and data logging must be done in the immediate turn of discovery to maintain a coherent internal state.
+- **Tool Reliability & Contingency:** Automated tools can be powerful but are not infallible. The `gem_pathfinder` tool's system-level failure highlights the critical need for backup plans. When a primary tool breaks, I must be prepared to switch to manual methods or develop alternative solutions instead of becoming completely reliant on a single point of failure.
+- **Defeated Trainer Impassability (Confirmed):** Defeated trainers are impassable obstacles. This was confirmed by attempting to walk through the Youngster at (7,11).
+- **Victory Road 1F - Boulder/Steps Interaction (Confirmed):** Boulders cannot be pushed onto `steps` tiles. This was confirmed after multiple failed attempts to push the boulder at (6, 15) north onto the steps at (6, 14).
+- `gem_pathfinder` Tool Status (BROKEN): The tool is non-functional. Debugging has revealed a critical issue where the tool's main function does not execute, even with a minimal test script. This appears to be a system-level failure beyond my ability to fix by editing the code. The tool must NOT be used until this is resolved. All navigation must be performed manually.
 
 # V. Future Development Ideas
+
 - `movement_tester_tool`: An automated tool to test tile transitions and log outcomes.
 - `team_builder_agent`: An agent to suggest optimal party compositions for major challenges.
 - `hm_troubleshooter_agent`: An agent to automate testing of HM usage when it fails.
 - `fly_helper_tool`: A tool to automate selecting a destination from the Fly menu.
 
-# VI. Tool Development Bugs & Fixes
-- **Defeated Trainer Impassability (Confirmed):** Defeated trainers are impassable obstacles. This was confirmed by attempting to walk through the Youngster at (7,11). The `gem_pathfinder` tool has been updated to reflect this.
-- **Victory Road 1F - Boulder/Steps Interaction (Confirmed):** Boulders cannot be pushed onto `steps` tiles. This was confirmed after multiple failed attempts to push the boulder at (6, 15) north onto the steps at (6, 14).
-- `gem_pathfinder` Tool Status (BROKEN): The tool is non-functional. Debugging has revealed a critical issue where the tool's main function does not execute, even with a minimal test script. This appears to be a system-level failure beyond my ability to fix by editing the code. The tool must NOT be used until this is resolved. All navigation must be performed manually.
+# VI. Problem-Solving Log: Victory Road 1F Barrier
 
-# VII. Problem-Solving Log
-- This section is for documenting my scientific approach to solving puzzles and overcoming obstacles.
+- **Observation:** A boulder barrier at (10, 13) blocks eastward progression on the upper platform.
 
-## Victory Road 1F - Path to Ladder (Hypothesis #1: Western Boulder)
-- **Observation:** After pushing the boulder at (3, 11) onto the switch at (3, 10), the boulder barrier at (10, 13) remains closed.
-- **Hypothesis:** Pushing the western boulder at (3, 11) onto the switch at (3, 10) opens the eastern boulder barrier at (10, 13).
-- **Test:** I navigated to (9, 13) to directly observe the barrier after activating the switch.
-- **Conclusion:** The hypothesis is **false**. The western switch does not control the eastern barrier. This path is not the solution.
+- **Hypothesis #1: Western Switch**
+  - **Test:** Pushed the western boulder at (3, 11) onto the switch at (3, 10).
+  - **Conclusion:** **FALSE.** The barrier at (10, 13) remained closed.
 
-## Victory Road 1F - Path to Ladder (Hypothesis #2: Eastern Boulder)
-- **Observation:** The boulder barrier at (10, 13) blocks the path forward on the eastern platform.
-- **Hypothesis:** Pushing the boulder at (9, 15) onto the switch at (18, 14) will open the boulder barrier at (10, 13).
-- **Conclusion:** The boulder at (9, 15) is immovable. The tile required to push it right, (8, 15), is an impassable wall, and all other push directions are also blocked. **Hypothesis #2 is FALSE.**
+- **Hypothesis #2: Eastern Boulder (Lower Level)**
+  - **Test:** Attempted to push the boulder at (9, 15) onto the switch at (18, 14).
+  - **Conclusion:** **FALSE.** The boulder is immovable, as all adjacent push positions are blocked.
 
-## Victory Road 1F - Path to Ladder (Hypothesis #3: Timed/Conditional Switch)
-- **Observation:** All direct and simple hypotheses for opening the barrier at (10, 13) have failed, creating a logical paradox where the solution appears to be behind the problem.
-- **Hypothesis:** The switch at (3, 10) opens the barrier at (10, 13), but its effect is temporary or conditional (e.g., it closes if I get too close or look away). The barrier might have opened after my first test, but closed before I could reach it.
-- **Test:** I reset the floor, activated the switch at (3, 10), and immediately went to (9, 13). The barrier at (10, 13) remained closed.
-- **Conclusion:** Hypothesis #3 is FALSE. The western switch does not open the eastern barrier, even temporarily. All hypotheses for solving this puzzle on 1F have failed.
+- **Hypothesis #3: Timed/Conditional Switch**
+  - **Test:** Reset the floor, activated the western switch at (3, 10), and immediately checked the barrier at (10, 13).
+  - **Conclusion:** **FALSE.** The barrier remained closed. All hypotheses for solving this puzzle on 1F have failed.
