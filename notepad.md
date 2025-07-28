@@ -40,14 +40,14 @@
 - **Victory Road 2F - Western Trap:** This puzzle requires a two-step "prime and trigger" mechanic. Pushing the boulder onto the switch at (2, 17) primes the trap. Leaving the floor and re-entering triggers the event, opening the barrier at (8, 9) and (8, 10).
 - **Victory Road 3F - Hole Puzzle:** Pushing the boulder at (14, 13) south into the hole at (14, 15) causes it to drop to the floor below, affecting a puzzle there.
 
-# IV. Current Objectives & Hypotheses
-- **Primary Goal:** Heal fainted party members.
-- **Secondary Goal:** Train party for Elite Four.
-- **Current Objective:** Manually navigate out of Victory Road 1F to reach a Pokémon Center. The exit is at (9, 18).
+# IV. Current Plans & Hypotheses
+- **Healing Plan:** Navigate south through Route 23 to the Route 22 Gatehouse, then to Viridian City to use the Pokémon Center.
+- **Hypothesis to Test:** Verify if defeated trainers are always impassable.
 
 # V. Future Development Ideas
 - **`puzzle_strategist_agent`:** An agent to analyze environmental puzzles (like boulder puzzles) and suggest high-level solutions.
 - **`movement_tester_tool`:** An automated tool to test tile transitions and log outcomes, to gather ground-truth data for pathfinding logic.
+- **`team_builder_agent`:** An agent to suggest optimal party compositions for major challenges (e.g., Elite Four) based on available Pokémon in the PC.
 
 # VI. Tool & Agent Development
 
