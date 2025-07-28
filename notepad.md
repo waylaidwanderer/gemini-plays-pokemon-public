@@ -43,8 +43,8 @@
 - **Victory Road 3F - Hole Puzzle:** Pushing the boulder at (14, 13) south into the hole at (14, 15) causes it to drop to the floor below.
 
 # IV. Lessons Learned
+- **Trust Automated Tools:** My manual pathing attempts on Route 22 failed due to cognitive bias. A robust, automated tool like `gem_pathfinder` is superior for complex navigation and should be trusted over my own flawed reasoning.
 - **Systematic Problem-Solving:** When faced with a navigation paradox, like on Route 22, I must avoid chaotic, repeated manual attempts. The correct approach is to trust the game state data (e.g., `navigable_warps`) as the source of truth and systematically eliminate possibilities.
-- **Cognitive Bias & Tool Reliance:** My manual pathing attempts on Route 22 failed due to cognitive bias; I was unable to see the complex, winding path that was available. This confirms that for complex navigation, a robust, automated tool like `gem_pathfinder` is superior to manual attempts and should be trusted. The tool succeeded where my own reasoning failed.
 - **Efficient Debugging:** Repetitively running the same failing test case is inefficient. I must vary the test conditions (e.g., change the target destination) to gather new diagnostic data and isolate bugs more effectively.
 - **Immediate Action:** Deferring tasks like tool repair or documentation is a critical error. All maintenance and data logging must be done in the immediate turn of discovery to maintain a coherent internal state.
 
@@ -54,3 +54,6 @@
 - `team_builder_agent`: An agent to suggest optimal party compositions for major challenges.
 - `hm_troubleshooter_agent`: An agent to automate testing of HM usage when it fails.
 - `fly_helper_tool`: A tool to automate selecting a destination from the Fly menu.
+
+# VI. Tool Development Bugs & Fixes
+- **Defeated Trainer Impassability Bug:** Both gem_pathfinder and boulder_puzzle_solver incorrectly treat tiles with any <Object> as impassable. This includes defeated trainers. This bug prevents the tools from finding valid paths that go through the space previously occupied by a defeated trainer. This must be fixed by modifying the obstacle detection logic to ignore defeated trainers.
