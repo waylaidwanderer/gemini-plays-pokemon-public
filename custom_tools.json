@@ -90,52 +90,5 @@
         "action_counter": 12480
       }
     ]
-  },
-  "find_reachable_unseen_tiles": {
-    "description": "Identifies which of the provided unseen tiles are reachable from the player's current position.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "unseen_tiles": {
-          "type": "array",
-          "items": {
-            "type": "object",
-            "properties": {
-              "x": {
-                "type": "integer"
-              },
-              "y": {
-                "type": "integer"
-              }
-            },
-            "required": [
-              "x",
-              "y"
-            ]
-          }
-        }
-      },
-      "required": [
-        "unseen_tiles"
-      ]
-    },
-    "python_script": "import xml.etree.ElementTree as ET\nfrom collections import deque\nimport json\n\ndef run(input_data):\n    xml_string = map_xml_string\n    unseen_tiles_data = input_data['unseen_tiles']\n\n    root = ET.fromstring(xml_string)\n    player_pos = None\n    grid = {}\n    for row in root.findall('Row'):\n        for tile in row.findall('Tile'):\n            x = int(tile.get('id'))\n            y = int(row.get('id'))\n            grid[(x, y)] = tile\n            if tile.find('Player') is not None:\n                player_pos = (x, y)\n\n    if not player_pos:\n        print(\"[]\")\n        return\n\n    start_x, start_y = player_pos\n\n    traversable_tiles = {\n        'FLOOR', 'TALL_GRASS', 'LONG_GRASS', 'DOOR', 'WARP_CARPET_LEFT',\n        'WARP_CARPET_RIGHT', 'LADDER', 'CAVE', 'LEDGE_HOP_DOWN',\n        'LEDGE_HOP_LEFT', 'LEDGE_HOP_RIGHT', 'FLOOR_UP_WALL'\n    }\n    one_way_rules = {\n        'LEDGE_HOP_DOWN': (0, -1),\n        'LEDGE_HOP_LEFT': (1, 0),\n        'LEDGE_HOP_RIGHT': (-1, 0),\n        'FLOOR_UP_WALL': (0, 1),\n    }\n\n    def is_passable(x, y, from_x, from_y):\n        tile = grid.get((x, y))\n        if not tile: return False\n        from_tile = grid.get((from_x, from_y))\n        if from_tile:\n            from_tile_type = from_tile.get('type')\n            if from_tile_type == 'FLOOR_UP_WALL' and (x, y) == (from_x, from_y - 1):\n                return False\n        tile_type = tile.get('type')\n        if tile_type not in traversable_tiles or tile.find('Object') is not None:\n            return False\n        if tile_type in one_way_rules:\n            required_move = one_way_rules[tile_type]\n            actual_move = (x - from_x, y - from_y)\n            if actual_move != required_move:\n                return False\n        return True\n\n    final_reachable = []\n    unseen_tiles = [(int(t['x']), int(t['y'])) for t in unseen_tiles_data]\n\n    for ux, uy in unseen_tiles:\n        is_reachable = False\n        for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n            adj_x, adj_y = ux + dx, uy + dy\n            adj_tile = grid.get((adj_x, adj_y))\n            if adj_tile and adj_tile.get('type') in traversable_tiles and adj_tile.find('Object') is None:\n                q = deque([(start_x, start_y)])\n                visited = {(start_x, start_y)}\n                path_found = False\n                while q:\n                    curr_x, curr_y = q.popleft()\n                    if (curr_x, curr_y) == (adj_x, adj_y):\n                        path_found = True\n                        break\n                    for ddx, ddy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n                        next_x, next_y = curr_x + ddx, curr_y + ddy\n                        if (next_x, next_y) not in visited and is_passable(next_x, next_y, curr_x, curr_y):\n                            visited.add((next_x, next_y))\n                            q.append((next_x, next_y))\n                if path_found:\n                    is_reachable = True\n                    break\n        if is_reachable:\n            final_reachable.append({'x': ux, 'y': uy})\n\n    print(json.dumps(final_reachable))",
-    "history": [
-      {
-        "commit_message": "feat: Create tool to find reachable unseen tiles. This tool takes a list of unseen tile coordinates and uses a BFS pathfinding algorithm, adapted from the `pathfinder` tool, to determine which are actually reachable from the player's current position. This automates a tedious manual process and will allow for more strategic exploration.",
-        "timestamp": "2025-07-27T23:59:16.316Z",
-        "action_counter": 12473
-      },
-      {
-        "commit_message": "debug: Add comprehensive logging to find pathfinding bug. The tool incorrectly reported that no unseen tiles were reachable. This commit adds extensive print statements to trace the execution of the pathfinding logic for each potential adjacent tile, which will help diagnose the root cause of the failure.",
-        "timestamp": "2025-07-28T00:00:15.299Z",
-        "action_counter": 12475
-      },
-      {
-        "commit_message": "fix: Replace buggy pathfinding logic with verified logic from the `pathfinder` tool. The previous version's `is_passable` function was flawed, causing it to incorrectly report all paths as blocked. This commit synchronizes the logic between the two tools, ensuring consistent and correct pathfinding results. Also refactored to use a cleaner BFS implementation and output valid JSON.",
-        "timestamp": "2025-07-28T00:01:34.193Z",
-        "action_counter": 12477
-      }
-    ]
   }
 }

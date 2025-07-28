@@ -3,24 +3,22 @@
 # I. Core Directives & Lessons Learned
 
 *   **Proactive Data Management:** All new information, corrected misunderstandings, and strategic plans must be recorded *immediately* in the turn they are discovered. Data management is not a secondary task; it is the highest priority.
+*   **Tool Consolidation:** Redundant tools with overlapping logic (e.g., multiple pathfinders) must be consolidated into a single, robust tool to serve as the single source of truth. This prevents logic desynchronization and repetitive failure loops.
 *   **Agent Usage Discipline:** Use reasoning agents (`battle_strategist`, etc.) for significant or complex decisions only. Rely on personal judgment for trivial encounters to conserve turns. Proactively use the `procedural_overseer` agent to detect and break out of repetitive, failing loops.
 *   **Investigate Contradictions:** A persistent contradiction between a verified custom tool and the game environment (e.g., system alerts) is a strong indicator of a potential bug in the tool. Instead of dismissing the alert, the tool itself must be rigorously debugged.
 *   **Scientific Method:** When debugging or solving puzzles, I must form a clear hypothesis and test it methodically. All hypotheses and tests must be documented.
 *   **Verify Location:** Always verify my current map and coordinates before planning any navigation, especially after a map transition.
-*   **Tool Synchronization:** Tools with shared logic (like pathfinding and exploration) MUST be updated together to avoid contradictory results.
 
 ## B. Tile Traversal Rules
-*   **Traversable:** TALL_GRASS, LONG_GRASS, DOOR, WARP_CARPET_LEFT, LADDER, FLOOR.
-*   **Impassable:** WALL, WINDOW, PC, VOID, CUT_TREE, SIGN, BOOKSHELF, BLACKBOARD, MART_SHELF, WATER, BUOY, TV, TOWN_MAP, RADIO, INCENSE_BURNER, COUNTER, BIRD, HEADBUTT_TREE, FRUIT_TREE.
-
+*   **Traversable:** TALL_GRASS, LONG_GRASS, DOOR, WARP_CARPET_LEFT, LADDER, FLOOR, CAVE.
+*   **Impassable (to walk on):** WALL, WINDOW, PC, VOID, CUT_TREE, SIGN, BOOKSHELF, BLACKBOARD, MART_SHELF, BUOY, TV, TOWN_MAP, RADIO, INCENSE_BURNER, COUNTER, BIRD, HEADBUTT_TREE, FRUIT_TREE.
 *   **One-Way Traversal:**
     *   LEDGE_HOP_DOWN: Can only be entered from above.
     *   LEDGE_HOP_RIGHT: Can only be entered from the left.
     *   LEDGE_HOP_LEFT: Can only be entered from the right.
-    *   FLOOR_UP_WALL: Can only be entered from below (upward). Verified in Union Cave B1F.
-    *   FLOOR_UP_WALL: Can only be entered from below (upward). Verified in Union Cave B1F.
-    *   FLOOR_UP_WALL: Can only be entered from below. It is a one-way tile that acts as a ledge you jump up. It is a one-way tile that acts as a ledge you jump up.
-*   **Warp Carpets:** Generally activated by pressing the corresponding direction (e.g., `WARP_CARPET_RIGHT` requires pressing 'Right'). However, some, like the one at Union Cave (17, 3), may be one-way entrances and cannot be activated from the exit side.
+    *   FLOOR_UP_WALL: Can only be entered from below (upward). Cannot be traversed downward.
+*   **Special Interaction:**
+    *   WATER: Impassable to walk on, but can be fished in with a rod.
 
 # II. Battle Information
 
@@ -64,9 +62,6 @@
 
 # VII. Untested Assumptions & Future Experiments
 *   **Tile Impassability:** I have assumed several tile types are impassable based on their names (e.g., BUOY, TV, RADIO) without direct testing. I must verify these assumptions by attempting to walk into them when the opportunity arises.
-*   **Tool Refactoring:** My pathfinding tools contain redundant code, which led to desynchronized logic. I need to refactor them to use a single, centralized pathfinding function to ensure they are always consistent.
-*   **Ledge Mechanic (Confirmed):** I have confirmed that `LEDGE_HOP_DOWN` tiles are one-way and can only be traversed from above (moving down). This was tested by successfully jumping from (12, 27) to (12, 28) on Route 32.
 
 # VIII. Specific Impassable Tiles
 *   The `WALL` tile at Route 32 (4, 36) is confirmed impassable, blocking the path directly south from (4, 35).
-*   **FLOOR_UP_WALL (Confirmed):** Cannot be traversed downwards. My attempt to move from (5, 35) to (5, 36) was blocked, confirming it's a one-way tile that can only be jumped up.
