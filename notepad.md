@@ -32,7 +32,7 @@
 - **Correction:** Psychic-type moves deal NEUTRAL (1x) damage to Rock-type Pokémon.
 
 ## B. Trainer Battle Rules
-- **No Respawns:** Defeated trainers do NOT respawn. They become permanent obstacles that are impassable by normal movement, but can be bypassed by using the `gem_pathfinder` tool with the `ignorable_coords` parameter.
+- **No Respawns:** Defeated trainers do NOT respawn. They become permanent obstacles that are impassable by normal movement.
 
 # III. Puzzle Mechanics & Key Discoveries
 
