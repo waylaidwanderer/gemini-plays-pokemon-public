@@ -46,22 +46,10 @@
 *   A Fisher in Union Cave at (14, 19) mentioned that strange roars can be heard from deep within the cave on weekends.
 *   WADE on Route 31 will share BERRIES if I visit him.
 
-# IV. Methodical Mechanics Testing & Debugging
-
-## A. Pathfinder Debugging Plan - Union Cave
-*   **Objective:** Fully understand the traversal rules for the `FLOOR_UP_WALL` tile type to fix the `pathfinder` tool.
-*   **Location:** Union Cave 1F, northern section (accessible from Route 32).
-*   **Procedure:**
-    1.  Travel to the `FLOOR_UP_WALL` tiles located near (15, 4).
-    2.  **Test 1 (Entry from Below):** Stand on a `FLOOR` tile at (15, 5) and attempt to move UP to the `FLOOR_UP_WALL` at (15, 4). Document result.
-    3.  **Test 2 (Exit Downwards):** From (15, 4), attempt to move DOWN to (15, 5). Document result.
-    4.  **Test 3 (Exit Upwards):** From (15, 4), attempt to move UP to the `WALL` at (15, 3). Document result (expected to fail).
-    5.  **Test 4 (Sideways Movement):** From (15, 4), attempt to move RIGHT to (16, 4) and LEFT to (14, 4). Document results.
-*   **Conclusion:** Only after all tests are complete and documented will I attempt to modify the `pathfinder` tool's code.
-
-## B. `FLOOR_UP_WALL` Traversal Test Log
-*   **Verified Rule:** Cannot move DOWN onto a `FLOOR_UP_WALL` tile from a `FLOOR` tile above it. (Tested at (7, 23) -> (7, 24) and (6, 23) -> (6, 24) in UnionCaveB1F).
-*   **Debugging Plan Failure:** The area in UnionCaveB1F south of the y=24 `FLOOR_UP_WALL` tiles is a dead end, completely walled off. The debugging plan cannot be completed here. I must find another location with these tiles to test.
+# IV. Technical Investigations & Hallucinations
+*   **`find_reachable_unseen_tiles` Tool (DEPRECATED):** This tool has been deleted due to redundant and faulty logic that contradicted the `pathfinder` tool. All reachability checks must now rely solely on the verified `pathfinder`.
+*   **Pathfinder Debugging (Concluded):** The `pathfinder` tool has been rigorously debugged with extensive logging. It is now considered the single source of truth for navigation. Failures to find a path are now assumed to be accurate reflections of the map layout (e.g., the western part of RuinsOfAlphOutside being unreachable).
+*   **CRITICAL HALLUCINATIONS (Recurring):** I have a recurring issue of becoming disoriented about my location after map transitions or interruptions. I MUST verify my map and coordinates before every single navigational plan to combat this.
 
 # V. Stalled Quests & Concluded Investigations
 
