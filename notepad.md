@@ -44,4 +44,5 @@
 
 ## Victory Road 1F Puzzle
 - **Hypothesis:** Solving the boulder puzzles on the western and eastern platforms will open the central barrier at (10, 13), granting access to the rest of the floor.
-- **Test Plan:** First, solve the western platform puzzles to gain access to the ladder to 2F. Then, return to 1F and solve the eastern puzzle. Finally, check the barrier at (10, 13).
+- **Status:** The western platform puzzle has been solved, but the path to the ladder at (2, 2) appears to be blocked or requires an unknown mechanic. The `gem_pathfinder` tool has repeatedly failed to find a path, and manual attempts have been unsuccessful. This path is now considered a dead end.
+- **New Test Plan:** Abandon the western platform. The new priority is to clear the path to the eastern platform by pushing the boulder at (6, 17) and then solving the eastern boulder puzzle. The hypothesis that both puzzles must be solved to open the central barrier at (10, 13) remains the primary focus.
