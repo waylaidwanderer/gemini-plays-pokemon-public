@@ -75,3 +75,9 @@
 - **Hypothesis #3: Timed/Conditional Switch**
   - **Test:** Reset the floor, activated the western switch at (3, 10), and immediately checked the barrier at (10, 13).
   - **Conclusion:** **FALSE.** The barrier remained closed. All hypotheses for solving this puzzle on 1F have failed.
+
+- **Hypothesis #4: Western Path (Youngster Passable)**
+  - **Test:** Attempted to walk north through the Youngster at (7, 11).
+  - **Conclusion:** **FALSE.** The Youngster is a confirmed impassable obstacle.
+
+- **New Conclusion:** All paths on Victory Road 1F are blocked. The eastern path is blocked by an immovable boulder, and the western path is blocked by an impassable NPC. The solution to open the barrier at (10, 13) must lie on another floor, likely related to the boulder-hole puzzle on 3F. My next course of action is to leave this floor and explore 2F and 3F.
