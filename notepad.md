@@ -10,7 +10,7 @@
 
 ## B. Tile Traversal Rules
 *   **Traversable:** TALL_GRASS, LONG_GRASS, DOOR, WARP_CARPET_DOWN, LADDER, FLOOR.
-*   **Impassable (Verified):** WALL, WINDOW, VOID, CUT_TREE, SIGN, BOOKSHELF, BLACKBOARD, MART_SHELF, BUOY, TV, TOWN_MAP, RADIO, INCENSE_BURNER, BIRD, HEADBUTT_TREE, FRUIT_TREE.
+*   **Impassable (Verified):** WALL, WINDOW, VOID, CUT_TREE, SIGN, BOOKSHELF, BLACKBOARD, MART_SHELF, BUOY, TV, TOWN_MAP, RADIO, INCENSE_BURNER, BIRD, HEADBUTT_TREE, FRUIT_TREE, COMPUTER.
 *   **Special Interaction (Impassable but Interactable):**
     *   **PC:** Impassable. Interact by standing below it at (X, Y+1), facing up, and pressing 'A'.
     *   **COUNTER:** Impassable. Interact with NPCs behind it by standing in front of the counter and pressing 'A'.
@@ -24,6 +24,7 @@
     *   **WARP_CARPET_LEFT:** Requires being on the tile, facing the direction of the warp, and then pressing the directional button again.
 *   **Special Interaction (Fishing):**
     *   WATER: Impassable to walk on, but can be fished in with a rod.
+*   **Impassable (Untested Assumption):** PRINTER.
 
 # II. Battle Information
 
