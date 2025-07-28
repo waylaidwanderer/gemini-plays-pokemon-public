@@ -64,3 +64,4 @@
 *   **CRITICAL HALLUCINATION (Turn 12744):** I believed I had already transitioned to Route 33 when I was still in Union Cave. This is a severe error. I must verify my map ID and coordinates after every map transition without fail.
 *   **CRITICAL DISCOVERY (Turn 12749):** The CAVE tile at Route 33 (11, 9) is a one-way warp that leads into Union Cave at (17, 31). Do not attempt to walk on this tile when trying to explore north on Route 33.
 *   **CRITICAL DISCOVERY (Turn 12749):** The CAVE tile at Route 33 (11, 9) is a one-way warp that leads into Union Cave at (17, 31). Do not attempt to walk on this tile when trying to explore north on Route 33.
+*   **CRITICAL DISCOVERY (Turn 12749):** The CAVE tile at Route 33 (11, 9) is a one-way warp that leads into Union Cave at (17, 31). Do not attempt to walk on this tile when trying to explore north on Route 33.
