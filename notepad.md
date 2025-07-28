@@ -11,14 +11,15 @@
 
 ## B. Tile Traversal Rules
 *   **Traversable:** TALL_GRASS, LONG_GRASS, DOOR, WARP_CARPET_LEFT, WARP_CARPET_DOWN, LADDER, FLOOR.
-*   **Special Interaction (Warp):** CAVE.
-*   **Impassable (to walk on):** WALL, WINDOW, PC, VOID, CUT_TREE, SIGN, BOOKSHELF, BLACKBOARD, MART_SHELF, BUOY, TV, TOWN_MAP, RADIO, INCENSE_BURNER, COUNTER, BIRD, HEADBUTT_TREE, FRUIT_TREE. The `WALL` tile at Route 32 (4, 36) is confirmed impassable.
+*   **Impassable (to walk on):** WALL, WINDOW, PC, VOID, CUT_TREE, SIGN, BOOKSHELF, BLACKBOARD, MART_SHELF, BUOY, TV, TOWN_MAP, RADIO, INCENSE_BURNER, COUNTER, BIRD, HEADBUTT_TREE, FRUIT_TREE.
 *   **One-Way Traversal:**
     *   LEDGE_HOP_DOWN: Can only be entered from above.
     *   LEDGE_HOP_RIGHT: Can only be entered from the left.
     *   LEDGE_HOP_LEFT: Can only be entered from the right.
-    *   FLOOR_UP_WALL: Can only be entered from below (upward). Cannot be traversed downward.
-*   **Special Interaction:**
+    *   FLOOR_UP_WALL: Can only be entered from below (upward).
+*   **Special Interaction (Warp):**
+    *   **CAVE:** Can act as a one-way warp. The tile at Route 33 (11, 9) is a confirmed one-way entrance to Union Cave (17, 31). Should be treated as impassable for pathfinding.
+*   **Special Interaction (Fishing):**
     *   WATER: Impassable to walk on, but can be fished in with a rod.
 
 # II. Battle Information
