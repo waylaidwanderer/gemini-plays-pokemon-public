@@ -38,7 +38,6 @@
 
 # III. Puzzle Mechanics & Key Discoveries
 
-- **Victory Road 1F - Western Platform:** The ladder to 2F is located at (2, 2), but it is inaccessible from the main part of the western platform. The path is blocked by the impassable Youngster at (7, 11).
 - **Victory Road 2F - Western Trap:** Pushing the boulder onto the switch at (2, 17) primes a trap that opens the barrier at (8, 9) and (8, 10) after leaving and re-entering the floor.
 - **Victory Road 3F - Hole Puzzle:** Pushing the boulder at (14, 13) south into the hole at (14, 15) causes it to drop to the floor below.
 
@@ -58,24 +57,14 @@
 - `hm_troubleshooter_agent`: An agent to automate testing of HM usage when it fails.
 - `fly_helper_tool`: A tool to automate selecting a destination from the Fly menu.
 
-# VI. Problem-Solving Log: Victory Road 1F Barrier
+# VI. Problem-Solving Log: Victory Road 1F
 
+## Western Platform Puzzle
+- **Observation:** A boulder at (3, 11) blocks the path to the ladder leading to 2F. The map data confirms a `boulder_switch` exists at (3, 10).
+- **Hypothesis:** Pushing the boulder from (3, 11) north onto the switch at (3, 10) will clear the path to the ladder.
+- **Status:** To be tested.
+
+## Eastern Platform Puzzle
 - **Observation:** A boulder barrier at (10, 13) blocks eastward progression on the upper platform.
-
-- **Hypothesis #1: Western Switch**
-  - **Test:** Attempted to find a switch for the boulder at (3, 11). Discovered there is no switch in this area; I was mistaken.
-  - **Conclusion:** **FALSE.** The barrier at (10, 13) remained closed.
-
-- **Hypothesis #2: Eastern Boulder (Lower Level)**
-  - **Test:** Attempted to push the boulder at (9, 15) onto the switch at (18, 14).
-  - **Conclusion:** **FALSE.** The boulder is immovable, as all adjacent push positions are blocked.
-
-- **Hypothesis #3: Timed/Conditional Switch**
-  - **Test:** Reset the floor, activated the western switch at (3, 10), and immediately checked the barrier at (10, 13).
-  - **Conclusion:** **FALSE.** The barrier remained closed. All hypotheses for solving this puzzle on 1F have failed.
-
-- **Hypothesis #4: Western Path (Youngster Passable)**
-  - **Test:** Attempted to walk north through the Youngster at (7, 11).
-  - **Conclusion:** **FALSE.** The Youngster is a confirmed impassable obstacle.
-
-- **New Conclusion:** All paths on Victory Road 1F are blocked. The eastern path is blocked by an immovable boulder, and the western path is blocked by an impassable NPC. The solution to open the barrier at (10, 13) must lie on another floor, likely related to the boulder-hole puzzle on 3F. My next course of action is to leave this floor and explore 2F and 3F.
+- **Hypothesis #1:** Pushing the boulder at (9, 15) onto the switch at (18, 14) will open the barrier.
+- **Conclusion:** **FALSE.** The boulder is immovable, as all adjacent push positions are blocked.
