@@ -80,3 +80,4 @@
 
 # VII. Held Items
 *   **POISON BARB:** Received from FRIEDA on Route 32 on a Friday. Boosts the power of poison-type moves.
+*   **Traversable (Warp):** WARP_CARPET_RIGHT
