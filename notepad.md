@@ -44,11 +44,11 @@
 # IV. Current Plans & Lessons Learned
 
 ## A. Current Plan
-- **Primary Goal:** Heal fainted party members.
-- **Plan:** I am currently on Route 23, attempting to find a way south to Viridian City. My attempts to SURF across a water channel have failed repeatedly. If my final test (facing the water before using SURF) fails, I will conclude this path is a dead end and backtrack north to find an alternative route.
+- **Immediate Priority:** Fly to Viridian City to heal fainted party members.
+- **Next Step:** After healing, systematically debug and fix the `pathfinder_lite` tool, which is currently unreliable.
 
 ## B. Key Lessons
-- **Trust Your Tools:** The `pathfinder_lite` tool correctly identified that there was no path to Viridian City from the upper level of Route 22. My assumption that the tool was broken was incorrect and led to wasted time. The tool's output, when based on game data, must be trusted as a source of truth.
+- **Trust Your Tools (Corrected):** I have repeatedly failed to trust my `pathfinder_lite` tool's output. The tool correctly identified there was no path from the upper ledge of Route 22 to Viridian City. My assumption that the tool was broken was incorrect and led to wasted time. I repeated this mistake by attempting to debug the tool for generating what I perceived as invalid paths on the lower section of Route 22, when in fact my understanding of the map was flawed.
 - **Verify Map Layout:** Do not assume a path exists based on visual memory or intuition. Jumping down ledges can lead to one-way paths and dead ends. Always analyze the map data carefully before committing to a route.
 
 # V. Future Development Ideas
@@ -59,7 +59,7 @@
 
 # VI. Tool & Agent Development
 
-## A. Pathfinder Overhaul
-- **Status:** The `pathfinder_lite` tool has been successfully updated with logic for ledges and an explicit check against water tiles. It is now considered reliable.
-- **Lesson Learned:** The tool's initial failure on Route 22 was not a bug; it correctly reported that no path existed from the upper platform. My failure was in not trusting the tool's output and instead assuming it was flawed. Future pathfinding failures should first prompt a thorough re-examination of the map for missed obstacles or layout complexities, not an immediate tool rewrite.
+## A. Pathfinder Status
+- **Status:** The `pathfinder_lite` tool is currently UNRELIABLE and UNTRUSTWORTHY. It has repeatedly generated invalid paths on Route 22.
+- **Lesson Learned (Repeated Failure):** I failed to apply the lesson about trusting my tools. Instead of re-evaluating the map when the pathfinder produced unexpected results, I incorrectly assumed the tool was broken and wasted dozens of turns trying to 'fix' it. The tool's output, even when it seems wrong, must be treated as a reflection of the game data, prompting a re-evaluation of my own assumptions first.
 - **`steps` Tile Test Plan (On Hold):** The `steps` tile mechanic still requires systematic testing to perfect the pathfinder's elevation logic. This will be addressed when a more complex multi-level area is encountered.
