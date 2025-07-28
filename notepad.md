@@ -36,14 +36,18 @@
 
 # III. Puzzle Mechanics & Key Discoveries
 
-- **Victory Road 1F - Western Platform:** Pushing the two boulders in this area clears a path to the steps at (6, 14), which allows access to the ladder at (2, 2). This path has been confirmed as a dead end for overall progression.
+- **Victory Road 1F - Western Platform:** This area contains the ladder to 2F at (2, 2). It is the only way to progress to the next floor, but it is inaccessible until the central barrier at (10, 13) is opened.
 - **Victory Road 2F - Western Trap:** This puzzle requires a two-step "prime and trigger" mechanic. Pushing the boulder onto the switch at (2, 17) primes the trap. Leaving the floor and re-entering triggers the event, opening the barrier at (8, 9) and (8, 10).
 - **Victory Road 3F - Hole Puzzle:** Pushing the boulder at (14, 13) south into the hole at (14, 15) causes it to drop to the floor below, affecting a puzzle there.
 
 # IV. Current Objectives & Hypotheses
 
 ## Victory Road 1F Puzzle
-- **Hypothesis:** Solving the boulder puzzles on the western and eastern platforms will open the central barrier at (10, 13), granting access to the rest of the floor.
-- **Current Objective:** The western platform puzzle is confirmed to not be the primary path forward. The new priority is to solve the eastern boulder puzzle, which starts with the boulder at (15, 3) and the switch at (18, 14).
+- **Primary Obstacle:** The central barrier at (10, 13) blocks access between the western and eastern halves of the floor.
+- **Failed Hypotheses:**
+  - Solving only the western boulder puzzles does not open the barrier. (Attempted multiple times)
+  - A 'prime and trigger' mechanic does not open the barrier. (Attempted once)
+- **Current Hypothesis:** The only remaining solution is to solve the eastern boulder puzzle (boulder at (15, 3), switch at (18, 14)). This will likely open the central barrier.
+- **Path Forward:** Once the barrier is open, the path to the next floor is via the ladder at (2, 2) on the western platform.
 
 # V. Future Development Ideas
