@@ -47,7 +47,6 @@
 - **Failed Hypotheses:**
   - Solving only the western boulder puzzles does not open the barrier. (Attempted multiple times)
   - A 'prime and trigger' mechanic does not open the barrier. (Attempted once)
-- **Current Hypothesis:** The only remaining solution is to solve the eastern boulder puzzle (boulder at (15, 3), switch at (18, 14)). This will likely open the central barrier.
-- **Path Forward:** Once the barrier is open, the path to the next floor is via the ladder at (2, 2) on the western platform.
+- **Current Hypothesis:** I am currently trapped on the western side of Victory Road 1F, blocked by a central barrier at (10, 13). I have exhausted all puzzle-solving options on this side. My new hypothesis is that I must ascend to Victory Road 2F via the western ladder at (2, 2) and find a crossover path that leads back down to the eastern side of 1F. This is the only remaining logical path forward.
 
 # V. Future Development Ideas
