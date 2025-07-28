@@ -43,10 +43,10 @@
 # IV. Current Plan & Hypotheses
 
 ## Victory Road 1F Puzzle
-- **Hypothesis (Re-tested & Disproven):** The western boulder puzzle at (3, 11) directly opens the central barrier at (10, 13).
-  - **Test:** Pushed boulder at (3, 11) onto switch at (3, 10) and visually inspected the barrier.
-  - **Result:** The central boulder barrier at (10, 13) remained closed.
-- **New Hypothesis (Paradox Resolution):** The game state confirms I am trapped, which is impossible. This implies a non-obvious solution. My previous action was pushing the boulder at (3, 11) ONTO the switch at (3, 10). The new hypothesis is that this was incorrect, and the boulder must be pushed OFF the switch to open the barrier at (10, 13).
-- **Hypothesis (Disproven):** The path to the ladder at (2, 2) from the western platform is only blocked by the defeated Youngster at (7, 11).
-  - **Test:** Use the `gem_pathfinder` tool to find a path to (2, 2), using `ignorable_coords` to bypass the trainer.
-  - **Result:** The tool returned 'path not found', and a system warning confirmed the destination is unreachable. The entire western platform is elevated, and there are no 'steps' or other means to descend to the ladder's elevation. This platform is a confirmed dead end.
+- **Paradox:** The game state confirms I am trapped on the central elevated platform, which is impossible according to core game rules. The central barrier at (10, 13) is closed.
+- **Disproven Premise:** My previous notes incorrectly identified the tile at (3, 10) as a boulder switch. The map XML confirms it is a `ground` tile. Therefore, all hypotheses based on activating/deactivating a switch at (3, 10) are invalid.
+- **Known Facts:**
+  - The western platform is a confirmed dead end.
+  - The boulder at (3, 10) has been moved, but its purpose is unknown.
+  - The puzzle on 2F used a 'prime and trigger' mechanic (leave and re-enter floor).
+- **New Hypothesis:** The solution involves a non-obvious interaction or trigger on the central platform itself. The complex Pikachu interaction was a red herring. The only remaining possibility is that there is a different, undiscovered 'trigger' for the 'primed' state caused by moving the western boulder.
