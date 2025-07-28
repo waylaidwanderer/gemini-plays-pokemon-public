@@ -43,7 +43,8 @@
 - **Victory Road 3F - Hole Puzzle:** Pushing the boulder at (14, 13) south into the hole at (14, 15) causes it to drop to the floor below.
 
 # IV. Lessons Learned
-- **Trust But Verify:** A tool's output (e.g., 'no path found') must be treated as a valid hypothesis about the game state, not an automatic tool failure. On Route 22, the `pathfinder_lite` tool correctly identified there was no path from a specific platform, but I assumed the tool was broken and wasted turns trying to force an impossible route. I must trust my tools' outputs and use them to inform my strategy.
+- **Systematic Problem-Solving:** When faced with a navigation paradox, like on Route 22, I must avoid chaotic, repeated manual attempts. The correct approach is to trust the game state data (e.g., `navigable_warps`) as the source of truth and systematically eliminate possibilities.
+- **Cognitive Bias & Tool Reliance:** My manual pathing attempts on Route 22 failed due to cognitive bias; I was unable to see the complex, winding path that was available. This confirms that for complex navigation, a robust, automated tool like `gem_pathfinder` is superior to manual attempts and should be trusted. The tool succeeded where my own reasoning failed.
 - **Efficient Debugging:** Repetitively running the same failing test case is inefficient. I must vary the test conditions (e.g., change the target destination) to gather new diagnostic data and isolate bugs more effectively.
 - **Immediate Action:** Deferring tasks like tool repair or documentation is a critical error. All maintenance and data logging must be done in the immediate turn of discovery to maintain a coherent internal state.
 
