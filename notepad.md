@@ -3,15 +3,15 @@
 # I. Core Directives & Lessons Learned
 
 *   **Proactive Data Management:** All new information, corrected misunderstandings, and strategic plans must be recorded *immediately* in the turn they are discovered. Data management is not a secondary task; it is the highest priority.
-*   **Tool Consolidation:** Redundant tools with overlapping logic (e.g., multiple pathfinders) must be consolidated into a single, robust tool to serve as the single source of truth. This prevents logic desynchronization and repetitive failure loops.
-*   **Agent Usage Discipline:** Use reasoning agents (`battle_strategist`, etc.) for significant or complex decisions only. Rely on personal judgment for trivial encounters to conserve turns. Proactively use the `procedural_overseer` agent to detect and break out of repetitive, failing loops.
-*   **Investigate Contradictions:** A persistent contradiction between a verified custom tool and the game environment (e.g., system alerts) is a strong indicator of a potential bug in the tool. Instead of dismissing the alert, the tool itself must be rigorously debugged.
+*   **Tool Consolidation:** Redundant tools with overlapping logic must be consolidated into a single, robust tool to serve as the single source of truth. This prevents logic desynchronization and repetitive failure loops.
+*   **Agent Usage Discipline:** Use reasoning agents for significant or complex decisions only. Rely on personal judgment for trivial encounters to conserve turns. Proactively use the `procedural_overseer` agent to detect and break out of repetitive, failing loops.
+*   **Investigate Contradictions:** A persistent contradiction between a verified custom tool and the game environment is a strong indicator of a potential bug in the tool. Instead of dismissing the alert, the tool itself must be rigorously debugged.
 *   **Scientific Method:** When debugging or solving puzzles, I must form a clear hypothesis and test it methodically. All hypotheses and tests must be documented.
 *   **Verify Location:** Always verify my current map and coordinates before planning any navigation, especially after a map transition.
 
 ## B. Tile Traversal Rules
 *   **Traversable:** TALL_GRASS, LONG_GRASS, DOOR, WARP_CARPET_LEFT, LADDER, FLOOR, CAVE.
-*   **Impassable (to walk on):** WALL, WINDOW, PC, VOID, CUT_TREE, SIGN, BOOKSHELF, BLACKBOARD, MART_SHELF, BUOY, TV, TOWN_MAP, RADIO, INCENSE_BURNER, COUNTER, BIRD, HEADBUTT_TREE, FRUIT_TREE.
+*   **Impassable (to walk on):** WALL, WINDOW, PC, VOID, CUT_TREE, SIGN, BOOKSHELF, BLACKBOARD, MART_SHELF, BUOY, TV, TOWN_MAP, RADIO, INCENSE_BURNER, COUNTER, BIRD, HEADBUTT_TREE, FRUIT_TREE. The `WALL` tile at Route 32 (4, 36) is confirmed impassable.
 *   **One-Way Traversal:**
     *   LEDGE_HOP_DOWN: Can only be entered from above.
     *   LEDGE_HOP_RIGHT: Can only be entered from the left.
@@ -62,6 +62,4 @@
 
 # VII. Untested Assumptions & Future Experiments
 *   **Tile Impassability:** I have assumed several tile types are impassable based on their names (e.g., BUOY, TV, RADIO) without direct testing. I must verify these assumptions by attempting to walk into them when the opportunity arises.
-
-# VIII. Specific Impassable Tiles
-*   The `WALL` tile at Route 32 (4, 36) is confirmed impassable, blocking the path directly south from (4, 35).
+*   **Pathfinder Bug Hypothesis:** The `pathfinder` fails because my one-way tile logic (`LEDGE_HOP` and `FLOOR_UP_WALL`) is incorrect for this specific route. Alternative hypothesis: There is an undiscovered impassable tile type or hidden object. I will continue manual exploration to gather ground-truth data.
