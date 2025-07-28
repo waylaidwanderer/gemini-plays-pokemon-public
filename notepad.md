@@ -60,8 +60,10 @@
 # VI. Problem-Solving Log: Victory Road 1F
 
 ## Western Platform Puzzle
-- **Observation:** A boulder at (3, 11) blocks the path to the ladder leading to 2F. The map data confirms a `boulder_switch` exists at (3, 10).
-- **Hypothesis:** Pushing the boulder from (3, 11) north onto the switch at (3, 10) will clear the path to the ladder.
+## Western Platform Puzzle
+- **Hypothesis #1:** Pushing the boulder from (3, 11) north onto the switch at (3, 10) will clear the path to the ladder.
+- **Conclusion:** **FALSE.** Path is still blocked by impassable walls. The switch must have another purpose.
+- **Hypothesis #2:** The path to the ladder at (2, 2) is via the eastern platform.
 - **Status:** To be tested.
 
 ## Eastern Platform Puzzle
