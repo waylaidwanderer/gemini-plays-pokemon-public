@@ -81,3 +81,5 @@
 
 # VII. Held Items
 *   **POISON BARB:** Received from FRIEDA on Route 32 on a Friday. Boosts the power of poison-type moves.
+*   **Test (B1F):** Attempted to move from `FLOOR` at (6, 23) DOWN to `FLOOR_UP_WALL` at (6, 24). Movement was blocked. **Conclusion: Entry *from above* is blocked.**
+*   **Debugging Plan Failure:** The area in UnionCaveB1F south of the y=24 `FLOOR_UP_WALL` tiles is a dead end, completely walled off. The debugging plan cannot be completed here. I must find another location with these tiles to test.
