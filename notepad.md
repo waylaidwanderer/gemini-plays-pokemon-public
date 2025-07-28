@@ -72,3 +72,9 @@
 - **Observation:** The boulder barrier at (10, 13) blocks the path forward on the eastern platform.
 - **Hypothesis:** Pushing the boulder at (9, 15) onto the switch at (18, 14) will open the boulder barrier at (10, 13).
 - **Conclusion:** The boulder at (9, 15) is immovable. The tile required to push it right, (8, 15), is an impassable wall, and all other push directions are also blocked. **Hypothesis #2 is FALSE.**
+
+## Victory Road 1F - Path to Ladder (Hypothesis #3: Timed/Conditional Switch)
+- **Observation:** All direct and simple hypotheses for opening the barrier at (10, 13) have failed, creating a logical paradox where the solution appears to be behind the problem.
+- **Hypothesis:** The switch at (3, 10) opens the barrier at (10, 13), but its effect is temporary or conditional (e.g., it closes if I get too close or look away). The barrier might have opened after my first test, but closed before I could reach it.
+- **Test Plan:** Reset the entire floor by warping out and back in. Re-solve the western boulder puzzle to activate the switch at (3, 10). Immediately navigate to (9, 13) via the most direct route to observe the barrier's state.
+- **Attempt #1:** Starting now.
