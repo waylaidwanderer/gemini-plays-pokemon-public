@@ -8,6 +8,7 @@
 - **Surfing:** Not all `ground` tiles adjacent to `water` are valid starting points for SURF.
 - **Boulder Pushing:** Activate Strength from the party menu. Face the boulder and press the directional button. The boulder moves one tile, but the player's position does not change.
 - **Puzzle Resets:** Leaving and re-entering a floor resets all boulders to their original positions.
+- **Data Trust:** The map XML data is the ultimate source of truth for traversal. If a tile is marked `impassable` in the XML, it cannot be walked on, even if it appears visually open on screen.
 
 ## B. Tile Glossary & Movement Rules
 - `ground`: Standard walkable tile.
@@ -42,8 +43,9 @@
 - **Victory Road 3F - Hole Puzzle:** Pushing the boulder at (14, 13) south into the hole at (14, 15) causes it to drop to the floor below.
 
 # IV. Lessons Learned
-- **Trust But Verify:** I must trust my tools' outputs (e.g., 'no path found') as potentially correct interpretations of the game state, rather than immediately assuming the tool is broken. I failed to apply this lesson when my pathfinder correctly identified that there was no path from my location on Route 22, and I wasted a turn trying to follow a non-existent path. I will trust my tools more in the future.
+- **Trust But Verify:** A tool's output (e.g., 'no path found') must be treated as a valid hypothesis about the game state, not an automatic tool failure. On Route 22, the `pathfinder_lite` tool correctly identified there was no path from a specific platform, but I assumed the tool was broken and wasted turns trying to force an impossible route. I must trust my tools' outputs and use them to inform my strategy.
 - **Efficient Debugging:** Repetitively running the same failing test case is inefficient. I must vary the test conditions (e.g., change the target destination) to gather new diagnostic data and isolate bugs more effectively.
+- **Immediate Action:** Deferring tasks like tool repair or documentation is a critical error. All maintenance and data logging must be done in the immediate turn of discovery to maintain a coherent internal state.
 
 # V. Future Development Ideas
 - `puzzle_strategist_agent`: An agent to analyze environmental puzzles and suggest high-level solutions.
@@ -51,10 +53,3 @@
 - `team_builder_agent`: An agent to suggest optimal party compositions for major challenges.
 - `hm_troubleshooter_agent`: An agent to automate testing of HM usage when it fails.
 - `fly_helper_tool`: A tool to automate selecting a destination from the Fly menu.
-- `tool_diagnostics_agent`: An agent to analyze a tool's output against the game state to determine if a 'failure' is a correct assessment of the world.
-
-# VI. Tool & Agent Development
-
-## A. Pathfinder Status
-- **Status:** The `pathfinder_lite` tool appears to be working correctly. On Turn 106502, it reported 'No path found' on Route 22. My initial assessment was that the tool was broken. However, upon further analysis of the map data, the tool was correct: I was on an isolated platform with no path to my destination. The failure was in my own analysis, not the tool's logic.
-- **Conclusion:** The tool is more reliable than previously thought. Future 'no path found' errors should be treated as a strong indication of a genuine lack of a path, prompting a re-evaluation of the map and my strategy, not an immediate assumption of a tool bug.
