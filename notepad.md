@@ -57,7 +57,6 @@
 *   **Union Cave Unseen Tiles (Confirmed Unreachable):** My `pathfinder` tool has confirmed after extensive debugging that the unseen areas of Union Cave are disconnected from the sections I can currently access. (`find_reachable_unseen_tiles` tool deprecated due to redundant/faulty logic).
 *   **Azalea Town NPCs (Post-Well):** Neither Kurt nor the Charcoal Man had new dialogue immediately after clearing the Slowpoke Well and solving the Farfetch'd puzzle.
 *   **Slowpoke Well:** Re-exploration confirmed no missed triggers or reachable unseen areas.
-*   **Union Cave Warp (Failed):** The WARP_CARPET_DOWN at (17, 3) cannot be activated with 'A' or by pressing 'Down'. It appears to be a one-way entrance from Route 32.
 
 ## A. Untested Hypotheses
 *   **Union Cave Connectivity:** An alternative hypothesis for the disconnected nature of the cave is that a hidden switch or event must be triggered to open a new path. This is currently untestable without full exploration.
@@ -83,34 +82,6 @@
 # VII. Held Items
 *   **POISON BARB:** Received from FRIEDA on Route 32 on a Friday. Boosts the power of poison-type moves.
 *   **MIRACLE SEED:** Received from Cooltrainer M on Route 32. Boosts the power of grass-type moves.
-
-# VIII. Puzzle Logs
-
-## A. Ilex Forest Exit Warp (SOLVED)
-*   **Location:** (3, 42) and (3, 43), type `WARP_CARPET_RIGHT`.
-*   **Objective:** Activate the warp to exit the forest.
-*   **Hypothesis 1 (FAILED):** The warp is activated by pressing 'A'.
-*   **Hypothesis 2 (FAILED):** The warp is movement-based, triggered by stepping onto it.
-*   **Hypothesis 3 (SUCCESS):** The warp is activated by facing the direction of the warp (right) and pressing the corresponding directional button again.
-    *   **Test 3.1:** Stand on (3, 42), face Right, press 'Right'. **Result: SUCCESS.**
-*   **Conclusion:** `WARP_CARPET_RIGHT` tiles require facing the direction of the warp, then pressing that direction again to activate.
-*   **CRITICAL HALLUCINATION (Turn 13949):** I was convinced I had already warped into the Route32RuinsOfAlphGate (10_12) and was at (9, 4). The system corrected me: I was still on Route32 (10_1) at (4, 2). This demonstrates a persistent failure to verify my location after a map transition, leading to invalid navigation goals and failed actions.
-
-*   **CRITICAL HALLUCINATION (Turn 13982):** I had a turn number mismatch, reporting 13980 when the turn was 13981. This is a recurring issue with my internal state tracking.
-
-*   Wade mentioned a Bug-Catching Contest at the National Park is happening today.
-*   **Ruins of Alph Inner Chamber Warp (15, 3):** Confirmed to be a one-way entrance from the Kabuto Chamber. Cannot be activated by stepping on it, pressing 'A', or pressing 'Up'.
-
-# V. Puzzle Logs & Investigations (Update)
-
-## A. Ruins of Alph - Inner Chamber (Current Location)
-*   **Conclusion:** I am currently trapped in this chamber. All potential exits (warps) have been systematically tested and confirmed to be inactive from this side. The only way out is the entrance ladder at (10, 13).
-*   **Warp Test Log:**
-    *   **North Warps (15, 3) & (16, 3):** Confirmed one-way entrances from Kabuto Chamber. Inaccessible from this side.
-    *   **South Warps (3, 15), (4, 15), (3, 21), (4, 21), (15, 24):** All tested via step-on, 'A' press, and directional press. All are inactive.
-*   **NPCs:** The Teacher, Gramps, and Fisher marked on the map are not visible and thus not interactable.
-*   **Statues:** All statues are non-interactive beyond providing flavor text ("It's a replica of an ancient POKéMON.").
-*   **Next Step:** Exit the Inner Chamber via the ladder at (10, 13) and find another puzzle chamber from the Ruins of Alph exterior.
 
 # IX. Current Strategy & Tool Status (as of Turn 14211)
 *   **Tool Deprecation:** The `find_reachable_unseen_tiles` tool has been deleted due to redundant and faulty logic. All navigation and reachability checks now rely solely on the verified `pathfinder` tool.
