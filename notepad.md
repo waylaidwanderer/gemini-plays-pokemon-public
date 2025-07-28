@@ -87,3 +87,8 @@
     4.  **Test 3 (Exit Upwards):** From (15, 4), attempt to move UP to the `WALL` at (15, 3). Document result (expected to fail).
     5.  **Test 4 (Sideways Movement):** From (15, 4), attempt to move RIGHT to (16, 4) and LEFT to (14, 4). Document results.
 *   **Conclusion:** Only after all tests are complete and documented will I attempt to modify the `pathfinder` tool's code.
+
+## B. FLOOR_UP_WALL Traversal (Basement Test)
+*   **Hypothesis:** Cannot move DOWN from a `FLOOR_UP_WALL` tile.
+*   **Test:** From (7, 18) in UnionCaveB1F, attempted to move DOWN to the ladder at (7, 19).
+*   **Conclusion:** Movement was not possible. The action resulted in being warped back to UnionCave1F. This confirms downward movement from this tile type is blocked.
