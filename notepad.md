@@ -73,3 +73,4 @@
 - **Observation:** A boulder barrier at (10, 13) blocks eastward progression on the upper platform.
 - **Hypothesis #1:** Pushing the boulder at (9, 15) onto the switch at (18, 14) will open the barrier.
 - **Conclusion:** **FALSE.** The boulder is immovable, as all adjacent push positions are blocked.
+- `puzzle_execution_tool`: A high-level tool that takes the output of the `puzzle_strategist_agent` and automatically generates and executes the necessary `gem_pathfinder` calls and boulder push actions to solve a puzzle.
