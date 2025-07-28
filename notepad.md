@@ -63,7 +63,7 @@
 - **Observation:** A boulder barrier at (10, 13) blocks eastward progression on the upper platform.
 
 - **Hypothesis #1: Western Switch**
-  - **Test:** Pushed the western boulder at (3, 11) onto the switch at (3, 10).
+  - **Test:** Attempted to find a switch for the boulder at (3, 11). Discovered there is no switch in this area; I was mistaken.
   - **Conclusion:** **FALSE.** The barrier at (10, 13) remained closed.
 
 - **Hypothesis #2: Eastern Boulder (Lower Level)**
