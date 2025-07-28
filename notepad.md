@@ -63,5 +63,4 @@
 *   **POISON BARB:** Received from FRIEDA on Route 32 on a Friday. Boosts the power of poison-type moves.
 
 *   **`["path"]` Button Unreliability:** Executing a long `path_plan` via the `["path"]` button press has failed. This is a button press, not a tool. Hypothesis: The mechanic is unreliable for paths longer than a few steps. Test: Attempt to use `["path"]` for a short, 2-3 step path from my current position of (14, 27) to (14, 25). If it succeeds, the issue is length. If it fails, the mechanic itself is broken.
-*   **CRITICAL HALLUCINATION (Turn 12744):** I believed I had already transitioned to Route 33 when I was still in Union Cave. This is a severe error. I must verify my map ID and coordinates after every map transition without fail.
-*   **CRITICAL HALLUCINATION (Turn 12797):** I was completely disoriented, believing I had already exited the Pokémon Center and was in Azalea Town when I was still inside at (3, 7). This is a recurring issue. I MUST verify my map and coordinates before every single navigational plan.
+*   **CRITICAL HALLUCINATION (Turn 12744 & 12797):** I have repeatedly become disoriented about my location after map transitions, believing I was on a different map or outside when I was still inside. This is a recurring issue. I MUST verify my map and coordinates before every single navigational plan.
