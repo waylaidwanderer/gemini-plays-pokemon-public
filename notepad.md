@@ -65,3 +65,4 @@
 # VII. Untested Assumptions & Future Experiments
 *   **Tile Impassability:** I have assumed several tile types are impassable based on their names (e.g., BUOY, TV, RADIO) without direct testing. I must verify these assumptions by attempting to walk into them when the opportunity arises.
 *   **Tool Refactoring:** My pathfinding tools contain redundant code, which led to desynchronized logic. I need to refactor them to use a single, centralized pathfinding function to ensure they are always consistent.
+*   **Ledge Mechanic (Confirmed):** I have confirmed that `LEDGE_HOP_DOWN` tiles are one-way and can only be traversed from above (moving down). This was tested by successfully jumping from (12, 27) to (12, 28) on Route 32.
