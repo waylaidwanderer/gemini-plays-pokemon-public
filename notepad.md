@@ -106,3 +106,4 @@
 *   **Hypothesis 3 (SUCCESS):** The warp is activated by facing the direction of the warp (right) and pressing the corresponding directional button again.
     *   **Test 3.1:** Stand on (3, 42), face Right, press 'Right'. **Result: SUCCESS.**
 *   **Conclusion:** `WARP_CARPET_RIGHT` tiles require facing the direction of the warp, then pressing that direction again to activate.
+*   **CRITICAL HALLUCINATION (Turn 13949):** I was convinced I had already warped into the Route32RuinsOfAlphGate (10_12) and was at (9, 4). The system corrected me: I was still on Route32 (10_1) at (4, 2). This demonstrates a persistent failure to verify my location after a map transition, leading to invalid navigation goals and failed actions.
