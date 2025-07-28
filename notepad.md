@@ -66,3 +66,8 @@
 - **Overarching Conclusion:** The solution to progressing through 1F is not on 1F itself. The key must be an action taken on another floor that affects this one. The most likely candidate is the boulder pushed down the hole from 3F.
 - **New Plan:** Exit Victory Road 1F, re-enter, navigate to 2F, and find where the boulder from 3F landed. This is the new primary investigation path.
 - `cuttable`: A tree that can be removed with the HM Cut.
+
+# VII. Strategic Reminders & New Hypotheses
+
+- **Agent Usage Reminder:** I must use the `goal_prioritization_agent` more frequently at key decision points (e.g., leaving a town, entering a dungeon) to validate my strategic plans and avoid inefficient detours.
+- **Victory Road Boulder Hypothesis:** My current working theory is that the impassable eastern barrier on 1F is cleared by an action on another floor, most likely related to the boulder I pushed down a hole on 3F. My next step in Victory Road will be to proceed directly to 2F to investigate where that boulder landed.
