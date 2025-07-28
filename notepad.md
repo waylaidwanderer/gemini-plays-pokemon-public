@@ -90,15 +90,14 @@
 
 # VIII. Puzzle Logs
 
-## A. Ilex Forest Exit Warp
+## A. Ilex Forest Exit Warp (SOLVED)
 *   **Location:** (3, 42) and (3, 43), type `WARP_CARPET_RIGHT`.
 *   **Objective:** Activate the warp to exit the forest.
-*   **Hypothesis 1:** The warp is activated by pressing 'A'.
-    *   **Test 1.1:** Stand on (3, 42), press 'A'. **Result: FAILED.**
-    *   **Test 1.2:** Stand on (3, 43), press 'A'. **Result: FAILED.**
-*   **Hypothesis 2:** The warp is movement-based, triggered by stepping onto it.
-    *   **Test 2.1:** Move from (3, 41) down to (3, 42). **Result: FAILED.**
-    *   **Test 2.2:** Move from (2, 42) right to (3, 42). **Result: FAILED.**
+*   **Hypothesis 1 (FAILED):** The warp is activated by pressing 'A'.
+*   **Hypothesis 2 (FAILED):** The warp is movement-based, triggered by stepping onto it.
+*   **Hypothesis 3 (SUCCESS):** The warp is activated by facing the direction of the warp (right) and pressing the corresponding directional button again.
+    *   **Test 3.1:** Stand on (3, 42), face Right, press 'Right'. **Result: SUCCESS.**
+*   **Conclusion:** `WARP_CARPET_RIGHT` tiles require facing the direction of the warp, then pressing that direction again to activate.
 
 # IX. Cognitive Loop Failures & Resolutions
 
