@@ -41,24 +41,20 @@
 - **Victory Road 2F - Western Trap:** Pushing the boulder onto the switch at (2, 17) primes a trap that opens the barrier at (8, 9) and (8, 10) after leaving and re-entering the floor.
 - **Victory Road 3F - Hole Puzzle:** Pushing the boulder at (14, 13) south into the hole at (14, 15) causes it to drop to the floor below.
 
-# IV. Current Plans & Lessons Learned
-
-## A. Current Plan
-- **Immediate Priority:** Systematically debug and fix the `pathfinder_lite` tool. It is currently unreliable and preventing progress. The test case is navigating from Viridian City to Route 22.
-
-## B. Key Lessons
-- **Complex Failure Analysis:** My debugging of `pathfinder_lite` was flawed. I incorrectly assumed the tool was broken when it failed to find a path on Route 22, when in fact no path existed. This was a failure on my part to trust the data. However, subsequent tests in Viridian City have proven the tool *is* also fundamentally broken, as it repeatedly generates paths through water and other impassable tiles. Both my assumptions and the tool's code require fixing.
+# IV. Lessons Learned
+- **Trust But Verify:** I must trust my tools' outputs (e.g., 'no path found') as potentially correct interpretations of the game state, rather than immediately assuming the tool is broken. However, when a tool generates a demonstrably invalid output (e.g., a path through a wall), I must systematically debug it. My recent debugging efforts were stalled by a failure to apply this lesson, as I incorrectly assumed a path existed on Route 22.
+- **Efficient Debugging:** Repetitively running the same failing test case is inefficient. I must vary the test conditions (e.g., change the target destination) to gather new diagnostic data and isolate bugs more effectively.
 
 # V. Future Development Ideas
-- **`puzzle_strategist_agent`:** An agent to analyze environmental puzzles and suggest high-level solutions.
-- **`movement_tester_tool`:** An automated tool to test tile transitions and log outcomes.
-- **`team_builder_agent`:** An agent to suggest optimal party compositions for major challenges.
-- **`hm_troubleshooter_agent`:** An agent to automate testing of HM usage when it fails.
-- **`fly_helper_tool`:** A tool to automate selecting a destination from the Fly menu.
+- `puzzle_strategist_agent`: An agent to analyze environmental puzzles and suggest high-level solutions.
+- `movement_tester_tool`: An automated tool to test tile transitions and log outcomes.
+- `team_builder_agent`: An agent to suggest optimal party compositions for major challenges.
+- `hm_troubleshooter_agent`: An agent to automate testing of HM usage when it fails.
+- `fly_helper_tool`: A tool to automate selecting a destination from the Fly menu.
+- `tool_diagnostics_agent`: An agent to analyze a tool's output against game state data to determine if a 'failure' is a correct assessment of the world.
 
 # VI. Tool & Agent Development
 
 ## A. Pathfinder Status
-- **Status:** The `pathfinder_lite` tool is CRITICALLY UNRELIABLE and UNTRUSTWORTHY. It has repeatedly generated invalid paths into walls (Route 22) and water tiles (Viridian City).
-- **Current Action:** The tool is undergoing intensive debugging. I have added logging to trace the A* algorithm's path construction to identify the root cause of the invalid node selection. This is the highest priority task.
-- **`tool_diagnostics_agent`:** An agent to analyze a tool's output against game state data to determine if a 'failure' is a correct assessment of the world.
+- **Status:** The `pathfinder_lite` tool is CRITICALLY UNRELIABLE and UNTRUSTWORTHY. It has repeatedly generated invalid paths into walls, water tiles, and through NPCs.
+- **Current Debugging Focus:** The issue is not in the initial identification of obstacles (impassable tiles, water, NPCs), which my tests confirm is working. The bug lies within the A* search loop, which is failing to correctly use the set of identified obstacles to prune invalid paths.
