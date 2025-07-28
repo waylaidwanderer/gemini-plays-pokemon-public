@@ -9,7 +9,7 @@
 *   **Verify Location:** Always verify my current map and coordinates before planning any navigation, especially after a map transition.
 
 ## B. Tile Traversal Rules
-*   **Traversable:** TALL_GRASS, LONG_GRASS, DOOR, WARP_CARPET_LEFT, WARP_CARPET_DOWN, LADDER, FLOOR.
+*   **Traversable:** TALL_GRASS, LONG_GRASS, DOOR, WARP_CARPET_DOWN, LADDER, FLOOR.
 *   **Impassable (Verified):** WALL, WINDOW, VOID, CUT_TREE, SIGN, BOOKSHELF, BLACKBOARD, MART_SHELF, BUOY, TV, TOWN_MAP, RADIO, INCENSE_BURNER, BIRD, HEADBUTT_TREE, FRUIT_TREE.
 *   **Special Interaction (Impassable but Interactable):**
     *   **PC:** Impassable. Interact by standing below it at (X, Y+1), facing up, and pressing 'A'.
@@ -21,6 +21,7 @@
 *   **Special Interaction (Warp):
     *   **CAVE:** Can act as a one-way warp. The tile at Route 33 (11, 9) is a confirmed one-way entrance to Union Cave (17, 31). The tile at Route 32 (6, 79) is a confirmed one-way entrance to Union Cave (17, 3). Should be treated as impassable for pathfinding.
     *   **WARP_CARPET_RIGHT:** Requires being on the tile, facing the direction of the warp, and then pressing the directional button again.
+    *   **WARP_CARPET_LEFT:** Requires being on the tile, facing the direction of the warp, and then pressing the directional button again.
 *   **Special Interaction (Fishing):**
     *   WATER: Impassable to walk on, but can be fished in with a rod.
 
@@ -39,10 +40,11 @@
 # III. Story & Quests
 
 ## A. Current Quest
-*   **Current Quest:** Investigate the strange tree on Route 36.
+*   **Current Quest:** Solve the Ruins of Alph puzzles.
 
 ## B. NPC Hints & Lore
 *   A Fisher in Union Cave at (14, 19) mentioned that strange roars can be heard from deep within the cave on weekends.
+*   WADE on Route 31 will share BERRIES if I visit him.
 
 # IV. Methodical Mechanics Testing & Debugging
 
@@ -71,6 +73,7 @@
 
 ## A. Untested Hypotheses
 *   **Union Cave Connectivity:** An alternative hypothesis for the disconnected nature of the cave is that a hidden switch or event must be triggered to open a new path. This is currently untestable without full exploration.
+*   **Route 32 North Path:** The path north is blocked by trees and walls. An alternative hypothesis is that there is a hidden switch or event that clears this path. This is untestable until I have HMs like Cut.
 
 ## B. Technical Investigations & Hallucinations
 *   **CRITICAL HALLUCINATION (Turn 11733):** I believed I had already transitioned to Route 33 and was trying to pathfind from there. The system corrected me; I was still at the exit of Azalea Town (39, 15). This highlights the need to always verify my current location before planning.
@@ -84,13 +87,14 @@
     *   **Resolution:** Trust my `procedural_overseer` agent. Treat the northern warp as a one-way entrance. The only viable path forward is the southern exit to Route 33 at (17, 31).
 *   **CRITICAL HALLUCINATION (Turn 13715):** I attempted to pathfind north on Route 33 but my path took me over the CAVE tile at (11, 9), which is a one-way warp back into Union Cave. I failed to check the tile type before generating the path. This reinforces the need to be extremely diligent about verifying every tile in a planned route, not just the destination.
 *   **CRITICAL HALLUCINATION (Turn 13868 & 13877):** I was convinced my pathfinder was broken and spent multiple turns debugging it. The exhaustive logs finally proved the tool was correct all along: a solid wall at y=39 and water to the east completely block the path north from the western grass patch on Route 32. This was a complete failure of my own map awareness and a critical reminder to trust my verified tools over my visual intuition.
+*   **Tool Contradiction (Turns ~13913-13921):** My `exploration_strategist` and `find_reachable_unseen_tiles` claimed an area was reachable while my `pathfinder` claimed it was not. This was caused by desynchronized pathfinding logic between the tools. **Resolution:** Consolidated the pathfinding logic into a single source of truth, confirming the area was unreachable and that the `pathfinder` was correct.
 
 # VI. Key Items & HMs
 *   **OLD ROD:** Received from the Fishing Guru in the Route 32 Pokémon Center.
 
 # VII. Held Items
 *   **POISON BARB:** Received from FRIEDA on Route 32 on a Friday. Boosts the power of poison-type moves.
-*   **Ilex Forest North Path (Confirmed Blocked):** My `find_reachable_unseen_tiles` tool returned an empty list, confirming the northern unseen area is unreachable from the south due to the CUT_TREE at (8, 25).
+*   **MIRACLE SEED:** Received from Cooltrainer M on Route 32. Boosts the power of grass-type moves.
 
 # VIII. Puzzle Logs
 
@@ -102,11 +106,3 @@
 *   **Hypothesis 3 (SUCCESS):** The warp is activated by facing the direction of the warp (right) and pressing the corresponding directional button again.
     *   **Test 3.1:** Stand on (3, 42), face Right, press 'Right'. **Result: SUCCESS.**
 *   **Conclusion:** `WARP_CARPET_RIGHT` tiles require facing the direction of the warp, then pressing that direction again to activate.
-
-# IX. Tile Definitions
-*   **LADDER:** Acts as a warp between floors. Traversable.
-*   **WARP_CARPET_DOWN:** Acts as a warp. Traversable.
-*   **VOID:** Impassable tile type, acts as a wall.
-*   **WARP_CARPET_LEFT:** Requires being on the tile, facing the direction of the warp, and then pressing the directional button again.
-*   WADE on Route 31 will share BERRIES if I visit him.
-*   **MIRACLE SEED:** Received from Cooltrainer M on Route 32. Boosts the power of grass-type moves.
