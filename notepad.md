@@ -48,3 +48,12 @@
 - **Current Objective:** Systematically re-explore the western upper platform to find the navigable path to the ladder at (2, 2).
 
 # V. Future Development Ideas
+
+# VI. Tool & Agent Development
+
+## A. Pathfinder Overhaul
+- **Problem:** The `pathfinder_lite` tool is critically flawed and cannot reliably navigate maps with elevation changes via `steps` tiles.
+- **Plan:** A full rewrite is necessary. Before that, I must conduct a systematic test of the `steps` tile mechanic. I will manually move onto a `steps` tile from `ground`, then attempt to move to all adjacent `elevated_ground` tiles, and vice-versa. I will document every allowed and disallowed transition to establish a ground truth for the new pathfinding logic.
+
+## B. Future Agent Ideas
+- **`navigation_strategist_agent`:** An agent that takes failed pathfinder output and suggests high-level alternative navigation strategies or hypotheses to test, such as investigating unknown tile mechanics or searching for alternate routes that bypass the point of failure.
