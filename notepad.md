@@ -57,6 +57,4 @@
 # VI. Tool Development Bugs & Fixes
 - **Defeated Trainer Impassability (Confirmed):** Defeated trainers are impassable obstacles. This was confirmed by attempting to walk through the Youngster at (7,11). The `gem_pathfinder` tool has been updated to reflect this.
 - **Victory Road 1F - Boulder/Steps Interaction (Confirmed):** Boulders cannot be pushed onto `steps` tiles. This was confirmed after multiple failed attempts to push the boulder at (6, 15) north onto the steps at (6, 14).
-- **gem_pathfinder Limitation (Puzzle Solving):** The tool has repeatedly failed to find paths that require solving boulder puzzles. This is not a bug, but a limitation of its design—it can only navigate the current state of the map. It cannot be trusted to find solutions to puzzles, which must be solved manually. It remains reliable for simple point-to-point navigation on a static map.
-- `puzzle_strategist_agent`: An agent to analyze map layouts and suggest which puzzles to tackle first based on potential rewards or progression unlocks.
-- `puzzle_strategist_agent`: An agent to analyze map layouts and suggest which puzzles to tackle first based on potential rewards or progression unlocks.
+- `gem_pathfinder` Limitation (Puzzle Solving): The tool has repeatedly failed to find paths that require solving boulder puzzles. This is not a bug, but a limitation of its design—it can only navigate the current state of the map. It cannot be trusted to find solutions to puzzles, which must be solved manually. It remains reliable for simple point-to-point navigation on a static map.
