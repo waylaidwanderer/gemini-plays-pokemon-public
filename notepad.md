@@ -65,3 +65,4 @@
 - **Eastern Path Conclusion:** The boulder barrier at (10, 13) cannot be opened by any switch on 1F. All on-floor hypotheses have been tested and failed.
 - **Overarching Conclusion:** The solution to progressing through 1F is not on 1F itself. The key must be an action taken on another floor that affects this one. The most likely candidate is the boulder pushed down the hole from 3F.
 - **New Plan:** Exit Victory Road 1F, re-enter, navigate to 2F, and find where the boulder from 3F landed. This is the new primary investigation path.
+- `cuttable`: A tree that can be removed with the HM Cut.
