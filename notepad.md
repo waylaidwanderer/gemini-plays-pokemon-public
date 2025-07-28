@@ -59,3 +59,16 @@
   3. Move to (4, 15), push boulder at (4, 16) Down to (4, 17).
   4. Move to (5, 17), push boulder at (4, 17) Left to (3, 17).
   5. Move to (4, 17), push boulder at (3, 17) Left to (2, 17).
+
+# VI. Victory Road 3F - Main Boulder Puzzle Solution
+
+- **Goal:** Move boulder from (23, 4) to switch at (4, 6).
+- **Plan:**
+  1. Move to (24, 4), push boulder at (23, 4) Left.
+  2. Move to (22, 5), push boulder at (22, 4) Up.
+  3. Move to (22, 4), push boulder at (22, 3) Up.
+  4. Move to (23, 2), push boulder at (22, 2) Left (x11 times).
+  5. Move to (7, 1), push boulder at (8, 1) Down.
+  6. Move to (8, 3), push boulder at (7, 3) Left (x4 times).
+  7. Move to (3, 2), push boulder at (4, 2) Down (x3 times).
+  8. Move to (2, 6), push boulder at (3, 6) Right.
