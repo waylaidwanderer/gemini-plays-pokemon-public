@@ -58,7 +58,6 @@
 - `team_builder_agent`: An agent to suggest optimal party compositions for major challenges.
 - `hm_troubleshooter_agent`: An agent to automate testing of HM usage when it fails.
 - `fly_helper_tool`: A tool to automate selecting a destination from the Fly menu.
-- `puzzle_strategist_agent`: A high-level agent to analyze puzzle elements (boulders, switches, barriers) and devise a sequence of objectives to solve complex, multi-step puzzles.
 
 # VI. Problem-Solving Log: Victory Road 1F Barrier
 
