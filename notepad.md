@@ -15,8 +15,9 @@
     *   LEDGE_HOP_DOWN: Can only be entered from above.
     *   LEDGE_HOP_RIGHT: Can only be entered from the left.
     *   LEDGE_HOP_LEFT: Can only be entered from the right.
-*   **Special Interaction (Warp):**
+*   **Special Interaction (Warp):
     *   **CAVE:** Can act as a one-way warp. The tile at Route 33 (11, 9) is a confirmed one-way entrance to Union Cave (17, 31). The tile at Route 32 (6, 79) is a confirmed one-way entrance to Union Cave (17, 3). Should be treated as impassable for pathfinding.
+    *   **WARP_CARPET_RIGHT:** Requires being on the tile, facing the direction of the warp, and then pressing the directional button again.
 *   **Special Interaction (Fishing):**
     *   WATER: Impassable to walk on, but can be fished in with a rod.
 
@@ -74,16 +75,15 @@
 *   **Route 33 North Path (Confirmed Blocked):** Manually attempting to move north from (9, 10) confirmed that the tile at (9, 9) is an impassable wall. My pathfinding tools were correct; the northern unseen area is unreachable from this side due to one-way ledges.
 *   **CRITICAL HALLUCINATION (Turn 12026):** I completely misunderstood my location. I believed I had successfully navigated through Union Cave and was exploring Route 32. In reality, I had exited the cave and immediately re-entered through the northern warp at (6, 79), which I mistook for a path forward. This highlights a critical need to slow down and verify my location after every single map transition, no matter how certain I feel.
 *   **CRITICAL HALLUCINATION (Turn 12744 & 12797):** I have repeatedly become disoriented about my location after map transitions, believing I was on a different map or outside when I was still inside. This is a recurring issue. I MUST verify my map and coordinates before every single navigational plan.
+*   **CRITICAL HALLUCINATION (Turn 13525):** I hallucinated that I had successfully warped from Ilex Forest to the IlexForestAzaleaGate. I was still in the forest at (3, 42). This led to a failed pathfinding attempt. I must be extremely diligent about verifying my map and coordinates after every single map transition.
+*   **CRITICAL HALLUCINATION (Turn 13546):** I hallucinated my position, believing I was at (8, 26) after a phone call when I was still at (6, 28). This reinforces the absolute need to verify my location after any interruption, not just map transitions.
 
 # VI. Key Items & HMs
 *   **OLD ROD:** Received from the Fishing Guru in the Route 32 Pokémon Center.
 
 # VII. Held Items
 *   **POISON BARB:** Received from FRIEDA on Route 32 on a Friday. Boosts the power of poison-type moves.
-*   **Traversable (Warp):** WARP_CARPET_RIGHT
 *   **Ilex Forest North Path (Confirmed Blocked):** My `find_reachable_unseen_tiles` tool returned an empty list, confirming the northern unseen area is unreachable from the south due to the CUT_TREE at (8, 25).
-*   **CRITICAL HALLUCINATION (Turn 13525):** I hallucinated that I had successfully warped from Ilex Forest to the IlexForestAzaleaGate. I was still in the forest at (3, 42). This led to a failed pathfinding attempt. I must be extremely diligent about verifying my map and coordinates after every single map transition.
-*   **CRITICAL HALLUCINATION (Turn 13546):** I hallucinated my position, believing I was at (8, 26) after a phone call when I was still at (6, 28). This reinforces the absolute need to verify my location after any interruption, not just map transitions.
 
 # VIII. Puzzle Logs
 
@@ -96,6 +96,3 @@
 *   **Hypothesis 2:** The warp is movement-based, triggered by stepping onto it.
     *   **Test 2.1:** Move from (3, 41) down to (3, 42). **Result: FAILED.**
     *   **Test 2.2:** Move from (2, 42) right to (3, 42). **Result: FAILED.**
-*   **Hypothesis 3:** The warp is triggered by facing the correct direction (`Right`) while standing on the tile, and then pressing the same direction again.
-    *   **Test 3.1:** Stand on (3, 43), press `Right` to face the wall. **Result: SUCCESSFUL WARP.**
-*   **Conclusion:** `WARP_CARPET_RIGHT` requires being on the tile, facing the direction of the warp, and then pressing the directional button again.
