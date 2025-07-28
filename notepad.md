@@ -110,3 +110,4 @@
 *   **Impassable (Untested Assumption):** COMPUTER, PRINTER.
 *   **CRITICAL HALLUCINATION (Turn 13982):** I had a turn number mismatch, reporting 13980 when the turn was 13981. This is a recurring issue with my internal state tracking.
 *   **Impassable (Untested Assumption):** COMPUTER, PRINTER.
+*   Wade mentioned a Bug-Catching Contest at the National Park is happening today.
