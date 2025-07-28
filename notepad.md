@@ -109,3 +109,4 @@
 *   **WARP_CARPET_DOWN:** Acts as a warp. Traversable.
 *   **VOID:** Impassable tile type, acts as a wall.
 *   **CRITICAL HALLUCINATION (Turn 13868):** I believed the path north on Route 32 from (11, 40) was clear and spent multiple turns debugging a 'broken' pathfinder tool. Exhaustive logs finally confirmed the tool was correct: a solid wall exists at y=39, making the path impassable. This was a complete failure of my own map awareness, not a tool bug.
+*   **CRITICAL HALLUCINATION (Turn 13868):** I believed the path north on Route 32 from (11, 40) was clear and spent multiple turns debugging a 'broken' pathfinder tool. Exhaustive logs finally confirmed the tool was correct: a solid wall exists at y=39, making the path impassable. This was a complete failure of my own map awareness, not a tool bug.
