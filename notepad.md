@@ -71,5 +71,4 @@
 ## Victory Road 1F - Path to Ladder (Hypothesis #2: Eastern Boulder)
 - **Observation:** The boulder barrier at (10, 13) blocks the path forward on the eastern platform.
 - **Hypothesis:** Pushing the boulder at (9, 15) onto the switch at (18, 14) will open the boulder barrier at (10, 13).
-- **Test Plan:** Navigate to the lower level, push the boulder from (9, 15) to the switch at (18, 14), and then return to (9, 13) to observe the barrier.
-- **Attempt #1:** Starting now.
+- **Conclusion:** The boulder at (9, 15) is immovable. The tile required to push it right, (8, 15), is an impassable wall, and all other push directions are also blocked. **Hypothesis #2 is FALSE.**
