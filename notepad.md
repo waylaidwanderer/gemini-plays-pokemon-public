@@ -97,3 +97,12 @@
     *   **Hypothesis:** I must speak to the apprentice in Ilex Forest again.
     *   **Alt. Hypothesis 1:** I must speak to another NPC in Azalea Town (e.g., Kurt) who may have new dialogue.
     *   **Alt. Hypothesis 2:** The trigger is time-based (e.g., day of the week).
+
+# New Core Directive
+*   **Fix Tools Immediately:** If a tool produces a verifiable error (e.g., generates an invalid path, crashes, or returns incorrect information), fixing it becomes the absolute highest priority, superseding any gameplay objective.
+
+# Untested Hypotheses (New Section)
+*   **Cut Quest Trigger:**
+    *   **Hypothesis:** I must speak to the apprentice in Ilex Forest again.
+    *   **Alt. Hypothesis 1:** I must speak to another NPC in Azalea Town (e.g., Kurt) who may have new dialogue.
+    *   **Alt. Hypothesis 2:** The trigger is time-based (e.g., day of the week).
