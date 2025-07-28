@@ -15,7 +15,7 @@
 - `water`: Requires SURF.
 - `impassable`: Wall.
 - `elevated_ground`: Walkable, different elevation. Movement to a lower elevation is *only* possible via `steps` tiles or `cleared_boulder_barrier` tiles. Direct movement to a lower `ground` tile is impossible.
-- `steps`: Allows movement between elevations.
+- `steps`: Allows movement between elevations. (MECHANICS UNVERIFIED - REQUIRES SYSTEMATIC TESTING)
 - `boulder_switch`: Floor switch for boulders.
 - `boulder_barrier`: Impassable barrier linked to a boulder switch.
 - `cleared_boulder_barrier`: Acts as a one-way ramp. It is only possible to move DOWN from an elevated area onto this tile, not UP from a lower area.
@@ -32,7 +32,7 @@
 - **Correction:** Psychic-type moves deal NEUTRAL (1x) damage to Rock-type Pokémon.
 
 ## B. Trainer Battle Rules
-- **No Respawns:** Defeated trainers do NOT respawn. They become permanent obstacles that are impassable by normal movement.
+- **Trainer Impassability (Hypothesis):** Defeated trainers do NOT respawn. They generally become impassable obstacles, but this may not be a universal rule. (e.g., The Youngster at (7, 11) on Victory Road 1F might be passable. Needs verification).
 
 # III. Puzzle Mechanics & Key Discoveries
 
@@ -41,19 +41,21 @@
 - **Victory Road 3F - Hole Puzzle:** Pushing the boulder at (14, 13) south into the hole at (14, 15) causes it to drop to the floor below, affecting a puzzle there.
 
 # IV. Current Objectives & Hypotheses
-
-## Victory Road 1F Puzzle - RE-EVALUATION
-- **Primary Obstacle:** Reaching the ladder to 2F at (2, 2).
-- **Corrected Understanding:** My previous conclusion that I was trapped on the western side of Victory Road 1F was INCORRECT. The game state confirms a path forward exists. The defeated NPC at (7, 11) must not be a permanent, impassable blocker for the entire path, or there is an alternate route on the platform I have missed.
-- **Current Objective:** Systematically re-explore the western upper platform to find the navigable path to the ladder at (2, 2).
+- **Primary Goal:** Heal fainted party members.
+- **Secondary Goal:** Train party for Elite Four.
+- **Current Objective:** Manually navigate out of Victory Road 1F to reach a Pokémon Center. The exit is at (9, 18).
 
 # V. Future Development Ideas
+- **`puzzle_strategist_agent`:** An agent to analyze environmental puzzles (like boulder puzzles) and suggest high-level solutions.
+- **`movement_tester_tool`:** An automated tool to test tile transitions and log outcomes, to gather ground-truth data for pathfinding logic.
 
 # VI. Tool & Agent Development
 
 ## A. Pathfinder Overhaul
 - **Problem:** The `pathfinder_lite` tool is critically flawed and cannot reliably navigate maps with elevation changes via `steps` tiles.
-- **Plan:** A full rewrite is necessary. Before that, I must conduct a systematic test of the `steps` tile mechanic. I will manually move onto a `steps` tile from `ground`, then attempt to move to all adjacent `elevated_ground` tiles, and vice-versa. I will document every allowed and disallowed transition to establish a ground truth for the new pathfinding logic.
-
-## B. Future Agent Ideas
-- **`navigation_strategist_agent`:** An agent that takes failed pathfinder output and suggests high-level alternative navigation strategies or hypotheses to test, such as investigating unknown tile mechanics or searching for alternate routes that bypass the point of failure.
+- **Plan:** A full rewrite is necessary. Before that, I must conduct a systematic test of the `steps` tile mechanic to establish a ground truth for the new pathfinding logic.
+- **`steps` Tile Test Plan:**
+  1. Manually navigate to a `steps` tile (e.g., Victory Road 1F at (16, 8)).
+  2. Attempt to move from the `steps` tile to all adjacent `ground` and `elevated_ground` tiles. Document each allowed and disallowed transition.
+  3. Attempt to move from adjacent `ground` and `elevated_ground` tiles onto the `steps` tile. Document each allowed and disallowed transition.
+  4. Use this verified data to rewrite the `pathfinder_lite` movement validation logic.
