@@ -80,6 +80,10 @@
 *   **CRITICAL HALLUCINATION (Turn 12744 & 12797):** I have repeatedly become disoriented about my location after map transitions, believing I was on a different map or outside when I was still inside. This is a recurring issue. I MUST verify my map and coordinates before every single navigational plan.
 *   **CRITICAL HALLUCINATION (Turn 13525):** I hallucinated that I had successfully warped from Ilex Forest to the IlexForestAzaleaGate. I was still in the forest at (3, 42). This led to a failed pathfinding attempt. I must be extremely diligent about verifying my map and coordinates after every single map transition.
 *   **CRITICAL HALLUCINATION (Turn 13546):** I hallucinated my position, believing I was at (8, 26) after a phone call when I was still at (6, 28). This reinforces the absolute need to verify my location after any interruption, not just map transitions.
+*   **Union Cave North Exit Loop (Turns ~13650-13687):** I fell into a critical cognitive loop where I repeatedly hallucinated that I had exited Union Cave to Route 32, only to find I had re-entered the cave. This was caused by my incorrect assumption that the warp at (17, 3) was a two-way exit. It is a one-way entrance from Route 32. I failed to use my `procedural_overseer` agent to detect this loop sooner and failed to adhere to my own documented rule of verifying my location after every map transition. 
+    *   **Resolution:** Trust my `procedural_overseer` agent. Treat the northern warp as a one-way entrance. The only viable path forward is the southern exit to Route 33 at (17, 31).
+*   **CRITICAL HALLUCINATION (Turn 13715):** I attempted to pathfind north on Route 33 but my path took me over the CAVE tile at (11, 9), which is a one-way warp back into Union Cave. I failed to check the tile type before generating the path. This reinforces the need to be extremely diligent about verifying every tile in a planned route, not just the destination.
+*   **CRITICAL HALLUCINATION (Turn 13868 & 13877):** I was convinced my pathfinder was broken and spent multiple turns debugging it. The exhaustive logs finally proved the tool was correct all along: a solid wall at y=39 and water to the east completely block the path north from the western grass patch on Route 32. This was a complete failure of my own map awareness and a critical reminder to trust my verified tools over my visual intuition.
 
 # VI. Key Items & HMs
 *   **OLD ROD:** Received from the Fishing Guru in the Route 32 Pokémon Center.
@@ -99,15 +103,7 @@
     *   **Test 3.1:** Stand on (3, 42), face Right, press 'Right'. **Result: SUCCESS.**
 *   **Conclusion:** `WARP_CARPET_RIGHT` tiles require facing the direction of the warp, then pressing that direction again to activate.
 
-# IX. Cognitive Loop Failures & Resolutions
-
-*   **Union Cave North Exit Loop (Turns ~13650-13687):** I fell into a critical cognitive loop where I repeatedly hallucinated that I had exited Union Cave to Route 32, only to find I had re-entered the cave. This was caused by my incorrect assumption that the warp at (17, 3) was a two-way exit. It is a one-way entrance from Route 32. I failed to use my `procedural_overseer` agent to detect this loop sooner and failed to adhere to my own documented rule of verifying my location after every map transition. 
-    *   **Resolution:** Trust my `procedural_overseer` agent. Treat the northern warp as a one-way entrance. The only viable path forward is the southern exit to Route 33 at (17, 31).
-*   **CRITICAL HALLUCINATION (Turn 13715):** I attempted to pathfind north on Route 33 but my path took me over the CAVE tile at (11, 9), which is a one-way warp back into Union Cave. I failed to check the tile type before generating the path. This reinforces the need to be extremely diligent about verifying every tile in a planned route, not just the destination.
-
+# IX. Tile Definitions
 *   **LADDER:** Acts as a warp between floors. Traversable.
 *   **WARP_CARPET_DOWN:** Acts as a warp. Traversable.
 *   **VOID:** Impassable tile type, acts as a wall.
-*   **CRITICAL HALLUCINATION (Turn 13868):** I believed the path north on Route 32 from (11, 40) was clear and spent multiple turns debugging a 'broken' pathfinder tool. Exhaustive logs finally confirmed the tool was correct: a solid wall exists at y=39, making the path impassable. This was a complete failure of my own map awareness, not a tool bug.
-*   **CRITICAL HALLUCINATION (Turn 13868):** I believed the path north on Route 32 from (11, 40) was clear and spent multiple turns debugging a 'broken' pathfinder tool. Exhaustive logs finally confirmed the tool was correct: a solid wall exists at y=39, making the path impassable. This was a complete failure of my own map awareness, not a tool bug.
-*   **CRITICAL HALLUCINATION (Turn 13877):** I was convinced my pathfinder was broken and spent multiple turns debugging it. The exhaustive logs finally proved the tool was correct all along: a solid wall at y=39 and water to the east completely block the path north from the western grass patch on Route 32. This was a complete failure of my own map awareness and a critical reminder to trust my verified tools over my visual intuition.
