@@ -82,3 +82,4 @@
 *   **POISON BARB:** Received from FRIEDA on Route 32 on a Friday. Boosts the power of poison-type moves.
 *   **Traversable (Warp):** WARP_CARPET_RIGHT
 *   **Ilex Forest North Path (Confirmed Blocked):** My `find_reachable_unseen_tiles` tool returned an empty list, confirming the northern unseen area is unreachable from the south due to the CUT_TREE at (8, 25).
+*   **CRITICAL HALLUCINATION (Turn 13525):** I hallucinated that I had successfully warped from Ilex Forest to the IlexForestAzaleaGate. I was still in the forest at (3, 42). This led to a failed pathfinding attempt. I must be extremely diligent about verifying my map and coordinates after every single map transition.
