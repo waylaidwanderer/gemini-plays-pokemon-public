@@ -3,9 +3,9 @@
 ## A. Core Rules
 - **Level Cap:** The level cap with 8 badges is 65.
 - **"No Will to Fight" Message:** Appears when the party menu cursor is on a fainted Pokémon. It is a cursor error, not a refusal to battle.
-- **HM Usage:** HMs are used from the party menu. Fainted Pokémon can use field moves (Hypothesis: May not apply everywhere, e.g., Route 23 SURF).
+- **HM Usage:** HMs are used from the party menu. Fainted Pokémon can use field moves.
 - **PC Interaction:** To use a PC, stand directly below it, face up, and press 'A'.
-- **Surfing:** Not all `ground` tiles adjacent to `water` are valid starting points for SURF. Character orientation might matter (Hypothesis: Untested).
+- **Surfing:** Not all `ground` tiles adjacent to `water` are valid starting points for SURF.
 - **Boulder Pushing:** Activate Strength from the party menu. Face the boulder and press the directional button. The boulder moves one tile, but the player's position does not change.
 - **Puzzle Resets:** Leaving and re-entering a floor resets all boulders to their original positions.
 
@@ -16,7 +16,7 @@
 - `impassable`: Wall.
 - `ledge`: One-way traversal. Can only be jumped DOWN from the tile directly above. Acts as a wall from all other directions.
 - `elevated_ground`: Walkable, different elevation. Movement to a lower elevation is *only* possible via `steps` tiles or `cleared_boulder_barrier` tiles. Direct movement to a lower `ground` tile is impossible.
-- `steps`: Allows movement between elevations. (MECHANICS UNVERIFIED - REQUIRES SYSTEMATIC TESTING)
+- `steps`: Allows movement between elevations.
 - `boulder_switch`: Floor switch for boulders.
 - `boulder_barrier`: Impassable barrier linked to a boulder switch.
 - `cleared_boulder_barrier`: Acts as a one-way ramp. It is only possible to move DOWN from an elevated area onto this tile, not UP from a lower area.
@@ -33,33 +33,31 @@
 - **Correction:** Psychic-type moves deal NEUTRAL (1x) damage to Rock-type Pokémon.
 
 ## B. Trainer Battle Rules
-- **Trainer Impassability (Hypothesis):** Defeated trainers do NOT respawn. They generally become impassable obstacles, but this may not be a universal rule. (e.g., The Youngster at (7, 11) on Victory Road 1F might be passable. Needs verification).
+- **Trainer Impassability (Hypothesis):** Defeated trainers do NOT respawn. They generally become impassable obstacles, but this may not be a universal rule.
 
 # III. Puzzle Mechanics & Key Discoveries
 
-- **Victory Road 1F - Western Platform:** This area contains the ladder to 2F at (2, 2). It is the only way to progress to the next floor, but it is inaccessible until the central barrier at (10, 13) is opened.
-- **Victory Road 2F - Western Trap:** This puzzle requires a two-step "prime and trigger" mechanic. Pushing the boulder onto the switch at (2, 17) primes the trap. Leaving the floor and re-entering triggers the event, opening the barrier at (8, 9) and (8, 10).
-- **Victory Road 3F - Hole Puzzle:** Pushing the boulder at (14, 13) south into the hole at (14, 15) causes it to drop to the floor below, affecting a puzzle there.
+- **Victory Road 1F - Western Platform:** This area contains the ladder to 2F at (2, 2).
+- **Victory Road 2F - Western Trap:** Pushing the boulder onto the switch at (2, 17) primes a trap that opens the barrier at (8, 9) and (8, 10) after leaving and re-entering the floor.
+- **Victory Road 3F - Hole Puzzle:** Pushing the boulder at (14, 13) south into the hole at (14, 15) causes it to drop to the floor below.
 
 # IV. Current Plans & Lessons Learned
 
 ## A. Current Plan
-- **Immediate Priority:** Fly to Viridian City to heal fainted party members.
-- **Next Step:** After healing, systematically debug and fix the `pathfinder_lite` tool, which is currently unreliable.
+- **Immediate Priority:** Systematically debug and fix the `pathfinder_lite` tool. It is currently unreliable and preventing progress. The test case is navigating from Viridian City to Route 22.
 
 ## B. Key Lessons
-- **Trust Your Tools (Corrected):** I have repeatedly failed to trust my `pathfinder_lite` tool's output. The tool correctly identified there was no path from the upper ledge of Route 22 to Viridian City. My assumption that the tool was broken was incorrect and led to wasted time. I repeated this mistake by attempting to debug the tool for generating what I perceived as invalid paths on the lower section of Route 22, when in fact my understanding of the map was flawed.
-- **Verify Map Layout:** Do not assume a path exists based on visual memory or intuition. Jumping down ledges can lead to one-way paths and dead ends. Always analyze the map data carefully before committing to a route.
+- **Complex Failure Analysis:** My debugging of `pathfinder_lite` was flawed. I incorrectly assumed the tool was broken when it failed to find a path on Route 22, when in fact no path existed. This was a failure on my part to trust the data. However, subsequent tests in Viridian City have proven the tool *is* also fundamentally broken, as it repeatedly generates paths through water and other impassable tiles. Both my assumptions and the tool's code require fixing.
 
 # V. Future Development Ideas
-- **`puzzle_strategist_agent`:** An agent to analyze environmental puzzles (like boulder puzzles) and suggest high-level solutions.
-- **`movement_tester_tool`:** An automated tool to test tile transitions and log outcomes, to gather ground-truth data for pathfinding logic.
-- **`team_builder_agent`:** An agent to suggest optimal party compositions for major challenges (e.g., Elite Four) based on available Pokémon in the PC.
-- **`hm_troubleshooter_agent`:** An agent to automate the systematic testing of HM usage when it fails, trying different adjacent tiles and hypotheses (e.g., fainted vs. healthy Pokémon) to find a solution.
+- **`puzzle_strategist_agent`:** An agent to analyze environmental puzzles and suggest high-level solutions.
+- **`movement_tester_tool`:** An automated tool to test tile transitions and log outcomes.
+- **`team_builder_agent`:** An agent to suggest optimal party compositions for major challenges.
+- **`hm_troubleshooter_agent`:** An agent to automate testing of HM usage when it fails.
+- **`fly_helper_tool`:** A tool to automate selecting a destination from the Fly menu.
 
 # VI. Tool & Agent Development
 
 ## A. Pathfinder Status
-- **Status:** The `pathfinder_lite` tool is currently UNRELIABLE and UNTRUSTWORTHY. It has repeatedly generated invalid paths on Route 22.
-- **Lesson Learned (Repeated Failure):** I failed to apply the lesson about trusting my tools. Instead of re-evaluating the map when the pathfinder produced unexpected results, I incorrectly assumed the tool was broken and wasted dozens of turns trying to 'fix' it. The tool's output, even when it seems wrong, must be treated as a reflection of the game data, prompting a re-evaluation of my own assumptions first.
-- **`steps` Tile Test Plan (On Hold):** The `steps` tile mechanic still requires systematic testing to perfect the pathfinder's elevation logic. This will be addressed when a more complex multi-level area is encountered.
+- **Status:** The `pathfinder_lite` tool is CRITICALLY UNRELIABLE and UNTRUSTWORTHY. It has repeatedly generated invalid paths into walls (Route 22) and water tiles (Viridian City).
+- **Current Action:** The tool is undergoing intensive debugging. I have added logging to trace the A* algorithm's path construction to identify the root cause of the invalid node selection. This is the highest priority task.
