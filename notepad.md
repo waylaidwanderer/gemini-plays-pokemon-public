@@ -71,3 +71,9 @@
 - `puzzle_execution_tool`: A high-level tool that takes the output of the `puzzle_strategist_agent` and automatically generates and executes the necessary `gem_pathfinder` calls and boulder push actions to solve a puzzle.
 - **Victory Road 1F - Boulder/Steps Interaction (Confirmed):** Boulders cannot be pushed onto `steps` tiles. This was confirmed after attempting to push the boulder at (6, 15) north onto the steps at (6, 14).
 - **Agent Failure (puzzle_strategist_agent):** The agent is unreliable for Victory Road puzzles. It repeatedly suggested pushing a boulder onto an impassable 'steps' tile, a move now confirmed to be impossible. The agent requires significant refinement before further use in puzzle-solving.
+## Eastern Platform Puzzle (Revisited)
+- **Observation:** A boulder barrier at (10, 13) blocks eastward progression. A switch exists at (3, 10).
+- **Hypothesis #2:** Pushing the boulder at (3, 11) onto the switch at (3, 10) and then resetting the map will open the barrier at (10, 13).
+- **Test:** Pushed the boulder, reset the map, and attempted to walk through the barrier at (10, 13).
+- **Conclusion:** **FALSE.** The barrier remains closed. The switch at (3, 10) does not control the barrier at (10, 13).
+- **New Hypothesis:** The boulder at (15, 3) must be pushed onto the switch at (18, 14) to open the barrier. I need to find a way to access that area.
