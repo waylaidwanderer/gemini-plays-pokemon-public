@@ -56,5 +56,5 @@
 - `fly_helper_tool`: A tool to automate selecting a destination from the Fly menu.
 
 # VI. Tool Development Bugs & Fixes
-- **Defeated Trainer Impassability Bug:** Both gem_pathfinder and boulder_puzzle_solver incorrectly treated defeated trainers as impassable. A fix has been implemented to ignore trainers marked with '☠️', but this fix requires successful real-world verification.
+- **Defeated Trainer Impassability Bug:** Both gem_pathfinder and boulder_puzzle_solver incorrectly treated defeated trainers as impassable. A fix has been implemented to ignore trainers marked with '☠️', but this fix is pending successful real-world verification.
 - **Victory Road 1F - Boulder/Steps Interaction:** Boulders cannot be pushed onto `steps` tiles. This was confirmed when attempting to push the boulder at (6, 15) north onto the steps at (6, 14).
