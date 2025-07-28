@@ -83,3 +83,16 @@
 *   **Traversable (Warp):** WARP_CARPET_RIGHT
 *   **Ilex Forest North Path (Confirmed Blocked):** My `find_reachable_unseen_tiles` tool returned an empty list, confirming the northern unseen area is unreachable from the south due to the CUT_TREE at (8, 25).
 *   **CRITICAL HALLUCINATION (Turn 13525):** I hallucinated that I had successfully warped from Ilex Forest to the IlexForestAzaleaGate. I was still in the forest at (3, 42). This led to a failed pathfinding attempt. I must be extremely diligent about verifying my map and coordinates after every single map transition.
+*   **CRITICAL HALLUCINATION (Turn 13546):** I hallucinated my position, believing I was at (8, 26) after a phone call when I was still at (6, 28). This reinforces the absolute need to verify my location after any interruption, not just map transitions.
+
+# VIII. Puzzle Logs
+
+## A. Ilex Forest Exit Warp
+*   **Location:** (3, 42) and (3, 43), type `WARP_CARPET_RIGHT`.
+*   **Objective:** Activate the warp to exit the forest.
+*   **Hypothesis 1:** The warp is activated by pressing 'A'.
+    *   **Test 1.1:** Stand on (3, 42), press 'A'. **Result: FAILED.**
+    *   **Test 1.2:** Stand on (3, 43), press 'A'. **Result: FAILED.**
+*   **Hypothesis 2:** The warp is movement-based, triggered by stepping onto it.
+    *   **Test 2.1:** Move from (3, 41) down to (3, 42). **Result: FAILED.**
+    *   **Test 2.2:** Move from (2, 42) right to (3, 42). **Result: FAILED.**
