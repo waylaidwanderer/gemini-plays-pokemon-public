@@ -67,7 +67,7 @@
 ## B. Technical Investigations & Hallucinations
 *   **Recurring Hallucinations (Summary):** I have a persistent issue with spatial disorientation, frequently hallucinating my map ID and coordinates after map transitions, interruptions (like phone calls), or when pathfinding logic fails. This has led to numerous wasted turns and looping behaviors. The core lesson is that I cannot trust my own memory of my location. I MUST make it a reflexive, non-negotiable habit to check my current map and coordinates in the game state before every single navigational action.
 
-*   **Tool Contradiction (Turns ~13913-13921):** My `exploration_strategist` and `find_reachable_unseen_tiles` claimed an area was reachable while my `pathfinder` claimed it was not. This was caused by desynchronized pathfinding logic between the tools. **Resolution:** Consolidated the pathfinding logic into a single source of truth, confirming the area was unreachable and that the `pathfinder` was correct.
+*   **Tool Contradiction (Summary):** I previously had desynchronized pathfinding logic between tools, leading to conflicting reports on reachability. This has been resolved by consolidating all navigation logic into the `pathfinder` tool, which is now the single source of truth.
 
 # VI. Key Items & HMs
 *   **OLD ROD:** Received from the Fishing Guru in the Route 32 Pokémon Center.
