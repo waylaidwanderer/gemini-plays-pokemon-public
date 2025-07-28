@@ -34,7 +34,7 @@
 - **Correction:** Psychic-type moves deal NEUTRAL (1x) damage to Rock-type Pokémon.
 
 ## B. Trainer Battle Rules
-- **Defeated Trainers:** Defeated trainers do NOT respawn, but they ARE impassable obstacles that block movement. My previous assumption that they were traversable was incorrect and has been disproven by observation.
+- **Defeated Trainers:** Defeated trainers do NOT respawn, but they ARE impassable obstacles that block movement. My previous assumption that they were traversable was incorrect and has been disproven by in-game testing at (7,11) on Victory Road 1F.
 
 # III. Puzzle Mechanics & Key Discoveries
 
