@@ -62,3 +62,4 @@
 # VI. Held Items
 *   **POISON BARB:** Received from FRIEDA on Route 32 on a Friday. Boosts the power of poison-type moves.
 *   **Scientific Method for Mechanics:** When encountering a new or unclear game mechanic, I must adopt a strict 'test-first' approach. 1. Form a clear, simple hypothesis. 2. Design and execute a manual in-game test to confirm or deny it. 3. Document the verified results in the notepad. 4. Only after a mechanic is fully verified should I implement it in a custom tool.
+*   **Pathfinder Failure (Turn 13092):** The `pathfinder` tool has failed again, even with the latest logic for `FLOOR_UP_WALL` tiles. The tool is unreliable. Switching to a 'test-first' manual exploration strategy to gather definitive data on all tile mechanics before attempting to fix the tool again.
