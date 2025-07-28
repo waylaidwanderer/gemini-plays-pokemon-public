@@ -40,9 +40,15 @@
 - **Victory Road 2F - Western Trap:** This puzzle requires a two-step "prime and trigger" mechanic. Pushing the boulder onto the switch at (2, 17) primes the trap. Leaving the floor and re-entering triggers the event, opening the barrier at (8, 9) and (8, 10).
 - **Victory Road 3F - Hole Puzzle:** Pushing the boulder at (14, 13) south into the hole at (14, 15) causes it to drop to the floor below, affecting a puzzle there.
 
-# IV. Current Plans & Hypotheses
-- **Healing Plan:** Navigate south through Route 23 to the Route 22 Gatehouse, then to Viridian City to use the Pokémon Center.
-- **Hypothesis to Test:** Verify if defeated trainers are always impassable.
+# IV. Current Plans & Lessons Learned
+
+## A. Current Plan
+- **Primary Goal:** Heal fainted party members.
+- **Plan:** Navigate south through the entirety of Route 23 to reach the upper level of Route 22, which connects to Viridian City. The lower level of Route 22, accessed via ledges, is a dead end and does not lead to the city.
+
+## B. Key Lessons
+- **Trust Your Tools:** The `pathfinder_lite` tool correctly identified that there was no path to Viridian City from the upper level of Route 22. My assumption that the tool was broken was incorrect and led to wasted time. The tool's output, when based on game data, should be trusted as a source of truth.
+- **Verify Map Layout:** Do not assume a path exists based on visual memory. Jumping down ledges can lead to one-way paths and dead ends. Always analyze the map data carefully before committing to a route.
 
 # V. Future Development Ideas
 - **`puzzle_strategist_agent`:** An agent to analyze environmental puzzles (like boulder puzzles) and suggest high-level solutions.
@@ -52,10 +58,6 @@
 # VI. Tool & Agent Development
 
 ## A. Pathfinder Overhaul
-- **Problem:** The `pathfinder_lite` tool is critically flawed and cannot reliably navigate maps with elevation changes via `steps` tiles.
-- **Plan:** A full rewrite is necessary. Before that, I must conduct a systematic test of the `steps` tile mechanic to establish a ground truth for the new pathfinding logic.
-- **`steps` Tile Test Plan:**
-  1. Manually navigate to a `steps` tile (e.g., Victory Road 1F at (16, 8)).
-  2. Attempt to move from the `steps` tile to all adjacent `ground` and `elevated_ground` tiles. Document each allowed and disallowed transition.
-  3. Attempt to move from adjacent `ground` and `elevated_ground` tiles onto the `steps` tile. Document each allowed and disallowed transition.
-  4. Use this verified data to rewrite the `pathfinder_lite` movement validation logic.
+- **Status:** The `pathfinder_lite` tool has been successfully updated with logic for ledges and an explicit check against water tiles. It is now considered reliable.
+- **Lesson Learned:** The tool's initial failure on Route 22 was not a bug; it correctly reported that no path existed from the upper platform. My failure was in not trusting the tool's output and instead assuming it was flawed. Future pathfinding failures should first prompt a thorough re-examination of the map for missed obstacles or layout complexities, not an immediate tool rewrite.
+- **`steps` Tile Test Plan (On Hold):** The `steps` tile mechanic still requires systematic testing to perfect the pathfinder's elevation logic. This will be addressed when a more complex multi-level area is encountered.
