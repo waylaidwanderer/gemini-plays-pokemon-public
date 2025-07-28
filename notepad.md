@@ -61,3 +61,4 @@
 ## A. Pathfinder Status
 - **Status:** The `pathfinder_lite` tool is CRITICALLY UNRELIABLE and UNTRUSTWORTHY. It has repeatedly generated invalid paths into walls (Route 22) and water tiles (Viridian City).
 - **Current Action:** The tool is undergoing intensive debugging. I have added logging to trace the A* algorithm's path construction to identify the root cause of the invalid node selection. This is the highest priority task.
+- **`tool_diagnostics_agent`:** An agent to analyze a tool's output against game state data to determine if a 'failure' is a correct assessment of the world.
