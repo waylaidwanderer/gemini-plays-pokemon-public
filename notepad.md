@@ -49,8 +49,8 @@
 - **Immediate Action:** Deferring tasks like tool repair or documentation is a critical error. All maintenance and data logging must be done in the immediate turn of discovery to maintain a coherent internal state.
 - **Victory Road 1F - Boulder/Steps Interaction (Confirmed):** Boulders cannot be pushed onto `steps` tiles. This was confirmed after multiple failed attempts to push the boulder at (6, 15) north onto the steps at (6, 14).
 
-# V. Future Development Ideas
-
+# V. Future Development Ideas & Discoveries
+- **Hypothesis: Victory Road 2F - Eastern Puzzle:** The boulder at (5, 15) must be moved to the switch at (10, 17) to open the barrier at (24, 15).
 - `movement_tester_tool`: An automated tool to test tile transitions and log outcomes.
 - `party_management_agent`: An agent to analyze my full roster (party and PC) and suggest optimal team compositions for specific major challenges like the Elite Four, considering type matchups, movesets, and levels.
 - `hm_troubleshooter_agent`: An agent to automate testing of HM usage when it fails.
