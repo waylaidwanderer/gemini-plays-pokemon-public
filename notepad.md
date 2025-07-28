@@ -14,7 +14,7 @@
 - `grass`: Wild Pokémon encounters.
 - `water`: Requires SURF.
 - `impassable`: Wall.
-- `elevated_ground`: Walkable, different elevation. Movement to a lower elevation is *only* possible via `steps` tiles. Direct movement to a lower `ground` tile is not possible unless it is a `cleared_boulder_barrier` tile.
+- `elevated_ground`: Walkable, different elevation. Movement to a lower elevation is *only* possible via `steps` tiles or `cleared_boulder_barrier` tiles. Direct movement to a lower `ground` tile is impossible.
 - `steps`: Allows movement between elevations.
 - `boulder_switch`: Floor switch for boulders.
 - `boulder_barrier`: Impassable barrier linked to a boulder switch.
@@ -36,13 +36,15 @@
 
 # III. Puzzle Mechanics & Key Discoveries
 
-- **Victory Road 1F - Western Platform:** Pushing the two boulders in this area clears a path to the steps at (6, 14), which allows access to the ladder at (2, 2).
+- **Victory Road 1F - Western Platform:** Pushing the two boulders in this area clears a path to the steps at (6, 14), which allows access to the ladder at (2, 2). This path has been confirmed as a dead end for overall progression.
 - **Victory Road 2F - Western Trap:** This puzzle requires a two-step "prime and trigger" mechanic. Pushing the boulder onto the switch at (2, 17) primes the trap. Leaving the floor and re-entering triggers the event, opening the barrier at (8, 9) and (8, 10).
 - **Victory Road 3F - Hole Puzzle:** Pushing the boulder at (14, 13) south into the hole at (14, 15) causes it to drop to the floor below, affecting a puzzle there.
 
-# IV. Hypotheses
+# IV. Current Objectives & Hypotheses
 
 ## Victory Road 1F Puzzle
 - **Hypothesis:** Solving the boulder puzzles on the western and eastern platforms will open the central barrier at (10, 13), granting access to the rest of the floor.
-- **Status:** The western platform puzzle has been solved, but the path to the ladder at (2, 2) appears to be blocked or requires an unknown mechanic. The `gem_pathfinder` tool has repeatedly failed to find a path, and manual attempts have been unsuccessful. This path is now considered a dead end.
-- **New Test Plan:** Abandon the western platform. The new priority is to clear the path to the eastern platform by pushing the boulder at (6, 17) and then solving the eastern boulder puzzle. The hypothesis that both puzzles must be solved to open the central barrier at (10, 13) remains the primary focus.
+- **Current Objective:** The western platform puzzle is confirmed to not be the primary path forward. The new priority is to solve the eastern boulder puzzle, which starts with the boulder at (15, 3) and the switch at (18, 14).
+
+# V. Future Development Ideas
+- **Path Validation Agent:** Create an agent that takes a proposed path (list of coordinates) and the movement rules from this notepad as input, and returns whether the path is valid. This would prevent wasting turns on flawed manual paths.
