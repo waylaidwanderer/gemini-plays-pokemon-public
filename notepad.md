@@ -35,7 +35,7 @@
 - **Correction:** Psychic-type moves deal NEUTRAL (1x) damage to Rock-type Pokémon.
 
 ## B. Trainer Battle Rules
-- **Defeated Trainers:** Defeated trainers do NOT respawn, but they ARE impassable obstacles that block movement. My previous assumption that they were traversable was incorrect and has been disproven by in-game testing at (7,11) on Victory Road 1F.
+- **Defeated Trainers:** Defeated trainers do NOT respawn and **ARE traversable** after being defeated. My previous assumption that they were impassable was incorrect and has been disproven by system feedback regarding the reachable warp at (2, 2) on Victory Road 1F.
 
 # III. Puzzle Mechanics & Key Discoveries
 
@@ -44,12 +44,10 @@
 
 # IV. Lessons Learned & Tool Development
 
-- **Systematic Problem-Solving:** When faced with a navigation paradox, like on Route 22, I must avoid chaotic, repeated manual attempts. The correct approach is to trust the game state data (e.g., `navigable_warps`) as the source of truth and systematically eliminate possibilities.
+- **Systematic Problem-Solving:** When faced with a navigation paradox, I must avoid chaotic, repeated manual attempts. The correct approach is to trust the game state data (e.g., `navigable_warps`) as the source of truth and systematically eliminate possibilities.
 - **Efficient Debugging:** Repetitively running the same failing test case is inefficient. I must vary the test conditions (e.g., change the target destination) to gather new diagnostic data and isolate bugs more effectively.
 - **Immediate Action:** Deferring tasks like tool repair or documentation is a critical error. All maintenance and data logging must be done in the immediate turn of discovery to maintain a coherent internal state.
-- **Defeated Trainer Impassability (Confirmed):** Defeated trainers are impassable obstacles. This was confirmed by attempting to walk through the Youngster at (7,11).
 - **Victory Road 1F - Boulder/Steps Interaction (Confirmed):** Boulders cannot be pushed onto `steps` tiles. This was confirmed after multiple failed attempts to push the boulder at (6, 15) north onto the steps at (6, 14).
-- **`gem_pathfinder` Tool Status (FIXED):** The tool was rewritten from scratch after a system-level failure. The new A* implementation is robust and handles all known traversal mechanics. It is the primary tool for all navigation.
 
 # V. Future Development Ideas
 
@@ -60,14 +58,9 @@
 
 # VI. Problem-Solving Log: Victory Road 1F
 
-## Victory Road 1F Puzzle Analysis
+## Victory Road 1F Puzzle Analysis (Corrected)
 - **Initial State:** The path forward is split into a western upper platform (leading to the 2F ladder) and an eastern upper platform (blocked by a boulder barrier).
-- **Western Path Conclusion:** The ladder to 2F at (2, 2) is **permanently blocked** by the defeated Youngster at (7, 11). This path is a confirmed dead end and should not be attempted again.
-- **Eastern Path Conclusion:** The boulder barrier at (10, 13) cannot be opened by any switch on 1F. All on-floor hypotheses have been tested and failed.
-- **Overarching Conclusion:** The solution to progressing through 1F is not on 1F itself. The key must be an action taken on another floor that affects this one. The most likely candidate is the boulder pushed down the hole from 3F.
-- **New Plan:** Exit Victory Road 1F, re-enter, navigate to 2F, and find where the boulder from 3F landed. This is the new primary investigation path.
-
-# VII. Strategic Reminders & New Hypotheses
-
-- **Agent Usage Reminder:** I must use the `goal_prioritization_agent` more frequently at key decision points (e.g., leaving a town, entering a dungeon) to validate my strategic plans and avoid inefficient detours.
-- **Victory Road Boulder Hypothesis:** My current working theory is that the impassable eastern barrier on 1F is cleared by an action on another floor, most likely related to the boulder I pushed down a hole on 3F. My next step in Victory Road will be to proceed directly to 2F to investigate where that boulder landed.
+- **Western Path Conclusion (Corrected):** The ladder to 2F at (2, 2) is **accessible**. My previous conclusion that it was blocked was based on a flawed assumption that the defeated Youngster at (7, 11) was an impassable obstacle. System feedback has confirmed this is incorrect.
+- **Eastern Path Conclusion:** The eastern boulder puzzle is a side puzzle and not required for main progression.
+- **Overarching Conclusion (Corrected):** The path to progress is through the western platform. The previous hypothesis that the solution was on another floor was based on faulty reasoning.
+- **New Plan:** Navigate directly to the ladder at (2, 2) to reach Victory Road 2F. The path requires solving the boulder puzzle on the western platform to gain access to the `steps` at (6, 14).
