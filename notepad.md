@@ -49,20 +49,7 @@
 - **Immediate Action:** Deferring tasks like tool repair or documentation is a critical error. All maintenance and data logging must be done in the immediate turn of discovery to maintain a coherent internal state.
 - **Victory Road 1F - Boulder/Steps Interaction (Confirmed):** Boulders cannot be pushed onto `steps` tiles. This was confirmed after multiple failed attempts to push the boulder at (6, 15) north onto the steps at (6, 14).
 
-# V. Future Development Ideas & Discoveries
 - **Hypothesis (Disproven): Victory Road 2F - Eastern Puzzle:** The boulder at (5, 15) cannot be moved to the switch at (10, 17) as the path is blocked by an impassable tile at (9, 17).
-- `movement_tester_tool`: An automated tool to test tile transitions and log outcomes.
-- `party_management_agent`: An agent to analyze my full roster (party and PC) and suggest optimal team compositions for specific major challenges like the Elite Four, considering type matchups, movesets, and levels.
-- `hm_troubleshooter_agent`: An agent to automate testing of HM usage when it fails.
-- `fly_helper_tool`: A tool to automate selecting a destination from the Fly menu.
-- `puzzle_interpreter_agent`: An agent that can analyze a 'No path found' error from the pathfinder in conjunction with map data to suggest if an unsolved puzzle is the likely cause.
-
-# VI. Problem-Solving Log: Victory Road 1F
-
-## Victory Road 1F Puzzle Analysis (Corrected & Finalized)
-- **Western Path Conclusion (Final):** The western path is a **confirmed dead end**. The boulder at (3, 10) is immovable, and the defeated trainer at (7, 11) is an impassable obstacle. The game state's claim that the ladder was reachable was a red herring.
-- **Eastern Path Conclusion:** The eastern boulder puzzle is the only remaining viable path to progress to Victory Road 2F.
-- **New Plan:** Solve the eastern boulder puzzle to proceed.
 
 ## Victory Road 2F - Western Boulder Puzzle Solution
 - **Goal:** Move boulder from (5, 15) to switch at (2, 17).
