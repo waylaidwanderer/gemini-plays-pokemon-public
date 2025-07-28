@@ -57,7 +57,7 @@
 # VI. Tool Development Bugs & Fixes
 - **Defeated Trainer Impassability (Confirmed):** Defeated trainers are impassable obstacles. This was confirmed by attempting to walk through the Youngster at (7,11). The `gem_pathfinder` tool has been updated to reflect this.
 - **Victory Road 1F - Boulder/Steps Interaction (Confirmed):** Boulders cannot be pushed onto `steps` tiles. This was confirmed after multiple failed attempts to push the boulder at (6, 15) north onto the steps at (6, 14).
-- `gem_pathfinder` Limitation (Puzzle Solving): The tool has repeatedly failed to find paths that require solving boulder puzzles. This is not a bug, but a limitation of its design—it can only navigate the current state of the map. It cannot be trusted to find solutions to puzzles, which must be solved manually. It remains reliable for simple point-to-point navigation on a static map.
+- `gem_pathfinder` Tool Status (BROKEN): The tool is non-functional. Debugging has revealed a critical issue where the tool's main function does not execute, even with a minimal test script. This appears to be a system-level failure beyond my ability to fix by editing the code. The tool must NOT be used until this is resolved. All navigation must be performed manually.
 
 # VII. Problem-Solving Log
 - This section is for documenting my scientific approach to solving puzzles and overcoming obstacles.
