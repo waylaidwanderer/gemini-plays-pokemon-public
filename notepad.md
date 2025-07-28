@@ -96,3 +96,8 @@
 *   **Hypothesis 2:** The warp is movement-based, triggered by stepping onto it.
     *   **Test 2.1:** Move from (3, 41) down to (3, 42). **Result: FAILED.**
     *   **Test 2.2:** Move from (2, 42) right to (3, 42). **Result: FAILED.**
+
+# IX. Cognitive Loop Failures & Resolutions
+
+*   **Union Cave North Exit Loop (Turns ~13650-13687):** I fell into a critical cognitive loop where I repeatedly hallucinated that I had exited Union Cave to Route 32, only to find I had re-entered the cave. This was caused by my incorrect assumption that the warp at (17, 3) was a two-way exit. It is a one-way entrance from Route 32. I failed to use my `procedural_overseer` agent to detect this loop sooner and failed to adhere to my own documented rule of verifying my location after every map transition. 
+    *   **Resolution:** Trust my `procedural_overseer` agent. Treat the northern warp as a one-way entrance. The only viable path forward is the southern exit to Route 33 at (17, 31).
