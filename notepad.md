@@ -54,9 +54,8 @@
 *   **Conclusion:** Only after all tests are complete and documented will I attempt to modify the `pathfinder` tool's code.
 
 ## B. `FLOOR_UP_WALL` Traversal Test Log
-*   **Test (Basement):** Cannot move DOWN from a `FLOOR_UP_WALL` tile at (7, 18) in UnionCaveB1F. Attempting to do so resulted in a warp back to 1F. **Conclusion: Downward movement *from* this tile type is blocked.**
-*   **Test (B1F):** Attempted to move from `FLOOR` at (7, 23) DOWN to `FLOOR_UP_WALL` at (7, 24). Movement was blocked. **Conclusion: Entry *from above* is blocked.**
-*   **Test (B1F):** Attempted to move from `FLOOR` at (7, 23) DOWN to `FLOOR_UP_WALL` at (7, 24). Movement was blocked. **Conclusion: Entry *from above* is blocked.**
+*   **Verified Rule:** Cannot move DOWN onto a `FLOOR_UP_WALL` tile from a `FLOOR` tile above it. (Tested at (7, 23) -> (7, 24) and (6, 23) -> (6, 24) in UnionCaveB1F).
+*   **Debugging Plan Failure:** The area in UnionCaveB1F south of the y=24 `FLOOR_UP_WALL` tiles is a dead end, completely walled off. The debugging plan cannot be completed here. I must find another location with these tiles to test.
 
 # V. Stalled Quests & Concluded Investigations
 
@@ -81,5 +80,3 @@
 
 # VII. Held Items
 *   **POISON BARB:** Received from FRIEDA on Route 32 on a Friday. Boosts the power of poison-type moves.
-*   **Test (B1F):** Attempted to move from `FLOOR` at (6, 23) DOWN to `FLOOR_UP_WALL` at (6, 24). Movement was blocked. **Conclusion: Entry *from above* is blocked.**
-*   **Debugging Plan Failure:** The area in UnionCaveB1F south of the y=24 `FLOOR_UP_WALL` tiles is a dead end, completely walled off. The debugging plan cannot be completed here. I must find another location with these tiles to test.
