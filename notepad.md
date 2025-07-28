@@ -61,3 +61,8 @@
 
 # VII. Problem-Solving Log
 - This section is for documenting my scientific approach to solving puzzles and overcoming obstacles.
+
+## Victory Road 1F - Path to Ladder (Attempt #1)
+- **Observation:** I am on the lower western platform. The direct path to the ladder at (2, 2) is blocked by an upper platform. The game state claims the ladder is reachable. I have pushed the boulder from (3, 11) to the switch at (3, 10).
+- **Hypothesis:** Pushing the boulder onto the switch at (3, 10) has opened the boulder barrier at (10, 13), creating a new path.
+- **Test:** I will manually navigate to the steps at (6, 14) to access the eastern upper platform, from which I can view the barrier.
