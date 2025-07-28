@@ -60,11 +60,4 @@
 # VI. Held Items
 *   **POISON BARB:** Received from FRIEDA on Route 32 on a Friday. Boosts the power of poison-type moves.
 
-# VII. Untested Assumptions & Future Experiments
-*   **Tile Impassability:** I have assumed several tile types are impassable based on their names (e.g., BUOY, TV, RADIO) without direct testing. I must verify these assumptions by attempting to walk into them when the opportunity arises.
-*   **Pathfinder Bug Hypothesis:** The `pathfinder` fails because my one-way tile logic (`LEDGE_HOP` and `FLOOR_UP_WALL`) is incorrect for this specific route. Alternative hypothesis: There is an undiscovered impassable tile type or hidden object. I will continue manual exploration to gather ground-truth data.
-
-# VII. Untested Assumptions & Future Experiments
-*   **Tile Impassability:** I have assumed several tile types are impassable based on their names (e.g., BUOY, TV, RADIO) without direct testing. I must verify these assumptions by attempting to walk into them when the opportunity arises.
-*   **Pathfinder Bug Hypothesis:** The `pathfinder` fails because my one-way tile logic (`LEDGE_HOP` and `FLOOR_UP_WALL`) is incorrect for this specific route. Alternative hypothesis: There is an undiscovered impassable tile type or hidden object. I will continue manual exploration to gather ground-truth data.
 *   **`["path"]` Button Unreliability:** Executing a long `path_plan` via the `["path"]` button press has failed. This is a button press, not a tool. Hypothesis: The mechanic is unreliable for paths longer than a few steps. Test: Attempt to use `["path"]` for a short, 2-3 step path from my current position of (14, 27) to (14, 25). If it succeeds, the issue is length. If it fails, the mechanic itself is broken.
