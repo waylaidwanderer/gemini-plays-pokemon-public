@@ -62,7 +62,8 @@
 # VII. Problem-Solving Log
 - This section is for documenting my scientific approach to solving puzzles and overcoming obstacles.
 
-## Victory Road 1F - Path to Ladder (Attempt #1)
-- **Observation:** I am on the lower western platform. The direct path to the ladder at (2, 2) is blocked by an upper platform. The game state claims the ladder is reachable. I have pushed the boulder from (3, 11) to the switch at (3, 10).
-- **Hypothesis:** Pushing the boulder onto the switch at (3, 10) has opened the boulder barrier at (10, 13), creating a new path.
-- **Test:** I will manually navigate to the steps at (6, 14) to access the eastern upper platform, from which I can view the barrier.
+## Victory Road 1F - Path to Ladder (Hypothesis #1: Western Boulder)
+- **Observation:** After pushing the boulder at (3, 11) onto the switch at (3, 10), the boulder barrier at (10, 13) remains closed.
+- **Hypothesis:** Pushing the western boulder at (3, 11) onto the switch at (3, 10) opens the eastern boulder barrier at (10, 13).
+- **Test:** I navigated to (9, 13) to directly observe the barrier after activating the switch.
+- **Conclusion:** The hypothesis is **false**. The western switch does not control the eastern barrier. This path is not the solution.
