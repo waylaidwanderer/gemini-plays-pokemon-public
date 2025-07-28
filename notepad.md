@@ -81,3 +81,4 @@
 # VII. Held Items
 *   **POISON BARB:** Received from FRIEDA on Route 32 on a Friday. Boosts the power of poison-type moves.
 *   **Traversable (Warp):** WARP_CARPET_RIGHT
+*   **Ilex Forest North Path (Confirmed Blocked):** My `find_reachable_unseen_tiles` tool returned an empty list, confirming the northern unseen area is unreachable from the south due to the CUT_TREE at (8, 25).
