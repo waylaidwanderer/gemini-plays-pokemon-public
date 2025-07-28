@@ -62,3 +62,10 @@
 # VI. Held Items
 *   **POISON BARB:** Received from FRIEDA on Route 32 on a Friday. Boosts the power of poison-type moves.
 *   **Scientific Method for Mechanics:** When encountering a new or unclear game mechanic, I must adopt a strict 'test-first' approach. 1. Form a clear, simple hypothesis. 2. Design and execute a manual in-game test to confirm or deny it. 3. Document the verified results in the notepad. 4. Only after a mechanic is fully verified should I implement it in a custom tool.
+
+# VII. Methodical Mechanics Testing
+
+## A. LEDGE_HOP_DOWN Traversal
+*   **Hypothesis:** `LEDGE_HOP_DOWN` tiles are one-way and cannot be traversed from below (i.e., by moving up).
+*   **Test:** Stood at Route 33 (12, 14) and attempted to move up to the `LEDGE_HOP_DOWN` tile at (12, 13).
+*   **Conclusion:** Movement was blocked. The hypothesis is confirmed. This tile type is impassable from below.
