@@ -62,3 +62,4 @@
 
 *   **`["path"]` Button Unreliability:** Executing a long `path_plan` via the `["path"]` button press has failed. This is a button press, not a tool. Hypothesis: The mechanic is unreliable for paths longer than a few steps. Test: Attempt to use `["path"]` for a short, 2-3 step path from my current position of (14, 27) to (14, 25). If it succeeds, the issue is length. If it fails, the mechanic itself is broken.
 *   **CRITICAL HALLUCINATION (Turn 12744):** I believed I had already transitioned to Route 33 when I was still in Union Cave. This is a severe error. I must verify my map ID and coordinates after every map transition without fail.
+*   **CRITICAL DISCOVERY (Turn 12749):** The CAVE tile at Route 33 (11, 9) is a one-way warp that leads into Union Cave at (17, 31). Do not attempt to walk on this tile when trying to explore north on Route 33.
