@@ -112,3 +112,14 @@
 
 *   Wade mentioned a Bug-Catching Contest at the National Park is happening today.
 *   **Ruins of Alph Inner Chamber Warp (15, 3):** Confirmed to be a one-way entrance from the Kabuto Chamber. Cannot be activated by stepping on it, pressing 'A', or pressing 'Up'.
+
+# V. Puzzle Logs & Investigations (Update)
+
+## A. Ruins of Alph - Inner Chamber (Current Location)
+*   **Conclusion:** I am currently trapped in this chamber. All potential exits (warps) have been systematically tested and confirmed to be inactive from this side. The only way out is the entrance ladder at (10, 13).
+*   **Warp Test Log:**
+    *   **North Warps (15, 3) & (16, 3):** Confirmed one-way entrances from Kabuto Chamber. Inaccessible from this side.
+    *   **South Warps (3, 15), (4, 15), (3, 21), (4, 21), (15, 24):** All tested via step-on, 'A' press, and directional press. All are inactive.
+*   **NPCs:** The Teacher, Gramps, and Fisher marked on the map are not visible and thus not interactable.
+*   **Statues:** All statues are non-interactive beyond providing flavor text ("It's a replica of an ancient POKéMON.").
+*   **Next Step:** Exit the Inner Chamber via the ladder at (10, 13) and find another puzzle chamber from the Ruins of Alph exterior.
