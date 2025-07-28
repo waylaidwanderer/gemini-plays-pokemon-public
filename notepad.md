@@ -49,13 +49,12 @@
 - **Immediate Action:** Deferring tasks like tool repair or documentation is a critical error. All maintenance and data logging must be done in the immediate turn of discovery to maintain a coherent internal state.
 
 # V. Future Development Ideas
-- `puzzle_strategist_agent`: An agent to analyze environmental puzzles and suggest high-level solutions.
 - `movement_tester_tool`: An automated tool to test tile transitions and log outcomes.
 - `team_builder_agent`: An agent to suggest optimal party compositions for major challenges.
 - `hm_troubleshooter_agent`: An agent to automate testing of HM usage when it fails.
 - `fly_helper_tool`: A tool to automate selecting a destination from the Fly menu.
 
 # VI. Tool Development Bugs & Fixes
-- **Defeated Trainer Impassability Bug:** Both gem_pathfinder and boulder_puzzle_solver incorrectly treated defeated trainers as impassable. A fix has been implemented to ignore trainers marked with '☠️', but this fix is pending successful real-world verification.
+- **Defeated Trainer Impassability (Confirmed):** Defeated trainers are impassable obstacles. This was confirmed by attempting to walk through the Youngster at (7,11). The `gem_pathfinder` tool has been updated to reflect this.
 - **Victory Road 1F - Boulder/Steps Interaction (Confirmed):** Boulders cannot be pushed onto `steps` tiles. This was confirmed after multiple failed attempts to push the boulder at (6, 15) north onto the steps at (6, 14).
 - **gem_pathfinder Limitation (Puzzle Solving):** The tool has repeatedly failed to find paths that require solving boulder puzzles. This is not a bug, but a limitation of its design—it can only navigate the current state of the map. It cannot be trusted to find solutions to puzzles, which must be solved manually. It remains reliable for simple point-to-point navigation on a static map.
