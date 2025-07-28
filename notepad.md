@@ -46,7 +46,7 @@
 - **Hypothesis (Re-tested & Disproven):** The western boulder puzzle at (3, 11) directly opens the central barrier at (10, 13).
   - **Test:** Pushed boulder at (3, 11) onto switch at (3, 10) and visually inspected the barrier.
   - **Result:** The central boulder barrier at (10, 13) remained closed.
-- **New Hypothesis:** The western boulder puzzle is a 'prime and trigger' mechanic. The switch has been primed. Leaving and re-entering the map might trigger the barrier to open.
+- **New Hypothesis (Paradox Resolution):** The game state confirms I am trapped, which is impossible. This implies a non-obvious solution. My previous action was pushing the boulder at (3, 11) ONTO the switch at (3, 10). The new hypothesis is that this was incorrect, and the boulder must be pushed OFF the switch to open the barrier at (10, 13).
 - **Hypothesis (Disproven):** The path to the ladder at (2, 2) from the western platform is only blocked by the defeated Youngster at (7, 11).
   - **Test:** Use the `gem_pathfinder` tool to find a path to (2, 2), using `ignorable_coords` to bypass the trainer.
   - **Result:** The tool returned 'path not found', and a system warning confirmed the destination is unreachable. The entire western platform is elevated, and there are no 'steps' or other means to descend to the ladder's elevation. This platform is a confirmed dead end.
