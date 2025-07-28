@@ -76,5 +76,5 @@
 ## Victory Road 1F - Path to Ladder (Hypothesis #3: Timed/Conditional Switch)
 - **Observation:** All direct and simple hypotheses for opening the barrier at (10, 13) have failed, creating a logical paradox where the solution appears to be behind the problem.
 - **Hypothesis:** The switch at (3, 10) opens the barrier at (10, 13), but its effect is temporary or conditional (e.g., it closes if I get too close or look away). The barrier might have opened after my first test, but closed before I could reach it.
-- **Test Plan:** Reset the entire floor by warping out and back in. Re-solve the western boulder puzzle to activate the switch at (3, 10). Immediately navigate to (9, 13) via the most direct route to observe the barrier's state.
-- **Attempt #1:** Starting now.
+- **Test:** I reset the floor, activated the switch at (3, 10), and immediately went to (9, 13). The barrier at (10, 13) remained closed.
+- **Conclusion:** Hypothesis #3 is FALSE. The western switch does not open the eastern barrier, even temporarily. All hypotheses for solving this puzzle on 1F have failed.
