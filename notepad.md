@@ -42,12 +42,9 @@
 
 # IV. Current Objectives & Hypotheses
 
-## Victory Road 1F Puzzle - IMPASSE
-- **Primary Obstacle:** The central barrier at (10, 13) blocks access between the western and eastern halves of the floor.
-- **Failed Hypotheses:**
-  - Solving the western boulder puzzles opens the barrier. (Falsified after multiple attempts)
-  - A 'prime and trigger' mechanic on the western puzzles opens the barrier. (Falsified)
-  - Ascending to 2F via the western ladder provides a path to the eastern side of 1F. (Falsified; path to ladder at (2, 2) is permanently blocked by a defeated NPC at (7, 11)).
-- **Current Status:** I am completely trapped on the western side of Victory Road 1F. I have exhausted all known paths and puzzle-solving mechanics available in this area. The path forward is unknown. The only remaining action is to reset the floor and re-investigate the entire western area for a missed clue.
+## Victory Road 1F Puzzle - RE-EVALUATION
+- **Primary Obstacle:** Reaching the ladder to 2F at (2, 2).
+- **Corrected Understanding:** My previous conclusion that I was trapped on the western side of Victory Road 1F was INCORRECT. The game state confirms a path forward exists. The defeated NPC at (7, 11) must not be a permanent, impassable blocker for the entire path, or there is an alternate route on the platform I have missed.
+- **Current Objective:** Systematically re-explore the western upper platform to find the navigable path to the ladder at (2, 2).
 
 # V. Future Development Ideas
