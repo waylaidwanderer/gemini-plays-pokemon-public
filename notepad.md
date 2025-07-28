@@ -36,17 +36,12 @@
 
 # III. Puzzle Mechanics & Key Discoveries
 
-- **Victory Road 1F - Western Platform:** This area is a dead end. The ladder at (2, 2) is unreachable from here. The purpose of the two boulders in this area is unconfirmed, but they do not open the central barrier at (10, 13).
+- **Victory Road 1F - Western Platform:** Pushing the two boulders in this area clears a path to the steps at (6, 14), which allows access to the ladder at (2, 2).
 - **Victory Road 2F - Western Trap:** This puzzle requires a two-step "prime and trigger" mechanic. Pushing the boulder onto the switch at (2, 17) primes the trap. Leaving the floor and re-entering triggers the event, opening the barrier at (8, 9) and (8, 10).
 - **Victory Road 3F - Hole Puzzle:** Pushing the boulder at (14, 13) south into the hole at (14, 15) causes it to drop to the floor below, affecting a puzzle there.
 
-# IV. Current Plan & Hypotheses
+# IV. Hypotheses
 
 ## Victory Road 1F Puzzle
-- **Paradox:** The game state confirms I am trapped on the central elevated platform, which is impossible according to core game rules. The central barrier at (10, 13) is closed.
-- **Disproven Premise:** My previous notes incorrectly identified the tile at (3, 10) as a boulder switch. The map XML confirms it is a `ground` tile. Therefore, all hypotheses based on activating/deactivating a switch at (3, 10) are invalid.
-- **Known Facts:**
-  - The western platform is a confirmed dead end.
-  - The boulder at (3, 10) has been moved, but its purpose is unknown.
-  - The puzzle on 2F used a 'prime and trigger' mechanic (leave and re-enter floor).
-- **New Hypothesis:** The solution involves a non-obvious interaction or trigger on the central platform itself. The complex Pikachu interaction was a red herring. The only remaining possibility is that there is a different, undiscovered 'trigger' for the 'primed' state caused by moving the western boulder.
+- **Hypothesis:** Solving the boulder puzzles on the western and eastern platforms will open the central barrier at (10, 13), granting access to the rest of the floor.
+- **Test Plan:** First, solve the western platform puzzles to gain access to the ladder to 2F. Then, return to 1F and solve the eastern puzzle. Finally, check the barrier at (10, 13).
