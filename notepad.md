@@ -3,9 +3,9 @@
 ## A. Core Rules
 - **Level Cap:** The level cap with 8 badges is 65.
 - **"No Will to Fight" Message:** Appears when the party menu cursor is on a fainted Pokémon. It is a cursor error, not a refusal to battle.
-- **HM Usage:** HMs are used from the party menu. Fainted Pokémon can use field moves.
+- **HM Usage:** HMs are used from the party menu. Fainted Pokémon can use field moves (Hypothesis: May not apply everywhere, e.g., Route 23 SURF).
 - **PC Interaction:** To use a PC, stand directly below it, face up, and press 'A'.
-- **Surfing:** Not all `ground` tiles adjacent to `water` are valid starting points for SURF.
+- **Surfing:** Not all `ground` tiles adjacent to `water` are valid starting points for SURF. Character orientation might matter (Hypothesis: Untested).
 - **Boulder Pushing:** Activate Strength from the party menu. Face the boulder and press the directional button. The boulder moves one tile, but the player's position does not change.
 - **Puzzle Resets:** Leaving and re-entering a floor resets all boulders to their original positions.
 
@@ -14,6 +14,7 @@
 - `grass`: Wild Pokémon encounters.
 - `water`: Requires SURF.
 - `impassable`: Wall.
+- `ledge`: One-way traversal. Can only be jumped DOWN from the tile directly above. Acts as a wall from all other directions.
 - `elevated_ground`: Walkable, different elevation. Movement to a lower elevation is *only* possible via `steps` tiles or `cleared_boulder_barrier` tiles. Direct movement to a lower `ground` tile is impossible.
 - `steps`: Allows movement between elevations. (MECHANICS UNVERIFIED - REQUIRES SYSTEMATIC TESTING)
 - `boulder_switch`: Floor switch for boulders.
@@ -44,16 +45,17 @@
 
 ## A. Current Plan
 - **Primary Goal:** Heal fainted party members.
-- **Plan:** Navigate south through the entirety of Route 23 to reach the upper level of Route 22, which connects to Viridian City. The lower level of Route 22, accessed via ledges, is a dead end and does not lead to the city.
+- **Plan:** I am currently on Route 23, attempting to find a way south to Viridian City. My attempts to SURF across a water channel have failed repeatedly. If my final test (facing the water before using SURF) fails, I will conclude this path is a dead end and backtrack north to find an alternative route.
 
 ## B. Key Lessons
-- **Trust Your Tools:** The `pathfinder_lite` tool correctly identified that there was no path to Viridian City from the upper level of Route 22. My assumption that the tool was broken was incorrect and led to wasted time. The tool's output, when based on game data, should be trusted as a source of truth.
-- **Verify Map Layout:** Do not assume a path exists based on visual memory. Jumping down ledges can lead to one-way paths and dead ends. Always analyze the map data carefully before committing to a route.
+- **Trust Your Tools:** The `pathfinder_lite` tool correctly identified that there was no path to Viridian City from the upper level of Route 22. My assumption that the tool was broken was incorrect and led to wasted time. The tool's output, when based on game data, must be trusted as a source of truth.
+- **Verify Map Layout:** Do not assume a path exists based on visual memory or intuition. Jumping down ledges can lead to one-way paths and dead ends. Always analyze the map data carefully before committing to a route.
 
 # V. Future Development Ideas
 - **`puzzle_strategist_agent`:** An agent to analyze environmental puzzles (like boulder puzzles) and suggest high-level solutions.
 - **`movement_tester_tool`:** An automated tool to test tile transitions and log outcomes, to gather ground-truth data for pathfinding logic.
 - **`team_builder_agent`:** An agent to suggest optimal party compositions for major challenges (e.g., Elite Four) based on available Pokémon in the PC.
+- **`hm_troubleshooter_agent`:** An agent to automate the systematic testing of HM usage when it fails, trying different adjacent tiles and hypotheses (e.g., fainted vs. healthy Pokémon) to find a solution.
 
 # VI. Tool & Agent Development
 
