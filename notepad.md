@@ -64,3 +64,8 @@
 
 *   **`["path"]` Button Unreliability:** Executing a long `path_plan` via the `["path"]` button press has failed. This is a button press, not a tool. Hypothesis: The mechanic is unreliable for paths longer than a few steps. Test: Attempt to use `["path"]` for a short, 2-3 step path from my current position of (14, 27) to (14, 25). If it succeeds, the issue is length. If it fails, the mechanic itself is broken.
 *   **CRITICAL HALLUCINATION (Turn 12744 & 12797):** I have repeatedly become disoriented about my location after map transitions, believing I was on a different map or outside when I was still inside. This is a recurring issue. I MUST verify my map and coordinates before every single navigational plan.
+
+# Status Update & Plan (Turn 12861)
+- **Conclusion:** All paths out of Azalea Town (Route 33, Ilex Forest) are currently blocked. Kurt's dialogue is unchanged. The back room of his house is a dead end.
+- **New Hypothesis:** The only remaining lead is to re-check the Charcoal Kiln to see if the apprentice's boss has new dialogue now that time has passed since the Farfetch'd quest.
+- **Data Management Note:** Deferring cleanup of duplicated notepad entries to prioritize forward progress and break the current failure loop.
