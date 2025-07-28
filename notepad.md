@@ -116,3 +116,6 @@
 *   **Tool Deprecation:** The `find_reachable_unseen_tiles` tool has been deleted due to redundant and faulty logic. All navigation and reachability checks now rely solely on the verified `pathfinder` tool.
 *   **Pathfinder Status:** The `pathfinder` tool is now considered fully reliable. Any failure to find a path will be treated as confirmation that the destination is genuinely unreachable from the current location.
 *   **Current Investigation (Ruins of Alph Research Center):** I am abandoning the repetitive chase of the moving scientist. My new hypothesis is that the progression trigger is a different, static object in the room. I will now systematically interact with all other objects: the stationary scientist at (4, 5), the computer at (3, 4), the printer at (7, 1), and the bookshelf at (6, 5).
+
+# X. To-Do & Untested Leads
+*   **Route 32 Gatehouse Warp:** Overwatch noted I missed investigating the warp at (4, 3). I need to check this on my next visit.
