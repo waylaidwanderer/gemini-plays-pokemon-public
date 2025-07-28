@@ -3,7 +3,7 @@
 # I. Core Directives & Lessons Learned
 *   **Proactive Data Management:** All new information, corrected misunderstandings, and strategic plans must be recorded *immediately* in the turn they are discovered. Data management is not a secondary task; it is the highest priority.
 *   **Tool Consolidation:** Redundant tools with overlapping logic must be consolidated into a single, robust tool to serve as the single source of truth. This prevents logic desynchronization and repetitive failure loops.
-*   **Agent Usage Discipline:** Use reasoning agents for significant or complex decisions only. Rely on personal judgment for trivial encounters to conserve turns. Proactively use the `procedural_overseer` agent to detect and break out of repetitive, failing loops.
+*   **Trust Your Tools:** Once a tool is reasonably debugged, its output must be trusted. If a tool reports no path, the correct response is to conclude the area is unreachable and change high-level strategy, not to assume the tool is still broken.
 *   **Investigate Contradictions:** A persistent contradiction between a verified custom tool and the game environment is a strong indicator of a potential bug in the tool. Instead of dismissing the alert, the tool itself must be rigorously debugged.
 *   **Scientific Method:** When debugging or solving puzzles, I must form a clear hypothesis and test it methodically. All hypotheses and tests must be documented.
 *   **Verify Location:** Always verify my current map and coordinates before planning any navigation, especially after a map transition.
@@ -15,7 +15,6 @@
     *   LEDGE_HOP_DOWN: Can only be entered from above.
     *   LEDGE_HOP_RIGHT: Can only be entered from the left.
     *   LEDGE_HOP_LEFT: Can only be entered from the right.
-    *   FLOOR_UP_WALL (Hypothesis): Cannot be entered from above (moving down). Cannot be exited from by moving up. Sideways movement between adjacent FLOOR_UP_WALL tiles is permitted. Entry from below (moving up) and exiting by moving down to a FLOOR tile are pending verification.
 *   **Special Interaction (Warp):**
     *   **CAVE:** Can act as a one-way warp. The tile at Route 33 (11, 9) is a confirmed one-way entrance to Union Cave (17, 31). The tile at Route 32 (6, 79) is a confirmed one-way entrance to Union Cave (17, 3). Should be treated as impassable for pathfinding.
 *   **Special Interaction (Fishing):**
@@ -41,41 +40,7 @@
 ## B. NPC Hints & Lore
 *   A Fisher in Union Cave at (14, 19) mentioned that strange roars can be heard from deep within the cave on weekends.
 
-# IV. Stalled Quests & Concluded Investigations
-
-*   **HM01 Cut Quest (Stalled):** The quest is confirmed to be stalled. Both the Charcoal Man in Azalea Town and his apprentice in Ilex Forest are in a dialogue loop, even after solving the Farfetch'd puzzle. The path north in Ilex Forest is blocked by a CUT_TREE at (8, 25), making progress impossible until a new trigger is found.
-*   **Azalea Town NPCs (Post-Well):** Neither Kurt nor the Charcoal Man had new dialogue immediately after clearing the Slowpoke Well and solving the Farfetch'd puzzle.
-*   **Slowpoke Well:** Re-exploration confirmed no missed triggers or reachable unseen areas.
-*   **Union Cave Unseen Tiles (Confirmed):** Pathfinding attempts to the western section of the cave from the eastern side have failed, suggesting the areas are disconnected.
-*   **Union Cave Warp (Failed):** The WARP_CARPET_DOWN at (17, 3) cannot be activated with 'A' or by pressing 'Down'. It appears to be a one-way entrance from Route 32.
-
-## B. Technical Investigations & Hallucinations
-*   **CRITICAL HALLUCINATION (Turn 11733):** I believed I had already transitioned to Route 33 and was trying to pathfind from there. The system corrected me; I was still at the exit of Azalea Town (39, 15). This highlights the need to always verify my current location before planning.
-*   **CRITICAL HALLUCINATION (Turn 11840):** I incorrectly assumed the map exit at Route 33 (0, 15) was a warp. I must verify all warps in the game state data before setting them as navigation goals.
-*   **Route 33 North Path (Confirmed Blocked):** Manually attempting to move north from (9, 10) confirmed that the tile at (9, 9) is an impassable wall. My pathfinding tools were correct; the northern unseen area is unreachable from this side due to one-way ledges.
-*   **CRITICAL HALLUCINATION (Turn 12026):** I completely misunderstood my location. I believed I had successfully navigated through Union Cave and was exploring Route 32. In reality, I had exited the cave and immediately re-entered through the northern warp at (6, 79), which I mistook for a path forward. This highlights a critical need to slow down and verify my location after every single map transition, no matter how certain I feel.
-*   **CRITICAL HALLUCINATION (Turn 12744 & 12797):** I have repeatedly become disoriented about my location after map transitions, believing I was on a different map or outside when I was still inside. This is a recurring issue. I MUST verify my map and coordinates before every single navigational plan.
-
-# V. Key Items & HMs
-*   **OLD ROD:** Received from the Fishing Guru in the Route 32 Pokémon Center. Allows fishing in bodies of water.
-
-# VI. Held Items
-*   **POISON BARB:** Received from FRIEDA on Route 32 on a Friday. Boosts the power of poison-type moves.
-*   **Scientific Method for Mechanics:** When encountering a new or unclear game mechanic, I must adopt a strict 'test-first' approach. 1. Form a clear, simple hypothesis. 2. Design and execute a manual in-game test to confirm or deny it. 3. Document the verified results in the notepad. 4. Only after a mechanic is fully verified should I implement it in a custom tool.
-
-# VII. Methodical Mechanics Testing
-
-## A. LEDGE_HOP_DOWN Traversal
-*   **Hypothesis:** `LEDGE_HOP_DOWN` tiles are one-way and cannot be traversed from below (i.e., by moving up).
-*   **Test:** Stood at Route 33 (12, 14) and attempted to move up to the `LEDGE_HOP_DOWN` tile at (12, 13).
-*   **Conclusion:** Movement was blocked. The hypothesis is confirmed. This tile type is impassable from below.
-
-## Route 33 Layout
-*   **Hypothesis:** Route 33 is a one-way path from east to west.
-*   **Evidence:** The entrance from Union Cave is at (11, 9). The path leads west over a series of `LEDGE_HOP_LEFT` and `LEDGE_HOP_DOWN` tiles. My own testing confirms these are one-way. It is impossible to travel east along the northern path from Azalea Town.
-*   **Conclusion:** The northern unseen tiles flagged by the system are unreachable from the southern half of the route. The alerts can be safely ignored when entering from Azalea Town.
-
-# VII. Methodical Mechanics Testing (Pathfinder Debugging)
+# IV. Methodical Mechanics Testing & Debugging
 
 ## A. Pathfinder Debugging Plan - Union Cave
 *   **Objective:** Fully understand the traversal rules for the `FLOOR_UP_WALL` tile type to fix the `pathfinder` tool.
@@ -88,7 +53,30 @@
     5.  **Test 4 (Sideways Movement):** From (15, 4), attempt to move RIGHT to (16, 4) and LEFT to (14, 4). Document results.
 *   **Conclusion:** Only after all tests are complete and documented will I attempt to modify the `pathfinder` tool's code.
 
-## B. FLOOR_UP_WALL Traversal (Basement Test)
-*   **Hypothesis:** Cannot move DOWN from a `FLOOR_UP_WALL` tile.
-*   **Test:** From (7, 18) in UnionCaveB1F, attempted to move DOWN to the ladder at (7, 19).
-*   **Conclusion:** Movement was not possible. The action resulted in being warped back to UnionCave1F. This confirms downward movement from this tile type is blocked.
+## B. `FLOOR_UP_WALL` Traversal Test Log
+*   **Test (Basement):** Cannot move DOWN from a `FLOOR_UP_WALL` tile at (7, 18) in UnionCaveB1F. Attempting to do so resulted in a warp back to 1F. **Conclusion: Downward movement *from* this tile type is blocked.**
+*   **Test (1F):** Cannot move DOWN from a `FLOOR` tile at (15, 3) to a `FLOOR_UP_WALL` tile at (15, 4). **Conclusion: Entry *from above* is blocked.**
+
+# V. Stalled Quests & Concluded Investigations
+
+*   **HM01 Cut Quest (Stalled):** The quest is confirmed to be stalled. Both the Charcoal Man in Azalea Town and his apprentice in Ilex Forest are in a dialogue loop, even after solving the Farfetch'd puzzle. The path north in Ilex Forest is blocked by a CUT_TREE at (8, 25).
+*   **Union Cave Unseen Tiles (Confirmed Unreachable):** My `find_reachable_unseen_tiles` tool has confirmed after extensive debugging that the unseen areas of Union Cave are disconnected from the sections I can currently access.
+*   **Azalea Town NPCs (Post-Well):** Neither Kurt nor the Charcoal Man had new dialogue immediately after clearing the Slowpoke Well and solving the Farfetch'd puzzle.
+*   **Slowpoke Well:** Re-exploration confirmed no missed triggers or reachable unseen areas.
+*   **Union Cave Warp (Failed):** The WARP_CARPET_DOWN at (17, 3) cannot be activated with 'A' or by pressing 'Down'. It appears to be a one-way entrance from Route 32.
+
+## A. Untested Hypotheses
+*   **Union Cave Connectivity:** An alternative hypothesis for the disconnected nature of the cave is that a hidden switch or event must be triggered to open a new path. This is currently untestable without full exploration.
+
+## B. Technical Investigations & Hallucinations
+*   **CRITICAL HALLUCINATION (Turn 11733):** I believed I had already transitioned to Route 33 and was trying to pathfind from there. The system corrected me; I was still at the exit of Azalea Town (39, 15). This highlights the need to always verify my current location before planning.
+*   **CRITICAL HALLUCINATION (Turn 11840):** I incorrectly assumed the map exit at Route 33 (0, 15) was a warp. I must verify all warps in the game state data before setting them as navigation goals.
+*   **Route 33 North Path (Confirmed Blocked):** Manually attempting to move north from (9, 10) confirmed that the tile at (9, 9) is an impassable wall. My pathfinding tools were correct; the northern unseen area is unreachable from this side due to one-way ledges.
+*   **CRITICAL HALLUCINATION (Turn 12026):** I completely misunderstood my location. I believed I had successfully navigated through Union Cave and was exploring Route 32. In reality, I had exited the cave and immediately re-entered through the northern warp at (6, 79), which I mistook for a path forward. This highlights a critical need to slow down and verify my location after every single map transition, no matter how certain I feel.
+*   **CRITICAL HALLUCINATION (Turn 12744 & 12797):** I have repeatedly become disoriented about my location after map transitions, believing I was on a different map or outside when I was still inside. This is a recurring issue. I MUST verify my map and coordinates before every single navigational plan.
+
+# VI. Key Items & HMs
+*   **OLD ROD:** Received from the Fishing Guru in the Route 32 Pokémon Center.
+
+# VII. Held Items
+*   **POISON BARB:** Received from FRIEDA on Route 32 on a Friday. Boosts the power of poison-type moves.
