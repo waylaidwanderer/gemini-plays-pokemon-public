@@ -47,6 +47,9 @@
 - **Hypothesis #3 (Failed - Attempt #2):** My pathfinder is not broken; it correctly identifies that the path to the exit is blocked by the western boulder puzzle. To proceed, I must solve this puzzle by moving the boulder at (3, 11).
   - **Test:** Push the boulder at (3, 11) down to (3, 12).
   - **Conclusion:** FAILED. Pushing the boulder did not open a path to the exit. My hypothesis was incorrect. The path remains blocked, confirming the pathfinder's original assessment.
+- **Hypothesis #4 (Failed):** The paradox of the 'reachable' ladder at (2, 2) being blocked by the defeated trainer at (4, 3) is due to the trainer being a traversable exception.
+  - **Test:** Attempt to walk from (4, 4) onto the trainer's tile at (4, 3).
+  - **Conclusion (Attempt #1):** FAILED. The game blocked my movement, confirming defeated trainers are always impassable. My analysis was flawed; a clear, unobstructed path to the ladder exists by simply walking around the trainer via (3, 4).
 
 ## B. Solved Puzzles & Key Discoveries
 - **Victory Road 2F - Correct Puzzle Sequence:** This floor must be solved in a single visit without leaving the map. Leaving and re-entering resets the puzzles.
