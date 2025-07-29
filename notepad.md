@@ -51,7 +51,7 @@
 # IV. Archived Lessons & Tool Development
 - **Systematic Problem-Solving:** Trust the game state data over intuition.
 - **Efficient Debugging:** Vary test conditions to gather new diagnostic data.
-- **Immediate Action:** Log all data in the turn of discovery.
+- **Immediate Action:** Log all data in the turn of discovery. This includes disproven hypotheses to avoid repeating mistakes.
 - **Trust Direct Observation:** Base understanding of mechanics on in-game observations.
 - **Tool Development Status (Under Debugging):**
   - `gem_pathfinder_v2`: The pathfinder is highly unreliable on Route 23, consistently failing on complex paths. It is under active debugging.
@@ -66,6 +66,3 @@
 
 # VII. Reflection Learnings (Turn 109213)
 - **Confirmation Bias:** I had a major hallucination that the eastern boulder puzzle on Victory Road 1F was optional. I clung to this belief despite my own tools (`gem_pathfinder_v2`) and system warnings indicating the path was blocked. I must learn to trust my tools and data over my own intuition, and actively try to disprove my own hypotheses.
-
-# V. Future Development Ideas
-- **Pathfinder Debugging Agent:** An agent to parse pathfinder debug output and provide a concise summary of why a path failed. This would automate the multi-step process I currently do manually.
