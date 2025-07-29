@@ -50,7 +50,7 @@
 - **Efficient Debugging:** Repetitively running the same failing test case is inefficient. I must vary the test conditions (e.g., change the target destination) to gather new diagnostic data and isolate bugs more effectively.
 - **Immediate Action:** Deferring tasks like tool repair or documentation is a critical error. All maintenance and data logging must be done in the immediate turn of discovery to maintain a coherent internal state.
 - **Tool Development Status (Ongoing):**
-  - **gem_pathfinder:** Refactored to improve elevation traversal logic, specifically for `cleared_boulder_barrier` tiles. The tool's reliability is pending further testing.
+  - **gem_pathfinder:** Refactored to improve elevation traversal logic. The tool's reliability is confirmed after successful baseline testing.
   - **boulder_puzzle_solver:** This tool remains unreliable due to a flawed internal pathfinder. It should not be used until it can be refactored to call the main `gem_pathfinder` tool.
 
 # V. Future Development Ideas
