@@ -53,7 +53,7 @@
 *   Hiker Anthony called and said there are tons of DUNSPARCE in DARK CAVE, especially in areas without strong POKéMON.
 
 # IV. Tool Status & Available Agents
-*   **Python Tools (Current Status: Confirmed Non-functional):** Direct testing via `run_code` has confirmed the Python sandbox is not running. All Python-based tools (`pathfinder`, `unseen_tile_checker`, `run_code`) are unusable until the environment is fixed.
+*   **CRITICAL FAILURE: Python Sandbox Offline:** Execution of `sandbox_poker_2` failed with the error: "Python sandbox container 'python-sandbox' is not running." This confirms the entire Python execution environment is offline. All Python-based tools (`pathfinder`, `unseen_tile_checker`, `run_code`, etc.) are completely unusable. Fixing this is the absolute highest priority, superseding all other gameplay objectives.
 *   **Reasoning Agents (Functional):** The following agents are available for strategic analysis:
     *   **battle_strategist:** Recommends the best action in a battle.
     *   **exploration_strategist:** Recommends the most strategic unseen tile to explore (requires manual reachability check).

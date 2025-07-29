@@ -178,5 +178,17 @@
         "action_counter": 16132
       }
     ]
+  },
+  "sandbox_poker_2": {
+    "description": "A minimal tool to test if the Python sandbox execution environment is responsive. This is a new attempt to diagnose the persistent sandbox failure.",
+    "input_schema": {},
+    "python_script": "print('Sandbox is responsive.')",
+    "history": [
+      {
+        "commit_message": "feat: Create minimal tool for sandbox debugging. This is a critical diagnostic step to re-verify the status of the Python execution environment after repeated failures of other tools.",
+        "timestamp": "2025-07-29T18:31:21.673Z",
+        "action_counter": 16176
+      }
+    ]
   }
 }
