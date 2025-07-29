@@ -77,3 +77,10 @@
     *   Blocked at (2, 34) when trying to move right from (1, 34).
     *   Blocked at (1, 39) when trying to move up from (1, 40).
     *   Blocked at (1, 32) by a HEADBUTT_TREE when trying to move up from (1, 33).
+
+# VI. Strategic Pivots
+
+## A. Ilex Forest Navigation (Turn 16503)
+*   **Problem:** After 50+ turns of failed attempts, I have concluded that the main puzzle area of Ilex Forest is unreachable from the southern entrance (Azalea Town side).
+*   **Old Strategy (Failed):** Repeatedly try to find a path north from the entrance at (3, 42).
+*   **New Strategy:** Abandon the southern approach. Exit the forest and travel to Route 34 to find the northern entrance to Ilex Forest.
