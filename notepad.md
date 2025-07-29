@@ -27,6 +27,7 @@
     *   **FLOOR_UP_WALL:** A special tile type found in Union Cave. Movement onto this tile from an adjacent FLOOR tile is blocked. This was confirmed at (6, 17) -> (6, 18). It acts as a wall if approached from below (Y+1), but can be walked on from the sides or above. Essentially, it's a one-way ledge from above.
 *   **Special Interaction (Fishing):**
     *   WATER: Impassable to walk on, but can be fished in with a rod.
+*   **VOID:** Impassable. Confirmed by attempting to move left from (0, 33).
 
 # II. Battle Information
 
@@ -48,9 +49,9 @@
 ## B. NPC Hints & Lore
 *   A Fisher in Union Cave at (14, 19) mentioned that strange roars can be heard from deep within the cave on weekends.
 *   WADE on Route 31 will share BERRIES if I visit him.
+*   Hiker Anthony called and said there are tons of DUNSPARCE in DARK CAVE, especially in areas without strong POKéMON.
 
 # IV. Tool Status & Available Agents
-
 *   **Python Tools (Current Status: Confirmed Non-functional):** Direct testing via `run_code` has confirmed the Python sandbox is not running. All Python-based tools (`pathfinder`, `unseen_tile_checker`, `run_code`) are unusable until the environment is fixed.
 *   **Reasoning Agents (Functional):** The following agents are available for strategic analysis:
     *   **battle_strategist:** Recommends the best action in a battle.
@@ -67,16 +68,5 @@
 # X. Contingency Plans
 *   **Route 32 North Path Failure:** My primary assumption is that the path to Route 36 is north through Route 32. If this path is blocked or proves to be a dead end, my contingency plan is to return to the southern part of Route 32 and explore it thoroughly to see if it leads to an alternative route to Goldenrod City.
 
-# Notepad Update (Append)
-
-## New Tile Mechanics
-*   **WARP_CARPET_RIGHT / WARP_CARPET_LEFT:** Requires being on the tile, facing the direction of the warp, and then pressing the directional button again.
-
-# NPC Hints & Lore (Update)
-* Hiker Anthony called and said there are tons of DUNSPARCE in DARK CAVE, especially in areas without strong POKéMON.
-
 # XIV. Battle Mechanics (Newly Observed)
 *   **Wrap:** Traps the target for several turns, preventing them from switching or fleeing.
-
-# New Tile Mechanics (Confirmed)
-*   **VOID:** Impassable. Confirmed by attempting to move left from (0, 33).
