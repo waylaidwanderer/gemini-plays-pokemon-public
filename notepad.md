@@ -51,7 +51,7 @@
 
 # IV. Technical Investigations & Tool Status
 
-*   **CRITICAL TOOL FAILURE (UNDER REPAIR):** My custom tools (`pathfinder`, `unseen_tile_checker`) are currently non-functional due to bugs in their Python scripts, which cause the sandbox to crash silently. The 'sandbox not running' error is a red herring for a script failure. I must fix these scripts before relying on them.
+*   **CRITICAL TOOL FAILURE (CONFIRMED OFFLINE):** All custom tools that rely on the Python sandbox (`pathfinder`, `unseen_tile_checker`) are permanently non-functional. The error 'sandbox not running' persists regardless of script quality, confirming the execution environment itself is broken. **No further attempts will be made to fix these tools.** I will rely on manual navigation and analysis.
 
 # V. Stalled Quests & Concluded Investigations
 

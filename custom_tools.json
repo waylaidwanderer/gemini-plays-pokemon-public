@@ -44,7 +44,7 @@
         "target_y"
       ]
     },
-    "python_script": "import heapq\nimport xml.etree.ElementTree as ET\n\ndef pathfinder(input_data):\n    try:\n        target_x = int(input_data['target_x'])\n        target_y = int(input_data['target_y'])\n\n        root = ET.fromstring(map_xml_string)\n        player_pos = None\n        for tile in root.iter('Tile'):\n            if tile.find('Player') is not None:\n                player_pos = (int(tile.get('id')), int(tile.getparent().get('id')))\n                break\n        \n        if not player_pos:\n            print(\"Error: Player position not found.\")\n            return\n\n        start_node = (player_pos[0], player_pos[1])\n        target_node = (target_x, target_y)\n\n        def get_tile(x, y):\n            for row in root.findall('Row'):\n                if int(row.get('id')) == y:\n                    for tile in row.findall('Tile'):\n                        if int(tile.get('id')) == x:\n                            return tile\n            return None\n\n        traversable_tiles = ['FLOOR', 'TALL_GRASS', 'DOOR', 'WARP_CARPET_DOWN', 'LADDER', 'LEDGE_HOP_DOWN', 'LEDGE_HOP_RIGHT', 'LEDGE_HOP_LEFT', 'WARP_CARPET_RIGHT', 'WARP_CARPET_LEFT']\n\n        def is_traversable(x, y, from_x, from_y):\n            tile = get_tile(x, y)\n            if not tile or tile.get('type') == 'unseen': return False\n            if tile.find('Object') is not None: return False\n            \n            tile_type = tile.get('type')\n            if tile_type in ['WALL', 'WINDOW', 'VOID', 'CUT_TREE', 'SIGN', 'BOOKSHELF', 'BLACKBOARD', 'MART_SHELF', 'BUOY', 'TV', 'TOWN_MAP', 'RADIO', 'INCENSE_BURNER', 'BIRD', 'HEADBUTT_TREE', 'FRUIT_TREE', 'COMPUTER', 'PRINTER', 'COUNTER', 'CAVE']:\n                 return False\n\n            if tile_type == 'LEDGE_HOP_DOWN' and y < from_y: return False\n            if tile_type == 'LEDGE_HOP_RIGHT' and x < from_x: return False\n            if tile_type == 'LEDGE_HOP_LEFT' and x > from_x: return False\n            if tile_type == 'FLOOR_UP_WALL' and y > from_y: return False\n\n            return True\n\n        open_set = []\n        heapq.heappush(open_set, (0, start_node))\n        came_from = {}\n        g_score = {start_node: 0}\n        f_score = {start_node: abs(start_node[0] - target_node[0]) + abs(start_node[1] - target_node[1])}\n\n        while open_set:\n            _, current = heapq.heappop(open_set)\n\n            if current == target_node:\n                path = []\n                while current in came_from:\n                    path.append({'x': current[0], 'y': current[1]})\n                    current = came_from[current]\n                path.append({'x': start_node[0], 'y': start_node[1]})\n                print(path[::-1])\n                return\n\n            for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n                neighbor = (current[0] + dx, current[1] + dy)\n                if is_traversable(neighbor[0], neighbor[1], current[0], current[1]):\n                    tentative_g_score = g_score[current] + 1\n                    if neighbor not in g_score or tentative_g_score < g_score[neighbor]:\n                        came_from[neighbor] = current\n                        g_score[neighbor] = tentative_g_score\n                        f_score[neighbor] = tentative_g_score + abs(neighbor[0] - target_node[0]) + abs(neighbor[1] - target_node[1])\n                        if neighbor not in [i[1] for i in open_set]:\n                            heapq.heappush(open_set, (f_score[neighbor], neighbor))\n        print('No path found')\n    except Exception as e:\n        print(f\"An error occurred: {e}\")\n\npathfinder(input_data)",
+    "python_script": "import json\ndef run(input_data, map_xml_string):\n    try:\n        print(json.dumps({'output': map_xml_string[:500]}))\n    except Exception as e:\n        print(json.dumps({'error': str(e)}))\n",
     "history": [
       {
         "commit_message": "feat: Recreate pathfinder tool after deletion. This is an attempt to resolve the persistent sandbox error by forcing a complete reset of the tool's environment. The script itself remains unchanged as it was previously functional.",
@@ -60,6 +60,21 @@
         "commit_message": "fix: Overhaul pathfinder script for robustness. The previous 'sandbox not running' error was likely a red herring for a script that was crashing silently. This revision adds comprehensive error handling with a try-except block, explicit type casting for input data, and refined logic for parsing the map XML and identifying traversable tiles. This should resolve the persistent failures and restore pathfinding functionality.",
         "timestamp": "2025-07-29T07:16:36.610Z",
         "action_counter": 15305
+      },
+      {
+        "commit_message": "fix: Overhaul pathfinder script for robustness. The previous 'sandbox not running' error was likely a red herring for a script that was crashing silently. This revision adds comprehensive error handling with a try-except block, explicit type casting for input data, and refined logic for parsing the map XML and identifying traversable tiles. This should resolve the persistent failures and restore pathfinding functionality.",
+        "timestamp": "2025-07-29T07:34:50.124Z",
+        "action_counter": 15331
+      },
+      {
+        "commit_message": "refactor: Simplify script for debugging. This version only attempts to parse the map XML and print a success/failure message. This is to isolate the source of the 'sandbox not running' crash by testing the absolute most basic functionality.",
+        "timestamp": "2025-07-29T07:35:55.027Z",
+        "action_counter": 15333
+      },
+      {
+        "commit_message": "refactor: Further simplify script for debugging. This version avoids the XML parsing library entirely and only prints the first 500 characters of the map XML string. This is to test if the sandbox can handle basic variable passing and printing, isolating the problem from the potentially crashing ET library.",
+        "timestamp": "2025-07-29T07:37:10.616Z",
+        "action_counter": 15334
       }
     ]
   }
