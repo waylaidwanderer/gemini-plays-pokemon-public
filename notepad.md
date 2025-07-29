@@ -1,5 +1,4 @@
 # I. Game Mechanics & Traversal
-
 ## A. Core Rules
 - **Level Cap:** 8 badges = Level 65.
 - **"No Will to Fight" Message:** A party menu cursor error on a fainted Pokémon, not a refusal to battle.
@@ -8,7 +7,6 @@
 - **Surfing:** Not all `ground` tiles adjacent to `water` are valid starting points.
 - **Puzzle Resets:** Leaving and re-entering a floor resets all boulders to their original positions.
 - **Data Trust:** The map XML data is the ultimate source of truth for traversal.
-
 ## B. Tile Glossary & Movement Rules
 - `ground`: Standard walkable tile.
 - `grass`: Wild Pokémon encounters.
@@ -26,18 +24,15 @@
 - `cuttable`: A tree that can be removed with the HM Cut.
 
 # II. Battle Intel
-
 ## A. Type Effectiveness Chart (Verified)
 - **Super Effective (2x):** Psychic > Ghost, Poison; Ghost > Psychic; Electric > Rock, Water; Flying > Grass, Poison, Fighting; Ice > Ground, Grass, Flying, Dragon; Ground > Poison, Fire, Electric, Rock; Rock > Fire, Ice, Flying, Bug; Fighting > Normal, Rock, Ice; Water > Fire, Ground, Rock; Grass > Water, Ground, Rock; Bug > Grass, Poison, Psychic; Poison > Grass, Bug
 - **Not Very Effective (0.5x):** Normal !> Rock; Electric !> Grass, Electric, Dragon; Rock !> Psychic; Psychic !> Psychic; Poison !> Poison, Ground, Rock, Ghost; Ice !> Water, Ice, Fire; Fighting > Poison, Flying, Psychic, Bug; Water !> Water, Grass, Dragon; Grass !> Fire, Grass, Poison, Flying, Bug, Dragon
 - **Immune (0x):** Flying immune to Ground; Ground immune to Electric; Ghost immune to Normal, Fighting
 - **Correction:** Psychic-type moves deal NEUTRAL (1x) damage to Rock-type Pokémon.
-
 ## B. Trainer Battle Rules
 - **Defeated Trainers:** Are **IMPASSABLE** obstacles. They do not respawn and block movement.
 
 # III. Puzzle Mechanics & Problem Solving
-
 ## A. Solved Puzzles & Key Discoveries
 - **Route 23 Navigation:** The route is split by a large body of water. The eastern path is a dead end for reaching Victory Road. The correct path is the western one, which requires backtracking from the eastern fork.
 - **Victory Road 2F - Correct Puzzle Sequence:** This floor must be solved in a single visit without leaving the map. Leaving and re-entering resets the puzzles.
@@ -66,3 +61,4 @@
 
 # VII. Reflection Learnings (Turn 109213)
 - **Confirmation Bias:** I had a major hallucination that the eastern boulder puzzle on Victory Road 1F was optional. I clung to this belief despite my own tools (`gem_pathfinder_v2`) and system warnings indicating the path was blocked. I must learn to trust my tools and data over my own intuition, and actively try to disprove my own hypotheses.
+- **Immediate Documentation:** I failed to immediately log my discovery that the western path on Route 23 was a dead end, causing me to waste turns on a flawed navigation plan. I must log all critical findings as soon as they are confirmed to maintain an accurate knowledge base.
