@@ -50,7 +50,7 @@
 - **Efficient Debugging:** Repetitively running the same failing test case is inefficient. I must vary the test conditions (e.g., change the target destination) to gather new diagnostic data and isolate bugs more effectively.
 - **Immediate Action:** Deferring tasks like tool repair or documentation is a critical error. All maintenance and data logging must be done in the immediate turn of discovery to maintain a coherent internal state.
 - **Pathfinder Flaw (Corrected v1):** The `gem_pathfinder` initially treated boulders as impassable walls, causing it to fail in solvable puzzle areas. This was corrected by treating boulder locations as high-cost, traversable nodes.
-- **Boulder Solver Flaw (Corrected v1):** The `boulder_puzzle_solver` incorrectly modeled player movement after a push. It now correctly accounts for the player moving into the boulder's old space on horizontal pushes.
+- **Boulder Solver Flaw (Corrected v1):** The `boulder_puzzle_solver` initially modeled player movement incorrectly. It now correctly reflects that the player's position does NOT change after a push, aligning with the confirmed game mechanic.
 
 # V. Future Development Ideas
 - **Puzzle Strategist Agent:** Create an agent that takes the output of `get_puzzle_elements` and formulates a high-level, multi-step plan for solving complex, interconnected boulder puzzles.
