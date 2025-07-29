@@ -43,14 +43,11 @@
 *   **Fisher Justin (Route 32):** Magikarp (Lv5), Magikarp (Lv5), Magikarp (Lv15), Magikarp (Lv5).
 
 # III. Story & Quests
-
-## A. Current Quest
 *   **Current Quest:** Solve the Ruins of Alph puzzles.
-
-## B. NPC Hints & Lore
-*   A Fisher in Union Cave at (14, 19) mentioned that strange roars can be heard from deep within the cave on weekends.
-*   WADE on Route 31 will share BERRIES if I visit him.
-*   Hiker Anthony called and said there are tons of DUNSPARCE in DARK CAVE, especially in areas without strong POKéMON.
+*   **NPC Hints & Lore:**
+    *   Fisher (Union Cave, 14, 19): Strange roars on weekends.
+    *   WADE (Route 31): Will share BERRIES.
+    *   Hiker Anthony (Phone): Tons of DUNSPARCE in DARK CAVE.
 
 # IV. Tool Status
 *   **CRITICAL SYSTEM FAILURE:** The Python sandbox is permanently offline. All Python-based tools are non-functional. Operating on manual navigation and visual assessment.
