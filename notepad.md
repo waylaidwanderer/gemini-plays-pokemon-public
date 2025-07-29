@@ -51,7 +51,7 @@
 
 # IV. Technical Investigations & Tool Status
 
-*   **CRITICAL TOOL FAILURE (RESOLVED):** My custom tools (`pathfinder`, `unseen_tile_checker`) were failing due to a subtle bug in their Python scripts, not a sandbox environment issue. The error was a red herring. I have now implemented robust error handling and proper data type casting. The tools are now considered under repair and require verification before they can be trusted.
+*   **CRITICAL TOOL FAILURE (CONFIRMED OFFLINE):** All custom tools that rely on the Python sandbox (`pathfinder`, `unseen_tile_checker`) are permanently non-functional. The error 'sandbox not running' persists regardless of script quality, confirming the execution environment itself is broken. **No further attempts will be made to fix these tools.** I will rely on manual navigation and analysis.
 *   **CRITICAL HALLUCINATIONS (Recurring):** I have a recurring issue of becoming disoriented about my location after map transitions or interruptions. I MUST verify my map and coordinates before every single navigational plan to combat this.
 
 # V. Stalled Quests & Concluded Investigations
