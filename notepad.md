@@ -50,25 +50,26 @@
     *   Hiker Anthony (Phone): Tons of DUNSPARCE in DARK CAVE.
 
 # IV. Tool Status
-*   **CRITICAL SYSTEM FAILURE:** The Python sandbox is offline as of turn 16379. All Python-based tools are non-functional. Reverting to manual navigation and visual assessment.
+*   **CRITICAL SYSTEM FAILURE:** The Python sandbox is offline as of turn 16379. All Python-based tools (`pathfinder`, `unseen_tile_checker`, `run_code`) are non-functional. Reverting to manual navigation and visual assessment.
 *   **Reasoning Agents (Functional):** `battle_strategist`, `exploration_strategist`, `quest_strategist`.
 
-# VI. Items
-*   **Key Items:** OLD ROD.
-*   **Held Items:** POISON BARB, MIRACLE SEED.
+# V. Puzzle Logs
+
+## A. Ilex Forest Farfetch'd Puzzle
+*   **Objective:** Herd two Farfetch'd to the apprentice at (7, 28) for HM01 Cut.
+*   **Mechanic Hypothesis:** The Farfetch'd moves based on player position, not facing direction, and requires a clear, unobstructed tile to flee to. The movement pattern is not a simple 'flee directly away' mechanic.
+*   **Farfetch'd #1:** Herded successfully.
+*   **Farfetch'd #2:** Last seen at (22, 31). Puzzle resets upon leaving the forest.
+*   **Hypothesis 1 (Disproven):** Reloading the area by leaving and re-entering does not reset the Farfetch'd position.
+*   **Hypothesis 2 (Untested):** The Farfetch'd might be hiding behind a tree and can be flushed out by interacting with it.
+
+## B. Untested Assumptions
+*   **Assumption:** The only way to get HM01 Cut is by solving the Farfetch'd puzzle for the apprentice.
+    *   **Alternative Hypothesis:** HM01 Cut might be obtained from another NPC in Azalea Town or a different location entirely, and the Farfetch'd puzzle is an optional side quest.
+    *   **Test:** If the puzzle remains unsolvable, I will re-interview all NPCs in Azalea Town.
 
 # X. Contingency Plans
 *   **Route 32 North Path Failure:** My primary assumption is that the path to Route 36 is north through Route 32. If this path is blocked or proves to be a dead end, my contingency plan is to return to the southern part of Route 32 and explore it thoroughly to see if it leads to an alternative route to Goldenrod City.
 
 # XIV. Battle Mechanics (Newly Observed)
 *   **Wrap:** Traps the target for several turns, preventing them from switching or fleeing.
-*   **Future Test:** Need to test `CUT_08` and `CUT_28_GARBAGE` tile variants once HM01 (Cut) is obtained to see if they behave differently from a standard `CUT_TREE`.
-
-# V. Puzzle Logs
-
-## A. Ilex Forest Farfetch'd Puzzle
-**Objective:** Herd two Farfetch'd to the apprentice at (7, 28) for HM01 Cut.
-*   **Mechanic Hypothesis:** The Farfetch'd moves based on player position, not facing direction, and requires a clear, unobstructed tile to flee to. The movement pattern is not a simple 'flee directly away' mechanic.
-*   **Farfetch'd #1:** Herded successfully.
-*   **Farfetch'd #2:** Last seen at (22, 31). Puzzle resets upon leaving the forest.
-*   **VOID:** Impassable.
