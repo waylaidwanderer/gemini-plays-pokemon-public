@@ -74,12 +74,6 @@
 *   **Current Strategy:** All northern paths on Route 32 have been confirmed as dead ends. The only remaining path is south. The Youngster at (3, 45) is blocking the direct path, so I must navigate around him to continue towards Union Cave.
 *   **CRITICAL HALLUCINATION (Turn 14506):** I incorrectly believed the map exit at Route 33 (0, 15) was a warp. The system corrected me. It is a map transition, not a formal warp tile. I must verify map transitions in the future.
 
-# Untested Hypotheses (New Section)
-*   **Cut Quest Trigger:**
-    *   **Hypothesis:** I must speak to the apprentice in Ilex Forest again.
-    *   **Alt. Hypothesis 1:** I must speak to another NPC in Azalea Town (e.g., Kurt) who may have new dialogue.
-    *   **Alt. Hypothesis 2:** The trigger is time-based (e.g., day of the week).
-
 # X. Contingency Plans
 *   **Route 32 North Path Failure:** My primary assumption is that the path to Route 36 is north through Route 32. If this path is blocked or proves to be a dead end, my contingency plan is to return to the southern part of Route 32 and explore it thoroughly to see if it leads to an alternative route to Goldenrod City.
 
