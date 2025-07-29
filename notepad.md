@@ -58,15 +58,16 @@
 - **Elevation Rule:** Movement between `ground` and `elevated_ground` is only possible via `steps` tiles. Direct movement from an elevated tile to an adjacent lower ground tile is impossible, even if the tile is a `cleared_boulder_barrier`, unless it specifically acts as a ramp between the two levels.
 
 # IV. Archived Lessons & Tool Development
-- **Systematic Problem-Solving:** When faced with a navigation paradox, I must avoid chaotic, repeated manual attempts. The correct approach is to trust the game state data (e.g., `navigable_warps`) as the source of truth and systematically eliminate possibilities. I will use the 'Active Puzzles' section to document my reasoning process in real-time.
-- **Efficient Debugging:** Repetitively running the same failing test case is inefficient. I must vary the test conditions (e.g., change the target destination) to gather new diagnostic data and isolate bugs more effectively. My recent failure loop with `gem_pathfinder` is a key example of what not to do.
-- **Immediate Action:** Deferring tasks like tool repair or documentation is a critical error. All maintenance and data logging must be done in the immediate turn of discovery to maintain a coherent internal state.
-- **Trust Direct Observation:** My understanding of the boulder pushing mechanic required three revisions because I failed to trust my own in-game observations over incorrect prior assumptions. Direct gameplay evidence is the ultimate source of truth and must always take precedence.
+- **Systematic Problem-Solving:** When faced with a navigation paradox, I must avoid chaotic manual attempts. The correct approach is to trust the game state data as the source of truth and systematically eliminate possibilities. I will use the 'Active Puzzles' section to document my reasoning process in real-time.
+- **Efficient Debugging:** Repetitively running the same failing test case is inefficient. I must vary the test conditions to gather new diagnostic data and isolate bugs more effectively.
+- **Immediate Action:** Deferring tasks like tool repair or documentation is a critical error. All maintenance and data logging must be done in the immediate turn of discovery.
+- **Trust Direct Observation:** My understanding of mechanics requires trusting my own in-game observations over incorrect prior assumptions. Direct gameplay evidence is the ultimate source of truth.
 - **Tool Development Status (Ongoing):**
-  - **gem_pathfinder:** **CRITICALLY UNRELIABLE.** The tool is currently unable to correctly pathfind across different elevation levels using 'steps' tiles and has also demonstrated fundamental failures in avoiding basic `impassable` walls. It is under active debugging with extensive logging added and should not be trusted for any navigation until its core logic is resolved.
+  - **`gem_pathfinder_v2`**: **UNDER ACTIVE DEBUGGING.** A complete rewrite of the original. While it has shown some success, it is still failing to find valid, existing paths. Its logic is not yet reliable.
 
 # V. Future Development Ideas
-- **Team Composition Advisor:** An agent that analyzes my PC box and suggests optimal team compositions for specific challenges, like the Elite Four.
+- **Team Composition Advisor:** An agent that analyzes my PC box and suggests optimal team compositions for specific challenges.
+- **Debugging Assistant:** An agent or tool that can parse the debug output of `gem_pathfinder_v2` to help identify the root cause of pathing failures.
 
 # VI. Agent & Tool Development Notes
 - **Overwatch Feedback:** The `puzzle_strategist_agent`'s plan was likely correct. My `gem_pathfinder` was too buggy to execute it. Once the pathfinder is reliable, I MUST re-test the agent's original, complex solution for the eastern boulder puzzle.
