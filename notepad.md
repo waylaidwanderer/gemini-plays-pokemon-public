@@ -78,9 +78,6 @@
 # X. Contingency Plans
 *   **Route 32 North Path Failure:** My primary assumption is that the path to Route 36 is north through Route 32. If this path is blocked or proves to be a dead end, my contingency plan is to return to the southern part of Route 32 and explore it thoroughly to see if it leads to an alternative route to Goldenrod City.
 
-# XI. New Core Directives (from reflection)
-*   **Summarize Hallucinations:** Instead of keeping a long, detailed log of every hallucination, I will summarize the key lesson learned and add it to the main 'Core Directives' section. This will keep the notepad clean and actionable.
-
 # Notepad Update (Append)
 
 ## New Tile Mechanics
