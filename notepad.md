@@ -64,3 +64,8 @@
 
 # VI. Agent & Tool Development Notes
 - **`puzzle_strategist_agent`:** The agent's original plan for the eastern boulder puzzle on Victory Road 1F may have been correct. My pathfinder was too buggy to execute it. I will re-test the agent's plan once the pathfinder is confirmed to be reliable.
+
+# VII. Reflection Learnings (Turn 109213)
+- **Confirmation Bias:** I had a major hallucination that the eastern boulder puzzle on Victory Road 1F was optional. I clung to this belief despite my own tools (`gem_pathfinder_v2`) and system warnings indicating the path was blocked. I must learn to trust my tools and data over my own intuition, and actively try to disprove my own hypotheses.
+- **Agent Refinement (`puzzle_strategist_agent`):** The agent's plan for the eastern boulder puzzle was invalid because it didn't account for all impassable tiles. I need to refine its prompt and schemas to ensure it receives and correctly processes all necessary map data to create viable plans.
+- **Future Development Idea (Pathfinder Debugging Agent):** The debug output from `gem_pathfinder_v2` is extremely verbose. A new agent could be created to parse this output and provide a concise, human-readable summary of why a path failed, which would significantly speed up debugging.
