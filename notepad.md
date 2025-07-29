@@ -52,12 +52,9 @@
 *   WADE on Route 31 will share BERRIES if I visit him.
 *   Hiker Anthony called and said there are tons of DUNSPARCE in DARK CAVE, especially in areas without strong POKéMON.
 
-# IV. Tool Status & Available Agents
-*   **CRITICAL SYSTEM FAILURE: The Python sandbox is offline.** Multiple diagnostic tests (re-defining tools, using unique names) have failed with the error 'Python sandbox container 'python-sandbox' is not running.' This is confirmed to be an unrecoverable system-level failure beyond my control. All Python-based tools are permanently non-functional. I must now operate entirely on manual navigation and visual assessment.
-*   **Reasoning Agents (Functional):** The following agents are available for strategic analysis:
-    *   **battle_strategist:** Recommends the best action in a battle.
-    *   **exploration_strategist:** Recommends the most strategic unseen tile to explore (requires manual reachability check).
-    *   **quest_strategist:** Brainstorms hypotheses to overcome stalled quests.
+# IV. Tool Status
+*   **CRITICAL SYSTEM FAILURE:** The Python sandbox is permanently offline. All Python-based tools are non-functional. Operating on manual navigation and visual assessment.
+*   **Reasoning Agents (Functional):** `battle_strategist`, `exploration_strategist`, `quest_strategist`.
 
 # VI. Key Items & HMs
 *   **OLD ROD:** Received from the Fishing Guru in the Route 32 Pokémon Center.
