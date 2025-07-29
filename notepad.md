@@ -50,4 +50,3 @@
 - **Victory Road 1F - Boulder/Steps Interaction (Confirmed):** Boulders cannot be pushed onto `steps` tiles. This was confirmed after multiple failed attempts to push the boulder at (6, 15) north onto the steps at (6, 14).
 
 - **Hypothesis (Disproven): Victory Road 2F - Eastern Puzzle:** The boulder at (5, 15) cannot be moved to the switch at (10, 17) as the path is blocked by an impassable tile at (9, 17).
-- **Puzzle Solution Found: Victory Road 3F - Western Puzzle:** The `boulder_puzzle_solver` found a solution to move the boulder at (11, 2) to the switch at (4, 6).
