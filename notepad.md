@@ -75,6 +75,11 @@
 
 ## A. Route 23
 - **Problem:** The path to Victory Road is blocked by guards that have already been passed but remain as physical obstacles.
-- **Hypothesis (Attempt 1):** The pathfinder can create a route if told to ignore the guards' coordinates using the `ignorable_coords` parameter.
-- **Test:** Call `gem_pathfinder_v2` targeting the Victory Road entrance at (5, 33), with `ignorable_coords` set to `[[9, 137], [9, 120], [13, 106], [11, 57], [5, 36]]`.
-- **Expected Outcome:** A successful path is generated.
+- **Hypothesis (Attempt 1 - FAILED):** The pathfinder can create a route if told to ignore the guards' coordinates using the `ignorable_coords` parameter.
+- **Test:** Called `gem_pathfinder_v2` targeting the Victory Road entrance at (5, 33), with `ignorable_coords` set.
+- **Result:** Failed. "No path found."
+- **Conclusion:** The initial hypothesis was incorrect or incomplete. There may be another obstacle.
+
+- **Hypothesis (Attempt 2):** The path is blocked somewhere between the start and the second guard.
+- **Test:** Pathfind from (8, 127) to (13, 105), ignoring the first two guards at (9, 120) and (13, 106).
+- **Expected Outcome:** If successful, the blockage is further north. If it fails, the blockage is in this segment.
