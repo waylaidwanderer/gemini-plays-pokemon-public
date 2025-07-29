@@ -35,13 +35,11 @@
 # III. Puzzle Mechanics & Problem Solving
 ## A. Solved Puzzles & Key Discoveries
 - **Route 23 Navigation:** The route is split by a large body of water. The eastern path is a dead end for reaching Victory Road. The correct path is the western one, which requires backtracking from the eastern fork.
-- **Victory Road 2F - Correct Puzzle Sequence:** This floor must be solved in a single visit without leaving the map. Leaving and re-entering resets the puzzles.
-  1.  Enter from the ladder at (1, 9).
-  2.  Solve the **western puzzle**: Push the boulder from (5, 15) to the switch at (2, 17). This opens the barrier at (8, 9) and (8, 10).
-  3.  Solve the **eastern puzzle**: Push the boulder from (6, 5) to the switch at (10, 17). This opens the barrier at (24, 15), clearing the path to the exit ladder.
-- **Victory Road 3F - Hole Puzzle:** Pushing the boulder at (14, 13) south into the hole at (14, 15) causes it to appear on the floor below.
 - **Victory Road 1F - Boulder/Steps Interaction (Confirmed):** Boulders cannot be pushed onto `steps` tiles. This was confirmed after multiple failed attempts to push the boulder at (6, 15) north onto the steps at (6, 14).
 - **Victory Road 1F - Elevation Rule (Confirmed):** Movement between `ground` and `elevated_ground` is ONLY possible by traversing a `steps` tile. The full sequence is `elevated_ground` -> `steps` -> `ground` (and vice-versa). Direct movement between `elevated_ground` and any other lower-level tile type is impossible.
+- **Victory Road 2F - Western Boulder Puzzle (Attempt 4):** Previous attempts failed due to hallucinating that tile (3, 16) was ground; it is impassable. **New Hypothesis:** A path that avoids (3, 16) by pushing down first is required. **New Plan:** 1. Get to (5, 14). 2. Push boulder at (5, 15) DOWN twice to (5, 17). 3. Reposition to (6, 17). 4. Push boulder LEFT three times to the switch at (2, 17).
+- **Victory Road 2F - Eastern Puzzle (To-Do):** Push the boulder from (6, 6) to the switch at (10, 17). This will open the barrier at (24, 15), clearing the path to the exit ladder.
+- **Victory Road 3F - Hole Puzzle:** Pushing the boulder at (14, 13) south into the hole at (14, 15) causes it to appear on the floor below.
 
 # IV. Archived Lessons & Tool Development
 - **Systematic Problem-Solving:** Trust the game state data over intuition.
@@ -55,12 +53,11 @@
 - **Team Composition Advisor:** An agent to suggest optimal team compositions.
 - **Pathfinder Debugging Agent:** An agent to parse pathfinder debug output and provide a concise summary of why a path failed. This would automate the multi-step process I currently do manually.
 - **Route Analysis Agent:** An agent to analyze map connectivity and suggest high-level navigation strategies.
+- **Puzzle Executor Agent:** An agent that takes a puzzle solution (e.g., from `puzzle_strategist_agent`) and generates the precise sequence of button presses to execute the plan, automating the manual process of moving and pushing.
 
 # VI. Agent & Tool Development Notes
 - **`puzzle_strategist_agent`:** The agent's original plan for the eastern boulder puzzle on Victory Road 1F may have been correct. My pathfinder was too buggy to execute it. With the pathfinder now stable, this plan can be re-tested in the future if needed. The agent needs refinement to better process all impassable map data.
 
-# VII. Reflection Learnings (Turn 109575)
-- **Confirmation Bias:** I had a major hallucination that the eastern path on Route 23 was the correct one. I clung to this belief despite my pathfinder repeatedly failing, leading to dozens of wasted turns. I must learn to trust my tools and data over my own intuition, and actively try to disprove my own hypotheses.
-- **Immediate Documentation:** I failed to immediately log my discovery that the eastern path on Route 23 was a dead end, causing me to waste turns on a flawed navigation plan. I must log all critical findings as soon as they are confirmed to maintain an accurate knowledge base.
-- **Puzzle Executor Agent:** An agent that takes a puzzle solution (e.g., from `puzzle_strategist_agent`) and generates the precise sequence of button presses to execute the plan, automating the manual process of moving and pushing.
-- **Victory Road 2F - Western Boulder Puzzle (Attempt 4):** Previous attempts failed due to hallucinating that tile (3, 16) was ground; it is impassable. **New Hypothesis:** A path that avoids (3, 16) by pushing down first is required. **New Plan:** 1. Get to (5, 14). 2. Push boulder at (5, 15) DOWN twice to (5, 17). 3. Reposition to (6, 17). 4. Push boulder LEFT three times to the switch at (2, 17).
+# VII. Reflection Learnings (Turn 109992)
+- **Confirmation Bias:** I had a major hallucination that tile (3, 16) was passable. I clung to this belief despite my pathfinder repeatedly failing and multiple failed puzzle attempts. I must learn to trust my tools and data over my own intuition, and actively try to disprove my own hypotheses.
+- **Immediate Documentation:** I will continue to immediately log my discoveries and failed hypotheses to maintain an accurate knowledge base.
