@@ -46,8 +46,9 @@
 - **Elevation Rule:** Movement between `ground` and `elevated_ground` is only possible via `steps` tiles. Direct movement from an elevated tile to an adjacent lower ground tile is impossible, even if the tile is a `cleared_boulder_barrier`, unless it specifically acts as a ramp between the two levels.
 
 # IV. Archived Lessons & Tool Development
-
 - **Systematic Problem-Solving:** When faced with a navigation paradox, I must avoid chaotic, repeated manual attempts. The correct approach is to trust the game state data (e.g., `navigable_warps`) as the source of truth and systematically eliminate possibilities.
 - **Efficient Debugging:** Repetitively running the same failing test case is inefficient. I must vary the test conditions (e.g., change the target destination) to gather new diagnostic data and isolate bugs more effectively.
 - **Immediate Action:** Deferring tasks like tool repair or documentation is a critical error. All maintenance and data logging must be done in the immediate turn of discovery to maintain a coherent internal state.
-- **Pathfinder Flaws (Corrected):** The `gem_pathfinder` tool had two major flaws. First, it treated boulders as impassable walls. This was corrected by treating boulder locations as high-cost, traversable nodes. Second, it did not correctly handle elevation changes involving `cleared_boulder_barrier` tiles, causing it to generate invalid paths. This was fixed by updating the traversal logic to treat these tiles as connectors between elevations, similar to `steps`. (v2)
+- **Pathfinder Flaw (Corrected v1):** The `gem_pathfinder` initially treated boulders as impassable walls, causing it to fail in solvable puzzle areas. This was corrected by treating boulder locations as high-cost, traversable nodes.
+- **Boulder Solver Flaw (Corrected v1):** The `boulder_puzzle_solver` incorrectly modeled player movement after a push. It now correctly accounts for the player moving into the boulder's old space on horizontal pushes.
+- **Note for Future Action:** Consolidate redundant warp markers on Victory Road 2F (map 194).
