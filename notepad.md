@@ -57,11 +57,8 @@
 
 ## A. Ilex Forest Farfetch'd Puzzle
 *   **Objective:** Herd two Farfetch'd to the apprentice at (7, 28) for HM01 Cut.
-*   **Mechanic Hypothesis:** The Farfetch'd moves based on player position, not facing direction, and requires a clear, unobstructed tile to flee to. The movement pattern is not a simple 'flee directly away' mechanic.
-*   **Farfetch'd #1:** Herded successfully.
-*   **Farfetch'd #2:** Last seen at (22, 31). Puzzle resets upon leaving the forest.
-*   **Hypothesis 1 (Disproven):** Reloading the area by leaving and re-entering does not reset the Farfetch'd position.
-*   **Hypothesis 2 (Untested):** The Farfetch'd might be hiding behind a tree and can be flushed out by interacting with it.
+*   **Mechanic Hypothesis:** The Farfetch'd moves based on player position, not facing direction, and requires a clear, unobstructed tile to flee to.
+*   **Status:** One Farfetch'd has been herded. The second Farfetch'd is currently at (15, 25).
 
 ## B. Untested Assumptions
 *   **Assumption:** The only way to get HM01 Cut is by solving the Farfetch'd puzzle for the apprentice.
