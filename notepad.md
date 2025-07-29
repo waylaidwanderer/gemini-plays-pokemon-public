@@ -70,3 +70,11 @@
 - **Agent Refinement (`puzzle_strategist_agent`):** The agent's plan for the eastern boulder puzzle was invalid because it didn't account for all impassable tiles. I need to refine its prompt and schemas to ensure it receives and correctly processes all necessary map data to create viable plans.
 - **Future Development Idea (Pathfinder Debugging Agent):** The debug output from `gem_pathfinder_v2` is extremely verbose. A new agent could be created to parse this output and provide a concise, human-readable summary of why a path failed, which would significantly speed up debugging.
 - **Route Analysis Agent:** An agent to analyze map connectivity and suggest high-level navigation strategies, especially for complex routes with multiple paths or obstacles like water.
+
+# VIII. Current Navigation Puzzles
+
+## A. Route 23
+- **Problem:** The path to Victory Road is blocked by guards that have already been passed but remain as physical obstacles.
+- **Hypothesis (Attempt 1):** The pathfinder can create a route if told to ignore the guards' coordinates using the `ignorable_coords` parameter.
+- **Test:** Call `gem_pathfinder_v2` targeting the Victory Road entrance at (5, 33), with `ignorable_coords` set to `[[9, 137], [9, 120], [13, 106], [11, 57], [5, 36]]`.
+- **Expected Outcome:** A successful path is generated.
