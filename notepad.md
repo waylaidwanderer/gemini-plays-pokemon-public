@@ -53,12 +53,9 @@
 *   **CRITICAL SYSTEM FAILURE:** The Python sandbox is permanently offline. All Python-based tools are non-functional. Operating on manual navigation and visual assessment.
 *   **Reasoning Agents (Functional):** `battle_strategist`, `exploration_strategist`, `quest_strategist`.
 
-# VI. Key Items & HMs
-*   **OLD ROD:** Received from the Fishing Guru in the Route 32 Pokémon Center.
-
-# VII. Held Items
-*   **POISON BARB:** Received from FRIEDA on Route 32 on a Friday. Boosts the power of poison-type moves.
-*   **MIRACLE SEED:** Received from Cooltrainer M on Route 32. Boosts the power of grass-type moves.
+# VI. Items
+*   **Key Items:** OLD ROD.
+*   **Held Items:** POISON BARB, MIRACLE SEED.
 
 # X. Contingency Plans
 *   **Route 32 North Path Failure:** My primary assumption is that the path to Route 36 is north through Route 32. If this path is blocked or proves to be a dead end, my contingency plan is to return to the southern part of Route 32 and explore it thoroughly to see if it leads to an alternative route to Goldenrod City.
