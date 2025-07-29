@@ -117,11 +117,10 @@
 
 # IV. Hypotheses & Investigations (Consolidated)
 
-## A. Active Hypotheses (Cut Quest)
-1.  **Hypothesis:** The Farfetch'd must be herded by manipulating the direction it faces before interacting. Interacting with it seems to make it move *away* from the player, but only if it isn't facing the player.
-    *   **Test Plan:** To move it west, I must first get it to face west (by interacting from the west), then circle around and interact from the east.
-2.  **Hypothesis:** The puzzle involves multiple fixed points, and interacting with the Farfetch'd from any direction simply moves it to the next point in a predefined sequence.
-    *   **Test Action:** Continue interacting with the Farfetch'd from any convenient direction and map its movement path to see if a pattern emerges.
+## A. Active Hypotheses (Cut Quest) - CORRECTED
+*   **Previous Core Assumption (FALSIFIED):** My previous attempts were based on two critical hallucinations: the existence of interactable 'twig piles' that made noise, and the idea that the Farfetch'd's sprite facing direction was a reliable puzzle mechanic. The system critique has confirmed these are not real mechanics. All hypotheses based on them are invalid.
+*   **New Core Hypothesis:** The puzzle is a simple interaction sequence. Interacting with the Farfetch'd from any valid adjacent tile will cause it to move to the next predetermined point in its path. The player's position or the bird's facing direction are irrelevant.
+    *   **Test Plan:** From now on, I will interact with the Farfetch'd from the most convenient adjacent tile, observe where it moves, and map its path. The goal is to herd it towards the apprentice at (7, 28).
 
 ## B. Falsified Hypotheses & Concluded Investigations
 *   **Simple Directional Push (Falsified):** Interacting with the Farfetch'd from a direction does not consistently 'push' it in the opposite direction. It sometimes only turns to face the player.
