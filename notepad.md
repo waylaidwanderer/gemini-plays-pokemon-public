@@ -56,3 +56,4 @@
   - **boulder_puzzle_solver:** CRITICAL WARNING - This tool is fundamentally broken and MUST NOT be used. Its internal pathfinding logic is flawed and produces incorrect solutions. It needs a complete refactor to call the robust `gem_pathfinder` tool before it can be considered for use.
 
 # V. Future Development Ideas
+- **Team Composition Advisor:** An agent that analyzes my PC box and suggests optimal team compositions for specific challenges, like the Elite Four.
