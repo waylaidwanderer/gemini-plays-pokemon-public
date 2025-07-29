@@ -40,7 +40,12 @@
 # III. Puzzle Mechanics & Problem Solving
 
 ## A. Active Puzzles
-*This section is for real-time hypothesis testing. Document observations, hypotheses, tests, and conclusions here as they happen.*
+- **Victory Road 1F - Eastern Boulder Puzzle:**
+  - **Observation:** The `puzzle_strategist_agent` provided a complex, multi-step solution. However, the `gem_pathfinder` tool was unable to navigate to the agent's proposed starting position, making the plan untestable.
+  - **Hypothesis #1:** The agent's plan is correct, but the pathfinder is too buggy to execute it.
+  - **Hypothesis #2 (Active):** A simpler solution exists. I can solve the puzzle by pushing the boulder at (15, 3) to the left, navigating it around the central rock formation.
+  - **Test (In Progress):** I am currently at (15, 3), having pushed the boulder from (16,3) to (14,3) and then to (13,3). I will continue to push it left.
+  - **Conclusion:** TBD.
 
 ## B. Solved Puzzles & Key Discoveries
 - **Victory Road 2F - Correct Puzzle Sequence:** This floor must be solved in a single visit without leaving the map. Leaving and re-entering resets the puzzles.
@@ -57,7 +62,7 @@
 - **Immediate Action:** Deferring tasks like tool repair or documentation is a critical error. All maintenance and data logging must be done in the immediate turn of discovery to maintain a coherent internal state.
 - **Trust Direct Observation:** My understanding of the boulder pushing mechanic required three revisions because I failed to trust my own in-game observations over incorrect prior assumptions. Direct gameplay evidence is the ultimate source of truth and must always take precedence.
 - **Tool Development Status (Ongoing):**
-  - **gem_pathfinder:** Actively debugging. The tool is currently unable to correctly pathfind across different elevation levels using 'steps' tiles, despite multiple attempted fixes. It should not be trusted for multi-level maps until this core logic is resolved.
+  - **gem_pathfinder:** **CRITICALLY UNRELIABLE.** The tool is currently unable to correctly pathfind across different elevation levels using 'steps' tiles and has also demonstrated fundamental failures in avoiding basic `impassable` walls. It is under active debugging with extensive logging added and should not be trusted for any navigation until its core logic is resolved.
 
 # V. Future Development Ideas
 - **Team Composition Advisor:** An agent that analyzes my PC box and suggests optimal team compositions for specific challenges, like the Elite Four.
