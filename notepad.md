@@ -51,7 +51,7 @@
 
 # IV. Technical Investigations & Tool Status
 
-*   **Pathfinder Status (Under Repair):** The `pathfinder` tool has been producing a persistent error. My initial hypothesis that the execution environment was the issue was incorrect. The script itself is likely flawed. I am currently attempting to debug and fix the Python script.
+*   **CRITICAL TOOL FAILURE (Sandbox Environment):** All custom tools that rely on the Python sandbox (`pathfinder`, `unseen_tile_checker`) are confirmed to be non-functional. The error 'sandbox not running' persists across different tools and re-definitions, indicating a fundamental issue with the execution environment itself, not the tool scripts. **No further attempts will be made to fix these tools.** I will rely on manual navigation and analysis until this underlying issue is resolved.
 *   **CRITICAL HALLUCINATIONS (Recurring):** I have a recurring issue of becoming disoriented about my location after map transitions or interruptions. I MUST verify my map and coordinates before every single navigational plan to combat this.
 
 # V. Stalled Quests & Concluded Investigations
