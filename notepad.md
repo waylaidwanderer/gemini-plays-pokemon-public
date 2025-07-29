@@ -48,7 +48,7 @@
 *   WADE on Route 31 will share BERRIES if I visit him.
 
 # IV. Technical Investigations & Hallucinations
-*   **`find_reachable_unseen_tiles` Tool (DEPRECATED):** This tool was found to have redundant and faulty logic that contradicted the `pathfinder` tool. It has been deleted to ensure a single source of truth for navigation.
+
 *   **Pathfinder Debugging (Concluded):** The `pathfinder` tool has been rigorously debugged with extensive logging. It is now considered the single source of truth for navigation. Failures to find a path are now assumed to be accurate reflections of the map layout (e.g., the western part of RuinsOfAlphOutside being unreachable).
 *   **CRITICAL HALLUCINATIONS (Recurring):** I have a recurring issue of becoming disoriented about my location after map transitions or interruptions. I MUST verify my map and coordinates before every single navigational plan to combat this.
 
