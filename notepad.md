@@ -57,8 +57,7 @@
 - **Immediate Action:** Deferring tasks like tool repair or documentation is a critical error. All maintenance and data logging must be done in the immediate turn of discovery to maintain a coherent internal state.
 - **Trust Direct Observation:** My understanding of the boulder pushing mechanic required three revisions because I failed to trust my own in-game observations over incorrect prior assumptions. Direct gameplay evidence is the ultimate source of truth and must always take precedence.
 - **Tool Development Status (Ongoing):**
-  - **gem_pathfinder:** CRITICAL WARNING - This tool is fundamentally broken regarding elevation changes and MUST NOT be used for multi-level maps until its logic is systematically fixed. My previous 'fixes' were ineffective.
-  - **boulder_puzzle_solver:** DELETED - This tool was fundamentally broken and relied on the also-broken `gem_pathfinder`. It has been removed to avoid accidental use.
+  - **gem_pathfinder:** Actively debugging. The tool is currently unable to correctly pathfind across different elevation levels using 'steps' tiles, despite multiple attempted fixes. It should not be trusted for multi-level maps until this core logic is resolved.
 
 # V. Future Development Ideas
 - **Team Composition Advisor:** An agent that analyzes my PC box and suggests optimal team compositions for specific challenges, like the Elite Four.
