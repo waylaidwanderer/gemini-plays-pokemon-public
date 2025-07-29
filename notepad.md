@@ -39,10 +39,12 @@
 
 # III. Puzzle Mechanics & Key Discoveries
 
-- **Victory Road 2F - Western Trap:** Pushing the boulder onto the switch at (2, 17) primes a trap that opens the barrier at (8, 9) and (8, 10) after leaving and re-entering the floor.
-- **Victory Road 3F - Hole Puzzle:** Pushing the boulder at (14, 13) south into the hole at (14, 15) causes it to drop to the floor below.
+- **Victory Road 2F - Correct Puzzle Sequence:** This floor must be solved in a single visit without leaving the map. Leaving and re-entering resets the puzzles.
+  1.  Enter from the ladder at (1, 9).
+  2.  Solve the **western puzzle**: Push the boulder from (5, 15) to the switch at (2, 17). This opens the barrier at (8, 9) and (8, 10).
+  3.  Solve the **eastern puzzle**: Push the boulder from (6, 6) to the switch at (10, 17). This opens the barrier at (24, 15), clearing the path to the exit ladder.
+- **Victory Road 3F - Hole Puzzle:** Pushing the boulder at (14, 13) south into the hole at (14, 15) causes it to appear on the floor below.
 - **Victory Road 1F - Boulder/Steps Interaction (Confirmed):** Boulders cannot be pushed onto `steps` tiles. This was confirmed after multiple failed attempts to push the boulder at (6, 15) north onto the steps at (6, 14).
-- **Hypothesis (Re-evaluated): Victory Road 2F - Eastern Puzzle:** My initial assessment that the boulder at (5, 15) cannot reach the switch at (10, 17) was incorrect. The impassable tile at (9, 17) does not block a direct push from above (from (10, 16)). The puzzle is likely solvable by pushing the boulder right to column 10, then down onto the switch.
 - **Elevation Rule:** Movement between `ground` and `elevated_ground` is only possible via `steps` tiles. Direct movement from an elevated tile to an adjacent lower ground tile is impossible, even if the tile is a `cleared_boulder_barrier`, unless it specifically acts as a ramp between the two levels.
 
 # IV. Archived Lessons & Tool Development
