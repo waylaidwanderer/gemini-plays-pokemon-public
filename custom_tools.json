@@ -26,56 +26,5 @@
         "action_counter": 15273
       }
     ]
-  },
-  "pathfinder": {
-    "description": "Finds the shortest path from the player's current position to a target coordinate on the current map using the A* algorithm. It avoids impassable tiles and respects one-way traversal rules.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "target_x": {
-          "type": "string"
-        },
-        "target_y": {
-          "type": "string"
-        }
-      },
-      "required": [
-        "target_x",
-        "target_y"
-      ]
-    },
-    "python_script": "import json\ndef run(input_data, map_xml_string):\n    try:\n        print(json.dumps({'output': map_xml_string[:500]}))\n    except Exception as e:\n        print(json.dumps({'error': str(e)}))\n",
-    "history": [
-      {
-        "commit_message": "feat: Recreate pathfinder tool after deletion. This is an attempt to resolve the persistent sandbox error by forcing a complete reset of the tool's environment. The script itself remains unchanged as it was previously functional.",
-        "timestamp": "2025-07-29T06:31:10.732Z",
-        "action_counter": 15245
-      },
-      {
-        "commit_message": "fix: Overhaul pathfinder script for robustness. The previous 'sandbox not running' error was likely a red herring for a script that was crashing silently. This revision adds comprehensive error handling with a try-except block, explicit type casting for input data, and refined logic for parsing the map XML and identifying traversable tiles. This should resolve the persistent failures and restore pathfinding functionality.",
-        "timestamp": "2025-07-29T06:51:09.535Z",
-        "action_counter": 15271
-      },
-      {
-        "commit_message": "fix: Overhaul pathfinder script for robustness. The previous 'sandbox not running' error was likely a red herring for a script that was crashing silently. This revision adds comprehensive error handling with a try-except block, explicit type casting for input data, and refined logic for parsing the map XML and identifying traversable tiles. This should resolve the persistent failures and restore pathfinding functionality.",
-        "timestamp": "2025-07-29T07:16:36.610Z",
-        "action_counter": 15305
-      },
-      {
-        "commit_message": "fix: Overhaul pathfinder script for robustness. The previous 'sandbox not running' error was likely a red herring for a script that was crashing silently. This revision adds comprehensive error handling with a try-except block, explicit type casting for input data, and refined logic for parsing the map XML and identifying traversable tiles. This should resolve the persistent failures and restore pathfinding functionality.",
-        "timestamp": "2025-07-29T07:34:50.124Z",
-        "action_counter": 15331
-      },
-      {
-        "commit_message": "refactor: Simplify script for debugging. This version only attempts to parse the map XML and print a success/failure message. This is to isolate the source of the 'sandbox not running' crash by testing the absolute most basic functionality.",
-        "timestamp": "2025-07-29T07:35:55.027Z",
-        "action_counter": 15333
-      },
-      {
-        "commit_message": "refactor: Further simplify script for debugging. This version avoids the XML parsing library entirely and only prints the first 500 characters of the map XML string. This is to test if the sandbox can handle basic variable passing and printing, isolating the problem from the potentially crashing ET library.",
-        "timestamp": "2025-07-29T07:37:10.616Z",
-        "action_counter": 15334
-      }
-    ]
   }
 }
