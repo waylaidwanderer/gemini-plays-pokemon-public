@@ -53,7 +53,7 @@
 - **Immediate Action:** Deferring tasks like tool repair or documentation is a critical error. All maintenance and data logging must be done in the immediate turn of discovery to maintain a coherent internal state.
 - **Tool Development Status (Ongoing):**
   - **gem_pathfinder:** Refactored to improve elevation traversal logic. The tool's reliability is confirmed after successful baseline testing.
-  - **boulder_puzzle_solver:** This tool remains unreliable due to a flawed internal pathfinder. It should not be used until it can be refactored to call the main `gem_pathfinder` tool.
+  - **boulder_puzzle_solver:** CRITICAL WARNING - This tool is fundamentally broken and MUST NOT be used. Its internal pathfinding logic is flawed and produces incorrect solutions. It needs a complete refactor to call the robust `gem_pathfinder` tool before it can be considered for use.
 
 # V. Future Development Ideas
 - **Puzzle Strategist Agent:** Create an agent that takes the output of `get_puzzle_elements` and formulates a high-level, multi-step plan for solving complex, interconnected boulder puzzles.
