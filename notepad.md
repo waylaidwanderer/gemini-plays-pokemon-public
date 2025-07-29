@@ -49,12 +49,13 @@
 *   A Fisher in Union Cave at (14, 19) mentioned that strange roars can be heard from deep within the cave on weekends.
 *   WADE on Route 31 will share BERRIES if I visit him.
 
-# IV. Available Tools
-*   **pathfinder:** Calculates the shortest path between two points on the current map. Use for all navigation.
-*   **unseen_tile_checker:** Checks which of a list of unseen tiles are actually reachable from the current position. Use to validate system alerts.
-*   **battle_strategist:** Recommends the best action in a battle.
-*   **exploration_strategist:** Recommends the most strategic unseen tile to explore.
-*   **quest_strategist:** Brainstorms hypotheses to overcome stalled quests.
+# IV. Tool Status & Available Agents
+
+*   **Python Tools (NON-FUNCTIONAL):** All Python-based tools (`pathfinder`, `unseen_tile_checker`, `run_code`) are confirmed to be non-functional due to a persistent sandbox error. All pathfinding and reachability checks must be done manually.
+*   **Reasoning Agents (Functional):** The following agents are available for strategic analysis:
+    *   **battle_strategist:** Recommends the best action in a battle.
+    *   **exploration_strategist:** Recommends the most strategic unseen tile to explore (requires manual reachability check).
+    *   **quest_strategist:** Brainstorms hypotheses to overcome stalled quests.
 
 # V. Hypotheses & Investigations
 

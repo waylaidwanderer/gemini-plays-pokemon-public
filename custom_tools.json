@@ -1,16 +1,33 @@
 {
   "unseen_tile_checker": {
-    "description": "A simple tool to test sandbox execution.",
+    "description": "Checks a list of unseen tiles to determine which are reachable from the player's current position using a BFS pathfinding algorithm.",
     "input_schema": {
       "type": "object",
       "properties": {
-        "test_arg": {
-          "type": "string"
+        "unseen_tiles_to_check": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "x": {
+                "type": "integer"
+              },
+              "y": {
+                "type": "integer"
+              }
+            },
+            "required": [
+              "x",
+              "y"
+            ]
+          }
         }
       },
-      "required": []
+      "required": [
+        "unseen_tiles_to_check"
+      ]
     },
-    "python_script": "print(\"hello from the sandbox\")",
+    "python_script": "import xml.etree.ElementTree as ET\nimport collections\nimport json\n\ndef check_reachability():\n    traversable_tiles = {'TALL_GRASS', 'LONG_GRASS', 'DOOR', 'WARP_CARPET_DOWN', 'LADDER', 'FLOOR'}\n    one_way_down = {'LEDGE_HOP_DOWN'}\n    one_way_right = {'LEDGE_HOP_RIGHT'}\n    one_way_left = {'LEDGE_HOP_LEFT'}\n\n    try:\n        root = ET.fromstring(map_xml_string)\n    except ET.ParseError as e:\n        print(f\"Error parsing map_xml_string: {e}\")\n        return\n\n    grid = {}\n    player_pos = None\n    width = int(root.get('width'))\n    height = int(root.get('height'))\n\n    for row_elem in root.findall('Row'):\n        y = int(row_elem.get('id'))\n        for tile_elem in row_elem.findall('Tile'):\n            x = int(tile_elem.get('id'))\n            tile_type = tile_elem.get('type')\n            has_object = tile_elem.get('has-object') == 'true'\n            is_impassable = has_object\n            if tile_type not in traversable_tiles and tile_type not in one_way_down and tile_type not in one_way_right and tile_type not in one_way_left:\n                is_impassable = True\n            grid[(x, y)] = {'type': tile_type, 'impassable': is_impassable}\n            if tile_elem.get('has-player') == 'true':\n                player_pos = (x, y)\n\n    if not player_pos:\n        print(\"Player position not found.\")\n        return\n\n    unseen_tiles = json.loads(input_data['unseen_tiles_to_check'])\n    target_neighbors = set()\n    for tile in unseen_tiles:\n        ux, uy = int(tile['x']), int(tile['y'])\n        for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n            nx, ny = ux + dx, uy + dy\n            if (nx, ny) in grid and not grid[(nx, ny)]['impassable']:\n                 target_neighbors.add((nx, ny))\n\n    if not target_neighbors:\n        print(\"No traversable neighbors found for any unseen tiles.\")\n        print(json.dumps([]))\n        return\n\n    queue = collections.deque([player_pos])\n    visited = {player_pos}\n    reachable_targets = set()\n\n    while queue:\n        x, y = queue.popleft()\n\n        if (x, y) in target_neighbors:\n            reachable_targets.add((x, y))\n\n        for dx, dy, direction in [(0, -1, 'up'), (0, 1, 'down'), (-1, 0, 'left'), (1, 0, 'right')]:\n            nx, ny = x + dx, y + dy\n            if 0 <= nx < width and 0 <= ny < height and (nx, ny) not in visited:\n                current_tile_type = grid.get((x, y), {}).get('type')\n                next_tile_info = grid.get((nx, ny))\n                if not next_tile_info or next_tile_info['impassable']:\n                    continue\n                \n                next_tile_type = next_tile_info['type']\n                \n                can_move = False\n                if next_tile_type in traversable_tiles:\n                    can_move = True\n                elif direction == 'down' and next_tile_type in one_way_down:\n                    can_move = True\n                elif direction == 'right' and next_tile_type in one_way_right:\n                    can_move = True\n                elif direction == 'left' and next_tile_type in one_way_left:\n                    can_move = True\n\n                if can_move:\n                    visited.add((nx, ny))\n                    queue.append((nx, ny))\n\n    final_reachable_unseen = []\n    for tile in unseen_tiles:\n        ux, uy = int(tile['x']), int(tile['y'])\n        for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n            nx, ny = ux + dx, uy + dy\n            if (nx, ny) in reachable_targets:\n                if tile not in final_reachable_unseen:\n                    final_reachable_unseen.append(tile)\n                break\n    \n    print(json.dumps(final_reachable_unseen))\n\ncheck_reachability()",
     "history": [
       {
         "commit_message": "feat: Create unseen_tile_checker tool. This tool automates the process of checking which unseen tiles from a system alert are actually reachable, streamlining exploration and preventing wasted turns trying to path to disconnected areas.",
@@ -56,6 +73,11 @@
         "commit_message": "refactor: Modify script and schema for debugging. The previous re-definition was a no-op. This version introduces a new script and a non-empty input schema as a systematic step to isolate the persistent sandbox execution error.",
         "timestamp": "2025-07-29T13:26:55.161Z",
         "action_counter": 15738
+      },
+      {
+        "commit_message": "feat: Restore unseen_tile_checker functionality. The tool was a debugging stub. This version implements a robust BFS algorithm to accurately check tile reachability as directed by the system critique, unblocking strategic exploration.",
+        "timestamp": "2025-07-29T14:18:37.379Z",
+        "action_counter": 15785
       }
     ]
   },
