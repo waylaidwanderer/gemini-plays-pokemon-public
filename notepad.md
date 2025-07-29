@@ -138,3 +138,8 @@
 *   **Core Assumption:** The only way to solve the Cut quest is to herd the Farfetch'd.
 *   **Alternative Hypothesis:** The quest might be triggered by a different interaction I missed, such as with the Ilex Forest Shrine, or it could be time-gated.
 *   **Test Plan:** If reloading the map (the `quest_strategist`'s first hypothesis) fails to make the Farfetch'd reappear, I will systematically interact with every object in the forest again, including the shrine at (8, 22), before attempting more complex solutions.
+
+# Cut Quest - Hypothesis Testing
+*   **Hypothesis 1 (Falsified):** Reloading the map by leaving and re-entering Ilex Forest would respawn the missing Farfetch'd.
+*   **Test (Turn 15865-15868):** Exited to Azalea Town, re-entered, and checked the last known location at (15, 25). The Farfetch'd was not present. 
+*   **Conclusion:** This hypothesis is false. Proceeding to Hypothesis 2.
