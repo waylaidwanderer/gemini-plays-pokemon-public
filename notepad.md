@@ -94,8 +94,3 @@
 
 # New Tile Mechanics (Confirmed)
 *   **VOID:** Impassable. Confirmed by attempting to move left from (0, 33).
-
-# Cut Quest - Hypothesis Testing
-*   **Hypothesis 1 (Falsified):** Reloading the map by leaving and re-entering Ilex Forest would respawn the missing Farfetch'd.
-*   **Test (Turn 15865-15868):** Exited to Azalea Town, re-entered, and checked the last known location at (15, 25). The Farfetch'd was not present. 
-*   **Conclusion:** This hypothesis is false. Proceeding to Hypothesis 2.
