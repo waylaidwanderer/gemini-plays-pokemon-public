@@ -133,3 +133,8 @@
 *   **Apprentice Despawning Trigger (Falsified):** The apprentice (YOUNGSTER, ID 2) is confirmed to still be present at (7, 28).
 *   **Union Cave Unseen Tiles (Confirmed Unreachable):** Pathfinding tools previously confirmed that the unseen areas of Union Cave are disconnected from currently accessible sections.
 *   **Route 32 North Path (Confirmed Blocked):** Pathfinding tools previously confirmed the path north on Route 32 is blocked by `CUT_TREE`s.
+
+# XV. Reflection & Assumption Testing (Turn 15820)
+*   **Core Assumption:** The only way to solve the Cut quest is to herd the Farfetch'd.
+*   **Alternative Hypothesis:** The quest might be triggered by a different interaction I missed, such as with the Ilex Forest Shrine, or it could be time-gated.
+*   **Test Plan:** If reloading the map (the `quest_strategist`'s first hypothesis) fails to make the Farfetch'd reappear, I will systematically interact with every object in the forest again, including the shrine at (8, 22), before attempting more complex solutions.
