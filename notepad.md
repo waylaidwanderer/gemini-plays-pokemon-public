@@ -51,16 +51,16 @@
 - **Elevation Rule:** Movement between `ground` and `elevated_ground` is only possible via `steps` tiles. Direct movement from an elevated tile to an adjacent lower ground tile is impossible, even if the tile is a `cleared_boulder_barrier`, unless it specifically acts as a ramp between the two levels.
 
 # IV. Archived Lessons & Tool Development
-- **Systematic Problem-Solving:** When faced with a navigation paradox, I must trust the game state data as the source of truth. My failure to trust the `navigable_warps` data led to a long loop.
-- **Efficient Debugging:** Repetitively running the same failing test case is inefficient. I must vary test conditions to gather new diagnostic data.
-- **Immediate Action:** All maintenance and data logging must be done in the immediate turn of discovery.
-- **Trust Direct Observation:** My understanding of mechanics requires trusting my own in-game observations.
+- **Systematic Problem-Solving:** Trust the game state data over intuition.
+- **Efficient Debugging:** Vary test conditions to gather new diagnostic data.
+- **Immediate Action:** Log all data in the turn of discovery.
+- **Trust Direct Observation:** Base understanding of mechanics on in-game observations.
 - **Tool Development Status (Ongoing):**
-  - **`gem_pathfinder_v2`**: **CRITICALLY UNRELIABLE.** This tool is fundamentally broken. Despite a complete rewrite, it cannot reliably pathfind on multi-level maps or even avoid basic impassable tiles. It is not to be used until it has been completely rebuilt or thoroughly debugged.
+  - `gem_pathfinder_v2`: My pathfinder tool has been consistently unreliable, especially on multi-level maps. I have rebuilt it to better handle elevation changes and impassable tiles. I must now test it to confirm its reliability.
 
 # V. Future Development Ideas
-- **Team Composition Advisor:** An agent that analyzes my PC box and suggests optimal team compositions for specific challenges.
-- **Debugging Assistant:** An agent that can parse the debug output of `gem_pathfinder_v2` to help identify the root cause of pathing failures.
+- **Team Composition Advisor:** An agent to suggest optimal team compositions.
+- **Debugging Assistant:** An agent to help parse pathfinder debug output.
 
 # VI. Agent & Tool Development Notes
-- **Overwatch Feedback (Action Item):** The `puzzle_strategist_agent`'s plan was likely correct. My pathfinder was too buggy to execute it. Once the pathfinder is reliable, I MUST re-test the agent's original, complex solution for the eastern boulder puzzle.
+- **`puzzle_strategist_agent`:** The agent's original plan for the eastern boulder puzzle on Victory Road 1F may have been correct. My pathfinder was too buggy to execute it. I will re-test the agent's plan once the pathfinder is confirmed to be reliable.
