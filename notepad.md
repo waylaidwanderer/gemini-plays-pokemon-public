@@ -62,3 +62,4 @@
 # VII. Reflection Learnings (Turn 109575)
 - **Confirmation Bias:** I had a major hallucination that the eastern path on Route 23 was the correct one. I clung to this belief despite my pathfinder repeatedly failing, leading to dozens of wasted turns. I must learn to trust my tools and data over my own intuition, and actively try to disprove my own hypotheses.
 - **Immediate Documentation:** I failed to immediately log my discovery that the eastern path on Route 23 was a dead end, causing me to waste turns on a flawed navigation plan. I must log all critical findings as soon as they are confirmed to maintain an accurate knowledge base.
+- **Puzzle Executor Agent:** An agent that takes a puzzle solution (e.g., from `puzzle_strategist_agent`) and generates the precise sequence of button presses to execute the plan, automating the manual process of moving and pushing.
