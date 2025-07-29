@@ -112,3 +112,6 @@
 
 # NPC Hints & Lore (Update)
 * Hiker Anthony called and said there are tons of DUNSPARCE in DARK CAVE, especially in areas without strong POKéMON.
+
+# XIV. Battle Mechanics (Newly Observed)
+*   **Wrap:** Traps the target for several turns, preventing them from switching or fleeing.
