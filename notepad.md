@@ -39,16 +39,7 @@
 # III. Puzzle Mechanics & Problem Solving
 
 ## A. Active Puzzles
-- **Victory Road 1F - Eastern Boulder Puzzle:**
-  - **Observation:** The `puzzle_strategist_agent` provided a complex, multi-step solution. However, the `gem_pathfinder` tool was unable to navigate to the agent's proposed starting position, making the plan untestable.
-  - **Hypothesis #1:** The agent's plan is correct, but the pathfinder is too buggy to execute it.
-  - **Hypothesis #2 (Failed):** Pushing the boulder at (15, 3) left resulted in soft-locking it at (11, 3) between an impassable wall and an item object. Conclusion: This is not the correct solution.
-- **Hypothesis #3 (Failed - Attempt #2):** My pathfinder is not broken; it correctly identifies that the path to the exit is blocked by the western boulder puzzle. To proceed, I must solve this puzzle by moving the boulder at (3, 11).
-  - **Test:** Push the boulder at (3, 11) down to (3, 12).
-  - **Conclusion:** FAILED. Pushing the boulder did not open a path to the exit. My hypothesis was incorrect. The path remains blocked, confirming the pathfinder's original assessment.
-- **Hypothesis #4 (Failed):** The paradox of the 'reachable' ladder at (2, 2) being blocked by the defeated trainer at (4, 3) is due to the trainer being a traversable exception.
-  - **Test:** Attempt to walk from (4, 4) onto the trainer's tile at (4, 3).
-  - **Conclusion (Attempt #1):** FAILED. The game blocked my movement, confirming defeated trainers are always impassable. My analysis was flawed; a clear, unobstructed path to the ladder exists by simply walking around the trainer via (3, 4).
+- **Victory Road 1F - Eastern Boulder Puzzle:** The barrier at (10, 13) blocks a path on the upper level, but is not required to reach the exit on the ground level. My previous hypothesis that this puzzle was necessary to leave was incorrect.
 
 ## B. Solved Puzzles & Key Discoveries
 - **Victory Road 2F - Correct Puzzle Sequence:** This floor must be solved in a single visit without leaving the map. Leaving and re-entering resets the puzzles.
