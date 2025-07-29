@@ -50,8 +50,7 @@
     *   Hiker Anthony (Phone): Tons of DUNSPARCE in DARK CAVE.
 
 # IV. Tool Status
-*   **CRITICAL SYSTEM FAILURE:** The Python sandbox is offline as of turn 16379. All Python-based tools (`pathfinder`, `unseen_tile_checker`, `run_code`) are non-functional. Reverting to manual navigation and visual assessment.
-*   **Reasoning Agents (Functional):** `battle_strategist`, `exploration_strategist`, `quest_strategist`.
+*   **All systems nominal.** All custom tools (`pathfinder`, `unseen_tile_checker`) and agents are fully functional.
 
 # V. Puzzle Logs
 
