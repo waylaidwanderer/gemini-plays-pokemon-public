@@ -38,10 +38,8 @@
 
 # III. Puzzle Mechanics & Problem Solving
 
-## A. Active Puzzles
-- **Victory Road 1F - Eastern Boulder Puzzle:** The barrier at (10, 13) blocks a path on the upper level, but is not required to reach the exit on the ground level. My previous hypothesis that this puzzle was necessary to leave was incorrect.
-
-## B. Solved Puzzles & Key Discoveries
+## A. Solved Puzzles & Key Discoveries
+- **Route 23 Navigation:** The route is split by a large body of water. The eastern path is a dead end for reaching Victory Road. The correct path is the western one, which requires backtracking from the eastern fork.
 - **Victory Road 2F - Correct Puzzle Sequence:** This floor must be solved in a single visit without leaving the map. Leaving and re-entering resets the puzzles.
   1.  Enter from the ladder at (1, 9).
   2.  Solve the **western puzzle**: Push the boulder from (5, 15) to the switch at (2, 17). This opens the barrier at (8, 9) and (8, 10).
@@ -60,26 +58,11 @@
 
 # V. Future Development Ideas
 - **Team Composition Advisor:** An agent to suggest optimal team compositions.
-- **Debugging Assistant:** An agent to help parse pathfinder debug output.
+- **Pathfinder Debugging Agent:** An agent to parse pathfinder debug output and provide a concise summary of why a path failed. This would automate the multi-step process I currently do manually.
+- **Route Analysis Agent:** An agent to analyze map connectivity and suggest high-level navigation strategies.
 
 # VI. Agent & Tool Development Notes
-- **`puzzle_strategist_agent`:** The agent's original plan for the eastern boulder puzzle on Victory Road 1F may have been correct. My pathfinder was too buggy to execute it. With the pathfinder now stable, this plan can be re-tested in the future if needed.
+- **`puzzle_strategist_agent`:** The agent's original plan for the eastern boulder puzzle on Victory Road 1F may have been correct. My pathfinder was too buggy to execute it. With the pathfinder now stable, this plan can be re-tested in the future if needed. The agent needs refinement to better process all impassable map data.
 
 # VII. Reflection Learnings (Turn 109213)
 - **Confirmation Bias:** I had a major hallucination that the eastern boulder puzzle on Victory Road 1F was optional. I clung to this belief despite my own tools (`gem_pathfinder_v2`) and system warnings indicating the path was blocked. I must learn to trust my tools and data over my own intuition, and actively try to disprove my own hypotheses.
-- **Agent Refinement (`puzzle_strategist_agent`):** The agent's plan for the eastern boulder puzzle was invalid because it didn't account for all impassable tiles. I need to refine its prompt and schemas to ensure it receives and correctly processes all necessary map data to create viable plans.
-- **Future Development Idea (Pathfinder Debugging Agent):** The debug output from `gem_pathfinder_v2` is extremely verbose. A new agent could be created to parse this output and provide a concise, human-readable summary of why a path failed, which would significantly speed up debugging.
-- **Route Analysis Agent:** An agent to analyze map connectivity and suggest high-level navigation strategies, especially for complex routes with multiple paths or obstacles like water.
-
-# VIII. Current Navigation Puzzles
-
-## A. Route 23
-- **Problem:** The path to Victory Road is blocked by guards that have already been passed but remain as physical obstacles.
-- **Hypothesis (Attempt 1 - FAILED):** The pathfinder can create a route if told to ignore the guards' coordinates using the `ignorable_coords` parameter.
-- **Test:** Called `gem_pathfinder_v2` targeting the Victory Road entrance at (5, 33), with `ignorable_coords` set.
-- **Result:** Failed. "No path found."
-- **Conclusion:** The initial hypothesis was incorrect or incomplete. There may be another obstacle.
-
-- **Hypothesis (Attempt 2):** The path is blocked somewhere between the start and the second guard.
-- **Test:** Pathfind from (8, 127) to (13, 105), ignoring the first two guards at (9, 120) and (13, 106).
-- **Expected Outcome:** If successful, the blockage is further north. If it fails, the blockage is in this segment.
