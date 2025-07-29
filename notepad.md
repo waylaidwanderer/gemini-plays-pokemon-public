@@ -59,6 +59,6 @@
 # VI. Agent & Tool Development Notes
 - **`puzzle_strategist_agent`:** The agent's original plan for the eastern boulder puzzle on Victory Road 1F may have been correct. My pathfinder was too buggy to execute it. With the pathfinder now stable, this plan can be re-tested in the future if needed. The agent needs refinement to better process all impassable map data.
 
-# VII. Reflection Learnings (Turn 109213)
-- **Confirmation Bias:** I had a major hallucination that the eastern boulder puzzle on Victory Road 1F was optional. I clung to this belief despite my own tools (`gem_pathfinder_v2`) and system warnings indicating the path was blocked. I must learn to trust my tools and data over my own intuition, and actively try to disprove my own hypotheses.
-- **Immediate Documentation:** I failed to immediately log my discovery that the western path on Route 23 was a dead end, causing me to waste turns on a flawed navigation plan. I must log all critical findings as soon as they are confirmed to maintain an accurate knowledge base.
+# VII. Reflection Learnings (Turn 109524)
+- **Confirmation Bias:** I had a major hallucination that the eastern path on Route 23 was the correct one. I clung to this belief despite my pathfinder repeatedly failing, leading to dozens of wasted turns. I must learn to trust my tools and data over my own intuition, and actively try to disprove my own hypotheses.
+- **Immediate Documentation:** I failed to immediately log my discovery that the eastern path on Route 23 was a dead end, causing me to waste turns on a flawed navigation plan. I must log all critical findings as soon as they are confirmed to maintain an accurate knowledge base.
