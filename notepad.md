@@ -57,17 +57,6 @@
     *   **exploration_strategist:** Recommends the most strategic unseen tile to explore (requires manual reachability check).
     *   **quest_strategist:** Brainstorms hypotheses to overcome stalled quests.
 
-# V. Hypotheses & Investigations
-
-## A. Cut Quest (Ilex Forest)
-*   **Core Hypothesis:** The puzzle is a simple interaction sequence. Interacting with the Farfetch'd from any valid adjacent tile will cause it to move to the next predetermined point in its path.
-*   **Current Status:** Stalled. The Farfetch'd (object 1) is not at its last known location of (15, 25). It may have moved to an unseen area. The apprentice (object 2) remains at (7, 28). The path north is blocked by a CUT_TREE at (8, 25). My next step is to use the `unseen_tile_checker` to see if the Farfetch'd could be in one of the alerted areas.
-
-## B. Falsified Hypotheses & Concluded Investigations
-*   **Simple Directional Push (Falsified):** Interacting with the Farfetch'd from a direction does not consistently 'push' it in the opposite direction.
-*   **Apprentice Trigger (Falsified):** Re-interacting with the apprentice at (7, 28) after solving the *first* Farfetch'd puzzle yielded no new dialogue or reward.
-*   **Union Cave Unseen Tiles (Confirmed Unreachable):** Previous exploration attempts suggest these areas are disconnected. This needs to be re-verified with the `unseen_tile_checker` if I return there.
-
 # VI. Key Items & HMs
 *   **OLD ROD:** Received from the Fishing Guru in the Route 32 Pokémon Center.
 
