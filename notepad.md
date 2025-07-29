@@ -71,3 +71,4 @@
 
 # XIV. Battle Mechanics (Newly Observed)
 *   **Wrap:** Traps the target for several turns, preventing them from switching or fleeing.
+*   **Future Test:** Need to test `CUT_08` and `CUT_28_GARBAGE` tile variants once HM01 (Cut) is obtained to see if they behave differently from a standard `CUT_TREE`.
