@@ -49,19 +49,23 @@
 *   A Fisher in Union Cave at (14, 19) mentioned that strange roars can be heard from deep within the cave on weekends.
 *   WADE on Route 31 will share BERRIES if I visit him.
 
-# IV. Technical Investigations & Tool Status
+# IV. Available Tools
+*   **pathfinder:** Calculates the shortest path between two points on the current map. Use for all navigation.
+*   **unseen_tile_checker:** Checks which of a list of unseen tiles are actually reachable from the current position. Use to validate system alerts.
+*   **battle_strategist:** Recommends the best action in a battle.
+*   **exploration_strategist:** Recommends the most strategic unseen tile to explore.
+*   **quest_strategist:** Brainstorms hypotheses to overcome stalled quests.
 
-# V. Stalled Quests & Concluded Investigations
+# V. Hypotheses & Investigations
 
-*   **HM01 Cut Quest (Stalled):** The quest is confirmed to be stalled. Both the Charcoal Man in Azalea Town and his apprentice in Ilex Forest are in a dialogue loop, even after solving the Farfetch'd puzzle. The path north in Ilex Forest is blocked by a CUT_TREE at (8, 25).
-*   **Union Cave Unseen Tiles (Confirmed Unreachable):** Pathfinding tools previously confirmed that the unseen areas of Union Cave are disconnected from currently accessible sections.
-*   **Azalea Town NPCs (Post-Well):** Neither Kurt nor the Charcoal Man had new dialogue immediately after clearing the Slowpoke Well and solving the Farfetch'd puzzle.
-*   **Slowpoke Well:** Re-exploration confirmed no missed triggers or reachable unseen areas.
+## A. Cut Quest (Ilex Forest)
+*   **Core Hypothesis:** The puzzle is a simple interaction sequence. Interacting with the Farfetch'd from any valid adjacent tile will cause it to move to the next predetermined point in its path.
+*   **Current Status:** Stalled. The Farfetch'd (object 1) is not at its last known location of (15, 25). It may have moved to an unseen area. The apprentice (object 2) remains at (7, 28). The path north is blocked by a CUT_TREE at (8, 25). My next step is to use the `unseen_tile_checker` to see if the Farfetch'd could be in one of the alerted areas.
 
-## A. Untested Hypotheses
-*   **Union Cave Connectivity:** An alternative hypothesis for the disconnected nature of the cave is that a hidden switch or event must be triggered to open a new path. This is currently untestable without full exploration.
-*   **Route 32 North Path (Confirmed Blocked):** My pathfinding tools are currently non-functional, but previous attempts confirmed the path north on Route 32 is blocked by `CUT_TREE`s.
-*   **Ruins of Alph East Entrance:** My current assumption is that the east entrance is the correct path forward. An alternative hypothesis is that this entrance is also a dead end or requires a key item, and the true path forward is to continue south on Route 32. I will test this by attempting to enter the east entrance. If it fails, I will systematically explore south.
+## B. Falsified Hypotheses & Concluded Investigations
+*   **Simple Directional Push (Falsified):** Interacting with the Farfetch'd from a direction does not consistently 'push' it in the opposite direction.
+*   **Apprentice Trigger (Falsified):** Re-interacting with the apprentice at (7, 28) after solving the *first* Farfetch'd puzzle yielded no new dialogue or reward.
+*   **Union Cave Unseen Tiles (Confirmed Unreachable):** Previous exploration attempts suggest these areas are disconnected. This needs to be re-verified with the `unseen_tile_checker` if I return there.
 
 # VI. Key Items & HMs
 *   **OLD ROD:** Received from the Fishing Guru in the Route 32 Pokémon Center.
