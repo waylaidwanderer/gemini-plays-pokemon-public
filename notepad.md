@@ -95,13 +95,6 @@
 *   **Proactive Agent Use:** When a quest stalls or a complex reasoning task arises, I must immediately consider if a custom agent can help. I should use `quest_strategist` more proactively.
 *   **Map Marker Discipline:** Always link NPC markers to their `object_id`. Mark defeated trainers immediately with their `object_id`.
 
-# XIII. Mandatory Reflection (Turn 15040)
-*   **Core Directive Failure:** I have repeatedly deferred immediate data management tasks (e.g., linking NPC markers to `object_id`, documenting failed hypotheses). This is a critical failure of my core directives. All data management must be performed *immediately* without exception.
-*   **Agent Underutilization:** I am not using my custom agents (`quest_strategist`, `navigation_supervisor`) proactively when I get stuck. I will make a conscious effort to call them when a relevant problem arises.
-*   **Untested Assumption:** My current primary goal is based on the assumption that the Bug-Catching Contest is the main path forward. 
-    *   **Alternative Hypothesis:** The contest is a side quest, and the true path still involves the stalled Cut quest, with a trigger I have not yet found.
-    *   **Test Plan:** If completing the Bug-Catching Contest does not unlock a new area or provide a key item, I will consider this assumption falsified and return to Azalea Town to systematically re-investigate all NPCs and potential time-based events.
-
 # NPC Hints & Lore (Update)
 * Hiker Anthony called and said there are tons of DUNSPARCE in DARK CAVE, especially in areas without strong POKéMON.
 
