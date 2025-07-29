@@ -51,4 +51,3 @@
 - **Immediate Action:** Deferring tasks like tool repair or documentation is a critical error. All maintenance and data logging must be done in the immediate turn of discovery to maintain a coherent internal state.
 - **Pathfinder Flaw (Corrected v1):** The `gem_pathfinder` initially treated boulders as impassable walls, causing it to fail in solvable puzzle areas. This was corrected by treating boulder locations as high-cost, traversable nodes.
 - **Boulder Solver Flaw (Corrected v1):** The `boulder_puzzle_solver` incorrectly modeled player movement after a push. It now correctly accounts for the player moving into the boulder's old space on horizontal pushes.
-- **Note for Future Action:** Consolidate redundant warp markers on Victory Road 2F (map 194).
