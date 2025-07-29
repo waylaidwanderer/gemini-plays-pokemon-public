@@ -6,7 +6,7 @@
 - **HM Usage:** HMs are used from the party menu. Fainted Pokémon can use field moves.
 - **PC Interaction:** To use a PC, stand directly below it, face up, and press 'A'.
 - **Surfing:** Not all `ground` tiles adjacent to `water` are valid starting points for SURF.
-- **Boulder Pushing:** Activate Strength from the party menu. Face the boulder and press the directional button. The boulder moves one tile. **CRITICAL MECHANIC:** When pushing a boulder, the player's position changes based on direction. For vertical pushes (Up/Down), the player's position does NOT change. For horizontal pushes (Left/Right), the player moves into the boulder's former tile.
+- **Boulder Pushing:** Activate Strength from the party menu. Face the boulder and press the directional button. The boulder moves one tile. **CRITICAL MECHANIC (3rd Revision):** The player's position does NOT change after pushing a boulder, regardless of direction. My previous assumptions based on external tool data were incorrect; direct observation confirms the player remains stationary.
 - **Puzzle Resets:** Leaving and re-entering a floor resets all boulders to their original positions.
 - **Data Trust:** The map XML data is the ultimate source of truth for traversal. If a tile is marked `impassable` in the XML, it cannot be walked on, even if it appears visually open on screen.
 
