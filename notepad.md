@@ -104,12 +104,6 @@
 # New Tile Mechanics (Confirmed)
 *   **VOID:** Impassable. Confirmed by attempting to move left from (0, 33).
 
-# Cut Quest - Conclusive Failure
-*   **Final Hypothesis (Falsified):** Apprentice despawning is the trigger.
-*   **Observation (Turn 15539):** The apprentice (YOUNGSTER, ID 2) is confirmed to still be present at (7, 28).
-*   **Conclusion:** The Cut quest is officially stalled and likely bugged or requires an unknown external trigger. All current hypotheses have been exhausted and falsified.
-*   **New Strategy:** Abandoning the Cut quest for now. Pivoting to find the Ilex Forest exit to Route 34 to continue towards Goldenrod City.
-
 # IV. Hypotheses & Investigations (Consolidated)
 
 ## A. Active Hypotheses (Cut Quest) - CORRECTED
