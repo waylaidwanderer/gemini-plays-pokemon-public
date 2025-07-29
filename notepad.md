@@ -41,14 +41,13 @@
 
 - **Victory Road 2F - Western Trap:** Pushing the boulder onto the switch at (2, 17) primes a trap that opens the barrier at (8, 9) and (8, 10) after leaving and re-entering the floor.
 - **Victory Road 3F - Hole Puzzle:** Pushing the boulder at (14, 13) south into the hole at (14, 15) causes it to drop to the floor below.
+- **Victory Road 1F - Boulder/Steps Interaction (Confirmed):** Boulders cannot be pushed onto `steps` tiles. This was confirmed after multiple failed attempts to push the boulder at (6, 15) north onto the steps at (6, 14).
+- **Hypothesis (Re-evaluated): Victory Road 2F - Eastern Puzzle:** My initial assessment that the boulder at (5, 15) cannot reach the switch at (10, 17) was incorrect. The impassable tile at (9, 17) does not block a direct push from above (from (10, 16)). The puzzle is likely solvable by pushing the boulder right to column 10, then down onto the switch.
+- **Elevation Rule:** Movement between `ground` and `elevated_ground` is only possible via `steps` tiles. Direct movement from an elevated tile to an adjacent lower ground tile is impossible, even if the tile is a `cleared_boulder_barrier`, unless it specifically acts as a ramp between the two levels.
 
-# IV. Lessons Learned & Tool Development
+# IV. Archived Lessons & Tool Development
 
 - **Systematic Problem-Solving:** When faced with a navigation paradox, I must avoid chaotic, repeated manual attempts. The correct approach is to trust the game state data (e.g., `navigable_warps`) as the source of truth and systematically eliminate possibilities.
 - **Efficient Debugging:** Repetitively running the same failing test case is inefficient. I must vary the test conditions (e.g., change the target destination) to gather new diagnostic data and isolate bugs more effectively.
 - **Immediate Action:** Deferring tasks like tool repair or documentation is a critical error. All maintenance and data logging must be done in the immediate turn of discovery to maintain a coherent internal state.
-- **Victory Road 1F - Boulder/Steps Interaction (Confirmed):** Boulders cannot be pushed onto `steps` tiles. This was confirmed after multiple failed attempts to push the boulder at (6, 15) north onto the steps at (6, 14).
-
-- **Hypothesis (Re-evaluated): Victory Road 2F - Eastern Puzzle:** My initial assessment that the boulder at (5, 15) cannot reach the switch at (10, 17) was incorrect. The impassable tile at (9, 17) does not block a direct push from above (from (10, 16)). The puzzle is likely solvable by pushing the boulder right to column 10, then down onto the switch.
 - **Pathfinder Flaws (Corrected):** The `gem_pathfinder` tool had two major flaws. First, it treated boulders as impassable walls. This was corrected by treating boulder locations as high-cost, traversable nodes. Second, it did not correctly handle elevation changes involving `cleared_boulder_barrier` tiles, causing it to generate invalid paths. This was fixed by updating the traversal logic to treat these tiles as connectors between elevations, similar to `steps`. (v2)
-- **Elevation Rule:** Movement between `ground` and `elevated_ground` is only possible via `steps` tiles. Direct movement from an elevated tile to an adjacent lower ground tile is impossible, even if the tile is a `cleared_boulder_barrier`, unless it specifically acts as a ramp between the two levels.
