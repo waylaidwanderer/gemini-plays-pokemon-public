@@ -364,6 +364,16 @@
         "commit_message": "refactor: Remove all debugging print statements. The exhaustive logging has served its purpose in identifying the root cause of the pathfinding failure (user error, pathing to a wall). This commit restores the tool to a clean, production-ready state.",
         "timestamp": "2025-07-29T01:59:05.309Z",
         "action_counter": 15004
+      },
+      {
+        "commit_message": "debug: Add exhaustive logging to diagnose pathfinding failure. The tool failed to find a path to a clearly reachable NPC on Route 32. This commit adds extensive print statements to every step of the pathfinding logic, including the BFS queue and all passability checks, to trace the execution and identify the root cause of this critical failure.",
+        "timestamp": "2025-07-29T02:47:09.853Z",
+        "action_counter": 15070
+      },
+      {
+        "commit_message": "refactor: Remove all debugging print statements. The exhaustive logging has served its purpose in identifying the root cause of the pathfinding failure (user error, pathing to a HEADBUTT_TREE). This commit restores the tool to a clean, production-ready state.",
+        "timestamp": "2025-07-29T02:48:24.937Z",
+        "action_counter": 15072
       }
     ]
   }
