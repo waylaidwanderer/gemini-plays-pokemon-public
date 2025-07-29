@@ -54,7 +54,7 @@
 # V. Stalled Quests & Concluded Investigations
 
 *   **HM01 Cut Quest (Stalled):** The quest is confirmed to be stalled. Both the Charcoal Man in Azalea Town and his apprentice in Ilex Forest are in a dialogue loop, even after solving the Farfetch'd puzzle. The path north in Ilex Forest is blocked by a CUT_TREE at (8, 25).
-*   **Union Cave Unseen Tiles (Confirmed Unreachable):** My pathfinding tools previously confirmed that the unseen areas of Union Cave are disconnected from the sections I can currently access.
+*   **Union Cave Unseen Tiles (Confirmed Unreachable):** My pathfinding tools are currently non-functional, but previous attempts suggested the unseen areas of Union Cave are disconnected from currently accessible sections.
 *   **Azalea Town NPCs (Post-Well):** Neither Kurt nor the Charcoal Man had new dialogue immediately after clearing the Slowpoke Well and solving the Farfetch'd puzzle.
 *   **Slowpoke Well:** Re-exploration confirmed no missed triggers or reachable unseen areas.
 

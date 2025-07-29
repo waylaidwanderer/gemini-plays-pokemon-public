@@ -92,25 +92,19 @@
     ]
   },
   "path_validator": {
-    "description": "Analyzes a list of coordinates and uses a BFS pathfinding algorithm to determine which are reachable from the player's current position. A replacement for the non-functional reachability_checker.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "coordinates": {
-          "type": "string",
-          "description": "A stringified JSON array of coordinate objects, e.g., '[{\"x\":1,\"y\":2}]'"
-        }
-      },
-      "required": [
-        "coordinates"
-      ]
-    },
-    "python_script": "import json\nimport xml.etree.ElementTree as ET\nfrom collections import deque\n\ntree = ET.fromstring(map_xml_string)\nmap_width = int(tree.get('width'))\nmap_height = int(tree.get('height'))\n\nplayer_pos = None\nwalls = set()\n\nfor row_elem in tree.findall('Row'):\n    y = int(row_elem.get('id'))\n    for tile_elem in row_elem.findall('Tile'):\n        x = int(tile_elem.get('id'))\n        tile_type = tile_elem.get('type')\n        if tile_elem.find('Player') is not None:\n            player_pos = (x, y)\n\n        if tile_type in ['WALL', 'VOID', 'CUT_TREE', 'HEADBUTT_TREE', 'PC', 'COUNTER'] or tile_elem.find('Object') is not None:\n            walls.add((x, y))\n\nledge_down = set()\nledge_right = set()\nledge_left = set()\n\nfor row_elem in tree.findall('Row'):\n    y = int(row_elem.get('id'))\n    for tile_elem in row_elem.findall('Tile'):\n        x = int(tile_elem.get('id'))\n        tile_type = tile_elem.get('type')\n        if tile_type == 'LEDGE_HOP_DOWN':\n            ledge_down.add((x, y))\n        elif tile_type == 'LEDGE_HOP_RIGHT':\n            ledge_right.add((x, y))\n        elif tile_type == 'LEDGE_HOP_LEFT':\n            ledge_left.add((x, y))\n\ndef is_valid(x, y):\n    return 0 <= x < map_width and 0 <= y < map_height and (x, y) not in walls\n\ndef get_neighbors(x, y):\n    neighbors = []\n    for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n        nx, ny = x + dx, y + dy\n        if (x, y) in ledge_down and (dx, dy) != (0, 1):\n            continue\n        if (x, y) in ledge_right and (dx, dy) != (1, 0):\n            continue\n        if (x, y) in ledge_left and (dx, dy) != (-1, 0):\n            continue\n\n        if (nx, ny) in ledge_down and (dx, dy) != (0, -1):\n            continue\n        if (nx, ny) in ledge_right and (dx, dy) != (-1, 0):\n            continue\n        if (nx, ny) in ledge_left and (dx, dy) != (1, 0):\n            continue\n\n        if is_valid(nx, ny):\n            neighbors.append((nx, ny))\n    return neighbors\n\ndef bfs(start, targets):\n    queue = deque([start])\n    visited = {start}\n    reachable_targets = []\n\n    while queue:\n        x, y = queue.popleft()\n\n        if (x, y) in targets:\n            reachable_targets.append({'x': x, 'y': y})\n            targets.remove((x, y))\n\n        if not targets:\n            break\n\n        for nx, ny in get_neighbors(x, y):\n            if (nx, ny) not in visited:\n                visited.add((nx, ny))\n                queue.append((nx, ny))\n    \n    return reachable_targets\n\nif not player_pos:\n    print(json.dumps({\"error\": \"Player position not found.\"}))\nelse:\n    try:\n        target_coords_str = input_data.get('coordinates', '[]')\n        target_coords_list = json.loads(target_coords_str)\n        targets_to_check = set()\n        for coord in target_coords_list:\n            targets_to_check.add((int(coord['x']), int(coord['y'])))\n\n        reachable = bfs(player_pos, targets_to_check)\n        print(json.dumps(reachable))\n    except (json.JSONDecodeError, KeyError, TypeError, ValueError) as e:\n        print(json.dumps({\"error\": f\"Failed to parse coordinates: {str(e)}\"}))\n",
+    "description": "A simple tool to test XML parsing. This is a debugging step to isolate the persistent sandbox error.",
+    "input_schema": {},
+    "python_script": "import xml.etree.ElementTree as ET\ntry:\n    root = ET.fromstring(map_xml_string)\n    print(f\"XML parsing successful. Map name: {root.get('name')}\")\nexcept Exception as e:\n    print(f\"XML parsing failed: {e}\")",
     "history": [
       {
         "commit_message": "feat: Create path_validator as a replacement for the non-functional reachability_checker. This new tool uses the same robust BFS implementation but has a different name, which is a hypothesis to circumvent the persistent sandbox errors affecting the previous tool. This is a critical step to unblock strategic exploration.",
         "timestamp": "2025-07-29T12:01:24.071Z",
         "action_counter": 15618
+      },
+      {
+        "commit_message": "feat: Re-define path_validator with minimal XML parsing test. This is a debugging step to isolate the persistent sandbox error. If this works, functionality will be added back incrementally.",
+        "timestamp": "2025-07-29T12:54:32.015Z",
+        "action_counter": 15695
       }
     ]
   }
