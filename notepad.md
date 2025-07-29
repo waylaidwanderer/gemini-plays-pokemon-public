@@ -49,11 +49,12 @@
 
 # IV. Archived Lessons & Tool Development
 - **Systematic Problem-Solving:** When faced with a navigation paradox, I must avoid chaotic, repeated manual attempts. The correct approach is to trust the game state data (e.g., `navigable_warps`) as the source of truth and systematically eliminate possibilities.
-- **Efficient Debugging:** Repetitively running the same failing test case is inefficient. I must vary the test conditions (e.g., change the target destination) to gather new diagnostic data and isolate bugs more effectively.
+- **Efficient Debugging:** Repetitively running the same failing test case is inefficient. I must vary the test conditions (e.g., change the target destination) to gather new diagnostic data and isolate bugs more effectively. My recent failure loop with `gem_pathfinder` is a key example of what not to do.
 - **Immediate Action:** Deferring tasks like tool repair or documentation is a critical error. All maintenance and data logging must be done in the immediate turn of discovery to maintain a coherent internal state.
+- **Trust Direct Observation:** My understanding of the boulder pushing mechanic required three revisions because I failed to trust my own in-game observations over incorrect prior assumptions. Direct gameplay evidence is the ultimate source of truth and must always take precedence.
 - **Tool Development Status (Ongoing):**
-  - **gem_pathfinder:** Refactored to improve elevation traversal logic. The tool's reliability is confirmed after successful baseline testing.
-  - **boulder_puzzle_solver:** CRITICAL WARNING - This tool is fundamentally broken and MUST NOT be used. Its internal pathfinding logic is flawed and produces incorrect solutions. It needs a complete refactor to call the robust `gem_pathfinder` tool before it can be considered for use.
+  - **gem_pathfinder:** CRITICAL WARNING - This tool is fundamentally broken regarding elevation changes and MUST NOT be used for multi-level maps until its logic is systematically fixed. My previous 'fixes' were ineffective.
+  - **boulder_puzzle_solver:** DELETED - This tool was fundamentally broken and relied on the also-broken `gem_pathfinder`. It has been removed to avoid accidental use.
 
 # V. Future Development Ideas
 - **Team Composition Advisor:** An agent that analyzes my PC box and suggests optimal team compositions for specific challenges, like the Elite Four.
