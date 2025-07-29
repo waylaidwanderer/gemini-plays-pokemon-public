@@ -104,9 +104,6 @@
 # New Tile Mechanics (Confirmed)
 *   **VOID:** Impassable. Confirmed by attempting to move left from (0, 33).
 
-# Cut Quest - Falsified Hypotheses
-*   **Apprentice Trigger (Falsified):** Re-interacting with the apprentice at (7, 28) after solving the Farfetch'd puzzle yielded no new dialogue or reward. This path is confirmed as a dead end.
-
 # Cut Quest - Conclusive Failure
 *   **Final Hypothesis (Falsified):** Apprentice despawning is the trigger.
 *   **Observation (Turn 15539):** The apprentice (YOUNGSTER, ID 2) is confirmed to still be present at (7, 28).
