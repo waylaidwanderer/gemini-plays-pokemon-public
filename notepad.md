@@ -11,7 +11,7 @@
 
 ## B. Tile Traversal Rules
 *   **Traversable:** TALL_GRASS, LONG_GRASS, DOOR, WARP_CARPET_DOWN, LADDER, FLOOR.
-*   **Impassable (Verified):** WALL, WINDOW, CUT_TREE, SIGN, BOOKSHELF, BLACKBOARD, MART_SHELF, BUOY, TV, TOWN_MAP, RADIO, INCENSE_BURNER, BIRD, HEADBUTT_TREE, FRUIT_TREE, COMPUTER, PRINTER, VOID.
+*   **Impassable (Verified):** WALL, WINDOW, CUT_TREE, SIGN, BOOKSHELF, BLACKBOARD, MART_SHELF, BUOY, TV, TOWN_MAP, BIRD, HEADBUTT_TREE, FRUIT_TREE, COMPUTER, PRINTER, VOID.
 *   **Special Interaction (Impassable but Interactable):**
     *   **PC:** Impassable. Interact by standing below it at (X, Y+1), facing up, and pressing 'A'.
     *   **COUNTER:** Impassable. Interact with NPCs behind it by standing in front of the counter and pressing 'A'.
@@ -29,6 +29,8 @@
     *   WATER: Impassable to walk on, but can be fished in with a rod.
 *   **CUT_08 (Untested):** A variant of a cuttable tree.
 *   **CUT_28_GARBAGE (Untested):** A variant of a cuttable tree.
+*   **RADIO (Untested):** A radio, likely impassable.
+*   **INCENSE_BURNER (Untested):** An incense burner, likely impassable.
 
 # II. Battle Information
 
@@ -64,6 +66,10 @@
 *   **Assumption:** The only way to get HM01 Cut is by solving the Farfetch'd puzzle for the apprentice.
     *   **Alternative Hypothesis:** HM01 Cut might be obtained from another NPC in Azalea Town or a different location entirely, and the Farfetch'd puzzle is an optional side quest.
     *   **Test:** If the puzzle remains unsolvable, I will re-interview all NPCs in Azalea Town.
+
+## C. Untested Assumptions & Alternative Hypotheses (as of Turn 16601)
+*   **Kurt's Reward:** My current assumption is that Kurt will give me HM01 Cut. The alternative is that he gives me a special Poké Ball or nothing useful, and the HM is obtained elsewhere (e.g., from the Charcoal Man's apprentice after a missed trigger).
+*   **Route to Goldenrod:** My current assumption is that Ilex Forest is the only path. The alternative is that another route exists (e.g., through Union Cave) or the strange tree on Route 36 is removable by a different method.
 
 # X. Contingency Plans
 *   **Route 32 North Path Failure:** My primary assumption is that the path to Route 36 is north through Route 32. If this path is blocked or proves to be a dead end, my contingency plan is to return to the southern part of Route 32 and explore it thoroughly to see if it leads to an alternative route to Goldenrod City.
