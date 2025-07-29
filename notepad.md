@@ -50,3 +50,4 @@
 - **Victory Road 1F - Boulder/Steps Interaction (Confirmed):** Boulders cannot be pushed onto `steps` tiles. This was confirmed after multiple failed attempts to push the boulder at (6, 15) north onto the steps at (6, 14).
 
 - **Hypothesis (Disproven): Victory Road 2F - Eastern Puzzle:** The boulder at (5, 15) cannot be moved to the switch at (10, 17) as the path is blocked by an impassable tile at (9, 17).
+- **Pathfinder Flaw (Corrected):** The `gem_pathfinder` tool previously treated boulders as impassable walls, causing it to fail or find suboptimal routes in puzzle areas. I have corrected this by updating the tool to treat boulder locations as high-cost, traversable nodes. This allows it to plan routes that involve pushing boulders, which I will still need to perform manually.
