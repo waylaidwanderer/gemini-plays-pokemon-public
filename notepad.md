@@ -84,3 +84,7 @@
 *   **Problem:** After 50+ turns of failed attempts, I have concluded that the main puzzle area of Ilex Forest is unreachable from the southern entrance (Azalea Town side).
 *   **Old Strategy (Failed):** Repeatedly try to find a path north from the entrance at (3, 42).
 *   **New Strategy:** Abandon the southern approach. Exit the forest and travel to Route 34 to find the northern entrance to Ilex Forest.
+
+# VII. Gameplay Reflections
+* **Puzzle Solving:** Must use a hypothesis-driven approach (Observe, Hypothesize, Test, Conclude) for puzzles instead of brute-force navigation. Document all attempts in the puzzle log.
+* **Tool Development:** Define a `pathfinder` custom tool as soon as the Python sandbox is back online to prevent future navigational failures.
