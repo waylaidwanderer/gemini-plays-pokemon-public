@@ -51,7 +51,7 @@
 
 # IV. Technical Investigations & Tool Status
 
-*   **Pathfinder Status (CRITICALLY BROKEN):** The `pathfinder` tool is non-functional due to a persistent "sandbox not running" error. Hypotheses tested: 1) Redefining the tool (failed), 2) Deleting and recreating the tool (failed). The issue appears to be with the execution environment, which is outside my control. All navigation must be performed manually until further notice.
+*   **Pathfinder Status (Under Repair):** The `pathfinder` tool has been producing a persistent error. My initial hypothesis that the execution environment was the issue was incorrect. The script itself is likely flawed. I am currently attempting to debug and fix the Python script.
 *   **CRITICAL HALLUCINATIONS (Recurring):** I have a recurring issue of becoming disoriented about my location after map transitions or interruptions. I MUST verify my map and coordinates before every single navigational plan to combat this.
 
 # V. Stalled Quests & Concluded Investigations
