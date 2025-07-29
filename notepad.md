@@ -70,3 +70,9 @@
 
 # XIV. Battle Mechanics (Newly Observed)
 *   **Wrap:** Traps the target for several turns, preventing them from switching or fleeing.
+
+# VI. Navigational Failures Log
+*   **Ilex Forest (Turns 16451-16472):** Got stuck in the southwest dead-end area. Repeatedly tried to path north and east into walls.
+    *   Blocked at (3, 39) when trying to move up from (3, 40).
+    *   Blocked at (2, 34) when trying to move right from (1, 34).
+    *   Blocked at (1, 39) when trying to move up from (1, 40).
