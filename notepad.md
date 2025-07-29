@@ -90,11 +90,6 @@
 ## New Tile Mechanics
 *   **WARP_CARPET_RIGHT / WARP_CARPET_LEFT:** Requires being on the tile, facing the direction of the warp, and then pressing the directional button again.
 
-# XII. Reflection Learnings & Reminders
-*   **Immediate Data Management:** I must act on new information immediately. Deferring tasks like marking objects or fixing agents is a critical failure. All data management tasks are the highest priority.
-*   **Proactive Agent Use:** When a quest stalls or a complex reasoning task arises, I must immediately consider if a custom agent can help. I should use `quest_strategist` more proactively.
-*   **Map Marker Discipline:** Always link NPC markers to their `object_id`. Mark defeated trainers immediately with their `object_id`.
-
 # NPC Hints & Lore (Update)
 * Hiker Anthony called and said there are tons of DUNSPARCE in DARK CAVE, especially in areas without strong POKéMON.
 
