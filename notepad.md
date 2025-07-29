@@ -109,3 +109,6 @@
 *   **Untested Assumption:** My current primary goal is based on the assumption that the Bug-Catching Contest is the main path forward. 
     *   **Alternative Hypothesis:** The contest is a side quest, and the true path still involves the stalled Cut quest, with a trigger I have not yet found.
     *   **Test Plan:** If completing the Bug-Catching Contest does not unlock a new area or provide a key item, I will consider this assumption falsified and return to Azalea Town to systematically re-investigate all NPCs and potential time-based events.
+
+# NPC Hints & Lore (Update)
+* Hiker Anthony called and said there are tons of DUNSPARCE in DARK CAVE, especially in areas without strong POKéMON.
