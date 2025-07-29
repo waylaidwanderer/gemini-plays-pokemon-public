@@ -66,3 +66,6 @@
 
 # V. Future Development Ideas
 - **Team Composition Advisor:** An agent that analyzes my PC box and suggests optimal team compositions for specific challenges, like the Elite Four.
+
+# VI. Agent & Tool Development Notes
+- **Overwatch Feedback:** The `puzzle_strategist_agent`'s plan was likely correct. My `gem_pathfinder` was too buggy to execute it. Once the pathfinder is reliable, I MUST re-test the agent's original, complex solution for the eastern boulder puzzle.
