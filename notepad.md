@@ -72,3 +72,23 @@
 # XIV. Battle Mechanics (Newly Observed)
 *   **Wrap:** Traps the target for several turns, preventing them from switching or fleeing.
 *   **Future Test:** Need to test `CUT_08` and `CUT_28_GARBAGE` tile variants once HM01 (Cut) is obtained to see if they behave differently from a standard `CUT_TREE`.
+
+# V. Puzzle Logs
+
+## A. Ilex Forest Farfetch'd Puzzle
+**Objective:** Herd two Farfetch'd to the apprentice at (7, 28) to receive HM01 Cut.
+
+### Farfetch'd #1 (Herded Successfully)
+*   **Initial Position:** (15, 25)
+*   **Successful Herding:** Herded west by interacting from the south and west.
+
+### Farfetch'd #2
+*   **Current Position:** (22, 31)
+*   **Attempt Log:**
+    *   **Test 1:** Player at (25, 35), bird at (24, 35). **Result:** Success. Bird moved to (22, 31).
+    *   **Test 2:** Player at (23, 31), bird at (22, 31). **Result:** Failure (squawk). Bird was blocked by a wall to its west.
+    *   **Test 3:** Player at (22, 32), bird at (22, 31). **Result:** Success. Bird moved to (24, 35).
+    *   **Test 4:** Player at (25, 35), bird at (24, 35). **Result:** Failure (squawk).
+    *   **Test 5:** Player at (25, 35), bird at (24, 35). **Result:** Success. Bird moved to (22, 31). (Note: This was after a failed 'face object' warning, suggesting player position is the key trigger).
+
+**Current Hypothesis:** The Farfetch'd moves based on player position, not facing direction, and requires a clear, unobstructed tile to flee to. The movement pattern is not a simple 'flee directly away' mechanic and needs more systematic testing.
