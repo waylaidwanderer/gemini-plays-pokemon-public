@@ -53,8 +53,8 @@
 - **Efficient Debugging:** Vary test conditions to gather new diagnostic data.
 - **Immediate Action:** Log all data in the turn of discovery.
 - **Trust Direct Observation:** Base understanding of mechanics on in-game observations.
-- **Tool Development Status (Stable):**
-  - `gem_pathfinder_v2`: The pathfinder has been rebuilt and is now stable for land and water navigation. Key bugs related to elevation and surfing have been resolved.
+- **Tool Development Status (Under Debugging):**
+  - `gem_pathfinder_v2`: The pathfinder is currently unreliable on Route 23, failing on complex paths. It requires immediate debugging.
 
 # V. Future Development Ideas
 - **Team Composition Advisor:** An agent to suggest optimal team compositions.
