@@ -88,3 +88,12 @@
 
 # XI. New Core Directives (from reflection)
 *   **Summarize Hallucinations:** Instead of keeping a long, detailed log of every hallucination, I will summarize the key lesson learned and add it to the main 'Core Directives' section. This will keep the notepad clean and actionable.
+
+# Notepad Update (Append)
+
+## New Tile Mechanics
+*   **WARP_CARPET_RIGHT / WARP_CARPET_LEFT:** Requires being on the tile, facing the direction of the warp, and then pressing the directional button again.
+
+## Cut Quest - New Hypotheses
+*   **NPC Trigger:** I might need to talk to another NPC, like Kurt in Azalea Town, to trigger the HM reward now that the Farfetch'd puzzle is solved.
+*   **Time-Based Trigger:** The event might only occur on a specific day of the week.
