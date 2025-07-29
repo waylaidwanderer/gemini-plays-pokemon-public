@@ -50,8 +50,8 @@
 - **Efficient Debugging:** Repetitively running the same failing test case is inefficient. I must vary the test conditions (e.g., change the target destination) to gather new diagnostic data and isolate bugs more effectively.
 - **Immediate Action:** Deferring tasks like tool repair or documentation is a critical error. All maintenance and data logging must be done in the immediate turn of discovery to maintain a coherent internal state.
 - **Tool Development Status (Ongoing):**
-  - **gem_pathfinder:** This tool is currently unreliable for navigating Victory Road due to persistent bugs in handling complex elevation and tile traversal. Manual navigation is required.
-  - **boulder_puzzle_solver:** This tool is also unreliable and has repeatedly failed to solve the puzzles on Victory Road 2F. Its internal pathfinding logic is flawed. Manual solutions are required until the tool is successfully refactored.
+  - **gem_pathfinder:** Refactored to improve elevation traversal logic, specifically for `cleared_boulder_barrier` tiles. The tool's reliability is pending further testing.
+  - **boulder_puzzle_solver:** This tool remains unreliable due to a flawed internal pathfinder. It should not be used until it can be refactored to call the main `gem_pathfinder` tool.
 
 # V. Future Development Ideas
 - **Puzzle Strategist Agent:** Create an agent that takes the output of `get_puzzle_elements` and formulates a high-level, multi-step plan for solving complex, interconnected boulder puzzles.
