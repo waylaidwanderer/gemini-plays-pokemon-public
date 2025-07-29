@@ -118,3 +118,6 @@
 
 ## B. Battle Mechanics (Newly Observed)
 *   **Wrap:** Traps the target for several turns, preventing them from switching or fleeing.
+
+# XIV. Battle Mechanics (Newly Observed)
+*   **Wrap:** Traps the target for several turns, preventing them from switching or fleeing.
