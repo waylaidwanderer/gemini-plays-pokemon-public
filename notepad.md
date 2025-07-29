@@ -132,3 +132,18 @@
 *   **Observation (Turn 15539):** The apprentice (YOUNGSTER, ID 2) is confirmed to still be present at (7, 28).
 *   **Conclusion:** The Cut quest is officially stalled and likely bugged or requires an unknown external trigger. All current hypotheses have been exhausted and falsified.
 *   **New Strategy:** Abandoning the Cut quest for now. Pivoting to find the Ilex Forest exit to Route 34 to continue towards Goldenrod City.
+
+# IV. Hypotheses & Investigations (Consolidated)
+
+## A. Active Hypotheses (Cut Quest)
+1.  **Hypothesis:** The Farfetch'd must be herded by manipulating the direction it faces before interacting. Interacting with it seems to make it move *away* from the player, but only if it isn't facing the player.
+    *   **Test Plan:** To move it west, I must first get it to face west (by interacting from the west), then circle around and interact from the east.
+2.  **Hypothesis:** The puzzle involves multiple fixed points, and interacting with the Farfetch'd from any direction simply moves it to the next point in a predefined sequence.
+    *   **Test Action:** Continue interacting with the Farfetch'd from any convenient direction and map its movement path to see if a pattern emerges.
+
+## B. Falsified Hypotheses & Concluded Investigations
+*   **Simple Directional Push (Falsified):** Interacting with the Farfetch'd from a direction does not consistently 'push' it in the opposite direction. It sometimes only turns to face the player.
+*   **Apprentice Trigger (Falsified):** Re-interacting with the apprentice at (7, 28) after solving the *first* Farfetch'd puzzle yielded no new dialogue or reward.
+*   **Apprentice Despawning Trigger (Falsified):** The apprentice (YOUNGSTER, ID 2) is confirmed to still be present at (7, 28).
+*   **Union Cave Unseen Tiles (Confirmed Unreachable):** Pathfinding tools previously confirmed that the unseen areas of Union Cave are disconnected from currently accessible sections.
+*   **Route 32 North Path (Confirmed Blocked):** Pathfinding tools previously confirmed the path north on Route 32 is blocked by `CUT_TREE`s.
