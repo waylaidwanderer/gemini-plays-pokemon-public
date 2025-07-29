@@ -53,7 +53,7 @@
 - **Team Composition Advisor:** An agent to suggest optimal team compositions.
 - **Pathfinder Debugging Agent:** An agent to parse pathfinder debug output and provide a concise summary of why a path failed. This would automate the multi-step process I currently do manually.
 - **Route Analysis Agent:** An agent to analyze map connectivity and suggest high-level navigation strategies.
-- **Puzzle Executor Agent:** An agent that takes a puzzle solution (e.g., from `puzzle_strategist_agent`) and generates the precise sequence of button presses to execute the plan, automating the manual process of moving and pushing.
+- **Puzzle Executor Tool:** A tool that takes a puzzle solution (e.g., from `puzzle_strategist_agent`) and generates the precise sequence of button presses to execute the plan. This is a deterministic task better suited for a tool than an agent.
 
 # VI. Agent & Tool Development Notes
 - **`puzzle_strategist_agent`:** The agent's original plan for the eastern boulder puzzle on Victory Road 1F may have been correct. My pathfinder was too buggy to execute it. With the pathfinder now stable, this plan can be re-tested in the future if needed. The agent needs refinement to better process all impassable map data.
