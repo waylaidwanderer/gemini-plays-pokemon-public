@@ -92,3 +92,4 @@
     *   **Test 5:** Player at (25, 35), bird at (24, 35). **Result:** Success. Bird moved to (22, 31). (Note: This was after a failed 'face object' warning, suggesting player position is the key trigger).
 
 **Current Hypothesis:** The Farfetch'd moves based on player position, not facing direction, and requires a clear, unobstructed tile to flee to. The movement pattern is not a simple 'flee directly away' mechanic and needs more systematic testing.
+*   **VOID:** Impassable.
