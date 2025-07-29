@@ -6,6 +6,8 @@
 *   **Mark Warps Immediately:** Mark both the entrance and exit of any warp immediately upon transitioning between maps. This is non-negotiable.
 *   **Avoid Repetitive Failures:** If a sequence of actions fails repeatedly, document it, and deliberately pivot to a new strategy. Do not get stuck in loops.
 *   **Verify Location:** Always verify current map and coordinates before planning any navigation, especially after a map transition or interruption.
+*   **Link NPC Markers:** All map markers for NPCs or movable objects MUST be linked to their `object_id` to ensure data integrity.
+*   **Fix Tools Immediately:** If a tool produces a verifiable error (e.g., generates an invalid path, crashes, or returns incorrect information), fixing it becomes the absolute highest priority, superseding any gameplay objective.
 
 ## B. Tile Traversal Rules
 *   **Traversable:** TALL_GRASS, LONG_GRASS, DOOR, WARP_CARPET_DOWN, LADDER, FLOOR.
@@ -49,7 +51,7 @@
 
 # IV. Technical Investigations & Tool Status
 
-*   **Pathfinder Status (BROKEN):** The `pathfinder` tool is currently non-functional due to a persistent "Python sandbox" error. Manual navigation is required until this is fixed. Attempting to fix by re-defining the tool.
+*   **Pathfinder Status (Operational):** The `pathfinder` tool has been re-defined to fix a persistent sandbox error and is now considered operational.
 *   **CRITICAL HALLUCINATIONS (Recurring):** I have a recurring issue of becoming disoriented about my location after map transitions or interruptions. I MUST verify my map and coordinates before every single navigational plan to combat this.
 
 # V. Stalled Quests & Concluded Investigations
@@ -74,8 +76,6 @@
 # IX. Current Strategy
 *   **Current Strategy:** All northern paths on Route 32 have been confirmed as dead ends. The only remaining path is south. The Youngster at (3, 45) is blocking the direct path, so I must navigate around him to continue towards Union Cave.
 *   **CRITICAL HALLUCINATION (Turn 14506):** I incorrectly believed the map exit at Route 33 (0, 15) was a warp. The system corrected me. It is a map transition, not a formal warp tile. I must verify map transitions in the future.
-
-*   **Fix Tools Immediately:** If a tool produces a verifiable error (e.g., generates an invalid path, crashes, or returns incorrect information), fixing it becomes the absolute highest priority, superseding any gameplay objective.
 
 # Untested Hypotheses (New Section)
 *   **Cut Quest Trigger:**
