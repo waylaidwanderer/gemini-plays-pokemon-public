@@ -376,5 +376,28 @@
         "action_counter": 15072
       }
     ]
+  },
+  "unseen_tile_checker": {
+    "description": "Analyzes the list of unseen tiles from a system alert and uses pathfinding logic to determine which are actually reachable from the player's current position.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "coordinates": {
+          "type": "string",
+          "description": "A stringified JSON array of coordinate objects, e.g., '[{\"x\":1,\"y\":2}]'"
+        }
+      },
+      "required": [
+        "coordinates"
+      ]
+    },
+    "python_script": "import xml.etree.ElementTree as ET; from collections import deque; import json\n\ndef parse_map_xml(xml_string):\n    root = ET.fromstring(xml_string)\n    map_data = {}\n    map_data['width'] = int(root.attrib['width'])\n    map_data['height'] = int(root.attrib['height'])\n    map_data['tiles'] = {}\n    player_pos = None\n    for row_elem in root.findall('Row'):\n        y = int(row_elem.attrib['id'])\n        for tile_elem in row_elem.findall('Tile'):\n            x = int(tile_elem.attrib['id'])\n            tile_type = tile_elem.attrib.get('type', 'unseen')\n            has_object = tile_elem.attrib.get('has-object') == 'true'\n            map_data['tiles'][(x, y)] = {'type': tile_type, 'has_object': has_object}\n            if tile_elem.find('Player') is not None:\n                player_pos = (x, y)\n    map_data['player_pos'] = player_pos\n    return map_data\n\ndef is_passable(x, y, dx, dy, map_data):\n    target_x, target_y = x + dx, y + dy\n    if not (1 <= target_x <= map_data['width'] and 1 <= target_y <= map_data['height']):\n        return False\n    target_tile = map_data['tiles'].get((target_x, target_y))\n    if not target_tile:\n        return False\n    current_tile = map_data['tiles'].get((x, y))\n    current_tile_type = current_tile.get('type') if current_tile else 'None'\n    target_tile_type = target_tile.get('type')\n    impassable_types = ['unseen', 'WALL', 'WINDOW', 'VOID', 'CUT_TREE', 'SIGN', 'BOOKSHELF', 'BLACKBOARD', 'MART_SHELF', 'BUOY', 'TV', 'TOWN_MAP', 'RADIO', 'INCENSE_BURNER', 'BIRD', 'HEADBUTT_TREE', 'FRUIT_TREE', 'COMPUTER', 'PRINTER', 'COUNTER', 'PC', 'WATER']\n    if target_tile_type in impassable_types:\n        return False\n    if target_tile.get('has_object'):\n        return False\n    if target_tile_type == 'LEDGE_HOP_DOWN' and dy != 1:\n        return False\n    if target_tile_type == 'LEDGE_HOP_RIGHT' and dx != 1:\n        return False\n    if target_tile_type == 'LEDGE_HOP_LEFT' and dx != -1:\n        return False\n    if current_tile_type == 'FLOOR' and target_tile_type == 'FLOOR_UP_WALL':\n        return False\n    if target_tile_type == 'FLOOR_UP_WALL' and dy == -1:\n        return False\n    return True\n\ndef find_path_bfs(start_pos, end_pos, map_data):\n    if not start_pos or not end_pos:\n        return None\n    queue = deque([[start_pos]])\n    visited = {start_pos}\n    while queue:\n        path = queue.popleft()\n        x, y = path[-1]\n        if (x, y) == end_pos:\n            return path\n        for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n            next_x, next_y = x + dx, y + dy\n            if (next_x, next_y) not in visited and is_passable(x, y, dx, dy, map_data):\n                visited.add((next_x, next_y))\n                new_path = list(path)\n                new_path.append((next_x, next_y))\n                queue.append(new_path)\n    return None\n\nmap_data = parse_map_xml(map_xml_string)\nstart_pos = map_data.get('player_pos')\ncoordinates_to_check_str = input_data.get('coordinates')\nreachable_tiles = []\nif start_pos and coordinates_to_check_str:\n    try:\n        coordinates_to_check = json.loads(coordinates_to_check_str)\n        for coord in coordinates_to_check:\n            target_x = int(coord['x'])\n            target_y = int(coord['y'])\n            if find_path_bfs(start_pos, (target_x, target_y), map_data):\n                reachable_tiles.append(coord)\n    except (json.JSONDecodeError, TypeError):\n        pass # Ignore errors in parsing\nprint(json.dumps(reachable_tiles))",
+    "history": [
+      {
+        "commit_message": "feat: Create unseen_tile_checker tool. This tool automates the process of checking which unseen tiles from a system alert are actually reachable, streamlining exploration and preventing wasted turns trying to path to disconnected areas.",
+        "timestamp": "2025-07-29T03:31:55.070Z",
+        "action_counter": 15144
+      }
+    ]
   }
 }
