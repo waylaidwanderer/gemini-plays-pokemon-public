@@ -104,20 +104,6 @@
 # New Tile Mechanics (Confirmed)
 *   **VOID:** Impassable. Confirmed by attempting to move left from (0, 33).
 
-# IV. Hypotheses & Investigations (Consolidated)
-
-## A. Active Hypotheses (Cut Quest) - CORRECTED
-*   **Previous Core Assumption (FALSIFIED):** My previous attempts were based on two critical hallucinations: the existence of interactable 'twig piles' that made noise, and the idea that the Farfetch'd's sprite facing direction was a reliable puzzle mechanic. The system critique has confirmed these are not real mechanics. All hypotheses based on them are invalid.
-*   **New Core Hypothesis:** The puzzle is a simple interaction sequence. Interacting with the Farfetch'd from any valid adjacent tile will cause it to move to the next predetermined point in its path. The player's position or the bird's facing direction are irrelevant.
-    *   **Test Plan:** From now on, I will interact with the Farfetch'd from the most convenient adjacent tile, observe where it moves, and map its path. The goal is to herd it towards the apprentice at (7, 28).
-
-## B. Falsified Hypotheses & Concluded Investigations
-*   **Simple Directional Push (Falsified):** Interacting with the Farfetch'd from a direction does not consistently 'push' it in the opposite direction. It sometimes only turns to face the player.
-*   **Apprentice Trigger (Falsified):** Re-interacting with the apprentice at (7, 28) after solving the *first* Farfetch'd puzzle yielded no new dialogue or reward.
-*   **Apprentice Despawning Trigger (Falsified):** The apprentice (YOUNGSTER, ID 2) is confirmed to still be present at (7, 28).
-*   **Union Cave Unseen Tiles (Confirmed Unreachable):** Pathfinding tools previously confirmed that the unseen areas of Union Cave are disconnected from currently accessible sections.
-*   **Route 32 North Path (Confirmed Blocked):** Pathfinding tools previously confirmed the path north on Route 32 is blocked by `CUT_TREE`s.
-
 # Cut Quest - Hypothesis Testing
 *   **Hypothesis 1 (Falsified):** Reloading the map by leaving and re-entering Ilex Forest would respawn the missing Farfetch'd.
 *   **Test (Turn 15865-15868):** Exited to Azalea Town, re-entered, and checked the last known location at (15, 25). The Farfetch'd was not present. 
