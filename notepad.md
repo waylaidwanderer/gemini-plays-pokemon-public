@@ -85,10 +85,6 @@
 ## New Tile Mechanics
 *   **WARP_CARPET_RIGHT / WARP_CARPET_LEFT:** Requires being on the tile, facing the direction of the warp, and then pressing the directional button again.
 
-## Cut Quest - New Hypotheses
-*   **NPC Trigger:** I might need to talk to another NPC, like Kurt in Azalea Town, to trigger the HM reward now that the Farfetch'd puzzle is solved.
-*   **Time-Based Trigger:** The event might only occur on a specific day of the week.
-
 # XII. Reflection Learnings & Reminders
 *   **Immediate Data Management:** I must act on new information immediately. Deferring tasks like marking objects or fixing agents is a critical failure. All data management tasks are the highest priority.
 *   **Proactive Agent Use:** When a quest stalls or a complex reasoning task arises, I must immediately consider if a custom agent can help. I should use `quest_strategist` more proactively.
