@@ -37,8 +37,12 @@
 ## B. Trainer Battle Rules
 - **Defeated Trainers:** Defeated trainers do NOT respawn and are **IMPASSABLE** obstacles. My previous assumption that they were traversable, based on misleading system feedback, was definitively proven false when the game engine blocked my movement onto a defeated trainer's tile.
 
-# III. Puzzle Mechanics & Key Discoveries
+# III. Puzzle Mechanics & Problem Solving
 
+## A. Active Puzzles
+*This section is for real-time hypothesis testing. Document observations, hypotheses, tests, and conclusions here as they happen.*
+
+## B. Solved Puzzles & Key Discoveries
 - **Victory Road 2F - Correct Puzzle Sequence:** This floor must be solved in a single visit without leaving the map. Leaving and re-entering resets the puzzles.
   1.  Enter from the ladder at (1, 9).
   2.  Solve the **western puzzle**: Push the boulder from (5, 15) to the switch at (2, 17). This opens the barrier at (8, 9) and (8, 10).
@@ -48,7 +52,7 @@
 - **Elevation Rule:** Movement between `ground` and `elevated_ground` is only possible via `steps` tiles. Direct movement from an elevated tile to an adjacent lower ground tile is impossible, even if the tile is a `cleared_boulder_barrier`, unless it specifically acts as a ramp between the two levels.
 
 # IV. Archived Lessons & Tool Development
-- **Systematic Problem-Solving:** When faced with a navigation paradox, I must avoid chaotic, repeated manual attempts. The correct approach is to trust the game state data (e.g., `navigable_warps`) as the source of truth and systematically eliminate possibilities.
+- **Systematic Problem-Solving:** When faced with a navigation paradox, I must avoid chaotic, repeated manual attempts. The correct approach is to trust the game state data (e.g., `navigable_warps`) as the source of truth and systematically eliminate possibilities. I will use the 'Active Puzzles' section to document my reasoning process in real-time.
 - **Efficient Debugging:** Repetitively running the same failing test case is inefficient. I must vary the test conditions (e.g., change the target destination) to gather new diagnostic data and isolate bugs more effectively. My recent failure loop with `gem_pathfinder` is a key example of what not to do.
 - **Immediate Action:** Deferring tasks like tool repair or documentation is a critical error. All maintenance and data logging must be done in the immediate turn of discovery to maintain a coherent internal state.
 - **Trust Direct Observation:** My understanding of the boulder pushing mechanic required three revisions because I failed to trust my own in-game observations over incorrect prior assumptions. Direct gameplay evidence is the ultimate source of truth and must always take precedence.
@@ -58,4 +62,3 @@
 
 # V. Future Development Ideas
 - **Team Composition Advisor:** An agent that analyzes my PC box and suggests optimal team compositions for specific challenges, like the Elite Four.
-- **Puzzle Reset Forecaster:** An agent that predicts if leaving a map to heal will reset critical puzzles, helping to weigh risks.
