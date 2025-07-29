@@ -43,8 +43,9 @@
 - **Victory Road 1F - Eastern Boulder Puzzle:**
   - **Observation:** The `puzzle_strategist_agent` provided a complex, multi-step solution. However, the `gem_pathfinder` tool was unable to navigate to the agent's proposed starting position, making the plan untestable.
   - **Hypothesis #1:** The agent's plan is correct, but the pathfinder is too buggy to execute it.
-  - **Hypothesis #2 (Active):** A simpler solution exists. I can solve the puzzle by pushing the boulder at (15, 3) to the left, navigating it around the central rock formation.
-  - **Test (In Progress):** I am currently at (15, 3), having pushed the boulder from (16,3) to (14,3) and then to (13,3). I will continue to push it left.
+  - **Hypothesis #2 (Failed):** Pushing the boulder at (15, 3) left resulted in soft-locking it at (11, 3) between an impassable wall and an item object. Conclusion: This is not the correct solution.
+- **Hypothesis #3 (Active):** My pathfinder is not broken; it correctly identifies that the path to the exit is blocked by the western boulder puzzle. To proceed, I must solve this puzzle by moving the boulder at (3, 11).
+  - **Test:** I will navigate to (3, 10) and push the boulder down to (3, 12) to see if this clears a path to the western side of the map and the exit.
   - **Conclusion:** TBD.
 
 ## B. Solved Puzzles & Key Discoveries
