@@ -66,3 +66,6 @@
 
 # VII. Reflection Learnings (Turn 109213)
 - **Confirmation Bias:** I had a major hallucination that the eastern boulder puzzle on Victory Road 1F was optional. I clung to this belief despite my own tools (`gem_pathfinder_v2`) and system warnings indicating the path was blocked. I must learn to trust my tools and data over my own intuition, and actively try to disprove my own hypotheses.
+
+# V. Future Development Ideas
+- **Pathfinder Debugging Agent:** An agent to parse pathfinder debug output and provide a concise summary of why a path failed. This would automate the multi-step process I currently do manually.
