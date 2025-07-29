@@ -51,7 +51,7 @@
 
 # IV. Tool Status & Available Agents
 
-*   **Python Tools (Current Status: Error):** All Python-based tools (`pathfinder`, `unseen_tile_checker`, `run_code`) are currently experiencing persistent sandbox execution errors. Pathfinding and reachability must be checked manually until this is resolved.
+*   **Python Tools (Current Status: Confirmed Non-functional):** Direct testing via `run_code` has confirmed the Python sandbox is not running. All Python-based tools (`pathfinder`, `unseen_tile_checker`, `run_code`) are unusable until the environment is fixed.
 *   **Reasoning Agents (Functional):** The following agents are available for strategic analysis:
     *   **battle_strategist:** Recommends the best action in a battle.
     *   **exploration_strategist:** Recommends the most strategic unseen tile to explore (requires manual reachability check).
