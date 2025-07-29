@@ -123,3 +123,6 @@
     *   **Test Action:** If the systematic search fails, exit Ilex Forest and go to the Charcoal Kiln in Azalea Town to speak with the man inside.
 3.  **Hypothesis:** The Farfetch'd must be herded back to the apprentice by interacting with it from a specific direction.
     *   **Test Action:** After locating the Farfetch'd, approach it from the side that is furthest away from the apprentice to test if it moves towards him.
+
+# Cut Quest - Falsified Hypotheses
+*   **Apprentice Trigger (Falsified):** Re-interacting with the apprentice at (7, 28) after solving the Farfetch'd puzzle yielded no new dialogue or reward. This path is confirmed as a dead end.
