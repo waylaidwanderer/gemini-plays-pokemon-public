@@ -49,7 +49,7 @@
 - **Immediate Action:** Log all data in the turn of discovery. This includes disproven hypotheses to avoid repeating mistakes.
 - **Trust Direct Observation:** Base understanding of mechanics on in-game observations.
 - **Tool Development Status (Under Debugging):**
-  - `gem_pathfinder_v2`: The pathfinder is highly unreliable on Route 23, consistently failing on complex paths. It is under active debugging.
+  - `gem_pathfinder_v2`: The pathfinder is highly unreliable on Route 23, consistently failing on complex paths with narrow corridors and obstacles. Confirmed as a tool bug by the diagnostics agent. It is under active debugging.
 
 # V. Future Development Ideas
 - **Team Composition Advisor:** An agent to suggest optimal team compositions.
