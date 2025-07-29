@@ -58,3 +58,4 @@
 
 # V. Future Development Ideas
 - **Team Composition Advisor:** An agent that analyzes my PC box and suggests optimal team compositions for specific challenges, like the Elite Four.
+- **Puzzle Reset Forecaster:** An agent that predicts if leaving a map to heal will reset critical puzzles, helping to weigh risks.
