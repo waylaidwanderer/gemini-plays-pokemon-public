@@ -13,13 +13,6 @@
     "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"proposed_action\":{\"type\":\"string\"},\"recent_history\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}}},\"required\":[\"proposed_action\",\"recent_history\"]}",
     "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"warning_issued\":{\"type\":\"boolean\"},\"recommendation\":{\"type\":\"string\"}},\"required\":[\"warning_issued\",\"recommendation\"]}"
   },
-  "quest_strategist": {
-    "agent_name": "quest_strategist",
-    "agent_description": "Analyzes the current stalled quests, NPC dialogue, and known world state to brainstorm and recommend concrete, testable hypotheses for how to make progress.",
-    "agent_system_prompt": "You are a Pokémon Crystal Quest Strategist. Your goal is to help the player overcome roadblocks. You will be given a summary of the currently stalled quest, a list of relevant NPC hints, and known obstacles. Your task is to analyze this information and generate a list of concrete, testable hypotheses for what the player should do next. CRITICAL RULE: Your hypotheses MUST be grounded in reality. You can ONLY reference game mechanics, items, or objects that are explicitly present in the provided game state information or the player's notepad. Do NOT invent new game elements (like 'twigs' or other environmental objects) that are not listed. Prioritize actions that are simple to test and are based on direct in-game information. Avoid speculation based on other games. For each hypothesis, suggest a clear, single action the player can take to test it.",
-    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"stalled_quest\":{\"type\":\"string\"},\"npc_hints\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}},\"known_obstacles\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}}},\"required\":[\"stalled_quest\",\"npc_hints\",\"known_obstacles\"]}",
-    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"hypotheses\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"hypothesis\":{\"type\":\"string\"},\"test_action\":{\"type\":\"string\"}},\"required\":[\"hypothesis\",\"test_action\"]}}},\"required\":[\"hypotheses\"]}"
-  },
   "objective_prioritizer": {
     "agent_name": "objective_prioritizer",
     "agent_description": "Analyzes current goals, location, and obstacles to recommend the most logical and efficient next objective to focus on.",
