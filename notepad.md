@@ -31,19 +31,28 @@
 - **Correction:** Psychic-type moves deal NEUTRAL (1x) damage to Rock-type Pokémon.
 
 # III. Puzzle Mechanics & Problem Solving
-## A. Methodology
-- **Systematic Approach:** When stuck, do not repeat failed actions. Re-evaluate the entire map, look for in-game clues (like empty switches), and form a new, testable hypothesis. Avoid confirmation bias by actively trying to disprove initial assumptions.
+## A. Victory Road 1F Plan
+1. Push boulder at (3, 11) UP to the switch at (3, 10). This clears the western path.
+2. Navigate to the western platform via the steps at (6, 14).
+3. Push the boulder at (6, 16) DOWN to (6, 17) to clear the path.
+4. Navigate to the eastern section.
+5. Push the boulder at (15, 3) onto the switch at (18, 14). This will clear the main barrier at (10, 13).
+6. Proceed to the ladder at (2, 2).
+
 ## B. Key Discoveries
 - **Victory Road 1F - Boulder/Steps Interaction (Confirmed):** Boulders cannot be pushed onto `steps` tiles.
 - **Victory Road 1F - Elevation Rule (Confirmed):** Movement between `ground` and `elevated_ground` is ONLY possible by traversing a `steps` tile.
 
 # IV. Agent & Tool Development
-- **Systematic Problem-Solving:** Trust game data over intuition. Add debug logging to tools as a first step, not a last resort.
-- **Immediate Action:** Log all data and fix all tools in the turn of discovery. This includes disproven hypotheses to avoid repeating mistakes.
-- **Tool Development Status:** `gem_pathfinder_v2`: The hypothesis that defeated trainers are passable was tested by ignoring all objects. The pathfinder still failed, disproving the hypothesis. The tool has a more fundamental bug in its traversal logic. Restoring object detection and re-adding debug logs to diagnose.
+## A. Development Ideas
+- **Agent Idea:** `boulder_puzzle_strategist`. Takes the map state (boulder/switch/player positions) and devises an optimal push sequence.
+- **Tool Idea:** `get_boulder_moves`. A helper tool that identifies all possible moves for all boulders on the current map.
+
+## B. Tool Status & Lessons
+- `gem_pathfinder_v2`: The tool is working correctly. My repeated failures were due to misunderstanding the map layout and getting trapped, not a bug in the tool's logic. This was a major lesson in trusting my tools and questioning my own assumptions.
 
 # V. Debugging Methodology
-- **Principle:** Avoid confirmation bias. When a tool fails, do not assume it's a bug. First, use `tool_diagnostics_agent` to get an objective assessment.
+- **Principle:** Avoid confirmation bias. When a tool fails, do not assume it's a bug.
 - **Process:**
   1. If a tool fails (e.g., `gem_pathfinder_v2` returns 'No path found'), do not immediately try to fix it.
   2. Call `tool_diagnostics_agent` with the tool's output and a summary of the map layout.
