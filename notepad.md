@@ -31,13 +31,8 @@
 - **Correction:** Psychic-type moves deal NEUTRAL (1x) damage to Rock-type Pokémon.
 
 # III. Puzzle Mechanics & Problem Solving
-## A. Victory Road 1F Plan
-1. Push boulder at (3, 11) UP to the switch at (3, 10). This clears the western path.
-2. Navigate to the western platform via the steps at (6, 14).
-3. Push the boulder at (6, 16) DOWN to (6, 17) to clear the path.
-4. Navigate to the eastern section.
-5. Push the boulder at (15, 3) onto the switch at (18, 14). This will clear the main barrier at (10, 13).
-6. Proceed to the ladder at (2, 2).
+## A. Current Puzzle Plan
+- *[Plan for current puzzle will go here]*
 
 ## B. Key Discoveries
 - **Victory Road 1F - Boulder/Steps Interaction (Confirmed):** Boulders cannot be pushed onto `steps` tiles.
