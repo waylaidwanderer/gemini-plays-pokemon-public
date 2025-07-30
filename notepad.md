@@ -9,27 +9,24 @@
 *   **Proactive Tile Testing:** Upon encountering any new, undocumented tile type, I MUST immediately form a hypothesis about its traversability and conduct a simple test (e.g., trying to walk on it from all four directions). The results MUST be logged in the notepad before proceeding.
 *   **Mark Warps Immediately:** Mark both warp entrance and exit immediately upon use.
 
-## B. Tile Traversal Rules
+# II. Tile Traversal Rules
 *   **Traversable:** TALL_GRASS, LONG_GRASS, DOOR, WARP_CARPET_DOWN, LADDER, FLOOR.
-*   **Impassable (Verified):** WALL, WINDOW, CUT_TREE, SIGN, BOOKSHELF, BLACKBOARD, MART_SHELF, BUOY, TV, TOWN_MAP, BIRD, HEADBUTT_TREE, FRUIT_TREE, COMPUTER, PRINTER, VOID, WATER, CAVE.
-*   **Special Interaction (Impassable but Interactable):**
-    *   **PC:** Impassable. Interact by standing below it at (X, Y+1), facing up, and pressing 'A'.
-    *   **COUNTER:** Impassable. Interact with NPCs behind it by standing in front of the counter and pressing 'A'.
+*   **Impassable (Verified):** WALL, WINDOW, CUT_TREE, SIGN, BOOKSHELF, BLACKBOARD, MART_SHELF, BUOY, TV, TOWN_MAP, BIRD, HEADBUTT_TREE, FRUIT_TREE, COMPUTER, PRINTER, VOID, WATER, CAVE, COUNTER.
+*   **Untested:** CUT_08, CUT_28_GARBAGE, RADIO, INCENSE_BURNER.
 *   **One-Way Traversal:**
     *   LEDGE_HOP_DOWN: Can only be entered from above.
     *   LEDGE_HOP_RIGHT: Can only be entered from the left.
     *   LEDGE_HOP_LEFT: Can only be entered from the right.
 *   **Special Interaction (Warp):**
-    *   **CAVE:** Can act as a one-way warp. The tile at Route 33 (11, 9) is a confirmed one-way entrance to Union Cave (17, 31). The tile at Route 32 (6, 79) is a confirmed one-way entrance to Union Cave (17, 3). Should be treated as impassable for pathfinding.
-    *   **WARP_CARPET (Verified):** Can be activated by pressing the directional button of the warp (Left/Right/Down) while standing on the tile, regardless of facing direction.
-*   **Special Interaction (Weird Walls):**
-    *   **FLOOR_UP_WALL (Corrected):** A special one-way tile. **Verified Rule:** Movement *from* this tile is only possible in the 'Down' direction (a one-way slide). It is impassable from all other directions. Movement *onto* this tile is only possible by moving UP from a tile below (Y+1 -> Y). Verified at UnionCave1F.
-*   **Special Interaction (Fishing):**
-    *   **WATER:** Impassable to walk on, but can be fished in with a rod.
-*   **CUT_08 (Untested):** A variant of a cuttable tree.
-*   **CUT_28_GARBAGE (Untested):** A variant of a cuttable tree.
-*   **RADIO (Untested):** A radio, likely impassable.
-*   **INCENSE_BURNER (Untested):** An incense burner, likely impassable.
+    *   **CAVE:** Can act as a one-way warp. Route 33 (11, 9) -> Union Cave (17, 31). Route 32 (6, 79) -> Union Cave (17, 3).
+    *   **WARP_CARPET:** Activated by pressing the directional button of the warp (Left/Right/Down) while standing on the tile.
+*   **Special Interaction (Walls/Floors):**
+    *   **FLOOR_UP_WALL:** A one-way slide. Movement *from* this tile is only possible Down. Movement *onto* this tile is only possible by moving UP from a tile below (Y+1 -> Y).
+    *   **Visual Ledges (FLOOR type):** Some FLOOR tiles are visually one-way ledges and are impassable from below. Verified at UnionCave1F, preventing movement from (7, 26) up to (7, 25).
+*   **Special Interaction (Interactable):**
+    *   **PC:** Interact by standing below it at (X, Y+1), facing up.
+    *   **COUNTER:** Interact with NPCs behind it by standing in front of the counter.
+    *   **WATER:** Can be fished in with a rod.
 
 # II. Battle Information
 
