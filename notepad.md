@@ -38,7 +38,7 @@
 - **Victory Road 1F - Boulder/Steps Interaction (Confirmed):** Boulders cannot be pushed onto `steps` tiles. This was confirmed after multiple failed attempts to push the boulder at (6, 15) north onto the steps at (6, 14).
 - **Victory Road 1F - Elevation Rule (Confirmed):** Movement between `ground` and `elevated_ground` is ONLY possible by traversing a `steps` tile. The full sequence is `elevated_ground` -> `steps` -> `ground` (and vice-versa). Direct movement between `elevated_ground` and any other lower-level tile type is impossible.
 - **Victory Road 2F - Western Boulder Puzzle (Status: BLOCKED):** `puzzle_strategist_agent` has confirmed the puzzle is impossible with standard push mechanics. **Hypothesis Disproven:** Interacting with Pikachu (walking onto his tile, then talking to him) did not change the puzzle state. The puzzle remains unsolvable. **New Plan:** Attempt to solve the eastern boulder puzzle first.
-- **Victory Road 2F - Eastern Puzzle (To-Do):** Push the boulder from (6, 6) to the switch at (10, 17). This will open the barrier at (24, 15), clearing the path to the exit ladder.
+- **Victory Road 2F - All Puzzles Blocked (Hypothesis):** `puzzle_strategist_agent` has confirmed both the western and eastern boulder puzzles are impossible in their current configurations. The solution likely requires an action on Victory Road 3F (e.g., dropping a new boulder) to alter the state of this floor. New plan is to explore 3F for a solution.
 - **Victory Road 3F - Hole Puzzle:** Pushing the boulder at (14, 13) south into the hole at (14, 15) causes it to appear on the floor below.
 
 # IV. Archived Lessons & Tool Development
