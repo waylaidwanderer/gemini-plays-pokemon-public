@@ -40,10 +40,10 @@
 # IV. Current Plans
 ## A. Victory Road 2F Boulder Puzzle
 My `puzzle_strategist_agent` has provided a solution to the western boulder puzzle. I must execute the following plan to clear the barrier at (24, 15):
-1.  **Push boulder at (5, 15) DOWN:**
-    - Navigate to (5, 14).
-    - Use Strength.
-    - Move DOWN.
+1.  **Push boulder at (5, 15) DOWN:** (COMPLETE)
+    - Navigated to (5, 14).
+    - Used Strength.
+    - Moved DOWN.
 2.  **Push boulder at (5, 16) LEFT:**
     - Navigate to (6, 16).
     - Use Strength.
