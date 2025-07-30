@@ -49,7 +49,7 @@
 - **Tool Idea:** `get_boulder_moves`. A helper tool that identifies all possible moves for all boulders on the current map.
 
 ## B. Tool Status & Lessons
-- `gem_pathfinder_v2`: The tool is working correctly. My repeated failures were due to misunderstanding the map layout and getting trapped, not a bug in the tool's logic. This was a major lesson in trusting my tools and questioning my own assumptions.
+- `gem_pathfinder_v2` (Bug Confirmed): The tool is generating invalid paths that attempt to move through `impassable` tiles. My previous conclusion that the tool was working was incorrect. The tool cannot be trusted for navigation until this is fixed. Manual navigation is required.
 
 # V. Debugging Methodology
 - **Principle:** Avoid confirmation bias. When a tool fails, do not assume it's a bug.
