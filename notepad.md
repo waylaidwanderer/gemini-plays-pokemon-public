@@ -29,8 +29,6 @@
 - **Not Very Effective (0.5x):** Normal !> Rock; Electric !> Grass, Electric, Dragon; Rock !> Psychic; Psychic !> Psychic; Poison !> Poison, Ground, Rock, Ghost; Ice !> Water, Ice, Fire; Fighting > Poison, Flying, Psychic, Bug; Water !> Water, Grass, Dragon; Grass !> Fire, Grass, Poison, Flying, Bug, Dragon
 - **Immune (0x):** Flying immune to Ground; Ground immune to Electric; Ghost immune to Normal, Fighting
 - **Correction:** Psychic-type moves deal NEUTRAL (1x) damage to Rock-type Pokémon.
-## B. Trainer Battle Rules
-- **Defeated Trainers:** Are **IMPASSABLE** obstacles. They do not respawn and block movement. (Hypothesis: This might be incorrect, testing now).
 
 # III. Puzzle Mechanics & Problem Solving
 ## A. Methodology
@@ -42,4 +40,4 @@
 # IV. Agent & Tool Development
 - **Systematic Problem-Solving:** Trust game data over intuition. Add debug logging to tools as a first step, not a last resort.
 - **Immediate Action:** Log all data and fix all tools in the turn of discovery. This includes disproven hypotheses to avoid repeating mistakes.
-- **Tool Development Status:** `gem_pathfinder_v2`: The pathfinder's core logic is failing for unknown reasons, possibly due to a flawed assumption about game mechanics (e.g., trainer impassability). Currently testing this hypothesis.
+- **Tool Development Status:** `gem_pathfinder_v2`: The hypothesis that defeated trainers are passable was tested by ignoring all objects. The pathfinder still failed, disproving the hypothesis. The tool has a more fundamental bug in its traversal logic. Restoring object detection and re-adding debug logs to diagnose.
