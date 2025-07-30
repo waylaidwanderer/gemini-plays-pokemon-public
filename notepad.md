@@ -96,3 +96,6 @@
     *   **Failed Path West:** Repeatedly attempted to move west from (28, 13) into the wall at (27, 13).
     *   **Failed Path North:** Repeatedly attempted to move north from (28, 12) into the one-way ledge at (28, 11).
     *   **Conclusion:** This entire loop was caused by a failure to immediately document impassable tiles and a flawed assumption that a direct route existed. The correct path requires looping around the central buildings.
+
+# IX. Navigation Hypotheses
+*   **Azalea Town Crossing:** My current hypothesis is that the Slowpoke Well is the only way to get from the east side to the west side of town. After traversing it, I will test this by re-exploring the town to see if any new paths have opened.
