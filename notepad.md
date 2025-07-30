@@ -1,11 +1,11 @@
 # Gem's Pokémon Crystal Adventure Log
 
-# I. Core Directives & Lessons Learned
-*   **Trust Your Tools:** A verified tool's output (e.g., 'No path found') is a source of truth. Trust it over your own assumptions about map connectivity. Do not waste time trying to fix a tool that is already working correctly.
-*   **Systematic Debugging:** When a tool is genuinely broken, use a methodical, evidence-based approach. Use `run_code` with print statements to trace execution. Isolate variables and test simple cases before complex ones. Avoid blind, repetitive code changes.
-*   **Immediate Action:** Tool/agent maintenance is not a deferrable goal. It must be performed in the current turn. Deferring critical fixes leads to cascading failures.
-*   **Hypothesis-Driven Testing:** For all new mechanics (especially tile traversal), use the Observe, Hypothesize, Test, Conclude method. Document every step. Do not rely on assumptions.
-*   **Goal Flexibility:** If a primary goal is proven impossible by a trusted tool, pivot immediately. Do not get stuck on an invalid objective.
+# I. Core Directives & Lessons Learned (Post-Critique Update)
+*   **Trust Your Tools:** A verified tool's output (e.g., 'No path found') is a source of truth. Trust it over your own assumptions about map connectivity.
+*   **Systematic Debugging:** When a tool is broken, use a methodical, evidence-based approach. Use `run_code` with print statements to trace execution. Isolate variables and test simple cases before complex ones. Avoid blind, repetitive code changes.
+*   **Immediate Action:** Tool/agent maintenance is not a deferrable goal. It must be performed in the current turn.
+*   **Hypothesis-Driven Testing:** For all new mechanics, use the Observe, Hypothesize, Test, Conclude method. Document every step.
+*   **Goal Flexibility:** If a primary goal is proven impossible by a trusted tool, pivot immediately.
 *   **Mark Warps Immediately:** Mark both warp entrance and exit immediately upon use.
 
 ## B. Tile Traversal Rules
