@@ -42,10 +42,10 @@
 - **Immediate Action:** Log all data and fix all tools in the turn of discovery. This includes disproven hypotheses to avoid repeating mistakes.
 - **Tool Development Status:** `gem_pathfinder_v2`: The hypothesis that defeated trainers are passable was tested by ignoring all objects. The pathfinder still failed, disproving the hypothesis. The tool has a more fundamental bug in its traversal logic. Restoring object detection and re-adding debug logs to diagnose.
 
-# V. Current Puzzle Plans
-## A. Victory Road 1F Boulder Puzzle
-- **Objective:** Reach the ladder at (2, 2).
-- **Hypothesis 1:** The puzzle must be solved in a west-to-east sequence.
-- **Step 1 (West Boulder):** Push the boulder at (3, 11) UP onto the switch at (3, 10).
-- **Step 2 (East Boulder):** Navigate to the boulder at (15, 3) and push it onto the switch at (18, 14).
-- **Step 3 (Exit):** With both switches activated, the path to the ladder at (2, 2) should be clear.
+# V. Debugging Methodology
+- **Principle:** Avoid confirmation bias. When a tool fails, do not assume it's a bug. First, use `tool_diagnostics_agent` to get an objective assessment.
+- **Process:**
+  1. If a tool fails (e.g., `gem_pathfinder_v2` returns 'No path found'), do not immediately try to fix it.
+  2. Call `tool_diagnostics_agent` with the tool's output and the complete `map_xml_string`.
+  3. **If Assessment is 'Correct Assessment':** My understanding of the map is wrong. I must re-evaluate the map data to find the true obstacle and form a new navigation plan.
+  4. **If Assessment is 'Likely Tool Bug':** The tool is likely flawed. Add extensive logging, re-run the tool to capture debug data, analyze the logs to form a hypothesis about the bug, and then implement a fix.
