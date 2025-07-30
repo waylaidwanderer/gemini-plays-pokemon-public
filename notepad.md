@@ -47,5 +47,3 @@
 # V. Agent & Tool Development Status
 
 - **puzzle_strategist_agent (Defined):** An agent to analyze the current state of a puzzle and devise a high-level strategic solution. Status: Defined, requires field testing at the next puzzle opportunity.
-
-# VI. Victory Road Puzzles
