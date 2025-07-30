@@ -93,7 +93,4 @@
 
 # VII. Gameplay Reflections
 * **Puzzle Solving:** Must use a hypothesis-driven approach (Observe, Hypothesize, Test, Conclude) for puzzles instead of brute-force navigation. Document all attempts in the puzzle log.
-* **Tool Development:** 
-
-# Party Updates (Turn 16704)
-* Gambit (Togepi) grew to level 14 after defeating a wild Pidgey.
+* **Tool Development:**
