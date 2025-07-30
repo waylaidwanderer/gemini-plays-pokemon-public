@@ -33,7 +33,7 @@
 # III. Puzzle Mechanics & Problem Solving
 ## A. Current Puzzle Plan: Victory Road 2F
 - **Objective:** Clear the boulder barrier at (24, 15) to access the ladder at (26, 15).
-- **Hypothesis:** The western boulder puzzle on this floor is solvable and will clear the path.
+- **Hypothesis (Corrected):** The western boulder puzzle at (2, 17) clears the barrier at (8, 9) and (8, 10). The central boulder puzzle, pushing the boulder from (6, 6) to the switch at (10, 17), is required to clear the eastern barrier at (24, 15).
 
 ## B. Key Discoveries
 - **Victory Road 1F - Boulder/Steps Interaction (Confirmed):** Boulders cannot be pushed onto `steps` tiles.
