@@ -47,3 +47,14 @@
 # V. Future Development Ideas
 
 - **Puzzle Strategist Agent:** An agent to analyze the current state of a puzzle (e.g., boulder and switch locations) and devise a high-level strategic solution. This would separate the 'what to do' (agent's job) from the 'how to do it' (tool's job).
+
+# VI. Victory Road Puzzles
+## A. Victory Road 2F - Western Boulder Puzzle
+- **Goal:** Move boulder to switch at (2, 17) to clear barrier at (8, 9) & (8, 10).
+- **Initial State:** Boulder at (5, 15).
+- **Solution Steps (In Progress):**
+  1. Push boulder from (5, 15) -> (7, 15).
+  2. Push boulder from (7, 15) -> (7, 16).
+  3. Push boulder from (7, 16) -> (6, 16).
+  4. Push boulder from (6, 16) -> (5, 16).
+  5. Push boulder from (5, 16) -> (4, 16).
