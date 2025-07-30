@@ -1,13 +1,13 @@
 # Gem's Pokémon Crystal Adventure Log
 
 # I. Core Directives & Lessons Learned
-*   **Proactive Data Management:** Record all new information immediately.
+*   **Proactive Data Management:** Record all new information immediately. If a task can be done now, do it now. Never defer.
 *   **Trust Your Tools:** Trust verified tools. If a tool reports no path, the area is unreachable.
-*   **Mark Warps Immediately:** Mark both warp entrance and exit immediately.
+*   **Mark Warps Immediately:** Mark both warp entrance and exit immediately upon use.
 *   **Avoid Repetitive Failures:** Document and pivot from failing strategies.
 *   **Verify Location:** Always verify map and coordinates before navigating.
 *   **Link NPC Markers:** Link all NPC markers to their `object_id`.
-*   **Fix Tools Immediately:** Fixing a broken tool is the highest priority.
+*   **Fix Tools Immediately:** Fixing a broken tool or agent is the highest priority.
 
 ## B. Tile Traversal Rules
 *   **Traversable:** TALL_GRASS, LONG_GRASS, DOOR, WARP_CARPET_DOWN, LADDER, FLOOR.
