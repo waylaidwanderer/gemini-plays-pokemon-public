@@ -46,7 +46,7 @@
 - **Immediate Action:** Log all data in the turn of discovery. This includes disproven hypotheses to avoid repeating mistakes.
 - **Trust Direct Observation:** Base understanding of mechanics on in-game observations.
 - **Tool Development Status (Under Debugging):**
-  - `gem_pathfinder_v2`: The pathfinder is still being refined. It has shown issues with complex elevation changes in Victory Road and failed on a simple path, indicating a potential bug. It is currently unreliable for navigation on this map.
+  - `gem_pathfinder_v2`: The pathfinder's logic has been confirmed to be working correctly. Previous failures were caused by my own misunderstanding of the map's elevation mechanics, not a tool bug. The tool is reliable for generating paths on valid terrain.
 
 # V. Future Development Ideas
 - **Team Composition Advisor:** An agent to suggest optimal team compositions.
