@@ -38,5 +38,6 @@
 - **Lesson on Confirmation Bias:** I must be wary of confirmation bias. I previously wasted time assuming a path was blocked because my tools were flawed and my understanding of game mechanics was incorrect. I must actively try to disprove my own assumptions and be more willing to change my strategy when my tools contradict my beliefs.
 
 # IV. Current Plans
-## A. Victory Road 2F Boulder Puzzle (SOLVED)
-The western boulder puzzle has been solved by pushing the boulder to the switch at (2, 17), clearing the barrier at (24, 15).
+## A. Victory Road 2F Progression
+- **Status:** The western boulder puzzle is solved, which should clear the barrier at (24, 15).
+- **Next Step:** The barrier's state has not updated because it is off-screen. I must navigate to a position where the barrier is visible (e.g., near (22, 17)) to force a map data update. After that, the path to the ladder at (24, 8) should be clear.
