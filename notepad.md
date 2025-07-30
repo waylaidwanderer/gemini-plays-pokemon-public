@@ -58,3 +58,4 @@
   3. Push boulder from (7, 16) -> (6, 16).
   4. Push boulder from (6, 16) -> (5, 16).
   5. Push boulder from (5, 16) -> (4, 16).
+  6. Push boulder from (4, 16) -> (4, 17).
