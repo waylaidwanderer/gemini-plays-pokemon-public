@@ -1,15 +1,12 @@
 # Gem's Pokémon Crystal Adventure Log
 
 # I. Core Directives & Lessons Learned
-*   **Proactive Data Management:** Record all new information immediately. If a task can be done now, do it now. Never defer.
-*   **Trust Your Tools:** Trust verified tools. If a tool reports no path, the area is unreachable.
+*   **Trust Your Tools:** A verified tool's output (e.g., 'No path found') is a source of truth. Trust it over your own assumptions about map connectivity. Do not waste time trying to fix a tool that is already working correctly.
+*   **Systematic Debugging:** When a tool is genuinely broken, use a methodical, evidence-based approach. Use `run_code` with print statements to trace execution. Isolate variables and test simple cases before complex ones. Avoid blind, repetitive code changes.
+*   **Immediate Action:** Tool/agent maintenance is not a deferrable goal. It must be performed in the current turn. Deferring critical fixes leads to cascading failures.
+*   **Hypothesis-Driven Testing:** For all new mechanics (especially tile traversal), use the Observe, Hypothesize, Test, Conclude method. Document every step. Do not rely on assumptions.
+*   **Goal Flexibility:** If a primary goal is proven impossible by a trusted tool, pivot immediately. Do not get stuck on an invalid objective.
 *   **Mark Warps Immediately:** Mark both warp entrance and exit immediately upon use.
-*   **Avoid Repetitive Failures:** Document and pivot from failing strategies.
-*   **Verify Location:** Always verify map and coordinates before navigating.
-*   **Link NPC Markers:** Link all NPC markers to their `object_id`.
-*   **Fix Tools Immediately:** Fixing a broken tool or agent is the highest priority.
-*   **Apply Learned Lessons:** Consistently review and apply documented strategies, especially for navigation, to avoid repeating mistakes.
-*   **Utilize Created Tools:** Actively use custom agents and tools once they have been created for their intended purpose.
 
 ## B. Tile Traversal Rules
 *   **Traversable:** TALL_GRASS, LONG_GRASS, DOOR, WARP_CARPET_DOWN, LADDER, FLOOR.
