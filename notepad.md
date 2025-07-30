@@ -31,8 +31,16 @@
 - **Correction:** Psychic-type moves deal NEUTRAL (1x) damage to Rock-type Pokémon.
 
 # III. Puzzle Mechanics & Problem Solving
-## A. Current Puzzle Plan
-- *[Plan for current puzzle will go here]*
+## A. Current Puzzle Plan: Victory Road 2F
+- **Objective:** Clear the boulder barrier at (24, 15) to access the ladder at (26, 15).
+- **Hypothesis (Attempt 1):** The barrier is linked to the boulder switch at (10, 17). Pushing the boulder from (6, 6) onto this switch will clear the barrier.
+- **Execution Plan:**
+  1. Navigate to (6, 5) to get above the boulder.
+  2. Push boulder from (6, 6) down to (6, 7).
+  3. Navigate to (5, 7) to get left of the boulder.
+  4. Push boulder from (6, 7) right until it reaches (10, 7).
+  5. Navigate above the boulder at (10, 6).
+  6. Push boulder from (10, 7) down until it reaches the switch at (10, 17).
 
 ## B. Key Discoveries
 - **Victory Road 1F - Boulder/Steps Interaction (Confirmed):** Boulders cannot be pushed onto `steps` tiles.
@@ -44,7 +52,7 @@
 - **Tool Idea:** `get_boulder_moves`. A helper tool that identifies all possible moves for all boulders on the current map.
 
 ## B. Tool Status & Lessons
-- `gem_pathfinder_v2` (Bug Confirmed): The tool is generating invalid paths that attempt to move through `impassable` tiles. My previous conclusion that the tool was working was incorrect. The tool cannot be trusted for navigation until this is fixed. Manual navigation is required.
+- `gem_pathfinder_v2` (Correction): My previous assessment that the tool was buggy was incorrect. The tool correctly identified an unreachable destination that I had misjudged. The tool's output should be trusted as it is based on the ground-truth map data. Manual navigation should only be used for short distances or when a puzzle requires it.
 
 # V. Debugging Methodology
 - **Principle:** Avoid confirmation bias. When a tool fails, do not assume it's a bug.
