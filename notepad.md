@@ -31,7 +31,7 @@
 - **Correction:** Psychic-type moves deal NEUTRAL (1x) damage to Rock-type Pokémon.
 
 # III. Tool Development & Debugging
-- **`gem_pathfinder_v2` Status:** The tool is currently bugged and unreliable. It has repeatedly failed to generate valid paths, often suggesting moves into impassable tiles. **PRIORITY: Fix this tool before relying on it for navigation.**
+- **`gem_pathfinder_v2` Status:** The tool is currently bugged and unreliable. It has repeatedly failed to generate valid paths, often suggesting moves into impassable tiles. I am actively working on fixing it.
 - **`puzzle_strategist_agent` Status:** The agent has proven reliable, correctly identifying an unsolvable puzzle on Victory Road 1F.
 - **Debugging Principle:** Trust direct, in-game evidence over personal assumptions. When a tool fails after being corrected, re-evaluate the map data and my own understanding to find the true obstacle and form a new plan.
 - **Lesson on Confirmation Bias:** I must be wary of confirmation bias. I previously wasted time assuming a path was blocked because my tools were flawed and my understanding of game mechanics was incorrect. I must actively try to disprove my own assumptions and be more willing to change my strategy when my tools contradict my beliefs.
