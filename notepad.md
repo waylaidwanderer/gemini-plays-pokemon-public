@@ -32,8 +32,6 @@
 *   **CUT_28_GARBAGE (Untested):** A variant of a cuttable tree.
 *   **RADIO (Untested):** A radio, likely impassable.
 *   **INCENSE_BURNER (Untested):** An incense burner, likely impassable.
-*   **VOID (Verified):** Impassable. Appears to be a visual boundary marker.
-*   **WARP_CARPET_LEFT (Verified):** Can be activated by pressing the directional button of the warp while standing on the tile, regardless of facing direction.
 
 # II. Battle Information
 
@@ -89,10 +87,8 @@
 * **Puzzle Solving:** Must use a hypothesis-driven approach (Observe, Hypothesize, Test, Conclude) for puzzles instead of brute-force navigation. Document all attempts in the puzzle log.
 
 # VIII. New Hypotheses & Mechanics (Post-Reflection)
-*   **Tile Mechanic (VOID):** Added to impassable list. Appears to be a visual boundary marker.
 *   **Cut Quest Hypothesis:** If the Farfetch'd puzzle fails to yield HM01, the alternative hypothesis is that the Ilex Forest Shrine at (8, 22) is involved. The next step would be to investigate the shrine.
 
 # XI. Core Principles (Post-Reflection Updates)
 *   **Goal Flexibility:** If progress on a primary goal stalls for a significant period (e.g., 50+ turns) despite trying multiple documented hypotheses, I MUST pivot to a different primary or secondary goal. Do not remain stuck on a single objective indefinitely.
 *   **Proactive Tile Testing:** Upon encountering any new, undocumented tile type, I MUST immediately form a hypothesis about its traversability and conduct a simple test (e.g., trying to walk on it from all four directions). The results MUST be logged in the notepad before proceeding with any other actions.
-*   **WARP_CARPET_LEFT / WARP_CARPET_RIGHT (Verified):** Can be activated by pressing the directional button of the warp (Left/Right) while standing on the tile, regardless of facing direction.
