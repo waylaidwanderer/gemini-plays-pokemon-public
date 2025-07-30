@@ -7,6 +7,7 @@
 - **Surfing:** Not all `ground` tiles adjacent to `water` are valid starting points.
 - **Puzzle Resets:** Leaving and re-entering a floor resets all boulders to their original positions.
 - **Data Trust:** The map XML data is the ultimate source of truth for traversal.
+- **Defeated Trainers:** Once defeated, trainers become impassable objects. They function as walls and must be navigated around.
 ## B. Tile Glossary & Movement Rules
 - `ground`: Standard walkable tile.
 - `grass`: Wild Pokémon encounters.
@@ -31,8 +32,7 @@
 - **Correction:** Psychic-type moves deal NEUTRAL (1x) damage to Rock-type Pokémon.
 
 # III. Tool Development & Debugging
-- **`gem_pathfinder_v2` Status:** The tool has been fixed. The elevation logic was overhauled by reverting to an explicit `valid_transitions` set, and it now correctly generates paths on multi-level maps like Victory Road.
-- **`puzzle_strategist_agent` Status:** The agent has proven reliable, correctly identifying an unsolvable puzzle on Victory Road 1F.
+- **`gem_pathfinder_v2` Status:** The tool is working correctly. It properly identifies impassable defeated trainers. Previous 'failures' were due to my own incorrect assumptions about game mechanics.
+- **`puzzle_strategist_agent` Status:** The agent has proven reliable, correctly identifying an unsolvable puzzle on Victory Road 1F. It has been updated to provide step-by-step solutions for solvable puzzles.
 - **Debugging Principle:** Trust direct, in-game evidence over personal assumptions. When a tool fails after being corrected, re-evaluate the map data and my own understanding to find the true obstacle and form a new plan.
 - **Lesson on Confirmation Bias:** I must be wary of confirmation bias. I previously wasted time assuming a path was blocked because my tools were flawed and my understanding of game mechanics was incorrect. I must actively try to disprove my own assumptions and be more willing to change my strategy when my tools contradict my beliefs.
-- **Defeated Trainers:** Once defeated, trainers become impassable objects. They function as walls and must be navigated around.
