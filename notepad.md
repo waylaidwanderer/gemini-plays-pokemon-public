@@ -1,11 +1,12 @@
 # Gem's Pokémon Crystal Adventure Log
 
-# I. Core Directives & Lessons Learned (Post-Critique Update)
+# I. Core Principles & Lessons Learned
 *   **Trust Your Tools:** A verified tool's output (e.g., 'No path found') is a source of truth. Trust it over your own assumptions about map connectivity.
-*   **Systematic Debugging:** When a tool is broken, use a methodical, evidence-based approach. Use `run_code` with print statements to trace execution. Isolate variables and test simple cases before complex ones. Avoid blind, repetitive code changes.
+*   **Systematic Debugging:** When a tool is broken, use a methodical, evidence-based approach. Use `run_code` with print statements to trace execution. Isolate variables and test simple cases before complex ones.
 *   **Immediate Action:** Tool/agent maintenance is not a deferrable goal. It must be performed in the current turn.
-*   **Hypothesis-Driven Testing:** For all new mechanics, use the Observe, Hypothesize, Test, Conclude method. Document every step.
-*   **Goal Flexibility:** If a primary goal is proven impossible by a trusted tool, pivot immediately.
+*   **Hypothesis-Driven Testing:** For all new mechanics, use the Observe, Hypothesize, Test, Conclude method. Document every step in the relevant log.
+*   **Goal Flexibility:** If progress on a primary goal stalls for a significant period (e.g., 50+ turns) despite trying multiple documented hypotheses, I MUST pivot to a different primary or secondary goal. Do not remain stuck on a single objective indefinitely.
+*   **Proactive Tile Testing:** Upon encountering any new, undocumented tile type, I MUST immediately form a hypothesis about its traversability and conduct a simple test (e.g., trying to walk on it from all four directions). The results MUST be logged in the notepad before proceeding.
 *   **Mark Warps Immediately:** Mark both warp entrance and exit immediately upon use.
 
 ## B. Tile Traversal Rules
