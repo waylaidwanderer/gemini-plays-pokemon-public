@@ -41,3 +41,24 @@
 ## A. Victory Road 2F Progression
 - **Status:** The western boulder puzzle is solved, which should clear the barrier at (24, 15).
 - **Next Step:** The barrier's state has not updated because it is off-screen. I must navigate to a position where the barrier is visible (e.g., near (22, 17)) to force a map data update. After that, the path to the ladder at (24, 8) should be clear.
+## B. Victory Road 2F Eastern Boulder Puzzle
+My `puzzle_strategist_agent` has provided a 19-step solution to move the boulder at (6, 6) to the switch at (10, 17), which will clear the barrier at (24, 15).
+1. **Push boulder at (6, 6) DOWN**
+2. **Push boulder at (6, 7) DOWN**
+3. **Push boulder at (6, 8) RIGHT**
+4. **Push boulder at (7, 8) RIGHT**
+5. **Push boulder at (8, 8) DOWN**
+6. **Push boulder at (8, 9) RIGHT**
+7. **Push boulder at (9, 9) DOWN**
+8. **Push boulder at (9, 10) RIGHT**
+9. **Push boulder at (10, 10) RIGHT**
+10. **Push boulder at (11, 10) RIGHT**
+11. **Push boulder at (12, 10) DOWN**
+12. **Push boulder at (12, 11) DOWN**
+13. **Push boulder at (12, 12) DOWN**
+14. **Push boulder at (12, 13) DOWN**
+15. **Push boulder at (12, 14) DOWN**
+16. **Push boulder at (12, 15) DOWN**
+17. **Push boulder at (12, 16) DOWN**
+18. **Push boulder at (12, 17) LEFT**
+19. **Push boulder at (11, 17) LEFT**
