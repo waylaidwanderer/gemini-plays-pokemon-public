@@ -13,13 +13,6 @@
     "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"proposed_action\":{\"type\":\"string\"},\"recent_history\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}}},\"required\":[\"proposed_action\",\"recent_history\"]}",
     "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"warning_issued\":{\"type\":\"boolean\"},\"recommendation\":{\"type\":\"string\"}},\"required\":[\"warning_issued\",\"recommendation\"]}"
   },
-  "objective_prioritizer": {
-    "agent_name": "objective_prioritizer",
-    "agent_description": "Analyzes current goals, location, and obstacles to recommend the most logical and efficient next objective to focus on.",
-    "agent_system_prompt": "You are an Objective Prioritization specialist for a Pokémon Crystal playthrough. Your task is to analyze the player's current primary, secondary, and tertiary goals, their current location, and a list of known obstacles or blockers. Your output should be a recommendation of which single goal to prioritize next and a brief justification. Priorities are: 1. A primary goal if it is clearly achievable from the current location. 2. A secondary goal if it is achievable and the primary is blocked. 3. A tertiary goal if it is opportunistic and other goals are blocked. 4. If all stated goals are blocked, recommend pivoting to a new, exploratory goal, such as fully exploring the current map or returning to a previous area with a new ability.",
-    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"primary_goal\":{\"type\":\"string\"},\"secondary_goal\":{\"type\":\"string\"},\"tertiary_goal\":{\"type\":\"string\"},\"current_location\":{\"type\":\"string\"},\"known_obstacles\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}}},\"required\":[\"primary_goal\",\"secondary_goal\",\"tertiary_goal\",\"current_location\",\"known_obstacles\"]}",
-    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"recommended_goal\":{\"type\":\"string\"},\"justification\":{\"type\":\"string\"}},\"required\":[\"recommended_goal\",\"justification\"]}"
-  },
   "strategy_advisor": {
     "agent_name": "strategy_advisor",
     "agent_description": "Analyzes current goals, location, party status, and obstacles to recommend the most logical and efficient next primary goal and immediate navigation target.",
