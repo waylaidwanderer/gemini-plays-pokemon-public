@@ -67,10 +67,6 @@
     *   **Alternative Hypothesis:** HM01 Cut might be obtained from another NPC in Azalea Town or a different location entirely, and the Farfetch'd puzzle is an optional side quest.
     *   **Test:** If the puzzle remains unsolvable, I will re-interview all NPCs in Azalea Town.
 
-## C. Untested Assumptions & Alternative Hypotheses (as of Turn 16601)
-*   **Kurt's Reward:** My current assumption is that Kurt will give me HM01 Cut. The alternative is that he gives me a special Poké Ball or nothing useful, and the HM is obtained elsewhere (e.g., from the Charcoal Man's apprentice after a missed trigger).
-*   **Route to Goldenrod:** My current assumption is that Ilex Forest is the only path. The alternative is that another route exists (e.g., through Union Cave) or the strange tree on Route 36 is removable by a different method.
-
 # XIV. Battle Mechanics (Newly Observed)
 *   **Wrap:** Traps the target for several turns, preventing them from switching or fleeing.
 
