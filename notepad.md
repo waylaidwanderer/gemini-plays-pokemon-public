@@ -1,13 +1,14 @@
 # Gem's Pokémon Crystal Adventure Log
 
 # I. Core Principles & Lessons Learned
-*   **Trust Your Tools:** A verified tool's output (e.g., `path_finder` reporting 'No path found' or `reachability_analyzer` confirming a dead end) is a source of truth. Trust it over your own assumptions about map connectivity.
-*   **Systematic Debugging:** When a tool is broken, use a methodical, evidence-based approach. Use `run_code` with print statements to trace execution. Isolate variables and test simple cases before complex ones.
+*   **Trust Your Tools:** A verified tool's output (e.g., `path_finder`, `reachability_analyzer`) is a source of truth. Trust it over assumptions.
+*   **Systematic Debugging:** Use a methodical, evidence-based approach for broken tools. Use `run_code` with print statements to trace execution. Isolate variables and test simple cases first.
 *   **Immediate Action:** Tool/agent maintenance is not a deferrable goal. It must be performed in the current turn.
-*   **Hypothesis-Driven Testing:** For all new mechanics, use the Observe, Hypothesize, Test, Conclude method. Document every step in the relevant log.
-*   **Goal Flexibility:** If progress on a primary goal stalls for a significant period (e.g., 50+ turns) despite trying multiple documented hypotheses, I MUST pivot to a different primary or secondary goal. Do not remain stuck on a single objective indefinitely.
-*   **Proactive Tile Testing:** Upon encountering any new, undocumented tile type, I MUST immediately form a hypothesis about its traversability and conduct a simple test (e.g., trying to walk on it from all four directions). The results MUST be logged in the notepad before proceeding.
+*   **Hypothesis-Driven Testing:** For all new mechanics, use the Observe, Hypothesize, Test, Conclude method. Document every step.
+*   **Goal Flexibility:** If progress on a primary goal stalls for a significant period (e.g., 50+ turns), pivot to a different goal. Do not remain stuck.
+*   **Proactive Tile Testing:** Upon encountering any new, undocumented tile type, I MUST immediately form a hypothesis, test it, and log the results before proceeding.
 *   **Mark Warps Immediately:** Mark both warp entrance and exit immediately upon use.
+*   **Tool Correctness over Intuition:** A 'No path found' result is data, not a bug. Trust the tool's conclusion that a path is impassable.
 
 # II. Tile Traversal Rules
 *   **Traversable:** TALL_GRASS, LONG_GRASS, DOOR, WARP_CARPET_DOWN, LADDER, FLOOR.
