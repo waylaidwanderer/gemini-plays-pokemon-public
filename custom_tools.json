@@ -385,6 +385,16 @@
         "commit_message": "debug(pathfinder): Re-add extensive logging to all core functions. The tool generated a path through an 'impassable' tile, confirming a critical bug in its obstacle detection or neighbor selection logic. This commit re-adds detailed print statements to `is_obstacle`, `get_neighbors`, and the main A* loop to capture a full execution trace. This data is essential for diagnosing why the tool is failing to respect map boundaries.",
         "timestamp": "2025-07-30T12:42:33.109Z",
         "action_counter": 111151
+      },
+      {
+        "commit_message": "fix(pathfinder): Temporarily ignore trainers as obstacles. The pathfinder is failing on a known valid path, suggesting my assumption that defeated trainers are impassable is incorrect. This commit comments out the `has_object` check in the `is_obstacle` function as a direct test of this hypothesis. If a path is found, this confirms the assumption was wrong and a more refined fix is needed.",
+        "timestamp": "2025-07-30T14:27:49.648Z",
+        "action_counter": 111246
+      },
+      {
+        "commit_message": "debug(pathfinder): Restore object detection and re-add extensive logging. The hypothesis that defeated trainers are passable has been disproven, as the pathfinder still failed to find a path even when ignoring them. This indicates a more fundamental bug in the traversal logic. This commit restores the original object detection and re-adds detailed print statements to the core logic functions (`is_obstacle`, `get_neighbors`, and the main `while` loop) to gather fresh data for a new diagnostic cycle.",
+        "timestamp": "2025-07-30T14:30:31.956Z",
+        "action_counter": 111249
       }
     ]
   },
