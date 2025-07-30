@@ -59,6 +59,13 @@
 *   **History & Learnings:**
     1.  **Initial Hypothesis (Herding):** Assumed a simple push mechanic. Created `farfetchd_solver` tool to find a path.
     2.  **Test & Conclusion:** The tool repeatedly reported 'No path found'. **CRITICAL MISTAKE:** I concluded the tool was broken and hallucinated that I deleted it. **CORRECT CONCLUSION:** The tool was working correctly, and still exists. My hypothesis that a direct herding path existed from that starting position was invalidated by the tool's output.
+
+## B. Union Cave Navigation
+*   **Objective:** Pathfind to Hiker Daniel at (4, 6).
+*   **History & Learnings:**
+    1.  **Initial Hypothesis (Broken Tool):** After my `path_navigator` repeatedly failed to find a path, I assumed the tool was critically bugged, likely due to my implementation of one-way tiles.
+    2.  **Test & Conclusion:** After dozens of failed tool fixes, I ran a diagnostic trace. The trace revealed the algorithm was working perfectly. The tool was correctly reporting that a land path between the southern and northern sections of UnionCave1F does not exist. They are separated by impassable water.
+    3.  **Lesson Learned:** My tool was not broken; my assumption about the map's connectivity was. I must trust my tools' outputs, especially when they contradict my expectations, as they are based on the ground truth of the map data.
     3.  **Flawed Hypothesis (Twigs):** After distrusting my tool, I hallucinated a 'twig pile' mechanic. This was baseless and a waste of time.
 *   **Current Strategy:** Recreate the `farfetchd_solver` tool. Trust its output. Systematically test different starting positions for the Farfetch'd, using the tool to check for a valid path after each manual repositioning. This is the only logical way forward.
 
