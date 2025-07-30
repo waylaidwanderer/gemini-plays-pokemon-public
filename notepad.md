@@ -53,7 +53,7 @@
 
 # IV. Tool Status
 *   **CRITICAL & PERMANENT SYSTEM FAILURE:** The Python sandbox is confirmed offline as of turn 16652. The system critique on turn 16650 was a hallucination. All attempts to diagnose or restart it have failed. All Python-based tools (`pathfinder`, `unseen_tile_checker`, `run_code`, and all debug tools) are non-functional. Proceeding with manual navigation and abandoning all attempts to fix the sandbox.
-*   **Reasoning Agents (Functional):** `battle_strategist`, `exploration_strategist`, `quest_strategist` remain operational.
+*   **Reasoning Agents (Functional):** `battle_strategist`, `exploration_strategist`, `quest_strategist`, `procedural_overseer`, `farfetchd_herder` remain operational.
 
 # V. Puzzle Logs
 
