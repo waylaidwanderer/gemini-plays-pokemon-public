@@ -45,8 +45,7 @@
 - **Efficient Debugging:** Vary test conditions to gather new diagnostic data.
 - **Immediate Action:** Log all data in the turn of discovery. This includes disproven hypotheses to avoid repeating mistakes.
 - **Trust Direct Observation:** Base understanding of mechanics on in-game observations.
-- **Tool Development Status (Under Debugging):**
-  - `gem_pathfinder_v2`: The pathfinder's logic has been confirmed to be working correctly. Previous failures were caused by my own misunderstanding of the map's elevation mechanics, not a tool bug. The tool is reliable for generating paths on valid terrain.
+- **Tool Development Status (Reliable):** `gem_pathfinder_v2`: The pathfinder's logic has been confirmed to be working correctly. Previous failures were caused by my own misunderstanding of the map's elevation mechanics, not a tool bug. The tool is reliable for generating paths on valid terrain.
 
 # V. Future Development Ideas
 - **Team Composition Advisor:** An agent to suggest optimal team compositions.
@@ -55,5 +54,4 @@
 - **Puzzle Executor Tool:** A tool that takes a puzzle solution and generates the precise sequence of button presses to execute the plan. This is a deterministic task better suited for a tool than an agent.
 - **Boulder Puzzle Solver Tool:** A computational tool that uses a search algorithm (like A*) to find a valid sequence of player and boulder moves to solve boulder puzzles. This is the correct replacement for the now-deleted `puzzle_strategist_agent`.
 - **Flee Agent:** An agent to automatically run from non-essential wild battles to improve navigation efficiency.
-- **Pathfinder Error Messages:** Refine `gem_pathfinder_v2` to provide more specific error messages on failure (e.g., 'Path failed due to illegal move between elevations'). This would make it a valuable diagnostic tool.
 - **Pathfinder Error Messages:** Refine `gem_pathfinder_v2` to provide more specific error messages on failure (e.g., 'Path failed due to illegal move between elevations'). This would make it a valuable diagnostic tool.
