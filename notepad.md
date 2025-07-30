@@ -30,7 +30,7 @@
 - **Immune (0x):** Flying immune to Ground; Ground immune to Electric; Ghost immune to Normal, Fighting
 - **Correction:** Psychic-type moves deal NEUTRAL (1x) damage to Rock-type Pokémon.
 ## B. Trainer Battle Rules
-- **Defeated Trainers:** Are **IMPASSABLE** obstacles. They do not respawn and block movement.
+- **Defeated Trainers:** Are **IMPASSABLE** obstacles. They do not respawn and block movement. (Hypothesis: This might be incorrect, testing now).
 
 # III. Puzzle Mechanics & Problem Solving
 ## A. Methodology
@@ -39,11 +39,7 @@
 - **Victory Road 1F - Boulder/Steps Interaction (Confirmed):** Boulders cannot be pushed onto `steps` tiles.
 - **Victory Road 1F - Elevation Rule (Confirmed):** Movement between `ground` and `elevated_ground` is ONLY possible by traversing a `steps` tile.
 
-# IV. Archived Lessons & Tool Development
+# IV. Agent & Tool Development
 - **Systematic Problem-Solving:** Trust game data over intuition. Add debug logging to tools as a first step, not a last resort.
 - **Immediate Action:** Log all data and fix all tools in the turn of discovery. This includes disproven hypotheses to avoid repeating mistakes.
 - **Tool Development Status (Functional):** `gem_pathfinder_v2`: The pathfinder's core logic is now considered reliable. Past failures were primarily due to user error, specifically not using the `ignorable_coords` parameter to tell the tool to path around movable obstacles during puzzle-solving.
-
-# V. Agent & Tool Development Status
-
-# V. Agent & Tool Development Status
