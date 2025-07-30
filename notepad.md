@@ -42,4 +42,4 @@
 # IV. Agent & Tool Development
 - **Systematic Problem-Solving:** Trust game data over intuition. Add debug logging to tools as a first step, not a last resort.
 - **Immediate Action:** Log all data and fix all tools in the turn of discovery. This includes disproven hypotheses to avoid repeating mistakes.
-- **Tool Development Status:** `gem_pathfinder_v2`: The pathfinder's core logic is now considered reliable. Past failures were primarily due to user error (attempting to path to unreachable locations) or flawed assumptions about game mechanics (e.g., trainer impassability).
+- **Tool Development Status:** `gem_pathfinder_v2`: The pathfinder's core logic is failing for unknown reasons, possibly due to a flawed assumption about game mechanics (e.g., trainer impassability). Currently testing this hypothesis.
