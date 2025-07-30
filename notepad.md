@@ -53,10 +53,6 @@
     *   WADE (Route 31): Will share BERRIES.
     *   Hiker Anthony (Phone): Tons of DUNSPARCE in DARK CAVE.
 
-# IV. Tool Status & Diagnostics
-*   **Python Sandbox:** The Python execution environment is currently unresponsive. The cause is under investigation using diagnostic tools. Previous conclusion of permanent failure was premature. All Python-based tools are considered non-functional until the issue is resolved.
-*   **Reasoning Agents (Functional):** `battle_strategist`, `exploration_strategist`, `quest_strategist`, `procedural_overseer`, `farfetchd_herder` remain operational.
-
 # V. Puzzle Logs
 
 ## A. Ilex Forest Farfetch'd Puzzle
