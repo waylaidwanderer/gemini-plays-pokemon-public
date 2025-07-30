@@ -28,17 +28,17 @@
     *   **COUNTER:** Interact with NPCs behind it by standing in front of the counter.
     *   **WATER:** Can be fished in with a rod.
 
-# II. Battle Information
-
+# III. Battle Information
 ## A. Verified Type Matchups
 *   Ghost has NO EFFECT on Normal.
 *   Normal has NO EFFECT on Ghost.
-*   Unown's Hidden Power (type unknown) can be super-effective against Fire.
-
+*   Unown's Hidden Power can be super-effective against Fire.
 ## B. Trainer Rosters
 *   **Falkner (Violet City):** Pidgey (Lv7), Pidgeotto (Lv9).
 *   **Bugsy (Azalea Town):** Metapod (Lv14), Kakuna (Lv14), Scyther (Lv16).
-*   **Fisher Justin (Route 32):** Magikarp (Lv5), Magikarp (Lv5), Magikarp (Lv15), Magikarp (Lv5).
+*   **Fisher Justin (Route 32):** Magikarp x4.
+## C. Battle Mechanics
+*   **Wrap:** Traps the target for several turns, preventing them from switching or fleeing.
 
 # III. Story & Quests
 *   **Current Quest:** Solve the Ruins of Alph puzzles.
