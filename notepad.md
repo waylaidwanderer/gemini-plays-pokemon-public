@@ -40,4 +40,4 @@
 # IV. Agent & Tool Development
 - **Systematic Problem-Solving:** Trust game data over intuition. Add debug logging to tools as a first step, not a last resort.
 - **Immediate Action:** Log all data and fix all tools in the turn of discovery. This includes disproven hypotheses to avoid repeating mistakes.
-- **Tool Development Status:** `gem_pathfinder_v2`: My hypothesis that defeated trainers are impassable might be wrong. The tool is repeatedly failing on a known valid path. I am modifying the tool to ignore trainers to test this. If it still fails, the tool has a more fundamental bug in its traversal logic.
+- **Tool Development Status:** `gem_pathfinder_v2`: The hypothesis that defeated trainers are passable was tested by ignoring all objects. The pathfinder still failed, disproving the hypothesis. The tool has a more fundamental bug in its traversal logic. Restoring object detection and re-adding debug logs to diagnose.
