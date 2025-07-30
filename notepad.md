@@ -46,6 +46,4 @@
 
 # V. Future Development Ideas
 
-- **Flee Agent:** An agent to automatically run from non-essential wild battles to improve navigation efficiency.
-- **Pathfinder Error Messages:** Refine `gem_pathfinder_v2` to provide more specific error messages on failure (e.g., 'Path failed due to illegal move between elevations'). This would make it a valuable diagnostic tool.
 - **Puzzle Strategist Agent:** An agent to analyze the current state of a puzzle (e.g., boulder and switch locations) and devise a high-level strategic solution. This would separate the 'what to do' (agent's job) from the 'how to do it' (tool's job).
