@@ -30,30 +30,20 @@
 - **Immune (0x):** Flying immune to Ground; Ground immune to Electric; Ghost immune to Normal, Fighting
 - **Correction:** Psychic-type moves deal NEUTRAL (1x) damage to Rock-type Pokémon.
 
-# III. Puzzle Mechanics & Problem Solving
-## A. Current Strategic Plan: Victory Road
+# III. Current Strategy: Victory Road
 - **Objective:** Exit Victory Road to heal at the Indigo Plateau.
-- **Reasoning:** The party is critically injured, and the high encounter rate on 2F makes puzzle-solving inefficient and risky. A strategic retreat is necessary.
+- **Reasoning:** The party is critically injured, and the high encounter rate makes puzzle-solving inefficient and risky. A strategic retreat is necessary.
 - **Plan:**
-  1. Ascend to Victory Road 3F via the ladder at (24, 8).
-  2. Find the exit from Victory Road 3F to Route 23.
-  3. Navigate to the Indigo Plateau and heal the party.
-  4. Return to Victory Road to solve the remaining puzzles.
+  1. Navigate to the exit on Victory Road 1F at (9, 18).
+  2. Navigate to the Indigo Plateau and heal the party.
+  3. Return to Victory Road to solve the remaining puzzles.
+- **Key Discoveries:**
+  - Boulders cannot be pushed onto `steps` tiles.
+  - Movement between `ground` and `elevated_ground` is ONLY possible by traversing a `steps` tile.
+  - The eastern boulder puzzle on 1F is unsolvable in its initial state, making it a dead end for progress.
+  - Defeated trainers are impassable obstacles.
 
-## B. Key Discoveries
-- **Victory Road 1F - Boulder/Steps Interaction (Confirmed):** Boulders cannot be pushed onto `steps` tiles.
-- **Victory Road 1F - Elevation Rule (Confirmed):** Movement between `ground` and `elevated_ground` is ONLY possible by traversing a `steps` tile.
-- **Victory Road 1F - Eastern Puzzle (Confirmed Unsolvable):** The eastern boulder puzzle is unsolvable in its current state, making the eastern section a dead end for progress.
-- **Victory Road 2F - Defeated Trainers (Confirmed):** Defeated trainers are impassable obstacles.
-
-# IV. Agent & Tool Development
-## A. Tool Status & Lessons
-- `gem_pathfinder_v2` (Confirmed): The tool is working correctly. My manual pathing has been repeatedly flawed, leading me to incorrectly assume the tool was bugged. The tool's assessment of path availability is based on the ground-truth map XML and MUST be trusted over manual pathing attempts.
-
-# V. Debugging Methodology
-- **Principle:** Trust the tool. When `gem_pathfinder_v2` fails, do not immediately assume it's a bug.
-- **Process:**
-  1. If `gem_pathfinder_v2` returns 'No path found', trust its assessment.
-  2. My understanding of the map is likely wrong. I must re-evaluate the map data (especially tile types like `steps` and `elevated_ground`) to find the true obstacle and form a new navigation plan.
-  3. Only if a path is manually verified to be 100% valid according to established traversal rules should a tool bug be considered. In that case, add logging to diagnose the issue.
+# IV. Tool Development & Debugging
+- **`gem_pathfinder_v2` Status:** The tool is working correctly. My manual pathing has been repeatedly flawed, leading me to incorrectly assume the tool was bugged. The tool's assessment of path availability is based on the ground-truth map XML and MUST be trusted over manual pathing attempts.
+- **Debugging Principle:** Trust the tool. When `gem_pathfinder_v2` fails, do not immediately assume it's a bug. My understanding of the map is likely wrong. I must re-evaluate the map data (especially tile types like `steps` and `elevated_ground`) to find the true obstacle and form a new navigation plan.
 - **Lesson on Confirmation Bias:** I must be wary of confirmation bias. I previously wasted time on the Victory Road 1F eastern puzzle because I *assumed* it was the correct path, ignoring evidence from my tools that it was blocked. I must actively try to disprove my own assumptions and be more willing to change my strategy when my tools contradict my beliefs.
