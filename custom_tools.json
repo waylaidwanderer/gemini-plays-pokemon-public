@@ -30,71 +30,6 @@
       }
     ]
   },
-  "pathfinder": {
-    "description": "A pathfinding tool that uses A* to find the shortest path from the player's current position to a target coordinate on the current map. It accounts for all impassable tile types and one-way ledges based on documented notepad rules.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "target_x": {
-          "type": "string"
-        },
-        "target_y": {
-          "type": "string"
-        }
-      },
-      "required": [
-        "target_x",
-        "target_y"
-      ]
-    },
-    "python_script": "import heapq\nimport xml.etree.ElementTree as ET\n\ndef pathfinder(input_data):\n    target_x = int(input_data['target_x'])\n    target_y = int(input_data['target_y'])\n\n    try:\n        root = ET.fromstring(map_xml_string)\n    except ET.ParseError as e:\n        print(f\"Error parsing map XML: {e}\")\n        return\n\n    player_pos = None\n    for row in root.findall('Row'):\n        for tile in row.findall('Tile'):\n            if tile.find('Player') is not None:\n                player_coord = tile.get('coordinate')\n                player_pos = tuple(map(int, player_coord.strip('()').split(', ')))\n                break\n        if player_pos:\n            break\n\n    if not player_pos:\n        print(\"Player position not found on the map.\")\n        return\n\n    start_node = player_pos\n    goal_node = (target_x, target_y)\n\n    impassable_types = ['WALL', 'WINDOW', 'CUT_TREE', 'SIGN', 'BOOKSHELF', 'BLACKBOARD', 'MART_SHELF', 'BUOY', 'TV', 'TOWN_MAP', 'BIRD', 'HEADBUTT_TREE', 'FRUIT_TREE', 'COMPUTER', 'PRINTER', 'VOID', 'WATER', 'CAVE', 'COUNTER']\n    one_way_down = ['LEDGE_HOP_DOWN']\n    one_way_right = ['LEDGE_HOP_RIGHT']\n    one_way_left = ['LEDGE_HOP_LEFT']\n    one_way_up = ['FLOOR_UP_WALL']\n\n    grid = {}\n    for row in root.findall('Row'):\n        for tile in row.findall('Tile'):\n            coord_str = tile.get('coordinate')\n            coords = tuple(map(int, coord_str.strip('()').split(', ')))\n            tile_type = tile.get('type')\n            has_object = tile.find('Object') is not None\n            grid[coords] = {'type': tile_type, 'has_object': has_object}\n\n    def heuristic(a, b):\n        return abs(a[0] - b[0]) + abs(a[1] - b[1])\n\n    open_set = []\n    heapq.heappush(open_set, (0, start_node))\n    came_from = {}\n    g_score = {start_node: 0}\n    f_score = {start_node: heuristic(start_node, goal_node)}\n\n    while open_set:\n        _, current = heapq.heappop(open_set)\n\n        if current == goal_node:\n            path = []\n            while current in came_from:\n                path.append(current)\n                current = came_from[current]\n            path.append(start_node)\n            path.reverse()\n            \n            moves = []\n            for i in range(len(path) - 1):\n                x1, y1 = path[i]\n                x2, y2 = path[i+1]\n                if x2 > x1: moves.append('Right')\n                elif x2 < x1: moves.append('Left')\n                elif y2 > y1: moves.append('Down')\n                elif y2 < y1: moves.append('Up')\n            print(','.join(moves))\n            return\n\n        for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n            neighbor = (current[0] + dx, current[1] + dy)\n\n            if neighbor not in grid:\n                continue\n\n            neighbor_tile = grid[neighbor]\n            current_tile = grid[current]\n\n            if neighbor_tile['type'] in impassable_types or neighbor_tile['has_object']:\n                continue\n            \n            # One-way checks\n            if current_tile['type'] in one_way_down and dy != 1: continue # Can only move down from this tile\n            if current_tile['type'] in one_way_right and dx != 1: continue # Can only move right from this tile\n            if current_tile['type'] in one_way_left and dx != -1: continue # Can only move left from this tile\n\n            if neighbor_tile['type'] in one_way_down and dy != 1: continue # Can only move down onto this tile\n            if neighbor_tile['type'] in one_way_right and dx != 1: continue # Can only move right onto this tile\n            if neighbor_tile['type'] in one_way_left and dx != -1: continue # Can only move left onto this tile\n            if neighbor_tile['type'] in one_way_up and dy != -1: continue # Can only move up onto this tile\n\n            tentative_g_score = g_score[current] + 1\n\n            if neighbor not in g_score or tentative_g_score < g_score[neighbor]:\n                came_from[neighbor] = current\n                g_score[neighbor] = tentative_g_score\n                f_score[neighbor] = tentative_g_score + heuristic(neighbor, goal_node)\n                heapq.heappush(open_set, (f_score[neighbor], neighbor))\n\n    print(\"No path found.\")\n\npathfinder(input_data)",
-    "history": [
-      {
-        "commit_message": "feat: Create A* pathfinding tool. This tool will prevent navigational errors by programmatically finding valid paths, accounting for impassable tiles, objects, and one-way ledges based on documented rules. This is a direct response to repeated pathing failures.",
-        "timestamp": "2025-07-30T04:14:25.989Z",
-        "action_counter": 17101
-      },
-      {
-        "commit_message": "feat: Create A* pathfinding tool. This tool will prevent navigational errors by programmatically finding valid paths, accounting for impassable tiles, objects, and one-way ledges based on documented rules. This is a direct response to repeated pathing failures.",
-        "timestamp": "2025-07-30T05:33:04.651Z",
-        "action_counter": 17221
-      }
-    ]
-  },
-  "sandbox_debugger": {
-    "description": "A new, uniquely named minimal tool to test if defining a new tool can restart the failed Python sandbox.",
-    "input_schema": {},
-    "python_script": "print('Sandbox debugger tool executed successfully.')",
-    "history": [
-      {
-        "commit_message": "feat: Create new minimal tool `sandbox_debugger`. All existing Python tools are failing with a container error. This is a diagnostic step to test the hypothesis that defining a new tool might force the creation of a fresh, functional execution environment.",
-        "timestamp": "2025-07-29T22:48:06.345Z",
-        "action_counter": 16595
-      },
-      {
-        "commit_message": "feat: Create new minimal tool `sandbox_debugger`. All existing Python tools are failing with a container error. This is a diagnostic step to test the hypothesis that defining a new tool might force the creation of a fresh, functional execution environment.",
-        "timestamp": "2025-07-30T05:36:18.068Z",
-        "action_counter": 17228
-      }
-    ]
-  },
-  "sandbox_ping": {
-    "description": "A new, uniquely named minimal tool to test the Python sandbox. This is the next step in debugging the persistent container failure.",
-    "input_schema": {},
-    "python_script": "print('Sandbox is responsive.')",
-    "history": [
-      {
-        "commit_message": "feat: Create new minimal tool `sandbox_ping`. Previous attempts to reuse or redefine tools failed. This new, unique name is a systematic attempt to force the creation of a fresh execution environment.",
-        "timestamp": "2025-07-29T18:34:41.172Z",
-        "action_counter": 16183
-      },
-      {
-        "commit_message": "feat: Create new minimal tool `sandbox_ping`. Previous attempts to reuse or redefine tools failed. This new, unique name is a systematic attempt to force the creation of a fresh execution environment.",
-        "timestamp": "2025-07-30T06:13:53.962Z",
-        "action_counter": 17276
-      }
-    ]
-  },
   "farfetchd_solver": {
     "description": "A tool to find the sequence of player movements required to herd the Farfetch'd in Ilex Forest to a tile adjacent to a target. It uses a Breadth-First Search algorithm and accounts for all impassable obstacles on the map for both the player and the Farfetch'd.",
     "input_schema": {
@@ -144,6 +79,29 @@
         "commit_message": "feat: Recreate the Farfetch'd puzzle solver. This tool was incorrectly deleted due to a misunderstanding of its output. The tool's logic is sound and it is being recreated to resume a systematic, tool-based approach to solving the puzzle, as mandated by the system critique.",
         "timestamp": "2025-07-30T08:55:02.310Z",
         "action_counter": 17450
+      }
+    ]
+  },
+  "reachability_checker": {
+    "description": "Checks a list of target coordinates and returns a list of those that are reachable from the player's current position.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "target_coordinates": {
+          "type": "string",
+          "description": "A stringified JSON array of coordinate objects, e.g., '[{\"x\": 10, \"y\": 5}, {\"x\": 12, \"y\": 8}]'"
+        }
+      },
+      "required": [
+        "target_coordinates"
+      ]
+    },
+    "python_script": "import xml.etree.ElementTree as ET\nimport heapq\nimport json\n\nroot = ET.fromstring(map_xml_string)\nwidth = int(root.attrib['width'])\nheight = int(root.attrib['height'])\nplayer_x, player_y = -1, -1\n\nfor r in root.findall('Row'):\n    for t in r.findall('Tile'):\n        if t.find('Player') is not None:\n            player_x = int(t.attrib['id'])\n            player_y = int(r.attrib['id'])\n            break\n    if player_x != -1:\n        break\n\ntarget_list = json.loads(input_data['target_coordinates'])\n\nimpassable_tiles = {'WALL', 'WINDOW', 'CUT_TREE', 'SIGN', 'BOOKSHELF', 'BLACKBOARD', 'MART_SHELF', 'BUOY', 'TV', 'TOWN_MAP', 'BIRD', 'HEADBUTT_TREE', 'FRUIT_TREE', 'COMPUTER', 'PRINTER', 'VOID', 'WATER', 'CAVE', 'CUT_08', 'CUT_28_GARBAGE', 'RADIO', 'INCENSE_BURNER'}\nledge_down = {'LEDGE_HOP_DOWN'}\nledge_right = {'LEDGE_HOP_RIGHT'}\nledge_left = {'LEDGE_HOP_LEFT'}\nfloor_up_wall = {'FLOOR_UP_WALL'}\n\ngrid = {}\nfor r in root.findall('Row'):\n    y = int(r.attrib['id'])\n    for t in r.findall('Tile'):\n        x = int(t.attrib['id'])\n        tile_type = t.attrib.get('type')\n        is_impassable = tile_type in impassable_tiles or t.find('Object') is not None\n        grid[(x, y)] = (tile_type, is_impassable)\n\ndef get_neighbors(x, y):\n    neighbors = []\n    for dx, dy, move in [(0, -1, 'Up'), (0, 1, 'Down'), (-1, 0, 'Left'), (1, 0, 'Right')]:\n        nx, ny = x + dx, y + dy\n        if 1 <= nx <= width and 1 <= ny <= height:\n            tile_type, is_impassable = grid.get((nx, ny), (None, True))\n            if is_impassable:\n                continue\n            current_tile_type, _ = grid.get((x, y), (None, True))\n            if tile_type in ledge_down and move != 'Up': continue\n            if tile_type in ledge_right and move != 'Left': continue\n            if tile_type in ledge_left and move != 'Right': continue\n            if tile_type in floor_up_wall and move != 'Up': continue\n            neighbors.append((nx, ny))\n    return neighbors\n\ndef heuristic(a, b):\n    return abs(a[0] - b[0]) + abs(a[1] - b[1])\n\nstart_node = (player_x, player_y)\nreachable_tiles = []\n\nfor target in target_list:\n    target_x = int(target['x'])\n    target_y = int(target['y'])\n    target_node = (target_x, target_y)\n\n    open_set = []\n    heapq.heappush(open_set, (0, start_node))\n    came_from = {}\n    g_score = {start_node: 0}\n    f_score = {start_node: heuristic(start_node, target_node)}\n\n    path_found = False\n    while open_set:\n        _, current = heapq.heappop(open_set)\n        if current == target_node:\n            reachable_tiles.append(target)\n            path_found = True\n            break\n        for neighbor in get_neighbors(current[0], current[1]):\n            tentative_g_score = g_score[current] + 1\n            if tentative_g_score < g_score.get(neighbor, float('inf')):\n                came_from[neighbor] = current\n                g_score[neighbor] = tentative_g_score\n                f_score[neighbor] = g_score[neighbor] + heuristic(neighbor, target_node)\n                if neighbor not in [i[1] for i in open_set]:\n                    heapq.heappush(open_set, (f_score[neighbor], neighbor))\n\nprint(json.dumps(reachable_tiles))\n",
+    "history": [
+      {
+        "commit_message": "fix: Corrected a JSON syntax error in the input_schema. The quotes within the description string were not properly escaped, causing the tool definition to fail. This fix is critical to making the `reachability_checker` tool functional so that systematic exploration of Ilex Forest can begin.",
+        "timestamp": "2025-07-30T09:18:50.169Z",
+        "action_counter": 17486
       }
     ]
   }

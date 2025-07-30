@@ -84,7 +84,7 @@
         1.  The path is north (failed repeatedly).
         2.  The path is south via a one-way ledge (failed, `FLOOR_UP_WALL` is impassable from above).
     *   **Root Cause:** Failure to systematically explore all possible routes, failure to immediately log dead ends with map markers, and a lack of goal flexibility. I should have pivoted to another objective much sooner instead of getting stuck.
-    *   **Lesson Learned:** Trust the `exploration_strategist` agent's high-level guidance, but verify the path manually and systematically. Do not get locked into a single hypothesis. Be willing to abandon a failing approach and pivot to a new goal.
+    *   **Lesson Learned:** Do not get locked into a single hypothesis. Verify paths manually and systematically. Be willing to abandon a failing approach and pivot to a new goal.
 
 # VII. Gameplay Reflections
 * **Puzzle Solving:** Must use a hypothesis-driven approach (Observe, Hypothesize, Test, Conclude) for puzzles instead of brute-force navigation. Document all attempts in the puzzle log.
