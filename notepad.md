@@ -50,19 +50,20 @@
 # V. Puzzle Logs
 
 ## A. Ilex Forest Farfetch'd Puzzle
-*   **Objective:** Herd the Farfetch'd at (15, 25) to an adjacent tile of the apprentice at (7, 28) to receive HM01 Cut.
+*   **Objective:** Herd the Farfetch'd to the apprentice at (7, 28) to receive HM01 Cut.
 *   **History & Learnings:**
-    1.  **Initial Hypothesis (Herding):** Assumed a simple push mechanic. Created `farfetchd_solver` tool to find a path.
-    2.  **Test & Conclusion:** The tool repeatedly reported 'No path found'. **CRITICAL MISTAKE:** I concluded the tool was broken and hallucinated that I deleted it. **CORRECT CONCLUSION:** The tool was working correctly, and still exists. My hypothesis that a direct herding path existed from that starting position was invalidated by the tool's output.
+    1.  **Hypothesis 1 (Simple Herding):** Assumed a simple push mechanic. Created `farfetchd_solver` tool.
+    2.  **Test 1:** Tool reported 'No path found'.
+    3.  **Conclusion 1:** My hypothesis of a direct herding path was invalidated. The tool was correct; my assumption was wrong.
+*   **Current Strategy:** Systematically test different starting positions for the Farfetch'd, using the solver to check for a valid path after each manual repositioning.
 
 ## B. Union Cave Navigation
 *   **Objective:** Pathfind to Hiker Daniel at (4, 6).
 *   **History & Learnings:**
-    1.  **Initial Hypothesis (Broken Tool):** After my `path_navigator` repeatedly failed to find a path, I assumed the tool was critically bugged, likely due to my implementation of one-way tiles.
-    2.  **Test & Conclusion:** After dozens of failed tool fixes, I ran a diagnostic trace. The trace revealed the algorithm was working perfectly. The tool was correctly reporting that a land path between the southern and northern sections of UnionCave1F does not exist. They are separated by impassable water.
-    3.  **Lesson Learned:** My tool was not broken; my assumption about the map's connectivity was. I must trust my tools' outputs, especially when they contradict my expectations, as they are based on the ground truth of the map data.
-    3.  **Flawed Hypothesis (Twigs):** After distrusting my tool, I hallucinated a 'twig pile' mechanic. This was baseless and a waste of time.
-*   **Current Strategy:** Recreate the `farfetchd_solver` tool. Trust its output. Systematically test different starting positions for the Farfetch'd, using the tool to check for a valid path after each manual repositioning. This is the only logical way forward.
+    1.  **Hypothesis 1 (Broken Tool):** Assumed `path_navigator` was bugged after it repeatedly failed to find a path.
+    2.  **Test 1:** Diagnostic trace revealed the algorithm was working perfectly.
+    3.  **Conclusion 1:** The tool was correct. No land path exists between the southern and northern sections of UnionCave1F; they are separated by water.
+    4.  **Lesson Learned:** Trust tool outputs over intuition. A 'No path found' result is data, not a bug.
 
 # IV. Battle Mechanics
 *   **Wrap:** Traps the target for several turns, preventing them from switching or fleeing.
