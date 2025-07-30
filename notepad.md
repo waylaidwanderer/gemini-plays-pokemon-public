@@ -10,6 +10,7 @@
 *   **Mark Warps Immediately:** Mark both warp entrance and exit immediately upon use.
 *   **Tool Correctness over Intuition:** A 'No path found' result is data, not a bug. Trust the tool's conclusion that a path is impassable.
 *   **Tool Correctness over Intuition:** A 'No path found' result is data, not a bug. Trust the tool's conclusion that a path is impassable.
+*   **Tool Correctness over Intuition:** A 'No path found' result is data, not a bug. Trust the tool's conclusion that a path is impassable.
 
 # II. Tile Traversal Rules
 *   **Traversable:** TALL_GRASS, LONG_GRASS, DOOR, WARP_CARPET_DOWN, LADDER, FLOOR.
