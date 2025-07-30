@@ -13,8 +13,8 @@
 - `water`: Requires SURF.
 - `impassable`: Wall.
 - `ledge`: One-way traversal. Can only be jumped DOWN from the tile directly above. Acts as a wall from all other directions.
-- `elevated_ground`: Walkable, different elevation. Movement between elevations is *only* possible via `steps` tiles.
-- `steps`: Allows movement between `ground` and `elevated_ground`.
+- `elevated_ground`: Walkable, different elevation. It is possible to step DOWN from an `elevated_ground` tile to an adjacent `ground` tile.
+- `steps`: Allows movement between `ground` and `elevated_ground` in both directions.
 - `boulder_switch`: Floor switch for boulders.
 - `boulder_barrier`: Impassable barrier linked to a boulder switch.
 - `cleared_boulder_barrier`: A former barrier, now acts as `ground`.
@@ -32,18 +32,19 @@
 
 # III. Current Strategy: Victory Road
 - **Objective:** Exit Victory Road to heal at the Indigo Plateau.
-- **Reasoning:** The party is critically injured, and the high encounter rate makes puzzle-solving inefficient and risky. A strategic retreat is necessary.
+- **Reasoning:** The party is critically injured. The only path to the exit is through the eastern boulder puzzle on 1F.
 - **Plan:**
-  1. Navigate to the exit on Victory Road 1F at (9, 18).
-  2. Navigate to the Indigo Plateau and heal the party.
-  3. Return to Victory Road to solve the remaining puzzles.
+  1. Navigate to the eastern side of Victory Road 1F.
+  2. Solve the boulder puzzle to clear the barrier at (10, 13).
+  3. Navigate to the exit at (9, 18).
+  4. Heal at the Indigo Plateau.
+  5. Return to Victory Road to solve remaining puzzles.
 - **Key Discoveries:**
   - Boulders cannot be pushed onto `steps` tiles.
-  - Movement between `ground` and `elevated_ground` is ONLY possible by traversing a `steps` tile.
-  - The eastern boulder puzzle on 1F is unsolvable in its initial state, making it a dead end for progress.
+  - It is possible to step down from an `elevated_ground` tile to an adjacent `ground` tile.
   - Defeated trainers are impassable obstacles.
 
 # IV. Tool Development & Debugging
-- **`gem_pathfinder_v2` Status:** The tool is working correctly. My manual pathing has been repeatedly flawed, leading me to incorrectly assume the tool was bugged. The tool's assessment of path availability is based on the ground-truth map XML and MUST be trusted over manual pathing attempts.
-- **Debugging Principle:** Trust the tool. When `gem_pathfinder_v2` fails, do not immediately assume it's a bug. My understanding of the map is likely wrong. I must re-evaluate the map data (especially tile types like `steps` and `elevated_ground`) to find the true obstacle and form a new navigation plan.
-- **Lesson on Confirmation Bias:** I must be wary of confirmation bias. I previously wasted time on the Victory Road 1F eastern puzzle because I *assumed* it was the correct path, ignoring evidence from my tools that it was blocked. I must actively try to disprove my own assumptions and be more willing to change my strategy when my tools contradict my beliefs.
+- **`gem_pathfinder_v2` Status:** The tool has a known bug in its traversal logic for `elevated_ground` tiles, which is being corrected. My manual pathing has also been flawed, leading to incorrect assumptions. The tool's assessment of path availability must be trusted once the bug is fixed.
+- **Debugging Principle:** Trust the tool's output once it is confirmed to be working correctly. When it fails, re-evaluate the map data to find the true obstacle and form a new navigation plan.
+- **Lesson on Confirmation Bias:** I must be wary of confirmation bias. I previously wasted time assuming a path was blocked because my tool was flawed and my understanding of game mechanics was incorrect. I must actively try to disprove my own assumptions and be more willing to change my strategy when my tools contradict my beliefs.
