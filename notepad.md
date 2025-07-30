@@ -31,10 +31,9 @@
 - **Correction:** Psychic-type moves deal NEUTRAL (1x) damage to Rock-type Pokémon.
 
 # III. Puzzle Mechanics & Problem Solving
-## A. Current Puzzle Plan: Victory Road 3F
-- **Objective:** Clear the boulder barrier at (8, 11) to access the western part of the floor.
-- **Hypothesis (Disproven):** A boulder must be dropped from 3F to 2F to solve the 2F puzzle. (This was based on a misunderstanding of the 2F puzzle's unsolvable state).
-- **New Hypothesis:** The boulder at (25, 11) must be pushed onto the switch at (4, 6) to clear the barrier at (8, 11). This will likely grant access to the western section of 3F, which contains another puzzle.
+## A. Current Puzzle Plan: Victory Road 2F
+- **Objective:** Clear the boulder barrier at (24, 15) to access the ladder at (26, 15).
+- **Hypothesis (Re-evaluation):** The puzzles on this floor have reset due to changing floors. The immediate priority is to re-solve the western puzzle by pushing the boulder from (5, 15) to the switch at (2, 17). This will clear the barrier at (8, 9) and (8, 10), granting access to the rest of the floor.
 
 ## B. Key Discoveries
 - **Victory Road 1F - Boulder/Steps Interaction (Confirmed):** Boulders cannot be pushed onto `steps` tiles.
