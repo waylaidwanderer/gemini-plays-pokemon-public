@@ -38,7 +38,6 @@
 - **Victory Road 1F - Boulder/Steps Interaction (Confirmed):** Boulders cannot be pushed onto `steps` tiles. This was confirmed after multiple failed attempts to push the boulder at (6, 15) north onto the steps at (6, 14).
 - **Victory Road 1F - Elevation Rule (Confirmed):** Movement between `ground` and `elevated_ground` is ONLY possible by traversing a `steps` tile. The full sequence is `elevated_ground` -> `steps` -> `ground` (and vice-versa). Direct movement between `elevated_ground` and any other lower-level tile type is impossible.
 - **Victory Road 2F - Western Boulder Puzzle (Status: SOLVED):** Pushed boulder from (5, 15) to switch at (2, 17). This cleared the barrier at (8, 9) and (8, 10), opening the path to the eastern side of the floor.
-- **Victory Road 2F - Western Boulder Puzzle (Status: SOLVED):** Pushed boulder from (5, 15) to switch at (2, 17). This cleared the barrier at (8, 9) and (8, 10), opening the path to the eastern side of the floor.
 - **Victory Road 3F - Hole Puzzle:** Pushing the boulder at (14, 13) south into the hole at (14, 15) causes it to appear on the floor below.
 
 # IV. Archived Lessons & Tool Development
@@ -47,7 +46,7 @@
 - **Immediate Action:** Log all data in the turn of discovery. This includes disproven hypotheses to avoid repeating mistakes.
 - **Trust Direct Observation:** Base understanding of mechanics on in-game observations.
 - **Tool Development Status (Under Debugging):**
-  - `gem_pathfinder_v2`: The pathfinder is now functional on complex routes like Route 23 after increasing the node exploration limit. The primary bug was confirmed to be a timeout issue, not a logic error in neighbor detection.
+  - `gem_pathfinder_v2`: The pathfinder is currently being debugged for Victory Road's complex elevation and object-based navigation. While functional on simpler maps, it is not yet reliable for multi-level puzzle areas.
 
 # V. Future Development Ideas
 - **Team Composition Advisor:** An agent to suggest optimal team compositions.
