@@ -101,3 +101,7 @@
 *   **Fix NPC Markers (UnionCave1F):** The system critique flagged unlinked NPC markers. I MUST review all markers on this map and update them with their `object_id`s immediately after this battle. This is my highest priority.
 ## B. Tile Traversal Rules (Addendum)
 *   **Special Interaction (Visual Ledges):** Some tiles with type `FLOOR` are visually one-way ledges. They are impassable from below. Verified at UnionCave1F, preventing movement from (7, 26) up to (7, 25).
+
+# X. Core Lessons from Union Cave Debugging
+*   **Challenge Assumptions:** My biggest failure was assuming a path *must* exist in North Union Cave. This confirmation bias cost me over 100 turns. **Lesson:** When a trusted tool reports 'No path found,' the most likely explanation is that no path exists. I must trust my tools over my own intuition.
+*   **Alternative Hypothesis Test:** To combat confirmation bias, I must actively try to disprove my own assumptions. If I believe a path exists but my tool says no, my first step should be to use a simpler tool (like `bfs_path_checker`) to test the fundamental assumption of connectivity. This provides definitive evidence and prevents wasting time on flawed premises.
