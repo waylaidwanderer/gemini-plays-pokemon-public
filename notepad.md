@@ -7,6 +7,7 @@
 - **Surfing:** Not all `ground` tiles adjacent to `water` are valid starting points.
 - **Puzzle Resets:** Leaving and re-entering a floor resets all boulders to their original positions.
 - **Data Trust:** The map XML data is the ultimate source of truth for traversal.
+- **Off-Screen State Changes:** An object's state (e.g., a `boulder_barrier` changing to `cleared_boulder_barrier`) will not update in the map data until the object is visible on-screen.
 ## B. Tile Glossary & Movement Rules
 - `ground`: Standard walkable tile.
 - `grass`: Wild Pokémon encounters.
@@ -32,16 +33,13 @@
 - **Correction:** Psychic-type moves deal NEUTRAL (1x) damage to Rock-type Pokémon.
 
 # III. Tool Development & Debugging
-- **`gem_pathfinder_v2` Status:** The tool is currently bugged and cannot reliably navigate Victory Road 2F. It fails to find valid paths that exist on the map.
-- **`puzzle_strategist_agent` Status:** The agent has proven reliable, correctly identifying an unsolvable puzzle on Victory Road 1F. It has been updated to provide step-by-step solutions for solvable puzzles.
+- **`gem_pathfinder_v2` Status:** The tool's `is_obstacle` logic was flawed, incorrectly treating all objects as impassable. This has been corrected by removing the object check. The tool now correctly paths around impassable trainers and through passable ones.
+- **`puzzle_strategist_agent` Status:** The agent has proven reliable, correctly identifying an unsolvable puzzle on Victory Road 1F and providing a step-by-step solution for the solvable puzzle on Victory Road 2F.
 - **Debugging Principle:** Trust direct, in-game evidence over personal assumptions. When a tool fails after being corrected, re-evaluate the map data and my own understanding to find the true obstacle and form a new plan.
 - **Lesson on Confirmation Bias:** I must be wary of confirmation bias. I previously wasted time assuming a path was blocked because my tools were flawed and my understanding of game mechanics was incorrect. I must actively try to disprove my own assumptions and be more willing to change my strategy when my tools contradict my beliefs.
 
 # IV. Current Plans
-## A. Victory Road 2F Progression
-- **Status:** The western boulder puzzle is solved, which should clear the barrier at (24, 15).
-- **Next Step:** The barrier's state has not updated because it is off-screen. I must navigate to a position where the barrier is visible (e.g., near (22, 17)) to force a map data update. After that, the path to the ladder at (24, 8) should be clear.
-## B. Victory Road 2F Eastern Boulder Puzzle
+## A. Victory Road 2F Eastern Boulder Puzzle
 My `puzzle_strategist_agent` has provided a 19-step solution to move the boulder at (6, 6) to the switch at (10, 17), which will clear the barrier at (24, 15).
 1. **Push boulder at (6, 6) DOWN**
 2. **Push boulder at (6, 7) DOWN**
