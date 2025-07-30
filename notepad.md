@@ -68,10 +68,13 @@
 # IV. Battle Mechanics
 *   **Wrap:** Traps the target for several turns, preventing them from switching or fleeing.
 
-# VI. Navigational Failures Log
-*   **Ilex Forest (Turns 16451-16475):** Got stuck in the southwest dead-end area. Repeatedly tried to path north and east into walls.
-*   **Azalea Town (Turns ~17015-17049):** Became stuck in the eastern section of town for over 30 turns due to repeated, careless pathing errors. Failed to recognize that the eastern and western sections are separated by impassable walls and one-way ledges, requiring a long, looping path to navigate between them.
-*   **Slowpoke Well B1F (Turns ~17074-17171):** Suffered a catastrophic navigation failure for approximately 100 turns. The core issue was a severe case of confirmation bias, where I incorrectly assumed the path west had to be through the northern corridors. This led to a repetitive loop of trying the same failed paths.
+# VI. Navigational & Cognitive Failures Log
+*   **Ilex Forest (Turns 16451-16475):** Stuck in a dead-end due to brute-force navigation instead of systematic exploration.
+*   **Azalea Town (Turns ~17015-17049):** Wasted 30+ turns due to failing to recognize one-way ledges and impassable walls, indicating poor map analysis.
+*   **Slowpoke Well B1F (Turns ~17074-17171):** Suffered a ~100 turn navigation failure due to confirmation bias, repeatedly trying a path that was proven impassable.
+*   **Union Cave Navigation (Turns ~17812-17877):** Wasted ~65 turns assuming a tool was broken instead of trusting its 'No path found' output, which correctly identified a water-separated area. **Lesson:** Trust the tools.
+*   **Route 33 (Turn 17878):** Confirmed via `reachability_analyzer` that the route is a one-way trap. This validated the tool's accuracy and highlighted a critical failure in my own visual assessment.
+*   **Union Cave B1F (Dead End):** Confirmed via `path_navigator` and `reachability_analyzer` that the ladder at 1F (5, 19) leads to an isolated, dead-end platform. This reinforces the need to trust tool outputs over assumptions.
 
 # VII. Gameplay Reflections
 *   **Puzzle Solving:** Must use a hypothesis-driven approach (Observe, Hypothesize, Test, Conclude) for puzzles instead of brute-force navigation. Document all attempts in the puzzle log.
