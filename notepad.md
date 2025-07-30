@@ -41,3 +41,11 @@
 - **Systematic Problem-Solving:** Trust game data over intuition. Add debug logging to tools as a first step, not a last resort.
 - **Immediate Action:** Log all data and fix all tools in the turn of discovery. This includes disproven hypotheses to avoid repeating mistakes.
 - **Tool Development Status:** `gem_pathfinder_v2`: The hypothesis that defeated trainers are passable was tested by ignoring all objects. The pathfinder still failed, disproving the hypothesis. The tool has a more fundamental bug in its traversal logic. Restoring object detection and re-adding debug logs to diagnose.
+
+# V. Current Puzzle Plans
+## A. Victory Road 1F Boulder Puzzle
+- **Objective:** Reach the ladder at (2, 2).
+- **Hypothesis 1:** The puzzle must be solved in a west-to-east sequence.
+- **Step 1 (West Boulder):** Push the boulder at (3, 11) UP onto the switch at (3, 10).
+- **Step 2 (East Boulder):** Navigate to the boulder at (15, 3) and push it onto the switch at (18, 14).
+- **Step 3 (Exit):** With both switches activated, the path to the ladder at (2, 2) should be clear.
