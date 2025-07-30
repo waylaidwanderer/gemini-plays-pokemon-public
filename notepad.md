@@ -41,9 +41,27 @@
 *   **Wrap:** Traps the target for several turns, preventing them from switching or fleeing.
 
 # IV. Story & Quests
-*   **Current Quest:** Solve the Ruins of Alph puzzles.
+*   **Primary Quest: Obtain HM01 Cut**
+    *   **Objective:** Receive HM01 Cut from the apprentice in Ilex Forest.
+    *   **Plan:**
+        1.  Navigate south through Route 32 to the Union Cave entrance.
+        2.  Traverse Union Cave to reach Route 33.
+        3.  Travel west from Route 33 into Azalea Town.
+        4.  Enter Ilex Forest from Azalea Town.
+        5.  Solve the second Farfetch'd herding puzzle to guide it back to the apprentice.
+*   **Secondary Quest: Complete Sprout Tower**
+    *   **Objective:** Reach the top of Sprout Tower and defeat the Elder.
+    *   **Plan:**
+        1.  Travel back north through Route 32 to Violet City.
+        2.  Enter Sprout Tower.
+        3.  Systematically explore the ladder system on the western side of the tower, mapping the connections between floors to find the path to the top. I suspect a specific sequence of ladders is required.
+*   **Tertiary Quest: Investigate Union Cave Roars**
+    *   **Objective:** Discover the source of the strange roars heard in Union Cave on Fridays.
+    *   **Plan:**
+        1.  Note the current day of the week.
+        2.  If it is Friday, enter Union Cave and explore the deeper, previously inaccessible areas.
+        3.  If it is not Friday, postpone this quest.
 *   **NPC Hints & Lore:**
-    *   Fisher (Union Cave, 14, 19): Strange roars on weekends.
     *   WADE (Route 31): Will share BERRIES.
     *   Hiker Anthony (Phone): Tons of DUNSPARCE in DARK CAVE.
 
