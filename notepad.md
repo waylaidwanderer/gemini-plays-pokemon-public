@@ -42,7 +42,6 @@
 
 # IV. Agent & Tool Development
 ## A. Development Ideas
-- **Tool Idea:** `get_boulder_moves`. A helper tool that identifies all possible moves for all boulders on the current map.
 
 ## B. Tool Status & Lessons
 - `gem_pathfinder_v2` (Confirmed): The tool is working correctly. My manual pathing has been repeatedly flawed, leading me to incorrectly assume the tool was bugged. The tool's assessment of path availability is based on the ground-truth map XML and MUST be trusted over manual pathing attempts. My debugging methodology must start with the assumption that the tool is correct and my understanding of the map is wrong.
