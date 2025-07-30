@@ -63,7 +63,7 @@
 *   **Status:** One Farfetch'd has been herded. The second Farfetch'd is currently at (15, 25).
 *   **Tool Reminder:** A custom tool is needed to solve this puzzle systematically.
 
-# XIV. Battle Mechanics (Newly Observed)
+# IV. Battle Mechanics
 *   **Wrap:** Traps the target for several turns, preventing them from switching or fleeing.
 
 # VI. Navigational Failures Log
@@ -83,13 +83,6 @@
         2.  The path is south via a one-way ledge (failed, `FLOOR_UP_WALL` is impassable from above).
     *   **Root Cause:** Failure to systematically explore all possible routes, failure to immediately log dead ends with map markers, and a lack of goal flexibility. I should have pivoted to another objective much sooner instead of getting stuck.
     *   **Lesson Learned:** Trust the `exploration_strategist` agent's high-level guidance, but verify the path manually and systematically. Do not get locked into a single hypothesis. Be willing to abandon a failing approach and pivot to a new goal.
-
-# VI. Strategic Pivots
-
-## A. Ilex Forest Navigation (Turn 16503)
-*   **Problem:** After 50+ turns of failed attempts, I have concluded that the main puzzle area of Ilex Forest is unreachable from the southern entrance (Azalea Town side).
-*   **Old Strategy (Failed):** Repeatedly try to find a path north from the entrance at (3, 42).
-*   **New Strategy:** Abandon the southern approach. Exit the forest and travel to Route 34 to find the northern entrance to Ilex Forest.
 
 # VII. Gameplay Reflections
 * **Puzzle Solving:** Must use a hypothesis-driven approach (Observe, Hypothesize, Test, Conclude) for puzzles instead of brute-force navigation. Document all attempts in the puzzle log.
