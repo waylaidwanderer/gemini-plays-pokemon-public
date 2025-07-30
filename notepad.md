@@ -53,3 +53,6 @@
   2. Call `tool_diagnostics_agent` with the tool's output and a summary of the map layout.
   3. **If Assessment is 'Correct Assessment':** My understanding of the map is wrong. I must re-evaluate the map data (especially the warp list in the Game State Information) to find the true obstacle and form a new navigation plan.
   4. **If Assessment is 'Likely Tool Bug':** The tool is likely flawed. Add extensive logging, re-run the tool to capture debug data, analyze the logs to form a hypothesis about the bug, and then implement a fix.
+
+# VI. Untested Assumptions
+- **Defeated Trainers:** I assume defeated trainers are impassable objects. I need to test this by trying to walk through one when the opportunity arises.
