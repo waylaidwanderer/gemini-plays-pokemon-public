@@ -13,7 +13,7 @@
 - `water`: Requires SURF.
 - `impassable`: Wall.
 - `ledge`: One-way traversal. Can only be jumped DOWN from the tile directly above. Acts as a wall from all other directions.
-- `elevated_ground`: Walkable, different elevation. It is possible to step DOWN from an `elevated_ground` tile to an adjacent `ground` tile.
+- `elevated_ground`: Walkable, different elevation. It is NOT possible to step down from an `elevated_ground` tile to an adjacent `ground` tile unless using a `steps` tile.
 - `steps`: Allows movement between `ground` and `elevated_ground` in both directions.
 - `boulder_switch`: Floor switch for boulders.
 - `boulder_barrier`: Impassable barrier linked to a boulder switch.
