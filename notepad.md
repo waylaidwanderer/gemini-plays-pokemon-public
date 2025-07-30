@@ -33,18 +33,20 @@
 # III. Puzzle Mechanics & Problem Solving
 ## A. Current Puzzle Plan: Victory Road 2F
 - **Objective:** Clear the boulder barrier at (24, 15) to access the ladder at (26, 15).
-- **Conclusion (Attempt 1):** The path to position the boulder at (6, 6) is inaccessible from the main floor area. My manual pathing was flawed as it assumed I could step down from `elevated_ground`. The pathfinder correctly identified this as impossible. A new approach is needed, likely from a different section of the map.
+- **Hypothesis:** The western boulder puzzle on this floor is solvable and will clear the path.
 
 ## B. Key Discoveries
 - **Victory Road 1F - Boulder/Steps Interaction (Confirmed):** Boulders cannot be pushed onto `steps` tiles.
 - **Victory Road 1F - Elevation Rule (Confirmed):** Movement between `ground` and `elevated_ground` is ONLY possible by traversing a `steps` tile.
+- **Victory Road 1F - Eastern Puzzle (Confirmed Unsolvable):** The eastern boulder puzzle is unsolvable in its current state, making the eastern section a dead end for progress.
 - **Victory Road 2F - Defeated Trainers (Confirmed):** Defeated trainers are impassable obstacles.
 
 # IV. Agent & Tool Development
 ## A. Development Ideas
+- **Floor Strategist Agent:** An agent that takes a floor's puzzle elements and impassable coordinates to generate a high-level strategic plan, identifying solvable puzzles and potential dead ends before manual exploration.
 
 ## B. Tool Status & Lessons
-- `gem_pathfinder_v2` (Confirmed): The tool is working correctly. My manual pathing has been repeatedly flawed, leading me to incorrectly assume the tool was bugged. The tool's assessment of path availability is based on the ground-truth map XML and MUST be trusted over manual pathing attempts. My debugging methodology must start with the assumption that the tool is correct and my understanding of the map is wrong.
+- `gem_pathfinder_v2` (Confirmed): The tool is working correctly. My manual pathing has been repeatedly flawed, leading me to incorrectly assume the tool was bugged. The tool's assessment of path availability is based on the ground-truth map XML and MUST be trusted over manual pathing attempts.
 
 # V. Debugging Methodology
 - **Principle:** Trust the tool. When `gem_pathfinder_v2` fails, do not immediately assume it's a bug.

@@ -399,9 +399,9 @@
     ]
   },
   "get_impassable_coords": {
-    "description": "Parses the map_xml_string to find all impassable tiles and boulder locations, then returns them as a JSON list. This is a helper tool for puzzle-solving agents.",
+    "description": "Parses the map_xml_string to find all impassable tiles and returns them as a JSON list of dictionaries. This is a helper tool for puzzle-solving agents.",
     "input_schema": {},
-    "python_script": "import xml.etree.ElementTree as ET\nimport json\n\nroot = ET.fromstring(map_xml_string)\nimpassable_coords = []\nfor row_elem in root.findall('Row'):\n    y = int(row_elem.get('id'))\n    for tile_elem in row_elem.findall('Tile'):\n        x = int(tile_elem.get('id'))\n        tile_type = tile_elem.get('type')\n        if tile_type == 'impassable' or tile_elem.find('Boulder') is not None:\n            impassable_coords.append([x, y])\nprint(json.dumps(impassable_coords))",
+    "python_script": "import xml.etree.ElementTree as ET\nimport json\n\nroot = ET.fromstring(map_xml_string)\nimpassable_coords = []\nfor row_elem in root.findall('Row'):\n    y = int(row_elem.get('id'))\n    for tile_elem in row_elem.findall('Tile'):\n        x = int(tile_elem.get('id'))\n        tile_type = tile_elem.get('type')\n        if tile_type in ['impassable', 'boulder_barrier', 'unknown', 'closed_gate', 'water']:\n            impassable_coords.append({'x': x, 'y': y})\nprint(json.dumps(impassable_coords))",
     "history": [
       {
         "commit_message": "feat: Create get_impassable_coords tool. This automates a repetitive task (extracting impassable tile data) that was previously done with `run_code`. This will streamline the input gathering process for puzzle-solving agents like `boulder_puzzle_solver_agent`.",
@@ -417,6 +417,11 @@
         "commit_message": "feat: Create get_impassable_coords tool. This automates a repetitive task (extracting impassable tile data) that was previously done with `run_code`. This will streamline the input gathering process for puzzle-solving agents like `boulder_puzzle_solver_agent`.",
         "timestamp": "2025-07-26T19:26:49.541Z",
         "action_counter": 102822
+      },
+      {
+        "commit_message": "fix(get_impassable_coords): Exclude boulders from impassable list and fix output format. The tool was incorrectly classifying tiles with boulders as impassable, providing flawed data to the puzzle_strategist_agent. This commit corrects the logic to only include actual impassable tile types. It also changes the output format from a list of lists to a list of dictionaries to match the agent's input schema.",
+        "timestamp": "2025-07-30T15:49:46.748Z",
+        "action_counter": 111340
       }
     ]
   },
