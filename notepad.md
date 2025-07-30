@@ -44,10 +44,10 @@ My `puzzle_strategist_agent` has provided a solution to the western boulder puzz
     - Navigated to (5, 14).
     - Used Strength.
     - Moved DOWN.
-2.  **Push boulder at (5, 16) LEFT:**
-    - Navigate to (6, 16).
-    - Use Strength.
-    - Move LEFT.
+2.  **Push boulder at (5, 16) LEFT:** (COMPLETE)
+    - Navigated to (6, 16).
+    - Used Strength.
+    - Moved LEFT.
 3.  **Push boulder at (4, 16) DOWN:**
     - Navigate to (4, 15).
     - Use Strength.
