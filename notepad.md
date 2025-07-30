@@ -105,3 +105,5 @@
 # X. Core Lessons from Union Cave Debugging
 *   **Challenge Assumptions:** My biggest failure was assuming a path *must* exist in North Union Cave. This confirmation bias cost me over 100 turns. **Lesson:** When a trusted tool reports 'No path found,' the most likely explanation is that no path exists. I must trust my tools over my own intuition.
 *   **Alternative Hypothesis Test:** To combat confirmation bias, I must actively try to disprove my own assumptions. If I believe a path exists but my tool says no, my first step should be to use a simpler tool (like `bfs_path_checker`) to test the fundamental assumption of connectivity. This provides definitive evidence and prevents wasting time on flawed premises.
+## Navigational Failures Log (Addendum)
+*   **Route 33 (Turn 17878):** Confirmed via `bfs_path_checker` that the path west to Azalea Town from the Union Cave exit is IMPOSSIBLE. The route is a one-way trap due to impassable ledges. The only way to proceed is to re-enter Union Cave at (11, 9). This is a critical lesson in trusting my tools over visual assessment.
