@@ -33,19 +33,17 @@
 - **Defeated Trainers:** Are **IMPASSABLE** obstacles. They do not respawn and block movement.
 
 # III. Puzzle Mechanics & Problem Solving
-## A. Solved Puzzles & Key Discoveries
-- **Route 23 Navigation:** The route is split by a large body of water. The eastern path is a dead end for reaching Victory Road. The correct path is the western one, which requires backtracking from the eastern fork.
-- **Victory Road 1F - Boulder/Steps Interaction (Confirmed):** Boulders cannot be pushed onto `steps` tiles. This was confirmed after multiple failed attempts to push the boulder at (6, 15) north onto the steps at (6, 14).
-- **Victory Road 1F - Elevation Rule (Confirmed):** Movement between `ground` and `elevated_ground` is ONLY possible by traversing a `steps` tile. The full sequence is `elevated_ground` -> `steps` -> `ground` (and vice-versa). Direct movement between `elevated_ground` and any other lower-level tile type is impossible.
-- **Victory Road 2F - Western Boulder Puzzle (Status: SOLVED):** Pushed boulder from (5, 15) to switch at (2, 17). This cleared the barrier at (8, 9) and (8, 10), opening the path to the eastern side of the floor.
-- **Victory Road 3F - Hole Puzzle:** Pushing the boulder at (14, 13) south into the hole at (14, 15) causes it to appear on the floor below.
+## A. Methodology
+- **Systematic Approach:** When stuck, do not repeat failed actions. Re-evaluate the entire map, look for in-game clues (like empty switches), and form a new, testable hypothesis. Avoid confirmation bias by actively trying to disprove initial assumptions.
+## B. Key Discoveries
+- **Victory Road 1F - Boulder/Steps Interaction (Confirmed):** Boulders cannot be pushed onto `steps` tiles.
+- **Victory Road 1F - Elevation Rule (Confirmed):** Movement between `ground` and `elevated_ground` is ONLY possible by traversing a `steps` tile.
+- **Victory Road - Boulder Push Mechanic (Corrected):** When pushing a boulder, the player character does NOT move into the boulder's previous space, regardless of direction.
 
 # IV. Archived Lessons & Tool Development
-- **Systematic Problem-Solving:** Trust the game state data over intuition.
-- **Efficient Debugging:** Vary test conditions to gather new diagnostic data.
-- **Immediate Action:** Log all data in the turn of discovery. This includes disproven hypotheses to avoid repeating mistakes.
-- **Trust Direct Observation:** Base understanding of mechanics on in-game observations.
-- **Tool Development Status (Functional):** `gem_pathfinder_v2`: The pathfinder's core logic for elevation and tile traversal has been fixed. Past failures were primarily due to user error, specifically not using the `ignorable_coords` parameter to tell the tool to path around movable obstacles like boulders during puzzle-solving. The tool is now considered reliable for complex navigation, provided the correct parameters are used.
+- **Systematic Problem-Solving:** Trust game data over intuition. Add debug logging to tools as a first step, not a last resort.
+- **Immediate Action:** Log all data and fix all tools in the turn of discovery. This includes disproven hypotheses to avoid repeating mistakes.
+- **Tool Development Status (Functional):** `gem_pathfinder_v2`: The pathfinder's core logic is now considered reliable. Past failures were primarily due to user error, specifically not using the `ignorable_coords` parameter to tell the tool to path around movable obstacles during puzzle-solving.
 
 # V. Future Development Ideas
 - **Team Composition Advisor:** An agent to suggest optimal team compositions.
