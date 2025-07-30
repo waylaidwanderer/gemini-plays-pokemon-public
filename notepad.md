@@ -31,14 +31,9 @@
 - **Correction:** Psychic-type moves deal NEUTRAL (1x) damage to Rock-type Pokémon.
 
 # III. Puzzle Mechanics & Problem Solving
-## A. Current Strategic Plan: Victory Road
-- **Objective:** Exit Victory Road to heal at the Indigo Plateau.
-- **Reasoning:** The party is critically injured, and the high encounter rate on 2F makes puzzle-solving inefficient and risky. A strategic retreat is necessary.
-- **Plan:**
-  1. Ascend to Victory Road 3F via the ladder at (24, 8).
-  2. Find the exit from Victory Road 3F to Route 23.
-  3. Navigate to the Indigo Plateau and heal the party.
-  4. Return to Victory Road to solve the remaining puzzles.
+## A. Current Puzzle Plan: Victory Road 2F
+- **Objective:** Clear the boulder barrier at (24, 15) to access the ladder at (26, 15).
+- **Hypothesis (Re-evaluation):** The puzzles on this floor have reset due to changing floors. The immediate priority is to re-solve the western puzzle by pushing the boulder from (5, 15) to the switch at (2, 17). This will clear the barrier at (8, 9) and (8, 10), granting access to the rest of the floor.
 
 ## B. Key Discoveries
 - **Victory Road 1F - Boulder/Steps Interaction (Confirmed):** Boulders cannot be pushed onto `steps` tiles.
