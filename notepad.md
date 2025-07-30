@@ -47,5 +47,3 @@
 # V. Agent & Tool Development Status
 
 # V. Agent & Tool Development Status
-
-- **puzzle_strategist_agent (BROKEN):** Provided a physically impossible solution on Victory Road 3F. DO NOT USE. The recent 'fix' is insufficient and requires a full logic overhaul before the agent can be trusted.
