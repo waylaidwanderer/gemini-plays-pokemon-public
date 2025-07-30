@@ -74,4 +74,4 @@
 *   **Union Cave B1F (via ladder at 1F (5, 19)):** Confirmed via `path_finder` that this ladder leads to a small, isolated platform with no path to the southern part of the floor. It is a dead end. The only exit is back up the ladder.
 *   **Route 32 (Turns ~18059-18060):** Wasted several turns trying to path south to Union Cave entrance (6, 79), forgetting my own documented discovery that the route contains one-way ledges making it impossible to travel north from that section. This is a critical failure in consulting my own documentation. **Lesson:** ALWAYS trust the tools and review relevant notes before planning a route.
 *   Grass is NOT VERY EFFECTIVE against Fire.
-*   Grass is NOT VERY EFFECTIVE against Fire.
+*   **UI Unreliability:** The `TYPE/` display in battle can be incorrect (e.g., showing EKANS as Normal). Trust observed effectiveness messages over the UI.
