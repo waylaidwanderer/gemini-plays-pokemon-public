@@ -79,6 +79,12 @@
     *   **Failed Path West:** Repeatedly attempted to move west from (28, 13) into the wall at (27, 13).
     *   **Failed Path North:** Repeatedly attempted to move north from (28, 12) into the one-way ledge at (28, 11).
     *   **Conclusion:** This entire loop was caused by a failure to immediately document impassable tiles and a flawed assumption that a direct route existed. The correct path requires looping around the central buildings.
+*   **Slowpoke Well B1F (Turns ~17074-17171):** Suffered a catastrophic navigation failure for approximately 100 turns. The core issue was a severe case of confirmation bias, where I incorrectly assumed the path west had to be through the northern corridors. This led to a repetitive loop of trying the same failed paths.
+    *   **Failed Hypotheses:**
+        1.  The path is north (failed repeatedly).
+        2.  The path is south via a one-way ledge (failed, `FLOOR_UP_WALL` is impassable from above).
+    *   **Root Cause:** Failure to systematically explore all possible routes, failure to immediately log dead ends with map markers, and a lack of goal flexibility. I should have pivoted to another objective much sooner instead of getting stuck.
+    *   **Lesson Learned:** Trust the `exploration_strategist` agent's high-level guidance, but verify the path manually and systematically. Do not get locked into a single hypothesis. Be willing to abandon a failing approach and pivot to a new goal.
 
 # VI. Strategic Pivots
 
@@ -94,20 +100,6 @@
 *   **Tile Mechanic (VOID):** Added to impassable list. Appears to be a visual boundary marker.
 *   **Cut Quest Hypothesis:** If the Farfetch'd puzzle fails to yield HM01, the alternative hypothesis is that the Ilex Forest Shrine at (8, 22) is involved. The next step would be to investigate the shrine.
 
-# X. Navigational Failures Log
-*   **Slowpoke Well (Turns ~17074-17100):** Multiple failed pathing attempts due to not carefully observing the map. Repeatedly tried to walk through walls or into dead ends instead of following the clear path. This highlights a need to be more methodical and less rushed in navigation.
-
-# X. Navigational Failures Log
-*   **Slowpoke Well (Turns ~17074-17160):** Multiple failed pathing attempts due to not carefully observing the map. Repeatedly tried to walk through walls or into dead ends instead of following the clear path. This highlights a need to be more methodical and less rushed in navigation.
-
 # XI. Core Principles (Post-Reflection Updates)
 *   **Goal Flexibility:** If progress on a primary goal stalls for a significant period (e.g., 50+ turns) despite trying multiple documented hypotheses, I MUST pivot to a different primary or secondary goal. Do not remain stuck on a single objective indefinitely.
 *   **Proactive Tile Testing:** Upon encountering any new, undocumented tile type, I MUST immediately form a hypothesis about its traversability and conduct a simple test (e.g., trying to walk on it from all four directions). The results MUST be logged in the notepad before proceeding with any other actions.
-
-# XII. Navigational Failures Log (Slowpoke Well)
-*   **Slowpoke Well B1F (Turns ~17074-17171):** Suffered a catastrophic navigation failure for approximately 100 turns. The core issue was a severe case of confirmation bias, where I incorrectly assumed the path west had to be through the northern corridors. This led to a repetitive loop of trying the same failed paths.
-    *   **Failed Hypotheses:**
-        1.  The path is north (failed repeatedly).
-        2.  The path is south via a one-way ledge (failed, `FLOOR_UP_WALL` is impassable from above).
-    *   **Root Cause:** Failure to systematically explore all possible routes, failure to immediately log dead ends with map markers, and a lack of goal flexibility. I should have pivoted to another objective much sooner instead of getting stuck.
-    *   **Lesson Learned:** Trust the `exploration_strategist` agent's high-level guidance, but verify the path manually and systematically. Do not get locked into a single hypothesis. Be willing to abandon a failing approach and pivot to a new goal.
