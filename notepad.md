@@ -46,7 +46,7 @@
 - **Tool Idea:** `get_boulder_moves`. A helper tool that identifies all possible moves for all boulders on the current map.
 
 ## B. Tool Status & Lessons
-- `gem_pathfinder_v2` (Correction): My previous assessment that the tool was buggy was incorrect. The tool correctly identified an unreachable destination that I had misjudged due to a flawed manual path. The tool's output should be trusted as it is based on the ground-truth map data. Manual navigation should only be used for short distances or when a puzzle requires it.
+- `gem_pathfinder_v2` (Confirmed): The tool is working correctly. My manual pathing has been repeatedly flawed, leading me to incorrectly assume the tool was bugged. The tool's assessment of path availability is based on the ground-truth map XML and MUST be trusted over manual pathing attempts. My debugging methodology must start with the assumption that the tool is correct and my understanding of the map is wrong.
 
 # V. Debugging Methodology
 - **Principle:** Trust the tool. When `gem_pathfinder_v2` fails, do not immediately assume it's a bug.
