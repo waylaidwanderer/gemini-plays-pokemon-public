@@ -75,16 +75,3 @@
 *   **Union Cave Navigation (Turns ~17812-17877):** Wasted ~65 turns assuming a tool was broken instead of trusting its 'No path found' output, which correctly identified a water-separated area. **Lesson:** Trust the tools.
 *   **Route 33 (Turn 17878):** Confirmed via `reachability_analyzer` that the path west to Azalea Town from the Union Cave exit is IMPOSSIBLE. The route is a one-way trap due to impassable ledges. The only way to proceed is to re-enter Union Cave at (11, 9). This is a critical lesson in trusting my tools over visual assessment.
 *   **Union Cave B1F (via ladder at 1F (5, 19)):** Confirmed via `path_navigator` and `reachability_analyzer` that this ladder leads to a small, isolated platform with no path to the southern part of the floor. It is a dead end. The only exit is back up the ladder.
-
-# VII. Gameplay Reflections
-*   **Puzzle Solving:** Must use a hypothesis-driven approach (Observe, Hypothesize, Test, Conclude) for puzzles instead of brute-force navigation. Document all attempts in the puzzle log.
-
-# VIII. New Hypotheses & Mechanics (Post-Reflection)
-*   **Cut Quest Hypothesis:** If the Farfetch'd puzzle fails to yield HM01, the alternative hypothesis is that the Ilex Forest Shrine at (8, 22) is involved. The next step would be to investigate the shrine.
-
-# XI. Core Principles (Post-Reflection Updates)
-*   **Goal Flexibility:** If progress on a primary goal stalls for a significant period (e.g., 50+ turns) despite trying multiple documented hypotheses, I MUST pivot to a different primary or secondary goal. Do not remain stuck on a single objective indefinitely.
-*   **Proactive Tile Testing:** Upon encountering any new, undocumented tile type, I MUST immediately form a hypothesis about its traversability and conduct a simple test (e.g., trying to walk on it from all four directions). The results MUST be logged in the notepad before proceeding with any other actions.
-
-## B. Tile Traversal Rules (Addendum)
-*   **Special Interaction (Visual Ledges):** Some tiles with type `FLOOR` are visually one-way ledges. They are impassable from below. Verified at UnionCave1F, preventing movement from (7, 26) up to (7, 25).
