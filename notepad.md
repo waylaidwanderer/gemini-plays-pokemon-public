@@ -70,21 +70,8 @@
 
 # VI. Navigational Failures Log
 *   **Ilex Forest (Turns 16451-16475):** Got stuck in the southwest dead-end area. Repeatedly tried to path north and east into walls.
-    *   Blocked at (3, 39) when trying to move up from (3, 40).
-    *   Blocked at (2, 34) when trying to move right from (1, 34).
-    *   Blocked at (1, 39) when trying to move up from (1, 40).
-    *   Blocked at (1, 32) by a HEADBUTT_TREE when trying to move up from (1, 33).
-*   **Azalea Town (Turns ~17015-17049):** Became stuck in the eastern section of town for over 30 turns due to repeated, careless pathing errors.
-    *   **Core Misunderstanding:** Failed to recognize that the eastern and western sections are separated by impassable walls and one-way ledges, requiring a long, looping path to navigate between them.
-    *   **Failed Path West:** Repeatedly attempted to move west from (28, 13) into the wall at (27, 13).
-    *   **Failed Path North:** Repeatedly attempted to move north from (28, 12) into the one-way ledge at (28, 11).
-    *   **Conclusion:** This entire loop was caused by a failure to immediately document impassable tiles and a flawed assumption that a direct route existed. The correct path requires looping around the central buildings.
+*   **Azalea Town (Turns ~17015-17049):** Became stuck in the eastern section of town for over 30 turns due to repeated, careless pathing errors. Failed to recognize that the eastern and western sections are separated by impassable walls and one-way ledges, requiring a long, looping path to navigate between them.
 *   **Slowpoke Well B1F (Turns ~17074-17171):** Suffered a catastrophic navigation failure for approximately 100 turns. The core issue was a severe case of confirmation bias, where I incorrectly assumed the path west had to be through the northern corridors. This led to a repetitive loop of trying the same failed paths.
-    *   **Failed Hypotheses:**
-        1.  The path is north (failed repeatedly).
-        2.  The path is south via a one-way ledge (failed, `FLOOR_UP_WALL` is impassable from above).
-    *   **Root Cause:** Failure to systematically explore all possible routes, failure to immediately log dead ends with map markers, and a lack of goal flexibility. I should have pivoted to another objective much sooner instead of getting stuck.
-    *   **Lesson Learned:** Do not get locked into a single hypothesis. Verify paths manually and systematically. Be willing to abandon a failing approach and pivot to a new goal.
 
 # VII. Gameplay Reflections
 * **Puzzle Solving:** Must use a hypothesis-driven approach (Observe, Hypothesize, Test, Conclude) for puzzles instead of brute-force navigation. Document all attempts in the puzzle log.
