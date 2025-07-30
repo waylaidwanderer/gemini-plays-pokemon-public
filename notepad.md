@@ -41,7 +41,7 @@
   5. Return to Victory Road to solve remaining puzzles.
 - **Key Discoveries:**
   - Boulders cannot be pushed onto `steps` tiles.
-  - It is possible to step down from an `elevated_ground` tile to an adjacent `ground` tile.
+  - It is NOT possible to step down from an `elevated_ground` tile to an adjacent `ground` tile unless using a `steps` tile.
   - Defeated trainers are impassable obstacles.
 
 # IV. Tool Development & Debugging
