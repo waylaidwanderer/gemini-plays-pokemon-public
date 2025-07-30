@@ -8,10 +8,12 @@
 *   **Verify Location:** Always verify map and coordinates before navigating.
 *   **Link NPC Markers:** Link all NPC markers to their `object_id`.
 *   **Fix Tools Immediately:** Fixing a broken tool or agent is the highest priority.
+*   **Apply Learned Lessons:** Consistently review and apply documented strategies, especially for navigation, to avoid repeating mistakes.
+*   **Utilize Created Tools:** Actively use custom agents and tools once they have been created for their intended purpose.
 
 ## B. Tile Traversal Rules
 *   **Traversable:** TALL_GRASS, LONG_GRASS, DOOR, WARP_CARPET_DOWN, LADDER, FLOOR.
-*   **Impassable (Verified):** WALL, WINDOW, CUT_TREE, SIGN, BOOKSHELF, BLACKBOARD, MART_SHELF, BUOY, TV, TOWN_MAP, BIRD, HEADBUTT_TREE, FRUIT_TREE, COMPUTER, PRINTER, VOID.
+*   **Impassable (Verified):** WALL, WINDOW, CUT_TREE, SIGN, BOOKSHELF, BLACKBOARD, MART_SHELF, BUOY, TV, TOWN_MAP, BIRD, HEADBUTT_TREE, FRUIT_TREE, COMPUTER, PRINTER, VOID, WATER, CAVE.
 *   **Special Interaction (Impassable but Interactable):**
     *   **PC:** Impassable. Interact by standing below it at (X, Y+1), facing up, and pressing 'A'.
     *   **COUNTER:** Impassable. Interact with NPCs behind it by standing in front of the counter and pressing 'A'.
@@ -26,7 +28,7 @@
 *   **Special Interaction (Weird Walls):**
     *   **FLOOR_UP_WALL:** A special tile type found in Union Cave. Movement onto this tile from an adjacent FLOOR tile is blocked. This was confirmed at (6, 17) -> (6, 18). It acts as a wall if approached from below (Y+1), but can be walked on from the sides or above. Essentially, it's a one-way ledge from above.
 *   **Special Interaction (Fishing):**
-    *   WATER: Impassable to walk on, but can be fished in with a rod.
+    *   **WATER:** Impassable to walk on, but can be fished in with a rod.
 *   **CUT_08 (Untested):** A variant of a cuttable tree.
 *   **CUT_28_GARBAGE (Untested):** A variant of a cuttable tree.
 *   **RADIO (Untested):** A radio, likely impassable.
@@ -51,8 +53,8 @@
     *   WADE (Route 31): Will share BERRIES.
     *   Hiker Anthony (Phone): Tons of DUNSPARCE in DARK CAVE.
 
-# IV. Tool Status
-*   **CRITICAL & PERMANENT SYSTEM FAILURE:** The Python sandbox is confirmed offline as of turn 17015. All attempts to diagnose or restart it, including following direct overwatch critiques, have failed. All Python-based tools are non-functional. Proceeding with manual navigation and abandoning all further attempts to fix the sandbox.
+# IV. Tool Status & Diagnostics
+*   **Python Sandbox:** The Python execution environment is currently unresponsive. The cause is under investigation using diagnostic tools. Previous conclusion of permanent failure was premature. All Python-based tools are considered non-functional until the issue is resolved.
 *   **Reasoning Agents (Functional):** `battle_strategist`, `exploration_strategist`, `quest_strategist`, `procedural_overseer`, `farfetchd_herder` remain operational.
 
 # V. Puzzle Logs
@@ -61,6 +63,7 @@
 *   **Objective:** Herd two Farfetch'd to the apprentice at (7, 28) for HM01 Cut.
 *   **Mechanic Hypothesis:** The Farfetch'd moves based on player position, not facing direction, and requires a clear, unobstructed tile to flee to.
 *   **Status:** One Farfetch'd has been herded. The second Farfetch'd is currently at (15, 25).
+*   **Agent Reminder:** Use the `farfetchd_herder` agent to solve this puzzle upon returning to Ilex Forest.
 
 # XIV. Battle Mechanics (Newly Observed)
 *   **Wrap:** Traps the target for several turns, preventing them from switching or fleeing.
@@ -71,6 +74,11 @@
     *   Blocked at (2, 34) when trying to move right from (1, 34).
     *   Blocked at (1, 39) when trying to move up from (1, 40).
     *   Blocked at (1, 32) by a HEADBUTT_TREE when trying to move up from (1, 33).
+*   **Azalea Town (Turns ~17015-17049):** Became stuck in the eastern section of town for over 30 turns due to repeated, careless pathing errors.
+    *   **Core Misunderstanding:** Failed to recognize that the eastern and western sections are separated by impassable walls and one-way ledges, requiring a long, looping path to navigate between them.
+    *   **Failed Path West:** Repeatedly attempted to move west from (28, 13) into the wall at (27, 13).
+    *   **Failed Path North:** Repeatedly attempted to move north from (28, 12) into the one-way ledge at (28, 11).
+    *   **Conclusion:** This entire loop was caused by a failure to immediately document impassable tiles and a flawed assumption that a direct route existed. The correct path requires looping around the central buildings.
 
 # VI. Strategic Pivots
 
@@ -81,15 +89,10 @@
 
 # VII. Gameplay Reflections
 * **Puzzle Solving:** Must use a hypothesis-driven approach (Observe, Hypothesize, Test, Conclude) for puzzles instead of brute-force navigation. Document all attempts in the puzzle log.
-* **Tool Development:**
 
 # VIII. New Hypotheses & Mechanics (Post-Reflection)
 *   **Tile Mechanic (VOID):** Added to impassable list. Appears to be a visual boundary marker.
 *   **Cut Quest Hypothesis:** If the Farfetch'd puzzle fails to yield HM01, the alternative hypothesis is that the Ilex Forest Shrine at (8, 22) is involved. The next step would be to investigate the shrine.
 
 # X. Navigational Failures Log
-*   **Azalea Town (Turns ~17015-17049):** Became stuck in the eastern section of town for over 30 turns due to repeated, careless pathing errors.
-    *   **Core Misunderstanding:** Failed to recognize that the eastern and western sections are separated by impassable walls and one-way ledges, requiring a long, looping path to navigate between them.
-    *   **Failed Path West:** Repeatedly attempted to move west from (28, 13) into the wall at (27, 13).
-    *   **Failed Path North:** Repeatedly attempted to move north from (28, 12) into the one-way ledge at (28, 11).
-    *   **Conclusion:** This entire loop was caused by a failure to immediately document impassable tiles and a flawed assumption that a direct route existed. The correct path requires looping around the central buildings.
+*   **Slowpoke Well (Turns ~17074-17100):** Multiple failed pathing attempts due to not carefully observing the map. Repeatedly tried to walk through walls or into dead ends instead of following the clear path. This highlights a need to be more methodical and less rushed in navigation.
