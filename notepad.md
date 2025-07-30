@@ -96,5 +96,4 @@
 # XI. Core Principles (Post-Reflection Updates)
 *   **Goal Flexibility:** If progress on a primary goal stalls for a significant period (e.g., 50+ turns) despite trying multiple documented hypotheses, I MUST pivot to a different primary or secondary goal. Do not remain stuck on a single objective indefinitely.
 *   **Proactive Tile Testing:** Upon encountering any new, undocumented tile type, I MUST immediately form a hypothesis about its traversability and conduct a simple test (e.g., trying to walk on it from all four directions). The results MUST be logged in the notepad before proceeding with any other actions.
-*   **WARP_CARPET_LEFT (Verified):** Can be activated by pressing the directional button of the warp while standing on the tile, regardless of facing direction.
-*   **WARP_CARPET_RIGHT (Verified):** Can be activated by pressing the directional button of the warp while standing on the tile, regardless of facing direction.
+*   **WARP_CARPET_LEFT / WARP_CARPET_RIGHT (Verified):** Can be activated by pressing the directional button of the warp (Left/Right) while standing on the tile, regardless of facing direction.

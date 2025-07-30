@@ -82,5 +82,28 @@
         "action_counter": 17549
       }
     ]
+  },
+  "reachability_checker": {
+    "description": "Checks a list of coordinates to see if they are reachable from the player's current position.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "target_coordinates": {
+          "type": "string",
+          "description": "A JSON string representing a list of coordinate objects, e.g., '[{\"x\":10, \"y\":5}]'"
+        }
+      },
+      "required": [
+        "target_coordinates"
+      ]
+    },
+    "python_script": "import xml.etree.ElementTree as ET\nimport heapq\nimport json\n\nroot = ET.fromstring(map_xml_string)\nwidth = int(root.attrib['width'])\nheight = int(root.attrib['height'])\nplayer_x, player_y = -1, -1\n\nfor r in root.findall('Row'):\n    for t in r.findall('Tile'):\n        if t.find('Player') is not None:\n            player_x = int(t.attrib['id'])\n            player_y = int(r.attrib['id'])\n            break\n    if player_x != -1:\n        break\n\ntarget_list = json.loads(input_data['target_coordinates'])\n\nimpassable_tiles = {'WALL', 'WINDOW', 'CUT_TREE', 'SIGN', 'BOOKSHELF', 'BLACKBOARD', 'MART_SHELF', 'BUOY', 'TV', 'TOWN_MAP', 'BIRD', 'HEADBUTT_TREE', 'FRUIT_TREE', 'COMPUTER', 'PRINTER', 'VOID', 'WATER', 'CAVE', 'CUT_08', 'CUT_28_GARBAGE', 'RADIO', 'INCENSE_BURNER', 'COUNTER'}\nledge_down = {'LEDGE_HOP_DOWN'}\nledge_right = {'LEDGE_HOP_RIGHT'}\nledge_left = {'LEDGE_HOP_LEFT'}\nfloor_up_wall = {'FLOOR_UP_WALL'}\n\ngrid = {}\nfor r in root.findall('Row'):\n    y = int(r.attrib['id'])\n    for t in r.findall('Tile'):\n        x = int(t.attrib['id'])\n        tile_type = t.attrib.get('type')\n        is_impassable = tile_type in impassable_tiles or t.find('Object') is not None\n        grid[(x, y)] = (tile_type, is_impassable)\n\ndef get_neighbors(x, y):\n    neighbors = []\n    for dx, dy, move in [(0, -1, 'Up'), (0, 1, 'Down'), (-1, 0, 'Left'), (1, 0, 'Right')]:\n        nx, ny = x + dx, y + dy\n        if 1 <= nx <= width and 1 <= ny <= height:\n            tile_type, is_impassable = grid.get((nx, ny), (None, True))\n            if is_impassable:\n                continue\n            current_tile_type, _ = grid.get((x, y), (None, True))\n            if tile_type in ledge_down and move != 'Up': continue\n            if tile_type in ledge_right and move != 'Left': continue\n            if tile_type in ledge_left and move != 'Right': continue\n            if tile_type in floor_up_wall and move != 'Up': continue\n            neighbors.append((nx, ny))\n    return neighbors\n\ndef heuristic(a, b):\n    return abs(a[0] - b[0]) + abs(a[1] - b[1])\n\nstart_node = (player_x, player_y)\nreachable_tiles = []\n\nfor target in target_list:\n    target_x = int(target['x'])\n    target_y = int(target['y'])\n    target_node = (target_x, target_y)\n\n    open_set = []\n    heapq.heappush(open_set, (0, start_node))\n    came_from = {}\n    g_score = {start_node: 0}\n    f_score = {start_node: heuristic(start_node, target_node)}\n\n    path_found = False\n    while open_set:\n        _, current = heapq.heappop(open_set)\n        if current == target_node:\n            reachable_tiles.append(target)\n            path_found = True\n            break\n        for neighbor in get_neighbors(current[0], current[1]):\n            tentative_g_score = g_score[current] + 1\n            if tentative_g_score < g_score.get(neighbor, float('inf')):\n                came_from[neighbor] = current\n                g_score[neighbor] = tentative_g_score\n                f_score[neighbor] = g_score[neighbor] + heuristic(neighbor, target_node)\n                if neighbor not in [i[1] for i in open_set]:\n                    heapq.heappush(open_set, (f_score[neighbor], neighbor))\n\nprint(json.dumps(reachable_tiles))",
+    "history": [
+      {
+        "commit_message": "feat: Recreate reachability checker. This tool was deleted during a series of failed refactors and rollbacks. It is being recreated with its last known stable code to restore the critical functionality of systematically checking for reachable unseen tiles, which is necessary to address system alerts and proceed with exploration.",
+        "timestamp": "2025-07-30T10:16:56.952Z",
+        "action_counter": 17578
+      }
+    ]
   }
 }
