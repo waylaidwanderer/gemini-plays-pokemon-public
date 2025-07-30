@@ -96,3 +96,8 @@
 *   **Route 32 (Turns ~18059-18060):** Wasted several turns trying to path south to Union Cave entrance (6, 79), forgetting my own documented discovery that the route contains one-way ledges making it impossible to travel north from that section. This is a critical failure in consulting my own documentation. **Lesson:** ALWAYS trust the tools and review relevant notes before planning a route.
 *   Grass is NOT VERY EFFECTIVE against Fire.
 *   **UI Unreliability:** The `TYPE/` display in battle can be incorrect (e.g., showing EKANS as Normal). Trust observed effectiveness messages over the UI.
+
+# VI. Farfetch'd Puzzle - Strategy Update
+*   **Status:** Recreated the `farfetchd_solver` tool.
+*   **Next Step:** Systematically search the forest to locate the Farfetch'd's current position.
+*   **Plan:** Once found, use the solver to calculate a path to herd it to the apprentice at (7, 28).
