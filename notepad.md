@@ -73,8 +73,8 @@
 *   **Azalea Town (Turns ~17015-17049):** Wasted 30+ turns due to failing to recognize one-way ledges and impassable walls, indicating poor map analysis.
 *   **Slowpoke Well B1F (Turns ~17074-17171):** Suffered a ~100 turn navigation failure due to confirmation bias, repeatedly trying a path that was proven impassable.
 *   **Union Cave Navigation (Turns ~17812-17877):** Wasted ~65 turns assuming a tool was broken instead of trusting its 'No path found' output, which correctly identified a water-separated area. **Lesson:** Trust the tools.
-*   **Route 33 (Turn 17878):** Confirmed via `reachability_analyzer` that the route is a one-way trap. This validated the tool's accuracy and highlighted a critical failure in my own visual assessment.
-*   **Union Cave B1F (Dead End):** Confirmed via `path_navigator` and `reachability_analyzer` that the ladder at 1F (5, 19) leads to an isolated, dead-end platform. This reinforces the need to trust tool outputs over assumptions.
+*   **Route 33 (Turn 17878):** Confirmed via `reachability_analyzer` that the path west to Azalea Town from the Union Cave exit is IMPOSSIBLE. The route is a one-way trap due to impassable ledges. The only way to proceed is to re-enter Union Cave at (11, 9). This is a critical lesson in trusting my tools over visual assessment.
+*   **Union Cave B1F (via ladder at 1F (5, 19)):** Confirmed via `path_navigator` and `reachability_analyzer` that this ladder leads to a small, isolated platform with no path to the southern part of the floor. It is a dead end. The only exit is back up the ladder.
 
 # VII. Gameplay Reflections
 *   **Puzzle Solving:** Must use a hypothesis-driven approach (Observe, Hypothesize, Test, Conclude) for puzzles instead of brute-force navigation. Document all attempts in the puzzle log.
