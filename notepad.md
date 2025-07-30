@@ -37,8 +37,8 @@
 - **Route 23 Navigation:** The route is split by a large body of water. The eastern path is a dead end for reaching Victory Road. The correct path is the western one, which requires backtracking from the eastern fork.
 - **Victory Road 1F - Boulder/Steps Interaction (Confirmed):** Boulders cannot be pushed onto `steps` tiles. This was confirmed after multiple failed attempts to push the boulder at (6, 15) north onto the steps at (6, 14).
 - **Victory Road 1F - Elevation Rule (Confirmed):** Movement between `ground` and `elevated_ground` is ONLY possible by traversing a `steps` tile. The full sequence is `elevated_ground` -> `steps` -> `ground` (and vice-versa). Direct movement between `elevated_ground` and any other lower-level tile type is impossible.
-- **Victory Road 2F - Western Boulder Puzzle (Status: BLOCKED):** `puzzle_strategist_agent` has confirmed the puzzle is impossible with standard push mechanics. **Hypothesis Disproven:** Interacting with Pikachu (walking onto his tile, then talking to him) did not change the puzzle state. The puzzle remains unsolvable. **New Plan:** Attempt to solve the eastern boulder puzzle first.
-- **Victory Road 2F - All Puzzles Blocked (Hypothesis):** `puzzle_strategist_agent` has confirmed both the western and eastern boulder puzzles are impossible in their current configurations. The solution likely requires an action on Victory Road 3F (e.g., dropping a new boulder) to alter the state of this floor. New plan is to explore 3F for a solution.
+- **Victory Road 2F - Western Boulder Puzzle (Status: BLOCKED):** Puzzle is impossible with standard push mechanics. **Hypothesis Disproven:** Interacting with Pikachu (walking onto his tile, then talking to him) did not change the puzzle state. The puzzle remains unsolvable.
+- **Victory Road 2F - All Puzzles Blocked (Hypothesis):** Both the western and eastern boulder puzzles are impossible in their current configurations. The solution likely requires an action on Victory Road 3F (e.g., dropping a new boulder) to alter the state of this floor.
 - **Victory Road 3F - Hole Puzzle:** Pushing the boulder at (14, 13) south into the hole at (14, 15) causes it to appear on the floor below.
 
 # IV. Archived Lessons & Tool Development
@@ -53,11 +53,5 @@
 - **Team Composition Advisor:** An agent to suggest optimal team compositions.
 - **Pathfinder Debugging Agent:** An agent to parse pathfinder debug output and provide a concise summary of why a path failed. This would automate the multi-step process I currently do manually.
 - **Route Analysis Agent:** An agent to analyze map connectivity and suggest high-level navigation strategies.
-- **Puzzle Executor Tool:** A tool that takes a puzzle solution (e.g., from `puzzle_strategist_agent`) and generates the precise sequence of button presses to execute the plan. This is a deterministic task better suited for a tool than an agent.
-
-# VI. Agent & Tool Development Notes
-- **`puzzle_strategist_agent`:** The agent's original plan for the eastern boulder puzzle on Victory Road 1F may have been correct. My pathfinder was too buggy to execute it. With the pathfinder now stable, this plan can be re-tested in the future if needed. The agent needs refinement to better process all impassable map data.
-
-# VII. Reflection Learnings (Turn 109992)
-- **Confirmation Bias:** I had a major hallucination that tile (3, 16) was passable. I clung to this belief despite my pathfinder repeatedly failing and multiple failed puzzle attempts. I must learn to trust my tools and data over my own intuition, and actively try to disprove my own hypotheses.
-- **Immediate Documentation:** I will continue to immediately log my discoveries and failed hypotheses to maintain an accurate knowledge base.
+- **Puzzle Executor Tool:** A tool that takes a puzzle solution and generates the precise sequence of button presses to execute the plan. This is a deterministic task better suited for a tool than an agent.
+- **Boulder Puzzle Solver Tool:** A computational tool that uses a search algorithm (like A*) to find a valid sequence of player and boulder moves to solve boulder puzzles. This is the correct replacement for the now-deleted `puzzle_strategist_agent`.
