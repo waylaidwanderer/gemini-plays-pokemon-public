@@ -36,3 +36,27 @@
 - **`puzzle_strategist_agent` Status:** The agent has proven reliable, correctly identifying an unsolvable puzzle on Victory Road 1F. It has been updated to provide step-by-step solutions for solvable puzzles.
 - **Debugging Principle:** Trust direct, in-game evidence over personal assumptions. When a tool fails after being corrected, re-evaluate the map data and my own understanding to find the true obstacle and form a new plan.
 - **Lesson on Confirmation Bias:** I must be wary of confirmation bias. I previously wasted time assuming a path was blocked because my tools were flawed and my understanding of game mechanics was incorrect. I must actively try to disprove my own assumptions and be more willing to change my strategy when my tools contradict my beliefs.
+
+# IV. Current Plans
+## A. Victory Road 2F Boulder Puzzle
+My `puzzle_strategist_agent` has provided a solution to the western boulder puzzle. I must execute the following plan to clear the barrier at (24, 15):
+1.  **Push boulder at (5, 15) DOWN:**
+    - Navigate to (5, 14).
+    - Use Strength.
+    - Move DOWN.
+2.  **Push boulder at (5, 16) LEFT:**
+    - Navigate to (6, 16).
+    - Use Strength.
+    - Move LEFT.
+3.  **Push boulder at (4, 16) DOWN:**
+    - Navigate to (4, 15).
+    - Use Strength.
+    - Move DOWN.
+4.  **Push boulder at (4, 17) LEFT:**
+    - Navigate to (5, 17).
+    - Use Strength.
+    - Move LEFT.
+5.  **Push boulder at (3, 17) LEFT:**
+    - Navigate to (4, 17).
+    - Use Strength.
+    - Move LEFT.
