@@ -30,22 +30,8 @@
 - **Immune (0x):** Flying immune to Ground; Ground immune to Electric; Ghost immune to Normal, Fighting
 - **Correction:** Psychic-type moves deal NEUTRAL (1x) damage to Rock-type Pokémon.
 
-# III. Current Strategy: Victory Road
-- **Objective:** Exit Victory Road to heal at the Indigo Plateau.
-- **Reasoning:** The party is critically injured. The only path to the exit is through the eastern boulder puzzle on 1F.
-- **Plan:**
-  1. Navigate to the eastern side of Victory Road 1F.
-  2. Solve the boulder puzzle to clear the barrier at (10, 13).
-  3. Navigate to the exit at (9, 18).
-  4. Heal at the Indigo Plateau.
-  5. Return to Victory Road to solve remaining puzzles.
-- **Key Discoveries & Hypotheses:**
-  - Boulders cannot be pushed onto `steps` tiles.
-  - It is NOT possible to step down from an `elevated_ground` tile to an adjacent `ground` tile unless using a `steps` tile. (CONFIRMED via blocked move at (12, 4))
-  - **Hypothesis:** Defeated trainers are impassable obstacles. (To be tested when a safe opportunity arises)
-
-# IV. Tool Development & Debugging
-- **`gem_pathfinder_v2` Status:** The tool's traversal logic for `elevated_ground` tiles has been corrected. The tool's assessment of path availability must be trusted.
-- **`puzzle_strategist_agent` Status:** The agent has been refined to perform a more exhaustive search of all possible moves before declaring a puzzle unsolvable.
+# III. Tool Development & Debugging
+- **`gem_pathfinder_v2` Status:** The tool is currently bugged and unreliable. It has repeatedly failed to generate valid paths, often suggesting moves into impassable tiles. **PRIORITY: Fix this tool before relying on it for navigation.**
+- **`puzzle_strategist_agent` Status:** The agent has proven reliable, correctly identifying an unsolvable puzzle on Victory Road 1F.
 - **Debugging Principle:** Trust direct, in-game evidence over personal assumptions. When a tool fails after being corrected, re-evaluate the map data and my own understanding to find the true obstacle and form a new plan.
 - **Lesson on Confirmation Bias:** I must be wary of confirmation bias. I previously wasted time assuming a path was blocked because my tools were flawed and my understanding of game mechanics was incorrect. I must actively try to disprove my own assumptions and be more willing to change my strategy when my tools contradict my beliefs.
