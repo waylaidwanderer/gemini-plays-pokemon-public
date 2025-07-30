@@ -45,7 +45,7 @@
 - **Efficient Debugging:** Vary test conditions to gather new diagnostic data.
 - **Immediate Action:** Log all data in the turn of discovery. This includes disproven hypotheses to avoid repeating mistakes.
 - **Trust Direct Observation:** Base understanding of mechanics on in-game observations.
-- **Tool Development Status (Under Investigation):** `gem_pathfinder_v2`: The pathfinder is currently failing to find valid paths on Victory Road 1F and 2F, specifically with elevation changes involving `steps`, `elevated_ground`, and `cleared_boulder_barrier` tiles. The cause is a flaw in the `get_neighbors` logic. The tool should not be considered reliable until the issue is resolved.
+- **Tool Development Status (Functional):** `gem_pathfinder_v2`: The pathfinder's core logic for elevation and tile traversal has been fixed. Past failures were primarily due to user error, specifically not using the `ignorable_coords` parameter to tell the tool to path around movable obstacles like boulders during puzzle-solving. The tool is now considered reliable for complex navigation, provided the correct parameters are used.
 
 # V. Future Development Ideas
 - **Team Composition Advisor:** An agent to suggest optimal team compositions.
