@@ -40,7 +40,7 @@
 ## C. Battle Mechanics
 *   **Wrap:** Traps the target for several turns, preventing them from switching or fleeing.
 
-# III. Story & Quests
+# IV. Story & Quests
 *   **Current Quest:** Solve the Ruins of Alph puzzles.
 *   **NPC Hints & Lore:**
     *   Fisher (Union Cave, 14, 19): Strange roars on weekends.
