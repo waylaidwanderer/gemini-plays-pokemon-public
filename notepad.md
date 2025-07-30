@@ -56,9 +56,3 @@
 - **Flee Agent:** An agent to automatically run from non-essential wild battles to improve navigation efficiency.
 - **Pathfinder Error Messages:** Refine `gem_pathfinder_v2` to provide more specific error messages on failure (e.g., 'Path failed due to illegal move between elevations'). This would make it a valuable diagnostic tool.
 - **Victory Road - Boulder Push Mechanic (Corrected):** When pushing a boulder, the player character does NOT move into the boulder's previous space, regardless of direction. This was confirmed on both 1F and 2F.
-
-# VI. Current Objective: Victory Road 1F
-## A. Western Boulder Puzzle (Attempt 1)
-- **Observation:** Trapped in the western corridor. The only apparent path forward is blocked by a boulder at (3, 12).
-- **Hypothesis:** Pushing the boulder at (3, 12) south will clear the path and allow access to the southern part of the map, leading to the exit warps.
-- **Test:** Push the boulder from (3, 12) to (3, 13).
