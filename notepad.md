@@ -45,6 +45,7 @@
   - Defeated trainers are impassable obstacles.
 
 # IV. Tool Development & Debugging
-- **`gem_pathfinder_v2` Status:** The tool has a known bug in its traversal logic for `elevated_ground` tiles, which is being corrected. My manual pathing has also been flawed, leading to incorrect assumptions. The tool's assessment of path availability must be trusted once the bug is fixed.
-- **Debugging Principle:** Trust the tool's output once it is confirmed to be working correctly. When it fails, re-evaluate the map data to find the true obstacle and form a new navigation plan.
-- **Lesson on Confirmation Bias:** I must be wary of confirmation bias. I previously wasted time assuming a path was blocked because my tool was flawed and my understanding of game mechanics was incorrect. I must actively try to disprove my own assumptions and be more willing to change my strategy when my tools contradict my beliefs.
+- **`gem_pathfinder_v2` Status:** The tool's traversal logic for `elevated_ground` tiles has been corrected. The tool's assessment of path availability must be trusted.
+- **`puzzle_strategist_agent` Status:** The agent has a known logical flaw, incorrectly identifying solvable puzzles as impossible. It needs to be refined to perform a more exhaustive search of all possible moves before declaring a puzzle unsolvable.
+- **Debugging Principle:** Trust tool outputs once they are confirmed to be working correctly. When a tool fails, re-evaluate the map data and my own assumptions to find the true obstacle and form a new plan.
+- **Lesson on Confirmation Bias:** I must be wary of confirmation bias. I previously wasted time assuming a path was blocked because my tools were flawed and my understanding of game mechanics was incorrect. I must actively try to disprove my own assumptions and be more willing to change my strategy when my tools contradict my beliefs.
