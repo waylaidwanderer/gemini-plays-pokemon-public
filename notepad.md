@@ -35,8 +35,6 @@
 *   **INCENSE_BURNER (Untested):** An incense burner, likely impassable.
 *   **VOID (Verified):** Impassable. Appears to be a visual boundary marker.
 *   **WARP_CARPET_LEFT (Verified):** Requires being on the tile, facing the direction of the warp, and then pressing the directional button again.
-*   **VOID (Verified):** Impassable. Appears to be a visual boundary marker.
-*   **WARP_CARPET_LEFT (Verified):** Requires being on the tile, facing the direction of the warp, and then pressing the directional button again.
 
 # II. Battle Information
 
