@@ -42,10 +42,7 @@
 - **Victory Road 2F - Defeated Trainers (Confirmed):** Defeated trainers are impassable obstacles.
 
 # IV. Agent & Tool Development
-## A. Development Ideas
-- **Floor Strategist Agent:** An agent that takes a floor's puzzle elements and impassable coordinates to generate a high-level strategic plan, identifying solvable puzzles and potential dead ends before manual exploration.
-
-## B. Tool Status & Lessons
+## A. Tool Status & Lessons
 - `gem_pathfinder_v2` (Confirmed): The tool is working correctly. My manual pathing has been repeatedly flawed, leading me to incorrectly assume the tool was bugged. The tool's assessment of path availability is based on the ground-truth map XML and MUST be trusted over manual pathing attempts.
 
 # V. Debugging Methodology
@@ -54,3 +51,4 @@
   1. If `gem_pathfinder_v2` returns 'No path found', trust its assessment.
   2. My understanding of the map is likely wrong. I must re-evaluate the map data (especially tile types like `steps` and `elevated_ground`) to find the true obstacle and form a new navigation plan.
   3. Only if a path is manually verified to be 100% valid according to established traversal rules should a tool bug be considered. In that case, add logging to diagnose the issue.
+- **Lesson on Confirmation Bias:** I must be wary of confirmation bias. I previously wasted time on the Victory Road 1F eastern puzzle because I *assumed* it was the correct path, ignoring evidence from my tools that it was blocked. I must actively try to disprove my own assumptions and be more willing to change my strategy when my tools contradict my beliefs.
