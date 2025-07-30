@@ -61,7 +61,7 @@
 *   **Objective:** Herd two Farfetch'd to the apprentice at (7, 28) for HM01 Cut.
 *   **Mechanic Hypothesis:** The Farfetch'd moves based on player position, not facing direction, and requires a clear, unobstructed tile to flee to.
 *   **Status:** One Farfetch'd has been herded. The second Farfetch'd is currently at (15, 25).
-*   **Agent Reminder:** Use the `farfetchd_herder` agent to solve this puzzle upon returning to Ilex Forest.
+*   **Tool Reminder:** A custom tool is needed to solve this puzzle systematically.
 
 # XIV. Battle Mechanics (Newly Observed)
 *   **Wrap:** Traps the target for several turns, preventing them from switching or fleeing.
