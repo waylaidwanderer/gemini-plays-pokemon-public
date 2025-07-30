@@ -23,7 +23,7 @@
     *   LEDGE_HOP_LEFT: Can only be entered from the right.
 *   **Special Interaction (Warp):**
     *   **CAVE:** Can act as a one-way warp. The tile at Route 33 (11, 9) is a confirmed one-way entrance to Union Cave (17, 31). The tile at Route 32 (6, 79) is a confirmed one-way entrance to Union Cave (17, 3). Should be treated as impassable for pathfinding.
-    *   **WARP_CARPET_LEFT / WARP_CARPET_RIGHT (Verified):** Can be activated by pressing the directional button of the warp (Left/Right) while standing on the tile, regardless of facing direction.
+    *   **WARP_CARPET (Verified):** Can be activated by pressing the directional button of the warp (Left/Right/Down) while standing on the tile, regardless of facing direction.
 *   **Special Interaction (Weird Walls):**
     *   **FLOOR_UP_WALL:** A special one-way tile. **Verified Rule:** Can only be traversed by moving UP onto it from a tile below (Y+1 -> Y). It is impassable from all other directions (above, left, right, and when trying to move down onto it). Verified at SlowpokeWellB1F (9,3)->(9,2).
 *   **Special Interaction (Fishing):**
