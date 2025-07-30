@@ -26,7 +26,7 @@
     *   **WARP_CARPET_RIGHT:** Requires being on the tile, facing the direction of the warp, and then pressing the directional button again.
     *   **WARP_CARPET_LEFT:** Requires being on the tile, facing the direction of the warp, and then pressing the directional button again.
 *   **Special Interaction (Weird Walls):**
-    *   **FLOOR_UP_WALL:** A special tile type. **Verified Rule:** Movement from a FLOOR tile at (Y) DOWN onto a FLOOR_UP_WALL tile at (Y+1) is impossible. This was verified at SlowpokeWellB1F (16,15)->(16,16). This tile acts as a wall when approached from above.
+    *   **FLOOR_UP_WALL:** A special one-way tile. **Verified Rule:** Can only be traversed by moving UP onto it from a tile below (Y+1 -> Y). It is impassable from all other directions (above, left, right, and when trying to move down onto it). Verified at SlowpokeWellB1F (9,3)->(9,2).
 *   **Special Interaction (Fishing):**
     *   **WATER:** Impassable to walk on, but can be fished in with a rod.
 *   **CUT_08 (Untested):** A variant of a cuttable tree.
