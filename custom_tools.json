@@ -75,5 +75,31 @@
         "action_counter": 17221
       }
     ]
+  },
+  "path_navigator": {
+    "description": "A pathfinding tool that uses A* to find the shortest path from the player's current position to a target coordinate on the current map. It accounts for all impassable tile types and one-way ledges based on documented notepad rules.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "target_x": {
+          "type": "string"
+        },
+        "target_y": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "target_x",
+        "target_y"
+      ]
+    },
+    "python_script": "import xml.et.ree.ElementTree as ET\nimport heapq\n\nroot = ET.fromstring(map_xml_string)\nmap_width = int(root.get('width'))\nmap_height = int(root.get('height'))\nplayer_pos = None\n\ngrid = [[0 for _ in range(map_width + 1)] for _ in range(map_height + 1)]\ntiles = {}\n\nfor row_elem in root.findall('Row'):\n    y = int(row_elem.get('id'))\n    for tile_elem in row_elem.findall('Tile'):\n        x = int(tile_elem.get('id'))\n        tile_type = tile_elem.get('type')\n        tiles[(x, y)] = tile_type\n        if tile_elem.find('Player') is not None:\n            player_pos = (x, y)\n        impassable_types = ['WALL', 'WINDOW', 'CUT_TREE', 'SIGN', 'BOOKSHELF', 'BLACKBOARD', 'MART_SHELF', 'BUOY', 'TV', 'TOWN_MAP', 'BIRD', 'HEADBUTT_TREE', 'FRUIT_TREE', 'COMPUTER', 'PRINTER', 'VOID', 'WATER', 'CAVE', 'COUNTER', 'PC', 'CUT_08', 'CUT_28_GARBAGE', 'RADIO', 'INCENSE_BURNER']\n        if tile_type in impassable_types or tile_elem.find('Object') is not None:\n            grid[y][x] = 1\n\nif not player_pos:\n    print(\"Error: Player position not found.\")\n    exit()\n\nstart = player_pos\ntarget_x = int(input_data['target_x'])\ntarget_y = int(input_data['target_y'])\ngoal = (target_x, target_y)\n\ndef heuristic(a, b):\n    return abs(a[0] - b[0]) + abs(a[1] - b[1])\n\ndef get_neighbors(pos):\n    x, y = pos\n    neighbors = []\n    for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n        nx, ny = x + dx, y + dy\n        if 1 <= nx <= map_width and 1 <= ny <= map_height:\n            neighbor_tile_type = tiles.get((nx, ny))\n            if grid[ny][nx] == 1:\n                continue\n            if neighbor_tile_type == 'LEDGE_HOP_DOWN' and dy != 1:\n                continue\n            if neighbor_tile_type == 'LEDGE_HOP_LEFT' and dx != -1:\n                continue\n            if neighbor_tile_type == 'LEDGE_HOP_RIGHT' and dx != 1:\n                continue\n            if neighbor_tile_type == 'FLOOR_UP_WALL' and dy != -1:\n                continue\n            neighbors.append(((nx, ny), 1))\n    return neighbors\n\ndef a_star_search(start, goal):\n    frontier = []\n    heapq.heappush(frontier, (0, start))\n    came_from = {start: None}\n    cost_so_far = {start: 0}\n    while not len(frontier) == 0:\n        current_priority, current_node = heapq.heappop(frontier)\n        if current_node == goal:\n            break\n        for next_node, cost in get_neighbors(current_node):\n            new_cost = cost_so_far[current_node] + cost\n            if next_node not in cost_so_far or new_cost < cost_so_far[next_node]:\n                cost_so_far[next_node] = new_cost\n                priority = new_cost + heuristic(goal, next_node)\n                heapq.heappush(frontier, (priority, next_node))\n                came_from[next_node] = current_node\n    path = []\n    current = goal\n    while current != start:\n        if current not in came_from:\n            return None\n        path.append(current)\n        current = came_from[current]\n    path.append(start)\n    path.reverse()\n    if path[0] == start:\n        return path\n    else:\n        return None\n\npath = a_star_search(start, goal)\nif path:\n    path_str = \"->\".join([f\"({x},{y})\" for x, y in path])\n    print(f\"Path found: {path_str}\")\nelse:\n    print(\"No path found.\")",
+    "history": [
+      {
+        "commit_message": "feat: Recreate pathfinder as path_navigator. The `pathfinder` tool is consistently failing with a sandbox error. This is a diagnostic attempt to create a fresh tool with the same code under a new name to see if it bypasses a potential caching or corruption issue with the original tool's execution environment. This is the highest priority action to restore navigational capabilities.",
+        "timestamp": "2025-07-30T06:50:04.701Z",
+        "action_counter": 17311
+      }
+    ]
   }
 }
