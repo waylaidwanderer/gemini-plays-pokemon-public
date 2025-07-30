@@ -52,7 +52,7 @@
     *   Hiker Anthony (Phone): Tons of DUNSPARCE in DARK CAVE.
 
 # IV. Tool Status
-*   **Python Sandbox Status (Uncertain):** The status of the Python sandbox is currently unknown. Recent diagnostic tests have failed, but system critiques suggest this may be a recoverable error, not a permanent failure. Further diagnosis is required.
+*   **CRITICAL & PERMANENT SYSTEM FAILURE:** The Python sandbox is confirmed offline as of turn 17015. All attempts to diagnose or restart it, including following direct overwatch critiques, have failed. All Python-based tools are non-functional. Proceeding with manual navigation and abandoning all further attempts to fix the sandbox.
 *   **Reasoning Agents (Functional):** `battle_strategist`, `exploration_strategist`, `quest_strategist`, `procedural_overseer`, `farfetchd_herder` remain operational.
 
 # V. Puzzle Logs
