@@ -52,7 +52,7 @@
     *   Hiker Anthony (Phone): Tons of DUNSPARCE in DARK CAVE.
 
 # IV. Tool Status
-*   **CRITICAL & PERMANENT SYSTEM FAILURE:** The Python sandbox is confirmed offline as of turn 16652. The system critique on turn 16650 was a hallucination. All attempts to diagnose or restart it have failed. All Python-based tools (`pathfinder`, `unseen_tile_checker`, `run_code`, and all debug tools) are non-functional. Proceeding with manual navigation and abandoning all attempts to fix the sandbox.
+*   **Python Sandbox Status (Uncertain):** The status of the Python sandbox is currently unknown. Recent diagnostic tests have failed, but system critiques suggest this may be a recoverable error, not a permanent failure. Further diagnosis is required.
 *   **Reasoning Agents (Functional):** `battle_strategist`, `exploration_strategist`, `quest_strategist`, `procedural_overseer`, `farfetchd_herder` remain operational.
 
 # V. Puzzle Logs
