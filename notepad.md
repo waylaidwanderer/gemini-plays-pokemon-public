@@ -54,3 +54,5 @@
   1. If `gem_pathfinder_v2` returns 'No path found', trust its assessment.
   2. My understanding of the map is likely wrong. I must re-evaluate the map data (especially tile types like `steps` and `elevated_ground`) to find the true obstacle and form a new navigation plan.
   3. Only if a path is manually verified to be 100% valid according to established traversal rules should a tool bug be considered. In that case, add logging to diagnose the issue.
+- `boulder_barrier`: Impassable barrier linked to a boulder switch.
+- `cleared_boulder_barrier`: A former barrier, now acts as `ground`.
