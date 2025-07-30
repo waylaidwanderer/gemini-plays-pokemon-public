@@ -49,7 +49,7 @@
 - **Pathfinder Debugging Agent:** An agent to parse pathfinder debug output and provide a concise summary of why a path failed. This would automate the multi-step process I currently do manually.
 - **Route Analysis Agent:** An agent to analyze map connectivity and suggest high-level navigation strategies.
 - **Puzzle Executor Tool:** A tool that takes a puzzle solution and generates the precise sequence of button presses to execute the plan. This is a deterministic task better suited for a tool than an agent.
-- **Boulder Puzzle Solver Tool:** A computational tool that uses a search algorithm (like A*) to find a valid sequence of player and boulder moves to solve boulder puzzles. This is the correct replacement for the now-deleted `puzzle_strategist_agent`.
+- **Boulder Puzzle Solver Tool:** A computational tool that uses a search algorithm (like A*) to find a valid sequence of player and boulder moves to solve boulder puzzles.
 - **Flee Agent:** An agent to automatically run from non-essential wild battles to improve navigation efficiency.
 - **Pathfinder Error Messages:** Refine `gem_pathfinder_v2` to provide more specific error messages on failure (e.g., 'Path failed due to illegal move between elevations'). This would make it a valuable diagnostic tool.
 - **Puzzle Strategist Agent:** An agent to analyze the current state of a puzzle (e.g., boulder and switch locations) and devise a high-level strategic solution. This would separate the 'what to do' (agent's job) from the 'how to do it' (tool's job).
@@ -57,7 +57,7 @@
 - **Pathfinder Debugging Agent:** An agent to parse pathfinder debug output and provide a concise summary of why a path failed. This would automate the multi-step process I currently do manually.
 - **Route Analysis Agent:** An agent to analyze map connectivity and suggest high-level navigation strategies.
 - **Puzzle Executor Tool:** A tool that takes a puzzle solution and generates the precise sequence of button presses to execute the plan. This is a deterministic task better suited for a tool than an agent.
-- **Boulder Puzzle Solver Tool:** A computational tool that uses a search algorithm (like A*) to find a valid sequence of player and boulder moves to solve boulder puzzles. This is the correct replacement for the now-deleted `puzzle_strategist_agent`.
+- **Boulder Puzzle Solver Tool:** A computational tool that uses a search algorithm (like A*) to find a valid sequence of player and boulder moves to solve boulder puzzles.
 - **Flee Agent:** An agent to automatically run from non-essential wild battles to improve navigation efficiency.
 - **Pathfinder Error Messages:** Refine `gem_pathfinder_v2` to provide more specific error messages on failure (e.g., 'Path failed due to illegal move between elevations'). This would make it a valuable diagnostic tool.
 
