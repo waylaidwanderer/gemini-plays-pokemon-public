@@ -46,6 +46,6 @@
 - **Principle:** Avoid confirmation bias. When a tool fails, do not assume it's a bug. First, use `tool_diagnostics_agent` to get an objective assessment.
 - **Process:**
   1. If a tool fails (e.g., `gem_pathfinder_v2` returns 'No path found'), do not immediately try to fix it.
-  2. Call `tool_diagnostics_agent` with the tool's output and the complete `map_xml_string`.
+  2. Call `tool_diagnostics_agent` with the tool's output and a summary of the map layout.
   3. **If Assessment is 'Correct Assessment':** My understanding of the map is wrong. I must re-evaluate the map data to find the true obstacle and form a new navigation plan.
   4. **If Assessment is 'Likely Tool Bug':** The tool is likely flawed. Add extensive logging, re-run the tool to capture debug data, analyze the logs to form a hypothesis about the bug, and then implement a fix.
