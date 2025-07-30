@@ -44,9 +44,9 @@
 - **Immediate Action:** Log all data and fix all tools in the turn of discovery. This includes disproven hypotheses to avoid repeating mistakes.
 - **Tool Development Status (Functional):** `gem_pathfinder_v2`: The pathfinder's core logic is now considered reliable. Past failures were primarily due to user error, specifically not using the `ignorable_coords` parameter to tell the tool to path around movable obstacles during puzzle-solving.
 
-# V. Future Development Ideas
+# V. Agent & Tool Development Status
 
-- **Puzzle Strategist Agent:** An agent to analyze the current state of a puzzle (e.g., boulder and switch locations) and devise a high-level strategic solution. This would separate the 'what to do' (agent's job) from the 'how to do it' (tool's job).
+- **puzzle_strategist_agent (Defined):** An agent to analyze the current state of a puzzle and devise a high-level strategic solution. Status: Defined, requires field testing at the next puzzle opportunity.
 
 # VI. Victory Road Puzzles
 ## A. Victory Road 2F - Western Boulder Puzzle
