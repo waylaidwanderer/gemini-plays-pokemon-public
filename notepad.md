@@ -48,4 +48,4 @@
 
 # V. Agent & Tool Development Status
 
-- **puzzle_strategist_agent (Flawed):** The agent provided a critically flawed solution on Victory Road 3F that was physically impossible. It has been updated with a new rule to verify paths but requires further testing before use.
+- **puzzle_strategist_agent (BROKEN):** Provided a physically impossible solution on Victory Road 3F. DO NOT USE. The recent 'fix' is insufficient and requires a full logic overhaul before the agent can be trusted.
