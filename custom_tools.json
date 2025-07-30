@@ -1,53 +1,4 @@
 {
-  "get_impassable_coords": {
-    "description": "Parses the map_xml_string to find all impassable tiles and boulder locations, then returns them as a JSON list. This is a helper tool for puzzle-solving agents.",
-    "input_schema": {},
-    "python_script": "import xml.etree.ElementTree as ET\nimport json\n\nroot = ET.fromstring(map_xml_string)\nimpassable_coords = []\nfor row_elem in root.findall('Row'):\n    y = int(row_elem.get('id'))\n    for tile_elem in row_elem.findall('Tile'):\n        x = int(tile_elem.get('id'))\n        tile_type = tile_elem.get('type')\n        if tile_type == 'impassable' or tile_elem.find('Boulder') is not None:\n            impassable_coords.append([x, y])\nprint(json.dumps(impassable_coords))",
-    "history": [
-      {
-        "commit_message": "feat: Create get_impassable_coords tool. This automates a repetitive task (extracting impassable tile data) that was previously done with `run_code`. This will streamline the input gathering process for puzzle-solving agents like `boulder_puzzle_solver_agent`.",
-        "timestamp": "2025-07-25T20:22:21.507Z",
-        "action_counter": 100430
-      },
-      {
-        "commit_message": "fix: Correct SyntaxError. The original one-line script was causing a syntax error. This commit rewrites the script with proper Python formatting and indentation to ensure it runs correctly. This is critical for the boulder puzzle solving process.",
-        "timestamp": "2025-07-25T20:29:10.807Z",
-        "action_counter": 100439
-      },
-      {
-        "commit_message": "feat: Create get_impassable_coords tool. This automates a repetitive task (extracting impassable tile data) that was previously done with `run_code`. This will streamline the input gathering process for puzzle-solving agents like `boulder_puzzle_solver_agent`.",
-        "timestamp": "2025-07-26T19:26:49.541Z",
-        "action_counter": 102822
-      }
-    ]
-  },
-  "get_puzzle_elements": {
-    "description": "Parses the map_xml_string to find all boulder, switch, and barrier locations, then returns them as a JSON object. This is a helper tool for the puzzle_strategist_agent.",
-    "input_schema": {},
-    "python_script": "import xml.etree.ElementTree as ET\nimport json\n\nroot = ET.fromstring(map_xml_string)\npuzzle_elements = {'boulders': [], 'switches': [], 'barriers': []}\nfor row_elem in root.findall('Row'):\n    y = int(row_elem.get('id'))\n    for tile_elem in row_elem.findall('Tile'):\n        x = int(tile_elem.get('id'))\n        if tile_elem.find('Boulder') is not None:\n            puzzle_elements['boulders'].append([x, y])\n        if tile_elem.find('BoulderSwitch') is not None:\n            puzzle_elements['switches'].append([x, y])\n        if tile_elem.get('type') == 'boulder_barrier':\n            puzzle_elements['barriers'].append([x, y])\nprint(json.dumps(puzzle_elements))",
-    "history": [
-      {
-        "commit_message": "feat: Create get_puzzle_elements tool. This tool extracts the coordinates of boulders, switches, and barriers from the map XML. It's a necessary helper to provide structured data to the `puzzle_strategist_agent`, addressing the misuse error and following the proper tool/agent workflow.",
-        "timestamp": "2025-07-27T14:43:28.323Z",
-        "action_counter": 104732
-      },
-      {
-        "commit_message": "feat: Create get_puzzle_elements tool. This tool extracts the coordinates of boulders, switches, and barriers from the map XML. It's a necessary helper to provide structured data to the `puzzle_strategist_agent`, addressing the misuse error and following the proper tool/agent workflow.",
-        "timestamp": "2025-07-27T14:44:06.282Z",
-        "action_counter": 104733
-      },
-      {
-        "commit_message": "feat: Create get_puzzle_elements tool. This tool extracts the coordinates of boulders, switches, and barriers from the map XML. It's a necessary helper to provide structured data to the `puzzle_strategist_agent`, addressing the misuse error and following the proper tool/agent workflow.",
-        "timestamp": "2025-07-27T15:53:23.835Z",
-        "action_counter": 104846
-      },
-      {
-        "commit_message": "feat: Create get_puzzle_elements tool. This tool extracts the coordinates of boulders, switches, and barriers from the map XML. It's a necessary helper to provide structured data to a future `puzzle_strategist_agent`, improving my puzzle-solving workflow as identified during my mandatory reflection.",
-        "timestamp": "2025-07-29T05:18:37.642Z",
-        "action_counter": 108537
-      }
-    ]
-  },
   "gem_pathfinder_v2": {
     "description": "A new, rebuilt A* pathfinding tool. This version is designed from the ground up to be more reliable, with a specific focus on correctly handling elevation changes via 'steps' and other connector tiles. It treats all NPCs (except Pikachu) and boulders as impassable obstacles, unless a boulder's coordinates are explicitly provided to be ignored. It now supports a surfing mode.",
     "input_schema": {
@@ -224,6 +175,55 @@
         "commit_message": "refactor: Remove extensive debug logging. The pathfinder's logic is confirmed to be working as intended. The debug prints, while useful for diagnostics, are no longer necessary and are cluttering the tool's output. This commit removes them for a cleaner and more efficient execution.",
         "timestamp": "2025-07-30T02:04:18.582Z",
         "action_counter": 110245
+      }
+    ]
+  },
+  "get_impassable_coords": {
+    "description": "Parses the map_xml_string to find all impassable tiles and boulder locations, then returns them as a JSON list. This is a helper tool for puzzle-solving agents.",
+    "input_schema": {},
+    "python_script": "import xml.etree.ElementTree as ET\nimport json\n\nroot = ET.fromstring(map_xml_string)\nimpassable_coords = []\nfor row_elem in root.findall('Row'):\n    y = int(row_elem.get('id'))\n    for tile_elem in row_elem.findall('Tile'):\n        x = int(tile_elem.get('id'))\n        tile_type = tile_elem.get('type')\n        if tile_type == 'impassable' or tile_elem.find('Boulder') is not None:\n            impassable_coords.append([x, y])\nprint(json.dumps(impassable_coords))",
+    "history": [
+      {
+        "commit_message": "feat: Create get_impassable_coords tool. This automates a repetitive task (extracting impassable tile data) that was previously done with `run_code`. This will streamline the input gathering process for puzzle-solving agents like `boulder_puzzle_solver_agent`.",
+        "timestamp": "2025-07-25T20:22:21.507Z",
+        "action_counter": 100430
+      },
+      {
+        "commit_message": "fix: Correct SyntaxError. The original one-line script was causing a syntax error. This commit rewrites the script with proper Python formatting and indentation to ensure it runs correctly. This is critical for the boulder puzzle solving process.",
+        "timestamp": "2025-07-25T20:29:10.807Z",
+        "action_counter": 100439
+      },
+      {
+        "commit_message": "feat: Create get_impassable_coords tool. This automates a repetitive task (extracting impassable tile data) that was previously done with `run_code`. This will streamline the input gathering process for puzzle-solving agents like `boulder_puzzle_solver_agent`.",
+        "timestamp": "2025-07-26T19:26:49.541Z",
+        "action_counter": 102822
+      }
+    ]
+  },
+  "get_puzzle_elements": {
+    "description": "Parses the map_xml_string to find all boulder, switch, and barrier locations, then returns them as a JSON object. This is a helper tool for the puzzle_strategist_agent.",
+    "input_schema": {},
+    "python_script": "import xml.etree.ElementTree as ET\nimport json\n\nroot = ET.fromstring(map_xml_string)\npuzzle_elements = {'boulders': [], 'switches': [], 'barriers': []}\nfor row_elem in root.findall('Row'):\n    y = int(row_elem.get('id'))\n    for tile_elem in row_elem.findall('Tile'):\n        x = int(tile_elem.get('id'))\n        if tile_elem.find('Boulder') is not None:\n            puzzle_elements['boulders'].append([x, y])\n        if tile_elem.find('BoulderSwitch') is not None:\n            puzzle_elements['switches'].append([x, y])\n        if tile_elem.get('type') == 'boulder_barrier':\n            puzzle_elements['barriers'].append([x, y])\nprint(json.dumps(puzzle_elements))",
+    "history": [
+      {
+        "commit_message": "feat: Create get_puzzle_elements tool. This tool extracts the coordinates of boulders, switches, and barriers from the map XML. It's a necessary helper to provide structured data to the `puzzle_strategist_agent`, addressing the misuse error and following the proper tool/agent workflow.",
+        "timestamp": "2025-07-27T14:43:28.323Z",
+        "action_counter": 104732
+      },
+      {
+        "commit_message": "feat: Create get_puzzle_elements tool. This tool extracts the coordinates of boulders, switches, and barriers from the map XML. It's a necessary helper to provide structured data to the `puzzle_strategist_agent`, addressing the misuse error and following the proper tool/agent workflow.",
+        "timestamp": "2025-07-27T14:44:06.282Z",
+        "action_counter": 104733
+      },
+      {
+        "commit_message": "feat: Create get_puzzle_elements tool. This tool extracts the coordinates of boulders, switches, and barriers from the map XML. It's a necessary helper to provide structured data to the `puzzle_strategist_agent`, addressing the misuse error and following the proper tool/agent workflow.",
+        "timestamp": "2025-07-27T15:53:23.835Z",
+        "action_counter": 104846
+      },
+      {
+        "commit_message": "feat: Create get_puzzle_elements tool. This tool extracts the coordinates of boulders, switches, and barriers from the map XML. It's a necessary helper to provide structured data to a future `puzzle_strategist_agent`, improving my puzzle-solving workflow as identified during my mandatory reflection.",
+        "timestamp": "2025-07-29T05:18:37.642Z",
+        "action_counter": 108537
       }
     ]
   }

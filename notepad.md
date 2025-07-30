@@ -55,3 +55,4 @@
 - **Boulder Puzzle Solver Tool:** A computational tool that uses a search algorithm (like A*) to find a valid sequence of player and boulder moves to solve boulder puzzles. This is the correct replacement for the now-deleted `puzzle_strategist_agent`.
 - **Flee Agent:** An agent to automatically run from non-essential wild battles to improve navigation efficiency.
 - **Pathfinder Error Messages:** Refine `gem_pathfinder_v2` to provide more specific error messages on failure (e.g., 'Path failed due to illegal move between elevations'). This would make it a valuable diagnostic tool.
+- **Victory Road 1F - Boulder Push Mechanic (Confirmed):** When pushing a boulder horizontally, the player character does NOT move into the boulder's previous space. The player remains stationary. This is a key difference from vertical pushes.
