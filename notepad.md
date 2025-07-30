@@ -82,3 +82,7 @@
 # VII. Gameplay Reflections
 * **Puzzle Solving:** Must use a hypothesis-driven approach (Observe, Hypothesize, Test, Conclude) for puzzles instead of brute-force navigation. Document all attempts in the puzzle log.
 * **Tool Development:**
+
+# VIII. New Hypotheses & Mechanics (Post-Reflection)
+*   **Tile Mechanic (VOID):** Added to impassable list. Appears to be a visual boundary marker.
+*   **Cut Quest Hypothesis:** If the Farfetch'd puzzle fails to yield HM01, the alternative hypothesis is that the Ilex Forest Shrine at (8, 22) is involved. The next step would be to investigate the shrine.
