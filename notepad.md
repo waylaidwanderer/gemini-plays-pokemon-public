@@ -37,7 +37,7 @@
 - **Route 23 Navigation:** The route is split by a large body of water. The eastern path is a dead end for reaching Victory Road. The correct path is the western one, which requires backtracking from the eastern fork.
 - **Victory Road 1F - Boulder/Steps Interaction (Confirmed):** Boulders cannot be pushed onto `steps` tiles. This was confirmed after multiple failed attempts to push the boulder at (6, 15) north onto the steps at (6, 14).
 - **Victory Road 1F - Elevation Rule (Confirmed):** Movement between `ground` and `elevated_ground` is ONLY possible by traversing a `steps` tile. The full sequence is `elevated_ground` -> `steps` -> `ground` (and vice-versa). Direct movement between `elevated_ground` and any other lower-level tile type is impossible.
-- **Victory Road 2F - Western Boulder Puzzle (Status: BLOCKED):** Puzzle is impossible with standard push mechanics. **Hypothesis Disproven:** Interacting with Pikachu (walking onto his tile, then talking to him) did not change the puzzle state. The puzzle remains unsolvable.
+- **Victory Road 2F - Western Boulder Puzzle (Status: SOLVED):** Pushed boulder from (5, 15) to switch at (2, 17). This cleared the barrier at (8, 9) and (8, 10), opening the path to the eastern side of the floor.
 - **Victory Road 2F - All Puzzles Blocked (Hypothesis):** Both the western and eastern boulder puzzles are impossible in their current configurations. The solution likely requires an action on Victory Road 3F (e.g., dropping a new boulder) to alter the state of this floor.
 - **Victory Road 3F - Hole Puzzle:** Pushing the boulder at (14, 13) south into the hole at (14, 15) causes it to appear on the floor below.
 
@@ -55,3 +55,4 @@
 - **Route Analysis Agent:** An agent to analyze map connectivity and suggest high-level navigation strategies.
 - **Puzzle Executor Tool:** A tool that takes a puzzle solution and generates the precise sequence of button presses to execute the plan. This is a deterministic task better suited for a tool than an agent.
 - **Boulder Puzzle Solver Tool:** A computational tool that uses a search algorithm (like A*) to find a valid sequence of player and boulder moves to solve boulder puzzles. This is the correct replacement for the now-deleted `puzzle_strategist_agent`.
+- **Flee Agent:** An agent to automatically run from non-essential wild battles to improve navigation efficiency.
