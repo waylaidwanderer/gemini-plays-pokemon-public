@@ -1,7 +1,7 @@
 # Gem's Pokémon Crystal Adventure Log
 
 # I. Core Principles & Lessons Learned
-*   **Trust Your Tools:** A verified tool's output (e.g., 'No path found') is a source of truth. Trust it over your own assumptions about map connectivity.
+*   **Trust Your Tools:** A verified tool's output (e.g., `path_finder` reporting 'No path found' or `reachability_analyzer` confirming a dead end) is a source of truth. Trust it over your own assumptions about map connectivity.
 *   **Systematic Debugging:** When a tool is broken, use a methodical, evidence-based approach. Use `run_code` with print statements to trace execution. Isolate variables and test simple cases before complex ones.
 *   **Immediate Action:** Tool/agent maintenance is not a deferrable goal. It must be performed in the current turn.
 *   **Hypothesis-Driven Testing:** For all new mechanics, use the Observe, Hypothesize, Test, Conclude method. Document every step in the relevant log.
