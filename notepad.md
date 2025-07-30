@@ -74,7 +74,7 @@
 *   **Slowpoke Well B1F (Turns ~17074-17171):** Suffered a catastrophic navigation failure for approximately 100 turns. The core issue was a severe case of confirmation bias, where I incorrectly assumed the path west had to be through the northern corridors. This led to a repetitive loop of trying the same failed paths.
 
 # VII. Gameplay Reflections
-* **Puzzle Solving:** Must use a hypothesis-driven approach (Observe, Hypothesize, Test, Conclude) for puzzles instead of brute-force navigation. Document all attempts in the puzzle log.
+*   **Puzzle Solving:** Must use a hypothesis-driven approach (Observe, Hypothesize, Test, Conclude) for puzzles instead of brute-force navigation. Document all attempts in the puzzle log.
 
 # VIII. New Hypotheses & Mechanics (Post-Reflection)
 *   **Cut Quest Hypothesis:** If the Farfetch'd puzzle fails to yield HM01, the alternative hypothesis is that the Ilex Forest Shrine at (8, 22) is involved. The next step would be to investigate the shrine.
