@@ -86,3 +86,6 @@
 # VIII. New Hypotheses & Mechanics (Post-Reflection)
 *   **Tile Mechanic (VOID):** Added to impassable list. Appears to be a visual boundary marker.
 *   **Cut Quest Hypothesis:** If the Farfetch'd puzzle fails to yield HM01, the alternative hypothesis is that the Ilex Forest Shrine at (8, 22) is involved. The next step would be to investigate the shrine.
+
+# IX. Navigation Hypotheses
+*   **Azalea Town Crossing:** My current hypothesis is that the Slowpoke Well is the only way to get from the east side to the west side of town. After traversing it, I will test this by re-exploring the town to see if any new paths have opened.
