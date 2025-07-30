@@ -60,19 +60,16 @@
 ## B. Union Cave Navigation
 *   **Objective:** Pathfind to Hiker Daniel at (4, 6).
 *   **History & Learnings:**
-    1.  **Hypothesis 1 (Broken Tool):** Assumed `path_navigator` was bugged after it repeatedly failed to find a path.
+    1.  **Hypothesis 1 (Broken Tool):** Assumed `path_finder` was bugged after it repeatedly failed to find a path.
     2.  **Test 1:** Diagnostic trace revealed the algorithm was working perfectly.
     3.  **Conclusion 1:** The tool was correct. No land path exists between the southern and northern sections of UnionCave1F; they are separated by water.
     4.  **Lesson Learned:** Trust tool outputs over intuition. A 'No path found' result is data, not a bug.
-
-# IV. Battle Mechanics
-*   **Wrap:** Traps the target for several turns, preventing them from switching or fleeing.
 
 # VI. Navigational & Cognitive Failures Log
 *   **Ilex Forest (Turns 16451-16475):** Stuck in a dead-end due to brute-force navigation instead of systematic exploration.
 *   **Azalea Town (Turns ~17015-17049):** Wasted 30+ turns due to failing to recognize one-way ledges and impassable walls, indicating poor map analysis.
 *   **Slowpoke Well B1F (Turns ~17074-17171):** Suffered a ~100 turn navigation failure due to confirmation bias, repeatedly trying a path that was proven impassable.
 *   **Union Cave Navigation (Turns ~17812-17877):** Wasted ~65 turns assuming a tool was broken instead of trusting its 'No path found' output, which correctly identified a water-separated area. **Lesson:** Trust the tools.
-*   **Route 33 (Turn 17878):** Confirmed via `reachability_analyzer` that the path west to Azalea Town from the Union Cave exit is IMPOSSIBLE. The route is a one-way trap due to impassable ledges. The only way to proceed is to re-enter Union Cave at (11, 9). This is a critical lesson in trusting my tools over visual assessment.
-*   **Union Cave B1F (via ladder at 1F (5, 19)):** Confirmed via `path_navigator` and `reachability_analyzer` that this ladder leads to a small, isolated platform with no path to the southern part of the floor. It is a dead end. The only exit is back up the ladder.
+*   **Route 33 (Turn 17878):** Confirmed via `path_finder` that the path west to Azalea Town from the Union Cave exit is IMPOSSIBLE. The route is a one-way trap due to impassable ledges. The only way to proceed is to re-enter Union Cave at (11, 9). This is a critical lesson in trusting my tools over visual assessment.
+*   **Union Cave B1F (via ladder at 1F (5, 19)):** Confirmed via `path_finder` that this ladder leads to a small, isolated platform with no path to the southern part of the floor. It is a dead end. The only exit is back up the ladder.
 *   **Route 32 (Turns ~18059-18060):** Wasted several turns trying to path south to Union Cave entrance (6, 79), forgetting my own documented discovery that the route contains one-way ledges making it impossible to travel north from that section. This is a critical failure in consulting my own documentation. **Lesson:** ALWAYS trust the tools and review relevant notes before planning a route.
