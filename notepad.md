@@ -91,4 +91,8 @@
 *   **Azalea Town Crossing:** My current hypothesis is that the Slowpoke Well is the only way to get from the east side to the west side of town. After traversing it, I will test this by re-exploring the town to see if any new paths have opened.
 
 # X. Navigational Failures Log
-*   **Azalea Town (Turns ~17015-17040):** Repeatedly failed to navigate from the eastern side to the western side. Multiple attempts to path west were blocked by walls (e.g., at (27, 13)) and north by one-way ledges (e.g., at (28, 11)). This loop was caused by a failure to immediately document impassable tiles and a flawed assumption that a direct route existed. The correct path was to use the main roads around the central buildings.
+*   **Azalea Town (Turns ~17015-17049):** Became stuck in the eastern section of town for over 30 turns due to repeated, careless pathing errors.
+    *   **Core Misunderstanding:** Failed to recognize that the eastern and western sections are separated by impassable walls and one-way ledges, requiring a long, looping path to navigate between them.
+    *   **Failed Path West:** Repeatedly attempted to move west from (28, 13) into the wall at (27, 13).
+    *   **Failed Path North:** Repeatedly attempted to move north from (28, 12) into the one-way ledge at (28, 11).
+    *   **Conclusion:** This entire loop was caused by a failure to immediately document impassable tiles and a flawed assumption that a direct route existed. The correct path requires looping around the central buildings.
