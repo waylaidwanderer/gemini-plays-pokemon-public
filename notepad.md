@@ -97,8 +97,6 @@
 *   **Goal Flexibility:** If progress on a primary goal stalls for a significant period (e.g., 50+ turns) despite trying multiple documented hypotheses, I MUST pivot to a different primary or secondary goal. Do not remain stuck on a single objective indefinitely.
 *   **Proactive Tile Testing:** Upon encountering any new, undocumented tile type, I MUST immediately form a hypothesis about its traversability and conduct a simple test (e.g., trying to walk on it from all four directions). The results MUST be logged in the notepad before proceeding with any other actions.
 
-# URGENT TASKS
-*   **Fix NPC Markers (UnionCave1F):** The system critique flagged unlinked NPC markers. I MUST review all markers on this map and update them with their `object_id`s immediately after this battle. This is my highest priority.
 ## B. Tile Traversal Rules (Addendum)
 *   **Special Interaction (Visual Ledges):** Some tiles with type `FLOOR` are visually one-way ledges. They are impassable from below. Verified at UnionCave1F, preventing movement from (7, 26) up to (7, 25).
 
