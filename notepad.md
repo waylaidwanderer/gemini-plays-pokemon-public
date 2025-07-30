@@ -38,7 +38,7 @@
 ## B. Key Discoveries
 - **Victory Road 1F - Boulder/Steps Interaction (Confirmed):** Boulders cannot be pushed onto `steps` tiles.
 - **Victory Road 1F - Elevation Rule (Confirmed):** Movement between `ground` and `elevated_ground` is ONLY possible by traversing a `steps` tile.
-- **Victory Road - Boulder Push Mechanic (Corrected):** When pushing a boulder, the player character does NOT move into the boulder's previous space, regardless of direction.
+- **Victory Road - Boulder Push Mechanic (Corrected):** When pushing a boulder, the player character does NOT move into the boulder's previous space, regardless of direction. This was confirmed on both 1F and 2F.
 
 # IV. Archived Lessons & Tool Development
 - **Systematic Problem-Solving:** Trust game data over intuition. Add debug logging to tools as a first step, not a last resort.
@@ -46,6 +46,14 @@
 - **Tool Development Status (Functional):** `gem_pathfinder_v2`: The pathfinder's core logic is now considered reliable. Past failures were primarily due to user error, specifically not using the `ignorable_coords` parameter to tell the tool to path around movable obstacles during puzzle-solving.
 
 # V. Future Development Ideas
+- **Team Composition Advisor:** An agent to suggest optimal team compositions.
+- **Pathfinder Debugging Agent:** An agent to parse pathfinder debug output and provide a concise summary of why a path failed. This would automate the multi-step process I currently do manually.
+- **Route Analysis Agent:** An agent to analyze map connectivity and suggest high-level navigation strategies.
+- **Puzzle Executor Tool:** A tool that takes a puzzle solution and generates the precise sequence of button presses to execute the plan. This is a deterministic task better suited for a tool than an agent.
+- **Boulder Puzzle Solver Tool:** A computational tool that uses a search algorithm (like A*) to find a valid sequence of player and boulder moves to solve boulder puzzles. This is the correct replacement for the now-deleted `puzzle_strategist_agent`.
+- **Flee Agent:** An agent to automatically run from non-essential wild battles to improve navigation efficiency.
+- **Pathfinder Error Messages:** Refine `gem_pathfinder_v2` to provide more specific error messages on failure (e.g., 'Path failed due to illegal move between elevations'). This would make it a valuable diagnostic tool.
+- **Puzzle Strategist Agent:** An agent to analyze the current state of a puzzle (e.g., boulder and switch locations) and devise a high-level strategic solution. This would separate the 'what to do' (agent's job) from the 'how to do it' (tool's job).
 - **Team Composition Advisor:** An agent to suggest optimal team compositions.
 - **Pathfinder Debugging Agent:** An agent to parse pathfinder debug output and provide a concise summary of why a path failed. This would automate the multi-step process I currently do manually.
 - **Route Analysis Agent:** An agent to analyze map connectivity and suggest high-level navigation strategies.
