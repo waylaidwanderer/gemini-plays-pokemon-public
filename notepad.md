@@ -71,9 +71,6 @@
 *   **Kurt's Reward:** My current assumption is that Kurt will give me HM01 Cut. The alternative is that he gives me a special Poké Ball or nothing useful, and the HM is obtained elsewhere (e.g., from the Charcoal Man's apprentice after a missed trigger).
 *   **Route to Goldenrod:** My current assumption is that Ilex Forest is the only path. The alternative is that another route exists (e.g., through Union Cave) or the strange tree on Route 36 is removable by a different method.
 
-# X. Contingency Plans
-*   **Route 32 North Path Failure:** My primary assumption is that the path to Route 36 is north through Route 32. If this path is blocked or proves to be a dead end, my contingency plan is to return to the southern part of Route 32 and explore it thoroughly to see if it leads to an alternative route to Goldenrod City.
-
 # XIV. Battle Mechanics (Newly Observed)
 *   **Wrap:** Traps the target for several turns, preventing them from switching or fleeing.
 
