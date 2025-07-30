@@ -310,6 +310,16 @@
         "commit_message": "fix(pathfinder): Correct parsing of ignorable_coords. The tool was failing to find valid paths around specified obstacles because it was incorrectly parsing the `ignorable_coords` JSON string. It was attempting to create a tuple from a dictionary `{'x': 1, 'y': 1}`, which results in `('x', 'y')`, instead of the required coordinate tuple `(1, 1)`. This commit changes the set comprehension to correctly extract the 'x' and 'y' values, ensuring that specified coordinates are properly ignored by the obstacle detection logic. This is a critical fix to restore the tool's core functionality for solving puzzles.",
         "timestamp": "2025-07-30T09:32:20.933Z",
         "action_counter": 110897
+      },
+      {
+        "commit_message": "debug(pathfinder): Add extensive logging to is_obstacle and get_neighbors. The pathfinder is failing to find a seemingly valid path. This commit adds detailed print statements to the core logic functions to trace the exact tiles being evaluated as obstacles and the neighbor transitions being considered. This is a critical diagnostic step to understand the root cause of the failure.",
+        "timestamp": "2025-07-30T10:55:26.559Z",
+        "action_counter": 111026
+      },
+      {
+        "commit_message": "refactor(pathfinder): Remove extensive debug logging. The pathfinder's logic has been validated by the debug logs from the previous turn. The persistent failures were due to user error (attempting to path to an unreachable location), not a tool bug. The debug prints are no longer necessary and are cluttering the tool's output. This commit removes them for a cleaner and more efficient execution.",
+        "timestamp": "2025-07-30T10:56:39.726Z",
+        "action_counter": 111028
       }
     ]
   },
