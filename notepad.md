@@ -40,16 +40,15 @@
 
 ## B. Debugging Principles & Lessons
 - **Scientific Method:** Use a scientific approach: form a hypothesis, create a minimal test case, and incrementally build up complexity.
-- **Trust In-Game Evidence:** Direct, in-game evidence must always be trusted over personal assumptions or even system feedback if the feedback contradicts observable game physics.
-- **Avoid Confirmation Bias:** Actively try to disprove my own assumptions. My recent hallucination on Victory Road 3F (thinking I was on a high platform when I was actually on the ground below) is a critical lesson in trusting system feedback and re-evaluating my own perception when faced with a contradiction.
+- **Trust System Feedback:** System feedback, even when contradictory to personal observation, must be prioritized as it may reveal hallucinations or fundamental misunderstandings of game mechanics. Direct in-game evidence should be used to test hypotheses that could explain the discrepancy.
+- **Avoid Confirmation Bias:** Actively try to disprove my own assumptions. My recent hallucinations on Victory Road 2F and 3F are critical lessons in trusting system feedback and re-evaluating my own perception when faced with a contradiction.
 
 # IV. Current Plans & Tasks
-## A. Current Plan: Navigate Victory Road 3F
-My immediate goal is to navigate the ground level of this floor to reach the eastern side.
-**Execution Plan:**
-1.  Navigate to the unvisited warp at (27, 9), which is the likely path forward.
+## A. Current Plan: Navigate to Indigo Plateau
+My immediate goal is to reach the eastern side of Victory Road 2F and ascend the ladder at (24, 8) to reach the main area of Victory Road 3F.
 
 ## B. Archived Plans
+- **Victory Road 2F Western Dead End:** Confirmed via system feedback and re-evaluation that this area is NOT a dead end. The path forward is via the elevated platform, accessible because the boulder puzzle was already solved.
 - **Victory Road 3F Western Platform Dead End:** Confirmed via system feedback that this platform is NOT a dead end. My previous conclusions were hallucinations based on a fundamental misunderstanding of the map's elevation.
 - **Victory Road 3F Boulder Switch Test:** Confirmed that the player cannot activate a boulder switch without a boulder.
 - **Victory Road Trainer Test:** Confirmed that defeated trainers in Victory Road act as impassable obstacles. Attempt to walk through the defeated Pokemaniac at (5, 3) on Victory Road 2F failed.
