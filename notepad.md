@@ -42,7 +42,7 @@
   - It no longer incorrectly treats defeated trainers as impassable obstacles.
   - Its elevation logic now correctly enforces strict elevation rules, as the hypothesis of a map-specific exception was proven false by game feedback.
   - The tool is reliable for finding existing paths but cannot be used to solve puzzles that require altering the map layout (e.g., moving boulders).
-- **`boulder_puzzle_solver` Status (Fixed):** The tool's critical design flaw has been addressed. It no longer treats non-target boulders as impassable walls, which should allow it to solve complex, multi-boulder puzzles. This fix needs to be tested on the next applicable puzzle.
+- **`boulder_puzzle_solver` Status (Broken):** The tool is critically flawed. Its internal player pathfinder fails to find valid paths on complex maps like Victory Road 1F, incorrectly modeling the traversability of the environment (e.g., treating defeated trainers as obstacles). The tool cannot be trusted until this is fixed.
 
 ## B. Debugging Principles & Lessons
 - **Scientific Method:** Use a scientific approach: form a hypothesis, test it, and document the conclusion.
