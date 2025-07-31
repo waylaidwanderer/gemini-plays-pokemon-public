@@ -59,3 +59,4 @@ My hypothesis that I could access the eastern ladder at (24, 8) was falsified. T
 - **Attempt 1 (Manual):** Failed due to multiple pathing errors and misjudging impassable tiles.
 - **Attempt 2 (Agent):** The `boulder_puzzle_solver_agent` confirmed the puzzle is UNSOLVABLE in its current state (boulder at (6, 4), player at (6, 6)). My own actions of pushing the boulder north created this impossible state.
 - **New Hypothesis:** The puzzle must be reset by leaving and re-entering the floor. I will now reset the puzzle and record the boulder's initial position before attempting to solve it again.
+- **`run_code` Pathfinder Workaround:** The A* script works perfectly when executed via `run_code`, but fails silently as a custom tool (`gem_pathfinder_v2`). This confirms the tool's definition is corrupted. All future pathfinding will use `run_code` until the tool itself can be fixed.

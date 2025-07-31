@@ -52,5 +52,44 @@
         "action_counter": 108537
       }
     ]
+  },
+  "gem_pathfinder_v2": {
+    "description": "A new, rebuilt A* pathfinding tool. This version is designed from the ground up to be more reliable, with a specific focus on correctly handling elevation changes via 'steps' and other connector tiles. It treats all NPCs (except Pikachu) and boulders as impassable obstacles, unless a boulder's coordinates are explicitly provided to be ignored. It now supports a surfing mode.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "target_x": {
+          "type": "string"
+        },
+        "target_y": {
+          "type": "string"
+        },
+        "ignorable_coords": {
+          "type": "string",
+          "nullable": true
+        },
+        "is_surfing": {
+          "type": "string",
+          "nullable": true
+        }
+      },
+      "required": [
+        "target_x",
+        "target_y"
+      ]
+    },
+    "python_script": "import xml.etree.ElementTree as ET\nimport json\n\ndef gem_pathfinder_v2(input_data):\n    print('--- XML Parse Test v2 ---')\n    try:\n        map_xml = ET.fromstring(map_xml_string)\n        print(json.dumps({'status': 'success', 'reason': 'XML parsing completed successfully.'}))\n    except Exception as e:\n        import traceback\n        print(json.dumps({'status': 'failure', 'reason': f'An error occurred during XML parsing: {str(e)}', 'traceback': traceback.format_exc()}))",
+    "history": [
+      {
+        "commit_message": "feat: Recreate tool from scratch. The previous definition was corrupted, causing silent failures. This fresh definition uses the last known-good version of the A* script to restore functionality.",
+        "timestamp": "2025-07-31T01:45:36.100Z",
+        "action_counter": 112176
+      },
+      {
+        "commit_message": "debug: Isolate and test XML parsing within the custom tool environment. Previous tests showed the parsing script works in `run_code` but fails silently in the custom tool. This test will confirm if the issue is with the `ET.fromstring()` call in this specific context.",
+        "timestamp": "2025-07-31T01:47:11.152Z",
+        "action_counter": 112179
+      }
+    ]
   }
 }
