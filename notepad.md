@@ -6,7 +6,7 @@
 - **Surfing:** Not all `ground` tiles adjacent to `water` are valid starting points.
 - **Puzzle Resets:** Leaving and re-entering a floor resets all boulders to their original positions.
 - **Off-Screen State Changes:** An object's state will not update in the map data until it is visible on-screen.
-- **Boulder Pushing:** It is possible to push a boulder by standing adjacent to it, facing it, and moving towards it. You do not need to be on the opposite side. Boulders cannot be pushed into `impassable` tiles.
+- **Boulder Pushing:** It is possible to push a boulder by standing adjacent to it, facing it, and moving towards it (e.g., standing below at Y+1, facing up, and pressing Up to push it to Y-1). You do not need to be on the opposite side. Boulders cannot be pushed into `impassable` tiles.
 
 ## B. Tile Glossary & Movement Rules
 - `ground`: Standard walkable tile.
@@ -38,7 +38,7 @@
 
 # III. Tool Development & Debugging
 ## A. Tool Status
-- **`gem_pathfinder_v2` Status:** The tool has a bug. It incorrectly generated a path that involved moving from a `ground` tile to a `cleared_boulder_barrier` tile from the side, which was blocked. This indicates a flaw in its understanding of one-way traversal rules. **PRIORITY FIX.**
+- **`gem_pathfinder_v2` Status:** The tool had a bug where it incorrectly generated a path moving from a `ground` tile at (8, 8) to a `cleared_boulder_barrier` at (8, 9). This was blocked, confirming a new traversal rule: it is not possible to step onto a `cleared_boulder_barrier` from a `ground` tile that is 'above' it (lower Y coordinate). The tool has been updated with this rule.
 - **`boulder_puzzle_solver` Status:** The tool is functional for single, isolated boulder puzzles but has a critical design flaw: it cannot solve puzzles requiring the movement of multiple, interdependent boulders. It treats other boulders as impassable walls, leading to 'No solution found' errors in complex scenarios. **PRIORITY FIX.**
 
 ## B. Agent/Tool Ideas
@@ -56,7 +56,7 @@
 
 # IV. Current Plan: Survive Victory Road 2F
 **Status:** Party is critically injured. I am on Victory Road 2F.
-**Current Step:** I have reset the eastern boulder puzzle. My new plan is to navigate to (6, 5) to push the boulder at (6, 6) down towards the switch at (10, 17).
+**Current Step:** My previous plan to solve the eastern boulder puzzle has been exhausted. My new plan is to navigate to the ladder at (24, 8) to reach Victory Road 3F.
 
 # V. Archived Plans & Disproven Hypotheses
 - **(Failed) Push Boulder Up:** Pushing the boulder at (6, 6) up to (6, 5) resulted in it becoming stuck, as the adjacent tiles needed for further pushing are impassable. This forced a puzzle reset.
@@ -69,4 +69,3 @@
 - **(Confirmed) Victory Road 3F Western Platform Dead End:** Confirmed via system feedback that this platform is NOT a dead end. My previous conclusions were hallucinations based on a fundamental misunderstanding of the map's elevation.
 - **(Confirmed) Victory Road 3F Boulder Switch Test:** Confirmed that the player cannot activate a boulder switch without a boulder.
 - **(Failed) Victory Road 1F Puzzle - Blocked! (Initial Agent Failure):** My `puzzle_strategist_agent` initially determined that the boulder puzzles on this floor were unsolvable. This was proven to be a hallucination by system feedback. The root cause was a flawed `get_impassable_coords` tool that did not account for defeated trainers as obstacles. This plan to retreat was abandoned.
-- `cleared_boulder_barrier`: It is not possible to step onto this tile from a `ground` tile that is 'above' it (lower Y coordinate).
