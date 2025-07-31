@@ -17,7 +17,7 @@
 - `steps`: Allows movement between `ground` and `elevated_ground` in both directions.
 - `boulder_switch`: Floor switch for boulders.
 - `boulder_barrier`: Impassable barrier linked to a boulder switch.
-- `cleared_boulder_barrier`: A former barrier, now acts as `ground`.
+- `cleared_boulder_barrier`: A former barrier that acts as a one-way ramp. It is possible to move from `ground` (elevation 0) onto it, and from it onto `elevated_ground` (elevation 2), but it is NOT possible to move from it directly back down to `ground`.
 - `hole`: Drops to a lower floor. Pushing a boulder into one causes it to appear on the floor below.
 - `spinner`: Forces movement.
 - `ladder_up` / `ladder_down`: Warps between floors.
