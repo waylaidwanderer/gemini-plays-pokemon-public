@@ -45,7 +45,7 @@
 
 # IV. Current Plans & Tasks
 ## A. Current Plan: Retreat from Victory Road 2F
-My party is critically injured and the eastern path on Victory Road 2F is blocked by a non-functional boulder barrier. My immediate goal is to backtrack to the ladder at (1, 9), descend to Victory Road 1F, and find a way out to heal my Pokémon.
+My party is critically injured and the eastern path on Victory Road 2F is blocked by a non-functional boulder barrier. My immediate goal is to escape Victory Road 1F to heal my party. The path is blocked by a boulder puzzle at (3, 11). Plan: 1. Navigate to (3, 10). 2. Use Strength. 3. Push boulder at (3, 11) south. 4. Navigate to the exit warp at (9, 18).
 
 ## B. Archived Plans
 - **Victory Road 2F Western Dead End:** Confirmed via system feedback and re-evaluation that this area is NOT a dead end. The path forward is via the elevated platform, accessible because the boulder puzzle was already solved.
