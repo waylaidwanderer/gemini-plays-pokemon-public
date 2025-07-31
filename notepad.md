@@ -38,19 +38,14 @@
 
 # III. Tool Development & Debugging
 ## A. Tool Status
-- **`gem_pathfinder_v2` Status (Fixed):** The tool's logic has been corrected multiple times based on system feedback from Victory Road 1F.
-  - It no longer incorrectly treats defeated trainers as impassable obstacles.
-  - Its elevation logic now correctly enforces strict elevation rules, as the hypothesis of a map-specific exception was proven false by game feedback.
-  - The tool is reliable for finding existing paths but cannot be used to solve puzzles that require altering the map layout (e.g., moving boulders).
-- **`boulder_puzzle_solver` Status (Broken):** The tool is critically flawed. Its internal player pathfinder fails to find valid paths on complex maps like Victory Road 1F, incorrectly modeling the traversability of the environment (e.g., treating defeated trainers as obstacles). The tool cannot be trusted until this is fixed.
+- **`gem_pathfinder_v2` Status (Fixed):** The tool's logic for object collision has been corrected to align with this map's specific rules (only boulders are impassable). It appears reliable for navigation on this floor.
+- **`boulder_puzzle_solver` Status (CRITICALLY BROKEN):** The tool repeatedly fails to find solutions for mandatory puzzles. Its internal pathfinder has a flawed model of the environment and cannot be trusted. It must be fully debugged or deleted.
 
 ## B. Debugging Principles & Lessons
 - **Scientific Method:** Use a scientific approach: form a hypothesis, test it, and document the conclusion.
-- **Trust System Feedback:** System feedback (like warnings or a tool's 'no path found' error) is the source of truth and MUST be trusted over personal assumptions or agent outputs.
-- **Agent vs. Tool:** Complex, deterministic, computational tasks like state-space searches (BFS) are better suited for code-based Tools, not reasoning-based Agents.
-- **Tool Timeouts are Bugs:** A tool timeout is a performance bug that must be diagnosed and fixed, not a reason to abandon the tool for a manual approach.
-- **IMMEDIATE ACTION:** Flaws in tools or plans must be addressed immediately, not deferred.
-- **Trust But Verify:** Trust a tool's output, but if it seems illogical or contradictory (e.g., 'no solution' for a mandatory puzzle), the tool's underlying model of the world is likely flawed. Hypothesize the flaw and test it by modifying the tool.
+- **Trust System Feedback:** System feedback is the source of truth and MUST be trusted over personal assumptions or agent outputs. Repeated tool failures on a known-valid path indicate a flawed tool, not an unsolvable puzzle.
+- **IMMEDIATE ACTION:** Flaws in tools or data management (notepad, markers) must be addressed immediately, not deferred as goals.
+- **No Hallucinated Tools:** I must not attempt to use tools that do not exist (e.g., `select_battle_option`). This is a critical failure of state management.
 
 # IV. Current Plan: Return to Victory Road 1F
 **Status:** Party is fully healed. I am on Route 23.
