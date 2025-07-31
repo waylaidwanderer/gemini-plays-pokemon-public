@@ -46,7 +46,7 @@
 # IV. Current Plans & Tasks
 ## A. Current Plan: Escape Victory Road 3F
 **Status:** Arrived on Victory Road 3F. My party is in critical condition.
-**Plan:** Explore this floor to find an exit and heal. The unvisited warp at (27, 9) is my first exploration target.
+**Plan:** Retreat from Victory Road to heal my critically injured party. The pathfinder is failing on this floor, so I will navigate manually. My target is the warp at (3, 1), which leads back to Victory Road 2F, as it seems the safest escape route.
 
 ## B. Archived Plans
 - **Victory Road 2F Western Dead End:** Confirmed via system feedback and re-evaluation that this area is NOT a dead end. The path forward is via the elevated platform, accessible because the boulder puzzle was already solved.
