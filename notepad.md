@@ -45,8 +45,9 @@
 
 # IV. Current Plans & Tasks
 ## A. Current Plan: Escape Victory Road 3F
-**Status:** Arrived on Victory Road 3F. My party is in critical condition.
-**Plan:** Retreat from Victory Road to heal my critically injured party. **Discovery:** The switch puzzle at (23, 7) opens the barrier at (8, 11), creating a direct path to the western part of the floor. My new escape route is the warp at (3, 1), which is now confirmed to be accessible.
+**Status:** Party is in critical condition. Attempting to retreat from Victory Road to heal.
+**Failed Plan:** My previous note claiming the switch at (23, 7) opens the barrier at (8, 11) was incorrect. The barrier remains closed, and the western area containing the warp at (3, 1) is inaccessible from my current location. This plan is abandoned.
+**New Plan:** The only viable escape route is the ladder at (24, 8), which leads back to Victory Road 2F. I will navigate there and proceed with the retreat.
 
 ## B. Archived Plans
 - **Victory Road 2F Western Dead End:** Confirmed via system feedback and re-evaluation that this area is NOT a dead end. The path forward is via the elevated platform, accessible because the boulder puzzle was already solved.
