@@ -1,8 +1,8 @@
 {
   "get_impassable_coords": {
-    "description": "Parses the map_xml_string to find all impassable tiles and returns them as a JSON list of dictionaries. This is a helper tool for puzzle-solving agents.",
+    "description": "Parses the map_xml_string to find all impassable tiles and objects, returning them as a JSON list of dictionaries. This is a helper tool for puzzle-solving agents.",
     "input_schema": {},
-    "python_script": "import xml.etree.ElementTree as ET\nimport json\n\nimpassable_coords = []\nroot = ET.fromstring(map_xml_string)\nimpassable_types = ['impassable', 'boulder_barrier']\nfor row in root.findall('Row'):\n    for tile in row.findall('Tile'):\n        if tile.get('type') in impassable_types:\n            impassable_coords.append({'x': int(tile.get('id')), 'y': int(row.get('id'))})\n\nprint(json.dumps(impassable_coords))",
+    "python_script": "import xml.etree.ElementTree as ET\nimport json\n\nroot = ET.fromstring(map_xml_string)\nimpassable_coords = []\nimpassable_types = ['impassable', 'boulder_barrier', 'closed_gate']\n\nfor row in root.findall('Row'):\n    y = int(row.get('id'))\n    for tile in row.findall('Tile'):\n        x = int(tile.get('id'))\n        is_impassable = False\n        if tile.get('type') in impassable_types:\n            is_impassable = True\n        else:\n            for obj in tile.findall('Object'):\n                if obj.get('id-name') != 'Pikachu':\n                    is_impassable = True\n                    break\n        \n        if is_impassable:\n            impassable_coords.append({'x': x, 'y': y})\n\nprint(json.dumps(impassable_coords))",
     "history": [
       {
         "commit_message": "feat: Create get_impassable_coords tool. This automates a repetitive task (extracting impassable tile data) that was previously done with `run_code`. This will streamline the input gathering process for puzzle-solving agents like `boulder_puzzle_solver_agent`.",
@@ -28,6 +28,11 @@
         "commit_message": "feat: Create get_impassable_coords tool. This automates a repetitive task (extracting impassable tile data) that was previously done with `run_code`. This will streamline the input gathering process for puzzle-solving agents like a future `puzzle_strategist_agent`.",
         "timestamp": "2025-07-31T08:04:16.797Z",
         "action_counter": 112695
+      },
+      {
+        "commit_message": "fix(get_impassable_coords): Include objects in impassable list. The tool was only checking for impassable tile types, providing incomplete data to the puzzle_strategist_agent. This led the agent to generate invalid solutions that ignored obstacles like defeated trainers. This commit updates the script to iterate through objects on each tile (excluding Pikachu) and add their coordinates to the list of impassable locations. This is a critical fix to ensure the agent has a complete and accurate understanding of the puzzle environment.",
+        "timestamp": "2025-07-31T08:19:27.675Z",
+        "action_counter": 112707
       }
     ]
   },

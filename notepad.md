@@ -44,10 +44,9 @@
 - **Avoid Confirmation Bias:** Actively try to disprove my own assumptions. My recent hallucinations on Victory Road 2F and 3F are critical lessons in trusting system feedback and re-evaluating my own perception when faced with a contradiction.
 
 # IV. Current Plans & Tasks
-## A. Current Plan: Escape Victory Road 3F
-**Status:** Party is in critical condition. Attempting to retreat from Victory Road to heal.
-**Failed Plan:** My previous note claiming the switch at (23, 7) opens the barrier at (8, 11) was incorrect. The barrier remains closed, and the western area containing the warp at (3, 1) is inaccessible from my current location. This plan is abandoned.
-**New Plan:** The only viable escape route is the ladder at (24, 8), which leads back to Victory Road 2F. I will navigate there and proceed with the retreat.
+## A. Current Plan: Escape Victory Road 1F
+**Status:** Party is in critical condition. The main exit is blocked by a boulder puzzle that my agent initially failed to solve due to incomplete data (missing impassable trainers).
+**New Plan:** Having corrected my data-gathering tools, I will now use my upgraded `puzzle_strategist_agent` to generate a correct solution. My immediate priority is to gather all necessary environmental data and then call the agent.
 
 ## B. Archived Plans
 - **Victory Road 2F Western Dead End:** Confirmed via system feedback and re-evaluation that this area is NOT a dead end. The path forward is via the elevated platform, accessible because the boulder puzzle was already solved.
@@ -56,8 +55,4 @@
 - **Victory Road Trainer Test:** Confirmed that defeated trainers in Victory Road act as impassable obstacles. Attempt to walk through the defeated Pokemaniac at (5, 3) on Victory Road 2F failed.
 - **Victory Road Trainer Test 2:** The system insists the eastern part of Victory Road 2F is reachable, but my path is blocked by the defeated Pokemaniac at (5, 3). This contradicts my previous test. Hypothesis: My previous test was flawed, and defeated trainers are NOT impassable. Test: Navigate to (4, 3) and attempt to walk right onto (5, 3).
 - **Conclusion:** Attempt to walk through the defeated Pokemaniac at (5, 3) failed. Defeated trainers in Victory Road are confirmed to be impassable obstacles. The system's feedback implies an alternate route must exist.
-
-## B. Victory Road 1F Puzzle - Blocked!
-**Status:** My `puzzle_strategist_agent` has determined that the boulder puzzles on this floor are unsolvable in their current state. This blocks the path to the main exit at (9, 18).
-**Conclusion:** The only way forward is to retreat. 
-**New Plan:** Return to the ladder at (2, 2) to get back to Victory Road 2F and find an alternative escape route from there.
+- **Victory Road 1F Puzzle - Blocked! (Initial Agent Failure):** My `puzzle_strategist_agent` initially determined that the boulder puzzles on this floor were unsolvable. This was proven to be a hallucination by system feedback. The root cause was a flawed `get_impassable_coords` tool that did not account for defeated trainers as obstacles. This plan to retreat was abandoned.
