@@ -55,3 +55,4 @@ My immediate goal is to reach the eastern side of Victory Road 2F and ascend the
 - **Victory Road Trainer Test 2:** The system insists the eastern part of Victory Road 2F is reachable, but my path is blocked by the defeated Pokemaniac at (5, 3). This contradicts my previous test. Hypothesis: My previous test was flawed, and defeated trainers are NOT impassable. Test: Navigate to (4, 3) and attempt to walk right onto (5, 3).
 - **Conclusion:** Attempt to walk through the defeated Pokemaniac at (5, 3) failed. Defeated trainers in Victory Road are confirmed to be impassable obstacles. The system's feedback implies an alternate route must exist.
 - **Puzzle Resets:** Leaving and re-entering a floor resets all boulders to their original positions.
+- **Puzzle Resets:** Leaving and re-entering a floor resets all boulders to their original positions.
