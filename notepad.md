@@ -56,3 +56,7 @@ My previous plan to access the eastern part of the map was proven impossible by 
 
 ## B. Archived Plan: Victory Road 2F Eastern Path (INVALID)
 My hypothesis that I could access the eastern ladder at (24, 8) was falsified. The Hiker at (13, 10) is impassable, blocking the path.
+## C. Victory Road 2F - Western Boulder Puzzle Log
+- **Attempt 1 (Manual):** Failed due to multiple pathing errors and misjudging impassable tiles.
+- **Attempt 2 (Agent):** The `boulder_puzzle_solver_agent` confirmed the puzzle is UNSOLVABLE in its current state (boulder at (6, 4), player at (6, 6)). My own actions of pushing the boulder north created this impossible state.
+- **New Hypothesis:** The puzzle must be reset by leaving and re-entering the floor. I will now reset the puzzle and record the boulder's initial position before attempting to solve it again.
