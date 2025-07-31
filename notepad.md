@@ -58,7 +58,13 @@ My immediate goal is to get off this isolated western platform and explore the m
 - **Victory Road 2F Eastern Path:** Invalidated as a dead end.
 - **Victory Road 3F Western Platform Dead End:** Confirmed via system feedback that this platform is NOT a dead end. My previous conclusions were hallucinations based on a misunderstanding of elevation and my pathfinder's limitations.
 
-## C. Victory Road 3F Puzzle Hypothesis (DEBUNKED)
-**Hypothesis:** The player can activate `boulder_switch` tiles without a boulder.
-**Test Result:** Stepping on the switch at (4, 6) and pressing 'A' had no effect. The barrier at (8, 11) remained closed.
-**Conclusion:** Hypothesis is FALSE. The player cannot activate switches.
+## C. Victory Road 3F Puzzle Hypothesis (Re-evaluation)
+**Original Hypothesis:** The player can activate `boulder_switch` tiles without a boulder.
+**Original Test:** Stood on the switch at (4, 6) and pressed 'A'.
+**Result:** No effect. Barrier at (8, 11) remained closed.
+**Conclusion:** The initial test was flawed. Interaction with objects typically requires standing on an adjacent tile and facing the object, not standing on it.
+**New Test Plan:**
+1. Navigate to (4, 7), the tile directly below the switch.
+2. Face up.
+3. Press 'A' to interact with the switch.
+**Expected Outcome:** The barrier at (8, 11) will change from 'boulder_barrier' to 'cleared_boulder_barrier', opening the path to the rest of the floor.
