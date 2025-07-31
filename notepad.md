@@ -14,7 +14,7 @@
 - `water`: Requires SURF.
 - `impassable`: Wall.
 - `ledge`: One-way traversal. Can only be jumped DOWN from the tile directly above. Acts as a wall from all other directions.
-- `elevated_ground`: Walkable, different elevation. It is NOT possible to step down from an `elevated_ground` tile to an adjacent `ground` tile, **with the exception of Victory Road 1F**.
+- `elevated_ground`: Walkable, different elevation. It is NOT possible to step down from an `elevated_ground` tile to an adjacent `ground` tile.
 - `steps`: Allows movement between `ground` and `elevated_ground` in both directions.
 - `boulder_switch`: Floor switch for boulders.
 - `boulder_barrier`: Impassable barrier linked to a boulder switch.
@@ -40,7 +40,7 @@
 ## A. Tool Status
 - **`gem_pathfinder_v2` Status (Fixed):** The tool's logic has been corrected multiple times based on system feedback from Victory Road 1F.
   - It no longer incorrectly treats defeated trainers as impassable obstacles.
-  - Its elevation logic now correctly allows stepping down from 'elevated_ground' to 'ground', a map-specific exception crucial for navigation.
+  - Its elevation logic now correctly enforces strict elevation rules, as the hypothesis of a map-specific exception was proven false by game feedback.
   - The tool is reliable for finding existing paths but cannot be used to solve puzzles that require altering the map layout (e.g., moving boulders).
 - **`boulder_puzzle_solver` Status (Fixed):** The tool's critical design flaw has been addressed. It no longer treats non-target boulders as impassable walls, which should allow it to solve complex, multi-boulder puzzles. This fix needs to be tested on the next applicable puzzle.
 
@@ -61,7 +61,7 @@
 - **(Confirmed) Victory Road 2F Western Boulder Puzzle Solved:** Solved the puzzle by pushing the boulder from (5, 15) to (2, 17), clearing the barrier at (8, 9). This was done manually after the `boulder_puzzle_solver` failed due to a flawed model of the environment.
 - **(Failed) Abandoning Tool Output:** I abandoned the `boulder_puzzle_solver`'s output after only a few steps, assuming it was wrong. This was a critical process error. My tools are built on perfect map data and should be trusted over my manual reasoning unless proven definitively incorrect through complete testing.
 - **(Failed) Retreat from Victory Road 1F:** My plan to retreat from Victory Road 1F via the entrance at (9, 18) failed. The `gem_pathfinder_v2` tool repeatedly found no path, which I eventually confirmed was due to defeated trainers blocking the way. This forced me to take the ladder to 2F, trapping me deeper inside.
-- **(Confirmed) Victory Road Trainer Impassability:** Confirmed that defeated trainers in Victory Road act as impassable obstacles.
+- **(Disproven) Victory Road Trainer Impassability:** My assumption that defeated trainers in Victory Road act as impassable obstacles was proven false by system feedback.
 - **(Failed) Agent-led Retreat:** My `puzzle_strategist_agent` incorrectly concluded the puzzle was unsolvable, leading to a plan to retreat via the ladder at (2, 2). This was proven false by system feedback.
 - **(Confirmed) Victory Road 2F Western Dead End:** Confirmed via system feedback and re-evaluation that this area is NOT a dead end. The path forward is via the elevated platform, accessible because the boulder puzzle was already solved.
 - **(Confirmed) Victory Road 3F Western Platform Dead End:** Confirmed via system feedback that this platform is NOT a dead end. My previous conclusions were hallucinations based on a fundamental misunderstanding of the map's elevation.
