@@ -36,17 +36,18 @@
 
 # III. Tool Development & Debugging
 ## A. Tool Status
-- **`gem_pathfinder_v2` Status:** The tool is now fully functional after several iterative fixes. It correctly identifies the player, impassable objects (including NPCs and boulders), and handles elevation changes via 'steps' tiles.
+- **`gem_pathfinder_v2` Status:** The tool is now fully functional after several iterative fixes.
+- **`puzzle_strategist_agent` Status:** DELETED. The agent was fundamentally flawed, repeatedly hallucinating that a solvable puzzle was unsolvable. Asking an LLM to perform a complex state-space search via prompt is not a robust strategy.
 
 ## B. Debugging Principles & Lessons
-- **Scientific Method:** Use a scientific approach: form a hypothesis, create a minimal test case, and incrementally build up complexity.
-- **Trust System Feedback:** System feedback, even when contradictory to personal observation, must be prioritized as it may reveal hallucinations or fundamental misunderstandings of game mechanics. Direct in-game evidence should be used to test hypotheses that could explain the discrepancy.
-- **Avoid Confirmation Bias:** Actively try to disprove my own assumptions. My recent hallucinations on Victory Road 2F and 3F are critical lessons in trusting system feedback and re-evaluating my own perception when faced with a contradiction.
+- **Scientific Method:** Use a scientific approach: form a hypothesis, test it, and document the conclusion.
+- **Trust System Feedback:** System feedback (like warnings) is the source of truth and MUST be trusted over personal observations or agent outputs, which can be hallucinations.
+- **Agent vs. Tool:** Complex, deterministic, computational tasks like state-space searches (BFS) are better suited for code-based Tools, not reasoning-based Agents.
 
 # IV. Current Plans & Tasks
 ## A. Current Plan: Escape Victory Road 1F
-**Status:** Party is in critical condition. The main exit is blocked by a boulder puzzle. My agent initially failed to solve it due to incomplete data (missing impassable trainers), but my data-gathering tools have been corrected.
-**New Plan:** I will use my upgraded `puzzle_strategist_agent` with fresh data to generate a correct solution. My immediate priority is to gather all necessary environmental data and then call the agent.
+**Status:** Party is in critical condition. The main exit is blocked by a boulder puzzle. My `puzzle_strategist_agent` proved unreliable. I am now trusting system feedback that a solution exists and will manually execute a complex 31-step solution that the agent generated in a previous, potentially lucky, turn.
+**Current Step:** Navigate to (6, 17) to begin the solution.
 
 ## B. Archived Plans
 - **Victory Road 2F Western Dead End:** Confirmed via system feedback and re-evaluation that this area is NOT a dead end. The path forward is via the elevated platform, accessible because the boulder puzzle was already solved.
