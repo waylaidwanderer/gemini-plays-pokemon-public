@@ -50,6 +50,10 @@
 **Current Step:** Navigate to (6, 17) to begin the solution.
 
 ## B. Archived Plans
+- **(Failed) Manual Boulder Solution:** My hypothesis that the eastern boulder at (15, 3) was the key was disproven. Pushing it north is blocked by an item at (12, 1).
+- **(Failed) Agent-led Retreat:** My `puzzle_strategist_agent` incorrectly concluded the puzzle was unsolvable, leading to a plan to retreat via the ladder at (2, 2). This was proven false by system feedback.
+
+## B. Archived Plans
 - **Victory Road 2F Western Dead End:** Confirmed via system feedback and re-evaluation that this area is NOT a dead end. The path forward is via the elevated platform, accessible because the boulder puzzle was already solved.
 - **Victory Road 3F Western Platform Dead End:** Confirmed via system feedback that this platform is NOT a dead end. My previous conclusions were hallucinations based on a fundamental misunderstanding of the map's elevation.
 - **Victory Road 3F Boulder Switch Test:** Confirmed that the player cannot activate a boulder switch without a boulder.
