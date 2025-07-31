@@ -57,3 +57,4 @@ My immediate goal is to reach the eastern side of Victory Road 2F and ascend the
 - **Puzzle Resets:** Leaving and re-entering a floor resets all boulders to their original positions.
 - **Puzzle Resets:** Leaving and re-entering a floor resets all boulders to their original positions.
 - **Puzzle Resets:** Leaving and re-entering a floor resets all boulders to their original positions.
+- **Puzzle Resets:** Leaving and re-entering a floor resets all boulders to their original positions.
