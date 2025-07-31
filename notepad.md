@@ -7,7 +7,7 @@
 - **Surfing:** Not all `ground` tiles adjacent to `water` are valid starting points.
 - **Puzzle Resets:** Leaving and re-entering a floor resets all boulders to their original positions.
 - **Data Trust:** The map XML data is the ultimate source of truth for traversal.
-- **Off-Screen State Changes:** An object's state (e.g., a `boulder_barrier` changing to `cleared_boulder_barrier`) will not update in the map data until the object is visible on-screen.
+- **Off-Screen State Changes:** An object's state will not update in the map data until it is visible on-screen.
 
 ## B. Tile Glossary & Movement Rules
 - `ground`: Standard walkable tile.
@@ -24,7 +24,7 @@
 - `spinner`: Forces movement.
 - `ladder_up` / `ladder_down`: Warps between floors.
 - `cuttable`: A tree that can be removed with the HM Cut.
-- **Defeated Trainers (Hypothesis):** Some defeated trainers may be impassable obstacles. The Juggler at (22, 14) on Victory Road 2F was confirmed to be impassable. However, this may not apply to all defeated trainers. Further testing is required.
+- **Defeated Trainers (Hypothesis):** Some defeated trainers may be impassable obstacles. This requires systematic testing.
 
 # II. Battle Intel
 ## A. Type Effectiveness Chart (Verified)
@@ -34,18 +34,27 @@
 - **Correction:** Psychic-type moves deal NEUTRAL (1x) damage to Rock-type Pokémon.
 
 # III. Tool Development & Debugging
-- **`gem_pathfinder_v2` Status:** The tool is critically bugged. It is generating paths through impassable tiles. My previous assumption about being able to step down from `elevated_ground` was proven false by a blocked path. I must use a scientific approach of logging and forming evidence-based hypotheses to fix it.
-- **`puzzle_strategist_agent` Status:** The agent's solution for the western boulder puzzle was based on a flawed premise, as the starting position was unreachable. The agent itself is likely fine, but my inputs and understanding of the map were wrong.
-- **Debugging Principle:** Trust direct, in-game evidence over personal assumptions. When a tool fails after being corrected, re-evaluate the map data and my own understanding to find the true obstacle and form a new plan.
-- **Lesson on Confirmation Bias:** I must be wary of confirmation bias. I previously wasted time assuming a path was blocked because my tools were flawed and my understanding of game mechanics was incorrect. I must actively try to disprove my own assumptions and be more willing to change my strategy when my tools contradict my beliefs.
-- **New Tool Idea:** Create a `pathfinder_log_analyzer` agent or tool. It would take the pathfinder's debug logs as input and output a specific hypothesis for the failure (e.g., 'Failure at (X, Y) due to invalid transition from type A to type B'). This would automate the most difficult part of the debugging cycle.
+## A. Tool & Agent Status
+- **`gem_pathfinder_v2` Status:** Critically bugged. The tool is experiencing a 'silent failure' where it produces no output, not even errors. Systematic testing has confirmed the execution environment and XML/object parsing are functional. The failure is isolated to the A* algorithm logic itself. The immediate priority is to continue methodical, incremental testing to find the exact line of code causing the crash.
+- **`puzzle_strategist_agent` Status:** The agent is likely fine. Its last failure was due to flawed user input (an unreachable starting position), not a flaw in the agent itself.
+- **`pathfinder_log_analyzer` Agent:** This agent has been created. Its purpose is to take the debug logs from the pathfinder and output a specific hypothesis for the failure, automating part of the debugging cycle. I have not used it yet because the pathfinder is not producing any logs to analyze.
+
+## B. Debugging Principles & Lessons
+- **Scientific Method:** When debugging, I must use a scientific approach: form a hypothesis, create a minimal test case, and incrementally build up complexity. Blindly re-running a full, complex script is inefficient and must be avoided.
+- **Trust In-Game Evidence:** Direct, in-game evidence must always be trusted over personal assumptions.
+- **Avoid Confirmation Bias:** I must actively try to disprove my own assumptions.
+
+## C. Future Tool/Agent Ideas (from Reflection Agent)
+- **`tile_inspector` Tool:** Would take coordinates (x, y) and return a JSON of all tile properties. Useful for rapid, targeted data verification during debugging.
+- **`trainer_passability_tester` Agent:** Would take a list of trainer coordinates and return a report on whether each is passable. This would automate the task of systematically testing trainer impassability.
+- **`puzzle_strategist_agent` Refinement:** Add an input validation step. The agent should take the player's current coordinates and verify that the proposed puzzle starting point is reachable before generating a solution.
 
 # IV. Current Plans & Tasks
 ## A. New Plan: Victory Road 2F Eastern Path
-My previous plan to solve the western boulder puzzle was based on a flawed premise; the boulder at (6, 6) is in an isolated, unreachable area. My pathfinder tool also has a critical bug. My new hypothesis is that the solution to the eastern barrier at (24, 15) involves accessing the area via the eastern ladder at (24, 8), which leads to 3F.
+My previous plan to solve the western boulder puzzle was based on a flawed premise. My new hypothesis is that the solution to the eastern barrier at (24, 15) involves accessing the area via the eastern ladder at (24, 8), which leads to 3F. This is currently blocked by the failing `gem_pathfinder_v2` tool.
 
 ## B. Archived Plan: Victory Road 2F Western Boulder Puzzle (INVALID)
-My `puzzle_strategist_agent` has provided a 19-step solution to move the boulder at (6, 6) to the switch at (10, 17), which will clear the barrier at (24, 15). THIS PLAN IS INVALID BECAUSE (6,5) IS UNREACHABLE.
+My `puzzle_strategist_agent` has provided a 19-step solution to move the boulder at (6, 6) to the switch at (10, 17). THIS PLAN IS INVALID BECAUSE THE STARTING BOULDER IS UNREACHABLE.
 
 ## C. Future Tasks
 - Systematically test the passability of all defeated trainers in Victory Road to confirm which ones act as impassable obstacles.
