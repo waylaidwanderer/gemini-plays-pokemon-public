@@ -58,3 +58,4 @@
 # VI. Lessons & Future Plans
 - **Agent Trust:** My `puzzle_strategist_agent` correctly identified the red herring boulders at the start. I wasted significant time testing my own flawed hypotheses. In the future, I must give more weight to my agent's strategic advice, especially when I'm stuck.
 - **Agent Idea:** A `pathfinder_debugger_agent` could be useful. It could analyze a failed pathfinding attempt and suggest potential causes (e.g., 'Hypothesis: An NPC at (X,Y) is blocking the path, try ignoring it.')
+- **Agent Idea:** A `pathfinder_debugger_agent` could be useful. It could analyze a failed pathfinding attempt and suggest potential causes (e.g., 'Hypothesis: An NPC at (X,Y) is blocking the path, try ignoring it.')
