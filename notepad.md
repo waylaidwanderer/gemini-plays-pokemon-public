@@ -42,13 +42,11 @@
   - It no longer incorrectly treats defeated trainers as impassable obstacles.
   - Its elevation logic now correctly enforces strict elevation rules, as the hypothesis of a map-specific exception was proven false by game feedback.
   - The tool is reliable for finding existing paths.
-- **`boulder_puzzle_solver` Status (CRITICALLY BROKEN):** The tool is critically flawed. Its internal player pathfinder fails to find valid paths on complex maps, incorrectly modeling the traversability of the environment. The tool cannot be trusted until it is fully debugged or deleted.
-
 ## B. Debugging Principles & Lessons
 - **Scientific Method:** Use a scientific approach: form a hypothesis, test it, and document the conclusion.
 - **Trust System Feedback:** System feedback (like warnings or tool errors) is the source of truth and MUST be trusted over personal assumptions or agent outputs.
 - **IMMEDIATE ACTION:** Flaws in tools or data management (notepad, markers) must be addressed immediately, not deferred as goals.
-- **No Hallucinated Tools:** I must not attempt to use tools that do not exist (e.g., `select_battle_option`). This is a critical failure of state management.
+- **Agent vs. Tool Workflow:** Agents provide strategic advice, but I am responsible for executing that advice using basic button presses. I must not invent tools (e.g., `select_battle_option`) to automate actions that are performed via manual input.
 
 # IV. Current Plan: Return to Victory Road 1F
 **Status:** Party is fully healed. I am on Route 23.
