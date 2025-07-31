@@ -49,19 +49,12 @@
 - **Trust System Feedback:** System feedback (like warnings or tool errors) is the source of truth and MUST be trusted over personal assumptions or agent outputs.
 - **IMMEDIATE ACTION:** Flaws in tools or data management (notepad, markers) must be addressed immediately, not deferred as goals.
 
-# IV. Current Plan: Retreat & Re-strategize
-**Status:** On Route 23, retreating from Victory Road.
-**Reason:** Party is critically injured and Full Heals do not restore HP, only cure status effects.
-**Immediate Goal:** Fly to Viridian City to heal at the Pokémon Center.
-**Next Step:** Re-enter Victory Road and solve the eastern boulder puzzle, which is the current leading hypothesis for progression.
-
 # V. Archived Plans & Disproven Hypotheses
 - **Hypothesis (Disproven):** It might be possible to step down from an `elevated_ground` tile to a `ground` tile on Victory Road 1F. **Test:** Attempted to move from (6, 10) [`elevated_ground`] to (6, 9) [`ground`]. **Result:** Movement was blocked. **Conclusion:** The rule that you cannot step down from `elevated_ground` is confirmed to be true for this map.
 - **Hypothesis (Disproven):** The boulder at (3, 10) is the key to the puzzle. **Test:** Attempted to push the boulder up from (3, 11). **Result:** Movement was blocked by an impassable tile at (3, 9). **Conclusion:** The boulder at (3, 10) is a red herring.
+- **Hypothesis (Disproven):** The boulder at (6, 16) can be pushed up the steps at (6, 14). **Test:** Pushed the boulder to (6, 15), then attempted to push it to (6, 14). **Result:** The push was blocked. **Conclusion:** Boulders cannot be pushed onto `steps` tiles.
 
 # VI. Untested Assumptions
 - While system feedback has shown *some* defeated trainers on this map are passable, I have been assuming this applies to *all* of them. This is an unverified assumption. If I get stuck again, I need to test this by trying to path through other defeated trainers.
 - **Full Heal Mechanic:** This item ONLY cures status conditions. It does NOT restore HP. This was verified by attempting to use it on multiple injured Pokémon with no status effects, which resulted in the message 'It won't have any effect.'
 - `cleared_boulder_barrier`: A former barrier that acts as a one-way ramp. It is possible to move from it onto `elevated_ground` (elevation 2), but it is NOT possible to move from it directly back down to `ground` or to enter it from ANY adjacent `ground` tile.
-- **Hypothesis (Disproven):** The boulder at (6, 16) can be pushed up the steps at (6, 14). **Test:** Pushed the boulder to (6, 15), then attempted to push it to (6, 14). **Result:** The push was blocked. **Conclusion:** Boulders cannot be pushed onto `steps` tiles.
-- **Hypothesis (Disproven):** The boulder at (6, 16) can be pushed up the steps at (6, 14). **Test:** Pushed the boulder to (6, 15), then attempted to push it to (6, 14). **Result:** The push was blocked. **Conclusion:** Boulders cannot be pushed onto `steps` tiles.
