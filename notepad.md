@@ -68,3 +68,8 @@ My `boulder_puzzle_solver_agent` has provided a valid, multi-step solution to mo
 ## B. Archived Plans
 - **Victory Road 2F Eastern Path:** Invalidated. My agent proved the western puzzle IS solvable, making this the intended path.
 - **Victory Road 2F Boulder at (6, 6):** PROVEN IMPOSSIBLE. My agent confirmed this specific boulder cannot reach the switch.
+
+## D. Future Tool/Agent Ideas (from Reflection Agent)
+- **`tile_inspector` Tool:** Would take coordinates (x, y) and return a JSON of all tile properties. Useful for rapid, targeted data verification during debugging.
+- **`trainer_passability_tester` Agent:** Would take a list of trainer coordinates and return a report on whether each is passable. This would automate the task of systematically testing trainer impassability.
+- **`puzzle_state_verifier` Agent:** Would take puzzle element data and player position to confirm a puzzle solution is still valid before execution.
