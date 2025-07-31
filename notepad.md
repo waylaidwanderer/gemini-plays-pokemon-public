@@ -38,7 +38,7 @@
 
 # III. Tool Development & Debugging
 ## A. Tool Status
-- **`gem_pathfinder_v2` Status (CRITICAL FAILURE):** The tool is fundamentally broken and cannot be trusted for navigation on Victory Road 1F. It repeatedly failed to find a path to a reachable exit, even when instructed to ignore all potential obstacles (defeated trainers). This was directly contradicted by system feedback, which confirmed the exit is reachable. The tool's core traversal logic for this map is flawed. **DO NOT USE UNTIL FIXED.**
+- **`gem_pathfinder_v2` Status (Limitation Identified):** The tool is functioning as designed, but it is a pathfinder, not a puzzle-solver. On Victory Road 1F, the path to the exit is physically blocked by a boulder puzzle. The tool correctly reports 'No path found' because it cannot account for moving boulders to create a new path. The system's 'reachable' status for the exit assumes the puzzle can be solved. The tool is reliable for finding existing paths but cannot be used to solve puzzles that require altering the map layout.
 - **`boulder_puzzle_solver` Status:** The tool is functional for single, isolated boulder puzzles but has a critical design flaw: it cannot solve puzzles requiring the movement of multiple, interdependent boulders. It treats other boulders as impassable walls, leading to 'No solution found' errors in complex scenarios. **PRIORITY FIX.**
 
 ## B. Agent/Tool Ideas
