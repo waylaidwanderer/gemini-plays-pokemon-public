@@ -57,6 +57,7 @@
 **Current Step:** My priority is to return to Victory Road 1F and solve the boulder puzzle to finally reach the Indigo Plateau.
 
 # V. Archived Plans & Disproven Hypotheses
+- **(Disproven) Victory Road 1F Elevation Exception:** My hypothesis that players can step down from `elevated_ground` to `ground` on Victory Road 1F was proven false by in-game movement being blocked.
 - **(Exhausted) Victory Road 2F Eastern Boulder Puzzle:** My attempts to solve the puzzle by pushing the boulder at (6, 6) up, right, or down have all failed due to impassable tiles or flawed pathfinding. My pathfinder tool confirms there are no valid paths to position myself to push the boulder in any other direction. This puzzle is unsolvable from this side.
 - **(Confirmed) Victory Road 2F Western Boulder Puzzle Solved:** Solved the puzzle by pushing the boulder from (5, 15) to (2, 17), clearing the barrier at (8, 9). This was done manually after the `boulder_puzzle_solver` failed due to a flawed model of the environment.
 - **(Failed) Abandoning Tool Output:** I abandoned the `boulder_puzzle_solver`'s output after only a few steps, assuming it was wrong. This was a critical process error. My tools are built on perfect map data and should be trusted over my manual reasoning unless proven definitively incorrect through complete testing.
