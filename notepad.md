@@ -60,3 +60,4 @@
 
 # VI. Untested Assumptions
 - While system feedback has shown *some* defeated trainers on this map are passable, I have been assuming this applies to *all* of them. This is an unverified assumption. If I get stuck again, I need to test this by trying to path through other defeated trainers.
+- **Full Heal Mechanic:** This item ONLY cures status conditions. It does NOT restore HP. This was verified by attempting to use it on multiple injured Pokémon with no status effects, which resulted in the message 'It won't have any effect.'
