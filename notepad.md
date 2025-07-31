@@ -18,7 +18,7 @@
 - `steps`: Allows movement between `ground` and `elevated_ground` in both directions.
 - `boulder_switch`: Floor switch for boulders.
 - `boulder_barrier`: Impassable barrier linked to a boulder switch.
-- `cleared_boulder_barrier`: A former barrier that acts as a one-way ramp. It is possible to move from `ground` (elevation 0) onto it, and from it onto `elevated_ground` (elevation 2), but it is NOT possible to move from it directly back down to `ground` or to enter it from the side at the same elevation.
+- `cleared_boulder_barrier`: A former barrier that acts as a one-way ramp. It is possible to move from `ground` (elevation 0) onto it, and from it onto `elevated_ground` (elevation 2), but it is NOT possible to move from it directly back down to `ground` or to enter it from a `ground` tile that is 'above' it (lower Y coordinate).
 - `hole`: Drops to a lower floor. Pushing a boulder into one causes it to appear on the floor below.
 - `spinner`: Forces movement.
 - `ladder_up` / `ladder_down`: Warps between floors.
@@ -38,7 +38,7 @@
 
 # III. Tool Development & Debugging
 ## A. Tool Status
-- **`gem_pathfinder_v2` Status:** The tool had a bug where it incorrectly generated a path moving from a `ground` tile at (8, 8) to a `cleared_boulder_barrier` at (8, 9). This was blocked, confirming a new traversal rule: it is not possible to step onto a `cleared_boulder_barrier` from a `ground` tile that is 'above' it (lower Y coordinate). The tool has been updated with this rule.
+- **`gem_pathfinder_v2` Status:** The tool repeatedly failed to path correctly on Victory Road 2F due to a misunderstanding of `cleared_boulder_barrier` tiles. After being blocked by the game when moving from a `ground` tile at (8, 8) to a `cleared_boulder_barrier` at (8, 9), I have confirmed and implemented a new traversal rule: it is not possible to move from a `ground` tile onto an adjacent `cleared_boulder_barrier` tile. The tool has been updated with this stricter logic.
 - **`boulder_puzzle_solver` Status:** The tool is functional for single, isolated boulder puzzles but has a critical design flaw: it cannot solve puzzles requiring the movement of multiple, interdependent boulders. It treats other boulders as impassable walls, leading to 'No solution found' errors in complex scenarios. **PRIORITY FIX.**
 
 ## B. Agent/Tool Ideas
@@ -56,10 +56,10 @@
 
 # IV. Current Plan: Survive Victory Road 2F
 **Status:** Party is critically injured. I am on Victory Road 2F.
-**Current Step:** My previous plan to solve the eastern boulder puzzle has been exhausted. My new plan is to navigate to the ladder at (24, 8) to reach Victory Road 3F.
+**Current Step:** Navigate to the ladder at (24, 8) to reach Victory Road 3F.
 
 # V. Archived Plans & Disproven Hypotheses
-- **(Failed) Push Boulder Up:** Pushing the boulder at (6, 6) up to (6, 5) resulted in it becoming stuck, as the adjacent tiles needed for further pushing are impassable. This forced a puzzle reset.
+- **(Exhausted) Victory Road 2F Eastern Boulder Puzzle:** My attempts to solve the puzzle by pushing the boulder at (6, 6) up, right, or down have all failed due to impassable tiles or flawed pathfinding. My pathfinder tool confirms there are no valid paths to position myself to push the boulder in any other direction. This puzzle is unsolvable from this side.
 - **(Confirmed) Victory Road 2F Western Boulder Puzzle Solved:** Solved the puzzle by pushing the boulder from (5, 15) to (2, 17), clearing the barrier at (8, 9). This was done manually after the `boulder_puzzle_solver` failed due to a flawed model of the environment.
 - **(Failed) Abandoning Tool Output:** I abandoned the `boulder_puzzle_solver`'s output after only a few steps, assuming it was wrong. This was a critical process error. My tools are built on perfect map data and should be trusted over my manual reasoning unless proven definitively incorrect through complete testing.
 - **(Failed) Retreat from Victory Road 1F:** My plan to retreat from Victory Road 1F via the entrance at (9, 18) failed. The `gem_pathfinder_v2` tool repeatedly found no path, which I eventually confirmed was due to defeated trainers blocking the way. This forced me to take the ladder to 2F, trapping me deeper inside.
