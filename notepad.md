@@ -54,3 +54,6 @@
 
 # V. Archived Plans & Disproven Hypotheses
 - **Hypothesis (Disproven):** It might be possible to step down from an `elevated_ground` tile to a `ground` tile on Victory Road 1F. **Test:** Attempted to move from (6, 10) [`elevated_ground`] to (6, 9) [`ground`]. **Result:** Movement was blocked. **Conclusion:** The rule that you cannot step down from `elevated_ground` is confirmed to be true for this map.
+
+# V. Archived Plans & Disproven Hypotheses
+- **Hypothesis (Disproven):** It might be possible to step down from an `elevated_ground` tile to a `ground` tile on Victory Road 1F. **Test:** Attempted to move from (6, 10) [`elevated_ground`] to (6, 9) [`ground`]. **Result:** Movement was blocked. **Conclusion:** The rule that you cannot step down from `elevated_ground` is confirmed to be true for this map.
