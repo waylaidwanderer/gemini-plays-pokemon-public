@@ -44,7 +44,6 @@
 ## B. Agent/Tool Ideas
 - `party_health_assessor_agent`: Could analyze party status to recommend when a retreat to a Pokémon Center is strategically necessary.
 - `debugging_assistant_agent`: Could analyze a tool's error output and the current game state to suggest hypotheses for why the tool failed, streamlining the debugging process.
-- `puzzle_strategist_agent`: Could analyze puzzle elements (boulders, switches, barriers, etc.) to suggest high-level strategies or hypotheses to test, especially when a computational solver tool fails.
 
 ## C. Debugging Principles & Lessons
 - **Scientific Method:** Use a scientific approach: form a hypothesis, test it, and document the conclusion.
