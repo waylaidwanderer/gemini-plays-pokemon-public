@@ -38,7 +38,7 @@
 # III. Tool Development & Debugging
 ## A. Tool Status
 - **`gem_pathfinder_v2` Status:** The tool is now fully functional after several iterative fixes.
-- **`boulder_puzzle_solver` Status:** The tool is now functional after performance optimizations. The initial 'No solution found' error was due to a flawed model of the environment (incorrectly assuming all defeated trainers were impassable).
+- **`boulder_puzzle_solver` Status:** The tool is still critically flawed. While performance and object detection have been improved, it does not account for elevation mechanics. It generates invalid player paths on maps with varying elevations, leading to unsolvable sequences. This must be fixed.
 
 ## B. Agent/Tool Ideas
 - `party_health_assessor_agent`: Could analyze party status to recommend when a retreat to a Pokémon Center is strategically necessary.
