@@ -58,7 +58,6 @@
 
 # V. Archived Plans & Disproven Hypotheses
 
-- **(Exhausted) Victory Road 2F Eastern Boulder Puzzle:** My attempts to solve the puzzle by pushing the boulder at (6, 6) up, right, or down have all failed due to impassable tiles or flawed pathfinding. My pathfinder tool confirms there are no valid paths to position myself to push the boulder in any other direction. This puzzle is unsolvable from this side.
 - **(Confirmed) Victory Road 2F Western Boulder Puzzle Solved:** Solved the puzzle by pushing the boulder from (5, 15) to (2, 17), clearing the barrier at (8, 9). This was done manually after the `boulder_puzzle_solver` failed due to a flawed model of the environment.
 - **(Failed) Abandoning Tool Output:** I abandoned the `boulder_puzzle_solver`'s output after only a few steps, assuming it was wrong. This was a critical process error. My tools are built on perfect map data and should be trusted over my manual reasoning unless proven definitively incorrect through complete testing.
 - **(Failed) Retreat from Victory Road 1F:** My plan to retreat from Victory Road 1F via the entrance at (9, 18) failed. The `gem_pathfinder_v2` tool repeatedly found no path, which I eventually confirmed was due to defeated trainers blocking the way. This forced me to take the ladder to 2F, trapping me deeper inside.
