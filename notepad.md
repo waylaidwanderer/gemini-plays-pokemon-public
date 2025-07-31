@@ -14,7 +14,7 @@
 - `water`: Requires SURF.
 - `impassable`: Wall.
 - `ledge`: One-way traversal. Can only be jumped DOWN from the tile directly above. Acts as a wall from all other directions.
-- `elevated_ground`: Walkable, different elevation. It is NOT possible to step down from an `elevated_ground` tile to an adjacent `ground` tile. All elevation changes must use 'steps' tiles.
+- `elevated_ground`: Walkable, different elevation. It is NOT possible to step down from an `elevated_ground` tile to an adjacent `ground` tile, **with the exception of Victory Road 1F**.
 - `steps`: Allows movement between `ground` and `elevated_ground` in both directions.
 - `boulder_switch`: Floor switch for boulders.
 - `boulder_barrier`: Impassable barrier linked to a boulder switch.
@@ -33,12 +33,15 @@
 
 ## B. Strategic Notes
 - **"No Will to Fight" Message:** A party menu cursor error on a fainted Pokémon, not a refusal to battle.
-- **Victory Road Trainers:** Defeated trainers in Victory Road act as impassable obstacles.
+- **Victory Road Trainers:** Defeated trainers in Victory Road are PASSABLE. My previous assumption they were impassable was a hallucination proven false by system feedback.
 - **Struggle Mechanic:** Struggle is only used automatically when a Pokémon is out of PP for ALL of its moves.
 
 # III. Tool Development & Debugging
 ## A. Tool Status
-- **`gem_pathfinder_v2` Status (Limitation Identified):** The tool is a pathfinder, not a puzzle-solver. On Victory Road 1F, the path to the exit is physically blocked by a boulder puzzle. The tool correctly reports 'No path found' because it cannot account for moving boulders to create a new path. The system's 'reachable' status for the exit assumes the puzzle can be solved. The tool is reliable for finding existing paths but cannot be used to solve puzzles that require altering the map layout.
+- **`gem_pathfinder_v2` Status (Fixed):** The tool's logic has been corrected multiple times based on system feedback from Victory Road 1F.
+  - It no longer incorrectly treats defeated trainers as impassable obstacles.
+  - Its elevation logic now correctly allows stepping down from 'elevated_ground' to 'ground', a map-specific exception crucial for navigation.
+  - The tool is reliable for finding existing paths but cannot be used to solve puzzles that require altering the map layout (e.g., moving boulders).
 - **`boulder_puzzle_solver` Status (Fixed):** The tool's critical design flaw has been addressed. It no longer treats non-target boulders as impassable walls, which should allow it to solve complex, multi-boulder puzzles. This fix needs to be tested on the next applicable puzzle.
 
 ## B. Debugging Principles & Lessons
