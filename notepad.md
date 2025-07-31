@@ -49,8 +49,44 @@
 - **`puzzle_state_verifier` Agent:** Would take puzzle element data and player position to confirm a puzzle solution is still valid before execution.
 
 # IV. Current Plans & Tasks
-## A. New Plan: Navigate Victory Road 2F via Eastern Path
-My `boulder_puzzle_solver_agent` has definitively proven that the western boulder puzzle is unsolvable due to impassable tiles blocking the final required pushes. This means the western path is a dead end. My previous assumption that the Hiker at (13, 10) blocked the eastern path was incorrect; the map data shows a clear path around him. The correct route is to navigate east to the ladder at (24, 8).
+## A. Current Plan: Solve Victory Road 2F Western Boulder Puzzle
+My `boulder_puzzle_solver_agent` has provided a valid, multi-step solution to move the boulder at (5, 15) to the switch at (2, 17).
+**Execution Plan:**
+- MOVE: RIGHT to (3, 2)
+- MOVE: RIGHT to (4, 2)
+- MOVE: RIGHT to (5, 2)
+- MOVE: RIGHT to (6, 2)
+- MOVE: RIGHT to (7, 2)
+- MOVE: RIGHT to (8, 2)
+- MOVE: RIGHT to (9, 2)
+- MOVE: RIGHT to (10, 2)
+- MOVE: DOWN to (10, 3)
+- MOVE: DOWN to (10, 4)
+- MOVE: DOWN to (10, 5)
+- MOVE: DOWN to (10, 6)
+- MOVE: DOWN to (10, 7)
+- MOVE: DOWN to (10, 8)
+- MOVE: DOWN to (10, 9)
+- MOVE: LEFT to (9, 9)
+- MOVE: LEFT to (8, 9)
+- MOVE: DOWN to (8, 10)
+- MOVE: LEFT to (7, 10)
+- MOVE: LEFT to (6, 10)
+- MOVE: DOWN to (6, 11)
+- MOVE: DOWN to (6, 12)
+- MOVE: DOWN to (6, 13)
+- MOVE: DOWN to (6, 14)
+- MOVE: DOWN to (6, 15)
+- PUSH: LEFT from (6, 15) to (4, 15)
+- MOVE: DOWN to (5, 14)
+- MOVE: LEFT to (4, 14)
+- PUSH: DOWN from (4, 14) to (4, 16)
+- PUSH: DOWN from (4, 15) to (4, 17)
+- MOVE: RIGHT to (5, 16)
+- MOVE: DOWN to (5, 17)
+- PUSH: LEFT from (5, 17) to (3, 17)
+- PUSH: LEFT from (4, 17) to (2, 17)
 
-## B. Archived Plan: Victory Road 2F Western Boulder Puzzle (PROVEN IMPOSSIBLE)
-My agent has confirmed this puzzle is unsolvable. The plan is now invalid and archived.
+## B. Archived Plans
+- **Victory Road 2F Eastern Path:** Invalidated. My agent proved the western puzzle IS solvable, making this the intended path.
+- **Victory Road 2F Boulder at (6, 6):** PROVEN IMPOSSIBLE. My agent confirmed this specific boulder cannot reach the switch.
