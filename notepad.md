@@ -38,7 +38,7 @@
 
 # III. Tool Development & Debugging
 ## A. Tool Status
-- **`gem_pathfinder_v2` Status:** The tool repeatedly failed on Victory Road 2F due to a misunderstanding of `cleared_boulder_barrier` tiles. After being blocked by the game, I have confirmed and implemented a new traversal rule: movement between `ground` and an adjacent `cleared_boulder_barrier` tile is forbidden in both directions. The tool has been updated with this stricter logic.
+- **`gem_pathfinder_v2` Status (CRITICAL FAILURE):** The tool is fundamentally broken and cannot be trusted for navigation on Victory Road 1F. It repeatedly failed to find a path to a reachable exit, even when instructed to ignore all potential obstacles (defeated trainers). This was directly contradicted by system feedback, which confirmed the exit is reachable. The tool's core traversal logic for this map is flawed. **DO NOT USE UNTIL FIXED.**
 - **`boulder_puzzle_solver` Status:** The tool is functional for single, isolated boulder puzzles but has a critical design flaw: it cannot solve puzzles requiring the movement of multiple, interdependent boulders. It treats other boulders as impassable walls, leading to 'No solution found' errors in complex scenarios. **PRIORITY FIX.**
 
 ## B. Agent/Tool Ideas
