@@ -36,7 +36,7 @@
 # III. Tool Development & Debugging
 ## A. Tool & Agent Status
 - **`gem_pathfinder_v2` Status:** The tool's individual components (execution, parsing, `is_obstacle`, `get_neighbors`) have been verified through systematic, isolated tests. The persistent silent failure is now confirmed to be within the main A* `while` loop logic or the interaction between the components.
-- **`puzzle_strategist_agent` Status:** The agent is likely fine. Its last failure was due to flawed user input (an unreachable starting position), not a flaw in the agent itself.
+- **`boulder_puzzle_solver_agent` Status:** The agent successfully identified an unsolvable puzzle state, proving its logic is sound. It saved me from wasting more time on a failed attempt.
 - **`pathfinder_log_analyzer` Agent:** This agent has been created and used. Its purpose is to take debug logs from the pathfinder and output a specific hypothesis for the failure.
 
 ## B. Debugging Principles & Lessons
