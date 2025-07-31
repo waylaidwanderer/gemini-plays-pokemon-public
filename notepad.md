@@ -39,11 +39,10 @@
 # III. Tool Development & Debugging
 ## A. Tool Status
 - **`gem_pathfinder_v2` Status (Limitation Identified):** The tool is functioning as designed, but it is a pathfinder, not a puzzle-solver. On Victory Road 1F, the path to the exit is physically blocked by a boulder puzzle. The tool correctly reports 'No path found' because it cannot account for moving boulders to create a new path. The system's 'reachable' status for the exit assumes the puzzle can be solved. The tool is reliable for finding existing paths but cannot be used to solve puzzles that require altering the map layout.
-- **`boulder_puzzle_solver` Status:** The tool is functional for single, isolated boulder puzzles but has a critical design flaw: it cannot solve puzzles requiring the movement of multiple, interdependent boulders. It treats other boulders as impassable walls, leading to 'No solution found' errors in complex scenarios. **PRIORITY FIX.**
+- **`boulder_puzzle_solver` Status (Fixed):** The tool's critical design flaw has been addressed. It no longer treats non-target boulders as impassable walls, which should allow it to solve complex, multi-boulder puzzles. This fix needs to be tested on the next applicable puzzle.
 
 ## B. Agent/Tool Ideas
 - `party_health_assessor_agent`: Could analyze party status to recommend when a retreat to a Pokémon Center is strategically necessary.
-- `debugging_assistant_agent`: Could analyze a tool's error output and the current game state to suggest hypotheses for why the tool failed, streamlining the debugging process.
 
 ## C. Debugging Principles & Lessons
 - **Scientific Method:** Use a scientific approach: form a hypothesis, test it, and document the conclusion.
@@ -53,9 +52,9 @@
 - **IMMEDIATE ACTION:** Flaws in tools or plans must be addressed immediately, not deferred.
 - **Trust But Verify:** Trust a tool's output, but if it seems illogical or contradictory (e.g., 'no solution' for a mandatory puzzle), the tool's underlying model of the world is likely flawed. Hypothesize the flaw and test it by modifying the tool.
 
-# IV. Current Plan: Navigate Victory Road 3F
-**Status:** Party is critically injured. I am on Victory Road 3F.
-**Current Step:** After determining the puzzle on 2F was a red herring, I've returned to 3F. The game data shows a reachable unvisited warp at (27, 9) and many unseen tiles. This is the new path forward. The plan is to navigate to and explore this new area.
+# IV. Current Plan: Return to Victory Road 1F
+**Status:** Party is fully healed. I am in Viridian City.
+**Current Step:** After blacking out, my priority is to address the Overwatch critique by fixing my tools and processes. The `boulder_puzzle_solver` has been fixed. The next step is to return to Victory Road 1F and solve the boulder puzzle to finally reach the Indigo Plateau.
 
 # V. Archived Plans & Disproven Hypotheses
 - **(Exhausted) Victory Road 2F Eastern Boulder Puzzle:** My attempts to solve the puzzle by pushing the boulder at (6, 6) up, right, or down have all failed due to impassable tiles or flawed pathfinding. My pathfinder tool confirms there are no valid paths to position myself to push the boulder in any other direction. This puzzle is unsolvable from this side.
