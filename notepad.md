@@ -52,3 +52,4 @@ My immediate goal is to navigate the ground level of this floor to reach the eas
 ## B. Archived Plans
 - **Victory Road 3F Western Platform Dead End:** Confirmed via system feedback that this platform is NOT a dead end. My previous conclusions were hallucinations based on a fundamental misunderstanding of the map's elevation.
 - **Victory Road 3F Boulder Switch Test:** Confirmed that the player cannot activate a boulder switch without a boulder.
+- **Victory Road Trainer Test:** Confirmed that defeated trainers in Victory Road act as impassable obstacles. Attempt to walk through the defeated Pokemaniac at (5, 3) on Victory Road 2F failed.
