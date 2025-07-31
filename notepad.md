@@ -67,3 +67,4 @@
 - **(Confirmed) Victory Road 3F Boulder Switch Test:** Confirmed that the player cannot activate a boulder switch without a boulder.
 - **(Failed) Victory Road 1F Puzzle - Blocked! (Initial Agent Failure):** My `puzzle_strategist_agent` initially determined that the boulder puzzles on this floor were unsolvable. This was proven to be a hallucination by system feedback. The root cause was a flawed `get_impassable_coords` tool that did not account for defeated trainers as obstacles. This plan to retreat was abandoned.
 - **Boulder Pushing Mechanic:** Confirmed that boulders cannot be pushed into tiles marked as `impassable`.
+- **Boulder Pushing Mechanic Update:** It is possible to push a boulder by standing adjacent to it and facing it, then moving towards it. You do not need to be on the opposite side.
