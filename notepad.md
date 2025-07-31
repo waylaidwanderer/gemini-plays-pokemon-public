@@ -46,9 +46,9 @@
 - **Agent vs. Tool:** Complex, deterministic, computational tasks like state-space searches (BFS) are better suited for code-based Tools, not reasoning-based Agents.
 
 # IV. Current Plans & Tasks
-## A. Current Plan: Escape Victory Road 1F
-**Status:** Party is in critical condition. The main exit is blocked by a boulder puzzle.
-**Current Step:** Use the `boulder_puzzle_solver` tool to find a solution for the eastern boulder puzzle, then the western one.
+## A. Current Plan: Retreat and Heal
+**Status:** Party is in critical condition after a tough trainer battle.
+**Current Step:** Retreat from Victory Road 1F to the nearest Pokémon Center to heal and regroup before re-attempting the puzzles.
 
 # V. Archived Plans & Disproven Hypotheses
 - **(Failed) Manual Boulder Solution:** My hypothesis that the eastern boulder at (15, 3) was the key was disproven. Pushing it north is blocked by an item at (12, 1).
