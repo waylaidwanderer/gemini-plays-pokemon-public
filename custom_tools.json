@@ -1,75 +1,6 @@
 {
-  "get_impassable_coords": {
-    "description": "Parses the map_xml_string to find all impassable tiles and objects, returning them as a JSON list of dictionaries. This is a helper tool for puzzle-solving agents.",
-    "input_schema": {},
-    "python_script": "import xml.etree.ElementTree as ET\nimport json\n\nroot = ET.fromstring(map_xml_string)\nimpassable_coords = []\nimpassable_types = ['impassable', 'boulder_barrier', 'closed_gate']\n\nfor row in root.findall('Row'):\n    y = int(row.get('id'))\n    for tile in row.findall('Tile'):\n        x = int(tile.get('id'))\n        is_impassable = False\n        if tile.get('type') in impassable_types:\n            is_impassable = True\n        else:\n            for obj in tile.findall('Object'):\n                if obj.get('id-name') != 'Pikachu':\n                    is_impassable = True\n                    break\n        \n        if is_impassable:\n            impassable_coords.append({'x': x, 'y': y})\n\nprint(json.dumps(impassable_coords))",
-    "history": [
-      {
-        "commit_message": "feat: Create get_impassable_coords tool. This automates a repetitive task (extracting impassable tile data) that was previously done with `run_code`. This will streamline the input gathering process for puzzle-solving agents like `boulder_puzzle_solver_agent`.",
-        "timestamp": "2025-07-25T20:22:21.507Z",
-        "action_counter": 100430
-      },
-      {
-        "commit_message": "fix: Correct SyntaxError. The original one-line script was causing a syntax error. This commit rewrites the script with proper Python formatting and indentation to ensure it runs correctly. This is critical for the boulder puzzle solving process.",
-        "timestamp": "2025-07-25T20:29:10.807Z",
-        "action_counter": 100439
-      },
-      {
-        "commit_message": "feat: Create get_impassable_coords tool. This automates a repetitive task (extracting impassable tile data) that was previously done with `run_code`. This will streamline the input gathering process for puzzle-solving agents like `boulder_puzzle_solver_agent`.",
-        "timestamp": "2025-07-26T19:26:49.541Z",
-        "action_counter": 102822
-      },
-      {
-        "commit_message": "fix(get_impassable_coords): Exclude boulders from impassable list and fix output format. The tool was incorrectly classifying tiles with boulders as impassable, providing flawed data to the puzzle_strategist_agent. This commit corrects the logic to only include actual impassable tile types. It also changes the output format from a list of lists to a list of dictionaries to match the agent's input schema.",
-        "timestamp": "2025-07-30T15:49:46.748Z",
-        "action_counter": 111340
-      },
-      {
-        "commit_message": "feat: Create get_impassable_coords tool. This automates a repetitive task (extracting impassable tile data) that was previously done with `run_code`. This will streamline the input gathering process for puzzle-solving agents like a future `puzzle_strategist_agent`.",
-        "timestamp": "2025-07-31T08:04:16.797Z",
-        "action_counter": 112695
-      },
-      {
-        "commit_message": "fix(get_impassable_coords): Include objects in impassable list. The tool was only checking for impassable tile types, providing incomplete data to the puzzle_strategist_agent. This led the agent to generate invalid solutions that ignored obstacles like defeated trainers. This commit updates the script to iterate through objects on each tile (excluding Pikachu) and add their coordinates to the list of impassable locations. This is a critical fix to ensure the agent has a complete and accurate understanding of the puzzle environment.",
-        "timestamp": "2025-07-31T08:19:27.675Z",
-        "action_counter": 112707
-      }
-    ]
-  },
-  "get_puzzle_elements": {
-    "description": "Parses the map_xml_string to find all boulder, switch, and barrier locations, then returns them as a JSON object. This is a helper tool for the puzzle_strategist_agent.",
-    "input_schema": {},
-    "python_script": "import xml.etree.ElementTree as ET\nimport json\n\npuzzle_elements = {\n    \"boulders\": [],\n    \"switches\": [],\n    \"barriers\": []\n}\nroot = ET.fromstring(map_xml_string)\n\nfor row in root.findall('Row'):\n    y = int(row.get('id'))\n    for tile in row.findall('Tile'):\n        x = int(tile.get('id'))\n        if tile.find('Boulder') is not None:\n            puzzle_elements[\"boulders\"].append({'x': x, 'y': y})\n        if tile.find('BoulderSwitch') is not None:\n            puzzle_elements[\"switches\"].append({'x': x, 'y': y})\n        if tile.find('BoulderBarrier') is not None:\n            puzzle_elements[\"barriers\"].append({'x': x, 'y': y})\n\nprint(json.dumps(puzzle_elements))",
-    "history": [
-      {
-        "commit_message": "feat: Create get_puzzle_elements tool. This tool extracts the coordinates of boulders, switches, and barriers from the map XML. It's a necessary helper to provide structured data to the `puzzle_strategist_agent`, addressing the misuse error and following the proper tool/agent workflow.",
-        "timestamp": "2025-07-27T14:43:28.323Z",
-        "action_counter": 104732
-      },
-      {
-        "commit_message": "feat: Create get_puzzle_elements tool. This tool extracts the coordinates of boulders, switches, and barriers from the map XML. It's a necessary helper to provide structured data to the `puzzle_strategist_agent`, addressing the misuse error and following the proper tool/agent workflow.",
-        "timestamp": "2025-07-27T14:44:06.282Z",
-        "action_counter": 104733
-      },
-      {
-        "commit_message": "feat: Create get_puzzle_elements tool. This tool extracts the coordinates of boulders, switches, and barriers from the map XML. It's a necessary helper to provide structured data to the `puzzle_strategist_agent`, addressing the misuse error and following the proper tool/agent workflow.",
-        "timestamp": "2025-07-27T15:53:23.835Z",
-        "action_counter": 104846
-      },
-      {
-        "commit_message": "feat: Create get_puzzle_elements tool. This tool extracts the coordinates of boulders, switches, and barriers from the map XML. It's a necessary helper to provide structured data to a future `puzzle_strategist_agent`, improving my puzzle-solving workflow as identified during my mandatory reflection.",
-        "timestamp": "2025-07-29T05:18:37.642Z",
-        "action_counter": 108537
-      },
-      {
-        "commit_message": "feat: Create get_puzzle_elements tool. This tool extracts the coordinates of boulders, switches, and barriers from the map XML. It's a necessary helper to provide structured data to a future `puzzle_strategist_agent`, improving my puzzle-solving workflow as identified during my mandatory reflection.",
-        "timestamp": "2025-07-31T08:05:25.884Z",
-        "action_counter": 112696
-      }
-    ]
-  },
   "gem_pathfinder_v2": {
-    "description": "A new, rebuilt A* pathfinding tool. This version is designed from the ground up to be more reliable, with a specific focus on correctly handling elevation changes via 'steps' and other connector tiles. It treats only boulders as impassable obstacles, unless explicitly ignored. It now supports a surfing mode.",
+    "description": "A new, rebuilt A* pathfinding tool. This version is designed from the ground up to be more reliable, with a specific focus on correctly handling elevation changes via 'steps' and other connector tiles. It treats both boulders and objects as impassable obstacles, unless explicitly ignored. It now supports a surfing mode.",
     "input_schema": {
       "type": "object",
       "properties": {
@@ -93,7 +24,7 @@
         "target_y"
       ]
     },
-    "python_script": "import xml.etree.ElementTree as ET\nimport heapq\nimport json\n\nclass AStar:\n    def __init__(self, map_xml_string):\n        self.root = ET.fromstring(map_xml_string)\n        self.width = int(self.root.get('width'))\n        self.height = int(self.root.get('height'))\n        self.player_pos = self._get_player_pos()\n\n    def _get_player_pos(self):\n        for row in self.root.findall('Row'):\n            for tile in row.findall('Tile'):\n                if tile.find('Player') is not None:\n                    return int(tile.get('id')), int(row.get('id'))\n        return None\n\n    def find_path(self, target_x, target_y, ignorable_coords_str=None, is_surfing=False):\n        if not self.player_pos:\n            print(json.dumps({\"error\": \"Player position not found.\"}))\n            return\n\n        start_node = self.player_pos\n        end_node = (int(target_x), int(target_y))\n        ignorable_coords = []\n        if ignorable_coords_str:\n            try:\n                ignorable_coords = json.loads(ignorable_coords_str)\n            except (json.JSONDecodeError, TypeError):\n                pass\n\n        open_list = []\n        heapq.heappush(open_list, (0, start_node))\n        \n        came_from = {}\n        g_score = {start_node: 0}\n        f_score = {start_node: self.heuristic(start_node, end_node)}\n\n        traversable_tiles = {'ground', 'grass', 'elevated_ground', 'steps', 'cleared_boulder_barrier', 'boulder_switch', 'ladder_up', 'ladder_down', 'hole'}\n        if is_surfing:\n            traversable_tiles.add('water')\n\n        impassable_objects = self._get_impassable_objects(ignorable_coords)\n        \n        visited_count = 0\n        while open_list:\n            visited_count += 1\n            if visited_count > 2000: # Safety break\n                print(json.dumps({\"error\": \"Pathfinding timed out. Too many nodes visited.\"}))\n                return\n\n            _, current = heapq.heappop(open_list)\n\n            if current == end_node:\n                path = self.reconstruct_path(came_from, current)\n                print(path)\n                return\n\n            for neighbor in self.get_neighbors(current):\n                if not self.is_traversable(current, neighbor, traversable_tiles, impassable_objects):\n                    continue\n\n                tentative_g_score = g_score[current] + 1\n\n                if neighbor not in g_score or tentative_g_score < g_score[neighbor]:\n                    came_from[neighbor] = current\n                    g_score[neighbor] = tentative_g_score\n                    f_score[neighbor] = tentative_g_score + self.heuristic(neighbor, end_node)\n                    if neighbor not in [i[1] for i in open_list]:\n                        heapq.heappush(open_list, (f_score[neighbor], neighbor))\n\n        neighbors_of_end = self.get_neighbors(end_node)\n        traversable_neighbors = []\n        for n in neighbors_of_end:\n            tile_element = self.root.find(f\".//Row[@id='{n[1]}']/Tile[@id='{n[0]}']\")\n            if tile_element is not None and tile_element.get('type') in traversable_tiles and n in came_from:\n                 traversable_neighbors.append((self.heuristic(n, start_node), n))\n        \n        if traversable_neighbors:\n            traversable_neighbors.sort()\n            closest_neighbor = traversable_neighbors[0][1]\n            path = self.reconstruct_path(came_from, closest_neighbor)\n            print(path)\n            return\n\n        print(json.dumps({\"error\": \"No path found.\"}))\n\n    def heuristic(self, a, b):\n        return abs(a[0] - b[0]) + abs(a[1] - b[1])\n\n    def get_neighbors(self, pos):\n        x, y = pos\n        neighbors = []\n        if x > 1: neighbors.append((x - 1, y))\n        if x < self.width: neighbors.append((x + 1, y))\n        if y > 1: neighbors.append((x, y - 1))\n        if y < self.height: neighbors.append((x, y + 1))\n        return neighbors\n\n    def is_traversable(self, current_pos, neighbor_pos, traversable_types, impassable_objects):\n        n_x, n_y = neighbor_pos\n        tile_element = self.root.find(f\".//Row[@id='{n_y}']/Tile[@id='{n_x}']\")\n        print(f\"DEBUG: Checking traversability from {current_pos} to {neighbor_pos}\")\n        if tile_element is None: \n            print(f\"  -> DEBUG FAILED: Tile element not found.\")\n            return False\n        neighbor_type = tile_element.get('type')\n        print(f\"  -> DEBUG Neighbor type: {neighbor_type}\")\n        if (n_x, n_y) in impassable_objects: \n            print(f\"  -> DEBUG FAILED: Is in impassable_objects set.\")\n            return False\n        if neighbor_type not in traversable_types and neighbor_type != 'ledge': \n            print(f\"  -> DEBUG FAILED: Not a traversable tile type ({neighbor_type}).\")\n            return False\n        c_x, c_y = current_pos\n        current_tile_element = self.root.find(f\".//Row[@id='{c_y}']/Tile[@id='{c_x}']\")\n        current_type = current_tile_element.get('type')\n        print(f\"  -> DEBUG Current type: {current_type}\")\n        if current_type == 'ground' and neighbor_type == 'cleared_boulder_barrier':\n            print(f\"  -> DEBUG FAILED: Invalid move from ground to cleared_boulder_barrier.\")\n            return False\n        if current_type == 'cleared_boulder_barrier' and neighbor_type == 'ground': \n            print(f\"  -> DEBUG FAILED: Invalid move from cleared_boulder_barrier to ground.\")\n            return False\n        if neighbor_type == 'ledge':\n            is_valid_ledge_jump = n_y > c_y\n            if not is_valid_ledge_jump:\n                print(f\"  -> DEBUG FAILED: Invalid ledge movement.\")\n            return is_valid_ledge_jump\n        elevation_map = {\n            'ground': 0, 'grass': 0, 'boulder_switch': 0, 'ladder_up': 0, 'ladder_down': 0, 'hole': 0, 'water': 0,\n            'steps': 1, 'cleared_boulder_barrier': 1, \n            'elevated_ground': 2\n        }\n        current_elevation = elevation_map.get(current_type, -1)\n        neighbor_elevation = elevation_map.get(neighbor_type, -1)\n        print(f\"  -> DEBUG Elevation check: from {current_elevation} to {neighbor_elevation}\")\n        if current_elevation != -1 and neighbor_elevation != -1:\n            if abs(current_elevation - neighbor_elevation) > 1: \n                print(f\"  -> DEBUG FAILED: Elevation jump too large.\")\n                return False\n        print(f\"  -> DEBUG PASSED\")\n        return True\n\n    def _get_impassable_objects(self, ignorable_coords):\n        objects = set()\n        for row in self.root.findall('Row'):\n            for tile in row.findall('Tile'):\n                x, y = int(tile.get('id')), int(row.get('id'))\n                is_ignorable = False\n                if ignorable_coords:\n                    is_ignorable = any(d['x'] == x and d['y'] == y for d in ignorable_coords if isinstance(d, dict))\n                if is_ignorable:\n                    continue\n                for obj in tile.findall('Object'):\n                    if obj.get('id-name') != 'Pikachu':\n                        objects.add((x, y))\n                        break\n        return objects\n\n    def reconstruct_path(self, came_from, current):\n        total_path = [current]\n        while current in came_from:\n            current = came_from[current]\n            total_path.append(current)\n        path_json = [{'x': p[0], 'y': p[1]} for p in reversed(total_path)]\n        return json.dumps(path_json)\n\npathfinder = AStar(map_xml_string)\npathfinder.find_path(input_data['target_x'], input_data['target_y'], input_data.get('ignorable_coords'), bool(input_data.get('is_surfing')))",
+    "python_script": "import xml.etree.ElementTree as ET\nimport heapq\nimport json\n\nclass AStar:\n    def __init__(self, map_xml_string):\n        self.root = ET.fromstring(map_xml_string)\n        self.width = int(self.root.get('width'))\n        self.height = int(self.root.get('height'))\n        self.player_pos = self._get_player_pos()\n\n    def _get_player_pos(self):\n        for row in self.root.findall('Row'):\n            for tile in row.findall('Tile'):\n                if tile.find('Player') is not None:\n                    return int(tile.get('id')), int(row.get('id'))\n        return None\n\n    def find_path(self, target_x, target_y, ignorable_coords_str=None, is_surfing=False):\n        if not self.player_pos:\n            print(json.dumps({\"error\": \"Player position not found.\"}))\n            return\n\n        start_node = self.player_pos\n        end_node = (int(target_x), int(target_y))\n        ignorable_coords = []\n        if ignorable_coords_str:\n            try:\n                ignorable_coords = json.loads(ignorable_coords_str)\n            except (json.JSONDecodeError, TypeError):\n                pass\n\n        open_list = []\n        heapq.heappush(open_list, (0, start_node))\n        \n        came_from = {}\n        g_score = {start_node: 0}\n        f_score = {start_node: self.heuristic(start_node, end_node)}\n\n        traversable_tiles = {'ground', 'grass', 'elevated_ground', 'steps', 'cleared_boulder_barrier', 'boulder_switch', 'ladder_up', 'ladder_down', 'hole'}\n        if is_surfing:\n            traversable_tiles.add('water')\n\n        impassable_objects = self._get_impassable_objects(ignorable_coords)\n        \n        visited_count = 0\n        while open_list:\n            visited_count += 1\n            if visited_count > 2000: # Safety break\n                print(json.dumps({\"error\": \"Pathfinding timed out. Too many nodes visited.\"}))\n                return\n\n            _, current = heapq.heappop(open_list)\n\n            if current == end_node:\n                path = self.reconstruct_path(came_from, current)\n                print(path)\n                return\n\n            for neighbor in self.get_neighbors(current):\n                if not self.is_traversable(current, neighbor, traversable_tiles, impassable_objects):\n                    continue\n\n                tentative_g_score = g_score[current] + 1\n\n                if neighbor not in g_score or tentative_g_score < g_score[neighbor]:\n                    came_from[neighbor] = current\n                    g_score[neighbor] = tentative_g_score\n                    f_score[neighbor] = tentative_g_score + self.heuristic(neighbor, end_node)\n                    if neighbor not in [i[1] for i in open_list]:\n                        heapq.heappush(open_list, (f_score[neighbor], neighbor))\n\n        neighbors_of_end = self.get_neighbors(end_node)\n        traversable_neighbors = []\n        for n in neighbors_of_end:\n            tile_element = self.root.find(f\".//Row[@id='{n[1]}']/Tile[@id='{n[0]}']\")\n            if tile_element is not None and tile_element.get('type') in traversable_tiles and n in came_from:\n                 traversable_neighbors.append((self.heuristic(n, start_node), n))\n        \n        if traversable_neighbors:\n            traversable_neighbors.sort()\n            closest_neighbor = traversable_neighbors[0][1]\n            path = self.reconstruct_path(came_from, closest_neighbor)\n            print(path)\n            return\n\n        print(json.dumps({\"error\": \"No path found.\"}))\n\n    def heuristic(self, a, b):\n        return abs(a[0] - b[0]) + abs(a[1] - b[1])\n\n    def get_neighbors(self, pos):\n        x, y = pos\n        neighbors = []\n        if x > 1: neighbors.append((x - 1, y))\n        if x < self.width: neighbors.append((x + 1, y))\n        if y > 1: neighbors.append((x, y - 1))\n        if y < self.height: neighbors.append((x, y + 1))\n        return neighbors\n\n    def is_traversable(self, current_pos, neighbor_pos, traversable_types, impassable_objects):\n        n_x, n_y = neighbor_pos\n        tile_element = self.root.find(f\".//Row[@id='{n_y}']/Tile[@id='{n_x}']\")\n        if tile_element is None: \n            return False\n        neighbor_type = tile_element.get('type')\n        if (n_x, n_y) in impassable_objects: \n            return False\n        if neighbor_type not in traversable_types and neighbor_type != 'ledge': \n            return False\n        c_x, c_y = current_pos\n        current_tile_element = self.root.find(f\".//Row[@id='{c_y}']/Tile[@id='{c_x}']\")\n        current_type = current_tile_element.get('type')\n        if current_type == 'ground' and neighbor_type == 'cleared_boulder_barrier':\n            return False\n        if current_type == 'cleared_boulder_barrier' and neighbor_type == 'ground': \n            return False\n        if neighbor_type == 'ledge':\n            return n_y > c_y\n        elevation_map = {\n            'ground': 0, 'grass': 0, 'boulder_switch': 0, 'ladder_up': 0, 'ladder_down': 0, 'hole': 0, 'water': 0,\n            'steps': 1, 'cleared_boulder_barrier': 1, \n            'elevated_ground': 2\n        }\n        current_elevation = elevation_map.get(current_type, -1)\n        neighbor_elevation = elevation_map.get(neighbor_type, -1)\n        if current_elevation != -1 and neighbor_elevation != -1:\n            if abs(current_elevation - neighbor_elevation) > 1: \n                return False\n        return True\n\n    def _get_impassable_objects(self, ignorable_coords):\n        objects = set()\n        for row in self.root.findall('Row'):\n            for tile in row.findall('Tile'):\n                x, y = int(tile.get('id')), int(row.get('id'))\n                is_ignorable = False\n                if ignorable_coords:\n                    is_ignorable = any(d['x'] == x and d['y'] == y for d in ignorable_coords if isinstance(d, dict))\n                if is_ignorable:\n                    continue\n                # On this specific map (Victory Road 1F), only Boulders are impassable. Defeated trainers are not.\n                if tile.find('Boulder') is not None:\n                    objects.add((x, y))\n        return objects\n\n    def reconstruct_path(self, came_from, current):\n        total_path = [current]\n        while current in came_from:\n            current = came_from[current]\n            total_path.append(current)\n        path_json = [{'x': p[0], 'y': p[1]} for p in reversed(total_path)]\n        return json.dumps(path_json)\n\npathfinder = AStar(map_xml_string)\npathfinder.find_path(input_data['target_x'], input_data['target_y'], input_data.get('ignorable_coords'), bool(input_data.get('is_surfing')))\n",
     "history": [
       {
         "commit_message": "feat: Recreate tool from scratch. The previous definition was corrupted, causing silent failures. This fresh definition uses the last known-good version of the A* script to restore functionality.",
@@ -299,6 +230,85 @@
         "commit_message": "fix(gem_pathfinder_v2): Add object collision and verbose logging. The tool was generating invalid paths by ignoring all objects except boulders. This commit updates `_get_impassable_objects` to correctly treat all objects (except Pikachu) as impassable. It also adds extensive `print` statements to `is_traversable` for detailed debugging to diagnose why it previously created a path into an impassable tile.",
         "timestamp": "2025-07-31T20:09:41.339Z",
         "action_counter": 113720
+      },
+      {
+        "commit_message": "fix(gem_pathfinder_v2): Add boulder collision detection. The tool was generating invalid paths by walking through boulders because the `_get_impassable_objects` function only checked for `<Object>` tags and not `<Boulder>` tags in the XML. This commit corrects the logic to check for both, ensuring all obstacles are correctly identified. This is a critical fix to break the navigation loop on Victory Road 1F.",
+        "timestamp": "2025-07-31T21:11:59.574Z",
+        "action_counter": 113777
+      },
+      {
+        "commit_message": "fix(gem_pathfinder_v2): Treat only boulders as impassable. The tool was repeatedly failing on Victory Road 1F because it treated defeated trainers as impassable objects, which contradicts system feedback that they are passable on this map. This commit updates the `_get_impassable_objects` function to only add boulders to the impassable set, aligning the tool's world model with the game's actual mechanics for this specific area. This is a critical fix to resolve the 'No path found' errors.",
+        "timestamp": "2025-07-31T21:14:09.292Z",
+        "action_counter": 113780
+      }
+    ]
+  },
+  "get_impassable_coords": {
+    "description": "Parses the map_xml_string to find all impassable tiles and objects, returning them as a JSON list of dictionaries. This is a helper tool for puzzle-solving agents.",
+    "input_schema": {},
+    "python_script": "import xml.etree.ElementTree as ET\nimport json\n\nroot = ET.fromstring(map_xml_string)\nimpassable_coords = []\nimpassable_types = ['impassable', 'boulder_barrier', 'closed_gate']\n\nfor row in root.findall('Row'):\n    y = int(row.get('id'))\n    for tile in row.findall('Tile'):\n        x = int(tile.get('id'))\n        is_impassable = False\n        if tile.get('type') in impassable_types:\n            is_impassable = True\n        else:\n            for obj in tile.findall('Object'):\n                if obj.get('id-name') != 'Pikachu':\n                    is_impassable = True\n                    break\n        \n        if is_impassable:\n            impassable_coords.append({'x': x, 'y': y})\n\nprint(json.dumps(impassable_coords))",
+    "history": [
+      {
+        "commit_message": "feat: Create get_impassable_coords tool. This automates a repetitive task (extracting impassable tile data) that was previously done with `run_code`. This will streamline the input gathering process for puzzle-solving agents like `boulder_puzzle_solver_agent`.",
+        "timestamp": "2025-07-25T20:22:21.507Z",
+        "action_counter": 100430
+      },
+      {
+        "commit_message": "fix: Correct SyntaxError. The original one-line script was causing a syntax error. This commit rewrites the script with proper Python formatting and indentation to ensure it runs correctly. This is critical for the boulder puzzle solving process.",
+        "timestamp": "2025-07-25T20:29:10.807Z",
+        "action_counter": 100439
+      },
+      {
+        "commit_message": "feat: Create get_impassable_coords tool. This automates a repetitive task (extracting impassable tile data) that was previously done with `run_code`. This will streamline the input gathering process for puzzle-solving agents like `boulder_puzzle_solver_agent`.",
+        "timestamp": "2025-07-26T19:26:49.541Z",
+        "action_counter": 102822
+      },
+      {
+        "commit_message": "fix(get_impassable_coords): Exclude boulders from impassable list and fix output format. The tool was incorrectly classifying tiles with boulders as impassable, providing flawed data to the puzzle_strategist_agent. This commit corrects the logic to only include actual impassable tile types. It also changes the output format from a list of lists to a list of dictionaries to match the agent's input schema.",
+        "timestamp": "2025-07-30T15:49:46.748Z",
+        "action_counter": 111340
+      },
+      {
+        "commit_message": "feat: Create get_impassable_coords tool. This automates a repetitive task (extracting impassable tile data) that was previously done with `run_code`. This will streamline the input gathering process for puzzle-solving agents like a future `puzzle_strategist_agent`.",
+        "timestamp": "2025-07-31T08:04:16.797Z",
+        "action_counter": 112695
+      },
+      {
+        "commit_message": "fix(get_impassable_coords): Include objects in impassable list. The tool was only checking for impassable tile types, providing incomplete data to the puzzle_strategist_agent. This led the agent to generate invalid solutions that ignored obstacles like defeated trainers. This commit updates the script to iterate through objects on each tile (excluding Pikachu) and add their coordinates to the list of impassable locations. This is a critical fix to ensure the agent has a complete and accurate understanding of the puzzle environment.",
+        "timestamp": "2025-07-31T08:19:27.675Z",
+        "action_counter": 112707
+      }
+    ]
+  },
+  "get_puzzle_elements": {
+    "description": "Parses the map_xml_string to find all boulder, switch, and barrier locations, then returns them as a JSON object. This is a helper tool for the puzzle_strategist_agent.",
+    "input_schema": {},
+    "python_script": "import xml.etree.ElementTree as ET\nimport json\n\npuzzle_elements = {\n    \"boulders\": [],\n    \"switches\": [],\n    \"barriers\": []\n}\nroot = ET.fromstring(map_xml_string)\n\nfor row in root.findall('Row'):\n    y = int(row.get('id'))\n    for tile in row.findall('Tile'):\n        x = int(tile.get('id'))\n        if tile.find('Boulder') is not None:\n            puzzle_elements[\"boulders\"].append({'x': x, 'y': y})\n        if tile.find('BoulderSwitch') is not None:\n            puzzle_elements[\"switches\"].append({'x': x, 'y': y})\n        if tile.find('BoulderBarrier') is not None:\n            puzzle_elements[\"barriers\"].append({'x': x, 'y': y})\n\nprint(json.dumps(puzzle_elements))",
+    "history": [
+      {
+        "commit_message": "feat: Create get_puzzle_elements tool. This tool extracts the coordinates of boulders, switches, and barriers from the map XML. It's a necessary helper to provide structured data to the `puzzle_strategist_agent`, addressing the misuse error and following the proper tool/agent workflow.",
+        "timestamp": "2025-07-27T14:43:28.323Z",
+        "action_counter": 104732
+      },
+      {
+        "commit_message": "feat: Create get_puzzle_elements tool. This tool extracts the coordinates of boulders, switches, and barriers from the map XML. It's a necessary helper to provide structured data to the `puzzle_strategist_agent`, addressing the misuse error and following the proper tool/agent workflow.",
+        "timestamp": "2025-07-27T14:44:06.282Z",
+        "action_counter": 104733
+      },
+      {
+        "commit_message": "feat: Create get_puzzle_elements tool. This tool extracts the coordinates of boulders, switches, and barriers from the map XML. It's a necessary helper to provide structured data to the `puzzle_strategist_agent`, addressing the misuse error and following the proper tool/agent workflow.",
+        "timestamp": "2025-07-27T15:53:23.835Z",
+        "action_counter": 104846
+      },
+      {
+        "commit_message": "feat: Create get_puzzle_elements tool. This tool extracts the coordinates of boulders, switches, and barriers from the map XML. It's a necessary helper to provide structured data to a future `puzzle_strategist_agent`, improving my puzzle-solving workflow as identified during my mandatory reflection.",
+        "timestamp": "2025-07-29T05:18:37.642Z",
+        "action_counter": 108537
+      },
+      {
+        "commit_message": "feat: Create get_puzzle_elements tool. This tool extracts the coordinates of boulders, switches, and barriers from the map XML. It's a necessary helper to provide structured data to a future `puzzle_strategist_agent`, improving my puzzle-solving workflow as identified during my mandatory reflection.",
+        "timestamp": "2025-07-31T08:05:25.884Z",
+        "action_counter": 112696
       }
     ]
   }
