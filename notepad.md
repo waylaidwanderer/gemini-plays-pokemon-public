@@ -38,7 +38,7 @@
 # III. Tool Development & Debugging
 ## A. Tool Status
 - **`gem_pathfinder_v2` Status:** The tool is now fully functional after several iterative fixes.
-- **`boulder_puzzle_solver` Status:** The tool is now fully functional after several iterative fixes, including adding robust elevation checking.
+- **`boulder_puzzle_solver` Status:** The tool is functional for single, isolated boulder puzzles but has a critical design flaw: it cannot solve puzzles requiring the movement of multiple, interdependent boulders. It treats other boulders as impassable walls, leading to 'No solution found' errors in complex scenarios.
 
 ## B. Agent/Tool Ideas
 - `party_health_assessor_agent`: Could analyze party status to recommend when a retreat to a Pokémon Center is strategically necessary.
