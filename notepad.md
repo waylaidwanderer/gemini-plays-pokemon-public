@@ -43,7 +43,7 @@
 - **Trust In-Game Evidence:** Direct, in-game evidence must always be trusted over personal assumptions.
 - **Avoid Confirmation Bias:** I must actively try to disprove my own assumptions.
 
-## C. Future Tool/Agent Ideas (from Reflection Agent)
+## C. Future Tool/Agent Ideas
 - **`tile_inspector` Tool:** Would take coordinates (x, y) and return a JSON of all tile properties. Useful for rapid, targeted data verification during debugging.
 - **`trainer_passability_tester` Agent:** Would take a list of trainer coordinates and return a report on whether each is passable. This would automate the task of systematically testing trainer impassability.
 - **`puzzle_state_verifier` Agent:** Would take puzzle element data and player position to confirm a puzzle solution is still valid before execution.
