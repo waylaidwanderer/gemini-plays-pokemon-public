@@ -6,7 +6,7 @@
 - **Surfing:** Not all `ground` tiles adjacent to `water` are valid starting points.
 - **Puzzle Resets:** Leaving and re-entering a floor resets all boulders to their original positions.
 - **Off-Screen State Changes:** An object's state will not update in the map data until it is visible on-screen.
-- **Boulder Pushing:** It is possible to push a boulder by standing adjacent to it, facing it, and moving towards it (e.g., standing below at Y+1, facing up, and pressing Up to push it to Y-1). You do not need to be on the opposite side. Boulders cannot be pushed into `impassable` tiles. Boulders cannot be pushed into `impassable` tiles.
+- **Boulder Pushing:** It is possible to push a boulder by standing adjacent to it, facing it, and moving towards it (e.g., standing below at Y+1, facing up, and pressing Up to push it to Y-1). You do not need to be on the opposite side. Boulders cannot be pushed into `impassable` tiles.
 
 ## B. Tile Glossary & Movement Rules
 - `ground`: Standard walkable tile.
@@ -51,9 +51,6 @@
 # IV. Current Plan: Return to Victory Road 1F
 **Status:** Party is fully healed. I am on Route 23.
 **Current Step:** My priority is to return to Victory Road 1F and solve the boulder puzzle to finally reach the Indigo Plateau.
-
-# V. Archived Plans & Disproven Hypotheses
-- **Hypothesis (Disproven):** It might be possible to step down from an `elevated_ground` tile to a `ground` tile on Victory Road 1F. **Test:** Attempted to move from (6, 10) [`elevated_ground`] to (6, 9) [`ground`]. **Result:** Movement was blocked. **Conclusion:** The rule that you cannot step down from `elevated_ground` is confirmed to be true for this map.
 
 # V. Archived Plans & Disproven Hypotheses
 - **Hypothesis (Disproven):** It might be possible to step down from an `elevated_ground` tile to a `ground` tile on Victory Road 1F. **Test:** Attempted to move from (6, 10) [`elevated_ground`] to (6, 9) [`ground`]. **Result:** Movement was blocked. **Conclusion:** The rule that you cannot step down from `elevated_ground` is confirmed to be true for this map.
