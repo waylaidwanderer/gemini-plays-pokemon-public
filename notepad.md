@@ -1,12 +1,10 @@
 # I. Game Mechanics & Traversal
 ## A. Core Rules
 - **Level Cap:** 8 badges = Level 65.
-- **"No Will to Fight" Message:** A party menu cursor error on a fainted Pokémon, not a refusal to battle.
-- **HM Usage:** HMs are used from the party menu. Fainted Pokémon can use field moves.
 - **PC Interaction:** Stand directly below the PC, face up, and press 'A'.
+- **HM Usage:** HMs are used from the party menu. Fainted Pokémon can use field moves.
 - **Surfing:** Not all `ground` tiles adjacent to `water` are valid starting points.
 - **Puzzle Resets:** Leaving and re-entering a floor resets all boulders to their original positions.
-- **Data Trust:** The map XML data is the ultimate source of truth for traversal.
 - **Off-Screen State Changes:** An object's state will not update in the map data until it is visible on-screen.
 
 ## B. Tile Glossary & Movement Rules
@@ -24,7 +22,6 @@
 - `spinner`: Forces movement.
 - `ladder_up` / `ladder_down`: Warps between floors.
 - `cuttable`: A tree that can be removed with the HM Cut.
-- **Defeated Trainers (Confirmed):** Defeated trainers in Victory Road act as impassable obstacles.
 
 # II. Battle Intel
 ## A. Type Effectiveness Chart (Verified)
@@ -33,20 +30,18 @@
 - **Immune (0x):** Flying immune to Ground; Ground immune to Electric; Ghost immune to Normal, Fighting
 - **Correction:** Psychic-type moves deal NEUTRAL (1x) damage to Rock-type Pokémon.
 
+## B. Strategic Notes
+- **"No Will to Fight" Message:** A party menu cursor error on a fainted Pokémon, not a refusal to battle.
+- **Victory Road Trainers:** Defeated trainers in Victory Road act as impassable obstacles.
+
 # III. Tool Development & Debugging
-## A. Tool & Agent Status
-- **`gem_pathfinder_v2` Status:** The tool's script is confirmed to be functional via `run_code`. However, the custom tool definition itself is corrupted, causing silent failures. The current workaround is to execute the script via `run_code` for all pathfinding needs.
-- **`pathfinder_log_analyzer` Agent:** This agent has been created and used. Its purpose is to take debug logs from the pathfinder and output a specific hypothesis for the failure.
+## A. Tool Status
+- **`gem_pathfinder_v2` Status:** The tool is now fully functional after several iterative fixes. It correctly identifies the player, impassable objects (including NPCs and boulders), and handles elevation changes via 'steps' tiles.
 
 ## B. Debugging Principles & Lessons
-- **Scientific Method:** When debugging, I must use a scientific approach: form a hypothesis, create a minimal test case, and incrementally build up complexity. Blindly re-running a full, complex script is inefficient and must be avoided.
-- **Trust In-Game Evidence:** Direct, in-game evidence must always be trusted over personal assumptions.
-- **Avoid Confirmation Bias:** I must actively try to disprove my own assumptions.
-
-## C. Future Tool/Agent Ideas
-- **`tile_inspector` Tool:** Would take coordinates (x, y) and return a JSON of all tile properties. Useful for rapid, targeted data verification during debugging.
-- **`trainer_passability_tester` Agent:** Would take a list of trainer coordinates and return a report on whether each is passable. This would automate the task of systematically testing trainer impassability.
-- **`puzzle_state_verifier` Agent:** Would take puzzle element data and player position to confirm a puzzle solution is still valid before execution.
+- **Scientific Method:** Use a scientific approach: form a hypothesis, create a minimal test case, and incrementally build up complexity.
+- **Trust In-Game Evidence:** Direct, in-game evidence must always be trusted over personal assumptions or even system feedback if the feedback contradicts observable game physics.
+- **Avoid Confirmation Bias:** Actively try to disprove my own assumptions. My recent hallucination on Victory Road 3F (thinking I was at a dead end when I wasn't) is a key lesson. I concluded I was stuck based on my pathfinder's failure without fully investigating *why* it failed, which was due to my misunderstanding of the platform's elevation.
 
 # IV. Current Plans & Tasks
 ## A. Current Plan: Navigate Victory Road 3F
@@ -59,7 +54,6 @@ My immediate goal is to get off this isolated western platform and explore the m
 
 ## B. Archived Plans
 - **Victory Road 2F Western Boulder Puzzle:** Completed.
-- **Victory Road 2F Boulder at (6, 6):** Confirmed impossible.
-- **Victory Road 2F Eastern Path:** Invalidated.
-- **Victory Road 3F Western Platform:** Confirmed via system feedback that this platform is NOT a dead end and the steps at (2, 10) are the correct way forward. My previous conclusions were hallucinations.
-- **Find the Correct Path on Victory Road 2F:** This plan is outdated. I am on 3F.
+- **Victory Road 2F Boulder at (6, 6):** Confirmed impossible to solve from the eastern side.
+- **Victory Road 2F Eastern Path:** Invalidated as a dead end.
+- **Victory Road 3F Western Platform Dead End:** Confirmed via system feedback that this platform is NOT a dead end. My previous conclusions were hallucinations based on a misunderstanding of elevation and my pathfinder's limitations.
