@@ -49,10 +49,11 @@
 - **Trust System Feedback:** System feedback (like warnings or tool errors) is the source of truth and MUST be trusted over personal assumptions or agent outputs.
 - **IMMEDIATE ACTION:** Flaws in tools or data management (notepad, markers) must be addressed immediately, not deferred as goals.
 
-# IV. Current Plan: Victory Road 1F Puzzle
-**Status:** In the item menu, healing my party after several wild battles.
-**Hypothesis:** The solution to this floor is the eastern boulder puzzle. Pushing the boulder at (15, 3) onto the switch at (18, 14) should clear the barrier at (10, 13), opening the path to the ladder.
-**Current Step:** Heal ECHO, NEPTUNE, and CRAG. Then, navigate to the eastern boulder puzzle and solve it.
+# IV. Current Plan: Retreat & Re-strategize
+**Status:** On Route 23, retreating from Victory Road.
+**Reason:** Party is critically injured and Full Heals do not restore HP, only cure status effects.
+**Immediate Goal:** Fly to Viridian City to heal at the Pokémon Center.
+**Next Step:** Re-enter Victory Road and solve the eastern boulder puzzle, which is the current leading hypothesis for progression.
 
 # V. Archived Plans & Disproven Hypotheses
 - **Hypothesis (Disproven):** It might be possible to step down from an `elevated_ground` tile to a `ground` tile on Victory Road 1F. **Test:** Attempted to move from (6, 10) [`elevated_ground`] to (6, 9) [`ground`]. **Result:** Movement was blocked. **Conclusion:** The rule that you cannot step down from `elevated_ground` is confirmed to be true for this map.
