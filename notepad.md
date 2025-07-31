@@ -38,6 +38,7 @@
 ## A. Tool Status
 - **`gem_pathfinder_v2` Status:** The tool is now fully functional after several iterative fixes.
 - **`puzzle_strategist_agent` Status:** DELETED. The agent was fundamentally flawed, repeatedly hallucinating that a solvable puzzle was unsolvable. Asking an LLM to perform a complex state-space search via prompt is not a robust strategy.
+- **`boulder_puzzle_solver` Status:** NEW. This tool uses a BFS algorithm to solve boulder puzzles, replacing the flawed agent.
 
 ## B. Debugging Principles & Lessons
 - **Scientific Method:** Use a scientific approach: form a hypothesis, test it, and document the conclusion.
@@ -46,12 +47,13 @@
 
 # IV. Current Plans & Tasks
 ## A. Current Plan: Escape Victory Road 1F
-**Status:** Party is in critical condition. The main exit is blocked by a boulder puzzle. My `puzzle_strategist_agent` proved unreliable. I am now trusting system feedback that a solution exists and will manually execute a complex 31-step solution that the agent generated in a previous, potentially lucky, turn.
-**Current Step:** Navigate to (6, 17) to begin the solution.
+**Status:** Party is in critical condition. The main exit is blocked by a boulder puzzle.
+**Current Step:** Use the `boulder_puzzle_solver` tool to find a solution for the eastern boulder puzzle, then the western one.
 
-## B. Archived Plans & Disproven Hypotheses
+# V. Archived Plans & Disproven Hypotheses
 - **(Failed) Manual Boulder Solution:** My hypothesis that the eastern boulder at (15, 3) was the key was disproven. Pushing it north is blocked by an item at (12, 1).
 - **(Failed) Agent-led Retreat:** My `puzzle_strategist_agent` incorrectly concluded the puzzle was unsolvable, leading to a plan to retreat via the ladder at (2, 2). This was proven false by system feedback.
+- **(Failed) Manual 31-Step Solution:** The manual plan to solve the western boulder puzzle was abandoned as it was based on a flawed premise and is now superseded by the `boulder_puzzle_solver` tool.
 - **(Confirmed) Victory Road 2F Western Dead End:** Confirmed via system feedback and re-evaluation that this area is NOT a dead end. The path forward is via the elevated platform, accessible because the boulder puzzle was already solved.
 - **(Confirmed) Victory Road 3F Western Platform Dead End:** Confirmed via system feedback that this platform is NOT a dead end. My previous conclusions were hallucinations based on a fundamental misunderstanding of the map's elevation.
 - **(Confirmed) Victory Road 3F Boulder Switch Test:** Confirmed that the player cannot activate a boulder switch without a boulder.
