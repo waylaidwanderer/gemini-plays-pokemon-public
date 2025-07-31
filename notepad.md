@@ -56,7 +56,7 @@
 
 # IV. Current Plan: Survive Victory Road 2F
 **Status:** Party is critically injured. I am on Victory Road 2F.
-**Current Step:** Navigate to the ladder at (24, 8) to reach Victory Road 3F.
+**Current Step:** My previous plan to solve the eastern boulder puzzle has been exhausted. My new plan is to navigate to the ladder at (24, 8) to reach Victory Road 3F.
 
 # V. Archived Plans & Disproven Hypotheses
 - **(Exhausted) Victory Road 2F Eastern Boulder Puzzle:** My attempts to solve the puzzle by pushing the boulder at (6, 6) up, right, or down have all failed due to impassable tiles or flawed pathfinding. My pathfinder tool confirms there are no valid paths to position myself to push the boulder in any other direction. This puzzle is unsolvable from this side.
