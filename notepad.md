@@ -35,6 +35,7 @@
 - **"No Will to Fight" Message:** A party menu cursor error on a fainted Pokémon, not a refusal to battle.
 - **Victory Road Trainers:** Defeated trainers in Victory Road are PASSABLE. My previous assumption they were impassable was a hallucination proven false by system feedback.
 - **Struggle Mechanic:** Struggle is only used automatically when a Pokémon is out of PP for ALL of its moves.
+- **Full Heal Mechanic:** This item ONLY cures status conditions. It does NOT restore HP. This was verified by attempting to use it on multiple injured Pokémon with no status effects, which resulted in the message 'It won't have any effect.'
 
 # III. Tool Development & Debugging
 ## A. Tool Status
@@ -42,7 +43,7 @@
   - It no longer incorrectly treats defeated trainers as impassable obstacles.
   - Its elevation logic now correctly enforces strict elevation rules, as the hypothesis of a map-specific exception was proven false by game feedback.
   - The tool is reliable for finding existing paths.
-- **`pathfinder_parameter_agent` Status (Untested):** This agent has been created to automate parameter generation for the pathfinder during puzzles. It needs to be tested at the next puzzle-solving opportunity.
+- **`pathfinder_parameter_agent` Status (Fixed):** This agent has been created and fixed to automate parameter generation for the pathfinder during puzzles.
 
 ## B. Debugging Principles & Lessons
 - **Scientific Method:** Use a scientific approach: form a hypothesis, test it, and document the conclusion.
@@ -54,11 +55,6 @@
 - **Hypothesis (Disproven):** The boulder at (3, 10) is the key to the puzzle. **Test:** Attempted to push the boulder up from (3, 11). **Result:** Movement was blocked by an impassable tile at (3, 9). **Conclusion:** The boulder at (3, 10) is a red herring.
 - **Hypothesis (Disproven):** The boulder at (6, 16) can be pushed up the steps at (6, 14). **Test:** Pushed the boulder to (6, 15), then attempted to push it to (6, 14). **Result:** The push was blocked. **Conclusion:** Boulders cannot be pushed onto `steps` tiles.
 
-# VI. Untested Assumptions
-- While system feedback has shown *some* defeated trainers on this map are passable, I have been assuming this applies to *all* of them. This is an unverified assumption. If I get stuck again, I need to test this by trying to path through other defeated trainers.
-- **Full Heal Mechanic:** This item ONLY cures status conditions. It does NOT restore HP. This was verified by attempting to use it on multiple injured Pokémon with no status effects, which resulted in the message 'It won't have any effect.'
-- `cleared_boulder_barrier`: A former barrier that acts as a one-way ramp. It is possible to move from it onto `elevated_ground` (elevation 2), but it is NOT possible to move from it directly back down to `ground` or to enter it from ANY adjacent `ground` tile.
-
-# VII. Lessons & Future Plans
+# VI. Lessons & Future Plans
 - **Agent Trust:** My `puzzle_strategist_agent` correctly identified the red herring boulders at the start. I wasted significant time testing my own flawed hypotheses. In the future, I must give more weight to my agent's strategic advice, especially when I'm stuck.
 - **Agent Idea:** A `pathfinder_debugger_agent` could be useful. It could analyze a failed pathfinding attempt and suggest potential causes (e.g., 'Hypothesis: An NPC at (X,Y) is blocking the path, try ignoring it.')
