@@ -45,8 +45,8 @@
 
 # IV. Current Plans & Tasks
 ## A. Current Plan: Escape Victory Road 1F
-**Status:** Party is in critical condition. The main exit is blocked by a boulder puzzle that my agent initially failed to solve due to incomplete data (missing impassable trainers).
-**New Plan:** Having corrected my data-gathering tools, I will now use my upgraded `puzzle_strategist_agent` to generate a correct solution. My immediate priority is to gather all necessary environmental data and then call the agent.
+**Status:** Party is in critical condition. The main exit is blocked by a boulder puzzle. My agent initially failed to solve it due to incomplete data (missing impassable trainers), but my data-gathering tools have been corrected.
+**New Plan:** I will use my upgraded `puzzle_strategist_agent` with fresh data to generate a correct solution. My immediate priority is to gather all necessary environmental data and then call the agent.
 
 ## B. Archived Plans
 - **Victory Road 2F Western Dead End:** Confirmed via system feedback and re-evaluation that this area is NOT a dead end. The path forward is via the elevated platform, accessible because the boulder puzzle was already solved.
