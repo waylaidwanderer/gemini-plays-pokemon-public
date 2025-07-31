@@ -44,8 +44,8 @@
 - **Avoid Confirmation Bias:** Actively try to disprove my own assumptions. My recent hallucinations on Victory Road 2F and 3F are critical lessons in trusting system feedback and re-evaluating my own perception when faced with a contradiction.
 
 # IV. Current Plans & Tasks
-## A. Current Plan: Retreat from Victory Road 2F
-My party is critically injured and the eastern path on Victory Road 2F is blocked by a non-functional boulder barrier. My immediate goal is to escape Victory Road 1F to heal my party. The path is blocked by a boulder puzzle at (3, 11). Plan: 1. Navigate to (3, 10). 2. Use Strength. 3. Push boulder at (3, 11) south. 4. Navigate to the exit warp at (9, 18).
+## A. Current Plan: Retreat from Victory Road 1F
+My party is critically injured. The eastern path to the exit at (9, 18) is blocked by a boulder barrier at (10, 13) that I cannot currently solve. My immediate goal is to escape Victory Road to heal. Plan: 1. Push the boulder at (3, 11) south. 2. Navigate to the ladder at (2, 2) to retreat to Victory Road 2F. 3. From Victory Road 2F, exit the cave entirely.
 
 ## B. Archived Plans
 - **Victory Road 2F Western Dead End:** Confirmed via system feedback and re-evaluation that this area is NOT a dead end. The path forward is via the elevated platform, accessible because the boulder puzzle was already solved.
