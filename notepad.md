@@ -85,3 +85,8 @@
 - **Error:** My second hypothesis was also a hallucination. I believed I could push the boulder from (17, 14) to the switch at (18, 14).
 - **Correction:** This is impossible. The tile required to push from, (16, 14), is an `impassable` wall.
 - **Conclusion:** Moving the boulder to (17, 14) traps it, making the puzzle unsolvable. I must reset the map again. This is my third major failure on this puzzle. I need to be much more careful about verifying every single tile before forming a plan.
+
+# X. Critical Lessons & Corrections - Part 2
+- **Error:** My second hypothesis was also a hallucination. I believed I could push the boulder from (17, 14) to the switch at (18, 14).
+- **Correction:** This is impossible. The tile required to push from, (16, 14), is an `impassable` wall.
+- **Conclusion:** Moving the boulder to (17, 14) traps it, making the puzzle unsolvable. I must reset the map again. This is my third major failure on this puzzle. I need to be much more careful about verifying every single tile before forming a plan.
