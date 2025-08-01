@@ -56,6 +56,3 @@
 
 # VI. Archived Lessons
 - Victory Road 1F Puzzle: Solved.
-
-### Victory Road 2F Traversal Notes
-- **Defeated Trainers:** Confirmed via attempted movement into the Hiker at (13, 10) that defeated trainers on this floor act as impassable walls.
