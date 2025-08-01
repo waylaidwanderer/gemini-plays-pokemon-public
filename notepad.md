@@ -57,5 +57,3 @@
 - **Victory Road 1F Puzzle:** Solved.
 - `ladder_up`: Warps to a higher floor.
 - `ladder_down`: Warps to a lower floor.
-- `ladder_up`: Warps to a higher floor.
-- `ladder_down`: Warps to a lower floor.
