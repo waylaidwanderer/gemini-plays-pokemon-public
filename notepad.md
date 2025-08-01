@@ -39,7 +39,7 @@
 
 # III. Tool Development & Debugging
 ## A. Tool Status
-- **`gem_pathfinder_v2` Status (Fixed):** The tool is now reliable. A critical bug was fixed where the tool had faulty, map-specific logic that incorrectly treated defeated trainers on Victory Road as passable. This assumption was proven false by in-game testing. The tool now correctly treats all NPCs (except Pikachu) as impassable obstacles on all maps.
+- **`gem_pathfinder_v2` Status (Under Review):** The tool's code is functionally correct, but its reliability is dependent on my world model. Recent failures were not bugs in the tool, but a result of me feeding it a flawed assumption (that defeated trainers are impassable on this map). The ongoing issue is with my hypothesis testing, not the tool's implementation.
 
 ## B. Debugging Principles & Lessons
 - **Scientific Method:** Use a scientific approach: form a hypothesis, test it, and document the conclusion.
