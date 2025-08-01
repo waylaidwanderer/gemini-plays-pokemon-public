@@ -21,8 +21,9 @@
 - `cleared_boulder_barrier`: A former barrier that acts as a one-way ramp. It is possible to move from it onto `elevated_ground` (elevation 2), but it is NOT possible to move from it directly back down to `ground` or to enter it from ANY adjacent `ground` tile.
 - `hole`: Drops to a lower floor. Pushing a boulder into one causes it to appear on the floor below.
 - `spinner`: Forces movement.
-
 - `cuttable`: A tree that can be removed with the HM Cut.
+- `ladder_up`: Warps to a higher floor.
+- `ladder_down`: Warps to a lower floor.
 
 # II. Battle Intel
 ## A. Type Effectiveness Chart (Verified)
@@ -54,8 +55,4 @@
 - **IMMEDIATE ACTION:** Flaws in tools or data management (notepad, markers) must be addressed immediately, not deferred as goals.
 
 # VI. Archived Lessons
-- **Victory Road 1F Puzzle:** Solved.
-- `ladder_up`: Warps to a higher floor.
-- `ladder_down`: Warps to a lower floor.
-- `ladder_up`: Warps to a higher floor.
-- `ladder_down`: Warps to a lower floor.
+- Victory Road 1F Puzzle: Solved.
