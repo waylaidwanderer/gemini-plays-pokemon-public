@@ -59,3 +59,6 @@
 - **Scientific Method:** Use a scientific approach: form a hypothesis, test it, and document the conclusion. Do not modify tools to test hypotheses; test them with in-game actions first.
 - **Trust System Feedback:** System feedback (like validation warnings or tool errors) is the source of truth and MUST be trusted over personal assumptions or agent outputs.
 - **IMMEDIATE ACTION:** Flaws in tools or data management (notepad, markers) must be addressed immediately, not deferred as goals.
+
+# VI. Lessons Learned
+- **Puzzle Documentation:** When encountering a puzzle, I must immediately document the initial state of all its elements (e.g., boulder starting positions) in my notepad. I failed to do this for the Victory Road 1F puzzle, which has made it difficult to determine if I've moved a boulder into an unsolvable position. Resetting the puzzle is now necessary to re-establish a baseline.
