@@ -68,3 +68,9 @@
 - **Status:** Puzzle reset by leaving and re-entering the map.
 - **Objective:** Move the boulder from (6, 16) to the switch at (18, 14).
 - **Strategy:** Avoid pushing the boulder to (6, 15), as this is a known trap. The path must be carefully planned to navigate around the central structures.
+
+# IX. Critical Lessons & Corrections
+## A. Victory Road 1F Puzzle Hallucination
+- **Error:** I incorrectly believed the tile at (18, 15) was traversable and planned my entire strategy around pushing the boulder onto it. Map data confirms this tile is `impassable`.
+- **Correction:** The boulder cannot be pushed into (18, 15). A new path must be found.
+- **New Hypothesis:** The boulder at (17, 15) must be pushed north to (17, 14), and then east to the switch at (18, 14).
