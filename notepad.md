@@ -64,9 +64,3 @@
 - **Assumption:** The eastern boulder puzzle on Victory Road 2F is solvable from its starting position at (6, 6).
   - **Test Plan:** Before pushing the boulder, I will manually trace a viable path for both the boulder and myself to the switch at (10, 17) to ensure it is not a trap.
 - **Assumption:** The ladder at (24, 8) is the correct path to progress on Victory Road 3F.
-  - **Test Plan:** After solving the eastern puzzle, I will take the ladder at (24, 8) and explore the resulting area on 3F. If it leads to a dead end or back to a previous area, I will conclude that the ladder at (2, 2) is the main path.
-## E. Victory Road 2F - Eastern Puzzle Attempt 1
-- **Hypothesis:** Push the eastern boulder at (6, 6) north to (6, 5) to begin the puzzle.
-- **Test:** Pushed the boulder from (6, 6) to (6, 5).
-- **Result:** The boulder is now at (6, 5). The tiles to its left (5, 5) and right (7, 5) are impassable, and the tile above it (6, 4) leads to a known dead-end. It is impossible to move the boulder from this position.
-- **Conclusion:** Pushing the boulder north from (6, 6) is a trap that makes the puzzle unsolvable. I must reset the map by leaving and re-entering to try a different approach.
