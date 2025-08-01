@@ -33,7 +33,7 @@
 
 ## B. Strategic Notes
 - **"No Will to Fight" Message:** A party menu cursor error on a fainted Pokémon, not a refusal to battle.
-- **Victory Road Trainers:** Defeated trainers in Victory Road are IMPASSABLE. My previous assumption they were passable was proven false by being blocked at (7, 11).
+- **Victory Road Trainers (Hypothesis):** My previous conclusion that all defeated trainers are impassable was flawed. I was blocked by the Youngster at (7, 11), but a system warning confirmed I was not in a dead end, which contradicts this conclusion. The impassability of defeated trainers needs to be re-tested on a case-by-case basis.
 - **Struggle Mechanic:** Struggle is only used automatically when a Pokémon is out of PP for ALL of its moves.
 - **Full Heal Mechanic:** This item ONLY cures status conditions. It does NOT restore HP. This was verified by attempting to use it on multiple injured Pokémon with no status effects, which resulted in the message 'It won't have any effect.'
 
