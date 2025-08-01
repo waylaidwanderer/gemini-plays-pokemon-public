@@ -36,10 +36,12 @@
 - **Struggle Mechanic:** Struggle is only used automatically when a Pokémon is out of PP for ALL of its moves.
 - **Full Heal Mechanic:** This item ONLY cures status conditions. It does NOT restore HP. This was verified by attempting to use it on multiple injured Pokémon with no status effects, which resulted in the message 'It won't have any effect.'
 
-# III. Current Strategy: Victory Road 1F Puzzle
-- **Objective:** Solve the Victory Road 1F boulder puzzle to reach the ladder to 2F.
-- **Tool Fixed:** The `boulder_puzzle_solver` tool is now updated. I will rely on it if manual attempts fail again.
-- **Current Step:** I am positioned at (18, 12) to push the boulder at (18, 13) down onto the switch at (18, 14).
+# III. Current Strategy: Victory Road 2F Puzzle
+- **Objective:** Solve the Victory Road 2F boulder puzzle to reach the ladder to 3F.
+- **Puzzle Elements:**
+    - Western Boulder: (5, 15) -> Switch: (2, 17) -> Barrier: (8, 9), (8, 10)
+    - Eastern Boulder: (6, 6) -> Switch: (10, 17) -> Barrier: (24, 15)
+- **Current Step:** Solve the western puzzle to access the eastern half of the floor. I am currently positioning myself to push the boulder at (4, 15).
 
 # IV. Archived Plans & Disproven Hypotheses
 - **Red Herring Boulders:** Both the western boulder at (3, 11) and the eastern boulder at (15, 3) are confirmed red herrings. Tests showed the western boulder is blocked by an impassable wall at (3, 9), and the eastern side of the map is physically inaccessible from the entrance.
