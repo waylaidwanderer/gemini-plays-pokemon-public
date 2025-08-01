@@ -37,19 +37,17 @@
 - **Full Heal Mechanic:** This item ONLY cures status conditions. It does NOT restore HP. This was verified by attempting to use it on multiple injured Pokémon with no status effects, which resulted in the message 'It won't have any effect.'
 
 # III. Current Strategy: Victory Road 1F
-- **Objective:** Reach the ladder to 2F at (2, 2).
-- **Hypothesis (Disproven):** The path to the ladder is on the western side, blocked by the boulder at (3, 10). **Test:** Attempted to push the boulder at (3, 10) up from (3, 11). **Result:** Movement blocked by an impassable tile at (3, 9). **Conclusion:** The boulder at (3, 10) is immovable from the south, making the western path impassable.
+- **Objective:** Solve the puzzle by moving the boulder at (6, 16) to the switch at (18, 14).
 
 # IV. Archived Plans & Disproven Hypotheses
-- **Hypothesis (Disproven):** The western boulder puzzle is the key to the final solution. **Source:** My own flawed analysis. **Result:** Multiple failed attempts and logical dead ends (e.g., cannot push boulder onto `steps` tile). **Conclusion:** The western path is a distraction.
-- **Hypothesis (Disproven):** The true path requires walking through defeated trainers. **Test:** Modified `gem_pathfinder_v2` to ignore trainer collision. **Result:** The tool returned 'No path found.' **Conclusion:** The map geometry itself makes the eastern section unreachable from the entrance, regardless of trainer passability.
-- **Hypothesis (Disproven):** The path to the ladder on Victory Road 1F is through the eastern puzzle. **Test:** Used `gem_pathfinder_v2` to find a path to the ladder at (2, 2) while ignoring the western boulders. **Result:** The tool returned a valid path. **Conclusion:** The path to the ladder is geometrically possible through the western section, meaning the eastern puzzle is a red herring for progression. The path is blocked by the boulder at (3, 10), which is currently immovable from the south.
-- **Hypothesis (Disproven):** It might be possible to step down from an `elevated_ground` tile to a `ground` tile on Victory Road 1F. **Test:** Attempted to move from (6, 10) [`elevated_ground`] to (6, 9) [`ground`]. **Result:** Movement was blocked. **Conclusion:** The rule that you cannot step down from `elevated_ground` is confirmed to be true for this map.
-- **Hypothesis (Disproven):** The boulder at (3, 10) is the key to the puzzle. **Test:** Attempted to push the boulder up from (3, 11). **Result:** Movement was blocked by an impassable tile at (3, 9). **Conclusion:** The boulder at (3, 10) is a red herring.
-- **Hypothesis (Disproven):** The boulder at (6, 15) can be pushed up the steps at (6, 14). **Test:** Attempted to push the boulder up from (6, 16) on turn 114437. **Result:** Movement was blocked. **Conclusion:** The rule that boulders cannot be pushed onto `steps` tiles is definitively confirmed. The western path is not viable through this method.
+- **Hypothesis (Disproven): The solution involves the eastern puzzle or the western boulder at (3, 10).** **Test:** Attempted to find a path to the eastern side; it is physically cut off. Attempted to push the boulder at (3, 10) north from (3, 11). **Result:** Path to east is blocked. Pushing boulder at (3,10) is blocked by an impassable wall at (3,9). **Conclusion:** The eastern puzzle and the western boulder at (3, 10) are red herrings.
+- **Hypothesis (Disproven): The boulder at (6, 15) can be pushed up the steps at (6, 14).** **Test:** Attempted to push the boulder up from (6, 16) on turn 114437. **Result:** Movement was blocked. **Conclusion:** The rule that boulders cannot be pushed onto `steps` tiles is definitively confirmed.
+- **Hypothesis (Disproven): It might be possible to step down from an `elevated_ground` tile to a `ground` tile on Victory Road 1F.** **Test:** Attempted to move from (6, 10) [`elevated_ground`] to (6, 9) [`ground`]. **Result:** Movement was blocked. **Conclusion:** The rule that you cannot step down from `elevated_ground` is confirmed to be true for this map.
+- **Hypothesis (Disproven): The true path requires walking through defeated trainers.** **Test:** Modified `gem_pathfinder_v2` to ignore trainer collision. **Result:** The tool returned 'No path found.' **Conclusion:** The map geometry itself makes the eastern section unreachable from the entrance, regardless of trainer passability.
 
 # V. Tool & Agent Development
 ## A. Ideas & Future Plans
+- A `party_composition_advisor` agent could analyze my Pokémon and an opponent's known team to suggest an optimal party lineup for a major battle.
 - A `pathfinder_debugger_agent` could be useful. It could analyze a failed pathfinding attempt and suggest potential causes (e.g., 'Hypothesis: An NPC at (X,Y) is blocking the path, try ignoring it.')
 - A `puzzle_reset_strategist` could be useful. It could analyze the map state and determine if resetting the puzzle (by leaving the map) is the most efficient path forward, rather than trying to solve it from a bad state.
 - Refine `puzzle_strategist_agent` to output `ignorable_coords` directly, streamlining the puzzle-solving workflow.
@@ -58,5 +56,3 @@
 - **Scientific Method:** Use a scientific approach: form a hypothesis, test it, and document the conclusion. Do not modify tools to test hypotheses; test them with in-game actions first.
 - **Trust System Feedback:** System feedback (like validation warnings or tool errors) is the source of truth and MUST be trusted over personal assumptions or agent outputs.
 - **IMMEDIATE ACTION:** Flaws in tools or data management (notepad, markers) must be addressed immediately, not deferred as goals.
-- **Hypothesis (Disproven):** The boulder at (3, 10) is the key to the puzzle. **Test:** Attempted to push the boulder up from (3, 11). **Result:** Movement was blocked by an impassable tile at (3, 9). **Conclusion:** The boulder at (3, 10) is a red herring.
-- A `party_composition_advisor` agent could analyze my Pokémon and an opponent's known team to suggest an optimal party lineup for a major battle.
