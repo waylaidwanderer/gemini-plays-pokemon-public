@@ -73,3 +73,9 @@
 - **Boulders:** (6, 16), (15, 3), (3, 11)
 - **Switch:** (18, 14)
 - **Barrier:** (10, 13)
+
+## D. Victory Road 1F - Attempt 4
+- **Hypothesis:** Push the boulder at (6, 16) south, then east, then north.
+- **Test:** Pushed the boulder to (10, 15).
+- **Result:** The boulder is now trapped. It cannot be pushed north into the impassable tile at (10, 14) or in any other direction.
+- **Conclusion:** This entire line of play is a dead end. I must reset the map again.
