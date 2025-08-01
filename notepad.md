@@ -37,13 +37,12 @@
 - **Full Heal Mechanic:** This item ONLY cures status conditions. It does NOT restore HP. This was verified by attempting to use it on multiple injured Pokémon with no status effects, which resulted in the message 'It won't have any effect.'
 
 # III. Current Strategy: Victory Road 2F Puzzle
-- **Objective:** Solve the Victory Road 2F boulder puzzle to reach the ladder to 3F.
+- **Objective:** Solve the Victory Road 2F eastern boulder puzzle to reach the ladder to 3F.
 - **Puzzle Elements:**
     - Western Boulder: (5, 15) -> Switch: (2, 17) -> Barrier: (8, 9), (8, 10) (SOLVED)
     - Eastern Boulder: (6, 6) -> Switch: (10, 17) -> Barrier: (24, 15)
-- **Current Blockage:** My `gem_pathfinder_v2` tool correctly determined that there is no path to the northern section of the map from my current position. My visual interpretation was flawed.
-- **Disproven Hypothesis:** The Pokemaniac at (5, 3) was not the primary obstacle. The true obstacle is a line of impassable tiles at y=5 that physically separates the northern and southern halves of this area.
-- **New Plan:** The only way to reach the boulder at (6, 4) is to navigate around the entire eastern side of the map. I will use the pathfinder to plot a course to (5, 3) to begin solving the puzzle from the correct side.
+- **Confirmed Blockage:** The northern section of the map is physically inaccessible from the west due to a continuous wall of impassable tiles at y=5. My `gem_pathfinder_v2` and `pathfinder_debugger_agent` confirmed this, disproving my earlier hypothesis about the Pokemaniac at (5, 3) being the only obstacle.
+- **New Plan:** To solve the eastern puzzle, I must navigate the long way around the entire map to get into a position to push the boulder at (6, 6). My immediate goal is to reach (6, 7) to begin this process.
 
 # IV. Archived Plans & Disproven Hypotheses
 - **Red Herring Boulders:** Both the western boulder at (3, 11) and the eastern boulder at (15, 3) are confirmed red herrings. Tests showed the western boulder is blocked by an impassable wall at (3, 9), and the eastern side of the map is physically inaccessible from the entrance.
