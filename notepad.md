@@ -37,10 +37,15 @@
 - **Struggle Mechanic:** Struggle is only used automatically when a Pokémon is out of PP for ALL of its moves.
 - **Full Heal Mechanic:** This item ONLY cures status conditions. It does NOT restore HP. This was verified by attempting to use it on multiple injured Pokémon with no status effects, which resulted in the message 'It won't have any effect.'
 
-# III. Current Strategy: Victory Road 2F Puzzle
-- **Status:** Southern boulder puzzle solved. The boulder from (5, 15) is now on the switch at (2, 17).
-- **Current Goal:** Solve the northern boulder puzzle.
-- **Hypothesis:** The solution to the northern boulder puzzle at (6, 6) requires accessing the eastern side of the map, which is now possible since the southern puzzle cleared the barrier at (8, 9).
+# III. Current Strategy: Victory Road 2F Puzzle (Agent v2)
+- **Status:** Southern boulder is on its switch, keeping the barrier at (8, 9) open.
+- **High-Level Goal:** Move the northern boulder from (6, 6) to the switch at (10, 17).
+- **Agent Analysis:** The solution requires moving the boulder through a critical chokepoint at row y=10 to cross from the west to the east side of the map.
+- **Strategic Plan (Sub-Goals):
+    1. Move the boulder from (6, 6) to the staging position at (8, 10).
+    2. Push the boulder across the chokepoint to (12, 10).
+    3. Push the boulder down the vertical corridor to (12, 17).
+    4. Push the boulder left onto the switch at (10, 17).
 
 # V. Tool & Agent Principles
 - **Scientific Method:** Use a scientific approach: form a hypothesis, test it, and document the conclusion. Do not modify tools to test hypotheses; test them with in-game actions first.
