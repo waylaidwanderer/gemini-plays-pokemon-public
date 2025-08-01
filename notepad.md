@@ -73,3 +73,8 @@
 - **Boulders:** (6, 16), (15, 3), (3, 11)
 - **Switch:** (18, 14)
 - **Barrier:** (10, 13)
+
+## C. Victory Road 1F - Attempt 3
+- **Hallucination #2:** My second hypothesis was also a hallucination. I believed I could push the boulder from (17, 14) to the switch at (18, 14).
+- **Correction:** This is impossible. The tile required to push from, (16, 14), is an `impassable` wall.
+- **Conclusion:** Moving the boulder to (17, 14) traps it, making the puzzle unsolvable. I must reset the map again. This is my third major failure on this puzzle. My reasoning-based approach is flawed and I need a computational solver.
