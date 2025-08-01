@@ -6,7 +6,7 @@
 - **Surfing:** Not all `ground` tiles adjacent to `water` are valid starting points.
 - **Puzzle Resets:** Leaving and re-entering a floor resets all boulders to their original positions.
 - **Off-Screen State Changes:** An object's state will not update in the map data until it is visible on-screen.
-- **Boulder Pushing:** A boulder can be pushed from an adjacent tile by facing it and pressing the corresponding direction. Pushing a boulder always moves the player into the boulder's vacated space, regardless of the angle of the push. Boulders cannot be pushed into `impassable` tiles.
+- **Boulder Pushing:** A boulder can be pushed from an adjacent tile by facing it and pressing the corresponding direction. Pushing a boulder usually moves the player into the boulder's vacated space. However, the game may prevent this movement under certain conditions (e.g., if the new position would be highly restrictive). Boulders cannot be pushed into `impassable` tiles.
 
 ## B. Tile Glossary & Movement Rules
 - `ground`: Standard walkable tile.
