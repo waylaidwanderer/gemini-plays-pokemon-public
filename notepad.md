@@ -37,11 +37,13 @@
 - **Full Heal Mechanic:** This item ONLY cures status conditions. It does NOT restore HP. This was verified by attempting to use it on multiple injured Pokémon with no status effects, which resulted in the message 'It won't have any effect.'
 
 # III. Current Strategy: Victory Road 2F Puzzle
-- **Objective:** Solve the Victory Road 2F eastern boulder puzzle to reach the ladder to 3F.
-- **Current Plan (2nd Attempt):** The puzzle has been reset. The goal is to push the boulder at (6, 6) to the switch at (10, 17). I must avoid pushing the boulder to (6, 4), which is a confirmed dead end.
+- **Objective:** Solve the Victory Road 2F boulder puzzle to reach the ladder to 3F.
+- **Agent-Derived Plan:** My `puzzle_strategist_agent` has identified that the northern boulder at (6, 5) is a red herring. The actual puzzle involves using the southern boulder at (5, 15) to activate BOTH switches at (2, 17) and (10, 17) in sequence.
+- **Current Sub-Goal:** Navigate to the southern area to access the boulder at (5, 15).
 - **Puzzle Elements:**
-    - Western Boulder: (5, 15) -> Switch: (2, 17) -> Barrier: (8, 9), (8, 10) (SOLVED)
-    - Eastern Boulder: (6, 5) -> Switch: (10, 17) -> Barrier: (24, 15)
+    - Southern Boulder: (5, 15)
+    - Switches: (2, 17) and (10, 17)
+    - Barrier: (24, 15)
 - **Red Herring Boulders:** Both the western boulder at (3, 11) and the eastern boulder at (15, 3) are confirmed red herrings. Tests showed the western boulder is blocked by an impassable wall at (3, 9), and the eastern side of the map is physically inaccessible from the entrance.
 - **Boulder Movement Rules (Confirmed):**
     - Boulders cannot be pushed onto `steps` tiles (tested at (6, 14)).
