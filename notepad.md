@@ -41,7 +41,7 @@
 - **Puzzle Elements:**
     - Western Boulder: (5, 15) -> Switch: (2, 17) -> Barrier: (8, 9), (8, 10) (SOLVED)
     - Eastern Boulder: (6, 6) -> Switch: (10, 17) -> Barrier: (24, 15)
-- **New Plan (Loop Break):** The long-distance navigation strategy is failing due to constant wild encounters. My new, focused plan is to solve the eastern boulder puzzle directly. Immediate Goal: Get into position at (6, 7) to push the boulder at (6, 6).
+- **Current Plan (Loop Break):** My attempts to solve the eastern boulder puzzle, both manually and with my solver tool, have failed and resulted in a repetitive action loop. To break this cycle, I am pivoting to explore an alternate route. My immediate goal is to reach the ladder at (24, 8).
 - **Red Herring Boulders:** Both the western boulder at (3, 11) and the eastern boulder at (15, 3) are confirmed red herrings. Tests showed the western boulder is blocked by an impassable wall at (3, 9), and the eastern side of the map is physically inaccessible from the entrance.
 - **Boulder Movement Rules (Confirmed):**
     - Boulders cannot be pushed onto `steps` tiles (tested at (6, 14)).
