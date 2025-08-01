@@ -38,10 +38,11 @@
 
 # III. Current Strategy: Victory Road 1F
 - **Objective:** Reach the ladder to 2F at (2, 2).
-- **Primary Strategy:** The puzzle must be solved in stages. The eastern boulder puzzle is the key to the final solution, but it is currently unreachable. Therefore, the immediate goal is to solve the western boulder puzzle to create a path to the eastern section.
-- **Immediate Plan:** Maneuver the boulder at (6, 16) to a position that allows access to the elevated platform via the steps at (6, 14).
+- **Primary Strategy (from `puzzle_strategist_agent`):** The western boulders at (6, 15) and (3, 10) are red herrings. The true solution involves pushing the eastern boulder at (15, 3) to the switch at (18, 14).
+- **Immediate Plan:** Navigate to the eastern boulder at (15, 3) to begin pushing it.
 
 # IV. Archived Plans & Disproven Hypotheses
+- **Hypothesis (Disproven):** The western boulder puzzle is the key to the final solution. **Source:** My own flawed analysis. **Result:** Multiple failed attempts and logical dead ends (e.g., cannot push boulder onto `steps` tile). **Conclusion:** The western path is a distraction.
 - **Hypothesis (Disproven):** The true path requires walking through defeated trainers. **Test:** Modified `gem_pathfinder_v2` to ignore trainer collision. **Result:** The tool returned 'No path found.' **Conclusion:** The map geometry itself makes the eastern section unreachable from the entrance, regardless of trainer passability.
 - **Hypothesis (Disproven):** The path to the ladder on Victory Road 1F is through the eastern puzzle. **Test:** Used `gem_pathfinder_v2` to find a path to the ladder at (2, 2) while ignoring the western boulders. **Result:** The tool returned a valid path. **Conclusion:** The path to the ladder is geometrically possible through the western section, meaning the eastern puzzle is a red herring for progression. The path is blocked by the boulder at (3, 10), which is currently immovable from the south.
 - **Hypothesis (Disproven):** It might be possible to step down from an `elevated_ground` tile to a `ground` tile on Victory Road 1F. **Test:** Attempted to move from (6, 10) [`elevated_ground`] to (6, 9) [`ground`]. **Result:** Movement was blocked. **Conclusion:** The rule that you cannot step down from `elevated_ground` is confirmed to be true for this map.
