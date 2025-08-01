@@ -45,6 +45,9 @@
     1. Move the boulder from (6, 6) to the staging position at (8, 10).
     2. Push the boulder across the chokepoint to (12, 10).
     3. Push the boulder down the vertical corridor to (12, 17).
+    4. Push the boulder left onto the switch at (10, 17).    1. Move the boulder from (6, 6) to the staging position at (8, 10).
+    2. Push the boulder across the chokepoint to (12, 10).
+    3. Push the boulder down the vertical corridor to (12, 17).
     4. Push the boulder left onto the switch at (10, 17).
 
 # V. Tool & Agent Principles
