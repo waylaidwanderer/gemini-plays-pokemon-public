@@ -38,7 +38,7 @@
 
 # III. Current Strategy: Victory Road 2F Puzzle
 - **Objective:** Solve the Victory Road 2F eastern boulder puzzle to reach the ladder to 3F.
-- **Current Plan (Manual):** The `boulder_puzzle_solver` is unreliable. New manual plan: Push the boulder at (6, 5) UP first, since getting above it to push it down is impossible. The immediate goal is to move to (6, 6) to start the push.
+- **Current Plan (Reset Puzzle):** My manual plan to push the boulder UP has failed. Pushing the boulder to (6, 4) has trapped it, as confirmed by the pathfinder being unable to find a route to push it further. The new plan is to reset the puzzle by leaving and re-entering the floor via the ladder to 1F.
 - **Puzzle Elements:**
     - Western Boulder: (5, 15) -> Switch: (2, 17) -> Barrier: (8, 9), (8, 10) (SOLVED)
     - Eastern Boulder: (6, 5) -> Switch: (10, 17) -> Barrier: (24, 15)
