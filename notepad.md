@@ -41,8 +41,7 @@
 - **Puzzle Elements:**
     - Western Boulder: (5, 15) -> Switch: (2, 17) -> Barrier: (8, 9), (8, 10) (SOLVED)
     - Eastern Boulder: (6, 6) -> Switch: (10, 17) -> Barrier: (24, 15)
-- **Confirmed Blockage:** The northern section of the map is physically inaccessible from the west due to a continuous wall of impassable tiles at y=5. My `gem_pathfinder_v2` and `pathfinder_debugger_agent` confirmed this, disproving my earlier hypothesis about the Pokemaniac at (5, 3) being the only obstacle.
-- **New Plan:** To solve the eastern puzzle, I must navigate the long way around the entire map to get into a position to push the boulder at (6, 6). My immediate goal is to reach (6, 7) to begin this process.
+- **New Plan:** The northern section of the map is physically inaccessible from the west. The only way to solve the eastern boulder puzzle is to find an alternate route. The ladders at (2, 2) and (24, 8) are the most likely paths forward.
 
 # IV. Archived Plans & Disproven Hypotheses
 - **Red Herring Boulders:** Both the western boulder at (3, 11) and the eastern boulder at (15, 3) are confirmed red herrings. Tests showed the western boulder is blocked by an impassable wall at (3, 9), and the eastern side of the map is physically inaccessible from the entrance.
