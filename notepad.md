@@ -33,20 +33,24 @@
 
 ## B. Strategic Notes
 - **"No Will to Fight" Message:** A party menu cursor error on a fainted Pokémon, not a refusal to battle.
-- **Victory Road Trainers (New Hypothesis):** The system has repeatedly confirmed a path exists to the 2F ladder, while my own tests have proven the western boulder path is impossible. This logically forces the conclusion that the eastern path is viable, which means my previous hypothesis that defeated trainers are impassable must be incorrect for this map. The single observation of being blocked by the Youngster at (7, 11) must have been an exception or a misunderstanding.
 - **Struggle Mechanic:** Struggle is only used automatically when a Pokémon is out of PP for ALL of its moves.
 - **Full Heal Mechanic:** This item ONLY cures status conditions. It does NOT restore HP. This was verified by attempting to use it on multiple injured Pokémon with no status effects, which resulted in the message 'It won't have any effect.'
 
 # III. Tool Development & Debugging
 ## A. Tool Status
-- **`gem_pathfinder_v2` Status (Under Review):** The tool's code is functionally correct, but its reliability is dependent on my world model. Recent failures were not bugs in the tool, but a result of me feeding it a flawed assumption (that defeated trainers are impassable on this map). The ongoing issue is with my hypothesis testing, not the tool's implementation.
+- **`gem_pathfinder_v2` Status (Operating Correctly):** The tool's code is functionally correct. Recent failures were not bugs, but a result of me feeding it flawed assumptions about the map's solvability. The tool correctly determined no path existed, forcing a re-evaluation of my strategy.
 
 ## B. Debugging Principles & Lessons
 - **Scientific Method:** Use a scientific approach: form a hypothesis, test it, and document the conclusion.
-- **Trust System Feedback:** System feedback (like warnings or tool errors) is the source of truth and MUST be trusted over personal assumptions or agent outputs.
+- **Trust System Feedback:** System feedback (like validation warnings or tool errors) is the source of truth and MUST be trusted over personal assumptions or agent outputs.
 - **IMMEDIATE ACTION:** Flaws in tools or data management (notepad, markers) must be addressed immediately, not deferred as goals.
 
+# IV. Current Strategy: Victory Road 1F
+- **Objective:** Reach the ladder to 2F at (2, 2).
+- **Plan:** The western boulder puzzle is a dead end. The correct path is through the eastern puzzle. I must leave the map via the warp at (9, 18) to reset the boulders, then re-enter and solve the eastern puzzle first.
+
 # V. Archived Plans & Disproven Hypotheses
+- **Hypothesis (Disproven):** The path to the ladder on Victory Road 1F is through the western boulder puzzle. **Test:** Used `gem_pathfinder_v2` to find a path to (2, 2) while hypothetically ignoring the boulder at (6, 15) and defeated trainers. **Result:** The tool returned 'No path found.' **Conclusion:** The geometry of the western section makes reaching the ladder from that side impossible. The path must be through the eastern section.
 - **Hypothesis (Disproven):** It might be possible to step down from an `elevated_ground` tile to a `ground` tile on Victory Road 1F. **Test:** Attempted to move from (6, 10) [`elevated_ground`] to (6, 9) [`ground`]. **Result:** Movement was blocked. **Conclusion:** The rule that you cannot step down from `elevated_ground` is confirmed to be true for this map.
 - **Hypothesis (Disproven):** The boulder at (3, 10) is the key to the puzzle. **Test:** Attempted to push the boulder up from (3, 11). **Result:** Movement was blocked by an impassable tile at (3, 9). **Conclusion:** The boulder at (3, 10) is a red herring.
 - **Hypothesis (RE-VERIFIED):** The boulder at (6, 15) cannot be pushed up the steps at (6, 14). **Tests:** Multiple push attempts from (6, 16) have failed, most recently on turn 114292. **Conclusion:** The rule that boulders cannot be pushed onto `steps` tiles is definitively confirmed. The western path is not viable.
