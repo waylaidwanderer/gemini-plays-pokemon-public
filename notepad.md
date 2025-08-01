@@ -37,17 +37,16 @@
 - **Struggle Mechanic:** Struggle is only used automatically when a Pokémon is out of PP for ALL of its moves.
 - **Full Heal Mechanic:** This item ONLY cures status conditions. It does NOT restore HP. This was verified by attempting to use it on multiple injured Pokémon with no status effects, which resulted in the message 'It won't have any effect.'
 
-# III. Current Strategy: Victory Road 2F Puzzle
-- **Objective:** Solve the Victory Road 2F boulder puzzle to reach the ladder to 3F.
-- **Agent-Derived Plan (V2 - Verified Logic):** The puzzle is sequential. First, the southern boulder (5, 15) must be pushed to the western switch (2, 17). This clears the central barrier at (8,9)/(8,10). Then, the northern boulder (6, 4) can be navigated through a complex eastern path to the eastern switch (10, 17), which clears the final barrier at (24, 15).
-- **Current Sub-Goal:** Get into position to push the northern boulder at (6, 4) to the left.
-- **Puzzle Elements:**
-    - Boulders: (2, 17) and (6, 4)
-    - Switches: (2, 17) and (10, 17)
-    - Barriers: (8, 9)/(8, 10) and (24, 15)
-- **Boulder Movement Rules (Confirmed):**
-    - Boulders cannot be pushed onto `steps` tiles (tested at (6, 14)).
-    - Pushing a boulder into a corner or against an impassable tile can make it permanently stuck, requiring a map reset to solve.
+# III. Current Strategy: Victory Road Navigation
+- **High-Level Goal:** Reach the eastern side of Victory Road 2F to solve the main boulder puzzle.
+- **Current Location:** Western, isolated section of Victory Road 2F.
+- **Hypothesis:** The path to the eastern side requires ascending to 3F from the west, crossing over on 3F, and descending back to 2F on the east.
+- **Immediate Objective:** Reach the ladder to Victory Road 3F at (2, 2).
+- **Current Obstacle:** A boulder at (6, 6) blocks the path to the ladder.
+- **Plan to clear boulder:**
+    1. Navigate to (7, 6).
+    2. Face left and push the boulder from (6, 6) to (5, 6).
+    3. Once the path is clear, navigate to the ladder at (2, 2).
 
 # V. Tool & Agent Principles
 - **Scientific Method:** Use a scientific approach: form a hypothesis, test it, and document the conclusion. Do not modify tools to test hypotheses; test them with in-game actions first.
