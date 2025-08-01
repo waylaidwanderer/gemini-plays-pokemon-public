@@ -41,7 +41,9 @@
 - **Puzzle Elements:**
     - Western Boulder: (5, 15) -> Switch: (2, 17) -> Barrier: (8, 9), (8, 10) (SOLVED)
     - Eastern Boulder: (6, 6) -> Switch: (10, 17) -> Barrier: (24, 15)
-- **Current Step:** Solve the eastern puzzle. The boulder is at its starting position (6, 6). My first move will be to push it down.
+- **Current Blockage:** My `boulder_puzzle_solver` and `gem_pathfinder_v2` both failed, suggesting a flaw in my world model. I cannot find a path to push the boulder at (6, 6).
+- **Hypothesis:** Defeated trainers on this map are passable, unlike on 1F. The Pokemaniac at (5, 3) is blocking the only path to solve the puzzle.
+- **Test Plan:** I will use my pathfinder to generate a path to (6, 5), instructing it to ignore the trainer at (5, 3). If a path is found, I will attempt to follow it in-game to verify if the trainer is passable.
 
 # IV. Archived Plans & Disproven Hypotheses
 - **Red Herring Boulders:** Both the western boulder at (3, 11) and the eastern boulder at (15, 3) are confirmed red herrings. Tests showed the western boulder is blocked by an impassable wall at (3, 9), and the eastern side of the map is physically inaccessible from the entrance.
