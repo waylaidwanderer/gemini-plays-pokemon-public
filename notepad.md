@@ -37,7 +37,7 @@
 - **Full Heal Mechanic:** This item ONLY cures status conditions. It does NOT restore HP. This was verified by attempting to use it on multiple injured Pokémon with no status effects, which resulted in the message 'It won't have any effect.'
 
 # III. Current Strategy: Victory Road 1F
-- **Objective:** Solve the eastern puzzle by moving the boulder (starting at (17, 15)) to the switch at (18, 14). Current position is (17, 16), which seems stuck. Plan is to reset the map to solve from a fresh state.
+- **Objective:** Find a hidden trigger in the western, accessible area of the map. My puzzle agent has determined that the switch at (18, 14) is currently unreachable, and the barrier at (10, 13) must be opened by some other means. The boulders are likely secondary to this primary objective.
 
 # IV. Archived Plans & Disproven Hypotheses
 - **Red Herring Boulders:** Both the western boulder at (3, 11) and the eastern boulder at (15, 3) are confirmed red herrings. Tests showed the western boulder is blocked by an impassable wall at (3, 9), and the eastern side of the map is physically inaccessible from the entrance.
