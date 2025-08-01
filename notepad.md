@@ -57,10 +57,3 @@
 
 # VI. Archived Puzzle Lessons
 - **Victory Road 1F:** Solved. Key takeaway was to verify all path tiles and avoid pushing boulders into corners.
-- **Victory Road 2F (West):** Solved. Straightforward push to the switch.
-- **Victory Road 2F (East):** Pushing the boulder north from (6,6) is a trap. My solver tool requires further refinement to handle this puzzle's complexity.
-
-# VIII. Unverified Assumptions & Test Plans
-- **Assumption:** The eastern boulder puzzle on Victory Road 2F is solvable from its starting position at (6, 6).
-  - **Test Plan:** Before pushing the boulder, I will manually trace a viable path for both the boulder and myself to the switch at (10, 17) to ensure it is not a trap.
-- **Assumption:** The ladder at (24, 8) is the correct path to progress on Victory Road 3F.
