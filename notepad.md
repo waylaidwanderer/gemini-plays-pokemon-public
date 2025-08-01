@@ -39,7 +39,7 @@
 
 # III. Current Strategy: Victory Road 2F Puzzle (Agent-Assisted)
 - **High-Level Goal:** Solve the two-boulder puzzle to open the path forward.
-- **Agent Analysis:** The puzzle requires pairing Boulder B1(5,15) with Switch S1(2,17) and Boulder B2(6,6) with Switch S2(10,17). Boulder B2 must be moved first along a complex eastern route to avoid traps.
+- **Agent Analysis:** The puzzle requires pairing Boulder B2 at (6,6) with Switch S2 at (10,17), and Boulder B1 at (5,15) with Switch S1 at (2,17). B2 must be moved first along a complex eastern route to avoid traps.
 - **Strategic Plan (Sub-Goals):**
     1. Move boulder B2 (6,6) east along the y=7 corridor to the vertical channel at x=22.
     2. Push boulder B2 down the x=22 channel to the horizontal corridor at y=13.
