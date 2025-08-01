@@ -71,3 +71,8 @@
 - **Boulders:** (6, 16), (15, 3), (3, 11)
 - **Switch:** (18, 14)
 - **Barrier:** (10, 13)
+
+# VIII. Victory Road 1F - Attempt 2 (Post-Reset)
+- **Status:** Puzzle reset by leaving and re-entering the map.
+- **Objective:** Move the boulder from (6, 16) to the switch at (18, 14).
+- **Strategy:** Avoid pushing the boulder to (6, 15), as this is a known trap. The path must be carefully planned to navigate around the central structures.
