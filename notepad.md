@@ -37,16 +37,16 @@
 - **Struggle Mechanic:** Struggle is only used automatically when a Pokémon is out of PP for ALL of its moves.
 - **Full Heal Mechanic:** This item ONLY cures status conditions. It does NOT restore HP. This was verified by attempting to use it on multiple injured Pokémon with no status effects, which resulted in the message 'It won't have any effect.'
 
-# III. Current Strategy: Victory Road Navigation
-- **High-Level Goal:** Reach the eastern side of Victory Road 2F to solve the main boulder puzzle.
-- **Current Location:** Western, isolated section of Victory Road 2F.
-- **Hypothesis:** The path to the eastern side requires ascending to 3F from the west, crossing over on 3F, and descending back to 2F on the east.
-- **Immediate Objective:** Reach the ladder to Victory Road 3F at (2, 2).
-- **Current Obstacle:** A boulder at (6, 6) blocks the path to the ladder.
-- **Plan to clear boulder:**
-    1. Navigate to (7, 6).
-    2. Face left and push the boulder from (6, 6) to (5, 6).
-    3. Once the path is clear, navigate to the ladder at (2, 2).
+# III. Current Strategy: Victory Road 2F Puzzle (Agent-Assisted)
+- **High-Level Goal:** Solve the two-boulder puzzle to open the path forward.
+- **Agent Analysis:** The puzzle requires pairing Boulder B1(5,15) with Switch S1(2,17) and Boulder B2(6,6) with Switch S2(10,17). Boulder B2 must be moved first along a complex eastern route to avoid traps.
+- **Strategic Plan (Sub-Goals):**
+    1. Move boulder B2 (6,6) east along the y=7 corridor to the vertical channel at x=22.
+    2. Push boulder B2 down the x=22 channel to the horizontal corridor at y=13.
+    3. Maneuver boulder B2 west along the y=13 corridor to the vertical channel at x=16.
+    4. Push boulder B2 down the x=16 channel to the switch row at y=17.
+    5. Push boulder B2 left from (16,17) to its final position on switch S2 (10,17).
+    6. Move boulder B1 (5,15) down and left to its final position on switch S1 (2,17).
 
 # V. Tool & Agent Principles
 - **Scientific Method:** Use a scientific approach: form a hypothesis, test it, and document the conclusion. Do not modify tools to test hypotheses; test them with in-game actions first.
