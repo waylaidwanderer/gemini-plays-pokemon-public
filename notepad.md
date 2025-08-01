@@ -54,5 +54,4 @@
 
 # VI. Archived Lessons
 - **Victory Road 1F Puzzle:** Solved.
-- **Eastern Boulder Puzzle Attempt #1 (Failed):** Tried to push the boulder at (6, 6) to the right. Failed because the tile at (7, 6) is impassable. 
-- **New Plan:** Push the boulder DOWN first. Need to move to (6, 5) to initiate the push.
+- **Eastern Boulder Puzzle Attempt #1 (Failed):** Tried to push the boulder at (6, 6) to the right. Failed because the tile at (7, 6) is impassable.
