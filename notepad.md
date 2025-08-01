@@ -62,3 +62,9 @@
 
 # VI. Lessons Learned
 - **Puzzle Documentation:** When encountering a puzzle, I must immediately document the initial state of all its elements (e.g., boulder starting positions) in my notepad. I failed to do this for the Victory Road 1F puzzle, which has made it difficult to determine if I've moved a boulder into an unsolvable position. Resetting the puzzle is now necessary to re-establish a baseline.
+
+# VII. Puzzle States
+## A. Victory Road 1F (Initial State - Turn 114734)
+- **Boulders:** (6, 16), (15, 3), (3, 11)
+- **Switch:** (18, 14)
+- **Barrier:** (10, 13)
