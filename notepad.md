@@ -68,3 +68,5 @@
 - **Boulders:** (6, 16), (15, 3), (3, 11)
 - **Switch:** (18, 14)
 - **Barrier:** (10, 13)
+- A `puzzle_solver_agent` could be developed to suggest the specific sequence of pushes for boulder puzzles, going beyond the high-level strategy of the current `puzzle_strategist_agent`.
+- The current `gem_pathfinder_v2` is fundamentally flawed for puzzles with movable obstacles. Future development should focus on a redesign that can handle temporarily ignorable coordinates rather than repeated patching.
