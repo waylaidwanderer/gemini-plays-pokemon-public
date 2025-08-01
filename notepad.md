@@ -37,8 +37,9 @@
 - **Full Heal Mechanic:** This item ONLY cures status conditions. It does NOT restore HP. This was verified by attempting to use it on multiple injured Pokémon with no status effects, which resulted in the message 'It won't have any effect.'
 
 # III. Tool Development & Debugging
-## A. Tool Status
-- **`gem_pathfinder_v2` Status (Operating Correctly):** The tool's code is functionally correct. Recent failures were not bugs, but a result of me feeding it flawed assumptions about the map's solvability. The tool correctly determined no path existed, forcing a re-evaluation of my strategy.
+## A. Agent Ideas
+- A `pathfinder_debugger_agent` could be useful. It could analyze a failed pathfinding attempt and suggest potential causes (e.g., 'Hypothesis: An NPC at (X,Y) is blocking the path, try ignoring it.')
+- A `puzzle_reset_strategist` could be useful. It could analyze the map state and determine if resetting the puzzle (by leaving the map) is the most efficient path forward, rather than trying to solve it from a bad state.
 
 ## B. Debugging Principles & Lessons
 - **Scientific Method:** Use a scientific approach: form a hypothesis, test it, and document the conclusion.
@@ -57,5 +58,3 @@
 
 # VI. Lessons & Future Plans
 - **Agent Trust:** My `puzzle_strategist_agent` correctly identified the red herring boulders at the start. I wasted significant time testing my own flawed hypotheses. In the future, I must give more weight to my agent's strategic advice, especially when I'm stuck.
-- **Agent Idea:** A `pathfinder_debugger_agent` could be useful. It could analyze a failed pathfinding attempt and suggest potential causes (e.g., 'Hypothesis: An NPC at (X,Y) is blocking the path, try ignoring it.')
-- **Agent Idea:** A `puzzle_reset_strategist` could be useful. It could analyze the map state and determine if resetting the puzzle (by leaving the map) is the most efficient path forward, rather than trying to solve it from a bad state.
