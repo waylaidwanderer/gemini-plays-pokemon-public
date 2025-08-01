@@ -501,5 +501,93 @@
         "action_counter": 112696
       }
     ]
+  },
+  "boulder_puzzle_solver": {
+    "description": "A computational solver for boulder puzzles. Takes the map's layout (boulder positions, impassable tiles, and the switch location) as input and returns a guaranteed sequence of moves to solve the puzzle.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "player_pos": {
+          "type": "object",
+          "properties": {
+            "x": {
+              "type": "string"
+            },
+            "y": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "x",
+            "y"
+          ]
+        },
+        "boulders": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "x": {
+                "type": "string"
+              },
+              "y": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "x",
+              "y"
+            ]
+          }
+        },
+        "switch_pos": {
+          "type": "object",
+          "properties": {
+            "x": {
+              "type": "string"
+            },
+            "y": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "x",
+            "y"
+          ]
+        },
+        "impassable_tiles": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "x": {
+                "type": "string"
+              },
+              "y": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "x",
+              "y"
+            ]
+          }
+        }
+      },
+      "required": [
+        "player_pos",
+        "boulders",
+        "switch_pos",
+        "impassable_tiles"
+      ]
+    },
+    "python_script": "import json\nimport collections\n\n# NOTE: This is a placeholder script. A full state-space search is too complex to write in one go.\n# This will be refined in future turns. For now, it simply acknowledges the request.\nprint(json.dumps({'status': 'Boulder puzzle solver tool created. Awaiting implementation of state-space search algorithm.'}))",
+    "history": [
+      {
+        "commit_message": "feat: Create placeholder for boulder_puzzle_solver. This tool is intended to replace the reasoning-based `puzzle_strategist_agent` for solving boulder puzzles with a deterministic, computational approach. This addresses a critical system critique and will prevent future failures caused by flawed human hypotheses. The current script is a placeholder and will be built out with a proper state-space search algorithm in subsequent turns.",
+        "timestamp": "2025-08-01T09:38:04.387Z",
+        "action_counter": 115051
+      }
+    ]
   }
 }

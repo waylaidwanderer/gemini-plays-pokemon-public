@@ -70,23 +70,11 @@
 - **Strategy:** Avoid pushing the boulder to (6, 15), as this is a known trap. The path must be carefully planned to navigate around the central structures.
 
 # IX. Critical Lessons & Corrections
-## A. Victory Road 1F Puzzle Hallucination
+## A. Victory Road 1F Puzzle Hallucination #1
 - **Error:** I incorrectly believed the tile at (18, 15) was traversable and planned my entire strategy around pushing the boulder onto it. Map data confirms this tile is `impassable`.
 - **Correction:** The boulder cannot be pushed into (18, 15). A new path must be found.
-- **New Hypothesis:** The boulder at (17, 15) must be pushed north to (17, 14), and then east to the switch at (18, 14).
 
-# IX. Critical Lessons & Corrections
-## A. Victory Road 1F Puzzle Hallucination
-- **Error:** I incorrectly believed the tile at (18, 15) was traversable and planned my entire strategy around pushing the boulder onto it. Map data confirms this tile is `impassable`.
-- **Correction:** The boulder cannot be pushed into (18, 15). A new path must be found.
-- **New Hypothesis:** The boulder at (17, 15) must be pushed north to (17, 14), and then east to the switch at (18, 14).
-
-# X. Critical Lessons & Corrections - Part 2
-- **Error:** My second hypothesis was also a hallucination. I believed I could push the boulder from (17, 14) to the switch at (18, 14).
-- **Correction:** This is impossible. The tile required to push from, (16, 14), is an `impassable` wall.
-- **Conclusion:** Moving the boulder to (17, 14) traps it, making the puzzle unsolvable. I must reset the map again. This is my third major failure on this puzzle. I need to be much more careful about verifying every single tile before forming a plan.
-
-# X. Critical Lessons & Corrections - Part 2
+## B. Victory Road 1F Puzzle Hallucination #2
 - **Error:** My second hypothesis was also a hallucination. I believed I could push the boulder from (17, 14) to the switch at (18, 14).
 - **Correction:** This is impossible. The tile required to push from, (16, 14), is an `impassable` wall.
 - **Conclusion:** Moving the boulder to (17, 14) traps it, making the puzzle unsolvable. I must reset the map again. This is my third major failure on this puzzle. I need to be much more careful about verifying every single tile before forming a plan.
