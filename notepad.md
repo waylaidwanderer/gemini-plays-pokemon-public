@@ -38,6 +38,7 @@
 
 # III. Current Strategy: Victory Road 2F Puzzle
 - **Objective:** Solve the Victory Road 2F eastern boulder puzzle to reach the ladder to 3F.
+- **Current Plan (Loop Break):** My attempts to solve the eastern boulder puzzle, both manually and with my solver tool, have failed and resulted in a repetitive action loop. To break this cycle, I am pivoting to explore an alternate route. My immediate goal is to reach the ladder at (24, 8).
 - **Puzzle Elements:**
     - Western Boulder: (5, 15) -> Switch: (2, 17) -> Barrier: (8, 9), (8, 10) (SOLVED)
     - Eastern Boulder: (6, 6) -> Switch: (10, 17) -> Barrier: (24, 15)
