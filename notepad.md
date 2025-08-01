@@ -38,13 +38,12 @@
 
 # III. Current Strategy: Victory Road 2F Puzzle
 - **Objective:** Solve the Victory Road 2F boulder puzzle to reach the ladder to 3F.
-- **Agent-Derived Plan:** Initial agent-derived plan was flawed. The southern boulder is for the western switch (2, 17) only, as it becomes trapped. New Hypothesis: The western switch opens the central barrier (8,9)/(8,10), and the northern boulder (6, 5) must be used for the eastern switch (10, 17) to open the final barrier (24, 15).
-- **Current Sub-Goal:** Navigate to the southern area to access the boulder at (5, 15).
+- **Agent-Derived Plan (V2 - Verified Logic):** The puzzle is sequential. First, the southern boulder (5, 15) must be pushed to the western switch (2, 17). This clears the central barrier at (8,9)/(8,10). Then, the northern boulder (6, 6) can be navigated through a complex eastern path to the eastern switch (10, 17), which clears the final barrier at (24, 15).
+- **Current Sub-Goal:** Move the southern boulder at (5, 15) to the western switch at (2, 17).
 - **Puzzle Elements:**
-    - Southern Boulder: (5, 15)
+    - Boulders: (5, 15) and (6, 6)
     - Switches: (2, 17) and (10, 17)
-    - Barrier: (24, 15)
-- **Red Herring Boulders:** Both the western boulder at (3, 11) and the eastern boulder at (15, 3) are confirmed red herrings. Tests showed the western boulder is blocked by an impassable wall at (3, 9), and the eastern side of the map is physically inaccessible from the entrance.
+    - Barriers: (8, 9)/(8, 10) and (24, 15)
 - **Boulder Movement Rules (Confirmed):**
     - Boulders cannot be pushed onto `steps` tiles (tested at (6, 14)).
     - Pushing a boulder into a corner or against an impassable tile can make it permanently stuck, requiring a map reset to solve.
