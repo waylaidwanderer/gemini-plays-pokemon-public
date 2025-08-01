@@ -41,7 +41,7 @@
 - **Puzzle Elements:**
     - Western Boulder: (5, 15) -> Switch: (2, 17) -> Barrier: (8, 9), (8, 10) (SOLVED)
     - Eastern Boulder: (6, 6) -> Switch: (10, 17) -> Barrier: (24, 15)
-- **New Plan:** The northern section of the map is physically inaccessible from the west. The only way to solve the eastern boulder puzzle is to find an alternate route. The ladders at (2, 2) and (24, 8) are the most likely paths forward.
+- **New Plan (Loop Break):** The long-distance navigation strategy is failing due to constant wild encounters. My new, focused plan is to solve the eastern boulder puzzle directly. Immediate Goal: Get into position at (6, 7) to push the boulder at (6, 6).
 
 # IV. Archived Plans & Disproven Hypotheses
 - **Red Herring Boulders:** Both the western boulder at (3, 11) and the eastern boulder at (15, 3) are confirmed red herrings. Tests showed the western boulder is blocked by an impassable wall at (3, 9), and the eastern side of the map is physically inaccessible from the entrance.
