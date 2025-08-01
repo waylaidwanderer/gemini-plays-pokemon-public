@@ -40,10 +40,13 @@
 - **Objective:** Solve the puzzle by moving the boulder at (6, 16) to the switch at (18, 14).
 
 # IV. Archived Plans & Disproven Hypotheses
-- **Hypothesis (Disproven): The solution involves the eastern puzzle or the western boulder at (3, 10).** **Test:** Attempted to find a path to the eastern side; it is physically cut off. Attempted to push the boulder at (3, 10) north from (3, 11). **Result:** Path to east is blocked. Pushing boulder at (3,10) is blocked by an impassable wall at (3,9). **Conclusion:** The eastern puzzle and the western boulder at (3, 10) are red herrings.
-- **Hypothesis (Disproven): The boulder at (6, 15) can be pushed up the steps at (6, 14).** **Test:** Attempted to push the boulder up from (6, 16) on turn 114437. **Result:** Movement was blocked. **Conclusion:** The rule that boulders cannot be pushed onto `steps` tiles is definitively confirmed.
-- **Hypothesis (Disproven): It might be possible to step down from an `elevated_ground` tile to a `ground` tile on Victory Road 1F.** **Test:** Attempted to move from (6, 10) [`elevated_ground`] to (6, 9) [`ground`]. **Result:** Movement was blocked. **Conclusion:** The rule that you cannot step down from `elevated_ground` is confirmed to be true for this map.
-- **Hypothesis (Disproven): The true path requires walking through defeated trainers.** **Test:** Modified `gem_pathfinder_v2` to ignore trainer collision. **Result:** The tool returned 'No path found.' **Conclusion:** The map geometry itself makes the eastern section unreachable from the entrance, regardless of trainer passability.
+- **Red Herring Boulders:** Both the western boulder at (3, 11) and the eastern boulder at (15, 3) are confirmed red herrings. Tests showed the western boulder is blocked by an impassable wall at (3, 9), and the eastern side of the map is physically inaccessible from the entrance.
+- **Boulder Movement Rules (Confirmed):**
+    - Boulders cannot be pushed onto `steps` tiles (tested at (6, 14)).
+    - Pushing a boulder into a corner or against an impassable tile can make it permanently stuck, requiring a map reset to solve.
+- **Victory Road 1F Traversal Rules (Confirmed):**
+    - It is impossible to step down from an `elevated_ground` tile to an adjacent `ground` tile (tested at (6, 10) -> (6, 9)).
+    - Defeated trainers are impassable objects and must be navigated around.
 
 # V. Tool & Agent Development
 ## A. Ideas & Future Plans
