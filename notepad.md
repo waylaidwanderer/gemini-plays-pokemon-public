@@ -39,9 +39,9 @@
 # III. Current Strategy: Victory Road 2F Puzzle
 - **Objective:** Solve the Victory Road 2F boulder puzzle to reach the ladder to 3F.
 - **Puzzle Elements:**
-    - Western Boulder: (5, 15) -> Switch: (2, 17) -> Barrier: (8, 9), (8, 10)
+    - Western Boulder: (5, 15) -> Switch: (2, 17) -> Barrier: (8, 9), (8, 10) (SOLVED)
     - Eastern Boulder: (6, 6) -> Switch: (10, 17) -> Barrier: (24, 15)
-- **Current Step:** Solve the western puzzle. The boulder is at (4, 15). I am at (5, 14), preparing to move to (4, 14) to push it down.
+- **Current Step:** Solve the eastern puzzle. The boulder is at its starting position (6, 6). My first move will be to push it down.
 
 # IV. Archived Plans & Disproven Hypotheses
 - **Red Herring Boulders:** Both the western boulder at (3, 11) and the eastern boulder at (15, 3) are confirmed red herrings. Tests showed the western boulder is blocked by an impassable wall at (3, 9), and the eastern side of the map is physically inaccessible from the entrance.
