@@ -64,6 +64,7 @@
 
 # VI. Lessons Learned
 - **Puzzle Documentation:** When encountering a puzzle, I must immediately document the initial state of all its elements (e.g., boulder starting positions) in my notepad. I failed to do this for the Victory Road 1F puzzle, which has made it difficult to determine if I've moved a boulder into an unsolvable position. Resetting the puzzle is now necessary to re-establish a baseline.
+- **Victory Road 1F Boulder Push Error:** Pushing the western boulder from (6, 16) to (6, 15) traps it. It cannot be pushed north onto the `steps` tile or east into the impassable wall, forcing a reset.
 
 # VII. Archived Puzzle States
 ## A. Victory Road 1F (Initial State - Turn 114734)
