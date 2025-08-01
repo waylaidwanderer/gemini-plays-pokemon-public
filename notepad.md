@@ -39,11 +39,7 @@
 
 # III. Tool Development & Debugging
 ## A. Tool Status
-- **`gem_pathfinder_v2` Status (Fixed):** The tool's logic has been corrected multiple times based on system feedback from Victory Road 1F.
-  - It no longer incorrectly treats defeated trainers as impassable obstacles.
-  - Its elevation logic now correctly enforces strict elevation rules, as the hypothesis of a map-specific exception was proven false by game feedback.
-  - The tool is reliable for finding existing paths.
-- **`pathfinder_parameter_agent` Status (Fixed):** This agent has been created and fixed to automate parameter generation for the pathfinder during puzzles.
+- **`gem_pathfinder_v2` Status (Fixed):** The tool is now reliable. A critical bug was fixed where the tool had faulty, map-specific logic that incorrectly treated defeated trainers on Victory Road as passable. This assumption was proven false by in-game testing. The tool now correctly treats all NPCs (except Pikachu) as impassable obstacles on all maps.
 
 ## B. Debugging Principles & Lessons
 - **Scientific Method:** Use a scientific approach: form a hypothesis, test it, and document the conclusion.
@@ -58,5 +54,4 @@
 # VI. Lessons & Future Plans
 - **Agent Trust:** My `puzzle_strategist_agent` correctly identified the red herring boulders at the start. I wasted significant time testing my own flawed hypotheses. In the future, I must give more weight to my agent's strategic advice, especially when I'm stuck.
 - **Agent Idea:** A `pathfinder_debugger_agent` could be useful. It could analyze a failed pathfinding attempt and suggest potential causes (e.g., 'Hypothesis: An NPC at (X,Y) is blocking the path, try ignoring it.')
-- **Agent Idea:** A `puzzle_reset_strategist` could be useful. It could analyze the map state and determine if resetting the puzzle (by leaving the map) is the most efficient path forward, rather than trying to solve it from a bad state.
 - **Agent Idea:** A `puzzle_reset_strategist` could be useful. It could analyze the map state and determine if resetting the puzzle (by leaving the map) is the most efficient path forward, rather than trying to solve it from a bad state.
