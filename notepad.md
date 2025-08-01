@@ -82,3 +82,9 @@
 - **Test:** Pushed the boulder to (10, 15).
 - **Result:** The boulder is now trapped. It cannot be pushed north into the impassable tile at (10, 14) or in any other direction.
 - **Conclusion:** This entire line of play is a dead end. I must reset the map again.
+
+# VIII. Unverified Assumptions & Test Plans
+- **Assumption:** The eastern boulder puzzle on Victory Road 2F is solvable from its starting position at (6, 6).
+  - **Test Plan:** Before pushing the boulder, I will manually trace a viable path for both the boulder and myself to the switch at (10, 17) to ensure it is not a trap.
+- **Assumption:** The ladder at (24, 8) is the correct path to progress on Victory Road 3F.
+  - **Test Plan:** After solving the eastern puzzle, I will take the ladder at (24, 8) and explore the resulting area on 3F. If it leads to a dead end or back to a previous area, I will conclude that the ladder at (2, 2) is the main path.
