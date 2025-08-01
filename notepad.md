@@ -38,22 +38,17 @@
 
 # III. Current Strategy: Victory Road 1F
 - **Objective:** Reach the ladder to 2F at (2, 2).
-- **Primary Hypothesis:** The true path requires walking through defeated trainers, who are passable obstacles on this map. The boulder puzzles are likely red herrings or secondary.
-- **Immediate Plan:** Conduct an in-game test to verify the primary hypothesis.
+- **Primary Strategy:** The puzzle must be solved in stages. The eastern boulder puzzle is the key to the final solution, but it is currently unreachable. Therefore, the immediate goal is to solve the western boulder puzzle to create a path to the eastern section.
+- **Immediate Plan:** Maneuver the boulder at (6, 16) to a position that allows access to the elevated platform via the steps at (6, 14).
 
-# IV. Active Hypothesis Test
-- **Hypothesis:** Defeated trainers on Victory Road 1F are passable.
-- **Test:** Move to (12, 13), a tile adjacent to the defeated Beauty at (13, 13). Then, attempt to move Right onto the Beauty's tile.
-- **Expected Outcome (if true):** Movement succeeds, and I will be standing on tile (13, 13).
-- **Expected Outcome (if false):** Movement is blocked, and my position remains (12, 13).
-
-# V. Archived Plans & Disproven Hypotheses
+# IV. Archived Plans & Disproven Hypotheses
+- **Hypothesis (Disproven):** The true path requires walking through defeated trainers. **Test:** Modified `gem_pathfinder_v2` to ignore trainer collision. **Result:** The tool returned 'No path found.' **Conclusion:** The map geometry itself makes the eastern section unreachable from the entrance, regardless of trainer passability.
 - **Hypothesis (Disproven):** The path to the ladder on Victory Road 1F is through the western boulder puzzle. **Test:** Used `gem_pathfinder_v2` to find a path to (2, 2) while hypothetically ignoring the boulder at (6, 15) and defeated trainers. **Result:** The tool returned 'No path found.' **Conclusion:** The geometry of the western section makes reaching the ladder from that side impossible. The path must be through the eastern section.
 - **Hypothesis (Disproven):** It might be possible to step down from an `elevated_ground` tile to a `ground` tile on Victory Road 1F. **Test:** Attempted to move from (6, 10) [`elevated_ground`] to (6, 9) [`ground`]. **Result:** Movement was blocked. **Conclusion:** The rule that you cannot step down from `elevated_ground` is confirmed to be true for this map.
 - **Hypothesis (Disproven):** The boulder at (3, 10) is the key to the puzzle. **Test:** Attempted to push the boulder up from (3, 11). **Result:** Movement was blocked by an impassable tile at (3, 9). **Conclusion:** The boulder at (3, 10) is a red herring.
 - **Hypothesis (Disproven):** The boulder at (6, 15) can be pushed up the steps at (6, 14). **Test:** Attempted to push the boulder up from (6, 16) on turn 114437. **Result:** Movement was blocked. **Conclusion:** The rule that boulders cannot be pushed onto `steps` tiles is definitively confirmed. The western path is not viable through this method.
 
-# VI. Tool & Agent Development
+# V. Tool & Agent Development
 ## A. Ideas & Future Plans
 - A `pathfinder_debugger_agent` could be useful. It could analyze a failed pathfinding attempt and suggest potential causes (e.g., 'Hypothesis: An NPC at (X,Y) is blocking the path, try ignoring it.')
 - A `puzzle_reset_strategist` could be useful. It could analyze the map state and determine if resetting the puzzle (by leaving the map) is the most efficient path forward, rather than trying to solve it from a bad state.
