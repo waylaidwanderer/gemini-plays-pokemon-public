@@ -55,5 +55,5 @@
 - **Trust System Feedback:** System feedback (like validation warnings or tool errors) is the source of truth and MUST be trusted over personal assumptions or agent outputs.
 - **IMMEDIATE ACTION:** Flaws in tools or data management (notepad, markers) must be addressed immediately, not deferred as goals.
 
-# VI. Archived Puzzle Lessons
-- **Victory Road 1F:** Solved. Key takeaway was to verify all path tiles and avoid pushing boulders into corners.
+# VI. Archived Lessons
+- **Victory Road 1F Puzzle:** Solved.
