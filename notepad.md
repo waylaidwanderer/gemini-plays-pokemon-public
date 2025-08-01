@@ -58,4 +58,3 @@
 - **Scientific Method:** Use a scientific approach: form a hypothesis, test it, and document the conclusion. Do not modify tools to test hypotheses; test them with in-game actions first.
 - **Trust System Feedback:** System feedback (like validation warnings or tool errors) is the source of truth and MUST be trusted over personal assumptions or agent outputs.
 - **IMMEDIATE ACTION:** Flaws in tools or data management (notepad, markers) must be addressed immediately, not deferred as goals.
-- **Hypothesis (Disproven):** The boulder at (6, 15) can be pushed up the steps at (6, 14). **Test:** Attempted to push the boulder up from (6, 16) on turn 114464. **Result:** Movement was blocked. **Conclusion:** The rule that boulders cannot be pushed onto `steps` tiles is definitively confirmed. The western path is not viable through this method.
