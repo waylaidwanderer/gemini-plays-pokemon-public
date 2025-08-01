@@ -38,12 +38,7 @@
 
 # III. Current Strategy: Victory Road 1F Puzzle
 - **Objective:** Solve the Victory Road 1F boulder puzzle to reach the ladder to 2F.
-- **UPDATE:** The `boulder_puzzle_solver` tool has repeatedly timed out and is not viable. The new strategy is to solve the puzzle manually using a systematic, hypothesis-driven approach.
-- **Plan - Attempt 5:**
-  1. **Hypothesis:** The boulder at (6, 16) must be moved south, then east, then north around the central pillar to reach the eastern side.
-  2. **Step 1:** Push the boulder from (6, 16) south to (6, 17).
-  3. **Step 2:** Push the boulder from (6, 17) east to (10, 17).
-  4. **Step 3:** Push the boulder from (10, 17) north. This failed in Attempt 4. I need to find a new path from here.
+- **CRITICAL UPDATE:** The `boulder_puzzle_solver` tool is fundamentally flawed and timed out repeatedly. My highest priority is to completely redesign and fix this tool. All manual puzzle-solving attempts are suspended until the tool is functional and reliable.
 
 # IV. Archived Plans & Disproven Hypotheses
 - **Red Herring Boulders:** Both the western boulder at (3, 11) and the eastern boulder at (15, 3) are confirmed red herrings. Tests showed the western boulder is blocked by an impassable wall at (3, 9), and the eastern side of the map is physically inaccessible from the entrance.
