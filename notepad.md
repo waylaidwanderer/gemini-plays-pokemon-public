@@ -36,8 +36,9 @@
 - **Struggle Mechanic:** Struggle is only used automatically when a Pokémon is out of PP for ALL of its moves.
 - **Full Heal Mechanic:** This item ONLY cures status conditions. It does NOT restore HP. This was verified by attempting to use it on multiple injured Pokémon with no status effects, which resulted in the message 'It won't have any effect.'
 
-# III. Current Strategy: Route 23 & Indigo Plateau
-- **Objective:** Navigate the badge checkpoints on Route 23, traverse Victory Road, and reach the Indigo Plateau to challenge the Elite Four.
+# III. Current Strategy: Victory Road 1F Puzzle
+- **Objective:** Solve the Victory Road 1F boulder puzzle to reach the ladder to 2F.
+- **Current Plan:** Based on the `puzzle_strategist_agent`, the primary goal is to move the boulder from its starting position (6, 16) to the switch at (18, 14). This should clear the barrier at (10, 13).
 
 # IV. Archived Plans & Disproven Hypotheses
 - **Red Herring Boulders:** Both the western boulder at (3, 11) and the eastern boulder at (15, 3) are confirmed red herrings. Tests showed the western boulder is blocked by an impassable wall at (3, 9), and the eastern side of the map is physically inaccessible from the entrance.
@@ -50,10 +51,11 @@
 
 # V. Tool & Agent Development
 ## A. Ideas & Future Plans
-- A `party_composition_advisor` agent could analyze my Pokémon and an opponent's known team to suggest an optimal party lineup for a major battle.
-- A `pathfinder_debugger_agent` could be useful. It could analyze a failed pathfinding attempt and suggest potential causes (e.g., 'Hypothesis: An NPC at (X,Y) is blocking the path, try ignoring it.')
-- A `puzzle_reset_strategist` could be useful. It could analyze the map state and determine if resetting the puzzle (by leaving the map) is the most efficient path forward, rather than trying to solve it from a bad state.
-- Refine `puzzle_strategist_agent` to output `ignorable_coords` directly, streamlining the puzzle-solving workflow.
+- **Pathfinder Overhaul:** The current `gem_pathfinder_v2` is fundamentally flawed for complex puzzles involving dynamic obstacles (like switches/barriers) and movable objects (boulders). Future development should focus on a complete redesign that can handle these scenarios, rather than continued patching.
+- **`party_composition_advisor`:** An agent to analyze my Pokémon and an opponent's known team to suggest an optimal party lineup for major battles.
+- **`puzzle_reset_strategist`:** An agent to analyze the map state and determine if resetting the puzzle (by leaving the map) is the most efficient path forward, rather than trying to solve it from a bad state.
+- **Refine `puzzle_strategist_agent`:** Modify it to output `ignorable_coords` directly to streamline the puzzle-solving workflow.
+- **`puzzle_solver_agent`:** An agent to suggest the specific sequence of pushes for boulder puzzles, going beyond the high-level strategy of the current `puzzle_strategist_agent`.
 
 ## B. Debugging Principles & Lessons
 - **Scientific Method:** Use a scientific approach: form a hypothesis, test it, and document the conclusion. Do not modify tools to test hypotheses; test them with in-game actions first.
@@ -68,5 +70,3 @@
 - **Boulders:** (6, 16), (15, 3), (3, 11)
 - **Switch:** (18, 14)
 - **Barrier:** (10, 13)
-- A `puzzle_solver_agent` could be developed to suggest the specific sequence of pushes for boulder puzzles, going beyond the high-level strategy of the current `puzzle_strategist_agent`.
-- The current `gem_pathfinder_v2` is fundamentally flawed for puzzles with movable obstacles. Future development should focus on a redesign that can handle temporarily ignorable coordinates rather than repeated patching.
