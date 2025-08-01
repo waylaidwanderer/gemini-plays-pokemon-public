@@ -12,7 +12,7 @@
 - `ground`: Standard walkable tile.
 - `grass`: Wild Pokémon encounters.
 - `water`: Requires SURF.
-- `impassable`: Wall.
+- `impassable`: Wall. Defeated trainers on Victory Road 2F are impassable.
 - `ledge`: One-way traversal. Can only be jumped DOWN from the tile directly above. Acts as a wall from all other directions.
 - `elevated_ground`: Walkable, different elevation. It is NOT possible to step down from an `elevated_ground` tile to an adjacent `ground` tile.
 - `steps`: Allows movement between `ground` and `elevated_ground` in both directions.
@@ -37,16 +37,15 @@
 - **Struggle Mechanic:** Struggle is only used automatically when a Pokémon is out of PP for ALL of its moves.
 - **Full Heal Mechanic:** This item ONLY cures status conditions. It does NOT restore HP. This was verified by attempting to use it on multiple injured Pokémon with no status effects, which resulted in the message 'It won't have any effect.'
 
-# III. Current Strategy: Victory Road 2F Puzzle (Agent-Assisted)
-- **High-Level Goal:** Solve the two-boulder puzzle to open the path forward.
-- **Agent Analysis:** The puzzle requires pairing Boulder B2 at (6,6) with Switch S2 at (10,17), and Boulder B1 at (5,15) with Switch S1 at (2,17). B2 must be moved first along a complex eastern route to avoid traps.
+# III. Current Strategy: Victory Road 2F Puzzle (Revised Agent Strategy)
+- **High-Level Goal:** Move two boulders onto their corresponding switches. Boulder B1 (5,15) goes to Switch S1 (2,17). Boulder B2 (6,6) goes to Switch S2 (10,17).
+- **Agent Analysis:** The key to the puzzle is the constrained path of Boulder B2. It must be pushed vertically down the corridor at x=6 to row 16 before it can be moved horizontally. This path avoids all traps and ensures the player can always access the correct side for each push. The two boulder paths are independent and can be completed in any order.
 - **Strategic Plan (Sub-Goals):**
-    1. Move boulder B2 (6,6) east along the y=7 corridor to the vertical channel at x=22.
-    2. Push boulder B2 down the x=22 channel to the horizontal corridor at y=13.
-    3. Maneuver boulder B2 west along the y=13 corridor to the vertical channel at x=16.
-    4. Push boulder B2 down the x=16 channel to the switch row at y=17.
-    5. Push boulder B2 left from (16,17) to its final position on switch S2 (10,17).
-    6. Move boulder B1 (5,15) down and left to its final position on switch S1 (2,17).
+    1. Maneuver the boulder starting at (6, 6) down the vertical corridor at x=6 until it reaches position (6, 16).
+    2. Push the boulder from (6, 16) horizontally to the right to position (10, 16).
+    3. Push the boulder from (10, 16) down onto the switch at (10, 17).
+    4. Push the boulder from (5, 15) horizontally to the left to position (2, 15).
+    5. Push the boulder from (2, 15) down onto the switch at (2, 17).
 
 # V. Tool & Agent Principles
 - **Scientific Method:** Use a scientific approach: form a hypothesis, test it, and document the conclusion. Do not modify tools to test hypotheses; test them with in-game actions first.
