@@ -38,14 +38,14 @@
 
 # III. Current Strategy: Victory Road 1F
 - **Objective:** Reach the ladder to 2F at (2, 2).
-- **Primary Hypothesis:** The boulder puzzles are red herrings. The true path requires walking through defeated trainers, who are passable obstacles on this map.
+- **Primary Hypothesis:** The true path requires walking through defeated trainers, who are passable obstacles on this map. The boulder puzzles are likely red herrings or secondary.
 - **Immediate Plan:** Conduct an in-game test to verify the primary hypothesis.
 
 # IV. Active Hypothesis Test
 - **Hypothesis:** Defeated trainers on Victory Road 1F are passable.
-- **Test:** Move to (7, 12), a tile adjacent to the defeated Youngster at (7, 11). Then, attempt to move Up onto the Youngster's tile.
-- **Expected Outcome (if true):** Movement succeeds, and I will be standing on tile (7, 11).
-- **Expected Outcome (if false):** Movement is blocked, and my position remains (7, 12).
+- **Test:** Move to (12, 13), a tile adjacent to the defeated Beauty at (13, 13). Then, attempt to move Right onto the Beauty's tile.
+- **Expected Outcome (if true):** Movement succeeds, and I will be standing on tile (13, 13).
+- **Expected Outcome (if false):** Movement is blocked, and my position remains (12, 13).
 
 # V. Archived Plans & Disproven Hypotheses
 - **Hypothesis (Disproven):** The path to the ladder on Victory Road 1F is through the western boulder puzzle. **Test:** Used `gem_pathfinder_v2` to find a path to (2, 2) while hypothetically ignoring the boulder at (6, 15) and defeated trainers. **Result:** The tool returned 'No path found.' **Conclusion:** The geometry of the western section makes reaching the ladder from that side impossible. The path must be through the eastern section.
