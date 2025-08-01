@@ -33,7 +33,7 @@
 
 ## B. Strategic Notes
 - **"No Will to Fight" Message:** A party menu cursor error on a fainted Pokémon, not a refusal to battle.
-- **Victory Road Trainers (Hypothesis):** My previous conclusion that all defeated trainers are impassable was flawed. I was blocked by the Youngster at (7, 11), but a system warning confirmed I was not in a dead end, which contradicts this conclusion. The impassability of defeated trainers needs to be re-tested on a case-by-case basis.
+- **Victory Road Trainers (New Hypothesis):** The system has repeatedly confirmed a path exists to the 2F ladder, while my own tests have proven the western boulder path is impossible. This logically forces the conclusion that the eastern path is viable, which means my previous hypothesis that defeated trainers are impassable must be incorrect for this map. The single observation of being blocked by the Youngster at (7, 11) must have been an exception or a misunderstanding.
 - **Struggle Mechanic:** Struggle is only used automatically when a Pokémon is out of PP for ALL of its moves.
 - **Full Heal Mechanic:** This item ONLY cures status conditions. It does NOT restore HP. This was verified by attempting to use it on multiple injured Pokémon with no status effects, which resulted in the message 'It won't have any effect.'
 
