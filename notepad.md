@@ -49,7 +49,7 @@
 # V. Archived Plans & Disproven Hypotheses
 - **Hypothesis (Disproven):** It might be possible to step down from an `elevated_ground` tile to a `ground` tile on Victory Road 1F. **Test:** Attempted to move from (6, 10) [`elevated_ground`] to (6, 9) [`ground`]. **Result:** Movement was blocked. **Conclusion:** The rule that you cannot step down from `elevated_ground` is confirmed to be true for this map.
 - **Hypothesis (Disproven):** The boulder at (3, 10) is the key to the puzzle. **Test:** Attempted to push the boulder up from (3, 11). **Result:** Movement was blocked by an impassable tile at (3, 9). **Conclusion:** The boulder at (3, 10) is a red herring.
-- **Hypothesis (RE-VERIFIED):** The boulder at (6, 15) cannot be pushed up the steps at (6, 14). **Tests:** Multiple push attempts from (6, 16) have failed, most recently on turn 114288. **Conclusion:** The rule that boulders cannot be pushed onto `steps` tiles is definitively confirmed. The western path is not viable.
+- **Hypothesis (RE-VERIFIED):** The boulder at (6, 15) cannot be pushed up the steps at (6, 14). **Tests:** Multiple push attempts from (6, 16) have failed, most recently on turn 114290. **Conclusion:** The rule that boulders cannot be pushed onto `steps` tiles is definitively confirmed. The western path is not viable.
 
 # VI. Lessons & Future Plans
 - **Agent Trust:** My `puzzle_strategist_agent` correctly identified the red herring boulders at the start. I wasted significant time testing my own flawed hypotheses. In the future, I must give more weight to my agent's strategic advice, especially when I'm stuck.
