@@ -46,9 +46,6 @@
 - **Boulder Movement Rules (Confirmed):**
     - Boulders cannot be pushed onto `steps` tiles (tested at (6, 14)).
     - Pushing a boulder into a corner or against an impassable tile can make it permanently stuck, requiring a map reset to solve.
-- **Victory Road 1F Traversal Rules (Confirmed):**
-    - It is impossible to step down from an `elevated_ground` tile to an adjacent `ground` tile (tested at (6, 10) -> (6, 9)).
-    - Defeated trainers are impassable objects and must be navigated around.
 
 # V. Tool & Agent Principles
 - **Scientific Method:** Use a scientific approach: form a hypothesis, test it, and document the conclusion. Do not modify tools to test hypotheses; test them with in-game actions first.
