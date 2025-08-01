@@ -60,18 +60,6 @@
 - **Victory Road 2F (West):** Solved. Straightforward push to the switch.
 - **Victory Road 2F (East):** Pushing the boulder north from (6,6) is a trap. My solver tool requires further refinement to handle this puzzle's complexity.
 
-# VII. Archived Puzzle States
-## A. Victory Road 1F (Initial State - Turn 114734)
-- **Boulders:** (6, 16), (15, 3), (3, 11)
-- **Switch:** (18, 14)
-- **Barrier:** (10, 13)
-
-## D. Victory Road 1F - Attempt 4
-- **Hypothesis:** Push the boulder at (6, 16) south, then east, then north.
-- **Test:** Pushed the boulder to (10, 15).
-- **Result:** The boulder is now trapped. It cannot be pushed north into the impassable tile at (10, 14) or in any other direction.
-- **Conclusion:** This entire line of play is a dead end. I must reset the map again.
-
 # VIII. Unverified Assumptions & Test Plans
 - **Assumption:** The eastern boulder puzzle on Victory Road 2F is solvable from its starting position at (6, 6).
   - **Test Plan:** Before pushing the boulder, I will manually trace a viable path for both the boulder and myself to the switch at (10, 17) to ensure it is not a trap.
