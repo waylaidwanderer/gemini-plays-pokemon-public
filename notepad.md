@@ -54,3 +54,7 @@
 
 # VI. Archived Lessons
 - Victory Road 1F Puzzle: Solved.
+
+# VII. Future Development Ideas
+- **`pathfinder_test_harness` tool:** Create a dedicated tool to run the pathfinder with specific inputs in a controlled environment for more efficient debugging.
+- **`meta-debugging_agent`:** Create an agent to orchestrate the debugging cycle: run tool, get log, call debugger agent, and suggest a fix. This would automate the repetitive process I just went through.
