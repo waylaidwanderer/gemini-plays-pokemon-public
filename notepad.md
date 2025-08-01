@@ -56,3 +56,4 @@
 
 # VI. Archived Lessons
 - **Victory Road 1F Puzzle:** Solved.
+- `ladder_up` / `ladder_down`: Warps between floors.
