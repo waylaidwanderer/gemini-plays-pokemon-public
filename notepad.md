@@ -54,27 +54,22 @@
 - **Trust System Feedback:** System feedback (like validation warnings or tool errors) is the source of truth and MUST be trusted over personal assumptions or agent outputs.
 - **IMMEDIATE ACTION:** Flaws in tools or data management (notepad, markers) must be addressed immediately, not deferred as goals.
 
-# VI. Lessons Learned
-- **Puzzle Documentation:** When encountering a puzzle, I must immediately document the initial state of all its elements (e.g., boulder starting positions) in my notepad. I failed to do this for the Victory Road 1F puzzle, which has made it difficult to determine if I've moved a boulder into an unsolvable position. Resetting the puzzle is now necessary to re-establish a baseline.
-- **Victory Road 1F Boulder Push Error:** Pushing the western boulder from (6, 16) to (6, 15) traps it. It cannot be pushed north onto the `steps` tile or east into the impassable wall, forcing a reset.
+# VI. Puzzle Failures & Lessons Learned
+## A. Victory Road 1F - Attempt 1
+- **Boulder Push Error:** Pushing the western boulder from (6, 16) to (6, 15) traps it. It cannot be pushed north onto the `steps` tile or east into the impassable wall, forcing a reset.
+- **Lesson:** I must document the initial state of all puzzle elements upon first encounter. I failed to do this, making it hard to track my mistakes without resetting.
+
+## B. Victory Road 1F - Attempt 2
+- **Hallucination #1:** I incorrectly believed the tile at (18, 15) was traversable and planned my entire strategy around pushing the boulder onto it. Map data confirms this tile is `impassable`.
+- **Lesson:** I must verify every single tile in a proposed path against the map data before committing to a strategy.
+
+## C. Victory Road 1F - Attempt 3
+- **Hallucination #2:** My second hypothesis was also a hallucination. I believed I could push the boulder from (17, 14) to the switch at (18, 14).
+- **Correction:** This is impossible. The tile required to push from, (16, 14), is an `impassable` wall.
+- **Conclusion:** Moving the boulder to (17, 14) traps it, making the puzzle unsolvable. I must reset the map again. This is my third major failure on this puzzle. My reasoning-based approach is flawed and I need a computational solver.
 
 # VII. Archived Puzzle States
 ## A. Victory Road 1F (Initial State - Turn 114734)
 - **Boulders:** (6, 16), (15, 3), (3, 11)
 - **Switch:** (18, 14)
 - **Barrier:** (10, 13)
-
-# VIII. Victory Road 1F - Attempt 2 (Post-Reset)
-- **Status:** Puzzle reset by leaving and re-entering the map.
-- **Objective:** Move the boulder from (6, 16) to the switch at (18, 14).
-- **Strategy:** Avoid pushing the boulder to (6, 15), as this is a known trap. The path must be carefully planned to navigate around the central structures.
-
-# IX. Critical Lessons & Corrections
-## A. Victory Road 1F Puzzle Hallucination #1
-- **Error:** I incorrectly believed the tile at (18, 15) was traversable and planned my entire strategy around pushing the boulder onto it. Map data confirms this tile is `impassable`.
-- **Correction:** The boulder cannot be pushed into (18, 15). A new path must be found.
-
-## B. Victory Road 1F Puzzle Hallucination #2
-- **Error:** My second hypothesis was also a hallucination. I believed I could push the boulder from (17, 14) to the switch at (18, 14).
-- **Correction:** This is impossible. The tile required to push from, (16, 14), is an `impassable` wall.
-- **Conclusion:** Moving the boulder to (17, 14) traps it, making the puzzle unsolvable. I must reset the map again. This is my third major failure on this puzzle. I need to be much more careful about verifying every single tile before forming a plan.
