@@ -40,9 +40,9 @@
 # III. Current Strategy: Victory Road 2F Puzzle
 - **Objective:** Solve the Victory Road 2F boulder puzzle to reach the ladder to 3F.
 - **Agent-Derived Plan (V2 - Verified Logic):** The puzzle is sequential. First, the southern boulder (5, 15) must be pushed to the western switch (2, 17). This clears the central barrier at (8,9)/(8,10). Then, the northern boulder (6, 6) can be navigated through a complex eastern path to the eastern switch (10, 17), which clears the final barrier at (24, 15).
-- **Current Sub-Goal:** Move the southern boulder at (5, 15) to the western switch at (2, 17).
+- **Current Sub-Goal:** Move the northern boulder at (6, 4) to the eastern switch at (10, 17).
 - **Puzzle Elements:**
-    - Boulders: (5, 15) and (6, 6)
+    - Boulders: (2, 17) and (6, 4)
     - Switches: (2, 17) and (10, 17)
     - Barriers: (8, 9)/(8, 10) and (24, 15)
 - **Boulder Movement Rules (Confirmed):**
