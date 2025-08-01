@@ -74,3 +74,9 @@
 - **Error:** I incorrectly believed the tile at (18, 15) was traversable and planned my entire strategy around pushing the boulder onto it. Map data confirms this tile is `impassable`.
 - **Correction:** The boulder cannot be pushed into (18, 15). A new path must be found.
 - **New Hypothesis:** The boulder at (17, 15) must be pushed north to (17, 14), and then east to the switch at (18, 14).
+
+# IX. Critical Lessons & Corrections
+## A. Victory Road 1F Puzzle Hallucination
+- **Error:** I incorrectly believed the tile at (18, 15) was traversable and planned my entire strategy around pushing the boulder onto it. Map data confirms this tile is `impassable`.
+- **Correction:** The boulder cannot be pushed into (18, 15). A new path must be found.
+- **New Hypothesis:** The boulder at (17, 15) must be pushed north to (17, 14), and then east to the switch at (18, 14).
