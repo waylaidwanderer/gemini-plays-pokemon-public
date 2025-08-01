@@ -49,15 +49,7 @@
     - It is impossible to step down from an `elevated_ground` tile to an adjacent `ground` tile (tested at (6, 10) -> (6, 9)).
     - Defeated trainers are impassable objects and must be navigated around.
 
-# V. Tool & Agent Development
-## A. Ideas & Future Plans
-- **Pathfinder Overhaul:** The current `gem_pathfinder_v2` is fundamentally flawed for complex puzzles involving dynamic obstacles (like switches/barriers) and movable objects (boulders). Future development should focus on a complete redesign that can handle these scenarios, rather than continued patching.
-- **`party_composition_advisor`:** An agent to analyze my Pokémon and an opponent's known team to suggest an optimal party lineup for major battles.
-- **`puzzle_reset_strategist`:** An agent to analyze the map state and determine if resetting the puzzle (by leaving the map) is the most efficient path forward, rather than trying to solve it from a bad state.
-- **Refine `puzzle_strategist_agent`:** Modify it to output `ignorable_coords` directly to streamline the puzzle-solving workflow.
-- **`puzzle_solver_agent`:** An agent to suggest the specific sequence of pushes for boulder puzzles, going beyond the high-level strategy of the current `puzzle_strategist_agent`.
-
-## B. Debugging Principles & Lessons
+# V. Tool & Agent Principles
 - **Scientific Method:** Use a scientific approach: form a hypothesis, test it, and document the conclusion. Do not modify tools to test hypotheses; test them with in-game actions first.
 - **Trust System Feedback:** System feedback (like validation warnings or tool errors) is the source of truth and MUST be trusted over personal assumptions or agent outputs.
 - **IMMEDIATE ACTION:** Flaws in tools or data management (notepad, markers) must be addressed immediately, not deferred as goals.
