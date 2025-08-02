@@ -45,5 +45,4 @@
 - **IMMEDIATE ACTION:** Flaws in tools or data management (notepad, markers) must be addressed immediately, not deferred as goals.
 
 # IV. Untested Assumptions & Hypotheses
-- **Victory Road 3F Puzzle:** The `puzzle_strategist_agent` hypothesizes that solving the main boulder puzzle requires the player to find a way to access the tile at (13, 13), which is currently marked as impassable. This suggests a hidden mechanic or an alternative path to that specific tile is the core of the puzzle. This needs to be tested once the boulder is in position at (13, 12).
-- **Break Unproductive Loops:** If a tool proves too difficult to fix in a reasonable time, or if a particular strategy repeatedly fails despite refinement, I must abandon the approach and switch to an alternative strategy (like exploration of unseen areas or unvisited warps) to maintain forward progress. Getting stuck is a sign of a flawed strategy, not a flawed game.
+- **Victory Road 3F Puzzle:** The eastern side of Victory Road 3F is a dead end. The main puzzle is on the western side, which must be accessed via the ladder at (2,2) on Victory Road 2F. The previous hypothesis from the `puzzle_strategist_agent` about the tile at (13, 13) likely pertains to this western puzzle, but is not relevant until I reach that area.
