@@ -43,3 +43,6 @@
 - **Scientific Method:** Use a scientific approach: form a hypothesis, test it, and document the conclusion. Do not modify tools to test hypotheses; test them with in-game actions first.
 - **Trust System Feedback:** System feedback (like validation warnings or tool errors) is the source of truth and MUST be trusted over personal assumptions or agent outputs.
 - **IMMEDIATE ACTION:** Flaws in tools or data management (notepad, markers) must be addressed immediately, not deferred as goals.
+
+# IV. Untested Assumptions & Hypotheses
+- **Victory Road 3F Puzzle:** The `puzzle_strategist_agent` hypothesizes that solving the main boulder puzzle requires the player to find a way to access the tile at (13, 13), which is currently marked as impassable. This suggests a hidden mechanic or an alternative path to that specific tile is the core of the puzzle. This needs to be tested once the boulder is in position at (13, 12).
