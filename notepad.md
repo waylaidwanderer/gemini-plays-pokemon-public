@@ -48,3 +48,14 @@
 
 # V. Future Agent/Tool Ideas
 - **Tool Debugger Agent:** A high-level agent that automates the debugging process. It would take a tool name and parameters, run the tool with debug flags, capture the log, and pass it to a specialist debugger agent for analysis, returning a final report. This would streamline the scientific method for tool refinement.
+
+# VI. Victory Road 3F Puzzle Plan
+## A. Strategic Summary (from puzzle_strategist_agent)
+- The puzzle requires using the boulder at (14, 13), as the other three are confined to areas with no exit path. The core strategy is to bypass the complex central maze by first pushing the boulder down and then east, circumnavigating the main obstacles. The boulder must then be guided north and then west along the upper corridors to reach the area near the switch. The final sequence involves positioning the boulder above and to the left of the switch before pushing it into place.
+
+## B. Sub-Goals
+1. Push the boulder at (14, 13) down to (14, 14) to escape its initial vertical confinement.
+2. Maneuver the boulder east and then north, circumnavigating the central impassable structure.
+3. Guide the boulder west along the y=5 corridor to position it at (3, 5).
+4. Push the boulder from (3, 5) down to (3, 6).
+5. Push the boulder from (3, 6) right onto the switch at (4, 6).
