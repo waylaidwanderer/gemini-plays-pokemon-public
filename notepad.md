@@ -46,3 +46,4 @@
 
 # IV. Untested Assumptions & Hypotheses
 - **Victory Road 3F Puzzle:** The `puzzle_strategist_agent` hypothesizes that solving the main boulder puzzle requires the player to find a way to access the tile at (13, 13), which is currently marked as impassable. This suggests a hidden mechanic or an alternative path to that specific tile is the core of the puzzle. This needs to be tested once the boulder is in position at (13, 12).
+- **Break Unproductive Loops:** If a tool proves too difficult to fix in a reasonable time, or if a particular strategy repeatedly fails despite refinement, I must abandon the approach and switch to an alternative strategy (like exploration of unseen areas or unvisited warps) to maintain forward progress. Getting stuck is a sign of a flawed strategy, not a flawed game.
