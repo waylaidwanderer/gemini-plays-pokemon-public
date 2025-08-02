@@ -1000,6 +1000,16 @@
         "commit_message": "debug(gem_pathfinder_v2): Re-add extensive logging to state-space search. The tool is still failing to find a path through the solved southern puzzle on Victory Road 2F. This commit re-adds detailed print statements to the main A* loop to trace every node it visits, the state of its activated switches, and the current impassable set for that node. This will generate a verbose log for the debugger agent to analyze and pinpoint the flaw in the state-space logic.",
         "timestamp": "2025-08-02T14:00:08.198Z",
         "action_counter": 117173
+      },
+      {
+        "commit_message": "fix(gem_pathfinder_v2): Add 'cleared_boulder_barrier' to traversable tiles and remove debug logging. The pathfinder_debugger_agent correctly identified that the tool was failing because its type check rejected 'cleared_boulder_barrier' tiles. This commit adds the tile type to the `traversable_tiles` set, allowing the algorithm to find paths through solved puzzles. The extensive debug logging has also been removed as it is no longer needed.",
+        "timestamp": "2025-08-02T14:04:17.426Z",
+        "action_counter": 117177
+      },
+      {
+        "commit_message": "debug(gem_pathfinder_v2): Re-add extensive logging to state-space search. The tool is still failing to find a path through the solved southern puzzle on Victory Road 2F. This commit re-adds detailed print statements to the main A* loop to trace every node it visits, the state of its activated switches, and the current impassable set for that node. This will generate a verbose log for the debugger agent to analyze and pinpoint the flaw in the state-space logic.",
+        "timestamp": "2025-08-02T14:08:12.612Z",
+        "action_counter": 117181
       }
     ]
   },
