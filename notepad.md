@@ -37,15 +37,15 @@
 - **Struggle Mechanic:** Struggle is only used automatically when a Pokémon is out of PP for ALL of its moves.
 - **Full Heal Mechanic:** This item ONLY cures status conditions. It does NOT restore HP. This was verified by attempting to use it on multiple injured Pokémon with no status effects, which resulted in the message 'It won't have any effect.'
 
-# III. Area Notes & Current Strategy
+# III. Area Notes & Current Plan
 ## A. Victory Road
 - The encounter rate on Victory Road 2F is very high. Be prepared for frequent interruptions while navigating.
 - Defeated trainers become impassable obstacles.
 - Puzzles reset when changing floors.
-## B. Current Goal: Escape
+## B. Current High-Level Plan
 - **Status:** Party is heavily injured. NEPTUNE has fainted.
-- **High-Level Goal:** Navigate through Victory Road to reach the Indigo Plateau Pokémon Center to heal.
-- **Immediate Obstacle:** Re-solve the boulder puzzle on 2F to access the western side of 3F.
+- **Goal:** Navigate through Victory Road to reach the Indigo Plateau Pokémon Center to heal.
+- **Strategy:** The eastern side of Victory Road 3F is a dead end. The correct path is to go back down to 2F, solve the southern boulder puzzle to access the western ladder at (2,2), and take that ladder up to the western side of 3F.
 
 # IV. Tool & Agent Principles
 - **Agent-First Approach:** Before attempting any manual solution for a complex problem (puzzles, multi-step navigation, difficult battles), I MUST consult the relevant specialist agent first (`puzzle_strategist_agent`, `battle_strategist_agent`, etc.). This prevents wasted effort on flawed manual plans and is a non-negotiable first step.
