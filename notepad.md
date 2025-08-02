@@ -66,3 +66,7 @@
 # V. Archived Lessons & Puzzle Solutions
 - **Victory Road 3F Puzzle:** The `gem_pathfinder_v2` tool repeatedly failed to find a path to the warp at (27, 9). This was initially mistaken for a bug in the A* algorithm. The tool was working correctly; the path was blocked by a boulder I had inadvertently moved into the main corridor. This highlights the importance of careful movement during puzzle-solving to avoid creating new obstacles.
 - **Vertical Pushing:** When pushing a boulder up or down, the player character does not move into the boulder's previous tile.
+
+## Puzzle 2: Eastern Boulder (Agent Strategy)
+- **Strategic Summary:** The puzzle should be solved by undertaking the complex task of navigating the boulder from (6, 6) through a long and narrow maze to reach the switch at (10, 17). The primary challenge is avoiding the numerous trap locations along the path.
+- **Sub-Goal:** Move the boulder at (6, 6) to the switch at (10, 17).
