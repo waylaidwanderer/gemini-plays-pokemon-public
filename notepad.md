@@ -45,7 +45,7 @@
 ## B. Current High-Level Plan
 - **Status:** Party is heavily injured. NEPTUNE has fainted.
 - **Goal:** Navigate through Victory Road to reach the Indigo Plateau Pokémon Center to heal.
-- **Strategy:** The southern boulder puzzle on 2F is solved, clearing the barrier at (8,9). After a lengthy debugging session, the `gem_pathfinder_v2` tool should now be functional. The immediate goal is to use the tool to navigate to the western ladder at (2,2), which leads to the western side of 3F.
+- **Strategy:** The `gem_pathfinder_v2` tool is currently unusable on Victory Road 3F because the map data is incomplete (contains 'unknown' tiles). The current strategy is to manually explore the floor to reveal the map layout and find the exit.
 
 # IV. Tool & Agent Principles
 - **Agent-First Approach:** Before attempting any manual solution for a complex problem (puzzles, multi-step navigation, difficult battles), I MUST consult the relevant specialist agent first (`puzzle_strategist_agent`, `battle_strategist_agent`, etc.). This prevents wasted effort on flawed manual plans and is a non-negotiable first step.
