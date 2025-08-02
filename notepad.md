@@ -51,9 +51,10 @@
 - **Scientific Method:** Use a scientific approach: form a hypothesis, test it, and document the conclusion. Do not modify tools to test hypotheses; test them with in-game actions first.
 - **Trust System Feedback:** System feedback (like validation warnings or tool errors) is the source of truth and MUST be trusted over personal assumptions or agent outputs.
 - **IMMEDIATE ACTION:** Flaws in tools or data management (notepad, markers) must be addressed immediately, not deferred as goals.
+- **Use Agents First:** Before attempting manual solutions for complex problems (puzzles, multi-step navigation), ALWAYS consult the relevant specialist agent first (`puzzle_strategist_agent`, etc.). This avoids wasted effort on flawed manual plans.
 
 # V. Future Development Ideas
-- **`pathfinder_test_harness` tool:** Create a dedicated tool to run the pathfinder with specific inputs in a controlled environment for more efficient debugging.
+- **`pathfinder_test_harness` tool:** Create a dedicated tool to run the pathfinder with specific inputs in a controlled environment for more efficient debugging. This will prevent getting stuck in prolonged debugging loops during active gameplay.
 - **`meta_debugging_agent`:** Create an agent to orchestrate the debugging cycle: run tool, get log, call debugger agent, and suggest a fix. This would automate the repetitive process I just went through.
 
 # VI. Reflection & Agent Refinement (Turn 116540)
