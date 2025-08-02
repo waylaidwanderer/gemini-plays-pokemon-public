@@ -51,8 +51,8 @@
 - **Status:** Complete.
 - **Conclusion:** The agent determined the main boulder puzzle is logically unsolvable from the eastern side of the map, as the switch is located west of an impassable barrier. This suggests an alternate route or solution is required.
 
-## B. gem_pathfinder_v2 Debugging
+## B. gem_pathfinder_v2 Debugging & Puzzle Re-evaluation
 - **Status:** COMPLETE.
-- **Issue:** The tool failed to find paths due to a common A* implementation error (prematurely checking the closed set), leading to inefficient exploration.
-- **Resolution:** The faulty logic was removed. The tool is now considered fixed and reliable.
-- **New Strategy:** The primary objective is now to explore the unvisited warp at (27, 9), as it is the most likely path forward, given the puzzle's apparent impossibility from this location.
+- **Issue:** The tool repeatedly failed to find a path to the warp at (27, 9). This was initially mistaken for a bug in the A* algorithm.
+- **Resolution:** The tool was working correctly. It was correctly identifying that the path was blocked by the boulder at (21, 9), which I had inadvertently moved into the main corridor.
+- **New Strategy:** The immediate priority is to clear the path by moving the boulder at (21, 9) north. This will allow access to the western part of the map, the unvisited warp, and a renewed attempt at the boulder puzzle.
