@@ -46,3 +46,19 @@
 # IV. Archived Lessons & Puzzle Solutions
 - **Victory Road 3F Puzzle:** The `gem_pathfinder_v2` tool repeatedly failed to find a path to the warp at (27, 9). This was initially mistaken for a bug in the A* algorithm. The tool was working correctly; the path was blocked by a boulder I had inadvertently moved into the main corridor. This highlights the importance of careful movement during puzzle-solving to avoid creating new obstacles.
 - **Hypothesis #1 (Aborted):** My notepad entry for `cleared_boulder_barrier` traversal is incorrect. It may be possible to move from a `ground` tile onto a `cleared_boulder_barrier` tile. (Status: Untested, test aborted by map change).
+
+# V. Current Puzzle: Victory Road 2F
+- **Objective:** Solve the two-boulder puzzle to progress.
+
+## Puzzle 1: Western Boulder
+- **Hypothesis #1:** Push boulder at (5, 15) south to (5, 17), then left to switch at (2, 17).
+- **Test:** Pushed boulder to (5, 17).
+- **Conclusion:** FAILED. Could not access (6, 17) to push left. Boulder was trapped.
+
+- **Hypothesis #2:** Push boulder at (5, 15) left to (4, 15), then down to (4, 17), then left to switch at (2, 17).
+- **Test:** Pushed boulder to (2, 17).
+- **Conclusion:** SUCCESS. Barrier at (8, 9) and (8, 10) was cleared after visual confirmation.
+
+## Puzzle 2: Eastern Boulder
+- **Hypothesis #1:** Push boulder at (6, 6) down to (6, 8), then right through the cleared barrier at (8, 9), then down to the switch at (10, 17).
+- **Status:** Untested. This is the current plan.
