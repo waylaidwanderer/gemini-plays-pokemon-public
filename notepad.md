@@ -12,7 +12,7 @@
 - `ground`: Standard walkable tile.
 - `grass`: Wild Pokémon encounters.
 - `water`: Requires SURF.
-- `impassable`: Wall. Defeated trainers on Victory Road 1F & 2F are impassable obstacles. This has been re-confirmed multiple times, most recently with the Pokemaniac at (5, 3) on Victory Road 2F. This has been re-confirmed multiple times, most recently with the Pokemaniac at (5, 3) on Victory Road 2F. This has been re-confirmed multiple times, most recently with the Pokemaniac at (5, 3) on Victory Road 2F.
+- `impassable`: Wall. Defeated trainers on Victory Road 1F & 2F are impassable obstacles. This has been re-confirmed multiple times, most recently with the Pokemaniac at (5, 3) on Victory Road 2F.
 - `ledge`: One-way traversal. Can only be jumped DOWN from the tile directly above. Acts as a wall from all other directions.
 - `elevated_ground`: Walkable, different elevation. It is NOT possible to step down from an `elevated_ground` tile to an adjacent `ground` tile.
 - `steps`: Allows movement between `ground` and `elevated_ground` in both directions.
