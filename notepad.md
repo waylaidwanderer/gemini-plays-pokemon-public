@@ -45,13 +45,14 @@
 ## B. Current Goal: Escape
 - **Status:** Party is heavily injured. NEPTUNE has fainted.
 - **High-Level Goal:** Navigate through Victory Road to reach the Indigo Plateau Pokémon Center to heal.
-- **Immediate Obstacle:** Solve the multi-stage boulder puzzle on 3F to unlock the path to the exit.
+- **Immediate Obstacle:** Re-solve the boulder puzzle on 2F to access the western side of 3F.
 
 # IV. Tool & Agent Principles
+- **Agent-First Approach:** Before attempting any manual solution for a complex problem (puzzles, multi-step navigation, difficult battles), I MUST consult the relevant specialist agent first (`puzzle_strategist_agent`, `battle_strategist_agent`, etc.). This prevents wasted effort on flawed manual plans and is a non-negotiable first step.
+- **Break Unproductive Loops:** If a tool proves too difficult to fix in a reasonable time, or if a particular strategy repeatedly fails despite refinement, I must abandon the approach and switch to an alternative strategy (like exploration of unseen areas or unvisited warps) to maintain forward progress. Getting stuck is a sign of a flawed strategy, not a flawed game.
 - **Scientific Method:** Use a scientific approach: form a hypothesis, test it, and document the conclusion. Do not modify tools to test hypotheses; test them with in-game actions first.
 - **Trust System Feedback:** System feedback (like validation warnings or tool errors) is the source of truth and MUST be trusted over personal assumptions or agent outputs.
 - **IMMEDIATE ACTION:** Flaws in tools or data management (notepad, markers) must be addressed immediately, not deferred as goals.
-- **Use Agents First:** Before attempting manual solutions for complex problems (puzzles, multi-step navigation), ALWAYS consult the relevant specialist agent first (`puzzle_strategist_agent`, etc.). This avoids wasted effort on flawed manual plans.
 
 # V. Future Development Ideas
 - **`pathfinder_test_harness` tool:** Create a dedicated tool to run the pathfinder with specific inputs in a controlled environment for more efficient debugging. This will prevent getting stuck in prolonged debugging loops during active gameplay.
