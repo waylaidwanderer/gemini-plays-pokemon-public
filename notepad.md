@@ -45,7 +45,7 @@
 ## B. Current High-Level Plan
 - **Status:** Party is heavily injured. NEPTUNE has fainted.
 - **Goal:** Navigate through Victory Road to reach the Indigo Plateau Pokémon Center to heal.
-- **Strategy:** The eastern side of Victory Road 3F is a dead end. The correct path is to go back down to 2F, solve the southern boulder puzzle to access the western ladder at (2,2), and take that ladder up to the western side of 3F.
+- **Strategy:** The eastern side of Victory Road 3F is a dead end. The southern boulder puzzle on 2F is solved, clearing the barrier at (8,9). The correct path is to now navigate to the western ladder at (2,2) and take that up to the western side of 3F.
 
 # IV. Tool & Agent Principles
 - **Agent-First Approach:** Before attempting any manual solution for a complex problem (puzzles, multi-step navigation, difficult battles), I MUST consult the relevant specialist agent first (`puzzle_strategist_agent`, `battle_strategist_agent`, etc.). This prevents wasted effort on flawed manual plans and is a non-negotiable first step.
