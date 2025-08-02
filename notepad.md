@@ -6,7 +6,7 @@
 - **Surfing:** Not all `ground` tiles adjacent to `water` are valid starting points.
 - **Puzzle Resets:** Leaving and re-entering a map (e.g., by using a ladder to another floor) resets all boulders on that map to their original positions.
 - **Off-Screen State Changes:** An object's state will not update in the map data until it is visible on-screen.
-- **Boulder Pushing:** A boulder can be pushed from an adjacent tile by facing it and pressing the corresponding direction. The game's behavior regarding player movement is highly inconsistent.
+- **Boulder Pushing:** A boulder can be pushed from an adjacent tile by facing it and walking into it. Pressing 'A' does not work.
 
 ## B. Tile Glossary & Movement Rules
 - `ground`: Standard walkable tile.
@@ -47,12 +47,7 @@
 - **Hypothesis #1:** Hypothesis #1: My notepad entry for `cleared_boulder_barrier` traversal is incorrect. It may be possible to move from a `ground` tile onto a `cleared_boulder_barrier` tile. This would explain why my pathfinder is failing. (Status: Untested, test aborted by map change).
 
 # V. Victory Road 3F - Puzzle & Navigation Log
-## A. puzzle_strategist_agent Conclusion
-- **Status:** Complete.
-- **Conclusion:** The agent determined the main boulder puzzle is logically unsolvable from the eastern side of the map, as the switch is located west of an impassable barrier. This suggests an alternate route or solution is required.
-
-## B. gem_pathfinder_v2 Debugging & Puzzle Re-evaluation
 - **Status:** COMPLETE.
-- **Issue:** The tool repeatedly failed to find a path to the warp at (27, 9). This was initially mistaken for a bug in the A* algorithm.
-- **Resolution:** The tool was working correctly. It was correctly identifying that the path was blocked by the boulder at (21, 9), which I had inadvertently moved into the main corridor.
-- **New Strategy:** The immediate priority is to clear the path by moving the boulder at (21, 9) north. This will allow access to the western part of the map, the unvisited warp, and a renewed attempt at the boulder puzzle.
+- **Issue:** The `gem_pathfinder_v2` tool repeatedly failed to find a path to the warp at (27, 9). This was initially mistaken for a bug in the A* algorithm.
+- **Resolution:** The tool was working correctly. The path was blocked by the boulder at (21, 9), which I had inadvertently moved into the main corridor while experimenting. The A* algorithm itself *did* have a minor bug (premature closed_set check) which has been fixed, but the primary failure was user error.
+- **New Strategy:** The immediate priority is to clear the path by moving the boulder at (21, 9) north. This will allow access to the western part of the map, the unvisited warp, and a renewed attempt at the boulder puzzle if necessary.
