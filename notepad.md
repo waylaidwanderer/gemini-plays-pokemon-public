@@ -39,7 +39,7 @@
 
 # III. Current Strategy: Escape Victory Road
 - **Status:** Party is heavily injured. NEPTUNE has fainted.
-- **High-Level Goal:** Navigate out of Victory Road 1F to Route 23, then proceed to the Indigo Plateau Pokémon Center to heal.
+- **High-Level Goal:** Navigate through Victory Road to reach the Indigo Plateau Pokémon Center to heal.
 - **Immediate Obstacle:** The `gem_pathfinder_v2` tool has been repeatedly failing to solve the multi-floor boulder puzzles in Victory Road. The current debugging cycle is focused on fixing its state-space search and closed-set logic to make it reliable for complex navigation.
 
 # IV. Tool & Agent Principles
