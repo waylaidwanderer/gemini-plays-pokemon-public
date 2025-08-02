@@ -12,7 +12,7 @@
 - `ground`: Standard walkable tile.
 - `grass`: Wild Pokémon encounters.
 - `water`: Requires SURF.
-- `impassable`: Wall. Defeated trainers on Victory Road 1F & 2F are impassable obstacles. This has been re-confirmed multiple times, most recently with the Pokemaniac at (5, 3) on Victory Road 2F.
+- `impassable`: Wall. Defeated trainers on Victory Road 1F & 2F are impassable obstacles.
 - `ledge`: One-way traversal. Can only be jumped DOWN from the tile directly above. Acts as a wall from all other directions.
 - `elevated_ground`: Walkable, different elevation. It is NOT possible to step down from an `elevated_ground` tile to an adjacent `ground` tile.
 - `steps`: Allows movement between `ground` and `elevated_ground` in both directions.
@@ -43,11 +43,6 @@
 - **Trust System Feedback:** System feedback (like validation warnings or tool errors) is the source of truth and MUST be trusted over personal assumptions or agent outputs.
 - **IMMEDIATE ACTION:** Flaws in tools or data management (notepad, markers) must be addressed immediately, not deferred as goals.
 
-# IV. Untested Assumptions & Hypotheses
-- **Hypothesis #1:** Hypothesis #1: My notepad entry for `cleared_boulder_barrier` traversal is incorrect. It may be possible to move from a `ground` tile onto a `cleared_boulder_barrier` tile. This would explain why my pathfinder is failing. (Status: Untested, test aborted by map change).
-
-# V. Victory Road 3F - Puzzle & Navigation Log
-- **Status:** COMPLETE.
-- **Issue:** The `gem_pathfinder_v2` tool repeatedly failed to find a path to the warp at (27, 9). This was initially mistaken for a bug in the A* algorithm.
-- **Resolution:** The tool was working correctly. The path was blocked by the boulder at (21, 9), which I had inadvertently moved into the main corridor while experimenting. The A* algorithm itself *did* have a minor bug (premature closed_set check) which has been fixed, but the primary failure was user error.
-- **New Strategy:** The immediate priority is to clear the path by moving the boulder at (21, 9) north. This will allow access to the western part of the map, the unvisited warp, and a renewed attempt at the boulder puzzle if necessary.
+# IV. Archived Lessons & Puzzle Solutions
+- **Victory Road 3F Puzzle:** The `gem_pathfinder_v2` tool repeatedly failed to find a path to the warp at (27, 9). This was initially mistaken for a bug in the A* algorithm. The tool was working correctly; the path was blocked by a boulder I had inadvertently moved into the main corridor. This highlights the importance of careful movement during puzzle-solving to avoid creating new obstacles.
+- **Hypothesis #1 (Aborted):** My notepad entry for `cleared_boulder_barrier` traversal is incorrect. It may be possible to move from a `ground` tile onto a `cleared_boulder_barrier` tile. (Status: Untested, test aborted by map change).
