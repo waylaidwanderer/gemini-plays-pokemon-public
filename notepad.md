@@ -40,17 +40,13 @@
 # III. Current Strategy: Escape Victory Road
 - **Status:** Party is heavily injured. NEPTUNE has fainted.
 - **High-Level Goal:** Navigate through Victory Road to reach the Indigo Plateau Pokémon Center to heal.
-- **Immediate Obstacle:** The path is blocked by a boulder barrier at (8, 9). I have realized that traveling between floors resets the boulder puzzles. I am currently re-solving the southern boulder puzzle. I have pushed the boulder from (5, 15) down to (5, 16).
+- **Immediate Obstacle:** The path is blocked because traveling between floors reset the boulder puzzles. I am currently re-solving the southern boulder puzzle on Victory Road 2F to open the barrier at (8, 9).
 
 # IV. Tool & Agent Principles
 - **Scientific Method:** Use a scientific approach: form a hypothesis, test it, and document the conclusion. Do not modify tools to test hypotheses; test them with in-game actions first.
 - **Trust System Feedback:** System feedback (like validation warnings or tool errors) is the source of truth and MUST be trusted over personal assumptions or agent outputs.
 - **IMMEDIATE ACTION:** Flaws in tools or data management (notepad, markers) must be addressed immediately, not deferred as goals.
 
-# V. Archived Lessons
-- **Victory Road 1F Puzzle:** Solved.
-- **Victory Road 2F Puzzle (Southern Boulder):** Solved. The southern boulder was pushed to its switch, opening the barrier at (8, 9).
-
-# VI. Future Development Ideas
+# V. Future Development Ideas
 - **`pathfinder_test_harness` tool:** Create a dedicated tool to run the pathfinder with specific inputs in a controlled environment for more efficient debugging.
 - **`meta-debugging_agent`:** Create an agent to orchestrate the debugging cycle: run tool, get log, call debugger agent, and suggest a fix. This would automate the repetitive process I just went through.
