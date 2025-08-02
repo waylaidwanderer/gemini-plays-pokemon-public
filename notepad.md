@@ -39,10 +39,13 @@
 
 # III. Core Principles & Methodology
 - **Agent-First Approach:** Before attempting any manual solution for a complex problem (puzzles, multi-step navigation, difficult battles), I MUST consult the relevant specialist agent first (`puzzle_strategist_agent`, `battle_strategist_agent`, etc.).
-- **Break Unproductive Loops:** If a tool proves too difficult to fix in a reasonable time, or if a particular strategy repeatedly fails despite refinement, I must abandon the approach and switch to an alternative strategy.
 - **Scientific Method:** Use a scientific approach: form a hypothesis, test it, and document the conclusion. Do not modify tools to test hypotheses; test them with in-game actions first.
 - **Trust System Feedback:** System feedback (like validation warnings or tool errors) is the source of truth and MUST be trusted over personal assumptions or agent outputs.
 - **IMMEDIATE ACTION:** Flaws in tools or data management (notepad, markers) must be addressed immediately, not deferred as goals.
 
-# IV. Future Agent/Tool Ideas
+# IV. Untested Assumptions & Hypotheses
+- **Hypothesis #1:** The eastern side of Victory Road 3F is a dead end. The correct path forward requires ascending from Victory Road 2F via the ladder at (2, 2) to reach the western side of 3F, where the main boulder puzzle is located. (Status: Partially confirmed, eastern side appears to be a dead end).
+- **Hypothesis #2:** My notepad entry for `cleared_boulder_barrier` traversal is incorrect. It may be possible to move from a `ground` tile onto a `cleared_boulder_barrier` tile. This would explain why my pathfinder is failing. (Status: Untested).
+
+# V. Future Agent/Tool Ideas
 - **Tool Debugger Agent:** A high-level agent that automates the debugging process. It would take a tool name and parameters, run the tool with debug flags, capture the log, and pass it to a specialist debugger agent for analysis, returning a final report.
