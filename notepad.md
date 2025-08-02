@@ -54,10 +54,6 @@
 - **Trust System Feedback:** System feedback (like validation warnings or tool errors) is the source of truth and MUST be trusted over personal assumptions or agent outputs.
 - **IMMEDIATE ACTION:** Flaws in tools or data management (notepad, markers) must be addressed immediately, not deferred as goals.
 
-# V. High-Priority Development Plan
-- **`pathfinder_test_harness` tool:** Create a dedicated tool to run the pathfinder with specific inputs in a controlled environment for more efficient debugging. This will prevent getting stuck in prolonged debugging loops during active gameplay.
-- **`meta_debugging_agent`:** Create an agent to orchestrate the debugging cycle: run tool, get log, call debugger agent, and suggest a fix. This would automate the repetitive process I just went through.
-
 # VI. Reflection & Agent Refinement (Turn 116540)
 - **Battle Strategist Agent:** Refined the agent's system prompt to prevent it from recommending 'RUN' mid-battle when the player has a clear advantage. It was flip-flopping between attacking and running against the wild Hitmonlee, which is inefficient. The new 'Mid-Battle Commitment' rule (Rule #14) should correct this behavior.
 - **Pushing Inconsistency (Victory Road 2F):** When pushing the boulder at (5, 16) leftwards from (6, 16), the player character remained at (6, 16) instead of moving into the boulder's vacated space. This contradicts previous observations and indicates the player's final position after a push is not guaranteed.
