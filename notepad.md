@@ -47,7 +47,7 @@
 - **Objective:** Solve the two-boulder puzzle to progress.
 
 ## Puzzle 1: Western Boulder
-- **Hypothesis #1:** Push boulder at (5, 15) south to (5, 17), then left to switch at (2, 17).
+- **Hypothesis #1 (Original):** Push boulder at (5, 15) south to (5, 17), then left to switch at (2, 17).
 - **Test:** Pushed boulder to (5, 17).
 - **Conclusion:** FAILED. Could not access (6, 17) to push left. Boulder was trapped.
 
