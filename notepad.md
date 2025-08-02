@@ -65,3 +65,4 @@
 
 # V. Archived Lessons & Puzzle Solutions
 - **Victory Road 3F Puzzle:** The `gem_pathfinder_v2` tool repeatedly failed to find a path to the warp at (27, 9). This was initially mistaken for a bug in the A* algorithm. The tool was working correctly; the path was blocked by a boulder I had inadvertently moved into the main corridor. This highlights the importance of careful movement during puzzle-solving to avoid creating new obstacles.
+- **Vertical Pushing:** When pushing a boulder up or down, the player character does not move into the boulder's previous tile.
