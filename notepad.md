@@ -51,7 +51,7 @@
 - **Test:** Pushed boulder to (5, 17).
 - **Conclusion:** FAILED. Could not access (6, 17) to push left. Boulder was trapped.
 
-- **Hypothesis #2:** Push boulder at (5, 15) left to (4, 15), then down to (4, 17), then left to switch at (2, 17).
+- **Hypothesis #2:** Push boulder at (6, 15) left to (5, 15), then down to (5, 17), then left to switch at (2, 17).
 - **Test:** Pushed boulder to (2, 17).
 - **Conclusion:** SUCCESS. Barrier at (8, 9) and (8, 10) was cleared after visual confirmation.
 
