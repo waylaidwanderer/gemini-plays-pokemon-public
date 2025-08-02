@@ -47,7 +47,6 @@
 - **Hypothesis #1:** Hypothesis #1: My notepad entry for `cleared_boulder_barrier` traversal is incorrect. It may be possible to move from a `ground` tile onto a `cleared_boulder_barrier` tile. This would explain why my pathfinder is failing. (Status: Untested, test aborted by map change).
 
 # V. Future Agent/Tool Ideas
-- **Tool Debugger Agent:** A high-level agent that automates the debugging process. It would take a tool name and parameters, run the tool with debug flags, capture the log, and pass it to a specialist debugger agent for analysis, returning a final report. This would streamline the scientific method for tool refinement.
 
 # VI. Victory Road 3F Puzzle Plan
 ## A. Strategic Summary (from puzzle_strategist_agent)
