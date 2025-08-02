@@ -46,7 +46,7 @@
 # IV. Untested Assumptions & Hypotheses
 - **Hypothesis #1:** Hypothesis #1: My notepad entry for `cleared_boulder_barrier` traversal is incorrect. It may be possible to move from a `ground` tile onto a `cleared_boulder_barrier` tile. This would explain why my pathfinder is failing. (Status: Untested, test aborted by map change).
 
-# VI. Victory Road 3F Puzzle Plan
+# V. Victory Road 3F Puzzle Plan
 ## A. Strategic Summary (from puzzle_strategist_agent)
 - The puzzle requires using the boulder at (14, 13), as the other three are confined to areas with no exit path. The core strategy is to bypass the complex central maze by first pushing the boulder down and then east, circumnavigating the main obstacles. The boulder must then be guided north and then west along the upper corridors to reach the area near the switch. The final sequence involves positioning the boulder above and to the left of the switch before pushing it into place.
 
