@@ -53,8 +53,3 @@
 - **Scientific Method:** Use a scientific approach: form a hypothesis, test it, and document the conclusion. Do not modify tools to test hypotheses; test them with in-game actions first.
 - **Trust System Feedback:** System feedback (like validation warnings or tool errors) is the source of truth and MUST be trusted over personal assumptions or agent outputs.
 - **IMMEDIATE ACTION:** Flaws in tools or data management (notepad, markers) must be addressed immediately, not deferred as goals.
-
-# VI. Reflection & Agent Refinement (Turn 116540)
-- **Battle Strategist Agent:** Refined the agent's system prompt to prevent it from recommending 'RUN' mid-battle when the player has a clear advantage. It was flip-flopping between attacking and running against the wild Hitmonlee, which is inefficient. The new 'Mid-Battle Commitment' rule (Rule #14) should correct this behavior.
-- **Pushing Inconsistency (Victory Road 2F):** When pushing the boulder at (5, 16) leftwards from (6, 16), the player character remained at (6, 16) instead of moving into the boulder's vacated space. This contradicts previous observations and indicates the player's final position after a push is not guaranteed.
-- `unknown`: Tile not yet visible on screen. Treat as impassable until explored.
