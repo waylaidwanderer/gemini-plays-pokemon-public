@@ -37,16 +37,7 @@
 - **Struggle Mechanic:** Struggle is only used automatically when a Pokémon is out of PP for ALL of its moves.
 - **Full Heal Mechanic:** This item ONLY cures status conditions. It does NOT restore HP. This was verified by attempting to use it on multiple injured Pokémon with no status effects, which resulted in the message 'It won't have any effect.'
 
-# III. Area Notes & Current Plan
-## A. Victory Road
-- The encounter rate on Victory Road 2F is very high. Be prepared for frequent interruptions while navigating.
-- Defeated trainers become impassable obstacles.
-- Puzzles reset when changing floors.
-## B. Current High-Level Plan
-- **Status:** Party is heavily injured. NEPTUNE has fainted.
-- **Goal:** Navigate through Victory Road to reach the Indigo Plateau Pokémon Center to heal.
-- **Strategy:** The `gem_pathfinder_v2` tool is currently unusable on Victory Road 3F because the map data is incomplete (contains 'unknown' tiles). The current strategy is to manually explore the floor to reveal the map layout and find the exit.
-
+# III. Core Principles & Methodology
 - **Agent-First Approach:** Before attempting any manual solution for a complex problem (puzzles, multi-step navigation, difficult battles), I MUST consult the relevant specialist agent first (`puzzle_strategist_agent`, `battle_strategist_agent`, etc.). This prevents wasted effort on flawed manual plans and is a non-negotiable first step.
 - **Break Unproductive Loops:** If a tool proves too difficult to fix in a reasonable time, or if a particular strategy repeatedly fails despite refinement, I must abandon the approach and switch to an alternative strategy (like exploration of unseen areas or unvisited warps) to maintain forward progress. Getting stuck is a sign of a flawed strategy, not a flawed game.
 - **Scientific Method:** Use a scientific approach: form a hypothesis, test it, and document the conclusion. Do not modify tools to test hypotheses; test them with in-game actions first.
