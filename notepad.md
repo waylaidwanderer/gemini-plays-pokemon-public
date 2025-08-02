@@ -12,7 +12,7 @@
 - `ground`: Standard walkable tile.
 - `grass`: Wild Pokémon encounters.
 - `water`: Requires SURF.
-- `impassable`: Wall. Defeated trainers on Victory Road 2F are impassable.
+- `impassable`: Wall. Defeated trainers on Victory Road 1F & 2F are impassable obstacles.
 - `ledge`: One-way traversal. Can only be jumped DOWN from the tile directly above. Acts as a wall from all other directions.
 - `elevated_ground`: Walkable, different elevation. It is NOT possible to step down from an `elevated_ground` tile to an adjacent `ground` tile.
 - `steps`: Allows movement between `ground` and `elevated_ground` in both directions.
@@ -37,27 +37,20 @@
 - **Struggle Mechanic:** Struggle is only used automatically when a Pokémon is out of PP for ALL of its moves.
 - **Full Heal Mechanic:** This item ONLY cures status conditions. It does NOT restore HP. This was verified by attempting to use it on multiple injured Pokémon with no status effects, which resulted in the message 'It won't have any effect.'
 
-# III. Current Strategy: Victory Road 2F Puzzle (Agent v2)
-- **Status:** Southern boulder is on its switch, keeping the barrier at (8, 9) open.
-- **High-Level Goal:** Move the northern boulder from (6, 6) to the switch at (10, 17).
-- **Agent Analysis:** The solution requires moving the boulder through a critical chokepoint at row y=10 to cross from the west to the east side of the map.
-- **Strategic Plan (Sub-Goals):
-    1. Move the boulder from (6, 6) to the staging position at (8, 10).
-    2. Push the boulder across the chokepoint to (12, 10).
-    3. Push the boulder down the vertical corridor to (12, 17).
-    4. Push the boulder left onto the switch at (10, 17).    1. Move the boulder from (6, 6) to the staging position at (8, 10).
-    2. Push the boulder across the chokepoint to (12, 10).
-    3. Push the boulder down the vertical corridor to (12, 17).
-    4. Push the boulder left onto the switch at (10, 17).
+# III. Current Strategy: Escape Victory Road
+- **Status:** Party is heavily injured. NEPTUNE has fainted.
+- **High-Level Goal:** Navigate out of Victory Road 1F to Route 23, then proceed to the Indigo Plateau Pokémon Center to heal.
+- **Immediate Obstacle:** The `gem_pathfinder_v2` tool is unreliable due to a suspected issue with the map data itself (tile (2,1) at the top of a ladder is marked 'impassable'). The tool must be fixed before reliable navigation is possible.
 
-# V. Tool & Agent Principles
+# IV. Tool & Agent Principles
 - **Scientific Method:** Use a scientific approach: form a hypothesis, test it, and document the conclusion. Do not modify tools to test hypotheses; test them with in-game actions first.
 - **Trust System Feedback:** System feedback (like validation warnings or tool errors) is the source of truth and MUST be trusted over personal assumptions or agent outputs.
 - **IMMEDIATE ACTION:** Flaws in tools or data management (notepad, markers) must be addressed immediately, not deferred as goals.
 
-# VI. Archived Lessons
-- Victory Road 1F Puzzle: Solved.
+# V. Archived Lessons
+- **Victory Road 1F Puzzle:** Solved.
+- **Victory Road 2F Puzzle (Southern Boulder):** Solved. The southern boulder was pushed to its switch, opening the barrier at (8, 9).
 
-# VII. Future Development Ideas
+# VI. Future Development Ideas
 - **`pathfinder_test_harness` tool:** Create a dedicated tool to run the pathfinder with specific inputs in a controlled environment for more efficient debugging.
 - **`meta-debugging_agent`:** Create an agent to orchestrate the debugging cycle: run tool, get log, call debugger agent, and suggest a fix. This would automate the repetitive process I just went through.
