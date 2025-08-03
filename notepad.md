@@ -59,3 +59,10 @@
 
 # VI. Active To-Do & Reminders
 - **Agent Refinement:** Refine `puzzle_strategist_agent` to use the `boulder_trap_detector` tool for more robust planning.
+## C. Victory Road 1F (Eastern Boulder Puzzle)
+- **Status:** Appears unsolvable. `puzzle_strategist_agent` concluded all boulders are trapped or have no viable path to the switch at (18, 14).
+- **Hypothesis:** A hidden mechanic or switch exists.
+- **Plan:**
+  1. Thoroughly re-explore the map for hidden interactable objects.
+  2. Investigate the barrier at (10, 13) for an alternative opening mechanism.
+  3. If all else fails, reset the puzzle by leaving and re-entering the map.
