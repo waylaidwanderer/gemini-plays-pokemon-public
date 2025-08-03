@@ -43,30 +43,38 @@
 - **Trust System Feedback:** System feedback (like validation warnings or tool errors) is the source of truth and MUST be trusted over personal assumptions or agent outputs.
 - **IMMEDIATE ACTION:** Flaws in tools or data management (notepad, markers) must be addressed immediately, not deferred as goals.
 
-# IV. Current Puzzle: Victory Road 2F
-- **Objective:** Solve the two-boulder puzzle to progress.
+# IV. Current Puzzle: Victory Road 2F Eastern Section
+- **Objective:** Solve the puzzle to open the barrier at (24, 15).
+- **Current Grand Hypothesis:** The puzzle cannot be solved using only the boulders on 2F. A third boulder must be dropped from a hole on 3F into the area near the switch at (10, 17).
+- **Plan:**
+  1. Navigate to the eastern ladder at (24, 8) on 2F.
+  2. Ascend to 3F.
+  3. Explore the eastern section of 3F to find a boulder and a corresponding hole.
+  4. Solve the 3F puzzle to drop the boulder.
+  5. Return to 2F to confirm the new boulder's position.
+  6. Push the new boulder onto the switch at (10, 17).
 
-## Puzzle 1: Western Boulder
+# V. Archived Lessons & Puzzle Solutions
+
+## Victory Road 2F - Western Boulder
 - **Hypothesis #1 (Original):** Push boulder at (5, 15) south to (5, 17), then left to switch at (2, 17).
 - **Test:** Pushed boulder to (5, 17).
 - **Conclusion:** FAILED. Could not access (6, 17) to push left. Boulder was trapped.
-
 - **Hypothesis #2:** Push boulder at (6, 15) left to (5, 15), then down to (5, 17), then left to switch at (2, 17).
 - **Test:** Pushed boulder to (2, 17).
 - **Conclusion:** SUCCESS. Barrier at (8, 9) and (8, 10) was cleared after visual confirmation.
 
-## Puzzle 2: Eastern Boulder
+## Victory Road 2F - Eastern Boulder (Failed Hypotheses)
 - **Hypothesis #1 (Push Up):** Push boulder at (6, 6) UP to (6, 5).
 - **Test:** Pushed boulder to (6, 5).
 - **Conclusion:** FAILED. Path upwards is a dead end. The only way forward is down.
-
 - **Hypothesis #2 (Push Down):** Push boulder at (6, 6) down to (6, 8), then right through the cleared barrier at (8, 9), then down to the switch at (10, 17).
-- **Status:** Untested. This is the new current plan.
+- **Conclusion:** FAILED. Boulder is on `ground` and cannot be pushed up to the `elevated_ground` where the barrier is.
+- **Hypothesis #3 (Use other boulder):** Push the boulder at (5, 16) to the switch at (10, 17).
+- **Conclusion:** FAILED. Path is blocked by an impassable wall at X=9.
 
-# V. Archived Lessons & Puzzle Solutions
-- **Victory Road 3F Puzzle:** The `gem_pathfinder_v2` tool repeatedly failed to find a path to the warp at (27, 9). This was initially mistaken for a bug in the A* algorithm. The tool was working correctly; the path was blocked by a boulder I had inadvertently moved into the main corridor. This highlights the importance of careful movement during puzzle-solving to avoid creating new obstacles.
+## Victory Road 3F Puzzle
+- The `gem_pathfinder_v2` tool repeatedly failed to find a path to the warp at (27, 9). This was initially mistaken for a bug in the A* algorithm. The tool was working correctly; the path was blocked by a boulder I had inadvertently moved into the main corridor. This highlights the importance of careful movement during puzzle-solving to avoid creating new obstacles.
+
+## General Mechanics
 - **Vertical Pushing:** When pushing a boulder up or down, the player character does not move into the boulder's previous tile.
-
-## Puzzle 2: Eastern Boulder (Agent Strategy)
-- **Strategic Summary:** The puzzle should be solved by undertaking the complex task of navigating the boulder from (6, 6) through a long and narrow maze to reach the switch at (10, 17). The primary challenge is avoiding the numerous trap locations along the path.
-- **Sub-Goal:** Move the boulder at (6, 6) to the switch at (10, 17).
