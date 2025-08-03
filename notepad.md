@@ -89,5 +89,5 @@
 
 ## Victory Road 2F - Boulder Push Mechanic
 - **Hypothesis #1:** The HM Strength must be reactivated from the party menu before each individual boulder push.
-- **Test:** Attempting to push the boulder at (5, 16) after reactivating Strength.
-- **Expected Outcome:** The boulder should move to (6, 16).
+- **Test:** After a failed push attempt, Strength was reactivated and the push was re-attempted.
+- **Conclusion:** SUCCESS. The boulder moved. This strongly suggests that Strength must be reactivated for each push. I will conduct another test to confirm.
