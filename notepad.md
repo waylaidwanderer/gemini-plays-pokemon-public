@@ -1,29 +1,24 @@
-# I. Game Mechanics & Traversal
-## A. Core Rules
+# I. Core Gameplay & World Rules
+
+## A. Game Mechanics
 - **Level Cap:** 8 badges = Level 65.
-- **PC Interaction:** Stand directly below the PC, face up, and press 'A'.
+- **PC Interaction:** Stand directly below the PC, face up, and press 'A' to access Pokémon Storage. 'Gem's PC' is for items.
 - **HM Usage:** HMs are used from the party menu. Fainted Pokémon can use field moves.
 - **Surfing:** Not all `ground` tiles adjacent to `water` are valid starting points.
-- Puzzle Resets: The ladder between Victory Road 1F and 2F does NOT reset the boulder puzzle. Hypothesis: Leaving Victory Road entirely might be required to reset it.
-- **Off-Screen State Changes:** An object's state will not update in the map data until it is visible on-screen.
-- **Boulder Pushing:** A boulder can be pushed from an adjacent tile by facing it and walking into it. Pressing 'A' does not work.
+- **Puzzle Resets:** Leaving and re-entering a map (e.g., Victory Road 1F to Route 23) resets its boulder puzzles. Using ladders between floors (e.g., 1F to 2F) does NOT reset them.
+- **Off-Screen State Changes:** An object's state (like a `boulder_barrier`) will not update in the map data until it is visible on-screen.
+- **Boulder Pushing:** Activate Strength once from the party menu. Then, for each push, simply walk into the boulder. It does not need to be reactivated for every push.
 
 ## B. Tile Glossary & Movement Rules
-- `ground`: Standard walkable tile.
-- `grass`: Wild Pokémon encounters.
-- `water`: Requires SURF.
-- `impassable`: Wall. Defeated trainers on Victory Road 1F & 2F are impassable obstacles (re-verified for 1F).
+- `ground`: Standard walkable tile (Elevation 0).
+- `elevated_ground`: Walkable tile at a higher elevation (Elevation 2). It is IMPOSSIBLE to step directly between `ground` and `elevated_ground`.
+- `steps`: Allows two-way movement between `ground` and `elevated_ground`.
+- `cleared_boulder_barrier`: A former barrier that acts as a one-way ramp (Elevation 1). Connects to adjacent elevations but cannot be stepped up onto from `ground` or down from to `ground`.
 - `ledge`: One-way traversal. Can only be jumped DOWN from the tile directly above. Acts as a wall from all other directions.
-- `elevated_ground`: Walkable, different elevation. It is NOT possible to step down from an `elevated_ground` tile to an adjacent `ground` tile.
-- `steps`: Allows movement between `ground` and `elevated_ground` in both directions.
+- `impassable`: Wall. Defeated trainers on Victory Road 1F & 2F are impassable obstacles.
 - `boulder_switch`: Floor switch for boulders.
-- `boulder_barrier`: Impassable barrier linked to a boulder switch.
-- `cleared_boulder_barrier`: A former barrier that acts as a ramp (elevation 1). It connects to other tiles of the same or adjacent elevation. It is NOT possible to step directly down from it to a `ground` tile (elevation 0), nor is it possible to step UP from `ground` onto it.
-- `hole`: Drops to a lower floor. Pushing a boulder into one causes it to appear on the floor below.
-- `spinner`: Forces movement.
-- `cuttable`: A tree that can be removed with the HM Cut.
-- `ladder_up`: Warps to a higher floor.
-- `ladder_down`: Warps to a lower floor.
+- `boulder_barrier`: Impassable barrier linked to a switch.
+- `hole`: Drops to a lower floor. Pushing a boulder into one moves it to the floor below.
 
 # II. Battle Intel
 ## A. Type Effectiveness Chart (Verified)
