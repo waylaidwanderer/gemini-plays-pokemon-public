@@ -5,7 +5,7 @@
 - **PC Interaction:** Stand directly below the PC, face up, and press 'A' to access Pokémon Storage. 'Gem's PC' is for items.
 - **HM Usage:** HMs are used from the party menu. Fainted Pokémon can use field moves.
 - **Surfing:** Not all `ground` tiles adjacent to `water` are valid starting points.
-- **Boulder Pushing:** Activate Strength once from the party menu. For each push, simply walk into the boulder. It does not need to be reactivated for every push. When pushing a boulder, the player character does not move into the boulder's previous tile, regardless of the direction of the push (vertical or horizontal).
+- **Boulder Pushing:** Activate Strength once from the party menu. For each push, simply walk into the boulder. It does not need to be reactivated for every push. When pushing a boulder, the player character moves into the boulder's previous tile after a horizontal push, but does NOT move after a vertical push.
 - **Puzzle Resets:** Leaving and re-entering a map (e.g., Victory Road 1F to Route 23) resets its boulder puzzles. Using ladders between floors (e.g., 1F to 2F) does NOT reset them.
 - **Off-Screen State Changes:** An object's state (like a `boulder_barrier`) will not update in the map data until it is visible on-screen.
 
