@@ -43,14 +43,15 @@
 - **Trust System Feedback:** System feedback (like validation warnings or tool errors) is the source of truth and MUST be trusted over personal assumptions or agent outputs.
 - **IMMEDIATE ACTION:** Flaws in tools or data management (notepad, markers) must be addressed immediately, not deferred as goals.
 
-# IV. Current Puzzle: Victory Road 2F Eastern Section
-- **Objective:** Solve the eastern puzzle to open the barrier at (24, 15).
-- **Status:** The western puzzle is solved. The barrier at (8, 9) is clear.
-- **Current Blocker:** The `gem_pathfinder_v2` tool is critically bugged.
-- **Debugging Plan:**
-  1. The agent's hypothesis (that defeated trainers are passable) was tested by modifying the tool. The test FAILED, as the tool still could not find a path.
-  2. **Current Step:** Revert the tool to its most logical state: all non-Pikachu objects are impassable obstacles.
-  3. **Next Step:** Test the reverted tool on a simple, known-valid path to confirm its baseline functionality is working. If it fails, generate a new debug log for the agent. If it succeeds, the path to the boulder is genuinely blocked by an object (likely a defeated trainer), which would disprove the agent's hypothesis and confirm my own observations.
+# IV. Current Puzzle: Victory Road 1F
+- **Objective:** Re-solve the boulder puzzle on Victory Road 1F.
+- **Hypothesis:** Solving the 1F puzzle is required to reactivate the ladder at (2, 2) that leads to Victory Road 2F.
+- **Status:** The puzzle has been reset. The barrier at (10, 13) is active.
+- **Plan:**
+  1. Solve the western boulder puzzle by pushing the boulder at (3, 11) to the switch at (3, 10).
+  2. Solve the eastern boulder puzzle by pushing the boulder at (15, 3) to the switch at (18, 14).
+  3. Verify that the barrier at (10, 13) is cleared.
+  4. Attempt to use the ladder at (2, 2) to ascend to Victory Road 2F.
 
 # V. Archived Lessons & Puzzle Solutions
 
