@@ -53,3 +53,6 @@
 - **Victory Road 2F (Failed Agent Plan):** The puzzle_strategist_agent's plan to move the boulder onto elevated ground was impossible and has been discarded.
 - **Victory Road 2F (Trapped Boulder):** All attempts to move the boulder at (6, 8) or (8, 12) to the eastern switch resulted in it becoming trapped. These approaches are invalid.
 - **Victory Road 2F (Failed Manual Plan):** The manual plan to push the boulder from (4, 12) south to (4, 17) and then east to (10, 17) failed. The path east from (5, 17) was blocked by an impassable tile at (6, 17).
+
+# V. Lessons Learned & Heuristics
+- **Verify 'Trapped' Scenarios:** If a pathfinder tool reports 'No path found' and I believe I am trapped, I must not accept this conclusion without verification. I need to manually inspect the map for alternative routes and trust the game state's list of reachable warps over my own assumptions. (Lesson from Turn 119657 Hallucination)
