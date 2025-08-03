@@ -77,3 +77,9 @@
 - **System Info:** The western switch puzzle at (2, 17) is already solved.
 - **Agent Hypothesis:** Move the southern boulder at (5, 15) to the eastern switch at (10, 17).
 - **Sub-Goal 1:** Move boulder from (5, 15) to (10, 17).
+
+## Battle Strategist Agent - Performance Log
+- **Agent Failure (Turn 118694):** Agent recommended switching in NEPTUNE (Lv50, 48/208 HP) against a wild GRAVELER (Lv46). Reasoning was that NEPTUNE's superior speed and 4x super-effective STAB SURF would secure a one-hit KO. 
+- **Outcome:** FAILED CATASTROPHICALLY. The agent's speed assumption was incorrect. The GRAVELER moved first and used ROCK SLIDE, a super-effective move, which knocked out NEPTUNE before it could act.
+- **Conclusion:** The agent's logic was too aggressive and did not adequately weigh the extreme risk of switching in a low-HP Pokémon that also has a type weakness to the opponent's likely STAB moves. The potential for a fast KO does not justify the risk of being out-sped and KO'd.
+- **Corrective Action (Turn 118695):** Updated the agent's system prompt with the 'LOW HP & WEAKNESS VETO (ULTRA-CRITICAL)' rule. This rule forbids switching to a Pokémon below 50% HP if it has a weakness to the opponent's likely STAB types, overriding any offensive advantage. This prioritizes survival and safer, more defensive plays.
