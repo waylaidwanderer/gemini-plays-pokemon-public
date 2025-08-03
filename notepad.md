@@ -18,7 +18,7 @@
 - `steps`: Allows movement between `ground` and `elevated_ground` in both directions.
 - `boulder_switch`: Floor switch for boulders.
 - `boulder_barrier`: Impassable barrier linked to a boulder switch.
-- `cleared_boulder_barrier`: A former barrier that acts as a ramp. It is a two-way connector between `ground` (elevation 0) and adjacent tiles with elevation 1.
+- `cleared_boulder_barrier`: A former barrier that acts as a ramp (elevation 1). It connects to other tiles of the same or adjacent elevation (e.g., `elevated_ground`), but it is NOT possible to step directly down from it to a `ground` tile (elevation 0).
 - `hole`: Drops to a lower floor. Pushing a boulder into one causes it to appear on the floor below.
 - `spinner`: Forces movement.
 - `cuttable`: A tree that can be removed with the HM Cut.
