@@ -1360,6 +1360,16 @@
         "commit_message": "fix(gem_pathfinder_v2): Correct boolean conversion for is_surfing. The tool was incorrectly evaluating the string 'false' as True, causing it to treat water as traversable even when not surfing. This commit changes the check from `bool(input_data.get('is_surfing'))` to the explicit comparison `input_data.get('is_surfing') == 'true'`, which correctly handles the string input. This also removes the now-unnecessary debug print.",
         "timestamp": "2025-08-03T09:11:48.410Z",
         "action_counter": 118454
+      },
+      {
+        "commit_message": "test: Remove trainer collision to test passability hypothesis. The system confirmed a path exists, but the tool fails when treating trainers as impassable. This change temporarily removes trainer collision to test the hypothesis that they are passable, which is the only remaining explanation for the puzzle's solvability.",
+        "timestamp": "2025-08-03T09:50:07.499Z",
+        "action_counter": 118505
+      },
+      {
+        "commit_message": "refactor(gem_pathfinder_v2): Restore to last known-good state. The experimental change to test passable trainers failed to resolve the pathfinding issue and introduced an incorrect world model. This commit reverts the logic in `_get_impassable_objects` to correctly treat all non-Pikachu objects as impassable obstacles, restoring the tool's core functionality for reliable navigation.",
+        "timestamp": "2025-08-03T09:52:09.553Z",
+        "action_counter": 118508
       }
     ]
   },
