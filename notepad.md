@@ -43,9 +43,13 @@
 # IV. Puzzle Solutions & Verified Mechanics
 
 ## A. Current Puzzle Strategy: Victory Road 2F (Eastern Boulder)
-- **Goal:** Push the boulder from (6, 6) to the switch at (10, 17).
+- **Goal:** Push the boulder from (6, 8) to the switch at (10, 17).
+- **Agent-Devised Plan:**
+    1.  Push the boulder east along the y=9 corridor.
+    2.  Push it south along the x=15 corridor.
+    3.  Push it west along the y=12 corridor.
+    4.  Push it south along the x=10 corridor to the switch.
 - **Outcome:** This should clear the barrier at (24, 15) and grant access to a new ladder to 3F.
-- **Plan:** This will be a multi-step push requiring careful maneuvering. I will consult the `puzzle_strategist_agent` if I get stuck.
 
 ## B. Solved Puzzles & Verified Mechanics
 - **Victory Road 3F (Boulder Puzzle):** Solved by maneuvering the boulder from (7, 2) to the switch at (4, 6).
