@@ -86,3 +86,8 @@
 
 ## Future Agent Ideas
 - **Team Composition Advisor:** An agent to suggest optimal party compositions for major challenges like the Elite Four. Could analyze my available Pokémon (in party and PC) against known opponent rosters to recommend a balanced team covering offensive and defensive needs.
+
+## Victory Road 2F - Boulder Push Mechanic
+- **Hypothesis #1:** The HM Strength must be reactivated from the party menu before each individual boulder push.
+- **Test:** Attempting to push the boulder at (5, 16) after reactivating Strength.
+- **Expected Outcome:** The boulder should move to (6, 16).
