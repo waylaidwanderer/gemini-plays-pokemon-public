@@ -1,4 +1,12 @@
-# I. Core Gameplay & World Rules
+# I. Active Investigations
+
+## A. Victory Road 2F (Eastern Boulder Puzzle)
+- **Directive:** System has ordered the solution of this puzzle.
+- **Objective:** Move a boulder to the switch at (10, 17).
+- **Key Insight:** The western puzzle's barrier at (8,9) is already cleared, connecting the east and west elevated platforms.
+- **Hypothesis:** The boulder at (5, 15) is the correct one to use, and must be moved across the elevated platform path to the eastern side.
+
+# II. Core Gameplay & World Rules
 
 ## A. Game Mechanics
 - **Level Cap:** 8 badges = Level 65.
@@ -22,7 +30,7 @@
 - `boulder_barrier`: Impassable barrier linked to a switch.
 - `hole`: Drops to a lower floor. Pushing a boulder into one moves it to the floor below.
 
-# II. Battle Intelligence
+# III. Battle Intelligence
 
 ## A. Verified Type Effectiveness Chart
 - **Super Effective (2x):** Psychic > Ghost, Poison; Ghost > Psychic; Electric > Rock, Water; Flying > Grass, Poison, Fighting; Ice > Ground, Grass, Flying, Dragon; Ground > Poison, Fire, Electric, Rock, Ground; Rock > Fire, Ice, Flying, Bug; Fighting > Normal, Rock, Ice; Water > Fire, Ground, Rock; Grass > Water, Ground, Rock; Bug > Grass, Poison, Psychic; Poison > Grass, Bug
@@ -34,13 +42,13 @@
 - **Struggle Mechanic:** Used automatically only when a Pokémon is out of PP for ALL moves.
 - **Full Heal:** Cures status conditions only, does not restore HP.
 
-# III. Core Principles & Methodology
+# IV. Core Principles & Methodology
 - **Agent-First Approach:** Before attempting any manual solution for a complex problem (puzzles, multi-step navigation, difficult battles), I MUST consult the relevant specialist agent first (`puzzle_strategist_agent`, `battle_strategist_agent`, etc.).
 - **Scientific Method:** Use a scientific approach: form a hypothesis, test it, and document the conclusion. Do not modify tools to test hypotheses; test them with in-game actions first.
 - **Trust System Feedback:** System feedback (like validation warnings or tool errors) is the source of truth and MUST be trusted over personal assumptions or agent outputs.
 - **IMMEDIATE ACTION:** Flaws in tools or data management (notepad, markers) must be addressed immediately, not deferred as goals.
 
-# IV. Puzzle Solutions & Verified Mechanics
+# V. Solved Puzzles & Long-Term Knowledge
 
 ## A. Solved Puzzles & Verified Mechanics
 - **Victory Road 3F (Boulder Puzzle):** Solved by maneuvering the boulder from (7, 2) to the switch at (4, 6).
@@ -54,15 +62,13 @@
 - **Victory Road 2F (Trapped Boulder):** All attempts to move the boulder at (6, 8) or (8, 12) to the eastern switch resulted in it becoming trapped. These approaches are invalid.
 - **Victory Road 2F (Failed Manual Plan):** The manual plan to push the boulder from (4, 12) south to (4, 17) and then east to (10, 17) failed. The path east from (5, 17) was blocked by an impassable tile at (6, 17).
 
-# V. Unsolved Puzzles & Active Investigations
+## C. Unsolved Puzzles (Inactive)
+- **Victory Road 1F (Eastern Boulder Puzzle):** Appears unsolvable. `puzzle_strategist_agent` concluded all boulders are trapped or have no viable path to the switch at (18, 14). Hypothesis is a hidden mechanic exists. Plan is to re-explore, investigate the barrier, and reset the puzzle if needed.
 
-## A. Victory Road 1F (Eastern Boulder Puzzle)
-- **Status:** Appears unsolvable. `puzzle_strategist_agent` concluded all boulders are trapped or have no viable path to the switch at (18, 14).
-- **Hypothesis:** A hidden mechanic or switch exists.
-- **Plan:**
-  1. Thoroughly re-explore the map for hidden interactable objects.
-  2. Investigate the barrier at (10, 13) for an alternative opening mechanism.
-  3. If all else fails, reset the puzzle by leaving and re-entering the map.
+# VI. Agent & Tool Development Goals
 
-# VI. Lessons Learned & Heuristics
+- **`puzzle_strategist_agent` Refinement:** The agent needs to be improved. It crashed after I tried to integrate the `boulder_trap_detector` tool. I need to retry this integration more carefully. It also needs to be updated to consider the current state of barriers on the map from the start, rather than assuming they are all closed.
+- **New Agent Idea (`pathfinder_debugger_agent`):** Create an agent that can analyze the verbose logs from my `gem_pathfinder_v2` tool to identify the root cause of pathing failures and suggest specific code fixes.
+
+# VII. Lessons Learned & Heuristics
 - **Verify 'Trapped' Scenarios:** If a pathfinder tool reports 'No path found' and I believe I am trapped, I must not accept this conclusion without verification. I need to manually inspect the map for alternative routes and trust the game state's list of reachable warps over my own assumptions. (Lesson from Turn 119657 Hallucination)
