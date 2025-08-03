@@ -104,4 +104,3 @@
 - **Outcome:** FAILED. Following this flawed plan resulted in the boulder becoming trapped at (8, 16).
 - **Conclusion:** The agent's logic was insufficient. It did not properly verify the traversability of the boulder's entire path, only the player's path to the boulder.
 - **Corrective Action (Turn 118763):** Updated the agent's system prompt with 'ULTRA-CRITICAL RULE #4'. This new rule explicitly requires the agent to verify that every tile in a boulder's proposed path is traversable, preventing it from suggesting impossible movements.
-- **Training Priority Advisor:** An agent that analyzes my PC box and current party to suggest which Pokémon to train next based on upcoming challenges (e.g., Elite Four rosters).
