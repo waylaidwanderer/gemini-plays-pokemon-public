@@ -77,3 +77,8 @@
 - **Hypothesis (from agent):** The boulder at (15, 3) can be pushed up to y=2 and then across to the switch at (18, 14).
 - **Test:** Modified `gem_pathfinder_v2` to ignore defeated trainers as obstacles and attempted to generate a path.
 - **Conclusion:** FAILED. Even with trainers ignored, the pathfinder confirmed the route is blocked by impassable terrain. The agent's plan is geometrically impossible. This test was inconclusive regarding trainer passability.
+
+## Victory Road 1F - Eastern Boulder (Agent Hypothesis)
+- **Hypothesis (from agent):** The boulder at (15, 3) can be pushed up to y=2 and then across to the switch at (18, 14).
+- **Test:** Modified `gem_pathfinder_v2` to ignore defeated trainers as obstacles and attempted to generate a path.
+- **Conclusion:** FAILED. Even with trainers ignored, the pathfinder confirmed the route is blocked by impassable terrain. The agent's plan is geometrically impossible. This test was inconclusive regarding trainer passability.
