@@ -57,5 +57,8 @@
 ## C. Future Agent Ideas
 - Create a puzzle execution agent that takes the output of the `puzzle_strategist_agent` and automates the entire puzzle-solving process by calling `gem_pathfinder_v2` and `boulder_pusher_tool`.
 
-## C. Future Tool Ideas
+## D. Future Tool Ideas
 - Create a 'boulder trap detector' tool that programmatically checks if a boulder is trapped, to be used as a diagnostic before calling the `puzzle_strategist_agent`.
+
+# V. Immediate To-Do
+- Fix the `boulder_pusher_tool`. The logic for vertical pushes is flawed and must be corrected before its next use.
