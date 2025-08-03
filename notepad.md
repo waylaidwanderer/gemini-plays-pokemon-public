@@ -43,15 +43,15 @@
 - **Trust System Feedback:** System feedback (like validation warnings or tool errors) is the source of truth and MUST be trusted over personal assumptions or agent outputs.
 - **IMMEDIATE ACTION:** Flaws in tools or data management (notepad, markers) must be addressed immediately, not deferred as goals.
 
-# IV. Current Puzzle: Victory Road 1F
-- **Objective:** Solve the boulder puzzle on Victory Road 1F.
-- **Hypothesis:** Pushing the boulder at (15, 3) onto the switch at (18, 14) will clear the barrier at (10, 13), opening the path to the ladder at (2, 2).
-- **Status:** The puzzle has been reset. The barrier at (10, 13) is active. The western boulder at (3, 11) is a red herring; there is no switch in the west.
-- **Plan:**
-  1. Navigate to the eastern boulder at (15, 3).
-  2. Push the boulder at (15, 3) to the switch at (18, 14).
-  3. Verify that the barrier at (10, 13) is cleared.
-  4. Navigate to the ladder at (2, 2) to ascend to Victory Road 2F.
+# IV. Current Puzzle: Victory Road 1F (Agent-Assisted Plan)
+- **Objective:** Solve the boulder puzzle to open the barrier at (10, 13).
+- **Agent Analysis:** The boulder at (15, 3) is the only one that can reach the switch at (18, 14). The other boulders at (3, 11) and (6, 16) are trapped and are red herrings.
+- **Strategic Plan:**
+  1. Maneuver the boulder at (15, 3) left and down into the main E-W corridor (y=5-7).
+  2. Move the boulder eastward along the corridor to the right side of the map (x > 16).
+  3. Navigate the boulder from the corridor down to the critical setup position at (17, 13).
+  4. Push the boulder from (17, 13) to (18, 13).
+  5. Push the boulder from (18, 13) to (18, 14) to activate the switch.
 
 # V. Archived Lessons & Puzzle Solutions
 
