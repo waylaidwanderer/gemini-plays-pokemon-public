@@ -72,3 +72,8 @@
 - **Hypothesis (from agent):** It is possible to move from `elevated_ground` (e.g., (8, 10)) to an adjacent `ground` tile (e.g., (8, 9)).
 - **Test:** Attempted to move Down from (8, 10) to (8, 9).
 - **Conclusion:** FAILED. Movement was blocked. This confirms my original note: direct descent from `elevated_ground` to `ground` is impossible. An agent's analysis was flawed.
+
+## Victory Road 2F - Eastern Boulder (New Strategy)
+- **System Info:** The western switch puzzle at (2, 17) is already solved.
+- **Agent Hypothesis:** Move the southern boulder at (5, 15) to the eastern switch at (10, 17).
+- **Sub-Goal 1:** Move boulder from (5, 15) to (10, 17).
