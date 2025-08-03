@@ -56,3 +56,9 @@
 
 ## C. Future Agent Ideas
 - Create a puzzle execution agent that takes the output of the `puzzle_strategist_agent` and automates the entire puzzle-solving process by calling `gem_pathfinder_v2` and `boulder_pusher_tool`.
+
+## C. Future Tool Ideas
+- Create a 'boulder trap detector' tool that programmatically checks if a boulder is trapped, to be used as a diagnostic before calling the `puzzle_strategist_agent`.
+
+# V. Map-Specific Mechanics & Discoveries
+- **Victory Road 2F (Hidden Mechanic):** The tile at (8, 11) is marked as `impassable` but a boulder can be pushed UP onto it from (8, 12).
