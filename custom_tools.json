@@ -1370,6 +1370,16 @@
         "commit_message": "refactor(gem_pathfinder_v2): Restore to last known-good state. The experimental change to test passable trainers failed to resolve the pathfinding issue and introduced an incorrect world model. This commit reverts the logic in `_get_impassable_objects` to correctly treat all non-Pikachu objects as impassable obstacles, restoring the tool's core functionality for reliable navigation.",
         "timestamp": "2025-08-03T09:52:09.553Z",
         "action_counter": 118508
+      },
+      {
+        "commit_message": "test: Add map-specific exception for Victory Road 1F. The pathfinder is failing because it treats defeated trainers as impassable, but a valid path must exist through them. This commit adds a temporary, map-specific rule to ignore non-boulder objects on map ID 108 to test the hypothesis that these trainers are passable. This is a critical debugging step to resolve the 'No path found' error.",
+        "timestamp": "2025-08-03T10:41:59.618Z",
+        "action_counter": 118601
+      },
+      {
+        "commit_message": "refactor(gem_pathfinder_v2): Revert failed test of passable trainers. The hypothesis that defeated trainers are passable on Victory Road 1F was incorrect. This commit reverts the tool to its last known-good state, where all non-Pikachu objects are correctly treated as impassable obstacles. This is critical to restore the tool's accurate world model and reliable navigation.",
+        "timestamp": "2025-08-03T10:44:00.018Z",
+        "action_counter": 118604
       }
     ]
   },
