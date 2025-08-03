@@ -7,7 +7,7 @@
 - **Surfing:** Not all `ground` tiles adjacent to `water` are valid starting points.
 - **Puzzle Resets:** Leaving and re-entering a map (e.g., Victory Road 1F to Route 23) resets its boulder puzzles. Using ladders between floors (e.g., 1F to 2F) does NOT reset them.
 - **Off-Screen State Changes:** An object's state (like a `boulder_barrier`) will not update in the map data until it is visible on-screen.
-- **Boulder Pushing:** Activate Strength once from the party menu. Then, for each push, simply walk into the boulder. It does not need to be reactivated for every push.
+- **Boulder Pushing:** Activate Strength once from the party menu. For each push, simply walk into the boulder. It does not need to be reactivated for every push. When pushing, the player character does NOT move into the boulder's previous tile.
 
 ## B. Tile Glossary & Movement Rules
 - `ground`: Standard walkable tile (Elevation 0).
