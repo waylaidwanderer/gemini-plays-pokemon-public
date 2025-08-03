@@ -83,3 +83,8 @@
 - **Conclusion 1 (Initial):** The hypothesis seemed correct.
 - **Test 2:** A subsequent push was attempted *without* reactivating Strength.
 - **Conclusion 2 (Final):** SUCCESS. The boulder moved. The initial hypothesis was **incorrect**. The first failure was likely a positioning error or a one-time glitch. Strength does NOT need to be reactivated for every push.
+
+## Victory Road 2F - Puzzle Reset Mechanic
+- **Hypothesis:** Using the ladder to travel between Victory Road 2F and 1F will reset the boulder puzzle on 2F.
+- **Test:** Traveled down to 1F and immediately returned to 2F.
+- **Conclusion:** FAILED. The boulders remained in their previously moved positions. This confirms that ladder-based floor changes do NOT reset puzzles, unlike map transitions.
