@@ -46,13 +46,7 @@
 - **Victory Road 2F - Western Boulder:** Solved by pushing the boulder at (6, 15) to the switch at (2, 17) via a multi-step maneuver. This cleared the barrier at (8, 9) and (8, 10).
 
 ## Victory Road 2F - Eastern Boulder (Failed Hypotheses)
-- **Hypothesis #1 (Push Up):** Push boulder at (6, 6) UP to (6, 5).
-- **Test:** Pushed boulder to (6, 5).
-- **Conclusion:** FAILED. Path upwards is a dead end. The only way forward is down.
-- **Hypothesis #2 (Push Down):** Push boulder at (6, 6) down to (6, 8), then right through the cleared barrier at (8, 9), then down to the switch at (10, 17).
-- **Conclusion:** FAILED. Boulder is on `ground` and cannot be pushed up to the `elevated_ground` where the barrier is.
-- **Hypothesis #3 (Use other boulder):** Push the boulder at (5, 16) to the switch at (10, 17).
-- **Conclusion:** FAILED. Path is blocked by an impassable wall at X=9.
+- Multiple failed hypotheses for this puzzle have confirmed that the northern boulder gets trapped easily, and the southern boulder cannot reach the eastern switch due to elevation differences and impassable walls.
 
 ## Victory Road 3F Puzzle
 - The `gem_pathfinder_v2` tool repeatedly failed to find a path to the warp at (27, 9). This was initially mistaken for a bug in the A* algorithm. The tool was working correctly; the path was blocked by a boulder I had inadvertently moved into the main corridor. This highlights the importance of careful movement during puzzle-solving to avoid creating new obstacles.
