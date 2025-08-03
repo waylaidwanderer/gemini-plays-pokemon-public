@@ -64,23 +64,18 @@
 - **Boulder Pushing:** When pushing a boulder (horizontally or vertically), the player character does NOT move into the boulder's previous tile. This was observed on Victory Road 1F.
 
 ## Victory Road 1F - Elevation Test
-- **Hypothesis (from agent):** It is possible to move from `elevated_ground` (e.g., (8, 10)) to an adjacent `ground` tile (e.g., (8, 9)).
-- **Test:** Attempted to move Down from (8, 10) to (8, 9).
-- **Conclusion:** FAILED. Movement was blocked. This confirms my original note: direct descent from `elevated_ground` to `ground` is impossible. An agent's analysis was flawed.
+## B. Solved Puzzles & Verified Mechanics
 
-## Victory Road 2F - Eastern Boulder (New Strategy)
-- **System Info:** The western switch puzzle at (2, 17) is already solved.
-- **Agent Hypothesis:** Move the southern boulder at (5, 15) to the eastern switch at (10, 17).
-- **Sub-Goal 1:** Move boulder from (5, 15) to (10, 17).
+### Victory Road 1F
+- **Elevation Test:** Confirmed direct movement between `elevated_ground` and `ground` is impossible. An agent's initial analysis was flawed.
 
-## Battle Strategist Agent - Performance Log
-- **Agent Failure (Turn 118694):** Agent recommended switching in NEPTUNE (Lv50, 48/208 HP) against a wild GRAVELER (Lv46). Reasoning was that NEPTUNE's superior speed and 4x super-effective STAB SURF would secure a one-hit KO. 
-- **Outcome:** FAILED CATASTROPHICALLY. The agent's speed assumption was incorrect. The GRAVELER moved first and used ROCK SLIDE, a super-effective move, which knocked out NEPTUNE before it could act.
-- **Conclusion:** The agent's logic was too aggressive and did not adequately weigh the extreme risk of switching in a low-HP Pokémon that also has a type weakness to the opponent's likely STAB moves. The potential for a fast KO does not justify the risk of being out-sped and KO'd.
-- **Corrective Action (Turn 118695):** Updated the agent's system prompt with the 'LOW HP & WEAKNESS VETO (ULTRA-CRITICAL)' rule. This rule forbids switching to a Pokémon below 50% HP if it has a weakness to the opponent's likely STAB types, overriding any offensive advantage. This prioritizes survival and safer, more defensive plays.
+### Victory Road 2F
+- **Western Boulder:** Solved by pushing the boulder at (5,15) to the switch at (2,17). This cleared the barrier at (8,9) and (8,10).
+- **Eastern Boulder (Failed Attempts):** Documented multiple failed hypotheses, including pushing the northern boulder, which always gets trapped, and trying to push the southern boulder east, which also gets trapped against a wall. These failures confirm the puzzle is more complex than a simple push.
+- **Boulder Push Mechanic:** Confirmed Strength only needs to be activated once from the party menu, not before every single push.
 
-## Future Agent Ideas
-- **Team Management Advisor:** An agent to suggest optimal party compositions and training priorities for major challenges like the Elite Four. It could analyze my available Pokémon (in party and PC) against known opponent rosters to recommend a balanced team and identify which Pokémon to train next.
+### Victory Road 3F
+- **Path Blockage:** I learned that inadvertently moving a boulder can block main pathways, which my pathfinder correctly identified as an impassable route. This was a user error, not a tool failure.
 
 ## Victory Road 2F - Boulder Push Mechanic (Corrected)
 - **Hypothesis #1:** The HM Strength must be reactivated from the party menu before each individual boulder push.
