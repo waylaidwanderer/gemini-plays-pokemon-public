@@ -93,3 +93,8 @@
 - **Conclusion 1 (Initial):** The hypothesis seemed correct.
 - **Test 2:** A subsequent push was attempted *without* reactivating Strength.
 - **Conclusion 2 (Final):** SUCCESS. The boulder moved. The initial hypothesis was **incorrect**. The first failure was likely a positioning error or a one-time glitch. Strength does NOT need to be reactivated for every push.
+
+## Victory Road 2F - Eastern Boulder (Attempt 1)
+- **Hypothesis:** Push the southern boulder at (5, 15) straight across to the east.
+- **Test:** Pushed boulder from (5, 15) to (8, 16).
+- **Conclusion:** FAILED. The boulder became trapped against the impassable walls at (9, 16) and (8, 17). My pathing assumption was incorrect. I must reset the puzzle by leaving and re-entering the floor.
