@@ -20,17 +20,17 @@
 - `boulder_barrier`: Impassable barrier linked to a switch.
 - `hole`: Drops to a lower floor. Pushing a boulder into one moves it to the floor below.
 
-# II. Battle Intel
-## A. Type Effectiveness Chart (Verified)
+# II. Battle Intelligence
+
+## A. Verified Type Effectiveness Chart
 - **Super Effective (2x):** Psychic > Ghost, Poison; Ghost > Psychic; Electric > Rock, Water; Flying > Grass, Poison, Fighting; Ice > Ground, Grass, Flying, Dragon; Ground > Poison, Fire, Electric, Rock, Ground; Rock > Fire, Ice, Flying, Bug; Fighting > Normal, Rock, Ice; Water > Fire, Ground, Rock; Grass > Water, Ground, Rock; Bug > Grass, Poison, Psychic; Poison > Grass, Bug
 - **Not Very Effective (0.5x):** Normal !> Rock; Electric !> Grass, Electric, Dragon; Rock !> Psychic; Psychic !> Psychic; Poison !> Poison, Ground, Rock, Ghost; Ice !> Water, Ice, Fire; Fighting > Poison, Flying, Psychic, Bug; Water !> Water, Grass, Dragon; Grass !> Fire, Grass, Poison, Flying, Bug, Dragon
 - **Immune (0x):** Flying immune to Ground; Ground immune to Electric; Ghost immune to Normal, Fighting
-- **Correction:** Psychic-type moves deal NEUTRAL (1x) damage to Rock-type Pokémon.
 
-## B. Strategic Notes
+## B. Strategic Notes & Mechanics
 - **"No Will to Fight" Message:** A party menu cursor error on a fainted Pokémon, not a refusal to battle.
-- **Struggle Mechanic:** Struggle is only used automatically when a Pokémon is out of PP for ALL of its moves.
-- **Full Heal Mechanic:** This item ONLY cures status conditions. It does NOT restore HP.
+- **Struggle Mechanic:** Used automatically only when a Pokémon is out of PP for ALL moves.
+- **Full Heal:** Cures status conditions only, does not restore HP.
 
 # III. Core Principles & Methodology
 - **Agent-First Approach:** Before attempting any manual solution for a complex problem (puzzles, multi-step navigation, difficult battles), I MUST consult the relevant specialist agent first (`puzzle_strategist_agent`, `battle_strategist_agent`, etc.).
