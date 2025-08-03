@@ -56,4 +56,3 @@
 - **Victory Road 1F (Elevation):** Confirmed direct movement between `elevated_ground` and `ground` is impossible.
 - **Victory Road 2F (Western Boulder):** Solved by pushing the boulder at (5,15) to the switch at (2,17), clearing the barrier at (8,9) and (8,10).
 - **Victory Road 2F (Puzzle Resets):** Confirmed that using ladders between floors does NOT reset boulder puzzles.
-- **General (Boulder Pushing):** Confirmed Strength only needs one activation and the player does not move into the boulder's old space.
