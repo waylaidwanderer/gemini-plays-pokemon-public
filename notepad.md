@@ -44,15 +44,12 @@
 - **IMMEDIATE ACTION:** Flaws in tools or data management (notepad, markers) must be addressed immediately, not deferred as goals.
 
 # IV. Current Puzzle: Victory Road 2F Eastern Section
-- **Objective:** Solve the puzzle to open the barrier at (24, 15).
-- **Current Grand Hypothesis:** The puzzle cannot be solved using only the boulders on 2F. A third boulder must be dropped from a hole on 3F into the area near the switch at (10, 17).
-- **Plan:**
-  1. Navigate to the eastern ladder at (24, 8) on 2F.
-  2. Ascend to 3F.
-  3. Explore the eastern section of 3F to find a boulder and a corresponding hole.
-  4. Solve the 3F puzzle to drop the boulder.
-  5. Return to 2F to confirm the new boulder's position.
-  6. Push the new boulder onto the switch at (10, 17).
+- **Objective:** Solve the eastern puzzle to open the barrier at (24, 15).
+- **Status:** The western puzzle (boulder at (5, 16) -> switch at (2, 17)) is already solved, and the barrier at (8, 9) is clear.
+- **Current Plan (from puzzle_strategist_agent):**
+  1. Navigate to the boulder at (6, 6).
+  2. Push the boulder down and east, through the now-cleared barrier.
+  3. Maneuver the boulder onto the switch at (10, 17).
 
 # V. Archived Lessons & Puzzle Solutions
 
