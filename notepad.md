@@ -59,9 +59,3 @@
 
 ## D. Future Tool Ideas
 - Create a 'boulder trap detector' tool that programmatically checks if a boulder is trapped, to be used as a diagnostic before calling the `puzzle_strategist_agent`.
-
-# V. Immediate To-Do
-- Fix the `boulder_pusher_tool`. The logic for vertical pushes is flawed and must be corrected before its next use.
-
-# V. Immediate To-Do
-- Fix the `boulder_pusher_tool`. The logic for vertical pushes is flawed and must be corrected before its next use.
