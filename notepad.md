@@ -14,6 +14,8 @@
 - `elevated_ground`: Walkable tile at a higher elevation (Elevation 2). It is IMPOSSIBLE to step directly between `ground` and `elevated_ground`.
 - `steps`: Allows two-way movement between `ground` and `elevated_ground`.
 - `cleared_boulder_barrier`: A former barrier that acts as a one-way ramp (Elevation 1). Connects to adjacent elevations but cannot be stepped up onto from `ground` or down from to `ground`.
+- `ladder_up`: Warp tile leading to a higher floor.
+- `ladder_down`: Warp tile leading to a lower floor.
 - `ledge`: One-way traversal. Can only be jumped DOWN from the tile directly above. Acts as a wall from all other directions.
 - `impassable`: Wall. Defeated trainers on Victory Road 1F & 2F are impassable obstacles.
 - `boulder_switch`: Floor switch for boulders.
