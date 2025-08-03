@@ -85,7 +85,7 @@
 - **Corrective Action (Turn 118695):** Updated the agent's system prompt with the 'LOW HP & WEAKNESS VETO (ULTRA-CRITICAL)' rule. This rule forbids switching to a Pokémon below 50% HP if it has a weakness to the opponent's likely STAB types, overriding any offensive advantage. This prioritizes survival and safer, more defensive plays.
 
 ## Future Agent Ideas
-- **Team Composition Advisor:** An agent to suggest optimal party compositions for major challenges like the Elite Four. Could analyze my available Pokémon (in party and PC) against known opponent rosters to recommend a balanced team covering offensive and defensive needs.
+- **Team Management Advisor:** An agent to suggest optimal party compositions and training priorities for major challenges like the Elite Four. It could analyze my available Pokémon (in party and PC) against known opponent rosters to recommend a balanced team and identify which Pokémon to train next.
 
 ## Victory Road 2F - Boulder Push Mechanic (Corrected)
 - **Hypothesis #1:** The HM Strength must be reactivated from the party menu before each individual boulder push.
