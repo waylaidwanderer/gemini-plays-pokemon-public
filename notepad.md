@@ -40,15 +40,10 @@
 - **Trust System Feedback:** System feedback (like validation warnings or tool errors) is the source of truth and MUST be trusted over personal assumptions or agent outputs.
 - **IMMEDIATE ACTION:** Flaws in tools or data management (notepad, markers) must be addressed immediately, not deferred as goals.
 
-# IV. Archived Lessons & Puzzle Solutions
+# IV. Key Lessons Learned & Puzzle Solutions
 
-## Victory Road 2F - Western Boulder
-- **Hypothesis #1 (Original):** Push boulder at (5, 15) south to (5, 17), then left to switch at (2, 17).
-- **Test:** Pushed boulder to (5, 17).
-- **Conclusion:** FAILED. Could not access (6, 17) to push left. Boulder was trapped.
-- **Hypothesis #2:** Push boulder at (6, 15) left to (5, 15), then down to (5, 17), then left to switch at (2, 17).
-- **Test:** Pushed boulder to (2, 17).
-- **Conclusion:** SUCCESS. Barrier at (8, 9) and (8, 10) was cleared after visual confirmation.
+## Solved Puzzles
+- **Victory Road 2F - Western Boulder:** Solved by pushing the boulder at (6, 15) to the switch at (2, 17) via a multi-step maneuver. This cleared the barrier at (8, 9) and (8, 10).
 
 ## Victory Road 2F - Eastern Boulder (Failed Hypotheses)
 - **Hypothesis #1 (Push Up):** Push boulder at (6, 6) UP to (6, 5).
