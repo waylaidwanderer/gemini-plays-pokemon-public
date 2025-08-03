@@ -44,7 +44,7 @@
 
 ## A. Current Puzzle Strategy: Victory Road 2F (Eastern Boulder)
 - **Goal:** Push the boulder from (6, 8) to the switch at (10, 17).
-- **Key Insight:** The boulder at (8, 12) is trapped and irrelevant. The correct solution uses the boulder at (6, 8).
+- **Key Insight:** The boulder at (8, 12) is trapped and irrelevant. The western puzzle is already solved. The correct solution uses the boulder at (6, 8).
 - **New Plan:**
     1. Navigate to (7, 8) to get east of the boulder at (6, 8).
     2. Push the boulder from (6, 8) left to (4, 8).
