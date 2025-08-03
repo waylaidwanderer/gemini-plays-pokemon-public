@@ -44,14 +44,14 @@
 - **IMMEDIATE ACTION:** Flaws in tools or data management (notepad, markers) must be addressed immediately, not deferred as goals.
 
 # IV. Current Puzzle: Victory Road 1F
-- **Objective:** Re-solve the boulder puzzle on Victory Road 1F.
-- **Hypothesis:** Solving the 1F puzzle is required to reactivate the ladder at (2, 2) that leads to Victory Road 2F.
-- **Status:** The puzzle has been reset. The barrier at (10, 13) is active.
+- **Objective:** Solve the boulder puzzle on Victory Road 1F.
+- **Hypothesis:** Pushing the boulder at (15, 3) onto the switch at (18, 14) will clear the barrier at (10, 13), opening the path to the ladder at (2, 2).
+- **Status:** The puzzle has been reset. The barrier at (10, 13) is active. The western boulder at (3, 11) is a red herring; there is no switch in the west.
 - **Plan:**
-  1. Solve the western boulder puzzle by pushing the boulder at (3, 11) to the switch at (3, 10).
-  2. Solve the eastern boulder puzzle by pushing the boulder at (15, 3) to the switch at (18, 14).
+  1. Navigate to the eastern boulder at (15, 3).
+  2. Push the boulder at (15, 3) to the switch at (18, 14).
   3. Verify that the barrier at (10, 13) is cleared.
-  4. Attempt to use the ladder at (2, 2) to ascend to Victory Road 2F.
+  4. Navigate to the ladder at (2, 2) to ascend to Victory Road 2F.
 
 # V. Archived Lessons & Puzzle Solutions
 
