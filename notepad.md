@@ -50,6 +50,7 @@
   1. Navigate to the boulder at (6, 6).
   2. Push the boulder down and east, through the now-cleared barrier.
   3. Maneuver the boulder onto the switch at (10, 17).
+- **Current Blocker:** The `gem_pathfinder_v2` tool is critically bugged and cannot find a path to the boulder. I am in a debugging loop to fix it.
 
 # V. Archived Lessons & Puzzle Solutions
 
