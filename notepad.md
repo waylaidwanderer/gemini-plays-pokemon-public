@@ -45,12 +45,12 @@
 
 # IV. Current Puzzle: Victory Road 2F Eastern Section
 - **Objective:** Solve the eastern puzzle to open the barrier at (24, 15).
-- **Status:** The western puzzle (boulder at (5, 16) -> switch at (2, 17)) is already solved, and the barrier at (8, 9) is clear.
-- **Current Plan (from puzzle_strategist_agent):**
-  1. Navigate to the boulder at (6, 6).
-  2. Push the boulder down and east, through the now-cleared barrier.
-  3. Maneuver the boulder onto the switch at (10, 17).
-- **Current Blocker:** The `gem_pathfinder_v2` tool is critically bugged and cannot find a path to the boulder. I am in a debugging loop to fix it.
+- **Status:** The western puzzle is solved. The barrier at (8, 9) is clear.
+- **Current Blocker:** The `gem_pathfinder_v2` tool is critically bugged.
+- **Debugging Plan:**
+  1. The agent's hypothesis (that defeated trainers are passable) was tested by modifying the tool. The test FAILED, as the tool still could not find a path.
+  2. **Current Step:** Revert the tool to its most logical state: all non-Pikachu objects are impassable obstacles.
+  3. **Next Step:** Test the reverted tool on a simple, known-valid path to confirm its baseline functionality is working. If it fails, generate a new debug log for the agent. If it succeeds, the path to the boulder is genuinely blocked by an object (likely a defeated trainer), which would disprove the agent's hypothesis and confirm my own observations.
 
 # V. Archived Lessons & Puzzle Solutions
 
