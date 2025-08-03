@@ -43,13 +43,9 @@
 - **Trust System Feedback:** System feedback (like validation warnings or tool errors) is the source of truth and MUST be trusted over personal assumptions or agent outputs.
 - **IMMEDIATE ACTION:** Flaws in tools or data management (notepad, markers) must be addressed immediately, not deferred as goals.
 
-# IV. Current Puzzle: Victory Road 1F (Agent-Assisted Plan v2)
+## Victory Road 1F Puzzle (Final Solution)
 - **Objective:** Solve the boulder puzzle to open the barrier at (10, 13).
-- **Agent Analysis:** The only viable boulder is at (6, 16). The boulder at (3, 11) is blocking the player's path to the southern area where the solution boulder is located. The boulder at (15, 3) is a red herring.
-- **Strategic Plan:**
-  1. Move Boulder B at (3, 11) to unblock the player's path to the southern area.
-  2. Navigate the player through the newly opened path to reach Boulder C at (6, 16).
-  3. Maneuver Boulder C from (6, 16) to the switch at (18, 14).
+- **Plan:** Push the boulder at (17, 13) right one tile to (18, 13), then down onto the switch at (18, 14). This requires navigating the western platform to reach the eastern side.
 
 # V. Archived Lessons & Puzzle Solutions
 
