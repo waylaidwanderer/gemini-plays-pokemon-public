@@ -45,11 +45,11 @@
 
 # V. Archived Lessons & Puzzle Solutions
 
+# V. Archived Lessons & Puzzle Solutions
+
 ## Victory Road 1F Puzzle (Final Solution)
 - **Objective:** Solve the boulder puzzle to open the barrier at (10, 13).
 - **Plan:** Push the boulder at (17, 13) right one tile to (18, 13), then down onto the switch at (18, 14). This requires navigating the western platform to reach the eastern side.
-
-# V. Archived Lessons & Puzzle Solutions
 
 ## Victory Road 2F - Western Boulder
 - **Hypothesis #1 (Original):** Push boulder at (5, 15) south to (5, 17), then left to switch at (2, 17).
