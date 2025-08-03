@@ -88,3 +88,13 @@
 - **Hypothesis:** Using the ladder to travel between Victory Road 2F and 1F will reset the boulder puzzle on 2F.
 - **Test:** Traveled down to 1F and immediately returned to 2F.
 - **Conclusion:** FAILED. The boulders remained in their previously moved positions. This confirms that ladder-based floor changes do NOT reset puzzles, unlike map transitions.
+
+## Victory Road 2F - Eastern Boulder (New Grand Strategy)
+- **Observation:** All previous simple push attempts have failed. The system insists a solution exists.
+- **Grand Hypothesis:** The northern boulder at (6, 6) must be moved to the switch at (10, 17) via a complex, multi-step shuffle.
+- **Test Plan:**
+  1. Navigate to (5, 6).
+  2. Push the boulder at (6, 6) LEFT to (5, 6).
+  3. Navigate to (6, 6).
+  4. Push the boulder at (5, 6) DOWN to (5, 7).
+  5. Continue pushing the boulder south, then east across the cleared barrier at (8, 9), and finally south to the switch.
