@@ -1440,7 +1440,7 @@
         "boulder_end_y"
       ]
     },
-    "python_script": "import json\n\nstart_x, start_y = int(input_data['boulder_start_x']), int(input_data['boulder_start_y'])\nend_x, end_y = int(input_data['boulder_end_x']), int(input_data['boulder_end_y'])\n\nbuttons = []\n\nif start_x == end_x: # Vertical push\n    direction = 'Up' if end_y < start_y else 'Down'\n    num_pushes = abs(start_y - end_y)\n    for _ in range(num_pushes):\n        buttons.append(direction) # Push\n        buttons.append(direction) # Reposition\nelif start_y == end_y: # Horizontal push\n    direction = 'Left' if end_x < start_x else 'Right'\n    num_pushes = abs(start_x - end_x)\n    for _ in range(num_pushes):\n        buttons.append(direction) # Push\n        buttons.append(direction) # Reposition\nelse:\n    print(json.dumps({'error': 'Boulder path must be a straight line.'}))\n    exit()\n\n# The repositioning logic above adds one extra move at the end.\n# We remove it here to end up in the correct final position.\nif buttons:\n    buttons.pop()\n\nprint(json.dumps(buttons))",
+    "python_script": "import json\n\nstart_x, start_y = int(input_data['boulder_start_x']), int(input_data['boulder_start_y'])\nend_x, end_y = int(input_data['boulder_end_x']), int(input_data['boulder_end_y'])\n\nbuttons = []\n\nif start_x == end_x: # Vertical push\n    direction = 'Up' if end_y < start_y else 'Down'\n    num_pushes = abs(start_y - end_y)\n    # Player does not move after a vertical push, so we must manually reposition.\n    for i in range(num_pushes):\n        buttons.append(direction) # Push\n        if i < num_pushes - 1: # Don't reposition after the last push\n            buttons.append(direction) # Reposition\nelif start_y == end_y: # Horizontal push\n    direction = 'Left' if end_x < start_x else 'Right'\n    num_pushes = abs(start_x - end_x)\n    # Player moves into the boulder's old space automatically. No reposition needed.\n    for _ in range(num_pushes):\n        buttons.append(direction) # Push\nelse:\n    print(json.dumps({'error': 'Boulder path must be a straight line.'}))\n    exit()\n\nprint(json.dumps(buttons))",
     "history": [
       {
         "commit_message": "feat: Create boulder_pusher_tool to automate linear boulder pushing. This tool will significantly improve efficiency when solving puzzles that require moving a boulder along a long, straight corridor, by replacing a multi-turn, manual process with a single, automated tool call.",
@@ -1461,6 +1461,21 @@
         "commit_message": "refactor(boulder_pusher_tool): Overhaul script to output a direct list of button presses instead of a high-level action plan. This enables full automation of linear pushes in a single turn, fixing the previous issue that required manual step-by-step execution and caused looping warnings. The new logic generates a sequence of 'push' and 'reposition' moves.",
         "timestamp": "2025-08-03T17:58:36.488Z",
         "action_counter": 119305
+      },
+      {
+        "commit_message": "refactor(boulder_pusher_tool): Differentiate vertical and horizontal push logic. The previous version used the same repositioning logic for both, which is incorrect. The new script correctly models the game mechanic where the player does not move after a vertical push (requiring a manual reposition step) but does move after a horizontal push (no reposition needed). This is a critical fix for reliable puzzle automation.",
+        "timestamp": "2025-08-03T19:40:10.254Z",
+        "action_counter": 119471
+      },
+      {
+        "commit_message": "fix(boulder_pusher_tool): Correctly implement vertical push repositioning. The previous fix attempt failed as the script was identical. This version correctly adds a repositioning move after each vertical push, but not after the final one, accurately modeling the game mechanic and ensuring reliable automation.",
+        "timestamp": "2025-08-03T19:43:03.937Z",
+        "action_counter": 119477
+      },
+      {
+        "commit_message": "fix(boulder_pusher_tool): Correctly implement vertical push repositioning. The previous script was identical to the flawed one. This version ensures a repositioning move is added after each vertical push except the last, accurately modeling the game mechanic and ensuring reliable automation.",
+        "timestamp": "2025-08-03T19:48:40.642Z",
+        "action_counter": 119491
       }
     ]
   }
