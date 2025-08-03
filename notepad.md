@@ -41,32 +41,19 @@
 - **Trust System Feedback:** System feedback (like validation warnings or tool errors) is the source of truth and MUST be trusted over personal assumptions or agent outputs.
 - **IMMEDIATE ACTION:** Flaws in tools or data management (notepad, markers) must be addressed immediately, not deferred as goals.
 
-# IV. Key Lessons Learned & Puzzle Solutions
+# IV. Puzzle Solutions & Verified Mechanics
 
-## Solved Puzzles
-- **Victory Road 2F - Western Boulder:** Solved by pushing the boulder at (6, 15) to the switch at (2, 17) via a multi-step maneuver. This cleared the barrier at (8, 9) and (8, 10).
+## A. Current Puzzle Strategy: Victory Road 3F
+- **Agent's Plan (Corrected):** The boulder at (7, 2) is the only viable one. The plan is to move it to the switch at (4, 6) via a multi-step maneuver.
+- **Sub-goals:**
+  1. Maneuver the boulder from (7, 2) to an intermediate staging position at (3, 6).
+  2. Execute the final push from (3, 6) onto the switch at (4, 6).
 
-## Victory Road 3F Puzzle
-- The `gem_pathfinder_v2` tool repeatedly failed to find a path to the warp at (27, 9). This was initially mistaken for a bug in the A* algorithm. The tool was working correctly; the path was blocked by a boulder I had inadvertently moved into the main corridor. This highlights the importance of careful movement during puzzle-solving to avoid creating new obstacles.
+## B. Discarded Hypotheses
+- **Victory Road 3F (Failed Plan):** The initial strategy from the `puzzle_strategist_agent` to push a boulder along the y=2 corridor was a hallucination. The path was blocked by impassable tiles at (5, 2) and (6, 2). This plan is now discarded.
 
-## General Mechanics
-- **Boulder Pushing:** When pushing a boulder (horizontally or vertically), the player character does NOT move into the boulder's previous tile. This was observed on Victory Road 1F.
-
-## Victory Road 1F - Elevation Test
-## B. Solved Puzzles & Verified Mechanics
-
-### Victory Road 1F
-- **Elevation Test:** Confirmed direct movement between `elevated_ground` and `ground` is impossible. An agent's initial analysis was flawed.
-
-### Victory Road 2F
-- **Western Boulder:** Solved by pushing the boulder at (5,15) to the switch at (2,17). This cleared the barrier at (8,9) and (8,10).
-- **Eastern Boulder (Failed Attempts):** Documented multiple failed hypotheses, including pushing the northern boulder, which always gets trapped, and trying to push the southern boulder east, which also gets trapped against a wall. These failures confirm the puzzle is more complex than a simple push.
-- **Boulder Push Mechanic:** Confirmed Strength only needs to be activated once from the party menu, not before every single push.
-
-### Victory Road 3F
-- **Path Blockage:** I learned that inadvertently moving a boulder can block main pathways, which my pathfinder correctly identified as an impassable route. This was a user error, not a tool failure.
-
-## Victory Road 2F - Puzzle Reset Mechanic
-- **Hypothesis:** Using the ladder to travel between Victory Road 2F and 1F will reset the boulder puzzle on 2F.
-- **Test:** Traveled down to 1F and immediately returned to 2F.
-- **Conclusion:** FAILED. The boulders remained in their previously moved positions. This confirms that ladder-based floor changes do NOT reset puzzles, unlike map transitions.
+## C. Solved Puzzles & Verified Mechanics
+- **Victory Road 1F (Elevation):** Confirmed direct movement between `elevated_ground` and `ground` is impossible.
+- **Victory Road 2F (Western Boulder):** Solved by pushing the boulder at (5,15) to the switch at (2,17), clearing the barrier at (8,9) and (8,10).
+- **Victory Road 2F (Puzzle Resets):** Confirmed that using ladders between floors does NOT reset boulder puzzles.
+- **General (Boulder Pushing):** Confirmed Strength only needs one activation and the player does not move into the boulder's old space.
