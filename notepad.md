@@ -87,7 +87,9 @@
 ## Future Agent Ideas
 - **Team Composition Advisor:** An agent to suggest optimal party compositions for major challenges like the Elite Four. Could analyze my available Pokémon (in party and PC) against known opponent rosters to recommend a balanced team covering offensive and defensive needs.
 
-## Victory Road 2F - Boulder Push Mechanic
+## Victory Road 2F - Boulder Push Mechanic (Corrected)
 - **Hypothesis #1:** The HM Strength must be reactivated from the party menu before each individual boulder push.
-- **Test:** After a failed push attempt, Strength was reactivated and the push was re-attempted.
-- **Conclusion:** SUCCESS. The boulder moved. This strongly suggests that Strength must be reactivated for each push. I will conduct another test to confirm.
+- **Test 1:** After a failed push, Strength was reactivated. The next push succeeded.
+- **Conclusion 1 (Initial):** The hypothesis seemed correct.
+- **Test 2:** A subsequent push was attempted *without* reactivating Strength.
+- **Conclusion 2 (Final):** SUCCESS. The boulder moved. The initial hypothesis was **incorrect**. The first failure was likely a positioning error or a one-time glitch. Strength does NOT need to be reactivated for every push.
