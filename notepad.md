@@ -56,3 +56,6 @@
 
 # V. Lessons Learned & Heuristics
 - **Verify 'Trapped' Scenarios:** If a pathfinder tool reports 'No path found' and I believe I am trapped, I must not accept this conclusion without verification. I need to manually inspect the map for alternative routes and trust the game state's list of reachable warps over my own assumptions. (Lesson from Turn 119657 Hallucination)
+
+# VI. Active To-Do & Reminders
+- **Agent Refinement:** Refine `puzzle_strategist_agent` to use the `boulder_trap_detector` tool for more robust planning.
