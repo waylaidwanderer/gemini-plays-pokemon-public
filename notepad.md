@@ -3,7 +3,7 @@
 ## A. Game Mechanics
 - **Level Cap:** 8 badges = Level 65.
 - **PC Interaction:** Stand directly below the PC, face up, and press 'A' to access Pokémon Storage. 'Gem's PC' is for items.
-- **HM Usage:** HMs are used from the party menu. Fainted Pokémon can use field moves.
+- **HM Usage:** HMs are used from the party menu. Fainted Pokémon can use field moves. Strength only needs to be activated once, not before every push.
 - **Surfing:** Not all `ground` tiles adjacent to `water` are valid starting points.
 - **Puzzle Resets:** Leaving and re-entering a map (e.g., Victory Road 1F to Route 23) resets its boulder puzzles. Using ladders between floors (e.g., 1F to 2F) does NOT reset them.
 - **Off-Screen State Changes:** An object's state (like a `boulder_barrier`) will not update in the map data until it is visible on-screen.
