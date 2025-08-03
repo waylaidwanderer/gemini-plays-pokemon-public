@@ -94,10 +94,10 @@
 - **Test 2:** A subsequent push was attempted *without* reactivating Strength.
 - **Conclusion 2 (Final):** SUCCESS. The boulder moved. The initial hypothesis was **incorrect**. The first failure was likely a positioning error or a one-time glitch. Strength does NOT need to be reactivated for every push.
 
-## Victory Road 2F - Eastern Boulder (Attempt 1)
+## Victory Road 2F - Eastern Boulder (Attempt 1 & 2)
 - **Hypothesis:** Push the southern boulder at (5, 15) straight across to the east.
-- **Test:** Pushed boulder from (5, 15) to (8, 16).
-- **Conclusion:** FAILED. The boulder became trapped against the impassable walls at (9, 16) and (8, 17). My pathing assumption was incorrect. I must reset the puzzle by leaving and re-entering the floor.
+- **Test (Attempt 1 & 2):** Pushed boulder from (5, 15) to (8, 16).
+- **Conclusion:** FAILED CATASTROPHICALLY (TWICE). The boulder became trapped against the impassable walls at (9, 16) and (8, 17). My pathing assumption was incorrect, and my puzzle agent's original plan was flawed. I must reset the puzzle by leaving and re-entering the floor and then re-consult my *fixed* agent.
 
 ## Victory Road 2F - Puzzle Agent Failure
 - **Agent Failure (Turn 118753):** The `puzzle_strategist_agent` suggested moving the boulder at (5, 15) to the switch at (10, 17) via a path that included pushing it through an impassable wall at (9, 16).
