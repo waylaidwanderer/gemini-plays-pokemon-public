@@ -4,7 +4,7 @@
 - **PC Interaction:** Stand directly below the PC, face up, and press 'A'.
 - **HM Usage:** HMs are used from the party menu. Fainted Pokémon can use field moves.
 - **Surfing:** Not all `ground` tiles adjacent to `water` are valid starting points.
-- **Puzzle Resets:** Leaving and re-entering a map (e.g., by using a ladder to another floor) resets all boulders on that map to their original positions.
+- Puzzle Resets: The ladder between Victory Road 1F and 2F does NOT reset the boulder puzzle. Hypothesis: Leaving Victory Road entirely might be required to reset it.
 - **Off-Screen State Changes:** An object's state will not update in the map data until it is visible on-screen.
 - **Boulder Pushing:** A boulder can be pushed from an adjacent tile by facing it and walking into it. Pressing 'A' does not work.
 
