@@ -44,11 +44,11 @@
 
 ## A. Current Puzzle Strategy: Victory Road 2F (Eastern Boulder)
 - **Goal:** Push the boulder from (6, 8) to the switch at (10, 17).
-- **Agent-Devised Plan:**
-    1.  Push the boulder east along the y=9 corridor.
-    2.  Push it south along the x=15 corridor.
-    3.  Push it west along the y=12 corridor.
-    4.  Push it south along the x=10 corridor to the switch.
+- **New Plan:**
+    1. Push boulder at (6, 8) left to (5, 8).
+    2. Push boulder from (5, 8) south to (5, 12).
+    3. Push boulder from (5, 12) east to (10, 12).
+    4. Push boulder from (10, 12) south to the switch at (10, 17).
 - **Outcome:** This should clear the barrier at (24, 15) and grant access to a new ladder to 3F.
 
 ## B. Solved Puzzles & Verified Mechanics
@@ -59,6 +59,7 @@
 
 ## C. Discarded Hypotheses
 - **Victory Road 3F (Failed Plan):** The initial strategy from the `puzzle_strategist_agent` to push a boulder along the y=2 corridor was a hallucination. The path was blocked by impassable tiles at (5, 2) and (6, 2). This plan is now discarded.
+- **Victory Road 2F (Failed Agent Plan):** The puzzle_strategist_agent's plan to move the boulder onto elevated ground was impossible and has been discarded.
 
 ## D. Future Agent Ideas
 - Create a puzzle execution agent that takes the output of the `puzzle_strategist_agent` and automates the entire puzzle-solving process by calling `gem_pathfinder_v2` and `boulder_pusher_tool`.
