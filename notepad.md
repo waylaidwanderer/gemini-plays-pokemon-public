@@ -62,13 +62,13 @@
 - **Victory Road 2F (Trapped Boulder):** All attempts to move the boulder at (6, 8) or (8, 12) to the eastern switch resulted in it becoming trapped. These approaches are invalid.
 - **Victory Road 2F (Failed Manual Plan):** The manual plan to push the boulder from (4, 12) south to (4, 17) and then east to (10, 17) failed. The path east from (5, 17) was blocked by an impassable tile at (6, 17).
 
-## C. Unsolved Puzzles (Inactive)
+# VI. Unsolved Puzzles (Inactive)
 - **Victory Road 1F (Eastern Boulder Puzzle):** Appears unsolvable. `puzzle_strategist_agent` concluded all boulders are trapped or have no viable path to the switch at (18, 14). Hypothesis is a hidden mechanic exists. Plan is to re-explore, investigate the barrier, and reset the puzzle if needed.
 
-# VI. Agent & Tool Development Goals
+# VII. Agent & Tool Development Goals
 
 - **`puzzle_strategist_agent` Refinement:** The agent needs to be improved. It crashed after I tried to integrate the `boulder_trap_detector` tool. I need to retry this integration more carefully. It also needs to be updated to consider the current state of barriers on the map from the start, rather than assuming they are all closed.
 - **New Agent Idea (`pathfinder_debugger_agent`):** Create an agent that can analyze the verbose logs from my `gem_pathfinder_v2` tool to identify the root cause of pathing failures and suggest specific code fixes.
 
-# VII. Lessons Learned & Heuristics
+# VIII. Lessons Learned & Heuristics
 - **Verify 'Trapped' Scenarios:** If a pathfinder tool reports 'No path found' and I believe I am trapped, I must not accept this conclusion without verification. I need to manually inspect the map for alternative routes and trust the game state's list of reachable warps over my own assumptions. (Lesson from Turn 119657 Hallucination)
