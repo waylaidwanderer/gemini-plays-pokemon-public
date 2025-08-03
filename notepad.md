@@ -98,3 +98,9 @@
 - **Hypothesis:** Push the southern boulder at (5, 15) straight across to the east.
 - **Test:** Pushed boulder from (5, 15) to (8, 16).
 - **Conclusion:** FAILED. The boulder became trapped against the impassable walls at (9, 16) and (8, 17). My pathing assumption was incorrect. I must reset the puzzle by leaving and re-entering the floor.
+
+## Victory Road 2F - Puzzle Agent Failure
+- **Agent Failure (Turn 118753):** The `puzzle_strategist_agent` suggested moving the boulder at (5, 15) to the switch at (10, 17) via a path that included pushing it through an impassable wall at (9, 16).
+- **Outcome:** FAILED. Following this flawed plan resulted in the boulder becoming trapped at (8, 16).
+- **Conclusion:** The agent's logic was insufficient. It did not properly verify the traversability of the boulder's entire path, only the player's path to the boulder.
+- **Corrective Action (Turn 118763):** Updated the agent's system prompt with 'ULTRA-CRITICAL RULE #4'. This new rule explicitly requires the agent to verify that every tile in a boulder's proposed path is traversable, preventing it from suggesting impossible movements.
