@@ -89,12 +89,18 @@
 - **Test:** Traveled down to 1F and immediately returned to 2F.
 - **Conclusion:** FAILED. The boulders remained in their previously moved positions. This confirms that ladder-based floor changes do NOT reset puzzles, unlike map transitions.
 
-## Victory Road 2F - Eastern Boulder (New Grand Strategy)
-- **Observation:** All previous simple push attempts have failed. The system insists a solution exists.
-- **Grand Hypothesis:** The northern boulder at (6, 6) must be moved to the switch at (10, 17) via a complex, multi-step shuffle.
+## Victory Road 2F - Eastern Boulder (Revised Grand Strategy)
+- **Observation:** My previous "Grand Strategy" was flawed, as the first step (pushing the boulder left) is impossible due to an impassable wall at (7, 6). The only remaining viable strategy is to push the boulder down and then east.
+- **Revised Grand Hypothesis:** The northern boulder at (6, 6) must be pushed down, then shuffled east, and then pushed DOWN onto the `cleared_boulder_barrier` at (8, 9) to reach the switch at (10, 17). This tests the assumption that boulders can be pushed onto these ramps.
 - **Test Plan:**
-  1. Navigate to (5, 6).
-  2. Push the boulder at (6, 6) LEFT to (5, 6).
+  1. Navigate to (6, 5).
+  2. Push boulder from (6, 6) DOWN to (6, 7).
   3. Navigate to (6, 6).
-  4. Push the boulder at (5, 6) DOWN to (5, 7).
-  5. Continue pushing the boulder south, then east across the cleared barrier at (8, 9), and finally south to the switch.
+  4. Push boulder from (6, 7) DOWN to (6, 8).
+  5. Navigate to (5, 8).
+  6. Push boulder from (6, 8) RIGHT to (7, 8).
+  7. Navigate to (6, 8).
+  8. Push boulder from (7, 8) RIGHT to (8, 8).
+  9. Navigate to (8, 7).
+  10. Push boulder from (8, 8) DOWN to (8, 9). (This is the critical test step).
+  11. If successful, continue maneuvering the boulder to the switch at (10, 17).
