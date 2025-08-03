@@ -42,30 +42,18 @@
 
 # IV. Puzzle Solutions & Verified Mechanics
 
-## A. Current Puzzle Strategy: Victory Road 2F (Eastern Boulder)
-- **Goal:** Push the boulder from (6, 8) to the switch at (10, 17).
-- **Key Insight:** The boulder at (8, 12) is trapped and irrelevant. The western puzzle is already solved. The correct solution uses the boulder at (6, 8).
-- **New Plan:**
-    1. Navigate to (7, 8) to get east of the boulder at (6, 8).
-    2. Push the boulder from (6, 8) left to (4, 8).
-    3. Navigate to (4, 7) to get north of the boulder.
-    4. Push the boulder from (4, 8) south to (4, 17).
-    5. Navigate to (3, 17) to get west of the boulder.
-    6. Push the boulder from (4, 17) east to the switch at (10, 17).
-- **Outcome:** This should clear the barrier at (24, 15) and grant access to a new ladder to 3F.
-
-## B. Solved Puzzles & Verified Mechanics
+## A. Solved Puzzles & Verified Mechanics
 - **Victory Road 3F (Boulder Puzzle):** Solved by maneuvering the boulder from (7, 2) to the switch at (4, 6).
 - **Victory Road 1F (Elevation):** Confirmed direct movement between `elevated_ground` and `ground` is impossible.
 - **Victory Road 2F (Western Boulder):** Solved by pushing the boulder at (5,15) to the switch at (2,17), clearing the barrier at (8,9) and (8,10).
 - **Victory Road 2F (Puzzle Resets):** Confirmed that using ladders between floors does NOT reset boulder puzzles.
 
-## C. Discarded Hypotheses
+## B. Discarded Hypotheses
 - **Victory Road 3F (Failed Plan):** The initial strategy from the `puzzle_strategist_agent` to push a boulder along the y=2 corridor was a hallucination. The path was blocked by impassable tiles at (5, 2) and (6, 2). This plan is now discarded.
 - **Victory Road 2F (Failed Agent Plan):** The puzzle_strategist_agent's plan to move the boulder onto elevated ground was impossible and has been discarded.
 - **Victory Road 2F (Trapped Boulder):** All attempts to move the boulder at (6, 8) or (8, 12) to the eastern switch resulted in it becoming trapped. These approaches are invalid.
+- **Victory Road 2F (Failed Manual Plan):** The manual plan to push the boulder from (4, 12) south to (4, 17) and then east to (10, 17) failed. The path east from (5, 17) was blocked by an impassable tile at (6, 17).
 
-## D. Future Agent Ideas
+## C. Future Agent Ideas
 - Create a puzzle execution agent that takes the output of the `puzzle_strategist_agent` and automates the entire puzzle-solving process by calling `gem_pathfinder_v2` and `boulder_pusher_tool`.
 - Create a puzzle execution tool that takes a sequence of push goals and automates the entire process.
-- Create a puzzle execution agent that takes the output of the `puzzle_strategist_agent` and automates the entire puzzle-solving process by calling `gem_pathfinder_v2` and `boulder_pusher_tool`.
