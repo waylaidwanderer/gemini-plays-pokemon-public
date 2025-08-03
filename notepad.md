@@ -67,3 +67,4 @@
 
 ## D. Future Agent Ideas
 - Create a puzzle execution agent that takes the output of the `puzzle_strategist_agent` and automates the entire puzzle-solving process by calling `gem_pathfinder_v2` and `boulder_pusher_tool`.
+- Create a puzzle execution tool that takes a sequence of push goals and automates the entire process.
