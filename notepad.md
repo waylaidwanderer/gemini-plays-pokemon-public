@@ -53,9 +53,3 @@
 - **Victory Road 2F (Failed Agent Plan):** The puzzle_strategist_agent's plan to move the boulder onto elevated ground was impossible and has been discarded.
 - **Victory Road 2F (Trapped Boulder):** All attempts to move the boulder at (6, 8) or (8, 12) to the eastern switch resulted in it becoming trapped. These approaches are invalid.
 - **Victory Road 2F (Failed Manual Plan):** The manual plan to push the boulder from (4, 12) south to (4, 17) and then east to (10, 17) failed. The path east from (5, 17) was blocked by an impassable tile at (6, 17).
-
-## C. Future Agent Ideas
-- Create a puzzle execution agent that takes the output of the `puzzle_strategist_agent` and automates the entire puzzle-solving process by calling `gem_pathfinder_v2` and `boulder_pusher_tool`.
-
-## D. Future Tool Ideas
-- Create a 'boulder trap detector' tool that programmatically checks if a boulder is trapped, to be used as a diagnostic before calling the `puzzle_strategist_agent`.
