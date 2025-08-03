@@ -43,15 +43,13 @@
 - **Trust System Feedback:** System feedback (like validation warnings or tool errors) is the source of truth and MUST be trusted over personal assumptions or agent outputs.
 - **IMMEDIATE ACTION:** Flaws in tools or data management (notepad, markers) must be addressed immediately, not deferred as goals.
 
-# IV. Current Puzzle: Victory Road 1F (Agent-Assisted Plan)
+# IV. Current Puzzle: Victory Road 1F (Agent-Assisted Plan v2)
 - **Objective:** Solve the boulder puzzle to open the barrier at (10, 13).
-- **Agent Analysis:** The boulder at (15, 3) is the only one that can reach the switch at (18, 14). The other boulders at (3, 11) and (6, 16) are trapped and are red herrings.
+- **Agent Analysis:** The only viable boulder is at (6, 16). The boulder at (3, 11) is blocking the player's path to the southern area where the solution boulder is located. The boulder at (15, 3) is a red herring.
 - **Strategic Plan:**
-  1. Maneuver the boulder at (15, 3) left and down into the main E-W corridor (y=5-7).
-  2. Move the boulder eastward along the corridor to the right side of the map (x > 16).
-  3. Navigate the boulder from the corridor down to the critical setup position at (17, 13).
-  4. Push the boulder from (17, 13) to (18, 13).
-  5. Push the boulder from (18, 13) to (18, 14) to activate the switch.
+  1. Move Boulder B at (3, 11) to unblock the player's path to the southern area.
+  2. Navigate the player through the newly opened path to reach Boulder C at (6, 16).
+  3. Maneuver Boulder C from (6, 16) to the switch at (18, 14).
 
 # V. Archived Lessons & Puzzle Solutions
 
