@@ -5,7 +5,7 @@
 - **PC Interaction:** Stand directly below the PC, face up, and press 'A' to access Pokémon Storage. 'Gem's PC' is for items.
 - **HM Usage:** HMs are used from the party menu. Fainted Pokémon can use field moves.
 - **Surfing:** Not all `ground` tiles adjacent to `water` are valid starting points.
-- **Boulder Pushing:** Activate Strength once from the party menu. For each push, simply walk into the boulder. It does not need to be reactivated for every push. When pushing, the player character does NOT move into the boulder's previous tile.
+- **Boulder Pushing:** Activate Strength once from the party menu. For each push, simply walk into the boulder. It does not need to be reactivated for every push. When pushing vertically, the player character does NOT move into the boulder's previous tile.
 - **Puzzle Resets:** Leaving and re-entering a map (e.g., Victory Road 1F to Route 23) resets its boulder puzzles. Using ladders between floors (e.g., 1F to 2F) does NOT reset them.
 - **Off-Screen State Changes:** An object's state (like a `boulder_barrier`) will not update in the map data until it is visible on-screen.
 
@@ -42,17 +42,19 @@
 
 # IV. Puzzle Solutions & Verified Mechanics
 
-## A. Current Puzzle Strategy: Victory Road 3F
-- **Agent's Plan (Corrected):** The boulder at (7, 2) is the only viable one. The plan is to move it to the switch at (4, 6) via a multi-step maneuver.
-- **Sub-goals:**
-  1. Maneuver the boulder from (7, 2) to an intermediate staging position at (3, 6).
-  2. Execute the final push from (3, 6) onto the switch at (4, 6).
-- **Future Agent Ideas:** Create a puzzle execution agent that takes the output of the `puzzle_strategist_agent` and automates the entire puzzle-solving process by calling `gem_pathfinder_v2` and `boulder_pusher_tool`.
+## A. Current Puzzle Strategy: Victory Road 2F (Eastern Boulder)
+- **Goal:** Push the boulder from (6, 6) to the switch at (10, 17).
+- **Outcome:** This should clear the barrier at (24, 15) and grant access to a new ladder to 3F.
+- **Plan:** This will be a multi-step push requiring careful maneuvering. I will consult the `puzzle_strategist_agent` if I get stuck.
 
-## B. Discarded Hypotheses
-- **Victory Road 3F (Failed Plan):** The initial strategy from the `puzzle_strategist_agent` to push a boulder along the y=2 corridor was a hallucination. The path was blocked by impassable tiles at (5, 2) and (6, 2). This plan is now discarded.
-
-## C. Solved Puzzles & Verified Mechanics
+## B. Solved Puzzles & Verified Mechanics
+- **Victory Road 3F (Boulder Puzzle):** Solved by maneuvering the boulder from (7, 2) to the switch at (4, 6).
 - **Victory Road 1F (Elevation):** Confirmed direct movement between `elevated_ground` and `ground` is impossible.
 - **Victory Road 2F (Western Boulder):** Solved by pushing the boulder at (5,15) to the switch at (2,17), clearing the barrier at (8,9) and (8,10).
 - **Victory Road 2F (Puzzle Resets):** Confirmed that using ladders between floors does NOT reset boulder puzzles.
+
+## C. Discarded Hypotheses
+- **Victory Road 3F (Failed Plan):** The initial strategy from the `puzzle_strategist_agent` to push a boulder along the y=2 corridor was a hallucination. The path was blocked by impassable tiles at (5, 2) and (6, 2). This plan is now discarded.
+
+## D. Future Agent Ideas
+- Create a puzzle execution agent that takes the output of the `puzzle_strategist_agent` and automates the entire puzzle-solving process by calling `gem_pathfinder_v2` and `boulder_pusher_tool`.
