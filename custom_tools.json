@@ -1478,5 +1478,39 @@
         "action_counter": 119491
       }
     ]
+  },
+  "boulder_trap_detector": {
+    "description": "Checks if a boulder at a given coordinate is trapped by impassable tiles or other boulders, meaning it has no valid push directions.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "boulder_x": {
+          "type": "string"
+        },
+        "boulder_y": {
+          "type": "string"
+        },
+        "impassable_tiles": {
+          "type": "string"
+        },
+        "boulders": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "boulder_x",
+        "boulder_y",
+        "impassable_tiles",
+        "boulders"
+      ]
+    },
+    "python_script": "import json\nboulder_x = int(input_data['boulder_x'])\nboulder_y = int(input_data['boulder_y'])\nimpassable_tiles_str = input_data['impassable_tiles']\nboulders_str = input_data['boulders']\nimpassable_tiles = set(tuple(d.values()) for d in json.loads(impassable_tiles_str))\nall_boulders = [tuple(d.values()) for d in json.loads(boulders_str)]\ndef is_trapped(x, y):\n    potential_pushes = {\"up\": (x, y - 1), \"down\": (x, y + 1), \"left\": (x - 1, y), \"right\": (x + 1, y)}\n    opposite_tiles = {\"up\": (x, y + 1), \"down\": (x, y - 1), \"left\": (x + 1, y), \"right\": (x - 1, y)}\n    is_stuck = True\n    for direction, push_to_pos in potential_pushes.items():\n        player_pos = opposite_tiles[direction]\n        if push_to_pos in impassable_tiles or push_to_pos in all_boulders:\n            continue\n        if player_pos in impassable_tiles or player_pos in all_boulders:\n            continue\n        is_stuck = False\n        break\n    return is_stuck\nis_boulder_trapped = is_trapped(boulder_x, boulder_y)\nprint(json.dumps({\"is_trapped\": is_boulder_trapped}))",
+    "history": [
+      {
+        "commit_message": "feat: Create boulder_trap_detector tool. This tool programmatically checks if a boulder is trapped, preventing the puzzle_strategist_agent from generating invalid plans. This is a direct result of the 50-turn reflection identifying a need for better computational support for puzzle-solving.",
+        "timestamp": "2025-08-03T21:17:14.562Z",
+        "action_counter": 119607
+      }
+    ]
   }
 }
