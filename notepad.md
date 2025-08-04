@@ -71,3 +71,7 @@
 # VIII. Lessons Learned & Heuristics
 - **Verify 'Trapped' Scenarios:** If a pathfinder tool reports 'No path found' and I believe I am trapped, I must not accept this conclusion without verification. I need to manually inspect the map for alternative routes and trust the game state's list of reachable warps over my own assumptions.
 - **Boulders cannot be pushed up `steps` tiles:** This was tested and confirmed on Victory Road 2F.
+
+# IX. Strategic Reassessment (Post-Reflection)
+- **Conclusion:** My repeated attempts to solve the eastern boulder puzzle on Victory Road 2F have failed due to a high random encounter rate and critically low party health. My assumption that I could safely traverse the map was incorrect.
+- **New Directive:** The immediate priority is no longer the puzzle, but the survival and recovery of my party. I must retreat from Victory Road and heal at the Indigo Plateau Pokémon Center. Only then can I return to address the system's puzzle directive with a viable team.
