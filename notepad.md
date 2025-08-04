@@ -53,7 +53,7 @@
 
 ## A. Tool Notes
 ## B. Tool Status
-- **gem_pathfinder_v2:** UNDER OBSERVATION. The tool was generating invalid paths by moving through boulders because a previous fix incorrectly removed collision detection. The correct logic to treat boulders as impassable has been restored.
+- **gem_pathfinder_v2:** CRITICALLY FLAWED. The `pathfinder_debugger_agent` has diagnosed a flaw in the tool's traversal logic for ladders, causing it to treat them as dead ends. The tool cannot be considered reliable for multi-level navigation until this is fixed.
 
 # VII. Lessons Learned & Heuristics
 - **Trust System Directives:** If a system directive contradicts direct, repeated in-game observations and specialist agent analysis, the directive is the source of truth. My observations or agent's analysis must be flawed.
