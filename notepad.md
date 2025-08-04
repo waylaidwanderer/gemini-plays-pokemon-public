@@ -3,7 +3,7 @@
 ## A. Victory Road 1F (Eastern Boulder Puzzle)
 - **Directive:** System feedback implies this puzzle must be solved to exit the northwest corner of the map.
 - **Objective:** Move a boulder to the switch at (18, 14) to clear the barrier at (10, 13).
-- **Hypothesis:** The boulder at (15, 3) is the likely candidate for solving this puzzle.
+- **Hypothesis:** The boulder at (15, 3) is the likely candidate, but I must find a path to the eastern side of the map first, possibly via other floors.
 
 # II. Core Gameplay & World Rules
 
@@ -24,7 +24,7 @@
 - `ladder_up`: Warp tile leading to a higher floor.
 - `ladder_down`: Warp tile leading to a lower floor.
 - `ledge`: One-way traversal. Can only be jumped DOWN from the tile directly above. Acts as a wall from all other directions.
-- `impassable`: Wall. **Verified (Turn 120180): Defeated trainers on Victory Road 1F are impassable obstacles.** Defeated trainers on Victory Road 2F are also impassable.
+- `impassable`: Wall. **Verified (Turn 120183): Defeated trainers on Victory Road 1F are impassable obstacles.**
 - `boulder_switch`: Floor switch for boulders.
 - `boulder_barrier`: Impassable barrier linked to a switch.
 - `hole`: Drops to a lower floor. Pushing a boulder into one moves it to the floor below.
@@ -51,14 +51,11 @@
 
 ## A. Solved Puzzles & Verified Mechanics
 - **Victory Road 3F (Boulder Puzzle):** Solved by maneuvering the boulder from (7, 2) to the switch at (4, 6).
-- **Victory Road 1F (Elevation):** Confirmed direct movement between `elevated_ground` and `ground` is impossible.
 - **Victory Road 2F (Western Boulder):** Solved. The system has confirmed the barrier corresponding to the switch at (2, 17) is already cleared.
 - **Victory Road 2F (Puzzle Resets):** Confirmed that using ladders between floors does NOT reset a puzzle.
 
 ## B. Discarded Hypotheses
 - **Victory Road 3F (Failed Plan):** The initial strategy from the `puzzle_strategist_agent` to push a boulder along the y=2 corridor was a hallucination. The path was blocked by impassable tiles at (5, 2) and (6, 2).
-- **Victory Road 2F (Trapped Boulder):** All attempts to move the boulder at (7, 15) to the eastern switch resulted in it becoming trapped.
-- **Victory Road 2F (Failed Manual Plan):** The manual plan to push the boulder from (4, 12) south to (4, 17) and then east to (10, 17) failed. The path east from (5, 17) was blocked by an impassable tile at (6, 17).
 - **Victory Road 2F (Agent Failure - Turn 120163):** The `puzzle_strategist_agent`'s plan to use the southern boulder at (8, 15) failed. The agent's proposed path to push the boulder to (9, 16) was blocked by an impassable tile at (9, 16). This confirms the agent can hallucinate invalid paths. The boulder is now trapped at (8, 16).
 
 # VI. Unsolved Puzzles (Inactive)
