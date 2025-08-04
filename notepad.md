@@ -4,7 +4,7 @@
 - **Directive:** System has ordered the solution of this puzzle.
 - **Objective:** Move a boulder to the switch at (10, 17).
 - **Key Insight:** The western puzzle's barrier at (8,9) is already cleared, connecting the east and west elevated platforms.
-- **Hypothesis:** The boulder at (5, 15) is the correct one to use, and must be moved across the elevated platform path to the eastern side.
+- **Current Approach:** After resetting the puzzle, I am now manually investigating the northern boulder at (6, 6). The `puzzle_strategist_agent` failed to find a solution, but the `boulder_trap_detector` has confirmed neither boulder is trapped. This indicates a solution exists that the agent could not perceive.
 
 # II. Core Gameplay & World Rules
 
