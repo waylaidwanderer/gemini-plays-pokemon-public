@@ -19,7 +19,7 @@
 - `ground`: Standard walkable tile (Elevation 0).
 - `elevated_ground`: Walkable tile at a higher elevation (Elevation 2). It is IMPOSSIBLE to step directly between `ground` and `elevated_ground`.
 - `steps`: Allows two-way movement between `ground` and `elevated_ground`. Boulders cannot be pushed onto `steps` tiles.
-- `cleared_boulder_barrier`: A former barrier. On Victory Road 2F, this acts as a normal two-way path between `ground` and `elevated_ground`. On other maps, it may function as a one-way ramp.
+- `cleared_boulder_barrier`: A former barrier. On Victory Road 2F, this acts as a normal two-way path between `ground` and `elevated_ground`.
 - `ladder_up`: Warp tile leading to a higher floor.
 - `ladder_down`: Warp tile leading to a lower floor.
 - `ledge`: One-way traversal. Can only be jumped DOWN from the tile directly above. Acts as a wall from all other directions.
@@ -60,7 +60,7 @@
 # VI. Tool Development Notes
 
 ## A. Tool Notes
-- **gem_pathfinder_v2:** **Under critical repair.** The tool has a persistent bug related to its traversal logic, specifically how it handles `cleared_boulder_barrier` tiles. It is currently unable to find valid paths on Victory Road 2F, contradicting system feedback. Fixing this is the highest priority.
+- **gem_pathfinder_v2:** **Under critical repair.** The tool has a persistent bug related to its traversal logic. It is currently unable to find valid paths on Victory Road 2F, contradicting system feedback. Fixing this is the highest priority.
 
 # VII. Lessons Learned & Heuristics
 - **Verify 'Trapped' Scenarios:** If a pathfinder tool reports 'No path found' and I believe I am trapped, I must trust the game state's list of reachable warps over my tool's output and prioritize debugging the tool.
