@@ -63,8 +63,6 @@
 
 # VIII. Paused Investigations & Archived Conclusions
 - **Victory Road 1F (Eastern Boulder Puzzle):** Investigation paused. I trapped the boulder at (15, 3), making the puzzle unsolvable without a reset. I am currently on 2F.
-### C. Future Tool Ideas
-- **boulder_trap_detector:** A tool to programmatically check if a boulder is trapped by its surroundings. This would improve the `puzzle_strategist_agent`'s accuracy.
 
 ### VICTORY ROAD 2F - EASTERN PUZZLE - NEW HYPOTHESIS (Turn 120732)
 - **Observation:** All previous attempts to solve the puzzle using the southern boulder at (8, 16) have failed. Pushing it into tiles marked 'impassable' does not work. My agent cannot find a logical solution. The system directive insists a solution exists on this floor.
