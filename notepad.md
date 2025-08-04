@@ -54,7 +54,7 @@
 - **Victory Road 2F (Puzzle Resets):** Confirmed that using ladders between floors does NOT reset a puzzle.
 
 ## B. Discarded Hypotheses
-- **Victory Road 2F (Southern Boulder Trap):** CONFIRMED (Turn 120475). The southern boulder cannot reach the eastern switch at (10, 17). After being pushed to (8, 15), it is blocked by an impassable wall at (9, 15).
+- **Victory Road 2F (Southern Boulder Trap):** RE-CONFIRMED (Turn 120497). The southern boulder is trapped. It can be pushed right to (8, 15) where it's blocked by a wall at (9, 15), or up to (8, 12) where it's blocked by a wall at (8, 11). It cannot solve the puzzle.
 - **Victory Road 2F (Northern Boulder Trap):** CONFIRMED (Turn 120465). The northern boulder at (6, 6) is trapped. Pushing it up to (6, 5) results in it being blocked by impassable walls at (5, 5) and (7, 5), making it impossible to reach the eastern switch.
 
 # VI. Tool Development Notes
