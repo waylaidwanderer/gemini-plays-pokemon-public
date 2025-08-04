@@ -27,7 +27,7 @@
 # V. Solved Puzzles & Verified Mechanics
 - **Victory Road 3F (Boulder Puzzle):** Solved by maneuvering the boulder from (7, 2) to the switch at (4, 6).
 - **Victory Road 2F (Western Boulder Puzzle):** The system has confirmed the barrier corresponding to the switch at (2, 17) is already cleared.
-- **Victory Road 2F (Puzzle Resets):** Confirmed that using ladders between floors does NOT reset a puzzle.
+- **Victory Road 2F (Puzzle Resets):** Confirmed that using ladders between floors DOES reset the boulder puzzles on both floors.
 - **Victory Road 1F (Boulder/Item Interaction):** Confirmed that pushing a boulder onto an item collects the item and moves the boulder into that space.
 - **Victory Road 1F (Pathfinder Bug):** Corrected a critical logic flaw in `gem_pathfinder_v2` related to ladder traversal, which was causing it to fail on valid paths.
 - **Complex Boulder Pusher Tool v2 Fix (Turn 121441):** Refactored the tool to use the elevation-aware traversal logic from `gem_pathfinder_v2`, resolving a critical bug where it would generate invalid paths between different elevations.
