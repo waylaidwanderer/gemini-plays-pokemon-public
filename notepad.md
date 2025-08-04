@@ -62,7 +62,7 @@
 - **Victory Road 2F (Floor-Contained Solution):** My conclusion that the puzzle was unsolvable on this floor was incorrect. This was based on my own flawed testing and my agent's analysis, both of which were superseded by a direct system directive.
 
 # VIII. Paused Investigations & Archived Conclusions
-- **Victory Road 1F (Eastern Boulder Puzzle):** Investigation paused. I trapped the boulder at (13, 3), making the puzzle unsolvable without a reset. I am currently on 2F.
+- **Victory Road 1F (Eastern Boulder Puzzle):** Investigation paused. I trapped the boulder at (15, 3), making the puzzle unsolvable without a reset. I am currently on 2F.
 ### C. Future Tool Ideas
 - **boulder_trap_detector:** A tool to programmatically check if a boulder is trapped by its surroundings. This would improve the `puzzle_strategist_agent`'s accuracy.
 
