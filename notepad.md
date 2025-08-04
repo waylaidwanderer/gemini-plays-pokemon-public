@@ -1,9 +1,8 @@
 # I. Active Investigations
 
 ## A. Victory Road 2F (Eastern Boulder Puzzle)
-- **Directive:** The system is forcing the solution of this puzzle. The target is the switch at (10, 17).
-- **Conclusion:** The puzzle is UNSOLVABLE on this floor. This has been verified by repeated in-game tests and confirmed by the `puzzle_strategist_agent`.
-- **Current Hypothesis:** The puzzle requires a multi-floor solution, which involves dropping a boulder from Victory Road 3F. This is the only remaining logical path forward.
+- **Directive:** The system has confirmed this puzzle is SOLVABLE on this floor. The target is the switch at (10, 17).
+- **Current Hypothesis:** My previous conclusion that both boulders are trapped was incorrect. The northern boulder at (6, 5) has been verified to be physically blocked. Therefore, the southern boulder at (8, 12) MUST be the solution. There is a game mechanic or path I am misunderstanding.
 
 # II. Core Gameplay & World Rules
 
@@ -46,15 +45,10 @@
 - **Trust System Feedback:** System feedback is the source of truth and MUST be trusted over personal assumptions or agent outputs.
 - **IMMEDIATE ACTION:** Flaws in tools or data management must be addressed immediately.
 
-# V. Solved Puzzles & Discarded Hypotheses
-
-## A. Solved Puzzles & Verified Mechanics
+# V. Solved Puzzles & Verified Mechanics
 - **Victory Road 3F (Boulder Puzzle):** Solved by maneuvering the boulder from (7, 2) to the switch at (4, 6).
-- **Victory Road 2F (Western Boulder):** Solved. The system has confirmed the barrier corresponding to the switch at (2, 17) is already cleared.
+- **Victory Road 2F (Western Boulder):** The system has confirmed the barrier corresponding to the switch at (2, 17) is already cleared.
 - **Victory Road 2F (Puzzle Resets):** Confirmed that using ladders between floors does NOT reset a puzzle.
-
-## B. Discarded Hypotheses
-- **Victory Road 2F (Floor-Contained Solution):** VERIFIED UNSOLVABLE. Both the northern boulder (at 6, 5) and the southern boulder (at 8, 12) are physically trapped by impassable walls. This has been confirmed by multiple direct push attempts and by the `puzzle_strategist_agent`. The system's directive to solve the puzzle on this floor is a logical contradiction with the observable game state.
 
 # VI. Tool Development Notes
 
@@ -62,5 +56,8 @@
 - **gem_pathfinder_v2:** The tool's core elevation logic has been fixed, and it now works for short, simple paths. However, it still fails on long, complex routes, indicating a deeper, undiagnosed bug. It should only be trusted for simple, short-distance navigation.
 
 # VII. Lessons Learned & Heuristics
-- **Trust Agents & Observations:** If a system directive contradicts direct, repeated in-game observations and specialist agent analysis, trust the observations and agent. The directive may be a general hint rather than a literal instruction.
+- **Trust System Directives:** If a system directive contradicts direct, repeated in-game observations and specialist agent analysis, the directive is the source of truth. My observations or agent's analysis must be flawed.
 - **Boulders cannot be pushed up `steps` tiles:** This was tested and confirmed on Victory Road 2F.
+
+# VIII. Erroneous Conclusions (Archived)
+- **Victory Road 2F (Floor-Contained Solution):** My conclusion that the puzzle was unsolvable on this floor was incorrect. This was based on my own flawed testing and my agent's analysis, both of which were superseded by a direct system directive.
