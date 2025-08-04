@@ -1,9 +1,9 @@
-# I. Current Objective: Victory Road 1F
+# I. Current Objective: Victory Road 2F
 
 ## A. Eastern Boulder Puzzle
-- **Goal:** Clear the boulder barrier at (10, 13) to access the exit.
-- **Method:** Push the boulder at (15, 3) onto the switch at (18, 14).
-- **Status:** In position at (16, 3) to begin the push sequence.
+- **Goal:** Get a boulder onto the switch at (10, 17).
+- **Available Boulders:** (5, 15), (6, 6).
+- **Status:** Gathering data for `puzzle_strategist_agent`.
 
 # II. Core Gameplay & World Rules
 
@@ -48,7 +48,7 @@
 
 # V. Solved Puzzles & Verified Mechanics
 - **Victory Road 3F (Boulder Puzzle):** Solved by maneuvering the boulder from (7, 2) to the switch at (4, 6).
-- **Victory Road 2F (Western Boulder):** The system has confirmed the barrier corresponding to the switch at (2, 17) is already cleared.
+- **Victory Road 2F (Western Boulder Puzzle):** The system has confirmed the barrier corresponding to the switch at (2, 17) is already cleared.
 - **Victory Road 2F (Puzzle Resets):** Confirmed that using ladders between floors does NOT reset a puzzle.
 
 # VI. Tool Development Notes
@@ -60,7 +60,7 @@
 # VII. Lessons Learned & Heuristics
 - **Trust System Directives:** If a system directive contradicts direct, repeated in-game observations and specialist agent analysis, the directive is the source of truth. My observations or agent's analysis must be flawed.
 - **Boulders cannot be pushed up `steps` tiles:** This was tested and confirmed on Victory Road 2F.
+- **Victory Road 2F (Floor-Contained Solution):** My conclusion that the puzzle was unsolvable on this floor was incorrect. This was based on my own flawed testing and my agent's analysis, both of which were superseded by a direct system directive.
 
 # VIII. Paused Investigations & Archived Conclusions
-- **Victory Road 2F (Eastern Boulder Puzzle):** Investigation paused. The system confirmed this puzzle is solvable on 2F using the southern boulder at (8, 12). My agent and I concluded it was trapped, indicating a misunderstanding of a game mechanic. Will return after clearing 1F.
-- **Victory Road 2F (Floor-Contained Solution):** My conclusion that the puzzle was unsolvable on this floor was incorrect. This was based on my own flawed testing and my agent's analysis, both of which were superseded by a direct system directive.
+- **Victory Road 1F (Eastern Boulder Puzzle):** Investigation paused. I trapped the boulder at (13, 3), making the puzzle unsolvable without a reset. I am currently on 2F.
