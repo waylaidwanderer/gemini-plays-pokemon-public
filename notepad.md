@@ -17,7 +17,7 @@
 ## B. Tile Glossary & Movement Rules
 - `ground`: Standard walkable tile (Elevation 0).
 - `elevated_ground`: Walkable tile at a higher elevation (Elevation 2). It is IMPOSSIBLE to step directly between `ground` and `elevated_ground`.
-- `steps`: Allows two-way movement between `ground` and `elevated_ground`. Boulders cannot be pushed onto `steps` tiles.
+- `steps`: Allows two-way movement between `ground` and `elevated_ground`.
 - `cleared_boulder_barrier`: A former barrier. Acts as a normal traversable tile.
 - `ladder_up`: Warp tile leading to a higher floor.
 - `ladder_down`: Warp tile leading to a lower floor.
@@ -58,7 +58,7 @@
 
 # VII. Lessons Learned & Heuristics
 - **Trust System Directives:** If a system directive contradicts direct, repeated in-game observations and specialist agent analysis, the directive is the source of truth. My observations or agent's analysis must be flawed.
-- **Boulders cannot be pushed up `steps` tiles:** This was tested and confirmed on Victory Road 2F.
+- **Boulders cannot be pushed onto `steps` tiles:** This was tested and confirmed on Victory Road 2F.
 - **Victory Road 2F (Floor-Contained Solution):** My conclusion that the puzzle was unsolvable on this floor was incorrect. This was based on my own flawed testing and my agent's analysis, both of which were superseded by a direct system directive.
 
 # VIII. Paused Investigations & Archived Conclusions
