@@ -1,10 +1,9 @@
 # I. Active Investigations
 
-## A. Victory Road 2F (Eastern Boulder Puzzle)
-- **Directive:** System has ordered the solution of this puzzle.
-- **Objective:** Move a boulder to the switch at (10, 17).
-- **New Finding:** The northern boulder at (6, 4) is inaccessible, blocked by impassable objects on both sides (defeated trainer at (5, 3) and walls). It cannot be the solution.
-- **New Hypothesis:** The southern boulder at (5, 15) MUST be the solution. The puzzle has been reset, so my previous failed attempt can be disregarded. A new attempt must be made.
+## A. Victory Road 1F (Eastern Boulder Puzzle)
+- **Directive:** System feedback implies this puzzle must be solved to exit the northwest corner of the map.
+- **Objective:** Move a boulder to the switch at (18, 14) to clear the barrier at (10, 13).
+- **Hypothesis:** The boulder at (15, 3) is the likely candidate for solving this puzzle.
 
 # II. Core Gameplay & World Rules
 
@@ -25,7 +24,7 @@
 - `ladder_up`: Warp tile leading to a higher floor.
 - `ladder_down`: Warp tile leading to a lower floor.
 - `ledge`: One-way traversal. Can only be jumped DOWN from the tile directly above. Acts as a wall from all other directions.
-- `impassable`: Wall. Defeated trainers on Victory Road 1F & 2F are impassable obstacles.
+- `impassable`: Wall. **Verified (Turn 120180): Defeated trainers on Victory Road 1F are impassable obstacles.** Defeated trainers on Victory Road 2F are also impassable.
 - `boulder_switch`: Floor switch for boulders.
 - `boulder_barrier`: Impassable barrier linked to a switch.
 - `hole`: Drops to a lower floor. Pushing a boulder into one moves it to the floor below.
@@ -62,14 +61,14 @@
 - **Victory Road 2F (Failed Manual Plan):** The manual plan to push the boulder from (4, 12) south to (4, 17) and then east to (10, 17) failed. The path east from (5, 17) was blocked by an impassable tile at (6, 17).
 
 # VI. Unsolved Puzzles (Inactive)
-- **Victory Road 1F (Eastern Boulder Puzzle):** Appears unsolvable. `puzzle_strategist_agent` concluded all boulders are trapped or have no viable path to the switch at (18, 14). Hypothesis is a hidden mechanic exists. Plan is to re-explore, investigate the barrier, and reset the puzzle if needed.
+- **Victory Road 2F (Eastern Boulder Puzzle):** Appears unsolvable with the southern boulder. The northern boulder at (6,6) is the only remaining option, but is currently inaccessible due to impassable objects.
 
 # VII. Agent & Tool Development Notes
 ## A. Agent Notes
-- **pathfinder_debugger_agent:** Used once. Purpose is to analyze verbose logs from `gem_pathfinder_v2` to diagnose failures. MUST be used if the pathfinder returns an error or a clearly incorrect path.
+- **pathfinder_debugger_agent:** Used to diagnose failures in `gem_pathfinder_v2`. Requires the tool's source code and a verbose log as input.
 
 ## B. Tool Notes
-- **gem_pathfinder_v2:** CRITICAL FAULT IDENTIFIED (Turn 120151). The tool generated a path containing an impassable tile on Turn 120130. It is unreliable for navigation until fixed. HIGHEST PRIORITY to debug and repair.
+- **gem_pathfinder_v2:** **Fixed (Turn 120156).** The tool was completely rewritten to resolve a critical `AttributeError` in its XML parsing logic. It is now considered functional and ready for use.
 
 # VIII. Lessons Learned & Heuristics
 - **Verify 'Trapped' Scenarios:** If a pathfinder tool reports 'No path found' and I believe I am trapped, I must not accept this conclusion without verification. I need to manually inspect the map for alternative routes and trust the game state's list of reachable warps over my own assumptions.
@@ -78,4 +77,4 @@
 # IX. Strategic Reassessment (Post-Reflection)
 - **Conclusion:** My repeated attempts to solve the eastern boulder puzzle on Victory Road 2F have failed due to a high random encounter rate and critically low party health. My assumption that I could safely traverse the map was incorrect.
 - **New Directive:** The immediate priority is no longer the puzzle, but the survival and recovery of my party. I must retreat from Victory Road and heal at the Indigo Plateau Pokémon Center. Only then can I return to address the system's puzzle directive with a viable team.
-- **Victory Road 2F (Agent Failure):** The `puzzle_strategist_agent`'s plan to use the southern boulder at (8, 15) has failed. The path right is blocked by an impassable tile at (9, 16). The boulder is now trapped at (8, 16). The agent has proven unreliable for this puzzle.
+- **Victory Road 2F (Agent Failure - Turn 120163):** The `puzzle_strategist_agent`'s plan to use the southern boulder at (8, 15) failed. The agent's proposed path to push the boulder to (9, 16) was blocked by an impassable tile at (9, 16). This confirms the agent can hallucinate invalid paths. The boulder is now trapped at (8, 16).
