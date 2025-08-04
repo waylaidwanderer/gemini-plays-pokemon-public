@@ -67,9 +67,7 @@
 - **Victory Road 1F (Eastern Boulder Puzzle):** Appears unsolvable. `puzzle_strategist_agent` concluded all boulders are trapped or have no viable path to the switch at (18, 14). Hypothesis is a hidden mechanic exists. Plan is to re-explore, investigate the barrier, and reset the puzzle if needed.
 
 # VII. Agent & Tool Development Notes
-- **pathfinder_debugger_agent:** This agent is currently unused. I must find an opportunity to test its functionality, likely by intentionally feeding the pathfinder a difficult or failing case and analyzing the generated log.
 
 # VIII. Lessons Learned & Heuristics
 - **Verify 'Trapped' Scenarios:** If a pathfinder tool reports 'No path found' and I believe I am trapped, I must not accept this conclusion without verification. I need to manually inspect the map for alternative routes and trust the game state's list of reachable warps over my own assumptions.
 - **Boulders cannot be pushed up `steps` tiles:** This was tested and confirmed on Victory Road 2F.
-- **pathfinder_debugger_agent:** This agent is currently unused. I must find an opportunity to test its functionality, likely by intentionally feeding the pathfinder a difficult or failing case and analyzing the generated log.
