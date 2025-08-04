@@ -71,3 +71,6 @@
 # VIII. Lessons Learned & Heuristics
 - **Verify 'Trapped' Scenarios:** If a pathfinder tool reports 'No path found' and I believe I am trapped, I must not accept this conclusion without verification. I need to manually inspect the map for alternative routes and trust the game state's list of reachable warps over my own assumptions.
 - **Boulders cannot be pushed up `steps` tiles:** This was tested and confirmed on Victory Road 2F.
+- `boulder_barrier`: Impassable barrier linked to a switch.
+- `hole`: Drops to a lower floor. Pushing a boulder into one moves it to the floor below.
+- `impassable`: Wall. Defeated trainers on Victory Road 1F & 2F are impassable obstacles.
