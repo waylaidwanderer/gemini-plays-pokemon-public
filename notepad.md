@@ -3,7 +3,7 @@
 ## A. Victory Road 2F (Eastern Boulder Puzzle)
 - **Directive:** System has ordered the solution of this puzzle.
 - **Objective:** Move a boulder to the switch at (10, 17).
-- **Key Insight:** The `boulder_trap_detector` confirmed neither boulder is trapped, contradicting the `puzzle_strategist_agent` and proving a solution exists. I am now manually investigating the southern boulder at (7, 15).
+- **Key Insight:** The `boulder_trap_detector` confirmed neither boulder is trapped. My own map marker indicates the northern boulder is a red herring. Therefore, the southern boulder at (7, 15) is the key.
 
 # II. Core Gameplay & World Rules
 
@@ -13,8 +13,8 @@
 - **HM Usage:** HMs are used from the party menu. Fainted Pokémon can use field moves.
 - **Surfing:** Not all `ground` tiles adjacent to `water` are valid starting points.
 - **Boulder Pushing:** Activate Strength once from the party menu. For each push, simply walk into the boulder.
-  - **Standard Push:** When adjacent to a boulder, pushing it horizontally moves the player into the boulder's previous tile. Pushing vertically does NOT move the player.
-  - **NEW - Remote Push:** It is possible to push a boulder from one tile away (i.e., a one-tile gap between player and boulder). The boulder moves one tile, and the player does NOT move.
+  - **NEW - Standard Push:** When adjacent to a boulder, pushing it horizontally moves the player into the boulder's previous tile. Pushing vertically does NOT move the player. (Verified Turn 119915)
+  - **NEW - Remote Push:** It is possible to push a boulder from one tile away (i.e., a one-tile gap between player and boulder). The boulder moves one tile, and the player does NOT move. (Verified Turn 119914)
 - **Puzzle Resets:** Leaving and re-entering a map (e.g., Victory Road 1F to Route 23) resets its boulder puzzles. Using ladders between floors (e.g., 1F to 2F) does NOT reset them.
 - **Off-Screen State Changes:** An object's state (like a `boulder_barrier`) will not update in the map data until it is visible on-screen.
 
