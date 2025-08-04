@@ -54,7 +54,7 @@
 
 ## A. Tool Notes
 ## B. Tool Status
-- **gem_pathfinder_v2:** VERIFIED. The tool was previously suspected of being bugged, but extensive debugging confirmed it is working correctly. The 'No path found' errors were caused by an in-game, unsolved boulder puzzle blocking the path, not a flaw in the tool's logic.
+- **gem_pathfinder_v2:** UNSTABLE. The tool has known bugs related to elevation changes and may fail to find valid paths. It requires further debugging and should be used with caution.
 
 # VII. Lessons Learned & Heuristics
 - **Trust System Directives:** If a system directive contradicts direct, repeated in-game observations and specialist agent analysis, the directive is the source of truth. My observations or agent's analysis must be flawed.
