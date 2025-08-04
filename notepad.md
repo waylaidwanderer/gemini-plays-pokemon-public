@@ -53,7 +53,13 @@
 # VI. Tool Development Notes
 
 ## A. Tool Notes
-- **gem_pathfinder_v2:** The tool's core elevation logic has been fixed, and it now works for short, simple paths. However, it still fails on long, complex routes, indicating a deeper, undiagnosed bug. It should only be trusted for simple, short-distance navigation.
+## B. Tool Repair Priority
+- **gem_pathfinder_v2:** CRITICAL BUG. The tool fails on complex routes. Per system critique, this is my highest priority. 
+- **Plan:** 
+  1. Exit Victory Road and heal.
+  2. Return to Victory Road 1F.
+  3. Attempt a complex pathfind on 1F with verbose logging to reproduce and diagnose the bug.
+  4. Implement a fix using `define_tool` immediately upon diagnosis.
 
 # VII. Lessons Learned & Heuristics
 - **Trust System Directives:** If a system directive contradicts direct, repeated in-game observations and specialist agent analysis, the directive is the source of truth. My observations or agent's analysis must be flawed.
