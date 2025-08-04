@@ -78,3 +78,8 @@
 - **Hypothesis:** The impassable tile at (9, 16) was secretly traversable.
 - **Test:** Pushed the boulder at (8, 16) against the tile at (9, 16).
 - **Conclusion:** FAILED. The boulder did not move. The tile is truly impassable. The solution must lie elsewhere.
+
+### VICTORY ROAD 2F - NEW HYPOTHESIS (Turn 120897)
+- **Observation:** The path to the northern boulder is blocked by the defeated Pokemaniac at (5, 3). The system directive insists a solution exists on this floor.
+- **Hypothesis:** The defeated Pokemaniac is traversable, similar to a previous situation on Victory Road 1F.
+- **Test Plan:** Use the pathfinder to find a route to (6, 5), instructing it to ignore the trainer at (5, 3). If a path is found, execute it.
