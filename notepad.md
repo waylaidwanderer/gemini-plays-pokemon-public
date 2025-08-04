@@ -56,3 +56,4 @@
 # VI. Paused Investigations & Archived Conclusions
 - **Victory Road 1F (Eastern Boulder Puzzle):** This puzzle is currently a dead end. The boulder at (11, 3) cannot be moved past the item at (10, 3), and the item cannot be reached. The solution must lie elsewhere.
 - **Victory Road 2F (Floor-Contained Solution):** My conclusion that the puzzle was unsolvable on this floor was incorrect. This was based on my own flawed testing and my agent's analysis, both of which were superseded by a direct system directive.
+- **Complex Boulder Pusher Tool v2 Failure (Turn 121344):** The tool generated another invalid path, attempting to move from `elevated_ground` at (10, 9) to `ground` at (10, 8). **Conclusion:** The tool's internal A* pathfinder for player movement does not account for elevation differences. **Action:** Refactoring the tool to incorporate the elevation-aware traversal logic from `gem_pathfinder_v2`. This is a critical fix.

@@ -1897,5 +1897,54 @@
         "action_counter": 120853
       }
     ]
+  },
+  "complex_boulder_pusher_tool": {
+    "description": "Automates multi-step boulder puzzles. Finds a path for a boulder to a target, then finds a path for the player to perform each push. Outputs a complete sequence of button presses.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "boulder_start_x": {
+          "type": "string"
+        },
+        "boulder_start_y": {
+          "type": "string"
+        },
+        "target_switch_x": {
+          "type": "string"
+        },
+        "target_switch_y": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "boulder_start_x",
+        "boulder_start_y",
+        "target_switch_x",
+        "target_switch_y"
+      ]
+    },
+    "python_script": "import xml.etree.ElementTree as ET\nimport heapq\nimport json\n\nclass AStar:\n    def __init__(self, map_xml_string):\n        self.root = ET.fromstring(map_xml_string)\n        self.width = int(self.root.get('width'))\n        self.height = int(self.root.get('height'))\n\n    def find_path(self, start_pos, end_pos, impassable_tiles):\n        if start_pos in impassable_tiles: impassable_tiles.remove(start_pos)\n        \n        if end_pos in impassable_tiles:\n            found_adjacent = False\n            for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n                adj = (end_pos[0] + dx, end_pos[1] + dy)\n                if adj not in impassable_tiles:\n                    end_pos = adj\n                    found_adjacent = True\n                    break\n            if not found_adjacent:\n                return None\n\n        open_list = []\n        counter = 0\n        heapq.heappush(open_list, (0, counter, start_pos))\n        came_from = {}\n        g_score = {start_pos: 0}\n\n        while open_list:\n            _, _, current = heapq.heappop(open_list)\n\n            if current == end_pos:\n                path = []\n                temp = current\n                while temp in came_from:\n                    path.append(temp)\n                    temp = came_from[temp]\n                path.append(start_pos)\n                path.reverse()\n                return path\n\n            for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n                neighbor = (current[0] + dx, current[1] + dy)\n                if not (1 <= neighbor[0] <= self.width and 1 <= neighbor[1] <= self.height):\n                    continue\n                if neighbor in impassable_tiles:\n                    continue\n\n                tentative_g_score = g_score.get(current, float('inf')) + 1\n                if tentative_g_score < g_score.get(neighbor, float('inf')):\n                    came_from[neighbor] = current\n                    g_score[neighbor] = tentative_g_score\n                    f_score = tentative_g_score + abs(neighbor[0] - end_pos[0]) + abs(neighbor[1] - end_pos[1])\n                    counter += 1\n                    heapq.heappush(open_list, (f_score, counter, neighbor))\n        return None\n\nclass BoulderPusher:\n    def __init__(self, map_xml_string):\n        self.map_xml_string = map_xml_string\n        self.root = ET.fromstring(map_xml_string)\n        self.player_pos = self._get_player_pos()\n\n    def _get_player_pos(self):\n        for row in self.root.findall('Row'):\n            for tile in row.findall('Tile'):\n                if tile.find('Player') is not None:\n                    return int(tile.get('id')), int(row.get('id'))\n        return None\n\n    def _get_boulder_path_impassable(self):\n        tiles = set()\n        for row in self.root.findall('Row'):\n            y = int(row.get('id'))\n            for tile in row.findall('Tile'):\n                x = int(tile.get('id'))\n                tile_type = tile.get('type')\n                if tile_type in {'impassable', 'boulder_barrier', 'water'} or tile.find('Object') is not None:\n                    tiles.add((x, y))\n        return tiles\n\n    def _get_player_path_impassable(self):\n        tiles = set()\n        for row in self.root.findall('Row'):\n            y = int(row.get('id'))\n            for tile in row.findall('Tile'):\n                x = int(tile.get('id'))\n                tile_type = tile.get('type')\n                if tile_type in {'impassable', 'boulder_barrier', 'water'} or tile.find(\"Object[@id!='15']\") is not None or tile.find('Boulder') is not None:\n                    tiles.add((x, y))\n        return tiles\n\n    def solve(self, boulder_start, target_switch):\n        pathfinder = AStar(self.map_xml_string)\n        impassable_for_boulder = self._get_boulder_path_impassable()\n        if boulder_start in impassable_for_boulder: impassable_for_boulder.remove(boulder_start)\n\n        boulder_path = pathfinder.find_path(boulder_start, target_switch, impassable_for_boulder.copy())\n\n        if not boulder_path:\n            print(json.dumps({'error': 'No path found for the boulder.'}))\n            return\n\n        actions = []\n        current_player_pos = self.player_pos\n        all_player_impassable = self._get_player_path_impassable()\n\n        for i in range(len(boulder_path) - 1):\n            p1 = boulder_path[i]\n            p2 = boulder_path[i+1]\n            push_dir_x = p2[0] - p1[0]\n            push_dir_y = p2[1] - p1[1]\n            player_target_pos = (p1[0] - push_dir_x, p1[1] - push_dir_y)\n            \n            impassable_for_player = all_player_impassable.copy()\n            if current_player_pos in impassable_for_player: impassable_for_player.remove(current_player_pos)\n\n            player_path = pathfinder.find_path(current_player_pos, player_target_pos, impassable_for_player)\n\n            if not player_path:\n                print(json.dumps({'error': f'Cannot find path for player to push boulder at {p1} to {p2}'}))\n                return\n\n            for j in range(1, len(player_path)):\n                pp1, pp2 = player_path[j-1], player_path[j]\n                pdx, pdy = pp2[0] - pp1[0], pp2[1] - pp1[1]\n                if pdx == 1: actions.append('Right')\n                elif pdx == -1: actions.append('Left')\n                elif pdy == 1: actions.append('Down')\n                elif pdy == -1: actions.append('Up')\n            \n            if push_dir_x == 1: actions.append('Right')\n            elif push_dir_x == -1: actions.append('Left')\n            elif push_dir_y == 1: actions.append('Down')\n            elif push_dir_y == -1: actions.append('Up')\n\n            current_player_pos = p1\n\n        print(json.dumps({'actions': actions}))\n\ntry:\n    pusher = BoulderPusher(map_xml_string)\n    pusher.solve(\n        (int(input_data['boulder_start_x']), int(input_data['boulder_start_y'])),\n        (int(input_data['target_switch_x']), int(input_data['target_switch_y']))\n    )\nexcept Exception as e:\n    print(json.dumps({'error': f'An unexpected error occurred: {str(e)}'}))",
+    "history": [
+      {
+        "commit_message": "feat: Create complex_boulder_pusher_tool. This is a direct response to the 50-turn reflection identifying a failure to act on tool development ideas. This tool is the first version of a more sophisticated puzzle solver that finds a path for the boulder and then plans player movements to execute the pushes. This will significantly automate and streamline solving complex boulder puzzles in the future.",
+        "timestamp": "2025-08-04T20:00:12.611Z",
+        "action_counter": 121322
+      },
+      {
+        "commit_message": "fix(complex_boulder_pusher_tool): Correct A* path reconstruction and player pathing logic. The `came_from` assignment was incorrect, preventing the path from being built. Also improved player pathfinding to generate a full sequence of moves instead of a placeholder. This is a critical fix to make the tool functional for multi-step boulder puzzles.",
+        "timestamp": "2025-08-04T20:03:58.283Z",
+        "action_counter": 121329
+      },
+      {
+        "commit_message": "debug(complex_boulder_pusher_tool): Add extensive logging to diagnose pathfinding failures. The tool generated an invalid path, indicating a flaw in its A* implementation for player movement. This commit adds detailed print statements to trace the A* execution, including the impassable set being used and the path being generated. This is a critical step to identify the root cause of the failure and ensure the tool's reliability for future puzzle-solving.",
+        "timestamp": "2025-08-04T20:06:24.090Z",
+        "action_counter": 121333
+      },
+      {
+        "commit_message": "fix(complex_boulder_pusher_tool): Correct player pathfinding logic. The previous version incorrectly removed the boulder's current position from the impassable set, allowing the player to path through it. This commit removes that incorrect line, forcing the player to navigate around the boulder to get into the correct pushing position. This is a critical fix for generating valid puzzle solutions.",
+        "timestamp": "2025-08-04T20:08:33.365Z",
+        "action_counter": 121335
+      }
+    ]
   }
 }
