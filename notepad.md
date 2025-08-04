@@ -59,6 +59,7 @@
 - **Victory Road 3F (Failed Plan):** The initial strategy from the `puzzle_strategist_agent` to push a boulder along the y=2 corridor was a hallucination. The path was blocked by impassable tiles at (5, 2) and (6, 2).
 - **Victory Road 2F (Trapped Boulder):** All attempts to move the boulder at (7, 15) to the eastern switch resulted in it becoming trapped.
 - **Victory Road 2F (Failed Manual Plan):** The manual plan to push the boulder from (4, 12) south to (4, 17) and then east to (10, 17) failed. The path east from (5, 17) was blocked by an impassable tile at (6, 17).
+- **Victory Road 2F (Agent Failure - Turn 120163):** The `puzzle_strategist_agent`'s plan to use the southern boulder at (8, 15) failed. The agent's proposed path to push the boulder to (9, 16) was blocked by an impassable tile at (9, 16). This confirms the agent can hallucinate invalid paths. The boulder is now trapped at (8, 16).
 
 # VI. Unsolved Puzzles (Inactive)
 - **Victory Road 2F (Eastern Boulder Puzzle):** Appears unsolvable with the southern boulder. The northern boulder at (6,6) is the only remaining option, but is currently inaccessible due to impassable objects.
@@ -77,4 +78,3 @@
 # IX. Strategic Reassessment (Post-Reflection)
 - **Conclusion:** My repeated attempts to solve the eastern boulder puzzle on Victory Road 2F have failed due to a high random encounter rate and critically low party health. My assumption that I could safely traverse the map was incorrect.
 - **New Directive:** The immediate priority is no longer the puzzle, but the survival and recovery of my party. I must retreat from Victory Road and heal at the Indigo Plateau Pokémon Center. Only then can I return to address the system's puzzle directive with a viable team.
-- **Victory Road 2F (Agent Failure - Turn 120163):** The `puzzle_strategist_agent`'s plan to use the southern boulder at (8, 15) failed. The agent's proposed path to push the boulder to (9, 16) was blocked by an impassable tile at (9, 16). This confirms the agent can hallucinate invalid paths. The boulder is now trapped at (8, 16).
