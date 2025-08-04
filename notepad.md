@@ -19,7 +19,7 @@
 - `ground`: Standard walkable tile (Elevation 0).
 - `elevated_ground`: Walkable tile at a higher elevation (Elevation 2). It is IMPOSSIBLE to step directly between `ground` and `elevated_ground`.
 - `steps`: Allows two-way movement between `ground` and `elevated_ground`. Boulders cannot be pushed onto `steps` tiles.
-- `cleared_boulder_barrier`: A former barrier that acts as a one-way ramp. It is IMPOSSIBLE to move between `ground` and `cleared_boulder_barrier` tiles.
+- `cleared_boulder_barrier`: A former barrier. On Victory Road 2F, this acts as a normal two-way path between `ground` and `elevated_ground`. On other maps, it may function as a one-way ramp.
 - `ladder_up`: Warp tile leading to a higher floor.
 - `ladder_down`: Warp tile leading to a lower floor.
 - `ledge`: One-way traversal. Can only be jumped DOWN from the tile directly above. Acts as a wall from all other directions.
