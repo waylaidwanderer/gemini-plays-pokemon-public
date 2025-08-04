@@ -3,7 +3,8 @@
 ## A. Victory Road 2F (Eastern Boulder Puzzle)
 - **Directive:** System has ordered the solution of this puzzle.
 - **Objective:** Move a boulder to the switch at (10, 17).
-- **Hypothesis:** The northern boulder at (6, 6) is the key, as the southern one at (7, 15) was determined to be a red herring after becoming trapped.
+- **New Finding:** The northern boulder at (6, 4) is inaccessible, blocked by impassable objects on both sides (defeated trainer at (5, 3) and walls). It cannot be the solution.
+- **New Hypothesis:** The southern boulder at (5, 15) MUST be the solution. The puzzle has been reset, so my previous failed attempt can be disregarded. A new attempt must be made.
 
 # II. Core Gameplay & World Rules
 
