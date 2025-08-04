@@ -1,6 +1,6 @@
 # I. Current Objective: Escape Victory Road & Heal
-- **Priority:** Navigate Victory Road 1F to reach the exit to Route 23, then proceed to the Indigo Plateau Pokémon Center.
-- **Status:** Party is critically injured. The eastern boulder puzzle at (11,3) must be solved to clear the path.
+- **Priority:** Navigate Victory Road 1F to reach the ladder to 2F at (2,2), then re-evaluate. The eastern puzzle is a dead end for now.
+- **Status:** Party is critically injured.
 
 # II. Core Gameplay & World Rules
 
@@ -11,6 +11,8 @@
 - **Surfing:** Not all `ground` tiles adjacent to `water` are valid starting points.
 - **Puzzle Resets:** Leaving and re-entering a map (e.g., Victory Road 1F to Route 23) resets its boulder puzzles. Using ladders between floors (e.g., 1F to 2F) does NOT reset them.
 - **Off-Screen State Changes:** An object's state (like a `boulder_barrier`) will not update in the map data until it is visible on-screen.
+- **Boulder Push (Horizontal):** When pushing a boulder horizontally, the player moves into the boulder's previous space, *unless* the tile directly behind the player is blocked by an object or impassable terrain. If blocked, only the boulder moves.
+- **Boulder/Item Interaction:** Pushing a boulder onto a tile containing an item will collect the item and move the boulder into that space.
 
 ## B. Tile Glossary & Movement Rules
 - `ground`: Standard walkable tile (Elevation 0).
@@ -46,13 +48,12 @@
 - **Victory Road 3F (Boulder Puzzle):** Solved by maneuvering the boulder from (7, 2) to the switch at (4, 6).
 - **Victory Road 2F (Western Boulder Puzzle):** The system has confirmed the barrier corresponding to the switch at (2, 17) is already cleared.
 - **Victory Road 2F (Puzzle Resets):** Confirmed that using ladders between floors does NOT reset a puzzle.
+- **Victory Road 1F (Boulder/Item Interaction):** Confirmed that pushing a boulder onto an item collects the item and moves the boulder into that space.
 
 # VI. Tool Development Notes
-## A. Tool Notes
-- The `gem_pathfinder_v2` tool may require a complete rewrite. Repeated, targeted fixes based on debugger agent analysis have failed to produce a reliable tool, suggesting a fundamental design flaw.
 
 ## B. Tool Status
-- **gem_pathfinder_v2:** RELIABLE (Basic Pathing). The tool has been fixed and is now reliable for standard navigation. Its ability to handle complex, state-based puzzles is still under development and should be used with caution.
+- **gem_pathfinder_v2:** RELIABLE (Basic Pathing). The tool is now reliable for standard navigation on this map, after it was determined that previous failures were due to a flawed world model on my part, not a bug in the tool's logic for valid paths.
 
 # VII. Lessons Learned & Heuristics
 - **Trust System Directives:** If a system directive contradicts direct, repeated in-game observations and specialist agent analysis, the directive is the source of truth. My observations or agent's analysis must be flawed.
@@ -62,4 +63,3 @@
 # VIII. Paused Investigations & Archived Conclusions
 - **Victory Road 2F (Failed Hypothesis - Paradoxical Push):** The agent's plan to push the boulder at (5, 15) onto the impassable tile at (9, 16) failed. The tile is truly impassable. The agent's reasoning was flawed due to its deference to a system directive.
 - **Victory Road 2F (Failed Hypothesis - Traversable Trainer):** The pathfinder returned 'No path found' when trying to route past the defeated Pokemaniac at (5, 3), even when ignoring the trainer's coordinates. This indicates the path is blocked by other impassable terrain, and the hypothesis that the trainer is the sole obstacle is incorrect or insufficient.
-- **Boulder Push (Horizontal):** When pushing a boulder horizontally, the player moves into the boulder's previous space, *unless* the tile directly behind the player is blocked by an object or impassable terrain. If blocked, only the boulder moves.
