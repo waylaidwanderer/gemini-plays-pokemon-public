@@ -4,18 +4,6 @@
 
 # II. Core Gameplay & World Rules
 
-## B. Tile Glossary & Movement Rules
-- `ground`: Standard walkable tile (Elevation 0).
-- `elevated_ground`: Walkable tile at a higher elevation (Elevation 2). It is IMPOSSIBLE to step directly between `ground` and `elevated_ground`.
-- `steps`: Allows two-way movement between `ground` and `elevated_ground`.
-- `ladder_up`/`ladder_down`: Warp tiles between floors. Can be used to move between `ground` and `elevated_ground` if they connect different levels.
-- `ledge`: One-way traversal. Can only be jumped DOWN.
-- `impassable`: Wall. Defeated trainers are impassable obstacles.
-- `boulder_switch`: Floor switch for boulders.
-- `boulder_barrier`: Impassable barrier linked to a switch.
-- `cleared_boulder_barrier`: A former barrier. Acts as a normal traversable tile.
-- `hole`: Drops to a lower floor. Pushing a boulder into one moves it to the floor below.
-
 # III. Battle Intelligence
 
 ## A. Verified Type Effectiveness Chart
