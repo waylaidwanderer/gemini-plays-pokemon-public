@@ -1,9 +1,9 @@
 # I. Active Investigations
 
-## A. Victory Road 1F (Eastern Boulder Puzzle)
-- **Directive:** System feedback implies this puzzle must be solved to exit the northwest corner of the map.
-- **Objective:** Move a boulder to the switch at (18, 14) to clear the barrier at (10, 13).
-- **Hypothesis:** The boulder at (15, 3) is the likely candidate, but I must find a path to the eastern side of the map first, possibly via other floors.
+## A. Victory Road 2F (Eastern Boulder Puzzle)
+- **Directive:** System feedback implies this puzzle must be solved to proceed.
+- **Objective:** Move a boulder to the switch at (10, 17) to clear a barrier.
+- **Hypothesis:** The northern boulder at (6, 6) is the only viable candidate, as the southern boulder at (8, 16) is trapped.
 
 # II. Core Gameplay & World Rules
 
@@ -59,16 +59,11 @@
 - **Victory Road 2F (Agent Failure - Turn 120163):** The `puzzle_strategist_agent`'s plan to use the southern boulder at (8, 15) failed. The agent's proposed path to push the boulder to (9, 16) was blocked by an impassable tile at (9, 16). This confirms the agent can hallucinate invalid paths. The boulder is now trapped at (8, 16).
 - **Victory Road 2F (Retreat Plan - Turn 120286):** A plan to retreat from Victory Road to heal was formulated due to low party health. This was invalidated by a system directive forcing the completion of the eastern boulder puzzle.
 
-# VI. Unsolved Puzzles (Inactive)
-- **Victory Road 2F (Eastern Boulder Puzzle):** Appears unsolvable with the southern boulder. The northern boulder at (6,6) is the only remaining option, but is currently inaccessible due to impassable objects.
+# VI. Tool Development Notes
 
-# VII. Agent & Tool Development Notes
-## A. Agent Notes
-- **pathfinder_debugger_agent:** Used to diagnose failures in `gem_pathfinder_v2`. Requires the tool's source code and a verbose log as input.
+## A. Tool Notes
+- **gem_pathfinder_v2:** **Operational.** Previously had a critical bug causing pathing failures, which has been fixed.
 
-## B. Tool Notes
-- **gem_pathfinder_v2:** **Operational.** Previously had a critical bug causing pathing failures, which was diagnosed by the `pathfinder_debugger_agent` and has since been fixed.
-
-# VIII. Lessons Learned & Heuristics
+# VII. Lessons Learned & Heuristics
 - **Verify 'Trapped' Scenarios:** If a pathfinder tool reports 'No path found' and I believe I am trapped, I must not accept this conclusion without verification. I need to manually inspect the map for alternative routes and trust the game state's list of reachable warps over my own assumptions.
 - **Boulders cannot be pushed up `steps` tiles:** This was tested and confirmed on Victory Road 2F.
