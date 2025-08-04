@@ -1,5 +1,5 @@
 # I. Current Objective: Escape Victory Road & Heal
-- **Priority:** Navigate Victory Road 1F to reach the ladder to 2F at (2,2), then re-evaluate. The eastern puzzle is a dead end for now.
+- **Priority:** Navigate Victory Road 1F to solve the western boulder puzzle, which will grant access to the ladder to 2F at (2,2).
 - **Status:** Party is critically injured.
 
 # II. Core Gameplay & World Rules
@@ -18,12 +18,12 @@
 - `ground`: Standard walkable tile (Elevation 0).
 - `elevated_ground`: Walkable tile at a higher elevation (Elevation 2). It is IMPOSSIBLE to step directly between `ground` and `elevated_ground`.
 - `steps`: Allows two-way movement between `ground` and `elevated_ground`.
-- `cleared_boulder_barrier`: A former barrier. Acts as a normal traversable tile. Direct movement from `ground` to this tile is IMPOSSIBLE.
-- `ladder_up`/`ladder_down`: Warp tiles between floors.
+- `ladder_up`/`ladder_down`: Warp tiles between floors. Can be used to move between `ground` and `elevated_ground` if they connect different levels.
 - `ledge`: One-way traversal. Can only be jumped DOWN.
 - `impassable`: Wall. Defeated trainers are impassable obstacles.
 - `boulder_switch`: Floor switch for boulders.
 - `boulder_barrier`: Impassable barrier linked to a switch.
+- `cleared_boulder_barrier`: A former barrier. Acts as a normal traversable tile.
 - `hole`: Drops to a lower floor. Pushing a boulder into one moves it to the floor below.
 
 # III. Battle Intelligence
@@ -50,16 +50,15 @@
 - **Victory Road 2F (Puzzle Resets):** Confirmed that using ladders between floors does NOT reset a puzzle.
 - **Victory Road 1F (Boulder/Item Interaction):** Confirmed that pushing a boulder onto an item collects the item and moves the boulder into that space.
 
-# VI. Tool Development Notes
-
-## B. Tool Status
-- **gem_pathfinder_v2:** RELIABLE (Basic Pathing). The tool is now reliable for standard navigation on this map, after it was determined that previous failures were due to a flawed world model on my part, not a bug in the tool's logic for valid paths.
+# VI. Tool Development Ideas
+- **Assumption Verifier Agent:** An agent that takes a hypothesis about game mechanics and suggests a minimal, targeted in-game test to verify or falsify it. This would help avoid confirmation bias and extended debugging loops based on flawed premises.
+- **Complex Boulder Pusher Tool:** A tool that can automate multi-step boulder puzzles, including pushes around corners. This would be an upgrade to the current `boulder_pusher_tool` which only handles linear pushes.
 
 # VII. Lessons Learned & Heuristics
+- **Confirmation Bias:** I must be willing to question my own strategic assumptions. If a reliable tool consistently fails to find a path, the most likely cause is that my understanding of the map is wrong, not that the tool is broken. I wasted significant time trying to 'fix' the pathfinder to match my flawed world model.
 - **Trust System Directives:** If a system directive contradicts direct, repeated in-game observations and specialist agent analysis, the directive is the source of truth. My observations or agent's analysis must be flawed.
-- **Hypothesis Under Test:** Boulders can be pushed from `elevated_ground` down onto `steps` tiles. My previous conclusion that this was impossible is now being re-tested, as it is the only remaining potential solution to the puzzle mandated by the system directive.
-- **Victory Road 2F (Floor-Contained Solution):** My conclusion that the puzzle was unsolvable on this floor was incorrect. This was based on my own flawed testing and my agent's analysis, both of which were superseded by a direct system directive.
+- **Hypothesis Under Test:** The `gem_pathfinder_v2` tool is now fixed after correcting its ladder logic. The next pathfinding call will serve as a direct test of this hypothesis.
 
 # VIII. Paused Investigations & Archived Conclusions
-- **Victory Road 2F (Failed Hypothesis - Paradoxical Push):** The agent's plan to push the boulder at (5, 15) onto the impassable tile at (9, 16) failed. The tile is truly impassable. The agent's reasoning was flawed due to its deference to a system directive.
-- **Victory Road 2F (Failed Hypothesis - Traversable Trainer):** The pathfinder returned 'No path found' when trying to route past the defeated Pokemaniac at (5, 3), even when ignoring the trainer's coordinates. This indicates the path is blocked by other impassable terrain, and the hypothesis that the trainer is the sole obstacle is incorrect or insufficient.
+- **Victory Road 1F (Eastern Boulder Puzzle):** This puzzle is currently a dead end. The boulder at (11, 3) cannot be moved past the item at (10, 3), and the item cannot be reached. The solution must lie elsewhere.
+- **Victory Road 2F (Floor-Contained Solution):** My conclusion that the puzzle was unsolvable on this floor was incorrect. This was based on my own flawed testing and my agent's analysis, both of which were superseded by a direct system directive.
