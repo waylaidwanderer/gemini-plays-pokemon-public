@@ -26,7 +26,6 @@
 - **Trust System Directives:** If a system directive contradicts direct, repeated in-game observations and specialist agent analysis, the directive is the source of truth. My observations or agent's analysis must be flawed.
 
 # V. Solved Puzzles & Verified Mechanics
-- **Victory Road 3F (Boulder Puzzle):** Solved by maneuvering the boulder from (7, 2) to the switch at (4, 6).
 - **Victory Road 2F (Western Boulder Puzzle):** The system has confirmed the barrier corresponding to the switch at (2, 17) is already cleared.
 - **Victory Road 2F (Puzzle Resets):** Confirmed that using ladders between floors DOES reset the boulder puzzles on both floors.
 - **Victory Road 1F (Boulder/Item Interaction):** Confirmed that pushing a boulder onto an item collects the item and moves the boulder into that space.
@@ -37,4 +36,4 @@
 # VI. Paused Investigations & Archived Conclusions
 - **Victory Road 1F (Eastern Boulder Puzzle):** This puzzle is currently a dead end. The boulder at (11, 3) cannot be moved past the item at (10, 3), and the item cannot be reached. The solution must lie elsewhere.
 - **Victory Road 2F (Eastern Boulder Puzzle):** My conclusion that the puzzle was unsolvable on this floor alone appears correct, as confirmed by my `complex_boulder_pusher_tool`.
-- **Victory Road 3F (Western Boulder Puzzle):** My `puzzle_strategist_agent` initially concluded the puzzle at switch (4,6) is unsolvable with the current boulder layout on this floor. However, a system directive has since confirmed the puzzle *is* solvable, meaning the initial analysis was flawed. The solution likely involves a hidden mechanic or an 'impossible' move.
+- **Victory Road 3F (Western Boulder Puzzle):** **[CORRECTED]** My `puzzle_strategist_agent` initially concluded the puzzle at switch (4,6) was unsolvable. However, a system directive has since confirmed the puzzle *is* solvable. The agent's revised analysis, incorporating the directive, suggests the solution involves pushing the boulder from (14, 13) through a supposedly impassable tile at (12, 11). This is the current working hypothesis.
