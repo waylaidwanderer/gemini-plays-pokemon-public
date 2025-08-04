@@ -3,8 +3,7 @@
 ## A. Victory Road 2F (Eastern Boulder Puzzle)
 - **Directive:** System has ordered the solution of this puzzle.
 - **Objective:** Move a boulder to the switch at (10, 17).
-- **Key Insight:** The western puzzle's barrier at (8,9) is already cleared, connecting the east and west elevated platforms.
-- **Current Approach:** After resetting the puzzle, I am now manually investigating the northern boulder at (6, 6). The `puzzle_strategist_agent` failed to find a solution, but the `boulder_trap_detector` has confirmed neither boulder is trapped. This indicates a solution exists that the agent could not perceive.
+- **Key Insight:** The `boulder_trap_detector` confirmed neither boulder is trapped, contradicting the `puzzle_strategist_agent` and proving a solution exists. I am now manually investigating the southern boulder at (6, 15).
 
 # II. Core Gameplay & World Rules
 
@@ -13,14 +12,16 @@
 - **PC Interaction:** Stand directly below the PC, face up, and press 'A' to access Pokémon Storage. 'Gem's PC' is for items.
 - **HM Usage:** HMs are used from the party menu. Fainted Pokémon can use field moves.
 - **Surfing:** Not all `ground` tiles adjacent to `water` are valid starting points.
-- **Boulder Pushing:** Activate Strength once from the party menu. For each push, simply walk into the boulder. It does not need to be reactivated for every push. When pushing a boulder, the player character moves into the boulder's previous tile after a horizontal push, but does NOT move after a vertical push.
+- **Boulder Pushing:** Activate Strength once from the party menu. For each push, simply walk into the boulder.
+  - **Standard Push:** When adjacent to a boulder, pushing it horizontally moves the player into the boulder's previous tile. Pushing vertically does NOT move the player.
+  - **NEW - Remote Push:** It is possible to push a boulder from one tile away (i.e., a one-tile gap between player and boulder). The boulder moves one tile, and the player does NOT move.
 - **Puzzle Resets:** Leaving and re-entering a map (e.g., Victory Road 1F to Route 23) resets its boulder puzzles. Using ladders between floors (e.g., 1F to 2F) does NOT reset them.
 - **Off-Screen State Changes:** An object's state (like a `boulder_barrier`) will not update in the map data until it is visible on-screen.
 
 ## B. Tile Glossary & Movement Rules
 - `ground`: Standard walkable tile (Elevation 0).
 - `elevated_ground`: Walkable tile at a higher elevation (Elevation 2). It is IMPOSSIBLE to step directly between `ground` and `elevated_ground`.
-- `steps`: Allows two-way movement between `ground` and `elevated_ground`.
+- `steps`: Allows two-way movement between `ground` and `elevated_ground`. Boulders cannot be pushed onto `steps` tiles.
 - `cleared_boulder_barrier`: A former barrier that acts as a one-way ramp (Elevation 1). Connects to adjacent elevations but cannot be stepped up onto from `ground` or down from to `ground`.
 - `ladder_up`: Warp tile leading to a higher floor.
 - `ladder_down`: Warp tile leading to a lower floor.
@@ -43,12 +44,12 @@
 - **Full Heal:** Cures status conditions only, does not restore HP.
 
 # IV. Core Principles & Methodology
-- **Agent-First Approach:** Before attempting any manual solution for a complex problem (puzzles, multi-step navigation, difficult battles), I MUST consult the relevant specialist agent first (`puzzle_strategist_agent`, `battle_strategist_agent`, etc.).
+- **Agent-First Approach:** Before attempting any manual solution for a complex problem (puzzles, multi-step navigation, difficult battles), I MUST consult the relevant specialist agent first.
 - **Scientific Method:** Use a scientific approach: form a hypothesis, test it, and document the conclusion. Do not modify tools to test hypotheses; test them with in-game actions first.
 - **Trust System Feedback:** System feedback (like validation warnings or tool errors) is the source of truth and MUST be trusted over personal assumptions or agent outputs.
 - **IMMEDIATE ACTION:** Flaws in tools or data management (notepad, markers) must be addressed immediately, not deferred as goals.
 
-# V. Solved Puzzles & Long-Term Knowledge
+# V. Solved Puzzles & Discarded Hypotheses
 
 ## A. Solved Puzzles & Verified Mechanics
 - **Victory Road 3F (Boulder Puzzle):** Solved by maneuvering the boulder from (7, 2) to the switch at (4, 6).
@@ -57,14 +58,13 @@
 - **Victory Road 2F (Puzzle Resets):** Confirmed that using ladders between floors does NOT reset a puzzle.
 
 ## B. Discarded Hypotheses
-- **Victory Road 3F (Failed Plan):** The initial strategy from the `puzzle_strategist_agent` to push a boulder along the y=2 corridor was a hallucination. The path was blocked by impassable tiles at (5, 2) and (6, 2). This plan is now discarded.
+- **Victory Road 3F (Failed Plan):** The initial strategy from the `puzzle_strategist_agent` to push a boulder along the y=2 corridor was a hallucination. The path was blocked by impassable tiles at (5, 2) and (6, 2).
 - **Victory Road 2F (Failed Agent Plan):** The puzzle_strategist_agent's plan to move the boulder onto elevated ground was impossible and has been discarded.
-- **Victory Road 2F (Trapped Boulder):** All attempts to move the boulder at (6, 8) or (8, 12) to the eastern switch resulted in it becoming trapped. These approaches are invalid.
+- **Victory Road 2F (Trapped Boulder):** All attempts to move the boulder at (6, 8) or (8, 12) to the eastern switch resulted in it becoming trapped.
 - **Victory Road 2F (Failed Manual Plan):** The manual plan to push the boulder from (4, 12) south to (4, 17) and then east to (10, 17) failed. The path east from (5, 17) was blocked by an impassable tile at (6, 17).
 
 # VI. Unsolved Puzzles (Inactive)
 - **Victory Road 1F (Eastern Boulder Puzzle):** Appears unsolvable. `puzzle_strategist_agent` concluded all boulders are trapped or have no viable path to the switch at (18, 14). Hypothesis is a hidden mechanic exists. Plan is to re-explore, investigate the barrier, and reset the puzzle if needed.
 
 # VIII. Lessons Learned & Heuristics
-- **Verify 'Trapped' Scenarios:** If a pathfinder tool reports 'No path found' and I believe I am trapped, I must not accept this conclusion without verification. I need to manually inspect the map for alternative routes and trust the game state's list of reachable warps over my own assumptions. (Lesson from Turn 119657 Hallucination)
-- **Victory Road 2F (Failed Elevation Push):** The hypothesis that a boulder could be pushed from `ground` up onto `elevated_ground` via a `steps` tile has been disproven. The attempt to push the boulder at (6, 12) onto the steps at (6, 11) failed. This entire approach is invalid.
+- **Verify 'Trapped' Scenarios:** If a pathfinder tool reports 'No path found' and I believe I am trapped, I must not accept this conclusion without verification. I need to manually inspect the map for alternative routes and trust the game state's list of reachable warps over my own assumptions.
