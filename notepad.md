@@ -66,7 +66,10 @@
 
 # VII. Agent & Tool Development Notes
 ## A. Agent Notes
-- **pathfinder_debugger_agent:** Defined but unused. Purpose is to analyze verbose logs from `gem_pathfinder_v2` to diagnose failures. Should be used if the pathfinder returns an error or a clearly incorrect path.
+- **pathfinder_debugger_agent:** Used once. Purpose is to analyze verbose logs from `gem_pathfinder_v2` to diagnose failures. MUST be used if the pathfinder returns an error or a clearly incorrect path.
+
+## B. Tool Notes
+- **gem_pathfinder_v2:** CRITICAL FAULT IDENTIFIED (Turn 120151). The tool generated a path containing an impassable tile on Turn 120130. It is unreliable for navigation until fixed. HIGHEST PRIORITY to debug and repair.
 
 # VIII. Lessons Learned & Heuristics
 - **Verify 'Trapped' Scenarios:** If a pathfinder tool reports 'No path found' and I believe I am trapped, I must not accept this conclusion without verification. I need to manually inspect the map for alternative routes and trust the game state's list of reachable warps over my own assumptions.
