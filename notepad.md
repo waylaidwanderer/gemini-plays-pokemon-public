@@ -63,3 +63,5 @@
 
 # VIII. Paused Investigations & Archived Conclusions
 - **Victory Road 1F (Eastern Boulder Puzzle):** Investigation paused. I trapped the boulder at (13, 3), making the puzzle unsolvable without a reset. I am currently on 2F.
+### C. Future Tool Ideas
+- **boulder_trap_detector:** A tool to programmatically check if a boulder is trapped by its surroundings. This would improve the `puzzle_strategist_agent`'s accuracy.
