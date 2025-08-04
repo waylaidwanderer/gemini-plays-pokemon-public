@@ -1,8 +1,9 @@
-# I. Current Objective: Solve Victory Road 2F Puzzle
-- **Priority:** Solve the eastern boulder puzzle as mandated by the system directive. The target is the switch at (10, 17).
-- **Status:** Party is critically injured. Retreat to heal is not an option until the puzzle is solved.
+# I. Current Objective: Solve Victory Road Puzzles
+- **Priority:** Explore Victory Road 3F to find a solution for the interconnected boulder puzzles, starting with the unvisited warp at (27, 9).
+- **Status:** Party is critically injured. Retreat to heal is not an option until progress is made.
 
 # II. Core Gameplay & World Rules
+- **Poison Damage:** Poisoned Pokémon in the party lose 1 HP every four steps taken outside of battle.
 
 # III. Battle Intelligence
 
@@ -31,8 +32,12 @@
 - **Victory Road 1F (Boulder/Item Interaction):** Confirmed that pushing a boulder onto an item collects the item and moves the boulder into that space.
 - **Victory Road 1F (Pathfinder Bug):** Corrected a critical logic flaw in `gem_pathfinder_v2` related to ladder traversal, which was causing it to fail on valid paths.
 - **Complex Boulder Pusher Tool v2 Fix (Turn 121441):** Refactored the tool to use the elevation-aware traversal logic from `gem_pathfinder_v2`, resolving a critical bug where it would generate invalid paths between different elevations.
+- **`cleared_boulder_barrier` Mechanic:** Confirmed that `cleared_boulder_barrier` acts as a one-way ramp. It is possible to move from a higher elevation tile (like `elevated_ground`) DOWN to the barrier tile, and from the barrier tile DOWN to `ground`. It is IMPOSSIBLE to move UP the ramp (e.g., from `ground` to the barrier, or from the barrier to `elevated_ground`).
 
 # VI. Paused Investigations & Archived Conclusions
 - **Victory Road 1F (Eastern Boulder Puzzle):** This puzzle is currently a dead end. The boulder at (11, 3) cannot be moved past the item at (10, 3), and the item cannot be reached. The solution must lie elsewhere.
-- **Victory Road 2F (Floor-Contained Solution):** My conclusion that the puzzle was unsolvable on this floor was incorrect. This was based on my own flawed testing and my agent's analysis, both of which were superseded by a direct system directive.
-- **Victory Road 2F (Cleared Boulder Barrier):** Confirmed that `cleared_boulder_barrier` acts as a one-way ramp. It is possible to move from a higher elevation tile (like `elevated_ground`) DOWN to the barrier tile, and from the barrier tile DOWN to `ground`. It is IMPOSSIBLE to move UP the ramp (e.g., from `ground` to the barrier, or from the barrier to `elevated_ground`).
+- **Victory Road 2F (Eastern Boulder Puzzle):** My conclusion that the puzzle was unsolvable on this floor alone appears correct, as confirmed by my `complex_boulder_pusher_tool`.
+- **Victory Road 3F (Western Boulder Puzzle):** My `puzzle_strategist_agent` concluded the puzzle at switch (4,6) is unsolvable with the current boulder layout on this floor. The solution is likely multi-floor or requires a reset.
+
+# VII. Development Backlog
+- **`boulder_path_debugger_agent`:** Create a new agent to analyze the log output from `complex_boulder_pusher_tool` to diagnose pathing failures, similar to the existing `pathfinder_debugger_agent`.
