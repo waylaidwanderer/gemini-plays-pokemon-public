@@ -2,8 +2,7 @@
 
 ## A. Eastern Boulder Puzzle
 - **Goal:** Get a boulder onto the switch at (10, 17).
-- **Available Boulders:** (5, 15), (6, 6).
-- **Status:** Gathering data for `puzzle_strategist_agent`.
+- **Status:** The western puzzle switch at (2, 17) is already solved. The solution must involve the northern boulder at (6, 6).
 
 # II. Core Gameplay & World Rules
 
