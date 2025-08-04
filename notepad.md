@@ -66,7 +66,7 @@
 - **pathfinder_debugger_agent:** Used to diagnose failures in `gem_pathfinder_v2`. Requires the tool's source code and a verbose log as input.
 
 ## B. Tool Notes
-- **gem_pathfinder_v2:** **Fixed (Turn 120156).** The tool was completely rewritten to resolve a critical `AttributeError` in its XML parsing logic. It is now considered functional and ready for use.
+- **gem_pathfinder_v2:** **Under Repair.** The tool has a critical bug preventing it from finding paths to impassable destination tiles (e.g., warps, NPCs). An agent has diagnosed the issue, and a fix is being implemented.
 
 # VIII. Lessons Learned & Heuristics
 - **Verify 'Trapped' Scenarios:** If a pathfinder tool reports 'No path found' and I believe I am trapped, I must not accept this conclusion without verification. I need to manually inspect the map for alternative routes and trust the game state's list of reachable warps over my own assumptions.
