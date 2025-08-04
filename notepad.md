@@ -13,8 +13,9 @@
 - **HM Usage:** HMs are used from the party menu. Fainted Pokémon can use field moves.
 - **Surfing:** Not all `ground` tiles adjacent to `water` are valid starting points.
 - **Boulder Pushing:** Activate Strength once from the party menu. For each push, simply walk into the boulder.
-  - **NEW - Standard Push:** When adjacent to a boulder, pushing it horizontally moves the player into the boulder's previous tile. Pushing vertically does NOT move the player. (Verified Turn 119915)
-  - **NEW - Remote Push:** It is possible to push a boulder from one tile away (i.e., a one-tile gap between player and boulder). The boulder moves one tile, and the player does NOT move. (Verified Turn 119914)
+  - **Adjacent Push (Verified Turn 119918):** When adjacent to a boulder, pushing it horizontally moves the boulder one tile, but the player does NOT move.
+  - **Standard Push (Hypothesis, needs re-verification):** An earlier push (Turn 119915) suggested that a horizontal push moves both the player and the boulder. The conditions for this are unknown.
+  - **Remote Push (Verified Turn 119914):** It is possible to push a boulder from one tile away. The boulder moves one tile, and the player does NOT move.
 - **Puzzle Resets:** Leaving and re-entering a map (e.g., Victory Road 1F to Route 23) resets its boulder puzzles. Using ladders between floors (e.g., 1F to 2F) does NOT reset them.
 - **Off-Screen State Changes:** An object's state (like a `boulder_barrier`) will not update in the map data until it is visible on-screen.
 
