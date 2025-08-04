@@ -68,6 +68,7 @@
 
 # VII. Agent & Tool Development Notes
 - **pathfinder_debugger_agent:** This agent is currently unused. I must find an opportunity to test its functionality, likely by intentionally feeding the pathfinder a difficult or failing case and analyzing the generated log.
+- **pathfinder_debugger_agent:** This agent is currently unused. I must find an opportunity to test its functionality, likely by intentionally feeding the pathfinder a difficult or failing case and analyzing the generated log.
 
 # VIII. Lessons Learned & Heuristics
 - **Verify 'Trapped' Scenarios:** If a pathfinder tool reports 'No path found' and I believe I am trapped, I must not accept this conclusion without verification. I need to manually inspect the map for alternative routes and trust the game state's list of reachable warps over my own assumptions.
