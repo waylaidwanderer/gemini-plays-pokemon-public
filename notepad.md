@@ -63,23 +63,5 @@
 
 # VIII. Paused Investigations & Archived Conclusions
 - **Victory Road 1F (Eastern Boulder Puzzle):** Investigation paused. I trapped the boulder at (15, 3), making the puzzle unsolvable without a reset. I am currently on 2F.
-
-### VICTORY ROAD 2F - EASTERN PUZZLE - NEW HYPOTHESIS (Turn 120732)
-- **Observation:** All previous attempts to solve the puzzle using the southern boulder at (8, 16) have failed. Pushing it into tiles marked 'impassable' does not work. My agent cannot find a logical solution. The system directive insists a solution exists on this floor.
-- **Paradox:** A solution must exist, but all known mechanics suggest it is impossible.
-- **New Hypothesis:** My previous conclusion that "Boulders cannot be pushed onto `steps` tiles" is incorrect for this specific puzzle. The solution involves pushing the northern boulder at (6, 6) down the steps at (6, 11).
-- **Test Plan:**
-    1. Navigate to position (6, 5).
-    2. Push the boulder at (6, 6) south repeatedly until it reaches (6, 10).
-    3. Attempt to push the boulder from (6, 10) onto the `steps` tile at (6, 11).
-- **Expected Outcome:** The boulder will move onto the steps, proving the hypothesis and revealing the path to the solution.
-
-### Victory Road 2F - Eastern Puzzle - FAILED HYPOTHESIS
-- **Hypothesis:** The impassable tile at (9, 16) was secretly traversable.
-- **Test:** Pushed the boulder at (8, 16) against the tile at (9, 16).
-- **Conclusion:** FAILED. The boulder did not move. The tile is truly impassable. The solution must lie elsewhere.
-
-### VICTORY ROAD 2F - FAILED HYPOTHESIS
-- **Hypothesis:** The defeated Pokemaniac at (5, 3) was traversable.
-- **Test:** Used the pathfinder to find a route to (6, 5), instructing it to ignore the trainer at (5, 3).
-- **Conclusion:** FAILED. The pathfinder returned 'No path found', indicating the path is blocked by something other than just the trainer. The hypothesis is either incorrect or insufficient.
+- **Victory Road 2F (Failed Hypothesis - Paradoxical Push):** The agent's plan to push the boulder at (5, 15) onto the impassable tile at (9, 16) failed. The tile is truly impassable. The agent's reasoning was flawed due to its deference to a system directive.
+- **Victory Road 2F (Failed Hypothesis - Traversable Trainer):** The pathfinder returned 'No path found' when trying to route past the defeated Pokemaniac at (5, 3), even when ignoring the trainer's coordinates. This indicates the path is blocked by other impassable terrain, and the hypothesis that the trainer is the sole obstacle is incorrect or insufficient.
