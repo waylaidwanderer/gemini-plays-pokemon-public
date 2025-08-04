@@ -3,7 +3,7 @@
 ## A. Victory Road 2F (Eastern Boulder Puzzle)
 - **Directive:** System has ordered the solution of this puzzle.
 - **Objective:** Move a boulder to the switch at (10, 17).
-- **Key Insight:** The `boulder_trap_detector` confirmed neither boulder is trapped, contradicting the `puzzle_strategist_agent` and proving a solution exists. I am now manually investigating the southern boulder at (6, 15).
+- **Key Insight:** The `boulder_trap_detector` confirmed neither boulder is trapped, contradicting the `puzzle_strategist_agent` and proving a solution exists. I am now manually investigating the southern boulder at (7, 15).
 
 # II. Core Gameplay & World Rules
 
@@ -54,7 +54,7 @@
 ## A. Solved Puzzles & Verified Mechanics
 - **Victory Road 3F (Boulder Puzzle):** Solved by maneuvering the boulder from (7, 2) to the switch at (4, 6).
 - **Victory Road 1F (Elevation):** Confirmed direct movement between `elevated_ground` and `ground` is impossible.
-- **Victory Road 2F (Western Boulder):** Solved by pushing the boulder at (5,15) to the switch at (2,17), clearing the barrier at (8,9) and (8,10).
+- **Victory Road 2F (Western Boulder):** Solved. The system has confirmed the barrier corresponding to the switch at (2, 17) is already cleared.
 - **Victory Road 2F (Puzzle Resets):** Confirmed that using ladders between floors does NOT reset a puzzle.
 
 ## B. Discarded Hypotheses
