@@ -76,5 +76,7 @@
     3. Attempt to push the boulder from (6, 10) onto the `steps` tile at (6, 11).
 - **Expected Outcome:** The boulder will move onto the steps, proving the hypothesis and revealing the path to the solution.
 
-### Victory Road 2F - Eastern Puzzle - Paradox
-- **Paradox:** System directive insists the puzzle is solvable on this floor, but all known mechanics and paths suggest it is impossible. This implies a hidden mechanic or an exception to a known rule (e.g., pushing boulders onto steps, or a specific impassable tile being secretly passable).
+### Victory Road 2F - Eastern Puzzle - FAILED HYPOTHESIS
+- **Hypothesis:** The impassable tile at (9, 16) was secretly traversable.
+- **Test:** Pushed the boulder at (8, 16) against the tile at (9, 16).
+- **Conclusion:** FAILED. The boulder did not move. The tile is truly impassable. The solution must lie elsewhere.
