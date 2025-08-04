@@ -53,7 +53,7 @@
 
 ## A. Tool Notes
 ## B. Tool Status
-- **gem_pathfinder_v2:** STABLE. The tool has been updated with more robust elevation logic.
+- **gem_pathfinder_v2:** FAULTY. The tool incorrectly treats movable boulders as impassable walls, causing pathfinding failures in puzzle areas. This has been fixed, but the status needs to be re-evaluated after more testing.
 
 # VII. Lessons Learned & Heuristics
 - **Trust System Directives:** If a system directive contradicts direct, repeated in-game observations and specialist agent analysis, the directive is the source of truth. My observations or agent's analysis must be flawed.
