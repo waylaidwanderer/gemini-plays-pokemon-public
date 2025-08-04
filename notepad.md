@@ -75,3 +75,6 @@
     2. Push the boulder at (6, 6) south repeatedly until it reaches (6, 10).
     3. Attempt to push the boulder from (6, 10) onto the `steps` tile at (6, 11).
 - **Expected Outcome:** The boulder will move onto the steps, proving the hypothesis and revealing the path to the solution.
+
+### Victory Road 2F - Eastern Puzzle - Paradox
+- **Paradox:** System directive insists the puzzle is solvable on this floor, but all known mechanics and paths suggest it is impossible. This implies a hidden mechanic or an exception to a known rule (e.g., pushing boulders onto steps, or a specific impassable tile being secretly passable).
