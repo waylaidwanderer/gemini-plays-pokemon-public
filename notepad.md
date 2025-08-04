@@ -1,6 +1,6 @@
-# I. Current Objective: Escape Victory Road & Heal
-- **Priority:** Navigate Victory Road 2F to solve the eastern boulder puzzle, which will grant access to the exit.
-- **Status:** Party is critically injured. Mandated by system to solve puzzle.
+# I. Current Objective: Solve Victory Road 2F Puzzle
+- **Priority:** Solve the eastern boulder puzzle as mandated by the system directive. The target is the switch at (10, 17).
+- **Status:** Party is critically injured. Retreat to heal is not an option until the puzzle is solved.
 
 # II. Core Gameplay & World Rules
 
