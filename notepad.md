@@ -4,16 +4,6 @@
 
 # II. Core Gameplay & World Rules
 
-## A. Game Mechanics
-- **Level Cap:** 8 badges = Level 65.
-- **PC Interaction:** Stand directly below the PC, face up, and press 'A' to access Pokémon Storage. 'Gem's PC' is for items.
-- **HM Usage:** HMs are used from the party menu. Fainted Pokémon can use field moves.
-- **Surfing:** Not all `ground` tiles adjacent to `water` are valid starting points.
-- **Puzzle Resets:** Leaving and re-entering a map (e.g., Victory Road 1F to Route 23) resets its boulder puzzles. Using ladders between floors (e.g., 1F to 2F) does NOT reset them.
-- **Off-Screen State Changes:** An object's state (like a `boulder_barrier`) will not update in the map data until it is visible on-screen.
-- **Boulder Push (Horizontal):** When pushing a boulder horizontally, the player moves into the boulder's previous space, *unless* the tile directly behind the player is blocked by an object or impassable terrain. If blocked, only the boulder moves.
-- **Boulder/Item Interaction:** Pushing a boulder onto a tile containing an item will collect the item and move the boulder into that space.
-
 ## B. Tile Glossary & Movement Rules
 - `ground`: Standard walkable tile (Elevation 0).
 - `elevated_ground`: Walkable tile at a higher elevation (Elevation 2). It is IMPOSSIBLE to step directly between `ground` and `elevated_ground`.
