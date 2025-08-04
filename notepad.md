@@ -53,7 +53,7 @@
 
 ## A. Tool Notes
 ## B. Tool Status
-- **gem_pathfinder_v2:** FAULTY. The tool incorrectly treats movable boulders as impassable walls, causing pathfinding failures in puzzle areas. This has been fixed, but the status needs to be re-evaluated after more testing.
+- **gem_pathfinder_v2:** UNDER OBSERVATION. The tool was generating invalid paths by moving through boulders because a previous fix incorrectly removed collision detection. The correct logic to treat boulders as impassable has been restored.
 
 # VII. Lessons Learned & Heuristics
 - **Trust System Directives:** If a system directive contradicts direct, repeated in-game observations and specialist agent analysis, the directive is the source of truth. My observations or agent's analysis must be flawed.
