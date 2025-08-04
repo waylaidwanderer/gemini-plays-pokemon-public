@@ -1,6 +1,6 @@
 # I. Current Objective: Escape Victory Road & Heal
-- **Priority:** Navigate Victory Road 1F to solve the western boulder puzzle, which will grant access to the ladder to 2F at (2,2).
-- **Status:** Party is critically injured.
+- **Priority:** Navigate Victory Road 2F to solve the eastern boulder puzzle, which will grant access to the exit.
+- **Status:** Party is critically injured. Mandated by system to solve puzzle.
 
 # II. Core Gameplay & World Rules
 
@@ -42,23 +42,17 @@
 - **Agent-First Approach:** Before attempting any manual solution for a complex problem, I MUST consult the relevant specialist agent first.
 - **Scientific Method:** Form a hypothesis, test it, and document the conclusion. Do not modify tools to test hypotheses; test them with in-game actions first.
 - **Trust System Feedback:** System feedback is the source of truth and MUST be trusted over personal assumptions or agent outputs.
-- **IMMEDIATE ACTION:** Flaws in tools or data management must be addressed immediately.
+- **IMMEDIATE ACTION:** Flaws in tools or data management must be addressed immediately. This includes implementing useful tool ideas instead of deferring them.
+- **Confirmation Bias:** I must be willing to question my own strategic assumptions. If a reliable tool consistently fails to find a path, the most likely cause is that my understanding of the map is wrong, not that the tool is broken.
+- **Trust System Directives:** If a system directive contradicts direct, repeated in-game observations and specialist agent analysis, the directive is the source of truth. My observations or agent's analysis must be flawed.
 
 # V. Solved Puzzles & Verified Mechanics
 - **Victory Road 3F (Boulder Puzzle):** Solved by maneuvering the boulder from (7, 2) to the switch at (4, 6).
 - **Victory Road 2F (Western Boulder Puzzle):** The system has confirmed the barrier corresponding to the switch at (2, 17) is already cleared.
 - **Victory Road 2F (Puzzle Resets):** Confirmed that using ladders between floors does NOT reset a puzzle.
 - **Victory Road 1F (Boulder/Item Interaction):** Confirmed that pushing a boulder onto an item collects the item and moves the boulder into that space.
+- **Victory Road 1F (Pathfinder Bug):** Corrected a critical logic flaw in `gem_pathfinder_v2` related to ladder traversal, which was causing it to fail on valid paths.
 
-# VI. Tool Development Ideas
-- **Assumption Verifier Agent:** An agent that takes a hypothesis about game mechanics and suggests a minimal, targeted in-game test to verify or falsify it. This would help avoid confirmation bias and extended debugging loops based on flawed premises.
-- **Complex Boulder Pusher Tool:** A tool that can automate multi-step boulder puzzles, including pushes around corners. This would be an upgrade to the current `boulder_pusher_tool` which only handles linear pushes.
-
-# VII. Lessons Learned & Heuristics
-- **Confirmation Bias:** I must be willing to question my own strategic assumptions. If a reliable tool consistently fails to find a path, the most likely cause is that my understanding of the map is wrong, not that the tool is broken. I wasted significant time trying to 'fix' the pathfinder to match my flawed world model.
-- **Trust System Directives:** If a system directive contradicts direct, repeated in-game observations and specialist agent analysis, the directive is the source of truth. My observations or agent's analysis must be flawed.
-- **Hypothesis Under Test:** The `gem_pathfinder_v2` tool is now fixed after correcting its ladder logic. The next pathfinding call will serve as a direct test of this hypothesis.
-
-# VIII. Paused Investigations & Archived Conclusions
+# VI. Paused Investigations & Archived Conclusions
 - **Victory Road 1F (Eastern Boulder Puzzle):** This puzzle is currently a dead end. The boulder at (11, 3) cannot be moved past the item at (10, 3), and the item cannot be reached. The solution must lie elsewhere.
 - **Victory Road 2F (Floor-Contained Solution):** My conclusion that the puzzle was unsolvable on this floor was incorrect. This was based on my own flawed testing and my agent's analysis, both of which were superseded by a direct system directive.
