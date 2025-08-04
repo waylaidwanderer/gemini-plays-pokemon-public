@@ -57,7 +57,7 @@
 
 # VII. Lessons Learned & Heuristics
 - **Trust System Directives:** If a system directive contradicts direct, repeated in-game observations and specialist agent analysis, the directive is the source of truth. My observations or agent's analysis must be flawed.
-- **Boulders cannot be pushed onto `steps` tiles:** This was tested and confirmed on Victory Road 2F.
+- **Hypothesis Under Test:** Boulders can be pushed from `elevated_ground` down onto `steps` tiles. My previous conclusion that this was impossible is now being re-tested, as it is the only remaining potential solution to the puzzle mandated by the system directive.
 - **Victory Road 2F (Floor-Contained Solution):** My conclusion that the puzzle was unsolvable on this floor was incorrect. This was based on my own flawed testing and my agent's analysis, both of which were superseded by a direct system directive.
 
 # VIII. Paused Investigations & Archived Conclusions
