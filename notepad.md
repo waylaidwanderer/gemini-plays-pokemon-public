@@ -1,6 +1,6 @@
 # I. Current Objective: Escape Victory Road & Heal
 - **Priority:** Navigate Victory Road 1F to reach the exit to Route 23, then proceed to the Indigo Plateau Pokémon Center.
-- **Status:** Party is critically injured. Manual navigation is required.
+- **Status:** Party is critically injured. The eastern boulder puzzle at (11,3) must be solved to clear the path.
 
 # II. Core Gameplay & World Rules
 
@@ -52,7 +52,7 @@
 - The `gem_pathfinder_v2` tool may require a complete rewrite. Repeated, targeted fixes based on debugger agent analysis have failed to produce a reliable tool, suggesting a fundamental design flaw.
 
 ## B. Tool Status
-- **gem_pathfinder_v2:** CRITICALLY UNRELIABLE. The tool is fundamentally broken and cannot be trusted for navigation. It has multiple, cascading bugs related to obstacle and elevation logic (including ladders). DO NOT USE until a full diagnostic and rewrite can be performed after the party is safe.
+- **gem_pathfinder_v2:** RELIABLE (Basic Pathing). The tool has been fixed and is now reliable for standard navigation. Its ability to handle complex, state-based puzzles is still under development and should be used with caution.
 
 # VII. Lessons Learned & Heuristics
 - **Trust System Directives:** If a system directive contradicts direct, repeated in-game observations and specialist agent analysis, the directive is the source of truth. My observations or agent's analysis must be flawed.
@@ -60,7 +60,6 @@
 - **Victory Road 2F (Floor-Contained Solution):** My conclusion that the puzzle was unsolvable on this floor was incorrect. This was based on my own flawed testing and my agent's analysis, both of which were superseded by a direct system directive.
 
 # VIII. Paused Investigations & Archived Conclusions
-- **Victory Road 1F (Eastern Boulder Puzzle):** Investigation paused. I trapped the boulder at (15, 3), making the puzzle unsolvable without a reset. I am currently on 2F.
 - **Victory Road 2F (Failed Hypothesis - Paradoxical Push):** The agent's plan to push the boulder at (5, 15) onto the impassable tile at (9, 16) failed. The tile is truly impassable. The agent's reasoning was flawed due to its deference to a system directive.
 - **Victory Road 2F (Failed Hypothesis - Traversable Trainer):** The pathfinder returned 'No path found' when trying to route past the defeated Pokemaniac at (5, 3), even when ignoring the trainer's coordinates. This indicates the path is blocked by other impassable terrain, and the hypothesis that the trainer is the sole obstacle is incorrect or insufficient.
 - **Boulder Push (Horizontal):** When pushing a boulder horizontally, the player moves into the boulder's previous space, *unless* the tile directly behind the player is blocked by an object or impassable terrain. If blocked, only the boulder moves.
