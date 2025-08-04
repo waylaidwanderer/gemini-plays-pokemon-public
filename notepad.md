@@ -19,7 +19,7 @@
 - `ground`: Standard walkable tile (Elevation 0).
 - `elevated_ground`: Walkable tile at a higher elevation (Elevation 2). It is IMPOSSIBLE to step directly between `ground` and `elevated_ground`.
 - `steps`: Allows two-way movement between `ground` and `elevated_ground`. Boulders cannot be pushed onto `steps` tiles.
-- `cleared_boulder_barrier`: A former barrier. On Victory Road 2F, this acts as a normal two-way path between `ground` and `elevated_ground`.
+- `cleared_boulder_barrier`: A former barrier. On Victory Road 2F, movement from this tile at (8,9) up to the `ground` tile at (8,8) is blocked. It may be a one-way path downwards.
 - `ladder_up`: Warp tile leading to a higher floor.
 - `ladder_down`: Warp tile leading to a lower floor.
 - `ledge`: One-way traversal. Can only be jumped DOWN from the tile directly above. Acts as a wall from all other directions.
@@ -56,7 +56,7 @@
 ## B. Discarded Hypotheses
 - **Victory Road 2F (Southern Boulder Trap):** The southern boulder at (5, 15) cannot reach the eastern switch at (10, 17). It gets trapped by an impassable wall at (9, 16).
 - **Victory Road 2F (Northern Boulder Trap):** The northern boulder at (6, 6) is also trapped. It cannot be moved into a position to reach the eastern switch due to impassable walls and the defeated Pokemaniac at (5, 3).
-- **Victory Road 2F (One-Way Barrier):** My initial hypothesis that the `cleared_boulder_barrier` tile at (8, 9) was a one-way ramp was incorrect. The system's insistence that the western part of the map is reachable proves it must be a two-way path.
+- **Victory Road 2F (One-Way Barrier):** My initial hypothesis that the `cleared_boulder_barrier` tile at (8, 9) was a one-way ramp may have been correct. My attempt to move from (8,9) to (8,8) was blocked. The path to the west must exist via another route.
 
 # VI. Tool Development Notes
 
