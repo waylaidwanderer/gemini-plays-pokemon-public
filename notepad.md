@@ -1,8 +1,6 @@
-# I. Current Objective: Victory Road 2F
-
-## A. Eastern Boulder Puzzle
-- **Goal:** Get a boulder onto the switch at (10, 17).
-- **Status:** The western puzzle switch at (2, 17) is already solved. The solution must involve the northern boulder at (6, 6).
+# I. Current Objective: Escape Victory Road & Heal
+- **Priority:** Navigate Victory Road 1F to reach the exit to Route 23, then proceed to the Indigo Plateau Pokémon Center.
+- **Status:** Party is critically injured. Manual navigation is required.
 
 # II. Core Gameplay & World Rules
 
@@ -50,10 +48,11 @@
 - **Victory Road 2F (Puzzle Resets):** Confirmed that using ladders between floors does NOT reset a puzzle.
 
 # VI. Tool Development Notes
-
 ## A. Tool Notes
+- The `gem_pathfinder_v2` tool may require a complete rewrite. Repeated, targeted fixes based on debugger agent analysis have failed to produce a reliable tool, suggesting a fundamental design flaw.
+
 ## B. Tool Status
-- **gem_pathfinder_v2:** CRITICALLY FLAWED. The `pathfinder_debugger_agent` has diagnosed a flaw in the tool's traversal logic for ladders, causing it to treat them as dead ends. The tool cannot be considered reliable for multi-level navigation until this is fixed.
+- **gem_pathfinder_v2:** CRITICALLY UNRELIABLE. The tool is fundamentally broken and cannot be trusted for navigation. It has multiple, cascading bugs related to obstacle and elevation logic (including ladders). DO NOT USE until a full diagnostic and rewrite can be performed after the party is safe.
 
 # VII. Lessons Learned & Heuristics
 - **Trust System Directives:** If a system directive contradicts direct, repeated in-game observations and specialist agent analysis, the directive is the source of truth. My observations or agent's analysis must be flawed.
