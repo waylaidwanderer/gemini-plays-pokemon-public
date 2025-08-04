@@ -3,7 +3,7 @@
 ## A. Victory Road 2F (Eastern Boulder Puzzle)
 - **Directive:** System has ordered the solution of this puzzle.
 - **Objective:** Move a boulder to the switch at (10, 17).
-- **Key Insight:** The `boulder_trap_detector` confirmed neither boulder is trapped. My own map marker indicates the northern boulder is a red herring. Therefore, the southern boulder at (7, 15) is the key.
+- **Hypothesis:** The northern boulder at (6, 6) is the key, as the southern one at (7, 15) was determined to be a red herring after becoming trapped.
 
 # II. Core Gameplay & World Rules
 
@@ -12,10 +12,7 @@
 - **PC Interaction:** Stand directly below the PC, face up, and press 'A' to access Pokémon Storage. 'Gem's PC' is for items.
 - **HM Usage:** HMs are used from the party menu. Fainted Pokémon can use field moves.
 - **Surfing:** Not all `ground` tiles adjacent to `water` are valid starting points.
-- **Boulder Pushing:** Activate Strength once from the party menu. For each push, simply walk into the boulder.
-  - **Adjacent Push (Verified Turn 119918):** When adjacent to a boulder, pushing it horizontally moves the boulder one tile, but the player does NOT move.
-  - **Standard Push (Hypothesis, needs re-verification):** An earlier push (Turn 119915) suggested that a horizontal push moves both the player and the boulder. The conditions for this are unknown.
-  - **Remote Push (Verified Turn 119914):** It is possible to push a boulder from one tile away. The boulder moves one tile, and the player does NOT move.
+- **Boulder Pushing (Under Investigation):** Activate Strength once from the party menu. The exact player/boulder movement mechanic for horizontal pushes is unconfirmed and has shown conflicting results. Needs systematic testing.
 - **Puzzle Resets:** Leaving and re-entering a map (e.g., Victory Road 1F to Route 23) resets its boulder puzzles. Using ladders between floors (e.g., 1F to 2F) does NOT reset them.
 - **Off-Screen State Changes:** An object's state (like a `boulder_barrier`) will not update in the map data until it is visible on-screen.
 
@@ -60,13 +57,15 @@
 
 ## B. Discarded Hypotheses
 - **Victory Road 3F (Failed Plan):** The initial strategy from the `puzzle_strategist_agent` to push a boulder along the y=2 corridor was a hallucination. The path was blocked by impassable tiles at (5, 2) and (6, 2).
-- **Victory Road 2F (Trapped Boulder):** All attempts to move the boulder at (6, 8) or (8, 12) to the eastern switch resulted in it becoming trapped.
+- **Victory Road 2F (Trapped Boulder):** All attempts to move the boulder at (7, 15) to the eastern switch resulted in it becoming trapped.
 - **Victory Road 2F (Failed Manual Plan):** The manual plan to push the boulder from (4, 12) south to (4, 17) and then east to (10, 17) failed. The path east from (5, 17) was blocked by an impassable tile at (6, 17).
 
 # VI. Unsolved Puzzles (Inactive)
 - **Victory Road 1F (Eastern Boulder Puzzle):** Appears unsolvable. `puzzle_strategist_agent` concluded all boulders are trapped or have no viable path to the switch at (18, 14). Hypothesis is a hidden mechanic exists. Plan is to re-explore, investigate the barrier, and reset the puzzle if needed.
 
 # VII. Agent & Tool Development Notes
+## A. Agent Notes
+- **pathfinder_debugger_agent:** Defined but unused. Purpose is to analyze verbose logs from `gem_pathfinder_v2` to diagnose failures. Should be used if the pathfinder returns an error or a clearly incorrect path.
 
 # VIII. Lessons Learned & Heuristics
 - **Verify 'Trapped' Scenarios:** If a pathfinder tool reports 'No path found' and I believe I am trapped, I must not accept this conclusion without verification. I need to manually inspect the map for alternative routes and trust the game state's list of reachable warps over my own assumptions.
