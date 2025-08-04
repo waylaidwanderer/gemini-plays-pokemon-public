@@ -56,6 +56,7 @@
 ## B. Discarded Hypotheses
 - **Victory Road 2F (Southern Boulder Trap):** The southern boulder at (5, 15) cannot reach the eastern switch at (10, 17). It gets trapped by an impassable wall at (9, 16).
 - **Victory Road 2F (Northern Boulder Trap):** The northern boulder at (6, 6) is also trapped. It cannot be moved into a position to reach the eastern switch due to impassable walls and the defeated Pokemaniac at (5, 3).
+- **Victory Road 2F (One-Way Barrier):** My initial hypothesis that the `cleared_boulder_barrier` tile at (8, 9) was a one-way ramp was incorrect. The system's insistence that the western part of the map is reachable proves it must be a two-way path.
 
 # VI. Tool Development Notes
 
