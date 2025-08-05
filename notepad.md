@@ -76,4 +76,4 @@
   4. Push the boulder RIGHT to (9, 5).
   5. Navigate around to (9, 4) to get above the boulder.
   6. Push the boulder DOWN onto the switch at (10, 17).
-- **[FALSIFIED] Victory Road 2F (Southern Boulder @ 5,17):** The agent's hypothesis, based on a system directive, that this boulder could be pushed east through a secret passage was incorrect. The push from (4, 17) was blocked by the impassable tile at (6, 17). The solution must involve the northern boulder.
+- **[FALSIFIED] Victory Road 2F (Southern Boulder):** All agent-led hypotheses regarding the southern boulder at (5,15) and (5,17) have been falsified. Attempts to push it east through presumed secret passages at (9,16), (9,14), and (6,17) were all blocked by impassable tiles. The solution must involve the northern boulder.
