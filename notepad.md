@@ -49,3 +49,4 @@
 - **Victory Road 2F (Eastern Puzzle @ 10,17):** Hypothesis to use the southern boulder (at 7, 14) has been falsified. The path to the switch is blocked by an impassable tile at (9, 17). The solution must involve the northern boulder at (6, 6).
 ## Archived Hypotheses
 - **[ARCHIVED] Hypothesis (Victory Road 2F):** Interacting with Pikachu at (6, 11) failed to move him. He is a standard moving NPC who is currently blocking the 'steps' tile, which is the only path to the northern boulder. The only option is to wait for him to move on his own.
+- **[FALSIFIED] Victory Road 2F (Eastern Puzzle):** The agent's hypothesis that the southern boulder at (5, 15) could be pushed through a secret passage at (9, 15) was incorrect. The push from (4, 15) was blocked. The solution must involve the northern boulder at (6, 6).
