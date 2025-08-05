@@ -45,12 +45,5 @@
 - **Agent Usage Error:** I failed to provide a critical `system_directive` to my `puzzle_strategist_agent`, leading to a flawed plan. I must ensure all relevant context is provided to agents immediately.
 - **Tool Opportunity:** I can streamline puzzle-solving by creating a single tool, `puzzle_solver_suite`, that both gathers the puzzle state and calls the strategist agent in one action.
 - **Untested Hypothesis:** The current primary hypothesis is that solving the western switch on Victory Road 2F has cleared the impassable tiles blocking the path for the eastern puzzle. This needs to be tested.
-- **Victory Road 2F (Eastern Boulder Puzzle):** Investigation log for the switch at (10, 17). Multiple hypotheses tested and disproven.
-  - **Hypothesis 1:** The impassable tile at (9, 15) is a secret passage. **Result:** False. The boulder at (8, 15) cannot be pushed through it.
-  - **Hypothesis 2:** Solving the western switch at (2, 17) cleared the path along the y=17 row. **Result:** False. The boulder at (5, 17) cannot be pushed through (6, 17).
-  - **Conclusion:** The southern boulder at (5, 17) is not the solution. The directive to solve the puzzle remains, so the solution must involve the northern boulder at (6, 6).
+- **Victory Road 2F (Eastern Puzzle @ 10,17):** Multiple hypotheses tested and falsified. The southern boulders at (8, 15) and (5, 17) are not the solution. The impassable tile at (9, 15) is confirmed to be a hard wall. The solution must involve the northern boulder at (6, 5). Investigation is paused to retreat and heal the party.
 - **`elevated_ground` to `ground`:** Direct movement between these two tile types is impossible unless a `steps` tile is used as a connector.
-- **Victory Road 2F (Eastern Boulder Puzzle):** Investigation log for the switch at (10, 17). Multiple hypotheses tested and disproven.
-  - **Hypothesis 1 (Falsified):** The impassable tile at (9, 15) is a secret passage. **Conclusion:** The tile is impassable. The southern boulder at (8, 15) is not the solution.
-  - **Hypothesis 2 (Falsified):** Solving the western switch cleared the path along the y=17 row. **Conclusion:** The boulder at (5, 17) cannot be pushed through (6, 17).
-  - **Current Conclusion:** The solution must involve the northern boulder at (6, 5). This investigation is paused pending party healing.
