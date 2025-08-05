@@ -16,15 +16,15 @@
 
 # III. Battle Intelligence
 
-## A. Verified Type Effectiveness Chart
-- **Super Effective (2x):** Psychic > Ghost, Poison; Ghost > Psychic; Electric > Rock, Water; Flying > Grass, Poison, Fighting; Ice > Ground, Grass, Flying, Dragon; Ground > Poison, Fire, Electric, Rock, Ground; Rock > Fire, Ice, Flying, Bug; Fighting > Normal, Rock, Ice; Water > Fire, Ground, Rock; Grass > Water, Ground, Rock; Bug > Grass, Poison, Psychic; Poison > Grass, Bug
-- **Not Very Effective (0.5x):** Normal !> Rock; Electric !> Grass, Electric, Dragon; Rock !> Psychic; Psychic !> Psychic; Poison !> Poison, Ground, Rock, Ghost; Ice !> Water, Ice, Fire; Fighting > Poison, Flying, Psychic, Bug; Water !> Water, Grass, Dragon; Grass !> Fire, Grass, Poison, Flying, Bug, Dragon
-- **Immune (0x):** Flying immune to Ground; Ground immune to Electric; Ghost immune to Normal, Fighting
+## A. Type Effectiveness Chart (OBSERVATION-ONLY)
+*This chart will be built exclusively from in-game battle observations to avoid reliance on external knowledge.*
+- **(Placeholder for verified matchups)**
 
 ## B. Strategic Notes & Mechanics
 - **"No Will to Fight" Message:** A party menu cursor error on a fainted Pokémon, not a refusal to battle.
 - **Struggle Mechanic:** Used automatically only when a Pokémon is out of PP for ALL moves.
 - **Full Heal:** Cures status conditions only, does not restore HP.
+- **Fainted Pokémon can use HMs:** Confirmed that a fainted Pokémon (CRAG) can be selected to use a field move like Strength.
 
 # IV. Core Principles & Methodology
 - **Agent-First Approach:** Before attempting any manual solution for a complex problem, I MUST consult the relevant specialist agent first.
