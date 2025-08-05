@@ -47,3 +47,4 @@
 - **Victory Road 2F (Eastern Puzzle @ 10,17):** Multiple hypotheses for using the southern boulder have been tested and falsified. The impassable tiles at (9, 15) and along row 17 are confirmed to be hard walls. The puzzle solution must involve the northern boulder at (6, 6). Current objective is to navigate to the northern boulder and find a solution.
 - **`elevated_ground` to `ground`:** Direct movement between these two tile types is impossible unless a `steps` tile is used as a connector.
 - **Agent-First Debugging:** When a custom tool fails, I MUST use my `tool_debugger_agent` for analysis before attempting any manual fixes. This is a direct response to an overwatch critique pointing out my inefficient manual debugging of `gem_pathfinder_v2`.
+- **Victory Road 2F (Eastern Puzzle @ 10,17):** Agent's hypothesis to push boulder at (5, 17) right has been tested and falsified. The tile at (6, 17) is impassable. The southern boulder is a confirmed dead end.
