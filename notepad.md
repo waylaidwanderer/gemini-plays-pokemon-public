@@ -35,3 +35,6 @@
 - **Victory Road 1F (Eastern Boulder Puzzle):** This puzzle is currently a dead end. The boulder at (11, 3) cannot be moved past the item at (10, 3), and the item cannot be reached. The solution must lie elsewhere.
 - **Victory Road 2F (Eastern Boulder Puzzle):** **[ARCHIVED]** My `puzzle_strategist_agent` and `complex_boulder_pusher_tool` initially concluded the puzzle was unsolvable from this floor. This was superseded by a directive for 3F.
 - **Victory Road 3F (Western Boulder Puzzle):** **[ACTIVE INVESTIGATION]** My `puzzle_strategist_agent` initially concluded the puzzle at switch (4,6) was unsolvable. However, a system directive has since confirmed the puzzle *is* solvable. The agent's revised analysis, incorporating the directive, suggests the solution involves pushing the boulder from (14, 13) through a supposedly impassable tile at (12, 11). This is the current working hypothesis.
+
+# VI. Meta & Self-Correction
+- **Type Chart Verification:** As per Overwatch critique, I must ensure the Type Effectiveness Chart is built *exclusively* from in-game battle observations to avoid relying on external knowledge.
