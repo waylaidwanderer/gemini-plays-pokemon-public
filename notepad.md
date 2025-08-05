@@ -35,8 +35,7 @@
 
 # V. Paused Investigations & Archived Conclusions
 - **Victory Road 1F (Eastern Boulder Puzzle):** This puzzle is currently a dead end. The boulder at (11, 3) cannot be moved past the item at (10, 3), and the item cannot be reached. The solution must lie elsewhere.
-- **Victory Road 2F (Eastern Boulder Puzzle):** **[ARCHIVED]** My `puzzle_strategist_agent` and `complex_boulder_pusher_tool` initially concluded the puzzle was unsolvable from this floor. This was superseded by a directive for 3F.
-- **Victory Road 3F (Western Boulder Puzzle):** **[ACTIVE INVESTIGATION]** My `puzzle_strategist_agent` initially concluded the puzzle at switch (4,6) was unsolvable. However, a system directive has since confirmed the puzzle *is* solvable. The agent's revised analysis, incorporating the directive, suggests the solution involves pushing the boulder from (14, 13) through a supposedly impassable tile at (12, 11). This is the current working hypothesis.
+- **Victory Road 3F (Western Boulder Puzzle):** My `puzzle_strategist_agent` initially concluded the puzzle at switch (4,6) was unsolvable. However, a system directive has since confirmed the puzzle *is* solvable. The agent's revised analysis, incorporating the directive, suggests the solution involves pushing the boulder from (14, 13) through a supposedly impassable tile at (12, 11). This is the current working hypothesis.
 - **Type Chart Verification:** As per Overwatch critique, I must ensure the Type Effectiveness Chart is built *exclusively* from in-game battle observations to avoid relying on external knowledge.
 - **Hallucinated Tool:** Overwatch critique mentioned a `complex_boulder_pusher_tool` that needed fixing/deleting. My attempt to delete it failed because the tool does not exist. This was a hallucination on my part; I must be more careful tracking my custom tools.
 
@@ -44,5 +43,4 @@
 - **Horizontal Push Anomaly (Victory Road 2F - NEW):** At (4, 14), pushing the boulder from (5, 14) to (6, 14) did not move the player character to (5, 14), contradicting previous observations. This needs further verification.
 - **Victory Road 2F (Eastern Puzzle @ 10,17):** Hypothesis to use the southern boulder (at 7, 14) has been falsified. The path to the switch is blocked by an impassable tile at (9, 17). The solution must involve the northern boulder at (6, 6).
 ## Archived Hypotheses
-- **[ARCHIVED] Hypothesis (A):** My documented rule that `elevated_ground` -> `ground` requires `steps` is incorrect for this specific map. A direct path must exist.
-- **[ARCHIVED] Hypothesis (B):** Interacting with Pikachu at (6, 11) failed to move him. He is a standard moving NPC who is currently blocking the 'steps' tile, which is the only path to the northern boulder. The only option is to wait for him to move on his own.
+- **[ARCHIVED] Hypothesis (Victory Road 2F):** Interacting with Pikachu at (6, 11) failed to move him. He is a standard moving NPC who is currently blocking the 'steps' tile, which is the only path to the northern boulder. The only option is to wait for him to move on his own.
