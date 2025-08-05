@@ -2237,5 +2237,31 @@
         "action_counter": 120853
       }
     ]
+  },
+  "log_summarizer": {
+    "description": "Summarizes a long log file, focusing on the beginning and end, to prevent truncation when passing it to another agent.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "log_text": {
+          "type": "string"
+        },
+        "max_chars": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "log_text",
+        "max_chars"
+      ]
+    },
+    "python_script": "import json\nlog_text = input_data['log_text']\nmax_chars = int(input_data['max_chars'])\nif len(log_text) > max_chars:\n    half_chars = (max_chars - 50) // 2\n    start = log_text[:half_chars]\n    end = log_text[-half_chars:]\n    summary = f\"{start}\\n... (log truncated) ...\\n{end}\"\n    print(json.dumps({\"summary\": summary}))\nelse:\n    print(json.dumps({\"summary\": log_text}))",
+    "history": [
+      {
+        "commit_message": "feat: Create log_summarizer tool. This tool will prevent log truncation issues when passing verbose tool output to debugger agents, which was a critical failure identified in the last overwatch critique. This is a necessary step to break the current unproductive debugging loop.",
+        "timestamp": "2025-08-05T13:18:24.116Z",
+        "action_counter": 122522
+      }
+    ]
   }
 }
