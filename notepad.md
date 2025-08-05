@@ -1,6 +1,6 @@
 # I. Current Objective: Solve Victory Road Puzzles
-- **Priority:** Solve the eastern boulder puzzle on Victory Road 2F as per the system directive. The target switch is at (10, 17).
-- **Status:** Party is critically injured. My `gem_pathfinder_v2` tool is broken, which is the highest priority to fix.
+- **Priority:** Solve the western boulder puzzle on Victory Road 3F as per the system directive. The target switch is at (4, 6).
+- **Status:** Party is critically injured. My `gem_pathfinder_v2` tool is working, but the map is geographically segmented.
 
 # II. Core Gameplay & World Rules
 - **Poison Damage:** Poisoned Pokémon in the party lose 1 HP every four steps taken outside of battle.
