@@ -2254,45 +2254,6 @@
       }
     ]
   },
-  "boulder_trap_detector": {
-    "description": "Checks if a boulder at a given coordinate is trapped by impassable tiles or other boulders, meaning it has no valid push directions.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "boulder_x": {
-          "type": "string"
-        },
-        "boulder_y": {
-          "type": "string"
-        },
-        "impassable_tiles": {
-          "type": "string"
-        },
-        "boulders": {
-          "type": "string"
-        }
-      },
-      "required": [
-        "boulder_x",
-        "boulder_y",
-        "impassable_tiles",
-        "boulders"
-      ]
-    },
-    "python_script": "import json\n\nboulder_x = int(input_data['boulder_x'])\nboulder_y = int(input_data['boulder_y'])\nimpassable_tiles = set(tuple(d.values()) for d in json.loads(input_data['impassable_tiles']))\nother_boulders = set(tuple(d.values()) for d in json.loads(input_data['boulders']))\nother_boulders.remove((boulder_x, boulder_y))\n\nall_obstacles = impassable_tiles.union(other_boulders)\n\npush_directions = {\n    'up': (0, -1),\n    'down': (0, 1),\n    'left': (-1, 0),\n    'right': (1, 0)\n}\n\nfor direction, (dx, dy) in push_directions.items():\n    player_pos = (boulder_x - dx, boulder_y - dy)\n    landing_pos = (boulder_x + dx, boulder_y + dy)\n\n    if player_pos not in all_obstacles and landing_pos not in all_obstacles:\n        print(json.dumps({'is_trapped': False, 'reason': 'At least one valid push direction found.'}))\n        exit()\n\nprint(json.dumps({'is_trapped': True, 'reason': 'All four push directions are blocked by obstacles.'}))",
-    "history": [
-      {
-        "commit_message": "feat: Create boulder_trap_detector tool. This tool programmatically checks if a boulder is trapped, preventing the puzzle_strategist_agent from generating invalid plans. This is a direct result of the 50-turn reflection identifying a need for better computational support for puzzle-solving.",
-        "timestamp": "2025-08-03T21:17:14.562Z",
-        "action_counter": 119607
-      },
-      {
-        "commit_message": "feat: Create boulder_trap_detector tool. This tool programmatically checks if a boulder is trapped, preventing the puzzle_strategist_agent from generating invalid plans. This is a direct result of the 50-turn reflection identifying a need for better computational support for puzzle-solving.",
-        "timestamp": "2025-08-04T13:24:28.481Z",
-        "action_counter": 120853
-      }
-    ]
-  },
   "log_summarizer": {
     "description": "Summarizes a long log file, focusing on the beginning and end, to prevent truncation when passing it to another agent.",
     "input_schema": {
