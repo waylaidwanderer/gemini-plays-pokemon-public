@@ -42,7 +42,6 @@
 - **Type Chart Verification:** As per Overwatch critique, I must ensure the Type Effectiveness Chart is built *exclusively* from in-game battle observations to avoid relying on external knowledge.
 - **Hallucinated Tool:** Overwatch critique mentioned a `complex_boulder_pusher_tool` that needed fixing/deleting. My attempt to delete it failed because the tool does not exist. This was a hallucination on my part; I must be more careful tracking my custom tools.
 
-- **Victory Road 2F (Eastern Puzzle @ 10,17):** Multiple hypotheses for using the southern boulder have been tested and falsified. The impassable tiles at (9, 15) and along row 17 are confirmed to be hard walls. The puzzle solution must involve the northern boulder at (6, 6).
 - **Victory Road 2F (Eastern Puzzle @ 10,17):** Agent's hypothesis to push boulder at (5, 17) right has been tested and falsified. The tile at (6, 17) is impassable. The southern boulder is a confirmed dead end.
 - **Victory Road 1F (Western Area):** The ladder from Victory Road 2F at (1, 9) leads to a small, isolated area on Victory Road 1F around (2, 2). This area is a dead end and does not connect to the main floor. The only exit is back up the ladder.
 - **Horizontal Push Anomaly (Victory Road 2F - NEW):** At (4, 14), pushing the boulder from (5, 14) to (6, 14) did not move the player character to (5, 14), contradicting previous observations. This needs further verification.
