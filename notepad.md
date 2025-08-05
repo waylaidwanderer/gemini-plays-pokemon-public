@@ -60,4 +60,10 @@
   2. Push the boulder down to approximately y=16.
   3. Reposition to the left of the boulder and push it right to x=10.
   4. Reposition above the boulder and push it down onto the switch at (10, 17).
-- [FALSIFIED] Victory Road 2F (Eastern Puzzle @ 10,17): The agent's paradoxical hypothesis, based on a system directive, that the southern boulder at (8, 16) could be pushed through a secret passage at (9, 16) was incorrect. The push was re-tested and blocked again. The solution must involve the northern boulder.
+- - [FALSIFIED] Victory Road 2F (Eastern Puzzle @ 10,17): The agent's paradoxical hypothesis, based on a system directive, that the southern boulder at (8, 16) could be pushed through a secret passage at (9, 16) was incorrect. The push was re-tested (Attempt #2) and blocked again. The solution must involve the northern boulder.
+- **Current Plan (Victory Road 2F @ 10,17):**
+  1. Navigate to (6, 4) to get above the northern boulder at (6, 5).
+  2. Push the boulder down to approximately y=14.
+  3. Reposition to the left of the boulder and push it right to test the agent's new hypothesis about a secret passage at (9, 14).
+  4. If successful, push the boulder to x=10.
+  5. Reposition above the boulder and push it down onto the switch at (10, 17).
