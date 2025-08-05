@@ -49,3 +49,4 @@
 - **Agent-First Debugging:** When a custom tool fails, I MUST use my `tool_debugger_agent` for analysis before attempting any manual fixes. This is a direct response to an overwatch critique pointing out my inefficient manual debugging of `gem_pathfinder_v2`.
 - **Victory Road 2F (Eastern Puzzle @ 10,17):** Agent's hypothesis to push boulder at (5, 17) right has been tested and falsified. The tile at (6, 17) is impassable. The southern boulder is a confirmed dead end.
 - **Victory Road 1F (Western Area):** The ladder from Victory Road 2F at (1, 9) leads to a small, isolated area on Victory Road 1F around (2, 2). This area is a dead end and does not connect to the main floor. The only exit is back up the ladder.
+- **`elevated_ground` & `ground`:** Direct movement between these two tile types is impossible unless a `steps` tile is used as a connector.
