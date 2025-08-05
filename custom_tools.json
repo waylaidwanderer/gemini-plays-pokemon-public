@@ -2359,5 +2359,48 @@
         "action_counter": 122635
       }
     ]
+  },
+  "multi_boulder_pusher": {
+    "description": "Automates a sequence of boulder pushes, including repositioning. Assumes the player is in position for the first push. Input is a JSON string of push actions (e.g., [{'direction': 'RIGHT', 'count': 5}, {'direction': 'DOWN', 'count': 3}]). This tool is a work-in-progress and may not handle all complex repositioning correctly.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "actions": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "direction": {
+                "type": "string",
+                "enum": [
+                  "UP",
+                  "DOWN",
+                  "LEFT",
+                  "RIGHT"
+                ]
+              },
+              "count": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "direction",
+              "count"
+            ]
+          }
+        }
+      },
+      "required": [
+        "actions"
+      ]
+    },
+    "python_script": "import json\n\nactions_str = input_data.get('actions', '[]')\ntry:\n    actions = json.loads(actions_str)\nexcept json.JSONDecodeError:\n    print(json.dumps({\"error\": \"Invalid JSON format for actions.\"}))\n    return\n\nbutton_presses = []\n\nfor action in actions:\n    direction = action.get('direction')\n    try:\n        count = int(action.get('count', 0))\n    except (ValueError, TypeError):\n        count = 0\n\n    if direction and count > 0:\n        if direction in ['LEFT', 'RIGHT']:\n            for _ in range(count):\n                button_presses.append(direction)\n        elif direction in ['UP', 'DOWN']:\n            reposition_move = 'DOWN' if direction == 'UP' else 'UP'\n            for i in range(count):\n                button_presses.append(direction)\n                if i < count - 1:\n                    button_presses.append(reposition_move)\n\nprint(json.dumps({\"button_presses\": button_presses}))",
+    "history": [
+      {
+        "commit_message": "feat: Create multi_boulder_pusher tool. This tool automates sequences of boulder pushes as suggested by the Overwatch critique. It's a foundational version that handles basic linear sequences and vertical push repositioning, intended to streamline puzzle execution and be refined later.",
+        "timestamp": "2025-08-05T22:12:42.740Z",
+        "action_counter": 123095
+      }
+    ]
   }
 }

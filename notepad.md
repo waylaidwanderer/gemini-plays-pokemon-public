@@ -65,10 +65,4 @@
   4. If successful, push the boulder to x=10.
   5. Reposition above the boulder and push it down onto the switch at (10, 17).
 
-- **Current Plan (Victory Road 2F @ 10,17):**
-  1. Navigate to (6, 7) to get below the northern boulder at (6, 6).
-  2. Push the boulder UP to (6, 5).
-  3. Navigate around to (4, 5) to get to the left of the boulder.
-  4. Push the boulder RIGHT to (9, 5).
-  5. Navigate around to (9, 4) to get above the boulder.
-  6. Push the boulder DOWN onto the switch at (10, 17).
+- **[FALSIFIED] Victory Road 2F (Eastern Puzzle @ 10,17):** The agent's paradoxical hypothesis, based on a system directive, that the southern boulder at (5, 17) could be pushed through a secret passage was incorrect. The push was blocked by the impassable tile at (6, 17). The solution must involve the northern boulder.
