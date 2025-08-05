@@ -9,9 +9,14 @@
 - **Boulder/Item Interaction:** Confirmed that pushing a boulder onto an item collects the item and moves the boulder into that space.
 
 ## A. Tile Mechanics (Verified)
+- **`impassable`**: Walls, rocks, etc. Cannot be entered.
+- **`ground`**: Walkable tile.
+- **`elevated_ground`**: Walkable ground at a higher elevation.
+- **`steps`**: Connects `ground` and `elevated_ground` tiles, allowing vertical movement between them.
+- **`ladder_down` / `ladder_up`**: Warps between floors.
+- **`boulder_switch`**: Floor switch for boulders.
+- **`boulder_barrier`**: Impassable barrier linked to a boulder switch.
 - **`cleared_boulder_barrier`:** Acts as a one-way ramp. It is possible to move from a higher elevation tile (like `elevated_ground`) DOWN to the barrier tile, and from the barrier tile DOWN to `ground`. It is IMPOSSIBLE to move UP the ramp (e.g., from `ground` to the barrier, or from the barrier to `elevated_ground`).
-- **`steps`:** Connects `ground` and `elevated_ground` tiles, allowing vertical movement between them.
-- **`ladder_down` / `ladder_up`:** Warps between floors.
 - **`hole`:** Warps the player (or a boulder) to the floor below.
 
 # III. Battle Intelligence
