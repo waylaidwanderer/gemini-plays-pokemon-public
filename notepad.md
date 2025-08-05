@@ -1,9 +1,18 @@
 # I. Current Objective: Solve Victory Road Puzzles
 - **Priority:** Solve the western boulder puzzle on Victory Road 3F as per the system directive. The target switch is at (4, 6).
-- **Status:** Party is critically injured. My `gem_pathfinder_v2` tool is working, but the map is geographically segmented.
+- **Status:** Party is critically injured. I am currently on the eastern side of the map, which is geographically separated from the western puzzle area. I need to find a new route.
 
 # II. Core Gameplay & World Rules
 - **Poison Damage:** Poisoned Pokémon in the party lose 1 HP every four steps taken outside of battle.
+- **Defeated Trainers:** Confirmed to be impassable obstacles.
+- **Puzzle Resets:** Confirmed that using ladders between floors resets the boulder puzzles on both floors.
+- **Boulder/Item Interaction:** Confirmed that pushing a boulder onto an item collects the item and moves the boulder into that space.
+
+## A. Tile Mechanics
+- **`cleared_boulder_barrier`:** Acts as a one-way ramp. It is possible to move from a higher elevation tile (like `elevated_ground`) DOWN to the barrier tile, and from the barrier tile DOWN to `ground`. It is IMPOSSIBLE to move UP the ramp (e.g., from `ground` to the barrier, or from the barrier to `elevated_ground`).
+- **`steps`:** Connects `ground` and `elevated_ground` tiles, allowing vertical movement between them.
+- **`ladder_down` / `ladder_up`:** Warps between floors.
+- **`hole`:** Warps the player (or a boulder) to the floor below.
 
 # III. Battle Intelligence
 
@@ -19,19 +28,10 @@
 
 # IV. Core Principles & Methodology
 - **Agent-First Approach:** Before attempting any manual solution for a complex problem, I MUST consult the relevant specialist agent first.
-- **Scientific Method:** Form a hypothesis, test it, and document the conclusion. Do not modify tools to test hypotheses; test them with in-game actions first.
-- **Trust System Feedback:** System feedback is the source of truth and MUST be trusted over personal assumptions or agent outputs.
-- **IMMEDIATE ACTION:** Flaws in tools or data management must be addressed immediately. This includes implementing useful tool ideas instead of deferring them.
-- **Confirmation Bias:** I must be willing to question my own strategic assumptions. If a reliable tool consistently fails to find a path, the most likely cause is that my understanding of the map is wrong, not that the tool is broken.
-- **Trust System Directives:** If a system directive contradicts direct, repeated in-game observations and specialist agent analysis, the directive is the source of truth. My observations or agent's analysis must be flawed.
+- **Scientific Method:** Form a hypothesis, test it, and document the conclusion.
+- **Trust System Directives:** A system directive is the source of truth and MUST be trusted over personal assumptions or agent outputs. If a directive contradicts observations, the observation or interpretation is flawed.
 
-# V. Solved Puzzles & Verified Mechanics
-- **Victory Road 2F (Western Boulder Puzzle):** The system has confirmed the barrier corresponding to the switch at (2, 17) is already cleared.
-- **Victory Road 2F (Puzzle Resets):** Confirmed that using ladders between floors DOES reset the boulder puzzles on both floors.
-- **Victory Road 1F (Boulder/Item Interaction):** Confirmed that pushing a boulder onto an item collects the item and moves the boulder into that space.
-- **`cleared_boulder_barrier` Mechanic:** Confirmed that `cleared_boulder_barrier` acts as a one-way ramp. It is possible to move from a higher elevation tile (like `elevated_ground`) DOWN to the barrier tile, and from the barrier tile DOWN to `ground`. It is IMPOSSIBLE to move UP the ramp (e.g., from `ground` to the barrier, or from the barrier to `elevated_ground`).
-
-# VI. Paused Investigations & Archived Conclusions
+# V. Paused Investigations & Archived Conclusions
 - **Victory Road 1F (Eastern Boulder Puzzle):** This puzzle is currently a dead end. The boulder at (11, 3) cannot be moved past the item at (10, 3), and the item cannot be reached. The solution must lie elsewhere.
-- **Victory Road 2F (Eastern Boulder Puzzle):** **[CORRECTED]** My `puzzle_strategist_agent` and `complex_boulder_pusher_tool` initially concluded the puzzle was unsolvable from this floor. However, a system directive has mandated I solve it now. This implies a hidden mechanic or a flaw in my tools' understanding of the map.
-- **Victory Road 3F (Western Boulder Puzzle):** **[CORRECTED]** My `puzzle_strategist_agent` initially concluded the puzzle at switch (4,6) was unsolvable. However, a system directive has since confirmed the puzzle *is* solvable. The agent's revised analysis, incorporating the directive, suggests the solution involves pushing the boulder from (14, 13) through a supposedly impassable tile at (12, 11). This is the current working hypothesis.
+- **Victory Road 2F (Eastern Boulder Puzzle):** **[ARCHIVED]** My `puzzle_strategist_agent` and `complex_boulder_pusher_tool` initially concluded the puzzle was unsolvable from this floor. This was superseded by a directive for 3F.
+- **Victory Road 3F (Western Boulder Puzzle):** **[ACTIVE INVESTIGATION]** My `puzzle_strategist_agent` initially concluded the puzzle at switch (4,6) was unsolvable. However, a system directive has since confirmed the puzzle *is* solvable. The agent's revised analysis, incorporating the directive, suggests the solution involves pushing the boulder from (14, 13) through a supposedly impassable tile at (12, 11). This is the current working hypothesis.
