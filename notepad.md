@@ -1,8 +1,6 @@
 # I. Current Objective & Hypotheses
-- **Primary Objective:** Solve Victory Road 2F Eastern Puzzle (Directive-Mandated).
-- **Current Hypothesis (A):** My documented rule that `elevated_ground` -> `ground` requires `steps` is incorrect for this specific map. A direct path must exist.
-- **Hypothesis (B) Falsified:** Interacting with Pikachu at (6, 11) failed to move him. He is a standard moving NPC who is currently blocking the 'steps' tile, which is the only path to the northern boulder. The only option is to wait for him to move on his own.
-- **Status:** Party is critically injured. All previous hypotheses have failed. This is the only remaining path forward.
+- **Primary Objective:** Fix the `gem_pathfinder_v2` tool to enable safe navigation.
+- **Secondary Objective:** Solve Victory Road 2F Eastern Puzzle (Directive-Mandated).
 
 # II. Core Gameplay & World Rules
 - **Poison Damage:** Poisoned Pokémon in the party lose 1 HP every four steps taken outside of battle.
@@ -45,3 +43,6 @@
 - **Victory Road 1F (Western Area):** The ladder from Victory Road 2F at (1, 9) leads to a small, isolated area on Victory Road 1F around (2, 2). This area is a dead end and does not connect to the main floor. The only exit is back up the ladder.
 - **Horizontal Push Anomaly (Victory Road 2F - NEW):** At (4, 14), pushing the boulder from (5, 14) to (6, 14) did not move the player character to (5, 14), contradicting previous observations. This needs further verification.
 - **Victory Road 2F (Eastern Puzzle @ 10,17):** Hypothesis to use the southern boulder (at 7, 14) has been falsified. The path to the switch is blocked by an impassable tile at (9, 17). The solution must involve the northern boulder at (6, 6).
+## Archived Hypotheses
+- **[ARCHIVED] Hypothesis (A):** My documented rule that `elevated_ground` -> `ground` requires `steps` is incorrect for this specific map. A direct path must exist.
+- **[ARCHIVED] Hypothesis (B):** Interacting with Pikachu at (6, 11) failed to move him. He is a standard moving NPC who is currently blocking the 'steps' tile, which is the only path to the northern boulder. The only option is to wait for him to move on his own.
