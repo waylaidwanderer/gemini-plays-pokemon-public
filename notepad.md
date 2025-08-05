@@ -50,4 +50,7 @@
   - **Hypothesis 2:** Solving the western switch at (2, 17) cleared the path along the y=17 row. **Result:** False. The boulder at (5, 17) cannot be pushed through (6, 17).
   - **Conclusion:** The southern boulder at (5, 17) is not the solution. The directive to solve the puzzle remains, so the solution must involve the northern boulder at (6, 6).
 - **`elevated_ground` to `ground`:** Direct movement between these two tile types is impossible unless a `steps` tile is used as a connector.
-- **Victory Road 2F (Eastern Boulder Puzzle) - Falsified Hypothesis:** The impassable tile at (9, 15) was tested as a secret passage based on an agent's analysis of a system directive. The test failed, confirming the tile is impassable. The southern boulder is not the solution. The investigation is paused to heal the party and will resume by focusing on the northern boulder.
+- **Victory Road 2F (Eastern Boulder Puzzle):** Investigation log for the switch at (10, 17). Multiple hypotheses tested and disproven.
+  - **Hypothesis 1 (Falsified):** The impassable tile at (9, 15) is a secret passage. **Conclusion:** The tile is impassable. The southern boulder at (8, 15) is not the solution.
+  - **Hypothesis 2 (Falsified):** Solving the western switch cleared the path along the y=17 row. **Conclusion:** The boulder at (5, 17) cannot be pushed through (6, 17).
+  - **Current Conclusion:** The solution must involve the northern boulder at (6, 5). This investigation is paused pending party healing.
