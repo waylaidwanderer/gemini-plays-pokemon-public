@@ -68,4 +68,5 @@
   4. If successful, push the boulder to x=10.
   5. Reposition above the boulder and push it down onto the switch at (10, 17).
 - **[FALSIFIED] Victory Road 2F (Eastern Puzzle @ 10,17):** The agent's paradoxical hypothesis, based on a system directive, that pushing the northern boulder up and walking through a secret passage at (5, 5) was incorrect. The path was blocked.
-- **[FALSIFIED] Victory Road 2F (Eastern Puzzle @ 10,17):** The hypothesis that the southern boulder (at 8, 15) could solve the puzzle has been conclusively disproven after multiple, documented, system-directive-prompted attempts. The path is blocked. The solution MUST involve the northern boulder at (6, 6).
+- **[FALSIFIED] Victory Road 2F (Eastern Puzzle @ 10,17):** All simple, direct paths for both the southern boulder (at 5, 15) and the northern boulder (at 6, 6) have been falsified. My puzzle agent is currently stuck in a loop suggesting impossible paths for the southern boulder.
+- **[FALSIFIED] Victory Road 2F (Remote Barrier Hypothesis):** The system directive's hint about a 'boulder barrier elsewhere' referred to the static, impassable barrier at (24, 15). Attempting to push it failed, confirming it is not part of the solution.
