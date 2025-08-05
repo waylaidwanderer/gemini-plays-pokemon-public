@@ -1,6 +1,6 @@
 # I. Current Objective & Hypotheses
-- **Primary Objective:** Fix the `gem_pathfinder_v2` tool to enable safe navigation.
-- **Secondary Objective:** Solve Victory Road 2F Eastern Puzzle (Directive-Mandated).
+- **Primary Objective:** Solve the Victory Road boulder puzzles to reach the Indigo Plateau.
+- **Secondary Objective:** Find an opportunity to heal my critically injured party.
 
 # II. Core Gameplay & World Rules
 - **Poison Damage:** Poisoned Pokémon in the party lose 1 HP every four steps taken outside of battle.
@@ -36,7 +36,6 @@
 - **Agent-First Debugging:** When a custom tool fails, I MUST use my `tool_debugger_agent` for analysis before attempting any manual fixes.
 - **Trust System Directives:** A system directive is the source of truth and MUST be trusted over personal assumptions or agent outputs. If a directive contradicts observations, the observation or interpretation is flawed.
 - **Future Agent Idea:** A 'debugging manager' agent to propose novel debugging steps and prevent repetitive action loops.
-- **Future Tool Idea:** A log summarizer tool to prevent truncation issues when passing data to agents.
 
 # V. Paused Investigations & Archived Conclusions
 - **Victory Road 1F (Eastern Boulder Puzzle):** This puzzle is currently a dead end. The boulder at (11, 3) cannot be moved past the item at (10, 3), and the item cannot be reached. The solution must lie elsewhere.
@@ -45,9 +44,9 @@
 - **Hallucinated Tool:** Overwatch critique mentioned a `complex_boulder_pusher_tool` that needed fixing/deleting. My attempt to delete it failed because the tool does not exist. This was a hallucination on my part; I must be more careful tracking my custom tools.
 
 - **Victory Road 1F (Western Area):** The ladder from Victory Road 2F at (1, 9) leads to a small, isolated area on Victory Road 1F around (2, 2). This area is a dead end and does not connect to the main floor. The only exit is back up the ladder.
-- **Horizontal Push Anomaly (Victory Road 2F - NEW):** At (4, 14), pushing the boulder from (5, 14) to (6, 14) did not move the player character to (5, 14), contradicting previous observations. This needs further verification.
+- **Horizontal Push Anomaly (Victory Road 2F):** At (4, 14), pushing the boulder from (5, 14) to (6, 14) did not move the player character to (5, 14), contradicting previous observations. This needs further verification.
 - **Victory Road 2F (Eastern Puzzle @ 10,17):** Hypothesis to use the southern boulder (at 7, 14) has been falsified. The path to the switch is blocked by an impassable tile at (9, 17). The solution must involve the northern boulder at (6, 6).
+
 ## Archived Hypotheses
 - **[ARCHIVED] Hypothesis (Victory Road 2F):** Interacting with Pikachu at (6, 11) failed to move him. He is a standard moving NPC who is currently blocking the 'steps' tile, which is the only path to the northern boulder. The only option is to wait for him to move on his own.
-- **[FALSIFIED] Victory Road 2F (Eastern Puzzle):** The agent's hypothesis that the southern boulder at (5, 15) could be pushed through a secret passage at (9, 15) was incorrect. The push from (4, 15) was blocked. The solution must involve the northern boulder at (6, 6).
 - **[FALSIFIED] Victory Road 2F (Eastern Puzzle):** The agent's hypothesis that the southern boulder at (5, 15) could be pushed through a secret passage at (9, 15) was incorrect. The push from (4, 15) was blocked. The solution must involve the northern boulder at (6, 6).
