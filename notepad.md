@@ -1,6 +1,6 @@
-# I. Current Objective: Solve Victory Road Puzzles
-- **Priority:** Solve the western boulder puzzle on Victory Road 3F as per the system directive. The target switch is at (4, 6).
-- **Status:** Party is critically injured. I am currently on the eastern side of the map, which is geographically separated from the western puzzle area. I need to find a new route.
+# I. Current Objective: Solve Victory Road 2F Eastern Puzzle
+- **Priority:** Solve the eastern boulder puzzle on Victory Road 2F as per the system directive. The target switch is at (10, 17).
+- **Status:** Party is critically injured. My previous hypothesis about the southern boulder at (8, 15) failed. The solution must involve the northern boulder at (6, 5).
 
 # II. Core Gameplay & World Rules
 - **Poison Damage:** Poisoned Pokémon in the party lose 1 HP every four steps taken outside of battle.
