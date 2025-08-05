@@ -45,7 +45,7 @@
 - **Agent Usage Error:** I failed to provide a critical `system_directive` to my `puzzle_strategist_agent`, leading to a flawed plan. I must ensure all relevant context is provided to agents immediately.
 - **Untested Hypothesis:** The current primary hypothesis is that solving the western switch on Victory Road 2F has cleared the impassable tiles blocking the path for the eastern puzzle. This needs to be tested.
 - **Victory Road 2F (Eastern Puzzle @ 10,17):** Multiple hypotheses for using the southern boulder have been tested and falsified. The impassable tiles at (9, 15) and along row 17 are confirmed to be hard walls. The puzzle solution must involve the northern boulder at (6, 6). Current objective is to navigate to the northern boulder and find a solution.
-- **`elevated_ground` to `ground`:** Direct movement between these two tile types is impossible unless a `steps` tile is used as a connector.
+
 - **Agent-First Debugging:** When a custom tool fails, I MUST use my `tool_debugger_agent` for analysis before attempting any manual fixes. This is a direct response to an overwatch critique pointing out my inefficient manual debugging of `gem_pathfinder_v2`.
 - **Victory Road 2F (Eastern Puzzle @ 10,17):** Agent's hypothesis to push boulder at (5, 17) right has been tested and falsified. The tile at (6, 17) is impassable. The southern boulder is a confirmed dead end.
 - **Victory Road 1F (Western Area):** The ladder from Victory Road 2F at (1, 9) leads to a small, isolated area on Victory Road 1F around (2, 2). This area is a dead end and does not connect to the main floor. The only exit is back up the ladder.
