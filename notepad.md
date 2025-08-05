@@ -60,3 +60,4 @@
 - - [FALSIFIED] Victory Road 2F (Eastern Puzzle @ 10,17): The agent's paradoxical hypothesis, based on a system directive, that the southern boulder at (8, 16) could be pushed through a secret passage at (9, 16) was incorrect. The push was re-tested (Attempt #2) and blocked again. The solution must involve the northern boulder.
 
 - **[FALSIFIED] Victory Road 2F (Eastern Puzzle @ 10,17):** The agent's paradoxical hypothesis, based on a system directive, that the southern boulder at (5, 17) could be pushed through a secret passage was incorrect. The push was blocked by the impassable tile at (6, 17). The solution must involve the northern boulder.
+- **[FALSIFIED] Victory Road 2F (Northern Boulder):** My pathfinder tool, after being fixed, has confirmed that there is no reachable path to the northern boulder at (6, 4). The elevated platform it's on is isolated. Therefore, this boulder cannot be the solution to the eastern puzzle.
