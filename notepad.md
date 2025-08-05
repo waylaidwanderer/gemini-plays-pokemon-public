@@ -1,7 +1,7 @@
 # I. Current Objective & Hypotheses
 - **Primary Objective:** Solve Victory Road 2F Eastern Puzzle (Directive-Mandated).
 - **Current Hypothesis (A):** My documented rule that `elevated_ground` -> `ground` requires `steps` is incorrect for this specific map. A direct path must exist.
-- **Current Hypothesis (B):** Pikachu at (6, 11) is blocking the intended path and must be moved via interaction.
+- **Hypothesis (B) Falsified:** Interacting with Pikachu at (6, 11) failed to move him. He is a standard moving NPC who is currently blocking the 'steps' tile, which is the only path to the northern boulder. The only option is to wait for him to move on his own.
 - **Status:** Party is critically injured. All previous hypotheses have failed. This is the only remaining path forward.
 
 # II. Core Gameplay & World Rules
