@@ -46,6 +46,6 @@
 - **[ARCHIVED] Victory Road 1F (Western Area):** The ladder from Victory Road 2F at (1, 9) leads to a small, isolated area on Victory Road 1F. This area is a dead end.
 
 # VII. Navigational Insights
-- **Victory Road (Floors 2F & 3F):** These floors are composed of multiple, disconnected platforms. Direct traversal between sections is impossible. Progress requires using the correct sequence of ladders/warps to move between these isolated areas.
-- **Victory Road 3F Layout:** This floor consists of multiple, disconnected landmasses. I am currently on the western landmass, which contains the puzzle switch at (4,6) and a boulder at (23,4). The puzzle solution must be on this same landmass.
+- **[CORRECTED] Victory Road 2F Layout:** This floor is one large, contiguous landmass. My previous belief that it was split into disconnected east/west platforms was a hallucination. There is a small, isolated platform in the northeast corner, but the main area is fully connected.
+- **[CORRECTED] Victory Road 3F Layout:** Landmass analysis confirmed this floor is split into three disconnected areas. My previous navigation loops were caused by failing to understand this and attempting to pathfind between them.
 - **Pathfinding Failure Protocol:** If the pathfinder fails, my first step is to use the `landmass_analyzer` tool to verify physical connectivity before assuming the tool is bugged.
