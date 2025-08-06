@@ -44,3 +44,6 @@
 - **[ARCHIVED] Pathfinder Tool Bug:** My pathfinder tool is likely working correctly. My manual path tracing was flawed, leading me to believe the tool was bugged. I must trust my tools more.
 - **[ARCHIVED] Hallucinated Tool:** Overwatch critique mentioned a `complex_boulder_pusher_tool`. My attempt to delete it failed because the tool does not exist. This was a hallucination.
 - **[ARCHIVED] Victory Road 1F (Western Area):** The ladder from Victory Road 2F at (1, 9) leads to a small, isolated area on Victory Road 1F. This area is a dead end.
+
+# VII. Navigational Insights
+- **Victory Road (Floors 2F & 3F):** These floors are composed of multiple, disconnected platforms. Direct traversal between sections is impossible. Progress requires using the correct sequence of ladders/warps to move between these isolated areas.
