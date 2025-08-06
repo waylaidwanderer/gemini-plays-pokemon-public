@@ -37,7 +37,7 @@
 # V. Navigational Insights (Verified)
 - **[FALSIFIED] Victory Road 2F Disconnected Landmass Hypothesis:** The landmass_analyzer tool's conclusion that this floor is split into disconnected landmasses was proven false by a system warning (Turn 124003) which confirmed the eastern warp at (24, 8) is reachable from the west. The connection is via the elevated platforms.
 - **Victory Road 3F Layout:** Landmass analysis confirmed this floor is split into three disconnected areas. My previous navigation loops were caused by failing to understand this and attempting to pathfind between them.
-- **[CORRECTED] Victory Road 2F Navigation:** The ground floor is split into two disconnected eastern and western sections by impassable walls. The only way to cross is by using the elevated platforms, accessible via the steps at (22, 16) in the east and (6, 11) in the west.
+- **[FALSIFIED] Victory Road 2F Disconnected Landmass Hypothesis:** The landmass_analyzer tool's conclusion that this floor is split into disconnected landmasses was proven false by a system warning (Turn 124003) which confirmed the eastern warp at (24, 8) is reachable from the west. The connection is via the elevated platforms.
 
 # VI. Archived & Falsified Hypotheses
 - **[FALSIFIED] Victory Road 2F Secret Passage (9, 16):** The puzzle agent's hypothesis of a secret passage at (9, 16) was tested by attempting to push the boulder at (8, 16) east. The push failed, proving the tile is impassable. This hypothesis is incorrect.
