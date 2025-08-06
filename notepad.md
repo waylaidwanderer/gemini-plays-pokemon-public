@@ -35,16 +35,12 @@
 - **Tool Maintenance:** Faulty tools must be fixed or deleted IMMEDIATELY. Continuing to use a known-broken tool is inefficient and leads to errors.
 
 # V. Navigational Insights (Verified)
-- **[FALSIFIED] Victory Road 2F Disconnected Landmass Hypothesis:** The landmass_analyzer tool's conclusion that this floor is split into disconnected landmasses was proven false by a system warning (Turn 124003) which confirmed the eastern warp at (24, 8) is reachable from the west. The connection is via the elevated platforms.
 - **Victory Road 3F Layout:** Landmass analysis confirmed this floor is split into three disconnected areas. My previous navigation loops were caused by failing to understand this and attempting to pathfind between them.
-- **[FALSIFIED] Victory Road 2F Disconnected Landmass Hypothesis:** The landmass_analyzer tool's conclusion that this floor is split into disconnected landmasses was proven false by a system warning (Turn 124003) which confirmed the eastern warp at (24, 8) is reachable from the west. The connection is via the elevated platforms.
 
 # VI. Archived & Falsified Hypotheses
-- **[FALSIFIED] Victory Road 2F Secret Passage (9, 16):** The puzzle agent's hypothesis of a secret passage at (9, 16) was tested by attempting to push the boulder at (8, 16) east. The push failed, proving the tile is impassable. This hypothesis is incorrect.
 - **[HYPOTHESIS] Victory Road 2F Puzzle Solution requires a boulder from 3F:** The boulders on 2F cannot reach the switch at (10, 17). The next step is to return to 3F and search for a hole that drops a boulder into the eastern section of 2F.
+- **[FALSIFIED] Victory Road 2F Disconnected Landmass Hypothesis:** The landmass_analyzer tool's conclusion that this floor is split into disconnected landmasses was proven false by a system warning (Turn 124003) which confirmed the eastern warp at (24, 8) is reachable from the west. The connection is via the elevated platforms.
+- **[FALSIFIED] Victory Road 2F Secret Passage (9, 16):** The puzzle agent's hypothesis of a secret passage at (9, 16) was tested by attempting to push the boulder at (8, 16) east. The push failed, proving the tile is impassable. This hypothesis is incorrect.
 - **[FALSIFIED] Victory Road 3F Hidden Passage (12,7):** The puzzle agent hypothesized a secret passage at (12,7). This was also based on being on the wrong platform. This hypothesis is likely incorrect.
-
-# VII. Future Development Ideas
-
 - **[FALSIFIED] Victory Road 2F 'Cleared Path' Hypothesis:** The puzzle agent's hypothesis that solving the switch at (2, 17) would clear the impassable tiles along the same row was tested by attempting to push the boulder at (5, 17) east. The push failed, proving the tiles remain impassable. This hypothesis is incorrect.
 - **[FALSIFIED] Victory Road 2F 'Secret Path' Hypothesis (Agent-Generated):** The agent's hypothesis that the impassable tile at (5, 10) was cleared was tested by attempting to move there. The move failed, proving the tile remains impassable. This hypothesis is incorrect.
