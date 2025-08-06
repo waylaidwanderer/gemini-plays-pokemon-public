@@ -10,7 +10,7 @@
 ## A. Tile Mechanics (Verified)
 - **`impassable`**: Walls, rocks, defeated trainers. Cannot be entered.
 - **`ground`**: Walkable tile.
-- **`elevated_ground`**: Walkable ground at a higher elevation.
+- **`elevated_ground`**: Walkable ground at a higher elevation. Cannot be stepped up to or down from `ground` tiles directly.
 - **`steps`**: Connects `ground` and `elevated_ground` tiles, allowing vertical movement between them.
 - **`ladder_down` / `ladder_up`**: Warps between floors.
 - **`boulder_switch`**: Floor switch for boulders.
@@ -28,24 +28,16 @@
 - **Full Heal:** Cures status conditions only, does not restore HP.
 - **Fainted Pokémon can use HMs:** Confirmed that a fainted Pokémon can be selected to use a field move like Strength.
 
-# IV. Methodology & Future Development
+# IV. Methodology & Lessons Learned
 - **Agent-First Approach:** Before attempting any manual solution for a complex problem, I MUST consult the relevant specialist agent first.
-- **Agent-First Debugging:** When a custom tool fails, I MUST use my `tool_debugger_agent` for analysis before attempting any manual fixes.
 - **Trust System Directives:** A system directive or system warning is the source of truth and MUST be trusted over personal assumptions or agent outputs.
-- **Breaking Unproductive Loops:** If a tool proves unfixable or manual navigation repeatedly fails, I MUST pivot to a new strategy to maintain forward momentum.
-- **Future Agent Idea:** A 'paradox resolution' agent to deduce solutions when system data contradicts map data.
-- **Future Agent Refinement:** Update `puzzle_strategist_agent` to consider player's physical accessibility to puzzle elements.
+- **Pathfinding Failure Protocol:** If a pathfinder tool repeatedly fails, my first step MUST be to use the `landmass_analyzer` tool to verify physical connectivity before assuming the tool is bugged. This is to combat my confirmation bias where I blame tools for my own flawed understanding of the map layout.
+- **Tool Maintenance:** Faulty tools must be fixed or deleted IMMEDIATELY. Continuing to use a known-broken tool is inefficient and leads to errors.
 
-# V. Anomalies & Unverified Mechanics
-- **Horizontal Push Anomaly (Victory Road 2F):** At (4, 14) and (4, 16), pushing boulders horizontally did not move the player character. Needs more testing.
+# V. Navigational Insights (Verified)
+- **Victory Road 2F Layout:** This floor is one large, contiguous landmass. There is a small, isolated platform in the northeast corner accessible only via a specific ladder from 3F, but the main area is fully connected. My previous belief that it was split into disconnected east/west platforms was a hallucination.
+- **Victory Road 3F Layout:** Landmass analysis confirmed this floor is split into three disconnected areas. My previous navigation loops were caused by failing to understand this and attempting to pathfind between them.
 
-# VI. Archived Conclusions & Hypotheses
-- **[ARCHIVED] Victory Road 2F (Puzzle @ Switch 10,17):** [CONCLUSION] A system directive confirmed this requires a multi-floor solution. The current working hypothesis is that the boulder at (23, 16) on Victory Road 3F must be pushed down the hole at (24, 16) to solve this puzzle.
-- **[ARCHIVED] Pathfinder Tool Bug:** My pathfinder tool is likely working correctly. My manual path tracing was flawed, leading me to believe the tool was bugged. I must trust my tools more.
-- **[ARCHIVED] Hallucinated Tool:** Overwatch critique mentioned a `complex_boulder_pusher_tool`. My attempt to delete it failed because the tool does not exist. This was a hallucination.
-- **[ARCHIVED] Victory Road 1F (Western Area):** The ladder from Victory Road 2F at (1, 9) leads to a small, isolated area on Victory Road 1F. This area is a dead end.
-
-# VII. Navigational Insights
-- **[CORRECTED] Victory Road 2F Layout:** This floor is one large, contiguous landmass. My previous belief that it was split into disconnected east/west platforms was a hallucination. There is a small, isolated platform in the northeast corner, but the main area is fully connected.
-- **[CORRECTED] Victory Road 3F Layout:** Landmass analysis confirmed this floor is split into three disconnected areas. My previous navigation loops were caused by failing to understand this and attempting to pathfind between them.
-- **Pathfinding Failure Protocol:** If the pathfinder fails, my first step is to use the `landmass_analyzer` tool to verify physical connectivity before assuming the tool is bugged.
+# VI. Archived & Falsified Hypotheses
+- **[FALSIFIED] Victory Road 2F Hidden Passage (9,16):** The puzzle agent hypothesized a secret passage at (9,16). This was based on a system directive when I was on the wrong, isolated platform. The hypothesis is likely incorrect now that I understand the map layout.
+- **[FALSIFIED] Victory Road 3F Hidden Passage (12,7):** The puzzle agent hypothesized a secret passage at (12,7). This was also based on being on the wrong platform. This hypothesis is likely incorrect.
