@@ -54,25 +54,10 @@
 
 # VII. Active Puzzle Plans
 
-## Victory Road 1F - East Switch Puzzle
-- **Target:** Switch at (18, 14)
-- **Solution Steps (from boulder_puzzle_solver):**
-  1. Push boulder at (6, 16) Down
-  2. Push boulder at (6, 17) Right
-  3. Push boulder at (7, 17) Right
-  4. Push boulder at (8, 17) Right
-  5. Push boulder at (9, 17) Up
-  6. Push boulder at (9, 16) Right
-  7. Push boulder at (10, 16) Up
-  8. Push boulder at (10, 15) Right
-  9. Push boulder at (11, 15) Right
-  10. Push boulder at (12, 15) Right
-  11. Push boulder at (13, 15) Right
-  12. Push boulder at (14, 15) Right
-  13. Push boulder at (15, 15) Right
-  14. Push boulder at (16, 15) Right
-  15. Push boulder at (17, 15) Up
-  16. Push boulder at (17, 14) Up
-  17. Push boulder at (17, 13) Right
-  18. Push boulder at (18, 13) Down
+## Victory Road 1F - West Switch Puzzle
+- **Insight:** The eastern puzzle (switch at 18,14) is separate from the puzzle blocking the ladder to 2F. The path to the ladder is blocked by the boulder at (3,11).
+- **Target:** Switch at (3, 10)
+- **Plan:** 
+  1. Navigate to (3, 12).
+  2. Push the boulder at (3, 11) UP onto the switch at (3, 10).
 - **Tool Failure Protocol:** If a tool produces an error or an unexpected result, I MUST first use the `tool_debugger_agent` to diagnose the issue before attempting a manual fix. This leverages my specialized agents and reduces the risk of manual error.
