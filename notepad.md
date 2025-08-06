@@ -47,13 +47,11 @@
 - **[ARCHIVED] Victory Road 1F (Western Area):** The ladder from Victory Road 2F at (1, 9) leads to a small, isolated area on Victory Road 1F. This area is a dead end.
 
 ## A. Victory Road 2F (Puzzle @ Switch 10,17) - Investigation Log
-1. **[INITIAL CONCLUSION - FALSIFIED]** My initial analysis concluded that all on-floor boulders were unable to reach the switch, leading to the hypothesis that a multi-floor solution was required.
-2. **[OVERRIDE - SYSTEM DIRECTIVE]** Received a system directive stating the solution IS on the current floor. This falsified the multi-floor hypothesis.
-3. **[AGENT HYPOTHESIS - FALSIFIED]** My `puzzle_strategist_agent` suggested the impassable tiles from (6, 17) to (9, 17) were a 'fake wall'. Test failed; the wall is solid.
-4. **[CURRENT HYPOTHESIS - DIRECTIVE DRIVEN]** The only remaining on-floor option is the northern boulder at (6, 6). The new plan is to maneuver this boulder south, then east, and down the ramp at (8, 9) to reach the switch.
+1. **[INITIAL CONCLUSION]** My initial analysis concluded that all on-floor boulders were unable to reach the switch, leading to the hypothesis that a multi-floor solution was required.
+2. **[FALSIFIED - CONTRADICTORY DIRECTIVE]** A previous system directive stated the solution was on the current floor. However, all paths to the on-floor boulders are blocked by impassable defeated trainers.
+3. **[NEW DIRECTIVE & HYPOTHESIS]** A new, overriding system directive has explicitly suggested considering a solution from another floor. My new hypothesis is that the boulder at (23, 16) on Victory Road 3F must be pushed down the hole at (24, 16) to solve this puzzle.
 
 ## A. Victory Road 2F (Puzzle @ Switch 10,17) - Investigation Log
-1. **[INITIAL CONCLUSION - FALSIFIED]** My initial analysis concluded that all on-floor boulders were unable to reach the switch, leading to the hypothesis that a multi-floor solution was required.
-2. **[OVERRIDE - SYSTEM DIRECTIVE]** Received a system directive stating the solution IS on the current floor. This falsified the multi-floor hypothesis.
-3. **[AGENT HYPOTHESIS - FALSIFIED]** My `puzzle_strategist_agent` suggested the impassable tiles from (6, 17) to (9, 17) were a 'fake wall'. Test failed; the wall is solid.
-4. **[CURRENT HYPOTHESIS - DIRECTIVE DRIVEN]** The only remaining on-floor option is the northern boulder at (6, 6). The new plan is to maneuver this boulder south, then east, and down the ramp at (8, 9) to reach the switch.
+1. **[INITIAL CONCLUSION]** My initial analysis concluded that all on-floor boulders were unable to reach the switch, leading to the hypothesis that a multi-floor solution was required.
+2. **[FALSIFIED - CONTRADICTORY DIRECTIVE]** A previous system directive stated the solution was on the current floor. However, all paths to the on-floor boulders are blocked by impassable defeated trainers.
+3. **[NEW DIRECTIVE & HYPOTHESIS]** A new, overriding system directive has explicitly suggested considering a solution from another floor. My new hypothesis is that the boulder at (23, 16) on Victory Road 3F must be pushed down the hole at (24, 16) to solve this puzzle.
