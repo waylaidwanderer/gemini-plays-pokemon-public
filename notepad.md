@@ -52,15 +52,9 @@
 
 - **Horizontal Push Anomaly 2 (Victory Road 2F):** At (4, 16), pushing the boulder from (5, 16) to (6, 16) did not move the player character, contradicting the general horizontal push rule again.
 - **Future Tool Idea:** A `multi_step_boulder_pusher` tool that can take a sequence of push commands (e.g., from the puzzle_strategist_agent) and execute them automatically. This would automate non-linear boulder puzzles.
-- **[FALSIFIED] Victory Road 2F (Southern Boulder):** All agent-led hypotheses regarding the southern boulder have been falsified. Attempts to push it east through presumed secret passages at (9,16), (9,14), and (6,17) were all blocked by impassable tiles. The solution must involve the northern boulder.
-  1. Navigate to (6, 4) to get above the northern boulder at (6, 5).
-  2. Push the boulder down to approximately y=16.
-  3. Reposition to the left of the boulder and push it right to x=10.
-  4. Reposition above the boulder and push it down onto the switch at (10, 17).
-- - [FALSIFIED] Victory Road 2F (Eastern Puzzle @ 10,17): The agent's paradoxical hypothesis, based on a system directive, that the southern boulder at (8, 16) could be pushed through a secret passage at (9, 16) was incorrect. The push was re-tested (Attempt #2) and blocked again. The solution must involve the northern boulder.
-
-- **[FALSIFIED] Victory Road 2F (Eastern Puzzle @ 10,17):** The agent's paradoxical hypothesis, based on a system directive, that the southern boulder at (5, 17) could be pushed through a secret passage was incorrect. The push was blocked by the impassable tile at (6, 17). The solution must involve the northern boulder.
-- **[FALSIFIED] Victory Road 2F (Northern Boulder):** My pathfinder tool, after being fixed, has confirmed that there is no reachable path to the northern boulder at (6, 4). The elevated platform it's on is isolated. Therefore, this boulder cannot be the solution to the eastern puzzle.
+## A. Victory Road 2F (Eastern Puzzle @ 10,17)
+- **[FALSIFIED]** All hypotheses involving the two boulders located on Victory Road 2F have been exhausted and proven incorrect. Both the northern boulder (at 6,4) and the southern boulder (at 5,17) are positioned such that they cannot reach the switch at (10,17). 
+- **[CURRENT HYPOTHESIS]** The solution must involve a multi-floor puzzle. A boulder from Victory Road 3F must be pushed into a hole that drops it into a strategic position on 2F. Investigation on 3F is required.
 
 - **Future Agent Idea:** A 'debugging manager' agent that can automate the process of adding logging to a failing tool, running it, and feeding the output to the `tool_debugger_agent` for analysis.
 - **Future Agent Idea:** A 'debugging manager' agent that can automate the process of adding logging to a failing tool, running it, and feeding the output to the `tool_debugger_agent` for analysis.
