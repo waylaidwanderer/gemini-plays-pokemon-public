@@ -1,6 +1,6 @@
 # I. Current Objective
 - **Primary Objective:** Solve the Victory Road boulder puzzles to reach the Indigo Plateau.
-- **Secondary Objective:** Find an opportunity to heal my critically injured party.
+- **Secondary Objective:** Utilize the new puzzle_strategist_agent to solve the next boulder puzzle.
 
 # II. Core Gameplay & World Rules
 - **Poison Damage:** Poisoned Pokémon in the party lose 1 HP every four steps taken outside of battle.
@@ -10,6 +10,8 @@
 ## A. Tile Mechanics (Verified)
 - **`impassable`**: Walls, rocks, defeated trainers. Cannot be entered.
 - **`ground`**: Walkable tile.
+- **`grass`**: Tall grass for wild Pokémon encounters. Walkable like `ground`.
+- **`water`**: Crossable using HM Surf.
 - **`elevated_ground`**: Walkable ground at a higher elevation. Cannot be stepped up to or down from `ground` tiles directly.
 - **`steps`**: Connects `ground` and `elevated_ground` tiles, allowing vertical movement between them.
 - **`ladder_down` / `ladder_up`**: Warps between floors.
