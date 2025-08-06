@@ -47,4 +47,5 @@
 # VII. Future Development Ideas
 
 - **[FALSIFIED] Victory Road 2F 'Cleared Path' Hypothesis:** The puzzle agent's hypothesis that solving the switch at (2, 17) would clear the impassable tiles along the same row was tested by attempting to push the boulder at (5, 17) east. The push failed, proving the tiles remain impassable. This hypothesis is incorrect.
-- **[HYPOTHESIS] Victory Road 2F 'Secret Path' Hypothesis (Agent-Generated):** The puzzle agent suggests that the impassable tile at (5, 10) may have been cleared by solving the switch at (2, 17). This would create a path to push the boulder at (6, 6) east through the central wall. The test is to attempt to move to (5, 10).
+- **[FALSIFIED] Victory Road 2F 'Secret Path' Hypothesis (Agent-Generated):** The agent's hypothesis that the impassable tile at (5, 10) was cleared was tested by attempting to move there. The move failed, proving the tile remains impassable. This hypothesis is incorrect.
+- **[HYPOTHESIS] Victory Road 2F Puzzle Solution requires a boulder from 3F:** All on-floor solutions have been falsified. The next step is to return to 3F and search for a hole that drops a boulder into the eastern section of 2F.
