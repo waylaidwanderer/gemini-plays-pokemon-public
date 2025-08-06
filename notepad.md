@@ -60,3 +60,4 @@
 - **Plan:** 
   1. Navigate to (3, 12).
   2. Push the boulder at (3, 11) UP onto the switch at (3, 10).
+- **Landmass Analyzer Limitation:** The `landmass_analyzer` tool does not account for one-way traversal tiles like ledges or `cleared_boulder_barrier` ramps. It can report a single landmass even if sections are unreachable due to these mechanics.
