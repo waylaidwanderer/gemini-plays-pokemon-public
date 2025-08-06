@@ -39,8 +39,8 @@
 - **Future Agent Idea:** A 'debugging manager' agent to propose novel debugging steps and prevent repetitive action loops.
 
 # V. Paused Investigations & Archived Conclusions
-- **Victory Road 3F (Western Boulder Puzzle):** [AGENT HYPOTHESIS] A system directive confirms the puzzle at switch (4, 6) is solvable. The only viable hypothesis, proposed by my agent, is a 'secret passage' solution, pushing the boulder at (14, 13) through impassable tiles. This is the main long-term goal for this floor.
-- **Victory Road 2F (Puzzle @ Switch 10,17):** [CONCLUSION] A system directive confirmed this requires a multi-floor solution. The current working hypothesis is that the boulder at (23, 16) on Victory Road 3F must be pushed down the hole at (24, 16) to solve this puzzle.
-- **Horizontal Push Anomaly (Victory Road 2F):** At (4, 14) and (4, 16), pushing boulders horizontally did not move the player character, contradicting the general rule. This needs further verification.
-- **[ARCHIVED] Hallucinated Tool:** Overwatch critique mentioned a `complex_boulder_pusher_tool`. My attempt to delete it failed because the tool does not exist. This was a hallucination.
-- **[ARCHIVED] Victory Road 1F (Western Area):** The ladder from Victory Road 2F at (1, 9) leads to a small, isolated area on Victory Road 1F. This area is a dead end.
+- **Victory Road 3F (Western Boulder Puzzle):** [AGENT HYPOTHESIS] The puzzle at switch (4, 6) is solvable via a 'secret passage' for the boulder at (14, 13). This is a long-term goal.
+- **Victory Road 2F (Puzzle @ Switch 10,17):** [CONCLUSION] Confirmed multi-floor solution. Hypothesis: Push boulder at (23, 16) on 3F down the hole at (24, 16).
+- **Horizontal Push Anomaly (Victory Road 2F):** Horizontal boulder pushes at (4, 14) and (4, 16) didn't move the player. Needs more testing.
+- **[ARCHIVED] Hallucinated Tool:** `complex_boulder_pusher_tool` does not exist.
+- **[ARCHIVED] Victory Road 1F (Western Area):** Area from 2F ladder at (1, 9) is a confirmed dead end.
