@@ -46,15 +46,13 @@
 
 - **Victory Road 1F (Western Area):** The ladder from Victory Road 2F at (1, 9) leads to a small, isolated area on Victory Road 1F around (2, 2). This area is a dead end and does not connect to the main floor. The only exit is back up the ladder.
 - **Horizontal Push Anomaly (Victory Road 2F):** At (4, 14), pushing the boulder from (5, 14) to (6, 14) did not move the player character to (5, 14), contradicting previous observations. This needs further verification.
-- **Victory Road 2F (Eastern Puzzle @ 10,17):** Hypothesis to use the southern boulder (at 7, 14) has been falsified. The path to the switch is blocked by an impassable tile at (9, 17). The solution must involve the northern boulder at (6, 6).
+- **Horizontal Push Anomaly 2 (Victory Road 2F):** At (4, 16), pushing the boulder from (5, 16) to (6, 16) did not move the player character, contradicting the general horizontal push rule again.
+- **Future Tool Idea:** A `multi_step_boulder_pusher` tool that can take a sequence of push commands (e.g., from the puzzle_strategist_agent) and execute them automatically. This would automate non-linear boulder puzzles.
+
+## A. Victory Road 2F (Eastern Puzzle @ 10,17)
+- **[FALSIFIED - AGENT HYPOTHESIS]** Agent suggested impassable tiles from (6, 17) to (9, 17) were a 'fake wall' for the southern boulder. Test failed; the wall is solid.
+- **[FALSIFIED - MANUAL HYPOTHESIS]** All hypotheses involving the two boulders located on this floor (at (6,4) and (5,17)) have been exhausted and proven incorrect. They cannot reach the switch at (10,17).
+- **[CURRENT HYPOTHESIS]** The solution requires a multi-floor setup. A boulder from Victory Road 3F must be pushed into a hole to land in a useful position on 2F. Investigation on 3F is the next step.
 
 ## Archived Hypotheses
 - **[CORRECTED] Pikachu Movement Mechanic:** Pikachu is a special NPC that can be walked through. If adjacent and not facing him, the first directional press turns the player, and the second moves onto his tile. The hypothesis that I needed to wait for him to move at Victory Road 2F (6, 11) was incorrect.
-
-- **Horizontal Push Anomaly 2 (Victory Road 2F):** At (4, 16), pushing the boulder from (5, 16) to (6, 16) did not move the player character, contradicting the general horizontal push rule again.
-- **Future Tool Idea:** A `multi_step_boulder_pusher` tool that can take a sequence of push commands (e.g., from the puzzle_strategist_agent) and execute them automatically. This would automate non-linear boulder puzzles.
-## A. Victory Road 2F (Eastern Puzzle @ 10,17)
-- **[FALSIFIED]** All hypotheses involving the two boulders located on this floor (at (6,4) and (5,17)) have been exhausted and proven incorrect. They cannot reach the switch at (10,17).
-- **[CURRENT HYPOTHESIS]** The solution requires a multi-floor setup. A boulder from Victory Road 3F must be pushed into a hole to land in a useful position on 2F. Investigation on 3F is the next step.
-## A. Victory Road 2F (Eastern Puzzle @ 10,17)
-- **[FALSIFIED - AGENT HYPOTHESIS]** Agent suggested impassable tiles from (6, 17) to (9, 17) were a 'fake wall' for the southern boulder. Test failed; the wall is solid.
