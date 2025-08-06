@@ -126,5 +126,21 @@
         "action_counter": 124270
       }
     ]
+  },
+  "puzzle_data_extractor": {
+    "description": "Parses the map XML to extract all relevant data for a boulder puzzle (player, boulders, switches, barriers) and formats it as JSON for the puzzle_solver_agent.",
+    "input_schema": {
+      "type": "object",
+      "properties": {},
+      "required": []
+    },
+    "python_script": "import xml.etree.ElementTree as ET\nimport json\n\nroot = ET.fromstring(map_xml_string)\npuzzle_data = {\n    \"player\": None,\n    \"boulders\": [],\n    \"switches\": [],\n    \"barriers\": []\n}\n\nfor row in root.findall('Row'):\n    y = int(row.get('id'))\n    for tile in row.findall('Tile'):\n        x = int(tile.get('id'))\n        if tile.find('Player') is not None:\n            puzzle_data['player'] = {'x': x, 'y': y}\n        if tile.find('Boulder') is not None:\n            puzzle_data['boulders'].append({'x': x, 'y': y})\n        if tile.get('type') == 'boulder_switch':\n            puzzle_data['switches'].append({'x': x, 'y': y})\n        if tile.get('type') == 'boulder_barrier':\n            puzzle_data['barriers'].append({'x': x, 'y': y})\n\nprint(json.dumps(puzzle_data))",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2025-08-06T16:35:46.657Z",
+        "action_counter": 124287
+      }
+    ]
   }
 }
