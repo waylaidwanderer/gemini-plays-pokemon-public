@@ -47,3 +47,4 @@
 
 # VII. Navigational Insights
 - **Victory Road (Floors 2F & 3F):** These floors are composed of multiple, disconnected platforms. Direct traversal between sections is impossible. Progress requires using the correct sequence of ladders/warps to move between these isolated areas.
+- **Victory Road 3F Layout:** This floor consists of multiple, disconnected landmasses. I am currently on the western landmass, which contains the puzzle switch at (4,6) and a boulder at (23,4). The puzzle solution must be on this same landmass.
