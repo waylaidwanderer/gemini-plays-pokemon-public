@@ -75,3 +75,4 @@
   16. Push boulder at (17, 14) Up
   17. Push boulder at (17, 13) Right
   18. Push boulder at (18, 13) Down
+- **Tool Failure Protocol:** If a tool produces an error or an unexpected result, I MUST first use the `tool_debugger_agent` to diagnose the issue before attempting a manual fix. This leverages my specialized agents and reduces the risk of manual error.
