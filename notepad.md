@@ -52,7 +52,7 @@
 ## A. Victory Road 2F (Eastern Puzzle @ 10,17)
 - **[FALSIFIED - AGENT HYPOTHESIS]** Agent suggested impassable tiles from (6, 17) to (9, 17) were a 'fake wall' for the southern boulder. Test failed; the wall is solid.
 - **[FALSIFIED - MANUAL HYPOTHESIS]** All hypotheses involving the two boulders located on this floor (at (6,4) and (5,17)) have been exhausted and proven incorrect. They cannot reach the switch at (10,17).
-- **[CURRENT HYPOTHESIS]** The solution requires a multi-floor setup. A boulder from Victory Road 3F must be pushed into a hole to land in a useful position on 2F. Investigation on 3F is the next step.
+- **[FALSIFIED - SYSTEM DIRECTIVE]** Multiple system directives have confirmed the solution is on Victory Road 2F. The multi-floor hypothesis is incorrect.
 
 ## Archived Hypotheses
 - **[CORRECTED] Pikachu Movement Mechanic:** Pikachu is a special NPC that can be walked through. If adjacent and not facing him, the first directional press turns the player, and the second moves onto his tile. The hypothesis that I needed to wait for him to move at Victory Road 2F (6, 11) was incorrect.
