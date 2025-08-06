@@ -43,3 +43,6 @@
 - **[FALSIFIED] Victory Road 2F Secret Passage (9, 16):** The puzzle agent's hypothesis of a secret passage at (9, 16) was tested by attempting to push the boulder at (8, 16) east. The push failed, proving the tile is impassable. This hypothesis is incorrect.
 - **[HYPOTHESIS] Victory Road 2F Puzzle Solution requires a boulder from 3F:** The boulders on 2F cannot reach the switch at (10, 17). The next step is to return to 3F and search for a hole that drops a boulder into the eastern section of 2F.
 - **[FALSIFIED] Victory Road 3F Hidden Passage (12,7):** The puzzle agent hypothesized a secret passage at (12,7). This was also based on being on the wrong platform. This hypothesis is likely incorrect.
+
+# VII. Future Development Ideas
+- **Agent Idea: `battle_triage_agent`:** Create an agent to quickly determine if a wild battle is winnable or if running is the only option. This would streamline the decision-making process during navigation with a critically injured party, avoiding the need to call the full `battle_strategist_agent` for obvious 'run' scenarios.
