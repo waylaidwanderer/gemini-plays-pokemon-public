@@ -11,42 +11,6 @@
       }
     ]
   },
-  "puzzle_input_generator": {
-    "description": "Parses the current map's XML to generate the correct JSON input for the puzzle_strategist_agent, targeting a specific switch.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "target_x": {
-          "type": "string"
-        },
-        "target_y": {
-          "type": "string"
-        }
-      },
-      "required": [
-        "target_x",
-        "target_y"
-      ]
-    },
-    "python_script": "import xml.etree.ElementTree as ET\nimport json\n\nroot = ET.fromstring(map_xml_string)\n\nplayer_pos = None\nboulders = []\nswitches = []\n\nfor row in root.findall('Row'):\n    y = int(row.get('id'))\n    for tile in row.findall('Tile'):\n        x = int(tile.get('id'))\n        if tile.find('Player') is not None:\n            player_pos = {'x': x, 'y': y}\n        if tile.find('Boulder') is not None:\n            boulders.append({'x': x, 'y': y})\n        if tile.get('type') == 'boulder_switch':\n            switches.append({'x': x, 'y': y})\n\ntarget_x = int(input_data['target_x'])\ntarget_y = int(input_data['target_y'])\n\nagent_input = {\n    \"map_xml_string\": map_xml_string,\n    \"player_position\": player_pos,\n    \"boulders\": boulders,\n    \"switches\": switches,\n    \"target_switch\": {\"x\": target_x, \"y\": target_y},\n    \"notepad_content\": \"\" \n}\n\nprint(json.dumps(agent_input))",
-    "history": [
-      {
-        "commit_message": "feat: Create puzzle_input_generator tool. This tool automates the repetitive task of parsing the map XML to gather all necessary data (player position, boulders, switches, etc.) and formats it into the correct JSON structure required to call the `puzzle_strategist_agent`. This was identified as a key process improvement during self-reflection, as it streamlines puzzle-solving and reduces the chance of manual error.",
-        "timestamp": "2025-08-06T07:21:26.855Z",
-        "action_counter": 123715
-      },
-      {
-        "commit_message": "fix: Correct a syntax error in the agent_call dictionary. The `notepad_content` value was an unterminated string, causing a Python `SyntaxError`. This has been corrected to use `json.dumps(\"\")` for a valid empty string placeholder.",
-        "timestamp": "2025-08-06T07:23:13.766Z",
-        "action_counter": 123717
-      },
-      {
-        "commit_message": "feat: Create puzzle_input_generator tool. This tool automates the repetitive task of parsing the map XML to gather all necessary data (player position, boulders, switches, etc.) and formats it into the correct JSON structure required to call the `puzzle_strategist_agent`. This was identified as a key process improvement during self-reflection, as it streamlines puzzle-solving and reduces the chance of manual error.",
-        "timestamp": "2025-08-06T14:59:21.660Z",
-        "action_counter": 124131
-      }
-    ]
-  },
   "pathfinder": {
     "description": "Calculates the shortest path between two points on the current map using the A* search algorithm. It avoids impassable tiles, objects, and handles elevation, ledges, and surfing correctly.",
     "input_schema": {
@@ -140,6 +104,42 @@
         "commit_message": "Initial version",
         "timestamp": "2025-08-06T16:35:46.657Z",
         "action_counter": 124287
+      }
+    ]
+  },
+  "puzzle_input_generator": {
+    "description": "Parses the current map's XML to generate the correct JSON input for the puzzle_strategist_agent, targeting a specific switch.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "target_x": {
+          "type": "string"
+        },
+        "target_y": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "target_x",
+        "target_y"
+      ]
+    },
+    "python_script": "import xml.etree.ElementTree as ET\nimport json\n\nroot = ET.fromstring(map_xml_string)\n\nplayer_pos = None\nboulders = []\nswitches = []\n\nfor row in root.findall('Row'):\n    y = int(row.get('id'))\n    for tile in row.findall('Tile'):\n        x = int(tile.get('id'))\n        if tile.find('Player') is not None:\n            player_pos = {'x': x, 'y': y}\n        if tile.find('Boulder') is not None:\n            boulders.append({'x': x, 'y': y})\n        if tile.get('type') == 'boulder_switch':\n            switches.append({'x': x, 'y': y})\n\ntarget_x = int(input_data['target_x'])\ntarget_y = int(input_data['target_y'])\n\nagent_input = {\n    \"map_xml_string\": map_xml_string,\n    \"player_position\": player_pos,\n    \"boulders\": boulders,\n    \"switches\": switches,\n    \"target_switch\": {\"x\": target_x, \"y\": target_y},\n    \"notepad_content\": \"\" \n}\n\nprint(json.dumps(agent_input))",
+    "history": [
+      {
+        "commit_message": "feat: Create puzzle_input_generator tool. This tool automates the repetitive task of parsing the map XML to gather all necessary data (player position, boulders, switches, etc.) and formats it into the correct JSON structure required to call the `puzzle_strategist_agent`. This was identified as a key process improvement during self-reflection, as it streamlines puzzle-solving and reduces the chance of manual error.",
+        "timestamp": "2025-08-06T07:21:26.855Z",
+        "action_counter": 123715
+      },
+      {
+        "commit_message": "fix: Correct a syntax error in the agent_call dictionary. The `notepad_content` value was an unterminated string, causing a Python `SyntaxError`. This has been corrected to use `json.dumps(\"\")` for a valid empty string placeholder.",
+        "timestamp": "2025-08-06T07:23:13.766Z",
+        "action_counter": 123717
+      },
+      {
+        "commit_message": "feat: Create puzzle_input_generator tool. This tool automates the repetitive task of parsing the map XML to gather all necessary data (player position, boulders, switches, etc.) and formats it into the correct JSON structure required to call the `puzzle_strategist_agent`. This was identified as a key process improvement during self-reflection, as it streamlines puzzle-solving and reduces the chance of manual error.",
+        "timestamp": "2025-08-06T14:59:21.660Z",
+        "action_counter": 124131
       }
     ]
   }
