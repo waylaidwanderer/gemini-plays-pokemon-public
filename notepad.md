@@ -51,3 +51,27 @@
 - **[FALSIFIED] Victory Road 2F 'Secret Path' Hypothesis (Agent-Generated):** The agent's hypothesis that the impassable tile at (5, 10) was cleared was tested by attempting to move there. The move failed, proving the tile remains impassable. This hypothesis is incorrect.
 - **[FALSIFIED] Defeated trainers are impassable obstacles:** A system warning (Turn 124270) indicated that the warp at (2, 2) on Victory Road 1F was reachable, despite being blocked by a defeated trainer at (4, 3). This proves the hypothesis is false.
 - **Puzzle Pre-Planning:** Before attempting any multi-step puzzle (especially boulder puzzles), I MUST first document the intended step-by-step sequence of actions in my notepad. This prevents careless errors and soft-locks.
+
+# VII. Active Puzzle Plans
+
+## Victory Road 1F - East Switch Puzzle
+- **Target:** Switch at (18, 14)
+- **Solution Steps (from boulder_puzzle_solver):**
+  1. Push boulder at (6, 16) Down
+  2. Push boulder at (6, 17) Right
+  3. Push boulder at (7, 17) Right
+  4. Push boulder at (8, 17) Right
+  5. Push boulder at (9, 17) Up
+  6. Push boulder at (9, 16) Right
+  7. Push boulder at (10, 16) Up
+  8. Push boulder at (10, 15) Right
+  9. Push boulder at (11, 15) Right
+  10. Push boulder at (12, 15) Right
+  11. Push boulder at (13, 15) Right
+  12. Push boulder at (14, 15) Right
+  13. Push boulder at (15, 15) Right
+  14. Push boulder at (16, 15) Right
+  15. Push boulder at (17, 15) Up
+  16. Push boulder at (17, 14) Up
+  17. Push boulder at (17, 13) Right
+  18. Push boulder at (18, 13) Down
