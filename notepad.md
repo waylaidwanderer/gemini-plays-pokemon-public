@@ -33,7 +33,7 @@
 # IV. Methodology & Lessons Learned
 - **Agent-First Approach:** Before attempting any manual solution for a complex problem, I MUST consult the relevant specialist agent first.
 - **Trust System Directives:** A system directive or system warning is the source of truth and MUST be trusted over personal assumptions or agent outputs.
-- **Pathfinding Failure Protocol:** If a pathfinder tool repeatedly fails, my first step MUST be to use the `landmass_analyzer` tool to verify physical connectivity before assuming the tool is bugged. This is to combat my confirmation bias where I blame tools for my own flawed understanding of the map layout.
+- **Tool Failure Protocol:** If any tool fails, especially a pathfinder: 1. Use `landmass_analyzer` to confirm physical connectivity (for pathfinders). 2. Add verbose logging/debug prints to the failing tool. 3. Re-run the tool to generate a detailed log. 4. Use the `tool_debugger_agent` to analyze the log and identify the root cause. This tiered approach MUST be followed before any manual debugging attempts.
 - **Tool Maintenance:** Faulty tools must be fixed or deleted IMMEDIATELY. Continuing to use a known-broken tool is inefficient and leads to errors.
 - **Defeated Trainers are Passable:** System warnings confirmed that defeated trainers are not obstacles, even though they are objects. My pathfinder tool has been updated to reflect this.
 - **Surfing Navigation:** The `pathfinder` tool requires `movement_mode='surfing'` to navigate over water.
@@ -60,4 +60,3 @@
 - **Plan:** 
   1. Navigate to (3, 12).
   2. Push the boulder at (3, 11) UP onto the switch at (3, 10).
-- **Tool Failure Protocol:** If a tool produces an error or an unexpected result, I MUST first use the `tool_debugger_agent` to diagnose the issue before attempting a manual fix. This leverages my specialized agents and reduces the risk of manual error.
