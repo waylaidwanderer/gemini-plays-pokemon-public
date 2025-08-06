@@ -46,3 +46,4 @@
 
 # VII. Future Development Ideas
 - **Agent Idea: `battle_triage_agent`:** Create an agent to quickly determine if a wild battle is winnable or if running is the only option. This would streamline the decision-making process during navigation with a critically injured party, avoiding the need to call the full `battle_strategist_agent` for obvious 'run' scenarios.
+- **[FALSIFIED] Victory Road 2F 'Cleared Path' Hypothesis:** The puzzle agent's hypothesis that solving the switch at (2, 17) would clear the impassable tiles along the same row was tested by attempting to push the boulder at (5, 17) east. The push failed, proving the tiles remain impassable. This hypothesis is incorrect.
