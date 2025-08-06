@@ -51,3 +51,9 @@
 2. **[OVERRIDE - SYSTEM DIRECTIVE]** Received a system directive stating the solution IS on the current floor. This falsified the multi-floor hypothesis.
 3. **[AGENT HYPOTHESIS - FALSIFIED]** My `puzzle_strategist_agent` suggested the impassable tiles from (6, 17) to (9, 17) were a 'fake wall'. Test failed; the wall is solid.
 4. **[CURRENT HYPOTHESIS - DIRECTIVE DRIVEN]** The only remaining on-floor option is the northern boulder at (6, 6). The new plan is to maneuver this boulder south, then east, and down the ramp at (8, 9) to reach the switch.
+
+## A. Victory Road 2F (Puzzle @ Switch 10,17) - Investigation Log
+1. **[INITIAL CONCLUSION - FALSIFIED]** My initial analysis concluded that all on-floor boulders were unable to reach the switch, leading to the hypothesis that a multi-floor solution was required.
+2. **[OVERRIDE - SYSTEM DIRECTIVE]** Received a system directive stating the solution IS on the current floor. This falsified the multi-floor hypothesis.
+3. **[AGENT HYPOTHESIS - FALSIFIED]** My `puzzle_strategist_agent` suggested the impassable tiles from (6, 17) to (9, 17) were a 'fake wall'. Test failed; the wall is solid.
+4. **[CURRENT HYPOTHESIS - DIRECTIVE DRIVEN]** The only remaining on-floor option is the northern boulder at (6, 6). The new plan is to maneuver this boulder south, then east, and down the ramp at (8, 9) to reach the switch.
