@@ -50,8 +50,3 @@
 1. **[INITIAL CONCLUSION]** My initial analysis concluded that all on-floor boulders were unable to reach the switch, leading to the hypothesis that a multi-floor solution was required.
 2. **[FALSIFIED - CONTRADICTORY DIRECTIVE]** A previous system directive stated the solution was on the current floor. However, all paths to the on-floor boulders are blocked by impassable defeated trainers.
 3. **[NEW DIRECTIVE & HYPOTHESIS]** A new, overriding system directive has explicitly suggested considering a solution from another floor. My new hypothesis is that the boulder at (23, 16) on Victory Road 3F must be pushed down the hole at (24, 16) to solve this puzzle.
-
-## A. Victory Road 2F (Puzzle @ Switch 10,17) - Investigation Log
-1. **[INITIAL CONCLUSION]** My initial analysis concluded that all on-floor boulders were unable to reach the switch, leading to the hypothesis that a multi-floor solution was required.
-2. **[FALSIFIED - CONTRADICTORY DIRECTIVE]** A previous system directive stated the solution was on the current floor. However, all paths to the on-floor boulders are blocked by impassable defeated trainers.
-3. **[NEW DIRECTIVE & HYPOTHESIS]** A new, overriding system directive has explicitly suggested considering a solution from another floor. My new hypothesis is that the boulder at (23, 16) on Victory Road 3F must be pushed down the hole at (24, 16) to solve this puzzle.
