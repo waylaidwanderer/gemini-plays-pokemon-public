@@ -34,8 +34,8 @@
 # IV. Methodology & Future Development
 - **Agent-First Approach:** Before attempting any manual solution for a complex problem, I MUST consult the relevant specialist agent first.
 - **Agent-First Debugging:** When a custom tool fails, I MUST use my `tool_debugger_agent` for analysis before attempting any manual fixes.
-- **Trust System Directives:** A system directive is the source of truth and MUST be trusted over personal assumptions or agent outputs. If a directive contradicts observations, the observation or interpretation is flawed.
-- **Breaking Unproductive Loops (Overwatch Mandate):** If a tool proves unfixable after a few focused attempts, or if manual navigation repeatedly fails, I MUST abandon the current approach and pivot to a new strategy to maintain forward momentum. Persisting in a failing strategy is a critical error. My `gem_pathfinder_v2` tool will be tested one final time; if it fails, it will be abandoned in favor of manual navigation.
+- **Trust System Directives:** A system directive or system warning is the source of truth and MUST be trusted over personal assumptions or agent outputs. If a directive contradicts observations, the observation or interpretation is flawed.
+- **Breaking Unproductive Loops (Overwatch Mandate):** If a tool proves unfixable after a few focused attempts, or if manual navigation repeatedly fails, I MUST abandon the current approach and pivot to a new strategy to maintain forward momentum. Persisting in a failing strategy is a critical error.
 - **Future Agent Idea:** A 'debugging manager' agent to propose novel debugging steps and prevent repetitive action loops.
 
 # V. Paused Investigations & Archived Conclusions
@@ -49,10 +49,11 @@
 - **Horizontal Push Anomaly 2 (Victory Road 2F):** At (4, 16), pushing the boulder from (5, 16) to (6, 16) did not move the player character, contradicting the general horizontal push rule again.
 - **Future Tool Idea:** A `multi_step_boulder_pusher` tool that can take a sequence of push commands (e.g., from the puzzle_strategist_agent) and execute them automatically. This would automate non-linear boulder puzzles.
 
-## A. Victory Road 2F (Eastern Puzzle @ 10,17)
-- **[FALSIFIED - AGENT HYPOTHESIS]** Agent suggested impassable tiles from (6, 17) to (9, 17) were a 'fake wall' for the southern boulder. Test failed; the wall is solid.
-- **[NEW HYPOTHESIS - DIRECTIVE DRIVEN]** A system directive states the solution is on this floor, overriding previous conclusions. The new plan is to maneuver the northern boulder at (6, 6) south, then east, and down the ramp at (8, 9) to reach the switch at (10, 17).
-- **[FALSIFIED - SYSTEM DIRECTIVE]** Multiple system directives have confirmed the solution is on Victory Road 2F. The multi-floor hypothesis is incorrect.
+## A. Victory Road 2F (Puzzle @ Switch 10,17) - Investigation Log
+1. **[INITIAL CONCLUSION - FALSIFIED]** My initial analysis concluded that all on-floor boulders were unable to reach the switch, leading to the hypothesis that a multi-floor solution was required.
+2. **[OVERRIDE - SYSTEM DIRECTIVE]** Received a system directive stating the solution IS on the current floor. This falsified the multi-floor hypothesis.
+3. **[AGENT HYPOTHESIS - FALSIFIED]** My `puzzle_strategist_agent`, deferring to the directive, suggested the impassable tiles from (6, 17) to (9, 17) were a 'fake wall' for the southern boulder. I tested this by pushing the boulder at (5, 17) east. The test failed; the wall is solid.
+4. **[CURRENT HYPOTHESIS - DIRECTIVE DRIVEN]** With the southern boulder path disproven, the only remaining on-floor option is the northern boulder at (6, 6). The new plan is to maneuver this boulder south, then east, and down the ramp at (8, 9) to reach the switch.
 
 ## Archived Hypotheses
 - **[CORRECTED] Pikachu Movement Mechanic:** Pikachu is a special NPC that can be walked through. If adjacent and not facing him, the first directional press turns the player, and the second moves onto his tile. The hypothesis that I needed to wait for him to move at Victory Road 2F (6, 11) was incorrect.
