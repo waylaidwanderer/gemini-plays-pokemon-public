@@ -35,6 +35,7 @@
 - **Agent-First Approach:** Before attempting any manual solution for a complex problem, I MUST consult the relevant specialist agent first.
 - **Agent-First Debugging:** When a custom tool fails, I MUST use my `tool_debugger_agent` for analysis before attempting any manual fixes.
 - **Trust System Directives:** A system directive is the source of truth and MUST be trusted over personal assumptions or agent outputs. If a directive contradicts observations, the observation or interpretation is flawed.
+- **Breaking Unproductive Loops (Overwatch Mandate):** If a tool proves unfixable after a few focused attempts, or if manual navigation repeatedly fails, I MUST abandon the current approach and pivot to a new strategy to maintain forward momentum. Persisting in a failing strategy is a critical error. My `gem_pathfinder_v2` tool will be tested one final time; if it fails, it will be abandoned in favor of manual navigation.
 - **Future Agent Idea:** A 'debugging manager' agent to propose novel debugging steps and prevent repetitive action loops.
 
 # V. Paused Investigations & Archived Conclusions
