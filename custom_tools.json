@@ -38,49 +38,6 @@
       }
     ]
   },
-  "get_complete_puzzle_state": {
-    "description": "A wrapper tool that gathers all necessary data for the puzzle_strategist_agent. It parses the map XML to find the player's position, all boulders, switches, and barriers, and a comprehensive list of all impassable tiles, including objects like defeated trainers.",
-    "input_schema": {},
-    "python_script": "import xml.etree.ElementTree as ET\nimport json\n\npuzzle_state = {\n    \"player_pos\": {},\n    \"boulders\": [],\n    \"switches\": [],\n    \"barriers\": [],\n    \"impassable_tiles\": []\n}\n\nroot = ET.fromstring(map_xml_string)\nimpassable_types = ['impassable', 'boulder_barrier', 'closed_gate']\n\nfor row in root.findall('Row'):\n    y = int(row.get('id'))\n    for tile in row.findall('Tile'):\n        x = int(tile.get('id'))\n        coord = {'x': x, 'y': y}\n\n        if tile.find('Player') is not None:\n            puzzle_state[\"player_pos\"] = coord\n\n        if tile.find('Boulder') is not None:\n            puzzle_state[\"boulders\"].append(coord)\n        if tile.get('type') == 'boulder_switch':\n            puzzle_state[\"switches\"].append(coord)\n        if tile.get('type') == 'boulder_barrier':\n            puzzle_state[\"barriers\"].append(coord)\n\n        is_impassable = False\n        if tile.get('type') in impassable_types:\n            is_impassable = True\n        \n        for obj in tile.findall('Object'):\n            if obj.get('id-name') != 'Pikachu':\n                is_impassable = True\n                break\n        \n        if is_impassable:\n            puzzle_state[\"impassable_tiles\"].append(coord)\n\nprint(json.dumps(puzzle_state))",
-    "history": [
-      {
-        "commit_message": "feat: Create get_complete_puzzle_state tool. This automates the data gathering process for the puzzle_strategist_agent, preventing user error. It combines the functionality of get_puzzle_elements and get_impassable_coords, ensuring a complete and accurate dataset is always provided to the agent for strategic planning.",
-        "timestamp": "2025-08-03T05:08:52.744Z",
-        "action_counter": 118100
-      }
-    ]
-  },
-  "log_summarizer": {
-    "description": "Summarizes a long log file, focusing on the beginning and end, to prevent truncation when passing it to another agent.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "log_text": {
-          "type": "string"
-        },
-        "max_chars": {
-          "type": "string"
-        }
-      },
-      "required": [
-        "log_text",
-        "max_chars"
-      ]
-    },
-    "python_script": "import json\n\nlog_text = input_data['log_text']\nmax_chars = int(input_data.get('max_chars', 8000))\n\nif len(log_text) <= max_chars:\n    print(log_text)\nelse:\n    half_chars = (max_chars - 50) // 2\n    start = log_text[:half_chars]\n    end = log_text[-half_chars:]\n    summary = f\"{start}\\n\\n... (log truncated, see original tool output for full text) ...\\n\\n{end}\"\n    print(summary)",
-    "history": [
-      {
-        "commit_message": "feat: Create log_summarizer tool. This tool will prevent log truncation issues when passing verbose tool output to debugger agents, which was a critical failure identified in the last overwatch critique. This is a necessary step to break the current unproductive debugging loop.",
-        "timestamp": "2025-08-05T13:18:24.116Z",
-        "action_counter": 122522
-      },
-      {
-        "commit_message": "feat: Create log_summarizer tool. This tool will prevent log truncation issues when passing verbose tool output to debugger agents, which was a critical failure identified in the last overwatch critique. This is a necessary step to break the current unproductive debugging loop.",
-        "timestamp": "2025-08-05T15:11:16.035Z",
-        "action_counter": 122635
-      }
-    ]
-  },
   "landmass_analyzer": {
     "description": "Analyzes the map to identify all disconnected, traversable landmasses. Helps diagnose navigation puzzles and prevent getting stuck in isolated areas.",
     "input_schema": {},
