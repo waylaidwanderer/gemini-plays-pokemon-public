@@ -57,4 +57,4 @@
 - **[FALSIFIED]** All hypotheses involving the two boulders located on this floor (at (6,4) and (5,17)) have been exhausted and proven incorrect. They cannot reach the switch at (10,17).
 - **[CURRENT HYPOTHESIS]** The solution requires a multi-floor setup. A boulder from Victory Road 3F must be pushed into a hole to land in a useful position on 2F. Investigation on 3F is the next step.
 ## A. Victory Road 2F (Eastern Puzzle @ 10,17)
-- **[NEW HYPOTHESIS - AGENT/DIRECTIVE DRIVEN]** A system directive states the solution is on this floor. My `puzzle_strategist_agent` suggests the impassable tiles from (6, 17) to (9, 17) are a 'fake wall'. The plan is to test this by pushing the southern boulder at (5, 17) east across these tiles and onto the switch.
+- **[FALSIFIED - AGENT HYPOTHESIS]** Agent suggested impassable tiles from (6, 17) to (9, 17) were a 'fake wall' for the southern boulder. Test failed; the wall is solid.
