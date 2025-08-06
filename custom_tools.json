@@ -74,5 +74,36 @@
         "action_counter": 123572
       }
     ]
+  },
+  "puzzle_input_generator": {
+    "description": "Parses the current map's XML to generate the correct JSON input for the puzzle_strategist_agent, targeting a specific switch.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "target_x": {
+          "type": "string"
+        },
+        "target_y": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "target_x",
+        "target_y"
+      ]
+    },
+    "python_script": "import xml.etree.ElementTree as ET\nimport json\n\ntarget_x = int(input_data['target_x'])\ntarget_y = int(input_data['target_y'])\n\nroot = ET.fromstring(map_xml_string)\n\nplayer_pos = None\nboulders = []\nswitches = []\nbarriers = []\nimpassable_tiles = []\n\nfor row in root.findall('Row'):\n    y = int(row.get('id'))\n    for tile in row.findall('Tile'):\n        x = int(tile.get('id'))\n        coord = {'x': x, 'y': y}\n\n        if tile.find('Player') is not None:\n            player_pos = coord\n        if tile.find('Boulder') is not None:\n            boulders.append(coord)\n        if tile.get('type') == 'boulder_switch':\n            switches.append(coord)\n        if tile.get('type') == 'boulder_barrier':\n            barriers.append(coord)\n        if tile.get('type') == 'impassable':\n            impassable_tiles.append(coord)\n\nagent_call = {\n    'tool_name': 'puzzle_strategist_agent',\n    'tool_args': [\n        {'name': 'player_pos', 'value': json.dumps(player_pos)},\n        {'name': 'boulders', 'value': json.dumps(boulders)},\n        {'name': 'switches', 'value': json.dumps(switches)},\n        {'name': 'barriers', 'value': json.dumps(barriers)},\n        {'name': 'impassable_tiles', 'value': json.dumps(impassable_tiles)},\n        {'name': 'target_switch', 'value': json.dumps({'x': target_x, 'y': target_y})},\n        {'name': 'solved_switches', 'value': '[]'},\n        {'name': 'system_directive', 'value': json.dumps('You are on a map with a boulder puzzle. Your progress is likely blocked by a boulder barrier elsewhere. To proceed, you MUST attempt to solve the puzzle.')},\n        {'name': 'notepad_content', 'value': json.dumps(\"\")} # Placeholder, user should provide this\n    ]\n}\n\nprint(json.dumps(agent_call, indent=2))",
+    "history": [
+      {
+        "commit_message": "feat: Create puzzle_input_generator tool. This tool automates the repetitive task of parsing the map XML to gather all necessary data (player position, boulders, switches, etc.) and formats it into the correct JSON structure required to call the `puzzle_strategist_agent`. This was identified as a key process improvement during self-reflection, as it streamlines puzzle-solving and reduces the chance of manual error.",
+        "timestamp": "2025-08-06T07:21:26.855Z",
+        "action_counter": 123715
+      },
+      {
+        "commit_message": "fix: Correct a syntax error in the agent_call dictionary. The `notepad_content` value was an unterminated string, causing a Python `SyntaxError`. This has been corrected to use `json.dumps(\"\")` for a valid empty string placeholder.",
+        "timestamp": "2025-08-06T07:23:13.766Z",
+        "action_counter": 123717
+      }
+    ]
   }
 }
