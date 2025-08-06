@@ -56,3 +56,6 @@
 
 ## Archived Hypotheses
 - **[CORRECTED] Pikachu Movement Mechanic:** Pikachu is a special NPC that can be walked through. If adjacent and not facing him, the first directional press turns the player, and the second moves onto his tile. The hypothesis that I needed to wait for him to move at Victory Road 2F (6, 11) was incorrect.
+
+## C. Victory Road 3F (Eastern Puzzle)
+- **[FALSIFIED - MANUAL HYPOTHESIS]** The impassable tile at (24, 10) is a 'fake wall'. Test failed; the wall is solid.
