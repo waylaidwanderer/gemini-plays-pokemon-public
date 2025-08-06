@@ -37,8 +37,9 @@
 # V. Navigational Insights (Verified)
 - **[CORRECTED AGAIN] Victory Road 2F Layout:** The `landmass_analyzer` tool confirms this floor is split into two disconnected landmasses. Landmass 0 is the main, large area where the puzzle is. Landmass 1 is a small, isolated platform in the northeast corner accessible only via a specific ladder from 3F. My previous conclusion that it was one contiguous area was a hallucination.
 - **Victory Road 3F Layout:** Landmass analysis confirmed this floor is split into three disconnected areas. My previous navigation loops were caused by failing to understand this and attempting to pathfind between them.
+- **[CORRECTED] Victory Road 2F Navigation:** The ground floor is split into two disconnected eastern and western sections by impassable walls. The only way to cross is by using the elevated platforms, accessible via the steps at (22, 16) in the east and (6, 11) in the west.
 
 # VI. Archived & Falsified Hypotheses
+- **[FALSIFIED] Victory Road 2F Secret Passage (9, 16):** The puzzle agent's hypothesis of a secret passage at (9, 16) was tested by attempting to push the boulder at (8, 16) east. The push failed, proving the tile is impassable. This hypothesis is incorrect.
+- **[HYPOTHESIS] Victory Road 2F Puzzle Solution requires a boulder from 3F:** The boulders on 2F cannot reach the switch at (10, 17). The next step is to return to 3F and search for a hole that drops a boulder into the eastern section of 2F.
 - **[FALSIFIED] Victory Road 3F Hidden Passage (12,7):** The puzzle agent hypothesized a secret passage at (12,7). This was also based on being on the wrong platform. This hypothesis is likely incorrect.
-- **[HYPOTHESIS] Victory Road 2F Secret Passage:** The puzzle agent suggests a secret passage at (9, 16) is the key to solving the puzzle for the switch at (10, 17). The plan is to push the boulder from (5,15) down and then east to test this hypothesis.
-- **[CORRECTED] Victory Road 2F Navigation:** The ground floor is split into two disconnected eastern and western sections by impassable walls. The only way to cross is by using the elevated platforms, accessible via the steps at (22, 16) in the east and (6, 11) in the west.
