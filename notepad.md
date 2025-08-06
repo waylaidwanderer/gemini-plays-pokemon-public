@@ -1,6 +1,5 @@
 # I. Current Objective
 - **Primary Objective:** Solve the Victory Road boulder puzzles to reach the Indigo Plateau.
-- **Secondary Objective:** Utilize the new puzzle_strategist_agent to solve the next boulder puzzle.
 
 # II. Core Gameplay & World Rules
 - **Poison Damage:** Poisoned Pokémon in the party lose 1 HP every four steps taken outside of battle.
