@@ -1,68 +1,4 @@
 {
-  "boulder_pusher_tool": {
-    "description": "Automates pushing a boulder in a straight line. Assumes the player is already in position to start the first push. Outputs a list of button presses.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "boulder_start_x": {
-          "type": "string"
-        },
-        "boulder_start_y": {
-          "type": "string"
-        },
-        "boulder_end_x": {
-          "type": "string"
-        },
-        "boulder_end_y": {
-          "type": "string"
-        }
-      },
-      "required": [
-        "boulder_start_x",
-        "boulder_start_y",
-        "boulder_end_x",
-        "boulder_end_y"
-      ]
-    },
-    "python_script": "import json\n\nstart_x, start_y = int(input_data['boulder_start_x']), int(input_data['boulder_start_y'])\nend_x, end_y = int(input_data['boulder_end_x']), int(input_data['boulder_end_y'])\n\nbuttons = []\n\nif start_x == end_x: # Vertical push\n    direction = 'Up' if end_y < start_y else 'Down'\n    num_pushes = abs(start_y - end_y)\n    # Player does not move after a vertical push, so we must manually reposition.\n    for i in range(num_pushes):\n        buttons.append(direction) # Push\n        if i < num_pushes - 1: # Don't reposition after the last push\n            buttons.append(direction) # Reposition\nelif start_y == end_y: # Horizontal push\n    direction = 'Left' if end_x < start_x else 'Right'\n    num_pushes = abs(start_x - end_x)\n    # Player moves into the boulder's old space automatically. No reposition needed.\n    for _ in range(num_pushes):\n        buttons.append(direction) # Push\nelse:\n    print(json.dumps({'error': 'Boulder path must be a straight line.'}))\n    exit()\n\nprint(json.dumps(buttons))",
-    "history": [
-      {
-        "commit_message": "feat: Create boulder_pusher_tool to automate linear boulder pushing. This tool will significantly improve efficiency when solving puzzles that require moving a boulder along a long, straight corridor, by replacing a multi-turn, manual process with a single, automated tool call.",
-        "timestamp": "2025-08-03T17:23:26.526Z",
-        "action_counter": 119242
-      },
-      {
-        "commit_message": "feat: Create boulder_pusher_tool to automate linear boulder pushing. This tool will significantly improve efficiency when solving puzzles that require moving a boulder along a long, straight corridor, by replacing a multi-turn, manual process with a single, automated tool call.",
-        "timestamp": "2025-08-03T17:44:07.834Z",
-        "action_counter": 119282
-      },
-      {
-        "commit_message": "feat: Create boulder_pusher_tool to automate linear boulder pushing. This tool will significantly improve efficiency when solving puzzles that require moving a boulder along a long, straight corridor, by replacing a multi-turn, manual process with a single, automated tool call.",
-        "timestamp": "2025-08-03T17:50:13.513Z",
-        "action_counter": 119294
-      },
-      {
-        "commit_message": "refactor(boulder_pusher_tool): Overhaul script to output a direct list of button presses instead of a high-level action plan. This enables full automation of linear pushes in a single turn, fixing the previous issue that required manual step-by-step execution and caused looping warnings. The new logic generates a sequence of 'push' and 'reposition' moves.",
-        "timestamp": "2025-08-03T17:58:36.488Z",
-        "action_counter": 119305
-      },
-      {
-        "commit_message": "refactor(boulder_pusher_tool): Differentiate vertical and horizontal push logic. The previous version used the same repositioning logic for both, which is incorrect. The new script correctly models the game mechanic where the player does not move after a vertical push (requiring a manual reposition step) but does move after a horizontal push (no reposition needed). This is a critical fix for reliable puzzle automation.",
-        "timestamp": "2025-08-03T19:40:10.254Z",
-        "action_counter": 119471
-      },
-      {
-        "commit_message": "fix(boulder_pusher_tool): Correctly implement vertical push repositioning. The previous fix attempt failed as the script was identical. This version correctly adds a repositioning move after each vertical push, but not after the final one, accurately modeling the game mechanic and ensuring reliable automation.",
-        "timestamp": "2025-08-03T19:43:03.937Z",
-        "action_counter": 119477
-      },
-      {
-        "commit_message": "fix(boulder_pusher_tool): Correctly implement vertical push repositioning. The previous script was identical to the flawed one. This version ensures a repositioning move is added after each vertical push except the last, accurately modeling the game mechanic and ensuring reliable automation.",
-        "timestamp": "2025-08-03T19:48:40.642Z",
-        "action_counter": 119491
-      }
-    ]
-  },
   "gem_pathfinder_v2": {
     "description": "A new, rebuilt A* pathfinding tool. This version is designed from the ground up to be more reliable, with a specific focus on correctly handling elevation changes via 'steps' and other connector tiles. It treats objects as impassable obstacles, unless explicitly ignored. It now supports a surfing mode.",
     "input_schema": {
@@ -145,46 +81,15 @@
       }
     ]
   },
-  "multi_boulder_pusher": {
-    "description": "Automates a sequence of boulder pushes, including repositioning. Assumes the player is in position for the first push. Input is a JSON string of push actions (e.g., [{'direction': 'RIGHT', 'count': 5}, {'direction': 'DOWN', 'count': 3}]). This tool is a work-in-progress and may not handle all complex repositioning correctly.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "actions": {
-          "type": "array",
-          "items": {
-            "type": "object",
-            "properties": {
-              "direction": {
-                "type": "string",
-                "enum": [
-                  "UP",
-                  "DOWN",
-                  "LEFT",
-                  "RIGHT"
-                ]
-              },
-              "count": {
-                "type": "string"
-              }
-            },
-            "required": [
-              "direction",
-              "count"
-            ]
-          }
-        }
-      },
-      "required": [
-        "actions"
-      ]
-    },
-    "python_script": "import json\n\nactions_str = input_data.get('actions', '[]')\ntry:\n    actions = json.loads(actions_str)\nexcept json.JSONDecodeError:\n    print(json.dumps({\"error\": \"Invalid JSON format for actions.\"}))\n    return\n\nbutton_presses = []\n\nfor action in actions:\n    direction = action.get('direction')\n    try:\n        count = int(action.get('count', 0))\n    except (ValueError, TypeError):\n        count = 0\n\n    if direction and count > 0:\n        if direction in ['LEFT', 'RIGHT']:\n            for _ in range(count):\n                button_presses.append(direction)\n        elif direction in ['UP', 'DOWN']:\n            reposition_move = 'DOWN' if direction == 'UP' else 'UP'\n            for i in range(count):\n                button_presses.append(direction)\n                if i < count - 1:\n                    button_presses.append(reposition_move)\n\nprint(json.dumps({\"button_presses\": button_presses}))",
+  "landmass_analyzer": {
+    "description": "Analyzes the map to identify all disconnected, traversable landmasses. Helps diagnose navigation puzzles and prevent getting stuck in isolated areas.",
+    "input_schema": {},
+    "python_script": "import xml.etree.ElementTree as ET\nimport json\n\ndef get_neighbors(x, y, width, height):\n    neighbors = []\n    if x > 1: neighbors.append((x - 1, y))\n    if x < width: neighbors.append((x + 1, y))\n    if y > 1: neighbors.append((x, y - 1))\n    if y < height: neighbors.append((x, y + 1))\n    return neighbors\n\nroot = ET.fromstring(map_xml_string)\nwidth = int(root.get('width'))\nheight = int(root.get('height'))\n\ntile_data = {}\nfor row in root.findall('Row'):\n    y = int(row.get('id'))\n    for tile in row.findall('Tile'):\n        x = int(tile.get('id'))\n        tile_data[(x, y)] = tile\n\nplayer_pos = None\nfor (x, y), tile in tile_data.items():\n    if tile.find('Player') is not None:\n        player_pos = (x, y)\n        break\n\ntraversable_types = {'ground', 'grass', 'elevated_ground', 'steps', 'cleared_boulder_barrier', 'boulder_switch', 'ladder_up', 'ladder_down'}\ntraversable_nodes = set()\nfor (x, y), tile in tile_data.items():\n    if tile.get('type') in traversable_types and tile.find('Object[@id!=\\\"15\\\"]') is None and tile.find('Boulder') is None:\n        traversable_nodes.add((x, y))\n\nlandmasses = []\nvisited = set()\n\nfor node in traversable_nodes:\n    if node not in visited:\n        current_landmass = set()\n        q = [node]\n        visited.add(node)\n        while q:\n            curr_x, curr_y = q.pop(0)\n            current_landmass.add((curr_x, curr_y))\n            for nx, ny in get_neighbors(curr_x, curr_y, width, height):\n                if (nx, ny) in traversable_nodes and (nx, ny) not in visited:\n                    visited.add((nx, ny))\n                    q.append((nx, ny))\n        landmasses.append(sorted(list(current_landmass)))\n\nplayer_landmass_id = -1\nif player_pos:\n    for i, mass in enumerate(landmasses):\n        if player_pos in mass:\n            player_landmass_id = i\n            break\n\nresult = {\n    'player_landmass_id': player_landmass_id,\n    'total_landmasses': len(landmasses),\n    'landmasses': landmasses\n}\n\nprint(json.dumps(result))",
     "history": [
       {
-        "commit_message": "feat: Create multi_boulder_pusher tool. This tool automates sequences of boulder pushes as suggested by the Overwatch critique. It's a foundational version that handles basic linear sequences and vertical push repositioning, intended to streamline puzzle execution and be refined later.",
-        "timestamp": "2025-08-05T22:12:42.740Z",
-        "action_counter": 123095
+        "commit_message": "feat: Create landmass_analyzer tool. This tool identifies disconnected traversable areas on a map, which will prevent getting stuck in navigational loops like the one experienced on Victory Road 2F. This directly addresses an Overwatch critique and improves long-term strategic navigation.",
+        "timestamp": "2025-08-06T05:09:44.480Z",
+        "action_counter": 123572
       }
     ]
   }
