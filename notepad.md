@@ -39,7 +39,6 @@
 - **Victory Road 3F Layout:** Landmass analysis confirmed this floor is split into three disconnected areas. My previous navigation loops were caused by failing to understand this and attempting to pathfind between them.
 
 # VI. Archived & Falsified Hypotheses
-- **[FALSIFIED] Victory Road 2F Hidden Passage (9,16):** The puzzle agent hypothesized a secret passage at (9,16). This was based on a system directive when I was on the wrong, isolated platform. The hypothesis is likely incorrect now that I understand the map layout.
 - **[FALSIFIED] Victory Road 3F Hidden Passage (12,7):** The puzzle agent hypothesized a secret passage at (12,7). This was also based on being on the wrong platform. This hypothesis is likely incorrect.
 - **[HYPOTHESIS] Victory Road 2F Secret Passage:** The puzzle agent suggests a secret passage at (9, 16) is the key to solving the puzzle for the switch at (10, 17). The plan is to push the boulder from (5,15) down and then east to test this hypothesis.
 - **[CORRECTED] Victory Road 2F Navigation:** The ground floor is split into two disconnected eastern and western sections by impassable walls. The only way to cross is by using the elevated platforms, accessible via the steps at (22, 16) in the east and (6, 11) in the west.
