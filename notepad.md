@@ -39,24 +39,15 @@
 - **Future Agent Idea:** A 'debugging manager' agent to propose novel debugging steps and prevent repetitive action loops.
 
 # V. Paused Investigations & Archived Conclusions
-- **Victory Road 1F (Eastern Boulder Puzzle):** This puzzle is currently a dead end. The boulder at (11, 3) cannot be moved past the item at (10, 3), and the item cannot be reached. The solution must lie elsewhere.
-- **Victory Road 3F (Western Boulder Puzzle):** [NEW HYPOTHESIS - AGENT/DIRECTIVE DRIVEN] A system directive confirms the puzzle at switch (4, 6) is solvable. My agent suggests a 'secret passage' solution, pushing the boulder at (14, 13) through impassable tiles at (12, 11), (9, 6), (6, 6), and (5, 6).
-- **Type Chart Verification:** As per Overwatch critique, I must ensure the Type Effectiveness Chart is built *exclusively* from in-game battle observations to avoid relying on external knowledge.
-- **Hallucinated Tool:** Overwatch critique mentioned a `complex_boulder_pusher_tool` that needed fixing/deleting. My attempt to delete it failed because the tool does not exist. This was a hallucination on my part; I must be more careful tracking my custom tools.
-
-- **Victory Road 1F (Western Area):** The ladder from Victory Road 2F at (1, 9) leads to a small, isolated area on Victory Road 1F around (2, 2). This area is a dead end and does not connect to the main floor. The only exit is back up the ladder.
-- **Horizontal Push Anomaly (Victory Road 2F):** At (4, 14), pushing the boulder from (5, 14) to (6, 14) did not move the player character to (5, 14), contradicting previous observations. This needs further verification.
-- **Horizontal Push Anomaly 2 (Victory Road 2F):** At (4, 16), pushing the boulder from (5, 16) to (6, 16) did not move the player character, contradicting the general horizontal push rule again.
-- **Future Tool Idea:** A `multi_step_boulder_pusher` tool that can take a sequence of push commands (e.g., from the puzzle_strategist_agent) and execute them automatically. This would automate non-linear boulder puzzles.
+- **Victory Road 3F (Western Boulder Puzzle):** [AGENT HYPOTHESIS] A system directive confirms the puzzle at switch (4, 6) is solvable. The only viable hypothesis, proposed by my agent, is a 'secret passage' solution, pushing the boulder at (14, 13) through impassable tiles. This is the main long-term goal for this floor.
+- **Victory Road 2F (Puzzle @ Switch 10,17):** [CONCLUSION] The solution requires a boulder from another floor. The current working hypothesis is that the boulder at (6, 6) on 2F must be maneuvered to the switch.
+- **Horizontal Push Anomaly (Victory Road 2F):** At (4, 14) and (4, 16), pushing boulders horizontally did not move the player character, contradicting the general rule. This needs further verification.
+- **[CORRECTED] Pathfinder Tool Bug:** My pathfinder tool is likely working correctly. My manual path tracing was flawed, leading me to believe the tool was bugged. I must trust my tools more.
+- **[ARCHIVED] Hallucinated Tool:** Overwatch critique mentioned a `complex_boulder_pusher_tool`. My attempt to delete it failed because the tool does not exist. This was a hallucination.
+- **[ARCHIVED] Victory Road 1F (Western Area):** The ladder from Victory Road 2F at (1, 9) leads to a small, isolated area on Victory Road 1F. This area is a dead end.
 
 ## A. Victory Road 2F (Puzzle @ Switch 10,17) - Investigation Log
 1. **[INITIAL CONCLUSION - FALSIFIED]** My initial analysis concluded that all on-floor boulders were unable to reach the switch, leading to the hypothesis that a multi-floor solution was required.
 2. **[OVERRIDE - SYSTEM DIRECTIVE]** Received a system directive stating the solution IS on the current floor. This falsified the multi-floor hypothesis.
-3. **[AGENT HYPOTHESIS - FALSIFIED]** My `puzzle_strategist_agent`, deferring to the directive, suggested the impassable tiles from (6, 17) to (9, 17) were a 'fake wall' for the southern boulder. I tested this by pushing the boulder at (5, 17) east. The test failed; the wall is solid.
-4. **[CURRENT HYPOTHESIS - DIRECTIVE DRIVEN]** With the southern boulder path disproven, the only remaining on-floor option is the northern boulder at (6, 6). The new plan is to maneuver this boulder south, then east, and down the ramp at (8, 9) to reach the switch.
-
-## Archived Hypotheses
-- **[CORRECTED] Pikachu Movement Mechanic:** Pikachu is a special NPC that can be walked through. If adjacent and not facing him, the first directional press turns the player, and the second moves onto his tile. The hypothesis that I needed to wait for him to move at Victory Road 2F (6, 11) was incorrect.
-
-## C. Victory Road 3F (Eastern Puzzle)
-- **[FALSIFIED - MANUAL HYPOTHESIS]** The impassable tile at (24, 10) is a 'fake wall'. Test failed; the wall is solid.
+3. **[AGENT HYPOTHESIS - FALSIFIED]** My `puzzle_strategist_agent` suggested the impassable tiles from (6, 17) to (9, 17) were a 'fake wall'. Test failed; the wall is solid.
+4. **[CURRENT HYPOTHESIS - DIRECTIVE DRIVEN]** The only remaining on-floor option is the northern boulder at (6, 6). The new plan is to maneuver this boulder south, then east, and down the ramp at (8, 9) to reach the switch.
