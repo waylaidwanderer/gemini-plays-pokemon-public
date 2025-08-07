@@ -60,8 +60,20 @@
 - **Tool Maintenance & Verification:** I MUST use the `code_patch_verifier_agent` before every `define_tool` call to prevent debugging loops caused by submitting identical code. This is a non-negotiable step in my process.
 - **Puzzle Pre-Planning:** Before attempting any multi-step puzzle (especially boulder puzzles), I MUST first document the intended step-by-step sequence of actions in my notepad. This prevents careless errors and soft-locks.
 
-# V. Archived & Falsified Hypotheses
-- **[FALSIFIED] Victory Road 3F Boulder Puzzle - Hypothesis 1:** The boulder at (14, 13) can be pushed to the switch at (4, 6). The first step, pushing the boulder UP, requires standing at (14, 14). This fails because the path to (14, 14) is blocked by impassable tiles at (13, 13) and (15, 13), making it impossible to get into position.
+# V. Current Puzzle Plan
+## A. Victory Road 3F Boulder Puzzle
+- **Hypothesis 1:** The boulder at (14, 13) can be pushed to the switch at (4, 6).
+- **Plan:**
+    1. Move from (14, 12) to (14, 14) to get into position behind the boulder.
+    2. Push the boulder from (14, 13) UP to (14, 12).
+    3. Push UP to (14, 11).
+    4. Push LEFT to (13, 11).
+    5. Get to (12, 11) and push LEFT to (11, 11).
+    6. Continue pushing LEFT into the western chamber.
+    7. Maneuver the boulder onto the switch at (4, 6).
+
+# VI. Archived & Falsified Hypotheses
+- **[FALSIFIED] Victory Road 3F Boulder Puzzle - Initial Attempt:** My initial thought was that the boulder at (14, 13) was stuck. Pushing it UP requires standing at (14, 14), and I incorrectly assumed the direct path was the only path, which is blocked by impassable tiles. A longer, wrap-around path exists.
 - **[FALSIFIED] Victory Road 2F Boulder Puzzle - Hypothesis 9:** The boulder at (7, 12) can be pushed DOWN to (7, 17) and then RIGHT to the switch at (10, 17). This fails because the tile at (6, 17) is an impassable wall, making it impossible to get into position to push the boulder to the right.
 - **[FALSIFIED] Victory Road 2F Boulder Puzzle - Hypothesis 8:** The boulder at (5, 15) can be pushed to the switch at (10, 17). The path is: push UP to (5, 12), then push RIGHT to (10, 12), then push DOWN to (10, 17). This fails because the path right is blocked by an impassable wall at (9, 12).
 - **[FALSIFIED] Victory Road 2F Boulder Puzzle - Hypothesis 7:** The boulder at (5, 15) can be pushed to (10, 17) via (10, 16). Failed because the path right from (8, 16) is blocked by an impassable wall at (9, 16).
