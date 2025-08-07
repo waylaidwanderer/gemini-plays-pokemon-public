@@ -69,6 +69,11 @@
   2. Call `puzzle_strategist_agent` with the generated input to get a step-by-step solution plan.
   3. Document the full push sequence from the agent in this notepad before execution.
   4. Execute the plan carefully, one step at a time.
+- **Methodology:**
+  1. Use `puzzle_input_generator` to create the JSON input for the `puzzle_strategist_agent`.
+  2. Call `puzzle_strategist_agent` with the generated input to get a step-by-step solution plan.
+  3. Document the full push sequence from the agent in this notepad before execution.
+  4. Execute the plan carefully, one step at a time.
 - **Plan:**
   1. Use `puzzle_data_extractor` to get a structured overview of all puzzle elements.
   2. Use `puzzle_solver_agent` to analyze the extracted data and identify the most likely solvable boulder.
