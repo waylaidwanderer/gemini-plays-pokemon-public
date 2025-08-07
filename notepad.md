@@ -29,17 +29,13 @@
 - **Boulder/Item Interaction:** Pushing a boulder onto an item collects the item and moves the boulder into that space.
 
 ## B. Current Puzzle Status (Victory Road)
-- **Governing Directive (3F & 2F):** A critical system directive confirms a multi-floor puzzle. The solution involves pushing a boulder from 3F down a hole to solve the puzzle on 2F (switch at (10, 17)), which in turn will likely open the barrier at (8, 11) on 3F, allowing access to the final puzzle switch at (4, 6).
-
-## C. Current Test Plan
-- **Hypothesis:** Pushing the boulder at (23, 16) on 3F into the hole at (24, 16) is the first step of the multi-floor solution.
-- **Test:**
-    1. Navigate to (22, 16) on 3F.
-    2. Push the boulder at (23, 16) right into the hole.
-    3. Go down to 2F via the ladder at (24, 8).
-    4. Confirm the boulder has appeared on 2F.
-    5. Proceed with the 2F puzzle directive.
-- **Expected Outcome:** The boulder falls to 2F, enabling the next stage of the puzzle.
+- **Governing Directive (Multi-Floor):** A critical system directive confirms a multi-floor puzzle. The solution involves pushing a boulder from 3F down a hole to solve a puzzle on 2F (switch at (10, 17)), which in turn will likely open a barrier on 3F, allowing access to the final puzzle switch.
+- **Current Plan:**
+    1. I am on Victory Road 2F. The boulder pushed from 3F is at (5, 15).
+    2. The target switch is at (10, 17).
+    3. I must navigate from the northwestern area to the southern area, likely via the elevated platform accessed by the steps at (6, 11).
+    4. Once in the southern area, I will solve the puzzle by pushing the boulder at (5, 15) to the switch at (10, 17).
+    5. Solving this puzzle will likely open the barrier at (8, 11) on 3F.
 
 # IV. Battle Intelligence
 ## A. Type Effectiveness Chart (OBSERVATION-ONLY)
@@ -66,8 +62,7 @@
 - **Surfing Navigation:** The `pathfinder` tool requires `movement_mode='surfing'` to navigate over water.
 
 ## B. Agent/Tool Development & Implementation Notes
-- **Exploration Strategist Agent (Implemented):** An agent designed to automate multi-stage navigation. **Status:** Currently unusable as it requires a helper tool to provide it with warp connectivity data.
-- **[NEW] Agent Helper Tool:** Create a `warp_data_extractor` tool that parses the map XML to extract all warps, their coordinates, their landmass ID, and their destination landmass ID. This is required input for the `exploration_strategist_agent`.
+- **Exploration Strategist Agent (On Hold):** An agent designed to automate multi-stage navigation. **Status:** Currently unusable as it requires a helper tool to provide it with warp connectivity data. Its core concept for multi-map navigation needs re-evaluation.
 - **Pathfinder Refinement (Long-Term):** The current `pathfinder` uses a temporary hack to ignore boulders. A more robust solution, as suggested by the `tool_debugger_agent`, is to treat boulders as traversable but with a high movement cost. This should be implemented when time permits.
 
 ## C. Core Principles
