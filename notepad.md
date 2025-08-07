@@ -63,19 +63,6 @@
 - **Puzzle Pre-Planning:** Before attempting any multi-step puzzle (especially boulder puzzles), I MUST first document the intended step-by-step sequence of actions in my notepad. This prevents careless errors and soft-locks.
 
 # V. Current Puzzle Plan (Victory Road 2F)
-## A. Boulder Puzzle
-- **Directive:** Solve the puzzle to clear the path forward.
-- **Goal:** Push a boulder to the switch at (10, 17).
-- **Analysis:** The boulder at (6, 6) seems to have no viable path. The boulder at (5, 15) is the most likely candidate.
-- **Execution Plan:**
-    1. Navigate to (4, 15) to get into position.
-    2. Push boulder from (5, 15) RIGHT to (6, 15).
-    3. Reposition to (6, 16).
-    4. Push boulder from (6, 15) UP to (6, 12).
-    5. Reposition to (5, 12).
-    6. Push boulder from (6, 12) RIGHT to (10, 12).
-    7. Reposition to (10, 11).
-    8. Push boulder from (10, 12) DOWN to (10, 17).
 
 # VI. Archived & Falsified Hypotheses
 - **[FALSIFIED] Victory Road 3F Boulder Puzzle - Hypothesis 3:** The boulder at (14, 13) can be pushed to the switch at (4, 6) via a long wrap-around path. This was my plan, but I am currently focused on the 2F puzzle.
