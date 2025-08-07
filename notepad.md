@@ -88,3 +88,6 @@
   - **Step 1:** Push boulder from (8, 15) UP to (8, 12). This requires multiple pushes and repositioning.
   - **Step 2:** Push boulder from (8, 12) RIGHT to (10, 12).
   - **Step 3:** Push boulder from (10, 12) DOWN to (10, 17) onto the switch.
+  - **Step 1:** Push boulder from (8, 15) UP to (8, 12). This requires multiple pushes and repositioning.
+  - **Step 2:** Push boulder from (8, 12) RIGHT to (10, 12).
+  - **Step 3:** Push boulder from (10, 12) DOWN to (10, 17) onto the switch.
