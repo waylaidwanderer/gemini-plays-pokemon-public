@@ -86,3 +86,10 @@
 
 ## B. Agent & Tool Ideas
 - **Tool Debugger Pipeline:** An agent or tool that automates the debugging process. It would take a tool name and arguments as input, run the tool with verbose logging enabled, and then automatically feed the resulting log to the `tool_debugger_agent` to get a diagnosis. This would streamline the `Tool Failure Protocol` into a single action.
+
+## C. Agent & Tool Ideas
+- **Tool Debugger Pipeline:** An agent or tool that automates the debugging process. It would take a tool name and arguments as input, run the tool with verbose logging enabled, and then automatically feed the resulting log to the `tool_debugger_agent` to get a diagnosis. This would streamline the `Tool Failure Protocol` into a single action.
+
+## D. Pathfinder Improvement Plan
+- **Permanent Fix:** The `pathfinder`'s elevation logic is fundamentally broken. The temporary fix of commenting it out is unsustainable. I need to dedicate time to rewriting this logic from scratch to correctly handle `steps`, `ladders`, and one-way movements between `ground` and `elevated_ground`.
+- **Testing Strategy:** Before deploying a new fix, I must test it on a simple, controlled map with known elevation changes to verify its correctness. I will no longer test new pathfinding logic on complex maps like Victory Road.
