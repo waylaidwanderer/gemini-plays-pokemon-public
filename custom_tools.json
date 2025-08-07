@@ -441,7 +441,7 @@
     ]
   },
   "puzzle_input_generator": {
-    "description": "Parses the current map's XML to generate the correct JSON input for the puzzle_strategist_agent, targeting a specific switch.",
+    "description": "Parses the map XML to generate the correct JSON input for the puzzle_strategist_agent, including a pre-processed grid layout.",
     "input_schema": {
       "type": "object",
       "properties": {
@@ -457,7 +457,7 @@
         "target_y"
       ]
     },
-    "python_script": "import xml.etree.ElementTree as ET\nimport json\n\nroot = ET.fromstring(map_xml_string)\nplayer_pos = None\nboulders = []\n\nfor row_elem in root.findall('Row'):\n    y = int(row_elem.get('id'))\n    for tile_elem in row_elem.findall('Tile'):\n        x = int(tile_elem.get('id'))\n        if tile_elem.find('Player') is not None:\n            player_pos = {'x': x, 'y': y}\n        if tile_elem.find('Boulder') is not None:\n            boulders.append({'x': x, 'y': y})\n\ntarget_switch = {'x': int(input_data['target_x']), 'y': int(input_data['target_y'])}\n\nagent_call = {\n    \"tool_name\": \"puzzle_strategist_agent\",\n    \"tool_args\": [\n        {\"name\": \"map_xml_string\", \"value\": map_xml_string},\n        {\"name\": \"player_pos\", \"value\": json.dumps(player_pos)},\n        {\"name\": \"boulders\", \"value\": json.dumps(boulders)},\n        {\"name\": \"target_switch\", \"value\": json.dumps(target_switch)},\n        {\"name\": \"notepad_content\", \"value\": json.dumps(\"\")}\n    ]\n}\n\nprint(json.dumps(agent_call, indent=2))",
+    "python_script": "import xml.etree.ElementTree as ET\nimport json\n\nroot = ET.fromstring(map_xml_string)\nplayer_pos = None\nboulders = []\ngrid_layout = {}\n\nfor row_elem in root.findall('Row'):\n    y = int(row_elem.get('id'))\n    for tile_elem in row_elem.findall('Tile'):\n        x = int(tile_elem.get('id'))\n        coord_str = f'({x},{y})'\n        grid_layout[coord_str] = tile_elem.get('type')\n        if tile_elem.find('Player') is not None:\n            player_pos = {'x': x, 'y': y}\n        if tile_elem.find('Boulder') is not None:\n            boulders.append({'x': x, 'y': y})\n\ntarget_switch = {'x': int(input_data['target_x']), 'y': int(input_data['target_y'])}\n\nagent_call = {\n    \"tool_name\": \"puzzle_strategist_agent\",\n    \"tool_args\": [\n        {\"name\": \"grid_layout\", \"value\": json.dumps(grid_layout)},\n        {\"name\": \"player_pos\", \"value\": json.dumps(player_pos)},\n        {\"name\": \"boulders\", \"value\": json.dumps(boulders)},\n        {\"name\": \"target_switch\", \"value\": json.dumps(target_switch)}\n    ]\n}\n\nprint(json.dumps(agent_call, indent=2))",
     "history": [
       {
         "commit_message": "feat: Create puzzle_input_generator tool. This tool automates the repetitive task of parsing the map XML to gather all necessary data (player position, boulders, switches, etc.) and formats it into the correct JSON structure required to call the `puzzle_strategist_agent`. This was identified as a key process improvement during self-reflection, as it streamlines puzzle-solving and reduces the chance of manual error.",
@@ -478,6 +478,11 @@
         "commit_message": "feat: Create puzzle_input_generator tool. This tool automates the repetitive task of parsing the map XML to gather all necessary data (player position, boulders, switches, etc.) and formats it into the correct JSON structure required to call the `puzzle_strategist_agent`. This was identified as a key process improvement during self-reflection, as it streamlines puzzle-solving and reduces the chance of manual error.",
         "timestamp": "2025-08-07T23:49:51.945Z",
         "action_counter": 126598
+      },
+      {
+        "commit_message": "fix: Refactor tool to pre-process map data. The previous version passed raw XML to an agent, violating a core system directive. This commit updates the script to parse the XML, create a simplified grid layout dictionary, and pass that structured data to the agent instead. This corrects the architectural flaw and makes the tool compliant.",
+        "timestamp": "2025-08-07T23:54:15.118Z",
+        "action_counter": 126603
       }
     ]
   }
