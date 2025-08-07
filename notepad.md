@@ -62,10 +62,12 @@
 - **Surfing Navigation:** The `pathfinder` tool requires `movement_mode='surfing'` to navigate over water.
 
 ## B. Agent/Tool Development & Implementation Notes
-- **Exploration Strategist Agent (On Hold):** An agent designed to automate multi-stage navigation. **Status:** Currently unusable as it requires a helper tool to provide it with warp connectivity data. Its core concept for multi-map navigation needs re-evaluation.
-- **Pathfinder Refinement (Long-Term):** The current `pathfinder` uses a temporary hack to ignore boulders. A more robust solution, as suggested by the `tool_debugger_agent`, is to treat boulders as traversable but with a high movement cost. This should be implemented when time permits.
+- **Pathfinder Refinement Note:** The current `pathfinder`'s method of ignoring boulders is a temporary solution. A more robust implementation would treat boulders as traversable but with a high movement cost, which should be prioritized for development.
 
-## C. Core Principles
+## C. Deprecated Agents
+- **[DELETED] Exploration Strategist Agent:** This agent was designed for multi-stage navigation but was unusable due to requiring a non-existent helper tool. It has been deleted to maintain a clean and functional agent list.
+
+## D. Core Principles
 - **Agent-First Approach:** Before attempting any manual solution for a complex problem, I MUST consult the relevant specialist agent first.
 - **Trust System Directives:** A system directive or system warning is the source of truth and MUST be trusted over personal assumptions or agent outputs.
 - **Tool Maintenance & Verification:** I MUST use the `code_patch_verifier_agent` before every `define_tool` call to prevent debugging loops caused by submitting identical code. This is a non-negotiable step in my process.
