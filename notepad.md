@@ -28,13 +28,6 @@
 ## B. Navigational Insights (Verified)
 - **Victory Road 3F Layout:** Landmass analysis confirmed this floor is split into three disconnected areas.
 
-## C. Active Puzzle Plans
-### Victory Road 1F - West Switch Puzzle
-- **Target:** Switch at (3, 10)
-- **Plan:** 
-  1. Navigate to (3, 12).
-  2. Push the boulder at (3, 11) UP onto the switch at (3, 10).
-
 # IV. Battle Intelligence
 ## A. Type Effectiveness Chart (OBSERVATION-ONLY)
 *(Placeholder for verified matchups)*
@@ -61,6 +54,7 @@
 - **[HYPOTHESIS] Victory Road 2F Puzzle Solution requires a boulder from 3F:** The boulders on 2F cannot reach the switch at (10, 17). The next step is to return to 3F and search for a hole that drops a boulder into the eastern section of 2F.
 - **[FALSIFIED] Victory Road 2F Disconnected Landmass Hypothesis:** The landmass_analyzer tool's conclusion that this floor is split into disconnected landmasses was proven false by a system warning (Turn 124003) which confirmed the eastern warp at (24, 8) is reachable from the west. The connection is via the elevated platforms.
 - **[FALSIFIED] Defeated trainers are impassable obstacles:** A system warning (Turn 124270) indicated that the warp at (2, 2) on Victory Road 1F was reachable, despite being blocked by a defeated trainer at (4, 3). This proves the hypothesis is false and the pathfinder has been updated.
+- **[FALSIFIED] Victory Road 1F - West Switch Puzzle Plan:** The plan to push the boulder at (3, 11) UP onto the switch at (3, 10) was executed. This action successfully placed the boulder on the switch, but also blocked the path to the ladder at (2, 2).
+- **[LESSON] Victory Road 1F Puzzle Nuance:** Pushing the boulder at (3, 11) UP to the switch at (3, 10) blocks the direct path to the ladder at (2, 2), but does NOT create an inescapable area. A path to the southern exit at (9, 18) remains, making a map reset unnecessary.
 - **Debugging Loop Failure:** Repeatedly failed to apply a simple code fix due to carelessness (submitting identical code, introducing typos). This highlights a need for a more robust debugging process.
 - **Agent Opportunity - Code Verifier:** The `reflection_agent` suggested creating a 'code patch verifier' agent. This agent would check proposed code changes for basic errors before submission, preventing inefficient debugging loops. This should be a high-priority future project.
-- **[LESSON] Victory Road 1F Soft-lock:** Pushing the boulder at (3, 11) UP to the switch at (3, 10) blocks the path and creates an inescapable 7-tile area. This requires a map reset to fix. Always check your escape route before pushing a boulder.
