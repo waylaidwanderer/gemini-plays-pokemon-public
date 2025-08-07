@@ -84,13 +84,4 @@
 - **[FALSIFIED] Victory Road 2F Boulder Puzzle - Hypothesis 6:** Pushing the boulder at (5, 15) to (10, 17) via (8, 17) is impossible due to an impassable wall at (9, 17).
 - **[FALSIFIED] Victory Road 2F Boulder Puzzle - Hypothesis 7:** The boulder at (5, 15) can be pushed to (10, 17) via (10, 16). Failed because the path right from (8, 16) is blocked by an impassable wall at (9, 16).
 - **[ARCHIVED] Victory Road 2F Puzzle Status & Reset Plan:** All hypotheses for solving the puzzle on the 2F landmass failed. The plan was to reset the puzzle by traveling to the ladder at (2, 2), ascending to 3F, and immediately returning to 2F. This plan was superseded by the discovery that the solution lies on 3F.
-
-## B. Agent/Tool Development & Implementation Notes
-- **[ACTIVE] `landmass_analyzer` & `pathfinder` Debugging:** Both tools are failing on Victory Road 3F because they cannot handle movable obstacles (boulders).
-  - **Status:** The `tool_debugger_agent` provided a **faulty diagnosis**, hallucinating a bug that did not exist. The tool is working as designed, but the design is too simplistic for puzzle maps.
-  - **New Plan (`landmass_analyzer`):**
-    1. Implement a temporary fix to make the `landmass_analyzer` ignore boulders. This will allow it to correctly assess the underlying terrain connectivity.
-    2. Re-run the tool to verify connectivity on the current map.
-    3. Once the tool is confirmed to be working, resume puzzle-solving.
-  - **New Plan (`pathfinder`):**
-    1. After fixing the `landmass_analyzer`, apply a similar fix to the `pathfinder` to allow it to pathfind around, but not through, boulders.
+- **[ARCHIVED] `landmass_analyzer` & `pathfinder` Debugging:** Both tools were failing on Victory Road 3F because they could not handle movable obstacles (boulders). The temporary fix was to make them ignore boulders, which led to invalid path generation. The permanent fix was to restore boulder collision, forcing manual puzzle solving.
