@@ -80,4 +80,8 @@
 - **[ARCHIVED] Victory Road 1F Puzzle Nuance:** Pushing the boulder at (3, 11) UP to the switch at (3, 10) blocks the direct path to the ladder at (2, 2), but does NOT create an inescapable area. A path to the southern exit at (9, 18) remains, making a map reset unnecessary.
 - **[ARCHIVED] Debugging Loop Failure:** Repeatedly failed to apply a simple code fix due to carelessness (submitting identical code, introducing typos). This highlights a need for a more robust debugging process.
 - **[ARCHIVED] Agent Opportunity - Code Verifier:** The `reflection_agent` suggested creating a 'code patch verifier' agent, which was successfully implemented. This addressed an inefficient debugging loop.
-- **[CORRECTED] Victory Road 2F Boulder Puzzle - Hypothesis 5:** The boulder at (6, 6) can be pushed to the switch at (10, 17). The path is: push DOWN to (6, 17), then push EAST to (10, 17). This avoids impassable walls and seems to be the correct path within this landmass.
+- **[ARCHIVED] Victory Road 2F Boulder Puzzle - Hypothesis 5:** The boulder at (6, 6) can be pushed to the switch at (10, 17). The path is: push DOWN to (6, 17), then push EAST to (10, 17). This avoids impassable walls and seems to be the correct path within this landmass.
+  - **[FALSIFIED]** The path south is blocked by an impassable elevation change between a `ground` tile (6, 8) and an `elevated_ground` tile (6, 9). The boulder cannot be pushed up.
+- **Current Plan (Hypothesis 6):** The boulder at (5, 15) can be pushed to the switch at (10, 17).
+  - **Path:** Push RIGHT from (5, 15) to (8, 15). Push DOWN from (8, 15) to (8, 17). Push RIGHT from (8, 17) to (10, 17). This path appears to be entirely on `ground` tiles and avoids all obstacles.
+  - **Step 1:** Navigate to (4, 15) to begin pushing the boulder at (5, 15) to the right.
