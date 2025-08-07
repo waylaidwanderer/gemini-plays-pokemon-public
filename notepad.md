@@ -98,3 +98,18 @@
     6. Push boulder from (6, 12) to (10, 12).
     7. Reposition to (10, 11).
     8. Push boulder from (10, 12) to (10, 17).
+
+# VIII. Current Puzzle Plan (Victory Road 2F)
+## A. Boulder Puzzle
+- **Directive:** Solve the puzzle to clear the path forward.
+- **Goal:** Push a boulder to the switch at (10, 17).
+- **Analysis:** The boulder at (6, 6) seems to have no viable path. The boulder at (5, 15) is the most likely candidate.
+- **Execution Plan:**
+    1. Navigate to (4, 15) to get into position.
+    2. Push boulder from (5, 15) RIGHT to (6, 15).
+    3. Reposition to (6, 16).
+    4. Push boulder from (6, 15) UP to (6, 12).
+    5. Reposition to (5, 12).
+    6. Push boulder from (6, 12) RIGHT to (10, 12).
+    7. Reposition to (10, 11).
+    8. Push boulder from (10, 12) DOWN to (10, 17).
