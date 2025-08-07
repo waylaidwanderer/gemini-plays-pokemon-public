@@ -87,3 +87,5 @@
 - **[FALSIFIED] Defeated trainers are impassable obstacles:** A system warning (Turn 124270) indicated that the warp at (2, 2) on Victory Road 1F was reachable, despite being blocked by a defeated trainer at (4, 3). This proves the hypothesis is false and the pathfinder has been updated.
 
 **Battle Strategist Agent Failure (Turn 126296):** The agent recommended switching in a Lv. 24 SUBTERRA against a Lv. 47 GRAVELER. It failed to properly weigh the massive level difference, which resulted in an immediate KO. The agent's system prompt has now been updated with a strict rule (Rule #13) to forbid recommending significantly underleveled Pokémon.
+
+**Battle Strategist Agent Failure (Turn 126296):** The agent recommended switching in a Lv. 24 SUBTERRA against a Lv. 47 GRAVELER. It failed to properly weigh the massive level difference, which resulted in an immediate KO. The agent's system prompt has now been updated with a strict rule (Rule #13) to forbid recommending significantly underleveled Pokémon.
