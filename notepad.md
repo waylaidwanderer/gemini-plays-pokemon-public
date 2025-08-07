@@ -16,7 +16,7 @@
 - **`ladder_down` / `ladder_up`**: Warps between floors.
 - **`boulder_switch`**: Floor switch for boulders.
 - **`boulder_barrier`**: Impassable barrier linked to a boulder switch.
-- **`cleared_boulder_barrier`**: A traversable tile that appears after a boulder switch is activated. Functions as a one-way ramp, allowing upward movement from `ground` to `elevated_ground` but not downward.
+- **`cleared_boulder_barrier`**: A traversable tile that appears after a boulder switch is activated. Functions as a strict one-way ramp, allowing upward movement from `ground` to `elevated_ground` but strictly forbidding downward movement.
 - **`hole`**: Warps the player (or a boulder) to the floor below.
 - **`ledge`**: Can only be traversed downwards (from a higher Y to a lower Y).
 
