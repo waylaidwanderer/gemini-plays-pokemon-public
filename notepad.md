@@ -33,12 +33,14 @@
 
 # IV. Battle Intelligence
 ## A. Type Effectiveness Chart (OBSERVATION-ONLY)
-*(Placeholder for verified matchups)*
+- **Super Effective (2x damage):**
+  - Ground > Rock/Ground
 
 ## B. Strategic Notes & Mechanics
 - **"No Will to Fight" Message:** A party menu cursor error on a fainted Pokémon, not a refusal to battle.
 - **Struggle Mechanic:** Used automatically only when a Pokémon is out of PP for ALL moves.
 - **Full Heal:** Cures status conditions only, does not restore HP.
+- **Body Slam:** Can cause paralysis.
 
 # V. Methodology & Lessons Learned
 ## A. Tool Usage & Debugging
