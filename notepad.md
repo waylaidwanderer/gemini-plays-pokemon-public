@@ -93,3 +93,7 @@
   9. Path to (4, 17) to stand right of the boulder.
   10. Push boulder from (3, 17) LEFT to (2, 17) onto the switch.
 - **Expected Outcome:** The barrier at (8, 9) and (8, 10) will change to `cleared_boulder_barrier`, granting access to the eastern part of the map.
+
+# VIII. Reflection Takeaways (Turn 125224)
+- **Tool Design Lesson:** Monolithic tools like `boulder_puzzle_solver` are prone to failure. A better design is a modular approach: a `puzzle_data_extractor` tool to gather information, and a `puzzle_strategist_agent` to reason about the solution. This will be a future development goal.
+- **New Hypothesis:** The `steps` tile at (6, 11) might be a one-way path (down only). This would explain why my pathfinder failed to find a route to the eastern platform and needs to be tested.

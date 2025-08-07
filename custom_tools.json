@@ -78,42 +78,6 @@
       }
     ]
   },
-  "boulder_puzzle_solver": {
-    "description": "A tool that analyzes the current map's boulder puzzle and finds a valid sequence of pushes to move a boulder onto a target switch. It verifies all paths against the map layout to ensure they are traversable.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "target_switch_x": {
-          "type": "string"
-        },
-        "target_switch_y": {
-          "type": "string"
-        }
-      },
-      "required": [
-        "target_switch_x",
-        "target_switch_y"
-      ]
-    },
-    "python_script": "import json\nimport xml.etree.ElementTree as ET\nfrom collections import deque\n\ntry:\n    target_switch_x = int(input_data['target_switch_x'])\n    target_switch_y = int(input_data['target_switch_y'])\nexcept (KeyError, ValueError) as e:\n    print(json.dumps({'error': f'Invalid input: {e}'}))\n    exit()\n\nroot = ET.fromstring(map_xml_string)\nwidth = int(root.get('width'))\nheight = int(root.get('height'))\n\ngrid = {}\nfor row_elem in root.findall('Row'):\n    y = int(row_elem.get('id'))\n    for tile_elem in row_elem.findall('Tile'):\n        x = int(tile_elem.get('id'))\n        tile_type = tile_elem.get('type')\n        obj_node = tile_elem.find('Object')\n        has_object = obj_node is not None\n        object_name = None\n        if has_object:\n            object_name = obj_node.get('name') or obj_node.get('id-name')\n        boulder_node = tile_elem.find('Boulder')\n        has_boulder = boulder_node is not None\n        grid[(x, y)] = {'type': tile_type, 'has_object': has_object, 'object_name': object_name, 'has_boulder': has_boulder}\n\ndef is_valid(pos, boulders):\n    x, y = pos\n    if not (0 < x <= width and 0 < y <= height):\n        return False\n    if grid[pos]['type'] in ['impassable', 'boulder_barrier']:\n        return False\n    if pos in boulders:\n        return False\n    if grid[pos]['has_object'] and grid[pos]['object_name'] != 'Pikachu':\n        return False\n    return True\n\ndef bfs_player_path(start, end, boulders):\n    q = deque([(start, [])])\n    visited = {start}\n    while q:\n        (curr_x, curr_y), path = q.popleft()\n        if (curr_x, curr_y) == end:\n            return path\n        for dx, dy, move in [(0, 1, 'Down'), (0, -1, 'Up'), (1, 0, 'Right'), (-1, 0, 'Left')]:\n            next_pos = (curr_x + dx, curr_y + dy)\n            if next_pos not in visited and is_valid(next_pos, boulders):\n                visited.add(next_pos)\n                new_path = list(path)\n                new_path.append(move)\n                q.append((next_pos, new_path))\n    return None\n\nplayer_start_node = None\nfor y_coord in range(1, height + 1):\n    for x_coord in range(1, width + 1):\n        if root.find(f\".//Row[@id='{y_coord}']/Tile[@id='{x_coord}']/Player\") is not None:\n            player_start_node = (x_coord, y_coord)\n            break\n    if player_start_node:\n        break\n\ninitial_boulders = set()\nfor y_coord in range(1, height + 1):\n    for x_coord in range(1, width + 1):\n        if grid[(x_coord, y_coord)]['has_boulder']:\n            initial_boulders.add((x_coord, y_coord))\n\ntarget_switch = (target_switch_x, target_switch_y)\n\nqueue = deque([(player_start_node, tuple(sorted(list(initial_boulders))), [])])\nvisited_states = {(player_start_node, tuple(sorted(list(initial_boulders))))}\n\nwhile queue:\n    player_pos, boulder_tuple, actions = queue.popleft()\n    boulders = set(boulder_tuple)\n\n    if target_switch in boulders:\n        print(json.dumps({'solution': actions}))\n        exit()\n\n    for b_x, b_y in boulders:\n        for dx, dy, move in [(0, 1, 'Down'), (0, -1, 'Up'), (1, 0, 'Right'), (-1, 0, 'Left')]:\n            push_pos = (b_x - dx, b_y - dy)\n            new_boulder_pos = (b_x + dx, b_y + dy)\n\n            if is_valid(push_pos, boulders) and is_valid(new_boulder_pos, boulders - {(b_x, b_y)}):\n                path_to_push = bfs_player_path(player_pos, push_pos, boulders)\n\n                if path_to_push is not None:\n                    new_boulders = set(boulders)\n                    new_boulders.remove((b_x, b_y))\n                    new_boulders.add(new_boulder_pos)\n                    new_boulder_tuple = tuple(sorted(list(new_boulders)))\n                    new_player_pos = (b_x, b_y)\n                    \n                    new_state = (new_player_pos, new_boulder_tuple)\n\n                    if new_state not in visited_states:\n                        visited_states.add(new_state)\n                        new_actions = list(actions)\n                        new_actions.extend(path_to_push)\n                        new_actions.append(f'Push {move}')\n                        queue.append((new_player_pos, new_boulder_tuple, new_actions))\n\nprint(json.dumps({'error': 'No solution found.'}))",
-    "history": [
-      {
-        "commit_message": "feat: Create boulder_puzzle_solver tool. This replaces the fundamentally flawed puzzle_solver_agent. The agent was misused for a computational task (parsing raw map data), leading to system warnings and incorrect solutions. This new tool correctly handles the puzzle logic by implementing a state-space search (BFS) to find a valid sequence of boulder pushes. It parses the map XML to build an accurate grid and uses an A* pathfinder internally to ensure the player can reach the required positions to push boulders. This adheres to the core principle of using tools for computation and agents for reasoning, directly addressing the Overwatch critique and preventing future misuse.",
-        "timestamp": "2025-08-06T21:28:57.636Z",
-        "action_counter": 124357
-      },
-      {
-        "commit_message": "fix: Optimize boulder puzzle solver to prevent timeouts. The previous implementation used a computationally expensive A* search for player pathfinding within a BFS for puzzle states, leading to timeouts. This commit replaces the player's A* search with a much faster BFS and corrects the state representation in the main visited set to properly track (player_pos, boulder_tuple). This should prevent redundant exploration and resolve the timeout issue, making the tool reliable for complex puzzles.",
-        "timestamp": "2025-08-06T21:30:34.575Z",
-        "action_counter": 124359
-      },
-      {
-        "commit_message": "fix: Optimize boulder puzzle solver to prevent timeouts. The previous implementation used a computationally expensive A* search for player pathfinding within a BFS for puzzle states, leading to timeouts. This commit replaces the player's A* search with a much faster BFS and corrects the state representation in the main visited set to properly track (player_pos, boulder_tuple). This should prevent redundant exploration and resolve the timeout issue, making the tool reliable for complex puzzles.",
-        "timestamp": "2025-08-07T05:50:50.400Z",
-        "action_counter": 125171
-      }
-    ]
-  },
   "pathfinder": {
     "description": "A pathfinding tool that uses the A* algorithm to find the shortest path between two points on the current map. It can handle different movement modes (walking, surfing) and respects impassable tiles, objects, one-way ledges, and elevation changes.",
     "input_schema": {
