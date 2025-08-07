@@ -21,7 +21,7 @@
 - **`ledge`**: Can only be traversed downwards (from a higher Y to a lower Y).
 
 ## B. Follower Pokémon Mechanics
-- **Pikachu Position Swap:** When moving onto a tile occupied by Pikachu, the player and Pikachu appear to swap positions. This needs further testing to confirm if it's a consistent mechanic or if the 'turn-to-face' rule still applies under different conditions.
+- **Pikachu Position Swap:** When moving onto a tile occupied by Pikachu, the player and Pikachu appear to swap positions. This is a newly observed mechanic that requires further testing to confirm if it's consistent under all conditions.
 
 # III. Puzzles & Navigation
 
@@ -31,8 +31,19 @@
 
 ## B. Current Puzzle Plan (Victory Road 2F)
 - **Governing Directive:** A system directive states the solution is to move the boulder at (6, 6) to the switch at (10, 17).
-- **Current Status:** I have successfully navigated the western part of the map and the elevated platforms. My current goal is to reach the `steps` at (22, 16) to descend to the eastern ground floor and access the boulder.
+- **Current Status:** I am at the start of the eastern boulder puzzle. My previous plan was flawed.
 - **Untested Assumption:** The switch at (10, 17) opens the final barrier at (24, 15). This needs to be confirmed after reaching the switch.
+
+### C. Victory Road 2F - East Boulder Puzzle Plan (NEW)
+- **Objective:** Move boulder from (6, 6) to switch at (10, 17).
+- **Step-by-Step Plan:**
+  1. Navigate to (6, 5). Push boulder DOWN to (6, 7).
+  2. Navigate to (5, 7). Push boulder RIGHT to (7, 7).
+  3. Navigate to (6, 7). Push boulder RIGHT to (8, 7).
+  4. Navigate to (8, 6). Push boulder DOWN to (8, 8).
+  5. Continue pushing the boulder down the column from (8, 8) to (8, 17).
+  6. Navigate to (7, 17). Push boulder RIGHT to (9, 17).
+  7. Navigate to (8, 17). Push boulder RIGHT to (10, 17).
 
 # IV. Battle Intelligence
 ## A. Type Effectiveness Chart (OBSERVATION-ONLY)
@@ -77,13 +88,3 @@
 - **[LESSON] Victory Road 1F Puzzle Nuance:** Pushing the boulder at (3, 11) UP to the switch at (3, 10) blocks the direct path to the ladder at (2, 2), but does NOT create an inescapable area. A path to the southern exit at (9, 18) remains, making a map reset unnecessary.
 - **[ARCHIVED] Debugging Loop Failure:** Repeatedly failed to apply a simple code fix due to carelessness (submitting identical code, introducing typos). This highlights a need for a more robust debugging process.
 - **[ARCHIVED] Agent Opportunity - Code Verifier:** The `reflection_agent` suggested creating a 'code patch verifier' agent, which was successfully implemented. This addressed an inefficient debugging loop.
-
-### C. Victory Road 2F - East Boulder Puzzle Plan
-- **Objective:** Move boulder from (6, 6) to switch at (10, 17).
-- **Step-by-Step Plan:**
-  1. Navigate to (5, 6). Push boulder RIGHT to (7, 6).
-  2. Navigate to (6, 6). Push boulder RIGHT to (8, 6).
-  3. Navigate to (8, 5). Push boulder DOWN to (8, 7).
-  4. Navigate to (8, 6). Push boulder DOWN to (8, 8).
-  5. Continue pushing the boulder down the column from (8, 8) to (8, 17).
-  6. Navigate to (9, 17). Push boulder RIGHT to (10, 17).
