@@ -84,3 +84,12 @@
 - **[FALSIFIED] Victory Road 2F Boulder Puzzle - Hypothesis 6:** Pushing the boulder at (5, 15) to (10, 17) via (8, 17) is impossible due to an impassable wall at (9, 17).
 - **[FALSIFIED] Victory Road 2F Boulder Puzzle - Hypothesis 7:** The boulder at (5, 15) can be pushed to (10, 17) via (10, 16). Failed because the path right from (8, 16) is blocked by an impassable wall at (9, 16).
 - **[ARCHIVED] Victory Road 2F Puzzle Status & Reset Plan:** All hypotheses for solving the puzzle on the 2F landmass failed. The plan was to reset the puzzle by traveling to the ladder at (2, 2), ascending to 3F, and immediately returning to 2F. This plan was superseded by the discovery that the solution lies on 3F.
+
+## B. Agent/Tool Development & Implementation Notes
+- **[ACTIVE] `landmass_analyzer` & `pathfinder` Debugging:** Both tools are failing on Victory Road 3F due to an inability to handle complex elevation changes and boulder barriers. They incorrectly report areas as disconnected.
+  - **Plan:**
+    1. Add verbose logging/debug prints to the `landmass_analyzer` to trace its BFS logic and traversal decisions.
+    2. Run the tool on the current map to generate a detailed log.
+    3. Use the `tool_debugger_agent` to analyze the log and identify the root cause of the failure.
+    4. Implement and verify the fix using `define_tool`.
+    5. Repeat the entire process for the `pathfinder` tool.
