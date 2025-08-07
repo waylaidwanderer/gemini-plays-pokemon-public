@@ -91,3 +91,9 @@
   - **Step 1:** Travel to the ladder at (2, 2) and ascend to Victory Road 3F.
   - **Step 2:** Immediately descend the ladder back to Victory Road 2F to reset the boulders to their original positions.
   - **Step 3:** Navigate to the boulder at (6, 7) and determine a new push sequence to reach the switch at (10, 17).
+- **Hypothesis 4: Use the boulder at (6, 7) and push it south, then east.**
+  - **Objective:** Push the boulder at (6, 7) to the switch at (10, 17).
+  - **Step 1:** Navigate to (6, 6).
+  - **Step 2:** Push the boulder south from (6, 7) all the way to (6, 17).
+  - **Step 3:** Push the boulder east from (6, 17) all the way to the switch at (10, 17).
+  - **Expected Outcome:** The boulder barrier at (24, 15) will clear, allowing access to the ladder at (26, 15).
