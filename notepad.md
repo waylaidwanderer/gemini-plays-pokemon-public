@@ -83,3 +83,6 @@
 - **[FALSIFIED] Victory Road 2F Boulder Puzzle - Hypothesis 2:** The boulder at (8, 15) can be moved north, then east, then south. Failed due to impassable wall at (9, 12).
 - **[FALSIFIED] Victory Road 2F Boulder Puzzle - Hypothesis 1:** The boulder at (8, 15) can be pushed directly right to column 10. Failed due to impassable wall at (9, 15).
 - **[FALSIFIED] Defeated trainers are impassable obstacles:** A system warning (Turn 124270) indicated that the warp at (2, 2) on Victory Road 1F was reachable, despite being blocked by a defeated trainer at (4, 3). This proves the hypothesis is false and the pathfinder has been updated.
+
+## B. Agent & Tool Ideas
+- **Tool Debugger Pipeline:** An agent or tool that automates the debugging process. It would take a tool name and arguments as input, run the tool with verbose logging enabled, and then automatically feed the resulting log to the `tool_debugger_agent` to get a diagnosis. This would streamline the `Tool Failure Protocol` into a single action.
