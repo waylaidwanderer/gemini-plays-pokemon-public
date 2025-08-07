@@ -457,7 +457,7 @@
         "target_y"
       ]
     },
-    "python_script": "import xml.etree.ElementTree as ET\nimport json\n\nroot = ET.fromstring(map_xml_string)\n\nplayer_pos = None\nboulders = []\nswitches = []\n\nfor row in root.findall('Row'):\n    y = int(row.get('id'))\n    for tile in row.findall('Tile'):\n        x = int(tile.get('id'))\n        if tile.find('Player') is not None:\n            player_pos = {'x': x, 'y': y}\n        if tile.find('Boulder') is not None:\n            boulders.append({'x': x, 'y': y})\n        if tile.get('type') == 'boulder_switch':\n            switches.append({'x': x, 'y': y})\n\ntarget_x = int(input_data['target_x'])\ntarget_y = int(input_data['target_y'])\n\nagent_input = {\n    \"map_xml_string\": map_xml_string,\n    \"player_position\": player_pos,\n    \"boulders\": boulders,\n    \"switches\": switches,\n    \"target_switch\": {\"x\": target_x, \"y\": target_y},\n    \"notepad_content\": \"\" \n}\n\nprint(json.dumps(agent_input))",
+    "python_script": "import xml.etree.ElementTree as ET\nimport json\n\nroot = ET.fromstring(map_xml_string)\nplayer_pos = None\nboulders = []\n\nfor row_elem in root.findall('Row'):\n    y = int(row_elem.get('id'))\n    for tile_elem in row_elem.findall('Tile'):\n        x = int(tile_elem.get('id'))\n        if tile_elem.find('Player') is not None:\n            player_pos = {'x': x, 'y': y}\n        if tile_elem.find('Boulder') is not None:\n            boulders.append({'x': x, 'y': y})\n\ntarget_switch = {'x': int(input_data['target_x']), 'y': int(input_data['target_y'])}\n\nagent_call = {\n    \"tool_name\": \"puzzle_strategist_agent\",\n    \"tool_args\": [\n        {\"name\": \"map_xml_string\", \"value\": map_xml_string},\n        {\"name\": \"player_pos\", \"value\": json.dumps(player_pos)},\n        {\"name\": \"boulders\", \"value\": json.dumps(boulders)},\n        {\"name\": \"target_switch\", \"value\": json.dumps(target_switch)},\n        {\"name\": \"notepad_content\", \"value\": json.dumps(\"\")}\n    ]\n}\n\nprint(json.dumps(agent_call, indent=2))",
     "history": [
       {
         "commit_message": "feat: Create puzzle_input_generator tool. This tool automates the repetitive task of parsing the map XML to gather all necessary data (player position, boulders, switches, etc.) and formats it into the correct JSON structure required to call the `puzzle_strategist_agent`. This was identified as a key process improvement during self-reflection, as it streamlines puzzle-solving and reduces the chance of manual error.",
@@ -473,6 +473,11 @@
         "commit_message": "feat: Create puzzle_input_generator tool. This tool automates the repetitive task of parsing the map XML to gather all necessary data (player position, boulders, switches, etc.) and formats it into the correct JSON structure required to call the `puzzle_strategist_agent`. This was identified as a key process improvement during self-reflection, as it streamlines puzzle-solving and reduces the chance of manual error.",
         "timestamp": "2025-08-06T14:59:21.660Z",
         "action_counter": 124131
+      },
+      {
+        "commit_message": "feat: Create puzzle_input_generator tool. This tool automates the repetitive task of parsing the map XML to gather all necessary data (player position, boulders, switches, etc.) and formats it into the correct JSON structure required to call the `puzzle_strategist_agent`. This was identified as a key process improvement during self-reflection, as it streamlines puzzle-solving and reduces the chance of manual error.",
+        "timestamp": "2025-08-07T23:49:51.945Z",
+        "action_counter": 126598
       }
     ]
   }
