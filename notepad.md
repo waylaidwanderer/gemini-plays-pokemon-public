@@ -35,7 +35,13 @@
 # IV. Battle Intelligence
 ## A. Type Effectiveness Chart (OBSERVATION-ONLY)
 - **Super Effective (2x damage):**
-  - Ground > Rock/Ground
+  - Ground > Rock/Ground (Verified via battle)
+  - Electric > Flying (Verified: SPARKY vs GOLBAT)
+  - Water > Rock/Ground (Verified: NEPTUNE vs GOLEM)
+- **Not Very Effective (0.5x damage):**
+  - Normal !> Rock/Ground (Verified: CRAG vs GRAVELER's SELFDESTRUCT)
+- **Immune (0x damage):**
+  - Ground immune to Electric (Verified via battle)
 
 ## B. Strategic Notes & Mechanics
 - **"No Will to Fight" Message:** A party menu cursor error on a fainted Pokémon, not a refusal to battle.
