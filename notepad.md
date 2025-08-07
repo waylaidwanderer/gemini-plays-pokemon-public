@@ -86,3 +86,8 @@
 - **[FALSIFIED] Victory Road 2F Boulder Puzzle - Hypothesis 1:** The boulder at (8, 15) can be pushed directly right to column 10. Failed due to impassable wall at (9, 15).
 - **[FALSIFIED] Defeated trainers are impassable obstacles:** A system warning (Turn 124270) indicated that the warp at (2, 2) on Victory Road 1F was reachable, despite being blocked by a defeated trainer at (4, 3). This proves the hypothesis is false and the pathfinder has been updated.
 - **Battle Strategist Agent Failure (Turn 126296):** The agent recommended switching in a Lv. 24 SUBTERRA against a Lv. 47 GRAVELER. It failed to properly weigh the massive level difference, which resulted in an immediate KO. The agent's system prompt has now been updated with a strict rule (Rule #13) to forbid recommending significantly underleveled Pokémon. The agent has been further refined with rules to avoid switching in low-HP 'avengers' and to account for neutral coverage moves.
+
+# V. Current Puzzle Plan (CORRECTION)
+- My previous plan (Hypothesis 2) is now falsified. I misread the map; the path for the boulder at (21, 5) is blocked by impassable walls and elevation changes.
+- My initial falsification of Hypothesis 1 was also incorrect. A long wrap-around path to (14, 14) *does* exist, making the boulder at (14, 13) viable.
+- **New Plan (Hypothesis 3):** The boulder at (14, 13) is the correct one. I will navigate to (14, 14) to begin pushing it.
