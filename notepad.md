@@ -77,3 +77,13 @@
 - **[LESSON] Victory Road 1F Puzzle Nuance:** Pushing the boulder at (3, 11) UP to the switch at (3, 10) blocks the direct path to the ladder at (2, 2), but does NOT create an inescapable area. A path to the southern exit at (9, 18) remains, making a map reset unnecessary.
 - **[ARCHIVED] Debugging Loop Failure:** Repeatedly failed to apply a simple code fix due to carelessness (submitting identical code, introducing typos). This highlights a need for a more robust debugging process.
 - **[ARCHIVED] Agent Opportunity - Code Verifier:** The `reflection_agent` suggested creating a 'code patch verifier' agent, which was successfully implemented. This addressed an inefficient debugging loop.
+
+### C. Victory Road 2F - East Boulder Puzzle Plan
+- **Objective:** Move boulder from (6, 6) to switch at (10, 17).
+- **Step-by-Step Plan:**
+  1. Navigate to (5, 6). Push boulder RIGHT to (7, 6).
+  2. Navigate to (6, 6). Push boulder RIGHT to (8, 6).
+  3. Navigate to (8, 5). Push boulder DOWN to (8, 7).
+  4. Navigate to (8, 6). Push boulder DOWN to (8, 8).
+  5. Continue pushing the boulder down the column from (8, 8) to (8, 17).
+  6. Navigate to (9, 17). Push boulder RIGHT to (10, 17).
