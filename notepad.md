@@ -83,3 +83,4 @@
 4. Push boulder from (14, 8) to (4, 8).
 5. Navigate to (4, 7) to push the boulder DOWN.
 6. Push boulder from (4, 8) to (4, 6).
+- **[FALSIFIED] Victory Road 3F Boulder Puzzle - Hypothesis 1:** The boulder at (14, 13) can be pushed to the switch at (4, 6). The first step, pushing the boulder UP, requires standing at (14, 14). This fails because the path to (14, 14) is blocked by impassable tiles at (13, 13) and (15, 13), making it impossible to get into position.
