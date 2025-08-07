@@ -32,11 +32,11 @@
 - **Governing Directive (Multi-Floor):** A critical system directive confirms a multi-floor puzzle. The solution involves pushing a boulder from 3F down a hole to solve a puzzle on 2F.
 - **Current Plan:**
   1.  The map is split into two landmasses. The boulder switch at (4, 6) is on Landmass #2, while the necessary boulders are on Landmass #1.
-  2.  The path to the southern puzzle area (containing the hole at (24, 16)) is blocked.
-  3.  Hypothesis: The boulder at (25, 11) is the immediate obstacle blocking the path south.
+  2.  The path to the southern puzzle area is blocked. The immediate obstacle, the boulder at (25, 11), is currently unreachable.
+  3.  New Hypothesis: The path forward is east, towards the unvisited warp at (27, 9). The northernmost boulder has been moved to (24, 2) to clear this path.
   4.  Immediate Plan:
-      a. Get into position at (25, 12), directly below the boulder.
-      b. Push the boulder at (25, 11) UP to clear the path.
+      a. Use the pathfinder to navigate to the warp at (27, 9).
+      b. Explore the area connected by this warp, which may lead to the southern puzzle area or the other landmass.
       c. Re-evaluate the path to the southern section and the main puzzle objective at (23, 16).
 
 # IV. Battle Intelligence
