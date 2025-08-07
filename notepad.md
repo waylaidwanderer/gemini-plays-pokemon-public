@@ -64,17 +64,17 @@
 
 # V. Current Puzzle Plan
 ## A. Victory Road 3F Boulder Puzzle
-- **Hypothesis 1:** The boulder at (14, 13) can be pushed to the switch at (4, 6).
+- **Hypothesis 2:** The boulder at (23, 4) can be pushed to the switch at (4, 6).
 - **Plan:**
-    1. Move from (14, 12) to (14, 14) to get into position behind the boulder.
-    2. Push the boulder from (14, 13) UP to (14, 12).
-    3. Push UP to (14, 11).
-    4. Push LEFT to (13, 11).
-    5. Get to (12, 11) and push LEFT to (11, 11).
-    6. Continue pushing LEFT into the western chamber.
-    7. Maneuver the boulder onto the switch at (4, 6).
+    1. Navigate to (22, 4) to get into position to push the boulder.
+    2. Push the boulder LEFT from (23, 4) to (22, 4).
+    3. Push LEFT to (21, 4).
+    4. Push DOWN to (21, 5).
+    5. Maneuver around to (21, 6) and push DOWN to (21, 7).
+    6. Continue pushing the boulder west through the main corridor towards the switch at (4, 6).
 
 # VI. Archived & Falsified Hypotheses
+- **[FALSIFIED] Victory Road 3F Boulder Puzzle - Hypothesis 1:** The boulder at (14, 13) can be pushed to the switch at (4, 6). This fails because it is impossible to get into position at (14, 14) to push the boulder north. The tiles at (13, 13) and (15, 13) are impassable walls, completely blocking access from the south.
 - **[FALSIFIED] Victory Road 3F Boulder Puzzle - Initial Attempt:** My initial thought was that the boulder at (14, 13) was stuck. Pushing it UP requires standing at (14, 14), and I incorrectly assumed the direct path was the only path, which is blocked by impassable tiles. A longer, wrap-around path exists.
 - **[FALSIFIED] Victory Road 2F Boulder Puzzle - Hypothesis 9:** The boulder at (7, 12) can be pushed DOWN to (7, 17) and then RIGHT to the switch at (10, 17). This fails because the tile at (6, 17) is an impassable wall, making it impossible to get into position to push the boulder to the right.
 - **[FALSIFIED] Victory Road 2F Boulder Puzzle - Hypothesis 8:** The boulder at (5, 15) can be pushed to the switch at (10, 17). The path is: push UP to (5, 12), then push RIGHT to (10, 12), then push DOWN to (10, 17). This fails because the path right is blocked by an impassable wall at (9, 12).
