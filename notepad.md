@@ -62,7 +62,6 @@
 - **Surfing Navigation:** The `pathfinder` tool requires `movement_mode='surfing'` to navigate over water.
 
 ## B. Agent/Tool Development & Implementation Notes
-- **Pathfinder Refinement Note:** The current `pathfinder`'s method of ignoring boulders is a temporary solution. A more robust implementation would treat boulders as traversable but with a high movement cost, which should be prioritized for development.
 
 ## C. Deprecated Agents
 - **[DELETED] Exploration Strategist Agent:** This agent was designed for multi-stage navigation but was unusable due to requiring a non-existent helper tool. It has been deleted to maintain a clean and functional agent list.
