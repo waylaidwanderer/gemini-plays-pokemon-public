@@ -59,8 +59,8 @@
 - **Landmass Analyzer Limitations:** The `landmass_analyzer` tool now correctly accounts for boulders as obstacles, but it still does not understand one-way traversal tiles like ledges or `cleared_boulder_barrier` ramps. It can report a single landmass even if sections are unreachable due to these mechanics.
 - **Surfing Navigation:** The `pathfinder` tool requires `movement_mode='surfing'` to navigate over water.
 
-## B. Agent/Tool Development Ideas
-- **Exploration Strategist Agent:** An agent to automate multi-stage navigation. It would take a final destination, use `landmass_analyzer` to check connectivity, and if disconnected, it would plot a path to the correct transition point (e.g., a ladder or warp) to reach the target landmass.
+## B. Agent/Tool Development & Implementation Notes
+- **Exploration Strategist Agent (Implemented):** An agent designed to automate multi-stage navigation. It takes a final destination, uses `landmass_analyzer` to check connectivity, and if disconnected, it plots a path to the correct transition point (e.g., a ladder or warp) to reach the target landmass. **Status:** Awaiting implementation of a helper tool to provide necessary `map_warps` input.
 - **Pathfinder Refinement:** Enhance the `pathfinder` tool. When a path fails, it should internally use logic similar to `landmass_analyzer` to determine if the failure is due to disconnected landmasses and return a more informative error message (e.g., "Destination is on a different, unreachable landmass.").
 
 ## C. Core Principles
