@@ -78,3 +78,18 @@
 # VII. Reflection Takeaways (Turn 125016)
 - **Map Marker Discipline:** I will be more diligent in marking picked-up items and key NPC dialogue to create a comprehensive record and avoid redundant actions.
 - **Victory Road 1F Puzzle Hypothesis:** My next attempt at the 1F puzzle will test the hypothesis that the eastern boulder puzzle must be solved *before* the western one to maintain access to the ladder.
+
+# VII. Current Puzzle Plan (Victory Road 2F)
+- **Hypothesis:** The western boulder puzzle must be solved first to open the barrier at (8, 9). This involves pushing the boulder at (5, 15) to the switch at (2, 17).
+- **Test Plan (Attempt 1):**
+  1. Path to (5, 14) to stand above the boulder.
+  2. Push boulder from (5, 15) DOWN to (5, 16).
+  3. Path to (6, 16) to stand right of the boulder.
+  4. Push boulder from (5, 16) LEFT to (4, 16).
+  5. Path to (4, 15) to stand above the boulder.
+  6. Push boulder from (4, 16) DOWN to (4, 17).
+  7. Path to (5, 17) to stand right of the boulder.
+  8. Push boulder from (4, 17) LEFT to (3, 17).
+  9. Path to (4, 17) to stand right of the boulder.
+  10. Push boulder from (3, 17) LEFT to (2, 17) onto the switch.
+- **Expected Outcome:** The barrier at (8, 9) and (8, 10) will change to `cleared_boulder_barrier`, granting access to the eastern part of the map.
