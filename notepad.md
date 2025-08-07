@@ -28,14 +28,14 @@
 - **Reset Condition:** Boulder puzzles reset upon leaving and re-entering a map or using ladders between floors.
 - **Boulder/Item Interaction:** Pushing a boulder onto an item collects the item and moves the boulder into that space.
 
-## B. Current Puzzle Status (Victory Road)
+## B. Current Puzzle Status (Victory Road 2F)
 - **Governing Directive (Multi-Floor):** A critical system directive confirms a multi-floor puzzle. The solution involves pushing a boulder from 3F down a hole to solve a puzzle on 2F (switch at (10, 17)), which in turn will likely open a barrier on 3F, allowing access to the final puzzle switch.
-- **Current Plan:**
-    1. I am on Victory Road 2F. The boulder pushed from 3F is at (5, 15).
-    2. The target switch is at (10, 17).
-    3. I must navigate from the northwestern area to the southern area, likely via the elevated platform accessed by the steps at (6, 11).
-    4. Once in the southern area, I will solve the puzzle by pushing the boulder at (5, 15) to the switch at (10, 17).
-    5. Solving this puzzle will likely open the barrier at (8, 11) on 3F.
+- **Current Plan (Hypothesis 4):**
+  1. Use the boulder at (6, 7).
+  2. Navigate to (6, 6).
+  3. Push the boulder south from (6, 7) all the way to (6, 17).
+  4. Push the boulder east from (6, 17) all the way to the switch at (10, 17).
+  5. Expected Outcome: The boulder barrier at (24, 15) will clear, allowing access to the ladder at (26, 15).
 
 # IV. Battle Intelligence
 ## A. Type Effectiveness Chart (OBSERVATION-ONLY)
@@ -73,27 +73,11 @@
 - **Puzzle Pre-Planning:** Before attempting any multi-step puzzle (especially boulder puzzles), I MUST first document the intended step-by-step sequence of actions in my notepad. This prevents careless errors and soft-locks.
 
 # VI. Archived & Falsified Hypotheses
+- **[FALSIFIED] Victory Road 2F Boulder Puzzle - Hypothesis 1:** The boulder at (8, 15) can be pushed directly right to column 10. Failed due to impassable wall at (9, 15).
+- **[FALSIFIED] Victory Road 2F Boulder Puzzle - Hypothesis 2:** The boulder at (8, 15) can be moved north, then east, then south. Failed due to impassable wall at (9, 12).
 - **[FALSIFIED] Victory Road 2F Disconnected Landmass Hypothesis:** The landmass_analyzer tool's conclusion that this floor is split into disconnected landmasses was proven false by a system warning (Turn 124003) which confirmed the eastern warp at (24, 8) is reachable from the west. The connection is via the elevated platforms.
 - **[FALSIFIED] Defeated trainers are impassable obstacles:** A system warning (Turn 124270) indicated that the warp at (2, 2) on Victory Road 1F was reachable, despite being blocked by a defeated trainer at (4, 3). This proves the hypothesis is false and the pathfinder has been updated.
 - **[ARCHIVED] Victory Road 1F Puzzle Nuance:** Pushing the boulder at (3, 11) UP to the switch at (3, 10) blocks the direct path to the ladder at (2, 2), but does NOT create an inescapable area. A path to the southern exit at (9, 18) remains, making a map reset unnecessary.
 - **[ARCHIVED] Debugging Loop Failure:** Repeatedly failed to apply a simple code fix due to carelessness (submitting identical code, introducing typos). This highlights a need for a more robust debugging process.
 - **[ARCHIVED] Agent Opportunity - Code Verifier:** The `reflection_agent` suggested creating a 'code patch verifier' agent, which was successfully implemented. This addressed an inefficient debugging loop.
 - **[FALSIFIED] Victory Road 2F Disconnected Landmass Hypothesis (Attempt 2):** My `landmass_analyzer` tool incorrectly reported that the northwestern and southern areas of this floor were disconnected. This was contradicted by a CRITICAL SYSTEM DIRECTIVE implying a solution to the southern puzzle was possible from my location. This confirms the tool is likely bugged and that the elevated platforms connect the map sections.
-### B. Victory Road 2F Boulder Puzzle Plan (Directive-Driven)
-- **[FALSIFIED] Hypothesis 1:** The boulder at (8, 15) can be pushed directly right to column 10.
-  - **Test:** Attempted to push the boulder right from (8, 15).
-  - **Conclusion:** Failed. An impassable wall at (9, 15) blocks the path. The initial plan is invalid.
-- **[FALSIFIED] Hypothesis 2:** The boulder at (8, 15) can be moved north, then east, then south.
-  - **Test:** Pushed boulder from (8, 15) up to (8, 12). Attempted to push right.
-  - **Conclusion:** Failed. An impassable wall at (9, 12) blocks the path right. This entire approach is invalid.
-- **Hypothesis 3:** The puzzle must be reset and the other boulder at (6, 7) must be used.
-  - **Objective:** Reset the puzzle state and investigate the boulder at (6, 7).
-  - **Step 1:** Travel to the ladder at (2, 2) and ascend to Victory Road 3F.
-  - **Step 2:** Immediately descend the ladder back to Victory Road 2F to reset the boulders to their original positions.
-  - **Step 3:** Navigate to the boulder at (6, 7) and determine a new push sequence to reach the switch at (10, 17).
-- **Hypothesis 4: Use the boulder at (6, 7) and push it south, then east.**
-  - **Objective:** Push the boulder at (6, 7) to the switch at (10, 17).
-  - **Step 1:** Navigate to (6, 6).
-  - **Step 2:** Push the boulder south from (6, 7) all the way to (6, 17).
-  - **Step 3:** Push the boulder east from (6, 17) all the way to the switch at (10, 17).
-  - **Expected Outcome:** The boulder barrier at (24, 15) will clear, allowing access to the ladder at (26, 15).
