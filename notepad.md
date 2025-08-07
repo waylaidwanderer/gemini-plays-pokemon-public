@@ -1,8 +1,4 @@
-# I. Current Objective
-- **Primary Objective:** Defeat the Elite Four and become the Pokémon League Champion.
-- **Secondary Objective:** Solve the Victory Road multi-floor boulder puzzle.
-
-# II. Core Gameplay & World Rules
+# I. Core Gameplay & World Rules
 - **Poison Damage:** Poisoned Pokémon in the party lose 1 HP every four steps taken outside of battle.
 - **Fainted Pokémon can use HMs:** Confirmed that a fainted Pokémon can be selected to use a field move like Strength.
 
@@ -22,24 +18,17 @@
 ## B. Follower Pokémon Mechanics
 - **Pikachu Position Swap:** When moving onto a tile occupied by Pikachu, the player and Pikachu appear to swap positions.
 
-# III. Puzzles & Navigation
+# II. Puzzles & Navigation
 
 ## A. Puzzle Mechanics
 - **Reset Condition:** Boulder puzzles reset upon leaving and re-entering a map or using ladders between floors.
 - **Boulder/Item Interaction:** Pushing a boulder onto an item collects the item and moves the boulder into that space.
 
-## B. Current Puzzle Status (Victory Road 3F)
-- **Governing Directive (Multi-Floor):** A critical system directive confirms a multi-floor puzzle. The solution involves pushing a boulder from 3F down a hole to solve a puzzle on 2F.
-- **Current Plan:**
-  1.  The map is split into two landmasses. The boulder switch at (4, 6) is on Landmass #2, while the necessary boulders are on Landmass #1.
-  2.  The path to the southern puzzle area is blocked. The immediate obstacle, the boulder at (25, 11), is currently unreachable.
-  3.  New Hypothesis: The path forward is east, towards the unvisited warp at (27, 9). The northernmost boulder has been moved to (24, 2) to clear this path.
-  4.  Immediate Plan:
-      a. Use the pathfinder to navigate to the warp at (27, 9).
-      b. Explore the area connected by this warp, which may lead to the southern puzzle area or the other landmass.
-      c. Re-evaluate the path to the southern section and the main puzzle objective at (23, 16).
+## B. Current Puzzle Status (Victory Road 2F)
+- **Governing Directive:** A system directive has confirmed the current puzzle is on 2F. The goal is to move a boulder to the switch at (10, 17).
+- **Current Hypothesis (Hypothesis 8):** The boulder at (5, 15) can be pushed to the switch at (10, 17). The path is: push UP to (5, 12), then push RIGHT to (10, 12), then push DOWN to (10, 17).
 
-# IV. Battle Intelligence
+# III. Battle Intelligence
 ## A. Type Effectiveness Chart (OBSERVATION-ONLY)
 - **Super Effective (4x damage):**
   - Ground > Rock/Ground (Verified via GRAVELER's EARTHQUAKE vs CRAG).
@@ -57,11 +46,14 @@
 - **Full Heal:** Cures status conditions only, does not restore HP.
 - **Body Slam:** Can cause paralysis.
 
-# V. Methodology & Lessons Learned
+# IV. Methodology & Lessons Learned
 ## A. Tool Usage & Debugging
 - **Tool Failure Protocol:** If any tool fails, especially a pathfinder: 1. Use `landmass_analyzer` to confirm physical connectivity. 2. Add verbose logging/debug prints to the failing tool. 3. Re-run the tool to generate a detailed log. 4. Use the `tool_debugger_agent` to analyze the log and identify the root cause. This tiered approach MUST be followed before any manual debugging attempts.
 - **Landmass Analyzer Limitations:** The `landmass_analyzer` tool now correctly accounts for boulders as obstacles, but it still does not understand one-way traversal tiles like ledges or `cleared_boulder_barrier` ramps. It can report a single landmass even if sections are unreachable due to these mechanics.
 - **Surfing Navigation:** The `pathfinder` tool requires `movement_mode='surfing'` to navigate over water.
+
+## B. Agent & Tool Ideas
+- **Puzzle Reset Planner:** An agent or tool that determines the most efficient path to reset the current map's puzzle (e.g., finding the nearest ladder/exit).
 
 ## C. Deprecated Agents
 - **[DELETED] Exploration Strategist Agent:** This agent was designed for multi-stage navigation but was unusable due to requiring a non-existent helper tool. It has been deleted to maintain a clean and functional agent list.
@@ -72,7 +64,7 @@
 - **Tool Maintenance & Verification:** I MUST use the `code_patch_verifier_agent` before every `define_tool` call to prevent debugging loops caused by submitting identical code. This is a non-negotiable step in my process.
 - **Puzzle Pre-Planning:** Before attempting any multi-step puzzle (especially boulder puzzles), I MUST first document the intended step-by-step sequence of actions in my notepad. This prevents careless errors and soft-locks.
 
-# VI. Archived & Falsified Hypotheses
+# V. Archived & Falsified Hypotheses
 - **[FALSIFIED] Victory Road 2F Boulder Puzzle - Hypothesis 4:** Pushing the boulder at (6, 7) south to the switch at (10, 17) is impossible due to an impassable elevation change between a `ground` tile and an `elevated_ground` tile.
 - **[FALSIFIED] Victory Road 2F Boulder Puzzle - Hypothesis 1:** The boulder at (8, 15) can be pushed directly right to column 10. Failed due to impassable wall at (9, 15).
 - **[FALSIFIED] Victory Road 2F Boulder Puzzle - Hypothesis 2:** The boulder at (8, 15) can be moved north, then east, then south. Failed due to impassable wall at (9, 12).
@@ -86,8 +78,3 @@
 - **[FALSIFIED] Victory Road 2F Boulder Puzzle - Hypothesis 7:** The boulder at (5, 15) can be pushed to (10, 17) via (10, 16). Failed because the path right from (8, 16) is blocked by an impassable wall at (9, 16).
 - **[ARCHIVED] Victory Road 2F Puzzle Status & Reset Plan:** All hypotheses for solving the puzzle on the 2F landmass failed. The plan was to reset the puzzle by traveling to the ladder at (2, 2), ascending to 3F, and immediately returning to 2F. This plan was superseded by the discovery that the solution lies on 3F.
 - **[ARCHIVED] `landmass_analyzer` & `pathfinder` Debugging:** Both tools were failing on Victory Road 3F because they could not handle movable obstacles (boulders). The temporary fix was to make them ignore boulders, which led to invalid path generation. The permanent fix was to restore boulder collision, forcing manual puzzle solving.
-- **[NEW] Victory Road 2F Boulder Puzzle - Hypothesis 8:** The boulder at (5, 15) can be pushed to the switch at (10, 17). The path is: push UP to (5, 12), then push RIGHT to (10, 12), then push DOWN to (10, 17).
-- **[NEW] Victory Road 2F Boulder Puzzle - Hypothesis 8:** The boulder at (5, 15) can be pushed to the switch at (10, 17). The path is: push UP to (5, 12), then push RIGHT to (10, 12), then push DOWN to (10, 17).
-- **[NEW] Victory Road 2F Boulder Puzzle - Hypothesis 8:** The boulder at (5, 15) can be pushed to the switch at (10, 17). The path is: push UP to (5, 12), then push RIGHT to (10, 12), then push DOWN to (10, 17).
-- **[NEW] Victory Road 2F Boulder Puzzle - Hypothesis 8:** The boulder at (5, 15) can be pushed to the switch at (10, 17). The path is: push UP to (5, 12), then push RIGHT to (10, 12), then push DOWN to (10, 17).
-- **[NEW] Victory Road 2F Boulder Puzzle - Hypothesis 8:** The boulder at (5, 15) can be pushed to the switch at (10, 17). The path is: push UP to (5, 12), then push RIGHT to (10, 12), then push DOWN to (10, 17).
