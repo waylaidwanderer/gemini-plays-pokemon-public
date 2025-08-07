@@ -30,8 +30,10 @@
 
 # III. Battle Intelligence
 ## A. Type Effectiveness Chart (OBSERVATION-ONLY)
-- **Super Effective (4x damage):**
-  - Ground > Rock/Ground (Verified via GRAVELER's EARTHQUAKE vs CRAG).
+- **Super Effective (2x damage):**
+  - Electric > Flying (Verified: SPARKY vs GOLBAT)
+  - Water > Rock/Ground (Verified: NEPTUNE vs GOLEM, TITANESS vs GRAVELER)
+  - Ground > Rock/Ground (Verified: Wild GRAVELER's EARTHQUAKE vs CRAG)
 - **Super Effective (2x damage):**
   - Electric > Flying (Verified: SPARKY vs GOLBAT)
   - Water > Rock/Ground (Verified: NEPTUNE vs GOLEM, TITANESS vs GRAVELER)
