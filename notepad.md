@@ -85,4 +85,5 @@
 - **[FALSIFIED] Victory Road 2F Boulder Puzzle - Hypothesis 6:** Pushing the boulder at (5, 15) to (10, 17) via (8, 17) is impossible due to an impassable wall at (9, 17).
 - **Current Plan (Hypothesis 7):** The boulder at (5, 15) can be pushed to the switch at (10, 17).
   - **Path:** Push RIGHT from (5, 15) to (8, 15). Push DOWN from (8, 15) to (8, 16). Push RIGHT from (8, 16) to (10, 16). Push DOWN from (10, 16) to (10, 17). This path appears to be entirely on `ground` tiles and avoids all obstacles.
-  - **Current Step:** Continue pushing the boulder at (7, 15) right to (8, 15).
+  - **Verification:** After activating the switch, navigate to (24, 15) to confirm the barrier has been cleared.
+  - **Current Step:** Get into position at (7, 16) to push the boulder at (8, 16) to the right.
