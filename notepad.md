@@ -1,6 +1,6 @@
 # I. Current Objective
 - **Primary Objective:** Defeat the Elite Four and become the Pokémon League Champion.
-- **Secondary Objective:** Fully explore Victory Road.
+- **Secondary Objective:** Solve the Victory Road multi-floor boulder puzzle.
 
 # II. Core Gameplay & World Rules
 - **Poison Damage:** Poisoned Pokémon in the party lose 1 HP every four steps taken outside of battle.
@@ -28,14 +28,14 @@
 - **Reset Condition:** Boulder puzzles reset upon leaving and re-entering a map or using ladders between floors.
 - **Boulder/Item Interaction:** Pushing a boulder onto an item collects the item and moves the boulder into that space.
 
-## B. Current Puzzle Status (Victory Road 2F)
-- **Governing Directive (Multi-Floor):** A critical system directive confirms a multi-floor puzzle. The solution involves pushing a boulder from 3F down a hole to solve a puzzle on 2F (switch at (10, 17)), which in turn will likely open a barrier on 3F, allowing access to the final puzzle switch.
-- **Current Plan (Hypothesis 4):**
-  1. Use the boulder at (6, 7).
-  2. Navigate to (6, 6).
-  3. Push the boulder south from (6, 7) all the way to (6, 17).
-  4. Push the boulder east from (6, 17) all the way to the switch at (10, 17).
-  5. Expected Outcome: The boulder barrier at (24, 15) will clear, allowing access to the ladder at (26, 15).
+## B. Current Puzzle Status (Victory Road 2F/3F)
+- **Governing Directive (Multi-Floor):** A critical system directive confirms a multi-floor puzzle. The solution involves pushing a boulder from 3F down a hole to solve a puzzle on 2F.
+- **Current Plan:**
+  1. I am currently in an isolated western chamber on 3F. I cannot reach the main eastern area from here.
+  2. I must return to 2F via the ladder at (3, 1).
+  3. Navigate across 2F to reach the eastern ladder at (24, 8).
+  4. Ascend to 3F to access the main puzzle area.
+  5. Solve the puzzle on 3F to drop the required boulder down the hole at (14, 15).
 
 # IV. Battle Intelligence
 ## A. Type Effectiveness Chart (OBSERVATION-ONLY)
@@ -73,11 +73,10 @@
 - **Puzzle Pre-Planning:** Before attempting any multi-step puzzle (especially boulder puzzles), I MUST first document the intended step-by-step sequence of actions in my notepad. This prevents careless errors and soft-locks.
 
 # VI. Archived & Falsified Hypotheses
+- **[FALSIFIED] Victory Road 2F Boulder Puzzle - Hypothesis 4:** Pushing the boulder at (6, 7) south to the switch at (10, 17) is impossible due to an impassable elevation change between a `ground` tile and an `elevated_ground` tile.
 - **[FALSIFIED] Victory Road 2F Boulder Puzzle - Hypothesis 1:** The boulder at (8, 15) can be pushed directly right to column 10. Failed due to impassable wall at (9, 15).
 - **[FALSIFIED] Victory Road 2F Boulder Puzzle - Hypothesis 2:** The boulder at (8, 15) can be moved north, then east, then south. Failed due to impassable wall at (9, 12).
-- **[FALSIFIED] Victory Road 2F Disconnected Landmass Hypothesis:** The landmass_analyzer tool's conclusion that this floor is split into disconnected landmasses was proven false by a system warning (Turn 124003) which confirmed the eastern warp at (24, 8) is reachable from the west. The connection is via the elevated platforms.
 - **[FALSIFIED] Defeated trainers are impassable obstacles:** A system warning (Turn 124270) indicated that the warp at (2, 2) on Victory Road 1F was reachable, despite being blocked by a defeated trainer at (4, 3). This proves the hypothesis is false and the pathfinder has been updated.
 - **[ARCHIVED] Victory Road 1F Puzzle Nuance:** Pushing the boulder at (3, 11) UP to the switch at (3, 10) blocks the direct path to the ladder at (2, 2), but does NOT create an inescapable area. A path to the southern exit at (9, 18) remains, making a map reset unnecessary.
 - **[ARCHIVED] Debugging Loop Failure:** Repeatedly failed to apply a simple code fix due to carelessness (submitting identical code, introducing typos). This highlights a need for a more robust debugging process.
 - **[ARCHIVED] Agent Opportunity - Code Verifier:** The `reflection_agent` suggested creating a 'code patch verifier' agent, which was successfully implemented. This addressed an inefficient debugging loop.
-- **[FALSIFIED] Victory Road 2F Disconnected Landmass Hypothesis (Attempt 2):** My `landmass_analyzer` tool incorrectly reported that the northwestern and southern areas of this floor were disconnected. This was contradicted by a CRITICAL SYSTEM DIRECTIVE implying a solution to the southern puzzle was possible from my location. This confirms the tool is likely bugged and that the elevated platforms connect the map sections.
