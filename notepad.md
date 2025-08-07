@@ -73,3 +73,13 @@
 - **[FALSIFIED] Victory Road 2F Boulder Puzzle - Hypothesis 2:** The boulder at (8, 15) can be moved north, then east, then south. Failed due to impassable wall at (9, 12).
 - **[FALSIFIED] Victory Road 2F Boulder Puzzle - Hypothesis 1:** The boulder at (8, 15) can be pushed directly right to column 10. Failed due to impassable wall at (9, 15).
 - **[FALSIFIED] Defeated trainers are impassable obstacles:** A system warning (Turn 124270) indicated that the warp at (2, 2) on Victory Road 1F was reachable, despite being blocked by a defeated trainer at (4, 3). This proves the hypothesis is false and the pathfinder has been updated.
+
+# VI. Current Puzzle: Victory Road 3F - Switch at (4, 6)
+## Hypothesis 1: The boulder at (14, 13) can be pushed to the switch.
+### Plan:
+1. Navigate to (14, 14) to push the boulder UP.
+2. Push boulder from (14, 13) to (14, 8).
+3. Navigate to (15, 8) to push the boulder LEFT.
+4. Push boulder from (14, 8) to (4, 8).
+5. Navigate to (4, 7) to push the boulder DOWN.
+6. Push boulder from (4, 8) to (4, 6).
