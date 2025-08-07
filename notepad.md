@@ -34,9 +34,6 @@
   - Electric > Flying (Verified: SPARKY vs GOLBAT)
   - Water > Rock/Ground (Verified: NEPTUNE vs GOLEM, TITANESS vs GRAVELER)
   - Ground > Rock/Ground (Verified: Wild GRAVELER's EARTHQUAKE vs CRAG)
-- **Super Effective (2x damage):**
-  - Electric > Flying (Verified: SPARKY vs GOLBAT)
-  - Water > Rock/Ground (Verified: NEPTUNE vs GOLEM, TITANESS vs GRAVELER)
 - **Not Very Effective (0.5x damage):**
   - Normal !> Rock/Ground (Verified: CRAG vs GRAVELER's SELFDESTRUCT)
 - **Immune (0x damage):**
