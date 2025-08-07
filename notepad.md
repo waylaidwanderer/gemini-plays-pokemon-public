@@ -79,3 +79,8 @@
 - **[ARCHIVED] Debugging Loop Failure:** Repeatedly failed to apply a simple code fix due to carelessness (submitting identical code, introducing typos). This highlights a need for a more robust debugging process.
 - **[ARCHIVED] Agent Opportunity - Code Verifier:** The `reflection_agent` suggested creating a 'code patch verifier' agent, which was successfully implemented. This addressed an inefficient debugging loop.
 - **[FALSIFIED] Victory Road 2F Disconnected Landmass Hypothesis (Attempt 2):** My `landmass_analyzer` tool incorrectly reported that the northwestern and southern areas of this floor were disconnected. This was contradicted by a CRITICAL SYSTEM DIRECTIVE implying a solution to the southern puzzle was possible from my location. This confirms the tool is likely bugged and that the elevated platforms connect the map sections.
+### B. Victory Road 2F Boulder Puzzle Plan (Directive-Driven)
+- **Objective:** Push boulder from (5, 15) to switch at (10, 17).
+- **Step 1:** Push boulder from (5, 15) to (10, 15) by repeatedly pushing it RIGHT.
+- **Step 2:** Navigate to (10, 14).
+- **Step 3:** Push boulder from (10, 15) down to (10, 17) onto the switch.
