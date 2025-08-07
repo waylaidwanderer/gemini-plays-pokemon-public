@@ -28,13 +28,13 @@
 - **Reset Condition:** Boulder puzzles reset upon leaving and re-entering a map or using ladders between floors.
 - **Boulder/Item Interaction:** Pushing a boulder onto an item collects the item and moves the boulder into that space.
 
-## B. Current Puzzle Status (Victory Road 2F/3F)
+## B. Current Puzzle Status (Victory Road 3F)
 - **Governing Directive (Multi-Floor):** A critical system directive confirms a multi-floor puzzle. The solution involves pushing a boulder from 3F down a hole to solve a puzzle on 2F.
 - **Current Plan:**
-  1. I am in an isolated western chamber on 3F with a boulder switch at (4, 6). The boulders are in the eastern area.
-  2. A system directive and the presence of many unseen tiles and an unvisited warp at (27, 9) confirm a connection exists on this floor.
-  3. My new plan is to explore this floor to find the path connecting the western and eastern sections.
-  4. My immediate target is the unvisited warp at (27, 9).
+  1.  The map is split into two landmasses. The boulder switch at (4, 6) is on Landmass #2, while the necessary boulders are on Landmass #1.
+  2.  My pathfinder cannot find a route to the southern part of Landmass #1 where the hole is located.
+  3.  Hypothesis: The solution is to push the boulder at (23, 16) into the hole at (24, 16). This is the most likely solution for a multi-floor puzzle.
+  4.  My immediate objective is to get into position at (22, 16) to push the boulder.
 
 # IV. Battle Intelligence
 ## A. Type Effectiveness Chart (OBSERVATION-ONLY)
@@ -59,8 +59,6 @@
 - **Tool Failure Protocol:** If any tool fails, especially a pathfinder: 1. Use `landmass_analyzer` to confirm physical connectivity. 2. Add verbose logging/debug prints to the failing tool. 3. Re-run the tool to generate a detailed log. 4. Use the `tool_debugger_agent` to analyze the log and identify the root cause. This tiered approach MUST be followed before any manual debugging attempts.
 - **Landmass Analyzer Limitations:** The `landmass_analyzer` tool now correctly accounts for boulders as obstacles, but it still does not understand one-way traversal tiles like ledges or `cleared_boulder_barrier` ramps. It can report a single landmass even if sections are unreachable due to these mechanics.
 - **Surfing Navigation:** The `pathfinder` tool requires `movement_mode='surfing'` to navigate over water.
-
-## B. Agent/Tool Development & Implementation Notes
 
 ## C. Deprecated Agents
 - **[DELETED] Exploration Strategist Agent:** This agent was designed for multi-stage navigation but was unusable due to requiring a non-existent helper tool. It has been deleted to maintain a clean and functional agent list.
