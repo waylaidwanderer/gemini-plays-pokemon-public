@@ -87,58 +87,6 @@
       }
     ]
   },
-  "puzzle_data_extractor": {
-    "description": "Parses the map XML to extract all relevant data for a boulder puzzle (player, boulders, switches, barriers) and formats it as JSON for the puzzle_solver_agent.",
-    "input_schema": {
-      "type": "object",
-      "properties": {},
-      "required": []
-    },
-    "python_script": "import xml.etree.ElementTree as ET\nimport json\n\nroot = ET.fromstring(map_xml_string)\npuzzle_data = {\n    \"player\": None,\n    \"boulders\": [],\n    \"switches\": [],\n    \"barriers\": []\n}\n\nfor row in root.findall('Row'):\n    y = int(row.get('id'))\n    for tile in row.findall('Tile'):\n        x = int(tile.get('id'))\n        if tile.find('Player') is not None:\n            puzzle_data['player'] = {'x': x, 'y': y}\n        if tile.find('Boulder') is not None:\n            puzzle_data['boulders'].append({'x': x, 'y': y})\n        if tile.get('type') == 'boulder_switch':\n            puzzle_data['switches'].append({'x': x, 'y': y})\n        if tile.get('type') == 'boulder_barrier':\n            puzzle_data['barriers'].append({'x': x, 'y': y})\n\nprint(json.dumps(puzzle_data))",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2025-08-06T16:35:46.657Z",
-        "action_counter": 124287
-      }
-    ]
-  },
-  "puzzle_input_generator": {
-    "description": "Parses the current map's XML to generate the correct JSON input for the puzzle_strategist_agent, targeting a specific switch.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "target_x": {
-          "type": "string"
-        },
-        "target_y": {
-          "type": "string"
-        }
-      },
-      "required": [
-        "target_x",
-        "target_y"
-      ]
-    },
-    "python_script": "import xml.etree.ElementTree as ET\nimport json\n\nroot = ET.fromstring(map_xml_string)\n\nplayer_pos = None\nboulders = []\nswitches = []\n\nfor row in root.findall('Row'):\n    y = int(row.get('id'))\n    for tile in row.findall('Tile'):\n        x = int(tile.get('id'))\n        if tile.find('Player') is not None:\n            player_pos = {'x': x, 'y': y}\n        if tile.find('Boulder') is not None:\n            boulders.append({'x': x, 'y': y})\n        if tile.get('type') == 'boulder_switch':\n            switches.append({'x': x, 'y': y})\n\ntarget_x = int(input_data['target_x'])\ntarget_y = int(input_data['target_y'])\n\nagent_input = {\n    \"map_xml_string\": map_xml_string,\n    \"player_position\": player_pos,\n    \"boulders\": boulders,\n    \"switches\": switches,\n    \"target_switch\": {\"x\": target_x, \"y\": target_y},\n    \"notepad_content\": \"\" \n}\n\nprint(json.dumps(agent_input))",
-    "history": [
-      {
-        "commit_message": "feat: Create puzzle_input_generator tool. This tool automates the repetitive task of parsing the map XML to gather all necessary data (player position, boulders, switches, etc.) and formats it into the correct JSON structure required to call the `puzzle_strategist_agent`. This was identified as a key process improvement during self-reflection, as it streamlines puzzle-solving and reduces the chance of manual error.",
-        "timestamp": "2025-08-06T07:21:26.855Z",
-        "action_counter": 123715
-      },
-      {
-        "commit_message": "fix: Correct a syntax error in the agent_call dictionary. The `notepad_content` value was an unterminated string, causing a Python `SyntaxError`. This has been corrected to use `json.dumps(\"\")` for a valid empty string placeholder.",
-        "timestamp": "2025-08-06T07:23:13.766Z",
-        "action_counter": 123717
-      },
-      {
-        "commit_message": "feat: Create puzzle_input_generator tool. This tool automates the repetitive task of parsing the map XML to gather all necessary data (player position, boulders, switches, etc.) and formats it into the correct JSON structure required to call the `puzzle_strategist_agent`. This was identified as a key process improvement during self-reflection, as it streamlines puzzle-solving and reduces the chance of manual error.",
-        "timestamp": "2025-08-06T14:59:21.660Z",
-        "action_counter": 124131
-      }
-    ]
-  },
   "pathfinder": {
     "description": "A pathfinding tool that uses the A* algorithm to find the shortest path between two points on the current map. It can handle different movement modes (walking, surfing) and respects impassable tiles, objects, one-way ledges, and elevation changes.",
     "input_schema": {
@@ -176,7 +124,7 @@
         "end_y"
       ]
     },
-    "python_script": "import heapq\nimport json\nimport xml.etree.ElementTree as ET\n\nstart_x = int(input_data['start_x'])\nstart_y = int(input_data['start_y'])\nend_x = int(input_data['end_x'])\nend_y = int(input_data['end_y'])\nmovement_mode = input_data.get('movement_mode', 'walking')\nextra_impassable_str = input_data.get('extra_impassable', '[]')\nextra_impassable = json.loads(extra_impassable_str)\n\nprint(f\"Pathfinder started: from ({start_x}, {start_y}) to ({end_x}, {end_y})\")\n\ndef heuristic(a, b):\n    return abs(a[0] - b[0]) + abs(a[1] - b[1])\n\ndef a_star_search(grid, start, goal, impassable_types, extra_impassable_coords):\n    print(\"--- A* Search Debug Log ---\")\n    neighbors_diff = [(0, 1, 'Down'), (0, -1, 'Up'), (1, 0, 'Right'), (-1, 0, 'Left')]\n    close_set = set()\n    came_from = {}\n    gscore = {start: 0}\n    fscore = {start: heuristic(start, goal)}\n    oheap = []\n\n    heapq.heappush(oheap, (fscore[start], start))\n    print(f\"Initial node pushed to heap: {start} with f-score {fscore[start]}\")\n    goal_reached_node = None\n\n    while oheap:\n        current = heapq.heappop(oheap)[1]\n        print(f\"\\nPopped node from heap: {current} (g: {gscore.get(current)}, f: {fscore.get(current)})\")\n        \n        if current == goal:\n            print(f\"Goal {goal} reached!\")\n            goal_reached_node = current\n            break\n\n        close_set.add(current)\n\n        for i, j, direction in neighbors_diff:\n            neighbor = current[0] + i, current[1] + j\n            \n            if neighbor not in grid:\n                print(f\"  - Neighbor {neighbor} is out of bounds. Skipping.\")\n                continue\n\n            if neighbor in close_set:\n                print(f\"  - Neighbor {neighbor} is already in closed set. Skipping.\")\n                continue\n\n            current_type = grid[current]['type']\n            neighbor_type = grid[neighbor]['type']\n            rejection_reason = None\n            \n            print(f\"  - Evaluating neighbor {neighbor} (type: {neighbor_type}) from {current} (type: {current_type})\")\n\n            is_valid_ladder_move = (current_type == 'ladder_up' and direction == 'Up') or \\\n                                   (current_type == 'ladder_down' and direction == 'Down')\n\n            if is_valid_ladder_move:\n                print(f\"    - Valid ladder move detected. Bypassing other checks.\")\n            else:\n                if neighbor_type in impassable_types:\n                    rejection_reason = f\"Impassable type: '{neighbor_type}'\"\n                elif grid[neighbor]['has_boulder']:\n                    rejection_reason = \"Boulder blocking\"\n                elif (neighbor[0], neighbor[1]) in extra_impassable_coords:\n                    rejection_reason = \"In extra_impassable list\"\n                elif grid[neighbor]['has_object']:\n                    object_name = grid[neighbor].get('object_name')\n                    ignored_objects = ['Pikachu', 'GUARD', 'COOLTRAINER', 'POKEMANIAC', 'HIKER', 'JUGGLER', 'TAMER']\n                    is_ignored = any(ignored in object_name for ignored in ignored_objects) if object_name else False\n                    if object_name and not is_ignored:\n                        rejection_reason = f\"Object '{object_name}' blocking\"\n                elif neighbor_type == 'ledge':\n                    if j != 1:\n                        rejection_reason = \"Ledge rule (not moving down)\"\n                else:\n                    # Elevation check logic\n                    current_is_elevated = current_type in ['elevated_ground', 'cleared_boulder_barrier']\n                    neighbor_is_elevated = neighbor_type in ['elevated_ground', 'cleared_boulder_barrier']\n                    print(f\"    - Elevation check: current_is_elevated={current_is_elevated}, neighbor_is_elevated={neighbor_is_elevated}\")\n                    if current_type != 'steps' and neighbor_type != 'steps' and current_is_elevated != neighbor_is_elevated:\n                        rejection_reason = f\"Invalid elevation change from '{current_type}' to '{neighbor_type}' without steps\"\n            \n            if rejection_reason:\n                print(f\"    - REJECTED: {rejection_reason}\")\n                continue\n            else:\n                print(f\"    - ACCEPTED.\")\n\n            tentative_g_score = gscore[current] + 1\n            gscore_neighbor = gscore.get(neighbor, float('inf'))\n            \n            if tentative_g_score < gscore_neighbor:\n                print(f\"    - Path to {neighbor} is better. Updating scores and adding to heap.\")\n                came_from[neighbor] = current\n                gscore[neighbor] = tentative_g_score\n                fscore[neighbor] = tentative_g_score + heuristic(neighbor, goal)\n                if neighbor not in [item[1] for item in oheap]:\n                    heapq.heappush(oheap, (fscore[neighbor], neighbor))\n            else:\n                print(f\"    - Path to {neighbor} is not better. Skipping update.\")\n    else:\n        goal_reached_node = None # ensure it's defined if loop finishes\n        print(\"--- A* Search Finished: Heap is empty, goal not reached. ---\")\n\n\n    if goal_reached_node:\n        data = []\n        current = goal_reached_node\n        while current in came_from:\n            data.append(current)\n            current = came_from[current]\n        data.append(start)\n        return [{'x': x, 'y': y} for x, y in reversed(data)]\n    else:\n        return None\n\nroot = ET.fromstring(map_xml_string)\ngrid = {}\nfor row_elem in root.findall('Row'):\n    y = int(row_elem.get('id'))\n    for tile_elem in row_elem.findall('Tile'):\n        x = int(tile_elem.get('id'))\n        tile_type = tile_elem.get('type')\n        obj_node = tile_elem.find('Object')\n        has_object = obj_node is not None\n        object_name = None\n        if has_object:\n            object_name = obj_node.get('name') or obj_node.get('id-name')\n        has_boulder = tile_elem.find('Boulder') is not None\n        grid[(x, y)] = {'type': tile_type, 'has_object': has_object, 'object_name': object_name, 'has_boulder': has_boulder, 'is_steps': tile_type == 'steps'}\n\nstart_node = (start_x, start_y)\ngoal_node = (end_x, end_y)\n\nimpassable_types = ['impassable', 'boulder_barrier']\nif movement_mode == 'walking':\n    impassable_types.append('water')\n\nextra_impassable_coords = {(d['x'], d['y']) for d in extra_impassable}\n\npath = a_star_search(grid, start_node, goal_node, impassable_types, extra_impassable_coords)\nif path:\n    print(json.dumps(path))\nelse:\n    print(json.dumps({\"error\": f\"No path found to {goal_node}.\"}))",
+    "python_script": "import heapq\nimport json\nimport xml.etree.ElementTree as ET\n\nstart_x = int(input_data['start_x'])\nstart_y = int(input_data['start_y'])\nend_x = int(input_data['end_x'])\nend_y = int(input_data['end_y'])\nmovement_mode = input_data.get('movement_mode', 'walking')\nextra_impassable_str = input_data.get('extra_impassable', '[]')\nextra_impassable = json.loads(extra_impassable_str)\n\nprint(f\"Pathfinder started: from ({start_x}, {start_y}) to ({end_x}, {end_y})\")\n\ndef heuristic(a, b):\n    return abs(a[0] - b[0]) + abs(a[1] - b[1])\n\ndef a_star_search(grid, start, goal, impassable_types, extra_impassable_coords):\n    print(\"--- A* Search Debug Log ---\")\n    neighbors_diff = [(0, 1, 'Down'), (0, -1, 'Up'), (1, 0, 'Right'), (-1, 0, 'Left')]\n    close_set = set()\n    came_from = {}\n    gscore = {start: 0}\n    fscore = {start: heuristic(start, goal)}\n    oheap = []\n\n    heapq.heappush(oheap, (fscore[start], start))\n    print(f\"Initial node pushed to heap: {start} with f-score {fscore[start]}\")\n    goal_reached_node = None\n\n    while oheap:\n        current = heapq.heappop(oheap)[1]\n        print(f\"\\nPopped node from heap: {current} (g: {gscore.get(current)}, f: {fscore.get(current)})\")\n        \n        if current == goal:\n            print(f\"Goal {goal} reached!\")\n            goal_reached_node = current\n            break\n\n        close_set.add(current)\n\n        for i, j, direction in neighbors_diff:\n            neighbor = current[0] + i, current[1] + j\n            \n            if neighbor not in grid:\n                print(f\"  - Neighbor {neighbor} is out of bounds. Skipping.\")\n                continue\n\n            if neighbor in close_set:\n                print(f\"  - Neighbor {neighbor} is already in closed set. Skipping.\")\n                continue\n\n            current_type = grid[current]['type']\n            neighbor_type = grid[neighbor]['type']\n            rejection_reason = None\n            \n            print(f\"  - Evaluating neighbor {neighbor} (type: {neighbor_type}) from {current} (type: {current_type})\")\n\n            is_valid_ladder_move = (current_type == 'ladder_up' and direction == 'Up') or \\\n                                   (current_type == 'ladder_down' and direction == 'Down')\n\n            if is_valid_ladder_move:\n                print(f\"    - Valid ladder move detected. Bypassing other checks.\")\n            else:\n                if neighbor_type in impassable_types:\n                    rejection_reason = f\"Impassable type: '{neighbor_type}'\"\n                elif grid[neighbor]['has_boulder']:\n                    rejection_reason = \"Boulder blocking\"\n                elif (neighbor[0], neighbor[1]) in extra_impassable_coords:\n                    rejection_reason = \"In extra_impassable list\"\n                elif grid[neighbor]['has_object']:\n                    object_name = grid[neighbor].get('object_name')\n                    ignored_objects = ['Pikachu', 'GUARD', 'COOLTRAINER', 'POKEMANIAC', 'HIKER', 'JUGGLER', 'TAMER']\n                    is_ignored = any(ignored in object_name for ignored in ignored_objects) if object_name else False\n                    if object_name and not is_ignored:\n                        rejection_reason = f\"Object '{object_name}' blocking\"\n                elif neighbor_type == 'ledge':\n                    if j != 1:\n                        rejection_reason = \"Ledge rule (not moving down)\"\n                else:\n                    # Elevation check logic\n                    current_is_elevated = current_type in ['elevated_ground', 'cleared_boulder_barrier']\n                    neighbor_is_elevated = neighbor_type in ['elevated_ground', 'cleared_boulder_barrier']\n                    is_climbing_ladder = (current_type == 'ground' and neighbor_type in ['ladder_up', 'ladder_down']) or \\\n                                         (current_type in ['ladder_up', 'ladder_down'] and neighbor_type == 'ground')\n                    print(f\"    - Elevation check: current_is_elevated={current_is_elevated}, neighbor_is_elevated={neighbor_is_elevated}, is_climbing_ladder={is_climbing_ladder}\")\n                    if not (current_type == 'steps' or neighbor_type == 'steps' or is_climbing_ladder):\n                        if current_is_elevated != neighbor_is_elevated:\n                             rejection_reason = f\"Invalid elevation change from '{current_type}' to '{neighbor_type}'\"\n            \n            if rejection_reason:\n                print(f\"    - REJECTED: {rejection_reason}\")\n                continue\n            else:\n                print(f\"    - ACCEPTED.\")\n\n            tentative_g_score = gscore[current] + 1\n            gscore_neighbor = gscore.get(neighbor, float('inf'))\n            \n            if tentative_g_score < gscore_neighbor:\n                print(f\"    - Path to {neighbor} is better. Updating scores and adding to heap.\")\n                came_from[neighbor] = current\n                gscore[neighbor] = tentative_g_score\n                fscore[neighbor] = tentative_g_score + heuristic(neighbor, goal)\n                if neighbor not in [item[1] for item in oheap]:\n                    heapq.heappush(oheap, (fscore[neighbor], neighbor))\n            else:\n                print(f\"    - Path to {neighbor} is not better. Skipping update.\")\n    else:\n        goal_reached_node = None # ensure it's defined if loop finishes\n        print(\"--- A* Search Finished: Heap is empty, goal not reached. ---\")\n\n\n    if goal_reached_node:\n        data = []\n        current = goal_reached_node\n        while current in came_from:\n            data.append(current)\n            current = came_from[current]\n        data.append(start)\n        return [{'x': x, 'y': y} for x, y in reversed(data)]\n    else:\n        return None\n\nroot = ET.fromstring(map_xml_string)\ngrid = {}\nfor row_elem in root.findall('Row'):\n    y = int(row_elem.get('id'))\n    for tile_elem in row_elem.findall('Tile'):\n        x = int(tile_elem.get('id'))\n        tile_type = tile_elem.get('type')\n        obj_node = tile_elem.find('Object')\n        has_object = obj_node is not None\n        object_name = None\n        if has_object:\n            object_name = obj_node.get('name') or obj_node.get('id-name')\n        has_boulder = tile_elem.find('Boulder') is not None\n        grid[(x, y)] = {'type': tile_type, 'has_object': has_object, 'object_name': object_name, 'has_boulder': has_boulder, 'is_steps': tile_type == 'steps'}\n\nstart_node = (start_x, start_y)\ngoal_node = (end_x, end_y)\n\nimpassable_types = ['impassable', 'boulder_barrier']\nif movement_mode == 'walking':\n    impassable_types.append('water')\n\nextra_impassable_coords = {(d['x'], d['y']) for d in extra_impassable}\n\npath = a_star_search(grid, start_node, goal_node, impassable_types, extra_impassable_coords)\nif path:\n    print(json.dumps(path))\nelse:\n    print(json.dumps({\"error\": f\"No path found to {goal_node}.\"}))",
     "history": [
       {
         "commit_message": "feat: Recreate pathfinder tool with corrected A* logic. The previous tool was deleted due to a persistent bug. This new version implements the fix suggested by the `tool_debugger_agent`, changing the g_score comparison to be strictly less than (`<`). This prevents the algorithm from choosing suboptimal, meandering paths and should restore reliable navigation.",
@@ -407,6 +355,73 @@
         "commit_message": "feat: Add verbose logging to A* search. The pathfinder is failing to find paths between elevated and ground tiles. This commit injects extensive print statements into the algorithm to trace its execution, including node evaluation, neighbor checks, and rejection reasons, with a specific focus on the elevation check logic. This is the first step in the mandatory Tool Failure Protocol to generate a detailed log for analysis.",
         "timestamp": "2025-08-07T22:20:33.133Z",
         "action_counter": 126541
+      },
+      {
+        "commit_message": "fix: Overhaul traversal logic with ladder and elevation fixes. This major update addresses persistent pathfinding failures identified by the `tool_debugger_agent` and a critical Overwatch critique. It introduces an explicit override for ladder traversal and replaces the flawed elevation checks with the robust logic proven in the `landmass_analyzer` tool. This should finally resolve all known navigation bugs related to multi-level maps.",
+        "timestamp": "2025-08-07T22:36:54.822Z",
+        "action_counter": 126547
+      },
+      {
+        "commit_message": "fix: Overhaul traversal logic with ladder and elevation fixes. This major update addresses persistent pathfinding failures identified by the `tool_debugger_agent` and a critical Overwatch critique. It introduces an explicit override for ladder traversal and replaces the flawed elevation checks with the robust logic proven in the `landmass_analyzer` tool. This should finally resolve all known navigation bugs related to multi-level maps.",
+        "timestamp": "2025-08-07T22:38:00.472Z",
+        "action_counter": 126548
+      },
+      {
+        "commit_message": "feat: Add verbose logging to A* search. The pathfinder is still failing to find valid paths even after the last fix. This commit adds extensive print statements to trace the algorithm's execution, including node evaluation, neighbor checks, and rejection reasons. This is the next step in the mandatory Tool Failure Protocol to diagnose the root cause.",
+        "timestamp": "2025-08-07T22:39:36.820Z",
+        "action_counter": 126551
+      }
+    ]
+  },
+  "puzzle_data_extractor": {
+    "description": "Parses the map XML to extract all relevant data for a boulder puzzle (player, boulders, switches, barriers) and formats it as JSON for the puzzle_solver_agent.",
+    "input_schema": {
+      "type": "object",
+      "properties": {},
+      "required": []
+    },
+    "python_script": "import xml.etree.ElementTree as ET\nimport json\n\nroot = ET.fromstring(map_xml_string)\npuzzle_data = {\n    \"player\": None,\n    \"boulders\": [],\n    \"switches\": [],\n    \"barriers\": []\n}\n\nfor row in root.findall('Row'):\n    y = int(row.get('id'))\n    for tile in row.findall('Tile'):\n        x = int(tile.get('id'))\n        if tile.find('Player') is not None:\n            puzzle_data['player'] = {'x': x, 'y': y}\n        if tile.find('Boulder') is not None:\n            puzzle_data['boulders'].append({'x': x, 'y': y})\n        if tile.get('type') == 'boulder_switch':\n            puzzle_data['switches'].append({'x': x, 'y': y})\n        if tile.get('type') == 'boulder_barrier':\n            puzzle_data['barriers'].append({'x': x, 'y': y})\n\nprint(json.dumps(puzzle_data))",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2025-08-06T16:35:46.657Z",
+        "action_counter": 124287
+      }
+    ]
+  },
+  "puzzle_input_generator": {
+    "description": "Parses the current map's XML to generate the correct JSON input for the puzzle_strategist_agent, targeting a specific switch.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "target_x": {
+          "type": "string"
+        },
+        "target_y": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "target_x",
+        "target_y"
+      ]
+    },
+    "python_script": "import xml.etree.ElementTree as ET\nimport json\n\nroot = ET.fromstring(map_xml_string)\n\nplayer_pos = None\nboulders = []\nswitches = []\n\nfor row in root.findall('Row'):\n    y = int(row.get('id'))\n    for tile in row.findall('Tile'):\n        x = int(tile.get('id'))\n        if tile.find('Player') is not None:\n            player_pos = {'x': x, 'y': y}\n        if tile.find('Boulder') is not None:\n            boulders.append({'x': x, 'y': y})\n        if tile.get('type') == 'boulder_switch':\n            switches.append({'x': x, 'y': y})\n\ntarget_x = int(input_data['target_x'])\ntarget_y = int(input_data['target_y'])\n\nagent_input = {\n    \"map_xml_string\": map_xml_string,\n    \"player_position\": player_pos,\n    \"boulders\": boulders,\n    \"switches\": switches,\n    \"target_switch\": {\"x\": target_x, \"y\": target_y},\n    \"notepad_content\": \"\" \n}\n\nprint(json.dumps(agent_input))",
+    "history": [
+      {
+        "commit_message": "feat: Create puzzle_input_generator tool. This tool automates the repetitive task of parsing the map XML to gather all necessary data (player position, boulders, switches, etc.) and formats it into the correct JSON structure required to call the `puzzle_strategist_agent`. This was identified as a key process improvement during self-reflection, as it streamlines puzzle-solving and reduces the chance of manual error.",
+        "timestamp": "2025-08-06T07:21:26.855Z",
+        "action_counter": 123715
+      },
+      {
+        "commit_message": "fix: Correct a syntax error in the agent_call dictionary. The `notepad_content` value was an unterminated string, causing a Python `SyntaxError`. This has been corrected to use `json.dumps(\"\")` for a valid empty string placeholder.",
+        "timestamp": "2025-08-06T07:23:13.766Z",
+        "action_counter": 123717
+      },
+      {
+        "commit_message": "feat: Create puzzle_input_generator tool. This tool automates the repetitive task of parsing the map XML to gather all necessary data (player position, boulders, switches, etc.) and formats it into the correct JSON structure required to call the `puzzle_strategist_agent`. This was identified as a key process improvement during self-reflection, as it streamlines puzzle-solving and reduces the chance of manual error.",
+        "timestamp": "2025-08-06T14:59:21.660Z",
+        "action_counter": 124131
       }
     ]
   }
