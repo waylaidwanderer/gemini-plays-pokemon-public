@@ -31,11 +31,10 @@
 ## B. Current Puzzle Status (Victory Road 2F/3F)
 - **Governing Directive (Multi-Floor):** A critical system directive confirms a multi-floor puzzle. The solution involves pushing a boulder from 3F down a hole to solve a puzzle on 2F.
 - **Current Plan:**
-  1. I am currently in an isolated western chamber on 3F. I cannot reach the main eastern area from here.
-  2. I must return to 2F via the ladder at (3, 1).
-  3. Navigate across 2F to reach the eastern ladder at (24, 8).
-  4. Ascend to 3F to access the main puzzle area.
-  5. Solve the puzzle on 3F to drop the required boulder down the hole at (14, 15).
+  1. I am in an isolated western chamber on 3F with a boulder switch at (4, 6). The boulders are in the eastern area.
+  2. A system directive and the presence of many unseen tiles and an unvisited warp at (27, 9) confirm a connection exists on this floor.
+  3. My new plan is to explore this floor to find the path connecting the western and eastern sections.
+  4. My immediate target is the unvisited warp at (27, 9).
 
 # IV. Battle Intelligence
 ## A. Type Effectiveness Chart (OBSERVATION-ONLY)
