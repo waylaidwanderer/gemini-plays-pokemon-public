@@ -58,3 +58,6 @@
 - **[LESSON] Victory Road 1F Puzzle Nuance:** Pushing the boulder at (3, 11) UP to the switch at (3, 10) blocks the direct path to the ladder at (2, 2), but does NOT create an inescapable area. A path to the southern exit at (9, 18) remains, making a map reset unnecessary.
 - **Debugging Loop Failure:** Repeatedly failed to apply a simple code fix due to carelessness (submitting identical code, introducing typos). This highlights a need for a more robust debugging process.
 - **Agent Opportunity - Code Verifier:** The `reflection_agent` suggested creating a 'code patch verifier' agent. This agent would check proposed code changes for basic errors before submission, preventing inefficient debugging loops. This should be a high-priority future project.
+
+## B. Follower Pokémon Mechanics
+- **Pikachu Movement Rule:** If Pikachu is directly adjacent in the direction you want to move, but you are not facing him, the first button press will only turn you to face him. A second button press in the same direction is required to move onto his tile.
