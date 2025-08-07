@@ -29,21 +29,14 @@
 - **Reset Condition:** Boulder puzzles reset upon leaving and re-entering a map or using ladders between floors.
 - **Boulder/Item Interaction:** Pushing a boulder onto an item collects the item and moves the boulder into that space.
 
-## B. Current Puzzle Plan (Victory Road 2F)
-- **Governing Directive:** A system directive states the solution is to move the boulder at (6, 6) to the switch at (10, 17).
-- **Current Status:** I am at the start of the eastern boulder puzzle. My previous plan was flawed.
-- **Untested Assumption:** The switch at (10, 17) opens the final barrier at (24, 15). This needs to be confirmed after reaching the switch.
-
-### C. Victory Road 2F - East Boulder Puzzle Plan (NEW)
-- **Objective:** Move boulder from (6, 6) to switch at (10, 17).
+## B. Current Puzzle Plan (Victory Road 3F)
+- **Governing Directive:** A system directive indicates the solution involves a boulder puzzle, likely multi-floor.
+- **Current Status:** I am on Victory Road 3F. The `landmass_analyzer` tool confirmed the map is split into disconnected areas. My previous 2F plan was flawed because I was on the wrong landmass.
+- **Hypothesis:** A boulder from 3F must be pushed down a hole to solve the puzzle on 2F.
+- **Objective:** Push the boulder at (23, 16) into the hole at (24, 16).
 - **Step-by-Step Plan:**
-  1. Navigate to (6, 5). Push boulder DOWN to (6, 7).
-  2. Navigate to (5, 7). Push boulder RIGHT to (7, 7).
-  3. Navigate to (6, 7). Push boulder RIGHT to (8, 7).
-  4. Navigate to (8, 6). Push boulder DOWN to (8, 8).
-  5. Continue pushing the boulder down the column from (8, 8) to (8, 17).
-  6. Navigate to (7, 17). Push boulder RIGHT to (9, 17).
-  7. Navigate to (8, 17). Push boulder RIGHT to (10, 17).
+  1. Navigate to (22, 16).
+  2. Push the boulder at (23, 16) RIGHT into the hole at (24, 16).
 
 # IV. Battle Intelligence
 ## A. Type Effectiveness Chart (OBSERVATION-ONLY)
@@ -88,4 +81,4 @@
 - **[LESSON] Victory Road 1F Puzzle Nuance:** Pushing the boulder at (3, 11) UP to the switch at (3, 10) blocks the direct path to the ladder at (2, 2), but does NOT create an inescapable area. A path to the southern exit at (9, 18) remains, making a map reset unnecessary.
 - **[ARCHIVED] Debugging Loop Failure:** Repeatedly failed to apply a simple code fix due to carelessness (submitting identical code, introducing typos). This highlights a need for a more robust debugging process.
 - **[ARCHIVED] Agent Opportunity - Code Verifier:** The `reflection_agent` suggested creating a 'code patch verifier' agent, which was successfully implemented. This addressed an inefficient debugging loop.
-  - Ground > Rock/Ground (Verified via battle)
+- **[ARCHIVED] Victory Road 2F - East Boulder Puzzle Plan:** Objective was to move boulder from (6, 6) to switch at (10, 17). This was falsified when `landmass_analyzer` confirmed the area was unreachable from the west side of the map.
