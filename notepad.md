@@ -91,3 +91,8 @@
 - My previous plan (Hypothesis 2) is now falsified. I misread the map; the path for the boulder at (21, 5) is blocked by impassable walls and elevation changes.
 - My initial falsification of Hypothesis 1 was also incorrect. A long wrap-around path to (14, 14) *does* exist, making the boulder at (14, 13) viable.
 - **New Plan (Hypothesis 3):** The boulder at (14, 13) is the correct one. I will navigate to (14, 14) to begin pushing it.
+
+# V. Current Puzzle Plan (CORRECTION)
+- My previous plan (Hypothesis 2) is now falsified. I misread the map; the path for the boulder at (21, 5) is blocked by impassable walls and elevation changes.
+- My initial falsification of Hypothesis 1 was also incorrect. A long wrap-around path to (14, 14) *does* exist, making the boulder at (14, 13) viable.
+- **New Plan (Hypothesis 3):** The boulder at (14, 13) is the correct one. I will navigate to (14, 14) to begin pushing it.
