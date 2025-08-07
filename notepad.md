@@ -61,3 +61,6 @@
 
 ## B. Follower Pokémon Mechanics
 - **Pikachu Movement Rule:** If Pikachu is directly adjacent in the direction you want to move, but you are not facing him, the first button press will only turn you to face him. A second button press in the same direction is required to move onto his tile.
+
+# VII. Tool Refinement Backlog
+- **`pathfinder` & `landmass_analyzer`:** Both tools incorrectly treat follower Pokémon (Pikachu) as impassable obstacles. This led to incorrect 'soft-lock' diagnoses. They must be updated to recognize follower Pokémon as traversable, likely requiring a special check for the object name 'Pikachu'.
