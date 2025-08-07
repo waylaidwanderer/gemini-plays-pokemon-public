@@ -63,3 +63,7 @@
 - **[LESSON] Victory Road 1F Puzzle Nuance:** Pushing the boulder at (3, 11) UP to the switch at (3, 10) blocks the direct path to the ladder at (2, 2), but does NOT create an inescapable area. A path to the southern exit at (9, 18) remains, making a map reset unnecessary.
 - **Debugging Loop Failure:** Repeatedly failed to apply a simple code fix due to carelessness (submitting identical code, introducing typos). This highlights a need for a more robust debugging process.
 - **[ARCHIVED] Agent Opportunity - Code Verifier:** The `reflection_agent` suggested creating a 'code patch verifier' agent, which was successfully implemented. This addressed an inefficient debugging loop.
+
+# VII. Reflection Takeaways (Turn 125016)
+- **Map Marker Discipline:** I will be more diligent in marking picked-up items and key NPC dialogue to create a comprehensive record and avoid redundant actions.
+- **Victory Road 1F Puzzle Hypothesis:** My next attempt at the 1F puzzle will test the hypothesis that the eastern boulder puzzle must be solved *before* the western one to maintain access to the ladder.
