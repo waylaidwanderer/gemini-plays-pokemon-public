@@ -34,14 +34,12 @@
 - **Current Status:** I am on Victory Road 3F. The `landmass_analyzer` tool confirmed the map is split into disconnected areas, and the target switch is unreachable from my current position.
 - **Hypothesis:** A boulder from 3F must be pushed down a hole to solve the puzzle on 2F, which will likely unlock a path back to the main puzzle area of 3F.
 - **Objective:** Push the boulder at (23, 16) into the hole at (24, 16).
-- **Step-by-Step Plan:**
-  1. Navigate to (22, 16).
-  2. Push the boulder at (23, 16) RIGHT into the hole at (24, 16).
 
 # IV. Battle Intelligence
 ## A. Type Effectiveness Chart (OBSERVATION-ONLY)
-- **Super Effective (2x damage):
-  - Ground > Rock/Ground (4x damage, verified via GRAVELER's EARTHQUAKE vs CRAG).
+- **Super Effective (4x damage):**
+  - Ground > Rock/Ground (Verified via GRAVELER's EARTHQUAKE vs CRAG).
+- **Super Effective (2x damage):**
   - Electric > Flying (Verified: SPARKY vs GOLBAT)
   - Water > Rock/Ground (Verified: NEPTUNE vs GOLEM, TITANESS vs GRAVELER)
 - **Not Very Effective (0.5x damage):**
@@ -58,20 +56,17 @@
 # V. Methodology & Lessons Learned
 ## A. Tool Usage & Debugging
 - **Tool Failure Protocol:** If any tool fails, especially a pathfinder: 1. Use `landmass_analyzer` to confirm physical connectivity. 2. Add verbose logging/debug prints to the failing tool. 3. Re-run the tool to generate a detailed log. 4. Use the `tool_debugger_agent` to analyze the log and identify the root cause. This tiered approach MUST be followed before any manual debugging attempts.
-- **Code Patch Verification:** When fixing a tool, I MUST use the `code_patch_verifier_agent` to ensure the new code is not identical to the old code. This prevents careless repetitive errors and debugging loops.
 - **Landmass Analyzer Limitations:** The `landmass_analyzer` tool now correctly accounts for boulders as obstacles, but it still does not understand one-way traversal tiles like ledges or `cleared_boulder_barrier` ramps. It can report a single landmass even if sections are unreachable due to these mechanics.
 - **Surfing Navigation:** The `pathfinder` tool requires `movement_mode='surfing'` to navigate over water.
 
 ## B. Agent/Tool Development Ideas
-- **Journey Planner Agent:** Create an agent to automate multi-stage travel plans across disconnected landmasses (like Route 23). It would take a final destination, use `landmass_analyzer`, and generate a sequence of pathing/surfing commands.
-- **Pathfinder Refinement:** Enhance the `pathfinder` tool. When a path fails due to disconnected landmasses, it should identify this and return a path to the nearest transition point (e.g., a shoreline) instead of just failing.
 - **Exploration Strategist Agent:** An agent to automate multi-stage navigation. It would take a final destination, use `landmass_analyzer` to check connectivity, and if disconnected, it would plot a path to the correct transition point (e.g., a ladder or warp) to reach the target landmass.
 - **Pathfinder Refinement:** Enhance the `pathfinder` tool. When a path fails, it should internally use logic similar to `landmass_analyzer` to determine if the failure is due to disconnected landmasses and return a more informative error message (e.g., "Destination is on a different, unreachable landmass.").
 
 ## C. Core Principles
 - **Agent-First Approach:** Before attempting any manual solution for a complex problem, I MUST consult the relevant specialist agent first.
 - **Trust System Directives:** A system directive or system warning is the source of truth and MUST be trusted over personal assumptions or agent outputs.
-- **Tool Maintenance:** Faulty tools must be fixed or deleted IMMEDIATELY. Continuing to use a known-broken tool is inefficient and leads to errors.
+- **Tool Maintenance & Verification:** Faulty tools must be fixed or deleted IMMEDIATELY. When fixing a tool, I MUST use the `code_patch_verifier_agent` to ensure the new code is not identical to the old code. This prevents careless repetitive errors and debugging loops.
 - **Puzzle Pre-Planning:** Before attempting any multi-step puzzle (especially boulder puzzles), I MUST first document the intended step-by-step sequence of actions in my notepad. This prevents careless errors and soft-locks.
 
 # VI. Archived & Falsified Hypotheses
