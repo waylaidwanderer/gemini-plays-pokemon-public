@@ -21,7 +21,7 @@
 - **`ledge`**: Can only be traversed downwards (from a higher Y to a lower Y).
 
 ## B. Follower Pokémon Mechanics
-- **Pikachu Movement Rule:** If Pikachu is directly adjacent in the direction you want to move, but you are not facing him, the first button press will only turn you to face him. A second button press in the same direction is required to move onto his tile.
+- **Pikachu Position Swap:** When moving onto a tile occupied by Pikachu, the player and Pikachu appear to swap positions. This needs further testing to confirm if it's a consistent mechanic or if the 'turn-to-face' rule still applies under different conditions.
 
 # III. Puzzles & Navigation
 
