@@ -32,9 +32,12 @@
 - **Governing Directive (Multi-Floor):** A critical system directive confirms a multi-floor puzzle. The solution involves pushing a boulder from 3F down a hole to solve a puzzle on 2F.
 - **Current Plan:**
   1.  The map is split into two landmasses. The boulder switch at (4, 6) is on Landmass #2, while the necessary boulders are on Landmass #1.
-  2.  My pathfinder cannot find a route to the southern part of Landmass #1 where the hole is located.
-  3.  Hypothesis: The solution is to push the boulder at (23, 16) into the hole at (24, 16). This is the most likely solution for a multi-floor puzzle.
-  4.  My immediate objective is to get into position at (22, 16) to push the boulder.
+  2.  The path to the southern puzzle area (containing the hole at (24, 16)) is blocked.
+  3.  Hypothesis: The boulder at (25, 11) is the immediate obstacle blocking the path south.
+  4.  Immediate Plan:
+      a. Get into position at (25, 12), directly below the boulder.
+      b. Push the boulder at (25, 11) UP to clear the path.
+      c. Re-evaluate the path to the southern section and the main puzzle objective at (23, 16).
 
 # IV. Battle Intelligence
 ## A. Type Effectiveness Chart (OBSERVATION-ONLY)
