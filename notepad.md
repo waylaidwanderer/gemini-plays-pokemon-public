@@ -29,14 +29,17 @@
 - **Boulder/Item Interaction:** Pushing a boulder onto an item collects the item and moves the boulder into that space.
 
 ## B. Current Puzzle Status (Victory Road)
-- **Governing Directive (2F):** A system directive indicates the solution involves pushing a boulder to the switch at (10, 17).
-- **Governing Directive (3F):** A system directive indicates the solution involves a multi-floor boulder puzzle, with the target switch being at (4, 6).
-- **Hypothesis:** A boulder from 3F must be pushed down a hole to solve a puzzle on 2F, which will likely unlock a path back to the main puzzle area of 3F.
+- **Governing Directive (3F & 2F):** A critical system directive confirms a multi-floor puzzle. The solution involves pushing a boulder from 3F down a hole to solve the puzzle on 2F (switch at (10, 17)), which in turn will likely open the barrier at (8, 11) on 3F, allowing access to the final puzzle switch at (4, 6).
 
 ## C. Current Test Plan
-- **Hypothesis:** The unvisited warp at (27, 9) on Victory Road 3F leads to a part of Victory Road 2F that allows access to the boulder at (6, 6).
-- **Test:** Navigate to and use the warp at (27, 9).
-- **Expected Outcome:** Arrive on Victory Road 2F in a new, previously inaccessible area connected to the main puzzle.
+- **Hypothesis:** Pushing the boulder at (23, 16) on 3F into the hole at (24, 16) is the first step of the multi-floor solution.
+- **Test:**
+    1. Navigate to (22, 16) on 3F.
+    2. Push the boulder at (23, 16) right into the hole.
+    3. Go down to 2F via the ladder at (24, 8).
+    4. Confirm the boulder has appeared on 2F.
+    5. Proceed with the 2F puzzle directive.
+- **Expected Outcome:** The boulder falls to 2F, enabling the next stage of the puzzle.
 
 # IV. Battle Intelligence
 ## A. Type Effectiveness Chart (OBSERVATION-ONLY)
@@ -63,14 +66,14 @@
 - **Surfing Navigation:** The `pathfinder` tool requires `movement_mode='surfing'` to navigate over water.
 
 ## B. Agent/Tool Development & Implementation Notes
-- **Exploration Strategist Agent (Implemented):** An agent designed to automate multi-stage navigation. It takes a final destination, uses `landmass_analyzer` to check connectivity, and if disconnected, it plots a path to the correct transition point (e.g., a ladder or warp) to reach the target landmass. **Status:** Currently unusable as it requires a helper tool to provide it with warp connectivity data.
-- **Pathfinder Refinement:** Enhance the `pathfinder` tool. When a path fails, it should internally use logic similar to `landmass_analyzer` to determine if the failure is due to disconnected landmasses and return a more informative error message (e.g., "Destination is on a different, unreachable landmass.").
-- **[NEW] Agent Helper Tool:** Create a tool that parses the map XML to extract all warps, their coordinates, their landmass ID, and their destination landmass ID. This is required input for the `exploration_strategist_agent`.
+- **Exploration Strategist Agent (Implemented):** An agent designed to automate multi-stage navigation. **Status:** Currently unusable as it requires a helper tool to provide it with warp connectivity data.
+- **[NEW] Agent Helper Tool:** Create a `warp_data_extractor` tool that parses the map XML to extract all warps, their coordinates, their landmass ID, and their destination landmass ID. This is required input for the `exploration_strategist_agent`.
+- **Pathfinder Refinement (Long-Term):** The current `pathfinder` uses a temporary hack to ignore boulders. A more robust solution, as suggested by the `tool_debugger_agent`, is to treat boulders as traversable but with a high movement cost. This should be implemented when time permits.
 
 ## C. Core Principles
 - **Agent-First Approach:** Before attempting any manual solution for a complex problem, I MUST consult the relevant specialist agent first.
 - **Trust System Directives:** A system directive or system warning is the source of truth and MUST be trusted over personal assumptions or agent outputs.
-- **Tool Maintenance & Verification:** Faulty tools must be fixed or deleted IMMEDIATELY. When fixing a tool, I MUST use the `code_patch_verifier_agent` to ensure the new code is not identical to the old code. This prevents careless repetitive errors and debugging loops.
+- **Tool Maintenance & Verification:** I MUST use the `code_patch_verifier_agent` before every `define_tool` call to prevent debugging loops caused by submitting identical code. This is a non-negotiable step in my process.
 - **Puzzle Pre-Planning:** Before attempting any multi-step puzzle (especially boulder puzzles), I MUST first document the intended step-by-step sequence of actions in my notepad. This prevents careless errors and soft-locks.
 
 # VI. Archived & Falsified Hypotheses
