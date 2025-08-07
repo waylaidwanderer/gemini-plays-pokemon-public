@@ -62,44 +62,7 @@
 - **Tool Maintenance & Verification:** I MUST use the `code_patch_verifier_agent` before every `define_tool` call to prevent debugging loops caused by submitting identical code. This is a non-negotiable step in my process.
 - **Puzzle Pre-Planning:** Before attempting any multi-step puzzle (especially boulder puzzles), I MUST first document the intended step-by-step sequence of actions in my notepad. This prevents careless errors and soft-locks.
 
-# V. Current Puzzle Plan
-## A. Victory Road 3F Boulder Puzzle
-- **New Plan (Hypothesis 3):** The boulder at (14, 13) is the correct one to push to the switch at (4, 6). A long wrap-around path to (14, 14) exists, allowing me to get into position.
-- **Plan:**
-    1. Navigate to (14, 14) to get into position to push the boulder.
-    2. Push the boulder UP from (14, 13) to (14, 12).
-    3. Push LEFT to (4, 12).
-    4. Push DOWN to (4, 6) and onto the switch.
-
-# VI. Archived & Falsified Hypotheses
-- **[FALSIFIED] Victory Road 3F Boulder Puzzle - Hypothesis 2:** The boulder at (23, 4) can be pushed to the switch at (4, 6). This fails because the path is blocked by impassable walls and elevation changes.
-- **[FALSIFIED] Victory Road 3F Boulder Puzzle - Hypothesis 1:** The boulder at (14, 13) can be pushed to the switch at (4, 6). My initial attempt failed because I incorrectly assumed the direct path to (14, 14) was the only one. A longer, wrap-around path exists.
-- **[FALSIFIED] Victory Road 2F Boulder Puzzle - Hypothesis 9:** The boulder at (7, 12) can be pushed DOWN to (7, 17) and then RIGHT to the switch at (10, 17). This fails because the tile at (6, 17) is an impassable wall, making it impossible to get into position to push the boulder to the right.
-- **[FALSIFIED] Victory Road 2F Boulder Puzzle - Hypothesis 8:** The boulder at (5, 15) can be pushed to the switch at (10, 17). The path is: push UP to (5, 12), then push RIGHT to (10, 12), then push DOWN to (10, 17). This fails because the path right is blocked by an impassable wall at (9, 12).
-- **[FALSIFIED] Victory Road 2F Boulder Puzzle - Hypothesis 7:** The boulder at (5, 15) can be pushed to (10, 17) via (10, 16). Failed because the path right from (8, 16) is blocked by an impassable wall at (9, 16).
-- **[FALSIFIED] Victory Road 2F Boulder Puzzle - Hypothesis 6:** Pushing the boulder at (5, 15) to (10, 17) via (8, 17) is impossible due to an impassable wall at (9, 17).
-- **[FALSIFIED] Victory Road 2F Boulder Puzzle - Hypothesis 5:** The boulder at (6, 6) can be pushed to the switch at (10, 17). The path is: push DOWN to (6, 17), then push EAST to (10, 17). This fails due to an impassable elevation change between a `ground` tile (6, 8) and an `elevated_ground` tile (6, 9).
-- **[FALSIFIED] Victory Road 2F Boulder Puzzle - Hypothesis 4:** Pushing the boulder at (6, 7) south to the switch at (10, 17) is impossible due to an impassable elevation change between a `ground` tile and an `elevated_ground` tile.
-- **[FALSIFIED] Victory Road 2F Boulder Puzzle - Hypothesis 2:** The boulder at (8, 15) can be moved north, then east, then south. Failed due to impassable wall at (9, 12).
-- **[FALSIFIED] Victory Road 2F Boulder Puzzle - Hypothesis 1:** The boulder at (8, 15) can be pushed directly right to column 10. Failed due to impassable wall at (9, 15).
-- **[FALSIFIED] Defeated trainers are impassable obstacles:** A system warning (Turn 124270) indicated that the warp at (2, 2) on Victory Road 1F was reachable, despite being blocked by a defeated trainer at (4, 3). This proves the hypothesis is false and the pathfinder has been updated.
-- **Battle Strategist Agent Failure (Turn 126296):** The agent recommended switching in a Lv. 24 SUBTERRA against a Lv. 47 GRAVELER. It failed to properly weigh the massive level difference, which resulted in an immediate KO. The agent's system prompt has now been updated with a strict rule (Rule #13) to forbid recommending significantly underleveled Pokémon. The agent has been further refined with rules to avoid switching in low-HP 'avengers' and to account for neutral coverage moves.
-
-# VII. Current Puzzle Plan (Victory Road 2F)
-## A. Boulder Puzzle
-- **Goal:** Push a boulder to the switch at (10, 17).
-- **Hypothesis:** The boulder at (5, 15) is the correct one.
-- **Plan:**
-    1. Navigate to (4, 15).
-    2. Push boulder from (5, 15) to (6, 15).
-    3. Reposition to (6, 16).
-    4. Push boulder from (6, 15) to (6, 12).
-    5. Reposition to (5, 12).
-    6. Push boulder from (6, 12) to (10, 12).
-    7. Reposition to (10, 11).
-    8. Push boulder from (10, 12) to (10, 17).
-
-# VIII. Current Puzzle Plan (Victory Road 2F)
+# V. Current Puzzle Plan (Victory Road 2F)
 ## A. Boulder Puzzle
 - **Directive:** Solve the puzzle to clear the path forward.
 - **Goal:** Push a boulder to the switch at (10, 17).
@@ -113,3 +76,18 @@
     6. Push boulder from (6, 12) RIGHT to (10, 12).
     7. Reposition to (10, 11).
     8. Push boulder from (10, 12) DOWN to (10, 17).
+
+# VI. Archived & Falsified Hypotheses
+- **[FALSIFIED] Victory Road 3F Boulder Puzzle - Hypothesis 3:** The boulder at (14, 13) can be pushed to the switch at (4, 6) via a long wrap-around path. This was my plan, but I am currently focused on the 2F puzzle.
+- **[FALSIFIED] Victory Road 3F Boulder Puzzle - Hypothesis 2:** The boulder at (23, 4) can be pushed to the switch at (4, 6). This fails because the path is blocked by impassable walls and elevation changes.
+- **[FALSIFIED] Victory Road 3F Boulder Puzzle - Hypothesis 1:** The boulder at (14, 13) can be pushed to the switch at (4, 6). My initial attempt failed because I incorrectly assumed the direct path to (14, 14) was the only one.
+- **[FALSIFIED] Victory Road 2F Boulder Puzzle - Hypothesis 9:** The boulder at (7, 12) can be pushed DOWN to (7, 17) and then RIGHT to the switch at (10, 17). This fails because the tile at (6, 17) is an impassable wall, making it impossible to get into position to push the boulder to the right.
+- **[FALSIFIED] Victory Road 2F Boulder Puzzle - Hypothesis 8:** The boulder at (5, 15) can be pushed to the switch at (10, 17). The path is: push UP to (5, 12), then push RIGHT to (10, 12), then push DOWN to (10, 17). This fails because the path right is blocked by an impassable wall at (9, 12).
+- **[FALSIFIED] Victory Road 2F Boulder Puzzle - Hypothesis 7:** The boulder at (5, 15) can be pushed to (10, 17) via (10, 16). Failed because the path right from (8, 16) is blocked by an impassable wall at (9, 16).
+- **[FALSIFIED] Victory Road 2F Boulder Puzzle - Hypothesis 6:** Pushing the boulder at (5, 15) to (10, 17) via (8, 17) is impossible due to an impassable wall at (9, 17).
+- **[FALSIFIED] Victory Road 2F Boulder Puzzle - Hypothesis 5:** The boulder at (6, 6) can be pushed to the switch at (10, 17). The path is: push DOWN to (6, 17), then push EAST to (10, 17). This fails due to an impassable elevation change between a `ground` tile (6, 8) and an `elevated_ground` tile (6, 9).
+- **[FALSIFIED] Victory Road 2F Boulder Puzzle - Hypothesis 4:** Pushing the boulder at (6, 7) south to the switch at (10, 17) is impossible due to an impassable elevation change between a `ground` tile and an `elevated_ground` tile.
+- **[FALSIFIED] Victory Road 2F Boulder Puzzle - Hypothesis 2:** The boulder at (8, 15) can be moved north, then east, then south. Failed due to impassable wall at (9, 12).
+- **[FALSIFIED] Victory Road 2F Boulder Puzzle - Hypothesis 1:** The boulder at (8, 15) can be pushed directly right to column 10. Failed due to impassable wall at (9, 15).
+- **[FALSIFIED] Defeated trainers are impassable obstacles:** A system warning (Turn 124270) indicated that the warp at (2, 2) on Victory Road 1F was reachable, despite being blocked by a defeated trainer at (4, 3). This proves the hypothesis is false and the pathfinder has been updated.
+- **Battle Strategist Agent Failure (Turn 126296):** The agent recommended switching in a Lv. 24 SUBTERRA against a Lv. 47 GRAVELER. It failed to properly weigh the massive level difference, which resulted in an immediate KO. The agent's system prompt has now been updated with a strict rule (Rule #13) to forbid recommending significantly underleveled Pokémon. The agent has been further refined with rules to avoid switching in low-HP 'avengers' and to account for neutral coverage moves.
