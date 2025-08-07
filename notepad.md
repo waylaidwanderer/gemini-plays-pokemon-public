@@ -1,6 +1,6 @@
 # I. Current Objective
 - **Primary Objective:** Defeat the Elite Four and become the Pokémon League Champion.
-- **Secondary Objective:** Fully explore Route 23.
+- **Secondary Objective:** Fully explore Victory Road.
 
 # II. Core Gameplay & World Rules
 - **Poison Damage:** Poisoned Pokémon in the party lose 1 HP every four steps taken outside of battle.
@@ -16,9 +16,9 @@
 - **`ladder_down` / `ladder_up`**: Warps between floors.
 - **`boulder_switch`**: Floor switch for boulders.
 - **`boulder_barrier`**: Impassable barrier linked to a boulder switch.
-- **`cleared_boulder_barrier`**: A traversable tile that appears after a boulder switch is activated. It connects to adjacent `elevated_ground` tiles.
+- **`cleared_boulder_barrier`**: A traversable tile that appears after a boulder switch is activated. Functions as a one-way ramp, allowing upward movement from `ground` to `elevated_ground` but not downward.
 - **`hole`**: Warps the player (or a boulder) to the floor below.
-- **`ledge`**: Can only be traversed downwards (from a higher Y to a lower Y). Attempting to move up or sideways onto a ledge tile is impossible.
+- **`ledge`**: Can only be traversed downwards (from a higher Y to a lower Y).
 
 ## B. Follower Pokémon Mechanics
 - **Pikachu Movement Rule:** If Pikachu is directly adjacent in the direction you want to move, but you are not facing him, the first button press will only turn you to face him. A second button press in the same direction is required to move onto his tile.
@@ -29,15 +29,17 @@
 - **Reset Condition:** Boulder puzzles reset upon leaving and re-entering a map or using ladders between floors.
 - **Boulder/Item Interaction:** Pushing a boulder onto an item collects the item and moves the boulder into that space.
 
-## B. Navigational Insights (Verified)
-- **Victory Road 3F Layout:** Landmass analysis confirmed this floor is split into three disconnected areas.
+## B. Current Puzzle Plan (Victory Road 2F)
+- **Governing Directive:** A system directive states the solution is to move the boulder at (6, 6) to the switch at (10, 17).
+- **Current Status:** I have successfully navigated the western part of the map and the elevated platforms. My current goal is to reach the `steps` at (22, 16) to descend to the eastern ground floor and access the boulder.
+- **Untested Assumption:** The switch at (10, 17) opens the final barrier at (24, 15). This needs to be confirmed after reaching the switch.
 
 # IV. Battle Intelligence
 ## A. Type Effectiveness Chart (OBSERVATION-ONLY)
 - **Super Effective (2x damage):**
   - Ground > Rock/Ground (Verified via battle)
   - Electric > Flying (Verified: SPARKY vs GOLBAT)
-  - Water > Rock/Ground (Verified: NEPTUNE vs GOLEM)
+  - Water > Rock/Ground (Verified: NEPTUNE vs GOLEM, TITANESS vs GRAVELER)
 - **Not Very Effective (0.5x damage):**
   - Normal !> Rock/Ground (Verified: CRAG vs GRAVELER's SELFDESTRUCT)
 - **Immune (0x damage):**
@@ -66,24 +68,12 @@
 - **Puzzle Pre-Planning:** Before attempting any multi-step puzzle (especially boulder puzzles), I MUST first document the intended step-by-step sequence of actions in my notepad. This prevents careless errors and soft-locks.
 
 # VI. Archived & Falsified Hypotheses
+- **[FALSIFIED] `steps` at (6, 11) are one-way down.** I successfully used these steps to move from `ground` up to `elevated_ground`, proving they are bi-directional.
 - **[FALSIFIED] Victory Road 1F is always a single connected landmass.** My initial `landmass_analyzer` tool was flawed because it did not account for boulders as impassable obstacles. The corrected tool confirmed that misplaced boulders can and do split the map into disconnected areas.
 - **[HYPOTHESIS] Victory Road 2F Puzzle Solution requires a boulder from 3F:** The boulders on 2F cannot reach the switch at (10, 17). The next step is to return to 3F and search for a hole that drops a boulder into the eastern section of 2F.
 - **[FALSIFIED] Victory Road 2F Disconnected Landmass Hypothesis:** The landmass_analyzer tool's conclusion that this floor is split into disconnected landmasses was proven false by a system warning (Turn 124003) which confirmed the eastern warp at (24, 8) is reachable from the west. The connection is via the elevated platforms.
 - **[FALSIFIED] Defeated trainers are impassable obstacles:** A system warning (Turn 124270) indicated that the warp at (2, 2) on Victory Road 1F was reachable, despite being blocked by a defeated trainer at (4, 3). This proves the hypothesis is false and the pathfinder has been updated.
 - **[FALSIFIED] Victory Road 1F - West Switch Puzzle Plan:** The plan to push the boulder at (3, 11) UP onto the switch at (3, 10) was executed. This action successfully placed the boulder on the switch, but also blocked the path to the ladder at (2, 2).
 - **[LESSON] Victory Road 1F Puzzle Nuance:** Pushing the boulder at (3, 11) UP to the switch at (3, 10) blocks the direct path to the ladder at (2, 2), but does NOT create an inescapable area. A path to the southern exit at (9, 18) remains, making a map reset unnecessary.
-- **Debugging Loop Failure:** Repeatedly failed to apply a simple code fix due to carelessness (submitting identical code, introducing typos). This highlights a need for a more robust debugging process.
+- **[ARCHIVED] Debugging Loop Failure:** Repeatedly failed to apply a simple code fix due to carelessness (submitting identical code, introducing typos). This highlights a need for a more robust debugging process.
 - **[ARCHIVED] Agent Opportunity - Code Verifier:** The `reflection_agent` suggested creating a 'code patch verifier' agent, which was successfully implemented. This addressed an inefficient debugging loop.
-
-# VII. Reflection Takeaways (Turn 125016)
-- **Map Marker Discipline:** I will be more diligent in marking picked-up items and key NPC dialogue to create a comprehensive record and avoid redundant actions.
-- **Victory Road 1F Puzzle Hypothesis:** My next attempt at the 1F puzzle will test the hypothesis that the eastern boulder puzzle must be solved *before* the western one to maintain access to the ladder.
-
-# VII. Current Puzzle Plan (Victory Road 2F)
-- **Governing Directive:** A system directive states the solution is to move the boulder at (6, 6) to the switch at (10, 17).
-- **Hypothesis:** The path to the eastern boulder requires navigating the elevated platforms, but my pathfinder cannot find a route, possibly because the 'steps' at (6, 11) are one-way (down only).
-- **Test Plan:** My immediate goal is to test the accessibility of the eastern platforms. I will first attempt to pathfind to the 'steps' tile at (6, 11) to see if it's reachable from the western side of the map.
-
-# VIII. Reflection Takeaways (Turn 125224)
-- **Tool Design Lesson:** Monolithic tools like `boulder_puzzle_solver` are prone to failure. A better design is a modular approach: a `puzzle_data_extractor` tool to gather information, and a `puzzle_strategist_agent` to reason about the solution. This will be a future development goal.
-- **New Hypothesis:** The `steps` tile at (6, 11) might be a one-way path (down only). This would explain why my pathfinder failed to find a route to the eastern platform and needs to be tested.
