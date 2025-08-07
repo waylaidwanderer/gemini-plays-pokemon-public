@@ -59,6 +59,7 @@
 ## A. Tool Usage & Debugging
 - **Tool Failure Protocol:** If any tool fails, especially a pathfinder: 1. Use `landmass_analyzer` to confirm physical connectivity. 2. Add verbose logging/debug prints to the failing tool. 3. Re-run the tool to generate a detailed log. 4. Use the `tool_debugger_agent` to analyze the log and identify the root cause. This tiered approach MUST be followed before any manual debugging attempts.
 - **Code Patch Verification:** When fixing a tool, I MUST use the `code_patch_verifier_agent` to ensure the new code is not identical to the old code. This prevents careless repetitive errors and debugging loops.
+- **Code Patch Verification:** When fixing a tool, I MUST use the `code_patch_verifier_agent` to ensure the new code is not identical to the old code. This prevents careless repetitive errors and debugging loops.
 - **Landmass Analyzer Limitations:** The `landmass_analyzer` tool now correctly accounts for boulders as obstacles, but it still does not understand one-way traversal tiles like ledges or `cleared_boulder_barrier` ramps. It can report a single landmass even if sections are unreachable due to these mechanics.
 - **Surfing Navigation:** The `pathfinder` tool requires `movement_mode='surfing'` to navigate over water.
 
