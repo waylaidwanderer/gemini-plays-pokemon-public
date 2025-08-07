@@ -47,10 +47,11 @@
 - **Landmass Analyzer Limitations:** The `landmass_analyzer` tool now correctly accounts for boulders as obstacles, but it still does not understand one-way traversal tiles like ledges or `cleared_boulder_barrier` ramps. It can report a single landmass even if sections are unreachable due to these mechanics.
 - **Surfing Navigation:** The `pathfinder` tool requires `movement_mode='surfing'` to navigate over water.
 
-## B. Agent & Tool Ideas
-- **Puzzle Reset Planner:** An agent or tool that determines the most efficient path to reset the current map's puzzle (e.g., finding the nearest ladder/exit).
-- **Puzzle Solver Agent/Tool:** An agent or tool that can analyze the map state (boulders, switches, walls) and output a sequence of moves to solve the puzzle.
-- **Tool Debugger Pipeline:** An agent or tool that automates the debugging process. It would take a tool name and arguments as input, run the tool with verbose logging enabled, and then automatically feed the resulting log to the `tool_debugger_agent` to get a diagnosis. This would streamline the `Tool Failure Protocol` into a single action.
+## B. Methodology Improvements & Future Plans
+- **Tool Idea - Puzzle Reset Planner:** An agent or tool that determines the most efficient path to reset the current map's puzzle (e.g., finding the nearest ladder/exit).
+- **Tool Idea - Puzzle Solver:** An agent or tool that can analyze the map state (boulders, switches, walls) and output a sequence of moves to solve the puzzle.
+- **Tool Idea - Tool Debugger Pipeline:** An agent that automates the debugging process. It would take a tool name and arguments as input, run the tool with verbose logging enabled, and then automatically feed the resulting log to the `tool_debugger_agent` to get a diagnosis. This would streamline the `Tool Failure Protocol` into a single action.
+- **Pathfinder Permanent Fix Plan:** The `pathfinder`'s elevation logic is fundamentally broken. The temporary fix of commenting it out is unsustainable. I need to dedicate time to rewriting this logic from scratch to correctly handle `steps`, `ladders`, and one-way movements between `ground` and `elevated_ground`. Before deploying a new fix, I must test it on a simple, controlled map with known elevation changes to verify its correctness.
 
 ## C. Deprecated Agents
 - **[DELETED] Exploration Strategist Agent:** This agent was designed for multi-stage navigation but was unusable due to requiring a non-existent helper tool. It has been deleted to maintain a clean and functional agent list.
@@ -60,10 +61,6 @@
 - **Trust System Directives:** A system directive or system warning is the source of truth and MUST be trusted over personal assumptions or agent outputs.
 - **Tool Maintenance & Verification:** I MUST use the `code_patch_verifier_agent` before every `define_tool` call to prevent debugging loops caused by submitting identical code. This is a non-negotiable step in my process.
 - **Puzzle Pre-Planning:** Before attempting any multi-step puzzle (especially boulder puzzles), I MUST first document the intended step-by-step sequence of actions in my notepad. This prevents careless errors and soft-locks.
-
-## E. Pathfinder Improvement Plan
-- **Permanent Fix:** The `pathfinder`'s elevation logic is fundamentally broken. The temporary fix of commenting it out is unsustainable. I need to dedicate time to rewriting this logic from scratch to correctly handle `steps`, `ladders`, and one-way movements between `ground` and `elevated_ground`.
-- **Testing Strategy:** Before deploying a new fix, I must test it on a simple, controlled map with known elevation changes to verify its correctness. I will no longer test new pathfinding logic on complex maps like Victory Road.
 
 # V. Current Puzzle Plan
 ## A. Victory Road 3F Boulder Puzzle
