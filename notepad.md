@@ -1,5 +1,6 @@
 # I. Current Objective
-- **Primary Objective:** Solve the Victory Road boulder puzzles to reach the Indigo Plateau.
+- **Primary Objective:** Defeat the Elite Four and become the Pokémon League Champion.
+- **Secondary Objective:** Fully explore Route 23.
 
 # II. Core Gameplay & World Rules
 - **Poison Damage:** Poisoned Pokémon in the party lose 1 HP every four steps taken outside of battle.
@@ -48,7 +49,11 @@
 - **Landmass Analyzer Limitations:** The `landmass_analyzer` tool now correctly accounts for boulders as obstacles, but it still does not understand one-way traversal tiles like ledges or `cleared_boulder_barrier` ramps. It can report a single landmass even if sections are unreachable due to these mechanics.
 - **Surfing Navigation:** The `pathfinder` tool requires `movement_mode='surfing'` to navigate over water.
 
-## B. Core Principles
+## B. Agent/Tool Development Ideas
+- **Journey Planner Agent:** Create an agent to automate multi-stage travel plans across disconnected landmasses (like Route 23). It would take a final destination, use `landmass_analyzer`, and generate a sequence of pathing/surfing commands.
+- **Pathfinder Refinement:** Enhance the `pathfinder` tool. When a path fails due to disconnected landmasses, it should identify this and return a path to the nearest transition point (e.g., a shoreline) instead of just failing.
+
+## C. Core Principles
 - **Agent-First Approach:** Before attempting any manual solution for a complex problem, I MUST consult the relevant specialist agent first.
 - **Trust System Directives:** A system directive or system warning is the source of truth and MUST be trusted over personal assumptions or agent outputs.
 - **Tool Maintenance:** Faulty tools must be fixed or deleted IMMEDIATELY. Continuing to use a known-broken tool is inefficient and leads to errors.
