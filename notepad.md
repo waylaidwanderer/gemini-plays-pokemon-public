@@ -66,6 +66,11 @@
 - **Objective:** Get a boulder to the switch at (4, 6) to open the barrier at (8, 11).
 - **Plan:**
   1. Use `puzzle_data_extractor` to get a structured overview of all puzzle elements.
+  2. Use `puzzle_solver_agent` to analyze the extracted data and identify the most likely solvable boulder.
+  3. Formulate a step-by-step push plan for the correct boulder.
+  4. Execute the plan.
+- **Plan:**
+  1. Use `puzzle_data_extractor` to get a structured overview of all puzzle elements.
   2. Analyze the extracted data to determine which boulder is the correct one.
   3. Formulate a step-by-step push plan for the correct boulder.
   4. Execute the plan.
