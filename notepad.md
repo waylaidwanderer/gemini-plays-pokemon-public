@@ -64,18 +64,16 @@
 
 # V. Current Puzzle Plan
 ## A. Victory Road 3F Boulder Puzzle
-- **Hypothesis 2:** The boulder at (23, 4) can be pushed to the switch at (4, 6).
+- **New Plan (Hypothesis 3):** The boulder at (14, 13) is the correct one to push to the switch at (4, 6). A long wrap-around path to (14, 14) exists, allowing me to get into position.
 - **Plan:**
-    1. Navigate to (22, 4) to get into position to push the boulder.
-    2. Push the boulder LEFT from (23, 4) to (22, 4).
-    3. Push LEFT to (21, 4).
-    4. Push DOWN to (21, 5).
-    5. Maneuver around to (21, 6) and push DOWN to (21, 7).
-    6. Continue pushing the boulder west through the main corridor towards the switch at (4, 6).
+    1. Navigate to (14, 14) to get into position to push the boulder.
+    2. Push the boulder UP from (14, 13) to (14, 12).
+    3. Push LEFT to (4, 12).
+    4. Push DOWN to (4, 6) and onto the switch.
 
 # VI. Archived & Falsified Hypotheses
-- **[FALSIFIED] Victory Road 3F Boulder Puzzle - Hypothesis 1:** The boulder at (14, 13) can be pushed to the switch at (4, 6). This fails because it is impossible to get into position at (14, 14) to push the boulder north. The tiles at (13, 13) and (15, 13) are impassable walls, completely blocking access from the south.
-- **[FALSIFIED] Victory Road 3F Boulder Puzzle - Initial Attempt:** My initial thought was that the boulder at (14, 13) was stuck. Pushing it UP requires standing at (14, 14), and I incorrectly assumed the direct path was the only path, which is blocked by impassable tiles. A longer, wrap-around path exists.
+- **[FALSIFIED] Victory Road 3F Boulder Puzzle - Hypothesis 2:** The boulder at (23, 4) can be pushed to the switch at (4, 6). This fails because the path is blocked by impassable walls and elevation changes.
+- **[FALSIFIED] Victory Road 3F Boulder Puzzle - Hypothesis 1:** The boulder at (14, 13) can be pushed to the switch at (4, 6). My initial attempt failed because I incorrectly assumed the direct path to (14, 14) was the only one. A longer, wrap-around path exists.
 - **[FALSIFIED] Victory Road 2F Boulder Puzzle - Hypothesis 9:** The boulder at (7, 12) can be pushed DOWN to (7, 17) and then RIGHT to the switch at (10, 17). This fails because the tile at (6, 17) is an impassable wall, making it impossible to get into position to push the boulder to the right.
 - **[FALSIFIED] Victory Road 2F Boulder Puzzle - Hypothesis 8:** The boulder at (5, 15) can be pushed to the switch at (10, 17). The path is: push UP to (5, 12), then push RIGHT to (10, 12), then push DOWN to (10, 17). This fails because the path right is blocked by an impassable wall at (9, 12).
 - **[FALSIFIED] Victory Road 2F Boulder Puzzle - Hypothesis 7:** The boulder at (5, 15) can be pushed to (10, 17) via (10, 16). Failed because the path right from (8, 16) is blocked by an impassable wall at (9, 16).
@@ -86,13 +84,3 @@
 - **[FALSIFIED] Victory Road 2F Boulder Puzzle - Hypothesis 1:** The boulder at (8, 15) can be pushed directly right to column 10. Failed due to impassable wall at (9, 15).
 - **[FALSIFIED] Defeated trainers are impassable obstacles:** A system warning (Turn 124270) indicated that the warp at (2, 2) on Victory Road 1F was reachable, despite being blocked by a defeated trainer at (4, 3). This proves the hypothesis is false and the pathfinder has been updated.
 - **Battle Strategist Agent Failure (Turn 126296):** The agent recommended switching in a Lv. 24 SUBTERRA against a Lv. 47 GRAVELER. It failed to properly weigh the massive level difference, which resulted in an immediate KO. The agent's system prompt has now been updated with a strict rule (Rule #13) to forbid recommending significantly underleveled Pokémon. The agent has been further refined with rules to avoid switching in low-HP 'avengers' and to account for neutral coverage moves.
-
-# V. Current Puzzle Plan (CORRECTION)
-- My previous plan (Hypothesis 2) is now falsified. I misread the map; the path for the boulder at (21, 5) is blocked by impassable walls and elevation changes.
-- My initial falsification of Hypothesis 1 was also incorrect. A long wrap-around path to (14, 14) *does* exist, making the boulder at (14, 13) viable.
-- **New Plan (Hypothesis 3):** The boulder at (14, 13) is the correct one. I will navigate to (14, 14) to begin pushing it.
-
-# V. Current Puzzle Plan (CORRECTION)
-- My previous plan (Hypothesis 2) is now falsified. I misread the map; the path for the boulder at (21, 5) is blocked by impassable walls and elevation changes.
-- My initial falsification of Hypothesis 1 was also incorrect. A long wrap-around path to (14, 14) *does* exist, making the boulder at (14, 13) viable.
-- **New Plan (Hypothesis 3):** The boulder at (14, 13) is the correct one. I will navigate to (14, 14) to begin pushing it.
