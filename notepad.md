@@ -62,7 +62,13 @@
 - **Tool Maintenance & Verification:** I MUST use the `code_patch_verifier_agent` before every `define_tool` call to prevent debugging loops caused by submitting identical code. This is a non-negotiable step in my process.
 - **Puzzle Pre-Planning:** Before attempting any multi-step puzzle (especially boulder puzzles), I MUST first document the intended step-by-step sequence of actions in my notepad. This prevents careless errors and soft-locks.
 
-# V. Current Puzzle Plan (Victory Road 2F)
+# V. Current Puzzle Plan (Victory Road 3F)
+- **Objective:** Get a boulder to the switch at (4, 6) to open the barrier at (8, 11).
+- **Plan:**
+  1. Use `puzzle_data_extractor` to get a structured overview of all puzzle elements.
+  2. Analyze the extracted data to determine which boulder is the correct one.
+  3. Formulate a step-by-step push plan for the correct boulder.
+  4. Execute the plan.
 
 # VI. Archived & Falsified Hypotheses
 - **[FALSIFIED] Victory Road 3F Boulder Puzzle - Hypothesis 3:** The boulder at (14, 13) can be pushed to the switch at (4, 6) via a long wrap-around path. This was my plan, but I am currently focused on the 2F puzzle.
