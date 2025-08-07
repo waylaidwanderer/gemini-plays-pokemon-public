@@ -1,8 +1,29 @@
 {
   "landmass_analyzer": {
-    "description": "Analyzes the map to identify all disconnected, traversable landmasses. Helps diagnose navigation puzzles and prevent getting stuck in isolated areas.",
-    "input_schema": {},
-    "python_script": "import xml.etree.ElementTree as ET\nfrom collections import deque\n\ntree = ET.fromstring(map_xml_string)\nwidth = int(tree.get('width'))\nheight = int(tree.get('height'))\n\ntraversable_types = {'ground', 'grass', 'steps', 'elevated_ground', 'cleared_boulder_barrier', 'ladder_up', 'ladder_down', 'boulder_switch'}\n\ngrid = []\nfor y, row_elem in enumerate(tree.findall('Row')):\n    row = []\n    for x, tile_elem in enumerate(row_elem.findall('Tile')):\n        tile_type = tile_elem.get('type')\n        \n        is_impassable_object = False\n        obj_elem = tile_elem.find('Object')\n        if obj_elem is not None:\n            obj_name = obj_elem.get('name', '') or obj_elem.get('id-name', '')\n            if obj_name == 'Pikachu':\n                is_impassable_object = False\n            else:\n                is_trainer = 'COOLTRAINER' in obj_name or 'BUG_CATCHER' in obj_name or 'BEAUTY' in obj_name or 'BURGLAR' in obj_name or 'BLACKBELT' in obj_name or 'HIKER' in obj_name\n                if not is_trainer:\n                    is_impassable_object = True\n\n        has_boulder = tile_elem.find('Boulder') is not None\n        \n        is_traversable = (tile_type in traversable_types) and not is_impassable_object and not has_boulder\n        row.append({'type': tile_type, 'traversable': is_traversable})\n    grid.append(row)\n\nvisited = set()\nlandmasses = []\n\ndef bfs(start_node):\n    if start_node in visited:\n        return None\n    \n    q = deque([start_node])\n    visited.add(start_node)\n    current_landmass = {start_node}\n    \n    while q:\n        x, y = q.popleft()\n        current_type = grid[y][x]['type']\n        \n        for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n            nx, ny = x + dx, y + dy\n            \n            if 0 <= nx < width and 0 <= ny < height:\n                neighbor_node = (nx, ny)\n                if neighbor_node not in visited:\n                    neighbor_info = grid[ny][nx]\n                    neighbor_type = neighbor_info['type']\n                    \n                    can_traverse = False\n                    if neighbor_info['traversable']:\n                        if current_type in {'ground', 'elevated_ground'} and neighbor_type in {'ground', 'elevated_ground'}:\n                            if current_type == neighbor_type:\n                                can_traverse = True\n                        elif neighbor_type == 'steps':\n                            can_traverse = True\n                        elif current_type == 'steps' and neighbor_type in {'ground', 'elevated_ground'}:\n                            can_traverse = True\n                        elif current_type in traversable_types and neighbor_type in traversable_types:\n                            can_traverse = True\n\n                    if can_traverse:\n                        visited.add(neighbor_node)\n                        q.append(neighbor_node)\n                        current_landmass.add(neighbor_node)\n                        \n    return current_landmass\n\nfor y in range(height):\n    for x in range(width):\n        if grid[y][x]['traversable'] and (x, y) not in visited:\n            new_landmass = bfs((x, y))\n            if new_landmass:\n                landmasses.append(sorted(list(new_landmass)))\n\nprint(f\"Found {len(landmasses)} disconnected landmass(es).\")\nfor i, mass in enumerate(landmasses):\n    print(f\"Landmass {i+1}: {len(mass)} tiles\")",
+    "description": "Analyzes the map to identify all disconnected, traversable landmasses. If optional start/end coordinates are provided, it will also report which landmass each point belongs to. Helps diagnose navigation puzzles.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "start_x": {
+          "type": "string",
+          "nullable": true
+        },
+        "start_y": {
+          "type": "string",
+          "nullable": true
+        },
+        "end_x": {
+          "type": "string",
+          "nullable": true
+        },
+        "end_y": {
+          "type": "string",
+          "nullable": true
+        }
+      },
+      "required": []
+    },
+    "python_script": "import xml.etree.ElementTree as ET\nfrom collections import deque\n\ntree = ET.fromstring(map_xml_string)\nwidth = int(tree.get('width'))\nheight = int(tree.get('height'))\n\nstart_pos = None\nend_pos = None\nif input_data.get('start_x') and input_data.get('start_y'):\n    start_pos = (int(input_data['start_x']), int(input_data['start_y']))\nif input_data.get('end_x') and input_data.get('end_y'):\n    end_pos = (int(input_data['end_x']), int(input_data['end_y']))\n\ntraversable_types = {'ground', 'grass', 'steps', 'elevated_ground', 'cleared_boulder_barrier', 'ladder_up', 'ladder_down', 'boulder_switch'}\n\ngrid = []\nfor y, row_elem in enumerate(tree.findall('Row')):\n    row = []\n    for x, tile_elem in enumerate(row_elem.findall('Tile')):\n        tile_type = tile_elem.get('type')\n        is_impassable_object = False\n        obj_elem = tile_elem.find('Object')\n        if obj_elem is not None:\n            obj_name = obj_elem.get('name', '') or obj_elem.get('id-name', '')\n            if 'Pikachu' not in obj_name:\n                is_impassable_object = True\n        has_boulder = tile_elem.find('Boulder') is not None\n        is_traversable = (tile_type in traversable_types) and not is_impassable_object and not has_boulder\n        row.append({'type': tile_type, 'traversable': is_traversable, 'landmass_id': -1})\n    grid.append(row)\n\nvisited = set()\nlandmass_id_counter = 0\n\ndef bfs(start_node):\n    global landmass_id_counter\n    if start_node in visited:\n        return\n    \n    q = deque([start_node])\n    visited.add(start_node)\n    landmass_id_counter += 1\n    grid[start_node[1]-1][start_node[0]-1]['landmass_id'] = landmass_id_counter\n    \n    while q:\n        x, y = q.popleft()\n        current_type = grid[y-1][x-1]['type']\n        \n        for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n            nx, ny = x + dx, y + dy\n            \n            if 1 <= nx <= width and 1 <= ny <= height:\n                neighbor_node = (nx, ny)\n                if neighbor_node not in visited:\n                    neighbor_info = grid[ny-1][nx-1]\n                    neighbor_type = neighbor_info['type']\n                    can_traverse = False\n                    if neighbor_info['traversable']:\n                        current_is_elevated = current_type in ['elevated_ground', 'cleared_boulder_barrier']\n                        neighbor_is_elevated = neighbor_type in ['elevated_ground', 'cleared_boulder_barrier']\n                        if current_type == 'steps' or neighbor_type == 'steps':\n                            can_traverse = True\n                        elif current_is_elevated == neighbor_is_elevated:\n                            can_traverse = True\n\n                    if can_traverse:\n                        visited.add(neighbor_node)\n                        q.append(neighbor_node)\n                        grid[ny-1][nx-1]['landmass_id'] = landmass_id_counter\n\nfor y in range(1, height + 1):\n    for x in range(1, width + 1):\n        if grid[y-1][x-1]['traversable'] and (x, y) not in visited:\n            bfs((x, y))\n\nprint(f\"Found {landmass_id_counter} disconnected landmass(es).\")\n\nif start_pos:\n    start_id = grid[start_pos[1]-1][start_pos[0]-1]['landmass_id']\n    print(f\"Start position {start_pos} is on Landmass {start_id}\")\nif end_pos:\n    end_id = grid[end_pos[1]-1][end_pos[0]-1]['landmass_id']\n    print(f\"End position {end_pos} is on Landmass {end_id}\")",
     "history": [
       {
         "commit_message": "feat: Create landmass_analyzer tool. This tool identifies disconnected traversable areas on a map, which will prevent getting stuck in navigational loops like the one experienced on Victory Road 2F. This directly addresses an Overwatch critique and improves long-term strategic navigation.",
@@ -23,6 +44,26 @@
         "commit_message": "fix: Explicitly handle follower Pokémon as traversable. The previous implementation used a negative string search (`'Pikachu' not in obj_name`), which was brittle and led to an incorrect analysis where the follower was treated as an impassable obstacle. This change introduces an explicit check (`obj_name == 'Pikachu'`) to correctly classify the follower as traversable, directly addressing a critical Overwatch critique and preventing future navigational misdiagnoses.",
         "timestamp": "2025-08-07T02:15:40.442Z",
         "action_counter": 124832
+      },
+      {
+        "commit_message": "feat: Add coordinate-based landmass reporting. This updates the tool to accept optional start/end coordinates. When provided, it will report which landmass ID each coordinate belongs to. This is a necessary feature to generate the correct input for the `exploration_strategist_agent` and solve multi-landmass navigation puzzles.",
+        "timestamp": "2025-08-07T09:44:58.805Z",
+        "action_counter": 125515
+      },
+      {
+        "commit_message": "fix: Correct nonlocal variable binding error. The tool was failing with a `SyntaxError` because `landmass_id_counter` was incorrectly declared as `nonlocal`. This commit changes it to a `global` declaration, which correctly allows the nested BFS function to modify the top-level counter, resolving the script error.",
+        "timestamp": "2025-08-07T09:46:11.917Z",
+        "action_counter": 125517
+      },
+      {
+        "commit_message": "fix: Correct nonlocal variable binding error. The tool was failing with a `SyntaxError` because `landmass_id_counter` was incorrectly declared as `nonlocal`. This commit changes it to a `global` declaration, which correctly allows the nested BFS function to modify the top-level counter, resolving the script error.",
+        "timestamp": "2025-08-07T09:54:31.638Z",
+        "action_counter": 125528
+      },
+      {
+        "commit_message": "fix: Correct nonlocal variable binding error. The tool was failing with a `SyntaxError` because `landmass_id_counter` was incorrectly declared as `nonlocal`. This commit changes it to a `global` declaration, which correctly allows the nested BFS function to modify the top-level counter, resolving the script error.",
+        "timestamp": "2025-08-07T09:55:21.358Z",
+        "action_counter": 125529
       }
     ]
   },
