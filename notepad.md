@@ -83,11 +83,14 @@
 - **[FALSIFIED] Hypothesis 1:** The boulder at (8, 15) can be pushed directly right to column 10.
   - **Test:** Attempted to push the boulder right from (8, 15).
   - **Conclusion:** Failed. An impassable wall at (9, 15) blocks the path. The initial plan is invalid.
-- **Hypothesis 2:** The boulder must be moved north, then east, then south to reach the switch.
-  - **Objective:** Push boulder from (8, 15) to switch at (10, 17).
-  - **Step 1:** Push boulder from (8, 15) UP to (8, 12). This requires multiple pushes and repositioning.
-  - **Step 2:** Push boulder from (8, 12) RIGHT to (10, 12).
-  - **Step 3:** Push boulder from (10, 12) DOWN to (10, 17) onto the switch.
+- **[FALSIFIED] Hypothesis 2:** The boulder at (8, 15) can be moved north, then east, then south.
+  - **Test:** Pushed boulder from (8, 15) up to (8, 12). Attempted to push right.
+  - **Conclusion:** Failed. An impassable wall at (9, 12) blocks the path right. This entire approach is invalid.
+- **Hypothesis 3:** The puzzle must be reset and the other boulder at (6, 7) must be used.
+  - **Objective:** Reset the puzzle state and investigate the boulder at (6, 7).
+  - **Step 1:** Travel to the ladder at (2, 2) and ascend to Victory Road 3F.
+  - **Step 2:** Immediately descend the ladder back to Victory Road 2F to reset the boulders to their original positions.
+  - **Step 3:** Navigate to the boulder at (6, 7) and determine a new push sequence to reach the switch at (10, 17).
   - **Step 1:** Push boulder from (8, 15) UP to (8, 12). This requires multiple pushes and repositioning.
   - **Step 2:** Push boulder from (8, 12) RIGHT to (10, 12).
   - **Step 3:** Push boulder from (10, 12) DOWN to (10, 17) onto the switch.
