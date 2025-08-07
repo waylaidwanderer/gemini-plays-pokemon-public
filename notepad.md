@@ -24,20 +24,19 @@
 - **Reset Condition:** Boulder puzzles reset upon leaving and re-entering a map or using ladders between floors.
 - **Boulder/Item Interaction:** Pushing a boulder onto an item collects the item and moves the boulder into that space.
 
-## B. Current Puzzle Status (Victory Road 2F)
-- **Governing Directive:** A system directive has confirmed the current puzzle is on 2F. The goal is to move a boulder to the switch at (10, 17).
-- **Current Hypothesis (Hypothesis 8):** The boulder at (5, 15) can be pushed to the switch at (10, 17). The path is: push UP to (5, 12), then push RIGHT to (10, 12), then push DOWN to (10, 17).
+## B. Current Puzzle Status (Victory Road)
+- **Governing Directive:** A system directive has confirmed the current puzzle is on 2F. The goal is to move a boulder to the switch at (10, 17). After exhausting all possibilities on 2F, the directive confirms the solution must involve a boulder from 3F.
 
 # III. Battle Intelligence
 ## A. Type Effectiveness Chart (OBSERVATION-ONLY)
 - **Super Effective (2x damage):**
-  - Electric > Flying (Verified: SPARKY vs GOLBAT)
-  - Water > Rock/Ground (Verified: NEPTUNE vs GOLEM, TITANESS vs GRAVELER)
-  - Ground > Rock/Ground (Verified: Wild GRAVELER's EARTHQUAKE vs CRAG)
+  - Electric > Flying
+  - Water > Rock/Ground
+  - Ground > Rock/Ground
 - **Not Very Effective (0.5x damage):**
-  - Normal !> Rock/Ground (Verified: CRAG vs GRAVELER's SELFDESTRUCT)
+  - Normal !> Rock/Ground
 - **Immune (0x damage):**
-  - Ground immune to Electric (Verified via battle)
+  - Ground immune to Electric
 
 ## B. Strategic Notes & Mechanics
 - **"No Will to Fight" Message:** A party menu cursor error on a fainted Pokémon, not a refusal to battle.
@@ -53,6 +52,7 @@
 
 ## B. Agent & Tool Ideas
 - **Puzzle Reset Planner:** An agent or tool that determines the most efficient path to reset the current map's puzzle (e.g., finding the nearest ladder/exit).
+- **Puzzle Solver Agent/Tool:** An agent or tool that can analyze the map state (boulders, switches, walls) and output a sequence of moves to solve the puzzle.
 
 ## C. Deprecated Agents
 - **[DELETED] Exploration Strategist Agent:** This agent was designed for multi-stage navigation but was unusable due to requiring a non-existent helper tool. It has been deleted to maintain a clean and functional agent list.
@@ -64,17 +64,12 @@
 - **Puzzle Pre-Planning:** Before attempting any multi-step puzzle (especially boulder puzzles), I MUST first document the intended step-by-step sequence of actions in my notepad. This prevents careless errors and soft-locks.
 
 # V. Archived & Falsified Hypotheses
-- **[FALSIFIED] Victory Road 2F Boulder Puzzle - Hypothesis 4:** Pushing the boulder at (6, 7) south to the switch at (10, 17) is impossible due to an impassable elevation change between a `ground` tile and an `elevated_ground` tile.
-- **[FALSIFIED] Victory Road 2F Boulder Puzzle - Hypothesis 1:** The boulder at (8, 15) can be pushed directly right to column 10. Failed due to impassable wall at (9, 15).
-- **[FALSIFIED] Victory Road 2F Boulder Puzzle - Hypothesis 2:** The boulder at (8, 15) can be moved north, then east, then south. Failed due to impassable wall at (9, 12).
-- **[FALSIFIED] Defeated trainers are impassable obstacles:** A system warning (Turn 124270) indicated that the warp at (2, 2) on Victory Road 1F was reachable, despite being blocked by a defeated trainer at (4, 3). This proves the hypothesis is false and the pathfinder has been updated.
-- **[ARCHIVED] Victory Road 1F Puzzle Nuance:** Pushing the boulder at (3, 11) UP to the switch at (3, 10) blocks the direct path to the ladder at (2, 2), but does NOT create an inescapable area. A path to the southern exit at (9, 18) remains, making a map reset unnecessary.
-- **[ARCHIVED] Debugging Loop Failure:** Repeatedly failed to apply a simple code fix due to carelessness (submitting identical code, introducing typos). This highlights a need for a more robust debugging process.
-- **[ARCHIVED] Agent Opportunity - Code Verifier:** The `reflection_agent` suggested creating a 'code patch verifier' agent, which was successfully implemented. This addressed an inefficient debugging loop.
-- **[ARCHIVED] Victory Road 2F Boulder Puzzle - Hypothesis 5:** The boulder at (6, 6) can be pushed to the switch at (10, 17). The path is: push DOWN to (6, 17), then push EAST to (10, 17). This avoids impassable walls and seems to be the correct path within this landmass.
-  - **[FALSIFIED]** The path south is blocked by an impassable elevation change between a `ground` tile (6, 8) and an `elevated_ground` tile (6, 9). The boulder cannot be pushed up.
-- **[FALSIFIED] Victory Road 2F Boulder Puzzle - Hypothesis 6:** Pushing the boulder at (5, 15) to (10, 17) via (8, 17) is impossible due to an impassable wall at (9, 17).
-- **[FALSIFIED] Victory Road 2F Boulder Puzzle - Hypothesis 7:** The boulder at (5, 15) can be pushed to (10, 17) via (10, 16). Failed because the path right from (8, 16) is blocked by an impassable wall at (9, 16).
-- **[ARCHIVED] Victory Road 2F Puzzle Status & Reset Plan:** All hypotheses for solving the puzzle on the 2F landmass failed. The plan was to reset the puzzle by traveling to the ladder at (2, 2), ascending to 3F, and immediately returning to 2F. This plan was superseded by the discovery that the solution lies on 3F.
-- **[ARCHIVED] `landmass_analyzer` & `pathfinder` Debugging:** Both tools were failing on Victory Road 3F because they could not handle movable obstacles (boulders). The temporary fix was to make them ignore boulders, which led to invalid path generation. The permanent fix was to restore boulder collision, forcing manual puzzle solving.
 - **[FALSIFIED] Victory Road 2F Boulder Puzzle - Hypothesis 9:** The boulder at (7, 12) can be pushed DOWN to (7, 17) and then RIGHT to the switch at (10, 17). This fails because the tile at (6, 17) is an impassable wall, making it impossible to get into position to push the boulder to the right.
+- **[FALSIFIED] Victory Road 2F Boulder Puzzle - Hypothesis 8:** The boulder at (5, 15) can be pushed to the switch at (10, 17). The path is: push UP to (5, 12), then push RIGHT to (10, 12), then push DOWN to (10, 17). This fails because the path right is blocked by an impassable wall at (9, 12).
+- **[FALSIFIED] Victory Road 2F Boulder Puzzle - Hypothesis 7:** The boulder at (5, 15) can be pushed to (10, 17) via (10, 16). Failed because the path right from (8, 16) is blocked by an impassable wall at (9, 16).
+- **[FALSIFIED] Victory Road 2F Boulder Puzzle - Hypothesis 6:** Pushing the boulder at (5, 15) to (10, 17) via (8, 17) is impossible due to an impassable wall at (9, 17).
+- **[FALSIFIED] Victory Road 2F Boulder Puzzle - Hypothesis 5:** The boulder at (6, 6) can be pushed to the switch at (10, 17). The path is: push DOWN to (6, 17), then push EAST to (10, 17). This fails due to an impassable elevation change between a `ground` tile (6, 8) and an `elevated_ground` tile (6, 9).
+- **[FALSIFIED] Victory Road 2F Boulder Puzzle - Hypothesis 4:** Pushing the boulder at (6, 7) south to the switch at (10, 17) is impossible due to an impassable elevation change between a `ground` tile and an `elevated_ground` tile.
+- **[FALSIFIED] Victory Road 2F Boulder Puzzle - Hypothesis 2:** The boulder at (8, 15) can be moved north, then east, then south. Failed due to impassable wall at (9, 12).
+- **[FALSIFIED] Victory Road 2F Boulder Puzzle - Hypothesis 1:** The boulder at (8, 15) can be pushed directly right to column 10. Failed due to impassable wall at (9, 15).
+- **[FALSIFIED] Defeated trainers are impassable obstacles:** A system warning (Turn 124270) indicated that the warp at (2, 2) on Victory Road 1F was reachable, despite being blocked by a defeated trainer at (4, 3). This proves the hypothesis is false and the pathfinder has been updated.
