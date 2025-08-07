@@ -26,7 +26,6 @@
 - **Boulder/Item Interaction:** Pushing a boulder onto an item collects the item and moves the boulder into that space.
 
 ## B. Navigational Insights (Verified)
-- **Victory Road 1F Layout:** The floor is a single connected landmass *only when all boulders are in their starting positions*. Misplaced boulders can easily disconnect areas, making puzzles unsolvable and requiring a map reset.
 - **Victory Road 3F Layout:** Landmass analysis confirmed this floor is split into three disconnected areas.
 
 ## C. Active Puzzle Plans
