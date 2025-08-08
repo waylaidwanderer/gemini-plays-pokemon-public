@@ -6,14 +6,14 @@
 - **`impassable`**: Walls, rocks. Cannot be entered.
 - **`ground`**: Walkable tile.
 - **`water`**: Crossable using HM Surf.
-- **`elevated_ground`**: Walkable ground at a higher elevation. Cannot be stepped up to or down from `ground` tiles directly. This has been confirmed by attempting to move from (10, 3) to (10, 2) and failing.
+- **`elevated_ground`**: Walkable ground at a higher elevation. Cannot be stepped up to or down from `ground` tiles directly.
 - **`steps`**: Connects `ground` and `elevated_ground` tiles, allowing vertical movement between them.
 - **`ladder_down` / `ladder_up`**: Warps between floors.
 - **`boulder_switch`**: Floor switch for boulders.
 - **`boulder_barrier`**: Impassable barrier linked to a boulder switch.
-- **`cleared_boulder_barrier`**: A tile that becomes traversable after a boulder switch is activated. It is at the same elevation as `elevated_ground`. Movement between it and `ground` is impossible without `steps`.
+- **`cleared_boulder_barrier`**: A tile that becomes traversable after a boulder switch is activated.
 - **`hole`**: Warps the player (or a boulder) to the floor below.
-- **`ledge`**: Can only be traversed downwards (from a higher Y to a lower Y).
+- **`ledge`**: Can only be traversed downwards.
 
 ## B. Follower Pokémon Mechanics
 - **Pikachu Position Swap:** When moving onto a tile occupied by Pikachu, the player and Pikachu appear to swap positions.
@@ -46,26 +46,25 @@
 - **Revised Tool Failure Protocol:** If any tool fails (especially `pathfinder`): 1. Use `landmass_analyzer` to confirm physical connectivity. 2. If a path exists, add verbose logging to the failing tool. 3. Re-run the tool to generate a detailed log. 4. Analyze the log myself to identify the root cause. I am forbidden from using an agent for tool debugging.
 - **Landmass Analyzer Limitations:** The `landmass_analyzer` tool now correctly accounts for boulders as obstacles, but it still does not understand one-way traversal tiles like ledges or `cleared_boulder_barrier` ramps.
 - **Surfing Navigation:** The `pathfinder` tool requires `movement_mode='surfing'` to navigate over water.
-- **Surfing Navigation:** The `pathfinder` tool requires `movement_mode='surfing'` to navigate over water.
 
 ## B. Methodology Improvements & Future Plans
-- **Tool Idea - Puzzle Reset Planner:** An agent or tool that determines the most efficient path to reset the current map's puzzle (e.g., finding the nearest ladder/exit).
-- **Tool Idea - Puzzle Solver:** An agent or tool that can analyze the map state (boulders, switches, walls) and output a sequence of moves to solve the puzzle.
-- **Tool Idea - Tool Debugger Pipeline:** An agent that automates the debugging process. It would take a tool name and arguments as input, run the tool with verbose logging enabled, and then automatically feed the resulting log to the `tool_debugger_agent` to get a diagnosis. This would streamline the `Tool Failure Protocol` into a single action.
-- **Pathfinder Permanent Fix Plan:** The `pathfinder`'s elevation logic is fundamentally broken. The temporary fix of commenting it out is unsustainable. I need to dedicate time to rewriting this logic from scratch to correctly handle `steps`, `ladders`, and one-way movements between `ground` and `elevated_ground`. Before deploying a new fix, I must test it on a simple, controlled map with known elevation changes to verify its correctness.
+- **Tool Idea - Puzzle Reset Planner:** An agent or tool that determines the most efficient path to reset the current map's puzzle.
+- **Tool Idea - Puzzle Solver:** An agent or tool that can analyze the map state and output a sequence of moves to solve the puzzle.
+- **Pathfinder Permanent Fix Plan:** The `pathfinder`'s elevation logic is fundamentally broken. I need to dedicate time to rewriting this logic from scratch.
 
 ## C. Deprecated Agents
-- **[DELETED] Exploration Strategist Agent:** This agent was designed for multi-stage navigation but was unusable due to requiring a non-existent helper tool. It has been deleted to maintain a clean and functional agent list.
+- **[DELETED] Exploration Strategist Agent:** This agent was unusable due to requiring a non-existent helper tool.
+- **[DELETED] Reflection Agent & Tool Debugger Agent:** Deleted as per Overwatch critique. Self-reflection and tool debugging must be handled directly.
 
 ## D. Core Principles
 - **Agent-First Approach:** Before attempting any manual solution for a complex problem, I MUST consult the relevant specialist agent first.
 - **Trust System Directives:** A system directive or system warning is the source of truth and MUST be trusted over personal assumptions or agent outputs.
-- **Tool Maintenance & Verification:** I MUST use the `code_patch_verifier_agent` before every `define_tool` call to prevent debugging loops caused by submitting identical code. This is a non-negotiable step in my process.
-- **Puzzle Pre-Planning:** Before attempting any multi-step puzzle (especially boulder puzzles), I MUST first document the intended step-by-step sequence of actions in my notepad. This prevents careless errors and soft-locks.
+- **Tool Maintenance & Verification:** I MUST use the `code_patch_verifier_agent` before every `define_tool` call to prevent debugging loops.
+- **Puzzle Pre-Planning:** Before attempting any multi-step puzzle, I MUST first document the intended step-by-step sequence of actions in my notepad.
 
 # V. Current Puzzle Plan (Victory Road 3F)
-- **Objective:** Get the boulder at (14, 13) to the switch at (4, 6).
-- **Hypothesis:** The boulder puzzle on 3F is a red herring. The true solution involves pushing the boulder at (23, 16) into the hole at (24, 16), which will drop it to 2F to solve a puzzle there.
+- **Objective:** Get a boulder to the switch at (4, 6) to open the barrier at (8, 11).
+- **Hypothesis:** The boulder puzzle on 3F is unsolvable on its own. The true solution involves pushing the boulder at (23, 16) into the hole at (24, 16), which will drop it to 2F to solve a puzzle there.
 - **Plan:**
   1. Navigate to (22, 16).
   2. Push the boulder at (23, 16) Right into the hole at (24, 16).
