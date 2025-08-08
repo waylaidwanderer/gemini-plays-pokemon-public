@@ -47,6 +47,9 @@
 - **Pathfinding Verification:** When `pathfinder` reports no path, it is a strong indicator of a genuine barrier, not a tool bug. The `landmass_analyzer` tool should be used to confirm physical connectivity before assuming the pathfinder is flawed.
 - **Agent Limitations:** The `puzzle_strategist_agent` cannot inherently understand disconnected map sections. It must be given explicit `analysis_bounds` to focus on a specific, connected area.
 
+## B. Future Tool/Agent Ideas
+- **`multi_map_navigation_strategist`:** An agent that could analyze `landmass_analyzer` output to determine if a multi-floor detour is necessary to reach a target on a different landmass.
+
 # V. Current Objective: Solve Victory Road 3F Puzzle
 - **Current Hypothesis:** The map is divided into two sections. To proceed, I must first solve the western boulder puzzle (switch at (4, 6)) to open the barrier at (8, 11). This requires navigating to the western section via a detour through Victory Road 2F.
 - **Puzzle State:** The western switch is at (4, 6) and the boulder is at (14, 13). The eastern puzzle involves a hole at (24, 16) and is likely the solution for the 2F puzzle.
