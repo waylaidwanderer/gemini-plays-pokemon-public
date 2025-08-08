@@ -52,3 +52,32 @@
 - **Solved Puzzles:**
   - **3F:** Pushed boulder from (14, 13) into hole at (14, 15). Pushed boulder from (18, 2) onto switch at (4, 6).
   - **2F:** Used boulder from 3F (landed at (5, 15)) and pushed it onto switch at (2, 17) to clear the main progression barrier.
+
+# VIII. Victory Road 3F - Eastern Puzzle Solution (Boulder from 23,4 to 4,6)
+- Push boulder at (23, 4) Up
+- Push boulder at (23, 3) Up
+- Push boulder at (23, 2) Left
+- Push boulder at (22, 2) Left
+- Push boulder at (21, 2) Left
+- Push boulder at (20, 2) Left
+- Push boulder at (19, 2) Left
+- Push boulder at (18, 2) Left
+- Push boulder at (17, 2) Left
+- Push boulder at (16, 2) Left
+- Push boulder at (15, 2) Left
+- Push boulder at (14, 2) Left
+- Push boulder at (13, 2) Left
+- Push boulder at (12, 2) Left
+- Push boulder at (11, 2) Left
+- Push boulder at (10, 2) Left
+- Push boulder at (9, 2) Left
+- Push boulder at (8, 2) Left
+- Push boulder at (7, 2) Down
+- Push boulder at (7, 3) Left
+- Push boulder at (6, 3) Left
+- Push boulder at (5, 3) Left
+- Push boulder at (4, 3) Left
+- Push boulder at (3, 3) Down
+- Push boulder at (3, 4) Down
+- Push boulder at (3, 5) Down
+- Push boulder at (3, 6) Right
