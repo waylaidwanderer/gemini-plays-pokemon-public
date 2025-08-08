@@ -61,4 +61,3 @@
 ## C. Floor 3F
 - **Hypothesis 1:** Use boulder at (23, 4). **Outcome:** `boulder_puzzle_solver` found a path, but it was not the correct solution for the main puzzle. Hypothesis revised.
 - **Hypothesis 2:** Use boulder at (14, 13). **Outcome:** `boulder_puzzle_solver` confirmed a valid, multi-step path exists. **This is the correct solution.**
-- `tool_debugger_agent`: An agent that analyzes tool failure logs and suggests code fixes.
