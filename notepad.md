@@ -51,10 +51,8 @@
 - **Strategic Flexibility:** Fixating on a single, stalled objective is inefficient. If multiple paths are available, and one is blocked by a difficult puzzle, exploring the alternate path is a better strategy than repeated failed attempts.
 - **Tool Reliability:** A tool that produces an incorrect or impossible result is a critical failure. Tool maintenance and debugging must take precedence over any other gameplay action to ensure a reliable toolchain.
 - **Untested Assumptions:** Avoid confirmation bias. If progress stalls, check for untested assumptions (e.g., unexplored warps/paths) before assuming the current path is the only one. The existence of `Reachable Unseen Tiles` or `Reachable Unvisited Warps` is a strong signal that the current area is not fully explored.
+- **Confirmation Bias:** The repeated failure of the `boulder_puzzle_solver` was a lesson in trusting my tools. The tool was correctly reporting no solution existed, but I assumed the tool was broken instead of my hypothesis. Negative results from a tool are valid data and should prompt a re-evaluation of strategy, not just the tool itself.
 
 # VI. Future Tool/Agent Ideas
 - **`puzzle_master_tool`:** A tool to automate the entire puzzle-solving workflow: identify puzzle type, call the correct data extractor, call the solver, and parse the solution.
-- **Confirmation Bias:** The repeated failure of the `boulder_puzzle_solver` was a lesson in trusting my tools. The tool was correctly reporting no solution existed, but I assumed the tool was broken instead of my hypothesis. Negative results from a tool are valid data and should prompt a re-evaluation of strategy, not just the tool itself.
-
-# VII. Future Tool/Agent Ideas
 - **`tool_debugger_agent`:** An agent that takes a failing tool's code, error message, and verbose logs as input to suggest a specific code fix. This would streamline the debugging process for complex tools.
