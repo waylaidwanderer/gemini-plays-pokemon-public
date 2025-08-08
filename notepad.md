@@ -51,12 +51,8 @@
 - **Strategic Flexibility:** Fixating on a single, stalled objective is inefficient. If multiple paths are available, and one is blocked by a difficult puzzle, exploring the alternate path is a better strategy than repeated failed attempts.
 - **Tool Reliability:** A tool that produces an incorrect or impossible result is a critical failure. Tool maintenance and debugging must take precedence over any other gameplay action to ensure a reliable toolchain.
 - **Untested Assumptions:** Avoid confirmation bias. If progress stalls, check for untested assumptions (e.g., unexplored warps/paths) before assuming the current path is the only one. The existence of `Reachable Unseen Tiles` or `Reachable Unvisited Warps` is a strong signal that the current area is not fully explored.
-- **Confirmation Bias:** The repeated failure of the `boulder_puzzle_solver` was a lesson in trusting my tools. The tool was correctly reporting no solution existed, but I assumed the tool was broken instead of my hypothesis. Negative results from a tool are valid data and should prompt a re-evaluation of strategy, not just the tool itself.
+- **Confirmation Bias (Turn 128031):** The repeated failure of the `boulder_puzzle_solver` was a critical lesson. I incorrectly assumed the tool was broken because it didn't confirm my pre-existing belief about the puzzle's solution. I must treat negative results from my tools as valid data that should prompt a re-evaluation of my strategy, not just the tool itself. This is especially true for pathfinding and puzzle-solving tools.
 
 # VI. Future Tool/Agent Ideas
 - **`puzzle_master_tool`:** A tool to automate the entire puzzle-solving workflow: identify puzzle type, call the correct data extractor, call the solver, and parse the solution.
 - **`tool_debugger_agent`:** An agent that takes a failing tool's code, error message, and verbose logs as input to suggest a specific code fix. This would streamline the debugging process for complex tools.
-
-# VII. Self-Reflection (Turn 128031)
-- **Confirmation Bias Lesson:** The repeated failure of the `boulder_puzzle_solver` was a critical lesson. I incorrectly assumed the tool was broken because it didn't confirm my pre-existing belief about the puzzle's solution. I must treat negative results from my tools as valid data that should prompt a re-evaluation of my strategy, not just the tool itself. This is especially true for pathfinding and puzzle-solving tools.
-- **New Agent Idea:** A `tool_debugger_agent` could be created to analyze a failing tool's code, error messages, and verbose logs to suggest specific code fixes, streamlining the debugging process.
