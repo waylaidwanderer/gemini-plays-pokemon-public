@@ -61,16 +61,6 @@
 
 ## C. Floor 1F
 - **Objective:** Open barrier at (10, 13) by activating switch at (18, 14).
-## C. Floor 1F
-- **Objective:** Open barrier at (10, 13) by activating switch at (18, 14).
-## C. Floor 1F
-- **Objective:** Open barrier at (10, 13) by activating switch at (18, 14).
-## C. Floor 1F
-- **Objective:** Open barrier at (10, 13) by activating switch at (18, 14).
-## C. Floor 1F
-- **Objective:** Open barrier at (10, 13) by activating switch at (18, 14).
-## C. Floor 1F
-- **Objective:** Open barrier at (10, 13) by activating switch at (18, 14).
 - **Hypothesis 1:** Use boulder at (15, 3). **Outcome:** `boulder_puzzle_solver` reported no path. Hypothesis denied.
 - **Hypothesis 2:** Use boulder at (6, 16). **Outcome:** `boulder_puzzle_solver` reported no path. Hypothesis denied.
 - **Conclusion:** Puzzle is likely unsolvable from 1F alone. Requires an element from another floor.
