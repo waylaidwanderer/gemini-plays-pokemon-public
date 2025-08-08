@@ -60,5 +60,5 @@
 - **Conclusion:** Puzzle is unsolvable from 2F alone. Requires an element from another floor.
 ## C. Floor 3F
 - **Objective:** Activate switch at (4, 6).
-- **Status:** A mistake was made, pushing the boulder at (14, 13) to an unsolvable position at (14, 14).
-- **Plan:** Per critical directive, must solve from the current state. Will systematically analyze all available boulders ((18, 2), (14, 14), (25, 11), (23, 16)) with `boulder_puzzle_solver` to find a valid path to the switch.
+- **Directive:** Must solve from the current state. A mistake was made, pushing a boulder to an unsolvable position at (14, 14).
+- **Plan:** Analyze all available boulders ((18, 2), (14, 14), (25, 11), (23, 16)) with `boulder_puzzle_solver` to find a valid path to the switch.
