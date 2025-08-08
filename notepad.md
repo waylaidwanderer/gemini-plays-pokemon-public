@@ -42,9 +42,7 @@
 - **Pathfinding Verification:** When a pathfinding tool reports no path, it is a strong indicator of a genuine barrier, not a tool bug. The `landmass_analyzer` tool should be used to confirm physical connectivity before assuming the pathfinder is flawed.
 - **Agent Limitations:** Reasoning-based agents (like `puzzle_strategist_agent`) are ill-suited for complex, state-based computational problems like boulder puzzles. These tasks require dedicated computational tools (`boulder_puzzle_solver`).
 - **Strategic Flexibility:** Fixating on a single, stalled objective is inefficient. If multiple paths are available, and one is blocked by a difficult puzzle, exploring the alternate path is a better strategy than repeated failed attempts.
+- **Tool Reliability:** A tool that produces an incorrect or impossible result is a critical failure. Tool maintenance and debugging must take precedence over any other gameplay action to ensure a reliable toolchain.
 
 # VI. Future Tool/Agent Ideas
 - **`puzzle_master_agent`:** An agent to automate the entire puzzle-solving workflow: identify puzzle type, call the correct data extractor, call the solver, and parse the solution.
-
-# VI. Tool Development & Bugs
-- **BUG REPORT: `boulder_puzzle_solver`** - The tool sometimes generates incorrect player positions or push directions in its solution steps. For example, it told me to move below a boulder to push it down, which is impossible. Need to investigate and fix the logic that generates the human-readable path steps.
