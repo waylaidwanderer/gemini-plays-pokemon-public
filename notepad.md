@@ -63,6 +63,9 @@
 - **Future Idea: `puzzle_master_agent`:** A high-level agent to strategize the *order* of operations for complex, multi-stage puzzles.
 
 # VI. Current Hypothesis (Victory Road 1F)
-- **Hypothesis:** Pushing the central boulder at (6, 16) south will clear a path on the ground floor.
-- **Test 1 (Push):** Moved to (6, 15), activated Strength, and pushed the boulder south to (6, 17). **Result:** Success.
-- **Test 2 (Pathing):** Now attempting to pathfind to the eastern steps at (16, 8) to confirm the path is clear.
+- **Hypothesis 1:** Pushing the central boulder at (6, 16) south will clear a path on the ground floor.
+- **Test:** Pushed boulder to (6, 17). Attempted to pathfind to eastern steps at (16, 8).
+- **Conclusion:** Failed. The pathfinder confirmed the route is still blocked by impassable terrain, not a barrier.
+
+- **Hypothesis 2:** Pushing the central boulder (now at (6, 17)) to the right will create a path to the eastern ground floor.
+- **Test:** Pathfind to (5, 17) to get into position for the push.
