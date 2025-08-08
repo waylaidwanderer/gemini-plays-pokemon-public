@@ -46,3 +46,15 @@
 
 # VI. Future Tool/Agent Ideas
 - **`puzzle_master_agent`:** An agent to automate the entire puzzle-solving workflow: identify puzzle type, call the correct data extractor, call the solver, and parse the solution.
+
+# VII. Victory Road Puzzles
+## A. Floor 2F
+- **Objective:** Open barrier at (24, 15) by activating switch at (10, 17).
+- **Hypothesis 1:** Use boulder at (6, 6). **Outcome:** `boulder_puzzle_solver` reported no path. Hypothesis denied.
+- **Hypothesis 2:** Use boulder at (5, 15). **Outcome:** `boulder_puzzle_solver` reported no path. Hypothesis denied.
+- **Conclusion:** Puzzle is likely unsolvable from 2F alone. Requires an element from another floor.
+
+## B. Floor 3F
+- **Objective:** Activate switch at (4, 6).
+- **Hypothesis 1:** Use boulder at (23, 4). **Outcome:** `boulder_puzzle_solver` confirmed a valid, multi-step path exists.
+- **Conclusion:** This is the correct boulder to solve the puzzle on 3F. The solution is long and requires navigating the entire floor.
