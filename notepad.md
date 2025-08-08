@@ -49,9 +49,9 @@
 - **Surfing Navigation:** The `pathfinder` tool requires `movement_mode='surfing'` to navigate over water.
 
 # V. Current Objective: Solve Victory Road 2F Puzzle
-- **Directive:** The `pathfinder` tool was critically bugged but has now been overhauled. The immediate priority is to test it and then solve the boulder puzzle on this floor.
+- **Directive:** The `pathfinder` tool has been critically bugged, preventing progress. The immediate priority is to fix the tool so it can handle one-way drops from elevated platforms.
 - **Puzzle State:** The empty switch is at (10, 17). Available boulders are at (5, 15) and (6, 6).
-- **Mandatory Next Step:** Use the fixed `pathfinder` to navigate to the puzzle area and then use tools to devise a solution.
+- **Mandatory Next Step:** Fix the `pathfinder` tool. Once fixed, use it to navigate to the puzzle area and then use other tools to devise a solution.
 
 # VI. Archived & Falsified Hypotheses
 - **Victory Road 3F Puzzle:** Attempted a solution from `puzzle_strategist_agent` which proved to be flawed, resulting in an unsolvable puzzle state. Confirmed unsolvable by the corrected agent, necessitating a retreat to reset the puzzle.
