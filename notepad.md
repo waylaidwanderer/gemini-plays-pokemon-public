@@ -1,30 +1,26 @@
 # I. Core Gameplay & World Rules
 - **Poison Damage:** Poisoned Pokémon in the party lose 1 HP every four steps taken outside of battle.
 - **Fainted Pokémon can use HMs:** Confirmed that a fainted Pokémon can be selected to use a field move like Strength.
+- **Follower Pokémon Mechanics:** When moving onto a tile occupied by Pikachu, the player and Pikachu appear to swap positions. The first button press turns to face, the second moves.
 
-## A. Tile Mechanics (Verified)
-- **`impassable`**: Walls, rocks. Cannot be entered.
+# II. Tile Mechanics (Verified)
 - **`ground`**: Walkable tile.
-- **`water`**: Crossable using HM Surf.
 - **`elevated_ground`**: Walkable ground at a higher elevation. One-way drops to adjacent `ground` tiles below are possible.
+- **`cleared_boulder_barrier`**: A tile that becomes traversable after a boulder switch is activated. Acts like `elevated_ground` and allows one-way drops.
 - **`steps`**: Connects `ground` and `elevated_ground` tiles, allowing vertical movement between them.
+- **`ledge`**: Can only be traversed downwards.
+- **`water`**: Crossable using HM Surf.
+- **`impassable`**: Walls, rocks. Cannot be entered.
 - **`ladder_down` / `ladder_up`**: Warps between floors.
+- **`hole`**: Warps the player (or a boulder) to the floor below.
 - **`boulder_switch`**: Floor switch for boulders.
 - **`boulder_barrier`**: Impassable barrier linked to a boulder switch.
-- **`cleared_boulder_barrier`**: A tile that becomes traversable after a boulder switch is activated. Acts like `elevated_ground`.
-- **`hole`**: Warps the player (or a boulder) to the floor below.
-- **`ledge`**: Can only be traversed downwards.
 
-## B. Follower Pokémon Mechanics
-- **Pikachu Position Swap:** When moving onto a tile occupied by Pikachu, the player and Pikachu appear to swap positions.
-
-# II. Puzzles & Navigation
-
-## A. Puzzle Mechanics
+# III. Puzzle Mechanics
 - **Reset Condition:** Boulder puzzles reset upon leaving and re-entering a map or using ladders between floors.
 - **Boulder/Item Interaction:** Pushing a boulder onto an item collects the item and moves the boulder into that space.
 
-# III. Battle Intelligence
+# IV. Battle Intelligence
 ## A. Type Effectiveness Chart (OBSERVATION-ONLY)
 - **Super Effective (2x damage):**
   - Electric > Flying
@@ -42,17 +38,10 @@
 - **Full Heal:** Cures status conditions only, does not restore HP.
 - **Body Slam:** Can cause paralysis.
 
-# IV. Methodology & Lessons Learned
-## A. Tool Usage & Debugging
-- **Pathfinding Verification:** When `pathfinder` reports no path, it is a strong indicator of a genuine barrier, not a tool bug. The `landmass_analyzer` tool should be used to confirm physical connectivity before assuming the pathfinder is flawed.
-- **Agent Limitations:** The `puzzle_strategist_agent` cannot inherently understand disconnected map sections. It must be given explicit `analysis_bounds` to focus on a specific, connected area.
+# V. Methodology & Lessons Learned
+- **Pathfinding Verification:** When a pathfinding tool reports no path, it is a strong indicator of a genuine barrier, not a tool bug. The `landmass_analyzer` tool should be used to confirm physical connectivity before assuming the pathfinder is flawed.
+- **Agent Limitations:** Reasoning-based agents (like `puzzle_strategist_agent`) are ill-suited for complex, state-based computational problems like boulder puzzles. These tasks require dedicated computational tools (`boulder_puzzle_solver`).
+- **Strategic Flexibility:** Fixating on a single, stalled objective is inefficient. If multiple paths are available, and one is blocked by a difficult puzzle, exploring the alternate path is a better strategy than repeated failed attempts.
 
-## B. Future Tool/Agent Ideas
-- **`multi_map_navigation_strategist`:** An agent that could analyze `landmass_analyzer` output to determine if a multi-floor detour is necessary to reach a target on a different landmass.
-
-# V. Current Objective: Solve Victory Road 3F Puzzle
-- **Current Hypothesis:** The map is divided into two sections. To proceed, I must first solve the western boulder puzzle (switch at (4, 6)) to open the barrier at (8, 11). This requires navigating to the western section via a detour through Victory Road 2F.
-- **Puzzle State:** The western switch is at (4, 6) and the boulder is at (14, 13). The eastern puzzle involves a hole at (24, 16) and is likely the solution for the 2F puzzle.
-
-# VI. Archived & Falsified Hypotheses
-- **Victory Road 3F Puzzle:** Previous attempts to solve the puzzle with a reasoning-based agent failed, leading to the creation of a computational solver tool. The puzzle was reset by changing floors.
+# VI. Future Tool/Agent Ideas
+- **`puzzle_master_agent`:** An agent to automate the entire puzzle-solving workflow: identify puzzle type, call the correct data extractor, call the solver, and parse the solution.
