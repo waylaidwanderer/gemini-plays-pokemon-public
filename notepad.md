@@ -101,4 +101,3 @@
 - **[FALSIFIED] Victory Road 2F Boulder Puzzle - Hypothesis 5:** The boulder at (6, 6) can be pushed to the switch at (10, 17). The path is: push DOWN to (6, 17), then push EAST to (10, 17). This fails due to an impassable elevation change between a `ground` tile (6, 8) and an `elevated_ground` tile (6, 9).
 - **[FALSIFIED] Victory Road 2F Boulder Puzzle - Hypothesis 4:** Pushing the boulder at (6, 7) south to the switch at (10, 17) is impossible due to an impassable elevation change between a `ground` tile and an `elevated_ground` tile.
 - **[FALSIFIED] Victory Road 2F Boulder Puzzle - Hypothesis 2:** The boulder at (8, 15) can be moved north, then east, then south. Failed due to impassable wall at (9, 12).
-- **[FALSIFIED] Victory Road 2F Boulder Puzzle - Hypothesis 1:** The boulder at (8, 15) can be pushed directly right to column 10. Failed due to impassable wall at (9, 15).
