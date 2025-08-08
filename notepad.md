@@ -62,3 +62,4 @@
 
 # VIII. Agent & Tool Refinement Log
 - **`battle_strategist_agent` Refinement Note:** The agent needs to be more cautious. It recommended an attack with a low-HP NEPTUNE against a faster Gengar, resulting in a KO. The prompt should be updated to heavily penalize high-risk plays with low-HP Pokémon that do not have a guaranteed speed advantage.
+- **Confirmation Bias (Turn 128431):** I wasted many turns trying to fix the `pathfinder` tool, assuming it was broken. In reality, it was correctly identifying a boulder that I had overlooked. I must trust my tools' outputs, especially negative results like 'no path found', as they are providing valid data about the game state. A 'no path' result should prompt me to re-evaluate my own assumptions about the map before I assume the tool is at fault.
