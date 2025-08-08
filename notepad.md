@@ -67,5 +67,6 @@
 - **Test:** Pushed boulder to (6, 17). Attempted to pathfind to eastern steps at (16, 8).
 - **Conclusion:** Failed. The pathfinder confirmed the route is still blocked by impassable terrain, not a barrier.
 
-- **Hypothesis 2:** Pushing the central boulder (now at (6, 17)) to the right will create a path to the eastern ground floor.
-- **Test:** Pathfind to (5, 17) to get into position for the push.
+- **Hypothesis 2:** Pushing the central boulder (at (6, 17)) to the right will create a path.
+- **Test 1 (Push):** From (5, 17), pushed boulder right to (7, 17). **Result:** Success.
+- **Test 2 (Pathing):** Now attempting to pathfind to the eastern steps at (16, 8) to confirm the path is clear.
