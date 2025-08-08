@@ -39,10 +39,10 @@
 - **Body Slam:** Can cause paralysis.
 
 # V. Methodology & Lessons Learned
-- **Pathfinding Verification:** When a pathfinding tool reports no path, it is a strong indicator of a genuine barrier, not a tool bug. The `landmass_analyzer` tool should be used to confirm physical connectivity before assuming the pathfinder is flawed.
+- **Pathfinding Verification:** When a pathfinding tool reports no path, it is a strong indicator of a genuine barrier (like a puzzle), not a tool bug. The `landmass_analyzer` tool should be used to confirm physical connectivity before assuming the pathfinder is flawed, keeping in mind it ignores dynamic obstacles like boulders.
 - **Agent Limitations:** Reasoning-based agents (like `battle_strategist_agent`) are ill-suited for complex, state-based computational problems like boulder puzzles. These tasks require dedicated computational tools (`boulder_puzzle_solver`).
 - **Strategic Flexibility:** Fixating on a single, stalled objective is inefficient. If multiple paths are available, and one is blocked by a difficult puzzle, exploring the alternate path is a better strategy than repeated failed attempts.
-- **Tool Reliability:** A tool that produces an incorrect or impossible result is a critical failure. Tool maintenance and debugging must take precedence over any other gameplay action to ensure a reliable toolchain. The `ignored_object_types` logic in the pathfinder was a flawed shortcut that led to invalid paths; treating all NPCs as impassable is the correct approach.
+- **Tool Reliability:** A tool that produces an incorrect or impossible result is a critical failure. Tool maintenance and debugging must take precedence over any other gameplay action to ensure a reliable toolchain.
 
 # VI. Future Tool/Agent Ideas
 - **`puzzle_master_agent`:** An agent to automate the entire puzzle-solving workflow: identify puzzle type, call the correct data extractor, call the solver, and parse the solution.
@@ -51,5 +51,5 @@
 - **Multi-floor Puzzles:** The puzzles in Victory Road often require elements from multiple floors (e.g., pushing a boulder through a hole from 3F to solve a puzzle on 2F).
 - **Solved Puzzles:**
   - **3F:** Pushed boulder from (14, 13) into hole at (14, 15). Pushed boulder from (18, 2) onto switch at (4, 6).
-  - **2F:** Used boulder from 3F (landed at (5, 15)) and pushed it onto switch at (2, 17) to clear the main progression barrier. Another puzzle for an optional item remains.
-- **Progression Hypothesis & Tool Priority:** After failures on 1F and 2F, I now believe the solution requires an element from another floor (e.g., a boulder pushed down from 3F). Tool maintenance remains the highest priority; a broken tool must be fixed immediately before any other action.
+  - **2F:** Used boulder from 3F (landed at (5, 15)) and pushed it onto switch at (2, 17) to clear the main progression barrier.
+- **Progression Hypothesis:** After tool failures confirmed the remaining on-floor boulders on 2F are not solutions for the eastern puzzle, I now believe the solution requires a different boulder to be pushed down from 3F.
