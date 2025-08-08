@@ -56,3 +56,5 @@
 # VI. Future Tool/Agent Ideas
 - **`puzzle_master_tool`:** A tool to automate the entire puzzle-solving workflow: identify puzzle type, call the correct data extractor, call the solver, and parse the solution.
 - **`tool_debugger_agent`:** An agent that takes a failing tool's code, error message, and verbose logs as input to suggest a specific code fix. This would streamline the debugging process for complex tools.
+- **Agent Overhaul Needed:** The `battle_strategist_agent` is critically flawed in high-stakes, low-HP situations. Its logic repeatedly fails to make safe, rational decisions. It needs a complete prompt rewrite after this battle. 
+- **New Tool Idea - `battle_calculator`:** A computational tool might be superior to the LLM agent for battle logic. It could calculate damage ranges, speed tiers, and KO probabilities to provide purely data-driven advice, avoiding the agent's reasoning fallacies.
