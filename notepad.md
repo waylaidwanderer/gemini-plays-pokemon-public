@@ -88,3 +88,9 @@
 
 # VII. Reflection & Action Items
 - **Immediate Priority:** The `pathfinder` tool is critically broken and generated an invalid path. I have added verbose logging, but I MUST analyze the logs and fix the root cause before relying on it again. This is my highest priority.
+
+- **Hypothesis 5:** Pushing the central boulder (6, 16) right will clear the impassable tile at (7, 16).
+- **Conclusion:** Failed. Boulders cannot be pushed onto impassable tiles. This is a key mechanic.
+
+- **Hypothesis 6:** The western boulder puzzle (boulder at (3, 11), switch at (3, 10)) must be solved first. This will open an alternate path to the eastern side of the map.
+- **Test:** Navigate to the western platform and push the boulder.
