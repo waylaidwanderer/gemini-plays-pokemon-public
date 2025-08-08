@@ -64,45 +64,10 @@
 
 # V. Current Puzzle Plan (Victory Road 3F)
 - **Objective:** Get the boulder at (14, 13) to the switch at (4, 6).
-- **Agent-Generated Plan:**
-  1. Move to (15, 13)
-  2. Push boulder at (14, 13) Left to (13, 13)
-  3. Move to (14, 13)
-  4. Push boulder at (13, 13) Left to (12, 13)
-  5. Move to (13, 13)
-  6. Push boulder at (12, 13) Left to (11, 13)
-  7. Move to (12, 13)
-  8. Push boulder at (11, 13) Left to (10, 13)
-  9. Move to (11, 13)
-  10. Push boulder at (10, 13) Left to (9, 13)
-  11. Move to (10, 13)
-  12. Push boulder at (9, 13) Left to (8, 13)
-  13. Move to (9, 13)
-  14. Push boulder at (8, 13) Left to (7, 13)
-  15. Move to (8, 13)
-  16. Push boulder at (7, 13) Left to (6, 13)
-  17. Move to (7, 13)
-  18. Push boulder at (6, 13) Left to (5, 13)
-  19. Move to (5, 14)
-  20. Push boulder at (5, 13) Up to (5, 12)
-  21. Move to (5, 13)
-  22. Push boulder at (5, 12) Up to (5, 11)
-  23. Move to (5, 12)
-  24. Push boulder at (5, 11) Up to (5, 10)
-  25. Move to (5, 11)
-  26. Push boulder at (5, 10) Up to (5, 9)
-  27. Move to (5, 10)
-  28. Push boulder at (5, 9) Up to (5, 8)
-  29. Move to (5, 9)
-  30. Push boulder at (5, 8) Up to (5, 7)
-  31. Move to (5, 8)
-  32. Push boulder at (5, 7) Up to (5, 6)
-  33. Move to (5, 7)
-  34. Push boulder at (5, 6) Up to (5, 5)
-  35. Move to (6, 5)
-  36. Push boulder at (5, 5) Left to (4, 5)
-  37. Move to (4, 4)
-  38. Push boulder at (4, 5) Down to (4, 6)
+- **Hypothesis:** The boulder puzzle on 3F is a red herring. The true solution involves pushing the boulder at (23, 16) into the hole at (24, 16), which will drop it to 2F to solve a puzzle there.
+- **Plan:**
+  1. Navigate to (22, 16).
+  2. Push the boulder at (23, 16) Right into the hole at (24, 16).
 
 # VI. Archived & Falsified Hypotheses
 - **[FALSIFIED] Victory Road 3F Boulder Puzzle - Hypothesis 3:** The boulder at (14, 13) can be pushed to the switch at (4, 6) via a long wrap-around path. This was my plan, but I am currently focused on the 2F puzzle.
