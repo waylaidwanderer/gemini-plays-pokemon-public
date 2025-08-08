@@ -56,3 +56,4 @@
 - **3F Main Barrier (Restored):** Pushed boulder from (23, 2) to switch at (4, 6). Solution: [L, L, L, L, L, L, L, L, L, L, L, L, L, L, L, L, D, L, L, L, L, D, D, D, R]
 - **3F Main Barrier (Restored):** Pushed boulder from (23, 2) to switch at (4, 6). Solution: [L, L, L, L, L, L, L, L, L, L, L, L, L, L, L, L, D, L, L, L, L, D, D, D, R]
 - **2F Western Barrier:** The switch at (2, 17) is empty, but the barrier is already cleared. This puzzle is solved.
+- **2F Western Barrier:** The switch at (2, 17) is empty, but the barrier is already cleared. This puzzle is solved.
