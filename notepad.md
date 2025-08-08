@@ -52,5 +52,5 @@
 - **Solved Puzzles:**
   - **3F:** Pushed boulder from (14, 13) into hole at (14, 15). Pushed boulder from (18, 2) onto switch at (4, 6).
   - **2F:** Used boulder from 3F (landed at (5, 15)) and pushed it onto switch at (2, 17) to clear the main progression barrier. Another puzzle for an optional item remains.
-  - **1F:** The main progression puzzle to clear the eastern barrier at (10, 13) remains unsolved. My `boulder_puzzle_solver` has confirmed that no boulder currently on 1F can reach the switch at (18, 14).
+  - **1F:** The main progression puzzle to clear the eastern barrier at (10, 13) remains unsolved. My `landmass_analyzer` confirmed a path exists from a 1F boulder to the switch at (18, 14), proving my `boulder_puzzle_solver` was broken and its previous 'no path' conclusion was incorrect.
 - **Tool Maintenance is Priority One:** A tool that produces an incorrect or impossible result is a critical failure. Tool maintenance and debugging must take absolute precedence over any other gameplay action to ensure a reliable toolchain. I must not attempt to work around a broken tool; I must fix it immediately.
