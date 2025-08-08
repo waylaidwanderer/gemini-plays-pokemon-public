@@ -65,3 +65,4 @@
 - **Hypothesis 7:** Solving the eastern boulder puzzle (boulder at (15, 3), switch at (18, 14)) is the key to reaching the ladder at (2, 2).
 - **Test:** Use the pathfinder to navigate to (14, 3) to get into position to push the boulder. Then, solve the boulder push puzzle.
 - **Risk:** The pathfinder tool may be unreliable. If it fails, I will need to debug it using the verbose logs.
+- **Strength Push Mechanics:** Pushing a boulder vertically (Up/Down) also moves the player character into the tile the boulder previously occupied.
