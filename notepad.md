@@ -86,3 +86,7 @@
 
 # VI. Archived & Falsified Hypotheses
 - [Previous hypotheses removed for clarity as per Overwatch critique.]
+
+# VII. Self-Reflection Insights (Turn 126679)
+- **Potential Confirmation Bias:** I may be overly focused on the boulder puzzles as the only path forward on Victory Road 3F. I have been neglecting the unvisited warp at (27, 9).
+- **Contingency Plan:** If my current hypothesis about the multi-floor boulder puzzle proves false or gets stuck, my next action will be to investigate the warp at (27, 9) as a potential alternative route.
