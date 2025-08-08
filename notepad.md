@@ -59,6 +59,5 @@
 - **Hypothesis 2:** Use boulder at (5, 15). **Outcome:** `boulder_puzzle_solver` reported no path. Hypothesis denied.
 ## C. Floor 3F
 - **Objective:** Activate switch at (4, 6).
-- **Method:** Use the boulder starting at (14, 13).
-- **Status:** A mistake was made, pushing the boulder to an unsolvable position at (14, 14).
-- **Plan:** Per critical directive, must attempt to solve from the current state. Will analyze all available boulders on the floor to find a valid path to the switch.
+- **Status:** A mistake was made, pushing the boulder at (14, 13) to an unsolvable position at (14, 14).
+- **Plan:** Per critical directive, must solve from the current state. Will systematically analyze all available boulders ((18, 2), (14, 14), (25, 11), (23, 16)) with `boulder_puzzle_solver` to find a valid path to the switch.
