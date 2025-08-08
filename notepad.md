@@ -34,6 +34,7 @@
   - Normal !> Rock/Ground
 - **Immune (0x damage):**
   - Ground immune to Electric
+  - Flying immune to Ground
 
 ## B. Strategic Notes & Mechanics
 - **"No Will to Fight" Message:** A party menu cursor error on a fainted Pokémon, not a refusal to battle.
@@ -47,14 +48,13 @@
 - **Landmass Analyzer Limitations:** The `landmass_analyzer` tool now correctly accounts for boulders as obstacles, but it still does not understand one-way traversal tiles like ledges or `cleared_boulder_barrier` ramps.
 - **Surfing Navigation:** The `pathfinder` tool requires `movement_mode='surfing'` to navigate over water.
 
-# V. Current Puzzle Plan (Victory Road 3F)
-- **Objective:** Get a boulder to the switch at (4, 6) to open the barrier at (8, 11).
-- **Attempt 1 (Failed):** Followed a plan from `puzzle_strategist_agent` to move the boulder from (14, 13). The plan was flawed as it required moving through an impassable tile. This resulted in pushing the boulder to (14, 14), making the puzzle's current state unsolvable.
-- **Attempt 2 (Confirmed Unsolvable):** Used the corrected `puzzle_strategist_agent` to analyze the puzzle with the boulder misplaced at (14, 14). The agent confirmed the puzzle is now unsolvable.
-- **Plan:** A strategic retreat is necessary. I must leave Victory Road 3F to reset the puzzle state and heal my critically injured party. I will then return to attempt the puzzle from a fresh state.
+# V. Current Puzzle Plan (Victory Road 2F)
+- **Directive:** Solve the boulder puzzle on Victory Road 2F.
+- **Objective:** Get a boulder to the switch at (10, 17).
+- **State:** Party is critically injured. Proceeding with extreme caution is necessary, but the directive is the highest priority.
 
 # VI. Archived & Falsified Hypotheses
-- [Previous hypotheses removed for clarity as per Overwatch critique.]
+- **Victory Road 3F Puzzle:** Attempted a solution from `puzzle_strategist_agent` which proved to be flawed, resulting in an unsolvable puzzle state. Confirmed unsolvable by the corrected agent, necessitating a retreat to reset the puzzle.
 
 # VII. Self-Reflection Insights (Turn 126679)
 - **Potential Confirmation Bias:** I may be overly focused on the boulder puzzles as the only path forward on Victory Road 3F. I have been neglecting the unvisited warp at (27, 9).
