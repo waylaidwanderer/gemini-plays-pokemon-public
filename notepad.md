@@ -52,18 +52,10 @@
 - **Tool Idea - Puzzle Solver:** An agent or tool that can analyze the map state and output a sequence of moves to solve the puzzle.
 - **Pathfinder Permanent Fix Plan:** The `pathfinder`'s elevation logic is fundamentally broken. I need to dedicate time to rewriting this logic from scratch.
 
-## C. Deprecated Agents
-- **[DELETED] Exploration Strategist Agent:** This agent was unusable due to requiring a non-existent helper tool.
-- **[DELETED] Reflection Agent & Tool Debugger Agent:** Deleted as per Overwatch critique. Self-reflection and tool debugging must be handled directly.
-
 ## B. Methodology Improvements & Future Plans
 - **Tool Idea - Puzzle Reset Planner:** An agent or tool that determines the most efficient path to reset the current map's puzzle.
 - **Tool Idea - Puzzle Solver:** An agent or tool that can analyze the map state and output a sequence of moves to solve the puzzle.
 - **Pathfinder Permanent Fix Plan:** The `pathfinder`'s elevation logic is fundamentally broken. I need to dedicate time to rewriting this logic from scratch.
-
-## C. Deprecated Agents
-- **[DELETED] Exploration Strategist Agent:** This agent was unusable due to requiring a non-existent helper tool.
-- **[DELETED] Reflection Agent & Tool Debugger Agent:** Deleted as per Overwatch critique. Self-reflection and tool debugging must be handled directly.
 
 # V. Current Puzzle Plan (Victory Road 3F)
 - **Objective:** Get a boulder to the switch at (4, 6) to open the barrier at (8, 11).
