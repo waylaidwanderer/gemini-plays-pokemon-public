@@ -57,7 +57,6 @@
 - **Objective:** Open barrier at (24, 15) by activating switch at (10, 17).
 - **Hypothesis 1:** Use boulder at (6, 6). **Outcome:** `boulder_puzzle_solver` reported no path. Hypothesis denied.
 - **Hypothesis 2:** Use boulder at (5, 15). **Outcome:** `boulder_puzzle_solver` reported no path. Hypothesis denied.
-- **Conclusion:** Puzzle is unsolvable from 2F alone. Requires an element from another floor.
 ## C. Floor 3F
 - **Objective:** Activate switch at (4, 6).
 - **Status:** A mistake was made, pushing the boulder at (14, 13) to an unsolvable position at (14, 14).
