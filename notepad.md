@@ -58,7 +58,10 @@
 - **Hypothesis 1:** Use boulder at (6, 6). **Outcome:** `boulder_puzzle_solver` reported no path. Hypothesis denied.
 - **Hypothesis 2:** Use boulder at (5, 15). **Outcome:** `boulder_puzzle_solver` reported no path. Hypothesis denied.
 - **Conclusion:** Puzzle is unsolvable from 2F alone. Requires an element from another floor.
-- **Conclusion:** Puzzle is unsolvable from 2F alone. Requires an element from another floor.
+## C. Floor 3F
+- **Objective:** Activate switch at (4, 6).
+- **Directive:** Must solve from the current state. A mistake was made, pushing a boulder to an unsolvable position at (14, 14).
+- **Plan:** Analyze all available boulders ((18, 2), (14, 14), (25, 11), (23, 16)) with `boulder_puzzle_solver` to find a valid path to the switch.
 ## C. Floor 3F
 - **Objective:** Activate switch at (4, 6).
 - **Directive:** Must solve from the current state. A mistake was made, pushing a boulder to an unsolvable position at (14, 14).
