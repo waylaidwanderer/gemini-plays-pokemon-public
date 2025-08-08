@@ -51,6 +51,7 @@
 # V. Current Puzzle Plan (Victory Road 2F)
 - **Directive:** Solve the boulder puzzle on Victory Road 2F.
 - **Objective:** Get a boulder to the switch at (10, 17).
+- **Agent Solution:** Use the boulder at (5, 15). The path involves moving it north to y=4, east across a gap, south to y=17, and then west onto the switch.
 - **State:** Party is critically injured. Proceeding with extreme caution is necessary, but the directive is the highest priority.
 
 # VI. Archived & Falsified Hypotheses
