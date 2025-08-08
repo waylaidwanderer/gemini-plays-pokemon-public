@@ -46,6 +46,7 @@
 - **Revised Tool Failure Protocol:** If any tool fails (especially `pathfinder`): 1. Use `landmass_analyzer` to confirm physical connectivity. 2. If a path exists, add verbose logging to the failing tool. 3. Re-run the tool to generate a detailed log. 4. Analyze the log myself to identify the root cause. I am forbidden from using an agent for tool debugging.
 - **Landmass Analyzer Limitations:** The `landmass_analyzer` tool now correctly accounts for boulders as obstacles, but it still does not understand one-way traversal tiles like ledges or `cleared_boulder_barrier` ramps.
 - **Surfing Navigation:** The `pathfinder` tool requires `movement_mode='surfing'` to navigate over water.
+- **Surfing Navigation:** The `pathfinder` tool requires `movement_mode='surfing'` to navigate over water.
 
 ## B. Methodology Improvements & Future Plans
 - **Tool Idea - Puzzle Reset Planner:** An agent or tool that determines the most efficient path to reset the current map's puzzle (e.g., finding the nearest ladder/exit).
