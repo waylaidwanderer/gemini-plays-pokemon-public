@@ -59,6 +59,5 @@
 - **Hypothesis 2:** Use boulder at (5, 15). **Outcome:** `boulder_puzzle_solver` reported no path. Hypothesis denied.
 - **Conclusion:** Puzzle is unsolvable from 2F alone. Requires an element from another floor.
 ## C. Floor 3F
-- **Objective:** Activate switch at (4, 6).
-- **Hypothesis 1:** Use boulder at (23, 4). **Outcome:** `boulder_puzzle_solver` confirmed a valid, multi-step path exists.
-- **Conclusion:** This is the correct boulder to solve the puzzle on 3F. The solution is long and requires navigating the entire floor.
+- **Hypothesis 1:** Use boulder at (23, 4). **Outcome:** `boulder_puzzle_solver` found a path, but it was not the correct solution for the main puzzle. Hypothesis revised.
+- **Hypothesis 2:** Use boulder at (14, 13). **Outcome:** `boulder_puzzle_solver` confirmed a valid, multi-step path exists. **This is the correct solution.**
