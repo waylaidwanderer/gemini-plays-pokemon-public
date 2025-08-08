@@ -48,12 +48,12 @@
 - **Landmass Analyzer Limitations:** The `landmass_analyzer` tool now correctly accounts for boulders as obstacles, but it still does not understand one-way traversal tiles like ledges or `cleared_boulder_barrier` ramps.
 - **Surfing Navigation:** The `pathfinder` tool requires `movement_mode='surfing'` to navigate over water.
 
-# V. Current Puzzle Plan (Victory Road 3F)
-- **Directive:** Solve the boulder puzzle on Victory Road 3F.
-- **Objective:** Get a boulder to the switch at (4, 6).
+# V. Current Puzzle Plan (Victory Road 2F)
+- **Directive:** Solve the boulder puzzle on Victory Road 2F.
+- **Objective:** Get a boulder to the switch at (10, 17).
 - **Puzzle State:**
-  - **Empty Switches:** (4, 6)
-  - **Available Boulders:** (23, 4), (14, 13), (25, 11), (23, 16)
+  - **Empty Switches:** (10, 17)
+  - **Available Boulders:** (5, 15), (6, 6)
 - **Mandatory Next Step:** Use a tool to validate which boulder can reach the switch *before* attempting any moves.
 
 # VI. Archived & Falsified Hypotheses
