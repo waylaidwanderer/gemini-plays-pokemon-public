@@ -5,6 +5,7 @@
 
 # II. Tile Mechanics (Verified)
 - **`ground`**: Walkable tile.
+- **`grass`**: Tall grass where wild Pokémon appear. Walkable like `ground`.
 - **`elevated_ground`**: Walkable ground at a higher elevation. One-way drops to adjacent `ground` tiles below are possible.
 - **`cleared_boulder_barrier`**: A tile that becomes traversable after a boulder switch is activated. Acts like `elevated_ground` and allows one-way drops.
 - **`steps`**: Connects `ground` and `elevated_ground` tiles, allowing vertical movement between them.
