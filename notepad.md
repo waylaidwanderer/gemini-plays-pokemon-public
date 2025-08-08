@@ -57,10 +57,7 @@
     - The `landmass_analyzer` ignores boulders by design to check theoretical terrain connectivity. Its output does not account for the current puzzle state and should not be misinterpreted as a guarantee of a currently open path.
 - **`battle_strategist_agent` Refinement:** The agent needs to be more cautious. It previously recommended an attack with a low-HP NEPTUNE against a faster Gengar, resulting in a KO. The prompt should be updated to heavily penalize high-risk plays with low-HP Pokémon that do not have a guaranteed speed advantage. (Note: Recent performance has been excellent, but this lesson remains valuable).
 
-# VI. Future Tool/Agent Development
-- **PRIORITY: `boulder_puzzle_solver_tool`:** A dedicated computational tool to solve boulder puzzles. It would take the map state (player, boulders, switches, walls) as input and return an optimal sequence of pushes. This would automate the tedious and error-prone process of manual puzzle-solving.
-- **`puzzle_master_agent`:** A high-level agent to strategize the *order* of operations for complex, multi-stage puzzles. It could analyze the puzzle state and suggest testable hypotheses (e.g., "Hypothesis: The eastern boulder puzzle must be solved first. Test: Attempt to move the boulder at (15,3) to the switch at (18,14).").
-- **`battle_calculator_tool`:** A computational tool to calculate damage ranges, speed tiers, and KO probabilities to provide purely data-driven battle advice, avoiding potential LLM reasoning fallacies.
-- **`fly_menu_navigator_tool`:** A tool that can parse the screen text of the Fly menu to identify the currently selected location and determine the number of 'Down' presses required to reach a target destination.
-- **`route_planner_tool`:** A computational tool to analyze `landmass_analyzer` output for complex routes with multiple landmasses (like Route 23). It would identify optimal surf/landing points to generate a high-level navigation plan.
-- **Pathfinder Tool Failure (Victory Road 1F):** The tool generated an invalid path through an impassable tile at (4, 15). It cannot be trusted until it is debugged and fixed. PRIORITY: Add verbose logging to the tool to diagnose the issue.
+# VI. Tool Development & Refinement
+- **PRIORITY 1: `pathfinder` Debugging:** The tool is critically broken and generated an invalid path. I have added verbose logging to diagnose the issue. I must analyze the logs and fix the root cause.
+- **PRIORITY 2: `boulder_puzzle_solver_tool`:** Create a dedicated computational tool to solve boulder puzzles. This would automate the tedious and error-prone process of manual puzzle-solving and is critical for future progress.
+- **Future Idea: `puzzle_master_agent`:** A high-level agent to strategize the *order* of operations for complex, multi-stage puzzles.
