@@ -425,6 +425,16 @@
         "commit_message": "fix: Correct elevation check for ladder tiles. The pathfinder was incorrectly classifying `ladder_up` and `ladder_down` tiles as 'elevated_ground', preventing it from finding valid paths to adjacent 'ground' tiles. This commit removes ladder types from the elevation check, correctly treating them as being on the same level as their surrounding ground tiles for intra-map pathfinding.",
         "timestamp": "2025-08-08T01:59:38.223Z",
         "action_counter": 126753
+      },
+      {
+        "commit_message": "feat: Add verbose logging to A* search. The pathfinder is still failing to find valid paths after the last fix. This commit re-adds extensive print statements to trace the algorithm's execution, including node evaluation, neighbor checks, and rejection reasons. This is the next step in the mandatory Tool Failure Protocol to generate a detailed log for analysis.",
+        "timestamp": "2025-08-08T02:03:48.236Z",
+        "action_counter": 126758
+      },
+      {
+        "commit_message": "fix: Correct elevation check for ladder tiles. The pathfinder was incorrectly classifying `ladder_up` and `ladder_down` tiles as 'elevated_ground', preventing it from finding valid paths to adjacent 'ground' tiles. This commit removes ladder types from the elevation check, correctly treating them as being on the same level as their surrounding ground tiles for intra-map pathfinding.",
+        "timestamp": "2025-08-08T02:04:46.845Z",
+        "action_counter": 126759
       }
     ]
   },
