@@ -25,6 +25,7 @@
 - **3F to 2F:** Pushed boulder from (14, 13) into hole at (14, 15).
 - **2F Main Barrier:** Used boulder from 3F (landed at (5, 15)) and pushed it onto switch at (2, 17).
 - **3F Main Barrier:** Pushed boulder from (23, 2) to switch at (4, 6). Solution: [L, L, L, L, L, L, L, L, L, L, L, L, L, L, L, L, D, L, L, L, L, D, D, D, R]
+- **2F Western Barrier:** The switch at (2, 17) is empty, but the barrier is already cleared. This puzzle is solved.
 
 # IV. Battle Intelligence
 ## A. Type Effectiveness Chart (OBSERVATION-ONLY)
