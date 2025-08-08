@@ -52,4 +52,3 @@
 - **Solved Puzzles:**
   - **3F:** Pushed boulder from (14, 13) into hole at (14, 15). Pushed boulder from (18, 2) onto switch at (4, 6).
   - **2F:** Used boulder from 3F (landed at (5, 15)) and pushed it onto switch at (2, 17) to clear the main progression barrier.
-- **Progression Hypothesis:** After tool failures confirmed the remaining on-floor boulders on 2F are not solutions for the eastern puzzle, I now believe the solution requires a different boulder to be pushed down from 3F.
