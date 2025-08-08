@@ -62,7 +62,3 @@
 - **Objective:** Activate switch at (4, 6).
 - **Directive:** Must solve from the current state. A mistake was made, pushing a boulder to an unsolvable position at (14, 14).
 - **Plan:** Analyze all available boulders ((18, 2), (14, 14), (25, 11), (23, 16)) with `boulder_puzzle_solver` to find a valid path to the switch.
-## C. Floor 3F
-- **Objective:** Activate switch at (4, 6).
-- **Directive:** Must solve from the current state. A mistake was made, pushing a boulder to an unsolvable position at (14, 14).
-- **Plan:** Analyze all available boulders ((18, 2), (14, 14), (25, 11), (23, 16)) with `boulder_puzzle_solver` to find a valid path to the switch.
