@@ -63,3 +63,4 @@
   - Pokémon: Gengar (Lv. 53)
   - Observed Moves: PSYWAVE
   - **Lesson Learned:** Blacked out after a series of unfortunate events. The `battle_strategist_agent` recommended an attack with my low-HP NEPTUNE, which was the only logical move, but Gengar was faster and knocked me out. This highlights a critical lesson: even with a type advantage or a seemingly winning move, a significant speed disadvantage with a low-HP Pokémon is an extremely high-risk gamble. I need to be more cautious and perhaps prioritize switching to a healthier Pokémon, even if it means a less optimal offensive matchup, to avoid getting swept.
+- **`fly_menu_navigator_tool`**: A tool that can parse the screen text of the Fly menu to identify the currently selected location and determine the number of 'Down' presses required to reach a target destination. This would automate the tedious process of manually cycling through the list.
