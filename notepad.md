@@ -59,5 +59,7 @@
 - **Hypothesis 2:** Use boulder at (5, 15). **Outcome:** `boulder_puzzle_solver` reported no path. Hypothesis denied.
 - **Conclusion:** Puzzle is unsolvable from 2F alone. Requires an element from another floor.
 ## C. Floor 3F
-- **Hypothesis 1:** Use boulder at (23, 4). **Outcome:** `boulder_puzzle_solver` found a path, but it was not the correct solution for the main puzzle. Hypothesis revised.
-- **Hypothesis 2:** Use boulder at (14, 13). **Outcome:** `boulder_puzzle_solver` confirmed a valid, multi-step path exists. **This is the correct solution.**
+- **Objective:** Activate switch at (4, 6).
+- **Boulder:** The correct boulder to use is the one starting at (14, 13).
+- **Status:** Puzzle reset required due to incorrect push. Current plan is to exit and re-enter the floor.
+- **Solution:** `boulder_puzzle_solver` has confirmed a valid, multi-step path exists from the initial state.
