@@ -44,10 +44,8 @@
 
 # IV. Methodology & Lessons Learned
 ## A. Tool Usage & Debugging
-- **Revised Tool Failure Protocol:** If any tool fails (especially `pathfinder`): 1. Use `landmass_analyzer` to confirm physical connectivity. 2. If a path exists, add verbose logging to the failing tool. 3. Re-run the tool to generate a detailed log. 4. Analyze the log myself to identify the root cause. I am forbidden from using an agent for tool debugging.
-- **Landmass Analyzer Limitations:** The `landmass_analyzer` tool does not understand one-way traversal tiles like ledges or elevation drops.
-- **Surfing Navigation:** The `pathfinder` tool requires `movement_mode='surfing'` to navigate over water.
-- **Pathfinding Verification:** When `pathfinder` reports no path, it's likely a real barrier, not a tool bug. Use `landmass_analyzer` to confirm physical connectivity before debugging the pathfinder.
+- **Pathfinding Verification:** When `pathfinder` reports no path, it is a strong indicator of a genuine barrier, not a tool bug. The `landmass_analyzer` tool should be used to confirm physical connectivity before assuming the pathfinder is flawed.
+- **Agent Limitations:** The `puzzle_strategist_agent` cannot inherently understand disconnected map sections. It must be given explicit `analysis_bounds` to focus on a specific, connected area.
 
 # V. Current Objective: Solve Victory Road 3F Puzzle
 - **Current Hypothesis:** The map is divided into two sections. To proceed, I must first solve the western boulder puzzle (switch at (4, 6)) to open the barrier at (8, 11). This requires navigating to the western section via a detour through Victory Road 2F.
@@ -55,7 +53,3 @@
 
 # VI. Archived & Falsified Hypotheses
 - **Victory Road 3F Puzzle:** Attempted a solution from `puzzle_strategist_agent` which proved to be flawed, resulting in an unsolvable puzzle state. Confirmed unsolvable by the corrected agent, necessitating a retreat to reset the puzzle.
-
-# VII. Self-Reflection Insights (Turn 126679)
-- **Potential Confirmation Bias:** I may be overly focused on the boulder puzzles as the only path forward. I have been neglecting other potential routes, like the unvisited warp at (27, 9) on Victory Road 3F.
-- **Contingency Plan:** If I get stuck on a puzzle, my next action will be to investigate alternative routes like unvisited warps.
