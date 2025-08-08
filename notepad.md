@@ -48,13 +48,10 @@
 - **Landmass Analyzer Limitations:** The `landmass_analyzer` tool now correctly accounts for boulders as obstacles, but it still does not understand one-way traversal tiles like ledges or `cleared_boulder_barrier` ramps.
 - **Surfing Navigation:** The `pathfinder` tool requires `movement_mode='surfing'` to navigate over water.
 
-# V. Current Puzzle Plan (Victory Road 2F)
-- **Directive:** Solve the boulder puzzle on Victory Road 2F.
-- **Objective:** Get a boulder to the switch at (10, 17).
-- **Puzzle State:**
-  - **Empty Switches:** (10, 17)
-  - **Available Boulders:** (5, 15), (6, 6)
-- **Mandatory Next Step:** Use a tool to validate which boulder can reach the switch *before* attempting any moves.
+# V. Current Objective: Fix the Pathfinder Tool
+- **Directive:** The `pathfinder` tool is critically bugged and must be fixed before any other objective can be pursued.
+- **Problem:** The tool fails to find valid paths on maps with complex elevation changes, specifically one-way drops from `elevated_ground` to `ground`.
+- **Mandatory Next Step:** Successfully submit a corrected version of the `pathfinder` tool with overhauled traversal logic.
 
 # VI. Archived & Falsified Hypotheses
 - **Victory Road 3F Puzzle:** Attempted a solution from `puzzle_strategist_agent` which proved to be flawed, resulting in an unsolvable puzzle state. Confirmed unsolvable by the corrected agent, necessitating a retreat to reset the puzzle.
