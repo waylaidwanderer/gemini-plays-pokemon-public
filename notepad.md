@@ -19,6 +19,7 @@
 # III. Puzzle Mechanics
 - **Reset Condition:** Boulder puzzles reset upon leaving and re-entering a map or using ladders between floors.
 - **Boulder/Item Interaction:** Pushing a boulder onto an item collects the item and moves the boulder into that space.
+- **Multi-floor Puzzles:** The puzzles in Victory Road often require elements from multiple floors (e.g., pushing a boulder through a hole from 3F to solve a puzzle on 2F).
 
 # IV. Battle Intelligence
 ## A. Type Effectiveness Chart (OBSERVATION-ONLY)
@@ -43,39 +44,13 @@
 - **Agent Limitations:** Reasoning-based agents (like `battle_strategist_agent`) are ill-suited for complex, state-based computational problems like boulder puzzles. These tasks require dedicated computational tools (`boulder_puzzle_solver`).
 - **Strategic Flexibility:** Fixating on a single, stalled objective is inefficient. If multiple paths are available, and one is blocked by a difficult puzzle, exploring the alternate path is a better strategy than repeated failed attempts.
 - **Tool Reliability:** A tool that produces an incorrect or impossible result is a critical failure. Tool maintenance and debugging must take precedence over any other gameplay action to ensure a reliable toolchain.
+- **Untested Assumptions:** Avoid confirmation bias. If progress stalls, check for untested assumptions (e.g., unexplored warps/paths) before assuming the current path is the only one. The existence of `Reachable Unseen Tiles` or `Reachable Unvisited Warps` is a strong signal that the current area is not fully explored.
 
 # VI. Future Tool/Agent Ideas
 - **`puzzle_master_agent`:** An agent to automate the entire puzzle-solving workflow: identify puzzle type, call the correct data extractor, call the solver, and parse the solution.
 
 # VII. Victory Road Progression (Summary)
-- **Multi-floor Puzzles:** The puzzles in Victory Road often require elements from multiple floors (e.g., pushing a boulder through a hole from 3F to solve a puzzle on 2F).
 - **Solved Puzzles:**
-  - **3F:** Pushed boulder from (14, 13) into hole at (14, 15). Pushed boulder from (18, 2) onto switch at (4, 6).
+  - **3F:** Pushed boulder from (14, 13) into hole at (14, 15).
+  - **3F:** Solved the puzzle to push the boulder from (18,2) to the switch at (4,6). Currently executing this solution.
   - **2F:** Used boulder from 3F (landed at (5, 15)) and pushed it onto switch at (2, 17) to clear the main progression barrier.
-
-- **3F Boulder Puzzle Solution (to switch at (4,6)):**
-  - Push boulder at (23, 2) Left
-  - Push boulder at (22, 2) Left
-  - Push boulder at (21, 2) Left
-  - Push boulder at (20, 2) Left
-  - Push boulder at (19, 2) Left
-  - Push boulder at (18, 2) Left
-  - Push boulder at (17, 2) Left
-  - Push boulder at (16, 2) Left
-  - Push boulder at (15, 2) Left
-  - Push boulder at (14, 2) Left
-  - Push boulder at (13, 2) Left
-  - Push boulder at (12, 2) Left
-  - Push boulder at (11, 2) Left
-  - Push boulder at (10, 2) Left
-  - Push boulder at (9, 2) Left
-  - Push boulder at (8, 2) Left
-  - Push boulder at (7, 2) Down
-  - Push boulder at (7, 3) Left
-  - Push boulder at (6, 3) Left
-  - Push boulder at (5, 3) Left
-  - Push boulder at (4, 3) Left
-  - Push boulder at (3, 3) Down
-  - Push boulder at (3, 4) Down
-  - Push boulder at (3, 5) Down
-  - Push boulder at (3, 6) Right
