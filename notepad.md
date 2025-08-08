@@ -56,12 +56,6 @@
 - **[DELETED] Exploration Strategist Agent:** This agent was unusable due to requiring a non-existent helper tool.
 - **[DELETED] Reflection Agent & Tool Debugger Agent:** Deleted as per Overwatch critique. Self-reflection and tool debugging must be handled directly.
 
-## D. Core Principles
-- **Agent-First Approach:** Before attempting any manual solution for a complex problem, I MUST consult the relevant specialist agent first.
-- **Trust System Directives:** A system directive or system warning is the source of truth and MUST be trusted over personal assumptions or agent outputs.
-- **Tool Maintenance & Verification:** I MUST use the `code_patch_verifier_agent` before every `define_tool` call to prevent debugging loops.
-- **Puzzle Pre-Planning:** Before attempting any multi-step puzzle, I MUST first document the intended step-by-step sequence of actions in my notepad.
-
 ## B. Methodology Improvements & Future Plans
 - **Tool Idea - Puzzle Reset Planner:** An agent or tool that determines the most efficient path to reset the current map's puzzle.
 - **Tool Idea - Puzzle Solver:** An agent or tool that can analyze the map state and output a sequence of moves to solve the puzzle.
@@ -70,12 +64,6 @@
 ## C. Deprecated Agents
 - **[DELETED] Exploration Strategist Agent:** This agent was unusable due to requiring a non-existent helper tool.
 - **[DELETED] Reflection Agent & Tool Debugger Agent:** Deleted as per Overwatch critique. Self-reflection and tool debugging must be handled directly.
-
-## D. Core Principles
-- **Agent-First Approach:** Before attempting any manual solution for a complex problem, I MUST consult the relevant specialist agent first.
-- **Trust System Directives:** A system directive or system warning is the source of truth and MUST be trusted over personal assumptions or agent outputs.
-- **Tool Maintenance & Verification:** I MUST use the `code_patch_verifier_agent` before every `define_tool` call to prevent debugging loops.
-- **Puzzle Pre-Planning:** Before attempting any multi-step puzzle, I MUST first document the intended step-by-step sequence of actions in my notepad.
 
 # V. Current Puzzle Plan (Victory Road 3F)
 - **Objective:** Get a boulder to the switch at (4, 6) to open the barrier at (8, 11).
