@@ -7,7 +7,7 @@
 - **`ground`**: Walkable tile.
 - **`grass`**: Tall grass where wild Pokémon appear. Walkable like `ground`.
 - **`elevated_ground`**: Walkable ground at a higher elevation. Movement to/from `ground` tiles requires `steps`.
-- **`cleared_boulder_barrier`**: A tile that becomes traversable after a boulder switch is activated. Acts like `elevated_ground` and allows one-way drops.
+- **`cleared_boulder_barrier`**: A tile that becomes traversable after a boulder switch is activated. Acts like `elevated_ground`.
 - **`steps`**: Connects `ground` and `elevated_ground` tiles, allowing vertical movement between them.
 - **`ledge`**: Can only be traversed downwards.
 - **`water`**: Crossable using HM Surf.
