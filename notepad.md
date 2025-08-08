@@ -58,8 +58,8 @@
 - **`battle_strategist_agent` Refinement:** The agent needs to be more cautious. It previously recommended an attack with a low-HP NEPTUNE against a faster Gengar, resulting in a KO. The prompt should be updated to heavily penalize high-risk plays with low-HP Pokémon that do not have a guaranteed speed advantage. (Note: Recent performance has been excellent, but this lesson remains valuable).
 
 # VI. Tool Development & Refinement
-- **PRIORITY 1: `pathfinder` Debugging:** The tool may be unreliable. If it fails, I will need to debug it using the verbose logs.
-- **PRIORITY 2: `boulder_puzzle_solver` Tool:** If pathfinding to solve the boulder puzzle is not feasible, creating a dedicated computational tool to solve it will be the next step.
+- **`pathfinder` Status:** The tool's logic for one-way drops and elevation changes is still buggy and has caused multiple pathing failures. It requires further debugging and refinement.
+- **`boulder_puzzle_solver` Status:** This tool is also failing because its internal player reachability check shares the same flawed traversal logic as the `pathfinder`. Fixing the core traversal logic is the highest priority.
 
 # VII. Current Hypothesis (Victory Road 1F)
 - **Hypothesis 7:** Solving the eastern boulder puzzle (boulder at (15, 3), switch at (18, 14)) is the key to reaching the ladder at (2, 2).
