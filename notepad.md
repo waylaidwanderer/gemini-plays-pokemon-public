@@ -56,7 +56,6 @@
 
 # VI. Future Tool/Agent Ideas
 - **`puzzle_master_tool`:** A tool to automate the entire puzzle-solving workflow: identify puzzle type, call the correct data extractor, call the solver, and parse the solution.
-- **`tool_debugger_agent`:** An agent that takes a failing tool's code, error message, and verbose logs as input to suggest a specific code fix. This would streamline the debugging process for complex tools.
 - **New Tool Idea - `battle_calculator`:** A computational tool might be superior to the LLM agent for battle logic. It could calculate damage ranges, speed tiers, and KO probabilities to provide purely data-driven advice, avoiding the agent's reasoning fallacies.
 - **`fly_menu_navigator_tool`**: A tool that can parse the screen text of the Fly menu to identify the currently selected location and determine the number of 'Down' presses required to reach a target destination. This would automate the tedious process of manually cycling through the list.
 
