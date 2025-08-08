@@ -58,7 +58,7 @@
 - **`puzzle_master_tool`:** A tool to automate the entire puzzle-solving workflow: identify puzzle type, call the correct data extractor, call the solver, and parse the solution.
 - **New Tool Idea - `battle_calculator`:** A computational tool might be superior to the LLM agent for battle logic. It could calculate damage ranges, speed tiers, and KO probabilities to provide purely data-driven advice, avoiding the agent's reasoning fallacies.
 - **`fly_menu_navigator_tool`**: A tool that can parse the screen text of the Fly menu to identify the currently selected location and determine the number of 'Down' presses required to reach a target destination. This would automate the tedious process of manually cycling through the list.
+- **New Tool Idea - `route_planner_tool`:** A computational tool to analyze `landmass_analyzer` output for complex routes with multiple landmasses (like Route 23). It would identify optimal surf/landing points to generate a high-level navigation plan.
 
 # VIII. Agent & Tool Refinement Log
 - **`battle_strategist_agent` Refinement Note:** The agent needs to be more cautious. It recommended an attack with a low-HP NEPTUNE against a faster Gengar, resulting in a KO. The prompt should be updated to heavily penalize high-risk plays with low-HP Pokémon that do not have a guaranteed speed advantage.
-- **New Tool Idea - `route_planner_tool`:** A computational tool to analyze `landmass_analyzer` output for complex routes with multiple landmasses (like Route 23). It would identify optimal surf/landing points to generate a high-level navigation plan.
