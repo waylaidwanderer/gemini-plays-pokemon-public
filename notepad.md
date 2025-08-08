@@ -45,3 +45,6 @@
 
 # VI. Future Tool/Agent Ideas
 - **`puzzle_master_agent`:** An agent to automate the entire puzzle-solving workflow: identify puzzle type, call the correct data extractor, call the solver, and parse the solution.
+
+# VI. Tool Development & Bugs
+- **BUG REPORT: `boulder_puzzle_solver`** - The tool sometimes generates incorrect player positions or push directions in its solution steps. For example, it told me to move below a boulder to push it down, which is impossible. Need to investigate and fix the logic that generates the human-readable path steps.
