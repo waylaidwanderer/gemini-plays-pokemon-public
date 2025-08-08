@@ -71,9 +71,4 @@
   2. Push the boulder at (23, 16) Right into the hole at (24, 16).
 
 # VI. Archived & Falsified Hypotheses
-- **[FALSIFIED] Victory Road 3F Boulder Puzzle - Hypothesis 3:** The boulder at (14, 13) can be pushed to the switch at (4, 6) via a long wrap-around path. This was my plan, but I am currently focused on the 2F puzzle.
-- **[FALSIFIED] Victory Road 3F Boulder Puzzle - Hypothesis 2:** The boulder at (23, 4) can be pushed to the switch at (4, 6). This fails because the path is blocked by impassable walls and elevation changes.
-- **[FALSIFIED] Victory Road 3F Boulder Puzzle - Hypothesis 1:** The boulder at (14, 13) can be pushed to the switch at (4, 6). My initial attempt failed because I incorrectly assumed the direct path to (14, 14) was the only one.
-- **[FALSIFIED] Victory Road 2F Boulder Puzzle - Hypothesis 9:** The boulder at (7, 12) can be pushed DOWN to (7, 17) and then RIGHT to the switch at (10, 17). This fails because the tile at (6, 17) is an impassable wall, making it impossible to get into position to push the boulder to the right.
-- **[FALSIFIED] Victory Road 2F Boulder Puzzle - Hypothesis 8:** The boulder at (5, 15) can be pushed to the switch at (10, 17). The path is: push UP to (5, 12), then push RIGHT to (10, 12), then push DOWN to (10, 17). This fails because the path right is blocked by an impassable wall at (9, 12).
-- **[FALSIFIED] Victory Road 2F Boulder Puzzle - Hypothesis 7:** The boulder at (5, 15) can be pushed to (10, 17) via (10, 16). Failed because the path right from (8, 16) is blocked by an impassable wall at (9, 16).
+- [Previous hypotheses removed for clarity as per Overwatch critique.]
