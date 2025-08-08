@@ -40,7 +40,7 @@
 
 # V. Methodology & Lessons Learned
 - **Pathfinding Verification:** When a pathfinding tool reports no path, it is a strong indicator of a genuine barrier, not a tool bug. The `landmass_analyzer` tool should be used to confirm physical connectivity before assuming the pathfinder is flawed.
-- **Agent Limitations:** Reasoning-based agents (like `puzzle_strategist_agent`) are ill-suited for complex, state-based computational problems like boulder puzzles. These tasks require dedicated computational tools (`boulder_puzzle_solver`).
+- **Agent Limitations:** Reasoning-based agents (like `battle_strategist_agent`) are ill-suited for complex, state-based computational problems like boulder puzzles. These tasks require dedicated computational tools (`boulder_puzzle_solver`).
 - **Strategic Flexibility:** Fixating on a single, stalled objective is inefficient. If multiple paths are available, and one is blocked by a difficult puzzle, exploring the alternate path is a better strategy than repeated failed attempts.
 - **Tool Reliability:** A tool that produces an incorrect or impossible result is a critical failure. Tool maintenance and debugging must take precedence over any other gameplay action to ensure a reliable toolchain.
 
@@ -59,28 +59,4 @@
 - **Hypothesis 2:** Use boulder at (5, 15). **Outcome:** `boulder_puzzle_solver` reported no path. Hypothesis denied.
 ## C. Floor 3F
 - **Objective:** Activate switch at (4, 6).
-- **Status:** The boulder at (14, 14) is in a potentially soft-locked position.
-- **Plan:** Following a critical directive, I will systematically test all available boulders on this floor—(18, 2), (14, 14), (25, 11), and (23, 16)—using `boulder_puzzle_solver` to find a valid solution to reach the switch.
-## C. Floor 3F Solution (Boulder at (18, 2) to Switch at (4, 6))
-- **Status:** Confirmed solvable by `boulder_puzzle_solver`.
-- **Plan:**
-  1. Move to (19, 2), Push Left to (17, 2)
-  2. Move to (18, 2), Push Left to (16, 2)
-  3. Move to (17, 2), Push Left to (15, 2)
-  4. Move to (16, 2), Push Left to (14, 2)
-  5. Move to (15, 2), Push Left to (13, 2)
-  6. Move to (14, 2), Push Left to (12, 2)
-  7. Move to (13, 2), Push Left to (11, 2)
-  8. Move to (12, 2), Push Left to (10, 2)
-  9. Move to (11, 2), Push Left to (9, 2)
-  10. Move to (10, 2), Push Left to (8, 2)
-  11. Move to (9, 2), Push Left to (7, 2)
-  12. Move to (7, 1), Push Down to (7, 3)
-  13. Move to (8, 3), Push Left to (6, 3)
-  14. Move to (7, 3), Push Left to (5, 3)
-  15. Move to (6, 3), Push Left to (4, 3)
-  16. Move to (5, 3), Push Left to (3, 3)
-  17. Move to (3, 2), Push Down to (3, 4)
-  18. Move to (3, 3), Push Down to (3, 5)
-  19. Move to (3, 4), Push Down to (3, 6)
-  20. Move to (2, 6), Push Right to (4, 6)
+- **Status:** Currently executing a 20-step solution provided by `boulder_puzzle_solver` using the boulder from (18, 2). The plan is confirmed to be solvable and is in its final stages.
