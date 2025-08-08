@@ -42,14 +42,14 @@
 - **Pathfinding Verification:** When a pathfinding tool reports no path, it is a strong indicator of a genuine barrier, not a tool bug. The `landmass_analyzer` tool should be used to confirm physical connectivity before assuming the pathfinder is flawed.
 - **Agent Limitations:** Reasoning-based agents (like `battle_strategist_agent`) are ill-suited for complex, state-based computational problems like boulder puzzles. These tasks require dedicated computational tools (`boulder_puzzle_solver`).
 - **Strategic Flexibility:** Fixating on a single, stalled objective is inefficient. If multiple paths are available, and one is blocked by a difficult puzzle, exploring the alternate path is a better strategy than repeated failed attempts.
-- **Tool Reliability:** A tool that produces an incorrect or impossible result is a critical failure. Tool maintenance and debugging must take precedence over any other gameplay action to ensure a reliable toolchain.
+- **Tool Reliability:** A tool that produces an incorrect or impossible result is a critical failure. Tool maintenance and debugging must take precedence over any other gameplay action to ensure a reliable toolchain. The `ignored_object_types` logic in the pathfinder was a flawed shortcut that led to invalid paths; treating all NPCs as impassable is the correct approach.
 
 # VI. Future Tool/Agent Ideas
 - **`puzzle_master_agent`:** An agent to automate the entire puzzle-solving workflow: identify puzzle type, call the correct data extractor, call the solver, and parse the solution.
 
-# VII. Victory Road Progression
+# VII. Victory Road Progression (Summary)
 - **Multi-floor Puzzles:** The puzzles in Victory Road often require elements from multiple floors (e.g., pushing a boulder through a hole from 3F to solve a puzzle on 2F).
-- **1F Puzzle:** Solved by pushing the boulder at (18, 13) onto the switch at (18, 14) to clear the eastern barrier. The western path was also cleared.
-- **2F Puzzle:** The main progression path was unblocked by pushing a boulder from 3F down a hole, which landed at (5, 15) on 2F. This boulder was then pushed onto the switch at (2, 17) to clear the barrier at (8, 9). Another puzzle involving a switch at (10, 17) appears to be for an optional item.
-- **3F Puzzle:** Solved by pushing the boulder from (14, 13) into the hole at (14, 15) and by pushing the boulder from (18, 2) onto the switch at (4, 6).
-- **Current Status:** All necessary puzzles to reach the end of Victory Road appear to be solved. The current objective is to retreat, heal, and then proceed to the Indigo Plateau.
+- **Solved Puzzles:**
+  - **3F:** Pushed boulder from (14, 13) into hole at (14, 15). Pushed boulder from (18, 2) onto switch at (4, 6).
+  - **2F:** Used boulder from 3F (landed at (5, 15)) and pushed it onto switch at (2, 17) to clear the main progression barrier. Another puzzle for an optional item remains.
+  - **1F:** The main progression puzzle to clear the eastern barrier at (10, 13) remains unsolved. My `boulder_puzzle_solver` has confirmed that no boulder currently on 1F can reach the switch at (18, 14).
