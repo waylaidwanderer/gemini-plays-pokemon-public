@@ -58,3 +58,8 @@
 - **Objective:** Activate switch at (4, 6).
 - **Hypothesis 1:** Use boulder at (23, 4). **Outcome:** `boulder_puzzle_solver` confirmed a valid, multi-step path exists.
 - **Conclusion:** This is the correct boulder to solve the puzzle on 3F. The solution is long and requires navigating the entire floor.
+
+## C. Floor 1F
+- **Objective:** Open barrier at (10, 13) by activating switch at (18, 14).
+- **Hypothesis 1:** Use boulder at (15, 3). **Outcome:** `boulder_puzzle_solver` reported no path. Hypothesis denied.
+- **Hypothesis 2:** Use boulder at (6, 16). **Status:** Testing now.
