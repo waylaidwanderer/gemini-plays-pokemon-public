@@ -70,7 +70,9 @@
 
 - **Hypothesis 3:** Pushing the central boulder (now at (7, 17)) further right to (8, 17) will create a path.
 - **Test:** Pushed boulder to (8, 17). Attempted to pathfind to eastern steps at (16, 8).
-- **Conclusion:** Failed. The pathfinder confirmed the route is still blocked. The central boulder seems to be a red herring.
+- **Conclusion:** Failed. The pathfinder confirmed the route is still blocked. The central boulder is a red herring.
+- **Hypothesis 4:** The western boulder puzzle (boulder at (3, 11), switch at (3, 10)) must be solved first. This will not open the main barrier directly, but will instead open an alternate path to the eastern side of the map, allowing the main puzzle to be solved.
+- **Test:** Navigate to the western platform and push the boulder at (3, 11) onto the switch at (3, 10).
 - **Conclusion:** Failed. The pathfinder confirmed the route is still blocked. The central boulder seems to be a red herring.
 
 - **Hypothesis 2:** Pushing the central boulder right to (7, 17) creates a path. **Conclusion: Failed.** The pathfinder confirmed the route is still blocked.
@@ -79,5 +81,7 @@
 
 - **Hypothesis 3:** Pushing the central boulder (now at (7, 17)) further right to (8, 17) will create a path.
 - **Test:** Pushed boulder to (8, 17). Attempted to pathfind to eastern steps at (16, 8).
-- **Conclusion:** Failed. The pathfinder confirmed the route is still blocked. The central boulder seems to be a red herring.
+- **Conclusion:** Failed. The pathfinder confirmed the route is still blocked. The central boulder is a red herring.
+- **Hypothesis 4:** The western boulder puzzle (boulder at (3, 11), switch at (3, 10)) must be solved first. This will not open the main barrier directly, but will instead open an alternate path to the eastern side of the map, allowing the main puzzle to be solved.
+- **Test:** Navigate to the western platform and push the boulder at (3, 11) onto the switch at (3, 10).
 - **Conclusion:** Failed. The pathfinder confirmed the route is still blocked. The central boulder seems to be a red herring.
