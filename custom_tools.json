@@ -620,5 +620,39 @@
         "action_counter": 126603
       }
     ]
+  },
+  "boulder_puzzle_solver": {
+    "description": "Solves a single-boulder puzzle using a Breadth-First Search (BFS) on the puzzle's state space. The state is defined by the player's and the boulder's position. It finds a sequence of player movements and boulder pushes to move a specific boulder to a target location, ensuring the player can always reach the necessary position to perform each push.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "boulder_x": {
+          "type": "string"
+        },
+        "boulder_y": {
+          "type": "string"
+        },
+        "target_x": {
+          "type": "string"
+        },
+        "target_y": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "boulder_x",
+        "boulder_y",
+        "target_x",
+        "target_y"
+      ]
+    },
+    "python_script": "import json\nimport xml.etree.ElementTree as ET\nfrom collections import deque\nimport heapq\n\n# --- Helper A* Pathfinder for Player Reachability ---\ndef is_reachable(grid, start, goal, impassable_types, all_boulders, current_boulder_pos):\n    player_pathfinder_start = (start[0], start[1])\n    player_pathfinder_goal = (goal[0], goal[1])\n    \n    extra_impassable = set(all_boulders)\n    extra_impassable.discard(current_boulder_pos) # Player can't walk through other boulders\n\n    open_set = [(0, player_pathfinder_start)]\n    came_from = {}\n    g_score = {player_pathfinder_start: 0}\n    \n    while open_set:\n        _, current = heapq.heappop(open_set)\n        \n        if current == player_pathfinder_goal:\n            return True\n\n        for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n            neighbor = (current[0] + dx, current[1] + dy)\n\n            if neighbor not in grid or grid[neighbor]['type'] in impassable_types or neighbor in extra_impassable:\n                continue\n            \n            # Simplified player movement check (no elevation for now)\n            if grid[neighbor]['type'] not in ['ground', 'boulder_switch', 'steps', 'cleared_boulder_barrier', 'elevated_ground', 'ladder_up', 'ladder_down']:\n                 continue\n\n            tentative_g_score = g_score[current] + 1\n            if neighbor not in g_score or tentative_g_score < g_score[neighbor]:\n                g_score[neighbor] = tentative_g_score\n                f_score = tentative_g_score + abs(neighbor[0] - player_pathfinder_goal[0]) + abs(neighbor[1] - player_pathfinder_goal[1])\n                heapq.heappush(open_set, (f_score, neighbor))\n                came_from[neighbor] = current\n    return False\n\n# --- Main Boulder Puzzle Solver ---\nroot = ET.fromstring(map_xml_string)\n\n# Parse Grid\ngrid = {}\nplayer_start_pos = None\nall_boulders = set()\nfor row_elem in root.findall('Row'):\n    y = int(row_elem.get('id'))\n    for tile_elem in row_elem.findall('Tile'):\n        x = int(tile_elem.get('id'))\n        if tile_elem.find('Player') is not None:\n            player_start_pos = (x, y)\n        if tile_elem.find('Boulder') is not None:\n            all_boulders.add((x, y))\n        grid[(x, y)] = {'type': tile_elem.get('type')}\n\nboulder_start_pos = (int(input_data['boulder_x']), int(input_data['boulder_y']))\ntarget_pos = (int(input_data['target_x']), int(input_data['target_y']))\n\nimpassable_types = ['impassable', 'boulder_barrier', 'water']\nboulder_traversable = ['ground', 'boulder_switch']\n\n# State: (player_pos, boulder_pos, path_list)\ninitial_state = (player_start_pos, boulder_start_pos, [])\nqueue = deque([initial_state])\nvisited = set([(player_start_pos, boulder_start_pos)])\n\nsolution_found = False\nwhile queue:\n    current_player_pos, current_boulder_pos, path = queue.popleft()\n\n    if current_boulder_pos == target_pos:\n        print(json.dumps(path))\n        solution_found = True\n        break\n\n    # Try pushing in 4 directions\n    for dx, dy, direction, opposite_direction in [(0, -1, 'Up', 'Down'), (0, 1, 'Down', 'Up'), (-1, 0, 'Left', 'Right'), (1, 0, 'Right', 'Left')]:\n        boulder_new_pos = (current_boulder_pos[0] + dx, current_boulder_pos[1] + dy)\n        player_push_pos = (current_boulder_pos[0] - dx, current_boulder_pos[1] - dy)\n\n        # Check if boulder can move to the new spot\n        if boulder_new_pos not in grid or grid[boulder_new_pos]['type'] not in boulder_traversable:\n            continue\n        \n        # Check if player can get to the pushing position\n        if not is_reachable(grid, current_player_pos, player_push_pos, impassable_types, all_boulders, current_boulder_pos):\n            continue\n        \n        new_state_tuple = (current_boulder_pos, boulder_new_pos)\n        if new_state_tuple in visited:\n            continue\n        \n        visited.add(new_state_tuple)\n        new_path = path + [f'Move to {player_push_pos}', f'Push boulder at {current_boulder_pos} {direction} to {boulder_new_pos}']\n        queue.append((current_boulder_pos, boulder_new_pos, new_path))\n\nif not solution_found:\n    print(json.dumps({'error': f'No solution found to move boulder from {boulder_start_pos} to {target_pos}.'}))",
+    "history": [
+      {
+        "commit_message": "feat: Create boulder_puzzle_solver tool. The `puzzle_strategist_agent` is fundamentally unsuited for solving complex, computational pathfinding puzzles, leading to repeated failures. This commit creates a new, dedicated tool that uses a proper state-space search (BFS) to find a valid sequence of pushes. It includes a nested A* search to validate player reachability for each potential push, ensuring generated solutions are always physically possible. This is a critical fix to address a major toolchain flaw and unblock progress in Victory Road.",
+        "timestamp": "2025-08-08T04:50:03.848Z",
+        "action_counter": 126955
+      }
+    ]
   }
 }
