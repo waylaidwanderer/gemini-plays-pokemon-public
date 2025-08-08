@@ -69,11 +69,13 @@
 - **Hypothesis 2:** Pushing the central boulder right to (7, 17) creates a path. **Conclusion: Failed.** The pathfinder confirmed the route is still blocked.
 
 - **Hypothesis 3:** Pushing the central boulder (now at (7, 17)) further right to (8, 17) will create a path.
-- **Test:** Move to (6, 17) to get into position.
+- **Test:** Pushed boulder to (8, 17). Attempted to pathfind to eastern steps at (16, 8).
+- **Conclusion:** Failed. The pathfinder confirmed the route is still blocked. The central boulder seems to be a red herring.
 
 - **Hypothesis 2:** Pushing the central boulder right to (7, 17) creates a path. **Conclusion: Failed.** The pathfinder confirmed the route is still blocked.
 
 - **Hypothesis 2:** Pushing the central boulder right to (7, 17) creates a path. **Conclusion: Failed.** The pathfinder confirmed the route is still blocked.
 
 - **Hypothesis 3:** Pushing the central boulder (now at (7, 17)) further right to (8, 17) will create a path.
-- **Test:** Move to (6, 17) to get into position.
+- **Test:** Pushed boulder to (8, 17). Attempted to pathfind to eastern steps at (16, 8).
+- **Conclusion:** Failed. The pathfinder confirmed the route is still blocked. The central boulder seems to be a red herring.
