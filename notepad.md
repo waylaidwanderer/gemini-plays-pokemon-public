@@ -56,3 +56,7 @@
 # VI. Future Tool/Agent Ideas
 - **`puzzle_master_tool`:** A tool to automate the entire puzzle-solving workflow: identify puzzle type, call the correct data extractor, call the solver, and parse the solution.
 - **`tool_debugger_agent`:** An agent that takes a failing tool's code, error message, and verbose logs as input to suggest a specific code fix. This would streamline the debugging process for complex tools.
+
+# VII. Self-Reflection (Turn 128031)
+- **Confirmation Bias Lesson:** The repeated failure of the `boulder_puzzle_solver` was a critical lesson. I incorrectly assumed the tool was broken because it didn't confirm my pre-existing belief about the puzzle's solution. I must treat negative results from my tools as valid data that should prompt a re-evaluation of my strategy, not just the tool itself. This is especially true for pathfinding and puzzle-solving tools.
+- **New Agent Idea:** A `tool_debugger_agent` could be created to analyze a failing tool's code, error messages, and verbose logs to suggest specific code fixes, streamlining the debugging process.
