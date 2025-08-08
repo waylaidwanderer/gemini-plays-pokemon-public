@@ -56,14 +56,7 @@
 - Push boulder at (20, 2) Left
 - Push boulder at (19, 2) Left
 - Push boulder at (18, 2) Left
-- Push boulder at (17, 2) Left
-- Push boulder at (16, 2) Left
-- Push boulder at (15, 2) Left
-- Push boulder at (14, 2) Left
-- Push boulder at (13, 2) Left
-- Push boulder at (12, 2) Left
-- Push boulder at (11, 2) Left
-- Push boulder at (10, 2) Left
+
 - Push boulder at (9, 2) Left
 - Push boulder at (8, 2) Left
 - Push boulder at (7, 2) Down
@@ -79,14 +72,7 @@
 - Push boulder at (20, 2) Left
 - Push boulder at (19, 2) Left
 - Push boulder at (18, 2) Left
-- Push boulder at (17, 2) Left
-- Push boulder at (16, 2) Left
-- Push boulder at (15, 2) Left
-- Push boulder at (14, 2) Left
-- Push boulder at (13, 2) Left
-- Push boulder at (12, 2) Left
-- Push boulder at (11, 2) Left
-- Push boulder at (10, 2) Left
+
 - Push boulder at (9, 2) Left
 - Push boulder at (8, 2) Left
 - Push boulder at (7, 2) Down
@@ -102,14 +88,7 @@
 - Push boulder at (20, 2) Left
 - Push boulder at (19, 2) Left
 - Push boulder at (18, 2) Left
-- Push boulder at (17, 2) Left
-- Push boulder at (16, 2) Left
-- Push boulder at (15, 2) Left
-- Push boulder at (14, 2) Left
-- Push boulder at (13, 2) Left
-- Push boulder at (12, 2) Left
-- Push boulder at (11, 2) Left
-- Push boulder at (10, 2) Left
+
 - Push boulder at (9, 2) Left
 - Push boulder at (8, 2) Left
 - Push boulder at (7, 2) Down
