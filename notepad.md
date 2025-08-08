@@ -47,16 +47,9 @@
 # VI. Future Tool/Agent Ideas
 - **`puzzle_master_agent`:** An agent to automate the entire puzzle-solving workflow: identify puzzle type, call the correct data extractor, call the solver, and parse the solution.
 
-# VII. Victory Road Puzzles
-## A. Floor 1F
-- **Objective:** Open barrier at (10, 13) by activating switch at (18, 14).
-- **Hypothesis 1:** Use boulder at (15, 3). **Outcome:** `boulder_puzzle_solver` reported no path. Hypothesis denied.
-- **Hypothesis 2:** Use boulder at (6, 16). **Outcome:** `boulder_puzzle_solver` reported no path. Hypothesis denied.
-- **Conclusion:** Puzzle is likely unsolvable from 1F alone. Requires an element from another floor.
-## B. Floor 2F
-- **Objective:** Open barrier at (24, 15) by activating switch at (10, 17).
-- **Hypothesis 1:** Use boulder at (6, 6). **Outcome:** `boulder_puzzle_solver` reported no path. Hypothesis denied.
-- **Hypothesis 2:** Use boulder at (5, 15). **Outcome:** `boulder_puzzle_solver` reported no path. Hypothesis denied.
-## C. Floor 3F
-- **Objective:** Activate switch at (4, 6).
-- **Status:** Currently executing a 20-step solution provided by `boulder_puzzle_solver` using the boulder from (18, 2). The plan is confirmed to be solvable and is in its final stages.
+# VII. Victory Road Progression
+- **Multi-floor Puzzles:** The puzzles in Victory Road often require elements from multiple floors (e.g., pushing a boulder through a hole from 3F to solve a puzzle on 2F).
+- **1F Puzzle:** Solved by pushing the boulder at (18, 13) onto the switch at (18, 14) to clear the eastern barrier. The western path was also cleared.
+- **2F Puzzle:** The main progression path was unblocked by pushing a boulder from 3F down a hole, which landed at (5, 15) on 2F. This boulder was then pushed onto the switch at (2, 17) to clear the barrier at (8, 9). Another puzzle involving a switch at (10, 17) appears to be for an optional item.
+- **3F Puzzle:** Solved by pushing the boulder from (14, 13) into the hole at (14, 15) and by pushing the boulder from (18, 2) onto the switch at (4, 6).
+- **Current Status:** All necessary puzzles to reach the end of Victory Road appear to be solved. The current objective is to retreat, heal, and then proceed to the Indigo Plateau.
