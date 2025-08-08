@@ -52,5 +52,5 @@
 # VII. Victory Road Progression (Summary)
 - **Solved Puzzles:**
   - **3F:** Pushed boulder from (14, 13) into hole at (14, 15).
-  - **3F:** Solved the puzzle to push the boulder from (18,2) to the switch at (4,6). Currently executing this solution.
+  - **3F:** Solved the puzzle to push the boulder from (23,2) to the switch at (4,6). Currently executing this solution.
   - **2F:** Used boulder from 3F (landed at (5, 15)) and pushed it onto switch at (2, 17) to clear the main progression barrier.
