@@ -64,8 +64,12 @@
 
 # VI. Current Hypothesis (Victory Road 1F)
 - **Hypothesis 1:** Pushing the central boulder at (6, 16) south will clear a path on the ground floor.
-- **Test:** Pushed boulder to (6, 17). Attempted to pathfind to eastern steps at (16, 8).
 - **Conclusion:** Failed. The pathfinder confirmed the route is still blocked by impassable terrain, not a barrier.
+
+- **Hypothesis 2:** Pushing the central boulder right to (7, 17) creates a path. **Conclusion: Failed.** The pathfinder confirmed the route is still blocked.
+
+- **Hypothesis 3:** Pushing the central boulder (now at (7, 17)) further right to (8, 17) will create a path.
+- **Test:** Move to (6, 17) to get into position.
 
 - **Hypothesis 2:** Pushing the central boulder right to (7, 17) creates a path. **Conclusion: Failed.** The pathfinder confirmed the route is still blocked.
 
