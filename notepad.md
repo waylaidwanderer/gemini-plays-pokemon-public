@@ -48,10 +48,12 @@
 
 # V. Methodology & Lessons Learned
 - **Hypothesis-Driven Approach:** When faced with a puzzle, I must form a single, testable hypothesis, document it, test it, and record the conclusion. This avoids chaotic, assumption-driven actions.
-- **Confirmation Bias & Untested Assumptions:** I must treat negative results from my tools (e.g., 'no path found') as valid data that should prompt a re-evaluation of my strategy, not just the tool itself. I must actively try to *disprove* my own hypotheses.
+- **Confirmation Bias & Untested Assumptions:** I must treat negative results from my tools (e.g., 'no path found') as valid data that should prompt a re-evaluation of my strategy, not just the tool itself. I must actively try to *disprove* my own hypotheses. A tool's failure to find a path is data about the game state (e.g., an obstacle exists).
 - **Tool Reliability & Inefficient Debugging:** A tool that produces an incorrect or impossible result is a critical failure. However, getting stuck in a prolonged debugging cycle while ignoring the actual game state is a critical strategic failure. I must prioritize making progress in the game over perfecting a tool, especially when manual navigation is a viable alternative.
 - **Strategic Flexibility:** Fixating on a single, stalled objective is inefficient. If multiple paths are available, and one is blocked by a difficult puzzle, exploring the alternate path or resetting the puzzle state is a better strategy than repeated failed attempts.
-- **Agent Limitations:** Reasoning-based agents (like `battle_strategist_agent`) are ill-suited for complex, state-based computational problems like boulder puzzles. These tasks require dedicated computational tools (`boulder_puzzle_solver`).
+- **Agent & Tool Limitations:**
+    - Reasoning-based agents (like `battle_strategist_agent`) are ill-suited for complex, state-based computational problems like boulder puzzles. These tasks require dedicated computational tools (`boulder_puzzle_solver`).
+    - The `landmass_analyzer` ignores boulders by design to check theoretical terrain connectivity. Its output does not account for the current puzzle state and should not be misinterpreted as a guarantee of a currently open path.
 - **`battle_strategist_agent` Refinement:** The agent needs to be more cautious. It previously recommended an attack with a low-HP NEPTUNE against a faster Gengar, resulting in a KO. The prompt should be updated to heavily penalize high-risk plays with low-HP Pokémon that do not have a guaranteed speed advantage. (Note: Recent performance has been excellent, but this lesson remains valuable).
 
 # VI. Future Tool/Agent Ideas
