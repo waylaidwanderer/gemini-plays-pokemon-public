@@ -60,6 +60,6 @@
 - **Conclusion:** Puzzle is unsolvable from 2F alone. Requires an element from another floor.
 ## C. Floor 3F
 - **Objective:** Activate switch at (4, 6).
-- **Boulder:** The correct boulder to use is the one starting at (14, 13).
-- **Status:** Puzzle reset required due to incorrect push. Current plan is to exit and re-enter the floor.
-- **Solution:** `boulder_puzzle_solver` has confirmed a valid, multi-step path exists from the initial state.
+- **Method:** Use the boulder starting at (14, 13).
+- **Status:** A mistake was made, pushing the boulder to an unsolvable position at (14, 14). Currently resetting the puzzle by leaving and re-entering the floor.
+- **Note:** `boulder_puzzle_solver` has confirmed a valid solution exists from the puzzle's initial state.
