@@ -52,6 +52,4 @@
 - **Solved Puzzles:**
   - **3F:** Pushed boulder from (14, 13) into hole at (14, 15). Pushed boulder from (18, 2) onto switch at (4, 6).
   - **2F:** Used boulder from 3F (landed at (5, 15)) and pushed it onto switch at (2, 17) to clear the main progression barrier. Another puzzle for an optional item remains.
-- **Current Puzzle (1F):** I am in the western section, where the path to the exit is blocked by a local puzzle (boulder at (3, 11), switch at (3, 10)). The eastern puzzle (boulder at (15, 3), switch at (18, 14)) is on a separate, currently inaccessible landmass.
-- **Tool Maintenance is Priority One:** A tool that produces an incorrect or impossible result is a critical failure. Tool maintenance and debugging must take absolute precedence over any other gameplay action to ensure a reliable toolchain. I must not attempt to work around a broken tool; I must fix it immediately.
-- **Hypothesis Update:** After repeated failures to solve the 1F puzzles and path to the exit, I now believe the solution requires an element from another floor, likely a boulder pushed down from 2F. My immediate goal is to return to 2F to investigate.
+- **Progression Hypothesis & Tool Priority:** After failures on 1F and 2F, I now believe the solution requires an element from another floor (e.g., a boulder pushed down from 3F). Tool maintenance remains the highest priority; a broken tool must be fixed immediately before any other action.
