@@ -60,9 +60,9 @@
 - **Hypothesis 2 (Plan V2 - Failed):** The elevated platforms can be used to cross from the western side of the map to the eastern side.
   - **Conclusion:** The path across the western platform is blocked by impassable tiles and a boulder barrier at (10, 13). The steps at (8, 8) are inaccessible from the platform. The western platform is a dead end for east-west traversal.
 
-## Victory Road 1F - Plan V3
-- **Hypothesis:** The ground floor provides a complete path between the western and eastern sections of the map, allowing access to all puzzles.
-- **Step 1:** Descend from the western elevated platform via the steps at (6, 14).
-- **Step 2:** Navigate across the ground floor to the eastern side of the map.
-- **Step 3:** Solve the eastern boulder puzzle (boulder at (15, 3) to switch at (18, 14)). This should clear the boulder barrier at (10, 13).
-- **Step 4:** With the platform now connected, solve the western boulder puzzle (boulder at (3, 10) to switch at (3, 5)) to clear the path to the ladder at (2, 2).
+## Victory Road 1F - Plan V4
+- **Hypothesis:** The boulder at (10, 17) connects the southern and western ground areas. Pushing it away will allow access to the western boulder puzzle.
+- **Step 1:** Navigate from (17, 15) to (10, 16).
+- **Step 2:** Push the boulder at (10, 17) down onto the warp tile at (10, 18).
+- **Step 3:** This should clear the path, allowing access to the western part of the ground floor.
+- **Step 4:** Proceed to solve the western boulder puzzle.
