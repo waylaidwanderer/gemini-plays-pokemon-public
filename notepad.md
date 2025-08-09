@@ -69,5 +69,5 @@
   - **Purpose:** Solve complex puzzles with multiple interacting boulders.
   - **Function:** Analyzes the map state (boulder positions, switch locations, barriers) and generates a full sequence of moves. This would be a high-level strategic agent, potentially calling the `boulder_puzzle_solver` tool for individual steps.
 - **Hypothesis to Test:** After crossing the next water section on Route 23, I must use the `landmass_analyzer` to confirm that the new landmass connects all the way to the Victory Road entrance at (5, 32).
-- `ladder_up`: Warps between floors, specifically for ascending.
+
 - **Trust Tool Failures:** A tool reporting 'no path found' is a strong indicator that my hypothesis about the path is wrong. I must use this to falsify my own beliefs and avoid confirmation bias, rather than immediately assuming the tool is broken.
