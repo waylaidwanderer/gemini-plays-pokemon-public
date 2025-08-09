@@ -28,7 +28,9 @@
 - **2F Main Barrier:** Used boulder from 3F (landed at (5, 15)) and pushed it onto switch at (2, 17).
 - **3F Main Barrier:** Pushed boulder from (23, 2) to switch at (4, 6).
 - **2F Western Barrier:** The switch at (2, 17) is empty, but the barrier is already cleared. This puzzle is solved.
-- **1F Western Barrier:** Pushed boulder at (3, 11) to the switch at (3, 10).
+
+## Current Hypotheses (Victory Road 1F)
+- **1F Western Barrier:** Pushing the boulder at (3, 11) onto the switch at (3, 10) will open a path forward. (Attempt #1)
 
 # IV. Battle Intelligence
 ## A. Type Effectiveness Chart (OBSERVATION-ONLY)
@@ -59,10 +61,13 @@
 - **`pathfinder` Status:** The tool is now fully functional. Critical bugs related to elevation changes, one-way drops, defeated trainers, and ledge traversal have been resolved. It can now reliably navigate complex multi-level maps.
 - **`boulder_puzzle_solver` Status:** This tool is likely still unreliable. Its internal player reachability check may have inherited the same flawed traversal logic from the old `pathfinder`, causing it to generate impossible solutions or fail to find solutions that exist. This tool requires testing and refinement.
 
-# VII. Current Plan (Route 23 -> Victory Road)
-- **Objective:** Navigate through Route 23 to re-enter Victory Road 1F.
-- **Status:** The party is fully healed. The `pathfinder` tool is now fully functional after resolving bugs with ledge traversal and surfing.
-- **Plan:** I will navigate Route 23 in segments, using Surf to cross the water sections, until I reach the Victory Road entrance at (5, 32). I am currently on the second landmass.
+# VII. Current Plan (Victory Road 1F)
+- **Objective:** Solve the boulder puzzle on Victory Road 1F to unlock the path to the ladder at (2, 2).
+- **Status:** I am at (3, 12), positioned to push the boulder at (3, 11) north.
+- **Plan:**
+    1. Activate Strength.
+    2. Push the boulder at (3, 11) onto the switch at (3, 10).
+    3. Observe the outcome.
 
 # VIII. Future Development & Testing
 - **Agent Idea:** Create a `multi_modal_planner` agent that can break down a long-distance navigation goal into a sequence of pathfinder calls with different movement modes (e.g., walking, then surfing, then walking again).
