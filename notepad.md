@@ -33,15 +33,18 @@
 - **Hypothesis #1 (Western Boulder):** Pushing the boulder at (3, 11) onto the switch at (3, 10) will open a path forward.
   - **Test:** Pushed boulder from (3, 11) to (3, 10).
   - **Conclusion:** Hypothesis is **incorrect**. The barrier at (10, 13) remains closed.
-## Current Plan (Victory Road 1F -> 2F)
-- **Observation:** The ground floor of Victory Road 1F is split into two disconnected sections (west and east). The eastern boulder puzzle is unreachable from the western section.
-- **New Plan:** Ascend to Victory Road 2F via the ladder at (2, 2) and search for a path that leads down to the eastern section of 1F.
-## Current Plan (Victory Road 1F -> 2F)
-- **Observation:** The ground floor of Victory Road 1F is split into two disconnected sections (west and east). The eastern boulder puzzle is unreachable from the western section.
-- **New Plan:** Ascend to Victory Road 2F via the ladder at (2, 2) and search for a path that leads down to the eastern section of 1F.
-## Current Plan (Victory Road 1F -> 2F)
-- **Observation:** The ground floor of Victory Road 1F is split into two disconnected sections (west and east). The eastern boulder puzzle is unreachable from the western section.
-- **New Plan:** Ascend to Victory Road 2F via the ladder at (2, 2) and search for a path that leads down to the eastern section of 1F.
+## Current Plan (Victory Road 1F)
+- **Critical Failure:** Pushing the western boulder at (3, 11) to the switch at (3, 10) is a trap that blocks the path to the ladder at (2, 2).
+- **Key Insight:** Boulder puzzles reset upon leaving and re-entering the map. This is the solution to the trap.
+- **New Plan:** Exit Victory Road to Route 23 to reset the boulder puzzle. Re-enter, ignore the western boulder, and proceed directly to the ladder at (2, 2) to continue exploration.
+## Current Plan (Victory Road 1F)
+- **Critical Failure:** Pushing the western boulder at (3, 11) to the switch at (3, 10) is a trap that blocks the path to the ladder at (2, 2).
+- **Key Insight:** Boulder puzzles reset upon leaving and re-entering the map. This is the solution to the trap.
+- **New Plan:** Exit Victory Road to Route 23 to reset the boulder puzzle. Re-enter, ignore the western boulder, and proceed directly to the ladder at (2, 2) to continue exploration.
+## Current Plan (Victory Road 1F)
+- **Critical Failure:** Pushing the western boulder at (3, 11) to the switch at (3, 10) is a trap that blocks the path to the ladder at (2, 2).
+- **Key Insight:** Boulder puzzles reset upon leaving and re-entering the map. This is the solution to the trap.
+- **New Plan:** Exit Victory Road to Route 23 to reset the boulder puzzle. Re-enter, ignore the western boulder, and proceed directly to the ladder at (2, 2) to continue exploration.
 
 # IV. Battle Intelligence
 ## A. Type Effectiveness Chart (OBSERVATION-ONLY)
