@@ -48,7 +48,7 @@
 # V. Methodology & Lessons Learned
 - **Hypothesis-Driven Approach:** I must form a single, testable hypothesis, document it, test it, and record the conclusion. This avoids chaotic, assumption-driven actions.
 - **Tool Reliability & Immediate Action:** A tool that produces an incorrect or impossible result is a critical failure. I MUST fix it immediately with `define_tool` instead of deferring the task or attempting workarounds. This is a non-negotiable directive.
-- **Trust System Over Tools:** If the system validation check insists a path is reachable while my tools (`pathfinder`, `landmass_analyzer`) say it is not, the system is correct and my tools are flawed. The immediate priority becomes debugging the tool, not continuing to test hypotheses based on the tool's flawed output.
+- **Trust System Over Custom Analysis:** If the system validation check insists a path is reachable while my own analysis suggests it is not, the system is correct and my analysis is flawed. The immediate priority becomes re-evaluating my understanding of the map.
 - **Falsify Assumptions:** I must actively try to disprove my own hypotheses, especially regarding navigation. If a path fails, I should use tools like `landmass_analyzer` to verify connectivity before repeatedly attempting the same path. This helps avoid confirmation bias where I assume my tool is wrong instead of my assumption.
 
 # VI. Current Strategy & Plans
