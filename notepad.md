@@ -59,9 +59,9 @@
 - **`pathfinder` Status:** The tool is now fully functional. Critical bugs related to elevation changes, one-way drops, defeated trainers, and ledge traversal have been resolved. It can now reliably navigate complex multi-level maps.
 - **`boulder_puzzle_solver` Status:** This tool is likely still unreliable. Its internal player reachability check may have inherited the same flawed traversal logic from the old `pathfinder`, causing it to generate impossible solutions or fail to find solutions that exist. This tool requires testing and refinement.
 
-# VII. Current Plan (Victory Road 1F)
-- **Objective:** Solve the final boulder puzzle on Victory Road 1F to open the barrier at (10, 13).
-- **Plan:** Now that the party is healed, return to Victory Road 1F. Use the functional `pathfinder` to navigate to the eastern upper platform and push the boulder at (15, 3) onto the switch at (18, 14). This should clear the barrier at (10, 13) and open the way to the ladder at (2, 2).
+# VII. Current Plan (Route 23 -> Victory Road)
+- **Objective:** Navigate through Route 23 to re-enter Victory Road 1F.
+- **Plan:** The party is fully healed. The `pathfinder` tool is now fully functional. I will navigate Route 23 in segments, using Surf to cross the water sections, until I reach the Victory Road entrance at (5, 32).
 
 # VIII. Future Development & Testing
 - **Agent Idea:** Create a `multi_modal_planner` agent that can break down a long-distance navigation goal into a sequence of pathfinder calls with different movement modes (e.g., walking, then surfing, then walking again).
