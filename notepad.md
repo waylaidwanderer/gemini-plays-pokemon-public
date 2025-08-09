@@ -60,7 +60,7 @@
 
 # VI. Tool Development Status
 - **`pathfinder`:** RELIABLE. The tool's logic is sound. Previous failures were due to a misunderstanding of the game state (blocked paths), not a bug in the code.
-- **`boulder_puzzle_solver`:** UNTESTED. Requires testing and refinement at the next opportunity.
+- **`boulder_puzzle_solver`:** PASSED INITIAL TEST. The tool successfully provided a single-step solution to move a blocking boulder. Further testing on multi-step puzzles is required, but it is now considered provisionally reliable.
 - **`move_validator`:** DEPRECATED. This diagnostic tool served its purpose in verifying the `pathfinder`'s logic and is no longer needed. It can be deleted to free up a tool slot.
 - **`battle_strategist_agent`:** RELIABLE. Consistently provides sound, turn-by-turn battle advice.
 
