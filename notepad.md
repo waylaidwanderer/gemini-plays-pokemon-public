@@ -33,9 +33,15 @@
 - **Hypothesis #1 (Western Boulder):** Pushing the boulder at (3, 11) onto the switch at (3, 10) will open a path forward.
   - **Test:** Pushed boulder from (3, 11) to (3, 10).
   - **Conclusion:** Hypothesis is **incorrect**. The barrier at (10, 13) remains closed.
-- **Hypothesis #2 (Eastern Boulder):** Pushing the boulder at (15, 3) onto the switch at (18, 14) will open the barrier at (10, 13).
-- **Hypothesis #2 (Eastern Boulder):** Pushing the boulder at (15, 3) onto the switch at (18, 14) will open the barrier at (10, 13).
-- **Hypothesis #2 (Eastern Boulder):** Pushing the boulder at (15, 3) onto the switch at (18, 14) will open the barrier at (10, 13).
+## Current Plan (Victory Road 1F -> 2F)
+- **Observation:** The ground floor of Victory Road 1F is split into two disconnected sections (west and east). The eastern boulder puzzle is unreachable from the western section.
+- **New Plan:** Ascend to Victory Road 2F via the ladder at (2, 2) and search for a path that leads down to the eastern section of 1F.
+## Current Plan (Victory Road 1F -> 2F)
+- **Observation:** The ground floor of Victory Road 1F is split into two disconnected sections (west and east). The eastern boulder puzzle is unreachable from the western section.
+- **New Plan:** Ascend to Victory Road 2F via the ladder at (2, 2) and search for a path that leads down to the eastern section of 1F.
+## Current Plan (Victory Road 1F -> 2F)
+- **Observation:** The ground floor of Victory Road 1F is split into two disconnected sections (west and east). The eastern boulder puzzle is unreachable from the western section.
+- **New Plan:** Ascend to Victory Road 2F via the ladder at (2, 2) and search for a path that leads down to the eastern section of 1F.
 
 # IV. Battle Intelligence
 ## A. Type Effectiveness Chart (OBSERVATION-ONLY)
