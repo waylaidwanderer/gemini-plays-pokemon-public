@@ -51,8 +51,8 @@
 - **New Rule:** If `pathfinder` reports 'No path found', my first action MUST be to run `landmass_analyzer` to verify connectivity before attempting any debugging. This is to combat confirmation bias.
 
 # VI. Tool Development Status
-- **`pathfinder`:** **REPAIRED.** After numerous failures, the neighbor-finding logic has been completely overhauled based on the working `landmass_analyzer` tool. It should now correctly handle multi-level maps with steps and ledges. Awaiting successful field test.
-- **`battle_strategist_agent`:** **REFINED.** The system prompt has been updated to be more conservative in its damage calculations and to more strictly avoid risky switch-ins to low-HP Pokémon. Awaiting successful field test.
+- **`pathfinder`:** **REPAIRED & VERIFIED.** The tool's logic has been proven correct. Previous failures were due to user error (hallucinated coordinates) and misunderstanding the map's disconnected layout. The tool is now considered reliable.
+- **`battle_strategist_agent`:** **REFINED & VERIFIED.** The system prompt has been updated to be more conservative in its damage calculations. It now correctly identifies safe and efficient battle actions.
 
 # VII. Tool Development Plan
 - **Boulder Puzzle Solver:** Plan to create a new agent/tool combo to solve boulder puzzles.
