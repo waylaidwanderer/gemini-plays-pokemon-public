@@ -2,6 +2,7 @@
 - **Poison Damage:** Poisoned Pokémon in the party lose 1 HP every four steps taken outside of battle.
 - **Fainted Pokémon can use HMs:** Confirmed that a fainted Pokémon can be selected to use a field move like Strength.
 - **Follower Pokémon Mechanics:** When moving onto a tile occupied by Pikachu, the player and Pikachu appear to swap positions. The first button press turns to face, the second moves.
+- **Dig Field Move:** Can be used to escape caves, acting as an Escape Rope.
 
 # II. Tile Mechanics (Verified)
 - `ground`: Walkable tile.
@@ -52,7 +53,7 @@
 - **Agent Deletion:** The `puzzle_strategist_agent` was deemed fundamentally flawed for complex, multi-level puzzles and was deleted. Manual puzzle solving using my reliable `landmass_analyzer` and `generate_path_plan` tools is the current, more effective mandate.
 
 # VI. Current Strategy & Plans
-- **Immediate Task:** Solve the western boulder puzzle on Victory Road 1F to access the ladder to 2F.
-  1. Get into position at (3, 12).
-  2. Push the boulder at (3, 11) onto the switch at (3, 10).
-  3. This should clear the barrier blocking the path to the ladder at (2, 2).
+- **Immediate Task:** Return to Victory Road 1F to re-attempt the western boulder puzzle.
+  1. Heal party at Viridian Pokémon Center. (Completed)
+  2. Travel from Viridian City to Victory Road 1F.
+  3. Correctly solve the western boulder puzzle to access the ladder at (2, 2).
