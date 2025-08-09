@@ -71,3 +71,6 @@
 - **Western Section Access:**
   - **Hypothesis:** I was on a disconnected elevated platform. The steps at (6, 14) provided a path down to the western section.
   - **Status:** Confirmed. I have successfully used the steps to reach the western ground level.
+- **Boulder Puzzle 1 (West):**
+  - **Hypothesis:** Pushing the boulder at (3, 11) onto the switch at (3, 10) would open the barrier at (10, 13) and connect the map.
+  - **Status:** FAILED. The push blocked the path to the exit ladder, segmenting the map further. The puzzle must be reset by leaving and re-entering the map.
