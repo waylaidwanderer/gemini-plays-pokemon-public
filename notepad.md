@@ -50,7 +50,6 @@
 - **Tool Reliability & Immediate Action:** A tool that produces an incorrect or impossible result is a critical failure. I MUST fix it immediately with `define_tool` instead of deferring the task or attempting workarounds. I must be more meticulous in my debugging process.
 - **Trust System Over Custom Analysis:** If a tool reports 'no path found', my first action must be to verify the destination is reachable (e.g., using `landmass_analyzer`) before assuming the tool is flawed. This prevents wasting time debugging a correct tool when my own assumption about the map is wrong.
 - **Falsify Assumptions:** I must actively try to disprove my own hypotheses, especially regarding navigation. This helps avoid confirmation bias.
-- **Agent Deletion:** The `puzzle_strategist_agent` was deemed fundamentally flawed for complex, multi-level puzzles and was deleted. Manual puzzle solving using my reliable `landmass_analyzer` and `generate_path_plan` tools is the current, more effective mandate.
 
 # VI. Current Strategy & Plans
 - **Immediate Task:** Correctly solve the western boulder puzzle on Victory Road 1F to access the ladder at (2, 2).
