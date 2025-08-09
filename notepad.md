@@ -64,3 +64,11 @@
 
 # VIII. Future Improvements & Data Gathering
 - **Type Chart Granularity:** The current type chart sometimes conflates single and dual-type effectiveness (e.g., Ground vs Rock/Ground). I need to be more diligent in observing and recording matchups against single-type Pokémon to build a more precise and reliable chart.
+
+# Victory Road 1F Puzzle Log
+- **Hypothesis 1 (Failed):** Pathfinding to the ladder at (2,2) is blocked by defeated trainers.
+  - **Test:** Use `generate_path_plan` ignoring trainer IDs.
+  - **Result:** No path found.
+  - **Conclusion:** The blockage is not just the trainers, but the map layout itself. The player is on a separate landmass from the target.
+- **Hypothesis 2 (Active):** The map is segmented into disconnected landmasses. The boulder at (6, 16) must be moved to open a path to the steps at (6, 14), which allows access to the elevated platform connecting the landmasses.
+  - **Test:** Push the boulder at (6, 16) one tile to the left, to (5, 16).
