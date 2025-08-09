@@ -21,11 +21,14 @@
 # III. Puzzle Mechanics & Solutions
 - **Reset Condition:** Boulder puzzles reset upon leaving and re-entering a map or using ladders between floors.
 - **Boulder/Item Interaction:** Pushing a boulder onto an item collects the item and moves the boulder into that space.
-- **Strength Push Mechanics:** When pushing a boulder, the player's character remains in place. The push is executed from an adjacent tile, and only the boulder moves.
+- **Strength Push Mechanics:** The push is executed from an adjacent tile, and only the boulder moves.
 
-## Current Puzzle: Victory Road 1F Main Barrier
-- **Hypothesis:** Pushing the boulder from (15, 3) onto the switch at (18, 14) will clear the barrier at (10, 13), opening the path to the western side of the map and the ladder to 2F.
-- **Status:** In progress. Pathing to the upper platform to begin the push sequence.
+## Current Puzzle: Victory Road 1F
+- **Hypothesis 1 (Failed):** Pushing the boulder at (15, 3) onto the switch at (18, 14) will clear the barrier at (10, 13).
+  - **Conclusion:** This requires accessing the eastern elevated platform, which is currently blocked.
+- **Hypothesis 2 (Failed):** The boulder at (3, 10) can be pushed UP to clear a path.
+  - **Conclusion:** The tile at (3, 9) is impassable, blocking the push.
+- **Current Hypothesis:** The only way forward is to ascend to 2F via the ladder at (2, 2) and find a path that loops back down to the eastern side of 1F.
 
 # IV. Battle Intelligence
 ## A. Type Effectiveness Chart (OBSERVATION-ONLY)
@@ -49,10 +52,8 @@
 - **Body Slam:** Can cause paralysis.
 
 # V. Methodology & Lessons Learned
-- **Hypothesis-Driven Approach:** When faced with a puzzle, I must form a single, testable hypothesis, document it, test it, and record the conclusion. This avoids chaotic, assumption-driven actions.
+- **Hypothesis-Driven Approach:** I must form a single, testable hypothesis, document it, test it, and record the conclusion. This avoids chaotic, assumption-driven actions.
 - **Tool Reliability & Immediate Action:** A tool that produces an incorrect or impossible result is a critical failure. I MUST fix it immediately with `define_tool` instead of deferring the task or attempting workarounds. This is a non-negotiable directive.
-- **Agent & Tool Limitations:** The `landmass_analyzer` ignores boulders by design to check theoretical terrain connectivity. Its output does not account for the current puzzle state.
-- **Hallucination & Verification:** I must be vigilant against hallucinating game elements or progress. All strategic elements must be verified against the map data before forming a hypothesis.
 - **Trust Tool Failures:** A tool reporting 'no path found' is a strong indicator that my hypothesis about the path is wrong. I must use this to falsify my own beliefs and avoid confirmation bias, rather than immediately assuming the tool is broken. 
 - **New Rule:** If `pathfinder` reports 'No path found', my first action MUST be to run `landmass_analyzer` to verify connectivity before attempting any debugging. This is to combat confirmation bias.
 
@@ -61,9 +62,8 @@
 - **`battle_strategist_agent`:** RELIABLE. Consistently provides sound, turn-by-turn battle advice.
 
 # VII. Future Development & Testing
-- **Tool Idea: `long_range_planner`**
-  - **Purpose:** Automate multi-map navigation.
-  - **Function:** Takes a final destination (map ID and coordinates) as input. It would call the `pathfinder` to get to the first exit/warp, then upon arrival on the new map, call `pathfinder` again to the next warp, and so on, until the final destination is reached. This would streamline travel between distant cities or through complex multi-map dungeons.
 - **Agent Idea: `puzzle_strategist_agent`**
   - **Purpose:** Provide optimal push sequences for boulder puzzles.
   - **Function:** Takes a grid layout, player position, boulder positions, and target switch position as input. It would output a sequence of moves to solve the puzzle.
+- **Tool Idea: `puzzle_input_generator`**
+  - **Purpose:** Automate the repetitive task of parsing the map XML to gather all necessary data for the `puzzle_strategist_agent`.
