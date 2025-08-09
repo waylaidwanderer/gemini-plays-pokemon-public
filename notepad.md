@@ -70,3 +70,7 @@
   - **Purpose:** Solve complex puzzles with multiple interacting boulders.
   - **Function:** Analyzes the map state (boulder positions, switch locations, barriers) and generates a full sequence of moves. This would be a high-level strategic agent, potentially calling the `boulder_puzzle_solver` tool for individual steps.
 - **Hypothesis to Test:** After crossing the next water section on Route 23, I must use the `landmass_analyzer` to confirm that the new landmass connects all the way to the Victory Road entrance at (5, 32).
+
+# VIII. New Ideas & Rules (Post-Reflection)
+- **New Rule:** If `pathfinder` reports 'No path found', my first action MUST be to run `landmass_analyzer` to verify connectivity before attempting any debugging. This is to combat confirmation bias.
+- **Tool Idea: `tool_debugger_agent`**: An agent that takes a tool's code, input, output, and error message to suggest a fix. This would streamline the debugging process.
