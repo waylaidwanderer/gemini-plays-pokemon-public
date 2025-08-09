@@ -37,14 +37,6 @@
 - **Critical Failure:** Pushing the western boulder at (3, 11) to the switch at (3, 10) is a trap that blocks the path to the ladder at (2, 2).
 - **Key Insight:** Boulder puzzles reset upon leaving and re-entering the map. This is the solution to the trap.
 - **New Plan:** Exit Victory Road to Route 23 to reset the boulder puzzle. Re-enter, ignore the western boulder, and proceed directly to the ladder at (2, 2) to continue exploration.
-## Current Plan (Victory Road 1F)
-- **Critical Failure:** Pushing the western boulder at (3, 11) to the switch at (3, 10) is a trap that blocks the path to the ladder at (2, 2).
-- **Key Insight:** Boulder puzzles reset upon leaving and re-entering the map. This is the solution to the trap.
-- **New Plan:** Exit Victory Road to Route 23 to reset the boulder puzzle. Re-enter, ignore the western boulder, and proceed directly to the ladder at (2, 2) to continue exploration.
-## Current Plan (Victory Road 1F)
-- **Critical Failure:** Pushing the western boulder at (3, 11) to the switch at (3, 10) is a trap that blocks the path to the ladder at (2, 2).
-- **Key Insight:** Boulder puzzles reset upon leaving and re-entering the map. This is the solution to the trap.
-- **New Plan:** Exit Victory Road to Route 23 to reset the boulder puzzle. Re-enter, ignore the western boulder, and proceed directly to the ladder at (2, 2) to continue exploration.
 
 # IV. Battle Intelligence
 ## A. Type Effectiveness Chart (OBSERVATION-ONLY)
