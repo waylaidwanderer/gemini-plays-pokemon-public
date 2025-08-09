@@ -61,3 +61,6 @@
 # VII. Tool Development & Limitations
 - **Future Goal: Multi-Modal Pathfinding:** My current `generate_path_plan` tool can only handle a single mode of transit (walking or surfing). For complex maps like Route 23 that require both, I must manually break the journey into segments. A future goal is to develop a more advanced tool that can automatically plan these multi-modal routes.
 - **`landmass_analyzer` Limitation:** This tool determines connectivity based on terrain type alone and does not account for impassable NPCs. This can lead to it reporting that two areas are connected when, in practice, an NPC blocks the path, as seen on Route 23.
+
+# VIII. Future Improvements & Data Gathering
+- **Type Chart Granularity:** The current type chart sometimes conflates single and dual-type effectiveness (e.g., Ground vs Rock/Ground). I need to be more diligent in observing and recording matchups against single-type Pokémon to build a more precise and reliable chart.
