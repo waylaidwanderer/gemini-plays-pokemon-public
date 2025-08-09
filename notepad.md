@@ -59,7 +59,8 @@
   - **`puzzle_input_generator` (Tool):** A tool that parses the `map_xml_string` to extract player position, boulder locations, switch locations, and the grid layout, formatting it into a JSON object.
   - **`puzzle_strategist_agent` (Agent):** An agent that takes the formatted JSON from the generator and returns a sequence of moves to solve the puzzle.
 
-# VIII. Victory Road 1F - Puzzle Analysis
+# VIII. Archived Analyses
+## Victory Road 1F - Puzzle Analysis
 - **Hypothesis 1 (Failed):** The boulder at (3, 10) can be pushed UP to clear a path.
   - **Conclusion:** The tile at (3, 9) is impassable, blocking the push.
 - **Hypothesis 2 (Plan V2 - Failed):** The elevated platforms can be used to cross from the western side of the map to the eastern side.
