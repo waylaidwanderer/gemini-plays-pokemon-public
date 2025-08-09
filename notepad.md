@@ -30,11 +30,9 @@
 - **2F Western Barrier:** The switch at (2, 17) is empty, but the barrier is already cleared. This puzzle is solved.
 
 ## Current Puzzle: Victory Road 1F
-- **Key Insight (The True Path):** The `landmass_analyzer` has confirmed that the entire floor is one interconnected landmass. The path to the ladder at (2, 2) is possible from my current location. My `pathfinder` tool's logic is flawed.
-- **Hypothesis:** The path forward requires navigating the elevated platforms using the `steps` tiles. Movement between different elevations is only possible via `steps` or `ledge` tiles.
-- **Current Plan:**
-    1. Overhaul the `pathfinder` tool with correct elevation logic.
-    2. Use the repaired tool to find the path to the ladder at (2, 2).
+- **Confirmed Mechanic:** The `landmass_analyzer` has confirmed that the entire floor is one interconnected landmass. Movement between different elevations is only possible via `steps` or `ledge` tiles.
+- **Pathfinder Status:** The tool's elevation logic was flawed. It has been repaired.
+- **Current Plan:** Use the repaired `pathfinder` tool to find the path to the ladder at (2, 2).
 
 # IV. Battle Intelligence
 ## A. Type Effectiveness Chart (OBSERVATION-ONLY)
