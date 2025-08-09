@@ -61,3 +61,4 @@
 # VII. Current Plan (Victory Road 1F)
 - **Objective:** Solve the final boulder puzzle on Victory Road 1F to open the barrier at (10, 13).
 - **Plan:** Now that the party is healed, return to Victory Road 1F. Use the functional `pathfinder` to navigate to the eastern upper platform and push the boulder at (15, 3) onto the switch at (18, 14). This should clear the barrier at (10, 13) and open the way to the ladder at (2, 2).
+- `warp`: A tile that transports the player to another location, often a door or cave entrance.
