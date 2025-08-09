@@ -66,5 +66,7 @@
 - **Type Chart Granularity:** The current type chart sometimes conflates single and dual-type effectiveness (e.g., Ground vs Rock/Ground). I need to be more diligent in observing and recording matchups against single-type Pokémon to build a more precise and reliable chart.
 
 # Victory Road 1F Active Hypothesis
-- **Hypothesis:** The boulder at (15, 3) is the key. Pushing it onto the switch at (18, 14) will clear the boulder barrier at (10, 13), connecting the two landmasses.
-  - **Status:** To be tested. Need to reach the eastern landmass first.
+
+# Victory Road 1F Active Hypothesis
+- **Hypothesis:** I am currently on a disconnected elevated platform. The steps at (6, 14) provide a path down to the western section of the map, which contains the ladder to 2F.
+  - **Status:** To be tested. I will attempt to navigate to the steps.
