@@ -55,7 +55,7 @@
 - **Hallucination & Verification:** I must be vigilant against hallucinating game elements. I previously based my strategy on a non-existent fourth boulder, a major error that drove my strategy for a significant period. All strategic elements must be verified against the map data before forming a hypothesis.
 
 # VI. Tool Development & Refinement
-- **`pathfinder` Status:** The tool is now functional. Core logic for handling elevation changes, one-way drops, and ignoring defeated trainers has been fixed.
+- **`pathfinder` Status:** The tool is now fully functional. Critical bugs related to elevation changes, one-way drops, defeated trainers, and ledge traversal have been resolved. It can now reliably navigate complex multi-level maps.
 - **`boulder_puzzle_solver` Status:** This tool is likely still unreliable. Its internal player reachability check may have inherited the same flawed traversal logic from the old `pathfinder`, causing it to generate impossible solutions or fail to find solutions that exist. This tool requires testing and refinement.
 
 # VII. Current Plan (Victory Road 1F)
