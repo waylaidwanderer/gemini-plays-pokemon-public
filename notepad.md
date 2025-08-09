@@ -59,10 +59,13 @@
 # VI. Tool Development Status
 - **`pathfinder`:** RELIABLE. The tool's logic is sound. Previous failures were due to a misunderstanding of the game state (blocked paths), not a bug in the code.
 - **`boulder_puzzle_solver`:** PASSED INITIAL TEST. The tool successfully provided a single-step solution to move a blocking boulder. Further testing on multi-step puzzles is required, but it is now considered provisionally reliable.
-- **`move_validator`:** DEPRECATED. This diagnostic tool served its purpose in verifying the `pathfinder`'s logic and is no longer needed. It can be deleted to free up a tool slot.
 - **`battle_strategist_agent`:** RELIABLE. Consistently provides sound, turn-by-turn battle advice.
 
 # VII. Future Development & Testing
-- **Tool Idea:** Create a `long_range_planner` tool that can break down a long-distance navigation goal into a sequence of pathfinder calls with different movement modes.
-- **Agent Idea:** Create a `multi_boulder_puzzle_agent` that can analyze the map state and generate a full sequence of moves to solve complex puzzles involving multiple boulders and switches.
+- **Tool Idea: `long_range_planner`**
+  - **Purpose:** Automate multi-map navigation.
+  - **Function:** Takes a final destination (map ID and coordinates) as input. It would call the `pathfinder` to get to the first exit/warp, then upon arrival on the new map, call `pathfinder` again to the next warp, and so on, until the final destination is reached. This would streamline travel between distant cities or through complex multi-map dungeons.
+- **Agent Idea: `multi_boulder_puzzle_agent`**
+  - **Purpose:** Solve complex puzzles with multiple interacting boulders.
+  - **Function:** Analyzes the map state (boulder positions, switch locations, barriers) and generates a full sequence of moves. This would be a high-level strategic agent, potentially calling the `boulder_puzzle_solver` tool for individual steps.
 - **Hypothesis to Test:** After crossing the next water section on Route 23, I must use the `landmass_analyzer` to confirm that the new landmass connects all the way to the Victory Road entrance at (5, 32).
