@@ -31,10 +31,10 @@
 
 ## Current Puzzle: Victory Road 1F
 - **Key Insight (The True Path):** The `landmass_analyzer` has confirmed that the entire floor is one interconnected landmass. The path to the ladder at (2, 2) is possible from my current location. My `pathfinder` tool's logic is flawed.
-- **Hypothesis:** The path involves using the steps at (6, 14) or (8, 8) to navigate between ground and elevated platforms.
+- **Hypothesis:** The path forward requires navigating the elevated platforms using the `steps` tiles. One-way drops from `elevated_ground` to `ground` are not possible unless it's a `ledge`.
 - **Current Plan:**
-    1. Fix the `pathfinder` tool by replacing its faulty traversal logic with the simpler, proven logic from the `landmass_analyzer`.
-    2. Use the repaired tool to find the correct path to the ladder at (2, 2).
+    1. Overhaul the `pathfinder` tool with correct elevation logic.
+    2. Use the repaired tool to find the path to the ladder at (2, 2).
 
 # IV. Battle Intelligence
 ## A. Type Effectiveness Chart (OBSERVATION-ONLY)
