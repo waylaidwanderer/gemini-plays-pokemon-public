@@ -66,7 +66,6 @@
   8. Use SURF to cross to the final landmass.
   9. Navigate to the final guard at (5, 36).
   10. Enter Victory Road at (5, 32).
-- **Note:** Upon entering Victory Road, I must prioritize using the `puzzle_strategist_agent` to test its effectiveness on the boulder puzzles.
 
 # VII. Future Development Ideas
 - **`multi_modal_pathfinder_agent`**: An agent that can take a start and end coordinate on a complex, segmented map (like Route 23) and generate a high-level plan involving multiple movement modes (walking, surfing). It would output a sequence of calls to the `pathfinder` tool.
