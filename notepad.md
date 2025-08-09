@@ -50,16 +50,15 @@
 - **Tool Reliability & Immediate Action:** A tool that produces an incorrect or impossible result is a critical failure. I MUST fix it immediately with `define_tool` instead of deferring the task or attempting workarounds. This is a non-negotiable directive.
 - **Trust System Over Tools:** If the system validation check insists a path is reachable while my tools (`pathfinder`, `landmass_analyzer`) say it is not, the system is correct and my tools are flawed. The immediate priority becomes debugging the tool, not continuing to test hypotheses based on the tool's flawed output.
 
-# VI. Tool Development Status
-- `pathfinder`: **BUGGED.** The tool's traversal logic for elevation changes is still flawed. It is incorrectly handling one-way drops and generating invalid paths. My top priority is to perform a complete overhaul of the `get_neighbors` function to fix this.
-- `landmass_analyzer`: **VERIFIED.** This tool correctly identified that I was on an isolated landmass, which was a key insight.
-
-# VII. Current Strategy & Plans
+# VI. Current Strategy & Plans
 ## Victory Road 1F Navigation
 - **Goal:** Reach the ladder to Victory Road 2F at (2, 2).
 - **Status:** The direct path is blocked by a boulder barrier at (10, 13).
 - **Plan:**
-  1. ~~Push the western boulder at (3, 10) to clear the initial path.~~ (Completed)
+  1. ~~Push the western boulder at (3, 11) onto the switch at (3, 10) to clear the initial path.~~ (Completed)
   2. Navigate to the eastern boulder puzzle.
   3. Push the boulder at (7, 17) onto the switch at (18, 14) to deactivate the barrier.
   4. Navigate to the ladder at (2, 2).
+
+# VII. Future Development Ideas
+- **puzzle_strategist_agent:** Recreate an agent to solve complex boulder puzzles. It would take the map state (boulders, switches, player position, target) and output an optimal sequence of pushes and movements. This would automate the most complex part of navigating puzzle-heavy areas like Victory Road.
