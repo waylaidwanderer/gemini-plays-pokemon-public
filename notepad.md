@@ -52,20 +52,13 @@
 - **Falsify Assumptions:** I must actively try to disprove my own hypotheses, especially regarding navigation. If a path fails, I should use tools like `landmass_analyzer` to verify connectivity before repeatedly attempting the same path. This helps avoid confirmation bias where I assume my tool is wrong instead of my assumption.
 
 # VI. Current Strategy & Plans
-## Road to the Indigo Plateau
-- **Goal:** Navigate through Route 23 to reach Victory Road.
-- **Status:** Currently on Route 23, at the western edge of the second water segment at (3, 77). The `pathfinder` tool has proven unreliable.
+## Victory Road
+- **Goal:** Navigate through Victory Road to reach the Indigo Plateau.
+- **Status:** About to enter Victory Road from Route 23.
 - **Plan:**
-  1. ~~Reach the first guard at (9, 137).~~ (Complete)
-  2. ~~Reach the second guard at (9, 120).~~ (Complete)
-  3. ~~Reach the third guard at (13, 106).~~ (Complete)
-  4. ~~Navigate to the water's edge at (11, 105).~~ (Complete)
-  5. ~~Use SURF to cross to the next landmass.~~ (Complete)
-  6. ~~Navigate to the fourth guard at (11, 57).~~ (Complete)
-  7. ~~Navigate to the water's edge at (9, 72).~~ (Complete)
-  8. Use SURF to cross to the final landmass. This will be done in smaller, incremental steps to test the `pathfinder` tool.
-  9. Navigate to the final guard at (5, 36).
-  10. Enter Victory Road at (5, 32).
+  1. Enter Victory Road at (5, 32).
+  2. Navigate through the floors, solving any boulder puzzles encountered.
+  3. Reach the exit to the Indigo Plateau.
 
 # VII. Future Development Ideas
 - **`multi_modal_pathfinder_agent`**: An agent that can take a start and end coordinate on a complex, segmented map (like Route 23) and generate a high-level plan involving multiple movement modes (walking, surfing). It would output a sequence of calls to the `pathfinder` tool.
