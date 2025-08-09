@@ -57,7 +57,7 @@
 - **New Rule:** If `pathfinder` reports 'No path found', my first action MUST be to run `landmass_analyzer` to verify connectivity before attempting any debugging. This is to combat confirmation bias.
 
 # VI. Tool Development Status
-- **`pathfinder`:** **UNRELIABLE & UNDERGOING OVERHAUL.** The tool is critically flawed and has failed repeatedly on multi-level maps. It should not be used until a complete overhaul of its neighbor-finding and traversal logic is successful.
+- **`pathfinder`:** **CRITICALLY FAILED & ABANDONED.** Multiple complete overhauls of the neighbor-finding logic have failed to produce a working tool. It is fundamentally broken and MUST NOT be used for navigation. All future pathing will be done manually until a full, systematic debugging effort can be undertaken. Relying on this tool is a waste of turns.
 - **`battle_strategist_agent`:** RELIABLE. Consistently provides sound, turn-by-turn battle advice.
 
 # VII. Future Development & Testing
