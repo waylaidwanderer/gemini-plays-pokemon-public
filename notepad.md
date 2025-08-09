@@ -20,7 +20,7 @@
 # III. Puzzle Mechanics & Solutions
 - **Reset Condition:** Boulder puzzles reset upon leaving and re-entering a map or using ladders between floors.
 - **Boulder/Item Interaction:** Pushing a boulder onto an item collects the item and moves the boulder into that space.
-- **Strength Push Mechanics:** When pushing a boulder vertically (Up/Down), the player's character moves into the tile the boulder previously occupied.
+- **Strength Push Mechanics:** When pushing a boulder, the player's character remains in place. The push is executed from an adjacent tile, and only the boulder moves.
 
 ## Solved Puzzles (Victory Road)
 - **3F to 2F:** Pushed boulder from (14, 13) into hole at (14, 15).
