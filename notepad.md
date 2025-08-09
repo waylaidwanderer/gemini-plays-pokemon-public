@@ -53,12 +53,15 @@
 # VI. Current Strategy & Plans
 ## Victory Road 1F Navigation
 - **Goal:** Reach the ladder to Victory Road 2F at (2, 2).
-- **Status:** The direct path is blocked by a boulder barrier at (10, 13).
-- **Plan:**
-  1. ~~Push the western boulder at (3, 11) onto the switch at (3, 10) to clear the initial path.~~ (Completed)
-  2. Navigate to the eastern boulder puzzle.
-  3. Push the boulder at (7, 17) onto the switch at (18, 14) to deactivate the barrier.
-  4. Navigate to the ladder at (2, 2).
+- **Status:** The direct path is blocked by a boulder barrier at (10, 13). The western boulder puzzle is solved.
+- **Eastern Boulder Puzzle Plan:**
+  1. Start with boulder at (11, 15) and player at (10, 15).
+  2. Push boulder right 6 times to (17, 15).
+  3. Reposition player to (17, 16) (below the boulder).
+  4. Push boulder up once to (17, 14).
+  5. Reposition player to (16, 14) (left of the boulder).
+  6. Push boulder right once to (18, 14), onto the switch.
+  7. Navigate to the ladder at (2, 2).
 
 # VII. Future Development Ideas
 - **puzzle_strategist_agent:** Recreate an agent to solve complex boulder puzzles. It would take the map state (boulders, switches, player position, target) and output an optimal sequence of pushes and movements. This would automate the most complex part of navigating puzzle-heavy areas like Victory Road.
