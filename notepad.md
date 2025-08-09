@@ -34,6 +34,7 @@
 - **Hypothesis:** The path forward requires navigating the elevated platforms using the `steps` tiles. One-way drops from `elevated_ground` to `ground` are not possible unless it's a `ledge`.
 - **Current Plan:**
     1. Overhaul the `pathfinder` tool with correct elevation logic.
+    2. Use the repaired tool to find the path to the ladder at (2, 2).    1. Overhaul the `pathfinder` tool with correct elevation logic.
     2. Use the repaired tool to find the path to the ladder at (2, 2).
 
 # IV. Battle Intelligence
