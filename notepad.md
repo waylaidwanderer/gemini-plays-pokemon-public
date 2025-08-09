@@ -27,7 +27,7 @@
 - **3F to 2F:** Pushed boulder from (14, 13) into hole at (14, 15).
 - **2F Main Barrier:** Used boulder from 3F (landed at (5, 15)) and pushed it onto switch at (2, 17).
 - **3F Main Barrier:** Pushed boulder from (23, 2) to switch at (4, 6).
-- **1F Boulder Puzzle:** Pushed boulder from (3, 11) to switch at (3, 10).
+- **1F Western Boulder:** Pushed boulder from (3, 11) to switch at (3, 10). Conclusion: This did NOT open the main barrier at (10, 13). New Hypothesis: The eastern boulder at (15, 3) must be pushed to the switch at (18, 14).
 
 # IV. Battle Intelligence
 ## A. Type Effectiveness Chart (OBSERVATION-ONLY)
