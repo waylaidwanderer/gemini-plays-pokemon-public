@@ -6,18 +6,17 @@
 # II. Tile Mechanics (Verified)
 - `ground`: Walkable tile.
 - `grass`: Tall grass where wild Pokémon appear. Walkable like `ground`.
-- `elevated_ground`: Walkable ground at a higher elevation. Movement to/from `ground` tiles requires `steps` or a one-way `ledge` drop.
-- **One-Way Drop:** It is possible to drop down from an `elevated_ground` tile to an adjacent `ground` tile.
-- `cleared_boulder_barrier`: A tile that becomes traversable after a boulder switch is activated. Acts like `elevated_ground` and can function as a one-way ramp up.
-- `steps`: Connects `ground` and `elevated_ground` tiles, allowing vertical movement between them.
-- `ledge`: Can only be traversed downwards from an adjacent tile above it.
 - `water`: Crossable using HM Surf.
 - `impassable`: Walls, rocks, statues, and sometimes objects like defeated trainers. Cannot be entered.
-- `ladder_down` / `ladder_up`: Warps between floors.
-- `hole`: Warps the player (or a boulder) to the floor below.
+- `ledge`: Can only be traversed downwards from an adjacent tile above it.
+- `steps`: Connects `ground` and `elevated_ground` tiles, allowing vertical movement between them.
+- `elevated_ground`: Walkable ground at a higher elevation. Movement to/from `ground` tiles requires `steps` or a one-way `ledge` drop.
+- `cleared_boulder_barrier`: A tile that becomes traversable after a boulder switch is activated. Acts like `elevated_ground` and can function as a one-way ramp up.
 - `boulder_switch`: Floor switch for boulders.
 - `boulder_barrier`: Impassable barrier linked to a boulder switch.
 - `warp`: A tile that transports the player to another location, often a door or cave entrance.
+- `ladder_down` / `ladder_up`: Warps between floors.
+- `hole`: Warps the player (or a boulder) to the floor below.
 
 # III. Puzzle Mechanics & Solutions
 - **Reset Condition:** Boulder puzzles reset upon leaving and re-entering a map or using ladders between floors.
@@ -49,21 +48,16 @@
 - **Hypothesis-Driven Approach:** I must form a single, testable hypothesis, document it, test it, and record the conclusion. This avoids chaotic, assumption-driven actions.
 - **Tool Reliability & Immediate Action:** A tool that produces an incorrect or impossible result is a critical failure. I MUST fix it immediately with `define_tool` instead of deferring the task or attempting workarounds. This is a non-negotiable directive.
 - **Trust System Over Custom Analysis:** If the system validation check insists a path is reachable while my own analysis suggests it is not, the system is correct and my analysis is flawed. The immediate priority becomes re-evaluating my understanding of the map.
-- **Falsify Assumptions:** I must actively try to disprove my own hypotheses, especially regarding navigation. If a path fails, I should use tools like `landmass_analyzer` to verify connectivity before repeatedly attempting the same path. This helps avoid confirmation bias where I assume my tool is wrong instead of my assumption.
+- **Falsify Assumptions:** I must actively try to disprove my own hypotheses, especially regarding navigation. If a path fails, I must verify connectivity before repeatedly attempting the same path. This helps avoid confirmation bias where I assume my tool is wrong instead of my assumption.
 
 # VI. Current Strategy & Plans
 ## A. Route 23 Blockage
 - **Goal:** Get past the guard at (5, 36) to enter Victory Road.
-- **Status:** Stuck. The guard has given dialogue indicating passage is allowed, but remains physically blocking the path.
-- **Hypotheses Tested & Failed:**
-  1.  **Hypothesis:** The guard will move after the dialogue completes. **Result:** Failed. (Attempted 5+ times)
-  2.  **Hypothesis:** Re-interacting with other guards on the route will trigger a flag. **Result:** Failed. (Re-interacted with guard at (11, 57) with no effect).
-  3.  **Hypothesis:** My `pathfinder` tool can find a way around. **Result:** Failed. The tool is bugged on this map.
-- **Current Hypothesis:** The map's script state is bugged. Forcing a full map reload by using Fly to leave and return may reset the guard's position/script.
+- **Status:** The path is blocked. My previous hypothesis that the guard was bugged was based on a flawed premise (that Route 22 was a dead end). The correct path is forward through the Route 22 gatehouse.
 - **Plan:**
-  1. Use Fly to travel to any other city.
-  2. Immediately use Fly to return to Route 23.
-  3. Navigate back to the guard at (5, 36) and attempt to pass.
+  1. Navigate to the gatehouse warp at (9, 6) on Route 22.
+  2. Proceed through the gatehouse to Route 23.
+  3. Test if the guard at (5, 36) is still blocking the path.
 
 ## B. Victory Road Plan
 - **Objective:** Navigate Victory Road to reach the Indigo Plateau.
