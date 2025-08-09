@@ -57,7 +57,7 @@
 - **Hallucination & Verification:** I must be vigilant against hallucinating game elements or progress. All strategic elements must be verified against the map data before forming a hypothesis.
 
 # VI. Tool Development Status
-- **`pathfinder`:** RELIABLE. The tool's logic is sound. Previous failures were due to a misunderstanding of the game state (blocked paths), not a bug in the code.
+- **`pathfinder`:** RECENTLY FIXED. Had critical bugs ignoring boulders and misidentifying Pikachu. Fixes implemented, but reliability is now under observation pending successful use.
 - **`boulder_puzzle_solver`:** PASSED INITIAL TEST. The tool successfully provided a single-step solution to move a blocking boulder. Further testing on multi-step puzzles is required, but it is now considered provisionally reliable.
 - **`battle_strategist_agent`:** RELIABLE. Consistently provides sound, turn-by-turn battle advice.
 
