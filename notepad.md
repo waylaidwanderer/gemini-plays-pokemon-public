@@ -53,3 +53,13 @@
 # VI. Tool Development Status
 - `pathfinder`: **BUGGED.** The tool's traversal logic for elevation changes is still flawed. It is incorrectly handling one-way drops and generating invalid paths. My top priority is to perform a complete overhaul of the `get_neighbors` function to fix this.
 - `landmass_analyzer`: **VERIFIED.** This tool correctly identified that I was on an isolated landmass, which was a key insight.
+
+# VII. Current Strategy & Plans
+## Victory Road 1F Navigation
+- **Goal:** Reach the ladder to Victory Road 2F at (2, 2).
+- **Status:** The direct path is blocked by a boulder barrier at (10, 13).
+- **Plan:**
+  1. ~~Push the western boulder at (3, 10) to clear the initial path.~~ (Completed)
+  2. Navigate to the eastern boulder puzzle.
+  3. Push the boulder at (7, 17) onto the switch at (18, 14) to deactivate the barrier.
+  4. Navigate to the ladder at (2, 2).
