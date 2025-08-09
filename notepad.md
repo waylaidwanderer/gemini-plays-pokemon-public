@@ -27,6 +27,7 @@
 - **2F Main Barrier:** Used boulder from 3F (landed at (5, 15)) and pushed it onto switch at (2, 17).
 - **3F Main Barrier:** Pushed boulder from (23, 2) to switch at (4, 6).
 - **2F Western Barrier:** The switch at (2, 17) is empty, but the barrier is already cleared. This puzzle is solved.
+- **1F Western Barrier:** Pushed boulder at (3, 11) to the switch at (3, 10).
 
 # IV. Battle Intelligence
 ## A. Type Effectiveness Chart (OBSERVATION-ONLY)
@@ -54,9 +55,9 @@
 - **Hallucination & Verification:** I must be vigilant against hallucinating game elements. I previously based my strategy on a non-existent fourth boulder, a major error that drove my strategy for a significant period. All strategic elements must be verified against the map data before forming a hypothesis.
 
 # VI. Tool Development & Refinement
-- **`pathfinder` Status:** The tool's core traversal logic for multi-level maps is fundamentally flawed. It repeatedly fails to find valid paths involving elevation changes and one-way drops, causing both direct navigation failures and incorrect solutions from tools that depend on it.
-- **`boulder_puzzle_solver` Status:** This tool is unreliable. Its internal player reachability check inherited the same flawed traversal logic from the `pathfinder`, causing it to generate impossible solutions or fail to find solutions that exist. Fixing the core traversal logic is the highest priority.
+- **`pathfinder` Status:** The tool is now functional. Core logic for handling elevation changes, one-way drops, and ignoring defeated trainers has been fixed.
+- **`boulder_puzzle_solver` Status:** This tool is likely still unreliable. Its internal player reachability check may have inherited the same flawed traversal logic from the old `pathfinder`, causing it to generate impossible solutions or fail to find solutions that exist. This tool requires testing and refinement.
 
-# VII. Current Hypothesis (Victory Road 1F)
-- **Hypothesis:** Pushing the western boulder at (3, 11) onto the switch at (3, 10) is the correct solution to clear the main barrier at (10, 13).
-- **Test:** Use the `boulder_puzzle_solver` to confirm a solution exists. If so, use the `pathfinder` to navigate to the starting position at (3, 12), then execute the single push.
+# VII. Current Plan (Victory Road 1F)
+- **Objective:** Solve the final boulder puzzle on Victory Road 1F to open the barrier at (10, 13).
+- **Plan:** After healing, use the now-functional `pathfinder` to navigate to the eastern upper platform. Push the boulder at (17, 13) onto the switch at (18, 14). This should clear the way to the ladder at (2, 2).
