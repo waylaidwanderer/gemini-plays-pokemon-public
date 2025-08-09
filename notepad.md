@@ -29,12 +29,12 @@
 - **Super Effective (2x damage):**
   - Electric > Flying, Water
   - Water > Rock/Ground, Fire
-  - Ground > Rock/Ground, Fire, Electric, Rock
+  - Ground > Fire, Electric, Rock
   - Ice > Ground, Grass, Flying, Dragon
   - Flying > Fighting, Grass, Bug
   - Fighting > Normal, Rock, Ice
 - **Not Very Effective (0.5x damage):**
-  - Normal !> Rock/Ground, Rock
+  - Normal !> Rock
 - **Immune (0x damage):**
   - Ground immune to Electric
   - Flying immune to Ground
@@ -48,19 +48,16 @@
 # V. Methodology & Lessons Learned
 - **Hypothesis-Driven Approach:** I must form a single, testable hypothesis, document it, test it, and record the conclusion. This avoids chaotic, assumption-driven actions.
 - **Tool Reliability & Immediate Action:** A tool that produces an incorrect or impossible result is a critical failure. I MUST fix it immediately with `define_tool` instead of deferring the task or attempting workarounds. I must be more meticulous in my debugging process.
-- **Trust System Over Custom Analysis:** If a tool reports 'no path found', my first action must be to verify the destination is reachable (e.g., using `landmass_analyzer`) before assuming the tool is flawed. This prevents wasting time debugging a correct tool when my own assumption about the map is wrong.
+- **Trust System Over Custom Analysis:** If a tool reports 'no path found', my first action must be to analyze the map for physical obstacles, not to question the tool's validity. This prevents wasting time debugging a correct tool when my own assumption about the map is wrong.
 - **Falsify Assumptions:** I must actively try to disprove my own hypotheses, especially regarding navigation. This helps avoid confirmation bias.
-- **Agent Deletion:** The `puzzle_strategist_agent` was deemed fundamentally flawed for complex, multi-level puzzles and was deleted. Manual puzzle solving using my reliable `landmass_analyzer` and `generate_path_plan` tools is the current, more effective mandate.
 - **Judicious Agent Use:** I must exercise my own judgment for simple, obvious situations (like trivial wild battles) and avoid calling agents unnecessarily. The agent is a tool for complex strategic analysis, not a replacement for basic game sense.
-
-# VI. Current Strategy & Plans
-- **Objective:** Travel to the Indigo Plateau and challenge the Elite Four.
-- **Plan:** Navigate from Viridian City through Route 22, Route 23, and Victory Road.
-
-# VII. HM/Field Move Mechanics
-- **Surf Mechanic:** To use Surf from a land tile, the player must be standing on a tile adjacent to the water AND be facing the water tile.
-
-# VIII. Methodology Addendum (Post-Critique Turn 131192)
 - **Route 23 Tool Failure Analysis:** The Overwatch critique correctly identified my failure to trust the `generate_path_plan` tool. The tool reported "no path found" because the guards are impassable objects, and I was trying to path *through* them. My conclusion that the tool was broken was incorrect; the tool was functioning perfectly. I wasted significant time on manual navigation as a result.
 - **Reinforced Mandate:** I must adhere to my own documented rule: "Trust System Over Custom Analysis." If a pathfinding tool fails, my first action is to analyze the map for physical obstacles, not to question the tool's validity.
 - **Agent Usage Correction:** I also incorrectly used the `battle_strategist_agent` for a trivial wild battle (Lv 4 Mankey). This is an inefficient use of resources. I will exercise better judgment and handle such simple encounters manually, reserving the agent for complex or significant battles.
+
+# VI. HM/Field Move Mechanics
+- **Surf Mechanic:** To use Surf from a land tile, the player must be standing on a tile adjacent to the water AND be facing the water tile.
+
+# VII. Tool Development & Limitations
+- **Future Goal: Multi-Modal Pathfinding:** My current `generate_path_plan` tool can only handle a single mode of transit (walking or surfing). For complex maps like Route 23 that require both, I must manually break the journey into segments. A future goal is to develop a more advanced tool that can automatically plan these multi-modal routes.
+- **`landmass_analyzer` Limitation:** This tool determines connectivity based on terrain type alone and does not account for impassable NPCs. This can lead to it reporting that two areas are connected when, in practice, an NPC blocks the path, as seen on Route 23.
