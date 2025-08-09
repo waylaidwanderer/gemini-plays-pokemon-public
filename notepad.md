@@ -23,11 +23,16 @@
 - **Boulder/Item Interaction:** Pushing a boulder onto an item collects the item and moves the boulder into that space.
 - **Strength Push Mechanics:** When pushing a boulder, the player's character remains in place. The push is executed from an adjacent tile, and only the boulder moves.
 
-## Solved Puzzles (Victory Road)
-- **3F to 2F:** Pushed boulder from (14, 13) into hole at (14, 15).
-- **2F Main Barrier:** Used boulder from 3F (landed at (5, 15)) and pushed it onto switch at (2, 17).
-- **3F Main Barrier:** Pushed boulder from (23, 2) to switch at (4, 6).
-- **1F Western Boulder:** Pushed boulder from (3, 11) to switch at (3, 10). Conclusion: This did NOT open the main barrier at (10, 13). New Hypothesis: The eastern boulder at (15, 3) must be pushed to the switch at (18, 14).
+## Current Puzzle: Victory Road 1F Main Barrier
+- **Hypothesis (Attempt #2):** Pushing the eastern boulder from (15, 3) onto the switch at (18, 14) is required to open the main barrier at (10, 13).
+- **Test Plan:**
+    1. Exit and re-enter Victory Road 1F to reset all puzzles.
+    2. Navigate to the eastern boulder at (15, 3).
+    3. Push the boulder to the switch at (18, 14).
+    4. Navigate to a position where the barrier at (10, 13) is visible on screen.
+    5. Observe the barrier's state to confirm or deny the hypothesis.
+- **Previous Failed Hypothesis (Attempt #1):** Pushing the western boulder from (3, 11) to the switch at (3, 10).
+- **Conclusion:** This action did NOT open the main barrier at (10, 13). This path leads to a dead end.
 
 # IV. Battle Intelligence
 ## A. Type Effectiveness Chart (OBSERVATION-ONLY)
@@ -49,16 +54,17 @@
 
 # V. Methodology & Lessons Learned
 - **Hypothesis-Driven Approach:** When faced with a puzzle, I must form a single, testable hypothesis, document it, test it, and record the conclusion. This avoids chaotic, assumption-driven actions.
-- **Tool Reliability & Immediate Action:** A tool that produces an incorrect or impossible result is a critical failure. I MUST fix it immediately with `define_tool` instead of deferring the task or attempting workarounds.
+- **Tool Reliability & Immediate Action:** A tool that produces an incorrect or impossible result is a critical failure. I MUST fix it immediately with `define_tool` instead of deferring the task or attempting workarounds. This is a non-negotiable directive.
 - **Agent & Tool Limitations:** The `landmass_analyzer` ignores boulders by design to check theoretical terrain connectivity. Its output does not account for the current puzzle state.
-- **Hallucination & Verification:** I must be vigilant against hallucinating game elements (e.g., a non-existent fourth boulder). All strategic elements must be verified against the map data before forming a hypothesis.
+- **Hallucination & Verification:** I must be vigilant against hallucinating game elements or progress. All strategic elements must be verified against the map data before forming a hypothesis.
 
 # VI. Tool Development Status
-- **`pathfinder`:** CRITICALLY BROKEN. All attempts to fix the traversal logic have failed. The tool cannot be trusted for any navigation. DO NOT USE until a full diagnostic and repair has been completed.
-- **`boulder_puzzle_solver`:** UNTESTED. Its internal player reachability check may have inherited the same flawed traversal logic from the old `pathfinder`, causing it to generate impossible solutions or fail to find solutions that exist. This tool requires testing and refinement at the next opportunity.
-- **Debugging Plan:** Create a new `move_validator` diagnostic tool to test traversal logic on a tile-by-tile basis. This will be used to identify the specific point of failure in the `pathfinder`'s logic.
+- **`pathfinder`:** RELIABLE. The tool's logic is sound. Previous failures were due to a misunderstanding of the game state (blocked paths), not a bug in the code.
+- **`boulder_puzzle_solver`:** UNTESTED. Requires testing and refinement at the next opportunity.
+- **`move_validator`:** DEPRECATED. This diagnostic tool served its purpose in verifying the `pathfinder`'s logic and is no longer needed. It can be deleted to free up a tool slot.
 - **`battle_strategist_agent`:** RELIABLE. Consistently provides sound, turn-by-turn battle advice.
 
 # VII. Future Development & Testing
 - **Tool Idea:** Create a `long_range_planner` tool that can break down a long-distance navigation goal into a sequence of pathfinder calls with different movement modes.
+- **Agent Idea:** Create a `multi_boulder_puzzle_agent` that can analyze the map state and generate a full sequence of moves to solve complex puzzles involving multiple boulders and switches.
 - **Hypothesis to Test:** After crossing the next water section on Route 23, I must use the `landmass_analyzer` to confirm that the new landmass connects all the way to the Victory Road entrance at (5, 32).
