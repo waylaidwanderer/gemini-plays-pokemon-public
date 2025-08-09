@@ -62,3 +62,8 @@
 # VII. Current Plan (Victory Road 1F)
 - **Objective:** Solve the final boulder puzzle on Victory Road 1F to open the barrier at (10, 13).
 - **Plan:** Now that the party is healed, return to Victory Road 1F. Use the functional `pathfinder` to navigate to the eastern upper platform and push the boulder at (15, 3) onto the switch at (18, 14). This should clear the barrier at (10, 13) and open the way to the ladder at (2, 2).
+
+# VIII. Future Development & Testing
+- **Agent Idea:** Create a `multi_modal_planner` agent that can break down a long-distance navigation goal into a sequence of pathfinder calls with different movement modes (e.g., walking, then surfing, then walking again).
+- **Tool Idea:** The `multi_modal_planner` might be better implemented as a tool, since it's a computational pathing problem.
+- **Hypothesis to Test:** After crossing the next water section on Route 23, I must use the `landmass_analyzer` to confirm that the new landmass connects all the way to the Victory Road entrance at (5, 32).
