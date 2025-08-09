@@ -52,7 +52,7 @@
 
 # VI. Tool Development Status
 - **`pathfinder`:** **CRITICALLY FAILED & ABANDONED.** Multiple complete overhauls of the neighbor-finding logic have failed to produce a working tool. It is fundamentally broken and MUST NOT be used for navigation. All future pathing will be done manually until a full, systematic debugging effort can be undertaken. Relying on this tool is a waste of turns.
-- **`battle_strategist_agent`:** RELIABLE. Consistently provides sound, turn-by-turn battle advice.
+- **`battle_strategist_agent`:** **UNRELIABLE.** Incorrectly predicted a one-hit KO against a Lv48 Hitmonchan with a Lv63 Jolteon using a neutral STAB move. The agent needs to be more conservative in its damage calculations and avoid guaranteeing one-hit KOs unless the type advantage is overwhelming (e.g., 4x). It must account for a wider range of defensive stats. **MUST BE REFINED.**
 
 # VII. Victory Road 1F - Puzzle Analysis
 - **Hypothesis 1 (Failed):** The boulder at (3, 10) can be pushed UP to clear a path.
