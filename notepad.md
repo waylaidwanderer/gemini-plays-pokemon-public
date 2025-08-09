@@ -73,4 +73,3 @@
 
 # VIII. New Ideas & Rules (Post-Reflection)
 - **New Rule:** If `pathfinder` reports 'No path found', my first action MUST be to run `landmass_analyzer` to verify connectivity before attempting any debugging. This is to combat confirmation bias.
-- **Tool Idea: `tool_debugger_agent`**: An agent that takes a tool's code, input, output, and error message to suggest a fix. This would streamline the debugging process.
