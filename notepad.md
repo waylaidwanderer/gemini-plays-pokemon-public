@@ -59,3 +59,8 @@
 
 # VII. HM/Field Move Mechanics
 - **Surf Mechanic:** To use Surf from a land tile, the player must be standing on a tile adjacent to the water AND be facing the water tile.
+
+# VIII. Methodology Addendum (Post-Critique Turn 131192)
+- **Route 23 Tool Failure Analysis:** The Overwatch critique correctly identified my failure to trust the `generate_path_plan` tool. The tool reported "no path found" because the guards are impassable objects, and I was trying to path *through* them. My conclusion that the tool was broken was incorrect; the tool was functioning perfectly. I wasted significant time on manual navigation as a result.
+- **Reinforced Mandate:** I must adhere to my own documented rule: "Trust System Over Custom Analysis." If a pathfinding tool fails, my first action is to analyze the map for physical obstacles, not to question the tool's validity.
+- **Agent Usage Correction:** I also incorrectly used the `battle_strategist_agent` for a trivial wild battle (Lv 4 Mankey). This is an inefficient use of resources. I will exercise better judgment and handle such simple encounters manually, reserving the agent for complex or significant battles.
