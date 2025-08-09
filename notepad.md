@@ -27,7 +27,7 @@
 # IV. Battle Intelligence
 ## A. Type Effectiveness Chart (OBSERVATION-ONLY)
 - **Super Effective (2x damage):**
-  - Electric > Flying, Water, Rock/Ground
+  - Electric > Flying, Water
   - Water > Rock/Ground, Fire
   - Ground > Rock/Ground, Fire, Electric, Rock
   - Ice > Ground, Grass, Flying, Dragon
