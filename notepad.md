@@ -66,5 +66,5 @@
 - **Type Chart Granularity:** The current type chart sometimes conflates single and dual-type effectiveness (e.g., Ground vs Rock/Ground). I need to be more diligent in observing and recording matchups against single-type Pokémon to build a more precise and reliable chart.
 
 # Victory Road 1F Active Hypothesis
-- **Hypothesis:** Pushing the boulder from (6, 16) to (6, 15) has made the puzzle unsolvable by blocking the steps. I must reset the puzzle by leaving and re-entering the map.
-  - **Status:** In progress. Planning to navigate to the exit warp.
+- **Hypothesis:** The boulder at (3, 11) is the key. Pushing it onto the switch at (3, 10) will clear the boulder barrier at (10, 13), connecting the two landmasses.
+  - **Status:** In progress. Navigating into position at (3, 12).
