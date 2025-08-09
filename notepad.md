@@ -51,14 +51,7 @@
 - **Falsify Assumptions:** I must actively try to disprove my own hypotheses, especially regarding navigation. If a path fails, I must verify connectivity before repeatedly attempting the same path. This helps avoid confirmation bias where I assume my tool is wrong instead of my assumption.
 
 # VI. Current Strategy & Plans
-## A. Route 23 Blockage
-- **Goal:** Get past the guard at (5, 36) to enter Victory Road.
-- **Status:** The path is blocked. My previous hypothesis that the guard was bugged was based on a flawed premise (that Route 22 was a dead end). The correct path is forward through the Route 22 gatehouse.
-- **Plan:**
-  1. Navigate to the gatehouse warp at (9, 6) on Route 22.
-  2. Proceed through the gatehouse to Route 23.
-  3. Test if the guard at (5, 36) is still blocking the path.
-
-## B. Victory Road Plan
+## A. Victory Road Plan
 - **Objective:** Navigate Victory Road to reach the Indigo Plateau.
-- **Strategy:** The cave is a series of boulder puzzles. I will use my `puzzle_strategist_agent` at the first opportunity to solve them, as per the Overwatch critique. I must document each puzzle's solution in my notepad.
+- **Critical Priority:** My `puzzle_strategist_agent` has proven unreliable. My highest priority is to refine and validate this agent until it can consistently solve the boulder puzzles in this area. I am forbidden from reverting to manual puzzle-solving.
+- **Current Puzzle:** Solve the eastern boulder puzzle on 1F to clear the barrier at (10, 13). This requires pushing the boulder at (15, 3) onto the switch at (18, 14).
