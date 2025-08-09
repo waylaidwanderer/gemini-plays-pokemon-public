@@ -30,15 +30,11 @@
 - **2F Western Barrier:** The switch at (2, 17) is empty, but the barrier is already cleared. This puzzle is solved.
 
 ## Current Puzzle: Victory Road 1F
-- **Key Insight #1 (The Trap):** Pushing the western boulder at (3, 11) onto the switch at (3, 10) is a trap. It permanently blocks the path to the ladder at (2, 2) until the puzzle is reset by leaving the map.
-- **Key Insight #2 (Connectivity):** The `landmass_analyzer` tool has confirmed that the western and eastern ground-floor areas of Victory Road 1F are a single, connected landmass. The path is blocked by the movable boulder at (6, 16).
-- **Current Hypothesis:** Pushing the boulder at (6, 16) south to (6, 17) will clear the path to the eastern side of the room. From there, the eastern boulder puzzle can be solved.
+- **Key Insight #1 (Misinterpretation):** I previously misinterpreted the output of the `landmass_analyzer`. The tool correctly identified that the western and eastern ground-floor areas are **two separate, disconnected landmasses**.
+- **Key Insight #2 (The True Path):** The only way to progress from the entrance (western landmass) to the ladder at (2, 2) is to use the elevated platforms. The path involves going up steps (e.g., at (6, 14)), traversing the platform, and using a one-way drop to reach the northern ground area where the ladder is.
+- **Key Insight #3 (The Trap):** Pushing the western boulder at (3, 11) is a trap that blocks the path to the ladder. The solution is to leave it alone. The boulder puzzle on this floor is not required to reach the exit ladder.
 - **Current Plan:**
-    1. Get into position at (6, 15) to push the boulder at (6, 16).
-    2. Push the boulder south to (6, 17).
-    3. Navigate to the steps at (16, 8) to reach the eastern elevated platform.
-    4. Get into position to push the boulder at (15, 3).
-    5. Push the boulder to the switch at (18, 14) and observe the result.
+    1. Navigate from the current position to the ladder at (2, 2) via the elevated platforms.
 
 # IV. Battle Intelligence
 ## A. Type Effectiveness Chart (OBSERVATION-ONLY)
