@@ -24,13 +24,13 @@
 - **Strength Push Mechanics:** When pushing a boulder, the player's character remains in place. The push is executed from an adjacent tile, and only the boulder moves.
 
 ## Current Puzzle: Victory Road 1F Main Barrier
-- **Analysis:** My previous hypotheses were flawed. Hypothesis #2 (Eastern Boulder) is impossible due to circular logic (the path to the boulder is blocked by the barrier it's supposed to open). Hypothesis #1 (Western Boulder) was incorrectly dismissed as a "dead end." The path it opens to 2F is likely the next step in a multi-floor solution.
-- **Hypothesis (Attempt #3):** The puzzle requires actions on multiple floors. Pushing the western boulder at (3, 11) south to (3, 10) grants access to the ladder to 2F. An action on 2F will then open the main barrier at (10, 13) on 1F.
+- **Analysis (Correction):** My previous hypotheses were based on a hallucinated western boulder switch. The map data confirms there is only one switch on this floor, at (18, 14), which controls the single barrier at (10, 13). The most plausible boulder to use is the one located at (15, 3).
+- **Hypothesis (Attempt #4):** Pushing the boulder from (15, 3) onto the switch at (18, 14) will clear the barrier at (10, 13), opening the path to the western side of the map and the ladder to 2F.
 - **Test Plan:**
-    1. Navigate to (3, 12).
-    2. Push the boulder at (3, 11) south to (3, 10).
-    3. Navigate to the ladder at (2, 2) and ascend to Victory Road 2F.
-    4. Explore 2F for a mechanism (e.g., a new boulder/hole puzzle) that affects the 1F barrier.
+    1. Navigate to a position to push the boulder at (15, 3) south.
+    2. Maneuver the boulder south and east until it rests on the switch at (18, 14).
+    3. Verify that the barrier at (10, 13) has been cleared.
+    4. Navigate through the now-open path to the ladder at (2, 2) and ascend to Victory Road 2F.
 
 # IV. Battle Intelligence
 ## A. Type Effectiveness Chart (OBSERVATION-ONLY)
