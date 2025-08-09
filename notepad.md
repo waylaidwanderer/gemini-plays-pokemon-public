@@ -66,5 +66,5 @@
 - **Type Chart Granularity:** The current type chart sometimes conflates single and dual-type effectiveness (e.g., Ground vs Rock/Ground). I need to be more diligent in observing and recording matchups against single-type Pokémon to build a more precise and reliable chart.
 
 # Victory Road 1F Active Hypothesis
-- **Hypothesis:** The map is segmented. The boulder at (6, 16) is the key to connecting the landmasses. Pushing it should open a path to the steps at (6, 14), allowing access to the elevated platform that connects the different areas.
-  - **Status:** In progress. I have moved into position to test this.
+- **Hypothesis:** Pushing the boulder from (6, 16) to (6, 15) has made the puzzle unsolvable by blocking the steps. I must reset the puzzle by leaving and re-entering the map.
+  - **Status:** In progress. Planning to navigate to the exit warp.
