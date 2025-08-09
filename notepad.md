@@ -23,13 +23,6 @@
 - **Boulder/Item Interaction:** Pushing a boulder onto an item collects the item and moves the boulder into that space.
 - **Strength Push Mechanics:** The push is executed from an adjacent tile, and only the boulder moves.
 
-## Current Puzzle: Victory Road 1F
-- **Hypothesis 1 (Failed):** Pushing the boulder at (15, 3) onto the switch at (18, 14) will clear the barrier at (10, 13).
-  - **Conclusion:** This requires accessing the eastern elevated platform, which is currently blocked.
-- **Hypothesis 2 (Failed):** The boulder at (3, 10) can be pushed UP to clear a path.
-  - **Conclusion:** The tile at (3, 9) is impassable, blocking the push.
-- **Current Hypothesis:** The only way forward is to ascend to 2F via the ladder at (2, 2) and find a path that loops back down to the eastern side of 1F.
-
 # IV. Battle Intelligence
 ## A. Type Effectiveness Chart (OBSERVATION-ONLY)
 - **Super Effective (2x damage):**
@@ -61,17 +54,15 @@
 - **`pathfinder`:** **CRITICALLY FAILED & ABANDONED.** Multiple complete overhauls of the neighbor-finding logic have failed to produce a working tool. It is fundamentally broken and MUST NOT be used for navigation. All future pathing will be done manually until a full, systematic debugging effort can be undertaken. Relying on this tool is a waste of turns.
 - **`battle_strategist_agent`:** RELIABLE. Consistently provides sound, turn-by-turn battle advice.
 
-# VII. Future Development & Testing
-- **Agent Idea: `puzzle_strategist_agent`**
-  - **Purpose:** Provide optimal push sequences for boulder puzzles.
-  - **Function:** Takes a grid layout, player position, boulder positions, and target switch position as input. It would output a sequence of moves to solve the puzzle.
-- **Tool Idea: `puzzle_input_generator`**
-  - **Purpose:** Automate the repetitive task of parsing the map XML to gather all necessary data for the `puzzle_strategist_agent`.
+# VII. Victory Road 1F - Puzzle Analysis
+- **Hypothesis 1 (Failed):** The boulder at (3, 10) can be pushed UP to clear a path.
+  - **Conclusion:** The tile at (3, 9) is impassable, blocking the push.
+- **Hypothesis 2 (Plan V2 - Failed):** The elevated platforms can be used to cross from the western side of the map to the eastern side.
+  - **Conclusion:** The path across the western platform is blocked by impassable tiles and a boulder barrier at (10, 13). The steps at (8, 8) are inaccessible from the platform. The western platform is a dead end for east-west traversal.
 
-## Victory Road 1F - Plan V2
-- **Hypothesis:** The path forward requires traversing the elevated platforms to access different ground-level sections.
-- **Step 1:** Ascend the western platform via the steps at (6, 14).
-- **Step 2:** Navigate across the western platform to the steps at (8, 8) and descend to the central ground area.
-- **Step 3:** From the central area, access the eastern ground area to solve the boulder puzzle (boulder at (15, 3) to switch at (18, 14)).
-- **Step 4:** This should clear the boulder barrier at (10, 13), connecting the elevated platform.
-- **Step 5:** With the platform connected, solve the western boulder puzzle (boulder at (3, 10) to switch at (3, 5)) to clear the path to the ladder at (2, 2).
+## Victory Road 1F - Plan V3
+- **Hypothesis:** The ground floor provides a complete path between the western and eastern sections of the map, allowing access to all puzzles.
+- **Step 1:** Descend from the western elevated platform via the steps at (6, 14).
+- **Step 2:** Navigate across the ground floor to the eastern side of the map.
+- **Step 3:** Solve the eastern boulder puzzle (boulder at (15, 3) to switch at (18, 14)). This should clear the boulder barrier at (10, 13).
+- **Step 4:** With the platform now connected, solve the western boulder puzzle (boulder at (3, 10) to switch at (3, 5)) to clear the path to the ladder at (2, 2).
