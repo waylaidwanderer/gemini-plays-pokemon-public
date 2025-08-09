@@ -54,8 +54,9 @@
 - **Hallucination & Verification:** I must be vigilant against hallucinating game elements (e.g., a non-existent fourth boulder). All strategic elements must be verified against the map data before forming a hypothesis.
 
 # VI. Tool Development Status
-- **`pathfinder`:** Currently UNRELIABLE. This tool has repeatedly failed to find valid paths on multi-level maps due to flawed elevation and traversal logic. It requires a fundamental rebuild or a completely new approach. Do not trust its output.
+- **`pathfinder`:** CRITICALLY BROKEN. All attempts to fix the traversal logic have failed. The tool cannot be trusted for any navigation. DO NOT USE until a full diagnostic and repair has been completed.
 - **`boulder_puzzle_solver`:** UNTESTED. Its internal player reachability check may have inherited the same flawed traversal logic from the old `pathfinder`, causing it to generate impossible solutions or fail to find solutions that exist. This tool requires testing and refinement at the next opportunity.
+- **Debugging Plan:** Create a new `move_validator` diagnostic tool to test traversal logic on a tile-by-tile basis. This will be used to identify the specific point of failure in the `pathfinder`'s logic.
 - **`battle_strategist_agent`:** RELIABLE. Consistently provides sound, turn-by-turn battle advice.
 
 # VII. Future Development & Testing
