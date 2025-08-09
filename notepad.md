@@ -6,10 +6,10 @@
 # II. Tile Mechanics (Verified)
 - `ground`: Walkable tile.
 - `grass`: Tall grass where wild Pokémon appear. Walkable like `ground`.
-- `elevated_ground`: Walkable ground at a higher elevation. Movement to/from `ground` tiles requires `steps` or a one-way drop.
+- `elevated_ground`: Walkable ground at a higher elevation. Movement to/from `ground` tiles requires `steps` or a one-way `ledge` drop.
 - `cleared_boulder_barrier`: A tile that becomes traversable after a boulder switch is activated. Acts like `elevated_ground`.
 - `steps`: Connects `ground` and `elevated_ground` tiles, allowing vertical movement between them.
-- `ledge`: Can only be traversed downwards.
+- `ledge`: Can only be traversed downwards from an adjacent tile above it.
 - `water`: Crossable using HM Surf.
 - `impassable`: Walls, rocks. Cannot be entered.
 - `ladder_down` / `ladder_up`: Warps between floors.
@@ -27,12 +27,7 @@
 - **3F to 2F:** Pushed boulder from (14, 13) into hole at (14, 15).
 - **2F Main Barrier:** Used boulder from 3F (landed at (5, 15)) and pushed it onto switch at (2, 17).
 - **3F Main Barrier:** Pushed boulder from (23, 2) to switch at (4, 6).
-- **2F Western Barrier:** The switch at (2, 17) is empty, but the barrier is already cleared. This puzzle is solved.
-
-## Current Puzzle: Victory Road 1F
-- **Confirmed Mechanic:** The `landmass_analyzer` has confirmed that the entire floor is one interconnected landmass. Movement between different elevations is only possible via `steps` or `ledge` tiles.
-- **Pathfinder Status:** The tool's elevation logic was flawed. It has been repaired.
-- **Current Plan:** Use the repaired `pathfinder` tool to find the path to the ladder at (2, 2).
+- **1F Boulder Puzzle:** Pushed boulder from (3, 11) to switch at (3, 10).
 
 # IV. Battle Intelligence
 ## A. Type Effectiveness Chart (OBSERVATION-ONLY)
@@ -54,15 +49,15 @@
 
 # V. Methodology & Lessons Learned
 - **Hypothesis-Driven Approach:** When faced with a puzzle, I must form a single, testable hypothesis, document it, test it, and record the conclusion. This avoids chaotic, assumption-driven actions.
-- **Tool Reliability & Immediate Action:** A tool that produces an incorrect or impossible result is a critical failure. I MUST fix it immediately with `define_tool` instead of deferring the task. My highest priority is maintaining the integrity of my tools.
-- **Agent & Tool Limitations:**
-    - The `landmass_analyzer` ignores boulders by design to check theoretical terrain connectivity. Its output does not account for the current puzzle state and should not be misinterpreted as a guarantee of a currently open path.
-- **Hallucination & Verification:** I must be vigilant against hallucinating game elements. I previously based my strategy on a non-existent fourth boulder, a major error that drove my strategy for a significant period. All strategic elements must be verified against the map data before forming a hypothesis.
+- **Tool Reliability & Immediate Action:** A tool that produces an incorrect or impossible result is a critical failure. I MUST fix it immediately with `define_tool` instead of deferring the task or attempting workarounds.
+- **Agent & Tool Limitations:** The `landmass_analyzer` ignores boulders by design to check theoretical terrain connectivity. Its output does not account for the current puzzle state.
+- **Hallucination & Verification:** I must be vigilant against hallucinating game elements (e.g., a non-existent fourth boulder). All strategic elements must be verified against the map data before forming a hypothesis.
 
-# VI. Tool Development & Refinement
-- **`pathfinder` Status:** The tool is now fully functional. Critical bugs related to elevation changes, one-way drops, defeated trainers, and ledge traversal have been resolved. It can now reliably navigate complex multi-level maps.
-- **`boulder_puzzle_solver` Status:** This tool is likely still unreliable. Its internal player reachability check may have inherited the same flawed traversal logic from the old `pathfinder`, causing it to generate impossible solutions or fail to find solutions that exist. This tool requires testing and refinement.
+# VI. Tool Development Status
+- **`pathfinder`:** Currently UNRELIABLE. This tool has repeatedly failed to find valid paths on multi-level maps due to flawed elevation and traversal logic. It requires a fundamental rebuild or a completely new approach. Do not trust its output.
+- **`boulder_puzzle_solver`:** UNTESTED. Its internal player reachability check may have inherited the same flawed traversal logic from the old `pathfinder`, causing it to generate impossible solutions or fail to find solutions that exist. This tool requires testing and refinement at the next opportunity.
+- **`battle_strategist_agent`:** RELIABLE. Consistently provides sound, turn-by-turn battle advice.
 
 # VII. Future Development & Testing
-- **Tool Idea:** Create a `long_range_planner` tool that can break down a long-distance navigation goal into a sequence of pathfinder calls with different movement modes (e.g., walking, then surfing, then walking again).
+- **Tool Idea:** Create a `long_range_planner` tool that can break down a long-distance navigation goal into a sequence of pathfinder calls with different movement modes.
 - **Hypothesis to Test:** After crossing the next water section on Route 23, I must use the `landmass_analyzer` to confirm that the new landmass connects all the way to the Victory Road entrance at (5, 32).
