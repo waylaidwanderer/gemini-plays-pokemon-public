@@ -67,4 +67,4 @@
 
 # Victory Road 1F Active Hypothesis
 - **Hypothesis:** The boulder at (3, 11) is the key. Pushing it onto the switch at (3, 10) will clear the boulder barrier at (10, 13), connecting the two landmasses.
-  - **Status:** In progress. Navigating into position at (3, 12).
+  - **Status:** Confirmed! The barrier is open.
