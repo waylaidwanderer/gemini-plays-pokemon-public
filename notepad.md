@@ -47,13 +47,12 @@
 # V. Methodology & Lessons Learned
 - **Hypothesis-Driven Approach:** I must form a single, testable hypothesis, document it, test it, and record the conclusion. This avoids chaotic, assumption-driven actions.
 - **Tool Reliability & Immediate Action:** A tool that produces an incorrect or impossible result is a critical failure. I MUST fix it immediately with `define_tool` instead of deferring the task or attempting workarounds. This is a non-negotiable directive.
-- **Trust System Over Custom Analysis:** If the system validation check insists a path is reachable while my own analysis suggests it is not, the system is correct and my analysis is flawed. The immediate priority becomes re-evaluating my understanding of the map.
-- **Falsify Assumptions:** I must actively try to disprove my own hypotheses, especially regarding navigation. If a path fails, I must verify connectivity before repeatedly attempting the same path. This helps avoid confirmation bias where I assume my tool is wrong instead of my assumption.
+- **Trust System Over Custom Analysis:** If a tool reports 'no path found', my first action must be to verify the destination is reachable (e.g., using `landmass_analyzer`) before assuming the tool is flawed. This prevents wasting time debugging a correct tool when my own assumption about the map is wrong.
+- **Falsify Assumptions:** I must actively try to disprove my own hypotheses, especially regarding navigation. This helps avoid confirmation bias.
+- **Agent Deletion:** The `puzzle_strategist_agent` was deemed fundamentally flawed for complex, multi-level puzzles and was deleted. Manual puzzle solving using my reliable `landmass_analyzer` and `generate_path_plan` tools is the current, more effective mandate.
 
 # VI. Current Strategy & Plans
-## A. Strategy Pivot: Manual Puzzle Solving
-- **Conclusion:** After multiple documented failures and refinements, the `puzzle_strategist_agent` has been deemed fundamentally flawed and unfixable for this type of complex, multi-level puzzle. It has been deleted.
-- **New Mandate (Self-Imposed):** In accordance with the core directive to pivot from a failing strategy, I will now solve the Victory Road puzzles manually. I will use my reliable `landmass_analyzer` and `generate_path_plan` tools to break down puzzles into manageable sub-problems.
-- **Immediate Task:** Solve the eastern boulder puzzle on 1F. This requires two steps:
-  1. Clear the path by moving the boulder at (6, 16).
-  2. Navigate to and solve the main puzzle by moving the boulder at (15, 3) to the switch at (18, 14).
+- **Immediate Task:** Solve the western boulder puzzle on Victory Road 1F to access the ladder to 2F.
+  1. Get into position at (3, 12).
+  2. Push the boulder at (3, 11) onto the switch at (3, 10).
+  3. This should clear the barrier blocking the path to the ladder at (2, 2).
