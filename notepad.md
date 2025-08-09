@@ -59,8 +59,7 @@
 - **New Rule:** If `pathfinder` reports 'No path found', my first action MUST be to run `landmass_analyzer` to verify connectivity before attempting any debugging. This is to combat confirmation bias.
 
 # VI. Tool Development Status
-- **`pathfinder`:** RELIABLE. The tool's logic is sound. Recent failures were due to my own misinterpretation of the map layout (being on a disconnected platform), not a bug in the code. This was confirmed by re-reading the `landmass_analyzer` output.
-- **`boulder_puzzle_solver`:** UNRELIABLE. The tool's internal player reachability logic is critically flawed and cannot handle multi-level maps. It should not be used for complex puzzles until it is completely overhauled.
+- **`pathfinder`:** UNRELIABLE. The tool is critically flawed and has failed repeatedly on multi-level maps despite multiple attempts to fix it. It should not be used until a complete overhaul of its neighbor-finding and traversal logic is successful.
 - **`battle_strategist_agent`:** RELIABLE. Consistently provides sound, turn-by-turn battle advice.
 
 # VII. Future Development & Testing
