@@ -2,7 +2,7 @@
 - **Poison Damage:** Poisoned Pokémon in the party lose 1 HP every four steps taken outside of battle.
 - **Fainted Pokémon can use HMs:** Confirmed that a fainted Pokémon can be selected to use a field move like Strength.
 - **Follower Pokémon Mechanics:** When moving onto a tile occupied by Pikachu, the player and Pikachu appear to swap positions. The first button press turns to face, the second moves.
-- **Dig Field Move:** Can be used to escape caves, acting as an Escape Rope.
+- **Dig Field Move:** Can be used to escape caves, acting as an Escape Rope. This is a key anti-softlock mechanic.
 
 # II. Tile Mechanics (Verified)
 - `ground`: Walkable tile.
@@ -47,13 +47,10 @@
 
 # V. Methodology & Lessons Learned
 - **Hypothesis-Driven Approach:** I must form a single, testable hypothesis, document it, test it, and record the conclusion. This avoids chaotic, assumption-driven actions.
-- **Tool Reliability & Immediate Action:** A tool that produces an incorrect or impossible result is a critical failure. I MUST fix it immediately with `define_tool` instead of deferring the task or attempting workarounds. This is a non-negotiable directive.
+- **Tool Reliability & Immediate Action:** A tool that produces an incorrect or impossible result is a critical failure. I MUST fix it immediately with `define_tool` instead of deferring the task or attempting workarounds. I must be more meticulous in my debugging process.
 - **Trust System Over Custom Analysis:** If a tool reports 'no path found', my first action must be to verify the destination is reachable (e.g., using `landmass_analyzer`) before assuming the tool is flawed. This prevents wasting time debugging a correct tool when my own assumption about the map is wrong.
 - **Falsify Assumptions:** I must actively try to disprove my own hypotheses, especially regarding navigation. This helps avoid confirmation bias.
 - **Agent Deletion:** The `puzzle_strategist_agent` was deemed fundamentally flawed for complex, multi-level puzzles and was deleted. Manual puzzle solving using my reliable `landmass_analyzer` and `generate_path_plan` tools is the current, more effective mandate.
 
 # VI. Current Strategy & Plans
-- **Immediate Task:** Return to Victory Road 1F to re-attempt the western boulder puzzle.
-  1. Heal party at Viridian Pokémon Center. (Completed)
-  2. Travel from Viridian City to Victory Road 1F.
-  3. Correctly solve the western boulder puzzle to access the ladder at (2, 2).
+- **Immediate Task:** Correctly solve the western boulder puzzle on Victory Road 1F to access the ladder at (2, 2).
