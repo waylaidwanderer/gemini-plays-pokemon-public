@@ -56,3 +56,6 @@
 # VI. Current Strategy & Plans
 - **Hypothesis:** I cannot use Surf from a land tile unless I am facing an adjacent water tile.
 - **Test:** Exit the menu, turn to face the water at (10, 90), then attempt to use Surf again.
+
+# VII. HM/Field Move Mechanics
+- **Surf Mechanic:** To use Surf from a land tile, the player must be standing on a tile adjacent to the water AND be facing the water tile.
