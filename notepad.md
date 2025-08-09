@@ -12,7 +12,7 @@
 - `steps`: Connects `ground` and `elevated_ground` tiles, allowing vertical movement between them.
 - `ledge`: Can only be traversed downwards from an adjacent tile above it.
 - `water`: Crossable using HM Surf.
-- `impassable`: Walls, rocks, and sometimes objects like defeated trainers. Cannot be entered.
+- `impassable`: Walls, rocks, statues, and sometimes objects like defeated trainers. Cannot be entered.
 - `ladder_down` / `ladder_up`: Warps between floors.
 - `hole`: Warps the player (or a boulder) to the floor below.
 - `boulder_switch`: Floor switch for boulders.
@@ -53,9 +53,18 @@
 
 # VI. Current Strategy & Plans
 ## Road to the Indigo Plateau
-- **Goal:** Navigate through Route 22 and Route 23 to reach Victory Road.
-- **Status:** Currently on Route 22. Need to reach the gatehouse at (9, 6).
+- **Goal:** Navigate through Route 23 to reach Victory Road.
+- **Status:** Currently on Route 23. The route is segmented by water, requiring a multi-stage navigation plan.
 - **Plan:**
-  1. Generate a valid path from the current position to the gatehouse.
-  2. Navigate the path.
-  3. Enter the gatehouse warp.
+  1. ~~Reach the first guard at (9, 137).~~ (Complete)
+  2. ~~Reach the second guard at (9, 120).~~ (Complete)
+  3. ~~Reach the third guard at (13, 106).~~ (Complete)
+  4. Navigate to the water's edge at (11, 105).
+  5. Use SURF to cross to the next landmass.
+  6. Navigate to the fourth guard at (11, 57).
+  7. Navigate to the final guard at (5, 36).
+  8. Enter Victory Road at (5, 32).
+
+# VII. Future Development Ideas
+- **`multi_modal_pathfinder_agent`**: An agent that can take a start and end coordinate on a complex, segmented map (like Route 23) and generate a high-level plan involving multiple movement modes (walking, surfing). It would output a sequence of calls to the `pathfinder` tool.
+- **`generate_path_plan` tool**: A tool that combines the functionality of `pathfinder` and `path_converter`. It would take start/end coordinates and a movement mode, and directly output a coordinate-based `path_plan`, streamlining the navigation process from two tool calls to one.
