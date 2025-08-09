@@ -68,5 +68,7 @@
   - **Conclusion:** Failed. The pathfinder confirmed the eastern area is unreachable from the entrance. The map is split.
 - **Hypothesis 2 (Failed):** The western puzzle at (3, 10) must be solved first. This will open a path to the eastern side, likely by clearing the barrier at (10, 13).
   - **Test (Attempt 1):** Push boulder from (3, 11) to switch at (3, 10). Check if barrier at (10, 13) is open by pathfinding past it.
-  - **Conclusion:** Failed. The pathfinder confirmed the barrier at (10, 13) is still closed. The switch at (3, 10) does not control this barrier.
-- **Hypothesis 3 (Current):** The switch at (3, 10) opened a different, previously unseen path. I must re-explore the western elevated platform to find it.
+  - **Hypothesis 3 (Failed):** The switch at (3, 10) opened a different, previously unseen path.
+  - **Test:** Explored the western elevated platform after activating the switch.
+  - **Conclusion:** Failed. No new paths opened. The western puzzle appears to be self-contained.
+- **Hypothesis 4 (Current):** The eastern boulder puzzle is independent and must be solved to proceed. I need to push the boulder at (15, 3) to the switch at (18, 14) to clear the barrier at (10, 13).
