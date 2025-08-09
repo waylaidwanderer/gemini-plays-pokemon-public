@@ -70,3 +70,7 @@
 - **Hypothesis 3 (Plan V4 - Complete):** The boulder at (10, 17) connects the southern and western ground areas. Pushing it away will allow access to the western boulder puzzle.
   - **Conclusion:** Pushing the boulder to (10, 18) successfully connected the areas, but the western ground area was determined to be a dead end for progression.
 - **Hypothesis 4 (Current):** The eastern puzzle must be solved first. This will likely clear the boulder barrier at (10, 13), opening the path on the western elevated platform to the ladder at (2, 2).
+
+# IX. Current Puzzle Plan
+## Victory Road 1F - Main Puzzle
+- **Hypothesis 1 (Current):** To reach the ladder at (2, 2), I must first solve the eastern boulder puzzle to clear the barrier at (10, 13). This involves pushing the boulder at (15, 3) onto the switch at (18, 14).
