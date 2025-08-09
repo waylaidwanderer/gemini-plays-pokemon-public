@@ -35,6 +35,7 @@
   - **Conclusion:** Hypothesis is **incorrect**. The barrier at (10, 13) remains closed.
 - **Hypothesis #2 (Eastern Boulder):** Pushing the boulder at (15, 3) onto the switch at (18, 14) will open the barrier at (10, 13).
 - **Hypothesis #2 (Eastern Boulder):** Pushing the boulder at (15, 3) onto the switch at (18, 14) will open the barrier at (10, 13).
+- **Hypothesis #2 (Eastern Boulder):** Pushing the boulder at (15, 3) onto the switch at (18, 14) will open the barrier at (10, 13).
 
 # IV. Battle Intelligence
 ## A. Type Effectiveness Chart (OBSERVATION-ONLY)
