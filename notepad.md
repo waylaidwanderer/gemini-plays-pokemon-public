@@ -54,8 +54,8 @@
 - **Judicious Agent Use:** I must exercise my own judgment for simple, obvious situations (like trivial wild battles) and avoid calling agents unnecessarily. The agent is a tool for complex strategic analysis, not a replacement for basic game sense.
 
 # VI. Current Strategy & Plans
-- **Hypothesis:** I cannot use Surf from a land tile unless I am facing an adjacent water tile.
-- **Test:** Exit the menu, turn to face the water at (10, 90), then attempt to use Surf again.
+- **Objective:** Travel to the Indigo Plateau and challenge the Elite Four.
+- **Plan:** Navigate from Viridian City through Route 22, Route 23, and Victory Road.
 
 # VII. HM/Field Move Mechanics
 - **Surf Mechanic:** To use Surf from a land tile, the player must be standing on a tile adjacent to the water AND be facing the water tile.
