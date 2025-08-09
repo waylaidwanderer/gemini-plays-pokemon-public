@@ -29,7 +29,7 @@
 - **Super Effective (2x damage):**
   - Electric > Flying, Water
   - Water > Rock/Ground, Fire
-  - Ground > Fire, Electric, Rock
+  - Ground > Fire, Electric (Note: Effectiveness vs Rock-types is complex; neutral against Rock/Ground)
   - Ice > Ground, Grass, Flying, Dragon
   - Flying > Fighting, Grass, Bug
   - Fighting > Normal, Rock, Ice
