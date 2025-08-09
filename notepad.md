@@ -56,20 +56,15 @@
 - **Agent & Tool Limitations:** The `landmass_analyzer` ignores boulders by design to check theoretical terrain connectivity. Its output does not account for the current puzzle state.
 - **Hallucination & Verification:** I must be vigilant against hallucinating game elements or progress. All strategic elements must be verified against the map data before forming a hypothesis.
 - **Trust Tool Failures:** A tool reporting 'no path found' is a strong indicator that my hypothesis about the path is wrong. I must use this to falsify my own beliefs and avoid confirmation bias, rather than immediately assuming the tool is broken. My failure on Victory Road 1F (Turns 129461-129485) was a direct result of ignoring this rule; I spent dozens of turns 'fixing' a correct tool because I refused to believe my navigation goal was on a separate landmass.
+- **New Rule:** If `pathfinder` reports 'No path found', my first action MUST be to run `landmass_analyzer` to verify connectivity before attempting any debugging. This is to combat confirmation bias.
 
 # VI. Tool Development Status
 - **`pathfinder`:** RELIABLE. The tool's logic is sound. Recent failures were due to my own misinterpretation of the map layout (being on a disconnected platform), not a bug in the code. This was confirmed by re-reading the `landmass_analyzer` output.
-- **`boulder_puzzle_solver`:** PASSED INITIAL TEST. The tool successfully provided a single-step solution to move a blocking boulder. Further testing on multi-step puzzles is required, but it is now considered provisionally reliable.
+- **`boulder_puzzle_solver`:** UNRELIABLE. The tool's internal player reachability logic is critically flawed and cannot handle multi-level maps. It should not be used for complex puzzles until it is completely overhauled.
 - **`battle_strategist_agent`:** RELIABLE. Consistently provides sound, turn-by-turn battle advice.
 
 # VII. Future Development & Testing
 - **Tool Idea: `long_range_planner`**
   - **Purpose:** Automate multi-map navigation.
   - **Function:** Takes a final destination (map ID and coordinates) as input. It would call the `pathfinder` to get to the first exit/warp, then upon arrival on the new map, call `pathfinder` again to the next warp, and so on, until the final destination is reached. This would streamline travel between distant cities or through complex multi-map dungeons.
-- **Agent Idea: `multi_boulder_puzzle_agent`**
-  - **Purpose:** Solve complex puzzles with multiple interacting boulders.
-  - **Function:** Analyzes the map state (boulder positions, switch locations, barriers) and generates a full sequence of moves. This would be a high-level strategic agent, potentially calling the `boulder_puzzle_solver` tool for individual steps.
 - **Hypothesis to Test:** After crossing the next water section on Route 23, I must use the `landmass_analyzer` to confirm that the new landmass connects all the way to the Victory Road entrance at (5, 32).
-
-# VIII. New Ideas & Rules (Post-Reflection)
-- **New Rule:** If `pathfinder` reports 'No path found', my first action MUST be to run `landmass_analyzer` to verify connectivity before attempting any debugging. This is to combat confirmation bias.
