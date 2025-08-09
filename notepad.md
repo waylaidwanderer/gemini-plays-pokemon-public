@@ -51,18 +51,19 @@
 - **New Rule:** If `pathfinder` reports 'No path found', my first action MUST be to run `landmass_analyzer` to verify connectivity before attempting any debugging. This is to combat confirmation bias.
 
 # VI. Tool Development Status
-- **`pathfinder`:** **CRITICALLY FAILED & ABANDONED.** Multiple complete overhauls of the neighbor-finding logic have failed to produce a working tool. It is fundamentally broken and MUST NOT be used for navigation. All future pathing will be done manually until a full, systematic debugging effort can be undertaken. Relying on this tool is a waste of turns.
-- **`battle_strategist_agent`:** **UNRELIABLE.** Incorrectly predicted a one-hit KO against a Lv48 Hitmonchan with a Lv63 Jolteon using a neutral STAB move. The agent needs to be more conservative in its damage calculations and avoid guaranteeing one-hit KOs unless the type advantage is overwhelming (e.g., 4x). It must account for a wider range of defensive stats. **MUST BE REFINED.**
+- **`pathfinder`:** **REPAIRED.** After numerous failures, the neighbor-finding logic has been completely overhauled based on the working `landmass_analyzer` tool. It should now correctly handle multi-level maps with steps and ledges. Awaiting successful field test.
+- **`battle_strategist_agent`:** **REFINED.** The system prompt has been updated to be more conservative in its damage calculations and to more strictly avoid risky switch-ins to low-HP Pokémon. Awaiting successful field test.
 
-# VII. Victory Road 1F - Puzzle Analysis
+# VII. Tool Development Plan
+- **Boulder Puzzle Solver:** Plan to create a new agent/tool combo to solve boulder puzzles.
+  - **`puzzle_input_generator` (Tool):** A tool that parses the `map_xml_string` to extract player position, boulder locations, switch locations, and the grid layout, formatting it into a JSON object.
+  - **`puzzle_strategist_agent` (Agent):** An agent that takes the formatted JSON from the generator and returns a sequence of moves to solve the puzzle.
+
+# VIII. Victory Road 1F - Puzzle Analysis
 - **Hypothesis 1 (Failed):** The boulder at (3, 10) can be pushed UP to clear a path.
   - **Conclusion:** The tile at (3, 9) is impassable, blocking the push.
 - **Hypothesis 2 (Plan V2 - Failed):** The elevated platforms can be used to cross from the western side of the map to the eastern side.
   - **Conclusion:** The path across the western platform is blocked by impassable tiles and a boulder barrier at (10, 13). The steps at (8, 8) are inaccessible from the platform. The western platform is a dead end for east-west traversal.
-
-## Victory Road 1F - Plan V4
-- **Hypothesis:** The boulder at (10, 17) connects the southern and western ground areas. Pushing it away will allow access to the western boulder puzzle.
-- **Step 1:** Navigate from (17, 15) to (10, 16).
-- **Step 2:** Push the boulder at (10, 17) down onto the warp tile at (10, 18).
-- **Step 3:** This should clear the path, allowing access to the western part of the ground floor.
-- **Step 4:** Proceed to solve the western boulder puzzle.
+- **Hypothesis 3 (Plan V4 - Complete):** The boulder at (10, 17) connects the southern and western ground areas. Pushing it away will allow access to the western boulder puzzle.
+  - **Conclusion:** Pushing the boulder to (10, 18) successfully connected the areas, but the western ground area was determined to be a dead end for progression.
+- **Hypothesis 4 (Current):** The eastern puzzle must be solved first. This will likely clear the boulder barrier at (10, 13), opening the path on the western elevated platform to the ladder at (2, 2).
