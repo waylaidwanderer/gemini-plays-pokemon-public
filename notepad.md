@@ -48,11 +48,11 @@
 # V. Methodology & Lessons Learned
 - **Hypothesis-Driven Approach:** I must form a single, testable hypothesis, document it, test it, and record the conclusion. This avoids chaotic, assumption-driven actions.
 - **Tool Reliability & Immediate Action:** A tool that produces an incorrect or impossible result is a critical failure. I MUST fix it immediately with `define_tool` instead of deferring the task or attempting workarounds. I must be more meticulous in my debugging process.
-- **Trust System Over Custom Analysis:** If a tool reports 'no path found', my first action must be to analyze the map for physical obstacles, not to question the tool's validity. This prevents wasting time debugging a correct tool when my own assumption about the map is wrong.
+- **Trust System Over Custom Analysis:** If a pathfinding tool reports 'no path found', my first action MUST be to analyze the map for physical obstacles using a tool like `landmass_analyzer`, not to question the tool's validity. This prevents wasting time debugging a correct tool when my own assumption about the map is wrong.
 - **Falsify Assumptions:** I must actively try to disprove my own hypotheses, especially regarding navigation. This helps avoid confirmation bias.
 - **Judicious Agent Use:** I must exercise my own judgment for simple, obvious situations (like trivial wild battles) and avoid calling agents unnecessarily. The agent is a tool for complex strategic analysis, not a replacement for basic game sense.
-- **Route 23 Tool Failure Analysis:** The Overwatch critique correctly identified my failure to trust the `generate_path_plan` tool. The tool reported "no path found" because the guards are impassable objects, and I was trying to path *through* them. My conclusion that the tool was broken was incorrect; the tool was functioning perfectly. I wasted significant time on manual navigation as a result.
-- **Reinforced Mandate:** I must adhere to my own documented rule: "Trust System Over Custom Analysis." If a pathfinding tool fails, my first action is to analyze the map for physical obstacles, not to question the tool's validity.
+- **Victory Road 1F Failure Analysis:** My pathfinding tools and agents were not broken. They correctly reported that no path existed to the boulder puzzle on the other side of the map. My core assumption that the map was a single connected area was wrong. I wasted dozens of turns trying to fix tools that were working perfectly. This is a critical lesson in trusting my tools and questioning my own assumptions first.
+- **Reinforced Mandate:** If a pathfinding tool fails, my first action is to use `landmass_analyzer` to verify the path is possible before attempting any debugging.
 - **Agent Usage Correction:** I also incorrectly used the `battle_strategist_agent` for a trivial wild battle (Lv 4 Mankey). This is an inefficient use of resources. I will exercise better judgment and handle such simple encounters manually, reserving the agent for complex or significant battles.
 
 # VI. HM/Field Move Mechanics
@@ -65,10 +65,6 @@
 # VIII. Future Improvements & Data Gathering
 - **Type Chart Granularity:** The current type chart sometimes conflates single and dual-type effectiveness (e.g., Ground vs Rock/Ground). I need to be more diligent in observing and recording matchups against single-type Pokémon to build a more precise and reliable chart.
 
-# Victory Road 1F Puzzle Log
-- **Hypothesis 1 (Failed):** Pathfinding to the ladder at (2,2) is blocked by defeated trainers.
-  - **Test:** Use `generate_path_plan` ignoring trainer IDs.
-  - **Result:** No path found.
-  - **Conclusion:** The blockage is not just the trainers, but the map layout itself. The player is on a separate landmass from the target.
-- **Hypothesis 2 (Active):** The map is segmented into disconnected landmasses. The boulder at (6, 16) must be moved to open a path to the steps at (6, 14), which allows access to the elevated platform connecting the landmasses.
-  - **Test:** Push the boulder at (6, 16) one tile to the left, to (5, 16).
+# Victory Road 1F Active Hypothesis
+- **Hypothesis:** The map is segmented. The boulder at (6, 16) is the key to connecting the landmasses. Pushing it should open a path to the steps at (6, 14), allowing access to the elevated platform that connects the different areas.
+  - **Status:** In progress. I have moved into position to test this.
