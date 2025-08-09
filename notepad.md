@@ -30,13 +30,15 @@
 - **2F Western Barrier:** The switch at (2, 17) is empty, but the barrier is already cleared. This puzzle is solved.
 
 ## Current Puzzle: Victory Road 1F
-- **Key Insight:** Pushing the western boulder at (3, 11) onto the switch at (3, 10) is a trap. It permanently blocks the path to the ladder at (2, 2) until the puzzle is reset by leaving the map.
-- **Hypothesis #1 (Eastern Boulder):** The true solution is to push the eastern boulder at (15, 3) onto the switch at (18, 14). This will likely clear the barrier at (10, 13), connecting the two halves of the upper platform and opening the path to the ladder at (2, 2).
+- **Key Insight #1 (The Trap):** Pushing the western boulder at (3, 11) onto the switch at (3, 10) is a trap. It permanently blocks the path to the ladder at (2, 2) until the puzzle is reset by leaving the map.
+- **Key Insight #2 (Connectivity):** The `landmass_analyzer` tool has confirmed that the western and eastern ground-floor areas of Victory Road 1F are a single, connected landmass. The path is blocked by the movable boulder at (6, 16).
+- **Current Hypothesis:** Pushing the boulder at (6, 16) south to (6, 17) will clear the path to the eastern side of the room. From there, the eastern boulder puzzle can be solved.
 - **Current Plan:**
-    1. Navigate from the western ground floor to the eastern ground floor.
-    2. Ascend the steps at (16, 8) to reach the eastern elevated platform.
-    3. Get into position to push the boulder at (15, 3).
-    4. Push the boulder to the switch at (18, 14) and observe the result.
+    1. Get into position at (6, 15) to push the boulder at (6, 16).
+    2. Push the boulder south to (6, 17).
+    3. Navigate to the steps at (16, 8) to reach the eastern elevated platform.
+    4. Get into position to push the boulder at (15, 3).
+    5. Push the boulder to the switch at (18, 14) and observe the result.
 
 # IV. Battle Intelligence
 ## A. Type Effectiveness Chart (OBSERVATION-ONLY)
@@ -67,15 +69,6 @@
 - **`pathfinder` Status:** The tool is now fully functional. Critical bugs related to elevation changes, one-way drops, defeated trainers, and ledge traversal have been resolved. It can now reliably navigate complex multi-level maps.
 - **`boulder_puzzle_solver` Status:** This tool is likely still unreliable. Its internal player reachability check may have inherited the same flawed traversal logic from the old `pathfinder`, causing it to generate impossible solutions or fail to find solutions that exist. This tool requires testing and refinement.
 
-# VII. Current Plan (Victory Road 1F)
-- **Objective:** Solve the boulder puzzle on Victory Road 1F to unlock the path to the ladder at (2, 2).
-- **Status:** I am at (3, 12), positioned to push the boulder at (3, 11) north.
-- **Plan:**
-    1. Activate Strength.
-    2. Push the boulder at (3, 11) onto the switch at (3, 10).
-    3. Observe the outcome.
-
-# VIII. Future Development & Testing
-- **Agent Idea:** Create a `multi_modal_planner` agent that can break down a long-distance navigation goal into a sequence of pathfinder calls with different movement modes (e.g., walking, then surfing, then walking again).
-- **Tool Idea:** The `multi_modal_planner` might be better implemented as a tool, since it's a computational pathing problem.
+# VII. Future Development & Testing
+- **Tool Idea:** Create a `long_range_planner` tool that can break down a long-distance navigation goal into a sequence of pathfinder calls with different movement modes (e.g., walking, then surfing, then walking again).
 - **Hypothesis to Test:** After crossing the next water section on Route 23, I must use the `landmass_analyzer` to confirm that the new landmass connects all the way to the Victory Road entrance at (5, 32).
