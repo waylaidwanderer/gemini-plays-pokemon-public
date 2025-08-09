@@ -1472,39 +1472,5 @@
         "action_counter": 128788
       }
     ]
-  },
-  "move_validator": {
-    "description": "A diagnostic tool to test if a single move between two adjacent tiles is valid according to the pathfinder's traversal logic. Used for debugging.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "start_x": {
-          "type": "string"
-        },
-        "start_y": {
-          "type": "string"
-        },
-        "end_x": {
-          "type": "string"
-        },
-        "end_y": {
-          "type": "string"
-        }
-      },
-      "required": [
-        "start_x",
-        "start_y",
-        "end_x",
-        "end_y"
-      ]
-    },
-    "python_script": "import json\nimport xml.etree.ElementTree as ET\n\nstart_x = int(input_data['start_x'])\nstart_y = int(input_data['start_y'])\nend_x = int(input_data['end_x'])\nend_y = int(input_data['end_y'])\n\ndirection = None\nif end_y > start_y:\n    direction = 'Down'\nelif end_y < start_y:\n    direction = 'Up'\nelif end_x > start_x:\n    direction = 'Right'\nelif end_x < start_x:\n    direction = 'Left'\n\nroot = ET.fromstring(map_xml_string)\ngrid = {}\nfor row_elem in root.findall('Row'):\n    y = int(row_elem.get('id'))\n    for tile_elem in row_elem.findall('Tile'):\n        x = int(tile_elem.get('id'))\n        tile_type = tile_elem.get('type')\n        grid[(x, y)] = {'type': tile_type}\n\nstart_node = (start_x, start_y)\nend_node = (end_x, end_y)\n\nif start_node not in grid or end_node not in grid:\n    print(json.dumps({\"error\": \"Start or end coordinates not found on map.\"}))\nelse:\n    current_tile = grid[start_node]\n    neighbor_tile = grid[end_node]\n    current_type = current_tile['type']\n    neighbor_type = neighbor_tile['type']\n\n    print(f\"DEBUG: Checking move from {start_node} ({current_type}) to {end_node} ({neighbor_type}) in direction {direction}\")\n\n    is_valid_move = False\n    current_is_elevated = current_type in ['elevated_ground', 'cleared_boulder_barrier']\n    neighbor_is_elevated = neighbor_type in ['elevated_ground', 'cleared_boulder_barrier']\n\n    print(f\"DEBUG: Current is elevated: {current_is_elevated}. Neighbor is elevated: {neighbor_is_elevated}\")\n\n    if 'steps' in (current_type, neighbor_type):\n        is_valid_move = True\n        print(\"DEBUG: Reason: Movement involves 'steps'. VALID.\")\n    elif neighbor_type == 'ledge':\n        if start_x == end_x and start_y == end_y - 1:\n            is_valid_move = True\n            print(\"DEBUG: Reason: Moving down onto a 'ledge'. VALID.\")\n        else:\n            print(\"DEBUG: Reason: Cannot move onto a 'ledge' from this direction. INVALID.\")\n    elif current_is_elevated == neighbor_is_elevated:\n        is_valid_move = True\n        print(\"DEBUG: Reason: Movement is on the same elevation level. VALID.\")\n    elif current_is_elevated and not neighbor_is_elevated and direction == 'Down':\n        is_valid_move = True\n        print(\"DEBUG: Reason: One-way drop from elevated to non-elevated ground. VALID.\")\n    else:\n        print(\"DEBUG: Reason: No valid traversal rule matched. INVALID.\")\n\n    if is_valid_move:\n        print(json.dumps({\"result\": \"VALID\"}))\n    else:\n        print(json.dumps({\"result\": \"INVALID\"}))",
-    "history": [
-      {
-        "commit_message": "feat: Create move_validator diagnostic tool. This tool will be used to test the pathfinder's traversal logic on a tile-by-tile basis, helping to identify the specific flaw causing it to fail on multi-level maps. This is a critical step in the debugging process.",
-        "timestamp": "2025-08-09T03:27:49.620Z",
-        "action_counter": 129189
-      }
-    ]
   }
 }
