@@ -54,7 +54,7 @@
 # VI. Current Strategy & Plans
 ## Road to the Indigo Plateau
 - **Goal:** Navigate through Route 23 to reach Victory Road.
-- **Status:** Currently on Route 23, at the western edge of the second water segment at (2, 77). The `pathfinder` tool is proving unreliable for long-distance surfing.
+- **Status:** Currently on Route 23, at the western edge of the second water segment at (3, 77). The `pathfinder` tool has proven unreliable.
 - **Plan:**
   1. ~~Reach the first guard at (9, 137).~~ (Complete)
   2. ~~Reach the second guard at (9, 120).~~ (Complete)
