@@ -29,14 +29,14 @@
 - **3F Main Barrier:** Pushed boulder from (23, 2) to switch at (4, 6).
 - **2F Western Barrier:** The switch at (2, 17) is empty, but the barrier is already cleared. This puzzle is solved.
 
-## Current Hypotheses (Victory Road 1F)
-- **Hypothesis #1 (Western Boulder):** Pushing the boulder at (3, 11) onto the switch at (3, 10) will open a path forward.
-  - **Test:** Pushed boulder from (3, 11) to (3, 10).
-  - **Conclusion:** Hypothesis is **incorrect**. The barrier at (10, 13) remains closed.
-## Current Plan (Victory Road 1F)
-- **Critical Failure:** Pushing the western boulder at (3, 11) to the switch at (3, 10) is a trap that blocks the path to the ladder at (2, 2).
-- **Key Insight:** Boulder puzzles reset upon leaving and re-entering the map. This is the solution to the trap.
-- **New Plan:** Exit Victory Road to Route 23 to reset the boulder puzzle. Re-enter, ignore the western boulder, and proceed directly to the ladder at (2, 2) to continue exploration.
+## Current Puzzle: Victory Road 1F
+- **Key Insight:** Pushing the western boulder at (3, 11) onto the switch at (3, 10) is a trap. It permanently blocks the path to the ladder at (2, 2) until the puzzle is reset by leaving the map.
+- **Hypothesis #1 (Eastern Boulder):** The true solution is to push the eastern boulder at (15, 3) onto the switch at (18, 14). This will likely clear the barrier at (10, 13), connecting the two halves of the upper platform and opening the path to the ladder at (2, 2).
+- **Current Plan:**
+    1. Navigate from the western ground floor to the eastern ground floor.
+    2. Ascend the steps at (16, 8) to reach the eastern elevated platform.
+    3. Get into position to push the boulder at (15, 3).
+    4. Push the boulder to the switch at (18, 14) and observe the result.
 
 # IV. Battle Intelligence
 ## A. Type Effectiveness Chart (OBSERVATION-ONLY)
