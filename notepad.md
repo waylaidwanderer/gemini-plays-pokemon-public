@@ -59,6 +59,3 @@
   1. Generate a valid path from the current position to the gatehouse.
   2. Navigate the path.
   3. Enter the gatehouse warp.
-
-# VII. Future Development Ideas
-- **puzzle_strategist_agent:** Recreate an agent to solve complex boulder puzzles. It would take the map state (boulders, switches, player position, target) and output an optimal sequence of pushes and movements. This would automate the most complex part of navigating puzzle-heavy areas like Victory Road.
