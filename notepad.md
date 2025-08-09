@@ -30,7 +30,10 @@
 - **2F Western Barrier:** The switch at (2, 17) is empty, but the barrier is already cleared. This puzzle is solved.
 
 ## Current Hypotheses (Victory Road 1F)
-- **1F Western Barrier:** Pushing the boulder at (3, 11) onto the switch at (3, 10) will open a path forward. (Attempt #1)
+- **Hypothesis #1 (Western Boulder):** Pushing the boulder at (3, 11) onto the switch at (3, 10) will open a path forward.
+  - **Test:** Pushed boulder from (3, 11) to (3, 10).
+  - **Conclusion:** Hypothesis is **incorrect**. The barrier at (10, 13) remains closed.
+- **Hypothesis #2 (Eastern Boulder):** Pushing the boulder at (15, 3) onto the switch at (18, 14) will open the barrier at (10, 13).
 
 # IV. Battle Intelligence
 ## A. Type Effectiveness Chart (OBSERVATION-ONLY)
