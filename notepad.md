@@ -65,6 +65,6 @@
   2. Immediately use Fly to return to Route 23.
   3. Navigate back to the guard at (5, 36) and attempt to pass.
 
-## B. Future Development Ideas
-- **`multi_modal_pathfinder_agent`**: An agent that can take a start and end coordinate on a complex, segmented map (like Route 23) and generate a high-level plan involving multiple movement modes (walking, surfing). It would output a sequence of calls to the `pathfinder` tool.
-- **`generate_path_plan` tool**: A tool that combines the functionality of `pathfinder` and `path_converter`. It would take start/end coordinates and a movement mode, and directly output a coordinate-based `path_plan`, streamlining the navigation process from two tool calls to one.
+## B. Victory Road Plan
+- **Objective:** Navigate Victory Road to reach the Indigo Plateau.
+- **Strategy:** The cave is a series of boulder puzzles. I will use my `puzzle_strategist_agent` at the first opportunity to solve them, as per the Overwatch critique. I must document each puzzle's solution in my notepad.
