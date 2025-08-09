@@ -67,6 +67,7 @@
 
 # Victory Road 1F Active Hypothesis
 
-# Victory Road 1F Active Hypothesis
-- **Hypothesis:** I am currently on a disconnected elevated platform. The steps at (6, 14) provide a path down to the western section of the map, which contains the ladder to 2F.
-  - **Status:** To be tested. I will attempt to navigate to the steps.
+# Victory Road 1F Puzzles
+- **Western Section Access:**
+  - **Hypothesis:** I was on a disconnected elevated platform. The steps at (6, 14) provided a path down to the western section.
+  - **Status:** Confirmed. I have successfully used the steps to reach the western ground level.
