@@ -67,6 +67,3 @@
   - **Test:** Explored the western elevated platform after activating the switch.
   - **Conclusion:** Failed. No new paths opened. The western puzzle appears to be self-contained.
 - **Hypothesis 4 (Current):** The eastern boulder puzzle is independent and must be solved to proceed. I need to get onto the eastern platform to assess how to push the boulder at (15, 3) to the switch at (18, 14).
-- **Hypothesis 4 (Current):** The eastern boulder puzzle is independent and must be solved to proceed. I need to push the boulder at (15, 3) to the switch at (18, 14) to clear the barrier at (10, 13).
-  - **Conclusion:** Failed. No new paths opened. The western puzzle appears to be self-contained.
-- **Hypothesis 4 (Current):** The eastern boulder puzzle is independent and must be solved to proceed. I need to push the boulder at (15, 3) to the switch at (18, 14) to clear the barrier at (10, 13).
