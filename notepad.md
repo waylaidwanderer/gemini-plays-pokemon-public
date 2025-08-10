@@ -58,4 +58,5 @@
 - **Attempt 1 (Boulder at 6, 16):** My solver confirms this is the correct boulder. The plan is to push it down, then right, to navigate it towards the switch at (18, 14).
   - Step 1: Pushed boulder from (6, 16) down to (6, 17). Success.
   - Step 2: Pushed boulder from (6, 17) to (10, 16), but this was a mistake. 
-- **Attempt 2 (Boulder at 10, 16):** My solver confirms this is still the correct boulder. The new plan is to push it up and then right, navigating around the central platform to reach the switch at (18, 14).
+- **Attempt 2 (Boulder at 10, 16):** Failed. After a series of pushes, I moved the boulder to (17, 14), but this soft-locked the puzzle as the push-from tile (16, 14) was impassable. This forced a reset via DIG.
+- **New Strategy:** I will not touch any boulders until my `boulder_puzzle_solver` tool confirms a valid, step-by-step path from the initial state. I must verify the entire solution path pre-emptively to avoid another soft-lock.
