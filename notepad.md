@@ -64,3 +64,9 @@
 
 # VIII. Future Improvements & Data Gathering
 - **Type Chart Granularity:** The current type chart sometimes conflates single and dual-type effectiveness (e.g., Ground vs Rock/Ground). I need to be more diligent in observing and recording matchups against single-type Pokémon to build a more precise and reliable chart.
+
+# IX. Victory Road 1F Puzzle Plan
+## A. Western Boulder Puzzle (Attempt 1)
+- **Hypothesis:** Pushing the boulder at (3, 11) onto the switch at (3, 10) is the first step to unlocking the path to the ladder at (2, 2).
+- **Test:** Move to (3, 12), then push the boulder Up.
+- **Expected Outcome:** A new path will become accessible, leading towards the western elevated platform.
