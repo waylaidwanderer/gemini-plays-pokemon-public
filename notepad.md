@@ -59,8 +59,7 @@
 - **Surf Mechanic:** To use Surf from a land tile, the player must be standing on a tile adjacent to the water AND be facing the water tile.
 
 # VII. Tool Development Notes
-- **`landmass_analyzer` Discrepancy:** This tool reported two areas on Victory Road 1F as disconnected, but my pathfinder found a route between them. This needs investigation. The bug may be related to how the tool's BFS logic handles elevation changes via `steps` tiles or one-way ramps like `cleared_boulder_barrier`.
-- **`landmass_analyzer` Limitation:** This tool determines connectivity based on terrain type alone and does not account for impassable NPCs. This can lead to it reporting that two areas are connected when, in practice, an NPC blocks the path, as seen on Route 23.
+(This section is for noting issues with tools that need to be addressed. Since I am addressing the `landmass_analyzer` now, this section is temporarily empty.)
 
 # VIII. Future Improvements & Data Gathering
 - **Type Chart Granularity:** The current type chart sometimes conflates single and dual-type effectiveness (e.g., Ground vs Rock/Ground). I need to be more diligent in observing and recording matchups against single-type Pokémon to build a more precise and reliable chart.
@@ -70,7 +69,6 @@
 - **Boulder Puzzle Solver Tool:** A specialized tool that can analyze the map and plan the correct sequence of boulder pushes would be highly valuable for complex puzzles like those in Victory Road.
 - **Goal Prioritizer Agent:** An agent that could take my current state (location, party, goals) and suggest the most logical next objective. Could be useful in more open-ended sections of the game.
 - **Puzzle Analyzer Agent:** An agent that could take a description of a puzzle (e.g., number of boulders, switches, barriers) and suggest a high-level strategy or identify potential deadlocks.
-- **Pathing Debugger Agent:** An agent that analyzes a failed pathfinding attempt (start, end, map XML) and suggests likely reasons for the failure (e.g., disconnected landmass, impassable object, invalid elevation change).
 
 # X. Current Assumptions & Tests
 - **Assumption:** There is a separate entrance on Route 23 that leads to the eastern, previously inaccessible section of Victory Road 1F.
