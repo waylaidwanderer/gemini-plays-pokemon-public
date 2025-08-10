@@ -54,6 +54,7 @@
 - **Victory Road 1F Failure Analysis:** My pathfinding tools and agents were not broken. They correctly reported that no path existed to the boulder puzzle on the other side of the map. My core assumption that the map was a single connected area was wrong. I wasted dozens of turns trying to fix tools that were working perfectly. This is a critical lesson in trusting my tools and questioning my own assumptions first.
 - **Reinforced Mandate:** If a pathfinding tool fails, my first action is to use `landmass_analyzer` to verify the path is possible before attempting any debugging.
 - **Agent Usage Correction:** I also incorrectly used the `battle_strategist_agent` for a trivial wild battle (Lv 4 Mankey). This is an inefficient use of resources. I will exercise better judgment and handle such simple encounters manually, reserving the agent for complex or significant battles.
+- **Verify All Exits:** Before concluding I am trapped or soft-locked, I must use my pathfinding tool to test routes to ALL available exits (ladders, warps, map connections) on the current map. A path being blocked to one objective does not mean all paths are blocked.
 
 # VI. HM/Field Move Mechanics
 - **Surf Mechanic:** To use Surf from a land tile, the player must be standing on a tile adjacent to the water AND be facing the water tile.
@@ -61,20 +62,7 @@
 # VII. Tool Development & Limitations
 - **Future Goal: Multi-Modal Pathfinding:** My current `generate_path_plan` tool can only handle a single mode of transit (walking or surfing). For complex maps like Route 23 that require both, I must manually break the journey into segments. A future goal is to develop a more advanced tool that can automatically plan these multi-modal routes.
 - **`landmass_analyzer` Limitation:** This tool determines connectivity based on terrain type alone and does not account for impassable NPCs. This can lead to it reporting that two areas are connected when, in practice, an NPC blocks the path, as seen on Route 23.
+- **Future Goal: Boulder Puzzle Solver:** A specialized tool that can analyze the map and plan the correct sequence of boulder pushes would be highly valuable for complex puzzles like those in Victory Road.
 
 # VIII. Future Improvements & Data Gathering
 - **Type Chart Granularity:** The current type chart sometimes conflates single and dual-type effectiveness (e.g., Ground vs Rock/Ground). I need to be more diligent in observing and recording matchups against single-type Pokémon to build a more precise and reliable chart.
-
-# IX. Victory Road 1F Puzzle Plan
-## A. Western Boulder Puzzle (Attempt 1)
-- **Hypothesis:** Pushing the boulder at (3, 11) onto the switch at (3, 10) will open the boulder_barrier at (10, 13).
-- **Test:** Push boulder at (3, 11) to (3, 10), then observe barrier at (10, 13).
-- **Conclusion:** Hypothesis denied. The barrier at (10, 13) remained closed. Pushing the first boulder did not solve the eastern puzzle.
-
-## B. Western Boulder Puzzle (Stuck & Reset)
-- **Conclusion:** Attempts to push the boulder at (6,16) right (blocked) and down (to 6,17) both failed to open a path to the steps at (6,14). This resulted in trapping myself in the western section of the map.
-- **New Plan:** I am effectively soft-locked in this area due to my own boulder placement. The pathfinder correctly reports no path to the exit. The only way to reset the puzzle is to use the 'Dig' field move to escape the cave. I will use Dig with SUBTERRA.
-- **Future Goal: Boulder Puzzle Solver:** A specialized tool that can analyze the map and plan the correct sequence of boulder pushes would be highly valuable for complex puzzles like those in Victory Road.
-
-# V. Methodology & Lessons Learned
-- **Verify All Exits:** Before concluding I am trapped or soft-locked, I must use my pathfinding tool to test routes to ALL available exits (ladders, warps, map connections) on the current map. A path being blocked to one objective does not mean all paths are blocked.
