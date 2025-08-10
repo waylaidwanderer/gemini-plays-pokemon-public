@@ -77,3 +77,6 @@
 - **Boulder Puzzle 1 (West):**
   - **Hypothesis:** Pushing the boulder at (3, 11) onto the switch at (3, 10) would open the barrier at (10, 13) and connect the map.
   - **Status:** FAILED. The push blocked the path to the exit ladder, segmenting the map further. The puzzle must be reset by leaving and re-entering the map.
+- **Boulder Puzzle 1 (West):**
+  - **Hypothesis:** Pushing the boulder at (3, 11) onto the switch at (3, 10) would open the barrier at (10, 13) and connect the map.
+  - **Status:** FAILED. The push blocked the path to the exit ladder, segmenting the map further. The puzzle must be reset by leaving and re-entering the map.
