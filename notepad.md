@@ -59,4 +59,4 @@
   - Step 1: Pushed boulder from (6, 16) down to (6, 17). Success.
   - Step 2: Pushed boulder from (6, 17) to (10, 16), but this was a mistake. 
 - **Attempt 2 (Boulder at 10, 16):** Failed. After a series of pushes, I moved the boulder to (17, 14), but this soft-locked the puzzle as the push-from tile (16, 14) was impassable. This forced a reset via DIG.
-- **New Strategy:** My `boulder_puzzle_solver` can now confirm if a boulder can reach a switch. This is a good first step. However, it does not provide the *path*. To avoid soft-locks, I must upgrade the tool to return the full, step-by-step sequence of pushes before I move any boulder.
+- **New Strategy:** My `boulder_puzzle_solver` has been upgraded to provide a full, step-by-step solution path. My strategy is now to generate the solution path with the tool and then execute it precisely to avoid any soft-locks.
