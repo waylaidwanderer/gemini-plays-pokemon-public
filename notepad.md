@@ -66,8 +66,6 @@
 - **Type Chart Granularity:** The current type chart sometimes conflates single and dual-type effectiveness (e.g., Ground vs Rock/Ground). I need to be more diligent in observing and recording matchups against single-type Pokémon to build a more precise and reliable chart.
 
 # Victory Road 1F Active Hypothesis
-
-# Victory Road 1F Puzzles
 - **Western Section Access:**
   - **Hypothesis:** I was on a disconnected elevated platform. The steps at (6, 14) provided a path down to the western section.
   - **Status:** Confirmed. I have successfully used the steps to reach the western ground level.
