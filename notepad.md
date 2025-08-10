@@ -3,13 +3,12 @@
 - **Fainted Pokémon can use HMs:** Confirmed that a fainted Pokémon can be selected to use a field move like Strength.
 - **Follower Pokémon Mechanics:** When moving onto a tile occupied by Pikachu, the player and Pikachu appear to swap positions. The first button press turns to face, the second moves.
 - **Dig Field Move:** Can be used to escape caves, acting as an Escape Rope. This is a key anti-softlock mechanic.
-- **Defeated Trainers as Obstacles:** Once defeated, trainers become impassable obstacles. This can block paths.
 
 # II. Tile Mechanics (Verified)
 - `ground`: Walkable tile.
 - `grass`: Tall grass where wild Pokémon appear. Walkable like `ground`.
 - `water`: Crossable using HM Surf.
-- `impassable`: Walls, rocks, statues, and sometimes objects like defeated trainers. Cannot be entered.
+- `impassable`: Walls, rocks, statues. Cannot be entered. Defeated trainers also act as impassable objects.
 - `ledge`: Can only be traversed downwards from an adjacent tile above it.
 - `steps`: Connects `ground` and `elevated_ground` tiles, allowing vertical movement between them.
 - `elevated_ground`: Walkable ground at a higher elevation. Movement to/from `ground` tiles requires `steps` or a one-way `ledge` drop.
@@ -59,7 +58,7 @@
 - **Surf Mechanic:** To use Surf from a land tile, the player must be standing on a tile adjacent to the water AND be facing the water tile.
 
 # VII. Tool Development Notes
-(This section is for noting issues with tools that need to be addressed. Since I am addressing the `landmass_analyzer` now, this section is temporarily empty.)
+- **Boulder Puzzle Solver Tool:** A specialized tool that can analyze the map and plan the correct sequence of boulder pushes would be highly valuable for complex puzzles like those in Victory Road. This should be prioritized for development.
 
 # VIII. Future Improvements & Data Gathering
 - **Type Chart Granularity:** The current type chart sometimes conflates single and dual-type effectiveness (e.g., Ground vs Rock/Ground). I need to be more diligent in observing and recording matchups against single-type Pokémon to build a more precise and reliable chart.
@@ -81,6 +80,3 @@
 # XI. Self-Assessment & Critical Failures (Turn 131981)
 - **Overwatch Critique Lesson (Tool Trust):** I was critiqued for a major methodological failure on Victory Road 1F. A temporary data sync issue (pushed boulder at (6,16) not updating in the XML) caused `generate_path_plan` to correctly report 'no path'. Instead of trusting the tool and investigating the map state, I incorrectly assumed the tool was broken. I then implemented a faulty 'fix' to ignore all boulders, which led to generating an invalid path through another boulder. This was a critical failure in methodology. **Lesson:** Trust the tool's output. If it says 'no path', the reason is a physical obstacle on the map (even a temporary data one), not a broken tool. I must investigate the map state, not gut my tools.
 - **Strategic Tunnel Vision:** I remained fixated on the unsolvable western boulder puzzle for dozens of turns, failing to pivot to the correct eastern puzzle. I must be more flexible and willing to abandon a failing strategy much sooner.
-
-- **New Tool Idea (from assessment):**
-  - **Boulder Puzzle Solver Tool:** A specialized tool that can analyze the map and plan the correct sequence of boulder pushes would be highly valuable for complex puzzles like those in Victory Road. This should be prioritized for development.
