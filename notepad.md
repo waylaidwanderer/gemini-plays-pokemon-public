@@ -39,7 +39,7 @@
 # V. Methodology & Lessons Learned
 - **Hypothesis-Driven Approach:** I must form a single, testable hypothesis, document it, test it, and record the conclusion.
 - **Tool Reliability & Immediate Action:** A tool that produces an incorrect or impossible result is a critical failure. I MUST fix it immediately with `define_tool` instead of deferring the task or attempting workarounds. I must be more meticulous in my debugging process.
-- **Puzzle Hypothesis Testing:** Before attempting a complex series of boulder pushes, I will first use `landmass_analyzer` to confirm that the start and end points of my proposed solution are on the same, connected landmass. This will prevent me from attempting to solve impossible puzzles.
+- **Puzzle Hypothesis Testing:** Before attempting complex puzzles, I will use `landmass_analyzer` to test connectivity. However, if the tool's output conflicts with a system validation check (e.g., 'Dead End Area Mismatch'), I must trust the validation check and conclude my tool is flawed or I've misinterpreted the situation. The immediate priority becomes debugging the tool or re-evaluating the map from a new perspective, rather than blindly trusting the faulty analysis.
 - **Judicious Agent Use:** I must exercise my own judgment for simple, obvious situations (like trivial wild battles) and avoid calling agents unnecessarily. The agent is a tool for complex strategic analysis, not a replacement for basic game sense.
 - **Verify All Exits:** Before concluding I am trapped or soft-locked, I must use my pathfinding tool to test routes to ALL available exits (ladders, warps, map connections) on the current map. A path being blocked to one objective does not mean all paths are blocked.
 - **Methodology Lessons (Victory Road):**
