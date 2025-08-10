@@ -55,6 +55,3 @@
 - **Current State:** The puzzle has been reset by leaving and re-entering the map.
 - **Analysis:** The `boulder_puzzle_solver` tool has confirmed that only the boulder starting at (6, 16) has a valid, player-achievable path to the switch at (18, 14).
 - **Hypothesis:** Solving the (6, 16) boulder puzzle will clear the barrier at (10, 13) and open the path to the ladder at (2, 2).
-
-# VII. Future Development Ideas
-- **Puzzle Plan Agent:** Create an agent that takes the output of the `boulder_puzzle_solver` and generates a human-readable, step-by-step plan for both player movement and boulder pushes.
