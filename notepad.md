@@ -85,3 +85,5 @@
 
 - **New Tool Idea (from assessment):**
   - **Boulder Puzzle Solver Tool:** A specialized tool that can analyze the map and plan the correct sequence of boulder pushes would be highly valuable for complex puzzles like those in Victory Road. This should be prioritized for development.
+- **New Tool Idea (from assessment):**
+  - **Boulder Puzzle Solver Tool:** A specialized tool that can analyze the map and plan the correct sequence of boulder pushes would be highly valuable for complex puzzles like those in Victory Road. This should be prioritized for development.
