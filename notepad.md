@@ -74,3 +74,7 @@
 ## B. Western Boulder Puzzle (Stuck & Reset)
 - **Conclusion:** Attempts to push the boulder at (6,16) right (blocked) and down (to 6,17) both failed to open a path to the steps at (6,14). This resulted in trapping myself in the western section of the map.
 - **New Plan:** I am effectively soft-locked in this area due to my own boulder placement. The pathfinder correctly reports no path to the exit. The only way to reset the puzzle is to use the 'Dig' field move to escape the cave. I will use Dig with SUBTERRA.
+- **Future Goal: Boulder Puzzle Solver:** A specialized tool that can analyze the map and plan the correct sequence of boulder pushes would be highly valuable for complex puzzles like those in Victory Road.
+
+# V. Methodology & Lessons Learned
+- **Verify All Exits:** Before concluding I am trapped or soft-locked, I must use my pathfinding tool to test routes to ALL available exits (ladders, warps, map connections) on the current map. A path being blocked to one objective does not mean all paths are blocked.
