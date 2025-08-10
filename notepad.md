@@ -1,12 +1,12 @@
 # I. Core Gameplay & World Rules
 - **Poison Damage:** Poisoned Pokémon in the party lose 1 HP every four steps taken outside of battle.
 - **Fainted Pokémon can use HMs:** Confirmed that a fainted Pokémon can be selected to use a field move like Strength.
-- **Follower Pokémon Mechanics:** When moving onto a tile occupied by Pikachu, the player and Pikachu appear to swap positions. The first button press turns to face, the second moves.
+- **Pikachu Interaction:** When moving onto a tile occupied by Pikachu, the player and Pikachu appear to swap positions. The first button press turns to face, the second moves.
 - **Dig Field Move:** Can be used to escape caves, acting as an Escape Rope. This is a key anti-softlock mechanic.
 - **Surf Mechanic:** To use Surf from a land tile, the player must be standing on a tile adjacent to the water AND be facing the water tile.
 
 # II. Battle Intelligence
-## A. Type Effectiveness Chart (OBSERVATION-ONLY)
+## A. Type Effectiveness Chart (Verified In-Game)
 - **Super Effective (2x damage):**
   - Electric > Flying, Water
   - Water > Rock/Ground, Fire
@@ -47,5 +47,5 @@
 - **`steps`:** Allows vertical movement between `ground` and `elevated_ground`.
 - **`elevated_ground`:** Walkable ground at a different elevation. Movement to `ground` is only possible via `steps`.
 - **`ladder_up` / `ladder_down`:** Warps between floors.
-- **Untested Mechanic:** It is unknown if a boulder can be pushed onto a `steps` tile.
+- **Untested Mechanic:** It is unknown if a boulder can be pushed onto a `steps` tile. This needs to be tested.
 - **Barrier Reset:** Boulder barriers reset to their closed state upon changing floors or re-entering a map.
