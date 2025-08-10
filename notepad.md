@@ -4,19 +4,10 @@
 - **Follower Pokémon Mechanics:** When moving onto a tile occupied by Pikachu, the player and Pikachu appear to swap positions. The first button press turns to face, the second moves.
 - **Dig Field Move:** Can be used to escape caves, acting as an Escape Rope. This is a key anti-softlock mechanic.
 
-# II. Tile Mechanics (Verified)
-- `ground`: Walkable tile.
-- `grass`: Tall grass where wild Pokémon appear. Walkable like `ground`.
-- `water`: Crossable using HM Surf.
-- `impassable`: Walls, rocks, statues. Cannot be entered. Defeated trainers also act as impassable objects.
-- `ledge`: Can only be traversed downwards from an adjacent tile above it.
-- `steps`: Connects `ground` and `elevated_ground` tiles, allowing vertical movement between them.
-- `elevated_ground`: Walkable ground at a higher elevation. Movement to/from `ground` tiles requires `steps` or a one-way `ledge` drop.
+# II. Tile Mechanics (Advanced/Uncommon)
 - `cleared_boulder_barrier`: A tile that becomes traversable after a boulder switch is activated. Acts like `elevated_ground` and can function as a one-way ramp up.
 - `boulder_switch`: Floor switch for boulders.
 - `boulder_barrier`: Impassable barrier linked to a boulder switch.
-- `warp`: A tile that transports the player to another location, often a door or cave entrance.
-- `ladder_down` / `ladder_up`: Warps between floors.
 - `hole`: Warps the player (or a boulder) to the floor below.
 
 # III. Puzzle Mechanics & Solutions
