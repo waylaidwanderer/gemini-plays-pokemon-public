@@ -54,15 +54,15 @@
 - **`boulder_puzzle_solver`:** Deleted. The tool was critically flawed, causing timeouts and preventing progress. A manual approach to puzzles is currently more reliable.
 
 ## C. Active Hypothesis (Victory Road 1F) - Manual Approach
-- **Previous Hypothesis (Failed):** The `boulder_puzzle_solver` tool could provide a solution.
-- **Conclusion:** The tool is critically flawed and stuck in a development loop. Relying on it is preventing progress. I am abandoning its use for now in favor of a manual solution.
-- **New Hypothesis:** The puzzle must be solved manually. The key is to push the boulder at (15, 3) onto the switch at (18, 14). This should clear the barrier at (10, 13) and open the path to the ladder at (2, 2).
+- **Previous Hypothesis (Failed):** Pushing the boulder at (6, 16) south would clear a path to the eastern platform.
+- **Conclusion (Attempt 1):** This was a critical error. Pushing the boulder to (6, 17) trapped me in the western section, forcing a reset via Dig. I failed to consider the negative consequences of the move. This is a lesson in thinking through all outcomes before acting.
+- **New Hypothesis:** The main puzzle solution requires accessing the eastern elevated platform to push the boulder at (15, 3) onto the switch at (18, 14). The correct access point to this platform is via the steps at (16, 8).
 - **Plan:**
-    1. **(Completed)** Path to the steps at (6, 14) to access the central/eastern elevated platform.
-    2. Maneuver the boulder at (15, 3) onto the switch at (18, 14).
-    3. Verify the barrier at (10, 13) is cleared.
-    4. Proceed to the ladder at (2, 2).
-- **Boulder Pushing:** The player's position does NOT change when pushing a boulder.
+    1. Navigate to the steps at (16, 8).
+    2. Ascend to the eastern elevated platform.
+    3. Maneuver the boulder at (15, 3) onto the switch at (18, 14).
+    4. Verify the barrier at (10, 13) is cleared.
+    5. Proceed to the ladder at (2, 2).
 
 # IV. Tool Development Ideas
 - **Boulder Puzzle Assistant:** A tool that, instead of solving the whole puzzle, analyzes the current state and suggests all possible valid moves for each boulder on the map. This would help in manual solving without the risk of a complex solver timing out or getting stuck.
