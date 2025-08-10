@@ -57,3 +57,5 @@
 - **Hypothesis:** Solving the (6, 16) boulder puzzle will clear the barrier at (10, 13) and open the path to the ladder at (2, 2).
 - **Attempt 1 (Boulder at 6, 16):** My solver confirms this is the correct boulder. The plan is to push it down, then right, to navigate it towards the switch at (18, 14).
   - Step 1: Pushed boulder from (6, 16) down to (6, 17). Success.
+  - Step 2: Pushed boulder from (6, 17) to (10, 16), but this was a mistake. 
+- **Attempt 2 (Boulder at 10, 16):** My solver confirms this is still the correct boulder. The new plan is to push it up and then right, navigating around the central platform to reach the switch at (18, 14).
