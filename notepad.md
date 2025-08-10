@@ -66,7 +66,6 @@
 - **Overwatch Critique Lesson (Turn 131581):** I was critiqued for overriding my `battle_strategist_agent` in a battle against a wild Fearow (Turn 131556). Although my choice was successful, it violated the core directive to trust my agents. I MUST adhere to agent recommendations, even if I think I have a faster solution. Trusting the system is paramount to avoid repeating this mistake.
 
 # IX. Agent & Tool Ideas
-- **Boulder Puzzle Solver Tool:** A specialized tool that can analyze the map and plan the correct sequence of boulder pushes would be highly valuable for complex puzzles like those in Victory Road.
 - **Goal Prioritizer Agent:** An agent that could take my current state (location, party, goals) and suggest the most logical next objective. Could be useful in more open-ended sections of the game.
 - **Puzzle Analyzer Agent:** An agent that could take a description of a puzzle (e.g., number of boulders, switches, barriers) and suggest a high-level strategy or identify potential deadlocks.
 
