@@ -43,8 +43,9 @@
 - **Falsify Assumptions:** I must actively try to disprove my own hypotheses, especially regarding navigation. This helps avoid confirmation bias.
 - **Judicious Agent Use:** I must exercise my own judgment for simple, obvious situations (like trivial wild battles) and avoid calling agents unnecessarily. The agent is a tool for complex strategic analysis, not a replacement for basic game sense.
 - **Verify All Exits:** Before concluding I am trapped or soft-locked, I must use my pathfinding tool to test routes to ALL available exits (ladders, warps, map connections) on the current map. A path being blocked to one objective does not mean all paths are blocked.
-- **Overwatch Critique Lesson (Turn 131581):** I was critiqued for overriding my `battle_strategist_agent` in a battle against a wild Fearow (Turn 131556). Although my choice was successful, it violated the core directive to trust my agents. I MUST adhere to agent recommendations, even if I think I have a faster solution. Trusting the system is paramount to avoid repeating this mistake.
-- **Victory Road 1F Puzzle Failure (Core Lesson):** My repeated failures stemmed from not trusting my tools. I assumed my pathfinder was broken when it reported 'no path' to the eastern puzzle, but the `landmass_analyzer` proved the area was physically disconnected from the entrance. The lesson is to trust my tools and use them to verify my own assumptions about the map before trying to debug them.# VI. HM/Field Move Mechanics
+- **Methodology Lessons (Victory Road):**
+  - **Trust Agents:** I must adhere to agent recommendations, even if I think I have a faster solution. Trusting the system is paramount (Lesson from Turn 131581).
+  - **Trust Tools:** My pathfinder correctly reported 'no path' to the eastern puzzle because it was physically disconnected, a fact confirmed by `landmass_analyzer`. The lesson is to trust my tools and use them to verify my own assumptions about the map before debugging them.# VI. HM/Field Move Mechanics
 - **Surf Mechanic:** To use Surf from a land tile, the player must be standing on a tile adjacent to the water AND be facing the water tile.
 
 # VII. Tool Development Notes
