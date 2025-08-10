@@ -10,7 +10,7 @@
 - **Super Effective (2x damage):**
   - Electric > Flying, Water
   - Water > Rock/Ground, Fire
-  - Ground > Fire, Electric, Rock, Ground (Confirmed super-effective vs Rock/Ground types)
+  - Ground > Fire, Electric, Rock, Ground
   - Ice > Ground, Grass, Flying, Dragon
   - Flying > Fighting, Grass, Bug
   - Fighting > Normal, Rock, Ice
@@ -33,27 +33,25 @@
 # IV. Methodology & Lessons Learned
 - **Hypothesis-Driven Approach:** I must form a single, testable hypothesis, document it, test it, and record the conclusion.
 - **Tool Reliability & Immediate Action:** A tool that produces an incorrect or impossible result is a critical failure. I MUST fix it immediately with `define_tool` instead of deferring the task or attempting workarounds.
-- **Puzzle Hypothesis Testing:** Before attempting complex puzzles, I will use `landmass_analyzer` to test connectivity. If the tool's output conflicts with a system validation check, I must trust the validation check and conclude my tool is flawed or I've misinterpreted the situation. The immediate priority becomes debugging the tool or re-evaluating the map from a new perspective.
+- **Puzzle Hypothesis Testing:** Before attempting complex puzzles, I will use `landmass_analyzer` and `boulder_puzzle_solver` to test connectivity and puzzle state. If the tool's output conflicts with reality, I must trust reality and conclude my tool is flawed. The immediate priority becomes debugging the tool.
 - **Judicious Agent Use:** I must exercise my own judgment for simple, obvious situations and avoid calling agents unnecessarily. The agent is a tool for complex strategic analysis, not a replacement for basic game sense.
 - **Verify All Exits:** Before concluding I am trapped or soft-locked, I must use my pathfinding tool to test routes to ALL available exits (ladders, warps, map connections) on the current map.
-- **Pre-emptive Path Planning:** For boulder puzzles, I must use my `generate_path_plan` tool to verify the entire sequence of pushes *before* I start moving anything to avoid soft-locking myself.
+- **Pre-emptive Path Planning:** For boulder puzzles, I must use my pathfinding and puzzle analysis tools to verify the entire sequence of pushes *before* I start moving anything to avoid soft-locking myself.
 - **Mindful Gameplay:** I must be more vigilant in basic gameplay checks, as the failure to activate Strength caused a significant and unnecessary delay.
 
-# V. Tool Development Notes & Ideas
+# V. Agent & Tool Development
 - **Goal Prioritizer Agent:** An agent that could take my current state (location, party, goals) and suggest the most logical next objective.
 - **Puzzle Analyzer Agent:** An agent that could take a description of a puzzle and suggest a high-level strategy or identify potential deadlocks.
 - **Boulder Puzzle Solver Agent:** An agent that takes the output of the `boulder_puzzle_solver` tool and generates a step-by-step push plan.
 
-# VI. Future Improvements & Data Gathering
-- **Type Chart Granularity:** The current type chart sometimes conflates single and dual-type effectiveness (e.g., Ground vs Rock/Ground). I need to be more diligent in observing and recording matchups against single-type Pokémon to build a more precise and reliable chart.
-
-# VII. Puzzle Solving Log
-## Victory Road 1F - West Boulder Puzzle
-- **Hypothesis #1:** Pushing the boulder at (3, 11) north onto the switch at (3, 10) will clear a path forward.
-- **Test:** Moved to (3, 12) and pushed the boulder up.
-- **Conclusion:** **FAILED.** The tile at (3, 10) is not a switch. The boulder is now blocking the path to the ladder. The puzzle must be reset.
-
-## Victory Road 1F - Main Puzzle
-- **Hypothesis #2:** Pushing the boulder at (6, 17) to the switch at (18, 14) will clear the barrier at (10, 13).
-- **Test:** Pushed the boulder from (6, 17) eastward towards the switch.
-- **Conclusion:** **FAILED.** Pushed the boulder into a corner at (17, 15), soft-locking the area. The puzzle must be reset.
+# VI. Puzzle Solving Log
+## Victory Road 1F - East Boulder Puzzle
+- **Hypothesis #1 (FAILED):** The boulder at (6, 16) can be pushed to the switch at (18, 14).
+  - **Test:** Attempted to generate a path for the player to execute the boulder push sequence.
+  - **Conclusion:** FAILED. The path requires the player to stand on a tile that is impassable, making the push sequence impossible. This boulder is not the solution for this switch.
+- **Hypothesis #2 (VIABLE):** The boulder at (3, 11) can be pushed to the switch at (18, 14).
+  - **Test:** Used `generate_path_plan` to simulate the boulder's movement path, ignoring other boulders as obstacles.
+  - **Conclusion:** CONFIRMED. A valid path exists for this boulder to reach the switch.
+- **Hypothesis #3 (FAILED):** The boulder at (15, 3) can be pushed to the switch at (18, 14).
+  - **Test:** Used `generate_path_plan` to simulate the boulder's movement path.
+  - **Conclusion:** FAILED. No path exists for this boulder to reach the switch.
