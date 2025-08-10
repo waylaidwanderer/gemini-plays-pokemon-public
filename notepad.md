@@ -59,3 +59,7 @@
 - **Hypothesis #1:** Pushing the boulder at (3, 11) north onto the switch at (3, 10) will clear a path forward.
 - **Test:** Moved to (3, 12) and pushed the boulder up.
 - **Conclusion:** **FAILED.** The tile at (3, 10) is not a switch. The boulder is now blocking the path to the ladder. The puzzle must be reset.
+## Victory Road 1F - Main Puzzle
+- **Hypothesis #2:** Pushing the boulder at (6, 17) to the switch at (18, 14) will clear the barrier at (10, 13).
+- **Test:** Push the boulder from (6, 17) eastward towards the switch.
+- **Conclusion:** PENDING
