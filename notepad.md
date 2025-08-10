@@ -29,10 +29,6 @@
 # III. Puzzle Mechanics & Solutions
 - **Reset Condition:** Boulder puzzles reset upon leaving and re-entering a map or using ladders between floors.
 - **Boulder/Item Interaction:** Pushing a boulder onto an item collects the item and moves the boulder into that space.
-- **Strength Push Mechanics:** The push is executed from an adjacent tile. Pushing a boulder moves the player into the boulder's previous space.
-
-## A. Tile Mechanics (Advanced/Uncommon)
-- `cleared_boulder_barrier`: A tile that becomes traversable after a boulder switch is activated. Acts like `elevated_ground` and can function as a one-way ramp up.
 
 # IV. Methodology & Lessons Learned
 - **Hypothesis-Driven Approach:** I must form a single, testable hypothesis, document it, test it, and record the conclusion.
@@ -41,19 +37,17 @@
 - **Judicious Agent Use:** I must exercise my own judgment for simple, obvious situations and avoid calling agents unnecessarily. The agent is a tool for complex strategic analysis, not a replacement for basic game sense.
 - **Verify All Exits:** Before concluding I am trapped or soft-locked, I must use my pathfinding tool to test routes to ALL available exits (ladders, warps, map connections) on the current map.
 - **Pre-emptive Path Planning:** For boulder puzzles, I must use my `generate_path_plan` tool to verify the entire sequence of pushes *before* I start moving anything to avoid soft-locking myself.
+- **Mindful Gameplay:** I must be more vigilant in basic gameplay checks, as the failure to activate Strength caused a significant and unnecessary delay.
 
-# V. Tool Development Notes
-- **Boulder Puzzle Solver Tool:** A specialized tool that can analyze the map and plan the correct sequence of boulder pushes would be highly valuable for complex puzzles like those in Victory Road. This should be prioritized for development.
-
-# VI. Future Improvements & Data Gathering
-- **Type Chart Granularity:** The current type chart sometimes conflates single and dual-type effectiveness (e.g., Ground vs Rock/Ground). I need to be more diligent in observing and recording matchups against single-type Pokémon to build a more precise and reliable chart.
-
-# VII. Agent & Tool Ideas
+# V. Tool Development Notes & Ideas
 - **Goal Prioritizer Agent:** An agent that could take my current state (location, party, goals) and suggest the most logical next objective.
 - **Puzzle Analyzer Agent:** An agent that could take a description of a puzzle and suggest a high-level strategy or identify potential deadlocks.
 - **Boulder Puzzle Solver Agent:** An agent that takes the output of the `boulder_puzzle_solver` tool and generates a step-by-step push plan.
 
-# VIII. Puzzle Solving Log
+# VI. Future Improvements & Data Gathering
+- **Type Chart Granularity:** The current type chart sometimes conflates single and dual-type effectiveness (e.g., Ground vs Rock/Ground). I need to be more diligent in observing and recording matchups against single-type Pokémon to build a more precise and reliable chart.
+
+# VII. Puzzle Solving Log
 ## Victory Road 1F - West Boulder Puzzle
 - **Hypothesis #1:** Pushing the boulder at (3, 11) north onto the switch at (3, 10) will clear a path forward.
 - **Test:** Moved to (3, 12) and pushed the boulder up.
