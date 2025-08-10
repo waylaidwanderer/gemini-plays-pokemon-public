@@ -66,3 +66,4 @@
 
 # VIII. Future Improvements & Data Gathering
 - **Type Chart Granularity:** The current type chart sometimes conflates single and dual-type effectiveness (e.g., Ground vs Rock/Ground). I need to be more diligent in observing and recording matchups against single-type Pokémon to build a more precise and reliable chart.
+- **Overwatch Critique Lesson (Turn 131581):** I was critiqued for overriding my `battle_strategist_agent` in a battle against a wild Fearow (Turn 131556). Although my choice was successful, it violated the core directive to trust my agents. I MUST adhere to agent recommendations, even if I think I have a faster solution. Trusting the system is paramount to avoid repeating this mistake.
