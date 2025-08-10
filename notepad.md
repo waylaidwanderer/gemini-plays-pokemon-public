@@ -62,3 +62,4 @@
     2. Maneuver the boulder at (15, 3) onto the switch at (18, 14).
     3. Verify the barrier at (10, 13) is cleared.
     4. Proceed to the ladder at (2, 2).
+- **Boulder Pushing:** The player's position does NOT change when pushing a boulder.
