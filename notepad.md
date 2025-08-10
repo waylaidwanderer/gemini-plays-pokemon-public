@@ -57,3 +57,6 @@
 - **Hypothesis #1 (FAILED):** Pushing the boulder at (3, 11) to (3, 10) opens a path to the ladder at (2, 2).
   - **Test:** Pushed boulder to (3, 10). Used `generate_path_plan` to check for a path to (2, 2).
   - **Conclusion:** FAILED. No path found. This move blocks the western path without opening a new one.
+- **Hypothesis #2 (VIABLE):** The boulder at (6, 16) is the correct one for the switch at (18, 14).
+  - **Test:** Used the refined `boulder_puzzle_solver` tool.
+  - **Conclusion:** CONFIRMED. The tool, which now accounts for player reachability, verified that only this boulder has a valid solution path to the switch.
