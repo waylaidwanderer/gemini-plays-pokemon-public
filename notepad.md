@@ -55,3 +55,12 @@
 - **Hypothesis #3 (FAILED):** The boulder at (15, 3) can be pushed to the switch at (18, 14).
   - **Test:** Used `generate_path_plan` to simulate the boulder's movement path.
   - **Conclusion:** FAILED. No path exists for this boulder to reach the switch.
+
+# VII. Tile Mechanics & Traversal Rules
+- **ground:** Standard walkable tile.
+- **impassable:** Walls and obstacles. Cannot be entered.
+- **elevated_ground:** Walkable ground at a higher elevation. Cannot be accessed from 'ground' without 'steps'.
+- **steps:** Allows movement between 'ground' and 'elevated_ground'.
+- **ladder_up / ladder_down:** Warps between floors.
+- **boulder_barrier:** An impassable barrier that can be cleared by a boulder switch.
+- **boulder_switch:** A floor switch that is activated by pushing a boulder onto it.
