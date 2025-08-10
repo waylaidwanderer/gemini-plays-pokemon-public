@@ -27,9 +27,8 @@
 
 ## A. Type Effectiveness Chart (Verified)
 - **Super Effective (2x damage):**
-  - Electric > Flying, Water, Rock
   - Water > Rock, Ground, Fire
-  - Ground > Fire, Electric, Rock, Ground
+  - Ground > Fire, Electric, Rock
   - Ice > Ground, Grass, Flying, Dragon
   - Flying > Fighting, Grass, Bug
   - Fighting > Normal, Rock, Ice
@@ -50,5 +49,5 @@
 - **Tool Reliability & Immediate Action:** A tool that produces an incorrect or impossible result is a critical failure. I MUST fix it immediately with `define_tool` instead of deferring the task or attempting workarounds. I must not break tools to fit a flawed hypothesis.
 - **System Feedback is Truth:** When a system validation check contradicts my tools, I must trust the system and investigate the discrepancy instead of proceeding with a flawed plan. This often indicates a flaw in my tool's logic or my own understanding.
 
-## B. Future Tool Development
-- A `boulder_puzzle_solver` tool is a high priority to automate complex puzzle solutions. It should perform a state-space search to find a valid sequence of player movements and boulder pushes.
+## B. Tool Refinement Plan
+- The `boulder_puzzle_solver` tool's output is currently confusing. It needs to be refined to provide a clear, step-by-step sequence of player movements and boulder pushes to be followed. This is a top priority.
