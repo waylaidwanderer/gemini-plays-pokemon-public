@@ -42,7 +42,6 @@
 # V. Agent & Tool Development
 - **Goal Prioritizer Agent:** An agent that could take my current state (location, party, goals) and suggest the most logical next objective.
 - **Puzzle Analyzer Agent:** An agent that could take a description of a puzzle and suggest a high-level strategy or identify potential deadlocks.
-- **Boulder Puzzle Solver Agent:** An agent that takes the output of the `boulder_puzzle_solver` tool and generates a step-by-step push plan.
 
 # VI. Puzzle Solving Log
 ## Victory Road 1F - East Boulder Puzzle
@@ -55,12 +54,3 @@
 - **Hypothesis #3 (FAILED):** The boulder at (15, 3) can be pushed to the switch at (18, 14).
   - **Test:** Used `generate_path_plan` to simulate the boulder's movement path.
   - **Conclusion:** FAILED. No path exists for this boulder to reach the switch.
-
-# VII. Tile Mechanics & Traversal Rules
-- **ground:** Standard walkable tile.
-- **impassable:** Walls and obstacles. Cannot be entered.
-- **elevated_ground:** Walkable ground at a higher elevation. Cannot be accessed from 'ground' without 'steps'.
-- **steps:** Allows movement between 'ground' and 'elevated_ground'.
-- **ladder_up / ladder_down:** Warps between floors.
-- **boulder_barrier:** An impassable barrier that can be cleared by a boulder switch.
-- **boulder_switch:** A floor switch that is activated by pushing a boulder onto it.
