@@ -77,3 +77,4 @@
 
 - **New Hypothesis:** The eastern section of Victory Road 1F is accessed by falling through a hole from an upper floor (2F or 3F).
 - **Test:** Re-enter Victory Road and systematically search floors 2F and 3F for any previously unused `hole` tiles.
+- **Victory Road 1F Tool Failure (Turns ~131950-131970):** A temporary data sync issue (pushed boulder at (6,16) not updated in XML) caused `generate_path_plan` to correctly report 'no path'. I incorrectly assumed the tool was broken and implemented a faulty 'fix' to ignore all boulders. This led to generating an invalid path through another boulder. This was a critical failure in methodology. **Lesson:** Trust the tool's output. If it says 'no path', the reason is a physical obstacle on the map, not a broken tool. I must investigate the map state, not gut my tools.
