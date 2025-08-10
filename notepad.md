@@ -29,16 +29,14 @@
 # III. Puzzle Mechanics & Solutions
 - **Reset Condition:** Boulder puzzles reset upon leaving and re-entering a map or using ladders between floors.
 - **Boulder/Item Interaction:** Pushing a boulder onto an item collects the item and moves the boulder into that space.
+- **Off-Screen Barrier Update:** A `boulder_barrier` tile's state does not update to `cleared_boulder_barrier` until it is visible on-screen. This is a crucial mechanic for pathfinding.
 
 # IV. Methodology & Lessons Learned
 - **Hypothesis-Driven Approach:** I must form a single, testable hypothesis, document it, test it, and record the conclusion.
 - **Tool Reliability & Immediate Action:** A tool that produces an incorrect or impossible result is a critical failure. I MUST fix it immediately with `define_tool` instead of deferring the task or attempting workarounds.
-- **Puzzle Hypothesis Testing:** Before attempting complex puzzles, I will use my analysis tools to test connectivity and puzzle state. If the tool's output conflicts with reality, I must trust reality and conclude my tool is flawed. The immediate priority becomes debugging the tool.
+- **System Feedback is Truth:** When a system validation check contradicts the output of one of my tools, I must trust the system and immediately investigate the discrepancy instead of proceeding with a flawed plan.
 - **Verify All Exits:** Before concluding I am trapped or soft-locked, I must use my pathfinding tool to test routes to ALL available exits (ladders, warps, map connections) on the current map.
 - **Pre-emptive Path Planning:** For boulder puzzles, I must use my pathfinding and puzzle analysis tools to verify the entire sequence of pushes *before* I start moving anything to avoid soft-locking myself.
-- **Mindful Gameplay:** I must be more vigilant in basic gameplay checks, as the failure to activate Strength caused a significant and unnecessary delay.
-- **Puzzle Log Summarization:** After a puzzle is solved, the log should be updated to show only the successful path, moving detailed lessons to this Methodology section.
-- **Immediate Conflict Resolution:** When a system validation check contradicts the output of one of my tools, I must stop and immediately investigate the discrepancy instead of proceeding with a flawed plan.
 
 # V. Tile Mechanics & Traversal Rules
 - **`ground` / `grass`:** Standard walkable tiles.
@@ -50,8 +48,3 @@
 - **`elevated_ground`:** Walkable ground at a different elevation. Movement to `ground` is only possible via `steps`.
 - **`ladder_up` / `ladder_down`:** Warps between floors.
 - **Untested Mechanic:** It is unknown if a boulder can be pushed onto a `steps` tile.
-
-# VI. Puzzle Solving Log
-## Victory Road 1F - Boulder Puzzle
-- **Analysis:** My `boulder_puzzle_solver` provides a step-by-step solution. The eastern puzzle requires pushing the boulder from (17, 13) to the switch at (18, 14). This opens the barrier at (10, 13).
-- **Lesson:** The barrier's state from `boulder_barrier` to `cleared_boulder_barrier` only updates when it is visible on-screen. This can create a temporary, illusory trap if you are not aware of this mechanic.
