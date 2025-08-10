@@ -66,3 +66,4 @@
 
 # VIII. Agent & Tool Ideas
 - **Boulder Puzzle Solver Agent:** An agent that takes the output of the `boulder_puzzle_solver` tool and generates a step-by-step push plan.
+- **Pushing Mechanics Update:** Pushing a boulder does not always move the player into the boulder's previous space. The player's position may remain unchanged after a push.
