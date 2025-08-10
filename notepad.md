@@ -52,24 +52,22 @@
 - **Trust System Over Custom Analysis:** If a pathfinding tool reports 'no path found', my first action MUST be to analyze the map for physical obstacles using a tool like `landmass_analyzer`, not to question the tool's validity. This prevents wasting time debugging a correct tool when my own assumption about the map is wrong.
 - **Falsify Assumptions:** I must actively try to disprove my own hypotheses, especially regarding navigation. This helps avoid confirmation bias.
 - **Judicious Agent Use:** I must exercise my own judgment for simple, obvious situations (like trivial wild battles) and avoid calling agents unnecessarily. The agent is a tool for complex strategic analysis, not a replacement for basic game sense.
-- **Victory Road 1F Failure Analysis:** My pathfinding tools and agents were not broken. They correctly reported that no path existed to the boulder puzzle on the other side of the map. My core assumption that the map was a single connected area was wrong. I wasted dozens of turns trying to fix tools that were working perfectly. This is a critical lesson in trusting my tools and questioning my own assumptions first.
-- **Reinforced Mandate:** If a pathfinding tool fails, my first action is to use `landmass_analyzer` to verify the path is possible before attempting any debugging.
-- **Agent Usage Correction:** I also incorrectly used the `battle_strategist_agent` for a trivial wild battle (Lv 4 Mankey). This is an inefficient use of resources. I will exercise better judgment and handle such simple encounters manually, reserving the agent for complex or significant battles.
+- **Victory Road 1F Failure Analysis (Turns ~131761-131770):** My pathfinding and landmass analysis tools were not broken. They correctly reported that no path existed between the western and eastern sections of the map. My core assumption that I could cross via the western elevated platform was wrong. I wasted dozens of turns trying to disprove my own correct tools. This is a critical lesson in trusting my tools and questioning my own assumptions first.
 - **Verify All Exits:** Before concluding I am trapped or soft-locked, I must use my pathfinding tool to test routes to ALL available exits (ladders, warps, map connections) on the current map. A path being blocked to one objective does not mean all paths are blocked.
 
 # VI. HM/Field Move Mechanics
 - **Surf Mechanic:** To use Surf from a land tile, the player must be standing on a tile adjacent to the water AND be facing the water tile.
 
-# VII. Tool Development & Limitations
-- **Completed Tool: Multi-Modal Pathfinding:** I successfully created `generate_multimodal_path_plan` to handle routes requiring both walking and surfing, automating complex navigation on maps like Route 23.
-- **`landmass_analyzer` Discrepancy:** The tool reported two areas on Victory Road 1F as disconnected, but my pathfinder found a route between them. I need to investigate this potential bug in the landmass analyzer's logic, possibly related to how it handles elevation or steps.
+# VII. Tool Development Notes
+- **`landmass_analyzer` Discrepancy:** This tool reported two areas on Victory Road 1F as disconnected, but my pathfinder found a route between them. This needs investigation. The bug may be related to how the tool's BFS logic handles elevation changes via `steps` tiles or one-way ramps like `cleared_boulder_barrier`.
 - **`landmass_analyzer` Limitation:** This tool determines connectivity based on terrain type alone and does not account for impassable NPCs. This can lead to it reporting that two areas are connected when, in practice, an NPC blocks the path, as seen on Route 23.
-- **Future Goal: Boulder Puzzle Solver:** A specialized tool that can analyze the map and plan the correct sequence of boulder pushes would be highly valuable for complex puzzles like those in Victory Road.
 
 # VIII. Future Improvements & Data Gathering
 - **Type Chart Granularity:** The current type chart sometimes conflates single and dual-type effectiveness (e.g., Ground vs Rock/Ground). I need to be more diligent in observing and recording matchups against single-type Pokémon to build a more precise and reliable chart.
 - **Overwatch Critique Lesson (Turn 131581):** I was critiqued for overriding my `battle_strategist_agent` in a battle against a wild Fearow (Turn 131556). Although my choice was successful, it violated the core directive to trust my agents. I MUST adhere to agent recommendations, even if I think I have a faster solution. Trusting the system is paramount to avoid repeating this mistake.
 
 # IX. Agent & Tool Ideas
+- **Boulder Puzzle Solver Tool:** A specialized tool that can analyze the map and plan the correct sequence of boulder pushes would be highly valuable for complex puzzles like those in Victory Road.
 - **Goal Prioritizer Agent:** An agent that could take my current state (location, party, goals) and suggest the most logical next objective. Could be useful in more open-ended sections of the game.
 - **Puzzle Analyzer Agent:** An agent that could take a description of a puzzle (e.g., number of boulders, switches, barriers) and suggest a high-level strategy or identify potential deadlocks.
+- **Pathing Debugger Agent:** An agent that analyzes a failed pathfinding attempt (start, end, map XML) and suggests likely reasons for the failure (e.g., disconnected landmass, impassable object, invalid elevation change).
