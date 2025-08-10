@@ -67,6 +67,11 @@
 
 # IX. Victory Road 1F Puzzle Plan
 ## A. Western Boulder Puzzle (Attempt 1)
-- **Hypothesis:** Pushing the boulder at (3, 11) onto the switch at (3, 10) is the first step to unlocking the path to the ladder at (2, 2).
-- **Test:** Move to (3, 12), then push the boulder Up.
-- **Expected Outcome:** A new path will become accessible, leading towards the western elevated platform.
+- **Hypothesis:** Pushing the boulder at (3, 11) onto the switch at (3, 10) will open the boulder_barrier at (10, 13).
+- **Test:** Push boulder at (3, 11) to (3, 10), then observe barrier at (10, 13).
+- **Conclusion:** Hypothesis denied. The barrier at (10, 13) remained closed. Pushing the first boulder did not solve the eastern puzzle.
+
+## B. Western Boulder Puzzle (Attempt 2)
+- **Hypothesis:** The next step is to manipulate the boulder at (6, 16). Pushing it will clear a path towards the steps at (6, 14), granting access to the western elevated platform and the ladder at (2, 2).
+- **Test:** Move to (5, 16) and push the boulder at (6, 16) to the right.
+- **Expected Outcome:** A path to the steps will be cleared.
