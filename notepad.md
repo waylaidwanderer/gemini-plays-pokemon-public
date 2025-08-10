@@ -51,7 +51,7 @@
 - **Trust Direct Observation:** System hints can be misleading. Direct, in-game observation (e.g., walking into a wall) is the ultimate source of truth.
 
 ## B. Tool Triage (Active Issues)
-- **`boulder_puzzle_solver`:** Critically flawed and abandoned for now. Repeatedly timed out or produced hallucinatory output. The core state-space search logic is broken.
+- **`boulder_puzzle_solver`:** Deleted. The tool was critically flawed, causing timeouts and preventing progress. A manual approach to puzzles is currently more reliable.
 
 ## C. Active Hypothesis (Victory Road 1F) - Manual Approach
 - **Previous Hypothesis (Failed):** The `boulder_puzzle_solver` tool could provide a solution.
