@@ -47,4 +47,3 @@
 - **`ladder_up` / `ladder_down`:** Warps between floors.
 - **Untested Mechanic:** It is unknown if a boulder can be pushed onto a `steps` tile. This needs to be tested.
 - **Pushing Mechanics (Refined):** The player's position does NOT change when pushing a boulder horizontally. When pushing vertically (up or down), the player moves into the boulder's previous space.
-- **Pushing Mechanics (Refined):** The player's position does NOT change when pushing a boulder horizontally. When pushing vertically (up or down), the player moves into the boulder's previous space.
