@@ -13,7 +13,7 @@
 # III. Puzzle Mechanics & Solutions
 - **Reset Condition:** Boulder puzzles reset upon leaving and re-entering a map or using ladders between floors.
 - **Boulder/Item Interaction:** Pushing a boulder onto an item collects the item and moves the boulder into that space.
-- **Strength Push Mechanics:** The push is executed from an adjacent tile, and only the boulder moves.
+- **Strength Push Mechanics:** The push is executed from an adjacent tile, Pushing a boulder moves the player into the boulder's previous space.
 
 # IV. Battle Intelligence
 ## A. Type Effectiveness Chart (OBSERVATION-ONLY)
