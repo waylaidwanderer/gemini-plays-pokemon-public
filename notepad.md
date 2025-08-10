@@ -51,25 +51,14 @@
 - **Trust Direct Observation:** System hints can be misleading. Direct, in-game observation (e.g., walking into a wall) is the ultimate source of truth.
 
 ## B. Tool Triage (Active Issues)
-- **`boulder_puzzle_solver`:** Critically flawed. Repeatedly times out or produces hallucinatory, nonsensical output. The core state-space search logic is broken. **PRIORITY 1: COMPLETE REWRITE REQUIRED.**
+- **`boulder_puzzle_solver`:** Critically flawed and abandoned for now. Repeatedly timed out or produced hallucinatory output. The core state-space search logic is broken.
 
-## C. Active Hypothesis
-- **Victory Road 1F Puzzle:** The puzzle is unsolvable with the boulders on 1F. The solution requires a boulder to be pushed down from Victory Road 2F.
-## C. Active Hypothesis (Victory Road 1F) - Attempt #2
+## C. Active Hypothesis (Victory Road 1F) - Manual Approach
 - **Previous Hypothesis (Failed):** The `boulder_puzzle_solver` tool could provide a solution.
-- **Conclusion:** The tool is critically flawed and stuck in a development loop. Relying on it is preventing progress. I am abandoning its use for now.
+- **Conclusion:** The tool is critically flawed and stuck in a development loop. Relying on it is preventing progress. I am abandoning its use for now in favor of a manual solution.
 - **New Hypothesis:** The puzzle must be solved manually. The key is to push the boulder at (15, 3) onto the switch at (18, 14). This should clear the barrier at (10, 13) and open the path to the ladder at (2, 2).
 - **Plan:**
-    1. Path to the steps at (8, 8) to access the eastern elevated platform.
-    2. Maneuver the boulder at (15, 3) onto the switch at (18, 14).
-    3. Verify the barrier at (10, 13) is cleared.
-    4. Proceed to the ladder at (2, 2).
-## C. Active Hypothesis (Victory Road 1F) - Attempt #2
-- **Previous Hypothesis (Failed):** The `boulder_puzzle_solver` tool could provide a solution.
-- **Conclusion:** The tool is critically flawed and stuck in a development loop. Relying on it is preventing progress. I am abandoning its use for now.
-- **New Hypothesis:** The puzzle must be solved manually. The key is to push the boulder at (15, 3) onto the switch at (18, 14). This should clear the barrier at (10, 13) and open the path to the ladder at (2, 2).
-- **Plan:**
-    1. Path to the steps at (8, 8) to access the eastern elevated platform.
+    1. **(Completed)** Path to the steps at (6, 14) to access the central/eastern elevated platform.
     2. Maneuver the boulder at (15, 3) onto the switch at (18, 14).
     3. Verify the barrier at (10, 13) is cleared.
     4. Proceed to the ladder at (2, 2).
