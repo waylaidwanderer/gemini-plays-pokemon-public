@@ -33,16 +33,14 @@
 
 ## A. Tile Mechanics (Advanced/Uncommon)
 - `cleared_boulder_barrier`: A tile that becomes traversable after a boulder switch is activated. Acts like `elevated_ground` and can function as a one-way ramp up.
-- `boulder_switch`: Floor switch for boulders.
-- `boulder_barrier`: Impassable barrier linked to a boulder switch.
-- `hole`: Warps the player (or a boulder) to the floor below.
 
 # IV. Methodology & Lessons Learned
 - **Hypothesis-Driven Approach:** I must form a single, testable hypothesis, document it, test it, and record the conclusion.
-- **Tool Reliability & Immediate Action:** A tool that produces an incorrect or impossible result is a critical failure. I MUST fix it immediately with `define_tool` instead of deferring the task or attempting workarounds. I must be more meticulous in my debugging process.
-- **Puzzle Hypothesis Testing:** Before attempting complex puzzles, I will use `landmass_analyzer` to test connectivity. However, if the tool's output conflicts with a system validation check (e.g., 'Dead End Area Mismatch'), I must trust the validation check and conclude my tool is flawed or I've misinterpreted the situation. The immediate priority becomes debugging the tool or re-evaluating the map from a new perspective, rather than blindly trusting the faulty analysis.
-- **Judicious Agent Use:** I must exercise my own judgment for simple, obvious situations (like trivial wild battles) and avoid calling agents unnecessarily. The agent is a tool for complex strategic analysis, not a replacement for basic game sense.
-- **Verify All Exits:** Before concluding I am trapped or soft-locked, I must use my pathfinding tool to test routes to ALL available exits (ladders, warps, map connections) on the current map. A path being blocked to one objective does not mean all paths are blocked.
+- **Tool Reliability & Immediate Action:** A tool that produces an incorrect or impossible result is a critical failure. I MUST fix it immediately with `define_tool` instead of deferring the task or attempting workarounds.
+- **Puzzle Hypothesis Testing:** Before attempting complex puzzles, I will use `landmass_analyzer` to test connectivity. If the tool's output conflicts with a system validation check, I must trust the validation check and conclude my tool is flawed or I've misinterpreted the situation. The immediate priority becomes debugging the tool or re-evaluating the map from a new perspective.
+- **Judicious Agent Use:** I must exercise my own judgment for simple, obvious situations and avoid calling agents unnecessarily. The agent is a tool for complex strategic analysis, not a replacement for basic game sense.
+- **Verify All Exits:** Before concluding I am trapped or soft-locked, I must use my pathfinding tool to test routes to ALL available exits (ladders, warps, map connections) on the current map.
+- **Pre-emptive Path Planning:** For boulder puzzles, I must use my `generate_path_plan` tool to verify the entire sequence of pushes *before* I start moving anything to avoid soft-locking myself.
 
 # V. Tool Development Notes
 - **Boulder Puzzle Solver Tool:** A specialized tool that can analyze the map and plan the correct sequence of boulder pushes would be highly valuable for complex puzzles like those in Victory Road. This should be prioritized for development.
@@ -51,19 +49,17 @@
 - **Type Chart Granularity:** The current type chart sometimes conflates single and dual-type effectiveness (e.g., Ground vs Rock/Ground). I need to be more diligent in observing and recording matchups against single-type Pokémon to build a more precise and reliable chart.
 
 # VII. Agent & Tool Ideas
-- **Goal Prioritizer Agent:** An agent that could take my current state (location, party, goals) and suggest the most logical next objective. Could be useful in more open-ended sections of the game.
-- **Puzzle Analyzer Agent:** An agent that could take a description of a puzzle (e.g., number of boulders, switches, barriers) and suggest a high-level strategy or identify potential deadlocks.
+- **Goal Prioritizer Agent:** An agent that could take my current state (location, party, goals) and suggest the most logical next objective.
+- **Puzzle Analyzer Agent:** An agent that could take a description of a puzzle and suggest a high-level strategy or identify potential deadlocks.
+- **Boulder Puzzle Solver Agent:** An agent that takes the output of the `boulder_puzzle_solver` tool and generates a step-by-step push plan.
 
 # VIII. Puzzle Solving Log
 ## Victory Road 1F - West Boulder Puzzle
 - **Hypothesis #1:** Pushing the boulder at (3, 11) north onto the switch at (3, 10) will clear a path forward.
 - **Test:** Moved to (3, 12) and pushed the boulder up.
 - **Conclusion:** **FAILED.** The tile at (3, 10) is not a switch. The boulder is now blocking the path to the ladder. The puzzle must be reset.
+
 ## Victory Road 1F - Main Puzzle
 - **Hypothesis #2:** Pushing the boulder at (6, 17) to the switch at (18, 14) will clear the barrier at (10, 13).
-- **Test:** Push the boulder from (6, 17) eastward towards the switch.
-- **Conclusion:** PENDING
-
-# VIII. Agent & Tool Ideas
-- **Boulder Puzzle Solver Agent:** An agent that takes the output of the `boulder_puzzle_solver` tool and generates a step-by-step push plan.
-- **Pushing Mechanics Update:** When standing directly adjacent to a boulder and pushing it, the player character moves into the boulder's previous space. The previously observed 'remote push' was a misinterpretation of this standard mechanic.
+- **Test:** Pushed the boulder from (6, 17) eastward towards the switch.
+- **Conclusion:** **FAILED.** Pushed the boulder into a corner at (17, 15), soft-locking the area. The puzzle must be reset.
