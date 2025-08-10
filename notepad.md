@@ -70,3 +70,7 @@
 
 # IX. Agent & Tool Ideas
 - **Goal Prioritizer Agent:** An agent that could take my current state (location, party, goals) and suggest the most logical next objective. Could be useful in more open-ended sections of the game.
+- **Defeated Trainers:** Once defeated, trainers become impassable obstacles. This can block paths.
+
+# X. Agent & Tool Ideas
+- **Puzzle Analyzer Agent:** An agent that could take a description of a puzzle (e.g., number of boulders, switches, barriers) and suggest a high-level strategy or identify potential deadlocks.
