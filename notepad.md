@@ -57,4 +57,5 @@
 # VIII. Puzzle Solving Log
 ## Victory Road 1F - West Boulder Puzzle
 - **Hypothesis #1:** Pushing the boulder at (3, 11) north onto the switch at (3, 10) will clear a path forward.
-- **Test:** Move to (3, 12) and push the boulder up.
+- **Test:** Moved to (3, 12) and pushed the boulder up.
+- **Conclusion:** **SUCCESS.** The boulder landed on the switch. The path to the ladder at (2, 2) is now open.
