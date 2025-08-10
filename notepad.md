@@ -37,32 +37,24 @@
 - **Verify All Exits:** Before concluding I am trapped or soft-locked, I must use my pathfinding tool to test routes to ALL available exits (ladders, warps, map connections) on the current map.
 - **Pre-emptive Path Planning:** For boulder puzzles, I must use my pathfinding and puzzle analysis tools to verify the entire sequence of pushes *before* I start moving anything to avoid soft-locking myself.
 - **Mindful Gameplay:** I must be more vigilant in basic gameplay checks, as the failure to activate Strength caused a significant and unnecessary delay.
+- **Puzzle Log Summarization:** After a puzzle is solved, the log should be updated to show only the successful path, moving detailed lessons to this Methodology section.
 
 # V. Tile Mechanics & Traversal Rules
+- **`ground` / `grass`:** Standard walkable tiles.
+- **`impassable` / `unknown`:** Cannot be entered.
 - **`cleared_boulder_barrier`:** Acts as a one-way ramp, allowing downward movement to adjacent `ground` tiles.
-- **Elevation Movement:** Movement between `ground` and `elevated_ground` is only possible via `steps` tiles. Direct movement is forbidden.
+- **`boulder_barrier`:** An impassable wall that is removed when a corresponding `boulder_switch` is activated.
+- **`boulder_switch`:** A floor switch that must have a boulder pushed onto it.
+- **`steps`:** Allows vertical movement between `ground` and `elevated_ground`.
+- **`elevated_ground`:** Walkable ground at a different elevation. Movement to `ground` is only possible via `steps`.
+- **`ladder_up` / `ladder_down`:** Warps between floors.
+- **Untested Mechanic:** It is unknown if a boulder can be pushed onto a `steps` tile.
 
 # VI. Puzzle Solving Log
-## Victory Road 1F - East Boulder Puzzle
-- **Hypothesis #1 (FAILED):** The boulder at (6, 16) can be pushed to the switch at (18, 14).
-  - **Test:** Attempted to generate a path for the player to execute the boulder push sequence.
-  - **Conclusion:** FAILED. The path requires the player to stand on a tile that is impassable, making the push sequence impossible. This boulder is not the solution for this switch.
-- **Hypothesis #2 (VIABLE):** The boulder at (3, 11) can be pushed to the switch at (18, 14).
-  - **Test:** Used `generate_path_plan` to simulate the boulder's movement path, ignoring other boulders as obstacles.
-  - **Conclusion:** CONFIRMED. A valid path exists for this boulder to reach the switch.
-- **Hypothesis #3 (FAILED):** The boulder at (15, 3) can be pushed to the switch at (18, 14).
-  - **Test:** Used `generate_path_plan` to simulate the boulder's movement path.
-  - **Conclusion:** FAILED. No path exists for this boulder to reach the switch.
-## Victory Road 1F - West Boulder Puzzle
-- **Hypothesis #1 (FAILED):** Pushing the boulder at (3, 11) to (3, 10) opens a path to the ladder at (2, 2).
-  - **Test:** Pushed boulder to (3, 10). Used `generate_path_plan` to check for a path to (2, 2).
-  - **Conclusion:** FAILED. No path found. This move blocks the western path without opening a new one.
-- **Hypothesis #2 (VIABLE):** The boulder at (6, 16) is the correct one for the switch at (18, 14).
-  - **Test:** Used the refined `boulder_puzzle_solver` tool.
-  - **Conclusion:** CONFIRMED. The tool, which now accounts for player reachability, verified that only this boulder has a valid solution path to the switch.
-  - Execution Log:
-    - Step 1: Pushed boulder from (6, 16) to (6, 17). (Success)
-    - Step 2: Pushed boulder from (6, 17) to (7, 17). (Success)
-    - Step 3: Pushed boulder from (7, 17) to (8, 17). (Success)
-    - Step 4: Pushed boulder from (8, 17) to (9, 17). (Success)
-    - Step 5: Pushed boulder from (9, 17) to (10, 17). (Success)
+## Victory Road 1F - Boulder Puzzle
+- **Current State:** The puzzle has been reset by leaving and re-entering the map.
+- **Analysis:** The `boulder_puzzle_solver` tool has confirmed that only the boulder starting at (6, 16) has a valid, player-achievable path to the switch at (18, 14).
+- **Hypothesis:** Solving the (6, 16) boulder puzzle will clear the barrier at (10, 13) and open the path to the ladder at (2, 2).
+
+# VII. Future Development Ideas
+- **Puzzle Plan Agent:** Create an agent that takes the output of the `boulder_puzzle_solver` and generates a human-readable, step-by-step plan for both player movement and boulder pushes.
