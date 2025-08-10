@@ -3,6 +3,7 @@
 - **Fainted Pokémon can use HMs:** Confirmed that a fainted Pokémon can be selected to use a field move like Strength.
 - **Follower Pokémon Mechanics:** When moving onto a tile occupied by Pikachu, the player and Pikachu appear to swap positions. The first button press turns to face, the second moves.
 - **Dig Field Move:** Can be used to escape caves, acting as an Escape Rope. This is a key anti-softlock mechanic.
+- **Defeated Trainers as Obstacles:** Once defeated, trainers become impassable obstacles. This can block paths.
 
 # II. Tile Mechanics (Verified)
 - `ground`: Walkable tile.
@@ -70,7 +71,4 @@
 
 # IX. Agent & Tool Ideas
 - **Goal Prioritizer Agent:** An agent that could take my current state (location, party, goals) and suggest the most logical next objective. Could be useful in more open-ended sections of the game.
-- **Defeated Trainers:** Once defeated, trainers become impassable obstacles. This can block paths.
-
-# X. Agent & Tool Ideas
 - **Puzzle Analyzer Agent:** An agent that could take a description of a puzzle (e.g., number of boulders, switches, barriers) and suggest a high-level strategy or identify potential deadlocks.
