@@ -50,4 +50,4 @@
 - **System Feedback is Truth:** When a system validation check contradicts my tools, I must trust the system and investigate the discrepancy instead of proceeding with a flawed plan. This often indicates a flaw in my tool's logic or my own understanding.
 
 ## B. Tool Refinement Plan
-- The `boulder_puzzle_solver` tool's output is currently confusing. It needs to be refined to provide a clear, step-by-step sequence of player movements and boulder pushes to be followed. This is a top priority.
+- The `boulder_puzzle_solver` tool is critically flawed. It is no longer just confusing; it is producing logically incorrect and hallucinatory solutions (e.g., targeting non-existent switches, starting from invalid boulder positions) or timing out. The top priority is to completely overhaul or replace its core search algorithm to ensure it produces valid and efficient solutions.
