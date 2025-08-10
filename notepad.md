@@ -46,3 +46,4 @@
 - **`elevated_ground`:** Walkable ground at a different elevation. Movement to `ground` is only possible via `steps`.
 - **`ladder_up` / `ladder_down`:** Warps between floors.
 - **Untested Mechanic:** It is unknown if a boulder can be pushed onto a `steps` tile. This needs to be tested.
+- **Pushing Mechanics (Correction):** The player's position does NOT change when pushing a boulder, regardless of direction (vertical or horizontal).
