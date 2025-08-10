@@ -35,6 +35,7 @@
 - **System Feedback is Truth:** When a system validation check contradicts the output of one of my tools, I must trust the system and immediately investigate the discrepancy instead of proceeding with a flawed plan.
 - **Verify All Exits:** Before concluding I am trapped or soft-locked, I must use my pathfinding tool to test routes to ALL available exits (ladders, warps, map connections) on the current map.
 - **Pre-emptive Path Planning:** For boulder puzzles, I must use my analysis tools to verify the entire sequence of pushes *before* I start moving anything to avoid soft-locking myself.
+- **Future Tool Development:** A `boulder_puzzle_solver` tool would be highly beneficial for navigating these complex puzzles efficiently.
 
 # V. Tile Mechanics & Traversal Rules
 - **`ground` / `grass`:** Standard walkable tiles.
@@ -44,6 +45,7 @@
 - **`boulder_switch`:** A floor switch that must have a boulder pushed onto it.
 - **`steps`:** Allows vertical movement between `ground` and `elevated_ground`.
 - **`elevated_ground`:** Walkable ground at a different elevation. Movement to `ground` is only possible via `steps`.
+- **`ledge`:** A one-way drop. Can be jumped down from an adjacent higher tile, but not climbed up.
 - **`ladder_up` / `ladder_down`:** Warps between floors.
+- **Pushing Mechanics:** The player's position does NOT change when pushing a boulder horizontally. When pushing vertically (up or down), the player moves into the boulder's previous space.
 - **Untested Mechanic:** It is unknown if a boulder can be pushed onto a `steps` tile. This needs to be tested.
-- **Pushing Mechanics (Refined):** The player's position does NOT change when pushing a boulder horizontally. When pushing vertically (up or down), the player moves into the boulder's previous space.
