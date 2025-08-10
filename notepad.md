@@ -61,7 +61,8 @@
 - **Surf Mechanic:** To use Surf from a land tile, the player must be standing on a tile adjacent to the water AND be facing the water tile.
 
 # VII. Tool Development & Limitations
-- **Future Goal: Multi-Modal Pathfinding:** My current `generate_path_plan` tool can only handle a single mode of transit (walking or surfing). For complex maps like Route 23 that require both, I must manually break the journey into segments. A future goal is to develop a more advanced tool that can automatically plan these multi-modal routes.
+- **Completed Tool: Multi-Modal Pathfinding:** I successfully created `generate_multimodal_path_plan` to handle routes requiring both walking and surfing, automating complex navigation on maps like Route 23.
+- **`landmass_analyzer` Discrepancy:** The tool reported two areas on Victory Road 1F as disconnected, but my pathfinder found a route between them. I need to investigate this potential bug in the landmass analyzer's logic, possibly related to how it handles elevation or steps.
 - **`landmass_analyzer` Limitation:** This tool determines connectivity based on terrain type alone and does not account for impassable NPCs. This can lead to it reporting that two areas are connected when, in practice, an NPC blocks the path, as seen on Route 23.
 - **Future Goal: Boulder Puzzle Solver:** A specialized tool that can analyze the map and plan the correct sequence of boulder pushes would be highly valuable for complex puzzles like those in Victory Road.
 
