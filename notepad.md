@@ -73,4 +73,4 @@
 
 ## B. Western Boulder Puzzle (Stuck & Reset)
 - **Conclusion:** Attempts to push the boulder at (6,16) right (blocked) and down (to 6,17) both failed to open a path to the steps at (6,14). This resulted in trapping myself in the western section of the map.
-- **New Plan:** The game is not soft-locked. I will use the 'Dig' field move with SUBTERRA to escape Victory Road, which will reset the puzzle. I will then re-enter and re-evaluate the entire floor's puzzle with a fresh perspective, likely focusing on the eastern puzzle first.
+- **New Plan:** The game is not soft-locked. I can exit via the main entrance to reset the puzzle. I will navigate to the exit at (9, 18), leave the map, and then re-enter to attempt the puzzle again with a fresh start.
