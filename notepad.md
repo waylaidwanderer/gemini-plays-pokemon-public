@@ -63,3 +63,6 @@
 - **Hypothesis #2:** Pushing the boulder at (6, 17) to the switch at (18, 14) will clear the barrier at (10, 13).
 - **Test:** Push the boulder from (6, 17) eastward towards the switch.
 - **Conclusion:** PENDING
+
+# VIII. Agent & Tool Ideas
+- **Boulder Puzzle Solver Agent:** An agent that takes the output of the `boulder_puzzle_solver` tool and generates a step-by-step push plan.
