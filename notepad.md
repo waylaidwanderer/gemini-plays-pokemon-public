@@ -37,7 +37,7 @@
 - **Body Slam:** Can cause paralysis.
 
 # V. Methodology & Lessons Learned
-- **Hypothesis-Driven Approach:** I must form a single, testable hypothesis, document it, test it, and record the conclusion. This avoids chaotic, assumption-driven actions.
+- **Hypothesis-Driven Approach:** I must form a single, testable hypothesis, document it, test it, and record the conclusion.
 - **Tool Reliability & Immediate Action:** A tool that produces an incorrect or impossible result is a critical failure. I MUST fix it immediately with `define_tool` instead of deferring the task or attempting workarounds. I must be more meticulous in my debugging process.
 - **Trust System Over Custom Analysis:** If a pathfinding tool reports 'no path found', my first action MUST be to analyze the map for physical obstacles using a tool like `landmass_analyzer`, not to question the tool's validity. This prevents wasting time debugging a correct tool when my own assumption about the map is wrong.
 - **Falsify Assumptions:** I must actively try to disprove my own hypotheses, especially regarding navigation. This helps avoid confirmation bias.
