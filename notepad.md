@@ -33,15 +33,14 @@
 # IV. Methodology & Lessons Learned
 - **Hypothesis-Driven Approach:** I must form a single, testable hypothesis, document it, test it, and record the conclusion.
 - **Tool Reliability & Immediate Action:** A tool that produces an incorrect or impossible result is a critical failure. I MUST fix it immediately with `define_tool` instead of deferring the task or attempting workarounds.
-- **Puzzle Hypothesis Testing:** Before attempting complex puzzles, I will use `landmass_analyzer` and `boulder_puzzle_solver` to test connectivity and puzzle state. If the tool's output conflicts with reality, I must trust reality and conclude my tool is flawed. The immediate priority becomes debugging the tool.
-- **Judicious Agent Use:** I must exercise my own judgment for simple, obvious situations and avoid calling agents unnecessarily. The agent is a tool for complex strategic analysis, not a replacement for basic game sense.
+- **Puzzle Hypothesis Testing:** Before attempting complex puzzles, I will use my analysis tools to test connectivity and puzzle state. If the tool's output conflicts with reality, I must trust reality and conclude my tool is flawed. The immediate priority becomes debugging the tool.
 - **Verify All Exits:** Before concluding I am trapped or soft-locked, I must use my pathfinding tool to test routes to ALL available exits (ladders, warps, map connections) on the current map.
 - **Pre-emptive Path Planning:** For boulder puzzles, I must use my pathfinding and puzzle analysis tools to verify the entire sequence of pushes *before* I start moving anything to avoid soft-locking myself.
 - **Mindful Gameplay:** I must be more vigilant in basic gameplay checks, as the failure to activate Strength caused a significant and unnecessary delay.
 
-# V. Agent & Tool Development
-- **Goal Prioritizer Agent:** An agent that could take my current state (location, party, goals) and suggest the most logical next objective.
-- **Puzzle Analyzer Agent:** An agent that could take a description of a puzzle and suggest a high-level strategy or identify potential deadlocks.
+# V. Tile Mechanics & Traversal Rules
+- **`cleared_boulder_barrier`:** Acts as a one-way ramp, allowing downward movement to adjacent `ground` tiles.
+- **Elevation Movement:** Movement between `ground` and `elevated_ground` is only possible via `steps` tiles. Direct movement is forbidden.
 
 # VI. Puzzle Solving Log
 ## Victory Road 1F - East Boulder Puzzle
@@ -54,3 +53,7 @@
 - **Hypothesis #3 (FAILED):** The boulder at (15, 3) can be pushed to the switch at (18, 14).
   - **Test:** Used `generate_path_plan` to simulate the boulder's movement path.
   - **Conclusion:** FAILED. No path exists for this boulder to reach the switch.
+## Victory Road 1F - West Boulder Puzzle
+- **Hypothesis #1 (FAILED):** Pushing the boulder at (3, 11) to (3, 10) opens a path to the ladder at (2, 2).
+  - **Test:** Pushed boulder to (3, 10). Used `generate_path_plan` to check for a path to (2, 2).
+  - **Conclusion:** FAILED. No path found. This move blocks the western path without opening a new one.
