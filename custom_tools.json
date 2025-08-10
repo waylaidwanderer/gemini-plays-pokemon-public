@@ -312,5 +312,21 @@
         "action_counter": 132110
       }
     ]
+  },
+  "boulder_puzzle_solver": {
+    "description": "Analyzes the current map to identify all components of a boulder puzzle (boulders, switches, barriers) and their current state. (This is a work-in-progress tool).",
+    "input_schema": {
+      "type": "object",
+      "properties": {},
+      "required": []
+    },
+    "python_script": "import xml.etree.ElementTree as ET\nimport json\n\ntree = ET.fromstring(map_xml_string)\nboulders = []\nswitches = []\nbarriers = []\n\nfor y, row_elem in enumerate(tree.findall('Row')):\n    for x, tile_elem in enumerate(row_elem.findall('Tile')):\n        coord = (x + 1, y + 1)\n        boulder_elem = tile_elem.find('Boulder')\n        if boulder_elem is not None:\n            boulders.append({'coordinate': coord})\n        \n        switch_elem = tile_elem.find('BoulderSwitch')\n        if switch_elem is not None:\n            has_boulder = switch_elem.get('has-boulder') == 'true'\n            switches.append({'coordinate': coord, 'has_boulder': has_boulder})\n\n        barrier_elem = tile_elem.find('BoulderBarrier')\n        if barrier_elem is not None:\n            is_open = barrier_elem.get('is-open') == 'true'\n            barriers.append({'coordinate': coord, 'is_open': is_open})\n\nresult = {\n    'boulders': boulders,\n    'switches': switches,\n    'barriers': barriers\n}\n\nprint(json.dumps(result, indent=2))",
+    "history": [
+      {
+        "commit_message": "feat: Create initial boulder puzzle analysis tool. This tool fulfills the immediate need identified in the notepad and by Overwatch to have a dedicated puzzle-solving utility. This first version identifies and lists all boulders, switches, and barriers on the current map, providing a snapshot of the puzzle state. This is a foundational step for future development into a full-fledged solver.",
+        "timestamp": "2025-08-10T11:18:33.808Z",
+        "action_counter": 132637
+      }
+    ]
   }
 }

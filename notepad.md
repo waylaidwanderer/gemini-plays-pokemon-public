@@ -53,3 +53,8 @@
 # VII. Agent & Tool Ideas
 - **Goal Prioritizer Agent:** An agent that could take my current state (location, party, goals) and suggest the most logical next objective. Could be useful in more open-ended sections of the game.
 - **Puzzle Analyzer Agent:** An agent that could take a description of a puzzle (e.g., number of boulders, switches, barriers) and suggest a high-level strategy or identify potential deadlocks.
+
+# VIII. Puzzle Solving Log
+## Victory Road 1F - West Boulder Puzzle
+- **Hypothesis #1:** Pushing the boulder at (3, 11) north onto the switch at (3, 10) will clear a path forward.
+- **Test:** Move to (3, 12) and push the boulder up.
