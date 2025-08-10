@@ -60,3 +60,9 @@
 - **Hypothesis #2 (VIABLE):** The boulder at (6, 16) is the correct one for the switch at (18, 14).
   - **Test:** Used the refined `boulder_puzzle_solver` tool.
   - **Conclusion:** CONFIRMED. The tool, which now accounts for player reachability, verified that only this boulder has a valid solution path to the switch.
+  - Execution Log:
+    - Step 1: Pushed boulder from (6, 16) to (6, 17). (Success)
+    - Step 2: Pushed boulder from (6, 17) to (7, 17). (Success)
+    - Step 3: Pushed boulder from (7, 17) to (8, 17). (Success)
+    - Step 4: Pushed boulder from (8, 17) to (9, 17). (Success)
+    - Step 5: Pushed boulder from (9, 17) to (10, 17). (Success)
