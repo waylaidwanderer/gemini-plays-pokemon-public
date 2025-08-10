@@ -63,3 +63,6 @@
     3. Verify the barrier at (10, 13) is cleared.
     4. Proceed to the ladder at (2, 2).
 - **Boulder Pushing:** The player's position does NOT change when pushing a boulder.
+
+# IV. Tool Development Ideas
+- **Boulder Puzzle Assistant:** A tool that, instead of solving the whole puzzle, analyzes the current state and suggests all possible valid moves for each boulder on the map. This would help in manual solving without the risk of a complex solver timing out or getting stuck.
