@@ -57,19 +57,12 @@
 ## C. Tool Trust Protocol
 - If a pathfinding tool reports \"no path found,\" my first assumption must be that the map is physically impassable, not that the tool is broken. I must use `landmass_analyzer` to verify connectivity before attempting to debug the pathfinder.
 
-# IV. Active Strategy: Road to Victory
-
-- **Current State:** On Victory Road 1F, having reset the boulder puzzle by leaving and re-entering the map.
-- **Immediate Plan:** 
-    1. Navigate to (6, 15) to get into position above the central boulder at (6, 16).
-    2. Push the boulder DOWN to (6, 17) to connect the eastern and western landmasses.
-    3. Navigate to (3, 10) to get into position above the western boulder at (3, 11).
-    4. Push the western boulder DOWN to (3, 12) to clear the path to the ladder.
-    5. Proceed to the ladder at (2, 2) to reach Victory Road 2F.
+# IV. Active Strategy: Road to the Indigo Plateau
+- **Current Objective:** Navigate through Victory Road to reach the Indigo Plateau and challenge the Elite Four.
+- **Immediate Plan:** Enter Victory Road 1F and begin solving its puzzles to ascend to the next floor.
 
 # V. Tool Development & Testing Ideas
 - **Hypothesis to Test:** The `cleared_boulder_barrier` tile acts as a one-way ramp. Test by attempting to move DOWN from an `elevated_ground` tile onto a `cleared_boulder_barrier` tile.
 - **Data Management Note:** I will begin using the '✅' emoji to mark items I have picked up to avoid confusion.
 - **New Agent Idea:** `path_diagnoser_agent`. Input: start/end coordinates. Action: Runs `landmass_analyzer` and interprets the output to explain *why* a path might be failing (e.g., \"Target is on a different landmass.\").
 - **New Tool Idea:** `boulder_puzzle_assistant`. Analyzes the map and lists all possible valid moves for every boulder on the screen, helping to visualize solutions without solving the puzzle outright.
-- **New Agent Idea:** `journey_planner_agent`. Input: a final destination map and coordinates. Action: Automatically generate and execute a sequence of path plans and map transitions to navigate long distances, such as from a Pokémon Center back to a dungeon entrance.
