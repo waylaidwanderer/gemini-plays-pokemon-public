@@ -76,4 +76,8 @@
   - **Test:** Pushed boulder from (6, 16) to (6, 17). Used landmass analyzer to check for connectivity to (18, 13).
   - **Result:** The landmasses remain disconnected.
   - **Conclusion:** This push alone is not sufficient to connect the areas.
-- **Hypothesis 3 (Current):** To connect the landmasses, the boulder at (6, 17) must be pushed Right to (7, 17). This will clear a path to the eastern section.
+- **Hypothesis 3 (Failed):** To connect the landmasses, the boulder at (6, 17) must be pushed Right to (7, 17). This will clear a path to the eastern section.
+  - **Test:** Pushed boulder from (6, 17) to (7, 17). Used landmass analyzer to check for connectivity to (18, 13).
+  - **Result:** The landmasses remain disconnected.
+  - **Conclusion:** This push alone is not sufficient to connect the areas.
+- **Hypothesis 4 (Current):** A sequence of pushes involving the boulder at (7, 17) is required to create a path. The next step is to gather data on possible moves.
