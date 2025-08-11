@@ -70,4 +70,6 @@
   - **Hypothesis 1:** Pushing the boulder at (3, 11) onto the switch at (3, 10) will open the barrier at (10, 13).
   - **Test 1:** Activated Strength and pushed the boulder from (3, 12) up to (3, 11), then up again to (3, 10).
   - **Conclusion 1:** **Denied**. After pushing the boulder at (3, 11) to the switch at (3, 10) and navigating to the barrier at (10, 13), I have confirmed the barrier remains closed.
-  - **Hypothesis 2:** Both switches on the floor must be activated to open the barrier at (10, 13). The next step is to push the boulder at (6, 16) onto the switch at (18, 14).
+    - **Hypothesis 2:** Both switches on the floor must be activated to open the barrier at (10, 13). The next step is to push the boulder at (6, 16) onto the switch at (18, 14).
+  - **Test 2:** Pushed boulder at (6, 16) around and eventually onto the warp tile at (10, 18).
+  - **Conclusion 2:** **Denied**. `landmass_analyzer` confirms this action separates me from the target ladder at (2, 2). The map is now split into multiple disconnected landmasses. This was the wrong move. I need to reset the puzzle by exiting and re-entering.
