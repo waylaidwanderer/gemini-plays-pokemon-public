@@ -62,11 +62,6 @@
 - **Failed Hypothesis (Eastern Boulder First):** My hypothesis that the eastern boulder at (10, 17) was the start of the solution was incorrect. Pushing it down to (10, 18) trapped it, requiring a puzzle reset.
 - **Agent Failure (boulder_puzzle_solver):** The agent failed twice with a `BadRequestError`. Abandoning automated solving for this puzzle.
 
-# V. Overwatch Critique Lessons (Consolidated)
-- **Tool Unreliability & Redundancy:** I engaged in a prolonged, inefficient cycle of trying to fix my navigation tools instead of pivoting to manual exploration. The core traversal logic (`get_neighbors` function) is duplicated and inconsistent between them and must be consolidated in the future.
-- **Confirmation Bias:** I incorrectly trusted my broken tools over the system's ground truth ('not a dead end' warning) for dozens of turns. I must treat my tools' outputs as hypotheses to be tested against the system's validation, not as infallible facts.
-- **Lack of Flexibility:** I remained fixated on a failing tool-based strategy for too long. I must be more willing to abandon a flawed plan when it is not working.
-
 # VII. New Hypothesis: Western Boulder Puzzle
 - **Hypothesis:** Since the eastern puzzle is unsolvable from this floor and I was hallucinating the western switch, the boulder at (3, 10) must be the key to reaching the ladder at (2, 2).
 - **Test:** I am at (3, 11). I will attempt to push the boulder north.
