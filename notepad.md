@@ -60,3 +60,6 @@
 - **New Agent Idea 2:** `puzzle_strategist_agent`. Input: `boulder_puzzle_assistant` output, current map state, goal coordinates. Action: Devises a step-by-step sequence of boulder pushes to achieve the goal.
 - **Victory Road 1F Puzzle Log:**
   - **Status:** Puzzle reset. All previous hypotheses were based on flawed memory. Re-evaluating with a clear map state.
+
+# VI. Methodological Corrections & Lessons Learned
+- **Tool Failure (Victory Road 1F):** My `generate_path_plan` and `landmass_analyzer` tools failed to correctly identify a valid path on Victory Road 1F, leading me to hallucinate that I was soft-locked. The system's `Dead End Area Mismatch` warning confirmed that reachable exits existed. **Conclusion:** My tools have a critical bug in how they handle elevation changes or map segmentation. I must rely on manual exploration in complex, multi-level areas until I can debug and fix them. This was a major failure in trusting my tools over the system's ground truth.
