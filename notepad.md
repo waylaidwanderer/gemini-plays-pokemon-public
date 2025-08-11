@@ -59,3 +59,7 @@
 # VII. New Hypothesis: Western Boulder Puzzle
 - **Hypothesis:** Since the eastern puzzle is unsolvable from this floor and I was hallucinating the western switch, the boulder at (3, 10) must be the key to reaching the ladder at (2, 2).
 - **Test:** I am at (3, 11). I will attempt to push the boulder north.
+
+# VII. New Hypothesis: Western Boulder Puzzle
+- **Hypothesis:** Since the eastern puzzle is unsolvable from this floor and I was hallucinating the western switch, the boulder at (3, 10) must be the key to reaching the ladder at (2, 2).
+- **Test:** I am at (3, 11). I will attempt to push the boulder north.
