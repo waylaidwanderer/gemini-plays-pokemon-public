@@ -59,10 +59,9 @@
 
 # IV. Active Strategy: Victory Road 1F
 
-- **Current State:** On Victory Road 1F at (10, 18). I am currently solving the western boulder puzzle to reach the ladder at (2, 2).
+- **Current State:** On Victory Road 1F at (3, 12). I am solving the western boulder puzzle to reach the ladder at (2, 2).
 - **Immediate Plan:** 
-    1. Get into position below the boulder at (10, 16).
-    2. Push the boulder North to (10, 15).
+    1. Push the boulder at (3, 11) North onto the switch at (3, 10).
 
 # V. Tool Development & Testing Ideas
 - **Hypothesis to Test:** The `cleared_boulder_barrier` tile acts as a one-way ramp. Test by attempting to move DOWN from an `elevated_ground` tile onto a `cleared_boulder_barrier` tile.
