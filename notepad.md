@@ -72,3 +72,4 @@
 - **Data Management Note:** I will begin using the '✅' emoji to mark items I have picked up to avoid confusion.
 - **New Agent Idea:** `path_diagnoser_agent`. Input: start/end coordinates. Action: Runs `landmass_analyzer` and interprets the output to explain *why* a path might be failing (e.g., \"Target is on a different landmass.\").
 - **New Tool Idea:** `boulder_puzzle_assistant`. Analyzes the map and lists all possible valid moves for every boulder on the screen, helping to visualize solutions without solving the puzzle outright.
+- **New Agent Idea:** `journey_planner_agent`. Input: a final destination map and coordinates. Action: Automatically generate and execute a sequence of path plans and map transitions to navigate long distances, such as from a Pokémon Center back to a dungeon entrance.
