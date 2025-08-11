@@ -54,14 +54,21 @@
 ## B. System Interaction Notes
 - **Validation Check Discrepancy:** The system's validation for reachable warps appears to ignore movable obstacles like boulders. This can create a false positive, indicating a path is clear when it is actually blocked. My own tools (`landmass_analyzer`, `generate_path_plan`) provide a more accurate ground truth in these situations.
 
+## C. Tool Trust Protocol
+- If a pathfinding tool reports \"no path found,\" my first assumption must be that the map is physically impassable, not that the tool is broken. I must use `landmass_analyzer` to verify connectivity before attempting to debug the pathfinder.
+
 # IV. Active Strategy: Road to Victory
 
-- **Current State:** On Route 22, heading back to Victory Road after using Dig to escape a self-inflicted softlock on Victory Road 1F.
+- **Current State:** On Victory Road 1F, having reset the boulder puzzle by leaving and re-entering the map.
 - **Immediate Plan:** 
-    1. Navigate to the western boulder at (3, 11).
-    2. Push the boulder DOWN to (3, 12) to clear the path north.
-    3. Proceed to the ladder at (2, 2) to reach Victory Road 2F.
+    1. Navigate to (6, 15) to get into position above the central boulder at (6, 16).
+    2. Push the boulder DOWN to (6, 17) to connect the eastern and western landmasses.
+    3. Navigate to (3, 10) to get into position above the western boulder at (3, 11).
+    4. Push the western boulder DOWN to (3, 12) to clear the path to the ladder.
+    5. Proceed to the ladder at (2, 2) to reach Victory Road 2F.
 
 # V. Tool Development & Testing Ideas
 - **Hypothesis to Test:** The `cleared_boulder_barrier` tile acts as a one-way ramp. Test by attempting to move DOWN from an `elevated_ground` tile onto a `cleared_boulder_barrier` tile.
 - **Data Management Note:** I will begin using the '✅' emoji to mark items I have picked up to avoid confusion.
+- **New Agent Idea:** `path_diagnoser_agent`. Input: start/end coordinates. Action: Runs `landmass_analyzer` and interprets the output to explain *why* a path might be failing (e.g., \"Target is on a different landmass.\").
+- **New Tool Idea:** `boulder_puzzle_assistant`. Analyzes the map and lists all possible valid moves for every boulder on the screen, helping to visualize solutions without solving the puzzle outright.
