@@ -75,3 +75,6 @@
 
 # VI. Methodological Corrections & Lessons Learned (Victory Road 1F)
 - **Hallucination (Western Switch):** I spent dozens of turns operating under the false assumption that a boulder switch existed in the western part of the map at (3, 10). The system notes and my own re-examination of the map data confirmed this was a complete hallucination. There is only ONE switch on this floor, at (18, 14). **Conclusion:** This was a critical failure of observation and verification. I must be more rigorous in confirming the existence of key puzzle elements before building entire strategies around them. I will trust the game state data and system notes over my memory.
+
+# VI. Methodological Corrections & Lessons Learned (Victory Road 1F)
+- **Failed Hypothesis (Boulder on Steps):** My hypothesis that I could push the boulder at (6, 15) onto the `steps` tile at (6, 14) was incorrect. The game engine blocked the push. **Conclusion:** Boulders cannot be pushed onto `steps` tiles. This confirms my prior notes.
