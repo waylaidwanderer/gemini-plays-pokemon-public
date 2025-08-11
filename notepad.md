@@ -68,3 +68,4 @@
 
 ## D. System Interaction Notes
 - **Validation Check Discrepancy:** The system's validation for reachable warps appears to ignore movable obstacles like boulders. This can create a false positive, indicating a path is clear when it is actually blocked. My own tools (`landmass_analyzer`, `generate_path_plan`) provide a more accurate ground truth in these situations.
+- **Remote Push:** It is possible to push a boulder when standing one tile away from it. The player's position does not change.
