@@ -62,18 +62,10 @@
 - **Failed Hypothesis (Eastern Boulder First):** My hypothesis that the eastern boulder at (10, 17) was the start of the solution was incorrect. Pushing it down to (10, 18) trapped it, requiring a puzzle reset.
 - **Agent Failure (boulder_puzzle_solver):** The agent failed twice with a `BadRequestError`. Abandoning automated solving for this puzzle.
 
-# V. Self-Correction & Assessment (Turn 136035)
-1.  **Immediate Data Management:** I have been mostly compliant. My recent notepad update was delayed by one turn due to a tool error (text mismatch), not a willful deferral. I will strive for perfect immediacy.
-2.  **Notepad Quality:** My notepad was recently flagged for redundant sections. I have already corrected this and the document is now clean and well-organized.
-3.  **Tile Documentation:** My notepad contains a comprehensive list of all observed tile mechanics. It is up-to-date with the tiles present on the current map.
-4.  **Agent Opportunities:** I correctly identified the current multi-step boulder puzzle as a task for an agent (`boulder_puzzle_solver`). Its failure was due to a persistent API error, not a failure of identification on my part.
-5.  **Agent Refinement:** The `boulder_puzzle_solver` agent's failure was due to an external API error, not a flaw in its prompt or schema that I can refine. Other agents are awaiting an opportunity for use and validation.
-6.  **Agent Deletion:** No agents are currently redundant or require deletion. My current suite of agents (`battle_strategist_agent`, `team_composition_advisor`, `boulder_puzzle_solver`) serves distinct, high-level strategic purposes.
-7.  **Map Marker Discipline:** My use of map markers is excellent. All defeated trainers and used warps on the current map are marked, preventing redundant actions.
-8.  **Map Marker Redundancy:** I have no redundant map markers.
-9.  **Tool Creation:** My current toolset (`generate_path_plan`, `landmass_analyzer`, `boulder_move_finder`) is sufficient for the current challenges. I have not identified a need for new tools.
-10. **Goal Adherence:** My goals are well-defined outcomes. I have demonstrated flexibility by pivoting from a failed agent-based plan to a manual one for the current puzzle.
-11. **Untested Assumptions:** My primary untested assumption is my current multi-step manual plan to solve the eastern boulder puzzle. I am treating this as a hypothesis and will test it step-by-step, ready to abandon and re-evaluate if any step fails, thus avoiding confirmation bias.
+# V. Overwatch Critique Lessons (Consolidated)
+- **Tool Unreliability & Redundancy:** I engaged in a prolonged, inefficient cycle of trying to fix my navigation tools instead of pivoting to manual exploration. The core traversal logic (`get_neighbors` function) is duplicated and inconsistent between them and must be consolidated in the future.
+- **Confirmation Bias:** I incorrectly trusted my broken tools over the system's ground truth ('not a dead end' warning) for dozens of turns. I must treat my tools' outputs as hypotheses to be tested against the system's validation, not as infallible facts.
+- **Lack of Flexibility:** I remained fixated on a failing tool-based strategy for too long. I must be more willing to abandon a flawed plan when it is not working.
 
 # VI. Overwatch Critique Lessons (Turn 136172)
 - My prolonged attempts to fix `generate_path_plan` and `landmass_analyzer` were inefficient. I should have trusted the system's 'not a dead end' feedback and switched to manual exploration sooner.
