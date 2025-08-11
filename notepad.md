@@ -60,8 +60,9 @@
 - **Current Objective:** Navigate through Victory Road to reach the Indigo Plateau and challenge the Elite Four.
 - **Immediate Plan (Hypothesis):** The 'eastern puzzle first' simple push hypothesis has failed, trapping a boulder at (10, 16). The puzzle must be reset. New Hypothesis: A sequence is required. 1. Solve the eastern puzzle by moving the boulder at (6, 16) to the switch at (18, 14) to open the barrier at (10, 13). 2. With the barrier open, solve the western puzzle by pushing the boulder at (3, 11) DOWN to clear the path to the ladder.
 - **Future Planning:** Before challenging the Elite Four, I must use my `team_composition_advisor` agent to construct an optimal team.
+- **Revised Immediate Plan (Manual):** I will solve the puzzle manually using `boulder_move_finder` data. 1. Move boulder at (7, 17) to switch at (18, 14). 2. Push boulder at (3, 11) to clear path to ladder (2, 2).
 
-# VI. Methodological Corrections & Lessons Learned
+# V. Methodological Corrections & Lessons Learned
 - **Tool Failure (Victory Road 1F):** My `generate_path_plan` and `landmass_analyzer` tools failed to correctly identify a valid path on Victory Road 1F, leading me to hallucinate that I was soft-locked. The system's `Dead End Area Mismatch` warning confirmed that reachable exits existed. **Conclusion:** My tools had a critical bug in how they handle elevation changes and off-screen state. I have now fixed them. This was a major failure in trusting my tools over the system's ground truth.
 - **Confirmation Bias (Victory Road 1F):** I incorrectly assumed my initial eastern boulder hypothesis was correct and wasted turns trying to force a path that didn't exist instead of re-evaluating. **Conclusion:** I must treat my own notes as hypotheses to be tested, not infallible law. I need to be more willing to abandon a flawed plan and actively try to disprove my own assumptions.
 - **Deferred Action (Tool Fixing):** I repeatedly deferred fixing my `generate_path_plan` tool, opting for inefficient manual navigation instead of addressing the root problem. This violates the 'IMMEDIATE ACTION IS PARAMOUNT' directive. Broken tools must be fixed immediately.
@@ -71,26 +72,12 @@
 - **Failed Hypothesis (Boulder on Steps):** My hypothesis that I could push the boulder at (6, 15) onto the `steps` tile at (6, 14) was incorrect. The game engine blocked the push. **Conclusion:** Boulders cannot be pushed onto `steps` tiles. This confirms my prior notes.
 - **Failed Hypothesis (Eastern Boulder First):** My hypothesis that the eastern boulder at (10, 17) was the start of the solution was incorrect. Pushing it down to (10, 18) trapped it, requiring a puzzle reset.
 
-# VII. Overwatch Critique & Response (Consolidated)
+# VI. Overwatch Critique & Response (Consolidated)
 - **Agent Procrastination:** Acknowledged. The `puzzle_strategist_agent` has now been defined and refined to address this. I will prioritize using my agents for complex tasks.
 - **Tool Failure:** Acknowledged. My `generate_path_plan` and `landmass_analyzer` tools have been repeatedly fixed and updated to address their critical failures. I will no longer abandon or procrastinate on fixing faulty tools.
 - **Notepad Misuse:** Acknowledged. Using my notepad as a 'to-do list' violates my core principle of immediate action. I will no longer defer development tasks and will act on them in the turn they are identified.
-## D. Self-Correction Principles
-- **Immediate Action is Law:** I am an LLM; my 'thinking' is instantaneous and turn-based. There is no 'later'. Any identified need for a new tool, agent, or notepad correction MUST be addressed in the current turn. Deferring action is a critical failure.
-- **Combat Confirmation Bias:** After a single failed step in a planned sequence, I must stop and re-evaluate the entire plan. I will not blindly repeat failed actions. I will use my tools (`landmass_analyzer`, `boulder_move_finder`) to verify the state of the world before committing to a new multi-step plan.
-## D. Self-Correction Principles
-- **Immediate Action is Law:** I am an LLM; my 'thinking' is instantaneous and turn-based. There is no 'later'. Any identified need for a new tool, agent, or notepad correction MUST be addressed in the current turn. Deferring action is a critical failure.
-- **Combat Confirmation Bias:** After a single failed step in a planned sequence, I must stop and re-evaluate the entire plan. I will not blindly repeat failed actions. I will use my tools (`landmass_analyzer`, `boulder_move_finder`) to verify the state of the world before committing to a new multi-step plan.
-## D. Self-Correction Principles
-- **Immediate Action is Law:** I am an LLM; my 'thinking' is instantaneous and turn-based. There is no 'later'. Any identified need for a new tool, agent, or notepad correction MUST be addressed in the current turn. Deferring action is a critical failure.
-- **Combat Confirmation Bias:** After a single failed step in a planned sequence, I must stop and re-evaluate the entire plan. I will not blindly repeat failed actions. I will use my tools (`landmass_analyzer`, `boulder_move_finder`) to verify the state of the world before committing to a new multi-step plan.
-## D. Self-Correction Principles
-- **Immediate Action is Law:** I am an LLM; my 'thinking' is instantaneous and turn-based. There is no 'later'. Any identified need for a new tool, agent, or notepad correction MUST be addressed in the current turn. Deferring action is a critical failure.
-- **Combat Confirmation Bias:** After a single failed step in a planned sequence, I must stop and re-evaluate the entire plan. I will not blindly repeat failed actions. I will use my tools (`landmass_analyzer`, `boulder_move_finder`) to verify the state of the world before committing to a new multi-step plan.
-## D. Self-Correction Principles
-- **Immediate Action is Law:** I am an LLM; my 'thinking' is instantaneous and turn-based. There is no 'later'. Any identified need for a new tool, agent, or notepad correction MUST be addressed in the current turn. Deferring action is a critical failure.
-- **Combat Confirmation Bias:** After a single failed step in a planned sequence, I must stop and re-evaluate the entire plan. I will not blindly repeat failed actions. I will use my tools (`landmass_analyzer`, `boulder_move_finder`) to verify the state of the world before committing to a new multi-step plan.
 - **Agent Failure (boulder_puzzle_solver):** The agent failed twice with a `BadRequestError`. Abandoning automated solving for this puzzle.
-- **Revised Immediate Plan (Manual):** I will solve the puzzle manually using `boulder_move_finder` data. 
-  1. Move boulder at (7, 17) to switch at (18, 14).
-  2. Push boulder at (3, 11) to clear path to ladder (2, 2).
+
+# VII. Self-Correction Principles
+- **Immediate Action is Law:** I am an LLM; my 'thinking' is instantaneous and turn-based. There is no 'later'. Any identified need for a new tool, agent, or notepad correction MUST be addressed in the current turn. Deferring action is a critical failure.
+- **Combat Confirmation Bias:** After a single failed step in a planned sequence, I must stop and re-evaluate the entire plan. I will not blindly repeat failed actions. I will use my tools (`landmass_analyzer`, `boulder_move_finder`) to verify the state of the world before committing to a new multi-step plan.
