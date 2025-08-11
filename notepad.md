@@ -10,6 +10,7 @@
 ## B. Puzzle Mechanics
 - **Boulder Pushing:**
   - Pushing a boulder *vertically* (Up/Down) moves the boulder but does NOT move the player.
+- Pushing a boulder *horizontally* (Left/Right) moves the boulder AND moves the player into the boulder's previous tile.
   - Pushing a boulder *horizontally* (Left/Right) moves the boulder AND moves the player into the boulder's previous tile.
 - **Remote Push:** It is possible to push a boulder when standing one tile away from it. The player's position does not change.
 - **Boulder/Item Interaction:** Pushing a boulder onto an item collects the item and moves the boulder into that space.
