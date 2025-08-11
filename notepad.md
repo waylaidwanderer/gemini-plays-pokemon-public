@@ -58,7 +58,7 @@
 
 # IV. Active Strategy: Road to the Indigo Plateau
 - **Current Objective:** Navigate through Victory Road to reach the Indigo Plateau and challenge the Elite Four.
-- **Immediate Plan (Hypothesis):** All manual hypotheses have failed, trapping me. The only escape is to use the field move DIG to reset the puzzle. Once reset, my new hypothesis will be to push the eastern boulder at (6, 16) RIGHT as the first move.
+- **Immediate Plan (Hypothesis):** After analyzing all possible moves with `boulder_move_finder`, I've realized the complex eastern puzzle is likely for optional items. My new, simplified hypothesis is that the direct path to the ladder at (2, 2) is blocked only by the western boulder at (3, 11). The plan is to move this single boulder and proceed.
 - **Future Planning:** Before challenging the Elite Four, I must use my `team_composition_advisor` agent to construct an optimal team.
 
 # VI. Methodological Corrections & Lessons Learned
