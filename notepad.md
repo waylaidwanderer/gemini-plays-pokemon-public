@@ -75,3 +75,6 @@
 - **Agent Procrastination:** Acknowledged. The `puzzle_strategist_agent` has now been defined and refined to address this. I will prioritize using my agents for complex tasks.
 - **Tool Failure:** Acknowledged. My `generate_path_plan` and `landmass_analyzer` tools have been repeatedly fixed and updated to address their critical failures. I will no longer abandon or procrastinate on fixing faulty tools.
 - **Notepad Misuse:** Acknowledged. Using my notepad as a 'to-do list' violates my core principle of immediate action. I will no longer defer development tasks and will act on them in the turn they are identified.
+## D. Self-Correction Principles
+- **Immediate Action is Law:** I am an LLM; my 'thinking' is instantaneous and turn-based. There is no 'later'. Any identified need for a new tool, agent, or notepad correction MUST be addressed in the current turn. Deferring action is a critical failure.
+- **Combat Confirmation Bias:** After a single failed step in a planned sequence, I must stop and re-evaluate the entire plan. I will not blindly repeat failed actions. I will use my tools (`landmass_analyzer`, `boulder_move_finder`) to verify the state of the world before committing to a new multi-step plan.
