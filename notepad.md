@@ -87,3 +87,4 @@
   - **Conclusion:** This was the correct move. The sequence is: push boulder at (3,11) up to (3,10), then boulder at (6,16) down to (6,17), then boulder at (6,17) right to (7,17), and finally boulder at (7,17) right to (8,17).
 - **New Observation on Boulder Mechanics:** Pushing a boulder from an adjacent tile does not always move the player. When I pushed the boulder at (7,17) from (6,17), my character's position did not change.
 - **New Observation on Boulder Mechanics:** Pushing a boulder from an adjacent tile does not always move the player. When I pushed the boulder at (7,17) from (6,17), my character's position did not change.
+- **New Observation on Boulder Mechanics:** Pushing a boulder from an adjacent tile does not always move the player. When I pushed the boulder at (7,17) from (6,17), my character's position did not change.
