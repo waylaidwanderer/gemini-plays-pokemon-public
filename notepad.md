@@ -8,13 +8,15 @@
 - `ladder_up` / `ladder_down` / `warp`: Warps between maps or floors.
 
 ## B. Puzzle Mechanics
-- **Boulder Pushing:** Pushing a boulder *horizontally* moves the player into the boulder's previous tile. Pushing a boulder *vertically* moves the boulder but does NOT move the player.
+- **Boulder Pushing:**
+  - Pushing a boulder *vertically* (Up/Down) moves the boulder but does NOT move the player.
+  - Pushing a boulder *horizontally* (Left/Right) moves the boulder AND moves the player into the boulder's previous tile.
+- **Remote Push:** It is possible to push a boulder when standing one tile away from it. The player's position does not change.
 - **Boulder/Item Interaction:** Pushing a boulder onto an item collects the item and moves the boulder into that space.
 - **Reset Condition:** Boulder puzzles reset upon leaving and re-entering a map or using ladders between floors.
 - **`boulder_switch`:** A floor switch that must have a boulder pushed onto it.
 - **`boulder_barrier`:** An impassable wall that is removed when a corresponding `boulder_switch` is activated. State does not update until visible on-screen.
 - **`cleared_boulder_barrier`:** Acts as ground. Can sometimes function as a one-way ramp up from `ground` to `elevated_ground`.
-- **Remote Push:** It is possible to push a boulder when standing one tile away from it. The player's position does not change.
 
 ## C. General Mechanics
 - **Poison Damage:** Poisoned Pokémon in the party lose 1 HP every four steps taken outside of battle.
@@ -56,7 +58,7 @@
 
 # IV. Active Strategy: Road to the Indigo Plateau
 - **Current Objective:** Navigate through Victory Road to reach the Indigo Plateau and challenge the Elite Four.
-- **Immediate Plan:** Follow the documented successful puzzle solution to connect the landmasses and reach the ladder to 2F.
+- **Immediate Plan:** The puzzle on Victory Road 1F is a two-part solution. First, the western boulder puzzle must be solved to open a southern path. Second, this southern path must be used to access and solve the eastern boulder puzzle, which opens the main path to the exit ladder.
 
 # V. Tool Development & Testing Ideas
 - **New Agent Idea:** `puzzle_strategist_agent`. Input: `boulder_puzzle_assistant` output, current map state, goal coordinates. Action: Devises a step-by-step sequence of boulder pushes to achieve the goal. This would automate the complex reasoning I'm currently doing manually.
@@ -64,28 +66,10 @@
 
 # VI. Methodological Corrections & Lessons Learned
 - **Tool Failure (Victory Road 1F):** My `generate_path_plan` and `landmass_analyzer` tools failed to correctly identify a valid path on Victory Road 1F, leading me to hallucinate that I was soft-locked. The system's `Dead End Area Mismatch` warning confirmed that reachable exits existed. **Conclusion:** My tools had a critical bug in how they handle elevation changes. I have now fixed them. This was a major failure in trusting my tools over the system's ground truth.
-- **Confirmation Bias (Victory Road 1F):** I incorrectly assumed the western and eastern sections of the map were connected. I wasted significant time trying to fix my pathfinder based on this false assumption instead of testing the assumption itself. **Conclusion:** I must use diagnostic tools like `landmass_analyzer` to verify my assumptions before debugging other tools. I need to actively try to disprove my own hypotheses.
+- **Confirmation Bias (Victory Road 1F):** I incorrectly assumed the western boulder puzzle solution in my notepad was the *complete* solution. I wasted dozens of turns trying to force a path that didn't exist instead of re-evaluating the entire puzzle. **Conclusion:** I must treat my own notes as hypotheses to be tested, not infallible law. I need to be more willing to abandon a flawed plan.
 - **Deferred Action (Tool Fixing):** I repeatedly deferred fixing my `generate_path_plan` tool, opting for inefficient manual navigation instead of addressing the root problem. **Conclusion:** This violates the 'IMMEDIATE ACTION IS PARAMOUNT' directive. Broken tools must be fixed immediately, as they are a higher priority than any gameplay objective.
 
-# VII. Victory Road 1F Puzzle Log
-- **Hypothesis 1 (Failed):** Pushing the boulder at (3, 11) onto the switch at (3, 10) will open the barrier at (10, 13).
-  - **Test:** Pushed boulder onto switch. Used pathfinder to check for path to (10, 12).
-  - **Result:** Path not found. Barrier remains closed.
-  - **Conclusion:** This switch does not control this barrier, or it's part of a larger sequence.
-- **Hypothesis 2 (Failed):** The boulder at (6, 16) must be moved to access the eastern part of the map. The correct move is to push it Down to (6, 17). This will allow access to the second boulder puzzle involving the switch at (18, 14).
-  - **Test:** Pushed boulder from (6, 16) to (6, 17). Used landmass analyzer to check for connectivity to (18, 13).
-  - **Result:** The landmasses remain disconnected.
-  - **Conclusion:** This push alone is not sufficient to connect the areas.
-- **Hypothesis 3 (Failed):** To connect the landmasses, the boulder at (6, 17) must be pushed Right to (7, 17). This will clear a path to the eastern section.
-  - **Test:** Pushed boulder from (6, 17) to (7, 17). Used landmass analyzer to check for connectivity to (18, 13).
-  - **Result:** The landmasses remain disconnected.
-  - **Conclusion:** This push alone is not sufficient to connect the areas.
-- **Hypothesis 4 (Failed):** A remote push on the boulder at (7, 17) is required. I need to push it Right to (8, 17) from my current position at (6, 17).
-  - **Test:** Pushed boulder from (7, 17) to (8, 17).
-  - **Result:** Landmasses remain disconnected.
-  - **Conclusion:** This push is not the solution.
-- **Hypothesis 5 (Successful Solution):** The correct sequence to connect the landmasses is: 
-  1. Push boulder at (3,11) up to (3,10).
-  2. Push boulder at (6,16) down to (6,17).
-  3. Push boulder at (6,17) right to (7,17).
-  4. Push boulder at (7,17) right to (8,17).
+# VII. Victory Road 1F Puzzle Log (Reset)
+- **Current Understanding:** The puzzle is two-part. The western boulder puzzle opens the southern path to the eastern boulder puzzle. The eastern puzzle opens the northern path to the exit ladder. 
+- **Step 1 (Western Puzzle):** Complete. Path to southern route is open.
+- **Step 2 (Eastern Puzzle):** In progress. Need to push boulder at (15, 3) onto switch at (18, 14).
