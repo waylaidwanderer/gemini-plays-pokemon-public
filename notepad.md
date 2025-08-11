@@ -15,6 +15,7 @@
 - **`boulder_switch`:** A floor switch that must have a boulder pushed onto it.
 - **`boulder_barrier`:** An impassable wall that is removed when a corresponding `boulder_switch` is activated. State does not update until visible on-screen.
 - **`cleared_boulder_barrier`:** Acts as ground. Can sometimes function as a one-way ramp up from `ground` to `elevated_ground`.
+- **Remote Push:** It is possible to push a boulder when standing one tile away from it. The player's position does not change.
 
 ## C. General Mechanics
 - **Poison Damage:** Poisoned Pokémon in the party lose 1 HP every four steps taken outside of battle.
@@ -53,19 +54,16 @@
 ## B. Tool Triage (Active Issues)
 - **`boulder_puzzle_solver`:** Deleted. The tool was critically flawed, causing timeouts and preventing progress. A manual approach to puzzles is currently more reliable.
 
+## C. System Interaction Notes
+- **Validation Check Discrepancy:** The system's validation for reachable warps appears to ignore movable obstacles like boulders. This can create a false positive, indicating a path is clear when it is actually blocked. My own tools (`landmass_analyzer`, `generate_path_plan`) provide a more accurate ground truth in these situations.
+
 # IV. Active Strategy: Victory Road 1F
 
-- **Current State:** In battle against a wild Graveler at (2, 14). I am currently in the Pokémon selection menu.
+- **Current State:** On Victory Road 1F at (10, 18). I am currently solving the western boulder puzzle to reach the ladder at (2, 2).
 - **Immediate Plan:** 
-    1. Switch to TITANESS.
-    2. Defeat the Graveler using SURF.
-    3. After the battle, navigate to (3, 12).
-    4. Push the boulder at (3, 11) onto the switch at (3, 10).
+    1. Get into position below the boulder at (10, 16).
+    2. Push the boulder North to (10, 15).
 
 # V. Tool Development & Testing Ideas
-- **Boulder Puzzle Assistant:** A tool that, instead of solving the whole puzzle, analyzes the current state and suggests all possible valid moves for each boulder on the map. This would help in manual solving without the risk of a complex solver timing out or getting stuck.
 - **Hypothesis to Test:** The `cleared_boulder_barrier` tile acts as a one-way ramp. Test by attempting to move DOWN from an `elevated_ground` tile onto a `cleared_boulder_barrier` tile.
-
-## D. System Interaction Notes
-- **Validation Check Discrepancy:** The system's validation for reachable warps appears to ignore movable obstacles like boulders. This can create a false positive, indicating a path is clear when it is actually blocked. My own tools (`landmass_analyzer`, `generate_path_plan`) provide a more accurate ground truth in these situations.
-- **Remote Push:** It is possible to push a boulder when standing one tile away from it. The player's position does not change.
+- **Data Management Note:** I will begin using the '✅' emoji to mark items I have picked up to avoid confusion.
