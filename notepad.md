@@ -58,8 +58,9 @@
 
 - **Current State:** On Route 22, heading back to Victory Road after using Dig to escape a self-inflicted softlock on Victory Road 1F.
 - **Immediate Plan:** 
-    1. Traverse Route 22 and Route 23 to reach the Victory Road entrance.
-    2. Re-attempt the Victory Road 1F puzzle, being careful not to block the path with the first boulder.
+    1. Navigate to the western boulder at (3, 11).
+    2. Push the boulder DOWN to (3, 12) to clear the path north.
+    3. Proceed to the ladder at (2, 2) to reach Victory Road 2F.
 
 # V. Tool Development & Testing Ideas
 - **Hypothesis to Test:** The `cleared_boulder_barrier` tile acts as a one-way ramp. Test by attempting to move DOWN from an `elevated_ground` tile onto a `cleared_boulder_barrier` tile.
