@@ -47,7 +47,7 @@
 # III. Active Strategy: Road to the Indigo Plateau
 - **Current Objective:** Navigate through Victory Road to reach the Indigo Plateau and challenge the Elite Four.
 - **Future Planning:** Before challenging the Elite Four, I must use my `team_composition_advisor` agent to construct an optimal team.
-- **Revised Immediate Plan (Manual v2):** The 'push right' strategy failed as the boulder at (10,17) is blocked by an impassable tile at (11,17). New plan: 1. Push boulder at (10,17) UP to (10,16). 2. Push it up again to (10,15). 3. Push it right across the path to (17,15). 4. Push it up to (17,14). 5. Push it right onto the switch at (18,14). 6. With the barrier open, solve the western puzzle by pushing the boulder at (3, 11) to clear the path to the ladder (2, 2).
+- **Revised Immediate Plan (Manual v3):** The entire eastern boulder puzzle is a red herring for reaching the ladder. The switch at (18,14) controls the barrier at (10,13), which blocks a path on the upper level, but is not required to reach the ladder at (2,2). The correct solution is to solve the western puzzle. New plan: 1. Navigate to (3, 12). 2. Push the boulder at (3, 11) UP to (3, 10). 3. This will clear the path to the ladder at (2, 2).
 
 # IV. Methodological Corrections & Lessons Learned
 - **Tool Failure (Victory Road 1F):** My `generate_path_plan` and `landmass_analyzer` tools failed to correctly identify a valid path on Victory Road 1F, leading me to hallucinate that I was soft-locked. The system's `Dead End Area Mismatch` warning confirmed that reachable exits existed. **Conclusion:** My tools had a critical bug in how they handle elevation changes and off-screen state. I have now fixed them. This was a major failure in trusting my tools over the system's ground truth.
