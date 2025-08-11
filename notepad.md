@@ -9,7 +9,7 @@
 - `ladder_up` / `ladder_down` / `warp`: Warps between maps or floors.
 
 ## B. Puzzle Mechanics
-- **Boulder Pushing:** The player's position does NOT change when pushing a boulder.
+- **Boulder Pushing:** The player's position does NOT change when pushing a boulder. (Hypothesis confirmed on Victory Road 1F).
 - **Boulder/Item Interaction:** Pushing a boulder onto an item collects the item and moves the boulder into that space.
 - **Reset Condition:** Boulder puzzles reset upon leaving and re-entering a map or using ladders between floors.
 - **`boulder_switch`:** A floor switch that must have a boulder pushed onto it.
@@ -51,18 +51,15 @@
 - **Hypothesis-Driven Approach:** I must form a single, testable hypothesis, document it, test it, and record the conclusion. I must actively try to disprove my own conclusions to avoid confirmation bias.
 - **Trust Direct Observation:** System hints can be misleading. Direct, in-game observation (e.g., walking into a wall) is the ultimate source of truth.
 
-## B. Tool Triage (Active Issues)
-- **`boulder_puzzle_solver`:** Deleted. The tool was critically flawed, causing timeouts and preventing progress. A manual approach to puzzles is currently more reliable.
-
-## C. System Interaction Notes
+## B. System Interaction Notes
 - **Validation Check Discrepancy:** The system's validation for reachable warps appears to ignore movable obstacles like boulders. This can create a false positive, indicating a path is clear when it is actually blocked. My own tools (`landmass_analyzer`, `generate_path_plan`) provide a more accurate ground truth in these situations.
 
-# IV. Active Strategy: Victory Road 1F
+# IV. Active Strategy: Road to Victory
 
-- **Current State:** On Victory Road 1F at (5, 16), trapped by a boulder.
+- **Current State:** On Route 22, heading back to Victory Road after using Dig to escape a self-inflicted softlock on Victory Road 1F.
 - **Immediate Plan:** 
-    1. Move to (6, 15).
-    2. Push the boulder at (6, 16) south to (6, 17) to clear the path.
+    1. Traverse Route 22 and Route 23 to reach the Victory Road entrance.
+    2. Re-attempt the Victory Road 1F puzzle, being careful not to block the path with the first boulder.
 
 # V. Tool Development & Testing Ideas
 - **Hypothesis to Test:** The `cleared_boulder_barrier` tile acts as a one-way ramp. Test by attempting to move DOWN from an `elevated_ground` tile onto a `cleared_boulder_barrier` tile.
