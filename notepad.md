@@ -53,16 +53,14 @@
 ## B. Tool Triage (Active Issues)
 - **`boulder_puzzle_solver`:** Deleted. The tool was critically flawed, causing timeouts and preventing progress. A manual approach to puzzles is currently more reliable.
 
-## C. Active Hypothesis (Victory Road 1F) - Manual Approach
-- **Previous Hypothesis (Failed):** Pushing the boulder at (6, 16) south would clear a path to the eastern platform.
-- **Conclusion (Attempt 1):** This was a critical error. Pushing the boulder to (6, 17) trapped me in the western section, forcing a reset via Dig. I failed to consider the negative consequences of the move. This is a lesson in thinking through all outcomes before acting.
-- **New Hypothesis:** The main puzzle solution requires accessing the eastern elevated platform to push the boulder at (15, 3) onto the switch at (18, 14). The correct access point to this platform is via the steps at (16, 8).
-- **Plan:**
-    1. Navigate to the steps at (16, 8).
-    2. Ascend to the eastern elevated platform.
-    3. Maneuver the boulder at (15, 3) onto the switch at (18, 14).
-    4. Verify the barrier at (10, 13) is cleared.
-    5. Proceed to the ladder at (2, 2).
+# III. Active Strategy: Victory Road 1F
+
+- **Current Obstacle:** The path to the ladder at (2, 2) is blocked. The eastern elevated platform, containing a boulder and a switch, is on a separate, unreachable landmass.
+- **Hypothesis:** The solution must involve manipulating the boulders in the western, accessible area. Specifically, the boulder at (6, 16) seems key.
+- **Immediate Plan:** 
+    1. Navigate to (6, 17).
+    2. Attempt to push the boulder at (6, 16) north.
+    3. Observe the outcome and form a new hypothesis if it fails.
 
 # IV. Tool Development Ideas
 - **Boulder Puzzle Assistant:** A tool that, instead of solving the whole puzzle, analyzes the current state and suggests all possible valid moves for each boulder on the map. This would help in manual solving without the risk of a complex solver timing out or getting stuck.
