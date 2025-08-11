@@ -46,7 +46,7 @@
 
 # III. My Methodology
 ## A. Core Principles
-- **IMMEDIATE ACTION IS PARAMOUNT:** A broken tool is a critical failure. I MUST fix it immediately with `define_tool` instead of deferring the task or attempting workarounds. Fixing tools is my highest priority, above any gameplay objective.
+- **IMMEDIATE ACTION IS PARAMOUNT:** My thinking only occurs when processing a turn. A broken tool, a flawed strategy, or a needed agent is a critical failure that must be addressed in the *current* turn. I am forbidden from deferring tasks to a "later" that will never come. Fixing my own capabilities is always the highest priority, above any gameplay objective.
 - **Hypothesis-Driven Approach:** I must form a single, testable hypothesis, document it, test it, and record the conclusion. I must actively try to disprove my own conclusions to avoid confirmation bias.
 
 ## B. System Interaction Notes
@@ -58,15 +58,14 @@
 
 # IV. Active Strategy: Road to the Indigo Plateau
 - **Current Objective:** Navigate through Victory Road to reach the Indigo Plateau and challenge the Elite Four.
-- **Immediate Plan:** After getting trapped in Victory Road 1F, I used Dig to reset the puzzle. I am now back in Viridian City and will return to Victory Road 1F to re-attempt the boulder puzzles with a fresh perspective.
+- **Immediate Plan:** After getting trapped in Victory Road 1F, I used Dig to reset the puzzle. I am now back in Viridian City and will return to Victory Road 1F to re-attempt the boulder puzzles with my newly fixed tools and a fresh perspective.
 
-# V. Tool Development & Testing Ideas
-- **New Agent Idea:** `puzzle_strategist_agent`. Input: `boulder_puzzle_assistant` output, current map state, goal coordinates. Action: Devises a step-by-step sequence of boulder pushes to achieve the goal. This would automate the complex reasoning I'm currently doing manually.
-- **Refinement Idea:** My pathfinding tools (`generate_path_plan`, `landmass_analyzer`) need to be updated to handle off-screen state changes. A potential solution is to add a parameter like `assume_barriers_open: true` to allow the tool to test hypotheses about map connectivity.
-- **Data Management Note:** I will begin using the '✅' emoji to mark items I have picked up to avoid confusion.
+# V. Identified Development Needs
+- **Agent Opportunity:** `puzzle_strategist_agent`. Input: `boulder_puzzle_assistant` output, current map state, goal coordinates. Action: Devises a step-by-step sequence of boulder pushes to achieve the goal. This would automate the complex reasoning I'm currently doing manually.
+- **Tool Capability Need:** My pathfinding tools now have an `assume_barriers_open` parameter to handle off-screen state changes. This was a critical fix identified during self-assessment.
 
 # VI. Methodological Corrections & Lessons Learned
-- **Tool Failure (Victory Road 1F):** My `generate_path_plan` and `landmass_analyzer` tools failed to correctly identify a valid path on Victory Road 1F, leading me to hallucinate that I was soft-locked. The system's `Dead End Area Mismatch` warning confirmed that reachable exits existed. **Conclusion:** My tools had a critical bug in how they handle elevation changes. I have now fixed them. This was a major failure in trusting my tools over the system's ground truth.
+- **Tool Failure (Victory Road 1F):** My `generate_path_plan` and `landmass_analyzer` tools failed to correctly identify a valid path on Victory Road 1F, leading me to hallucinate that I was soft-locked. The system's `Dead End Area Mismatch` warning confirmed that reachable exits existed. **Conclusion:** My tools had a critical bug in how they handle elevation changes and off-screen state. I have now fixed them. This was a major failure in trusting my tools over the system's ground truth.
 - **Confirmation Bias (Victory Road 1F):** I incorrectly assumed the western boulder puzzle solution in my notepad was the *complete* solution. I wasted dozens of turns trying to force a path that didn't exist instead of re-evaluating the entire puzzle. **Conclusion:** I must treat my own notes as hypotheses to be tested, not infallible law. I need to be more willing to abandon a flawed plan.
-- **Deferred Action (Tool Fixing):** I repeatedly deferred fixing my `generate_path_plan` tool, opting for inefficient manual navigation instead of addressing the root problem. This violates the 'IMMEDIATE ACTION IS PARAMOUNT' directive. Broken tools must be fixed immediately, as they are a higher priority than any gameplay objective.
-- **Tool Unreliability (Off-Screen State):** The Overwatch critique correctly identified that my tools are failing because they cannot account for off-screen state changes (e.g., a barrier opening). Trusting them over system warnings led to a repetitive loop. **Conclusion:** For complex puzzles, I must manually test hypotheses when my tools contradict the system. Fixing the tools to account for this is now a high-priority development task.
+- **Deferred Action (Tool Fixing):** I repeatedly deferred fixing my `generate_path_plan` tool, opting for inefficient manual navigation instead of addressing the root problem. This violates the 'IMMEDIATE ACTION IS PARAMOUNT' directive. Broken tools must be fixed immediately.
+- **Tool Unreliability (Off-Screen State):** The Overwatch critique correctly identified that my tools are failing because they cannot account for off-screen state changes (e.g., a barrier opening). Trusting them over system warnings led to a repetitive loop. **Conclusion:** For complex puzzles, I must manually test hypotheses when my tools contradict the system. The `assume_barriers_open` parameter is the first step in addressing this.
