@@ -65,7 +65,7 @@
 - **Hypothesis to Test:** The `cleared_boulder_barrier` tile acts as a one-way ramp. Test by attempting to move DOWN from an `elevated_ground` tile onto a `cleared_boulder_barrier` tile.
 - **Data Management Note:** I will begin using the '✅' emoji to mark items I have picked up to avoid confusion.
 - **New Agent Idea:** `path_diagnoser_agent`. Input: start/end coordinates. Action: Runs `landmass_analyzer` and interprets the output to explain *why* a path might be failing (e.g., \"Target is on a different landmass.\").
-- **New Tool Idea:** `boulder_puzzle_assistant`. Analyzes the map and lists all possible valid moves for every boulder on the screen, helping to visualize solutions without solving the puzzle outright.
+
 - **Victory Road 1F Puzzle Log:**
   - **Hypothesis 1:** Pushing the boulder at (3, 11) onto the switch at (3, 10) will open the barrier at (10, 13).
   - **Test 1:** Activated Strength and pushed the boulder from (3, 12) up to (3, 11), then up again to (3, 10).
