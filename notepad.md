@@ -72,4 +72,8 @@
   - **Test:** Pushed boulder onto switch. Used pathfinder to check for path to (10, 12).
   - **Result:** Path not found. Barrier remains closed.
   - **Conclusion:** This switch does not control this barrier, or it's part of a larger sequence.
-- **Hypothesis 2 (Current):** The boulder at (6, 16) must be moved to access the eastern part of the map. The correct move is to push it Down to (6, 17). This will allow access to the second boulder puzzle involving the switch at (18, 14).
+- **Hypothesis 2 (Failed):** The boulder at (6, 16) must be moved to access the eastern part of the map. The correct move is to push it Down to (6, 17). This will allow access to the second boulder puzzle involving the switch at (18, 14).
+  - **Test:** Pushed boulder from (6, 16) to (6, 17). Used landmass analyzer to check for connectivity to (18, 13).
+  - **Result:** The landmasses remain disconnected.
+  - **Conclusion:** This push alone is not sufficient to connect the areas.
+- **Hypothesis 3 (Current):** To connect the landmasses, the boulder at (6, 17) must be pushed Right to (7, 17). This will clear a path to the eastern section.
