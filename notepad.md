@@ -46,10 +46,10 @@
 - **Body Slam:** Can cause paralysis.
 
 # III. Active Strategy: Road to the Indigo Plateau
-- **Current Objective:** Navigate through Victory Road to reach the Indigo Plateau and challenge the Elite Four.
-- **Future Planning:** Before challenging the Elite Four, I must use my `team_composition_advisor` agent to construct an optimal team.
-- **Failed Hypothesis (Eastern Boulder Push):** My `boulder_move_finder` tool has confirmed that the boulder at (17, 14) can only be pushed vertically (Up/Down), not horizontally. This invalidates my entire strategy of pushing it right onto the switch at (18, 14). All attempts to solve the eastern puzzle with the boulders on 1F have failed.
-- **New Hypothesis (Boulder from 2F):** The only remaining possibility is that the solution requires a boulder from the floor above. The system note supports this. **New Plan:** 1. Ascend to Victory Road 2F. 2. Locate a boulder that can be pushed down a hole, positioning it on 1F to solve the eastern switch puzzle. 3. Return to 1F to push the newly placed boulder onto the switch at (18, 14).
+- **Current Objective:** Navigate through Victory Road to reach the Indigo Plateau.
+- **Immediate Hurdle:** The boulder puzzle on Victory Road 1F.
+- **Current Hypothesis:** My navigation tools are unreliable on this map. The system insists a path to the ladder at (2, 2) exists, but all analysis suggests the eastern puzzle (which opens the central barrier) is unsolvable from this floor. This implies a traversal mechanic or path has been missed. The most likely path is via the western elevated platform.
+- **Current Plan:** Abandon automated pathfinding for this map. Manually navigate to the steps at (6, 14), ascend to the western elevated platform, and then manually find the route to the ladder at (2, 2). This is a test of the hypothesis that the eastern puzzle is a red herring for reaching the next floor.
 
 # IV. Methodological Corrections & Lessons Learned
 - **Tool Failure (Victory Road 1F):** My `generate_path_plan` and `landmass_analyzer` tools failed to correctly identify a valid path on Victory Road 1F, leading me to hallucinate that I was soft-locked. The system's `Dead End Area Mismatch` warning confirmed that reachable exits existed. **Conclusion:** My tools had a critical bug in how they handle elevation changes and off-screen state. I have now fixed them. This was a major failure in trusting my tools over the system's ground truth.
