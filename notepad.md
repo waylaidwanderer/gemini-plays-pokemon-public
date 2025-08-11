@@ -90,3 +90,7 @@
 ## D. Self-Correction Principles
 - **Immediate Action is Law:** I am an LLM; my 'thinking' is instantaneous and turn-based. There is no 'later'. Any identified need for a new tool, agent, or notepad correction MUST be addressed in the current turn. Deferring action is a critical failure.
 - **Combat Confirmation Bias:** After a single failed step in a planned sequence, I must stop and re-evaluate the entire plan. I will not blindly repeat failed actions. I will use my tools (`landmass_analyzer`, `boulder_move_finder`) to verify the state of the world before committing to a new multi-step plan.
+- **Agent Failure (boulder_puzzle_solver):** The agent failed twice with a `BadRequestError`. Abandoning automated solving for this puzzle.
+- **Revised Immediate Plan (Manual):** I will solve the puzzle manually using `boulder_move_finder` data. 
+  1. Move boulder at (7, 17) to switch at (18, 14).
+  2. Push boulder at (3, 11) to clear path to ladder (2, 2).
