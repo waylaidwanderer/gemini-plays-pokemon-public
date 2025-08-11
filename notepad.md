@@ -72,4 +72,4 @@
 # VII. Victory Road 1F Puzzle Log (Reset)
 - **Current Understanding:** The puzzle is two-part. The western boulder puzzle opens the southern path to the eastern boulder puzzle. The eastern puzzle opens the northern path to the exit ladder. 
 - **Step 1 (Western Puzzle):** Complete. Path to southern route is open.
-- **Step 2 (Eastern Puzzle):** In progress. Need to push boulder at (15, 3) onto switch at (18, 14).
+- **Step 2 (Eastern Puzzle):** The eastern platform is a separate landmass. I must use the southern path (opened by the western puzzle) to access the eastern ground area. From there, I will take the eastern steps up, push the boulder at (15, 3) down, then push it onto the switch at (18, 14).
