@@ -5,7 +5,7 @@
 - `impassable` / `unknown`: Cannot be entered.
 - `ledge`: A one-way drop. Can be jumped down from an adjacent higher tile, but not climbed up.
 - `steps`: Allows vertical movement between `ground` and `elevated_ground`.
-- `elevated_ground`: Walkable ground at a different elevation. Movement to/from `ground` is ONLY possible via `steps` tiles. (Hypothesis confirmed by engine block).
+- `elevated_ground`: Walkable ground at a different elevation. Movement to/from `ground` is ONLY possible via `steps` tiles. (Hypothesis confirmed by engine block at (6,10) on Victory Road 1F).
 - `ladder_up` / `ladder_down` / `warp`: Warps between maps or floors.
 
 ## B. Puzzle Mechanics
@@ -53,17 +53,18 @@
 ## B. Tool Triage (Active Issues)
 - **`boulder_puzzle_solver`:** Deleted. The tool was critically flawed, causing timeouts and preventing progress. A manual approach to puzzles is currently more reliable.
 
-# III. Active Strategy: Victory Road 1F
+# IV. Active Strategy: Victory Road 1F
 
-- **Current Obstacle:** The path to the ladder at (2, 2) is blocked. The eastern elevated platform, containing a boulder and a switch, is on a separate, unreachable landmass.
-- **Hypothesis:** The solution must involve solving the western boulder puzzle first to gain access to the eastern section.
+- **Current State:** In battle against a wild Graveler at (2, 14). I am currently in the Pokémon selection menu.
 - **Immediate Plan:** 
-    1. Ascend the steps at (6, 14) to the western elevated platform.
-    2. Solve the boulder puzzle there.
+    1. Switch to TITANESS.
+    2. Defeat the Graveler using SURF.
+    3. After the battle, navigate to (3, 12).
+    4. Push the boulder at (3, 11) onto the switch at (3, 10).
 
-# IV. Tool Development & Testing Ideas
+# V. Tool Development & Testing Ideas
 - **Boulder Puzzle Assistant:** A tool that, instead of solving the whole puzzle, analyzes the current state and suggests all possible valid moves for each boulder on the map. This would help in manual solving without the risk of a complex solver timing out or getting stuck.
-- **Hypothesis to Test:** The `cleared_boulder_barrier` tile acts as a one-way ramp. Test by attempting to move DOWN from an `elevated_ground` tile onto a `cleared_boulder_barrier` tile. If blocked, this confirms the one-way nature.
+- **Hypothesis to Test:** The `cleared_boulder_barrier` tile acts as a one-way ramp. Test by attempting to move DOWN from an `elevated_ground` tile onto a `cleared_boulder_barrier` tile.
 
 ## D. System Interaction Notes
 - **Validation Check Discrepancy:** The system's validation for reachable warps appears to ignore movable obstacles like boulders. This can create a false positive, indicating a path is clear when it is actually blocked. My own tools (`landmass_analyzer`, `generate_path_plan`) provide a more accurate ground truth in these situations.
