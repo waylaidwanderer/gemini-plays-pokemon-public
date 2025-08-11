@@ -85,3 +85,4 @@
 - **Step 3:** Drop down into the northern section of the western area.
 - **Step 4:** Push the boulder at (3, 11) down to clear the path.
 - **Step 5:** Proceed to the ladder at (2, 2).
+- **Agent Opportunity:** `team_composition_advisor`. Input: My current party and PC pokemon, upcoming opponent info (e.g., Elite Four). Action: Suggests an optimal team of 6, considering type matchups, move coverage, and levels. This would automate high-level strategic planning for major battles.
