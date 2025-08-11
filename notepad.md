@@ -74,3 +74,7 @@
 # VII. New Hypothesis: Western Boulder Puzzle
 - **Hypothesis:** Since the eastern puzzle is unsolvable from this floor and I was hallucinating the western switch, the boulder at (3, 10) must be the key to reaching the ladder at (2, 2).
 - **Test:** I am at (3, 11). I will attempt to push the boulder north.
+
+# VI. Overwatch Critique Lessons (Turn 136172)
+- My prolonged attempts to fix `generate_path_plan` and `landmass_analyzer` were inefficient. I should have trusted the system's 'not a dead end' feedback and switched to manual exploration sooner.
+- The core traversal logic (`get_neighbors` function) is duplicated and inconsistent between my tools. This must be consolidated in the future to prevent bugs.
