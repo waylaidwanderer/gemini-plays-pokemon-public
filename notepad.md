@@ -81,3 +81,8 @@
   - **Result:** The landmasses remain disconnected.
   - **Conclusion:** This push alone is not sufficient to connect the areas.
 - **Hypothesis 4 (Current):** A remote push on the boulder at (7, 17) is required. I need to push it Right to (8, 17) from my current position at (5, 17).
+- **Hypothesis 5 (Successful, but reasoning flawed):** Pushing the boulder at (7, 17) to (8, 17) will connect the landmasses.
+  - **Test:** Pushed boulder from (7, 17) to (8, 17). Used landmass analyzer to check for connectivity to (18, 13).
+  - **Result:** The landmasses are now connected!
+  - **Conclusion:** This was the correct move. The sequence is: push boulder at (3,11) up to (3,10), then boulder at (6,16) down to (6,17), then boulder at (6,17) right to (7,17), and finally boulder at (7,17) right to (8,17).
+- **New Observation on Boulder Mechanics:** Pushing a boulder from an adjacent tile does not always move the player. When I pushed the boulder at (7,17) from (6,17), my character's position did not change.
