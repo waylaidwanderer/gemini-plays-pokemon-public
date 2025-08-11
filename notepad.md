@@ -8,7 +8,7 @@
 - `ladder_up` / `ladder_down` / `warp`: Warps between maps or floors.
 
 ## B. Puzzle Mechanics
-- **Boulder Pushing:** Pushing a boulder horizontally moves the player into the boulder's previous tile. Pushing a boulder (horizontally or vertically) moves the player into the boulder's previous tile.
+- **Boulder Pushing:** Pushing a boulder *horizontally* moves the player into the boulder's previous tile. Pushing a boulder *vertically* moves the boulder but does NOT move the player.
 - **Boulder/Item Interaction:** Pushing a boulder onto an item collects the item and moves the boulder into that space.
 - **Reset Condition:** Boulder puzzles reset upon leaving and re-entering a map or using ladders between floors.
 - **`boulder_switch`:** A floor switch that must have a boulder pushed onto it.
