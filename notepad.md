@@ -58,7 +58,7 @@
 
 # IV. Active Strategy: Road to the Indigo Plateau
 - **Current Objective:** Navigate through Victory Road to reach the Indigo Plateau and challenge the Elite Four.
-- **Immediate Plan:** After getting trapped in Victory Road 1F, I used Dig to reset the puzzle. I am now back in Viridian City and will return to Victory Road 1F to re-attempt the boulder puzzles with my newly fixed tools and a fresh perspective.
+- **Immediate Plan:** I am on Victory Road 1F. My immediate goal is to solve the boulder puzzles to clear a path to the ladder at (2, 2).
 
 # V. Identified Development Needs
 - **Agent Opportunity:** `puzzle_strategist_agent`. Input: `boulder_puzzle_assistant` output, current map state, goal coordinates. Action: Devises a step-by-step sequence of boulder pushes to achieve the goal. This would automate the complex reasoning I'm currently doing manually.
