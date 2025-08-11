@@ -9,7 +9,7 @@
 - `ladder_up` / `ladder_down` / `warp`: Warps between maps or floors.
 
 ## B. Puzzle Mechanics
-- **Boulder Pushing:** The player's position does NOT change when pushing a boulder. (Hypothesis confirmed on Victory Road 1F).
+- **Boulder Pushing:** Pushing a boulder moves the player into the boulder's previous tile. (Hypothesis confirmed on Victory Road 1F).
 - **Boulder/Item Interaction:** Pushing a boulder onto an item collects the item and moves the boulder into that space.
 - **Reset Condition:** Boulder puzzles reset upon leaving and re-entering a map or using ladders between floors.
 - **`boulder_switch`:** A floor switch that must have a boulder pushed onto it.
