@@ -66,4 +66,4 @@
 # V. Tool Development & Testing Ideas
 - **Hypothesis to Test:** The `cleared_boulder_barrier` tile acts as a one-way ramp. Test by attempting to move DOWN from an `elevated_ground` tile onto a `cleared_boulder_barrier` tile.
 - **Data Management Note:** I will begin using the '✅' emoji to mark items I have picked up to avoid confusion.
-- **Vertical Boulder Pushing:** Pushing a boulder Up/Down moves the player into the boulder's previous tile.
+- **Boulder Pushing Movement:** Pushing a boulder (horizontally or vertically) always moves the player into the boulder's previous tile.
