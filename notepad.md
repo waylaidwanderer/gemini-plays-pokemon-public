@@ -5,7 +5,7 @@
 - `impassable` / `unknown`: Cannot be entered.
 - `ledge`: A one-way drop. Can be jumped down from an adjacent higher tile, but not climbed up.
 - `steps`: Allows vertical movement between `ground` and `elevated_ground`.
-- `elevated_ground`: Walkable ground at a different elevation. Movement to `ground` is only possible via `steps`.
+- `elevated_ground`: Walkable ground at a different elevation. Movement to/from `ground` is ONLY possible via `steps` tiles. (Hypothesis confirmed by engine block).
 - `ladder_up` / `ladder_down` / `warp`: Warps between maps or floors.
 
 ## B. Puzzle Mechanics
@@ -56,14 +56,14 @@
 # III. Active Strategy: Victory Road 1F
 
 - **Current Obstacle:** The path to the ladder at (2, 2) is blocked. The eastern elevated platform, containing a boulder and a switch, is on a separate, unreachable landmass.
-- **Hypothesis:** The solution must involve manipulating the boulders in the western, accessible area. Specifically, the boulder at (6, 16) seems key.
+- **Hypothesis:** The solution must involve solving the western boulder puzzle first to gain access to the eastern section.
 - **Immediate Plan:** 
-    1. Navigate to (6, 17).
-    2. Attempt to push the boulder at (6, 16) north.
-    3. Observe the outcome and form a new hypothesis if it fails.
+    1. Ascend the steps at (6, 14) to the western elevated platform.
+    2. Solve the boulder puzzle there.
 
-# IV. Tool Development Ideas
+# IV. Tool Development & Testing Ideas
 - **Boulder Puzzle Assistant:** A tool that, instead of solving the whole puzzle, analyzes the current state and suggests all possible valid moves for each boulder on the map. This would help in manual solving without the risk of a complex solver timing out or getting stuck.
+- **Hypothesis to Test:** The `cleared_boulder_barrier` tile acts as a one-way ramp. Test by attempting to move DOWN from an `elevated_ground` tile onto a `cleared_boulder_barrier` tile. If blocked, this confirms the one-way nature.
 
 ## D. System Interaction Notes
 - **Validation Check Discrepancy:** The system's validation for reachable warps appears to ignore movable obstacles like boulders. This can create a false positive, indicating a path is clear when it is actually blocked. My own tools (`landmass_analyzer`, `generate_path_plan`) provide a more accurate ground truth in these situations.
