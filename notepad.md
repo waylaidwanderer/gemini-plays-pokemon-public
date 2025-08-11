@@ -61,7 +61,7 @@
 - **Immediate Plan:** I am on Victory Road 1F. My immediate goal is to solve the boulder puzzles to clear a path to the ladder at (2, 2).
 
 # V. Identified Development Needs
-- **Agent Opportunity:** `puzzle_strategist_agent`. Input: `boulder_puzzle_assistant` output, current map state, goal coordinates. Action: Devises a step-by-step sequence of boulder pushes to achieve the goal. This would automate the complex reasoning I'm currently doing manually.
+
 - **Tool Capability Need:** My pathfinding tools now have an `assume_barriers_open` parameter to handle off-screen state changes. This was a critical fix identified during self-assessment.
 
 # VI. Methodological Corrections & Lessons Learned
