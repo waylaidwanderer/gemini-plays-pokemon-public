@@ -47,5 +47,5 @@
 - **boulder_switch:** A floor switch that opens a 'boulder_barrier' when a boulder is pushed onto it. Walkable.
 ## B. Boulder Pushing
 - Boulders CANNOT be pushed onto 'steps' tiles. This is an illegal move.
-- **Pushing Mechanic (Corrected & Refined):** The player's movement after pushing a boulder depends on the direction. **Vertical Pushes (Up/Down):** The player automatically moves into the boulder's previous space. **Horizontal Pushes (Left/Right):** The player does NOT move and must be manually repositioned to an adjacent tile to perform another push.
+- **Pushing Mechanic (Corrected & Refined):** The player's movement after pushing a boulder depends on the direction. **Vertical Pushes (Up/Down):** The player automatically moves into the boulder's previous space. **Horizontal Pushes (Left/Right):** The player automatically moves into the boulder's previous space, just like with vertical pushes.
 - **NPC Behavior Generalization (Cognitive Bias):** I incorrectly assumed all guards on Route 23 would disappear after being shown a badge, based on the behavior of the first guard. This led to being repeatedly blocked. Lesson: NPC behavior is not uniform. I must test each unique NPC interaction instead of generalizing from a single instance.
