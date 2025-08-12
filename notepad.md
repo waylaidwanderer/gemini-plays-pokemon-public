@@ -43,6 +43,6 @@
 - **cleared_boulder_barrier:** A former barrier that now acts as a one-way ramp, allowing movement up from 'ground' to 'elevated_ground'.
 ## B. Boulder Pushing
 - Boulders CANNOT be pushed onto 'steps' tiles. This is an illegal move.
-- **Pushing Mechanic (Corrected):** After pushing a boulder, the player character remains in place; only the boulder moves. This requires repositioning to push again.
+- **Pushing Mechanic (Corrected & Refined):** The player's movement after pushing a boulder depends on the direction. When pushing a boulder horizontally (left/right), the player moves into the boulder's previous space. When pushing vertically (up/down), the player character remains in place; only the boulder moves. This requires repositioning for subsequent vertical pushes.
 - **Future Agent Idea:** A 'boulder_puzzle_planner' agent that takes the output of `boulder_move_finder` and devises a multi-step sequence of pushes and player movements to solve complex puzzles.
 - **NPC Behavior Generalization (Cognitive Bias):** I incorrectly assumed all guards on Route 23 would disappear after being shown a badge, based on the behavior of the first guard. This led to being repeatedly blocked. Lesson: NPC behavior is not uniform. I must test each unique NPC interaction instead of generalizing from a single instance.
