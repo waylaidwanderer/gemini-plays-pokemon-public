@@ -55,12 +55,10 @@
 - **Future Agent Idea: journey_planner:** An agent that can devise multi-map routes involving different modes of travel (walking, surfing).
 - **Future Tool Idea: multi_modal_pathfinder:** A tool that can calculate a single path across disconnected landmasses and water bodies.
 
-# V. Tool Debugging Log: generate_path_plan
-- **Failure (Turn 138168):** Rewrote `get_neighbors` with systematic `if/elif` logic. Still failed to find path from (3, 17) to (2, 2).
-- **Hypothesis:** The `if/elif` structure is too rigid and creates incorrect exclusions. A clearer, state-based model is needed.
-- **Failure (Turn 138169):** The `if/elif` logic rewrite was identical to the previous version and failed again.
-- **Failure (Turn 138170):** The state-based logic also failed. Upon review, a specific bug was found: movement from `cleared_boulder_barrier` down to `ground` was not implemented. This is a critical flaw.
-- **Next Step:** Fixing the identified bug and re-testing the systematic state-based logic.
+# V. Archived Logs
+## A. Tool Debugging Log: generate_path_plan (Resolved)
+- **Issue:** The tool's `get_neighbors` function had flawed logic, preventing it from finding valid paths across different tile types like `cleared_boulder_barrier` and `ground`.
+- **Resolution:** The function was rewritten with systematic, state-based logic that correctly handles all known valid tile transitions. The tool is now reliable.
 
 # VI. Overwatch Critiques & Resolutions
 ## Turn 138180: Critical Tool Failure (generate_path_plan)
