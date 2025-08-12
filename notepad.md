@@ -2,10 +2,12 @@
 ## A. Traversal & Tile Mechanics
 - `ground` / `grass`: Standard walkable tiles.
 - `impassable` / `unknown`: Cannot be entered.
+- `cuttable`: A tree that can be cut with HM Cut. Becomes `ground` after cutting.
 - `ledge`: A one-way drop. Can be jumped down from an adjacent higher tile, but not climbed up.
 - `steps`: Allows vertical movement between `ground` and `elevated_ground`.
 - `elevated_ground`: Walkable ground at a different elevation. Movement to/from `ground` is ONLY possible via `steps` tiles or by a one-way drop from `elevated_ground` down to `ground`.
 - `ladder_up` / `ladder_down` / `warp`: Warps between maps or floors.
+- `water`: Requires Surf to traverse.
 
 ## B. Puzzle Mechanics
 - **Boulder Pushing (Verified as of Turn 136490):**
@@ -43,16 +45,15 @@
 - **"No Will to Fight" Message:** A party menu cursor error on a fainted Pokémon, not a refusal to battle.
 - **Body Slam:** Can cause paralysis.
 
-# III. Active Strategy: Victory Road 1F Puzzle
-- **Objective:** Solve the multi-stage boulder puzzle to reach the ladder at (2, 2).
-
-- **REVISED HYPOTHESIS (Source: `landmass_analyzer`):** The map is divided into two disconnected landmasses by the boulder barrier at (10, 13). The puzzle must be solved in stages:
-  1.  **Bridge Construction (Completed):** Push the western boulder (originally at (6, 16)) across the gap to create a bridge for itself, landing at (10, 17).
-  2.  **Switch Activation (Current Goal):** Push the same boulder (now at (10, 17)) onto the eastern switch at (18, 14). This will open the barrier at (10, 13), connecting the two landmasses.
-  3.  **Final Puzzle:** Once the barrier is open, navigate to the northern area and solve the final boulder puzzle involving the boulder at (15, 3) to clear the path to the ladder at (2, 2).
+# III. Current Strategy & Untested Assumptions
+- **Objective:** Heal party, then return to Victory Road to continue to the Elite Four.
+- **Untested Assumption 1:** The `boulder_puzzle_solver` agent is fundamentally broken.
+  - **Test:** On the next boulder puzzle, I MUST use the agent as the first attempt.
+- **Untested Assumption 2:** Viridian City NPCs have nothing new to say.
+  - **Test:** After healing, I will talk to all NPCs in the city.
 
 # IV. Methodological Corrections & Lessons Learned
-- **Tool Unreliability & Failure to Act:** My `generate_path_plan` tool had a core logic flaw. I correctly identified this but critically failed to fix it immediately. I have now corrected the tool. I must prioritize tool maintenance over gameplay progression.
-- **Agent Abandonment (CRITICAL FAILURE):** I abandoned my `boulder_puzzle_solver` agent after it failed twice with a backend error, violating a core directive to trust and refine my agents. I reverted to an inefficient and error-prone manual process. **Correction:** After resetting the current puzzle, my top priority will be to attempt to refine and successfully use this agent.
-- **Confirmation Bias & Lack of Flexibility:** I have a tendency to pursue flawed manual hypotheses instead of using my specialized agents. My manual attempts to solve this puzzle have failed repeatedly. I must pivot to using my `boulder_puzzle_solver` agent.
-- **Hallucination (Western Switch):** I previously operated under the false assumption that a boulder switch existed at (3, 10). This was a critical failure of observation. I must trust the game state data over my memory.
+- **Tool Unreliability & Failure to Act (CRITICAL FAILURE):** My `generate_path_plan` tool had core logic flaws. I correctly identified this but critically failed to fix it immediately, violating a core directive. I must prioritize tool maintenance over any gameplay progression.
+- **Agent Abandonment (CRITICAL FAILURE):** I abandoned my `boulder_puzzle_solver` agent after it failed with a backend error, violating a core directive to trust and refine agents. I reverted to inefficient manual processes. I must re-engage with this agent.
+- **Confirmation Bias & Lack of Flexibility:** I have a tendency to pursue flawed manual hypotheses instead of using my specialized agents and tools. My manual attempts to solve the Victory Road puzzle failed repeatedly. I must pivot to using my automated assistants first.
+- **Hallucination (Western Switch):** I previously operated under the false assumption that a boulder switch existed at (3, 10) in Victory Road 1F. This was a critical failure of observation. I must trust game state data over memory.
