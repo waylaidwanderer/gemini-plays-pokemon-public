@@ -13,16 +13,13 @@
   - Ground immune to Electric
   - Flying immune to Ground
 
-# III. Current Strategy & Hypothesis Testing (Victory Road 1F)
-- **Objective:** Navigate Victory Road 1F to reach the ladder at (2, 2).
-- **Current Hypothesis:** The solution requires pushing the eastern boulder at (15, 3) onto the switch at (18, 14). This will likely open the barrier at (10, 13) and connect the map sections.
-  - **Plan:**
-    1. First, clear a path by moving the southern boulder at (6, 16).
-    2. Navigate to the steps at (16, 8) to access the eastern elevated platform.
-    3. Get into position to push the boulder at (15, 3).
-    4. Push the boulder to the switch at (18, 14).
-    5. Descend from the platform and proceed to the ladder at (2, 2).
-- **Southern Boulder Trap (Attempt 2):** Pushed boulder at (6, 16) to (6, 15), trapping it against 'steps' and impassable tiles. This confirms pushing it north is not the solution. Must reset.
+# III. Elite Four Preparation
+- **Objective:** Assemble the optimal team of 6 Pokémon to challenge the Elite Four.
+- **Methodology:**
+  1. Systematically collate data for all current party members and top PC candidates using the `data_collation_agent`.
+  2. Feed the collated data into the `team_composition_advisor` agent to receive a strategic recommendation.
+  3. Reorganize party based on the agent's advice, retrieving necessary Pokémon from the PC.
+  4. Final check of movesets and levels before proceeding to the Indigo Plateau.
 
 # IV. Methodological Corrections & Ideas
 - **Tool Unreliability & Failure to Act (CRITICAL FAILURE):** My `generate_path_plan` tool had core logic flaws. I correctly identified this but critically failed to fix it immediately, violating a core directive. I must prioritize tool maintenance over any gameplay progression in the future.
