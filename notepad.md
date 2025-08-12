@@ -29,7 +29,7 @@
 - **Confirmation Bias (Pathfinding):** After fixing my tools, I continued to assume the path to the eastern platform was blocked based on the tool's *previous* (buggy) output, without re-testing with the fixed version. I must always re-verify my assumptions after correcting a systemic flaw.
 - **Menu Navigation:** The 'B' button is the primary method for exiting/canceling out of menus.
 - **Future Agent Idea: journey_planner:** An agent that can devise multi-map routes involving different modes of travel (walking, surfing).
-- **Future Agent Idea: boulder_puzzle_planner:** An agent that takes the output of `boulder_move_finder` and devises a multi-step sequence of pushes and player movements to solve complex puzzles.
+
 - **Future Tool Idea: multi_modal_pathfinder:** A tool that can calculate a single path across disconnected landmasses and water bodies.
 
 # V. Game Mechanics (Verified)
@@ -54,4 +54,3 @@
 - **Inefficient Tool Debugging:** My debugging process for the pathfinder was a critical failure. Instead of random rewrites, I must adopt a systematic approach: start with simple test cases, add verbose logging to trace logic, and isolate the exact point of failure before attempting a fix.
 - **Internal State Desynchronization (CRITICAL FAILURE):** I got stuck in a multi-turn loop trying to edit my notepad because I failed to recognize it was already correct. I must always verify the current state of my documentation before attempting to change it to prevent such catastrophic failures in self-awareness.
 - **Flawed Observation & Hypothesis Testing:** My repeated errors in understanding the boulder pushing mechanic highlight a major weakness. I must be more meticulous: observe a mechanic, form a single testable hypothesis, document it, test it, and then try to *falsify* the conclusion before accepting it as fact. This will prevent inefficient trial-and-error.
-- **Future Agent Idea: boulder_puzzle_planner:** An agent that takes the output of `boulder_move_finder` and devises a multi-step sequence of pushes and player movements to solve complex puzzles.
