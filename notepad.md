@@ -45,10 +45,14 @@
 - **"No Will to Fight" Message:** A party menu cursor error on a fainted Pokémon, not a refusal to battle.
 - **Body Slam:** Can cause paralysis.
 
-# III. Active Strategy: Road to the Indigo Plateau
-- **Current Objective:** Navigate through Victory Road to reach the Indigo Plateau.
-- **Immediate Hurdle:** The boulder puzzle on Victory Road 1F.
-- **Current Hypothesis:** My navigation tools are unreliable on this map. The system insists a path to the ladder at (2, 2) exists, but all analysis suggests the eastern puzzle (which opens the central barrier) is unsolvable from this floor. This implies a traversal mechanic or path has been missed. The most likely path is via the western elevated platform.
+# III. Active Strategy: Victory Road 1F Puzzle
+- **Objective:** Solve the multi-stage boulder puzzle to reach the ladder at (2, 2).
+
+- **Current Comprehensive Hypothesis (Attempt #1):** The puzzle requires a specific sequence of actions connecting all three boulders and both switches.
+  - **Step 1 (West Puzzle):** Push the boulder at (3, 11) UP to the switch at (3, 10). This should open access to the western elevated platform.
+  - **Step 2 (Connect Landmasses):** From the western platform, push the boulder at (6, 16) SOUTH, then EAST to (10, 17). This should connect the western and eastern ground-level areas.
+  - **Step 3 (East Puzzle):** Navigate to the eastern area and push the boulder at (15, 3) onto the switch at (18, 14). This should open the central barrier at (10, 13).
+  - **Step 4 (Final Path):** With the central barrier open, navigate to the ladder at (2, 2).
 
 # IV. Methodological Corrections & Lessons Learned
 - **Tool Unreliability & Redundancy:** My navigation tools have a core logic flaw in their `get_neighbors` function, which is also inefficiently duplicated. I must consolidate this into a single, correct function in the future. For now, they are unreliable on this map.
