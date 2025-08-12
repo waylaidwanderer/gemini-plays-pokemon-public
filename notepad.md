@@ -46,9 +46,12 @@
 - **Body Slam:** Can cause paralysis.
 
 # III. Active Strategy: Victory Road 1F Puzzle
-- **Objective:** Solve the boulder puzzle to reach the ladder at (2, 2).
+- **Objective:** Solve the multi-stage boulder puzzle to reach the ladder at (2, 2).
 
-- **CORRECTED HYPOTHESIS:** My previous strategy was based on a complete hallucination of a boulder switch existing at (3, 10). The game data confirms there is ONLY ONE switch on this floor, at (18, 14). Therefore, the western boulder puzzle is a red herring. The entire solution must revolve around getting a boulder onto the eastern switch. The correct sequence is unknown, but the immediate goal is to access the eastern part of the map.
+- **REVISED HYPOTHESIS (Source: `landmass_analyzer`):** The map is divided into two disconnected landmasses by the boulder barrier at (10, 13). The puzzle must be solved in stages:
+  1.  **Bridge Construction (Completed):** Push the western boulder (originally at (6, 16)) across the gap to create a bridge at (10, 17). This was not a bridge for me, but for the boulder itself.
+  2.  **Switch Activation (Current Goal):** Push the same boulder (now at (10, 17)) onto the eastern switch at (18, 14). This will open the barrier at (10, 13), connecting the two landmasses.
+  3.  **Final Puzzle:** Once the barrier is open, navigate to the northern area and solve the final boulder puzzle involving the boulder at (15, 3) to clear the path to the ladder at (2, 2).
 
 # IV. Methodological Corrections & Lessons Learned
 - **Tool Unreliability & Failure to Act:** My `generate_path_plan` tool had a core logic flaw. I correctly identified this but critically failed to fix it immediately, violating a core directive. I have now corrected the tool. I must prioritize tool maintenance over gameplay progression.
