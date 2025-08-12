@@ -45,6 +45,6 @@
 - **boulder_barrier:** An impassable barrier that is cleared by a boulder switch.
 ## B. Boulder Pushing
 - Boulders CANNOT be pushed onto 'steps' tiles. This is an illegal move.
-- **Pushing Mechanic (Corrected & Refined):** The player's movement after pushing a boulder depends on the direction. The player's movement after pushing a boulder depends on the direction. **Vertical Pushes (Up/Down):** The player automatically moves into the boulder's previous space. **Horizontal Pushes (Left/Right):** The player does NOT move and must be manually repositioned to an adjacent tile to perform another push.
+- **Pushing Mechanic (Corrected & Refined):** The player's movement after pushing a boulder depends on the direction. **Vertical Pushes (Up/Down):** The player automatically moves into the boulder's previous space. **Horizontal Pushes (Left/Right):** The player does NOT move and must be manually repositioned to an adjacent tile to perform another push.
 - **Future Agent Idea:** A 'boulder_puzzle_planner' agent that takes the output of `boulder_move_finder` and devises a multi-step sequence of pushes and player movements to solve complex puzzles.
 - **NPC Behavior Generalization (Cognitive Bias):** I incorrectly assumed all guards on Route 23 would disappear after being shown a badge, based on the behavior of the first guard. This led to being repeatedly blocked. Lesson: NPC behavior is not uniform. I must test each unique NPC interaction instead of generalizing from a single instance.
