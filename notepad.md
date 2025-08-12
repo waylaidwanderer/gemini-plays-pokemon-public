@@ -13,10 +13,6 @@
   - Ground immune to Electric
   - Flying immune to Ground
 
-## B. Strategic Notes
-- **"No Will to Fight" Message:** A party menu cursor error on a fainted Pokémon, not a refusal to battle.
-- **Body Slam:** Can cause paralysis.
-
 # III. Current Strategy & Untested Assumptions
 - **Objective:** Navigate Victory Road 1F to reach the ladder at (2, 2).
 - **Hypothesis 1:** The eastern boulder puzzle (pushing the boulder at (6, 16)) is the correct first step.
