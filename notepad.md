@@ -74,4 +74,11 @@
 - **Reset 2:** Reset puzzle.
 - **Attempt 3 (Failed):** Pushed the boulder to (2, 15). Attempted to push it down, but the required player position (2, 14) is impassable, trapping the boulder. This is a repeat of the same fundamental error.
 - **Reset 3:** Resetting the puzzle again.
-- **Attempt 4 (Current):** A new, much more meticulous strategy is required. I must use my tools to devise a complete, multi-step plan *before* the first push and validate every single step against the map data.
+
+## NEW PLAN (from `boulder_path_planner`)
+- **Goal:** Move boulder from (3, 15) to switch at (2, 17).
+- **Step 1:** Player moves to (2, 15), then pushes boulder at (3, 15) Right to (4, 15).
+- **Step 2:** Player moves to (4, 14), then pushes boulder at (4, 15) Down to (4, 16).
+- **Step 3:** Player moves to (4, 15), then pushes boulder at (4, 16) Down to (4, 17).
+- **Step 4:** Player moves to (5, 17), then pushes boulder at (4, 17) Left to (3, 17).
+- **Step 5:** Player moves to (4, 17), then pushes boulder at (3, 17) Left to (2, 17). **[COMPLETE]**
