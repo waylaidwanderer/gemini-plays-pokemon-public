@@ -48,11 +48,11 @@
 # III. Active Strategy: Victory Road 1F Puzzle
 - **Objective:** Solve the multi-stage boulder puzzle to reach the ladder at (2, 2).
 
-- **Current Comprehensive Hypothesis (Attempt #1):** The puzzle requires a specific sequence of actions connecting all three boulders and both switches.
-  - **Step 1 (West Puzzle):** Push the boulder at (3, 11) UP to the switch at (3, 10). This should open access to the western elevated platform.
-  - **Step 2 (Connect Landmasses):** From the western platform, push the boulder at (6, 16) SOUTH, then EAST to (10, 17). This should connect the western and eastern ground-level areas.
-  - **Step 3 (East Puzzle):** Navigate to the eastern area and push the boulder at (15, 3) onto the switch at (18, 14). This should open the central barrier at (10, 13).
-  - **Step 4 (Final Path):** With the central barrier open, navigate to the ladder at (2, 2).
+- **Current Comprehensive Hypothesis (Attempt #2 - Revised Sequence):** The puzzle requires a specific sequence. My previous attempt failed because creating the bridge (Step 3) before opening the central barrier (Step 2) trapped me.
+  - **Step 1 (West Puzzle):** Push the boulder at (3, 11) onto the switch at (3, 10).
+  - **Step 2 (East Puzzle):** Navigate to the eastern area via the elevated platforms. Push the boulder at (15, 3) onto the switch at (18, 14). This should open the central barrier at (10, 13).
+  - **Step 3 (Connect Landmasses):** With the central barrier open, navigate back to the middle boulder at (6, 16) and push it to (10, 17) to create the bridge.
+  - **Step 4 (Final Path):** With all puzzles solved and paths connected, navigate to the ladder at (2, 2).
 
 # IV. Methodological Corrections & Lessons Learned
 - **Tool Unreliability & Failure to Act:** My `generate_path_plan` tool had a core logic flaw. I correctly identified this but critically failed to fix it immediately, violating a core directive. I have now corrected the tool. I must prioritize tool maintenance over gameplay progression.
