@@ -8,7 +8,8 @@
 - **steps:** Allows movement between 'ground' and 'elevated_ground'.
 - **ladder_up / ladder_down:** Acts as a warp between floors.
 - **ledge:** A one-way drop. Can be jumped down from an adjacent tile above, landing on the tile two spaces below the starting point.
-- **cleared_boulder_barrier:** A former barrier that now acts as a one-way ramp, allowing movement up from 'ground' to 'elevated_ground'.
+- **cleared_boulder_barrier:** A former barrier that now acts as a one-way ramp, allowing movement *up* from 'ground' to 'elevated_ground', but not down.
+- **hole:** A tile that drops a pushed boulder to the floor below.
 - **boulder_barrier:** An impassable barrier that can be cleared by a `boulder_switch`.
 - **boulder_switch:** A floor switch that opens a `boulder_barrier` when a boulder is pushed onto it.
 
