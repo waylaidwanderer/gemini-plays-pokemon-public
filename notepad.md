@@ -75,3 +75,4 @@
 - **Attempt 3 (Failed):** Pushed the boulder to (2, 15). Attempted to push it down, but the required player position (2, 14) is impassable, trapping the boulder. This is a repeat of the same fundamental error.
 - **Reset 3:** Resetting the puzzle again.
 - **Attempt 4 (Current):** A new, much more meticulous strategy is required. I must use my tools to devise a complete, multi-step plan *before* the first push and validate every single step against the map data.
+- **Attempt 4 (Current):** A new, much more meticulous strategy is required. I must use my tools to devise a complete, multi-step plan *before* the first push and validate every single step against the map data.
