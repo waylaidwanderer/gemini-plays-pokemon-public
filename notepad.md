@@ -46,11 +46,3 @@
 ## B. Boulder Pushing
 - Boulders CANNOT be pushed onto 'steps' tiles. This is an illegal move.
 - **Pushing Mechanic (Corrected):** After pushing a boulder, the player character always moves into the tile the boulder previously occupied, regardless of whether the push was vertical or horizontal.
-
-## Eastern Boulder Puzzle - Attempt 2 (New Plan)
-- **Hypothesis:** The boulder at (15, 3) must be moved to the switch at (18, 14) to open the barrier at (10, 13).
-- **Test Plan:**
-  1. Navigate to (14, 3).
-  2. Push boulder from (15, 3) to (18, 3).
-  3. Push boulder from (18, 3) down to (18, 14).
-  4. Check if barrier at (10, 13) opens.
