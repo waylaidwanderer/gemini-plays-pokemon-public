@@ -46,4 +46,3 @@
 # VII. Methodological Corrections & Ideas (Additions)
 - **Agent Idea: Navigation Diagnostician:** An agent that takes a failed pathfinding result and the map XML to reason about why the path failed (e.g., blocked by boulder, disconnected landmass).
 - **Southern Boulder Trap (Attempt 2):** Pushed boulder at (6, 16) to (6, 15), trapping it against 'steps' and impassable tiles. This confirms pushing it north is not the solution. Must reset.
-- **Southern Boulder Trap (Attempt 2):** Pushed boulder at (6, 16) to (6, 15), trapping it against 'steps' and impassable tiles. This confirms pushing it north is not the solution. Must reset.
