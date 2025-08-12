@@ -2,16 +2,15 @@
 ## A. Type Effectiveness Chart (Verified)
 - **Super Effective (2x damage):**
   - Water > Rock, Ground, Fire
-  - Ground > Fire, Electric, Rock
-
-## B. Pending Verification
-- Ground > Ground (Super Effective?)
+  - Ground > Fire, Electric, Rock, Ground
   - Ice > Ground, Grass, Flying, Dragon
   - Flying > Fighting, Grass, Bug
   - Fighting > Normal, Rock, Ice
   - Electric > Water, Flying
+
 - **Not Very Effective (0.5x damage):**
   - Normal !> Rock
+
 - **Immune (0x damage):**
   - Ground immune to Electric
   - Flying immune to Ground
@@ -29,7 +28,6 @@
 - **Agent Abandonment (CRITICAL FAILURE):** I abandoned my `boulder_puzzle_assistant` agent after it failed, violating a core directive to trust and refine agents. I reverted to inefficient manual processes. I have since redefined it and must test it when a complex puzzle arises.
 - **Confirmation Bias (Pathfinding):** After fixing my tools, I continued to assume the path to the eastern platform was blocked based on the tool's *previous* (buggy) output, without re-testing with the fixed version. I must always re-verify my assumptions after correcting a systemic flaw.
 - **Menu Navigation:** The 'B' button is the primary method for exiting/canceling out of menus.
-- **Overwatch Critique (Consolidated):** My tool debugging process has been flawed. I spent too much time on incorrect hypotheses instead of gathering direct observational data. When tools fail repeatedly, I should prioritize a manual walkthrough to understand the mechanics before attempting code fixes. Resetting the puzzle is a valid strategy if stuck.
 - **Future Agent Idea:** A 'journey_planner' agent that can devise multi-map routes involving different modes of travel (walking, surfing).
 - **Future Tool Idea:** A 'multi_modal_pathfinder' tool that can calculate a single path across disconnected landmasses and water bodies.
 
@@ -39,11 +37,12 @@
 - **grass:** Tall grass where wild Pokémon appear. Walkable.
 - **water:** Requires Surf to traverse. Cannot be walked on.
 - **impassable:** Cannot be walked on.
-- **elevated_ground:** Walkable, but at a different elevation. Can only be accessed via 'steps'.
+- **elevated_ground:** Walkable, but at a different elevation. Can only be accessed via 'steps' or by dropping down from above.
 - **steps:** Allows movement between 'ground' and 'elevated_ground'.
 - **ladder_up / ladder_down:** Acts as a warp between floors.
 - **ledge:** A one-way drop. Can be jumped down from an adjacent tile above, landing on the tile two spaces below the starting point.
 - **cleared_boulder_barrier:** A former barrier that now acts as a one-way ramp, allowing movement up from 'ground' to 'elevated_ground'.
+- **boulder_barrier:** An impassable barrier that is cleared by a boulder switch.
 ## B. Boulder Pushing
 - Boulders CANNOT be pushed onto 'steps' tiles. This is an illegal move.
 - **Pushing Mechanic (Corrected & Refined):** The player's movement after pushing a boulder depends on the direction. When pushing a boulder horizontally (left/right), the player moves into the boulder's previous space. When pushing vertically (up/down), the player character remains in place; only the boulder moves. This requires repositioning for subsequent vertical pushes.
