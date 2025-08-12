@@ -10,7 +10,7 @@
 ## B. Puzzle Mechanics
 - **Boulder Pushing:**
   - **Vertical Push:** Pushing a boulder vertically (Up/Down) moves the boulder but does NOT move the player.
-  - **Horizontal Push:** Pushing a boulder horizontally (Left/Right), whether adjacent or from one tile away, moves the boulder but does NOT move the player.
+  - **Horizontal Push:** Pushing a boulder horizontally (Left/Right) moves the boulder one tile and also moves the player into the boulder's now-vacant previous space.
 - **Remote Push:** It is possible to push a boulder when standing one tile away from it. The player's position does not change.
 - **Boulder/Item Interaction:** Pushing a boulder onto an item collects the item and moves the boulder into that space.
 - **Reset Condition:** Boulder puzzles do NOT fully reset upon leaving and re-entering Victory Road 1F. Some boulder positions appear to be persistent.
