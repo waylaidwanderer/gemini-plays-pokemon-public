@@ -29,7 +29,6 @@
 - **Agent Abandonment (CRITICAL FAILURE):** I abandoned my `boulder_puzzle_solver` agent after it failed, violating a core directive to trust and refine agents. I reverted to inefficient manual processes. I have since redefined it and must test it again when a complex puzzle arises.
 - **Confirmation Bias (Pathfinding):** After fixing my tools, I continued to assume the path to the eastern platform was blocked based on the tool's *previous* (buggy) output, without re-testing with the fixed version. I must always re-verify my assumptions after correcting a systemic flaw.
 - **Menu Navigation:** The 'B' button is the primary method for exiting/canceling out of menus.
-- **Agent Idea: Navigation Diagnostician:** An agent that takes a failed pathfinding result and the map XML to reason about why the path failed (e.g., blocked by boulder, disconnected landmass).
 
 # V. Game Mechanics (Verified)
 ## A. Tile Traversal Rules
