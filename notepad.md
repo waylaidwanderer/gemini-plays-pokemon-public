@@ -18,15 +18,23 @@
 - **Hypothesis 1:** The eastern boulder puzzle (pushing the boulder at (6, 16)) is the correct first step.
   - **Test:** Solve the eastern puzzle and observe if it opens the path to the ladder.
 - **Untested Assumption 1:** The `boulder_puzzle_solver` agent is failing due to a backend error, not a flawed prompt.
-  - **Test:** Attempted to use the agent three times (Turns 136902-136904). All attempts failed with a backend error.
-  - **Conclusion:** The agent is currently unusable. Reverting to manual puzzle solving.
+  - **Test:** Attempted to use the agent three times (Turns 136902-136904). All attempts failed with a backend error. I will attempt to redefine the agent to test this further.
 
 # IV. Methodological Corrections & Ideas
 - **Tool Unreliability & Failure to Act (CRITICAL FAILURE):** My `generate_path_plan` tool had core logic flaws, specifically failing to path around NPCs. I correctly identified this but critically failed to fix it immediately, violating a core directive. I have now fixed this logic (Turn 136741), but must prioritize tool maintenance over any gameplay progression in the future.
-- **Agent Abandonment (CRITICAL FAILURE):** I abandoned my `boulder_puzzle_solver` agent after it failed with a backend error, violating a core directive to trust and refine agents. I reverted to inefficient manual processes. While the refinement attempt also failed, I must remain open to re-testing the agent later.
+- **Agent Abandonment (CRITICAL FAILURE):** I abandoned my `boulder_puzzle_solver` agent after it failed with a backend error, violating a core directive to trust and refine agents. I reverted to inefficient manual processes. I must attempt to refine/redefine the agent immediately.
 - **Confirmation Bias (Western Boulder):** My repeated attempts to push the western boulder at (3, 11) upwards, even after it failed, was an instance of confirmation bias. I must be more willing to abandon a failed hypothesis and try a new one.
 - **Menu Navigation:** The 'B' button is the primary method for exiting/canceling out of menus. Repeatedly trying to use 'A' on a 'LOG OFF' or 'EXIT' option can lead to a loop.
 - **New Agent Idea:** Create a `route_planner_agent` to handle complex, multi-stage navigation (e.g., walk -> surf -> walk) by breaking it down into segments and calling the `generate_path_plan` tool for each.
 
 # V. Game Mechanics (Verified)
-- **Boulder Pushing:** Boulders CANNOT be pushed onto 'steps' tiles. This is an illegal move.
+## A. Tile Traversal Rules
+- **ground:** Standard walkable tile.
+- **impassable:** Cannot be walked on.
+- **elevated_ground:** Walkable, but at a different elevation. Can only be accessed via 'steps'.
+- **steps:** Allows movement between 'ground' and 'elevated_ground'.
+- **ladder_up / ladder_down:** Acts as a warp between floors.
+- **boulder_barrier:** An impassable wall that becomes 'cleared_boulder_barrier' when a corresponding switch is activated.
+- **boulder_switch:** A floor switch that must be covered by a boulder to activate something.
+## B. Boulder Pushing
+- Boulders CANNOT be pushed onto 'steps' tiles. This is an illegal move.
