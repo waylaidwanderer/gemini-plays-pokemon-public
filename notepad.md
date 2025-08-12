@@ -46,11 +46,11 @@
 - **Body Slam:** Can cause paralysis.
 
 # III. Current Strategy & Untested Assumptions
-- **Objective:** Heal party, then return to Victory Road to continue to the Elite Four.
+- **Objective:** Return to Victory Road to continue to the Elite Four.
 - **Untested Assumption 1:** The `boulder_puzzle_solver` agent is fundamentally broken.
   - **Test:** On the next boulder puzzle, I MUST use the agent as the first attempt.
-- **Untested Assumption 2:** Viridian City NPCs have nothing new to say.
-  - **Test:** After healing, I will talk to all NPCs in the city.
+- **Untested Assumption 2:** The guards on Route 23 will let me pass now that I have all 8 badges.
+  - **Test:** Interact with the first guard blocking the path.
 
 # IV. Methodological Corrections & Lessons Learned
 - **Tool Unreliability & Failure to Act (CRITICAL FAILURE):** My `generate_path_plan` tool had core logic flaws. I correctly identified this but critically failed to fix it immediately, violating a core directive. I must prioritize tool maintenance over any gameplay progression.
