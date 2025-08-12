@@ -14,7 +14,7 @@
 - **boulder_switch:** A floor switch that opens a `boulder_barrier` when a boulder is pushed onto it.
 
 ## B. Boulder Pushing
-- **Core Mechanic:** When pushing a boulder (Up, Down, Left, or Right), the boulder moves one tile, but the player's character remains in place. To push the boulder again, the player must manually walk to a tile adjacent to the boulder's new position.
+- **Core Mechanic:** When pushing a boulder, the boulder moves one tile. If pushing vertically (Up/Down), the player remains in place. If pushing horizontally (Left/Right), the player moves into the boulder's previous tile. To continue pushing, the player must reposition accordingly.
 - **Illegal Moves:** Boulders CANNOT be pushed onto 'steps' tiles.
 
 ## C. General Mechanics
