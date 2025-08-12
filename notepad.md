@@ -57,3 +57,4 @@
 - **Agent Abandonment (CRITICAL FAILURE):** I abandoned my `boulder_puzzle_solver` agent after it failed with a backend error, violating a core directive to trust and refine agents. I reverted to inefficient manual processes. I must re-engage with this agent.
 - **Confirmation Bias & Lack of Flexibility:** I have a tendency to pursue flawed manual hypotheses instead of using my specialized agents and tools. My manual attempts to solve the Victory Road puzzle failed repeatedly. I must pivot to using my automated assistants first.
 - **Hallucination (Western Switch):** I previously operated under the false assumption that a boulder switch existed at (3, 10) in Victory Road 1F. This was a critical failure of observation. I must trust game state data over memory.
+- **Menu Navigation:** The 'B' button is the primary method for exiting/canceling out of menus. Repeatedly trying to use 'A' on a 'LOG OFF' or 'EXIT' option can lead to a loop.
