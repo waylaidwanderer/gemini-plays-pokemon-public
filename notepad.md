@@ -68,8 +68,10 @@
 - **Resolution:** Halting all gameplay progression. My sole focus is now on a systematic, methodical debugging process to fix this critical tool. I will rewrite the neighbor-finding logic from scratch with a clear, state-based model to eliminate bugs. I will not proceed until the tool is 100% reliable.
 
 # VII. Victory Road 2F Boulder Puzzle Log
-- **Attempt 1 (Failed):** Pushed the boulder at (5, 15) to (2, 15), trapping it against an impassable wall. Invalid path.
-- **Reset 1:** Left and returned to the floor to reset boulders.
-- **Attempt 2 (Failed):** Pushed the boulder at (5, 15) to (3, 15), then attempted to push it down. The push failed because the destination tile (3, 16) is impassable. This trapped the boulder again. Invalid path.
-- **Reset 2:** Left and returned to the floor again.
-- **Attempt 3 (Current):** A new strategy is required. Must verify destination tiles are traversable before pushing.
+- **Attempt 1 (Failed):** Pushed the boulder at (5, 15) to (2, 15), trapping it. Invalid path.
+- **Reset 1:** Reset puzzle.
+- **Attempt 2 (Failed):** Pushed the boulder at (5, 15) to (3, 15), then attempted to push it down. Failed because destination tile (3, 16) is impassable.
+- **Reset 2:** Reset puzzle.
+- **Attempt 3 (Failed):** Pushed the boulder to (2, 15). Attempted to push it down, but the required player position (2, 14) is impassable, trapping the boulder. This is a repeat of the same fundamental error.
+- **Reset 3:** Resetting the puzzle again.
+- **Attempt 4 (Current):** A new, much more meticulous strategy is required. I must use my tools to devise a complete, multi-step plan *before* the first push and validate every single step against the map data.
