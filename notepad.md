@@ -10,11 +10,8 @@
 - `water`: Requires Surf to traverse.
 
 ## B. Puzzle Mechanics
-- **Boulder Pushing (Verified as of Turn 136490):**
-  - **Vertical Push:** Pushing a boulder vertically (Up/Down) moves the boulder but does NOT move the player.
-  - **Horizontal Push (Adjacent):** Pushing a boulder horizontally (Left/Right) while standing next to it moves the boulder one tile but does NOT move the player.
-  - **Horizontal Push (Remote):** Pushing a boulder horizontally from one tile away moves the boulder one tile AND moves the player into the boulder's now-vacant previous space.
-- **Boulder/Item Interaction:** Pushing a boulder onto an item collects the item and moves the boulder into that space.
+- **Boulder Pushing (Verified):** The exact mechanics depend on the direction and player's position relative to the boulder. The behavior is inconsistent and must be tested in each new puzzle.
+  - Pushing a boulder onto an item collects the item and moves the boulder into that space.
 - `boulder_switch`: A floor switch that must have a boulder pushed onto it.
 - `boulder_barrier`: An impassable wall. Its state (open/closed) is controlled by a corresponding `boulder_switch`. State does not update until visible on-screen.
 - `cleared_boulder_barrier`: Acts as ground. Can sometimes function as a one-way ramp up from `ground` to `elevated_ground`.
@@ -50,11 +47,12 @@
 - **Untested Assumption 1:** The `boulder_puzzle_solver` agent is fundamentally broken.
   - **Test:** On the next boulder puzzle, I MUST use the agent as the first attempt.
 - **Untested Assumption 2:** The guards on Route 23 will let me pass now that I have all 8 badges.
-  - **Test:** Interact with the first guard blocking the path.
+  - **Test:** Interact with each guard blocking the path. (First guard confirmed.)
 
-# IV. Methodological Corrections & Lessons Learned
+# IV. Methodological Corrections & Ideas
 - **Tool Unreliability & Failure to Act (CRITICAL FAILURE):** My `generate_path_plan` tool had core logic flaws. I correctly identified this but critically failed to fix it immediately, violating a core directive. I must prioritize tool maintenance over any gameplay progression.
 - **Agent Abandonment (CRITICAL FAILURE):** I abandoned my `boulder_puzzle_solver` agent after it failed with a backend error, violating a core directive to trust and refine agents. I reverted to inefficient manual processes. I must re-engage with this agent.
 - **Confirmation Bias & Lack of Flexibility:** I have a tendency to pursue flawed manual hypotheses instead of using my specialized agents and tools. My manual attempts to solve the Victory Road puzzle failed repeatedly. I must pivot to using my automated assistants first.
 - **Hallucination (Western Switch):** I previously operated under the false assumption that a boulder switch existed at (3, 10) in Victory Road 1F. This was a critical failure of observation. I must trust game state data over memory.
 - **Menu Navigation:** The 'B' button is the primary method for exiting/canceling out of menus. Repeatedly trying to use 'A' on a 'LOG OFF' or 'EXIT' option can lead to a loop.
+- **New Agent Idea:** Create a `route_planner_agent` to handle complex, multi-stage navigation (e.g., walk -> surf -> walk) by breaking it down into segments and calling the `generate_path_plan` tool for each.
