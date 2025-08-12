@@ -46,3 +46,17 @@
 ## B. Boulder Pushing
 - Boulders CANNOT be pushed onto 'steps' tiles. This is an illegal move.
 - **Pushing Mechanic (Corrected):** After pushing a boulder, the player character always moves into the tile the boulder previously occupied, regardless of whether the push was vertical or horizontal.
+
+# VI. Victory Road 1F Puzzle Log
+## Eastern Boulder Puzzle (Failed)
+- **Hypothesis 1:** Push boulder at (17, 14) right onto switch at (18, 14).
+- **Test:** Attempt to move to (16, 14) to push.
+- **Outcome:** Pathfinding to (16, 14) fails.
+- **Conclusion:** The tile at (16, 14) is impassable. This hypothesis is invalid.
+
+## Western Boulder Puzzle (New Plan)
+- **Hypothesis 2:** Pushing the boulder at (3, 10) onto the switch at (3, 11) will open the boulder barrier at (10, 13).
+- **Test Plan:**
+  1. Navigate to (3, 9).
+  2. Push boulder from (3, 10) to (3, 11).
+  3. Check if barrier at (10, 13) opens.
