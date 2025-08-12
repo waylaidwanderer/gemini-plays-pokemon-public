@@ -13,12 +13,15 @@
   - Ground immune to Electric
   - Flying immune to Ground
 
-# III. Current Strategy & Hypothesis Testing
+# III. Current Strategy & Hypothesis Testing (Victory Road 1F)
 - **Objective:** Navigate Victory Road 1F to reach the ladder at (2, 2).
-- **Hypothesis 1 (NEW):** Pushing the western boulder at (3, 11) onto the switch at (3, 10) has opened the barrier at (10, 13).
-  - **Test:** Navigate to (9, 13) and visually inspect the tile at (10, 13).
-- **Hypothesis 2 (Fallback):** If the barrier is still closed, the solution involves a boulder from Victory Road 2F, as hinted by a system note.
-  - **Test:** Ascend the ladder at (2, 2) and explore Victory Road 2F for relevant boulder puzzles.
+- **Current Hypothesis:** The solution requires pushing the eastern boulder at (15, 3) onto the switch at (18, 14). This will likely open the barrier at (10, 13) and connect the map sections.
+  - **Plan:**
+    1. First, clear a path by moving the southern boulder at (6, 16).
+    2. Navigate to the steps at (16, 8) to access the eastern elevated platform.
+    3. Get into position to push the boulder at (15, 3).
+    4. Push the boulder to the switch at (18, 14).
+    5. Descend from the platform and proceed to the ladder at (2, 2).
 
 # IV. Methodological Corrections & Ideas
 - **Tool Unreliability & Failure to Act (CRITICAL FAILURE):** My `generate_path_plan` tool had core logic flaws. I correctly identified this but critically failed to fix it immediately, violating a core directive. I must prioritize tool maintenance over any gameplay progression in the future.
