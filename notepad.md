@@ -43,3 +43,4 @@
 - **boulder_switch:** A floor switch that must be covered by a boulder to activate something.
 ## B. Boulder Pushing
 - Boulders CANNOT be pushed onto 'steps' tiles. This is an illegal move.
+- **Agent Idea: Data Collation Agent:** Create an agent to take unstructured observations from the screen (e.g., Pokémon stats and moves during my manual PC review) and format them into a clean JSON structure. This would streamline the input process for the `team_composition_advisor`.
