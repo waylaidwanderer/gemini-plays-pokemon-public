@@ -1,9 +1,3 @@
-## B. Puzzle Mechanics
-- **Boulder Pushing (Verified):** Pushing is a multi-turn process. 1. Turn to face the boulder (if not already facing). 2. Press the directional button again to push (player does not move). 3. Walk to an adjacent tile to push again.
-- `boulder_switch`: A floor switch that must have a boulder pushed onto it.
-- `boulder_barrier`: An impassable wall. Its state (open/closed) is controlled by a corresponding `boulder_switch`. State does not update until visible on-screen.
-- `cleared_boulder_barrier`: Acts as ground. Can sometimes function as a one-way ramp up from `ground` to `elevated_ground`.
-
 ## C. General Mechanics
 - **Poison Damage:** Poisoned Pokémon in the party lose 1 HP every four steps taken outside of battle.
 - **Fainted Pokémon can use HMs:** A fainted Pokémon can be selected to use a field move like Strength.
