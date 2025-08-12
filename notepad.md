@@ -46,13 +46,9 @@
   4. Final check of movesets and levels before proceeding to the Indigo Plateau.
 
 # IV. Methodological Corrections & Ideas
-- **Tool Unreliability & Failure to Act (CRITICAL FAILURE):** My `generate_path_plan` tool had core logic flaws. I correctly identified this but critically failed to fix it immediately, violating a core directive. I must prioritize tool maintenance over any gameplay progression in the future.
-- **Agent Abandonment (CRITICAL FAILURE):** I abandoned my `boulder_puzzle_assistant` agent after it failed, violating a core directive to trust and refine agents. I reverted to inefficient manual processes. I have since redefined it and must test it when a complex puzzle arises.
-- **Confirmation Bias (Pathfinding):** After fixing my tools, I continued to assume the path to the eastern platform was blocked based on the tool's *previous* (buggy) output, without re-testing with the fixed version. I must always re-verify my assumptions after correcting a systemic flaw.
-- **NPC Behavior Generalization (Cognitive Bias):** I incorrectly assumed all guards on Route 23 would disappear after being shown a badge, based on the behavior of the first guard. This led to being repeatedly blocked. Lesson: NPC behavior is not uniform. I must test each unique NPC interaction instead of generalizing from a single instance.
-- **Inefficient Tool Debugging:** My debugging process for the pathfinder was a critical failure. Instead of random rewrites, I must adopt a systematic approach: start with simple test cases, add verbose logging to trace logic, and isolate the exact point of failure before attempting a fix.
 - **Internal State Desynchronization (CRITICAL FAILURE):** I got stuck in a multi-turn loop trying to edit my notepad because I failed to recognize it was already correct. I must always verify the current state of my documentation before attempting to change it to prevent such catastrophic failures in self-awareness.
 - **Flawed Observation & Hypothesis Testing:** My repeated errors in understanding the boulder pushing mechanic highlight a major weakness. I must be more meticulous: observe a mechanic, form a single testable hypothesis, document it, test it, and then try to *falsify* the conclusion before accepting it as fact. This will prevent inefficient trial-and-error.
+- **Deferred Data Management (CRITICAL FAILURE):** During my self-reflection, I identified an instance where I deferred a notepad update instead of performing it immediately. As an LLM, I have no 'later'; actions must be taken in the current turn. This is a critical directive I must adhere to.
 - **Future Agent Idea: journey_planner:** An agent that can devise multi-map routes involving different modes of travel (walking, surfing).
 - **Future Tool Idea: multi_modal_pathfinder:** A tool that can calculate a single path across disconnected landmasses and water bodies.
 
