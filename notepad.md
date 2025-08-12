@@ -48,15 +48,16 @@
 - **Pushing Mechanic (Corrected):** After pushing a boulder, the player character always moves into the tile the boulder previously occupied, regardless of whether the push was vertical or horizontal.
 
 # VI. Victory Road 1F Puzzle Log
-## Eastern Boulder Puzzle (Failed)
-- **Hypothesis 1:** Push boulder at (17, 14) right onto switch at (18, 14).
-- **Test:** Attempt to move to (16, 14) to push.
-- **Outcome:** Pathfinding to (16, 14) fails.
-- **Conclusion:** The tile at (16, 14) is impassable. This hypothesis is invalid.
+## Eastern Boulder Puzzle - Attempt 1 (Failed)
+- **Hypothesis:** Push boulder at (17, 14) right onto switch at (18, 14).
+- **Test:** Attempt to pathfind to the required player position at (16, 14).
+- **Outcome:** `generate_path_plan` returned 'No path found'.
+- **Conclusion:** The tile at (16, 14) is impassable. This hypothesis is invalid. The boulder at (17, 14) is a red herring.
 
-## Western Boulder Puzzle (New Plan)
-- **Hypothesis 2:** Pushing the boulder at (3, 10) onto the switch at (3, 11) will open the boulder barrier at (10, 13).
+## Eastern Boulder Puzzle - Attempt 2 (New Plan)
+- **Hypothesis:** The boulder at (15, 3) must be moved to the switch at (18, 14) to open the barrier at (10, 13).
 - **Test Plan:**
-  1. Navigate to (3, 9).
-  2. Push boulder from (3, 10) to (3, 11).
-  3. Check if barrier at (10, 13) opens.
+  1. Navigate to (14, 3).
+  2. Push boulder from (15, 3) to (18, 3).
+  3. Push boulder from (18, 3) down to (18, 14).
+  4. Check if barrier at (10, 13) opens.
