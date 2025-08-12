@@ -70,3 +70,5 @@
 - **boulder_switch:** A floor switch that opens a `boulder_barrier` when a boulder is pushed onto it.
 - **boulder_barrier:** An impassable barrier that can be cleared by a `boulder_switch`.
 - **boulder_switch:** A floor switch that opens a `boulder_barrier` when a boulder is pushed onto it.
+- **boulder_barrier:** An impassable barrier that can be cleared by a `boulder_switch`.
+- **boulder_switch:** A floor switch that opens a `boulder_barrier` when a boulder is pushed onto it.
