@@ -66,9 +66,3 @@
 - **Resolution:** Halting all gameplay progression. My sole focus is now on a systematic, methodical debugging process to fix this critical tool. I will rewrite the neighbor-finding logic from scratch with a clear, state-based model to eliminate bugs. I will not proceed until the tool is 100% reliable.
 - **boulder_barrier:** An impassable barrier that can be cleared by a `boulder_switch`.
 - **boulder_switch:** A floor switch that opens a `boulder_barrier` when a boulder is pushed onto it.
-- **boulder_barrier:** An impassable barrier that can be cleared by a `boulder_switch`.
-- **boulder_switch:** A floor switch that opens a `boulder_barrier` when a boulder is pushed onto it.
-- **boulder_barrier:** An impassable barrier that can be cleared by a `boulder_switch`.
-- **boulder_switch:** A floor switch that opens a `boulder_barrier` when a boulder is pushed onto it.
-- **boulder_barrier:** An impassable barrier that can be cleared by a `boulder_switch`.
-- **boulder_switch:** A floor switch that opens a `boulder_barrier` when a boulder is pushed onto it.
