@@ -1,10 +1,3 @@
-## C. General Mechanics
-- **Poison Damage:** Poisoned Pokémon in the party lose 1 HP every four steps taken outside of battle.
-- **Fainted Pokémon can use HMs:** A fainted Pokémon can be selected to use a field move like Strength.
-- **Pikachu Interaction:** When moving onto a tile occupied by Pikachu, the player and Pikachu appear to swap positions. The first button press turns to face, the second moves.
-- **Dig Field Move:** Can be used to escape caves, acting as an Escape Rope.
-- **Surf Mechanic:** To use Surf, the player must be standing on a tile adjacent to the water AND be facing the water tile.
-
 # II. Battle Intelligence
 ## A. Type Effectiveness Chart (Verified)
 - **Super Effective (2x damage):**
