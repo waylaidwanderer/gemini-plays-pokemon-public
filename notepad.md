@@ -57,17 +57,12 @@
 - **Issue:** The tool's `get_neighbors` function had flawed logic, preventing it from finding valid paths across different tile types like `cleared_boulder_barrier` and `ground`.
 - **Resolution:** The function was rewritten with systematic, state-based logic that correctly handles all known valid tile transitions. The tool is now reliable.
 
-# V. Archived Logs
-## A. Tool Debugging Log: generate_path_plan (Resolved)
-- **Issue:** The tool's `get_neighbors` function had flawed logic, preventing it from finding valid paths across different tile types like `cleared_boulder_barrier` and `ground`.
-- **Resolution:** The function was rewritten with systematic, state-based logic that correctly handles all known valid tile transitions. The tool is now reliable.
-
 ## B. Overwatch Critiques (Resolved)
 ### Turn 138180: Critical Tool Failure (generate_path_plan)
 - **Critique:** Catastrophic failure in handling the `generate_path_plan` tool. Violated core directives by abandoning the tool instead of fixing it immediately, and the debugging process was unsystematic and chaotic.
 - **Resolution:** Halting all gameplay progression. My sole focus is now on a systematic, methodical debugging process to fix this critical tool. I will rewrite the neighbor-finding logic from scratch with a clear, state-based model to eliminate bugs. I will not proceed until the tool is 100% reliable.
 
-## B. Victory Road 2F Boulder Puzzle Log (Resolved)
+## C. Victory Road 2F Boulder Puzzle Log (Resolved)
 - **Initial State:** Boulder at (3, 15), switch at (2, 17).
 - **Solution (from `boulder_path_planner`):**
   - Step 1: Player moves to (2, 15), pushes boulder Right to (4, 15).
