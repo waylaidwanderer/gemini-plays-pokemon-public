@@ -56,4 +56,5 @@
 # VII. Tool Debugging Log: generate_path_plan
 - **Failure (Turn 138168):** Rewrote `get_neighbors` with systematic `if/elif` logic. Still failed to find path from (3, 17) to (2, 2).
 - **Hypothesis:** The `if/elif` structure is too rigid and creates incorrect exclusions. A clearer, state-based model is needed.
-- **Next Step:** Rewriting `get_neighbors` again. New logic: A series of clean `if/elif` blocks, one for each `current_type`, explicitly defining all valid neighbor types for that state.
+- **Failure (Turn 138169):** The `if/elif` logic rewrite was identical to the previous version and failed again.
+- **Next Step:** Rewriting `get_neighbors` again with a true state-based model: separate `if` blocks for each `current_type` to prevent logic conflicts.
