@@ -43,6 +43,8 @@
 - **ladder_up / ladder_down:** Acts as a warp between floors.
 - **ledge:** A one-way drop. Can be jumped down from an adjacent tile above, landing on the tile two spaces below the starting point.
 - **cleared_boulder_barrier:** A former barrier that now acts as a one-way ramp, allowing movement up from 'ground' to 'elevated_ground'.
+- **boulder_barrier:** An impassable barrier that can be cleared by a `boulder_switch`.
+- **boulder_switch:** A floor switch that opens a `boulder_barrier` when a boulder is pushed onto it.
 ## B. Boulder Pushing
 - Boulders CANNOT be pushed onto 'steps' tiles. This is an illegal move.
 - **Pushing Mechanic (Final Correction):** After multiple incorrect observations, the core mechanic is now clear. When pushing a boulder (Up, Down, Left, or Right), the boulder moves one tile, but **the player's character remains in place.** To push the boulder again, the player must manually walk to a tile adjacent to the boulder's new position.
@@ -64,5 +66,3 @@
 ## Turn 138180: Critical Tool Failure (generate_path_plan)
 - **Critique:** Catastrophic failure in handling the `generate_path_plan` tool. Violated core directives by abandoning the tool instead of fixing it immediately, and the debugging process was unsystematic and chaotic.
 - **Resolution:** Halting all gameplay progression. My sole focus is now on a systematic, methodical debugging process to fix this critical tool. I will rewrite the neighbor-finding logic from scratch with a clear, state-based model to eliminate bugs. I will not proceed until the tool is 100% reliable.
-- **boulder_barrier:** An impassable barrier that can be cleared by a `boulder_switch`.
-- **boulder_switch:** A floor switch that opens a `boulder_barrier` when a boulder is pushed onto it.
