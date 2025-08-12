@@ -30,3 +30,6 @@
 - **Confirmation Bias (Western Boulder):** My repeated attempts to push the western boulder at (3, 11) upwards, even after it failed, was an instance of confirmation bias. I must be more willing to abandon a failed hypothesis and try a new one.
 - **Menu Navigation:** The 'B' button is the primary method for exiting/canceling out of menus. Repeatedly trying to use 'A' on a 'LOG OFF' or 'EXIT' option can lead to a loop.
 - **New Agent Idea:** Create a `route_planner_agent` to handle complex, multi-stage navigation (e.g., walk -> surf -> walk) by breaking it down into segments and calling the `generate_path_plan` tool for each.
+
+# V. Game Mechanics (Verified)
+- **Boulder Pushing:** Boulders CANNOT be pushed onto 'steps' tiles. This is an illegal move.
