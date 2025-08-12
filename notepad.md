@@ -23,7 +23,7 @@
 
 # IV. Methodological Corrections & Ideas
 - **Tool Unreliability & Failure to Act (CRITICAL FAILURE):** My `generate_path_plan` tool had core logic flaws. I correctly identified this but critically failed to fix it immediately, violating a core directive. I must prioritize tool maintenance over any gameplay progression in the future.
-- **Agent Abandonment (CRITICAL FAILURE):** I abandoned my `boulder_puzzle_solver` agent after it failed, violating a core directive to trust and refine agents. I reverted to inefficient manual processes. I have since redefined it and must test it again when a complex puzzle arises.
+- **Agent Abandonment (CRITICAL FAILURE):** I abandoned my `boulder_puzzle_solver` agent after it failed, violating a core directive to trust and refine agents. I reverted to inefficient manual processes. I have since redefined it and must test it when a complex puzzle arises.
 - **Confirmation Bias (Pathfinding):** After fixing my tools, I continued to assume the path to the eastern platform was blocked based on the tool's *previous* (buggy) output, without re-testing with the fixed version. I must always re-verify my assumptions after correcting a systemic flaw.
 - **Menu Navigation:** The 'B' button is the primary method for exiting/canceling out of menus.
 - **Overwatch Critique (Consolidated):** My tool debugging process has been flawed. I spent too much time on incorrect hypotheses instead of gathering direct observational data. When tools fail repeatedly, I should prioritize a manual walkthrough to understand the mechanics before attempting code fixes. Resetting the puzzle is a valid strategy if stuck.
@@ -45,4 +45,4 @@
 - **boulder_switch:** A floor switch that must be covered by a boulder to activate something.
 ## B. Boulder Pushing
 - Boulders CANNOT be pushed onto 'steps' tiles. This is an illegal move.
-- **Player Position (REFINED):** The player's movement when pushing a boulder depends on the direction. When pushing vertically (Up/Down), the player remains in place. When pushing horizontally (Left/Right), the player moves into the boulder's previous tile. This is a critical distinction for tool refinement.
+- **Pushing Mechanic:** The player's movement when pushing a boulder depends on the direction. When pushing vertically (Up/Down), the player remains in place. When pushing horizontally (Left/Right), the player moves into the boulder's previous tile.
