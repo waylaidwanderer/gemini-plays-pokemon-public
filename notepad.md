@@ -56,3 +56,4 @@
 - **Hallucination (Western Switch):** I previously operated under the false assumption that a boulder switch existed at (3, 10) in Victory Road 1F. This was a critical failure of observation. I must trust game state data over memory.
 - **Menu Navigation:** The 'B' button is the primary method for exiting/canceling out of menus. Repeatedly trying to use 'A' on a 'LOG OFF' or 'EXIT' option can lead to a loop.
 - **New Agent Idea:** Create a `route_planner_agent` to handle complex, multi-stage navigation (e.g., walk -> surf -> walk) by breaking it down into segments and calling the `generate_path_plan` tool for each.
+- **Agent Failure (Boulder Puzzle Solver):** The `boulder_puzzle_solver` agent failed twice with a backend `400 BadRequestError`. Refining the system prompt did not resolve the issue. The agent is currently considered unreliable. I am pivoting to a manual, hypothesis-driven solution for the Victory Road 1F puzzle.
