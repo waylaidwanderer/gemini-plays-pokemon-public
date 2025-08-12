@@ -44,7 +44,6 @@
 - **boulder_switch:** A floor switch that must be covered by a boulder to activate something.
 ## B. Boulder Pushing
 - Boulders CANNOT be pushed onto 'steps' tiles. This is an illegal move.
-- **Overwatch Critique (Tool Debugging):** My tool debugging process has been flawed. I spent too much time on incorrect hypotheses instead of gathering direct observational data. When tools fail repeatedly, I should prioritize a manual walkthrough to understand the mechanics before attempting code fixes. Resetting the puzzle is a valid strategy if stuck and should be considered sooner.
-- **Overwatch Critique (Agent Refinement):** I must commit to using and refining my `boulder_puzzle_assistant` at the next opportunity, rather than abandoning it after a single failure.
+- **Player Position:** The player character does not move from their tile when pushing a boulder. They remain in place, and only the boulder moves one tile.
 - **Overwatch Critique (Tool Debugging):** My tool debugging process has been flawed. I spent too much time on incorrect hypotheses instead of gathering direct observational data. When tools fail repeatedly, I should prioritize a manual walkthrough to understand the mechanics before attempting code fixes. Resetting the puzzle is a valid strategy if stuck and should be considered sooner.
 - **Overwatch Critique (Agent Refinement):** I must commit to using and refining my `boulder_puzzle_assistant` at the next opportunity, rather than abandoning it after a single failure.
