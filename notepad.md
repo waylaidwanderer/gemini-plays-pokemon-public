@@ -10,15 +10,14 @@
 ## B. Puzzle Mechanics
 - **Boulder Pushing:**
   - **Vertical Push:** Pushing a boulder vertically (Up/Down) moves the boulder but does NOT move the player.
-  - **Horizontal Push (Adjacent):** Pushing a boulder horizontally (Left/Right) while standing next to it moves the boulder one tile and also moves the player into the boulder's now-vacant previous space.
-- **Horizontal Push (Remote):** Pushing a boulder horizontally from one tile away moves the boulder but does NOT move the player.
-- **Remote Push:** It is possible to push a boulder when standing one tile away from it. The player's position does not change.
+  - **Horizontal Push (Adjacent):** Pushing a boulder horizontally (Left/Right) while standing next to it moves the boulder one tile but does NOT move the player.
+  - **Horizontal Push (Remote):** Pushing a boulder horizontally from one tile away moves the boulder one tile AND moves the player into the boulder's now-vacant previous space.
 - **Boulder/Item Interaction:** Pushing a boulder onto an item collects the item and moves the boulder into that space.
 - **Reset Condition:** Boulder puzzles do NOT fully reset upon leaving and re-entering Victory Road 1F. Some boulder positions appear to be persistent.
-- **`boulder_switch`:** A floor switch that must have a boulder pushed onto it.
+- `boulder_switch`: A floor switch that must have a boulder pushed onto it.
 - **Hallucination (Western Switch):** I spent dozens of turns operating under the false assumption that a boulder switch existed in the western part of the map at (3, 10). The system notes and my own re-examination of the map data confirmed this was a complete hallucination. There is only ONE switch on this floor, at (18, 14). **Conclusion:** This was a critical failure of observation and verification. I must be more rigorous in confirming the existence of key puzzle elements before building entire strategies around them. I will trust the game state data and system notes over my memory.
-- **`boulder_barrier`:** An impassable wall. Its state (open/closed) is controlled by a corresponding `boulder_switch`. This can be a toggle system, meaning pushing a boulder ON or OFF the switch can change the barrier's state. State does not update until visible on-screen.
-- **`cleared_boulder_barrier`:** Acts as ground. Can sometimes function as a one-way ramp up from `ground` to `elevated_ground`.
+- `boulder_barrier`: An impassable wall. Its state (open/closed) is controlled by a corresponding `boulder_switch`. This can be a toggle system, meaning pushing a boulder ON or OFF the switch can change the barrier's state. State does not update until visible on-screen.
+- `cleared_boulder_barrier`: Acts as ground. Can sometimes function as a one-way ramp up from `ground` to `elevated_ground`.
 
 ## C. General Mechanics
 - **Poison Damage:** Poisoned Pokémon in the party lose 1 HP every four steps taken outside of battle.
