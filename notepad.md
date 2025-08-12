@@ -28,8 +28,9 @@
 - **Agent Abandonment (CRITICAL FAILURE):** I abandoned my `boulder_puzzle_assistant` agent after it failed, violating a core directive to trust and refine agents. I reverted to inefficient manual processes. I have since redefined it and must test it when a complex puzzle arises.
 - **Confirmation Bias (Pathfinding):** After fixing my tools, I continued to assume the path to the eastern platform was blocked based on the tool's *previous* (buggy) output, without re-testing with the fixed version. I must always re-verify my assumptions after correcting a systemic flaw.
 - **Menu Navigation:** The 'B' button is the primary method for exiting/canceling out of menus.
-- **Future Agent Idea:** A 'journey_planner' agent that can devise multi-map routes involving different modes of travel (walking, surfing).
-- **Future Tool Idea:** A 'multi_modal_pathfinder' tool that can calculate a single path across disconnected landmasses and water bodies.
+- **Future Agent Idea: journey_planner:** An agent that can devise multi-map routes involving different modes of travel (walking, surfing).
+- **Future Agent Idea: boulder_puzzle_planner:** An agent that takes the output of `boulder_move_finder` and devises a multi-step sequence of pushes and player movements to solve complex puzzles.
+- **Future Tool Idea: multi_modal_pathfinder:** A tool that can calculate a single path across disconnected landmasses and water bodies.
 
 # V. Game Mechanics (Verified)
 ## A. Tile Traversal Rules
@@ -43,8 +44,8 @@
 - **ledge:** A one-way drop. Can be jumped down from an adjacent tile above, landing on the tile two spaces below the starting point.
 - **cleared_boulder_barrier:** A former barrier that now acts as a one-way ramp, allowing movement up from 'ground' to 'elevated_ground'.
 - **boulder_barrier:** An impassable barrier that is cleared by a boulder switch.
+- **boulder_switch:** A floor switch that opens a 'boulder_barrier' when a boulder is pushed onto it. Walkable.
 ## B. Boulder Pushing
 - Boulders CANNOT be pushed onto 'steps' tiles. This is an illegal move.
 - **Pushing Mechanic (Corrected & Refined):** The player's movement after pushing a boulder depends on the direction. **Vertical Pushes (Up/Down):** The player automatically moves into the boulder's previous space. **Horizontal Pushes (Left/Right):** The player does NOT move and must be manually repositioned to an adjacent tile to perform another push.
-- **Future Agent Idea:** A 'boulder_puzzle_planner' agent that takes the output of `boulder_move_finder` and devises a multi-step sequence of pushes and player movements to solve complex puzzles.
 - **NPC Behavior Generalization (Cognitive Bias):** I incorrectly assumed all guards on Route 23 would disappear after being shown a badge, based on the behavior of the first guard. This led to being repeatedly blocked. Lesson: NPC behavior is not uniform. I must test each unique NPC interaction instead of generalizing from a single instance.
