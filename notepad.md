@@ -39,3 +39,6 @@
 - **boulder_switch:** A floor switch that must be covered by a boulder to activate something.
 ## B. Boulder Pushing
 - Boulders CANNOT be pushed onto 'steps' tiles. This is an illegal move.
+
+# VII. Methodological Corrections & Ideas (Additions)
+- **Agent Idea: Navigation Diagnostician:** An agent that takes a failed pathfinding result and the map XML to reason about why the path failed (e.g., blocked by boulder, disconnected landmass).
