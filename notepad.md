@@ -62,8 +62,8 @@
 - **Issue:** The tool's `get_neighbors` function had flawed logic, preventing it from finding valid paths across different tile types like `cleared_boulder_barrier` and `ground`.
 - **Resolution:** The function was rewritten with systematic, state-based logic that correctly handles all known valid tile transitions. The tool is now reliable.
 
-# VI. Overwatch Critiques & Resolutions
-## Turn 138180: Critical Tool Failure (generate_path_plan)
+## B. Overwatch Critiques (Resolved)
+### Turn 138180: Critical Tool Failure (generate_path_plan)
 - **Critique:** Catastrophic failure in handling the `generate_path_plan` tool. Violated core directives by abandoning the tool instead of fixing it immediately, and the debugging process was unsystematic and chaotic.
 - **Resolution:** Halting all gameplay progression. My sole focus is now on a systematic, methodical debugging process to fix this critical tool. I will rewrite the neighbor-finding logic from scratch with a clear, state-based model to eliminate bugs. I will not proceed until the tool is 100% reliable.
 
