@@ -45,7 +45,4 @@
 - **boulder_switch:** A floor switch that must be covered by a boulder to activate something.
 ## B. Boulder Pushing
 - Boulders CANNOT be pushed onto 'steps' tiles. This is an illegal move.
-- **Pushing Mechanic (Corrected):** After pushing a boulder, the player character always moves into the tile the boulder previously occupied, regardless of whether the push was vertical or horizontal.
-- **boulder_barrier:** An impassable wall that becomes 'cleared_boulder_barrier' when a corresponding switch is activated.
-- **cleared_boulder_barrier:** A former barrier that now acts as a one-way ramp, allowing movement up from 'ground' to 'elevated_ground'.
-- **boulder_switch:** A floor switch that must be covered by a boulder to activate something.
+- **Pushing Mechanic (Corrected):** After pushing a boulder, the player character remains in place; only the boulder moves. This requires repositioning to push again.
