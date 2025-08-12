@@ -40,11 +40,8 @@
 - **steps:** Allows movement between 'ground' and 'elevated_ground'.
 - **ladder_up / ladder_down:** Acts as a warp between floors.
 - **ledge:** A one-way drop. Can be jumped down from an adjacent tile above, landing on the tile two spaces below the starting point.
-- **boulder_barrier:** An impassable wall that becomes 'cleared_boulder_barrier' when a corresponding switch is activated.
 - **cleared_boulder_barrier:** A former barrier that now acts as a one-way ramp, allowing movement up from 'ground' to 'elevated_ground'.
-- **boulder_switch:** A floor switch that must be covered by a boulder to activate something.
 ## B. Boulder Pushing
 - Boulders CANNOT be pushed onto 'steps' tiles. This is an illegal move.
 - **Pushing Mechanic (Corrected):** After pushing a boulder, the player character remains in place; only the boulder moves. This requires repositioning to push again.
-- **Future Agent Idea:** A 'boulder_puzzle_planner' agent that takes the output of `boulder_move_finder` and devises a multi-step sequence of pushes and player movements to solve complex puzzles.
 - **Future Agent Idea:** A 'boulder_puzzle_planner' agent that takes the output of `boulder_move_finder` and devises a multi-step sequence of pushes and player movements to solve complex puzzles.
