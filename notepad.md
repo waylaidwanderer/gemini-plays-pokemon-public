@@ -10,7 +10,7 @@
 - `water`: Requires Surf to traverse.
 
 ## B. Puzzle Mechanics
-- **Boulder Pushing (Verified):** The exact mechanics depend on the direction and player's position relative to the boulder. The behavior is inconsistent and must be tested in each new puzzle.
+- **Boulder Pushing (Verified):** Pushing is a multi-turn process. 1. Turn to face the boulder (if not already facing). 2. Press the directional button again to push (player does not move). 3. Walk to an adjacent tile to push again.
   - Pushing a boulder onto an item collects the item and moves the boulder into that space.
 - `boulder_switch`: A floor switch that must have a boulder pushed onto it.
 - `boulder_barrier`: An impassable wall. Its state (open/closed) is controlled by a corresponding `boulder_switch`. State does not update until visible on-screen.
@@ -57,3 +57,4 @@
 - **Menu Navigation:** The 'B' button is the primary method for exiting/canceling out of menus. Repeatedly trying to use 'A' on a 'LOG OFF' or 'EXIT' option can lead to a loop.
 - **New Agent Idea:** Create a `route_planner_agent` to handle complex, multi-stage navigation (e.g., walk -> surf -> walk) by breaking it down into segments and calling the `generate_path_plan` tool for each.
 - **Agent Failure (Boulder Puzzle Solver):** The `boulder_puzzle_solver` agent failed twice with a backend `400 BadRequestError`. Refining the system prompt did not resolve the issue. The agent is currently considered unreliable. I am pivoting to a manual, hypothesis-driven solution for the Victory Road 1F puzzle.
+- **Methodological Correction (Tool Failure):** My `generate_path_plan` tool repeatedly failed by pathing through NPCs. I have now fixed this logic. I must prioritize tool maintenance immediately when a flaw is found.
