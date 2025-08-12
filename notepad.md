@@ -14,7 +14,7 @@
 - **boulder_switch:** A floor switch that opens a `boulder_barrier` when a boulder is pushed onto it.
 
 ## B. Boulder Pushing
-- **Core Mechanic:** When adjacent to a boulder, a single button press can both turn the player and push the boulder one tile. The player's position does not change during the push. To continue pushing, the player must reposition.
+- **Core Mechanic:** When adjacent to a boulder, a single button press can both turn the player and push the boulder one tile. The player's position does not change during the push, regardless of direction (vertical or horizontal). To continue pushing, the player must walk to an adjacent tile to the boulder's new position.
 - **Illegal Moves:** Boulders CANNOT be pushed onto 'steps' tiles.
 
 ## C. General Mechanics
