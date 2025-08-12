@@ -26,17 +26,21 @@
 - **Agent Abandonment (CRITICAL FAILURE):** I abandoned my `boulder_puzzle_solver` agent after it failed, violating a core directive to trust and refine agents. I reverted to inefficient manual processes. I have since redefined it and must test it again when a complex puzzle arises.
 - **Confirmation Bias (Pathfinding):** After fixing my tools, I continued to assume the path to the eastern platform was blocked based on the tool's *previous* (buggy) output, without re-testing with the fixed version. I must always re-verify my assumptions after correcting a systemic flaw.
 - **Menu Navigation:** The 'B' button is the primary method for exiting/canceling out of menus.
+- **Future Agent Idea:** A 'journey_planner' agent that can devise multi-map routes involving different modes of travel (walking, surfing).
+- **Future Tool Idea:** A 'multi_modal_pathfinder' tool that can calculate a single path across disconnected landmasses and water bodies.
 
 # V. Game Mechanics (Verified)
 ## A. Tile Traversal Rules
 - **ground:** Standard walkable tile.
+- **grass:** Tall grass where wild Pokémon appear. Walkable.
+- **water:** Requires Surf to traverse. Cannot be walked on.
 - **impassable:** Cannot be walked on.
 - **elevated_ground:** Walkable, but at a different elevation. Can only be accessed via 'steps'.
 - **steps:** Allows movement between 'ground' and 'elevated_ground'.
 - **ladder_up / ladder_down:** Acts as a warp between floors.
 - **ledge:** A one-way drop. Can be jumped down from an adjacent tile above, landing on the tile two spaces below the starting point.
 - **boulder_barrier:** An impassable wall that becomes 'cleared_boulder_barrier' when a corresponding switch is activated.
-- **cleared_boulder_barrier:** A former barrier that now acts as a one-way ramp, allowing movement up from 'ground' to 'elevated_ground'. Untested if it can be jumped down from.
+- **cleared_boulder_barrier:** A former barrier that now acts as a one-way ramp, allowing movement up from 'ground' to 'elevated_ground'.
 - **boulder_switch:** A floor switch that must be covered by a boulder to activate something.
 ## B. Boulder Pushing
 - Boulders CANNOT be pushed onto 'steps' tiles. This is an illegal move.
