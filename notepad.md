@@ -1,14 +1,3 @@
-# I. Game World Rules
-## A. Traversal & Tile Mechanics
-- `ground` / `grass`: Standard walkable tiles.
-- `impassable` / `unknown`: Cannot be entered.
-- `cuttable`: A tree that can be cut with HM Cut. Becomes `ground` after cutting.
-- `ledge`: A one-way drop. Can be jumped down from an adjacent higher tile, but not climbed up.
-- `steps`: Allows vertical movement between `ground` and `elevated_ground`.
-- `elevated_ground`: Walkable ground at a different elevation. Movement to/from `ground` is ONLY possible via `steps` tiles or by a one-way drop from `elevated_ground` down to `ground`.
-- `ladder_up` / `ladder_down` / `warp`: Warps between maps or floors.
-- `water`: Requires Surf to traverse.
-
 ## B. Puzzle Mechanics
 - **Boulder Pushing (Verified):** Pushing is a multi-turn process. 1. Turn to face the boulder (if not already facing). 2. Press the directional button again to push (player does not move). 3. Walk to an adjacent tile to push again.
 - `boulder_switch`: A floor switch that must have a boulder pushed onto it.
