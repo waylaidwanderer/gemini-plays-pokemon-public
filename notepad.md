@@ -26,6 +26,7 @@
 - **Agent Abandonment (CRITICAL FAILURE):** I abandoned my `boulder_puzzle_solver` agent after it failed, violating a core directive to trust and refine agents. I reverted to inefficient manual processes. I have since redefined it and must test it again when a complex puzzle arises.
 - **Confirmation Bias (Pathfinding):** After fixing my tools, I continued to assume the path to the eastern platform was blocked based on the tool's *previous* (buggy) output, without re-testing with the fixed version. I must always re-verify my assumptions after correcting a systemic flaw.
 - **Menu Navigation:** The 'B' button is the primary method for exiting/canceling out of menus.
+- **Overwatch Critique (Consolidated):** My tool debugging process has been flawed. I spent too much time on incorrect hypotheses instead of gathering direct observational data. When tools fail repeatedly, I should prioritize a manual walkthrough to understand the mechanics before attempting code fixes. Resetting the puzzle is a valid strategy if stuck.
 - **Future Agent Idea:** A 'journey_planner' agent that can devise multi-map routes involving different modes of travel (walking, surfing).
 - **Future Tool Idea:** A 'multi_modal_pathfinder' tool that can calculate a single path across disconnected landmasses and water bodies.
 
@@ -44,5 +45,4 @@
 - **boulder_switch:** A floor switch that must be covered by a boulder to activate something.
 ## B. Boulder Pushing
 - Boulders CANNOT be pushed onto 'steps' tiles. This is an illegal move.
-- **Player Position (NEW):** The player character does not move from their tile when pushing a boulder. They remain in place, and only the boulder moves one tile. This is a critical detail for tool refinement.
-- **Overwatch Critique (Consolidated):** My tool debugging process has been flawed. I spent too much time on incorrect hypotheses instead of gathering direct observational data. When tools fail repeatedly, I should prioritize a manual walkthrough to understand the mechanics before attempting code fixes. Resetting the puzzle is a valid strategy if stuck. I must also commit to using and refining my `boulder_puzzle_assistant` rather than abandoning it after a single failure.
+- **Player Position (REFINED):** The player's movement when pushing a boulder depends on the direction. When pushing vertically (Up/Down), the player remains in place. When pushing horizontally (Left/Right), the player moves into the boulder's previous tile. This is a critical distinction for tool refinement.
