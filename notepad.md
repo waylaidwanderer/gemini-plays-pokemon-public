@@ -43,8 +43,6 @@
 - **ladder_up / ladder_down:** Acts as a warp between floors.
 - **ledge:** A one-way drop. Can be jumped down from an adjacent tile above, landing on the tile two spaces below the starting point.
 - **cleared_boulder_barrier:** A former barrier that now acts as a one-way ramp, allowing movement up from 'ground' to 'elevated_ground'.
-- **boulder_barrier:** An impassable barrier that is cleared by a boulder switch.
-- **boulder_switch:** A floor switch that opens a 'boulder_barrier' when a boulder is pushed onto it. Walkable.
 ## B. Boulder Pushing
 - Boulders CANNOT be pushed onto 'steps' tiles. This is an illegal move.
 - **Pushing Mechanic (Final Correction):** After multiple incorrect observations, the core mechanic is now clear. When pushing a boulder (Up, Down, Left, or Right), the boulder moves one tile, but **the player's character remains in place.** To push the boulder again, the player must manually walk to a tile adjacent to the boulder's new position.
@@ -54,5 +52,3 @@
 - **Inefficient Tool Debugging:** My debugging process for the pathfinder was a critical failure. Instead of random rewrites, I must adopt a systematic approach: start with simple test cases, add verbose logging to trace logic, and isolate the exact point of failure before attempting a fix.
 - **Internal State Desynchronization (CRITICAL FAILURE):** I got stuck in a multi-turn loop trying to edit my notepad because I failed to recognize it was already correct. I must always verify the current state of my documentation before attempting to change it to prevent such catastrophic failures in self-awareness.
 - **Flawed Observation & Hypothesis Testing:** My repeated errors in understanding the boulder pushing mechanic highlight a major weakness. I must be more meticulous: observe a mechanic, form a single testable hypothesis, document it, test it, and then try to *falsify* the conclusion before accepting it as fact. This will prevent inefficient trial-and-error.
-- **boulder_barrier:** An impassable barrier that is cleared by a boulder switch.
-- **boulder_switch:** A floor switch that opens a 'boulder_barrier' when a boulder is pushed onto it. Walkable.
