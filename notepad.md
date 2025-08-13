@@ -21,7 +21,7 @@
 ## A. Type Effectiveness Chart (Verified)
 - **Super Effective (2x damage):**
   - Water > Rock, Ground, Fire
-  - Ground > Fire, Electric, Rock, Ground
+  - Ground > Fire, Electric, Rock
   - Ice > Ground, Grass, Flying, Dragon
   - Flying > Fighting, Grass, Bug
   - Fighting > Normal, Rock, Ice
