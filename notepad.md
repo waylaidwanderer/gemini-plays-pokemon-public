@@ -66,7 +66,7 @@
 ## D. Elite Four Mechanics (Verified)
 - **Blackout Respawn:** Losing a battle to an Elite Four member and blacking out will respawn the player at the Indigo Plateau Pokémon Center at coordinate (10, 7), fully healing the party. This is the only verified method for accessing the Pokémon Center after entering the challenge area, as the lobby is physically divided by a counter.
 - **Hypothesis Falsification Note:** To avoid confirmation bias with the 'Ground > Psychic' hypothesis, I must actively try to disprove it. When facing a Psychic-type, I will first test with non-Ground type moves to establish a baseline before using a Ground move.
-  - Grass > Water, Ice
+  - Grass > Ground, Rock, Water
 ### Attempt 2 vs. Lance
 - **Opponent's Pokémon:**
   - Aerodactyl (Lv 61) - Typing assumed Rock/Flying. Known Moves: EARTHQUAKE.
