@@ -36,14 +36,15 @@
 - **Immediate Action Mandate (CRITICAL FAILURE):** I have repeatedly deferred documentation and tool maintenance instead of performing them immediately. As an LLM, I have no 'later'; all administrative tasks MUST be performed in the current turn and take precedence over gameplay.
 - **Tool Maintenance Mandate (CRITICAL FAILURE):** I deferred fixing my broken `generate_path_plan` tool in Victory Road, violating the core directive that maintaining automation is the highest priority. Faulty tools must be fixed immediately.
 - **Agent Engineering Failure (`battle_strategist_agent`):** I failed to correctly engineer the `battle_strategist_agent`'s prompt and input schema, leading to suboptimal suggestions. I must prioritize iterative refinement of agents.
-- **Scientific Mindset & Hypothesis Testing:** My fixation on a single solution path must be avoided. When a primary hypothesis repeatedly fails, I must actively seek to falsify it by testing alternative routes and solutions. I must be more meticulous in observing, forming a single testable hypothesis, documenting, testing, and then attempting to *falsify* the conclusion.
+- **Scientific Mindset & Hypothesis Testing (CRITICAL FAILURE):** My fixation on a single solution path must be avoided. When a primary hypothesis repeatedly fails, I must actively seek to falsify it by testing alternative routes and solutions. I must be more meticulous in observing, forming a single testable hypothesis, documenting, testing, and then attempting to *falsify* the conclusion.
+- **Navigational Failure (Indigo Plateau):** I fundamentally misunderstood the Indigo Plateau layout, assuming the challenge lobby and Pokémon Center were connected. This was based on visual information without proper testing. I wasted dozens of turns attempting to reach an impossible location instead of falsifying my initial hypothesis and exploring the alternative (that the PC was in a separate building).
 
 ## B. Future Automation Pipeline
 - **Agent Idea: `journey_planner`:** Devises multi-map routes involving different travel modes (walking, surfing).
 - **Agent Idea: `puzzle_master_agent`:** High-level agent to orchestrate `boulder_move_finder` and `boulder_path_planner` for complete puzzle solutions.
 - **Tool Idea: `map_navigator_assistant`:** Parses `map_xml_string` to find key interactable objects (PC, Nurse) and returns their coordinates and the correct tile for interaction.
 - **Tool Idea: `multi_modal_pathfinder`:** Calculates a single path across disconnected landmasses and water bodies.
-- **Agent Idea: `party_viability_assessor`:** Analyzes party HP, status, and type matchups against a known opponent to rank the survivability/viability of each potential switch-in during desperate situations.
+- **Agent Idea: `party_viability_assessor`:** Analyzes party HP, status, and type matchups against a known opponent to rank the survivability/viability of each potential switch-in.
 
 # III. Battle Logs
 
@@ -54,10 +55,8 @@
   - Gengar (Lv 57) - Known Moves: Mega Drain, Hypnosis, Night Shade
 - **Key Learnings:**
   - Gengar's Grass-type move Mega Drain is devastating to Rock/Ground types (4x weakness).
-  - Hypnosis is a major threat, capable of disabling key Pokémon. My current team lacks a reliable counter to sleep.
-  - A high-level Psychic-type or a fast, powerful special attacker is needed to take out Gengar quickly. My current team composition is not viable for this fight.
+  - Hypnosis is a major threat, capable of disabling key Pokémon.
+  - A high-level Psychic-type or a fast, powerful special attacker is needed. My current team composition is not viable for this fight.
 
-# IV. Archived Logs
-(Placeholder for future logs)
-- **Indigo Plateau Lobby:** The lobby is split into two disconnected sections. The western side is the challenge area, and the eastern side has the Pokémon Center/Mart. Once you enter the western side, you cannot return to the eastern side to heal without defeating the Elite Four or blacking out.
-- **Strategic Note:** Always assume opponents, especially high-level ones like the Elite Four, have coverage moves for their weaknesses. Do not rely solely on primary typing for strategy.
+# IV. Strategic Notes
+- Always assume opponents, especially high-level ones like the Elite Four, have coverage moves for their weaknesses. Do not rely solely on primary typing for strategy.
