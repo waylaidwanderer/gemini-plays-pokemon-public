@@ -1,13 +1,21 @@
-# I. Game Mechanics (Verified)
-## A. Tile Traversal & Interaction Rules (Player-Discovered)
-- **cleared_boulder_barrier:** A former barrier that now acts as a one-way ramp, allowing movement *up* from 'ground' to 'elevated_ground', but not down.
+# I. Core Gameplay Mechanics & Rules
 
-## B. Boulder Pushing
-- **Core Mechanic:** When adjacent to a boulder, a single button press can both turn the player and push the boulder one tile. The player's position does not change during the push, regardless of direction (vertical or horizontal). To continue pushing, the player must walk to an adjacent tile to the boulder's new position.
+## A. Player-Imposed Rules (Hard Mode)
+- **Battle Style:** Set mode.
+- **Items in Battle:** Prohibited.
+- **Level Caps:** Active and enforced.
+
+## B. Tile Traversal & Interaction
+- **cleared_boulder_barrier:** Acts as a one-way ramp, allowing movement *up* from 'ground' to 'elevated_ground', but not down.
+- **PC Interaction:** To use a PC, stand on the tile directly *below* it and face *up* before pressing 'A'.
+
+## C. Boulder Pushing Mechanics
+- **Core Mechanic:** A single button press can both turn the player and push an adjacent boulder one tile. The player's position does not change during the push.
 - **Illegal Moves:** Boulders CANNOT be pushed onto 'steps' tiles.
 
-## C. General Mechanics
+## D. General Mechanics
 - **Menu Navigation:** The 'B' button is the primary method for exiting/canceling out of menus.
+- **Opponent Abilities:** Some Pokémon, like Poliwrath, may have abilities like Water Absorb that nullify certain move types.
 
 # II. Battle Intelligence
 ## A. Type Effectiveness Chart (Verified)
