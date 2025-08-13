@@ -70,3 +70,5 @@
   - Step 3: Player moves to (4, 15), pushes boulder Down to (4, 17).
   - Step 4: Player moves to (5, 17), pushes boulder Left to (3, 17).
   - Step 5: Player moves to (4, 17), pushes boulder Left to (2, 17). **[COMPLETE]**
+- **Confirmation Bias Warning:** My focus on the barrier puzzle at (8, 11) was a classic case of confirmation bias. I assumed it was the only solution and kept trying to make it work, instead of exploring other possibilities on the map. When a primary hypothesis is repeatedly failing, I must actively seek to falsify it by testing alternative routes and solutions. This is critical to avoid getting stuck in loops.
+- **Agent Supervision:** My override of the `battle_strategist_agent` in turn 138620 was correct. Agents are powerful tools, but not infallible. I must continue to critically evaluate their output, especially in high-risk situations, and be prepared to make a different call if my analysis identifies a flaw or a safer path. An agent's advice is a strong suggestion, not an unbreakable command.
