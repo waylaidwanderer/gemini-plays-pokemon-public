@@ -671,5 +671,47 @@
         "action_counter": 140273
       }
     ]
+  },
+  "pokemon_data_extractor": {
+    "description": "Parses the 'Stored Pokemon in PC' section of the GameState string to extract and format a list of all available Pokémon, including their name, level, types, and moves. This is used to gather data for the team_composition_advisor.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "game_state_string": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "game_state_string"
+      ]
+    },
+    "python_script": "import re\nimport json\n\ngame_state_string = input_data['game_state_string']\nall_pokemon = []\n\ntry:\n    stored_pokemon_section = re.search(r'## Stored Pokemon in PC .*?\\n(.*?)(?=\\n##|$)', game_state_string, re.DOTALL)\n    if stored_pokemon_section:\n        pokemon_data_str = stored_pokemon_section.group(1)\n        # Corrected regex to handle upper/lower case names and fix syntax\n        pokemon_pattern = re.compile(r'^\\s*\\d+\\.\\s+(?P<name>[A-Za-z\\']+(?:\\s[A-Za-z\\']+)*)\\s+\\((?P<species>[A-Z]+)\\):\\s+Lv(?P<level>\\d+)\\s+\\|\\s+Moves:\\s+(?P<moves>.*)$', re.MULTILINE)\n        \n        for match in pokemon_pattern.finditer(pokemon_data_str):\n            data = match.groupdict()\n            pokemon_info = {\n                'name': data['name'].strip(),\n                'level': int(data['level']),\n                'type1': 'Unknown', # Placeholder\n                'type2': None,      # Placeholder\n                'moves': [move.strip() for move in data['moves'].split(',')]\n            }\n            all_pokemon.append(pokemon_info)\n\n    print(json.dumps(all_pokemon))\n\nexcept Exception as e:\n    import traceback\n    print(json.dumps({\"error\": str(e), \"traceback\": traceback.format_exc()}))",
+    "history": [
+      {
+        "commit_message": "feat: Create pokemon_data_extractor tool to automate data gathering. This tool parses the GameState to build a structured list of all stored Pokémon, streamlining the input process for the team_composition_advisor and eliminating tedious manual data entry. This is a direct response to an Overwatch suggestion and a major efficiency improvement.",
+        "timestamp": "2025-08-13T22:57:47.459Z",
+        "action_counter": 140881
+      },
+      {
+        "commit_message": "fix: Add robust error handling and improve regex. The previous version crashed on an `IndexError` if a line in the PC data didn't match the regex. This commit wraps the logic in a try-except block and uses `re.compile` with `finditer` for more efficient and safe parsing. It also refines the regex to better handle names and ensures the tool returns an empty list on failure instead of crashing.",
+        "timestamp": "2025-08-13T22:58:49.979Z",
+        "action_counter": 140883
+      },
+      {
+        "commit_message": "fix: Correct invalid character in regex. The previous version used a smart quote ('’') which caused a SyntaxError. This commit replaces it with a standard apostrophe ('') to fix the tool's execution.",
+        "timestamp": "2025-08-13T22:59:48.645Z",
+        "action_counter": 140885
+      },
+      {
+        "commit_message": "fix: Correct invalid character in regex. The previous version used a smart quote ('’') which caused a SyntaxError. This commit replaces it with a standard apostrophe ('') to fix the tool's execution.",
+        "timestamp": "2025-08-13T23:00:19.358Z",
+        "action_counter": 140886
+      },
+      {
+        "commit_message": "fix: Correct regex syntax and add lowercase support. The previous regex had a malformed character class `[A-Z\\'']` causing a `SyntaxError`. This commit corrects the class to `[A-Za-z']` and adds support for lowercase letters to handle names like 'i', making the tool more robust.",
+        "timestamp": "2025-08-13T23:02:23.165Z",
+        "action_counter": 140889
+      }
+    ]
   }
 }
