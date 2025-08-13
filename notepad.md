@@ -20,7 +20,7 @@
 - **Super Effective (2x damage):**
   - Water > Rock, Ground, Fire
   - Electric > Water
-  - Ground > Fire, Electric, Rock, Ghost, Psychic (Hypothesized - needs more data)
+  - Ground > Fire, Electric, Rock, Psychic (Hypothesized - needs more data)
   - Ice > Ground, Grass, Flying, Dragon
   - Flying > Fighting, Grass, Bug
   - Fighting > Normal, Rock, Ice
@@ -33,6 +33,7 @@
 - **Immune (0x damage):**
   - Ground immune to Electric
   - Flying immune to Ground
+  - Ghost immune to Ground
 
 # II. Strategic Directives & Automation
 
