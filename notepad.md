@@ -45,3 +45,6 @@
 
 # III. Archived Logs
 (Placeholder for future logs)
+
+# IV. Post-Battle Administrative Tasks
+- **Map Markers:** Immediately after this battle, mark Bruno as defeated in his room and the warp from Bruno's to Agatha's room as used. This is a critical failure identified by Overwatch that must be corrected.
