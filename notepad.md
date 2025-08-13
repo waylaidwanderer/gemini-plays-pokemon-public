@@ -13,13 +13,13 @@
 - **`ground` / `grass`:** Standard traversable tiles.
 - **`impassable` / `unknown`:** Cannot be entered. Must be navigated around.
 - **`water`:** Requires Surf to traverse.
-- **`cleared_boulder_barrier`:** Acts as a one-way ramp, allowing movement *up* from 'ground' to 'elevated_ground', but not down. (Hypothesis - needs more testing).
+- **`cleared_boulder_barrier`:** Acts as a one-way ramp, allowing movement *up* from 'ground' to 'elevated_ground', but not down.
 - **Boulder Pushing:** A single button press can both turn the player and push an adjacent boulder one tile. The player's position does not change during the push. Boulders CANNOT be pushed onto 'steps' tiles.
 
 ## C. Type Effectiveness Chart (Verified)
 - **Super Effective (2x damage):**
   - Water > Rock, Ground, Fire
-  - Ground > Fire, Electric, Rock, Ghost, Psychic (Hypothesized)
+  - Ground > Fire, Electric, Rock, Ghost, Psychic (Hypothesized - needs more data)
   - Ice > Ground, Grass, Flying, Dragon
   - Flying > Fighting, Grass, Bug
   - Fighting > Normal, Rock, Ice
@@ -40,7 +40,7 @@
 - **Tool Maintenance Mandate (CRITICAL FAILURE):** I deferred fixing my broken `generate_path_plan` tool in Victory Road, violating the core directive that maintaining automation is the highest priority. Faulty tools must be fixed immediately.
 - **Agent Engineering Failure (`battle_strategist_agent`):** I failed to correctly engineer the `battle_strategist_agent`'s prompt and input schema, leading to suboptimal suggestions. I must prioritize iterative refinement of agents.
 - **Scientific Mindset & Hypothesis Testing (CRITICAL FAILURE):** My fixation on a single solution path must be avoided. When a primary hypothesis repeatedly fails, I must actively seek to falsify it by testing alternative routes and solutions. I must be more meticulous in observing, forming a single testable hypothesis, documenting, testing, and then attempting to *falsify* the conclusion.
-- **Navigational Failure (Indigo Plateau):** I fundamentally misunderstood the Indigo Plateau layout. I observed the Nurse/PC in the eastern building but failed to pathfind there. My conclusion should have been that the area was physically divided and unreachable from my entrance. Instead of accepting this and forming a new hypothesis (e.g., "The PC is in a separate building on Route 23"), I exhibited confirmation bias, repeatedly trying to enter the same wrong building and assuming my tools were broken. This wasted dozens of turns. The correct scientific process is: 
+- **Navigational Failure (Indigo Plateau):** I fundamentally misunderstood the Indigo Plateau layout. I observed the Nurse/PC in the eastern building but failed to pathfind there. My conclusion should have been that the area was physically divided and unreachable from my entrance. Instead of accepting this and forming a new hypothesis (e.g., "The entrance to the Pokémon Center facilities must be a separate entrance on Route 23 that I have missed."), I exhibited confirmation bias, repeatedly trying to enter the same wrong building and assuming my tools were broken. This wasted dozens of turns. The correct scientific process is: 
   - **Observation:** Entered eastern Indigo Plateau building. Can see Nurse/PC, but they are behind an impassable counter. 
   - **Hypothesis 1:** I can walk to the Nurse/PC from my current position. 
   - **Test 1:** Attempt to pathfind. 
