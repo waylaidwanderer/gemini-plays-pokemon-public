@@ -47,11 +47,6 @@
   - **Conclusion 1:** Pathfinding failed; system confirmed destination is unreachable. Hypothesis 1 is FALSE. The lobby is physically divided. 
   - **New Hypothesis 2:** The entrance to the Pokémon Center facilities must be a separate entrance on Route 23 that I have missed. I must exit this building and re-explore Route 23.
 
-## B. Automation Ideas (To Be Implemented Immediately Upon Need)
-- **Agent Idea: `journey_planner`:** Devises multi-map routes involving different travel modes (walking, surfing).
-- **Agent Idea: `puzzle_master_agent`:** High-level agent to orchestrate `boulder_move_finder` and `boulder_path_planner` for complete puzzle solutions.
-- **Tool Idea: `multi_modal_pathfinder`:** Calculates a single path across disconnected landmasses and water bodies.
-
 # III. Battle Logs
 
 ## A. Elite Four Attempts
