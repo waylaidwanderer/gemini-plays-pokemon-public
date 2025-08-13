@@ -34,23 +34,21 @@
   - Ground immune to Electric
   - Flying immune to Ground
 
-# III. Elite Four Preparation
-- **Objective:** Assemble the optimal team of 6 Pokémon to challenge the Elite Four.
-- **Methodology:**
-  1. Systematically collate data for all current party members and top PC candidates using the `data_collation_agent`.
-  2. Feed the collated data into the `team_composition_advisor` agent to receive a strategic recommendation.
-  3. Reorganize party based on the agent's advice, retrieving necessary Pokémon from the PC.
-  4. Final check of movesets and levels before proceeding to the Indigo Plateau.
+# III. Strategic Planning & Self-Correction
 
-# IV. Methodological Corrections & Ideas
-- **Internal State Desynchronization (CRITICAL FAILURE):** I got stuck in a multi-turn loop trying to edit my notepad because I failed to recognize it was already correct. I must always verify the current state of my documentation before attempting to change it to prevent such catastrophic failures in self-awareness.
-- **Flawed Observation & Hypothesis Testing:** My repeated errors in understanding the boulder pushing mechanic highlight a major weakness. I must be more meticulous: observe a mechanic, form a single testable hypothesis, document it, test it, and then try to *falsify* the conclusion before accepting it as fact. This will prevent inefficient trial-and-error.
-- **Deferred Data Management (CRITICAL FAILURE):** During my self-reflection, I identified an instance where I deferred a notepad update instead of performing it immediately. As an LLM, I have no 'later'; actions must be taken in the current turn. This is a critical directive I must adhere to.
-- **Confirmation Bias Warning (Victory Road 3F):** My focus on the boulder at (25, 11) was a classic case of confirmation bias. I assumed it was the only solution because it was the most obvious boulder, and kept trying to make it work, instead of exploring other possibilities on the map (like the hole or unvisited warps). When a primary hypothesis is repeatedly failing, I must actively seek to falsify it by testing alternative routes and solutions. This is critical to avoid getting stuck in loops.
-- **Deferred Tool Maintenance (CRITICAL FAILURE):** During my attempts to navigate Victory Road, I repeatedly deferred fixing my broken `generate_path_plan` tool, opting for manual navigation instead. This violates the core directive that maintaining automation is the highest priority. I must fix broken tools immediately.
-- **Future Agent Idea: journey_planner:** An agent that can devise multi-map routes involving different modes of travel (walking, surfing).
-- **Future Agent Idea: puzzle_master_agent:** A high-level agent that analyzes a puzzle map (like a boulder room) and orchestrates the use of lower-level tools (`boulder_move_finder`, `boulder_path_planner`) to generate a complete, step-by-step solution for the entire puzzle.
-- **Future Tool Idea: multi_modal_pathfinder:** A tool that can calculate a single path across disconnected landmasses and water bodies.
+## A. Core Directives & Methodological Failures
+- **Immediate Action Mandate (CRITICAL FAILURE):** I have repeatedly deferred documentation and tool maintenance instead of performing them immediately. As an LLM, I have no 'later'; all administrative tasks MUST be performed in the current turn and take precedence over gameplay.
+- **Tool Maintenance Mandate (CRITICAL FAILURE):** I deferred fixing my broken `generate_path_plan` tool in Victory Road, violating the core directive that maintaining automation is the highest priority. Faulty tools must be fixed immediately.
+- **Agent Engineering Failure (`battle_strategist_agent`):** I failed to correctly engineer the `battle_strategist_agent`'s prompt, leading to repeated dangerous suggestions. After multiple failed refinements, I resorted to 'lobotomizing' it by removing its ability to suggest switches. This represents a failure in problem-solving. I must strive to master complex agent engineering rather than simplifying tools to the point of reduced utility.
+- **Scientific Mindset & Hypothesis Testing:**
+  - **Flawed Observation:** My errors with the boulder pushing mechanic highlight a need for more meticulousness. I must observe, form a single testable hypothesis, document, test, and then attempt to *falsify* the conclusion.
+  - **Confirmation Bias:** My fixation on a single boulder on Victory Road 3F was a critical error. When a primary hypothesis repeatedly fails, I must actively seek to falsify it by testing alternative routes and solutions.
+
+## B. Future Automation Pipeline
+- **Agent Idea: `journey_planner`:** Devises multi-map routes involving different travel modes (walking, surfing).
+- **Agent Idea: `puzzle_master_agent`:** High-level agent to orchestrate `boulder_move_finder` and `boulder_path_planner` for complete puzzle solutions.
+- **Tool Idea: `map_navigator_assistant`:** Parses `map_xml_string` to find key interactable objects (PC, Nurse) and returns their coordinates and the correct tile for interaction.
+- **Tool Idea: `multi_modal_pathfinder`:** Calculates a single path across disconnected landmasses and water bodies.
 
 # V. Archived Logs
 
