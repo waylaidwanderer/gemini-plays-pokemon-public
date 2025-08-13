@@ -52,9 +52,4 @@
 
 # V. Archived Logs
 
-# V. Gameplay & Interaction Rules
-- **PC Interaction:** To use a PC, the player must stand on the tile directly *below* it and be facing *up* before pressing 'A'. The object name in the map data is typically `OpenPokemonCenterPC`.
-
-# VI. Future Automation Ideas
-- **Tool Idea: `map_navigator_assistant`:** A tool that parses `map_xml_string` to find key interactable objects (e.g., 'PC', 'Nurse', 'Clerk') and returns their coordinates along with the correct tile to stand on for interaction. This would prevent wasting time on incorrect interaction attempts.
-- **Agent Failure (`battle_strategist_agent`):** The agent has repeatedly recommended switching in a severely underleveled Pokémon (Lv33 Kadabra vs Lv57 Hitmonchan), ignoring the level disparity veto. This is a critical flaw. I am attempting a third, more forceful prompt revision to fix this before continuing.
+# V. Archived Logs
