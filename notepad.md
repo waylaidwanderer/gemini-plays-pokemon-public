@@ -46,5 +46,5 @@
 (Placeholder for future logs)
 - **Indigo Plateau Lobby:** The lobby is split into two disconnected sections. The western side is the challenge area, and the eastern side has the Pokémon Center/Mart. Once you enter the western side, you cannot return to the eastern side to heal without defeating the Elite Four or blacking out.
 - **Agent Idea: `party_viability_assessor`:** Analyzes party HP, status, and type matchups against a known opponent to rank the survivability/viability of each potential switch-in during desperate situations.
-- **Defeated Trainers as Obstacles:** Defeated trainers in the Elite Four rooms become impassable objects after their defeat speech, requiring navigation around them.
+
   - Grass > Ground, Rock
