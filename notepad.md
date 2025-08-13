@@ -69,4 +69,4 @@
   - Grass > Water, Ice
 ### Attempt 2 vs. Lance
 - **Opponent's Pokémon:**
-  - Aerodactyl (Lv 61) - Typing unconfirmed, assumed Rock/Flying. Test with SURF.
+  - Aerodactyl (Lv 61) - Typing assumed Rock/Flying. Known Moves: EARTHQUAKE.
