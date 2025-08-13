@@ -46,16 +46,6 @@
 
 # V. Archived Logs
 
-## C. Victory Road 2F Boulder Puzzle Log (Resolved)
-- **Initial State:** Boulder at (3, 15), switch at (2, 17).
-- **Solution (from `boulder_path_planner`):**
-  - Step 1: Player moves to (2, 15), pushes boulder Right to (4, 15).
-  - Step 2: Player moves to (4, 14), pushes boulder Down to (4, 16).
-  - Step 3: Player moves to (4, 15), pushes boulder Down to (4, 17).
-  - Step 4: Player moves to (5, 17), pushes boulder Left to (3, 17).
-  - Step 5: Player moves to (4, 17), pushes boulder Left to (2, 17). **[COMPLETE]**
-- **Agent Supervision:** My override of the `battle_strategist_agent` in turn 138620 was correct. Agents are powerful tools, but not infallible. I must continue to critically evaluate their output, especially in high-risk situations, and be prepared to make a different call if my analysis identifies a flaw or a safer path. An agent's advice is a strong suggestion, not an unbreakable command.
-
 # V. Gameplay & Interaction Rules
 - **PC Interaction:** To use a PC, the player must stand on the tile directly *below* it and be facing *up* before pressing 'A'. The object name in the map data is typically `OpenPokemonCenterPC`.
 
