@@ -19,7 +19,7 @@
 ## C. Type Effectiveness Chart (Verified)
 - **Super Effective (2x damage):**
   - Water > Rock, Ground, Fire
-  - Ground > Fire, Electric, Rock, Ghost
+  - Ground > Fire, Electric, Rock, Ghost, Psychic (Hypothesized)
   - Ice > Ground, Grass, Flying, Dragon
   - Flying > Fighting, Grass, Bug
   - Fighting > Normal, Rock, Ice
@@ -69,4 +69,3 @@
 - Always assume opponents, especially high-level ones like the Elite Four, have coverage moves for their weaknesses. Do not rely solely on primary typing for strategy.
 ## D. Elite Four Mechanics (Verified)
 - **Blackout Respawn:** Losing a battle to an Elite Four member and blacking out will respawn the player at the Indigo Plateau Pokémon Center at coordinate (10, 7), fully healing the party. This is the only verified method for accessing the Pokémon Center after entering the challenge area, as the lobby is physically divided by a counter.
-  - Ground > Psychic (Hypothesized after super-effective EARTHQUAKE vs. SLOWBRO)
