@@ -19,6 +19,7 @@
 ## C. Type Effectiveness Chart (Verified)
 - **Super Effective (2x damage):**
   - Water > Rock, Ground, Fire
+  - Electric > Water
   - Ground > Fire, Electric, Rock, Ghost, Psychic (Hypothesized - needs more data)
   - Ice > Ground, Grass, Flying, Dragon
   - Flying > Fighting, Grass, Bug
