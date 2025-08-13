@@ -7,6 +7,7 @@
 - **PC Interaction:** To use a PC, stand on the tile directly *below* it and face *up* before pressing 'A'.
 - **Menu Navigation:** The 'B' button is the primary method for exiting/canceling out of menus.
 - **Elite Four Room Progression:** Attempting to leave a room south triggers a 'Don't run away!' event, which is the key to unlocking the northern warp.
+- **Defeated Elite Four Trainers:** Become impassable obstacles after their defeat speech.
 
 ## B. Tile Mechanics & Traversal
 - **`cleared_boulder_barrier`:** Acts as a one-way ramp, allowing movement *up* from 'ground' to 'elevated_ground', but not down. (Hypothesis - needs more testing).
@@ -19,6 +20,7 @@
   - Ice > Ground, Grass, Flying, Dragon
   - Flying > Fighting, Grass, Bug
   - Fighting > Normal, Rock, Ice
+  - Grass > Ground, Rock
 
 - **Not Very Effective (0.5x damage):**
   - Normal !> Rock
@@ -41,15 +43,9 @@
 - **Agent Idea: `puzzle_master_agent`:** High-level agent to orchestrate `boulder_move_finder` and `boulder_path_planner` for complete puzzle solutions.
 - **Tool Idea: `map_navigator_assistant`:** Parses `map_xml_string` to find key interactable objects (PC, Nurse) and returns their coordinates and the correct tile for interaction.
 - **Tool Idea: `multi_modal_pathfinder`:** Calculates a single path across disconnected landmasses and water bodies.
-
-# III. Archived Logs
-(Placeholder for future logs)
-- **Indigo Plateau Lobby:** The lobby is split into two disconnected sections. The western side is the challenge area, and the eastern side has the Pokémon Center/Mart. Once you enter the western side, you cannot return to the eastern side to heal without defeating the Elite Four or blacking out.
 - **Agent Idea: `party_viability_assessor`:** Analyzes party HP, status, and type matchups against a known opponent to rank the survivability/viability of each potential switch-in during desperate situations.
 
-  - Grass > Ground, Rock
-
-# IV. Battle Logs
+# III. Battle Logs
 
 ## A. Elite Four Attempts
 
@@ -60,3 +56,7 @@
   - Gengar's Grass-type move Mega Drain is devastating to Rock/Ground types (4x weakness).
   - Hypnosis is a major threat, capable of disabling key Pokémon. My current team lacks a reliable counter to sleep.
   - A high-level Psychic-type or a fast, powerful special attacker is needed to take out Gengar quickly. My current team composition is not viable for this fight.
+
+# IV. Archived Logs
+(Placeholder for future logs)
+- **Indigo Plateau Lobby:** The lobby is split into two disconnected sections. The western side is the challenge area, and the eastern side has the Pokémon Center/Mart. Once you enter the western side, you cannot return to the eastern side to heal without defeating the Elite Four or blacking out.
