@@ -45,9 +45,6 @@
 - **Future Tool Idea: multi_modal_pathfinder:** A tool that can calculate a single path across disconnected landmasses and water bodies.
 
 # V. Archived Logs
-## A. Tool Debugging Log: generate_path_plan (Resolved)
-- **Issue:** The tool's `get_neighbors` function had flawed logic, preventing it from finding valid paths across different tile types like `cleared_boulder_barrier` and `ground`.
-- **Resolution:** The function was rewritten with systematic, state-based logic that correctly handles all known valid tile transitions. The tool is now reliable.
 
 ## C. Victory Road 2F Boulder Puzzle Log (Resolved)
 - **Initial State:** Boulder at (3, 15), switch at (2, 17).
