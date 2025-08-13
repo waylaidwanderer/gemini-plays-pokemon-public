@@ -48,3 +48,15 @@
 - **Agent Idea: `party_viability_assessor`:** Analyzes party HP, status, and type matchups against a known opponent to rank the survivability/viability of each potential switch-in during desperate situations.
 
   - Grass > Ground, Rock
+
+# IV. Battle Logs
+
+## A. Elite Four Attempts
+
+### Attempt 1 vs. Agatha (Loss)
+- **Opponent's Pokémon:**
+  - Gengar (Lv 57) - Known Moves: Mega Drain, Hypnosis, Night Shade
+- **Key Learnings:**
+  - Gengar's Grass-type move Mega Drain is devastating to Rock/Ground types (4x weakness).
+  - Hypnosis is a major threat, capable of disabling key Pokémon. My current team lacks a reliable counter to sleep.
+  - A high-level Psychic-type or a fast, powerful special attacker is needed to take out Gengar quickly. My current team composition is not viable for this fight.
