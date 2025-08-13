@@ -1,12 +1,6 @@
 # I. Game Mechanics (Verified)
 ## A. Tile Traversal & Interaction Rules (Player-Discovered)
-- **elevated_ground:** Walkable, but at a different elevation. Can only be accessed via 'steps' or by dropping down from above.
-- **steps:** Allows movement between 'ground' and 'elevated_ground'.
-- **ladder_up / ladder_down:** Acts as a warp between floors.
 - **cleared_boulder_barrier:** A former barrier that now acts as a one-way ramp, allowing movement *up* from 'ground' to 'elevated_ground', but not down.
-- **hole:** A tile that drops a pushed boulder to the floor below.
-- **boulder_barrier:** An impassable barrier that can be cleared by a `boulder_switch`.
-- **boulder_switch:** A floor switch that opens a `boulder_barrier` when a boulder is pushed onto it.
 
 ## B. Boulder Pushing
 - **Core Mechanic:** When adjacent to a boulder, a single button press can both turn the player and push the boulder one tile. The player's position does not change during the push, regardless of direction (vertical or horizontal). To continue pushing, the player must walk to an adjacent tile to the boulder's new position.
