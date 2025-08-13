@@ -46,8 +46,5 @@
 # III. Archived Logs
 (Placeholder for future logs)
 
-# IV. Post-Battle Administrative Tasks
-- **Map Markers:** Immediately after this battle, mark Bruno as defeated in his room and the warp from Bruno's to Agatha's room as used. This is a critical failure identified by Overwatch that must be corrected.
-
-# V. Post-Agatha Battle Administrative Tasks (HIGHEST PRIORITY)
-- **CRITICAL FAILURE:** I have not used a single map marker. Immediately after this battle concludes (win or lose), I MUST mark Bruno as defeated in his room, Agatha as defeated in her room, and mark all warps used in the Indigo Plateau. This is a non-negotiable task to correct my procedural discipline.
+# IV. Archived Logs
+(Placeholder for future logs)
