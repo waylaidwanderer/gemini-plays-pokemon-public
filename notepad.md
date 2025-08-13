@@ -67,3 +67,8 @@
 - **Blackout Respawn:** Losing a battle to an Elite Four member and blacking out will respawn the player at the Indigo Plateau Pokémon Center at coordinate (10, 7), fully healing the party. This is the only verified method for accessing the Pokémon Center after entering the challenge area, as the lobby is physically divided by a counter.
 - **Hypothesis Falsification Note:** To avoid confirmation bias with the 'Ground > Psychic' hypothesis, I must actively try to disprove it. When facing a Psychic-type, I will first test with non-Ground type moves to establish a baseline before using a Ground move.
   - Grass > Water, Ice
+
+### Attempt 1 vs. Lance (Loss)
+- **Opponent's Pokémon:**
+  - Dragonite (Lv 61) - Known Moves: Hyper Beam, Wrap
+- **Key Learnings:** Lance's lead Pokémon is not necessarily a Dragon-type. Dragonite's Hyper Beam forces it to recharge, creating a critical free turn. My team was too weakened from the Agatha fight to be viable. I need a strategy that allows me to enter the Lance fight with a healthier party.
