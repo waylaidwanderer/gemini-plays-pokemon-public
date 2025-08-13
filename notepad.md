@@ -10,6 +10,9 @@
 - **Defeated Elite Four Trainers:** Become impassable obstacles after their defeat speech.
 
 ## B. Tile Mechanics & Traversal
+- **`ground` / `grass`:** Standard traversable tiles.
+- **`impassable` / `unknown`:** Cannot be entered. Must be navigated around.
+- **`water`:** Requires Surf to traverse.
 - **`cleared_boulder_barrier`:** Acts as a one-way ramp, allowing movement *up* from 'ground' to 'elevated_ground', but not down. (Hypothesis - needs more testing).
 - **Boulder Pushing:** A single button press can both turn the player and push an adjacent boulder one tile. The player's position does not change during the push. Boulders CANNOT be pushed onto 'steps' tiles.
 
@@ -37,14 +40,18 @@
 - **Tool Maintenance Mandate (CRITICAL FAILURE):** I deferred fixing my broken `generate_path_plan` tool in Victory Road, violating the core directive that maintaining automation is the highest priority. Faulty tools must be fixed immediately.
 - **Agent Engineering Failure (`battle_strategist_agent`):** I failed to correctly engineer the `battle_strategist_agent`'s prompt and input schema, leading to suboptimal suggestions. I must prioritize iterative refinement of agents.
 - **Scientific Mindset & Hypothesis Testing (CRITICAL FAILURE):** My fixation on a single solution path must be avoided. When a primary hypothesis repeatedly fails, I must actively seek to falsify it by testing alternative routes and solutions. I must be more meticulous in observing, forming a single testable hypothesis, documenting, testing, and then attempting to *falsify* the conclusion.
-- **Navigational Failure (Indigo Plateau):** I fundamentally misunderstood the Indigo Plateau layout, assuming the challenge lobby and Pokémon Center were connected. This was based on visual information without proper testing. I wasted dozens of turns attempting to reach an impossible location instead of falsifying my initial hypothesis and exploring the alternative (that the PC was in a separate building).
+- **Navigational Failure (Indigo Plateau):** I fundamentally misunderstood the Indigo Plateau layout. I observed the Nurse/PC in the eastern building but failed to pathfind there. My conclusion should have been that the area was physically divided and unreachable from my entrance. Instead of accepting this and forming a new hypothesis (e.g., "The PC is in a separate building on Route 23"), I exhibited confirmation bias, repeatedly trying to enter the same wrong building and assuming my tools were broken. This wasted dozens of turns. The correct scientific process is: 
+  - **Observation:** Entered eastern Indigo Plateau building. Can see Nurse/PC, but they are behind an impassable counter. 
+  - **Hypothesis 1:** I can walk to the Nurse/PC from my current position. 
+  - **Test 1:** Attempt to pathfind. 
+  - **Conclusion 1:** Pathfinding failed; system confirmed destination is unreachable. Hypothesis 1 is FALSE. The lobby is physically divided. 
+  - **New Hypothesis 2:** The entrance to the Pokémon Center facilities must be a separate entrance on Route 23 that I have missed. I must exit this building and re-explore Route 23.
 
 ## B. Future Automation Pipeline
 - **Agent Idea: `journey_planner`:** Devises multi-map routes involving different travel modes (walking, surfing).
 - **Agent Idea: `puzzle_master_agent`:** High-level agent to orchestrate `boulder_move_finder` and `boulder_path_planner` for complete puzzle solutions.
-- **Tool Idea: `map_navigator_assistant`:** Parses `map_xml_string` to find key interactable objects (PC, Nurse) and returns their coordinates and the correct tile for interaction.
+- **Tool Idea: `map_navigator_assistant`:** A high-priority tool. It will parse `map_xml_string` to find key interactable objects (e.g., a background object with the name 'Nurse' or 'PC') and return both their coordinates and the correct adjacent tile for interaction. This will prevent future pathfinding failures caused by targeting unreachable objects.
 - **Tool Idea: `multi_modal_pathfinder`:** Calculates a single path across disconnected landmasses and water bodies.
-- **Agent Idea: `party_viability_assessor`:** Analyzes party HP, status, and type matchups against a known opponent to rank the survivability/viability of each potential switch-in.
 
 # III. Battle Logs
 
@@ -60,17 +67,3 @@
 
 # IV. Strategic Notes
 - Always assume opponents, especially high-level ones like the Elite Four, have coverage moves for their weaknesses. Do not rely solely on primary typing for strategy.
-
-## Navigational Failure (Indigo Plateau):
-- **Observation:** Entered the eastern Indigo Plateau building. I can see the Nurse and PC, but they are on the other side of an impassable counter.
-- **Hypothesis 1:** I can walk to the Nurse/PC from the southern entrance area.
-- **Test 1:** Attempted to use `generate_path_plan` to navigate to the Nurse at (14, 12).
-- **Conclusion 1:** Pathfinding failed, and a system warning confirmed the destination is unreachable. Hypothesis 1 is FALSE. The lobby is physically divided.
-- **New Hypothesis 2:** The entrance to the Pokémon Center facilities must be a separate entrance on Route 23 that I have missed. I must exit this building and re-explore Route 23.
-
-## Navigational Failure (Indigo Plateau):
-- **Observation:** Entered the eastern Indigo Plateau building. I can see the Nurse and PC, but they are on the other side of an impassable counter.
-- **Hypothesis 1:** I can walk to the Nurse/PC from the southern entrance area.
-- **Test 1:** Attempted to use `generate_path_plan` to navigate to the Nurse at (14, 12).
-- **Conclusion 1:** Pathfinding failed, and a system warning confirmed the destination is unreachable. Hypothesis 1 is FALSE. The lobby is physically divided.
-- **New Hypothesis 2:** The entrance to the Pokémon Center facilities must be a separate entrance on Route 23 that I have missed. I must exit this building and re-explore Route 23.
