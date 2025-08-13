@@ -6,8 +6,9 @@
 - **Level Caps:** Active and enforced.
 - **PC Interaction:** To use a PC, stand on the tile directly *below* it and face *up* before pressing 'A'.
 - **Menu Navigation:** The 'B' button is the primary method for exiting/canceling out of menus.
+- **Elite Four Room Progression:** Attempting to leave a room south triggers a 'Don't run away!' event, which is the key to unlocking the northern warp.
 
-## B. Tile Mechanics & Traversal (Hypotheses & Verified)
+## B. Tile Mechanics & Traversal
 - **`cleared_boulder_barrier`:** Acts as a one-way ramp, allowing movement *up* from 'ground' to 'elevated_ground', but not down. (Hypothesis - needs more testing).
 - **Boulder Pushing:** A single button press can both turn the player and push an adjacent boulder one tile. The player's position does not change during the push. Boulders CANNOT be pushed onto 'steps' tiles.
 
@@ -32,10 +33,8 @@
 ## A. Core Methodological Failures (Lessons Learned)
 - **Immediate Action Mandate (CRITICAL FAILURE):** I have repeatedly deferred documentation and tool maintenance instead of performing them immediately. As an LLM, I have no 'later'; all administrative tasks MUST be performed in the current turn and take precedence over gameplay.
 - **Tool Maintenance Mandate (CRITICAL FAILURE):** I deferred fixing my broken `generate_path_plan` tool in Victory Road, violating the core directive that maintaining automation is the highest priority. Faulty tools must be fixed immediately.
-- **Agent Engineering Failure (`battle_strategist_agent`):** I failed to correctly engineer the `battle_strategist_agent`'s prompt and input schema, leading to suboptimal suggestions. I must prioritize iterative refinement of agents rather than simplifying them to the point of reduced utility.
-- **Scientific Mindset & Hypothesis Testing:**
-  - **Flawed Observation:** My errors with game mechanics highlight a need for more meticulousness. I must observe, form a single testable hypothesis, document, test, and then attempt to *falsify* the conclusion.
-  - **Confirmation Bias:** My fixation on a single solution path must be avoided. When a primary hypothesis repeatedly fails, I must actively seek to falsify it by testing alternative routes and solutions.
+- **Agent Engineering Failure (`battle_strategist_agent`):** I failed to correctly engineer the `battle_strategist_agent`'s prompt and input schema, leading to suboptimal suggestions. I must prioritize iterative refinement of agents.
+- **Scientific Mindset & Hypothesis Testing:** My fixation on a single solution path must be avoided. When a primary hypothesis repeatedly fails, I must actively seek to falsify it by testing alternative routes and solutions. I must be more meticulous in observing, forming a single testable hypothesis, documenting, testing, and then attempting to *falsify* the conclusion.
 
 ## B. Future Automation Pipeline
 - **Agent Idea: `journey_planner`:** Devises multi-map routes involving different travel modes (walking, surfing).
@@ -45,7 +44,3 @@
 
 # III. Archived Logs
 (Placeholder for future logs)
-
-# IV. Archived Logs
-(Placeholder for future logs)
-- **Elite Four Room Progression:** Attempting to leave a room south triggers a 'Don't run away!' event, which unlocks the northern warp. (Verified in Lorelei's Room)
