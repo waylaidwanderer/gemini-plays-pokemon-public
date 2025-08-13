@@ -74,3 +74,10 @@
 - **Test 1:** Attempted to use `generate_path_plan` to navigate to the Nurse at (14, 12).
 - **Conclusion 1:** Pathfinding failed, and a system warning confirmed the destination is unreachable. Hypothesis 1 is FALSE. The lobby is physically divided.
 - **New Hypothesis 2:** The entrance to the Pokémon Center facilities must be a separate entrance on Route 23 that I have missed. I must exit this building and re-explore Route 23.
+
+## Navigational Failure (Indigo Plateau):
+- **Observation:** Entered the eastern Indigo Plateau building. I can see the Nurse and PC, but they are on the other side of an impassable counter.
+- **Hypothesis 1:** I can walk to the Nurse/PC from the southern entrance area.
+- **Test 1:** Attempted to use `generate_path_plan` to navigate to the Nurse at (14, 12).
+- **Conclusion 1:** Pathfinding failed, and a system warning confirmed the destination is unreachable. Hypothesis 1 is FALSE. The lobby is physically divided.
+- **New Hypothesis 2:** The entrance to the Pokémon Center facilities must be a separate entrance on Route 23 that I have missed. I must exit this building and re-explore Route 23.
