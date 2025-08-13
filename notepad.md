@@ -19,10 +19,10 @@
   - Ice > Ground, Grass, Flying, Dragon
   - Flying > Fighting, Grass, Bug
   - Fighting > Normal, Rock, Ice
-  - Electric > Water, Flying
 
 - **Not Very Effective (0.5x damage):**
   - Normal !> Rock
+  - Ice !> Fighting
 
 - **Immune (0x damage):**
   - Ground immune to Electric
@@ -44,4 +44,3 @@
 
 # III. Archived Logs
 (Placeholder for future logs)
-  - Ice !> Fighting
