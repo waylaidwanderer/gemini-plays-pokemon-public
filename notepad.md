@@ -63,3 +63,9 @@
   - Step 4: Player moves to (5, 17), pushes boulder Left to (3, 17).
   - Step 5: Player moves to (4, 17), pushes boulder Left to (2, 17). **[COMPLETE]**
 - **Agent Supervision:** My override of the `battle_strategist_agent` in turn 138620 was correct. Agents are powerful tools, but not infallible. I must continue to critically evaluate their output, especially in high-risk situations, and be prepared to make a different call if my analysis identifies a flaw or a safer path. An agent's advice is a strong suggestion, not an unbreakable command.
+
+# V. Gameplay & Interaction Rules
+- **PC Interaction:** To use a PC, the player must stand on the tile directly *below* it and be facing *up* before pressing 'A'. The object name in the map data is typically `OpenPokemonCenterPC`.
+
+# VI. Future Automation Ideas
+- **Tool Idea: `map_navigator_assistant`:** A tool that parses `map_xml_string` to find key interactable objects (e.g., 'PC', 'Nurse', 'Clerk') and returns their coordinates along with the correct tile to stand on for interaction. This would prevent wasting time on incorrect interaction attempts.
