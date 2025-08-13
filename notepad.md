@@ -1,13 +1,8 @@
 # I. Game Mechanics (Verified)
-## A. Tile Traversal & Interaction Rules
-- **ground:** Standard walkable tile.
-- **grass:** Tall grass where wild Pokémon appear. Walkable.
-- **water:** Requires Surf to traverse. Cannot be walked on.
-- **impassable:** Cannot be walked on. Includes walls, rocks, and some decorative objects.
+## A. Tile Traversal & Interaction Rules (Player-Discovered)
 - **elevated_ground:** Walkable, but at a different elevation. Can only be accessed via 'steps' or by dropping down from above.
 - **steps:** Allows movement between 'ground' and 'elevated_ground'.
 - **ladder_up / ladder_down:** Acts as a warp between floors.
-- **ledge:** A one-way drop. Can be jumped down from an adjacent tile above, landing on the tile two spaces below the starting point.
 - **cleared_boulder_barrier:** A former barrier that now acts as a one-way ramp, allowing movement *up* from 'ground' to 'elevated_ground', but not down.
 - **hole:** A tile that drops a pushed boulder to the floor below.
 - **boulder_barrier:** An impassable barrier that can be cleared by a `boulder_switch`.
