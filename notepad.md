@@ -48,3 +48,4 @@
 
 # IV. Archived Logs
 (Placeholder for future logs)
+- **Elite Four Room Progression:** Attempting to leave a room south triggers a 'Don't run away!' event, which unlocks the northern warp. (Verified in Lorelei's Room)
