@@ -71,3 +71,5 @@
 - **Blackout Respawn:** Losing a battle to an Elite Four member and blacking out will respawn the player at the Indigo Plateau Pokémon Center, fully healing the party. This appears to be the intended method for accessing the Pokémon Center after entering the challenge area.
 ## D. Elite Four Mechanics (Verified)
 - **Blackout Respawn:** Losing a battle to an Elite Four member and blacking out will respawn the player at the Indigo Plateau Pokémon Center, fully healing the party. This appears to be the intended method for accessing the Pokémon Center after entering the challenge area.
+## D. Elite Four Mechanics (Verified)
+- **Blackout Respawn:** Losing a battle to an Elite Four member and blacking out will respawn the player at the Indigo Plateau Pokémon Center, fully healing the party. This appears to be the intended method for accessing the Pokémon Center after entering the challenge area.
