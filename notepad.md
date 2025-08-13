@@ -60,3 +60,5 @@
 # IV. Archived Logs
 (Placeholder for future logs)
 - **Indigo Plateau Lobby:** The lobby is split into two disconnected sections. The western side is the challenge area, and the eastern side has the Pokémon Center/Mart. Once you enter the western side, you cannot return to the eastern side to heal without defeating the Elite Four or blacking out.
+- **Agent Idea: `party_viability_assessor`:** Analyzes party HP, status, and type matchups against a known opponent to rank the survivability/viability of each potential switch-in during desperate situations.
+- **Strategic Note:** Always assume opponents, especially high-level ones like the Elite Four, have coverage moves for their weaknesses. Do not rely solely on primary typing for strategy.
