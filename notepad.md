@@ -32,6 +32,22 @@
 - **Hypothesis Falsification (Ground > Psychic):** To avoid confirmation bias with the 'Ground > Psychic' hypothesis, I must actively try to disprove it. When facing a Psychic-type, I will first test with non-Ground type moves to establish a baseline before using a Ground move.
 
 ## C. Battle Logs (Elite Four)
+### Battles vs. Lorelei
+- **Observed Roster:**
+  - Slowbro (Lv 56) - Known Moves: Psychic
+  - Cloyster (Lv 55) - Moves unknown.
+  - Dewgong (Lv 55) - Moves unknown.
+  - Jynx (Lv 56) - Known Moves: Lovely Kiss, Blizzard, Psychic, Bubblebeam (lowers Speed).
+  - Lapras (Lv 57) - Moves unknown.
+
+### Battles vs. Bruno (Losses)
+- **Observed Roster (Consolidated):**
+  - Hitmonchan (Lv 57) - Known Moves: Dizzy Punch, Thunderpunch, Ice Punch
+  - Poliwrath (Lv 56) - Known Moves: Hydro Pump, Ice Beam
+  - Hitmonlee (Lv 57) - Known Moves: Jump Kick
+  - Onix (Lv 56) - Moves unknown.
+  - Machamp (Lv 58) - Known Moves: Earthquake
+
 ### Battles vs. Agatha (Losses)
 - **Multiple Attempts:** Lost to Gengar (Lv 57). Confirmed Moves: Mega Drain, Hypnosis, Night Shade.
 - **Key Learnings:**
@@ -44,12 +60,6 @@
 ### Attempt 2 vs. Lance (Loss)
 - **Opponent's Pokémon:**
   - Aerodactyl (Lv 61) - Typing assumed Rock/Flying. Known Moves: EARTHQUAKE.
-
-### Battles vs. Bruno (Losses)
-- **Attempt 1:** Lost to Poliwrath (Lv 56).
-- **Observed Roster:**
-  - Hitmonchan (Lv 57) - Known Moves: Dizzy Punch, Thunderpunch, Ice Punch
-  - Poliwrath (Lv 56) - Known Moves: Hydro Pump, Ice Beam
 
 # III. Meta-Progression & Lessons Learned
 
