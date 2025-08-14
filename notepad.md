@@ -16,7 +16,7 @@
 - **Boulder Pushing:** A single button press can both turn the player and push an adjacent boulder one tile. The player's position does not change during the push. Boulders CANNOT be pushed onto 'steps' tiles.
 
 ## C. Elite Four Mechanics (Verified)
-- **Room Progression:** Attempting to leave a room south triggers a 'Don't run away!' event, which is the key to unlocking the northern warp.
+- **Room Progression:** After defeating a member, walking south towards the entrance triggers an event that unlocks the northern warp to the next room. This must be done on each visit.
 - **Defeated Trainers:** Become impassable obstacles after their defeat speech.
 - **Blackout Respawn:** Losing a battle to an Elite Four member causes a blackout, respawning the player with a healed party in the challenge lobby. While this is a consequence of failure, the intended method to access the Pokémon Center is to exit the challenge area and re-enter the Indigo Plateau building from the separate, eastern entrance on Route 23.
 
