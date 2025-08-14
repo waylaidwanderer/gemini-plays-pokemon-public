@@ -83,5 +83,3 @@
 - **Hypothesis 2 (Failed):** Walking south *towards* the exit triggers the door opening.
 - **Hypothesis 3 (Failed):** Stepping *onto* a southern warp tile triggers the door opening.
 - **New Hypothesis 4:** The southern exit is a 2-step warp. I must stand on a southern warp tile (e.g., (6, 12)) and then press 'Down' to trigger the event correctly.
-### Elite Four Room Progression (Verified)
-- **Re-battle Mechanic:** Interacting with a defeated Elite Four member (e.g., Lorelei) by pressing 'A' after their defeat speech will re-initiate the battle. This seems to be the intended way to progress, rather than a door opening automatically.
