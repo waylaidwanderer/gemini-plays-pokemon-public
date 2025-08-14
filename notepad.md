@@ -30,7 +30,6 @@
   - Fighting > Normal, Rock, Ice
   - Grass > Ground, Rock, Water
   - Psychic > Ghost
-  - Ice > Ground (Verified vs. Bruno's Hitmonchan on my Marowak)
 
 - **Not Very Effective (0.5x damage):**
   - Normal !> Rock
@@ -75,6 +74,3 @@
 
 ## B. Agent Engineering Notes
 - **`map_navigator_assistant`:** The tool initially failed to find the PC on the Indigo Plateau map because it only searched for an 'id-name' attribute. I fixed this in turn 141153 by adding a fallback to check for the 'name' attribute on object tags, making it capable of finding background objects like PCs.
-
-## C. Tool Development Notes
-(This section is now empty)
