@@ -695,6 +695,16 @@
         "commit_message": "fix: Add boulder collision detection. The pathfinder was generating invalid paths by attempting to move through boulders because it only checked for `<Object>` tags, not `<Boulder>` tags. This commit adds a check for boulders in the XML parsing logic, correctly marking them as impassable and preventing this critical failure.",
         "timestamp": "2025-08-14T22:33:43.487Z",
         "action_counter": 143079
+      },
+      {
+        "commit_message": "fix: Add extensive debug prints to get_neighbors. The pathfinder is failing on a simple, flat map. The issue is almost certainly in the neighbor generation logic. This commit adds detailed print statements to trace the evaluation of every potential neighbor, which is a critical step in identifying the precise line of code that is causing the failure.",
+        "timestamp": "2025-08-14T23:29:21.372Z",
+        "action_counter": 143181
+      },
+      {
+        "commit_message": "fix: Overhaul tool to use a pre-computed grid. All previous versions failed due to a mysterious and persistent bug related to repeated XML parsing. This complete rewrite decouples the pathfinding from the XML by first building a simple 2D grid representation of the map. The A* search then operates on this clean data structure, which should eliminate the parsing bug and finally restore navigational functionality.",
+        "timestamp": "2025-08-14T23:30:25.131Z",
+        "action_counter": 143183
       }
     ]
   },
