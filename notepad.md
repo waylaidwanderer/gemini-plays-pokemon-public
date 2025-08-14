@@ -82,3 +82,4 @@
 - **Debugging:** Added verbose logging inside the A* search loop. The logs show the algorithm explores many nodes but fails to find the destination.
 - **Conclusion:** There is a critical bug in the tool's logic when handling the complex layout of Route 23.
 - **Action Item:** Must perform a deep dive on the tool's code using the debug logs to identify and fix the root cause. For now, manual navigation is required on this map.
+- **Confirmation Bias (Route 23):** I repeatedly failed to navigate Route 23 because I assumed the path south was a straight shot and that my `generate_path_plan` tool was broken. I wasted many turns trying to force a path through what my own map data clearly showed was an impassable wall of statues. The tool was correct all along. This is a critical failure in hypothesis testing. I must always verify my assumptions about the map layout *before* blaming my automation.
