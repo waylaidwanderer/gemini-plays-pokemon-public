@@ -8,10 +8,10 @@
 - **Menu Navigation:** The 'B' button is the primary method for exiting/canceling out of menus.
 
 ## B. Tile Mechanics & Traversal (Verified)
-- **`ground` / `grass`:** Standard traversable tiles.
-- **`impassable` / `unknown`:** Cannot be entered. Must be navigated around.
-- **`water`:** Requires Surf to traverse.
-- **`cleared_boulder_barrier`:** Acts as a one-way ramp, allowing movement *up* from 'ground' to 'elevated_ground', but not down.
+- `ground` / `grass`: Standard traversable tiles.
+- `impassable` / `unknown`: Cannot be entered. Must be navigated around.
+- `water`: Requires Surf to traverse.
+- `cleared_boulder_barrier`: Acts as a one-way ramp, allowing movement *up* from 'ground' to 'elevated_ground', but not down.
 - **Boulder Pushing:** A single button press can both turn the player and push an adjacent boulder one tile. The player's position does not change during the push. Boulders CANNOT be pushed onto 'steps' tiles.
 
 ## C. Elite Four Mechanics (Verified)
@@ -46,13 +46,14 @@
 - **Hypothesis Falsification (Ground > Psychic):** To avoid confirmation bias with the 'Ground > Psychic' hypothesis, I must actively try to disprove it. When facing a Psychic-type, I will first test with non-Ground type moves to establish a baseline before using a Ground move.
 
 ## C. Battle Logs (Elite Four)
-### Attempt 1 vs. Agatha (Loss)
-- **Opponent's Pokémon:**
-  - Gengar (Lv 57) - Known Moves: Mega Drain, Hypnosis, Night Shade
+### Battles vs. Agatha (Losses)
+- **Opponent's Gengar (Lv 57) - Known Moves:** Mega Drain, Hypnosis, Night Shade.
 - **Key Learnings:**
-  - Gengar's Grass-type move Mega Drain is devastating to Rock/Ground types (4x weakness).
+  - Gengar is extremely fast and can outspeed my entire team.
+  - Mega Drain (Grass) is super-effective against Water/Ice (Neptune) and devastating to Rock/Ground types (Crag). Gengar uses it to heal.
+  - Night Shade deals fixed damage equal to Gengar's level (57), providing consistent damage output.
   - Hypnosis is a major threat, capable of disabling key Pokémon.
-  - A high-level Psychic-type or a fast, powerful special attacker is needed.
+  - **Conclusion:** A fast, high-level Psychic-type (like Kadabra) is essential to outspeed and KO Gengar with a super-effective move before it can act.
 
 ### Attempt 2 vs. Lance (Loss)
 - **Opponent's Pokémon:**
@@ -74,8 +75,3 @@
 
 ## B. Agent Engineering Notes
 - **`map_navigator_assistant`:** The tool initially failed to find the PC on the Indigo Plateau map because it only searched for an 'id-name' attribute. I fixed this in turn 141153 by adding a fallback to check for the 'name' attribute on object tags, making it capable of finding background objects like PCs.
-### Attempt 2 vs. Agatha (Loss)
-- **Opponent's Pokémon:**
-  - Gengar (Lv 57) - Known Moves: Mega Drain, Night Shade
-- **Key Learnings:**
-  - Gengar outspeeds and can KO my entire team with super-effective Mega Drain and consistent Night Shade damage. A fast counter is essential.
