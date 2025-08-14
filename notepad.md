@@ -72,4 +72,4 @@
 ### Attempt 2 vs. Lance
 - **Opponent's Pokémon:**
   - Aerodactyl (Lv 61) - Typing assumed Rock/Flying. Known Moves: EARTHQUAKE.
-- **Tool Failure (`map_navigator_assistant`):** The tool failed to find the PC on the Indigo Plateau map (ID 9). This indicates that PCs are likely not standard named 'Objects' in the map data and the tool's logic needs to be updated to account for special cases like this. For now, I must rely on memory or manual exploration to find PCs.
+- **Tool Development (`map_navigator_assistant`):** The tool initially failed to find the PC on the Indigo Plateau map because it only searched for an 'id-name' attribute. I fixed this in turn 141153 by adding a fallback to check for the 'name' attribute on object tags, making it capable of finding background objects like PCs.
