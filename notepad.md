@@ -8,16 +8,26 @@
 - **Menu Navigation:** The 'B' button is the primary method for exiting/canceling out of menus.
 - **Forced Sleeping Switch:** The game will force you to send out or switch to a sleeping Pokémon if no other conscious Pokémon are available. This is a mechanical exception to the strategic guideline of avoiding switching to sleeping Pokémon.
 
-## B. Tile Mechanics & Traversal (Verified)
+## B. Tile Mechanics & Traversal
 - `ground` / `grass`: Standard traversable tiles.
 - `impassable` / `unknown`: Cannot be entered. Must be navigated around.
 - `water`: Requires Surf to traverse.
 - `cleared_boulder_barrier`: Acts as a one-way ramp, allowing movement *up* from 'ground' to 'elevated_ground', but not down.
 - **Boulder Pushing:** A single button press can both turn the player and push an adjacent boulder one tile. The player's position does not change during the push. Boulders CANNOT be pushed onto 'steps' tiles.
+- **Future Goal:** Create a comprehensive list of all tile types and their verified traversal rules.
 
-## C. Elite Four Mechanics (Verified)
-- **Room Progression:** To proceed, you must defeat the Elite Four member, then interact with them a second time to trigger another battle. Winning this second battle unlocks the northern warp.
-- **Defeated Trainers:** Become impassable obstacles after their defeat speech.## B. Strategic Notes & Hypotheses
+## C. Elite Four Mechanics (Hypothesis)
+- **Room Progression Hypothesis:** To proceed, you must defeat the Elite Four member, then interact with them a second time to trigger another battle. Winning this second battle unlocks the northern warp. **(This is unverified and must be tested)**
+- **Defeated Trainers:** Become impassable obstacles after their defeat speech.
+
+# II. Battle Data & Strategy
+
+## A. Type Effectiveness Chart (Verified In-Game)
+- **Super Effective (2x):** Water > Rock, Ground, Fire; Electric > Water; Ground > Fire, Electric, Rock, Poison, Psychic (Hypothesized), Ground; Ice > Ground, Grass, Flying, Dragon; Flying > Fighting, Grass, Bug; Fighting > Normal, Rock, Ice; Grass > Ground, Rock, Water; Psychic > Ghost.
+- **Not Very Effective (0.5x):** Normal !> Rock; Ice !> Fighting (Ice-type moves are NOT super-effective against Fighting-types); Psychic !> Psychic.
+- **Immune (0x):** Normal immune to Ghost; Ground immune to Electric; Flying immune to Ground; Ghost immune to Ground.
+
+## B. Strategic Notes & Hypotheses
 - **Opponent Coverage:** Always assume opponents, especially high-level ones like the Elite Four, have coverage moves for their weaknesses. Do not rely solely on primary typing for strategy.
 - **Hypothesis Falsification (Ground > Psychic):** To avoid confirmation bias with the 'Ground > Psychic' hypothesis, I must actively try to disprove it. When facing a Psychic-type, I will first test with non-Ground type moves to establish a baseline before using a Ground move.
 
@@ -34,6 +44,12 @@
 ### Attempt 2 vs. Lance (Loss)
 - **Opponent's Pokémon:**
   - Aerodactyl (Lv 61) - Typing assumed Rock/Flying. Known Moves: EARTHQUAKE.
+
+### Battles vs. Bruno (Losses)
+- **Attempt 1:** Lost to Poliwrath (Lv 56).
+- **Observed Roster:**
+  - Hitmonchan (Lv 57) - Known Moves: Dizzy Punch, Thunderpunch, Ice Punch
+  - Poliwrath (Lv 56) - Known Moves: Hydro Pump, Ice Beam
 
 # III. Meta-Progression & Lessons Learned
 
@@ -52,8 +68,3 @@
 
 ## D. Tile Mechanic Nuances (Hypotheses & Cautions)
 - **Context is Key:** The behavior of a specific tile type (e.g., `cleared_boulder_barrier`) might not be universal. A tile's function can change based on its location and the context of the puzzle. I must test tile mechanics in each new area rather than assuming they will always work the same way.
-### Battles vs. Bruno (Losses)
-- **Attempt 1:** Lost to Poliwrath (Lv 56).
-- **Observed Roster:**
-  - Hitmonchan (Lv 57) - Known Moves: Dizzy Punch, Thunderpunch, Ice Punch
-  - Poliwrath (Lv 56) - Known Moves: Hydro Pump, Ice Beam
