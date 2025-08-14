@@ -74,3 +74,8 @@
 
 ## B. Agent Engineering Notes
 - **`map_navigator_assistant`:** The tool initially failed to find the PC on the Indigo Plateau map because it only searched for an 'id-name' attribute. I fixed this in turn 141153 by adding a fallback to check for the 'name' attribute on object tags, making it capable of finding background objects like PCs.
+### Attempt 2 vs. Agatha (Loss)
+- **Opponent's Pokémon:**
+  - Gengar (Lv 57) - Known Moves: Mega Drain, Night Shade
+- **Key Learnings:**
+  - Gengar outspeeds and can KO my entire team with super-effective Mega Drain and consistent Night Shade damage. A fast counter is essential.
