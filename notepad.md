@@ -16,7 +16,7 @@
 - **Boulder Pushing:** A single button press can both turn the player and push an adjacent boulder one tile. The player's position does not change during the push. Boulders CANNOT be pushed onto 'steps' tiles.
 
 ## C. Elite Four Mechanics (Verified)
-- **Room Progression:** After defeating a member, walking south towards the entrance triggers an event that unlocks the northern warp to the next room. This must be done on each visit.
+- **Room Progression:** To proceed, you must defeat the Elite Four member, then interact with them a second time to trigger another battle. Winning this second battle unlocks the northern warp.
 - **Defeated Trainers:** Become impassable obstacles after their defeat speech.## B. Strategic Notes & Hypotheses
 - **Opponent Coverage:** Always assume opponents, especially high-level ones like the Elite Four, have coverage moves for their weaknesses. Do not rely solely on primary typing for strategy.
 - **Hypothesis Falsification (Ground > Psychic):** To avoid confirmation bias with the 'Ground > Psychic' hypothesis, I must actively try to disprove it. When facing a Psychic-type, I will first test with non-Ground type moves to establish a baseline before using a Ground move.
