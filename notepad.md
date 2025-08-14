@@ -76,3 +76,10 @@
 
 ## D. Tile Mechanic Nuances (Hypotheses & Cautions)
 - **Context is Key:** The behavior of a specific tile type (e.g., `cleared_boulder_barrier`) might not be universal. A tile's function can change based on its location and the context of the puzzle. I must test tile mechanics in each new area rather than assuming they will always work the same way.
+
+### Elite Four Room Progression (Hypothesis Log)
+- **Observation:** After defeating Lorelei, the northern door is closed. Attempting to walk south triggers a 'Don't run away!' event but does not open the door.
+- **Hypothesis 1 (Failed):** The northern door opens automatically after the battle.
+- **Hypothesis 2 (Failed):** Walking south *towards* the exit triggers the door opening.
+- **Hypothesis 3 (Failed):** Stepping *onto* a southern warp tile triggers the door opening.
+- **New Hypothesis 4:** The southern exit is a 2-step warp. I must stand on a southern warp tile (e.g., (6, 12)) and then press 'Down' to trigger the event correctly.
