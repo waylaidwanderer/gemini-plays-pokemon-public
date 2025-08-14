@@ -64,8 +64,3 @@
 ## A. Core Methodological Failures (Self-Correction Log)
 - **Immediate Action Mandate (CRITICAL FAILURE):** I have repeatedly deferred documentation and tool maintenance (e.g., placing map markers) instead of performing them immediately. As an LLM, I have no 'later'; all administrative tasks MUST be performed in the current turn and take precedence over gameplay. This is a top-priority behavior to correct.
 - **Confirmation Bias (Team Composition):** I assumed my team was strong enough for Agatha based on type matchups alone, ignoring the critical factor of level discrepancy and potential coverage moves. This led to a predictable loss. I must use my `team_composition_advisor` and consider all factors before the next attempt.
-
-## B. Future Development & Task List
-- **Tool Idea:** Create a `pc_pokemon_scanner` tool to parse PC screen text and automate data collection for the `team_composition_advisor`.
-- **Agent Refinement:** Improve `battle_strategist_agent` prompt to be more cautious about large level gaps and more explicit about the value of sacrificial plays.
-- **Map Marker Cleanup:** Delete redundant marker '🚪 From Bruno's Room' at (5, 12) on map 247 (Agatha's Room) on the next visit.
