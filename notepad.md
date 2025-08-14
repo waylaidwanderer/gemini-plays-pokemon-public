@@ -17,6 +17,7 @@
 - `elevated_ground`: Walkable ground at a different elevation, only accessible from `steps` or other `elevated_ground` tiles.
 - `cleared_boulder_barrier`: Acts as a one-way ramp, allowing movement *up* from 'ground' to 'elevated_ground', but not down.
 - `boulder_barrier`: Impassable tile that can be cleared by a `boulder_switch`.
+- `boulder_switch`: Floor switch for boulders. Activating it changes `boulder_barrier` to `cleared_boulder_barrier`.
 - `spinner_*`: Forces movement in the specified direction.
 - **Boulder Pushing:** A single button press can both turn the player and push an adjacent boulder one tile. The player's position does not change during the push. Boulders CANNOT be pushed onto 'steps' tiles.
 - **Context is Key:** The behavior of a specific tile type might not be universal. I must test tile mechanics in each new area rather than assuming they will always work the same way.
@@ -34,8 +35,7 @@
 
 ## B. Strategic Notes & Hypotheses
 - **Opponent Coverage:** Always assume opponents, especially high-level ones like the Elite Four, have coverage moves for their weaknesses. Do not rely solely on primary typing for strategy.
-- **Hypothesis Falsification (Ground > Psychic):** To avoid confirmation bias with the 'Ground > Psychic' hypothesis, I must actively try to disprove it. When facing a Psychic-type, I will first test with non-Ground type moves to establish a baseline before using a Ground move.
-- **Hypothesis (Agatha's Gengar):** A fast, high-level Psychic-type (like Kadabra) is essential to outspeed and KO Gengar. **Test:** Next time I face Gengar, I will switch to SPOONBENDE and use Psychic to test this, even if it's a risky play.
+- **Hypothesis (Agatha's Gengar):** A fast, high-level Psychic-type is essential. My Lv36 Kadabra was too underleveled. I need a faster solution or a bulkier Pokémon that can survive Gengar's attacks.
 
 ## C. Battle Logs (Elite Four)
 ### Lorelei (Observed Roster)
@@ -45,25 +45,27 @@
   - Jynx (Lv 59) - Known Moves: Lovely Kiss, Blizzard, Psychic, Bubblebeam (lowers Speed).
   - Lapras (Lv 60) - Moves unknown.
 
-### Bruno (Observed Roster - Consolidated)
+### Bruno (Observed Roster)
   - Hitmonchan (Lv 57) - Known Moves: Dizzy Punch, Thunderpunch, Ice Punch
   - Poliwrath (Lv 56) - Known Moves: Hydro Pump, Ice Beam
   - Hitmonlee (Lv 57) - Known Moves: Jump Kick
   - Onix (Lv 56) - Known Moves: Rock Slide
   - Machamp (Lv 58) - Known Moves: Earthquake, Rock Slide
 
-### Agatha (Observed Roster)
-  - Gengar (Lv 57) - Known Moves: Mega Drain, Hypnosis, Night Shade.
-
-### Lance (Observed Roster)
-  - Aerodactyl (Lv 61) - Typing assumed Rock/Flying. Known Moves: EARTHQUAKE.
+### Agatha (Observed Roster - Last Attempt)
+  - Gengar (Lv 57) - Known Moves: Night Shade, Mega Drain, Hypnosis, Dream Eater
+  - Golbat (Lv 58) - Moves unknown.
+  - Marowak (Lv 57) - Known Moves: Rock Slide, Earthquake
+  - Arbok (Lv 58) - Known Moves: Glare, Substitute
+  - Gengar (Lv 59) - Known Moves: Psychic
 
 # III. Meta-Progression & Lessons Learned
 
 ## A. Core Methodological Failures (Self-Correction Log)
-- **Immediate Action Mandate (CRITICAL FAILURE):** I have repeatedly deferred documentation and tool maintenance instead of performing them immediately. As an LLM, I have no 'later'; all administrative tasks MUST be performed in the current turn and take precedence over gameplay.
-- **Tool Maintenance Mandate (CRITICAL FAILURE):** I deferred fixing my broken `generate_path_plan` tool in Victory Road, violating the core directive that maintaining automation is the highest priority. Faulty tools must be fixed immediately.
-- **Agent Engineering Failure (`battle_strategist_agent`):** I failed to correctly engineer the `battle_strategist_agent`'s prompt and input schema, leading to suboptimal suggestions. I must prioritize iterative refinement of agents.
-- **Scientific Mindset & Hypothesis Testing (CRITICAL FAILURE):** My fixation on a single solution path must be avoided. When a primary hypothesis repeatedly fails, I must actively seek to falsify it by testing alternative routes and solutions. I must be more meticulous in observing, forming a single testable hypothesis, documenting, testing, and then attempting to *falsify* the conclusion.
-- **Navigational Failure (Indigo Plateau):** I fundamentally misunderstood the Indigo Plateau layout. My conclusion should have been that the area was physically divided and unreachable from my entrance. Instead of accepting this and forming a new hypothesis (e.g., "The entrance to the Pokémon Center facilities must be a separate entrance on Route 23 that I have missed."), I exhibited confirmation bias, repeatedly trying to enter the same wrong building and assuming my tools were broken.
-- **Confirmation Bias (Route 23):** I repeatedly failed to navigate Route 23 because I assumed the path south was a straight shot and that my `generate_path_plan` tool was broken. I wasted many turns trying to force a path through what my own map data clearly showed was an impassable wall of statues. The tool was correct all along; it was my interpretation of the map that was flawed. I must always verify my assumptions about the map layout *before* blaming my automation.
+- **Immediate Action Mandate (CRITICAL FAILURE):** I have repeatedly deferred documentation and tool maintenance (e.g., placing map markers) instead of performing them immediately. As an LLM, I have no 'later'; all administrative tasks MUST be performed in the current turn and take precedence over gameplay. This is a top-priority behavior to correct.
+- **Confirmation Bias (Team Composition):** I assumed my team was strong enough for Agatha based on type matchups alone, ignoring the critical factor of level discrepancy and potential coverage moves. This led to a predictable loss. I must use my `team_composition_advisor` and consider all factors before the next attempt.
+
+## B. Future Development & Task List
+- **Tool Idea:** Create a `pc_pokemon_scanner` tool to parse PC screen text and automate data collection for the `team_composition_advisor`.
+- **Agent Refinement:** Improve `battle_strategist_agent` prompt to be more cautious about large level gaps and more explicit about the value of sacrificial plays.
+- **Map Marker Cleanup:** Delete redundant marker '🚪 From Bruno's Room' at (5, 12) on map 247 (Agatha's Room) on the next visit.
