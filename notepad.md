@@ -1,22 +1,27 @@
-# I. Core Gameplay & Battle Intelligence
+# I. Game Mechanics & World Knowledge
 
-## A. Game Mechanics (Verified)
+## A. Core Gameplay (Verified)
 - **Battle Style:** Set mode.
 - **Items in Battle:** Prohibited.
 - **Level Caps:** Active and enforced.
 - **PC Interaction:** To use a PC, stand on the tile directly *below* it and face *up* before pressing 'A'.
 - **Menu Navigation:** The 'B' button is the primary method for exiting/canceling out of menus.
-- **Elite Four Room Progression:** Attempting to leave a room south triggers a 'Don't run away!' event, which is the key to unlocking the northern warp.
-- **Defeated Elite Four Trainers:** Become impassable obstacles after their defeat speech.
 
-## B. Tile Mechanics & Traversal
+## B. Tile Mechanics & Traversal (Verified)
 - **`ground` / `grass`:** Standard traversable tiles.
 - **`impassable` / `unknown`:** Cannot be entered. Must be navigated around.
 - **`water`:** Requires Surf to traverse.
 - **`cleared_boulder_barrier`:** Acts as a one-way ramp, allowing movement *up* from 'ground' to 'elevated_ground', but not down.
 - **Boulder Pushing:** A single button press can both turn the player and push an adjacent boulder one tile. The player's position does not change during the push. Boulders CANNOT be pushed onto 'steps' tiles.
 
-## C. Type Effectiveness Chart (Verified)
+## C. Elite Four Mechanics (Verified)
+- **Room Progression:** Attempting to leave a room south triggers a 'Don't run away!' event, which is the key to unlocking the northern warp.
+- **Defeated Trainers:** Become impassable obstacles after their defeat speech.
+- **Blackout Respawn:** Losing a battle to an Elite Four member causes a blackout, respawning the player with a healed party in the challenge lobby. While this is a consequence of failure, the intended method to access the Pokémon Center is to exit the challenge area and re-enter the Indigo Plateau building from the separate, eastern entrance on Route 23.
+
+# II. Battle Intelligence
+
+## A. Type Effectiveness Chart (Verified)
 - **Super Effective (2x damage):**
   - Water > Rock, Ground, Fire
   - Electric > Water
@@ -24,7 +29,8 @@
   - Ice > Ground, Grass, Flying, Dragon
   - Flying > Fighting, Grass, Bug
   - Fighting > Normal, Rock, Ice
-  - Grass > Ground, Rock
+  - Grass > Ground, Rock, Water
+  - Psychic > Ghost
 
 - **Not Very Effective (0.5x damage):**
   - Normal !> Rock
@@ -36,9 +42,26 @@
   - Flying immune to Ground
   - Ghost immune to Ground
 
-# II. Strategic Directives & Automation
+## B. Strategic Notes & Hypotheses
+- **Opponent Coverage:** Always assume opponents, especially high-level ones like the Elite Four, have coverage moves for their weaknesses. Do not rely solely on primary typing for strategy.
+- **Hypothesis Falsification (Ground > Psychic):** To avoid confirmation bias with the 'Ground > Psychic' hypothesis, I must actively try to disprove it. When facing a Psychic-type, I will first test with non-Ground type moves to establish a baseline before using a Ground move.
 
-## A. Core Methodological Failures (Lessons Learned)
+## C. Battle Logs (Elite Four)
+### Attempt 1 vs. Agatha (Loss)
+- **Opponent's Pokémon:**
+  - Gengar (Lv 57) - Known Moves: Mega Drain, Hypnosis, Night Shade
+- **Key Learnings:**
+  - Gengar's Grass-type move Mega Drain is devastating to Rock/Ground types (4x weakness).
+  - Hypnosis is a major threat, capable of disabling key Pokémon.
+  - A high-level Psychic-type or a fast, powerful special attacker is needed.
+
+### Attempt 2 vs. Lance (Loss)
+- **Opponent's Pokémon:**
+  - Aerodactyl (Lv 61) - Typing assumed Rock/Flying. Known Moves: EARTHQUAKE.
+
+# III. Meta-Progression & Lessons Learned
+
+## A. Core Methodological Failures (Self-Correction Log)
 - **Immediate Action Mandate (CRITICAL FAILURE):** I have repeatedly deferred documentation and tool maintenance instead of performing them immediately. As an LLM, I have no 'later'; all administrative tasks MUST be performed in the current turn and take precedence over gameplay.
 - **Tool Maintenance Mandate (CRITICAL FAILURE):** I deferred fixing my broken `generate_path_plan` tool in Victory Road, violating the core directive that maintaining automation is the highest priority. Faulty tools must be fixed immediately.
 - **Agent Engineering Failure (`battle_strategist_agent`):** I failed to correctly engineer the `battle_strategist_agent`'s prompt and input schema, leading to suboptimal suggestions. I must prioritize iterative refinement of agents.
@@ -50,26 +73,5 @@
   - **Conclusion 1:** Pathfinding failed; system confirmed destination is unreachable. Hypothesis 1 is FALSE. The lobby is physically divided. 
   - **New Hypothesis 2:** The entrance to the Pokémon Center facilities must be a separate entrance on Route 23 that I have missed. I must exit this building and re-explore Route 23.
 
-# III. Battle Logs
-
-## A. Elite Four Attempts
-
-### Attempt 1 vs. Agatha (Loss)
-- **Opponent's Pokémon:**
-  - Gengar (Lv 57) - Known Moves: Mega Drain, Hypnosis, Night Shade
-- **Key Learnings:**
-  - Gengar's Grass-type move Mega Drain is devastating to Rock/Ground types (4x weakness).
-  - Hypnosis is a major threat, capable of disabling key Pokémon.
-  - A high-level Psychic-type or a fast, powerful special attacker is needed. My current team composition is not viable for this fight.
-
-# IV. Strategic Notes
-- Always assume opponents, especially high-level ones like the Elite Four, have coverage moves for their weaknesses. Do not rely solely on primary typing for strategy.
-## D. Elite Four Mechanics (Verified)
-- **Blackout Respawn:** Losing a battle to an Elite Four member causes a blackout, respawning the player with a healed party in the challenge lobby. While this is a consequence of failure, the intended method to access the Pokémon Center is to exit the challenge area and re-enter the Indigo Plateau building from the separate, eastern entrance on Route 23.
-- **Hypothesis Falsification Note:** To avoid confirmation bias with the 'Ground > Psychic' hypothesis, I must actively try to disprove it. When facing a Psychic-type, I will first test with non-Ground type moves to establish a baseline before using a Ground move.
-  - Grass > Ground, Rock, Water
-  - Psychic > Ghost
-### Attempt 2 vs. Lance
-- **Opponent's Pokémon:**
-  - Aerodactyl (Lv 61) - Typing assumed Rock/Flying. Known Moves: EARTHQUAKE.
-- **Tool Development (`map_navigator_assistant`):** The tool initially failed to find the PC on the Indigo Plateau map because it only searched for an 'id-name' attribute. I fixed this in turn 141153 by adding a fallback to check for the 'name' attribute on object tags, making it capable of finding background objects like PCs.
+## B. Tool Development Notes
+- **`map_navigator_assistant`:** The tool initially failed to find the PC on the Indigo Plateau map because it only searched for an 'id-name' attribute. I fixed this in turn 141153 by adding a fallback to check for the 'name' attribute on object tags, making it capable of finding background objects like PCs.
