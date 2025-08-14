@@ -47,8 +47,7 @@
 
 ## C. Battle Logs (Elite Four)
 ### Battles vs. Agatha (Losses)
-- **Attempt 1:** Lost to Gengar (Lv 57). Known Moves: Mega Drain, Hypnosis, Night Shade.
-- **Attempt 2:** Lost to Gengar (Lv 57). Known Moves: Mega Drain, Night Shade.
+- **Multiple Attempts:** Lost to Gengar (Lv 57). Confirmed Moves: Mega Drain, Hypnosis, Night Shade.
 - **Key Learnings:**
   - Gengar is extremely fast and can outspeed my entire team.
   - Mega Drain (Grass) is super-effective against Water/Ice (Neptune) and devastating to Rock/Ground types (Crag). Gengar uses it to heal.
