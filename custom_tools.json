@@ -770,12 +770,17 @@
         "pc_screen_text"
       ]
     },
-    "python_script": "import re\nimport json\n\npc_text = input_data['pc_screen_text']\npokemon_list = []\n\n# Regex to find lines that start with an optional cursor, then a Pokémon name, then a level marker.\n# It captures the name (group 1) and the level (group 2).\npattern = re.compile(r'→?([A-Z-a-z’]+(?:[ .♀♂]{1,2})?)\\n.*?LV (\\d+)', re.MULTILINE)\n\nmatches = pattern.finditer(pc_text)\n\nfor match in matches:\n    name = match.group(1).strip()\n    level = int(match.group(2))\n    pokemon_list.append({'name': name, 'level': level})\n\nprint(json.dumps(pokemon_list))",
+    "python_script": "import re\nimport json\n\npc_screen_text = input_data['pc_screen_text']\npokemon_list = []\n# Regex to find Pokémon name (uppercase letters, spaces, and certain symbols) followed by a colon and level number\npokemon_pattern = re.compile(r'([A-Z\\s'.'-]+?)\\s*:(\\d+)')\n\nfor line in pc_screen_text.splitlines():\n    match = pokemon_pattern.search(line)\n    if match:\n        name = match.group(1).strip()\n        level = int(match.group(2))\n        pokemon_list.append({\"name\": name, \"level\": level})\n\nprint(json.dumps(pokemon_list))",
     "history": [
       {
         "commit_message": "feat: Create pc_pokemon_scanner tool. Manually transcribing Pokémon data from the PC is inefficient. This tool automates the process by parsing screen text to extract Pokémon names and levels, which will significantly speed up the data gathering phase for the `team_composition_advisor` agent. This is a critical efficiency improvement.",
         "timestamp": "2025-08-14T09:25:04.211Z",
         "action_counter": 141790
+      },
+      {
+        "commit_message": "feat: Create pc_pokemon_scanner tool. Manually transcribing Pokémon data from the PC is inefficient. This tool automates the process by parsing screen text to extract Pokémon names and levels, which will significantly speed up the data gathering phase for the `team_composition_advisor` agent. This is a critical efficiency improvement.",
+        "timestamp": "2025-08-14T20:25:59.927Z",
+        "action_counter": 142771
       }
     ]
   }
