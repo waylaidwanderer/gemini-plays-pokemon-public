@@ -18,7 +18,6 @@
 ## C. Elite Four Mechanics (Verified)
 - **Room Progression:** After defeating a member, walking south towards the entrance triggers an event that unlocks the northern warp to the next room. This must be done on each visit.
 - **Defeated Trainers:** Become impassable obstacles after their defeat speech.
-- **Blackout Respawn:** Losing a battle to an Elite Four member causes a blackout, respawning the player with a healed party in the challenge lobby. While this is a consequence of failure, the intended method to access the Pokémon Center is to exit the challenge area and re-enter the Indigo Plateau building from the separate, eastern entrance on Route 23.
 
 # II. Battle Intelligence
 
