@@ -52,3 +52,8 @@
 
 ## D. Tile Mechanic Nuances (Hypotheses & Cautions)
 - **Context is Key:** The behavior of a specific tile type (e.g., `cleared_boulder_barrier`) might not be universal. A tile's function can change based on its location and the context of the puzzle. I must test tile mechanics in each new area rather than assuming they will always work the same way.
+### Battles vs. Bruno (Losses)
+- **Attempt 1:** Lost to Poliwrath (Lv 56).
+- **Observed Roster:**
+  - Hitmonchan (Lv 57) - Known Moves: Dizzy Punch, Thunderpunch, Ice Punch
+  - Poliwrath (Lv 56) - Known Moves: Hydro Pump, Ice Beam
