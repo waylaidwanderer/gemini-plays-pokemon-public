@@ -75,3 +75,10 @@
 
 ## B. Agent Engineering Notes
 - **`map_navigator_assistant`:** The tool initially failed to find the PC on the Indigo Plateau map because it only searched for an 'id-name' attribute. I fixed this in turn 141153 by adding a fallback to check for the 'name' attribute on object tags, making it capable of finding background objects like PCs.
+
+# IV. Tool & Agent Maintenance Log
+## A. `generate_path_plan` Failures (Route 23)
+- **Issue:** The tool consistently returns "no path found" on Route 23, even for short, visually confirmed reachable paths.
+- **Debugging:** Added verbose logging inside the A* search loop. The logs show the algorithm explores many nodes but fails to find the destination.
+- **Conclusion:** There is a critical bug in the tool's logic when handling the complex layout of Route 23.
+- **Action Item:** Must perform a deep dive on the tool's code using the debug logs to identify and fix the root cause. For now, manual navigation is required on this map.
