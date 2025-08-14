@@ -65,7 +65,7 @@
 # IV. Strategic Notes
 - Always assume opponents, especially high-level ones like the Elite Four, have coverage moves for their weaknesses. Do not rely solely on primary typing for strategy.
 ## D. Elite Four Mechanics (Verified)
-- **Blackout Respawn:** Losing a battle to an Elite Four member and blacking out will respawn the player at the Indigo Plateau Pokémon Center at coordinate (10, 7), fully healing the party. This is the only verified method for accessing the Pokémon Center after entering the challenge area, as the lobby is physically divided by a counter.
+- **Blackout Respawn:** Losing a battle to an Elite Four member causes a blackout, respawning the player with a healed party in the challenge lobby. While this is a consequence of failure, the intended method to access the Pokémon Center is to exit the challenge area and re-enter the Indigo Plateau building from the separate, eastern entrance on Route 23.
 - **Hypothesis Falsification Note:** To avoid confirmation bias with the 'Ground > Psychic' hypothesis, I must actively try to disprove it. When facing a Psychic-type, I will first test with non-Ground type moves to establish a baseline before using a Ground move.
   - Grass > Ground, Rock, Water
   - Psychic > Ghost
