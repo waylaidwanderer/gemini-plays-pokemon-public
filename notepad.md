@@ -76,3 +76,6 @@
 
 ## B. Agent Engineering Notes
 - **`map_navigator_assistant`:** The tool initially failed to find the PC on the Indigo Plateau map because it only searched for an 'id-name' attribute. I fixed this in turn 141153 by adding a fallback to check for the 'name' attribute on object tags, making it capable of finding background objects like PCs.
+
+## D. Tile Mechanic Nuances (Hypotheses & Cautions)
+- **Context is Key:** The behavior of a specific tile type (e.g., `cleared_boulder_barrier`) might not be universal. A tile's function can change based on its location and the context of the puzzle. I must test tile mechanics in each new area rather than assuming they will always work the same way.
