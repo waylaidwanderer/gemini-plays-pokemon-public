@@ -21,26 +21,6 @@
 
 # II. Battle Intelligence
 
-## A. Type Effectiveness Chart (Verified)
-- **Super Effective (2x damage):**
-  - Water > Rock, Ground, Fire
-  - Electric > Water
-  - Ground > Fire, Electric, Rock, Psychic (Hypothesized - needs more data)
-  - Ice > Ground, Grass, Flying, Dragon
-  - Fighting > Normal, Rock, Ice
-  - Grass > Ground, Rock, Water
-  - Psychic > Ghost
-
-- **Not Very Effective (0.5x damage):**
-  - Normal !> Rock
-  - Ice !> Fighting
-  - Psychic !> Psychic
-
-- **Immune (0x damage):**
-  - Ground immune to Electric
-  - Flying immune to Ground
-  - Ghost immune to Ground
-
 ## B. Strategic Notes & Hypotheses
 - **Opponent Coverage:** Always assume opponents, especially high-level ones like the Elite Four, have coverage moves for their weaknesses. Do not rely solely on primary typing for strategy.
 - **Hypothesis Falsification (Ground > Psychic):** To avoid confirmation bias with the 'Ground > Psychic' hypothesis, I must actively try to disprove it. When facing a Psychic-type, I will first test with non-Ground type moves to establish a baseline before using a Ground move.
