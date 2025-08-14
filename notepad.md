@@ -69,3 +69,25 @@
 - **Reachable Tile Hallucination:** I received a critical warning for miscalculating reachable unseen tiles (reported 56, actual 0). I incorrectly assumed all 'unknown' tiles were reachable. This is a fundamental error. I must verify reachability through pathfinding or careful map analysis, not assumption. All 'unknown' tiles should be treated as impassable until an adjacent tile is explored.
 - `ladder_up` / `ladder_down`: Function as warps but are traversable tiles.
 - **Impassable NPCs:** Defeated trainers and guards who have granted passage can remain as impassable physical obstacles. I must always plan to navigate around them.
+
+# IV. Current Plan & Puzzle Log
+
+## A. Victory Road 1F Boulder Puzzle
+
+**Observation:** The barrier at (10, 13) is blocking the path to the ladder at (2, 2). There are two main puzzle sections: a western one with a switch at (3, 10) and an eastern one with a switch at (18, 14).
+
+**Hypothesis 1 (Failed - Attempt 1):** Pushing the boulder at (3, 11) onto the switch at (3, 10) will open the barrier at (10, 13).
+*   **Test:** Pushed boulder onto switch.
+*   **Outcome:** Moved to (9, 13) to observe the barrier at (10, 13). The game blocked movement, confirming the barrier was still closed.
+*   **Conclusion:** Hypothesis 1 is false.
+
+**Hypothesis 2 (Blocked):** Pushing the boulder *off* the switch at (3, 10) will open the barrier (from `puzzle_solver_agent`).
+*   **Test:** Attempted to pathfind to the push position (3, 9).
+*   **Outcome:** Pathfinding failed. Realized the boulder at (6, 16) was blocking the way.
+*   **Update:** Pushed the boulder at (6, 16) to (10, 17) to connect the west and east ground floors.
+
+**Hypothesis 3 (Current):** Solving the eastern boulder puzzle is a prerequisite to solving the western puzzle and opening the barrier at (10, 13).
+*   **Test Plan:**
+    1.  Navigate to the eastern elevated platform via the steps at (16, 8).
+    2.  Use `boulder_path_planner` to push the boulder at (15, 3) onto the switch at (18, 14).
+    3.  Move to a position to observe the barrier at (10, 13) and check its state.
