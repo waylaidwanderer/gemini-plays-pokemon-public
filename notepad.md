@@ -27,10 +27,10 @@
   - Electric > Water
   - Ground > Fire, Electric, Rock, Psychic (Hypothesized - needs more data)
   - Ice > Ground, Grass, Flying, Dragon
-  - Flying > Fighting, Grass, Bug
   - Fighting > Normal, Rock, Ice
   - Grass > Ground, Rock, Water
   - Psychic > Ghost
+  - Ice > Ground (Verified vs. Bruno's Hitmonchan on my Marowak)
 
 - **Not Very Effective (0.5x damage):**
   - Normal !> Rock
@@ -73,6 +73,8 @@
   - **Conclusion 1:** Pathfinding failed; system confirmed destination is unreachable. Hypothesis 1 is FALSE. The lobby is physically divided. 
   - **New Hypothesis 2:** The entrance to the Pokémon Center facilities must be a separate entrance on Route 23 that I have missed. I must exit this building and re-explore Route 23.
 
-## B. Tool Development Notes
+## B. Agent Engineering Notes
 - **`map_navigator_assistant`:** The tool initially failed to find the PC on the Indigo Plateau map because it only searched for an 'id-name' attribute. I fixed this in turn 141153 by adding a fallback to check for the 'name' attribute on object tags, making it capable of finding background objects like PCs.
-  - Ice > Ground (Verified vs. Bruno's Hitmonchan on my Marowak)
+
+## C. Tool Development Notes
+(This section is now empty)
