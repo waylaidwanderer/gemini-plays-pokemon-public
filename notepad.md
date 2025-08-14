@@ -16,8 +16,8 @@
 - **Boulder Pushing:** A single button press can both turn the player and push an adjacent boulder one tile. The player's position does not change during the push. Boulders CANNOT be pushed onto 'steps' tiles.
 - **Future Goal:** Create a comprehensive list of all tile types and their verified traversal rules.
 
-## C. Elite Four Mechanics (Hypothesis)
-- **Room Progression Hypothesis:** To proceed, you must defeat the Elite Four member, then interact with them a second time to trigger another battle. Winning this second battle unlocks the northern warp. **(This is unverified and must be tested)**
+## C. Elite Four Mechanics (Verified)
+- **Room Progression:** After defeating an Elite Four member, the northern door is unlocked by walking towards the southern entrance of the room. The double-battle with Lorelei appears to have been a one-time scripted event, not a standard mechanic.
 - **Defeated Trainers:** Become impassable obstacles after their defeat speech.
 
 # II. Battle Data & Strategy
