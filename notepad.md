@@ -86,8 +86,14 @@
 *   **Outcome:** Pathfinding failed. Realized the boulder at (6, 16) was blocking the way.
 *   **Update:** Pushed the boulder at (6, 16) to (10, 17) to connect the west and east ground floors.
 
-**Hypothesis 3 (Current):** Solving the eastern boulder puzzle is a prerequisite to solving the western puzzle and opening the barrier at (10, 13).
+**Hypothesis 3 (Failed - Attempt 1):** Solving the eastern boulder puzzle is a prerequisite to solving the western puzzle and opening the barrier at (10, 13).
+*   **Test:** Navigated to the eastern elevated platform and pushed the boulder at (15, 3) onto the switch at (18, 14). Moved to (9, 13) to observe the barrier.
+*   **Outcome:** The barrier at (10, 13) remains closed.
+*   **Conclusion:** Hypothesis 3 is false. The eastern puzzle does not control the barrier at (10, 13) on its own.
+
+**Hypothesis 4 (Revisiting Hypothesis 2):** Pushing the boulder *off* the switch at (3, 10) will open the barrier at (10, 13).
+*   **Rationale:** Both "on" states for the western and eastern switches failed to open the barrier. The opposite state (western switch "off") is the next logical condition to test. This was previously blocked but is now accessible.
 *   **Test Plan:**
-    1.  Navigate to the eastern elevated platform via the steps at (16, 8).
-    2.  Use `boulder_path_planner` to push the boulder at (15, 3) onto the switch at (18, 14).
-    3.  Move to a position to observe the barrier at (10, 13) and check its state.
+    1.  Navigate to the western puzzle area.
+    2.  Push the boulder currently at (3, 10) south to (3, 11).
+    3.  Return to the observation point at (9, 13) to check the barrier's state.
