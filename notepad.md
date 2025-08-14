@@ -29,6 +29,7 @@
 - **Not Very Effective (0.5x damage):**
   - Normal !> Rock
   - Ice !> Fighting
+  - Psychic !> Psychic
 
 - **Immune (0x damage):**
   - Ground immune to Electric
