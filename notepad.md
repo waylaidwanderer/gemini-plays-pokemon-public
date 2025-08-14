@@ -18,9 +18,6 @@
 ## C. Elite Four Mechanics (Verified)
 - **Room Progression:** After defeating a member, walking south towards the entrance triggers an event that unlocks the northern warp to the next room. This must be done on each visit.
 - **Defeated Trainers:** Become impassable obstacles after their defeat speech.
-
-# II. Battle Intelligence
-
 ## B. Strategic Notes & Hypotheses
 - **Opponent Coverage:** Always assume opponents, especially high-level ones like the Elite Four, have coverage moves for their weaknesses. Do not rely solely on primary typing for strategy.
 - **Hypothesis Falsification (Ground > Psychic):** To avoid confirmation bias with the 'Ground > Psychic' hypothesis, I must actively try to disprove it. When facing a Psychic-type, I will first test with non-Ground type moves to establish a baseline before using a Ground move.
