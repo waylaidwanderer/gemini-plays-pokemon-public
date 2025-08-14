@@ -74,11 +74,5 @@
   - **New Hypothesis 2:** The entrance to the Pokémon Center facilities must be a separate entrance on Route 23 that I have missed. I must exit this building and re-explore Route 23.
 - **Confirmation Bias (Route 23):** I repeatedly failed to navigate Route 23 because I assumed the path south was a straight shot and that my `generate_path_plan` tool was broken. I wasted many turns trying to force a path through what my own map data clearly showed was an impassable wall of statues. The tool was correct all along; it was my interpretation of the map that was flawed. This is a critical failure in hypothesis testing. I must always verify my assumptions about the map layout *before* blaming my automation.
 
-## B. Agent Engineering Notes
-- **`map_navigator_assistant`:** The tool initially failed to find the PC on the Indigo Plateau map because it only searched for an 'id-name' attribute. I fixed this in turn 141153 by adding a fallback to check for the 'name' attribute on object tags, making it capable of finding background objects like PCs.
-
-## D. Tile Mechanic Nuances (Hypotheses & Cautions)
-- **Context is Key:** The behavior of a specific tile type (e.g., `cleared_boulder_barrier`) might not be universal. A tile's function can change based on its location and the context of the puzzle. I must test tile mechanics in each new area rather than assuming they will always work the same way.
-
 ## D. Tile Mechanic Nuances (Hypotheses & Cautions)
 - **Context is Key:** The behavior of a specific tile type (e.g., `cleared_boulder_barrier`) might not be universal. A tile's function can change based on its location and the context of the puzzle. I must test tile mechanics in each new area rather than assuming they will always work the same way.
