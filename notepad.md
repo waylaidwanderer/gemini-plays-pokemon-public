@@ -78,4 +78,4 @@
 
 ## B. Victory Road 2F Puzzle (Current Priority)
 - **Objective:** Push a boulder to the switch at `(10, 17)`. This is a mandatory step to progress, per system directive.
-- **Hypothesis:** The boulder at `(6, 6)` is the correct one, as the boulder at `(5, 15)` was proven impossible by my `boulder_path_planner` tool.
+- **Solution requires a boulder from 3F.** The boulder at `(23, 16)` on 3F must be pushed into the hole at `(24, 16)`. This will likely place it on 2F in a position to be pushed to the switch at `(10, 17)`. Both on-floor boulders (`5, 15`) and (`6, 6`) have been proven impossible by my `boulder_path_planner` tool.
