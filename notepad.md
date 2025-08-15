@@ -64,11 +64,9 @@
 
 # III. Meta-Progression & Lessons Learned
 
-## A. Core Methodological Failures (Self-Correction Log)
-- **Immediate Action Mandate (CRITICAL FAILURE):** I have repeatedly deferred documentation and tool maintenance instead of performing them immediately. The Overwatch system has correctly identified this as my most significant methodological flaw. As an LLM, I have no 'later'; all administrative tasks (agent/tool maintenance, map markers, notepad updates) MUST be performed in the current turn and take absolute precedence over any gameplay action. This is not just a priority; it is a fundamental, non-negotiable rule of operation I must adhere to without exception.
-- **Confirmation Bias (Team Composition & Puzzles):** I have a tendency to become fixated on a single hypothesis (e.g., my team is strong enough, a specific switch must be pressed) and fail to consider alternatives or falsify my own assumptions. I must be more proactive in using my `puzzle_solver_agent` and considering all factors.
-- **Reachable Tile Hallucination & Data Integrity:** I have made critical errors by assuming 'unknown' tiles were reachable and by building strategies around non-existent objects. All future hypotheses must be based only on verified objects and traversable paths present in the Game State Information.
-- **Debugging Loop (Tool Maintenance):** I became stuck in a multi-turn loop trying to fix my `boulder_path_planner` tool, repeatedly submitting the same code despite system feedback that the fix was already applied. I must trust system feedback and avoid redundant actions.
+## A. Core Methodological Failures (Self-Correction Log - Consolidated after Turn 144005 Critique)
+- **Primary Failure (Immediate Action Mandate):** I have repeatedly violated the Immediate Action Mandate by deferring tool maintenance instead of performing it immediately upon failure. This includes attempting to use broken tools across multiple turns and getting stuck in a debugging loop by resubmitting an already-applied fix. I must trust system feedback and prioritize tool maintenance above all else.
+- **Confirmation Bias & Data Integrity:** I have a tendency to become fixated on a single hypothesis (e.g., a path is possible) and fail to falsify my own assumptions or trust my tools' outputs. I must be more proactive in using my `puzzle_solver_agent` and basing all strategies only on verified data.
 - **Victory Road Trainers:** Defeated trainers in Victory Road become impassable obstacles, similar to the Elite Four. This can permanently block paths.
 
 # IV. Current Plan & Puzzles
