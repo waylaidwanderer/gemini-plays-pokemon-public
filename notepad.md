@@ -74,3 +74,4 @@
 **Goal:** Navigate Victory Road 2F to reach the ladder to Victory Road 3F.
 
 **Current Strategy:** The boulder puzzles on this floor are solved. I need to navigate from the entrance ladder (1, 9) to the exit ladder at (2, 2). After being stuck in a debugging loop, I am now trusting that my `generate_path_plan` tool is fixed and will use it to find the optimal route.
+- `hole`: A tile that a boulder can be pushed into, usually causing it to fall to a lower floor. The player can also walk into the hole after the boulder.
