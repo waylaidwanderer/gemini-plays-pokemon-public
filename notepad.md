@@ -75,3 +75,12 @@
 - **Deferred Tool Maintenance:** I identified a failure to adhere to the Immediate Action Mandate. I repeatedly tried to use the broken `generate_path_plan` tool across multiple turns instead of fixing it immediately upon the first failure. This is a critical process error that must be corrected.
 - **Agent Opportunity:** The manual, segmented debugging of my pathfinding tool is a perfect candidate for automation. I will consider creating a `path_debugger_agent` to suggest intermediate waypoints for failed pathing requests.
 - **Tool Debugging Strategy:** My `generate_path_plan` tool still fails on complex elevation. A key untested assumption is its core logic for 'steps'. I need to create a simple 'unit test' case: pathing from ground, up steps, one tile onto an elevated platform, and back down, to isolate and verify this specific mechanic.
+
+# IV. Current Plan & Puzzles
+
+## A. Victory Road 3F Puzzle Sequence (Hypothesis)
+1.  **Objective:** Push boulder from `(14, 13)` to the switch at `(4, 6)`.
+    *   **Reasoning:** This is the only reachable boulder that can access the switch. Activating this switch is necessary to clear the `boulder_barrier` at `(8, 11)`.
+    *   **Tool:** Use `boulder_path_planner` to generate the push sequence.
+2.  **Objective:** Push boulder from `(23, 16)` into the hole at `(24, 16)`.
+    *   **Reasoning:** This is a required step according to a system directive. It can only be accomplished after clearing the barrier at `(8, 11)`.
