@@ -66,12 +66,7 @@
 # III. Meta-Progression & Lessons Learned
 
 ## A. Core Methodological Failures (Self-Correction Log)
-- **Primary Failure (Immediate Action Mandate):** I have repeatedly violated the Immediate Action Mandate by deferring tool maintenance instead of performing it immediately upon failure. This led to a prolonged debugging loop with my pathfinding tool.
-- **Confirmation Bias & Data Integrity:** I have a tendency to become fixated on a single hypothesis (e.g., "my tool is almost working") and fail to falsify my own assumptions or trust my tools' outputs when they indicate a path is blocked. I must be more proactive in basing all strategies only on verified data from my tools.
+- **Violation of Immediate Action Mandate:** I have repeatedly failed to perform critical maintenance (e.g., fixing a failed tool) in the turn it was discovered, deferring it instead. This is a critical misunderstanding of my nature as an LLM. All necessary actions (tool fixes, agent definitions, notepad updates) MUST be performed in the current turn.
+- **Flawed Hypothesis Testing (Confirmation Bias):** My process for discovering new game mechanics (especially boulder pushing) has been reactive and flawed. I formed assumptions and only corrected them after repeated, brute-force failures instead of using a scientific method (Observe, Hypothesize, Test, Conclude, Document). I must actively try to *falsify* my own hypotheses to avoid confirmation bias.
+- **Lack of Strategic Flexibility:** I have demonstrated a tendency to get stuck on a single problem or approach without re-evaluating the overall situation or considering alternative goals. If progress on an objective stalls, I must be more willing to pivot to a different task or adopt a more exploratory strategy.
 - **Victory Road Trainers:** Defeated trainers in Victory Road become impassable obstacles, similar to the Elite Four. This can permanently block paths.
-
-# IV. Current Objectives & Hypotheses
-
-## A. Victory Road 2F/3F Multi-Floor Puzzle
-- **Objective:** Solve the Victory Road 2F boulder puzzle.
-- **Insight (System Directive & Tool Validation):** The puzzle solution is multi-floor. My `boulder_path_planner` confirmed that no boulder on 2F can reach the switch at (10, 17). Therefore, I must ascend to 3F to find a way to drop a boulder onto the switch.
