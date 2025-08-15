@@ -60,8 +60,6 @@
   - Arbok (Lv 58) - Known Moves: Glare, Substitute
   - Gengar (Lv 59) - Known Moves: Psychic
 
-- `ladder_up` / `ladder_down`: Function as warps but are traversable tiles.
-
 # III. Meta-Progression & Lessons Learned
 
 ## A. Core Methodological Failures (Self-Correction Log)
@@ -69,7 +67,7 @@
 - **Confirmation Bias (Team Composition):** I assumed my team was strong enough for Agatha based on type matchups alone, ignoring the critical factor of level discrepancy and potential coverage moves. This led to a predictable loss. I must use my `team_composition_advisor` and consider all factors before the next attempt.
 - **Confirmation Bias (Victory Road 1F):** I became fixated on the hypothesis that pressing the switch at (3, 10) would open the barrier at (10, 13). I failed to consider the opposite case (that the switch needed to be un-pressed) until prompted by my `puzzle_solver_agent`. I must be more proactive in trying to falsify my own assumptions.
 - **Reachable Tile Hallucination:** I received a critical warning for miscalculating reachable unseen tiles (reported 56, actual 0). I incorrectly assumed all 'unknown' tiles were reachable. This is a fundamental error. I must verify reachability through pathfinding or careful map analysis, not assumption. All 'unknown' tiles should be treated as impassable until an adjacent tile is explored.
-- `ladder_up` / `ladder_down`: Function as warps but are traversable tiles.
+
 - **Impassable NPCs:** Defeated trainers and guards who have granted passage can remain as impassable physical obstacles. I must always plan to navigate around them.
 - **CRITICAL HALLUCINATION (Victory Road 1F):** I operated for dozens of turns under the false belief that there was a 'western switch' at (3, 10). I built entire puzzle-solving strategies around this non-existent object. This is a severe failure of observation and data integrity. All future hypotheses must be based only on verified objects present in the Game State Information.
 
