@@ -79,3 +79,4 @@
 ## B. Untested Assumptions & Future Plans
 - **Hypothesis (Player-Hole Interaction):** I need to verify if the player can walk into a `hole` tile after a boulder has been pushed into it.
 - `boulder_switch`: Can be activated by the player standing on it, not just by a boulder.
+- **Hypothesis (Player-Hole Interaction):** I need to verify if the player can walk into a `hole` tile after a boulder has been pushed into it.
