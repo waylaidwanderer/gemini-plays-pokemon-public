@@ -15,7 +15,7 @@
 - `ledge`: Can be jumped down (from Y-1 to Y+2 in one step), but not climbed up. Impassable from below and sides.
 - `steps`: Allows movement between `ground` and `elevated_ground`.
 - `elevated_ground`: Walkable ground at a different elevation, only accessible from `steps` or other `elevated_ground` tiles.
-- `cleared_boulder_barrier`: Acts as a one-way ramp, allowing movement *up* from 'ground' to 'elevated_ground', but not down.
+- `cleared_boulder_barrier`: Functions as a one-way ramp. Allows upward movement from an adjacent `ground` tile to the `cleared_boulder_barrier` tile (which acts as `elevated_ground`). Downward movement from `cleared_boulder_barrier` to `ground` is prohibited.
 - `boulder_barrier`: Impassable tile that can be cleared by a `boulder_switch`.
 - `boulder_switch`: Floor switch for boulders. Activating it changes `boulder_barrier` to `cleared_boulder_barrier`.
 - `spinner_*`: Forces movement in the specified direction.
