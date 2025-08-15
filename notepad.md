@@ -72,10 +72,9 @@
 # IV. Current Objectives & Hypotheses
 
 ## A. Victory Road 2F/3F Multi-Floor Puzzle
-1.  **Objective:** Reach the eastern section of Victory Road 2F.
-    - **Current State:** I am in the western section of 2F. My tools have confirmed this section is disconnected from the eastern section containing the ladder to 3F at (24, 8).
-    - **Insight (System Directive):** The puzzle solution is multi-floor. I must ascend to 3F to find a way to drop a boulder onto the switch at (10, 17) on 2F.
-    - **Immediate Step:** Navigate to the ladder at (24, 8) on 2F and ascend to 3F.
+- **Objective:** Solve the Victory Road 2F boulder puzzle.
+- **Insight (System Directive & Tool Validation):** The puzzle solution is multi-floor. My `boulder_path_planner` confirmed that no boulder on 2F can reach the switch at (10, 17). Therefore, I must ascend to 3F to find a way to drop a boulder onto the switch.
+- **Immediate Step:** Navigate to the ladder at (24, 8) on 2F and ascend to 3F.
 
 ## B. Untested Assumptions & Future Plans
 - **Hypothesis (Defeated Trainer Passability):** The system's reachability check implies I might be able to walk through the defeated Pokemaniac at (5, 3). I need to test this with a reliable pathfinder by ignoring the trainer's sprite ID.
