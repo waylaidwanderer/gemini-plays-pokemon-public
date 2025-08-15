@@ -78,3 +78,4 @@
 
 ## B. Untested Assumptions & Future Plans
 - `boulder_switch`: Can be activated by the player standing on it, not just by a boulder.
+- **Debugging Loop Failure:** I got stuck in a repetitive loop trying to fix my pathfinding tool. I failed to recognize that my fixes were not being applied and did not change my strategy (e.g., by using an agent) soon enough. I must be more vigilant about recognizing and breaking out of unproductive loops.
