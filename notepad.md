@@ -71,19 +71,16 @@
 
 # IV. Current Plan & Puzzles
 
-## A. Victory Road 2F/3F Multi-Floor Puzzle (Revised Plan)
-1.  **Objective: Get to Western 3F.**
-    - Current position on Eastern 3F is blocked by a barrier at `(8, 11)`.
-    - Must take ladder at `(24, 8)` on 3F down to 2F.
-    - Navigate across 2F to the ladder at `(2, 2)`.
-    - Take ladder at `(2, 2)` on 2F up to Western 3F.
-2.  **Objective: Clear Barrier on 3F.**
-    - Push boulder from `(14, 13)` to the switch at `(4, 6)`.
-    - This will clear the barrier at `(8, 11)`, connecting the two halves of 3F.
-3.  **Objective: Solve 2F Puzzle.**
-    - Push boulder from `(23, 16)` on 3F into the hole at `(24, 16)`.
-    - This drops the boulder to 2F.
-    - Go down to 2F and push the newly dropped boulder to the switch at `(10, 17)`.
+## A. Victory Road 2F/3F Multi-Floor Puzzle (Corrected Plan)
+1.  **Objective: Reach the northern section of Victory Road 2F.**
+    - **Current State:** I am in the southern section of 2F. This section is disconnected from the northern section containing the ladder to western 3F at (2, 2).
+    - **Insight (Turn 144360):** The `generate_path_plan` tool's debug logs have confirmed that there is no walkable path between these two sections on 2F.
+    - **Action:** I must find an alternate route. This likely involves ascending to 3F and finding a different ladder or hole leading down to the correct area.
+    - **Immediate Step:** Go to the ladder at (24, 8) on 2F and ascend to 3F.
+2.  **Once on 3F, re-evaluate the map to find a path to the northern section of 2F.**
+3.  **Long-term puzzle goals (to be re-evaluated after reaching northern 2F):**
+    - Clear barrier on 3F by pushing boulder to switch at (4, 6).
+    - Solve 2F puzzle by pushing boulder from 3F into a hole to land on the switch at (10, 17).
 
 ## B. Victory Road 2F/3F Multi-Floor Puzzle (New Insight)
 - **Conclusion (Turn 144047):** My `boulder_path_planner` has confirmed that neither boulder currently on 2F can reach the switch at (10, 17). The critical directive allows for a multi-floor solution. Therefore, the puzzle requires me to push a boulder from 3F down a hole onto 2F.
