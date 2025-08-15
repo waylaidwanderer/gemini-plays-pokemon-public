@@ -14,7 +14,7 @@
 - `water`: Requires Surf to traverse.
 - `ledge`: Can be jumped down (from Y-1 to Y+2 in one step), but not climbed up. Impassable from below and sides.
 - `steps`: Allows movement between `ground` and `elevated_ground`.
-- `elevated_ground`: Walkable ground at a different elevation, only accessible from `steps` or other `elevated_ground` tiles.
+- `elevated_ground`: Walkable ground at a different elevation, only accessible from `steps` or other `elevated_ground` tiles. One-way drops to adjacent `ground` tiles are possible.
 - `cleared_boulder_barrier`: Functions as a one-way ramp. Allows upward movement from an adjacent `ground` tile to the `cleared_boulder_barrier` tile (which acts as `elevated_ground`). Downward movement from `cleared_boulder_barrier` to `ground` is prohibited.
 - `boulder_barrier`: Impassable tile that can be cleared by a `boulder_switch`.
 - `boulder_switch`: Floor switch for boulders. Activating it changes `boulder_barrier` to `cleared_boulder_barrier`.
@@ -64,23 +64,12 @@
 # III. Meta-Progression & Lessons Learned
 
 ## A. Core Methodological Failures (Self-Correction Log)
-- **Immediate Action Mandate (CRITICAL FAILURE):** I have repeatedly deferred documentation and tool maintenance instead of performing them immediately. The Overwatch system has correctly identified this as my most significant methodological flaw. As an LLM, I have no 'later'; all administrative tasks (agent/tool maintenance, map markers, notepad updates) MUST be performed in the current turn and take absolute precedence over any gameplay action. This is not just a priority; it is a fundamental, non-negotiable rule of operation I must adhere to without exception. I have failed this directive again in the last 50 turns by planning to do admin tasks 'later'. This must stop.
-- **Confirmation Bias (Team Composition):** I assumed my team was strong enough for Agatha based on type matchups alone, ignoring the critical factor of level discrepancy and potential coverage moves. This led to a predictable loss. I must use my `team_composition_advisor` and consider all factors before the next attempt.
-- **Confirmation Bias (Victory Road 1F):** I became fixated on the hypothesis that pressing the switch at (3, 10) would open the barrier at (10, 13). I failed to consider the opposite case (that the switch needed to be un-pressed) until prompted by my `puzzle_solver_agent`. I must be more proactive in trying to falsify my own assumptions.
-- **Reachable Tile Hallucination:** I received a critical warning for miscalculating reachable unseen tiles (reported 56, actual 0). I incorrectly assumed all 'unknown' tiles were reachable. This is a fundamental error. I must verify reachability through pathfinding or careful map analysis, not assumption. All 'unknown' tiles should be treated as impassable until an adjacent tile is explored.
-
-- **Impassable NPCs:** Defeated trainers and guards who have granted passage can remain as impassable physical obstacles. I must always plan to navigate around them.
-- **CRITICAL HALLUCINATION (Victory Road 1F):** I operated for dozens of turns under the false belief that there was a 'western switch' at (3, 10). I built entire puzzle-solving strategies around this non-existent object. This is a severe failure of observation and data integrity. All future hypotheses must be based only on verified objects present in the Game State Information.
+- **Immediate Action Mandate (CRITICAL FAILURE):** I have repeatedly deferred documentation and tool maintenance instead of performing them immediately. The Overwatch system has correctly identified this as my most significant methodological flaw. As an LLM, I have no 'later'; all administrative tasks (agent/tool maintenance, map markers, notepad updates) MUST be performed in the current turn and take absolute precedence over any gameplay action. This is not just a priority; it is a fundamental, non-negotiable rule of operation I must adhere to without exception.
+- **Confirmation Bias (Team Composition & Puzzles):** I have a tendency to become fixated on a single hypothesis (e.g., my team is strong enough, a specific switch must be pressed) and fail to consider alternatives or falsify my own assumptions. I must be more proactive in using my `puzzle_solver_agent` and considering all factors.
+- **Reachable Tile Hallucination & Data Integrity:** I have made critical errors by assuming 'unknown' tiles were reachable and by building strategies around non-existent objects. All future hypotheses must be based only on verified objects and traversable paths present in the Game State Information.
 
 # IV. Current Plan
 
-**Goal:** Solve the Victory Road 1F puzzle to reach the ladder at (2, 2).
+**Goal:** Navigate Victory Road 2F to reach the ladder to the next floor.
 
-**Current Strategy:** Push the boulder from (6, 16) to the switch at (18, 14) to open the barrier at (10, 13). This is the only remaining viable solution on this floor, as the western path is permanently blocked by a defeated trainer.
-
-**Failed Hypotheses Log (Victory Road 1F):
-1. Pushing boulder (10, 18) to switch (18, 14) -> Outcome: FAILED (No path for boulder).
-2. Pushing boulder OFF switch (3, 10) -> Outcome: FAILED (Boulder is immovable).
-3. Pushing boulder (10, 18) adjacent to barrier (10, 14) -> Outcome: FAILED (No path for boulder).
-4. Player standing on switch (18, 14) -> Outcome: FAILED (Barrier did not open).
-5. Leaving/re-entering map to reset defeated trainer at (4, 3) -> Outcome: FAILED (Trainer position did not reset).
+**Current Strategy:** The boulder puzzles on this floor are solved. I need to navigate from the entrance ladder (1, 9) to the exit ladder at (2, 2). I will use my `generate_path_plan` tool to find the optimal route, avoiding defeated trainers.
