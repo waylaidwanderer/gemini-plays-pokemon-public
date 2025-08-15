@@ -85,5 +85,6 @@
     - Push boulder from `(23, 16)` on 3F into the hole at `(24, 16)`.
     - This drops the boulder to 2F.
     - Go down to 2F and push the newly dropped boulder to the switch at `(10, 17)`.
-## D. Victory Road 2F/3F Multi-Floor Puzzle (New Insight)
+
+## B. Victory Road 2F/3F Multi-Floor Puzzle (New Insight)
 - **Conclusion (Turn 144047):** My `boulder_path_planner` has confirmed that neither boulder currently on 2F can reach the switch at (10, 17). The critical directive allows for a multi-floor solution. Therefore, the puzzle requires me to push a boulder from 3F down a hole onto 2F.
