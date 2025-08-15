@@ -39,6 +39,7 @@
 - **Opponent Coverage:** Always assume opponents, especially high-level ones like the Elite Four, have coverage moves for their weaknesses. Do not rely solely on primary typing for strategy.
 - **Hypothesis (Agatha's Gengar):** A fast, high-level Psychic-type is essential. My Lv36 Kadabra was too underleveled. I need a faster solution or a bulkier Pokémon that can survive Gengar's attacks.
 - **Assumption Under Review:** A high-level Pokémon with a type advantage is not a guaranteed win. Elite Four members have coverage moves (e.g., Lance's Aerodactyl with Earthquake). I must plan for worst-case scenarios.
+- **New Agent Idea:** Create a `path_debugger_agent` that analyzes a failed pathfinding tool's debug log and the map XML to hypothesize the specific logical error in the code.
 
 ## C. Battle Logs (Elite Four)
 ### Lorelei (Observed Roster)
@@ -72,17 +73,9 @@
 # IV. Current Plan & Puzzles
 
 ## A. Victory Road 3F Puzzle Sequence (Hypothesis)
-1.  **Objective:** Push boulder from `(14, 13)` to the switch at `(4, 6)`.
-    *   **Reasoning:** This is the only reachable boulder that can access the switch. Activating this switch is necessary to clear the `boulder_barrier` at `(8, 11)`.
-    *   **Tool:** Use `boulder_path_planner` to generate the push sequence.
-2.  **Objective:** Push boulder from `(23, 16)` into the hole at `(24, 16)`.
-    *   **Reasoning:** This is a required step according to a system directive. It can only be accomplished after clearing the barrier at `(8, 11)`.
+1.  **Objective:** Push boulder from `(14, 13)` to the switch at `(4, 6)`. This is blocked until the 2F puzzle is solved.
+2.  **Objective:** Push boulder from `(23, 16)` into the hole at `(24, 16)`. This is a required step according to a system directive. It can only be accomplished after clearing the barrier at `(8, 11)`.
 
-# IV. Current Plan & Puzzles
-
-## A. Victory Road 3F Puzzle Sequence (Hypothesis)
-1.  **Objective:** Push boulder from `(14, 13)` to the switch at `(4, 6)`.
-    *   **Reasoning:** This is the only reachable boulder that can access the switch. Activating this switch is necessary to clear the `boulder_barrier` at `(8, 11)`.
-    *   **Tool:** Use `boulder_path_planner` to generate the push sequence.
-2.  **Objective:** Push boulder from `(23, 16)` into the hole at `(24, 16)`.
-    *   **Reasoning:** This is a required step according to a system directive. It can only be accomplished after clearing the barrier at `(8, 11)`.
+## B. Victory Road 2F Puzzle (Current Priority)
+- **Objective:** Push a boulder to the switch at `(10, 17)`. This is a mandatory step to progress, per system directive.
+- **Hypothesis:** The boulder at `(6, 6)` is the correct one, as the boulder at `(5, 15)` was proven impossible by my `boulder_path_planner` tool.
