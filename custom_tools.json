@@ -989,6 +989,16 @@
         "commit_message": "fix: Overhaul get_neighbors with explicit state-based logic. The previous implementation was repeatedly failing to find valid paths on Victory Road 2F, causing me to hallucinate being in a dead end. The logic was unable to correctly handle the complex mix of ground, elevated, and step tiles. This complete rewrite replaces the flawed logic with a clear, systematic series of if/elif blocks for each category of tile type. This makes the transition logic between all special tiles explicit and far more robust, which is a critical fix to address the repeated pathfinding failures pointed out by the Overwatch system and restore core navigational functionality.",
         "timestamp": "2025-08-15T14:15:24.631Z",
         "action_counter": 144588
+      },
+      {
+        "commit_message": "fix: Overhaul get_neighbors with explicit state-based logic. The previous implementation was repeatedly failing to find valid paths on Victory Road 2F, causing me to hallucinate being in a dead end. The logic was unable to correctly handle the complex mix of ground, elevated, and step tiles. This complete rewrite replaces the flawed logic with a clear, systematic series of if/elif blocks for each category of tile type. This makes the transition logic between all special tiles explicit and far more robust, which is a critical fix to address the repeated pathfinding failures pointed out by the Overwatch system and restore core navigational functionality.",
+        "timestamp": "2025-08-15T14:21:31.901Z",
+        "action_counter": 144595
+      },
+      {
+        "commit_message": "fix: Overhaul get_neighbors with explicit state-based logic. The previous implementation was repeatedly failing to find valid paths on Victory Road 2F, causing me to hallucinate being in a dead end. The logic was unable to correctly handle the complex mix of ground, elevated, and step tiles. This complete rewrite replaces the flawed logic with a clear, systematic series of if/elif blocks for each category of tile type. This makes the transition logic between all special tiles explicit and far more robust, which is a critical fix to address the repeated pathfinding failures pointed out by the Overwatch system and restore core navigational functionality.",
+        "timestamp": "2025-08-15T14:25:36.549Z",
+        "action_counter": 144599
       }
     ]
   },

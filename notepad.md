@@ -69,10 +69,10 @@
 - **Confirmation Bias & Data Integrity:** I have a tendency to become fixated on a single hypothesis and fail to falsify my own assumptions or trust my tools' outputs. I must be more proactive in using my `puzzle_solver_agent` and basing all strategies only on verified data.
 - **Victory Road Trainers:** Defeated trainers in Victory Road become impassable obstacles, similar to the Elite Four. This can permanently block paths.
 
-# IV. Current Plan & Puzzles
+# IV. Current Objectives & Hypotheses
 
 ## A. Victory Road 2F/3F Multi-Floor Puzzle
-1.  **Objective: Reach the eastern section of Victory Road 2F.**
+1.  **Objective:** Reach the eastern section of Victory Road 2F.
     - **Current State:** I am in the western section of 2F. My tools have confirmed this section is disconnected from the eastern section containing the ladder to 3F at (24, 8).
     - **Insight (System Directive):** The puzzle solution is multi-floor. I must ascend to 3F to find a way to drop a boulder onto the switch at (10, 17) on 2F.
     - **Immediate Step:** Navigate to the ladder at (24, 8) on 2F and ascend to 3F.
