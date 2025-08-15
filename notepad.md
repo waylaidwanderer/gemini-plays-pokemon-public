@@ -72,14 +72,16 @@
 
 # IV. Current Plan & Puzzles
 
-## A. Victory Road 3F Puzzle Sequence (Revised Plan)
-1.  **Objective:** Get to the western side of 3F by traversing 2F.
-    - Take ladder at (24, 8) on 3F down to 2F.
-    - Navigate across 2F to the ladder at (2, 2).
-    - Take ladder at (2, 2) on 2F up to western 3F.
-2.  **Objective:** Push boulder from `(14, 13)` to the switch at `(4, 6)`. This will clear the barrier at `(8, 11)`.
-3.  **Objective:** Push boulder from `(23, 16)` into the hole at `(24, 16)`. This is the final step on this floor.
-
-## B. Victory Road 2F Puzzle (Current Priority)
-- **Objective:** Push a boulder to the switch at `(10, 17)`. This is a mandatory step to progress, per system directive.
-- **Solution requires a boulder from 3F.** The boulder at `(23, 16)` on 3F must be pushed into the hole at `(24, 16)`. This will likely place it on 2F in a position to be pushed to the switch at `(10, 17)`. Both on-floor boulders (`5, 15`) and (`6, 6`) have been proven impossible by my `boulder_path_planner` tool.
+## A. Victory Road 2F/3F Multi-Floor Puzzle (Revised Plan)
+1.  **Objective: Get to Western 3F.**
+    - Current position on Eastern 3F is blocked by a barrier at `(8, 11)`.
+    - Must take ladder at `(24, 8)` on 3F down to 2F.
+    - Navigate across 2F to the ladder at `(2, 2)`.
+    - Take ladder at `(2, 2)` on 2F up to Western 3F.
+2.  **Objective: Clear Barrier on 3F.**
+    - Push boulder from `(14, 13)` to the switch at `(4, 6)`.
+    - This will clear the barrier at `(8, 11)`, connecting the two halves of 3F.
+3.  **Objective: Solve 2F Puzzle.**
+    - Push boulder from `(23, 16)` on 3F into the hole at `(24, 16)`.
+    - This drops the boulder to 2F.
+    - Go down to 2F and push the newly dropped boulder to the switch at `(10, 17)`.
