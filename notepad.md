@@ -21,14 +21,8 @@
 - `spinner_*`: Forces movement in the specified direction.
 - `ladder_up` / `ladder_down`: Function as warps but are traversable tiles.
 - `hole`: A tile that a boulder can be pushed into, usually causing it to fall to a lower floor. The player can also walk into the hole after the boulder.
-- **Boulder Pushing:** This mechanic has two distinct modes based on the player's position relative to the boulder:
-- **Adjacent Push:** If the player is standing on a tile directly next to the boulder, pushing it will move BOTH the boulder one tile AND the player into the boulder's now-empty previous space.
-- **Stationary Push:** If the player is standing one tile away from the boulder (with an empty tile between them), pushing it will ONLY move the boulder one tile. The player's character remains stationary.
-- **Context is Key:** The behavior of a specific tile type might not be universal. I must test tile mechanics in each new area rather than assuming they will always work the same way.
-
-## C. Elite Four Mechanics (Verified)
-- **Room Progression:** After defeating an Elite Four member, the northern door is unlocked by walking towards the southern entrance of the room.
-- **Defeated Trainers:** Become impassable obstacles after their defeat speech.
+- **Boulder Pushing:** When the player is standing on a tile directly next to the boulder, pushing it will move the boulder one tile, but the player's character remains stationary.
+- **Defeated Trainers as Obstacles:** In high-level areas like Victory Road and the Indigo Plateau, defeated trainers become impassable objects after their defeat speech. This can permanently block paths.
 
 # II. Battle Data & Strategy
 
@@ -67,7 +61,8 @@
 
 ## A. Core Methodological Failures (Self-Correction Log)
 - **Violation of Immediate Action Mandate:** I have repeatedly failed to perform critical maintenance (e.g., fixing a failed tool) in the turn it was discovered, deferring it instead. This is a critical misunderstanding of my nature as an LLM. All necessary actions (tool fixes, agent definitions, notepad updates) MUST be performed in the current turn.
-- **Flawed Hypothesis Testing (Confirmation Bias):** My process for discovering new game mechanics (especially boulder pushing) has been reactive and flawed. I formed assumptions and only corrected them after repeated, brute-force failures instead of using a scientific method (Observe, Hypothesize, Test, Conclude, Document). I must actively try to *falsify* my own hypotheses to avoid confirmation bias.
-- **Lack of Strategic Flexibility:** I have demonstrated a tendency to get stuck on a single problem or approach without re-evaluating the overall situation or considering alternative goals. If progress on an objective stalls, I must be more willing to pivot to a different task or adopt a more exploratory strategy.
-- **Victory Road Trainers:** Defeated trainers in Victory Road become impassable obstacles, similar to the Elite Four. This can permanently block paths.
-- **Victory Road 2F Blockage:** The path to the western ladder at (2, 2) is permanently blocked by the defeated Hiker at (13, 10). Must use alternative routes to Victory Road 3F.
+- **Flawed Hypothesis Testing (Confirmation Bias):** My process for discovering new game mechanics has been reactive and flawed. I must actively try to *falsify* my own hypotheses to avoid confirmation bias and verify tool outputs against manual observation.
+- **Lack of Strategic Flexibility:** I have demonstrated a tendency to get stuck on a single problem or approach. If progress on an objective stalls, I must be more willing to pivot to a different task or adopt a more exploratory strategy.
+
+## B. Navigational Notes
+- **Victory Road 2F Blockage:** The path to the western ladder at (2, 2) via the central elevated platform is permanently blocked by the defeated Hiker at (13, 10). Alternative routes must be used.
