@@ -88,3 +88,4 @@
 ## B. Victory Road 2F/3F Multi-Floor Puzzle (New Insight)
 - **Conclusion (Turn 144047):** My `boulder_path_planner` has confirmed that neither boulder currently on 2F can reach the switch at (10, 17). The critical directive allows for a multi-floor solution. Therefore, the puzzle requires me to push a boulder from 3F down a hole onto 2F.
 - **Conclusion (Turn 144266):** Verified with `boulder_path_planner` that neither boulder on 2F can reach the switch at (10, 17). The multi-floor solution is confirmed as the only path forward.
+- **Confirmation Bias Lesson (Victory Road 2F):** I repeatedly assumed my `generate_path_plan` tool was bugged when it returned "no path found." The debug logs eventually proved the tool was correct and my understanding of the map's segmented layout was wrong. I must trust my tool's outputs and use them to falsify my own assumptions about reachability, rather than trying to force the tool to confirm my biased beliefs.
