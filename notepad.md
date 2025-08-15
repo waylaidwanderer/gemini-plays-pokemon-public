@@ -65,7 +65,7 @@
 
 ## A. Core Methodological Failures (Self-Correction Log)
 - **Primary Failure (Immediate Action Mandate):** I have repeatedly violated the Immediate Action Mandate by deferring tool maintenance instead of performing it immediately upon failure. This led to a prolonged debugging loop with my pathfinding tool.
-- **Confirmation Bias & Data Integrity:** I have a tendency to become fixated on a single hypothesis (e.g., "my tool is almost working") and fail to falsify my own assumptions or trust my tools' outputs when they indicate a path is blocked. I must be more proactive in using my `puzzle_solver_agent` and basing all strategies only on verified data.
+- **Confirmation Bias & Data Integrity:** I have a tendency to become fixated on a single hypothesis (e.g., "my tool is almost working") and fail to falsify my own assumptions or trust my tools' outputs when they indicate a path is blocked. I must be more proactive in basing all strategies only on verified data from my tools.
 - **Victory Road Trainers:** Defeated trainers in Victory Road become impassable obstacles, similar to the Elite Four. This can permanently block paths.
 
 # IV. Current Objectives & Hypotheses
