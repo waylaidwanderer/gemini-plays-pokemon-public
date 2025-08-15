@@ -64,31 +64,20 @@
 
 # III. Meta-Progression & Lessons Learned
 
-## A. Core Methodological Failures (Self-Correction Log - Consolidated after Turn 144065 Critique)
-- **Primary Failure (Immediate Action Mandate):** I have repeatedly violated the Immediate Action Mandate by deferring tool maintenance instead of performing it immediately upon failure. This includes attempting to use broken tools across multiple turns and getting stuck in a debugging loop by resubmitting an already-applied fix. I must trust system feedback and prioritize tool maintenance above all else.
-- **Confirmation Bias & Data Integrity:** I have a tendency to become fixated on a single hypothesis (e.g., a path is possible) and fail to falsify my own assumptions or trust my tools' outputs. I must be more proactive in using my `puzzle_solver_agent` and basing all strategies only on verified data.
+## A. Core Methodological Failures (Self-Correction Log)
+- **Primary Failure (Immediate Action Mandate):** I have repeatedly violated the Immediate Action Mandate by deferring tool maintenance instead of performing it immediately upon failure. I must trust system feedback and prioritize tool maintenance above all else.
+- **Confirmation Bias & Data Integrity:** I have a tendency to become fixated on a single hypothesis and fail to falsify my own assumptions or trust my tools' outputs. I must be more proactive in using my `puzzle_solver_agent` and basing all strategies only on verified data.
 - **Victory Road Trainers:** Defeated trainers in Victory Road become impassable obstacles, similar to the Elite Four. This can permanently block paths.
 
 # IV. Current Plan & Puzzles
 
-## A. Victory Road 2F/3F Multi-Floor Puzzle (Corrected Plan)
-1.  **Objective: Reach the northern section of Victory Road 2F.**
-    - **Current State:** I am in the southern section of 2F. This section is disconnected from the northern section containing the ladder to western 3F at (2, 2).
-    - **Insight (Turn 144360):** The `generate_path_plan` tool's debug logs have confirmed that there is no walkable path between these two sections on 2F.
-    - **Action:** I must find an alternate route. This likely involves ascending to 3F and finding a different ladder or hole leading down to the correct area.
-    - **Immediate Step:** Go to the ladder at (24, 8) on 2F and ascend to 3F.
-2.  **Once on 3F, re-evaluate the map to find a path to the northern section of 2F.**
-3.  **Long-term puzzle goals (to be re-evaluated after reaching northern 2F):**
-    - Clear barrier on 3F by pushing boulder to switch at (4, 6).
-    - Solve 2F puzzle by pushing boulder from 3F into a hole to land on the switch at (10, 17).
+## A. Victory Road 2F/3F Multi-Floor Puzzle
+1.  **Objective: Reach the eastern section of Victory Road 2F.**
+    - **Current State:** I am in the western section of 2F. My tools have confirmed this section is disconnected from the eastern section containing the ladder to 3F at (24, 8).
+    - **Insight (System Directive):** The puzzle solution is multi-floor. I must ascend to 3F to find a way to drop a boulder onto the switch at (10, 17) on 2F.
+    - **Immediate Step:** Navigate to the ladder at (24, 8) on 2F and ascend to 3F.
 
-## B. Victory Road 2F/3F Multi-Floor Puzzle (New Insight)
-- **Conclusion (Turns 144266 & 144578):** Verified with `boulder_path_planner` that neither boulder on 2F can reach the switch at (10, 17). The critical directive confirms that the solution must involve a boulder from another floor (Victory Road 3F).
-
-## D. Future Development & Testing
-- **Agent Monitoring (`battle_strategist_agent`):** The agent made a minor error in type-effectiveness reasoning (Turn 144315). While the recommended action was still sound, I need to monitor its performance for any further inaccuracies.
-- **Player-Hole Interaction:** Need to verify if the player can walk into a `hole` tile after a boulder has been pushed into it.
-
-# V. Self-Assessment (Turn 144543)
-- **Immediate Action Mandate Failure:** I violated this mandate by not immediately fixing the faulty `boulder_path_planner` tool in turn 144527. This is a critical error in my methodology and must not be repeated.
-- **Untested Assumption:** Need to verify if the player can walk into a `hole` tile after a boulder has been pushed into it. The system directive suggests this is possible, but I must confirm it myself.
+## B. Untested Assumptions & Future Plans
+- **Hypothesis (Defeated Trainer Passability):** The system's reachability check implies I might be able to walk through the defeated Pokemaniac at (5, 3). I need to test this with a reliable pathfinder by ignoring the trainer's sprite ID.
+- **Hypothesis (Player-Hole Interaction):** I need to verify if the player can walk into a `hole` tile after a boulder has been pushed into it.
+- **Future Agent Idea:** Create a 'navigation strategist' agent to analyze `map_connectivity_analyzer` output and suggest high-level routes between disconnected areas.
