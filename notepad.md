@@ -65,4 +65,4 @@
 - **Lack of Strategic Flexibility:** I have demonstrated a tendency to get stuck on a single problem or approach. If progress on an objective stalls, I must be more willing to pivot to a different task or adopt a more exploratory strategy.
 
 ## B. Navigational Notes
-- **Victory Road 2F Blockage:** The path to the western ladder at (2, 2) via the central elevated platform is permanently blocked by the defeated Hiker at (13, 10). Alternative routes must be used.
+- **Victory Road 2F Blockage:** The path between the eastern and western sections of the map is permanently blocked by defeated trainers, specifically the Hiker at (13, 10). They become impassable objects after battle. This effectively splits the map into two disconnected areas. The western ladder at (2, 2) is unreachable from the eastern side.
