@@ -15,11 +15,12 @@
 - `ledge`: Can be jumped down (from Y-1 to Y+2 in one step), but not climbed up. Impassable from below and sides.
 - `steps`: Allows movement between `ground` and `elevated_ground`.
 - `elevated_ground`: Walkable ground at a different elevation, only accessible from `steps` or other `elevated_ground` tiles. One-way drops to adjacent `ground` tiles are possible.
-- `cleared_boulder_barrier`: Functions as a one-way ramp. Allows upward movement from an adjacent `ground` tile to the `cleared_boulder_barrier` tile (which acts as `elevated_ground`). Downward movement from `cleared_boulder_barrier` to `ground` is prohibited.
+- `cleared_boulder_barrier`: Functions as a one-way ramp. Allows upward movement from an adjacent `ground` tile to the `cleared_bolder_barrier` tile (which acts as `elevated_ground`). Downward movement from `cleared_boulder_barrier` to `ground` is prohibited.
 - `boulder_barrier`: Impassable tile that can be cleared by a `boulder_switch`.
 - `boulder_switch`: Floor switch for boulders. Activating it changes `boulder_barrier` to `cleared_boulder_barrier`.
 - `spinner_*`: Forces movement in the specified direction.
 - `ladder_up` / `ladder_down`: Function as warps but are traversable tiles.
+- `hole`: A tile that a boulder can be pushed into, usually causing it to fall to a lower floor. The player can also walk into the hole after the boulder.
 - **Boulder Pushing:** A single button press can both turn the player and push an adjacent boulder one tile. The player's position does not change during the push. Boulders CANNOT be pushed onto 'steps' tiles.
 - **Context is Key:** The behavior of a specific tile type might not be universal. I must test tile mechanics in each new area rather than assuming they will always work the same way.
 
@@ -71,10 +72,6 @@
 
 # IV. Current Plan
 
-**Goal:** Navigate Victory Road 2F to reach the ladder to Victory Road 3F.
+**Primary Goal:** Solve the boulder puzzles on Victory Road 3F to unblock the path forward.
 
-**Current Strategy:** The boulder puzzles on this floor are solved. I need to navigate from the entrance ladder (1, 9) to the exit ladder at (2, 2). After being stuck in a debugging loop, I am now trusting that my `generate_path_plan` tool is fixed and will use it to find the optimal route.
-- `hole`: A tile that a boulder can be pushed into, usually causing it to fall to a lower floor. The player can also walk into the hole after the boulder.
-- `hole`: A tile that a boulder can be pushed into, usually causing it to fall to a lower floor. The player can also walk into the hole after the boulder.
-- `hole`: A tile that a boulder can be pushed into, usually causing it to fall to a lower floor. The player can also walk into the hole after the boulder.
-- `hole`: A tile that a boulder can be pushed into, usually causing it to fall to a lower floor. The player can also walk into the hole after the boulder.
+**Current Strategy:** My `puzzle_solver_agent` hypothesized that a boulder must be dropped from 3F to 2F. The system has confirmed this with a directive to push the boulder at (23, 16) into the hole at (24, 16). However, the path to this boulder is blocked by a barrier at (8, 11). To open this barrier, I must first solve another puzzle by pushing the boulder at (23, 4) onto the switch at (4, 6). I have a complete plan from my `boulder_path_planner` and am currently executing it.
