@@ -38,7 +38,6 @@
 ## B. Strategic Notes & Hypotheses
 - **Opponent Coverage:** Always assume opponents, especially high-level ones like the Elite Four, have coverage moves for their weaknesses. Do not rely solely on primary typing for strategy.
 - **Hypothesis (Agatha's Gengar):** A fast, high-level Psychic-type is essential. My Lv36 Kadabra was too underleveled. I need a faster solution or a bulkier Pokémon that can survive Gengar's attacks.
-- **Assumption Under Review:** A high-level Pokémon with a type advantage is not a guaranteed win. Elite Four members have coverage moves (e.g., Lance's Aerodactyl with Earthquake). I must plan for worst-case scenarios.
 
 ## C. Battle Logs (Elite Four)
 ### Lorelei (Observed Roster)
@@ -65,8 +64,8 @@
 # III. Meta-Progression & Lessons Learned
 
 ## A. Core Methodological Failures (Self-Correction Log)
-- **Primary Failure (Immediate Action Mandate):** I have repeatedly violated the Immediate Action Mandate by deferring tool maintenance instead of performing it immediately upon failure. I must trust system feedback and prioritize tool maintenance above all else.
-- **Confirmation Bias & Data Integrity:** I have a tendency to become fixated on a single hypothesis and fail to falsify my own assumptions or trust my tools' outputs. I must be more proactive in using my `puzzle_solver_agent` and basing all strategies only on verified data.
+- **Primary Failure (Immediate Action Mandate):** I have repeatedly violated the Immediate Action Mandate by deferring tool maintenance instead of performing it immediately upon failure. This led to a prolonged debugging loop with my pathfinding tool.
+- **Confirmation Bias & Data Integrity:** I have a tendency to become fixated on a single hypothesis (e.g., "my tool is almost working") and fail to falsify my own assumptions or trust my tools' outputs when they indicate a path is blocked. I must be more proactive in using my `puzzle_solver_agent` and basing all strategies only on verified data.
 - **Victory Road Trainers:** Defeated trainers in Victory Road become impassable obstacles, similar to the Elite Four. This can permanently block paths.
 
 # IV. Current Objectives & Hypotheses
@@ -74,7 +73,3 @@
 ## A. Victory Road 2F/3F Multi-Floor Puzzle
 - **Objective:** Solve the Victory Road 2F boulder puzzle.
 - **Insight (System Directive & Tool Validation):** The puzzle solution is multi-floor. My `boulder_path_planner` confirmed that no boulder on 2F can reach the switch at (10, 17). Therefore, I must ascend to 3F to find a way to drop a boulder onto the switch.
-- **Immediate Step:** Navigate to the ladder at (24, 8) on 2F and ascend to 3F.
-
-## B. Lessons Learned & Future Plans
-- **Debugging Loop Failure:** I got stuck in a repetitive loop trying to fix my pathfinding tool. I failed to recognize that my fixes were not being applied and did not change my strategy (e.g., by using an agent) soon enough. I must be more vigilant about recognizing and breaking out of unproductive loops.
