@@ -77,6 +77,4 @@
 - **Immediate Step:** Navigate to the ladder at (24, 8) on 2F and ascend to 3F.
 
 ## B. Untested Assumptions & Future Plans
-- **Hypothesis (Defeated Trainer Passability):** The system's reachability check implies I might be able to walk through the defeated Pokemaniac at (5, 3). I need to test this with a reliable pathfinder by ignoring the trainer's sprite ID.
 - **Hypothesis (Player-Hole Interaction):** I need to verify if the player can walk into a `hole` tile after a boulder has been pushed into it.
-- **Future Agent Idea:** Create a 'navigation strategist' agent to analyze `map_connectivity_analyzer` output and suggest high-level routes between disconnected areas.
