@@ -78,9 +78,15 @@
 
 **Observation:** The barrier at (10, 13) is blocking the path to the ladder. The only verified puzzle element is the eastern switch at (18, 14). The boulder at (15, 3) on the eastern platform is unreachable due to this barrier. The only reachable boulder on the main ground floor is at (10, 18).
 
-**New Hypothesis:** Pushing the boulder from (10, 18) to the switch at (18, 14) will open the barrier at (10, 13).
+**Failed Hypothesis #1:** Pushing the boulder from (10, 18) to the switch at (18, 14) will open the barrier at (10, 13).
+* **Outcome:** The `boulder_path_planner` confirmed no valid path exists.
+
+**Failed Hypothesis #2:** Pushing the boulder OFF the switch at (3, 10) will open the barrier at (10, 13).
+* **Outcome:** The boulder at (3, 10) is boxed in and cannot be moved.
+
+**New Hypothesis (from Puzzle Solver Agent):** The switches are a red herring. Pushing the boulder from (10, 18) to the tile at (10, 14), adjacent to the barrier, is the actual trigger.
 
 * **Test Plan:**
-    1. Use `boulder_path_planner` to confirm a valid push sequence exists.
+    1. Use `boulder_path_planner` to find a path to push the boulder from (10, 18) to (10, 14).
     2. If a plan is found, execute it.
-    3. Navigate to an observation point (e.g., (9, 13)) to check the barrier's state.
+    3. Navigate to an observation point to check the barrier's state.
