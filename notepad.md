@@ -88,10 +88,10 @@
 - **Confirmation Bias Lesson (Victory Road 2F):** I repeatedly assumed my `generate_path_plan` tool was bugged when it returned "no path found." The debug logs eventually proved the tool was correct and my understanding of the map's segmented layout was wrong. I must trust my tool's outputs and use them to falsify my own assumptions about reachability, rather than trying to force the tool to confirm my biased beliefs.
 
 ## D. Future Development Ideas
-- **Agent Idea (`map_connectivity_analyzer`):** Create an agent to analyze the map XML and identify disconnected landmasses and the warps within each. This would automate the process of solving segmented map puzzles.
+- **Tool Idea (`map_connectivity_analyzer`):** Create a tool to analyze the map XML and identify disconnected landmasses and the warps within each. This would automate the process of solving segmented map puzzles.
 - **Agent Monitoring (`battle_strategist_agent`):** The agent made a minor error in type-effectiveness reasoning (Turn 144315). While the recommended action was still sound, I need to monitor its performance for any further inaccuracies.
 ## C. Victory Road 3F Segmentation (New Insight)
 - **Conclusion (Turn 144386):** The ladder at (24, 8) on 2F leads to an isolated western section of 3F. The main puzzle area on 3F is not accessible from here. The path is blocked by an impassable tile at (25, 9).
 - **Action:** I must return to 2F and find a different ladder or warp to access the rest of 3F.
 
-- **Agent Idea (`map_connectivity_analyzer`):** Create an agent to analyze the map XML and identify disconnected landmasses and the warps within each. This would automate the process of solving segmented map puzzles.
+- **Tool Idea (`map_connectivity_analyzer`):** Create a tool to analyze the map XML and identify disconnected landmasses and the warps within each. This would automate the process of solving segmented map puzzles.
