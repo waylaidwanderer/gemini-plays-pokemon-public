@@ -76,6 +76,5 @@
 - **Insight (System Directive & Tool Validation):** The puzzle solution is multi-floor. My `boulder_path_planner` confirmed that no boulder on 2F can reach the switch at (10, 17). Therefore, I must ascend to 3F to find a way to drop a boulder onto the switch.
 - **Immediate Step:** Navigate to the ladder at (24, 8) on 2F and ascend to 3F.
 
-## B. Untested Assumptions & Future Plans
-- `boulder_switch`: Can be activated by the player standing on it, not just by a boulder.
+## B. Lessons Learned & Future Plans
 - **Debugging Loop Failure:** I got stuck in a repetitive loop trying to fix my pathfinding tool. I failed to recognize that my fixes were not being applied and did not change my strategy (e.g., by using an agent) soon enough. I must be more vigilant about recognizing and breaking out of unproductive loops.
