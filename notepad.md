@@ -8,7 +8,7 @@
 - **Menu Navigation:** The 'B' button is the primary method for exiting/canceling out of menus.
 - **Forced Sleeping Switch:** The game will force you to send out or switch to a sleeping Pokémon if no other conscious Pokémon are available. This is a mechanical exception to the strategic guideline of avoiding switching to sleeping Pokémon.
 
-## B. Tile Mechanics & Traversal (Verified & In-Progress)
+## B. Tile Mechanics & Traversal (Verified)
 - `ground` / `grass`: Standard traversable tiles.
 - `impassable` / `unknown`: Cannot be entered. Must be navigated around.
 - `water`: Requires Surf to traverse.
@@ -31,11 +31,7 @@
 - **Not Very Effective (0.5x):** Normal !> Rock; Flying !> Rock; Ice !> Fighting (Ice-type moves are NOT super-effective against Fighting-types); Psychic !> Psychic.
 - **Immune (0x):** Normal immune to Ghost; Ground immune to Electric; Flying immune to Ground; Ghost immune to Ground.
 
-## B. Strategic Notes & Hypotheses
-- **Opponent Coverage:** Always assume opponents, especially high-level ones like the Elite Four, have coverage moves for their weaknesses. Do not rely solely on primary typing for strategy.
-- **Hypothesis (Agatha's Gengar):** A fast, high-level Psychic-type is essential. My Lv36 Kadabra was too underleveled. I need a faster solution or a bulkier Pokémon that can survive Gengar's attacks.
-
-## C. Battle Logs (Elite Four)
+## B. Battle Logs (Elite Four)
 ### Lorelei (Observed Roster)
   - Slowbro (Lv 56) - Known Moves: Psychic
   - Cloyster (Lv 55) - Known Moves: Explosion
