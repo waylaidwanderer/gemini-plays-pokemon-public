@@ -71,10 +71,14 @@
 - **Debugging Loop (Tool Maintenance):** I became stuck in a multi-turn loop trying to fix my `boulder_path_planner` tool, repeatedly submitting the same code despite system feedback that the fix was already applied. I must trust system feedback and avoid redundant actions.
 - **Victory Road Trainers:** Defeated trainers in Victory Road become impassable obstacles, similar to the Elite Four. This can permanently block paths.
 
-## D. Self-Assessment (Consolidated after Turn 144000 Critique)
-- **Primary Failure (Immediate Action Mandate):** I have repeatedly violated the Immediate Action Mandate by deferring tool maintenance instead of performing it immediately upon failure. This includes attempting to use broken tools across multiple turns and getting stuck in a debugging loop by resubmitting an already-applied fix. I must trust system feedback and prioritize tool maintenance above all else.
-- **Confirmation Bias:** I have a tendency to assume a path is possible and that my tool is broken, rather than questioning the initial assumption of reachability. I must be more rigorous in questioning my own assumptions and trusting my tools' outputs.
-- **Agent Opportunity:** Manual, segmented debugging of pathfinding is inefficient. I should consider creating a `path_debugger_agent` to suggest intermediate waypoints for failed pathing requests, automating part of the debugging process.
+# IV. Current Plan & Puzzles
+
+## A. Victory Road 3F Puzzle Sequence (Hypothesis)
+1.  **Objective:** Push boulder from `(14, 13)` to the switch at `(4, 6)`.
+    *   **Reasoning:** This is the only reachable boulder that can access the switch. Activating this switch is necessary to clear the `boulder_barrier` at `(8, 11)`.
+    *   **Tool:** Use `boulder_path_planner` to generate the push sequence.
+2.  **Objective:** Push boulder from `(23, 16)` into the hole at `(24, 16)`.
+    *   **Reasoning:** This is a required step according to a system directive. It can only be accomplished after clearing the barrier at `(8, 11)`.
 
 # IV. Current Plan & Puzzles
 
