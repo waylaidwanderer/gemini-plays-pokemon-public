@@ -870,63 +870,6 @@
       }
     ]
   },
-  "pokemon_data_extractor": {
-    "description": "Parses the 'Stored Pokemon in PC' section of the GameState string to extract and format a list of all available Pokémon, including their name, level, types, and moves. This is used to gather data for the team_composition_advisor.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "game_state_string": {
-          "type": "string"
-        }
-      },
-      "required": [
-        "game_state_string"
-      ]
-    },
-    "python_script": "import re\nimport json\n\ngame_state_string = input_data['game_state_string']\nall_pokemon = []\n\ntry:\n    # More robust regex to define the start and end of the PC section explicitly.\n    pc_section_match = re.search(r'## Stored Pokemon in PC(.*?)## Inventory', game_state_string, re.DOTALL)\n    if pc_section_match:\n        pc_section_str = pc_section_match.group(1)\n        \n        box_pattern = re.compile(r'### Box \\d+ \\(\\d+/\\d+\\)\\n(.*?)(?=\\n###|\\n##|$)', re.DOTALL)\n        pokemon_pattern = re.compile(r'^\\s*\\d+\\.\\s+(?P<name>[A-Za-z\\']+(?:\\s[A-Za-z\\']+)*)\\s+\\((?P<species>[A-Z]+)\\):\\s+Lv(?P<level>\\d+)\\s+\\|\\s+Moves:\\s+(?P<moves>.*)$', re.MULTILINE)\n\n        for box_content in box_pattern.findall(pc_section_str):\n            for match in pokemon_pattern.finditer(box_content):\n                data = match.groupdict()\n                pokemon_info = {\n                    'name': data['name'].strip(),\n                    'level': int(data['level']),\n                    'species': data['species'],\n                    'moves': [move.strip() for move in data['moves'].split(',')]\n                }\n                all_pokemon.append(pokemon_info)\n\n    # A simple type dictionary for now, to be expanded later based on in-game discoveries\n    type_map = {\n        'TAUROS': ('Normal', None), 'CLEFAIRY': ('Normal', None), 'SANDSHREW': ('Ground', None),\n        'RATTATA': ('Normal', None), 'NIDORAN♀': ('Poison', None), 'WEEDLE': ('Bug', 'Poison'),\n        'METAPOD': ('Bug', None), 'KAKUNA': ('Bug', 'Poison'), 'NIDORAN♂': ('Poison', None),\n        'CLEFABLE': ('Normal', None), 'MANKEY': ('Fighting', None), 'CHARMANDER': ('Fire', None),\n        'SQUIRTLE': ('Water', None), 'MAGNEMITE': ('Electric', None), 'HAUNTER': ('Ghost', 'Poison'),\n        'EEVEE': ('Normal', None), 'HITMONCHAN': ('Fighting', None), 'DUGTRIO': ('Ground', None),\n        'NIDOKING': ('Poison', 'Ground'), 'KADABRA': ('Psychic', None), 'GRIMER': ('Poison', None),\n        'PINSIR': ('Bug', None), 'RHYHORN': ('Rock', 'Ground'), 'KANGASKHAN': ('Normal', None),\n        'NIDOQUEEN': ('Poison', 'Ground'), 'GLOOM': ('Grass', 'Poison'), 'OMANYTE': ('Rock', 'Water'),\n        'SCYTHER': ('Bug', 'Flying'), 'MACHOKE': ('Fighting', None), 'PIDGEOTTO': ('Normal', 'Flying'),\n        'STARYU': ('Water', None), 'GOLEM': ('Rock', 'Ground'), 'LAPRAS': ('Water', 'Ice'),\n        'PIKACHU': ('Electric', None), 'GOLBAT': ('Poison', 'Flying'), 'EXEGGCUTE': ('Grass', 'Psychic'),\n        'MAROWAK': ('Ground', None), 'WEEPINBELL': ('Grass', 'Poison')\n    }\n    for pokemon in all_pokemon:\n        species = pokemon['species']\n        types = type_map.get(species, ('Unknown', None))\n        pokemon['type1'] = types[0]\n        pokemon['type2'] = types[1]\n        del pokemon['species']\n\n    print(json.dumps(all_pokemon))\n\nexcept Exception as e:\n    import traceback\n    print(json.dumps({\"error\": str(e), \"traceback\": traceback.format_exc()}))\n",
-    "history": [
-      {
-        "commit_message": "feat: Create pokemon_data_extractor tool to automate data gathering. This tool parses the GameState to build a structured list of all stored Pokémon, streamlining the input process for the team_composition_advisor and eliminating tedious manual data entry. This is a direct response to an Overwatch suggestion and a major efficiency improvement.",
-        "timestamp": "2025-08-13T22:57:47.459Z",
-        "action_counter": 140881
-      },
-      {
-        "commit_message": "fix: Add robust error handling and improve regex. The previous version crashed on an `IndexError` if a line in the PC data didn't match the regex. This commit wraps the logic in a try-except block and uses `re.compile` with `finditer` for more efficient and safe parsing. It also refines the regex to better handle names and ensures the tool returns an empty list on failure instead of crashing.",
-        "timestamp": "2025-08-13T22:58:49.979Z",
-        "action_counter": 140883
-      },
-      {
-        "commit_message": "fix: Correct invalid character in regex. The previous version used a smart quote ('’') which caused a SyntaxError. This commit replaces it with a standard apostrophe ('') to fix the tool's execution.",
-        "timestamp": "2025-08-13T22:59:48.645Z",
-        "action_counter": 140885
-      },
-      {
-        "commit_message": "fix: Correct invalid character in regex. The previous version used a smart quote ('’') which caused a SyntaxError. This commit replaces it with a standard apostrophe ('') to fix the tool's execution.",
-        "timestamp": "2025-08-13T23:00:19.358Z",
-        "action_counter": 140886
-      },
-      {
-        "commit_message": "fix: Correct regex syntax and add lowercase support. The previous regex had a malformed character class `[A-Z\\'']` causing a `SyntaxError`. This commit corrects the class to `[A-Za-z']` and adds support for lowercase letters to handle names like 'i', making the tool more robust.",
-        "timestamp": "2025-08-13T23:02:23.165Z",
-        "action_counter": 140889
-      },
-      {
-        "commit_message": "fix: Overhaul tool to correctly parse all PC boxes. The previous version only read the first box. This commit introduces a two-stage regex process: first, it finds each individual box's content, and then it iterates through each box to parse the Pokémon within. This is a direct response to an Overwatch critique and fixes the critical failure of the tool.",
-        "timestamp": "2025-08-13T23:13:36.856Z",
-        "action_counter": 140911
-      },
-      {
-        "commit_message": "fix: Overhaul PC section parsing. The previous regex was failing to capture the full PC data block, leading to an empty output. This commit replaces the vague lookahead-based pattern with a more robust one that explicitly defines the start ('## Stored Pokemon in PC') and end ('## Inventory') of the target section. It also adds a basic, hardcoded type-map as a stopgap to provide type information, which was missing from the output.",
-        "timestamp": "2025-08-13T23:19:50.323Z",
-        "action_counter": 140920
-      },
-      {
-        "commit_message": "fix: Overhaul PC section parsing. The previous regex was failing to capture the full PC data block, leading to an empty output. This commit replaces the vague lookahead-based pattern with a more robust one that explicitly defines the start ('## Stored Pokemon in PC') and end ('## Inventory') of the target section. It also adds a basic, hardcoded type-map as a stopgap to provide type information, which was missing from the output.",
-        "timestamp": "2025-08-13T23:20:32.400Z",
-        "action_counter": 140921
-      }
-    ]
-  },
   "pc_pokemon_scanner": {
     "description": "Parses the screen text of the PC box list to extract the names and levels of the visible Pokémon. This automates data collection for team building.",
     "input_schema": {
@@ -1006,6 +949,63 @@
         "commit_message": "fix: Complete rewrite to handle multi-line name/level format. The tool has been fundamentally broken because it failed to recognize that Pokémon names and their levels appear on consecutive lines in the PC menu. This commit replaces the single-line regex with a new logic that iterates through the lines, explicitly looking for a name on one line and a level on the next. This is a critical fix to make the tool functional and stop the repeated failures.",
         "timestamp": "2025-08-14T21:05:51.924Z",
         "action_counter": 142891
+      }
+    ]
+  },
+  "pokemon_data_extractor": {
+    "description": "Parses the 'Stored Pokemon in PC' section of the GameState string to extract and format a list of all available Pokémon, including their name, level, types, and moves. This is used to gather data for the team_composition_advisor.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "game_state_string": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "game_state_string"
+      ]
+    },
+    "python_script": "import re\nimport json\n\ngame_state_string = input_data['game_state_string']\nall_pokemon = []\n\ntry:\n    # More robust regex to define the start and end of the PC section explicitly.\n    pc_section_match = re.search(r'## Stored Pokemon in PC(.*?)## Inventory', game_state_string, re.DOTALL)\n    if pc_section_match:\n        pc_section_str = pc_section_match.group(1)\n        \n        box_pattern = re.compile(r'### Box \\d+ \\(\\d+/\\d+\\)\\n(.*?)(?=\\n###|\\n##|$)', re.DOTALL)\n        pokemon_pattern = re.compile(r'^\\s*\\d+\\.\\s+(?P<name>[A-Za-z\\']+(?:\\s[A-Za-z\\']+)*)\\s+\\((?P<species>[A-Z]+)\\):\\s+Lv(?P<level>\\d+)\\s+\\|\\s+Moves:\\s+(?P<moves>.*)$', re.MULTILINE)\n\n        for box_content in box_pattern.findall(pc_section_str):\n            for match in pokemon_pattern.finditer(box_content):\n                data = match.groupdict()\n                pokemon_info = {\n                    'name': data['name'].strip(),\n                    'level': int(data['level']),\n                    'species': data['species'],\n                    'moves': [move.strip() for move in data['moves'].split(',')]\n                }\n                all_pokemon.append(pokemon_info)\n\n    # A simple type dictionary for now, to be expanded later based on in-game discoveries\n    type_map = {\n        'TAUROS': ('Normal', None), 'CLEFAIRY': ('Normal', None), 'SANDSHREW': ('Ground', None),\n        'RATTATA': ('Normal', None), 'NIDORAN♀': ('Poison', None), 'WEEDLE': ('Bug', 'Poison'),\n        'METAPOD': ('Bug', None), 'KAKUNA': ('Bug', 'Poison'), 'NIDORAN♂': ('Poison', None),\n        'CLEFABLE': ('Normal', None), 'MANKEY': ('Fighting', None), 'CHARMANDER': ('Fire', None),\n        'SQUIRTLE': ('Water', None), 'MAGNEMITE': ('Electric', None), 'HAUNTER': ('Ghost', 'Poison'),\n        'EEVEE': ('Normal', None), 'HITMONCHAN': ('Fighting', None), 'DUGTRIO': ('Ground', None),\n        'NIDOKING': ('Poison', 'Ground'), 'KADABRA': ('Psychic', None), 'GRIMER': ('Poison', None),\n        'PINSIR': ('Bug', None), 'RHYHORN': ('Rock', 'Ground'), 'KANGASKHAN': ('Normal', None),\n        'NIDOQUEEN': ('Poison', 'Ground'), 'GLOOM': ('Grass', 'Poison'), 'OMANYTE': ('Rock', 'Water'),\n        'SCYTHER': ('Bug', 'Flying'), 'MACHOKE': ('Fighting', None), 'PIDGEOTTO': ('Normal', 'Flying'),\n        'STARYU': ('Water', None), 'GOLEM': ('Rock', 'Ground'), 'LAPRAS': ('Water', 'Ice'),\n        'PIKACHU': ('Electric', None), 'GOLBAT': ('Poison', 'Flying'), 'EXEGGCUTE': ('Grass', 'Psychic'),\n        'MAROWAK': ('Ground', None), 'WEEPINBELL': ('Grass', 'Poison')\n    }\n    for pokemon in all_pokemon:\n        species = pokemon['species']\n        types = type_map.get(species, ('Unknown', None))\n        pokemon['type1'] = types[0]\n        pokemon['type2'] = types[1]\n        del pokemon['species']\n\n    print(json.dumps(all_pokemon))\n\nexcept Exception as e:\n    import traceback\n    print(json.dumps({\"error\": str(e), \"traceback\": traceback.format_exc()}))\n",
+    "history": [
+      {
+        "commit_message": "feat: Create pokemon_data_extractor tool to automate data gathering. This tool parses the GameState to build a structured list of all stored Pokémon, streamlining the input process for the team_composition_advisor and eliminating tedious manual data entry. This is a direct response to an Overwatch suggestion and a major efficiency improvement.",
+        "timestamp": "2025-08-13T22:57:47.459Z",
+        "action_counter": 140881
+      },
+      {
+        "commit_message": "fix: Add robust error handling and improve regex. The previous version crashed on an `IndexError` if a line in the PC data didn't match the regex. This commit wraps the logic in a try-except block and uses `re.compile` with `finditer` for more efficient and safe parsing. It also refines the regex to better handle names and ensures the tool returns an empty list on failure instead of crashing.",
+        "timestamp": "2025-08-13T22:58:49.979Z",
+        "action_counter": 140883
+      },
+      {
+        "commit_message": "fix: Correct invalid character in regex. The previous version used a smart quote ('’') which caused a SyntaxError. This commit replaces it with a standard apostrophe ('') to fix the tool's execution.",
+        "timestamp": "2025-08-13T22:59:48.645Z",
+        "action_counter": 140885
+      },
+      {
+        "commit_message": "fix: Correct invalid character in regex. The previous version used a smart quote ('’') which caused a SyntaxError. This commit replaces it with a standard apostrophe ('') to fix the tool's execution.",
+        "timestamp": "2025-08-13T23:00:19.358Z",
+        "action_counter": 140886
+      },
+      {
+        "commit_message": "fix: Correct regex syntax and add lowercase support. The previous regex had a malformed character class `[A-Z\\'']` causing a `SyntaxError`. This commit corrects the class to `[A-Za-z']` and adds support for lowercase letters to handle names like 'i', making the tool more robust.",
+        "timestamp": "2025-08-13T23:02:23.165Z",
+        "action_counter": 140889
+      },
+      {
+        "commit_message": "fix: Overhaul tool to correctly parse all PC boxes. The previous version only read the first box. This commit introduces a two-stage regex process: first, it finds each individual box's content, and then it iterates through each box to parse the Pokémon within. This is a direct response to an Overwatch critique and fixes the critical failure of the tool.",
+        "timestamp": "2025-08-13T23:13:36.856Z",
+        "action_counter": 140911
+      },
+      {
+        "commit_message": "fix: Overhaul PC section parsing. The previous regex was failing to capture the full PC data block, leading to an empty output. This commit replaces the vague lookahead-based pattern with a more robust one that explicitly defines the start ('## Stored Pokemon in PC') and end ('## Inventory') of the target section. It also adds a basic, hardcoded type-map as a stopgap to provide type information, which was missing from the output.",
+        "timestamp": "2025-08-13T23:19:50.323Z",
+        "action_counter": 140920
+      },
+      {
+        "commit_message": "fix: Overhaul PC section parsing. The previous regex was failing to capture the full PC data block, leading to an empty output. This commit replaces the vague lookahead-based pattern with a more robust one that explicitly defines the start ('## Stored Pokemon in PC') and end ('## Inventory') of the target section. It also adds a basic, hardcoded type-map as a stopgap to provide type information, which was missing from the output.",
+        "timestamp": "2025-08-13T23:20:32.400Z",
+        "action_counter": 140921
       }
     ]
   }
