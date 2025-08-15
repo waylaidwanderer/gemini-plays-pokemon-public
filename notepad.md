@@ -83,3 +83,4 @@
     1. Navigate to the eastern elevated platform.
     2. Push the boulder at (15, 3) onto the switch at (18, 14).
     3. Immediately return to the observation point at (9, 13) *without leaving the map* to check the barrier's state.
+- `ladder_up` / `ladder_down`: Function as warps but are traversable tiles.
