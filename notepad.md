@@ -60,6 +60,8 @@
   - Arbok (Lv 58) - Known Moves: Glare, Substitute
   - Gengar (Lv 59) - Known Moves: Psychic
 
+- `ladder_up` / `ladder_down`: Function as warps but are traversable tiles.
+
 # III. Meta-Progression & Lessons Learned
 
 ## A. Core Methodological Failures (Self-Correction Log)
