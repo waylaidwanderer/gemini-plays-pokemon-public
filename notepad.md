@@ -90,6 +90,4 @@
 ## D. Future Development Ideas
 - **Tool Idea (`map_connectivity_analyzer`):** Create a tool to analyze the map XML and identify disconnected landmasses and the warps within each. This would automate the process of solving segmented map puzzles.
 - **Agent Monitoring (`battle_strategist_agent`):** The agent made a minor error in type-effectiveness reasoning (Turn 144315). While the recommended action was still sound, I need to monitor its performance for any further inaccuracies.
-## D. Future Development Ideas
-- **Tool Idea (`map_connectivity_analyzer`):** Create a tool to analyze the map XML and identify disconnected landmasses and the warps within each. This would automate the process of solving segmented map puzzles.
 - **Player-Hole Interaction:** Need to verify if the player can walk into a `hole` tile after a boulder has been pushed into it.
