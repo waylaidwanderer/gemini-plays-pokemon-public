@@ -21,7 +21,7 @@
 - `spinner_*`: Forces movement in the specified direction.
 - `ladder_up` / `ladder_down`: Function as warps but are traversable tiles.
 - `hole`: A tile that a boulder can be pushed into, usually causing it to fall to a lower floor. The player can also walk into the hole after the boulder.
-- **Boulder Pushing:** A single button press can both turn the player and push an adjacent boulder one tile. The player's position does not change during the push. Boulders CANNOT be pushed onto 'steps' tiles.
+- **Boulder Pushing:** Pushing a boulder is a multi-step process. 1. If not facing the boulder, the first button press turns you and pushes it one tile. Your character remains in place. 2. To push it again, you must first walk to the tile adjacent to the boulder's new position. 3. The next button press will push the boulder again, and you will remain in place. This cycle repeats. Boulders CANNOT be pushed onto 'steps' tiles.
 - **Context is Key:** The behavior of a specific tile type might not be universal. I must test tile mechanics in each new area rather than assuming they will always work the same way.
 
 ## C. Elite Four Mechanics (Verified)
