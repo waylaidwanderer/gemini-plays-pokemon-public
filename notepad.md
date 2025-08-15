@@ -22,7 +22,7 @@
 - `ladder_up` / `ladder_down`: Function as warps but are traversable tiles.
 - `hole`: A tile that a boulder can be pushed into, usually causing it to fall to a lower floor. The player can also walk into the hole after the boulder.
 - **Boulder Pushing:** When the player is standing on a tile directly next to the boulder, pushing it will move the boulder one tile, but the player's character remains stationary.
-- **Defeated Trainers as Obstacles:** In high-level areas like Victory Road, some defeated trainers (e.g., Juggler at (22,14)) become impassable objects. However, others (e.g., Hiker at (13,10)) do not and can be passed through. This needs to be tested on a case-by-case basis.
+- **Defeated Trainers as Obstacles (Hypothesis):** In high-level areas like Victory Road, the passability of defeated trainers is inconsistent. Some, like the Hiker at (13,10) on 2F, are passable. Others, like the Juggler at (22,14) on 2F, appear to be impassable. This must be tested on a case-by-case basis.
 
 # II. Battle Data & Strategy
 
