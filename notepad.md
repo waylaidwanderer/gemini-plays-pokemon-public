@@ -76,11 +76,11 @@
 
 **Goal:** Solve the Victory Road 1F puzzle to reach the ladder at (2, 2).
 
-**Observation:** The barrier at (10, 13) is blocking the path. The only verified puzzle element is the eastern switch at (18, 14) and the associated boulder at (15, 3).
+**Observation:** The barrier at (10, 13) is blocking the path to the ladder. The only verified puzzle element is the eastern switch at (18, 14). The boulder at (15, 3) on the eastern platform is unreachable due to this barrier. The only reachable boulder on the main ground floor is at (10, 18).
 
-**Corrected Hypothesis:** Pushing the boulder at (15, 3) onto the switch at (18, 14) will open the barrier at (10, 13). 
-* **Critical Caveat:** My previous test of this was invalidated because I left the map, which resets the puzzle state. 
-* **New Test Plan:**
-    1. Navigate to the eastern elevated platform.
-    2. Push the boulder at (15, 3) onto the switch at (18, 14).
-    3. Immediately return to the observation point at (9, 13) *without leaving the map* to check the barrier's state.
+**New Hypothesis:** Pushing the boulder from (10, 18) to the switch at (18, 14) will open the barrier at (10, 13).
+
+* **Test Plan:**
+    1. Use `boulder_path_planner` to confirm a valid push sequence exists.
+    2. If a plan is found, execute it.
+    3. Navigate to an observation point (e.g., (9, 13)) to check the barrier's state.
