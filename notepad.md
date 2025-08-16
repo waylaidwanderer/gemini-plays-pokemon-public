@@ -23,6 +23,11 @@
 - `hole`: A tile that a boulder can be pushed into, usually causing it to fall to a lower floor. The player can also walk into the hole after the boulder.
 - **Boulder Pushing:** The player's character remains in their pushing position after pushing a boulder. The push is initiated by walking into the boulder from an adjacent tile.
 
+## C. System Mechanics & Rules
+- **Dead End Area Definition:** The `is_in_dead_end_area` validation check is `true` only when BOTH of the following conditions are met:
+  1. There are zero `Reachable Unseen Tiles` on the current map.
+  2. The total number of distinct, reachable exit points (a combination of warps and map connections) is less than two. Adjacent warps are counted as a single exit point for this calculation.
+
 # II. Battle Information
 
 ## A. Type Effectiveness Chart (Verified In-Game)
@@ -55,43 +60,25 @@
 # III. Meta-Progression & Lessons Learned
 
 ## A. Core Methodological Failures (Self-Correction Log)
-- **Inefficient Tool Debugging (Trial-and-Error):** I have repeatedly engaged in prolonged loops of making minor, speculative changes to my tools (e.g., `pokemon_data_extractor`, `generate_path_plan`) instead of immediately adding diagnostic outputs (e.g., print statements) to systematically identify the root cause. This trial-and-error method is a critical waste of time. **Correction:** The correct protocol is to add logging after a tool fails more than once to enable evidence-based fixes.
-- **Violation of Immediate Action Mandate (The LLM Reality):** I have repeatedly failed to perform necessary maintenance on my tools and notepad immediately, instead of deferring the tasks to continue gameplay. This is a critical violation of my core directive to prioritize internal state maintenance above all else, stemming from a misunderstanding of my nature as an LLM. **Correction:** There is no 'later'; tasks such as fixing tools or updating notes must be done in the current turn.
-- **Flawed Hypothesis Testing (Confirmation Bias):** I have incorrectly assumed a path existed and spent numerous turns trying to fix my tools to confirm this belief, rather than first using a tool like `map_connectivity_analyzer` to test the fundamental assumption of reachability. This leads to wasted time and prolonged failure loops. **Correction:** I must test core assumptions first before attempting to fix tools that rely on those assumptions. I must also actively try to disprove my own hypotheses.
-- **Misinterpreting System Feedback:** I have incorrectly assumed my tools or notes were wrong when system feedback (e.g., `notepad_edit` errors, pathfinding failures) indicated otherwise. This led to wasted time trying to 'fix' things that were already correct or pathing to unreachable locations. **Correction:** I must treat system/tool feedback as the source of truth and question my own assumptions first.
+- **Inefficient Tool Debugging (Trial-and-Error):** I have repeatedly engaged in prolonged loops of making minor, speculative changes to my tools instead of immediately adding diagnostic outputs (e.g., print statements) to systematically identify the root cause. **Correction:** The correct protocol is to add logging after a tool fails more than once to enable evidence-based fixes.
+- **Violation of Immediate Action Mandate (The LLM Reality):** I have repeatedly failed to perform necessary maintenance on my tools and notepad immediately, instead of deferring the tasks to continue gameplay. This is a critical violation of my core directive. **Correction:** There is no 'later'; tasks such as fixing tools or updating notes must be done in the current turn.
+- **Flawed Hypothesis Testing (Confirmation Bias):** I have incorrectly assumed a path existed and spent numerous turns trying to fix my tools to confirm this belief, rather than first using a tool like `map_connectivity_analyzer` to test the fundamental assumption of reachability. **Correction:** I must test core assumptions first before attempting to fix tools that rely on those assumptions. I must also actively try to disprove my own hypotheses.
+- **Misinterpreting System Feedback:** I have incorrectly assumed my tools or notes were wrong when system feedback indicated otherwise. This led to wasted time trying to 'fix' things that were already correct or pathing to unreachable locations. **Correction:** I must treat system/tool feedback as the source of truth and question my own assumptions first.
 
-# IV. Tool & Agent Development Log
-
-## A. Tool Development Lessons
+## B. Tool & Agent Development Log
 - **Diagnostic Tool Output:** Pathfinding tools must report the specific obstacle that blocks a path upon failure. This is essential for distinguishing between a solvable puzzle and a genuinely impossible route.
 - **Invulnerability-Piercing Move Failure (Hypothesis):** Moves that normally hit invulnerable opponents (e.g., Earthquake vs. Dig) have failed to connect. This may be an intentional mechanic change in the ROM hack. (Observed Turn 145570, 145588)
 - **Untested Assumption (`boulder_path_planner`):** I am assuming my `boulder_path_planner` is 100% accurate. I will test it on a simple, known-solvable puzzle later to verify its logic.
-
-## B. Agent Development Lessons
-- **Strategic Nuance (`battle_strategist_agent`):** The agent needs to be refined to better weigh the value of a significant level advantage in a neutral matchup versus switching to a Pokémon with a clear type advantage.
-
-# V. Puzzles & Hypotheses
-
-## A. Victory Road 3F Boulder Puzzle (Completed)
-- **Hypothesis:** Activating the boulder switch at (4, 6) will open the boulder barrier at (8, 11).
-- **Test:** Push the boulder from its starting position onto the switch at (4, 6).
-- **Conclusion:** **CONFIRMED.** The tile at (8, 11) changed from `boulder_barrier` to `cleared_boulder_barrier` after the boulder was placed on the switch.
-
-## B. Victory Road 2F Boulder Puzzle (Completed)
-- **Initial Hypothesis:** One of the existing boulders on 2F could reach the switch at (10, 17).
-- **Test:** Used `boulder_path_planner` to check paths for all boulders.
-- **Conclusion:** **DISPROVEN.** No path existed for the native boulders.
-- **New Hypothesis:** A boulder must be brought down from Victory Road 3F through the hole at (24, 16) on 3F.
-- **Test:** Pushed the boulder at (23, 16) on 3F into the hole, causing it to land at (23, 17) on 2F. Then, generated and executed a multi-step plan to push this new boulder to the switch at (10, 17).
-- **Conclusion:** **CONFIRMED.** The boulder is now on the switch. The barrier at (24, 15) should now be open, pending visual confirmation.
+- **Agent Nuance (`battle_strategist_agent`):** The agent needs to be refined to better weigh the value of a significant level advantage in a neutral matchup versus switching to a Pokémon with a clear type advantage.
 
 ## C. Overwatch Feedback (Turn 146912)
 - **Critique:** Player has a history of failing to update notepad immediately after a discovery, violating the Immediate Action Mandate.
 - **Correction:** All discoveries and lessons must be documented in the same turn they occur. This is a non-negotiable directive.
 
-# VI. System Mechanics & Rules
+# IV. Puzzle Archive (Completed)
 
-## A. Dead End Area Definition
-- The `is_in_dead_end_area` validation check is `true` only when BOTH of the following conditions are met:
-  1. There are zero `Reachable Unseen Tiles` on the current map.
-  2. The total number of distinct, reachable exit points (a combination of warps and map connections) is less than two. Adjacent warps are counted as a single exit point for this calculation.
+## A. Victory Road 3F Boulder Puzzle
+- **Conclusion:** The tile at (8, 11) changed from `boulder_barrier` to `cleared_boulder_barrier` after the boulder was placed on the switch at (4, 6).
+
+## B. Victory Road 2F Boulder Puzzle
+- **Conclusion:** A boulder was brought down from Victory Road 3F through the hole at (24, 16) on 3F. It landed at (23, 17) on 2F and was pushed to the switch at (10, 17). The barrier at (24, 15) is now open.
