@@ -81,18 +81,4 @@
 - **Conclusion:** **CONFIRMED.** The tile at (8, 11) changed from `boulder_barrier` to `cleared_boulder_barrier` after the boulder was placed on the switch.
 ## Victory Road 2F Boulder Puzzle (Current)
 - **Goal:** Move boulder from (24, 17) to switch at (10, 17).
-- **Plan:**
-  1. move_path to (25, 17), push Left
-  2. move_path to (24, 17), push Left
-  3. move_path to (23, 17), push Left
-  4. move_path to (22, 17), push Left
-  5. move_path to (21, 17), push Left
-  6. move_path to (20, 17), push Left
-  7. move_path to (19, 17), push Left
-  8. move_path to (18, 17), push Left
-  9. move_path to (17, 17), push Left
-  10. move_path to (16, 17), push Left
-  11. move_path to (15, 17), push Left
-  12. move_path to (14, 17), push Left
-  13. move_path to (13, 17), push Left
-  14. move_path to (12, 17), push Left
+- **Status:** Plan generated and is currently being executed by the `puzzle_executor` agent.
