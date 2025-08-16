@@ -17,6 +17,7 @@
 - `elevated_ground`: Walkable ground at a different elevation, only accessible from `steps` or other `elevated_ground` tiles. One-way drops to adjacent `ground` tiles are possible.
 - `cleared_boulder_barrier`: Functions as a one-way ramp. Allows upward movement from an adjacent `ground` tile to the `cleared_bolder_barrier` tile (which acts as `elevated_ground`). Downward movement from `cleared_boulder_barrier` to `ground` is prohibited.
 - `boulder_barrier`: Impassable tile that can be cleared by a `boulder_switch`.
+- `boulder_barrier`: Impassable tile that can be cleared by a `boulder_switch`.
 - `boulder_switch`: Floor switch for boulders. Activating it changes `boulder_barrier` to `cleared_boulder_barrier`.
 - `spinner_*`: Forces movement in the specified direction.
 - `ladder_up` / `ladder_down`: Function as warps but are traversable tiles.
