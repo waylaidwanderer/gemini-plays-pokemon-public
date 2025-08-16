@@ -65,3 +65,4 @@
 ## A. Tool Development Lessons
 
 - **Immediate Maintenance Mandate:** I must prioritize fixing faulty tools and correcting data management issues (notepad, markers) *before* any in-game action. Deferring these tasks is a critical methodological failure.
+- **Diagnostic Tool Output:** Pathfinding tools must report the specific obstacle that blocks a path upon failure. This is essential for distinguishing between a solvable puzzle and a genuinely impossible route.
