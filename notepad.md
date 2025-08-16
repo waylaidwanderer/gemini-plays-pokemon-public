@@ -24,9 +24,7 @@
 - **Boulder Pushing:** The player's character remains in their pushing position after pushing a boulder. The push is initiated by walking into the boulder from an adjacent tile.
 
 ## C. System Mechanics & Rules
-- **Dead End Area Definition:** The `is_in_dead_end_area` validation check is `true` only when BOTH of the following conditions are met:
-  1. There are zero `Reachable Unseen Tiles` on the current map.
-  2. The total number of distinct, reachable exit points (a combination of warps and map connections) is less than two. Adjacent warps are counted as a single exit point for this calculation.
+- **Dead End Area Definition:** An area is NOT a 'dead end' if there are reachable unvisited warps, Reachable Undiscovered Map Connections, OR the `Reachable Unseen Tiles` list for the current map contains entries. This is a correction from a previous misunderstanding.
 
 # II. Battle Information
 
@@ -68,12 +66,6 @@
 ## B. Tool & Agent Development Log
 - **Diagnostic Tool Output:** Pathfinding tools must report the specific obstacle that blocks a path upon failure. This is essential for distinguishing between a solvable puzzle and a genuinely impossible route.
 - **Invulnerability-Piercing Move Failure (Hypothesis):** Moves that normally hit invulnerable opponents (e.g., Earthquake vs. Dig) have failed to connect. This may be an intentional mechanic change in the ROM hack. (Observed Turn 145570, 145588)
-- **Untested Assumption (`boulder_path_planner`):** I am assuming my `boulder_path_planner` is 100% accurate. I will test it on a simple, known-solvable puzzle later to verify its logic.
-- **Agent Nuance (`battle_strategist_agent`):** The agent needs to be refined to better weigh the value of a significant level advantage in a neutral matchup versus switching to a Pokémon with a clear type advantage.
-
-## C. Overwatch Feedback (Turn 146912)
-- **Critique:** Player has a history of failing to update notepad immediately after a discovery, violating the Immediate Action Mandate.
-- **Correction:** All discoveries and lessons must be documented in the same turn they occur. This is a non-negotiable directive.
 
 # IV. Puzzle Archive (Completed)
 
