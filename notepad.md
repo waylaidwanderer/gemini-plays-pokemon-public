@@ -81,3 +81,4 @@
 - **Goal:** Move boulder to switch at (10, 17).
 - **Status:** **Hypothesis Confirmed.** A boulder was pushed down from Victory Road 3F. My updated `boulder_path_planner` has generated a valid 13-step plan to move this new boulder to the switch.
 - **Execution:** Currently executing the multi-step plan.
+- **Delayed Documentation (Notepad):** I have failed to update my notepad immediately upon confirming new information (e.g., confirming a puzzle hypothesis), instead deferring the task. This violates the Immediate Action Mandate. **Correction:** Documentation must occur in the same turn a discovery is made.
