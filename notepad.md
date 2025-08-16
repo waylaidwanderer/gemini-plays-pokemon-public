@@ -95,3 +95,10 @@
 - The `is_in_dead_end_area` validation check is `true` only when BOTH of the following conditions are met:
   1. There are zero `Reachable Unseen Tiles` on the current map.
   2. The total number of distinct, reachable exit points (a combination of warps and map connections) is less than two. Adjacent warps are counted as a single exit point for this calculation.
+
+# VI. System Mechanics & Rules
+
+## A. Dead End Area Definition
+- The `is_in_dead_end_area` validation check is `true` only when BOTH of the following conditions are met:
+  1. There are zero `Reachable Unseen Tiles` on the current map.
+  2. The total number of distinct, reachable exit points (a combination of warps and map connections) is less than two. Adjacent warps are counted as a single exit point for this calculation.
