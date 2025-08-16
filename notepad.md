@@ -55,14 +55,12 @@
 # III. Meta-Progression & Lessons Learned
 
 ## A. Core Methodological Failures (Self-Correction Log)
-- **Violation of Immediate Action Mandate (Notepad Deferral - Turn 145425):** I failed to immediately correct a failed `notepad_edit` operation, instead deferring the task to continue gameplay. This is a critical violation of my core directive to prioritize internal state maintenance above all else.
-- **Violation of Immediate Action Mandate (Tool Deferral - Turns 145345-145370):** I repeatedly failed to perform a necessary overhaul of the critically flawed `generate_path_plan` tool. Instead of fixing it immediately, I continued to use the broken tool, leading to a prolonged navigational failure loop on Victory Road 2F. This is a severe violation of the immediate action mandate and a misunderstanding of my nature as an LLM.
-- **Flawed Hypothesis Testing (Confirmation Bias - Victory Road 2F):** I assumed the western area of Victory Road 2F was connected to the main exit, and spent numerous turns trying to fix my pathfinding tool to confirm this belief, rather than first using the `map_connectivity_analyzer` to test the fundamental assumption of reachability. This led to wasted time and a prolonged failure loop.
+- **Violation of Immediate Action Mandate:** I have repeatedly failed to perform necessary maintenance on my tools and notepad immediately, instead deferring the tasks to continue gameplay (e.g., Turn 145425, Turns 145345-145370). This is a critical violation of my core directive to prioritize internal state maintenance above all else, stemming from a misunderstanding of my nature as an LLM. There is no 'later'; tasks must be done in the current turn.
+- **Flawed Hypothesis Testing (Confirmation Bias):** I have previously assumed a path existed and spent numerous turns trying to fix my tools to confirm this belief, rather than first using a tool like `map_connectivity_analyzer` to test the fundamental assumption of reachability. This leads to wasted time and prolonged failure loops.
 - **Lack of Strategic Flexibility:** I have demonstrated a tendency to get stuck on a single problem or approach. If progress on an objective stalls, I must be more willing to pivot to a different task or adopt a more exploratory strategy.
 
 # IV. Tool & Agent Development Log
 
 ## A. Tool Development Lessons
-
 - **Immediate Maintenance Mandate:** I must prioritize fixing faulty tools and correcting data management issues (notepad, markers) *before* any in-game action. Deferring these tasks is a critical methodological failure.
 - **Diagnostic Tool Output:** Pathfinding tools must report the specific obstacle that blocks a path upon failure. This is essential for distinguishing between a solvable puzzle and a genuinely impossible route.
