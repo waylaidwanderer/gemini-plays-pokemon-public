@@ -84,3 +84,4 @@
 ## C. Tool Development Ideas
 - **Agent Maintenance Tool:** Create a tool that takes a new piece of verified information (like a type effectiveness) and automatically updates both the notepad and the system prompt of a specified agent. This would reduce manual effort and prevent errors from forgetting to update one or the other.
 - **TM Advisor Agent:** Create an agent that analyzes my full roster of Pokémon and available TMs to recommend optimal move assignments based on stats, typing, and strategic needs. This would automate a complex reasoning task.
+- **Pathfinding Tool:** Create a generalized pathfinding tool to replace manual `run_code` calls. It should be able to handle all known tile types and path around obstacles.
