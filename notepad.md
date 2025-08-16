@@ -79,6 +79,5 @@
 - **Test:** Push the boulder from its starting position onto the switch at (4, 6).
 - **Conclusion:** **CONFIRMED.** The tile at (8, 11) changed from `boulder_barrier` to `cleared_boulder_barrier` after the boulder was placed on the switch.
 ## Victory Road 2F Boulder Puzzle (Current)
-- **Goal:** Move boulder from (24, 17) to switch at (10, 17).
-- **Status:** Plan generated and is currently being executed by the `puzzle_executor` agent.
-- **Current Plan (Victory Road 2F):** Move boulder from (16, 17) to switch at (10, 17). Plan is generated and being executed by `puzzle_executor`.
+- **Goal:** Move boulder to switch at (10, 17).
+- **Status:** Plan to move boulder from (14, 17) generated. Executing with `puzzle_executor`.
