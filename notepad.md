@@ -77,4 +77,3 @@
 
 ## C. Tool Development Ideas
 - **Agent Maintenance Tool:** Create a tool that takes a new piece of verified information (like a type effectiveness) and automatically updates both the notepad and the system prompt of a specified agent. This would reduce manual effort and prevent errors from forgetting to update one or the other.
-- **Agent Maintenance Tool:** Create a tool that takes a new piece of verified information (like a type effectiveness) and automatically updates both the notepad and the system prompt of a specified agent. This would reduce manual effort and prevent errors from forgetting to update one or the other.
