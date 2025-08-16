@@ -83,3 +83,4 @@
   - Gyarados (Lv 60) - Known Moves: Hyper Beam
   - Charizard (Lv 60) - Known Moves: Wing Attack
   - Aerodactyl (Lv 61) - Known Moves: Rock Slide, Hyper Beam
+- **TM Advisor Agent:** Create an agent that analyzes my full roster of Pokémon and available TMs to recommend optimal move assignments based on stats, typing, and strategic needs. This would automate a complex reasoning task.
