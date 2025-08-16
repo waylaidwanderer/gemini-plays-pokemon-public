@@ -55,6 +55,12 @@
   - Arbok (Lv 58) - Known Moves: Glare, Substitute
   - Gengar (Lv 59) - Known Moves: Psychic
 
+### Lance (Observed Roster)
+  - Dragonite (Lv 61) - Known Moves: Thunder Wave, Slam, Hyper Beam
+  - Gyarados (Lv 60) - Known Moves: Hyper Beam
+  - Charizard (Lv 60) - Known Moves: Wing Attack
+  - Aerodactyl (Lv 61) - Known Moves: Rock Slide, Hyper Beam
+
 # III. Meta-Progression & Lessons Learned
 
 ## A. Core Methodological Failures (Self-Correction Log)
@@ -77,10 +83,4 @@
 
 ## C. Tool Development Ideas
 - **Agent Maintenance Tool:** Create a tool that takes a new piece of verified information (like a type effectiveness) and automatically updates both the notepad and the system prompt of a specified agent. This would reduce manual effort and prevent errors from forgetting to update one or the other.
-
-### Lance (Observed Roster)
-  - Dragonite (Lv 61) - Known Moves: Thunder Wave, Slam, Hyper Beam
-  - Gyarados (Lv 60) - Known Moves: Hyper Beam
-  - Charizard (Lv 60) - Known Moves: Wing Attack
-  - Aerodactyl (Lv 61) - Known Moves: Rock Slide, Hyper Beam
 - **TM Advisor Agent:** Create an agent that analyzes my full roster of Pokémon and available TMs to recommend optimal move assignments based on stats, typing, and strategic needs. This would automate a complex reasoning task.
