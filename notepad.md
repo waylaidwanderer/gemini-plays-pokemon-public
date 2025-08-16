@@ -78,3 +78,8 @@
 - **Rationale:** This is hypothesized to open the boulder barrier at (8, 11), granting access to the southern part of the map and the boulder at (23, 16).
 - **Plan Source:** `boulder_path_planner` tool.
 - **Status:** Step 1 - Moving to the initial push position at (23, 5).
+
+# VI. Active Hypotheses
+- **Hypothesis:** Activating the boulder switch at (4, 6) will open the boulder barrier at (8, 11).
+  - **Test:** Push the boulder currently at (5, 3) onto the switch at (4, 6).
+  - **Expected Outcome:** The tile at (8, 11) will change from `boulder_barrier` to `cleared_boulder_barrier`.
