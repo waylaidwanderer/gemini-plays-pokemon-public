@@ -66,3 +66,4 @@
 - **Immediate Maintenance Mandate:** I must prioritize fixing faulty tools and correcting data management issues (notepad, markers) *before* any in-game action. Deferring these tasks is a critical methodological failure.
 - **Diagnostic Tool Output:** Pathfinding tools must report the specific obstacle that blocks a path upon failure. This is essential for distinguishing between a solvable puzzle and a genuinely impossible route.
 - **Invulnerability-Piercing Move Failure (Hypothesis):** Moves that normally hit invulnerable opponents (e.g., Earthquake vs. Dig, Fly vs. Dig) have failed to connect. This may be an intentional mechanic change in the ROM hack. (Observed Turn 145570, 145588)
+- **`boulder_path_planner` Flaw (Hypothesis):** The tool appears to incorrectly calculate the player's final position after a horizontal push, leading to invalid `move_path` generation in subsequent steps of its plan. (Observed Turn 145862)
