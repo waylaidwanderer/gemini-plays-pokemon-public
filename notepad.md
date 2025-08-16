@@ -63,5 +63,5 @@
 # IV. Tool & Agent Development Log
 
 ## A. Tool Development Lessons
-- **Defeated Trainers as Obstacles:** My own tools and direct observation confirm that defeated trainers are impassable obstacles. However, system validation checks may ignore them. My tools must be able to toggle this assumption for debugging vs. practical navigation.
+
 - **Immediate Maintenance Mandate:** I must prioritize fixing faulty tools and correcting data management issues (notepad, markers) *before* any in-game action. Deferring these tasks is a critical methodological failure.
