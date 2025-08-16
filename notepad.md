@@ -21,7 +21,7 @@
 - `spinner_*`: Forces movement in the specified direction.
 - `ladder_up` / `ladder_down`: Function as warps but are traversable tiles.
 - `hole`: A tile that a boulder can be pushed into, usually causing it to fall to a lower floor. The player can also walk into the hole after the boulder.
-- **Boulder Pushing:** When pushing a boulder, the boulder moves one tile. If pushing vertically (Up/Down), the player remains stationary. If pushing horizontally (Left/Right), the player moves into the boulder's previous space. (Observed Turn 145887)
+- **Boulder Pushing:** The player's character remains stationary during the push action itself, regardless of direction. To perform a push, the player must be on an adjacent tile. After the push, the player must walk to the new adjacent tile to push again. (Corrected after multiple observations)
 
 # II. Battle Data & Strategy
 
