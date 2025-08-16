@@ -29,7 +29,7 @@
 # II. Battle Information
 
 ## A. Type Effectiveness Chart (Verified In-Game)
-- **Super Effective (2x):** Water > Rock, Ground, Fire; Electric > Water, Flying; Rock > Flying; Ground > Fire, Electric, Rock, Poison, Psychic (Hypothesized); Ice > Ground, Grass, Flying, Dragon; Flying > Fighting, Grass, Bug; Fighting > Normal, Rock, Ice; Grass > Ground, Rock, Water; Psychic > Ghost.
+- **Super Effective (2x):** Water > Rock, Ground, Fire; Electric > Water, Flying; Rock > Flying; Ground > Fire, Electric, Rock, Poison, Psychic (Hypothesized), Ground; Ice > Ground, Grass, Flying, Dragon; Flying > Fighting, Grass, Bug; Fighting > Normal, Rock, Ice; Grass > Ground, Rock, Water; Psychic > Ghost.
 - **Not Very Effective (0.5x):** Normal !> Rock; Flying !> Rock; Ice !> Fighting (Ice-type moves are NOT super-effective against Fighting-types); Psychic !> Psychic.
 - **Immune (0x):** Normal immune to Ghost; Ground immune to Electric; Flying immune to Ground; Ghost immune to Ground.
 
@@ -48,18 +48,15 @@
   - Onix (Lv 56) - Known Moves: Rock Slide
   - Machamp (Lv 58) - Known Moves: Earthquake, Rock Slide
 
-### Agatha (Last Attempt)
+### Agatha (Defeated)
   - Gengar (Lv 57) - Known Moves: Night Shade, Mega Drain, Hypnosis, Dream Eater
-  - Golbat (Lv 58) - Moves unknown.
+  - Golbat (Lv 58) - Known Moves: Toxic, Double Team, Fly
   - Marowak (Lv 57) - Known Moves: Rock Slide, Earthquake
-  - Arbok (Lv 58) - Known Moves: Glare, Substitute
-  - Gengar (Lv 59) - Known Moves: Psychic
+  - Arbok (Lv 58) - Known Moves: Glare, Substitute, Wrap
+  - Gengar (Lv 59) - Known Moves: Psychic, Mega Drain
 
-### Lance
-  - Dragonite (Lv 61) - Known Moves: Thunder Wave, Slam, Hyper Beam
-  - Gyarados (Lv 60) - Known Moves: Hyper Beam
-  - Charizard (Lv 60) - Known Moves: Wing Attack
-  - Aerodactyl (Lv 61) - Known Moves: Rock Slide, Hyper Beam
+### Lance (Current Attempt)
+  - Dragonite (Lv 61) - Known Moves: Slam
 
 # III. Meta-Progression & Lessons Learned
 
@@ -73,6 +70,7 @@
 - **Diagnostic Tool Output:** Pathfinding tools must report the specific obstacle that blocks a path upon failure. This is essential for distinguishing between a solvable puzzle and a genuinely impossible route.
 - **Invulnerability-Piercing Move Failure (Hypothesis):** Moves that normally hit invulnerable opponents (e.g., Earthquake vs. Dig) have failed to connect. This may be an intentional mechanic change in the ROM hack. (Observed Turn 145570, 145588)
 - **AI Prediction Failure (Confirmation Bias):** I have incorrectly assumed the opponent's AI would use a specific move to counter my current Pokémon, failing to predict that the AI would instead use the optimal move to counter my *switch-in*. (Observed Turn 147728, Lorelei's Lapras vs. CRAG). **Correction:** I must assume the AI will make the optimal play against my predicted action, not just react to the current board state.
+- **`select_battle_option` Tool Misuse:** The tool is designed to execute button presses on its own. Providing manual button presses in the same turn is redundant and incorrect. **Correction:** When using this tool, do not provide any other button presses. (Observed Turn 147891, 147894, 147896)
 
 # IV. Puzzle Archive (Completed)
 
@@ -83,8 +81,8 @@
 - **Conclusion:** A boulder was brought down from Victory Road 3F through the hole at (24, 16) on 3F. It landed at (23, 17) on 2F and was pushed to the switch at (10, 17). The barrier at (24, 15) is now open.
 
 # V. Tool & Agent Development Ideas
+- **In-Battle Move Selection Tool:** Create a tool that can take a move name as input and automatically perform the necessary button presses to select it from the move menu. This would automate a tedious manual process, especially when the desired move is at the bottom of the list.
 - **Agent Maintenance Tool:** Create a tool that takes a new piece of verified information (like a type effectiveness) and automatically updates both the notepad and the system prompt of a specified agent. This would reduce manual effort and prevent errors from forgetting to update one or the other.
 - **TM Advisor Agent:** Create an agent that analyzes my full roster of Pokémon and available TMs to recommend optimal move assignments based on stats, typing, and strategic needs. This would automate a complex reasoning task.
 - **Semi-Automated Data Extractor Tool:** A tool to guide manual PC navigation to extract Pokémon data as a workaround for the broken `pokemon_data_extractor`.
 - **`pokemon_data_extractor` Failure:** The tool fails to execute even with a simple print statement and no arguments. Hypothesis that the large `game_state_string` input was the cause has been disproven. The root cause is likely an issue with the tool execution environment itself, making the tool unusable. Must proceed with manual workarounds.
-- **In-Battle Move Selection Tool:** A tool that can take a move name as input and automatically perform the necessary button presses to select it from the move menu. This would automate a tedious manual process, especially when the desired move is at the bottom of the list.
