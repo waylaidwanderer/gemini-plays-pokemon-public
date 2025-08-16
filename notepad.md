@@ -87,3 +87,9 @@
 - **TM Advisor Agent:** Create an agent that analyzes my full roster of Pokémon and available TMs to recommend optimal move assignments based on stats, typing, and strategic needs. This would automate a complex reasoning task.
 - **Semi-Automated Data Extractor Tool:** A tool to guide manual PC navigation to extract Pokémon data as a workaround for the broken `pokemon_data_extractor`.
 - **`pokemon_data_extractor` Failure:** The tool fails to execute even with a simple print statement and no arguments. Hypothesis that the large `game_state_string` input was the cause has been disproven. The root cause is likely an issue with the tool execution environment itself, making the tool unusable. Must proceed with manual workarounds.
+### Bruno (Defeated)
+  - Hitmonchan (Lv 57) - Known Moves: Dizzy Punch, Thunderpunch, Ice Punch
+  - Poliwrath (Lv 56) - Known Moves: Hydro Pump, Ice Beam
+  - Hitmonlee (Lv 57) - Known Moves: Jump Kick
+  - Onix (Lv 56) - Known Moves: Rock Slide
+  - Machamp (Lv 58) - Known Moves: Earthquake, Rock Slide
