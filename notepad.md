@@ -33,29 +33,29 @@
 - **Not Very Effective (0.5x):** Normal !> Rock; Flying !> Rock; Ice !> Fighting (Ice-type moves are NOT super-effective against Fighting-types); Psychic !> Psychic.
 - **Immune (0x):** Normal immune to Ghost; Ground immune to Electric; Flying immune to Ground; Ghost immune to Ground.
 
-## B. Battle Logs (Elite Four)
-### Lorelei (Observed Roster)
+## B. Elite Four Battle Logs (Observed Rosters)
+### Lorelei (Defeated)
   - Slowbro (Lv 56) - Known Moves: Psychic
   - Cloyster (Lv 55) - Known Moves: Explosion
   - Dewgong (Lv 56) - Moves unknown.
   - Jynx (Lv 59) - Known Moves: Lovely Kiss, Blizzard, Psychic, Bubblebeam (lowers Speed).
   - Lapras (Lv 60) - Moves unknown.
 
-### Bruno (Observed Roster)
+### Bruno (Defeated)
   - Hitmonchan (Lv 57) - Known Moves: Dizzy Punch, Thunderpunch, Ice Punch
   - Poliwrath (Lv 56) - Known Moves: Hydro Pump, Ice Beam
   - Hitmonlee (Lv 57) - Known Moves: Jump Kick
   - Onix (Lv 56) - Known Moves: Rock Slide
   - Machamp (Lv 58) - Known Moves: Earthquake, Rock Slide
 
-### Agatha (Observed Roster - Last Attempt)
+### Agatha (Last Attempt)
   - Gengar (Lv 57) - Known Moves: Night Shade, Mega Drain, Hypnosis, Dream Eater
   - Golbat (Lv 58) - Moves unknown.
   - Marowak (Lv 57) - Known Moves: Rock Slide, Earthquake
   - Arbok (Lv 58) - Known Moves: Glare, Substitute
   - Gengar (Lv 59) - Known Moves: Psychic
 
-### Lance (Observed Roster)
+### Lance
   - Dragonite (Lv 61) - Known Moves: Thunder Wave, Slam, Hyper Beam
   - Gyarados (Lv 60) - Known Moves: Hyper Beam
   - Charizard (Lv 60) - Known Moves: Wing Attack
@@ -82,14 +82,8 @@
 ## B. Victory Road 2F Boulder Puzzle
 - **Conclusion:** A boulder was brought down from Victory Road 3F through the hole at (24, 16) on 3F. It landed at (23, 17) on 2F and was pushed to the switch at (10, 17). The barrier at (24, 15) is now open.
 
-## C. Tool & Agent Development Ideas
+# V. Tool & Agent Development Ideas
 - **Agent Maintenance Tool:** Create a tool that takes a new piece of verified information (like a type effectiveness) and automatically updates both the notepad and the system prompt of a specified agent. This would reduce manual effort and prevent errors from forgetting to update one or the other.
 - **TM Advisor Agent:** Create an agent that analyzes my full roster of Pokémon and available TMs to recommend optimal move assignments based on stats, typing, and strategic needs. This would automate a complex reasoning task.
 - **Semi-Automated Data Extractor Tool:** A tool to guide manual PC navigation to extract Pokémon data as a workaround for the broken `pokemon_data_extractor`.
 - **`pokemon_data_extractor` Failure:** The tool fails to execute even with a simple print statement and no arguments. Hypothesis that the large `game_state_string` input was the cause has been disproven. The root cause is likely an issue with the tool execution environment itself, making the tool unusable. Must proceed with manual workarounds.
-### Bruno (Defeated)
-  - Hitmonchan (Lv 57) - Known Moves: Dizzy Punch, Thunderpunch, Ice Punch
-  - Poliwrath (Lv 56) - Known Moves: Hydro Pump, Ice Beam
-  - Hitmonlee (Lv 57) - Known Moves: Jump Kick
-  - Onix (Lv 56) - Known Moves: Rock Slide
-  - Machamp (Lv 58) - Known Moves: Earthquake, Rock Slide
