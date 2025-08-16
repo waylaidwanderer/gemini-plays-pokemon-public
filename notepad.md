@@ -21,7 +21,7 @@
 - `ladder_up` / `ladder_down`: Function as warps but are traversable tiles.
 - `boulder_barrier`: Impassable tile that can be cleared by a `boulder_switch`.
 - `hole`: A tile that a boulder can be pushed into, usually causing it to fall to a lower floor. The player can also walk into the hole after the boulder.
-- **Boulder Pushing:** The player's character remains in their pushing position after pushing a boulder. The push is initiated by walking into the boulder from an adjacent tile.
+- **Boulder Pushing:** The player's character's movement depends on the push direction. For a **vertical push (Up/Down)**, the player remains in their pushing position. For a **horizontal push (Left/Right)**, the player moves into the boulder's previous space. The push is initiated by walking into the boulder from an adjacent tile.
 
 # II. Battle Information
 
