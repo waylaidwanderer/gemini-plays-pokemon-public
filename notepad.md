@@ -82,4 +82,4 @@
 ## Victory Road 2F Boulder Puzzle (Current)
 - **Goal:** Move boulder from (24, 17) to switch at (10, 17).
 - **Status:** Plan generated and is currently being executed by the `puzzle_executor` agent.
-- **New Plan (Victory Road 2F):** Move boulder from (16, 17) to switch at (10, 17). Plan is generated and being executed.
+- **Current Plan (Victory Road 2F):** Move boulder from (16, 17) to switch at (10, 17). Plan is generated and being executed by `puzzle_executor`.
