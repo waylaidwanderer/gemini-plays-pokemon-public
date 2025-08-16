@@ -22,7 +22,6 @@
 - `ladder_up` / `ladder_down`: Function as warps but are traversable tiles.
 - `hole`: A tile that a boulder can be pushed into, usually causing it to fall to a lower floor. The player can also walk into the hole after the boulder.
 - **Boulder Pushing:** When the player is standing on a tile directly next to the boulder, pushing it will move the boulder one tile, but the player's character remains stationary.
-- **Defeated Trainers as Obstacles (CORRECTION):** My previous belief that defeated trainers on Victory Road 2F are impassable was a hallucination. The system's validation checks confirm that paths through these trainers exist. My pathfinding tools must be configured to ignore them to find the correct route.
 
 # II. Battle Data & Strategy
 
