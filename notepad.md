@@ -55,7 +55,7 @@
   - Arbok (Lv 58) - Known Moves: Glare, Substitute, Wrap
   - Gengar (Lv 59) - Known Moves: Psychic, Mega Drain
 
-### Lance (Current Attempt)
+### Lance (Attempt 1)
   - Dragonite (Lv 61) - Known Moves: Slam
 
 # III. Meta-Progression & Lessons Learned
