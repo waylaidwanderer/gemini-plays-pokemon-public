@@ -83,3 +83,9 @@
   - Gyarados (Lv 60) - Known Moves: Hyper Beam
   - Charizard (Lv 60) - Known Moves: Wing Attack
   - Aerodactyl (Lv 61) - Known Moves: Rock Slide, Hyper Beam
+
+### Lance (Observed Roster)
+  - Dragonite (Lv 61) - Known Moves: Thunder Wave, Slam, Hyper Beam
+  - Gyarados (Lv 60) - Known Moves: Hyper Beam
+  - Charizard (Lv 60) - Known Moves: Wing Attack
+  - Aerodactyl (Lv 61) - Known Moves: Rock Slide, Hyper Beam
