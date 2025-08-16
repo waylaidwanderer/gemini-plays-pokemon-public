@@ -70,8 +70,6 @@
 ## B. Agent Development Lessons
 - **Strategic Nuance (`battle_strategist_agent`):** The agent needs to be refined to better weigh the value of a significant level advantage in a neutral matchup versus switching to a Pokémon with a clear type advantage.
 
-## C. Agent Ideas (To Be Developed)
-
 # V. Puzzles & Hypotheses
 
 ## A. Victory Road 3F Boulder Puzzle (Completed)
@@ -80,4 +78,5 @@
 - **Conclusion:** **CONFIRMED.** The tile at (8, 11) changed from `boulder_barrier` to `cleared_boulder_barrier` after the boulder was placed on the switch.
 ## Victory Road 2F Boulder Puzzle (Current)
 - **Goal:** Move boulder to switch at (10, 17).
-- **Status:** Analyzing available boulders. `boulder_path_planner` failed for boulder at (14, 17) and (5, 15). Now testing boulder at (6, 6).
+- **Status:** Analysis complete. `boulder_path_planner` confirmed that none of the boulders on this floor ((14, 17), (5, 15), (6, 6)) can reach the switch.
+- **New Hypothesis:** The solution requires a boulder from Victory Road 3F to be pushed down a hole.
