@@ -77,3 +77,9 @@
 
 ## C. Tool Development Ideas
 - **Agent Maintenance Tool:** Create a tool that takes a new piece of verified information (like a type effectiveness) and automatically updates both the notepad and the system prompt of a specified agent. This would reduce manual effort and prevent errors from forgetting to update one or the other.
+
+### Lance (Observed Roster)
+  - Dragonite (Lv 61) - Known Moves: Thunder Wave, Slam, Hyper Beam
+  - Gyarados (Lv 60) - Known Moves: Hyper Beam
+  - Charizard (Lv 60) - Known Moves: Wing Attack
+  - Aerodactyl (Lv 61) - Known Moves: Rock Slide, Hyper Beam
