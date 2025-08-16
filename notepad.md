@@ -88,3 +88,10 @@
 ## C. Overwatch Feedback (Turn 146912)
 - **Critique:** Player has a history of failing to update notepad immediately after a discovery, violating the Immediate Action Mandate.
 - **Correction:** All discoveries and lessons must be documented in the same turn they occur. This is a non-negotiable directive.
+
+# VI. System Mechanics & Rules
+
+## A. Dead End Area Definition
+- The `is_in_dead_end_area` validation check is `true` only when BOTH of the following conditions are met:
+  1. There are zero `Reachable Unseen Tiles` on the current map.
+  2. The total number of distinct, reachable exit points (a combination of warps and map connections) is less than two. Adjacent warps are counted as a single exit point for this calculation.
