@@ -79,5 +79,5 @@
 
 ## B. Victory Road 2F Boulder Puzzle (Current)
 - **Goal:** Move boulder to switch at (10, 17).
-- **Status:** **Analysis Complete.** My `boulder_path_planner` has confirmed that **none** of the three boulders on this floor ((14, 17), (5, 15), (6, 6)) can reach the switch.
-- **New Hypothesis:** The solution requires a boulder from Victory Road 3F to be pushed down a hole. This is now the primary line of investigation.
+- **Status:** **Hypothesis Confirmed.** A boulder was pushed down from Victory Road 3F. My updated `boulder_path_planner` has generated a valid 13-step plan to move this new boulder to the switch.
+- **Execution:** Currently executing the multi-step plan.
