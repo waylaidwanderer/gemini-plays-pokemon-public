@@ -62,7 +62,6 @@
 
 # IV. Tool & Agent Development Log
 
-## A. `map_connectivity_analyzer` (Bug Report)
-- **Issue:** The tool incorrectly reported Victory Road 3F as having two disconnected landmasses, causing me to believe I was in a dead end and leading to a failed validation check.
-- **Root Cause Analysis:** The system's validation check revealed that the exit warp at (3, 1) is considered reachable. My tool's logic must be flawed, as it concluded the path was blocked by impassable defeated trainers. The discrepancy likely stems from a difference in how 'reachability' is defined—the system check may ignore dynamic obstacles that my tool correctly identifies as impassable based on my direct observation. However, my tool also failed to report all theoretically reachable warps for the validation check itself, which is a separate critical bug.
-- **Action Item:** The tool's logic needs a complete overhaul. It must be updated to perform two types of analysis: one that strictly adheres to the system's optimistic validation rules (ignoring boulders and trainers) and another that reflects the true, observable state of the map for practical navigation.
+## A. Tool Development Lessons
+- **Defeated Trainers as Obstacles:** My own tools and direct observation confirm that defeated trainers are impassable obstacles. However, system validation checks may ignore them. My tools must be able to toggle this assumption for debugging vs. practical navigation.
+- **Immediate Maintenance Mandate:** I must prioritize fixing faulty tools and correcting data management issues (notepad, markers) *before* any in-game action. Deferring these tasks is a critical methodological failure.
