@@ -76,7 +76,8 @@
 - **Hypothesis:** Activating the boulder switch at (4, 6) will open the boulder barrier at (8, 11).
 - **Test:** Push the boulder from its starting position onto the switch at (4, 6).
 - **Conclusion:** **CONFIRMED.** The tile at (8, 11) changed from `boulder_barrier` to `cleared_boulder_barrier` after the boulder was placed on the switch.
-## Victory Road 2F Boulder Puzzle (Current)
+
+## B. Victory Road 2F Boulder Puzzle (Current)
 - **Goal:** Move boulder to switch at (10, 17).
-- **Status:** Analysis complete. `boulder_path_planner` confirmed that none of the boulders on this floor ((14, 17), (5, 15), (6, 6)) can reach the switch.
-- **New Hypothesis:** The solution requires a boulder from Victory Road 3F to be pushed down a hole.
+- **Status:** **Analysis Complete.** My `boulder_path_planner` has confirmed that **none** of the three boulders on this floor ((14, 17), (5, 15), (6, 6)) can reach the switch.
+- **New Hypothesis:** The solution requires a boulder from Victory Road 3F to be pushed down a hole. This is now the primary line of investigation.
