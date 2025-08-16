@@ -1403,18 +1403,8 @@
   },
   "pokemon_data_extractor": {
     "description": "Parses the 'Party' and 'Stored Pokemon in PC' sections of the GameState string to extract and format a list of all available Pokémon, including their name, level, types, and moves. This is used to gather data for the team_composition_advisor.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "game_state_string": {
-          "type": "string"
-        }
-      },
-      "required": [
-        "game_state_string"
-      ]
-    },
-    "python_script": "import re\nimport json\n\ndef parse_pokemon_data(pokemon_string):\n    pokemon_list = []\n    # Regex to capture individual pokemon entries\n    pokemon_entries = re.findall(r'\\d+\\.\\s(.*?):\\sLv(\\d+)(?:\\s\\((.*?)\\))?(?:\\s\\|\\sMoves:\\s(.*?))?$', pokemon_string, re.MULTILINE)\n    for entry in pokemon_entries:\n        name, level, hp_and_status_str, moves_str = entry\n        # Handle different formats for name and potential nickname\n        name_parts = name.split(' (')\n        pokemon_name = name_parts[0].strip()\n        \n        # Initialize types and moves\n        type1 = None\n        type2 = None\n        moves = []\n\n        # This basic parser won't know types, so they are left as None.\n        # The team_composition_advisor will need a way to look up types based on name.\n\n        if moves_str:\n            moves = [move.strip() for move in moves_str.split(',')]\n\n        pokemon_list.append({\n            'name': pokemon_name,\n            'level': int(level),\n            'type1': type1, # To be filled in by a future process or known data\n            'type2': type2, # To be filled in by a future process or known data\n            'moves': moves\n        })\n    return pokemon_list\n\ndef run(input_data):\n    game_state_string = input_data['game_state_string']\n    all_pokemon = []\n\n    # Extract Party Pokemon\n    party_match = re.search(r'## Party \\(.*?\\) - Leading:.*?\\n(.*?)(?=## Stored Pokemon in PC)', game_state_string, re.DOTALL)\n    if party_match:\n        party_string = party_match.group(2)\n        party_pokemon_entries = re.findall(r'\\d+\\.\\s(.*?):\\sLv(\\d+)\\s\\(.*?HP.*?\\)\\s\\|\\sMoves:\\s(.*?)$', party_string, re.MULTILINE)\n        for entry in party_pokemon_entries:\n            name, level, moves_str = entry\n            all_pokemon.append({\n                'name': name.strip(),\n                'level': int(level),\n                'type1': None,\n                'type2': None,\n                'moves': [move.strip() for move in moves_str.split(',')]\n            })\n\n    # Extract PC Pokemon\n    pc_match = re.search(r'## Stored Pokemon in PC.*\\n(.*)', game_state_string, re.DOTALL)\n    if pc_match:\n        pc_string = pc_match.group(1)\n        pc_pokemon = parse_pokemon_data(pc_string)\n        all_pokemon.extend(pc_pokemon)\n\n    print(json.dumps(all_pokemon, indent=2))\n\n# This is for local testing if needed\n# if __name__ == '__main__':\n#     run({'game_state_string': '...'})",
+    "input_schema": {},
+    "python_script": "import json\n\ndef run(input_data):\n    print(\"--- DEBUG: No-argument tool execution test ---\")\n",
     "history": [
       {
         "commit_message": "feat: Create pokemon_data_extractor tool to automate data gathering. This tool parses the GameState to build a structured list of all stored Pokémon, streamlining the input process for the team_composition_advisor and eliminating tedious manual data entry. This is a direct response to an Overwatch suggestion and a major efficiency improvement.",
@@ -1520,6 +1510,26 @@
         "commit_message": "feat: Create pokemon_data_extractor tool. This tool is the first step in a two-part plan to improve my team-building strategy. It automates the tedious process of manually extracting Pokémon data from the game state, which is necessary to feed into the new `team_composition_advisor` agent. This will enable data-driven team construction and is a direct response to my failure against Lance.",
         "timestamp": "2025-08-16T21:01:14.923Z",
         "action_counter": 147605
+      },
+      {
+        "commit_message": "fix: Add extensive debug logging to diagnose parsing failure. The tool failed without a clear error. This commit adds detailed print statements to every stage of the party and PC parsing logic to trace the script's execution and identify the exact point of failure. This is a critical step to enable an evidence-based fix instead of guesswork.",
+        "timestamp": "2025-08-16T21:15:47.416Z",
+        "action_counter": 147635
+      },
+      {
+        "commit_message": "fix: Strip tool to barebones print statement for debugging. The tool has failed to produce any output on multiple consecutive runs, even with debug logging enabled. This commit replaces the entire script with a simple print statement to test the core tool execution environment. This is a critical step to isolate whether the issue is with the script's logic or a more fundamental system problem.",
+        "timestamp": "2025-08-16T21:18:06.119Z",
+        "action_counter": 147638
+      },
+      {
+        "commit_message": "fix: Strip tool to barebones print statement for debugging. The tool has failed to produce any output on multiple consecutive runs, even with debug logging enabled. This commit replaces the entire script with a simple print statement to test the core tool execution environment. This is a critical step to isolate whether the issue is with the script's logic or a more fundamental system problem.",
+        "timestamp": "2025-08-16T21:25:56.744Z",
+        "action_counter": 147646
+      },
+      {
+        "commit_message": "fix: Redefine tool with no-argument schema for debugging. The tool has repeatedly failed to produce any output, even with a simple print statement. This commit removes all input arguments to test the hypothesis that passing the large `game_state_string` is causing a silent failure in the execution environment. This is a critical isolation test.",
+        "timestamp": "2025-08-16T21:27:04.047Z",
+        "action_counter": 147648
       }
     ]
   }
