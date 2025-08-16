@@ -75,10 +75,8 @@
 
 # V. Active Puzzle Plan: Victory Road 3F Boulder
 - **Objective:** Push the boulder from (3, 5) to the switch at (4, 6).
-- **Rationale:** This is hypothesized to open the boulder barrier at (8, 11).
-- **Plan Source:** `boulder_path_planner` tool.
-- **Status:** In progress.
-- **Full Plan:** [{'move_path': [{'x': 3, 'y': 3}, {'x': 3, 'y': 4}], 'push_direction': 'Down'}, {'move_path': [{'x': 3, 'y': 4}, {'x': 2, 'y': 4}, {'x': 2, 'y': 5}, {'x': 2, 'y': 6}], 'push_direction': 'Right'}]
+- **Status:** Complete. Boulder is on the switch.
+- **Next Step:** Navigate to (8, 11) to verify if the boulder barrier has opened.
 
 # VI. Active Hypotheses
 - **Hypothesis:** Activating the boulder switch at (4, 6) will open the boulder barrier at (8, 11).
