@@ -48,6 +48,7 @@
   - Flying is immune to Ground-type moves (Observed: Pixel's Dodrio vs REVENANT's Marowak).
   - Ground is super-effective against Psychic-types (Observed: CRAG's Golem vs Lorelei's Slowbro).
   - Psychic is super-effective against Poison-types (Observed: Lorelei's Slowbro vs ECHO's Golbat).
+  - Ice is not very effective against Psychic-types (Observed: NEPTUNE's Ice Beam vs Lorelei's Slowbro).
 
 ## B. Elite Four Battle Logs (Observed Rosters)
 ### Lorelei (Attempt 4 - Lost)
