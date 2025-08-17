@@ -106,3 +106,12 @@
 ## H. Untested Hypotheses
 - **PC Box Selection Anomaly:** The game may select the box one position *below* the highlighted cursor. This has only been observed once and requires further testing to confirm if it's a consistent bug. (Next Test: Next time 'CHANGE BOX' is used).
 - **Agent Data Staleness (Critical Failure):** The battle_strategist_agent received outdated party information (Turn 149807), causing it to recommend switching to a fainted Pokémon. This highlights a critical vulnerability in the data pipeline. Since the agent cannot be fixed to account for this, its recommendations must be treated with extreme caution and manually verified against the current party status on-screen before execution.
+
+# V. Development & Testing Pipeline
+
+## A. Future Development Goals
+- **Pokémon Data Pipeline:** Investigate methods to pass party/PC data to custom tools to make `pokemon_stat_formatter` functional. This is a high-priority task for improving team-building efficiency.
+- **Agent Usage:** Make it a priority to use the `team_composition_advisor` agent for the next major team overhaul to test its effectiveness.
+
+## B. Untested Hypotheses (Active)
+- **SPOONBENDE vs. Gengar:** Test the effectiveness of a low-level Psychic-type (SPOONBENDE, Lv 37) against Agatha's high-level Gengar. The type matchup should be favorable, but the level difference is a major risk factor.
