@@ -127,3 +127,4 @@
 - **Indigo Plateau Auto-Heal Consistency:** Blacking out during the Elite Four challenge and respawning at the Indigo Plateau entrance automatically heals the entire party. (Observed once, needs confirmation of consistency).
 - **Battle Log Parser:** Create a custom agent that can take the raw screen text from a battle as input and automatically parse it into a structured log entry for the notepad. This would include the opponent's Pokémon, level, and observed moves, automating a critical data collection task.
 - **Forced Sleep Switch:** The game forces a switch immediately after a Pokémon is put to sleep by an opponent's move, similar to when a Pokémon faints. (Observed Turn 150625)
+  - Water is not very effective against Water/Psychic dual-types (Observed: NEPTUNE's Surf vs Lorelei's Slowbro).
