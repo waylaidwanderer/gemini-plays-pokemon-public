@@ -58,16 +58,6 @@
   - Jynx (Lv 56) - Known Moves: Psychic
   - Lapras (Lv 57) - Known Moves: Thunderbolt, Surf
 
-### Agatha (Attempt 2 - Lost)
-  - Gengar (Lv 57) - Known Moves: Night Shade, Mega Drain, Hypnosis, Dream Eater
-  - Golbat (Lv 58) - Known Moves: Toxic, Double Team, Fly
-  - Marowak (Lv 57) - Known Moves: Rock Slide, Earthquake
-  - Arbok (Lv 58) - Known Moves: Glare, Substitute, Wrap
-  - Gengar (Lv 59) - Known Moves: Psychic, Mega Drain, Night Shade
-
-### Agatha (Attempt 3 - Lost)
-  - Gengar (Lv 57) - Known Moves: Hypnosis, Mega Drain, Dream Eater, Night Shade
-
 ### Lance (Attempt 1 - Lost)
   - Dragonite (Lv 61) - Known Moves: Slam, Thunder Wave, Wrap
   - Gyarados (Lv 60) - Known Moves: Hyper Beam
