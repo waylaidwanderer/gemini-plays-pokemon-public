@@ -85,3 +85,10 @@
 - **TM Advisor Agent:** Create an agent that analyzes my full roster of Pokémon and available TMs to recommend optimal move assignments based on stats, typing, and strategic needs. This would automate a complex reasoning task.
 - **Semi-Automated Data Extractor Tool:** A tool to guide manual PC navigation to extract Pokémon data as a workaround for the broken `pokemon_data_extractor`.
 - **`pokemon_data_extractor` Failure:** The tool fails to execute even with a simple print statement and no arguments. Hypothesis that the large `game_state_string` input was the cause has been disproven. The root cause is likely an issue with the tool execution environment itself, making the tool unusable. Must proceed with manual workarounds.
+
+## C. In-Battle Menu Navigation
+- **Move Selection:** The cursor starts on the top-left move.
+  - **Top-Left (Move 1):** Press 'A'.
+  - **Top-Right (Move 2):** Press 'Right', then 'A'.
+  - **Bottom-Left (Move 3):** Press 'Down', then 'A'.
+  - **Bottom-Right (Move 4):** Press 'Down', 'Right', then 'A'.
