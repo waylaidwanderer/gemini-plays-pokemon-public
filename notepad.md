@@ -44,6 +44,7 @@
   - Fighting is super-effective against Ice-types (Observed: Bruno's Hitmonchan vs NEPTUNE).
   - Fighting is super-effective against Rock-types (Verified via agent prompt).
   - Flying is immune to Ground-type moves (Observed: Pixel's Dodrio vs REVENANT's Marowak).
+  - Ground is super-effective against Psychic-types (Observed: CRAG's Golem vs Lorelei's Slowbro).
 
 ## G. In-Game Discoveries
 - **Night Shade Damage Anomaly:** Agatha's Lv 57 Gengar's Night Shade dealt 38 damage instead of the expected 57. This may be a mechanic change in the ROM hack. (Observed Turn 148518)
