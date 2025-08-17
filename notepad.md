@@ -129,11 +129,11 @@
 - **PC Navigation Agent:** Create a custom agent that can take a Pokémon's name as input and generate the sequence of button presses required to navigate the PC boxes and select that specific Pokémon for withdrawal or deposit. This would automate the currently tedious and error-prone manual scrolling process.
 - **PC Search Tool:** Create a custom tool (`pc_pokemon_search`) that can search through all stored Pokémon in the PC and return a list of those that match specific criteria (e.g., have a certain move, are of a certain type). This will greatly speed up team building and strategic planning.
 - **Team Viability Assessor Agent:** Create an agent that takes the current party and an opponent's known roster to provide a pre-battle analysis, identifying key threats and potential win conditions.
+- **Party Menu Navigator Tool:** Create a `select_party_pokemon_tool` to automate navigating the party menu during switches. This would take a Pokémon's name and the party list as input and return the necessary button presses.
+- **Encounter Log Agent:** Create an `encounter_log_agent` to take the output from `battle_log_parser` and auto-format it into a markdown entry for the notepad, streamlining documentation.
 
 ## B. Untested Hypotheses (Active)
 - **PC Box Selection Anomaly:** The game may select the box one position *below* the highlighted cursor. This has only been observed once and requires further testing to confirm if it's a consistent bug. (Next Test: Next time 'CHANGE BOX' is used).
 
-## C. 50-Turn Reflection (Turn 151035)
-- **Tool Idea:** Create a `select_party_pokemon_tool` to automate navigating the party menu during switches. This would take a Pokémon's name and the party list as input and return the necessary button presses.
-- **Agent Idea:** Create an `encounter_log_agent` to take the output from `battle_log_parser` and auto-format it into a markdown entry for the notepad, streamlining documentation.
-- **Self-Correction (Speed Assumption):** I must not assume my Pokémon is faster than an opponent's of the same species, even with a level advantage. Agatha's Lv58 Golbat proved to be faster than my Lv65 ECHO. This is a critical lesson in not making unverified assumptions about stats.
+## C. Self-Correction Log (Post-Reflection)
+- **Speed Assumption:** I must not assume my Pokémon is faster than an opponent's of the same species, even with a level advantage. Agatha's Lv58 Golbat proved to be faster than my Lv65 ECHO. This is a critical lesson in not making unverified assumptions about stats.
