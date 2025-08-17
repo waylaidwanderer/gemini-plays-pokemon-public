@@ -85,3 +85,9 @@
 
 ## D. Type Effectiveness Chart (Verified)
 - Ground is super-effective against Rock/Ground dual-types (Observed: Bruno's Onix vs CRAG's Golem).
+
+# VI. Active Research & Testing
+
+## A. Type Effectiveness Verification
+- **Objective:** Systematically test and verify all type matchups in this ROM hack, as the standard chart is unreliable. The discovery that Ground is super-effective against Rock/Ground highlights this need.
+- **Method:** During battles, especially against the Elite Four, prioritize using moves with uncertain effectiveness to gather data. Record all super-effective, not-very-effective, and immune interactions observed.
