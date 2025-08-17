@@ -54,32 +54,33 @@
   - Water is not very effective against Water/Psychic dual-types (Observed: NEPTUNE's Surf vs Lorelei's Slowbro).
 
 ## B. Elite Four Battle Logs (Observed Rosters)
-### Lorelei (Attempt 4 - Lost)
-  - Slowbro (Lv 56) - Known Moves: Psychic, Earthquake
-  - Cloyster (Lv 55) - Known Moves: Surf
+### Lorelei (Attempt 5 - Won)
+  - Slowbro (Lv 56) - Known Moves: Blizzard, Psychic
+  - Cloyster (Lv 55) - Moves unknown.
   - Dewgong (Lv 55) - Moves unknown.
   - Jynx (Lv 56) - Known Moves: Psychic
-  - Lapras (Lv 57) - Known Moves: Thunderbolt, Surf
+  - Lapras (Lv 57) - Known Moves: Thunderbolt, Surf, Sing
 
-### Bruno (Attempt 5 - Won)
+### Bruno (Attempt 5 - In Progress)
   - ONIX (Lv 55) - Moves Unknown.
   - HITMONCHAN (Lv 57) - Known Moves: Ice Punch, Thunder Punch
   - HITMONLEE (Lv 57) - Moves Unknown.
   - MACHAMP (Lv 58) - Moves Unknown.
   - ONIX (Lv 56) - Moves Unknown.
 
-### Agatha (Attempt 5 - In Progress)
-  - MACHAMP (Lv 58) - Moves Unknown.
+### Agatha (Attempt 5 - Lost)
   - GENGAR (Lv 57) - Known Moves: Night Shade, Mega Drain, Hypnosis, Dream Eater
   - GOLBAT (Lv 58) - Known Moves: Toxic, Double Team, Fly
   - MAROWAK (Lv 57) - Known Moves: Rock Slide, Swords Dance, Body Slam
   - ARBOK (Lv 58) - Known Moves: Substitute, Wrap
   - GENGAR (Lv 59) - Known Moves: Mega Drain, Thunder
 
-### Lance (Attempt 1 - Lost)
-  - Dragonite (Lv 61) - Known Moves: Slam, Thunder Wave, Wrap
-  - Gyarados (Lv 60) - Known Moves: Hyper Beam
-  - Charizard (Lv 60) - Known Moves: Hyper Beam
+### Lance (Attempt 2 - Lost)
+  - Dragonite (Lv 61) - Known Moves: Blizzard
+  - Gyarados (Lv 60) - Known Moves: Hyper Beam, Fly
+  - Charizard (Lv 60) - Moves unknown.
+  - Aerodactyl (Lv 61) - Moves unknown.
+  - Dragonite (Lv 62) - Known Moves: Blizzard
 
 ### Champion Pixel (Attempt 1 - Lost)
   - Magneton (Lv 62) - Moves unknown.
@@ -99,6 +100,7 @@
 - **Flawed Hypothesis Testing (Confirmation Bias):** I have incorrectly assumed a path existed and spent numerous turns trying to fix my tools to confirm this belief, rather than first using a tool like `map_connectivity_analyzer` to test the fundamental assumption of reachability. **Correction:** I must test core assumptions first before attempting to fix tools that rely on those assumptions. I must also actively try to disprove my own hypotheses.
 - **Misinterpreting System Feedback:** I have incorrectly assumed my tools or notes were wrong when system feedback indicated otherwise. This led to wasted time trying to 'fix' things that were already correct or pathing to unreachable locations. **Correction:** I must treat system/tool feedback as the source of truth and question my own assumptions first.
 - **Over-reliance on Luck (Confirmation Bias):** The FLASH strategy against Bruno's Machamp was successful multiple times due to luck, reinforcing the belief it was a guaranteed win condition. However, it failed when the opponent used a different move (Rock Slide), which may have had higher base accuracy. **Correction:** Luck-based strategies should be a last resort. I must not become overconfident from a lucky streak and must always consider the opponent's full range of options.
+- **Agent Output Override Failure (Confirmation Bias):** I incorrectly overrode the `battle_strategist_agent`'s advice to switch to TITANESS against Jynx, instead switching to ECHO. This was a critical error based on my own flawed assumption, which created a dangerous situation and was flagged by the Overwatch system. **Correction:** I must treat the agent's output as the default correct action and only override it if I can definitively prove its underlying assumptions are wrong based on new in-game evidence. (Observed Turn 151161)
 
 ## B. Tool & Agent Development Log
 - **Diagnostic Tool Output:** Pathfinding tools must report the specific obstacle that blocks a path upon failure. This is essential for distinguishing between a solvable puzzle and a genuinely impossible route.
@@ -109,7 +111,6 @@
 - **`battle_flow_predictor` Usage Mandate:** Per Overwatch feedback (Turn 149340), I must use this agent before my next Elite Four attempt to test its effectiveness.
 - **Agent Gamble Failure & AI Prediction:** The battle_strategist_agent correctly identified a high-risk, high-reward play by switching to CRAG, predicting Lapras would use its known move Thunderbolt. However, the opponent AI made the optimal counter-play by using Surf against the incoming CRAG, leading to a faint. This confirms that the AI is capable of predicting switches and choosing the best move to counter the incoming Pokémon, not just the one on the field. (Observed Turn 149533, Lorelei's Lapras vs. CRAG).
 - **`last_stand_strategist_agent` (Created Turn 150111):** Created in response to a forced, no-win switch scenario against Agatha's Gengar. This agent is designed for desperate situations where standard strategic rules must be broken. It successfully identified the least detrimental option by recommending a switch to a higher-HP sleeping Pokémon (SPARKY) over a critically low-HP one (TITANESS), correctly prioritizing the chance to prolong the battle.
-- **Agent Output Override Failure (Confirmation Bias):** I incorrectly overrode the `battle_strategist_agent`'s advice to switch, believing I could secure a knockout. The agent had correctly identified a high-risk situation that I underestimated, leading to a cascade of negative outcomes and the eventual loss of the battle. **Correction:** I must treat the agent's output as the default correct action and only override it if I can definitively prove its underlying assumptions are wrong based on new in-game evidence. (Observed Turn 150207)
 - **Agent Data Staleness (Critical Failure):** The battle_strategist_agent received outdated party information (Turn 149807), causing it to recommend switching to a fainted Pokémon. This is a confirmed system limitation, not a hypothesis. Recommendations must be manually verified against the current on-screen party status before execution. (Moved from Hypotheses, Turn 150213)
 - **`team_composition_advisor` Underutilization:** Per Overwatch feedback (Turn 150211), I must use this agent for team-building before the next Elite Four attempt to test its effectiveness.
 - **Battle Strategist Failure (CRAG vs Gengar):** The agent recommended switching CRAG into Gengar, failing to account for the known move Mega Drain (Grass), which is 4x super-effective against Rock/Ground. This is a critical failure in threat assessment. (Observed Turn 150587)
