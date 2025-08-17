@@ -103,3 +103,10 @@
   - Magneton (Lv 62) - Moves unknown.
   - Dodrio (Lv 61) - Known Moves: Jump Kick, Drill Peck, Hyper Beam
   - Alakazam (Lv 63) - Known Moves: Thunder Wave, Psychic
+
+# VII. PC Pokémon Roster (Manual Data)
+
+- **TITANESS (Kangaskhan, Lv 60):** Double-Edge, Surf, Mega Punch, Body Slam
+- **REVENANT (Marowak, Lv 58):** Thrash, Headbutt, Earthquake, Bonemerang
+- **SPOONBENDE (Kadabra, Lv 36):** Recover, Psybeam, Flash, Psychic
+- **ASTRA (Staryu, Lv 35):** Swift, Harden, Bubblebeam, Recover
