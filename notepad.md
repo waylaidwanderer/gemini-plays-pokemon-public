@@ -145,3 +145,6 @@
 - **BELLADONNA (WEEPINBELL) Lv38**
 - **LUNA (CLEFAIRY) Lv9**
 - **SKITTER (RATTATA) Lv8**
+
+## VI. Tool Development & Design Log
+- **`pokemon_stat_formatter` (Placeholder):** Created to automate Pokémon cataloging. Realized during creation that the tool execution environment only injects `map_xml_string`, not the full game state JSON. The tool requires party data to function, so the current version is a non-functional placeholder. This is a key lesson: tools must be designed around available data inputs. Future work will involve finding a way to pass the necessary party data to a tool or agent.
