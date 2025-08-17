@@ -90,6 +90,7 @@
 - **Battle Agent Over-Aggression:** The `battle_strategist_agent` has shown a tendency to recommend offensive actions even when facing a known super-effective threat, underestimating the risk. **Correction (Turn 148487):** The agent's system prompt has been updated to prioritize a defensive switch when a known super-effective threat is present.
 - **`pokemon_stat_formatter` (Placeholder):** Created to automate Pokémon cataloging. Realized during creation that the tool execution environment only injects `map_xml_string`, not the full game state JSON. The tool requires party data to function, so the current version is a non-functional placeholder. This is a key lesson: tools must be designed around available data inputs. Future work will involve finding a way to pass the necessary party data to a tool or agent.
 - **`battle_flow_predictor` Usage Mandate:** Per Overwatch feedback (Turn 149340), I must use this agent before my next Elite Four attempt to test its effectiveness.
+- **Agent Gamble Failure & AI Prediction:** The battle_strategist_agent correctly identified a high-risk, high-reward play by switching to CRAG, predicting Lapras would use its known move Thunderbolt. However, the opponent AI made the optimal counter-play by using Surf against the incoming CRAG, leading to a faint. This confirms that the AI is capable of predicting switches and choosing the best move to counter the incoming Pokémon, not just the one on the field. (Observed Turn 149533, Lorelei's Lapras vs. CRAG).
 
 # IV. Puzzle Archive (Completed)
 
