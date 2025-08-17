@@ -66,7 +66,8 @@
 
 ### Lance (Attempt 1 - Lost)
   - Dragonite (Lv 61) - Known Moves: Slam, Thunder Wave, Wrap
-  - Gyarados (Lv 60) - Known Moves: Slam
+  - Gyarados (Lv 60) - Known Moves: Hyper Beam
+  - Charizard (Lv 60) - Known Moves: Hyper Beam
 
 ### Champion Pixel (Attempt 1 - Lost)
   - Magneton (Lv 62) - Moves unknown.
