@@ -81,7 +81,7 @@
 - **Conclusion:** A boulder was brought down from Victory Road 3F through the hole at (24, 16) on 3F. It landed at (23, 17) on 2F and was pushed to the switch at (10, 17). The barrier at (24, 15) is now open.
 
 # V. Tool & Agent Development Ideas
-- **In-Battle Move Selection Tool:** Create a tool that can take a move name as input and automatically perform the necessary button presses to select it from the move menu. This would automate a tedious manual process, especially when the desired move is at the bottom of the list.
+
 - **Agent Maintenance Tool:** Create a tool that takes a new piece of verified information (like a type effectiveness) and automatically updates both the notepad and the system prompt of a specified agent. This would reduce manual effort and prevent errors from forgetting to update one or the other.
 - **TM Advisor Agent:** Create an agent that analyzes my full roster of Pokémon and available TMs to recommend optimal move assignments based on stats, typing, and strategic needs. This would automate a complex reasoning task.
 - **Semi-Automated Data Extractor Tool:** A tool to guide manual PC navigation to extract Pokémon data as a workaround for the broken `pokemon_data_extractor`.
