@@ -88,6 +88,8 @@
 - **AI Prediction Failure (Confirmation Bias):** I have incorrectly assumed the opponent's AI would use a specific move to counter my current Pokémon, failing to predict that the AI would instead use the optimal move to counter my *switch-in*. (Observed Turn 147728, Lorelei's Lapras vs. CRAG). **Correction:** I must assume the AI will make the optimal play against my predicted action, not just react to the current board state.
 - **`select_battle_option` Tool Misuse:** The tool is designed to execute button presses on its own. Providing manual button presses in the same turn is redundant and incorrect. **Correction:** When using this tool, do not provide any other button presses. (Observed Turn 147891, 147894, 147896, 148739)
 - **Battle Agent Over-Aggression:** The `battle_strategist_agent` has shown a tendency to recommend offensive actions even when facing a known super-effective threat, underestimating the risk. **Correction (Turn 148487):** The agent's system prompt has been updated to prioritize a defensive switch when a known super-effective threat is present.
+- **`pokemon_stat_formatter` (Placeholder):** Created to automate Pokémon cataloging. Realized during creation that the tool execution environment only injects `map_xml_string`, not the full game state JSON. The tool requires party data to function, so the current version is a non-functional placeholder. This is a key lesson: tools must be designed around available data inputs. Future work will involve finding a way to pass the necessary party data to a tool or agent.
+- **`battle_flow_predictor` Usage Mandate:** Per Overwatch feedback (Turn 149340), I must use this agent before my next Elite Four attempt to test its effectiveness.
 
 # IV. Puzzle Archive (Completed)
 
@@ -126,7 +128,7 @@
 - **i (NIDOQUEEN) Lv32** - Poison/Ground - HP: 102, ATK: 58, DEF: 62, SPD: 53, SPC: 57 - Moves: HEADBUTT, DOUBLE KICK, BODY SLAM, SLUDGE
 - **JUGGERNAUT (RHYHORN) Lv33** - Rock/Ground - HP: 97, ATK: 71, DEF: 68, SPD: 27, SPC: 26 - Moves: FURY ATTACK, STOMP, ROCK THROW, DIG
 - **NIGHTSHADE (GLOOM) Lv35** - Grass/Poison - HP: 108, ATK: 64, DEF: 66, SPD: 39, SPC: 73 - Moves: STUN SPORE, ACID, PETAL DANCE, SLEEP POWDER
-- **HELIX (OMANYTE) Lv15 - Rock/Water - HP: 39, ATK: 17, DEF: 36, SPD: 15, SPC: 33 - Moves: WATER GUN, WITHDRAW, SURF, CONSTRICT**
+- **HELIX (OMANYTE) Lv15** - Rock/Water - HP: 39, ATK: 17, DEF: 36, SPD: 15, SPC: 33 - Moves: WATER GUN, WITHDRAW, SURF, CONSTRICT
 - **GUILLOTIN (PINSIR) Lv38** - Bug - HP: 106, ATK: 106, DEF: 82, SPD: 73, SPC: 57 - Moves: CUT, SEISMIC TOSS, TWINEEDLE, SUBMISSION
 - **KATANA (SCYTHER) Lv35**
 - **RICKY (MACHOKE) Lv36**
@@ -144,9 +146,6 @@
 - **BELLADONNA (WEEPINBELL) Lv38**
 - **LUNA (CLEFAIRY) Lv9**
 - **SKITTER (RATTATA) Lv8**
-
-## VI. Tool Development & Design Log
-- **`pokemon_stat_formatter` (Placeholder):** Created to automate Pokémon cataloging. Realized during creation that the tool execution environment only injects `map_xml_string`, not the full game state JSON. The tool requires party data to function, so the current version is a non-functional placeholder. This is a key lesson: tools must be designed around available data inputs. Future work will involve finding a way to pass the necessary party data to a tool or agent.
 
 ## H. Untested Hypotheses
 - **PC Box Selection Anomaly:** The game may select the box one position *below* the highlighted cursor. This has only been observed once and requires further testing to confirm if it's a consistent bug. (Next Test: Next time 'CHANGE BOX' is used).
