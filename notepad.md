@@ -34,21 +34,20 @@
 - **Immune (0x):** Normal immune to Ghost; Ground immune to Electric; Flying immune to Ground; Ghost immune to Ground.
 
 ## B. Elite Four Battle Logs (Observed Rosters)
-### Lorelei (Defeated)
+### Lorelei (Attempt 2 - Defeated)
   - Slowbro (Lv 56) - Known Moves: Psychic
-  - Cloyster (Lv 55) - Known Moves: Explosion
-  - Dewgong (Lv 56) - Moves unknown.
-  - Jynx (Lv 59) - Known Moves: Lovely Kiss, Blizzard, Psychic, Bubblebeam (lowers Speed).
-  - Lapras (Lv 60) - Moves unknown.
+  - Cloyster (Lv 55) - Moves unknown.
+  - Dewgong (Lv 55) - Moves unknown.
+  - Jynx (Lv 56) - Moves unknown.
+  - Lapras (Lv 57) - Known Moves: Blizzard
 
-### Bruno (Defeated)
+### Bruno (Attempt 2 - In Progress)
   - Hitmonchan (Lv 57) - Known Moves: Dizzy Punch, Thunderpunch, Ice Punch
   - Poliwrath (Lv 56) - Known Moves: Hydro Pump, Ice Beam
-  - Hitmonlee (Lv 57) - Known Moves: Jump Kick
+  - Hitmonlee (Lv 57) - Moves unknown.
   - Onix (Lv 56) - Known Moves: Rock Slide
-  - Machamp (Lv 58) - Known Moves: Earthquake, Rock Slide
 
-### Agatha (Defeated)
+### Agatha (Attempt 1 - Defeated)
   - Gengar (Lv 57) - Known Moves: Night Shade, Mega Drain, Hypnosis, Dream Eater
   - Golbat (Lv 58) - Known Moves: Toxic, Double Team, Fly
   - Marowak (Lv 57) - Known Moves: Rock Slide, Earthquake
