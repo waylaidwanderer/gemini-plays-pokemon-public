@@ -34,8 +34,6 @@
   - **Move 3:** From Move 1, press 'Down' twice, then 'A'.
   - **Move 4 (Bottom):** From Move 1, press 'Down' three times, then 'A'.
 
-## E. PC & Menu Anomalies
-
 ## F. Type Effectiveness Chart (Verified)
 - **Objective:** Systematically test and verify all type matchups in this ROM hack, as the standard chart is unreliable.
 - **Method:** During battles, especially against the Elite Four, prioritize using moves with uncertain effectiveness to gather data. Record all super-effective, not-very-effective, and immune interactions observed.
