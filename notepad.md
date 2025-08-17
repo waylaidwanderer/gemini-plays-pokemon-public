@@ -64,7 +64,7 @@
   - Arbok (Lv 58) - Known Moves: Glare, Substitute, Wrap
   - Gengar (Lv 59) - Known Moves: Psychic, Mega Drain, Night Shade
 
-### Agatha (Attempt 3 - In Progress)
+### Agatha (Attempt 3 - Lost)
   - Gengar (Lv 57) - Known Moves: Hypnosis, Mega Drain, Dream Eater, Night Shade
 
 ### Lance (Attempt 1 - Lost)
