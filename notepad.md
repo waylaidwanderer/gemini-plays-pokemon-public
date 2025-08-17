@@ -111,6 +111,7 @@
 
 ## A. Future Development Goals
 - **Pokémon Data Pipeline:** Investigate methods to pass party/PC data to custom tools to make `pokemon_stat_formatter` functional. This is a high-priority task for improving team-building efficiency.
+- **PC Navigation Agent:** Create a custom agent that can take a Pokémon's name as input and generate the sequence of button presses required to navigate the PC boxes and select that specific Pokémon for withdrawal or deposit. This would automate the currently tedious and error-prone manual scrolling process.
 - **PC Search Tool:** Create a custom tool (`pc_pokemon_search`) that can search through all stored Pokémon in the PC and return a list of those that match specific criteria (e.g., have a certain move, are of a certain type). This will greatly speed up team building and strategic planning.
 
 ## B. Untested Hypotheses (Active)
