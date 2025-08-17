@@ -128,3 +128,10 @@
 - **Forced Sleep Switch:** The game forces a switch immediately after a Pokémon is put to sleep by an opponent's move, similar to when a Pokémon faints. (Observed Turn 150625)
   - Water is not very effective against Water/Psychic dual-types (Observed: NEPTUNE's Surf vs Lorelei's Slowbro).
 - **Move Selection Tool:** Create a custom tool (`select_move`) that takes a move's name as input and outputs the correct sequence of 'Up'/'Down' button presses to select it from the in-battle menu. This will automate a repetitive and error-prone manual task.
+
+### Agatha (Attempt 4 - Lost)
+  - GENGAR (Lv 57) - Known Moves: Night Shade, Mega Drain, Hypnosis, Dream Eater
+  - GOLBAT (Lv 58) - Known Moves: Toxic, Double Team
+  - MAROWAK (Lv 57) - Known Moves: Rock Slide, Swords Dance, Body Slam
+  - ARBOK (Lv 58) - Known Moves: Substitute
+  - GENGAR (Lv 59) - Known Moves: Mega Drain, Psychic
