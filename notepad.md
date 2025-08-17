@@ -115,3 +115,4 @@
 
 ## B. Untested Hypotheses (Active)
 - **SPOONBENDE vs. Gengar:** Test the effectiveness of a low-level Psychic-type (SPOONBENDE, Lv 37) against Agatha's high-level Gengar. The type matchup should be favorable, but the level difference is a major risk factor.
+  - Psychic is super-effective against Poison-types (Observed: Lorelei's Slowbro vs ECHO's Golbat).
