@@ -93,3 +93,6 @@
   - **Move 2:** From Move 1, press 'Down', then 'A'.
   - **Move 3:** From Move 1, press 'Down' twice, then 'A'.
   - **Move 4 (Bottom):** From Move 1, press 'Down' three times, then 'A'.
+
+## D. PC & Menu Anomalies
+- **PC Box Selection:** When selecting a box from the list, the game may select the box one position *below* the highlighted cursor. (Observed Turn 148349)
