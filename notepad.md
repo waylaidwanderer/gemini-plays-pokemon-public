@@ -98,3 +98,50 @@
 ## B. Victory Road 2F Boulder Puzzle
 - **Conclusion:** A boulder was brought down from Victory Road 3F through the hole at (24, 16) on 3F. It landed at (23, 17) on 2F and was pushed to the switch at (10, 17). The barrier at (24, 15) is now open.
 - **Agent Output Override Failure (Confirmation Bias):** I incorrectly overrode the `battle_strategist_agent`'s advice to switch, believing I could secure a knockout. The agent had correctly identified a high-risk situation that I underestimated, leading to a cascade of negative outcomes and the eventual loss of the battle. **Correction:** I must treat the agent's output as the default correct action and only override it if I can definitively prove its underlying assumptions are wrong based on new in-game evidence.
+
+# V. PC Pokémon Catalog (for E4 Team Building)
+
+## Box 1
+- **NADEL (WEEDLE) Lv5**
+- **GOTTSAMER (METAPOD) Lv9**
+- **AEGIS (KAKUNA) Lv7**
+- **SPIKE (NIDORAN♂) Lv8**
+- **STARDUST (CLEFABLE) Lv13**
+- **FURYFIST (MANKEY) Lv9**
+- **IGNIS (CHARMANDER) Lv15**
+- **PRISM (EEVEE) Lv27**
+- **BARRAGE (HITMONCHAN) Lv30**
+- **TITAN (NIDOKING) Lv36**
+- **BLAZE (GROWLITHE) Lv36**
+- **RAMPAGE (TAUROS) Lv32**
+- **PULSAR (MAGNEMITE) Lv18**
+- **TORRENT (SQUIRTLE) Lv15**
+- **SUBTERRA (DUGTRIO) Lv27**
+- **LEGION (EXEGGCUTE) Lv37**
+- **SEISMIC (SANDSHREW) Lv10**
+
+## Box 2
+- **QUAKE (RHYHORN) Lv36** - Rock/Ground - Moves: FURY ATTACK, STOMP, ROCK THROW, DIG
+- **OBSIDIAN (RHYHORN) Lv34**
+- **MATREIARCE (KANGASKHAN) Lv34**
+- **i (NIDOQUEEN) Lv32**
+- **JUGGERNAUT (RHYHORN) Lv33**
+- **NIGHTSHADE (GLOOM) Lv35**
+- **HELIX (OMANYTE) Lv15**
+- **GUILLOTIN (PINSIR) Lv38**
+- **KATANA (SCYTHER) Lv35**
+- **RICKY (MACHOKE) Lv36**
+- **GALE (PIDGEOTTO) Lv18**
+- **ASTRA (STARYU) Lv35**
+- **PHANTOM (HAUNTER) Lv25**
+- **SPOONBENDE (KADABRA) Lv36**
+- **BELLADONNA (NIDORAN♀) Lv4**
+- **NEPTUNE (LAPRAS) Lv58**
+- **ICHOR (GRIMER) Lv39**
+- **POLLUX (GRIMER) Lv36**
+- **VICEGRIP (PINSIR) Lv35**
+
+## Box 3
+- **BELLADONNA (WEEPINBELL) Lv38**
+- **LUNA (CLEFAIRY) Lv9**
+- **SKITTER (RATTATA) Lv8**
