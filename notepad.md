@@ -26,6 +26,27 @@
 ## C. System Mechanics & Rules
 - **Dead End Area Definition:** An area is NOT a 'dead end' if there are reachable unvisited warps, Reachable Undiscovered Map Connections, OR the `Reachable Unseen Tiles` list for the current map contains entries. This is a correction from a previous misunderstanding.
 
+## D. In-Battle Menu Navigation
+- **Move Selection (Verified):** The move list is a single vertical column. Navigation is with Up/Down only; Left/Right do nothing.
+  - **Move 1 (Top):** Press 'A'.
+  - **Move 2:** From Move 1, press 'Down', then 'A'.
+  - **Move 3:** From Move 1, press 'Down' twice, then 'A'.
+  - **Move 4 (Bottom):** From Move 1, press 'Down' three times, then 'A'.
+
+## E. PC & Menu Anomalies
+- **PC Box Selection:** When selecting a box from the list, the game may select the box one position *below* the highlighted cursor. (Observed Turn 148349)
+
+## F. Type Effectiveness Chart (Verified)
+- **Objective:** Systematically test and verify all type matchups in this ROM hack, as the standard chart is unreliable.
+- **Method:** During battles, especially against the Elite Four, prioritize using moves with uncertain effectiveness to gather data. Record all super-effective, not-very-effective, and immune interactions observed.
+- **Findings:**
+  - Ground is super-effective against Rock/Ground dual-types (Observed: Bruno's Onix vs CRAG's Golem).
+  - Fighting is super-effective against Normal-types (Observed: Bruno's Machamp vs TITANESS).
+  - Flying is immune to Ground-type moves (Observed: Pixel's Dodrio vs REVENANT's Marowak).
+
+## G. In-Game Discoveries
+- **Night Shade Damage Anomaly:** Agatha's Lv 57 Gengar's Night Shade dealt 38 damage instead of the expected 57. This may be a mechanic change in the ROM hack. (Observed Turn 148518)
+
 # II. Battle Information
 
 ## A. Elite Four Battle Logs (Observed Rosters)
@@ -66,6 +87,7 @@
 - **AI Prediction Failure (Confirmation Bias):** I have incorrectly assumed the opponent's AI would use a specific move to counter my current Pokémon, failing to predict that the AI would instead use the optimal move to counter my *switch-in*. (Observed Turn 147728, Lorelei's Lapras vs. CRAG). **Correction:** I must assume the AI will make the optimal play against my predicted action, not just react to the current board state.
 - **`select_battle_option` Tool Misuse:** The tool is designed to execute button presses on its own. Providing manual button presses in the same turn is redundant and incorrect. **Correction:** When using this tool, do not provide any other button presses. (Observed Turn 147891, 147894, 147896, 148739)
 - **Battle Agent Over-Aggression:** The `battle_strategist_agent` has shown a tendency to recommend offensive actions even when facing a known super-effective threat, underestimating the risk. **Correction (Turn 148487):** The agent's system prompt has been updated to prioritize a defensive switch when a known super-effective threat is present.
+- **`pokemon_data_extractor` Failure:** The tool fails to execute even with a simple print statement and no arguments. The root cause is likely an issue with the tool execution environment itself, making the tool unusable. Must proceed with manual workarounds.
 
 # IV. Puzzle Archive (Completed)
 
@@ -74,33 +96,3 @@
 
 ## B. Victory Road 2F Boulder Puzzle
 - **Conclusion:** A boulder was brought down from Victory Road 3F through the hole at (24, 16) on 3F. It landed at (23, 17) on 2F and was pushed to the switch at (10, 17). The barrier at (24, 15) is now open.
-
-# V. Tool & Agent Development Ideas
-
-- **Agent Maintenance Tool:** Create a tool that takes a new piece of verified information (like a type effectiveness) and automatically updates both the notepad and the system prompt of a specified agent. This would reduce manual effort and prevent errors from forgetting to update one or the other.
-- **TM Advisor Agent:** Create an agent that analyzes my full roster of Pokémon and available TMs to recommend optimal move assignments based on stats, typing, and strategic needs. This would automate a complex reasoning task.
-- **Semi-Automated Data Extractor Tool:** A tool to guide manual PC navigation to extract Pokémon data as a workaround for the broken `pokemon_data_extractor`.
-- **`pokemon_data_extractor` Failure:** The tool fails to execute even with a simple print statement and no arguments. Hypothesis that the large `game_state_string` input was the cause has been disproven. The root cause is likely an issue with the tool execution environment itself, making the tool unusable. Must proceed with manual workarounds.
-
-- **Notepad Maintenance Agent:** An agent that takes a lesson learned (e.g., a tool misuse) and automatically finds the correct section in the notepad to append the new information. This would streamline documentation and reduce manual errors.
-
-# VI. In-Game Discoveries
-
-## C. In-Battle Menu Navigation
-- **Move Selection (Verified):** The move list is a single vertical column. Navigation is with Up/Down only; Left/Right do nothing.
-  - **Move 1 (Top):** Press 'A'.
-  - **Move 2:** From Move 1, press 'Down', then 'A'.
-  - **Move 3:** From Move 1, press 'Down' twice, then 'A'.
-  - **Move 4 (Bottom):** From Move 1, press 'Down' three times, then 'A'.
-
-## D. PC & Menu Anomalies
-- **PC Box Selection:** When selecting a box from the list, the game may select the box one position *below* the highlighted cursor. (Observed Turn 148349)
-
-## E. Type Effectiveness Chart (Verified)
-- **Objective:** Systematically test and verify all type matchups in this ROM hack, as the standard chart is unreliable.
-- **Method:** During battles, especially against the Elite Four, prioritize using moves with uncertain effectiveness to gather data. Record all super-effective, not-very-effective, and immune interactions observed.
-- **Findings:**
-  - Ground is super-effective against Rock/Ground dual-types (Observed: Bruno's Onix vs CRAG's Golem).
-  - Fighting is super-effective against Normal-types (Observed: Bruno's Machamp vs TITANESS).
-- **Night Shade Damage Anomaly:** Agatha's Lv 57 Gengar's Night Shade dealt 38 damage instead of the expected 57. This may be a mechanic change in the ROM hack. (Observed Turn 148518)
-  - Flying is immune to Ground-type moves (Observed: Pixel's Dodrio vs REVENANT's Marowak).
