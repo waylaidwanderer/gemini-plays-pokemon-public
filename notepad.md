@@ -125,3 +125,5 @@
   - MAROWAK (Lv 57) - Known Moves: Rock Slide, Swords Dance, Body Slam
   - ARBOK (Lv 58) - Known Moves: Substitute
   - GENGAR (Lv 59) - Known Moves: Mega Drain, Psychic
+- **Party Navigation Agent:** Create a custom agent that can take a Pokémon's name as input and generate the sequence of button presses required to navigate the party menu and select that specific Pokémon for a switch. This would automate a repetitive and error-prone manual task.
+- **Move Selection Tool:** Create a custom tool (`select_move`) that takes a move's name as input and outputs the correct sequence of 'Up'/'Down' button presses to select it from the in-battle menu. This will automate a repetitive and error-prone manual task.
