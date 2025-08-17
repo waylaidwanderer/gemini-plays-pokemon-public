@@ -116,3 +116,14 @@
 
 ## B. Untested Hypotheses (Active)
 - **SPOONBENDE vs. Gengar:** Test the effectiveness of a low-level Psychic-type (SPOONBENDE, Lv 37) against Agatha's high-level Gengar. The type matchup should be favorable, but the level difference is a major risk factor.
+
+## B. Untested Hypotheses (Active)
+- **Indigo Plateau Auto-Heal Consistency:** Blacking out during the Elite Four challenge and respawning at the Indigo Plateau entrance automatically heals the entire party. (Observed once, needs confirmation of consistency).
+
+# III. Meta-Progression & Lessons Learned
+## A. Core Methodological Failures (Self-Correction Log)
+- **Over-reliance on Luck (Confirmation Bias):** The FLASH strategy against Bruno's Machamp was successful multiple times due to luck, reinforcing the belief it was a guaranteed win condition. However, it failed when the opponent used a different move (Rock Slide), which may have had higher base accuracy. **Correction:** Luck-based strategies should be a last resort. I must not become overconfident from a lucky streak and must always consider the opponent's full range of options.
+
+# V. Development & Testing Pipeline
+## A. Future Development Goals
+- **PC Search Tool:** Create a custom tool (`pc_pokemon_search`) that can search through all stored Pokémon in the PC and return a list of those that match specific criteria (e.g., have a certain move, are of a certain type). This will greatly speed up team building and strategic planning.
