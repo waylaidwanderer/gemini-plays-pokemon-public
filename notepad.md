@@ -35,7 +35,6 @@
   - **Move 4 (Bottom):** From Move 1, press 'Down' three times, then 'A'.
 
 ## E. PC & Menu Anomalies
-- **PC Box Selection:** When selecting a box from the list, the game may select the box one position *below* the highlighted cursor. (Observed Turn 148349)
 
 ## F. Type Effectiveness Chart (Verified)
 - **Objective:** Systematically test and verify all type matchups in this ROM hack, as the standard chart is unreliable.
