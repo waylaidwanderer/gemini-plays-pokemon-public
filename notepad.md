@@ -92,6 +92,7 @@
 - **`pokemon_stat_formatter` (Placeholder):** Created to automate Pokémon cataloging. Realized during creation that the tool execution environment only injects `map_xml_string`, not the full game state JSON. The tool requires party data to function, so the current version is a non-functional placeholder. This is a key lesson: tools must be designed around available data inputs. Future work will involve finding a way to pass the necessary party data to a tool or agent.
 - **`battle_flow_predictor` Usage Mandate:** Per Overwatch feedback (Turn 149340), I must use this agent before my next Elite Four attempt to test its effectiveness.
 - **Agent Gamble Failure & AI Prediction:** The battle_strategist_agent correctly identified a high-risk, high-reward play by switching to CRAG, predicting Lapras would use its known move Thunderbolt. However, the opponent AI made the optimal counter-play by using Surf against the incoming CRAG, leading to a faint. This confirms that the AI is capable of predicting switches and choosing the best move to counter the incoming Pokémon, not just the one on the field. (Observed Turn 149533, Lorelei's Lapras vs. CRAG).
+- **`last_stand_strategist_agent` (Created Turn 150111):** Created in response to a forced, no-win switch scenario against Agatha's Gengar. This agent is designed for desperate situations where standard strategic rules must be broken. It successfully identified the least detrimental option by recommending a switch to a higher-HP sleeping Pokémon (SPARKY) over a critically low-HP one (TITANESS), correctly prioritizing the chance to prolong the battle.
 
 # IV. Puzzle Archive (Completed)
 
@@ -105,6 +106,3 @@
 ## H. Untested Hypotheses
 - **PC Box Selection Anomaly:** The game may select the box one position *below* the highlighted cursor. This has only been observed once and requires further testing to confirm if it's a consistent bug. (Next Test: Next time 'CHANGE BOX' is used).
 - **Agent Data Staleness (Critical Failure):** The battle_strategist_agent received outdated party information (Turn 149807), causing it to recommend switching to a fainted Pokémon. This highlights a critical vulnerability in the data pipeline. Since the agent cannot be fixed to account for this, its recommendations must be treated with extreme caution and manually verified against the current party status on-screen before execution.
-
-# V. Agent & Tool Development Ideas
-- **Last Stand Strategist Agent:** An agent designed for unwinnable battle scenarios. It would be given the context that the battle is likely lost and its goal is to break standard strategic rules (like the 'CRITICAL HP CHECK') to make the most optimal play possible under forced-choice conditions, such as choosing the best Pokémon to sacrifice or when the game mechanics force a switch to a non-viable Pokémon.
