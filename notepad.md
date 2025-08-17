@@ -33,12 +33,6 @@
   - Slowbro (Lv 56) - Known Moves: Psychic, Earthquake
   - Cloyster (Lv 55) - Moves unknown.
 
-### Bruno (Attempt 2 - Defeated)
-  - Hitmonchan (Lv 57) - Known Moves: Dizzy Punch, Thunderpunch, Ice Punch
-  - Poliwrath (Lv 56) - Known Moves: Hydro Pump, Ice Beam
-  - Hitmonlee (Lv 57) - Moves unknown.
-  - Onix (Lv 56) - Known Moves: Rock Slide
-
 ### Agatha (Attempt 1 - Defeated)
   - Gengar (Lv 57) - Known Moves: Night Shade, Mega Drain, Hypnosis, Dream Eater
   - Golbat (Lv 58) - Known Moves: Toxic, Double Team, Fly
