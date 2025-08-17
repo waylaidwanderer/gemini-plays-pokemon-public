@@ -7,6 +7,7 @@
 - **PC Interaction:** To use a PC, stand on the tile directly *below* it and face *up* before pressing 'A'.
 - **Menu Navigation:** The 'B' button is the primary method for exiting/canceling out of menus.
 - **Forced Sleeping Switch:** The game will force you to send out or switch to a sleeping Pokémon if no other conscious Pokémon are available. This is a mechanical exception to the strategic guideline of avoiding switching to sleeping Pokémon.
+- **Forced Sleep-Induced Switch:** The game forces a switch immediately after a Pokémon is put to sleep by an opponent's move, similar to when a Pokémon faints. (Observed Turn 150625)
 - **Indigo Plateau Auto-Heal:** Blacking out during the Elite Four challenge and respawning at the Indigo Plateau entrance automatically heals the entire party. (Observed Turn 149617)
 
 ## B. Tile Mechanics & Traversal (Verified)
@@ -48,8 +49,9 @@
   - Flying is immune to Ground-type moves (Observed: Pixel's Dodrio vs REVENANT's Marowak).
   - Ground is super-effective against Psychic-types (Observed: CRAG's Golem vs Lorelei's Slowbro).
   - Psychic is super-effective against Poison-types (Observed: Lorelei's Slowbro vs ECHO's Golbat).
+  - Grass is super-effective against Ground-types (Observed: Agatha's Gengar vs REVENANT's Marowak).
   - Ice is not very effective against Psychic-types (Observed: NEPTUNE's Ice Beam vs Lorelei's Slowbro).
-  - Ground is super-effective against Rock/Ground dual-types (Observed: Bruno's Onix vs CRAG's Golem).
+  - Water is not very effective against Water/Psychic dual-types (Observed: NEPTUNE's Surf vs Lorelei's Slowbro).
 
 ## B. Elite Four Battle Logs (Observed Rosters)
 ### Lorelei (Attempt 4 - Lost)
@@ -58,6 +60,20 @@
   - Dewgong (Lv 55) - Moves unknown.
   - Jynx (Lv 56) - Known Moves: Psychic
   - Lapras (Lv 57) - Known Moves: Thunderbolt, Surf
+
+### Bruno (Attempt 5 - Won)
+  - ONIX (Lv 55) - Moves Unknown.
+  - HITMONCHAN (Lv 57) - Known Moves: Ice Punch, Thunder Punch
+  - HITMONLEE (Lv 57) - Moves Unknown.
+  - MACHAMP (Lv 58) - Moves Unknown.
+  - ONIX (Lv 56) - Moves Unknown.
+
+### Agatha (Attempt 5 - In Progress)
+  - MACHAMP (Lv 58) - Moves Unknown.
+  - GENGAR (Lv 57) - Known Moves: Night Shade, Mega Drain, Hypnosis, Dream Eater
+  - GOLBAT (Lv 58) - Known Moves: Toxic, Double Team
+  - MAROWAK (Lv 57) - Known Moves: Rock Slide, Swords Dance, Body Slam
+  - ARBOK (Lv 58) - Known Moves: Substitute
 
 ### Lance (Attempt 1 - Lost)
   - Dragonite (Lv 61) - Known Moves: Slam, Thunder Wave, Wrap
@@ -115,12 +131,3 @@
 
 ## B. Untested Hypotheses (Active)
 - **PC Box Selection Anomaly:** The game may select the box one position *below* the highlighted cursor. This has only been observed once and requires further testing to confirm if it's a consistent bug. (Next Test: Next time 'CHANGE BOX' is used).
-
-- **Forced Sleep Switch:** The game forces a switch immediately after a Pokémon is put to sleep by an opponent's move, similar to when a Pokémon faints. (Observed Turn 150625)
-  - Water is not very effective against Water/Psychic dual-types (Observed: NEPTUNE's Surf vs Lorelei's Slowbro).
-
-### Agatha (Attempt 4 - Lost)
-  - GENGAR (Lv 57) - Known Moves: Night Shade, Mega Drain, Hypnosis, Dream Eater
-  - GOLBAT (Lv 58) - Known Moves: Toxic, Double Team
-  - MAROWAK (Lv 57) - Known Moves: Rock Slide, Swords Dance, Body Slam
-  - ARBOK (Lv 58) - Known Moves: Substitute
