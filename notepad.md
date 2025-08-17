@@ -34,7 +34,9 @@
   - **Move 3:** From Move 1, press 'Down' twice, then 'A'.
   - **Move 4 (Bottom):** From Move 1, press 'Down' three times, then 'A'.
 
-## F. Type Effectiveness Chart (Verified)
+# II. Battle Information
+
+## A. Type Effectiveness Chart (Verified)
 - **Objective:** Systematically test and verify all type matchups in this ROM hack, as the standard chart is unreliable.
 - **Method:** During battles, especially against the Elite Four, prioritize using moves with uncertain effectiveness to gather data. Record all super-effective, not-very-effective, and immune interactions observed.
 - **Findings:**
@@ -47,12 +49,7 @@
   - Ground is super-effective against Psychic-types (Observed: CRAG's Golem vs Lorelei's Slowbro).
   - Psychic is super-effective against Poison-types (Observed: Lorelei's Slowbro vs ECHO's Golbat).
 
-## G. In-Game Discoveries
-- **Night Shade Damage Anomaly:** Agatha's Lv 57 Gengar's Night Shade dealt 38 damage instead of the expected 57. This may be a mechanic change in the ROM hack. (Observed Turn 148518)
-
-# II. Battle Information
-
-## A. Elite Four Battle Logs (Observed Rosters)
+## B. Elite Four Battle Logs (Observed Rosters)
 ### Lorelei (Attempt 4 - In Progress)
   - Slowbro (Lv 56) - Known Moves: Psychic, Earthquake
   - Cloyster (Lv 55) - Known Moves: Surf
@@ -67,6 +64,9 @@
   - Arbok (Lv 58) - Known Moves: Glare, Substitute, Wrap
   - Gengar (Lv 59) - Known Moves: Psychic, Mega Drain, Night Shade
 
+### Agatha (Attempt 3 - In Progress)
+  - Gengar (Lv 57) - Known Moves: Hypnosis, Mega Drain, Dream Eater, Night Shade
+
 ### Lance (Attempt 1 - Lost)
   - Dragonite (Lv 61) - Known Moves: Slam, Thunder Wave, Wrap
   - Gyarados (Lv 60) - Known Moves: Hyper Beam
@@ -76,6 +76,11 @@
   - Magneton (Lv 62) - Moves unknown.
   - Dodrio (Lv 61) - Known Moves: Jump Kick, Drill Peck, Hyper Beam
   - Alakazam (Lv 63) - Known Moves: Thunder Wave, Psychic
+
+## C. Elite Four Mechanics (Verified)
+- **Bruno's Rematch:** After defeating Bruno once, the exit to Agatha's room is blocked. Interacting with him again triggers a mandatory rematch. This second victory is required to proceed. (Observed Turn 150529)
+- **Hypnosis Anomaly (Corrected):** Agatha's Gengar's first Hypnosis on TITANESS failed (Turn 150576), but a second attempt succeeded (Turn 150583). The initial failure was likely a standard move miss, not an immunity. This confirms TITANESS is not immune to sleep.
+- **Night Shade Damage Anomaly:** Agatha's Lv 57 Gengar's Night Shade dealt 38 damage instead of the expected 57. This may be a mechanic change in the ROM hack. (Observed Turn 148518)
 
 # III. Meta-Progression & Lessons Learned
 
@@ -98,6 +103,7 @@
 - **Agent Output Override Failure (Confirmation Bias):** I incorrectly overrode the `battle_strategist_agent`'s advice to switch, believing I could secure a knockout. The agent had correctly identified a high-risk situation that I underestimated, leading to a cascade of negative outcomes and the eventual loss of the battle. **Correction:** I must treat the agent's output as the default correct action and only override it if I can definitively prove its underlying assumptions are wrong based on new in-game evidence. (Observed Turn 150207)
 - **Agent Data Staleness (Critical Failure):** The battle_strategist_agent received outdated party information (Turn 149807), causing it to recommend switching to a fainted Pokémon. This is a confirmed system limitation, not a hypothesis. Recommendations must be manually verified against the current on-screen party status before execution. (Moved from Hypotheses, Turn 150213)
 - **`team_composition_advisor` Underutilization:** Per Overwatch feedback (Turn 150211), I must use this agent for team-building before the next Elite Four attempt to test its effectiveness.
+- **Battle Strategist Failure (CRAG vs Gengar):** The agent recommended switching CRAG into Gengar, failing to account for the known move Mega Drain (Grass), which is 4x super-effective against Rock/Ground. This is a critical failure in threat assessment. (Observed Turn 150587)
 
 # IV. Puzzle Archive (Completed)
 
@@ -113,15 +119,9 @@
 - **Pokémon Data Pipeline:** Investigate methods to pass party/PC data to custom tools to make `pokemon_stat_formatter` functional. This is a high-priority task for improving team-building efficiency.
 - **PC Navigation Agent:** Create a custom agent that can take a Pokémon's name as input and generate the sequence of button presses required to navigate the PC boxes and select that specific Pokémon for withdrawal or deposit. This would automate the currently tedious and error-prone manual scrolling process.
 - **PC Search Tool:** Create a custom tool (`pc_pokemon_search`) that can search through all stored Pokémon in the PC and return a list of those that match specific criteria (e.g., have a certain move, are of a certain type). This will greatly speed up team building and strategic planning.
+- **Team Viability Assessor Agent:** Create an agent that takes the current party and an opponent's known roster to provide a pre-battle analysis, identifying key threats and potential win conditions.
 
 ## B. Untested Hypotheses (Active)
 - **PC Box Selection Anomaly:** The game may select the box one position *below* the highlighted cursor. This has only been observed once and requires further testing to confirm if it's a consistent bug. (Next Test: Next time 'CHANGE BOX' is used).
 - **Indigo Plateau Auto-Heal Consistency:** Blacking out during the Elite Four challenge and respawning at the Indigo Plateau entrance automatically heals the entire party. (Observed once, needs confirmation of consistency).
 - **Battle Log Parser:** Create a custom agent that can take the raw screen text from a battle as input and automatically parse it into a structured log entry for the notepad. This would include the opponent's Pokémon, level, and observed moves, automating a critical data collection task.
-
-## H. Elite Four Mechanics (Verified)
-- **Bruno's Rematch:** After defeating Bruno once, the exit to Agatha's room is blocked. Interacting with him again triggers a mandatory rematch. This second victory is required to proceed. (Observed Turn 150529)
-## H. In-Battle Discoveries (Verified)
-- **Hypnosis Anomaly (Corrected):** Agatha's Gengar's first Hypnosis on TITANESS failed (Turn 150576), but a second attempt succeeded (Turn 150583). The initial failure was likely a standard move miss, not an immunity. This confirms TITANESS is not immune to sleep.
-### Agatha (Attempt 3 - In Progress)
-  - Gengar (Lv 57) - Known Moves: Hypnosis, Mega Drain, Dream Eater, Night Shade
