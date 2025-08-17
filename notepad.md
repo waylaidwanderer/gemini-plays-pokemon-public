@@ -131,3 +131,8 @@
 
 ## B. Untested Hypotheses (Active)
 - **PC Box Selection Anomaly:** The game may select the box one position *below* the highlighted cursor. This has only been observed once and requires further testing to confirm if it's a consistent bug. (Next Test: Next time 'CHANGE BOX' is used).
+
+## C. 50-Turn Reflection (Turn 150983)
+- **Tool Idea:** Create a `select_party_pokemon_tool` to automate navigating the party menu during switches. This would take a Pokémon's name and the party list as input and return the necessary button presses.
+- **Agent Idea:** Create an `encounter_log_agent` to take the output from `battle_log_parser` and auto-format it into a markdown entry for the notepad, streamlining documentation.
+- **Self-Correction:** I must be more holistic in my threat assessment. A single type advantage (e.g., Ground > Poison) is not enough to justify a switch if the opponent has coverage moves that exploit my Pokémon's other weaknesses or if my Pokémon's own attacks are negated by an immunity. I will strive to avoid this confirmation bias in the future.
