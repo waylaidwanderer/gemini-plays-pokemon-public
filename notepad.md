@@ -55,7 +55,7 @@
   - Cloyster (Lv 55) - Moves unknown.
   - Dewgong (Lv 55) - Moves unknown.
   - Jynx (Lv 56) - Known Moves: Psychic
-  - Lapras (Lv 57) - Moves unknown.
+  - Lapras (Lv 57) - Known Moves: Thunderbolt
 
 ### Agatha (Attempt 1 - Defeated)
   - Gengar (Lv 57) - Known Moves: Night Shade, Mega Drain, Hypnosis, Dream Eater
