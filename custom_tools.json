@@ -1400,5 +1400,39 @@
         "action_counter": 142324
       }
     ]
+  },
+  "agent_maintenance_tool": {
+    "description": "Automates the process of updating an agent's system prompt and the notepad with a new, verified piece of information. Takes an agent name, the full text of its current system prompt, the full text of the notepad, and the new information to be added. It returns the updated system prompt and the updated notepad content.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "agent_name": {
+          "type": "string"
+        },
+        "agent_system_prompt": {
+          "type": "string"
+        },
+        "notepad_content": {
+          "type": "string"
+        },
+        "new_information": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "agent_name",
+        "agent_system_prompt",
+        "notepad_content",
+        "new_information"
+      ]
+    },
+    "python_script": "import json\n\ndef solve():\n    agent_prompt = input_data['agent_system_prompt']\n    notepad_content = input_data['notepad_content']\n    new_info = input_data['new_information']\n\n    # Logic to find the Type Effectiveness Chart in both the prompt and notepad\n    # This is a simplified example; a real implementation would need more robust parsing\n    prompt_chart_marker = 'Super Effective (2x damage):'\n    notepad_chart_marker = '## F. Type Effectiveness Chart (Verified)'\n    \n    updated_prompt = agent_prompt\n    if prompt_chart_marker in agent_prompt:\n        updated_prompt = agent_prompt.replace(prompt_chart_marker, f\"{prompt_chart_marker}\\n*   {new_info}\")\n\n    updated_notepad = notepad_content\n    if notepad_chart_marker in notepad_content:\n        # Find the 'Findings:' list and append to it\n        findings_marker = '- **Findings:**'\n        if findings_marker in updated_notepad:\n            updated_notepad = updated_notepad.replace(findings_marker, f\"{findings_marker}\\n  - {new_info}\")\n        else:\n            updated_notepad += f'\\n- {new_info}' # Fallback\n    \n    print(json.dumps({'updated_agent_prompt': updated_prompt, 'updated_notepad_content': updated_notepad}))\n\nsolve()\n",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2025-08-17T06:32:09.990Z",
+        "action_counter": 148853
+      }
+    ]
   }
 }
