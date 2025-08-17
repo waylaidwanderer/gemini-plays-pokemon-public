@@ -124,4 +124,4 @@
 ## H. In-Battle Discoveries (Verified)
 - **Hypnosis Anomaly (Corrected):** Agatha's Gengar's first Hypnosis on TITANESS failed (Turn 150576), but a second attempt succeeded (Turn 150583). The initial failure was likely a standard move miss, not an immunity. This confirms TITANESS is not immune to sleep.
 ### Agatha (Attempt 3 - In Progress)
-  - Gengar (Lv 57) - Known Moves: Hypnosis, Mega Drain, Dream Eater
+  - Gengar (Lv 57) - Known Moves: Hypnosis, Mega Drain, Dream Eater, Night Shade
