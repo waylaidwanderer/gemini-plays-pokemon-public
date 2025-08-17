@@ -1446,12 +1446,17 @@
         "pokemon_move_list"
       ]
     },
-    "python_script": "import json\n\nmove_to_select = input_data['move_to_select']\n# The pokemon_move_list is passed as a JSON string, so it needs to be parsed.\n# Example format: '[\"MOVE1\",\"MOVE2\",\"MOVE3\",\"MOVE4\"]'\npokemon_move_list = json.loads(input_data['pokemon_move_list'])\n\nif move_to_select not in pokemon_move_list:\n    print(json.dumps({'status': 'failure', 'reason': f'Move \\\"{move_to_select}\\\" not found in the list.'}))\nelse:\n    move_index = pokemon_move_list.index(move_to_select)\n    presses = []\n    # The cursor starts at index 0 (the first move).\n    # The menu is a single column, so we only need 'Down' presses.\n    if move_index > 0:\n        presses = ['Down'] * move_index\n    \n    print(json.dumps({'status': 'success', 'button_presses': presses}))",
+    "python_script": "import json\n\ndef select_move(move_to_select, pokemon_move_list):\n    try:\n        target_index = pokemon_move_list.index(move_to_select)\n    except ValueError:\n        print(json.dumps({'status': 'failure', 'reason': f'Move \"{move_to_select}\" not found in the provided list.'}))\n        return\n\n    # The cursor starts at index 0.\n    # The menu has 4 options. It's more efficient to press Up from the top to get to the bottom.\n    # 0 -> 1: Down\n    # 0 -> 2: Down, Down\n    # 0 -> 3: Down, Down, Down OR Up\n\n    if target_index == 0:\n        presses = []\n    elif target_index == 1:\n        presses = [\"Down\"]\n    elif target_index == 2:\n        presses = [\"Down\", \"Down\"]\n    elif target_index == 3:\n        # It's faster to press Up once from the top to wrap to the bottom.\n        presses = [\"Up\"] \n    else:\n        # This case should not be reached with a 4-move list.\n        presses = []\n\n    print(json.dumps({'status': 'success', 'button_presses': presses}))\n\nselect_move(input_data['move_to_select'], input_data['pokemon_move_list'])",
     "history": [
       {
         "commit_message": "feat: Create select_move tool to automate in-battle move selection. In response to my 50-turn reflection identifying repeated, inefficient manual menu navigation, this tool calculates the necessary 'Down' presses to select a specific move from the battle menu. This is a critical step to reduce errors and improve my turn-by-turn efficiency in combat.",
         "timestamp": "2025-08-17T20:20:54.293Z",
         "action_counter": 150775
+      },
+      {
+        "commit_message": "feat: Create select_move tool to automate in-battle move selection. In response to my 50-turn reflection identifying repeated, inefficient manual menu navigation, this tool calculates the necessary 'Up' or 'Down' presses to select a specific move from the battle menu. This is a critical step to reduce errors and improve my turn-by-turn efficiency in combat.",
+        "timestamp": "2025-08-17T21:36:09.629Z",
+        "action_counter": 150931
       }
     ]
   }

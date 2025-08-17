@@ -49,6 +49,7 @@
   - Ground is super-effective against Psychic-types (Observed: CRAG's Golem vs Lorelei's Slowbro).
   - Psychic is super-effective against Poison-types (Observed: Lorelei's Slowbro vs ECHO's Golbat).
   - Ice is not very effective against Psychic-types (Observed: NEPTUNE's Ice Beam vs Lorelei's Slowbro).
+  - Ground is super-effective against Rock/Ground dual-types (Observed: Bruno's Onix vs CRAG's Golem).
 
 ## B. Elite Four Battle Logs (Observed Rosters)
 ### Lorelei (Attempt 4 - Lost)
