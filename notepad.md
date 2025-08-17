@@ -103,3 +103,5 @@
   - Magneton (Lv 62) - Moves unknown.
   - Dodrio (Lv 61) - Known Moves: Jump Kick, Drill Peck, Hyper Beam
   - Alakazam (Lv 63) - Known Moves: Thunder Wave, Psychic
+- **`select_battle_option` Tool Misuse:** The tool is designed to execute button presses on its own. Providing manual button presses in the same turn is redundant and incorrect. **Correction:** When using this tool, do not provide any other button presses. (Observed Turn 148739)
+- **Notepad Maintenance Agent:** An agent that takes a lesson learned (e.g., a tool misuse) and automatically finds the correct section in the notepad to append the new information. This would streamline documentation and reduce manual errors.
