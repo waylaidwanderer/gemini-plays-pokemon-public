@@ -84,6 +84,7 @@
 - **Violation of Immediate Action Mandate (The LLM Reality):** I have repeatedly failed to perform necessary maintenance on my tools and notepad immediately, instead of deferring the tasks to continue gameplay. This is a critical violation of my core directive. **Correction:** There is no 'later'; tasks such as fixing tools or updating notes must be done in the current turn.
 - **Flawed Hypothesis Testing (Confirmation Bias):** I have incorrectly assumed a path existed and spent numerous turns trying to fix my tools to confirm this belief, rather than first using a tool like `map_connectivity_analyzer` to test the fundamental assumption of reachability. **Correction:** I must test core assumptions first before attempting to fix tools that rely on those assumptions. I must also actively try to disprove my own hypotheses.
 - **Misinterpreting System Feedback:** I have incorrectly assumed my tools or notes were wrong when system feedback indicated otherwise. This led to wasted time trying to 'fix' things that were already correct or pathing to unreachable locations. **Correction:** I must treat system/tool feedback as the source of truth and question my own assumptions first.
+- **Over-reliance on Luck (Confirmation Bias):** The FLASH strategy against Bruno's Machamp was successful multiple times due to luck, reinforcing the belief it was a guaranteed win condition. However, it failed when the opponent used a different move (Rock Slide), which may have had higher base accuracy. **Correction:** Luck-based strategies should be a last resort. I must not become overconfident from a lucky streak and must always consider the opponent's full range of options.
 
 ## B. Tool & Agent Development Log
 - **Diagnostic Tool Output:** Pathfinding tools must report the specific obstacle that blocks a path upon failure. This is essential for distinguishing between a solvable puzzle and a genuinely impossible route.
@@ -106,24 +107,13 @@
 ## B. Victory Road 2F Boulder Puzzle
 - **Conclusion:** A boulder was brought down from Victory Road 3F through the hole at (24, 16) on 3F. It landed at (23, 17) on 2F and was pushed to the switch at (10, 17). The barrier at (24, 15) is now open.
 
-## H. Untested Hypotheses
-- **PC Box Selection Anomaly:** The game may select the box one position *below* the highlighted cursor. This has only been observed once and requires further testing to confirm if it's a consistent bug. (Next Test: Next time 'CHANGE BOX' is used).
-
 # V. Development & Testing Pipeline
 
 ## A. Future Development Goals
 - **Pokémon Data Pipeline:** Investigate methods to pass party/PC data to custom tools to make `pokemon_stat_formatter` functional. This is a high-priority task for improving team-building efficiency.
-
-## B. Untested Hypotheses (Active)
-- **SPOONBENDE vs. Gengar:** Test the effectiveness of a low-level Psychic-type (SPOONBENDE, Lv 37) against Agatha's high-level Gengar. The type matchup should be favorable, but the level difference is a major risk factor.
-
-## B. Untested Hypotheses (Active)
-- **Indigo Plateau Auto-Heal Consistency:** Blacking out during the Elite Four challenge and respawning at the Indigo Plateau entrance automatically heals the entire party. (Observed once, needs confirmation of consistency).
-
-# III. Meta-Progression & Lessons Learned
-## A. Core Methodological Failures (Self-Correction Log)
-- **Over-reliance on Luck (Confirmation Bias):** The FLASH strategy against Bruno's Machamp was successful multiple times due to luck, reinforcing the belief it was a guaranteed win condition. However, it failed when the opponent used a different move (Rock Slide), which may have had higher base accuracy. **Correction:** Luck-based strategies should be a last resort. I must not become overconfident from a lucky streak and must always consider the opponent's full range of options.
-
-# V. Development & Testing Pipeline
-## A. Future Development Goals
 - **PC Search Tool:** Create a custom tool (`pc_pokemon_search`) that can search through all stored Pokémon in the PC and return a list of those that match specific criteria (e.g., have a certain move, are of a certain type). This will greatly speed up team building and strategic planning.
+
+## B. Untested Hypotheses (Active)
+- **PC Box Selection Anomaly:** The game may select the box one position *below* the highlighted cursor. This has only been observed once and requires further testing to confirm if it's a consistent bug. (Next Test: Next time 'CHANGE BOX' is used).
+- **SPOONBENDE vs. Gengar:** Test the effectiveness of a low-level Psychic-type (SPOONBENDE, Lv 37) against Agatha's high-level Gengar. The type matchup should be favorable, but the level difference is a major risk factor.
+- **Indigo Plateau Auto-Heal Consistency:** Blacking out during the Elite Four challenge and respawning at the Indigo Plateau entrance automatically heals the entire party. (Observed once, needs confirmation of consistency).
