@@ -47,6 +47,11 @@
   - Dragonite (Lv 61) - Known Moves: Slam, Thunder Wave, Wrap
   - Gyarados (Lv 60) - Known Moves: Slam
 
+### Champion Pixel (Attempt 1 - Lost)
+  - Magneton (Lv 62) - Moves unknown.
+  - Dodrio (Lv 61) - Known Moves: Jump Kick, Drill Peck, Hyper Beam
+  - Alakazam (Lv 63) - Known Moves: Thunder Wave, Psychic
+
 # III. Meta-Progression & Lessons Learned
 
 ## A. Core Methodological Failures (Self-Correction Log)
@@ -59,7 +64,7 @@
 - **Diagnostic Tool Output:** Pathfinding tools must report the specific obstacle that blocks a path upon failure. This is essential for distinguishing between a solvable puzzle and a genuinely impossible route.
 - **Invulnerability-Piercing Move Failure (Hypothesis):** Moves that normally hit invulnerable opponents (e.g., Earthquake vs. Dig) have failed to connect. This may be an intentional mechanic change in the ROM hack. (Observed Turn 145570, 145588)
 - **AI Prediction Failure (Confirmation Bias):** I have incorrectly assumed the opponent's AI would use a specific move to counter my current Pokémon, failing to predict that the AI would instead use the optimal move to counter my *switch-in*. (Observed Turn 147728, Lorelei's Lapras vs. CRAG). **Correction:** I must assume the AI will make the optimal play against my predicted action, not just react to the current board state.
-- **`select_battle_option` Tool Misuse:** The tool is designed to execute button presses on its own. Providing manual button presses in the same turn is redundant and incorrect. **Correction:** When using this tool, do not provide any other button presses. (Observed Turn 147891, 147894, 147896)
+- **`select_battle_option` Tool Misuse:** The tool is designed to execute button presses on its own. Providing manual button presses in the same turn is redundant and incorrect. **Correction:** When using this tool, do not provide any other button presses. (Observed Turn 147891, 147894, 147896, 148739)
 - **Battle Agent Over-Aggression:** The `battle_strategist_agent` has shown a tendency to recommend offensive actions even when facing a known super-effective threat, underestimating the risk. **Correction (Turn 148487):** The agent's system prompt has been updated to prioritize a defensive switch when a known super-effective threat is present.
 
 # IV. Puzzle Archive (Completed)
@@ -76,6 +81,8 @@
 - **TM Advisor Agent:** Create an agent that analyzes my full roster of Pokémon and available TMs to recommend optimal move assignments based on stats, typing, and strategic needs. This would automate a complex reasoning task.
 - **Semi-Automated Data Extractor Tool:** A tool to guide manual PC navigation to extract Pokémon data as a workaround for the broken `pokemon_data_extractor`.
 - **`pokemon_data_extractor` Failure:** The tool fails to execute even with a simple print statement and no arguments. Hypothesis that the large `game_state_string` input was the cause has been disproven. The root cause is likely an issue with the tool execution environment itself, making the tool unusable. Must proceed with manual workarounds.
+- **Battle Flow Predictor Agent:** An agent that takes a full trainer roster as input and provides a high-level strategic overview. It would suggest an optimal lead Pokémon and a potential sequence of switch-ins to counter the opponent's entire team, predicting the flow of the battle.
+- **Notepad Maintenance Agent:** An agent that takes a lesson learned (e.g., a tool misuse) and automatically finds the correct section in the notepad to append the new information. This would streamline documentation and reduce manual errors.
 
 # VI. In-Game Discoveries
 
@@ -96,12 +103,4 @@
   - Ground is super-effective against Rock/Ground dual-types (Observed: Bruno's Onix vs CRAG's Golem).
   - Fighting is super-effective against Normal-types (Observed: Bruno's Machamp vs TITANESS).
 - **Night Shade Damage Anomaly:** Agatha's Lv 57 Gengar's Night Shade dealt 38 damage instead of the expected 57. This may be a mechanic change in the ROM hack. (Observed Turn 148518)
-- **Battle Flow Predictor Agent:** An agent that takes a full trainer roster as input and provides a high-level strategic overview. It would suggest an optimal lead Pokémon and a potential sequence of switch-ins to counter the opponent's entire team, predicting the flow of the battle.
   - Flying is immune to Ground-type moves (Observed: Pixel's Dodrio vs REVENANT's Marowak).
-
-### Champion Pixel (Attempt 1 - Lost)
-  - Magneton (Lv 62) - Moves unknown.
-  - Dodrio (Lv 61) - Known Moves: Jump Kick, Drill Peck, Hyper Beam
-  - Alakazam (Lv 63) - Known Moves: Thunder Wave, Psychic
-- **`select_battle_option` Tool Misuse:** The tool is designed to execute button presses on its own. Providing manual button presses in the same turn is redundant and incorrect. **Correction:** When using this tool, do not provide any other button presses. (Observed Turn 148739)
-- **Notepad Maintenance Agent:** An agent that takes a lesson learned (e.g., a tool misuse) and automatically finds the correct section in the notepad to append the new information. This would streamline documentation and reduce manual errors.
