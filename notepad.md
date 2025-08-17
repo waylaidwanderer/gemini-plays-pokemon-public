@@ -28,20 +28,12 @@
 
 # II. Battle Information
 
-## A. Type Effectiveness Chart (Verified In-Game)
-- **Super Effective (2x):** Water > Rock, Ground, Fire; Electric > Water, Flying; Rock > Flying; Ground > Fire, Electric, Rock, Poison, Psychic (Hypothesized), Ground; Ice > Ground, Grass, Flying, Dragon; Flying > Fighting, Grass, Bug; Fighting > Normal, Rock, Ice; Grass > Ground, Rock, Water; Psychic > Ghost.
-- **Not Very Effective (0.5x):** Normal !> Rock; Flying !> Rock; Ice !> Fighting (Ice-type moves are NOT super-effective against Fighting-types); Psychic !> Psychic.
-- **Immune (0x):** Normal immune to Ghost; Ground immune to Electric; Flying immune to Ground; Ghost immune to Ground.
-
-## B. Elite Four Battle Logs (Observed Rosters)
-### Lorelei (Attempt 2 - Defeated)
-  - Slowbro (Lv 56) - Known Moves: Psychic
+## A. Elite Four Battle Logs (Observed Rosters)
+### Lorelei (Attempt 3 - In Progress)
+  - Slowbro (Lv 56) - Known Moves: Psychic, Earthquake
   - Cloyster (Lv 55) - Moves unknown.
-  - Dewgong (Lv 55) - Moves unknown.
-  - Jynx (Lv 56) - Moves unknown.
-  - Lapras (Lv 57) - Known Moves: Blizzard
 
-### Bruno (Attempt 2 - In Progress)
+### Bruno (Attempt 2 - Defeated)
   - Hitmonchan (Lv 57) - Known Moves: Dizzy Punch, Thunderpunch, Ice Punch
   - Poliwrath (Lv 56) - Known Moves: Hydro Pump, Ice Beam
   - Hitmonlee (Lv 57) - Moves unknown.
