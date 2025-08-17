@@ -71,9 +71,10 @@
 ### Agatha (Attempt 5 - In Progress)
   - MACHAMP (Lv 58) - Moves Unknown.
   - GENGAR (Lv 57) - Known Moves: Night Shade, Mega Drain, Hypnosis, Dream Eater
-  - GOLBAT (Lv 58) - Known Moves: Toxic, Double Team
+  - GOLBAT (Lv 58) - Known Moves: Toxic, Double Team, Fly
   - MAROWAK (Lv 57) - Known Moves: Rock Slide, Swords Dance, Body Slam
-  - ARBOK (Lv 58) - Known Moves: Substitute
+  - ARBOK (Lv 58) - Known Moves: Substitute, Wrap
+  - GENGAR (Lv 59) - Known Moves: Mega Drain, Thunder
 
 ### Lance (Attempt 1 - Lost)
   - Dragonite (Lv 61) - Known Moves: Slam, Thunder Wave, Wrap
