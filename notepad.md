@@ -137,3 +137,4 @@
 - **Tool Idea:** Create a `select_party_pokemon_tool` to automate navigating the party menu during switches. This would take a Pokémon's name and the party list as input and return the necessary button presses.
 - **Agent Idea:** Create an `encounter_log_agent` to take the output from `battle_log_parser` and auto-format it into a markdown entry for the notepad, streamlining documentation.
 - **Self-Correction (Speed Assumption):** I must not assume my Pokémon is faster than an opponent's of the same species, even with a level advantage. Agatha's Lv58 Golbat proved to be faster than my Lv65 ECHO. This is a critical lesson in not making unverified assumptions about stats.
+- **`select_party_pokemon_tool`:** Create a tool to automate navigating the party menu during switches. It would take a Pokémon's name and the party list as input and return the necessary Up/Down button presses.
