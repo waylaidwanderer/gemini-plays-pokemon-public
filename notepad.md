@@ -121,3 +121,5 @@
 
 ## H. Elite Four Mechanics (Verified)
 - **Bruno's Rematch:** After defeating Bruno once, the exit to Agatha's room is blocked. Interacting with him again triggers a mandatory rematch. This second victory is required to proceed. (Observed Turn 150529)
+## H. In-Battle Discoveries (Verified)
+- **Hypnosis Immunity Anomaly:** Agatha's Gengar used Hypnosis on TITANESS (Normal-type), and the move failed with the message 'It didn't affect TITANESS!'. This suggests a potential immunity for Normal-types to sleep-inducing moves or a unique property of TITANESS. (Observed Turn 150576)
