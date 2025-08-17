@@ -107,3 +107,4 @@
 
 ## H. Untested Hypotheses
 - **PC Box Selection Anomaly:** The game may select the box one position *below* the highlighted cursor. This has only been observed once and requires further testing to confirm if it's a consistent bug. (Next Test: Next time 'CHANGE BOX' is used).
+- **Agent Data Staleness (Critical Failure):** The battle_strategist_agent received outdated party information (Turn 149807), causing it to recommend switching to a fainted Pokémon. This highlights a critical vulnerability in the data pipeline. Since the agent cannot be fixed to account for this, its recommendations must be treated with extreme caution and manually verified against the current party status on-screen before execution.
