@@ -1446,7 +1446,7 @@
         "pokemon_move_list"
       ]
     },
-    "python_script": "import json\n\ndef select_move(move_to_select, pokemon_move_list):\n    try:\n        target_index = pokemon_move_list.index(move_to_select)\n    except ValueError:\n        print(json.dumps({'status': 'failure', 'reason': f'Move \"{move_to_select}\" not found in the provided list.'}))\n        return\n\n    # The cursor starts at index 0.\n    # The menu has 4 options. It's more efficient to press Up from the top to get to the bottom.\n    # 0 -> 1: Down\n    # 0 -> 2: Down, Down\n    # 0 -> 3: Down, Down, Down OR Up\n\n    if target_index == 0:\n        presses = []\n    elif target_index == 1:\n        presses = [\"Down\"]\n    elif target_index == 2:\n        presses = [\"Down\", \"Down\"]\n    elif target_index == 3:\n        # It's faster to press Up once from the top to wrap to the bottom.\n        presses = [\"Up\"] \n    else:\n        # This case should not be reached with a 4-move list.\n        presses = []\n\n    print(json.dumps({'status': 'success', 'button_presses': presses}))\n\nselect_move(input_data['move_to_select'], input_data['pokemon_move_list'])",
+    "python_script": "# injected imports [\"sys\", \"json\"]\n# injected variables [\"map_xml_string\", \"input_data\"]\n\nimport json\n\ndef select_move(move_to_select, pokemon_move_list_str):\n    try:\n        pokemon_move_list = json.loads(pokemon_move_list_str)\n        target_index = pokemon_move_list.index(move_to_select)\n    except (ValueError, json.JSONDecodeError):\n        print(json.dumps({'status': 'failure', 'reason': f'Move \"{move_to_select}\" not found or list is invalid.'}))\n        return\n\n    if target_index == 0:\n        presses = []\n    elif target_index == 1:\n        presses = [\"Down\"]\n    elif target_index == 2:\n        presses = [\"Down\", \"Down\"]\n    elif target_index == 3:\n        presses = [\"Up\"] \n    else:\n        presses = []\n\n    print(json.dumps({'status': 'success', 'button_presses': presses}))\n\nselect_move(input_data['move_to_select'], input_data['pokemon_move_list'])",
     "history": [
       {
         "commit_message": "feat: Create select_move tool to automate in-battle move selection. In response to my 50-turn reflection identifying repeated, inefficient manual menu navigation, this tool calculates the necessary 'Down' presses to select a specific move from the battle menu. This is a critical step to reduce errors and improve my turn-by-turn efficiency in combat.",
@@ -1457,6 +1457,11 @@
         "commit_message": "feat: Create select_move tool to automate in-battle move selection. In response to my 50-turn reflection identifying repeated, inefficient manual menu navigation, this tool calculates the necessary 'Up' or 'Down' presses to select a specific move from the battle menu. This is a critical step to reduce errors and improve my turn-by-turn efficiency in combat.",
         "timestamp": "2025-08-17T21:36:09.629Z",
         "action_counter": 150931
+      },
+      {
+        "commit_message": "fix: Add json.loads to parse move list. The tool was failing because it treated the stringified JSON array of moves as a raw string instead of parsing it into a Python list. This commit adds the necessary `json.loads` call to correctly handle the input, preventing future failures.",
+        "timestamp": "2025-08-17T21:58:58.986Z",
+        "action_counter": 150979
       }
     ]
   }
