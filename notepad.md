@@ -117,3 +117,4 @@
 ## B. Untested Hypotheses (Active)
 - **PC Box Selection Anomaly:** The game may select the box one position *below* the highlighted cursor. This has only been observed once and requires further testing to confirm if it's a consistent bug. (Next Test: Next time 'CHANGE BOX' is used).
 - **Indigo Plateau Auto-Heal Consistency:** Blacking out during the Elite Four challenge and respawning at the Indigo Plateau entrance automatically heals the entire party. (Observed once, needs confirmation of consistency).
+- **Battle Log Parser:** Create a custom agent that can take the raw screen text from a battle as input and automatically parse it into a structured log entry for the notepad. This would include the opponent's Pokémon, level, and observed moves, automating a critical data collection task.
