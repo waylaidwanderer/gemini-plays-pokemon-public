@@ -55,7 +55,7 @@
   - Gengar (Lv 59) - Known Moves: Psychic, Mega Drain
 
 ### Lance (Attempt 1 - Lost)
-  - Dragonite (Lv 61) - Known Moves: Slam, Thunder Wave
+  - Dragonite (Lv 61) - Known Moves: Slam, Thunder Wave, Wrap
 
 # III. Meta-Progression & Lessons Learned
 
