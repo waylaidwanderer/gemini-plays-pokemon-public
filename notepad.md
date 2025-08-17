@@ -50,23 +50,21 @@
   - Ground is super-effective against Psychic-types (Observed: CRAG's Golem vs Lorelei's Slowbro).
   - Psychic is super-effective against Poison-types (Observed: Lorelei's Slowbro vs ECHO's Golbat).
   - Grass is super-effective against Ground-types (Observed: Agatha's Gengar vs REVENANT's Marowak).
+  - Ice is super-effective against Ground-types (Observed: Bruno's Poliwrath vs REVENANT's Marowak).
   - Ice is not very effective against Psychic-types (Observed: NEPTUNE's Ice Beam vs Lorelei's Slowbro).
   - Water is not very effective against Water/Psychic dual-types (Observed: NEPTUNE's Surf vs Lorelei's Slowbro).
 
 ## B. Elite Four Battle Logs (Observed Rosters)
-### Lorelei (Attempt 5 - Won)
+### Lorelei (Attempt 6 - Won)
   - Slowbro (Lv 56) - Known Moves: Blizzard, Psychic
   - Cloyster (Lv 55) - Moves unknown.
   - Dewgong (Lv 55) - Moves unknown.
-  - Jynx (Lv 56) - Known Moves: Psychic
+  - Jynx (Lv 56) - Known Moves: Psychic, Lovely Kiss
   - Lapras (Lv 57) - Known Moves: Thunderbolt, Surf, Sing
 
-### Bruno (Attempt 5 - In Progress)
-  - ONIX (Lv 55) - Moves Unknown.
+### Bruno (Attempt 6 - In Progress)
   - HITMONCHAN (Lv 57) - Known Moves: Ice Punch, Thunder Punch
-  - HITMONLEE (Lv 57) - Moves Unknown.
-  - MACHAMP (Lv 58) - Moves Unknown.
-  - ONIX (Lv 56) - Moves Unknown.
+  - POLIWRATH (Lv 56) - Known Moves: Amnesia, Hydro Pump, Hypnosis, Ice Beam
 
 ### Agatha (Attempt 5 - Lost)
   - GENGAR (Lv 57) - Known Moves: Night Shade, Mega Drain, Hypnosis, Dream Eater
@@ -114,6 +112,7 @@
 - **Agent Data Staleness (Critical Failure):** The battle_strategist_agent received outdated party information (Turn 149807), causing it to recommend switching to a fainted Pokémon. This is a confirmed system limitation, not a hypothesis. Recommendations must be manually verified against the current on-screen party status before execution. (Moved from Hypotheses, Turn 150213)
 - **`team_composition_advisor` Underutilization:** Per Overwatch feedback (Turn 150211), I must use this agent for team-building before the next Elite Four attempt to test its effectiveness.
 - **Battle Strategist Failure (CRAG vs Gengar):** The agent recommended switching CRAG into Gengar, failing to account for the known move Mega Drain (Grass), which is 4x super-effective against Rock/Ground. This is a critical failure in threat assessment. (Observed Turn 150587)
+- **Battle Strategist Failure (Type Data):** The agent incorrectly believed Ice was neutral against Ground, leading to a recommendation to switch in REVENANT against an Ice Beam user. This is a critical data failure. (Observed Turn 151212)
 
 # IV. Puzzle Archive (Completed)
 
@@ -138,3 +137,4 @@
 
 ## C. Self-Correction Log (Post-Reflection)
 - **Speed Assumption:** I must not assume my Pokémon is faster than an opponent's of the same species, even with a level advantage. Agatha's Lv58 Golbat proved to be faster than my Lv65 ECHO. This is a critical lesson in not making unverified assumptions about stats.
+- **Agent Output Override Failure (Corrected):** I incorrectly overrode the `battle_strategist_agent`'s advice to switch to TITANESS against Jynx, instead switching to ECHO. This was a critical error based on my own flawed assumption, which created a dangerous situation and was flagged by the Overwatch system. **Correction:** I must treat the agent's output as the default correct action and only override it if I can definitively prove its underlying assumptions are wrong based on new in-game evidence. (Observed Turn 151161, Corrected Turn 151190)
