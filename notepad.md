@@ -87,8 +87,8 @@
 - **`pokemon_data_extractor` Failure:** The tool fails to execute even with a simple print statement and no arguments. Hypothesis that the large `game_state_string` input was the cause has been disproven. The root cause is likely an issue with the tool execution environment itself, making the tool unusable. Must proceed with manual workarounds.
 
 ## C. In-Battle Menu Navigation
-- **Move Selection:** The cursor starts on the top-left move.
-  - **Top-Left (Move 1):** Press 'A'.
-  - **Top-Right (Move 2):** Press 'Right', then 'A'.
-  - **Bottom-Left (Move 3):** Press 'Down', then 'A'.
-  - **Bottom-Right (Move 4):** Press 'Down', 'Right', then 'A'.
+- **Move Selection (Verified):** The move list is a single vertical column. Navigation is with Up/Down only; Left/Right do nothing.
+  - **Move 1 (Top):** Press 'A'.
+  - **Move 2:** From Move 1, press 'Down', then 'A'.
+  - **Move 3:** From Move 1, press 'Down' twice, then 'A'.
+  - **Move 4 (Bottom):** From Move 1, press 'Down' three times, then 'A'.
