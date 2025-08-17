@@ -97,3 +97,4 @@
   - Fighting is super-effective against Normal-types (Observed: Bruno's Machamp vs TITANESS).
 - **Night Shade Damage Anomaly:** Agatha's Lv 57 Gengar's Night Shade dealt 38 damage instead of the expected 57. This may be a mechanic change in the ROM hack. (Observed Turn 148518)
 - **Battle Flow Predictor Agent:** An agent that takes a full trainer roster as input and provides a high-level strategic overview. It would suggest an optimal lead Pokémon and a potential sequence of switch-ins to counter the opponent's entire team, predicting the flow of the battle.
+  - Flying is immune to Ground-type moves (Observed: Pixel's Dodrio vs REVENANT's Marowak).
