@@ -87,7 +87,7 @@
 - **AI Prediction Failure (Confirmation Bias):** I have incorrectly assumed the opponent's AI would use a specific move to counter my current Pokémon, failing to predict that the AI would instead use the optimal move to counter my *switch-in*. (Observed Turn 147728, Lorelei's Lapras vs. CRAG). **Correction:** I must assume the AI will make the optimal play against my predicted action, not just react to the current board state.
 - **`select_battle_option` Tool Misuse:** The tool is designed to execute button presses on its own. Providing manual button presses in the same turn is redundant and incorrect. **Correction:** When using this tool, do not provide any other button presses. (Observed Turn 147891, 147894, 147896, 148739)
 - **Battle Agent Over-Aggression:** The `battle_strategist_agent` has shown a tendency to recommend offensive actions even when facing a known super-effective threat, underestimating the risk. **Correction (Turn 148487):** The agent's system prompt has been updated to prioritize a defensive switch when a known super-effective threat is present.
-- **`pokemon_data_extractor` Failure:** The tool fails to execute even with a simple print statement and no arguments. The root cause is likely an issue with the tool execution environment itself, making the tool unusable. Must proceed with manual workarounds.
+- **`pokemon_data_extractor` (Deleted):** This tool was found to be non-functional and was deleted to make space for a new tool. The root cause was likely an issue with the tool execution environment itself.
 
 # IV. Puzzle Archive (Completed)
 
