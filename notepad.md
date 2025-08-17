@@ -56,7 +56,7 @@
 
 ### Lance (Attempt 1 - Lost)
   - Dragonite (Lv 61) - Known Moves: Slam, Thunder Wave, Wrap
-  - Gyarados (Lv 60) - Moves unknown.
+  - Gyarados (Lv 60) - Known Moves: Slam
 
 # III. Meta-Progression & Lessons Learned
 
