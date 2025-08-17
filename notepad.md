@@ -7,6 +7,7 @@
 - **PC Interaction:** To use a PC, stand on the tile directly *below* it and face *up* before pressing 'A'.
 - **Menu Navigation:** The 'B' button is the primary method for exiting/canceling out of menus.
 - **Forced Sleeping Switch:** The game will force you to send out or switch to a sleeping Pokémon if no other conscious Pokémon are available. This is a mechanical exception to the strategic guideline of avoiding switching to sleeping Pokémon.
+- **Indigo Plateau Auto-Heal:** Blacking out during the Elite Four challenge and respawning at the Indigo Plateau entrance automatically heals the entire party. (Observed Turn 149617)
 
 ## B. Tile Mechanics & Traversal (Verified)
 - `ground` / `grass`: Standard traversable tiles.
@@ -103,9 +104,3 @@
 
 ## H. Untested Hypotheses
 - **PC Box Selection Anomaly:** The game may select the box one position *below* the highlighted cursor. This has only been observed once and requires further testing to confirm if it's a consistent bug. (Next Test: Next time 'CHANGE BOX' is used).
-- **Indigo Plateau Auto-Heal:** Blacking out during the Elite Four challenge and respawning at the Indigo Plateau entrance automatically heals the entire party. (Observed Turn 149617)
-
-# V. Admin & Maintenance Tasks
-
-## A. Map Marker Cleanup (To-Do)
-- **Investigate Marker on Map 9 (Indigo Plateau):** Per Overwatch feedback (Turn 149642), review the marker `🚪 Used - To PC Lobby at (8, 12)`. The label seems to describe a destination on a different map, which is incorrect. Delete or correct it on the next visit to Map 9.
