@@ -50,7 +50,7 @@
   - Psychic is super-effective against Poison-types (Observed: Lorelei's Slowbro vs ECHO's Golbat).
 
 ## B. Elite Four Battle Logs (Observed Rosters)
-### Lorelei (Attempt 4 - In Progress)
+### Lorelei (Attempt 4 - Lost)
   - Slowbro (Lv 56) - Known Moves: Psychic, Earthquake
   - Cloyster (Lv 55) - Known Moves: Surf
   - Dewgong (Lv 55) - Moves unknown.
