@@ -95,3 +95,4 @@
 - **Findings:**
   - Ground is super-effective against Rock/Ground dual-types (Observed: Bruno's Onix vs CRAG's Golem).
   - Fighting is super-effective against Normal-types (Observed: Bruno's Machamp vs TITANESS).
+- **Night Shade Damage Anomaly:** Agatha's Lv 57 Gengar's Night Shade dealt 38 damage instead of the expected 57. This may be a mechanic change in the ROM hack. (Observed Turn 148518)
