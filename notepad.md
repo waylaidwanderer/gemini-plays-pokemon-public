@@ -29,9 +29,12 @@
 # II. Battle Information
 
 ## A. Elite Four Battle Logs (Observed Rosters)
-### Lorelei (Attempt 3 - In Progress)
+### Lorelei (Attempt 3 - Defeated)
   - Slowbro (Lv 56) - Known Moves: Psychic, Earthquake
   - Cloyster (Lv 55) - Moves unknown.
+  - Dewgong (Lv 55) - Moves unknown.
+  - Jynx (Lv 56) - Known Moves: Psychic
+  - Lapras (Lv 57) - Moves unknown.
 
 ### Agatha (Attempt 1 - Defeated)
   - Gengar (Lv 57) - Known Moves: Night Shade, Mega Drain, Hypnosis, Dream Eater
@@ -57,6 +60,7 @@
 - **Invulnerability-Piercing Move Failure (Hypothesis):** Moves that normally hit invulnerable opponents (e.g., Earthquake vs. Dig) have failed to connect. This may be an intentional mechanic change in the ROM hack. (Observed Turn 145570, 145588)
 - **AI Prediction Failure (Confirmation Bias):** I have incorrectly assumed the opponent's AI would use a specific move to counter my current Pokémon, failing to predict that the AI would instead use the optimal move to counter my *switch-in*. (Observed Turn 147728, Lorelei's Lapras vs. CRAG). **Correction:** I must assume the AI will make the optimal play against my predicted action, not just react to the current board state.
 - **`select_battle_option` Tool Misuse:** The tool is designed to execute button presses on its own. Providing manual button presses in the same turn is redundant and incorrect. **Correction:** When using this tool, do not provide any other button presses. (Observed Turn 147891, 147894, 147896)
+- **Battle Agent Over-Aggression:** The `battle_strategist_agent` has shown a tendency to recommend offensive actions even when facing a known super-effective threat, underestimating the risk. **Correction (Turn 148487):** The agent's system prompt has been updated to prioritize a defensive switch when a known super-effective threat is present.
 
 # IV. Puzzle Archive (Completed)
 
@@ -73,6 +77,8 @@
 - **Semi-Automated Data Extractor Tool:** A tool to guide manual PC navigation to extract Pokémon data as a workaround for the broken `pokemon_data_extractor`.
 - **`pokemon_data_extractor` Failure:** The tool fails to execute even with a simple print statement and no arguments. Hypothesis that the large `game_state_string` input was the cause has been disproven. The root cause is likely an issue with the tool execution environment itself, making the tool unusable. Must proceed with manual workarounds.
 
+# VI. In-Game Discoveries
+
 ## C. In-Battle Menu Navigation
 - **Move Selection (Verified):** The move list is a single vertical column. Navigation is with Up/Down only; Left/Right do nothing.
   - **Move 1 (Top):** Press 'A'.
@@ -83,15 +89,9 @@
 ## D. PC & Menu Anomalies
 - **PC Box Selection:** When selecting a box from the list, the game may select the box one position *below* the highlighted cursor. (Observed Turn 148349)
 
-## D. Type Effectiveness Chart (Verified)
-- Ground is super-effective against Rock/Ground dual-types (Observed: Bruno's Onix vs CRAG's Golem).
-
-# VI. Active Research & Testing
-
-## A. Type Effectiveness Verification
-- **Objective:** Systematically test and verify all type matchups in this ROM hack, as the standard chart is unreliable. The discovery that Ground is super-effective against Rock/Ground highlights this need.
+## E. Type Effectiveness Chart (Verified)
+- **Objective:** Systematically test and verify all type matchups in this ROM hack, as the standard chart is unreliable.
 - **Method:** During battles, especially against the Elite Four, prioritize using moves with uncertain effectiveness to gather data. Record all super-effective, not-very-effective, and immune interactions observed.
-
-## D. Type Effectiveness Chart (Verified)
-- Ground is super-effective against Rock/Ground dual-types (Observed: Bruno's Onix vs CRAG's Golem).
-- Fighting is super-effective against Normal-types (Observed: Bruno's Machamp vs TITANESS).
+- **Findings:**
+  - Ground is super-effective against Rock/Ground dual-types (Observed: Bruno's Onix vs CRAG's Golem).
+  - Fighting is super-effective against Normal-types (Observed: Bruno's Machamp vs TITANESS).
