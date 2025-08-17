@@ -82,3 +82,6 @@
 
 ## D. PC & Menu Anomalies
 - **PC Box Selection:** When selecting a box from the list, the game may select the box one position *below* the highlighted cursor. (Observed Turn 148349)
+
+## D. Type Effectiveness Chart (Verified)
+- Ground is super-effective against Rock/Ground dual-types (Observed: Bruno's Onix vs CRAG's Golem).
