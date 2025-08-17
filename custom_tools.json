@@ -1427,7 +1427,7 @@
     ]
   },
   "select_move": {
-    "description": "Takes a move name and a list of the active Pokémon's four moves, then returns the sequence of button presses ('Up' or 'Down') needed to select that move from the in-battle menu, starting from the first move.",
+    "description": "Takes a move name, a list of the active Pokémon's four moves, and optionally the currently selected move, then returns the sequence of button presses ('Up' or 'Down') needed to select that move.",
     "input_schema": {
       "type": "object",
       "properties": {
@@ -1435,10 +1435,11 @@
           "type": "string"
         },
         "pokemon_move_list": {
-          "type": "array",
-          "items": {
-            "type": "string"
-          }
+          "type": "string"
+        },
+        "current_selected_move": {
+          "type": "string",
+          "nullable": true
         }
       },
       "required": [
@@ -1446,7 +1447,7 @@
         "pokemon_move_list"
       ]
     },
-    "python_script": "# injected imports [\"sys\", \"json\"]\n# injected variables [\"map_xml_string\", \"input_data\"]\n\nimport json\n\ndef select_move(move_to_select, pokemon_move_list_str):\n    try:\n        pokemon_move_list = json.loads(pokemon_move_list_str)\n        target_index = pokemon_move_list.index(move_to_select)\n    except (ValueError, json.JSONDecodeError):\n        print(json.dumps({'status': 'failure', 'reason': f'Move \"{move_to_select}\" not found or list is invalid.'}))\n        return\n\n    if target_index == 0:\n        presses = []\n    elif target_index == 1:\n        presses = [\"Down\"]\n    elif target_index == 2:\n        presses = [\"Down\", \"Down\"]\n    elif target_index == 3:\n        presses = [\"Up\"] \n    else:\n        presses = []\n\n    print(json.dumps({'status': 'success', 'button_presses': presses}))\n\nselect_move(input_data['move_to_select'], input_data['pokemon_move_list'])",
+    "python_script": "import json\n\ndef select_move(move_to_select, pokemon_move_list_str, current_selected_move=None):\n    try:\n        pokemon_move_list = json.loads(pokemon_move_list_str)\n        target_index = pokemon_move_list.index(move_to_select)\n        start_index = 0\n        if current_selected_move:\n            try:\n                start_index = pokemon_move_list.index(current_selected_move)\n            except ValueError:\n                start_index = 0\n    except (ValueError, json.JSONDecodeError):\n        print(json.dumps({'status': 'failure', 'reason': f'Move not found or list is invalid.'}))\n        return\n\n    num_moves = len(pokemon_move_list)\n    down_dist = (target_index - start_index + num_moves) % num_moves\n    up_dist = (start_index - target_index + num_moves) % num_moves\n\n    presses = []\n    if down_dist <= up_dist:\n        for _ in range(down_dist):\n            presses.append(\"Down\")\n    else:\n        for _ in range(up_dist):\n            presses.append(\"Up\")\n\n    print(json.dumps({'status': 'success', 'button_presses': presses}))\n\nmove_to_select = input_data['move_to_select']\npokemon_move_list_str = input_data['pokemon_move_list']\ncurrent_selected_move = input_data.get('current_selected_move')\n\nselect_move(move_to_select, pokemon_move_list_str, current_selected_move)",
     "history": [
       {
         "commit_message": "feat: Create select_move tool to automate in-battle move selection. In response to my 50-turn reflection identifying repeated, inefficient manual menu navigation, this tool calculates the necessary 'Down' presses to select a specific move from the battle menu. This is a critical step to reduce errors and improve my turn-by-turn efficiency in combat.",
@@ -1462,6 +1463,11 @@
         "commit_message": "fix: Add json.loads to parse move list. The tool was failing because it treated the stringified JSON array of moves as a raw string instead of parsing it into a Python list. This commit adds the necessary `json.loads` call to correctly handle the input, preventing future failures.",
         "timestamp": "2025-08-17T21:58:58.986Z",
         "action_counter": 150979
+      },
+      {
+        "commit_message": "feat: Add current_selected_move parameter. The tool previously assumed the cursor always started at the top of the move list, leading to incorrect move selections if the menu was re-entered without resetting. This commit adds an optional `current_selected_move` parameter to allow the tool to calculate the shortest path from any starting position, making it robust for multi-turn menu navigation.",
+        "timestamp": "2025-08-17T22:22:26.139Z",
+        "action_counter": 151027
       }
     ]
   }
