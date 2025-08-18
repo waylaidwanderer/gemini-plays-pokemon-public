@@ -78,12 +78,12 @@
 
 ### Lance (Attempt 12 - Won)
   - Dragonite (Lv 61) - Known Moves: Slam
-  - Gyarados (Lv 60) - Known Moves: Fly
+  - Gyaros (Lv 60) - Known Moves: Fly
   - Charizard (Lv 60) - Known Moves: Hyper Beam, Earthquake, Flamethrower
   - Aerodactyl (Lv 61) - Known Moves: Earthquake
   - Dragonite (Lv 62) - Known Moves: Blizzard
 
-### Champion Pixel (Attempt 2 - Lost)
+### Champion Pixel (Attempt 3 - Lost)
   - Magneton (Lv 62) - Moves unknown.
   - Dodrio (Lv 61) - Known Moves: Jump Kick, Drill Peck, Hyper Beam
   - Alakazam (Lv 63) - Known Moves: Thunder Wave, Psychic
@@ -125,22 +125,17 @@
 ## B. Victory Road 2F Boulder Puzzle
 - **Conclusion:** A boulder was brought down from Victory Road 3F through the hole at (24, 16) on 3F. It landed at (23, 17) on 2F and was pushed to the switch at (10, 17). The barrier at (24, 15) is now open.
 
-# V. Untested Hypotheses (Active)
+# V. Untested Hypotheses & Future Investigation Plans
 - **PC Box Selection Anomaly:** The game may select the box one position *below* the highlighted cursor. This has only been observed once and requires further testing to confirm if it's a consistent bug. (Next Test: Next time 'CHANGE BOX' is used).
-- **Forced Switch Anomaly:** In turn 151914, I intended to switch to TITANESS, but the game sent out REVENANT instead. This may have been a game bug, an input error on my part, or an unknown game mechanic. This requires careful observation of future switch commands to determine if it's a recurring issue.
-- **Forced Switch Anomaly 2:** In the Champion battle (Turn 153144), I attempted to switch from TITANESS to REVENANT. The game instead sent out SPOONBENDE. This is the second time a switch command has resulted in an unexpected Pokémon being sent out. This requires further investigation.
-- **Party Menu Wrapping:** The party selection menu may wrap around (e.g., pressing Up from the top item moves the cursor to the bottom). This was observed in turn 153175 when an attempt to move from REVENANT (index 4) to NEPTUNE (index 2) by pressing 'Up' twice resulted in selecting the fainted CRAG (index 0). This requires further testing.
+- **Forced Switch Anomaly:** In turn 151914, I intended to switch to TITANESS, but the game sent out REVENANT instead. In the Champion battle (Turn 153144), I attempted to switch from TITANESS to REVENANT, and the game sent out SPOONBENDE. This has happened twice.
+  - **Test Plan:** In a non-critical battle, attempt to switch between two specific Pokémon. Record the input sequence and the actual Pokémon that is sent out. Repeat multiple times to check for consistency and identify a pattern.
+- **Party Menu Wrapping:** The party selection menu may wrap around (e.g., pressing Up from the top item moves the cursor to the bottom). This was observed in turn 153175 when an attempt to move from REVENANT (index 4) to NEPTUNE (index 2) by pressing 'Up' twice resulted in selecting the fainted CRAG (index 0).
+  - **Test Plan:** In the party menu, navigate to the top Pokémon. Press 'Up' and observe if the cursor moves to the bottom Pokémon. Navigate to the bottom Pokémon and press 'Down' to see if it wraps to the top. This will confirm or deny the wrapping hypothesis.
 
-# VI. Strategic Reminders & Future Plans
+# VI. Strategic Reminders & Active Plans
 
 ## A. Agent & Tool Usage Protocols
 - **Team Building:** For major challenges like the Elite Four, I must use the `team_composition_advisor` agent to get a data-driven recommendation instead of relying solely on manual selection. This will prevent oversights and optimize my team composition. (Self-Correction Turn 152853)
 
 ## B. Confirmed Battle Mechanics
 - **SPOONBENDE Speed:** My Lv 38 Kadabra (SPOONBENDE) is confirmed to be faster than Agatha's Lv 57 Gengar. The hypothesis that it might be too slow has been falsified, which makes the Psychic-spam strategy viable.
-
-## C. Battle Plans (Active)
-
-## D. Future Investigation Plans
-- **Forced Switch Anomaly Test:** In a non-critical battle, attempt to switch between two specific Pokémon. Record the input sequence and the actual Pokémon that is sent out. Repeat multiple times to check for consistency and identify a pattern.
-- **Party Menu Wrapping Test:** In the party menu, navigate to the top Pokémon. Press 'Up' and observe if the cursor moves to the bottom Pokémon. Navigate to the bottom Pokémon and press 'Down' to see if it wraps to the top. This will confirm or deny the wrapping hypothesis.
