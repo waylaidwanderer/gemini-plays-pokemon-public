@@ -66,7 +66,7 @@
   - HITMONCHAN (Lv 57) - Known Moves: Ice Punch, Thunder Punch
   - POLIWRATH (Lv 56) - Known Moves: Amnesia, Hydro Pump, Hypnosis, Ice Beam
 
-### Agatha (Attempt 10 - Lost)
+### Agatha (Attempt 11 - Lost)
   - GENGAR (Lv 57) - Known Moves: Night Shade, Mega Drain, Hypnosis, Dream Eater
   - GOLBAT (Lv 58) - Known Moves: Toxic, Double Team, Fly
   - MAROWAK (Lv 57) - Known Moves: Rock Slide, Swords Dance, Body Slam
@@ -107,7 +107,6 @@
 - **Battle Agent Over-Aggression:** The `battle_strategist_agent` has shown a tendency to recommend offensive actions even when facing a known super-effective threat, underestimating the risk. **Correction (Turn 148487):** The agent's system prompt has been updated to prioritize a defensive switch when a known super-effective threat is present.
 - **`battle_flow_predictor` Usage Mandate:** Per Overwatch feedback (Turn 149340), I must use this agent before my next Elite Four attempt to test its effectiveness.
 - **Agent Gamble Failure & AI Prediction:** The battle_strategist_agent correctly identified a high-risk, high-reward play by switching to CRAG, predicting Lapras would use its known move Thunderbolt. However, the opponent AI made the optimal counter-play by using Surf against the incoming CRAG, leading to a faint. This confirms that the AI is capable of predicting switches and choosing the best move to counter the incoming Pokémon, not just the one on the field. (Observed Turn 149533, Lorelei's Lapras vs. CRAG).
-- **`last_stand_strategist_agent` (Created Turn 150111):** Created in response to a forced, no-win switch scenario against Agatha's Gengar. This agent is designed for desperate situations where standard strategic rules must be broken. It successfully identified the least detrimental option by recommending a switch to a higher-HP sleeping Pokémon (SPARKY) over a critically low-HP one (TITANESS), correctly prioritizing the chance to prolong the battle.
 - **Agent Data Staleness (Critical Failure):** The battle_strategist_agent received party information that was one turn out of date (Turn 149807), causing it to recommend switching to a fainted Pokémon. This is a confirmed system limitation, not a hypothesis. Recommendations must be manually verified against the current on-screen party status before execution. (Moved from Hypotheses, Turn 150213)
 - **`team_composition_advisor` Underutilization:** Per Overwatch feedback (Turn 150211), I must use this agent for team-building before the next Elite Four attempt to test its effectiveness.
 - **Battle Strategist Failure (CRAG vs Gengar):** The agent recommended switching CRAG into Gengar, failing to account for the known move Mega Drain (Grass), which is 4x super-effective against Rock/Ground. This is a critical failure in threat assessment. (Observed Turn 150587)
@@ -121,14 +120,7 @@
 ## B. Victory Road 2F Boulder Puzzle
 - **Conclusion:** A boulder was brought down from Victory Road 3F through the hole at (24, 16) on 3F. It landed at (23, 17) on 2F and was pushed to the switch at (10, 17). The barrier at (24, 15) is now open.
 
-# V. Development & Testing Pipeline
-
-## A. Future Development Goals
-- **Encounter Log Formatter Agent:** Create an `encounter_log_formatter_agent` to take the output from `battle_log_parser` and auto-format it into a markdown entry for the notepad, streamlining documentation.
-- **Notepad Auditor Agent:** Create an agent to periodically review the notepad for inconsistencies, such as listing development goals for tools that already exist.
-- **Agent Consolidation:** Consolidate the logic from `last_stand_strategist_agent` into the main `battle_strategist_agent` by adding a context flag (e.g., `is_last_stand`) to avoid redundancy.
-
-## B. Untested Hypotheses (Active)
+# V. Untested Hypotheses (Active)
 - **PC Box Selection Anomaly:** The game may select the box one position *below* the highlighted cursor. This has only been observed once and requires further testing to confirm if it's a consistent bug. (Next Test: Next time 'CHANGE BOX' is used).
 - **Tool Maintenance Error (Corrected):** I incorrectly logged that I deferred a tool fix in turn 151892. My action log confirms I implemented the fix for `generate_path_plan` in turn 151891. This was a data entry error, not a procedural one. Maintaining accurate logs is critical.
 - **Forced Switch Anomaly:** In turn 151914, I intended to switch to TITANESS, but the game sent out REVENANT instead. This may have been a game bug, an input error on my part, or an unknown game mechanic. This requires careful observation of future switch commands to determine if it's a recurring issue.
