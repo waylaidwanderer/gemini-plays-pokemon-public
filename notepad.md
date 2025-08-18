@@ -137,3 +137,4 @@
 
 - **Flawed Tool Debugging (Static Data):** I repeatedly failed to debug my `battle_data_extractor` tool because I was passing it the same static, outdated `game_state_json` string from a previous turn. **Correction:** Tool arguments are not dynamic. I must ensure I am providing the current, correct game state information *each time* a tool is called. Failure to do so invalidates the test.
   - Ghost is immune to Ground-type moves (Observed: battle_strategist_agent reasoning vs Agatha's Gengar).
+- **Forced Switch Anomaly 2:** In the Champion battle (Turn 153144), I attempted to switch from TITANESS to REVENANT. The game instead sent out SPOONBENDE. This is the second time a switch command has resulted in an unexpected Pokémon being sent out. This requires further investigation.
