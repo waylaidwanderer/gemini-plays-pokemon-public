@@ -138,3 +138,7 @@
 - **SPOONBENDE Speed:** My Lv 38 Kadabra (SPOONBENDE) is confirmed to be faster than Agatha's Lv 57 Gengar. The hypothesis that it might be too slow has been falsified, which makes the Psychic-spam strategy viable.
 
 ## C. Battle Plans (Active)
+
+## D. Future Investigation Plans
+- **Forced Switch Anomaly Test:** In a non-critical battle, attempt to switch between two specific Pokémon. Record the input sequence and the actual Pokémon that is sent out. Repeat multiple times to check for consistency and identify a pattern.
+- **Party Menu Wrapping Test:** In the party menu, navigate to the top Pokémon. Press 'Up' and observe if the cursor moves to the bottom Pokémon. Navigate to the bottom Pokémon and press 'Down' to see if it wraps to the top. This will confirm or deny the wrapping hypothesis.
