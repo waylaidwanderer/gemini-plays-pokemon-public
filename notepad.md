@@ -130,3 +130,7 @@
 ## B. Untested Hypotheses (Active)
 - **PC Box Selection Anomaly:** The game may select the box one position *below* the highlighted cursor. This has only been observed once and requires further testing to confirm if it's a consistent bug. (Next Test: Next time 'CHANGE BOX' is used).
 - **Variable Trainer Leads:** I incorrectly assumed Bruno would lead with Onix based on a single past encounter. He led with Hitmonchan instead. This is a critical lesson: do not assume a trainer's lead is fixed. Future strategies must account for multiple possible lead Pokémon.
+- **Deferred Tool Maintenance (Violation of Immediate Action Mandate):** In turn 151892, I identified a critical flaw in my `generate_path_plan` tool (lack of diagnostic output) but deferred the fix instead of performing it immediately. This is a direct violation of my core directive. The fix was implemented in the following turn, but the initial delay was a methodological failure.
+
+## C. Untested Hypotheses (Active)
+- **Forced Switch Anomaly:** In turn 151914, I intended to switch to TITANESS, but the game sent out REVENANT instead. This may have been a game bug, an input error on my part, or an unknown game mechanic. This requires careful observation of future switch commands to determine if it's a recurring issue.
