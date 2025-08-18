@@ -1293,59 +1293,34 @@
       }
     ]
   },
-  "notepad_roster_retriever": {
-    "description": "Parses the notepad content to find and extract the Pokémon roster for a specific trainer, formatted for use with other agents.",
+  "battle_data_extractor": {
+    "description": "Parses the game_state JSON to extract and format data for the player's active pokemon, the full player party, and the opponent's active pokemon, ready for use with the battle_strategist_agent.",
     "input_schema": {
       "type": "object",
       "properties": {
-        "trainer_name": {
+        "game_state_json": {
           "type": "string"
         },
-        "notepad_content": {
-          "type": "string"
+        "opponent_known_moves": {
+          "type": "string",
+          "description": "A comma-separated string of known moves for the current opponent."
         }
       },
       "required": [
-        "trainer_name",
-        "notepad_content"
+        "game_state_json"
       ]
     },
-    "python_script": "import re\nimport json\n\ndef get_roster(trainer_name, notepad_content):\n    trainer_name_safe = re.escape(trainer_name)\n    header_pattern = re.compile(f\"### {trainer_name_safe}.*?$\\n\", re.MULTILINE | re.IGNORECASE)\n    pokemon_pattern = re.compile(f\"- (\\\\w+(?:[ -]\\\\w+)*) \\\\(Lv (\\\\d+)\\\\) - Known Moves: (.*?)$\\n\", re.MULTILINE | re.IGNORECASE)\n    \n    match = header_pattern.search(notepad_content)\n    if not match:\n        print(json.dumps({\"error\": f\"Trainer '{trainer_name}' not found in notepad.\"}))\n        return\n\n    start_index = match.end()\n    next_header_match = re.search(r\"^#+ \", notepad_content[start_index:], re.MULTILINE)\n    end_index = start_index + next_header_match.start() if next_header_match else len(notepad_content)\n    \n    roster_text = notepad_content[start_index:end_index]\n    \n    roster = []\n    for poke_match in pokemon_pattern.finditer(roster_text):\n        name, level, moves_str = poke_match.groups()\n        moves = [move.strip() for move in moves_str.split(',')] if moves_str.lower() != 'unknown' else []\n        roster.append({\n            \"name\": name.strip(),\n            \"level\": int(level),\n            \"known_moves\": moves\n        })\n    \n    print(json.dumps({\"trainer_name\": trainer_name, \"roster\": roster}))\n\nget_roster(input_data['trainer_name'], input_data['notepad_content'])",
+    "python_script": "import json\n\ndef extract_battle_data(game_state_json, opponent_known_moves_str):\n    try:\n        game_state = json.loads(game_state_json)\n\n        type_map = {\n            \"GOLBAT\": (\"Poison\", \"Flying\"),\n            \"GOLEM\": (\"Rock\", \"Ground\"),\n            \"KANGASKHAN\": (\"Normal\", None),\n            \"PIKACHU\": (\"Electric\", None),\n            \"LAPRAS\": (\"Water\", \"Ice\"),\n            \"MAROWAK\": (\"Ground\", None),\n            \"HITMONCHAN\": (\"Fighting\", None),\n            \"SLOWBRO\": (\"Water\", \"Psychic\"),\n            \"CLOYSTER\": (\"Water\", \"Ice\"),\n            \"DEWGONG\": (\"Water\", \"Ice\"),\n            \"JYNX\": (\"Ice\", \"Psychic\"),\n            \"ONIX\": (\"Rock\", \"Ground\"),\n            \"MACHAMP\": (\"Fighting\", None),\n            \"POLIWRATH\": (\"Water\", \"Fighting\")\n        }\n\n        active_pokemon_data = game_state['party'][0]\n        active_types = type_map.get(active_pokemon_data.get('species'), (\"Unknown\", None))\n        player_active_pokemon = {\n            \"name\": active_pokemon_data.get('name'),\n            \"level\": active_pokemon_data.get('level'),\n            \"hp_current\": active_pokemon_data.get('hp_current'),\n            \"hp_max\": active_pokemon_data.get('hp_max'),\n            \"type1\": active_types[0],\n            \"type2\": active_types[1],\n            \"status\": active_pokemon_data.get('status'),\n            \"moves\": active_pokemon_data.get('moves')\n        }\n\n        player_party = []\n        for pkm in game_state.get('party', []):\n            types = type_map.get(pkm.get('species'), (\"Unknown\", None))\n            player_party.append({\n                \"name\": pkm.get('name'),\n                \"level\": pkm.get('level'),\n                \"hp_current\": pkm.get('hp_current'),\n                \"hp_max\": pkm.get('hp_max'),\n                \"status\": pkm.get('status'),\n                \"type1\": types[0],\n                \"type2\": types[1]\n            })\n\n        opponent_data = game_state.get('enemy_pokemon', {})\n        opponent_types = type_map.get(opponent_data.get('name'), (\"Unknown\", None))\n        opponent_active_pokemon = {\n            \"name\": opponent_data.get('name'),\n            \"level\": opponent_data.get('level'),\n            \"type1\": opponent_types[0],\n            \"type2\": opponent_types[1],\n            \"status\": opponent_data.get('status'),\n            \"is_opponent_invulnerable\": False,\n            \"known_moves\": opponent_known_moves_str.split(',') if opponent_known_moves_str and opponent_known_moves_str.strip() else []\n        }\n\n        output = {\n            \"player_active_pokemon\": player_active_pokemon,\n            \"player_party\": player_party,\n            \"opponent_active_pokemon\": opponent_active_pokemon\n        }\n        print(json.dumps(output))\n\n    except Exception as e:\n        import traceback\n        print(json.dumps({\"error\": str(e), \"traceback\": traceback.format_exc()}))\n\ngame_state_json = input_data['game_state_json']\nopponent_known_moves_str = input_data.get('opponent_known_moves', '')\nextract_battle_data(game_state_json, opponent_known_moves_str)",
     "history": [
       {
-        "commit_message": "feat: Create notepad_roster_retriever tool. In response to my 50-turn reflection identifying a repetitive manual task, this tool automates the extraction of an opponent's roster from the notepad. This will significantly streamline the input process for the `battle_flow_predictor` agent, improving my strategic efficiency before Elite Four battles.",
-        "timestamp": "2025-08-18T04:03:35.466Z",
-        "action_counter": 151764
+        "commit_message": "feat: Create battle_data_extractor tool. In response to my 50-turn reflection identifying a slow, manual, and error-prone process, this tool automates the extraction and formatting of all necessary battle data from the game state. It will significantly improve the speed and reliability of calling the `battle_strategist_agent`, making my in-battle decision-making more efficient.",
+        "timestamp": "2025-08-18T14:31:39.397Z",
+        "action_counter": 152542
       },
       {
-        "commit_message": "fix: Update regex to correctly parse trainer headers. The previous regex required a space after the trainer's name, causing it to fail on headers that were immediately followed by a newline. The new regex uses `\\s*$` to correctly match the end of the line, making the tool more robust.",
-        "timestamp": "2025-08-18T07:58:56.656Z",
-        "action_counter": 152137
-      },
-      {
-        "commit_message": "fix: Add IGNORECASE flag to Pokémon name regex. The tool was failing to parse rosters because the regex for Pokémon names was case-sensitive and did not match mixed-case names like 'Slowbro'. This commit adds the `re.IGNORECASE` flag to fix this parsing error.",
-        "timestamp": "2025-08-18T08:06:03.102Z",
-        "action_counter": 152139
-      },
-      {
-        "commit_message": "fix: Add IGNORECASE to pokemon_pattern regex. The tool was failing to parse rosters because the regex for Pokémon names was case-sensitive and did not match mixed-case names like 'Slowbro' from the notepad. This commit adds the `re.IGNORECASE` flag to fix this critical parsing error.",
-        "timestamp": "2025-08-18T08:08:54.018Z",
-        "action_counter": 152141
-      },
-      {
-        "commit_message": "fix: Correct header regex to prevent skipping first Pokémon. The previous regex was too greedy and caused the first entry in a trainer's roster to be missed during parsing. This commit corrects the regex to ensure the entire roster is captured correctly.",
-        "timestamp": "2025-08-18T09:08:05.281Z",
-        "action_counter": 152194
-      },
-      {
-        "commit_message": "fix: Update header regex to handle additional text. The previous regex failed to parse trainer headers that included extra information like '(Attempt 10 - Won)'. This commit makes the regex more flexible by matching any characters after the trainer's name until the end of the line, ensuring robust parsing of my detailed notepad entries.",
-        "timestamp": "2025-08-18T09:40:31.667Z",
-        "action_counter": 152244
-      },
-      {
-        "commit_message": "feat: Create notepad_roster_retriever tool. In response to my 50-turn reflection identifying a repetitive manual task, this tool automates the extraction of an opponent's roster from the notepad. This will significantly streamline the input process for the `battle_flow_predictor` agent, improving my strategic efficiency before Elite Four battles.",
-        "timestamp": "2025-08-18T10:13:00.330Z",
-        "action_counter": 152281
+        "commit_message": "fix: Correct JSON parsing logic. The tool was crashing with a KeyError because it was looking for a non-existent 'battle_info' key. This commit updates the script to correctly parse the 'party' and 'enemy_pokemon' keys from the root of the game_state JSON. It also adds a hardcoded type map as a temporary solution to the missing type data, allowing the tool to function until a more robust Pokedex lookup can be implemented.",
+        "timestamp": "2025-08-18T14:39:23.279Z",
+        "action_counter": 152549
       }
     ]
   }
