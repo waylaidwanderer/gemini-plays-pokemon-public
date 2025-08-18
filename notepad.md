@@ -66,12 +66,12 @@
   - HITMONCHAN (Lv 57) - Known Moves: Ice Punch, Thunder Punch
   - POLIWRATH (Lv 56) - Known Moves: Amnesia, Hydro Pump, Hypnosis, Ice Beam
 
-### Agatha (Attempt 9 - Won)
+### Agatha (Attempt 10 - Lost)
   - GENGAR (Lv 57) - Known Moves: Night Shade, Mega Drain, Hypnosis, Dream Eater
   - GOLBAT (Lv 58) - Known Moves: Toxic, Double Team, Fly
   - MAROWAK (Lv 57) - Known Moves: Rock Slide, Swords Dance, Body Slam
   - ARBOK (Lv 58) - Known Moves: Substitute, Wrap, Sludge
-  - GENGAR (Lv 59) - Known Moves: Mega Drain, Thunder, Psychic
+  - GENGAR (Lv 59) - Known Moves: Mega Drain, Thunder, Psychic, Night Shade
 
 ### Lance (Attempt 4 - Lost)
   - Dragonite (Lv 61) - Moves unknown.
@@ -124,14 +124,11 @@
 # V. Development & Testing Pipeline
 
 ## A. Future Development Goals
-- **Encounter Log Agent:** Create an `encounter_log_agent` to take the output from `battle_log_parser` and auto-format it into a markdown entry for the notepad, streamlining documentation.
+- **Encounter Log Formatter Agent:** Create an `encounter_log_formatter_agent` to take the output from `battle_log_parser` and auto-format it into a markdown entry for the notepad, streamlining documentation.
 - **Notepad Auditor Agent:** Create an agent to periodically review the notepad for inconsistencies, such as listing development goals for tools that already exist.
+- **Agent Consolidation:** Consolidate the logic from `last_stand_strategist_agent` into the main `battle_strategist_agent` by adding a context flag (e.g., `is_last_stand`) to avoid redundancy.
 
 ## B. Untested Hypotheses (Active)
 - **PC Box Selection Anomaly:** The game may select the box one position *below* the highlighted cursor. This has only been observed once and requires further testing to confirm if it's a consistent bug. (Next Test: Next time 'CHANGE BOX' is used).
 - **Tool Maintenance Error (Corrected):** I incorrectly logged that I deferred a tool fix in turn 151892. My action log confirms I implemented the fix for `generate_path_plan` in turn 151891. This was a data entry error, not a procedural one. Maintaining accurate logs is critical.
-
-## C. Untested Hypotheses (Active)
 - **Forced Switch Anomaly:** In turn 151914, I intended to switch to TITANESS, but the game sent out REVENANT instead. This may have been a game bug, an input error on my part, or an unknown game mechanic. This requires careful observation of future switch commands to determine if it's a recurring issue.
-### Agatha (Attempt 10 - Lost)
-  - GENGAR (Lv 59) - Known Moves: Night Shade, Mega Drain, Thunder, Psychic
