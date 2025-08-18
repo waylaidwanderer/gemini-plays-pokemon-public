@@ -125,9 +125,9 @@
 ## B. Victory Road 2F Boulder Puzzle
 - **Conclusion:** A boulder was brought down from Victory Road 3F through the hole at (24, 16) on 3F. It landed at (23, 17) on 2F and was pushed to the switch at (10, 17). The barrier at (24, 15) is now open.
 
-# V. Untested Hypotheses & Confirmed Mechanics
-- **PC Box Selection Anomaly:** The game may select the box one position *below* the highlighted cursor. This has only been observed once and requires further testing to confirm if it's a consistent bug.
-- **Party Menu Wrapping (CONFIRMED):** The party selection menu wraps around. Pressing 'Up' from the top Pokémon (index 0) moves the cursor to the bottom (index 5), and pressing 'Down' from the bottom moves it to the top. This was definitively confirmed in turn 153463. This mechanic also explains the previously logged 'Forced Switch Anomaly', which occurred due to this wrapping behavior.
+# V. Confirmed Mechanics & Untested Hypotheses
+- **Party Menu Wrapping (CONFIRMED):** The party selection menu wraps around. Pressing 'Up' from the top Pokémon (index 0) moves the cursor to the bottom (index 5), and pressing 'Down' from the bottom moves it to the top. This was definitively confirmed in turn 153463.
+- **PC Box Selection Anomaly (UNVERIFIED):** The game may select the box one position *below* the highlighted cursor. This has only been observed once and requires further testing to confirm if it's a consistent bug.
 
 # VI. Strategic Reminders & Active Plans
 
@@ -148,26 +148,17 @@
 
 # VIII. 50-Turn Reflection Log
 
-- **(Turn 153319):** My main action item from this reflection is to investigate the recurring 'Forced Switch Anomaly' and the potential for 'Party Menu Wrapping' once this critical battle is over.
-
 - **(Turn 153372):**
-  - **Immediate Action:** No lapses identified. I've been good about immediate tool/notepad maintenance.
-  - **Notepad Quality:** Content is unique, well-structured. No major refactoring needed.
+  - **Immediate Action:** No lapses identified.
+  - **Notepad Quality:** Content is unique, well-structured.
   - **Tile Mechanics:** Documentation is up-to-date.
   - **Map Markers:** Marked Bruno as defeated in his room.
   - **Goal Adherence:** Goals are well-defined and follow the WHAT-not-HOW principle.
   - **Untested Assumptions:** Identified potential confirmation bias in my team building. My new plan is to run the `team_composition_advisor` with the full Elite Four roster after this attempt and trust its recommendation, to challenge my own assumptions about the best team.
 
-- **(Turn 153424):**
+- **(Turn 153424 & 153475):**
   - **Immediate Action Lapses:** Identified a critical failure in executing agent advice during the forced switch after NEPTUNE fainted (turns 153412-153419), leading to a menu loop. I must be more careful to distinguish between forced and voluntary switches.
   - **Untested Assumptions:** Acknowledged a potential confirmation bias in my team building. My new plan is to run the `team_composition_advisor` with the full Elite Four roster and my entire PC box after this attempt, and to trust its recommendation to challenge my own assumptions.
-
-- **(Turn 153475):**
-  - **Immediate Action Lapses:** Identified a critical failure in executing agent advice during the forced switch after NEPTUNE fainted (turns 153412-153419), leading to a menu loop. I must be more careful to distinguish between forced and voluntary switches.
-  - **Untested Assumptions:** Acknowledged a potential confirmation bias in my team building. My new plan is to run the `team_composition_advisor` with the full Elite Four roster and my entire PC box after this attempt, and to trust its recommendation to challenge my own assumptions.
-
-# IX. 50-Turn Reflection Log (Continued)
 
 - **(Turn 153527):**
   - **Immediate Action Lapses:** Identified a recurring failure to act correctly and immediately within the PC menu system, leading to wasted turns. I must be more deliberate.
-  - **Untested Assumptions:** Acknowledged a potential confirmation bias in my team building. My new plan is to run the `team_composition_advisor` with the full Elite Four roster and my entire PC box after this attempt, and to trust its recommendation to challenge my own assumptions.
