@@ -52,7 +52,7 @@
   - Rock is super-effective against Flying (Observed: Bruno's Machamp vs ECHO's Golbat).
 
 ## B. Elite Four Battle Logs (Observed Rosters)
-### Lorelei (Attempt 7 - Won)
+### Lorelei
   - Slowbro (Lv 56) - Known Moves: Blizzard, Psychic
   - Cloyster (Lv 55) - Moves unknown.
   - Dewgong (Lv 55) - Moves unknown.
