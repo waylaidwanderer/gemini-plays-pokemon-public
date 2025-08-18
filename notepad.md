@@ -125,10 +125,9 @@
 ## B. Victory Road 2F Boulder Puzzle
 - **Conclusion:** A boulder was brought down from Victory Road 3F through the hole at (24, 16) on 3F. It landed at (23, 17) on 2F and was pushed to the switch at (10, 17). The barrier at (24, 15) is now open.
 
-# V. Untested Hypotheses
+# V. Untested Hypotheses & Confirmed Mechanics
 - **PC Box Selection Anomaly:** The game may select the box one position *below* the highlighted cursor. This has only been observed once and requires further testing to confirm if it's a consistent bug.
-- **Forced Switch Anomaly:** In turn 151914, I intended to switch to TITANESS, but the game sent out REVENANT instead. In the Champion battle (Turn 153144), I attempted to switch from TITANESS to REVENANT, and the game sent out SPOONBENDE. This has happened twice.
-- **Party Menu Wrapping (CONFIRMED):** The party selection menu wraps around. Pressing 'Up' from the top Pokémon (index 0) moves the cursor to the bottom (index 5), and pressing 'Down' from the bottom moves it to the top. This was definitively confirmed in turn 153463.
+- **Party Menu Wrapping (CONFIRMED):** The party selection menu wraps around. Pressing 'Up' from the top Pokémon (index 0) moves the cursor to the bottom (index 5), and pressing 'Down' from the bottom moves it to the top. This was definitively confirmed in turn 153463. This mechanic also explains the previously logged 'Forced Switch Anomaly', which occurred due to this wrapping behavior.
 
 # VI. Strategic Reminders & Active Plans
 
