@@ -34,8 +34,10 @@
 - **Objective:** Systematically test and verify all type matchups in this ROM hack, as the standard chart is unreliable.
 - **Method:** During battles, especially against the Elite Four, prioritize using moves with uncertain effectiveness to gather data. Record all super-effective, not-very-effective, and immune interactions observed.
 - **Findings:**
+  - Flying is not very effective against Rock (Observed: ECHO's Fly vs Bruno's Onix).
   - Ground is super-effective against Rock/Ground dual-types (Observed: Bruno's Onix vs CRAG's Golem).
   - Ground is super-effective against Ground-types (Verified via agent prompt).
+  - Ground is super-effective against Poison-types (Observed: REVENANT vs Agatha's Gengar).
   - Fighting is super-effective against Normal-types (Observed: Bruno's Machamp vs TITANESS).
   - Fighting is super-effective against Ice-types (Observed: Bruno's Hitmonchan vs NEPTUNE).
   - Fighting is super-effective against Rock-types (Verified via agent prompt).
@@ -55,15 +57,17 @@
   - Jynx (Lv 56) - Known Moves: Psychic, Lovely Kiss
   - Lapras (Lv 57) - Known Moves: Thunderbolt, Surf, Sing
 
-### Bruno (Attempt 7 - In Progress)
+### Bruno (Attempt 8 - Won)
+  - ONIX (Lv 56) - Known Moves: Earthquake, Explosion
+  - MACHAMP (Lv 58) - Known Moves: Earthquake
   - HITMONCHAN (Lv 57) - Known Moves: Ice Punch, Thunder Punch
   - POLIWRATH (Lv 56) - Known Moves: Amnesia, Hydro Pump, Hypnosis, Ice Beam
 
-### Agatha (Attempt 5 - Lost)
+### Agatha (Attempt 6 - Lost)
   - GENGAR (Lv 57) - Known Moves: Night Shade, Mega Drain, Hypnosis, Dream Eater
   - GOLBAT (Lv 58) - Known Moves: Toxic, Double Team, Fly
   - MAROWAK (Lv 57) - Known Moves: Rock Slide, Swords Dance, Body Slam
-  - ARBOK (Lv 58) - Known Moves: Substitute, Wrap
+  - ARBOK (Lv 58) - Known Moves: Substitute, Wrap, Sludge
   - GENGAR (Lv 59) - Known Moves: Mega Drain, Thunder
 
 ### Lance (Attempt 2 - Lost)
