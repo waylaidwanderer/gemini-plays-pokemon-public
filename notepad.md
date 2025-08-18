@@ -65,12 +65,12 @@
   - HITMONCHAN (Lv 57) - Known Moves: Ice Punch, Thunder Punch
   - POLIWRATH (Lv 56) - Known Moves: Amnesia, Hydro Pump, Hypnosis, Ice Beam
 
-### Agatha (Attempt 8 - Lost)
+### Agatha (Attempt 8 - In Progress)
   - GENGAR (Lv 57) - Known Moves: Night Shade, Mega Drain, Hypnosis, Dream Eater
   - GOLBAT (Lv 58) - Known Moves: Toxic, Double Team, Fly
   - MAROWAK (Lv 57) - Known Moves: Rock Slide, Swords Dance, Body Slam
   - ARBOK (Lv 58) - Known Moves: Substitute, Wrap, Sludge, SLUDGE
-  - GENGAR (Lv 59) - Known Moves: Mega Drain, Thunder
+  - GENGAR (Lv 59) - Known Moves: Mega Drain, Thunder, Psychic
 
 ### Lance (Attempt 2 - Lost)
   - Dragonite (Lv 61) - Known Moves: Blizzard
@@ -99,6 +99,8 @@
 - **Over-reliance on Luck (Confirmation Bias):** The FLASH strategy against Bruno's Machamp was successful multiple times due to luck, reinforcing the belief it was a guaranteed win condition. However, it failed when the opponent used a different move (Rock Slide), which may have had higher base accuracy. **Correction:** Luck-based strategies should be a last resort. I must not become overconfident from a lucky streak and must always consider the opponent's full range of options.
 - **Agent Output Override Failure (Confirmation Bias):** I incorrectly overrode the `battle_strategist_agent`'s advice to switch to TITANESS against Jynx, instead switching to ECHO. This was a critical error based on my own flawed assumption, which created a dangerous situation and was flagged by the Overwatch system. **Correction:** I must treat the agent's output as the default correct action and only override it if I can definitively prove its underlying assumptions are wrong based on new in-game evidence. (Observed Turn 151161, Corrected Turn 151190)
 - **Failure to Trust Agent (Confirmation Bias):** I incorrectly assumed my agent's recommendation to switch to TITANESS against Jynx was suboptimal, leading to a disastrous switch to ECHO instead. This was a critical error rooted in a failure to trust my own tools and was flagged by the Overwatch system. **Correction:** I must adhere to the agent's recommendations unless I have definitive, in-game evidence to prove its reasoning is flawed. (Observed Turn 151161, Corrected Turn 151190)
+- **Notepad Overwrite Error (Data Loss):** I incorrectly used the 'overwrite' action in turn 151346 with outdated content, erasing several new development goals. **Correction:** When using 'overwrite', I must ensure I am providing the full, most current version of the notepad to prevent data loss. This is a critical data management failure.
+- **Speed Assumption:** I must not assume my Pokémon is faster than an opponent's of the same species, even with a level advantage. Agatha's Lv58 Golbat proved to be faster than my Lv65 ECHO. This is a critical lesson in not making unverified assumptions about stats.
 
 ## B. Tool & Agent Development Log
 - **Diagnostic Tool Output:** Pathfinding tools must report the specific obstacle that blocks a path upon failure. This is essential for distinguishing between a solvable puzzle and a genuinely impossible route.
@@ -125,17 +127,11 @@
 # V. Development & Testing Pipeline
 
 ## A. Future Development Goals
-- **Pokémon Data Pipeline:** Investigate methods to pass party/PC data to custom tools to make `pokemon_stat_formatter` functional. This is a high-priority task for improving team-building efficiency.
-- **PC Navigation Tool:** Create a custom tool that can take a Pokémon's name and the current box number as input and generate the sequence of button presses required to navigate the PC boxes and select that specific Pokémon for withdrawal or deposit. This would automate the currently tedious and error-prone manual scrolling process.
-- **PC Search Tool:** Create a custom tool (`pc_pokemon_search`) that can search through all stored Pokémon in the PC and return a list of those that match specific criteria (e.g., have a certain move, are of a certain type). This will greatly speed up team building and strategic planning.
+- **Pokémon Data Pipeline:** Investigate methods to pass party/PC data to custom tools to make `pokemon_stat_formatter` functional.
 - **Team Viability Assessor Agent:** Create an agent that takes the current party and an opponent's known roster to provide a pre-battle analysis, identifying key threats and potential win conditions.
 - **Encounter Log Agent:** Create an `encounter_log_agent` to take the output from `battle_log_parser` and auto-format it into a markdown entry for the notepad, streamlining documentation.
+- **Notepad Auditor Agent:** Create an agent to periodically review the notepad for inconsistencies, such as listing development goals for tools that already exist.
+- **Notepad Roster Retriever Tool:** Create a tool to parse the notepad and extract a specific opponent's roster to streamline input for the `battle_flow_predictor`.
 
 ## B. Untested Hypotheses (Active)
 - **PC Box Selection Anomaly:** The game may select the box one position *below* the highlighted cursor. This has only been observed once and requires further testing to confirm if it's a consistent bug. (Next Test: Next time 'CHANGE BOX' is used).
-
-## C. Self-Correction Log (Post-Reflection)
-- **Speed Assumption:** I must not assume my Pokémon is faster than an opponent's of the same species, even with a level advantage. Agatha's Lv58 Golbat proved to be faster than my Lv65 ECHO. This is a critical lesson in not making unverified assumptions about stats.
-- **Notepad Overwrite Error (Data Loss):** I incorrectly used the 'overwrite' action in turn 151346 with outdated content, erasing several new development goals. **Correction:** When using 'overwrite', I must ensure I am providing the full, most current version of the notepad to prevent data loss. This is a critical data management failure.
-- **Notepad Auditor Agent:** Create an agent to periodically review the notepad for inconsistencies, such as listing development goals for tools that already exist.
-- **Notepad Roster Retriever Tool:** Create a tool to parse the notepad and extract a specific opponent's roster to streamline input for the `battle_flow_predictor`.
