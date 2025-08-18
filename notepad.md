@@ -123,3 +123,11 @@
 - **PC Box Selection Anomaly:** The game may select the box one position *below* the highlighted cursor. This has only been observed once and requires further testing to confirm if it's a consistent bug. (Next Test: Next time 'CHANGE BOX' is used).
 - **Tool Maintenance Error (Corrected):** I incorrectly logged that I deferred a tool fix in turn 151892. My action log confirms I implemented the fix for `generate_path_plan` in turn 151891. This was a data entry error, not a procedural one. Maintaining accurate logs is critical.
 - **Forced Switch Anomaly:** In turn 151914, I intended to switch to TITANESS, but the game sent out REVENANT instead. This may have been a game bug, an input error on my part, or an unknown game mechanic. This requires careful observation of future switch commands to determine if it's a recurring issue.
+
+# VI. Strategic Reminders & Future Plans
+
+## A. Agent & Tool Usage Protocols
+- **Team Building:** For major challenges like the Elite Four, I must use the `team_composition_advisor` agent to get a data-driven recommendation instead of relying solely on manual selection. This will prevent oversights and optimize my team composition. (Self-Correction Turn 152853)
+
+## B. Untested Hypotheses (Active)
+- **SPOONBENDE Speed Assumption:** I am assuming my Lv 37 Kadabra (SPOONBENDE) will be fast enough to out-speed Agatha's Lv 57-59 Gengars. This is a high-risk assumption given the significant level gap. **Test:** In the next battle with Agatha, I must observe the turn order carefully. If SPOONBENDE is out-sped, this hypothesis is falsified, and I will need a new strategy, such as leading with a tankier Pokémon to absorb a hit before switching.
