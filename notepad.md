@@ -40,7 +40,7 @@
   - Ground is super-effective against Poison-types (Observed: REVENANT vs Agatha's Gengar).
   - Fighting is super-effective against Normal-types (Observed: Bruno's Machamp vs TITANESS).
   - Fighting is super-effective against Ice-types (Observed: Bruno's Hitmonchan vs NEPTUNE).
-  - Fighting is super-effective against Rock-types (Verified via agent prompt).
+  - Fighting is super-effective against Rock-types (Observed: Bruno's Machamp vs CRAG).
   - Flying is immune to Ground-type moves (Observed: Pixel's Dodrio vs REVENANT's Marowak).
   - Ground is super-effective against Psychic-types (Observed: CRAG's Golem vs Lorelei's Slowbro).
   - Psychic is super-effective against Poison-types (Observed: Lorelei's Slowbro vs ECHO's Golbat).
