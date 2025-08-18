@@ -75,11 +75,12 @@
   - ARBOK (Lv 58) - Known Moves: Substitute, Wrap, Sludge
   - GENGAR (Lv 59) - Known Moves: Mega Drain, Thunder, Psychic, Night Shade
 
-### Lance (Attempts 4 & 5 - Lost)
-  - Dragonite (Lv 61) - Moves unknown.
+### Lance (Attempt 12 - Won)
+  - Dragonite (Lv 61) - Known Moves: Slam
   - Gyarados (Lv 60) - Known Moves: Fly
   - Charizard (Lv 60) - Known Moves: Hyper Beam, Earthquake, Flamethrower
   - Aerodactyl (Lv 61) - Known Moves: Earthquake
+  - Dragonite (Lv 62) - Known Moves: Blizzard
 
 ### Champion Pixel (Attempt 1 - Lost)
   - Magneton (Lv 62) - Moves unknown.
