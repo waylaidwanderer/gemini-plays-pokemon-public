@@ -144,43 +144,30 @@
   - `find_pokemon_in_pc(pokemon_name)`: Returns the box number and position of a specific Pokémon.
   - `navigate_to_box(box_number)`: Automates the 'CHANGE BOX' sequence.
   - `select_pokemon_in_box(pokemon_index)`: Navigates the cursor to a specific slot within a box.
-
-## B. Anomaly Investigation Plan (To be executed in a non-critical battle)
-- **Forced Switch Anomaly & Party Menu Wrapping:** These two related issues require systematic testing to understand the underlying mechanic.
-  - **Test 1 (Wrapping):** In the party menu, navigate to the top Pokémon (index 0). Press 'Up' and observe if the cursor moves to the bottom Pokémon. Navigate to the bottom Pokémon (index 5) and press 'Down' to see if it wraps to the top. This will confirm or deny the wrapping hypothesis.
-  - **Test 2 (Forced Switch):** If wrapping is confirmed, the 'forced switch' is likely a misinterpretation of the menu wrapping. To confirm, I will attempt to switch from a Pokémon at index 4 to a Pokémon at index 2 by pressing 'Up' twice. If the menu wraps, this should correctly select the Pokémon at index 0, matching the previously observed anomaly. This will validate the wrapping mechanic as the root cause.
+- **Post-Loss Analyst Agent:** An agent to suggest specific team swaps after a defeat, as a more focused version of the `team_composition_advisor`.
 
 # VIII. 50-Turn Reflection Log
 
-- **(Turn 153319):** My main action item from this reflection is to investigate the recurring 'Forced Switch Anomaly' and the potential for 'Party Menu Wrapping' once this critical battle is over. I will formalize a plan for testing these hypotheses later. I also noted the idea of creating a suite of tools for PC navigation to streamline team adjustments.
+- **(Turn 153319):** My main action item from this reflection is to investigate the recurring 'Forced Switch Anomaly' and the potential for 'Party Menu Wrapping' once this critical battle is over.
 
 - **(Turn 153372):**
   - **Immediate Action:** No lapses identified. I've been good about immediate tool/notepad maintenance.
   - **Notepad Quality:** Content is unique, well-structured. No major refactoring needed.
   - **Tile Mechanics:** Documentation is up-to-date.
-  - **Agent Opportunities:** Brainstormed a "Post-Loss Analyst" agent to suggest specific team swaps after a defeat, as a more focused version of the `team_composition_advisor`.
-  - **Agent Refinement/Deletion:** No changes needed for existing agents.
   - **Map Markers:** Marked Bruno as defeated in his room.
-  - **Tool Development:** Reaffirmed the plan to create a "PC Navigation Suite" of tools after the Elite Four challenge.
   - **Goal Adherence:** Goals are well-defined and follow the WHAT-not-HOW principle.
   - **Untested Assumptions:** Identified potential confirmation bias in my team building. My new plan is to run the `team_composition_advisor` with the full Elite Four roster after this attempt and trust its recommendation, to challenge my own assumptions about the best team.
 
 - **(Turn 153424):**
   - **Immediate Action Lapses:** Identified a critical failure in executing agent advice during the forced switch after NEPTUNE fainted (turns 153412-153419), leading to a menu loop. I must be more careful to distinguish between forced and voluntary switches.
-  - **Agent Opportunities:** Brainstormed a 'Post-Loss Analyst' agent to suggest specific team changes after a defeat, offering more targeted advice than the general `team_composition_advisor`.
-  - **Tool Development:** Reaffirmed the plan to create a 'PC Navigation Suite' of tools to streamline team management between Elite Four attempts.
   - **Untested Assumptions:** Acknowledged a potential confirmation bias in my team building. My new plan is to run the `team_composition_advisor` with the full Elite Four roster and my entire PC box after this attempt, and to trust its recommendation to challenge my own assumptions.
 
 - **(Turn 153475):**
   - **Immediate Action Lapses:** Identified a critical failure in executing agent advice during the forced switch after NEPTUNE fainted (turns 153412-153419), leading to a menu loop. I must be more careful to distinguish between forced and voluntary switches.
-  - **Agent Opportunities:** Brainstormed a 'Post-Loss Analyst' agent to suggest specific team changes after a defeat, offering more targeted advice than the general `team_composition_advisor`.
-  - **Tool Development:** Reaffirmed the plan to create a 'PC Navigation Suite' of tools to streamline team management between Elite Four attempts.
   - **Untested Assumptions:** Acknowledged a potential confirmation bias in my team building. My new plan is to run the `team_composition_advisor` with the full Elite Four roster and my entire PC box after this attempt, and to trust its recommendation to challenge my own assumptions.
 
 # IX. 50-Turn Reflection Log (Continued)
 
 - **(Turn 153527):**
   - **Immediate Action Lapses:** Identified a recurring failure to act correctly and immediately within the PC menu system, leading to wasted turns. I must be more deliberate.
-  - **Agent Opportunities:** Brainstormed a 'Post-Loss Analyst' agent to suggest specific team changes after a defeat, offering more targeted advice than the general `team_composition_advisor`.
-  - **Tool Development:** Reaffirmed the plan to create a 'PC Navigation Suite' of tools to streamline team management between Elite Four attempts.
   - **Untested Assumptions:** Acknowledged a potential confirmation bias in my team building. My new plan is to run the `team_composition_advisor` with the full Elite Four roster and my entire PC box after this attempt, and to trust its recommendation to challenge my own assumptions.
