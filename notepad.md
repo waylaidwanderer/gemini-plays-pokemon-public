@@ -83,7 +83,7 @@
   - Aerodactyl (Lv 61) - Known Moves: Earthquake
   - Dragonite (Lv 62) - Known Moves: Blizzard
 
-### Champion Pixel (Attempt 3 - Lost)
+### Champion Pixel (Attempt 4 - Lost)
   - Magneton (Lv 62) - Moves unknown.
   - Dodrio (Lv 61) - Known Moves: Jump Kick, Drill Peck, Hyper Beam
   - Alakazam (Lv 63) - Known Moves: Thunder Wave, Psychic
