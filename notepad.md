@@ -119,3 +119,9 @@
 - **PC Box Selection Anomaly:** The game may select the box one position *below* the highlighted cursor. This has only been observed once and requires further testing to confirm if it's a consistent bug. (Next Test: Next time 'CHANGE BOX' is used).
 - **Tool Maintenance Error (Corrected):** I incorrectly logged that I deferred a tool fix in turn 151892. My action log confirms I implemented the fix for `generate_path_plan` in turn 151891. This was a data entry error, not a procedural one. Maintaining accurate logs is critical.
 - **Forced Switch Anomaly:** In turn 151914, I intended to switch to TITANESS, but the game sent out REVENANT instead. This may have been a game bug, an input error on my part, or an unknown game mechanic. This requires careful observation of future switch commands to determine if it's a recurring issue.
+
+### Lance (Attempt 5 - Lost)
+  - Charizard (Lv 60) - Known Moves: Hyper Beam, Earthquake
+
+### Type Effectiveness Update
+- Ground is super-effective against Electric-types (Observed: Lance's Charizard vs SPARKY).
