@@ -9,6 +9,7 @@
 - **Forced Sleeping Switch:** The game will force you to send out or switch to a sleeping Pokémon if no other conscious Pokémon are available. This is a mechanical exception to the strategic guideline of avoiding switching to sleeping Pokémon.
 - **Forced Sleep-Induced Switch:** The game forces a switch immediately after a Pokémon is put to sleep by an opponent's move, similar to when a Pokémon faints. (Observed Turn 150625)
 - **Indigo Plateau Auto-Heal:** Blacking out during the Elite Four challenge and respawning at the Indigo Plateau entrance automatically heals the entire party. (Observed Turn 149617)
+- **'No will to fight!' Message:** This message appears when attempting to switch to a Pokémon that has already fainted. It is a cursor position error in the party menu, not an indication of a Pokémon's level or willingness to battle. (Corrected Turn 152732)
 
 ## B. Tile Mechanics & Traversal (Verified)
 - `ground` / `grass`: Standard traversable tiles.
@@ -50,6 +51,7 @@
   - Ice is not very effective against Psychic-types (Observed: NEPTUNE's Ice Beam vs Lorelei's Slowbro).
   - Water is not very effective against Water/Psychic dual-types (Observed: NEPTUNE's Surf vs Lorelei's Slowbro).
   - Rock is super-effective against Flying (Observed: Bruno's Machamp vs ECHO's Golbat).
+  - Grass is super-effective against Water/Ice dual-types (Observed: Agatha's Gengar's Mega Drain vs NEPTUNE's Lapras).
 
 ## B. Elite Four Battle Logs (Observed Rosters)
 ### Lorelei
@@ -73,9 +75,11 @@
   - ARBOK (Lv 58) - Known Moves: Substitute, Wrap, Sludge
   - GENGAR (Lv 59) - Known Moves: Mega Drain, Thunder, Psychic, Night Shade
 
-### Lance (Attempt 4 - Lost)
+### Lance (Attempts 4 & 5 - Lost)
   - Dragonite (Lv 61) - Moves unknown.
   - Gyarados (Lv 60) - Known Moves: Fly
+  - Charizard (Lv 60) - Known Moves: Hyper Beam, Earthquake, Flamethrower
+  - Aerodactyl (Lv 61) - Known Moves: Earthquake
 
 ### Champion Pixel (Attempt 1 - Lost)
   - Magneton (Lv 62) - Moves unknown.
@@ -119,12 +123,3 @@
 - **PC Box Selection Anomaly:** The game may select the box one position *below* the highlighted cursor. This has only been observed once and requires further testing to confirm if it's a consistent bug. (Next Test: Next time 'CHANGE BOX' is used).
 - **Tool Maintenance Error (Corrected):** I incorrectly logged that I deferred a tool fix in turn 151892. My action log confirms I implemented the fix for `generate_path_plan` in turn 151891. This was a data entry error, not a procedural one. Maintaining accurate logs is critical.
 - **Forced Switch Anomaly:** In turn 151914, I intended to switch to TITANESS, but the game sent out REVENANT instead. This may have been a game bug, an input error on my part, or an unknown game mechanic. This requires careful observation of future switch commands to determine if it's a recurring issue.
-
-### Lance (Attempt 5 - Lost)
-  - Charizard (Lv 60) - Known Moves: Hyper Beam, Earthquake, Flamethrower
-  - Aerodactyl (Lv 61) - Known Moves: Earthquake
-
-### Type Effectiveness Update
-- Ground is super-effective against Electric-types (Observed: Lance's Charizard vs SPARKY).
-- **'No will to fight!' Message:** This message appears when attempting to switch to a Pokémon that has already fainted. It is a cursor position error in the party menu, not an indication of a Pokémon's level or willingness to battle. (Corrected Turn 152732)
-  - Grass is super-effective against Water/Ice dual-types (Observed: Agatha's Gengar's Mega Drain vs NEPTUNE's Lapras).
