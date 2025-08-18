@@ -128,7 +128,7 @@
 # V. Untested Hypotheses
 - **PC Box Selection Anomaly:** The game may select the box one position *below* the highlighted cursor. This has only been observed once and requires further testing to confirm if it's a consistent bug.
 - **Forced Switch Anomaly:** In turn 151914, I intended to switch to TITANESS, but the game sent out REVENANT instead. In the Champion battle (Turn 153144), I attempted to switch from TITANESS to REVENANT, and the game sent out SPOONBENDE. This has happened twice.
-- **Party Menu Wrapping:** The party selection menu may wrap around (e.g., pressing Up from the top item moves the cursor to the bottom). This was observed in turn 153175 when an attempt to move from REVENANT (index 4) to NEPTUNE (index 2) by pressing 'Up' twice resulted in selecting the fainted CRAG (index 0).
+- **Party Menu Wrapping (CONFIRMED):** The party selection menu wraps around. Pressing 'Up' from the top Pokémon (index 0) moves the cursor to the bottom (index 5), and pressing 'Down' from the bottom moves it to the top. This was definitively confirmed in turn 153463.
 
 # VI. Strategic Reminders & Active Plans
 
