@@ -131,3 +131,6 @@
 
 ## B. Untested Hypotheses (Active)
 - **SPOONBENDE Speed Assumption:** I am assuming my Lv 37 Kadabra (SPOONBENDE) will be fast enough to out-speed Agatha's Lv 57-59 Gengars. This is a high-risk assumption given the significant level gap. **Test:** In the next battle with Agatha, I must observe the turn order carefully. If SPOONBENDE is out-sped, this hypothesis is falsified, and I will need a new strategy, such as leading with a tankier Pokémon to absorb a hit before switching.
+
+## C. Battle Plans (Active)
+- **SPOONBENDE Speed Test vs. Agatha:** During the next attempt against Agatha, I must lead with a disposable Pokémon (e.g., a low-level Pokémon from the PC) and then switch to SPOONBENDE against her lead Gengar. This will allow me to observe the turn order without risking a key team member. If SPOONBENDE is slower, the hypothesis is falsified, and a new strategy will be required. If it is faster, the Psychic-spam strategy may be viable.
