@@ -126,3 +126,4 @@
 
 ### Type Effectiveness Update
 - Ground is super-effective against Electric-types (Observed: Lance's Charizard vs SPARKY).
+- **'No will to fight!' Message:** This message appears when attempting to switch to a Pokémon that has already fainted. It is a cursor position error in the party menu, not an indication of a Pokémon's level or willingness to battle. (Corrected Turn 152732)
