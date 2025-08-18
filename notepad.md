@@ -65,19 +65,16 @@
   - HITMONCHAN (Lv 57) - Known Moves: Ice Punch, Thunder Punch
   - POLIWRATH (Lv 56) - Known Moves: Amnesia, Hydro Pump, Hypnosis, Ice Beam
 
-### Agatha (Attempt 8 - In Progress)
+### Agatha (Attempt 9 - Won)
   - GENGAR (Lv 57) - Known Moves: Night Shade, Mega Drain, Hypnosis, Dream Eater
   - GOLBAT (Lv 58) - Known Moves: Toxic, Double Team, Fly
   - MAROWAK (Lv 57) - Known Moves: Rock Slide, Swords Dance, Body Slam
-  - ARBOK (Lv 58) - Known Moves: Substitute, Wrap, Sludge, SLUDGE
+  - ARBOK (Lv 58) - Known Moves: Substitute, Wrap, Sludge
   - GENGAR (Lv 59) - Known Moves: Mega Drain, Thunder, Psychic
 
-### Lance (Attempt 2 - Lost)
-  - Dragonite (Lv 61) - Known Moves: Blizzard
-  - Gyarados (Lv 60) - Known Moves: Hyper Beam, Fly
-  - Charizard (Lv 60) - Moves unknown.
-  - Aerodactyl (Lv 61) - Moves unknown.
-  - Dragonite (Lv 62) - Known Moves: Blizzard
+### Lance (Attempt 4 - Lost)
+  - Dragonite (Lv 61) - Moves unknown.
+  - Gyarados (Lv 60) - Known Moves: Fly
 
 ### Champion Pixel (Attempt 1 - Lost)
   - Magneton (Lv 62) - Moves unknown.
@@ -128,13 +125,9 @@
 
 ## A. Future Development Goals
 - **Pokémon Data Pipeline:** Investigate methods to pass party/PC data to custom tools to make `pokemon_stat_formatter` functional.
-- **Team Viability Assessor Agent:** Create an agent that takes the current party and an opponent's known roster to provide a pre-battle analysis, identifying key threats and potential win conditions.
 - **Encounter Log Agent:** Create an `encounter_log_agent` to take the output from `battle_log_parser` and auto-format it into a markdown entry for the notepad, streamlining documentation.
 - **Notepad Auditor Agent:** Create an agent to periodically review the notepad for inconsistencies, such as listing development goals for tools that already exist.
 - **Notepad Roster Retriever Tool:** Create a tool to parse the notepad and extract a specific opponent's roster to streamline input for the `battle_flow_predictor`.
 
 ## B. Untested Hypotheses (Active)
 - **PC Box Selection Anomaly:** The game may select the box one position *below* the highlighted cursor. This has only been observed once and requires further testing to confirm if it's a consistent bug. (Next Test: Next time 'CHANGE BOX' is used).
-### Lance (Attempt 4 - Lost)
-  - Dragonite (Lv 61) - Moves unknown.
-  - Gyarados (Lv 60) - Known Moves: Fly
