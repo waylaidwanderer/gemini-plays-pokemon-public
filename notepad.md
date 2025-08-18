@@ -56,7 +56,7 @@
   - Slowbro (Lv 56) - Known Moves: Blizzard, Psychic, Earthquake
   - Cloyster (Lv 55) - Moves unknown.
   - Dewgong (Lv 55) - Moves unknown.
-  - Jynx (Lv 56) - Known Moves: Psychic, Lovely Kiss
+  - Jynx (Lv 56) - Known Moves: Psychic, Lovely Kiss, Bubblebeam
   - Lapras (Lv 57) - Known Moves: Thunderbolt, Surf, Sing
 
 ### Bruno (Attempt 10 - Won)
