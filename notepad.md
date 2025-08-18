@@ -107,7 +107,7 @@
 - **Failure to Trust Agent (Confirmation Bias):** I incorrectly assumed my agent's recommendation to switch to TITANESS against Jynx was suboptimal, leading to a disastrous switch to ECHO instead. This was a critical error rooted in a failure to trust my own tools and was flagged by the Overwatch system. **Correction:** I must adhere to the agent's recommendations unless I have definitive, in-game evidence to prove its reasoning is flawed. (Observed Turn 151161, Corrected Turn 151190)
 - **Notepad Overwrite Error (Data Loss):** I incorrectly used the 'overwrite' action in turn 151346 with outdated content, erasing several new development goals. **Correction:** When using 'overwrite', I must ensure I am providing the full, most current version of the notepad to prevent data loss. This is a critical data management failure.
 - **Speed Assumption:** I must not assume my Pokémon is faster than an opponent's of the same species, even with a level advantage. Agatha's Lv58 Golbat proved to be faster than my Lv65 ECHO. This is a critical lesson in not making unverified assumptions about stats.
-- **Flawed Tool Debugging (Static Data):** I repeatedly failed to debug my `battle_data_extractor` tool because I was passing it the same static, outdated `game_state_json` string from a previous turn. **Correction:** Tool arguments are not dynamic. I must ensure I am providing the current, correct game state information *each time* a tool is called. Failure to do so invalidates the test.
+- **Flawed Tool Debugging (Static Data):** I repeatedly failed to debug my `battle_data_extractor` tool because I was passing it the same static, outdated `game_state_json` string from a a previous turn. **Correction:** Tool arguments are not dynamic. I must ensure I am providing the current, correct game state information *each time* a tool is called. Failure to do so invalidates the test.
 - **Tool Maintenance Error (Corrected):** I incorrectly logged that I deferred a tool fix in turn 151892. My action log confirms I implemented the fix for `generate_path_plan` in turn 151891. This was a data entry error, not a procedural one. Maintaining accurate logs is critical.
 
 ## B. Tool & Agent Development Log
@@ -125,12 +125,10 @@
 ## B. Victory Road 2F Boulder Puzzle
 - **Conclusion:** A boulder was brought down from Victory Road 3F through the hole at (24, 16) on 3F. It landed at (23, 17) on 2F and was pushed to the switch at (10, 17). The barrier at (24, 15) is now open.
 
-# V. Untested Hypotheses & Future Investigation Plans
-- **PC Box Selection Anomaly:** The game may select the box one position *below* the highlighted cursor. This has only been observed once and requires further testing to confirm if it's a consistent bug. (Next Test: Next time 'CHANGE BOX' is used).
+# V. Untested Hypotheses
+- **PC Box Selection Anomaly:** The game may select the box one position *below* the highlighted cursor. This has only been observed once and requires further testing to confirm if it's a consistent bug.
 - **Forced Switch Anomaly:** In turn 151914, I intended to switch to TITANESS, but the game sent out REVENANT instead. In the Champion battle (Turn 153144), I attempted to switch from TITANESS to REVENANT, and the game sent out SPOONBENDE. This has happened twice.
-  - **Test Plan:** In a non-critical battle, attempt to switch between two specific Pokémon. Record the input sequence and the actual Pokémon that is sent out. Repeat multiple times to check for consistency and identify a pattern.
 - **Party Menu Wrapping:** The party selection menu may wrap around (e.g., pressing Up from the top item moves the cursor to the bottom). This was observed in turn 153175 when an attempt to move from REVENANT (index 4) to NEPTUNE (index 2) by pressing 'Up' twice resulted in selecting the fainted CRAG (index 0).
-  - **Test Plan:** In the party menu, navigate to the top Pokémon. Press 'Up' and observe if the cursor moves to the bottom Pokémon. Navigate to the bottom Pokémon and press 'Down' to see if it wraps to the top. This will confirm or deny the wrapping hypothesis.
 
 # VI. Strategic Reminders & Active Plans
 
@@ -153,3 +151,7 @@
 - **Forced Switch Anomaly & Party Menu Wrapping:** These two related issues require systematic testing to understand the underlying mechanic.
   - **Test 1 (Wrapping):** In the party menu, navigate to the top Pokémon (index 0). Press 'Up' and observe if the cursor moves to the bottom Pokémon. Navigate to the bottom Pokémon (index 5) and press 'Down' to see if it wraps to the top. This will confirm or deny the wrapping hypothesis.
   - **Test 2 (Forced Switch):** If wrapping is confirmed, the 'forced switch' is likely a misinterpretation of the menu wrapping. To confirm, I will attempt to switch from a Pokémon at index 4 to a Pokémon at index 2 by pressing 'Up' twice. If the menu wraps, this should correctly select the Pokémon at index 0, matching the previously observed anomaly. This will validate the wrapping mechanic as the root cause.
+
+# VIII. 50-Turn Reflection Log
+
+- **(Turn 153319):** My main action item from this reflection is to investigate the recurring 'Forced Switch Anomaly' and the potential for 'Party Menu Wrapping' once this critical battle is over. I will formalize a plan for testing these hypotheses later. I also noted the idea of creating a suite of tools for PC navigation to streamline team adjustments.
