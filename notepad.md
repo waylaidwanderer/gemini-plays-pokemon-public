@@ -135,6 +135,6 @@
 
 ## B. Untested Hypotheses (Active)
 - **PC Box Selection Anomaly:** The game may select the box one position *below* the highlighted cursor. This has only been observed once and requires further testing to confirm if it's a consistent bug. (Next Test: Next time 'CHANGE BOX' is used).
-### Lance (Attempt 3 - Lost)
+### Lance (Attempt 4 - Lost)
   - Dragonite (Lv 61) - Moves unknown.
   - Gyarados (Lv 60) - Known Moves: Fly
