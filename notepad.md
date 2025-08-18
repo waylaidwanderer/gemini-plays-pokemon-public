@@ -131,3 +131,4 @@
 
 ## B. Untested Hypotheses (Active)
 - **PC Box Selection Anomaly:** The game may select the box one position *below* the highlighted cursor. This has only been observed once and requires further testing to confirm if it's a consistent bug. (Next Test: Next time 'CHANGE BOX' is used).
+- **Variable Trainer Leads:** I incorrectly assumed Bruno would lead with Onix based on a single past encounter. He led with Hitmonchan instead. This is a critical lesson: do not assume a trainer's lead is fixed. Future strategies must account for multiple possible lead Pokémon.
