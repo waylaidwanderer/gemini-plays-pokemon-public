@@ -121,7 +121,8 @@
 - **Forced Switch Anomaly:** In turn 151914, I intended to switch to TITANESS, but the game sent out REVENANT instead. This may have been a game bug, an input error on my part, or an unknown game mechanic. This requires careful observation of future switch commands to determine if it's a recurring issue.
 
 ### Lance (Attempt 5 - Lost)
-  - Charizard (Lv 60) - Known Moves: Hyper Beam, Earthquake
+  - Charizard (Lv 60) - Known Moves: Hyper Beam, Earthquake, Flamethrower
+  - Aerodactyl (Lv 61) - Known Moves: Earthquake
 
 ### Type Effectiveness Update
 - Ground is super-effective against Electric-types (Observed: Lance's Charizard vs SPARKY).
