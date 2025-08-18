@@ -133,5 +133,5 @@
 - **SPOONBENDE Speed:** My Lv 38 Kadabra (SPOONBENDE) is confirmed to be faster than Agatha's Lv 57 Gengar. The hypothesis that it might be too slow has been falsified, which makes the Psychic-spam strategy viable.
 
 ## C. Battle Plans (Active)
-- **SPOONBENDE Speed Test vs. Agatha:** During the next attempt against Agatha, I must lead with a disposable Pokémon (e.g., a low-level Pokémon from the PC) and then switch to SPOONBENDE against her lead Gengar. This will allow me to observe the turn order without risking a key team member. If SPOONBENDE is slower, the hypothesis is falsified, and a new strategy will be required. If it is faster, the Psychic-spam strategy may be viable.
+
 - **Flawed Tool Debugging (Static Data):** I repeatedly failed to debug my `battle_data_extractor` tool because I was passing it the same static, outdated `game_state_json` string from a previous turn. **Correction:** Tool arguments are not dynamic. I must ensure I am providing the current, correct game state information *each time* a tool is called. Failure to do so invalidates the test.
