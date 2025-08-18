@@ -26,7 +26,7 @@
 - **Boulder Pushing:** The player's character remains in their pushing position after pushing a boulder. The push is initiated by walking into the boulder from an adjacent tile.
 
 ## C. System Mechanics & Rules
-- **Dead End Area Definition:** An area is NOT a 'dead end' if there are reachable unvisited warps, Reachable Undiscovered Map Connections, OR the `Reachable Unseen Tiles` list for the current map contains entries. A room with multiple reachable exits (warps/connections) is also NOT a dead end, even if all tiles have been seen. (Corrected Turn 150657)
+- **Dead End Area Definition:** An area is NOT a 'dead end' if there are reachable unvisited warps, Reachable Undiscovered Map Connections, OR the `Reachable Unseen Tiles` list for the current map contains entries. A room with multiple reachable exits (warps/connections) is also NOT a dead end, even if all tiles have been seen. (Corrected Turn 151866)
 
 # II. Battle Information
 
@@ -105,7 +105,6 @@
 - **AI Prediction Failure (Confirmation Bias):** I have incorrectly assumed the opponent's AI would use a specific move to counter my current Pokémon, failing to predict that the AI would instead use the optimal move to counter my *switch-in*. (Observed Turn 147728, Lorelei's Lapras vs. CRAG). **Correction:** I must assume the AI will make the optimal play against my predicted action, not just react to the current board state.
 - **`select_battle_option` Tool Misuse:** The tool is designed to execute button presses on its own. Providing manual button presses in the same turn is redundant and incorrect. **Correction:** When using this tool, do not provide any other button presses. (Observed Turn 147891, 147894, 147896, 148739)
 - **Battle Agent Over-Aggression:** The `battle_strategist_agent` has shown a tendency to recommend offensive actions even when facing a known super-effective threat, underestimating the risk. **Correction (Turn 148487):** The agent's system prompt has been updated to prioritize a defensive switch when a known super-effective threat is present.
-- **`pokemon_stat_formatter` (Placeholder):** Created to automate Pokémon cataloging. Realized during creation that the tool execution environment only injects `map_xml_string`, not the full game state JSON. The tool requires party data to function, so the current version is a non-functional placeholder. This is a key lesson: tools must be designed around available data inputs. Future work will involve finding a way to pass the necessary party data to a tool or agent.
 - **`battle_flow_predictor` Usage Mandate:** Per Overwatch feedback (Turn 149340), I must use this agent before my next Elite Four attempt to test its effectiveness.
 - **Agent Gamble Failure & AI Prediction:** The battle_strategist_agent correctly identified a high-risk, high-reward play by switching to CRAG, predicting Lapras would use its known move Thunderbolt. However, the opponent AI made the optimal counter-play by using Surf against the incoming CRAG, leading to a faint. This confirms that the AI is capable of predicting switches and choosing the best move to counter the incoming Pokémon, not just the one on the field. (Observed Turn 149533, Lorelei's Lapras vs. CRAG).
 - **`last_stand_strategist_agent` (Created Turn 150111):** Created in response to a forced, no-win switch scenario against Agatha's Gengar. This agent is designed for desperate situations where standard strategic rules must be broken. It successfully identified the least detrimental option by recommending a switch to a higher-HP sleeping Pokémon (SPARKY) over a critically low-HP one (TITANESS), correctly prioritizing the chance to prolong the battle.
@@ -125,7 +124,6 @@
 # V. Development & Testing Pipeline
 
 ## A. Future Development Goals
-- **Pokémon Data Pipeline:** Investigate methods to pass party/PC data to custom tools to make `pokemon_stat_formatter` functional.
 - **Encounter Log Agent:** Create an `encounter_log_agent` to take the output from `battle_log_parser` and auto-format it into a markdown entry for the notepad, streamlining documentation.
 - **Notepad Auditor Agent:** Create an agent to periodically review the notepad for inconsistencies, such as listing development goals for tools that already exist.
 
