@@ -49,6 +49,7 @@
   - Ice is super-effective against Ground-types (Observed: Bruno's Poliwrath vs REVENANT's Marowak).
   - Ice is not very effective against Psychic-types (Observed: NEPTUNE's Ice Beam vs Lorelei's Slowbro).
   - Water is not very effective against Water/Psychic dual-types (Observed: NEPTUNE's Surf vs Lorelei's Slowbro).
+  - Rock is super-effective against Flying (Observed: Bruno's Machamp vs ECHO's Golbat).
 
 ## B. Elite Four Battle Logs (Observed Rosters)
 ### Lorelei (Attempt 7 - Won)
@@ -60,7 +61,7 @@
 
 ### Bruno (Attempt 8 - Won)
   - ONIX (Lv 56) - Known Moves: Earthquake, Explosion
-  - MACHAMP (Lv 58) - Known Moves: Earthquake
+  - MACHAMP (Lv 58) - Known Moves: Earthquake, Karate Chop, Rock Slide
   - HITMONCHAN (Lv 57) - Known Moves: Ice Punch, Thunder Punch
   - POLIWRATH (Lv 56) - Known Moves: Amnesia, Hydro Pump, Hypnosis, Ice Beam
 
@@ -137,4 +138,3 @@
 ## C. Self-Correction Log (Post-Reflection)
 - **Speed Assumption:** I must not assume my Pokémon is faster than an opponent's of the same species, even with a level advantage. Agatha's Lv58 Golbat proved to be faster than my Lv65 ECHO. This is a critical lesson in not making unverified assumptions about stats.
 - **Notepad Overwrite Error (Data Loss):** I incorrectly used the 'overwrite' action in turn 151346 with outdated content, erasing several new development goals. **Correction:** When using 'overwrite', I must ensure I am providing the full, most current version of the notepad to prevent data loss. This is a critical data management failure.
-  - Rock is super-effective against Flying (Observed: Bruno's Machamp vs ECHO's Golbat).
