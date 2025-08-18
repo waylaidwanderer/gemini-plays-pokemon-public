@@ -53,7 +53,7 @@
 
 ## B. Elite Four Battle Logs (Observed Rosters)
 ### Lorelei
-  - Slowbro (Lv 56) - Known Moves: Blizzard, Psychic
+  - Slowbro (Lv 56) - Known Moves: Blizzard, Psychic, Earthquake
   - Cloyster (Lv 55) - Moves unknown.
   - Dewgong (Lv 55) - Moves unknown.
   - Jynx (Lv 56) - Known Moves: Psychic, Lovely Kiss
