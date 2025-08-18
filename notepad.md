@@ -131,6 +131,7 @@
 - **Team Viability Assessor Agent:** Create an agent that takes the current party and an opponent's known roster to provide a pre-battle analysis, identifying key threats and potential win conditions.
 - **Party Menu Navigator Tool:** Create a `select_party_pokemon_tool` to automate navigating the party menu during switches. This would take a Pokémon's name and the party list as input and return the necessary button presses.
 - **Encounter Log Agent:** Create an `encounter_log_agent` to take the output from `battle_log_parser` and auto-format it into a markdown entry for the notepad, streamlining documentation.
+- **Encounter Log Agent:** Create an `encounter_log_agent` to take the output from `battle_log_parser` and auto-format it into a markdown entry for the notepad, streamlining documentation.
 
 ## B. Untested Hypotheses (Active)
 - **PC Box Selection Anomaly:** The game may select the box one position *below* the highlighted cursor. This has only been observed once and requires further testing to confirm if it's a consistent bug. (Next Test: Next time 'CHANGE BOX' is used).
