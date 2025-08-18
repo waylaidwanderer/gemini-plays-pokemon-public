@@ -59,7 +59,7 @@
   - Cloyster (Lv 55) - Moves unknown.
   - Dewgong (Lv 55) - Moves unknown.
   - Jynx (Lv 56) - Known Moves: Psychic, Lovely Kiss, Bubblebeam
-  - Lapras (Lv 57) - Known Moves: Thunderbolt, Surf, Sing
+  - Lapras (Lv 57) - Known Moves: Thunderbolt, Surf, Sing, Blizzard
 
 ### Bruno (Attempt 10 - Won)
   - HITMONCHAN (Lv 57) - Known Moves: Ice Punch, Thunder Punch
