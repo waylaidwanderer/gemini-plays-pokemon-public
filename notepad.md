@@ -129,8 +129,8 @@
 ## A. Agent & Tool Usage Protocols
 - **Team Building:** For major challenges like the Elite Four, I must use the `team_composition_advisor` agent to get a data-driven recommendation instead of relying solely on manual selection. This will prevent oversights and optimize my team composition. (Self-Correction Turn 152853)
 
-## B. Untested Hypotheses (Active)
-- **SPOONBENDE Speed Assumption:** I am assuming my Lv 37 Kadabra (SPOONBENDE) will be fast enough to out-speed Agatha's Lv 57-59 Gengars. This is a high-risk assumption given the significant level gap. **Test:** In the next battle with Agatha, I must observe the turn order carefully. If SPOONBENDE is out-sped, this hypothesis is falsified, and I will need a new strategy, such as leading with a tankier Pokémon to absorb a hit before switching.
+## B. Confirmed Battle Mechanics
+- **SPOONBENDE Speed:** My Lv 38 Kadabra (SPOONBENDE) is confirmed to be faster than Agatha's Lv 57 Gengar. The hypothesis that it might be too slow has been falsified, which makes the Psychic-spam strategy viable.
 
 ## C. Battle Plans (Active)
 - **SPOONBENDE Speed Test vs. Agatha:** During the next attempt against Agatha, I must lead with a disposable Pokémon (e.g., a low-level Pokémon from the PC) and then switch to SPOONBENDE against her lead Gengar. This will allow me to observe the turn order without risking a key team member. If SPOONBENDE is slower, the hypothesis is falsified, and a new strategy will be required. If it is faster, the Psychic-spam strategy may be viable.
