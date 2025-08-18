@@ -139,3 +139,17 @@
 
 ## B. Confirmed Battle Mechanics
 - **SPOONBENDE Speed:** My Lv 38 Kadabra (SPOONBENDE) is confirmed to be faster than Agatha's Lv 57 Gengar. The hypothesis that it might be too slow has been falsified, which makes the Psychic-spam strategy viable.
+
+# VII. Future Development & Investigation
+
+## A. Tool Development Ideas
+- **PC Navigation Suite:** The manual process of depositing and withdrawing specific Pokémon is tedious and error-prone. A potential future project is to develop a suite of small, focused tools to automate this. Possible tools could include:
+  - `find_pokemon_in_pc(pokemon_name)`: Returns the box number and position of a specific Pokémon.
+  - `navigate_to_box(box_number)`: Automates the 'CHANGE BOX' sequence.
+  - `select_pokemon_in_box(pokemon_index)`: Navigates the cursor to a specific slot within a box.
+  This would streamline team adjustments between Elite Four attempts.
+
+## B. Anomaly Investigation Plan (To be executed in a non-critical battle)
+- **Forced Switch Anomaly & Party Menu Wrapping:** These two related issues require systematic testing to understand the underlying mechanic.
+  - **Test 1 (Wrapping):** In the party menu, navigate to the top Pokémon (index 0). Press 'Up' and observe if the cursor moves to the bottom Pokémon. Navigate to the bottom Pokémon (index 5) and press 'Down' to see if it wraps to the top. This will confirm or deny the wrapping hypothesis.
+  - **Test 2 (Forced Switch):** If wrapping is confirmed, the 'forced switch' is likely a misinterpretation of the menu wrapping. To confirm, I will attempt to switch from a Pokémon at index 4 to a Pokémon at index 2 by pressing 'Up' twice. If the menu wraps, this should correctly select the Pokémon at index 0, matching the previously observed anomaly. This will validate the wrapping mechanic as the root cause.
