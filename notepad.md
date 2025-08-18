@@ -59,7 +59,8 @@
   - Jynx (Lv 56) - Known Moves: Psychic, Lovely Kiss
   - Lapras (Lv 57) - Known Moves: Thunderbolt, Surf, Sing
 
-### Bruno (Attempt 8 - Won)
+### Bruno (Attempt 9 - In Progress)
+  - HITMONCHAN (Lv 57) - Known Moves: Ice Punch, Thunder Punch
   - ONIX (Lv 56) - Known Moves: Earthquake, Explosion
   - MACHAMP (Lv 58) - Known Moves: Earthquake, Karate Chop, Rock Slide
   - HITMONCHAN (Lv 57) - Known Moves: Ice Punch, Thunder Punch
