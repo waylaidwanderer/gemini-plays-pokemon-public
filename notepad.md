@@ -133,3 +133,5 @@
 
 ## C. Untested Hypotheses (Active)
 - **Forced Switch Anomaly:** In turn 151914, I intended to switch to TITANESS, but the game sent out REVENANT instead. This may have been a game bug, an input error on my part, or an unknown game mechanic. This requires careful observation of future switch commands to determine if it's a recurring issue.
+### Agatha (Attempt 10 - Lost)
+  - GENGAR (Lv 59) - Known Moves: Night Shade, Mega Drain, Thunder, Psychic
