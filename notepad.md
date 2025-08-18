@@ -28,13 +28,6 @@
 ## C. System Mechanics & Rules
 - **Dead End Area Definition:** An area is NOT a 'dead end' if there are reachable unvisited warps, Reachable Undiscovered Map Connections, OR the `Reachable Unseen Tiles` list for the current map contains entries. A room with multiple reachable exits (warps/connections) is also NOT a dead end, even if all tiles have been seen. (Corrected Turn 150657)
 
-## D. In-Battle Menu Navigation
-- **Move Selection (Verified):** The move list is a single vertical column. Navigation is with Up/Down only; Left/Right do nothing.
-  - **Move 1 (Top):** Press 'A'.
-  - **Move 2:** From Move 1, press 'Down', then 'A'.
-  - **Move 3:** From Move 1, press 'Down' twice, then 'A'.
-  - **Move 4 (Bottom):** From Move 1, press 'Down' three times, then 'A'.
-
 # II. Battle Information
 
 ## A. Type Effectiveness Chart (Verified)
