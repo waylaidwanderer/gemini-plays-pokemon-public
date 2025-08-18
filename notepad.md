@@ -38,6 +38,7 @@
   - Ground is super-effective against Rock/Ground dual-types (Observed: Bruno's Onix vs CRAG's Golem).
   - Ground is super-effective against Ground-types (Verified via agent prompt).
   - Ground is super-effective against Poison-types (Observed: REVENANT vs Agatha's Gengar).
+  - Ground is super-effective against Electric-types (Observed: Bruno's Machamp vs SPARKY).
   - Fighting is super-effective against Normal-types (Observed: Bruno's Machamp vs TITANESS).
   - Fighting is super-effective against Ice-types (Observed: Bruno's Hitmonchan vs NEPTUNE).
   - Fighting is super-effective against Rock-types (Observed: Bruno's Machamp vs CRAG).
