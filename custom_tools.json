@@ -1288,25 +1288,29 @@
       }
     ]
   },
-  "pc_navigator": {
-    "description": "Calculates the sequence of button presses to navigate a 5x4 PC box grid to select a specific Pokémon by its slot index (1-20). Assumes the cursor starts at slot 1.",
+  "notepad_roster_retriever": {
+    "description": "Parses the notepad content to find and extract the Pokémon roster for a specific trainer, formatted for use with other agents.",
     "input_schema": {
       "type": "object",
       "properties": {
-        "target_slot": {
+        "trainer_name": {
+          "type": "string"
+        },
+        "notepad_content": {
           "type": "string"
         }
       },
       "required": [
-        "target_slot"
+        "trainer_name",
+        "notepad_content"
       ]
     },
-    "python_script": "import json\n\ndef pc_navigator(target_slot_str):\n    target_slot = int(target_slot_str)\n    if not 1 <= target_slot <= 20:\n        print(json.dumps({'status': 'error', 'message': 'Target slot must be between 1 and 20.'}))\n        return\n\n    start_row, start_col = 0, 0\n    target_row = (target_slot - 1) // 5\n    target_col = (target_slot - 1) % 5\n\n    moves = []\n    # Vertical movement\n    if target_row > start_row:\n        moves.extend(['Down'] * (target_row - start_row))\n    elif target_row < start_row:\n        moves.extend(['Up'] * (start_row - target_row))\n\n    # Horizontal movement\n    if target_col > start_col:\n        moves.extend(['Right'] * (target_col - start_col))\n    elif target_col < start_col:\n        moves.extend(['Left'] * (start_col - target_col))\n\n    print(json.dumps({'status': 'success', 'moves': moves}))\n\npc_navigator(input_data['target_slot'])",
+    "python_script": "import json\nimport re\n\ndef get_roster(trainer_name, notepad_content):\n    roster = []\n    # Regex to find the start of a specific trainer's section\n    trainer_header_pattern = re.compile(r\"^###\\s+\" + re.escape(trainer_name) + r\"\\s+\", re.IGNORECASE | re.MULTILINE)\n    # Regex to find the start of the next major section, which would end the current trainer's section\n    next_section_pattern = re.compile(r\"^###\\s+\", re.MULTILINE)\n    # Regex to find a Pokemon entry, capturing name and level\n    pokemon_pattern = re.compile(r\"^\\s*-\\s*([A-Z' ]+?)\\s+\\(Lv\\s+(\\d+)\\)\")\n\n    match = trainer_header_pattern.search(notepad_content)\n    if not match:\n        print(json.dumps({'status': 'failure', 'reason': f'Trainer \\\"{trainer_name}\\\" not found in notepad.'}))\n        return\n\n    # Start searching from the beginning of the trainer's section\n    start_index = match.start()\n    content_after_trainer = notepad_content[start_index:]\n    \n    # Find the end of the trainer's section by looking for the next '###' header\n    # We need to skip the first match which is the trainer's own header\n    end_match = next_section_pattern.search(content_after_trainer, match.end() - start_index)\n    if end_match:\n        trainer_section = content_after_trainer[:end_match.start()]\n    else:\n        trainer_section = content_after_trainer\n\n    for line in trainer_section.split('\\n'):\n        poke_match = pokemon_pattern.match(line.strip())\n        if poke_match:\n            name = poke_match.group(1).strip().capitalize()\n            level = int(poke_match.group(2))\n            roster.append({'name': name, 'level': level, 'type1': None, 'type2': None})\n\n    if not roster:\n        print(json.dumps({'status': 'failure', 'reason': f'No roster found for trainer \\\"{trainer_name}\\\".'}))\n    else:\n        print(json.dumps({'status': 'success', 'roster': roster}))\n\nget_roster(input_data['trainer_name'], input_data['notepad_content'])",
     "history": [
       {
-        "commit_message": "feat: Create pc_navigator tool. In response to mandatory self-reflection and Overwatch feedback identifying a critical failure to automate repetitive tasks, this tool automates PC menu navigation. This is a foundational step to improve efficiency during team management, a frequent and time-consuming activity.",
-        "timestamp": "2025-08-18T01:32:12.403Z",
-        "action_counter": 151451
+        "commit_message": "feat: Create notepad_roster_retriever tool. In response to my 50-turn reflection identifying a repetitive manual task, this tool automates the extraction of an opponent's roster from the notepad. This will significantly streamline the input process for the `battle_flow_predictor` agent, improving my strategic efficiency before Elite Four battles.",
+        "timestamp": "2025-08-18T04:03:35.466Z",
+        "action_counter": 151764
       }
     ]
   }
