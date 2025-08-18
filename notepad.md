@@ -52,6 +52,7 @@
   - Water is not very effective against Water/Psychic dual-types (Observed: NEPTUNE's Surf vs Lorelei's Slowbro).
   - Rock is super-effective against Flying (Observed: Bruno's Machamp vs ECHO's Golbat).
   - Grass is super-effective against Water/Ice dual-types (Observed: Agatha's Gengar's Mega Drain vs NEPTUNE's Lapras).
+  - Ghost is immune to Ground-type moves (Observed: battle_strategist_agent reasoning vs Agatha's Gengar).
 
 ## B. Elite Four Battle Logs (Observed Rosters)
 ### Lorelei
@@ -104,6 +105,8 @@
 - **Failure to Trust Agent (Confirmation Bias):** I incorrectly assumed my agent's recommendation to switch to TITANESS against Jynx was suboptimal, leading to a disastrous switch to ECHO instead. This was a critical error rooted in a failure to trust my own tools and was flagged by the Overwatch system. **Correction:** I must adhere to the agent's recommendations unless I have definitive, in-game evidence to prove its reasoning is flawed. (Observed Turn 151161, Corrected Turn 151190)
 - **Notepad Overwrite Error (Data Loss):** I incorrectly used the 'overwrite' action in turn 151346 with outdated content, erasing several new development goals. **Correction:** When using 'overwrite', I must ensure I am providing the full, most current version of the notepad to prevent data loss. This is a critical data management failure.
 - **Speed Assumption:** I must not assume my Pokémon is faster than an opponent's of the same species, even with a level advantage. Agatha's Lv58 Golbat proved to be faster than my Lv65 ECHO. This is a critical lesson in not making unverified assumptions about stats.
+- **Flawed Tool Debugging (Static Data):** I repeatedly failed to debug my `battle_data_extractor` tool because I was passing it the same static, outdated `game_state_json` string from a previous turn. **Correction:** Tool arguments are not dynamic. I must ensure I am providing the current, correct game state information *each time* a tool is called. Failure to do so invalidates the test.
+- **Tool Maintenance Error (Corrected):** I incorrectly logged that I deferred a tool fix in turn 151892. My action log confirms I implemented the fix for `generate_path_plan` in turn 151891. This was a data entry error, not a procedural one. Maintaining accurate logs is critical.
 
 ## B. Tool & Agent Development Log
 - **Diagnostic Tool Output:** Pathfinding tools must report the specific obstacle that blocks a path upon failure. This is essential for distinguishing between a solvable puzzle and a genuinely impossible route.
@@ -122,8 +125,9 @@
 
 # V. Untested Hypotheses (Active)
 - **PC Box Selection Anomaly:** The game may select the box one position *below* the highlighted cursor. This has only been observed once and requires further testing to confirm if it's a consistent bug. (Next Test: Next time 'CHANGE BOX' is used).
-- **Tool Maintenance Error (Corrected):** I incorrectly logged that I deferred a tool fix in turn 151892. My action log confirms I implemented the fix for `generate_path_plan` in turn 151891. This was a data entry error, not a procedural one. Maintaining accurate logs is critical.
 - **Forced Switch Anomaly:** In turn 151914, I intended to switch to TITANESS, but the game sent out REVENANT instead. This may have been a game bug, an input error on my part, or an unknown game mechanic. This requires careful observation of future switch commands to determine if it's a recurring issue.
+- **Forced Switch Anomaly 2:** In the Champion battle (Turn 153144), I attempted to switch from TITANESS to REVENANT. The game instead sent out SPOONBENDE. This is the second time a switch command has resulted in an unexpected Pokémon being sent out. This requires further investigation.
+- **Party Menu Wrapping:** The party selection menu may wrap around (e.g., pressing Up from the top item moves the cursor to the bottom). This was observed in turn 153175 when an attempt to move from REVENANT (index 4) to NEPTUNE (index 2) by pressing 'Up' twice resulted in selecting the fainted CRAG (index 0). This requires further testing.
 
 # VI. Strategic Reminders & Future Plans
 
@@ -134,8 +138,3 @@
 - **SPOONBENDE Speed:** My Lv 38 Kadabra (SPOONBENDE) is confirmed to be faster than Agatha's Lv 57 Gengar. The hypothesis that it might be too slow has been falsified, which makes the Psychic-spam strategy viable.
 
 ## C. Battle Plans (Active)
-
-- **Flawed Tool Debugging (Static Data):** I repeatedly failed to debug my `battle_data_extractor` tool because I was passing it the same static, outdated `game_state_json` string from a previous turn. **Correction:** Tool arguments are not dynamic. I must ensure I am providing the current, correct game state information *each time* a tool is called. Failure to do so invalidates the test.
-  - Ghost is immune to Ground-type moves (Observed: battle_strategist_agent reasoning vs Agatha's Gengar).
-- **Forced Switch Anomaly 2:** In the Champion battle (Turn 153144), I attempted to switch from TITANESS to REVENANT. The game instead sent out SPOONBENDE. This is the second time a switch command has resulted in an unexpected Pokémon being sent out. This requires further investigation.
-- **Party Menu Wrapping:** The party selection menu may wrap around (e.g., pressing Up from the top item moves the cursor to the bottom). This was observed in turn 153175 when an attempt to move from REVENANT (index 4) to NEPTUNE (index 2) by pressing 'Up' twice resulted in selecting the fainted CRAG (index 0). This requires further testing.
