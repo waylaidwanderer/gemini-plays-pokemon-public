@@ -66,12 +66,12 @@
   - Jynx (Lv 56) - Known Moves: Psychic, Lovely Kiss, Bubblebeam
   - Lapras (Lv 57) - Known Moves: Thunderbolt, Surf, Sing, Blizzard
 
-### Bruno (Attempt 11 - Won)
-  - HITMONCHAN (Lv 57) - Known Moves: Ice Punch, Thunder Punch
+### Bruno (Attempt 12 - Won)
+  - HITMONCHAN (Lv 57) - Known Moves: Ice Punch, Thunder Punch, Dizzy Punch
   - POLIWRATH (Lv 56) - Known Moves: Amnesia, Hydro Pump, Hypnosis, Ice Beam
-  - HITMONLEE (Lv 57) - Moves unknown.
+  - HITMONLEE (Lv 57) - Known Moves: Body Slam, Jump Kick
   - ONIX (Lv 56) - Known Moves: Earthquake
-  - MACHAMP (Lv 58) - Moves unknown.
+  - MACHAMP (Lv 58) - Known Moves: Body Slam, Earthquake
 
 ### Agatha (Attempt 11 - Lost)
   - GENGAR (Lv 57) - Known Moves: Night Shade, Mega Drain, Hypnosis, Dream Eater
