@@ -37,7 +37,7 @@
 - **Findings:**
   - Flying is not very effective against Rock (Observed: ECHO's Fly vs Bruno's Onix).
   - Ground is super-effective against Rock/Ground dual-types (Observed: Bruno's Onix vs CRAG's Golem).
-  - Ground is super-effective against Ground-types (Verified via agent prompt).
+  - Ground is super-effective against Ground-types (Observed: Lance's Aerodactyl's Earthquake vs CRAG's Golem).
   - Ground is super-effective against Poison-types (Observed: REVENANT vs Agatha's Gengar).
   - Ground is super-effective against Electric-types (Observed: Bruno's Machamp vs SPARKY).
   - Fighting is super-effective against Normal-types (Observed: Bruno's Machamp vs TITANESS).
@@ -162,4 +162,3 @@
   - Gyarados (Lv 60) - Known Moves: Slam
   - Charizard (Lv 60) - Known Moves: Earthquake
   - Aerodactyl (Lv 61) - Known Moves: Earthquake
-  - Ground is NOT immune to Ground-type moves (Observed: Lance's Aerodactyl's Earthquake vs CRAG's Golem was super-effective).
