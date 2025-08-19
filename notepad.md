@@ -58,7 +58,7 @@
 ### Lorelei (Attempt 14 - In Progress)
   - GENGAR (Lv 59) - Moves unknown.
   - Slowbro (Lv 56) - Known Moves: Blizzard, Psychic, Earthquake
-  - Cloyster (Lv 55) - Moves unknown.
+  - Cloyster (Lv 55) - Known Moves: Explosion
   - Dewgong (Lv 55) - Moves unknown.
   - Jynx (Lv 56) - Known Moves: Psychic, Lovely Kiss, Bubblebeam
   - Lapras (Lv 57) - Known Moves: Thunderbolt, Surf, Sing, Blizzard
