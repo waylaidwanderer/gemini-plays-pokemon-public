@@ -151,3 +151,5 @@
 - **Action Item:** Must use `pre_battle_analyzer` agent before the battle with Lance to validate its usefulness.
 - **Action Item:** Must mark the arrival warp in Agatha's Room (from Bruno's Room) as 'Used' after the current battle concludes.
 - **Action Item:** Adopt a clearer system for map markers to distinguish between attempts, such as deleting markers from failed runs.
+## D. Overwatch Feedback (Turn 155490)
+- Action Item: Delete the outdated 'Lance defeated' marker at (7, 2) on map 113 after the current Elite Four challenge is complete.
