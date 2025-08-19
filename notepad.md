@@ -146,3 +146,8 @@
 
 ## B. Confirmed Battle Mechanics
 - **SPOONBENDE Speed:** My Lv 38 Kadabra (SPOONBENDE) is confirmed to be faster than Agatha's Lv 57 Gengar. The hypothesis that it might be too slow has been falsified, which makes the Psychic-spam strategy viable.
+
+## D. Overwatch Feedback (Turn 155432)
+- **Action Item:** Must use `pre_battle_analyzer` agent before the battle with Lance to validate its usefulness.
+- **Action Item:** Must mark the arrival warp in Agatha's Room (from Bruno's Room) as 'Used' after the current battle concludes.
+- **Action Item:** Adopt a clearer system for map markers to distinguish between attempts, such as deleting markers from failed runs.
