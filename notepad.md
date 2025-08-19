@@ -148,3 +148,9 @@
   - `select_pokemon_in_box(pokemon_index)`: Navigates the cursor to a specific slot within a box.
 - **Post-Loss Analyst Agent:** An agent to suggest specific team swaps after a defeat, as a more focused version of the `team_composition_advisor`.
 - **Stuck Situation Analyst Agent:** An agent that could be called when I'm stuck. It would analyze the current map's connectivity (`map_connectivity_analyzer`), check for unexplored warps/connections, and suggest a prioritized list of hypotheses to test to find the way forward. This would automate the diagnostic process I just performed manually.
+
+## D. New Methodological Failures (Self-Correction Log)
+- **Speed Assumption Failure:** I gambled that SPARKY was faster than SLOWBRO without any evidence. I must avoid making assumptions about stats, especially speed, in critical matchups. This was a methodological failure.
+
+## B. Tool Development Ideas (Continued)
+- **Post-Loss Analyst Agent:** An agent to suggest specific team swaps after a defeat, as a more focused version of the `team_composition_advisor`.
