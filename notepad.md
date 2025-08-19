@@ -53,6 +53,8 @@
   - Rock is super-effective against Flying (Observed: Bruno's Machamp vs ECHO's Golbat).
   - Grass is super-effective against Water/Ice dual-types (Observed: Agatha's Gengar's Mega Drain vs NEPTUNE's Lapras).
   - Ghost is immune to Ground-type moves (Observed: battle_strategist_agent reasoning vs Agatha's Gengar).
+  - Normal is immune to Ghost-type moves (Observed: CRAG's Body Slam vs Agatha's Gengar).
+  - Ground is immune to Ghost-type moves (Observed: Agatha's Gengar's Night Shade vs CRAG's Golem).
 
 ## B. Elite Four Battle Logs (Observed Rosters)
 ### Lorelei (Attempt 15 - Won)
@@ -150,9 +152,3 @@
 - **Stuck Situation Analyst Agent:** An agent that could be called when I'm stuck. It would analyze the current map's connectivity (`map_connectivity_analyzer`), check for unexplored warps/connections, and suggest a prioritized list of hypotheses to test to find the way forward. This would automate the diagnostic process I just performed manually.
 - **Post-Loss Analyst Agent:** An agent to suggest specific team swaps after a defeat, as a more focused version of the `team_composition_advisor`.
 - **Battle Manager Agent:** An agent that orchestrates the entire battle turn process. It would call the `battle_data_extractor` tool to get the current state, then feed that data directly into the `battle_strategist_agent` to get a recommended action, and finally format the output for execution. This would automate the multi-step manual process I'm currently using.
-- **PC Navigation Suite:** The manual process of depositing and withdrawing specific Pokémon is tedious and error-prone. A potential future project is to develop a suite of small, focused tools to automate this. Possible tools could include:
-  - `find_pokemon_in_pc(pokemon_name)`: Returns the box number and position of a specific Pokémon.
-  - `navigate_to_box(box_number)`: Automates the 'CHANGE BOX' sequence.
-  - `select_pokemon_in_box(pokemon_index)`: Navigates the cursor to a specific slot within a box.
-  - Normal is immune to Ghost-type moves (Observed: CRAG's Body Slam vs Agatha's Gengar).
-  - Ground is immune to Ghost-type moves (Observed: Agatha's Gengar's Night Shade vs CRAG's Golem).
