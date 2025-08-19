@@ -152,3 +152,6 @@
 - **Stuck Situation Analyst Agent:** An agent that could be called when I'm stuck. It would analyze the current map's connectivity (`map_connectivity_analyzer`), check for unexplored warps/connections, and suggest a prioritized list of hypotheses to test to find the way forward. This would automate the diagnostic process I just performed manually.
 - **Post-Loss Analyst Agent:** An agent to suggest specific team swaps after a defeat, as a more focused version of the `team_composition_advisor`.
 - **Battle Manager Agent:** An agent that orchestrates the entire battle turn process. It would call the `battle_data_extractor` tool to get the current state, then feed that data directly into the `battle_strategist_agent` to get a recommended action, and finally format the output for execution. This would automate the multi-step manual process I'm currently using.
+
+## B. Agent & Tool Refinement Pipeline
+- **`battle_strategist_agent` Refinement:** The agent's reasoning against Jynx did not explicitly account for SPARKY's speed drop. **Hypothesis:** The agent's prompt lacks sufficient emphasis on analyzing and reacting to in-battle stat changes. **Plan:** Refine the agent's system prompt to include a high-priority rule for considering active stat changes (both positive and negative) on both the player's and opponent's Pokémon when recommending an action.
