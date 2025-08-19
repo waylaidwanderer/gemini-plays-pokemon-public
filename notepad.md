@@ -41,6 +41,7 @@
   - Flying is immune to Ground-type moves (Observed: Pixel's Dodrio vs REVENANT's Marowak).
   - Flying is not very effective against Rock (Observed: ECHO's Fly vs Bruno's Onix).
   - Ghost is immune to Ground-type moves (Observed: battle_strategist_agent reasoning vs Agatha's Gengar).
+  - Grass is super-effective against Ground/Rock dual-types (Observed: Agatha's Gengar's Mega Drain vs CRAG's Golem).
   - Grass is super-effective against Ground-types (Observed: Agatha's Gengar vs REVENANT's Marowak).
   - Grass is super-effective against Water/Ice dual-types (Observed: Agatha's Gengar's Mega Drain vs NEPTUNE's Lapras).
   - Ground is super-effective against Electric-types (Observed: Bruno's Machamp vs SPARKY).
