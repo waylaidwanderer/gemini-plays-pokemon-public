@@ -79,12 +79,12 @@
   - ARBOK (Lv 58) - Known Moves: Substitute, Wrap, Sludge
   - GENGAR (Lv 59) - Known Moves: Mega Drain, Thunder, Psychic, Night Shade
 
-### Lance (Attempt 12 - Won)
-  - Dragonite (Lv 61) - Known Moves: Slam
-  - Gyarados (Lv 60) - Known Moves: Fly, Slam
+### Lance (Attempt 12 - Lost)
+  - Dragonite (Lv 61) - Known Moves: Hyper Beam, Slam
+  - Gyarados (Lv 60) - Known Moves: Slam, Fly
   - Charizard (Lv 60) - Known Moves: Hyper Beam, Earthquake, Flamethrower
-  - Aerodactyl (Lv 61) - Known Moves: Earthquake
-  - Dragonite (Lv 62) - Known Moves: Blizzard
+  - Aerodactyl (Lv 61) - Known Moves: Earthquake, WING ATTACK, ROCK SLIDE
+  - Dragonite (Lv 62) - Known Moves: Blizzard, THUNDER
 
 ### Champion Pixel (Attempt 4 - Lost)
   - Magneton (Lv 62) - Moves unknown.
@@ -156,9 +156,3 @@
 ## B. Agent & Tool Refinement Pipeline
 - **Deferred Maintenance (Critical Failure):** I have repeatedly failed to perform immediate maintenance on my agents and notepad after identifying flaws or redundancies, as flagged by the Overwatch system in turns 153991 and 153995. This violates my core directive. **Correction:** Maintenance tasks are of the highest priority and must be performed in the same turn a flaw is identified.
 - **Suboptimal Override (Confirmation Bias):** In turn 153965, I overrode my agent to use Confuse Ray on an invulnerable Golbat. While the agent's suggestion was also flawed, my counter-play was based on a low-probability status move instead of a more direct approach. The move failed, costing HP and momentum. **Correction:** Overrides must be based on superior, verifiable logic, not just an alternative strategy. A simple, direct plan is often better than a complex, luck-based one.
-
-### Lance (Current Attempt - In Progress)
-  - Dragonite (Lv 61) - Known Moves: Hyper Beam
-  - Gyarados (Lv 60) - Known Moves: Slam
-  - Charizard (Lv 60) - Known Moves: Earthquake
-  - Aerodactyl (Lv 61) - Known Moves: Earthquake
