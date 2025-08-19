@@ -36,6 +36,7 @@
 - **Method:** During battles, especially against the Elite Four, prioritize using moves with uncertain effectiveness to gather data. Record all super-effective, not-very-effective, and immune interactions observed.
 - **Findings:**
   - Electric is super-effective against Water/Psychic dual-types (Observed: Lorelei's Slowbro vs SPARKY).
+  - Electric is super-effective against Water/Ice dual-types (Observed: Lorelei's Cloyster/Dewgong vs SPARKY).
   - Fighting is super-effective against Ice-types (Observed: Bruno's Hitmonchan vs NEPTUNE; Bruno's Hitmonlee vs NEPTUNE).
   - Fighting is super-effective against Normal-types (Observed: Bruno's Machamp vs TITANESS).
   - Fighting is super-effective against Rock-types (Observed: Bruno's Machamp vs CRAG).
@@ -59,12 +60,11 @@
   - Water is not very effective against Water/Psychic dual-types (Observed: NEPTUNE's Surf vs Lorelei's Slowbro).
 
 ## B. Elite Four Battle Logs (Observed Rosters)
-### Lorelei (Attempt 15 - Won)
-  - GENGAR (Lv 59) - Moves unknown.
+### Lorelei (Attempt 16 - In Progress)
   - Slowbro (Lv 56) - Known Moves: Blizzard, Psychic, Earthquake
   - Cloyster (Lv 55) - Known Moves: Explosion
   - Dewgong (Lv 55) - Moves unknown.
-  - Jynx (Lv 56) - Known Moves: Psychic, Lovely Kiss, Bubblebeam
+  - Jynx (Lv 56) - Known Moves: Psychic, Lovely Kiss, Bubblebeam, Blizzard
   - Lapras (Lv 57) - Known Moves: Thunderbolt, Surf, Sing, Blizzard
 
 ### Bruno (Attempt 12 - Won)
@@ -81,7 +81,7 @@
   - ARBOK (Lv 58) - Known Moves: Substitute, Wrap, Sludge
   - GENGAR (Lv 59) - Known Moves: Mega Drain, Thunder, Psychic, Night Shade
 
-### Lance (Attempt 14 - Lost)
+### Lance (Attempt 15 - Lost)
   - Dragonite (Lv 61) - Known Moves: WRAP, SLAM, Hyper Beam
   - Gyarados (Lv 60) - Known Moves: HYPER BEAM, SURF, Slam
   - Charizard (Lv 60) - Known Moves: Hyper Beam, Earthquake, Flamethrower
@@ -171,6 +171,4 @@
 ## A. Tool Development Notes
 - **Flawed Tool Design (pc_pokemon_selector):** The tool was designed based on an unverified assumption about PC box navigation. I must manually observe and document the PC interface mechanics before attempting to fix the tool's logic. (Critique Turn 154620)
 - **Incomplete Agent Fix (battle_strategist_agent):** The agent's type chart remains flawed despite an attempted fix. A more thorough review and update of its system prompt is required to ensure its strategic advice is based on accurate data. (Critique Turn 155071)
-
-## B. Notepad Organization
-- **Redundant Sections:** The notepad contains redundant sections for future development ideas. These should be consolidated to improve clarity and maintain a clean knowledge base. (Critique Turn 155071)
+- The "Elite Four Battle Logs" section for Lance is now outdated. It still documents the loss from Attempt 14. Since the player has started a new run, this log should be updated to reflect the upcoming attempt (Attempt 15) when the player reaches Lance again.
