@@ -73,7 +73,7 @@
   - ONIX (Lv 56) - Known Moves: Earthquake
   - MACHAMP (Lv 58) - Known Moves: Body Slam, Earthquake
 
-### Agatha (Attempt 11 - Lost)
+### Agatha (Attempt 12 - Won)
   - GENGAR (Lv 57) - Known Moves: Night Shade, Mega Drain, Hypnosis, Dream Eater
   - GOLBAT (Lv 58) - Known Moves: Toxic, Double Team, Fly
   - MAROWAK (Lv 57) - Known Moves: Rock Slide, Swords Dance, Body Slam
