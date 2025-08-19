@@ -89,8 +89,8 @@
   - *Note: Other Pokemon in his party are unknown from this run.*
 
 ## C. Champion Battle Logs
-### Pixel (Attempt 1 - In Progress)
-  - MAGNETON (Lv 62) - Moves unknown.
+### Pixel (Attempt 1 - Defeated)
+  - MAGNETON (Lv 62) - Known Moves: THUNDER WAVE, THUNDER
 
 ## D. Elite Four Mechanics (Verified)
 - **Bruno's Rematch (Corrected):** After defeating Bruno once, interacting with him again triggers a mandatory rematch. After the second victory, his dialogue indicates to 'Go on ahead!', and interacting with him again does not trigger a third battle. The path north to Agatha's room is now open.
