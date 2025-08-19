@@ -131,7 +131,7 @@
 - **Conclusion:** A boulder was brought down from Victory Road 3F through the hole at (24, 16) on 3F. It landed at (23, 17) on 2F and was pushed to the switch at (10, 17). The barrier at (24, 15) is now open.
 
 # V. Confirmed Mechanics & Untested Hypotheses
-- **Party Menu Wrapping (CONFIRMED):** The party selection menu wraps around. Pressing 'Up' from the top Pokémon (index 0) moves the cursor to the bottom (index 5), and pressing 'Down' from the bottom moves it to the top. This was definitively confirmed in turn 153463.
+- **Party Menu Wrapping (CORRECTED):** The party selection menu does NOT wrap around. Pressing 'Up' from the top Pokémon does not move the cursor to the bottom. This was confirmed in turn 154047.
 - **PC Box Selection Anomaly (UNVERIFIED):** The game may select the box one position *below* the highlighted cursor. This has only been observed once and requires further testing to confirm if it's a consistent bug.
 
 # VI. Strategic Reminders & Active Plans
@@ -150,10 +150,10 @@
   - `navigate_to_box(box_number)`: Automates the 'CHANGE BOX' sequence.
   - `select_pokemon_in_box(pokemon_index)`: Navigates the cursor to a specific slot within a box.
 - **Stuck Situation Analyst Agent:** An agent that could be called when I'm stuck. It would analyze the current map's connectivity (`map_connectivity_analyzer`), check for unexplored warps/connections, and suggest a prioritized list of hypotheses to test to find the way forward. This would automate the diagnostic process I just performed manually.
-- **Post-Loss Analyst Agent:** An agent that analyzes the team I lost with and the opponent's roster to suggest specific, strategic swaps from my PC Pokémon for the next attempt. This would streamline the team-building process between Elite Four runs.
 - **Battle Manager Agent:** An agent that orchestrates the entire battle turn process. It would call the `battle_data_extractor` tool to get the current state, then feed that data directly into the `battle_strategist_agent` to get a recommended action, and finally format the output for execution. This would automate the multi-step manual process I'm currently using.
+- **Battle Reconnaissance Agent:** An agent to provide a prioritized list of actions to maximize information gathered during a losing battle.
+- **Post-Battle Analyst Agent:** An agent that analyzes a loss and recommends an optimal team composition from the PC for the next attempt.
 
 ## B. Agent & Tool Refinement Pipeline
 - **Deferred Maintenance (Critical Failure):** I have repeatedly failed to perform immediate maintenance on my agents and notepad after identifying flaws or redundancies, as flagged by the Overwatch system in turns 153991 and 153995. This violates my core directive. **Correction:** Maintenance tasks are of the highest priority and must be performed in the same turn a flaw is identified.
-- **Suboptimal Override (Confirmation Bias):** In turn 153965, I overrode my agent to use Confuse Ray on an invulnerable Golbat. While the agent's suggestion was also flawed, my counter-play was based on a low-probability status move instead of a more direct approach. The move failed, costing HP and momentum. **Correction:** Overrides must be based on superior, verifiable logic, not just an alternative strategy. A simple, direct plan is often better than a complex, luck-based one.
-- **Battle Reconnaissance Agent:** An agent to provide a prioritized list of actions to maximize information gathered during a losing battle.
+- **Suboptimal Override (Confirmation Bias):** In turn 153965, I overrode my agent to use Confuse Ray on an invulnerable Golbat. While the agent's suggestion was also flawed, my counter-play was based on a low-probability status move instead of a direct approach. The move failed, costing HP and momentum. **Correction:** Overrides must be based on superior, verifiable logic, not just an alternative strategy. A simple, direct plan is often better than a complex, luck-based one.
