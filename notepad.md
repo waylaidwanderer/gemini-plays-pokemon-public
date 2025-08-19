@@ -156,6 +156,3 @@
 
 ## A. Tool Ideas (Post-Reflection)
 - **`auto_switch` tool:** Combine `select_battle_option` ('PKMN') and `select_party_pokemon` into a single tool that takes a Pokémon's name and executes the entire switch sequence automatically. This would significantly improve battle efficiency.
-
-## B. Hypothesis Testing Plan (Post-Reflection)
-- **Party Menu Wrapping (TOP PRIORITY):** The `select_party_pokemon` tool's logic has been changed multiple times. The next time the party menu is open, I must perform a definitive test: with the cursor on the top Pokémon, I will press 'Up' and observe if the cursor moves to the bottom Pokémon. The result must be immediately recorded and the tool's code permanently fixed if necessary.
