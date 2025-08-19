@@ -148,3 +148,9 @@
 
 ## B. Confirmed Battle Mechanics
 - **SPOONBENDE Speed:** My Lv 38 Kadabra (SPOONBENDE) is confirmed to be faster than Agatha's Lv 57 Gengar. The hypothesis that it might be too slow has been falsified, which makes the Psychic-spam strategy viable.
+### Bruno (Attempt 20 - Defeated)
+  - HITMONCHAN (Lv 57) - Known Moves: Submission, Ice Punch, Thunder Punch, Dizzy Punch
+  - POLIWRATH (Lv 56) - Known Moves: Amnesia, Hydro Pump, Hypnosis, Ice Beam
+  - HITMONLEE (Lv 57) - Known Moves: Body Slam, HI JUMP KICK
+  - ONIX (Lv 56) - Known Moves: Earthquake, Rock Slide, BIND
+  - MACHAMP (Lv 58) - Known Moves: Body Slam, Earthquake, Rock Slide
