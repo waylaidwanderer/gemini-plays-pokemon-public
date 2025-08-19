@@ -164,3 +164,4 @@
 
 ## B. Untested Hypotheses
 - **Forced Switch Mechanic:** When a Pokémon faints, if the player selects an invalid replacement (e.g., another fainted Pokémon), the game may default to sending out the next available conscious Pokémon in the party list order. This needs to be tested to understand the exact game logic.
+- **Speed Assumption Failure:** I gambled that SPARKY was faster than Lorelei's Jynx without any evidence, leading to SPARKY being put to sleep. I must avoid making assumptions about stats, especially speed, in critical matchups. This was a methodological failure that my agent also made.
