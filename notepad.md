@@ -10,6 +10,7 @@
 - **Forced Sleep-Induced Switch:** The game forces a switch immediately after a Pokémon is put to sleep by an opponent's move, similar to when a Pokémon faints. (Observed Turn 150625)
 - **Indigo Plateau Auto-Heal:** Blacking out during the Elite Four challenge and respawning at the Indigo Plateau entrance automatically heals the entire party. (Observed Turn 149617)
 - **'No will to fight!' Message:** This message appears when attempting to switch to a Pokémon that has already fainted. It is a cursor position error in the party menu, not an indication of a Pokémon's level or willingness to battle. (Corrected Turn 152732)
+- **Concatenated Battle Text:** The on-screen text log can sometimes display events from multiple turns together, especially after a move that grants invulnerability (e.g., Fly). This can create the illusion of an opponent attacking multiple times in one turn. (Hypothesized Turn 155136)
 
 ## B. Tile Mechanics & Traversal (Verified)
 - `ground` / `grass`: Standard traversable tiles.
@@ -60,28 +61,28 @@
   - Water is not very effective against Water/Psychic dual-types (Observed: NEPTUNE's Surf vs Lorelei's Slowbro).
 
 ## B. Elite Four Battle Logs (Observed Rosters)
-### Lorelei (Attempt 16 - In Progress)
+### Lorelei (Attempt 17 - In Progress)
   - Slowbro (Lv 56) - Known Moves: Blizzard, Psychic, Earthquake
   - Cloyster (Lv 55) - Known Moves: Explosion
   - Dewgong (Lv 55) - Moves unknown.
   - Jynx (Lv 56) - Known Moves: Psychic, Lovely Kiss, Bubblebeam, Blizzard
   - Lapras (Lv 57) - Known Moves: Thunderbolt, Surf, Sing, Blizzard
 
-### Bruno (Attempt 12 - Won)
+### Bruno (Attempt 17 - In Progress)
   - HITMONCHAN (Lv 57) - Known Moves: Ice Punch, Thunder Punch, Dizzy Punch
   - POLIWRATH (Lv 56) - Known Moves: Amnesia, Hydro Pump, Hypnosis, Ice Beam
   - HITMONLEE (Lv 57) - Known Moves: Body Slam, Jump Kick
   - ONIX (Lv 56) - Known Moves: Earthquake
   - MACHAMP (Lv 58) - Known Moves: Body Slam, Earthquake
 
-### Agatha (Attempt 12 - Won)
+### Agatha (Attempt 17 - Upcoming)
   - GENGAR (Lv 57) - Known Moves: Night Shade, Mega Drain, Hypnosis, Dream Eater
   - GOLBAT (Lv 58) - Known Moves: Toxic, Double Team, Fly
   - MAROWAK (Lv 57) - Known Moves: Rock Slide, Swords Dance, Body Slam
   - ARBOK (Lv 58) - Known Moves: Substitute, Wrap, Sludge
   - GENGAR (Lv 59) - Known Moves: Mega Drain, Thunder, Psychic, Night Shade
 
-### Lance (Attempt 16 - Upcoming)
+### Lance (Attempt 17 - Upcoming)
 
 ### Champion Pixel (Attempt 4 - Lost)
   - Magneton (Lv 62) - Moves unknown.
@@ -91,7 +92,7 @@
   - Cloyster (Lv 62) - Known Moves: Blizzard
 
 ## C. Elite Four Mechanics (Verified)
-- **Bruno's Rematch:** After defeating Bruno once, the exit to Agatha's room is blocked. Interacting with him again triggers a mandatory rematch. After the second victory, a scripted event blocks the southern exit, forcing progression north to Agatha's room. (Observed Turn 150529, Corrected Turn 154711)
+- **Bruno's Rematch:** After defeating Bruno once, interacting with him again triggers a mandatory rematch. After the second victory, interacting with him a third time triggers another mandatory rematch. After the third victory, a scripted event blocks the southern exit, forcing progression north to Agatha's room. (Corrected Turn 155136)
 - **Hypnosis Anomaly (Corrected):** Agatha's Gengar's first Hypnosis on TITANESS failed (Turn 150576), but a second attempt succeeded (Turn 150583). The initial failure was likely a standard move miss, not an immunity. This confirms TITANESS is not immune to sleep.
 - **Night Shade Damage Anomaly:** Agatha's Lv 57 Gengar's Night Shade dealt 38 damage instead of the expected 57. This may be a mechanic change in the ROM hack. (Observed Turn 148518)
 
@@ -151,7 +152,7 @@
 # VII. Future Development & Testing Plans
 
 ## A. Tool & Agent Ideas
-- **`auto_switch` tool:** Combine `select_battle_option` ('PKMN') and `select_party_pokemon` into a single tool that takes a Pokémon's name and executes the entire switch sequence automatically. This would significantly improve battle efficiency.
+- **`auto_switch` tool:** Combine `select_battle_option` ('PKMN') and `select_party_pokemon` into a single tool that takes a Pokémon's name and executes the entire switch sequence automatically. This would significantly improve battle efficiency. **Plan:** Create a tool named `auto_switch` that takes `pokemon_to_select` as input. The script will first call `select_battle_option` with `PKMN`, then determine the current party state and call `select_party_pokemon`, and finally execute the 'A' press to confirm the switch.
 - **`pre_battle_analyzer` agent:** An agent that takes party/opponent data and outputs a high-level summary of threats, weaknesses, and viable switch-ins to streamline the decision-making process before calling the main `battle_strategist_agent`.
 
 # VIII. Active Hypothesis Testing
@@ -165,4 +166,3 @@
 
 ## A. Tool Development Notes
 - **Flawed Tool Design (pc_pokemon_selector):** The tool was designed based on an unverified assumption about PC box navigation. I must manually observe and document the PC interface mechanics before attempting to fix the tool's logic. (Critique Turn 154620)
-- The "Elite Four Battle Logs" section for Lance is now outdated. It still documents the loss from Attempt 14. Since the player has started a new run, this log should be updated to reflect the upcoming attempt (Attempt 15) when the player reaches Lance again.
