@@ -55,7 +55,8 @@
   - Ghost is immune to Ground-type moves (Observed: battle_strategist_agent reasoning vs Agatha's Gengar).
 
 ## B. Elite Four Battle Logs (Observed Rosters)
-### Lorelei
+### Lorelei (Attempt 13 - In Progress)
+  - GENGAR (Lv 59) - Moves unknown.
   - Slowbro (Lv 56) - Known Moves: Blizzard, Psychic, Earthquake
   - Cloyster (Lv 55) - Moves unknown.
   - Dewgong (Lv 55) - Moves unknown.
