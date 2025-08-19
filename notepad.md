@@ -145,3 +145,9 @@
 - **Hypothesis:** The game prioritizes sending out a sleeping Pokémon during a forced switch, even if a conscious Pokémon is selected.
 - **Test Plan:** During the next forced switch where a sleeping Pokémon is available, I will deliberately select a conscious Pokémon that is positioned *after* the sleeping one in the party list. 
 - **Expected Outcome:** If the game sends out the sleeping Pokémon, the hypothesis is supported. If it sends out my selected Pokémon, the hypothesis is denied.
+### Lance (Attempt 19 - Victorious)
+  - CHARIZARD (Lv 60) - Known Moves: Earthquake, Flamethrower
+  - AERODACTYL (Lv 61) - Known Moves: Earthquake
+  - DRAGONITE (Lv 62) - Known Moves: Fire Blast, Slam, Thunder Wave, Wrap, Hyper Beam
+  - GYARADOS (Lv 60) - Known Moves: Slam
+  - *Note: Other Pokemon in his party are unknown from this run.*
