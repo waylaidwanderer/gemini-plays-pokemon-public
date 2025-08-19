@@ -121,10 +121,13 @@
 - **`select_battle_option` Tool Misuse:** The tool is designed to execute button presses on its own. Providing manual button presses in the same turn is redundant and incorrect. **Correction:** When using this tool, do not provide any other button presses. (Observed Turn 147891, 147894, 147896, 148739)
 - **Battle Strategist Over-Aggression:** The `battle_strategist_agent` has shown a tendency to recommend offensive actions even when facing a known super-effective threat, underestimating the risk. **Correction (Turn 148487):** The agent's system prompt has been updated to prioritize a defensive switch when a known super-effective threat is present.
 - **Agent Gamble Failure & AI Prediction:** The battle_strategist_agent correctly identified a high-risk, high-reward play by switching to CRAG, predicting Lapras would use its known move Thunderbolt. However, the opponent AI made the optimal counter-play by using Surf against the incoming CRAG, leading to a faint. This confirms that the AI is capable of predicting switches and choosing the best move to counter the incoming Pokémon, not just the one on the field. (Observed Turn 149533, Lorelei's Lapras vs. CRAG).
+- **`auto_switcher` Tool Created:** Developed in Turn 155341 to fully automate the Pokémon switch sequence, improving battle efficiency.
+- **`pre_battle_analyzer` Agent Created:** Developed in Turn 155344 to provide high-level strategic summaries before major battles.
 
 ## C. System Feedback & Self-Correction (Actioned)
 - **Notepad Data Integrity:** I must ensure my notepad does not contain outdated information (e.g., old battle logs) or function as a to-do list (e.g., 'Overwatch Critique Log'). All system feedback must be immediately actioned and integrated into my permanent knowledge base under 'Lessons Learned'.
 - **Tool Development Priority:** Opportunities to automate repetitive tasks (e.g., creating an `auto_switch` tool) must be acted upon immediately, not deferred. This is a core directive.
+- **Immediate Development Mandate:** All plans for new tools or agents must be acted upon immediately. Deferring development by creating 'to-do lists' in the notepad is a critical failure of core directives. (Self-Correction Turn 155345, per Overwatch Critique)
 
 # V. Confirmed Mechanics & Untested Hypotheses
 
@@ -145,16 +148,3 @@
 
 ## B. Confirmed Battle Mechanics
 - **SPOONBENDE Speed:** My Lv 38 Kadabra (SPOONBENDE) is confirmed to be faster than Agatha's Lv 57 Gengar. The hypothesis that it might be too slow has been falsified, which makes the Psychic-spam strategy viable.
-
-# VII. Future Development & Testing Plans
-
-## A. Tool & Agent Ideas
-- **`auto_switch` tool:** Combine `select_battle_option` ('PKMN') and `select_party_pokemon` into a single tool that takes a Pokémon's name and executes the entire switch sequence automatically. This would significantly improve battle efficiency. **Plan:** Create a tool named `auto_switcher` that takes `pokemon_to_select`, `party_pokemon_list`, and `current_selected_pokemon_index`. The script will generate the full sequence of button presses: selecting 'PKMN' from the main menu, navigating to the correct Pokémon, and pressing 'A' to confirm.
-- **`pre_battle_analyzer` agent:** An agent that takes party/opponent data and outputs a high-level summary of threats, weaknesses, and viable switch-ins to streamline the decision-making process before calling the main `battle_strategist_agent`.
-
-# VIII. Active Hypothesis Testing
-
-## A. Forced Switch Mechanic
-- **Hypothesis:** The game prioritizes sending out a sleeping Pokémon during a forced switch, even if a conscious Pokémon is selected.
-- **Test Plan:** During the next forced switch where a sleeping Pokémon is available, I will deliberately select a conscious Pokémon that is positioned *after* the sleeping one in the party list. 
-- **Expected Outcome:** If the game sends out the sleeping Pokémon, the hypothesis is supported. If it sends out my selected Pokémon, the hypothesis is denied.
