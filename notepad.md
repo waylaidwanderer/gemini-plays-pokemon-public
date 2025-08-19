@@ -154,3 +154,5 @@
   - `find_pokemon_in_pc(pokemon_name)`: Returns the box number and position of a specific Pokémon.
   - `navigate_to_box(box_number)`: Automates the 'CHANGE BOX' sequence.
   - `select_pokemon_in_box(pokemon_index)`: Navigates the cursor to a specific slot within a box.
+  - Normal is immune to Ghost-type moves (Observed: CRAG's Body Slam vs Agatha's Gengar).
+  - Ground is immune to Ghost-type moves (Observed: Agatha's Gengar's Night Shade vs CRAG's Golem).
