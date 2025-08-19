@@ -142,7 +142,7 @@
 
 ## B. Confirmed Battle Mechanics
 - **SPOONBENDE Speed:** My Lv 38 Kadabra (SPOONBENDE) is confirmed to be faster than Agatha's Lv 57 Gengar. The hypothesis that it might be too slow has been falsified, which makes the Psychic-spam strategy viable.
-- **Forced Switch Anomaly (UNVERIFIED):** During the battle with Bruno (Attempt 11), I attempted to switch from REVENANT to NEPTUNE. Despite selecting NEPTUNE, the game sent out TITANESS, the next conscious Pokémon in the party list after the sleeping SPARKY. This may indicate a specific forced-switch logic under certain conditions that overrides player choice. This requires further testing.
+- **Forced Switch Anomaly (UNVERIFIED):** The game sometimes overrides the player's choice of Pokémon during a switch. **Observation 1 (vs. Bruno):** Switched from REVENANT (conscious) to NEPTUNE. Game sent out TITANESS. Party order had a sleeping SPARKY before TITANESS. **Observation 2 (vs. Agatha):** Switched from SPARKY (sleeping) to CRAG. Game sent out ECHO. Party order had sleeping/fainted Pokémon, then REVENANT, then ECHO. The exact trigger conditions are still unknown but seem related to having inactive (sleeping/fainted) Pokémon in the party.
 
 ## C. Reflection Log (Turn 154306)
 - **Core Methodological Failure (Deferring Tool Creation):** I identified the need for a `pc_pokemon_selector` tool but failed to create it immediately, waiting until this mandatory reflection. This is a critical violation of the 'Immediate Action Mandate'. I must create tools the moment a recurring, automatable task is identified.
