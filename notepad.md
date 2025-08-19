@@ -165,3 +165,4 @@
 
 ## A. Tool Development Notes
 - **Flawed Tool Design (pc_pokemon_selector):** The tool was designed based on an unverified assumption about PC box navigation. I must manually observe and document the PC interface mechanics before attempting to fix the tool's logic. (Critique Turn 154620)
+  - Electric is super-effective against Water/Ice dual-types (Observed: Agatha's Gengar's Thunder vs NEPTUNE's Lapras).
