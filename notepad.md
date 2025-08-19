@@ -162,3 +162,4 @@
   - Gyarados (Lv 60) - Known Moves: Slam
   - Charizard (Lv 60) - Known Moves: Earthquake
   - Aerodactyl (Lv 61) - Known Moves: Earthquake
+  - Ground is NOT immune to Ground-type moves (Observed: Lance's Aerodactyl's Earthquake vs CRAG's Golem was super-effective).
