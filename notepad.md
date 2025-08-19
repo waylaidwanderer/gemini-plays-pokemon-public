@@ -152,10 +152,8 @@
 - **Stuck Situation Analyst Agent:** An agent that could be called when I'm stuck. It would analyze the current map's connectivity (`map_connectivity_analyzer`), check for unexplored warps/connections, and suggest a prioritized list of hypotheses to test to find the way forward. This would automate the diagnostic process I just performed manually.
 - **Post-Loss Analyst Agent:** An agent to suggest specific team swaps after a defeat, as a more focused version of the `team_composition_advisor`.
 - **Battle Manager Agent:** An agent that orchestrates the entire battle turn process. It would call the `battle_data_extractor` tool to get the current state, then feed that data directly into the `battle_strategist_agent` to get a recommended action, and finally format the output for execution. This would automate the multi-step manual process I'm currently using.
+- **Post-Loss Analyst Agent:** An agent that analyzes the team I lost with and the opponent's roster to suggest specific, strategic swaps from my PC Pokémon for the next attempt. This would streamline the team-building process between Elite Four runs.
 
 ## B. Agent & Tool Refinement Pipeline
 - **Deferred Maintenance (Critical Failure):** I have repeatedly failed to perform immediate maintenance on my agents and notepad after identifying flaws or redundancies, as flagged by the Overwatch system in turns 153991 and 153995. This violates my core directive. **Correction:** Maintenance tasks are of the highest priority and must be performed in the same turn a flaw is identified.
 - **Suboptimal Override (Confirmation Bias):** In turn 153965, I overrode my agent to use Confuse Ray on an invulnerable Golbat. While the agent's suggestion was also flawed, my counter-play was based on a low-probability status move instead of a more direct approach. The move failed, costing HP and momentum. **Correction:** Overrides must be based on superior, verifiable logic, not just an alternative strategy. A simple, direct plan is often better than a complex, luck-based one.
-
-## A. Tool Development Ideas
-- **Post-Loss Analyst Agent:** An agent that analyzes the team I lost with and the opponent's roster to suggest specific, strategic swaps from my PC Pokémon for the next attempt. This would streamline the team-building process between Elite Four runs.
