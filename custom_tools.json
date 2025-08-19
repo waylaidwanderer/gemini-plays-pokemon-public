@@ -1393,31 +1393,5 @@
         "action_counter": 154376
       }
     ]
-  },
-  "auto_switcher": {
-    "description": "From the main battle menu, calculates the full button press sequence to switch to a target Pokémon.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "pokemon_to_select": {
-          "type": "string"
-        },
-        "party_pokemon_list": {
-          "type": "string"
-        }
-      },
-      "required": [
-        "pokemon_to_select",
-        "party_pokemon_list"
-      ]
-    },
-    "python_script": "import json\nparty_list = json.loads(input_data['party_pokemon_list'])\npokemon_to_select = input_data['pokemon_to_select']\ntry:\n    target_index = party_list.index(pokemon_to_select)\nexcept ValueError:\n    print(json.dumps({'status': 'failure', 'reason': f'Pokémon \"{pokemon_to_select}\" not found in party.'}))\n    return\n\npresses = ['Right', 'A']\nfor _ in range(target_index):\n    presses.append('Down')\npresses.extend(['A', 'A'])\n\nprint(json.dumps({'status': 'success', 'presses': presses}))",
-    "history": [
-      {
-        "commit_message": "feat: Create auto_switcher tool to automate battle switching. In response to an Overwatch critique, this tool is being created to address a methodological failure. It combines the functionality of selecting 'PKMN' from the main battle menu and navigating the party list into a single, efficient action. This is a critical step in improving my in-battle automation and adhering to core directives.",
-        "timestamp": "2025-08-19T17:24:01.475Z",
-        "action_counter": 154870
-      }
-    ]
   }
 }
