@@ -1289,7 +1289,7 @@
         "current_selected_pokemon_index"
       ]
     },
-    "python_script": "import json\n\ndef select_party_pokemon(pokemon_to_select, party_pokemon_list_str, current_selected_pokemon_index_str):\n    party_list = json.loads(party_pokemon_list_str)\n    current_index = int(current_selected_pokemon_index_str)\n\n    try:\n        target_index = party_list.index(pokemon_to_select)\n    except ValueError:\n        print(json.dumps({'status': 'failure', 'reason': f'Pokémon \"{pokemon_to_select}\" not found in party list.'}))\n        return\n\n    if current_index == target_index:\n        print(json.dumps({'status': 'success', 'presses': []}))\n        return\n\n    presses = []\n    if target_index > current_index:\n        presses = ['Down'] * (target_index - current_index)\n    else: # target_index < current_index\n        presses = ['Up'] * (current_index - target_index)\n\n    print(json.dumps({'status': 'success', 'presses': presses}))\n\nselect_party_pokemon(input_data['pokemon_to_select'], input_data['party_pokemon_list'], input_data['current_selected_pokemon_index'])",
+    "python_script": "import json\n\ndef select_party_pokemon(pokemon_to_select, party_pokemon_list_str, current_selected_pokemon_index_str):\n    party_list = json.loads(party_pokemon_list_str)\n    current_index = int(current_selected_pokemon_index_str)\n    \n    try:\n        target_index = party_list.index(pokemon_to_select)\n    except ValueError:\n        print(json.dumps({'status': 'failure', 'reason': f'Pokémon \"{pokemon_to_select}\" not found in party list.'}))\n        return\n\n    presses = []\n    if target_index > current_index:\n        for _ in range(target_index - current_index):\n            presses.append('Down')\n    elif target_index < current_index:\n        for _ in range(current_index - target_index):\n            presses.append('Up')\n\n    print(json.dumps({'status': 'success', 'presses': presses}))\n\nselect_party_pokemon(input_data['pokemon_to_select'], input_data['party_pokemon_list'], input_data['current_selected_pokemon_index'])",
     "history": [
       {
         "commit_message": "feat: Create select_party_pokemon tool. In response to Overwatch feedback and my own self-reflection on inefficient manual menu navigation, this tool automates the process of selecting a Pokémon from the party list during a battle switch. This is a critical step to reduce errors and improve turn-by-turn efficiency.",
@@ -1310,6 +1310,11 @@
         "commit_message": "fix: Implement non-wrapping menu logic. The previous version incorrectly assumed the party menu wraps around, leading to incorrect move calculations and failed switches. This commit replaces the faulty modulo arithmetic with a direct index comparison to correctly handle a linear, non-wrapping menu. This was identified as a critical flaw by the Overwatch system and is being fixed immediately to adhere to core directives.",
         "timestamp": "2025-08-19T04:03:20.979Z",
         "action_counter": 154053
+      },
+      {
+        "commit_message": "fix: Implement non-wrapping menu logic. The previous version incorrectly assumed the party menu wraps around, leading to incorrect move calculations and failed switches. This commit replaces the faulty modulo arithmetic with a direct index comparison to correctly handle a linear, non-wrapping menu. This was identified as a critical flaw by the Overwatch system and is being fixed immediately to adhere to core directives.",
+        "timestamp": "2025-08-19T04:10:54.040Z",
+        "action_counter": 154059
       }
     ]
   },
