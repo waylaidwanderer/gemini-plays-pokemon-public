@@ -150,3 +150,11 @@
 - **Tool Misuse (`select_battle_option`):** The Overwatch system noted my repeated misuse of the `select_battle_option` tool by providing manual button presses alongside the tool call. The tool is designed to handle the selection itself. I must trust my tools to perform their full function.
 - **Future Tool Idea (Auto-Switcher):** A potential future tool could combine `select_battle_option` and `select_party_pokemon` into a single `auto_switch` tool that takes a Pokémon's name and executes the entire switch sequence.
 - **Hypothesis Test Plan (Forced Switch Anomaly):** To test the anomaly observed in turn 154242, I will perform the following experiment when the opportunity arises: When forced to switch, if there are sleeping Pokémon in the party, I will deliberately select a conscious Pokémon that is positioned *after* a sleeping Pokémon in the party list. If the game sends out the sleeping Pokémon instead of my selection, the hypothesis that the game prioritizes sleeping Pokémon in the switch order will be supported.
+
+# VII. Future Development & Testing Plans
+
+## A. Tool Ideas (Post-Reflection)
+- **`auto_switch` tool:** Combine `select_battle_option` ('PKMN') and `select_party_pokemon` into a single tool that takes a Pokémon's name and executes the entire switch sequence automatically. This would significantly improve battle efficiency.
+
+## B. Hypothesis Testing Plan (Post-Reflection)
+- **Party Menu Wrapping (TOP PRIORITY):** The `select_party_pokemon` tool's logic has been changed multiple times. The next time the party menu is open, I must perform a definitive test: with the cursor on the top Pokémon, I will press 'Up' and observe if the cursor moves to the bottom Pokémon. The result must be immediately recorded and the tool's code permanently fixed if necessary.
