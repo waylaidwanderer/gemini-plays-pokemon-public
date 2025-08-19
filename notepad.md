@@ -111,6 +111,7 @@
 - **Speed Assumption:** I must not assume my Pokémon is faster than an opponent's of the same species, even with a level advantage. Agatha's Lv58 Golbat proved to be faster than my Lv65 ECHO. This is a critical lesson in not making unverified assumptions about stats.
 - **Flawed Tool Debugging (Static Data):** I repeatedly failed to debug my `battle_data_extractor` tool because I was passing it the same static, outdated `game_state_json` string from a a previous turn. **Correction:** Tool arguments are not dynamic. I must ensure I am providing the current, correct game state information *each time* a tool is called. Failure to do so invalidates the test.
 - **Tool Maintenance Error (Corrected):** I incorrectly logged that I deferred a tool fix in turn 151892. My action log confirms I implemented the fix for `generate_path_plan` in turn 151891. This was a data entry error, not a procedural one. Maintaining accurate logs is critical.
+- **Speed Assumption Failure:** I gambled that SPARKY was faster than SLOWBRO without any evidence. I must avoid making assumptions about stats, especially speed, in critical matchups. This was a methodological failure.
 
 ## B. Tool & Agent Development Log
 - **Diagnostic Tool Output:** Pathfinding tools must report the specific obstacle that blocks a path upon failure. This is essential for distinguishing between a solvable puzzle and a genuinely impossible route.
@@ -146,11 +147,5 @@
   - `find_pokemon_in_pc(pokemon_name)`: Returns the box number and position of a specific Pokémon.
   - `navigate_to_box(box_number)`: Automates the 'CHANGE BOX' sequence.
   - `select_pokemon_in_box(pokemon_index)`: Navigates the cursor to a specific slot within a box.
-- **Post-Loss Analyst Agent:** An agent to suggest specific team swaps after a defeat, as a more focused version of the `team_composition_advisor`.
 - **Stuck Situation Analyst Agent:** An agent that could be called when I'm stuck. It would analyze the current map's connectivity (`map_connectivity_analyzer`), check for unexplored warps/connections, and suggest a prioritized list of hypotheses to test to find the way forward. This would automate the diagnostic process I just performed manually.
-
-## D. New Methodological Failures (Self-Correction Log)
-- **Speed Assumption Failure:** I gambled that SPARKY was faster than SLOWBRO without any evidence. I must avoid making assumptions about stats, especially speed, in critical matchups. This was a methodological failure.
-
-## B. Tool Development Ideas (Continued)
 - **Post-Loss Analyst Agent:** An agent to suggest specific team swaps after a defeat, as a more focused version of the `team_composition_advisor`.
