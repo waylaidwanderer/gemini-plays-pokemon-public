@@ -122,6 +122,7 @@
 - **`select_battle_option` Tool Misuse:** The tool is designed to execute button presses on its own. Providing manual button presses in the same turn is redundant and incorrect. **Correction:** When using this tool, do not provide any other button presses. (Observed Turn 147891, 147894, 147896, 148739)
 - **Battle Strategist Over-Aggression:** The `battle_strategist_agent` has shown a tendency to recommend offensive actions even when facing a known super-effective threat, underestimating the risk. **Correction (Turn 148487):** The agent's system prompt has been updated to prioritize a defensive switch when a known super-effective threat is present.
 - **Agent Gamble Failure & AI Prediction:** The battle_strategist_agent correctly identified a high-risk, high-reward play by switching to CRAG, predicting Lapras would use its known move Thunderbolt. However, the opponent AI made the optimal counter-play by using Surf against the incoming CRAG, leading to a faint. This confirms that the AI is capable of predicting switches and choosing the best move to counter the incoming Pokémon, not just the one on the field. (Observed Turn 149533, Lorelei's Lapras vs. CRAG).
+- **`pc_pokemon_selector` Logic (Untested):** The tool's box navigation logic is based on an untested assumption about the PC interface. It is likely to fail on first use and will require immediate debugging.
 
 # IV. Puzzle Archive (Completed)
 
@@ -146,8 +147,7 @@
 - **SPOONBENDE Speed:** My Lv 38 Kadabra (SPOONBENDE) is confirmed to be faster than Agatha's Lv 57 Gengar. The hypothesis that it might be too slow has been falsified, which makes the Psychic-spam strategy viable.
 - **Forced Switch Anomaly (UNVERIFIED):** The game sometimes overrides the player's choice of Pokémon during a switch. **Observation 1 (vs. Bruno):** Switched from REVENANT (conscious) to NEPTUNE. Game sent out TITANESS. Party order had a sleeping SPARKY before TITANESS. **Observation 2 (vs. Agatha):** Switched from SPARKY (sleeping) to CRAG. Game sent out ECHO. Party order had sleeping/fainted Pokémon, then REVENANT, then ECHO. The exact trigger conditions are still unknown but seem related to having inactive (sleeping/fainted) Pokémon in the party.
 
-## C. Reflection Log (Turn 154306)
-- **Core Methodological Failure (Deferring Tool Creation):** I identified the need for a `pc_pokemon_selector` tool but failed to create it immediately, waiting until this mandatory reflection. This is a critical violation of the 'Immediate Action Mandate'. I must create tools the moment a recurring, automatable task is identified.
+## C. Reflection Log (Turn 154306) - Archived Completed Tasks
 - **Tool Misuse (`select_battle_option`):** The Overwatch system noted my repeated misuse of the `select_battle_option` tool by providing manual button presses alongside the tool call. The tool is designed to handle the selection itself. I must trust my tools to perform their full function.
 - **Future Tool Idea (Auto-Switcher):** A potential future tool could combine `select_battle_option` and `select_party_pokemon` into a single `auto_switch` tool that takes a Pokémon's name and executes the entire switch sequence.
 - **Hypothesis Test Plan (Forced Switch Anomaly):** To test the anomaly observed in turn 154242, I will perform the following experiment when the opportunity arises: When forced to switch, if there are sleeping Pokémon in the party, I will deliberately select a conscious Pokémon that is positioned *after* a sleeping Pokémon in the party list. If the game sends out the sleeping Pokémon instead of my selection, the hypothesis that the game prioritizes sleeping Pokémon in the switch order will be supported.
@@ -157,10 +157,9 @@
 ## A. Tool Ideas (Post-Reflection)
 - **`auto_switch` tool:** Combine `select_battle_option` ('PKMN') and `select_party_pokemon` into a single tool that takes a Pokémon's name and executes the entire switch sequence automatically. This would significantly improve battle efficiency.
 
-# VIII. Reflection Log (Turn 154512)
+# VIII. Reflection Log (Turn 154512) - Archived Completed Tasks
 
 ## A. Methodological Failures & Corrections
-- **Deferring Tool Creation:** I failed to create the `pc_pokemon_selector` tool immediately upon identifying the need, a direct violation of the 'Immediate Action Mandate'. **Correction:** Creating the tool this turn.
 - **Confirmation Bias (Pikachu Navigation):** I repeatedly attempted to move through Pikachu onto a warp tile at (10, 6) despite multiple failures, assuming my understanding of the mechanic was correct. **Correction:** I must treat repeated failures as evidence that my hypothesis is wrong and form a new one.
 
 ## B. New Hypotheses & Test Plans
