@@ -1284,53 +1284,6 @@
       }
     ]
   },
-  "pc_pokemon_selector": {
-    "description": "Navigates the PC box system to select a specific Pokémon. Takes the target box number, the target Pokémon's row and column, and the current box and cursor position as input. Outputs the sequence of button presses ('A', 'B', 'Up', 'Down', 'Left', 'Right') required.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "target_box": {
-          "type": "string"
-        },
-        "target_row": {
-          "type": "string"
-        },
-        "target_col": {
-          "type": "string"
-        },
-        "current_box": {
-          "type": "string"
-        },
-        "current_row": {
-          "type": "string"
-        },
-        "current_col": {
-          "type": "string"
-        }
-      },
-      "required": [
-        "target_box",
-        "target_row",
-        "target_col",
-        "current_box",
-        "current_row",
-        "current_col"
-      ]
-    },
-    "python_script": "import json\n\ndef pc_pokemon_selector(target_box_str, target_row_str, target_col_str, current_box_str, current_row_str, current_col_str):\n    target_box = int(target_box_str)\n    target_row = int(target_row_str)\n    target_col = int(target_col_str)\n    current_box = int(current_box_str)\n    current_row = int(current_row_str)\n    current_col = int(current_col_str)\n\n    moves = []\n\n    # Box navigation\n    box_diff = target_box - current_box\n    if box_diff != 0:\n        # Assuming box switching is done via a menu after selecting 'CHANGE BOX'\n        # This part might need adjustment based on the actual UI flow.\n        # For now, let's assume a simple right/left navigation for boxes.\n        # A more robust solution would need to know the menu layout.\n        # This is a placeholder logic.\n        # Let's assume 'Right' for next box, 'Left' for previous.\n        if box_diff > 0:\n            for _ in range(box_diff):\n                moves.append('Right') # Placeholder for 'Next Box'\n        else:\n            for _ in range(abs(box_diff)):\n                moves.append('Left') # Placeholder for 'Previous Box'\n\n    # Row navigation (vertical)\n    row_diff = target_row - current_row\n    if row_diff > 0:\n        for _ in range(row_diff):\n            moves.append('Down')\n    elif row_diff < 0:\n        for _ in range(abs(row_diff)):\n            moves.append('Up')\n\n    # Column navigation (horizontal)\n    col_diff = target_col - current_col\n    if col_diff > 0:\n        for _ in range(col_diff):\n            moves.append('Right')\n    elif col_diff < 0:\n        for _ in range(abs(col_diff)):\n            moves.append('Left')\n\n    # Final selection\n    moves.append('A')\n\n    print(json.dumps({'status': 'success', 'moves': moves}))\n\npc_pokemon_selector(input_data['target_box'], input_data['target_row'], input_data['target_col'], input_data['current_box'], input_data['current_row'], input_data['current_col'])",
-    "history": [
-      {
-        "commit_message": "feat: Create pc_pokemon_selector tool. In response to a mandatory 50-turn reflection and direct Overwatch feedback, this tool is being created to address a critical methodological failure: deferring tool creation. This tool will automate PC navigation, a repetitive task I have been performing manually. This is the first step in building a more robust and automated toolkit.",
-        "timestamp": "2025-08-19T06:19:48.923Z",
-        "action_counter": 154256
-      },
-      {
-        "commit_message": "feat: Create pc_pokemon_selector tool. In response to a mandatory 50-turn reflection and direct Overwatch feedback, this tool is being created to address a critical methodological failure: deferring tool creation. This tool will automate PC navigation, a repetitive task I have been performing manually. This is the first step in building a more robust and automated toolkit.",
-        "timestamp": "2025-08-19T10:45:28.170Z",
-        "action_counter": 154512
-      }
-    ]
-  },
   "select_move": {
     "description": "Takes a move name, a list of the active Pokémon's four moves, and optionally the currently selected move, then returns the sequence of button presses ('Up' or 'Down') needed to select that move in a non-wrapping menu.",
     "input_schema": {
@@ -1438,6 +1391,32 @@
         "commit_message": "fix: Implement non-wrapping menu logic. The previous version incorrectly assumed the party menu wraps, leading to incorrect move calculations. This commit replaces the faulty modulo arithmetic with a direct index comparison to correctly handle a linear, non-wrapping menu, as confirmed by in-game testing documented in my notepad. This is a critical fix to ensure reliable party navigation.",
         "timestamp": "2025-08-19T08:03:19.887Z",
         "action_counter": 154376
+      }
+    ]
+  },
+  "auto_switcher": {
+    "description": "From the main battle menu, calculates the full button press sequence to switch to a target Pokémon.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "pokemon_to_select": {
+          "type": "string"
+        },
+        "party_pokemon_list": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "pokemon_to_select",
+        "party_pokemon_list"
+      ]
+    },
+    "python_script": "import json\nparty_list = json.loads(input_data['party_pokemon_list'])\npokemon_to_select = input_data['pokemon_to_select']\ntry:\n    target_index = party_list.index(pokemon_to_select)\nexcept ValueError:\n    print(json.dumps({'status': 'failure', 'reason': f'Pokémon \"{pokemon_to_select}\" not found in party.'}))\n    return\n\npresses = ['Right', 'A']\nfor _ in range(target_index):\n    presses.append('Down')\npresses.extend(['A', 'A'])\n\nprint(json.dumps({'status': 'success', 'presses': presses}))",
+    "history": [
+      {
+        "commit_message": "feat: Create auto_switcher tool to automate battle switching. In response to an Overwatch critique, this tool is being created to address a methodological failure. It combines the functionality of selecting 'PKMN' from the main battle menu and navigating the party list into a single, efficient action. This is a critical step in improving my in-battle automation and adhering to core directives.",
+        "timestamp": "2025-08-19T17:24:01.475Z",
+        "action_counter": 154870
       }
     ]
   }
