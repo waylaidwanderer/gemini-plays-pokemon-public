@@ -45,6 +45,7 @@
   - Grass is super-effective against Ground-types (Observed: Agatha's Gengar vs REVENANT's Marowak).
   - Grass is super-effective against Water/Ice dual-types (Observed: Agatha's Gengar's Mega Drain vs NEPTUNE's Lapras).
   - Ground is super-effective against Electric-types (Observed: Bruno's Machamp vs SPARKY).
+  - Ground is super-effective against Ghost-types (Observed: REVENANT's Earthquake vs Agatha's Gengar).
   - Ground is super-effective against Ground-types (Observed: Lance's Aerodactyl's Earthquake vs CRAG's Golem).
   - Ground is super-effective against Poison-types (Observed: REVENANT vs Agatha's Gengar).
   - Ground is super-effective against Psychic-types (Observed: CRAG's Golem vs Lorelei's Slowbro).
@@ -55,7 +56,6 @@
   - Psychic is super-effective against Poison-types (Observed: Lorelei's Slowbro vs ECHO's Golbat).
   - Rock is super-effective against Flying (Observed: Bruno's Machamp vs ECHO's Golbat).
   - Water is not very effective against Water/Psychic dual-types (Observed: NEPTUNE's Surf vs Lorelei's Slowbro).
-  - Ground is super-effective against Ghost-types (Observed: REVENANT's Earthquake vs Agatha's Gengar).
 
 ## B. Elite Four Battle Logs (Observed Rosters)
 ### Lorelei (Attempt 15 - Won)
@@ -134,7 +134,7 @@
 # V. Confirmed Mechanics & Untested Hypotheses
 - **Party Menu Wrapping (CORRECTED):** The party selection menu does NOT wrap around. Pressing 'Up' from the top Pokémon does not move the cursor to the bottom. This was confirmed in turn 154047.
 - **PC Box Selection Anomaly (UNVERIFIED):** The game may select the box one position *below* the highlighted cursor. This has only been observed once and requires further testing to confirm if it's a consistent bug. The logic for the `pc_pokemon_selector` tool is based on an untested assumption about the PC interface and will require manual observation and debugging.
-- **Forced Switch Mechanic (UNVERIFIED):** When a Pokémon faints, if the player selects an invalid replacement (e.g., another fainted Pokémon), the game may default to sending out the next available conscious Pokémon in the party list order. This needs to be tested to understand the exact game logic.
+- **Forced Switch Mechanic (UNVERIFIED):** The game sometimes overrides the player's choice of Pokémon during a switch. **Observation 1 (vs. Bruno):** Switched from REVENANT (conscious) to NEPTUNE. Game sent out TITANESS. Party order had a sleeping SPARKY before TITANESS. **Observation 2 (vs. Agatha):** Switched from SPARKY (sleeping) to CRAG. Game sent out ECHO. Party order had sleeping/fainted Pokémon, then REVENANT, then ECHO. The exact trigger conditions are still unknown. **Test Plan:** When forced to switch, if there are sleeping Pokémon in the party, I will deliberately select a conscious Pokémon that is positioned *after* a sleeping Pokémon in the party list. If the game sends out the sleeping Pokémon instead of my selection, the hypothesis that the game prioritizes sleeping Pokémon in the switch order will be supported.
 - **Speed Assumption Failure (Jynx) (UNVERIFIED):** SPARKY might not be faster than Lorelei's Jynx. This assumption led to SPARKY being put to sleep and needs to be verified.
 - **Pikachu Warp Block (UNVERIFIED):** The game may have a special rule preventing the player from moving onto a warp tile if Pikachu is occupying it. **Test Plan:** Attempt to use the unoccupied warp at (11, 6). If successful, this supports the hypothesis that Pikachu is the specific obstacle at (10, 6).
 
@@ -145,7 +145,6 @@
 
 ## B. Confirmed Battle Mechanics
 - **SPOONBENDE Speed:** My Lv 38 Kadabra (SPOONBENDE) is confirmed to be faster than Agatha's Lv 57 Gengar. The hypothesis that it might be too slow has been falsified, which makes the Psychic-spam strategy viable.
-- **Forced Switch Anomaly (UNVERIFIED):** The game sometimes overrides the player's choice of Pokémon during a switch. **Observation 1 (vs. Bruno):** Switched from REVENANT (conscious) to NEPTUNE. Game sent out TITANESS. Party order had a sleeping SPARKY before TITANESS. **Observation 2 (vs. Agatha):** Switched from SPARKY (sleeping) to CRAG. Game sent out ECHO. Party order had sleeping/fainted Pokémon, then REVENANT, then ECHO. The exact trigger conditions are still unknown. **Test Plan:** When forced to switch, if there are sleeping Pokémon in the party, I will deliberately select a conscious Pokémon that is positioned *after* a sleeping Pokémon in the party list. If the game sends out the sleeping Pokémon instead of my selection, the hypothesis that the game prioritizes sleeping Pokémon in the switch order will be supported.
 
 # VII. Future Development & Testing Plans
 
