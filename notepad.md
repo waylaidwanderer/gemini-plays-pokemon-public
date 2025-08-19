@@ -35,6 +35,7 @@
 - **Objective:** Systematically test and verify all type matchups in this ROM hack, as the standard chart is unreliable.
 - **Method:** During battles, especially against the Elite Four, prioritize using moves with uncertain effectiveness to gather data. Record all super-effective, not-very-effective, and immune interactions observed.
 - **Findings:**
+  - Electric is super-effective against Water/Psychic dual-types (Observed: Lorelei's Slowbro vs SPARKY).
   - Fighting is super-effective against Ice-types (Observed: Bruno's Hitmonchan vs NEPTUNE; Bruno's Hitmonlee vs NEPTUNE).
   - Fighting is super-effective against Normal-types (Observed: Bruno's Machamp vs TITANESS).
   - Fighting is super-effective against Rock-types (Observed: Bruno's Machamp vs CRAG).
@@ -80,12 +81,12 @@
   - ARBOK (Lv 58) - Known Moves: Substitute, Wrap, Sludge
   - GENGAR (Lv 59) - Known Moves: Mega Drain, Thunder, Psychic, Night Shade
 
-### Lance (Attempt 13 - In Progress)
+### Lance (Attempt 14 - Lost)
   - Dragonite (Lv 61) - Known Moves: WRAP, SLAM, Hyper Beam
-  - Gyarados (Lv 60) - Known Moves: HYPER BEAM, SURF, Slam, Fly
+  - Gyarados (Lv 60) - Known Moves: HYPER BEAM, SURF, Slam
   - Charizard (Lv 60) - Known Moves: Hyper Beam, Earthquake, Flamethrower
   - Aerodactyl (Lv 61) - Known Moves: Earthquake, WING ATTACK, ROCK SLIDE
-  - Dragonite (Lv 62) - Known Moves: Blizzard, THUNDER
+  - Dragonite (Lv 62) - Known Moves: Blizzard, THUNDER, Hyper Beam
 
 ### Champion Pixel (Attempt 4 - Lost)
   - Magneton (Lv 62) - Moves unknown.
@@ -154,13 +155,9 @@
 
 # VII. Future Development & Testing Plans
 
-## A. Tool Ideas (Post-Reflection)
+## A. Tool & Agent Ideas
 - **`auto_switch` tool:** Combine `select_battle_option` ('PKMN') and `select_party_pokemon` into a single tool that takes a Pokémon's name and executes the entire switch sequence automatically. This would significantly improve battle efficiency.
-
-# IX. Overwatch Critique Log (For Actioning)
-
-## A. Tool Development Notes
-- **Flawed Tool Design (pc_pokemon_selector):** The tool was designed based on an unverified assumption about PC box navigation. I must manually observe and document the PC interface mechanics before attempting to fix the tool's logic. (Critique Turn 154620)
+- **`pre_battle_analyzer` agent:** An agent that takes party/opponent data and outputs a high-level summary of threats, weaknesses, and viable switch-ins to streamline the decision-making process before calling the main `battle_strategist_agent`.
 
 # VIII. Active Hypothesis Testing
 
@@ -169,6 +166,11 @@
 - **Test Plan:** During the next forced switch where a sleeping Pokémon is available, I will deliberately select a conscious Pokémon that is positioned *after* the sleeping one in the party list. 
 - **Expected Outcome:** If the game sends out the sleeping Pokémon, the hypothesis is supported. If it sends out my selected Pokémon, the hypothesis is denied.
 
-## B. Tool & Agent Ideas (Post-Reflection)
-- **`auto_switch` tool:** Combine `select_battle_option` ('PKMN') and `select_party_pokemon` into a single tool that takes a Pokémon's name and executes the entire switch sequence automatically. This would significantly improve battle efficiency.
-- **`pre_battle_analyzer` agent:** An agent that takes party/opponent data and outputs a high-level summary of threats, weaknesses, and viable switch-ins to streamline the decision-making process before calling the main `battle_strategist_agent`.
+# IX. Overwatch Critique Log (For Actioning)
+
+## A. Tool Development Notes
+- **Flawed Tool Design (pc_pokemon_selector):** The tool was designed based on an unverified assumption about PC box navigation. I must manually observe and document the PC interface mechanics before attempting to fix the tool's logic. (Critique Turn 154620)
+- **Incomplete Agent Fix (battle_strategist_agent):** The agent's type chart remains flawed despite an attempted fix. A more thorough review and update of its system prompt is required to ensure its strategic advice is based on accurate data. (Critique Turn 155071)
+
+## B. Notepad Organization
+- **Redundant Sections:** The notepad contains redundant sections for future development ideas. These should be consolidated to improve clarity and maintain a clean knowledge base. (Critique Turn 155071)
