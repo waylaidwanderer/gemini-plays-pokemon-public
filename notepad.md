@@ -59,41 +59,39 @@
   - Rock is super-effective against Flying (Observed: Bruno's Machamp vs ECHO's Golbat).
   - Water is not very effective against Water/Psychic dual-types (Observed: NEPTUNE's Surf vs Lorelei's Slowbro).
 
-## B. Elite Four Battle Logs (Observed Rosters)
-### Lorelei (Attempt 18 - Defeated)
-  - Dewgong (Lv 55) - Moves unknown.
-  - Jynx (Lv 56) - Known Moves: Psychic, Lovely Kiss, Bubblebeam, Blizzard
-  - Slowbro (Lv 56) - Known Moves: Blizzard, Psychic, Earthquake
-  - Cloyster (Lv 55) - Known Moves: Explosion
-  - Lapras (Lv 57) - Known Moves: Thunderbolt, Surf, Sing, Blizzard
+## B. Opponent Rosters & Moves (Observed)
+### Lorelei
+  - DEWGONG (Lv 55) - Moves unknown.
+  - JYNX (Lv 56) - Known Moves: Psychic, Lovely Kiss, Bubblebeam, Blizzard
+  - SLOWBRO (Lv 56) - Known Moves: Blizzard, Psychic, Earthquake
+  - CLOYSTER (Lv 55) - Known Moves: Explosion
+  - LAPRAS (Lv 57) - Known Moves: Thunderbolt, Surf, Sing, Blizzard
 
-### Bruno (Attempt 18 - Defeated)
-  - HITMONCHAN (Lv 57) - Known Moves: Ice Punch, Thunder Punch, Dizzy Punch
+### Bruno
+  - HITMONCHAN (Lv 57) - Known Moves: Submission, Ice Punch, Thunder Punch, Dizzy Punch
   - POLIWRATH (Lv 56) - Known Moves: Amnesia, Hydro Pump, Hypnosis, Ice Beam
-  - HITMONLEE (Lv 57) - Known Moves: Body Slam, Jump Kick
-  - ONIX (Lv 56) - Known Moves: Earthquake, Rock Slide
+  - HITMONLEE (Lv 57) - Known Moves: Body Slam, HI JUMP KICK
+  - ONIX (Lv 56) - Known Moves: Earthquake, Rock Slide, BIND
   - MACHAMP (Lv 58) - Known Moves: Body Slam, Earthquake, Rock Slide
 
-### Agatha (Attempt 18 - Defeated)
+### Agatha
   - GENGAR (Lv 57) - Known Moves: Night Shade, Mega Drain, Hypnosis, Dream Eater
   - GOLBAT (Lv 58) - Known Moves: Toxic, Double Team, Fly
   - MAROWAK (Lv 57) - Known Moves: Rock Slide, Swords Dance, Body Slam
   - ARBOK (Lv 58) - Known Moves: Substitute, Wrap, Sludge, Glare
   - GENGAR (Lv 59) - Known Moves: Mega Drain, Thunder, Psychic, Night Shade
 
-### Lance (Attempt 19 - Victorious)
+### Lance
   - CHARIZARD (Lv 60) - Known Moves: Earthquake, Flamethrower
   - AERODACTYL (Lv 61) - Known Moves: Earthquake
   - DRAGONITE (Lv 62) - Known Moves: Fire Blast, Slam, Thunder Wave, Wrap, Hyper Beam
   - GYARADOS (Lv 60) - Known Moves: Slam
-  - *Note: Other Pokemon in his party are unknown from this run.*
 
-## C. Champion Battle Logs
-### Pixel (Attempt 1 - Defeated)
+### Champion Pixel
   - MAGNETON (Lv 62) - Known Moves: THUNDER WAVE, THUNDER
 
-## D. Elite Four Mechanics (Verified)
-- **Bruno's Rematch (Corrected):** After defeating Bruno once, interacting with him again triggers a mandatory rematch. After the second victory, his dialogue indicates to 'Go on ahead!', and interacting with him again does not trigger a third battle. The path north to Agatha's room is now open.
+## C. Elite Four Mechanics (Verified)
+- **Rematch Mechanic:** Some Elite Four members (Bruno, Agatha) require a second interaction to trigger a mandatory rematch before allowing progression.
 - **Hypnosis Anomaly (Corrected):** Agatha's Gengar's first Hypnosis on TITANESS failed (Turn 150576), but a second attempt succeeded (Turn 150583). The initial failure was likely a standard move miss, not an immunity. This confirms TITANESS is not immune to sleep.
 - **Night Shade Damage Anomaly:** Agatha's Lv 57 Gengar's Night Shade dealt 38 damage instead of the expected 57. This may be a mechanic change in the ROM hack. (Observed Turn 148518)
 
@@ -125,8 +123,8 @@
 - **`pre_battle_analyzer` Agent Created:** Developed in Turn 155344 to provide high-level strategic summaries before major battles.
 
 ## C. System Feedback & Self-Correction (Actioned)
-- **Notepad Data Integrity:** I must ensure my notepad does not contain outdated information (e.g., old battle logs) or function as a to-do list (e.g., 'Overwatch Critique Log'). All system feedback must be immediately actioned and integrated into my permanent knowledge base under 'Lessons Learned'.
-- **Tool Development Priority:** Opportunities to automate repetitive tasks (e.g., creating an `auto_switch` tool) must be acted upon immediately, not deferred. This is a core directive.
+- **Notepad Data Integrity:** I must ensure my notepad does not contain outdated information or function as a to-do list. All system feedback must be immediately actioned and integrated into my permanent knowledge base under 'Lessons Learned'.
+- **Tool Development Priority:** Opportunities to automate repetitive tasks must be acted upon immediately, not deferred. This is a core directive.
 - **Immediate Development Mandate:** All plans for new tools or agents must be acted upon immediately. Deferring development by creating 'to-do lists' in the notepad is a critical failure of core directives. (Self-Correction Turn 155345, per Overwatch Critique)
 
 # V. Confirmed Mechanics & Untested Hypotheses
@@ -138,7 +136,7 @@
 - **Type Matchup (UNVERIFIED):** Electric vs. Flying. Need to test this matchup to confirm effectiveness.
 - **Concatenated Battle Text (UNVERIFIED):** The on-screen text log may sometimes display events from multiple turns together, especially after a move that grants invulnerability (e.g., Fly). This can create the illusion of an opponent attacking multiple times in one turn. (Hypothesized Turn 155136)
 - **PC Box Selection Anomaly (UNVERIFIED):** The game may select the box one position *below* the highlighted cursor. This has only been observed once and requires further testing to confirm if it's a consistent bug. The logic for the `pc_pokemon_selector` tool is based on an untested assumption about the PC interface and will require manual observation and debugging.
-- **Forced Switch Mechanic (UNVERIFIED):** The game sometimes overrides the player's choice of Pokémon during a switch. **Observation 1 (vs. Bruno):** Switched from REVENANT (conscious) to NEPTUNE. Game sent out TITANESS. Party order had a sleeping SPARKY before TITANESS. **Observation 2 (vs. Agatha):** Switched from SPARKY (sleeping) to CRAG. Game sent out ECHO. Party order had sleeping/fainted Pokémon, then REVENANT, then ECHO. The exact trigger conditions are still unknown. **Test Plan:** When forced to switch, if there are sleeping Pokémon in the party, I will deliberately select a conscious Pokémon that is positioned *after* a sleeping Pokémon in the party list. If the game sends out the sleeping Pokémon instead of my selection, the hypothesis that the game prioritizes sleeping Pokémon in the switch order will be supported.
+- **Forced Switch Mechanic (UNVERIFIED):** The game sometimes overrides the player's choice of Pokémon during a switch. The exact trigger conditions are still unknown. **Test Plan:** When forced to switch, if there are sleeping Pokémon in the party, I will deliberately select a conscious Pokémon that is positioned *after* a sleeping Pokémon in the party list. If the game sends out the sleeping Pokémon instead of my selection, the hypothesis that the game prioritizes sleeping Pokémon in the switch order will be supported.
 - **Speed Assumption Failure (Jynx) (UNVERIFIED):** SPARKY might not be faster than Lorelei's Jynx. This assumption led to SPARKY being put to sleep and needs to be verified.
 
 # VI. Strategic Reminders & Active Plans
@@ -148,9 +146,3 @@
 
 ## B. Confirmed Battle Mechanics
 - **SPOONBENDE Speed:** My Lv 38 Kadabra (SPOONBENDE) is confirmed to be faster than Agatha's Lv 57 Gengar. The hypothesis that it might be too slow has been falsified, which makes the Psychic-spam strategy viable.
-### Bruno (Attempt 20 - Defeated)
-  - HITMONCHAN (Lv 57) - Known Moves: Submission, Ice Punch, Thunder Punch, Dizzy Punch
-  - POLIWRATH (Lv 56) - Known Moves: Amnesia, Hydro Pump, Hypnosis, Ice Beam
-  - HITMONLEE (Lv 57) - Known Moves: Body Slam, HI JUMP KICK
-  - ONIX (Lv 56) - Known Moves: Earthquake, Rock Slide, BIND
-  - MACHAMP (Lv 58) - Known Moves: Body Slam, Earthquake, Rock Slide
