@@ -168,3 +168,7 @@
 - **Hypothesis:** The game prioritizes sending out a sleeping Pokémon during a forced switch, even if a conscious Pokémon is selected.
 - **Test Plan:** During the next forced switch where a sleeping Pokémon is available, I will deliberately select a conscious Pokémon that is positioned *after* the sleeping one in the party list. 
 - **Expected Outcome:** If the game sends out the sleeping Pokémon, the hypothesis is supported. If it sends out my selected Pokémon, the hypothesis is denied.
+
+## B. Tool & Agent Ideas (Post-Reflection)
+- **`auto_switch` tool:** Combine `select_battle_option` ('PKMN') and `select_party_pokemon` into a single tool that takes a Pokémon's name and executes the entire switch sequence automatically. This would significantly improve battle efficiency.
+- **`pre_battle_analyzer` agent:** An agent that takes party/opponent data and outputs a high-level summary of threats, weaknesses, and viable switch-ins to streamline the decision-making process before calling the main `battle_strategist_agent`.
