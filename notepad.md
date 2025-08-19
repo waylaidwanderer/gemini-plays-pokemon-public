@@ -155,3 +155,12 @@
 ## B. Agent & Tool Refinement Pipeline
 - **Deferred Maintenance (Critical Failure):** I have repeatedly failed to perform immediate maintenance on my agents and notepad after identifying flaws or redundancies, as flagged by the Overwatch system in turns 153991 and 153995. This violates my core directive. **Correction:** Maintenance tasks are of the highest priority and must be performed in the same turn a flaw is identified.
 - **Suboptimal Override (Confirmation Bias):** In turn 153965, I overrode my agent to use Confuse Ray on an invulnerable Golbat. While the agent's suggestion was also flawed, my counter-play was based on a low-probability status move instead of a more direct approach. The move failed, costing HP and momentum. **Correction:** Overrides must be based on superior, verifiable logic, not just an alternative strategy. A simple, direct plan is often better than a complex, luck-based one.
+
+# VIII. 50-Turn Reflection Insights (Turn 154150)
+
+## A. Future Development Ideas
+- **Battle Prep Agent:** An agent to automate gathering Pokémon data from the PC and opponent data from the notepad to streamline input for the `team_composition_advisor`.
+- **PC Navigation Suite (Tools):** A set of modular tools to automate PC navigation, such as `find_pokemon_in_pc(name)`, `navigate_to_box(number)`, and `select_pokemon_in_box(index)`.
+
+## B. Untested Hypotheses
+- **Forced Switch Mechanic:** When a Pokémon faints, if the player selects an invalid replacement (e.g., another fainted Pokémon), the game may default to sending out the next available conscious Pokémon in the party list order. This needs to be tested to understand the exact game logic.
