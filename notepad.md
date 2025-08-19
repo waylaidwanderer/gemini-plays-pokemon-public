@@ -55,7 +55,7 @@
   - Ghost is immune to Ground-type moves (Observed: battle_strategist_agent reasoning vs Agatha's Gengar).
 
 ## B. Elite Four Battle Logs (Observed Rosters)
-### Lorelei (Attempt 13 - In Progress)
+### Lorelei (Attempt 14 - In Progress)
   - GENGAR (Lv 59) - Moves unknown.
   - Slowbro (Lv 56) - Known Moves: Blizzard, Psychic, Earthquake
   - Cloyster (Lv 55) - Moves unknown.
@@ -102,6 +102,7 @@
 - **Inefficient Tool Debugging (Trial-and-Error):** I have repeatedly engaged in prolonged loops of making minor, speculative changes to my tools instead of immediately adding diagnostic outputs (e.g., print statements) to systematically identify the root cause. **Correction:** The correct protocol is to add logging after a tool fails more than once to enable evidence-based fixes.
 - **Violation of Immediate Action Mandate (The LLM Reality):** I have repeatedly failed to perform necessary maintenance on my tools and notepad immediately, instead of deferring the tasks to continue gameplay. This is a critical violation of my core directive. **Correction:** There is no 'later'; tasks such as fixing tools or updating notes must be done in the current turn.
 - **Flawed Hypothesis Testing (Confirmation Bias):** I have incorrectly assumed a path existed and spent numerous turns trying to fix my tools to confirm this belief, rather than first using a tool like `map_connectivity_analyzer` to test the fundamental assumption of reachability. **Correction:** I must test core assumptions first before attempting to fix tools that rely on those assumptions. I must also actively try to disprove my own hypotheses.
+- **Inefficient Puzzle-Solving Methodology:** During the Indigo Plateau lobby puzzle, I wasted significant time on trial-and-error instead of using diagnostic tools like `map_connectivity_analyzer` early on to validate my core assumption that the northern area was reachable. **Correction:** For complex navigation puzzles, I must first use tools to verify assumptions about the map's structure before testing interaction-based hypotheses.
 - **Misinterpreting System Feedback:** I have incorrectly assumed my tools or notes were wrong when system feedback indicated otherwise. This led to wasted time trying to 'fix' things that were already correct or pathing to unreachable locations. **Correction:** I must treat system/tool feedback as the source of truth and question my own assumptions first.
 - **Over-reliance on Luck (Confirmation Bias):** The FLASH strategy against Bruno's Machamp was successful multiple times due to luck, reinforcing the belief it was a guaranteed win condition. However, it failed when the opponent used a different move (Rock Slide), which may have had higher base accuracy. **Correction:** Luck-based strategies should be a last resort. I must not become overconfident from a lucky streak and must always consider the opponent's full range of options.
 - **Agent Output Override Failure (Confirmation Bias):** I incorrectly overrode the `battle_strategist_agent`'s advice to switch to TITANESS against Jynx, instead switching to ECHO. This was a critical error based on my own flawed assumption, which created a dangerous situation and was flagged by the Overwatch system. **Correction:** I must treat the agent's output as the default correct action and only override it if I can definitively prove its underlying assumptions are wrong based on new in-game evidence. (Observed Turn 151161, Corrected Turn 151190)
@@ -146,6 +147,7 @@
   - `navigate_to_box(box_number)`: Automates the 'CHANGE BOX' sequence.
   - `select_pokemon_in_box(pokemon_index)`: Navigates the cursor to a specific slot within a box.
 - **Post-Loss Analyst Agent:** An agent to suggest specific team swaps after a defeat, as a more focused version of the `team_composition_advisor`.
+- **Stuck Situation Analyst Agent:** An agent that could be called when I'm stuck. It would analyze the current map's connectivity (`map_connectivity_analyzer`), check for unexplored warps/connections, and suggest a prioritized list of hypotheses to test to find the way forward. This would automate the diagnostic process I just performed manually.
 
 # VIII. 50-Turn Reflection Log
 
@@ -157,12 +159,6 @@
   - **Goal Adherence:** Goals are well-defined and follow the WHAT-not-HOW principle.
   - **Untested Assumptions:** Identified potential confirmation bias in my team building. My new plan is to run the `team_composition_advisor` with the full Elite Four roster after this attempt and trust its recommendation, to challenge my own assumptions about the best team.
 
-- **(Turn 153424 & 153475):**
-  - **Immediate Action Lapses:** Identified a critical failure in executing agent advice during the forced switch after NEPTUNE fainted (turns 153412-153419), leading to a menu loop. I must be more careful to distinguish between forced and voluntary switches.
-  - **Untested Assumptions:** Acknowledged a potential confirmation bias in my team building. My new plan is to run the `team_composition_advisor` with the full Elite Four roster and my entire PC box after this attempt, and to trust its recommendation to challenge my own assumptions.
-
-- **(Turn 153527):**
-  - **Immediate Action Lapses:** Identified a recurring failure to act correctly and immediately within the PC menu system, leading to wasted turns. I must be more deliberate.
-
-## B. Agent & Tool Ideas from Reflection (Turn 153579)
-- **Stuck Situation Analyst Agent:** An agent that could be called when I'm stuck. It would analyze the current map's connectivity (`map_connectivity_analyzer`), check for unexplored warps/connections, and suggest a prioritized list of hypotheses to test to find the way forward. This would automate the diagnostic process I just performed manually.
+- **(Turn 153579):**
+  - **Immediate Action Lapses:** Identified a critical failure to act immediately on tool maintenance, which led to getting stuck in the Indigo Plateau lobby. I also failed to use diagnostic tools early in the puzzle-solving process.
+  - **Untested Assumptions:** My primary failure was assuming a path north was possible without first verifying it. My new plan is to be more rigorous in testing assumptions with tools like `map_connectivity_analyzer` before committing to a navigation plan.
