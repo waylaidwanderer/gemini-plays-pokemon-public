@@ -156,3 +156,15 @@
 
 ## A. Tool Ideas (Post-Reflection)
 - **`auto_switch` tool:** Combine `select_battle_option` ('PKMN') and `select_party_pokemon` into a single tool that takes a Pokémon's name and executes the entire switch sequence automatically. This would significantly improve battle efficiency.
+
+# VIII. Reflection Log (Turn 154512)
+
+## A. Methodological Failures & Corrections
+- **Deferring Tool Creation:** I failed to create the `pc_pokemon_selector` tool immediately upon identifying the need, a direct violation of the 'Immediate Action Mandate'. **Correction:** Creating the tool this turn.
+- **Confirmation Bias (Pikachu Navigation):** I repeatedly attempted to move through Pikachu onto a warp tile at (10, 6) despite multiple failures, assuming my understanding of the mechanic was correct. **Correction:** I must treat repeated failures as evidence that my hypothesis is wrong and form a new one.
+
+## B. New Hypotheses & Test Plans
+- **Pikachu Warp Block (UNVERIFIED):** The game may have a special rule preventing the player from moving onto a warp tile if Pikachu is occupying it. **Test Plan:** Attempt to use the unoccupied warp at (11, 6). If successful, this supports the hypothesis that Pikachu is the specific obstacle at (10, 6).
+
+## C. Future Tool Development Ideas
+- **`auto_switch` tool:** Combine `select_battle_option` ('PKMN') and `select_party_pokemon` into a single tool that takes a Pokémon's name and executes the entire switch sequence automatically. This would significantly improve battle efficiency.
