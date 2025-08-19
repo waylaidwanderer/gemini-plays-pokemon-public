@@ -37,7 +37,7 @@
 - **Method:** During battles, especially against the Elite Four, prioritize using moves with uncertain effectiveness to gather data. Record all super-effective, not-very-effective, and immune interactions observed.
 - **Findings:**
   - Electric is super-effective against Water/Psychic dual-types (Observed: Lorelei's Slowbro vs SPARKY).
-  - Electric is super-effective against Water/Ice dual-types (Observed: Lorelei's Cloyster/Dewgong vs SPARKY).
+  - Electric is super-effective against Water/Ice dual-types (Observed: Lorelei's Cloyster/Dewgong vs SPARKY; Agatha's Gengar's Thunder vs NEPTUNE's Lapras).
   - Fighting is super-effective against Ice-types (Observed: Bruno's Hitmonchan vs NEPTUNE; Bruno's Hitmonlee vs NEPTUNE).
   - Fighting is super-effective against Normal-types (Observed: Bruno's Machamp vs TITANESS).
   - Fighting is super-effective against Rock-types (Observed: Bruno's Machamp vs CRAG).
@@ -165,5 +165,3 @@
 
 ## A. Tool Development Notes
 - **Flawed Tool Design (pc_pokemon_selector):** The tool was designed based on an unverified assumption about PC box navigation. I must manually observe and document the PC interface mechanics before attempting to fix the tool's logic. (Critique Turn 154620)
-  - Electric is super-effective against Water/Ice dual-types (Observed: Agatha's Gengar's Thunder vs NEPTUNE's Lapras).
-  - Electric is super-effective against Water/Ice dual-types (Observed: Agatha's Gengar's Thunder vs NEPTUNE's Lapras).
