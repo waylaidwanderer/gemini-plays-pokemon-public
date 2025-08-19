@@ -54,7 +54,6 @@
   - Grass is super-effective against Water/Ice dual-types (Observed: Agatha's Gengar's Mega Drain vs NEPTUNE's Lapras).
   - Ghost is immune to Ground-type moves (Observed: battle_strategist_agent reasoning vs Agatha's Gengar).
   - Normal is immune to Ghost-type moves (Observed: CRAG's Body Slam vs Agatha's Gengar).
-  - Ground is immune to Ghost-type moves (Observed: Agatha's Gengar's Night Shade vs CRAG's Golem).
 
 ## B. Elite Four Battle Logs (Observed Rosters)
 ### Lorelei (Attempt 15 - Won)
