@@ -81,7 +81,7 @@
 
 ### Lance (Attempt 12 - Won)
   - Dragonite (Lv 61) - Known Moves: Slam
-  - Gyaros (Lv 60) - Known Moves: Fly
+  - Gyarados (Lv 60) - Known Moves: Fly, Slam
   - Charizard (Lv 60) - Known Moves: Hyper Beam, Earthquake, Flamethrower
   - Aerodactyl (Lv 61) - Known Moves: Earthquake
   - Dragonite (Lv 62) - Known Moves: Blizzard
