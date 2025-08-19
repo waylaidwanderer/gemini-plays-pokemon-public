@@ -110,6 +110,10 @@
 - **Battle Strategist Over-Aggression:** The `battle_strategist_agent` has shown a tendency to recommend offensive actions even when facing a known super-effective threat, underestimating the risk. **Correction (Turn 148487):** The agent's system prompt has been updated to prioritize a defensive switch when a known super-effective threat is present.
 - **Agent Gamble Failure & AI Prediction:** The battle_strategist_agent correctly identified a high-risk, high-reward play by switching to CRAG, predicting Lapras would use its known move Thunderbolt. However, the opponent AI made the optimal counter-play by using Surf against the incoming CRAG, leading to a faint. This confirms that the AI is capable of predicting switches and choosing the best move to counter the incoming Pokémon, not just the one on the field. (Observed Turn 149533, Lorelei's Lapras vs. CRAG).
 
+## C. System Feedback & Self-Correction (Actioned)
+- **Notepad Data Integrity:** I must ensure my notepad does not contain outdated information (e.g., old battle logs) or function as a to-do list (e.g., 'Overwatch Critique Log'). All system feedback must be immediately actioned and integrated into my permanent knowledge base under 'Lessons Learned'.
+- **Tool Development Priority:** Opportunities to automate repetitive tasks (e.g., creating an `auto_switch` tool) must be acted upon immediately, not deferred. This is a core directive.
+
 # V. Confirmed Mechanics & Untested Hypotheses
 
 ## A. Confirmed & Corrected Mechanics
@@ -141,8 +145,3 @@
 - **Hypothesis:** The game prioritizes sending out a sleeping Pokémon during a forced switch, even if a conscious Pokémon is selected.
 - **Test Plan:** During the next forced switch where a sleeping Pokémon is available, I will deliberately select a conscious Pokémon that is positioned *after* the sleeping one in the party list. 
 - **Expected Outcome:** If the game sends out the sleeping Pokémon, the hypothesis is supported. If it sends out my selected Pokémon, the hypothesis is denied.
-
-# IX. Overwatch Critique Log (For Actioning)
-
-## A. Tool Development Notes
-- **Flawed Tool Design (pc_pokemon_selector):** The tool was designed based on an unverified assumption about PC box navigation. I must manually observe and document the PC interface mechanics before attempting to fix the tool's logic. (Critique Turn 154620)
