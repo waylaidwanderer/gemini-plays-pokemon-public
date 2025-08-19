@@ -35,7 +35,7 @@
 - **Objective:** Systematically test and verify all type matchups in this ROM hack, as the standard chart is unreliable.
 - **Method:** During battles, especially against the Elite Four, prioritize using moves with uncertain effectiveness to gather data. Record all super-effective, not-very-effective, and immune interactions observed.
 - **Findings:**
-  - Fighting is super-effective against Ice-types (Observed: Bruno's Hitmonchan vs NEPTUNE).
+  - Fighting is super-effective against Ice-types (Observed: Bruno's Hitmonchan vs NEPTUNE; Bruno's Hitmonlee vs NEPTUNE).
   - Fighting is super-effective against Normal-types (Observed: Bruno's Machamp vs TITANESS).
   - Fighting is super-effective against Rock-types (Observed: Bruno's Machamp vs CRAG).
   - Flying is immune to Ground-type moves (Observed: Pixel's Dodrio vs REVENANT's Marowak).
