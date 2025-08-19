@@ -1393,5 +1393,35 @@
         "action_counter": 154376
       }
     ]
+  },
+  "auto_switcher": {
+    "description": "Automates the entire process of switching Pokémon in battle. Takes a target Pokémon's name and party info, then returns the full sequence of button presses ('PKMN', directional inputs, 'A').",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "pokemon_to_select": {
+          "type": "string"
+        },
+        "party_pokemon_list": {
+          "type": "string"
+        },
+        "current_selected_pokemon_index": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "pokemon_to_select",
+        "party_pokemon_list",
+        "current_selected_pokemon_index"
+      ]
+    },
+    "python_script": "import json\n\nparty_pokemon_list_str = input_data['party_pokemon_list']\npokemon_to_select = input_data['pokemon_to_select']\ncurrent_selected_pokemon_index_str = input_data['current_selected_pokemon_index']\n\nparty_list = json.loads(party_pokemon_list_str)\ncurrent_index = int(current_selected_pokemon_index_str)\n\ntry:\n    target_index = party_list.index(pokemon_to_select)\nexcept ValueError:\n    print(json.dumps({'status': 'failure', 'reason': f'Pokémon \"{pokemon_to_select}\" not found in party list.'}))\n    # Using return to exit gracefully as sys.exit is not available\n    return\n\n# Presses to navigate to PKMN and select it\npresses = ['Down', 'A']\n\n# Presses to select the pokemon\ndiff = target_index - current_index\nif diff > 0:\n    for _ in range(diff):\n        presses.append('Down')\nelif diff < 0:\n    for _ in range(abs(diff)):\n        presses.append('Up')\n\n# Press to confirm pokemon, then another to confirm the 'SWITCH' option\npresses.extend(['A', 'A'])\n\nprint(json.dumps({'status': 'success', 'presses': presses}))\n",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2025-08-19T22:46:58.889Z",
+        "action_counter": 155341
+      }
+    ]
   }
 }
