@@ -154,4 +154,3 @@
 - **Battle Manager Agent:** An agent that orchestrates the entire battle turn process. It would call the `battle_data_extractor` tool to get the current state, then feed that data directly into the `battle_strategist_agent` to get a recommended action, and finally format the output for execution. This would automate the multi-step manual process I'm currently using.
 
 ## B. Agent & Tool Refinement Pipeline
-- **`battle_strategist_agent` Refinement:** The agent's reasoning against Jynx did not explicitly account for SPARKY's speed drop. **Hypothesis:** The agent's prompt lacks sufficient emphasis on analyzing and reacting to in-battle stat changes. **Plan:** Refine the agent's system prompt to include a high-priority rule for considering active stat changes (both positive and negative) on both the player's and opponent's Pokémon when recommending an action.
