@@ -92,7 +92,7 @@
   - Cloyster (Lv 62) - Known Moves: Blizzard
 
 ## C. Elite Four Mechanics (Verified)
-- **Bruno's Rematch:** After defeating Bruno once, interacting with him again triggers a mandatory rematch. After the second victory, interacting with him a third time triggers another mandatory rematch. After the third victory, a scripted event blocks the southern exit, forcing progression north to Agatha's room. (Corrected Turn 155136)
+- **Bruno's Rematch:** After defeating Bruno once, interacting with him again triggers a mandatory rematch. After the second victory, his dialogue indicates to 'Go on ahead!', and interacting with him again does not trigger a third battle. The path north to Agatha's room is now open.
 - **Hypnosis Anomaly (Corrected):** Agatha's Gengar's first Hypnosis on TITANESS failed (Turn 150576), but a second attempt succeeded (Turn 150583). The initial failure was likely a standard move miss, not an immunity. This confirms TITANESS is not immune to sleep.
 - **Night Shade Damage Anomaly:** Agatha's Lv 57 Gengar's Night Shade dealt 38 damage instead of the expected 57. This may be a mechanic change in the ROM hack. (Observed Turn 148518)
 
