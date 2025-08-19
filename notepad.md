@@ -152,7 +152,6 @@
 - **Stuck Situation Analyst Agent:** An agent that could be called when I'm stuck. It would analyze the current map's connectivity (`map_connectivity_analyzer`), check for unexplored warps/connections, and suggest a prioritized list of hypotheses to test to find the way forward. This would automate the diagnostic process I just performed manually.
 - **Battle Manager Agent:** An agent that orchestrates the entire battle turn process. It would call the `battle_data_extractor` tool to get the current state, then feed that data directly into the `battle_strategist_agent` to get a recommended action, and finally format the output for execution. This would automate the multi-step manual process I'm currently using.
 - **Battle Reconnaissance Agent:** An agent to provide a prioritized list of actions to maximize information gathered during a losing battle.
-- **Post-Battle Analyst Agent:** An agent that analyzes a loss and recommends an optimal team composition from the PC for the next attempt.
 
 ## B. Agent & Tool Refinement Pipeline
 - **Deferred Maintenance (Critical Failure):** I have repeatedly failed to perform immediate maintenance on my agents and notepad after identifying flaws or redundancies, as flagged by the Overwatch system in turns 153991 and 153995. This violates my core directive. **Correction:** Maintenance tasks are of the highest priority and must be performed in the same turn a flaw is identified.
