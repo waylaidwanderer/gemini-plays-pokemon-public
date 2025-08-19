@@ -142,3 +142,4 @@
 
 ## B. Confirmed Battle Mechanics
 - **SPOONBENDE Speed:** My Lv 38 Kadabra (SPOONBENDE) is confirmed to be faster than Agatha's Lv 57 Gengar. The hypothesis that it might be too slow has been falsified, which makes the Psychic-spam strategy viable.
+- **Forced Switch Anomaly (UNVERIFIED):** During the battle with Bruno (Attempt 11), I attempted to switch from REVENANT to NEPTUNE. Despite selecting NEPTUNE, the game sent out TITANESS, the next conscious Pokémon in the party list after the sleeping SPARKY. This may indicate a specific forced-switch logic under certain conditions that overrides player choice. This requires further testing.
