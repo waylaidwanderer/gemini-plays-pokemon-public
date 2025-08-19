@@ -1176,48 +1176,6 @@
       }
     ]
   },
-  "map_connectivity_analyzer": {
-    "description": "Analyzes the map XML to identify and list all disconnected, traversable landmasses. This helps in understanding segmented map layouts and solving navigation puzzles by showing which areas are isolated from each other.",
-    "input_schema": {},
-    "python_script": "import xml.etree.ElementTree as ET\nimport json\n\ndef solve():\n    map_xml = ET.fromstring(map_xml_string)\n    width = int(map_xml.get('width'))\n    height = int(map_xml.get('height'))\n\n    grid = [[None for _ in range(width)] for _ in range(height)]\n\n    for row_elem in map_xml.findall('Row'):\n        y = int(row_elem.attrib['id'])\n        for tile_elem in row_elem.findall('Tile'):\n            x = int(tile_elem.attrib['id'])\n            tile_type = tile_elem.attrib.get('type')\n            is_impassable = False\n\n            if tile_type in ['impassable', 'unknown']:\n                is_impassable = True\n            else:\n                obj_elem = tile_elem.find('Object')\n                boulder_elem = tile_elem.find('Boulder')\n                if boulder_elem is not None:\n                    is_impassable = True\n                elif obj_elem is not None:\n                    obj_id_name = obj_elem.attrib.get('id-name', '').lower()\n                    if obj_id_name != 'pikachu':\n                        is_impassable = True\n            \n            tile_data = {\n                'type': tile_type,\n                'is_impassable': is_impassable\n            }\n            grid[y-1][x-1] = tile_data\n\n    visited = set()\n    components = []\n\n    WALKING_TRAVERSABLE = {'ground', 'grass', 'steps', 'elevated_ground', 'cleared_boulder_barrier', 'spinner_stop', 'ladder_up', 'ladder_down', 'boulder_switch', 'hole'}\n\n    def get_neighbors(x, y):\n        neighbors = []\n        if not (1 <= x <= width and 1 <= y <= height): return []\n        current_data = grid[y-1][x-1]\n        if not current_data: return []\n        current_type = current_data['type']\n\n        for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n            nx, ny = x + dx, y + dy\n            if not (1 <= nx <= width and 1 <= ny <= height): continue\n            \n            neighbor_data = grid[ny-1][nx-1]\n            if not neighbor_data or neighbor_data['is_impassable']: continue\n            \n            neighbor_type = neighbor_data['type']\n\n            if neighbor_type == 'ledge' and dy == 1:\n                if 1 <= ny + 1 <= height:\n                    landing_tile_data = grid[ny][nx-1]\n                    if landing_tile_data and not landing_tile_data['is_impassable']:\n                        neighbors.append((nx, ny + 1))\n                continue\n\n            if neighbor_type not in WALKING_TRAVERSABLE: continue\n\n            can_move = False\n            if current_type in ('ground', 'grass', 'ladder_up', 'ladder_down', 'hole', 'boulder_switch'):\n                if neighbor_type in ('ground', 'grass', 'ladder_up', 'ladder_down', 'steps', 'hole', 'boulder_switch'): can_move = True\n                elif neighbor_type == 'cleared_boulder_barrier' and dy == -1: can_move = True\n            elif current_type in ('elevated_ground', 'cleared_boulder_barrier'):\n                if neighbor_type in ('elevated_ground', 'cleared_boulder_barrier', 'steps', 'ladder_up', 'ladder_down'): can_move = True\n                elif neighbor_type in ('ground', 'grass') and dy == 1: can_move = True\n            elif current_type == 'steps':\n                if neighbor_type in ('ground', 'grass', 'elevated_ground', 'cleared_boulder_barrier', 'steps', 'ladder_up', 'ladder_down', 'boulder_switch', 'hole'): can_move = True\n            \n            if can_move: neighbors.append((nx, ny))\n        return neighbors\n\n    for y_start in range(1, height + 1):\n        for x_start in range(1, width + 1):\n            if (x_start, y_start) not in visited and grid[y_start-1][x_start-1] and grid[y_start-1][x_start-1]['type'] in WALKING_TRAVERSABLE and not grid[y_start-1][x_start-1]['is_impassable']:\n                component = []\n                stack = [(x_start, y_start)]\n                visited.add((x_start, y_start))\n                while stack:\n                    cx, cy = stack.pop()\n                    component.append((cx, cy))\n                    for nx, ny in get_neighbors(cx, cy):\n                        if (nx, ny) not in visited:\n                            visited.add((nx, ny))\n                            stack.append((nx, ny))\n                components.append(sorted(component))\n\n    print(json.dumps({'disconnected_landmasses': components}))\n\nsolve()",
-    "history": [
-      {
-        "commit_message": "feat: Create map_connectivity_analyzer tool. I have repeatedly struggled with segmented maps like Victory Road, leading to wasted time and incorrect assumptions about reachability. This tool automates the process of identifying disconnected landmasses by performing a flood-fill (BFS/DFS) on the map's traversable tiles. This will provide a clear, data-driven understanding of the map layout, preventing future navigational errors and allowing for more efficient puzzle-solving.",
-        "timestamp": "2025-08-15T13:39:12.677Z",
-        "action_counter": 144543
-      },
-      {
-        "commit_message": "fix: Overhaul traversal logic to match robust pathfinder. The previous version used a simplified neighbor-finding logic that failed to account for complex elevation rules, leading it to incorrectly report Victory Road 3F as a single connected landmass. This commit replaces the faulty logic with the full, state-aware `get_neighbors` function from the `generate_path_plan` tool. This is a critical fix to ensure the tool's analysis is accurate and prevents future navigational dead ends caused by bad data.",
-        "timestamp": "2025-08-15T13:47:37.154Z",
-        "action_counter": 144555
-      },
-      {
-        "commit_message": "fix: Add object collision to prevent misidentifying landmasses. The tool was incorrectly reporting disconnected areas as connected because it did not account for impassable objects like defeated trainers. This commit adds the robust object-checking logic from the `generate_path_plan` tool, ensuring that the connectivity analysis is accurate and reflects the actual traversable space on the map. This is a critical fix to prevent future navigational dead ends caused by bad data.",
-        "timestamp": "2025-08-15T22:00:50.603Z",
-        "action_counter": 145231
-      },
-      {
-        "commit_message": "fix: Add object collision to prevent misidentifying landmasses. The tool was incorrectly reporting disconnected areas as connected because it did not account for impassable objects like defeated trainers. This commit adds the robust object-checking logic from the `generate_path_plan` tool, ensuring that the connectivity analysis is accurate and reflects the actual traversable space on the map. This is a critical fix to prevent future navigational dead ends caused by bad data.",
-        "timestamp": "2025-08-15T22:06:12.521Z",
-        "action_counter": 145239
-      },
-      {
-        "commit_message": "fix: Add object collision to prevent misidentifying landmasses. The tool was incorrectly reporting disconnected areas as connected because it did not account for impassable objects like defeated trainers. This commit adds the robust object-checking logic from the `generate_path_plan` tool, ensuring that the connectivity analysis is accurate and reflects the actual traversable space on the map. This is a critical fix to prevent future navigational dead ends caused by bad data.",
-        "timestamp": "2025-08-15T23:01:29.101Z",
-        "action_counter": 145321
-      },
-      {
-        "commit_message": "fix: Overhaul traversal logic to match robust pathfinder. The previous version used a simplified neighbor-finding logic that failed to account for impassable objects like defeated trainers, leading it to incorrectly report Victory Road 2F as having fewer disconnected landmasses. This commit replaces the faulty logic with the full, state-aware `get_neighbors` function and object-checking logic from the `generate_path_plan` tool. This is a critical fix to ensure the tool's analysis is accurate and prevents future navigational dead ends caused by bad data.",
-        "timestamp": "2025-08-16T10:20:57.762Z",
-        "action_counter": 146451
-      },
-      {
-        "commit_message": "fix: Add impassable tile type check to grid creation. The tool was incorrectly identifying disconnected landmasses as connected because its grid creation logic only checked for blocking objects and completely ignored the base tile type. This commit adds a critical check for `tile_type` attributes like 'impassable' and 'unknown', ensuring the analysis accurately reflects the map's true traversability. This fixes the root cause of my recent navigational hallucinations.",
-        "timestamp": "2025-08-16T15:26:11.138Z",
-        "action_counter": 146971
-      }
-    ]
-  },
   "select_move": {
     "description": "Takes a move name, a list of the active Pokémon's four moves, and optionally the currently selected move, then returns the sequence of button presses ('Up' or 'Down') needed to select that move in a non-wrapping menu.",
     "input_schema": {
@@ -1423,6 +1381,48 @@
         "commit_message": "fix: Correct key access for HP and parse known_moves. The tool was failing because it was using incorrect keys ('hp', 'max_hp') to access health data from the party JSON. This commit updates the script to use the correct keys ('hp_current', 'hp_max'). Additionally, the opponent's known moves were being treated as a raw string instead of a JSON list; this is now fixed with `json.loads` to ensure proper parsing. This is a critical fix to restore the tool's core functionality for battle analysis.",
         "timestamp": "2025-08-19T04:19:50.881Z",
         "action_counter": 154077
+      }
+    ]
+  },
+  "pc_pokemon_selector": {
+    "description": "Navigates the PC box system to select a specific Pokémon. Takes the target box number, the target Pokémon's row and column, and the current box and cursor position as input. Outputs the sequence of button presses ('A', 'B', 'Up', 'Down', 'Left', 'Right') required.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "target_box": {
+          "type": "string"
+        },
+        "target_row": {
+          "type": "string"
+        },
+        "target_col": {
+          "type": "string"
+        },
+        "current_box": {
+          "type": "string"
+        },
+        "current_row": {
+          "type": "string"
+        },
+        "current_col": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "target_box",
+        "target_row",
+        "target_col",
+        "current_box",
+        "current_row",
+        "current_col"
+      ]
+    },
+    "python_script": "import json\ntarget_box = int(input_data['target_box'])\ntarget_row = int(input_data['target_row'])\ntarget_col = int(input_data['target_col'])\ncurrent_box = int(input_data['current_box'])\ncurrent_row = int(input_data['current_row'])\ncurrent_col = int(input_data['current_col'])\npresses = []\n\n# This is a placeholder for complex box switching logic which requires UI data.\n# For now, it assumes a simple linear navigation.\nif current_box != target_box:\n    presses.append('A') # Placeholder for 'CHANGE BOX'\n    box_diff = target_box - current_box\n    if box_diff > 0: presses.extend(['Right'] * box_diff)\n    else: presses.extend(['Left'] * abs(box_diff))\n    presses.append('A') # Select new box\n    current_row, current_col = 1, 1 # Assume cursor resets to top-left\n\n# Navigate cursor within the box\nrow_diff = target_row - current_row\nif row_diff > 0: presses.extend(['Down'] * row_diff)\nelse: presses.extend(['Up'] * abs(row_diff))\ncol_diff = target_col - current_col\nif col_diff > 0: presses.extend(['Right'] * col_diff)\nelse: presses.extend(['Left'] * abs(col_diff))\n\nprint(json.dumps({'status': 'success', 'presses': presses}))",
+    "history": [
+      {
+        "commit_message": "feat: Create pc_pokemon_selector tool. In response to a mandatory 50-turn reflection and direct Overwatch feedback, this tool is being created to address a critical methodological failure: deferring tool creation. This tool will automate PC navigation, a repetitive task I have been performing manually. This is the first step in building a more robust and automated toolkit.",
+        "timestamp": "2025-08-19T06:19:48.923Z",
+        "action_counter": 154256
       }
     ]
   }
