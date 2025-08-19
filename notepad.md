@@ -60,28 +60,39 @@
   - Water is not very effective against Water/Psychic dual-types (Observed: NEPTUNE's Surf vs Lorelei's Slowbro).
 
 ## B. Elite Four Battle Logs (Observed Rosters)
-### Lorelei (Attempt 18 - In Progress)
+### Lorelei (Attempt 18 - Defeated)
   - Dewgong (Lv 55) - Moves unknown.
   - Jynx (Lv 56) - Known Moves: Psychic, Lovely Kiss, Bubblebeam, Blizzard
   - Slowbro (Lv 56) - Known Moves: Blizzard, Psychic, Earthquake
   - Cloyster (Lv 55) - Known Moves: Explosion
   - Lapras (Lv 57) - Known Moves: Thunderbolt, Surf, Sing, Blizzard
 
-### Bruno (Attempt 18 - In Progress)
+### Bruno (Attempt 18 - Defeated)
   - HITMONCHAN (Lv 57) - Known Moves: Ice Punch, Thunder Punch, Dizzy Punch
   - POLIWRATH (Lv 56) - Known Moves: Amnesia, Hydro Pump, Hypnosis, Ice Beam
   - HITMONLEE (Lv 57) - Known Moves: Body Slam, Jump Kick
   - ONIX (Lv 56) - Known Moves: Earthquake, Rock Slide
   - MACHAMP (Lv 58) - Known Moves: Body Slam, Earthquake, Rock Slide
 
-### Agatha (Attempt 18 - In Progress)
+### Agatha (Attempt 18 - Defeated)
   - GENGAR (Lv 57) - Known Moves: Night Shade, Mega Drain, Hypnosis, Dream Eater
   - GOLBAT (Lv 58) - Known Moves: Toxic, Double Team, Fly
   - MAROWAK (Lv 57) - Known Moves: Rock Slide, Swords Dance, Body Slam
   - ARBOK (Lv 58) - Known Moves: Substitute, Wrap, Sludge, Glare
   - GENGAR (Lv 59) - Known Moves: Mega Drain, Thunder, Psychic, Night Shade
 
-## C. Elite Four Mechanics (Verified)
+### Lance (Attempt 19 - Victorious)
+  - CHARIZARD (Lv 60) - Known Moves: Earthquake, Flamethrower
+  - AERODACTYL (Lv 61) - Known Moves: Earthquake
+  - DRAGONITE (Lv 62) - Known Moves: Fire Blast, Slam, Thunder Wave, Wrap, Hyper Beam
+  - GYARADOS (Lv 60) - Known Moves: Slam
+  - *Note: Other Pokemon in his party are unknown from this run.*
+
+## C. Champion Battle Logs
+### Pixel (Attempt 1 - In Progress)
+  - MAGNETON (Lv 62) - Moves unknown.
+
+## D. Elite Four Mechanics (Verified)
 - **Bruno's Rematch (Corrected):** After defeating Bruno once, interacting with him again triggers a mandatory rematch. After the second victory, his dialogue indicates to 'Go on ahead!', and interacting with him again does not trigger a third battle. The path north to Agatha's room is now open.
 - **Hypnosis Anomaly (Corrected):** Agatha's Gengar's first Hypnosis on TITANESS failed (Turn 150576), but a second attempt succeeded (Turn 150583). The initial failure was likely a standard move miss, not an immunity. This confirms TITANESS is not immune to sleep.
 - **Night Shade Damage Anomaly:** Agatha's Lv 57 Gengar's Night Shade dealt 38 damage instead of the expected 57. This may be a mechanic change in the ROM hack. (Observed Turn 148518)
@@ -102,6 +113,7 @@
 - **Flawed Tool Debugging (Static Data):** I repeatedly failed to debug my `battle_data_extractor` tool because I was passing it the same static, outdated `game_state_json` string from a a previous turn. **Correction:** Tool arguments are not dynamic. I must ensure I am providing the current, correct game state information *each time* a tool is called. Failure to do so invalidates the test.
 - **Tool Maintenance Error (Corrected):** I incorrectly logged that I deferred a tool fix in turn 151892. My action log confirms I implemented the fix for `generate_path_plan` in turn 151891. This was a data entry error, not a procedural one. Maintaining accurate logs is critical.
 - **Speed Assumption Failure:** I gambled that SPARKY was faster than SLOWBRO without any evidence. I must avoid making assumptions about stats, especially speed, in critical matchups. This was a methodological failure.
+- **Confirmation Bias & Inflexibility:** During the battle with Lance's Dragonite, my goal was to lose strategically. However, after a lucky miss from the opponent, I failed to re-evaluate the situation. I continued with the "lose" plan instead of pivoting to a "win" strategy. **Correction:** When unexpected events or luck create a potential opening, I must immediately reassess my strategy and be flexible enough to abandon the original plan if a better opportunity arises.
 
 ## B. Tool & Agent Development Log
 - **Diagnostic Tool Output:** Pathfinding tools must report the specific obstacle that blocks a path upon failure. This is essential for distinguishing between a solvable puzzle and a genuinely impossible route.
@@ -120,6 +132,7 @@
 - **Party Menu Wrapping (CORRECTED):** The party selection menu does NOT wrap around. Pressing 'Up' from the top Pokémon does not move the cursor to the bottom. This was confirmed in turn 154047.
 
 ## B. Untested Hypotheses
+- **Type Matchup (UNVERIFIED):** Electric vs. Flying. Need to test this matchup to confirm effectiveness.
 - **Concatenated Battle Text (UNVERIFIED):** The on-screen text log may sometimes display events from multiple turns together, especially after a move that grants invulnerability (e.g., Fly). This can create the illusion of an opponent attacking multiple times in one turn. (Hypothesized Turn 155136)
 - **PC Box Selection Anomaly (UNVERIFIED):** The game may select the box one position *below* the highlighted cursor. This has only been observed once and requires further testing to confirm if it's a consistent bug. The logic for the `pc_pokemon_selector` tool is based on an untested assumption about the PC interface and will require manual observation and debugging.
 - **Forced Switch Mechanic (UNVERIFIED):** The game sometimes overrides the player's choice of Pokémon during a switch. **Observation 1 (vs. Bruno):** Switched from REVENANT (conscious) to NEPTUNE. Game sent out TITANESS. Party order had a sleeping SPARKY before TITANESS. **Observation 2 (vs. Agatha):** Switched from SPARKY (sleeping) to CRAG. Game sent out ECHO. Party order had sleeping/fainted Pokémon, then REVENANT, then ECHO. The exact trigger conditions are still unknown. **Test Plan:** When forced to switch, if there are sleeping Pokémon in the party, I will deliberately select a conscious Pokémon that is positioned *after* a sleeping Pokémon in the party list. If the game sends out the sleeping Pokémon instead of my selection, the hypothesis that the game prioritizes sleeping Pokémon in the switch order will be supported.
@@ -136,7 +149,7 @@
 # VII. Future Development & Testing Plans
 
 ## A. Tool & Agent Ideas
-- **`auto_switch` tool:** Combine `select_battle_option` ('PKMN') and `select_party_pokemon` into a single tool that takes a Pokémon's name and executes the entire switch sequence automatically. This would significantly improve battle efficiency. **Plan:** Create a tool named `auto_switch` that takes `pokemon_to_select` as input. The script will first call `select_battle_option` with `PKMN`, then determine the current party state and call `select_party_pokemon`, and finally execute the 'A' press to confirm the switch.
+- **`auto_switch` tool:** Combine `select_battle_option` ('PKMN') and `select_party_pokemon` into a single tool that takes a Pokémon's name and executes the entire switch sequence automatically. This would significantly improve battle efficiency. **Plan:** Create a tool named `auto_switcher` that takes `pokemon_to_select`, `party_pokemon_list`, and `current_selected_pokemon_index`. The script will generate the full sequence of button presses: selecting 'PKMN' from the main menu, navigating to the correct Pokémon, and pressing 'A' to confirm.
 - **`pre_battle_analyzer` agent:** An agent that takes party/opponent data and outputs a high-level summary of threats, weaknesses, and viable switch-ins to streamline the decision-making process before calling the main `battle_strategist_agent`.
 
 # VIII. Active Hypothesis Testing
@@ -145,9 +158,3 @@
 - **Hypothesis:** The game prioritizes sending out a sleeping Pokémon during a forced switch, even if a conscious Pokémon is selected.
 - **Test Plan:** During the next forced switch where a sleeping Pokémon is available, I will deliberately select a conscious Pokémon that is positioned *after* the sleeping one in the party list. 
 - **Expected Outcome:** If the game sends out the sleeping Pokémon, the hypothesis is supported. If it sends out my selected Pokémon, the hypothesis is denied.
-### Lance (Attempt 19 - Victorious)
-  - CHARIZARD (Lv 60) - Known Moves: Earthquake, Flamethrower
-  - AERODACTYL (Lv 61) - Known Moves: Earthquake
-  - DRAGONITE (Lv 62) - Known Moves: Fire Blast, Slam, Thunder Wave, Wrap, Hyper Beam
-  - GYARADOS (Lv 60) - Known Moves: Slam
-  - *Note: Other Pokemon in his party are unknown from this run.*
