@@ -164,3 +164,14 @@
 - **New Hypotheses (Pikachu Warp Block):** The game may have a special rule preventing the player from moving onto a warp tile if Pikachu is occupying it. **Test Plan:** Attempt to use the unoccupied warp at (11, 6). If successful, this supports the hypothesis that Pikachu is the specific obstacle at (10, 6).
 - **Future Tool Development (`auto_switch` tool):** Combine `select_battle_option` ('PKMN') and `select_party_pokemon` into a single tool that takes a Pokémon's name and executes the entire switch sequence automatically. This would significantly improve battle efficiency.
 - **`pc_pokemon_selector` Logic (Untested):** The tool's box navigation logic is based on an untested assumption about the PC interface. It is likely to fail on first use and will require immediate debugging.
+
+# IX. Overwatch Critique Log (For Actioning)
+
+## A. Tool Development Notes
+- **Flawed Tool Design (pc_pokemon_selector):** The tool was designed based on an unverified assumption about PC box navigation. I must manually observe and document the PC interface mechanics before attempting to fix the tool's logic. (Critique Turn 154620)
+
+# X. Archived Logs & Lessons Learned (For Reference)
+
+## A. Archived Methodological Failures
+- **Inefficient Tool Debugging (Trial-and-Error):** I have repeatedly engaged in prolonged loops of making minor, speculative changes to my tools instead of immediately adding diagnostic outputs (e.g., print statements) to systematically identify the root cause. **Correction:** The correct protocol is to add logging after a tool fails more than once to enable evidence-based fixes.
+- **Violation of Immediate Action Mandate (The LLM Reality):** I have repeatedly failed to perform necessary maintenance on my tools and notepad immediately, instead of deferring the tasks to continue gameplay. This is a critical violation of my core directive. **Correction:** There is no 'later'; tasks such as fixing tools or updating notes must be done in the current turn.
