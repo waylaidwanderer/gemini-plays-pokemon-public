@@ -1,4 +1,114 @@
 {
+  "auto_attacker": {
+    "description": "Calculates the directional button presses needed to select a specific move from the 2x2 battle move menu. Does not press 'A'.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "move_to_select": {
+          "type": "string"
+        },
+        "pokemon_move_list": {
+          "type": "string"
+        },
+        "current_selected_move": {
+          "type": "string",
+          "nullable": true
+        }
+      },
+      "required": [
+        "move_to_select",
+        "pokemon_move_list"
+      ]
+    },
+    "python_script": "import json\n\ndef auto_attacker(move_to_select, pokemon_move_list_str, current_selected_move_str=None):\n    move_list = json.loads(pokemon_move_list_str)\n    \n    try:\n        target_index = move_list.index(move_to_select)\n    except ValueError:\n        print(json.dumps({'status': 'failure', 'reason': f'Target move \\\"{move_to_select}\\\" not found in move list.'}))\n        return\n\n    start_index = 0\n    if current_selected_move_str:\n        try:\n            start_index = move_list.index(current_selected_move_str)\n        except ValueError:\n            start_index = 0\n\n    presses = []\n    diff = target_index - start_index\n\n    if diff > 0:\n        for _ in range(diff):\n            presses.append('Down')\n    elif diff < 0:\n        for _ in range(abs(diff)):\n            presses.append('Up')\n\n    print(json.dumps({'status': 'success', 'presses': presses}))\n\nauto_attacker(input_data['move_to_select'], input_data['pokemon_move_list'], input_data.get('current_selected_move'))",
+    "history": [
+      {
+        "commit_message": "feat: Create auto_attacker tool to streamline battle actions. In response to my 50-turn reflection identifying an inefficiency, this tool combines the logic of selecting a move and pressing 'A' to use it into a single, automated command. This is a critical step to improve my turn-by-turn efficiency in combat.",
+        "timestamp": "2025-08-20T00:25:17.302Z",
+        "action_counter": 155553
+      },
+      {
+        "commit_message": "refactor: Add 'FIGHT' selection to automate full attack sequence. In response to a direct Overwatch critique, this commit refactors the tool to handle the entire attack process, from selecting 'FIGHT' on the main menu to executing the chosen move. This eliminates the previous multi-turn manual process, improving battle efficiency and preventing user error. This is a critical fix to adhere to the immediate action mandate.",
+        "timestamp": "2025-08-20T01:45:41.444Z",
+        "action_counter": 155731
+      },
+      {
+        "commit_message": "refactor: Remove all 'A' presses to comply with system input rules. The tool now only calculates and outputs the directional presses required to highlight a move in the menu, preventing mixed-input errors. The user must manually press 'A' in subsequent turns.",
+        "timestamp": "2025-08-20T02:07:25.147Z",
+        "action_counter": 155779
+      },
+      {
+        "commit_message": "feat: Create auto_attacker tool to streamline battle actions. In response to my 50-turn reflection identifying an inefficiency, this tool combines the logic of selecting a move and pressing 'A' to use it into a single, automated command. This is a critical step to improve my turn-by-turn efficiency in combat.",
+        "timestamp": "2025-08-20T04:21:47.836Z",
+        "action_counter": 156070
+      },
+      {
+        "commit_message": "fix: Implement vertical list logic for move selection. The previous version incorrectly assumed a 2x2 grid for the move menu, leading to incorrect directional outputs. This commit replaces the faulty grid logic with a simple index comparison for a linear, vertical menu, ensuring correct navigation. This is a critical fix to restore the tool's core functionality.",
+        "timestamp": "2025-08-20T04:23:23.452Z",
+        "action_counter": 156074
+      },
+      {
+        "commit_message": "fix: Implement 2x2 grid logic for move selection. The previous version incorrectly assumed a vertical list, causing incorrect navigation and move selection. This commit replaces the faulty logic with a coordinate-based system that correctly calculates Up/Down and Left/Right presses for a 2x2 grid. This is a critical fix to restore the tool's core functionality and prevent future battle errors, as mandated by an Overwatch critique.",
+        "timestamp": "2025-08-20T06:14:21.880Z",
+        "action_counter": 156301
+      },
+      {
+        "commit_message": "fix: Revert to vertical list logic for move selection. My previous fix incorrectly assumed a 2x2 grid, but in-game observation confirms the move menu is a simple vertical list. This commit reverts the logic to correctly calculate only Up/Down presses. This is a critical fix to restore the tool's core functionality based on direct evidence from the game screen.",
+        "timestamp": "2025-08-20T06:15:54.921Z",
+        "action_counter": 156304
+      }
+    ]
+  },
+  "auto_switcher": {
+    "description": "Automates the entire process of switching Pokémon in battle. Takes a target Pokémon's name and party info, then returns the full sequence of button presses ('Right' for PKMN, directional inputs, 'A', 'A').",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "pokemon_to_select": {
+          "type": "string"
+        },
+        "party_pokemon_list": {
+          "type": "string"
+        },
+        "current_selected_pokemon_name": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "pokemon_to_select",
+        "party_pokemon_list",
+        "current_selected_pokemon_name"
+      ]
+    },
+    "python_script": "import json\n\ndef auto_switcher(pokemon_to_select, party_pokemon_list_str, current_selected_pokemon_name):\n    presses = ['Right', 'A']\n    party_list = json.loads(party_pokemon_list_str)\n    \n    try:\n        current_index = party_list.index(current_selected_pokemon_name)\n    except ValueError:\n        print(json.dumps({'status': 'failure', 'reason': f'Current Pokémon \"{current_selected_pokemon_name}\" not found in party list.'}))\n        return\n\n    try:\n        target_index = party_list.index(pokemon_to_select)\n    except ValueError:\n        print(json.dumps({'status': 'failure', 'reason': f'Target Pokémon \"{pokemon_to_select}\" not found in party list.'}))\n        return\n\n    diff = target_index - current_index\n    if diff > 0:\n        for _ in range(diff):\n            presses.append('Down')\n    elif diff < 0:\n        for _ in range(abs(diff)):\n            presses.append('Up')\n\n    presses.append('A')\n    presses.append('Down')\n    presses.append('A')\n    print(json.dumps({'status': 'success', 'presses': presses}))\n\nauto_switcher(input_data['pokemon_to_select'], input_data['party_pokemon_list'], input_data['current_selected_pokemon_name'])",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2025-08-19T22:46:58.889Z",
+        "action_counter": 155341
+      },
+      {
+        "commit_message": "fix: Correct SyntaxError by wrapping logic in a function. The tool was failing with a `SyntaxError: 'return' outside function` because the script logic was not properly encapsulated. This commit wraps the entire process within a single function, ensuring all `return` statements are correctly scoped. It also refines the logic to correctly generate the full sequence of button presses for a switch, from selecting 'PKMN' on the main menu to confirming the final choice.",
+        "timestamp": "2025-08-19T22:58:40.462Z",
+        "action_counter": 155360
+      },
+      {
+        "commit_message": "fix: Correct battle menu navigation logic. The tool was using 'Down' to select the PKMN option, which is incorrect for the 2x2 battle menu layout. This commit changes the initial button press to 'Right', ensuring the tool correctly navigates to the Pokémon selection screen. This is a critical fix to restore the tool's intended functionality.",
+        "timestamp": "2025-08-19T22:59:34.999Z",
+        "action_counter": 155362
+      },
+      {
+        "commit_message": "refactor: Change input from index to name for robustness. The tool was previously failing because it relied on a numeric index for the current cursor position, which was based on an incorrect assumption. This commit refactors the tool to accept the *name* of the currently selected Pokémon, making the logic independent of unpredictable cursor starting positions. This is a critical fix to improve reliability, as identified during my 50-turn reflection and by an Overwatch critique.",
+        "timestamp": "2025-08-20T02:47:46.482Z",
+        "action_counter": 155863
+      },
+      {
+        "commit_message": "fix: Add 'Down' press to correctly select 'SWITCH' option. The previous version incorrectly assumed the party sub-menu defaulted to 'SWITCH', causing it to open the 'STATS' screen instead. This commit adds a 'Down' press to navigate from the default 'STATS' option to 'SWITCH', ensuring the tool performs the intended action. This is a critical fix for battle automation.",
+        "timestamp": "2025-08-20T05:06:30.462Z",
+        "action_counter": 156174
+      }
+    ]
+  },
   "battle_data_extractor": {
     "description": "Parses battle data by taking separate JSON strings for player party and enemy pokemon, making it more robust against parsing errors.",
     "input_schema": {
@@ -1286,116 +1396,6 @@
         "commit_message": "feat: Add diagnostic obstacle reporting on path failure. In response to Overwatch feedback and a self-identified flaw, this commit enhances the tool to report the names and coordinates of potential blocking objects (NPCs, boulders) when no path is found. This is a critical improvement for distinguishing between solvable in-game puzzles and genuine tool failures.",
         "timestamp": "2025-08-18T23:56:27.450Z",
         "action_counter": 153571
-      }
-    ]
-  },
-  "auto_switcher": {
-    "description": "Automates the entire process of switching Pokémon in battle. Takes a target Pokémon's name and party info, then returns the full sequence of button presses ('Right' for PKMN, directional inputs, 'A', 'A').",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "pokemon_to_select": {
-          "type": "string"
-        },
-        "party_pokemon_list": {
-          "type": "string"
-        },
-        "current_selected_pokemon_name": {
-          "type": "string"
-        }
-      },
-      "required": [
-        "pokemon_to_select",
-        "party_pokemon_list",
-        "current_selected_pokemon_name"
-      ]
-    },
-    "python_script": "import json\n\ndef auto_switcher(pokemon_to_select, party_pokemon_list_str, current_selected_pokemon_name):\n    presses = ['Right', 'A']\n    party_list = json.loads(party_pokemon_list_str)\n    \n    try:\n        current_index = party_list.index(current_selected_pokemon_name)\n    except ValueError:\n        print(json.dumps({'status': 'failure', 'reason': f'Current Pokémon \"{current_selected_pokemon_name}\" not found in party list.'}))\n        return\n\n    try:\n        target_index = party_list.index(pokemon_to_select)\n    except ValueError:\n        print(json.dumps({'status': 'failure', 'reason': f'Target Pokémon \"{pokemon_to_select}\" not found in party list.'}))\n        return\n\n    diff = target_index - current_index\n    if diff > 0:\n        for _ in range(diff):\n            presses.append('Down')\n    elif diff < 0:\n        for _ in range(abs(diff)):\n            presses.append('Up')\n\n    presses.append('A')\n    presses.append('Down')\n    presses.append('A')\n    print(json.dumps({'status': 'success', 'presses': presses}))\n\nauto_switcher(input_data['pokemon_to_select'], input_data['party_pokemon_list'], input_data['current_selected_pokemon_name'])",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2025-08-19T22:46:58.889Z",
-        "action_counter": 155341
-      },
-      {
-        "commit_message": "fix: Correct SyntaxError by wrapping logic in a function. The tool was failing with a `SyntaxError: 'return' outside function` because the script logic was not properly encapsulated. This commit wraps the entire process within a single function, ensuring all `return` statements are correctly scoped. It also refines the logic to correctly generate the full sequence of button presses for a switch, from selecting 'PKMN' on the main menu to confirming the final choice.",
-        "timestamp": "2025-08-19T22:58:40.462Z",
-        "action_counter": 155360
-      },
-      {
-        "commit_message": "fix: Correct battle menu navigation logic. The tool was using 'Down' to select the PKMN option, which is incorrect for the 2x2 battle menu layout. This commit changes the initial button press to 'Right', ensuring the tool correctly navigates to the Pokémon selection screen. This is a critical fix to restore the tool's intended functionality.",
-        "timestamp": "2025-08-19T22:59:34.999Z",
-        "action_counter": 155362
-      },
-      {
-        "commit_message": "refactor: Change input from index to name for robustness. The tool was previously failing because it relied on a numeric index for the current cursor position, which was based on an incorrect assumption. This commit refactors the tool to accept the *name* of the currently selected Pokémon, making the logic independent of unpredictable cursor starting positions. This is a critical fix to improve reliability, as identified during my 50-turn reflection and by an Overwatch critique.",
-        "timestamp": "2025-08-20T02:47:46.482Z",
-        "action_counter": 155863
-      },
-      {
-        "commit_message": "fix: Add 'Down' press to correctly select 'SWITCH' option. The previous version incorrectly assumed the party sub-menu defaulted to 'SWITCH', causing it to open the 'STATS' screen instead. This commit adds a 'Down' press to navigate from the default 'STATS' option to 'SWITCH', ensuring the tool performs the intended action. This is a critical fix for battle automation.",
-        "timestamp": "2025-08-20T05:06:30.462Z",
-        "action_counter": 156174
-      }
-    ]
-  },
-  "auto_attacker": {
-    "description": "Calculates the directional button presses needed to select a specific move from the 2x2 battle move menu. Does not press 'A'.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "move_to_select": {
-          "type": "string"
-        },
-        "pokemon_move_list": {
-          "type": "string"
-        },
-        "current_selected_move": {
-          "type": "string",
-          "nullable": true
-        }
-      },
-      "required": [
-        "move_to_select",
-        "pokemon_move_list"
-      ]
-    },
-    "python_script": "import json\n\ndef auto_attacker(move_to_select, pokemon_move_list_str, current_selected_move_str=None):\n    move_list = json.loads(pokemon_move_list_str)\n    \n    try:\n        target_index = move_list.index(move_to_select)\n    except ValueError:\n        print(json.dumps({'status': 'failure', 'reason': f'Target move \\\"{move_to_select}\\\" not found in move list.'}))\n        return\n\n    start_index = 0\n    if current_selected_move_str:\n        try:\n            start_index = move_list.index(current_selected_move_str)\n        except ValueError:\n            start_index = 0\n\n    presses = []\n    diff = target_index - start_index\n\n    if diff > 0:\n        for _ in range(diff):\n            presses.append('Down')\n    elif diff < 0:\n        for _ in range(abs(diff)):\n            presses.append('Up')\n\n    print(json.dumps({'status': 'success', 'presses': presses}))\n\nauto_attacker(input_data['move_to_select'], input_data['pokemon_move_list'], input_data.get('current_selected_move'))",
-    "history": [
-      {
-        "commit_message": "feat: Create auto_attacker tool to streamline battle actions. In response to my 50-turn reflection identifying an inefficiency, this tool combines the logic of selecting a move and pressing 'A' to use it into a single, automated command. This is a critical step to improve my turn-by-turn efficiency in combat.",
-        "timestamp": "2025-08-20T00:25:17.302Z",
-        "action_counter": 155553
-      },
-      {
-        "commit_message": "refactor: Add 'FIGHT' selection to automate full attack sequence. In response to a direct Overwatch critique, this commit refactors the tool to handle the entire attack process, from selecting 'FIGHT' on the main menu to executing the chosen move. This eliminates the previous multi-turn manual process, improving battle efficiency and preventing user error. This is a critical fix to adhere to the immediate action mandate.",
-        "timestamp": "2025-08-20T01:45:41.444Z",
-        "action_counter": 155731
-      },
-      {
-        "commit_message": "refactor: Remove all 'A' presses to comply with system input rules. The tool now only calculates and outputs the directional presses required to highlight a move in the menu, preventing mixed-input errors. The user must manually press 'A' in subsequent turns.",
-        "timestamp": "2025-08-20T02:07:25.147Z",
-        "action_counter": 155779
-      },
-      {
-        "commit_message": "feat: Create auto_attacker tool to streamline battle actions. In response to my 50-turn reflection identifying an inefficiency, this tool combines the logic of selecting a move and pressing 'A' to use it into a single, automated command. This is a critical step to improve my turn-by-turn efficiency in combat.",
-        "timestamp": "2025-08-20T04:21:47.836Z",
-        "action_counter": 156070
-      },
-      {
-        "commit_message": "fix: Implement vertical list logic for move selection. The previous version incorrectly assumed a 2x2 grid for the move menu, leading to incorrect directional outputs. This commit replaces the faulty grid logic with a simple index comparison for a linear, vertical menu, ensuring correct navigation. This is a critical fix to restore the tool's core functionality.",
-        "timestamp": "2025-08-20T04:23:23.452Z",
-        "action_counter": 156074
-      },
-      {
-        "commit_message": "fix: Implement 2x2 grid logic for move selection. The previous version incorrectly assumed a vertical list, causing incorrect navigation and move selection. This commit replaces the faulty logic with a coordinate-based system that correctly calculates Up/Down and Left/Right presses for a 2x2 grid. This is a critical fix to restore the tool's core functionality and prevent future battle errors, as mandated by an Overwatch critique.",
-        "timestamp": "2025-08-20T06:14:21.880Z",
-        "action_counter": 156301
-      },
-      {
-        "commit_message": "fix: Revert to vertical list logic for move selection. My previous fix incorrectly assumed a 2x2 grid, but in-game observation confirms the move menu is a simple vertical list. This commit reverts the logic to correctly calculate only Up/Down presses. This is a critical fix to restore the tool's core functionality based on direct evidence from the game screen.",
-        "timestamp": "2025-08-20T06:15:54.921Z",
-        "action_counter": 156304
       }
     ]
   },
