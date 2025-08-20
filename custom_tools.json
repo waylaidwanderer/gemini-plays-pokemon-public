@@ -1289,66 +1289,6 @@
       }
     ]
   },
-  "select_party_pokemon": {
-    "description": "Takes a Pokémon's name, a list of the party members in order, and the index of the currently selected Pokémon, then returns the sequence of button presses ('Up' or 'Down') needed to select that Pokémon in a non-wrapping menu.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "pokemon_to_select": {
-          "type": "string"
-        },
-        "party_pokemon_list": {
-          "type": "string"
-        },
-        "current_selected_pokemon_index": {
-          "type": "string"
-        }
-      },
-      "required": [
-        "pokemon_to_select",
-        "party_pokemon_list",
-        "current_selected_pokemon_index"
-      ]
-    },
-    "python_script": "import json\n\ndef select_party_pokemon(pokemon_to_select, party_pokemon_list_str, current_selected_pokemon_index_str):\n    party_list = json.loads(party_pokemon_list_str)\n    current_index = int(current_selected_pokemon_index_str)\n    \n    try:\n        target_index = party_list.index(pokemon_to_select)\n    except ValueError:\n        print(json.dumps({'status': 'failure', 'reason': f'Pokémon \"{pokemon_to_select}\" not found in party list.'}))\n        return\n\n    presses = []\n    diff = target_index - current_index\n    if diff > 0:\n        for _ in range(diff):\n            presses.append('Down')\n    elif diff < 0:\n        for _ in range(abs(diff)):\n            presses.append('Up')\n\n    print(json.dumps({'status': 'success', 'presses': presses}))\n\nselect_party_pokemon(input_data['pokemon_to_select'], input_data['party_pokemon_list'], input_data['current_selected_pokemon_index'])",
-    "history": [
-      {
-        "commit_message": "feat: Create select_party_pokemon tool. In response to Overwatch feedback and my own self-reflection on inefficient manual menu navigation, this tool automates the process of selecting a Pokémon from the party list during a battle switch. This is a critical step to reduce errors and improve turn-by-turn efficiency.",
-        "timestamp": "2025-08-18T01:17:40.668Z",
-        "action_counter": 151413
-      },
-      {
-        "commit_message": "fix: Implement menu wrapping logic. The previous version incorrectly assumed a non-wrapping menu, leading to incorrect move calculations and failed switches. This commit adds modulo arithmetic to correctly calculate the shortest path (Up or Down) in a wrapping menu, preventing future navigational errors. This was identified as a critical flaw during my 50-turn reflection.",
-        "timestamp": "2025-08-19T02:39:55.230Z",
-        "action_counter": 153895
-      },
-      {
-        "commit_message": "fix: Implement non-wrapping menu logic. The previous version incorrectly assumed the party menu wraps around, leading to incorrect move calculations and failed switches. This commit replaces the faulty modulo arithmetic with a direct index comparison to correctly handle a linear, non-wrapping menu. This was identified as a critical flaw by the Overwatch system and is being fixed immediately to adhere to core directives.",
-        "timestamp": "2025-08-19T04:02:36.456Z",
-        "action_counter": 154052
-      },
-      {
-        "commit_message": "fix: Implement non-wrapping menu logic. The previous version incorrectly assumed the party menu wraps around, leading to incorrect move calculations and failed switches. This commit replaces the faulty modulo arithmetic with a direct index comparison to correctly handle a linear, non-wrapping menu. This was identified as a critical flaw by the Overwatch system and is being fixed immediately to adhere to core directives.",
-        "timestamp": "2025-08-19T04:03:20.979Z",
-        "action_counter": 154053
-      },
-      {
-        "commit_message": "fix: Implement non-wrapping menu logic. The previous version incorrectly assumed the party menu wraps around, leading to incorrect move calculations and failed switches. This commit replaces the faulty modulo arithmetic with a direct index comparison to correctly handle a linear, non-wrapping menu. This was identified as a critical flaw by the Overwatch system and is being fixed immediately to adhere to core directives.",
-        "timestamp": "2025-08-19T04:10:54.040Z",
-        "action_counter": 154059
-      },
-      {
-        "commit_message": "fix: Implement menu wrapping logic to find shortest path. In response to a direct Overwatch critique identifying the tool as faulty, this commit replaces the previous non-wrapping logic with a shortest-path calculation that assumes the menu wraps. This change is a direct attempt to fix the observed erratic behavior and improve tool reliability.",
-        "timestamp": "2025-08-19T07:42:51.358Z",
-        "action_counter": 154351
-      },
-      {
-        "commit_message": "fix: Implement non-wrapping menu logic. The previous version incorrectly assumed the party menu wraps, leading to incorrect move calculations. This commit replaces the faulty modulo arithmetic with a direct index comparison to correctly handle a linear, non-wrapping menu, as confirmed by in-game testing documented in my notepad. This is a critical fix to ensure reliable party navigation.",
-        "timestamp": "2025-08-19T08:03:19.887Z",
-        "action_counter": 154376
-      }
-    ]
-  },
   "auto_switcher": {
     "description": "Automates the entire process of switching Pokémon in battle. Takes a target Pokémon's name and party info, then returns the full sequence of button presses ('Right' for PKMN, directional inputs, 'A', 'A').",
     "input_schema": {
@@ -1456,6 +1396,32 @@
         "commit_message": "fix: Revert to vertical list logic for move selection. My previous fix incorrectly assumed a 2x2 grid, but in-game observation confirms the move menu is a simple vertical list. This commit reverts the logic to correctly calculate only Up/Down presses. This is a critical fix to restore the tool's core functionality based on direct evidence from the game screen.",
         "timestamp": "2025-08-20T06:15:54.921Z",
         "action_counter": 156304
+      }
+    ]
+  },
+  "type_map_generator": {
+    "description": "Generates a JSON string mapping Pokémon species names to their types based on a hardcoded dictionary. Takes player party and enemy Pokémon JSON as input.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "player_party_json": {
+          "type": "string"
+        },
+        "enemy_pokemon_json": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "player_party_json",
+        "enemy_pokemon_json"
+      ]
+    },
+    "python_script": "import json\n\ndef generate_type_map(player_party_json, enemy_pokemon_json):\n    KNOWN_TYPES = {\n        'MAROWAK': ['Ground'], 'KANGASKHAN': ['Normal'], 'LAPRAS': ['Water', 'Ice'],\n        'GOLEM': ['Rock', 'Ground'], 'PIKACHU': ['Electric'], 'GOLBAT': ['Poison', 'Flying'],\n        'DRAGONITE': ['Dragon', 'Flying'], 'GYARADOS': ['Water', 'Flying'], 'CHARIZARD': ['Fire', 'Flying'],\n        'AERODACTYL': ['Rock', 'Flying'], 'DEWGONG': ['Water', 'Ice'], 'JYNX': ['Ice', 'Psychic'],\n        'SLOWBRO': ['Water', 'Psychic'], 'CLOISTER': ['Water', 'Ice'], 'HITMONCHAN': ['Fighting'],\n        'POLIWRATH': ['Water', 'Fighting'], 'HITMONLEE': ['Fighting'], 'ONIX': ['Rock', 'Ground'],\n        'MACHAMP': ['Fighting'], 'GENGAR': ['Ghost', 'Poison'], 'ARBOK': ['Poison']\n    }\n    type_map = {}\n    try:\n        player_party = json.loads(player_party_json)\n        for pkm in player_party:\n            species = pkm.get('species')\n            if species and species in KNOWN_TYPES:\n                type_map[species] = KNOWN_TYPES[species]\n        enemy_pokemon = json.loads(enemy_pokemon_json)\n        for pkm in enemy_pokemon:\n            species = pkm.get('name')\n            if species and species in KNOWN_TYPES:\n                type_map[species] = KNOWN_TYPES[species]\n        print(json.dumps({'status': 'success', 'type_map_json': json.dumps(type_map)}))\n    except Exception as e:\n        print(json.dumps({'status': 'failure', 'reason': str(e)}))\n\ngenerate_type_map(input_data['player_party_json'], input_data['enemy_pokemon_json'])",
+    "history": [
+      {
+        "commit_message": "feat: Create type_map_generator tool. This tool automates the creation of the type map JSON required by other battle tools. This eliminates a repetitive, error-prone manual step identified during my 50-turn reflection, improving overall reliability and efficiency.",
+        "timestamp": "2025-08-20T06:30:22.987Z",
+        "action_counter": 156329
       }
     ]
   }
