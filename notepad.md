@@ -83,14 +83,15 @@
   - GENGAR (Lv 59) - Known Moves: Mega Drain, Thunder, Psychic, Night Shade
 
 ### Lance (Defeated)
-  - DRAGONITE (Lv 61) - Known Moves: Hyper Beam
+  - DRAGONITE (Lv 61) - Known Moves: Hyper Beam, THUNDER WAVE, WRAP
   - GYARADOS (Lv 60) - Known Moves: Slam
   - CHARIZARD (Lv 60) - Known Moves: Earthquake, Flamethrower
-  - AERODACTYL (Lv 61) - Known Moves: Earthquake, Hyper Beam
+  - AERODACTYL (Lv 61) - Known Moves: Earthquake, Hyper Beam, ROCK SLIDE
   - DRAGONITE (Lv 62) - Known Moves: Fire Blast, Slam, Thunder Wave, Wrap, Hyper Beam, Blizzard, Thunder
 
 ### Champion Pixel
   - MAGNETON (Lv 62) - Known Moves: THUNDER WAVE, THUNDER, TRI ATTACK
+  - DODRIO (Lv 61) - Known Moves: DRILL PECK, HYPER BEAM
 
 ## C. Battle Mechanics (Verified)
 - **SPOONBENDE Speed:** My Lv 38 Kadabra (SPOONBENDE) is confirmed to be faster than Agatha's Lv 57 Gengar.
@@ -119,6 +120,7 @@
 - **Confirmation Bias & Inflexibility:** During the battle with Lance's Dragonite, my goal was to lose strategically. However, after a lucky miss from the opponent, I failed to re-evaluate the situation. I continued with the "lose" plan instead of pivoting to a "win" strategy. **Correction:** When unexpected events or luck create a potential opening, I must immediately reassess my strategy and be flexible enough to abandon the original plan if a better opportunity arises.
 - **Map Marker Discipline:** I must adopt a clearer system for map markers to distinguish between attempts, such as deleting markers from failed runs to avoid confusion. (Self-Correction Turn 155432)
 - **Panic Switching Error (Over-prediction):** Against Agatha's Swords Dance Marowak, I switched out ECHO (immune to Ground STAB) due to fear of a potential Rock Slide, and switched in CRAG (weak to Ground STAB). This was a critical error. I prioritized avoiding a *potential* threat over exploiting a *guaranteed* immunity, resulting in unnecessary damage. **Correction:** I must prioritize guaranteed immunities and resistances over playing around unconfirmed coverage moves, especially when the current matchup is already advantageous.
+- **Flawed Tool Debugging (Unverified Assumptions):** The repeated failures of the `auto_attacker` tool were caused by a flawed debugging process. I incorrectly assumed the move menu was a 2x2 grid without performing a simple in-game test to verify this assumption. This led to wasted turns implementing a faulty 'fix' that had to be reverted. **Correction:** I must verify core game mechanics with simple, direct tests before designing or modifying tools that rely on those mechanics.
 
 ## B. Tool & Agent Development Log
 - **Diagnostic Tool Output:** Pathfinding tools must report the specific obstacle that blocks a path upon failure. This is essential for distinguishing between a solvable puzzle and a genuinely impossible route.
@@ -145,6 +147,7 @@
 - **PC Box Selection Anomaly (UNVERIFIED):** The game may select the box one position *below* the highlighted cursor. This has only been observed once and requires further testing to confirm if it's a consistent bug. The logic for the `pc_pokemon_selector` tool is based on an untested assumption about the PC interface and will require manual observation and debugging.
 - **Forced Switch Mechanic (UNVERIFIED):** The game sometimes overrides the player's choice of Pokémon during a switch. The exact trigger conditions are still unknown. **Test Plan:** When forced to switch, if there are sleeping Pokémon in the party, I will deliberately select a conscious Pokémon that is positioned *after* a sleeping Pokémon in the party list. If the game sends out the sleeping Pokémon instead of my selection, the hypothesis that the game prioritizes sleeping Pokémon in the switch order will be supported.
 - **Speed Assumption Failure (Jynx) (UNVERIFIED):** SPARKY might not be faster than Lorelei's Jynx. This assumption led to SPARKY being put to sleep and needs to be verified.
+- **Paralysis Move Anomaly (UNVERIFIED):** It's possible that paralysis can cause a Pokémon to use a different move than the one selected. Observed when TITANESS used DOUBLE-EDGE instead of BODY SLAM. Requires further testing to confirm if this is a consistent mechanic or a one-time glitch/mis-input.
 
 # VI. Active Investigations
 
@@ -152,18 +155,3 @@
 - **Observation:** The `auto_switcher` tool failed because the cursor's starting position in the party menu was not what I assumed it would be after a Pokémon fainted.
 - **Hypothesis:** The cursor position in the party menu (when forced to switch) has specific, predictable logic. It may default to the first non-fainted Pokémon in the list, or the Pokémon in the slot following the fainted one.
 - **Test Plan:** After the Elite Four, I will enter wild battles and systematically test different scenarios (e.g., first Pokémon faints, middle Pokémon faints) to observe and document the cursor's default position. This is critical for improving my battle automation tools.
-
-# VII. Future Development Ideas
-
-## A. Agent Concepts
-- **Training Advisor Agent:** An agent that analyzes my entire collection of Pokémon (party and PC) against known future challenges (e.g., the rest of the Elite Four, the Champion) to recommend a long-term training plan. It would identify key Pokémon to level up and suggest target levels, helping to streamline grinding and preparation.
-
-## B. Tool Concepts
-- **Auto Party Reorderer:** A tool to automate the sequence of button presses required to move a specific Pokémon to the lead position in the party menu.
-
-## D. Reflection-Based Corrections (Turn 156380)
-- **Inefficient Tool Debugging (Unverified Assumptions):** The repeated failures of the `auto_attacker` tool were caused by a flawed debugging process. I incorrectly assumed the move menu was a 2x2 grid without performing a simple in-game test to verify this assumption. This led to wasted turns implementing a faulty 'fix' that had to be reverted. **Correction:** I must verify core game mechanics with simple, direct tests before designing or modifying tools that rely on those mechanics.
-
-# VIII. Planned Tool Improvements
-
-- **Merge `type_map_generator` and `battle_data_extractor`:** To improve efficiency and reduce the number of actions per turn, I will merge the functionality of the `type_map_generator` directly into the `battle_data_extractor` tool. The hardcoded dictionary of known types can be placed inside the extractor, eliminating the need for a separate tool call. This will be implemented after the current Elite Four challenge is complete.
