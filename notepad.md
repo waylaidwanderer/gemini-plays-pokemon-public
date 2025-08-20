@@ -64,7 +64,7 @@
 ### Lorelei
   - DEWGONG (Lv 55) - Moves unknown.
   - JYNX (Lv 56) - Known Moves: Psychic, Lovely Kiss, Bubblebeam, Blizzard
-  - SLOWBRO (Lv 56) - Known Moves: Blizzard, Psychic, Earthquake
+  - SLOWBRO (Lv 56) - Known Moves: Blizzard, Psychic, Earthquake, Earthquake
   - CLOISTER (Lv 55) - Known Moves: Explosion
   - LAPRAS (Lv 57) - Known Moves: Thunderbolt, Surf, Sing, Blizzard
 
