@@ -152,3 +152,7 @@
 - **PC Screen Text Parser:** Create a tool that can parse the screen text of a PC box to automatically generate the list of Pokémon, streamlining the input process for the `pc_withdraw_pokemon` tool.
 - **`auto_switcher` Refinement:** The tool's cursor logic has been fixed to correctly handle in-battle switches. A future improvement could be adding checks to prevent switching to fainted or status-afflicted Pokémon.
 - **Sacrifice Advisor:** An agent that analyzes the current battle state (remaining opponent Pokémon, my remaining team's health/status) to recommend which Pokémon is the most strategically sound to sacrifice in a no-win situation to set up a better position for the next Pokémon.
+
+## C. Strategic Priorities (Post-Reflection)
+- **Data Gathering (Lance):** During the next battle with Lance, prioritize observing and documenting the full movesets of all his Pokémon. Use different Pokémon to bait out various attacks to build a comprehensive record.
+- **Tool Development (PC Parser):** At the next available opportunity when using a PC, prioritize the creation of a 'PC Screen Text Parser' tool. This will automate the extraction of the Pokémon list from the screen text, streamlining the input process for the `pc_withdraw_pokemon` tool and improving team management efficiency.
