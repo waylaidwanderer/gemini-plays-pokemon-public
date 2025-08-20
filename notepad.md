@@ -153,3 +153,4 @@
 - **Action Item:** Adopt a clearer system for map markers to distinguish between attempts, such as deleting markers from failed runs.
 ## D. Overwatch Feedback (Turn 155490)
 - Action Item: Delete the outdated 'Lance defeated' marker at (7, 2) on map 113 after the current Elite Four challenge is complete.
+- **Hyper Beam Recharge (CORRECTED):** The move Hyper Beam does NOT guarantee a recharge turn for the opponent. An opponent can act immediately on the following turn. (Observed: Lance's Charizard used Earthquake after I switched in SPARKY, expecting a free turn. Turn 155531)
