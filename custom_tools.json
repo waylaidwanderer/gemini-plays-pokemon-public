@@ -280,5 +280,35 @@
         "action_counter": 156512
       }
     ]
+  },
+  "pc_withdraw_pokemon": {
+    "description": "Calculates the button presses needed to withdraw a specific Pokémon from the current PC box. Assumes the list does not wrap around.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "pokemon_to_withdraw": {
+          "type": "string"
+        },
+        "pc_box_list_str": {
+          "type": "string"
+        },
+        "current_cursor_pokemon": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "pokemon_to_withdraw",
+        "pc_box_list_str",
+        "current_cursor_pokemon"
+      ]
+    },
+    "python_script": "import json\n\ndef get_presses():\n    pokemon_to_withdraw = input_data['pokemon_to_withdraw']\n    pc_box_list_str = input_data['pc_box_list_str']\n    current_cursor_pokemon = input_data['current_cursor_pokemon']\n\n    try:\n        pc_box_list = json.loads(pc_box_list_str)\n    except json.JSONDecodeError:\n        print(json.dumps({'status': 'failure', 'reason': 'Invalid JSON format for pc_box_list_str.'}))\n        return\n\n    try:\n        start_index = pc_box_list.index(current_cursor_pokemon)\n        target_index = pc_box_list.index(pokemon_to_withdraw)\n    except ValueError as e:\n        print(json.dumps({'status': 'failure', 'reason': f'Pokemon not found in list: {e}'}))\n        return\n\n    moves = target_index - start_index\n    buttons = []\n\n    if moves > 0:\n        buttons.extend(['Down'] * moves)\n    elif moves < 0:\n        buttons.extend(['Up'] * abs(moves))\n\n    buttons.extend(['A', 'A']) # Select Pokemon, then select WITHDRAW\n\n    print(json.dumps({'status': 'success', 'buttons': buttons}))\n\nget_presses()",
+    "history": [
+      {
+        "commit_message": "feat: Create pc_withdraw_pokemon tool to automate team management. In response to my 50-turn reflection identifying an inefficiency in manual PC navigation, this tool calculates the button presses required to select and withdraw a specific Pokémon. This will significantly speed up the process of assembling my team for the Elite Four, adhering to the core directive of immediate automation.",
+        "timestamp": "2025-08-20T19:13:01.208Z",
+        "action_counter": 157056
+      }
+    ]
   }
 }
