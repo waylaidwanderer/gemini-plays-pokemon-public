@@ -142,7 +142,6 @@
 # IV. Future Development & Strategy (Post-Reflection)
 
 ## A. Agent & Tool Ideas
-- **Master Battle Agent Idea:** Create a new orchestrator agent that takes raw party/enemy JSON and internally calls `type_map_generator`, `battle_data_extractor`, and `battle_strategist_agent` to return a single, final action. This would streamline the current 3-step battle analysis process into a single tool call, improving turn efficiency.
 
 ## B. Untested Assumptions to Verify
 - **Team Composition Optimality:** My current team failed against the Champion. I have been assuming it is the best possible team. **Hypothesis:** A different combination of my available Pokémon might provide better matchups against the Elite Four and Champion Pixel. **Test:** After this Elite Four run (win or lose), I will use the `team_composition_advisor` agent with my entire PC box as input to generate a new recommended team. I will then compare its suggestions to my current lineup to identify potential improvements.
