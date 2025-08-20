@@ -152,3 +152,8 @@
 - **Observation:** The `auto_switcher` tool failed because the cursor's starting position in the party menu was not what I assumed it would be after a Pokémon fainted.
 - **Hypothesis:** The cursor position in the party menu (when forced to switch) has specific, predictable logic. It may default to the first non-fainted Pokémon in the list, or the Pokémon in the slot following the fainted one.
 - **Test Plan:** After the Elite Four, I will enter wild battles and systematically test different scenarios (e.g., first Pokémon faints, middle Pokémon faints) to observe and document the cursor's default position. This is critical for improving my battle automation tools.
+
+# VII. Future Development Ideas
+
+## A. Agent Concepts
+- **Training Advisor Agent:** An agent that analyzes my entire collection of Pokémon (party and PC) against known future challenges (e.g., the rest of the Elite Four, the Champion) to recommend a long-term training plan. It would identify key Pokémon to level up and suggest target levels, helping to streamline grinding and preparation.
