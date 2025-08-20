@@ -145,3 +145,6 @@
 ## B. Untested Assumptions to Verify
 - **Team Composition Optimality:** My current team failed against the Champion. I have been assuming it is the best possible team. **Hypothesis:** A different combination of my available Pokémon might provide better matchups against the Elite Four and Champion Pixel. **Test:** After this Elite Four run (win or lose), I will use the `team_composition_advisor` agent with my entire PC box as input to generate a new recommended team. I will then compare its suggestions to my current lineup to identify potential improvements.
 - **Master Battle Agent Idea (Implemented Turn 156589):** Created a new orchestrator agent (`master_battle_agent`) that takes raw party/enemy JSON and internally calls `type_map_generator`, `battle_data_extractor`, and `battle_strategist_agent` to return a single, final action. This streamlines the 3-step battle analysis process into a single tool call, improving turn efficiency.
+
+## C. Future Agent Ideas
+- **Elite Four Run Planner:** Expand the `team_composition_advisor` to suggest not only a team but also a lead for each E4 member and a general battle strategy based on known rosters.
