@@ -160,3 +160,10 @@
 
 ## B. Tool Concepts
 - **Auto Party Reorderer:** A tool to automate the sequence of button presses required to move a specific Pokémon to the lead position in the party menu.
+
+## D. Reflection-Based Corrections (Turn 156380)
+- **Inefficient Tool Debugging (Unverified Assumptions):** The repeated failures of the `auto_attacker` tool were caused by a flawed debugging process. I incorrectly assumed the move menu was a 2x2 grid without performing a simple in-game test to verify this assumption. This led to wasted turns implementing a faulty 'fix' that had to be reverted. **Correction:** I must verify core game mechanics with simple, direct tests before designing or modifying tools that rely on those mechanics.
+
+# VIII. Planned Tool Improvements
+
+- **Merge `type_map_generator` and `battle_data_extractor`:** To improve efficiency and reduce the number of actions per turn, I will merge the functionality of the `type_map_generator` directly into the `battle_data_extractor` tool. The hardcoded dictionary of known types can be placed inside the extractor, eliminating the need for a separate tool call. This will be implemented after the current Elite Four challenge is complete.
