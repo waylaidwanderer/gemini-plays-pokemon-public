@@ -148,3 +148,8 @@
 
 ## C. Future Agent Ideas
 - **Elite Four Run Planner:** Expand the `team_composition_advisor` to suggest not only a team but also a lead for each E4 member and a general battle strategy based on known rosters.
+- **Tool Execution Failure (Self-Correction):** I repeatedly failed to execute the `notepad_edit` tool correctly due to providing mismatched text for replacement. This led to delays in updating my knowledge base, violating the immediate action mandate. **Correction:** I must be more meticulous when using tools, ensuring all arguments are precise to prevent execution failures.
+- **Confirmation Bias (Hyper Beam):** I incorrectly concluded that Hyper Beam *never* has a recharge turn based on a single observation. New evidence proved this wrong. **Correction:** I must require multiple, consistent observations before documenting a game mechanic as a verified rule. A single data point is not enough.
+
+## C. Future Agent Ideas
+- **Creative Team Builder:** An agent that suggests interesting or thematic team compositions for challenges, rather than just the single most optimal one. For example, 'Suggest a team to beat the Elite Four without using any Water-type Pokémon.'
