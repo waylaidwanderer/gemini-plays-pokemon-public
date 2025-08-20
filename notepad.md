@@ -95,6 +95,7 @@
 - **Rematch Mechanic:** Some Elite Four members (Bruno, Agatha) require a second interaction to trigger a mandatory rematch before allowing progression.
 - **Hypnosis Anomaly (Corrected):** Agatha's Gengar's first Hypnosis on TITANESS failed (Turn 150576), but a second attempt succeeded (Turn 150583). The initial failure was likely a standard move miss, not an immunity. This confirms TITANESS is not immune to sleep.
 - **Night Shade Damage Anomaly:** Agatha's Lv 57 Gengar's Night Shade dealt 38 damage instead of the expected 57. This may be a mechanic change in the ROM hack. (Observed Turn 148518)
+- **Hyper Beam Recharge (CORRECTED):** The move Hyper Beam does NOT guarantee a recharge turn for the opponent. An opponent can act immediately on the following turn. (Observed: Lance's Charizard used Earthquake after I switched in SPARKY, expecting a free turn. Turn 155531)
 
 # III. Meta-Progression & Lessons Learned
 
@@ -113,6 +114,7 @@
 - **Tool Maintenance Error (Corrected):** I incorrectly logged that I deferred a tool fix in turn 151892. My action log confirms I implemented the fix for `generate_path_plan` in turn 151891. This was a data entry error, not a procedural one. Maintaining accurate logs is critical.
 - **Speed Assumption Failure:** I gambled that SPARKY was faster than SLOWBRO without any evidence. I must avoid making assumptions about stats, especially speed, in critical matchups. This was a methodological failure.
 - **Confirmation Bias & Inflexibility:** During the battle with Lance's Dragonite, my goal was to lose strategically. However, after a lucky miss from the opponent, I failed to re-evaluate the situation. I continued with the "lose" plan instead of pivoting to a "win" strategy. **Correction:** When unexpected events or luck create a potential opening, I must immediately reassess my strategy and be flexible enough to abandon the original plan if a better opportunity arises.
+- **Map Marker Discipline:** I must adopt a clearer system for map markers to distinguish between attempts, such as deleting markers from failed runs to avoid confusion. (Self-Correction Turn 155432)
 
 ## B. Tool & Agent Development Log
 - **Diagnostic Tool Output:** Pathfinding tools must report the specific obstacle that blocks a path upon failure. This is essential for distinguishing between a solvable puzzle and a genuinely impossible route.
@@ -122,6 +124,7 @@
 - **Agent Gamble Failure & AI Prediction:** The battle_strategist_agent correctly identified a high-risk, high-reward play by switching to CRAG, predicting Lapras would use its known move Thunderbolt. However, the opponent AI made the optimal counter-play by using Surf against the incoming CRAG, leading to a faint. This confirms that the AI is capable of predicting switches and choosing the best move to counter the incoming Pokémon, not just the one on the field. (Observed Turn 149533, Lorelei's Lapras vs. CRAG).
 - **`auto_switcher` Tool Created:** Developed in Turn 155341 to fully automate the Pokémon switch sequence, improving battle efficiency.
 - **`pre_battle_analyzer` Agent Created:** Developed in Turn 155344 to provide high-level strategic summaries before major battles.
+- **`auto_attacker` Tool Created:** Developed in Turn 155553 to streamline battle actions by combining move selection and execution into a single command.
 
 ## C. System Feedback & Self-Correction (Actioned)
 - **Notepad Data Integrity:** I must ensure my notepad does not contain outdated information or function as a to-do list. All system feedback must be immediately actioned and integrated into my permanent knowledge base under 'Lessons Learned'.
@@ -135,7 +138,7 @@
 
 ## B. Untested Hypotheses
 - **Type Matchup (UNVERIFIED):** Electric vs. Flying. Need to test this matchup to confirm effectiveness.
-- **Concatenated Battle Text (UNVERIFIED):** The on-screen text log may sometimes display events from multiple turns together, especially after a move that grants invulnerability (e.g., Fly). This can create the illusion of an opponent attacking multiple times in one turn. (Hypothesized Turn 155136)
+- **Concatenated Battle Text (UNVERIFIED):** The on-screen text log may sometimes display events from multiple turns together, especially after a move that grants invulnerability (e.g., Fly). This can create the illusion of an opponent attacking multiple times in one turn. (Hypothesized Turn 155136, 155566, 155585)
 - **PC Box Selection Anomaly (UNVERIFIED):** The game may select the box one position *below* the highlighted cursor. This has only been observed once and requires further testing to confirm if it's a consistent bug. The logic for the `pc_pokemon_selector` tool is based on an untested assumption about the PC interface and will require manual observation and debugging.
 - **Forced Switch Mechanic (UNVERIFIED):** The game sometimes overrides the player's choice of Pokémon during a switch. The exact trigger conditions are still unknown. **Test Plan:** When forced to switch, if there are sleeping Pokémon in the party, I will deliberately select a conscious Pokémon that is positioned *after* a sleeping Pokémon in the party list. If the game sends out the sleeping Pokémon instead of my selection, the hypothesis that the game prioritizes sleeping Pokémon in the switch order will be supported.
 - **Speed Assumption Failure (Jynx) (UNVERIFIED):** SPARKY might not be faster than Lorelei's Jynx. This assumption led to SPARKY being put to sleep and needs to be verified.
@@ -147,25 +150,3 @@
 
 ## B. Confirmed Battle Mechanics
 - **SPOONBENDE Speed:** My Lv 38 Kadabra (SPOONBENDE) is confirmed to be faster than Agatha's Lv 57 Gengar. The hypothesis that it might be too slow has been falsified, which makes the Psychic-spam strategy viable.
-
-## D. Overwatch Feedback (Turn 155432)
-- **Action Item:** Must use `pre_battle_analyzer` agent before the battle with Lance to validate its usefulness.
-- **Action Item:** Must mark the arrival warp in Agatha's Room (from Bruno's Room) as 'Used' after the current battle concludes.
-- **Action Item:** Adopt a clearer system for map markers to distinguish between attempts, such as deleting markers from failed runs.
-## D. Overwatch Feedback (Turn 155490)
-
-- **Hyper Beam Recharge (CORRECTED):** The move Hyper Beam does NOT guarantee a recharge turn for the opponent. An opponent can act immediately on the following turn. (Observed: Lance's Charizard used Earthquake after I switched in SPARKY, expecting a free turn. Turn 155531)
-## D. 50-Turn Reflections
-### Turn 155551 Reflection
-- **Immediate Action:** No lapses identified. Have been adhering to the immediate action mandate for tool creation and documentation.
-- **Notepad Quality:** Notepad is well-organized and contains unique, valuable information. No major refactor needed.
-- **Tile Mechanics:** Documentation is up-to-date.
-- **Agent Opportunities:** No immediate new agents identified. Current suite is robust.
-- **Agent Refinement:** No immediate refinements needed for existing agents.
-- **Agent Deletion:** No agents are obsolete.
-- **Map Markers:** Discipline needs improvement, as noted by recent Overwatch feedback. Action items are logged for after the E4 challenge.
-- **Tool Creation:** Identified an opportunity to streamline battle actions. Created a new tool, `auto_attacker`, to combine move selection and execution into a single command. This is a direct outcome of this reflection.
-- **Goal Adherence:** Goals are well-formed and still relevant.
-- **Untested Assumptions:** Existing untested hypotheses are logged. The recent assumption about Hyper Beam's recharge turn was falsified and corrected. Will observe battle text carefully to test the 'concatenated text' hypothesis.
-- **Concatenated Battle Text (UNVERIFIED):** The on-screen text log may sometimes display events from multiple turns together, especially after a move that grants invulnerability (e.g., Fly). This can create the illusion of an opponent attacking multiple times in one turn. (Hypothesized Turn 155566 vs Lance's Aerodactyl)
-- **Concatenated Battle Text (Further Evidence):** Observed Aerodactyl using Earthquake three times in a row before my turn. (Hypothesized Turn 155585 vs Lance's Aerodactyl)
