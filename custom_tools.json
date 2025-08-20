@@ -1420,7 +1420,7 @@
         "pokemon_move_list"
       ]
     },
-    "python_script": "import json\n\ndef auto_attacker(move_to_select, pokemon_move_list_str, current_selected_move_str=None):\n    move_list = json.loads(pokemon_move_list_str)\n    \n    try:\n        target_index = move_list.index(move_to_select)\n    except ValueError:\n        print(json.dumps({'status': 'failure', 'reason': f'Target move \\\"{move_to_select}\\\" not found in move list.'}))\n        return\n\n    start_index = 0 # Cursor always defaults to top-left (index 0) in battle menu\n\n    start_row, start_col = start_index // 2, start_index % 2\n    target_row, target_col = target_index // 2, target_index % 2\n\n    presses = []\n    \n    row_diff = target_row - start_row\n    if row_diff > 0:\n        presses.extend(['Down'] * row_diff)\n    elif row_diff < 0:\n        presses.extend(['Up'] * abs(row_diff))\n\n    col_diff = target_col - start_col\n    if col_diff > 0:\n        presses.extend(['Right'] * col_diff)\n    elif col_diff < 0:\n        presses.extend(['Left'] * abs(col_diff))\n\n    print(json.dumps({'status': 'success', 'presses': presses}))\n\nauto_attacker(input_data['move_to_select'], input_data['pokemon_move_list'], input_data.get('current_selected_move'))",
+    "python_script": "import json\n\ndef auto_attacker(move_to_select, pokemon_move_list_str, current_selected_move_str=None):\n    move_list = json.loads(pokemon_move_list_str)\n    \n    try:\n        target_index = move_list.index(move_to_select)\n    except ValueError:\n        print(json.dumps({'status': 'failure', 'reason': f'Target move \\\"{move_to_select}\\\" not found in move list.'}))\n        return\n\n    start_index = 0\n    if current_selected_move_str:\n        try:\n            start_index = move_list.index(current_selected_move_str)\n        except ValueError:\n            start_index = 0\n\n    presses = []\n    diff = target_index - start_index\n\n    if diff > 0:\n        for _ in range(diff):\n            presses.append('Down')\n    elif diff < 0:\n        for _ in range(abs(diff)):\n            presses.append('Up')\n\n    print(json.dumps({'status': 'success', 'presses': presses}))\n\nauto_attacker(input_data['move_to_select'], input_data['pokemon_move_list'], input_data.get('current_selected_move'))",
     "history": [
       {
         "commit_message": "feat: Create auto_attacker tool to streamline battle actions. In response to my 50-turn reflection identifying an inefficiency, this tool combines the logic of selecting a move and pressing 'A' to use it into a single, automated command. This is a critical step to improve my turn-by-turn efficiency in combat.",
@@ -1451,6 +1451,11 @@
         "commit_message": "fix: Implement 2x2 grid logic for move selection. The previous version incorrectly assumed a vertical list, causing incorrect navigation and move selection. This commit replaces the faulty logic with a coordinate-based system that correctly calculates Up/Down and Left/Right presses for a 2x2 grid. This is a critical fix to restore the tool's core functionality and prevent future battle errors, as mandated by an Overwatch critique.",
         "timestamp": "2025-08-20T06:14:21.880Z",
         "action_counter": 156301
+      },
+      {
+        "commit_message": "fix: Revert to vertical list logic for move selection. My previous fix incorrectly assumed a 2x2 grid, but in-game observation confirms the move menu is a simple vertical list. This commit reverts the logic to correctly calculate only Up/Down presses. This is a critical fix to restore the tool's core functionality based on direct evidence from the game screen.",
+        "timestamp": "2025-08-20T06:15:54.921Z",
+        "action_counter": 156304
       }
     ]
   }
