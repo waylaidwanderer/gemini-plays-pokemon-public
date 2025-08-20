@@ -65,7 +65,7 @@
   - DEWGONG (Lv 55) - Moves unknown.
   - JYNX (Lv 56) - Known Moves: Psychic, Lovely Kiss, Bubblebeam, Blizzard
   - SLOWBRO (Lv 56) - Known Moves: Blizzard, Psychic, Earthquake
-  - CLOYSTER (Lv 55) - Known Moves: Explosion
+  - CLOISTER (Lv 55) - Known Moves: Explosion
   - LAPRAS (Lv 57) - Known Moves: Thunderbolt, Surf, Sing, Blizzard
 
 ### Bruno
@@ -90,7 +90,7 @@
   - DRAGONITE (Lv 62) - Known Moves: Fire Blast, Slam, Thunder Wave, Wrap, Hyper Beam, Blizzard, Thunder
 
 ### Champion Pixel
-  - MAGNETON (Lv 62) - Known Moves: THUNDER WAVE, THUNDER
+  - MAGNETON (Lv 62) - Known Moves: THUNDER WAVE, THUNDER, TRI ATTACK
 
 ## C. Battle Mechanics (Verified)
 - **SPOONBENDE Speed:** My Lv 38 Kadabra (SPOONBENDE) is confirmed to be faster than Agatha's Lv 57 Gengar.
@@ -152,5 +152,3 @@
 - **Observation:** The `auto_switcher` tool failed because the cursor's starting position in the party menu was not what I assumed it would be after a Pokémon fainted.
 - **Hypothesis:** The cursor position in the party menu (when forced to switch) has specific, predictable logic. It may default to the first non-fainted Pokémon in the list, or the Pokémon in the slot following the fainted one.
 - **Test Plan:** After the Elite Four, I will enter wild battles and systematically test different scenarios (e.g., first Pokémon faints, middle Pokémon faints) to observe and document the cursor's default position. This is critical for improving my battle automation tools.
-### Champion Pixel (Lost)
-  - MAGNETON (Lv 62) - Known Moves: THUNDER WAVE, THUNDER, TRI ATTACK
