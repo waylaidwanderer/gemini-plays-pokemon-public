@@ -134,124 +134,6 @@
       }
     ]
   },
-  "battle_data_extractor": {
-    "description": "Parses battle data by taking separate JSON strings for player party and enemy pokemon, making it more robust against parsing errors.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "player_party_json": {
-          "type": "string"
-        },
-        "enemy_pokemon_json": {
-          "type": "string"
-        },
-        "active_pokemon_name": {
-          "type": "string"
-        },
-        "opponent_known_moves": {
-          "type": "string",
-          "nullable": true
-        },
-        "type_map_json": {
-          "type": "string",
-          "nullable": true
-        }
-      },
-      "required": [
-        "player_party_json",
-        "enemy_pokemon_json",
-        "active_pokemon_name"
-      ]
-    },
-    "python_script": "import json\n\ndef extract_battle_data(player_party_json, enemy_pokemon_json, active_pokemon_name, opponent_known_moves_str, type_map_json=None):\n    try:\n        player_party_dict = json.loads(player_party_json)\n        enemy_pokemon_list = json.loads(enemy_pokemon_json)\n\n        if type_map_json:\n            type_map = json.loads(type_map_json)\n        else:\n            type_map = {}\n\n        def get_types(species_name):\n            if not species_name:\n                return \"Unknown\", None\n            types = type_map.get(species_name, [\"Unknown\"])\n            type1 = types[0]\n            type2 = types[1] if len(types) > 1 else None\n            return type1, type2\n\n        active_pokemon_data = player_party_dict.get(active_pokemon_name)\n        \n        if not active_pokemon_data:\n             print(json.dumps({\"error\": f\"Active pokemon '{active_pokemon_name}' not found in party.\"}))\n             return\n\n        active_type1, active_type2 = get_types(active_pokemon_data.get('species'))\n        player_active_pokemon = {\n            \"name\": active_pokemon_data.get('name'),\n            \"level\": active_pokemon_data.get('level'),\n            \"hp_current\": active_pokemon_data.get('hp_current'),\n            \"hp_max\": active_pokemon_data.get('hp_max'),\n            \"type1\": active_type1, \"type2\": active_type2, \"status\": active_pokemon_data.get('status'),\n            \"moves\": active_pokemon_data.get('moves')\n        }\n\n        player_party_formatted = []\n        for pkm in player_party_dict.values():\n            type1, type2 = get_types(pkm.get('species'))\n            player_party_formatted.append({\n                \"name\": pkm.get('name'),\n                \"level\": pkm.get('level'),\n                \"hp_current\": pkm.get('hp_current'),\n                \"hp_max\": pkm.get('hp_max'),\n                \"status\": pkm.get('status'),\n                \"type1\": type1, \"type2\": type2\n            })\n\n        if not enemy_pokemon_list:\n            print(json.dumps({\"error\": \"The 'enemy_pokemon' list is empty.\"}))\n            return\n\n        opponent_data = enemy_pokemon_list[0]\n        opponent_species_name = opponent_data.get('name')\n        opponent_type1, opponent_type2 = get_types(opponent_species_name)\n        opponent_active_pokemon = {\n            \"name\": opponent_species_name, \n            \"level\": opponent_data.get('level'),\n            \"type1\": opponent_type1, \"type2\": opponent_type2, \"status\": opponent_data.get('status'),\n            \"is_opponent_invulnerable\": False,\n            \"known_moves\": json.loads(opponent_known_moves_str) if opponent_known_moves_str and opponent_known_moves_str != 'null' else []\n        }\n\n        output = {\n            \"player_active_pokemon\": player_active_pokemon,\n            \"player_party\": player_party_formatted,\n            \"opponent_active_pokemon\": opponent_active_pokemon\n        }\n        print(json.dumps(output))\n\n    except Exception as e:\n        import traceback\n        print(json.dumps({\"error\": str(e), \"traceback\": traceback.format_exc()}))\n\nplayer_party_json = input_data['player_party_json']\nenemy_pokemon_json = input_data['enemy_pokemon_json']\nactive_pokemon_name = input_data['active_pokemon_name']\nopponent_known_moves_str = input_data.get('opponent_known_moves', '')\ntype_map_json_str = input_data.get('type_map_json')\n\nextract_battle_data(player_party_json, enemy_pokemon_json, active_pokemon_name, opponent_known_moves_str, type_map_json_str)",
-    "history": [
-      {
-        "commit_message": "feat: Create battle_data_extractor tool. In response to my 50-turn reflection identifying a slow, manual, and error-prone process, this tool automates the extraction and formatting of all necessary battle data from the game state. It will significantly improve the speed and reliability of calling the `battle_strategist_agent`, making my in-battle decision-making more efficient.",
-        "timestamp": "2025-08-18T14:31:39.397Z",
-        "action_counter": 152542
-      },
-      {
-        "commit_message": "fix: Correct JSON parsing logic. The tool was crashing with a KeyError because it was looking for a non-existent 'battle_info' key. This commit updates the script to correctly parse the 'party' and 'enemy_pokemon' keys from the root of the game_state JSON. It also adds a hardcoded type map as a temporary solution to the missing type data, allowing the tool to function until a more robust Pokedex lookup can be implemented.",
-        "timestamp": "2025-08-18T14:39:23.279Z",
-        "action_counter": 152549
-      },
-      {
-        "commit_message": "fix: Correct opponent data parsing. The tool was crashing with an AttributeError because it was treating the `enemy_pokemon` list as a dictionary and using the incorrect key 'name' instead of 'species'. This commit updates the script to correctly access the first element of the list and use the 'species' key, restoring functionality.",
-        "timestamp": "2025-08-18T15:15:44.827Z",
-        "action_counter": 152593
-      },
-      {
-        "commit_message": "fix: Add Gengar to type map. The tool was failing to identify Gengar's type, which is critical for the battle_strategist_agent. This commit adds its Ghost/Poison typing to the hardcoded map.",
-        "timestamp": "2025-08-18T15:37:47.069Z",
-        "action_counter": 152624
-      },
-      {
-        "commit_message": "refactor: Add type_map_json parameter to improve robustness. In response to an Overwatch critique, this commit refactors the tool to accept an optional `type_map_json` parameter. This removes the dependency on a hardcoded internal dictionary, preventing future crashes when encountering new Pokémon species and making the tool more flexible and reliable.",
-        "timestamp": "2025-08-18T16:56:26.938Z",
-        "action_counter": 152732
-      },
-      {
-        "commit_message": "fix: Add `active_pokemon_name` parameter and correct HP keys. The tool was crashing with an `IndexError` because it incorrectly assumed the active Pokémon was always at index 0 of the party list. It also used the wrong keys ('hp_current') for HP values from the party data. This commit adds a required `active_pokemon_name` parameter to correctly identify the active Pokémon and updates the script to use the correct 'hp' and 'max_hp' keys, preventing future crashes and ensuring data accuracy.",
-        "timestamp": "2025-08-18T17:09:17.534Z",
-        "action_counter": 152753
-      },
-      {
-        "commit_message": "fix: Add debug print to diagnose IndexError. The tool is failing with a `list index out of range` error when parsing opponent data. This commit adds a print statement to inspect the `enemy_pokemon` list from the game state, which will help determine if the list is unexpectedly empty or malformed.",
-        "timestamp": "2025-08-18T18:31:57.837Z",
-        "action_counter": 152906
-      },
-      {
-        "commit_message": "fix: Add explicit check for empty opponent list. The tool was crashing with an IndexError without providing clear diagnostics. This commit adds a check to verify if the `enemy_pokemon` list is empty and returns a specific error message if it is. This is a critical debugging step to isolate whether the game state is being passed incorrectly or if there's another issue.",
-        "timestamp": "2025-08-18T18:32:50.406Z",
-        "action_counter": 152908
-      },
-      {
-        "commit_message": "fix: Add detailed type/value logging to diagnose IndexError. The tool continues to fail with an IndexError despite a check for an empty list. This commit adds explicit print statements for the type and value of the 'enemy_pokemon' list immediately before the check. This is a critical diagnostic step, taken in immediate response to an Overwatch critique, to uncover the root cause of why the empty-list check is not preventing the crash.",
-        "timestamp": "2025-08-18T19:16:52.205Z",
-        "action_counter": 153001
-      },
-      {
-        "commit_message": "refactor: Replace single game_state_json with separate party/enemy inputs. The previous implementation was highly brittle, frequently failing due to JSON parsing errors on the massive, hard-to-validate game state string. This commit refactors the tool to accept smaller, discrete JSON strings for the player party and enemy Pokémon. This is a critical fix to improve reliability and prevent future crashes during battle analysis.",
-        "timestamp": "2025-08-18T19:52:10.932Z",
-        "action_counter": 153070
-      },
-      {
-        "commit_message": "fix: Add detailed type/value logging to diagnose IndexError. The tool continues to fail with an IndexError despite a check for an empty list. This commit adds explicit print statements for the type and value of the 'enemy_pokemon' list immediately before the check. This is a critical diagnostic step to uncover the root cause of why the empty-list check is not preventing the crash.",
-        "timestamp": "2025-08-18T19:53:51.035Z",
-        "action_counter": 153073
-      },
-      {
-        "commit_message": "fix: Add robust type handling to prevent IndexError. The tool was crashing because the provided `type_map_json` used single-element lists for single-type Pokémon, causing an `IndexError` when the code tried to access a non-existent second type. This commit refactors the type-lookup logic to correctly handle lists of any length, ensuring that single-type Pokémon are assigned `None` for their second type. This is a critical fix to prevent future crashes and ensure data integrity.",
-        "timestamp": "2025-08-18T19:54:55.301Z",
-        "action_counter": 153075
-      },
-      {
-        "commit_message": "fix: Correct key from 'nickname' to 'name'. The tool was crashing because the party data from the game state uses the 'name' key for Pokémon names, not 'nickname'. This commit updates all instances to use the correct key, preventing future crashes during data extraction.",
-        "timestamp": "2025-08-19T03:44:50.580Z",
-        "action_counter": 154021
-      },
-      {
-        "commit_message": "fix: Correct key access for species name. The tool was failing to extract types because it was not correctly accessing the 'species' key from the party and enemy data structures. This commit updates the script to use `pkm.get('species')` for all type lookups, ensuring that the tool can now correctly identify and assign types to all Pokémon in the battle.",
-        "timestamp": "2025-08-19T03:47:44.875Z",
-        "action_counter": 154024
-      },
-      {
-        "commit_message": "fix: Correct key access for HP and parse known_moves. The tool was failing because it was using incorrect keys ('hp', 'max_hp') to access health data from the party JSON. This commit updates the script to use the correct keys ('hp_current', 'hp_max'). Additionally, the opponent's known moves were being treated as a raw string instead of a JSON list; this is now fixed with `json.loads` to ensure proper parsing. This is a critical fix to restore the tool's core functionality for battle analysis.",
-        "timestamp": "2025-08-19T04:19:50.881Z",
-        "action_counter": 154077
-      },
-      {
-        "commit_message": "fix: Correct key access from 'species' to 'name' for opponent data. The tool was crashing because the enemy data from the game state uses the 'name' key for the Pokémon's species, not 'species'. This commit updates the script to use the correct key, preventing future crashes during data extraction.",
-        "timestamp": "2025-08-20T02:38:19.024Z",
-        "action_counter": 155841
-      },
-      {
-        "commit_message": "fix: Correct iteration over player party data. The tool was failing because it was iterating over the keys of the player party dictionary (a string) instead of the dictionary values (objects). This commit changes the loop to `for pkm in player_party_dict.values():` and adjusts the active pokemon lookup to use `.get()` on the dictionary, which is more direct and robust.",
-        "timestamp": "2025-08-20T10:09:44.371Z",
-        "action_counter": 156538
-      }
-    ]
-  },
   "find_path": {
     "description": "Finds the shortest path between two points on the current map using the A* algorithm. Can find a path to an adjacent tile if the destination is impassable. Returns a list of coordinates.",
     "input_schema": {
@@ -313,6 +195,28 @@
         "commit_message": "feat: Create pc_withdraw_pokemon tool to automate team management. In response to my 50-turn reflection identifying an inefficiency in manual PC navigation, this tool calculates the button presses required to select and withdraw a specific Pokémon. This will significantly speed up the process of assembling my team for the Elite Four, adhering to the core directive of immediate automation.",
         "timestamp": "2025-08-20T19:13:01.208Z",
         "action_counter": 157056
+      }
+    ]
+  },
+  "pc_screen_text_parser": {
+    "description": "Parses the PC box screen text to extract a list of Pokémon names and their levels.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "screen_text": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "screen_text"
+      ]
+    },
+    "python_script": "import re\nimport json\n\ndef parse_pc_text(screen_text):\n    # This regex is designed to find uppercase names, which may include spaces or special characters like in 'MR. MIME',\n    # followed by the level indicator ':L' and the level number.\n    pattern = re.compile(r\"([A-Z.'M\\\\s]+?)\\\\s*:L(\\\\d+)\")\n    matches = pattern.findall(screen_text)\n    \n    pokemon_list = []\n    for match in matches:\n        # Clean up the name by stripping leading/trailing whitespace\n        name = match[0].strip()\n        level = int(match[1])\n        pokemon_list.append({\"name\": name, \"level\": level})\n        \n    print(json.dumps({\"status\": \"success\", \"pokemon_list\": pokemon_list}))\n\nparse_pc_text(input_data['screen_text'])",
+    "history": [
+      {
+        "commit_message": "feat: Create pc_screen_text_parser tool to automate data entry. In response to an Overwatch critique identifying deferred development as a core violation, this tool is being created immediately. It will parse the PC screen text to extract Pokémon names and levels, streamlining the input process for the `pc_withdraw_pokemon` tool and improving overall efficiency in team management.",
+        "timestamp": "2025-08-20T23:39:11.279Z",
+        "action_counter": 157623
       }
     ]
   }
