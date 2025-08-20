@@ -147,3 +147,6 @@
 ## B. Self-Correction Log
 - **Tool Execution Failure (Self-Correction):** I repeatedly failed to execute the `notepad_edit` tool correctly due to providing mismatched text for replacement. This led to delays in updating my knowledge base, violating the immediate action mandate. **Correction:** I must be more meticulous when using tools, ensuring all arguments are precise to prevent execution failures.
 - **Confirmation Bias (Hyper Beam):** I incorrectly concluded that Hyper Beam *never* has a recharge turn based on a single observation. New evidence proved this wrong. **Correction:** I must require multiple, consistent observations before documenting a game mechanic as a verified rule. A single data point is not enough.
+
+## C. Future Tool Ideas
+- **PC Screen Text Parser:** Create a tool that can parse the screen text of a PC box to automatically generate the list of Pokémon, streamlining the input process for the `pc_withdraw_pokemon` tool.
