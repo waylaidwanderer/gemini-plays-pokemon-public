@@ -140,16 +140,10 @@
 
 # IV. Future Development & Strategy (Post-Reflection)
 
-## A. Agent & Tool Ideas
-
-## B. Untested Assumptions to Verify
+## A. Untested Assumptions to Verify
 - **Team Composition Optimality:** My current team failed against the Champion. I have been assuming it is the best possible team. **Hypothesis:** A different combination of my available Pokémon might provide better matchups against the Elite Four and Champion Pixel. **Test:** After this Elite Four run (win or lose), I will use the `team_composition_advisor` agent with my entire PC box as input to generate a new recommended team. I will then compare its suggestions to my current lineup to identify potential improvements.
 - **Master Battle Agent Idea (Implemented Turn 156589):** Created a new orchestrator agent (`master_battle_agent`) that takes raw party/enemy JSON and internally calls `type_map_generator`, `battle_data_extractor`, and `battle_strategist_agent` to return a single, final action. This streamlines the 3-step battle analysis process into a single tool call, improving turn efficiency.
 
-## C. Future Agent Ideas
-- **Elite Four Run Planner:** Expand the `team_composition_advisor` to suggest not only a team but also a lead for each E4 member and a general battle strategy based on known rosters.
+## B. Self-Correction Log
 - **Tool Execution Failure (Self-Correction):** I repeatedly failed to execute the `notepad_edit` tool correctly due to providing mismatched text for replacement. This led to delays in updating my knowledge base, violating the immediate action mandate. **Correction:** I must be more meticulous when using tools, ensuring all arguments are precise to prevent execution failures.
 - **Confirmation Bias (Hyper Beam):** I incorrectly concluded that Hyper Beam *never* has a recharge turn based on a single observation. New evidence proved this wrong. **Correction:** I must require multiple, consistent observations before documenting a game mechanic as a verified rule. A single data point is not enough.
-
-## C. Future Agent Ideas
-- **Creative Team Builder:** An agent that suggests interesting or thematic team compositions for challenges, rather than just the single most optimal one. For example, 'Suggest a team to beat the Elite Four without using any Water-type Pokémon.'
