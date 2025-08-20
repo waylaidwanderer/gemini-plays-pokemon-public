@@ -150,4 +150,4 @@
 
 ## B. Future Tool Ideas
 - **PC Screen Text Parser:** Create a tool that can parse the screen text of a PC box to automatically generate the list of Pokémon, streamlining the input process for the `pc_withdraw_pokemon` tool.
-- **`auto_switcher` Refinement:** The tool currently assumes the cursor starts on the lead Pokémon. This should be updated to accept the current cursor position as an argument to make it more robust for in-battle switches where the cursor may start on a different Pokémon.
+- **`auto_switcher` Refinement:** The tool's cursor logic has been fixed to correctly handle in-battle switches. A future improvement could be adding checks to prevent switching to fainted or status-afflicted Pokémon.
