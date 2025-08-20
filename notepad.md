@@ -100,7 +100,7 @@
 - **Rematch Mechanic:** Some Elite Four members (Bruno, Agatha) require a second interaction to trigger a mandatory rematch before allowing progression.
 - **Hypnosis Anomaly (Corrected):** Agatha's Gengar's first Hypnosis on TITANESS failed (Turn 150576), but a second attempt succeeded (Turn 150583). The initial failure was likely a standard move miss, not an immunity. This confirms TITANESS is not immune to sleep.
 - **Night Shade Damage Anomaly:** Agatha's Lv 57 Gengar's Night Shade dealt 38 damage instead of the expected 57. This may be a mechanic change in the ROM hack. (Observed Turn 148518)
-- **Hyper Beam Recharge (CORRECTED):** The move Hyper Beam does NOT guarantee a recharge turn for the opponent. An opponent can act immediately on the following turn. (Observed: Lance's Charizard used Earthquake after I switched in SPARKY, expecting a free turn. Turn 155531)
+- **Hyper Beam Recharge (Re-Corrected):** The move Hyper Beam *does* have a recharge turn. My previous observation was incorrect. (Observed: Lance's Dragonite was forced to recharge after using Hyper Beam. Turn 156927)
 - **Tool Output Methodology (Corrected):** Tools like `auto_switcher` that generate a sequence of mixed directional and action buttons are not faulty. The error was in my execution. I must execute the generated button presses one at a time, over multiple turns, to avoid system input truncation. I will not attempt to fix tools that are functioning as designed.
 
 # III. Meta-Progression & Lessons Learned
