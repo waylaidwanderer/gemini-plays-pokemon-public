@@ -13,13 +13,6 @@
     "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"battle_text\":{\"type\":\"string\",\"description\":\"The raw text captured from the battle screen, with events separated by newlines.\"}},\"required\":[\"battle_text\"]}",
     "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"formatted_log_entry\":{\"type\":\"string\"}},\"required\":[\"formatted_log_entry\"]}"
   },
-  "pre_battle_analyzer": {
-    "agent_name": "pre_battle_analyzer",
-    "agent_description": "Provides a high-level strategic overview before a major battle (like an Elite Four member). It identifies key threats on the opponent's team and recommends the best lead Pokémon and primary counters from the player's party.",
-    "agent_system_prompt": "You are a Pokémon Pre-Battle Analyzer. Your task is to analyze the player's party and a known opponent's roster to provide a concise, high-level strategic plan. Identify the single biggest threat on the opponent's team and the single best counter for that threat from the player's party. Also, recommend the optimal lead Pokémon for the start of the battle. Your analysis must be brief and to the point.",
-    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"player_party\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"name\":{\"type\":\"string\"},\"type1\":{\"type\":\"string\"},\"type2\":{\"type\":\"string\",\"nullable\":true}}}},\"opponent_roster\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"name\":{\"type\":\"string\"},\"type1\":{\"type\":\"string\"},\"type2\":{\"type\":\"string\",\"nullable\":true}}}}},\"required\":[\"player_party\",\"opponent_roster\"]}",
-    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"recommended_lead\":{\"type\":\"string\"},\"primary_threat\":{\"type\":\"string\"},\"primary_counter\":{\"type\":\"string\"},\"strategic_summary\":{\"type\":\"string\"}},\"required\":[\"recommended_lead\",\"primary_threat\",\"primary_counter\",\"strategic_summary\"]}"
-  },
   "master_battle_agent": {
     "agent_name": "master_battle_agent",
     "agent_description": "A master orchestrator for battles. Takes raw party and enemy JSON, internally generates the type map, extracts structured data, and calls the battle strategist to provide a single, final recommended action (MOVE or SWITCH) and a recommended lead.",
