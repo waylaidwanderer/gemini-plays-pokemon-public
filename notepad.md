@@ -166,3 +166,4 @@
 - **Tool Creation:** Identified an opportunity to streamline battle actions. Created a new tool, `auto_attacker`, to combine move selection and execution into a single command. This is a direct outcome of this reflection.
 - **Goal Adherence:** Goals are well-formed and still relevant.
 - **Untested Assumptions:** Existing untested hypotheses are logged. The recent assumption about Hyper Beam's recharge turn was falsified and corrected. Will observe battle text carefully to test the 'concatenated text' hypothesis.
+- **Concatenated Battle Text (UNVERIFIED):** The on-screen text log may sometimes display events from multiple turns together, especially after a move that grants invulnerability (e.g., Fly). This can create the illusion of an opponent attacking multiple times in one turn. (Hypothesized Turn 155566 vs Lance's Aerodactyl)
