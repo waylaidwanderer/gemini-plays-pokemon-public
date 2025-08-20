@@ -1284,56 +1284,6 @@
       }
     ]
   },
-  "select_move": {
-    "description": "Takes a move name, a list of the active Pokémon's four moves, and optionally the currently selected move, then returns the sequence of button presses ('Up' or 'Down') needed to select that move in a non-wrapping menu.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "move_to_select": {
-          "type": "string"
-        },
-        "pokemon_move_list": {
-          "type": "string"
-        },
-        "current_selected_move": {
-          "type": "string",
-          "nullable": true
-        }
-      },
-      "required": [
-        "move_to_select",
-        "pokemon_move_list"
-      ]
-    },
-    "python_script": "import json\n\ndef select_move(move_to_select, pokemon_move_list_str, current_selected_move=None):\n    try:\n        pokemon_move_list = json.loads(pokemon_move_list_str)\n        if move_to_select not in pokemon_move_list:\n            print(json.dumps({'status': 'failure', 'reason': f'Move \"{move_to_select}\" not found in list.'}))\n            return\n        target_index = pokemon_move_list.index(move_to_select)\n        \n        start_index = 0\n        if current_selected_move and current_selected_move in pokemon_move_list:\n            start_index = pokemon_move_list.index(current_selected_move)\n        else:\n            start_index = 0\n            \n    except json.JSONDecodeError:\n        print(json.dumps({'status': 'failure', 'reason': 'Invalid JSON format for move list.'}))\n        return\n\n    presses = []\n    if target_index > start_index:\n        for _ in range(target_index - start_index):\n            presses.append(\"Down\")\n    elif target_index < start_index:\n        for _ in range(start_index - target_index):\n            presses.append(\"Up\")\n\n    print(json.dumps({'status': 'success', 'button_presses': presses}))\n\nmove_to_select = input_data['move_to_select']\npokemon_move_list_str = input_data['pokemon_move_list']\ncurrent_selected_move = input_data.get('current_selected_move')\n\nselect_move(move_to_select, pokemon_move_list_str, current_selected_move)",
-    "history": [
-      {
-        "commit_message": "feat: Create select_move tool to automate in-battle move selection. In response to my 50-turn reflection identifying repeated, inefficient manual menu navigation, this tool calculates the necessary 'Down' presses to select a specific move from the battle menu. This is a critical step to reduce errors and improve my turn-by-turn efficiency in combat.",
-        "timestamp": "2025-08-17T20:20:54.293Z",
-        "action_counter": 150775
-      },
-      {
-        "commit_message": "feat: Create select_move tool to automate in-battle move selection. In response to my 50-turn reflection identifying repeated, inefficient manual menu navigation, this tool calculates the necessary 'Up' or 'Down' presses to select a specific move from the battle menu. This is a critical step to reduce errors and improve my turn-by-turn efficiency in combat.",
-        "timestamp": "2025-08-17T21:36:09.629Z",
-        "action_counter": 150931
-      },
-      {
-        "commit_message": "fix: Add json.loads to parse move list. The tool was failing because it treated the stringified JSON array of moves as a raw string instead of parsing it into a Python list. This commit adds the necessary `json.loads` call to correctly handle the input, preventing future failures.",
-        "timestamp": "2025-08-17T21:58:58.986Z",
-        "action_counter": 150979
-      },
-      {
-        "commit_message": "feat: Add current_selected_move parameter. The tool previously assumed the cursor always started at the top of the move list, leading to incorrect move selections if the menu was re-entered without resetting. This commit adds an optional `current_selected_move` parameter to allow the tool to calculate the shortest path from any starting position, making it robust for multi-turn menu navigation.",
-        "timestamp": "2025-08-17T22:22:26.139Z",
-        "action_counter": 151027
-      },
-      {
-        "commit_message": "fix: Correct menu navigation logic to be non-wrapping. The previous version used modulo arithmetic, incorrectly assuming the in-game battle menu wraps around. This commit replaces that logic with a direct index comparison to correctly calculate 'Up' and 'Down' presses for a linear menu, preventing future navigational errors.",
-        "timestamp": "2025-08-18T00:35:37.510Z",
-        "action_counter": 151307
-      }
-    ]
-  },
   "select_party_pokemon": {
     "description": "Takes a Pokémon's name, a list of the party members in order, and the index of the currently selected Pokémon, then returns the sequence of button presses ('Up' or 'Down') needed to select that Pokémon in a non-wrapping menu.",
     "input_schema": {
@@ -1431,6 +1381,36 @@
         "commit_message": "fix: Correct battle menu navigation logic. The tool was using 'Down' to select the PKMN option, which is incorrect for the 2x2 battle menu layout. This commit changes the initial button press to 'Right', ensuring the tool correctly navigates to the Pokémon selection screen. This is a critical fix to restore the tool's intended functionality.",
         "timestamp": "2025-08-19T22:59:34.999Z",
         "action_counter": 155362
+      }
+    ]
+  },
+  "auto_attacker": {
+    "description": "Automates the entire process of selecting and using a move in battle. Takes a move name, the active Pokémon's move list, and the currently selected move, then returns the full sequence of button presses needed.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "move_to_select": {
+          "type": "string"
+        },
+        "pokemon_move_list": {
+          "type": "string"
+        },
+        "current_selected_move": {
+          "type": "string",
+          "nullable": true
+        }
+      },
+      "required": [
+        "move_to_select",
+        "pokemon_move_list"
+      ]
+    },
+    "python_script": "import json\n\ndef auto_attacker(move_to_select, pokemon_move_list_str, current_selected_move=None):\n    try:\n        pokemon_move_list = json.loads(pokemon_move_list_str)\n        if move_to_select not in pokemon_move_list:\n            print(json.dumps({'status': 'failure', 'reason': f'Move \"{move_to_select}\" not found in list.'}))\n            return\n        target_index = pokemon_move_list.index(move_to_select)\n        \n        start_index = 0\n        if current_selected_move and current_selected_move in pokemon_move_list:\n            start_index = pokemon_move_list.index(current_selected_move)\n            \n    except json.JSONDecodeError:\n        print(json.dumps({'status': 'failure', 'reason': 'Invalid JSON format for move list.'}))\n        return\n\n    presses = []\n    if target_index > start_index:\n        for _ in range(target_index - start_index):\n            presses.append(\"Down\")\n    elif target_index < start_index:\n        for _ in range(start_index - target_index):\n            presses.append(\"Up\")\n            \n    presses.append('A')\n\n    print(json.dumps({'status': 'success', 'button_presses': presses}))\n\nauto_attacker(input_data['move_to_select'], input_data['pokemon_move_list'], input_data.get('current_selected_move'))",
+    "history": [
+      {
+        "commit_message": "feat: Create auto_attacker tool to streamline battle actions. In response to my 50-turn reflection identifying an inefficiency, this tool combines the logic of selecting a move and pressing 'A' to use it into a single, automated command. This is a critical step to improve my turn-by-turn efficiency in combat.",
+        "timestamp": "2025-08-20T00:25:17.302Z",
+        "action_counter": 155553
       }
     ]
   }
