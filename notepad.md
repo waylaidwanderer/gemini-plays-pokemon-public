@@ -82,11 +82,10 @@
   - ARBOK (Lv 58) - Known Moves: Substitute, Wrap, Sludge, Glare
   - GENGAR (Lv 59) - Known Moves: Mega Drain, Thunder, Psychic, Night Shade
 
-### Champion Pixel
+### Champion Pixel (Scouted)
   - MAGNETON (Lv 62) - Known Moves: THUNDER WAVE, THUNDER, TRI ATTACK
   - DODRIO (Lv 61) - Known Moves: DRILL PECK, HYPER BEAM
   - ALAKAZAM (Lv 63) - Known Moves: PSYCHIC, RECOVER
-  - SANDSLASH (Lv 60) - Known Moves: CUT
 
 ## C. Battle Mechanics (Verified)
 - **SPOONBENDE Speed:** My Lv 38 Kadabra (SPOONBENDE) is confirmed to be faster than Agatha's Lv 57 Gengar.
