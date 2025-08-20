@@ -153,3 +153,10 @@
 - **Speed Assumption Failure (Critical):** I must never assume my Pokémon is faster than an opponent's, even with a significant level advantage. This has repeatedly led to my Pokémon taking critical damage or fainting when I expected to move first. (Self-Correction Turn 155758)
 - **Panic Switching Error (Over-prediction):** Against Agatha's Swords Dance Marowak, I switched out ECHO (immune to Ground STAB) due to fear of a potential Rock Slide, and switched in CRAG (weak to Ground STAB). This was a critical error. I prioritized avoiding a *potential* threat over exploiting a *guaranteed* immunity, resulting in unnecessary damage. **Correction:** I must prioritize guaranteed immunities and resistances over playing around unconfirmed coverage moves, especially when the current matchup is already advantageous.
 - **Tool Output Methodology (Corrected):** Tools like `auto_switcher` that generate a sequence of mixed directional and action buttons are not faulty. The error was in my execution. I must execute the generated button presses one at a time, over multiple turns, to avoid system input truncation. I will not attempt to fix tools that are functioning as designed.
+
+# VII. Active Investigations
+
+## A. Party Menu Cursor Behavior (Hypothesis)
+- **Observation:** The `auto_switcher` tool failed because the cursor's starting position in the party menu was not what I assumed it would be after a Pokémon fainted.
+- **Hypothesis:** The cursor position in the party menu (when forced to switch) has specific, predictable logic. It may default to the first non-fainted Pokémon in the list, or the Pokémon in the slot following the fainted one.
+- **Test Plan:** After the Elite Four, I will enter wild battles and systematically test different scenarios (e.g., first Pokémon faints, middle Pokémon faints) to observe and document the cursor's default position. This is critical for improving my battle automation tools.

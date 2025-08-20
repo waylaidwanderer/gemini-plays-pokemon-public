@@ -1360,17 +1360,17 @@
         "party_pokemon_list": {
           "type": "string"
         },
-        "current_selected_pokemon_index": {
+        "current_selected_pokemon_name": {
           "type": "string"
         }
       },
       "required": [
         "pokemon_to_select",
         "party_pokemon_list",
-        "current_selected_pokemon_index"
+        "current_selected_pokemon_name"
       ]
     },
-    "python_script": "import json\n\ndef auto_switcher(pokemon_to_select, party_pokemon_list_str, current_selected_pokemon_index_str):\n    presses = ['Right', 'A']\n    party_list = json.loads(party_pokemon_list_str)\n    current_index = int(current_selected_pokemon_index_str)\n    try:\n        target_index = party_list.index(pokemon_to_select)\n    except ValueError:\n        print(json.dumps({'status': 'failure', 'reason': f'Pokémon \"{pokemon_to_select}\" not found in party list.'}))\n        return\n\n    diff = target_index - current_index\n    if diff > 0:\n        for _ in range(diff):\n            presses.append('Down')\n    elif diff < 0:\n        for _ in range(abs(diff)):\n            presses.append('Up')\n\n    presses.append('A')\n    presses.append('A')\n    print(json.dumps({'status': 'success', 'presses': presses}))\n\nauto_switcher(input_data['pokemon_to_select'], input_data['party_pokemon_list'], input_data['current_selected_pokemon_index'])",
+    "python_script": "import json\n\ndef auto_switcher(pokemon_to_select, party_pokemon_list_str, current_selected_pokemon_name):\n    presses = ['Right', 'A']\n    party_list = json.loads(party_pokemon_list_str)\n    \n    try:\n        current_index = party_list.index(current_selected_pokemon_name)\n    except ValueError:\n        print(json.dumps({'status': 'failure', 'reason': f'Current Pokémon \"{current_selected_pokemon_name}\" not found in party list.'}))\n        return\n\n    try:\n        target_index = party_list.index(pokemon_to_select)\n    except ValueError:\n        print(json.dumps({'status': 'failure', 'reason': f'Target Pokémon \"{pokemon_to_select}\" not found in party list.'}))\n        return\n\n    diff = target_index - current_index\n    if diff > 0:\n        for _ in range(diff):\n            presses.append('Down')\n    elif diff < 0:\n        for _ in range(abs(diff)):\n            presses.append('Up')\n\n    presses.append('A')\n    presses.append('A')\n    print(json.dumps({'status': 'success', 'presses': presses}))\n\nauto_switcher(input_data['pokemon_to_select'], input_data['party_pokemon_list'], input_data['current_selected_pokemon_name'])",
     "history": [
       {
         "commit_message": "Initial version",
@@ -1386,6 +1386,11 @@
         "commit_message": "fix: Correct battle menu navigation logic. The tool was using 'Down' to select the PKMN option, which is incorrect for the 2x2 battle menu layout. This commit changes the initial button press to 'Right', ensuring the tool correctly navigates to the Pokémon selection screen. This is a critical fix to restore the tool's intended functionality.",
         "timestamp": "2025-08-19T22:59:34.999Z",
         "action_counter": 155362
+      },
+      {
+        "commit_message": "refactor: Change input from index to name for robustness. The tool was previously failing because it relied on a numeric index for the current cursor position, which was based on an incorrect assumption. This commit refactors the tool to accept the *name* of the currently selected Pokémon, making the logic independent of unpredictable cursor starting positions. This is a critical fix to improve reliability, as identified during my 50-turn reflection and by an Overwatch critique.",
+        "timestamp": "2025-08-20T02:47:46.482Z",
+        "action_counter": 155863
       }
     ]
   },
