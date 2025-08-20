@@ -71,7 +71,7 @@
 ### Bruno
   - HITMONCHAN (Lv 57) - Known Moves: Submission, Ice Punch, Thunder Punch, Dizzy Punch
   - POLIWRATH (Lv 56) - Known Moves: Amnesia, Hydro Pump, Hypnosis, Ice Beam
-  - HITMONLEE (Lv 57) - Known Moves: Body Slam, HI JUMP KICK
+  - HITMONLEE (Lv 57) - Known Moves: Body Slam, HI JUMP KICK, MEGA KICK
   - ONIX (Lv 56) - Known Moves: Earthquake, Rock Slide, BIND
   - MACHAMP (Lv 58) - Known Moves: Body Slam, Earthquake, Rock Slide
 
