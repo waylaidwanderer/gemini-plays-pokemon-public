@@ -82,11 +82,12 @@
   - ARBOK (Lv 58) - Known Moves: Substitute, Wrap, Sludge, Glare
   - GENGAR (Lv 59) - Known Moves: Mega Drain, Thunder, Psychic, Night Shade
 
-### Lance
+### Lance (Defeated)
+  - DRAGONITE (Lv 61) - Known Moves: Hyper Beam
+  - GYARADOS (Lv 60) - Known Moves: Slam
   - CHARIZARD (Lv 60) - Known Moves: Earthquake, Flamethrower
   - AERODACTYL (Lv 61) - Known Moves: Earthquake, Hyper Beam
-  - DRAGONITE (Lv 62) - Known Moves: Fire Blast, Slam, Thunder Wave, Wrap, Hyper Beam, Blizzard
-  - GYARADOS (Lv 60) - Known Moves: Slam
+  - DRAGONITE (Lv 62) - Known Moves: Fire Blast, Slam, Thunder Wave, Wrap, Hyper Beam, Blizzard, Thunder
 
 ### Champion Pixel
   - MAGNETON (Lv 62) - Known Moves: THUNDER WAVE, THUNDER
