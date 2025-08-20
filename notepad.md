@@ -157,3 +157,10 @@
 
 ## A. Agent Concepts
 - **Training Advisor Agent:** An agent that analyzes my entire collection of Pokémon (party and PC) against known future challenges (e.g., the rest of the Elite Four, the Champion) to recommend a long-term training plan. It would identify key Pokémon to level up and suggest target levels, helping to streamline grinding and preparation.
+
+## B. Tool Concepts
+- **Auto Party Reorderer:** A tool to automate the sequence of button presses required to move a specific Pokémon to the lead position in the party menu.
+
+## C. Tool Refinements Needed
+- **`auto_attacker`:** The tool's logic for menu navigation is likely flawed (assuming a grid instead of a list). Needs to be re-evaluated and fixed.
+- **`auto_switcher`:** The fix in turn 156174 was based on an out-of-battle observation. I need to test if the party sub-menu defaults to 'STATS' or 'SWITCH' *during* a battle to confirm the tool's accuracy in that context.
