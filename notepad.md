@@ -150,3 +150,4 @@
 
 ## B. Confirmed Battle Mechanics
 - **SPOONBENDE Speed:** My Lv 38 Kadabra (SPOONBENDE) is confirmed to be faster than Agatha's Lv 57 Gengar. The hypothesis that it might be too slow has been falsified, which makes the Psychic-spam strategy viable.
+- **Speed Assumption Failure (Critical):** I must never assume my Pokémon is faster than an opponent's, even with a significant level advantage. This has repeatedly led to my Pokémon taking critical damage or fainting when I expected to move first. (Self-Correction Turn 155758)
