@@ -1,4 +1,34 @@
-# I. Game Mechanics & World Knowledge
+# I. Meta-Progression & Lessons Learned
+
+## A. Core Methodological Failures (Self-Correction Log)
+- **Inefficient Tool Debugging (Trial-and-Error):** I have repeatedly engaged in prolonged loops of making minor, speculative changes to my tools instead of immediately adding diagnostic outputs (e.g., print statements) to systematically identify the root cause. **Correction:** The correct protocol is to add logging after a tool fails more than once to enable evidence-based fixes.
+- **Violation of Immediate Action Mandate (The LLM Reality):** I have repeatedly failed to perform necessary maintenance on my tools and notepad immediately, instead of deferring the tasks to continue gameplay. This is a critical violation of my core directive. **Correction:** There is no 'later'; tasks such as fixing tools or updating notes must be done in the current turn.
+- **Flawed Hypothesis Testing (Confirmation Bias):** I have incorrectly assumed a path existed and spent numerous turns trying to fix my tools to confirm this belief, rather than first using a tool like `map_connectivity_analyzer` to test the fundamental assumption of reachability. **Correction:** I must test core assumptions first before attempting to fix tools that rely on those assumptions. I must also actively try to disprove my own hypotheses.
+- **Inefficient Puzzle-Solving Methodology:** During the Indigo Plateau lobby puzzle, I wasted significant time on trial-and-error instead of using diagnostic tools like `map_connectivity_analyzer` early on to validate my core assumption that the northern area was reachable. **Correction:** For complex navigation puzzles, I must first use tools to verify assumptions about the map's structure before testing interaction-based hypotheses.
+- **Misinterpreting System Feedback:** I have incorrectly assumed my tools or notes were wrong when system feedback indicated otherwise. This led to wasted time trying to 'fix' things that were already correct or pathing to unreachable locations. **Correction:** I must treat system/tool feedback as the source of truth and question my own assumptions first.
+- **Over-reliance on Luck (Confirmation Bias):** The FLASH strategy against Bruno's Machamp was successful multiple times due to luck, reinforcing the belief it was a guaranteed win condition. However, it failed when the opponent used a different move (Rock Slide), which may have had higher base accuracy. **Correction:** Luck-based strategies should be a last resort. I must not become overconfident from a lucky streak and must always consider the opponent's full range of options.
+- **Agent Output Override Failure (Confirmation Bias):** I incorrectly overrode the `battle_strategist_agent`'s advice to switch to TITANESS against Jynx, instead switching to ECHO. This was a critical error based on my own flawed assumption, which created a dangerous situation and was flagged by the Overwatch system. **Correction:** I must treat the agent's output as the default correct action and only override it if I can definitively prove its underlying assumptions are wrong based on new in-game evidence. (Observed Turn 151161, Corrected Turn 151190)
+- **Failure to Trust Agent (Confirmation Bias):** I incorrectly assumed my agent's recommendation to switch to TITANESS against Jynx was suboptimal, leading to a disastrous switch to ECHO instead. This was a critical error rooted in a failure to trust my own tools and was flagged by the Overwatch system. **Correction:** I must adhere to the agent's recommendations unless I have definitive, in-game evidence to prove its reasoning is flawed. (Observed Turn 151161, Corrected Turn 151190)
+- **Notepad Overwrite Error (Data Loss):** I incorrectly used the 'overwrite' action in turn 151346 with outdated content, erasing several new development goals. **Correction:** When using 'overwrite', I must ensure I am providing the full, most current version of the notepad to prevent data loss. This is a critical data management failure.
+- **Speed Assumption:** I must not assume my Pokémon is faster than an opponent's of the same species, even with a level advantage. Agatha's Lv58 Golbat proved to be faster than my Lv65 ECHO. This is a critical lesson in not making unverified assumptions about stats.
+- **Flawed Tool Debugging (Static Data):** I repeatedly failed to debug my `battle_data_extractor` tool because I was passing it the same static, outdated `game_state_json` string from a a previous turn. **Correction:** Tool arguments are not dynamic. I must ensure I am providing the current, correct game state information *each time* a tool is called. Failure to do so invalidates the test.
+- **Tool Maintenance Error (Corrected):** I incorrectly logged that I deferred a tool fix in turn 151892. My action log confirms I implemented the fix for `generate_path_plan` in turn 151891. This was a data entry error, not a procedural one. Maintaining accurate logs is critical.
+- **Speed Assumption Failure:** I gambled that SPARKY was faster than SLOWBRO without any evidence. I must avoid making assumptions about stats, especially speed, in critical matchups. This was a methodological failure.
+- **Confirmation Bias & Inflexibility:** During the battle with Lance's Dragonite, my goal was to lose strategically. However, after a lucky miss from the opponent, I failed to re-evaluate the situation. I continued with the "lose" plan instead of pivoting to a "win" strategy. **Correction:** When unexpected events or luck create a potential opening, I must immediately reassess my strategy and be flexible enough to abandon the original plan if a better opportunity arises.
+- **Map Marker Discipline:** I must adopt a clearer system for map markers to distinguish between attempts, such as deleting markers from failed runs to avoid confusion. (Self-Correction Turn 155432)
+- **Panic Switching Error (Over-prediction):** Against Agatha's Swords Dance Marowak, I switched out ECHO (immune to Ground STAB) due to fear of a potential Rock Slide, and switched in CRAG (weak to Ground STAB). This was a critical error. I prioritized avoiding a *potential* threat over exploiting a *guaranteed* immunity, resulting in unnecessary damage. **Correction:** I must prioritize guaranteed immunities and resistances over playing around unconfirmed coverage moves, especially when the current matchup is already advantageous.
+- **Flawed Tool Debugging (Unverified Assumptions):** The repeated failures of the `auto_attacker` tool were caused by a flawed debugging process. I incorrectly assumed the move menu was a 2x2 grid without performing a simple in-game test to verify this assumption. This led to wasted turns implementing a faulty 'fix' that had to be reverted. **Correction:** I must verify core game mechanics with simple, direct tests before designing or modifying tools that rely on those mechanics.
+- **Tool Execution Failure (Self-Correction):** I repeatedly failed to execute the `notepad_edit` tool correctly due to providing mismatched text for replacement. This led to delays in updating my knowledge base, violating the immediate action mandate. **Correction:** I must be more meticulous when using tools, ensuring all arguments are precise to prevent execution failures.
+- **Confirmation Bias (Hyper Beam):** I incorrectly concluded that Hyper Beam *never* has a recharge turn based on a single observation. New evidence proved this wrong. **Correction:** I must require multiple, consistent observations before documenting a game mechanic as a verified rule. A single data point is not enough.
+
+## B. System Feedback & Self-Correction (Actioned)
+- **Notepad Data Integrity:** I must ensure my notepad does not contain outdated information or function as a to-do list. All system feedback must be immediately actioned and integrated into my permanent knowledge base under 'Lessons Learned'.
+- **Tool Development Priority:** Opportunities to automate repetitive tasks must be acted upon immediately, not deferred. This is a core directive.
+- **Immediate Development Mandate:** All plans for new tools or agents must be acted upon immediately. Deferring development by creating 'to-do lists' in the notepad is a critical failure of core directives. (Self-Correction Turn 155345, per Overwatch Critique)
+- **Party Menu Wrapping (CORRECTED):** The party selection menu does NOT wrap around. Pressing 'Up' from the top Pokémon does not move the cursor to the bottom. This was confirmed in turn 154047.
+- **Team Composition Strategy (Verified):** Used the `team_composition_advisor` agent to confirm that my current team of six level 65 Pokémon is the optimal lineup against the Elite Four and Champion. The agent provided a detailed strategic breakdown for each battle. (Verified Turn 157088)
+
+# II. Game Mechanics & World Knowledge
 
 ## A. Core Gameplay (Verified)
 - **Battle Style:** Set mode.
@@ -29,7 +59,7 @@
 ## C. System Mechanics & Rules
 - **Dead End Area Definition:** An area is NOT a 'dead end' if there are reachable unvisited warps, Reachable Undiscovered Map Connections, OR the `Reachable Unseen Tiles` list for the current map contains entries. A room with multiple reachable, non-adjacent exits (warps/connections) is also NOT a dead end, even if all tiles have been seen. Adjacent warps are treated as a single exit for this calculation. (Corrected Turn 152613, Refined Turn 157367)
 
-# II. Battle Information
+# III. Battle Information
 
 ## A. Type Effectiveness Chart (Verified)
 - **Objective:** Systematically test and verify all type matchups in this ROM hack, as the standard chart is unreliable.
@@ -46,7 +76,7 @@
   - Grass is super-effective against Ground/Rock dual-types (Observed: Agatha's Gengar's Mega Drain vs CRAG's Golem).
   - Grass is super-effective against Ground-types (Observed: Agatha's Gengar vs REVENANT's Marowak).
   - Grass is super-effective against Water/Ice dual-types (Observed: Agatha's Gengar's Mega Drain vs NEPTUNE's Lapras).
-  - Ground is super-effective against Electric-types (Observed: Bruno's Machamp vs SPARKY).
+  - Ground is super-effective against Electric-types (Observed: Bruno's Machamp vs SPARKY; Lorelei's Slowbro's Earthquake vs SPARKY).
   - Ground is super-effective against Ghost-types (Observed: REVENANT's Earthquake vs Agatha's Gengar).
   - Ground is super-effective against Ground-types (Observed: Lance's Aerodactyl's Earthquake vs CRAG's Golem).
   - Ground is super-effective against Poison-types (Observed: REVENANT vs Agatha's Gengar).
@@ -59,13 +89,12 @@
   - Rock is super-effective against Flying (Observed: Bruno's Machamp vs ECHO's Golbat).
   - Water is not very effective against Water/Psychic dual-types (Observed: NEPTUNE's Surf vs Lorelei's Slowbro).
   - Normal is not very effective against Rock/Flying (Observed: REVENANT's Headbutt vs Lance's Aerodactyl).
-  - Ground is super-effective against Electric-types (Observed: Lorelei's Slowbro's Earthquake vs SPARKY).
 
 ## B. Opponent Rosters & Moves (Observed)
 ### Lorelei
   - DEWGONG (Lv 55) - Moves unknown.
   - JYNX (Lv 56) - Known Moves: Psychic, Lovely Kiss, Bubblebeam, Blizzard
-  - SLOWBRO (Lv 56) - Known Moves: Blizzard, Psychic, Earthquake, Earthquake
+  - SLOWBRO (Lv 56) - Known Moves: Blizzard, Psychic, Earthquake, Amnesia
   - CLOISTER (Lv 55) - Known Moves: Explosion
   - LAPRAS (Lv 57) - Known Moves: Thunderbolt, Surf, Sing, Blizzard
 
@@ -83,6 +112,13 @@
   - ARBOK (Lv 58) - Known Moves: Substitute, Wrap, Sludge, Glare
   - GENGAR (Lv 59) - Known Moves: Mega Drain, Thunder, Psychic, Night Shade
 
+### Lance (Defeated)
+  - DRAGONITE (Lv 61) - Known Moves: Hyper Beam, THUNDER WAVE, WRAP
+  - GYARADOS (Lv 60) - Known Moves: Slam
+  - CHARIZARD (Lv 60) - Known Moves: Earthquake, Flamethrower
+  - AERODACTYL (Lv 61) - Known Moves: Earthquake, Hyper Beam, ROCK SLIDE
+  - DRAGONITE (Lv 62) - Known Moves: Fire Blast, Slam, Thunder Wave, Wrap, Hyper Beam, Blizzard, Thunder
+
 ### Champion Pixel (Scouted)
   - MAGNETON (Lv 62) - Known Moves: THUNDER WAVE, THUNDER, TRI ATTACK
   - DODRIO (Lv 61) - Known Moves: DRILL PECK, HYPER BEAM
@@ -96,29 +132,11 @@
 - **Hyper Beam Recharge (Re-Corrected):** The move Hyper Beam *does* have a recharge turn. My previous observation was incorrect. (Observed: Lance's Dragonite was forced to recharge after using Hyper Beam. Turn 156927)
 - **Tool Output Methodology (Corrected):** Tools like `auto_switcher` that generate a sequence of mixed directional and action buttons are not faulty. The error was in my execution. I must execute the generated button presses one at a time, over multiple turns, to avoid system input truncation. I will not attempt to fix tools that are functioning as designed.
 - **Switch Override Anomaly:** The game has demonstrated unusual behavior when switching out a sleeping Pokémon during the Elite Four battle against Lorelei. When attempting to switch from a sleeping NEPTUNE to TITANESS, the game instead sent out REVENANT (the party lead). This may be a specific, undocumented mechanic related to sleep or the Set battle style. (Observed Turn 157150)
+- **Party Menu Cursor Anomaly:** When navigating the party screen during battle, the cursor can sometimes jump unexpectedly. When attempting to select SPARKY (slot 2) and open the sub-menu, the cursor jumped to TITANESS (slot 6). My subsequent 'Up' press then selected NEPTUNE (slot 3), leading to an incorrect switch. I must be more careful and verify cursor position before confirming actions. (Observed Turn 157449-157451)
 
-# III. Meta-Progression & Lessons Learned
+# IV. Tool & Agent Development
 
-## A. Core Methodological Failures (Self-Correction Log)
-- **Inefficient Tool Debugging (Trial-and-Error):** I have repeatedly engaged in prolonged loops of making minor, speculative changes to my tools instead of immediately adding diagnostic outputs (e.g., print statements) to systematically identify the root cause. **Correction:** The correct protocol is to add logging after a tool fails more than once to enable evidence-based fixes.
-- **Violation of Immediate Action Mandate (The LLM Reality):** I have repeatedly failed to perform necessary maintenance on my tools and notepad immediately, instead of deferring the tasks to continue gameplay. This is a critical violation of my core directive. **Correction:** There is no 'later'; tasks such as fixing tools or updating notes must be done in the current turn.
-- **Flawed Hypothesis Testing (Confirmation Bias):** I have incorrectly assumed a path existed and spent numerous turns trying to fix my tools to confirm this belief, rather than first using a tool like `map_connectivity_analyzer` to test the fundamental assumption of reachability. **Correction:** I must test core assumptions first before attempting to fix tools that rely on those assumptions. I must also actively try to disprove my own hypotheses.
-- **Inefficient Puzzle-Solving Methodology:** During the Indigo Plateau lobby puzzle, I wasted significant time on trial-and-error instead of using diagnostic tools like `map_connectivity_analyzer` early on to validate my core assumption that the northern area was reachable. **Correction:** For complex navigation puzzles, I must first use tools to verify assumptions about the map's structure before testing interaction-based hypotheses.
-- **Misinterpreting System Feedback:** I have incorrectly assumed my tools or notes were wrong when system feedback indicated otherwise. This led to wasted time trying to 'fix' things that were already correct or pathing to unreachable locations. **Correction:** I must treat system/tool feedback as the source of truth and question my own assumptions first.
-- **Over-reliance on Luck (Confirmation Bias):** The FLASH strategy against Bruno's Machamp was successful multiple times due to luck, reinforcing the belief it was a guaranteed win condition. However, it failed when the opponent used a different move (Rock Slide), which may have had higher base accuracy. **Correction:** Luck-based strategies should be a last resort. I must not become overconfident from a lucky streak and must always consider the opponent's full range of options.
-- **Agent Output Override Failure (Confirmation Bias):** I incorrectly overrode the `battle_strategist_agent`'s advice to switch to TITANESS against Jynx, instead switching to ECHO. This was a critical error based on my own flawed assumption, which created a dangerous situation and was flagged by the Overwatch system. **Correction:** I must treat the agent's output as the default correct action and only override it if I can definitively prove its underlying assumptions are wrong based on new in-game evidence. (Observed Turn 151161, Corrected Turn 151190)
-- **Failure to Trust Agent (Confirmation Bias):** I incorrectly assumed my agent's recommendation to switch to TITANESS against Jynx was suboptimal, leading to a disastrous switch to ECHO instead. This was a critical error rooted in a failure to trust my own tools and was flagged by the Overwatch system. **Correction:** I must adhere to the agent's recommendations unless I have definitive, in-game evidence to prove its reasoning is flawed. (Observed Turn 151161, Corrected Turn 151190)
-- **Notepad Overwrite Error (Data Loss):** I incorrectly used the 'overwrite' action in turn 151346 with outdated content, erasing several new development goals. **Correction:** When using 'overwrite', I must ensure I am providing the full, most current version of the notepad to prevent data loss. This is a critical data management failure.
-- **Speed Assumption:** I must not assume my Pokémon is faster than an opponent's of the same species, even with a level advantage. Agatha's Lv58 Golbat proved to be faster than my Lv65 ECHO. This is a critical lesson in not making unverified assumptions about stats.
-- **Flawed Tool Debugging (Static Data):** I repeatedly failed to debug my `battle_data_extractor` tool because I was passing it the same static, outdated `game_state_json` string from a a previous turn. **Correction:** Tool arguments are not dynamic. I must ensure I am providing the current, correct game state information *each time* a tool is called. Failure to do so invalidates the test.
-- **Tool Maintenance Error (Corrected):** I incorrectly logged that I deferred a tool fix in turn 151892. My action log confirms I implemented the fix for `generate_path_plan` in turn 151891. This was a data entry error, not a procedural one. Maintaining accurate logs is critical.
-- **Speed Assumption Failure:** I gambled that SPARKY was faster than SLOWBRO without any evidence. I must avoid making assumptions about stats, especially speed, in critical matchups. This was a methodological failure.
-- **Confirmation Bias & Inflexibility:** During the battle with Lance's Dragonite, my goal was to lose strategically. However, after a lucky miss from the opponent, I failed to re-evaluate the situation. I continued with the "lose" plan instead of pivoting to a "win" strategy. **Correction:** When unexpected events or luck create a potential opening, I must immediately reassess my strategy and be flexible enough to abandon the original plan if a better opportunity arises.
-- **Map Marker Discipline:** I must adopt a clearer system for map markers to distinguish between attempts, such as deleting markers from failed runs to avoid confusion. (Self-Correction Turn 155432)
-- **Panic Switching Error (Over-prediction):** Against Agatha's Swords Dance Marowak, I switched out ECHO (immune to Ground STAB) due to fear of a potential Rock Slide, and switched in CRAG (weak to Ground STAB). This was a critical error. I prioritized avoiding a *potential* threat over exploiting a *guaranteed* immunity, resulting in unnecessary damage. **Correction:** I must prioritize guaranteed immunities and resistances over playing around unconfirmed coverage moves, especially when the current matchup is already advantageous.
-- **Flawed Tool Debugging (Unverified Assumptions):** The repeated failures of the `auto_attacker` tool were caused by a flawed debugging process. I incorrectly assumed the move menu was a 2x2 grid without performing a simple in-game test to verify this assumption. This led to wasted turns implementing a faulty 'fix' that had to be reverted. **Correction:** I must verify core game mechanics with simple, direct tests before designing or modifying tools that rely on those mechanics.
-
-## B. Tool & Agent Development Log
+## A. Tool & Agent Development Log
 - **Diagnostic Tool Output:** Pathfinding tools must report the specific obstacle that blocks a path upon failure. This is essential for distinguishing between a solvable puzzle and a genuinely impossible route.
 - **AI Prediction Failure (Confirmation Bias):** I have incorrectly assumed the opponent's AI would use a specific move to counter my current Pokémon, failing to predict that the AI would instead use the optimal move to counter my *switch-in*. (Observed Turn 147728, Lorelei's Lapras vs. CRAG). **Correction:** I must assume the AI will make the optimal play against my predicted action, not just react to the current board state.
 - **Battle Strategist Over-Aggression:** The `battle_strategist_agent` has shown a tendency to recommend offensive actions even when facing a known super-effective threat, underestimating the risk. **Correction (Turn 148487):** The agent's system prompt has been updated to prioritize a defensive switch when a known super-effective threat is present.
@@ -128,25 +146,7 @@
 - **Master Battle Agent (Implemented Turn 156589):** Created a new orchestrator agent (`master_battle_agent`) that takes raw party/enemy JSON and internally calls `type_map_generator`, `battle_data_extractor`, and `battle_strategist_agent` to return a single, final action. This streamlines the 3-step battle analysis process into a single tool call, improving turn efficiency.
 - **`pc_withdraw_pokemon` Tool Created (Turn 157056):** Developed to automate the process of selecting and withdrawing a specific Pokémon from the PC, improving team management efficiency.
 
-## C. System Feedback & Self-Correction (Actioned)
-- **Notepad Data Integrity:** I must ensure my notepad does not contain outdated information or function as a to-do list. All system feedback must be immediately actioned and integrated into my permanent knowledge base under 'Lessons Learned'.
-- **Tool Development Priority:** Opportunities to automate repetitive tasks must be acted upon immediately, not deferred. This is a core directive.
-- **Immediate Development Mandate:** All plans for new tools or agents must be acted upon immediately. Deferring development by creating 'to-do lists' in the notepad is a critical failure of core directives. (Self-Correction Turn 155345, per Overwatch Critique)
-- **Party Menu Wrapping (CORRECTED):** The party selection menu does NOT wrap around. Pressing 'Up' from the top Pokémon does not move the cursor to the bottom. This was confirmed in turn 154047.
-- **Team Composition Strategy (Verified):** Used the `team_composition_advisor` agent to confirm that my current team of six level 65 Pokémon is the optimal lineup against the Elite Four and Champion. The agent provided a detailed strategic breakdown for each battle. (Verified Turn 157088)
-
-# IV. Future Development & Strategy
-
-## A. Self-Correction Log
-- **Tool Execution Failure (Self-Correction):** I repeatedly failed to execute the `notepad_edit` tool correctly due to providing mismatched text for replacement. This led to delays in updating my knowledge base, violating the immediate action mandate. **Correction:** I must be more meticulous when using tools, ensuring all arguments are precise to prevent execution failures.
-- **Confirmation Bias (Hyper Beam):** I incorrectly concluded that Hyper Beam *never* has a recharge turn based on a single observation. New evidence proved this wrong. **Correction:** I must require multiple, consistent observations before documenting a game mechanic as a verified rule. A single data point is not enough.
-
 ## B. Future Tool Ideas
 - **PC Screen Text Parser:** Create a tool that can parse the screen text of a PC box to automatically generate the list of Pokémon, streamlining the input process for the `pc_withdraw_pokemon` tool.
 - **`auto_switcher` Refinement:** The tool's cursor logic has been fixed to correctly handle in-battle switches. A future improvement could be adding checks to prevent switching to fainted or status-afflicted Pokémon.
 - **Sacrifice Advisor:** An agent that analyzes the current battle state (remaining opponent Pokémon, my remaining team's health/status) to recommend which Pokémon is the most strategically sound to sacrifice in a no-win situation to set up a better position for the next Pokémon.
-
-## C. Strategic Priorities (Post-Reflection)
-- **Data Gathering (Lance):** During the next battle with Lance, prioritize observing and documenting the full movesets of all his Pokémon. Use different Pokémon to bait out various attacks to build a comprehensive record.
-- **Tool Development (PC Parser):** At the next available opportunity when using a PC, prioritize the creation of a 'PC Screen Text Parser' tool. This will automate the extraction of the Pokémon list from the screen text, streamlining the input process for the `pc_withdraw_pokemon` tool and improving team management efficiency.
-- **Party Menu Cursor Anomaly:** When navigating the party screen during battle, the cursor can sometimes jump unexpectedly. When attempting to select SPARKY (slot 2) and open the sub-menu, the cursor jumped to TITANESS (slot 6). My subsequent 'Up' press then selected NEPTUNE (slot 3), leading to an incorrect switch. I must be more careful and verify cursor position before confirming actions. (Observed Turn 157449-157451)
