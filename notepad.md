@@ -58,6 +58,7 @@
   - Psychic is super-effective against Poison-types (Observed: Lorelei's Slowbro vs ECHO's Golbat).
   - Rock is super-effective against Flying (Observed: Bruno's Machamp vs ECHO's Golbat).
   - Water is not very effective against Water/Psychic dual-types (Observed: NEPTUNE's Surf vs Lorelei's Slowbro).
+  - Normal is not very effective against Rock/Flying (Observed: REVENANT's Headbutt vs Lance's Aerodactyl).
 
 ## B. Opponent Rosters & Moves (Observed)
 ### Lorelei
