@@ -80,7 +80,7 @@
         "active_pokemon_name"
       ]
     },
-    "python_script": "import json\n\ndef auto_switcher(pokemon_to_select, party_pokemon_list_str, active_pokemon_name):\n    presses = ['Right', 'A']\n    party_list = json.loads(party_pokemon_list_str)\n    \n    try:\n        start_index = party_list.index(active_pokemon_name)\n    except ValueError:\n        print(json.dumps({'status': 'failure', 'reason': f'Active Pokémon \"{active_pokemon_name}\" not found in party list.'}))\n        return\n\n    try:\n        target_index = party_list.index(pokemon_to_select)\n    except ValueError:\n        print(json.dumps({'status': 'failure', 'reason': f'Target Pokémon \"{pokemon_to_select}\" not found in party list.'}))\n        return\n\n    diff = target_index - start_index\n    if diff > 0:\n        for _ in range(diff):\n            presses.append('Down')\n    elif diff < 0:\n        for _ in range(abs(diff)):\n            presses.append('Up')\n\n    presses.append('A')\n    presses.append('A')\n    print(json.dumps({'status': 'success', 'presses': presses}))\n\nauto_switcher(input_data['pokemon_to_select'], input_data['party_pokemon_list'], input_data['active_pokemon_name'])",
+    "python_script": "import json\n\ndef auto_switcher(pokemon_to_select, party_pokemon_list_str, active_pokemon_name):\n    presses = ['Right', 'A']\n    party_list = json.loads(party_pokemon_list_str)\n    print(f\"DEBUG: auto_switcher - Party List: {party_list}\")\n    print(f\"DEBUG: auto_switcher - Active: {active_pokemon_name}, Target: {pokemon_to_select}\")\n    \n    try:\n        start_index = party_list.index(active_pokemon_name)\n    except ValueError:\n        print(json.dumps({'status': 'failure', 'reason': f'Active Pokémon \"{active_pokemon_name}\" not found in party list.'}))\n        return\n\n    try:\n        target_index = party_list.index(pokemon_to_select)\n    except ValueError:\n        print(json.dumps({'status': 'failure', 'reason': f'Target Pokémon \"{pokemon_to_select}\" not found in party list.'}))\n        return\n\n    print(f\"DEBUG: auto_switcher - Start Index: {start_index}, Target Index: {target_index}\")\n    diff = target_index - start_index\n    print(f\"DEBUG: auto_switcher - Calculated Diff: {diff}\")\n\n    if diff > 0:\n        for _ in range(diff):\n            presses.append('Down')\n    elif diff < 0:\n        for _ in range(abs(diff)):\n            presses.append('Up')\n\n    presses.append('A')\n    presses.append('A')\n    print(json.dumps({'status': 'success', 'presses': presses}))\n\nauto_switcher(input_data['pokemon_to_select'], input_data['party_pokemon_list'], input_data['active_pokemon_name'])",
     "history": [
       {
         "commit_message": "Initial version",
@@ -116,6 +116,11 @@
         "commit_message": "fix: Correct cursor logic to start from active Pokémon. The tool was incorrectly assuming the party menu cursor starts on the lead Pokémon. This commit refactors the logic to take the `active_pokemon_name` as the starting point, ensuring correct path calculation during in-battle switches. This is a critical fix to restore the tool's core functionality, as mandated by an Overwatch critique.",
         "timestamp": "2025-08-20T13:50:20.672Z",
         "action_counter": 156661
+      },
+      {
+        "commit_message": "fix: Add diagnostic logging to debug repeated failures. The tool has failed multiple times, causing incorrect switches and faints. This commit adds print statements to log the input party list, active/target Pokémon names, and calculated indices to identify the root cause of the incorrect button sequence generation, as mandated by a critical Overwatch review.",
+        "timestamp": "2025-08-20T16:15:19.648Z",
+        "action_counter": 156811
       }
     ]
   },
