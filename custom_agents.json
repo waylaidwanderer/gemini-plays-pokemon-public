@@ -6,13 +6,6 @@
     "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"available_pokemon\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"name\":{\"type\":\"string\"},\"level\":{\"type\":\"integer\"},\"type1\":{\"type\":\"string\"},\"type2\":{\"type\":\"string\",\"nullable\":true},\"moves\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}}}}},\"upcoming_challenge\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"trainer_name\":{\"type\":\"string\"},\"pokemon_roster\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"name\":{\"type\":\"string\"},\"type1\":{\"type\":\"string\"},\"type2\":{\"type\":\"string\",\"nullable\":true}}}}}}}},\"required\":[\"available_pokemon\",\"upcoming_challenge\"]}",
     "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"recommended_team\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}},\"reasoning\":{\"type\":\"string\"}},\"required\":[\"recommended_team\",\"reasoning\"]}"
   },
-  "battle_log_parser": {
-    "agent_name": "battle_log_parser",
-    "agent_description": "Parses raw battle text to extract structured information about the opponent's Pokémon (name, level, moves) and formats it into a markdown string for direct use in the notepad.",
-    "agent_system_prompt": "You are a Battle Log Parser and Formatter. Your sole function is to analyze raw, sequential screen text from a Pokémon battle, extract key information about the opponent's Pokémon (name, level, observed moves), and format this information into a clean, markdown-ready string for a notepad. The input text will be a single string with lines separated by newlines. The level is often displayed on the main battle screen in the format 'POKEMON_NAME :LXX'. You must parse this format to get the level. If the level is not present, default to 0. Your output must be a single markdown-formatted string. Example output: '- POKEMON_NAME (Lv XX) - Known Moves: MOVE1, MOVE2'",
-    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"battle_text\":{\"type\":\"string\",\"description\":\"The raw text captured from the battle screen, with events separated by newlines.\"}},\"required\":[\"battle_text\"]}",
-    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"formatted_log_entry\":{\"type\":\"string\"}},\"required\":[\"formatted_log_entry\"]}"
-  },
   "master_battle_agent": {
     "agent_name": "master_battle_agent",
     "agent_description": "A master orchestrator for battles. Takes raw party and enemy JSON, internally generates the type map, extracts structured data, and calls the battle strategist to provide a single, final recommended action (MOVE or SWITCH) and a recommended lead.",
