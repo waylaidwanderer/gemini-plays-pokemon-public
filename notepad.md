@@ -160,7 +160,3 @@
 
 ## B. Tool Concepts
 - **Auto Party Reorderer:** A tool to automate the sequence of button presses required to move a specific Pokémon to the lead position in the party menu.
-
-## C. Tool Refinements Needed
-- **`auto_attacker`:** The tool's logic for menu navigation is likely flawed (assuming a grid instead of a list). Needs to be re-evaluated and fixed.
-- **`auto_switcher`:** The fix in turn 156174 was based on an out-of-battle observation and is incorrect for in-battle switches. **Confirmed (Turn 156246 vs Agatha):** The party sub-menu defaults to 'SWITCH' during a battle, not 'STATS'. The tool must be updated to handle this context-dependent behavior. For now, I will manually override the tool's incorrect 'Down' press.
