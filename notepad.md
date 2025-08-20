@@ -160,3 +160,4 @@
 
 ## B. Tool Concepts
 - **Auto Party Reorderer:** A tool to automate the sequence of button presses required to move a specific Pokémon to the lead position in the party menu.
+- **Move Selection Anomaly (UNVERIFIED):** In the battle against Lance's Dragonite (Turn 156296), TITANESS used DOUBLE-EDGE despite BODY SLAM being selected. This might be a random effect of paralysis in this ROM hack. **Test Plan:** In a low-stakes wild battle, inflict paralysis on a Pokémon, select a specific move from the bottom of the list, and observe if a different move (e.g., the first one) is used instead.
