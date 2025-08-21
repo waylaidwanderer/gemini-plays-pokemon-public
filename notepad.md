@@ -31,9 +31,6 @@
 # II. Game Mechanics & World Knowledge
 
 ## A. Core Gameplay (Verified)
-- **Battle Style:** Set mode.
-- **Items in Battle:** Prohibited.
-- **Level Caps:** Active and enforced.
 - **PC Interaction:** To use a PC, stand on the tile directly *below* it and face *up* before pressing 'A'.
 - **Menu Navigation:** The 'B' button is the primary method for exiting/canceling out of menus.
 - **Forced Sleeping Switch:** The game will force you to send out or switch to a sleeping Pokémon if no other conscious Pokémon are available. This is a mechanical exception to the strategic guideline of avoiding switching to sleeping Pokémon.
