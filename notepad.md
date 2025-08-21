@@ -151,3 +151,4 @@
 ## D. Battle Mechanics (Anomalies & Unverified)
 - **Move Menu Cursor Position:** The cursor in the move selection menu may default to the last move used, rather than the top-most move. (Observed Turn 158281 vs Bruno's Poliwrath)
  (Observed Turn 158403 vs Agatha).
+- **Move Menu Cursor Reset Anomaly:** The move selection cursor can unexpectedly reset to the default top position after directional inputs are made but before 'A' is pressed to confirm the move. This resulted in using BODY SLAM instead of the intended ROCK SLIDE against Agatha's Golbat. (Observed Turn 158415)
