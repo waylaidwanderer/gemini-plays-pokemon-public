@@ -113,7 +113,7 @@
   - GYARADOS (Lv 60) - Known Moves: Fly, Slam
   - CHARIZARD (Lv 60) - Known Moves: Earthquake, Flamethrower
   - AERODACTYL (Lv 61) - Known Moves: Hyper Beam, Earthquake, ROCK SLIDE
-  - DRAGONITE (Lv 62) - Known Moves: Fire Blast, Slam, Thunder Wave, Wrap, Hyper Beam, Blizzard, Thunder
+  - DRAGONITE (Lv 61 & 62) - Known Moves: Fire Blast, Slam, Thunder Wave, Wrap, Hyper Beam, Blizzard, Thunder
 
 ### Champion Pixel (Scouted in last attempt)
   - MAGNETON (Lv 62) - Moves unknown.
