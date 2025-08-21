@@ -121,16 +121,6 @@
   - SANDSLASH (Lv 60) - Known Moves: SWORDS DANCE, CUT
   - CLOYSTER (Lv 62) - Known Moves: EXPLOSION
   - (Sixth Pokémon unknown)
-  - DODRIO (Lv 61) - Moves unknown.
-  - ALAKAZAM (Lv 63) - Known Moves: REFLECT, RECOVER, THUNDER WAVE
-  - SANDSLASH (Lv 60) - Known Moves: SWORDS DANCE, CUT
-  - CLOYSTER (Lv 62) - Known Moves: EXPLOSION
-  - (Sixth Pokémon unknown)
-  - DODRIO (Lv 61) - Moves unknown.
-  - ALAKAZAM (Lv 63) - Known Moves: REFLECT, RECOVER, THUNDER WAVE
-  - SANDSLASH (Lv 60) - Known Moves: SWORDS DANCE, CUT
-  - CLOYSTER (Lv 62) - Known Moves: EXPLOSION
-  - (Sixth Pokémon unknown)
 
 ## C. Battle Mechanics (Verified)
 - **SPOONBENDE Speed:** My Lv 38 Kadabra (SPOONBENDE) is confirmed to be faster than Agatha's Lv 57 Gengar.
