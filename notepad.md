@@ -136,18 +136,14 @@
 ## A. Tool & Agent Development Log
 - **Diagnostic Tool Output:** Pathfinding tools must report the specific obstacle that blocks a path upon failure. This is essential for distinguishing between a solvable puzzle and a genuinely impossible route.
 - **AI Prediction Failure (Confirmation Bias):** I have incorrectly assumed the opponent's AI would use a specific move to counter my current Pokémon, failing to predict that the AI would instead use the optimal move to counter my *switch-in*. (Observed Turn 147728, Lorelei's Lapras vs. CRAG). **Correction:** I must assume the AI will make the optimal play against my predicted action, not just react to the current board state.
-
 - **Agent Gamble Failure & AI Prediction:** The battle_strategist_agent correctly identified a high-risk, high-reward play by switching to CRAG, predicting Lapras would use its known move Thunderbolt. However, the opponent AI made the optimal counter-play by using Surf against the incoming CRAG, leading to a faint. This confirms that the AI is capable of predicting switches and choosing the best move to counter the incoming Pokémon, not just the one on the field. (Observed Turn 149533, Lorelei's Lapras vs. CRAG).
 - **`auto_switcher` Tool Created:** Developed in Turn 155341 to fully automate the Pokémon switch sequence, improving battle efficiency.
 - **`auto_attacker` Tool Created:** Developed in Turn 155553 to streamline battle actions by combining move selection and execution into a single command.
 - **Master Battle Agent (Implemented Turn 156589):** Created a new orchestrator agent (`master_battle_agent`) that takes raw party/enemy JSON and internally calls `type_map_generator`, `battle_data_extractor`, and `battle_strategist_agent` to return a single, final action. This streamlines the 3-step battle analysis process into a single tool call, improving turn efficiency.
 - **`pc_withdraw_pokemon` Tool Created (Turn 157056):** Developed to automate the process of selecting and withdrawing a specific Pokémon from the PC, improving team management efficiency.
-
-## B. Future Tool Ideas
-- **PC Screen Text Parser (High Priority):** Create a tool that can parse the screen text of a PC box to automatically generate the list of Pokémon, streamlining the input process for the `pc_withdraw_pokemon` tool. Per my 50-turn reflection, this is a top development priority for the next time I use the PC.
-- **`auto_switcher` Refinement:** The tool's cursor logic has been fixed to correctly handle in-battle switches. A future improvement could be adding checks to prevent switching to fainted or status-afflicted Pokémon.
-- **Sacrifice Advisor:** An agent that analyzes the current battle state (remaining opponent Pokémon, my remaining team's health/status) to recommend which Pokémon is the most strategically sound to sacrifice in a no-win situation to set up a better position for the next Pokémon.
-- **Elite Four Room Status Heal (Hypothesis Falsified):** My hypothesis that entering a new Elite Four room heals status conditions was incorrect. Screen text in Lance's room confirmed that REVENANT, ECHO, and TITANESS were still asleep. The Game State data was momentarily inconsistent. (Observed Turn 157695)
+- **PC Screen Text Parser (Development Mandate):** Per Overwatch critique, I must develop a tool to parse PC box screen text at the next available opportunity (i.e., the next time I use the PC). This is no longer an 'idea' but a required action to automate data entry for other tools.
+- **`auto_switcher` Refinement (Development Mandate):** The tool's cursor logic has been fixed. Per Overwatch critique, I must now add checks to prevent switching to fainted or status-afflicted Pokémon at the next opportunity.
+- **Sacrifice Advisor (Development Mandate):** Per Overwatch critique, I must develop an agent to recommend strategic sacrifices in no-win situations at the next available opportunity.
 
 # V. Strategic Reminders
 - **Team Composition:** If this Elite Four run fails, I must re-evaluate my team composition using the `team_composition_advisor` agent. The current lineup may not be optimal despite previous analysis.
