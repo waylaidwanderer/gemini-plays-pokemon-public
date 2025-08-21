@@ -148,3 +148,6 @@
 - **`auto_switcher` Refinement:** The tool's cursor logic has been fixed to correctly handle in-battle switches. A future improvement could be adding checks to prevent switching to fainted or status-afflicted Pokémon.
 - **Sacrifice Advisor:** An agent that analyzes the current battle state (remaining opponent Pokémon, my remaining team's health/status) to recommend which Pokémon is the most strategically sound to sacrifice in a no-win situation to set up a better position for the next Pokémon.
 - **Elite Four Room Status Heal (Hypothesis Falsified):** My hypothesis that entering a new Elite Four room heals status conditions was incorrect. Screen text in Lance's room confirmed that REVENANT, ECHO, and TITANESS were still asleep. The Game State data was momentarily inconsistent. (Observed Turn 157695)
+
+# V. Strategic Reminders
+- **Team Composition:** If this Elite Four run fails, I must re-evaluate my team composition using the `team_composition_advisor` agent. The current lineup may not be optimal despite previous analysis.
