@@ -147,3 +147,4 @@
 - **Team Composition:** If this Elite Four run fails, I must re-evaluate my team composition using the `team_composition_advisor` agent. The current lineup may not be optimal despite previous analysis.
 - **Mystery Room Exploration:** The secret room found via the warp in Lance's chamber (25, 17) requires further investigation on a future run. I only spoke to the NPC and left; there may be other secrets or items I missed. This should be a priority if I black out and restart the Elite Four challenge.
 - **Mystery Room Thorough Search:** On the next run, I must test my assumption that the mystery room is just an Easter egg. I will walk over every tile and interact with the walls/scenery to ensure no hidden items or events are missed.
+  - Electric is super-effective against Poison/Flying dual-types (Observed: Bruno's Hitmonchan vs ECHO's Golbat).
