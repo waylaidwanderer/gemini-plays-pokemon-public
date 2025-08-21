@@ -112,12 +112,6 @@
   - GYARADOS (Lv 60) - Known Moves: Fly, Slam
   - CHARIZARD (Lv 60) - Known Moves: Earthquake, Flamethrower
   - AERODACTYL (Lv 61) - Known Moves: Hyper Beam, Earthquake, ROCK SLIDE
-  - DRAGONITE (Lv 61) - Known Moves: Hyper Beam, THUNDER WAVE, WRAP, Slam
-  - DRAGONITE (Lv 62) - Known Moves: Fire Blast, Slam, Thunder Wave, Wrap, Hyper Beam, Blizzard, Thunder
-  - DRAGONITE (Lv 61) - Known Moves: Hyper Beam, THUNDER WAVE, WRAP
-  - GYARADOS (Lv 60) - Known Moves: Slam
-  - CHARIZARD (Lv 60) - Known Moves: Earthquake, Flamethrower
-  - AERODACTYL (Lv 61) - Known Moves: Earthquake, Hyper Beam, ROCK SLIDE
   - DRAGONITE (Lv 62) - Known Moves: Fire Blast, Slam, Thunder Wave, Wrap, Hyper Beam, Blizzard, Thunder
 
 ### Champion Pixel (Lost to in last attempt)
@@ -146,15 +140,6 @@
 - **`auto_attacker` Tool Created:** Developed in Turn 155553 to streamline battle actions by combining move selection and execution into a single command.
 - **Master Battle Agent (Implemented Turn 156589):** Created a new orchestrator agent (`master_battle_agent`) that takes raw party/enemy JSON and internally calls `type_map_generator`, `battle_data_extractor`, and `battle_strategist_agent` to return a single, final action. This streamlines the 3-step battle analysis process into a single tool call, improving turn efficiency.
 - **`pc_withdraw_pokemon` Tool Created (Turn 157056):** Developed to automate the process of selecting and withdrawing a specific Pokémon from the PC, improving team management efficiency.
-- **PC Screen Text Parser (Development Mandate):** Per Overwatch critique, I must develop a tool to parse PC box screen text at the next available opportunity (i.e., the next time I use the PC). This is no longer an 'idea' but a required action to automate data entry for other tools.
-- **`auto_switcher` Refinement (Development Mandate):** The tool's cursor logic has been fixed. Per Overwatch critique, I must now add checks to prevent switching to fainted or status-afflicted Pokémon at the next opportunity.
-- **Sacrifice Advisor (Development Mandate):** Per Overwatch critique, I must develop an agent to recommend strategic sacrifices in no-win situations at the next available opportunity.
 
 # V. Strategic Reminders
 - **Team Composition:** If this Elite Four run fails, I must re-evaluate my team composition using the `team_composition_advisor` agent. The current lineup may not be optimal despite previous analysis.
-
-# VI. Future Development & Testing
-
-## A. Methodological Improvements
-- **Hypothesis Falsification:** My Type Effectiveness Chart is built on confirming super-effective hits. I must also seek opportunities to test for neutral and not-very-effective interactions to build a more complete and robust chart. This means sometimes using a move I don't expect to be optimal, for the sake of data collection.
-- **Violation of Immediate Action Mandate (Tool Maintenance):** I repeatedly acknowledged the 'Party Menu Cursor Anomaly' and received an Overwatch critique, yet I deferred fixing the `auto_switcher` tool until after the Elite Four run. **Correction:** Tool maintenance is not a deferrable task. It must be performed at the first opportunity, as it directly impacts my ability to execute my strategy effectively. This is a critical violation of my core directives.
