@@ -69,14 +69,18 @@
         },
         "party_pokemon_list": {
           "type": "string"
+        },
+        "active_pokemon_name": {
+          "type": "string"
         }
       },
       "required": [
         "pokemon_to_select",
-        "party_pokemon_list"
+        "party_pokemon_list",
+        "active_pokemon_name"
       ]
     },
-    "python_script": "import json\n\npokemon_to_select = input_data['pokemon_to_select']\nparty_pokemon_list_str = input_data['party_pokemon_list']\n\nparty_list = [p.strip() for p in party_pokemon_list_str.split(',')]\n\nstart_index = 0\n\ntry:\n    target_index = party_list.index(pokemon_to_select)\nexcept ValueError:\n    print(json.dumps([]))\n    exit()\n\nif target_index == start_index:\n    print(json.dumps([]))\n    exit()\n\ndown_presses = target_index - start_index\n\nbutton_sequence = []\n\nif down_presses > 0:\n    button_sequence.extend(['Down'] * down_presses)\n\nbutton_sequence.append('A')\nbutton_sequence.append('A')\n\nprint(json.dumps(button_sequence))",
+    "python_script": "import json\n\npokemon_to_select = input_data['pokemon_to_select']\nparty_pokemon_list_str = input_data['party_pokemon_list']\nactive_pokemon_name = input_data['active_pokemon_name']\n\nparty_list = [p.strip() for p in party_pokemon_list_str.split(',')]\n\ntry:\n    start_index = party_list.index(active_pokemon_name)\n    target_index = party_list.index(pokemon_to_select)\nexcept ValueError:\n    print(json.dumps([]))\n    exit()\n\nif target_index == start_index:\n    print(json.dumps([]))\n    exit()\n\nnum_pokemon = len(party_list)\n\n# Calculate forward and backward distances\ndown_presses = (target_index - start_index + num_pokemon) % num_pokemon\nup_presses = (start_index - target_index + num_pokemon) % num_pokemon\n\nbutton_sequence = []\n\nif down_presses <= up_presses:\n    button_sequence.extend(['Down'] * down_presses)\nelse:\n    button_sequence.extend(['Up'] * up_presses)\n\nbutton_sequence.append('A')\nbutton_sequence.append('A')\n\nprint(json.dumps(button_sequence))\n",
     "history": [
       {
         "commit_message": "Initial version",
@@ -147,6 +151,11 @@
         "commit_message": "fix: Overhaul logic to prevent JSONDecodeError. The previous version of the tool was failing with a JSONDecodeError, indicating a faulty internal parsing mechanism. This commit replaces the entire script with a simplified, robust version that directly processes the string input without any JSON decoding. This new logic correctly calculates the required 'Down' presses from the top of the list (index 0) and generates the appropriate button sequence to select and confirm the switch. This is a critical fix to restore the tool's core functionality.",
         "timestamp": "2025-08-21T12:28:40.794Z",
         "action_counter": 158672
+      },
+      {
+        "commit_message": "fix: Correct cursor logic to start from active Pokémon. The tool was incorrectly assuming the party menu cursor starts at index 0, which was proven false when switching from a low-HP Pokémon. This commit refactors the logic to take `active_pokemon_name` as an input to accurately determine the cursor's starting position and calculate the shortest path (Up or Down). This is a critical fix to restore the tool's core functionality.",
+        "timestamp": "2025-08-21T13:05:22.425Z",
+        "action_counter": 158717
       }
     ]
   },
