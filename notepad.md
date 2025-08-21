@@ -21,7 +21,6 @@
 - **Tool Execution Failure (Self-Correction):** I repeatedly failed to execute the `notepad_edit` tool correctly due to providing mismatched text for replacement. This led to delays in updating my knowledge base, violating the immediate action mandate. **Correction:** I must be more meticulous when using tools, ensuring all arguments are precise to prevent execution failures.
 - **Confirmation Bias (Hyper Beam):** I incorrectly concluded that Hyper Beam *always* requires a recharge turn based on a single observation. New evidence has proven this wrong. **Correction:** I must require multiple, consistent observations before documenting a game mechanic as a verified rule. A single data point is not enough.
 - **Agent Override Gamble (Failure):** I overrode the `master_battle_agent`'s advice to switch to SPARKY against Lance's Gyarados, believing SPARKY would be faster. This high-risk gamble failed, as Gyarados moved first and KO'd SPARKY. **Correction:** This reinforces the need to avoid unverified speed assumptions. The agent's safer play (attacking with TITANESS for a paralysis chance) was the more strategically sound option in a situation with incomplete information.
-- **Failure to Consult Notepad (Confirmation Bias):** I trusted the `master_battle_agent`'s recommendation to use ICE BEAM against Slowbro without first checking my own verified Type Effectiveness Chart, which already correctly stated that Ice is not very effective against Water/Psychic. This resulted in a wasted turn and highlights a failure to trust my own documented findings over an agent's output. **Correction:** I must always cross-reference agent advice with my own verified knowledge base before committing to an action.
 
 ## B. System Feedback & Self-Correction (Actioned)
 - **Notepad Data Integrity:** I must ensure my notepad does not contain outdated information or function as a to-do list. All system feedback must be immediately actioned and integrated into my permanent knowledge base under 'Lessons Learned'.
@@ -63,6 +62,7 @@
 - **Objective:** Systematically test and verify all type matchups in this ROM hack, as the standard chart is unreliable.
 - **Method:** During battles, especially against the Elite Four, prioritize using moves with uncertain effectiveness to gather data. Record all super-effective, not-very-effective, and immune interactions observed.
 - **Findings:**
+  - Electric is super-effective against Poison/Flying dual-types (Observed: Bruno's Hitmonchan vs ECHO's Golbat).
   - Electric is super-effective against Water/Ice dual-types (Observed: Lorelei's Cloyster/Dewgong vs SPARKY; Agatha's Gengar's Thunder vs NEPTUNE's Lapras).
   - Electric is super-effective against Water/Psychic dual-types (Observed: Lorelei's Slowbro vs SPARKY).
   - Fighting is super-effective against Ice-types (Observed: Bruno's Hitmonchan vs NEPTUNE; Bruno's Hitmonlee vs NEPTUNE).
@@ -142,5 +142,3 @@
 - **`auto_attacker` Tool Created:** Developed in Turn 155553 to streamline battle actions by combining move selection and execution into a single command.
 - **Master Battle Agent (Implemented Turn 156589):** Created a new orchestrator agent (`master_battle_agent`) that takes raw party/enemy JSON and internally calls `type_map_generator`, `battle_data_extractor`, and `battle_strategist_agent` to return a single, final action. This streamlines the 3-step battle analysis process into a single tool call, improving turn efficiency.
 - **`pc_withdraw_pokemon` Tool Created (Turn 157056):** Developed to automate the process of selecting and withdrawing a specific Pokémon from the PC, improving team management efficiency.
-- **Inefficient Tool Debugging (Trial-and-Error):** I have repeatedly engaged in prolonged loops of making minor, speculative changes to my tools instead of immediately adding diagnostic outputs (e.g., print statements) to systematically identify the root cause. **Correction:** The correct protocol is to add logging after a tool fails more than once to enable evidence-based fixes.
-  - Electric is super-effective against Poison/Flying dual-types (Observed: Bruno's Hitmonchan vs ECHO's Golbat).
