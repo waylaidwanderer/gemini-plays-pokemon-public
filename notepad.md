@@ -121,18 +121,6 @@
 - **Party Menu Cursor Anomaly (Confirmed):** The party menu cursor can jump to a different Pokémon after a directional input, skipping over the intended target. This has happened multiple times, leading to incorrect switches. The jump can occur both after a simple directional press (e.g., pressing 'Up' from ECHO skipped CRAG and landed on NEPTUNE) and after directional inputs are complete but before 'A' is pressed to open the sub-menu. (Observed Turn 157449 vs Lorelei, Observed Turn 158300 & 158363 vs Bruno, Observed Turn 158837 vs Bruno). I must now visually confirm the cursor's final position *every single turn* within the party menu before making another input.
 - **Move Menu Cursor Position Anomaly (Unverified):** The cursor in the move selection menu may default to the last move used, rather than the top-most move. This needs further observation to confirm if it's a consistent mechanic. (Observed Turn 158281 vs Bruno's Poliwrath, Observed Turn 158403 vs Agatha).
 - **Move Menu Cursor Reset Anomaly (Unverified):** The move selection cursor can unexpectedly reset to the default top position after directional inputs are made but before 'A' is pressed to confirm the move. This resulted in using BODY SLAM instead of the intended ROCK SLIDE against Agatha's Golbat. This needs more observation to determine the trigger. (Observed Turn 158415)
-  - CHARIZARD (Lv 60) - Known Moves: Earthquake, Flamethrower
-  - AERODACTYL (Lv 61) - Known Moves: Hyper Beam, Earthquake, ROCK SLIDE
-  - DRAGONITE (Lv 61) - Known Moves: Thunder Wave, Slam
-  - DRAGONITE (Lv 62) - Known Moves: Fire Blast, Slam, Thunder Wave, Wrap, Hyper Beam, Blizzard, Thunder
-
-### Champion Pixel (Scouted in last attempt)
-  - MAGNETON (Lv 62) - Moves unknown.
-  - DODRIO (Lv 61) - Moves unknown.
-  - ALAKAZAM (Lv 63) - Known Moves: REFLECT, RECOVER, THUNDER WAVE
-  - SANDSLASH (Lv 60) - Known Moves: SWORDS DANCE, CUT, ROCK SLIDE
-  - CLOISTER (Lv 62) - Known Moves: EXPLOSION
-  - (Sixth Pokémon unknown)
 
 ## C. Battle Mechanics (Anomalies & Unverified)
 - **Hypnosis Anomaly (Corrected):** Agatha's Gengar's first Hypnosis on TITANESS failed (Turn 150576), but a second attempt succeeded (Turn 150583). The initial failure was likely a standard move miss, not an immunity. This confirms TITANESS is not immune to sleep.
