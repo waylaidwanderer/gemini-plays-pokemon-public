@@ -90,7 +90,7 @@
         "active_pokemon_name"
       ]
     },
-    "python_script": "import sys; import json; pokemon_to_select = input_data['pokemon_to_select']; party_pokemon_list_str = input_data['party_pokemon_list']; active_pokemon_name = input_data['active_pokemon_name']; party_list = [p.strip() for p in party_pokemon_list_str.split(',')]; try: start_index = party_list.index(active_pokemon_name); target_index = party_list.index(pokemon_to_select); except ValueError: print(json.dumps([])); sys.exit(); if target_index == start_index: print(json.dumps([])); sys.exit(); button_sequence = ['Right', 'A']; if target_index > start_index: presses = target_index - start_index; button_sequence.extend(['Down'] * presses); else: presses = start_index - target_index; button_sequence.extend(['Up'] * presses); button_sequence.append('A'); button_sequence.append('A'); print(json.dumps(button_sequence));",
+    "python_script": "import sys\nimport json\n\npokemon_to_select = input_data['pokemon_to_select']\nparty_pokemon_list_str = input_data['party_pokemon_list']\nactive_pokemon_name = input_data['active_pokemon_name']\n\ncleaned_str = party_pokemon_list_str.replace('[', '').replace(']', '').replace('\"', '')\nparty_list = [p.strip() for p in cleaned_str.split(',')]\n\nif active_pokemon_name not in party_list or pokemon_to_select not in party_list:\n    print(json.dumps([]))\n    sys.exit()\n\nstart_index = party_list.index(active_pokemon_name)\ntarget_index = party_list.index(pokemon_to_select)\n\nif target_index == start_index:\n    print(json.dumps([]))\n    sys.exit()\n\nbutton_sequence = ['Right', 'A']\n\nif target_index > start_index:\n    presses = target_index - start_index\n    button_sequence.extend(['Down'] * presses)\nelse:\n    presses = start_index - target_index\n    button_sequence.extend(['Up'] * presses)\n\nbutton_sequence.append('A')\nbutton_sequence.append('A')\n\nprint(json.dumps(button_sequence))",
     "history": [
       {
         "commit_message": "Initial version",
@@ -186,6 +186,26 @@
         "commit_message": "fix: Re-implement active_pokemon_name logic to address cursor anomaly. The previous fix assuming the cursor starts at index 0 was incorrect, as confirmed by an Overwatch critique. This commit reverts to using `active_pokemon_name` to determine the cursor's starting position, which, while previously flawed, is a more robust approach to the unpredictable cursor behavior than a static assumption. This is a critical fix to restore the tool's core functionality.",
         "timestamp": "2025-08-21T19:40:41.614Z",
         "action_counter": 159271
+      },
+      {
+        "commit_message": "fix: Correct party list parsing logic. The tool was previously using `split(',')` on a JSON string, causing a SyntaxError. This commit replaces the faulty logic with `json.loads()` to correctly parse the party list array. This is a critical fix to restore the tool's core functionality.",
+        "timestamp": "2025-08-21T20:05:48.889Z",
+        "action_counter": 159315
+      },
+      {
+        "commit_message": "fix: Correct party list parsing logic (attempt 2). The tool continued to fail with a SyntaxError after the last fix. This commit reformats the script into a multi-line string to avoid potential parsing issues with the single-line `try...except` block. This is a critical fix to restore core functionality.",
+        "timestamp": "2025-08-21T20:07:03.187Z",
+        "action_counter": 159318
+      },
+      {
+        "commit_message": "fix: Remove try-except block to resolve persistent SyntaxError. The tool has failed repeatedly with a SyntaxError, likely due to issues with the single-line execution of the try-except structure. This commit removes the block entirely and replaces it with simple `if` checks for error handling. This is a critical attempt to restore the tool's core functionality.",
+        "timestamp": "2025-08-21T20:07:32.585Z",
+        "action_counter": 159319
+      },
+      {
+        "commit_message": "fix: Implement manual string parsing to bypass persistent SyntaxError. The tool has failed repeatedly with a SyntaxError that appears to be unrelated to the actual code. This commit replaces `json.loads()` with manual string manipulation as a last-ditch effort to resolve a suspected execution environment issue. This is a critical attempt to restore core functionality.",
+        "timestamp": "2025-08-21T20:08:14.108Z",
+        "action_counter": 159320
       }
     ]
   },

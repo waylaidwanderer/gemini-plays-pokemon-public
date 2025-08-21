@@ -133,7 +133,6 @@
 # IV. Tool & Agent Development
 
 ## A. Tool & Agent Development Log
-- **Agent Idea:** A 'meta-strategy' agent that takes the `master_battle_agent`'s output and my own assessment to reconcile a final action, especially in cases with unique threats like OHKO moves.
 
 - **Diagnostic Tool Output:** Pathfinding tools must report the specific obstacle that blocks a path upon failure. This is essential for distinguishing between a solvable puzzle and a genuinely impossible route.
 - **AI Prediction Failure (Confirmation Bias):** I have incorrectly assumed the opponent's AI would use a specific move to counter my current Pokémon, failing to predict that the AI would instead use the optimal move to counter my *switch-in*. (Observed Turn 147728, Lorelei's Lapras vs. CRAG). **Correction:** I must assume the AI will make the optimal play against my predicted action, not just react to the current board state.
