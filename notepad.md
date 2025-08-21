@@ -155,3 +155,14 @@
   - Conclusion: The recharge mechanic is not guaranteed and is likely conditional. A testing plan is required.
 - **Methodological Failure (Confirmation):**
   - My gamble to switch to SPARKY vs Gyarados failed due to an unverified speed assumption. This reinforces the lesson to trust the agent's safer, more strategic plays when information is incomplete.
+
+# VI. Latest Scouting Run Log (Turn 159040)
+- **Loss:** Blacked out against Lance.
+- **Opponent Moveset Updates (Lance):**
+  - GYARADOS (Lv 60) - New observed moves: HYPER BEAM, FLY, SLAM.
+  - DRAGONITE (Lv 61) - New observed moves: THUNDER WAVE, SLAM, HYPER BEAM.
+- **Critical Mechanic Discovery (Hyper Beam):**
+  - Contradictory evidence observed. Gyarados used HYPER BEAM and was able to attack with SLAM on the next turn without recharging. This contradicts previous observation of Aerodactyl.
+  - Conclusion: The recharge mechanic is not guaranteed and is likely conditional. A testing plan is required.
+- **Methodological Failure (Confirmation):**
+  - My gamble to switch to SPARKY vs Gyarados failed due to an unverified speed assumption. This reinforces the lesson to trust the agent's safer, more strategic plays when information is incomplete.
