@@ -70,7 +70,7 @@
     ]
   },
   "auto_switcher": {
-    "description": "Automates the entire process of switching Pokémon in battle. Takes a target Pokémon's name and party info, then returns the full sequence of button presses ('Right' for PKMN, directional inputs, 'A', 'A').",
+    "description": "Automates the process of switching Pokémon in battle. Takes a target Pokémon's name and party info, then returns the sequence of directional inputs and 'A' presses required *within the party menu*. The user must open the PKMN menu first.",
     "input_schema": {
       "type": "object",
       "properties": {
@@ -90,7 +90,7 @@
         "active_pokemon_name"
       ]
     },
-    "python_script": "import sys\nimport json\n\npokemon_to_select = input_data['pokemon_to_select']\nparty_pokemon_list_str = input_data['party_pokemon_list']\nactive_pokemon_name = input_data['active_pokemon_name']\n\ncleaned_str = party_pokemon_list_str.replace('[', '').replace(']', '').replace('\"', '')\nparty_list = [p.strip() for p in cleaned_str.split(',')]\n\nif active_pokemon_name not in party_list or pokemon_to_select not in party_list:\n    print(json.dumps([]))\n    sys.exit()\n\nstart_index = party_list.index(active_pokemon_name)\ntarget_index = party_list.index(pokemon_to_select)\n\nif target_index == start_index:\n    print(json.dumps([]))\n    sys.exit()\n\nbutton_sequence = ['Right', 'A']\n\nif target_index > start_index:\n    presses = target_index - start_index\n    button_sequence.extend(['Down'] * presses)\nelse:\n    presses = start_index - target_index\n    button_sequence.extend(['Up'] * presses)\n\nbutton_sequence.append('A')\nbutton_sequence.append('A')\n\nprint(json.dumps(button_sequence))",
+    "python_script": "import sys\nimport json\n\npokemon_to_select = input_data['pokemon_to_select']\nparty_pokemon_list_str = input_data['party_pokemon_list']\nactive_pokemon_name = input_data['active_pokemon_name']\n\ntry:\n    party_list = json.loads(party_pokemon_list_str)\nexcept json.JSONDecodeError:\n    cleaned_str = party_pokemon_list_str.replace('[', '').replace(']', '').replace('\"', '')\n    party_list = [p.strip() for p in cleaned_str.split(',')]\n\nif active_pokemon_name not in party_list or pokemon_to_select not in party_list:\n    print(json.dumps([]))\n    sys.exit()\n\nstart_index = party_list.index(active_pokemon_name)\ntarget_index = party_list.index(pokemon_to_select)\n\nif target_index == start_index:\n    print(json.dumps([]))\n    sys.exit()\n\nbutton_sequence = []\n\nif target_index > start_index:\n    presses = target_index - start_index\n    button_sequence.extend(['Down'] * presses)\nelse:\n    presses = start_index - target_index\n    button_sequence.extend(['Up'] * presses)\n\nbutton_sequence.append('A')\nbutton_sequence.append('A')\n\nprint(json.dumps(button_sequence))",
     "history": [
       {
         "commit_message": "Initial version",
@@ -206,6 +206,11 @@
         "commit_message": "fix: Implement manual string parsing to bypass persistent SyntaxError. The tool has failed repeatedly with a SyntaxError that appears to be unrelated to the actual code. This commit replaces `json.loads()` with manual string manipulation as a last-ditch effort to resolve a suspected execution environment issue. This is a critical attempt to restore core functionality.",
         "timestamp": "2025-08-21T20:08:14.108Z",
         "action_counter": 159320
+      },
+      {
+        "commit_message": "refactor: Remove hardcoded menu navigation from `auto_switcher`. The tool now only calculates the button presses required *within* the party selection menu, removing the initial 'Right' and 'A' presses. This makes the tool more modular and prevents errors when it's called after the menu is already open. The user is now responsible for opening the PKMN menu before calling this tool.",
+        "timestamp": "2025-08-21T21:24:30.644Z",
+        "action_counter": 159466
       }
     ]
   },
