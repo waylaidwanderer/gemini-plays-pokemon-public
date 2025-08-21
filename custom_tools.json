@@ -74,14 +74,18 @@
         },
         "party_pokemon_list": {
           "type": "string"
+        },
+        "active_pokemon_name": {
+          "type": "string"
         }
       },
       "required": [
         "pokemon_to_select",
-        "party_pokemon_list"
+        "party_pokemon_list",
+        "active_pokemon_name"
       ]
     },
-    "python_script": "import sys\nimport json\n\npokemon_to_select = input_data['pokemon_to_select']\nparty_pokemon_list_str = input_data['party_pokemon_list']\n\nparty_list = [p.strip() for p in party_pokemon_list_str.split(',')]\n\ntry:\n    # Always assume cursor starts at index 0\n    start_index = 0\n    target_index = party_list.index(pokemon_to_select)\nexcept ValueError:\n    print(json.dumps([]))\n    sys.exit()\n\n# If the target is the first pokemon, no directional presses needed\nif target_index == start_index:\n    button_sequence = ['Right', 'A', 'A', 'A']\n    print(json.dumps(button_sequence))\n    sys.exit()\n\n# Start sequence to open the PKMN menu\nbutton_sequence = ['Right', 'A']\n\n# Calculate presses from the top of the list\npresses = target_index - start_index\nbutton_sequence.extend(['Down'] * presses)\n\n# Confirm the switch\nbutton_sequence.append('A')\nbutton_sequence.append('A')\n\nprint(json.dumps(button_sequence))\n",
+    "python_script": "import sys; import json; pokemon_to_select = input_data['pokemon_to_select']; party_pokemon_list_str = input_data['party_pokemon_list']; active_pokemon_name = input_data['active_pokemon_name']; party_list = [p.strip() for p in party_pokemon_list_str.split(',')]; try: start_index = party_list.index(active_pokemon_name); target_index = party_list.index(pokemon_to_select); except ValueError: print(json.dumps([])); sys.exit(); if target_index == start_index: print(json.dumps([])); sys.exit(); button_sequence = ['Right', 'A']; if target_index > start_index: presses = target_index - start_index; button_sequence.extend(['Down'] * presses); else: presses = start_index - target_index; button_sequence.extend(['Up'] * presses); button_sequence.append('A'); button_sequence.append('A'); print(json.dumps(button_sequence));",
     "history": [
       {
         "commit_message": "Initial version",
@@ -172,6 +176,11 @@
         "commit_message": "refactor: Overhaul logic to handle Party Menu Cursor Anomaly. The tool's previous logic, which relied on the `active_pokemon_name` to determine the cursor's starting position, was fundamentally flawed due to unpredictable cursor behavior. This commit refactors the tool to always assume the cursor starts at index 0 (the top of the list). This provides a stable, predictable starting point, eliminating the need for the unreliable `active_pokemon_name` input and resolving the root cause of previous switch failures. This is a critical fix mandated by an Overwatch critique.",
         "timestamp": "2025-08-21T19:04:30.965Z",
         "action_counter": 159211
+      },
+      {
+        "commit_message": "fix: Re-implement active_pokemon_name logic to address cursor anomaly. The previous fix assuming the cursor starts at index 0 was incorrect, as confirmed by an Overwatch critique. This commit reverts to using `active_pokemon_name` to determine the cursor's starting position, which, while previously flawed, is a more robust approach to the unpredictable cursor behavior than a static assumption. This is a critical fix to restore the tool's core functionality.",
+        "timestamp": "2025-08-21T19:40:41.614Z",
+        "action_counter": 159271
       }
     ]
   },
