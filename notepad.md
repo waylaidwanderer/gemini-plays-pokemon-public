@@ -134,7 +134,7 @@
 
 ## A. Tool & Agent Development Log
 - **Agent Idea:** A 'meta-strategy' agent that takes the `master_battle_agent`'s output and my own assessment to reconcile a final action, especially in cases with unique threats like OHKO moves.
-- **Agent Idea (Scouting Advisor):** Create an agent that, in a confirmed unwinnable battle, recommends the best Pokémon to send out next for scouting. It should prioritize survival (HP, typing) to gather maximum information on the opponent's team and moveset.
+
 - **Diagnostic Tool Output:** Pathfinding tools must report the specific obstacle that blocks a path upon failure. This is essential for distinguishing between a solvable puzzle and a genuinely impossible route.
 - **AI Prediction Failure (Confirmation Bias):** I have incorrectly assumed the opponent's AI would use a specific move to counter my current Pokémon, failing to predict that the AI would instead use the optimal move to counter my *switch-in*. (Observed Turn 147728, Lorelei's Lapras vs. CRAG). **Correction:** I must assume the AI will make the optimal play against my predicted action, not just react to the current board state.
 - **Agent Gamble Failure & AI Prediction:** The battle_strategist_agent correctly identified a high-risk, high-reward play by switching to CRAG, predicting Lapras would use its known move Thunderbolt. However, the opponent AI made the optimal counter-play by using Surf against the incoming CRAG, leading to a faint. This confirms that the AI is capable of predicting switches and choosing the best move to counter the incoming Pokémon, not just the one on the field. (Observed Turn 149533, Lorelei's Lapras vs. CRAG).

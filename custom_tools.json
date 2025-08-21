@@ -20,7 +20,7 @@
         "pokemon_move_list"
       ]
     },
-    "python_script": "import sys\nimport json\n\ntry:\n    move_to_select = input_data['move_to_select']\n    pokemon_move_list_str = input_data['pokemon_move_list']\n    current_selected_move = input_data.get('current_selected_move')\n\n    moves = [m.strip() for m in pokemon_move_list_str.split(',')]\n\n    start_index = 0\n    if current_selected_move and current_selected_move in moves:\n        start_index = moves.index(current_selected_move)\n    \n    if move_to_select not in moves:\n        print(json.dumps([]))\n        sys.exit()\n\n    target_index = moves.index(move_to_select)\n\n    if target_index == start_index:\n        button_sequence = []\n    else:\n        presses = target_index - start_index\n        if presses > 0:\n            button_sequence = ['Down'] * presses\n        else:\n            button_sequence = ['Up'] * abs(presses)\n\n    print(json.dumps(button_sequence))\n\nexcept Exception as e:\n    print(json.dumps([]))",
+    "python_script": "import sys\nimport json\n\ntry:\n    move_to_select = input_data['move_to_select']\n    pokemon_move_list_str = input_data['pokemon_move_list']\n    current_selected_move = input_data.get('current_selected_move')\n\n    moves = json.loads(pokemon_move_list_str)\n\n    start_index = 0\n    if current_selected_move and current_selected_move in moves:\n        start_index = moves.index(current_selected_move)\n    \n    if move_to_select not in moves:\n        print(json.dumps([]))\n        sys.exit()\n\n    target_index = moves.index(move_to_select)\n\n    if target_index == start_index:\n        button_sequence = []\n    else:\n        presses = target_index - start_index\n        if presses > 0:\n            button_sequence = ['Down'] * presses\n        else:\n            button_sequence = ['Up'] * abs(presses)\n\n    print(json.dumps(button_sequence))\n\nexcept Exception as e:\n    print(json.dumps([]))",
     "history": [
       {
         "commit_message": "feat: Create auto_attacker tool to streamline battle actions. In response to my 50-turn reflection identifying an inefficiency, this tool combines the logic of selecting a move and pressing 'A' to use it into a single, automated command. This is a critical step to improve my turn-by-turn efficiency in combat.",
@@ -61,6 +61,11 @@
         "commit_message": "fix: Add robust error handling to prevent JSONDecodeError. The tool was failing due to an empty output, causing a JSON parsing error. This commit wraps the logic in a try-except block and adds checks for move existence to ensure a valid JSON array (`[]`) is always printed, even on failure. This is a critical fix to restore the tool's core functionality.",
         "timestamp": "2025-08-21T16:44:16.041Z",
         "action_counter": 158973
+      },
+      {
+        "commit_message": "fix: Correct move list parsing logic. The tool was previously using `split(',')` on a JSON string, causing parsing errors. This commit replaces the faulty logic with `json.loads()` to correctly parse the move list array. This is a critical fix to restore the tool's core functionality.",
+        "timestamp": "2025-08-21T19:59:08.825Z",
+        "action_counter": 159301
       }
     ]
   },
