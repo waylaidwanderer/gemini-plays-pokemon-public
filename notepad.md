@@ -82,6 +82,7 @@
   - Ground is super-effective against Rock/Ground dual-types (Observed: Bruno's Onix vs CRAG's Golem).
   - Ice is not very effective against Psychic-types (Observed: NEPTUNE's Ice Beam vs Lorelei's Slowbro).
   - Ice is super-effective against Ground-types (Observed: Bruno's Poliwrath vs REVENANT's Marowak).
+  - Ice is super-effective against Poison/Flying dual-types (Observed: Bruno's Hitmonchan vs ECHO's Golbat).
   - Normal is immune to Ghost-type moves (Observed: CRAG's Body Slam vs Agatha's Gengar).
   - Normal is not very effective against Rock/Flying (Observed: REVENANT's Headbutt vs Lance's Aerodactyl).
   - Psychic is super-effective against Poison-types (Observed: Lorelei's Slowbro vs ECHO's Golbat).
@@ -127,11 +128,13 @@
 - **Party Menu Cursor Anomaly (Confirmed):** The party menu cursor can jump to a different Pokémon after a directional input, skipping over the intended target. This has happened multiple times, leading to incorrect switches. The jump can occur both after a simple directional press (e.g., pressing 'Up' from ECHO skipped CRAG and landed on NEPTUNE) and after directional inputs are complete but before 'A' is pressed to open the sub-menu. (Observed Turn 157449 vs Lorelei, Observed Turn 158300 & 158363 vs Bruno, Observed Turn 158837 vs Bruno). I must now visually confirm the cursor's final position *every single turn* within the party menu before making another input.
 - **Move Menu Cursor Position Anomaly (Unverified):** The cursor in the move selection menu may default to the last move used, rather than the top-most move. This needs further observation to confirm if it's a consistent mechanic. (Observed Turn 158281 vs Bruno's Poliwrath, Observed Turn 158403 vs Agatha).
 - **Move Menu Cursor Reset Anomaly (Unverified):** The move selection cursor can unexpectedly reset to the default top position after directional inputs are made but before 'A' is pressed to confirm the move. This resulted in using BODY SLAM instead of the intended ROCK SLIDE against Agatha's Golbat. This needs more observation to determine the trigger. (Observed Turn 158415)
+- **Hypnosis Switch Anomaly:** Unlike other sleep-inducing moves, Poliwrath's Hypnosis did not force an immediate switch after putting ECHO to sleep. (Observed Turn 159225)
 
 # IV. Tool & Agent Development
 
 ## A. Tool & Agent Development Log
 - **Agent Idea:** A 'meta-strategy' agent that takes the `master_battle_agent`'s output and my own assessment to reconcile a final action, especially in cases with unique threats like OHKO moves.
+- **Agent Idea (Scouting Advisor):** Create an agent that, in a confirmed unwinnable battle, recommends the best Pokémon to send out next for scouting. It should prioritize survival (HP, typing) to gather maximum information on the opponent's team and moveset.
 - **Diagnostic Tool Output:** Pathfinding tools must report the specific obstacle that blocks a path upon failure. This is essential for distinguishing between a solvable puzzle and a genuinely impossible route.
 - **AI Prediction Failure (Confirmation Bias):** I have incorrectly assumed the opponent's AI would use a specific move to counter my current Pokémon, failing to predict that the AI would instead use the optimal move to counter my *switch-in*. (Observed Turn 147728, Lorelei's Lapras vs. CRAG). **Correction:** I must assume the AI will make the optimal play against my predicted action, not just react to the current board state.
 - **Agent Gamble Failure & AI Prediction:** The battle_strategist_agent correctly identified a high-risk, high-reward play by switching to CRAG, predicting Lapras would use its known move Thunderbolt. However, the opponent AI made the optimal counter-play by using Surf against the incoming CRAG, leading to a faint. This confirms that the AI is capable of predicting switches and choosing the best move to counter the incoming Pokémon, not just the one on the field. (Observed Turn 149533, Lorelei's Lapras vs. CRAG).
@@ -145,7 +148,3 @@
 - **Team Composition Re-evaluation:** If this Elite Four run fails, I must re-evaluate my team composition using the `team_composition_advisor` agent.
 - **Lance's Chamber Mystery Room:** If I black out, my next priority is to thoroughly investigate the secret room in Lance's chamber (accessible via warp at 25, 17). I will interact with all tiles and scenery to check for hidden items or events.
 - **Party Menu Cursor Anomaly (Testing Plan):** On future switches, I will test input timing (fast vs. slow presses, pauses) to identify patterns in the cursor jump anomaly and determine if it can be controlled or predicted.
-
-  - Ice is super-effective against Poison/Flying dual-types (Observed: Bruno's Hitmonchan vs ECHO's Golbat).
-- **Hypnosis Switch Anomaly:** Unlike other sleep-inducing moves, Poliwrath's Hypnosis did not force an immediate switch after putting ECHO to sleep. (Observed Turn 159225)
-- **Agent Idea (Scouting Advisor):** Create an agent that, in a confirmed unwinnable battle, recommends the best Pokémon to send out next for scouting. It should prioritize survival (HP, typing) to gather maximum information on the opponent's team and moveset.
