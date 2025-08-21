@@ -80,7 +80,7 @@
         "active_pokemon_name"
       ]
     },
-    "python_script": "import sys\nimport json\n\npokemon_to_select = input_data['pokemon_to_select']\nparty_pokemon_list_str = input_data['party_pokemon_list']\nactive_pokemon_name = input_data['active_pokemon_name']\n\nparty_list = [p.strip() for p in party_pokemon_list_str.split(',')]\n\ntry:\n    start_index = party_list.index(active_pokemon_name)\n    target_index = party_list.index(pokemon_to_select)\nexcept ValueError:\n    print(json.dumps([]))\n    sys.exit()\n\nif target_index == start_index:\n    print(json.dumps([]))\n    sys.exit()\n\nnum_pokemon = len(party_list)\n\n# Start sequence to open the PKMN menu\nbutton_sequence = ['Right', 'A']\n\n# Calculate forward and backward distances for navigation within the party menu\ndown_presses = (target_index - start_index + num_pokemon) % num_pokemon\nup_presses = (start_index - target_index + num_pokemon) % num_pokemon\n\nif down_presses <= up_presses:\n    button_sequence.extend(['Down'] * down_presses)\nelse:\n    button_sequence.extend(['Up'] * up_presses)\n\n# Confirm the switch\nbutton_sequence.append('A')\nbutton_sequence.append('A')\n\nprint(json.dumps(button_sequence))",
+    "python_script": "import sys\nimport json\n\npokemon_to_select = input_data['pokemon_to_select']\nparty_pokemon_list_str = input_data['party_pokemon_list']\nactive_pokemon_name = input_data['active_pokemon_name']\n\nparty_list = [p.strip() for p in party_pokemon_list_str.split(',')]\n\ntry:\n    start_index = party_list.index(active_pokemon_name)\n    target_index = party_list.index(pokemon_to_select)\nexcept ValueError:\n    print(json.dumps([]))\n    sys.exit()\n\nif target_index == start_index:\n    print(json.dumps([]))\n    sys.exit()\n\n# Start sequence to open the PKMN menu\nbutton_sequence = ['Right', 'A']\n\n# Calculate linear distance\nif target_index > start_index:\n    presses = target_index - start_index\n    button_sequence.extend(['Down'] * presses)\nelse: # target_index < start_index\n    presses = start_index - target_index\n    button_sequence.extend(['Up'] * presses)\n\n# Confirm the switch\nbutton_sequence.append('A')\nbutton_sequence.append('A')\n\nprint(json.dumps(button_sequence))",
     "history": [
       {
         "commit_message": "Initial version",
@@ -161,6 +161,11 @@
         "commit_message": "fix: Add initial menu navigation to automate full switch sequence. The tool was previously missing the initial 'Right' and 'A' presses required to open the PKMN menu from the main battle screen. This commit adds that logic, fulfilling the tool's stated purpose of automating the *entire* switch process. This is a critical fix to restore core functionality.",
         "timestamp": "2025-08-21T14:28:56.483Z",
         "action_counter": 158820
+      },
+      {
+        "commit_message": "fix: Implement linear menu logic. The previous version incorrectly assumed the party menu was circular and wrapped around, causing it to calculate incorrect directional presses. This commit replaces the faulty modulo arithmetic with simple linear logic (Up/Down presses based on index difference), ensuring correct navigation in a non-wrapping list. This is a critical fix to restore the tool's core functionality.",
+        "timestamp": "2025-08-21T16:38:09.472Z",
+        "action_counter": 158958
       }
     ]
   },
