@@ -150,8 +150,5 @@
 
 # VI. Future Development & Testing
 
-## A. Future Tool & Agent Ideas
-- **Party Menu Navigator:** An agent or tool to parse the party screen text and account for the observed 'Cursor Anomaly' to generate reliable navigation sequences.
-
-## B. Methodological Improvements
+## A. Methodological Improvements
 - **Hypothesis Falsification:** My Type Effectiveness Chart is built on confirming super-effective hits. I must also seek opportunities to test for neutral and not-very-effective interactions to build a more complete and robust chart. This means sometimes using a move I don't expect to be optimal, for the sake of data collection.
