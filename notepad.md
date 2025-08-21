@@ -21,6 +21,7 @@
 - **Tool Execution Failure (Self-Correction):** I repeatedly failed to execute the `notepad_edit` tool correctly due to providing mismatched text for replacement. This led to delays in updating my knowledge base, violating the immediate action mandate. **Correction:** I must be more meticulous when using tools, ensuring all arguments are precise to prevent execution failures.
 - **Confirmation Bias (Hyper Beam):** I incorrectly concluded that Hyper Beam *always* requires a recharge turn based on a single observation. New evidence has proven this wrong. **Correction:** I must require multiple, consistent observations before documenting a game mechanic as a verified rule. A single data point is not enough.
 - **Agent Override Gamble (Failure):** I overrode the `master_battle_agent`'s advice to switch to SPARKY against Lance's Gyarados, believing SPARKY would be faster. This high-risk gamble failed, as Gyarados moved first and KO'd SPARKY. **Correction:** This reinforces the need to avoid unverified speed assumptions. The agent's safer play (attacking with TITANESS for a paralysis chance) was the more strategically sound option in a situation with incomplete information.
+- **Agent Override Failure (Post-Refinement):** I incorrectly overrode the `master_battle_agent`'s advice in turn 159629, immediately after refining its logic. This was a critical failure to trust my own corrective actions and a violation of core directives. **Correction:** The purpose of refining a tool is to make it more trustworthy. I must adhere to the output of a newly-refined tool to validate the fix and reinforce proper methodology.
 
 ## B. System Feedback & Self-Correction (Actioned)
 - **Notepad Data Integrity:** I must ensure my notepad does not contain outdated information or function as a to-do list. All system feedback must be immediately actioned and integrated into my permanent knowledge base under 'Lessons Learned'.
@@ -30,7 +31,6 @@
 # II. Game Mechanics & World Knowledge
 
 ## A. Core Gameplay (Verified)
-
 - **Forced Sleeping Switch:** The game will force you to send out or switch to a sleeping Pokémon if no other conscious Pokémon are available. This is a mechanical exception to the strategic guideline of avoiding switching to sleeping Pokémon.
 - **Forced Sleep-Induced Switch:** The game forces a switch immediately after a Pokémon is put to sleep by an opponent's move, similar to when a Pokémon faints. (Observed Turn 150625)
 - **Indigo Plateau Auto-Heal:** Blacking out during the Elite Four challenge and respawning at the Indigo Plateau entrance automatically heals the entire party. (Observed Turn 149617)
@@ -131,7 +131,6 @@
 # IV. Tool & Agent Development
 
 ## A. Tool & Agent Development Log
-
 - **Diagnostic Tool Output:** Pathfinding tools must report the specific obstacle that blocks a path upon failure. This is essential for distinguishing between a solvable puzzle and a genuinely impossible route.
 - **AI Prediction Failure (Confirmation Bias):** I have incorrectly assumed the opponent's AI would use a specific move to counter my current Pokémon, failing to predict that the AI would instead use the optimal move to counter my *switch-in*. (Observed Turn 147728, Lorelei's Lapras vs. CRAG). **Correction:** I must assume the AI will make the optimal play against my predicted action, not just react to the current board state.
 - **Agent Gamble Failure & AI Prediction:** The battle_strategist_agent correctly identified a high-risk, high-reward play by switching to CRAG, predicting Lapras would use its known move Thunderbolt. However, the opponent AI made the optimal counter-play by using Surf against the incoming CRAG, leading to a faint. This confirms that the AI is capable of predicting switches and choosing the best move to counter the incoming Pokémon, not just the one on the field. (Observed Turn 149533, Lorelei's Lapras vs. CRAG).
@@ -145,4 +144,3 @@
 - **`party_menu_parser` Tool:** A tool that can read the party screen text to reliably identify the current cursor position. This would make `auto_switcher` immune to the cursor anomaly.
 - **`agent_override_analyst` Agent:** An agent to analyze instances where I override `master_battle_agent`'s advice. It would help identify gaps in the agent's logic and suggest refinements, formalizing the self-correction loop.
 - **`battle_screen_parser` Tool:** A tool that can parse the battle screen text to automatically generate the structured JSON required as input for the `master_battle_agent`. This would eliminate the current manual and error-prone data entry step, significantly improving battle efficiency.
-- **Agent Override Failure (Post-Refinement):** I incorrectly overrode the `master_battle_agent`'s advice in turn 159629, immediately after refining its logic. This was a critical failure to trust my own corrective actions and a violation of core directives. **Correction:** The purpose of refining a tool is to make it more trustworthy. I must adhere to the output of a newly-refined tool to validate the fix and reinforce proper methodology.
