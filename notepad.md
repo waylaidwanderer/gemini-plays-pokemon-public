@@ -144,7 +144,7 @@
 - **`pc_withdraw_pokemon` Tool Created (Turn 157056):** Developed to automate the process of selecting and withdrawing a specific Pokémon from the PC, improving team management efficiency.
 
 ## B. Future Tool Ideas
-- **PC Screen Text Parser:** Create a tool that can parse the screen text of a PC box to automatically generate the list of Pokémon, streamlining the input process for the `pc_withdraw_pokemon` tool.
+- **PC Screen Text Parser (High Priority):** Create a tool that can parse the screen text of a PC box to automatically generate the list of Pokémon, streamlining the input process for the `pc_withdraw_pokemon` tool. Per my 50-turn reflection, this is a top development priority for the next time I use the PC.
 - **`auto_switcher` Refinement:** The tool's cursor logic has been fixed to correctly handle in-battle switches. A future improvement could be adding checks to prevent switching to fainted or status-afflicted Pokémon.
 - **Sacrifice Advisor:** An agent that analyzes the current battle state (remaining opponent Pokémon, my remaining team's health/status) to recommend which Pokémon is the most strategically sound to sacrifice in a no-win situation to set up a better position for the next Pokémon.
 - **Elite Four Room Status Heal (Hypothesis Falsified):** My hypothesis that entering a new Elite Four room heals status conditions was incorrect. Screen text in Lance's room confirmed that REVENANT, ECHO, and TITANESS were still asleep. The Game State data was momentarily inconsistent. (Observed Turn 157695)
