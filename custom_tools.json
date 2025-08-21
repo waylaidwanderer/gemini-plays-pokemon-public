@@ -168,6 +168,28 @@
       }
     ]
   },
+  "pc_screen_text_parser": {
+    "description": "Parses the PC box screen text to extract a list of Pokémon names and their levels.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "screen_text": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "screen_text"
+      ]
+    },
+    "python_script": "import re\nimport json\n\ndef parse_pc_text(screen_text):\n    # This regex is designed to find uppercase names, which may include spaces or special characters like in 'MR. MIME',\n    # followed by the level indicator ':L' and the level number.\n    pattern = re.compile(r\"([A-Z.'M\\\\s]+?)\\\\s*:L(\\\\d+)\")\n    matches = pattern.findall(screen_text)\n    \n    pokemon_list = []\n    for match in matches:\n        # Clean up the name by stripping leading/trailing whitespace\n        name = match[0].strip()\n        level = int(match[1])\n        pokemon_list.append({\"name\": name, \"level\": level})\n        \n    print(json.dumps({\"status\": \"success\", \"pokemon_list\": pokemon_list}))\n\nparse_pc_text(input_data['screen_text'])",
+    "history": [
+      {
+        "commit_message": "feat: Create pc_screen_text_parser tool to automate data entry. In response to an Overwatch critique identifying deferred development as a core violation, this tool is being created immediately. It will parse the PC screen text to extract Pokémon names and levels, streamlining the input process for the `pc_withdraw_pokemon` tool and improving overall efficiency in team management.",
+        "timestamp": "2025-08-20T23:39:11.279Z",
+        "action_counter": 157623
+      }
+    ]
+  },
   "pc_withdraw_pokemon": {
     "description": "Calculates the button presses needed to withdraw a specific Pokémon from the current PC box. Assumes the list does not wrap around.",
     "input_schema": {
@@ -195,28 +217,6 @@
         "commit_message": "feat: Create pc_withdraw_pokemon tool to automate team management. In response to my 50-turn reflection identifying an inefficiency in manual PC navigation, this tool calculates the button presses required to select and withdraw a specific Pokémon. This will significantly speed up the process of assembling my team for the Elite Four, adhering to the core directive of immediate automation.",
         "timestamp": "2025-08-20T19:13:01.208Z",
         "action_counter": 157056
-      }
-    ]
-  },
-  "pc_screen_text_parser": {
-    "description": "Parses the PC box screen text to extract a list of Pokémon names and their levels.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "screen_text": {
-          "type": "string"
-        }
-      },
-      "required": [
-        "screen_text"
-      ]
-    },
-    "python_script": "import re\nimport json\n\ndef parse_pc_text(screen_text):\n    # This regex is designed to find uppercase names, which may include spaces or special characters like in 'MR. MIME',\n    # followed by the level indicator ':L' and the level number.\n    pattern = re.compile(r\"([A-Z.'M\\\\s]+?)\\\\s*:L(\\\\d+)\")\n    matches = pattern.findall(screen_text)\n    \n    pokemon_list = []\n    for match in matches:\n        # Clean up the name by stripping leading/trailing whitespace\n        name = match[0].strip()\n        level = int(match[1])\n        pokemon_list.append({\"name\": name, \"level\": level})\n        \n    print(json.dumps({\"status\": \"success\", \"pokemon_list\": pokemon_list}))\n\nparse_pc_text(input_data['screen_text'])",
-    "history": [
-      {
-        "commit_message": "feat: Create pc_screen_text_parser tool to automate data entry. In response to an Overwatch critique identifying deferred development as a core violation, this tool is being created immediately. It will parse the PC screen text to extract Pokémon names and levels, streamlining the input process for the `pc_withdraw_pokemon` tool and improving overall efficiency in team management.",
-        "timestamp": "2025-08-20T23:39:11.279Z",
-        "action_counter": 157623
       }
     ]
   }
