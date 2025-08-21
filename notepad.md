@@ -147,3 +147,4 @@
 - **Party Menu Cursor Anomaly (Testing Plan):** On future switches, I will test input timing (fast vs. slow presses, pauses) to identify patterns in the cursor jump anomaly and determine if it can be controlled or predicted.
 
   - Ice is super-effective against Poison/Flying dual-types (Observed: Bruno's Hitmonchan vs ECHO's Golbat).
+- **Hypnosis Switch Anomaly:** Unlike other sleep-inducing moves, Poliwrath's Hypnosis did not force an immediate switch after putting ECHO to sleep. (Observed Turn 159225)
