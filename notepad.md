@@ -31,8 +31,7 @@
 # II. Game Mechanics & World Knowledge
 
 ## A. Core Gameplay (Verified)
-- **PC Interaction:** To use a PC, stand on the tile directly *below* it and face *up* before pressing 'A'.
-- **Menu Navigation:** The 'B' button is the primary method for exiting/canceling out of menus.
+
 - **Forced Sleeping Switch:** The game will force you to send out or switch to a sleeping Pokémon if no other conscious Pokémon are available. This is a mechanical exception to the strategic guideline of avoiding switching to sleeping Pokémon.
 - **Forced Sleep-Induced Switch:** The game forces a switch immediately after a Pokémon is put to sleep by an opponent's move, similar to when a Pokémon faints. (Observed Turn 150625)
 - **Indigo Plateau Auto-Heal:** Blacking out during the Elite Four challenge and respawning at the Indigo Plateau entrance automatically heals the entire party. (Observed Turn 149617)
