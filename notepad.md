@@ -148,3 +148,4 @@
 
   - Ice is super-effective against Poison/Flying dual-types (Observed: Bruno's Hitmonchan vs ECHO's Golbat).
 - **Hypnosis Switch Anomaly:** Unlike other sleep-inducing moves, Poliwrath's Hypnosis did not force an immediate switch after putting ECHO to sleep. (Observed Turn 159225)
+- **Agent Idea (Scouting Advisor):** Create an agent that, in a confirmed unwinnable battle, recommends the best Pokémon to send out next for scouting. It should prioritize survival (HP, typing) to gather maximum information on the opponent's team and moveset.
