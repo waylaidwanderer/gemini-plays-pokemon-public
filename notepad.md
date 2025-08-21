@@ -150,3 +150,4 @@
 
 ## D. Battle Mechanics (Anomalies & Unverified)
 - **Move Menu Cursor Position:** The cursor in the move selection menu may default to the last move used, rather than the top-most move. (Observed Turn 158281 vs Bruno's Poliwrath)
+ (Observed Turn 158403 vs Agatha).
