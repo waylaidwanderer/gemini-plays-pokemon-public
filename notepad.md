@@ -120,18 +120,17 @@
   - DODRIO (Lv 61) - Moves unknown.
   - ALAKAZAM (Lv 63) - Known Moves: REFLECT, RECOVER, THUNDER WAVE
   - SANDSLASH (Lv 60) - Known Moves: SWORDS DANCE, CUT, ROCK SLIDE
-  - CLOYSTER (Lv 62) - Known Moves: EXPLOSION
+  - CLOISTER (Lv 62) - Known Moves: EXPLOSION
   - (Sixth Pokémon unknown)
 
-## C. Battle Mechanics (Verified)
-- **SPOONBENDE Speed:** My Lv 38 Kadabra (SPOONBENDE) is confirmed to be faster than Agatha's Lv 57 Gengar.
-- **Rematch Mechanic:** Some Elite Four members (Bruno, Agatha) require a second interaction to trigger a mandatory rematch before allowing progression.
+## C. Battle Mechanics (Anomalies & Unverified)
 - **Hypnosis Anomaly (Corrected):** Agatha's Gengar's first Hypnosis on TITANESS failed (Turn 150576), but a second attempt succeeded (Turn 150583). The initial failure was likely a standard move miss, not an immunity. This confirms TITANESS is not immune to sleep.
 - **Night Shade Damage Anomaly:** Agatha's Lv 57 Gengar's Night Shade dealt 38 damage instead of the expected 57. This may be a mechanic change in the ROM hack. (Observed Turn 148518)
 - **Hyper Beam Recharge (Verified):** The move Hyper Beam requires a recharge turn after use, leaving the user immobile. (Observed: Lance's Aerodactyl, Turn 158577)
-- **Tool Output Methodology (Corrected):** Tools like `auto_switcher` that generate a sequence of mixed directional and action buttons are not faulty. The error was in my execution. I must execute the generated button presses one at a time, over multiple turns, to avoid system input truncation. I will not attempt to fix tools that are functioning as designed.
 - **Switch Override Anomaly:** The game has demonstrated unusual behavior when switching out a sleeping Pokémon during the Elite Four battle against Lorelei. When attempting to switch from a sleeping NEPTUNE to TITANESS, the game instead sent out REVENANT (the party lead). This may be a specific, undocumented mechanic related to sleep or the Set battle style. (Observed Turn 157150)
 - **Party Menu Cursor Anomaly (Confirmed):** The party menu cursor can jump to a different Pokémon after a directional input. This has happened multiple times, leading to incorrect switches. The jump can occur both after a simple directional press (e.g., a 'Down' press resulted in a jump from the expected target to another Pokémon) and after directional inputs are complete but before 'A' is pressed to open the sub-menu. (Observed Turn 157449 vs Lorelei, Observed Turn 158300 & 158363 vs Bruno). I must now visually confirm the cursor's final position *every single turn* within the party menu before making another input.
+- **Move Menu Cursor Position Anomaly (Unverified):** The cursor in the move selection menu may default to the last move used, rather than the top-most move. This needs further observation to confirm if it's a consistent mechanic. (Observed Turn 158281 vs Bruno's Poliwrath, Observed Turn 158403 vs Agatha).
+- **Move Menu Cursor Reset Anomaly (Unverified):** The move selection cursor can unexpectedly reset to the default top position after directional inputs are made but before 'A' is pressed to confirm the move. This resulted in using BODY SLAM instead of the intended ROCK SLIDE against Agatha's Golbat. This needs more observation to determine the trigger. (Observed Turn 158415)
 
 # IV. Tool & Agent Development
 
@@ -139,6 +138,7 @@
 - **Diagnostic Tool Output:** Pathfinding tools must report the specific obstacle that blocks a path upon failure. This is essential for distinguishing between a solvable puzzle and a genuinely impossible route.
 - **AI Prediction Failure (Confirmation Bias):** I have incorrectly assumed the opponent's AI would use a specific move to counter my current Pokémon, failing to predict that the AI would instead use the optimal move to counter my *switch-in*. (Observed Turn 147728, Lorelei's Lapras vs. CRAG). **Correction:** I must assume the AI will make the optimal play against my predicted action, not just react to the current board state.
 - **Agent Gamble Failure & AI Prediction:** The battle_strategist_agent correctly identified a high-risk, high-reward play by switching to CRAG, predicting Lapras would use its known move Thunderbolt. However, the opponent AI made the optimal counter-play by using Surf against the incoming CRAG, leading to a faint. This confirms that the AI is capable of predicting switches and choosing the best move to counter the incoming Pokémon, not just the one on the field. (Observed Turn 149533, Lorelei's Lapras vs. CRAG).
+- **Mixed Input Execution:** Tools that generate a sequence of mixed directional and action buttons (e.g., `auto_switcher`) are functioning correctly. The error was in my execution. I must execute the generated button presses one at a time, over multiple turns, to avoid system input truncation.
 - **`auto_switcher` Tool Created:** Developed in Turn 155341 to fully automate the Pokémon switch sequence, improving battle efficiency.
 - **`auto_attacker` Tool Created:** Developed in Turn 155553 to streamline battle actions by combining move selection and execution into a single command.
 - **Master Battle Agent (Implemented Turn 156589):** Created a new orchestrator agent (`master_battle_agent`) that takes raw party/enemy JSON and internally calls `type_map_generator`, `battle_data_extractor`, and `battle_strategist_agent` to return a single, final action. This streamlines the 3-step battle analysis process into a single tool call, improving turn efficiency.
@@ -148,8 +148,3 @@
 - **Team Composition:** If this Elite Four run fails, I must re-evaluate my team composition using the `team_composition_advisor` agent. The current lineup may not be optimal despite previous analysis.
 - **Mystery Room Exploration:** The secret room found via the warp in Lance's chamber (25, 17) requires further investigation on a future run. I only spoke to the NPC and left; there may be other secrets or items I missed. This should be a priority if I black out and restart the Elite Four challenge.
 - **Mystery Room Thorough Search:** On the next run, I must test my assumption that the mystery room is just an Easter egg. I will walk over every tile and interact with the walls/scenery to ensure no hidden items or events are missed.
-
-## D. Battle Mechanics (Anomalies & Unverified)
-- **Move Menu Cursor Position:** The cursor in the move selection menu may default to the last move used, rather than the top-most move. (Observed Turn 158281 vs Bruno's Poliwrath)
- (Observed Turn 158403 vs Agatha).
-- **Move Menu Cursor Reset Anomaly:** The move selection cursor can unexpectedly reset to the default top position after directional inputs are made but before 'A' is pressed to confirm the move. This resulted in using BODY SLAM instead of the intended ROCK SLIDE against Agatha's Golbat. (Observed Turn 158415)
