@@ -144,3 +144,4 @@
 ## B. Future Development Ideas
 - **`party_menu_parser` Tool:** A tool that can read the party screen text to reliably identify the current cursor position. This would make `auto_switcher` immune to the cursor anomaly.
 - **`agent_override_analyst` Agent:** An agent to analyze instances where I override `master_battle_agent`'s advice. It would help identify gaps in the agent's logic and suggest refinements, formalizing the self-correction loop.
+- **`battle_screen_parser` Tool:** A tool that can parse the battle screen text to automatically generate the structured JSON required as input for the `master_battle_agent`. This would eliminate the current manual and error-prone data entry step, significantly improving battle efficiency.
