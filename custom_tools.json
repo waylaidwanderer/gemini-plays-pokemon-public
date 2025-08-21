@@ -74,18 +74,14 @@
         },
         "party_pokemon_list": {
           "type": "string"
-        },
-        "active_pokemon_name": {
-          "type": "string"
         }
       },
       "required": [
         "pokemon_to_select",
-        "party_pokemon_list",
-        "active_pokemon_name"
+        "party_pokemon_list"
       ]
     },
-    "python_script": "import sys\nimport json\n\npokemon_to_select = input_data['pokemon_to_select']\nparty_pokemon_list_str = input_data['party_pokemon_list']\nactive_pokemon_name = input_data['active_pokemon_name']\n\nparty_list = [p.strip() for p in party_pokemon_list_str.split(',')]\n\ntry:\n    start_index = party_list.index(active_pokemon_name)\n    target_index = party_list.index(pokemon_to_select)\nexcept ValueError:\n    print(json.dumps([]))\n    sys.exit()\n\nif target_index == start_index:\n    print(json.dumps([]))\n    sys.exit()\n\n# Start sequence to open the PKMN menu\nbutton_sequence = ['Right', 'A']\n\n# Calculate linear distance\nif target_index > start_index:\n    presses = target_index - start_index\n    button_sequence.extend(['Down'] * presses)\nelse: # target_index < start_index\n    presses = start_index - target_index\n    button_sequence.extend(['Up'] * presses)\n\n# Confirm the switch\nbutton_sequence.append('A')\nbutton_sequence.append('A')\n\nprint(json.dumps(button_sequence))",
+    "python_script": "import sys\nimport json\n\npokemon_to_select = input_data['pokemon_to_select']\nparty_pokemon_list_str = input_data['party_pokemon_list']\n\nparty_list = [p.strip() for p in party_pokemon_list_str.split(',')]\n\ntry:\n    # Always assume cursor starts at index 0\n    start_index = 0\n    target_index = party_list.index(pokemon_to_select)\nexcept ValueError:\n    print(json.dumps([]))\n    sys.exit()\n\n# If the target is the first pokemon, no directional presses needed\nif target_index == start_index:\n    button_sequence = ['Right', 'A', 'A', 'A']\n    print(json.dumps(button_sequence))\n    sys.exit()\n\n# Start sequence to open the PKMN menu\nbutton_sequence = ['Right', 'A']\n\n# Calculate presses from the top of the list\npresses = target_index - start_index\nbutton_sequence.extend(['Down'] * presses)\n\n# Confirm the switch\nbutton_sequence.append('A')\nbutton_sequence.append('A')\n\nprint(json.dumps(button_sequence))\n",
     "history": [
       {
         "commit_message": "Initial version",
@@ -171,6 +167,11 @@
         "commit_message": "fix: Implement linear menu logic. The previous version incorrectly assumed the party menu was circular and wrapped around, causing it to calculate incorrect directional presses. This commit replaces the faulty modulo arithmetic with simple linear logic (Up/Down presses based on index difference), ensuring correct navigation in a non-wrapping list. This is a critical fix to restore the tool's core functionality.",
         "timestamp": "2025-08-21T16:38:09.472Z",
         "action_counter": 158958
+      },
+      {
+        "commit_message": "refactor: Overhaul logic to handle Party Menu Cursor Anomaly. The tool's previous logic, which relied on the `active_pokemon_name` to determine the cursor's starting position, was fundamentally flawed due to unpredictable cursor behavior. This commit refactors the tool to always assume the cursor starts at index 0 (the top of the list). This provides a stable, predictable starting point, eliminating the need for the unreliable `active_pokemon_name` input and resolving the root cause of previous switch failures. This is a critical fix mandated by an Overwatch critique.",
+        "timestamp": "2025-08-21T19:04:30.965Z",
+        "action_counter": 159211
       }
     ]
   },
