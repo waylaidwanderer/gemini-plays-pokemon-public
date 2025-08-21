@@ -126,7 +126,7 @@
 - **Move Menu Cursor Position Anomaly (Unverified):** The cursor in the move selection menu may default to the last move used, rather than the top-most move. This needs further observation to confirm if it's a consistent mechanic. (Observed Turn 158281 vs Bruno's Poliwrath, Observed Turn 158403 vs Agatha).
 - **Move Menu Cursor Reset Anomaly (Unverified):** The move selection cursor can unexpectedly reset to the default top position after directional inputs are made but before 'A' is pressed to confirm the move. This resulted in using BODY SLAM instead of the intended ROCK SLIDE against Agatha's Golbat. This needs more observation to determine the trigger. (Observed Turn 158415)
 - **Hypnosis Switch Anomaly:** Unlike other sleep-inducing moves, Poliwrath's Hypnosis did not force an immediate switch after putting ECHO to sleep. (Observed Turn 159225)
-- **Switch Override Anomaly (Confirmed):** The game can override a player's intended switch, sending out a different Pokémon. This has been observed when switching from a sleeping Pokémon (NEPTUNE -> TITANESS resulted in REVENANT being sent out) and when switching from the lead Pokémon (REVENANT -> SPARKY resulted in NEPTUNE being sent out). The outcome appears unpredictable and is not always the party lead. (Observed Turn 157150, 159506)
+- **Switch Override Anomaly (Confirmed):** The game can override a player's intended switch, sending out a different Pokémon. The outcome appears unpredictable and is not always the party lead. (Observed 1: Switching from a sleeping Pokémon, NEPTUNE -> TITANESS resulted in REVENANT being sent out, Turn 157150. Observed 2: Switching from the lead Pokémon, REVENANT -> SPARKY resulted in NEPTUNE being sent out, Turn 159506).
 
 # IV. Tool & Agent Development
 
