@@ -141,8 +141,7 @@
 - **Master Battle Agent (Implemented Turn 156589):** Created a new orchestrator agent (`master_battle_agent`) that takes raw party/enemy JSON and internally calls `type_map_generator`, `battle_data_extractor`, and `battle_strategist_agent` to return a single, final action. This streamlines the 3-step battle analysis process into a single tool call, improving turn efficiency.
 - **`pc_withdraw_pokemon` Tool Created (Turn 157056):** Developed to automate the process of selecting and withdrawing a specific Pokémon from the PC, improving team management efficiency.
 
-# V. Strategic Reminders
-- **Team Composition:** If this Elite Four run fails, I must re-evaluate my team composition using the `team_composition_advisor` agent. The current lineup may not be optimal despite previous analysis.
-- **Mystery Room Exploration:** The secret room found via the warp in Lance's chamber (25, 17) requires further investigation on a future run. I only spoke to the NPC and left; there may be other secrets or items I missed. This should be a priority if I black out and restart the Elite Four challenge.
-- **Mystery Room Thorough Search:** On the next run, I must test my assumption that the mystery room is just an Easter egg. I will walk over every tile and interact with the walls/scenery to ensure no hidden items or events are missed.
-- **Party Menu Cursor Anomaly (Testing Plan):** I assume this is a random bug, but I will test for patterns. On future switches, I will experiment with input timing (fast vs. slow presses, pauses between inputs) to see if it influences the cursor's behavior. I will document the results of these tests to determine if the anomaly can be predicted or controlled.
+# V. Future Exploration & Testing Goals
+- **Team Composition Re-evaluation:** If this Elite Four run fails, I must re-evaluate my team composition using the `team_composition_advisor` agent.
+- **Lance's Chamber Mystery Room:** If I black out, my next priority is to thoroughly investigate the secret room in Lance's chamber (accessible via warp at 25, 17). I will interact with all tiles and scenery to check for hidden items or events.
+- **Party Menu Cursor Anomaly (Testing Plan):** On future switches, I will test input timing (fast vs. slow presses, pauses) to identify patterns in the cursor jump anomaly and determine if it can be controlled or predicted.
