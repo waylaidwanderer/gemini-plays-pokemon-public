@@ -130,7 +130,7 @@
 - **Move Menu Cursor Reset Anomaly (Unverified):** The move selection cursor can unexpectedly reset to the default top position after directional inputs are made but before 'A' is pressed to confirm the move. This resulted in using BODY SLAM instead of the intended ROCK SLIDE against Agatha's Golbat. This needs more observation to determine the trigger. (Observed Turn 158415)
 - **Hypnosis Switch Anomaly:** Unlike other sleep-inducing moves, Poliwrath's Hypnosis did not force an immediate switch after putting ECHO to sleep. (Observed Turn 159225)
 - **Switch Override Anomaly (New):** When attempting to switch from a non-lead Pokémon (NEPTUNE) to another (SPARKY), the game instead sent out the party lead (REVENANT). This may be a specific, undocumented mechanic. (Observed Turn 159500 vs Bruno's Poliwrath)
-- **Switch Override Anomaly (New):** When attempting to switch from a non-lead Pokémon (NEPTUNE) to another (SPARKY), the game instead sent out the party lead (REVENANT). This may be a specific, undocumented mechanic. (Observed Turn 159500 vs Bruno's Poliwrath)
+- **Switch Override Anomaly (New):** When attempting to switch from the lead Pokémon (REVENANT) to another (SPARKY), the game instead sent out a different party member (NEPTUNE). This confirms the anomaly is not just sending out the lead, but is more unpredictable. (Observed Turn 159506 vs Bruno's Poliwrath)
 
 # IV. Tool & Agent Development
 
@@ -144,4 +144,3 @@
 - **`auto_attacker` Tool Created:** Developed in Turn 155553 to streamline battle actions by combining move selection and execution into a single command.
 - **Master Battle Agent (Implemented Turn 156589):** Created a new orchestrator agent (`master_battle_agent`) that takes raw party/enemy JSON and internally calls `type_map_generator`, `battle_data_extractor`, and `battle_strategist_agent` to return a single, final action. This streamlines the 3-step battle analysis process into a single tool call, improving turn efficiency.
 - **`pc_withdraw_pokemon` Tool Created (Turn 157056):** Developed to automate the process of selecting and withdrawing a specific Pokémon from the PC, improving team management efficiency.
-- **Switch Override Anomaly (New):** When attempting to switch from the lead Pokémon (REVENANT) to another (SPARKY), the game instead sent out a different party member (NEPTUNE). This confirms the anomaly is not just sending out the lead, but is more unpredictable. (Observed Turn 159506 vs Bruno's Poliwrath)
