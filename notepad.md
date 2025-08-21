@@ -25,7 +25,7 @@
 - **Notepad Data Integrity:** I must ensure my notepad does not contain outdated information or function as a to-do list. All system feedback must be immediately actioned and integrated into my permanent knowledge base under 'Lessons Learned'.
 - **Tool Development Priority:** Opportunities to automate repetitive tasks must be acted upon immediately, not deferred. This is a core directive.
 - **Immediate Development Mandate:** All plans for new tools or agents must be acted upon immediately. Deferring development by creating 'to-do lists' in the notepad is a critical failure of core directives. (Self-Correction Turn 155345, per Overwatch Critique)
-- **Party Menu Wrapping (CORRECTED):** The party selection menu does NOT wrap around. Pressing 'Up' from the top Pokémon does not move the cursor to the bottom. This was confirmed in turn 154047.
+- **Party Menu Wrapping (ANOMALY):** The party selection menu appears to wrap, but its behavior is highly unpredictable and buggy. Pressing 'Up' from the top Pokémon can jump the cursor to an unexpected position in the list, not necessarily the bottom. This was confirmed in turn 158745.
 - **Team Composition Strategy (Verified):** Used the `team_composition_advisor` agent to confirm that my current team of six level 65 Pokémon is the optimal lineup against the Elite Four and Champion. The agent provided a detailed strategic breakdown for each battle. (Verified Turn 157088)
 
 # II. Game Mechanics & World Knowledge
