@@ -110,7 +110,7 @@
   - GENGAR (Lv 59) - Known Moves: Mega Drain, Thunder, Psychic, Night Shade
 
 ### Lance (Defeated)
-  - GYARADOS (Lv 60) - Known Moves: Fly, Slam
+  - GYARADOS (Lv 60) - Known Moves: Fly, Slam, HYPER BEAM
   - CHARIZARD (Lv 60) - Known Moves: Earthquake, Flamethrower
   - AERODACTYL (Lv 61) - Known Moves: Hyper Beam, Earthquake, ROCK SLIDE
   - DRAGONITE (Lv 61) - Known Moves: Thunder Wave, Slam
