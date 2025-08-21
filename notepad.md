@@ -115,10 +115,11 @@
   - AERODACTYL (Lv 61) - Known Moves: Earthquake, Hyper Beam, ROCK SLIDE
   - DRAGONITE (Lv 62) - Known Moves: Fire Blast, Slam, Thunder Wave, Wrap, Hyper Beam, Blizzard, Thunder
 
-### Champion Pixel (Scouted)
+### Champion Pixel (Lost to in last attempt)
   - MAGNETON (Lv 62) - Known Moves: THUNDER WAVE, THUNDER, TRI ATTACK
   - DODRIO (Lv 61) - Known Moves: DRILL PECK, HYPER BEAM
   - ALAKAZAM (Lv 63) - Known Moves: PSYCHIC, RECOVER
+  - (Full team unknown)
 
 ## C. Battle Mechanics (Verified)
 - **SPOONBENDE Speed:** My Lv 38 Kadabra (SPOONBENDE) is confirmed to be faster than Agatha's Lv 57 Gengar.
