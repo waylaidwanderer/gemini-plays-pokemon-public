@@ -192,12 +192,17 @@
         "screen_text"
       ]
     },
-    "python_script": "import re\nimport json\n\ndef parse_pc_text(screen_text):\n    # This regex is designed to find uppercase names, which may include spaces or special characters like in 'MR. MIME',\n    # followed by the level indicator ':L' and the level number.\n    pattern = re.compile(r\"([A-Z.'M\\\\s]+?)\\\\s*:L(\\\\d+)\")\n    matches = pattern.findall(screen_text)\n    \n    pokemon_list = []\n    for match in matches:\n        # Clean up the name by stripping leading/trailing whitespace\n        name = match[0].strip()\n        level = int(match[1])\n        pokemon_list.append({\"name\": name, \"level\": level})\n        \n    print(json.dumps({\"status\": \"success\", \"pokemon_list\": pokemon_list}))\n\nparse_pc_text(input_data['screen_text'])",
+    "python_script": "import re\n\ndef parse_pc_screen_text(screen_text):\n    pokemon_list = []\n    # The pattern looks for a Pokémon name (uppercase letters) followed by :L and a level (digits)\n    pattern = re.compile(r'([A-Z\\s]+):L(\\d+)')\n    \n    # Find all matches in the provided screen text\n    matches = pattern.findall(screen_text)\n    \n    for match in matches:\n        name = match[0].strip()\n        level = int(match[1])\n        pokemon_list.append({'name': name, 'level': level})\n        \n    return pokemon_list\n\n# Get the screen text from the input data provided to the tool\nscreen_text_input = input_data.get('screen_text', '')\n\n# Parse the text and print the result as a JSON-like string for the LLM to easily use\nparsed_pokemon = parse_pc_screen_text(screen_text_input)\nprint(str(parsed_pokemon))",
     "history": [
       {
         "commit_message": "feat: Create pc_screen_text_parser tool to automate data entry. In response to an Overwatch critique identifying deferred development as a core violation, this tool is being created immediately. It will parse the PC screen text to extract Pokémon names and levels, streamlining the input process for the `pc_withdraw_pokemon` tool and improving overall efficiency in team management.",
         "timestamp": "2025-08-20T23:39:11.279Z",
         "action_counter": 157623
+      },
+      {
+        "commit_message": "feat: Create pc_screen_text_parser tool to automate data entry. In response to my 50-turn reflection identifying a manual and error-prone process, this tool automates the extraction of Pokémon names and levels from PC box screen text. This will streamline the input process for other PC management tools like `pc_withdraw_pokemon`, improving overall efficiency and accuracy.",
+        "timestamp": "2025-08-21T12:21:59.304Z",
+        "action_counter": 158665
       }
     ]
   },
