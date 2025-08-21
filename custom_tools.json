@@ -69,14 +69,18 @@
         },
         "party_pokemon_list": {
           "type": "string"
+        },
+        "active_pokemon_name": {
+          "type": "string"
         }
       },
       "required": [
         "pokemon_to_select",
-        "party_pokemon_list"
+        "party_pokemon_list",
+        "active_pokemon_name"
       ]
     },
-    "python_script": "import json\n\ndef auto_switcher(pokemon_to_select, party_pokemon_list_str):\n    presses = ['Right', 'A']\n    party_list = json.loads(party_pokemon_list_str)\n    \n    # The cursor always starts at the top of the list (index 0) when the party menu is opened.\n    start_index = 0\n\n    try:\n        target_index = party_list.index(pokemon_to_select)\n    except ValueError:\n        print(json.dumps({'status': 'failure', 'reason': f'Target Pokémon \"{pokemon_to_select}\" not found in party list.'}))\n        return\n\n    diff = target_index - start_index\n\n    if diff > 0:\n        for _ in range(diff):\n            presses.append('Down')\n    # 'Up' presses are not needed since the menu does not wrap and we always start from the top.\n\n    presses.append('A')\n    presses.append('A')\n    print(json.dumps({'status': 'success', 'presses': presses}))\n\nauto_switcher(input_data['pokemon_to_select'], input_data['party_pokemon_list'])",
+    "python_script": "import json\n\ndef auto_switcher(pokemon_to_select, party_pokemon_list_str, active_pokemon_name):\n    presses = ['Right', 'A']\n    party_list = json.loads(party_pokemon_list_str)\n    \n    try:\n        start_index = party_list.index(active_pokemon_name)\n    except ValueError:\n        print(json.dumps({'status': 'failure', 'reason': f'Active Pokémon \"{active_pokemon_name}\" not found in party list.'}))\n        return\n\n    try:\n        target_index = party_list.index(pokemon_to_select)\n    except ValueError:\n        print(json.dumps({'status': 'failure', 'reason': f'Target Pokémon \"{pokemon_to_select}\" not found in party list.'}))\n        return\n\n    diff = target_index - start_index\n\n    if diff > 0:\n        for _ in range(diff):\n            presses.append('Down')\n    elif diff < 0:\n        for _ in range(abs(diff)):\n            presses.append('Up')\n\n    presses.append('A')\n    presses.append('A')\n    print(json.dumps({'status': 'success', 'presses': presses}))\n\nauto_switcher(input_data['pokemon_to_select'], input_data['party_pokemon_list'], input_data['active_pokemon_name'])",
     "history": [
       {
         "commit_message": "Initial version",
@@ -132,6 +136,11 @@
         "commit_message": "fix: Overhaul logic to handle Party Menu Cursor Anomaly. The tool's previous logic, which relied on the `active_pokemon_name` to determine the cursor's starting position, was fundamentally flawed due to unpredictable cursor behavior. This commit refactors the tool to always assume the cursor starts at index 0 (the top of the list). This provides a stable, predictable starting point, eliminating the need for the unreliable `active_pokemon_name` input and resolving the root cause of previous switch failures. This is a critical fix mandated by an Overwatch critique.",
         "timestamp": "2025-08-21T03:20:35.756Z",
         "action_counter": 158071
+      },
+      {
+        "commit_message": "fix: Correct cursor logic to start from active Pokémon. The previous version incorrectly assumed the party menu cursor starts at index 0, which has been proven false by direct in-game observation. This commit refactors the tool to take `active_pokemon_name` as an input to accurately determine the cursor's starting position. This is a critical fix to restore the tool's core functionality.",
+        "timestamp": "2025-08-21T05:26:06.844Z",
+        "action_counter": 158291
       }
     ]
   },
