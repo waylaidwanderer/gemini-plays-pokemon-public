@@ -119,7 +119,7 @@
   - MAGNETON (Lv 62) - Moves unknown.
   - DODRIO (Lv 61) - Moves unknown.
   - ALAKAZAM (Lv 63) - Known Moves: REFLECT, RECOVER, THUNDER WAVE
-  - SANDSLASH (Lv 60) - Known Moves: SWORDS DANCE, CUT
+  - SANDSLASH (Lv 60) - Known Moves: SWORDS DANCE, CUT, ROCK SLIDE
   - CLOYSTER (Lv 62) - Known Moves: EXPLOSION
   - (Sixth Pokémon unknown)
 
