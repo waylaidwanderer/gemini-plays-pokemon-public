@@ -145,5 +145,5 @@
 - **Team Composition Re-evaluation:** If this Elite Four run fails, I must re-evaluate my team composition using the `team_composition_advisor` agent.
 - **Lance's Chamber Mystery Room:** If I black out, my next priority is to thoroughly investigate the secret room in Lance's chamber (accessible via warp at 25, 17). I will interact with all tiles and scenery to check for hidden items or events.
 - **Party Menu Cursor Anomaly (Testing Plan):** On future switches, I will test input timing (fast vs. slow presses, pauses) to identify patterns in the cursor jump anomaly and determine if it can be controlled or predicted.
-- **Agent Idea (Lead Advisor):** Create a dedicated agent that takes my party and an opponent's name (e.g., 'Bruno') to recommend the optimal lead Pokémon based on their known roster. This would streamline pre-battle setup.
+
   - Ice is super-effective against Poison/Flying dual-types (Observed: Bruno's Hitmonchan vs ECHO's Golbat).
