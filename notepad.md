@@ -114,6 +114,9 @@
   - SEADRA (Lv 64) - Moves unknown.
   - GOLDUCK (Lv 65) - Known Moves: Psychic, Blizzard, Hydro Pump
   - LAPRAS (Lv 64) - Known Moves: HYDRO PUMP, THUNDER, PSYCHIC, BLIZZARD
+  - BLASTOISE (Lv 64) - Known Moves: SURF, ICE BEAM
+  - VAPOREON (Lv 64) - Known Moves: HYDRO PUMP
+  - STARMIE (Lv 65) - Moves unknown.
 
 ## C. Battle Mechanics (Anomalies & Hypotheses)
 - **Speed Tie Assumption:** I must not assume a speed advantage in battle unless empirically verified in the current battle. An opponent may be faster than expected. (Lesson from Lorelei's Lapras vs SPARKY)
@@ -141,11 +144,13 @@
 - **`get_next_move_press` Tool Created (Turn 161071):** Developed to provide single-step, reliable navigation for the battle move menu. This addresses the 'Move Menu Cursor Reset Anomaly' by allowing for re-evaluation of the cursor's position each turn, replacing the unreliable `auto_attacker` for move selection.
 
 ## B. Tool Development Backlog
+- **`team_data_compiler` Tool Idea:** Create a tool that can parse the `game_state`'s PC box data and my notepad's opponent roster data to automatically generate the JSON input for the `team_composition_advisor` agent. This will eliminate a tedious and error-prone manual data entry step.
 - **`battle_screen_parser` Tool Idea:** Create a tool that can parse the battle screen text to automatically generate the structured JSON required as input for the master_battle_agent. This will eliminate the current manual and error-prone data entry step, significantly improving battle efficiency.
-- **Puzzle Solver Tool:** Create a tool that takes the current map state (`map_xml_string`) and a list of failed hypotheses as input. It would then generate a ranked list of new, logical hypotheses to test for solving complex environmental puzzles. This could prevent getting stuck in loops like the one in Lorelei's Room. (Correction from Overwatch: Must be a tool, not an agent, to parse map data).
+- **`puzzle_solver` Tool Idea:** Create a tool that takes the current map state (`map_xml_string`) and a list of failed hypotheses as input. It would then generate a ranked list of new, logical hypotheses to test for solving complex environmental puzzles. This could prevent getting stuck in loops like the one in Lorelei's Room. (Correction from Overwatch: Must be a tool, not an agent, to parse map data).
 - **`menu_navigator` Tool Idea:** Create a tool that can navigate list-based menus to a specific item. This would prevent manual errors in the PC, party screen, etc.
 - **`navigation_troubleshooter` Agent Idea:** Create an agent that, when `find_path` fails, can analyze the map and suggest alternative navigation strategies or intermediate waypoints to solve complex pathing puzzles.
 - **`ai_move_predictor` Agent Idea:** Create an agent that takes the opponent's known moves, my active Pokémon, and my full party as input to predict the most likely move the AI will use. This could help formalize high-risk strategic decisions.
+- **`multi_team_synergy_analyzer` Agent Idea:** Create an agent that takes my full PC box and party as input and suggests multiple viable team compositions (not just one) for various challenges, explaining the synergies and strategies for each. (Refined from `team_synergy_analyzer` to be more distinct from the existing `team_composition_advisor`).
 
 # V. Battle Logs
 
@@ -172,4 +177,3 @@
 - **Outcome:** Movement was blocked. The tile is marked as 'impassable' and is not registered as a warp in the map data.
 - **Conclusion:** Hypothesis denied. The cave is currently inaccessible. This lead is a dead end.
 - **Agent Trust Failure (Misty Rematch):** I repeatedly ignored my `master_battle_agent`'s correct advice to switch out CRAG due to a 4x weakness. My insistence on a high-risk gamble over the agent's safe, logical play led to wasted turns and the loss of REVENANT. I must adhere to my documented rule to trust my agents, especially regarding mandatory defensive actions.
-- **`team_synergy_analyzer` Agent Idea:** Create an agent that takes my full PC box and party as input and suggests multiple viable team compositions (not just one) for various challenges, explaining the synergies and strategies for each.
