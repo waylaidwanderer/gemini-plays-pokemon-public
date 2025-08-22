@@ -31,7 +31,7 @@
 - `boulder_barrier`: Impassable tile that can be cleared by a `boulder_switch`.
 - `hole`: A tile that a boulder can be pushed into, usually causing it to fall to a lower floor. The player can also walk into the hole after the boulder.
 - **Boulder Pushing:** The player's character remains in their pushing position after pushing a boulder. The push is initiated by walking into the boulder from an adjacent tile.
-- **Dead End Area Definition:** An area is NOT a 'dead end' if there are reachable unvisited warps, Reachable Undiscovered Map Connections, OR the `Reachable Unseen Tiles` list for the current map contains entries. A room with multiple reachable, non-adjacent exits (warps/connections) is also NOT a dead end, even if all tiles have been seen. Adjacent warps are treated as a single exit for this calculation. (Corrected Turn 152613, Refined Turn 157367)
+- **Dead End Area Definition:** An area is NOT a 'dead end' if there are reachable unvisited warps, Reachable Undiscovered Map Connections, OR the `Reachable Unseen Tiles` list for the current map contains entries. A room with multiple reachable, non-adjacent exits (warps/connections) is also NOT a dead end, even if all tiles have been seen. Adjacent warps are treated as a single exit for this calculation. (Corrected Turn 152613, Refined Turn 157367, Corrected again Turn 160895)
 
 # III. Battle Information
 
