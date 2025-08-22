@@ -32,6 +32,7 @@
 - `hole`: A tile that a boulder can be pushed into, usually causing it to fall to a lower floor. The player can also walk into the hole after the boulder.
 - **Boulder Pushing:** The player's character remains in their pushing position after pushing a boulder. The push is initiated by walking into the boulder from an adjacent tile.
 - **Dead End Area Definition:** An area is NOT a 'dead end' if there are reachable unvisited warps, Reachable Undiscovered Map Connections, OR the `Reachable Unseen Tiles` list for the current map contains entries. A room with multiple reachable, non-adjacent exits (warps/connections) is also NOT a dead end, even if all tiles have been seen. Adjacent warps are treated as a single exit for this calculation. (Corrected Turn 152613, Refined Turn 157367, Corrected again Turn 160895)
+- `cuttable`: Tree that can be cut with HM Cut. Becomes `ground` after cutting, but respawns on map change or after battle.
 
 # III. Battle Information
 
@@ -108,6 +109,11 @@
   - EXEGGUTOR (Lv 64) - Moves unknown.
   - VAPOREON (Lv 64) - Moves unknown.
 
+### Misty (Rematch)
+  - SEADRA (Lv 64) - Moves unknown.
+  - GOLDUCK (Lv 65) - Known Moves: Psychic, Blizzard, Hydro Pump
+  - LAPRAS (Lv 64) - Known Moves: HYDRO PUMP, THUNDER, PSYCHIC
+
 ## C. Battle Mechanics (Anomalies & Hypotheses)
 - **Speed Tie Assumption:** I must not assume a speed advantage in battle unless empirically verified in the current battle. An opponent may be faster than expected. (Lesson from Lorelei's Lapras vs SPARKY)
 - **Hypnosis Anomaly (Corrected):** Agatha's Gengar's first Hypnosis on TITANESS failed (Turn 150576), but a second attempt succeeded (Turn 150583). The initial failure was likely a standard move miss, not an immunity. This confirms TITANESS is not immune to sleep.
@@ -161,13 +167,6 @@
 - **Test:** Traveled to the cave entrance at (7, 4) on Route 24. Attempted to enter.
 - **Outcome:** Movement was blocked. The tile is marked as 'impassable' and is not registered as a warp in the map data.
 - **Conclusion:** Hypothesis denied. The cave is currently inaccessible. This lead is a dead end.
-- `cuttable`: Tree that can be cut with HM Cut. Becomes `ground` after cutting, but respawns on map change or after battle.
 
 ## B. Agent & Tool Ideas
 - **`navigation_troubleshooter` Agent Idea:** Create an agent that, when `find_path` fails, can analyze the map and suggest alternative navigation strategies or intermediate waypoints to solve complex pathing puzzles.
-
-### Misty (Rematch)
-  - SEADRA (Lv 64) - Moves unknown.
-  - GOLDUCK (Lv 65) - Known Moves: Psychic, Blizzard
-  - LAPRAS (Lv 64) - Known Moves: HYDRO PUMP, THUNDER
-  - Ice -> Water (Not Very Effective)
