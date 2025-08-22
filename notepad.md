@@ -39,6 +39,7 @@
 - **Objective:** Systematically test and verify all type matchups in this ROM hack, as the standard chart is unreliable.
 - **Method:** During battles, especially against the Elite Four, prioritize using moves with uncertain effectiveness to gather data. Record all super-effective, not-very-effective, and immune interactions observed.
 - **Findings:**
+  - Bug -> Poison (Not Very Effective)
   - Electric -> Poison/Flying (Super Effective)
   - Electric -> Water/Ice (Super Effective)
   - Electric -> Water/Psychic (Super Effective)
@@ -48,6 +49,7 @@
   - Flying -> Ground (Immune)
   - Flying -> Rock (Not Very Effective)
   - Ghost -> Ground (Immune)
+  - Ghost -> Psychic (Super Effective)
   - Grass -> Ground (Super Effective)
   - Grass -> Ground/Rock (Super Effective)
   - Grass -> Water/Ice (Super Effective)
@@ -62,11 +64,11 @@
   - Ice -> Poison/Flying (Super Effective)
   - Normal -> Ghost (Immune)
   - Normal -> Rock/Flying (Not Very Effective)
+  - Poison -> Bug (Super Effective)
   - Psychic -> Poison (Super Effective)
   - Rock -> Ground (Not Very Effective)
   - Rock -> Flying (Super Effective)
   - Water -> Water/Psychic (Not Very Effective)
-  - Ghost -> Psychic (Super Effective)
 
 ## B. Opponent Rosters & Moves (Observed)
 ### Lorelei
@@ -96,6 +98,14 @@
   - DRAGONITE (Lv 62) - Known Moves: Fire Blast, Slam, Thunder Wave, Wrap, Hyper Beam, Blizzard, Thunder
   - CHARIZARD (Lv 60) - Known Moves: Earthquake, Flamethrower
   - AERODACTYL (Lv 61) - Known Moves: Hyper Beam, Earthquake, ROCK SLIDE
+
+### Champion Pixel
+  - MAGNETON (Lv 62) - Moves unknown.
+  - DODRIO (Lv 61) - Known Moves: DOUBLE TEAM, JUMP KICK
+  - ALAKAZAM (Lv 63) - Known Moves: REFLECT
+  - SANDSLASH (Lv 60) - Known Moves: CUT
+  - EXEGGUTOR (Lv 64) - Moves unknown.
+  - VAPOREON (Lv 64) - Moves unknown.
 
 ## C. Battle Mechanics (Anomalies & Hypotheses)
 - **Speed Tie Assumption:** I must not assume a speed advantage in battle unless empirically verified in the current battle. An opponent may be faster than expected. (Lesson from Lorelei's Lapras vs SPARKY)
@@ -140,13 +150,3 @@
 
 ## D. Agent & Tool Ideas
 - **Puzzle Solver Tool:** Create a tool that takes the current map state (`map_xml_string`) and a list of failed hypotheses as input. It would then generate a ranked list of new, logical hypotheses to test for solving complex environmental puzzles. This could prevent getting stuck in loops like the one in Lorelei's Room. (Correction from Overwatch: Must be a tool, not an agent, to parse map data).
-
-### Champion Pixel
-  - MAGNETON (Lv 62) - Moves unknown.
-  - DODRIO (Lv 61) - Known Moves: DOUBLE TEAM, JUMP KICK
-  - ALAKAZAM (Lv 63) - Known Moves: REFLECT
-  - SANDSLASH (Lv 60) - Known Moves: CUT
-  - EXEGGUTOR (Lv 64) - Moves unknown.
-  - VAPOREON (Lv 64) - Moves unknown.
-  - Poison -> Bug (Super Effective)
-  - Bug -> Poison (Not Very Effective)
