@@ -160,3 +160,7 @@
 - **Test:** Traveled to the cave entrance at (7, 4) on Route 24. Attempted to enter.
 - **Outcome:** Movement was blocked. The tile is marked as 'impassable' and is not registered as a warp in the map data.
 - **Conclusion:** Hypothesis denied. The cave is currently inaccessible. This lead is a dead end.
+- `cuttable`: Tree that can be cut with HM Cut. Becomes `ground` after cutting, but respawns on map change or after battle.
+
+## B. Agent & Tool Ideas
+- **`navigation_troubleshooter` Agent Idea:** Create an agent that, when `find_path` fails, can analyze the map and suggest alternative navigation strategies or intermediate waypoints to solve complex pathing puzzles.
