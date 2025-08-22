@@ -213,5 +213,35 @@
         "action_counter": 160418
       }
     ]
+  },
+  "get_next_move_press": {
+    "description": "Calculates the single next directional press (Up or Down) required to move the cursor one step closer to a target move in the battle menu. Designed for step-by-step execution to handle move menu cursor anomalies.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "pokemon_move_list": {
+          "type": "string"
+        },
+        "current_selected_move": {
+          "type": "string"
+        },
+        "target_move": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "pokemon_move_list",
+        "current_selected_move",
+        "target_move"
+      ]
+    },
+    "python_script": "import json\n\ntry:\n    move_list_str = input_data['pokemon_move_list']\n    current_selection = input_data['current_selected_move']\n    target = input_data['target_move']\n\n    moves = json.loads(move_list_str)\n\n    button_sequence = []\n    if current_selection in moves and target in moves:\n        current_index = moves.index(current_selection)\n        target_index = moves.index(target)\n        if current_index < target_index:\n            button_sequence.append(\"Down\")\n        elif current_index > target_index:\n            button_sequence.append(\"Up\")\n    print(json.dumps(button_sequence))\nexcept Exception:\n    print(json.dumps([]))",
+    "history": [
+      {
+        "commit_message": "feat: Create get_next_move_press tool to handle cursor anomalies. In response to an Overwatch critique, this commit creates a new tool to provide single-step, reliable navigation for the battle move menu. This addresses the 'Move Menu Cursor Reset Anomaly' by allowing for re-evaluation of the cursor's position each turn, replacing the unreliable `auto_attacker` for move selection.",
+        "timestamp": "2025-08-22T19:07:28.223Z",
+        "action_counter": 161071
+      }
+    ]
   }
 }
