@@ -66,6 +66,7 @@
   - Rock -> Ground (Not Very Effective)
   - Rock -> Flying (Super Effective)
   - Water -> Water/Psychic (Not Very Effective)
+  - Ghost -> Psychic (Super Effective)
 
 ## B. Opponent Rosters & Moves (Observed)
 ### Lorelei
