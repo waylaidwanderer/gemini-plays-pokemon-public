@@ -144,3 +144,4 @@
   - MAGNETON (Lv 62) - Moves unknown.
   - DODRIO (Lv 61) - Known Moves: DOUBLE TEAM, JUMP KICK
   - ALAKAZAM (Lv 63) - Known Moves: REFLECT
+  - SANDSLASH (Lv 60) - Known Moves: CUT
