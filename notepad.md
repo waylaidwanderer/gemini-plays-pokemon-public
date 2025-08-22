@@ -151,8 +151,3 @@
 
 ## D. Agent & Tool Ideas
 - **Puzzle Solver Agent:** Create an agent that takes the current map state, documented knowledge, and a list of failed hypotheses as input. It would then generate a ranked list of new, logical hypotheses to test for solving complex environmental puzzles. This could prevent getting stuck in loops like the one in Lorelei's Room.
-
-## E. Methodological Lessons
-- **Trust Documentation & Test for Barriers:** I must trust my own map markers and documentation. When a path provided by a tool is repeatedly blocked in-game, my first hypothesis should not be 'tool error' or 'input error,' but rather 'unseen obstacle.' I must test for invisible barriers by attempting to path around the blockage, rather than repeatedly attempting the same failed path.
-- **Imprecise Tool Usage & Documentation Lapses:** I have repeatedly failed `define_tool` calls due to imprecise JSON schemas and wasted turns on `notepad_edit` with incorrect `old_text`. I also failed to document a battle loss immediately. **Correction:** I must be meticulous with all tool arguments, ensuring they are syntactically correct and exact. All new information must be documented in the same turn it is discovered.
-- **Imprecise Tool Usage & Documentation Lapses:** I have repeatedly failed `define_tool` calls due to imprecise JSON schemas and wasted turns on `notepad_edit` with incorrect `old_text`. I also failed to document a battle loss immediately. **Correction:** I must be meticulous with all tool arguments, ensuring they are syntactically correct and exact. All new information must be documented in the same turn it is discovered.
