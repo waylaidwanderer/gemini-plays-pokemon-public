@@ -77,7 +77,6 @@
   - Psychic -> Poison (Super Effective)
   - Rock -> Ground (Not Very Effective)
   - Rock -> Flying (Super Effective)
-  - Rock -> Ground (Not Very Effective)
   - Water -> Water/Psychic (Not Very Effective)
 
 ## B. Opponent Rosters & Moves (Observed)
@@ -101,7 +100,6 @@
   - MAROWAK (Lv 57) - Known Moves: Rock Slide, Swords Dance, Body Slam
   - ARBOK (Lv 58) - Known Moves: Substitute, Wrap, Sludge, Glare
   - GENGAR (Lv 59) - Known Moves: Mega Drain, Thunder, Psychic, Night Shade
-- Grass -> Water/Ice (Super Effective)
 
 ### Lance
   - GYARADOS (Lv 60) - Known Moves: Fly, Slam, HYPER BEAM
@@ -143,3 +141,6 @@
 - **Lorelei:** Defeated.
 - **Bruno:** Defeated.
 - **Agatha:** Lost to Agatha's ace Gengar (Lv 59). The battle was lost after a critical hit Mega Drain fainted my last Pokémon, TITANESS. No new moves were observed.
+
+## C. Elite Four - Attempt 3 (Defeat)
+- **Agatha:** Lost to Agatha's ace Gengar (Lv 59). The battle was lost after NEPTUNE fainted. No new moves were observed.
