@@ -170,3 +170,4 @@
 
 ## B. Agent & Tool Ideas
 - **`navigation_troubleshooter` Agent Idea:** Create an agent that, when `find_path` fails, can analyze the map and suggest alternative navigation strategies or intermediate waypoints to solve complex pathing puzzles.
+- **`ai_move_predictor` Agent Idea:** Create an agent that takes the opponent's known moves, my active Pokémon, and my full party as input to predict the most likely move the AI will use. This could help formalize high-risk strategic decisions.
