@@ -101,6 +101,7 @@
   - MAROWAK (Lv 57) - Known Moves: Rock Slide, Swords Dance, Body Slam
   - ARBOK (Lv 58) - Known Moves: Substitute, Wrap, Sludge, Glare
   - GENGAR (Lv 59) - Known Moves: Mega Drain, Thunder, Psychic, Night Shade
+- Grass -> Water/Ice (Super Effective)
 
 ### Lance
   - GYARADOS (Lv 60) - Known Moves: Fly, Slam, HYPER BEAM
