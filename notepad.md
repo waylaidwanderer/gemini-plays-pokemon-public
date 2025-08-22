@@ -30,9 +30,9 @@
 - `ladder_up` / `ladder_down`: Function as warps but are traversable tiles.
 - `boulder_barrier`: Impassable tile that can be cleared by a `boulder_switch`.
 - `hole`: A tile that a boulder can be pushed into, usually causing it to fall to a lower floor. The player can also walk into the hole after the boulder.
+- `cuttable`: Tree that can be cut with HM Cut. Becomes `ground` after cutting, but respawns on map change or after battle.
 - **Boulder Pushing:** The player's character remains in their pushing position after pushing a boulder. The push is initiated by walking into the boulder from an adjacent tile.
 - **Dead End Area Definition:** An area is NOT a 'dead end' if there are reachable unvisited warps, Reachable Undiscovered Map Connections, OR the `Reachable Unseen Tiles` list for the current map contains entries. A room with multiple reachable, non-adjacent exits (warps/connections) is also NOT a dead end, even if all tiles have been seen. Adjacent warps are treated as a single exit for this calculation. (Corrected Turn 152613, Refined Turn 157367, Corrected again Turn 160895)
-- `cuttable`: Tree that can be cut with HM Cut. Becomes `ground` after cutting, but respawns on map change or after battle.
 
 # III. Battle Information
 
@@ -112,7 +112,7 @@
 ### Misty (Rematch)
   - SEADRA (Lv 64) - Moves unknown.
   - GOLDUCK (Lv 65) - Known Moves: Psychic, Blizzard, Hydro Pump
-  - LAPRAS (Lv 64) - Known Moves: HYDRO PUMP, THUNDER, PSYCHIC
+  - LAPRAS (Lv 64) - Known Moves: HYDRO PUMP, THUNDER, PSYCHIC, BLIZZARD
 
 ## C. Battle Mechanics (Anomalies & Hypotheses)
 - **Speed Tie Assumption:** I must not assume a speed advantage in battle unless empirically verified in the current battle. An opponent may be faster than expected. (Lesson from Lorelei's Lapras vs SPARKY)
@@ -139,6 +139,12 @@
 - **`pc_withdraw_pokemon` Tool Created (Turn 157056):** Developed to automate the process of selecting and withdrawing a specific Pokémon from the PC, improving team management efficiency.
 - **`get_next_move_press` Tool Created (Turn 161071):** Developed to provide single-step, reliable navigation for the battle move menu. This addresses the 'Move Menu Cursor Reset Anomaly' by allowing for re-evaluation of the cursor's position each turn, replacing the unreliable `auto_attacker` for move selection.
 
+## B. Agent & Tool Ideas (Consolidated)
+- **Puzzle Solver Tool:** Create a tool that takes the current map state (`map_xml_string`) and a list of failed hypotheses as input. It would then generate a ranked list of new, logical hypotheses to test for solving complex environmental puzzles. This could prevent getting stuck in loops like the one in Lorelei's Room. (Correction from Overwatch: Must be a tool, not an agent, to parse map data).
+- **`menu_navigator` Tool Idea:** Create a tool that can navigate list-based menus to a specific item. This would prevent manual errors in the PC, party screen, etc.
+- **`navigation_troubleshooter` Agent Idea:** Create an agent that, when `find_path` fails, can analyze the map and suggest alternative navigation strategies or intermediate waypoints to solve complex pathing puzzles.
+- **`ai_move_predictor` Agent Idea:** Create an agent that takes the opponent's known moves, my active Pokémon, and my full party as input to predict the most likely move the AI will use. This could help formalize high-risk strategic decisions.
+
 # V. Battle Logs
 
 ## A. Elite Four - Attempt 1 (Defeat)
@@ -156,10 +162,6 @@
 - **Lance:** Lost to Lance. His lead Pokémon was DRAGONITE (Lv 61), which used Thunder Wave and Wrap.
 - **Failure to Apply Documented Rules:** I correctly documented the refined 'Dead End Area Definition' in my notepad (Turn 157367) but failed to apply it in my validation checks for Agatha's Room, leading to a critical hallucination warning. Correction: I must meticulously review my own documented rules and lessons before making critical judgments, especially for complex definitions.
 
-## D. Agent & Tool Ideas
-- **Puzzle Solver Tool:** Create a tool that takes the current map state (`map_xml_string`) and a list of failed hypotheses as input. It would then generate a ranked list of new, logical hypotheses to test for solving complex environmental puzzles. This could prevent getting stuck in loops like the one in Lorelei's Room. (Correction from Overwatch: Must be a tool, not an agent, to parse map data).
-- **`menu_navigator` Tool Idea:** Create a tool that can navigate list-based menus to a specific item. This would prevent manual errors in the PC, party screen, etc.
-
 # VI. Post-Game Investigation Log
 
 ## A. Route 24 Cave
@@ -167,7 +169,3 @@
 - **Test:** Traveled to the cave entrance at (7, 4) on Route 24. Attempted to enter.
 - **Outcome:** Movement was blocked. The tile is marked as 'impassable' and is not registered as a warp in the map data.
 - **Conclusion:** Hypothesis denied. The cave is currently inaccessible. This lead is a dead end.
-
-## B. Agent & Tool Ideas
-- **`navigation_troubleshooter` Agent Idea:** Create an agent that, when `find_path` fails, can analyze the map and suggest alternative navigation strategies or intermediate waypoints to solve complex pathing puzzles.
-- **`ai_move_predictor` Agent Idea:** Create an agent that takes the opponent's known moves, my active Pokémon, and my full party as input to predict the most likely move the AI will use. This could help formalize high-risk strategic decisions.
