@@ -137,3 +137,8 @@
 
 ## A. Elite Four - Attempt 1 (Defeat)
 - **Agatha:** Lost to Agatha. Her team was GENGAR (Lv 57), GOLBAT (Lv 58), MAROWAK (Lv 57), ARBOK (Lv 58), GENGAR (Lv 59). Observed her ace Gengar use Night Shade and Mega Drain.
+
+## B. Elite Four - Attempt 2 (Defeat)
+- **Lorelei:** Defeated.
+- **Bruno:** Defeated.
+- **Agatha:** Lost to Agatha's ace Gengar (Lv 59). The battle was lost after a critical hit Mega Drain fainted my last Pokémon, TITANESS. No new moves were observed.
