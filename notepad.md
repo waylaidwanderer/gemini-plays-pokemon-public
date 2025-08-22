@@ -148,3 +148,9 @@
 - **Agatha:** Defeated.
 - **Lance:** Lost to Lance. His lead Pokémon was DRAGONITE (Lv 61), which used Thunder Wave and Wrap.
 - **Failure to Apply Documented Rules:** I correctly documented the refined 'Dead End Area Definition' in my notepad (Turn 157367) but failed to apply it in my validation checks for Agatha's Room, leading to a critical hallucination warning. Correction: I must meticulously review my own documented rules and lessons before making critical judgments, especially for complex definitions.
+
+## D. Agent & Tool Ideas
+- **Puzzle Solver Agent:** Create an agent that takes the current map state, documented knowledge, and a list of failed hypotheses as input. It would then generate a ranked list of new, logical hypotheses to test for solving complex environmental puzzles. This could prevent getting stuck in loops like the one in Lorelei's Room.
+
+## E. Methodological Lessons
+- **Trust Documentation & Test for Barriers:** I must trust my own map markers and documentation. When a path provided by a tool is repeatedly blocked in-game, my first hypothesis should not be 'tool error' or 'input error,' but rather 'unseen obstacle.' I must test for invisible barriers by attempting to path around the blockage, rather than repeatedly attempting the same failed path.
