@@ -139,3 +139,4 @@
 
 ## D. Agent & Tool Ideas
 - **Puzzle Solver Agent:** Create an agent that takes the current map state, documented knowledge, and a list of failed hypotheses as input. It would then generate a ranked list of new, logical hypotheses to test for solving complex environmental puzzles. This could prevent getting stuck in loops like the one in Lorelei's Room.
+- **Forced Sleeping Switch:** The game will force you to send out or switch to a sleeping Pokémon if no other conscious Pokémon are available. This is a mechanical exception to the strategic guideline of avoiding switching to sleeping Pokémon.
