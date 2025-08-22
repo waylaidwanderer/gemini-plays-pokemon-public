@@ -143,4 +143,4 @@
 - **Agatha:** Lost to Agatha's ace Gengar (Lv 59). The battle was lost after a critical hit Mega Drain fainted my last Pokémon, TITANESS. No new moves were observed.
 
 ## C. Elite Four - Attempt 3 (Defeat)
-- **Agatha:** Lost to Agatha's ace Gengar (Lv 59). The battle was lost after NEPTUNE fainted. No new moves were observed.
+- **Agatha:** Lost to Agatha's ace Gengar (Lv 59). The battle was lost after my last two conscious Pokémon, TITANESS and NEPTUNE, fainted.
