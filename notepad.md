@@ -144,3 +144,4 @@
 
 ## C. Elite Four - Attempt 3 (Defeat)
 - **Agatha:** Lost to Agatha's ace Gengar (Lv 59). The battle was lost after my last two conscious Pokémon, TITANESS and NEPTUNE, fainted.
+- **Failure to Apply Documented Rules:** I correctly documented the refined 'Dead End Area Definition' in my notepad (Turn 157367) but failed to apply it in my validation checks for Agatha's Room, leading to a critical hallucination warning. Correction: I must meticulously review my own documented rules and lessons before making critical judgments, especially for complex definitions.
