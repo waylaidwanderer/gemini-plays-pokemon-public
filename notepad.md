@@ -136,3 +136,4 @@
 
 ## A. Elite Four - Attempt 1 (Defeat)
 - **Agatha:** Lost to Agatha. Her team was GENGAR (Lv 57), GOLBAT (Lv 58), MAROWAK (Lv 57), ARBOK (Lv 58), GENGAR (Lv 59). Observed her ace Gengar use Night Shade and Mega Drain.
+  - Ground is super-effective against Rock/Ground dual-types (Observed: Bruno's Onix vs CRAG's Golem).
