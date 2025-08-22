@@ -172,3 +172,4 @@
 - **Outcome:** Movement was blocked. The tile is marked as 'impassable' and is not registered as a warp in the map data.
 - **Conclusion:** Hypothesis denied. The cave is currently inaccessible. This lead is a dead end.
 - **Agent Trust Failure (Misty Rematch):** I repeatedly ignored my `master_battle_agent`'s correct advice to switch out CRAG due to a 4x weakness. My insistence on a high-risk gamble over the agent's safe, logical play led to wasted turns and the loss of REVENANT. I must adhere to my documented rule to trust my agents, especially regarding mandatory defensive actions.
+- **`team_synergy_analyzer` Agent Idea:** Create an agent that takes my full PC box and party as input and suggests multiple viable team compositions (not just one) for various challenges, explaining the synergies and strategies for each.
