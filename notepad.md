@@ -51,33 +51,33 @@
 - **Objective:** Systematically test and verify all type matchups in this ROM hack, as the standard chart is unreliable.
 - **Method:** During battles, especially against the Elite Four, prioritize using moves with uncertain effectiveness to gather data. Record all super-effective, not-very-effective, and immune interactions observed.
 - **Findings:**
-  - Electric is super-effective against Poison/Flying dual-types (Observed: Bruno's Hitmonchan vs ECHO's Golbat).
-  - Electric is super-effective against Water/Ice dual-types (Observed: Lorelei's Cloyster/Dewgong vs SPARKY; Agatha's Gengar's Thunder vs NEPTUNE's Lapras).
-  - Electric is super-effective against Water/Psychic dual-types (Observed: Lorelei's Slowbro vs SPARKY).
-  - Fighting is super-effective against Ice-types (Observed: Bruno's Hitmonchan vs NEPTUNE; Bruno's Hitmonlee vs NEPTUNE).
-  - Fighting is super-effective against Normal-types (Observed: Bruno's Machamp vs TITANESS).
-  - Fighting is super-effective against Rock-types (Observed: Bruno's Machamp vs CRAG).
-  - Flying is immune to Ground-type moves (Observed: Pixel's Dodrio vs REVENANT's Marowak).
-  - Flying is not very effective against Rock (Observed: ECHO's Fly vs Bruno's Onix).
-  - Ghost is immune to Ground-type moves (Observed: battle_strategist_agent reasoning vs Agatha's Gengar).
-  - Grass is super-effective against Ground-types (Observed: Agatha's Gengar vs REVENANT's Marowak).
-  - Grass is super-effective against Ground/Rock dual-types (Observed: Agatha's Gengar's Mega Drain vs CRAG's Golem).
-  - Grass is super-effective against Water/Ice dual-types (Observed: Agatha's Gengar's Mega Drain vs NEPTUNE's Lapras).
-  - Ground is super-effective against Electric-types (Observed: Bruno's Machamp vs SPARKY; Lorelei's Slowbro's Earthquake vs SPARKY).
-  - Ground is super-effective against Ghost-types (Observed: REVENANT's Earthquake vs Agatha's Gengar).
-  - Ground is super-effective against Ground-types (Observed: Lance's Aerodactyl's Earthquake vs CRAG's Golem).
-  - Ground is super-effective against Poison-types (Observed: REVENANT vs Agatha's Gengar).
-  - Ground is super-effective against Psychic-types (Observed: CRAG's Golem vs Lorelei's Slowbro).
-  - Ground is super-effective against Rock/Ground dual-types (Observed: Bruno's Onix vs CRAG's Golem).
-  - Ice is not very effective against Psychic-types (Observed: NEPTUNE's Ice Beam vs Lorelei's Slowbro).
-  - Ice is super-effective against Ground-types (Observed: Bruno's Poliwrath vs REVENANT's Marowak).
-  - Ice is super-effective against Poison/Flying dual-types (Observed: Bruno's Hitmonchan vs ECHO's Golbat).
-  - Normal is immune to Ghost-type moves (Observed: CRAG's Body Slam vs Agatha's Gengar).
-  - Normal is not very effective against Rock/Flying (Observed: REVENANT's Headbutt vs Lance's Aerodactyl).
-  - Psychic is super-effective against Poison-types (Observed: Lorelei's Slowbro vs ECHO's Golbat).
-  - Rock is not very effective against Ground (Observed: CRAG's Rock Slide vs Agatha's Marowak).
-  - Rock is super-effective against Flying (Observed: Bruno's Machamp vs ECHO's Golbat).
-  - Water is not very effective against Water/Psychic dual-types (Observed: NEPTUNE's Surf vs Lorelei's Slowbro).
+  - Electric -> Poison/Flying (Super Effective)
+  - Electric -> Water/Ice (Super Effective)
+  - Electric -> Water/Psychic (Super Effective)
+  - Fighting -> Ice (Super Effective)
+  - Fighting -> Normal (Super Effective)
+  - Fighting -> Rock (Super Effective)
+  - Flying -> Ground (Immune)
+  - Flying -> Rock (Not Very Effective)
+  - Ghost -> Ground (Immune)
+  - Grass -> Ground (Super Effective)
+  - Grass -> Ground/Rock (Super Effective)
+  - Grass -> Water/Ice (Super Effective)
+  - Ground -> Electric (Super Effective)
+  - Ground -> Ghost (Super Effective)
+  - Ground -> Ground (Super Effective)
+  - Ground -> Poison (Super Effective)
+  - Ground -> Psychic (Super Effective)
+  - Ground -> Rock/Ground (Super Effective)
+  - Ice -> Psychic (Not Very Effective)
+  - Ice -> Ground (Super Effective)
+  - Ice -> Poison/Flying (Super Effective)
+  - Normal -> Ghost (Immune)
+  - Normal -> Rock/Flying (Not Very Effective)
+  - Psychic -> Poison (Super Effective)
+  - Rock -> Ground (Not Very Effective)
+  - Rock -> Flying (Super Effective)
+  - Water -> Water/Psychic (Not Very Effective)
 
 ## B. Opponent Rosters & Moves (Observed)
 ### Lorelei
@@ -136,4 +136,3 @@
 
 ## A. Elite Four - Attempt 1 (Defeat)
 - **Agatha:** Lost to Agatha. Her team was GENGAR (Lv 57), GOLBAT (Lv 58), MAROWAK (Lv 57), ARBOK (Lv 58), GENGAR (Lv 59). Observed her ace Gengar use Night Shade and Mega Drain.
-  - Ground is super-effective against Rock/Ground dual-types (Observed: Bruno's Onix vs CRAG's Golem).
