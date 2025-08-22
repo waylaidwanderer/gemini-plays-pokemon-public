@@ -145,3 +145,5 @@
   - DODRIO (Lv 61) - Known Moves: DOUBLE TEAM, JUMP KICK
   - ALAKAZAM (Lv 63) - Known Moves: REFLECT
   - SANDSLASH (Lv 60) - Known Moves: CUT
+  - EXEGGUTOR (Lv 64) - Moves unknown.
+  - VAPOREON (Lv 64) - Moves unknown.
