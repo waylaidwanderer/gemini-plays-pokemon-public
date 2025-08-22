@@ -77,6 +77,7 @@
   - Psychic -> Poison (Super Effective)
   - Rock -> Ground (Not Very Effective)
   - Rock -> Flying (Super Effective)
+  - Rock -> Ground (Not Very Effective)
   - Water -> Water/Psychic (Not Very Effective)
 
 ## B. Opponent Rosters & Moves (Observed)
