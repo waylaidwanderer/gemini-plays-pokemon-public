@@ -140,7 +140,8 @@
 - **`pc_withdraw_pokemon` Tool Created (Turn 157056):** Developed to automate the process of selecting and withdrawing a specific Pokémon from the PC, improving team management efficiency.
 - **`get_next_move_press` Tool Created (Turn 161071):** Developed to provide single-step, reliable navigation for the battle move menu. This addresses the 'Move Menu Cursor Reset Anomaly' by allowing for re-evaluation of the cursor's position each turn, replacing the unreliable `auto_attacker` for move selection.
 
-## B. Agent & Tool Ideas (Consolidated)
+## B. Tool Development Backlog
+- **`battle_screen_parser` Tool Idea:** Create a tool that can parse the battle screen text to automatically generate the structured JSON required as input for the master_battle_agent. This will eliminate the current manual and error-prone data entry step, significantly improving battle efficiency.
 - **Puzzle Solver Tool:** Create a tool that takes the current map state (`map_xml_string`) and a list of failed hypotheses as input. It would then generate a ranked list of new, logical hypotheses to test for solving complex environmental puzzles. This could prevent getting stuck in loops like the one in Lorelei's Room. (Correction from Overwatch: Must be a tool, not an agent, to parse map data).
 - **`menu_navigator` Tool Idea:** Create a tool that can navigate list-based menus to a specific item. This would prevent manual errors in the PC, party screen, etc.
 - **`navigation_troubleshooter` Agent Idea:** Create an agent that, when `find_path` fails, can analyze the map and suggest alternative navigation strategies or intermediate waypoints to solve complex pathing puzzles.
@@ -170,5 +171,4 @@
 - **Test:** Traveled to the cave entrance at (7, 4) on Route 24. Attempted to enter.
 - **Outcome:** Movement was blocked. The tile is marked as 'impassable' and is not registered as a warp in the map data.
 - **Conclusion:** Hypothesis denied. The cave is currently inaccessible. This lead is a dead end.
-- **`ai_move_predictor` Agent Idea:** Create an agent that takes the opponent's known moves, my active Pokémon, and my full party as input to predict the most likely move the AI will use. This could help formalize high-risk strategic decisions.
 - **Agent Trust Failure (Misty Rematch):** I repeatedly ignored my `master_battle_agent`'s correct advice to switch out CRAG due to a 4x weakness. My insistence on a high-risk gamble over the agent's safe, logical play led to wasted turns and the loss of REVENANT. I must adhere to my documented rule to trust my agents, especially regarding mandatory defensive actions.
