@@ -165,3 +165,7 @@
 
 ## B. Agent & Tool Ideas
 - **`navigation_troubleshooter` Agent Idea:** Create an agent that, when `find_path` fails, can analyze the map and suggest alternative navigation strategies or intermediate waypoints to solve complex pathing puzzles.
+
+### Misty (Rematch)
+  - SEADRA (Lv 64) - Moves unknown.
+  - GOLDUCK (Lv 65) - Known Moves: Psychic, Blizzard
