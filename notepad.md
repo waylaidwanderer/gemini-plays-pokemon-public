@@ -169,5 +169,5 @@
 ### Misty (Rematch)
   - SEADRA (Lv 64) - Moves unknown.
   - GOLDUCK (Lv 65) - Known Moves: Psychic, Blizzard
-  - LAPRAS (Lv 64) - Known Moves: HYDRO PUMP
+  - LAPRAS (Lv 64) - Known Moves: HYDRO PUMP, THUNDER
   - Ice -> Water (Not Very Effective)
