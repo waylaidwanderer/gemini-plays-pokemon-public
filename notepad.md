@@ -138,7 +138,7 @@
 - **Failure to Apply Documented Rules:** I correctly documented the refined 'Dead End Area Definition' in my notepad (Turn 157367) but failed to apply it in my validation checks for Agatha's Room, leading to a critical hallucination warning. Correction: I must meticulously review my own documented rules and lessons before making critical judgments, especially for complex definitions.
 
 ## D. Agent & Tool Ideas
-- **Puzzle Solver Agent:** Create an agent that takes the current map state, documented knowledge, and a list of failed hypotheses as input. It would then generate a ranked list of new, logical hypotheses to test for solving complex environmental puzzles. This could prevent getting stuck in loops like the one in Lorelei's Room.
+- **Puzzle Solver Tool:** Create a tool that takes the current map state (`map_xml_string`) and a list of failed hypotheses as input. It would then generate a ranked list of new, logical hypotheses to test for solving complex environmental puzzles. This could prevent getting stuck in loops like the one in Lorelei's Room. (Correction from Overwatch: Must be a tool, not an agent, to parse map data).
 
 ### Champion Pixel
   - MAGNETON (Lv 62) - Moves unknown.
