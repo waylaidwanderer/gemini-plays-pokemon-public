@@ -139,3 +139,8 @@
 
 ## D. Agent & Tool Ideas
 - **Puzzle Solver Agent:** Create an agent that takes the current map state, documented knowledge, and a list of failed hypotheses as input. It would then generate a ranked list of new, logical hypotheses to test for solving complex environmental puzzles. This could prevent getting stuck in loops like the one in Lorelei's Room.
+
+### Champion Pixel
+  - MAGNETON (Lv 62) - Moves unknown.
+  - DODRIO (Lv 61) - Known Moves: DOUBLE TEAM, JUMP KICK
+  - ALAKAZAM (Lv 63) - Known Moves: REFLECT
