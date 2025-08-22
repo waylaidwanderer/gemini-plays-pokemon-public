@@ -150,3 +150,20 @@
 
 ## D. Agent & Tool Ideas
 - **Puzzle Solver Tool:** Create a tool that takes the current map state (`map_xml_string`) and a list of failed hypotheses as input. It would then generate a ranked list of new, logical hypotheses to test for solving complex environmental puzzles. This could prevent getting stuck in loops like the one in Lorelei's Room. (Correction from Overwatch: Must be a tool, not an agent, to parse map data).
+
+# V. Post-Game Investigation: Cerulean Cave
+
+## A. Core Methodological Failures (Self-Correction Log Update)
+- **Critical Hallucination:** I failed to verify my location after transitioning from Route 24 to Cerulean City and then to Route 4, leading to a cascade of incorrect assumptions and failed plans. I believed I was in a different part of Route 4 and that the western part of Cerulean City was directly connected to the main area.
+- **Correction:** I must verify my map ID and coordinates immediately after every map transition. I will now treat my pathfinding tool's failure reports as evidence that my fundamental assumptions about reachability are wrong, rather than assuming the tool is broken.
+
+## B. Plan & Hypotheses
+- **Hypothesis 1 (Failed):** Access cave by surfing south from Route 24. **Result:** Led to an isolated body of water in Cerulean City with no access to the cave. This route is a dead end for this objective.
+- **Hypothesis 2 (Failed):** Access cave by walking west from Cerulean City to Route 4. **Result:** The western part of Route 4 accessible from the city is a dead end and does not connect to the area with the cave.
+- **New Hypothesis 3:** The cave must be accessed by surfing across the main, central body of water within Cerulean City itself.
+- **Current Obstacle:** I am on an isolated strip of land on the west side of Cerulean City. I cannot walk directly east into the main city area.
+- **New Plan:**
+  1. Find a path from my current location (1, 19) that goes south and then east to circumvent the impassable buildings and enter the main area of Cerulean City.
+  2. Navigate to a traversable tile adjacent to the central water body.
+  3. Initiate Surf from a valid tile.
+  4. Surf across the water to the cave entrance at (14, 7).
