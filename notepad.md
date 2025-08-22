@@ -64,6 +64,7 @@
   - Ice -> Water (Not Very Effective)
   - Ice -> Ground (Super Effective)
   - Ice -> Poison/Flying (Super Effective)
+  - Ice -> Rock/Ground (Super Effective)
   - Normal -> Ghost (Immune)
   - Normal -> Rock/Flying (Not Very Effective)
   - Poison -> Bug (Super Effective)
