@@ -60,6 +60,7 @@
   - Ground -> Psychic (Super Effective)
   - Ground -> Rock/Ground (Super Effective)
   - Ice -> Psychic (Not Very Effective)
+  - Ice -> Water (Not Very Effective)
   - Ice -> Ground (Super Effective)
   - Ice -> Poison/Flying (Super Effective)
   - Normal -> Ghost (Immune)
