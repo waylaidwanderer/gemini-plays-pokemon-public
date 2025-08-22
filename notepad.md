@@ -161,4 +161,3 @@
 - **Outcome:** Movement was blocked. The tile is marked as 'impassable' and is not registered as a warp in the map data.
 - **Conclusion:** Hypothesis denied. The cave is currently inaccessible. This lead is a dead end.
 - `battle_screen_parser` Tool Created (Turn 161224): Developed to automate the extraction of key battle data from screen text. This streamlines the input process for the `master_battle_agent`, improving battle efficiency.
-- **`get_next_move_press` Tool Created (Turn 161071):** Developed to provide single-step, reliable navigation for the battle move menu. This addresses the 'Move Menu Cursor Reset Anomaly' by allowing for re-evaluation of the cursor's position each turn, replacing the unreliable `auto_attacker` for move selection.
