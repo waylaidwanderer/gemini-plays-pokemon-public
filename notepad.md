@@ -151,3 +151,11 @@
 ## D. Agent & Tool Ideas
 - **Puzzle Solver Tool:** Create a tool that takes the current map state (`map_xml_string`) and a list of failed hypotheses as input. It would then generate a ranked list of new, logical hypotheses to test for solving complex environmental puzzles. This could prevent getting stuck in loops like the one in Lorelei's Room. (Correction from Overwatch: Must be a tool, not an agent, to parse map data).
 - **`menu_navigator` Tool Idea:** Create a tool that can navigate list-based menus to a specific item. This would prevent manual errors in the PC, party screen, etc.
+
+# VI. Post-Game Investigation Log
+
+## A. Route 24 Cave
+- **Hypothesis:** The cave north of Cerulean City on Route 24, previously blocked, would open after becoming Champion.
+- **Test:** Traveled to the cave entrance at (7, 4) on Route 24. Attempted to enter.
+- **Outcome:** Movement was blocked. The tile is marked as 'impassable' and is not registered as a warp in the map data.
+- **Conclusion:** Hypothesis denied. The cave is currently inaccessible. This lead is a dead end.
