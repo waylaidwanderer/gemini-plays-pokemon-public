@@ -147,3 +147,5 @@
   - SANDSLASH (Lv 60) - Known Moves: CUT
   - EXEGGUTOR (Lv 64) - Moves unknown.
   - VAPOREON (Lv 64) - Moves unknown.
+  - Poison -> Bug (Super Effective)
+  - Bug -> Poison (Not Very Effective)
