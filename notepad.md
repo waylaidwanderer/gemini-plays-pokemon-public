@@ -150,3 +150,4 @@
 
 ## D. Agent & Tool Ideas
 - **Puzzle Solver Tool:** Create a tool that takes the current map state (`map_xml_string`) and a list of failed hypotheses as input. It would then generate a ranked list of new, logical hypotheses to test for solving complex environmental puzzles. This could prevent getting stuck in loops like the one in Lorelei's Room. (Correction from Overwatch: Must be a tool, not an agent, to parse map data).
+- **`menu_navigator` Tool Idea:** Create a tool that can navigate list-based menus to a specific item. This would prevent manual errors in the PC, party screen, etc.
