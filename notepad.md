@@ -139,8 +139,3 @@
 - **`auto_attacker` Tool Created:** Developed in Turn 155553 to streamline battle actions by combining move selection and execution into a single command.
 - **Master Battle Agent (Implemented Turn 156589):** Created a new orchestrator agent (`master_battle_agent`) that takes raw party/enemy JSON and internally calls `type_map_generator`, `battle_data_extractor`, and `battle_strategist_agent` to return a single, final action. This streamlines the 3-step battle analysis process into a single tool call, improving turn efficiency.
 - **`pc_withdraw_pokemon` Tool Created (Turn 157056):** Developed to automate the process of selecting and withdrawing a specific Pokémon from the PC, improving team management efficiency.
-
-## B. Future Development Ideas
-- **`party_menu_parser` Tool:** A tool that can read the party screen text to reliably identify the current cursor position. This would make `auto_switcher` immune to the cursor anomaly.
-- **`agent_override_analyst` Agent:** An agent to analyze instances where I override `master_battle_agent`'s advice. It would help identify gaps in the agent's logic and suggest refinements, formalizing the self-correction loop.
-- **`battle_screen_parser` Tool:** A tool that can parse the battle screen text to automatically generate the structured JSON required as input for the `master_battle_agent`. This would eliminate the current manual and error-prone data entry step, significantly improving battle efficiency.
