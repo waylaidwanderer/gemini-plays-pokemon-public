@@ -180,3 +180,4 @@
 - **Conclusion:** Hypothesis denied. The cave is currently inaccessible. This lead is a dead end.
 - **Agent Trust Failure (Misty Rematch):** I repeatedly ignored my `master_battle_agent`'s correct advice to switch out CRAG due to a 4x weakness. My insistence on a high-risk gamble over the agent's safe, logical play led to wasted turns and the loss of REVENANT. I must adhere to my documented rule to trust my agents, especially regarding mandatory defensive actions.
 - **`team_data_compiler` Tool (Blocked):** This tool cannot be implemented at this time. Its core function requires parsing opponent data from the notepad, but there is no current mechanism to pass the notepad's content as an input to a custom tool. Development is blocked pending a solution to this system limitation.
+  - Water -> Water (Not Very Effective)
