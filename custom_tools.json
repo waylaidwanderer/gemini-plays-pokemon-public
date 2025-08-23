@@ -12,7 +12,7 @@
         "screen_text"
       ]
     },
-    "python_script": "import re\nimport json\n\ndef parse_battle_screen(screen_text):\n    player_pokemon = {}\n    opponent_pokemon = {}\n    lines = screen_text.split('\\n')\n\n    # Opponent pattern: Look for a name (all caps) followed by L and level number.\n    opponent_pattern = re.compile(r\"^([A-Z'’]+)\\s+L(\\d+)\")\n    # Player pattern: Look for a name, level, and HP values.\n    player_pattern = re.compile(r\"([A-Z'’]+)\\s+L(\\d+)\\s+HP:(\\d+)/(\\d+)\")\n    player_status_pattern = re.compile(r\"HP:\\d+/\\d+\\s+:\\s*([A-Z]{3})\")\n    \n    # Find opponent in the top part of the screen\n    for line in lines:\n        match = opponent_pattern.search(line.strip())\n        if match:\n            opponent_pokemon['name'] = match.group(1).strip()\n            opponent_pokemon['level'] = int(match.group(2))\n            break\n\n    # Find player in the bottom part of the screen\n    for line in lines:\n        match = player_pattern.search(line.strip())\n        if match:\n            player_pokemon['name'] = match.group(1).strip()\n            player_pokemon['level'] = int(match.group(2))\n            player_pokemon['current_hp'] = int(match.group(3))\n            player_pokemon['max_hp'] = int(match.group(4))\n            status_match = player_status_pattern.search(line.strip())\n            player_pokemon['status'] = status_match.group(1).strip() if status_match else 'OK'\n            break\n\n    result = {\n        \"player_active_pokemon\": player_pokemon,\n        \"opponent_active_pokemon\": opponent_pokemon\n    }\n    print(json.dumps(result))\n\nparse_battle_screen(input_data['screen_text'])",
+    "python_script": "import re\nimport json\n\ndef parse_battle_screen(screen_text):\n    player_pokemon = {}\n    opponent_pokemon = {}\n    lines = [line.strip() for line in screen_text.strip().split('\\n')]\n\n    try:\n        # Opponent Name (Line 1) and Level (Line 2)\n        opponent_pokemon['name'] = lines[0]\n        level_match = re.search(r'LV\\s*(\\d+)', lines[1])\n        if level_match:\n            opponent_pokemon['level'] = int(level_match.group(1))\n\n        # Player Name (Line 3) and HP (Line 4)\n        player_pokemon['name'] = lines[2]\n        hp_match = re.search(r'(\\d+)/(\\d+)', lines[3])\n        if hp_match:\n            player_pokemon['current_hp'] = int(hp_match.group(1))\n            player_pokemon['max_hp'] = int(hp_match.group(2))\n    except IndexError:\n        pass\n\n    result = {\n        \"player_active_pokemon\": player_pokemon,\n        \"opponent_active_pokemon\": opponent_pokemon\n    }\n    print(json.dumps(result))\n\nparse_battle_screen(input_data['screen_text'])",
     "history": [
       {
         "commit_message": "feat: Create battle_screen_parser tool to automate data entry. In response to an Overwatch critique identifying deferred development as a core violation, this tool automates the extraction of key battle data from screen text. This will streamline the input process for the `master_battle_agent`, improving battle efficiency and adhering to the immediate action directive.",
@@ -33,6 +33,11 @@
         "commit_message": "feat: Create battle_screen_parser tool to automate data entry. In response to an Overwatch critique identifying deferred development as a core violation, this tool automates the extraction of key battle data from screen text. This will streamline the input process for the `master_battle_agent`, improving battle efficiency and adhering to the immediate action directive.",
         "timestamp": "2025-08-22T23:48:11.914Z",
         "action_counter": 161671
+      },
+      {
+        "commit_message": "fix: Update regex to handle multi-line battle info. The previous version of the tool failed because its regex expected all player information to be on a single line. This commit refactors the script to parse the opponent's and player's name, level, and HP from their respective separate lines as provided by the game's screen text, making the tool functional again.",
+        "timestamp": "2025-08-23T01:17:14.741Z",
+        "action_counter": 161892
       }
     ]
   },
