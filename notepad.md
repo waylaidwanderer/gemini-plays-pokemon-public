@@ -143,7 +143,8 @@
 - **`pc_withdraw_pokemon` Tool Created (Turn 157056):** Developed to automate the process of selecting and withdrawing a specific Pokémon from the PC, improving team management efficiency.
 - **`get_next_move_press` Tool Created (Turn 161071):** Developed to provide single-step, reliable navigation for the battle move menu. This addresses the 'Move Menu Cursor Reset Anomaly' by allowing for re-evaluation of the cursor's position each turn, replacing the unreliable `auto_attacker` for move selection.
 
-## B. Immediate Tool Development Plan
+## B. Tool Brainstorming (To be implemented immediately if possible)
+- `menu_navigator` Tool Idea: Create a tool that can navigate list-based menus to a specific item. This would prevent manual errors in the PC, party screen, etc.
 - **`team_data_compiler` Tool Idea:** Create a tool that can parse the `game_state`'s PC box data and my notepad's opponent roster data to automatically generate the JSON input for the `team_composition_advisor` agent. This will eliminate a tedious and error-prone manual data entry step.
 - **`battle_screen_parser` Tool Idea:** Create a tool that can parse the battle screen text to automatically generate the structured JSON required as input for the master_battle_agent. This will eliminate the current manual and error-prone data entry step, significantly improving battle efficiency.
 - **`puzzle_solver` Tool Idea:** Create a tool that takes the current map state (`map_xml_string`) and a list of failed hypotheses as input. It would then generate a ranked list of new, logical hypotheses to test for solving complex environmental puzzles. This could prevent getting stuck in loops like the one in Lorelei's Room. (Correction from Overwatch: Must be a tool, not an agent, to parse map data).
