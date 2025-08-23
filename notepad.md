@@ -20,6 +20,8 @@
 - **Boulder Pushing:** The player's character remains in their pushing position after pushing a boulder. The push is initiated by walking into the boulder from an adjacent tile.
 - **Dead End Area Definition:** An area is NOT a 'dead end' if there are reachable unvisited warps, Reachable Undiscovered Map Connections, OR the `Reachable Unseen Tiles` list for the current map contains entries. A room with multiple reachable, non-adjacent exits (warps/connections) is also NOT a dead end, even if all tiles have been seen. Adjacent warps are treated as a single exit for this calculation. (Corrected Turn 152613, Refined Turn 157367, Corrected again Turn 160895)
 - **Silph Co. Gates:** Locked gates ('closed_gate' tile type) can be opened by interacting with them while possessing the CARD KEY. Once opened, they become 'open_gate' tiles and are permanently traversable.
+- **Warp Mechanics (General):** Warps (teleporters, stairs, ladders, elevator pads) are instant. Stepping on the tile triggers the map change. To return, one must step off the warp tile and then back on.
+- **Off-Screen Gates:** Gates not currently visible on screen ('gate_offscreen' tile type) are treated as potentially open for pathfinding purposes to encourage exploration of alternate routes.
 
 # III. Battle Information
 
@@ -157,7 +159,6 @@
 - **Dead End Validation Failure:** I incorrectly reported `is_in_dead_end_area` as `false` for Cerulean Gym (Turn 161793). The area has only one exit warp group and no other explorable paths, making it a dead end according to my own documented definition. **Correction:** I must be more rigorous in applying my documented rules during validation checks, especially for complex definitions like 'dead end'.
 - **System Feedback vs. Tool Output Discrepancy:** The Overwatch critique repeatedly insisted an incorrect map marker existed at (4, 12) on Silph Co. 3F. However, my `delete_map_marker` tool failed three consecutive times, reporting 'No markers found'. This confirms the tool's output was correct and the critique was based on faulty data. **Lesson:** While system feedback is a high-priority source of truth, it is not infallible. Verified, repeated tool output can be trusted to override a system critique if a direct contradiction is proven.
 - **System Feedback vs. Internal Logic Discrepancy:** The Overwatch critique flagged my 'dead_end' validation for the Silph Co. Elevator (ID 236) as incorrect (Turn 162505), stating the area was not a dead end. However, the area has only a single exit (a 2x1 warp group) and no other explorable paths, which meets my documented definition of a dead end. This confirms my internal logic was correct and the system's validation was flawed.
-- **Warp Mechanics (General):** Warps (teleporters, stairs, ladders, elevator pads) are instant. Stepping on the tile triggers the map change. To return, one must step off the warp tile and then back on.
 
 # VI. Puzzle Solving Log
 
@@ -167,5 +168,3 @@
 - **Testing:** This hypothesis was tested by selecting floors 11F, 10F, and 9F on the panel, then moving to the warp pad at (3, 4) and pressing Down.
 - **Result:** In all cases, the warp successfully transported the player to the selected floor.
 - **Conclusion:** Hypothesis confirmed. The Silph Co. elevator requires both panel selection and warp pad activation to function.
-- **Teleporter Tiles:** Instantaneous warp points. Stepping on the tile immediately triggers the map change. To return, one must step off the warp tile and then back on.
-- **Off-Screen Gates:** Gates not currently visible on screen ('gate_offscreen' tile type) are treated as potentially open for pathfinding purposes to encourage exploration of alternate routes.
