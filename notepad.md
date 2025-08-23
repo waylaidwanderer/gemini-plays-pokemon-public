@@ -202,3 +202,7 @@
 
 ## E. Safari Zone Mechanics (Verified)
 - **Timer Escape:** The Safari Zone is composed of multiple disconnected areas. If the player enters an area with no conventional exit, the intended escape method is to walk around until the step-based timer expires. This will automatically warp the player back to the Safari Zone Gate. This is a key puzzle-solving mechanic, not a soft-lock.
+
+## E. Safari Zone Mechanics (Verified)
+- **Timer Escape:** The Safari Zone is composed of multiple disconnected areas. If the player enters an area with no conventional exit, the intended escape method is to walk around until the step-based timer expires. This will automatically warp the player back to the Safari Zone Gate. This is a key puzzle-solving mechanic, not a soft-lock.
+- **Safari Zone East Layout:** This map consists of at least three disconnected sections (South, Central, North). The hidden passage at (7, 25) only connects the South and Central areas. To reach the North area, one must return to the Safari Zone Center and find a different warp.
