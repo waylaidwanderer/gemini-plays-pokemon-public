@@ -177,3 +177,9 @@
 - **`navigation_troubleshooter` Agent Idea:** Create an agent that, when `find_path` fails, can analyze the map, the tool's diagnostic output (blocking objects), and the list of reachable warps to suggest alternative navigation strategies or intermediate waypoints to solve complex pathing puzzles like Silph Co.
 - **System Feedback vs. Tool Output Discrepancy:** The Overwatch critique repeatedly insisted an incorrect map marker existed at (4, 12) on Silph Co. 3F. However, my `delete_map_marker` tool failed three consecutive times, reporting 'No markers found'. This confirms the tool's output was correct and the critique was based on faulty data. **Lesson:** While system feedback is a high-priority source of truth, it is not infallible. Verified, repeated tool output can be trusted to override a system critique if a direct contradiction is proven.
 - **System Feedback vs. Tool Output Discrepancy:** The Overwatch critique repeatedly insisted an incorrect map marker existed at (4, 12) on Silph Co. 3F. However, my `delete_map_marker` tool failed three consecutive times, reporting 'No markers found'. This confirms the tool's output was correct and the critique was based on faulty data. **Lesson:** While system feedback is a high-priority source of truth, it is not infallible. Verified, repeated tool output can be trusted to override a system critique if a direct contradiction is proven.
+
+## C. Tile Traversal & Movement Rules (Verified)
+- **open_gate:** A previously closed gate that is now open and acts as `ground`.
+- **closed_gate:** An impassable gate. Requires the CARD KEY to open.
+- **gate_offscreen:** A gate whose state is unknown. For pathfinding, this is treated as potentially open to encourage exploration.
+- **teleport:** An instant warp tile within the same logical location (e.g., inside a building).
