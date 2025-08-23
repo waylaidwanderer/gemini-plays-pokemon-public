@@ -194,3 +194,5 @@
 - **Defeated Trainers as Obstacles:** Contrary to previous assumptions, defeated trainers often remain as impassable physical obstacles. Pathfinding must account for them as walls. (Observed Route 12, Route 13)
 - **Map Marker Discipline Failure:** I have repeatedly failed to mark defeated trainers immediately after battle, leading to wasted turns and incorrect tool outputs. **Correction:** The first action after any battle or post-battle dialogue MUST be to call `define_map_marker`. This is a non-negotiable step in my data management process.
 - **HM Forgetability:** HMs can be forgotten. (Confirmed by Scientist on Route 15 Gatehouse 2F)
+- **Tile Testing Protocol:** I must be more systematic about testing seemingly impassable tiles, especially in puzzle areas, to confirm they are not interactable or conditionally passable.
+- **`situational_awareness_auditor` Agent Idea:** Create an agent that cross-references my stated location and map ID with the actual game state data to flag hallucinations before I can act on them. This would be a critical tool for maintaining accurate situational awareness.
