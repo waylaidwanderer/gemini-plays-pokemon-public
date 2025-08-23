@@ -189,3 +189,5 @@
   - Ice -> Water/Psychic (Not Very Effective)
 - STARMIE (Lv 65) - Known Moves: THUNDERBOLT
 - Ice -> Water/Psychic (Not Very Effective)
+- STARMIE (Lv 65) - Known Moves: THUNDERBOLT
+- Ice -> Water/Psychic (Not Very Effective)
