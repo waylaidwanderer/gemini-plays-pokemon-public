@@ -117,7 +117,7 @@
   - GOLDUCK (Lv 65) - Known Moves: Psychic, Blizzard, Hydro Pump
   - LAPRAS (Lv 64) - Known Moves: HYDRO PUMP, THUNDER, PSYCHIC, BLIZZARD
   - BLASTOISE (Lv 64) - Known Moves: SURF, ICE BEAM, EARTHQUAKE
-  - VAPOREON (Lv 64) - Known Moves: HYDRO PUMP
+  - VAPOREON (Lv 64) - Known Moves: HYDRO PUMP, ACID ARMOR
   - STARMIE (Lv 65) - Moves unknown.
 
 ## C. Battle Mechanics (Anomalies & Hypotheses)
