@@ -19,7 +19,6 @@
 ## B. Tile & System Mechanics (Verified)
 - **Boulder Pushing:** The player's character remains in their pushing position after pushing a boulder. The push is initiated by walking into the boulder from an adjacent tile.
 - **Dead End Area Definition:** An area is NOT a 'dead end' if there are reachable unvisited warps, Reachable Undiscovered Map Connections, OR the `Reachable Unseen Tiles` list for the current map contains entries. A room with multiple reachable, non-adjacent exits (warps/connections) is also NOT a dead end, even if all tiles have been seen. Adjacent warps are treated as a single exit for this calculation. (Corrected Turn 152613, Refined Turn 157367, Corrected again Turn 160895)
-- **Silph Co. Elevator:** This is a two-step process. First, interact with the panel to select a destination floor. Second, step on the warp tiles at the bottom of the elevator room and press Down to travel.
 - **Silph Co. Gates:** Locked gates ('closed_gate' tile type) can be opened by interacting with them while possessing the CARD KEY. Once opened, they become 'open_gate' tiles and are permanently traversable.
 
 # III. Battle Information
@@ -159,7 +158,6 @@
 - **System Feedback vs. Tool Output Discrepancy:** The Overwatch critique repeatedly insisted an incorrect map marker existed at (4, 12) on Silph Co. 3F. However, my `delete_map_marker` tool failed three consecutive times, reporting 'No markers found'. This confirms the tool's output was correct and the critique was based on faulty data. **Lesson:** While system feedback is a high-priority source of truth, it is not infallible. Verified, repeated tool output can be trusted to override a system critique if a direct contradiction is proven.
 - **System Feedback vs. Internal Logic Discrepancy:** The Overwatch critique flagged my 'dead_end' validation for the Silph Co. Elevator (ID 236) as incorrect (Turn 162505), stating the area was not a dead end. However, the area has only a single exit (a 2x1 warp group) and no other explorable paths, which meets my documented definition of a dead end. This confirms my internal logic was correct and the system's validation was flawed.
 - **Warp Mechanics (General):** Warps (teleporters, stairs, ladders, elevator pads) are instant. Stepping on the tile triggers the map change. To return, one must step off the warp tile and then back on.
-- **`puzzle_strategist` Agent Idea:** Create an agent that takes a description of a puzzle (e.g., the elevator menu resetting) and suggests a structured set of hypotheses to test, preventing me from getting stuck in loops.
 
 # VI. Puzzle Solving Log
 
