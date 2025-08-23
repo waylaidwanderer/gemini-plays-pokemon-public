@@ -22,6 +22,7 @@
 - **Silph Co. Gates:** Locked gates ('closed_gate' tile type) can be opened by interacting with them while possessing the CARD KEY. Once opened, they become 'open_gate' tiles and are permanently traversable.
 - **Warp Mechanics (General):** Warps (teleporters, stairs, ladders, elevator pads) are instant. Stepping on the tile triggers the map change. To return, one must step off the warp tile and then back on.
 - **Off-Screen Gates:** Gates not currently visible on screen ('gate_offscreen' tile type) are treated as potentially open for pathfinding purposes to encourage exploration of alternate routes.
+- **Pikachu Walk-Through Mechanic:** Pikachu is the only NPC/Object that can be walked through. This is a key mechanic for certain puzzles. If not facing Pikachu, the first directional press turns the character, and the second moves onto the tile.
 
 # III. Battle Information
 
@@ -141,6 +142,8 @@
 - **`multi_team_synergy_analyzer` Agent Idea:** Create an agent that takes my full PC box and party as input and suggests multiple viable team compositions (not just one) for various challenges, explaining the synergies and strategies for each.
 - **`situational_awareness_auditor` Agent Idea:** Create an agent that cross-references my stated location and map ID with the actual game state data to flag hallucinations before I can act on them. This would be a critical tool for maintaining accurate situational awareness.
 - **`navigation_troubleshooter` Agent Idea:** Create an agent that, when `find_path` fails, can analyze the map, the tool's diagnostic output (blocking objects), and the list of reachable warps to suggest alternative navigation strategies or intermediate waypoints to solve complex pathing puzzles like Silph Co.
+- **Advanced Notepad Editor Tool Idea:** Create a tool that can manipulate the notepad by section heading, allowing for more robust deletion and replacement than the current string-matching `replace` action.
+- **Puzzle Process Manager Agent Idea:** An agent to structure the scientific method of hypothesis testing for complex puzzles, guiding the player through observation, hypothesis, testing, and conclusion steps.
 
 ## C. Tool Limitations (Observed)
 - **`notepad_edit` `replace` Flaw:** The `replace` action cannot distinguish between two identical strings in the notepad. If a string appears multiple times, the tool fails to replace a specific instance, making it impossible to remove targeted duplicates. (Observed Turn 162963)
@@ -175,7 +178,12 @@
 ## B. Tile & System Mechanics (Verified)
 - **Cuttable Trees:** These tiles block paths and can be removed by using the field move Cut from an adjacent tile. They typically respawn after a map change.
 - **Ledges:** These tiles allow one-way downward movement. A single 'Down' press from the tile above (Y-1) will cause the player to jump to the tile two spaces down (Y+2). They are impassable from all other directions.
+- **Tile Testing Protocol:** I must be more systematic about testing seemingly impassable tiles, especially in puzzle areas, to confirm they are not interactable or conditionally passable.
 
 ## D. Tool Limitations (Observed)
 - **`find_path` Tool (Cerulean City Anomaly):** The tool consistently fails to find long, complex paths in Cerulean City, even when a valid route exists. It also incorrectly treats defeated trainers as impassable obstacles. The current workaround is to break navigation into smaller segments using intermediate waypoints.
-- **`notepad_edit` `replace` Flaw:** The `replace` action cannot distinguish between two identical strings in the notepad. If a string appears multiple times, the tool fails to replace a specific instance, making it impossible to remove targeted duplicates. (Observed Turn 162963)
+
+# VII. Self-Correction Log (Post-Critique 2)
+- **Failure to Consult Documentation:** I became stuck in the Cerulean backyard puzzle for over 20 turns because I failed to consult my own instructions, which explicitly state that Pikachu is a walkable object. This led to a repetitive and inefficient loop of failed hypotheses. **Correction:** I must make it a mandatory step to review my documented mechanics in the notepad when encountering a puzzle or roadblock before resorting to brute-force attempts or agent calls.
+- **Tool Maintenance Negligence:** My `find_path` tool repeatedly failed in the isolated Cerulean backyard, but I did not attempt to debug or refine it. Instead, I fell back on unreliable manual pathing. **Correction:** A failing tool must be addressed immediately. I will prioritize adding diagnostic logging to `find_path` to understand why it fails in disconnected map segments. This is a higher priority than immediate exploration.
+- **Inconsistent Agent Trust:** I have demonstrated a pattern of asking my `puzzle_solver_agent` for advice but then failing to test its hypotheses thoroughly, instead reverting to my own flawed strategies. **Correction:** When I commit to an agent's hypothesis, I must see it through completely. If it fails, I must immediately refine the agent with the new information, rather than looping on my own failed ideas.
