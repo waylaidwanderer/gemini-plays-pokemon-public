@@ -178,3 +178,4 @@
 
 ## D. Tool Limitations (Observed)
 - **`find_path` Tool (Cerulean City Anomaly):** The tool consistently fails to find long, complex paths in Cerulean City, even when a valid route exists. It also incorrectly treats defeated trainers as impassable obstacles. The current workaround is to break navigation into smaller segments using intermediate waypoints.
+- **`notepad_edit` `replace` Flaw:** The `replace` action cannot distinguish between two identical strings in the notepad. If a string appears multiple times, the tool fails to replace a specific instance, making it impossible to remove targeted duplicates. (Observed Turn 162963)
