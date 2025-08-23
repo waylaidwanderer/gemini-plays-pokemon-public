@@ -238,46 +238,19 @@
       }
     ]
   },
-  "menu_navigator": {
-    "description": "Navigates a list-based menu (like PC, Party, Bag, or Elevator) to a specific target item or option. It takes the list of all options, the currently selected option, and the target option as input, and returns the sequence of 'Up' or 'Down' presses required to reach the target.",
+  "find_undefeated_trainers": {
+    "description": "Scans the current map's XML data to identify all trainers who have not been marked as defeated or non-battling, returning their coordinates and names.",
     "input_schema": {
       "type": "object",
-      "properties": {
-        "menu_options": {
-          "type": "string",
-          "description": "A JSON string representing the list of menu options in order."
-        },
-        "current_selection": {
-          "type": "string",
-          "description": "The name of the currently selected option."
-        },
-        "target_selection": {
-          "type": "string",
-          "description": "The name of the target option."
-        }
-      },
-      "required": [
-        "menu_options",
-        "current_selection",
-        "target_selection"
-      ]
+      "properties": {},
+      "required": []
     },
-    "python_script": "import json\n\ndef navigate_menu(options_str, current_str, target_str):\n    options = json.loads(options_str)\n    try:\n        current_idx = options.index(current_str)\n        target_idx = options.index(target_str)\n    except ValueError:\n        print(json.dumps([]))\n        return\n\n    diff = target_idx - current_idx\n    \n    presses = []\n    if diff > 0:\n        presses = [\"Down\"] * diff\n    elif diff < 0:\n        presses = [\"Up\"] * abs(diff)\n        \n    print(json.dumps(presses))\n\nnavigate_menu(input_data['menu_options'], input_data['current_selection'], input_data['target_selection'])",
+    "python_script": "import xml.etree.ElementTree as ET\nimport json\n\nroot = ET.fromstring(map_xml_string)\nundefeated_trainers = []\ndefeated_emojis = ['☠️', '💬', '👻', '🤔']\n\nfor row_elem in root.findall('Row'):\n    for tile_elem in row_elem.findall('Tile'):\n        object_elem = tile_elem.find('Object')\n        if object_elem is not None:\n            obj_id_name = object_elem.get('id-name', '')\n            is_trainer = any(keyword in obj_id_name for keyword in ['Cool Trainer', 'Biker', 'Bird Keeper', 'Fisher', 'Swimmer', 'Jr. Trainer', 'Youngster', 'Lass', 'Beauty', 'Super Nerd', 'Rocket', 'Juggler', 'Tamer', 'Blackbelt', 'Hiker', 'Pokemaniac', 'Channeler', 'Scientist', 'Burglar', 'Karate Master'])\n\n            if is_trainer:\n                is_defeated = False\n                for marker_elem in tile_elem.findall('Marker'):\n                    if marker_elem.get('emoji') in defeated_emojis:\n                        is_defeated = True\n                        break\n                \n                if not is_defeated:\n                    trainer_info = {\n                        'x': int(tile_elem.get('id')),\n                        'y': int(row_elem.get('id')),\n                        'name': obj_id_name\n                    }\n                    undefeated_trainers.append(trainer_info)\n\nprint(json.dumps(undefeated_trainers))",
     "history": [
       {
-        "commit_message": "feat: Create menu_navigator tool to automate menu navigation. In response to an Overwatch critique identifying deferred development as a core violation, this tool automates the calculation of button presses for list-based menus. This will prevent manual errors and significantly improve efficiency in tasks like using the PC, Party, Bag, or the Silph Co. elevator.",
-        "timestamp": "2025-08-23T06:42:18.723Z",
-        "action_counter": 162451
-      },
-      {
-        "commit_message": "feat: Create menu_navigator tool to automate menu navigation. In response to an Overwatch critique identifying deferred development as a core violation, this tool automates the calculation of button presses for list-based menus. This will prevent manual errors and significantly improve efficiency in tasks like using the PC, Party, Bag, or the Silph Co. elevator.",
-        "timestamp": "2025-08-23T06:45:27.742Z",
-        "action_counter": 162455
-      },
-      {
-        "commit_message": "fix: Encapsulate logic in a function to resolve 'return outside function' SyntaxError. The previous script had a bare 'return' statement at the top level, causing it to fail. This commit wraps the entire logic in a `navigate_menu` function, making the `return` statement valid and fixing the tool's execution.",
-        "timestamp": "2025-08-23T07:03:47.435Z",
-        "action_counter": 162476
+        "commit_message": "feat: Create find_undefeated_trainers tool to automate target identification. This tool scans the map for trainer objects and cross-references them with defeat markers to generate a list of available opponents. This automates a repetitive manual task, improving strategic efficiency as identified in self-assessment.",
+        "timestamp": "2025-08-23T18:37:44.475Z",
+        "action_counter": 163394
       }
     ]
   }
