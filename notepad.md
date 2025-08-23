@@ -161,9 +161,9 @@
 
 # VI. Puzzle Solving Log
 
-## A. Silph Co. Elevator
+## A. Silph Co. Elevator (SOLVED)
 - **Observation:** The elevator panel brings up a floor selection menu, but confirming a selection does not immediately cause travel. There are warp pads at the bottom of the elevator room.
-- **Hypothesis 1:** The elevator is a two-step process. Step 1: Use the panel to select the destination floor. Step 2: Step on the warp pads to travel to the selected floor.
-- **Test 1:** Selected '11F' on the panel. Then stepped on the warp pad at (3, 4) and pressed Down.
-- **Result 1:** Successfully warped to Silph Co. 11F.
-- **Conclusion 1:** Hypothesis confirmed. The elevator requires both panel selection and warp pad activation.
+- **Hypothesis:** The elevator is a two-step process. Step 1: Use the panel to select the destination floor. Step 2: Step on the warp pads (and press Down) to travel to the selected floor.
+- **Testing:** This hypothesis was tested by selecting floors 11F, 10F, and 9F on the panel, then moving to the warp pad at (3, 4) and pressing Down.
+- **Result:** In all cases, the warp successfully transported the player to the selected floor.
+- **Conclusion:** Hypothesis confirmed. The Silph Co. elevator requires both panel selection and warp pad activation to function.
