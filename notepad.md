@@ -197,3 +197,4 @@
 
 ## D. Map Marker Discipline (Immediate Action Mandate)
 - The first action after ANY interaction (battle, dialogue, item pickup) concludes MUST be to call `define_map_marker`. This is a non-negotiable, highest-priority task. Deferring this action is a critical failure. Data management supersedes all gameplay objectives.
+- **Hallucination & Tool Trust Failure (Safari Zone Center):** I incorrectly concluded that all exits from the Safari Zone Center were unreachable after my `find_path` tool failed to find a path to the west. I failed to properly check the output for the eastern path, which was successful, and proceeded for several turns under the false assumption I was trapped. **Correction:** I must meticulously verify the output of my tools, especially after a failure, and trust the data over my own fallible memory. A single failure does not mean all paths are blocked.
