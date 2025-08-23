@@ -118,7 +118,7 @@
   - LAPRAS (Lv 64) - Known Moves: HYDRO PUMP, THUNDER, PSYCHIC, BLIZZARD
   - BLASTOISE (Lv 64) - Known Moves: SURF, ICE BEAM, EARTHQUAKE
   - VAPOREON (Lv 64) - Known Moves: HYDRO PUMP, ACID ARMOR
-  - STARMIE (Lv 65) - Moves unknown.
+  - STARMIE (Lv 65) - Known Moves: THUNDERBOLT
 
 ## C. Battle Mechanics (Anomalies & Hypotheses)
 - **Speed Tie Assumption:** I must not assume a speed advantage in battle unless empirically verified in the current battle. An opponent may be faster than expected. (Lesson from Lorelei's Lapras vs SPARKY)
