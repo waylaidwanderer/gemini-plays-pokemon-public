@@ -142,11 +142,14 @@
 - **`situational_awareness_auditor` Agent Idea:** Create an agent that cross-references my stated location and map ID with the actual game state data to flag hallucinations before I can act on them. This would be a critical tool for maintaining accurate situational awareness.
 - **`navigation_troubleshooter` Agent Idea:** Create an agent that, when `find_path` fails, can analyze the map, the tool's diagnostic output (blocking objects), and the list of reachable warps to suggest alternative navigation strategies or intermediate waypoints to solve complex pathing puzzles like Silph Co.
 
-## C. Blocked Development
+## C. Tool Limitations (Observed)
+- **`notepad_edit` `replace` Flaw:** The `replace` action cannot distinguish between two identical strings in the notepad. If a string appears multiple times, the tool fails to replace a specific instance, making it impossible to remove targeted duplicates. (Observed Turn 162963)
+
+## D. Blocked Development
 - **`team_data_compiler` Tool (Blocked):** This tool cannot be implemented at this time. Its core function requires parsing opponent data from the notepad, but there is no current mechanism to pass the notepad's content as an input to a custom tool. Development is blocked pending a solution to this system limitation.
 - **`teleporter_mapper` Tool (Blocked):** This tool cannot be implemented. Its function requires persistent memory to build a graph of teleporter connections across multiple turns. The current tool execution environment is stateless and does not support this. Development is blocked pending a system update that allows for persistent tool state.
 
-# V. Post-Game Investigation Log
+# V. Key Event Log
 
 ## A. Route 24 Cave
 - **Hypothesis:** The cave north of Cerulean City on Route 24, previously blocked, would open after becoming Champion.
@@ -168,7 +171,3 @@
 - **Testing:** This hypothesis was tested by selecting floors 11F, 10F, and 9F on the panel, then moving to the warp pad at (3, 4) and pressing Down.
 - **Result:** In all cases, the warp successfully transported the player to the selected floor.
 - **Conclusion:** Hypothesis confirmed. The Silph Co. elevator requires both panel selection and warp pad activation to function.
-- **`navigation_troubleshooter` Agent Idea:** Create an agent that, when `find_path` fails, can analyze the map, the tool's diagnostic output (blocking objects), and the list of reachable warps to suggest alternative navigation strategies or intermediate waypoints to solve complex pathing puzzles like Silph Co.
-
-## D. Tool Limitations (Observed)
-- **`notepad_edit` `replace` Flaw:** The `replace` action cannot distinguish between two identical strings in the notepad. If a string appears multiple times, the tool fails to replace a specific instance, making it impossible to remove targeted duplicates. (Observed Turn 162963)
