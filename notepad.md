@@ -186,3 +186,4 @@
 ## C. Self-Assessment (Turn 161884)
 - **Agent Opportunity:** The process of depositing and withdrawing multiple Pokémon is tedious. An agent could be created to plan the entire sequence of PC actions required to achieve a target team composition.
 - **Tool Opportunity:** A more modular approach to PC navigation is needed. Instead of one tool that does everything, I should create smaller tools like `pc_deposit_pokemon` and a general `menu_navigator` that can handle any list-based menu. This would be more robust against interruptions.
+  - Ice -> Water/Psychic (Not Very Effective)
