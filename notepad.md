@@ -188,6 +188,3 @@
 - **Tool Opportunity:** A more modular approach to PC navigation is needed. Instead of one tool that does everything, I should create smaller tools like `pc_deposit_pokemon` and a general `menu_navigator` that can handle any list-based menu. This would be more robust against interruptions.
   - Ice -> Water/Psychic (Not Very Effective)
 - STARMIE (Lv 65) - Known Moves: THUNDERBOLT
-- Ice -> Water/Psychic (Not Very Effective)
-- STARMIE (Lv 65) - Known Moves: THUNDERBOLT
-- Ice -> Water/Psychic (Not Very Effective)
