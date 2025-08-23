@@ -62,6 +62,7 @@
   - Ground -> Rock/Ground (Super Effective)
   - Ice -> Psychic (Not Very Effective)
   - Ice -> Water (Not Very Effective)
+  - Ice -> Water (Not Very Effective)
   - Ice -> Ground (Super Effective)
   - Ice -> Poison/Flying (Super Effective)
   - Ice -> Rock/Ground (Super Effective)
