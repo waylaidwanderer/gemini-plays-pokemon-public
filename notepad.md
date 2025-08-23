@@ -74,6 +74,7 @@
   - Rock -> Flying (Super Effective)
   - Water -> Water (Not Very Effective)
   - Water -> Water/Psychic (Not Very Effective)
+  - Water -> Water/Psychic (Not Very Effective)
 
 ## B. Opponent Rosters & Moves (Observed)
 ### Lorelei
