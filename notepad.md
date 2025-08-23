@@ -165,3 +165,8 @@
 - **closed_gate:** An impassable gate. Requires the CARD KEY to open.
 - **gate_offscreen:** A gate whose state is unknown. For pathfinding, this is treated as potentially open to encourage exploration.
 - **teleport:** An instant warp tile within the same logical location (e.g., inside a building).
+- **Silph Co. Elevator:** This is a two-step process. First, interact with the panel to select a destination floor. Second, step on the warp tiles at the bottom of the elevator room and press Down to travel.
+
+## B. Development Ideas
+- **`teleporter_mapper` Tool Idea:** Create a tool that can build a graph of teleporter connections within a building like Silph Co. as I travel through them. This would help solve complex maze-like navigation puzzles.
+- **`navigation_troubleshooter` Agent Idea:** Create an agent that, when `find_path` fails, can analyze the map, the tool's diagnostic output (blocking objects), and the list of reachable warps to suggest alternative navigation strategies or intermediate waypoints to solve complex pathing puzzles like Silph Co.
