@@ -12,7 +12,7 @@
         "screen_text"
       ]
     },
-    "python_script": "import re\nimport json\n\ndef parse_battle_screen(screen_text):\n    player_pokemon = {}\n    opponent_pokemon = {}\n    lines = [line.strip() for line in screen_text.strip().split('\\n')]\n\n    try:\n        # Opponent Name (Line 1) and Level (Line 2)\n        opponent_pokemon['name'] = lines[0]\n        level_match = re.search(r'LV\\s*(\\d+)', lines[1])\n        if level_match:\n            opponent_pokemon['level'] = int(level_match.group(1))\n\n        # Player Name (Line 3) and HP (Line 4)\n        player_pokemon['name'] = lines[2]\n        hp_match = re.search(r'(\\d+)/(\\d+)', lines[3])\n        if hp_match:\n            player_pokemon['current_hp'] = int(hp_match.group(1))\n            player_pokemon['max_hp'] = int(hp_match.group(2))\n    except IndexError:\n        pass\n\n    result = {\n        \"player_active_pokemon\": player_pokemon,\n        \"opponent_active_pokemon\": opponent_pokemon\n    }\n    print(json.dumps(result))\n\nparse_battle_screen(input_data['screen_text'])",
+    "python_script": "import re\nimport json\n\ndef parse_battle_screen(screen_text):\n    player_pokemon = {}\n    opponent_pokemon = {}\n    lines = [line.strip() for line in screen_text.strip().split('\\n')]\n\n    try:\n        # Opponent Info (Line 0)\n        opp_line = lines[0]\n        opp_match = re.search(r'(.+?)\\s*L(\\d+)', opp_line)\n        if opp_match:\n            opponent_pokemon['name'] = opp_match.group(1).strip()\n            opponent_pokemon['level'] = int(opp_match.group(2))\n        else:\n            opponent_pokemon['name'] = opp_line\n\n        # Player Info (Lines 2 and 3)\n        player_line = lines[2]\n        player_match = re.search(r'(.+?)\\s*L(\\d+)', player_line)\n        if player_match:\n            player_pokemon['name'] = player_match.group(1).strip()\n            player_pokemon['level'] = int(player_match.group(2))\n        else:\n            player_pokemon['name'] = player_line\n\n        hp_line = lines[3]\n        hp_match = re.search(r'(\\d+)/\\s*(\\d+)', hp_line)\n        if hp_match:\n            player_pokemon['current_hp'] = int(hp_match.group(1))\n            player_pokemon['max_hp'] = int(hp_match.group(2))\n            \n    except IndexError:\n        pass\n\n    result = {\n        \"player_active_pokemon\": player_pokemon,\n        \"opponent_active_pokemon\": opponent_pokemon\n    }\n    print(json.dumps(result))\n\nparse_battle_screen(input_data['screen_text'])",
     "history": [
       {
         "commit_message": "feat: Create battle_screen_parser tool to automate data entry. In response to an Overwatch critique identifying deferred development as a core violation, this tool automates the extraction of key battle data from screen text. This will streamline the input process for the `master_battle_agent`, improving battle efficiency and adhering to the immediate action directive.",
@@ -38,6 +38,11 @@
         "commit_message": "fix: Update regex to handle multi-line battle info. The previous version of the tool failed because its regex expected all player information to be on a single line. This commit refactors the script to parse the opponent's and player's name, level, and HP from their respective separate lines as provided by the game's screen text, making the tool functional again.",
         "timestamp": "2025-08-23T01:17:14.741Z",
         "action_counter": 161892
+      },
+      {
+        "commit_message": "fix: Update regex to handle name and level on the same line. The previous version failed because its regex expected the level to be on a separate line from the Pokémon's name. This commit refactors the script to parse both from the same line, correctly extracting battle data.",
+        "timestamp": "2025-08-23T14:14:53.725Z",
+        "action_counter": 163037
       }
     ]
   },
