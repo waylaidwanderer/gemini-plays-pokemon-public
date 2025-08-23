@@ -12,15 +12,18 @@
 # II. Game Mechanics & World Knowledge
 
 ## A. Core Gameplay (Verified)
-
 - **Forced Sleep-Induced Switch:** The game forces a switch immediately after a Pokémon is put to sleep by an opponent's move, similar to when a Pokémon faints. (Observed Turn 150625)
 - **Indigo Plateau Auto-Heal:** Blacking out during the Elite Four challenge and respawning at the Indigo Plateau entrance automatically heals the entire party. (Observed Turn 149617)
 - **'No will to fight!' Message:** This message appears when attempting to switch to a Pokémon that has already fainted. It is a cursor position error in the party menu, not an indication of a Pokémon's level or willingness to battle. (Corrected Turn 152732)
 
 ## B. Tile & System Mechanics (Verified)
-
 - **Boulder Pushing:** The player's character remains in their pushing position after pushing a boulder. The push is initiated by walking into the boulder from an adjacent tile.
 - **Dead End Area Definition:** An area is NOT a 'dead end' if there are reachable unvisited warps, Reachable Undiscovered Map Connections, OR the `Reachable Unseen Tiles` list for the current map contains entries. A room with multiple reachable, non-adjacent exits (warps/connections) is also NOT a dead end, even if all tiles have been seen. Adjacent warps are treated as a single exit for this calculation. (Corrected Turn 152613, Refined Turn 157367, Corrected again Turn 160895)
+- **open_gate:** A previously closed gate that is now open and acts as `ground`.
+- **closed_gate:** An impassable gate. Requires the CARD KEY to open.
+- **gate_offscreen:** A gate whose state is unknown. For pathfinding, this is treated as potentially open to encourage exploration.
+- **teleport:** An instant warp tile within the same logical location (e.g., inside a building).
+- **Silph Co. Elevator:** This is a two-step process. First, interact with the panel to select a destination floor. Second, step on the warp tiles at the bottom of the elevator room and press Down to travel.
 
 # III. Battle Information
 
@@ -137,36 +140,24 @@
 ## B. Development Ideas
 - **`menu_navigator` Tool Idea:** Create a tool that can navigate list-based menus (PC, Party, Bag) to a specific item. This would prevent manual errors and make menu navigation much more efficient than my current one-step-at-a-time manual process.
 - **`puzzle_solver` Tool Idea:** Create a tool that takes the current map state (`map_xml_string`) and a list of failed hypotheses as input. It would then generate a ranked list of new, logical hypotheses to test for solving complex environmental puzzles.
-
 - **`ai_move_predictor` Agent Idea:** Create an agent that takes the opponent's known moves, my active Pokémon, and my full party as input to predict the most likely move the AI will use.
 - **`multi_team_synergy_analyzer` Agent Idea:** Create an agent that takes my full PC box and party as input and suggests multiple viable team compositions (not just one) for various challenges, explaining the synergies and strategies for each.
+- **`situational_awareness_auditor` Agent Idea:** Create an agent that cross-references my stated location and map ID with the actual game state data to flag hallucinations before I can act on them. This would be a critical tool for maintaining accurate situational awareness.
+- **`teleporter_mapper` Tool Idea:** Create a tool that can build a graph of teleporter connections within a building like Silph Co. as I travel through them. This would help solve complex maze-like navigation puzzles.
+- **`navigation_troubleshooter` Agent Idea:** Create an agent that, when `find_path` fails, can analyze the map, the tool's diagnostic output (blocking objects), and the list of reachable warps to suggest alternative navigation strategies or intermediate waypoints to solve complex pathing puzzles like Silph Co.
 
 ## C. Blocked Development
 - **`team_data_compiler` Tool (Blocked):** This tool cannot be implemented at this time. Its core function requires parsing opponent data from the notepad, but there is no current mechanism to pass the notepad's content as an input to a custom tool. Development is blocked pending a solution to this system limitation.
 
-# VI. Post-Game Investigation Log
+# V. Post-Game Investigation Log
 
 ## A. Route 24 Cave
 - **Hypothesis:** The cave north of Cerulean City on Route 24, previously blocked, would open after becoming Champion.
 - **Test:** Traveled to the cave entrance at (7, 4) on Route 24. Attempted to enter.
 - **Outcome:** Movement was blocked. The tile is marked as 'impassable' and is not registered as a warp in the map data.
 - **Conclusion:** Hypothesis denied. The cave is currently inaccessible. This lead is a dead end.
+
+## B. Self-Correction Log (Post-Critique)
 - **Agent Trust Failure (Misty Rematch):** I repeatedly ignored my `master_battle_agent`'s correct advice to switch out CRAG due to a 4x weakness. My insistence on a high-risk gamble over the agent's safe, logical play led to wasted turns and the loss of REVENANT. I must adhere to my documented rule to trust my agents, especially regarding mandatory defensive actions.
 - **Dead End Validation Failure:** I incorrectly reported `is_in_dead_end_area` as `false` for Cerulean Gym (Turn 161793). The area has only one exit warp group and no other explorable paths, making it a dead end according to my own documented definition. **Correction:** I must be more rigorous in applying my documented rules during validation checks, especially for complex definitions like 'dead end'.
-- **`situational_awareness_auditor` Agent Idea:** Create an agent that cross-references my stated location and map ID with the actual game state data to flag hallucinations before I can act on them. This would be a critical tool for maintaining accurate situational awareness.
-
-## C. Development Ideas
-- **`teleporter_mapper` Tool Idea:** Create a tool that can build a graph of teleporter connections within a building like Silph Co. as I travel through them. This would help solve complex maze-like navigation puzzles.
-- **`navigation_troubleshooter` Agent Idea:** Create an agent that, when `find_path` fails, can analyze the map, the tool's diagnostic output (blocking objects), and the list of reachable warps to suggest alternative navigation strategies or intermediate waypoints to solve complex pathing puzzles like Silph Co.
-- System Feedback vs. Tool Output Discrepancy: The Overwatch critique repeatedly insisted an incorrect map marker existed at (4, 12) on Silph Co. 3F. However, my `delete_map_marker` tool failed three consecutive times, reporting 'No markers found'. This confirms the tool's output was correct and the critique was based on faulty data. **Lesson:** While system feedback is a high-priority source of truth, it is not infallible. Verified, repeated tool output can be trusted to override a system critique if a direct contradiction is proven.
-
-## C. Tile Traversal & Movement Rules (Verified)
-- **open_gate:** A previously closed gate that is now open and acts as `ground`.
-- **closed_gate:** An impassable gate. Requires the CARD KEY to open.
-- **gate_offscreen:** A gate whose state is unknown. For pathfinding, this is treated as potentially open to encourage exploration.
-- **teleport:** An instant warp tile within the same logical location (e.g., inside a building).
-- **Silph Co. Elevator:** This is a two-step process. First, interact with the panel to select a destination floor. Second, step on the warp tiles at the bottom of the elevator room and press Down to travel.
-
-## B. Development Ideas
-- **`teleporter_mapper` Tool Idea:** Create a tool that can build a graph of teleporter connections within a building like Silph Co. as I travel through them. This would help solve complex maze-like navigation puzzles.
-- **`navigation_troubleshooter` Agent Idea:** Create an agent that, when `find_path` fails, can analyze the map, the tool's diagnostic output (blocking objects), and the list of reachable warps to suggest alternative navigation strategies or intermediate waypoints to solve complex pathing puzzles like Silph Co.
+- **System Feedback vs. Tool Output Discrepancy:** The Overwatch critique repeatedly insisted an incorrect map marker existed at (4, 12) on Silph Co. 3F. However, my `delete_map_marker` tool failed three consecutive times, reporting 'No markers found'. This confirms the tool's output was correct and the critique was based on faulty data. **Lesson:** While system feedback is a high-priority source of truth, it is not infallible. Verified, repeated tool output can be trusted to override a system critique if a direct contradiction is proven.
