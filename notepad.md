@@ -42,6 +42,7 @@
 - **Findings:**
   - Bug -> Poison (Not Very Effective)
   - Electric -> Poison/Flying (Super Effective)
+  - Electric -> Water (Super Effective)
   - Electric -> Water/Ice (Super Effective)
   - Electric -> Water/Psychic (Super Effective)
   - Fighting -> Ice (Super Effective)
@@ -62,7 +63,6 @@
   - Ground -> Rock/Ground (Super Effective)
   - Ice -> Psychic (Not Very Effective)
   - Ice -> Water (Not Very Effective)
-  - Ice -> Water (Not Very Effective)
   - Ice -> Ground (Super Effective)
   - Ice -> Poison/Flying (Super Effective)
   - Ice -> Rock/Ground (Super Effective)
@@ -72,6 +72,7 @@
   - Psychic -> Poison (Super Effective)
   - Rock -> Ground (Not Very Effective)
   - Rock -> Flying (Super Effective)
+  - Water -> Water (Not Very Effective)
   - Water -> Water/Psychic (Not Very Effective)
 
 ## B. Opponent Rosters & Moves (Observed)
@@ -115,7 +116,7 @@
   - SEADRA (Lv 64) - Moves unknown.
   - GOLDUCK (Lv 65) - Known Moves: Psychic, Blizzard, Hydro Pump
   - LAPRAS (Lv 64) - Known Moves: HYDRO PUMP, THUNDER, PSYCHIC, BLIZZARD
-  - BLASTOISE (Lv 64) - Known Moves: SURF, ICE BEAM
+  - BLASTOISE (Lv 64) - Known Moves: SURF, ICE BEAM, EARTHQUAKE
   - VAPOREON (Lv 64) - Known Moves: HYDRO PUMP
   - STARMIE (Lv 65) - Moves unknown.
 
@@ -133,7 +134,7 @@
 
 # IV. Tool & Agent Development
 
-## A. Tool & Agent Development Log
+## A. Development Log
 - **Diagnostic Tool Output:** Pathfinding tools must report the specific obstacle that blocks a path upon failure. This is essential for distinguishing between a solvable puzzle and a genuinely impossible route.
 - **AI Prediction Failure (Confirmation Bias):** I have incorrectly assumed the opponent's AI would use a specific move to counter my current Pokémon, failing to predict that the AI would instead use the optimal move to counter my *switch-in*. (Observed Turn 147728, Lorelei's Lapras vs. CRAG). **Correction:** I must assume the AI will make the optimal play against my predicted action, not just react to the current board state.
 - **Agent Gamble Failure & AI Prediction:** The battle_strategist_agent correctly identified a high-risk, high-reward play by switching to CRAG, predicting Lapras would use its known move Thunderbolt. However, the opponent AI made the optimal counter-play by using Surf against the incoming CRAG, leading to a faint. This confirms that the AI is capable of predicting switches and choosing the best move to counter the incoming Pokémon, not just the one on the field. (Observed Turn 149533, Lorelei's Lapras vs. CRAG).
@@ -143,16 +144,17 @@
 - **Master Battle Agent (Implemented Turn 156589):** Created a new orchestrator agent (`master_battle_agent`) that takes raw party/enemy JSON and internally calls `type_map_generator`, `battle_data_extractor`, and `battle_strategist_agent` to return a single, final action. This streamlines the 3-step battle analysis process into a single tool call, improving turn efficiency.
 - **`pc_withdraw_pokemon` Tool Created (Turn 157056):** Developed to automate the process of selecting and withdrawing a specific Pokémon from the PC, improving team management efficiency.
 - **`get_next_move_press` Tool Created (Turn 161071):** Developed to provide single-step, reliable navigation for the battle move menu. This addresses the 'Move Menu Cursor Reset Anomaly' by allowing for re-evaluation of the cursor's position each turn, replacing the unreliable `auto_attacker` for move selection.
+- **`battle_screen_parser` Tool Created (Turn 161671):** Developed to automate the extraction of key battle data from screen text. This streamlines the input process for the `master_battle_agent`, improving battle efficiency.
 
-## B. Tool Brainstorming (To be implemented immediately if possible)
-- `menu_navigator` Tool Idea: Create a tool that can navigate list-based menus to a specific item. This would prevent manual errors in the PC, party screen, etc.
-- **`team_data_compiler` Tool Idea:** Create a tool that can parse the `game_state`'s PC box data and my notepad's opponent roster data to automatically generate the JSON input for the `team_composition_advisor` agent. This will eliminate a tedious and error-prone manual data entry step.
-
-- **`puzzle_solver` Tool Idea:** Create a tool that takes the current map state (`map_xml_string`) and a list of failed hypotheses as input. It would then generate a ranked list of new, logical hypotheses to test for solving complex environmental puzzles. This could prevent getting stuck in loops like the one in Lorelei's Room. (Correction from Overwatch: Must be a tool, not an agent, to parse map data).
-- **`menu_navigator` Tool Idea:** Create a tool that can navigate list-based menus to a specific item. This would prevent manual errors in the PC, party screen, etc.
+## B. Development Ideas
+- **`menu_navigator` Tool Idea:** Create a tool that can navigate list-based menus (PC, Party, Bag) to a specific item. This would prevent manual errors and make menu navigation much more efficient than my current one-step-at-a-time manual process.
+- **`puzzle_solver` Tool Idea:** Create a tool that takes the current map state (`map_xml_string`) and a list of failed hypotheses as input. It would then generate a ranked list of new, logical hypotheses to test for solving complex environmental puzzles.
 - **`navigation_troubleshooter` Agent Idea:** Create an agent that, when `find_path` fails, can analyze the map and suggest alternative navigation strategies or intermediate waypoints to solve complex pathing puzzles.
-- **`ai_move_predictor` Agent Idea:** Create an agent that takes the opponent's known moves, my active Pokémon, and my full party as input to predict the most likely move the AI will use. This could help formalize high-risk strategic decisions.
-- **`multi_team_synergy_analyzer` Agent Idea:** Create an agent that takes my full PC box and party as input and suggests multiple viable team compositions (not just one) for various challenges, explaining the synergies and strategies for each. (Refined from `team_synergy_analyzer` to be more distinct from the existing `team_composition_advisor`).
+- **`ai_move_predictor` Agent Idea:** Create an agent that takes the opponent's known moves, my active Pokémon, and my full party as input to predict the most likely move the AI will use.
+- **`multi_team_synergy_analyzer` Agent Idea:** Create an agent that takes my full PC box and party as input and suggests multiple viable team compositions (not just one) for various challenges, explaining the synergies and strategies for each.
+
+## C. Blocked Development
+- **`team_data_compiler` Tool (Blocked):** This tool cannot be implemented at this time. Its core function requires parsing opponent data from the notepad, but there is no current mechanism to pass the notepad's content as an input to a custom tool. Development is blocked pending a solution to this system limitation.
 
 # V. Battle Logs
 
@@ -179,5 +181,3 @@
 - **Outcome:** Movement was blocked. The tile is marked as 'impassable' and is not registered as a warp in the map data.
 - **Conclusion:** Hypothesis denied. The cave is currently inaccessible. This lead is a dead end.
 - **Agent Trust Failure (Misty Rematch):** I repeatedly ignored my `master_battle_agent`'s correct advice to switch out CRAG due to a 4x weakness. My insistence on a high-risk gamble over the agent's safe, logical play led to wasted turns and the loss of REVENANT. I must adhere to my documented rule to trust my agents, especially regarding mandatory defensive actions.
-- **`team_data_compiler` Tool (Blocked):** This tool cannot be implemented at this time. Its core function requires parsing opponent data from the notepad, but there is no current mechanism to pass the notepad's content as an input to a custom tool. Development is blocked pending a solution to this system limitation.
-  - Water -> Water (Not Very Effective)
