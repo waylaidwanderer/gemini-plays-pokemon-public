@@ -194,3 +194,11 @@
 - **Lesson Learned:** A failing tool must be fixed immediately. If a pathfinding tool reports no path, the first assumption must be that the destination is genuinely unreachable, and this assumption must be tested before attempting to debug the tool.
 - **New Tool Idea:** A 'full sequence party switcher' tool could improve efficiency, but the current one-step `get_next_switch_press` is safer due to the cursor anomaly.
 - **`endurance_battle_advisor` Agent Idea:** Create an agent that analyzes prolonged battle scenarios, like a potential battle loop. It would weigh factors like remaining PP, team health, and potential opponent strategies to advise whether continuing the battle is more efficient than a strategic blackout to reset the encounter.
+
+# IX. Cerulean City Post-Champion Events
+
+## A. Misty Rematch & Battle Loop (SOLVED)
+- **Trigger:** After becoming Champion and solving the Trashed House backyard puzzle, interacting with Misty in the Cerulean Gym triggers a full-strength rematch.
+- **Battle Loop Anomaly:** After defeating Misty, she immediately re-initiates the battle, creating a loop. This happened twice.
+- **Solution:** When presented with the post-battle rematch prompt ('Ready for a rematch at my full strength?'), selecting 'NO' successfully broke the battle loop and allowed for normal progression.
+- **Conclusion:** The rematch is a repeatable event, but can be exited by declining the subsequent challenge. This is a key mechanic to avoid getting stuck.
