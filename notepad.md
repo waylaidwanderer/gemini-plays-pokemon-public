@@ -167,3 +167,5 @@
 - **Testing:** This hypothesis was tested by selecting floors 11F, 10F, and 9F on the panel, then moving to the warp pad at (3, 4) and pressing Down.
 - **Result:** In all cases, the warp successfully transported the player to the selected floor.
 - **Conclusion:** Hypothesis confirmed. The Silph Co. elevator requires both panel selection and warp pad activation to function.
+- **Teleporter Tiles:** Instantaneous warp points. Stepping on the tile immediately triggers the map change. To return, one must step off the warp tile and then back on.
+- **Off-Screen Gates:** Gates not currently visible on screen ('gate_offscreen' tile type) are treated as potentially open for pathfinding purposes to encourage exploration of alternate routes.
