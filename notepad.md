@@ -29,7 +29,8 @@
   - **Conclusion:** If no new paths or events unlock after all trainers are defeated, this hypothesis is denied, and a new exploration strategy will be required.
 
 ## B. Tile & System Mechanics (Master)
-- **Object Impassability (General Rule):** All objects (NPCs, items, signs) are impassable walls. Interaction must happen from an adjacent tile. Defeated trainers often remain as impassable obstacles.
+- **Object Impassability (General Rule):** All objects (NPCs, items, signs) are impassable walls. Interaction must happen from an adjacent tile.
+  - **Defeated Trainers:** Defeated trainers often remain as impassable obstacles after battle.
 - **Pikachu Walk-Through (Exception):** Pikachu is the only NPC/Object that can be walked through. This is a key mechanic for certain puzzles. If not facing Pikachu, the first directional press turns the character, and the second moves onto the tile.
 - **Boulder Pushing:** The player's character remains in their pushing position after pushing a boulder. The push is initiated by walking into the boulder from an adjacent tile.
 - **Cuttable Trees:** These tiles block paths and can be removed by using the field move Cut from an adjacent tile. They typically respawn after a map change.
@@ -192,4 +193,4 @@
 
 ## C. Cerulean City Post-Champion Events
 - **Misty Rematch & Battle Loop (SOLVED):** Trigger: After becoming Champion and solving the Trashed House backyard puzzle, interacting with Misty in the Cerulean Gym triggers a full-strength rematch. Battle Loop Anomaly: After defeating Misty, she immediately re-initiates the battle, creating a loop. This happened twice. Solution: When presented with the post-battle rematch prompt ('Ready for a rematch at my full strength?'), selecting 'NO' successfully broke the battle loop and allowed for normal progression. Conclusion: The rematch is a repeatable event, but can be exited by declining the subsequent challenge. This is a key mechanic to avoid getting stuck.
-- **Map Marker Discipline Failure:** I have repeatedly failed to mark defeated trainers immediately after battle, leading to wasted turns and incorrect tool outputs. **Correction:** The first action after any battle or post-battle dialogue MUST be to call `define_map_marker`. This is a non-negotiable step in my data management process.
+- **Map Marker Discipline:** The first action after any battle or post-battle dialogue MUST be to call `define_map_marker`. This is a non-negotiable step in my data management process.
