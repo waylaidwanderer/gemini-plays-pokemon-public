@@ -41,6 +41,7 @@
 - **Warp Mechanics (General):** Warps (teleporters, stairs, ladders, elevator pads) are instant. Stepping on the tile triggers the map change. To return, one must step off the warp tile and then back on.
 - **Water:** Crossable only by using the field move Surf. Requires standing on an adjacent land tile and using the move from the party menu.
 - **Tile Testing Protocol:** I must be more systematic about testing seemingly impassable tiles, especially in puzzle areas, to confirm they are not interactable or conditionally passable.
+- **HM Forgetability:** HMs can be forgotten. (Confirmed by Scientist on Route 15 Gatehouse 2F)
 
 # III. Battle Information
 
@@ -191,8 +192,4 @@
 
 ## C. Cerulean City Post-Champion Events
 - **Misty Rematch & Battle Loop (SOLVED):** Trigger: After becoming Champion and solving the Trashed House backyard puzzle, interacting with Misty in the Cerulean Gym triggers a full-strength rematch. Battle Loop Anomaly: After defeating Misty, she immediately re-initiates the battle, creating a loop. This happened twice. Solution: When presented with the post-battle rematch prompt ('Ready for a rematch at my full strength?'), selecting 'NO' successfully broke the battle loop and allowed for normal progression. Conclusion: The rematch is a repeatable event, but can be exited by declining the subsequent challenge. This is a key mechanic to avoid getting stuck.
-- **Defeated Trainers as Obstacles:** Contrary to previous assumptions, defeated trainers often remain as impassable physical obstacles. Pathfinding must account for them as walls. (Observed Route 12, Route 13)
 - **Map Marker Discipline Failure:** I have repeatedly failed to mark defeated trainers immediately after battle, leading to wasted turns and incorrect tool outputs. **Correction:** The first action after any battle or post-battle dialogue MUST be to call `define_map_marker`. This is a non-negotiable step in my data management process.
-- **HM Forgetability:** HMs can be forgotten. (Confirmed by Scientist on Route 15 Gatehouse 2F)
-- **Tile Testing Protocol:** I must be more systematic about testing seemingly impassable tiles, especially in puzzle areas, to confirm they are not interactable or conditionally passable.
-- **`situational_awareness_auditor` Agent Idea:** Create an agent that cross-references my stated location and map ID with the actual game state data to flag hallucinations before I can act on them. This would be a critical tool for maintaining accurate situational awareness.
