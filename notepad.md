@@ -187,3 +187,8 @@
 
 ## C. Development Ideas
 - **`teleporter_mapper` Tool Idea:** Create a tool that can build a graph of teleporter connections within a building like Silph Co. as I travel through them. This would help solve complex maze-like navigation puzzles.
+- `closed_gate`: An impassable gate that is currently visible on the screen. It may require a switch or key to open. For pathfinding purposes, this must be treated as a wall.
+- `gate_offscreen`: A gate (either open or closed) that is not currently visible on the screen. Its state is unknown. For pathfinding purposes, this is treated as potentially open to encourage exploration of alternate routes.
+
+## B. Development Ideas
+- **`navigation_troubleshooter` Agent Idea:** Create an agent that, when `find_path` fails, can analyze the map, the tool's diagnostic output (blocking objects), and the list of reachable warps to suggest alternative navigation strategies or intermediate waypoints to solve complex pathing puzzles like Silph Co.
