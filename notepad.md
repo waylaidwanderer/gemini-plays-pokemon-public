@@ -183,3 +183,4 @@
 
 ## C. Cerulean City Post-Champion Events
 - **Misty Rematch & Battle Loop (SOLVED):** Trigger: After becoming Champion and solving the Trashed House backyard puzzle, interacting with Misty in the Cerulean Gym triggers a full-strength rematch. Battle Loop Anomaly: After defeating Misty, she immediately re-initiates the battle, creating a loop. This happened twice. Solution: When presented with the post-battle rematch prompt ('Ready for a rematch at my full strength?'), selecting 'NO' successfully broke the battle loop and allowed for normal progression. Conclusion: The rematch is a repeatable event, but can be exited by declining the subsequent challenge. This is a key mechanic to avoid getting stuck.
+- **Defeated Trainers as Obstacles:** Contrary to previous assumptions, defeated trainers often remain as impassable physical obstacles. Pathfinding must account for them as walls. (Observed Route 12, Route 13)
