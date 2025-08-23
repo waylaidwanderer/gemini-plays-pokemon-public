@@ -214,5 +214,38 @@
         "action_counter": 161071
       }
     ]
+  },
+  "menu_navigator": {
+    "description": "Navigates a list-based menu (like PC, Party, Bag, or Elevator) to a specific target item or option. It takes the list of all options, the currently selected option, and the target option as input, and returns the sequence of 'Up' or 'Down' presses required to reach the target.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "menu_options": {
+          "type": "string",
+          "description": "A JSON string representing the list of menu options in order."
+        },
+        "current_selection": {
+          "type": "string",
+          "description": "The name of the currently selected option."
+        },
+        "target_selection": {
+          "type": "string",
+          "description": "The name of the target option."
+        }
+      },
+      "required": [
+        "menu_options",
+        "current_selection",
+        "target_selection"
+      ]
+    },
+    "python_script": "import json\n\ndef navigate_menu(options_str, current_str, target_str):\n    options = json.loads(options_str)\n    try:\n        current_idx = options.index(current_str)\n        target_idx = options.index(target_str)\n    except ValueError:\n        print(json.dumps({\"status\": \"error\", \"message\": \"Current or target selection not in options list.\"}))\n        return\n\n    num_options = len(options)\n    down_presses = (target_idx - current_idx + num_options) % num_options\n    up_presses = (current_idx - target_idx + num_options) % num_options\n    \n    if down_presses <= up_presses:\n        result = [\"Down\"] * down_presses\n    else:\n        result = [\"Up\"] * up_presses\n        \n    print(json.dumps({\"status\": \"success\", \"button_presses\": result}))\n\nnavigate_menu(input_data['menu_options'], input_data['current_selection'], input_data['target_selection'])",
+    "history": [
+      {
+        "commit_message": "feat: Create menu_navigator tool to automate menu navigation. In response to an Overwatch critique identifying deferred development as a core violation, this tool automates the calculation of button presses for list-based menus. This will prevent manual errors and significantly improve efficiency in tasks like using the PC, Party, Bag, or the Silph Co. elevator.",
+        "timestamp": "2025-08-23T06:42:18.723Z",
+        "action_counter": 162451
+      }
+    ]
   }
 }

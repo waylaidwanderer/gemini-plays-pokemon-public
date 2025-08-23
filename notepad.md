@@ -19,10 +19,7 @@
 ## B. Tile & System Mechanics (Verified)
 - **Boulder Pushing:** The player's character remains in their pushing position after pushing a boulder. The push is initiated by walking into the boulder from an adjacent tile.
 - **Dead End Area Definition:** An area is NOT a 'dead end' if there are reachable unvisited warps, Reachable Undiscovered Map Connections, OR the `Reachable Unseen Tiles` list for the current map contains entries. A room with multiple reachable, non-adjacent exits (warps/connections) is also NOT a dead end, even if all tiles have been seen. Adjacent warps are treated as a single exit for this calculation. (Corrected Turn 152613, Refined Turn 157367, Corrected again Turn 160895)
-- **open_gate:** A previously closed gate that is now open and acts as `ground`.
-- **closed_gate:** An impassable gate. Requires the CARD KEY to open.
-- **gate_offscreen:** A gate whose state is unknown. For pathfinding, this is treated as potentially open to encourage exploration.
-- **teleport:** An instant warp tile within the same logical location (e.g., inside a building).
+
 - **Silph Co. Elevator:** This is a two-step process. First, interact with the panel to select a destination floor. Second, step on the warp tiles at the bottom of the elevator room and press Down to travel.
 
 # III. Battle Information
