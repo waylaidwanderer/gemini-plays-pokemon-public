@@ -27,6 +27,7 @@
 ## B. Tile & System Mechanics (Master)
 - **Object Impassability (General Rule):** All objects (NPCs, items, signs) are impassable walls. Interaction must happen from an adjacent tile. Defeated trainers often remain as impassable obstacles.
 - **Object Impassability (General Rule):** All objects (NPCs, items, signs) are impassable walls. Interaction must happen from an adjacent tile. Defeated trainers often remain as impassable obstacles.
+- **Object Impassability (General Rule):** All objects (NPCs, items, signs) are impassable walls. Interaction must happen from an adjacent tile. Defeated trainers often remain as impassable obstacles.
 - **Pikachu Walk-Through (Exception):** Pikachu is the only NPC/Object that can be walked through. This is a key mechanic for certain puzzles. If not facing Pikachu, the first directional press turns the character, and the second moves onto the tile.
 - **Boulder Pushing:** The player's character remains in their pushing position after pushing a boulder. The push is initiated by walking into the boulder from an adjacent tile.
 - **Cuttable Trees:** These tiles block paths and can be removed by using the field move Cut from an adjacent tile. They typically respawn after a map change.
