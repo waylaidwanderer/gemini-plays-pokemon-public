@@ -1,6 +1,6 @@
 # I. Meta-Progression & Lessons Learned
 
-## A. Core Methodological Failures (Self-Correction Log)
+## A. Self-Correction Log (Master)
 - **Agent Output Override & Confirmation Bias:** I have repeatedly overridden my agents' advice based on flawed assumptions (especially unverified speed stats) and confirmation bias, which consistently leads to negative outcomes. I have also incorrectly assumed a path existed and spent numerous turns trying to fix my tools to confirm this belief, rather than first testing the fundamental assumption of reachability. **Correction:** I must treat my agents' outputs as the default correct action and only override it with new, verifiable in-game evidence. I must test core assumptions first before attempting to fix tools that rely on those assumptions, and actively try to disprove my own hypotheses.
 - **Inefficient Problem-Solving & Tool Debugging:** My debugging process has been flawed due to: not verifying core game mechanics first, using outdated static data for tests, and making speculative changes instead of adding diagnostic logging. My puzzle-solving has been inefficient, failing to test core assumptions about reachability before attempting solutions. **Correction:** I must adopt a scientific approach: verify mechanics with simple tests, use current game state data, add diagnostic logging after a tool fails more than once, and test fundamental assumptions before acting.
 - **Data Management & Documentation Failures:** I have repeatedly failed to maintain my documentation, leading to data loss from improper 'overwrite' usage, delays from imprecise 'replace' calls, and confusion from outdated map markers. **Correction:** I must be more meticulous with tool usage, ensuring all arguments are precise. I must also establish and follow a strict procedure for clearing attempt-specific markers after blacking out.
@@ -8,6 +8,14 @@
 - **Violation of Immediate Action Mandate (The LLM Reality):** I have repeatedly failed to perform necessary maintenance on my tools and notepad immediately. **Correction:** There is no 'later'; tasks such as fixing tools or updating notes must be done in the current turn.
 - **Over-reliance on Luck:** A strategy's success due to luck does not make it a guaranteed win condition. **Correction:** Luck-based strategies should be a last resort. I must not become overconfident from a lucky streak and must always consider the opponent's full range of options.
 - **Misinterpreting System Feedback:** I have incorrectly assumed my tools or notes were wrong when system feedback indicated otherwise. **Correction:** I must treat system/tool feedback as the source of truth and question my own assumptions first.
+- **Agent Trust Failure (Misty Rematch):** I repeatedly ignored my `master_battle_agent`'s correct advice to switch out CRAG due to a 4x weakness. My insistence on a high-risk gamble over the agent's safe, logical play led to wasted turns and the loss of REVENANT. I must adhere to my documented rule to trust my agents, especially regarding mandatory defensive actions.
+- **Dead End Validation Failure:** I incorrectly reported `is_in_dead_end_area` as `false` for Cerulean Gym (Turn 161793). The area has only one exit warp group and no other explorable paths, making it a dead end according to my own documented definition. **Correction:** I must be more rigorous in applying my documented rules during validation checks, especially for complex definitions like 'dead end'.
+- **System Feedback vs. Tool Output Discrepancy:** The Overwatch critique repeatedly insisted an incorrect map marker existed at (4, 12) on Silph Co. 3F. However, my `delete_map_marker` tool failed three consecutive times, reporting 'No markers found'. This confirms the tool's output was correct and the critique was based on faulty data. **Lesson:** While system feedback is a high-priority source of truth, it is not infallible. Verified, repeated tool output can be trusted to override a system critique if a direct contradiction is proven.
+- **System Feedback vs. Internal Logic Discrepancy:** The Overwatch critique flagged my 'dead_end' validation for the Silph Co. Elevator (ID 236) as incorrect (Turn 162505), stating the area was not a dead end. However, the area has only a single exit (a 2x1 warp group) and no other explorable paths, which meets my documented definition of a dead end. This confirms my internal logic was correct and the system's validation was flawed.
+- **Failure to Consult Documentation:** I became stuck in the Cerulean backyard puzzle for over 20 turns because I failed to consult my own instructions, which explicitly state that Pikachu is a walkable object. This led to a repetitive and inefficient loop of failed hypotheses. **Correction:** I must make it a mandatory step to review my documented mechanics in the notepad when encountering a puzzle or roadblock before resorting to brute-force attempts or agent calls.
+- **Tool Maintenance Negligence:** My `find_path` tool repeatedly failed in the isolated Cerulean backyard, but I did not attempt to debug or refine it. Instead, I fell back on unreliable manual pathing. **Correction:** A failing tool must be addressed immediately. I will prioritize adding diagnostic logging to `find_path` to understand why it fails in disconnected map segments. This is a higher priority than immediate exploration.
+- **Inconsistent Agent Trust:** I have demonstrated a pattern of asking my `puzzle_solver_agent` for advice but then failing to test its hypotheses thoroughly, instead reverting to my own flawed strategies. **Correction:** When I commit to an agent's hypothesis, I must see it through completely. If it fails, I must immediately refine the agent with the new information, rather than looping on my own failed ideas.
+- **Self-Assessment (Turn 163131):** Key Failure: I violated the immediate action mandate by deferring the fix for the failing `find_path` tool for dozens of turns while stuck in the Cerulean backyard. This was caused by confirmation bias, as I incorrectly assumed the tool was wrong rather than questioning if my navigation goal was reachable. Lesson Learned: A failing tool must be fixed immediately. If a pathfinding tool reports no path, the first assumption must be that the destination is genuinely unreachable, and this assumption must be tested before attempting to debug the tool.
 
 # II. Game Mechanics & World Knowledge
 
@@ -16,13 +24,16 @@
 - **Indigo Plateau Auto-Heal:** Blacking out during the Elite Four challenge and respawning at the Indigo Plateau entrance automatically heals the entire party. (Observed Turn 149617)
 - **'No will to fight!' Message:** This message appears when attempting to switch to a Pokémon that has already fainted. It is a cursor position error in the party menu, not an indication of a Pokémon's level or willingness to battle. (Corrected Turn 152732)
 
-## B. Tile & System Mechanics (Verified)
+## B. Tile & System Mechanics (Master)
 - **Boulder Pushing:** The player's character remains in their pushing position after pushing a boulder. The push is initiated by walking into the boulder from an adjacent tile.
 - **Dead End Area Definition:** An area is NOT a 'dead end' if there are reachable unvisited warps, Reachable Undiscovered Map Connections, OR the `Reachable Unseen Tiles` list for the current map contains entries. A room with multiple reachable, non-adjacent exits (warps/connections) is also NOT a dead end, even if all tiles have been seen. Adjacent warps are treated as a single exit for this calculation. (Corrected Turn 152613, Refined Turn 157367, Corrected again Turn 160895)
 - **Silph Co. Gates:** Locked gates ('closed_gate' tile type) can be opened by interacting with them while possessing the CARD KEY. Once opened, they become 'open_gate' tiles and are permanently traversable.
 - **Warp Mechanics (General):** Warps (teleporters, stairs, ladders, elevator pads) are instant. Stepping on the tile triggers the map change. To return, one must step off the warp tile and then back on.
 - **Off-Screen Gates:** Gates not currently visible on screen ('gate_offscreen' tile type) are treated as potentially open for pathfinding purposes to encourage exploration of alternate routes.
 - **Pikachu Walk-Through Mechanic:** Pikachu is the only NPC/Object that can be walked through. This is a key mechanic for certain puzzles. If not facing Pikachu, the first directional press turns the character, and the second moves onto the tile.
+- **Cuttable Trees:** These tiles block paths and can be removed by using the field move Cut from an adjacent tile. They typically respawn after a map change.
+- **Ledges:** These tiles allow one-way downward movement. A single 'Down' press from the tile above (Y-1) will cause the player to jump to the tile two spaces down (Y+2). They are impassable from all other directions.
+- **Tile Testing Protocol:** I must be more systematic about testing seemingly impassable tiles, especially in puzzle areas, to confirm they are not interactable or conditionally passable.
 
 # III. Battle Information
 
@@ -51,6 +62,7 @@
   - Ground -> Poison (Super Effective)
   - Ground -> Psychic (Super Effective)
   - Ground -> Rock/Ground (Super Effective)
+  - Ground -> Water/Ice (Effective)
   - Ice -> Psychic (Not Very Effective)
   - Ice -> Water (Not Very Effective)
   - Ice -> Ground (Super Effective)
@@ -144,15 +156,17 @@
 - **`navigation_troubleshooter` Agent Idea:** Create an agent that, when `find_path` fails, can analyze the map, the tool's diagnostic output (blocking objects), and the list of reachable warps to suggest alternative navigation strategies or intermediate waypoints to solve complex pathing puzzles like Silph Co.
 - **Advanced Notepad Editor Tool Idea:** Create a tool that can manipulate the notepad by section heading, allowing for more robust deletion and replacement than the current string-matching `replace` action.
 - **Puzzle Process Manager Agent Idea:** An agent to structure the scientific method of hypothesis testing for complex puzzles, guiding the player through observation, hypothesis, testing, and conclusion steps.
+- **`endurance_battle_advisor` Agent Idea:** Create an agent that analyzes prolonged battle scenarios, like a potential battle loop. It would weigh factors like remaining PP, team health, and potential opponent strategies to advise whether continuing the battle is more efficient than a strategic blackout to reset the encounter.
 
 ## C. Tool Limitations (Observed)
 - **`notepad_edit` `replace` Flaw:** The `replace` action cannot distinguish between two identical strings in the notepad. If a string appears multiple times, the tool fails to replace a specific instance, making it impossible to remove targeted duplicates. (Observed Turn 162963)
+- **`find_path` Tool (Cerulean City Anomaly):** The tool consistently fails to find long, complex paths in Cerulean City, even when a valid route exists. It also incorrectly treats defeated trainers as impassable obstacles. The current workaround is to break navigation into smaller segments using intermediate waypoints.
 
 ## D. Blocked Development
 - **`team_data_compiler` Tool (Blocked):** This tool cannot be implemented at this time. Its core function requires parsing opponent data from the notepad, but there is no current mechanism to pass the notepad's content as an input to a custom tool. Development is blocked pending a solution to this system limitation.
 - **`teleporter_mapper` Tool (Blocked):** This tool cannot be implemented. Its function requires persistent memory to build a graph of teleporter connections across multiple turns. The current tool execution environment is stateless and does not support this. Development is blocked pending a system update that allows for persistent tool state.
 
-# V. Key Event Log
+# V. Key Event & Puzzle Log
 
 ## A. Route 24 Cave
 - **Hypothesis:** The cave north of Cerulean City on Route 24, previously blocked, would open after becoming Champion.
@@ -160,45 +174,12 @@
 - **Outcome:** Movement was blocked. The tile is marked as 'impassable' and is not registered as a warp in the map data.
 - **Conclusion:** Hypothesis denied. The cave is currently inaccessible. This lead is a dead end.
 
-## B. Self-Correction Log (Post-Critique)
-- **Agent Trust Failure (Misty Rematch):** I repeatedly ignored my `master_battle_agent`'s correct advice to switch out CRAG due to a 4x weakness. My insistence on a high-risk gamble over the agent's safe, logical play led to wasted turns and the loss of REVENANT. I must adhere to my documented rule to trust my agents, especially regarding mandatory defensive actions.
-- **Dead End Validation Failure:** I incorrectly reported `is_in_dead_end_area` as `false` for Cerulean Gym (Turn 161793). The area has only one exit warp group and no other explorable paths, making it a dead end according to my own documented definition. **Correction:** I must be more rigorous in applying my documented rules during validation checks, especially for complex definitions like 'dead end'.
-- **System Feedback vs. Tool Output Discrepancy:** The Overwatch critique repeatedly insisted an incorrect map marker existed at (4, 12) on Silph Co. 3F. However, my `delete_map_marker` tool failed three consecutive times, reporting 'No markers found'. This confirms the tool's output was correct and the critique was based on faulty data. **Lesson:** While system feedback is a high-priority source of truth, it is not infallible. Verified, repeated tool output can be trusted to override a system critique if a direct contradiction is proven.
-- **System Feedback vs. Internal Logic Discrepancy:** The Overwatch critique flagged my 'dead_end' validation for the Silph Co. Elevator (ID 236) as incorrect (Turn 162505), stating the area was not a dead end. However, the area has only a single exit (a 2x1 warp group) and no other explorable paths, which meets my documented definition of a dead end. This confirms my internal logic was correct and the system's validation was flawed.
-
-# VI. Puzzle Solving Log
-
-## A. Silph Co. Elevator (SOLVED)
+## B. Silph Co. Elevator (SOLVED)
 - **Observation:** The elevator panel brings up a floor selection menu, but confirming a selection does not immediately cause travel. There are warp pads at the bottom of the elevator room.
 - **Hypothesis:** The elevator is a two-step process. Step 1: Use the panel to select the destination floor. Step 2: Step on the warp pads (and press Down) to travel to the selected floor.
 - **Testing:** This hypothesis was tested by selecting floors 11F, 10F, and 9F on the panel, then moving to the warp pad at (3, 4) and pressing Down.
 - **Result:** In all cases, the warp successfully transported the player to the selected floor.
 - **Conclusion:** Hypothesis confirmed. The Silph Co. elevator requires both panel selection and warp pad activation to function.
 
-## B. Tile & System Mechanics (Verified)
-- **Cuttable Trees:** These tiles block paths and can be removed by using the field move Cut from an adjacent tile. They typically respawn after a map change.
-- **Ledges:** These tiles allow one-way downward movement. A single 'Down' press from the tile above (Y-1) will cause the player to jump to the tile two spaces down (Y+2). They are impassable from all other directions.
-- **Tile Testing Protocol:** I must be more systematic about testing seemingly impassable tiles, especially in puzzle areas, to confirm they are not interactable or conditionally passable.
-
-## D. Tool Limitations (Observed)
-- **`find_path` Tool (Cerulean City Anomaly):** The tool consistently fails to find long, complex paths in Cerulean City, even when a valid route exists. It also incorrectly treats defeated trainers as impassable obstacles. The current workaround is to break navigation into smaller segments using intermediate waypoints.
-
-# VII. Self-Correction Log (Post-Critique 2)
-- **Failure to Consult Documentation:** I became stuck in the Cerulean backyard puzzle for over 20 turns because I failed to consult my own instructions, which explicitly state that Pikachu is a walkable object. This led to a repetitive and inefficient loop of failed hypotheses. **Correction:** I must make it a mandatory step to review my documented mechanics in the notepad when encountering a puzzle or roadblock before resorting to brute-force attempts or agent calls.
-- **Tool Maintenance Negligence:** My `find_path` tool repeatedly failed in the isolated Cerulean backyard, but I did not attempt to debug or refine it. Instead, I fell back on unreliable manual pathing. **Correction:** A failing tool must be addressed immediately. I will prioritize adding diagnostic logging to `find_path` to understand why it fails in disconnected map segments. This is a higher priority than immediate exploration.
-- **Inconsistent Agent Trust:** I have demonstrated a pattern of asking my `puzzle_solver_agent` for advice but then failing to test its hypotheses thoroughly, instead reverting to my own flawed strategies. **Correction:** When I commit to an agent's hypothesis, I must see it through completely. If it fails, I must immediately refine the agent with the new information, rather than looping on my own failed ideas.
-  - Ground -> Water/Ice (Effective)
-
-# VIII. Self-Assessment (Turn 163131)
-- **Key Failure:** I violated the immediate action mandate by deferring the fix for the failing `find_path` tool for dozens of turns while stuck in the Cerulean backyard. This was caused by confirmation bias, as I incorrectly assumed the tool was wrong rather than questioning if my navigation goal was reachable.
-- **Lesson Learned:** A failing tool must be fixed immediately. If a pathfinding tool reports no path, the first assumption must be that the destination is genuinely unreachable, and this assumption must be tested before attempting to debug the tool.
-- **New Tool Idea:** A 'full sequence party switcher' tool could improve efficiency, but the current one-step `get_next_switch_press` is safer due to the cursor anomaly.
-- **`endurance_battle_advisor` Agent Idea:** Create an agent that analyzes prolonged battle scenarios, like a potential battle loop. It would weigh factors like remaining PP, team health, and potential opponent strategies to advise whether continuing the battle is more efficient than a strategic blackout to reset the encounter.
-
-# IX. Cerulean City Post-Champion Events
-
-## A. Misty Rematch & Battle Loop (SOLVED)
-- **Trigger:** After becoming Champion and solving the Trashed House backyard puzzle, interacting with Misty in the Cerulean Gym triggers a full-strength rematch.
-- **Battle Loop Anomaly:** After defeating Misty, she immediately re-initiates the battle, creating a loop. This happened twice.
-- **Solution:** When presented with the post-battle rematch prompt ('Ready for a rematch at my full strength?'), selecting 'NO' successfully broke the battle loop and allowed for normal progression.
-- **Conclusion:** The rematch is a repeatable event, but can be exited by declining the subsequent challenge. This is a key mechanic to avoid getting stuck.
+## C. Cerulean City Post-Champion Events
+- **Misty Rematch & Battle Loop (SOLVED):** Trigger: After becoming Champion and solving the Trashed House backyard puzzle, interacting with Misty in the Cerulean Gym triggers a full-strength rematch. Battle Loop Anomaly: After defeating Misty, she immediately re-initiates the battle, creating a loop. This happened twice. Solution: When presented with the post-battle rematch prompt ('Ready for a rematch at my full strength?'), selecting 'NO' successfully broke the battle loop and allowed for normal progression. Conclusion: The rematch is a repeatable event, but can be exited by declining the subsequent challenge. This is a key mechanic to avoid getting stuck.
