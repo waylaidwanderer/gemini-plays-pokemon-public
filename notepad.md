@@ -171,3 +171,10 @@
 - **Testing:** This hypothesis was tested by selecting floors 11F, 10F, and 9F on the panel, then moving to the warp pad at (3, 4) and pressing Down.
 - **Result:** In all cases, the warp successfully transported the player to the selected floor.
 - **Conclusion:** Hypothesis confirmed. The Silph Co. elevator requires both panel selection and warp pad activation to function.
+
+## B. Tile & System Mechanics (Verified)
+- **Cuttable Trees:** These tiles block paths and can be removed by using the field move Cut from an adjacent tile. They typically respawn after a map change.
+- **Ledges:** These tiles allow one-way downward movement. A single 'Down' press from the tile above (Y-1) will cause the player to jump to the tile two spaces down (Y+2). They are impassable from all other directions.
+
+## D. Tool Limitations (Observed)
+- **`find_path` Tool (Cerulean City Anomaly):** The tool consistently fails to find long, complex paths in Cerulean City, even when a valid route exists. It also incorrectly treats defeated trainers as impassable obstacles. The current workaround is to break navigation into smaller segments using intermediate waypoints.
