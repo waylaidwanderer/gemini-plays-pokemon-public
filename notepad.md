@@ -186,6 +186,3 @@
 ## C. Self-Assessment (Turn 161884)
 - **Agent Opportunity:** The process of depositing and withdrawing multiple Pokémon is tedious. An agent could be created to plan the entire sequence of PC actions required to achieve a target team composition.
 - **Tool Opportunity:** A more modular approach to PC navigation is needed. Instead of one tool that does everything, I should create smaller tools like `pc_deposit_pokemon` and a general `menu_navigator` that can handle any list-based menu. This would be more robust against interruptions.
-  - Ice -> Water/Psychic (Not Very Effective)
-- STARMIE (Lv 65) - Known Moves: THUNDERBOLT
-- **`menu_navigator` Agent/Tool Idea:** Create a higher-level agent or tool to manage the sequence of single-step menu navigation tool calls (`get_next_switch_press`, `get_next_move_press`). This would take a target item/Pokemon/move as input and automatically call the necessary sub-tools until the cursor reaches the target, making menu navigation fully automated and more efficient.
