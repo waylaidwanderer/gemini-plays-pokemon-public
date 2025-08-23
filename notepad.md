@@ -23,6 +23,10 @@
 - **Forced Sleep-Induced Switch:** The game forces a switch immediately after a Pokémon is put to sleep by an opponent's move, similar to when a Pokémon faints. (Observed Turn 150625)
 - **Indigo Plateau Auto-Heal:** Blacking out during the Elite Four challenge and respawning at the Indigo Plateau entrance automatically heals the entire party. (Observed Turn 149617)
 - **'No will to fight!' Message:** This message appears when attempting to switch to a Pokémon that has already fainted. It is a cursor position error in the party menu, not an indication of a Pokémon's level or willingness to battle. (Corrected Turn 152732)
+- **Untested Assumption Log:**
+  - **Hypothesis:** Defeating all trainers on Routes 12-15 will unlock a story event or clear a path (e.g., to the Power Plant).
+  - **Test:** Systematically defeat every remaining trainer on these routes.
+  - **Conclusion:** If no new paths or events unlock after all trainers are defeated, this hypothesis is denied, and a new exploration strategy will be required.
 
 ## B. Tile & System Mechanics (Master)
 - **Object Impassability (General Rule):** All objects (NPCs, items, signs) are impassable walls. Interaction must happen from an adjacent tile. Defeated trainers often remain as impassable obstacles.
@@ -152,6 +156,7 @@
 - **`battle_screen_parser` Tool Created (Turn 161671):** Developed to automate the extraction of key battle data from screen text. This streamlines the input process for the `master_battle_agent`, improving battle efficiency.
 
 ## B. Development Ideas
+- **`find_closest_target` Tool Idea:** Create a tool that takes the player's current coordinates and a list of target coordinates as input, then returns the coordinates of the target that is the shortest Manhattan distance away. This would automate the process of selecting the next closest trainer to battle.
 - **`puzzle_solver` Tool Idea:** Create a tool that takes the current map state (`map_xml_string`) and a list of failed hypotheses as input. It would then generate a ranked list of new, logical hypotheses to test for solving complex environmental puzzles.
 - **`ai_move_predictor` Agent Idea:** Create an agent that takes the opponent's known moves, my active Pokémon, and my full party as input to predict the most likely move the AI will use.
 - **`multi_team_synergy_analyzer` Agent Idea:** Create an agent that takes my full PC box and party as input and suggests multiple viable team compositions (not just one) for various challenges, explaining the synergies and strategies for each.
