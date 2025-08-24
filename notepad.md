@@ -206,12 +206,11 @@
 - **Misty Rematch & Battle Loop (SOLVED):** Trigger: After becoming Champion and solving the Trashed House backyard puzzle, interacting with Misty in the Cerulean Gym triggers a full-strength rematch. Battle Loop Anomaly: After defeating Misty, she immediately re-initiates the battle, creating a loop. This happened twice. Solution: When presented with the post-battle rematch prompt ('Ready for a rematch at my full strength?'), selecting 'NO' successfully broke the battle loop and allowed for normal progression. Conclusion: The rematch is a repeatable event, but can be exited by declining the subsequent challenge. This is a key mechanic to avoid getting stuck.
 
 ## D. Seafoam Islands Boulder Puzzle (B3F)
-- **Hypothesis:** Pushing the boulders on B3F into the adjacent holes will stop the strong water current on B4F.
-- **Testing Plan:** 
-  1. Push the first boulder at (4, 16) into the hole at (4, 17).
-  2. Travel to B4F and observe the water current at (8, 12).
-  3. If the current is stopped, the hypothesis is confirmed. If not, return to B3F.
-  4. Repeat the process for the remaining boulders at (6, 15), (9, 15), and (10, 15), checking the current after each successful push to see if a single boulder is the key, or if all are required.
+- **Hypothesis (Attempt 1):** Pushing the first boulder at (4, 16) into the hole at (4, 17) will stop the strong water current on B4F.
+- **Test:** Traveled to B4F and attempted to Surf at the current at (8, 12).
+- **Outcome:** The current was still 'much too fast!'.
+- **Conclusion:** Hypothesis denied. A single boulder is not enough.
+- **New Plan:** Return to B3F and systematically push the remaining boulders at (6, 15), (9, 15), and (10, 15) into their adjacent holes, testing the current after each one.
 
 ## E. Map Marker Discipline (Immediate Action Mandate)
 - The first action after ANY interaction (battle, dialogue, item pickup) concludes MUST be to call `define_map_marker`. This is a non-negotiable, highest-priority task. Deferring this action is a critical failure. Data management supersedes all gameplay objectives.
