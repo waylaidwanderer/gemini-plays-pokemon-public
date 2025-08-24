@@ -223,3 +223,4 @@
 
 ## B. Tool Development Prioritization
 - **Priority 1: `boulder_puzzle_solver` Tool:** The Seafoam Islands puzzle highlights the need for this tool. It should take the map XML as input, identify all boulders, holes, and switches, and output the optimal sequence of player movements and boulder pushes to solve the puzzle. This will automate a complex, multi-step reasoning process.
+- **Object Swapping (Pikachu Puzzle):** A specific puzzle object (Pikachu in Seafoam Islands) does not follow standard pushing mechanics. Instead of being pushed one tile away, it swaps places with the player when the player moves onto its tile. This is a unique interaction that must be considered for similar puzzles.
