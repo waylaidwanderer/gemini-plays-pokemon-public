@@ -232,3 +232,7 @@
 - **Route 15 Checklist:**
   - [ ] Trainers to be identified.
 - **Current Status:** Routes 12, 13, and 14 are clear. Proceeding to Route 15.
+- **Elevated Ground:** Walkable ground at a different elevation. Can only be accessed from `steps` tiles, other `elevated_ground` tiles, or warps. Direct movement between `ground` and `elevated_ground` is impossible.
+- **Steps:** The only tile type that allows movement between `ground` and `elevated_ground`.
+- **Hole:** A tile that acts as a one-way warp to the floor below. Often used in boulder puzzles.
+- **Ladder Down:** A warp tile that leads to a lower floor.
