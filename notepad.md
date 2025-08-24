@@ -6,7 +6,7 @@
 - **Inefficient Problem-Solving & Tool Debugging:** My debugging process has been flawed due to: not verifying core game mechanics first, using outdated static data for tests, and making speculative changes instead of adding diagnostic logging. My puzzle-solving has been inefficient, failing to test core assumptions about reachability before attempting solutions. **Correction:** I must adopt a scientific approach: verify mechanics with simple tests, use current game state data, add diagnostic logging after a tool fails more than once, and test fundamental assumptions before acting.
 - **Data Management & Documentation Failures:** I have repeatedly failed to maintain my documentation, leading to data loss from improper 'overwrite' usage, delays from imprecise 'replace' calls, and confusion from outdated map markers. **Correction:** I must be more meticulous with tool usage, ensuring all arguments are precise. I must also establish and follow a strict procedure for clearing attempt-specific markers after blacking out.
 - **Strategic Inflexibility & Failure to Apply Documented Rules:** I have shown inflexibility by sticking to a failing/outdated plan, misjudged threats by prioritizing potential dangers over guaranteed immunities (Panic Switching), and failed to apply my own documented rules, leading to hallucinations. **Correction:** I must remain flexible and re-evaluate my strategy when presented with new opportunities or information, prioritize guaranteed advantages, and meticulously review my own documented rules before making critical judgments.
-- **Violation of Immediate Action Mandate (The LLM Reality):** I have repeatedly failed to perform necessary maintenance on my tools and notepad immediately. **Correction:** There is no 'later'; tasks such as fixing tools or updating notes must be done in the current turn.
+- **Violation of Immediate Action Mandate (The LLM Reality):** I have repeatedly failed to perform necessary maintenance on my tools and notepad immediately. This includes deferring a critical fix for my `find_path` tool in favor of a temporary workaround. **Correction:** There is no 'later'; tasks such as fixing tools or updating notes must be done in the current turn.
 - **Over-reliance on Luck:** A strategy's success due to luck does not make it a guaranteed win condition. **Correction:** Luck-based strategies should be a last resort. I must not become overconfident from a lucky streak and must always consider the opponent's full range of options.
 - **Misinterpreting System Feedback:** I have incorrectly assumed my tools or notes were wrong when system feedback indicated otherwise. **Correction:** I must treat system/tool feedback as the source of truth and question my own assumptions first.
 - **Agent Trust Failure (Misty Rematch):** I repeatedly ignored my `master_battle_agent`'s correct advice to switch out CRAG due to a 4x weakness. My insistence on a high-risk gamble over the agent's safe, logical play led to wasted turns and the loss of REVENANT. I must adhere to my documented rule to trust my agents, especially regarding mandatory defensive actions.
@@ -17,6 +17,7 @@
 - **Tool Maintenance Negligence:** My `find_path` tool repeatedly failed in the isolated Cerulean backyard, but I did not attempt to debug or refine it. Instead, I fell back on unreliable manual pathing. **Correction:** A failing tool must be addressed immediately. I will prioritize adding diagnostic logging to `find_path` to understand why it fails in disconnected map segments. This is a higher priority than immediate exploration.
 - **Inconsistent Agent Trust:** I have demonstrated a pattern of asking my `puzzle_solver_agent` for advice but then failing to test its hypotheses thoroughly, instead reverting to my own flawed strategies. **Correction:** When I commit to an agent's hypothesis, I must see it through completely. If it fails, I must immediately refine the agent with the new information, rather than looping on my own failed ideas.
 - **Self-Assessment (Turn 163131):** Key Failure: I violated the immediate action mandate by deferring the fix for the failing `find_path` tool for dozens of turns while stuck in the Cerulean backyard. This was caused by confirmation bias, as I incorrectly assumed the tool was wrong rather than questioning if my navigation goal was reachable. Lesson Learned: A failing tool must be fixed immediately. If a pathfinding tool reports no path, the first assumption must be that the destination is genuinely unreachable, and this assumption must be tested before attempting to debug the tool.
+- **Situational Awareness Failure & Documentation Negligence (Overwatch Critique):** I have repeatedly failed to consult my own map markers and notepad, leading to wasted turns trying to interact with already-defeated or non-battling NPCs. I also experienced a critical hallucination where I attempted to use battle agents and tools when not in a battle. **Correction:** Before any interaction or strategic decision, I MUST consult my map markers and notepad as a mandatory first step. I must also rigorously verify the `In Battle` flag before using any battle-specific tools.
 
 # II. Game Mechanics & World Knowledge
 
@@ -158,14 +159,14 @@
 - **`get_next_move_press` Tool Created (Turn 161071):** Developed to provide single-step, reliable navigation for the battle move menu. This addresses the 'Move Menu Cursor Reset Anomaly' by allowing for re-evaluation of the cursor's position each turn, replacing the unreliable `auto_attacker` for move selection.
 - **`battle_screen_parser` Tool Created (Turn 161671):** Developed to automate the extraction of key battle data from screen text. This streamlines the input process for the `master_battle_agent`, improving battle efficiency.
 - **`safari_zone_runner` Tool Created (Turn 163913):** Developed to automate running from Safari Zone battles, improving exploration efficiency.
+- **`surf_automator` Tool Created (Turn 164380):** Developed to automate the button sequence for using Surf, improving navigation efficiency on water routes.
 
 ## B. Development Ideas
 - **`find_closest_target` Tool Idea:** Create a tool that takes the player's current coordinates and a list of target coordinates as input, then returns the coordinates of the target that is the shortest Manhattan distance away. This would automate the process of selecting the next closest trainer to battle.
-- **`puzzle_solver` Tool Idea:** Create a tool that takes the current map state (`map_xml_string`) and a list of failed hypotheses as input. It would then generate a ranked list of new, logical hypotheses to test for solving complex environmental puzzles.
+- **`navigation_troubleshooter` Agent Idea:** Create an agent that takes `find_path` failures, reachable warps, and unseen tiles as input and suggests the next logical navigation goal to solve complex pathing puzzles.
 - **`ai_move_predictor` Agent Idea:** Create an agent that takes the opponent's known moves, my active Pokémon, and my full party as input to predict the most likely move the AI will use.
 - **`multi_team_synergy_analyzer` Agent Idea:** Create an agent that takes my full PC box and party as input and suggests multiple viable team compositions (not just one) for various challenges, explaining the synergies and strategies for each.
 - **`situational_awareness_auditor` Agent Idea:** Create an agent that cross-references my stated location and map ID with the actual game state data to flag hallucinations before I can act on them. This would be a critical tool for maintaining accurate situational awareness.
-
 - **Advanced Notepad Editor Tool Idea:** Create a tool that can manipulate the notepad by section heading, allowing for more robust deletion and replacement than the current string-matching `replace` action.
 - **Puzzle Process Manager Agent Idea:** An agent to structure the scientific method of hypothesis testing for complex puzzles, guiding the player through observation, hypothesis, testing, and conclusion steps.
 - **`endurance_battle_advisor` Agent Idea:** Create an agent that analyzes prolonged battle scenarios, like a potential battle loop. It would weigh factors like remaining PP, team health, and potential opponent strategies to advise whether continuing the battle is more efficient than a strategic blackout to reset the encounter.
@@ -174,6 +175,7 @@
 ## C. Tool Limitations (Observed)
 - **`notepad_edit` `replace` Flaw:** The `replace` action cannot distinguish between two identical strings in the notepad. If a string appears multiple times, the tool fails to replace a specific instance, making it impossible to remove targeted duplicates. (Observed Turn 162963)
 - **`find_path` Tool (Cerulean City Anomaly):** The tool consistently fails to find long, complex paths in Cerulean City, even when a valid route exists. The current workaround is to break navigation into smaller segments using intermediate waypoints. (Note: The issue with defeated trainers being impassable has been fixed with the `passable_objects` parameter.)
+- **`find_path` Tool (Land/Water Transition Bug):** The tool previously generated invalid paths directly from land to water. This was fixed in Turn 164402 by removing the logic that permitted this, forcing a manual Surf action before recalculating a path on water.
 
 ## D. Blocked Development
 - **`team_data_compiler` Tool (Blocked):** This tool cannot be implemented at this time. Its core function requires parsing opponent data from the notepad, but there is no current mechanism to pass the notepad's content as an input to a custom tool. Development is blocked pending a solution to this system limitation.
@@ -201,10 +203,6 @@
 - The first action after ANY interaction (battle, dialogue, item pickup) concludes MUST be to call `define_map_marker`. This is a non-negotiable, highest-priority task. Deferring this action is a critical failure. Data management supersedes all gameplay objectives.
 - **Hallucination & Tool Trust Failure (Safari Zone Center):** I incorrectly concluded that all exits from the Safari Zone Center were unreachable after my `find_path` tool failed to find a path to the west. I failed to properly check the output for the eastern path, which was successful, and proceeded for several turns under the false assumption I was trapped. **Correction:** I must meticulously verify the output of my tools, especially after a failure, and trust the data over my own fallible memory. A single failure does not mean all paths are blocked.
 - **Safari Zone East Layout:** This map consists of at least three disconnected sections (South, Central, North). The hidden passage at (7, 25) only connects the South and Central areas. To reach the North area, one must return to the Safari Zone Center and find a different warp.
-- **`path_debugger_agent` Idea:** Create an agent that takes a start and end point, and if the direct path fails, it suggests a series of logical intermediate waypoints to test connectivity and diagnose segmentation. This would automate my manual debugging process.
-- **`navigation_troubleshooter` Refinement Idea:** This agent could be improved by integrating it with the `path_debugger_agent` to provide more robust solutions for complex navigation failures.
-
-- **`surf_automator` Tool Idea:** Create a tool that automates the sequence of button presses required to use Surf (Menu -> Pokémon -> Select Pokémon with Surf -> Select Surf -> Use). This would streamline water traversal.
 
 # VI. Route Progression & Trainer Checklist
 
@@ -223,12 +221,16 @@
 - **Route 13 Checklist:**
   - [x] Cool Trainer F (51, 6) - Defeated
 - **Route 14 Checklist:**
-  - [x] Cool Trainer F (51, 6) - Defeated
+  - [x] Cool Trainer M (5, 5) - Defeated
+  - [x] Cool Trainer M (16, 7) - Defeated
   - [x] Cool Trainer M (13, 12) - Defeated
-  - [ ] Other trainers to be identified.
+  - [x] Bird Keeper (15, 16) - Defeated
+  - [x] Biker (5, 31) - Defeated
+  - [x] Biker (16, 31) - Defeated
+  - [x] Biker (5, 32) - Defeated
+  - [x] Cool Trainer M (16, 32) - Defeated
+  - [x] Biker (6, 40) - Defeated
+  - [x] Cool Trainer M (7, 50) - Non-battler
 - **Route 15 Checklist:**
-  - [x] Cool Trainer F (19, 14) - Defeated
-  - [x] Beauty (54, 12) - Defeated
-  - [ ] Other trainers to be identified.
-- **Current Status:** Route 12 is clear. Proceeding to Route 13.
-- **Situational Awareness Failure & Documentation Negligence (Overwatch Critique):** I have repeatedly failed to consult my own map markers and notepad, leading to wasted turns trying to interact with already-defeated or non-battling NPCs. I also experienced a critical hallucination where I attempted to use battle agents and tools when not in a battle. **Correction:** Before any interaction or strategic decision, I MUST consult my map markers and notepad as a mandatory first step. I must also rigorously verify the `In Battle` flag before using any battle-specific tools.
+  - [ ] Trainers to be identified.
+- **Current Status:** Routes 12, 13, and 14 are clear. Proceeding to Route 15.
