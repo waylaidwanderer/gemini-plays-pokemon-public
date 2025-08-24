@@ -210,3 +210,7 @@
 - **Outcome:** The current was still 'much too fast!'.
 - **Conclusion:** Hypothesis denied. A single boulder is not enough.
 - **New Plan:** Return to B3F and systematically push the remaining boulders at (6, 15), (9, 15), and (10, 15) into their adjacent holes, testing the current after each one.
+
+## B. Development Ideas
+- **`navigation_troubleshooter` Agent Idea:** Create an agent that takes `find_path` failures, reachable warps, and unseen tiles as input and suggests the next logical navigation goal to solve complex pathing puzzles.
+- **`puzzle_solver_agent` Agent Idea:** An agent to structure the scientific method of hypothesis testing for complex puzzles, guiding the player through observation, hypothesis, testing, and conclusion steps.
