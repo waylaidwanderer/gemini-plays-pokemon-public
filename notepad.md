@@ -164,8 +164,15 @@
 - **`battle_screen_parser` Tool Created (Turn 161671):** Developed to automate the extraction of key battle data from screen text. This streamlines the input process for the `master_battle_agent`, improving battle efficiency.
 - **`surf_automator` Tool Created (Turn 164380):** Developed to automate the button sequence for using Surf, improving navigation efficiency on water routes.
 
-## B. Development Ideas
-- **`boulder_puzzle_solver` Tool Idea:** Create a tool that can analyze the map XML for a boulder puzzle and output the optimal sequence of player movements and boulder pushes to solve it. This would automate the complex, multi-step reasoning required for these puzzles.
+## B. Development Ideas & Testing Plans
+- **`boulder_puzzle_solver` Tool Idea:** The Seafoam Islands puzzle highlights the need for this tool. It should take the map XML as input, identify all boulders, holes, and switches, and output the optimal sequence of player movements and boulder pushes to solve the puzzle. This will automate a complex, multi-step reasoning process.
+- **Seafoam Islands Puzzle Testing Plan:**
+  - **Untested Assumption 1:** NPC Kris at (8, 3) on B4F has a clue about the puzzle.
+    - **Test:** Talk to Kris.
+  - **Untested Assumption 2:** Pushing all remaining boulders on B3F into the holes will stop the strong water current on B4F.
+    - **Test:** After gaining access to the B3F boulders, push one into a hole. Travel to B4F and check the current at (8, 12). Repeat for each boulder, documenting the result.
+  - **Untested Assumption 3:** The unseen tiles in the top-left of B4F are reachable from the main puzzle area.
+    - **Test:** After the boulder puzzle is resolved, use `find_path` to plot a course to a tile in that region, like (1, 1).
 - **`find_closest_target` Tool Idea:** Create a tool that takes the player's current coordinates and a list of target coordinates as input, then returns the coordinates of the target that is the shortest Manhattan distance away. This would automate the process of selecting the next closest trainer to battle.
 - **`navigation_troubleshooter` Agent Idea:** Create an agent that takes `find_path` failures, reachable warps, and unseen tiles as input and suggests the next logical navigation goal to solve complex pathing puzzles.
 - **`ai_move_predictor` Agent Idea:** Create an agent that takes the opponent's known moves, my active Pokémon, and my full party as input to predict the most likely move the AI will use.
@@ -210,14 +217,3 @@
 - **Outcome:** The current was still 'much too fast!'.
 - **Conclusion:** Hypothesis denied. A single boulder is not enough.
 - **New Plan:** Return to B3F and systematically push the remaining boulders at (6, 15), (9, 15), and (10, 15) into their adjacent holes, testing the current after each one.
-
-# VI. Active Investigations & Testing Plans
-
-## A. Seafoam Islands Puzzle
-- **Untested Assumption 1:** NPC Kris at (8, 3) on B4F has a clue about the puzzle.
-  - **Test:** Talk to Kris.
-- **Untested Assumption 2:** Pushing all remaining boulders on B3F into the holes will stop the strong water current on B4F.
-  - **Test:** After gaining access to the B3F boulders, push one into a hole. Travel to B4F and check the current at (8, 12). Repeat for each boulder, documenting the result.
-- **Untested Assumption 3:** The unseen tiles in the top-left of B4F are reachable from the main puzzle area.
-  - **Test:** After the boulder puzzle is resolved, use `find_path` to plot a course to a tile in that region, like (1, 1).
-- **Object Swapping (Pikachu Puzzle):** A specific puzzle object (Pikachu in Seafoam Islands) does not follow standard pushing mechanics. Instead of being pushed one tile away, it swaps places with the player when the player moves onto its tile. This is a unique interaction that must be considered for similar puzzles.
