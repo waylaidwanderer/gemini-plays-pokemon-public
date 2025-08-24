@@ -236,3 +236,5 @@
   - [x] Cool Trainer M (7, 50) - Non-battler
 - **Route 15 Checklist:**
   - [ ] Trainers to be identified.
+- **`boulder_puzzle_solver` Agent Idea:** Create an agent that takes map layout, boulder positions, and hole/switch positions as input, then outputs an optimal sequence of pushes and movements to solve the puzzle. This would automate complex reasoning that `find_path` cannot handle.
+- **`teach_hm_automator` Tool Idea:** Create a tool that takes an HM and a Pokémon name as input and generates the full sequence of button presses to navigate the menus and teach the move, replacing a specified old move. This would automate a tedious and repetitive manual task.
