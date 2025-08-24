@@ -12,7 +12,7 @@
         "screen_text"
       ]
     },
-    "python_script": "import re\nimport json\n\ndef parse_battle_data(screen_text):\n    lines = screen_text.strip().split('\\n')\n    \n    opponent_data = {}\n    player_data = {}\n    \n    opponent_pattern = re.compile(r'^(.*?)\\nLV (\\d+)')\n    player_pattern = re.compile(r'^(.*?)\\nLV (\\d+)\\n(\\d+)/(\\d+)')\n\n    # Find opponent info\n    for i, line in enumerate(lines):\n        match = re.search(r'([A-Z\nR-Z\nS-Z.♀♂]+)\\nLV (\\d+)', screen_text)\n        if match:\n            opponent_data['name'] = match.group(1).strip()\n            opponent_data['level'] = int(match.group(2))\n            break\n\n    # Find player info\n    for i, line in enumerate(lines):\n        if 'Go!' in line: continue # Skip the initial call-out\n        match = re.search(r'([A-Z\nR-Z\nS-Z.♀♂]+)\\nLV (\\d+)\\n(\\d+)/(\\d+)', screen_text)\n        if match:\n            player_data['name'] = match.group(1).strip()\n            player_data['level'] = int(match.group(2))\n            player_data['current_hp'] = int(match.group(3))\n            player_data['max_hp'] = int(match.group(4))\n            break\n\n    result = {\n        \"opponent_pokemon\": opponent_data,\n        \"player_pokemon\": player_data\n    }\n    \n    return json.dumps(result)\n\nscreen_text_input = input_data['screen_text']\nresult_json = parse_battle_data(screen_text_input)\nprint(result_json)",
+    "python_script": "import re\nimport json\n\ndef parse_battle_screen(screen_text):\n    cleaned_text = screen_text.replace('\\n', ' ').replace(':', '')\n    \n    pattern = re.compile(\n        r\"(?P<opponent_name>[A-Z'’]+)\\s*\"\n        r\"LV\\s*(?P<opponent_level>\\d+)\\s*\"\n        r\"(?P<player_name>[A-Z'’]+)\\s*\"\n        r\"(?:LV\\s*\\d+\\s*)?\"\n        r\"(?P<player_current_hp>\\d+)/(?P<player_max_hp>\\d+)\"\n    )\n\n    match = pattern.search(cleaned_text)\n\n    if match:\n        data = match.groupdict()\n        \n        enemy_json = json.dumps({\n            \"name\": data['opponent_name'].upper(),\n            \"level\": int(data['opponent_level']),\n            \"hp_percentage\": 100\n        })\n        \n        player_json = json.dumps({\n            \"name\": data['player_name'].upper(),\n            \"current_hp\": int(data['player_current_hp']),\n            \"max_hp\": int(data['player_max_hp'])\n        })\n        \n        result = {\n            \"enemy_pokemon_json\": enemy_json,\n            \"player_active_pokemon_json\": player_json\n        }\n        print(json.dumps(result))\n    else:\n        print(json.dumps({\"error\": \"Failed to parse battle screen text\", \"input\": cleaned_text}))\n\nparse_battle_screen(input_data['screen_text'])",
     "history": [
       {
         "commit_message": "feat: Create battle_screen_parser tool to automate data entry. In response to an Overwatch critique identifying deferred development as a core violation, this tool automates the extraction of key battle data from screen text. This will streamline the input process for the `master_battle_agent`, improving battle efficiency and adhering to the immediate action directive.",
@@ -48,6 +48,11 @@
         "commit_message": "feat: Create battle_screen_parser tool to automate data entry. In response to an Overwatch critique identifying deferred development as a core violation, this tool automates the extraction of key battle data from screen text. This will streamline the input process for the `master_battle_agent`, improving battle efficiency and adhering to the immediate action directive.",
         "timestamp": "2025-08-24T17:44:18.351Z",
         "action_counter": 165368
+      },
+      {
+        "commit_message": "fix: Correct unterminated string literal in regex. The previous version of the tool was failing with a SyntaxError due to a malformed regex string. This commit refactors the script to clean the input text first and uses a properly formatted, more robust regex pattern to prevent this error and improve parsing reliability.",
+        "timestamp": "2025-08-24T19:43:09.042Z",
+        "action_counter": 165548
       }
     ]
   },
@@ -296,6 +301,16 @@
         "commit_message": "fix: Add boulder detection and improve error reporting. The pathfinder previously failed to recognize Boulder objects as impassable, leading to invalid path generation. This commit updates the traversal logic to correctly identify and avoid boulders. It also enhances the error reporting to provide specific details about blocking objects (e.g., 'Boulder', 'NPC name') upon path failure, as mandated by an Overwatch critique. This will prevent future pathing errors and improve diagnostic capabilities for puzzle-solving.",
         "timestamp": "2025-08-24T14:12:43.519Z",
         "action_counter": 165241
+      },
+      {
+        "commit_message": "feat: Add verbose diagnostic logging to A* loop. The tool is consistently failing to find paths on what appear to be simple, contiguous elevated platforms (e.g., Seafoam Islands B4F). This commit adds detailed print statements to the main A* search loop to trace the neighbor evaluation logic. This will provide the necessary data to diagnose the core logic failure and is a higher priority than any immediate navigation.",
+        "timestamp": "2025-08-24T19:37:43.043Z",
+        "action_counter": 165538
+      },
+      {
+        "commit_message": "refactor: Remove verbose diagnostic logging from A* loop. The diagnostic print statements, while useful for debugging, were causing the tool to time out or fail before returning a result on complex maps. This commit removes the logging to restore the tool's core functionality and ensure it can complete pathfinding calculations without interruption.",
+        "timestamp": "2025-08-24T19:40:22.609Z",
+        "action_counter": 165543
       }
     ]
   },
