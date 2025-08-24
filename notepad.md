@@ -183,8 +183,7 @@
 - **`find_path` Tool (Cerulean City Anomaly):** The tool consistently fails to find long, complex paths in Cerulean City, even when a valid route exists.  (Note: The issue with defeated trainers being impassable has been fixed with the `passable_objects` parameter.)
 
 ## D. Blocked Development
-- **`team_data_compiler` Tool (Blocked):** This tool cannot be implemented at this time. Its core function requires parsing opponent data from the notepad, but there is no current mechanism to pass the notepad's content as an input to a custom tool. Development is blocked pending a solution to this system limitation.
-- **`teleporter_mapper` Tool (Blocked):** This tool cannot be implemented. Its function requires persistent memory to build a graph of teleporter connections across multiple turns. The current tool execution environment is stateless and does not support this. Development is blocked pending a system update that allows for persistent tool state.
+- **teleporter_mapper` Tool (Blocked):** This tool cannot be implemented. Its function requires persistent memory to build a graph of teleporter connections across multiple turns. The current tool execution environment is stateless and does not support this. Development is blocked pending a system update that allows for persistent tool state.
 
 # V. Key Event & Puzzle Log
 
