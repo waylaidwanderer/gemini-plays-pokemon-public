@@ -158,7 +158,7 @@
 - **`pc_withdraw_pokemon` Tool Created (Turn 157056):** Developed to automate the process of selecting and withdrawing a specific Pokémon from the PC, improving team management efficiency.
 - **`get_next_move_press` Tool Created (Turn 161071):** Developed to provide single-step, reliable navigation for the battle move menu. This addresses the 'Move Menu Cursor Reset Anomaly' by allowing for re-evaluation of the cursor's position each turn, replacing the unreliable `auto_attacker` for move selection.
 - **`battle_screen_parser` Tool Created (Turn 161671):** Developed to automate the extraction of key battle data from screen text. This streamlines the input process for the `master_battle_agent`, improving battle efficiency.
-- **`safari_zone_runner` Tool Created (Turn 163913):** Developed to automate running from Safari Zone battles, improving exploration efficiency.
+
 - **`surf_automator` Tool Created (Turn 164380):** Developed to automate the button sequence for using Surf, improving navigation efficiency on water routes.
 
 ## B. Development Ideas
