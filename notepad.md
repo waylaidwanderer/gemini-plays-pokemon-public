@@ -29,8 +29,7 @@
   - **Status:** Abandoned. Focus shifted to Seafoam Islands.
 
 ## B. Tile & System Mechanics (Master)
-- **Object Impassability (General Rule):** All objects (NPCs, items, signs) are impassable walls. Interaction must happen from an adjacent tile.
-  - **Defeated Trainers:** Defeated trainers often remain as impassable obstacles after battle.
+- **Object Impassability:** All objects (NPCs, items, signs) are impassable walls, including defeated trainers. Interaction must happen from an adjacent tile.
 - **Pikachu Walk-Through (Exception):** Pikachu is the only NPC/Object that can be walked through. This is a key mechanic for certain puzzles. If not facing Pikachu, the first directional press turns the character, and the second moves onto the tile.
 - **Object Swapping (Pikachu Puzzle):** A specific puzzle object (Pikachu in Seafoam Islands) does not follow standard pushing mechanics. Instead of being pushed one tile away, it swaps places with the player when the player moves onto its tile. This is a unique interaction that must be considered for similar puzzles.
 - **Boulders:** Large rocks that can be pushed using the field move Strength. They are central to many environmental puzzles, often needing to be pushed into holes or onto switches.
