@@ -33,20 +33,22 @@
   - **Defeated Trainers:** Defeated trainers often remain as impassable obstacles after battle.
 - **Pikachu Walk-Through (Exception):** Pikachu is the only NPC/Object that can be walked through. This is a key mechanic for certain puzzles. If not facing Pikachu, the first directional press turns the character, and the second moves onto the tile.
 - **Object Swapping (Pikachu Puzzle):** A specific puzzle object (Pikachu in Seafoam Islands) does not follow standard pushing mechanics. Instead of being pushed one tile away, it swaps places with the player when the player moves onto its tile. This is a unique interaction that must be considered for similar puzzles.
+- **Boulders:** Large rocks that can be pushed using the field move Strength. They are central to many environmental puzzles, often needing to be pushed into holes or onto switches.
 - **Cuttable Trees:** These tiles block paths and can be removed by using the field move Cut from an adjacent tile. They typically respawn after a map change.
 - **Dead End Area Definition (Revised):** A map is considered a 'dead end area' if it has only one reachable exit group (warps/connections) in total. A system validation check (Turn 165127) confirmed that Seafoam Islands 1F is NOT a dead end because it has three reachable exit groups, even though they are in disconnected segments and not all are accessible from the player's current position. This means 'reachable' in the system's context refers to reachability from *anywhere* on the map, not just the player's current position. My personal validation must align with this broader definition.
+- **Elevated Ground:** Walkable ground at a different elevation. Can only be accessed from `steps` tiles, other `elevated_ground` tiles, or warps. Direct movement between `ground` and `elevated_ground` is impossible.
 - **Grass:** Standard tall grass where wild Pokémon encounters can occur. Walkable like 'ground'.
+- **HM Forgetability:** HMs can be forgotten. (Confirmed by Scientist on Route 15 Gatehouse 2F)
+- **Hole:** A tile that acts as a one-way warp to the floor below. Often used in boulder puzzles.
+- **Ladder Down:** A warp tile that leads to a lower floor.
+- **Ladder Up:** A warp tile that leads to a higher floor.
 - **Ledges:** These tiles allow one-way downward movement. A single 'Down' press from the tile above (Y-1) will cause the player to jump to the tile two spaces down (Y+2). They are impassable from all other directions.
 - **Off-Screen Gates:** Gates not currently visible on screen ('gate_offscreen' tile type) are treated as potentially open for pathfinding purposes to encourage exploration of alternate routes.
 - **Silph Co. Gates:** Locked gates ('closed_gate' tile type) can be opened by interacting with them while possessing the CARD KEY. Once opened, they become 'open_gate' tiles and are permanently traversable.
+- **Steps:** The only tile type that allows movement between `ground` and `elevated_ground`.
+- **Tile Testing Protocol:** I must be more systematic about testing seemingly impassable tiles, especially in puzzle areas, to confirm they are not interactable or conditionally passable.
 - **Warp Mechanics (General):** Warps (teleporters, stairs, ladders, elevator pads) are instant. Stepping on the tile triggers the map change. To return, one must step off the warp tile and then back on.
 - **Water:** Crossable only by using the field move Surf. Requires standing on an adjacent land tile and using the move from the party menu.
-- **Tile Testing Protocol:** I must be more systematic about testing seemingly impassable tiles, especially in puzzle areas, to confirm they are not interactable or conditionally passable.
-- **HM Forgetability:** HMs can be forgotten. (Confirmed by Scientist on Route 15 Gatehouse 2F)
-- **Elevated Ground:** Walkable ground at a different elevation. Can only be accessed from `steps` tiles, other `elevated_ground` tiles, or warps. Direct movement between `ground` and `elevated_ground` is impossible.
-- **Steps:** The only tile type that allows movement between `ground` and `elevated_ground`.
-- **Hole:** A tile that acts as a one-way warp to the floor below. Often used in boulder puzzles.
-- **Ladder Down:** A warp tile that leads to a lower floor.
 
 # III. Battle Information
 
@@ -164,6 +166,7 @@
 - **`surf_automator` Tool Created (Turn 164380):** Developed to automate the button sequence for using Surf, improving navigation efficiency on water routes.
 
 ## B. Development Ideas
+- **`boulder_puzzle_solver` Tool Idea:** Create a tool that can analyze the map XML for a boulder puzzle and output the optimal sequence of player movements and boulder pushes to solve it. This would automate the complex, multi-step reasoning required for these puzzles.
 - **`find_closest_target` Tool Idea:** Create a tool that takes the player's current coordinates and a list of target coordinates as input, then returns the coordinates of the target that is the shortest Manhattan distance away. This would automate the process of selecting the next closest trainer to battle.
 - **`navigation_troubleshooter` Agent Idea:** Create an agent that takes `find_path` failures, reachable warps, and unseen tiles as input and suggests the next logical navigation goal to solve complex pathing puzzles.
 - **`ai_move_predictor` Agent Idea:** Create an agent that takes the opponent's known moves, my active Pokémon, and my full party as input to predict the most likely move the AI will use.
@@ -202,7 +205,15 @@
 ## C. Cerulean City Post-Champion Events
 - **Misty Rematch & Battle Loop (SOLVED):** Trigger: After becoming Champion and solving the Trashed House backyard puzzle, interacting with Misty in the Cerulean Gym triggers a full-strength rematch. Battle Loop Anomaly: After defeating Misty, she immediately re-initiates the battle, creating a loop. This happened twice. Solution: When presented with the post-battle rematch prompt ('Ready for a rematch at my full strength?'), selecting 'NO' successfully broke the battle loop and allowed for normal progression. Conclusion: The rematch is a repeatable event, but can be exited by declining the subsequent challenge. This is a key mechanic to avoid getting stuck.
 
-## D. Map Marker Discipline (Immediate Action Mandate)
+## D. Seafoam Islands Boulder Puzzle (B3F)
+- **Hypothesis:** Pushing the boulders on B3F into the adjacent holes will stop the strong water current on B4F.
+- **Testing Plan:** 
+  1. Push the first boulder at (4, 16) into the hole at (4, 17).
+  2. Travel to B4F and observe the water current at (8, 12).
+  3. If the current is stopped, the hypothesis is confirmed. If not, return to B3F.
+  4. Repeat the process for the remaining boulders at (6, 15), (9, 15), and (10, 15), checking the current after each successful push to see if a single boulder is the key, or if all are required.
+
+## E. Map Marker Discipline (Immediate Action Mandate)
 - The first action after ANY interaction (battle, dialogue, item pickup) concludes MUST be to call `define_map_marker`. This is a non-negotiable, highest-priority task. Deferring this action is a critical failure. Data management supersedes all gameplay objectives.
 - **Hallucination & Tool Trust Failure (Safari Zone Center):** I incorrectly concluded that all exits from the Safari Zone Center were unreachable after my `find_path` tool failed to find a path to the west. I failed to properly check the output for the eastern path, which was successful, and proceeded for several turns under the false assumption I was trapped. **Correction:** I must meticulously verify the output of my tools, especially after a failure, and trust the data over my own fallible memory. A single failure does not mean all paths are blocked.
 - **Safari Zone East Layout:** This map consists of at least three disconnected sections (South, Central, North). The hidden passage at (7, 25) only connects the South and Central areas. To reach the North area, one must return to the Safari Zone Center and find a different warp.
@@ -211,7 +222,4 @@
 - **Data Management & Documentation Failures:** I have repeatedly failed to maintain my documentation, leading to data loss from improper 'overwrite' usage, delays from imprecise 'replace' calls, and confusion from outdated map markers. (Observed Turn 165317, wasted turn on failed `replace`)
 - **Agent Data Input Failure (Critical):** My `master_battle_agent` failed repeatedly due to a service error, which Overwatch identified as being caused by my own malformed JSON input. I provided incorrect max PP data, a direct violation of data hygiene principles. **Correction:** I must meticulously verify that all manually constructed data for agent calls is a perfect and accurate reflection of the Game State source of truth before execution.
 - **Wasted Turn & Situational Awareness Failure:** I wasted a turn (165317) attempting to edit a notepad entry that I had already successfully corrected in a previous turn. This demonstrates a failure to review my own most recent actions and maintain situational awareness. **Correction:** I must be more diligent in tracking my own state and actions to avoid redundant and wasteful turns.
-- **Ladder Up:** A warp tile that leads to a higher floor.
-- **`menu_navigator_agent` Idea:** Create an agent that can intelligently navigate complex, multi-level in-game menus by taking a high-level goal (e.g., 'Use Surf with NEPTUNE') and the current menu state as input, then outputting the precise sequence of button presses.
-- **`menu_navigator` Tool Idea:** Create a deterministic tool that takes a list of menu options, the current cursor position, and a target option as input, then calculates the most efficient sequence of 'Up'/'Down' presses to reach the target. This would automate simple, linear menu navigation.
 - **Agent Trust & Hypothesis Testing Failure:** I incorrectly abandoned my `puzzle_solver_agent` after its first hypothesis failed. A failed hypothesis is not a failed agent; it is new data that should be used to generate a *new*, more informed hypothesis. **Correction:** When an agent's hypothesis fails, my immediate next step must be to call the agent again, providing the failed hypothesis and its outcome as input. I must not revert to my own manual problem-solving until the agent-led process has been exhausted through iterative refinement.
