@@ -163,7 +163,7 @@
 - **`surf_automator` Tool Created (Turn 164380):** Developed to automate the button sequence for using Surf, improving navigation efficiency on water routes.
 
 ## B. Development Ideas & Testing Plans
-- **`boulder_puzzle_solver` Tool Idea:** The Seafoam Islands puzzle highlights the need for this tool. It should take the map XML as input, identify all boulders, holes, and switches, and output the optimal sequence of player movements and boulder pushes to solve the puzzle. This will automate a complex, multi-step reasoning process.
+- **`boulder_puzzle_solver` Tool (High Priority):** The Seafoam Islands puzzle highlights the need for this tool. It should take the map XML as input, identify all boulders, holes, and switches. The tool must then use a search algorithm (like Breadth-First Search on states) to find the optimal sequence of player movements and boulder pushes required to solve the puzzle (e.g., move all boulders into holes). The state representation should include the player's position and the position of every boulder. This will automate a complex, multi-step reasoning process that is currently being done manually and is prone to error.
 - **Seafoam Islands Puzzle Testing Plan:**
   - **Untested Assumption 1:** NPC Kris at (8, 3) on B4F has a clue about the puzzle.
     - **Test:** Talk to Kris.
