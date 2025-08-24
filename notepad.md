@@ -53,6 +53,7 @@
 - **Method:** During battles, especially against the Elite Four, prioritize using moves with uncertain effectiveness to gather data. Record all super-effective, not-very-effective, and immune interactions observed.
 - **Findings:**
   - Bug -> Poison (Not Very Effective)
+  - Electric -> Grass/Poison (Not Very Effective)
   - Electric -> Poison/Flying (Super Effective)
   - Electric -> Water (Super Effective)
   - Electric -> Water/Ice (Super Effective)
