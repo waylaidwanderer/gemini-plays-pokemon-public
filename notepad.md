@@ -170,6 +170,7 @@
 - **Puzzle Process Manager Agent Idea:** An agent to structure the scientific method of hypothesis testing for complex puzzles, guiding the player through observation, hypothesis, testing, and conclusion steps.
 - **`endurance_battle_advisor` Agent Idea:** Create an agent that analyzes prolonged battle scenarios, like a potential battle loop. It would weigh factors like remaining PP, team health, and potential opponent strategies to advise whether continuing the battle is more efficient than a strategic blackout to reset the encounter.
 - **`hidden_passage_finder` Agent Idea:** Create an agent that takes the coordinates of a bounded, isolated area as input and generates a systematic, efficient search pattern (a sequence of coordinates) to find a hidden passage. This would automate my current manual search process.
+- **`map_obstacle_detector` Tool Idea:** Create a tool that programmatically parses the map XML to identify the bounding boxes of contiguous, impassable landmasses. This would provide a structured, accurate summary of major obstacles that can be fed into the `waypoint_generator_agent`, allowing it to create more intelligent and valid high-level navigation plans, especially for complex water routes.
 
 ## C. Tool Limitations (Observed)
 - **`notepad_edit` `replace` Flaw:** The `replace` action cannot distinguish between two identical strings in the notepad. If a string appears multiple times, the tool fails to replace a specific instance, making it impossible to remove targeted duplicates. (Observed Turn 162963)
@@ -231,4 +232,3 @@
   - [x] Cool Trainer M (7, 50) - Non-battler
 - **Route 15 Checklist:**
   - [ ] Trainers to be identified.
-- **Current Status:** Routes 12, 13, and 14 are clear. Proceeding to Route 15.
