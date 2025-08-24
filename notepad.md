@@ -44,6 +44,10 @@
 - **Water:** Crossable only by using the field move Surf. Requires standing on an adjacent land tile and using the move from the party menu.
 - **Tile Testing Protocol:** I must be more systematic about testing seemingly impassable tiles, especially in puzzle areas, to confirm they are not interactable or conditionally passable.
 - **HM Forgetability:** HMs can be forgotten. (Confirmed by Scientist on Route 15 Gatehouse 2F)
+- **Elevated Ground:** Walkable ground at a different elevation. Can only be accessed from `steps` tiles, other `elevated_ground` tiles, or warps. Direct movement between `ground` and `elevated_ground` is impossible.
+- **Steps:** The only tile type that allows movement between `ground` and `elevated_ground`.
+- **Hole:** A tile that acts as a one-way warp to the floor below. Often used in boulder puzzles.
+- **Ladder Down:** A warp tile that leads to a lower floor.
 
 # III. Battle Information
 
