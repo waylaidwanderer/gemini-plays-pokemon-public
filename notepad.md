@@ -24,9 +24,6 @@
 - **Forced Sleep-Induced Switch:** The game forces a switch immediately after a Pokémon is put to sleep by an opponent's move, similar to when a Pokémon faints. (Observed Turn 150625)
 - **Indigo Plateau Auto-Heal:** Blacking out during the Elite Four challenge and respawning at the Indigo Plateau entrance automatically heals the entire party. (Observed Turn 149617)
 - **'No will to fight!' Message:** This message appears when attempting to switch to a Pokémon that has already fainted. It is a cursor position error in the party menu, not an indication of a Pokémon's level or willingness to battle. (Corrected Turn 152732)
-- **Archived Investigations:**
-  - **Hypothesis (Routes 12-15):** Defeating all trainers on Routes 12-15 will unlock a story event or clear a path (e.g., to the Power Plant).
-  - **Status:** Abandoned. Focus shifted to Seafoam Islands.
 
 ## B. Tile & System Mechanics (Master)
 - **Object Impassability:** All objects (NPCs, items, signs) are impassable walls, including defeated trainers. Interaction must happen from an adjacent tile.
@@ -164,6 +161,18 @@
 - **`get_next_move_press` Tool Created (Turn 161071):** Developed to provide single-step, reliable navigation for the battle move menu. This addresses the 'Move Menu Cursor Reset Anomaly' by allowing for re-evaluation of the cursor's position each turn, replacing the unreliable `auto_attacker` for move selection.
 - **`battle_screen_parser` Tool Created (Turn 161671):** Developed to automate the extraction of key battle data from screen text. This streamlines the input process for the `master_battle_agent`, improving battle efficiency.
 - **`surf_automator` Tool Created (Turn 164380):** Developed to automate the button sequence for using Surf, improving navigation efficiency on water routes.
+
+## B. Development Ideas & Testing Plans
+- **`boulder_puzzle_solver` Tool Idea:** The Seafoam Islands puzzle highlights the need for this tool. It should take the map XML as input, identify all boulders, holes, and switches, and output the optimal sequence of player movements and boulder pushes to solve the puzzle. This will automate a complex, multi-step reasoning process.
+- **Seafoam Islands Puzzle Testing Plan:**
+  - **Untested Assumption 1:** NPC Kris at (8, 3) on B4F has a clue about the puzzle.
+    - **Test:** Talk to Kris.
+  - **Untested Assumption 2:** Pushing all remaining boulders on B3F into the holes will stop the strong water current on B4F.
+    - **Test:** After gaining access to the B3F boulders, push one into a hole. Travel to B4F and check the current at (8, 12). Repeat for each boulder, documenting the result.
+  - **Untested Assumption 3:** The unseen tiles in the top-left of B4F are reachable from the main puzzle area.
+    - **Test:** After the boulder puzzle is resolved, use `find_path` to plot a course to a tile in that region, like (1, 1).
+- **`find_closest_target` Tool Idea:** Create a tool that takes the player's current coordinates and a list of target coordinates as input, then returns the coordinates of the target that is the shortest Manhattan distance away. This would automate the process of selecting the next closest trainer to battle.
+- **`navigation_troubleshooter` Agent Idea:** Create an agent that takes `find_path` failures, reachable warps, and unseen tiles as input and suggests the next logical navigation goal to solve complex pathing puzzles.
 - **`ai_move_predictor` Agent Idea:** Create an agent that takes the opponent's known moves, my active Pokémon, and my full party as input to predict the most likely move the AI will use.
 - **`multi_team_synergy_analyzer` Agent Idea:** Create an agent that takes my full PC box and party as input and suggests multiple viable team compositions (not just one) for various challenges, explaining the synergies and strategies for each.
 - **`situational_awareness_auditor` Agent Idea:** Create an agent that cross-references my stated location and map ID with the actual game state data to flag hallucinations before I can act on them. This would be a critical tool for maintaining accurate situational awareness.
