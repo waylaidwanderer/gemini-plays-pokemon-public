@@ -210,3 +210,16 @@
 - **Outcome:** The current was still 'much too fast!'.
 - **Conclusion:** Hypothesis denied. A single boulder is not enough.
 - **New Plan:** Return to B3F and systematically push the remaining boulders at (6, 15), (9, 15), and (10, 15) into their adjacent holes, testing the current after each one.
+
+# VI. Active Investigations & Testing Plans
+
+## A. Seafoam Islands Puzzle
+- **Untested Assumption 1:** NPC Kris at (8, 3) on B4F has a clue about the puzzle.
+  - **Test:** Talk to Kris.
+- **Untested Assumption 2:** Pushing all remaining boulders on B3F into the holes will stop the strong water current on B4F.
+  - **Test:** After gaining access to the B3F boulders, push one into a hole. Travel to B4F and check the current at (8, 12). Repeat for each boulder, documenting the result.
+- **Untested Assumption 3:** The unseen tiles in the top-left of B4F are reachable from the main puzzle area.
+  - **Test:** After the boulder puzzle is resolved, use `find_path` to plot a course to a tile in that region, like (1, 1).
+
+## B. Tool Development Prioritization
+- **Priority 1: `boulder_puzzle_solver` Tool:** The Seafoam Islands puzzle highlights the need for this tool. It should take the map XML as input, identify all boulders, holes, and switches, and output the optimal sequence of player movements and boulder pushes to solve the puzzle. This will automate a complex, multi-step reasoning process.
