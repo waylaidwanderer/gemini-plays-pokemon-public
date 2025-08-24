@@ -202,3 +202,4 @@
 
 - **Safari Zone East Layout:** This map consists of at least three disconnected sections (South, Central, North). The hidden passage at (7, 25) only connects the South and Central areas. To reach the North area, one must return to the Safari Zone Center and find a different warp.
 - **`safari_zone_runner` Tool Idea:** Create a tool to automate running from Safari Zone battles. It would take the current menu layout and cursor position as input and output the correct sequence of directional presses to select the 'RUN' option.
+- **`hidden_passage_finder` Agent Idea:** Create an agent that takes the coordinates of a bounded, isolated area as input and generates a systematic, efficient search pattern (a sequence of coordinates) to find a hidden passage. This would automate my current manual search process.
