@@ -215,3 +215,4 @@
 - **Outcome:** The current was still 'much too fast!'.
 - **Conclusion:** Hypothesis denied. A single boulder is not enough.
 - **New Plan:** Return to B3F and systematically push the remaining boulders at (6, 15), (9, 15), and (10, 15) into their adjacent holes, testing the current after each one.
+- **Boulder Pushing Anomaly:** The game's behavior for player movement after pushing a boulder appears inconsistent. Sometimes the player moves into the boulder's old space, and sometimes they remain stationary. My documented rule that the player always remains stationary is incorrect. This requires further observation to determine the exact mechanic.
