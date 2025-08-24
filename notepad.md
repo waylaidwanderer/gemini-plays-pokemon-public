@@ -234,3 +234,4 @@
 - **Route 15 Checklist:**
   - [ ] Trainers to be identified.
 - **Current Status:** Routes 12, 13, and 14 are clear. Proceeding to Route 15.
+- **Situational Awareness Failure & Documentation Negligence (Overwatch Critique):** I have repeatedly failed to consult my own map markers and notepad, leading to wasted turns trying to interact with already-defeated or non-battling NPCs. I also experienced a critical hallucination where I attempted to use battle agents and tools when not in a battle. **Correction:** Before any interaction or strategic decision, I MUST consult my map markers and notepad as a mandatory first step. I must also rigorously verify the `In Battle` flag before using any battle-specific tools.
