@@ -205,3 +205,19 @@
 - **`navigation_troubleshooter` Refinement Idea:** This agent could be improved by integrating it with the `path_debugger_agent` to provide more robust solutions for complex navigation failures.
 
 - **`surf_automator` Tool Idea:** Create a tool that automates the sequence of button presses required to use Surf (Menu -> Pokémon -> Select Pokémon with Surf -> Select Surf -> Use). This would streamline water traversal.
+
+# VI. Route Progression & Trainer Checklist
+
+## A. Routes 12-15 (Path to Power Plant)
+- **Objective:** Defeat all trainers to ensure clear passage.
+- **Route 12 Status:** All trainers either defeated or confirmed non-battlers.
+  - Fisher (15, 32): Confirmed non-battler.
+  - Fisher (6, 40): Confirmed non-battler.
+  - Cool Trainer M (12, 93): Defeated.
+  - Super Nerd (15, 77): Confirmed non-battler.
+  - Fisher (13, 41): Defeated.
+  - Fisher (10, 53): Defeated.
+  - Fisher (7, 88): Confirmed non-battler.
+  - Rocker (15, 75): Defeated.
+  - JR.TRAINER♂ (9, 93): Defeated.
+- **Next Step:** Proceed to Route 13.

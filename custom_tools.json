@@ -284,5 +284,34 @@
         "action_counter": 163913
       }
     ]
+  },
+  "surf_automator": {
+    "description": "Automates the sequence of button presses to use the Surf HM from the overworld. It takes the name of the Pokémon with Surf and the full party list to determine the correct number of 'Down' presses.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "surf_pokemon_name": {
+          "type": "string"
+        },
+        "party_pokemon_list": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "required": [
+        "surf_pokemon_name",
+        "party_pokemon_list"
+      ]
+    },
+    "python_script": "import json\n\nparty_list_str = input_data['party_pokemon_list']\nparty_list = json.loads(party_list_str)\nsurf_pokemon = input_data['surf_pokemon_name']\n\npresses = ['Start', 'A'] # Open menu, select POKEMON\n\ntry:\n    pokemon_index = party_list.index(surf_pokemon)\n    for _ in range(pokemon_index):\n        presses.append('Down')\n    presses.extend(['A', 'A']) # Select Pokemon, select SURF\n    print(json.dumps({'button_presses': presses}))\nexcept ValueError:\n    print(json.dumps({'error': f'Pokemon {surf_pokemon} not found in party.'}))",
+    "history": [
+      {
+        "commit_message": "feat: Create surf_automator tool to streamline water traversal. In response to a mandatory self-assessment identifying repetitive manual actions, this tool automates the button sequence for using Surf. This will improve navigation efficiency on water-heavy routes like the current Route 12.",
+        "timestamp": "2025-08-24T04:40:16.461Z",
+        "action_counter": 164380
+      }
+    ]
   }
 }
