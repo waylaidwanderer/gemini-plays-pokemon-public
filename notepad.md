@@ -210,14 +210,24 @@
 
 ## A. Routes 12-15 (Path to Power Plant)
 - **Objective:** Defeat all trainers to ensure clear passage.
-- **Route 12 Status:** All trainers either defeated or confirmed non-battlers.
-  - Fisher (15, 32): Confirmed non-battler.
-  - Fisher (6, 40): Confirmed non-battler.
-  - Cool Trainer M (12, 93): Defeated.
-  - Super Nerd (15, 77): Confirmed non-battler.
-  - Fisher (13, 41): Defeated.
-  - Fisher (10, 53): Defeated.
-  - Fisher (7, 88): Confirmed non-battler.
-  - Rocker (15, 75): Defeated.
-  - JR.TRAINER♂ (9, 93): Defeated.
-- **Next Step:** Proceed to Route 13.
+- **Route 12 Checklist:**
+  - [x] Fisher (15, 32) - Confirmed non-battler
+  - [x] Fisher (6, 40) - Confirmed non-battler
+  - [x] Cool Trainer M (12, 93) - Defeated
+  - [x] Super Nerd (15, 77) - Confirmed non-battler
+  - [x] Fisher (13, 41) - Defeated
+  - [x] Fisher (10, 53) - Defeated
+  - [x] Fisher (7, 88) - Confirmed non-battler
+  - [x] Rocker (15, 75) - Defeated
+  - [x] JR.TRAINER♂ (9, 93) - Defeated
+- **Route 13 Checklist:**
+  - [ ] Trainers to be identified.
+- **Route 14 Checklist:**
+  - [x] Cool Trainer F (51, 6) - Defeated
+  - [x] Cool Trainer M (13, 12) - Defeated
+  - [ ] Other trainers to be identified.
+- **Route 15 Checklist:**
+  - [x] Cool Trainer F (19, 14) - Defeated
+  - [x] Beauty (54, 12) - Defeated
+  - [ ] Other trainers to be identified.
+- **Current Status:** Route 12 is clear. Proceeding to Route 13.
