@@ -203,7 +203,5 @@
 - **Safari Zone East Layout:** This map consists of at least three disconnected sections (South, Central, North). The hidden passage at (7, 25) only connects the South and Central areas. To reach the North area, one must return to the Safari Zone Center and find a different warp.
 - **`path_debugger_agent` Idea:** Create an agent that takes a start and end point, and if the direct path fails, it suggests a series of logical intermediate waypoints to test connectivity and diagnose segmentation. This would automate my manual debugging process.
 - **`navigation_troubleshooter` Refinement Idea:** This agent could be improved by integrating it with the `path_debugger_agent` to provide more robust solutions for complex navigation failures.
-- **Elevated Ground:** Walkable ground at a different elevation. Can only be accessed from 'steps' tiles, other 'elevated_ground' tiles, or warps. Direct movement between 'ground' and 'elevated_ground' is impossible.
-- **Steps:** The only tile type that allows movement between 'ground' and 'elevated_ground'.
 
 - **`surf_automator` Tool Idea:** Create a tool that automates the sequence of button presses required to use Surf (Menu -> Pokémon -> Select Pokémon with Surf -> Select Surf -> Use). This would streamline water traversal.
