@@ -241,4 +241,3 @@
 - **`item_selector` Tool Idea:** Create a tool similar to `get_next_move_press` that navigates the item menu. It would take the full item list, the current selection, and the target item as input, then output the sequence of 'Up'/'Down' presses needed to select it. This would automate the tedious manual scrolling during battles, especially for catching Pokémon.
 - **Hole:** A tile that acts as a one-way warp to the floor below. Often used in boulder puzzles.
 - **Object Swapping (Pikachu Puzzle):** A specific puzzle object (Pikachu in Seafoam Islands) does not follow standard pushing mechanics. Instead of being pushed one tile away, it swaps places with the player when the player moves onto its tile. This is a unique interaction that must be considered for similar puzzles.
-- **Hole:** A tile that acts as a one-way warp to the floor below. Often used in puzzles. Jumping into one is irreversible from that side.
