@@ -234,3 +234,4 @@
 - **Route 15 Checklist:**
   - [ ] Trainers to be identified.
 - **Current Status:** Routes 12, 13, and 14 are clear. Proceeding to Route 15.
+- **`navigation_troubleshooter` Agent Idea:** Create an agent that takes `find_path` failures, reachable warps, and unseen tiles as input and suggests the next logical navigation goal to solve complex pathing puzzles.
