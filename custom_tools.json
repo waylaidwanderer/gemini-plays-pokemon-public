@@ -213,36 +213,6 @@
       }
     ]
   },
-  "get_next_switch_press": {
-    "description": "Calculates the single next directional press (Up or Down) required to move the cursor one step closer to a target Pokémon in the party menu. Designed for step-by-step execution to handle the 'Party Menu Cursor Anomaly'.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "party_pokemon_list": {
-          "type": "string"
-        },
-        "current_selection_name": {
-          "type": "string"
-        },
-        "target_name": {
-          "type": "string"
-        }
-      },
-      "required": [
-        "party_pokemon_list",
-        "current_selection_name",
-        "target_name"
-      ]
-    },
-    "python_script": "import json\nparty_list_str = input_data['party_pokemon_list']\ncurrent_selection = input_data['current_selection_name']\ntarget = input_data['target_name']\ntry:\n    party_list = json.loads(party_list_str)\nexcept json.JSONDecodeError:\n    cleaned_str = party_list_str.replace('[', '').replace(']', '').replace('\"', '')\n    party_list = [p.strip() for p in cleaned_str.split(',')]\n\nbutton_sequence = []\nif current_selection in party_list and target in party_list:\n    current_index = party_list.index(current_selection)\n    target_index = party_list.index(target)\n    if current_index < target_index:\n        button_sequence.append(\"Down\")\n    elif current_index > target_index:\n        button_sequence.append(\"Up\")\nprint(json.dumps(button_sequence))",
-    "history": [
-      {
-        "commit_message": "feat: Create get_next_switch_press tool to replace buggy auto_switcher. In response to an Overwatch critique, this commit replaces the unreliable `auto_switcher` with a new, single-step tool. This tool calculates only the next required directional press, making it robust against the 'Party Menu Cursor Anomaly' by allowing for re-evaluation of the cursor's position each turn. This is a critical fix to prevent future switch errors.",
-        "timestamp": "2025-08-22T05:54:01.769Z",
-        "action_counter": 160418
-      }
-    ]
-  },
   "get_next_move_press": {
     "description": "Calculates the single next directional press (Up or Down) required to move the cursor one step closer to a target move in the battle menu. Designed for step-by-step execution to handle move menu cursor anomalies.",
     "input_schema": {
