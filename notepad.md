@@ -24,10 +24,9 @@
 - **Forced Sleep-Induced Switch:** The game forces a switch immediately after a Pokémon is put to sleep by an opponent's move, similar to when a Pokémon faints. (Observed Turn 150625)
 - **Indigo Plateau Auto-Heal:** Blacking out during the Elite Four challenge and respawning at the Indigo Plateau entrance automatically heals the entire party. (Observed Turn 149617)
 - **'No will to fight!' Message:** This message appears when attempting to switch to a Pokémon that has already fainted. It is a cursor position error in the party menu, not an indication of a Pokémon's level or willingness to battle. (Corrected Turn 152732)
-- **Untested Assumption Log:**
-  - **Hypothesis:** Defeating all trainers on Routes 12-15 will unlock a story event or clear a path (e.g., to the Power Plant).
-  - **Test:** Systematically defeat every remaining trainer on these routes.
-  - **Conclusion:** If no new paths or events unlock after all trainers are defeated, this hypothesis is denied, and a new exploration strategy will be required.
+- **Archived Investigations:**
+  - **Hypothesis (Routes 12-15):** Defeating all trainers on Routes 12-15 will unlock a story event or clear a path (e.g., to the Power Plant).
+  - **Status:** Abandoned. Focus shifted to Seafoam Islands.
 
 ## B. Tile & System Mechanics (Master)
 - **Object Impassability (General Rule):** All objects (NPCs, items, signs) are impassable walls. Interaction must happen from an adjacent tile.
