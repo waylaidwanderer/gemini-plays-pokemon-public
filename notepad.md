@@ -158,7 +158,6 @@
 - **`pc_withdraw_pokemon` Tool Created (Turn 157056):** Developed to automate the process of selecting and withdrawing a specific Pokémon from the PC, improving team management efficiency.
 - **`get_next_move_press` Tool Created (Turn 161071):** Developed to provide single-step, reliable navigation for the battle move menu. This addresses the 'Move Menu Cursor Reset Anomaly' by allowing for re-evaluation of the cursor's position each turn, replacing the unreliable `auto_attacker` for move selection.
 - **`battle_screen_parser` Tool Created (Turn 161671):** Developed to automate the extraction of key battle data from screen text. This streamlines the input process for the `master_battle_agent`, improving battle efficiency.
-
 - **`surf_automator` Tool Created (Turn 164380):** Developed to automate the button sequence for using Surf, improving navigation efficiency on water routes.
 
 ## B. Development Ideas
@@ -175,7 +174,6 @@
 ## C. Tool Limitations (Observed)
 - **`notepad_edit` `replace` Flaw:** The `replace` action cannot distinguish between two identical strings in the notepad. If a string appears multiple times, the tool fails to replace a specific instance, making it impossible to remove targeted duplicates. (Observed Turn 162963)
 - **`find_path` Tool (Cerulean City Anomaly):** The tool consistently fails to find long, complex paths in Cerulean City, even when a valid route exists. The current workaround is to break navigation into smaller segments using intermediate waypoints. (Note: The issue with defeated trainers being impassable has been fixed with the `passable_objects` parameter.)
-- **`find_path` Tool (Land/Water Transition Bug):** The tool previously generated invalid paths directly from land to water. This was fixed in Turn 164402 by removing the logic that permitted this, forcing a manual Surf action before recalculating a path on water.
 
 ## D. Blocked Development
 - **`team_data_compiler` Tool (Blocked):** This tool cannot be implemented at this time. Its core function requires parsing opponent data from the notepad, but there is no current mechanism to pass the notepad's content as an input to a custom tool. Development is blocked pending a solution to this system limitation.
@@ -234,4 +232,3 @@
 - **Route 15 Checklist:**
   - [ ] Trainers to be identified.
 - **Current Status:** Routes 12, 13, and 14 are clear. Proceeding to Route 15.
-- **`navigation_troubleshooter` Agent Idea:** Create an agent that takes `find_path` failures, reachable warps, and unseen tiles as input and suggests the next logical navigation goal to solve complex pathing puzzles.
