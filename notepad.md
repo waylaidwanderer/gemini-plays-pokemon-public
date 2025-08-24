@@ -170,6 +170,7 @@
 - **Puzzle Process Manager Agent Idea:** An agent to structure the scientific method of hypothesis testing for complex puzzles, guiding the player through observation, hypothesis, testing, and conclusion steps.
 - **`endurance_battle_advisor` Agent Idea:** Create an agent that analyzes prolonged battle scenarios, like a potential battle loop. It would weigh factors like remaining PP, team health, and potential opponent strategies to advise whether continuing the battle is more efficient than a strategic blackout to reset the encounter.
 - **`hidden_passage_finder` Agent Idea:** Create an agent that takes the coordinates of a bounded, isolated area as input and generates a systematic, efficient search pattern (a sequence of coordinates) to find a hidden passage. This would automate my current manual search process.
+- **`waypoint_generator_agent` Agent Idea:** Create an agent that takes a complex, long-distance navigation goal and breaks it down into a series of smaller, intermediate waypoints. This would help the `find_path` tool succeed on large, open maps with obstacles by allowing it to solve a series of simpler paths instead of one complex one.
 
 ## C. Tool Limitations (Observed)
 - **`notepad_edit` `replace` Flaw:** The `replace` action cannot distinguish between two identical strings in the notepad. If a string appears multiple times, the tool fails to replace a specific instance, making it impossible to remove targeted duplicates. (Observed Turn 162963)
@@ -236,4 +237,3 @@
 - **Steps:** The only tile type that allows movement between `ground` and `elevated_ground`.
 - **Hole:** A tile that acts as a one-way warp to the floor below. Often used in boulder puzzles.
 - **Ladder Down:** A warp tile that leads to a lower floor.
-- **`waypoint_generator_agent` Agent Idea:** Create an agent that takes a complex, long-distance navigation goal and breaks it down into a series of smaller, intermediate waypoints. This would help the `find_path` tool succeed on large, open maps with obstacles by allowing it to solve a series of simpler paths instead of one complex one.
