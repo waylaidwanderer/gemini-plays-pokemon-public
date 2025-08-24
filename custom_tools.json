@@ -299,78 +299,18 @@
       }
     ]
   },
-  "surf_automator": {
-    "description": "Automates the sequence of button presses to use the Surf HM from the overworld. It takes the name of the Pokémon with Surf and the full party list to determine the correct number of 'Down' presses.",
+  "map_obstacle_detector": {
+    "description": "Parses the map XML to identify the bounding boxes of contiguous, impassable landmasses. This provides a structured summary of major obstacles for high-level navigation planning agents.",
     "input_schema": {
       "type": "object",
-      "properties": {
-        "surf_pokemon_name": {
-          "type": "string"
-        },
-        "party_pokemon_list": {
-          "type": "array",
-          "items": {
-            "type": "string"
-          }
-        }
-      },
-      "required": [
-        "surf_pokemon_name",
-        "party_pokemon_list"
-      ]
+      "properties": {}
     },
-    "python_script": "import json\n\nsurf_pokemon_name = input_data['surf_pokemon_name']\nparty_pokemon_list = json.loads(input_data['party_pokemon_list'])\n\ntry:\n    pokemon_index = party_pokemon_list.index(surf_pokemon_name)\nexcept ValueError:\n    print(json.dumps({'error': f'Pokemon {surf_pokemon_name} not found in party.'}))\nelse:\n    button_sequence = ['Start', 'Down', 'A']\n    for _ in range(pokemon_index):\n        button_sequence.append('Down')\n    button_sequence.extend(['A', 'A'])\n    print(json.dumps({'button_sequence': button_sequence}))",
+    "python_script": "import xml.etree.ElementTree as ET\nimport json\n\nroot = ET.fromstring(map_xml_string)\nwidth = int(root.get('width'))\nheight = int(root.get('height'))\ngrid = [['' for _ in range(width)] for _ in range(height)]\n\nfor row_elem in root.findall('Row'):\n    y = int(row_elem.get('id')) - 1\n    for tile_elem in row_elem.findall('Tile'):\n        x = int(tile_elem.get('id')) - 1\n        grid[y][x] = tile_elem.get('type')\n\nvisited = set()\nimpassable_land_types = {'impassable', 'ground', 'grass'}\nlandmasses = []\n\nfor y in range(height):\n    for x in range(width):\n        if grid[y][x] in impassable_land_types and (x, y) not in visited:\n            component = []\n            q = [(x, y)]\n            visited.add((x, y))\n            min_x, max_x = x, x\n            min_y, max_y = y, y\n\n            head = 0\n            while head < len(q):\n                cx, cy = q[head]\n                head += 1\n                component.append((cx, cy))\n                min_x = min(min_x, cx)\n                max_x = max(max_x, cx)\n                min_y = min(min_y, cy)\n                max_y = max(max_y, cy)\n\n                for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n                    nx, ny = cx + dx, cy + dy\n                    if 0 <= nx < width and 0 <= ny < height and grid[ny][nx] in impassable_land_types and (nx, ny) not in visited:\n                        visited.add((nx, ny))\n                        q.append((nx, ny))\n            \n            landmasses.append({'from_x': min_x + 1, 'from_y': min_y + 1, 'to_x': max_x + 1, 'to_y': max_y + 1})\n\nprint(json.dumps(landmasses))",
     "history": [
       {
-        "commit_message": "feat: Create surf_automator tool to streamline water traversal. In response to a mandatory self-assessment identifying repetitive manual actions, this tool automates the button sequence for using Surf. This will improve navigation efficiency on water-heavy routes like the current Route 12.",
-        "timestamp": "2025-08-24T04:40:16.461Z",
-        "action_counter": 164380
-      },
-      {
-        "commit_message": "feat: Create surf_automator tool to streamline water traversal. In response to a mandatory self-assessment identifying repetitive manual actions, this tool automates the button sequence for using Surf. This will improve navigation efficiency on water-heavy routes like the current Route 19.",
-        "timestamp": "2025-08-24T06:12:25.662Z",
-        "action_counter": 164537
-      }
-    ]
-  },
-  "find_closest_target": {
-    "description": "Finds the closest *reachable* undefeated trainer on the current map by checking for a valid path before calculating distance.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "player_x": {
-          "type": "string"
-        },
-        "player_y": {
-          "type": "string"
-        }
-      },
-      "required": [
-        "player_x",
-        "player_y"
-      ]
-    },
-    "python_script": "import xml.etree.ElementTree as ET\nimport json\nfrom collections import deque\n\ndef find_closest_reachable_trainer(player_x, player_y, map_xml_string):\n    root = ET.fromstring(map_xml_string)\n    width = int(root.get('width'))\n    height = int(root.get('height'))\n    grid = [['' for _ in range(width)] for _ in range(height)]\n    objects = {}\n    \n    for row_elem in root.findall('Row'):\n        y = int(row_elem.get('id')) - 1\n        for tile_elem in row_elem.findall('Tile'):\n            x = int(tile_elem.get('id')) - 1\n            grid[y][x] = tile_elem.get('type')\n            obj_elem = tile_elem.find('Object')\n            if obj_elem is not None:\n                obj_id_name = obj_elem.get('id-name', '')\n                objects[(x, y)] = {'name': obj_id_name}\n\n    traversable_tiles = {'ground', 'grass', 'cuttable', 'steps', 'elevated_ground', 'cleared_boulder_barrier', 'teleport', 'gate_offscreen', 'open_gate', 'water'}\n\n    def is_traversable(x, y):\n        if not (0 <= x < width and 0 <= y < height):\n            return False\n        if grid[y][x] not in traversable_tiles:\n            return False\n        if (x,y) in objects:\n             obj_info = objects.get((x,y), {})\n             if 'Pikachu' in obj_info.get('name', ''):\n                 return True\n             return False\n        return True\n\n    def bfs_find_path(start_node, end_node):\n        queue = deque([start_node])\n        visited = {start_node}\n        while queue:\n            current_x, current_y = queue.popleft()\n            if (current_x, current_y) == end_node:\n                return True\n            for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n                nx, ny = current_x + dx, current_y + dy\n                if is_traversable(nx, ny) and (nx, ny) not in visited:\n                    visited.add((nx, ny))\n                    queue.append((nx, ny))\n        return False\n\n    undefeated_trainers = []\n    for row_elem in root.findall('Row'):\n        for tile_elem in row_elem.findall('Tile'):\n            obj_elem = tile_elem.find('Object')\n            marker_elem = tile_elem.find('Marker')\n            is_ignored = False\n            if marker_elem is not None:\n                marker_text = marker_elem.text.lower()\n                if 'defeated' in marker_text or 'non-battling' in marker_text or 'un-battleable' in marker_text:\n                    is_ignored = True\n            \n            if obj_elem is not None and not is_ignored:\n                id_name = obj_elem.get('id-name', '')\n                trainer_keywords = ['Cool Trainer', 'Beauty', 'Biker', 'Bird Keeper', 'Rocker', 'Juggler', 'Tamer', 'Blackbelt', 'Hiker', 'Pokemaniac', 'Super Nerd', 'Jr. Trainer', 'Youngster', 'Lass', 'Swimmer']\n                if any(keyword in id_name for keyword in trainer_keywords):\n                    x = int(tile_elem.get('id'))\n                    y = int(row_elem.get('id'))\n                    undefeated_trainers.append({'x': x, 'y': y, 'name': id_name})\n\n    if not undefeated_trainers:\n        return json.dumps({'error': 'No undefeated trainers found on the map.'})\n\n    reachable_trainers = []\n    start_pos = (player_x - 1, player_y - 1)\n    for trainer in undefeated_trainers:\n        trainer_pos = (trainer['x'] - 1, trainer['y'] - 1)\n        for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n            adj_x, adj_y = trainer_pos[0] + dx, trainer_pos[1] + dy\n            if is_traversable(adj_x, adj_y):\n                if bfs_find_path(start_pos, (adj_x, adj_y)):\n                    reachable_trainers.append(trainer)\n                    break\n\n    if not reachable_trainers:\n        return json.dumps({'error': 'No reachable undefeated trainers found.'})\n\n    closest_trainer = None\n    min_distance = float('inf')\n    for trainer in reachable_trainers:\n        distance = abs(trainer['x'] - player_x) + abs(trainer['y'] - player_y)\n        if distance < min_distance:\n            min_distance = distance\n            closest_trainer = trainer\n\n    return json.dumps(closest_trainer)\n\nplayer_x = int(input_data['player_x'])\nplayer_y = int(input_data['player_y'])\n\nresult = find_closest_reachable_trainer(player_x, player_y, map_xml_string)\nprint(result)",
-    "history": [
-      {
-        "commit_message": "feat: Create find_closest_target tool. In response to a mandatory self-assessment identifying repetitive manual actions, this tool automates the process of finding the next available trainer to battle. This will improve efficiency when clearing routes.",
-        "timestamp": "2025-08-24T05:47:11.555Z",
-        "action_counter": 164486
-      },
-      {
-        "commit_message": "fix: Add BFS reachability check. The previous version only calculated Manhattan distance, leading it to suggest unreachable targets on segmented maps. This commit adds a breadth-first search to verify that a valid path exists from the player to an adjacent tile of a potential target before considering it. This ensures the tool only returns actionable targets.",
-        "timestamp": "2025-08-24T05:49:26.331Z",
-        "action_counter": 164491
-      },
-      {
-        "commit_message": "fix: Add 'water' to traversable tiles for BFS. The tool was failing on sea routes because the reachability check (BFS) did not consider 'water' a valid tile type. This commit adds 'water' to the list of traversable tiles, making the tool functional for aquatic exploration.",
-        "timestamp": "2025-08-24T06:17:27.400Z",
-        "action_counter": 164548
-      },
-      {
-        "commit_message": "fix: Exclude non-battling trainers from target list. The tool was incorrectly identifying trainers marked as 'non-battling' or 'un-battleable' as valid targets. This commit updates the logic to treat these markers as indicators that a trainer should be ignored, making the tool's output more accurate.",
-        "timestamp": "2025-08-24T06:22:51.802Z",
-        "action_counter": 164554
+        "commit_message": "feat: Create map_obstacle_detector tool. In response to an Overwatch critique, this tool formalizes the one-off script from turn 164661. It uses a BFS algorithm to identify contiguous impassable landmasses and reports their bounding boxes. This provides structured, accurate spatial data for high-level planning agents like `waypoint_generator_agent`, addressing a key failure point in its previous text-based reasoning.",
+        "timestamp": "2025-08-24T08:25:07.201Z",
+        "action_counter": 164706
       }
     ]
   }
