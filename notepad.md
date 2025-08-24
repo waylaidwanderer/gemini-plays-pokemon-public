@@ -157,6 +157,7 @@
 - **`pc_withdraw_pokemon` Tool Created (Turn 157056):** Developed to automate the process of selecting and withdrawing a specific Pokémon from the PC, improving team management efficiency.
 - **`get_next_move_press` Tool Created (Turn 161071):** Developed to provide single-step, reliable navigation for the battle move menu. This addresses the 'Move Menu Cursor Reset Anomaly' by allowing for re-evaluation of the cursor's position each turn, replacing the unreliable `auto_attacker` for move selection.
 - **`battle_screen_parser` Tool Created (Turn 161671):** Developed to automate the extraction of key battle data from screen text. This streamlines the input process for the `master_battle_agent`, improving battle efficiency.
+- **`safari_zone_runner` Tool Created (Turn 163913):** Developed to automate running from Safari Zone battles, improving exploration efficiency.
 
 ## B. Development Ideas
 - **`find_closest_target` Tool Idea:** Create a tool that takes the player's current coordinates and a list of target coordinates as input, then returns the coordinates of the target that is the shortest Manhattan distance away. This would automate the process of selecting the next closest trainer to battle.
@@ -168,6 +169,7 @@
 - **Advanced Notepad Editor Tool Idea:** Create a tool that can manipulate the notepad by section heading, allowing for more robust deletion and replacement than the current string-matching `replace` action.
 - **Puzzle Process Manager Agent Idea:** An agent to structure the scientific method of hypothesis testing for complex puzzles, guiding the player through observation, hypothesis, testing, and conclusion steps.
 - **`endurance_battle_advisor` Agent Idea:** Create an agent that analyzes prolonged battle scenarios, like a potential battle loop. It would weigh factors like remaining PP, team health, and potential opponent strategies to advise whether continuing the battle is more efficient than a strategic blackout to reset the encounter.
+- **`hidden_passage_finder` Agent Idea:** Create an agent that takes the coordinates of a bounded, isolated area as input and generates a systematic, efficient search pattern (a sequence of coordinates) to find a hidden passage. This would automate my current manual search process.
 
 ## C. Tool Limitations (Observed)
 - **`notepad_edit` `replace` Flaw:** The `replace` action cannot distinguish between two identical strings in the notepad. If a string appears multiple times, the tool fails to replace a specific instance, making it impossible to remove targeted duplicates. (Observed Turn 162963)
@@ -201,7 +203,3 @@
 - **`exit_finder` Tool/Agent Idea:** Create a tool or agent that systematically calls `find_path` to all reachable warps and map connections on the current map to quickly identify all valid exits from an area. This would prevent getting stuck due to confirmation bias.
 
 - **Safari Zone East Layout:** This map consists of at least three disconnected sections (South, Central, North). The hidden passage at (7, 25) only connects the South and Central areas. To reach the North area, one must return to the Safari Zone Center and find a different warp.
-- **`safari_zone_runner` Tool Idea:** Create a tool to automate running from Safari Zone battles. It would take the current menu layout and cursor position as input and output the correct sequence of directional presses to select the 'RUN' option.
-- **`hidden_passage_finder` Agent Idea:** Create an agent that takes the coordinates of a bounded, isolated area as input and generates a systematic, efficient search pattern (a sequence of coordinates) to find a hidden passage. This would automate my current manual search process.
-- **`hidden_passage_finder` Agent Idea:** Create an agent that takes the coordinates of a bounded, isolated area as input and generates a systematic, efficient search pattern (a sequence of coordinates) to find a hidden passage. This would automate my current manual search process.
-- **`hidden_passage_finder` Agent Idea:** Create an agent that takes the coordinates of a bounded, isolated area as input and generates a systematic, efficient search pattern (a sequence of coordinates) to find a hidden passage. This would automate my current manual search process.
