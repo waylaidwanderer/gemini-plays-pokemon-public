@@ -238,3 +238,4 @@
   - [ ] Trainers to be identified.
 - **`boulder_puzzle_solver` Agent Idea:** Create an agent that takes map layout, boulder positions, and hole/switch positions as input, then outputs an optimal sequence of pushes and movements to solve the puzzle. This would automate complex reasoning that `find_path` cannot handle.
 - **`teach_hm_automator` Tool Idea:** Create a tool that takes an HM and a Pokémon name as input and generates the full sequence of button presses to navigate the menus and teach the move, replacing a specified old move. This would automate a tedious and repetitive manual task.
+- **`item_selector` Tool Idea:** Create a tool similar to `get_next_move_press` that navigates the item menu. It would take the full item list, the current selection, and the target item as input, then output the sequence of 'Up'/'Down' presses needed to select it. This would automate the tedious manual scrolling during battles, especially for catching Pokémon.
