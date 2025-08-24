@@ -203,3 +203,4 @@
 - **`exit_finder` Tool/Agent Idea:** Create a tool or agent that systematically calls `find_path` to all reachable warps and map connections on the current map to quickly identify all valid exits from an area. This would prevent getting stuck due to confirmation bias.
 
 - **Safari Zone East Layout:** This map consists of at least three disconnected sections (South, Central, North). The hidden passage at (7, 25) only connects the South and Central areas. To reach the North area, one must return to the Safari Zone Center and find a different warp.
+- **`exit_finder` Tool/Agent Idea:** Create a tool or agent that systematically calls `find_path` to all reachable warps and map connections on the current map to quickly identify all valid exits from a segmented area. This would prevent getting stuck due to confirmation bias.
