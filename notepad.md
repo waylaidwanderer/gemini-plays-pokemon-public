@@ -236,3 +236,4 @@
 - **Steps:** The only tile type that allows movement between `ground` and `elevated_ground`.
 - **Hole:** A tile that acts as a one-way warp to the floor below. Often used in boulder puzzles.
 - **Ladder Down:** A warp tile that leads to a lower floor.
+- **`waypoint_generator_agent` Agent Idea:** Create an agent that takes a complex, long-distance navigation goal and breaks it down into a series of smaller, intermediate waypoints. This would help the `find_path` tool succeed on large, open maps with obstacles by allowing it to solve a series of simpler paths instead of one complex one.
