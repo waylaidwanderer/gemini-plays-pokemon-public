@@ -48,6 +48,7 @@
 - **Tile Testing Protocol:** I must be more systematic about testing seemingly impassable tiles, especially in puzzle areas, to confirm they are not interactable or conditionally passable.
 - **Warp Mechanics (General):** Warps (teleporters, stairs, ladders, elevator pads) are instant. Stepping on the tile triggers the map change. To return, one must step off the warp tile and then back on.
 - **Water:** Crossable only by using the field move Surf. Requires standing on an adjacent land tile and using the move from the party menu.
+- **Run from Battle Position Reset:** Running from a wild battle returns the player to the tile they were on immediately before the encounter was triggered. (Observed Turn 165898)
 
 # III. Battle Information
 
@@ -205,4 +206,3 @@
 - **Outcome:** The current was still 'much too fast!'.
 - **Conclusion:** Hypothesis denied. A single boulder is not enough.
 - **New Plan:** Return to B3F and systematically push the remaining boulders at (6, 15), (9, 15), and (10, 15) into their adjacent holes, testing the current after each one.
-- **Run from Battle Position Reset:** Running from a wild battle returns the player to the tile they were on immediately before the encounter was triggered. (Observed Turn 165898)
