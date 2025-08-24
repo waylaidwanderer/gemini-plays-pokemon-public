@@ -221,7 +221,7 @@
   - [x] Rocker (15, 75) - Defeated
   - [x] JR.TRAINER♂ (9, 93) - Defeated
 - **Route 13 Checklist:**
-  - [ ] Trainers to be identified.
+  - [x] Cool Trainer F (51, 6) - Defeated
 - **Route 14 Checklist:**
   - [x] Cool Trainer F (51, 6) - Defeated
   - [x] Cool Trainer M (13, 12) - Defeated
