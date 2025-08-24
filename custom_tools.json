@@ -273,34 +273,15 @@
       }
     ]
   },
-  "exit_finder": {
-    "description": "Systematically checks all warps on the current map to find valid, reachable exits using A* pathfinding. Returns a list of coordinates for all exits reachable from the player's current position.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "player_x": {
-          "type": "string"
-        },
-        "player_y": {
-          "type": "string"
-        }
-      },
-      "required": [
-        "player_x",
-        "player_y"
-      ]
-    },
-    "python_script": "import heapq\nimport json\nimport xml.etree.ElementTree as ET\n\ndef find_path_internal(start_coord, end_coord, width, height, grid, objects):\n    start = (start_coord['x'] - 1, start_coord['y'] - 1)\n    end = (end_coord['x'] - 1, end_coord['y'] - 1)\n    traversable_tiles = {'ground', 'grass', 'cuttable', 'steps', 'elevated_ground', 'cleared_boulder_barrier', 'teleport', 'gate_offscreen', 'open_gate'}\n\n    def is_traversable(x, y):\n        if not (0 <= x < width and 0 <= y < height): return False\n        if (x, y) in objects: return False\n        return grid[y][x] in traversable_tiles\n\n    if not is_traversable(end[0], end[1]): return None\n\n    open_set = []\n    heapq.heappush(open_set, (0, start))\n    came_from = {}\n    g_score = {start: 0}\n\n    while open_set:\n        _, current = heapq.heappop(open_set)\n        if current == end: return True\n\n        for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n            neighbor = (current[0] + dx, current[1] + dy)\n            if not is_traversable(neighbor[0], neighbor[1]): continue\n\n            tentative_g_score = g_score[current] + 1\n            if tentative_g_score < g_score.get(neighbor, float('inf')):\n                came_from[neighbor] = current\n                g_score[neighbor] = tentative_g_score\n                f_score = tentative_g_score + abs(neighbor[0] - end[0]) + abs(neighbor[1] - end[1])\n                heapq.heappush(open_set, (f_score, neighbor))\n    return None\n\nroot = ET.fromstring(map_xml_string)\nwidth = int(root.get('width'))\nheight = int(root.get('height'))\ngrid = [['' for _ in range(width)] for _ in range(height)]\nobjects = {}\nwarps = []\n\nfor r_idx, row_elem in enumerate(root.findall('Row')):\n    for t_idx, tile_elem in enumerate(row_elem.findall('Tile')):\n        grid[r_idx][t_idx] = tile_elem.get('type')\n        if tile_elem.find('Object') is not None and tile_elem.find('Object').get('id-name') != 'PIKACHU':\n            objects[(t_idx, r_idx)] = True\n        if tile_elem.find('Warp') is not None:\n            warps.append({'x': t_idx + 1, 'y': r_idx + 1})\n\nplayer_coord = {'x': int(input_data['player_x']), 'y': int(input_data['player_y'])}\nreachable_exits = []\nfor warp in warps:\n    if find_path_internal(player_coord, warp, width, height, grid, objects):\n        reachable_exits.append(warp)\n\nprint(json.dumps({\"reachable_exits\": reachable_exits}))",
+  "safari_zone_runner": {
+    "description": "Calculates the button presses needed to select the 'RUN' option in the Safari Zone battle menu from the default cursor position.",
+    "input_schema": {},
+    "python_script": "import json\nprint(json.dumps([\"Down\", \"Right\", \"A\"]))",
     "history": [
       {
-        "commit_message": "feat: Create exit_finder tool to prevent getting stuck. This tool systematically checks for all valid exits from a map by analyzing reachable warps. This automates a critical navigation check, addressing a recurring issue of incorrectly assuming an area is a dead end, as identified during self-assessment.",
-        "timestamp": "2025-08-23T22:28:17.309Z",
-        "action_counter": 163758
-      },
-      {
-        "commit_message": "refactor: Implement A* pathfinding to verify exit reachability. The previous version of the tool simply listed all warps on the map, regardless of whether they were actually reachable from the player's current position. This commit replaces that logic with a full A* pathfinding implementation to test the path to each warp individually. This addresses a critical flaw identified in an Overwatch critique and makes the tool's output reliable for navigation.",
-        "timestamp": "2025-08-23T22:37:52.283Z",
-        "action_counter": 163772
+        "commit_message": "feat: Create safari_zone_runner tool. In response to a mandatory self-assessment identifying a violation of the immediate action directive, this tool automates the repetitive task of running from Safari Zone battles. This will significantly improve efficiency during exploration.",
+        "timestamp": "2025-08-24T00:06:54.450Z",
+        "action_counter": 163913
       }
     ]
   }
