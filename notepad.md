@@ -211,3 +211,5 @@
 - **Deferred Data Management:** I failed to immediately correct a failed notepad update, instead continuing to navigate for over 10 turns. This is a direct violation of the immediate action mandate. (Self-correction from Turn 166772)
 - **Confirmation Bias (Boulder Puzzle):** I spent over 50 turns debugging the `boulder_puzzle_solver`'s code under the flawed assumption that I understood the puzzle's mechanics. I should have pivoted to questioning the mechanics and using my `puzzle_solver_agent` much earlier instead of trying to confirm my belief that it was a standard puzzle. (Self-correction from Turn 166772)
 - **Dead End Validation Failure (Seafoam B3F):** I incorrectly reported `is_in_dead_end_area` as `true` for Seafoam Islands B3F. The system confirmed there were 4 reachable exit groups, but I failed to correctly apply my own documented definition. **Correction:** I must be more careful and systematic when counting exit groups across the entire map before making a dead end determination.
+### Kris (Seafoam Islands B4F)
+  - SNORLAX (Lv 55) - Known Moves: Earthquake
