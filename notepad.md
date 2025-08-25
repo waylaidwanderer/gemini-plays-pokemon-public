@@ -233,3 +233,11 @@
     - **Test:** Once access to the eastern B3F area is gained, systematically push one boulder into a hole, travel to B4F, and test the current at (8, 12). Repeat for each remaining boulder, documenting the outcome.
   - **Assumption 3:** The NPC Kris at (8, 3) on B4F has a clue about the puzzle.
     - **Test:** Once the main area of B4F is accessible, the first action will be to speak with Kris.
+
+## F. Seafoam Islands Water Boulder Puzzle (B3F - In Progress)
+- **Observation:** Two boulders at (19,7) and (20,7) are in the water, blocking westward travel. Using Strength while surfing next to them does not push them, but rotates them in a linked fashion.
+- **Hypothesis 1:** An alternating push sequence (Right boulder, then Left boulder) will solve the puzzle.
+- **Testing (Completed):** Systematically pushed the boulders in an alternating sequence (R-L-R-L-R).
+- **Conclusion 1:** The R-L-R-L-R push sequence is a 5-step loop that returns the boulders to their original state and does not solve the puzzle. Hypothesis denied.
+- **Hypothesis 2:** A different push sequence, such as pushing the same boulder multiple times in a row (e.g., L-L or R-R), is required to break the loop and find a new state.
+- **Next Test:** From the current state (Left boulder facing Up, Right boulder facing Down), push the Left boulder again to test the L-L part of the sequence.
