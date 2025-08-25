@@ -12,7 +12,7 @@
         "screen_text"
       ]
     },
-    "python_script": "import re\nimport json\n\ndef parse_battle_screen(screen_text):\n    cleaned_text = screen_text.replace('\\n', ' ').replace(':', '')\n    \n    pattern = re.compile(\n        r\"(?P<opponent_name>[A-Z'’]+)\\s*\"\n        r\"LV\\s*(?P<opponent_level>\\d+)\\s*\"\n        r\"(?P<player_name>[A-Z'’]+)\\s*\"\n        r\"(?:LV\\s*\\d+\\s*)?\"\n        r\"(?P<player_current_hp>\\d+)/(?P<player_max_hp>\\d+)\"\n    )\n\n    match = pattern.search(cleaned_text)\n\n    if match:\n        data = match.groupdict()\n        \n        enemy_json = json.dumps({\n            \"name\": data['opponent_name'].upper(),\n            \"level\": int(data['opponent_level']),\n            \"hp_percentage\": 100\n        })\n        \n        player_json = json.dumps({\n            \"name\": data['player_name'].upper(),\n            \"current_hp\": int(data['player_current_hp']),\n            \"max_hp\": int(data['player_max_hp'])\n        })\n        \n        result = {\n            \"enemy_pokemon_json\": enemy_json,\n            \"player_active_pokemon_json\": player_json\n        }\n        print(json.dumps(result))\n    else:\n        print(json.dumps({\"error\": \"Failed to parse battle screen text\", \"input\": cleaned_text}))\n\nparse_battle_screen(input_data['screen_text'])",
+    "python_script": "import re\nimport json\n\ndef parse_battle_screen(screen_text):\n    cleaned_text = screen_text.replace('\\n', ' ').replace(':', '')\n    \n    pattern = re.compile(\n        r\"(?P<opponent_name>[A-Z'’]+)\\s*L(?P<opponent_level>\\d+).*?HP.*?(?P<player_name>[A-Z'’]+)\\s*L\\d+.*?HP.*?(?P<player_current_hp>\\d+)/(?P<player_max_hp>\\d+)\"\n    )\n\n    match = pattern.search(cleaned_text)\n\n    if match:\n        data = match.groupdict()\n        \n        enemy_json = json.dumps({\n            \"name\": data['opponent_name'].upper(),\n            \"level\": int(data['opponent_level']),\n            \"hp_percentage\": 100\n        })\n        \n        player_json = json.dumps({\n            \"name\": data['player_name'].upper(),\n            \"current_hp\": int(data['player_current_hp']),\n            \"max_hp\": int(data['player_max_hp'])\n        })\n        \n        result = {\n            \"enemy_pokemon_json\": enemy_json,\n            \"player_active_pokemon_json\": player_json\n        }\n        print(json.dumps(result))\n    else:\n        print(json.dumps({\"error\": \"Failed to parse battle screen text\", \"input\": cleaned_text}))\n\nparse_battle_screen(input_data['screen_text'])",
     "history": [
       {
         "commit_message": "feat: Create battle_screen_parser tool to automate data entry. In response to an Overwatch critique identifying deferred development as a core violation, this tool automates the extraction of key battle data from screen text. This will streamline the input process for the `master_battle_agent`, improving battle efficiency and adhering to the immediate action directive.",
@@ -53,6 +53,16 @@
         "commit_message": "fix: Correct unterminated string literal in regex. The previous version of the tool was failing with a SyntaxError due to a malformed regex string. This commit refactors the script to clean the input text first and uses a properly formatted, more robust regex pattern to prevent this error and improve parsing reliability.",
         "timestamp": "2025-08-24T19:43:09.042Z",
         "action_counter": 165548
+      },
+      {
+        "commit_message": "fix: Correct regex to handle ':L' level format. The previous version of the tool was failing because its regex expected 'LV' before the level number. This commit updates the regex to correctly parse the ':L##' format used in the game's battle screen, restoring the tool's functionality.",
+        "timestamp": "2025-08-25T15:37:03.937Z",
+        "action_counter": 166879
+      },
+      {
+        "commit_message": "fix: Improve regex to correctly identify player name. The previous regex was too greedy and incorrectly parsed 'HP' as the player's name. This commit makes the pattern more specific to correctly capture the player's actual name.",
+        "timestamp": "2025-08-25T15:53:39.785Z",
+        "action_counter": 166881
       }
     ]
   },
