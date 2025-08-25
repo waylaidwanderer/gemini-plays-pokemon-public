@@ -220,3 +220,6 @@
 - **`backup_battle_strategist` Agent Idea:** Create an agent with a simpler, more robust ruleset (e.g., always use the strongest STAB move) to act as a fallback when the `master_battle_agent` fails due to service errors.
 - **`get_next_pokemon_press` Tool Idea:** Create a tool similar to `move_selector` that calculates the button presses needed to navigate the party menu from a current Pokémon to a target Pokémon.
 - **Gengar AI (Hypnosis Priority):** The Gengar in Seafoam Islands B4F prioritizes using Hypnosis on any active, non-sleeping Pokémon, even if it has a type immunity to Gengar's STAB moves. It will then follow up with Dream Eater. This is its core strategy.
+- `navigation_troubleshooter` Agent Idea: Create an agent that takes `find_path` failures, reachable warps, and unseen tiles as input and suggests the next logical navigation goal to solve complex pathing puzzles.
+- `backup_battle_strategist` Agent Idea: Create an agent with a simpler, more robust ruleset (e.g., always use the strongest STAB move) to act as a fallback when the `master_battle_agent` fails due to service errors.
+- `interrupt_handler_navigator` Tool Idea: Create a tool that takes a final destination, generates a path, and automatically handles interruptions like wild battles by re-pathing to the destination once the interruption is resolved.
