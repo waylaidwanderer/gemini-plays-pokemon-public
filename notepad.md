@@ -154,17 +154,19 @@
 - **AI Prediction Failure (Confirmation Bias):** I have incorrectly assumed the opponent's AI would use a specific move to counter my current Pokémon, failing to predict that the AI would instead use the optimal move to counter my *switch-in*. (Observed Turn 147728, Lorelei's Lapras vs. CRAG). **Correction:** I must assume the AI will make the optimal play against my predicted action, not just react to the current board state.
 - **Agent Gamble Failure & AI Prediction:** The battle_strategist_agent correctly identified a high-risk, high-reward play by switching to CRAG, predicting Lapras would use its known move Thunderbolt. However, the opponent AI made the optimal counter-play by using Surf against the incoming CRAG, leading to a faint. This confirms that the AI is capable of predicting switches and choosing the best move to counter the incoming Pokémon, not just the one on the field. (Observed Turn 149533, Lorelei's Lapras vs. CRAG).
 - **Mixed Input Execution:** Tools that generate a sequence of mixed directional and action buttons (e.g., `auto_switcher`) are functioning correctly. The error was in my execution. I must execute the generated button presses one at a time, over multiple turns, to avoid system input truncation.
-- **Tool Creation Log:**
-  - `auto_switcher` (Turn 155341): Automates Pokémon switch sequences.
-  - `pc_withdraw_pokemon` (Turn 157056): Automates withdrawing a Pokémon from the PC.
-  - `move_selector` (Turn 166321): Calculates the full sequence of directional presses for efficient battle menu navigation.
-  - `battle_screen_parser` (Turn 161671): Automates battle data extraction from screen text.
-  - `surf_automator` (Turn 164380): Automates the button sequence for using Surf.
 - **Agent Creation Log:**
   - `master_battle_agent` (Turn 156589): Orchestrates battle analysis into a single call.
 
-## B. Development Ideas & Testing Plans
-- **`boulder_puzzle_solver` Tool (High Priority):** The Seafoam Islands puzzle highlights the need for this tool. It should take the map XML as input, identify all boulders, holes, and switches. The tool must then use a search algorithm (like Breadth-First Search on states) to find the optimal sequence of player movements and boulder pushes required to solve the puzzle (e.g., move all boulders into holes). The state representation should include the player's position and the position of every boulder. This will automate a complex, multi-step reasoning process that is currently being done manually and is prone to error.
+## B. Creation Log
+- **Tool Creation Log:**
+  - `auto_switcher` (Turn 155341): Automates Pokémon switch sequences.
+  - `pc_withdraw_pokemon` (Turn 157056): Automates withdrawing a Pokémon from the PC.
+  - `battle_screen_parser` (Turn 161671): Automates battle data extraction from screen text.
+  - `surf_automator` (Turn 164380): Automates the button sequence for using Surf.
+  - `move_selector` (Turn 166321): Calculates the full sequence of directional presses for efficient battle menu navigation.
+  - `boulder_puzzle_solver` (Turn 166499): Automates the solution-finding process for boulder puzzles. Abandoned on Turn 166521 due to persistent, unresolvable failures in its core logic after 6 refactoring attempts.
+
+## C. Development Ideas & Testing Plans
 - **`find_path_via_points` Tool Idea:** Create a tool that takes a start, end, and a list of intermediate 'via' points. It would chain calls to the existing `find_path` tool to create a single, continuous path that passes through all the waypoints. This would automate the manual, chunk-based navigation I am currently performing on complex routes like Route 20.
 - **`find_closest_target` Tool Idea:** Create a tool that takes the player's current coordinates and a list of target coordinates as input, then returns the coordinates of the target that is the shortest Manhattan distance away. This would automate the process of selecting the next closest trainer to battle.
 - **`navigation_troubleshooter` Agent Idea:** Create an agent that takes `find_path` failures, reachable warps, and unseen tiles as input and suggests the next logical navigation goal to solve complex pathing puzzles.
@@ -179,12 +181,12 @@
 - **`teach_hm_automator` Tool Idea:** Create a tool that takes an HM and a Pokémon name as input and generates the full sequence of button presses to navigate the menus and teach the move, replacing a specified old move. This would automate a tedious and repetitive manual task.
 - **`item_selector` Tool Idea:** Create a tool similar to `get_next_move_press` that navigates the item menu. It would take the full item list, the current selection, and the target item as input, then output the sequence of 'Up'/'Down' presses needed to select it. This would automate the tedious manual scrolling during battles, especially for catching Pokémon.
 
-## C. Tool Limitations (Observed)
+## D. Tool Limitations (Observed)
 - **`notepad_edit` `replace` Flaw:** The `replace` action cannot distinguish between two identical strings in the notepad. If a string appears multiple times, the tool fails to replace a specific instance, making it impossible to remove targeted duplicates. (Observed Turn 162963)
 - **`find_path` Tool (Correct Functionality Confirmed):** The tool previously appeared to fail in areas like Cerulean City and Seafoam Islands. However, diagnostic logging confirmed the tool was functioning correctly and accurately reporting that no path existed between disconnected map segments. This was a user assumption error, not a tool flaw.
 - **`map_obstacle_detector` Tool (Correct Functionality Confirmed):** The tool repeatedly failed to identify major landmasses on Route 20. After extensive debugging, I realized the tool was functioning correctly. It was identifying the islands as being connected to the impassable map border, thus classifying them as a single, large boundary component which my heuristic correctly filtered out. My assumption that the islands were isolated obstacles was the source of the error, not the tool's logic. (Self-correction Turn 166251)
 
-## D. Blocked Development
+## E. Blocked Development
 - **`teleporter_mapper` Tool (Blocked):** This tool cannot be implemented. Its function requires persistent memory to build a graph of teleporter connections across multiple turns. The current tool execution environment is stateless and does not support this. Development is blocked pending a system update that allows for persistent tool state.
 
 # V. Key Event & Puzzle Log
@@ -196,17 +198,11 @@
 
 ## B. Seafoam Islands Puzzle Log (B3F & B4F)
 - **Main Obstacle:** A strong water current on B4F at (8, 12) blocks progress. The presumed solution is a multi-step boulder puzzle on B3F.
-- **Water Boulder Puzzle (B3F - In Progress):**
+- **Water Boulder Puzzle (B3F - SOLVED):**
   - **Observation:** Two boulders at (19,7) and (20,7) are in the water, blocking westward travel. Using Strength while surfing next to them does not push them, but rotates them in a linked fashion.
-  - **Current Status:** The puzzle seems to be a linked rotation puzzle. Previous attempts from below have resulted in a loop. My new strategy is to circumnavigate the islands via Route 20 and Cinnabar Island to approach the puzzle from the western side, which may reveal a new interaction or solution path.
-- **Self-Assessment (Turn 166302):** I spent over 20 turns trying to fix the `map_obstacle_detector` tool, assuming it was broken. The tool was correctly reporting that the islands on Route 20 were connected to the map boundary, but I suffered from confirmation bias and failed to question my own assumption that they were isolated obstacles. **Lesson:** Trust tool output, especially when it's consistent. A surprising result is more likely to be a flaw in my assumption than a bug in the tool.
+  - **Solution:** Pushing the left boulder, then the right boulder, from below rotates them into a position that clears the path west.
+- **Ground Boulder Puzzle (B3F - In Progress):**
+  - **Automated Approach Failure:** The `boulder_puzzle_solver` tool failed to find a solution after 6 refactoring attempts. The core issue was identified as a persistent flaw in the XML parsing logic that could not be resolved. The tool has been abandoned.
+  - **Manual Approach (Current):** I am now attempting to solve the puzzle manually. My hypothesis is that pushing the boulders at (4, 16) and (6, 15) into the holes at (4, 17) and (7, 17) respectively will solve the puzzle.
 - **Linked Boulder Rotation:** A puzzle mechanic where using Strength on one of two adjacent water-based boulders causes both to rotate in a linked fashion, rather than being pushed. (Observed on Seafoam Islands B3F)
-- **Hidden Passages (Confirmed):** Some impassable-looking walls can be walked through. A systematic, tile-by-tile search is required to find them, especially when system feedback indicates an area is not a dead end despite appearances. (Discovered on Seafoam Islands B4F at (16, 15))
-- **`boulder_puzzle_solver` Tool (High Priority):** The Seafoam Islands puzzle highlights the need for this tool. It should take the map XML as input, identify all boulders, holes, and switches. The tool must then use a search algorithm (like Breadth-First Search on states) to find the optimal sequence of player movements and boulder pushes required to solve the puzzle (e.g., move all boulders into holes). The state representation should include the player's position and the position of every boulder. This will automate a complex, multi-step reasoning process that is currently being done manually and is prone to error.
-- **`boulder_puzzle_solver` Failure (Turn 166521):** After 6 attempts and multiple refactors, the tool is still unable to find a solution. The final fix corrected the XML parsing for all objects, but the tool still reports 'No solution found'. I am abandoning the automated approach due to the tool being fundamentally broken.
-- **Switch to Manual Solution:** I will now attempt to solve the puzzle manually.
-  - **Hypothesis:** B2(4,16) -> H1(4,17) and B1(6,15) -> H2(7,17).
-  - **Plan:**
-    1. Descend from the elevated platform to the ground floor via the water.
-    2. Push B2 at (4,16) down into the hole at (4,17).
-    3. Maneuver B1 at (6,15) to the hole at (7,17).
+- **Hidden Passages (Confirmed):** Some impassable-looking walls can be walked through. A systematic, tile-by-tile search is required to find them, especially when system feedback indicates an area is not a dead end despite appearances. (Discovered on Seafoam Islands B4F at (16, 15), Discovered on Seafoam Islands B2F at (19, 8))
