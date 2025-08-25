@@ -215,3 +215,4 @@
   - SNORLAX (Lv 55) - Known Moves: Earthquake, Body Slam, REST
   - GENGAR (Lv 55) - Known Moves: HYPNOSIS, DREAM EATER
 - **`select_battle_option` Tool Idea:** Create a tool that can reliably select a main battle menu option (FIGHT, PKMN, ITEM, RUN). I hallucinated this tool's existence and tried to call it, so creating it is a high priority to prevent future errors.
+- **Tool Output vs. Game State Discrepancy:** The `delete_map_marker` tool can report a failure ('No markers found') even when the deletion is successful. The actual result of the action is only reliably confirmed by checking the subsequent turn's Game State Information. This is a critical lesson in trusting the Game State as the ultimate source of truth, even when a tool's immediate output seems to contradict it. (Lesson from Turn 166954-166966)
