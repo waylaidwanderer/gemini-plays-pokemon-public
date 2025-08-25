@@ -213,3 +213,4 @@
 - **Dead End Validation Failure (Seafoam B3F):** I incorrectly reported `is_in_dead_end_area` as `true` for Seafoam Islands B3F. The system confirmed there were 4 reachable exit groups, but I failed to correctly apply my own documented definition. **Correction:** I must be more careful and systematic when counting exit groups across the entire map before making a dead end determination.
 ### Kris (Seafoam Islands B4F)
   - SNORLAX (Lv 55) - Known Moves: Earthquake, Body Slam, REST
+- **`select_battle_option` Tool Idea:** Create a tool that can reliably select a main battle menu option (FIGHT, PKMN, ITEM, RUN). I hallucinated this tool's existence and tried to call it, so creating it is a high priority to prevent future errors.
