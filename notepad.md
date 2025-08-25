@@ -158,7 +158,8 @@
   - `auto_switcher` (Turn 155341): Automates Pokémon switch sequences.
   - `master_battle_agent` (Turn 156589): Orchestrates battle analysis into a single call.
   - `pc_withdraw_pokemon` (Turn 157056): Automates withdrawing a Pokémon from the PC.
-  - `get_next_move_press` (Turn 161071): Provides single-step navigation for the battle move menu.
+  - `get_next_move_press` (Turn 161071): (DEPRECATED - Replaced by `move_selector`).
+  - `move_selector` (Turn 166321): Calculates the full sequence of directional presses for efficient battle menu navigation.
   - `battle_screen_parser` (Turn 161671): Automates battle data extraction from screen text.
   - `surf_automator` (Turn 164380): Automates the button sequence for using Surf.
 
