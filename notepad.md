@@ -166,7 +166,7 @@
   - `battle_screen_parser` (Turn 161671): Automates battle data extraction from screen text.
   - `surf_automator` (Turn 164380): Automates the button sequence for using Surf.
   - `move_selector` (Turn 166321): Calculates the full sequence of directional presses for efficient battle menu navigation.
-  - `boulder_puzzle_solver` (Turn 166499): Automates the solution-finding process for boulder puzzles. Status: Functional after extensive debugging, but output coordinates are buggy.
+  - `boulder_puzzle_solver` (Turn 166499): Automates the solution-finding process for boulder puzzles. Status: Fully functional after extensive debugging of parsing and coordinate output.
 
 ## C. Development Ideas & Testing Plans
 - **`find_path_via_points` Tool Idea:** Create a tool that takes a start, end, and a list of intermediate 'via' points. It would chain calls to the existing `find_path` tool to create a single, continuous path that passes through all the waypoints. This would automate the manual, chunk-based navigation I am currently performing on complex routes like Route 20.
