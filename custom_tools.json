@@ -518,15 +518,33 @@
       }
     ]
   },
-  "hm_automator": {
-    "description": "Automates the initial button presses for using an HM field move by opening the party screen and selecting the first Pokémon. The user must then manually select the correct move.",
-    "input_schema": {},
-    "python_script": "import json\n# This simple tool generates the button sequence to open the menu, select the Pokémon list, and select the first Pokémon.\n# This is a basic, modular starting point for HM automation.\nbutton_sequence = [\"Start\", \"A\", \"A\"]\nprint(json.dumps(button_sequence))",
+  "use_hm_from_menu": {
+    "description": "Calculates the button presses to select a specific Pokémon in the party and use a specific move from its menu. Assumes the party menu is already open.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "pokemon_slot": {
+          "type": "string"
+        },
+        "move_slot": {
+          "type": "string"
+        },
+        "current_pokemon_slot": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "pokemon_slot",
+        "move_slot",
+        "current_pokemon_slot"
+      ]
+    },
+    "python_script": "import json\n\ndef get_presses(current, target, max_val):\n    presses = []\n    if current == target:\n        return presses\n    \n    down_dist = (target - current + max_val) % max_val\n    up_dist = (current - target + max_val) % max_val\n\n    if down_dist <= up_dist:\n        for _ in range(down_dist):\n            presses.append('Down')\n    else:\n        for _ in range(up_dist):\n            presses.append('Up')\n    return presses\n\nparty_slot = int(input_data['pokemon_slot'])\nmove_slot = int(input_data['move_slot'])\ncurrent_party_slot = int(input_data['current_pokemon_slot'])\n\n# Max 6 Pokémon in party, 4 moves per Pokémon\nMAX_PARTY = 6\nMAX_MOVES = 4\n\n# Sequence to navigate from current Pokémon to target Pokémon\nbutton_sequence = get_presses(current_party_slot, party_slot, MAX_PARTY)\n\n# Press 'A' to open the move menu for the target Pokémon\nbutton_sequence.append('A')\n\n# Sequence to navigate from the default top move to the target move\n# The cursor always starts at slot 1 in the move menu\nbutton_sequence.extend(get_presses(1, move_slot, MAX_MOVES))\n\n# Press 'A' to select and use the move\nbutton_sequence.append('A')\n\nprint(json.dumps(button_sequence))",
     "history": [
       {
-        "commit_message": "feat: Create modular hm_automator tool. In response to a critical Overwatch critique, this tool replaces the need for single-purpose HM tools like 'surf_automator'. It provides a basic, modular starting point by generating the button sequence to open the party menu and select the first Pokémon, addressing the core issue of non-modular design.",
-        "timestamp": "2025-08-25T19:37:05.312Z",
-        "action_counter": 167065
+        "commit_message": "feat: Create use_hm_from_menu tool to automate field move usage. In response to a self-assessment identifying manual menu navigation as a recurring inefficiency and point of failure, this tool calculates the optimal button sequence to select a specific Pokémon and one of its moves. This will streamline the process of using HMs like Surf and Fly, preventing errors and saving time.",
+        "timestamp": "2025-08-25T20:22:21.498Z",
+        "action_counter": 167135
       }
     ]
   }
