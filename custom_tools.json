@@ -440,7 +440,7 @@
     ]
   },
   "battle_menu_selector": {
-    "description": "Automatically selects the requested main battle menu option (FIGHT, PKMN, ITEM, RUN). This tool can only be used during a battle when the main battle menu is visible. It cannot be used if a sub-menu is open. **You should always prefer using this tool over manually selecting the correct option, especially when struggling to select the correct option.**",
+    "description": "Calculates the button presses to select a main battle menu option (FIGHT, PKMN, ITEM, RUN) from the current cursor position. Should always be preferred over manual selection.",
     "input_schema": {
       "type": "object",
       "properties": {
@@ -451,26 +451,39 @@
             "PKMN",
             "ITEM",
             "RUN"
-          ],
-          "description": "The main battle menu option you want to automatically select"
+          ]
+        },
+        "current_cursor_position": {
+          "type": "string",
+          "enum": [
+            "FIGHT",
+            "PKMN",
+            "ITEM",
+            "RUN"
+          ]
         }
       },
       "required": [
-        "option_to_select"
-      ],
-      "additionalProperties": false
+        "option_to_select",
+        "current_cursor_position"
+      ]
     },
-    "python_script": "import json\n\noption_map = {\n    \"FIGHT\": [],\n    \"PKMN\": [\"Right\"],\n    \"ITEM\": [\"Down\"],\n    \"RUN\": [\"Right\", \"Down\"]\n}\n\noption_to_select = input_data.get(\"option_to_select\")\nbutton_sequence = option_map.get(option_to_select, [])\nbutton_sequence.append(\"A\")\n\nprint(json.dumps(button_sequence))",
+    "python_script": "import json\n\noption_map = {\n    \"FIGHT\": 0,\n    \"PKMN\": 1,\n    \"ITEM\": 2,\n    \"RUN\": 3\n}\n\npositions = [\"FIGHT\", \"PKMN\", \"ITEM\", \"RUN\"]\n\nstart_pos = option_map.get(input_data['current_cursor_position'], 0)\ntarget_pos = option_map.get(input_data['option_to_select'], 0)\n\nbutton_sequence = []\n\n# Simple grid navigation: 0-1 are top row, 2-3 are bottom row\ncurrent_row = start_pos // 2\ncurrent_col = start_pos % 2\ntarget_row = target_pos // 2\ntarget_col = target_pos % 2\n\nif current_row != target_row:\n    button_sequence.append('Down' if target_row > current_row else 'Up')\n\nif current_col != target_col:\n    button_sequence.append('Right' if target_col > current_col else 'Left')\n\nbutton_sequence.append('A')\n\nprint(json.dumps(button_sequence))",
     "history": [
       {
         "commit_message": "feat: Create battle_menu_selector tool. Replaces failed 'select_battle_option' attempt due to reserved name. In response to a self-assessment and Overwatch critique identifying repeated hallucinations of this tool's existence, this tool is being created to prevent future errors. It automates the selection of main battle menu options, ensuring reliable and efficient navigation during combat.",
         "timestamp": "2025-08-25T20:54:29.242Z",
         "action_counter": 167187
+      },
+      {
+        "commit_message": "refactor: Add current_cursor_position parameter. In response to a self-assessment identifying a critical flaw, this commit refactors the tool to calculate navigation from the actual cursor position instead of assuming it always starts at 'FIGHT'. This makes the tool robust and prevents future battle menu errors.",
+        "timestamp": "2025-08-25T21:30:21.669Z",
+        "action_counter": 167236
       }
     ]
   },
   "use_hm_from_menu": {
-    "description": "Calculates the full sequence of button presses to open the menu, select a specific Pokémon from the party, and use one of its moves. This is ideal for automating the use of HMs in the field.",
+    "description": "Calculates the full sequence of button presses to open the menu, select a specific Pokémon from the party, and use one of its moves, accounting for current menu cursor positions. Ideal for automating HMs.",
     "input_schema": {
       "type": "object",
       "properties": {
@@ -482,20 +495,34 @@
         },
         "current_pokemon_slot": {
           "type": "string"
+        },
+        "current_move_slot": {
+          "type": "string"
         }
       },
       "required": [
         "pokemon_slot",
         "move_slot",
-        "current_pokemon_slot"
+        "current_pokemon_slot",
+        "current_move_slot"
       ]
     },
-    "python_script": "import json\n\ndef get_presses(current, target, max_val):\n    presses = []\n    if current == target:\n        return presses\n    down_dist = (target - current + max_val) % max_val\n    up_dist = (current - target + max_val) % max_val\n    if down_dist <= up_dist:\n        for _ in range(down_dist):\n            presses.append('Down')\n    else:\n        for _ in range(up_dist):\n            presses.append('Up')\n    return presses\n\nparty_slot = int(input_data['pokemon_slot'])\nmove_slot = int(input_data['move_slot'])\ncurrent_party_slot = int(input_data['current_pokemon_slot'])\n\nMAX_PARTY = 6\nMAX_MOVES = 4\n\nbutton_sequence = [\"Start\", \"A\"]\nbutton_sequence.extend(get_presses(current_party_slot, party_slot, MAX_PARTY))\nbutton_sequence.append('A')\nbutton_sequence.extend(get_presses(1, move_slot, MAX_MOVES))\nbutton_sequence.append('A')\n\nprint(json.dumps(button_sequence))",
+    "python_script": "import json\n\ndef get_presses(current, target, max_val):\n    presses = []\n    if current == target:\n        return presses\n    down_dist = (target - current + max_val) % max_val\n    up_dist = (current - target + max_val) % max_val\n    if down_dist <= up_dist:\n        for _ in range(down_dist):\n            presses.append('Down')\n    else:\n        for _ in range(up_dist):\n            presses.append('Up')\n    return presses\n\nparty_slot = int(input_data['pokemon_slot'])\nmove_slot = int(input_data['move_slot'])\ncurrent_party_slot = int(input_data['current_pokemon_slot'])\ncurrent_move_slot = int(input_data['current_move_slot'])\n\nMAX_PARTY = 6\nMAX_MOVES = 4\n\nbutton_sequence = [\"Start\", \"Down\", \"A\"]\nbutton_sequence.extend(get_presses(current_party_slot, party_slot, MAX_PARTY))\nbutton_sequence.append('A')\nbutton_sequence.extend(get_presses(current_move_slot, move_slot, MAX_MOVES))\nbutton_sequence.append('A')\n\nprint(json.dumps(button_sequence))",
     "history": [
       {
         "commit_message": "feat: Create comprehensive HM automation tool. This tool calculates the full button press sequence to open the menu and use a specific move on a specific Pokémon, replacing a manual and error-prone process. This addresses a critical inefficiency identified in self-assessment.",
         "timestamp": "2025-08-25T20:57:21.684Z",
         "action_counter": 167190
+      },
+      {
+        "commit_message": "fix: Correct menu navigation logic. The tool was incorrectly selecting POKéDEX instead of POKéMON. This commit adds the necessary 'Down' press to correctly navigate the main menu, preventing future errors when using HMs from the overworld.",
+        "timestamp": "2025-08-25T21:15:17.237Z",
+        "action_counter": 167208
+      },
+      {
+        "commit_message": "fix: Add current_move_slot parameter. The tool was failing because it incorrectly assumed the move selection cursor always starts at the top position (slot 1). My own documented notes confirm the cursor remembers the last used move. This commit adds a `current_move_slot` parameter to correctly calculate navigation from the actual cursor position, making the tool robust and preventing future errors.",
+        "timestamp": "2025-08-25T21:19:26.467Z",
+        "action_counter": 167215
       }
     ]
   }
