@@ -154,17 +154,17 @@
 - **AI Prediction Failure (Confirmation Bias):** I have incorrectly assumed the opponent's AI would use a specific move to counter my current Pokémon, failing to predict that the AI would instead use the optimal move to counter my *switch-in*. (Observed Turn 147728, Lorelei's Lapras vs. CRAG). **Correction:** I must assume the AI will make the optimal play against my predicted action, not just react to the current board state.
 - **Agent Gamble Failure & AI Prediction:** The battle_strategist_agent correctly identified a high-risk, high-reward play by switching to CRAG, predicting Lapras would use its known move Thunderbolt. However, the opponent AI made the optimal counter-play by using Surf against the incoming CRAG, leading to a faint. This confirms that the AI is capable of predicting switches and choosing the best move to counter the incoming Pokémon, not just the one on the field. (Observed Turn 149533, Lorelei's Lapras vs. CRAG).
 - **Mixed Input Execution:** Tools that generate a sequence of mixed directional and action buttons (e.g., `auto_switcher`) are functioning correctly. The error was in my execution. I must execute the generated button presses one at a time, over multiple turns, to avoid system input truncation.
-- **Agent Creation Log:**
-  - `master_battle_agent` (Turn 156589): Orchestrates battle analysis into a single call.
 
 ## B. Creation Log
+- **Agent Creation Log:**
+  - `master_battle_agent` (Turn 156589): Orchestrates battle analysis into a single call.
 - **Tool Creation Log:**
   - `auto_switcher` (Turn 155341): Automates Pokémon switch sequences.
   - `pc_withdraw_pokemon` (Turn 157056): Automates withdrawing a Pokémon from the PC.
   - `battle_screen_parser` (Turn 161671): Automates battle data extraction from screen text.
   - `surf_automator` (Turn 164380): Automates the button sequence for using Surf.
   - `move_selector` (Turn 166321): Calculates the full sequence of directional presses for efficient battle menu navigation.
-  - `boulder_puzzle_solver` (Turn 166499): Automates the solution-finding process for boulder puzzles. Abandoned on Turn 166521 due to persistent, unresolvable failures in its core logic after 6 refactoring attempts.
+  - `boulder_puzzle_solver` (Turn 166499): Automates the solution-finding process for boulder puzzles. **Status: Undergoing critical debugging due to persistent failures in core logic. Abandonment is not an option.**
 
 ## C. Development Ideas & Testing Plans
 - **`find_path_via_points` Tool Idea:** Create a tool that takes a start, end, and a list of intermediate 'via' points. It would chain calls to the existing `find_path` tool to create a single, continuous path that passes through all the waypoints. This would automate the manual, chunk-based navigation I am currently performing on complex routes like Route 20.
