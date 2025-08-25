@@ -156,12 +156,12 @@
 - **Mixed Input Execution:** Tools that generate a sequence of mixed directional and action buttons (e.g., `auto_switcher`) are functioning correctly. The error was in my execution. I must execute the generated button presses one at a time, over multiple turns, to avoid system input truncation.
 - **Tool Creation Log:**
   - `auto_switcher` (Turn 155341): Automates Pokémon switch sequences.
-  - `master_battle_agent` (Turn 156589): Orchestrates battle analysis into a single call.
   - `pc_withdraw_pokemon` (Turn 157056): Automates withdrawing a Pokémon from the PC.
-  
   - `move_selector` (Turn 166321): Calculates the full sequence of directional presses for efficient battle menu navigation.
   - `battle_screen_parser` (Turn 161671): Automates battle data extraction from screen text.
   - `surf_automator` (Turn 164380): Automates the button sequence for using Surf.
+- **Agent Creation Log:**
+  - `master_battle_agent` (Turn 156589): Orchestrates battle analysis into a single call.
 
 ## B. Development Ideas & Testing Plans
 - **`boulder_puzzle_solver` Tool (High Priority):** The Seafoam Islands puzzle highlights the need for this tool. It should take the map XML as input, identify all boulders, holes, and switches. The tool must then use a search algorithm (like Breadth-First Search on states) to find the optimal sequence of player movements and boulder pushes required to solve the puzzle (e.g., move all boulders into holes). The state representation should include the player's position and the position of every boulder. This will automate a complex, multi-step reasoning process that is currently being done manually and is prone to error.
