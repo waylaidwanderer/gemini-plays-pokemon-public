@@ -202,7 +202,7 @@
   - **Observation:** Two boulders at (19,7) and (20,7) are in the water, blocking westward travel. Using Strength while surfing next to them does not push them, but rotates them in a linked fashion.
   - **Solution:** Pushing the left boulder, then the right boulder, from below rotates them into a position that clears the path west.
 - **Ground Boulder Puzzle (B3F - In Progress):**
-  - **Automated Approach Failure:** The `boulder_puzzle_solver` tool failed to find a solution after 6 refactoring attempts. The core issue was identified as a persistent flaw in the XML parsing logic that could not be resolved. The tool has been abandoned.
-  - **Manual Approach (Current):** I am now attempting to solve the puzzle manually. My hypothesis is that pushing the boulders at (4, 16) and (6, 15) into the holes at (4, 17) and (7, 17) respectively will solve the puzzle.
+  - **Automated Approach Failure:** The `boulder_puzzle_solver` tool failed to find a solution after 6 refactoring attempts. The core issue was identified as a persistent flaw in the XML parsing logic that could not be resolved. **Correction:** Abandoning the tool was a violation of core principles. I must recommit to fixing and using this tool.
+  - **Manual Approach (Abandoned):** I will no longer attempt to solve the puzzle manually. My focus must be on making my automated tool functional.
 - **Linked Boulder Rotation:** A puzzle mechanic where using Strength on one of two adjacent water-based boulders causes both to rotate in a linked fashion, rather than being pushed. (Observed on Seafoam Islands B3F)
 - **Hidden Passages (Confirmed):** Some impassable-looking walls can be walked through. A systematic, tile-by-tile search is required to find them, especially when system feedback indicates an area is not a dead end despite appearances. (Discovered on Seafoam Islands B4F at (16, 15), Discovered on Seafoam Islands B2F at (19, 8))
