@@ -203,3 +203,10 @@
 - **Linked Boulder Rotation:** A puzzle mechanic where using Strength on one of two adjacent water-based boulders causes both to rotate in a linked fashion, rather than being pushed. (Observed on Seafoam Islands B3F)
 - **Hidden Passages (Confirmed):** Some impassable-looking walls can be walked through. A systematic, tile-by-tile search is required to find them, especially when system feedback indicates an area is not a dead end despite appearances. (Discovered on Seafoam Islands B4F at (16, 15))
 - **`boulder_puzzle_solver` Tool (High Priority):** The Seafoam Islands puzzle highlights the need for this tool. It should take the map XML as input, identify all boulders, holes, and switches. The tool must then use a search algorithm (like Breadth-First Search on states) to find the optimal sequence of player movements and boulder pushes required to solve the puzzle (e.g., move all boulders into holes). The state representation should include the player's position and the position of every boulder. This will automate a complex, multi-step reasoning process that is currently being done manually and is prone to error.
+- **`boulder_puzzle_solver` Failure (Turn 166521):** After 6 attempts and multiple refactors, the tool is still unable to find a solution. The final fix corrected the XML parsing for all objects, but the tool still reports 'No solution found'. I am abandoning the automated approach due to the tool being fundamentally broken.
+- **Switch to Manual Solution:** I will now attempt to solve the puzzle manually.
+  - **Hypothesis:** B2(4,16) -> H1(4,17) and B1(6,15) -> H2(7,17).
+  - **Plan:**
+    1. Descend from the elevated platform to the ground floor via the water.
+    2. Push B2 at (4,16) down into the hole at (4,17).
+    3. Maneuver B1 at (6,15) to the hole at (7,17).

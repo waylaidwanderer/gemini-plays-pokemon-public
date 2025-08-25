@@ -455,5 +455,42 @@
         "action_counter": 166321
       }
     ]
+  },
+  "boulder_puzzle_solver": {
+    "description": "Solves boulder puzzles on a given map by finding the sequence of moves to push all boulders into all holes. Uses a Breadth-First Search algorithm on game states (player position + boulder positions).",
+    "input_schema": {},
+    "python_script": "import json\nimport xml.etree.ElementTree as ET\nfrom collections import deque\n\ndef solve_boulder_puzzle(map_xml_string):\n    root = ET.fromstring(map_xml_string)\n    grid = {}\n    player_pos = None\n    all_boulders = []\n    holes = []\n\n    for row_elem in root.findall('Row'):\n        y = int(row_elem.get('id')) - 1\n        for tile_elem in row_elem.findall('Tile'):\n            x = int(tile_elem.get('id')) - 1\n            tile_type = tile_elem.get('type')\n            grid[(x, y)] = tile_type\n            if tile_elem.find('Player') is not None:\n                player_pos = (x, y)\n            if tile_elem.find('Boulder') is not None:\n                all_boulders.append((x, y))\n            if tile_type == 'hole':\n                holes.append((x, y))\n\n    boulders = [b for b in all_boulders if grid.get(b) != 'water']\n    \n    if not player_pos or not boulders or not holes:\n        return json.dumps({'solution': [], 'error': 'Map data incomplete: Missing player, ground boulders, or holes.'})\n\n    initial_boulders_tuple = tuple(sorted(boulders))\n    initial_state = (player_pos, initial_boulders_tuple)\n    \n    queue = deque([(initial_state, [])])\n    visited = {initial_state}\n    traversable = {'ground', 'steps', 'hole', 'water'}\n    boulder_traversable = {'ground', 'hole'}\n    holes_set = set(holes)\n\n    while queue:\n        (current_player_pos, current_boulders_tuple), path = queue.popleft()\n\n        if holes_set.issubset(set(current_boulders_tuple)):\n            return json.dumps({'solution': path, 'error': None})\n\n        for move, (dx, dy) in {'Up': (0, -1), 'Down': (0, 1), 'Left': (-1, 0), 'Right': (1, 0)}.items():\n            next_pos = (current_player_pos[0] + dx, current_player_pos[1] + dy)\n\n            if next_pos not in grid:\n                continue\n\n            if next_pos not in current_boulders_tuple and grid[next_pos] in traversable:\n                new_state = (next_pos, current_boulders_tuple)\n                if new_state not in visited:\n                    visited.add(new_state)\n                    new_path = path + [f\"Move {move}\"]\n                    queue.append((new_state, new_path))\n            \n            elif next_pos in current_boulders_tuple:\n                boulder_to_push = next_pos\n                next_boulder_pos = (boulder_to_push[0] + dx, boulder_to_push[1] + dy)\n\n                if next_boulder_pos in grid and grid[next_boulder_pos] in boulder_traversable and next_boulder_pos not in current_boulders_tuple:\n                    new_boulders_list = list(current_boulders_tuple)\n                    new_boulders_list.remove(boulder_to_push)\n                    new_boulders_list.append(next_boulder_pos)\n                    new_boulders_tuple = tuple(sorted(new_boulders_list))\n                    \n                    new_player_pos = boulder_to_push\n                    new_state = (new_player_pos, new_boulders_tuple)\n\n                    if new_state not in visited:\n                        visited.add(new_state)\n                        new_path = path + [f\"Push boulder at {boulder_to_push} {move}\"]\n                        queue.append((new_state, new_path))\n\n    return json.dumps({'solution': [], 'error': 'No solution found.'})\n\nresult = solve_boulder_puzzle(map_xml_string)\nprint(result)",
+    "history": [
+      {
+        "commit_message": "feat: Create boulder_puzzle_solver tool. In response to the complex Seafoam Islands puzzle and an Overwatch critique, this tool automates the solution-finding process for boulder puzzles. It uses a Breadth-First Search algorithm to explore all possible states (player and boulder positions) to find the optimal sequence of moves to push all boulders into their corresponding holes. This will eliminate manual trial-and-error, which is inefficient and error-prone, and adheres to the directive to automate complex reasoning tasks.",
+        "timestamp": "2025-08-25T05:28:20.810Z",
+        "action_counter": 166499
+      },
+      {
+        "commit_message": "fix: Correct win condition and filter irrelevant boulders. The tool was failing because it incorrectly assumed the number of boulders must equal the number of holes. This commit refactors the win condition to check if the set of holes is a subset of boulder positions, correctly handling puzzles with extraneous boulders. It also adds logic to filter out water-based boulders that are not part of the main ground puzzle.",
+        "timestamp": "2025-08-25T05:30:37.780Z",
+        "action_counter": 166502
+      },
+      {
+        "commit_message": "fix: Add extensive diagnostic logging and refactor search logic. The tool is consistently failing to find a solution. This commit adds detailed print statements to trace the initial state, search progress, and termination condition. It also refactors the BFS search logic to correctly distinguish between simple player movement and boulder-pushing actions, which may have been the source of the logical error. This is a critical debugging step to identify the root cause of the failure.",
+        "timestamp": "2025-08-25T05:32:24.470Z",
+        "action_counter": 166505
+      },
+      {
+        "commit_message": "fix: Refactor BFS search logic to iterate from player position. The previous implementation was inefficient and failed to explore the state space. This commit refactors the core search loop to iterate through the four adjacent tiles from the player's current position, correctly identifying and queueing either simple movement or boulder-pushing actions. This is a critical fix to the tool's fundamental logic.",
+        "timestamp": "2025-08-25T05:34:15.182Z",
+        "action_counter": 166507
+      },
+      {
+        "commit_message": "fix: Correct XML parsing for player position. The tool was consistently failing because it was not correctly identifying the player's starting coordinates from the map XML. This commit refactors the initial parsing loop to use the explicit 'id' attributes from the XML tags instead of relying on `enumerate`, ensuring the initial state for the BFS is always accurate. This is a critical fix to address the root cause of the tool's repeated failures.",
+        "timestamp": "2025-08-25T05:37:53.383Z",
+        "action_counter": 166512
+      },
+      {
+        "commit_message": "fix: Correct XML parsing for all map objects. The tool was consistently failing because it was only correctly parsing the player's starting coordinates, while still using a flawed `enumerate` method for boulders and holes. This commit refactors the initial parsing loop to use the explicit 'id' attributes from the XML tags for ALL objects, ensuring the initial state for the BFS is always accurate. This is a critical fix to address the root cause of the tool's repeated failures.",
+        "timestamp": "2025-08-25T05:42:15.526Z",
+        "action_counter": 166517
+      }
+    ]
   }
 }
