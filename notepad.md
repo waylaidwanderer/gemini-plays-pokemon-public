@@ -222,3 +222,14 @@
 - **Test:** Fell through the hole, landed at (8, 11) on B4F. Attempted to Surf at (8, 13).
 - **Outcome:** The current was still 'much too fast!'.
 - **Conclusion:** Hypothesis denied. Falling through the hole does not solve the puzzle.
+
+## C. Self-Assessment Action Items (Turn 166043)
+- **New Agent Idea (`navigation_troubleshooter`):** Create an agent to analyze `find_path` failures, reachable warps, and unseen tiles to suggest the next logical navigation goal in complex, segmented maps like this one.
+- **New Tool Idea (`boulder_puzzle_solver`):** Create a high-priority tool that takes the map XML as input, identifies all boulders, holes, and switches, and calculates the optimal sequence of pushes to solve the puzzle. This would automate the current manual trial-and-error process.
+- **Untested Assumptions & Testing Plan:**
+  - **Assumption 1:** The connection between the west and east sections of Seafoam Islands is on 1F.
+    - **Test:** Once on 1F, use `find_path` to plot a course from the western entrance/ladder area to the eastern entrance/ladder area.
+  - **Assumption 2:** Pushing all boulders on B3F into their corresponding holes will stop the strong water current on B4F.
+    - **Test:** Once access to the eastern B3F area is gained, systematically push one boulder into a hole, travel to B4F, and test the current at (8, 12). Repeat for each remaining boulder, documenting the outcome.
+  - **Assumption 3:** The NPC Kris at (8, 3) on B4F has a clue about the puzzle.
+    - **Test:** Once the main area of B4F is accessible, the first action will be to speak with Kris.
