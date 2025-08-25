@@ -24,11 +24,9 @@
 - **Forced Sleep-Induced Switch:** The game forces a switch immediately after a Pokémon is put to sleep by an opponent's move, similar to when a Pokémon faints. (Observed Turn 150625)
 - **Indigo Plateau Auto-Heal:** Blacking out during the Elite Four challenge and respawning at the Indigo Plateau entrance automatically heals the entire party. (Observed Turn 149617)
 - **'No will to fight!' Message:** This message appears when attempting to switch to a Pokémon that has already fainted. It is a cursor position error in the party menu, not an indication of a Pokémon's level or willingness to battle. (Corrected Turn 152732)
+- **Run from Battle Position Reset:** Running from a wild battle returns the player to the tile they were on immediately before the encounter was triggered. (Observed Turn 165898)
 
 ## B. Tile & System Mechanics (Master)
-- **Object Impassability:** All objects (NPCs, items, signs) are impassable walls, including defeated trainers. Interaction must happen from an adjacent tile.
-- **Pikachu Walk-Through (Exception):** Pikachu is the only NPC/Object that can be walked through. This is a key mechanic for certain puzzles. If not facing Pikachu, the first directional press turns the character, and the second moves onto the tile.
-- **Object Swapping (Pikachu Puzzle):** A specific puzzle object (Pikachu in Seafoam Islands) does not follow standard pushing mechanics. Instead of being pushed one tile away, it swaps places with the player when the player moves onto its tile. This is a unique interaction that must be considered for similar puzzles.
 - **Boulders:** Large rocks that can be pushed using the field move Strength. They are central to many environmental puzzles, often needing to be pushed into holes or onto switches.
 - **Cuttable Trees:** These tiles block paths and can be removed by using the field move Cut from an adjacent tile. They typically respawn after a map change.
 - **Dead End Area Definition (Corrected):** A map area is considered a 'dead end' if, from the player's current location, there is only one reachable exit group (a cluster of adjacent warps or a map connection). The key is what is reachable *from the player's current tile*, not what exists on the map globally. The system validation on Seafoam Islands B1F (Turn 166050) confirmed this, as only one warp was reachable from my position, making it a dead end, even though other warps exist elsewhere on the floor.
@@ -36,16 +34,17 @@
 - **Grass:** Standard tall grass where wild Pokémon encounters can occur. Walkable like 'ground'.
 - **HM Forgetability:** HMs can be forgotten. (Confirmed by Scientist on Route 15 Gatehouse 2F)
 - **Hole:** A tile that acts as a one-way warp to the floor below. Often used in boulder puzzles.
-- **Ladder Down:** A warp tile that leads to a lower floor.
-- **Ladder Up:** A warp tile that leads to a higher floor.
+- **Ladders:** Warps that lead to upper ('ladder_up') or lower ('ladder_down') floors.
 - **Ledges:** These tiles allow one-way downward movement. A single 'Down' press from the tile above (Y-1) will cause the player to jump to the tile two spaces down (Y+2). They are impassable from all other directions.
+- **Object Impassability:** All objects (NPCs, items, signs) are impassable walls, including defeated trainers. Interaction must happen from an adjacent tile.
+- **Object Swapping (Pikachu Puzzle):** A specific puzzle object (Pikachu in Seafoam Islands) does not follow standard pushing mechanics. Instead of being pushed one tile away, it swaps places with the player when the player moves onto its tile. This is a unique interaction that must be considered for similar puzzles.
 - **Off-Screen Gates:** Gates not currently visible on screen ('gate_offscreen' tile type) are treated as potentially open for pathfinding purposes to encourage exploration of alternate routes.
+- **Pikachu Walk-Through (Exception):** Pikachu is the only NPC/Object that can be walked through. This is a key mechanic for certain puzzles. If not facing Pikachu, the first directional press turns the character, and the second moves onto the tile.
 - **Silph Co. Gates:** Locked gates ('closed_gate' tile type) can be opened by interacting with them while possessing the CARD KEY. Once opened, they become 'open_gate' tiles and are permanently traversable.
 - **Steps:** The only tile type that allows movement between `ground` and `elevated_ground`.
 - **Tile Testing Protocol:** I must be more systematic about testing seemingly impassable tiles, especially in puzzle areas, to confirm they are not interactable or conditionally passable.
 - **Warp Mechanics (General):** Warps (teleporters, stairs, ladders, elevator pads) are instant. Stepping on the tile triggers the map change. To return, one must step off the warp tile and then back on.
 - **Water:** Crossable only by using the field move Surf. Requires standing on an adjacent land tile and using the move from the party menu.
-- **Run from Battle Position Reset:** Running from a wild battle returns the player to the tile they were on immediately before the encounter was triggered. (Observed Turn 165898)
 
 # III. Battle Information
 
@@ -154,13 +153,13 @@
 - **AI Prediction Failure (Confirmation Bias):** I have incorrectly assumed the opponent's AI would use a specific move to counter my current Pokémon, failing to predict that the AI would instead use the optimal move to counter my *switch-in*. (Observed Turn 147728, Lorelei's Lapras vs. CRAG). **Correction:** I must assume the AI will make the optimal play against my predicted action, not just react to the current board state.
 - **Agent Gamble Failure & AI Prediction:** The battle_strategist_agent correctly identified a high-risk, high-reward play by switching to CRAG, predicting Lapras would use its known move Thunderbolt. However, the opponent AI made the optimal counter-play by using Surf against the incoming CRAG, leading to a faint. This confirms that the AI is capable of predicting switches and choosing the best move to counter the incoming Pokémon, not just the one on the field. (Observed Turn 149533, Lorelei's Lapras vs. CRAG).
 - **Mixed Input Execution:** Tools that generate a sequence of mixed directional and action buttons (e.g., `auto_switcher`) are functioning correctly. The error was in my execution. I must execute the generated button presses one at a time, over multiple turns, to avoid system input truncation.
-- **`auto_switcher` Tool Created:** Developed in Turn 155341 to fully automate the Pokémon switch sequence, improving battle efficiency.
-
-- **Master Battle Agent (Implemented Turn 156589):** Created a new orchestrator agent (`master_battle_agent`) that takes raw party/enemy JSON and internally calls `type_map_generator`, `battle_data_extractor`, and `battle_strategist_agent` to return a single, final action. This streamlines the 3-step battle analysis process into a single tool call, improving turn efficiency.
-- **`pc_withdraw_pokemon` Tool Created (Turn 157056):** Developed to automate the process of selecting and withdrawing a specific Pokémon from the PC, improving team management efficiency.
-- **`get_next_move_press` Tool Created (Turn 161071):** Developed to provide single-step, reliable navigation for the battle move menu. This addresses the 'Move Menu Cursor Reset Anomaly' by allowing for re-evaluation of the cursor's position each turn, replacing the unreliable `auto_attacker` for move selection.
-- **`battle_screen_parser` Tool Created (Turn 161671):** Developed to automate the extraction of key battle data from screen text. This streamlines the input process for the `master_battle_agent`, improving battle efficiency.
-- **`surf_automator` Tool Created (Turn 164380):** Developed to automate the button sequence for using Surf, improving navigation efficiency on water routes.
+- **Tool Creation Log:**
+  - `auto_switcher` (Turn 155341): Automates Pokémon switch sequences.
+  - `master_battle_agent` (Turn 156589): Orchestrates battle analysis into a single call.
+  - `pc_withdraw_pokemon` (Turn 157056): Automates withdrawing a Pokémon from the PC.
+  - `get_next_move_press` (Turn 161071): Provides single-step navigation for the battle move menu.
+  - `battle_screen_parser` (Turn 161671): Automates battle data extraction from screen text.
+  - `surf_automator` (Turn 164380): Automates the button sequence for using Surf.
 
 ## B. Development Ideas & Testing Plans
 - **`boulder_puzzle_solver` Tool (High Priority):** The Seafoam Islands puzzle highlights the need for this tool. It should take the map XML as input, identify all boulders, holes, and switches. The tool must then use a search algorithm (like Breadth-First Search on states) to find the optimal sequence of player movements and boulder pushes required to solve the puzzle (e.g., move all boulders into holes). The state representation should include the player's position and the position of every boulder. This will automate a complex, multi-step reasoning process that is currently being done manually and is prone to error.
@@ -183,7 +182,7 @@
 - **`find_path` Tool (Correct Functionality Confirmed):** The tool previously appeared to fail in areas like Cerulean City and Seafoam Islands. However, diagnostic logging confirmed the tool was functioning correctly and accurately reporting that no path existed between disconnected map segments. This was a user assumption error, not a tool flaw.
 
 ## D. Blocked Development
-- **teleporter_mapper` Tool (Blocked):** This tool cannot be implemented. Its function requires persistent memory to build a graph of teleporter connections across multiple turns. The current tool execution environment is stateless and does not support this. Development is blocked pending a system update that allows for persistent tool state.
+- **`teleporter_mapper` Tool (Blocked):** This tool cannot be implemented. Its function requires persistent memory to build a graph of teleporter connections across multiple turns. The current tool execution environment is stateless and does not support this. Development is blocked pending a system update that allows for persistent tool state.
 
 # V. Key Event & Puzzle Log
 
