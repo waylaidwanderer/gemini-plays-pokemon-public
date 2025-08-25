@@ -221,3 +221,4 @@
 - **`get_next_pokemon_press` Tool Idea:** Create a tool similar to `move_selector` that calculates the button presses needed to navigate the party menu from a current Pokémon to a target Pokémon.
 - **Gengar AI (Hypnosis Priority):** The Gengar in Seafoam Islands B4F prioritizes using Hypnosis on any active, non-sleeping Pokémon, even if it has a type immunity to Gengar's STAB moves. It will then follow up with Dream Eater. This is its core strategy.
   - Water -> Water (Not Very Effective)
+  - Water -> Water (Not Very Effective)
