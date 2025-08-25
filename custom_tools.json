@@ -506,36 +506,6 @@
       }
     ]
   },
-  "move_selector": {
-    "description": "Calculates the full sequence of directional presses (Up or Down) required to move the cursor from a current move to a target move in the battle menu.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "pokemon_move_list": {
-          "type": "string"
-        },
-        "current_selected_move": {
-          "type": "string"
-        },
-        "target_move": {
-          "type": "string"
-        }
-      },
-      "required": [
-        "pokemon_move_list",
-        "current_selected_move",
-        "target_move"
-      ]
-    },
-    "python_script": "import json\ntry:\n    move_list_str = input_data['pokemon_move_list']\n    current_selection = input_data['current_selected_move']\n    target = input_data['target_move']\n    moves = json.loads(move_list_str)\n    button_sequence = []\n    if current_selection in moves and target in moves:\n        current_index = moves.index(current_selection)\n        target_index = moves.index(target)\n        diff = target_index - current_index\n        if diff > 0:\n            for _ in range(diff):\n                button_sequence.append(\"Down\")\n        elif diff < 0:\n            for _ in range(abs(diff)):\n                button_sequence.append(\"Up\")\n    print(json.dumps(button_sequence))\nexcept Exception:\n    print(json.dumps([]))",
-    "history": [
-      {
-        "commit_message": "feat: Create move_selector tool for efficient battle menu navigation. In response to an Overwatch critique identifying the turn-by-turn use of `get_next_move_press` as critically inefficient, this tool calculates the entire sequence of button presses at once. This will significantly reduce the number of turns spent in menus during simple encounters.",
-        "timestamp": "2025-08-25T03:37:42.864Z",
-        "action_counter": 166321
-      }
-    ]
-  },
   "parse_map_xml": {
     "description": "Parses the map_xml_string and prints a structured JSON representation of the map grid, including tile types and object locations. This serves as a standardized, reusable function for map data parsing to be incorporated into other tools, fixing a recurring critical bug.",
     "input_schema": {},
@@ -545,6 +515,18 @@
         "commit_message": "feat: Create standardized XML parsing tool. This tool implements a robust and correct method for parsing the map_xml_string using explicit 'id' attributes instead of 'enumerate'. This directly addresses a recurring critical bug identified by Overwatch and provides a reusable foundation for all future map-based tools.",
         "timestamp": "2025-08-25T19:24:48.516Z",
         "action_counter": 167060
+      }
+    ]
+  },
+  "hm_automator": {
+    "description": "Automates the initial button presses for using an HM field move by opening the party screen and selecting the first Pokémon. The user must then manually select the correct move.",
+    "input_schema": {},
+    "python_script": "import json\n# This simple tool generates the button sequence to open the menu, select the Pokémon list, and select the first Pokémon.\n# This is a basic, modular starting point for HM automation.\nbutton_sequence = [\"Start\", \"A\", \"A\"]\nprint(json.dumps(button_sequence))",
+    "history": [
+      {
+        "commit_message": "feat: Create modular hm_automator tool. In response to a critical Overwatch critique, this tool replaces the need for single-purpose HM tools like 'surf_automator'. It provides a basic, modular starting point by generating the button sequence to open the party menu and select the first Pokémon, addressing the core issue of non-modular design.",
+        "timestamp": "2025-08-25T19:37:05.312Z",
+        "action_counter": 167065
       }
     ]
   }
