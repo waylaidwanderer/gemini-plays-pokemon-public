@@ -186,6 +186,7 @@
 - **`hm_automator` Tool Idea:** Generalize the existing `surf_automator` into a more flexible tool that can handle any HM as input (e.g., Strength, Cut, Flash). This would be more modular and prevent creating redundant single-purpose tools.
 - **`debugging_assistant_agent` Agent Idea:** Create an agent that takes a tool's code, the error message, and the game state as input, and suggests a systematic debugging plan (e.g., 'Add logging to verify variable X,' 'Test with a simpler input to isolate the issue').
 - `navigation_troubleshooter` Agent Idea: Create an agent that takes `find_path` failures, reachable warps, and unseen tiles as input and suggests the next logical navigation goal to solve complex pathing puzzles.
+- `backup_battle_strategist` Agent Idea: Create an agent with a simpler, more robust ruleset (e.g., always use the strongest STAB move) to act as a fallback when the `master_battle_agent` fails due to service errors.
 
 ## D. Tool Limitations (Observed)
 - **`notepad_edit` `replace` Flaw:** The `replace` action cannot distinguish between two identical strings in the notepad. If a string appears multiple times, the tool fails to replace a specific instance, making it impossible to remove targeted duplicates. (Observed Turn 162963)
