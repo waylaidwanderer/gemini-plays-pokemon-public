@@ -185,6 +185,7 @@
 - **`item_selector` Tool Idea:** Create a tool similar to `get_next_move_press` that navigates the item menu. It would take the full item list, the current selection, and the target item as input, then output the sequence of 'Up'/'Down' presses needed to select it. This would automate the tedious manual scrolling during battles, especially for catching Pokémon.
 - **`hm_automator` Tool Idea:** Generalize the existing `surf_automator` into a more flexible tool that can handle any HM as input (e.g., Strength, Cut, Flash). This would be more modular and prevent creating redundant single-purpose tools.
 - **`debugging_assistant_agent` Agent Idea:** Create an agent that takes a tool's code, the error message, and the game state as input, and suggests a systematic debugging plan (e.g., 'Add logging to verify variable X,' 'Test with a simpler input to isolate the issue').
+- `navigation_troubleshooter` Agent Idea: Create an agent that takes `find_path` failures, reachable warps, and unseen tiles as input and suggests the next logical navigation goal to solve complex pathing puzzles.
 
 ## D. Tool Limitations (Observed)
 - **`notepad_edit` `replace` Flaw:** The `replace` action cannot distinguish between two identical strings in the notepad. If a string appears multiple times, the tool fails to replace a specific instance, making it impossible to remove targeted duplicates. (Observed Turn 162963)

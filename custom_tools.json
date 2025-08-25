@@ -1,71 +1,4 @@
 {
-  "battle_screen_parser": {
-    "description": "A tool that can parse the battle screen text to automatically generate the structured JSON required as input for the master_battle_agent. This will eliminate the current manual and error-prone data entry step, significantly improving battle efficiency.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "screen_text": {
-          "type": "string"
-        }
-      },
-      "required": [
-        "screen_text"
-      ]
-    },
-    "python_script": "import re\nimport json\n\ndef parse_battle_screen(screen_text):\n    cleaned_text = screen_text.replace('\\n', ' ').replace(':', '')\n    \n    pattern = re.compile(\n        r\"(?P<opponent_name>[A-Z'’]+)\\s*L(?P<opponent_level>\\d+).*?HP.*?(?P<player_name>[A-Z'’]+)\\s*L\\d+.*?HP.*?(?P<player_current_hp>\\d+)/(?P<player_max_hp>\\d+)\"\n    )\n\n    match = pattern.search(cleaned_text)\n\n    if match:\n        data = match.groupdict()\n        \n        enemy_json = json.dumps({\n            \"name\": data['opponent_name'].upper(),\n            \"level\": int(data['opponent_level']),\n            \"hp_percentage\": 100\n        })\n        \n        player_json = json.dumps({\n            \"name\": data['player_name'].upper(),\n            \"current_hp\": int(data['player_current_hp']),\n            \"max_hp\": int(data['player_max_hp'])\n        })\n        \n        result = {\n            \"enemy_pokemon_json\": enemy_json,\n            \"player_active_pokemon_json\": player_json\n        }\n        print(json.dumps(result))\n    else:\n        print(json.dumps({\"error\": \"Failed to parse battle screen text\", \"input\": cleaned_text}))\n\nparse_battle_screen(input_data['screen_text'])",
-    "history": [
-      {
-        "commit_message": "feat: Create battle_screen_parser tool to automate data entry. In response to an Overwatch critique identifying deferred development as a core violation, this tool automates the extraction of key battle data from screen text. This will streamline the input process for the `master_battle_agent`, improving battle efficiency and adhering to the immediate action directive.",
-        "timestamp": "2025-08-22T00:12:14.901Z",
-        "action_counter": 159782
-      },
-      {
-        "commit_message": "feat: Create battle_screen_parser tool to automate data entry. In response to an Overwatch critique identifying deferred development as a core violation, this tool automates the extraction of key battle data from screen text. This will streamline the input process for the `master_battle_agent`, improving battle efficiency and adhering to the immediate action directive.",
-        "timestamp": "2025-08-22T02:44:28.656Z",
-        "action_counter": 160067
-      },
-      {
-        "commit_message": "feat: Create battle_screen_parser tool to automate data entry. In response to an Overwatch critique identifying deferred development as a core violation, this tool automates the extraction of key battle data from screen text. This will streamline the input process for the `master_battle_agent`, improving battle efficiency and adhering to the immediate action directive.",
-        "timestamp": "2025-08-22T20:26:49.586Z",
-        "action_counter": 161224
-      },
-      {
-        "commit_message": "feat: Create battle_screen_parser tool to automate data entry. In response to an Overwatch critique identifying deferred development as a core violation, this tool automates the extraction of key battle data from screen text. This will streamline the input process for the `master_battle_agent`, improving battle efficiency and adhering to the immediate action directive.",
-        "timestamp": "2025-08-22T23:48:11.914Z",
-        "action_counter": 161671
-      },
-      {
-        "commit_message": "fix: Update regex to handle multi-line battle info. The previous version of the tool failed because its regex expected all player information to be on a single line. This commit refactors the script to parse the opponent's and player's name, level, and HP from their respective separate lines as provided by the game's screen text, making the tool functional again.",
-        "timestamp": "2025-08-23T01:17:14.741Z",
-        "action_counter": 161892
-      },
-      {
-        "commit_message": "fix: Update regex to handle name and level on the same line. The previous version failed because its regex expected the level to be on a separate line from the Pokémon's name. This commit refactors the script to parse both from the same line, correctly extracting battle data.",
-        "timestamp": "2025-08-23T14:14:53.725Z",
-        "action_counter": 163037
-      },
-      {
-        "commit_message": "feat: Create battle_screen_parser tool to automate data entry. In response to an Overwatch critique identifying deferred development as a core violation, this tool automates the extraction of key battle data from screen text. This will streamline the input process for the `master_battle_agent`, improving battle efficiency and adhering to the immediate action directive.",
-        "timestamp": "2025-08-24T17:44:18.351Z",
-        "action_counter": 165368
-      },
-      {
-        "commit_message": "fix: Correct unterminated string literal in regex. The previous version of the tool was failing with a SyntaxError due to a malformed regex string. This commit refactors the script to clean the input text first and uses a properly formatted, more robust regex pattern to prevent this error and improve parsing reliability.",
-        "timestamp": "2025-08-24T19:43:09.042Z",
-        "action_counter": 165548
-      },
-      {
-        "commit_message": "fix: Correct regex to handle ':L' level format. The previous version of the tool was failing because its regex expected 'LV' before the level number. This commit updates the regex to correctly parse the ':L##' format used in the game's battle screen, restoring the tool's functionality.",
-        "timestamp": "2025-08-25T15:37:03.937Z",
-        "action_counter": 166879
-      },
-      {
-        "commit_message": "fix: Improve regex to correctly identify player name. The previous regex was too greedy and incorrectly parsed 'HP' as the player's name. This commit makes the pattern more specific to correctly capture the player's actual name.",
-        "timestamp": "2025-08-25T15:53:39.785Z",
-        "action_counter": 166881
-      }
-    ]
-  },
   "boulder_puzzle_solver": {
     "description": "Solves boulder puzzles on a given map by finding the sequence of moves to push all boulders into all holes. Uses a Breadth-First Search algorithm on game states (player position + boulder positions).",
     "input_schema": {},
@@ -506,20 +439,38 @@
       }
     ]
   },
-  "parse_map_xml": {
-    "description": "Parses the map_xml_string and prints a structured JSON representation of the map grid, including tile types and object locations. This serves as a standardized, reusable function for map data parsing to be incorporated into other tools, fixing a recurring critical bug.",
-    "input_schema": {},
-    "python_script": "import xml.etree.ElementTree as ET\nimport json\n\ntry:\n    root = ET.fromstring(map_xml_string)\n    map_data = {\n        'name': root.attrib['name'],\n        'id': int(root.attrib['id']),\n        'width': int(root.attrib['width']),\n        'height': int(root.attrib['height']),\n        'grid': {}\n    }\n\n    for row_elem in root.findall('Row'):\n        y = int(row_elem.attrib['id'])\n        for tile_elem in row_elem.findall('Tile'):\n            x = int(tile_elem.attrib['id'])\n            tile_data = {\n                'type': tile_elem.attrib['type'],\n                'seen': tile_elem.attrib.get('seen', 'false') == 'true',\n                'objects': []\n            }\n            for obj_elem in tile_elem.findall('Object'):\n                obj_data = {k: v for k, v in obj_elem.attrib.items()}\n                tile_data['objects'].append(obj_data)\n            \n            if y not in map_data['grid']:\n                map_data['grid'][y] = {}\n            map_data['grid'][y][x] = tile_data\n\n    print(json.dumps(map_data, indent=2))\n\nexcept Exception as e:\n    print(f\"Error parsing map XML: {e}\")",
+  "battle_menu_selector": {
+    "description": "Automatically selects the requested main battle menu option (FIGHT, PKMN, ITEM, RUN). This tool can only be used during a battle when the main battle menu is visible. It cannot be used if a sub-menu is open. **You should always prefer using this tool over manually selecting the correct option, especially when struggling to select the correct option.**",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "option_to_select": {
+          "type": "string",
+          "enum": [
+            "FIGHT",
+            "PKMN",
+            "ITEM",
+            "RUN"
+          ],
+          "description": "The main battle menu option you want to automatically select"
+        }
+      },
+      "required": [
+        "option_to_select"
+      ],
+      "additionalProperties": false
+    },
+    "python_script": "import json\n\noption_map = {\n    \"FIGHT\": [],\n    \"PKMN\": [\"Right\"],\n    \"ITEM\": [\"Down\"],\n    \"RUN\": [\"Right\", \"Down\"]\n}\n\noption_to_select = input_data.get(\"option_to_select\")\nbutton_sequence = option_map.get(option_to_select, [])\nbutton_sequence.append(\"A\")\n\nprint(json.dumps(button_sequence))",
     "history": [
       {
-        "commit_message": "feat: Create standardized XML parsing tool. This tool implements a robust and correct method for parsing the map_xml_string using explicit 'id' attributes instead of 'enumerate'. This directly addresses a recurring critical bug identified by Overwatch and provides a reusable foundation for all future map-based tools.",
-        "timestamp": "2025-08-25T19:24:48.516Z",
-        "action_counter": 167060
+        "commit_message": "feat: Create battle_menu_selector tool. Replaces failed 'select_battle_option' attempt due to reserved name. In response to a self-assessment and Overwatch critique identifying repeated hallucinations of this tool's existence, this tool is being created to prevent future errors. It automates the selection of main battle menu options, ensuring reliable and efficient navigation during combat.",
+        "timestamp": "2025-08-25T20:54:29.242Z",
+        "action_counter": 167187
       }
     ]
   },
   "use_hm_from_menu": {
-    "description": "Calculates the button presses to select a specific Pokémon in the party and use a specific move from its menu. Assumes the party menu is already open.",
+    "description": "Calculates the full sequence of button presses to open the menu, select a specific Pokémon from the party, and use one of its moves. This is ideal for automating the use of HMs in the field.",
     "input_schema": {
       "type": "object",
       "properties": {
@@ -539,12 +490,12 @@
         "current_pokemon_slot"
       ]
     },
-    "python_script": "import json\n\ndef get_presses(current, target, max_val):\n    presses = []\n    if current == target:\n        return presses\n    \n    down_dist = (target - current + max_val) % max_val\n    up_dist = (current - target + max_val) % max_val\n\n    if down_dist <= up_dist:\n        for _ in range(down_dist):\n            presses.append('Down')\n    else:\n        for _ in range(up_dist):\n            presses.append('Up')\n    return presses\n\nparty_slot = int(input_data['pokemon_slot'])\nmove_slot = int(input_data['move_slot'])\ncurrent_party_slot = int(input_data['current_pokemon_slot'])\n\n# Max 6 Pokémon in party, 4 moves per Pokémon\nMAX_PARTY = 6\nMAX_MOVES = 4\n\n# Sequence to navigate from current Pokémon to target Pokémon\nbutton_sequence = get_presses(current_party_slot, party_slot, MAX_PARTY)\n\n# Press 'A' to open the move menu for the target Pokémon\nbutton_sequence.append('A')\n\n# Sequence to navigate from the default top move to the target move\n# The cursor always starts at slot 1 in the move menu\nbutton_sequence.extend(get_presses(1, move_slot, MAX_MOVES))\n\n# Press 'A' to select and use the move\nbutton_sequence.append('A')\n\nprint(json.dumps(button_sequence))",
+    "python_script": "import json\n\ndef get_presses(current, target, max_val):\n    presses = []\n    if current == target:\n        return presses\n    down_dist = (target - current + max_val) % max_val\n    up_dist = (current - target + max_val) % max_val\n    if down_dist <= up_dist:\n        for _ in range(down_dist):\n            presses.append('Down')\n    else:\n        for _ in range(up_dist):\n            presses.append('Up')\n    return presses\n\nparty_slot = int(input_data['pokemon_slot'])\nmove_slot = int(input_data['move_slot'])\ncurrent_party_slot = int(input_data['current_pokemon_slot'])\n\nMAX_PARTY = 6\nMAX_MOVES = 4\n\nbutton_sequence = [\"Start\", \"A\"]\nbutton_sequence.extend(get_presses(current_party_slot, party_slot, MAX_PARTY))\nbutton_sequence.append('A')\nbutton_sequence.extend(get_presses(1, move_slot, MAX_MOVES))\nbutton_sequence.append('A')\n\nprint(json.dumps(button_sequence))",
     "history": [
       {
-        "commit_message": "feat: Create use_hm_from_menu tool to automate field move usage. In response to a self-assessment identifying manual menu navigation as a recurring inefficiency and point of failure, this tool calculates the optimal button sequence to select a specific Pokémon and one of its moves. This will streamline the process of using HMs like Surf and Fly, preventing errors and saving time.",
-        "timestamp": "2025-08-25T20:22:21.498Z",
-        "action_counter": 167135
+        "commit_message": "feat: Create comprehensive HM automation tool. This tool calculates the full button press sequence to open the menu and use a specific move on a specific Pokémon, replacing a manual and error-prone process. This addresses a critical inefficiency identified in self-assessment.",
+        "timestamp": "2025-08-25T20:57:21.684Z",
+        "action_counter": 167190
       }
     ]
   }
