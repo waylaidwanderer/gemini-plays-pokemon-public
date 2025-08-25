@@ -32,7 +32,7 @@
 ## B. Tile & System Mechanics (Master)
 - **Boulders:** Large rocks that can be pushed using the field move Strength. They are central to many environmental puzzles, often needing to be pushed into holes or onto switches.
 - **Cuttable Trees:** These tiles block paths and can be removed by using the field move Cut from an adjacent tile. They typically respawn after a map change.
-- **Dead End Area Definition (Corrected):** A map area is considered a 'dead end' if, from the player's current location, there is only one reachable exit group (a cluster of adjacent warps or a map connection). The key is what is reachable *from the player's current tile*, not what exists on the map globally. The system validation on Seafoam Islands B1F (Turn 166050) confirmed this, as only one warp was reachable from my position, making it a dead end, even though other warps exist elsewhere on the floor.
+- **Dead End Area Definition (Corrected):** A map area is considered a 'dead end' if there is only one reachable exit group (a cluster of adjacent warps or a map connection) on the map as a whole. Reachability is determined from any traversable tile on the map, not just the player's current position. This corrects a previous misunderstanding based on conflicting system feedback (Turn 166829 vs. 166050).
 - **Elevated Ground:** Walkable ground at a different elevation. Can only be accessed from `steps` tiles, other `elevated_ground` tiles, or warps. Direct movement between `ground` and `elevated_ground` is impossible.
 - **Grass:** Standard tall grass where wild Pokémon encounters can occur. Walkable like 'ground'.
 - **HM Forgetability:** HMs can be forgotten. (Confirmed by Scientist on Route 15 Gatehouse 2F)
