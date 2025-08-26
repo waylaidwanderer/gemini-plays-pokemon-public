@@ -537,12 +537,17 @@
         "current_move_slot"
       ]
     },
-    "python_script": "import json\n\ndef get_presses(start, end, max_val, up_key, down_key):\n    start, end, max_val = int(start), int(end), int(max_val)\n    if start == end:\n        return []\n    \n    down_dist = (end - start + max_val) % max_val\n    up_dist = (start - end + max_val) % max_val\n    \n    if down_dist <= up_dist:\n        return [down_key] * down_dist\n    else:\n        return [up_key] * up_dist\n\n\n# Main logic\n\npokemon_slot = int(input_data['pokemon_slot'])\nmove_slot = int(input_data['move_slot'])\ncurrent_pokemon_slot = int(input_data['current_pokemon_slot'])\ncurrent_move_slot = int(input_data['current_move_slot'])\n\n# Sequence to open menu and select POKéMON\n# START -> POKéMON\n# Default cursor position is on POKéDEX\n# Need one 'Down' to get to POKéMON\nsequence = ['Start', 'Down', 'A']\n\n# Navigate to the target Pokémon\nsequence.extend(get_presses(current_pokemon_slot, pokemon_slot, 6, 'Up', 'Down'))\nsequence.append('A')\n\n# Navigate to the target move\nsequence.extend(get_presses(current_move_slot, move_slot, 4, 'Up', 'Down'))\nsequence.append('A')\n\nprint(json.dumps(sequence))",
+    "python_script": "import json\n\npokemon_slot = int(input_data['pokemon_slot'])\nmove_slot = int(input_data['move_slot'])\ncurrent_pokemon_slot = int(input_data['current_pokemon_slot'])\ncurrent_move_slot = int(input_data['current_move_slot'])\n\nbutton_sequence = []\n\nbutton_sequence.append(\"Start\")\nbutton_sequence.append(\"A\")\n\npokemon_diff = pokemon_slot - current_pokemon_slot\nif pokemon_diff > 0:\n    button_sequence.extend([\"Down\"] * pokemon_diff)\nelif pokemon_diff < 0:\n    button_sequence.extend([\"Up\"] * abs(pokemon_diff))\n\nbutton_sequence.append(\"A\")\n\nmove_diff = move_slot - current_move_slot\nif move_diff > 0:\n    button_sequence.extend([\"Down\"] * move_diff)\nelif move_diff < 0:\n    button_sequence.extend([\"Up\"] * abs(move_diff))\n    \nbutton_sequence.append(\"A\")\n\nprint(json.dumps(button_sequence))",
     "history": [
       {
         "commit_message": "feat: Create generalized hm_automator tool. This replaces the single-purpose `surf_automator` and can be used for any HM, making it far more modular and efficient. This is a direct response to a self-assessment and Overwatch critique identifying a deferred maintenance task and a missed opportunity for tool improvement.",
         "timestamp": "2025-08-26T21:32:41.035Z",
         "action_counter": 167901
+      },
+      {
+        "commit_message": "fix: Correct main menu navigation logic. The tool was incorrectly pressing 'Down' instead of 'A' to enter the Pokémon list, causing HM activations to fail. This commit corrects the initial menu sequence to ensure the tool functions as intended.",
+        "timestamp": "2025-08-26T22:37:30.192Z",
+        "action_counter": 167979
       }
     ]
   },
