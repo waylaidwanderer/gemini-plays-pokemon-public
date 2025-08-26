@@ -186,6 +186,7 @@
 - **`hm_automator` Tool Idea:** Generalize the existing `surf_automator` into a more flexible tool that can handle any HM as input (e.g., Strength, Cut, Flash). This would be more modular and prevent creating redundant single-purpose tools.
 - **`debugging_assistant_agent` Agent Idea:** Create an agent that takes a tool's code, the error message, and the game state as input, and suggests a systematic debugging plan (e.g., 'Add logging to verify variable X,' 'Test with a simpler input to isolate the issue').
 - `navigation_troubleshooter` Agent Idea: Create an agent that takes `find_path` failures, reachable warps, and unseen tiles as input and suggests the next logical navigation goal to solve complex pathing puzzles.
+- `interrupt_handler_navigator` Tool Idea: Create a tool that takes a final destination, generates a path, and automatically handles interruptions like wild battles by re-pathing to the destination once the interruption is resolved.
 
 ## D. Tool Limitations (Observed)
 - **`notepad_edit` `replace` Flaw:** The `replace` action cannot distinguish between two identical strings in the notepad. If a string appears multiple times, the tool fails to replace a specific instance, making it impossible to remove targeted duplicates. (Observed Turn 162963)
@@ -221,5 +222,4 @@
 - **Tool Hallucination:** I have repeatedly attempted to call a tool (`select_battle_option`) that I hallucinated into existence. I must be more rigorous in verifying a tool's existence in the provided list before attempting to call it. (Self-correction from Turn 166978)
 - **`get_next_pokemon_press` Tool Idea:** Create a tool similar to `move_selector` that calculates the button presses needed to navigate the party menu from a current Pokémon to a target Pokémon.
 - **Gengar AI (Hypnosis Priority):** The Gengar in Seafoam Islands B4F prioritizes using Hypnosis on any active, non-sleeping Pokémon, even if it has a type immunity to Gengar's STAB moves. It will then follow up with Dream Eater. This is its core strategy.
-- `interrupt_handler_navigator` Tool Idea: Create a tool that takes a final destination, generates a path, and automatically handles interruptions like wild battles by re-pathing to the destination once the interruption is resolved.
-- **Exit Warp Anomaly (B4F):** The exit warp to Route 20 at (21, 18) is non-functional. All attempts to activate it via standard movement (Up, Down, Left, Right) or interaction (A) have failed. The warp is currently considered impassable. Must find an alternate exit.
+- **Exit Warp Anomaly (B4F - Verified):** The exit warp to Route 20 at (21, 18) is non-functional. All attempts to activate it via standard movement (Up, Down, Left, Right) or interaction (A) have failed. This confirms that some warps may be impassable despite appearing normal. I have marked this specific warp with a '🚫' on the map.
