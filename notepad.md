@@ -230,3 +230,4 @@
 
 ## C. Development Ideas & Testing Plans - Additions
 - **`endurance_battle_advisor` Agent Idea:** Create an agent that analyzes prolonged battle scenarios, like a potential battle loop. It would weigh factors like remaining PP, team health, and potential opponent strategies to advise whether continuing the battle is more efficient than a strategic blackout to reset the encounter.
+  - Normal -> Grass/Psychic (Super Effective) - Observed via BELLADONNA's CUT vs EXEGGUTOR
