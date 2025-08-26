@@ -1,4 +1,47 @@
 {
+  "battle_menu_selector": {
+    "description": "Calculates the button presses to select a main battle menu option (FIGHT, PKMN, ITEM, RUN) from the current cursor position. Should always be preferred over manual selection.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "option_to_select": {
+          "type": "string",
+          "enum": [
+            "FIGHT",
+            "PKMN",
+            "ITEM",
+            "RUN"
+          ]
+        },
+        "current_cursor_position": {
+          "type": "string",
+          "enum": [
+            "FIGHT",
+            "PKMN",
+            "ITEM",
+            "RUN"
+          ]
+        }
+      },
+      "required": [
+        "option_to_select",
+        "current_cursor_position"
+      ]
+    },
+    "python_script": "import json\n\noption_map = {\n    \"FIGHT\": 0,\n    \"PKMN\": 1,\n    \"ITEM\": 2,\n    \"RUN\": 3\n}\n\npositions = [\"FIGHT\", \"PKMN\", \"ITEM\", \"RUN\"]\n\nstart_pos = option_map.get(input_data['current_cursor_position'], 0)\ntarget_pos = option_map.get(input_data['option_to_select'], 0)\n\nbutton_sequence = []\n\n# Simple grid navigation: 0-1 are top row, 2-3 are bottom row\ncurrent_row = start_pos // 2\ncurrent_col = start_pos % 2\ntarget_row = target_pos // 2\ntarget_col = target_pos % 2\n\nif current_row != target_row:\n    button_sequence.append('Down' if target_row > current_row else 'Up')\n\nif current_col != target_col:\n    button_sequence.append('Right' if target_col > current_col else 'Left')\n\nbutton_sequence.append('A')\n\nprint(json.dumps(button_sequence))",
+    "history": [
+      {
+        "commit_message": "feat: Create battle_menu_selector tool. Replaces failed 'select_battle_option' attempt due to reserved name. In response to a self-assessment and Overwatch critique identifying repeated hallucinations of this tool's existence, this tool is being created to prevent future errors. It automates the selection of main battle menu options, ensuring reliable and efficient navigation during combat.",
+        "timestamp": "2025-08-25T20:54:29.242Z",
+        "action_counter": 167187
+      },
+      {
+        "commit_message": "refactor: Add current_cursor_position parameter. In response to a self-assessment identifying a critical flaw, this commit refactors the tool to calculate navigation from the actual cursor position instead of assuming it always starts at 'FIGHT'. This makes the tool robust and prevents future battle menu errors.",
+        "timestamp": "2025-08-25T21:30:21.669Z",
+        "action_counter": 167236
+      }
+    ]
+  },
   "boulder_puzzle_solver": {
     "description": "Solves boulder puzzles on a given map by finding the sequence of moves to push all boulders into all holes. Uses a Breadth-First Search algorithm on game states (player position + boulder positions).",
     "input_schema": {},
@@ -436,49 +479,6 @@
         "commit_message": "fix: Remove invalid steps-to-water transition logic. The tool was generating invalid paths by allowing movement from 'steps' directly into 'water'. This commit removes the flawed logic, correcting a regression and ensuring the pathfinder adheres to valid game mechanics. This is a critical fix for navigation in areas with mixed water and elevated terrain.",
         "timestamp": "2025-08-25T02:05:37.816Z",
         "action_counter": 166183
-      }
-    ]
-  },
-  "battle_menu_selector": {
-    "description": "Calculates the button presses to select a main battle menu option (FIGHT, PKMN, ITEM, RUN) from the current cursor position. Should always be preferred over manual selection.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "option_to_select": {
-          "type": "string",
-          "enum": [
-            "FIGHT",
-            "PKMN",
-            "ITEM",
-            "RUN"
-          ]
-        },
-        "current_cursor_position": {
-          "type": "string",
-          "enum": [
-            "FIGHT",
-            "PKMN",
-            "ITEM",
-            "RUN"
-          ]
-        }
-      },
-      "required": [
-        "option_to_select",
-        "current_cursor_position"
-      ]
-    },
-    "python_script": "import json\n\noption_map = {\n    \"FIGHT\": 0,\n    \"PKMN\": 1,\n    \"ITEM\": 2,\n    \"RUN\": 3\n}\n\npositions = [\"FIGHT\", \"PKMN\", \"ITEM\", \"RUN\"]\n\nstart_pos = option_map.get(input_data['current_cursor_position'], 0)\ntarget_pos = option_map.get(input_data['option_to_select'], 0)\n\nbutton_sequence = []\n\n# Simple grid navigation: 0-1 are top row, 2-3 are bottom row\ncurrent_row = start_pos // 2\ncurrent_col = start_pos % 2\ntarget_row = target_pos // 2\ntarget_col = target_pos % 2\n\nif current_row != target_row:\n    button_sequence.append('Down' if target_row > current_row else 'Up')\n\nif current_col != target_col:\n    button_sequence.append('Right' if target_col > current_col else 'Left')\n\nbutton_sequence.append('A')\n\nprint(json.dumps(button_sequence))",
-    "history": [
-      {
-        "commit_message": "feat: Create battle_menu_selector tool. Replaces failed 'select_battle_option' attempt due to reserved name. In response to a self-assessment and Overwatch critique identifying repeated hallucinations of this tool's existence, this tool is being created to prevent future errors. It automates the selection of main battle menu options, ensuring reliable and efficient navigation during combat.",
-        "timestamp": "2025-08-25T20:54:29.242Z",
-        "action_counter": 167187
-      },
-      {
-        "commit_message": "refactor: Add current_cursor_position parameter. In response to a self-assessment identifying a critical flaw, this commit refactors the tool to calculate navigation from the actual cursor position instead of assuming it always starts at 'FIGHT'. This makes the tool robust and prevents future battle menu errors.",
-        "timestamp": "2025-08-25T21:30:21.669Z",
-        "action_counter": 167236
       }
     ]
   },
