@@ -555,5 +555,39 @@
         "action_counter": 167215
       }
     ]
+  },
+  "hm_automator": {
+    "description": "Calculates the button presses to open the menu, select a Pokémon, and use one of its moves. Generalizes the old surf_automator.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "pokemon_slot": {
+          "type": "string"
+        },
+        "move_slot": {
+          "type": "string"
+        },
+        "current_pokemon_slot": {
+          "type": "string"
+        },
+        "current_move_slot": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "pokemon_slot",
+        "move_slot",
+        "current_pokemon_slot",
+        "current_move_slot"
+      ]
+    },
+    "python_script": "import json\n\ndef get_presses(start, end, max_val, up_key, down_key):\n    start, end, max_val = int(start), int(end), int(max_val)\n    if start == end:\n        return []\n    \n    down_dist = (end - start + max_val) % max_val\n    up_dist = (start - end + max_val) % max_val\n    \n    if down_dist <= up_dist:\n        return [down_key] * down_dist\n    else:\n        return [up_key] * up_dist\n\n\n# Main logic\n\npokemon_slot = int(input_data['pokemon_slot'])\nmove_slot = int(input_data['move_slot'])\ncurrent_pokemon_slot = int(input_data['current_pokemon_slot'])\ncurrent_move_slot = int(input_data['current_move_slot'])\n\n# Sequence to open menu and select POKéMON\n# START -> POKéMON\n# Default cursor position is on POKéDEX\n# Need one 'Down' to get to POKéMON\nsequence = ['Start', 'Down', 'A']\n\n# Navigate to the target Pokémon\nsequence.extend(get_presses(current_pokemon_slot, pokemon_slot, 6, 'Up', 'Down'))\nsequence.append('A')\n\n# Navigate to the target move\nsequence.extend(get_presses(current_move_slot, move_slot, 4, 'Up', 'Down'))\nsequence.append('A')\n\nprint(json.dumps(sequence))",
+    "history": [
+      {
+        "commit_message": "feat: Create generalized hm_automator tool. This replaces the single-purpose `surf_automator` and can be used for any HM, making it far more modular and efficient. This is a direct response to a self-assessment and Overwatch critique identifying a deferred maintenance task and a missed opportunity for tool improvement.",
+        "timestamp": "2025-08-26T21:32:41.035Z",
+        "action_counter": 167901
+      }
+    ]
   }
 }

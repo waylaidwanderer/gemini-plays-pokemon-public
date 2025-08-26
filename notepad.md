@@ -178,7 +178,7 @@
   - `auto_switcher` (Turn 155341): Automates Pokémon switch sequences.
   - `pc_withdraw_pokemon` (Turn 157056): Automates withdrawing a Pokémon from the PC.
   - `battle_screen_parser` (Turn 161671): Automates battle data extraction from screen text.
-  - `surf_automator` (Turn 164380): Automates the button sequence for using Surf.
+  - `surf_automator` (Turn 164380): DEPRECATED. Replaced by `hm_automator`.
   - `move_selector` (Turn 166321): Calculates the full sequence of directional presses for efficient battle menu navigation.
   - `boulder_puzzle_solver` (Turn 166499): Automates the solution-finding process for boulder puzzles. Status: Fully functional after extensive debugging of parsing and coordinate output.
 
