@@ -223,3 +223,4 @@
 ### Nurse Joy (Fuchsia City)
   - KANGASKHAN (Lv 65) - Known Moves: DOUBLE-EDGE
   - SNORLAX (Lv 65) - Known Moves: DOUBLE TEAM, AMNESIA, REST
+  - Ice -> Poison/Flying (Super Effective)
