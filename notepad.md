@@ -231,3 +231,8 @@
 ## C. Development Ideas & Testing Plans - Additions
 - **`endurance_battle_advisor` Agent Idea:** Create an agent that analyzes prolonged battle scenarios, like a potential battle loop. It would weigh factors like remaining PP, team health, and potential opponent strategies to advise whether continuing the battle is more efficient than a strategic blackout to reset the encounter.
   - Normal -> Grass/Psychic (Super Effective) - Observed via BELLADONNA's CUT vs EXEGGUTOR
+### Nurse Joy (Fuchsia City)
+- KANGASKHAN (Lv ??) - Moves unknown.
+- SNORLAX (Lv ??) - Known Moves: REST, AMNESIA, DOUBLE TEAM, ICE BEAM
+- STARMIE (Lv ??) - Known Moves: THUNDER WAVE, PSYCHIC
+- EXEGGUTOR (Lv 65) - Known Moves: SOFTBOILED, SLEEP POWDER, DREAM EATER
