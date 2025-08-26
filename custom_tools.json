@@ -28,7 +28,7 @@
         "current_cursor_position"
       ]
     },
-    "python_script": "import json\n\noption_map = {\n    \"FIGHT\": 0,\n    \"PKMN\": 1,\n    \"ITEM\": 2,\n    \"RUN\": 3\n}\n\nstart_pos = option_map.get(input_data['current_cursor_position'], 0)\ntarget_pos = option_map.get(input_data['option_to_select'], 0)\n\nbutton_sequence = []\n\ncurrent_row = start_pos // 2\ncurrent_col = start_pos % 2\ntarget_row = target_pos // 2\ntarget_col = target_pos % 2\n\nif current_row != target_row:\n    button_sequence.append('Down' if target_row > current_row else 'Up')\n\nif current_col != target_col:\n    button_sequence.append('Right' if target_col > current_col else 'Left')\n\nprint(json.dumps(button_sequence))",
+    "python_script": "import json\n\noption = input_data['option_to_select']\ncurrent_pos = input_data['current_cursor_position']\n\npositions = {\n    'FIGHT': (0, 0),\n    'PKMN': (1, 0),\n    'ITEM': (0, 1),\n    'RUN': (1, 1)\n}\n\nstart_x, start_y = positions[current_pos]\ntarget_x, target_y = positions[option]\n\ndx = target_x - start_x\ndy = target_y - start_y\n\nmoves = []\nif dx > 0:\n    moves.extend(['Right'] * dx)\nelif dx < 0:\n    moves.extend(['Left'] * abs(dx))\n\nif dy > 0:\n    moves.extend(['Down'] * dy)\nelif dy < 0:\n    moves.extend(['Up'] * abs(dy))\n\nprint(json.dumps(moves))",
     "history": [
       {
         "commit_message": "feat: Create battle_menu_selector tool. Replaces failed 'select_battle_option' attempt due to reserved name. In response to a self-assessment and Overwatch critique identifying repeated hallucinations of this tool's existence, this tool is being created to prevent future errors. It automates the selection of main battle menu options, ensuring reliable and efficient navigation during combat.",
@@ -44,6 +44,11 @@
         "commit_message": "fix: Remove 'A' button from output sequence. The tool was generating a mixed directional and action button sequence, causing system input errors. This change makes the tool compliant with the input system by only outputting the necessary directional presses. The user must now press 'A' manually on a subsequent turn.",
         "timestamp": "2025-08-26T04:26:50.388Z",
         "action_counter": 167501
+      },
+      {
+        "commit_message": "feat: Create battle_menu_selector tool. In response to a mandatory self-assessment identifying repeated misuse of `select_battle_option`, this tool is being created to enforce better situational awareness. By requiring `current_cursor_position` as an input, it prevents the error of calling a selection tool from the wrong menu state and makes battle navigation more robust and reliable.",
+        "timestamp": "2025-08-26T19:43:16.117Z",
+        "action_counter": 167797
       }
     ]
   },

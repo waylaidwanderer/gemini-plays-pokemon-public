@@ -22,6 +22,7 @@
 - **Recurring XML Parsing Bug:** I have repeatedly made the same error in my custom tools (`boulder_puzzle_solver`, `find_path`) by using `enumerate` to parse map XML instead of the correct `id` attributes. This leads to critical failures. **Correction:** I must establish a standard, reusable function or code snippet for parsing map data to avoid this error in all future tool development.
 - **Tool Hallucination & Deferred Maintenance (Overwatch Critique):** I attempted to call a non-existent tool (`select_battle_option`) and deferred the creation of a needed tool (`use_hm_from_menu`) for over 10 turns while in a critical situation. This is a direct violation of the immediate action mandate. **Correction:** I must verify a tool's existence before calling it and perform all maintenance tasks in the same turn they are identified, as this is my highest priority.
 - **Systematic Failure (Overwatch Critique, Turn 167201 & Self-Assessment, Turn 167389):** I have repeatedly failed at my core directives. Past failures included underutilizing agents, hallucinating tools, and imprecise notepad edits. More recent failures (Turns 167268-167318) show a continued pattern of **Deferred Tool Maintenance**, where I failed to immediately fix the critically broken `find_path` tool, violating the immediate action mandate. I also exhibited **Confirmation Bias** by spending over 10 turns trying to activate a non-functional warp in Seafoam Islands instead of pivoting strategy. Most critically, I suffered a **Severe Observational Hallucination** (Turn 167349), inventing an opponent (Sandslash) that was not present and polluting my notepad with false data, directly contradicting the Game State's source of truth (Kangaskhan). **Correction:** All maintenance is my absolute highest priority and must be performed immediately and precisely. I must treat the Game State Information as infallible and question my own perceptions first. I will be more aggressive in abandoning failing hypotheses.
+- **Observational Failure (PP Blindness):** During the battle with Nurse Joy's Exeggutor, I repeatedly based my strategy on using ICE BEAM without ever checking its PP. I was completely out of PP and failed to notice for multiple turns, a critical hallucination that led to a failed strategy. **Correction:** I must make checking move PP a mandatory part of my battle analysis loop, especially during prolonged encounters.
 
 # II. Game Mechanics & World Knowledge
 
@@ -87,11 +88,13 @@
   - Ice -> Rock/Ground (Super Effective)
   - Ice -> Water/Psychic (Not Very Effective)
   - Normal -> Ghost (Immune)
+  - Normal -> Grass/Psychic (Super Effective)
   - Normal -> Rock/Flying (Not Very Effective)
   - Poison -> Bug (Super Effective)
   - Psychic -> Poison (Super Effective)
   - Rock -> Ground (Not Very Effective)
   - Rock -> Flying (Super Effective)
+  - Water -> Grass/Psychic (Not Very Effective)
   - Water -> Water (Not Very Effective)
   - Water -> Water/Psychic (Not Very Effective)
 
@@ -139,6 +142,12 @@
   - BLASTOISE (Lv 64) - Known Moves: SURF, ICE BEAM, EARTHQUAKE
   - VAPOREON (Lv 64) - Known Moves: HYDRO PUMP, ACID ARMOR
   - STARMIE (Lv 65) - Known Moves: THUNDERBOLT
+
+### Nurse Joy (Fuchsia City)
+  - KANGASKHAN (Lv ??) - Moves unknown.
+  - SNORLAX (Lv ??) - Known Moves: REST, AMNESIA, DOUBLE TEAM, ICE BEAM
+  - STARMIE (Lv ??) - Known Moves: THUNDER WAVE, PSYCHIC
+  - EXEGGUTOR (Lv 65) - Known Moves: SOFTBOILED, SLEEP POWDER, DREAM EATER
 
 ## C. Battle Mechanics (Anomalies & Hypotheses)
 - **Speed Tie Assumption:** I must not assume a speed advantage in battle unless empirically verified in the current battle. An opponent may be faster than expected. (Lesson from Lorelei's Lapras vs SPARKY)
@@ -221,18 +230,3 @@
 - **`get_next_pokemon_press` Tool Idea:** Create a tool similar to `move_selector` that calculates the button presses needed to navigate the party menu from a current Pokémon to a target Pokémon.
 - **Gengar AI (Hypnosis Priority):** The Gengar in Seafoam Islands B4F prioritizes using Hypnosis on any active, non-sleeping Pokémon, even if it has a type immunity to Gengar's STAB moves. It will then follow up with Dream Eater. This is its core strategy.
 - **Exit Warp Anomaly (B4F - Verified):** The exit warp to Route 20 at (21, 18) is non-functional. All attempts to activate it via standard movement (Up, Down, Left, Right) or interaction (A) have failed. This confirms that some warps may be impassable despite appearing normal. I have marked this specific warp with a '🚫' on the map.
-
-  - Ice -> Poison/Flying (Super Effective)
-- **Observational Failure (PP Blindness):** During the battle with Nurse Joy's Exeggutor, I repeatedly based my strategy on using ICE BEAM without ever checking its PP. I was completely out of PP and failed to notice for multiple turns, a critical hallucination that led to a failed strategy. **Correction:** I must make checking move PP a mandatory part of my battle analysis loop, especially during prolonged encounters.
-  - Water -> Grass/Psychic (Not Very Effective)
-### Nurse Joy (Fuchsia City) - Additional Moves
-- EXEGGUTOR (Lv 65) - Known Moves: SOFTBOILED, SLEEP POWDER, DREAM EATER
-
-## C. Development Ideas & Testing Plans - Additions
-- **`endurance_battle_advisor` Agent Idea:** Create an agent that analyzes prolonged battle scenarios, like a potential battle loop. It would weigh factors like remaining PP, team health, and potential opponent strategies to advise whether continuing the battle is more efficient than a strategic blackout to reset the encounter.
-  - Normal -> Grass/Psychic (Super Effective) - Observed via BELLADONNA's CUT vs EXEGGUTOR
-### Nurse Joy (Fuchsia City)
-  - KANGASKHAN (Lv ??) - Moves unknown.
-  - SNORLAX (Lv ??) - Known Moves: REST, AMNESIA, DOUBLE TEAM, ICE BEAM
-  - STARMIE (Lv ??) - Known Moves: THUNDER WAVE, PSYCHIC
-  - EXEGGUTOR (Lv 65) - Known Moves: SOFTBOILED, SLEEP POWDER, DREAM EATER
