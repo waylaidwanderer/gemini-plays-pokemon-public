@@ -225,3 +225,4 @@
 - **Exit Warp Anomaly (B4F - Verified):** The exit warp to Route 20 at (21, 18) is non-functional. All attempts to activate it via standard movement (Up, Down, Left, Right) or interaction (A) have failed. This confirms that some warps may be impassable despite appearing normal. I have marked this specific warp with a '🚫' on the map.
 ### Nurse Joy (Fuchsia City)
   - KANGASKHAN (Lv 65) - Known Moves: DOUBLE-EDGE
+  - SNORLAX (Lv 65) - Moves unknown.
