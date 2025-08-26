@@ -224,6 +224,7 @@
 ### Nurse Joy (Fuchsia City)
   - KANGASKHAN (Lv 65) - Known Moves: DOUBLE-EDGE
   - SNORLAX (Lv 65) - Known Moves: DOUBLE TEAM, AMNESIA, REST
+
   - Ice -> Poison/Flying (Super Effective)
 - **Observational Failure (PP Blindness):** During the battle with Nurse Joy's Exeggutor, I repeatedly based my strategy on using ICE BEAM without ever checking its PP. I was completely out of PP and failed to notice for multiple turns, a critical hallucination that led to a failed strategy. **Correction:** I must make checking move PP a mandatory part of my battle analysis loop, especially during prolonged encounters.
   - Water -> Grass/Psychic (Not Very Effective)
