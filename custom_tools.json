@@ -517,45 +517,6 @@
       }
     ]
   },
-  "hm_automator": {
-    "description": "Calculates the button presses to open the menu, select a Pokémon, and use one of its moves. Generalizes the old surf_automator.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "pokemon_slot": {
-          "type": "string"
-        },
-        "move_slot": {
-          "type": "string"
-        },
-        "current_pokemon_slot": {
-          "type": "string"
-        },
-        "current_move_slot": {
-          "type": "string"
-        }
-      },
-      "required": [
-        "pokemon_slot",
-        "move_slot",
-        "current_pokemon_slot",
-        "current_move_slot"
-      ]
-    },
-    "python_script": "import json\n\npokemon_slot = int(input_data['pokemon_slot'])\nmove_slot = int(input_data['move_slot'])\ncurrent_pokemon_slot = int(input_data['current_pokemon_slot'])\ncurrent_move_slot = int(input_data['current_move_slot'])\n\nbutton_sequence = []\n\nbutton_sequence.append(\"Start\")\nbutton_sequence.append(\"A\")\n\npokemon_diff = pokemon_slot - current_pokemon_slot\nif pokemon_diff > 0:\n    button_sequence.extend([\"Down\"] * pokemon_diff)\nelif pokemon_diff < 0:\n    button_sequence.extend([\"Up\"] * abs(pokemon_diff))\n\nbutton_sequence.append(\"A\")\n\nmove_diff = move_slot - current_move_slot\nif move_diff > 0:\n    button_sequence.extend([\"Down\"] * move_diff)\nelif move_diff < 0:\n    button_sequence.extend([\"Up\"] * abs(move_diff))\n    \nbutton_sequence.append(\"A\")\n\nprint(json.dumps(button_sequence))",
-    "history": [
-      {
-        "commit_message": "feat: Create generalized hm_automator tool. This replaces the single-purpose `surf_automator` and can be used for any HM, making it far more modular and efficient. This is a direct response to a self-assessment and Overwatch critique identifying a deferred maintenance task and a missed opportunity for tool improvement.",
-        "timestamp": "2025-08-26T21:32:41.035Z",
-        "action_counter": 167901
-      },
-      {
-        "commit_message": "fix: Correct main menu navigation logic. The tool was incorrectly pressing 'Down' instead of 'A' to enter the Pokémon list, causing HM activations to fail. This commit corrects the initial menu sequence to ensure the tool functions as intended.",
-        "timestamp": "2025-08-26T22:37:30.192Z",
-        "action_counter": 167979
-      }
-    ]
-  },
   "map_data_parser": {
     "description": "Parses the map_xml_string to extract key map data, including dimensions, and a list of all tiles with their coordinates, type, and any objects. Standardizes map data access for other tools.",
     "input_schema": {
@@ -568,6 +529,32 @@
         "commit_message": "feat: Create standardized map_data_parser tool. In response to a self-assessment and Overwatch critique identifying repeated XML parsing bugs and deferred maintenance, this tool provides a single, reliable interface for accessing map data. It will prevent future parsing errors and streamline the development of all subsequent map-based tools.",
         "timestamp": "2025-08-26T22:05:16.578Z",
         "action_counter": 167953
+      }
+    ]
+  },
+  "menu_navigator": {
+    "description": "Calculates the directional button presses to navigate from a current cursor position to a target item in a list-based menu, based on the provided screen text.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "menu_text": {
+          "type": "string"
+        },
+        "target_item": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "menu_text",
+        "target_item"
+      ]
+    },
+    "python_script": "import json\n\nmenu_text = input_data['menu_text']\ntarget_item = input_data['target_item']\n\nlines = menu_text.strip().split('\\n')\nmenu_items = []\ncurrent_selection_index = -1\n\nfor i, line in enumerate(lines):\n    cleaned_line = line.strip()\n    if cleaned_line.startswith('→'):\n        current_selection_index = len(menu_items)\n        item_name = cleaned_line.replace('→', '').strip()\n    else:\n        item_name = cleaned_line\n    menu_items.append(item_name)\n\ntry:\n    target_index = menu_items.index(target_item)\nexcept ValueError:\n    print(json.dumps({'error': f'Target item \"{target_item}\" not found in menu.'}))\n    exit()\n\nvertical_moves = target_index - current_selection_index\npresses = []\nif vertical_moves > 0:\n    presses.extend(['Down'] * vertical_moves)\nelif vertical_moves < 0:\n    presses.extend(['Up'] * abs(vertical_moves))\n\nprint(json.dumps({'buttons': presses}))",
+    "history": [
+      {
+        "commit_message": "feat: Create menu_navigator tool. This replaces the fundamentally flawed `hm_automator`. Instead of hardcoding menu paths, it dynamically calculates the required Up/Down presses based on the current menu text and a target item. This is a more robust and flexible solution for all future menu navigation tasks.",
+        "timestamp": "2025-08-26T23:52:57.102Z",
+        "action_counter": 168109
       }
     ]
   }
