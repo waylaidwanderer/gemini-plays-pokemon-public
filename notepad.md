@@ -223,3 +223,5 @@
 - **`get_next_pokemon_press` Tool Idea:** Create a tool similar to `move_selector` that calculates the button presses needed to navigate the party menu from a current Pokémon to a target Pokémon.
 - **Gengar AI (Hypnosis Priority):** The Gengar in Seafoam Islands B4F prioritizes using Hypnosis on any active, non-sleeping Pokémon, even if it has a type immunity to Gengar's STAB moves. It will then follow up with Dream Eater. This is its core strategy.
 - **Exit Warp Anomaly (B4F - Verified):** The exit warp to Route 20 at (21, 18) is non-functional. All attempts to activate it via standard movement (Up, Down, Left, Right) or interaction (A) have failed. This confirms that some warps may be impassable despite appearing normal. I have marked this specific warp with a '🚫' on the map.
+### Nurse Joy (Fuchsia City)
+  - SANDSLASH (Lv ??) - Moves unknown.
