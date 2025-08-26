@@ -1,6 +1,6 @@
 {
   "battle_menu_selector": {
-    "description": "Calculates the button presses to select a main battle menu option (FIGHT, PKMN, ITEM, RUN) from the current cursor position. Should always be preferred over manual selection.",
+    "description": "Calculates the directional button presses to select a main battle menu option (FIGHT, PKMN, ITEM, RUN) from the current cursor position. The 'A' button must be pressed separately.",
     "input_schema": {
       "type": "object",
       "properties": {
@@ -28,7 +28,7 @@
         "current_cursor_position"
       ]
     },
-    "python_script": "import json\n\noption_map = {\n    \"FIGHT\": 0,\n    \"PKMN\": 1,\n    \"ITEM\": 2,\n    \"RUN\": 3\n}\n\npositions = [\"FIGHT\", \"PKMN\", \"ITEM\", \"RUN\"]\n\nstart_pos = option_map.get(input_data['current_cursor_position'], 0)\ntarget_pos = option_map.get(input_data['option_to_select'], 0)\n\nbutton_sequence = []\n\n# Simple grid navigation: 0-1 are top row, 2-3 are bottom row\ncurrent_row = start_pos // 2\ncurrent_col = start_pos % 2\ntarget_row = target_pos // 2\ntarget_col = target_pos % 2\n\nif current_row != target_row:\n    button_sequence.append('Down' if target_row > current_row else 'Up')\n\nif current_col != target_col:\n    button_sequence.append('Right' if target_col > current_col else 'Left')\n\nbutton_sequence.append('A')\n\nprint(json.dumps(button_sequence))",
+    "python_script": "import json\n\noption_map = {\n    \"FIGHT\": 0,\n    \"PKMN\": 1,\n    \"ITEM\": 2,\n    \"RUN\": 3\n}\n\nstart_pos = option_map.get(input_data['current_cursor_position'], 0)\ntarget_pos = option_map.get(input_data['option_to_select'], 0)\n\nbutton_sequence = []\n\ncurrent_row = start_pos // 2\ncurrent_col = start_pos % 2\ntarget_row = target_pos // 2\ntarget_col = target_pos % 2\n\nif current_row != target_row:\n    button_sequence.append('Down' if target_row > current_row else 'Up')\n\nif current_col != target_col:\n    button_sequence.append('Right' if target_col > current_col else 'Left')\n\nprint(json.dumps(button_sequence))",
     "history": [
       {
         "commit_message": "feat: Create battle_menu_selector tool. Replaces failed 'select_battle_option' attempt due to reserved name. In response to a self-assessment and Overwatch critique identifying repeated hallucinations of this tool's existence, this tool is being created to prevent future errors. It automates the selection of main battle menu options, ensuring reliable and efficient navigation during combat.",
@@ -39,6 +39,11 @@
         "commit_message": "refactor: Add current_cursor_position parameter. In response to a self-assessment identifying a critical flaw, this commit refactors the tool to calculate navigation from the actual cursor position instead of assuming it always starts at 'FIGHT'. This makes the tool robust and prevents future battle menu errors.",
         "timestamp": "2025-08-25T21:30:21.669Z",
         "action_counter": 167236
+      },
+      {
+        "commit_message": "fix: Remove 'A' button from output sequence. The tool was generating a mixed directional and action button sequence, causing system input errors. This change makes the tool compliant with the input system by only outputting the necessary directional presses. The user must now press 'A' manually on a subsequent turn.",
+        "timestamp": "2025-08-26T04:26:50.388Z",
+        "action_counter": 167501
       }
     ]
   },
