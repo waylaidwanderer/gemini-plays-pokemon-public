@@ -256,3 +256,11 @@
   - **Hypothesis:** Pushing the boulder at (6, 15) north will move it.
   - **Test:** Pressed 'Up'.
   - **Conclusion:** Boulder did not move. The tile at (6, 14) is impassable, blocking the push. Hypothesis denied.
+- **Agent Hypothesis 1 (Failed):** Push the boulder at (6, 15) east by standing at (5, 15).
+  - **Reasoning:** Agent suggested a logical move to align the boulder with a hole.
+  - **Test:** Used `find_path` to navigate to (5, 15).
+  - **Conclusion:** Path is blocked. The required standing position (5, 15) is unreachable from (6, 16). Hypothesis denied.
+- **New Hypothesis (Pikachu Swap):** The puzzle requires swapping positions with Pikachu.
+  - **Observation:** Pikachu is at (6, 17), directly below me. A documented mechanic allows swapping positions with this specific Pikachu.
+  - **Hypothesis:** Moving down onto Pikachu's tile will swap our positions, placing me at (6, 17) and opening new movement options.
+  - **Test:** Press 'Down' from (6, 16).
