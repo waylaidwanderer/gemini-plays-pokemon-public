@@ -264,3 +264,4 @@
   - **Observation:** Pikachu is at (6, 17), directly below me. A documented mechanic allows swapping positions with this specific Pikachu.
   - **Hypothesis:** Moving down onto Pikachu's tile will swap our positions, placing me at (6, 17) and opening new movement options.
   - **Test:** Press 'Down' from (6, 16).
+- **Agent Hypothesis 2 (Partially Successful):** Push the boulder at (6, 15) east. Test: Swapped with Pikachu to reach (6, 17), then navigated to (7, 15) and pushed the boulder west to (5, 15), then repositioned to (6, 15) and pushed it again to (4, 15). Conclusion: Pushing west was successful and has aligned the boulder with the hole at (4, 17). However, the final push south is blocked because the required standing position at (4, 14) is an impassable tile.
