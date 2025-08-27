@@ -204,7 +204,7 @@
 - `interrupt_handler_navigator` Tool Idea: Create a tool that takes a final destination, generates a path, and automatically handles interruptions like wild battles by re-pathing to the destination once the interruption is resolved.
 
 ## D. Tool Limitations (Observed)
-- **`hm_automator` Unreliability:** The tool is fundamentally unreliable due to the game's inconsistent party menu cursor anomaly, which can cause it to select the wrong Pokémon or move, trapping the player in a menu. Manual button presses are a safer alternative for critical HM usage.
+
 - **`notepad_edit` `replace` Flaw:** The `replace` action cannot distinguish between two identical strings in the notepad. If a string appears multiple times, the tool fails to replace a specific instance, making it impossible to remove targeted duplicates. (Observed Turn 162963)
 - **`find_path` Tool (Correct Functionality Confirmed):** The tool previously appeared to fail in areas like Cerulean City and Seafoam Islands. However, diagnostic logging confirmed the tool was functioning correctly and accurately reporting that no path existed between disconnected map segments. This was a user assumption error, not a tool flaw.
 - **`map_obstacle_detector` Tool (Correct Functionality Confirmed):** The tool repeatedly failed to identify major landmasses on Route 20. After extensive debugging, I realized the tool was functioning correctly. It was identifying the islands as being connected to the impassable map border, thus classifying them as a single, large boundary component which my heuristic correctly filtered out. My assumption that the islands were isolated obstacles was the source of the error, not the tool's logic. (Self-correction Turn 166251)

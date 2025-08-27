@@ -549,12 +549,17 @@
         "target_item"
       ]
     },
-    "python_script": "import json\n\nmenu_text = input_data['menu_text']\ntarget_item = input_data['target_item']\n\nlines = menu_text.strip().split('\\n')\nmenu_items = []\ncurrent_selection_index = -1\n\nfor i, line in enumerate(lines):\n    cleaned_line = line.strip()\n    if cleaned_line.startswith('→'):\n        current_selection_index = len(menu_items)\n        item_name = cleaned_line.replace('→', '').strip()\n    else:\n        item_name = cleaned_line\n    menu_items.append(item_name)\n\ntry:\n    target_index = menu_items.index(target_item)\nexcept ValueError:\n    print(json.dumps({'error': f'Target item \"{target_item}\" not found in menu.'}))\n    exit()\n\nvertical_moves = target_index - current_selection_index\npresses = []\nif vertical_moves > 0:\n    presses.extend(['Down'] * vertical_moves)\nelif vertical_moves < 0:\n    presses.extend(['Up'] * abs(vertical_moves))\n\nprint(json.dumps({'buttons': presses}))",
+    "python_script": "import json\nmenu_text = input_data['menu_text']\ntarget_item = input_data['target_item']\nlines = menu_text.strip().split('\\n')\ncursor_char = '→'\ncurrent_index = -1\nmenu_items = []\nfor i, line in enumerate(lines):\n    clean_line = line.strip()\n    if clean_line.startswith(cursor_char):\n        current_index = i\n        item_text = clean_line.replace(cursor_char, '').strip()\n        menu_items.append(item_text)\n    else:\n        menu_items.append(clean_line)\ntry:\n    target_index = menu_items.index(target_item)\nexcept ValueError:\n    print(json.dumps([]))\n    exit()\nif current_index == -1:\n    print(json.dumps([]))\n    exit()\ndelta = target_index - current_index\nbutton_sequence = []\nif delta > 0:\n    button_sequence = ['Down'] * delta\nelif delta < 0:\n    button_sequence = ['Up'] * abs(delta)\nprint(json.dumps(button_sequence))",
     "history": [
       {
         "commit_message": "feat: Create menu_navigator tool. This replaces the fundamentally flawed `hm_automator`. Instead of hardcoding menu paths, it dynamically calculates the required Up/Down presses based on the current menu text and a target item. This is a more robust and flexible solution for all future menu navigation tasks.",
         "timestamp": "2025-08-26T23:52:57.102Z",
         "action_counter": 168109
+      },
+      {
+        "commit_message": "fix: Correct tool output format for autopress. The tool was outputting a JSON object `{\"buttons\": [...]}` instead of a raw JSON array `[...]`, causing autopress to fail. This commit corrects the final print statement to output the required format.",
+        "timestamp": "2025-08-26T23:55:42.415Z",
+        "action_counter": 168115
       }
     ]
   }
