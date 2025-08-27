@@ -250,3 +250,4 @@
 - **Strength Deactivation:** HM Strength deactivates after a wild battle and must be reactivated to push boulders. (Observed on Seafoam Islands B3F, Turn 168544)
 - **`systematic_search_path_generator` Tool Idea:** Create a tool that takes a bounding box of coordinates and generates a path that systematically sweeps the entire area to search for hidden passages.
 - **`hidden_passage_finder` Agent Idea:** Create an agent that takes a map summary and a goal, and if a direct path is blocked, it hypothesizes the existence and likely locations of hidden passages, guiding a systematic search.
+- **`situational_awareness_auditor` Agent Idea (High Priority):** Create an agent that cross-references my stated location and map ID with the actual game state data to flag hallucinations before I can act on them. This is a direct response to repeated validation failures.
