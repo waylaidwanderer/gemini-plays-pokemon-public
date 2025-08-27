@@ -181,28 +181,29 @@
   - `auto_switcher` (Turn 155341): Automates Pokémon switch sequences.
   - `pc_withdraw_pokemon` (Turn 157056): Automates withdrawing a Pokémon from the PC.
   - `battle_screen_parser` (Turn 161671): Automates battle data extraction from screen text.
-  
   - `move_selector` (Turn 166321): Calculates the full sequence of directional presses for efficient battle menu navigation.
   - `boulder_puzzle_solver` (Turn 166499): Automates the solution-finding process for boulder puzzles. Status: Fully functional after extensive debugging of parsing and coordinate output.
 
-## C. Development Ideas & Testing Plans
+## C. Development Ideas & Testing Plans (Consolidated)
 - **Water Boulder Mechanics:** Hypothesis: Water boulders may not require Strength to be active. Test: After solving the current puzzle, find another water boulder and attempt to interact with it *without* Strength active. Record the outcome.
-- **`find_path_via_points` Tool Idea:** Create a tool that takes a start, end, and a list of intermediate 'via' points. It would chain calls to the existing `find_path` tool to create a single, continuous path that passes through all the waypoints. This would automate the manual, chunk-based navigation I am currently performing on complex routes like Route 20.
-- **`find_closest_target` Tool Idea:** Create a tool that takes the player's current coordinates and a list of target coordinates as input, then returns the coordinates of the target that is the shortest Manhattan distance away. This would automate the process of selecting the next closest trainer to battle.
+- **`find_path_via_points` Tool Idea:** Create a tool that takes a start, end, and a list of intermediate 'via' points. It would chain calls to the existing `find_path` tool to create a single, continuous path that passes through all the waypoints.
+- **`find_closest_target` Tool Idea:** Create a tool that takes the player's current coordinates and a list of target coordinates as input, then returns the coordinates of the target that is the shortest Manhattan distance away.
 - **`ai_move_predictor` Agent Idea:** Create an agent that takes the opponent's known moves, my active Pokémon, and my full party as input to predict the most likely move the AI will use.
 - **`multi_team_synergy_analyzer` Agent Idea:** Create an agent that takes my full PC box and party as input and suggests multiple viable team compositions (not just one) for various challenges, explaining the synergies and strategies for each.
-- **`situational_awareness_auditor` Agent Idea:** Create an agent that cross-references my stated location and map ID with the actual game state data to flag hallucinations before I can act on them. This would be a critical tool for maintaining accurate situational awareness.
-- **`menu_navigator` Tool Idea:** A tool that takes the current menu text as input and generates the correct button sequence to navigate to a specified target (e.g., a specific item, Pokémon, or simply 'exit to overworld'). This would automate the tedious and error-prone manual menu navigation.
-- **Advanced Notepad Editor Tool Idea:** Create a tool that can manipulate the notepad by section heading, allowing for more robust deletion and replacement than the current string-matching `replace` action.
-- **Puzzle Process Manager Agent Idea:** An agent to structure the scientific method of hypothesis testing for complex puzzles, guiding the player through observation, hypothesis, testing, and conclusion steps.
-- **`endurance_battle_advisor` Agent Idea:** Create an agent that analyzes prolonged battle scenarios, like a potential battle loop. It would weigh factors like remaining PP, team health, and potential opponent strategies to advise whether continuing the battle is more efficient than a strategic blackout to reset the encounter.
-- **`hidden_passage_finder` Agent Idea:** Create an agent that takes the coordinates of a bounded, isolated area as input and generates a systematic, efficient search pattern (a sequence of coordinates) to find a hidden passage. This would automate my current manual search process.
-- **`map_obstacle_detector` Tool Idea:** Create a tool that programmatically parses the map XML to identify the bounding boxes of contiguous, impassable landmasses. This would provide a structured, accurate summary of major obstacles that can be fed into the `waypoint_generator_agent`, allowing it to create more intelligent and valid high-level navigation plans, especially for complex water routes.
-- **`teach_hm_automator` Tool Idea:** Create a tool that takes an HM and a Pokémon name as input and generates the full sequence of button presses to navigate the menus and teach the move, replacing a specified old move. This would automate a tedious and repetitive manual task.
-- **`item_selector` Tool Idea:** Create a tool similar to `get_next_move_press` that navigates the item menu. It would take the full item list, the current selection, and the target item as input, then output the sequence of 'Up'/'Down' presses needed to select it. This would automate the tedious manual scrolling during battles, especially for catching Pokémon.
-- **`debugging_assistant_agent` Agent Idea:** Create an agent that takes a tool's code, the error message, and the game state as input, and suggests a systematic debugging plan (e.g., 'Add logging to verify variable X,' 'Test with a simpler input to isolate the issue').
-- `navigation_troubleshooter` Agent Idea: Create an agent that takes `find_path` failures, reachable warps, and unseen tiles as input and suggests the next logical navigation goal to solve complex pathing puzzles.
-- `interrupt_handler_navigator` Tool Idea: Create a tool that takes a final destination, generates a path, and automatically handles interruptions like wild battles by re-pathing to the destination once the interruption is resolved.
+- **`situational_awareness_auditor` Agent Idea:** Create an agent that cross-references my stated location and map ID with the actual game state data to flag hallucinations before I can act on them.
+- **`menu_navigator` Tool Idea:** A tool that takes the current menu text as input and generates the correct button sequence to navigate to a specified target.
+- **`advanced_notepad_editor` Agent Idea:** Create a tool that can manipulate the notepad by section heading, allowing for more robust deletion and replacement than the current string-matching `replace` action.
+- **`puzzle_process_manager` Agent Idea:** An agent to structure the scientific method of hypothesis testing for complex puzzles, guiding the player through observation, hypothesis, testing, and conclusion steps.
+- **`endurance_battle_advisor` Agent Idea:** Create an agent that analyzes prolonged battle scenarios, like a potential battle loop, to advise whether continuing the battle is more efficient than a strategic blackout to reset the encounter.
+- **`hidden_passage_finder` Agent Idea:** Create an agent that takes the coordinates of a bounded, isolated area as input and generates a systematic, efficient search pattern to find a hidden passage.
+- **`map_obstacle_detector` Tool Idea:** Create a tool that programmatically parses the map XML to identify the bounding boxes of contiguous, impassable landmasses for the `waypoint_generator_agent`.
+- **`teach_hm_automator` Tool Idea:** Create a tool that takes an HM and a Pokémon name as input and generates the full sequence of button presses to teach the move.
+- **`item_selector` Tool Idea:** Create a tool that navigates the item menu based on the current selection and a target item.
+- **`debugging_assistant` Agent Idea:** Create an agent that takes a tool's code, error message, and game state as input, and suggests a systematic debugging plan.
+- **`navigation_troubleshooter` Agent Idea:** Create an agent that takes `find_path` failures, reachable warps, and unseen tiles as input and suggests the next logical navigation goal.
+- **`interrupt_handler_navigator` Tool Idea:** Create a tool that takes a final destination, generates a path, and automatically handles interruptions like wild battles by re-pathing.
+- **`notepad_analyzer_agent` Idea:** Create an agent that can parse the entire notepad, identify redundancies or contradictions, and suggest organizational improvements.
+- **`puzzle_reset_automator` Tool Idea:** Create a tool that automates the process of resetting a puzzle by generating and executing a path to the nearest map transition and back.
 
 ## D. Tool Limitations (Observed)
 
@@ -240,19 +241,10 @@
 - **Dead End Validation Failure (Seafoam B1F):** I incorrectly reported `is_in_dead_end_area` as `true` for Seafoam Islands B1F. The system confirmed there were 4 reachable exit groups, but I failed to correctly apply my own documented definition. **Correction:** I must be more careful and systematic when counting exit groups across the entire map before making a dead end determination.
 - **Validation Hallucination (Reachable Unseen Tiles):** I incorrectly reported `reachable_unseen_tiles_count` as 2 for Seafoam Islands B3F when it was 0. **Correction:** I must meticulously verify all validation check values against the game state before submitting my turn to prevent these data-entry hallucinations.
 - **Situational Awareness Failure (Menu Loop):** I failed to recognize I was in a menu for over 20 turns, repeatedly trying to use overworld tools like `hm_automator` and `boulder_puzzle_solver`. This is a critical failure to observe the `Screen Text` as the source of truth for my current game state. **Correction:** I must always check `Screen Text` before taking any action. If there is text, I am in a menu/dialogue and cannot use overworld tools.
-## B. Seafoam Islands Puzzle Log (B3F & B4F) - Continued
 - **Tool Failure & Correction (`hm_automator`):** The `hm_automator` tool has repeatedly failed (Turns 168098, 168101, 168104), trapping me in various menus. The tool's logic is fundamentally flawed for field move activation. **Correction (Turn 168109):** Deleted the failed `hm_automator` and created a new, more robust `menu_navigator` tool to handle menu navigation dynamically.
-- **New Hypothesis (Boulder Puzzle):** My previous attempts focused on the boulder at (6, 15). After multiple failed attempts to activate Strength, I am pivoting my strategy. **Hypothesis:** The puzzle solution requires interacting with the boulder at (10, 13) first. I will now focus my efforts on this boulder.
-- **`debugging_assistant_agent` Agent Idea:** Create an agent that takes a tool's code, the error message, and the game state as input, and suggests a systematic debugging plan (e.g., 'Add logging to verify variable X,' 'Test with a simpler input to isolate the issue').
-- **Agent Hypothesis 1 (Failed):** Push the boulder at (6, 15) east by standing at (5, 15).
-  - **Reasoning:** Agent suggested a logical move to align the boulder with a hole.
-  - **Test:** Used `find_path` to navigate to (5, 15).
-  - **Conclusion:** Path is blocked. The required standing position (5, 15) is unreachable from (6, 16). Hypothesis denied.
 - **New Hypothesis (Pikachu Swap):** The puzzle requires swapping positions with Pikachu.
   - **Observation:** Pikachu is at (6, 17), directly below me. A documented mechanic allows swapping positions with this specific Pikachu.
   - **Hypothesis:** Moving down onto Pikachu's tile will swap our positions, placing me at (6, 17) and opening new movement options.
   - **Test:** Press 'Down' from (6, 16).
 - **Agent Hypothesis 2 (Partially Successful):** Push the boulder at (6, 15) east. Test: Swapped with Pikachu to reach (6, 17), then navigated to (7, 15) and pushed the boulder west to (5, 15), then repositioned to (6, 15) and pushed it again to (4, 15). Conclusion: Pushing west was successful and has aligned the boulder with the hole at (4, 17). However, the final push south is blocked because the required standing position at (4, 14) is an impassable tile.
 - **Strength Deactivation:** HM Strength deactivates after a wild battle and must be reactivated to push boulders. (Observed on Seafoam Islands B3F, Turn 168544)
-- **`notepad_analyzer_agent` Idea:** Create an agent that can parse the entire notepad, identify redundancies or contradictions, and suggest organizational improvements.
-- **`puzzle_reset_automator` Tool Idea:** Create a tool that automates the process of resetting a puzzle by generating and executing a path to the nearest map transition and back.
