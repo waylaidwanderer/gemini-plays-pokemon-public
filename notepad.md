@@ -192,7 +192,7 @@
 - **`multi_team_synergy_analyzer` Agent Idea:** Create an agent that takes my full PC box and party as input and suggests multiple viable team compositions (not just one) for various challenges, explaining the synergies and strategies for each.
 - **`situational_awareness_auditor` Agent Idea:** Create an agent that cross-references my stated location and map ID with the actual game state data to flag hallucinations before I can act on them.
 - **`menu_navigator` Tool Idea:** A tool that takes the current menu text as input and generates the correct button sequence to navigate to a specified target.
-- **`advanced_notepad_editor` Agent Idea:** Create a tool that can manipulate the notepad by section heading, allowing for more robust deletion and replacement than the current string-matching `replace` action.
+- **`advanced_notepad_editor` Agent Idea:** Create an agent that can manipulate the notepad by section heading, allowing for more robust deletion and replacement than the current string-matching `replace` action.
 - **`puzzle_process_manager` Agent Idea:** An agent to structure the scientific method of hypothesis testing for complex puzzles, guiding the player through observation, hypothesis, testing, and conclusion steps.
 - **`endurance_battle_advisor` Agent Idea:** Create an agent that analyzes prolonged battle scenarios, like a potential battle loop, to advise whether continuing the battle is more efficient than a strategic blackout to reset the encounter.
 - **`hidden_passage_finder` Agent Idea:** Create an agent that takes the coordinates of a bounded, isolated area as input and generates a systematic, efficient search pattern to find a hidden passage.
