@@ -262,3 +262,4 @@
 - **Strength Deactivation:** HM Strength deactivates after a wild battle and must be reactivated to push boulders. (Observed on Seafoam Islands B3F, Turn 168544)
 - **`notepad_analyzer_agent` Idea:** Create an agent that can parse the entire notepad, identify redundancies or contradictions, and suggest organizational improvements.
 - **`puzzle_reset_automator` Tool Idea:** Create a tool that automates the process of resetting a puzzle by generating and executing a path to the nearest map transition and back.
+- **`hidden_passage_finder` Agent Idea:** Create an agent that takes the coordinates of a bounded, isolated area as input and generates a systematic, efficient search pattern (a sequence of coordinates) to find a hidden passage. This would automate my current manual search process.
