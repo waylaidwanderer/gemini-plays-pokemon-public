@@ -244,4 +244,4 @@
 
 ## B. Seafoam Islands Puzzle Log (B3F & B4F) - Continued
 - **Tool Failure & Correction (`hm_automator`):** The `hm_automator` tool has repeatedly failed (Turns 168098, 168101, 168104), trapping me in various menus. The tool's logic is fundamentally flawed for field move activation. **Correction (Turn 168109):** Deleted the failed `hm_automator` and created a new, more robust `menu_navigator` tool to handle menu navigation dynamically.
-- **New Hypothesis (Boulder Puzzle):** My previous attempts focused on the boulder at (6, 15). After multiple failed attempts to activate Strength, I am pivoting my strategy. **Hypothesis:** The puzzle solution requires interacting with the boulder at (10, 15) first. I will now focus my efforts on this boulder.
+- **New Hypothesis (Boulder Puzzle):** My previous attempts focused on the boulder at (6, 15). After multiple failed attempts to activate Strength, I am pivoting my strategy. **Hypothesis:** The puzzle solution requires interacting with the boulder at (10, 13) first. I will now focus my efforts on this boulder.
