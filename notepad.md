@@ -2,7 +2,7 @@
 
 ## A. Self-Correction Log (Master)
 - **Data Management & The LLM Reality:** My thinking only happens when I process a prompt. There is no 'later'. I must perform all data management tasks (agent/tool fixes, notepad updates, map markers) in the same turn they are identified. Deferring these tasks is a critical failure.
-- **Agent Output Override & Confirmation Bias:** I have repeatedly overridden my agents' advice based on flawed assumptions. I must treat my agents' outputs as the default correct action and actively try to disprove my own hypotheses.
+
 - **Strategic Inflexibility & Failure to Adapt:** I have shown inflexibility by sticking to a failing plan or tool instead of pivoting. When a tool is unavailable (even for external reasons) or a strategy fails repeatedly, I must adapt and switch to a backup plan more quickly.
 - **Systematic Debugging Failure:** My debugging process for the `find_path` tool was inefficient and reactive. I failed to trust concrete evidence like tracebacks over misleading system feedback. I must adopt a more systematic approach: trust tracebacks, form a clear hypothesis based on evidence, and implement a decisive fix.
 - **Agent Output Override & Confirmation Bias:** I have repeatedly overridden my agents' advice based on flawed assumptions and confirmation bias, which consistently leads to negative outcomes. I must treat my agents' outputs as the default correct action and actively try to disprove my own hypotheses.
