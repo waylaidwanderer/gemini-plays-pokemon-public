@@ -484,54 +484,29 @@
       }
     ]
   },
-  "systematic_search_path_generator": {
-    "description": "Generates an efficient path to visit every specified tile type within a given bounding box, useful for systematically searching for hidden passages.",
+  "get_next_pokemon_press": {
+    "description": "Calculates the button presses to navigate from the current Pokémon to a target Pokémon in the party menu.",
     "input_schema": {
       "type": "object",
       "properties": {
-        "start_x": {
+        "party_menu_text": {
           "type": "string"
         },
-        "start_y": {
-          "type": "string"
-        },
-        "min_x": {
-          "type": "string"
-        },
-        "min_y": {
-          "type": "string"
-        },
-        "max_x": {
-          "type": "string"
-        },
-        "max_y": {
-          "type": "string"
-        },
-        "target_tile_type": {
+        "target_pokemon": {
           "type": "string"
         }
       },
       "required": [
-        "start_x",
-        "start_y",
-        "min_x",
-        "min_y",
-        "max_x",
-        "max_y",
-        "target_tile_type"
+        "party_menu_text",
+        "target_pokemon"
       ]
     },
-    "python_script": "import json\nimport xml.etree.ElementTree as ET\nimport heapq\n\ndef systematic_search_path_generator(start_x, start_y, min_x, min_y, max_x, max_y, target_tile_type, map_xml_string):\n    root = ET.fromstring(map_xml_string)\n    width = int(root.get('width'))\n    height = int(root.get('height'))\n    \n    tile_grid = [[None for _ in range(width)] for _ in range(height)]\n    for row_elem in root.findall('Row'):\n        y = int(row_elem.get('id')) - 1\n        for tile_elem in row_elem.findall('Tile'):\n            x = int(tile_elem.get('id')) - 1\n            tile_grid[y][x] = tile_elem\n\n    start = (start_x - 1, start_y - 1)\n    \n    target_tiles = set()\n    for y in range(min_y - 1, max_y):\n        for x in range(min_x - 1, max_x):\n            if 0 <= x < width and 0 <= y < height:\n                tile_elem = tile_grid[y][x]\n                if tile_elem is not None and tile_elem.get('type') == target_tile_type:\n                    target_tiles.add((x, y))\n\n    if not target_tiles:\n        return json.dumps({'path': [], 'error': 'No target tiles found in the specified area.'})\n\n    path = [{'x': start_x, 'y': start_y}]\n    visited = {start}\n    current_pos = start\n\n    # This is a simplified pathfinding using a greedy approach, not a full A* search.\n    # It's intended for open areas without complex obstacles.\n    while target_tiles - visited:\n        unvisited_targets = target_tiles - visited\n        closest_target = min(unvisited_targets, key=lambda t: abs(t[0] - current_pos[0]) + abs(t[1] - current_pos[1]))\n        \n        # Simple direct path generation\n        temp_path = []\n        temp_pos = list(current_pos)\n        while tuple(temp_pos) != closest_target:\n            if temp_pos[0] < closest_target[0]: temp_pos[0] += 1\n            elif temp_pos[0] > closest_target[0]: temp_pos[0] -= 1\n            elif temp_pos[1] < closest_target[1]: temp_pos[1] += 1\n            elif temp_pos[1] > closest_target[1]: temp_pos[1] -= 1\n            temp_path.append(tuple(temp_pos))\n        \n        for step in temp_path:\n            path.append({'x': step[0] + 1, 'y': step[1] + 1})\n            visited.add(step)\n        current_pos = closest_target\n    \n    return json.dumps({'path': path})\n\nstart_x = int(input_data['start_x'])\nstart_y = int(input_data['start_y'])\nmin_x = int(input_data['min_x'])\nmin_y = int(input_data['min_y'])\nmax_x = int(input_data['max_x'])\nmax_y = int(input_data['max_y'])\ntarget_tile_type = input_data['target_tile_type']\n\nresult = systematic_search_path_generator(start_x, start_y, min_x, min_y, max_x, max_y, target_tile_type, map_xml_string)\nprint(result)",
+    "python_script": "import json\nimport re\n\nparty_menu_text = input_data['party_menu_text']\ntarget_pokemon = input_data['target_pokemon']\n\nlines = party_menu_text.strip().split('\\n')\n\ncurrent_index = -1\nfor i, line in enumerate(lines):\n    if '→' in line:\n        current_index = i\n        break\n\npokemon_names = []\nfor line in lines:\n    match = re.match(r'\\S*\\s*([A-Z]+)', line.replace('→','').strip())\n    if match:\n        pokemon_names.append(match.group(1))\n\ntarget_index = -1\nfor i, name in enumerate(pokemon_names):\n    if name == target_pokemon:\n        target_index = i\n        break\n\nif current_index == -1 or target_index == -1:\n    print(json.dumps([]))\nelse:\n    diff = target_index - current_index\n    buttons = []\n    if diff > 0:\n        buttons = ['Down'] * diff\n    elif diff < 0:\n        buttons = ['Up'] * abs(diff)\n    print(json.dumps(buttons))",
     "history": [
       {
-        "commit_message": "feat: Create systematic_search_path_generator tool. In response to my self-assessment identifying inefficient manual searching for hidden passages, this tool automates the process by generating an efficient path to visit every tile of a specified type within a given bounding box. This will be critical for systematically clearing areas and verifying my assumptions about map layouts.",
-        "timestamp": "2025-08-28T06:27:52.798Z",
-        "action_counter": 169442
-      },
-      {
-        "commit_message": "feat: Create systematic_search_path_generator tool. In response to my self-assessment identifying inefficient manual searching for hidden passages, this tool automates the process by generating an efficient path to visit every tile of a specified type within a given bounding box. This will be critical for systematically clearing areas and verifying my assumptions about map layouts.",
-        "timestamp": "2025-08-28T06:28:27.329Z",
-        "action_counter": 169443
+        "commit_message": "feat: Create get_next_pokemon_press tool. This tool automates party menu navigation, calculating the necessary Up/Down presses to move from the current selection to a target Pokémon. This is essential for avoiding manual errors caused by the unreliable party menu cursor.",
+        "timestamp": "2025-08-28T07:19:48.354Z",
+        "action_counter": 169508
       }
     ]
   }
