@@ -560,7 +560,7 @@
       "type": "object",
       "properties": {}
     },
-    "python_script": "import json\nimport xml.etree.ElementTree as ET\n\ndef parse_map_data(map_xml_string):\n    root = ET.fromstring(map_xml_string)\n    map_data = {\n        'name': root.get('name'),\n        'id': int(root.get('id')),\n        'width': int(root.get('width')),\n        'height': int(root.get('height')),\n        'tiles': []\n    }\n\n    for row_elem in root.findall('Row'):\n        y = int(row_elem.get('id'))\n        for tile_elem in row_elem.findall('Tile'):\n            x = int(tile_elem.get('id'))\n            tile_info = {\n                'x': x,\n                'y': y,\n                'type': tile_elem.get('type'),\n                'objects': []\n            }\n            \n            for obj_elem in tile_elem.findall('*'):\n                obj_info = {'tag': obj_elem.tag, 'attributes': obj_elem.attrib}\n                tile_info['objects'].append(obj_info)\n\n            map_data['tiles'].append(tile_info)\n    \n    return json.dumps(map_data, indent=2)\n\nresult = parse_map_data(map_xml_string)\nprint(result)",
+    "python_script": "import json\nimport xml.etree.ElementTree as ET\n\ndef parse_map_data(map_xml_string):\n    root = ET.fromstring(map_xml_string)\n    map_data = {\n        'name': root.get('name'),\n        'id': int(root.get('id')),\n        'width': int(root.get('width')),\n        'height': int(root.get('height')),\n        'tiles': []\n    }\n    for row_elem in root.findall('Row'):\n        y = int(row_elem.get('id'))\n        for tile_elem in row_elem.findall('Tile'):\n            x = int(tile_elem.get('id'))\n            tile_info = {\n                'x': x,\n                'y': y,\n                'type': tile_elem.get('type'),\n                'object': None\n            }\n            obj_elem = tile_elem.find('Object')\n            if obj_elem is not None:\n                tile_info['object'] = {\n                    'id': obj_elem.get('id'),\n                    'id-name': obj_elem.get('id-name'),\n                    'name': obj_elem.get('name'),\n                    'facing': obj_elem.get('facing')\n                }\n            map_data['tiles'].append(tile_info)\n    return map_data\n\nresult = parse_map_data(map_xml_string)\nprint(json.dumps(result))",
     "history": [
       {
         "commit_message": "feat: Create standardized map_data_parser tool. In response to a self-assessment and Overwatch critique identifying repeated XML parsing bugs and deferred maintenance, this tool provides a single, reliable interface for accessing map data. It will prevent future parsing errors and streamline the development of all subsequent map-based tools.",
@@ -571,6 +571,11 @@
         "commit_message": "feat: Create standardized map_data_parser tool. In response to a self-assessment and Overwatch critique identifying repeated XML parsing bugs and deferred maintenance, this tool provides a single, reliable interface for accessing map data. It will prevent future parsing errors and streamline the development of all subsequent map-based tools.",
         "timestamp": "2025-08-27T18:31:02.703Z",
         "action_counter": 168501
+      },
+      {
+        "commit_message": "feat: Create standardized map_data_parser tool. In response to a self-assessment and Overwatch critique identifying repeated XML parsing bugs and deferred maintenance, this tool provides a single, reliable interface for accessing map data. It will prevent future parsing errors and streamline the development of all subsequent map-based tools.",
+        "timestamp": "2025-08-28T01:26:00.971Z",
+        "action_counter": 169006
       }
     ]
   },
