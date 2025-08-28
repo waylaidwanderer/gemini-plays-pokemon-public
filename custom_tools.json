@@ -610,56 +610,29 @@
       }
     ]
   },
-  "systematic_search_path_generator": {
-    "description": "Generates a contiguous path that systematically sweeps a defined rectangular area, restricted to a specific tile type ('ground' or 'elevated_ground'). The user must first navigate to the starting coordinate of the generated path. Useful for searching for hidden passages.",
+  "validation_check_generator": {
+    "description": "Generates the validation_checks JSON block by parsing map_xml_string and taking the current turn number and badges as input. This is a critical tool to prevent data-entry hallucinations.",
     "input_schema": {
       "type": "object",
       "properties": {
-        "start_x": {
+        "num_turns": {
           "type": "string"
         },
-        "start_y": {
-          "type": "string"
-        },
-        "end_x": {
-          "type": "string"
-        },
-        "end_y": {
-          "type": "string"
-        },
-        "target_tile_type": {
+        "badges_obtained_json": {
           "type": "string"
         }
       },
       "required": [
-        "start_x",
-        "start_y",
-        "end_x",
-        "end_y",
-        "target_tile_type"
+        "num_turns",
+        "badges_obtained_json"
       ]
     },
-    "python_script": "import json\nimport xml.etree.ElementTree as ET\n\nstart_x = int(input_data['start_x'])\nstart_y = int(input_data['start_y'])\ntarget_tile_type = input_data['target_tile_type']\n\nmin_x = min(int(input_data['start_x']), int(input_data['end_x']))\nmax_x = max(int(input_data['start_x']), int(input_data['end_x']))\nmin_y = min(int(input_data['start_y']), int(input_data['end_y']))\nmax_y = max(int(input_data['start_y']), int(input_data['end_y']))\n\nroot = ET.fromstring(map_xml_string)\ngrid = {}\nfor row_elem in root.findall('Row'):\n    y = int(row_elem.get('id'))\n    for tile_elem in row_elem.findall('Tile'):\n        x = int(tile_elem.get('id'))\n        grid[(x, y)] = tile_elem.get('type')\n\npath = []\nstack = [(start_x, start_y)]\nvisited = set()\n\nif grid.get((start_x, start_y)) != target_tile_type:\n    print(json.dumps({\"path\": [], \"error\": \"Start coordinate is not on a target tile type.\"}))\nelse:\n    while stack:\n        x, y = stack.pop(0)\n        \n        if (x, y) in visited:\n            continue\n        \n        visited.add((x, y))\n        path.append({'x': x, 'y': y})\n        \n        neighbors = [(x, y + 1), (x + 1, y), (x, y - 1), (x - 1, y)]\n        for nx, ny in neighbors:\n            if (min_x <= nx <= max_x) and (min_y <= ny <= max_y):\n                if grid.get((nx, ny)) == target_tile_type and (nx, ny) not in visited:\n                    if (nx, ny) not in stack:\n                        stack.append((nx, ny))\n                    \n    print(json.dumps({\"path\": path}))\n",
+    "python_script": "import json\nimport xml.etree.ElementTree as ET\n\nroot = ET.fromstring(map_xml_string)\n\n# Extract basic info\nmap_id = int(root.get('id'))\nplayer_x = -1\nplayer_y = -1\nfor row_elem in root.findall('Row'):\n    for tile_elem in row_elem.findall('Tile'):\n        if tile_elem.find('Player') is not None:\n            player_x = int(tile_elem.get('id'))\n            player_y = int(row_elem.get('id'))\n            break\n    if player_x != -1:\n        break\n\n# Get turn and badges from input\nnum_turns = int(input_data['num_turns'])\nbadges = json.loads(input_data['badges_obtained_json'])\n\n# Placeholder for complex checks\nis_in_dead_end_area = 'TODO' # Placeholder\nnavigable_warps = 'TODO' # Placeholder\nreachable_unseen_tiles_count = 'TODO' # Placeholder\n\n# Assemble the JSON output\nvalidation_json = {\n    \"current_map_id\": map_id,\n    \"current_position\": {\"x\": player_x, \"y\": player_y},\n    \"num_turns\": num_turns,\n    \"badges_obtained\": badges,\n    \"is_in_dead_end_area\": is_in_dead_end_area,\n    \"navigable_warps\": navigable_warps,\n    \"reachable_unseen_tiles_count\": reachable_unseen_tiles_count\n}\n\nprint(json.dumps(validation_json, indent=2))",
     "history": [
       {
-        "commit_message": "feat: Create systematic_search_path_generator tool. In response to an Overwatch critique identifying a missed automation opportunity, this tool generates a path to systematically sweep a rectangular area. This will replace inefficient manual searching and make exploration for hidden passages more reliable.",
-        "timestamp": "2025-08-27T22:57:36.985Z",
-        "action_counter": 168803
-      },
-      {
-        "commit_message": "feat: Add elevation awareness to systematic search. The tool now accepts a `target_tile_type` ('ground' or 'elevated_ground') and will generate a path that only visits tiles of that specific type within the search area. This fixes a critical bug where the tool generated invalid paths across different elevations and directly addresses an Overwatch critique about flawed automation.",
-        "timestamp": "2025-08-27T23:06:18.758Z",
-        "action_counter": 168813
-      },
-      {
-        "commit_message": "fix: Implement map-aware search algorithm. The previous version used a naive placeholder script that generated paths through impassable tiles. This commit replaces it with a proper Breadth-First Search (BFS) that parses the map XML and generates a valid, contiguous path restricted to the specified tile type and bounding box. This is a critical fix to make the tool functional and reliable.",
-        "timestamp": "2025-08-27T23:08:39.284Z",
-        "action_counter": 168816
-      },
-      {
-        "commit_message": "fix: Correct bounding box logic. The tool was incorrectly using the player's start coordinates as a boundary for the search instead of calculating the min/max from the provided start/end coordinates. This commit fixes the logic to correctly define the rectangular search area, ensuring the generated path is properly constrained.",
-        "timestamp": "2025-08-27T23:39:38.930Z",
-        "action_counter": 168865
+        "commit_message": "feat: Create validation_check_generator tool. In response to a critical Overwatch critique, this tool automates the generation of the validation_checks block to eliminate recurring data-entry hallucinations regarding position and turn count. This initial version includes placeholders for more complex checks like dead-end detection, which will be implemented later.",
+        "timestamp": "2025-08-28T05:15:04.074Z",
+        "action_counter": 169353
       }
     ]
   }
