@@ -22,40 +22,7 @@
 - **Situational Awareness Failure (Menu Loop):** I failed to recognize I was in a menu for over 20 turns, repeatedly trying to use overworld tools. This is a critical failure to observe the `Screen Text` as the source of truth for my current game state. **Correction:** I must always check `Screen Text` before taking any action. If there is text, I am in a menu/dialogue and cannot use overworld tools.
 - **Failure to Analyze Tool Output:** I have repeatedly failed to analyze the detailed failure reports from my tools. My tools are functioning correctly and providing diagnostic information, but my process is flawed because I have ignored this data and jumped to incorrect conclusions. **Correction:** I must make it a mandatory step to read, interpret, and state the implications of the full output of my tools, especially failure reports, before forming a conclusion or planning the next action.
 
-# II. Game Mechanics & World Knowledge
-
-## A. Core Gameplay (Verified)
-- **Forced Sleep-Induced Switch:** The game forces a switch immediately after a Pokémon is put to sleep by an opponent's move, similar to when a Pokémon faints. (Observed Turn 150625)
-- **Indigo Plateau Auto-Heal:** Blacking out during the Elite Four challenge and respawning at the Indigo Plateau entrance automatically heals the entire party. (Observed Turn 149617)
-- **'No will to fight!' Message:** This message appears when attempting to switch to a Pokémon that has already fainted. It is a cursor position error in the party menu, not an indication of a Pokémon's level or willingness to battle. (Corrected Turn 152732)
-- **Run from Battle Position Reset:** Running from a wild battle returns the player to the tile they were on immediately before the encounter was triggered. (Observed Turn 165898)
-
-## B. Tile & System Mechanics (Master)
-- **Boulders:** Large rocks that can be pushed using the field move Strength. They are central to many environmental puzzles, often needing to be pushed into holes or onto switches.
-- **Cuttable Trees:** These tiles block paths and can be removed by using the field move Cut from an adjacent tile. They typically respawn after a map change.
-- **Dead End Area Definition (Corrected):** A map area is considered a 'dead end' if there is only one reachable exit group (a cluster of adjacent warps or a map connection) on the map as a whole. Reachability is determined from any traversable tile on the map, not just the player's current position. This corrects a previous misunderstanding based on conflicting system feedback (Turn 166829 vs. 166050).
-- **Elevated Ground:** Walkable ground at a different elevation. Can only be accessed from `steps` tiles, other `elevated_ground` tiles, or warps. Direct movement between `ground` and `elevated_ground` is impossible.
-- **Ground:** Standard, walkable terrain.
-- **Grass:** Standard tall grass where wild Pokémon encounters can occur. Walkable like 'ground'.
-- **HM Forgetability:** HMs can be forgotten. (Confirmed by Scientist on Route 15 Gatehouse 2F)
-- **Hole:** A tile that acts as a one-way warp to the floor below. Often used in boulder puzzles.
-- **Impassable:** Walls, rocks, water, or other terrain that cannot be walked on or through.
-- **Ladders:** Warps that lead to upper ('ladder_up') or lower ('ladder_down') floors.
-- **Ledges:** These tiles allow one-way downward movement. A single 'Down' press from the tile above (Y-1) will cause the player to jump to the tile two spaces down (Y+2). They are impassable from all other directions.
-- **Object Impassability:** All objects (NPCs, items, signs) are impassable walls, including defeated trainers. Interaction must happen from an adjacent tile.
-- **Object Swapping (Pikachu Puzzle):** A specific puzzle object (Pikachu in Seafoam Islands) does not follow standard pushing mechanics. Instead of being pushed one tile away, it swaps places with the player when the player moves onto its tile. This is a unique interaction that must be considered for similar puzzles. (Confirmed on Seafoam Islands B3F, Turn 166720)
-- **Off-Screen Gates:** Gates not currently visible on screen ('gate_offscreen' tile type) are treated as potentially open for pathfinding purposes to encourage exploration of alternate routes.
-- **Pikachu Walk-Through (Exception):** Pikachu is the only NPC/Object that can be walked through. This is a key mechanic for certain puzzles. If not facing Pikachu, the first directional press turns the character, and the second moves onto the tile.
-- **Party Menu Cursor Anomaly:** The party menu cursor can jump to a different Pokémon after a directional input, skipping over the intended target. The jump can occur both after a simple directional press and after directional inputs are complete but before 'A' is pressed to open the sub-menu. I must now visually confirm the cursor's final position *every single turn* within the party menu before making another input.
-- **Move Menu Cursor Position Anomaly:** The cursor in the move selection menu defaults to the last move used, rather than the top-most move. This is a consistent mechanic and must be accounted for when using automation tools.
-- **Sleep-Induced Switch Anomaly:** The game does not always force an *automatic* switch after a Pokémon is put to sleep. Instead, it may present the battle menu, but the only valid action is to switch to a conscious Pokémon.
-- **Switch Override Anomaly:** The game can override a player's intended switch, sending out a different Pokémon. The outcome appears unpredictable and is not always the party lead.
-- **Silph Co. Gates:** Locked gates ('closed_gate' tile type) can be opened by interacting with them while possessing the CARD KEY. Once opened, they become 'open_gate' tiles and are permanently traversable.
-- **Steps:** The only tile type that allows movement between `ground` and `elevated_ground`.
-- **Strength Deactivation:** HM Strength deactivates after a wild battle and must be reactivated to push boulders. (Observed on Seafoam Islands B3F, Turn 168544)
-- **Tile Testing Protocol:** I must be more systematic about testing seemingly impassable tiles, especially in puzzle areas, to confirm they are not interactable or conditionally passable.
-- **Warp Mechanics (General):** Warps (teleporters, stairs, ladders, elevator pads) are instant. Stepping on the tile triggers the map change. To return, one must step off the warp tile and then back on.
-- **Water:** Crossable only by using the field move Surf. Requires standing on an adjacent land tile and using the move from the party menu.
+# II. Game Mechanics & World Knowledge (Placeholder - Populate with unique discoveries only)
 
 # III. Battle Information
 
