@@ -402,6 +402,32 @@
       }
     ]
   },
+  "get_next_pokemon_press": {
+    "description": "Calculates the button presses to navigate from the current Pokémon to a target Pokémon in the party menu.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "party_menu_text": {
+          "type": "string"
+        },
+        "target_pokemon": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "party_menu_text",
+        "target_pokemon"
+      ]
+    },
+    "python_script": "import json\nimport re\n\nparty_menu_text = input_data['party_menu_text']\ntarget_pokemon = input_data['target_pokemon']\n\nlines = party_menu_text.strip().split('\\n')\n\ncurrent_index = -1\nfor i, line in enumerate(lines):\n    if '→' in line:\n        current_index = i\n        break\n\npokemon_names = []\nfor line in lines:\n    match = re.match(r'\\S*\\s*([A-Z]+)', line.replace('→','').strip())\n    if match:\n        pokemon_names.append(match.group(1))\n\ntarget_index = -1\nfor i, name in enumerate(pokemon_names):\n    if name == target_pokemon:\n        target_index = i\n        break\n\nif current_index == -1 or target_index == -1:\n    print(json.dumps([]))\nelse:\n    diff = target_index - current_index\n    buttons = []\n    if diff > 0:\n        buttons = ['Down'] * diff\n    elif diff < 0:\n        buttons = ['Up'] * abs(diff)\n    print(json.dumps(buttons))",
+    "history": [
+      {
+        "commit_message": "feat: Create get_next_pokemon_press tool. This tool automates party menu navigation, calculating the necessary Up/Down presses to move from the current selection to a target Pokémon. This is essential for avoiding manual errors caused by the unreliable party menu cursor.",
+        "timestamp": "2025-08-28T07:19:48.354Z",
+        "action_counter": 169508
+      }
+    ]
+  },
   "map_data_parser": {
     "description": "Parses the map_xml_string to extract key map data, including dimensions, and a list of all tiles with their coordinates, type, and any objects. Standardizes map data access for other tools.",
     "input_schema": {
@@ -481,32 +507,6 @@
         "commit_message": "feat: Create validation_check_generator tool. In response to a critical Overwatch critique, this tool automates the generation of the validation_checks block to eliminate recurring data-entry hallucinations regarding position and turn count. This initial version includes placeholders for more complex checks like dead-end detection, which will be implemented later.",
         "timestamp": "2025-08-28T05:15:04.074Z",
         "action_counter": 169353
-      }
-    ]
-  },
-  "get_next_pokemon_press": {
-    "description": "Calculates the button presses to navigate from the current Pokémon to a target Pokémon in the party menu.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "party_menu_text": {
-          "type": "string"
-        },
-        "target_pokemon": {
-          "type": "string"
-        }
-      },
-      "required": [
-        "party_menu_text",
-        "target_pokemon"
-      ]
-    },
-    "python_script": "import json\nimport re\n\nparty_menu_text = input_data['party_menu_text']\ntarget_pokemon = input_data['target_pokemon']\n\nlines = party_menu_text.strip().split('\\n')\n\ncurrent_index = -1\nfor i, line in enumerate(lines):\n    if '→' in line:\n        current_index = i\n        break\n\npokemon_names = []\nfor line in lines:\n    match = re.match(r'\\S*\\s*([A-Z]+)', line.replace('→','').strip())\n    if match:\n        pokemon_names.append(match.group(1))\n\ntarget_index = -1\nfor i, name in enumerate(pokemon_names):\n    if name == target_pokemon:\n        target_index = i\n        break\n\nif current_index == -1 or target_index == -1:\n    print(json.dumps([]))\nelse:\n    diff = target_index - current_index\n    buttons = []\n    if diff > 0:\n        buttons = ['Down'] * diff\n    elif diff < 0:\n        buttons = ['Up'] * abs(diff)\n    print(json.dumps(buttons))",
-    "history": [
-      {
-        "commit_message": "feat: Create get_next_pokemon_press tool. This tool automates party menu navigation, calculating the necessary Up/Down presses to move from the current selection to a target Pokémon. This is essential for avoiding manual errors caused by the unreliable party menu cursor.",
-        "timestamp": "2025-08-28T07:19:48.354Z",
-        "action_counter": 169508
       }
     ]
   }
