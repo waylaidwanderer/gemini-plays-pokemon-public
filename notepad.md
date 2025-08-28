@@ -91,7 +91,6 @@
   - `pc_withdraw_pokemon` (Turn 157056): Automates withdrawing a Pokémon from the PC.
   - `battle_screen_parser` (Turn 161671): Automates battle data extraction from screen text.
   - `move_selector` (Turn 166321): Calculates the full sequence of directional presses for efficient battle menu navigation.
-  - `boulder_puzzle_solver` (Created Turn 166499, Deleted Turn 169442): Was used to automate boulder puzzles. Deleted to make space for the `systematic_search_path_generator` tool.
   - `systematic_search_path_generator` (Turn 169443): Generates an efficient path to visit every specified tile type within a given bounding box.
   - `get_next_pokemon_press` (Turn 169508): Calculates the button presses to navigate from the current Pokémon to a target Pokémon in the party menu.
   - `map_data_parser` (Turn 167953): Parses the map_xml_string to extract key map data, including dimensions, and a list of all tiles with their coordinates, type, and any objects. Standardizes map data access for other tools.
