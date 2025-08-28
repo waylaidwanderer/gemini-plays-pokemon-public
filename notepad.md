@@ -237,5 +237,5 @@
 - **Strength Deactivation:** HM Strength deactivates after a wild battle and must be reactivated to push boulders. (Observed on Seafoam Islands B3F, Turn 168544)
 - **`systematic_search_path_generator` Tool Idea:** Create a tool that takes a bounding box of coordinates and generates a path that systematically sweeps the entire area to search for hidden passages.
 - **`hidden_passage_finder` Agent Idea:** Create an agent that takes a map summary and a goal, and if a direct path is blocked, it hypothesizes the existence and likely locations of hidden passages, guiding a systematic search.
-- Dead End Validation Failure (Seafoam B2F): I incorrectly reported `is_in_dead_end_area` as `true` for Seafoam Islands B2F. The system confirmed there were 3 reachable exit groups, but I failed to correctly apply my own documented definition. **Correction:** I must be more careful and systematic when counting exit groups across the entire map before making a dead end determination.
+
 - `multi_map_exploration_planner` Agent Idea: Create an agent that takes a summary of map data, current location, goal, and known warp connections to generate a high-level exploration plan across multiple floors.
