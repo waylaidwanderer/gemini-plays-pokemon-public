@@ -22,8 +22,6 @@
 - **Situational Awareness Failure (Menu Loop):** I failed to recognize I was in a menu for over 20 turns, repeatedly trying to use overworld tools. This is a critical failure to observe the `Screen Text` as the source of truth for my current game state. **Correction:** I must always check `Screen Text` before taking any action. If there is text, I am in a menu/dialogue and cannot use overworld tools.
 - **Failure to Analyze Tool Output:** I have repeatedly failed to analyze the detailed failure reports from my tools. My tools are functioning correctly and providing diagnostic information, but my process is flawed because I have ignored this data and jumped to incorrect conclusions. **Correction:** I must make it a mandatory step to read, interpret, and state the implications of the full output of my tools, especially failure reports, before forming a conclusion or planning the next action.
 
-# II. Game Mechanics & World Knowledge (Placeholder - Populate with unique discoveries only)
-
 ## A. Type Effectiveness Chart (Verified)
 - **Objective:** Systematically test and verify all type matchups in this ROM hack, as the standard chart is unreliable.
 - **Method:** During battles, especially against the Elite Four, prioritize using moves with uncertain effectiveness to gather data. Record all super-effective, not-very-effective, and immune interactions observed.
