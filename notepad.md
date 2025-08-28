@@ -186,7 +186,7 @@
 - **`hidden_passage_finder` Agent Idea:** Create an agent that takes the coordinates of a bounded, isolated area as input and generates a systematic, efficient search pattern to find a hidden passage.
 - **`map_obstacle_detector` Tool Idea:** Create a tool that programmatically parses the map XML to identify the bounding boxes of contiguous, impassable landmasses for the `waypoint_generator_agent`.
 - **`teach_hm_automator` Tool Idea:** Create a tool that takes an HM and a Pokémon name as input and generates the full sequence of button presses to teach the move.
-- **`item_selector` Tool Idea:** Create a tool that navigates the item menu based on the current selection and a target item.
+
 - **`debugging_assistant` Agent Idea:** Create an agent that takes a tool's code, error message, and game state as input, and suggests a systematic debugging plan.
 - **`navigation_troubleshooter` Agent Idea:** Create an agent that takes `find_path` failures, reachable warps, and unseen tiles as input and suggests the next logical navigation goal.
 - **`interrupt_handler_navigator` Tool Idea:** Create a tool that takes a final destination, generates a path, and automatically handles interruptions like wild battles by re-pathing.
