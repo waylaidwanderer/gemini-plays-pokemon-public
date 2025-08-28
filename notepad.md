@@ -24,8 +24,6 @@
 
 # II. Game Mechanics & World Knowledge (Placeholder - Populate with unique discoveries only)
 
-# III. Battle Information
-
 ## A. Type Effectiveness Chart (Verified)
 - **Objective:** Systematically test and verify all type matchups in this ROM hack, as the standard chart is unreliable.
 - **Method:** During battles, especially against the Elite Four, prioritize using moves with uncertain effectiveness to gather data. Record all super-effective, not-very-effective, and immune interactions observed.
