@@ -68,54 +68,6 @@
 
 ## B. Opponent Rosters & Moves (Observed)
 ### Lorelei
-  - DEWGONG (Lv 55) - Moves unknown.
-  - JYNX (Lv 56) - Known Moves: Psychic, Lovely Kiss, Bubblebeam, Blizzard
-  - SLOWBRO (Lv 56) - Known Moves: Blizzard, Psychic, Earthquake, Amnesia
-  - CLOISTER (Lv 55) - Known Moves: Explosion, Blizzard
-  - LAPRAS (Lv 57) - Known Moves: Thunderbolt, Surf, Sing, Blizzard
-
-### Bruno
-  - HITMONCHAN (Lv 57) - Known Moves: Submission, Ice Punch, Thunder Punch, Dizzy Punch
-  - POLIWRATH (Lv 56) - Known Moves: Amnesia, Hydro Pump, Hypnosis, Ice Beam
-  - HITMONLEE (Lv 57) - Known Moves: Body Slam, HI JUMP KICK, MEGA KICK
-  - ONIX (Lv 56) - Known Moves: Earthquake, Rock Slide, BIND
-  - MACHAMP (Lv 58) - Known Moves: Body Slam, Earthquake, Rock Slide
-
-### Agatha
-  - GENGAR (Lv 57) - Known Moves: Night Shade, Mega Drain, Hypnosis, Dream Eater
-  - GOLBAT (Lv 58) - Known Moves: Toxic, Double Team, Fly
-  - MAROWAK (Lv 57) - Known Moves: Rock Slide, Swords Dance, Body Slam
-  - ARBOK (Lv 58) - Known Moves: Substitute, Wrap, Sludge, Glare
-  - GENGAR (Lv 59) - Known Moves: Mega Drain, Thunder, Psychic, Night Shade
-
-### Lance
-  - GYARADOS (Lv 60) - Known Moves: Fly, Slam, HYPER BEAM
-  - DRAGONITE (Lv 61) - Known Moves: Thunder Wave, Slam, HYPER BEAM
-  - DRAGONITE (Lv 62) - Known Moves: Fire Blast, Slam, Thunder Wave, Wrap, Hyper Beam, Blizzard, Thunder
-  - CHARIZARD (Lv 60) - Known Moves: Earthquake, Flamethrower
-  - AERODACTYL (Lv 61) - Known Moves: Hyper Beam, Earthquake, ROCK SLIDE
-
-### Champion Pixel
-  - MAGNETON (Lv 62) - Moves unknown.
-  - DODRIO (Lv 61) - Known Moves: DOUBLE TEAM, JUMP KICK
-  - ALAKAZAM (Lv 63) - Known Moves: REFLECT
-  - SANDSLASH (Lv 60) - Known Moves: CUT
-  - EXEGGUTOR (Lv 64) - Moves unknown.
-  - VAPOREON (Lv 64) - Moves unknown.
-
-### Misty (Rematch)
-  - SEADRA (Lv 64) - Moves unknown.
-  - GOLDUCK (Lv 65) - Known Moves: Psychic, Blizzard, Hydro Pump
-  - LAPRAS (Lv 64) - Known Moves: HYDRO PUMP, THUNDER, PSYCHIC, BLIZZARD
-  - BLASTOISE (Lv 64) - Known Moves: SURF, ICE BEAM, EARTHQUAKE
-  - VAPOREON (Lv 64) - Known Moves: HYDRO PUMP, ACID ARMOR
-  - STARMIE (Lv 65) - Known Moves: THUNDERBOLT
-
-### Nurse Joy (Fuchsia City)
-  - KANGASKHAN (Lv ??) - Moves unknown.
-  - SNORLAX (Lv ??) - Known Moves: REST, AMNESIA, DOUBLE TEAM, ICE BEAM
-  - STARMIE (Lv ??) - Known Moves: THUNDER WAVE, PSYCHIC
-  - EXEGGUTOR (Lv 65) - Known Moves: SOFTBOILED, SLEEP POWDER, DREAM EATER
 
 ## C. Battle Mechanics (Anomalies & Hypotheses)
 - **Speed Tie Assumption:** I must not assume a speed advantage in battle unless empirically verified in the current battle. An opponent may be faster than expected. (Lesson from Lorelei's Lapras vs SPARKY)
