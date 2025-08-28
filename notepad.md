@@ -172,7 +172,7 @@
   - `pc_withdraw_pokemon` (Turn 157056): Automates withdrawing a Pokémon from the PC.
   - `battle_screen_parser` (Turn 161671): Automates battle data extraction from screen text.
   - `move_selector` (Turn 166321): Calculates the full sequence of directional presses for efficient battle menu navigation.
-  - `boulder_puzzle_solver` (Turn 166499): Automates the solution-finding process for boulder puzzles. Status: Fully functional after extensive debugging of parsing and coordinate output.
+  - `boulder_puzzle_solver` (Created Turn 166499, Deleted Turn 169442): Was used to automate boulder puzzles. Deleted to make space for the `systematic_search_path_generator` tool.
 
 ## C. Development Ideas & Testing Plans (Consolidated)
 - **`puzzle_process_manager` Agent Evaluation (Overwatch Mandate):** Overwatch has flagged this agent as potentially redundant with `puzzle_solver_agent`. **Test Plan:** At the next complex puzzle, I must use `puzzle_process_manager` first. I will then evaluate if its output and process provide unique value compared to `puzzle_solver_agent`. If it is redundant, I will delete it and merge any useful logic into the existing solver.
