@@ -240,3 +240,4 @@
 - `systematic_search_path_generator` (Turn 169443): Generates an efficient path to visit every specified tile type within a given bounding box.
 - **System Data Distrust (Seafoam B1F):** I repeatedly ignored system feedback (`is_in_dead_end_area` checks) and my own pathfinding tool's failures, leading to a major hallucination that B1F was a single connected area. **Correction:** The validation checks and tool outputs are the source of truth for navigation. I must trust them over my visual interpretation of the map, especially in complex, segmented areas.
 - **High-Priority Tool Development:** The `validation_check_generator` tool is now my highest development priority to eliminate recurring data-entry hallucinations.
+- **`systematic_search_path_generator` Limitation:** The tool currently uses a simplistic, greedy algorithm. It will fail in complex mazes with obstacles. I must upgrade it with a more robust pathfinding algorithm like A* in the future.
