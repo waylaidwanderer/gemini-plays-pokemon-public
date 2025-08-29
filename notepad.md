@@ -43,12 +43,7 @@
 ## C. Tool & Agent Development
 
 ### 3. Development Ideas & Testing Plans
-- **Water Boulder Mechanics:** Hypothesis: Water boulders may not require Strength to be active. Test: After solving the current puzzle, find another water boulder and attempt to interact with it *without* Strength active. Record the outcome.
-- **`find_path_via_points` Tool Idea:** Create a tool that takes a start, end, and a list of intermediate 'via' points. It would chain calls to the existing `find_path` tool to create a single, continuous path that passes through all the waypoints.
-- **`find_closest_target` Tool Idea:** Create a tool that takes the player's current coordinates and a list of target coordinates as input, then returns the coordinates of the target that is the shortest Manhattan distance away.
-- **`ai_move_predictor` Agent Idea:** Create an agent that takes the opponent's known moves, my active Pokémon, and my full party as input to predict the most likely move the AI will use.
-- **`multi_team_synergy_analyzer` Agent Idea:** Create an agent that takes my full PC box and party as input and suggests multiple viable team compositions (not just one) for various challenges, explaining the synergies and strategies for each.
-- **`advanced_notepad_editor` Agent Idea:** Create an agent that can manipulate the notepad by section heading, allowing for more robust deletion and replacement than the current string-matching `replace` action.
+
 - **`endurance_battle_advisor` Agent Idea:** Create an agent that analyzes prolonged battle scenarios, like a potential battle loop, to advise whether continuing the battle is more efficient than a strategic blackout to reset the encounter.
 - **`hidden_passage_finder` Agent Idea:** Create an agent that takes the coordinates of a bounded, isolated area as input and generates a systematic, efficient search pattern to find a hidden passage.
 - **`teach_hm_automator` Tool Idea:** Create a tool that takes an HM and a Pokémon name as input and generates the full sequence of button presses to teach the move.
