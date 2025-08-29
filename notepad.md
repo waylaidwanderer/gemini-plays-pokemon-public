@@ -43,7 +43,10 @@
 - **boulder_switch:** A floor switch activated by a boulder.
 - **boulder_barrier:** A barrier that is removed when a corresponding boulder_switch is activated.
 - **cleared_boulder_barrier:** A former barrier, now walkable ground.
-- **spinner_...:** Tiles that force movement in a specific direction.
+- **spinner_up/down/left/right:** Tiles that force movement in a specific direction.
+- **ladder_up/down:** Warps that lead to a different floor.
+- **hole:** A tile that drops the player to the floor below.
+- **Defeated Trainer Obstacle:** In some areas (e.g., Viridian Gym, Victory Road), defeated trainers become impassable obstacles.
 
 ## D. Key Event & Puzzle Log
 
