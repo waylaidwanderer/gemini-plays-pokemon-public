@@ -77,3 +77,11 @@
 - **Zapdos (Power Plant, Lv 50):** AGILITY, THUNDERBOLT. (Fainted accidentally).
 - **Craig (Power Plant):** Full team is JOLTEON, AERODACTYL, EXEGGUTOR, SNORLAX, CLOYSTER, ARCANINE.
 - **Untested Assumption:** The Snorlax on Route 12 might be movable with the POKé FLUTE. **Test:** After exiting Rock Tunnel, fly to Lavender Town and attempt to use the POKé FLUTE on the Snorlax.
+
+# III. Future Development & Testing
+
+## A. Agent & Tool Ideas
+- **Team Builder Agent:** An agent that could analyze my PC box Pokémon and a known opponent's roster to suggest an optimal team composition for major battles.
+
+## B. Untested Assumptions Log
+- **Snorlax & POKé FLUTE (Route 12):** I assume the POKé FLUTE will awaken the Snorlax blocking Route 12, based on mechanics from other games. **Test Plan:** After exiting Rock Tunnel, travel to Route 12, stand adjacent to the Snorlax, and use the POKé FLUTE from the item menu.
