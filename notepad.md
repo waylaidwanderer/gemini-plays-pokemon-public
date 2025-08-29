@@ -23,6 +23,11 @@
 - **Deferred Map Marker Creation (Turns 172822, 172872, 172881):** I cut trees but deferred defining map markers for them until a later turn (172829, 172877, 172882). **Correction:** Map markers must be defined immediately on the same turn the event occurs.
 - **Repeated `find_path` Calls without Re-evaluation (Turns 172922-172929):** I repeatedly called `find_path` to the same target after it failed without adapting my strategy or re-evaluating the cause of failure. **Correction:** When a tool's output is unexpected, I must immediately adapt my strategy and re-evaluate the underlying cause of the failure.
 - **Recurring Deferred Notepad and Map Marker Updates (Critique from Turn 172930):** The overwatch critique highlighted a recurring lapse in performing notepad and map marker updates *immediately*, citing specific turns where updates were deferred. This is a critical failure to adhere to the core directive that all maintenance must be performed in the *current turn* without deferral. **Correction:** I must ensure all notepad updates and map marker definitions are performed in the *current turn* without deferral, and this issue will be prioritized in all future actions.
+- **Overwatch Critique (Turn 173623) - Agent Output Trust:** I explicitly overrode the `master_battle_agent`'s recommendation to use 'SLEEP POWDER' in favor of 'STUN SPORE' without first testing the agent's advice or refining the agent. **Correction:** I must trust agent outputs and only refine agents after their advice has been tested and proven unreliable.
+- **Overwatch Critique (Turn 173623) - Tool Refinement:** I have repeatedly failed to refine my `find_path` tool to provide diagnostic information about *why* a path is blocked. My `menu_navigator` and `select_battle_option` tools exhibit execution issues. I have deferred fixing these, prioritizing the ongoing battle. **Correction:** Tool refinement is a higher priority than any short-term gameplay objective. I must immediately refine faulty tools using `define_tool`.
+- **Overwatch Critique (Turn 173623) - Notepad Deferral:** I critically and repeatedly failed to adhere to the 'Immediate Data & Tool Maintenance' directive, explicitly deferring notepad updates. **Correction:** All notepad updates must be performed immediately in the current turn.
+- **Overwatch Critique (Turn 173623) - Notepad Redundancy:** My notepad contains significant outdated and redundant information. **Correction:** I must break down large-scale reorganization into smaller, focused `replace` or `append` actions to avoid destructive changes.
+- **Overwatch Critique (Turn 173623) - Map Marker Usage:** My map markers section is currently empty, which is a critical failure. **Correction:** I must immediately begin diligently marking every discovered NPC, defeated trainer, used warp, dead end, and key discovery with Map Markers.
 
 ## B. Game Mechanics & World Knowledge
 
@@ -143,7 +148,8 @@
 ### 6. Craig (Power Plant)
 - **JOLTEON:** Lv 55, knows DIG, THUNDERBOLT, PIN MISSILE, THUNDER WAVE.
 - **AERODACTYL:** Lv 55, knows ROCK SLIDE.
-- **EXEGGUTOR:** Lv 55, knows MEGA DRAIN.
+- **EXEGGUTOR:** Lv 55, knows MEGA DRAIN, PSYCHIC.
+- **SNORLAX:** Lv 55, knows AMNESIA, EARTHQUAKE, BODY SLAM, REST.
 
 ## F. General Game Tips (ROM Hack Specifics)
 - **Assumption: Normal vs Electric Neutrality:** My `master_battle_agent` assumes Normal is neutral against Electric when it's not explicitly in the type chart. This needs to be verified. Test: In a future battle, if a Normal-type Pokémon attacks an Electric-type, I should specifically observe the "It's not very effective," "It's super effective," or lack thereof message to confirm neutrality.
@@ -158,4 +164,4 @@
 
 ## A. Defeated Trainers
 - **Power Plant:**
-  - Craig (POWERPLANT_CRAIG) at (3, 6) on Power Plant (ID: 83) - **IN PROGRESS**
+  - Craig (POWERPLANT_CRAIG) at (3, 6) on Power Plant (ID: 83) - **DEFEATED**
