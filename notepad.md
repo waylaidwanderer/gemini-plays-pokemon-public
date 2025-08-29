@@ -34,8 +34,7 @@
 ### 2. Tile Type Glossary (Observed Mechanics)
 - **Linked Boulder Rotation:** A puzzle mechanic where using Strength on one of two adjacent water-based boulders causes both to rotate in a linked fashion, rather than being pushed. (Observed on Seafoam Islands B3F)
 - **Hidden Passages (Confirmed):** Some impassable-looking walls can be walked through. A systematic, tile-by-tile search is required to find them, especially when system feedback indicates an area is not a dead end despite appearances. (Discovered on Seafoam Islands B4F at (16, 15), Discovered on Seafoam Islands B2F at (19, 8))
-- **Strength activation:** Does not need to be reactivated for every boulder push. The push is executed by walking into the boulder. The boulder moves one tile, and the player's position does not change when pushing vertically, but moves into the boulder's previous space when pushing horizontally.
-- **Boulder Pushing Mechanics:** Pushing a boulder is a multi-step process that consumes multiple turns. If not facing, first button press turns and pushes. If already facing, one button press pushes it one tile (player stays in place). To push again, must walk to new adjacent tile.
+- **Boulder & Strength Mechanics:** Strength does not need to be reactivated for every boulder push. Pushing a boulder is a multi-step process. If not facing a boulder, the first directional button press will turn the player to face it and push the boulder one tile in the same turn. If already facing, pressing the same directional button again will push it one tile (player stays in place). To push a boulder multiple times, the player must walk to a tile adjacent to its new position after each push. When pushing vertically, the player's position does not change, but when pushing horizontally, the player moves into the boulder's previous space.
 
 ## C. Tool & Agent Development
 
