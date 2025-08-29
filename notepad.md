@@ -50,22 +50,6 @@
 - **Mixed Input Execution:** Tools that generate a sequence of mixed directional and action buttons (e.g., `auto_switcher`) are functioning correctly. The error was in my execution. I must execute the generated button presses one at a time, over multiple turns, to avoid system input truncation.
 - **`map_obstacle_detector` Tool (Correct Functionality Confirmed):** The tool repeatedly failed to identify major landmasses on Route 20. After extensive debugging, I realized the tool was functioning correctly. It was identifying the islands as being connected to the impassable map border, thus classifying them as a single, large boundary component which my heuristic correctly filtered out. My assumption that the islands were isolated obstacles was the source of the error, not the tool's logic. (Self-correction Turn 166251).
 
-### 2. Creation Log (Agents & Tools)
-- **Agents:**
-  - `master_battle_agent` (Turn 156589): Orchestrates battle analysis into a single call.
-  - `navigation_troubleshooter` (Turn 168856): Analyzes reachable warps, unseen tiles, map markers, and `find_path` failures to suggest the next logical navigation goal to solve complex pathing puzzles.
-  - `puzzle_solver_agent` (Turn 168856): Analyzes a complex environmental puzzle by taking the player's goal, map layout, available items/HMs, and a list of failed hypotheses as input. It then generates a new, logical, and testable hypothesis to help the player make progress.
-- **Tools:**
-  - `auto_switcher` (Turn 155341): Automates Pokémon switch sequences.
-  - `pc_withdraw_pokemon` (Turn 157056): Automates withdrawing a Pokémon from the PC.
-  - `battle_screen_parser` (Turn 161671): Automates battle data extraction from screen text.
-  - `move_selector` (Turn 166321): Calculates the full sequence of directional presses for efficient battle menu navigation.
-  - `map_data_parser` (Turn 167953): Parses the `map_xml_string` to extract key map data, including dimensions, and a list of all tiles with their coordinates, type, and any objects. Standardizes map data access for other tools.
-  - `menu_navigator` (Turn 168109): Calculates the directional button presses to navigate from a current cursor position to a target item in a list-based menu, based on the provided screen text.
-  - `validation_check_generator` (Turn 169353): Generates the `validation_checks` JSON block by parsing `map_xml_string` and taking the current turn number and badges as input. This is a critical tool to prevent data-entry hallucinations.
-  - `select_battle_option` (Turn 166978): Automates selecting main battle menu options.
-  - `fly_menu_navigator` (Turn 171341): Calculates the directional button presses to navigate from the current cursor position to a target location in the Fly menu, based on the provided screen text.
-
 ### 3. Development Ideas & Testing Plans
 - **Water Boulder Mechanics:** Hypothesis: Water boulders may not require Strength to be active. Test: After solving the current puzzle, find another water boulder and attempt to interact with it *without* Strength active. Record the outcome.
 - **`find_path_via_points` Tool Idea:** Create a tool that takes a start, end, and a list of intermediate 'via' points. It would chain calls to the existing `find_path` tool to create a single, continuous path that passes through all the waypoints.
