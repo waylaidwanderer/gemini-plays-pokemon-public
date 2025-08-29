@@ -42,16 +42,6 @@
 
 ## C. Tool & Agent Development
 
-### 3. Development Ideas & Testing Plans
-
-- **`endurance_battle_advisor` Agent Idea:** Create an agent that analyzes prolonged battle scenarios, like a potential battle loop, to advise whether continuing the battle is more efficient than a strategic blackout to reset the encounter.
-- **`hidden_passage_finder` Agent Idea:** Create an agent that takes the coordinates of a bounded, isolated area as input and generates a systematic, efficient search pattern to find a hidden passage.
-- **`teach_hm_automator` Tool Idea:** Create a tool that takes an HM and a Pokémon name as input and generates the full sequence of button presses to teach the move.
-- **`interrupt_handler_navigator` Tool Idea:** Create a tool that takes a final destination, generates a path, and automatically handles interruptions like wild battles by re-pathing.
-- **`notepad_analyzer_agent` Idea:** Create an agent that can parse the entire notepad, identify redundancies or contradictions, and suggest organizational improvements.
-- **`puzzle_reset_automator` Tool Idea:** Create a tool that automates the process of resetting a puzzle by generating and executing a path to the nearest map transition and back.
-- **Agent Refinement: `master_battle_agent` `recommended_lead`:** The `master_battle_agent`'s reasoning for `recommended_lead` could be more robust, especially when the opponent's full team is not known. This is an area for potential future refinement.
-
 ### 4. Tool Limitations (Observed)
 - **`notepad_edit` `replace` Flaw:** The `replace` action cannot distinguish between two identical strings in the notepad. If a string appears multiple times, the tool fails to replace a specific instance, making it impossible to remove targeted duplicates. (Observed Turn 162963).
 - **`teleporter_mapper` Tool (Blocked):** This tool cannot be implemented. Its function requires persistent memory to build a graph of teleporter connections across multiple turns. The current tool execution environment is stateless and does not support this. Development is blocked pending a system update that allows for persistent tool state.
