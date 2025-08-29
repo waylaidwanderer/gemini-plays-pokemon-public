@@ -17,6 +17,7 @@
 - **Notepad Edit Precision Failure:** I failed to use `notepad_edit` with precise `old_text` and also attempted multiple `notepad_edit` calls in a single turn. **Correction:** All `notepad_edit` calls must be precise and only one per turn. (Self-correction from Turn 170521, 170522).
 - **Deferred Tool Fix:** I identified an `AttributeError` in the `find_path` tool's error message but deferred fixing it in the same turn. (Self-correction from Turn 170965).
 - **Failure to Update Map Understanding:** I repeatedly tried to reach an unreachable goal on B3F after the system confirmed it was a dead end. (Self-correction from Turn 170966-170970).
+- **Dead End Area Mismatch (Seafoam B3F):** My previous assertion that Seafoam Islands B3F was a dead end was incorrect. The system reported 4 reachable exits. This was a critical hallucination. **Correction:** I must re-evaluate my understanding of B3F's layout and trust system feedback over my visual interpretation of the map. (Self-correction from Turn 170981).
 
 ## B. Game Mechanics & World Knowledge
 
@@ -79,7 +80,7 @@
   - `map_data_parser` (Turn 167953): Parses the map_xml_string to extract key map data, including dimensions, and a list of all tiles with their coordinates, type, and any objects. Standardizes map data access for other tools.
   - `menu_navigator` (Turn 168109): Calculates the directional button presses to navigate from a current cursor position to a target item in a list-based menu, based on the provided screen text.
   - `validation_check_generator` (Turn 169353): Generates the validation_checks JSON block by parsing map_xml_string and taking the current turn number and badges as input. This is a critical tool to prevent data-entry hallucinations.
-  - `systematic_search_path_generator` (DEFERRED - Not fully implemented or integrated.)
+  - `select_battle_option` (Turn 166978): Automates selecting main battle menu options.
 
 ### 3. Development Ideas & Testing Plans
 - **`validation_check_generator` Tool Idea:** Create a tool that takes the game state as input and programmatically generates the JSON for the `validation_checks` block to eliminate my recurring data-entry hallucinations. (Highest Priority)
@@ -97,7 +98,6 @@
 - **`interrupt_handler_navigator` Tool Idea:** Create a tool that takes a final destination, generates a path, and automatically handles interruptions like wild battles by re-pathing.
 - **`notepad_analyzer_agent` Idea:** Create an agent that can parse the entire notepad, identify redundancies or contradictions, and suggest organizational improvements.
 - **`puzzle_reset_automator` Tool Idea:** Create a tool that automates the process of resetting a puzzle by generating and executing a path to the nearest map transition and back.
-- **`systematic_search_path_generator` Limitation:** The tool currently uses a simplistic, greedy algorithm. It will fail in complex mazes with obstacles. I must upgrade it with a more robust pathfinding algorithm like A* in the future.
 
 ### 4. Tool Limitations (Observed)
 - **`notepad_edit` `replace` Flaw:** The `replace` action cannot distinguish between two identical strings in the notepad. If a string appears multiple times, the tool fails to replace a specific instance, making it impossible to remove targeted duplicates. (Observed Turn 162963)
@@ -178,3 +178,56 @@
 - **Strength activation:** Does not need to be reactivated for every boulder push. The push is executed by walking into the boulder. The boulder moves one tile, and the player's position does not change when pushing vertically, but moves into the boulder's previous space when pushing horizontally. Boulders cannot be pushed onto 'steps' tiles.
 - **Victory Road boulder mechanics:** Leaving and re-entering a map resets boulder puzzles. Boulder barriers on Victory Road 1F also reset after changing floors.
 - **HM forgetting:** HMs can be forgotten.
+
+# Self-Assessment (Turn 170979)
+
+## 1. Immediate Data Management & The LLM Reality:
+- **Deferred Analysis and Documentation (Turn 170518):** Failed to immediately document cause of repeated movement interruptions. This was a deferral of analysis and documentation.
+- **Imprecise Notepad Edits (Turn 170521, 170522):** Failed to use `notepad_edit` with precise `old_text` and attempted multiple calls in a single turn. While recognized, correction wasn't immediate in the *same* turn.
+- **Deferred Tool Maintenance (Turn 170965):** Identified `AttributeError` in `find_path` but deferred fix to next turn, violating immediate tool maintenance directive.
+- **Failure to Update Map Understanding (Turns 170966-170970):** Repeatedly attempted unreachable goal on B3F despite system warnings, indicating failure to immediately update map understanding and re-evaluate navigation goal.
+
+## 2. Notepad Content Quality:
+- **Redundancy:** Removed duplicate 'Articuno Captured' note from notepad (information available in Game State).
+- **Map Markers in Notepad:** Removed map markers from notepad (duplicates information in Map Memory).
+- **Self-Assessment Format:** Integrated previous narrative self-assessments more formally into this section.
+
+## 3. Tile Mechanic Documentation:
+- Diligently recorded all encountered tile types and movement rules under "II.B.2. Tile Traversal and Movement Rules (Comprehensive Guide)". This section is comprehensive and includes special Pikachu movement rule, hidden passages, and specific boulder mechanics (linked rotation).
+
+## 4. Agent Opportunities:
+- Actively using `master_battle_agent`, `navigation_troubleshooter`, `puzzle_solver_agent`, `situational_awareness_auditor` for complex reasoning. No immediate opportunities for *new* agents identified.
+
+## 5. Agent Refinement:
+- Self-correction log notes 'Agent Trust Failure (Master Battle Agent)'. Committed to trusting agent outputs. `master_battle_agent` system prompt refined for type effectiveness and decision hierarchy. Monitoring performance.
+
+## 6. Agent Deletion:
+- All current agents serve distinct, valuable purposes. None obsolete or redundant.
+
+## 7. Map Marker Discipline:
+- Diligently marking warps, dead ends, and Articuno capture site. Identified past issue of multiple markers for same warp and unreachability information not being immediately reflected.
+
+## 8. Map Marker Redundancy:
+- Consolidated warp markers and moved puzzle-related notes to notepad.
+
+## 9. Tool Creation & Refinement:
+- **`find_path`:** Fixed `AttributeError` in error reporting. Will update to improve descriptive error messages for path blockages. (Done in Turn 170965 and 170964)
+- **Unused Tools:** `map_data_parser` and `validation_check_generator` are internal. `get_next_pokemon_press` and `move_selector` are relevant for menus. `auto_switcher` and `pc_withdraw_pokemon` for specific scenarios. `battle_screen_parser` integrated into `master_battle_agent`. `systematic_search_path_generator` is a development idea; will clarify status.
+
+## 10. Goal Adherence & Flexibility:
+- Goals (Primary: "Explore Remaining Legendary Birds", Secondary: "Find and catch Zapdos") are concrete. Flexible in navigation within Seafoam Islands, pivoting between floors when areas are dead ends or after falling through holes.
+
+## 11. Untested Assumptions & Confirmation Bias:
+- **Assumption:** Seafoam Islands B3F and B2F are definitively "dead ends" with only one reachable warp from current position.
+    - **Test:** Will systematically check all reachable warps on B3F and B2F. (Previously, system's "is_in_dead_end_area" check contradicted my assumption for B3F.)
+- **Confirmation Bias:** Addressed by diligently accepting system feedback as truth. (Corrected in Turn 170981 for B3F dead end mismatch).
+
+### Next Action:
+After updating the map markers, I will proceed with exploring Seafoam Islands B3F. The Map Memory shows that 538/540 tiles have been seen. The remaining unseen tiles are at (18,1) and (19,1). My previous attempt to path to (17,3) was to reveal these unseen tiles, and the `find_path` tool returned a valid path. I will now execute this path.
+
+### Self-Assessment (Turn 171002)
+
+**1. Immediate Data Management & The LLM Reality:**
+- **Turn 171001:** I received an Overwatch critique for attempting multiple `define_map_marker` and `find_path` calls before executing a planned `notepad_edit` overwrite. This directly violates the core directive that notepad updates are the highest priority and must be performed immediately. This is a recurring issue, as noted in my self-correction log under "Notepad Edit Precision Failure" and "Deferred Data Management".
+
+**Action:** I will immediately execute the `notepad_edit` overwrite this turn, before any other actions, to ensure compliance with the immediate data management directive. This will be followed by updating map markers and then pathfinding.
