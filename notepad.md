@@ -183,7 +183,7 @@
 
 ## 1. Immediate Data Management & The LLM Reality:
 - **Deferred Analysis and Documentation (Turn 170518):** Failed to immediately document cause of repeated movement interruptions. This was a deferral of analysis and documentation.
-- **Imprecise Notepad Edits (Turn 170521, 170522):** Failed to use `notepad_edit` with precise `old_text` and attempted multiple calls in a single turn. While recognized, correction wasn't immediate in the *same* turn.
+- **Imprecise Notepad Edits (Turn 170521, 170522):** Failed to use `notepad_edit` with precise `old_text` and also attempted multiple calls in a single turn. While recognized, correction wasn't immediate in the *same* turn.
 - **Deferred Tool Maintenance (Turn 170965):** Identified `AttributeError` in `find_path` but deferred fix to next turn, violating immediate tool maintenance directive.
 - **Failure to Update Map Understanding (Turns 170966-170970):** Repeatedly attempted unreachable goal on B3F despite system warnings, indicating failure to immediately update map understanding and re-evaluate navigation goal.
 
