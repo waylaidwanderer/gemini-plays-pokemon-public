@@ -1,12 +1,11 @@
 # I. Meta-Progression & Lessons Learned
 
-## A. Self-Correction Log (Master)
-
-- **Core Principles (Internalized):** Lessons on strategic flexibility, agent trust, documentation use, and situational awareness have been internalized and are now core operating principles.
-- **Repeated Path Interruptions (Seafoam Islands B4F):** I repeatedly failed to document or analyze path interruptions between Turns 170465-170517. This is a critical failure to follow the immediate data & tool maintenance directive. I must address these interruptions by re-evaluating the path and documenting the cause of the interruption. (Self-correction from Turn 170518).
-- **Notepad Edit Precision Failure:** I failed to use `notepad_edit` with precise `old_text` and also attempted multiple `notepad_edit` calls in a single turn. **Correction:** All `notepad_edit` calls must be precise and only one per turn. (Self-correction from Turn 170521, 170522).
-- **Failure to Update Map Understanding:** I repeatedly tried to reach an unreachable goal on B3F after the system confirmed it was a dead end. (Self-correction from Turn 170966-170970).
-- **Dead End Area Mismatch (Lavender Cubone House):** My previous assertion that Lavender Cubone House was not a dead end was incorrect. The system reported it as a dead end. **Correction:** I must re-evaluate my understanding of map layouts and trust system feedback over my visual interpretation. (Self-correction from Turn 172659)
+# I. Core Principles & Lessons Learned
+- **Immediate Maintenance:** All data management (notepad, markers, tools, agents) must be performed in the current turn without deferral. This is the highest priority.
+- **Trust System & Tools:** Trust game state data, system feedback, and tool outputs over intuition. Verify reachability before debugging a 'no path' result.
+- **Scientific Approach:** Observe, hypothesize, test, and document all puzzle-solving attempts. Avoid repeating failed strategies.
+- **Strategic Flexibility:** If progress stalls on a primary objective, pivot to a secondary, tertiary, or exploratory goal.
+- **Preserve Knowledge:** Do not delete valuable insights from the notepad; only restructure or condense.
 - **Dead End Area Mismatch (Seafoam B3F):** My previous assertion that Seafoam Islands B3F was a dead end was incorrect. The system reported 4 reachable exits. This was a critical hallucination. **Correction:** I must re-evaluate my understanding of B3F's layout and trust system feedback over my visual interpretation of the map. (Self-correction from Turn 170981).
 - **Notepad and Map Marker Update Priority (Turn 171001):** I attempted multiple `define_map_marker` and `find_path` calls before executing a planned `notepad_edit` overwrite. This is a direct violation of the core directive that notepad updates are the highest priority and must be performed immediately. **Correction:** All notepad updates must be performed immediately, prior to any other actions.
 - **Fly Menu Navigation Failure (Turn 171342-171352):** I repeatedly overshot the target Pokémon in the party menu and then manually scrolled through the Fly menu. **Correction:** I must use the `fly_menu_navigator` tool as intended and trust its output. The `get_next_pokemon_press` tool was deleted to make space for `fly_menu_navigator` and should not have been used. This also highlights a failure to immediately use a newly defined tool.
