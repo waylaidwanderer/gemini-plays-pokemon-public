@@ -59,12 +59,12 @@
 - **Articuno Captured:** Successfully captured Articuno on B4F at (7,2).
 
 ## D. Opponent Information
-- **Lorelei (E4):** Slowbro (Earthquake), Jynx (Bubblebeam), Gengar (Lv 59), Cloyster (Lv 55, Explosion).
-- **Bruno (E4):** Hitmonchan (Ice Punch, Thunder Punch), Onix (Explosion), Machamp (Earthquake).
-- **Agatha (E4):** Gengar (Hypnosis, Dream Eater).
-- **Lance (E4):** Dragonite (Lv 61, Slam, Thunder Wave, Wrap, Hyper Beam), Gyarados (Slam), Aerodactyl (Earthquake), Charizard (Earthquake, Flamethrower).
+- **Elite Four Lorelei:** Slowbro (Earthquake), Jynx (Bubblebeam), Gengar (Lv 59), Cloyster (Lv 55, Explosion).
+- **Elite Four Bruno:** Hitmonchan (Ice Punch, Thunder Punch), Onix (Explosion), Machamp (Earthquake).
+- **Elite Four Agatha:** Gengar (Hypnosis, Dream Eater).
+- **Elite Four Lance:** Dragonite (Lv 61, Slam, Thunder Wave, Wrap, Hyper Beam), Gyarados (Slam), Aerodactyl (Earthquake), Charizard (Earthquake, Flamethrower).
 - **Misty (Rematch):** Seadra (Lv 64), Golduck (Lv 65, Psychic, Blizzard), Lapras (Lv 64, Hydro Pump, Thunder, Psychic, Blizzard), Vaporeon (Acid Armor), Starmie (Thunderbolt).
-- **Kris (Snorlax):** Snorlax (Earthquake, Body Slam, REST).
+- **Kris (Seafoam Islands):** Snorlax (Earthquake, Body Slam, REST), Gengar (Hypnosis, Dream Eater).
 - **Craig (Power Plant):** JOLTEON (Lv 55, DIG, THUNDERBOLT, PIN MISSILE, THUNDER WAVE), AERODACTYL (Lv 55, ROCK SLIDE), EXEGGUTOR (Lv 55, MEGA DRAIN, PSYCHIC), SNORLAX (Lv 55, AMNESIA, EARTHQUAKE, BODY SLAM, REST).
 
 ## E. General Game Tips (ROM Hack Specifics)
