@@ -439,12 +439,17 @@
         "target_pokemon"
       ]
     },
-    "python_script": "import json\nimport re\n\nparty_menu_text = input_data['party_menu_text']\ntarget_pokemon = input_data['target_pokemon']\n\nlines = party_menu_text.strip().split('\\n')\n\ncurrent_index = -1\nfor i, line in enumerate(lines):\n    if '→' in line:\n        current_index = i\n        break\n\npokemon_names = []\nfor line in lines:\n    match = re.match(r'\\S*\\s*([A-Z]+)', line.replace('→','').strip())\n    if match:\n        pokemon_names.append(match.group(1))\n\ntarget_index = -1\nfor i, name in enumerate(pokemon_names):\n    if name == target_pokemon:\n        target_index = i\n        break\n\nif current_index == -1 or target_index == -1:\n    print(json.dumps([]))\nelse:\n    diff = target_index - current_index\n    buttons = []\n    if diff > 0:\n        buttons = ['Down'] * diff\n    elif diff < 0:\n        buttons = ['Up'] * abs(diff)\n    print(json.dumps(buttons))",
+    "python_script": "import json\nimport re\n\nparty_menu_text = input_data['party_menu_text']\ntarget_pokemon = input_data['target_pokemon']\n\nlines = party_menu_text.strip().split('\\n')\n\ncurrent_index = -1\n# Find the current cursor position indicated by '→'\nfor i, line in enumerate(lines):\n    if '→' in line:\n        current_index = i\n        break\n\npokemon_names_in_menu = []\n# Extract Pokémon names from each line, ignoring cursor\nfor line in lines:\n    cleaned_line = line.replace('→', '').strip()\n    # Look for a word consisting of only uppercase letters, as Pokémon names are typically uppercase\n    match = re.search(r'\\b[A-Z]+\\b', cleaned_line)\n    if match:\n        pokemon_names_in_menu.append(match.group(0))\n\n# The actual party order might not be exactly as displayed if there are status lines or non-Pokémon entries\n# For now, let's assume the visible Pokémon names are in the order they appear.\n\n# Find the target Pokémon's index\ntarget_index = -1\nfor i, name in enumerate(pokemon_names_in_menu):\n    if name == target_pokemon:\n        target_index = i\n        break\n\nif current_index == -1 or target_index == -1:\n    # Fallback if current or target not found (e.g., menu is different than expected)\n    print(json.dumps([]))\nelse:\n    diff = target_index - current_index\n    buttons = []\n    if diff > 0:\n        buttons = ['Down'] * diff\n    elif diff < 0:\n        buttons = ['Up'] * abs(diff)\n    print(json.dumps(buttons))\n",
     "history": [
       {
         "commit_message": "feat: Create get_next_pokemon_press tool. This tool automates party menu navigation, calculating the necessary Up/Down presses to move from the current selection to a target Pokémon. This is essential for avoiding manual errors caused by the unreliable party menu cursor.",
         "timestamp": "2025-08-28T07:19:48.354Z",
         "action_counter": 169508
+      },
+      {
+        "commit_message": "fix: Refine get_next_pokemon_press regex. The tool was failing to identify the current Pokémon and target Pokémon due to an overly restrictive regex. This commit updates the regex to use `re.search(r'\\b[A-Z]+\\b', cleaned_line)` to more robustly capture uppercase Pokémon names anywhere in the line, fixing a critical menu navigation bug.",
+        "timestamp": "2025-08-29T03:57:37.373Z",
+        "action_counter": 171133
       }
     ]
   },

@@ -48,7 +48,6 @@
 - **Tool Creation Log (`select_battle_option`):** After repeatedly hallucinating the existence of a `select_battle_option` tool, I successfully created it. This tool now reliably handles main battle menu selections, resolving a critical failure in situational awareness and tool management. (Self-correction from Turn 166978)
 - **Tool Failure & Correction (`hm_automator`):** The `hm_automator` tool has repeatedly failed (Turns 168098, 168101, 168104), trapping me in various menus. The tool's logic is fundamentally flawed for field move activation. **Correction (Turn 168109):** Deleted the failed `hm_automator` and created a new, more robust `menu_navigator` tool to handle menu navigation dynamically.
 - **`map_obstacle_detector` Tool (Correct Functionality Confirmed):** The tool repeatedly failed to identify major landmasses on Route 20. After extensive debugging, I realized the tool was functioning correctly. It was identifying the islands as being connected to the impassable map border, thus classifying them as a single, large boundary component which my heuristic correctly filtered out. My assumption that the islands were isolated obstacles was the source of the error, not the tool's logic. (Self-correction Turn 166251)
-- **`find_path` Tool Refinement (Planned):** The `find_path` tool needs refinement to include diagnostic output for path interruptions due to wild encounters.
 
 ### 2. Creation Log (Agents & Tools)
 - **Agents:**
@@ -101,7 +100,7 @@
 - **Gengar AI (Hypnosis Priority):** The Gengar in Seafoam Islands B4F prioritizes using Hypnosis on any active, non-sleeping Pokémon, even if it has a type immunity to Gengar's STAB moves. It will then follow up with Dream Eater. This is its core strategy.
 - **Assumption 1 (Confirmed):** The non-functional warp to Route 20 at (21, 18) on Seafoam Islands B4F is *permanently* non-functional. Attempts to use it after catching Articuno have failed.
 - **New Hypothesis (Pikachu Swap):** The puzzle requires swapping positions with Pikachu.
-  - **Observation:** Pikachu is at (6, 17), directly below me. A documented mechanic allows swapping positions with this specific Pikachu.
+  - **Observation:** Pikachu is at (6, 17), directly below me.
   - **Hypothesis:** Moving down onto Pikachu's tile will swap our positions, placing me at (6, 17) and opening new movement options.
   - **Test:** Press 'Down' from (6, 16).
 - **Agent Hypothesis 2 (Partially Successful):** Push the boulder at (6, 15) east. Test: Swapped with Pikachu to reach (6, 17), then navigated to (7, 15) and pushed the boulder west to (5, 15), then repositioned to (6, 15) and pushed it again to (4, 15). Conclusion: Pushing west was successful and has aligned the boulder with the hole at (4, 17). However, the final push south is blocked because the required standing position at (4, 14) is an impassable tile.
