@@ -48,7 +48,6 @@
 ### 2. Creation Log (Agents & Tools)
 - **Agents:**
   - `master_battle_agent` (Turn 156589): Orchestrates battle analysis into a single call.
-  - `situational_awareness_auditor` (Turn 168856): Cross-references player's stated validation checks with the actual game state data to flag hallucinations.
   - `navigation_troubleshooter` (Turn 168856): Analyzes reachable warps, unseen tiles, map markers, and `find_path` failures to suggest the next logical navigation goal to solve complex pathing puzzles.
   - `puzzle_solver_agent` (Turn 168856): Analyzes a complex environmental puzzle by taking the player's goal, map layout, available items/HMs, and a list of failed hypotheses as input. It then generates a new, logical, and testable hypothesis to help the player make progress.
 - **Tools:**
