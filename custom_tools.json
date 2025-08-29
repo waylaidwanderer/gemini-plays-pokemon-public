@@ -536,12 +536,17 @@
         "target_location"
       ]
     },
-    "python_script": "import json\nimport re\n\ndef fly_menu_navigator(menu_text, target_location):\n    lines = menu_text.strip().split('\\n')\n    visible_items = []\n    cursor_pos = -1\n\n    for i, line in enumerate(lines):\n        if '→' in line:\n            cursor_pos = i\n            cleaned_line = line.replace('→', '').strip()\n        else:\n            cleaned_line = line.strip()\n        \n        # Extract location name (e.g., 'PALLET TOWN')\n        match = re.search(r'To ([A-Z ]+)', cleaned_line)\n        if match:\n            visible_items.append(match.group(1).strip())\n\n    if not visible_items:\n        return json.dumps({\"error\": \"Could not parse Fly menu items.\"})\n\n    if cursor_pos == -1:\n        return json.dumps({\"error\": \"Could not detect cursor position.\"})\n\n    target_location_upper = target_location.upper()\n\n    # Check if target is visible on current screen\n    if target_location_upper in visible_items:\n        target_index = visible_items.index(target_location_upper)\n        diff = target_index - cursor_pos\n        \n        buttons = []\n        if diff > 0:\n            buttons = ['Down'] * diff\n        elif diff < 0:\n            buttons = ['Up'] * abs(diff)\n        \n        buttons.append('A') # Select the item\n        return json.dumps(buttons)\n\n    # If target not on screen, assume we need to scroll. \n    # For simplicity, we'll assume a consistent scroll direction until found.\n    # Given the constraint of not knowing the order, we'll just try to scroll down.\n    return json.dumps(['Down'])\n\nmenu_text = input_data['menu_text']\ntarget_location = input_data['target_location']\n\nresult = fly_menu_navigator(menu_text, target_location)\nprint(result)",
+    "python_script": "import json\n\ndef fly_menu_navigator(menu_text, target_location):\n    menu_lines = [line.strip() for line in menu_text.split('\\n') if line.strip()]\n    current_selection = None\n\n    # The first line of the menu text usually contains the selected item\n    # We need to extract the actual location name, which is before '→↓'\n    if menu_lines:\n        first_line = menu_lines[0]\n        if '→↓' in first_line:\n            current_selection = first_line.split('→↓')[0].replace('To ', '').strip()\n\n    if current_selection and current_selection.upper() == target_location.upper():\n        print(json.dumps([\"A\"])) # Select the item if it's the target\n    else:\n        print(json.dumps([\"Down\"])) # Otherwise, press Down to scroll\n\nfly_menu_navigator(input_data['menu_text'], input_data['target_location'])",
     "history": [
       {
         "commit_message": "Initial version",
         "timestamp": "2025-08-29T04:50:25.744Z",
         "action_counter": 171341
+      },
+      {
+        "commit_message": "fix: Refine `fly_menu_navigator` for single-step navigation. The tool was inefficiently calculating multiple steps. This update modifies the tool to output a single 'Down' press if the target is not highlighted, and an 'A' press if it is. This aligns with the Overwatch critique and the system instruction to act as if unaware of the Fly menu order, taking one step at a time.",
+        "timestamp": "2025-08-29T05:57:13.625Z",
+        "action_counter": 171651
       }
     ]
   }
