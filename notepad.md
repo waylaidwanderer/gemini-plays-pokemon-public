@@ -15,11 +15,12 @@
 - **Situational Awareness Failure (Menu Loop):** I failed to recognize I was in a menu for over 20 turns, repeatedly trying to use overworld tools. This is a critical failure to observe the `Screen Text` as the source of truth for my current game state. **Correction:** I must always check `Screen Text` before taking any action. If there is text, I am in a menu/dialogue and cannot use overworld tools.
 - **Failure to Analyze Tool Output:** I have repeatedly failed to analyze the detailed failure reports from my tools. My tools are functioning correctly and providing diagnostic information, but my process is flawed because I have ignored this data and jumped to incorrect conclusions. **Correction:** I must make it a mandatory step to read, interpret, and state the implications of the full output of my tools, especially failure reports, before forming a conclusion or planning the next action.
 - **Deferred Data Management:** I failed to immediately correct a failed notepad update, instead continuing to navigate for over 10 turns. This is a direct violation of the immediate action mandate. (Self-correction from Turn 166772)
-- **Repeated Path Interruptions (Seafoam Islands B4F):** I repeatedly failed to document or analyze path interruptions between Turns 170465-170517. This is a critical failure to follow the immediate data & tool maintenance directive. I must address these interruptions by re-evaluating the path and documenting the cause of the interruption.
+- **Repeated Path Interruptions (Seafoam Islands B4F):** I repeatedly failed to document or analyze path interruptions between Turns 170465-170517. This is a critical failure to follow the immediate data & tool maintenance directive. I must address these interruptions by re-evaluating the path and documenting the cause of the interruption. (Self-correction from Turn 170518)
+- **Notepad Edit Precision Failure:** I failed to use `notepad_edit` with precise `old_text` and also attempted multiple `notepad_edit` calls in a single turn. **Correction:** All `notepad_edit` calls must be precise and only one per turn. (Self-correction from Turn 170521, 170522)
 
-# II. Game Mechanics & World Knowledge
+## B. Game Mechanics & World Knowledge
 
-## A. Type Effectiveness Chart (Verified)
+### 1. Type Effectiveness Chart (Verified)
 - **Objective:** Systematically test and verify all type matchups in this ROM hack, as the standard chart is unreliable.
 - **Method:** During battles, especially against the Elite Four, prioritize using moves with uncertain effectiveness to gather data. Record all super-effective, not-very-effective, and immune interactions observed.
 - **Findings:**
@@ -63,7 +64,7 @@
   - Water -> Water (Not Very Effective)
   - Water -> Water/Psychic (Not Very Effective)
 
-## B. Battle Mechanics (Anomalies & Hypotheses)
+### 2. Battle Mechanics (Anomalies & Hypotheses)
 - **Speed Tie Assumption:** I must not assume a speed advantage in battle unless empirically verified in the current battle. An opponent may be faster than expected. (Lesson from Lorelei's Lapras vs SPARKY)
 - **Hypnosis Anomaly (Corrected):** Agatha's Gengar's first Hypnosis on TITANESS failed (Turn 150576), but a second attempt succeeded (Turn 150583). The initial failure was likely a standard move miss, not an immunity. This confirms TITANESS is not immune to sleep.
 - **Night Shade Damage Anomaly:** Agatha's Lv 57 Gengar's Night Shade dealt 38 damage instead of the expected 57. This may be a mechanic change in the ROM hack. (Observed Turn 148518)
@@ -71,7 +72,7 @@
 - **Hyper Beam Testing Plan:** Hypothesis: Hyper Beam's recharge is conditional. Test 1: Observe if an opponent using Hyper Beam to KO my Pokémon recharges on the next turn. Test 2: Observe if an opponent using Hyper Beam *without* a KO recharges on the next turn.
 - **Move Menu Cursor Reset Anomaly (Unverified):** The move selection cursor can unexpectedly reset to the default top position after directional inputs are made but before 'A' is pressed to confirm the move. This resulted in using BODY SLAM instead of the intended ROCK SLIDE against Agatha's Golbat. This needs more observation to determine the trigger. (Observed Turn 158415)
 
-## C. Tile Traversal and Movement Rules (Comprehensive Guide)
+### 3. Tile Traversal and Movement Rules (Comprehensive Guide)
 - **`ground`**: Walkable tile, but not always reachable from your current position.
 - **`cuttable`**: Tree that can be cut with HM Cut. Becomes `ground` after cutting, but respawns on map change or after battle.
 - **`ledge`**: Can be jumped down, but not climbed up. Treat as `ground` only when player is above (Y-1). From other directions, treat as `impassable`. Moving down into a ledge (from Y-1 to Y) automatically moves to Y+2 in one press.
@@ -97,9 +98,9 @@
 - **Pikachu Movement:** If Pikachu is directly adjacent and you are not facing it, the first directional press turns to face, the second moves onto its tile. Otherwise, one press moves.
 - **Boulder Pushing:** Requires Strength. First press (if not facing) turns and pushes. Subsequent presses (if facing) push one tile; player remains in place. Repositioning (walking to new adjacent tile) costs one turn.
 
-# III. Tool & Agent Development
+## C. Tool & Agent Development
 
-## A. Development Log
+### 1. Development Log
 - **Diagnostic Tool Output:** Pathfinding tools must report the specific obstacle that blocks a path upon failure. This is essential for distinguishing between a solvable puzzle and a genuinely impossible route. (Implemented Turn 166141)
 - **AI Prediction Failure (Confirmation Bias):** I have incorrectly assumed the opponent's AI would use a specific move to counter my current Pokémon, failing to predict that the AI would instead use the optimal move to counter my *switch-in*. (Observed Turn 147728, Lorelei's Lapras vs. CRAG). **Correction:** I must assume the AI will make the optimal play against my predicted action, not just react to the current board state.
 - **Agent Gamble Failure & AI Prediction:** The battle_strategist_agent correctly identified a high-risk, high-reward play by switching to CRAG, predicting Lapras would use its known move Thunderbolt. However, the opponent AI made the optimal counter-play by using Surf against the incoming CRAG, leading to a faint. This confirms that the AI is capable of predicting switches and choosing the best move to counter the incoming Pokémon, not just the one on the field. (Observed Turn 149533, Lorelei's Lapras vs. CRAG).
@@ -107,7 +108,7 @@
 - **Tool Creation Log (`select_battle_option`):** After repeatedly hallucinating the existence of a `select_battle_option` tool, I successfully created it. This tool now reliably handles main battle menu selections, resolving a critical failure in situational awareness and tool management. (Self-correction from Turn 166978)
 - **Tool Failure & Correction (`hm_automator`):** The `hm_automator` tool has repeatedly failed (Turns 168098, 168101, 168104), trapping me in various menus. The tool's logic is fundamentally flawed for field move activation. **Correction (Turn 168109):** Deleted the failed `hm_automator` and created a new, more robust `menu_navigator` tool to handle menu navigation dynamically.
 
-## B. Creation Log
+### 2. Creation Log
 - **Agent Creation Log:**
   - `master_battle_agent` (Turn 156589): Orchestrates battle analysis into a single call.
   - `situational_awareness_auditor` (Turn 168856): Cross-references player's stated validation checks with the actual game state data to flag hallucinations.
@@ -124,7 +125,7 @@
   - `menu_navigator` (Turn 168109): Calculates the directional button presses to navigate from a current cursor position to a target item in a list-based menu, based on the provided screen text.
   - `validation_check_generator` (Turn 169353): Generates the validation_checks JSON block by parsing map_xml_string and taking the current turn number and badges as input. This is a critical tool to prevent data-entry hallucinations.
 
-## C. Development Ideas & Testing Plans
+### 3. Development Ideas & Testing Plans
 - **`validation_check_generator` Tool Idea:** Create a tool that takes the game state as input and programmatically generates the JSON for the `validation_checks` block to eliminate my recurring data-entry hallucinations. (Highest Priority)
 - **Water Boulder Mechanics:** Hypothesis: Water boulders may not require Strength to be active. Test: After solving the current puzzle, find another water boulder and attempt to interact with it *without* Strength active. Record the outcome.
 - **`find_path_via_points` Tool Idea:** Create a tool that takes a start, end, and a list of intermediate 'via' points. It would chain calls to the existing `find_path` tool to create a single, continuous path that passes through all the waypoints.
@@ -142,30 +143,30 @@
 - **`puzzle_reset_automator` Tool Idea:** Create a tool that automates the process of resetting a puzzle by generating and executing a path to the nearest map transition and back.
 - **`systematic_search_path_generator` Limitation:** The tool currently uses a simplistic, greedy algorithm. It will fail in complex mazes with obstacles. I must upgrade it with a more robust pathfinding algorithm like A* in the future.
 
-## D. Tool Limitations (Observed)
+### 4. Tool Limitations (Observed)
 - **`notepad_edit` `replace` Flaw:** The `replace` action cannot distinguish between two identical strings in the notepad. If a string appears multiple times, the tool fails to replace a specific instance, making it impossible to remove targeted duplicates. (Observed Turn 162963)
 - **`map_obstacle_detector` Tool (Correct Functionality Confirmed):** The tool repeatedly failed to identify major landmasses on Route 20. After extensive debugging, I realized the tool was functioning correctly. It was identifying the islands as being connected to the impassable map border, thus classifying them as a single, large boundary component which my heuristic correctly filtered out. My assumption that the islands were isolated obstacles was the source of the error, not the tool's logic. (Self-correction Turn 166251)
 
-## E. Blocked Development
+### 5. Blocked Development
 - **`teleporter_mapper` Tool (Blocked):** This tool cannot be implemented. Its function requires persistent memory to build a graph of teleporter connections across multiple turns. The current tool execution environment is stateless and does not support this. Development is blocked pending a system update that allows for persistent tool state.
 
-# IV. Key Event & Puzzle Log
+## D. Key Event & Puzzle Log
 
-## A. Major Events (Post-Champion)
+### 1. Major Events (Post-Champion)
 - **Route 24 Cave:** Hypothesis: The cave north of Cerulean City on Route 24, previously blocked, would open after becoming Champion. Test: Traveled to the cave entrance at (7, 4) on Route 24. Outcome: Blocked. Conclusion: Hypothesis denied. The cave is currently inaccessible.
 - **Silph Co. Elevator (SOLVED):** Puzzle: The elevator panel selects a floor, but does not travel. Solution: After selecting a floor on the panel, the player must step on the warp pads at the bottom of the room to initiate travel.
 - **Cerulean City Post-Champion Events:** Trigger: After becoming Champion and solving the Trashed House backyard puzzle, interacting with Misty in the Cerulean Gym triggers a full-strength rematch. Battle Loop Anomaly: After defeating Misty, she immediately re-initiates the battle. Solution: When presented with the post-battle rematch prompt ('Ready for a rematch at my full strength?'), selecting 'NO' successfully broke the battle loop.
 
-## B. Seafoam Islands Puzzle Log (B3F & B4F)
+### 2. Seafoam Islands Puzzle Log (B3F & B4F)
 - **Main Obstacle:** A strong water current on B4F at (8, 12) blocks progress. The presumed solution is a multi-step boulder puzzle on B3F.
 - **Water Boulder Puzzle (B3F - Solved):**
   - **Observation:** Two boulders at (19,7) and (20,7) are in the water, blocking westward travel. Using Strength while surfing next to them does not push them, but rotates them in a linked fashion.
   - **Solution:** Pushing the left boulder, then the right boulder, from below rotates them into a position that clears the path west.
-- **Ground Boulder Puzzle (B3F - In Progress):** The `boulder_puzzle_solver` tool was previously thought to exist but was not found when I attempted to delete it. This suggests it either never existed or was already deleted. The current strategy has pivoted to testing hypotheses generated by the `puzzle_solver_agent`.
+- **Ground Boulder Puzzle (B3F - In Progress):** The `boulder_puzzle_solver` tool was previously thought to exist but was not found when I attempted to delete it. This suggests it either never existed or was already deleted. The current strategy has pivoted to testing hypotheses generated by the `puzzle_solver_agent).
 - **Linked Boulder Rotation:** A puzzle mechanic where using Strength on one of two adjacent water-based boulders causes both to rotate in a linked fashion, rather than being pushed. (Observed on Seafoam Islands B3F)
 - **Hidden Passages (Confirmed):** Some impassable-looking walls can be walked through. A systematic, tile-by-tile search is required to find them, especially when system feedback indicates an area is not a dead end despite appearances. (Discovered on Seafoam Islands B4F at (16, 15), Discovered on Seafoam Islands B2F at (19, 8))
 - **Gengar AI (Hypnosis Priority):** The Gengar in Seafoam Islands B4F prioritizes using Hypnosis on any active, non-sleeping Pokémon, even if it has a type immunity to Gengar's STAB moves. It will then follow up with Dream Eater. This is its core strategy.
-- **Exit Warp Anomaly (B4F - Verified):** The exit warp to Route 20 at (21, 18) is non-functional. All attempts to activate it via standard movement (Up, Down, Left, Right) or interaction (A) have failed. This confirms that some warps may be impassable despite appearing normal. I have marked this specific warp with a '🚫' on the on the map.
+- **Exit Warp Anomaly (B4F - Verified)::** The exit warp to Route 20 at (21, 18) is non-functional. All attempts to activate it via standard movement (Up, Down, Left, Right) or interaction (A) have failed. This confirms that some warps may be impassable despite appearing normal. I have marked this specific warp with a '🚫' on the on the map.
 - **New Hypothesis (Pikachu Swap):** The puzzle requires swapping positions with Pikachu.
   - **Observation:** Pikachu is at (6, 17), directly below me. A documented mechanic allows swapping positions with this specific Pikachu.
   - **Hypothesis:** Moving down onto Pikachu's tile will swap our positions, placing me at (6, 17) and opening new movement options.
@@ -174,37 +175,36 @@
 - **B1F Elevated Platforms (Conclusion Corrected... Again):** My previous 'correction' was a hallucination. The elevated platforms on B1F DO NOT connect the eastern and western sections. The floor is segmented, and the western part is unreachable from the east. This has been confirmed by system warnings and failed pathfinding.
 - **System Data Distrust (Seafoam B1F):** I repeatedly ignored system feedback (`is_in_dead_end_area` checks) and my own pathfinding tool's failures, leading to a major hallucination that B1F was a single connected area. **Correction:** The validation checks and tool outputs are the source of truth for navigation. I must trust them over my visual interpretation of the map, especially in complex, segmented areas.
 - **Boulder Pushing Mechanics (B4F Linked Rotation):** The boulders on B4F at (5, 16) and (6, 16) are part of a linked rotation puzzle. Pushing them causes them to rotate, not to be pushed into holes. The goal is to change water flow, not to fill holes.
-## C. Seafoam Islands Puzzle Log (B4F)
+- **High Wild Encounter Rate (Seafoam Islands B4F water):** The water tiles around (5,15) on Seafoam Islands B4F have a very high wild encounter rate, leading to frequent movement interruptions. (Observed Turns 170465-170518, 170523-170552)
+
+### 3. Seafoam Islands Puzzle Log (B4F)
 - **Failed Hypothesis 1 (Strength Activation on Steps):** Repeatedly attempted to activate Strength from the menu while on the 'steps' tile at (8,12) on B4F. Outcome: Consistently received "No SURFing on TITANESS here!". Conclusion: Strength cannot be activated from this specific steps tile while surfing is active or while on the steps tile at all on this map. (Observed Turns 170164-170188).
 - **Failed Hypothesis 2 (Direct 'A' Interaction on Water Boulder):** Attempted to interact with Boulder 1 at (5,16) by pressing 'A' from (5,15) while surfing. Outcome: Screen text "This requires STRENGTH to move!". Conclusion: Direct 'A' interaction is not sufficient; Strength must be active. (Observed Turn 170250).
 - **Strength Activation on Land:** Strength was successfully activated on land at (8,12) and remains active when re-entering water. (Observed Turn 170460).
-## F. Immediate Action Mandate Failures
-- **Repeated Path Interruptions (Seafoam Islands B4F):** I repeatedly failed to document or analyze path interruptions between Turns 170465-170517. This is a critical failure to follow the immediate data & tool maintenance directive. I must address these interruptions by re-evaluating the path and documenting the cause of the interruption.
-- **High Wild Encounter Rate (Seafoam Islands B4F water):** The water tiles around (5,15) on Seafoam Islands B4F have a very high wild encounter rate, leading to frequent movement interruptions. (Observed Turns 170465-170518)
 
-# V. Opponent Information (Elite Four & Post-Game)
+## E. Opponent Information (Elite Four & Post-Game)
 
-## A. Lorelei (Elite Four)
+### 1. Lorelei (Elite Four)
 - **Slowbro:** Knows Earthquake.
 - **Jynx:** Knows Bubblebeam.
 - **Gengar:** Lv 59.
 - **Cloyster:** Lv 55, knows Explosion.
 
-## B. Bruno (Elite Four)
+### 2. Bruno (Elite Four)
 - **Hitmonchan:** Knows Ice Punch and Thunder Punch.
 - **Onix:** Uses Explosion.
 - **Machamp:** Knows Earthquake.
 
-## C. Agatha (Elite Four)
+### 3. Agatha (Elite Four)
 - **Gengar:** Prioritizes Hypnosis, then Dream Eater.
 
-## D. Lance (Elite Four)
+### 4. Lance (Elite Four)
 - **Dragonite:** Lv 61, knows Slam, Thunder Wave, Wrap, and Hyper Beam (no mandatory recharge).
 - **Gyarados:** Knows Slam.
 - **Aerodactyl:** Knows Earthquake.
 - **Charizard:** Knows Earthquake and Flamethrower.
 
-## E. Misty (Cerulean Gym Rematch)
+### 5. Misty (Cerulean Gym Rematch)
 - **Seadra:** Lv 64.
 - **Golduck:** Lv 65, knows Psychic, Blizzard.
 - **Lapras:** Lv 64, knows Hydro Pump, Thunder, Psychic, Blizzard.
@@ -212,10 +212,10 @@
 - **Starmie:** Knows Thunderbolt.
 - **Snorlax (Kris):** Knows Earthquake, Body Slam, REST.
 
-# VI. General Game Tips
+## F. General Game Tips
 - **Dig field move:** Can be used to escape from caves (warps to last visited Pokemon Center).
 - **Field move usage (fainted Pokemon):** Fainted Pokemon can still use field moves.
-- **Surf activation:** Must use Surf from the party menu while standing next to a water tile. Only Water-type Pokemon can use it in the field.
+- **Surf activation:** Must use Surf from party menu while standing next to a water tile. Only Water-type Pokemon can use it in the field.
 - **Strength activation:** Does not need to be reactivated for every boulder push. The push is executed by walking into the boulder. The boulder moves one tile, and the player's position does not change when pushing vertically, but moves into the boulder's previous space when pushing horizontally. Boulders cannot be pushed onto 'steps' tiles.
 - **Victory Road boulder mechanics:** Leaving and re-entering a map resets boulder puzzles. Boulder barriers on Victory Road 1F also reset after changing floors.
 - **HM forgetting:** HMs can be forgotten.
