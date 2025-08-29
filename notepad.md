@@ -33,6 +33,7 @@
 - **Hyper Beam Recharge (Contradictory Evidence):** Lance's Aerodactyl was observed to recharge after using Hyper Beam (Turn 158577). However, his Gyarados was able to attack with SLAM immediately after NEPTUNE used a move on the same turn it should have been recharging from Hyper Beam (Turn 159019). The recharge mechanic may be conditional or inconsistent.
 - **Hyper Beam Testing Plan:** Hypothesis: Hyper Beam's recharge is conditional. Test 1: Observe if an opponent using Hyper Beam to KO my Pokémon recharges on the next turn. Test 2: Observe if an opponent using Hyper Beam *without* a KO recharges on the next turn.
 - **Move Menu Cursor Reset Anomaly (Unverified):** The move selection cursor can unexpectedly reset to the default top position after directional inputs are made but before 'A' is pressed to confirm the move. This resulted in using BODY SLAM instead of the intended ROCK SLIDE against Agatha's Golbat. This needs more observation to determine the trigger. (Observed Turn 158415)
+- **`find_path` Tool Limitation (Complex Maps):** The `find_path` tool, even with fixes for object traversability, struggles to find long paths through complex, segmented maps with large impassable areas (e.g., water bodies, walls). It often reports numerous irrelevant impassable tiles as blocking, suggesting a limitation in its ability to navigate around these structures rather than an issue with individual tile traversability. (Observed Turns 172922-172929). **Correction:** The `find_path` tool's error message could be more descriptive about *why* a path is blocked (e.g., 'blocked by a boulder' vs. 'blocked by a boulder barrier') rather than a generic 'Path blocked by one or more obstacles.' This will be considered for future refinement.
 
 ### 2. Tile Type Glossary (Observed Mechanics)
 - **Linked Boulder Rotation:** A puzzle mechanic where using Strength on one of two adjacent water-based boulders causes both to rotate in a linked fashion, rather than being pushed. (Observed on Seafoam Islands B3F)
@@ -40,7 +41,6 @@
 - **Boulder & Strength Mechanics:** Strength does not need to be reactivated for every boulder push. Pushing a boulder is a multi-step process. If not facing a boulder, the first directional button press will turn the player to face it and push the boulder one tile in the same turn. If already facing, pressing the same directional button again will push it one tile (player stays in place). To push a boulder multiple times, the player must walk to a tile adjacent to its new position after each push. When pushing vertically, the player's position does not change, but when pushing horizontally, the player moves into the boulder's previous space.
 - **Impassable Tiles in Pathfinding:** Some tiles identified as 'impassable' in the map memory can unexpectedly block paths even if `find_path` previously considered them traversable. This requires explicit addition to `temp_impassable` if encountered (e.g., (34,21) on Rock Tunnel B1F, (34,6) on Rock Tunnel 1F). (Observed Turn 172735, 172754, 172758)
 - **HM Field Move Usage (Two 'A' Presses):** To use an HM field move (like Cut) from the overworld, the player must first press 'A' while facing the target to bring up the "Would you like to use [HM]?" prompt, and then press 'A' again to confirm 'YES'. (Observed Turns 172822, 172872, 172881).
-- **`find_path` Tool Limitation (Complex Maps):** The `find_path` tool, even with fixes for object traversability, struggles to find long paths through complex, segmented maps with large impassable areas (e.g., water bodies, walls). It often reports numerous irrelevant impassable tiles as blocking, suggesting a limitation in its ability to navigate around these structures rather than an issue with individual tile traversability. (Observed Turns 172922-172929). **Correction:** The `find_path` tool's error message could be more descriptive about *why* a path is blocked (e.g., 'blocked by a boulder' vs. 'blocked by a boulder barrier') rather than a generic 'Path blocked by one or more obstacles.' This will be considered for future refinement.
 
 ## C. Tool & Agent Development
 
@@ -80,6 +80,7 @@
 - **`interrupt_handler_navigator` Tool Idea:** Create a tool that takes a final destination, generates a path, and automatically handles interruptions like wild battles by re-pathing.
 - **`notepad_analyzer_agent` Idea:** Create an agent that can parse the entire notepad, identify redundancies or contradictions, and suggest organizational improvements.
 - **`puzzle_reset_automator` Tool Idea:** Create a tool that automates the process of resetting a puzzle by generating and executing a path to the nearest map transition and back.
+- **Agent Refinement: `master_battle_agent` `recommended_lead`:** The `master_battle_agent`'s reasoning for `recommended_lead` could be more robust, especially when the opponent's full team is not known. This is an area for potential future refinement.
 
 ### 4. Tool Limitations (Observed)
 - **`notepad_edit` `replace` Flaw:** The `replace` action cannot distinguish between two identical strings in the notepad. If a string appears multiple times, the tool fails to replace a specific instance, making it impossible to remove targeted duplicates. (Observed Turn 162963).
@@ -140,18 +141,7 @@
 - **Snorlax (Kris):** Knows Earthquake, Body Slam, REST.
 
 ## F. General Game Tips (ROM Hack Specifics)
-- **Dig field move:** Can be used to escape from caves (warps to last visited Pokemon Center).
-- **Field move usage (fainted Pokemon):** Fainted Pokemon can still use field moves.
-- **Surf activation:** Must use Surf from party menu while standing next to a water tile, facing the water. Only Water-type Pokemon can use it in the field.
-- **Surf Activation Steps:**
-    1. Be on a ground tile adjacent to water, facing the water.
-    2. Press 'Start' to open the main menu.
-    3. Select 'POKéMON'.
-    4. Select a Pokémon that knows Surf (e.g., NEPTUNE).
-    5. Select 'SURF' from the Pokémon's moves.
-    6. Confirm 'YES' to the "Would you like to SURF?" prompt.
-- **Victory Road boulder mechanics:** Leaving and re-entering a map resets boulder puzzles. Boulder barriers on Victory Road 1F also reset after changing floors.
-- **HM forgetting:** HMs can be forgotten.
+- **Assumption: Normal vs Electric Neutrality:** My `master_battle_agent` assumes Normal is neutral against Electric when it's not explicitly in the type chart. This needs to be verified. Test: In a future battle, if a Normal-type Pokémon attacks an Electric-type, I should specifically observe the "It's not very effective," "It's super effective," or lack thereof message to confirm neutrality.
 
 # II. Area & Navigation Insights
 
@@ -159,7 +149,6 @@
 - **Current Status:** Exploring for Zapdos.
 - **Entry Warp:** (5, 36) and (6, 36) from Route 10.
 - **Craig's Location:** (3, 6) - defeated and is now an impassable obstacle.
-- **Pikachu's Location:** (34, 28) - currently blocking a path. (This is dynamic and moves).
 - **Item Traps:** Many item balls are actually wild Pokémon encounters (e.g., (10, 21), (24, 35), (27, 29), (38, 33), (22, 26)).
 - **Item Picked Up:** CARBOS (8, 26), TM33 REFLECT (21, 33), TM25 THUNDER (27, 33).
 - **Visual Glitch:** (38, 28) is a visual glitch, no item.
@@ -169,4 +158,4 @@
 
 ## A. Defeated Trainers
 - **Power Plant:**
-  - Craig (POWERPLANT_CRAIG) at (3, 6) on Power Plant (ID: 83) - Turn 173138 (This is an assumption based on the marker. I have not battled him on this specific map, but he is marked as defeated from a previous encounter on another map.)
+  - Craig (POWERPLANT_CRAIG) at (3, 6) on Power Plant (ID: 83) - Turn 173138
