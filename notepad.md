@@ -142,6 +142,13 @@
 ## F. General Game Tips (ROM Hack Specifics)
 - **Dig field move:** Can be used to escape from caves (warps to last visited Pokemon Center).
 - **Field move usage (fainted Pokemon):** Fainted Pokemon can still use field moves.
-- **Surf activation:** Must use Surf from party menu while standing next to a water tile. Only Water-type Pokemon can use it in the field.
+- **Surf activation:** Must use Surf from party menu while standing next to a water tile, facing the water. Only Water-type Pokemon can use it in the field.
+- **Surf Activation Steps:**
+    1. Be on a ground tile adjacent to water, facing the water.
+    2. Press 'Start' to open the main menu.
+    3. Select 'POKéMON'.
+    4. Select a Pokémon that knows Surf (e.g., NEPTUNE).
+    5. Select 'SURF' from the Pokémon's moves.
+    6. Confirm 'YES' to the "Would you like to SURF?" prompt.
 - **Victory Road boulder mechanics:** Leaving and re-entering a map resets boulder puzzles. Boulder barriers on Victory Road 1F also reset after changing floors.
 - **HM forgetting:** HMs can be forgotten.
