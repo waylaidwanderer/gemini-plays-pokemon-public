@@ -2,7 +2,6 @@
 
 ## A. Self-Correction Log (Master)
 
-- **Core Failure: Deferred Maintenance & Flawed Analysis.** I have repeatedly failed to perform immediate maintenance on tools and data, and have failed to properly analyze system feedback, tool output, and my own assumptions. **Correction:** All maintenance is my absolute highest priority. I must treat system feedback as the source of truth, rigorously test all hypotheses, and analyze all data before acting.
 - **Strategic Inflexibility & Failure to Adapt:** I have shown inflexibility by sticking to a failing plan instead of pivoting. **Correction:** I must adapt my strategy when an approach fails repeatedly and treat system/tool feedback as the source of truth, questioning my own assumptions first.
 - **Agent Trust & Refinement:** I have repeatedly failed to trust my agents' outputs, leading to suboptimal plays and losses. **Correction:** I must trust agent outputs as the default correct action. If an agent's advice is proven unreliable through in-game testing, I must refine the agent immediately rather than manually overriding it.
 - **Failure to Consult Documentation:** I became stuck in the Cerulean backyard puzzle for over 20 turns by failing to consult my own notes, which state Pikachu is a walkable object. **Correction:** I must review my documented mechanics when encountering a puzzle before resorting to brute-force attempts.
