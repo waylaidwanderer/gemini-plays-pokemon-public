@@ -112,8 +112,8 @@
 ## F. General Game Tips (ROM Hack Specifics)
 - **Normal vs Electric Neutrality (Hypothesis):** Need to verify if Normal-type moves are neutral against Electric-types by observing battle text in a future encounter.
 
-# II. Area & Navigation Insights
+# IV. Area & Navigation Insights
 
 ## A. Power Plant (ID: 83)
-- **Current Status:** Exploring for Zapdos.
-- **Reachable Unseen Tiles:** 27 tiles remain to be explored.
+- **Objective:** Find and defeat trainer CRAIG, then find and capture Zapdos.
+- **Status:** Currently navigating Rock Tunnel to reach it.
