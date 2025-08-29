@@ -11,10 +11,13 @@
 - **Fly Menu Navigation Failure (Turn 171342-171352):** I repeatedly overshot the target Pokémon in the party menu and then manually scrolled through the Fly menu. **Correction:** I must use the `fly_menu_navigator` tool as intended and trust its output. The `get_next_pokemon_press` tool was deleted to make space for `fly_menu_navigator` and should not have been used. This also highlights a failure to immediately use a newly defined tool.
 - **Deferred Map Marker Creation (Turns 172822, 172872, 172881):** I cut trees but deferred defining map markers for them until a later turn (172829, 172877, 172882). **Correction:** Map markers must be defined immediately on the same turn the event occurs.
 - **Repeated `find_path` Calls without Re-evaluation (Turns 172922-172929):** I repeatedly called `find_path` to the same target after it failed without adapting my strategy or re-evaluating the cause of failure. **Correction:** When a tool's output is unexpected, I must immediately adapt my strategy and re-evaluate the underlying cause of the failure.
-- **Recurring Deferred Notepad and Map Marker Updates (Critique from Turn 172930, 173597 - Critical Failure):** The overwatch critique highlighted a recurring lapse in performing notepad and map marker updates *immediately*, citing specific turns where updates were deferred. This is a critical failure to adhere to the core directive that all maintenance must be performed in the *current turn* without deferral. **Correction:** I must ensure all notepad updates and map marker definitions are performed in the *current turn* without deferral, and this issue will be prioritized in all future actions.
-- **Tool Refinement (Critique from Turn 173623 - Critical Failure):** I have repeatedly failed to refine my `find_path` tool to provide diagnostic information about *why* a path is blocked. My `menu_navigator` and `select_battle_option` tools exhibit execution issues. I have deferred fixing these, prioritizing the ongoing battle. **Correction:** Tool refinement is a higher priority than any short-term gameplay objective. I must immediately refine faulty tools using `define_tool`.
-- **Notepad Redundancy (Critique from Turn 173623 - Critical Failure):** My notepad contains significant outdated and redundant information. **Correction:** I must break down large-scale reorganization into smaller, focused `replace` or `append` actions to avoid destructive changes.
-- **Map Marker Usage (Critique from Turn 173623 - Critical Failure):** My map markers section is currently empty, which is a critical failure. **Correction:** I must immediately begin diligently marking every discovered NPC, defeated trainer, used warp, dead end, and key discovery with Map Markers.
+
+# I. Core Principles & Lessons Learned
+- **Immediate Maintenance:** All data management (notepad, markers, tools, agents) must be performed in the current turn without deferral. This is the highest priority.
+- **Trust System & Tools:** Trust game state data, system feedback, and tool outputs over intuition. Verify reachability before debugging a 'no path' result.
+- **Scientific Approach:** Observe, hypothesize, test, and document all puzzle-solving attempts. Avoid repeating failed strategies.
+- **Strategic Flexibility:** If progress stalls on a primary objective, pivot to a secondary, tertiary, or exploratory goal.
+- **Preserve Knowledge:** Do not delete valuable insights from the notepad; only restructure or condense.
 
 # III. Game & World Knowledge
 
