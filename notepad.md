@@ -37,6 +37,8 @@
 - **Boulder & Strength Mechanics:** Strength does not need to be reactivated for every boulder push. Pushing a boulder is a multi-step process. If not facing a boulder, the first directional button press will turn the player to face it and push the boulder one tile in the same turn. If already facing, pressing the same directional button again will push it one tile (player stays in place). To push a boulder multiple times, the player must walk to a tile adjacent to its new position after each push. When pushing vertically, the player's position does not change, but when pushing horizontally, the player moves into the boulder's previous space.
 - **Strength Activation on Land:** Strength can be activated on land and remains active when re-entering water. (Observed Turn 170460).
 - **Strength Wear Off:** Using the HM Strength wears off after a wild Pokémon encounter.
+- **Strength Activation on Land:** Strength can be activated on land and remains active when re-entering water. (Observed Turn 170460).
+- **Strength Wear Off:** Using the HM Strength wears off after a wild Pokémon encounter.
 
 ## C. Tool & Agent Development
 
