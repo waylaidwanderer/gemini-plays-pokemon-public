@@ -502,37 +502,6 @@
       }
     ]
   },
-  "fly_menu_navigator": {
-    "description": "Calculates the directional button presses to navigate from the current cursor position to a target location in the Fly menu, based on the provided screen text. Returns a sequence of 'Up' or 'Down' presses, and an 'A' press to select the item.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "menu_text": {
-          "type": "string"
-        },
-        "target_location": {
-          "type": "string"
-        }
-      },
-      "required": [
-        "menu_text",
-        "target_location"
-      ]
-    },
-    "python_script": "import json\n\ndef fly_menu_navigator(menu_text, target_location):\n    menu_lines = [line.strip() for line in menu_text.split('\\n') if line.strip()]\n    current_selection = None\n\n    # The first line of the menu text usually contains the selected item\n    # We need to extract the actual location name, which is before '→↓'\n    if menu_lines:\n        first_line = menu_lines[0]\n        if '→↓' in first_line:\n            current_selection = first_line.split('→↓')[0].replace('To ', '').strip()\n\n    if current_selection and current_selection.upper() == target_location.upper():\n        print(json.dumps([\"A\"])) # Select the item if it's the target\n    else:\n        print(json.dumps([\"Down\"])) # Otherwise, press Down to scroll\n\nfly_menu_navigator(input_data['menu_text'], input_data['target_location'])",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2025-08-29T04:50:25.744Z",
-        "action_counter": 171341
-      },
-      {
-        "commit_message": "fix: Refine `fly_menu_navigator` for single-step navigation. The tool was inefficiently calculating multiple steps. This update modifies the tool to output a single 'Down' press if the target is not highlighted, and an 'A' press if it is. This aligns with the Overwatch critique and the system instruction to act as if unaware of the Fly menu order, taking one step at a time.",
-        "timestamp": "2025-08-29T05:57:13.625Z",
-        "action_counter": 171651
-      }
-    ]
-  },
   "map_data_parser": {
     "description": "Parses the map_xml_string to extract key map data, including dimensions, and a list of all tiles with their coordinates, type, and any objects. Standardizes map data access for other tools.",
     "input_schema": {
@@ -647,6 +616,40 @@
         "commit_message": "fix: Integrate A* pathfinding to verify warp reachability. The previous version incorrectly listed all warps on a map as 'navigable' without checking if a valid path existed from the player's position. This led to a critical hallucination. This commit incorporates an A* pathfinding algorithm to test connectivity for each warp, ensuring that the `navigable_warps` list is accurate and preventing future validation failures.",
         "timestamp": "2025-08-29T18:38:03.832Z",
         "action_counter": 173939
+      }
+    ]
+  },
+  "auto_trivial_battle_handler": {
+    "description": "Automates trivial wild battles by selecting the best one-hit KO move and outputting the required button presses.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "player_party_json": {
+          "type": "string"
+        },
+        "enemy_pokemon_json": {
+          "type": "string"
+        },
+        "active_pokemon_name": {
+          "type": "string"
+        },
+        "screen_text": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "player_party_json",
+        "enemy_pokemon_json",
+        "active_pokemon_name",
+        "screen_text"
+      ]
+    },
+    "python_script": "import json\nimport re\n\n# Hardcoded data from master_battle_agent\nPOKEMON_TYPES = {'MAROWAK': ['Ground', None], 'KANGASKHAN': ['Normal', None], 'LAPRAS': ['Water', 'Ice'], 'GOLEM': ['Rock', 'Ground'], 'PIKACHU': ['Electric', None], 'GOLBAT': ['Poison', 'Flying'], 'DEWGONG': ['Water', 'Ice'], 'JYNX': ['Ice', 'Psychic'], 'SLOWBRO': ['Water', 'Psychic'], 'CLOISTER': ['Water', 'Ice'], 'HITMONCHAN': ['Fighting', None], 'POLIWRATH': ['Water', 'Fighting'], 'HITMONLEE': ['Fighting', None], 'ONIX': ['Rock', 'Ground'], 'MACHAMP': ['Fighting', None], 'GENGAR': ['Ghost', 'Poison'], 'ARBOK': ['Poison', None], 'DRAGONITE': ['Dragon', 'Flying'], 'GYARADOS': ['Water', 'Flying'], 'CHARIZARD': ['Fire', 'Flying'], 'AERODACTYL': ['Rock', 'Flying'], 'MAGNETON': ['Electric', None], 'DODRIO': ['Normal', 'Flying'], 'ALAKAZAM': ['Psychic', None], 'SANDSLASH': ['Ground', None], 'SEEL': ['Water', None], 'ELECTABUZZ': ['Electric', None], 'VOLTORB': ['Electric', None], 'ELECTRODE': ['Electric', None]}\nTYPE_EFFECTIVENESS = {\n    ('Electric', 'Poison', 'Flying'): 2.0,\n    ('Electric', 'Water', None): 2.0,\n    ('Electric', 'Water', 'Ice'): 2.0,\n    ('Electric', 'Water', 'Psychic'): 2.0,\n    ('Fighting', 'Ice', None): 2.0,\n    ('Fighting', 'Normal', None): 2.0,\n    ('Fighting', 'Rock', None): 2.0,\n    ('Flying', 'Ground', None): 0.0,\n    ('Ghost', 'Ground', None): 0.0,\n    ('Grass', 'Ground', None): 2.0,\n    ('Grass', 'Rock', 'Ground'): 2.0,\n    ('Grass', 'Water', 'Ice'): 2.0,\n    ('Ground', 'Electric', None): 2.0,\n    ('Ground', 'Ghost', None): 2.0,\n    ('Ground', 'Ground', None): 2.0,\n    ('Ground', 'Psychic', None): 2.0,\n    ('Ground', 'Rock', 'Ground'): 2.0,\n    ('Ice', 'Psychic', None): 0.5,\n    ('Ice', 'Water', None): 0.5,\n    ('Ice', 'Ground', None): 2.0,\n    ('Ice', 'Poison', 'Flying'): 2.0,\n    ('Normal', 'Ghost', None): 0.0,\n    ('Normal', 'Rock', 'Flying'): 0.5,\n    ('Psychic', 'Poison', None): 2.0,\n    ('Rock', 'Flying', None): 2.0,\n    ('Water', 'Water', 'Psychic'): 0.5,\n}\n\ndef get_effectiveness(move_type, opponent_types):\n    key = (move_type, opponent_types[0], opponent_types[1])\n    return TYPE_EFFECTIVENESS.get(key, 1.0)\n\nplayer_party = json.loads(input_data['player_party_json'])\n_enemy_pokemon = json.loads(input_data['enemy_pokemon_json'])\nenemy_pokemon = _enemy_pokemon[0]\nactive_pokemon_name = input_data['active_pokemon_name']\nscreen_text = input_data['screen_text']\n\nactive_pokemon = next((p for p in player_party if p['species'] == active_pokemon_name), None)\n\nif not active_pokemon:\n    print(json.dumps([\"Error: Active Pokemon not found\"]))\n    exit()\n\n# Battle Logic to find the best move\nactive_pk_level = active_pokemon['level']\nenemy_level = enemy_pokemon['level']\n\n# Trivial encounter check\nif active_pk_level < enemy_level + 10:\n    print(json.dumps([\"Error: Not a trivial encounter\"]))\n    exit()\n\nactive_pk_types = POKEMON_TYPES.get(active_pokemon['species'], [None, None])\nenemy_pk_types = POKEMON_TYPES.get(enemy_pokemon['species'], [None, None])\n\nbest_move = None\nhighest_score = -1\n\nfor move in active_pokemon['moves']:\n    score = 0\n    move_type = move.get('type')\n    \n    # Prioritize STAB\n    if move_type in active_pk_types:\n        score += 10\n    \n    # Factor in effectiveness\n    effectiveness = get_effectiveness(move_type, enemy_pk_types)\n    if effectiveness > 1.0:\n        score += 20 * effectiveness\n    \n    # Penalize recoil\n    if move['name'] == 'DOUBLE-EDGE':\n        score -= 5\n\n    if score > highest_score:\n        highest_score = score\n        best_move = move['name']\n\nif not best_move:\n    best_move = active_pokemon['moves'][0]['name'] # Default to first move\n\n# Menu Navigation Logic\nlines = screen_text.strip().split('\\n')\nmenu_items = []\ncursor_pos = -1\n\nfor i, line in enumerate(lines):\n    if '→' in line:\n        cursor_pos = len(menu_items)\n        line = line.replace('→', '').strip()\n    \n    # Regex to find move names, which are typically uppercase words\n    match = re.search(r'^[A-Z\\-]+$', line.strip())\n    if match:\n        menu_items.append(match.group(0))\n\nif cursor_pos == -1 or not menu_items:\n    print(json.dumps([\"Error: Could not parse move menu\"]))\n    exit()\n\ntry:\n    target_pos = menu_items.index(best_move)\nexcept ValueError:\n    print(json.dumps([f\"Error: Best move '{best_move}' not in menu items: {menu_items}\"]))\n    exit()\n\nmoves = target_pos - cursor_pos\npresses = []\nif moves > 0:\n    presses.extend(['Down'] * moves)\nelif moves < 0:\n    presses.extend(['Up'] * abs(moves))\n\n# Final output: Press A for fight, navigate, press A to select\nfinal_buttons = ['A'] + presses + ['A']\nprint(json.dumps(final_buttons))\n",
+    "history": [
+      {
+        "commit_message": "feat: Create auto_trivial_battle_handler tool. In response to ten consecutive wild battle interruptions, this tool automates the process of winning trivial encounters. It combines the logic of the master_battle_agent and menu_navigator to determine the best OHKO move and generate the necessary button presses, significantly improving gameplay efficiency.",
+        "timestamp": "2025-08-29T19:23:49.219Z",
+        "action_counter": 173992
       }
     ]
   }
