@@ -20,23 +20,29 @@
 - **Notepad Redundancy (Critique from Turn 173623 - Critical Failure):** My notepad contains significant outdated and redundant information. **Correction:** I must break down large-scale reorganization into smaller, focused `replace` or `append` actions to avoid destructive changes.
 - **Map Marker Usage (Critique from Turn 173623 - Critical Failure):** My map markers section is currently empty, which is a critical failure. **Correction:** I must immediately begin diligently marking every discovered NPC, defeated trainer, used warp, dead end, and key discovery with Map Markers.
 
-## B. Game Mechanics & World Knowledge
+# III. Game & World Knowledge
 
-### 1. Battle Mechanics (Anomalies & Hypotheses)
-- **Speed Tie Assumption:** I must not assume a speed advantage in battle unless empirically verified in the current battle. An opponent may be faster than expected. (Lesson from Lorelei's Lapras vs SPARKY)
-- **Hypnosis Anomaly (Corrected):** Agatha's Gengar's first Hypnosis on TITANESS failed (Turn 150576), but a second attempt succeeded (Turn 150583). The initial failure was likely a standard move miss, not an immunity. This confirms TITANESS is not immune to sleep.
-- **Night Shade Damage Anomaly:** Agatha's Lv 57 Gengar's Night Shade dealt 38 damage instead of the expected 57. This may be a mechanic change in the ROM hack. (Observed Turn 148518)
-- **Hyper Beam Recharge (Contradictory Evidence):** Lance's Aerodactyl was observed to recharge after using Hyper Beam (Turn 158577). However, his Gyarados was able to attack with SLAM immediately after NEPTUNE used a move on the same turn it should have been recharging from Hyper Beam (Turn 159019). The recharge mechanic may be conditional or inconsistent.
-- **Hyper Beam Testing Plan:** Hypothesis: Hyper Beam's recharge is conditional. Test 1: Observe if an opponent using Hyper Beam to KO my Pokémon recharges on the next turn. Test 2: Observe if an opponent using Hyper Beam *without* a KO recharges on the next turn.
-- **Move Menu Cursor Reset Anomaly (Unverified):** The move selection cursor can unexpectedly reset to the default top position after directional inputs are made but before 'A' is pressed to confirm the move. This resulted in using BODY SLAM instead of the intended ROCK SLIDE against Agatha's Golbat. This needs more observation to determine the trigger. (Observed Turn 158415)
-- **`find_path` Tool Limitation (Complex Maps):** The `find_path` tool, even with fixes for object traversability, struggles to find long paths through complex, segmented maps with large impassable areas (e.g., water bodies, walls). It often reports numerous irrelevant impassable tiles as blocking, suggesting a limitation in its ability to navigate around these structures rather than an issue with individual tile traversability. (Observed Turns 172922-172929). **Correction:** The `find_path` tool's error message could be more descriptive about *why* a path is blocked (e.g., 'blocked by a boulder' vs. 'blocked by a boulder barrier') rather than a generic 'Path blocked by one or more obstacles.' This will be considered for future refinement.
+## A. Battle Mechanics & Type Effectiveness
+- **Verified Type Chart:**
+  - Electric is super-effective against Poison/Flying, Water, Water/Ice, and Water/Psychic.
+  - Fighting is super-effective against Ice, Normal, and Rock.
+  - Flying is immune to Ground.
+  - Ghost is immune to Ground.
+  - Grass is super-effective against Ground, Ground/Rock, and Water/Ice.
+  - Ground is super-effective against Electric, Ghost, Ground, Psychic, and Rock/Ground.
+  - Normal is immune to Ghost.
+  - Psychic is super-effective against Poison.
+  - Rock is super-effective against Flying.
+- **Anomalies & Hypotheses:**
+  - **Night Shade Damage:** May be altered in this ROM hack.
+  - **Hyper Beam Recharge:** May be conditional or inconsistent.
+  - **Move Menu Cursor Reset:** May randomly reset to the top position.
 
-### 2. Tile Type Glossary (Observed Mechanics)
-- **Linked Boulder Rotation:** A puzzle mechanic where using Strength on one of two adjacent water-based boulders causes both to rotate in a linked fashion, rather than being pushed. (Observed on Seafoam Islands B3F)
-- **Hidden Passages (Confirmed):** Some impassable-looking walls can be walked through. A systematic, tile-by-tile search is required to find them, especially when system feedback indicates an area is not a dead end despite appearances. (Discovered on Seafoam Islands B4F at (16, 15), Discovered on Seafoam Islands B2F at (19, 8))
-- **Boulder & Strength Mechanics:** Strength does not need to be reactivated for every boulder push. Pushing a boulder is a multi-step process. If not facing a boulder, the first directional button press will turn the player to face it and push the boulder one tile in the same turn. If already facing, pressing the same directional button again will push it one tile (player stays in place). To push a boulder multiple times, the player must walk to a tile adjacent to its new position after each push. When pushing vertically, the player's position does not change, but when pushing horizontally, the player moves into the boulder's previous space.
-- **Impassable Tiles in Pathfinding:** Some tiles identified as 'impassable' in the map memory can unexpectedly block paths even if `find_path` previously considered them traversable. This requires explicit addition to `temp_impassable` if encountered (e.g., (34,21) on Rock Tunnel B1F, (34,6) on Rock Tunnel 1F). (Observed Turn 172735, 172754, 172758)
-- **HM Field Move Usage (Two 'A' Presses):** To use an HM field move (like Cut) from the overworld, the player must first press 'A' while facing the target to bring up the "Would you like to use [HM]?" prompt, and then press 'A' again to confirm 'YES'. (Observed Turns 172822, 172872, 172881).
+## B. Tile & Field Mechanics
+- **Linked Boulder Rotation:** Some water-based boulders rotate in a linked fashion.
+- **Hidden Passages:** Impassable-looking walls can sometimes be walked through.
+- **Strength Mechanics:** Does not need to be reactivated per push. Player position can change depending on push direction.
+- **HM Field Move Usage:** Requires two 'A' presses (prompt + confirmation).
 
 ## C. Tool & Agent Development
 
