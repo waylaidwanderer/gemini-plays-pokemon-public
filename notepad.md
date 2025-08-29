@@ -158,9 +158,3 @@
 ## A. Power Plant (ID: 83)
 - **Current Status:** Exploring for Zapdos.
 - **Reachable Unseen Tiles:** 27 tiles remain to be explored.
-
-# III. Progress Tracking
-
-## A. Defeated Trainers
-- **Power Plant:**
-  - Craig (POWERPLANT_CRAIG) at (3, 6) on Power Plant (ID: 83) - DEFEATED
