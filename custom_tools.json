@@ -437,6 +437,37 @@
       }
     ]
   },
+  "fly_menu_navigator": {
+    "description": "Calculates the directional button presses to navigate from the current cursor position to a target location in the Fly menu, based on the provided screen text. Returns a sequence of 'Up' or 'Down' presses, and an 'A' press to select the item.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "menu_text": {
+          "type": "string"
+        },
+        "target_location": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "menu_text",
+        "target_location"
+      ]
+    },
+    "python_script": "import json\n\ndef fly_menu_navigator(menu_text, target_location):\n    menu_lines = [line.strip() for line in menu_text.split('\\n') if line.strip()]\n    current_selection = None\n\n    # The first line of the menu text usually contains the selected item\n    # We need to extract the actual location name, which is before '→↓'\n    if menu_lines:\n        first_line = menu_lines[0]\n        if '→↓' in first_line:\n            current_selection = first_line.split('→↓')[0].replace('To ', '').strip()\n\n    if current_selection and current_selection.upper() == target_location.upper():\n        print(json.dumps([\"A\"])) # Select the item if it's the target\n    else:\n        print(json.dumps([\"Down\"])) # Otherwise, press Down to scroll\n\nfly_menu_navigator(input_data['menu_text'], input_data['target_location'])",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2025-08-29T04:50:25.744Z",
+        "action_counter": 171341
+      },
+      {
+        "commit_message": "fix: Refine `fly_menu_navigator` for single-step navigation. The tool was inefficiently calculating multiple steps. This update modifies the tool to output a single 'Down' press if the target is not highlighted, and an 'A' press if it is. This aligns with the Overwatch critique and the system instruction to act as if unaware of the Fly menu order, taking one step at a time.",
+        "timestamp": "2025-08-29T05:57:13.625Z",
+        "action_counter": 171651
+      }
+    ]
+  },
   "map_data_parser": {
     "description": "Parses the map_xml_string to extract key map data, including dimensions, and a list of all tiles with their coordinates, type, and any objects. Standardizes map data access for other tools.",
     "input_schema": {
@@ -526,37 +557,6 @@
         "commit_message": "feat: Create validation_check_generator tool. In response to a critical Overwatch critique, this tool automates the generation of the validation_checks block to eliminate recurring data-entry hallucinations regarding position and turn count. This initial version includes placeholders for more complex checks like dead-end detection, which will be implemented later.",
         "timestamp": "2025-08-28T21:00:42.240Z",
         "action_counter": 169809
-      }
-    ]
-  },
-  "fly_menu_navigator": {
-    "description": "Calculates the directional button presses to navigate from the current cursor position to a target location in the Fly menu, based on the provided screen text. Returns a sequence of 'Up' or 'Down' presses, and an 'A' press to select the item.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "menu_text": {
-          "type": "string"
-        },
-        "target_location": {
-          "type": "string"
-        }
-      },
-      "required": [
-        "menu_text",
-        "target_location"
-      ]
-    },
-    "python_script": "import json\n\ndef fly_menu_navigator(menu_text, target_location):\n    menu_lines = [line.strip() for line in menu_text.split('\\n') if line.strip()]\n    current_selection = None\n\n    # The first line of the menu text usually contains the selected item\n    # We need to extract the actual location name, which is before '→↓'\n    if menu_lines:\n        first_line = menu_lines[0]\n        if '→↓' in first_line:\n            current_selection = first_line.split('→↓')[0].replace('To ', '').strip()\n\n    if current_selection and current_selection.upper() == target_location.upper():\n        print(json.dumps([\"A\"])) # Select the item if it's the target\n    else:\n        print(json.dumps([\"Down\"])) # Otherwise, press Down to scroll\n\nfly_menu_navigator(input_data['menu_text'], input_data['target_location'])",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2025-08-29T04:50:25.744Z",
-        "action_counter": 171341
-      },
-      {
-        "commit_message": "fix: Refine `fly_menu_navigator` for single-step navigation. The tool was inefficiently calculating multiple steps. This update modifies the tool to output a single 'Down' press if the target is not highlighted, and an 'A' press if it is. This aligns with the Overwatch critique and the system instruction to act as if unaware of the Fly menu order, taking one step at a time.",
-        "timestamp": "2025-08-29T05:57:13.625Z",
-        "action_counter": 171651
       }
     ]
   }
