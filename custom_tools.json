@@ -422,37 +422,6 @@
       }
     ]
   },
-  "get_next_pokemon_press": {
-    "description": "Calculates the button presses to navigate from the current Pokémon to a target Pokémon in the party menu.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "party_menu_text": {
-          "type": "string"
-        },
-        "target_pokemon": {
-          "type": "string"
-        }
-      },
-      "required": [
-        "party_menu_text",
-        "target_pokemon"
-      ]
-    },
-    "python_script": "import json\nimport re\n\nparty_menu_text = input_data['party_menu_text']\ntarget_pokemon = input_data['target_pokemon']\n\nlines = party_menu_text.strip().split('\\n')\n\ncurrent_index = -1\n# Find the current cursor position indicated by '→'\nfor i, line in enumerate(lines):\n    if '→' in line:\n        current_index = i\n        break\n\npokemon_names_in_menu = []\n# Extract Pokémon names from each line, ignoring cursor\nfor line in lines:\n    cleaned_line = line.replace('→', '').strip()\n    # Look for a word consisting of only uppercase letters, as Pokémon names are typically uppercase\n    match = re.search(r'\\b[A-Z]+\\b', cleaned_line)\n    if match:\n        pokemon_names_in_menu.append(match.group(0))\n\n# The actual party order might not be exactly as displayed if there are status lines or non-Pokémon entries\n# For now, let's assume the visible Pokémon names are in the order they appear.\n\n# Find the target Pokémon's index\ntarget_index = -1\nfor i, name in enumerate(pokemon_names_in_menu):\n    if name == target_pokemon:\n        target_index = i\n        break\n\nif current_index == -1 or target_index == -1:\n    # Fallback if current or target not found (e.g., menu is different than expected)\n    print(json.dumps([]))\nelse:\n    diff = target_index - current_index\n    buttons = []\n    if diff > 0:\n        buttons = ['Down'] * diff\n    elif diff < 0:\n        buttons = ['Up'] * abs(diff)\n    print(json.dumps(buttons))\n",
-    "history": [
-      {
-        "commit_message": "feat: Create get_next_pokemon_press tool. This tool automates party menu navigation, calculating the necessary Up/Down presses to move from the current selection to a target Pokémon. This is essential for avoiding manual errors caused by the unreliable party menu cursor.",
-        "timestamp": "2025-08-28T07:19:48.354Z",
-        "action_counter": 169508
-      },
-      {
-        "commit_message": "fix: Refine get_next_pokemon_press regex. The tool was failing to identify the current Pokémon and target Pokémon due to an overly restrictive regex. This commit updates the regex to use `re.search(r'\\b[A-Z]+\\b', cleaned_line)` to more robustly capture uppercase Pokémon names anywhere in the line, fixing a critical menu navigation bug.",
-        "timestamp": "2025-08-29T03:57:37.373Z",
-        "action_counter": 171133
-      }
-    ]
-  },
   "map_data_parser": {
     "description": "Parses the map_xml_string to extract key map data, including dimensions, and a list of all tiles with their coordinates, type, and any objects. Standardizes map data access for other tools.",
     "input_schema": {
@@ -542,6 +511,32 @@
         "commit_message": "feat: Create validation_check_generator tool. In response to a critical Overwatch critique, this tool automates the generation of the validation_checks block to eliminate recurring data-entry hallucinations regarding position and turn count. This initial version includes placeholders for more complex checks like dead-end detection, which will be implemented later.",
         "timestamp": "2025-08-28T21:00:42.240Z",
         "action_counter": 169809
+      }
+    ]
+  },
+  "fly_menu_navigator": {
+    "description": "Calculates the directional button presses to navigate from the current cursor position to a target location in the Fly menu, based on the provided screen text. Returns a sequence of 'Up' or 'Down' presses, and an 'A' press to select the item.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "menu_text": {
+          "type": "string"
+        },
+        "target_location": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "menu_text",
+        "target_location"
+      ]
+    },
+    "python_script": "import json\nimport re\n\ndef fly_menu_navigator(menu_text, target_location):\n    lines = menu_text.strip().split('\\n')\n    visible_items = []\n    cursor_pos = -1\n\n    for i, line in enumerate(lines):\n        if '→' in line:\n            cursor_pos = i\n            cleaned_line = line.replace('→', '').strip()\n        else:\n            cleaned_line = line.strip()\n        \n        # Extract location name (e.g., 'PALLET TOWN')\n        match = re.search(r'To ([A-Z ]+)', cleaned_line)\n        if match:\n            visible_items.append(match.group(1).strip())\n\n    if not visible_items:\n        return json.dumps({\"error\": \"Could not parse Fly menu items.\"})\n\n    if cursor_pos == -1:\n        return json.dumps({\"error\": \"Could not detect cursor position.\"})\n\n    target_location_upper = target_location.upper()\n\n    # Check if target is visible on current screen\n    if target_location_upper in visible_items:\n        target_index = visible_items.index(target_location_upper)\n        diff = target_index - cursor_pos\n        \n        buttons = []\n        if diff > 0:\n            buttons = ['Down'] * diff\n        elif diff < 0:\n            buttons = ['Up'] * abs(diff)\n        \n        buttons.append('A') # Select the item\n        return json.dumps(buttons)\n\n    # If target not on screen, assume we need to scroll. \n    # For simplicity, we'll assume a consistent scroll direction until found.\n    # Given the constraint of not knowing the order, we'll just try to scroll down.\n    return json.dumps(['Down'])\n\nmenu_text = input_data['menu_text']\ntarget_location = input_data['target_location']\n\nresult = fly_menu_navigator(menu_text, target_location)\nprint(result)",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2025-08-29T04:50:25.744Z",
+        "action_counter": 171341
       }
     ]
   }

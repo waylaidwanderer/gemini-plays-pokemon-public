@@ -19,6 +19,7 @@
 - **Failure to Update Map Understanding:** I repeatedly tried to reach an unreachable goal on B3F after the system confirmed it was a dead end. (Self-correction from Turn 170966-170970).
 - **Dead End Area Mismatch (Seafoam B3F):** My previous assertion that Seafoam Islands B3F was a dead end was incorrect. The system reported 4 reachable exits. This was a critical hallucination. **Correction:** I must re-evaluate my understanding of B3F's layout and trust system feedback over my visual interpretation of the map. (Self-correction from Turn 170981).
 - **Notepad and Map Marker Update Priority (Turn 171001):** I attempted multiple `define_map_marker` and `find_path` calls before executing a planned `notepad_edit` overwrite. This is a direct violation of the core directive that notepad updates are the highest priority and must be performed immediately. **Correction:** All notepad updates must be performed immediately, prior to any other actions.
+- **Fly Menu Navigation Failure (Turn 171342-171352):** I repeatedly overshot the target Pokémon in the party menu and then manually scrolled through the Fly menu. **Correction:** I must use the `fly_menu_navigator` tool as intended and trust its output. The `get_next_pokemon_press` tool was deleted to make space for `fly_menu_navigator` and should not have been used. This also highlights a failure to immediately use a newly defined tool.
 
 ## B. Game Mechanics & World Knowledge
 
@@ -59,11 +60,11 @@
   - `pc_withdraw_pokemon` (Turn 157056): Automates withdrawing a Pokémon from the PC.
   - `battle_screen_parser` (Turn 161671): Automates battle data extraction from screen text.
   - `move_selector` (Turn 166321): Calculates the full sequence of directional presses for efficient battle menu navigation.
-  - `get_next_pokemon_press` (Turn 169508): Calculates the button presses to navigate from the current Pokémon to a target Pokémon in the party menu.
   - `map_data_parser` (Turn 167953): Parses the map_xml_string to extract key map data, including dimensions, and a list of all tiles with their coordinates, type, and any objects. Standardizes map data access for other tools.
   - `menu_navigator` (Turn 168109): Calculates the directional button presses to navigate from a current cursor position to a target item in a list-based menu, based on the provided screen text.
   - `validation_check_generator` (Turn 169353): Generates the validation_checks JSON block by parsing map_xml_string and taking the current turn number and badges as input. This is a critical tool to prevent data-entry hallucinations.
   - `select_battle_option` (Turn 166978): Automates selecting main battle menu options.
+  - `fly_menu_navigator` (Turn 171341): Calculates the directional button presses to navigate from the current cursor position to a target location in the Fly menu, based on the provided screen text.
 
 ### 3. Development Ideas & Testing Plans
 - **Water Boulder Mechanics:** Hypothesis: Water boulders may not require Strength to be active. Test: After solving the current puzzle, find another water boulder and attempt to interact with it *without* Strength active. Record the outcome.
