@@ -34,6 +34,16 @@
 ## C. Tile Mechanics Glossary
 - **ground:** Standard traversable tile.
 - **impassable:** Wall or obstacle. Cannot be entered.
+- **cuttable:** Tree that can be cut. Becomes ground after cutting.
+- **ledge:** Can be jumped down, but not up.
+- **grass:** Tall grass with wild encounters.
+- **water:** Requires Surf to cross.
+- **steps:** Allows movement between different elevations (ground and elevated_ground).
+- **elevated_ground:** Walkable ground at a higher elevation, accessible only via steps.
+- **boulder_switch:** A floor switch activated by a boulder.
+- **boulder_barrier:** A barrier that is removed when a corresponding boulder_switch is activated.
+- **cleared_boulder_barrier:** A former barrier, now walkable ground.
+- **spinner_...:** Tiles that force movement in a specific direction.
 
 ## D. Key Event & Puzzle Log
 
