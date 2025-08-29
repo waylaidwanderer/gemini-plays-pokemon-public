@@ -5,6 +5,7 @@
 - **Fly Menu Navigation Failure (Turn 171342-171352):** I repeatedly overshot the target Pokémon in the party menu and then manually scrolled through the Fly menu. **Correction:** I must use the `fly_menu_navigator` tool as intended and trust its output. The `get_next_pokemon_press` tool was deleted to make space for `fly_menu_navigator` and should not have been used. This also highlights a failure to immediately use a newly defined tool.
 - **Deferred Map Marker Creation (Turns 172822, 172872, 172881):** I cut trees but deferred defining map markers for them until a later turn (172829, 172877, 172882). **Correction:** Map markers must be defined immediately on the same turn the event occurs.
 - **Repeated `find_path` Calls without Re-evaluation (Turns 172922-172929):** I repeatedly called `find_path` to the same target after it failed without adapting my strategy or re-evaluating the cause of failure. **Correction:** When a tool's output is unexpected, I must immediately adapt my strategy and re-evaluate the underlying cause of the failure.
+- **Tool Refinement Failure (Turns 174066-174090):** I repeatedly used manual navigation after my `menu_navigator` tool failed, instead of fixing it immediately. This is a critical violation of my core directives. **Correction:** Faulty tools must be fixed immediately before any other gameplay action.
 
 # II. Game & World Knowledge
 
@@ -24,27 +25,11 @@
   - **Hyper Beam Recharge:** May be conditional or inconsistent.
   - **Move Menu Cursor Reset:** May randomly reset to the top position.
 
-## B. Tile & Field Mechanics
+## B. Field Mechanics
 - **Linked Boulder Rotation:** Some water-based boulders rotate in a linked fashion.
 - **Hidden Passages:** Impassable-looking walls can sometimes be walked through.
 - **Strength Mechanics:** Does not need to be reactivated per push. Player position can change depending on push direction.
 - **HM Field Move Usage:** Requires two 'A' presses (prompt + confirmation).
-
-### Comprehensive Tile Glossary
-- **ground:** Standard walkable tile.
-- **impassable:** Walls, objects, cannot be entered.
-- **grass:** Tall grass with wild Pokémon encounters.
-- **water:** Requires SURF to cross.
-- **steps:** Allows movement between `ground` and `elevated_ground`.
-- **elevated_ground:** Higher ground, only accessible via `steps`.
-- **ledge:** Can be jumped down (one-way).
-- **cuttable:** Tree that can be cut with HM Cut.
-- **ladder_up / ladder_down:** Warps between floors.
-- **boulder_switch:** A floor switch activated by a boulder.
-- **boulder_barrier:** A barrier that is removed when a corresponding switch is activated.
-- **cleared_boulder_barrier:** A former barrier, now walkable.
-- **spinner_up/down/left/right:** Forces movement in a direction.
-- **hole:** A tile that drops the player to a lower floor.
 
 ## C. Key Event & Puzzle Log
 
@@ -56,7 +41,6 @@
 ### 2. Seafoam Islands Puzzle Log
 - **Main Obstacle:** Strong water current on B4F blocked progress, solved by a boulder puzzle on B3F.
 - **B4F Linked Boulder Rotation:** Boulders at (5, 16) and (6, 16) are part of a linked rotation puzzle to change water flow.
-- **Articuno Captured:** Successfully captured Articuno on B4F at (7,2).
 
 ## D. Opponent Information
 - **Elite Four Lorelei:** Slowbro (Earthquake), Jynx (Bubblebeam), Gengar (Lv 59), Cloyster (Lv 55, Explosion).
@@ -67,8 +51,6 @@
 - **Kris (Seafoam Islands):** Snorlax (Earthquake, Body Slam, REST), Gengar (Hypnosis, Dream Eater).
 - **Craig (Power Plant):** JOLTEON (Lv 55, DIG, THUNDERBOLT, PIN MISSILE, THUNDER WAVE), AERODACTYL (Lv 55, ROCK SLIDE), EXEGGUTOR (Lv 55, MEGA DRAIN, PSYCHIC), SNORLAX (Lv 55, AMNESIA, EARTHQUAKE, BODY SLAM, REST), CLOYSTER (Lv 55, EXPLOSION), ARCANINE (Lv 55).
 
-## E. General Game Tips (ROM Hack Specifics)
-- **Normal vs Electric Neutrality (Hypothesis):** Need to verify if Normal-type moves are neutral against Electric-types by observing battle text in a future encounter.
-
-## F. Wild Legendary Encounters
-- **Zapdos (Power Plant, Lv 50):** AGILITY
+## E. Wild Legendary Encounters
+- **Articuno (Seafoam Islands, Lv 50):** Captured.
+- **Zapdos (Power Plant, Lv 50):** AGILITY, THUNDERBOLT.
