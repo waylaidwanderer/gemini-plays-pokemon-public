@@ -42,10 +42,6 @@
 
 ## C. Tool & Agent Development
 
-### 4. Tool Limitations (Observed)
-- **`notepad_edit` `replace` Flaw:** The `replace` action cannot distinguish between two identical strings in the notepad. If a string appears multiple times, the tool fails to replace a specific instance, making it impossible to remove targeted duplicates. (Observed Turn 162963).
-- **`teleporter_mapper` Tool (Blocked):** This tool cannot be implemented. Its function requires persistent memory to build a graph of teleporter connections across multiple turns. The current tool execution environment is stateless and does not support this. Development is blocked pending a system update that allows for persistent tool state.
-
 ## D. Key Event & Puzzle Log
 
 ### 1. Major Events (Post-Champion)
