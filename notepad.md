@@ -75,3 +75,5 @@
 ## F. Wild Legendary Encounters
 - **Articuno (Seafoam Islands, Lv 50):** Captured.
 - **Zapdos (Power Plant, Lv 50):** AGILITY, THUNDERBOLT. (Fainted accidentally).
+- **Craig (Power Plant):** Full team is JOLTEON, AERODACTYL, EXEGGUTOR, SNORLAX, CLOYSTER, ARCANINE.
+- **Untested Assumption:** The Snorlax on Route 12 might be movable with the POKé FLUTE. **Test:** After exiting Rock Tunnel, fly to Lavender Town and attempt to use the POKé FLUTE on the Snorlax.
