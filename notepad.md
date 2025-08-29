@@ -94,41 +94,14 @@
 - **B4F Linked Boulder Rotation:** Boulders at (5, 16) and (6, 16) are part of a linked rotation puzzle to change water flow.
 - **Articuno Captured:** Successfully captured Articuno on B4F at (7,2).
 
-## E. Opponent Information (Elite Four & Post-Game)
-
-### 1. Lorelei (Elite Four)
-- **Slowbro:** Knows Earthquake.
-- **Jynx:** Knows Bubblebeam.
-- **Gengar:** Lv 59.
-- **Cloyster:** Lv 55, knows Explosion.
-
-### 2. Bruno (Elite Four)
-- **Hitmonchan:** Knows Ice Punch and Thunder Punch.
-- **Onix:** Uses Explosion.
-- **Machamp:** Knows Earthquake.
-
-### 3. Agatha (Elite Four)
-- **Gengar:** Prioritizes Hypnosis, then Dream Eater.
-
-### 4. Lance (Elite Four)
-- **Dragonite:** Lv 61, knows Slam, Thunder Wave, Wrap, and Hyper Beam (no mandatory recharge).
-- **Gyarados:** Knows Slam.
-- **Aerodactyl:** Knows Earthquake.
-- **Charizard:** Knows Earthquake and Flamethrower.
-
-### 5. Misty (Cerulean Gym Rematch)
-- **Seadra:** Lv 64.
-- **Golduck:** Lv 65, knows Psychic, Blizzard.
-- **Lapras:** Lv 64, knows Hydro Pump, Thunder, Psychic, Blizzard.
-- **Vaporeon:** Knows Acid Armor.
-- **Starmie:** Knows Thunderbolt.
-- **Snorlax (Kris):** Knows Earthquake, Body Slam, REST.
-
-### 6. Craig (Power Plant)
-- **JOLTEON:** Lv 55, knows DIG, THUNDERBOLT, PIN MISSILE, THUNDER WAVE.
-- **AERODACTYL:** Lv 55, knows ROCK SLIDE.
-- **EXEGGUTOR:** Lv 55, knows MEGA DRAIN, PSYCHIC.
-- **SNORLAX:** Lv 55, knows AMNESIA, EARTHQUAKE, BODY SLAM, REST.
+## E. Opponent Information
+- **Lorelei (E4):** Slowbro (Earthquake), Jynx (Bubblebeam), Gengar (Lv 59), Cloyster (Lv 55, Explosion).
+- **Bruno (E4):** Hitmonchan (Ice Punch, Thunder Punch), Onix (Explosion), Machamp (Earthquake).
+- **Agatha (E4):** Gengar (Hypnosis, Dream Eater).
+- **Lance (E4):** Dragonite (Lv 61, Slam, Thunder Wave, Wrap, Hyper Beam), Gyarados (Slam), Aerodactyl (Earthquake), Charizard (Earthquake, Flamethrower).
+- **Misty (Rematch):** Seadra (Lv 64), Golduck (Lv 65, Psychic, Blizzard), Lapras (Lv 64, Hydro Pump, Thunder, Psychic, Blizzard), Vaporeon (Acid Armor), Starmie (Thunderbolt).
+- **Kris (Snorlax):** Snorlax (Earthquake, Body Slam, REST).
+- **Craig (Power Plant):** JOLTEON (Lv 55, DIG, THUNDERBOLT, PIN MISSILE, THUNDER WAVE), AERODACTYL (Lv 55, ROCK SLIDE), EXEGGUTOR (Lv 55, MEGA DRAIN, PSYCHIC), SNORLAX (Lv 55, AMNESIA, EARTHQUAKE, BODY SLAM, REST).
 
 ## F. General Game Tips (ROM Hack Specifics)
 - **Assumption: Normal vs Electric Neutrality:** My `master_battle_agent` assumes Normal is neutral against Electric when it's not explicitly in the type chart. This needs to be verified. Test: In a future battle, if a Normal-type Pokémon attacks an Electric-type, I should specifically observe the "It's not very effective," "It's super effective," or lack thereof message to confirm neutrality.
