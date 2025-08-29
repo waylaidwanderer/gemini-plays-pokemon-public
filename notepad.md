@@ -141,3 +141,5 @@
 - **Surf activation:** Must use Surf from party menu while standing next to a water tile. Only Water-type Pokemon can use it in the field.
 - **Victory Road boulder mechanics:** Leaving and re-entering a map resets boulder puzzles. Boulder barriers on Victory Road 1F also reset after changing floors.
 - **HM forgetting:** HMs can be forgotten.
+- **Strength Activation on Land:** Strength can be activated on land and remains active when re-entering water. (Observed Turn 170460).
+- **Strength Wear Off:** Using the HM Strength wears off after a wild Pokémon encounter.
