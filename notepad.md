@@ -30,31 +30,12 @@
 - **Hyper Beam Testing Plan:** Hypothesis: Hyper Beam's recharge is conditional. Test 1: Observe if an opponent using Hyper Beam to KO my Pokémon recharges on the next turn. Test 2: Observe if an opponent using Hyper Beam *without* a KO recharges on the next turn.
 - **Move Menu Cursor Reset Anomaly (Unverified):** The move selection cursor can unexpectedly reset to the default top position after directional inputs are made but before 'A' is pressed to confirm the move. This resulted in using BODY SLAM instead of the intended ROCK SLIDE against Agatha's Golbat. This needs more observation to determine the trigger. (Observed Turn 158415)
 
-### 2. Tile Traversal and Movement Rules (Comprehensive Guide)
-- **`ground`**: Walkable tile, but not always reachable from your current position.
-- **`cuttable`**: Tree that can be cut with HM Cut. Becomes `ground` after cutting, but respawns on map change or after battle.
-- **`ledge`**: Can be jumped down, but not climbed up. Treat as `ground` only when player is above (Y-1). From other directions, treat as `impassable`. Moving down into a ledge (from Y-1 to Y) automatically moves to Y+2 in one press.
-- **`grass`**: Tall grass for wild Pokémon encounters. Walkable like `ground`.
-- **`water`**: Crossable using HM Surf. Must use Surf from party menu while adjacent to water tile.
-- **`steps`**: Allows movement between `ground` and `elevated_ground`.
-- **`elevated_ground`**: Walkable ground at a different elevation. Accessed from `steps` tiles, other `elevated_ground` tiles, or warps. Direct movement between `ground` and `elevated_ground` is impossible.
-- **`impassable`**: Walls, counters, rocks, buildings, etc. Cannot be entered.
-- **`boulder_barrier`**: Temporary impassable barrier linked to a boulder switch. State updates when visible on-screen. Usually respawns after changing maps.
-- **`cleared_boulder_barrier`**: Former barrier, now acts as `ground`. State updates when visible on-screen. Usually reverts to `boulder_barrier` after map change.
-- **`boulder_switch`**: Floor switch for boulders. Activating changes `boulder_barrier` to `cleared_boulder_barrier`.
-- **`closed_gate`**: Impassable gate currently visible. Off-screen gates (`gate_offscreen`) are treated as potentially open for pathfinding.
-- **`open_gate`**: Previously closed gate, now `ground` and visible.
-- **`gate_offscreen`**: Gate (open or closed) not visible. Treated as potentially open for pathfinding.
-- **`teleport`**: Instant warp within same logical location.
-- **`hole`**: Warp tile leading to a lower map area.
-- **`spinner_up`**, **`spinner_down`**, **`spinner_left`**, **`spinner_right`**: Forces movement in specified direction.
-- **`spinner_stop`**: Tile that stops spinner movement.
-- **`ladder_up`**: Warp to higher floor. Treat as `ground` or `elevated_ground`.
-- **`ladder_down`**: Warp to lower floor. Treat as `ground` or `elevated_ground`.
-- **`unknown`**: Tile not visually confirmed. Treat as `impassable` until confirmed by moving adjacent.
-- **Object Impassability:** All `<Object>` elements (NPCs, items, signs) act as impassable walls, EXCEPT Pikachu. Interaction must be from an adjacent tile.
+### 2. Tile Traversal and Movement Rules (ROM Hack Specifics)
+- **Ledge Traversal:** Moving down into a ledge (from Y-1 to Y) automatically moves to Y+2 in one press.
 - **Pikachu Movement:** If Pikachu is directly adjacent and you are not facing it, the first directional press turns to face, the second moves onto its tile. Otherwise, one press moves.
-- **Boulder Pushing:** Requires Strength. First press (if not facing) turns and pushes. Subsequent presses (if facing) push one tile; player remains in place. Repositioning (walking to new adjacent tile) costs one turn.
+- **Boulder Pushing:** Requires Strength. First press (if not facing) turns and pushes. Subsequent presses (if facing) push one tile; player remains in place. Repositioning (walking to new adjacent tile) costs one turn. Boulders cannot be pushed onto 'steps' tiles.
+- **Linked Boulder Rotation:** A puzzle mechanic where using Strength on one of two adjacent water-based boulders causes both to rotate in a linked fashion, rather than being pushed. (Observed on Seafoam Islands B3F)
+- **Hidden Passages (Confirmed):** Some impassable-looking walls can be walked through. A systematic, tile-by-tile search is required to find them, especially when system feedback indicates an area is not a dead end despite appearances. (Discovered on Seafoam Islands B4F at (16, 15), Discovered on Seafoam Islands B2F at (19, 8))
 
 ## C. Tool & Agent Development
 
@@ -65,14 +46,16 @@
 - **Mixed Input Execution:** Tools that generate a sequence of mixed directional and action buttons (e.g., `auto_switcher`) are functioning correctly. The error was in my execution. I must execute the generated button presses one at a time, over multiple turns, to avoid system input truncation.
 - **Tool Creation Log (`select_battle_option`):** After repeatedly hallucinating the existence of a `select_battle_option` tool, I successfully created it. This tool now reliably handles main battle menu selections, resolving a critical failure in situational awareness and tool management. (Self-correction from Turn 166978)
 - **Tool Failure & Correction (`hm_automator`):** The `hm_automator` tool has repeatedly failed (Turns 168098, 168101, 168104), trapping me in various menus. The tool's logic is fundamentally flawed for field move activation. **Correction (Turn 168109):** Deleted the failed `hm_automator` and created a new, more robust `menu_navigator` tool to handle menu navigation dynamically.
+- **`map_obstacle_detector` Tool (Correct Functionality Confirmed):** The tool repeatedly failed to identify major landmasses on Route 20. After extensive debugging, I realized the tool was functioning correctly. It was identifying the islands as being connected to the impassable map border, thus classifying them as a single, large boundary component which my heuristic correctly filtered out. My assumption that the islands were isolated obstacles was the source of the error, not the tool's logic. (Self-correction Turn 166251)
+- **`find_path` Tool Refinement (Planned):** The `find_path` tool needs refinement to include diagnostic output for path interruptions due to wild encounters.
 
-### 2. Creation Log
-- **Agent Creation Log:**
+### 2. Creation Log (Agents & Tools)
+- **Agents:**
   - `master_battle_agent` (Turn 156589): Orchestrates battle analysis into a single call.
   - `situational_awareness_auditor` (Turn 168856): Cross-references player's stated validation checks with the actual game state data to flag hallucinations.
   - `navigation_troubleshooter` (Turn 168856): Analyzes reachable warps, unseen tiles, map markers, and `find_path` failures to suggest the next logical navigation goal to solve complex pathing puzzles.
   - `puzzle_solver_agent` (Turn 168856): Analyzes a complex environmental puzzle by taking the player's goal, map layout, available items/HMs, and a list of failed hypotheses as input. It then generates a new, logical, and testable hypothesis to help the player make progress.
-- **Tool Creation Log:**
+- **Tools:**
   - `auto_switcher` (Turn 155341): Automates Pokémon switch sequences.
   - `pc_withdraw_pokemon` (Turn 157056): Automates withdrawing a Pokémon from the PC.
   - `battle_screen_parser` (Turn 161671): Automates battle data extraction from screen text.
@@ -84,7 +67,6 @@
   - `select_battle_option` (Turn 166978): Automates selecting main battle menu options.
 
 ### 3. Development Ideas & Testing Plans
-- **`validation_check_generator` Tool Idea:** Create a tool that takes the game state as input and programmatically generates the JSON for the `validation_checks` block to eliminate my recurring data-entry hallucinations. (Highest Priority)
 - **Water Boulder Mechanics:** Hypothesis: Water boulders may not require Strength to be active. Test: After solving the current puzzle, find another water boulder and attempt to interact with it *without* Strength active. Record the outcome.
 - **`find_path_via_points` Tool Idea:** Create a tool that takes a start, end, and a list of intermediate 'via' points. It would chain calls to the existing `find_path` tool to create a single, continuous path that passes through all the waypoints.
 - **`find_closest_target` Tool Idea:** Create a tool that takes the player's current coordinates and a list of target coordinates as input, then returns the coordinates of the target that is the shortest Manhattan distance away.
@@ -102,10 +84,6 @@
 
 ### 4. Tool Limitations (Observed)
 - **`notepad_edit` `replace` Flaw:** The `replace` action cannot distinguish between two identical strings in the notepad. If a string appears multiple times, the tool fails to replace a specific instance, making it impossible to remove targeted duplicates. (Observed Turn 162963)
-- **`map_obstacle_detector` Tool (Correct Functionality Confirmed):** The tool repeatedly failed to identify major landmasses on Route 20. After extensive debugging, I realized the tool was functioning correctly. It was identifying the islands as being connected to the impassable map border, thus classifying them as a single, large boundary component which my heuristic correctly filtered out. My assumption that the islands were isolated obstacles was the source of the error, not the tool's logic. (Self-correction Turn 166251)
-- **`find_path` Tool Refinement (Planned):** The `find_path` tool needs refinement to include diagnostic output for path interruptions due to wild encounters.
-
-### 5. Blocked Development
 - **`teleporter_mapper` Tool (Blocked):** This tool cannot be implemented. Its function requires persistent memory to build a graph of teleporter connections across multiple turns. The current tool execution environment is stateless and does not support this. Development is blocked pending a system update that allows for persistent tool state.
 
 ## D. Key Event & Puzzle Log
@@ -121,7 +99,6 @@
   - **Observation:** Two boulders at (19,7) and (20,7) are in the water, blocking westward travel. Using Strength while surfing next to them does not push them, but rotates them in a linked fashion.
   - **Solution:** Pushing the left boulder, then the right boulder, from below rotates them into a position that clears the path west.
 - **Ground Boulder Puzzle (B3F - In Progress):** The `boulder_puzzle_solver` tool was previously thought to exist but was not found when I attempted to delete it. This suggests it either never existed or was already deleted. The current strategy has pivoted to testing hypotheses generated by the `puzzle_solver_agent`).
-- **Linked Boulder Rotation:** A puzzle mechanic where using Strength on one of two adjacent water-based boulders causes both to rotate in a linked fashion, rather than being pushed. (Observed on Seafoam Islands B3F)
 - **Hidden Passages (Confirmed):** Some impassable-looking walls can be walked through. A systematic, tile-by-tile search is required to find them, especially when system feedback indicates an area is not a dead end despite appearances. (Discovered on Seafoam Islands B4F at (16, 15), Discovered on Seafoam Islands B2F at (19, 8))
 - **Gengar AI (Hypnosis Priority):** The Gengar in Seafoam Islands B4F prioritizes using Hypnosis on any active, non-sleeping Pokémon, even if it has a type immunity to Gengar's STAB moves. It will then follow up with Dream Eater. This is its core strategy.
 - **Assumption 1 (Confirmed):** The non-functional warp to Route 20 at (21, 18) on Seafoam Islands B4F is *permanently* non-functional. Attempts to use it after catching Articuno have failed.
@@ -135,13 +112,13 @@
 - **Boulder Pushing Mechanics (B4F Linked Rotation):** The boulders on B4F at (5, 16) and (6, 16) are part of a linked rotation puzzle. Pushing them causes them to rotate, not to be pushed into holes. The goal is to change water flow, not to fill holes.
 - **High Wild Encounter Rate (Seafoam Islands B4F water):** The water tiles around (5,15) on Seafoam Islands B4F have a very high wild encounter rate, leading to frequent movement interruptions. (Observed Turns 170465-170518, 170523-170552)
 - **NPC Blocking/Movement (Kris - B4F):** Kris, previously at (8,3) after defeat, is now at (11,3).
+- **Strength Activation on Land:** Strength was successfully activated on land at (8,12) on B4F and remains active when re-entering water. (Observed Turn 170460).
+- **Articuno Captured:** I successfully captured Articuno on Seafoam Islands B4F at (7,2). (Confirmed Turn 170770).
 
 ### 3. Seafoam Islands Puzzle Log (B4F)
 - **Failed Hypothesis 1 (Strength Activation on Steps):** Repeatedly attempted to activate Strength from the menu while on the 'steps' tile at (8,12) on B4F. Outcome: Consistently received "No SURFing on TITANESS here!". Conclusion: Strength cannot be activated from this specific steps tile while surfing is active or while on the steps tile at all on this map. (Observed Turns 170164-170188).
 - **Failed Hypothesis 2 (Direct 'A' Interaction on Water Boulder):** Attempted to interact with Boulder 1 at (5,16) by pressing 'A' from (5,15) while surfing. Outcome: Screen text "This requires STRENGTH to move!". Conclusion: Direct 'A' interaction is not sufficient; Strength must be active. (Observed Turn 170250).
-- **Strength Activation on Land:** Strength was successfully activated on land at (8,12) and remains active when re-entering water. (Observed Turn 170460).
 - **Movement Interruptions (Confirmed):** Repeated movement interruptions in the water at (5,15) on Seafoam Islands B4F are due to wild encounters. (Confirmed Turn 170876 by Wild JYNX encounter.)
-- **Articuno Captured:** I successfully captured Articuno on Seafoam Islands B4F at (7,2). (Confirmed Turn 170770).
 
 ## E. Opponent Information (Elite Four & Post-Game)
 
@@ -173,10 +150,10 @@
 - **Starmie:** Knows Thunderbolt.
 - **Snorlax (Kris):** Knows Earthquake, Body Slam, REST.
 
-## F. General Game Tips
+## F. General Game Tips (ROM Hack Specifics)
 - **Dig field move:** Can be used to escape from caves (warps to last visited Pokemon Center).
 - **Field move usage (fainted Pokemon):** Fainted Pokemon can still use field moves.
 - **Surf activation:** Must use Surf from party menu while standing next to a water tile. Only Water-type Pokemon can use it in the field.
-- **Strength activation:** Does not need to be reactivated for every boulder push. The push is executed by walking into the boulder. The boulder moves one tile, and the player's position does not change when pushing vertically, but moves into the boulder's previous space when pushing horizontally. Boulders cannot be pushed onto 'steps' tiles.
+- **Strength activation:** Does not need to be reactivated for every boulder push. The push is executed by walking into the boulder. The boulder moves one tile, and the player's position does not change when pushing vertically, but moves into the boulder's previous space when pushing horizontally.
 - **Victory Road boulder mechanics:** Leaving and re-entering a map resets boulder puzzles. Boulder barriers on Victory Road 1F also reset after changing floors.
 - **HM forgetting:** HMs can be forgotten.
