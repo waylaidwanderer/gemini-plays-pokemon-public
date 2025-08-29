@@ -141,7 +141,7 @@
 - **Snorlax (Kris):** Knows Earthquake, Body Slam, REST.
 
 ### 6. Craig (Power Plant)
-- **JOLTEON:** Lv 55, knows DIG, THUNDERBOLT, PIN MISSILE.
+- **JOLTEON:** Lv 55, knows DIG, THUNDERBOLT, PIN MISSILE, THUNDER WAVE.
 
 ## F. General Game Tips (ROM Hack Specifics)
 - **Assumption: Normal vs Electric Neutrality:** My `master_battle_agent` assumes Normal is neutral against Electric when it's not explicitly in the type chart. This needs to be verified. Test: In a future battle, if a Normal-type Pokémon attacks an Electric-type, I should specifically observe the "It's not very effective," "It's super effective," or lack thereof message to confirm neutrality.
@@ -150,11 +150,6 @@
 
 ## A. Power Plant (ID: 83)
 - **Current Status:** Exploring for Zapdos.
-- **Entry Warp:** (5, 36) and (6, 36) from Route 10.
-- **Craig's Location:** (3, 6) - defeated and is now an impassable obstacle.
-- **Item Traps:** Many item balls are actually wild Pokémon encounters (e.g., (10, 21), (24, 35), (27, 29), (38, 33), (22, 26)).
-- **Item Picked Up:** CARBOS (8, 26), TM33 REFLECT (21, 33), TM25 THUNDER (27, 33).
-- **Visual Glitch:** (38, 28) is a visual glitch, no item.
 - **Reachable Unseen Tiles:** 27 tiles remain to be explored.
 
 # III. Progress Tracking
