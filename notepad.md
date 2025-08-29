@@ -35,7 +35,7 @@
 - **ground:** Standard traversable tile.
 - **impassable:** Wall or obstacle. Cannot be entered.
 - **cuttable:** Tree that can be cut. Becomes ground after cutting.
-- **ledge:** Can be jumped down, but not up.
+- **ledge:** Can be jumped down, but not up. Treat as impassable from below or sides.
 - **grass:** Tall grass with wild encounters.
 - **water:** Requires Surf to cross.
 - **steps:** Allows movement between different elevations (ground and elevated_ground).
@@ -45,7 +45,11 @@
 - **cleared_boulder_barrier:** A former barrier, now walkable ground.
 - **spinner_up/down/left/right:** Tiles that force movement in a specific direction.
 - **ladder_up/down:** Warps that lead to a different floor.
-- **hole:** A tile that drops the player to the floor below.
+- **hole:** A warp tile that drops the player to the floor below.
+- **teleport:** An instant warp tile within the same logical location (e.g., inside a building).
+- **closed_gate:** An impassable gate.
+- **open_gate:** A previously closed gate that is now open and acts as ground.
+- **gate_offscreen:** A gate whose state is unknown. Treated as potentially open for pathfinding.
 - **Defeated Trainer Obstacle:** In some areas (e.g., Viridian Gym, Victory Road), defeated trainers become impassable obstacles.
 
 ## D. Key Event & Puzzle Log
