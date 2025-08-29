@@ -69,3 +69,6 @@
 
 ## E. General Game Tips (ROM Hack Specifics)
 - **Normal vs Electric Neutrality (Hypothesis):** Need to verify if Normal-type moves are neutral against Electric-types by observing battle text in a future encounter.
+
+## F. Wild Legendary Encounters
+- **Zapdos (Power Plant, Lv 50):** AGILITY
