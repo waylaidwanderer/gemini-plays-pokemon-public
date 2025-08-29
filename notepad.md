@@ -5,7 +5,7 @@
 - **Fly Menu Navigation Failure (Turn 171342-171352):** I repeatedly overshot the target Pokémon in the party menu and then manually scrolled through the Fly menu. **Correction:** I must use the `fly_menu_navigator` tool as intended and trust its output. The `get_next_pokemon_press` tool was deleted to make space for `fly_menu_navigator` and should not have been used. This also highlights a failure to immediately use a newly defined tool.
 - **Deferred Map Marker Creation (Turns 172822, 172872, 172881):** I cut trees but deferred defining map markers for them until a later turn (172829, 172877, 172882). **Correction:** Map markers must be defined immediately on the same turn the event occurs.
 - **Repeated `find_path` Calls without Re-evaluation (Turns 172922-172929):** I repeatedly called `find_path` to the same target after it failed without adapting my strategy or re-evaluating the cause of failure. **Correction:** When a tool's output is unexpected, I must immediately adapt my strategy and re-evaluate the underlying cause of the failure.
-- **Tool Refinement Failure (Turns 174066-174090):** I repeatedly used manual navigation after my `menu_navigator` tool failed, instead of fixing it immediately. This is a critical violation of my core directives. **Correction:** Faulty tools must be fixed immediately before any other gameplay action.
+- **Tool Refinement Failure (Turns 174066-174090, 174151-174157):** I repeatedly used manual navigation or retried a faulty tool after it failed, instead of fixing it immediately. This is a critical violation of my core directives. **Correction:** Faulty tools must be fixed immediately before any other gameplay action.
 
 # II. Game & World Knowledge
 
@@ -31,7 +31,11 @@
 - **Strength Mechanics:** Does not need to be reactivated per push. Player position can change depending on push direction.
 - **HM Field Move Usage:** Requires two 'A' presses (prompt + confirmation).
 
-## C. Key Event & Puzzle Log
+## C. Tile Mechanics Glossary
+- **ground:** Standard traversable tile.
+- **impassable:** Wall or obstacle. Cannot be entered.
+
+## D. Key Event & Puzzle Log
 
 ### 1. Major Events (Post-Champion)
 - **Route 24 Cave:** Remains blocked after becoming Champion.
@@ -42,15 +46,15 @@
 - **Main Obstacle:** Strong water current on B4F blocked progress, solved by a boulder puzzle on B3F.
 - **B4F Linked Boulder Rotation:** Boulders at (5, 16) and (6, 16) are part of a linked rotation puzzle to change water flow.
 
-## D. Opponent Information
+## E. Opponent Information
 - **Elite Four Lorelei:** Slowbro (Earthquake), Jynx (Bubblebeam), Gengar (Lv 59), Cloyster (Lv 55, Explosion).
 - **Elite Four Bruno:** Hitmonchan (Ice Punch, Thunder Punch), Onix (Explosion), Machamp (Earthquake).
 - **Elite Four Agatha:** Gengar (Hypnosis, Dream Eater).
 - **Elite Four Lance:** Dragonite (Lv 61, Slam, Thunder Wave, Wrap, Hyper Beam), Gyarados (Slam), Aerodactyl (Earthquake), Charizard (Earthquake, Flamethrower).
 - **Misty (Rematch):** Seadra (Lv 64), Golduck (Lv 65, Psychic, Blizzard), Lapras (Lv 64, Hydro Pump, Thunder, Psychic, Blizzard), Vaporeon (Acid Armor), Starmie (Thunderbolt).
 - **Kris (Seafoam Islands):** Snorlax (Earthquake, Body Slam, REST), Gengar (Hypnosis, Dream Eater).
-- **Craig (Power Plant):** JOLTEON (Lv 55, DIG, THUNDERBOLT, PIN MISSILE, THUNDER WAVE), AERODACTYL (Lv 55, ROCK SLIDE), EXEGGUTOR (Lv 55, MEGA DRAIN, PSYCHIC), SNORLAX (Lv 55, AMNESIA, EARTHQUAKE, BODY SLAM, REST), CLOYSTER (Lv 55, EXPLOSION), ARCANINE (Lv 55).
+- **Craig (Power Plant):** JOLTEON (Lv 55, DIG, THUNDERBOLT, PIN MISSILE, THUNDER WAVE), AERODACTYL (Lv 55, ROCK SLIDE), EXEGGUTOR (Lv 55, MEGA DRAIN, PSYCHIC), SNORLAX (Lv 55, AMNESIA, EARTHQUAKE, BODY SLAM, REST), CLOYSTER (Lv 55, EXPLOSION), ARCANINE (Lv 55, FURBALL).
 
-## E. Wild Legendary Encounters
+## F. Wild Legendary Encounters
 - **Articuno (Seafoam Islands, Lv 50):** Captured.
-- **Zapdos (Power Plant, Lv 50):** AGILITY, THUNDERBOLT.
+- **Zapdos (Power Plant, Lv 50):** AGILITY, THUNDERBOLT. (Fainted accidentally).
