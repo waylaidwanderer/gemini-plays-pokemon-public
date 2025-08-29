@@ -15,6 +15,7 @@
 - **Situational Awareness Failure (Menu Loop):** I failed to recognize I was in a menu for over 20 turns, repeatedly trying to use overworld tools. This is a critical failure to observe the `Screen Text` as the source of truth for my current game state. **Correction:** I must always check `Screen Text` before taking any action. If there is text, I am in a menu/dialogue and cannot use overworld tools.
 - **Failure to Analyze Tool Output:** I have repeatedly failed to analyze the detailed failure reports from my tools. My tools are functioning correctly and providing diagnostic information, but my process is flawed because I have ignored this data and jumped to incorrect conclusions. **Correction:** I must make it a mandatory step to read, interpret, and state the implications of the full output of my tools, especially failure reports, before forming a conclusion or planning the next action.
 - **Deferred Data Management:** I failed to immediately correct a failed notepad update, instead continuing to navigate for over 10 turns. This is a direct violation of the immediate action mandate. (Self-correction from Turn 166772)
+- **Repeated Path Interruptions (Seafoam Islands B4F):** I repeatedly failed to document or analyze path interruptions between Turns 170465-170517. This is a critical failure to follow the immediate data & tool maintenance directive. I must address these interruptions by re-evaluating the path and documenting the cause of the interruption.
 
 # II. Game Mechanics & World Knowledge
 
@@ -69,6 +70,32 @@
 - **Hyper Beam Recharge (Contradictory Evidence):** Lance's Aerodacty was observed to recharge after using Hyper Beam (Turn 158577). However, his Gyarados was able to attack with SLAM immediately after NEPTUNE used a move on the same turn it should have been recharging from Hyper Beam (Turn 159019). The recharge mechanic may be conditional or inconsistent.
 - **Hyper Beam Testing Plan:** Hypothesis: Hyper Beam's recharge is conditional. Test 1: Observe if an opponent using Hyper Beam to KO my Pokémon recharges on the next turn. Test 2: Observe if an opponent using Hyper Beam *without* a KO recharges on the next turn.
 - **Move Menu Cursor Reset Anomaly (Unverified):** The move selection cursor can unexpectedly reset to the default top position after directional inputs are made but before 'A' is pressed to confirm the move. This resulted in using BODY SLAM instead of the intended ROCK SLIDE against Agatha's Golbat. This needs more observation to determine the trigger. (Observed Turn 158415)
+
+## C. Tile Traversal and Movement Rules (Comprehensive Guide)
+- **`ground`**: Walkable tile, but not always reachable from your current position.
+- **`cuttable`**: Tree that can be cut with HM Cut. Becomes `ground` after cutting, but respawns on map change or after battle.
+- **`ledge`**: Can be jumped down, but not climbed up. Treat as `ground` only when player is above (Y-1). From other directions, treat as `impassable`. Moving down into a ledge (from Y-1 to Y) automatically moves to Y+2 in one press.
+- **`grass`**: Tall grass for wild Pokémon encounters. Walkable like `ground`.
+- **`water`**: Crossable using HM Surf. Must use Surf from party menu while adjacent to water tile.
+- **`steps`**: Allows movement between `ground` and `elevated_ground`.
+- **`elevated_ground`**: Walkable ground at a different elevation. Accessed from `steps` tiles, other `elevated_ground` tiles, or warps. Direct movement between `ground` and `elevated_ground` is impossible.
+- **`impassable`**: Walls, counters, rocks, buildings, etc. Cannot be entered.
+- **`boulder_barrier`**: Temporary impassable barrier linked to a boulder switch. State updates when visible on-screen. Usually respawns after changing maps.
+- **`cleared_boulder_barrier`**: Former barrier, now acts as `ground`. State updates when visible on-screen. Usually reverts to `boulder_barrier` after map change.
+- **`boulder_switch`**: Floor switch for boulders. Activating changes `boulder_barrier` to `cleared_boulder_barrier`.
+- **`closed_gate`**: Impassable gate currently visible. Off-screen gates (`gate_offscreen`) are treated as potentially open for pathfinding.
+- **`open_gate`**: Previously closed gate, now `ground` and visible.
+- **`gate_offscreen`**: Gate (open or closed) not visible. Treated as potentially open for pathfinding.
+- **`teleport`**: Instant warp within same logical location.
+- **`hole`**: Warp tile leading to a lower map area.
+- **`spinner_up`**, **`spinner_down`**, **`spinner_left`**, **`spinner_right`**: Forces movement in specified direction.
+- **`spinner_stop`**: Tile that stops spinner movement.
+- **`ladder_up`**: Warp to higher floor. Treat as `ground` or `elevated_ground`.
+- **`ladder_down`**: Warp to lower floor. Treat as `ground` or `elevated_ground`.
+- **`unknown`**: Tile not visually confirmed. Treat as `impassable` until confirmed by moving adjacent.
+- **Object Impassability:** All `<Object>` elements (NPCs, items, signs) act as impassable walls, EXCEPT Pikachu. Interaction must be from an adjacent tile.
+- **Pikachu Movement:** If Pikachu is directly adjacent and you are not facing it, the first directional press turns to face, the second moves onto its tile. Otherwise, one press moves.
+- **Boulder Pushing:** Requires Strength. First press (if not facing) turns and pushes. Subsequent presses (if facing) push one tile; player remains in place. Repositioning (walking to new adjacent tile) costs one turn.
 
 # III. Tool & Agent Development
 
@@ -150,5 +177,44 @@
 ## C. Seafoam Islands Puzzle Log (B4F)
 - **Failed Hypothesis 1 (Strength Activation on Steps):** Repeatedly attempted to activate Strength from the menu while on the 'steps' tile at (8,12) on B4F. Outcome: Consistently received "No SURFing on TITANESS here!". Conclusion: Strength cannot be activated from this specific steps tile while surfing is active or while on the steps tile at all on this map. (Observed Turns 170164-170188).
 - **Failed Hypothesis 2 (Direct 'A' Interaction on Water Boulder):** Attempted to interact with Boulder 1 at (5,16) by pressing 'A' from (5,15) while surfing. Outcome: Screen text "This requires STRENGTH to move!". Conclusion: Direct 'A' interaction is not sufficient; Strength must be active. (Observed Turn 170250).
+- **Strength Activation on Land:** Strength was successfully activated on land at (8,12) and remains active when re-entering water. (Observed Turn 170460).
 ## F. Immediate Action Mandate Failures
-- **Repeated Path Interruptions (Seafoam Islands B4F):** I repeatedly failed to document or analyze path interruptions between Turns 170465-170500. This is a critical failure to follow the immediate data & tool maintenance directive. I must address these interruptions by re-evaluating the path and documenting the cause of the interruption.
+- **Repeated Path Interruptions (Seafoam Islands B4F):** I repeatedly failed to document or analyze path interruptions between Turns 170465-170517. This is a critical failure to follow the immediate data & tool maintenance directive. I must address these interruptions by re-evaluating the path and documenting the cause of the interruption.
+
+# V. Opponent Information (Elite Four & Post-Game)
+
+## A. Lorelei (Elite Four)
+- **Slowbro:** Knows Earthquake.
+- **Jynx:** Knows Bubblebeam.
+- **Gengar:** Lv 59.
+- **Cloyster:** Lv 55, knows Explosion.
+
+## B. Bruno (Elite Four)
+- **Hitmonchan:** Knows Ice Punch and Thunder Punch.
+- **Onix:** Uses Explosion.
+- **Machamp:** Knows Earthquake.
+
+## C. Agatha (Elite Four)
+- **Gengar:** Prioritizes Hypnosis, then Dream Eater.
+
+## D. Lance (Elite Four)
+- **Dragonite:** Lv 61, knows Slam, Thunder Wave, Wrap, and Hyper Beam (no mandatory recharge).
+- **Gyarados:** Knows Slam.
+- **Aerodactyl:** Knows Earthquake.
+- **Charizard:** Knows Earthquake and Flamethrower.
+
+## E. Misty (Cerulean Gym Rematch)
+- **Seadra:** Lv 64.
+- **Golduck:** Lv 65, knows Psychic, Blizzard.
+- **Lapras:** Lv 64, knows Hydro Pump, Thunder, Psychic, Blizzard.
+- **Vaporeon:** Knows Acid Armor.
+- **Starmie:** Knows Thunderbolt.
+- **Snorlax (Kris):** Knows Earthquake, Body Slam, REST.
+
+# VI. General Game Tips
+- **Dig field move:** Can be used to escape from caves (warps to last visited Pokemon Center).
+- **Field move usage (fainted Pokemon):** Fainted Pokemon can still use field moves.
+- **Surf activation:** Must use Surf from the party menu while standing next to a water tile. Only Water-type Pokemon can use it in the field.
+- **Strength activation:** Does not need to be reactivated for every boulder push. The push is executed by walking into the boulder. The boulder moves one tile, and the player's position does not change when pushing vertically, but moves into the boulder's previous space when pushing horizontally. Boulders cannot be pushed onto 'steps' tiles.
+- **Victory Road boulder mechanics:** Leaving and re-entering a map resets boulder puzzles. Boulder barriers on Victory Road 1F also reset after changing floors.
+- **HM forgetting:** HMs can be forgotten.
