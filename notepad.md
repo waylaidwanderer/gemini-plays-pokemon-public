@@ -121,7 +121,7 @@
 - **Linked Boulder Rotation:** A puzzle mechanic where using Strength on one of two adjacent water-based boulders causes both to rotate in a linked fashion, rather than being pushed. (Observed on Seafoam Islands B3F)
 - **Hidden Passages (Confirmed):** Some impassable-looking walls can be walked through. A systematic, tile-by-tile search is required to find them, especially when system feedback indicates an area is not a dead end despite appearances. (Discovered on Seafoam Islands B4F at (16, 15), Discovered on Seafoam Islands B2F at (19, 8))
 - **Gengar AI (Hypnosis Priority):** The Gengar in Seafoam Islands B4F prioritizes using Hypnosis on any active, non-sleeping Pokémon, even if it has a type immunity to Gengar's STAB moves. It will then follow up with Dream Eater. This is its core strategy.
-- **Exit Warp Anomaly (B4F - Verified):** The exit warp to Route 20 at (21, 18) is non-functional. All attempts to activate it via standard movement (Up, Down, Left, Right) have failed. This confirms that some warps may be impassable despite appearing normal. I have marked this specific warp with a '🚫' on the on the map.
+- **Assumption 1 (Confirmed):** The non-functional warp to Route 20 at (21, 18) on Seafoam Islands B4F is *permanently* non-functional. Attempts to use it after catching Articuno have failed.
 - **New Hypothesis (Pikachu Swap):** The puzzle requires swapping positions with Pikachu.
   - **Observation:** Pikachu is at (6, 17), directly below me. A documented mechanic allows swapping positions with this specific Pikachu.
   - **Hypothesis:** Moving down onto Pikachu's tile will swap our positions, placing me at (6, 17) and opening new movement options.
