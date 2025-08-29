@@ -20,6 +20,8 @@
 - **Dead End Area Mismatch (Seafoam B3F):** My previous assertion that Seafoam Islands B3F was a dead end was incorrect. The system reported 4 reachable exits. This was a critical hallucination. **Correction:** I must re-evaluate my understanding of B3F's layout and trust system feedback over my visual interpretation of the map. (Self-correction from Turn 170981).
 - **Notepad and Map Marker Update Priority (Turn 171001):** I attempted multiple `define_map_marker` and `find_path` calls before executing a planned `notepad_edit` overwrite. This is a direct violation of the core directive that notepad updates are the highest priority and must be performed immediately. **Correction:** All notepad updates must be performed immediately, prior to any other actions.
 - **Fly Menu Navigation Failure (Turn 171342-171352):** I repeatedly overshot the target Pokémon in the party menu and then manually scrolled through the Fly menu. **Correction:** I must use the `fly_menu_navigator` tool as intended and trust its output. The `get_next_pokemon_press` tool was deleted to make space for `fly_menu_navigator` and should not have been used. This also highlights a failure to immediately use a newly defined tool.
+- **Deferred Map Marker Creation (Turns 172822, 172872, 172881):** I cut trees but deferred defining map markers for them until a later turn (172829, 172877, 172882). **Correction:** Map markers must be defined immediately on the same turn the event occurs.
+- **Repeated `find_path` Calls without Re-evaluation (Turns 172922-172929):** I repeatedly called `find_path` to the same target after it failed without adapting my strategy or re-evaluating the cause of failure. **Correction:** When a tool's output is unexpected, I must immediately adapt my strategy and re-evaluate the underlying cause of the failure.
 
 ## B. Game Mechanics & World Knowledge
 
@@ -36,6 +38,8 @@
 - **Hidden Passages (Confirmed):** Some impassable-looking walls can be walked through. A systematic, tile-by-tile search is required to find them, especially when system feedback indicates an area is not a dead end despite appearances. (Discovered on Seafoam Islands B4F at (16, 15), Discovered on Seafoam Islands B2F at (19, 8))
 - **Boulder & Strength Mechanics:** Strength does not need to be reactivated for every boulder push. Pushing a boulder is a multi-step process. If not facing a boulder, the first directional button press will turn the player to face it and push the boulder one tile in the same turn. If already facing, pressing the same directional button again will push it one tile (player stays in place). To push a boulder multiple times, the player must walk to a tile adjacent to its new position after each push. When pushing vertically, the player's position does not change, but when pushing horizontally, the player moves into the boulder's previous space.
 - **Impassable Tiles in Pathfinding:** Some tiles identified as 'impassable' in the map memory can unexpectedly block paths even if `find_path` previously considered them traversable. This requires explicit addition to `temp_impassable` if encountered (e.g., (34,21) on Rock Tunnel B1F, (34,6) on Rock Tunnel 1F). (Observed Turn 172735, 172754, 172758)
+- **HM Field Move Usage (Two 'A' Presses):** To use an HM field move (like Cut) from the overworld, the player must first press 'A' while facing the target to bring up the "Would you like to use [HM]?" prompt, and then press 'A' again to confirm 'YES'. (Observed Turns 172822, 172872, 172881).
+- **`find_path` Tool Limitation (Complex Maps):** The `find_path` tool, even with fixes for object traversability, struggles to find long paths through complex, segmented maps with large impassable areas (e.g., water bodies, walls). It often reports numerous irrelevant impassable tiles as blocking, suggesting a limitation in its ability to navigate around these structures rather than an issue with individual tile traversability. (Observed Turns 172922-172929).
 
 ## C. Tool & Agent Development
 
@@ -140,51 +144,3 @@
 - **Surf activation:** Must use Surf from party menu while standing next to a water tile. Only Water-type Pokemon can use it in the field.
 - **Victory Road boulder mechanics:** Leaving and re-entering a map resets boulder puzzles. Boulder barriers on Victory Road 1F also reset after changing floors.
 - **HM forgetting:** HMs can be forgotten.
-
-# Self-Assessment Turn 172776
-
-## 1. Immediate Data Management & The LLM Reality:
-- **Lapses identified:**
-  - In turns 172752-172755, I repeatedly tried to use `select_battle_option` when I was already out of battle. This was a failure to immediately recognize the `Screen Text` as empty.
-  - In turns 172713, 172715, 172718, 172720, 172722, 172724, 172726, 172728, 172730, 172732, 172734, 172737, 172739, 172742, 172745, 172747, 172749, 172753, 172755, 172757, 172759, 172762, 172764, 172766, 172768, 172770, 172772: I consistently failed to account for Pikachu's position and my facing direction when resuming interrupted paths, leading to repeated 'move into Pikachu' warnings or blocked movements. This is a failure to apply documented 'Pikachu Movement Handling' rules immediately.
-  - In turns 172712, 172736, 172741, 172744: I repeatedly called `find_path` without explicitly including Pikachu's location in `temp_impassable`, despite knowing Pikachu is an object that affects movement, and despite experiencing repeated 'move into Pikachu' warnings. This is a failure to immediately update my tool usage based on observed mechanics.
-  - In turns 172751 and 172756: I called `find_path` again to the same destination without adjusting `temp_impassable` to reflect the newly discovered impassable tile at (34,6). This is a failure to immediately adapt tool input based on observed map changes.
-  - In turns 172751 and 172756: I identified the 'Deferred Tool Fix' for `find_path` but deferred the fix itself until after the battle, which is a lapse in immediate tool maintenance. (It was then automatically fixed, as confirmed in turn 172756.)
-  - In turn 172760: I failed to use `notepad_edit` to correct the 'Deferred Tool Fix' entry immediately after confirming the fix was applied, deferring it to the next turn.
-
-## 2. Notepad Content Quality:
-- My notepad is generally well-organized with Markdown. I have a dedicated 'Self-Correction Log' and sections for 'Game Mechanics & World Knowledge', 'Tool & Agent Development', 'Key Event & Puzzle Log', and 'Opponent Information'.
-- I will review for redundancy.
-- I will ensure all tile mechanics are explicitly documented.
-
-## 3. Tile Mechanic Documentation:
-- I have documented several tile traversal and movement rules in my notepad, including 'Ledge Traversal Rule', 'Pikachu Movement Handling', 'Elevated Ground Traversal Rule', and 'Boulder Pushing Mechanics'.
-
-## 4. Agent Opportunities:
-- **`interrupt_handler_navigator` Tool Idea:** This is still a strong candidate for a custom tool, as I frequently encounter wild battles that interrupt my paths. This tool would automatically resume or re-path after interruptions. I should prioritize defining this tool.
-- **Pikachu-aware pathfinding:** I need to either modify `find_path` to implicitly handle Pikachu's position or consistently ensure Pikachu's coordinates are added to `temp_impassable` when calling `find_path`. This is a recurring issue that an agent or tool could manage.
-
-## 5. Agent Refinement:
-- My existing agents (`master_battle_agent`, `navigation_troubleshooter`, `puzzle_solver_agent`) appear to be well-defined and are performing their high-level reasoning tasks. No immediate refinement is needed based on their outputs, but I need to ensure I consistently trust their outputs.
-
-## 6. Agent Deletion:
-- No agents need to be deleted at this time.
-
-## 7. Map Marker Discipline:
-- I have been diligently marking arrivals and exits from maps, and defeated trainers. I need to ensure that I am marking all strategically important tiles, especially after `find_path` failures. For example, marking previously assumed 'reachable' but now confirmed 'impassable' tiles.
-
-## 8. Map Marker Redundancy:
-- No immediate redundant map markers have been identified.
-
-## 9. Tool Creation & Refinement:
-- I should prioritize defining the `interrupt_handler_navigator` tool (as mentioned in #4).
-- I need to refine `find_path` to better handle dynamic obstacles like Pikachu and newly discovered impassable tiles without manual intervention. This could involve an optional parameter for `find_path` to automatically include Pikachu's current position and facing direction in its `temp_impassable` set.
-- My `find_path` tool successfully returned a path to (16,4) on Rock Tunnel 1F in turn 172751 (and subsequent calls). This means the map state or my understanding changed. I need to trust this new path.
-
-## 10. Goal Adherence & Flexibility:
-- My goals are still concrete outcomes: Primary: 'Reach the Power Plant', Secondary: 'Explore all post-game areas'. Tertiary is empty. I am adhering to these goals. I have been flexible in re-evaluating paths when blocked.
-
-## 11. Untested Assumptions & Confirmation Bias:
-- **Assumption:** Rock Tunnel B1F tile (34,21) was traversable based on an older `find_path` output. **Test:** I will re-run `find_path` to (34,26) from a nearby traversable tile, explicitly marking (34,21) as impassable and observing the new path. This directly addresses the 'blocked movement' warning from turn 172735.
-- **Assumption:** Rock Tunnel 1F tile (34,6) was traversable. **Test:** I will re-run `find_path` to (16,4) from a nearby traversable tile, explicitly marking (34,6) as impassable and observing the new path. This addresses the 'blocked movement' warning from turn 172754 and 172758.
-- I need to be more vigilant in trying to *disprove* my hypotheses, especially when `find_path` gives conflicting results with observed movement.
