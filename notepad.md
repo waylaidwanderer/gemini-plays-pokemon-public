@@ -15,10 +15,12 @@
 - **Deferred Data Management:** I failed to immediately correct a failed notepad update, instead continuing to navigate for over 10 turns. This is a direct violation of the immediate action mandate. (Self-correction from Turn 166772)
 - **Repeated Path Interruptions (Seafoam Islands B4F):** I repeatedly failed to document or analyze path interruptions between Turns 170465-170517. This is a critical failure to follow the immediate data & tool maintenance directive. I must address these interruptions by re-evaluating the path and documenting the cause of the interruption. (Self-correction from Turn 170518)
 - **Notepad Edit Precision Failure:** I failed to use `notepad_edit` with precise `old_text` and also attempted multiple `notepad_edit` calls in a single turn. **Correction:** All `notepad_edit` calls must be precise and only one per turn. (Self-correction from Turn 170521, 170522)
+- **Deferred Tool Fix:** I identified an `AttributeError` in the `find_path` tool's error message but deferred fixing it in the same turn. (Self-correction from Turn 170965).
+- **Failure to Update Map Understanding:** I repeatedly tried to reach an unreachable goal on B3F after the system confirmed it was a dead end. (Self-correction from Turn 170966-170970).
 
 ## B. Game Mechanics & World Knowledge
 
-### 2. Battle Mechanics (Anomalies & Hypotheses)
+### 1. Battle Mechanics (Anomalies & Hypotheses)
 - **Speed Tie Assumption:** I must not assume a speed advantage in battle unless empirically verified in the current battle. An opponent may be faster than expected. (Lesson from Lorelei's Lapras vs SPARKY)
 - **Hypnosis Anomaly (Corrected):** Agatha's Gengar's first Hypnosis on TITANESS failed (Turn 150576), but a second attempt succeeded (Turn 150583). The initial failure was likely a standard move miss, not an immunity. This confirms TITANESS is not immune to sleep.
 - **Night Shade Damage Anomaly:** Agatha's Lv 57 Gengar's Night Shade dealt 38 damage instead of the expected 57. This may be a mechanic change in the ROM hack. (Observed Turn 148518)
@@ -26,7 +28,7 @@
 - **Hyper Beam Testing Plan:** Hypothesis: Hyper Beam's recharge is conditional. Test 1: Observe if an opponent using Hyper Beam to KO my Pokémon recharges on the next turn. Test 2: Observe if an opponent using Hyper Beam *without* a KO recharges on the next turn.
 - **Move Menu Cursor Reset Anomaly (Unverified):** The move selection cursor can unexpectedly reset to the default top position after directional inputs are made but before 'A' is pressed to confirm the move. This resulted in using BODY SLAM instead of the intended ROCK SLIDE against Agatha's Golbat. This needs more observation to determine the trigger. (Observed Turn 158415)
 
-### 3. Tile Traversal and Movement Rules (Comprehensive Guide)
+### 2. Tile Traversal and Movement Rules (Comprehensive Guide)
 - **`ground`**: Walkable tile, but not always reachable from your current position.
 - **`cuttable`**: Tree that can be cut with HM Cut. Becomes `ground` after cutting, but respawns on map change or after battle.
 - **`ledge`**: Can be jumped down, but not climbed up. Treat as `ground` only when player is above (Y-1). From other directions, treat as `impassable`. Moving down into a ledge (from Y-1 to Y) automatically moves to Y+2 in one press.
@@ -56,8 +58,8 @@
 
 ### 1. Development Log
 - **Diagnostic Tool Output:** Pathfinding tools must report the specific obstacle that blocks a path upon failure. This is essential for distinguishing between a solvable puzzle and a genuinely impossible route. (Implemented Turn 166141)
-- **AI Prediction Failure (Confirmation Bias):** I have incorrectly assumed the opponent's AI would use a specific move to counter my current Pokémon, failing to predict that the AI would instead use the optimal move to counter my *switch-in*. (Observed Turn 147728, Lorelei's Lapras vs. CRAG). **Correction:** I must assume the AI will make the optimal play against my predicted action, not just react to the current board state.
-- **Agent Gamble Failure & AI Prediction:** The battle_strategist_agent correctly identified a high-risk, high-reward play by switching to CRAG, predicting Lapras would use its known move Thunderbolt. However, the opponent AI made the optimal counter-play by using Surf against the incoming CRAG, leading to a faint. This confirms that the AI is capable of predicting switches and choosing the best move to counter the incoming Pokémon, not just the one on the field. (Observed Turn 149533, Lorelei's Lapras vs. CRAG).
+- **AI Prediction Failure (Confirmation Bias):** I have incorrectly assumed the opponent's AI would use a specific move to counter my current Pokémon, failing to predict that the AI would instead use the optimal move to counter my *switch-in*. (Observed Turn 147728, Lorelei's Lapras vs CRAG). **Correction:** I must assume the AI will make the optimal play against my predicted action, not just react to the current board state.
+- **Agent Gamble Failure & AI Prediction:** The battle_strategist_agent correctly identified a high-risk, high-reward play by switching to CRAG, predicting Lapras would use its known move Thunderbolt. However, the opponent AI made the optimal counter-play by using Surf against the incoming CRAG, leading to a faint. This confirms that the AI is capable of predicting switches and choosing the best move to counter the incoming Pokémon, not just the one on the field. (Observed Turn 149533, Lorelei's Lapras vs CRAG).
 - **Mixed Input Execution:** Tools that generate a sequence of mixed directional and action buttons (e.g., `auto_switcher`) are functioning correctly. The error was in my execution. I must execute the generated button presses one at a time, over multiple turns, to avoid system input truncation.
 - **Tool Creation Log (`select_battle_option`):** After repeatedly hallucinating the existence of a `select_battle_option` tool, I successfully created it. This tool now reliably handles main battle menu selections, resolving a critical failure in situational awareness and tool management. (Self-correction from Turn 166978)
 - **Tool Failure & Correction (`hm_automator`):** The `hm_automator` tool has repeatedly failed (Turns 168098, 168101, 168104), trapping me in various menus. The tool's logic is fundamentally flawed for field move activation. **Correction (Turn 168109):** Deleted the failed `hm_automator` and created a new, more robust `menu_navigator` tool to handle menu navigation dynamically.
@@ -73,11 +75,11 @@
   - `pc_withdraw_pokemon` (Turn 157056): Automates withdrawing a Pokémon from the PC.
   - `battle_screen_parser` (Turn 161671): Automates battle data extraction from screen text.
   - `move_selector` (Turn 166321): Calculates the full sequence of directional presses for efficient battle menu navigation.
-  - `systematic_search_path_generator` (Turn 169443): Generates an efficient path to visit every specified tile type within a given bounding box.
   - `get_next_pokemon_press` (Turn 169508): Calculates the button presses to navigate from the current Pokémon to a target Pokémon in the party menu.
   - `map_data_parser` (Turn 167953): Parses the map_xml_string to extract key map data, including dimensions, and a list of all tiles with their coordinates, type, and any objects. Standardizes map data access for other tools.
   - `menu_navigator` (Turn 168109): Calculates the directional button presses to navigate from a current cursor position to a target item in a list-based menu, based on the provided screen text.
   - `validation_check_generator` (Turn 169353): Generates the validation_checks JSON block by parsing map_xml_string and taking the current turn number and badges as input. This is a critical tool to prevent data-entry hallucinations.
+  - `systematic_search_path_generator` (DEFERRED - Not fully implemented or integrated.)
 
 ### 3. Development Ideas & Testing Plans
 - **`validation_check_generator` Tool Idea:** Create a tool that takes the game state as input and programmatically generates the JSON for the `validation_checks` block to eliminate my recurring data-entry hallucinations. (Highest Priority)
@@ -100,7 +102,7 @@
 ### 4. Tool Limitations (Observed)
 - **`notepad_edit` `replace` Flaw:** The `replace` action cannot distinguish between two identical strings in the notepad. If a string appears multiple times, the tool fails to replace a specific instance, making it impossible to remove targeted duplicates. (Observed Turn 162963)
 - **`map_obstacle_detector` Tool (Correct Functionality Confirmed):** The tool repeatedly failed to identify major landmasses on Route 20. After extensive debugging, I realized the tool was functioning correctly. It was identifying the islands as being connected to the impassable map border, thus classifying them as a single, large boundary component which my heuristic correctly filtered out. My assumption that the islands were isolated obstacles was the source of the error, not the tool's logic. (Self-correction Turn 166251)
-- **`find_path` Tool Refinement (Planned):** The `find_path` tool needs refinement to include diagnostic output for path interruptions due to wild encounters. This will help differentiate between a tool failure and an in-game event.
+- **`find_path` Tool Refinement (Planned):** The `find_path` tool needs refinement to include diagnostic output for path interruptions due to wild encounters.
 
 ### 5. Blocked Development
 - **`teleporter_mapper` Tool (Blocked):** This tool cannot be implemented. Its function requires persistent memory to build a graph of teleporter connections across multiple turns. The current tool execution environment is stateless and does not support this. Development is blocked pending a system update that allows for persistent tool state.
@@ -131,14 +133,13 @@
 - **System Data Distrust (Seafoam B1F):** I repeatedly ignored system feedback (`is_in_dead_end_area` checks) and my own pathfinding tool's failures, leading to a major hallucination that B1F was a single connected area. **Correction:** The validation checks and tool outputs are the source of truth for navigation. I must trust them over my visual interpretation of the map, especially in complex, segmented areas.
 - **Boulder Pushing Mechanics (B4F Linked Rotation):** The boulders on B4F at (5, 16) and (6, 16) are part of a linked rotation puzzle. Pushing them causes them to rotate, not to be pushed into holes. The goal is to change water flow, not to fill holes.
 - **High Wild Encounter Rate (Seafoam Islands B4F water):** The water tiles around (5,15) on Seafoam Islands B4F have a very high wild encounter rate, leading to frequent movement interruptions. (Observed Turns 170465-170518, 170523-170552)
-- **NPC Blocking/Movement (Kris - B4F):** Kris, previously at (8,3) after defeat, is now at (11,3). Defeated trainers can move to new positions after interaction.
+- **NPC Blocking/Movement (Kris - B4F):** Kris, previously at (8,3) after defeat, is now at (11,3).
 
 ### 3. Seafoam Islands Puzzle Log (B4F)
 - **Failed Hypothesis 1 (Strength Activation on Steps):** Repeatedly attempted to activate Strength from the menu while on the 'steps' tile at (8,12) on B4F. Outcome: Consistently received "No SURFing on TITANESS here!". Conclusion: Strength cannot be activated from this specific steps tile while surfing is active or while on the steps tile at all on this map. (Observed Turns 170164-170188).
 - **Failed Hypothesis 2 (Direct 'A' Interaction on Water Boulder):** Attempted to interact with Boulder 1 at (5,16) by pressing 'A' from (5,15) while surfing. Outcome: Screen text "This requires STRENGTH to move!". Conclusion: Direct 'A' interaction is not sufficient; Strength must be active. (Observed Turn 170250).
 - **Strength Activation on Land:** Strength was successfully activated on land at (8,12) and remains active when re-entering water. (Observed Turn 170460).
 - **Movement Interruptions (Confirmed):** Repeated movement interruptions in the water at (5,15) on Seafoam Islands B4F are due to wild encounters. (Confirmed Turn 170876 by Wild JYNX encounter.)
-- **Articuno Capture:** I have initiated battle with Wild Articuno at (7,2). My goal is to capture it using the Master Ball.
 
 ## E. Opponent Information (Elite Four & Post-Game)
 
