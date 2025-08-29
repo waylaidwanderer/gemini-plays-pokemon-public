@@ -35,8 +35,6 @@
 - **Linked Boulder Rotation:** A puzzle mechanic where using Strength on one of two adjacent water-based boulders causes both to rotate in a linked fashion, rather than being pushed. (Observed on Seafoam Islands B3F)
 - **Hidden Passages (Confirmed):** Some impassable-looking walls can be walked through. A systematic, tile-by-tile search is required to find them, especially when system feedback indicates an area is not a dead end despite appearances. (Discovered on Seafoam Islands B4F at (16, 15), Discovered on Seafoam Islands B2F at (19, 8))
 - **Boulder & Strength Mechanics:** Strength does not need to be reactivated for every boulder push. Pushing a boulder is a multi-step process. If not facing a boulder, the first directional button press will turn the player to face it and push the boulder one tile in the same turn. If already facing, pressing the same directional button again will push it one tile (player stays in place). To push a boulder multiple times, the player must walk to a tile adjacent to its new position after each push. When pushing vertically, the player's position does not change, but when pushing horizontally, the player moves into the boulder's previous space.
-- **Strength Activation on Land:** Strength can be activated on land and remains active when re-entering water. (Observed Turn 170460).
-- **Strength Wear Off:** Using the HM Strength wears off after a wild Pokémon encounter.
 
 ## C. Tool & Agent Development
 
@@ -141,5 +139,3 @@
 - **Surf activation:** Must use Surf from party menu while standing next to a water tile. Only Water-type Pokemon can use it in the field.
 - **Victory Road boulder mechanics:** Leaving and re-entering a map resets boulder puzzles. Boulder barriers on Victory Road 1F also reset after changing floors.
 - **HM forgetting:** HMs can be forgotten.
-- **Strength Activation on Land:** Strength can be activated on land and remains active when re-entering water. (Observed Turn 170460).
-- **Strength Wear Off:** Using the HM Strength wears off after a wild Pokémon encounter.
