@@ -221,3 +221,4 @@
 - **Strength activation:** Does not need to be reactivated for every boulder push. The push is executed by walking into the boulder. The boulder moves one tile, and the player's position does not change when pushing vertically, but moves into the boulder's previous space when pushing horizontally. Boulders cannot be pushed onto 'steps' tiles.
 - **Victory Road boulder mechanics:** Leaving and re-entering a map resets boulder puzzles. Boulder barriers on Victory Road 1F also reset after changing floors.
 - **HM forgetting:** HMs can be forgotten.
+- Articuno Captured: Successfully caught Wild Articuno at (7,2) on Seafoam Islands B4F using the Master Ball. Nicknamed 'FROSTWING'.
