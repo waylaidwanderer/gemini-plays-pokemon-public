@@ -32,26 +32,6 @@
 - **Move Menu Cursor Reset Anomaly (Unverified):** The move selection cursor can unexpectedly reset to the default top position after directional inputs are made but before 'A' is pressed to confirm the move. This resulted in using BODY SLAM instead of the intended ROCK SLIDE against Agatha's Golbat. This needs more observation to determine the trigger. (Observed Turn 158415)
 
 ### 2. Tile Type Glossary (Observed Mechanics)
-- **ground**: Walkable tile, but not always reachable from your current position.
-- **cuttable**: Tree that can be cut with HM Cut. Becomes `ground` after cutting, but respawns on map change or after battle.
-- **ledge**: Can be jumped down, but not climbed up. Treat as `ground` only when player is above (Y-1). From other directions, treat as walls.
-- **grass**: Tall grass for wild Pokémon encounters. Walkable like `ground`.
-- **water**: Crossable using HM Surf.
-- **steps**: Allows movement between `ground` and `elevated_ground`.
-- **elevated_ground**: Walkable ground at a different elevation. Accessed from `steps` tiles, other `elevated_ground` tiles, or warps.
-- **impassable**: Walls, counters, rocks, buildings, etc. Cannot be entered.
-- **boulder_barrier**: Temporary impassable barrier linked to a boulder switch. State updates when visible on-screen. Usually respawns after changing maps.
-- **cleared_boulder_barrier**: Former barrier, now acts as `ground`. State updates when visible on-screen. Usually reverts to `boulder_barrier` after map change.
-- **boulder_switch**: Floor switch for boulders. Activating it changes `boulder_barrier` to `cleared_boulder_barrier`.
-- **closed_gate**: Impassable gate currently visible. May require switch/key. Off-screen gates treated as potentially open.
-- **open_gate**: Previously closed gate, now `ground`. Visible on-screen.
-- **gate_offscreen**: Gate (open/closed) not visible. Treated as potentially open.
-- **teleport**: Instant warp tile within same logical location.
-- **hole**: Warp tile leading to a lower map area.
-- **spinner_up/down/left/right**: Forces movement in specified direction. May have `end-coordinate`.
-- **spinner_stop**: Tile that stops spinner movement.
-- **ladder_up/down**: Warp tile leading to higher/lower floor. Treat as `ground` or `elevated_ground`.
-- **unknown**: Tile not visually confirmed. Treat as impassable until confirmed by moving adjacent.
 - **Linked Boulder Rotation:** A puzzle mechanic where using Strength on one of two adjacent water-based boulders causes both to rotate in a linked fashion, rather than being pushed. (Observed on Seafoam Islands B3F)
 - **Hidden Passages (Confirmed):** Some impassable-looking walls can be walked through. A systematic, tile-by-tile search is required to find them, especially when system feedback indicates an area is not a dead end despite appearances. (Discovered on Seafoam Islands B4F at (16, 15), Discovered on Seafoam Islands B2F at (19, 8))
 - **Strength activation:** Does not need to be reactivated for every boulder push. The push is executed by walking into the boulder. The boulder moves one tile, and the player's position does not change when pushing vertically, but moves into the boulder's previous space when pushing horizontally.
