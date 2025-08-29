@@ -142,6 +142,8 @@
 
 ### 6. Craig (Power Plant)
 - **JOLTEON:** Lv 55, knows DIG, THUNDERBOLT, PIN MISSILE, THUNDER WAVE.
+- **AERODACTYL:** Lv 55, knows ROCK SLIDE.
+- **EXEGGUTOR:** Lv 55, knows MEGA DRAIN.
 
 ## F. General Game Tips (ROM Hack Specifics)
 - **Assumption: Normal vs Electric Neutrality:** My `master_battle_agent` assumes Normal is neutral against Electric when it's not explicitly in the type chart. This needs to be verified. Test: In a future battle, if a Normal-type Pokémon attacks an Electric-type, I should specifically observe the "It's not very effective," "It's super effective," or lack thereof message to confirm neutrality.
@@ -156,4 +158,4 @@
 
 ## A. Defeated Trainers
 - **Power Plant:**
-  - Craig (POWERPLANT_CRAIG) at (3, 6) on Power Plant (ID: 83) - Turn 173138
+  - Craig (POWERPLANT_CRAIG) at (3, 6) on Power Plant (ID: 83) - **IN PROGRESS**
