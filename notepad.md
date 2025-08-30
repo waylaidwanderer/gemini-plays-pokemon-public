@@ -63,6 +63,10 @@
 - **Main Obstacle:** Strong water current on B4F blocked progress, solved by a boulder puzzle on B3F.
 - **B4F Linked Boulder Rotation:** Boulders at (5, 16) and (6, 16) are part of a linked rotation puzzle to change water flow.
 
+### 3. Solved Assumptions
+- **Saffron Guard & Drink (SOLVED):** Gave a drink to the guard at the Route 5 gatehouse, which granted access to Saffron City. This confirms the hypothesis.
+- **Snorlax & POKé FLUTE (Route 12) (SOLVED):** The Snorlax at (11, 46) is no longer present. The path is clear. The POKé FLUTE was not needed.
+
 ## E. Opponent Information
 - **Elite Four Lorelei:** Slowbro (Earthquake), Jynx (Bubblebeam), Gengar (Lv 59), Cloyster (Lv 55, Explosion).
 - **Elite Four Bruno:** Hitmonchan (Ice Punch, Thunder Punch), Onix (Explosion), Machamp (Earthquake).
@@ -75,7 +79,6 @@
 ## F. Wild Legendary Encounters
 - **Articuno (Seafoam Islands, Lv 50):** Captured.
 - **Zapdos (Power Plant, Lv 50):** AGILITY, THUNDERBOLT. (Fainted accidentally).
-- **Untested Assumption:** The Snorlax on Route 12 might be movable with the POKé FLUTE. **Test:** After exiting Rock Tunnel, fly to Lavender Town and attempt to use the POKé FLUTE on the Snorlax.
 
 # III. Future Development & Testing
 
@@ -83,6 +86,3 @@
 - **Team Builder Agent:** An agent that could analyze my PC box Pokémon and a known opponent's roster to suggest an optimal team composition for major battles.
 
 ## B. Untested Assumptions Log
-- **Snorlax & POKé FLUTE (Route 12):** I assume the POKé FLUTE will awaken the Snorlax blocking Route 12, based on mechanics from other games. **Test Plan:** After exiting Rock Tunnel, travel to Route 12, stand adjacent to the Snorlax, and use the POKé FLUTE from the item menu.
-
-- Saffron Guard & Drink (SOLVED): Gave a drink to the guard at the Route 5 gatehouse, which granted access to Saffron City. This confirms the hypothesis.
