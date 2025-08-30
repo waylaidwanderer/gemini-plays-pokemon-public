@@ -154,3 +154,13 @@
 ## D. Wild Legendary Encounters
 - **Articuno (Seafoam Islands, Lv 50):** Captured.
 - **Zapdos (Power Plant, Lv 50):** AGILITY, THUNDERBOLT. (Fainted accidentally).
+
+## A. Agent & Tool Ideas
+- **Trivial Battle Automator:** A tool that combines the logic of `master_battle_agent` and `menu_navigator` for trivial wild encounters. Input would be opponent name/level, output would be the full button sequence to win in one turn (e.g., ["A", "Down", "A"]). This would streamline the repetitive battles like those in Diglett's Cave.
+- **Fly Automator:** A tool that takes a destination name as input and generates the full button sequence to open the party menu, select a Pokémon with Fly, and choose the destination from the map. This would automate the entire Fly travel process.
+- **PC Scroller Tool:** A tool to automate scrolling through PC boxes to find a specific Pokémon that is not on the current screen. This would improve the `pc_navigator`'s weakness.
+
+## B. Untested Assumptions Log
+- **Diglett's Cave Linearity:** The cave appears to be a single, linear path connecting Route 11 and Route 2.
+- **Single Exit Hypothesis:** The ladder at (6, 6) is likely the only exit from this part of the cave.
+- **Route 24 Cave Access:** The cave on Route 24 is currently unreachable. There may be a post-game event or an alternate route from another map that grants access.
