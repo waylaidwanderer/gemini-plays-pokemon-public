@@ -97,3 +97,60 @@
 - **Tool Refinement Failure (Turns 174066-174090, 174151-174157):** I repeatedly used manual navigation or retried a faulty tool after it failed, instead of fixing it immediately. This is a critical violation of my core directives. **Correction:** Faulty tools must be fixed immediately before any other gameplay action.
 - **Critique - Redundant Documentation (Turn 174951):** Overwatch identified that my notepad contained a redundant 'Tile Mechanics Glossary' and that I created a redundant map marker for a picked-up item. **Correction:** I must keep my notepad focused on unique discoveries and rely on the game state as the source of truth for item collection. Immediate data management is paramount.
 - **Location Hallucination Loop (Turns ~175000-175030):** I was stuck in a severe hallucination loop, repeatedly believing I had left the Cinnabar Lab Fossil Room when the game state clearly showed I had not. **Correction:** I must make it an absolute priority to check the `validation_checks` block, specifically `current_map_id` and `current_position`, before every single action to ground my internal state in reality.
+
+## A. Discovered Game Mechanics
+- **HM Usage:** Fainted Pokémon can still use field moves. HMs can be forgotten.
+- **Pikachu Movement:** Requires a two-step move (turn, then move) if not already facing Pikachu.
+- **PC Storage:** "BILL's PC" for Pokémon, "Gem's PC" for items.
+- **Spinner Tiles:** In Rocket Hideout, some spinners are required to progress.
+- **Silph Co. Elevator:** Requires selecting a floor then stepping on a warp pad.
+- **Ghost Identification:** Requires SILPH SCOPE in Pokémon Tower.
+- **Saffron City Access:** Requires giving a drink to a guard at a gatehouse.
+- **Safari Zone:** Timed event; composed of multiple non-contiguous map segments.
+- **Strength HM:** Can be taught by the Safari Zone Warden after finding his teeth.
+- **Surf HM:** Taught by a Fishing Guru in the Safari Zone Secret House.
+- **Flash HM:** Taught by Prof. Oak's Aide on Route 2 after catching 10 Pokémon.
+- **Fly HM:** Taught by a girl in the Route 16 Fly House.
+- **Fossil Revival:** A scientist in the Cinnabar Lab revives fossils. Must leave and return to collect the Pokémon.
+
+## B. Battle Mechanics & Type Effectiveness
+
+- **Anomalies & Hypotheses:**
+  - **Night Shade Damage:** May be altered in this ROM hack.
+  - **Hyper Beam Recharge:** May be conditional or inconsistent.
+  - **Move Menu Cursor Reset:** May randomly reset to the top position.
+- **Verified Matchups:**
+  - Electric -> Poison/Flying (Super-effective)
+  - Fighting -> Ice (Super-effective)
+  - Fighting -> Normal (Super-effective)
+  - Fighting -> Rock (Super-effective)
+  - Flying is immune to Ground
+  - Ghost is immune to Ground
+  - Grass -> Ground (Super-effective)
+  - Grass -> Ground/Rock (Super-effective)
+  - Ground -> Electric (Super-effective)
+  - Ground -> Ghost (Super-effective)
+  - Ground -> Ground (Super-effective)
+  - Ground -> Psychic (Super-effective)
+  - Ground -> Rock/Ground (Super-effective)
+  - Ice -> Poison/Flying (Super-effective)
+  - Normal is immune to Ghost
+  - Psychic -> Poison (Super-effective)
+  - Rock -> Flying (Super-effective)
+
+## C. Opponent Information
+
+### Elite Four
+- **Lorelei:** Slowbro (Earthquake), Jynx (Bubblebeam), Gengar (Lv 59), Cloyster (Lv 55, Explosion).
+- **Bruno:** Hitmonchan (Ice Punch, Thunder Punch), Onix (Explosion), Machamp (Earthquake).
+- **Agatha:** Gengar (Hypnosis, Dream Eater).
+- **Lance:** Dragonite (Lv 61, Slam, Thunder Wave, Wrap, Hyper Beam), Gyaros (Slam), Aerodactyl (Earthquake), Charizard (Earthquake, Flamethrower).
+
+### Other Trainers
+- **Misty (Rematch):** Seadra (Lv 64), Golduck (Lv 65, Psychic, Blizzard), Lapras (Lv 64, Hydro Pump, Thunder, Psychic, Blizzard), Vaporeon (Acid Armor), Starmie (Thunderbolt).
+- **Kris (Seafoam Islands):** Snorlax (Earthquake, Body Sla m, REST), Gengar (Hypnosis, Dream Eater).
+- **Craig (Power Plant) (Defated):** JOLTEON (Lv 55, DIG, THUNDERBOLT, PIN MISSILE, THUNDER WAVE), AERODACTYL (Lv 55, ROCK SLIDE), EXEGGUTOR (Lv 55, MEGA DRAIN, PSYCHIC), SNORLAX (Lv 55, AMNESIA, EARTHQUAKE, BODY SLAM, REST), CLOSTER (Lv 55, EXPLOSION), ARCANINE (Lv 55, FLAMETHROWER).
+
+## D. Wild Legendary Encounters
+- **Articuno (Seafoam Islands, Lv 50):** Captured.
+- **Zapdos (Power Plant, Lv 50):** AGILITY, THUNDERBOLT. (Fainted accidentally).
