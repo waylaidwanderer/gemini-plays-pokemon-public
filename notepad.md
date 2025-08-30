@@ -62,3 +62,4 @@
 - **Single Exit Hypothesis:** The ladder at (6, 6) is likely the only exit from this part of the cave.
 - **DOME FOSSIL Revival:** The process should be identical to the OLD AMBER revival: give the fossil to the scientist, leave the room, and re-enter to receive the Pokémon.
 - **DOME FOSSIL Revival (SOLVED):** The process was identical to the OLD AMBER revival: gave the fossil to the scientist, left the room, and re-entered to receive the Pokémon (Kabuto).
+- **The Missing Kabuto:** The scientist in the Cinnabar Lab Fossil Room went through the dialogue of reviving the DOME FOSSIL into a KABUTO and giving it to me. However, the Pokémon never appeared in my party or PC. The game state confirms it is not present. This could be a bug or an unresolved part of a quest.
