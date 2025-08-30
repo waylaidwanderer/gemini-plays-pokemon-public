@@ -1,6 +1,5 @@
 # I. Meta-Progression & Lessons Learned
 
-- **Deferred Map Marker Creation (Turns 172822, 172872, 172881, 174891, 174927):** I have repeatedly cut trees but deferred defining map markers for them until a later turn. 
 - **Repeated `find_path` Calls without Re-evaluation (Turns 172922-172929):** I repeatedly called `find_path` to the same target after it failed without adapting my strategy or re-evaluating the cause of failure. **Correction:** When a tool's output is unexpected, I must immediately adapt my strategy and re-evaluate the underlying cause of the failure.
 
 - **Critique - Redundant Documentation (Turn 174951):** Overwatch identified that my notepad contained a redundant 'Tile Mechanics Glossary' and that I created a redundant map marker for a picked-up item. **Correction:** I must keep my notepad focused on unique discoveries and rely on the game state as the source of truth for item collection. Immediate data management is paramount.
@@ -12,7 +11,6 @@
 
 # IV. Archive - Solved Puzzles & Mysteries
 
-- **Deferred Map Marker Creation (Turns 172822, 172872, 172881, 174891, 174927):** I have repeatedly cut trees but deferred defining map markers for them until a later turn. 
 - **Repeated `find_path` Calls without Re-evaluation (Turns 172922-172929):** I repeatedly called `find_path` to the same target after it failed without adapting my strategy or re-evaluating the cause of failure. **Correction:** When a tool's output is unexpected, I must immediately adapt my strategy and re-evaluate the underlying cause of the failure.
 
 - **Critique - Redundant Documentation (Turn 174951):** Overwatch identified that my notepad contained a redundant 'Tile Mechanics Glossary' and that I created a redundant map marker for a picked-up item. **Correction:** I must keep my notepad focused on unique discoveries and rely on the game state as the source of truth for item collection. Immediate data management is paramount.
