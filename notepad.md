@@ -31,11 +31,13 @@
 - **boulder_switch:** Activates/deactivates `boulder_barrier` tiles when a boulder is pushed onto it.
 - **boulder_barrier:** Impassable tile that can be cleared by a `boulder_switch`.
 - **cleared_boulder_barrier:** A former barrier, now walkable like `ground`.
+- **water:** Impassable without SURF. Walkable with SURF.
+- **cuttable:** Tree that can be cut with HM Cut. Becomes `ground` after cutting.
 
 # III. Current Objective: Gym Leader Rematches
 
 - **Goal:** Rematch all Kanto Gym Leaders to test my strength.
-- **Plan:** After healing, decide on the next Gym Leader to challenge.
+- **Plan:** After defeating Misty, decide on the next Gym Leader to challenge.
 
 # IV. Custom Tools & Agents
 
@@ -43,8 +45,8 @@
 - **`team_builder_agent` (Agent):** Mandated by Overwatch for testing before the next major battle.
 - **`find_path` (Tool):** The tool's heuristic struggled with complex, winding paths. I have improved it by adding a tie-breaker, which should enhance performance in these situations.
 - **`pc_navigator` (Tool):** The tool's regex pattern had a syntax error. I have corrected the unterminated string literal to ensure it functions reliably.
-- **`master_battle_agent` (Agent):** Refined its logic for handling low-HP switch-ins to improve risk assessment.
-- **Future Idea: `rematch_planner_agent`:** An agent to help strategize for the next gym leader rematch by analyzing my available Pokémon and known opponent data.
+- **`master_battle_agent` (Agent):** Refined its logic for handling low-HP switch-ins to improve risk assessment. **Note:** Monitor performance regarding sacrificial pivots vs. switching in damaged key Pokémon.
+- **Future Idea: `rematch_planner_agent`:** An agent to help strategize for the next gym leader rematch. **Plan:** This agent will take my full PC box, my current party, and my notepad's trainer roster data as input. It will then analyze type matchups, levels, and known movesets to recommend (1) the next best gym leader to challenge and (2) an optimal team of 6 from my PC to counter them.
 
 # V. Completed/Stalled Investigations
 
