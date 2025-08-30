@@ -68,3 +68,6 @@
 - **boulder_barrier:** An impassable barrier linked to a boulder switch.
 - **boulder_switch:** A floor switch that is activated by pushing a boulder onto it.
 - **spinner_...:** Force movement tiles.
+
+# IX. Interactable Object Mechanics (Verified)
+- **trashcan:** An object that can be interacted with from an adjacent tile. In Vermilion Gym, some contain hidden switches for a puzzle. Checking a can with a switch and then checking an incorrect can will reset the puzzle.
