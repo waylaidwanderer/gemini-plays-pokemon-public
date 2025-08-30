@@ -3,7 +3,7 @@
 - **Dead End Area Mismatch (Seafoam B3F):** My previous assertion that Seafoam Islands B3F was a dead end was incorrect. The system reported 4 reachable exits. This was a critical hallucination. **Correction:** I must re-evaluate my understanding of B3F's layout and trust system feedback over my visual interpretation of the map. (Self-correction from Turn 170981).
 - **Notepad and Map Marker Update Priority (Turn 171001):** I attempted multiple `define_map_marker` and `find_path` calls before executing a planned `notepad_edit` overwrite. This is a direct violation of the core directive that notepad updates are the highest priority and must be performed immediately. **Correction:** All notepad updates must be performed immediately, prior to any other actions.
 - **Fly Menu Navigation Failure (Turn 171342-171352):** I repeatedly overshot the target Pokémon in the party menu and then manually scrolled through the Fly menu. **Correction:** I must use the `fly_menu_navigator` tool as intended and trust its output. The `get_next_pokemon_press` tool was deleted to make space for `fly_menu_navigator` and should not have been used. This also highlights a failure to immediately use a newly defined tool.
-- **Deferred Map Marker Creation (Turns 172822, 172872, 172881):** I cut trees but deferred defining map markers for them until a later turn (172829, 172877, 172882). **Correction:** Map markers must be defined immediately on the same turn the event occurs.
+- **Deferred Map Marker Creation (Turns 172822, 172872, 172881, 174891, 174927):** I have repeatedly cut trees but deferred defining map markers for them until a later turn. This is a critical violation of my core directives. **Correction:** Map markers for environmental changes must be defined immediately on the same turn the event occurs.
 - **Repeated `find_path` Calls without Re-evaluation (Turns 172922-172929):** I repeatedly called `find_path` to the same target after it failed without adapting my strategy or re-evaluating the cause of failure. **Correction:** When a tool's output is unexpected, I must immediately adapt my strategy and re-evaluate the underlying cause of the failure.
 - **Tool Refinement Failure (Turns 174066-174090, 174151-174157):** I repeatedly used manual navigation or retried a faulty tool after it failed, instead of fixing it immediately. This is a critical violation of my core directives. **Correction:** Faulty tools must be fixed immediately before any other gameplay action.
 
@@ -30,6 +30,13 @@
 - **Hidden Passages:** Impassable-looking walls can sometimes be walked through.
 - **Strength Mechanics:** Does not need to be reactivated per push. Player position can change depending on push direction.
 - **HM Field Move Usage:** Requires two 'A' presses (prompt + confirmation).
+- **Tile Mechanics Glossary:**
+  - `ground`: Standard walkable tile.
+  - `grass`: Walkable tile with wild encounters.
+  - `impassable`: Cannot be entered (walls, buildings, etc.).
+  - `cuttable`: A tree that can be cut with HM Cut. Becomes `ground` after being cut.
+  - `ledge`: Can only be jumped down from above (Y-1). Impassable from all other directions.
+  - `water`: Can only be crossed with HM Surf.
 
 ## C. Key Event & Puzzle Log
 
@@ -62,8 +69,10 @@
 # III. Future Development & Testing
 
 ## A. Agent & Tool Ideas
+- **Trivial Battle Automator:** A tool that combines the logic of `master_battle_agent` and `menu_navigator` for trivial wild encounters. Input would be opponent name/level, output would be the full button sequence to win in one turn (e.g., ["A", "Down", "A"]). This would streamline the repetitive battles like those in Diglett's Cave.
 
 ## B. Untested Assumptions Log
 - **Diglett's Cave Linearity:** The cave appears to be a single, linear path connecting Route 11 and Route 2.
 - **Single Exit Hypothesis:** The ladder at (6, 6) is likely the only exit from this part of the cave.
-- **Trivial Battle Automator:** A tool that combines the logic of `master_battle_agent` and `menu_navigator` for trivial wild encounters. Input would be opponent name/level, output would be the full button sequence to win in one turn (e.g., ["A", "Down", "A"]). This would streamline the repetitive battles like those in Diglett's Cave.
+- **Pewter City Museum:** The warp at (20, 6) leads to the Pewter Museum of Science.
+- **Route 3 Connection:** The eastern map connection from Pewter City leads to Route 3.
