@@ -11,7 +11,7 @@
 
 - **Poison vs. Bug:** Poison is now super-effective against Bug. Bug is no longer strong against Poison.
 
-# III. Future Development & Testing
+# ARCHIVED - Future Development & Testing
 
  
 
