@@ -11,17 +11,45 @@
 
 # II. Game & World Knowledge
 
-## A. Battle Mechanics & Type Effectiveness
+## A. Discovered Game Mechanics
+- **HM Usage:** Fainted Pokémon can still use field moves. HMs can be forgotten.
+- **Pikachu Movement:** Requires a two-step move (turn, then move) if not already facing Pikachu.
+- **PC Storage:** "BILL's PC" for Pokémon, "Gem's PC" for items.
+- **Spinner Tiles:** In Rocket Hideout, some spinners are required to progress.
+- **Silph Co. Elevator:** Requires selecting a floor then stepping on a warp pad.
+- **Ghost Identification:** Requires SILPH SCOPE in Pokémon Tower.
+- **Saffron City Access:** Requires giving a drink to a guard at a gatehouse.
+- **Safari Zone:** Timed event; composed of multiple non-contiguous map segments.
+- **Strength HM:** Can be taught by the Safari Zone Warden after finding his teeth.
+- **Surf HM:** Taught by a Fishing Guru in the Safari Zone Secret House.
+- **Flash HM:** Taught by Prof. Oak's Aide on Route 2 after catching 10 Pokémon.
+- **Fly HM:** Taught by a girl in the Route 16 Fly House.
+- **Fossil Revival:** A scientist in the Cinnabar Lab revives fossils. Must leave and return to collect the Pokémon.
+
+## B. Battle Mechanics & Type Effectiveness
 
 - **Anomalies & Hypotheses:**
   - **Night Shade Damage:** May be altered in this ROM hack.
   - **Hyper Beam Recharge:** May be conditional or inconsistent.
   - **Move Menu Cursor Reset:** May randomly reset to the top position.
-
-## B. Key Event & Puzzle Log
-
-### 1. Unsolved Puzzles
-- **Route 24 Cave:** Remains blocked after becoming Champion. My pathfinding tool confirms the northern landmass is isolated from the south.
+- **Verified Matchups:**
+  - Electric -> Poison/Flying (Super-effective)
+  - Fighting -> Ice (Super-effective)
+  - Fighting -> Normal (Super-effective)
+  - Fighting -> Rock (Super-effective)
+  - Flying is immune to Ground
+  - Ghost is immune to Ground
+  - Grass -> Ground (Super-effective)
+  - Grass -> Ground/Rock (Super-effective)
+  - Ground -> Electric (Super-effective)
+  - Ground -> Ghost (Super-effective)
+  - Ground -> Ground (Super-effective)
+  - Ground -> Psychic (Super-effective)
+  - Ground -> Rock/Ground (Super-effective)
+  - Ice -> Poison/Flying (Super-effective)
+  - Normal is immune to Ghost
+  - Psychic -> Poison (Super-effective)
+  - Rock -> Flying (Super-effective)
 
 ## C. Opponent Information
 
@@ -50,6 +78,7 @@
 ## B. Untested Assumptions Log
 - **Diglett's Cave Linearity:** The cave appears to be a single, linear path connecting Route 11 and Route 2.
 - **Single Exit Hypothesis:** The ladder at (6, 6) is likely the only exit from this part of the cave.
+- **Route 24 Cave Access:** The cave on Route 24 is currently unreachable. There may be a post-game event or an alternate route from another map that grants access.
 
 # IV. Archive - Solved Puzzles & Mysteries
 
@@ -57,9 +86,5 @@
 - **Cerulean City Post-Champion Events:** Misty rematch is triggered after solving the Trashed House backyard puzzle. Battle loop is broken by selecting 'NO' to the rematch prompt.
 - **Saffron Guard & Drink:** Gave a drink to the guard at the Route 5 gatehouse, which granted access to Saffron City.
 - **Snorlax & POKé FLUTE (Route 12):** The Snorlax at (11, 46) is no longer present. The path is clear.
-- **Cinnabar Lab Fossil Revival (OLD AMBER & DOME FOSSIL):** The scientist at (6, 3) in the Fossil Room revives fossils. After giving him a fossil, I had to leave and return later to receive the revived Pokémon (Aerodactyl). The Dome Fossil revival quest is complete, but the Kabuto itself is missing.
+- **Cinnabar Lab Fossil Revival (OLD AMBER & DOME FOSSIL):** The scientist at (6, 3) in the Fossil Room revives fossils. After giving him a fossil, I had to leave and return later to receive the revived Pokémon (Aerodactyl). The Dome Fossil revival quest is complete, and the Kabuto has been received.
 - **Pewter Museum of Science:** Received OLD AMBER from a Scientist at (16, 3).
-
-# V. Notepad Edit Test
-
-- TEST APPEND
