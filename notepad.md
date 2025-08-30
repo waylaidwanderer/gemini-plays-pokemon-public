@@ -22,6 +22,7 @@
 # III. Current Objective: Gym Leader Rematches
 
 - **Goal:** Rematch all Kanto Gym Leaders to test my strength, starting with Brock in Pewter City.
+- **Plan:** Use `team_builder_agent` to assemble a team for the Brock rematch.
 
 # IV. Custom Tools & Agents
 
