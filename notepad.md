@@ -85,4 +85,4 @@
 ## B. Untested Assumptions Log
 - **Snorlax & POKé FLUTE (Route 12):** I assume the POKé FLUTE will awaken the Snorlax blocking Route 12, based on mechanics from other games. **Test Plan:** After exiting Rock Tunnel, travel to Route 12, stand adjacent to the Snorlax, and use the POKé FLUTE from the item menu.
 
-- **Saffron Guard & Drink:** I assume a drink from the Celadon Dept. Store vending machine will appease the thirsty guard blocking the Saffron City gate. **Test Plan:** After acquiring a drink, travel to a Saffron gate and attempt to give it to the guard.
+- Saffron Guard & Drink (SOLVED): Gave a drink to the guard at the Route 5 gatehouse, which granted access to Saffron City. This confirms the hypothesis.
