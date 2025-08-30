@@ -60,3 +60,11 @@
 ## B. Untested Assumptions Log
 - **Diglett's Cave Linearity:** The cave appears to be a single, linear path connecting Route 11 and Route 2.
 - **Single Exit Hypothesis:** The ladder at (6, 6) is likely the only exit from this part of the cave.
+
+# V. Tile Mechanics Glossary
+
+- **ground:** Standard walkable tile.
+- **grass:** Walkable tile with wild Pokémon encounters.
+- **water:** Requires Surf HM to cross. Must be standing on an adjacent tile and facing the water to initiate.
+- **impassable:** Walls, trees, and other solid objects. Cannot be walked on.
+- **ledge:** A one-way drop. Can be jumped down from above, but not climbed up from below.
