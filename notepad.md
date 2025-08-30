@@ -66,3 +66,18 @@
   6. Enter the gym and challenge Lt. Surge.
 
 - **Failure to Trust Tools (Vermilion City, Turns ~177304-177307):** My `find_path` tool again correctly reported that no path existed to the Vermilion Gym. I again incorrectly assumed the tool was broken and spent turns debugging it. **Lesson:** I must trust my tools' outputs. The tool correctly identified that Vermilion City is segmented by water and requires Surf. I must verify my own assumptions about the map before debugging a tool.
+
+# VIII. Tile Mechanics & Traversal Rules (Verified)
+
+- **ground:** Standard walkable tile.
+- **grass:** Walkable tile with wild Pokémon encounters.
+- **water:** Impassable without Surf. Traversable with Surf.
+- **impassable:** Walls, counters, buildings. Cannot be entered.
+- **cuttable:** A tree that can be cut with HM Cut. Becomes `ground` after cutting. Respawn on map change.
+- **ledge:** Can be jumped down (from Y-1 to Y+2 in one move), but not climbed up. Impassable from below or sides.
+- **steps:** Allows movement between `ground` and `elevated_ground`.
+- **elevated_ground:** Walkable ground at a different elevation, only accessible via `steps` tiles.
+- **cleared_boulder_barrier:** A former barrier, now acts as `ground`.
+- **boulder_barrier:** An impassable barrier linked to a boulder switch.
+- **boulder_switch:** A floor switch that is activated by pushing a boulder onto it.
+- **spinner_...:** Force movement tiles.
