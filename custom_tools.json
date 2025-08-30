@@ -612,5 +612,31 @@
         "action_counter": 175342
       }
     ]
+  },
+  "move_selector_tool": {
+    "description": "Navigates the in-battle move selection menu to select a target move. Takes the target move name and the current screen text as input and outputs the necessary button presses.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "target_move": {
+          "type": "string"
+        },
+        "screen_text": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "target_move",
+        "screen_text"
+      ]
+    },
+    "python_script": "import json\nimport sys\n\nscreen_text = input_data['screen_text']\ntarget_move = input_data['target_move']\n\nlines = screen_text.strip().split('\\n')\npotential_moves_lines = lines[-4:]\n\nmoves = []\ncursor_index = -1\n\nfor i, line in enumerate(potential_moves_lines):\n    clean_line = line.strip()\n    is_selected = clean_line.startswith('→')\n    move_name = clean_line.replace('→', '').strip()\n    if is_selected:\n        cursor_index = i\n    moves.append(move_name)\n\nif cursor_index == -1 or not moves:\n    print(json.dumps([]))\n    sys.exit()\n\ntry:\n    target_index = moves.index(target_move)\nexcept ValueError:\n    print(json.dumps([]))\n    sys.exit()\n\ndelta = target_index - cursor_index\n\nbuttons = []\nif delta > 0:\n    buttons.extend(['Down'] * delta)\nelif delta < 0:\n    buttons.extend(['Up'] * abs(delta))\n\nbuttons.append('A')\n\nprint(json.dumps(buttons))",
+    "history": [
+      {
+        "commit_message": "feat: Create move_selector_tool to automate battle menu navigation. In response to an Overwatch critique about repeated manual input errors in battle, this tool parses the move list from the screen text to calculate the exact button presses required to select a specific move. This will eliminate errors and increase battle efficiency.",
+        "timestamp": "2025-08-30T12:06:20.763Z",
+        "action_counter": 176001
+      }
+    ]
   }
 }
