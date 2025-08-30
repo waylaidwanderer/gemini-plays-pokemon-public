@@ -13,11 +13,6 @@
 
 # III. Future Development & Testing
 
-## A. Agent & Tool Ideas
-- **Trivial Battle Automator:** A tool that combines the logic of `master_battle_agent` and `menu_navigator` for trivial wild encounters. Input would be opponent name/level, output would be the full button sequence to win in one turn (e.g., ["A", "Down", "A"]). This would streamline the repetitive battles like those in Diglett's Cave.
-- **Fly Automator:** A tool that takes a destination name as input and generates the full button sequence to open the party menu, select a Pokémon with Fly, and choose the destination from the map. This would automate the entire Fly travel process.
-- **PC Scroller Tool:** A tool to automate scrolling through PC boxes to find a specific Pokémon that is not on the current screen. This would improve the `pc_navigator`'s weakness.
-
 ## B. Untested Assumptions Log
 - **Diglett's Cave Linearity:** The cave appears to be a single, linear path connecting Route 11 and Route 2.
 - **Single Exit Hypothesis:** The ladder at (6, 6) is likely the only exit from this part of the cave.
@@ -33,11 +28,6 @@
 - **Tool Refinement Failure (Turns 174066-174090, 174151-174157):** I repeatedly used manual navigation or retried a faulty tool after it failed, instead of fixing it immediately. This is a critical violation of my core directives. **Correction:** Faulty tools must be fixed immediately before any other gameplay action.
 - **Critique - Redundant Documentation (Turn 174951):** Overwatch identified that my notepad contained a redundant 'Tile Mechanics Glossary' and that I created a redundant map marker for a picked-up item. **Correction:** I must keep my notepad focused on unique discoveries and rely on the game state as the source of truth for item collection. Immediate data management is paramount.
 - **Location Hallucination Loop (Turns ~175000-175030):** I was stuck in a severe hallucination loop, repeatedly believing I had left the Cinnabar Lab Fossil Room when the game state clearly showed I had not. **Correction:** I must make it an absolute priority to check the `validation_checks` block, specifically `current_map_id` and `current_position`, before every single action to ground my internal state in reality.
-
-## A. Agent & Tool Ideas
-- **Trivial Battle Automator:** A tool that combines the logic of `master_battle_agent` and `menu_navigator` for trivial wild encounters. Input would be opponent name/level, output would be the full button sequence to win in one turn (e.g., ["A", "Down", "A"]). This would streamline the repetitive battles like those in Diglett's Cave.
-- **Fly Automator:** A tool that takes a destination name as input and generates the full button sequence to open the party menu, select a Pokémon with Fly, and choose the destination from the map. This would automate the entire Fly travel process.
-- **PC Scroller Tool:** A tool to automate scrolling through PC boxes to find a specific Pokémon that is not on the current screen. This would improve the `pc_navigator`'s weakness.
 
 ## B. Untested Assumptions Log
 - **Diglett's Cave Linearity:** The cave appears to be a single, linear path connecting Route 11 and Route 2.
