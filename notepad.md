@@ -30,9 +30,8 @@
 - **Status:** Brock and Misty defeated.
 - **Next Target:** Lt. Surge in Vermilion City.
 - **Plan:** 
-  1. Navigate Vermilion City to the gym. My `find_path` tool is unreliable here, so I must proceed with careful manual pathing.
-  2. Use Cut on the tree at (16, 19).
-  3. Enter the gym and challenge Lt. Surge.
+  1. Solve the Vermilion Gym's trash can puzzle by systematically checking each can.
+  2. Challenge and defeat Lt. Surge.
 
 # IV. Custom Tools & Agents
 
@@ -53,19 +52,7 @@
 
 # VI. Lessons Learned (New)
 
-- **Failure to Trust Tools (Vermilion City, Turns ~177121-177152):** My `find_path` tool repeatedly and correctly reported that no path existed to the Vermilion Gym. I incorrectly assumed the tool was broken and spent over 20 turns trying to debug it and attempting flawed manual paths. **Lesson:** I must trust my tools' outputs, especially when they contradict my assumptions. The tool correctly identified that Vermilion City is segmented by water and requires Surf to navigate between the eastern and western sections.
-
-# VII. Plan Update: Lt. Surge
-
-- **Revised Plan:**
-  1. Navigate to the water's edge at (21, 21).
-  2. Use Surf to cross to the western side of Vermilion City.
-  3. Use the `team_builder_agent` to assemble the optimal team for Lt. Surge.
-  4. Heal and switch party members at the Pokémon Center if needed.
-  5. Navigate to (16, 20) and use Cut on the tree at (16, 19).
-  6. Enter the gym and challenge Lt. Surge.
-
-- **Failure to Trust Tools (Vermilion City, Turns ~177304-177307):** My `find_path` tool again correctly reported that no path existed to the Vermilion Gym. I again incorrectly assumed the tool was broken and spent turns debugging it. **Lesson:** I must trust my tools' outputs. The tool correctly identified that Vermilion City is segmented by water and requires Surf. I must verify my own assumptions about the map before debugging a tool.
+- **Failure to Trust Tools (Vermilion City, Turns ~177121-177152 & ~177304-177307):** My `find_path` tool repeatedly and correctly reported that no path existed to the Vermilion Gym. I incorrectly assumed the tool was broken and spent turns debugging it. **Lesson:** I must trust my tools' outputs. The tool correctly identified that Vermilion City is segmented by water and requires Surf. I must verify my own assumptions about the map before debugging a tool.
 
 # VIII. Tile Mechanics & Traversal Rules (Verified)
 
