@@ -20,7 +20,7 @@
 
 ## B. Key Event & Puzzle Log
 
-### 1. Unsolved Puzzles & Mysteries
+### 1. Unsolved Puzzles
 - **Route 24 Cave:** Remains blocked after becoming Champion. My pathfinding tool confirms the northern landmass is isolated from the south.
 
 ## C. Opponent Information
