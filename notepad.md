@@ -18,20 +18,7 @@
   - **Hyper Beam Recharge:** May be conditional or inconsistent.
   - **Move Menu Cursor Reset:** May randomly reset to the top position.
 
-## B. Tile Mechanics Glossary
-- **ground:** Standard walkable tile.
-- **impassable:** Walls, counters, objects. Cannot be entered.
-- **grass:** Tall grass for wild encounters. Also used for some special tiles like the PC.
-- **ledge:** One-way traversal downwards.
-- **cuttable:** Tree that can be cut with HM Cut.
-- **water:** Requires Surf to cross.
-- **steps:** Allows movement between different elevations ('ground' and 'elevated_ground').
-- **elevated_ground:** Walkable ground at a higher elevation.
-- **boulder_switch:** Activates/deactivates barriers when a boulder is pushed onto it.
-- **boulder_barrier:** Impassable barrier linked to a switch.
-- **cleared_boulder_barrier:** A former barrier, now walkable.
-
-## C. Key Event & Puzzle Log
+## B. Key Event & Puzzle Log
 
 ### 1. Major Events (Post-Champion)
 - **Route 24 Cave:** Remains blocked after becoming Champion.
@@ -50,7 +37,7 @@
 ### 4. Pewter Museum of Science
 - **OLD AMBER:** Received OLD AMBER from a Scientist at (16, 3). He asked me to take it to a POKéMON LAB to be examined for revival.
 
-## D. Opponent Information
+## C. Opponent Information
 - **Elite Four Lorelei:** Slowbro (Earthquake), Jynx (Bubblebeam), Gengar (Lv 59), Cloyster (Lv 55, Explosion).
 - **Elite Four Bruno:** Hitmonchan (Ice Punch, Thunder Punch), Onix (Explosion), Machamp (Earthquake).
 - **Elite Four Agatha:** Gengar (Hypnosis, Dream Eater).
@@ -59,16 +46,15 @@
 - **Kris (Seafoam Islands):** Snorlax (Earthquake, Body Sla m, REST), Gengar (Hypnosis, Dream Eater).
 - **Craig (Power Plant) (Defeated):** JOLTEON (Lv 55, DIG, THUNDERBOLT, PIN MISSILE, THUNDER WAVE), AERODACTYL (Lv 55, ROCK SLIDE), EXEGGUTOR (Lv 55, MEGA DRAIN, PSYCHIC), SNORLAX (Lv 55, AMNESIA, EARTHQUAKE, BODY SLAM, REST), CLOSTER (Lv 55, EXPLOSION), ARCANINE (Lv 55, FLAMETHROWER).
 
-## E. Wild Legendary Encounters
+## D. Wild Legendary Encounters
 - **Articuno (Seafoam Islands, Lv 50):** Captured.
 - **Zapdos (Power Plant, Lv 50):** AGILITY, THUNDERBOLT. (Fainted accidentally).
 
-# IV. Future Development & Testing
+# III. Future Development & Testing
 
 ## A. Agent & Tool Ideas
 - **Trivial Battle Automator:** A tool that combines the logic of `master_battle_agent` and `menu_navigator` for trivial wild encounters. Input would be opponent name/level, output would be the full button sequence to win in one turn (e.g., ["A", "Down", "A"]). This would streamline the repetitive battles like those in Diglett's Cave.
 - **Fly Automator:** A tool that takes a destination name as input and generates the full button sequence to open the party menu, select a Pokémon with Fly, and choose the destination from the map. This would automate the entire Fly travel process.
-- **PC Navigator:** A tool to automate withdrawing and depositing Pokémon from the PC.
 
 ## B. Untested Assumptions Log
 - **Diglett's Cave Linearity:** The cave appears to be a single, linear path connecting Route 11 and Route 2.
