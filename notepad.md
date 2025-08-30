@@ -11,19 +11,6 @@
 
 # II. Game & World Knowledge
 
-## C. Opponent Information
-
-### Elite Four
-- **Lorelei:** Slowbro (Earthquake), Jynx (Bubblebeam), Gengar (Lv 59), Cloyster (Lv 55, Explosion).
-- **Bruno:** Hitmonchan (Ice Punch, Thunder Punch), Onix (Explosion), Machamp (Earthquake).
-- **Agatha:** Gengar (Hypnosis, Dream Eater).
-- **Lance:** Dragonite (Lv 61, Slam, Thunder Wave, Wrap, Hyper Beam), Gyaros (Slam), Aerodactyl (Earthquake), Charizard (Earthquake, Flamethrower).
-
-### Other Trainers
-- **Misty (Rematch):** Seadra (Lv 64), Golduck (Lv 65, Psychic, Blizzard), Lapras (Lv 64, Hydro Pump, Thunder, Psychic, Blizzard), Vaporeon (Acid Armor), Starmie (Thunderbolt).
-- **Kris (Seafoam Islands):** Snorlax (Earthquake, Body Sla m, REST), Gengar (Hypnosis, Dream Eater).
-- **Craig (Power Plant) (Defated):** JOLTEON (Lv 55, DIG, THUNDERBOLT, PIN MISSILE, THUNDER WAVE), AERODACTYL (Lv 55, ROCK SLIDE), EXEGGUTOR (Lv 55, MEGA DRAIN, PSYCHIC), SNORLAX (Lv 55, AMNESIA, EARTHQUAKE, BODY SLAM, REST), CLOSTER (Lv 55, EXPLOSION), ARCANINE (Lv 55, FLAMETHROWER).
-
 ## D. Wild Legendary Encounters
 - **Articuno (Seafoam Islands, Lv 50):** Captured.
 - **Zapdos (Power Plant, Lv 50):** AGILITY, THUNDERBOLT. (Fainted accidentally).
@@ -50,19 +37,6 @@
 - **Tool Refinement Failure (Turns 174066-174090, 174151-174157):** I repeatedly used manual navigation or retried a faulty tool after it failed, instead of fixing it immediately. This is a critical violation of my core directives. **Correction:** Faulty tools must be fixed immediately before any other gameplay action.
 - **Critique - Redundant Documentation (Turn 174951):** Overwatch identified that my notepad contained a redundant 'Tile Mechanics Glossary' and that I created a redundant map marker for a picked-up item. **Correction:** I must keep my notepad focused on unique discoveries and rely on the game state as the source of truth for item collection. Immediate data management is paramount.
 - **Location Hallucination Loop (Turns ~175000-175030):** I was stuck in a severe hallucination loop, repeatedly believing I had left the Cinnabar Lab Fossil Room when the game state clearly showed I had not. **Correction:** I must make it an absolute priority to check the `validation_checks` block, specifically `current_map_id` and `current_position`, before every single action to ground my internal state in reality.
-
-## C. Opponent Information
-
-### Elite Four
-- **Lorelei:** Slowbro (Earthquake), Jynx (Bubblebeam), Gengar (Lv 59), Cloyster (Lv 55, Explosion).
-- **Bruno:** Hitmonchan (Ice Punch, Thunder Punch), Onix (Explosion), Machamp (Earthquake).
-- **Agatha:** Gengar (Hypnosis, Dream Eater).
-- **Lance:** Dragonite (Lv 61, Slam, Thunder Wave, Wrap, Hyper Beam), Gyaros (Slam), Aerodactyl (Earthquake), Charizard (Earthquake, Flamethrower).
-
-### Other Trainers
-- **Misty (Rematch):** Seadra (Lv 64), Golduck (Lv 65, Psychic, Blizzard), Lapras (Lv 64, Hydro Pump, Thunder, Psychic, Blizzard), Vaporeon (Acid Armor), Starmie (Thunderbolt).
-- **Kris (Seafoam Islands):** Snorlax (Earthquake, Body Sla m, REST), Gengar (Hypnosis, Dream Eater).
-- **Craig (Power Plant) (Defated):** JOLTEON (Lv 55, DIG, THUNDERBOLT, PIN MISSILE, THUNDER WAVE), AERODACTYL (Lv 55, ROCK SLIDE), EXEGGUTOR (Lv 55, MEGA DRAIN, PSYCHIC), SNORLAX (Lv 55, AMNESIA, EARTHQUAKE, BODY SLAM, REST), CLOSTER (Lv 55, EXPLOSION), ARCANINE (Lv 55, FLAMETHROWER).
 
 ## D. Wild Legendary Encounters
 - **Articuno (Seafoam Islands, Lv 50):** Captured.
