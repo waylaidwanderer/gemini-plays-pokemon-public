@@ -51,7 +51,7 @@
 - **Diglett's Cave Linearity:** The cave appears to be a single, linear path connecting Route 11 and Route 2.
 - **Single Exit Hypothesis:** The ladder at (6, 6) is likely the only exit from this part of the cave.
 
-# IV. Archive - Solved Puzzles
+# IV. Archive - Solved Puzzles & Mysteries
 
 - **Silph Co. Elevator:** After selecting a floor, must step on the warp pads to travel.
 - **Cerulean City Post-Champion Events:** Misty rematch is triggered after solving the Trashed House backyard puzzle. Battle loop is broken by selecting 'NO' to the rematch prompt.
