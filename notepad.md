@@ -37,3 +37,4 @@
 - **Brock's Location:** Hypothesis that Brock was in Mt. Moon is incorrect. Abandoned this investigation.
 - **Route 4 Horizontal Jumps:** Hypothesis that the Route 4 puzzle involved repeated horizontal ledge jumps was incorrect. The path required vertical jumps.
 - **Officer Jenny Path Block:** Hypothesis that defeating the Rocket Grunt would cause Officer Jenny to move from (29, 13) was incorrect. The path to Route 9 remains blocked.
+- **Confirmation Bias in Pewter Museum (Turns ~176550-176573):** I exhaustively checked every NPC and object in the western section of the museum, even after multiple attempts yielded no clues. I should have abandoned this hypothesis sooner and considered that the solution was elsewhere.
