@@ -32,6 +32,7 @@
 ### 3. Solved Assumptions
 - **Saffron Guard & Drink (SOLVED):** Gave a drink to the guard at the Route 5 gatehouse, which granted access to Saffron City. This confirms the hypothesis.
 - **Snorlax & POKé FLUTE (Route 12) (SOLVED):** The Snorlax at (11, 46) is no longer present. The path is clear. The POKé FLUTE was not needed.
+- **Cinnabar Lab Fossil Revival (SOLVED):** The scientist at (6, 3) in the Fossil Room can revive fossils. After giving him the OLD AMBER, I had to leave and return later to receive the revived Aerodactyl.
 
 ### 4. Pewter Museum of Science
 - **OLD AMBER:** Received OLD AMBER from a Scientist at (16, 3). He asked me to take it to a POKéMON LAB to be examined for revival.
@@ -54,6 +55,7 @@
 ## A. Agent & Tool Ideas
 - **Trivial Battle Automator:** A tool that combines the logic of `master_battle_agent` and `menu_navigator` for trivial wild encounters. Input would be opponent name/level, output would be the full button sequence to win in one turn (e.g., ["A", "Down", "A"]). This would streamline the repetitive battles like those in Diglett's Cave.
 - **Fly Automator:** A tool that takes a destination name as input and generates the full button sequence to open the party menu, select a Pokémon with Fly, and choose the destination from the map. This would automate the entire Fly travel process.
+- **Quest Tracker Agent:** An agent to track multi-step objectives, like the fossil revival quest. It would take a quest description as input and output the current step and location.
 
 ## B. Untested Assumptions Log
 - **Diglett's Cave Linearity:** The cave appears to be a single, linear path connecting Route 11 and Route 2.
