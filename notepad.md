@@ -13,15 +13,29 @@
 - **Poison vs. Bug:** Poison is now super-effective against Bug. Bug is no longer strong against Poison.
 - **Poison vs. Ground:** Poison is not very effective against Ground (Verified vs. Sandshrew in Mt. Moon).
 - **Poison vs. Poison/Flying:** Poison is not very effective against Poison/Flying dual-types (Verified vs. Zubat in Mt. Moon).
+- **Water vs. Rock/Water:** Water is not very effective against Rock/Water dual-types (Verified vs. Kabutops).
 
 ## World Mechanics & Rules
 
 - **Pikachu Step Swap:** Attempting to move onto a 'steps' tile occupied by Pikachu causes the player and Pikachu to swap positions.
+- **Pewter Museum Fee Trigger Tile (10, 5):** This tile triggers a fee prompt. Paying the fee alters the destination of the fake gym warp in Pewter City (15, 8), granting access to the museum's eastern section.
+- **Pewter Museum Fossil Interaction Soft-Lock:** Interacting with the Aerodactyl fossil at (3, 4) displays flavor text and then causes a soft-lock where movement is impossible. Pressing 'B' cancels the event and restores movement.
+
+## Tile Mechanics (Systematic Documentation)
+
+- **ground:** Standard walkable tile.
+- **impassable:** Walls, objects, cannot be entered.
+- **ledge:** Can be jumped down (Y-1 to Y+2), but not climbed up. Acts as a wall from below and sides.
+- **steps:** Allows movement between `ground` and `elevated_ground`.
+- **elevated_ground:** Walkable, but only accessible from `steps` or other `elevated_ground` tiles.
+- **boulder_switch:** Activates/deactivates `boulder_barrier` tiles when a boulder is pushed onto it.
+- **boulder_barrier:** Impassable tile that can be cleared by a `boulder_switch`.
+- **cleared_boulder_barrier:** A former barrier, now walkable like `ground`.
 
 # III. Current Objective: Gym Leader Rematches
 
-- **Goal:** Rematch all Kanto Gym Leaders to test my strength, starting with Brock in Pewter City.
-- **Plan:** Use `team_builder_agent` to assemble a team for the Brock rematch.
+- **Goal:** Rematch all Kanto Gym Leaders to test my strength.
+- **Plan:** After healing, decide on the next Gym Leader to challenge.
 
 # IV. Custom Tools & Agents
 
@@ -29,6 +43,8 @@
 - **`team_builder_agent` (Agent):** Mandated by Overwatch for testing before the next major battle.
 - **`find_path` (Tool):** The tool's heuristic struggled with complex, winding paths. I have improved it by adding a tie-breaker, which should enhance performance in these situations.
 - **`pc_navigator` (Tool):** The tool's regex pattern had a syntax error. I have corrected the unterminated string literal to ensure it functions reliably.
+- **`master_battle_agent` (Agent):** Refined its logic for handling low-HP switch-ins to improve risk assessment.
+- **Future Idea: `rematch_planner_agent`:** An agent to help strategize for the next gym leader rematch by analyzing my available Pokémon and known opponent data.
 
 # V. Completed/Stalled Investigations
 
@@ -41,14 +57,7 @@
 # VI. Self-Assessment (Turn 176677)
 
 - **Confirmation Bias in Pewter Museum (Turns ~176650-176676):** I fell into a confirmation bias loop, repeatedly selecting 'NO' at the fee prompt because it worked once, even though it stopped my progress. I failed to adapt my strategy for over 20 turns. **Lesson:** I must recognize and abandon failed hypotheses much faster and actively try to disprove my own assumptions.
-- **New World Mechanic:** Discovered a 'trigger tile' at (10, 5) in the Pewter Museum that initiates a dialogue prompt when stepped on. The outcome seems to depend on the choice made in the dialogue.
 
 # VII. Self-Assessment (Turn 176779)
 
 - **Agent Interpretation Failure (Turn 176727):** I incorrectly concluded my `puzzle_solver_agent`'s hypothesis was wrong. I interpreted its suggestion of a 'missed path' too narrowly as a 'hidden trigger tile'. My failure to find a tile disproved only my specific interpretation, not the agent's broader, high-level suggestion. **Lesson:** I must trust my agents' outputs and consider broader interpretations of their advice rather than fixating on a single, narrow possibility.
-
-## Pewter Museum Mechanics (Discovered)
-
-- **Fee Trigger Tile (10, 5):** This tile triggers a fee prompt. Paying the fee alters the destination of the fake gym warp in Pewter City (15, 8), granting access to the museum's eastern section.
-- **Fossil Interaction Soft-Lock:** Interacting with the Aerodactyl fossil at (3, 4) displays flavor text and then causes a soft-lock where movement is impossible. Pressing 'B' cancels the event and restores movement.
-- **Water vs. Rock/Water:** Water is not very effective against Rock/Water dual-types (Verified vs. Kabutops).
