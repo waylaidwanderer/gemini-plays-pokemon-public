@@ -64,3 +64,5 @@
   4. Heal and switch party members at the Pokémon Center if needed.
   5. Navigate to (16, 20) and use Cut on the tree at (16, 19).
   6. Enter the gym and challenge Lt. Surge.
+
+- **Failure to Trust Tools (Vermilion City, Turns ~177304-177307):** My `find_path` tool again correctly reported that no path existed to the Vermilion Gym. I again incorrectly assumed the tool was broken and spent turns debugging it. **Lesson:** I must trust my tools' outputs. The tool correctly identified that Vermilion City is segmented by water and requires Surf. I must verify my own assumptions about the map before debugging a tool.
