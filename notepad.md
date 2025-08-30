@@ -34,7 +34,7 @@
 
 - **`ledge_pathfinder` (Tool):** Successfully created and used to navigate the Route 4 ledge puzzle.
 - **`team_builder_agent` (Agent):** Mandated by Overwatch for testing before the next major battle.
-- **`find_path` (Tool):** The tool's heuristic struggles with complex, winding paths. I may need to improve it if this becomes a recurring issue.
+- **`find_path` (Tool):** The tool's heuristic struggled with complex, winding paths. I have improved it by adding a tie-breaker, which should enhance performance in these situations.
 
 # VI. Completed Investigations
 
