@@ -24,9 +24,9 @@
 - **Known Ladders:**
   - (6, 8): Leads to B1F (East).
   - (22, 18): Leads to B1F (East).
-  - (16, 28): Leads to B1F (West).
+  - (16, 28): Leads to B1F (West). This is the current target.
   - (26, 10): Leads to a dead end on B1F.
-- **Strategy:** The ground floor of B2F is split. I am in the eastern section, which is a dead end for ground-level progression. I must return to the elevated platform via the steps at (27, 16) and find a path to the western ground floor to reach the ladder at (16, 28).
+- **Current Puzzle:** I am on the eastern elevated platform of B2F. The western platform, which provides access to the western ground floor and the target ladder at (16, 28), is blocked by an impassable defeated Super Nerd at (13, 9). The ground floors are disconnected. The 'Pikachu Step Swap' mechanic at the western steps (4, 6) resulted in a loop. I need to find a way to bypass the Super Nerd or solve the puzzle from the eastern platform.
 
 # IV. Immediate Tasks & Reminders
 
