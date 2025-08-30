@@ -25,10 +25,6 @@
 - **Silph Co. Elevator (SOLVED):** After selecting a floor, must step on the warp pads to travel.
 - **Cerulean City Post-Champion Events:** Misty rematch is triggered after solving the Trashed House backyard puzzle. Battle loop is broken by selecting 'NO' to the rematch prompt.
 
-### 2. Seafoam Islands Puzzle Log
-- **Main Obstacle:** Strong water current on B4F blocked progress, solved by a boulder puzzle on B3F.
-- **B4F Linked Boulder Rotation:** Boulders at (5, 16) and (6, 16) are part of a linked rotation puzzle to change water flow.
-
 ### 3. Solved Assumptions
 - **Saffron Guard & Drink (SOLVED):** Gave a drink to the guard at the Route 5 gatehouse, which granted access to Saffron City. This confirms the hypothesis.
 - **Snorlax & POKé FLUTE (Route 12) (SOLVED):** The Snorlax at (11, 46) is no longer present. The path is clear. The POKé FLUTE was not needed.
