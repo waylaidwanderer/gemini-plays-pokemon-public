@@ -83,6 +83,5 @@
 # III. Future Development & Testing
 
 ## A. Agent & Tool Ideas
-- **Team Builder Agent:** An agent that could analyze my PC box Pokémon and a known opponent's roster to suggest an optimal team composition for major battles.
 
 ## B. Untested Assumptions Log
