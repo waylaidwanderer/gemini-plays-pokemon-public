@@ -171,3 +171,10 @@
 - **Snorlax & POKé FLUTE (Route 12):** The Snorlax at (11, 46) is no longer present. The path is clear.
 - **Cinnabar Lab Fossil Revival (OLD AMBER & DOME FOSSIL):** The scientist at (6, 3) in the Fossil Room revives fossils. After giving him a fossil, I had to leave and return later to receive the revived Pokémon (Aerodactyl). The Dome Fossil revival quest is complete, and the Kabuto has been received.
 - **Pewter Museum of Science:** Received OLD AMBER from a Scientist at (16, 3).
+
+- **Silph Co. Elevator:** After selecting a floor, must step on the warp pads to travel.
+- **Cerulean City Post-Champion Events:** Misty rematch is triggered after solving the Trashed House backyard puzzle. Battle loop is broken by selecting 'NO' to the rematch prompt.
+- **Saffron Guard & Drink:** Gave a drink to the guard at the Route 5 gatehouse, which granted access to Saffron City.
+- **Snorlax & POKé FLUTE (Route 12):** The Snorlax at (11, 46) is no longer present. The path is clear.
+- **Cinnabar Lab Fossil Revival (OLD AMBER & DOME FOSSIL):** The scientist at (6, 3) in the Fossil Room revives fossils. After giving him a fossil, I had to leave and return later to receive the revived Pokémon (Aerodactyl). The Dome Fossil revival quest is complete, and the Kabuto has been received.
+- **Pewter Museum of Science:** Received OLD AMBER from a Scientist at (16, 3).
