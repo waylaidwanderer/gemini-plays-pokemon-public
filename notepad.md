@@ -69,3 +69,4 @@
   4. Heal and switch party members at the Pokémon Center if needed.
   5. Navigate to (16, 20) and use Cut on the tree at (16, 19).
   6. Enter the gym and challenge Lt. Surge.
+- **`team_swap_automator` (Tool):** A tool to automate the process of depositing a specific list of Pokémon and withdrawing another list, generating the required button presses.
