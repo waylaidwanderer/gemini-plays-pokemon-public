@@ -664,29 +664,25 @@
       }
     ]
   },
-  "trivial_battle_automator": {
-    "description": "Automates trivial wild Pokémon battles by generating the full button sequence to select the most efficient one-hit KO move. Takes the party and enemy JSON as input and returns a list of button presses.",
+  "surf_automator": {
+    "description": "Generates the button sequence to open the menu, select a Pokémon with Surf, and use the move. Assumes the player is in the correct position and facing the water.",
     "input_schema": {
       "type": "object",
       "properties": {
-        "player_party_json": {
-          "type": "string"
-        },
-        "enemy_pokemon_json": {
+        "party_menu_text": {
           "type": "string"
         }
       },
       "required": [
-        "player_party_json",
-        "enemy_pokemon_json"
+        "party_menu_text"
       ]
     },
-    "python_script": "import json\n\ndef get_trivial_battle_sequence(player_party_json, enemy_pokemon_json):\n    player_party = json.loads(player_party_json)\n    enemy_pokemon = json.loads(enemy_pokemon_json)\n\n    active_pokemon = player_party[0]\n    opponent = enemy_pokemon[0]\n\n    if active_pokemon['level'] - opponent['level'] < 20:\n        print(json.dumps({'error': 'Level difference not significant enough for automation.'}))\n        return\n\n    # Find the best non-recoil STAB move\n    best_move = None\n    move_priority = ['BODY SLAM', 'STRENGTH', 'DOUBLE-EDGE'] # Prioritize non-recoil\n    for move_name in move_priority:\n        for move in active_pokemon['moves']:\n            if move['name'] == move_name:\n                best_move = move\n                break\n        if best_move:\n            break\n\n    if not best_move:\n        # Fallback to the first move if no priority moves are found\n        best_move = active_pokemon['moves'][0]\n\n    # Calculate menu navigation\n    move_index = -1\n    for i, move in enumerate(active_pokemon['moves']):\n        if move['name'] == best_move['name']:\n            move_index = i\n            break\n\n    if move_index == -1:\n        print(json.dumps({'error': 'Could not find the selected move in the active Pokémon\\'s moveset.'}))\n        return\n\n    # Generate button sequence\n    # 1. Select FIGHT\n    # 2. Navigate to move\n    # 3. Select move\n    buttons = ['A'] # Select FIGHT\n    for _ in range(move_index):\n        buttons.append('Down') # Assuming a vertical menu layout\n    buttons.append('A') # Select move\n\n    print(json.dumps({'buttons': buttons}))\n\n# Get input from the system\nplayer_party_str = input_data['player_party_json']\nenemy_pokemon_str = input_data['enemy_pokemon_json']\n\nget_trivial_battle_sequence(player_party_str, enemy_pokemon_str)\n",
+    "python_script": "import json\nimport re\n\nparty_menu_text = input_data['party_menu_text']\n\n# Find the Pokémon that knows Surf\ntarget_pokemon = None\nparty_lines = party_menu_text.strip().split('\\n')\nfor line in party_lines:\n    if 'SURF' in line:\n        match = re.search(r'([A-Z]+)', line)\n        if match:\n            target_pokemon = match.group(1)\n            break\n\nif not target_pokemon:\n    print(json.dumps([]))\n    exit()\n\n# Use menu_navigator logic to get to the Pokémon\nlines = party_menu_text.strip().split('\\n')\ncursor_line = -1\nitem_lines = []\nfor i, line in enumerate(lines):\n    cleaned_line = re.sub(r'LV\\\\s*\\\\d+|\\\\d+/\\\\d+', '', line).strip()\n    if '→' in line:\n        cursor_line = len(item_lines)\n        cleaned_line = cleaned_line.replace('→', '').strip()\n    if re.match(r'^[A-Z]', cleaned_line):\n        item_lines.append(cleaned_line.split()[0])\n\nif cursor_line == -1 or not item_lines:\n    print(json.dumps([]))\n    exit()\n\ntry:\n    target_index = item_lines.index(target_pokemon)\nexcept ValueError:\n    print(json.dumps([]))\n    exit()\n\ndiff = target_index - cursor_line\nbuttons = []\nif diff > 0:\n    buttons.extend(['Down'] * diff)\nelif diff < 0:\n    buttons.extend(['Up'] * abs(diff))\n\n# Sequence: Open Menu -> Select Pokemon -> Select Surf\nfull_sequence = ['Start', 'A'] + buttons + ['A', 'A']\nprint(json.dumps(full_sequence))",
     "history": [
       {
-        "commit_message": "feat: Create trivial_battle_automator tool. In response to a self-assessment identifying highly repetitive manual inputs for trivial wild battles, this tool automates the entire process. It identifies the most efficient, non-recoil STAB move and generates the full button sequence to select it, streamlining gameplay and reducing tedious inputs.",
-        "timestamp": "2025-08-30T04:21:50.097Z",
-        "action_counter": 174932
+        "commit_message": "feat: Create surf_automator tool to streamline HM usage. This tool automates the repetitive menu navigation required to use Surf, addressing a recurring point of failure and inefficiency. It identifies a Pokémon with Surf in the party and generates the full button sequence to use the move.",
+        "timestamp": "2025-08-30T05:42:00.939Z",
+        "action_counter": 175139
       }
     ]
   }

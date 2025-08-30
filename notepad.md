@@ -68,3 +68,4 @@
 - **water:** Requires Surf HM to cross. Must be standing on an adjacent tile and facing the water to initiate.
 - **impassable:** Walls, trees, and other solid objects. Cannot be walked on.
 - **ledge:** A one-way drop. Can be jumped down from above, but not climbed up from below.
+- **Route 24 Cave (Post-Champion):** The cave entrance at (5, 4) on Route 24 remains blocked and impassable even after becoming the Champion.
