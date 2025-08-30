@@ -20,28 +20,27 @@
 
 ## B. Key Event & Puzzle Log
 
-### 1. Major Events (Post-Champion)
+### 1. Unsolved Puzzles & Mysteries
 - **Route 24 Cave:** Remains blocked after becoming Champion.
-- **Silph Co. Elevator (SOLVED):** After selecting a floor, must step on the warp pads to travel.
-- **Cerulean City Post-Champion Events:** Misty rematch is triggered after solving the Trashed House backyard puzzle. Battle loop is broken by selecting 'NO' to the rematch prompt.
-
-### 2. Solved Assumptions
-- **Saffron Guard & Drink (SOLVED):** Gave a drink to the guard at the Route 5 gatehouse, which granted access to Saffron City. This confirms the hypothesis.
-- **Snorlax & POKé FLUTE (Route 12) (SOLVED):** The Snorlax at (11, 46) is no longer present. The path is clear. The POKé FLUTE was not needed.
-- **Cinnabar Lab Fossil Revival (SOLVED):** The scientist at (6, 3) in the Fossil Room can revive fossils. After giving him the OLD AMBER, I had to leave and return later to receive the revived Aerodactyl.
-- **DOME FOSSIL Revival (SOLVED):** The process was identical to the OLD AMBER revival: gave the fossil to the scientist, left the room, and re-entered to receive the Pokémon (Kabuto).
-
-### 3. Unsolved Puzzles & Mysteries
 - **The Missing Kabuto:** The scientist in the Cinnabar Lab Fossil Room went through the dialogue of reviving the DOME FOSSIL into a KABUTO and giving it to me. However, the Pokémon never appeared in my party or PC. The game state confirms it is not present. This could be a bug or an unresolved part of a quest.
 
-### 4. Pewter Museum of Science
-- **OLD AMBER:** Received OLD AMBER from a Scientist at (16, 3). He asked me to take it to a POKéMON LAB to be examined for revival.
+### 2. Solved Puzzles
+- **Silph Co. Elevator:** After selecting a floor, must step on the warp pads to travel.
+- **Cerulean City Post-Champion Events:** Misty rematch is triggered after solving the Trashed House backyard puzzle. Battle loop is broken by selecting 'NO' to the rematch prompt.
+- **Saffron Guard & Drink:** Gave a drink to the guard at the Route 5 gatehouse, which granted access to Saffron City.
+- **Snorlax & POKé FLUTE (Route 12):** The Snorlax at (11, 46) is no longer present. The path is clear.
+- **Cinnabar Lab Fossil Revival (OLD AMBER & DOME FOSSIL):** The scientist at (6, 3) in the Fossil Room revives fossils. After giving him a fossil, I had to leave and return later to receive the revived Pokémon (Aerodactyl, Kabuto - though Kabuto vanished).
+- **Pewter Museum of Science:** Received OLD AMBER from a Scientist at (16, 3).
 
 ## C. Opponent Information
-- **Elite Four Lorelei:** Slowbro (Earthquake), Jynx (Bubblebeam), Gengar (Lv 59), Cloyster (Lv 55, Explosion).
-- **Elite Four Bruno:** Hitmonchan (Ice Punch, Thunder Punch), Onix (Explosion), Machamp (Earthquake).
-- **Elite Four Agatha:** Gengar (Hypnosis, Dream Eater).
-- **Elite Four Lance:** Dragonite (Lv 61, Slam, Thunder Wave, Wrap, Hyper Beam), Gyaros (Slam), Aerodactyl (Earthquake), Charizard (Earthquake, Flamethrower).
+
+### Elite Four
+- **Lorelei:** Slowbro (Earthquake), Jynx (Bubblebeam), Gengar (Lv 59), Cloyster (Lv 55, Explosion).
+- **Bruno:** Hitmonchan (Ice Punch, Thunder Punch), Onix (Explosion), Machamp (Earthquake).
+- **Agatha:** Gengar (Hypnosis, Dream Eater).
+- **Lance:** Dragonite (Lv 61, Slam, Thunder Wave, Wrap, Hyper Beam), Gyaros (Slam), Aerodactyl (Earthquake), Charizard (Earthquake, Flamethrower).
+
+### Other Trainers
 - **Misty (Rematch):** Seadra (Lv 64), Golduck (Lv 65, Psychic, Blizzard), Lapras (Lv 64, Hydro Pump, Thunder, Psychic, Blizzard), Vaporeon (Acid Armor), Starmie (Thunderbolt).
 - **Kris (Seafoam Islands):** Snorlax (Earthquake, Body Sla m, REST), Gengar (Hypnosis, Dream Eater).
 - **Craig (Power Plant) (Defeated):** JOLTEON (Lv 55, DIG, THUNDERBOLT, PIN MISSILE, THUNDER WAVE), AERODACTYL (Lv 55, ROCK SLIDE), EXEGGUTOR (Lv 55, MEGA DRAIN, PSYCHIC), SNORLAX (Lv 55, AMNESIA, EARTHQUAKE, BODY SLAM, REST), CLOSTER (Lv 55, EXPLOSION), ARCANINE (Lv 55, FLAMETHROWER).
