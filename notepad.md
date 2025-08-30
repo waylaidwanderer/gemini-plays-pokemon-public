@@ -49,12 +49,6 @@
 - **Articuno (Seafoam Islands, Lv 50):** Captured.
 - **Zapdos (Power Plant, Lv 50):** AGILITY, THUNDERBOLT. (Fainted accidentally).
 
-# III. Tile Mechanics Glossary
-
-- **ground:** Standard traversable tile.
-- **impassable:** Cannot be entered. Walls, counters, etc.
-- **warp:** Triggers a transition to a new location.
-
 # IV. Future Development & Testing
 
 ## A. Agent & Tool Ideas
