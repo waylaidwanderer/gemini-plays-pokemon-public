@@ -66,3 +66,4 @@
 ## B. Untested Assumptions Log
 - **Diglett's Cave Linearity:** The cave appears to be a single, linear path connecting Route 11 and Route 2.
 - **Single Exit Hypothesis:** The ladder at (6, 6) is likely the only exit from this part of the cave.
+- **Trivial Battle Automator:** A tool that combines the logic of `master_battle_agent` and `menu_navigator` for trivial wild encounters. Input would be opponent name/level, output would be the full button sequence to win in one turn (e.g., ["A", "Down", "A"]). This would streamline the repetitive battles like those in Diglett's Cave.
