@@ -31,28 +31,7 @@
 - **Strength Mechanics:** Does not need to be reactivated per push. Player position can change depending on push direction.
 - **HM Field Move Usage:** Requires two 'A' presses (prompt + confirmation).
 
-## C. Tile Mechanics Glossary
-- **ground:** Standard traversable tile.
-- **impassable:** Wall or obstacle. Cannot be entered.
-- **cuttable:** Tree that can be cut. Becomes ground after cutting.
-- **ledge:** Can be jumped down, but not up. Treat as impassable from below or sides.
-- **grass:** Tall grass with wild encounters.
-- **water:** Requires Surf to cross.
-- **steps:** Allows movement between different elevations (ground and elevated_ground).
-- **elevated_ground:** Walkable ground at a higher elevation, accessible only via steps.
-- **boulder_switch:** A floor switch activated by a boulder.
-- **boulder_barrier:** A barrier that is removed when a corresponding boulder_switch is activated.
-- **cleared_boulder_barrier:** A former barrier, now walkable ground.
-- **spinner_up/down/left/right:** Tiles that force movement in a specific direction.
-- **ladder_up/down:** Warps that lead to a different floor.
-- **hole:** A warp tile that drops the player to the floor below.
-- **teleport:** An instant warp tile within the same logical location (e.g., inside a building).
-- **closed_gate:** An impassable gate.
-- **open_gate:** A previously closed gate that is now open and acts as ground.
-- **gate_offscreen:** A gate whose state is unknown. Treated as potentially open for pathfinding.
-- **Defeated Trainer Obstacle:** In some areas (e.g., Viridian Gym, Victory Road), defeated trainers become impassable obstacles.
-
-## D. Key Event & Puzzle Log
+## C. Key Event & Puzzle Log
 
 ### 1. Major Events (Post-Champion)
 - **Route 24 Cave:** Remains blocked after becoming Champion.
@@ -67,7 +46,7 @@
 - **Saffron Guard & Drink (SOLVED):** Gave a drink to the guard at the Route 5 gatehouse, which granted access to Saffron City. This confirms the hypothesis.
 - **Snorlax & POKé FLUTE (Route 12) (SOLVED):** The Snorlax at (11, 46) is no longer present. The path is clear. The POKé FLUTE was not needed.
 
-## E. Opponent Information
+## D. Opponent Information
 - **Elite Four Lorelei:** Slowbro (Earthquake), Jynx (Bubblebeam), Gengar (Lv 59), Cloyster (Lv 55, Explosion).
 - **Elite Four Bruno:** Hitmonchan (Ice Punch, Thunder Punch), Onix (Explosion), Machamp (Earthquake).
 - **Elite Four Agatha:** Gengar (Hypnosis, Dream Eater).
@@ -76,7 +55,7 @@
 - **Kris (Seafoam Islands):** Snorlax (Earthquake, Body Slam, REST), Gengar (Hypnosis, Dream Eater).
 - **Craig (Power Plant) (Defeated):** JOLTEON (Lv 55, DIG, THUNDERBOLT, PIN MISSILE, THUNDER WAVE), AERODACTYL (Lv 55, ROCK SLIDE), EXEGGUTOR (Lv 55, MEGA DRAIN, PSYCHIC), SNORLAX (Lv 55, AMNESIA, EARTHQUAKE, BODY SLAM, REST), CLOSTER (Lv 55, EXPLOSION), ARCANINE (Lv 55, FLAMETHROWER).
 
-## F. Wild Legendary Encounters
+## E. Wild Legendary Encounters
 - **Articuno (Seafoam Islands, Lv 50):** Captured.
 - **Zapdos (Power Plant, Lv 50):** AGILITY, THUNDERBOLT. (Fainted accidentally).
 
@@ -85,3 +64,5 @@
 ## A. Agent & Tool Ideas
 
 ## B. Untested Assumptions Log
+- **Diglett's Cave Linearity:** The cave appears to be a single, linear path connecting Route 11 and Route 2.
+- **Single Exit Hypothesis:** The ladder at (6, 6) is likely the only exit from this part of the cave.
