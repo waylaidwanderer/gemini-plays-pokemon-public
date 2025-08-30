@@ -547,77 +547,6 @@
       }
     ]
   },
-  "menu_navigator": {
-    "description": "Calculates the directional button presses to navigate from a current cursor position to a target item in a list-based menu, based on the provided screen text. This refined version handles multi-page menus by scrolling and searching across visible items, returning a sequence of 'Down' or 'Up' presses, and an 'A' press to select the item.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "menu_text": {
-          "type": "string"
-        },
-        "target_item": {
-          "type": "string"
-        }
-      },
-      "required": [
-        "menu_text",
-        "target_item"
-      ]
-    },
-    "python_script": "import json\nimport re\n\ndef solve():\n    input_data = globals().get('input_data', {})\n    menu_text = input_data.get('menu_text', '')\n    target_item = input_data.get('target_item', '')\n\n    lines = menu_text.strip().split('\\n')\n    \n    menu_items = []\n    cursor_pos = -1\n\n    for i, line in enumerate(lines):\n        cleaned_line = line.strip()\n        \n        is_cursor = cleaned_line.startswith('→')\n        item_name = re.sub(r'^[→\\s]+', '', cleaned_line)\n        \n        # More robustly check if it's a menu item\n        # This handles move lists, pokemon lists, and item lists better\n        # It looks for lines that are primarily uppercase words\n        if is_cursor or (re.match(r'^[A-Z][A-Z\\s\\-]+', item_name)):\n            # Clean up common additions like PP or levels\n            item_name_cleaned = re.split(r'\\s+(LV|\\d+/\\d+|x\\s*\\d+)', item_name)[0].strip()\n            if len(item_name_cleaned) > 1 and item_name_cleaned not in ['TYPE/']:\n                menu_items.append(item_name_cleaned)\n                if is_cursor:\n                    cursor_pos = len(menu_items) - 1\n\n    target_pos = -1\n    try:\n        target_pos = menu_items.index(target_item)\n    except ValueError:\n        pass\n\n    buttons = []\n    if cursor_pos != -1 and target_pos != -1:\n        diff = target_pos - cursor_pos\n        if diff > 0:\n            buttons.extend(['Down'] * diff)\n        elif diff < 0:\n            buttons.extend(['Up'] * abs(diff))\n        buttons.append('A')\n    else:\n        # Fallback if parsing fails or item not visible: scroll down\n        buttons.extend(['Down', 'Down', 'Down', 'Down'])\n\n    print(json.dumps(buttons))\n\nsolve()\n",
-    "history": [
-      {
-        "commit_message": "feat: Create menu_navigator tool. This replaces the fundamentally flawed `hm_automator`. Instead of hardcoding menu paths, it dynamically calculates the required Up/Down presses based on the current menu text and a target item. This is a more robust and flexible solution for all future menu navigation tasks.",
-        "timestamp": "2025-08-26T23:52:57.102Z",
-        "action_counter": 168109
-      },
-      {
-        "commit_message": "fix: Correct tool output format for autopress. The tool was outputting a JSON object `{\"buttons\": [...]}` instead of a raw JSON array `[...]`, causing autopress to fail. This commit corrects the final print statement to output the required format.",
-        "timestamp": "2025-08-26T23:55:42.415Z",
-        "action_counter": 168115
-      },
-      {
-        "commit_message": "feat: Refine menu_navigator for multi-page battle item menus. This update improves the `menu_navigator` tool to correctly parse item lists in battle, including those spanning multiple pages. It now accurately identifies the cursor position, extracts visible items, and generates appropriate 'Up'/'Down' presses to scroll until the target item (like MASTER BALL) is found, followed by an 'A' press for selection. This addresses the critical issue where the tool previously failed to navigate item menus, forcing manual scrolling.",
-        "timestamp": "2025-08-29T01:45:57.087Z",
-        "action_counter": 170706
-      },
-      {
-        "commit_message": "fix: Refactor `menu_navigator` for robust Pokémon selection menu parsing. The previous script was convoluted and prone to errors in identifying the cursor and target Pokémon, leading to repeated failures. This refactored version simplifies the parsing logic to accurately extract Pokémon names and cursor position from the screen text, ensuring correct 'Up'/'Down' presses for navigation within the Pokémon selection menu. This addresses the critical and recurring issue of `menu_navigator` failing during battle switches.",
-        "timestamp": "2025-08-29T14:19:57.106Z",
-        "action_counter": 173443
-      },
-      {
-        "commit_message": "fix: Refactor `menu_navigator` for robust Pokémon selection menu parsing. The previous script was convoluted and prone to errors in identifying the cursor and target Pokémon, leading to repeated failures. This refactored version simplifies the parsing logic to accurately extract Pokémon names and cursor position from the screen text, ensuring correct 'Up'/'Down' presses for navigation within the Pokémon selection menu. This addresses the critical and recurring issue of `menu_navigator` failing during battle switches.",
-        "timestamp": "2025-08-29T15:21:40.422Z",
-        "action_counter": 173633
-      },
-      {
-        "commit_message": "refactor: Improve menu parsing robustness. This commit refactors the menu parsing logic to be more resilient to different menu formats. It now uses more flexible regex to identify the cursor and menu items, stripping out common elements like levels, HP, and PP. It also includes a fallback to scroll down if the target item is not found on the current screen. This addresses recurring execution issues where the tool would fail on specific menu layouts.",
-        "timestamp": "2025-08-29T17:07:00.421Z",
-        "action_counter": 173805
-      },
-      {
-        "commit_message": "fix: Overhaul menu parsing for robustness. The tool was repeatedly failing to parse the Pokémon selection menu, especially with fainted Pokémon. This commit completely refactors the parsing logic to be more resilient. It now uses more flexible regex to identify the cursor and correctly strips extraneous text (levels, HP, status) to reliably extract Pokémon names. This addresses the critical Overwatch failure and should prevent future menu navigation errors.",
-        "timestamp": "2025-08-29T20:26:28.115Z",
-        "action_counter": 174101
-      },
-      {
-        "commit_message": "fix: Add fallback scrolling for multi-page item menus. The tool was failing when the target item was not on the currently visible screen. This commit adds a fallback mechanism: if the target item is not found in the parsed list, the tool will now output a sequence of 'Down' presses to scroll to the next page. This addresses a critical failure pointed out by Overwatch and makes the tool more robust for navigating long inventories.",
-        "timestamp": "2025-08-29T20:29:40.921Z",
-        "action_counter": 174109
-      },
-      {
-        "commit_message": "fix: Handle multi-line item entries in menus. The tool was failing because it expected item names and their quantities (e.g., 'ULTRA BALL' and 'x 1') to be on the same line. This commit introduces a pre-processing step that combines these multi-line entries into a single line before parsing, allowing the existing regex to work correctly. This addresses a critical failure during the Zapdos battle and makes the tool robust for item menu navigation.",
-        "timestamp": "2025-08-29T20:34:14.076Z",
-        "action_counter": 174118
-      },
-      {
-        "commit_message": "fix: Refactor menu parsing for move selection. The tool was failing to generate directional presses for move selection because its parsing logic was too simplistic and did not correctly identify the list of moves from the screen text. This commit introduces more robust parsing to correctly extract the list of available moves, identify the cursor and target positions, and generate the necessary 'Up'/'Down' presses. This addresses the critical failure where the tool would only press 'A', selecting the wrong move.",
-        "timestamp": "2025-08-29T22:46:38.357Z",
-        "action_counter": 174326
-      }
-    ]
-  },
   "pc_navigator": {
     "description": "Navigates a PC Pokémon list to select a target Pokémon for withdrawal or deposit. Assumes you are already in the correct list menu.",
     "input_schema": {
@@ -635,7 +564,7 @@
         "screen_text"
       ]
     },
-    "python_script": "import json\nimport re\n\ndef navigate_pokemon_list(target_pokemon, screen_text):\n    lines = screen_text.strip().split('\\n')\n    \n    pokemon_list = []\n    cursor_pos = -1\n    \n    for i, line in enumerate(lines):\n        if '→' in line:\n            cursor_pos = len(pokemon_list)\n            line = line.replace('→', '').strip()\n        \n        # Clean up the line to extract just the name\n        potential_name = re.sub(r'LV\\s*\\d+', '', line).strip()\n        # A simple check to filter out menu options and empty lines\n        if re.match(r'^[A-Z\\'\\s\\.]+$', potential_name) and len(potential_name) > 2 and potential_name not in [\"WITHDRAW PKMN\", \"DEPOSIT PKMN\", \"RELEASE PKMN\", \"CHANGE BOX\", \"PRINT BOX\", \"SEE YA!\", \"STATS\", \"CANCEL\"]:\n            pokemon_list.append(potential_name)\n\n    if not pokemon_list:\n        print(json.dumps({\"error\": \"Could not parse Pokémon list.\"}))\n        return\n\n    try:\n        target_pos = pokemon_list.index(target_pokemon.upper())\n    except ValueError:\n        # If target not found, maybe it's on the next page. Scroll down.\n        print(json.dumps([\"Down\", \"Down\", \"Down\"]))\n        return\n        \n    if cursor_pos == -1:\n        print(json.dumps({\"error\": \"Could not find cursor.\"}))\n        return\n\n    moves = []\n    diff = target_pos - cursor_pos\n    if diff > 0:\n        moves.extend([\"Down\"] * diff)\n    elif diff < 0:\n        moves.extend([\"Up\"] * abs(diff))\n    \n    moves.append(\"A\") # Select the pokemon\n    moves.append(\"A\") # Confirm the action (Withdraw/Deposit)\n    print(json.dumps(moves))\n\ntry:\n    target_pokemon = input_data['target_pokemon']\n    screen_text = input_data['screen_text']\n    navigate_pokemon_list(target_pokemon, screen_text)\nexcept Exception as e:\n    print(json.dumps({\"error\": str(e)}))\n",
+    "python_script": "import json\nimport re\n\ndef navigate_pokemon_list(target_pokemon, screen_text):\n    lines = screen_text.strip().split('\\n')\n    pokemon_list = []\n    cursor_pos = -1\n    for i, line in enumerate(lines):\n        if '→' in line:\n            cursor_pos = len(pokemon_list)\n            line = line.replace('→', '').strip()\n        potential_name = re.sub(r'LV\\\\s*\\\\d+', '', line).strip()\n        if re.match(r'^[A-Z\\\\\\'\\\\s\\\\.]+$', potential_name) and len(potential_name) > 2 and potential_name not in [\"WITHDRAW PKMN\", \"DEPOSIT PKMN\", \"RELEASE PKMN\", \"CHANGE BOX\", \"PRINT BOX\", \"SEE YA!\", \"STATS\", \"CANCEL\"]:\n            pokemon_list.append(potential_name)\n    if not pokemon_list:\n        print(json.dumps({\"error\": \"Could not parse Pokémon list.\"}))\n        return\n    try:\n        target_pos = pokemon_list.index(target_pokemon.upper())\n    except ValueError:\n        print(json.dumps([\"Down\", \"Down\", \"Down\"]))\n        return\n    if cursor_pos == -1:\n        print(json.dumps({\"error\": \"Could not find cursor.\"}))\n        return\n    moves = []\n    diff = target_pos - cursor_pos\n    if diff > 0:\n        moves.extend([\"Down\"] * diff)\n    elif diff < 0:\n        moves.extend([\"Up\"] * abs(diff))\n    moves.append(\"A\")\n    moves.append(\"A\")\n    print(json.dumps(moves))\n\ntry:\n    target_pokemon = input_data['target_pokemon']\n    screen_text = input_data['screen_text']\n    navigate_pokemon_list(target_pokemon, screen_text)\nexcept Exception as e:\n    print(json.dumps({\"error\": str(e)}))\n",
     "history": [
       {
         "commit_message": "feat: Create pc_navigator tool to automate PC interactions. This tool parses the Pokémon list from the PC screen text to calculate the necessary button presses to select a specific Pokémon. This addresses the tedious and error-prone manual navigation I have been performing, streamlining party management.",
@@ -651,6 +580,16 @@
         "commit_message": "feat: Create pc_navigator tool to automate PC interactions. This tool parses the Pokémon list from the PC screen text to calculate the necessary button presses to select a specific Pokémon. This addresses the tedious and error-prone manual navigation I have been performing, streamlining party management.",
         "timestamp": "2025-08-30T06:30:24.797Z",
         "action_counter": 175252
+      },
+      {
+        "commit_message": "feat: Create pc_navigator tool to automate PC interactions. This tool parses the Pokémon list from the PC screen text to calculate the necessary button presses to select a specific Pokémon. This addresses the tedious and error-prone manual navigation I have been performing, streamlining party management.",
+        "timestamp": "2025-08-30T06:31:16.364Z",
+        "action_counter": 175253
+      },
+      {
+        "commit_message": "feat: Create pc_navigator tool to automate PC interactions. This tool parses the Pokémon list from the PC screen text to calculate the necessary button presses to select a specific Pokémon. This addresses the tedious and error-prone manual navigation I have been performing, streamlining party management.",
+        "timestamp": "2025-08-30T06:32:02.873Z",
+        "action_counter": 175254
       }
     ]
   }
