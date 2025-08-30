@@ -564,7 +564,7 @@
         "screen_text"
       ]
     },
-    "python_script": "import json\nimport re\n\ndef navigate_pokemon_list(target_pokemon, screen_text):\n    lines = screen_text.strip().split('\\n')\n    pokemon_list = []\n    cursor_pos = -1\n    for i, line in enumerate(lines):\n        if '→' in line:\n            cursor_pos = len(pokemon_list)\n            line = line.replace('→', '').strip()\n        potential_name = re.sub(r'LV\\\\s*\\\\d+', '', line).strip()\n        if re.match(r'^[A-Z\\\\\\'\\\\s\\\\.]+$', potential_name) and len(potential_name) > 2 and potential_name not in [\"WITHDRAW PKMN\", \"DEPOSIT PKMN\", \"RELEASE PKMN\", \"CHANGE BOX\", \"PRINT BOX\", \"SEE YA!\", \"STATS\", \"CANCEL\"]:\n            pokemon_list.append(potential_name)\n    if not pokemon_list:\n        print(json.dumps({\"error\": \"Could not parse Pokémon list.\"}))\n        return\n    try:\n        target_pos = pokemon_list.index(target_pokemon.upper())\n    except ValueError:\n        print(json.dumps([\"Down\", \"Down\", \"Down\"]))\n        return\n    if cursor_pos == -1:\n        print(json.dumps({\"error\": \"Could not find cursor.\"}))\n        return\n    moves = []\n    diff = target_pos - cursor_pos\n    if diff > 0:\n        moves.extend([\"Down\"] * diff)\n    elif diff < 0:\n        moves.extend([\"Up\"] * abs(diff))\n    moves.append(\"A\")\n    moves.append(\"A\")\n    print(json.dumps(moves))\n\ntry:\n    target_pokemon = input_data['target_pokemon']\n    screen_text = input_data['screen_text']\n    navigate_pokemon_list(target_pokemon, screen_text)\nexcept Exception as e:\n    print(json.dumps({\"error\": str(e)}))\n",
+    "python_script": "import json\nimport re\n\ndef navigate_pc(target_pokemon, screen_text):\n    lines = screen_text.strip().split('\\n')\n    pokemon_entries = []\n    current_pokemon = None\n\n    # Regex to find Pokémon names (potentially with levels)\n    # This pattern looks for an optional arrow, then a name, then optionally a level\n    pokemon_pattern = re.compile(r'→?([A-Z♀♂’]+)(\nLV \\d+)?')\n\n    for i, line in enumerate(lines):\n        match = pokemon_pattern.search(line)\n        if match:\n            # Extract just the name part\n            name = re.match(r'→?([A-Z♀♂’]+)', line.strip()).group(1)\n            if name not in ['WI', 'DE', 'RE', 'CH', 'PR', 'SE', 'LV']:\n                pokemon_entries.append(name)\n\n    try:\n        target_index = pokemon_entries.index(target_pokemon)\n    except ValueError:\n        print(json.dumps({\"error\": f\"Pokémon '{target_pokemon}' not found in the list.\"}))\n        return\n\n    # The cursor starts at index 0\n    # We need to press 'Down' target_index times\n    presses = ['Down'] * target_index\n    \n    print(json.dumps({\"buttons\": presses}))\n\n\nnavigate_pc(input_data['target_pokemon'], input_data['screen_text'])",
     "history": [
       {
         "commit_message": "feat: Create pc_navigator tool to automate PC interactions. This tool parses the Pokémon list from the PC screen text to calculate the necessary button presses to select a specific Pokémon. This addresses the tedious and error-prone manual navigation I have been performing, streamlining party management.",
@@ -590,6 +590,11 @@
         "commit_message": "feat: Create pc_navigator tool to automate PC interactions. This tool parses the Pokémon list from the PC screen text to calculate the necessary button presses to select a specific Pokémon. This addresses the tedious and error-prone manual navigation I have been performing, streamlining party management.",
         "timestamp": "2025-08-30T06:32:02.873Z",
         "action_counter": 175254
+      },
+      {
+        "commit_message": "feat: Create pc_navigator tool to automate PC interactions. This tool parses the Pokémon list from the PC screen text to calculate the necessary button presses to select a specific Pokémon. This addresses the tedious and error-prone manual navigation I have been performing, streamlining party management.",
+        "timestamp": "2025-08-30T07:07:02.178Z",
+        "action_counter": 175342
       }
     ]
   }

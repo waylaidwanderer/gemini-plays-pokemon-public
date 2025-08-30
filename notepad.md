@@ -61,3 +61,4 @@
 - **Diglett's Cave Linearity:** The cave appears to be a single, linear path connecting Route 11 and Route 2.
 - **Single Exit Hypothesis:** The ladder at (6, 6) is likely the only exit from this part of the cave.
 - **DOME FOSSIL Revival:** The process should be identical to the OLD AMBER revival: give the fossil to the scientist, leave the room, and re-enter to receive the Pokémon.
+- **DOME FOSSIL Revival (SOLVED):** The process was identical to the OLD AMBER revival: gave the fossil to the scientist, left the room, and re-entered to receive the Pokémon (Kabuto).
