@@ -638,37 +638,6 @@
       }
     ]
   },
-  "fly_menu_navigator": {
-    "description": "Calculates the directional button presses to navigate from the current selection to a target city in the Fly menu.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "menu_text": {
-          "type": "string"
-        },
-        "target_city": {
-          "type": "string"
-        }
-      },
-      "required": [
-        "menu_text",
-        "target_city"
-      ]
-    },
-    "python_script": "import json\nimport re\n\ndef navigate_fly_menu(menu_text, target_city):\n    cities = [\n        \"PALLET TOWN\", \"VIRIDIAN CITY\", \"PEWTER CITY\", \"CERULEAN CITY\",\n        \"SAFFRON CITY\", \"INDIGO PLATEAU\", \"CINNABAR ISLAND\", \"FUCHSIA CITY\",\n        \"CELADON CITY\", \"VERMILION CITY\", \"LAVENDER TOWN\", \"ROCK TUNNEL\"\n    ]\n\n    cursor_match = re.search(r\"→↓?\\s*(To\\s+)?([A-Z\\s]+)\", menu_text)\n    if not cursor_match:\n        return json.dumps({\"error\": \"Could not find cursor in menu text.\"})\n    \n    current_city_raw = cursor_match.group(2).strip()\n    if current_city_raw.startswith(\"To \"):\n        current_city_raw = current_city_raw[3:]\n        \n    current_city = current_city_raw.strip()\n\n    try:\n        current_index = cities.index(current_city.upper())\n        target_index = cities.index(target_city.upper())\n    except ValueError:\n        return json.dumps({\"error\": f\"City '{current_city}' or '{target_city}' not found in the known list.\"})\n\n    num_cities = len(cities)\n    diff = target_index - current_index\n    \n    presses = []\n    if diff > 0:\n        if diff <= num_cities / 2:\n            presses = [\"Down\"] * diff\n        else:\n            presses = [\"Up\"] * (num_cities - diff)\n    elif diff < 0:\n        if abs(diff) <= num_cities / 2:\n            presses = [\"Up\"] * abs(diff)\n        else:\n            presses = [\"Down\"] * (num_cities - abs(diff))\n    \n    presses.append(\"A\")\n    \n    return json.dumps(presses)\n\nprint(navigate_fly_menu(input_data['menu_text'], input_data['target_city']))\n",
-    "history": [
-      {
-        "commit_message": "feat: Create fly_menu_navigator tool. This tool automates the process of navigating the Fly menu by parsing the screen text to find the current city and calculating the optimal number of 'Up' or 'Down' presses to reach a target city. This was created in response to a mandatory reflection identifying that I was performing this task manually and inefficiently.",
-        "timestamp": "2025-08-30T00:43:23.533Z",
-        "action_counter": 174521
-      },
-      {
-        "commit_message": "fix: Overhaul logic with hardcoded city order. The tool was failing because its previous logic was unable to correctly parse the city list. This commit replaces the dynamic parsing with a hardcoded, verified list of all Fly destinations in their correct menu order. The script now calculates the shortest path using modulo arithmetic (Up vs. Down presses) to navigate efficiently. This addresses the critical failure from turn 174606 and ensures reliable navigation.",
-        "timestamp": "2025-08-30T01:48:22.499Z",
-        "action_counter": 174653
-      }
-    ]
-  },
   "validation_check_generator": {
     "description": "Generates the validation_checks JSON block by parsing map_xml_string and taking the current turn number and badges as input. This is a critical tool to prevent data-entry hallucinations.",
     "input_schema": {
@@ -692,6 +661,32 @@
         "commit_message": "feat: Recreate validation_check_generator after deletion. The tool was producing incorrect output and could not be updated. This commit recreates the tool from scratch using the proven, robust pathfinding logic from the `find_path` tool. This is a critical fix to ensure the tool's reliability and prevent future validation failures.",
         "timestamp": "2025-08-30T03:08:26.266Z",
         "action_counter": 174793
+      }
+    ]
+  },
+  "trivial_battle_automator": {
+    "description": "Automates trivial wild Pokémon battles by generating the full button sequence to select the most efficient one-hit KO move. Takes the party and enemy JSON as input and returns a list of button presses.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "player_party_json": {
+          "type": "string"
+        },
+        "enemy_pokemon_json": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "player_party_json",
+        "enemy_pokemon_json"
+      ]
+    },
+    "python_script": "import json\n\ndef get_trivial_battle_sequence(player_party_json, enemy_pokemon_json):\n    player_party = json.loads(player_party_json)\n    enemy_pokemon = json.loads(enemy_pokemon_json)\n\n    active_pokemon = player_party[0]\n    opponent = enemy_pokemon[0]\n\n    if active_pokemon['level'] - opponent['level'] < 20:\n        print(json.dumps({'error': 'Level difference not significant enough for automation.'}))\n        return\n\n    # Find the best non-recoil STAB move\n    best_move = None\n    move_priority = ['BODY SLAM', 'STRENGTH', 'DOUBLE-EDGE'] # Prioritize non-recoil\n    for move_name in move_priority:\n        for move in active_pokemon['moves']:\n            if move['name'] == move_name:\n                best_move = move\n                break\n        if best_move:\n            break\n\n    if not best_move:\n        # Fallback to the first move if no priority moves are found\n        best_move = active_pokemon['moves'][0]\n\n    # Calculate menu navigation\n    move_index = -1\n    for i, move in enumerate(active_pokemon['moves']):\n        if move['name'] == best_move['name']:\n            move_index = i\n            break\n\n    if move_index == -1:\n        print(json.dumps({'error': 'Could not find the selected move in the active Pokémon\\'s moveset.'}))\n        return\n\n    # Generate button sequence\n    # 1. Select FIGHT\n    # 2. Navigate to move\n    # 3. Select move\n    buttons = ['A'] # Select FIGHT\n    for _ in range(move_index):\n        buttons.append('Down') # Assuming a vertical menu layout\n    buttons.append('A') # Select move\n\n    print(json.dumps({'buttons': buttons}))\n\n# Get input from the system\nplayer_party_str = input_data['player_party_json']\nenemy_pokemon_str = input_data['enemy_pokemon_json']\n\nget_trivial_battle_sequence(player_party_str, enemy_pokemon_str)\n",
+    "history": [
+      {
+        "commit_message": "feat: Create trivial_battle_automator tool. In response to a self-assessment identifying highly repetitive manual inputs for trivial wild battles, this tool automates the entire process. It identifies the most efficient, non-recoil STAB move and generates the full button sequence to select it, streamlining gameplay and reducing tedious inputs.",
+        "timestamp": "2025-08-30T04:21:50.097Z",
+        "action_counter": 174932
       }
     ]
   }

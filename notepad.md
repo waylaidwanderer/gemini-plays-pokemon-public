@@ -76,3 +76,6 @@
 - **Single Exit Hypothesis:** The ladder at (6, 6) is likely the only exit from this part of the cave.
 - **Pewter City Museum:** The warp at (20, 6) leads to the Pewter Museum of Science.
 - **Route 3 Connection:** The eastern map connection from Pewter City leads to Route 3.
+
+### 4. Pewter Museum of Science
+- **OLD AMBER:** Received OLD AMBER from a Scientist at (16, 3). He asked me to take it to a POKéMON LAB to be examined for revival.
