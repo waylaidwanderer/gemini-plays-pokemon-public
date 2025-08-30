@@ -7,6 +7,10 @@
 
 # II. Game & World Knowledge
 
+## Type Effectiveness Discoveries (Verified)
+
+- **Poison vs. Bug:** Poison is now super-effective against Bug. Bug is no longer strong against Poison.
+
 # III. Future Development & Testing
 
 # IV. Archive - Solved Puzzles & Mysteries
