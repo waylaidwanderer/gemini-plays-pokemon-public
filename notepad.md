@@ -23,16 +23,9 @@
 
 ## Tile Mechanics (Systematic Documentation)
 
-- **ground:** Standard walkable tile.
-- **impassable:** Walls, objects, cannot be entered.
-- **ledge:** Can be jumped down (Y-1 to Y+2), but not climbed up. Acts as a wall from below and sides.
-- **steps:** Allows movement between `ground` and `elevated_ground`.
-- **elevated_ground:** Walkable, but only accessible from `steps` or other `elevated_ground` tiles.
 - **boulder_switch:** Activates/deactivates `boulder_barrier` tiles when a boulder is pushed onto it.
 - **boulder_barrier:** Impassable tile that can be cleared by a `boulder_switch`.
 - **cleared_boulder_barrier:** A former barrier, now walkable like `ground`.
-- **water:** Impassable without SURF. Walkable with SURF.
-- **cuttable:** Tree that can be cut with HM Cut. Becomes `ground` after cutting.
 
 # III. Current Objective: Gym Leader Rematches
 
