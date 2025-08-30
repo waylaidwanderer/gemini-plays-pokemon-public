@@ -82,13 +82,6 @@
 
 # IV. Archive - Solved Puzzles & Mysteries
 
-- **Silph Co. Elevator:** After selecting a floor, must step on the warp pads to travel.
-- **Cerulean City Post-Champion Events:** Misty rematch is triggered after solving the Trashed House backyard puzzle. Battle loop is broken by selecting 'NO' to the rematch prompt.
-- **Saffron Guard & Drink:** Gave a drink to the guard at the Route 5 gatehouse, which granted access to Saffron City.
-- **Snorlax & POKé FLUTE (Route 12):** The Snorlax at (11, 46) is no longer present. The path is clear.
-- **Cinnabar Lab Fossil Revival (OLD AMBER & DOME FOSSIL):** The scientist at (6, 3) in the Fossil Room revives fossils. After giving him a fossil, I had to leave and return later to receive the revived Pokémon (Aerodactyl). The Dome Fossil revival quest is complete, and the Kabuto has been received.
-- **Pewter Museum of Science:** Received OLD AMBER from a Scientist at (16, 3).
-
 - **Dead End Area Mismatch (Seafoam B3F):** My previous assertion that Seafoam Islands B3F was a dead end was incorrect. The system reported 4 reachable exits. This was a critical hallucination. **Correction:** I must re-evaluate my understanding of B3F's layout and trust system feedback over my visual interpretation of the map. (Self-correction from Turn 170981).
 - **Notepad and Map Marker Update Priority (Turn 171001):** I attempted multiple `define_map_marker` and `find_path` calls before executing a planned `notepad_edit` overwrite. This is a direct violation of the core directive that notepad updates are the highest priority and must be performed immediately. **Correction:** All notepad updates must be performed immediately, prior to any other actions.
 - **Fly Menu Navigation Failure (Turn 171342-171352):** I repeatedly overshot the target Pokémon in the party menu and then manually scrolled through the Fly menu. **Correction:** I must use the `fly_menu_navigator` tool as intended and trust its output. The `get_next_pokemon_press` tool was deleted to make space for `fly_menu_navigator` and should not have been used. This also highlights a failure to immediately use a newly defined tool.
@@ -165,17 +158,4 @@
 - **Single Exit Hypothesis:** The ladder at (6, 6) is likely the only exit from this part of the cave.
 - **Route 24 Cave Access:** The cave on Route 24 is currently unreachable. There may be a post-game event or an alternate route from another map that grants access.
 
-- **Silph Co. Elevator:** After selecting a floor, must step on the warp pads to travel.
-- **Cerulean City Post-Champion Events:** Misty rematch is triggered after solving the Trashed House backyard puzzle. Battle loop is broken by selecting 'NO' to the rematch prompt.
-- **Saffron Guard & Drink:** Gave a drink to the guard at the Route 5 gatehouse, which granted access to Saffron City.
-- **Snorlax & POKé FLUTE (Route 12):** The Snorlax at (11, 46) is no longer present. The path is clear.
-- **Cinnabar Lab Fossil Revival (OLD AMBER & DOME FOSSIL):** The scientist at (6, 3) in the Fossil Room revives fossils. After giving him a fossil, I had to leave and return later to receive the revived Pokémon (Aerodactyl). The Dome Fossil revival quest is complete, and the Kabuto has been received.
-- **Pewter Museum of Science:** Received OLD AMBER from a Scientist at (16, 3).
-
-- **Silph Co. Elevator:** After selecting a floor, must step on the warp pads to travel.
-- **Cerulean City Post-Champion Events:** Misty rematch is triggered after solving the Trashed House backyard puzzle. Battle loop is broken by selecting 'NO' to the rematch prompt.
-- **Saffron Guard & Drink:** Gave a drink to the guard at the Route 5 gatehouse, which granted access to Saffron City.
-- **Snorlax & POKé FLUTE (Route 12):** The Snorlax at (11, 46) is no longer present. The path is clear.
-- **Cinnabar Lab Fossil Revival (OLD AMBER & DOME FOSSIL):** The scientist at (6, 3) in the Fossil Room revives fossils. After giving him a fossil, I had to leave and return later to receive the revived Pokémon (Aerodactyl). The Dome Fossil revival quest is complete, and the Kabuto has been received.
-- **Pewter Museum of Science:** Received OLD AMBER from a Scientist at (16, 3).
 NEW TYPE INFO (OAK'S LAB): Poison > Bug (Super-effective), Bug > Poison (Not very effective).
