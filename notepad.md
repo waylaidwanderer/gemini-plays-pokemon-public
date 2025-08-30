@@ -46,3 +46,8 @@
 # VII. Self-Assessment (Turn 176779)
 
 - **Agent Interpretation Failure (Turn 176727):** I incorrectly concluded my `puzzle_solver_agent`'s hypothesis was wrong. I interpreted its suggestion of a 'missed path' too narrowly as a 'hidden trigger tile'. My failure to find a tile disproved only my specific interpretation, not the agent's broader, high-level suggestion. **Lesson:** I must trust my agents' outputs and consider broader interpretations of their advice rather than fixating on a single, narrow possibility.
+
+## Pewter Museum Mechanics (Discovered)
+
+- **Fee Trigger Tile (10, 5):** Stepping on this tile brings up a YES/NO dialogue prompt to pay an entrance fee. The outcome of this interaction appears to change the state of warps in Pewter City.
+- **Fossil Interaction Soft-Lock:** Interacting with the Aerodactyl fossil at (3, 4) displays flavor text and then causes a soft-lock where movement is impossible. Pressing 'B' cancels the event and restores movement.
