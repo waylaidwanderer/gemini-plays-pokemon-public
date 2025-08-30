@@ -55,3 +55,17 @@
 - **Brock's Location:** Hypothesis that Brock was in Mt. Moon is incorrect. Abandoned this investigation.
 - **Route 4 Horizontal Jumps:** Hypothesis that the Route 4 puzzle involved repeated horizontal ledge jumps was incorrect. The path required vertical jumps.
 - **Officer Jenny Path Block:** Hypothesis that defeating the Rocket Grunt or Misty would cause Officer Jenny to move was incorrect. The path to Route 9 remains blocked.
+
+# VI. Lessons Learned (New)
+
+- **Failure to Trust Tools (Vermilion City, Turns ~177121-177152):** My `find_path` tool repeatedly and correctly reported that no path existed to the Vermilion Gym. I incorrectly assumed the tool was broken and spent over 20 turns trying to debug it and attempting flawed manual paths. **Lesson:** I must trust my tools' outputs, especially when they contradict my assumptions. The tool correctly identified that Vermilion City is segmented by water and requires Surf to navigate between the eastern and western sections.
+
+# VII. Plan Update: Lt. Surge
+
+- **Revised Plan:**
+  1. Navigate to the water's edge at (21, 21).
+  2. Use Surf to cross to the western side of Vermilion City.
+  3. Use the `team_builder_agent` to assemble the optimal team for Lt. Surge.
+  4. Heal and switch party members at the Pokémon Center if needed.
+  5. Navigate to (16, 20) and use Cut on the tree at (16, 19).
+  6. Enter the gym and challenge Lt. Surge.
