@@ -13,11 +13,6 @@
 
 # III. Future Development & Testing
 
-## B. Untested Assumptions Log
-- **Diglett's Cave Linearity:** The cave appears to be a single, linear path connecting Route 11 and Route 2.
-- **Single Exit Hypothesis:** The ladder at (6, 6) is likely the only exit from this part of the cave.
-- **Route 24 Cave Access:** The cave on Route 24 is currently unreachable. There may be a post-game event or an alternate route from another map that grants access.
-
 # IV. Archive - Solved Puzzles & Mysteries
 
 - **Dead End Area Mismatch (Seafoam B3F):** My previous assertion that Seafoam Islands B3F was a dead end was incorrect. The system reported 4 reachable exits. This was a critical hallucination. **Correction:** I must re-evaluate my understanding of B3F's layout and trust system feedback over my visual interpretation of the map. (Self-correction from Turn 170981).
@@ -28,10 +23,5 @@
 - **Tool Refinement Failure (Turns 174066-174090, 174151-174157):** I repeatedly used manual navigation or retried a faulty tool after it failed, instead of fixing it immediately. This is a critical violation of my core directives. **Correction:** Faulty tools must be fixed immediately before any other gameplay action.
 - **Critique - Redundant Documentation (Turn 174951):** Overwatch identified that my notepad contained a redundant 'Tile Mechanics Glossary' and that I created a redundant map marker for a picked-up item. **Correction:** I must keep my notepad focused on unique discoveries and rely on the game state as the source of truth for item collection. Immediate data management is paramount.
 - **Location Hallucination Loop (Turns ~175000-175030):** I was stuck in a severe hallucination loop, repeatedly believing I had left the Cinnabar Lab Fossil Room when the game state clearly showed I had not. **Correction:** I must make it an absolute priority to check the `validation_checks` block, specifically `current_map_id` and `current_position`, before every single action to ground my internal state in reality.
-
-## B. Untested Assumptions Log
-- **Diglett's Cave Linearity:** The cave appears to be a single, linear path connecting Route 11 and Route 2.
-- **Single Exit Hypothesis:** The ladder at (6, 6) is likely the only exit from this part of the cave.
-- **Route 24 Cave Access:** The cave on Route 24 is currently unreachable. There may be a post-game event or an alternate route from another map that grants access.
 
 NEW TYPE INFO (OAK'S LAB): Poison > Bug (Super-effective), Bug > Poison (Not very effective).
