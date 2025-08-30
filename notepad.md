@@ -22,7 +22,6 @@
 
 ### 1. Unsolved Puzzles & Mysteries
 - **Route 24 Cave:** Remains blocked after becoming Champion. My pathfinding tool confirms the northern landmass is isolated from the south.
-- **The Missing Kabuto:** The scientist in the Cinnabar Lab Fossil Room went through the dialogue of reviving the DOME FOSSIL into a KABUTO and giving it to me. However, the Pokémon never appeared in my party or PC. The game state confirms it is not present. This could be a bug or an unresolved part of a quest.
 
 ## C. Opponent Information
 
