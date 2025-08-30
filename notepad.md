@@ -6,6 +6,7 @@
 - **Deferred Map Marker Creation (Turns 172822, 172872, 172881, 174891, 174927):** I have repeatedly cut trees but deferred defining map markers for them until a later turn. This is a critical violation of my core directives. **Correction:** Map markers for environmental changes must be defined immediately on the same turn the event occurs.
 - **Repeated `find_path` Calls without Re-evaluation (Turns 172922-172929):** I repeatedly called `find_path` to the same target after it failed without adapting my strategy or re-evaluating the cause of failure. **Correction:** When a tool's output is unexpected, I must immediately adapt my strategy and re-evaluate the underlying cause of the failure.
 - **Tool Refinement Failure (Turns 174066-174090, 174151-174157):** I repeatedly used manual navigation or retried a faulty tool after it failed, instead of fixing it immediately. This is a critical violation of my core directives. **Correction:** Faulty tools must be fixed immediately before any other gameplay action.
+- **Critique - Redundant Documentation (Turn 174951):** Overwatch identified that my notepad contained a redundant 'Tile Mechanics Glossary' and that I created a redundant map marker for a picked-up item. **Correction:** I must keep my notepad focused on unique discoveries and rely on the game state as the source of truth for item collection. Immediate data management is paramount.
 
 # II. Game & World Knowledge
 
@@ -25,20 +26,7 @@
   - **Hyper Beam Recharge:** May be conditional or inconsistent.
   - **Move Menu Cursor Reset:** May randomly reset to the top position.
 
-## B. Field Mechanics
-- **Linked Boulder Rotation:** Some water-based boulders rotate in a linked fashion.
-- **Hidden Passages:** Impassable-looking walls can sometimes be walked through.
-- **Strength Mechanics:** Does not need to be reactivated per push. Player position can change depending on push direction.
-- **HM Field Move Usage:** Requires two 'A' presses (prompt + confirmation).
-- **Tile Mechanics Glossary:**
-  - `ground`: Standard walkable tile.
-  - `grass`: Walkable tile with wild encounters.
-  - `impassable`: Cannot be entered (walls, buildings, etc.).
-  - `cuttable`: A tree that can be cut with HM Cut. Becomes `ground` after being cut.
-  - `ledge`: Can only be jumped down from above (Y-1). Impassable from all other directions.
-  - `water`: Can only be crossed with HM Surf.
-
-## C. Key Event & Puzzle Log
+## B. Key Event & Puzzle Log
 
 ### 1. Major Events (Post-Champion)
 - **Route 24 Cave:** Remains blocked after becoming Champion.
@@ -53,7 +41,10 @@
 - **Saffron Guard & Drink (SOLVED):** Gave a drink to the guard at the Route 5 gatehouse, which granted access to Saffron City. This confirms the hypothesis.
 - **Snorlax & POKé FLUTE (Route 12) (SOLVED):** The Snorlax at (11, 46) is no longer present. The path is clear. The POKé FLUTE was not needed.
 
-## D. Opponent Information
+### 4. Pewter Museum of Science
+- **OLD AMBER:** Received OLD AMBER from a Scientist at (16, 3). He asked me to take it to a POKéMON LAB to be examined for revival.
+
+## C. Opponent Information
 - **Elite Four Lorelei:** Slowbro (Earthquake), Jynx (Bubblebeam), Gengar (Lv 59), Cloyster (Lv 55, Explosion).
 - **Elite Four Bruno:** Hitmonchan (Ice Punch, Thunder Punch), Onix (Explosion), Machamp (Earthquake).
 - **Elite Four Agatha:** Gengar (Hypnosis, Dream Eater).
@@ -62,7 +53,7 @@
 - **Kris (Seafoam Islands):** Snorlax (Earthquake, Body Slam, REST), Gengar (Hypnosis, Dream Eater).
 - **Craig (Power Plant) (Defeated):** JOLTEON (Lv 55, DIG, THUNDERBOLT, PIN MISSILE, THUNDER WAVE), AERODACTYL (Lv 55, ROCK SLIDE), EXEGGUTOR (Lv 55, MEGA DRAIN, PSYCHIC), SNORLAX (Lv 55, AMNESIA, EARTHQUAKE, BODY SLAM, REST), CLOSTER (Lv 55, EXPLOSION), ARCANINE (Lv 55, FLAMETHROWER).
 
-## E. Wild Legendary Encounters
+## D. Wild Legendary Encounters
 - **Articuno (Seafoam Islands, Lv 50):** Captured.
 - **Zapdos (Power Plant, Lv 50):** AGILITY, THUNDERBOLT. (Fainted accidentally).
 
@@ -76,6 +67,3 @@
 - **Single Exit Hypothesis:** The ladder at (6, 6) is likely the only exit from this part of the cave.
 - **Pewter City Museum:** The warp at (20, 6) leads to the Pewter Museum of Science.
 - **Route 3 Connection:** The eastern map connection from Pewter City leads to Route 3.
-
-### 4. Pewter Museum of Science
-- **OLD AMBER:** Received OLD AMBER from a Scientist at (16, 3). He asked me to take it to a POKéMON LAB to be examined for revival.
