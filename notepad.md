@@ -40,3 +40,4 @@
   - **Contingency:** If no clues are found, I will abandon this location and search elsewhere.
 - **Mt. Moon Layout:** Hypothesis that the western and eastern sections of the cave are largely separate.
   - **Test:** Taking the ladder at (6, 8) on B2F will reveal where I emerge on B1F, helping to map the connections.
+- **Poison vs. Poison/Flying:** Poison is not very effective against Poison/Flying dual-types (Verified vs. Zubat in Mt. Moon).
