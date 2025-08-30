@@ -24,20 +24,6 @@
 - **Pewter Museum Fee Trigger Tile (10, 5):** This tile triggers a fee prompt. Paying the fee alters the destination of the fake gym warp in Pewter City (15, 8), granting access to the museum's eastern section.
 - **Pewter Museum Fossil Interaction Soft-Lock:** Interacting with the Aerodactyl fossil at (3, 4) displays flavor text and then causes a soft-lock where movement is impossible. Pressing 'B' cancels the event and restores movement.
 
-## C. Tile Mechanics (Systematic Documentation)
-
-- **ground:** Standard walkable tile.
-- **grass:** Walkable, allows for wild Pokémon encounters.
-- **water:** Impassable without the use of the Surf HM.
-- **impassable:** Walls, counters, and other objects that cannot be entered.
-- **cuttable:** A tree that can be removed with the Cut HM, becoming a `ground` tile.
-- **ledge:** A one-way obstacle that can only be jumped down from above.
-- **steps:** The only tile type that allows movement between `ground` and `elevated_ground`.
-- **elevated_ground:** Walkable ground at a different elevation, accessible only via `steps`.
-- **boulder_switch:** A floor switch that is activated when a boulder is pushed onto it.
-- **boulder_barrier:** An impassable barrier that is cleared by activating a `boulder_switch`.
-- **cleared_boulder_barrier:** A former barrier that now acts as a walkable `ground` tile.
-
 # III. Current Objective: Gym Leader Rematches
 
 - **Goal:** Rematch all Kanto Gym Leaders to test my strength.
