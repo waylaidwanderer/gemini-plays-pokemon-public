@@ -15,6 +15,7 @@
 ## World Mechanics & Rules
 
 - **Tile Types Encountered:** `ground`, `elevated_ground`, `steps`, `impassable`, `ladder_up`.
+- **Pikachu Step Swap:** Attempting to move onto a 'steps' tile occupied by Pikachu causes the player and Pikachu to swap positions.
 
 # III. Current Objective: Mt. Moon Exploration
 
