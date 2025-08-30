@@ -547,31 +547,6 @@
       }
     ]
   },
-  "map_data_parser": {
-    "description": "Parses the map_xml_string to extract key map data, including dimensions, and a list of all tiles with their coordinates, type, and any objects. Standardizes map data access for other tools.",
-    "input_schema": {
-      "type": "object",
-      "properties": {}
-    },
-    "python_script": "import json\nimport xml.etree.ElementTree as ET\n\ndef parse_map_data(map_xml_string):\n    root = ET.fromstring(map_xml_string)\n    map_data = {\n        'name': root.get('name'),\n        'id': int(root.get('id')),\n        'width': int(root.get('width')),\n        'height': int(root.get('height')),\n        'tiles': []\n    }\n    for row_elem in root.findall('Row'):\n        y = int(row_elem.get('id'))\n        for tile_elem in row_elem.findall('Tile'):\n            x = int(tile_elem.get('id'))\n            tile_info = {\n                'x': x,\n                'y': y,\n                'type': tile_elem.get('type'),\n                'object': None\n            }\n            obj_elem = tile_elem.find('Object')\n            if obj_elem is not None:\n                tile_info['object'] = {\n                    'id': obj_elem.get('id'),\n                    'id-name': obj_elem.get('id-name'),\n                    'name': obj_elem.get('name'),\n                    'facing': obj_elem.get('facing')\n                }\n            map_data['tiles'].append(tile_info)\n    return map_data\n\nresult = parse_map_data(map_xml_string)\nprint(json.dumps(result))",
-    "history": [
-      {
-        "commit_message": "feat: Create standardized map_data_parser tool. In response to a self-assessment and Overwatch critique identifying repeated XML parsing bugs and deferred maintenance, this tool provides a single, reliable interface for accessing map data. It will prevent future parsing errors and streamline the development of all subsequent map-based tools.",
-        "timestamp": "2025-08-26T22:05:16.578Z",
-        "action_counter": 167953
-      },
-      {
-        "commit_message": "feat: Create standardized map_data_parser tool. In response to a self-assessment and Overwatch critique identifying repeated XML parsing bugs and deferred maintenance, this tool provides a single, reliable interface for accessing map data. It will prevent future parsing errors and streamline the development of all subsequent map-based tools.",
-        "timestamp": "2025-08-27T18:31:02.703Z",
-        "action_counter": 168501
-      },
-      {
-        "commit_message": "feat: Create standardized map_data_parser tool. In response to a self-assessment and Overwatch critique identifying repeated XML parsing bugs and deferred maintenance, this tool provides a single, reliable interface for accessing map data. It will prevent future parsing errors and streamline the development of all subsequent map-based tools.",
-        "timestamp": "2025-08-28T01:26:00.971Z",
-        "action_counter": 169006
-      }
-    ]
-  },
   "menu_navigator": {
     "description": "Calculates the directional button presses to navigate from a current cursor position to a target item in a list-based menu, based on the provided screen text. This refined version handles multi-page menus by scrolling and searching across visible items, returning a sequence of 'Down' or 'Up' presses, and an 'A' press to select the item.",
     "input_schema": {
@@ -660,7 +635,7 @@
         "screen_text"
       ]
     },
-    "python_script": "import json\nimport re\n\ndef navigate_pokemon_list(target_pokemon, screen_text):\n    lines = screen_text.strip().split('\\n')\n    \n    pokemon_list = []\n    cursor_pos = -1\n    \n    for i, line in enumerate(lines):\n        if '→' in line:\n            cursor_pos = len(pokemon_list)\n            line = line.replace('→', '').strip()\n        \n        potential_name = re.sub(r'LV\\\\s*\\\\d+', '', line).strip()\n        # A simple check to filter out menu options and empty lines\n        if re.match(r'^[A-Z\\\\\\'\\\\s\\\\.]+$', potential_name) and len(potential_name) > 2 and potential_name not in [\"WITHDRAW PKMN\", \"DEPOSIT PKMN\", \"RELEASE PKMN\", \"CHANGE BOX\", \"PRINT BOX\", \"SEE YA!\", \"STATS\", \"CANCEL\"]:\n            pokemon_list.append(potential_name)\n\n    if not pokemon_list:\n        print(json.dumps({\"error\": \"Could not parse Pokémon list.\"}))\n        return\n\n    try:\n        target_pos = pokemon_list.index(target_pokemon.upper())\n    except ValueError:\n        # If target not found, maybe it's on the next page. Scroll down.\n        print(json.dumps([\"Down\", \"Down\", \"Down\"]))\n        return\n        \n    if cursor_pos == -1:\n        print(json.dumps({\"error\": \"Could not find cursor.\"}))\n        return\n\n    moves = []\n    diff = target_pos - cursor_pos\n    if diff > 0:\n        moves.extend([\"Down\"] * diff)\n    elif diff < 0:\n        moves.extend([\"Up\"] * abs(diff))\n    \n    moves.append(\"A\") # Select the pokemon\n    moves.append(\"A\") # Confirm the action (Withdraw/Deposit)\n    print(json.dumps(moves))\n\ntry:\n    target_pokemon = input_data['target_pokemon']\n    screen_text = input_data['screen_text']\n    navigate_pokemon_list(target_pokemon, screen_text)\nexcept Exception as e:\n    print(json.dumps({\"error\": str(e)}))\n",
+    "python_script": "import json\nimport re\n\ndef navigate_pokemon_list(target_pokemon, screen_text):\n    lines = screen_text.strip().split('\\n')\n    \n    pokemon_list = []\n    cursor_pos = -1\n    \n    for i, line in enumerate(lines):\n        if '→' in line:\n            cursor_pos = len(pokemon_list)\n            line = line.replace('→', '').strip()\n        \n        # Clean up the line to extract just the name\n        potential_name = re.sub(r'LV\\s*\\d+', '', line).strip()\n        # A simple check to filter out menu options and empty lines\n        if re.match(r'^[A-Z\\'\\s\\.]+$', potential_name) and len(potential_name) > 2 and potential_name not in [\"WITHDRAW PKMN\", \"DEPOSIT PKMN\", \"RELEASE PKMN\", \"CHANGE BOX\", \"PRINT BOX\", \"SEE YA!\", \"STATS\", \"CANCEL\"]:\n            pokemon_list.append(potential_name)\n\n    if not pokemon_list:\n        print(json.dumps({\"error\": \"Could not parse Pokémon list.\"}))\n        return\n\n    try:\n        target_pos = pokemon_list.index(target_pokemon.upper())\n    except ValueError:\n        # If target not found, maybe it's on the next page. Scroll down.\n        print(json.dumps([\"Down\", \"Down\", \"Down\"]))\n        return\n        \n    if cursor_pos == -1:\n        print(json.dumps({\"error\": \"Could not find cursor.\"}))\n        return\n\n    moves = []\n    diff = target_pos - cursor_pos\n    if diff > 0:\n        moves.extend([\"Down\"] * diff)\n    elif diff < 0:\n        moves.extend([\"Up\"] * abs(diff))\n    \n    moves.append(\"A\") # Select the pokemon\n    moves.append(\"A\") # Confirm the action (Withdraw/Deposit)\n    print(json.dumps(moves))\n\ntry:\n    target_pokemon = input_data['target_pokemon']\n    screen_text = input_data['screen_text']\n    navigate_pokemon_list(target_pokemon, screen_text)\nexcept Exception as e:\n    print(json.dumps({\"error\": str(e)}))\n",
     "history": [
       {
         "commit_message": "feat: Create pc_navigator tool to automate PC interactions. This tool parses the Pokémon list from the PC screen text to calculate the necessary button presses to select a specific Pokémon. This addresses the tedious and error-prone manual navigation I have been performing, streamlining party management.",
@@ -671,6 +646,11 @@
         "commit_message": "feat: Create pc_navigator tool to automate PC interactions. This tool parses the Pokémon list from the PC screen text to calculate the necessary button presses to select a specific Pokémon. This addresses the tedious and error-prone manual navigation I have been performing, streamlining party management.",
         "timestamp": "2025-08-30T06:29:32.484Z",
         "action_counter": 175251
+      },
+      {
+        "commit_message": "feat: Create pc_navigator tool to automate PC interactions. This tool parses the Pokémon list from the PC screen text to calculate the necessary button presses to select a specific Pokémon. This addresses the tedious and error-prone manual navigation I have been performing, streamlining party management.",
+        "timestamp": "2025-08-30T06:30:24.797Z",
+        "action_counter": 175252
       }
     ]
   }
