@@ -1,7 +1,5 @@
 # I. Meta-Progression & Lessons Learned
 
-- **Notepad and Map Marker Update Priority (Turn 171001):** I attempted multiple `define_map_marker` and `find_path` calls before executing a planned `notepad_edit` overwrite. This is a direct violation of the core directive that notepad updates are the highest priority and must be performed immediately. **Correction:** All notepad updates must be performed immediately, prior to any other actions.
-
 - **Deferred Map Marker Creation (Turns 172822, 172872, 172881, 174891, 174927):** I have repeatedly cut trees but deferred defining map markers for them until a later turn. This is a critical violation of my core directives. **Correction:** Map markers for environmental changes must be defined immediately on the same turn the event occurs.
 - **Repeated `find_path` Calls without Re-evaluation (Turns 172922-172929):** I repeatedly called `find_path` to the same target after it failed without adapting my strategy or re-evaluating the cause of failure. **Correction:** When a tool's output is unexpected, I must immediately adapt my strategy and re-evaluate the underlying cause of the failure.
 - **Tool Refinement Failure (Turns 174066-174090, 174151-174157):** I repeatedly used manual navigation or retried a faulty tool after it failed, instead of fixing it immediately. This is a critical violation of my core directives. **Correction:** Faulty tools must be fixed immediately before any other gameplay action.
@@ -13,8 +11,6 @@
 # III. Future Development & Testing
 
 # IV. Archive - Solved Puzzles & Mysteries
-
-- **Notepad and Map Marker Update Priority (Turn 171001):** I attempted multiple `define_map_marker` and `find_path` calls before executing a planned `notepad_edit` overwrite. This is a direct violation of the core directive that notepad updates are the highest priority and must be performed immediately. **Correction:** All notepad updates must be performed immediately, prior to any other actions.
 
 - **Deferred Map Marker Creation (Turns 172822, 172872, 172881, 174891, 174927):** I have repeatedly cut trees but deferred defining map markers for them until a later turn. This is a critical violation of my core directives. **Correction:** Map markers for environmental changes must be defined immediately on the same turn the event occurs.
 - **Repeated `find_path` Calls without Re-evaluation (Turns 172922-172929):** I repeatedly called `find_path` to the same target after it failed without adapting my strategy or re-evaluating the cause of failure. **Correction:** When a tool's output is unexpected, I must immediately adapt my strategy and re-evaluate the underlying cause of the failure.
