@@ -18,12 +18,7 @@
   - **Hyper Beam Recharge:** May be conditional or inconsistent.
   - **Move Menu Cursor Reset:** May randomly reset to the top position.
 
-## B. Tile Mechanics Glossary
-- **ground:** Standard traversable tile.
-- **impassable:** Walls, objects, cannot be entered.
-- **warp:** Triggers a map transition when entered.
-
-## C. Key Event & Puzzle Log
+## B. Key Event & Puzzle Log
 
 ### 1. Major Events (Post-Champion)
 - **Route 24 Cave:** Remains blocked after becoming Champion.
@@ -34,11 +29,15 @@
 - **Saffron Guard & Drink (SOLVED):** Gave a drink to the guard at the Route 5 gatehouse, which granted access to Saffron City. This confirms the hypothesis.
 - **Snorlax & POKé FLUTE (Route 12) (SOLVED):** The Snorlax at (11, 46) is no longer present. The path is clear. The POKé FLUTE was not needed.
 - **Cinnabar Lab Fossil Revival (SOLVED):** The scientist at (6, 3) in the Fossil Room can revive fossils. After giving him the OLD AMBER, I had to leave and return later to receive the revived Aerodactyl.
+- **DOME FOSSIL Revival (SOLVED):** The process was identical to the OLD AMBER revival: gave the fossil to the scientist, left the room, and re-entered to receive the Pokémon (Kabuto).
 
-### 3. Pewter Museum of Science
+### 3. Unsolved Puzzles & Mysteries
+- **The Missing Kabuto:** The scientist in the Cinnabar Lab Fossil Room went through the dialogue of reviving the DOME FOSSIL into a KABUTO and giving it to me. However, the Pokémon never appeared in my party or PC. The game state confirms it is not present. This could be a bug or an unresolved part of a quest.
+
+### 4. Pewter Museum of Science
 - **OLD AMBER:** Received OLD AMBER from a Scientist at (16, 3). He asked me to take it to a POKéMON LAB to be examined for revival.
 
-## D. Opponent Information
+## C. Opponent Information
 - **Elite Four Lorelei:** Slowbro (Earthquake), Jynx (Bubblebeam), Gengar (Lv 59), Cloyster (Lv 55, Explosion).
 - **Elite Four Bruno:** Hitmonchan (Ice Punch, Thunder Punch), Onix (Explosion), Machamp (Earthquake).
 - **Elite Four Agatha:** Gengar (Hypnosis, Dream Eater).
@@ -47,7 +46,7 @@
 - **Kris (Seafoam Islands):** Snorlax (Earthquake, Body Sla m, REST), Gengar (Hypnosis, Dream Eater).
 - **Craig (Power Plant) (Defeated):** JOLTEON (Lv 55, DIG, THUNDERBOLT, PIN MISSILE, THUNDER WAVE), AERODACTYL (Lv 55, ROCK SLIDE), EXEGGUTOR (Lv 55, MEGA DRAIN, PSYCHIC), SNORLAX (Lv 55, AMNESIA, EARTHQUAKE, BODY SLAM, REST), CLOSTER (Lv 55, EXPLOSION), ARCANINE (Lv 55, FLAMETHROWER).
 
-## E. Wild Legendary Encounters
+## D. Wild Legendary Encounters
 - **Articuno (Seafoam Islands, Lv 50):** Captured.
 - **Zapdos (Power Plant, Lv 50):** AGILITY, THUNDERBOLT. (Fainted accidentally).
 
@@ -56,10 +55,8 @@
 ## A. Agent & Tool Ideas
 - **Trivial Battle Automator:** A tool that combines the logic of `master_battle_agent` and `menu_navigator` for trivial wild encounters. Input would be opponent name/level, output would be the full button sequence to win in one turn (e.g., ["A", "Down", "A"]). This would streamline the repetitive battles like those in Diglett's Cave.
 - **Fly Automator:** A tool that takes a destination name as input and generates the full button sequence to open the party menu, select a Pokémon with Fly, and choose the destination from the map. This would automate the entire Fly travel process.
+- **PC Scroller Tool:** A tool to automate scrolling through PC boxes to find a specific Pokémon that is not on the current screen. This would improve the `pc_navigator`'s weakness.
 
 ## B. Untested Assumptions Log
 - **Diglett's Cave Linearity:** The cave appears to be a single, linear path connecting Route 11 and Route 2.
 - **Single Exit Hypothesis:** The ladder at (6, 6) is likely the only exit from this part of the cave.
-- **DOME FOSSIL Revival:** The process should be identical to the OLD AMBER revival: give the fossil to the scientist, leave the room, and re-enter to receive the Pokémon.
-- **DOME FOSSIL Revival (SOLVED):** The process was identical to the OLD AMBER revival: gave the fossil to the scientist, left the room, and re-entered to receive the Pokémon (Kabuto).
-- **The Missing Kabuto:** The scientist in the Cinnabar Lab Fossil Room went through the dialogue of reviving the DOME FOSSIL into a KABUTO and giving it to me. However, the Pokémon never appeared in my party or PC. The game state confirms it is not present. This could be a bug or an unresolved part of a quest.
