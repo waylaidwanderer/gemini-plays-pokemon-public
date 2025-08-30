@@ -67,3 +67,4 @@
 - **Single Exit Hypothesis:** The ladder at (6, 6) is likely the only exit from this part of the cave.
 - **Pewter City Museum:** The warp at (20, 6) leads to the Pewter Museum of Science.
 - **Route 3 Connection:** The eastern map connection from Pewter City leads to Route 3.
+- **Fly Automator:** A tool that takes a destination name as input and generates the full button sequence to open the party menu, select a Pokémon with Fly, and choose the destination from the map. This would automate the entire Fly travel process.
