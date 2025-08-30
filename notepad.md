@@ -11,16 +11,7 @@
 # II. Game & World Knowledge
 
 ## A. Battle Mechanics & Type Effectiveness
-- **Verified Type Chart:**
-  - Electric is super-effective against Poison/Flying, Water, Water/Ice, and Water/Psychic.
-  - Fighting is super-effective against Ice, Normal, and Rock.
-  - Flying is immune to Ground.
-  - Ghost is immune to Ground.
-  - Grass is super-effective against Ground, Ground/Rock, and Water/Ice.
-  - Ground is super-effective against Electric, Ghost, Ground, Psychic, and Rock/Ground.
-  - Normal is immune to Ghost.
-  - Psychic is super-effective against Poison.
-  - Rock is super-effective against Flying.
+
 - **Anomalies & Hypotheses:**
   - **Night Shade Damage:** May be altered in this ROM hack.
   - **Hyper Beam Recharge:** May be conditional or inconsistent.
