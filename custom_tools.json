@@ -668,27 +668,5 @@
         "action_counter": 174793
       }
     ]
-  },
-  "surf_automator": {
-    "description": "Generates the button sequence to open the menu, select a Pokémon with Surf, and use the move. Assumes the player is in the correct position and facing the water.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "party_menu_text": {
-          "type": "string"
-        }
-      },
-      "required": [
-        "party_menu_text"
-      ]
-    },
-    "python_script": "import json\nimport re\n\nparty_menu_text = input_data['party_menu_text']\n\n# Find the Pokémon that knows Surf\ntarget_pokemon = None\nparty_lines = party_menu_text.strip().split('\\n')\nfor line in party_lines:\n    if 'SURF' in line:\n        match = re.search(r'([A-Z]+)', line)\n        if match:\n            target_pokemon = match.group(1)\n            break\n\nif not target_pokemon:\n    print(json.dumps([]))\n    exit()\n\n# Use menu_navigator logic to get to the Pokémon\nlines = party_menu_text.strip().split('\\n')\ncursor_line = -1\nitem_lines = []\nfor i, line in enumerate(lines):\n    cleaned_line = re.sub(r'LV\\\\s*\\\\d+|\\\\d+/\\\\d+', '', line).strip()\n    if '→' in line:\n        cursor_line = len(item_lines)\n        cleaned_line = cleaned_line.replace('→', '').strip()\n    if re.match(r'^[A-Z]', cleaned_line):\n        item_lines.append(cleaned_line.split()[0])\n\nif cursor_line == -1 or not item_lines:\n    print(json.dumps([]))\n    exit()\n\ntry:\n    target_index = item_lines.index(target_pokemon)\nexcept ValueError:\n    print(json.dumps([]))\n    exit()\n\ndiff = target_index - cursor_line\nbuttons = []\nif diff > 0:\n    buttons.extend(['Down'] * diff)\nelif diff < 0:\n    buttons.extend(['Up'] * abs(diff))\n\n# Sequence: Open Menu -> Select Pokemon -> Select Surf\nfull_sequence = ['Start', 'A'] + buttons + ['A', 'A']\nprint(json.dumps(full_sequence))",
-    "history": [
-      {
-        "commit_message": "feat: Create surf_automator tool to streamline HM usage. This tool automates the repetitive menu navigation required to use Surf, addressing a recurring point of failure and inefficiency. It identifies a Pokémon with Surf in the party and generates the full button sequence to use the move.",
-        "timestamp": "2025-08-30T05:42:00.939Z",
-        "action_counter": 175139
-      }
-    ]
   }
 }
