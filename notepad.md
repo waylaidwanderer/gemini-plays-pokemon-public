@@ -35,7 +35,7 @@
 ### Other Trainers
 - **Misty (Rematch):** Seadra (Lv 64), Golduck (Lv 65, Psychic, Blizzard), Lapras (Lv 64, Hydro Pump, Thunder, Psychic, Blizzard), Vaporeon (Acid Armor), Starmie (Thunderbolt).
 - **Kris (Seafoam Islands):** Snorlax (Earthquake, Body Sla m, REST), Gengar (Hypnosis, Dream Eater).
-- **Craig (Power Plant) (Defeated):** JOLTEON (Lv 55, DIG, THUNDERBOLT, PIN MISSILE, THUNDER WAVE), AERODACTYL (Lv 55, ROCK SLIDE), EXEGGUTOR (Lv 55, MEGA DRAIN, PSYCHIC), SNORLAX (Lv 55, AMNESIA, EARTHQUAKE, BODY SLAM, REST), CLOSTER (Lv 55, EXPLOSION), ARCANINE (Lv 55, FLAMETHROWER).
+- **Craig (Power Plant) (Defated):** JOLTEON (Lv 55, DIG, THUNDERBOLT, PIN MISSILE, THUNDER WAVE), AERODACTYL (Lv 55, ROCK SLIDE), EXEGGUTOR (Lv 55, MEGA DRAIN, PSYCHIC), SNORLAX (Lv 55, AMNESIA, EARTHQUAKE, BODY SLAM, REST), CLOSTER (Lv 55, EXPLOSION), ARCANINE (Lv 55, FLAMETHROWER).
 
 ## D. Wild Legendary Encounters
 - **Articuno (Seafoam Islands, Lv 50):** Captured.
