@@ -60,8 +60,3 @@
 - **Snorlax & POKé FLUTE (Route 12):** The Snorlax at (11, 46) is no longer present. The path is clear.
 - **Cinnabar Lab Fossil Revival (OLD AMBER & DOME FOSSIL):** The scientist at (6, 3) in the Fossil Room revives fossils. After giving him a fossil, I had to leave and return later to receive the revived Pokémon (Aerodactyl). The Dome Fossil revival quest is complete, but the Kabuto itself is missing.
 - **Pewter Museum of Science:** Received OLD AMBER from a Scientist at (16, 3).
-
-# V. Tile Mechanics Glossary
-- **ground**: Standard walkable tile.
-- **impassable**: Walls and objects that cannot be walked on.
-- **warp**: A tile that teleports the player to another location.
