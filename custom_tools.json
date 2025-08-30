@@ -614,7 +614,7 @@
     ]
   },
   "move_selector_tool": {
-    "description": "Navigates the in-battle move selection menu to select a target move. Takes the target move name and the current screen text as input and outputs the necessary button presses.",
+    "description": "Navigates the in-battle move selection menu to highlight a target move. Takes the target move name and the current screen text as input and outputs the necessary directional button presses. The 'A' button must be pressed manually in a subsequent turn.",
     "input_schema": {
       "type": "object",
       "properties": {
@@ -630,12 +630,22 @@
         "screen_text"
       ]
     },
-    "python_script": "import json\nimport sys\n\nscreen_text = input_data['screen_text']\ntarget_move = input_data['target_move']\n\nlines = screen_text.strip().split('\\n')\npotential_moves_lines = lines[-4:]\n\nmoves = []\ncursor_index = -1\n\nfor i, line in enumerate(potential_moves_lines):\n    clean_line = line.strip()\n    is_selected = clean_line.startswith('→')\n    move_name = clean_line.replace('→', '').strip()\n    if is_selected:\n        cursor_index = i\n    moves.append(move_name)\n\nif cursor_index == -1 or not moves:\n    print(json.dumps([]))\n    sys.exit()\n\ntry:\n    target_index = moves.index(target_move)\nexcept ValueError:\n    print(json.dumps([]))\n    sys.exit()\n\ndelta = target_index - cursor_index\n\nbuttons = []\nif delta > 0:\n    buttons.extend(['Down'] * delta)\nelif delta < 0:\n    buttons.extend(['Up'] * abs(delta))\n\nbuttons.append('A')\n\nprint(json.dumps(buttons))",
+    "python_script": "# v2: Separates directional input from action input to prevent engine from dropping directional presses.\nimport json\nimport sys\n\nscreen_text = input_data['screen_text']\ntarget_move = input_data['target_move']\n\nlines = screen_text.strip().split('\\n')\npotential_moves_lines = lines[-4:]\n\nmoves = []\ncursor_index = -1\n\nfor i, line in enumerate(potential_moves_lines):\n    clean_line = line.strip()\n    is_selected = clean_line.startswith('→')\n    move_name = clean_line.replace('→', '').strip()\n    if is_selected:\n        cursor_index = i\n    moves.append(move_name)\n\nif cursor_index == -1 or not moves:\n    print(json.dumps([]))\n    sys.exit()\n\ntry:\n    target_index = moves.index(target_move)\nexcept ValueError:\n    print(json.dumps([]))\n    sys.exit()\n\ndelta = target_index - cursor_index\n\nbuttons = []\nif delta > 0:\n    buttons.extend(['Down'] * delta)\nelif delta < 0:\n    buttons.extend(['Up'] * abs(delta))\n\n# DO NOT add 'A' here. That will be a separate, manual action in the next turn.\nprint(json.dumps(buttons))",
     "history": [
       {
         "commit_message": "feat: Create move_selector_tool to automate battle menu navigation. In response to an Overwatch critique about repeated manual input errors in battle, this tool parses the move list from the screen text to calculate the exact button presses required to select a specific move. This will eliminate errors and increase battle efficiency.",
         "timestamp": "2025-08-30T12:06:20.763Z",
         "action_counter": 176001
+      },
+      {
+        "commit_message": "fix: Force re-compile by adding a comment. The tool's logic is sound, but it previously failed to execute directional inputs before the 'A' press. Re-defining with a trivial script change is an attempt to resolve any underlying state or caching issues that may have caused the execution error.",
+        "timestamp": "2025-08-30T13:15:06.289Z",
+        "action_counter": 176113
+      },
+      {
+        "commit_message": "fix: Separate directional and action inputs. The tool was failing because the game engine appeared to be dropping directional inputs when they were in the same sequence as an 'A' press. This commit refactors the tool to *only* output the directional button presses. The final 'A' press must now be executed manually in a subsequent turn. This workaround should ensure reliable move selection.",
+        "timestamp": "2025-08-30T13:32:34.831Z",
+        "action_counter": 176136
       }
     ]
   }

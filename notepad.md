@@ -14,19 +14,13 @@
 
 ## World Mechanics & Rules
 
-- **Tile Types Encountered:** `ground`, `elevated_ground`, `steps`, `impassable`, `ladder_up`.
+- **Tile Types Encountered:** `ground`, `elevated_ground`, `steps`, `impassable`, `ladder_up`, `ledge`.
 - **Pikachu Step Swap:** Attempting to move onto a 'steps' tile occupied by Pikachu causes the player and Pikachu to swap positions.
 
-# III. Current Objective: Mt. Moon Exploration
+# III. Current Objective: Route 4 Navigation
 
-- **Goal:** Investigate Mt. Moon for clues about Brock's location.
-- **Current Floor:** B2F.
-- **Known Ladders:**
-  - (6, 8): Leads to B1F (East).
-  - (22, 18): Leads to B1F (East).
-  - (16, 28): Leads to B1F (West). This is the current target.
-  - (26, 10): Leads to a dead end on B1F.
-- **Current Puzzle:** I am on the eastern elevated platform of B2F. The western platform, which provides access to the western ground floor and the target ladder at (16, 28), is blocked by an impassable defeated Super Nerd at (13, 9). The ground floors are disconnected. The 'Pikachu Step Swap' mechanic at the western steps (4, 6) resulted in a loop. I need to find a way to bypass the Super Nerd or solve the puzzle from the eastern platform.
+- **Goal:** Navigate the ledge puzzle on Route 4 to reach Cerulean City.
+- **Current Strategy:** The path involves a series of downward ledge jumps. Horizontal jumps are not a viable strategy.
 
 # IV. Immediate Tasks & Reminders
 
@@ -38,7 +32,6 @@
 
 # VI. Current Hypotheses & Investigations
 
-- **Brock's Location:** Hypothesis is that Brock is somewhere in Mt. Moon, based on a single NPC hint in Pewter City. This is unconfirmed.
-  - **Test:** Thoroughly explore all floors and paths of Mt. Moon.
-  - **Contingency:** If no clues are found, I will abandon this location and search elsewhere.
-- **Mt. Moon Layout:** Hypothesis that the western and eastern sections of the cave are largely separate. **Confirmed** for B1F and the ground level of B2F. The connection must be on the elevated platforms of B2F or on 1F.
+- **Brock's Location:** Hypothesis is that Brock is somewhere in Mt. Moon, based on a single NPC hint in Pewter City. This is unconfirmed. **Update:** I have left Mt. Moon without finding Brock. This hypothesis is likely incorrect.
+  - **Test:** Thoroughly explore all floors and paths of Mt. Moon. **Result:** No sign of Brock.
+  - **Contingency:** If no clues are found, I will abandon this location and search elsewhere. **Action:** I have abandoned this line of investigation.
