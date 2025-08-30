@@ -37,7 +37,7 @@
 - **Next Target:** Lt. Surge in Vermilion City.
 - **Plan:** 
   1. Exit Cerulean Gym and fly to the Pokemon Center to heal.
-  2. Fly to Cerulean City and test the assumption that Officer Jenny is still blocking the path to Route 9.
+  2. Confirmed Officer Jenny still blocks the path to Route 9 after Misty's rematch.
   3. Fly to Vermilion City to challenge Lt. Surge.
 
 # IV. Custom Tools & Agents
