@@ -49,5 +49,5 @@
 
 ## Pewter Museum Mechanics (Discovered)
 
-- **Fee Trigger Tile (10, 5):** Stepping on this tile brings up a YES/NO dialogue prompt to pay an entrance fee. The outcome of this interaction appears to change the state of warps in Pewter City.
+- **Fee Trigger Tile (10, 5):** This tile triggers a fee prompt. Paying the fee alters the destination of the fake gym warp in Pewter City (15, 8), granting access to the museum's eastern section.
 - **Fossil Interaction Soft-Lock:** Interacting with the Aerodactyl fossil at (3, 4) displays flavor text and then causes a soft-lock where movement is impossible. Pressing 'B' cancels the event and restores movement.
