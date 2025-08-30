@@ -85,3 +85,9 @@
 ## A. Agent & Tool Ideas
 
 ## B. Untested Assumptions Log
+
+# IV. Untested Assumptions & Hypotheses
+- **Diglett's Cave Linearity:** Assumption that the cave is a simple, linear path connecting Route 11 and Route 2, as suggested by an NPC.
+  - **Test:** Traverse the entire cave and see where the exit leads.
+- **Single Exit:** Assumption that the ladder at (6, 6) is the only exit from this part of the cave.
+  - **Test:** Fully explore the current map to confirm no other ladders or exits exist.
