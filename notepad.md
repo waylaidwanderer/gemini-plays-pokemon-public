@@ -7,6 +7,7 @@
 - **Repeated `find_path` Calls without Re-evaluation (Turns 172922-172929):** I repeatedly called `find_path` to the same target after it failed without adapting my strategy or re-evaluating the cause of failure. **Correction:** When a tool's output is unexpected, I must immediately adapt my strategy and re-evaluate the underlying cause of the failure.
 - **Tool Refinement Failure (Turns 174066-174090, 174151-174157):** I repeatedly used manual navigation or retried a faulty tool after it failed, instead of fixing it immediately. This is a critical violation of my core directives. **Correction:** Faulty tools must be fixed immediately before any other gameplay action.
 - **Critique - Redundant Documentation (Turn 174951):** Overwatch identified that my notepad contained a redundant 'Tile Mechanics Glossary' and that I created a redundant map marker for a picked-up item. **Correction:** I must keep my notepad focused on unique discoveries and rely on the game state as the source of truth for item collection. Immediate data management is paramount.
+- **Location Hallucination Loop (Turns ~175000-175030):** I was stuck in a severe hallucination loop, repeatedly believing I had left the Cinnabar Lab Fossil Room when the game state clearly showed I had not. **Correction:** I must make it an absolute priority to check the `validation_checks` block, specifically `current_map_id` and `current_position`, before every single action to ground my internal state in reality.
 
 # II. Game & World Knowledge
 
@@ -48,14 +49,18 @@
 - **Articuno (Seafoam Islands, Lv 50):** Captured.
 - **Zapdos (Power Plant, Lv 50):** AGILITY, THUNDERBOLT. (Fainted accidentally).
 
-# III. Future Development & Testing
+# III. Tile Mechanics Glossary
+
+- **ground:** Standard traversable tile.
+- **impassable:** Cannot be entered. Walls, counters, etc.
+- **warp:** Triggers a transition to a new location.
+
+# IV. Future Development & Testing
 
 ## A. Agent & Tool Ideas
 - **Trivial Battle Automator:** A tool that combines the logic of `master_battle_agent` and `menu_navigator` for trivial wild encounters. Input would be opponent name/level, output would be the full button sequence to win in one turn (e.g., ["A", "Down", "A"]). This would streamline the repetitive battles like those in Diglett's Cave.
+- **Fly Automator:** A tool that takes a destination name as input and generates the full button sequence to open the party menu, select a Pokémon with Fly, and choose the destination from the map. This would automate the entire Fly travel process.
 
 ## B. Untested Assumptions Log
 - **Diglett's Cave Linearity:** The cave appears to be a single, linear path connecting Route 11 and Route 2.
 - **Single Exit Hypothesis:** The ladder at (6, 6) is likely the only exit from this part of the cave.
-- **Pewter City Museum:** The warp at (20, 6) leads to the Pewter Museum of Science.
-- **Route 3 Connection:** The eastern map connection from Pewter City leads to Route 3.
-- **Fly Automator:** A tool that takes a destination name as input and generates the full button sequence to open the party menu, select a Pokémon with Fly, and choose the destination from the map. This would automate the entire Fly travel process.
