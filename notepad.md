@@ -44,11 +44,6 @@
 - **`pc_navigator` (Tool):** The tool's regex pattern had a syntax error. I have corrected the unterminated string literal to ensure it functions reliably.
 - **`master_battle_agent` (Agent):** Refined its logic for handling low-HP switch-ins to improve risk assessment. **Note:** Monitor performance regarding sacrificial pivots vs. switching in damaged key Pokémon.
 
-## B. Future Ideas
-
-- **`navigation_strategist_agent`:** An agent to analyze complex map layouts and pathfinding failures to suggest high-level navigation strategies (e.g., "The city is split into east/west sections, clear the east side first.").
-- **`rematch_planner_agent`:** An agent to help strategize for the next gym leader rematch. **Plan:** This agent will take my full PC box, my current party, and my notepad's trainer roster data as input. It will then analyze type matchups, levels, and known movesets to recommend (1) the next best gym leader to challenge and (2) an optimal team of 6 from my PC to counter them.
-
 # V. Completed/Stalled Investigations
 
 - **Cerulean City Investigation:** Uncovered a path to the Cerulean Gym's back entrance by using Cut, but the path to Route 9 remains blocked by Officer Jenny. Investigation is currently stalled.

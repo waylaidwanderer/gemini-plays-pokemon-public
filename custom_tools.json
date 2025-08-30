@@ -807,21 +807,5 @@
         "action_counter": 176165
       }
     ]
-  },
-  "systematic_search_planner": {
-    "description": "Generates a path plan that systematically sweeps every traversable tile on the current map to find hidden triggers. Useful for exhaustive exploration.",
-    "input_schema": {
-      "type": "object",
-      "properties": {},
-      "required": []
-    },
-    "python_script": "import xml.etree.ElementTree as ET\nimport json\n\nroot = ET.fromstring(map_xml_string)\nmap_width = int(root.get('width'))\nmap_height = int(root.get('height'))\ntraversable_tiles = set()\nplayer_pos = None\n\nfor row_elem in root.findall('Row'):\n    y = int(row_elem.get('id'))\n    for tile_elem in row_elem.findall('Tile'):\n        x = int(tile_elem.get('id'))\n        tile_type = tile_elem.get('type')\n        if tile_type in ['ground', 'grass', 'steps', 'elevated_ground', 'cleared_boulder_barrier'] and tile_elem.get('has-object') != 'true':\n            traversable_tiles.add((x, y))\n        if tile_elem.find('Player') is not None:\n            player_pos = (x, y)\n\nif not player_pos or not traversable_tiles:\n    print(json.dumps({'path': []}))\nelse:\n    sorted_tiles = sorted(list(traversable_tiles), key=lambda p: (p[1], p[0]))\n    path = [player_pos]\n    current_pos = player_pos\n    remaining_tiles = set(sorted_tiles)\n    if current_pos in remaining_tiles:\n        remaining_tiles.remove(current_pos)\n\n    while remaining_tiles:\n        closest_tile = min(remaining_tiles, key=lambda p: (abs(p[0] - current_pos[0]) + abs(p[1] - current_pos[1])))\n        path.append(closest_tile)\n        remaining_tiles.remove(closest_tile)\n        current_pos = closest_tile\n\n    print(json.dumps({'path': path}))",
-    "history": [
-      {
-        "commit_message": "feat: Create systematic_search_planner tool. This tool automates the process of exploring every traversable tile on a map, which was previously a manual and error-prone task. It will be used to ensure exhaustive searches for hidden triggers or paths in puzzle areas.",
-        "timestamp": "2025-08-30T18:18:37.651Z",
-        "action_counter": 176728
-      }
-    ]
   }
 }
