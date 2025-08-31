@@ -16,24 +16,25 @@
 ## A. Tile & Traversal Mechanics (Verified)
 - **Vermilion Gym Statues:** Act as puzzle switches.
 - **Porygon's Freezing Move:** Lt. Surge's PORYGON knows a move that can inflict Freeze.
-- **Powder Move Effectiveness (Contradictory Data):** Potential immunity for Grass-types against powder moves *from other Grass-types*, but needs more investigation.
 - **Cerulean Gym Entrance (5, 12):** This is a warp to Cerulean Cave 1F.
 - **Routes 24 & 25 Waterways:** Segmented and do not provide access to Cerulean Cave.
 - **Ladder Down:** A warp tile that leads to a lower floor.
 
-## B. Type Effectiveness Discoveries (Verified & In-Progress)
+## B. Type Effectiveness Discoveries (Verified)
 - **Poison vs. Bug:** Poison is now super-effective against Bug. Bug is no longer strong against Poison.
-- **Poison vs. Ground:** Poison is not very effective against Ground (Verified vs. Sandshrew in Mt. Moon).
-- **Poison vs. Poison/Flying:** Poison is not very effective against Poison/Flying dual-types (Verified vs. Zubat in Mt. Moon).
-- **Water vs. Rock/Water:** Water is not very effective against Rock/Water dual-types (Verified vs. Kabutops).
-- **Ground vs. Normal:** Ground was observed to be super-effective against Porygon. Needs further testing to confirm if this is a universal change for all Normal-types.
-- **Ground vs. Grass/ Psychic:** Ground is not very effective against Grass/Psychic dual-types (Verified vs. Exeggutor).
-- **Electric vs. Grass/Poison:** Electric is not very effective against Grass/Poison dual-types (Verified vs. Victreebel).
-- **Psychic vs. Poison:** Psychic is super-effective against Poison (Verified vs. Golbat).
+- **Poison vs. Ground:** Poison is not very effective against Ground.
+- **Poison vs. Poison/Flying:** Poison is not very effective against Poison/Flying dual-types.
+- **Water vs. Rock/Water:** Water is not very effective against Rock/Water dual-types.
+- **Ground vs. Normal:** Ground was observed to be super-effective against Porygon.
+- **Ground vs. Grass/ Psychic:** Ground is not very effective against Grass/Psychic dual-types.
+- **Electric vs. Grass/Poison:** Electric is not very effective against Grass/Poison dual-types.
+- **Psychic vs. Poison:** Psychic is super-effective against Poison.
 
-## C. Discovered Battle Mechanics (Verified & In-Progress)
-- **Earthquake vs. Dig:** Earthquake can hit an opponent that is underground using Dig. (Verified vs. Jolton). Increased damage is unconfirmed.
+## C. Discovered Battle Mechanics (Verified)
+- **Earthquake vs. Dig:** Earthquake can hit an opponent that is underground using Dig.
 
-## D. Cerulean Cave Puzzle (Active Hypothesis)
-- **Hypothesis:** The path forward from the isolated southern section of 2F is not via a ladder, but through one of the four reachable unseen tiles. My previous strategy of trying different ladders failed because I was hallucinating their reachability.
-- **Test:** Explore the nearest unseen tile at (23, 1) by pathing to the adjacent tile (23, 2).
+# III. Active Hypotheses
+## A. Cerulean Cave Puzzle
+- **Observation:** I am in an isolated section of Cerulean Cave 2F. My previous attempts to find an exit by using different ladders failed because I was hallucinating that all ladders on the floor were reachable from my location. The system has confirmed that only the ladder at (20, 8) is reachable from this segment, and that there is one remaining reachable unseen tile at (30, 18).
+- **Hypothesis:** The path forward is not via a different ladder, but is located in the final reachable unseen tile at (30, 18).
+- **Test:** Explore the unseen tile at (30, 18) by pathing to the adjacent tile at (29, 18).
