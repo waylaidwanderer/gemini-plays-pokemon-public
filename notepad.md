@@ -45,12 +45,6 @@
   - **Test:** Navigate to (3, 1) in the Badge House and use the warp.
   - **Expected Outcome:** Arrive in a part of Cerulean City with access to the main city and the northern water routes.
 
-# IV. Gym Leader Rematch Data
-### Erika (Celadon Gym)
-- **EXEGGUTOR (Lv 64):** Knows PSYCHIC, MEGA DRAIN.
-- **VICTREEBEL (Lv 65):** Knows MEGA DRAIN, SLUDGE.
-- **VILEPLUME (Lv 65):** Knows SLEEP POWDER, MEGA DRAIN, SUBSTITUTE.
-
 # V. Custom Tools & Agents
 
 ## A. Existing Tools & Agents
@@ -115,12 +109,6 @@
 - **Current Hypothesis:** The entrance to Cerulean Cave is accessible via the water on Route 25.
   - **Test:** Use Surf to explore the water body east of Route 25.
   - **Expected Outcome:** Discover a new path or the cave entrance itself.
-
-# IV. Gym Leader Rematch Data
-### Erika (Celadon Gym)
-- **EXEGGUTOR (Lv 64):** Knows PSYCHIC, MEGA DRAIN.
-- **VICTREEBEL (Lv 65):** Knows MEGA DRAIN, SLUDGE.
-- **VILEPLUME (Lv 65):** Knows SLEEP POWDER, MEGA DRAIN, SUBSTITUTE.
 
 # V. Custom Tools & Agents
 
