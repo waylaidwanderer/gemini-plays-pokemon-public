@@ -13,19 +13,22 @@
 
 # II. Game & World Knowledge
 
-## A. Type Effectiveness Discoveries (Verified)
+## A. Type Effectiveness Discoveries (Verified & In-Progress)
 
 - **Poison vs. Bug:** Poison is now super-effective against Bug. Bug is no longer strong against Poison.
 - **Poison vs. Ground:** Poison is not very effective against Ground (Verified vs. Sandshrew in Mt. Moon).
 - **Poison vs. Poison/Flying:** Poison is not very effective against Poison/Flying dual-types (Verified vs. Zubat in Mt. Moon).
 - **Water vs. Rock/Water:** Water is not very effective against Rock/Water dual-types (Verified vs. Kabutops).
-- **Ground vs. Normal:** Ground is super-effective against Normal (Verified vs. Porygon).
+- **Ground vs. Normal:** Ground was observed to be super-effective against Porygon. Needs further testing to confirm if this is a universal change for all Normal-types.
 
 ## B. World Mechanics & Rules
 
 - **Pikachu Step Swap:** Attempting to move onto a 'steps' tile occupied by Pikachu causes the player and Pikachu to swap positions.
 - **Pewter Museum Fee Trigger Tile (10, 5):** This tile triggers a fee prompt. Paying the fee alters the destination of the fake gym warp in Pewter City (15, 8), granting access to the museum's eastern section.
 - **Pewter Museum Fossil Interaction Soft-Lock:** Interacting with the Aerodactyl fossil at (3, 4) displays flavor text and then causes a soft-lock where movement is impossible. Pressing 'B' cancels the event and restores movement.
+
+## C. Battle Mechanics (Verified & In-Progress)
+- **Earthquake vs. Dig:** Earthquake can hit an opponent that is underground using Dig. (Verified vs. Jolteon). Increased damage is unconfirmed.
 
 # III. Current Objective: Gym Leader Rematches
 
@@ -66,6 +69,5 @@
 - **spinner_...:** Force movement tiles.
 
 # IX. Interactable Object Mechanics (Verified)
-- **trashcan:** An object that can be interacted with from an adjacent tile. In Vermilion Gym, these are a red herring for the main puzzle.
 - **Vermilion Gym Statues:** The statues in the gym act as the puzzle switches, not the trash cans. Interacting with the winner's board statue after checking all cans solved the puzzle.
-- Lt. Surge's PORYGON knows a move that can inflict Freeze.
+- **Porygon's Freezing Move:** Lt. Surge's PORYGON knows a move that can inflict Freeze. The specific move is unknown.
