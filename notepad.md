@@ -52,6 +52,7 @@
 - **`gym_puzzle_solver_tool` (Tool):** Replaced the `gym_puzzle_navigator` agent to better align with architectural best practices, as this is a deterministic, computational task.
 - **`team_builder_agent` (Agent):** Mandated by Overwatch for testing before the next major battle.
 - **`pc_navigator` (Tool):** The tool's regex pattern had a syntax error. I have corrected the unterminated string literal to ensure it functions reliably.
+- **`fly_menu_navigator` (Tool):** Automates Fly menu navigation. Initially had incorrect city order logic, causing repeated failures. Has been fixed to reflect the game's actual fixed city list.
 - **`master_battle_agent` (Agent):** Refined its logic for handling low-HP switch-ins to improve risk assessment. **Note:** Monitor performance regarding sacrificial pivots vs. switching in damaged key Pokémon.
 
 # VI. Completed/Stalled Investigations
