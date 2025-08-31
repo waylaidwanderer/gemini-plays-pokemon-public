@@ -32,6 +32,7 @@
 ## C. Discovered Battle Mechanics (Verified)
 - **Earthquake vs. Dig:** Earthquake can hit an opponent that is underground using Dig.
 - **Wild Pokémon Moves:** Wild GOLEM in Cerulean Cave can use EXPLOSION and SELFDESTRUCT.
+- **SELFDESTRUCT vs. Rock/Ground:** SELFDESTRUCT (a Normal-type move) is not very effective against Rock/Ground dual-types.
 
 ## D. Tile Mechanics & Traversal Rules (Verified)
 - **ground:** Standard walkable tile.
