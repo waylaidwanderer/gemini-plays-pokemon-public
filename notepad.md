@@ -19,6 +19,8 @@
 - **Cerulean Gym Entrance (5, 12):** This is a warp to Cerulean Cave 1F.
 - **Routes 24 & 25 Waterways:** Segmented and do not provide access to Cerulean Cave.
 - **Ladder Down:** A warp tile that leads to a lower floor.
+- **Elevated Ground:** Walkable ground at a different elevation. Can only be accessed from `steps` tiles, other `elevated_ground` tiles, or warps.
+- **Steps:** The only tile type that allows movement between `ground` and `elevated_ground`.
 
 ## B. Type Effectiveness Discoveries (Verified)
 - **Poison vs. Bug:** Poison is now super-effective against Bug. Bug is no longer strong against Poison.
@@ -38,5 +40,3 @@
 - **Observation (Turn 179078):** I am in an isolated section of Cerulean Cave 1F. My previous attempts to find an exit by using different ladders failed because I was hallucinating that all ladders on the floor were reachable from my location. The system has confirmed that only the ladder at (28, 2) is reachable from this segment, and that there are two remaining reachable unseen tiles at (13, 1) and (30, 7).
 - **Hypothesis:** The path forward is not via a different ladder, but is located in one of the final reachable unseen tiles.
 - **Test:** Explore the unseen tile at (13, 1) by pathing to the closest reachable adjacent tile at (14, 2).
-- **Elevated Ground:** Walkable ground at a different elevation. Can only be accessed from `steps` tiles, other `elevated_ground` tiles, or warps.
-- **Steps:** The only tile type that allows movement between `ground` and `elevated_ground`.
