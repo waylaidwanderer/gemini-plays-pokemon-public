@@ -16,7 +16,6 @@
 ## A. Game Mechanics & Puzzles (Verified)
 - **Vermilion Gym Statues:** Act as puzzle switches.
 - **Porygon's Freezing Move:** Lt. Surge's PORYGON knows a move that can inflict Freeze.
-- **Cerulean Gym Entrance (5, 12):** This is a warp to Cerulean Cave 1F.
 - **Routes 24 & 25 Waterways:** Segmented and do not provide access to Cerulean Cave.
 
 ## B. Type Effectiveness Discoveries (Verified)
@@ -32,8 +31,13 @@
 ## C. Discovered Battle Mechanics (Verified)
 - **Earthquake vs. Dig:** Earthquake can hit an opponent that is underground using Dig.
 
-# III. Current Plans & Puzzles
-## A. Cerulean City Navigation Puzzle
-- **Problem:** I am stuck on the west side of Cerulean City. I cannot reach the Pokémon Center on the east side because the water is not contiguous, and my flyer, ECHO, has fainted.
-- **Initial (Flawed) Plan:** Walk to Pewter City via Route 4 and Mt. Moon to heal.
-- **Agent-Assisted Plan:** Awaiting suggestion from the refined `navigation_troubleshooter` agent.
+## D. Tile Mechanics & Traversal Rules (Verified)
+*This section is for documenting observed tile behaviors.*
+
+# III. Current Goals & Hypotheses
+## A. Primary Objective
+- Capture the legendary Pokémon Mewtwo, believed to be deep within Cerulean Cave.
+
+## B. Untested Hypotheses
+- **Hypothesis:** Electric-type moves are super-effective against Flying-type Pokémon.
+  - **Test:** Use an Electric move (e.g., THUNDERBOLT) against a pure Flying or Normal/Flying Pokémon and observe the on-screen damage text for 'It's super effective!'.
