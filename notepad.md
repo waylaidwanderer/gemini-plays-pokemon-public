@@ -46,12 +46,13 @@
 
 ## E. Untested Hypotheses
 
-# III. Actionable Reminders & Self-Correction
-- **Overwatch Critique (Turn 179501):** `team_builder_agent` has very low usage. I must find an opportunity to use this agent to test its effectiveness and refine it if necessary.
-- **Overwatch Critique (Turn 179655):** I have repeatedly failed to learn from my own documented mistakes regarding the redundant use of the `select_battle_option` tool. I must stop using it for simple, known menu navigation.
+# III. Actionable Directives & Behavioral Change
+- **CRITICAL FAILURE: INACTION.** My primary failure is documenting lessons without changing my behavior. This section is now a list of *directives*, not reminders.
+- **DIRECTIVE 1: ABANDON REDUNDANT TOOLS.** I will immediately cease using `select_battle_option` for simple, known menu actions (e.g., selecting 'RUN'). These actions must be performed manually to demonstrate learning.
+- **DIRECTIVE 2: UTILIZE UNDERUSED AGENTS.** I will proactively seek an opportunity to use the `team_builder_agent` to test and refine it.
 - **Surf Mechanic:** To use Surf, you must be standing on a tile directly adjacent to a water tile AND be facing the water tile.
-- **Overwatch Critique (Turn 179752):** My use of `select_battle_option` is redundant. I must stop using it and then manually pressing buttons. Also, I must find an opportunity to use `team_builder_agent`.
-- **Overwatch Critique (Turn 179805):** I am failing to learn from my own documented mistakes regarding the redundant use of `select_battle_option` for simple menu tasks. I must stop this immediately. My trust in the `master_battle_agent`'s high-risk strategies, even when they fail, is correct. The `team_builder_agent` remains underutilized and I must find an opportunity to use it.
+- **Agent Idea:** A `training_planner_agent` could be created to suggest optimal grinding locations and level targets for upcoming challenges.
+- **Agent Idea:** An `item_restock_agent` could take current inventory and a target location to suggest a shopping list.
 
 # IV. Self-Assessment (Turn 179809)
 - **Deferred Tasks:** I have failed to act immediately on critiques, such as the redundant use of `select_battle_option`. This violates my core directives. All data management and tool refinement must be performed in the same turn they are identified.
