@@ -34,10 +34,10 @@
 - **Porygon's Freezing Move:** Lt. Surge's PORYGON knows a move that can inflict Freeze. The specific move is unknown.
 - **Powder Move Effectiveness (Contradictory Data):** In a previous battle, NIGHTSHADE's SLEEP POWDER failed against a VILEPLUME with the message 'It didn't affect VILEPLUME!'. However, in the current battle, Erika's VILEPLUME is consistently able to use SLEEP POWDER successfully on NIGHTSHADE. This suggests a potential immunity for Grass-types against powder moves *from other Grass-types*, but this immunity might not apply to the player's Pokémon or could be conditional. Needs further investigation.
 
-# III. Current Objective: Gym Leader Rematches
-- **Goal:** Rematch all Kanto Gym Leaders to test my strength.
-- **Status:** Brock, Misty, and Lt. Surge defeated.
-- **Next Target:** Erika in Celadon City.
+# III. Current Objective: Post-Game Exploration
+- **Goal:** Capture the legendary Pokémon Mewtwo.
+- **Status:** All Gym Leader rematches completed.
+- **Next Target:** Investigate the entrance to Cerulean Cave.
 
 # IV. Gym Leader Rematch Data
 ### Erika (Celadon Gym)
