@@ -67,3 +67,4 @@
 
 # VI. Future Tool & Agent Ideas
 - **'Next Pokémon Selector' (Tool/Agent):** A tool or agent that takes the current party state and the opponent's Pokémon as input and recommends the best Pokémon to send out after one of yours has fainted. This would automate the decision-making process in critical moments.
+- **Ground vs. Grass/Psychic:** Ground is not very effective against Grass/Psychic dual-types (Verified vs. Exeggutor).
