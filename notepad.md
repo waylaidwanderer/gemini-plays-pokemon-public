@@ -29,9 +29,15 @@
 
 ## C. Discovered Battle Mechanics (Verified)
 - **Earthquake vs. Dig:** Earthquake can hit an opponent that is underground using Dig.
+- **Wild Pokémon Moves:** Wild GOLEM in Cerulean Cave can use EXPLOSION.
 
 ## D. Tile Mechanics & Traversal Rules (Verified)
-*This section is for documenting observed tile behaviors.*
+- **ground:** Standard walkable tile.
+- **impassable:** Wall or obstacle. Cannot be entered.
+- **water:** Requires SURF to cross.
+- **elevated_ground:** Walkable, but on a different Z-axis from `ground`. Cannot move directly between `ground` and `elevated_ground`.
+- **steps:** The only tile type that allows movement between `ground` and `elevated_ground`.
+- **ladder_up / ladder_down:** Warps between floors.
 
 # III. Current Goals & Hypotheses
 ## A. Primary Objective
