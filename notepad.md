@@ -70,3 +70,4 @@
 
 ## D. Tile & Traversal Mechanics (Verified)
 - **Surf Facing Requirement:** To use Surf, the player must be standing on a land tile and be facing the adjacent water tile they intend to enter. Attempting to use Surf while facing any other direction will fail.
+- **Defeated Trainers as Obstacles (Correction):** My previous assumption was incorrect. Defeated trainers remain as impassable objects and cannot be walked through. Paths must be planned around them.
