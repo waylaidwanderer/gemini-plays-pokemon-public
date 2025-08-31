@@ -103,13 +103,6 @@
 - **Defeated Trainers:** Remain as impassable obstacles.
 - **Pikachu Step Swap:** Player and Pikachu swap positions on 'steps' tiles.
 
-# III. Current Objective & Hypotheses
-- **Goal:** Capture the legendary Pokémon Mewtwo.
-- **Sub-Goal:** Gain access to Cerulean Cave.
-- **Current Hypothesis:** The entrance to Cerulean Cave is accessible via the water on Route 25.
-  - **Test:** Use Surf to explore the water body east of Route 25.
-  - **Expected Outcome:** Discover a new path or the cave entrance itself.
-
 # V. Custom Tools & Agents
 
 ## A. Existing Tools & Agents
