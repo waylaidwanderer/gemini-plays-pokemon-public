@@ -34,12 +34,6 @@
 - **Powder Move Effectiveness (Contradictory Data):** In a previous battle, NIGHTSHADE's SLEEP POWDER failed against a VILEPLUME with the message 'It didn't affect VILEPLUME!'. However, in the current battle, Erika's VILEPLUME is consistently able to use SLEEP POWDER successfully on NIGHTSHADE. This suggests a potential immunity for Grass-types against powder moves *from other Grass-types*, but this immunity might not apply to the player's Pokémon or could be conditional. Needs further investigation.
 
 ## D. Tile & Traversal Mechanics (Verified)
-- **ground:** Standard walkable tile.
-- **grass:** Walkable tile where wild Pokémon can be encountered.
-- **impassable:** Walls, objects, and other tiles that cannot be walked on.
-- **water:** Can only be crossed with the Surf HM.
-- **ledge:** Can only be jumped down from above (Y-1). Impassable from all other directions.
-- **cuttable:** A tree that can be cut with the Cut HM. Becomes 'ground' temporarily.
 - **Surf Facing Requirement:** To use Surf, the player must be standing on a land tile and be facing the adjacent water tile they intend to enter. Attempting to use Surf while facing any other direction will fail.
 - **Defeated Trainers as Obstacles (Correction):** My previous assumption was incorrect. Defeated trainers remain as impassable objects and cannot be walked through. Paths must be planned around them.
 - **Pikachu Step Swap:** Attempting to move onto a 'steps' tile occupied by Pikachu causes the player and Pikachu to swap positions.
