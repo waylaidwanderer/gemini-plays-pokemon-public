@@ -78,3 +78,4 @@
 - **'Next Pokémon Selector' (Tool/Agent):** A tool or agent that takes the current party state and the opponent's Pokémon as input and recommends the best Pokémon to send out after one of yours has fainted. This would automate the decision-making process in critical moments.
 - **'Battle Log Parser' (Tool):** A tool that takes raw battle screen text and extracts key events (moves used, effectiveness, status changes) to streamline documentation.
 - **'Strategic Team Builder' (Agent Expansion):** Enhance the existing `team_builder_agent` to not only suggest a team but also provide a high-level strategic plan for the battle, including lead matchups and key pivots.
+- **'Stall Breaker' (Agent):** An agent that analyzes battles for repetitive, non-damaging stall tactics (like sleep-locking) and suggests specific counter-strategies or Pokémon swaps to break the loop.
