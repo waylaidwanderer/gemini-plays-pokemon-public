@@ -76,3 +76,6 @@
 ## F. Known Pokemon Locations (Verified)
 - **Cerulean Cave:** Ditto, Wigglytuff, Electrode, Golem, Raichu, Sandslash, Parasect, Lickitung, Magneton, Dodrio. (Levels ~62-65)
 - **Agent Idea:** An `item_restock_agent` could take current inventory and a target location to suggest a shopping list.
+
+# VI. Agent & Tool Ideas (Post-Self-Assessment Turn 180117)
+- **`bulk_deposit_agent` Idea:** Create an agent to orchestrate the `pc_item_management_tool`. It would take the full screen text and a list of items to deposit, then generate a complete sequence of tool calls to deposit all matching items visible on the screen, including handling stacks. This would consolidate many turns of manual tool calls into a single, more efficient action.
