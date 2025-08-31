@@ -42,7 +42,7 @@
 - **Goal:** Capture the legendary Pokémon Mewtwo.
 - **Sub-Goal:** Gain access to Cerulean Cave.
 - **Failed Hypothesis (Route 25):** The entrance to Cerulean Cave is on Route 25. **Conclusion:** After exploring all land paths, interacting with all objects/NPCs (including the soft-locking Pikachu event at the cave entrance and the dead-end at Bill's House), and surfing all accessible water areas, Route 25 has been fully explored and contains no entrance to Cerulean Cave. The investigation here is stalled.
-- **New Hypothesis:** The entrance to Cerulean Cave is accessible by surfing on the water on Route 24.
+- **Failed Hypothesis (Route 24):** The entrance to Cerulean Cave is accessible by surfing on the water on Route 24. **Conclusion:** After exploring all accessible water areas on Route 24, it has been confirmed that the water is segmented and provides no access to Cerulean Cave or any new areas. The investigation here is stalled.
 
 # V. Custom Tools & Agents
 

@@ -713,32 +713,6 @@
       }
     ]
   },
-  "gym_puzzle_solver_tool": {
-    "description": "Manages the systematic search for switches in the Vermilion Gym trash can puzzle. Takes a list of all can coordinates and a list of already-checked cans, and returns the coordinate of the next can to check.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "all_can_coordinates": {
-          "type": "string"
-        },
-        "checked_can_coordinates": {
-          "type": "string"
-        }
-      },
-      "required": [
-        "all_can_coordinates",
-        "checked_can_coordinates"
-      ]
-    },
-    "python_script": "import json\nall_cans_str = input_data['all_can_coordinates']\nchecked_cans_str = input_data['checked_can_coordinates']\nall_cans = json.loads(all_cans_str)\nchecked_cans = json.loads(checked_cans_str)\nall_cans.sort(key=lambda c: (c[1], c[0]))\nchecked_cans_set = {tuple(c) for c in checked_cans}\nnext_can = None\nfor can in all_cans:\n    if tuple(can) not in checked_cans_set:\n        next_can = can\n        break\nif next_can:\n    print(json.dumps({'next_can_to_check_x': next_can[0], 'next_can_to_check_y': next_can[1]}))\nelse:\n    print(json.dumps({'error': 'All cans have been checked.'}))",
-    "history": [
-      {
-        "commit_message": "feat: Create gym_puzzle_solver_tool to replace agent. In response to an Overwatch critique, this commit creates a dedicated tool to manage the Vermilion Gym puzzle. This task is deterministic and better suited for a tool than an agent, improving efficiency and adhering to best practices.",
-        "timestamp": "2025-08-31T00:06:17.726Z",
-        "action_counter": 177501
-      }
-    ]
-  },
   "party_menu_navigator": {
     "description": "Navigates the out-of-battle party menu to select a target Pokémon. Outputs the necessary directional button presses.",
     "input_schema": {
@@ -818,6 +792,44 @@
         "commit_message": "fix: Overhaul logic to use correct, fixed city order. The tool was failing because its internal model of the Fly menu was incorrect. This commit replaces the faulty logic with a hardcoded list that mirrors the actual in-game city order. It now correctly parses the current city from screen text, finds the indices of the current and target cities in the fixed list, and calculates the precise number of 'Up' or 'Down' presses required. This completely fixes the tool's primary functional defect and ensures reliable navigation.",
         "timestamp": "2025-08-31T05:30:32.594Z",
         "action_counter": 178201
+      }
+    ]
+  },
+  "move_into_pikachu": {
+    "description": "A deterministic tool that takes the player's current facing direction and the relative direction of Pikachu and outputs the 1 or 2 button presses needed to move onto Pikachu's tile.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "player_facing_direction": {
+          "type": "string",
+          "enum": [
+            "up",
+            "down",
+            "left",
+            "right"
+          ]
+        },
+        "pikachu_direction": {
+          "type": "string",
+          "enum": [
+            "up",
+            "down",
+            "left",
+            "right"
+          ]
+        }
+      },
+      "required": [
+        "player_facing_direction",
+        "pikachu_direction"
+      ]
+    },
+    "python_script": "import json\nplayer_facing = input_data['player_facing_direction']\npikachu_dir = input_data['pikachu_direction']\nbuttons = []\nif player_facing == pikachu_dir:\n    buttons.append(pikachu_dir.capitalize())\nelse:\n    buttons.append(pikachu_dir.capitalize())\n    buttons.append(pikachu_dir.capitalize())\nprint(json.dumps(buttons))",
+    "history": [
+      {
+        "commit_message": "feat: Create move_into_pikachu tool. In response to an Overwatch critique about deferred action, this tool is created to automate the common and error-prone task of moving onto Pikachu's tile. It calculates whether one or two button presses are needed based on the player's facing direction, improving navigation efficiency.",
+        "timestamp": "2025-08-31T07:36:29.767Z",
+        "action_counter": 178452
       }
     ]
   }
