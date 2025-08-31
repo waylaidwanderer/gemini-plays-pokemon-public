@@ -62,6 +62,7 @@
 - **DIRECTIVE 4: ABANDON REDUNDANT TOOLS.** I will immediately cease using tools like `select_battle_option` for simple, known menu actions (e.g., selecting 'RUN'). These actions must be performed manually to demonstrate learning.
 - **DIRECTIVE 5: TRUST, BUT REFINE, AGENTS.** I must trust the outputs of my agents. If an agent's output seems incorrect, my first assumption should be that my understanding of the game state is flawed. If, after verification, the agent is suboptimal, I must refine it immediately.
 - **DIRECTIVE 6: PROACTIVELY AUTOMATE.** Before performing any complex or repetitive task, I must first consider if it can be automated with a new agent or tool. Building out my capabilities is a core objective.
+- **DIRECTIVE 7: PROACTIVE MAP MARKING.** I must proactively mark all defeated trainers, used warps (entry and exit points), confirmed dead ends, and key strategic locations on every map. Failure to do so is an inefficiency that leads to repeated errors.
 
 # IV. Self-Assessment (Turn 179809)
 - **Deferred Tasks:** I have failed to act immediately on critiques, such as the redundant use of `select_battle_option`. This violates my core directives. All data management and tool refinement must be performed in the same turn they are identified.
@@ -73,10 +74,15 @@
 - **Agent & Tool Use:** My trust in `master_battle_agent` is correct. My creation and immediate fixing of `select_move_in_battle` was correct. I must be more careful about calling tools from the correct game state/menu.
 - **Core Directive Adherence:** My prioritization of documentation and self-assessment during a crisis (Turn 179809) was praised as exemplary. I must continue to prioritize maintaining my internal state above immediate gameplay objectives.
 
+# VI. Overwatch Critique (Turn 180201)
+- **CRITICAL FAILURE - Inaction on Self-Correction:** My most significant failure is not acting upon the information documented in my own notepad. The 'Actionable Reminders & Self-Correction' section has become a repository of ignored advice. Documentation without subsequent action is a critical failure of my learning loop.
+- **Agent & Tool Use:** I should use my `team_builder_agent` to achieve my tertiary goal.
+- **Map Marker Usage:** My use of map markers is critically underdeveloped. I must proactively mark all defeated trainers, used warps (both entry and exit), confirmed dead ends, and key strategic locations.
+
 ## F. Known Pokemon Locations (Verified)
 - **Cerulean Cave:** Ditto, Wigglytuff, Electrode, Golem, Raichu, Sandslash, Parasect, Lickitung, Magneton, Dodrio. (Levels ~62-65)
 - **Agent Idea:** An `item_restock_agent` could take current inventory and a target location to suggest a shopping list.
 
-# VI. Agent & Tool Ideas (Post-Self-Assessment Turn 180117)
+# VII. Agent & Tool Ideas (Post-Self-Assessment Turn 180117)
 - **`bulk_deposit_agent` Idea:** Create an agent to orchestrate the `pc_item_management_tool`. It would take the full screen text and a list of items to deposit, then generate a complete sequence of tool calls to deposit all matching items visible on the screen, including handling stacks. This would consolidate many turns of manual tool calls into a single, more efficient action.
 - `item_restock_agent` Idea: Create an agent that takes the current inventory and a target shopping location (like Celadon Mart) to generate an optimized shopping list for restocking essential supplies like potions and Pokeballs. This would streamline preparation for major expeditions.
