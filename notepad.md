@@ -67,3 +67,6 @@
 - **'Battle Log Parser' (Tool):** A tool that takes raw battle screen text and extracts key events (moves used, effectiveness, status changes) to streamline documentation.
 - **'Strategic Team Builder' (Agent Expansion):** Enhance the existing `team_builder_agent` to not only suggest a team but also provide a high-level strategic plan for the battle, including lead matchups and key pivots.
 - **'Stall Breaker' (Agent):** An agent that analyzes battles for repetitive, non-damaging stall tactics (like sleep-locking) and suggests specific counter-strategies or Pokémon swaps to break the loop.
+
+## D. Tile & Traversal Mechanics (Verified)
+- **Surf Facing Requirement:** To use Surf, the player must be standing on a land tile and be facing the adjacent water tile they intend to enter. Attempting to use Surf while facing any other direction will fail.
