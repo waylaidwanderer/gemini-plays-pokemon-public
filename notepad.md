@@ -31,3 +31,9 @@
 
 ## C. Discovered Battle Mechanics (Verified)
 - **Earthquake vs. Dig:** Earthquake can hit an opponent that is underground using Dig.
+
+# III. Current Plans & Puzzles
+## A. Cerulean City Navigation Puzzle
+- **Problem:** I am stuck on the west side of Cerulean City. I cannot reach the Pokémon Center on the east side because the water is not contiguous, and my flyer, ECHO, has fainted.
+- **Initial (Flawed) Plan:** Walk to Pewter City via Route 4 and Mt. Moon to heal.
+- **Agent-Assisted Plan:** Awaiting suggestion from the refined `navigation_troubleshooter` agent.
