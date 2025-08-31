@@ -793,65 +793,6 @@
       }
     ]
   },
-  "pc_item_management_tool": {
-    "description": "Navigates the PC item storage menu to deposit a specified list of items. Outputs the necessary button presses.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "screen_text": {
-          "type": "string"
-        },
-        "items_to_deposit": {
-          "type": "array",
-          "items": {
-            "type": "string"
-          }
-        }
-      },
-      "required": [
-        "screen_text",
-        "items_to_deposit"
-      ]
-    },
-    "python_script": "import json\nimport re\n\ndef pc_item_manager(screen_text, items_to_deposit_str):\n    try:\n        items_to_deposit = json.loads(items_to_deposit_str)\n    except json.JSONDecodeError:\n        items_to_deposit = [item.strip() for item in items_to_deposit_str.strip('[]').replace('\"', '').split(',')]\n\n    lines = screen_text.strip().split('\\n')\n    \n    if \"That's too impor-\" in screen_text:\n        print(json.dumps([\"B\"]))\n        return\n\n    if \"How many?\" in screen_text:\n        print(json.dumps([\"A\"]))\n        return\n        \n    if \"was stored via PC\" in screen_text:\n        print(json.dumps([\"A\"]))\n        return\n\n    if \"What do you want\" in screen_text:\n        visible_items = []\n        selected_item = None\n        item_pattern = re.compile(r'(?:→)?\\s*([A-Z0-9\\.\\']{2,}(?: [A-Z0-9\\.\\']+)?)')\n\n        stop_parsing = False\n        for line in lines:\n            if \"What do you want\" in line or \"How many?\" in line:\n                stop_parsing = True\n            if stop_parsing or line.startswith('×') or not line.strip():\n                continue\n\n            is_selected = '→' in line\n            clean_line = line.replace('→', '').strip()\n            \n            # Extract item name from the line, ignoring prefixes like 'DE', 'TO', 'LO'\n            parts = clean_line.split()\n            item_name_parts = []\n            for part in parts:\n                if part not in ['WI', 'DE', 'TO', 'LO']:\n                    item_name_parts.append(part)\n            item_name = ' '.join(item_name_parts)\n\n            if item_name:\n                visible_items.append(item_name)\n                if is_selected:\n                    selected_item = item_name\n        \n        target_item = next((item for item in items_to_deposit if item in visible_items), None)\n        \n        if target_item:\n            if selected_item == target_item:\n                print(json.dumps([\"A\"]))\n            else:\n                try:\n                    current_idx = visible_items.index(selected_item)\n                    target_idx = visible_items.index(target_item)\n                    moves = target_idx - current_idx\n                    buttons = [\"Down\"] * moves if moves > 0 else [\"Up\"] * abs(moves)\n                    print(json.dumps(buttons))\n                except (ValueError, IndexError):\n                    print(json.dumps([\"Down\"])) \n        else:\n            print(json.dumps([\"Down\"]))\n    else:\n        print(json.dumps([\"B\"]))\n\npc_item_manager(input_data['screen_text'], input_data['items_to_deposit'])",
-    "history": [
-      {
-        "commit_message": "feat: Create pc_item_management_tool. In response to a mandatory self-assessment identifying repetitive manual inventory management as a key inefficiency, this tool automates the process of depositing items into the PC. This will significantly speed up the restocking process and reduce manual error, directly addressing a major gameplay bottleneck.",
-        "timestamp": "2025-08-31T20:20:33.235Z",
-        "action_counter": 179964
-      },
-      {
-        "commit_message": "feat: Create pc_item_management_tool. In response to a mandatory self-assessment identifying repetitive manual inventory management as a key inefficiency, this tool automates the process of depositing items into the PC. This will significantly speed up the restocking process and reduce manual error, directly addressing a major gameplay bottleneck.",
-        "timestamp": "2025-08-31T20:21:21.983Z",
-        "action_counter": 179965
-      },
-      {
-        "commit_message": "fix: Overhaul parsing logic to correctly identify items in the PC deposit menu. The previous version failed because it couldn't handle the two-letter prefixes and selection arrow format. This new version uses a more robust regex to accurately parse the visible item list and the currently selected item. It also refines the action logic to deposit all visible items from the target list in a single run, or scroll down if no target items are visible, making it more reliable.",
-        "timestamp": "2025-08-31T20:30:08.791Z",
-        "action_counter": 179980
-      },
-      {
-        "commit_message": "fix: Overhaul parsing and deposit logic. The tool was failing to identify items without prefixes and was not correctly parsing the JSON input for target items. This commit replaces the fragile regex with a line-by-line parsing approach, adds `json.loads` to handle the input correctly, and simplifies the deposit logic to handle one item at a time for better reliability.",
-        "timestamp": "2025-08-31T20:36:55.344Z",
-        "action_counter": 179989
-      },
-      {
-        "commit_message": "fix: Overhaul parsing logic to be more robust. The previous regex-based approach was failing due to inconsistent screen layouts. This commit replaces it with a line-by-line parser that stops at the question prompt and correctly ignores quantity lines. This should make item and cursor detection much more reliable and prevent the tool from failing to find items or scrolling indefinitely.",
-        "timestamp": "2025-08-31T20:45:08.567Z",
-        "action_counter": 180005
-      },
-      {
-        "commit_message": "fix: Add state handling for PC menu. The tool now recognizes and handles the 'too important', 'how many', and 'stored' messages. It also uses a more reliable line-by-line parsing method instead of a fragile regex, which should prevent future failures when encountering undepositable items or item stacks.",
-        "timestamp": "2025-08-31T21:06:53.584Z",
-        "action_counter": 180051
-      },
-      {
-        "commit_message": "fix: Correct line parsing logic to include item lines. The previous version was incorrectly skipping lines that started with 'DE', 'TO', or 'LO', causing it to fail to identify visible items. This commit removes that faulty check, allowing the tool to correctly parse the full item list.",
-        "timestamp": "2025-08-31T21:08:11.560Z",
-        "action_counter": 180054
-      }
-    ]
-  },
   "execute_button_sequence": {
     "description": "Executes a predefined sequence of button presses. Useful for complex menu navigation that single-purpose tools can't handle, such as depositing a specific quantity of an item.",
     "input_schema": {
