@@ -33,16 +33,19 @@
 - **Porygon's Freezing Move:** Lt. Surge's PORYGON knows a move that can inflict Freeze. The specific move is unknown.
 - **Powder Move Effectiveness (Contradictory Data):** In a previous battle, NIGHTSHADE's SLEEP POWDER failed against a VILEPLUME with the message 'It didn't affect VILEPLUME!'. However, in the current battle, Erika's VILEPLUME is consistently able to use SLEEP POWDER successfully on NIGHTSHADE. This suggests a potential immunity for Grass-types against powder moves *from other Grass-types*, but this immunity might not apply to the player's Pokémon or could be conditional. Needs further investigation.
 
+## D. Tile & Traversal Mechanics
+- **ground:** Standard walkable tile.
+- **impassable:** Cannot be entered.
+- **grass:** Tall grass with wild Pokémon encounters.
+- **water:** Requires Surf to cross.
+- **steps:** Allows movement between `ground` and `elevated_ground`.
+- **elevated_ground:** Walkable, but only accessible via `steps`.
+- **cuttable:** Requires Cut to pass. Respawns on map change.
+- **ledge:** Can only be jumped down from above.
+- **ladder_up / ladder_down:** Warps between floors.
+
 # III. Current Objective & Hypotheses
 - **Goal:** Capture the legendary Pokémon Mewtwo.
 - **Sub-Goal:** Explore Cerulean Cave.
 - **Discovery:** The main entrance to the Cerulean Gym at (5, 12) is actually a warp to Cerulean Cave 1F.
 - **Failed Hypothesis (Routes 24 & 25):** The entrance to Cerulean Cave is accessible by surfing on the water on Routes 24 and 25. **Conclusion:** After exploring all accessible water areas on both routes, it has been confirmed that the water is segmented and provides no access to Cerulean Cave or any new areas. The investigation here is stalled.
-
-# IV. Custom Tools & Agents
-- **`find_path` (Tool):** After repeated crashes due to a persistent `TypeError`, the complex BFS implementation was reverted to a barebones, stable version. It has since been updated (Turn 177601) to be more robust, now correctly handling impassable destinations by pathing to an adjacent traversable tile.
-- **`team_builder_agent` (Agent):** Mandated by Overwatch for testing before the next major battle.
-- **`pc_navigator` (Tool):** The tool's regex pattern had a syntax error. I have corrected the unterminated string literal to ensure it functions reliably.
-- **`fly_menu_navigator` (Tool):** Automates Fly menu navigation. Initially had incorrect city order logic, causing repeated failures. Has been fixed to reflect the game's actual fixed city list.
-- **`move_into_pikachu` (Tool):** Automates moving onto Pikachu's tile.
-- **`master_battle_agent` (Agent):** Refined its logic for handling low-HP switch-ins to improve risk assessment. **Note:** Monitor performance regarding sacrificial pivots vs. switching in damaged key Pokémon.
