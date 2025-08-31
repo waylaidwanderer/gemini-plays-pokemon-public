@@ -702,36 +702,6 @@
       }
     ]
   },
-  "team_swap_automator": {
-    "description": "Automates depositing and withdrawing lists of Pokémon from the PC.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "pokemon_to_deposit": {
-          "type": "string"
-        },
-        "pokemon_to_withdraw": {
-          "type": "string"
-        },
-        "screen_text": {
-          "type": "string"
-        }
-      },
-      "required": [
-        "pokemon_to_deposit",
-        "pokemon_to_withdraw",
-        "screen_text"
-      ]
-    },
-    "python_script": "import json\nprint(json.dumps([]))\n# Placeholder script. This tool will be developed further in subsequent turns.",
-    "history": [
-      {
-        "commit_message": "feat: Create placeholder for team_swap_automator. In response to an Overwatch critique about deferring tool creation, this commit establishes the initial placeholder for a tool designed to automate the complex process of swapping multiple Pokémon at a PC. The script is currently a non-functional placeholder, but defining the tool immediately addresses the core directive to not defer maintenance. Future commits will build out the necessary logic for parsing PC menus and generating button presses.",
-        "timestamp": "2025-08-30T22:33:19.339Z",
-        "action_counter": 177257
-      }
-    ]
-  },
   "gym_puzzle_solver_tool": {
     "description": "Manages the systematic search for switches in the Vermilion Gym trash can puzzle. Takes a list of all can coordinates and a list of already-checked cans, and returns the coordinate of the next can to check.",
     "input_schema": {
@@ -781,6 +751,47 @@
         "commit_message": "feat: Create party_menu_navigator tool. In response to a mandatory self-assessment, this tool is created to automate the repetitive task of selecting a Pokémon from the out-of-battle party menu, improving efficiency and reducing manual input errors when using HMs.",
         "timestamp": "2025-08-31T01:19:02.975Z",
         "action_counter": 177653
+      }
+    ]
+  },
+  "fly_menu_navigator": {
+    "description": "Navigates the Fly map menu to select a target city. Outputs the necessary directional button presses.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "target_city": {
+          "type": "string"
+        },
+        "screen_text": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "target_city",
+        "screen_text"
+      ]
+    },
+    "python_script": "import json\nimport re\n\ndef navigate_fly_menu(screen_text, target_city):\n    city_order = [\n        \"PALLET TOWN\", \"VIRIDIAN CITY\", \"PEWTER CITY\", \"CERULEAN CITY\",\n        \"LAVENDER TOWN\", \"VERMILION CITY\", \"CELADON CITY\", \"FUCHSIA CITY\",\n        \"CINNABAR ISLAND\", \"SAFFRON CITY\", \"INDIGO PLATEAU\"\n    ]\n\n    match = re.search(r\"To ([\\w\\s]+)\", screen_text)\n    if not match:\n        return json.dumps({\"error\": \"Could not parse current city from screen text.\"})\n\n    current_city = match.group(1).strip().upper()\n    # Normalize whitespace in target_city to prevent errors from extra spaces\n    target_city_normalized = re.sub(r'\\s+', ' ', target_city).strip().upper()\n\n    if current_city not in city_order:\n        return json.dumps({\"error\": f\"Invalid current city parsed: '{current_city}'. Valid options are: {city_order}\"})\n    if target_city_normalized not in city_order:\n        return json.dumps({\"error\": f\"Invalid target city: '{target_city}'. Valid options are: {city_order}\"})\n\n    current_index = city_order.index(current_city)\n    target_index = city_order.index(target_city_normalized)\n\n    diff = target_index - current_index\n    if diff == 0:\n        return json.dumps([])\n\n    # The menu wraps around, so find the shortest path\n    path_down = diff if diff >= 0 else diff + len(city_order)\n    path_up = abs(diff) if diff < 0 else len(city_order) - diff\n\n    if path_down <= path_up:\n        moves = [\"Down\"] * path_down\n    else:\n        moves = [\"Up\"] * path_up\n\n    return json.dumps(moves)\n\nprint(navigate_fly_menu(input_data['screen_text'], input_data['target_city']))\n",
+    "history": [
+      {
+        "commit_message": "feat: Create fly_menu_navigator tool. In response to a mandatory self-assessment, this tool is created to automate the repetitive and error-prone task of selecting a destination from the Fly menu, improving efficiency.",
+        "timestamp": "2025-08-31T01:59:28.473Z",
+        "action_counter": 177761
+      },
+      {
+        "commit_message": "fix: Implement correct city order for navigation. The tool was failing because it did not account for the non-alphabetical, fixed order of cities in the Fly menu. This commit replaces the faulty logic with a predefined list that mirrors the in-game map layout, ensuring the tool calculates the correct number of 'Up' or 'Down' presses to reach the target destination.",
+        "timestamp": "2025-08-31T02:03:46.663Z",
+        "action_counter": 177772
+      },
+      {
+        "commit_message": "fix: Correctly parse current city from screen text and separate action buttons. The tool was failing because it incorrectly assumed the starting city was always 'PALLET TOWN' and included an 'A' press. This commit adds regex parsing to dynamically determine the current city from the `screen_text` input and removes the 'A' press to prevent input errors, ensuring the navigation calculation is always correct and robust.",
+        "timestamp": "2025-08-31T02:08:44.262Z",
+        "action_counter": 177784
+      },
+      {
+        "commit_message": "fix: Add input normalization and improved error reporting. The tool was failing due to subtle input errors (likely whitespace or typos). This commit adds regex-based normalization to the `target_city` input to make it more robust. It also enhances the error message to return the list of valid cities, which will significantly aid in debugging any future failures.",
+        "timestamp": "2025-08-31T02:14:13.376Z",
+        "action_counter": 177797
       }
     ]
   }
