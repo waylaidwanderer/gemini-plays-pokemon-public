@@ -40,7 +40,7 @@
 
 ## A. Existing Tools & Agents
 
-- **`find_path` (Tool):** After repeated crashes due to a persistent `TypeError`, the complex BFS implementation was reverted to a barebones, stable version. This restored core functionality at the cost of advanced features like handling impassable destinations. **To-Do:** Refine this tool to safely handle impassable destinations by pathing to an adjacent tile.
+- **`find_path` (Tool):** After repeated crashes due to a persistent `TypeError`, the complex BFS implementation was reverted to a barebones, stable version. This restored core functionality at the cost of advanced features like handling impassable destinations. 
 - **`gym_puzzle_solver_tool` (Tool):** Replaced the `gym_puzzle_navigator` agent to better align with architectural best practices, as this is a deterministic, computational task.
 - **`team_builder_agent` (Agent):** Mandated by Overwatch for testing before the next major battle.
 - **`pc_navigator` (Tool):** The tool's regex pattern had a syntax error. I have corrected the unterminated string literal to ensure it functions reliably.
