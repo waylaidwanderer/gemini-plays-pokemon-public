@@ -9,7 +9,7 @@
 - **Confirmation Bias in Pewter Museum (Turns ~176650-176676):** I fell into a confirmation bias loop, repeatedly selecting 'NO' at the fee prompt because it worked once, even though it stopped my progress. I failed to adapt my strategy for over 20 turns. **Lesson:** I must recognize and abandon failed hypotheses much faster and actively try to disprove my own assumptions.
 - **Agent Interpretation Failure (Turn 176727):** I incorrectly concluded my `puzzle_solver_agent`'s hypothesis was wrong. I interpreted its suggestion of a 'missed path' too narrowly as a 'hidden trigger tile'. My failure to find a tile disproved only my specific interpretation, not the agent's broader, high-level suggestion. **Lesson:** I must trust my agents' outputs and consider broader interpretations of their advice rather than fixating on a single, narrow possibility.
 - **Failure to Trust Tools (Vermilion City, Turns ~177121-177152 & ~177304-177307):** My `find_path` tool repeatedly and correctly reported that no path existed to the Vermilion Gym. I incorrectly assumed the tool was broken and spent turns debugging it. **Lesson:** I must trust my tools' outputs. The tool correctly identified that Vermilion City is segmented by water and requires Surf. I must verify my own assumptions about the map before debugging a tool.
-- **Decisive Tool Maintenance:** When a critical tool is broken, I must stop all gameplay and commit to a decisive fix immediately, rather than attempting workarounds or partial fixes over multiple turns.
+- **Decisive Tool Maintenance:** When a critical tool is broken, I must stop all gameplay and commit to a decisive fix immediately, rather than attempting workarounds or partial fixes over multiple turns. My handling of the `fly_menu_navigator` tool (Turns ~177771-177804) was a severe violation of this principle.
 
 # II. Game & World Knowledge
 
@@ -21,13 +21,13 @@
 - **Water vs. Rock/Water:** Water is not very effective against Rock/Water dual-types (Verified vs. Kabutops).
 - **Ground vs. Normal:** Ground was observed to be super-effective against Porygon. Needs further testing to confirm if this is a universal change for all Normal-types.
 
-## B. World Mechanics & Rules
+## B. Discovered World Mechanics & Rules
 
 - **Pikachu Step Swap:** Attempting to move onto a 'steps' tile occupied by Pikachu causes the player and Pikachu to swap positions.
 - **Pewter Museum Fee Trigger Tile (10, 5):** This tile triggers a fee prompt. Paying the fee alters the destination of the fake gym warp in Pewter City (15, 8), granting access to the museum's eastern section.
 - **Pewter Museum Fossil Interaction Soft-Lock:** Interacting with the Aerodactyl fossil at (3, 4) displays flavor text and then causes a soft-lock where movement is impossible. Pressing 'B' cancels the event and restores movement.
 
-## C. Battle Mechanics (Verified & In-Progress)
+## C. Discovered Battle Mechanics (Verified & In-Progress)
 - **Earthquake vs. Dig:** Earthquake can hit an opponent that is underground using Dig. (Verified vs. Jolteon). Increased damage is unconfirmed.
 
 # III. Current Objective: Gym Leader Rematches
@@ -54,5 +54,5 @@
 - **Officer Jenny Path Block:** Hypothesis that defeating the Rocket Grunt or Misty would cause Officer Jenny to move was incorrect. The path to Route 9 remains blocked.
 
 # VIII. Interactable Object Mechanics (Verified)
-- Vermilion Gym Statues: The statues in the gym act as the puzzle switches, not the trash cans. Interacting with the winner's board statue after checking all cans solved the puzzle.
-- Porygon's Freezing Move: Lt. Surge's PORYGON knows a move that can inflict Freeze. The specific move is unknown.
+- **Vermilion Gym Statues:** The statues in the gym act as the puzzle switches, not the trash cans. Interacting with the winner's board statue after checking all cans solved the puzzle.
+- **Porygon's Freezing Move:** Lt. Surge's PORYGON knows a move that can inflict Freeze. The specific move is unknown.
