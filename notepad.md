@@ -34,19 +34,6 @@
 - **Porygon's Freezing Move:** Lt. Surge's PORYGON knows a move that can inflict Freeze. The specific move is unknown.
 - **Powder Move Effectiveness (Contradictory Data):** In a previous battle, NIGHTSHADE's SLEEP POWDER failed against a VILEPLUME with the message 'It didn't affect VILEPLUME!'. However, in the current battle, Erika's VILEPLUME is consistently able to use SLEEP POWDER successfully on NIGHTSHADE. This suggests a potential immunity for Grass-types against powder moves *from other Grass-types*, but this immunity might not apply to the player's Pokémon or could be conditional. Needs further investigation.
 
-## D. Tile Mechanics (Verified)
-- **ground / grass:** Standard walkable tiles.
-- **impassable:** Walls, objects, etc. Cannot be entered.
-- **cuttable:** A tree that can be cut with HM Cut. Becomes `ground` after being cut.
-- **water:** Requires HM Surf to traverse.
-- **ledge:** A one-way drop. Can be jumped down from above, but not climbed up from below.
-- **steps:** Allows movement between `ground` and `elevated_ground` tiles.
-- **elevated_ground:** Walkable ground at a different elevation, only accessible via `steps` tiles.
-- **boulder_switch:** A floor switch that is activated by pushing a boulder onto it.
-- **boulder_barrier:** An impassable barrier that is removed when a corresponding `boulder_switch` is activated.
-- **cleared_boulder_barrier:** A former `boulder_barrier` that now acts as `ground`.
-- **spinner:** A tile that forces movement in a specific direction.
-
 # III. Current Objective: Gym Leader Rematches
 - **Goal:** Rematch all Kanto Gym Leaders to test my strength.
 - **Status:** Brock, Misty, and Lt. Surge defeated.
