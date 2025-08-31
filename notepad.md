@@ -36,18 +36,13 @@
 # III. Current Objective & Hypotheses
 - **Goal:** Capture the legendary Pokémon Mewtwo.
 - **Sub-Goal:** Explore Cerulean Cave.
-- **New Discovery:** The main entrance to the Cerulean Gym at (5, 12) is actually a warp to Cerulean Cave 1F.
+- **Discovery:** The main entrance to the Cerulean Gym at (5, 12) is actually a warp to Cerulean Cave 1F.
 - **Failed Hypothesis (Routes 24 & 25):** The entrance to Cerulean Cave is accessible by surfing on the water on Routes 24 and 25. **Conclusion:** After exploring all accessible water areas on both routes, it has been confirmed that the water is segmented and provides no access to Cerulean Cave or any new areas. The investigation here is stalled.
 
-# IV. Future Agent/Tool Ideas
-- **Wild Battle Agent:** An agent to automate simple wild battles by deciding to fight or run, and selecting moves. This would improve efficiency when exploring.
-
-# V. Custom Tools & Agents
-
-## A. Existing Tools & Agents
+# IV. Custom Tools & Agents
 - **`find_path` (Tool):** After repeated crashes due to a persistent `TypeError`, the complex BFS implementation was reverted to a barebones, stable version. It has since been updated (Turn 177601) to be more robust, now correctly handling impassable destinations by pathing to an adjacent traversable tile.
 - **`team_builder_agent` (Agent):** Mandated by Overwatch for testing before the next major battle.
 - **`pc_navigator` (Tool):** The tool's regex pattern had a syntax error. I have corrected the unterminated string literal to ensure it functions reliably.
 - **`fly_menu_navigator` (Tool):** Automates Fly menu navigation. Initially had incorrect city order logic, causing repeated failures. Has been fixed to reflect the game's actual fixed city list.
-- **`move_into_pikachu` (Tool):** Automates moving onto Pikachu's tile. Not yet tested.
+- **`move_into_pikachu` (Tool):** Automates moving onto Pikachu's tile.
 - **`master_battle_agent` (Agent):** Refined its logic for handling low-HP switch-ins to improve risk assessment. **Note:** Monitor performance regarding sacrificial pivots vs. switching in damaged key Pokémon.
