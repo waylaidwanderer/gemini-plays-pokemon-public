@@ -35,8 +35,17 @@
 - **Powder Move Effectiveness (Contradictory Data):** Observed SLEEP POWDER being effective against Vileplume in one battle, but in another, the message 'It didn't affect NIGHTSHADE!' appeared when Vileplume used SLEEP POWDER. This suggests either a conditional immunity (e.g., same evolutionary line?) or a random chance of failure. Needs further investigation.
 
 ## D. Tile Mechanics (Verified)
+- **ground / grass:** Standard walkable tiles.
+- **impassable:** Walls, objects, etc. Cannot be entered.
+- **cuttable:** A tree that can be cut with HM Cut. Becomes `ground` after being cut.
+- **water:** Requires HM Surf to traverse.
+- **ledge:** A one-way drop. Can be jumped down from above, but not climbed up from below.
 - **steps:** Allows movement between `ground` and `elevated_ground` tiles.
 - **elevated_ground:** Walkable ground at a different elevation, only accessible via `steps` tiles.
+- **boulder_switch:** A floor switch that is activated by pushing a boulder onto it.
+- **boulder_barrier:** An impassable barrier that is removed when a corresponding `boulder_switch` is activated.
+- **cleared_boulder_barrier:** A former `boulder_barrier` that now acts as `ground`.
+- **spinner:** A tile that forces movement in a specific direction.
 
 # III. Current Objective: Gym Leader Rematches
 - **Goal:** Rematch all Kanto Gym Leaders to test my strength.
