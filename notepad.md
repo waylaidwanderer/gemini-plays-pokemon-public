@@ -59,3 +59,10 @@
 # VI. Future Tool & Agent Ideas
 - **'Use HM Automator' (Tool):** A high-level tool that takes an HM name (e.g., 'Cut') and a target coordinate. It would automate the entire sequence: open menu, select the correct Pokémon, select the HM, and execute it. This would significantly improve efficiency for recurring obstacles.
 - **'Next Pokémon Selector' (Tool/Agent):** A tool or agent that takes the current party state and the opponent's Pokémon as input and recommends the best Pokémon to send out after one of yours has fainted. This would automate the decision-making process in critical moments.
+
+## C. World & Object Mechanics (Verified)
+- **Powder Move Effectiveness:** Powder-based status moves (e.g., SLEEP POWDER, STUN SPORE) are effective against Grass/Poison dual-types (Verified vs. Vileplume).
+
+# VI. Future Tool & Agent Ideas
+- **'Battle Log Parser' (Tool):** A tool that takes raw battle screen text and extracts key events (moves used, effectiveness, status changes) to streamline documentation.
+- **'Strategic Team Builder' (Agent Expansion):** Enhance the existing `team_builder_agent` to not only suggest a team but also provide a high-level strategic plan for the battle, including lead matchups and key pivots.
