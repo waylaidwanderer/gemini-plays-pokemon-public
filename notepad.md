@@ -2,8 +2,6 @@
 
 - **Confirmation Bias in Tool Debugging (Turns ~177769-177818):** My repeated failures with the `fly_menu_navigator` tool were exacerbated by confirmation bias. I assumed minor errors and applied small fixes, rather than testing the broader hypothesis that my fundamental approach was flawed. **Lesson:** When debugging, I must actively try to *disprove* my own assumptions. I should formulate and test hypotheses that challenge my core logic, as this can lead to the root cause much faster than iterative, minor tweaks.
 
-- **Repeated Tool Misuse & Failure to Learn (Turns 179501-179608):** Despite a self-correction note and an Overwatch critique, I again used `select_battle_option` for a simple 'RUN' command. This is a critical failure to learn from documented mistakes. I must prioritize manual execution for simple, known menu actions.
-
 # II. Game & World Knowledge
 ## A. General Game Mechanics (Verified)
 - **Porygon's Freezing Move:** Some Pokémon know moves that can inflict Freeze.
