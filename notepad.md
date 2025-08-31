@@ -71,3 +71,6 @@
 # IX. Interactable Object Mechanics (Verified)
 - **trashcan:** An object that can be interacted with from an adjacent tile. In Vermilion Gym, some contain hidden switches for a puzzle. Checking a can with a switch and then checking an incorrect can will reset the puzzle.
 - **Vermilion Gym Statues:** The statues in the gym act as the puzzle switches, not the trash cans. Interacting with the winner's board statue after checking all cans solved the puzzle.
+
+- **Ground vs. Normal:** Ground is super-effective against Normal (Verified vs. Porygon).
+- Lt. Surge's PORYGON knows a move that can inflict Freeze.
