@@ -70,3 +70,7 @@
 
 # VIII. Self-Assessment (Turn 180373)
 - **Data Management & Agent Creation:** My immediate action on tasks is good. I've identified an opportunity to automate my current task of restocking and will create an `item_restock_agent` immediately, in line with my core directives to proactively automate.
+
+# IX. Item & Store Data
+## A. Celadon Department Store
+- **5F - Clerk 1 (6,4):** Sells TM12 WATRGUN (¥1000), TM16 PAYDAY (¥5000), TM19 SMCTOSS (¥3000), TM30 TELEPRT (¥1000).
