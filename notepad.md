@@ -101,3 +101,4 @@
 - **'Battle Log Parser' (Tool):** A tool that takes raw battle screen text and extracts key events to streamline documentation.
 - **'Strategic Team Builder' (Agent Expansion):** Enhance the existing `team_builder_agent` to also provide a high-level strategic plan for the battle.
 - **'Stall Breaker' (Agent):** An agent that analyzes battles for repetitive, non-damaging stall tactics and suggests counter-strategies.
+- **Pikachu on Water Blocks Surf:** Attempting to use Surf on a water tile occupied by the follower Pikachu will fail. An unoccupied adjacent water tile must be used.
