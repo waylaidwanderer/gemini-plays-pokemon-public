@@ -25,7 +25,12 @@
 ## C. Discovered Battle Mechanics (Verified & In-Progress)
 - **Earthquake vs. Dig:** Earthquake can hit an opponent that is underground using Dig. (Verified vs. Jolton). Increased damage is unconfirmed.
 
-## D. World & Object Mechanics (Verified)
+## D. Tile & Traversal Mechanics (Verified)
+- **Vermilion Gym Statues:** Act as puzzle switches.
+- **Porygon's Freezing Move:** Lt. Surge's PORYGON knows a move that can inflict Freeze.
+- **Powder Move Effectiveness (Contradictory Data):** Potential immunity for Grass-types against powder moves *from other Grass-types*, but needs more investigation.
+- **Cerulean Gym Entrance (5, 12):** This is a warp to Cerulean Cave 1F.
+- **Routes 24 & 25 Waterways:** Segmented and do not provide access to Cerulean Cave.
 - **Vermilion Gym Statues:** Act as puzzle switches.
 - **Porygon's Freezing Move:** Lt. Surge's PORYGON knows a move that can inflict Freeze.
 - **Powder Move Effectiveness (Contradictory Data):** Potential immunity for Grass-types against powder moves *from other Grass-types*, but needs more investigation.
