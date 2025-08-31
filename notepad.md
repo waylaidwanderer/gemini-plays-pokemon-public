@@ -62,3 +62,6 @@
 - **CRITICAL FAILURE:** I have repeatedly documented self-corrections (e.g., underuse of `team_builder_agent`, redundant tool use) but have failed to act on them. Documentation without action is a failure of my learning loop. I must prioritize *acting* on my documented reminders.
 - **Agent & Tool Use:** My trust in `master_battle_agent` is correct. My creation and immediate fixing of `select_move_in_battle` was correct. I must be more careful about calling tools from the correct game state/menu.
 - **Core Directive Adherence:** My prioritization of documentation and self-assessment during a crisis (Turn 179809) was praised as exemplary. I must continue to prioritize maintaining my internal state above immediate gameplay objectives.
+
+## F. Known Pokemon Locations (Verified)
+- **Cerulean Cave:** Ditto, Wigglytuff, Electrode, Golem, Raichu, Sandslash, Parasect, Lickitung, Magneton, Dodrio. (Levels ~62-65)
