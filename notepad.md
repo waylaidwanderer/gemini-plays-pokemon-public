@@ -54,16 +54,6 @@
 - **`fly_menu_navigator` (Tool):** Automates Fly menu navigation. Initially had incorrect city order logic, causing repeated failures. Has been fixed to reflect the game's actual fixed city list.
 - **`master_battle_agent` (Agent):** Refined its logic for handling low-HP switch-ins to improve risk assessment. **Note:** Monitor performance regarding sacrificial pivots vs. switching in damaged key Pokémon.
 
-## B. Future Tool & Agent Ideas
-- **'Pikachu Navigator' (Agent):** An agent that takes current position, Pikachu's position, and a target tile, and outputs the exact sequence of button presses needed to navigate around or onto Pikachu's tile.
-- **'Move Into Pikachu' (Tool):** A deterministic tool that takes current facing direction and the direction of Pikachu and outputs the 1 or 2 button presses needed to move onto Pikachu's tile.
-- **'Maze Navigator' (Agent):** An agent that takes a map layout and a destination, then breaks down the complex navigation into a series of intermediate, solvable `find_path` calls.
-- **'Use HM Automator' (Tool):** A high-level tool that takes an HM name (e.g., 'Cut') and a target coordinate. It would automate the entire sequence: open menu, select the correct Pokémon, select the HM, and execute it.
-- **'Next Pokémon Selector' (Tool/Agent):** A tool or agent that recommends the best Pokémon to send out after one of yours has fainted.
-- **'Battle Log Parser' (Tool):** A tool that takes raw battle screen text and extracts key events to streamline documentation.
-- **'Strategic Team Builder' (Agent Expansion):** Enhance the existing `team_builder_agent` to also provide a high-level strategic plan for the battle.
-- **'Stall Breaker' (Agent):** An agent that analyzes battles for repetitive, non-damaging stall tactics and suggests counter-strategies.
-
 # VI. Completed/Stalled Investigations
 - **Cerulean City Investigation:** Uncovered a path to the Cerulean Gym's back entrance by using Cut, but the path to Route 9 remains blocked by Officer Jenny. Investigation is currently stalled.
 - **Brock's Location:** Hypothesis that Brock was in Mt. Moon is incorrect. Abandoned this investigation.
