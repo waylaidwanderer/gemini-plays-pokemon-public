@@ -33,17 +33,6 @@
 - **Porygon's Freezing Move:** Lt. Surge's PORYGON knows a move that can inflict Freeze. The specific move is unknown.
 - **Powder Move Effectiveness (Contradictory Data):** In a previous battle, NIGHTSHADE's SLEEP POWDER failed against a VILEPLUME with the message 'It didn't affect VILEPLUME!'. However, in the current battle, Erika's VILEPLUME is consistently able to use SLEEP POWDER successfully on NIGHTSHADE. This suggests a potential immunity for Grass-types against powder moves *from other Grass-types*, but this immunity might not apply to the player's Pokémon or could be conditional. Needs further investigation.
 
-## D. Tile & Traversal Mechanics
-- **ground:** Standard walkable tile.
-- **impassable:** Cannot be entered.
-- **grass:** Tall grass with wild Pokémon encounters.
-- **water:** Requires Surf to cross.
-- **steps:** Allows movement between `ground` and `elevated_ground`.
-- **elevated_ground:** Walkable, but only accessible via `steps`.
-- **cuttable:** Requires Cut to pass. Respawns on map change.
-- **ledge:** Can only be jumped down from above.
-- **ladder_up / ladder_down:** Warps between floors.
-
 # III. Current Objective & Hypotheses
 - **Goal:** Capture the legendary Pokémon Mewtwo.
 - **Sub-Goal:** Explore Cerulean Cave.
