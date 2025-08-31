@@ -19,6 +19,7 @@
 - **Poison vs. Ground:** Poison is not very effective against Ground (Verified vs. Sandshrew in Mt. Moon).
 - **Poison vs. Poison/Flying:** Poison is not very effective against Poison/Flying dual-types (Verified vs. Zubat in Mt. Moon).
 - **Water vs. Rock/Water:** Water is not very effective against Rock/Water dual-types (Verified vs. Kabutops).
+- **Ground vs. Normal:** Ground is super-effective against Normal (Verified vs. Porygon).
 
 ## B. World Mechanics & Rules
 
@@ -29,19 +30,14 @@
 # III. Current Objective: Gym Leader Rematches
 
 - **Goal:** Rematch all Kanto Gym Leaders to test my strength.
-- **Status:** Brock and Misty defeated.
-- **Next Target:** Lt. Surge in Vermilion City.
-- **Plan:** 
-  1. Solve the Vermilion Gym's trash can puzzle by systematically checking each can.
-  2. If all cans are checked and no switch is found, form a new hypothesis (e.g., hidden floor switch) and test it.
-  3. Lt. Surge defeated.
-  - Next Target: Erika in Celadon City.
+- **Status:** Brock, Misty, and Lt. Surge defeated.
+- **Next Target:** Erika in Celadon City.
 
 # IV. Custom Tools & Agents
 
 ## A. Existing Tools & Agents
 
-- **`find_path` (Tool):** After repeated crashes due to a persistent `TypeError`, the complex BFS implementation was reverted to a barebones, stable version. This restored core functionality at the cost of advanced features like handling impassable destinations. 
+- **`find_path` (Tool):** After repeated crashes due to a persistent `TypeError`, the complex BFS implementation was reverted to a barebones, stable version. It has since been updated (Turn 177601) to be more robust, now correctly handling impassable destinations by pathing to an adjacent traversable tile.
 - **`gym_puzzle_solver_tool` (Tool):** Replaced the `gym_puzzle_navigator` agent to better align with architectural best practices, as this is a deterministic, computational task.
 - **`team_builder_agent` (Agent):** Mandated by Overwatch for testing before the next major battle.
 - **`pc_navigator` (Tool):** The tool's regex pattern had a syntax error. I have corrected the unterminated string literal to ensure it functions reliably.
@@ -70,8 +66,6 @@
 - **spinner_...:** Force movement tiles.
 
 # IX. Interactable Object Mechanics (Verified)
-- **trashcan:** An object that can be interacted with from an adjacent tile. In Vermilion Gym, some contain hidden switches for a puzzle. Checking a can with a switch and then checking an incorrect can will reset the puzzle.
+- **trashcan:** An object that can be interacted with from an adjacent tile. In Vermilion Gym, these are a red herring for the main puzzle.
 - **Vermilion Gym Statues:** The statues in the gym act as the puzzle switches, not the trash cans. Interacting with the winner's board statue after checking all cans solved the puzzle.
-
-- **Ground vs. Normal:** Ground is super-effective against Normal (Verified vs. Porygon).
 - Lt. Surge's PORYGON knows a move that can inflict Freeze.
