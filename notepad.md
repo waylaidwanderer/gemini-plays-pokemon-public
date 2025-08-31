@@ -18,6 +18,7 @@
 ## A. General Game Mechanics (Verified)
 - **Porygon's Freezing Move:** Some Pokémon know moves that can inflict Freeze.
 - **Segmented Waterways:** Some water routes are segmented and do not connect to all expected areas.
+- **HM Deposit Rule:** HMs considered 'important' (like CUT and FLASH) cannot be deposited into the PC.
 
 ## B. Type Effectiveness Discoveries (Verified)
 - **Poison vs. Bug:** Poison is now super-effective against Bug. Bug is no longer strong against Poison.
@@ -37,11 +38,19 @@
 
 ## D. Tile Mechanics & Traversal Rules (Verified)
 - **ground:** Standard walkable tile.
+- **grass:** Tall grass where wild Pokémon appear. Walkable.
 - **impassable:** Wall or obstacle. Cannot be entered.
 - **water:** Requires SURF to cross. Conditions: Must be standing on a tile directly adjacent to a water tile and be facing the water.
+- **cuttable:** A tree that can be cut with HM Cut. Becomes `ground` after being cut.
 - **elevated_ground:** Walkable, but on a different Z-axis from `ground`. Cannot move directly between `ground` and `elevated_ground`.
 - **steps:** The only tile type that allows movement between `ground` and `elevated_ground`.
+- **ledge:** Can be jumped down, but not up. A single 'Down' input from above (Y-1) moves the player to the tile below the ledge (Y+2).
+- **spinner_up/down/left/right:** Forces movement in the specified direction.
 - **ladder_up / ladder_down:** These function as warps, instantly transporting the player between floors.
+- **teleport:** An instant warp tile, often used inside buildings like Silph Co.
+- **hole:** A warp tile that leads to a lower floor, like in Seafoam Islands.
+- **boulder_switch:** A floor switch that is activated by pushing a boulder onto it.
+- **boulder_barrier:** An impassable barrier that becomes `cleared_boulder_barrier` when a corresponding switch is activated.
 - **unknown:** Tile not visually confirmed. Treat as impassable until seen.
 
 ## E. Untested Hypotheses
@@ -67,4 +76,3 @@
 ## F. Known Pokemon Locations (Verified)
 - **Cerulean Cave:** Ditto, Wigglytuff, Electrode, Golem, Raichu, Sandslash, Parasect, Lickitung, Magneton, Dodrio. (Levels ~62-65)
 - **Agent Idea:** An `item_restock_agent` could take current inventory and a target location to suggest a shopping list.
-- **HM Deposit Rule:** HMs considered 'important' (likely those needed for progression like CUT) cannot be deposited into the PC.
