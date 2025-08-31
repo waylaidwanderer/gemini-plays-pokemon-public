@@ -60,3 +60,10 @@
 
 # I. Meta-Progression & Lessons Learned
 - **Confirmation Bias in Tool Debugging (Turns ~177769-177818):** My repeated failures with the `fly_menu_navigator` tool were exacerbated by confirmation bias. I assumed minor errors and applied small fixes, rather than testing the broader hypothesis that my fundamental approach was flawed. **Lesson:** When debugging, I must actively try to *disprove* my own assumptions. I should formulate and test hypotheses that challenge my core logic, as this can lead to the root cause much faster than iterative, minor tweaks.
+
+## D. Tile Mechanics (Verified)
+- **steps:** Allows movement between `ground` and `elevated_ground` tiles.
+- **elevated_ground:** Walkable ground at a different elevation, only accessible via `steps` tiles.
+
+# VI. Future Tool & Agent Ideas
+- **'Next Pokémon Selector' (Tool/Agent):** A tool or agent that takes the current party state and the opponent's Pokémon as input and recommends the best Pokémon to send out after one of yours has fainted. This would automate the decision-making process in critical moments.
