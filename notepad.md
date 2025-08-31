@@ -13,7 +13,15 @@
 
 # II. Game & World Knowledge
 
-## A. Type Effectiveness Discoveries (Verified & In-Progress)
+## A. Tile Mechanics (Verified)
+- **ladder_up / ladder_down:** Warps between floors.
+- **ground:** Standard traversable tile.
+- **impassable:** Wall or obstacle that cannot be walked on.
+- **water:** Requires Surf to traverse.
+- **Pewter Museum Fee Trigger Tile (10, 5):** Triggers a fee prompt. Paying alters a warp destination.
+- **Pewter Museum Fossil Interaction Soft-Lock (3, 4):** Interacting causes a soft-lock, press 'B' to escape.
+
+## B. Type Effectiveness Discoveries (Verified & In-Progress)
 - **Poison vs. Bug:** Poison is now super-effective against Bug. Bug is no longer strong against Poison.
 - **Poison vs. Ground:** Poison is not very effective against Ground (Verified vs. Sandshrew in Mt. Moon).
 - **Poison vs. Poison/Flying:** Poison is not very effective against Poison/Flying dual-types (Verified vs. Zubat in Mt. Moon).
@@ -23,18 +31,12 @@
 - **Electric vs. Grass/Poison:** Electric is not very effective against Grass/Poison dual-types (Verified vs. Victreebel).
 - **Psychic vs. Poison:** Psychic is super-effective against Poison (Verified vs. Golbat).
 
-## B. Discovered Battle Mechanics (Verified & In-Progress)
+## C. Discovered Battle Mechanics (Verified & In-Progress)
 - **Earthquake vs. Dig:** Earthquake can hit an opponent that is underground using Dig. (Verified vs. Jolteon). Increased damage is unconfirmed.
 
-## C. World & Object Mechanics (Verified)
-- **Pewter Museum Fee Trigger Tile (10, 5):** This tile triggers a fee prompt. Paying the fee alters the destination of the fake gym warp in Pewter City (15, 8), granting access to the museum's eastern section.
-- **Pewter Museum Fossil Interaction Soft-Lock:** Interacting with the Aerodactyl fossil at (3, 4) displays flavor text and then causes a soft-lock where movement is impossible. Pressing 'B' cancels the event and restores movement.
-- **Vermilion Gym Statues:** The statues in the gym act as the puzzle switches, not the trash cans. Interacting with the winner's board statue after checking all cans solved the puzzle.
-- **Porygon's Freezing Move:** Lt. Surge's PORYGON knows a move that can inflict Freeze. The specific move is unknown.
-- **Powder Move Effectiveness (Contradictory Data):** In a previous battle, NIGHTSHADE's SLEEP POWDER failed against a VILEPLUME with the message 'It didn't affect VILEPLUME!'. However, in the current battle, Erika's VILEPLUME is consistently able to use SLEEP POWDER successfully on NIGHTSHADE. This suggests a potential immunity for Grass-types against powder moves *from other Grass-types*, but this immunity might not apply to the player's Pokémon or could be conditional. Needs further investigation.
-
-# III. Current Objective & Hypotheses
-- **Goal:** Capture the legendary Pokémon Mewtwo.
-- **Sub-Goal:** Explore Cerulean Cave.
-- **Discovery:** The main entrance to the Cerulean Gym at (5, 12) is actually a warp to Cerulean Cave 1F.
-- **Failed Hypothesis (Routes 24 & 25):** The entrance to Cerulean Cave is accessible by surfing on the water on Routes 24 and 25. **Conclusion:** After exploring all accessible water areas on both routes, it has been confirmed that the water is segmented and provides no access to Cerulean Cave or any new areas. The investigation here is stalled.
+## D. World & Object Mechanics (Verified)
+- **Vermilion Gym Statues:** Act as puzzle switches.
+- **Porygon's Freezing Move:** Lt. Surge's PORYGON knows a move that can inflict Freeze.
+- **Powder Move Effectiveness (Contradictory Data):** Potential immunity for Grass-types against powder moves *from other Grass-types*, but needs more investigation.
+- **Cerulean Gym Entrance (5, 12):** This is a warp to Cerulean Cave 1F.
+- **Routes 24 & 25 Waterways:** Segmented and do not provide access to Cerulean Cave.
