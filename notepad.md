@@ -34,7 +34,8 @@
 - **Plan:** 
   1. Solve the Vermilion Gym's trash can puzzle by systematically checking each can.
   2. If all cans are checked and no switch is found, form a new hypothesis (e.g., hidden floor switch) and test it.
-  3. Challenge and defeat Lt. Surge.
+  3. Lt. Surge defeated.
+  - Next Target: Erika in Celadon City.
 
 # IV. Custom Tools & Agents
 
