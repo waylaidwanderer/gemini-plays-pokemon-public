@@ -825,41 +825,39 @@
       }
     ]
   },
-  "move_into_pikachu": {
-    "description": "A deterministic tool that takes the player's current facing direction and the relative direction of Pikachu and outputs the 1 or 2 button presses needed to move onto Pikachu's tile.",
+  "toss_item_navigator": {
+    "description": "Navigates the item menu to select a target item and then select the 'TOSS' option. Outputs the necessary button presses.",
     "input_schema": {
       "type": "object",
       "properties": {
-        "player_facing_direction": {
-          "type": "string",
-          "enum": [
-            "up",
-            "down",
-            "left",
-            "right"
-          ]
+        "target_item": {
+          "type": "string"
         },
-        "pikachu_direction": {
-          "type": "string",
-          "enum": [
-            "up",
-            "down",
-            "left",
-            "right"
-          ]
+        "screen_text": {
+          "type": "string"
         }
       },
       "required": [
-        "player_facing_direction",
-        "pikachu_direction"
+        "target_item",
+        "screen_text"
       ]
     },
-    "python_script": "import json\nplayer_facing = input_data['player_facing_direction']\npikachu_dir = input_data['pikachu_direction']\nbuttons = []\nif player_facing == pikachu_dir:\n    buttons.append(pikachu_dir.capitalize())\nelse:\n    buttons.append(pikachu_dir.capitalize())\n    buttons.append(pikachu_dir.capitalize())\nprint(json.dumps(buttons))",
+    "python_script": "import json\nimport re\n\ndef toss_item_navigator(target_item, screen_text):\n    lines = screen_text.strip().split('\\n')\n    \n    current_item = ''\n    for line in lines:\n        if '→' in line:\n            match = re.search(r'→(.*?)(?:\\s+×|$)', line)\n            if match:\n                current_item = match.group(1).strip()\n                break\n\n    if not current_item:\n        print(json.dumps({'error': 'Could not determine the currently selected item.'}))\n        return\n\n    visible_items = []\n    item_pattern = re.compile(r'^(?:→)?([A-Z0-9 .]+?)(?:\\s+×|$)')\n    for l in lines:\n        match = item_pattern.match(l.strip())\n        if match:\n            item = match.group(1).strip()\n            if item != 'EXIT':\n                visible_items.append(item)\n\n    try:\n        current_index = visible_items.index(current_item)\n        target_index = -1\n        for i, item in enumerate(visible_items):\n            if item.strip() == target_item.strip():\n                target_index = i\n                break\n\n        if target_index == -1:\n             print(json.dumps({'error': f'Target item \"{target_item}\" not found in the visible list: {visible_items}'}))\n             return\n\n        presses = []\n        if target_index > current_index:\n            presses.extend(['Down'] * (target_index - current_index))\n        elif target_index < current_index:\n            presses.extend(['Up'] * (current_index - target_index))\n        \n        presses.append('A')\n        presses.extend(['Down', 'Down', 'Down'])\n        presses.append('A')\n\n        print(json.dumps(presses))\n\n    except ValueError:\n        print(json.dumps({'error': f'Failed to find item index. Current: \"{current_item}\", Target: \"{target_item}\", Visible: {visible_items}'}))\n        return\n\ntoss_item_navigator(input_data['target_item'], input_data['screen_text'])",
     "history": [
       {
-        "commit_message": "feat: Create move_into_pikachu tool. In response to an Overwatch critique about deferred action, this tool is created to automate the common and error-prone task of moving onto Pikachu's tile. It calculates whether one or two button presses are needed based on the player's facing direction, improving navigation efficiency.",
-        "timestamp": "2025-08-31T07:36:29.767Z",
-        "action_counter": 178452
+        "commit_message": "feat: Create toss_item_navigator tool to automate item disposal. In response to a mandatory self-assessment identifying repeated manual input errors while trying to toss items, this tool parses the item list from the screen text to calculate the exact button presses required to select and toss a specific item. This will eliminate errors and increase menu efficiency.",
+        "timestamp": "2025-08-31T13:41:42.218Z",
+        "action_counter": 179143
+      },
+      {
+        "commit_message": "feat: Create toss_item_navigator tool to automate item disposal. In response to a mandatory self-assessment identifying repeated manual input errors while trying to toss items, this tool parses the item list from the screen text to calculate the exact button presses required to select and toss a specific item. This will eliminate errors and increase menu efficiency.",
+        "timestamp": "2025-08-31T13:42:07.946Z",
+        "action_counter": 179144
+      },
+      {
+        "commit_message": "fix: Correct output format to be a raw JSON array. The tool was incorrectly wrapping the button list in a dictionary, causing the `autopress_buttons` feature to fail. This commit changes the final print statement to output the JSON array directly, fixing the bug.",
+        "timestamp": "2025-08-31T13:42:54.595Z",
+        "action_counter": 179146
       }
     ]
   }
