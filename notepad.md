@@ -11,6 +11,7 @@
 - **Decisive Tool Maintenance (Overwatch Critique, Turn 177849):** My handling of the `fly_menu_navigator` tool failure was a severe violation of my core directives. Instead of performing a single, decisive fix, I engaged in a prolonged, inefficient cycle of piecemeal debugging that wasted dozens of turns. This demonstrates a critical failure in prioritization. A broken tool must be treated as a complete halt to gameplay until it is fixed properly and decisively.
 - **Confirmation Bias in Tool Debugging (Turns ~177769-177818):** My repeated failures with the `fly_menu_navigator` tool were exacerbated by confirmation bias. I assumed minor errors and applied small fixes, rather than testing the broader hypothesis that my fundamental approach was flawed. **Lesson:** When debugging, I must actively try to *disprove* my own assumptions. I should formulate and test hypotheses that challenge my core logic, as this can lead to the root cause much faster than iterative, minor tweaks.
 - **Deferred Documentation (Turn 178987 & 179040):** Violated core directive by deferring notepad updates while in battle. Maintenance tasks are always the highest priority and must be performed immediately.
+- **Repeated Tool Misuse & Failure to Learn (Turns 179501-179608):** Despite a self-correction note and an Overwatch critique, I again used `select_battle_option` for a simple 'RUN' command. This is a critical failure to learn from documented mistakes. I must prioritize manual execution for simple, known menu actions.
 
 # II. Game & World Knowledge
 ## A. General Game Mechanics (Verified)
@@ -34,10 +35,10 @@
 ## D. Tile Mechanics & Traversal Rules (Verified)
 - **ground:** Standard walkable tile.
 - **impassable:** Wall or obstacle. Cannot be entered.
-- **water:** Requires SURF to cross.
+- **water:** Requires SURF to cross. Conditions: Must be standing on a tile directly adjacent to a water tile and be facing the water.
 - **elevated_ground:** Walkable, but on a different Z-axis from `ground`. Cannot move directly between `ground` and `elevated_ground`.
 - **steps:** The only tile type that allows movement between `ground` and `elevated_ground`.
-- **ladder_up / ladder_down:** Warps between floors.
+- **ladder_up / ladder_down:** These function as warps, instantly transporting the player between floors.
 - **unknown:** Tile not visually confirmed. Treat as impassable until seen.
 
 ## E. Untested Hypotheses
@@ -46,5 +47,4 @@
 
 # III. Actionable Reminders & Self-Correction
 - **Overwatch Critique (Turn 179501):** `team_builder_agent` has very low usage. I must find an opportunity to use this agent to test its effectiveness and refine it if necessary.
-- **Overwatch Critique (Turn 179501):** Use of `select_battle_option` for simple, known menu navigation (like selecting 'RUN') is redundant. I will perform these actions manually going forward.
-- **Repeated Tool Misuse (Turn 179608):** Despite a self-correction note, I again used `select_battle_option` for a simple 'RUN' command. This is a critical failure to learn from documented mistakes. I must prioritize manual execution for simple, known menu actions.
+- **Overwatch Critique (Turn 179655):** I have repeatedly failed to learn from my own documented mistakes regarding the redundant use of the `select_battle_option` tool. I must stop using it for simple, known menu navigation.
