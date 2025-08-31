@@ -854,5 +854,35 @@
         "action_counter": 179558
       }
     ]
+  },
+  "use_hm_navigator": {
+    "description": "Navigates the party menu to select a specific Pokémon and then use a specified HM. Outputs the necessary button presses.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "screen_text": {
+          "type": "string"
+        },
+        "pokemon_with_hm": {
+          "type": "string"
+        },
+        "hm_to_use": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "screen_text",
+        "pokemon_with_hm",
+        "hm_to_use"
+      ]
+    },
+    "python_script": "import json\nimport re\n\ndef navigate_hm_menu(screen_text, pokemon_with_hm, hm_to_use):\n    lines = [line.strip() for line in screen_text.split('\\n') if line.strip()]\n    party_pokemon = []\n    for line in lines:\n        match = re.match(r'([A-Z]+)\b', line)\n        if match:\n            pokemon_name = match.group(1)\n            if pokemon_name not in ['LV', 'FNT', 'Choose', 'TYPE', 'ELECTRIC', 'POISON', 'FLYING', 'WATER', 'PSYCHIC', 'ICE', 'GROUND', 'ROCK', 'NORMAL', 'FIGHTING', 'GHOST', 'FIRE', 'GRASS', 'DRAGON']:\n                party_pokemon.append(pokemon_name)\n\n    if not party_pokemon:\n        print(json.dumps({'error': 'Could not parse party Pokémon from screen text.'}))\n        return\n\n    try:\n        start_index = 0  # Cursor starts at the first Pokémon\n        target_index = party_pokemon.index(pokemon_with_hm.upper())\n    except ValueError:\n        print(json.dumps({'error': f'Pokémon {pokemon_with_hm} not found in the party list: {party_pokemon}'}))\n        return\n\n    moves = ['SURF', 'FLY', 'CUT', 'STRENGTH', 'FLASH']\n    try:\n        move_index = moves.index(hm_to_use.upper())\n    except ValueError:\n        print(json.dumps({'error': f'HM {hm_to_use} is not a valid or supported HM.'}))\n        return\n\n    # Calculate presses to select the Pokémon\n    down_presses = target_index - start_index\n    buttons = ['Down'] * down_presses\n    buttons.append('A') # Select the Pokémon\n\n    # Calculate presses to select the HM\n    # Assuming the cursor starts on the first move, which is index 0.\n    # In the HM menu, moves are typically listed in a fixed order. We'll assume a simple vertical list.\n    # For simplicity, we'll assume the cursor starts at the top of the move list.\n    move_down_presses = move_index\n    buttons.extend(['Down'] * move_down_presses)\n    buttons.append('A') # Select the HM\n\n    print(json.dumps({'buttons': buttons}))\n\nnavigate_hm_menu(input_data['screen_text'], input_data['pokemon_with_hm'], input_data['hm_to_use'])",
+    "history": [
+      {
+        "commit_message": "feat: Create use_hm_navigator tool. This tool automates the repetitive and error-prone process of navigating the party menu to select a Pokémon and use an HM. This will improve efficiency and reduce manual input errors, addressing a key area for improvement identified during self-assessment.",
+        "timestamp": "2025-08-31T17:41:01.033Z",
+        "action_counter": 179655
+      }
+    ]
   }
 }

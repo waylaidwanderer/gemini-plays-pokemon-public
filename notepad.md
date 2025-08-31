@@ -48,3 +48,4 @@
 # III. Actionable Reminders & Self-Correction
 - **Overwatch Critique (Turn 179501):** `team_builder_agent` has very low usage. I must find an opportunity to use this agent to test its effectiveness and refine it if necessary.
 - **Overwatch Critique (Turn 179655):** I have repeatedly failed to learn from my own documented mistakes regarding the redundant use of the `select_battle_option` tool. I must stop using it for simple, known menu navigation.
+- **Surf Mechanic:** To use Surf, you must be standing on a tile directly adjacent to a water tile AND be facing the water tile.
