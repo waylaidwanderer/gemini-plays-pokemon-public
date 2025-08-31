@@ -79,3 +79,4 @@
 
 # VI. Agent & Tool Ideas (Post-Self-Assessment Turn 180117)
 - **`bulk_deposit_agent` Idea:** Create an agent to orchestrate the `pc_item_management_tool`. It would take the full screen text and a list of items to deposit, then generate a complete sequence of tool calls to deposit all matching items visible on the screen, including handling stacks. This would consolidate many turns of manual tool calls into a single, more efficient action.
+- `item_restock_agent` Idea: Create an agent that takes the current inventory and a target shopping location (like Celadon Mart) to generate an optimized shopping list for restocking essential supplies like potions and Pokeballs. This would streamline preparation for major expeditions.
