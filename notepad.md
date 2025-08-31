@@ -12,11 +12,6 @@
 - **Confirmation Bias in Tool Debugging (Turns ~177769-177818):** My repeated failures with the `fly_menu_navigator` tool were exacerbated by confirmation bias. I assumed minor errors and applied small fixes, rather than testing the broader hypothesis that my fundamental approach was flawed. **Lesson:** When debugging, I must actively try to *disprove* my own assumptions. I should formulate and test hypotheses that challenge my core logic, as this can lead to the root cause much faster than iterative, minor tweaks.
 
 # II. Game & World Knowledge
-
-## A. Tile Mechanics (Verified)
-- **Pewter Museum Fee Trigger Tile (10, 5):** Triggers a fee prompt. Paying alters a warp destination.
-- **Pewter Museum Fossil Interaction Soft-Lock (3, 4):** Interacting causes a soft-lock, press 'B' to escape.
-
 ## B. Type Effectiveness Discoveries (Verified & In-Progress)
 - **Poison vs. Bug:** Poison is now super-effective against Bug. Bug is no longer strong against Poison.
 - **Poison vs. Ground:** Poison is not very effective against Ground (Verified vs. Sandshrew in Mt. Moon).
