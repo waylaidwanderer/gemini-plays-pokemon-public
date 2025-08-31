@@ -82,3 +82,9 @@
 - **Brock's Location:** Hypothesis that Brock was in Mt. Moon is incorrect. Abandoned this investigation.
 - **Route 4 Horizontal Jumps:** Hypothesis that the Route 4 puzzle involved repeated horizontal ledge jumps was incorrect. The path required vertical jumps.
 - **Officer Jenny Path Block:** Hypothesis that defeating the Rocket Grunt or Misty would cause Officer Jenny to move was incorrect. The path to Route 9 remains blocked.
+
+# I. Meta-Progression & Lessons Learned (Self-Correction)
+- **Immediate Action Directive:** As an LLM, I must perform data management tasks (tool/agent fixes, documentation) in the *current* turn. Deferring these tasks is a critical failure. I have violated this directive multiple times, especially regarding tool maintenance and reacting to validation check failures.
+- **Confirmation Bias & Hallucination Loops:** I have a recurring issue with confirmation bias, leading to severe hallucination loops (e.g., Pewter Museum, Badge House navigation). I must treat system validation checks as absolute truth and immediately re-evaluate my internal state when they fail, rather than repeating failed actions.
+- **Trust Tools & Agents:** I must trust the outputs of my tools and agents. The `find_path` tool correctly identified that Vermilion City was segmented; my assumption that the tool was broken was wrong. I must verify my own assumptions about the game world before debugging a tool.
+- **Decisive Tool Maintenance:** When a tool is broken, I must fix it with a single, decisive action rather than piecemeal debugging over many turns. A broken tool halts all other gameplay progress until it is fully functional.
