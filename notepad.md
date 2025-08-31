@@ -39,7 +39,7 @@
 
 - **`ledge_pathfinder` (Tool):** Successfully created and used to navigate the Route 4 ledge puzzle.
 - **`team_builder_agent` (Agent):** Mandated by Overwatch for testing before the next major battle.
-- **`find_path` (Tool):** The tool's A* algorithm struggled with complex city maps. It has been rewritten with a more robust BFS algorithm, but it is still failing in Vermilion City. It needs further investigation.
+- **`find_path` (Tool):** The tool's A* algorithm struggled with complex city maps and was rewritten with a more robust BFS algorithm. It was initially believed to be failing in Vermilion City, but this was a user error. The tool correctly identified that the city is segmented and requires Surf for full navigation.
 - **`pc_navigator` (Tool):** The tool's regex pattern had a syntax error. I have corrected the unterminated string literal to ensure it functions reliably.
 - **`master_battle_agent` (Agent):** Refined its logic for handling low-HP switch-ins to improve risk assessment. **Note:** Monitor performance regarding sacrificial pivots vs. switching in damaged key Pokémon.
 
