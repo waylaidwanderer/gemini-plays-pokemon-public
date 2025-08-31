@@ -856,11 +856,11 @@
     ]
   },
   "use_hm_navigator": {
-    "description": "Navigates the party menu to select a specific Pokémon and then use a specified HM. Outputs the necessary button presses.",
+    "description": "Navigates the party menu to select a specific Pokémon and then use a specified HM. Outputs the necessary button presses. Takes the party data as JSON for robust selection.",
     "input_schema": {
       "type": "object",
       "properties": {
-        "screen_text": {
+        "player_party_json": {
           "type": "string"
         },
         "pokemon_with_hm": {
@@ -871,17 +871,22 @@
         }
       },
       "required": [
-        "screen_text",
+        "player_party_json",
         "pokemon_with_hm",
         "hm_to_use"
       ]
     },
-    "python_script": "import json\nimport re\n\ndef navigate_hm_menu(screen_text, pokemon_with_hm, hm_to_use):\n    lines = [line.strip() for line in screen_text.split('\\n') if line.strip()]\n    party_pokemon = []\n    for line in lines:\n        match = re.match(r'([A-Z]+)\b', line)\n        if match:\n            pokemon_name = match.group(1)\n            if pokemon_name not in ['LV', 'FNT', 'Choose', 'TYPE', 'ELECTRIC', 'POISON', 'FLYING', 'WATER', 'PSYCHIC', 'ICE', 'GROUND', 'ROCK', 'NORMAL', 'FIGHTING', 'GHOST', 'FIRE', 'GRASS', 'DRAGON']:\n                party_pokemon.append(pokemon_name)\n\n    if not party_pokemon:\n        print(json.dumps({'error': 'Could not parse party Pokémon from screen text.'}))\n        return\n\n    try:\n        start_index = 0  # Cursor starts at the first Pokémon\n        target_index = party_pokemon.index(pokemon_with_hm.upper())\n    except ValueError:\n        print(json.dumps({'error': f'Pokémon {pokemon_with_hm} not found in the party list: {party_pokemon}'}))\n        return\n\n    moves = ['SURF', 'FLY', 'CUT', 'STRENGTH', 'FLASH']\n    try:\n        move_index = moves.index(hm_to_use.upper())\n    except ValueError:\n        print(json.dumps({'error': f'HM {hm_to_use} is not a valid or supported HM.'}))\n        return\n\n    # Calculate presses to select the Pokémon\n    down_presses = target_index - start_index\n    buttons = ['Down'] * down_presses\n    buttons.append('A') # Select the Pokémon\n\n    # Calculate presses to select the HM\n    # Assuming the cursor starts on the first move, which is index 0.\n    # In the HM menu, moves are typically listed in a fixed order. We'll assume a simple vertical list.\n    # For simplicity, we'll assume the cursor starts at the top of the move list.\n    move_down_presses = move_index\n    buttons.extend(['Down'] * move_down_presses)\n    buttons.append('A') # Select the HM\n\n    print(json.dumps({'buttons': buttons}))\n\nnavigate_hm_menu(input_data['screen_text'], input_data['pokemon_with_hm'], input_data['hm_to_use'])",
+    "python_script": "import json\n\nplayer_party_json = input_data['player_party_json']\ntarget_pokemon_name = input_data['pokemon_with_hm']\ntarget_hm = input_data['hm_to_use']\n\nparty_data = json.loads(player_party_json)\n\npokemon_index = -1\nfor i, pokemon in enumerate(party_data):\n    # Nicknames are not in the party data, so match by species\n    if pokemon['species'] == target_pokemon_name:\n        pokemon_index = i\n        break\n\nif pokemon_index == -1:\n    print(json.dumps({\"error\": f\"Pokemon '{target_pokemon_name}' not found in party.\"}))\nelse:\n    button_presses = [\"Down\"] * pokemon_index\n    button_presses.append(\"A\")\n\n    pokemon_moves = party_data[pokemon_index]['moves']\n    hm_index = -1\n    for i, move in enumerate(pokemon_moves):\n        if move and move['name'] == target_hm:\n            hm_index = i\n            break\n            \n    if hm_index == -1:\n        print(json.dumps({\"error\": f\"HM '{target_hm}' not found on '{target_pokemon_name}'.\"}))\n    else:\n        button_presses.extend([\"Down\"] * hm_index)\n        button_presses.append(\"A\")\n        \n        print(json.dumps(button_presses))",
     "history": [
       {
         "commit_message": "feat: Create use_hm_navigator tool. This tool automates the repetitive and error-prone process of navigating the party menu to select a Pokémon and use an HM. This will improve efficiency and reduce manual input errors, addressing a key area for improvement identified during self-assessment.",
         "timestamp": "2025-08-31T17:41:01.033Z",
         "action_counter": 179655
+      },
+      {
+        "commit_message": "refactor: Overhaul tool to use JSON input instead of screen parsing. In response to a mandatory self-assessment and an overwatch critique, this commit completely refactors the tool to be more robust. It now accepts the player's party data as a JSON string, which eliminates the brittleness of parsing screen text and makes the tool resilient to changes in party order or menu layout.",
+        "timestamp": "2025-08-31T18:10:49.430Z",
+        "action_counter": 179706
       }
     ]
   }
