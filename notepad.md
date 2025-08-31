@@ -61,7 +61,7 @@
 - **'Next Pokémon Selector' (Tool/Agent):** A tool or agent that takes the current party state and the opponent's Pokémon as input and recommends the best Pokémon to send out after one of yours has fainted. This would automate the decision-making process in critical moments.
 
 ## C. World & Object Mechanics (Verified)
-- **Powder Move Effectiveness:** Powder-based status moves (e.g., SLEEP POWDER, STUN SPORE) are effective against Grass/Poison dual-types (Verified vs. Vileplume).
+- **Powder Move Effectiveness (Contradictory Data):** Observed SLEEP POWDER being effective against Vileplume in one battle, but in another, the message 'It didn't affect NIGHTSHADE!' appeared when Vileplume used SLEEP POWDER. This suggests either a conditional immunity (e.g., same evolutionary line?) or a random chance of failure. Needs further investigation.
 
 # VI. Future Tool & Agent Ideas
 - **'Battle Log Parser' (Tool):** A tool that takes raw battle screen text and extracts key events (moves used, effectiveness, status changes) to streamline documentation.
