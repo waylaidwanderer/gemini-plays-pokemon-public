@@ -74,3 +74,4 @@
 # IX. Item & Store Data
 ## A. Celadon Department Store
 - **5F - Clerk 1 (6,4):** Sells TM12 WATRGUN (¥1000), TM16 PAYDAY (¥5000), TM19 SMCTOSS (¥3000), TM30 TELEPRT (¥1000).
+- **5F - Clerk 2 (7,4):** Sells HP UP (¥9800), PROTEIN (¥9800), IRON (¥9800), CARBOS (¥9800).
