@@ -32,7 +32,7 @@
 - **Pewter Museum Fossil Interaction Soft-Lock:** Interacting with the Aerodactyl fossil at (3, 4) displays flavor text and then causes a soft-lock where movement is impossible. Pressing 'B' cancels the event and restores movement.
 - **Vermilion Gym Statues:** The statues in the gym act as the puzzle switches, not the trash cans. Interacting with the winner's board statue after checking all cans solved the puzzle.
 - **Porygon's Freezing Move:** Lt. Surge's PORYGON knows a move that can inflict Freeze. The specific move is unknown.
-- **Powder Move Effectiveness (Contradictory Data):** Observed SLEEP POWDER being effective against Vileplume in one battle, but in another, the message 'It didn't affect NIGHTSHADE!' appeared when Vileplume used SLEEP POWDER against NIGHTSHADE. This suggests a potential immunity for Grass-types against powder moves from other Grass-types, or a conditional immunity (e.g., same evolutionary line?). Needs further investigation.
+- **Powder Move Effectiveness (Contradictory Data):** In a previous battle, NIGHTSHADE's SLEEP POWDER failed against a VILEPLUME with the message 'It didn't affect VILEPLUME!'. However, in the current battle, Erika's VILEPLUME is consistently able to use SLEEP POWDER successfully on NIGHTSHADE. This suggests a potential immunity for Grass-types against powder moves *from other Grass-types*, but this immunity might not apply to the player's Pokémon or could be conditional. Needs further investigation.
 
 ## D. Tile Mechanics (Verified)
 - **ground / grass:** Standard walkable tiles.
