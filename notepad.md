@@ -71,27 +71,6 @@
 - **Route 4 Horizontal Jumps:** Hypothesis that the Route 4 puzzle involved repeated horizontal ledge jumps was incorrect. The path required vertical jumps.
 - **Officer Jenny Path Block:** Hypothesis that defeating the Rocket Grunt or Misty would cause Officer Jenny to move was incorrect. The path to Route 9 remains blocked.
 
-# II. Game & World Knowledge
-
-## A. Type Effectiveness Discoveries (Verified)
-- **Poison vs. Bug:** Poison is super-effective against Bug.
-- **Poison vs. Ground:** Poison is not very effective against Ground.
-- **Poison vs. Poison/Flying:** Poison is not very effective against Poison/Flying.
-- **Water vs. Rock/Water:** Water is not very effective against Rock/Water.
-- **Ground vs. Grass/Psychic:** Ground is not very effective against Grass/Psychic.
-- **Electric vs. Grass/Poison:** Electric is not very effective against Grass/Poison.
-- **Psychic vs. Poison:** Psychic is super-effective against Poison.
-
-## B. Discovered Battle Mechanics (Verified)
-- **Earthquake vs. Dig:** Earthquake can hit an opponent that is underground using Dig.
-
-## C. World & Object Mechanics (Verified)
-- **Pewter Museum Puzzle:** The fee trigger at (10, 5) alters the fake gym warp's destination. The Aerodactyl fossil soft-locks the game, requiring a 'B' press to escape.
-- **Vermilion Gym Puzzle:** The statues are the switches, not the trash cans.
-- **Cerulean Cave Entry:** Attempts via direct entry, Pikachu interaction, and visiting Bill's House have all failed. The puzzle seems to be more complex.
-- **Porygon's Freezing Move:** Lt. Surge's PORYGON knows a move that can inflict Freeze.
-- **Powder Move Immunity (Hypothesis):** Grass-types may be immune to powder moves from other Grass-types, but this needs more testing.
-
 ## D. Tile & Traversal Mechanics (Verified)
 - **ground:** Standard walkable tile.
 - **grass:** Walkable tile with wild encounters.
