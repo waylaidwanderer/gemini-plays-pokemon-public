@@ -66,3 +66,4 @@
 
 ## F. Known Pokemon Locations (Verified)
 - **Cerulean Cave:** Ditto, Wigglytuff, Electrode, Golem, Raichu, Sandslash, Parasect, Lickitung, Magneton, Dodrio. (Levels ~62-65)
+- **Agent Idea:** An `item_restock_agent` could take current inventory and a target location to suggest a shopping list.

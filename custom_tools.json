@@ -793,72 +793,6 @@
       }
     ]
   },
-  "use_hm_navigator": {
-    "description": "Navigates the party menu to select a specific Pokémon and then use a specified HM. Outputs the necessary button presses. Takes the party data as JSON for robust selection.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "player_party_json": {
-          "type": "string"
-        },
-        "pokemon_with_hm": {
-          "type": "string"
-        },
-        "hm_to_use": {
-          "type": "string"
-        }
-      },
-      "required": [
-        "player_party_json",
-        "pokemon_with_hm",
-        "hm_to_use"
-      ]
-    },
-    "python_script": "import json\n\nplayer_party_json = input_data['player_party_json']\ntarget_pokemon_name = input_data['pokemon_with_hm']\ntarget_hm = input_data['hm_to_use']\n\nparty_data = json.loads(player_party_json)\n\npokemon_index = -1\nfor i, pokemon in enumerate(party_data):\n    # Nicknames are not in the party data, so match by species\n    if pokemon['species'] == target_pokemon_name:\n        pokemon_index = i\n        break\n\nif pokemon_index == -1:\n    print(json.dumps({\"error\": f\"Pokemon '{target_pokemon_name}' not found in party.\"}))\nelse:\n    button_presses = [\"Down\"] * pokemon_index\n    button_presses.append(\"A\")\n\n    pokemon_moves = party_data[pokemon_index]['moves']\n    hm_index = -1\n    for i, move in enumerate(pokemon_moves):\n        if move and move['name'] == target_hm:\n            hm_index = i\n            break\n            \n    if hm_index == -1:\n        print(json.dumps({\"error\": f\"HM '{target_hm}' not found on '{target_pokemon_name}'.\"}))\n    else:\n        button_presses.extend([\"Down\"] * hm_index)\n        button_presses.append(\"A\")\n        \n        print(json.dumps(button_presses))",
-    "history": [
-      {
-        "commit_message": "feat: Create use_hm_navigator tool. This tool automates the repetitive and error-prone process of navigating the party menu to select a Pokémon and use an HM. This will improve efficiency and reduce manual input errors, addressing a key area for improvement identified during self-assessment.",
-        "timestamp": "2025-08-31T17:41:01.033Z",
-        "action_counter": 179655
-      },
-      {
-        "commit_message": "refactor: Overhaul tool to use JSON input instead of screen parsing. In response to a mandatory self-assessment and an overwatch critique, this commit completely refactors the tool to be more robust. It now accepts the player's party data as a JSON string, which eliminates the brittleness of parsing screen text and makes the tool resilient to changes in party order or menu layout.",
-        "timestamp": "2025-08-31T18:10:49.430Z",
-        "action_counter": 179706
-      }
-    ]
-  },
-  "select_move_in_battle": {
-    "description": "Navigates the in-battle move selection menu to select a target move. Outputs the necessary directional button presses.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "screen_text": {
-          "type": "string"
-        },
-        "target_move": {
-          "type": "string"
-        }
-      },
-      "required": [
-        "screen_text",
-        "target_move"
-      ]
-    },
-    "python_script": "import json\nimport re\n\nscreen_text = input_data['screen_text']\ntarget_move = input_data['target_move']\n\nlines = screen_text.split('\\n')\nmoves = []\ncurrent_selection = None\n\ntry:\n    type_line_index = -1\n    for i, line in enumerate(lines):\n        if 'TYPE/' in line:\n            type_line_index = i\n            break\n    \n    if type_line_index != -1:\n        move_lines = lines[type_line_index+2:]\n        for line in move_lines:\n            clean_line = line.strip()\n            if clean_line.startswith('→'):\n                move_name = clean_line[1:].strip()\n                current_selection = move_name\n                moves.append(move_name)\n            elif clean_line:\n                moves.append(clean_line)\n    else:\n        print(json.dumps({\"error\": \"Could not find TYPE/ line to start parsing moves.\"}))\n        exit()\n\nexcept Exception as e:\n    print(json.dumps({\"error\": f\"Failed during parsing: {str(e)}\"}))\n    exit()\n\nif not moves or not current_selection:\n    print(json.dumps({\"error\": \"Could not parse moves or current selection from screen text.\", \"parsed_moves\": moves, \"selection\": current_selection}))\n    exit()\n\ntry:\n    current_index = moves.index(current_selection)\n    target_move_index = moves.index(target_move)\nexcept ValueError:\n    print(json.dumps({\"error\": f\"Move not found. Target: '{target_move}', Available: {moves}\"}))\n    exit()\n\ndiff = target_move_index - current_index\nbuttons = []\nif diff > 0:\n    buttons.extend([\"Down\"] * diff)\nelif diff < 0:\n    buttons.extend([\"Up\"] * abs(diff))\n\nbuttons.append(\"A\")\n\nprint(json.dumps(buttons))",
-    "history": [
-      {
-        "commit_message": "feat: Create select_move_in_battle tool. In response to a mandatory self-assessment and an Overwatch critique, this tool is created to automate the specific and repetitive task of selecting a move in battle. This will improve efficiency and prevent the redundant manual inputs previously identified.",
-        "timestamp": "2025-08-31T18:36:05.475Z",
-        "action_counter": 179759
-      },
-      {
-        "commit_message": "fix: Correct NameError by properly defining `target_move_index`. The tool was crashing due to a typo where an undefined variable `target_index` was used. This commit fixes the variable name and improves the parsing logic to be more robust by locating the 'TYPE/' line before reading moves, ensuring more reliable performance.",
-        "timestamp": "2025-08-31T18:44:40.804Z",
-        "action_counter": 179777
-      }
-    ]
-  },
   "pc_item_management_tool": {
     "description": "Navigates the PC item storage menu to deposit a specified list of items. Outputs the necessary button presses.",
     "input_schema": {
@@ -879,12 +813,32 @@
         "items_to_deposit"
       ]
     },
-    "python_script": "import json\nimport re\n\nscreen_text = input_data['screen_text']\nitems_to_deposit = input_data['items_to_deposit']\n\nlines = screen_text.split('\\n')\ninventory = []\ncurrent_selection_index = -1\n\n# Find the start of the item list\ntry:\n    item_list_start_index = -1\n    for i, line in enumerate(lines):\n        if '¥' in line: # Assumes money line precedes item list\n            item_list_start_index = i + 1\n            break\n    if item_list_start_index == -1:\n        # Fallback for PC menu which doesn't show money\n        for i, line in enumerate(lines):\n            if line.strip().endswith('ITEMS'):\n                item_list_start_index = i + 1\n                break\n\n    if item_list_start_index == -1:\n        print(json.dumps({'error': 'Could not find start of item list.'}))\n        exit()\n\n    item_lines = lines[item_list_start_index:]\n    for i, line in enumerate(item_lines):\n        clean_line = line.strip()\n        if not clean_line or 'CANCEL' in clean_line:\n            continue\n        \n        is_selected = clean_line.startswith('→')\n        if is_selected:\n            current_selection_index = len(inventory)\n        \n        item_name = re.sub(r'^→\\s*|x\\d+$', '', clean_line).strip()\n        inventory.append(item_name)\n\nexcept Exception as e:\n    print(json.dumps({'error': f'Failed during inventory parsing: {str(e)}'}))\n    exit()\n\nif not inventory or current_selection_index == -1:\n    print(json.dumps({'error': 'Could not parse inventory or find current selection.'}))\n    exit()\n\nbuttons = []\nfor item_to_deposit in items_to_deposit:\n    try:\n        target_index = inventory.index(item_to_deposit)\n    except ValueError:\n        continue\n\n    diff = target_index - current_selection_index\n    if diff > 0:\n        buttons.extend(['Down'] * diff)\n    elif diff < 0:\n        buttons.extend(['Up'] * abs(diff))\n    \n    buttons.append('A') # Select item\n    buttons.append('A') # Confirm deposit\n\n    current_selection_index = target_index\n\n# Navigate to CANCEL\nif buttons:\n    cancel_index = len(inventory)\n    diff = cancel_index - current_selection_index\n    if diff > 0:\n        buttons.extend(['Down'] * diff)\n    elif diff < 0:\n        buttons.extend(['Up'] * abs(diff))\n    buttons.append('A')\n\nprint(json.dumps(buttons))",
+    "python_script": "import json\nimport re\n\nscreen_text = input_data['screen_text']\nitems_to_deposit_json = input_data['items_to_deposit']\nitems_to_deposit = json.loads(items_to_deposit_json[0]) if isinstance(items_to_deposit_json, list) else json.loads(items_to_deposit_json)\n\nlines = screen_text.split('\\n')\nvisible_items = []\ncurrent_selection_index = -1\n\nfor i, line in enumerate(lines):\n    if \"What do you want\" in line:\n        break\n    stripped_line = line.strip()\n    if not stripped_line or stripped_line.startswith('×'):\n        continue\n    match = re.match(r'^(?:[A-Z]{2}\\s+)?(→)?\\s*([^×]+)', stripped_line)\n    if match:\n        is_selected = match.group(1) is not None\n        item_name = match.group(2).strip()\n        visible_items.append(item_name)\n        if is_selected:\n            current_selection_index = len(visible_items) - 1\n\ntarget_on_screen = None\ntarget_index = -1\nfor i, item in enumerate(visible_items):\n    for target in items_to_deposit:\n        if target in item:\n            target_on_screen = item\n            target_index = i\n            break\n    if target_on_screen:\n        break\n\nbuttons = []\nif target_on_screen and current_selection_index != -1:\n    diff = target_index - current_selection_index\n    if diff > 0:\n        buttons.extend([\"Down\"] * diff)\n    elif diff < 0:\n        buttons.extend([\"Up\"] * abs(diff))\n    buttons.extend([\"A\", \"A\"])\nelif len(visible_items) > 0:\n    buttons.extend([\"Down\", \"Down\"])\n\nprint(json.dumps(buttons))",
     "history": [
       {
         "commit_message": "feat: Create pc_item_management_tool. In response to a mandatory self-assessment identifying repetitive manual inventory management as a key inefficiency, this tool automates the process of depositing items into the PC. This will significantly speed up the restocking process and reduce manual error, directly addressing a major gameplay bottleneck.",
         "timestamp": "2025-08-31T20:20:33.235Z",
         "action_counter": 179964
+      },
+      {
+        "commit_message": "feat: Create pc_item_management_tool. In response to a mandatory self-assessment identifying repetitive manual inventory management as a key inefficiency, this tool automates the process of depositing items into the PC. This will significantly speed up the restocking process and reduce manual error, directly addressing a major gameplay bottleneck.",
+        "timestamp": "2025-08-31T20:21:21.983Z",
+        "action_counter": 179965
+      },
+      {
+        "commit_message": "fix: Overhaul parsing logic to correctly identify items in the PC deposit menu. The previous version failed because it couldn't handle the two-letter prefixes and selection arrow format. This new version uses a more robust regex to accurately parse the visible item list and the currently selected item. It also refines the action logic to deposit all visible items from the target list in a single run, or scroll down if no target items are visible, making it more reliable.",
+        "timestamp": "2025-08-31T20:30:08.791Z",
+        "action_counter": 179980
+      },
+      {
+        "commit_message": "fix: Overhaul parsing and deposit logic. The tool was failing to identify items without prefixes and was not correctly parsing the JSON input for target items. This commit replaces the fragile regex with a line-by-line parsing approach, adds `json.loads` to handle the input correctly, and simplifies the deposit logic to handle one item at a time for better reliability.",
+        "timestamp": "2025-08-31T20:36:55.344Z",
+        "action_counter": 179989
+      },
+      {
+        "commit_message": "fix: Overhaul parsing logic to be more robust. The previous regex-based approach was failing due to inconsistent screen layouts. This commit replaces it with a line-by-line parser that stops at the question prompt and correctly ignores quantity lines. This should make item and cursor detection much more reliable and prevent the tool from failing to find items or scrolling indefinitely.",
+        "timestamp": "2025-08-31T20:45:08.567Z",
+        "action_counter": 180005
       }
     ]
   }
