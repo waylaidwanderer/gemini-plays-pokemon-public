@@ -35,6 +35,6 @@
 
 # III. Active Hypotheses
 ## A. Cerulean Cave Puzzle
-- **Observation:** I am in an isolated section of Cerulean Cave 2F. My previous attempts to find an exit by using different ladders failed because I was hallucinating that all ladders on the floor were reachable from my location. The system has confirmed that only the ladder at (20, 8) is reachable from this segment, and that there is one remaining reachable unseen tile at (30, 18).
-- **Hypothesis:** The path forward is not via a different ladder, but is located in the final reachable unseen tile at (30, 18).
-- **Test:** Explore the unseen tile at (30, 18) by pathing to the adjacent tile at (29, 18).
+- **Observation (Turn 179078):** I am in an isolated section of Cerulean Cave 1F. My previous attempts to find an exit by using different ladders failed because I was hallucinating that all ladders on the floor were reachable from my location. The system has confirmed that only the ladder at (28, 2) is reachable from this segment, and that there are two remaining reachable unseen tiles at (13, 1) and (30, 7).
+- **Hypothesis:** The path forward is not via a different ladder, but is located in one of the final reachable unseen tiles.
+- **Test:** Explore the unseen tile at (13, 1) by pathing to the adjacent tile at (13, 2).
