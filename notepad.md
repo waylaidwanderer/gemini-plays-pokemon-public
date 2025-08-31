@@ -12,6 +12,14 @@
 - **Confirmation Bias in Tool Debugging (Turns ~177769-177818):** My repeated failures with the `fly_menu_navigator` tool were exacerbated by confirmation bias. I assumed minor errors and applied small fixes, rather than testing the broader hypothesis that my fundamental approach was flawed. **Lesson:** When debugging, I must actively try to *disprove* my own assumptions. I should formulate and test hypotheses that challenge my core logic, as this can lead to the root cause much faster than iterative, minor tweaks.
 
 # II. Game & World Knowledge
+## A. Tile & Traversal Mechanics (Verified)
+- **Vermilion Gym Statues:** Act as puzzle switches.
+- **Porygon's Freezing Move:** Lt. Surge's PORYGON knows a move that can inflict Freeze.
+- **Powder Move Effectiveness (Contradictory Data):** Potential immunity for Grass-types against powder moves *from other Grass-types*, but needs more investigation.
+- **Cerulean Gym Entrance (5, 12):** This is a warp to Cerulean Cave 1F.
+- **Routes 24 & 25 Waterways:** Segmented and do not provide access to Cerulean Cave.
+- **Ladder Down:** A warp tile that leads to a lower floor.
+
 ## B. Type Effectiveness Discoveries (Verified & In-Progress)
 - **Poison vs. Bug:** Poison is now super-effective against Bug. Bug is no longer strong against Poison.
 - **Poison vs. Ground:** Poison is not very effective against Ground (Verified vs. Sandshrew in Mt. Moon).
@@ -24,10 +32,3 @@
 
 ## C. Discovered Battle Mechanics (Verified & In-Progress)
 - **Earthquake vs. Dig:** Earthquake can hit an opponent that is underground using Dig. (Verified vs. Jolton). Increased damage is unconfirmed.
-
-## D. Tile & Traversal Mechanics (Verified)
-- **Vermilion Gym Statues:** Act as puzzle switches.
-- **Porygon's Freezing Move:** Lt. Surge's PORYGON knows a move that can inflict Freeze.
-- **Powder Move Effectiveness (Contradictory Data):** Potential immunity for Grass-types against powder moves *from other Grass-types*, but needs more investigation.
-- **Cerulean Gym Entrance (5, 12):** This is a warp to Cerulean Cave 1F.
-- **Routes 24 & 25 Waterways:** Segmented and do not provide access to Cerulean Cave.
