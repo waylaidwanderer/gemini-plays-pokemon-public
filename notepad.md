@@ -34,6 +34,10 @@
 - **Porygon's Freezing Move:** Lt. Surge's PORYGON knows a move that can inflict Freeze. The specific move is unknown.
 - **Powder Move Effectiveness (Contradictory Data):** In a previous battle, NIGHTSHADE's SLEEP POWDER failed against a VILEPLUME with the message 'It didn't affect VILEPLUME!'. However, in the current battle, Erika's VILEPLUME is consistently able to use SLEEP POWDER successfully on NIGHTSHADE. This suggests a potential immunity for Grass-types against powder moves *from other Grass-types*, but this immunity might not apply to the player's Pokémon or could be conditional. Needs further investigation.
 
+## D. Tile & Traversal Mechanics (Verified)
+- **Surf Facing Requirement:** To use Surf, the player must be standing on a land tile and be facing the adjacent water tile they intend to enter. Attempting to use Surf while facing any other direction will fail.
+- **Defeated Trainers as Obstacles (Correction):** My previous assumption was incorrect. Defeated trainers remain as impassable objects and cannot be walked through. Paths must be planned around them.
+
 # III. Current Objective: Post-Game Exploration
 - **Goal:** Capture the legendary Pokémon Mewtwo.
 - **Status:** All Gym Leader rematches completed.
@@ -55,19 +59,16 @@
 - **`fly_menu_navigator` (Tool):** Automates Fly menu navigation. Initially had incorrect city order logic, causing repeated failures. Has been fixed to reflect the game's actual fixed city list.
 - **`master_battle_agent` (Agent):** Refined its logic for handling low-HP switch-ins to improve risk assessment. **Note:** Monitor performance regarding sacrificial pivots vs. switching in damaged key Pokémon.
 
-# VI. Completed/Stalled Investigations
-- **Cerulean City Investigation:** Uncovered a path to the Cerulean Gym's back entrance by using Cut, but the path to Route 9 remains blocked by Officer Jenny. Investigation is currently stalled.
-- **Brock's Location:** Hypothesis that Brock was in Mt. Moon is incorrect. Abandoned this investigation.
-- **Route 4 Horizontal Jumps:** Hypothesis that the Route 4 puzzle involved repeated horizontal ledge jumps was incorrect. The path required vertical jumps.
-- **Officer Jenny Path Block:** Hypothesis that defeating the Rocket Grunt or Misty would cause Officer Jenny to move was incorrect. The path to Route 9 remains blocked.
-
-# VII. Future Tool & Agent Ideas
+## B. Future Tool & Agent Ideas
+- **'Maze Navigator' (Agent):** An agent that takes a map layout and a destination, then breaks down the complex navigation into a series of intermediate, solvable `find_path` calls.
 - **'Use HM Automator' (Tool):** A high-level tool that takes an HM name (e.g., 'Cut') and a target coordinate. It would automate the entire sequence: open menu, select the correct Pokémon, select the HM, and execute it. This would significantly improve efficiency for recurring obstacles.
 - **'Next Pokémon Selector' (Tool/Agent):** A tool or agent that takes the current party state and the opponent's Pokémon as input and recommends the best Pokémon to send out after one of yours has fainted. This would automate the decision-making process in critical moments.
 - **'Battle Log Parser' (Tool):** A tool that takes raw battle screen text and extracts key events (moves used, effectiveness, status changes) to streamline documentation.
 - **'Strategic Team Builder' (Agent Expansion):** Enhance the existing `team_builder_agent` to not only suggest a team but also provide a high-level strategic plan for the battle, including lead matchups and key pivots.
 - **'Stall Breaker' (Agent):** An agent that analyzes battles for repetitive, non-damaging stall tactics (like sleep-locking) and suggests specific counter-strategies or Pokémon swaps to break the loop.
 
-## D. Tile & Traversal Mechanics (Verified)
-- **Surf Facing Requirement:** To use Surf, the player must be standing on a land tile and be facing the adjacent water tile they intend to enter. Attempting to use Surf while facing any other direction will fail.
-- **Defeated Trainers as Obstacles (Correction):** My previous assumption was incorrect. Defeated trainers remain as impassable objects and cannot be walked through. Paths must be planned around them.
+# VI. Completed/Stalled Investigations
+- **Cerulean City Investigation:** Uncovered a path to the Cerulean Gym's back entrance by using Cut, but the path to Route 9 remains blocked by Officer Jenny. Investigation is currently stalled.
+- **Brock's Location:** Hypothesis that Brock was in Mt. Moon is incorrect. Abandoned this investigation.
+- **Route 4 Horizontal Jumps:** Hypothesis that the Route 4 puzzle involved repeated horizontal ledge jumps was incorrect. The path required vertical jumps.
+- **Officer Jenny Path Block:** Hypothesis that defeating the Rocket Grunt or Misty would cause Officer Jenny to move was incorrect. The path to Route 9 remains blocked.
