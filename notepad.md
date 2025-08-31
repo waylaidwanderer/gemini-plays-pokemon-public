@@ -53,3 +53,10 @@
 - **Brock's Location:** Hypothesis that Brock was in Mt. Moon is incorrect. Abandoned this investigation.
 - **Route 4 Horizontal Jumps:** Hypothesis that the Route 4 puzzle involved repeated horizontal ledge jumps was incorrect. The path required vertical jumps.
 - **Officer Jenny Path Block:** Hypothesis that defeating the Rocket Grunt or Misty would cause Officer Jenny to move was incorrect. The path to Route 9 remains blocked.
+
+# VI. Future Tool & Agent Ideas
+
+- **'Use HM Automator' (Tool):** A high-level tool that takes an HM name (e.g., 'Cut') and a target coordinate. It would automate the entire sequence: open menu, select the correct Pokémon, select the HM, and execute it. This would significantly improve efficiency for recurring obstacles.
+
+# I. Meta-Progression & Lessons Learned
+- **Confirmation Bias in Tool Debugging (Turns ~177769-177818):** My repeated failures with the `fly_menu_navigator` tool were exacerbated by confirmation bias. I assumed minor errors and applied small fixes, rather than testing the broader hypothesis that my fundamental approach was flawed. **Lesson:** When debugging, I must actively try to *disprove* my own assumptions. I should formulate and test hypotheses that challenge my core logic, as this can lead to the root cause much faster than iterative, minor tweaks.
