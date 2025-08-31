@@ -41,9 +41,8 @@
 # III. Current Objective & Hypotheses
 - **Goal:** Capture the legendary Pokémon Mewtwo.
 - **Sub-Goal:** Gain access to Cerulean Cave.
-- **Current Hypothesis:** The warp at (3, 1) in the Badge House leads to the main area of Cerulean City, unlike the warp at (3, 8) which leads to an isolated platform.
-  - **Test:** Navigate to (3, 1) in the Badge House and use the warp.
-  - **Expected Outcome:** Arrive in a part of Cerulean City with access to the main city and the northern water routes.
+- **Failed Hypothesis (Route 25):** The entrance to Cerulean Cave is on Route 25. **Conclusion:** After exploring all land paths, interacting with all objects/NPCs (including the soft-locking Pikachu event at the cave entrance and the dead-end at Bill's House), and surfing all accessible water areas, Route 25 has been fully explored and contains no entrance to Cerulean Cave. The investigation here is stalled.
+- **New Hypothesis:** The entrance to Cerulean Cave is accessible by surfing on the water on Route 24.
 
 # V. Custom Tools & Agents
 
