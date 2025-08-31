@@ -47,3 +47,4 @@
 # III. Actionable Reminders & Self-Correction
 - **Overwatch Critique (Turn 179501):** `team_builder_agent` has very low usage. I must find an opportunity to use this agent to test its effectiveness and refine it if necessary.
 - **Overwatch Critique (Turn 179501):** Use of `select_battle_option` for simple, known menu navigation (like selecting 'RUN') is redundant. I will perform these actions manually going forward.
+- **Repeated Tool Misuse (Turn 179608):** Despite a self-correction note, I again used `select_battle_option` for a simple 'RUN' command. This is a critical failure to learn from documented mistakes. I must prioritize manual execution for simple, known menu actions.
