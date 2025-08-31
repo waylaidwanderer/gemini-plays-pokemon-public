@@ -21,6 +21,7 @@
 - **Ground vs. Normal:** Ground was observed to be super-effective against Porygon. Needs further testing to confirm if this is a universal change for all Normal-types.
 - **Ground vs. Grass/Psychic:** Ground is not very effective against Grass/Psychic dual-types (Verified vs. Exeggutor).
 - **Electric vs. Grass/Poison:** Electric is not very effective against Grass/Poison dual-types (Verified vs. Victreebel).
+- **Psychic vs. Poison:** Psychic is super-effective against Poison (Verified vs. Golbat).
 
 ## B. Discovered Battle Mechanics (Verified & In-Progress)
 - **Earthquake vs. Dig:** Earthquake can hit an opponent that is underground using Dig. (Verified vs. Jolteon). Increased damage is unconfirmed.
@@ -31,6 +32,7 @@
 - **Pewter Museum Fossil Interaction Soft-Lock:** Interacting with the Aerodactyl fossil at (3, 4) displays flavor text and then causes a soft-lock where movement is impossible. Pressing 'B' cancels the event and restores movement.
 - **Vermilion Gym Statues:** The statues in the gym act as the puzzle switches, not the trash cans. Interacting with the winner's board statue after checking all cans solved the puzzle.
 - **Porygon's Freezing Move:** Lt. Surge's PORYGON knows a move that can inflict Freeze. The specific move is unknown.
+- **Powder Move Effectiveness (Contradictory Data):** Observed SLEEP POWDER being effective against Vileplume in one battle, but in another, the message 'It didn't affect NIGHTSHADE!' appeared when Vileplume used SLEEP POWDER. This suggests either a conditional immunity (e.g., same evolutionary line?) or a random chance of failure. Needs further investigation.
 
 ## D. Tile Mechanics (Verified)
 - **steps:** Allows movement between `ground` and `elevated_ground` tiles.
@@ -41,7 +43,13 @@
 - **Status:** Brock, Misty, and Lt. Surge defeated.
 - **Next Target:** Erika in Celadon City.
 
-# IV. Custom Tools & Agents
+# IV. Gym Leader Rematch Data
+### Erika (Celadon Gym)
+- **EXEGGUTOR (Lv 64):** Knows PSYCHIC, MEGA DRAIN.
+- **VICTREEBEL (Lv 65):** Knows MEGA DRAIN, SLUDGE.
+- **VILEPLUME (Lv 65):** Knows SLEEP POWDER, MEGA DRAIN, SUBSTITUTE.
+
+# V. Custom Tools & Agents
 
 ## A. Existing Tools & Agents
 - **`find_path` (Tool):** After repeated crashes due to a persistent `TypeError`, the complex BFS implementation was reverted to a barebones, stable version. It has since been updated (Turn 177601) to be more robust, now correctly handling impassable destinations by pathing to an adjacent traversable tile.
@@ -50,19 +58,14 @@
 - **`pc_navigator` (Tool):** The tool's regex pattern had a syntax error. I have corrected the unterminated string literal to ensure it functions reliably.
 - **`master_battle_agent` (Agent):** Refined its logic for handling low-HP switch-ins to improve risk assessment. **Note:** Monitor performance regarding sacrificial pivots vs. switching in damaged key Pokémon.
 
-# V. Completed/Stalled Investigations
+# VI. Completed/Stalled Investigations
 - **Cerulean City Investigation:** Uncovered a path to the Cerulean Gym's back entrance by using Cut, but the path to Route 9 remains blocked by Officer Jenny. Investigation is currently stalled.
 - **Brock's Location:** Hypothesis that Brock was in Mt. Moon is incorrect. Abandoned this investigation.
 - **Route 4 Horizontal Jumps:** Hypothesis that the Route 4 puzzle involved repeated horizontal ledge jumps was incorrect. The path required vertical jumps.
 - **Officer Jenny Path Block:** Hypothesis that defeating the Rocket Grunt or Misty would cause Officer Jenny to move was incorrect. The path to Route 9 remains blocked.
 
-# VI. Future Tool & Agent Ideas
+# VII. Future Tool & Agent Ideas
 - **'Use HM Automator' (Tool):** A high-level tool that takes an HM name (e.g., 'Cut') and a target coordinate. It would automate the entire sequence: open menu, select the correct Pokémon, select the HM, and execute it. This would significantly improve efficiency for recurring obstacles.
 - **'Next Pokémon Selector' (Tool/Agent):** A tool or agent that takes the current party state and the opponent's Pokémon as input and recommends the best Pokémon to send out after one of yours has fainted. This would automate the decision-making process in critical moments.
-
-## C. World & Object Mechanics (Verified)
-- **Powder Move Effectiveness (Contradictory Data):** Observed SLEEP POWDER being effective against Vileplume in one battle, but in another, the message 'It didn't affect NIGHTSHADE!' appeared when Vileplume used SLEEP POWDER. This suggests either a conditional immunity (e.g., same evolutionary line?) or a random chance of failure. Needs further investigation.
-
-# VI. Future Tool & Agent Ideas
 - **'Battle Log Parser' (Tool):** A tool that takes raw battle screen text and extracts key events (moves used, effectiveness, status changes) to streamline documentation.
 - **'Strategic Team Builder' (Agent Expansion):** Enhance the existing `team_builder_agent` to not only suggest a team but also provide a high-level strategic plan for the battle, including lead matchups and key pivots.
