@@ -40,3 +40,7 @@
 ## B. Untested Hypotheses
 - **Hypothesis:** Electric-type moves are super-effective against Flying-type Pokémon.
   - **Test:** Use an Electric move (e.g., THUNDERBOLT) against a pure Flying or Normal/Flying Pokémon and observe the on-screen damage text for 'It's super effective!'.
+
+# IV. Actionable Reminders & Self-Correction
+- **Overwatch Critique (Turn 179501):** `team_builder_agent` has very low usage. I must find an opportunity to use this agent to test its effectiveness and refine it if necessary.
+- **Overwatch Critique (Turn 179501):** Use of `select_battle_option` for simple, known menu navigation (like selecting 'RUN') is redundant. I will perform these actions manually going forward.
