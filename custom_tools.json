@@ -747,42 +747,6 @@
       }
     ]
   },
-  "party_menu_navigator": {
-    "description": "Navigates the out-of-battle party menu to select a target Pokémon. Outputs the necessary directional button presses.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "target_pokemon": {
-          "type": "string"
-        },
-        "screen_text": {
-          "type": "string"
-        }
-      },
-      "required": [
-        "target_pokemon",
-        "screen_text"
-      ]
-    },
-    "python_script": "import json\nimport re\n\ndef navigate_party_menu(target_pokemon, screen_text):\n    lines = screen_text.strip().split('\\n')\n    pokemon_names = []\n    # This regex is designed to find pokemon names at the start of lines, ignoring LV and HP info\n    for line in lines:\n        match = re.match(r'\\s*→?\\s*([A-Z’]+)', line.strip())\n        if match:\n            pokemon_names.append(match.group(1).strip())\n\n    # Remove duplicates that can occur from parsing both lines of a pokemon entry\n    pokemon_names = sorted(set(pokemon_names), key=pokemon_names.index)\n\n    try:\n        current_pos = -1\n        for i, line in enumerate(lines):\n            if '→' in line:\n                # Each pokemon entry takes up 2 lines, so integer division gives the 0-indexed position\n                current_pos = i // 2\n                break\n\n        if current_pos == -1:\n             print(json.dumps({'error': 'Could not determine current cursor position from screen text.'}))\n             return\n\n        target_pos = pokemon_names.index(target_pokemon.upper())\n        \n        moves = target_pos - current_pos\n        \n        buttons = []\n        if moves > 0:\n            buttons.extend(['Down'] * moves)\n        elif moves < 0:\n            buttons.extend(['Up'] * abs(moves))\n            \n        print(json.dumps(buttons))\n\n    except (ValueError, IndexError) as e:\n        print(json.dumps({'error': f'Could not find target pokemon or parse menu. Target: {target_pokemon}, Found: {pokemon_names}, Error: {str(e)}'}))\n\nnavigate_party_menu(input_data['target_pokemon'], input_data['screen_text'])",
-    "history": [
-      {
-        "commit_message": "feat: Create party_menu_navigator tool. In response to a mandatory self-assessment, this tool is created to automate the repetitive task of selecting a Pokémon from the out-of-battle party menu, improving efficiency and reducing manual input errors when using HMs.",
-        "timestamp": "2025-08-31T01:19:02.975Z",
-        "action_counter": 177653
-      },
-      {
-        "commit_message": "feat: Create party_menu_navigator tool. In response to a mandatory self-assessment, this tool is created to automate the repetitive task of selecting a Pokémon from the out-of-battle party menu, improving efficiency and reducing manual input errors when using HMs.",
-        "timestamp": "2025-08-31T02:21:08.784Z",
-        "action_counter": 177807
-      },
-      {
-        "commit_message": "feat: Create party_menu_navigator tool. In response to a mandatory self-assessment, this tool is created to automate the repetitive task of selecting a Pokémon from the out-of-battle party menu, improving efficiency and reducing manual input errors when using HMs.",
-        "timestamp": "2025-08-31T02:21:57.635Z",
-        "action_counter": 177808
-      }
-    ]
-  },
   "fly_menu_navigator": {
     "description": "Navigates the Fly map menu to select a target city. Outputs the necessary directional button presses.",
     "input_schema": {
@@ -887,6 +851,32 @@
         "commit_message": "refactor: Overhaul tool to use JSON input instead of screen parsing. In response to a mandatory self-assessment and an overwatch critique, this commit completely refactors the tool to be more robust. It now accepts the player's party data as a JSON string, which eliminates the brittleness of parsing screen text and makes the tool resilient to changes in party order or menu layout.",
         "timestamp": "2025-08-31T18:10:49.430Z",
         "action_counter": 179706
+      }
+    ]
+  },
+  "select_move_in_battle": {
+    "description": "Navigates the in-battle move selection menu to select a target move. Outputs the necessary directional button presses.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "screen_text": {
+          "type": "string"
+        },
+        "target_move": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "screen_text",
+        "target_move"
+      ]
+    },
+    "python_script": "import json\nimport re\n\nscreen_text = input_data['screen_text']\ntarget_move = input_data['target_move'].upper()\n\nmoves = re.findall(r'→(.+)|\\n(.+)', screen_text)\n\n# Flatten the list of tuples and filter out empty strings\nparsed_moves = [item.strip() for t in moves for item in t if item.strip()]\n\nif not parsed_moves:\n    print(json.dumps({'error': 'Could not parse moves from screen text.'}))\n\n# The first move is the one with the arrow\ncurrent_selection_index = 0\n\ntry:\n    target_index = parsed_moves.index(target_move)\nexcept ValueError:\n    print(json.dumps({'error': f'Target move \"{target_move}\" not found in parsed moves: {parsed_moves}'}))\n\n# Determine button presses\n# Moves are in a 2x2 grid: [0, 1] on top row, [2, 3] on bottom row\n# 0: Top-left, 1: Top-right, 2: Bottom-left, 3: Bottom-right\npresses = []\n\n# Vertical movement\nif target_index // 2 != current_selection_index // 2:\n    presses.append('Down' if target_index > current_selection_index else 'Up')\n\n# Horizontal movement\nif target_index % 2 != current_selection_index % 2:\n    presses.append('Right' if target_index > current_selection_index else 'Left')\n\nprint(json.dumps({'buttons': presses}))\n",
+    "history": [
+      {
+        "commit_message": "feat: Create select_move_in_battle tool. In response to a mandatory self-assessment and an Overwatch critique, this tool is created to automate the specific and repetitive task of selecting a move in battle. This will improve efficiency and prevent the redundant manual inputs previously identified.",
+        "timestamp": "2025-08-31T18:36:05.475Z",
+        "action_counter": 179759
       }
     ]
   }
