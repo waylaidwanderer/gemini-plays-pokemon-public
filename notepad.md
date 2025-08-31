@@ -40,23 +40,19 @@
 
 # III. Current Objective & Hypotheses
 - **Goal:** Capture the legendary Pokémon Mewtwo.
-- **Sub-Goal:** Gain access to Cerulean Cave.
-- **Failed Hypothesis (Route 25):** The entrance to Cerulean Cave is on Route 25. **Conclusion:** After exploring all land paths, interacting with all objects/NPCs (including the soft-locking Pikachu event at the cave entrance and the dead-end at Bill's House), and surfing all accessible water areas, Route 25 has been fully explored and contains no entrance to Cerulean Cave. The investigation here is stalled.
-- **Failed Hypothesis (Route 24):** The entrance to Cerulean Cave is accessible by surfing on the water on Route 24. **Conclusion:** After exploring all accessible water areas on Route 24, it has been confirmed that the water is segmented and provides no access to Cerulean Cave or any new areas. The investigation here is stalled.
+- **Sub-Goal:** Explore Cerulean Cave.
+- **New Discovery:** The main entrance to the Cerulean Gym at (5, 12) is actually a warp to Cerulean Cave 1F.
+- **Failed Hypothesis (Routes 24 & 25):** The entrance to Cerulean Cave is accessible by surfing on the water on Routes 24 and 25. **Conclusion:** After exploring all accessible water areas on both routes, it has been confirmed that the water is segmented and provides no access to Cerulean Cave or any new areas. The investigation here is stalled.
+
+# IV. Future Agent/Tool Ideas
+- **Wild Battle Agent:** An agent to automate simple wild battles by deciding to fight or run, and selecting moves. This would improve efficiency when exploring.
 
 # V. Custom Tools & Agents
 
 ## A. Existing Tools & Agents
 - **`find_path` (Tool):** After repeated crashes due to a persistent `TypeError`, the complex BFS implementation was reverted to a barebones, stable version. It has since been updated (Turn 177601) to be more robust, now correctly handling impassable destinations by pathing to an adjacent traversable tile.
-- **`gym_puzzle_solver_tool` (Tool):** Replaced the `gym_puzzle_navigator` agent to better align with architectural best practices, as this is a deterministic, computational task.
 - **`team_builder_agent` (Agent):** Mandated by Overwatch for testing before the next major battle.
 - **`pc_navigator` (Tool):** The tool's regex pattern had a syntax error. I have corrected the unterminated string literal to ensure it functions reliably.
 - **`fly_menu_navigator` (Tool):** Automates Fly menu navigation. Initially had incorrect city order logic, causing repeated failures. Has been fixed to reflect the game's actual fixed city list.
+- **`move_into_pikachu` (Tool):** Automates moving onto Pikachu's tile. Not yet tested.
 - **`master_battle_agent` (Agent):** Refined its logic for handling low-HP switch-ins to improve risk assessment. **Note:** Monitor performance regarding sacrificial pivots vs. switching in damaged key Pokémon.
-
-# VI. Completed/Stalled Investigations
-- **Cerulean City Investigation:** Uncovered a path to the Cerulean Gym's back entrance by using Cut, but the path to Route 9 remains blocked by Officer Jenny. Investigation is currently stalled.
-- **Brock's Location:** Hypothesis that Brock was in Mt. Moon is incorrect. Abandoned this investigation.
-- **Route 4 Horizontal Jumps:** Hypothesis that the Route 4 puzzle involved repeated horizontal ledge jumps was incorrect. The path required vertical jumps.
-- **Officer Jenny Path Block:** Hypothesis that defeating the Rocket Grunt or Misty would cause Officer Jenny to move was incorrect. The path to Route 9 remains blocked.
-- **New Discovery:** The main entrance to the Cerulean Gym at (5, 12) is actually a warp to Cerulean Cave 1F.
