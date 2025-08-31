@@ -13,16 +13,11 @@
 - **Deferred Documentation (Turn 178987 & 179040):** Violated core directive by deferring notepad updates while in battle. Maintenance tasks are always the highest priority and must be performed immediately.
 
 # II. Game & World Knowledge
-## A. Tile & Traversal Mechanics (Verified)
+## A. Game Mechanics & Puzzles (Verified)
 - **Vermilion Gym Statues:** Act as puzzle switches.
 - **Porygon's Freezing Move:** Lt. Surge's PORYGON knows a move that can inflict Freeze.
 - **Cerulean Gym Entrance (5, 12):** This is a warp to Cerulean Cave 1F.
 - **Routes 24 & 25 Waterways:** Segmented and do not provide access to Cerulean Cave.
-- **Ladder Down:** A warp tile that leads to a lower floor.
-- **Ladder Up:** A warp tile that leads to a higher floor.
-- **Elevated Ground:** Walkable ground at a different elevation. Can only be accessed from `steps` tiles, other `elevated_ground` tiles, or warps.
-- **Steps:** The only tile type that allows movement between `ground` and `elevated_ground`.
-- **Water:** Requires the Surf HM to traverse.
 
 ## B. Type Effectiveness Discoveries (Verified)
 - **Poison vs. Bug:** Poison is now super-effective against Bug. Bug is no longer strong against Poison.
