@@ -71,3 +71,4 @@
 # IX. Interactable Object Mechanics (Verified)
 - **Vermilion Gym Statues:** The statues in the gym act as the puzzle switches, not the trash cans. Interacting with the winner's board statue after checking all cans solved the puzzle.
 - **Porygon's Freezing Move:** Lt. Surge's PORYGON knows a move that can inflict Freeze. The specific move is unknown.
+- **Deferred Maintenance (Overwatch Critique, Turn 177701):** Received a critical review for repeatedly deferring tool and documentation maintenance. This is a core directive violation. All maintenance tasks MUST be performed on the same turn a flaw is discovered, superseding all other gameplay objectives.
