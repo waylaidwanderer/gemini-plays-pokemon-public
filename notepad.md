@@ -23,7 +23,7 @@
 - **Psychic vs. Poison:** Psychic is super-effective against Poison (Verified vs. Golbat).
 
 ## C. Discovered Battle Mechanics (Verified & In-Progress)
-- **Earthquake vs. Dig:** Earthquake can hit an opponent that is underground using Dig. (Verified vs. Jolteon). Increased damage is unconfirmed.
+- **Earthquake vs. Dig:** Earthquake can hit an opponent that is underground using Dig. (Verified vs. Jolton). Increased damage is unconfirmed.
 
 ## D. World & Object Mechanics (Verified)
 - **Vermilion Gym Statues:** Act as puzzle switches.
