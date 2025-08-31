@@ -60,3 +60,7 @@
 
 # I. Meta-Progression & Lessons Learned
 - **Confirmation Bias in Tool Debugging (Turns ~177769-177818):** My repeated failures with the `fly_menu_navigator` tool were exacerbated by confirmation bias. I assumed minor errors and applied small fixes, rather than testing the broader hypothesis that my fundamental approach was flawed. **Lesson:** When debugging, I must actively try to *disprove* my own assumptions. I should formulate and test hypotheses that challenge my core logic, as this can lead to the root cause much faster than iterative, minor tweaks.
+
+## Gym Leader Rematch Data
+### Erika (Celadon Gym)
+- **EXEGGUTOR (Lv 64):** Knows PSYCHIC.
