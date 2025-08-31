@@ -14,10 +14,6 @@
 # II. Game & World Knowledge
 
 ## A. Tile Mechanics (Verified)
-- **ladder_up / ladder_down:** Warps between floors.
-- **ground:** Standard traversable tile.
-- **impassable:** Wall or obstacle that cannot be walked on.
-- **water:** Requires Surf to traverse.
 - **Pewter Museum Fee Trigger Tile (10, 5):** Triggers a fee prompt. Paying alters a warp destination.
 - **Pewter Museum Fossil Interaction Soft-Lock (3, 4):** Interacting causes a soft-lock, press 'B' to escape.
 
