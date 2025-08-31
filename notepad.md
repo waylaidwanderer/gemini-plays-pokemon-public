@@ -88,3 +88,35 @@
 - **Confirmation Bias & Hallucination Loops:** I have a recurring issue with confirmation bias, leading to severe hallucination loops (e.g., Pewter Museum, Badge House navigation). I must treat system validation checks as absolute truth and immediately re-evaluate my internal state when they fail, rather than repeating failed actions.
 - **Trust Tools & Agents:** I must trust the outputs of my tools and agents. The `find_path` tool correctly identified that Vermilion City was segmented; my assumption that the tool was broken was wrong. I must verify my own assumptions about the game world before debugging a tool.
 - **Decisive Tool Maintenance:** When a tool is broken, I must fix it with a single, decisive action rather than piecemeal debugging over many turns. A broken tool halts all other gameplay progress until it is fully functional.
+
+# II. Game & World Knowledge
+
+## A. Type Effectiveness Discoveries (Verified)
+- **Poison vs. Bug:** Poison is super-effective against Bug.
+- **Poison vs. Ground:** Poison is not very effective against Ground.
+- **Poison vs. Poison/Flying:** Poison is not very effective against Poison/Flying.
+- **Water vs. Rock/Water:** Water is not very effective against Rock/Water.
+- **Ground vs. Grass/Psychic:** Ground is not very effective against Grass/Psychic.
+- **Electric vs. Grass/Poison:** Electric is not very effective against Grass/Poison.
+- **Psychic vs. Poison:** Psychic is super-effective against Poison.
+
+## B. Discovered Battle Mechanics (Verified)
+- **Earthquake vs. Dig:** Earthquake can hit an opponent that is underground using Dig.
+
+## C. World & Object Mechanics (Verified)
+- **Pewter Museum Puzzle:** The fee trigger at (10, 5) alters the fake gym warp's destination. The Aerodactyl fossil soft-locks the game, requiring a 'B' press to escape.
+- **Vermilion Gym Puzzle:** The statues are the switches, not the trash cans.
+- **Cerulean Cave Entry:** Attempts via direct entry, Pikachu interaction, and visiting Bill's House have all failed. The puzzle seems to be more complex.
+- **Porygon's Freezing Move:** Lt. Surge's PORYGON knows a move that can inflict Freeze.
+- **Powder Move Immunity (Hypothesis):** Grass-types may be immune to powder moves from other Grass-types, but this needs more testing.
+
+## D. Tile & Traversal Mechanics (Verified)
+- **ground:** Standard walkable tile.
+- **grass:** Walkable tile with wild encounters.
+- **impassable:** Cannot be walked on.
+- **water:** Requires Surf HM.
+- **ledge:** One-way downward traversal (from Y-1).
+- **cuttable:** Requires Cut HM. Respawns after map change or battle.
+- **Surf Facing Requirement:** Player must face the water tile to use Surf.
+- **Defeated Trainers:** Remain as impassable obstacles.
+- **Pikachu Step Swap:** Player and Pikachu swap positions on 'steps' tiles.
