@@ -793,32 +793,6 @@
       }
     ]
   },
-  "item_menu_navigator": {
-    "description": "Navigates the out-of-battle item menu to select a target item or EXIT. Outputs the necessary directional button presses.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "screen_text": {
-          "type": "string"
-        },
-        "target_item": {
-          "type": "string"
-        }
-      },
-      "required": [
-        "screen_text",
-        "target_item"
-      ]
-    },
-    "python_script": "import json\nimport sys\nimport re\n\nscreen_text = input_data['screen_text']\ntarget_item_name = input_data['target_item']\n\nlines = screen_text.strip().split('\\n')\nitem_names = []\ncursor_index = -1\n\n# This regex is designed to capture item names, which are typically uppercase, and the EXIT/CANCEL options.\nitem_regex = re.compile(r'(→)?\\s*([A-Z0-9\\s\\.\\']+|EXIT|CANCEL)')\n\n# We check the last several lines of the screen text, as that's where the menu is.\nfor line in lines[-6:]:\n    # We strip each line to handle potential leading/trailing whitespace.\n    clean_line = line.strip()\n    match = item_regex.match(clean_line)\n    if match:\n        is_selected = match.group(1) is not None\n        item_name = match.group(2).strip()\n        \n        # This check prevents capturing quantity lines (e.g., '× 1') as items.\n        if '×' in item_name or item_name.isdigit():\n            continue\n            \n        if is_selected:\n            cursor_index = len(item_names)\n        \n        # This prevents adding duplicate entries when an item and its quantity are on separate lines.\n        if not item_names or item_names[-1] != item_name:\n            item_names.append(item_name)\n\nif cursor_index == -1 or not item_names:\n    print(json.dumps({\"error\": \"Could not determine cursor position or parse items from provided text.\"}))\n    sys.exit()\n\ntry:\n    target_index = -1\n    # We iterate through the parsed item names to find an exact match for our target.\n    for i, item in enumerate(item_names):\n        if target_item_name.upper() == item.upper():\n            target_index = i\n            break\n    if target_index == -1:\n        raise ValueError\nexcept ValueError:\n    print(json.dumps({\"error\": f\"Target '{target_item_name}' not found in visible items: {item_names}\"}))\n    sys.exit()\n\n# Calculate the difference in index to determine button presses.\ndelta = target_index - cursor_index\n\nbuttons = []\nif delta > 0:\n    buttons.extend(['Down'] * delta)\nelif delta < 0:\n    buttons.extend(['Up'] * abs(delta))\n\nprint(json.dumps(buttons))\n",
-    "history": [
-      {
-        "commit_message": "feat: Create item_menu_navigator tool. In response to repeated, critical failures in manually navigating the item menu, this tool is created to automate the process of selecting an item or the 'EXIT' option. This will prevent future time-wasting loops and improve overall gameplay efficiency, addressing a severe performance bottleneck.",
-        "timestamp": "2025-08-31T16:58:46.524Z",
-        "action_counter": 179558
-      }
-    ]
-  },
   "use_hm_navigator": {
     "description": "Navigates the party menu to select a specific Pokémon and then use a specified HM. Outputs the necessary button presses. Takes the party data as JSON for robust selection.",
     "input_schema": {
@@ -882,6 +856,35 @@
         "commit_message": "fix: Correct NameError by properly defining `target_move_index`. The tool was crashing due to a typo where an undefined variable `target_index` was used. This commit fixes the variable name and improves the parsing logic to be more robust by locating the 'TYPE/' line before reading moves, ensuring more reliable performance.",
         "timestamp": "2025-08-31T18:44:40.804Z",
         "action_counter": 179777
+      }
+    ]
+  },
+  "pc_item_management_tool": {
+    "description": "Navigates the PC item storage menu to deposit a specified list of items. Outputs the necessary button presses.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "screen_text": {
+          "type": "string"
+        },
+        "items_to_deposit": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "required": [
+        "screen_text",
+        "items_to_deposit"
+      ]
+    },
+    "python_script": "import json\nimport re\n\nscreen_text = input_data['screen_text']\nitems_to_deposit = input_data['items_to_deposit']\n\nlines = screen_text.split('\\n')\ninventory = []\ncurrent_selection_index = -1\n\n# Find the start of the item list\ntry:\n    item_list_start_index = -1\n    for i, line in enumerate(lines):\n        if '¥' in line: # Assumes money line precedes item list\n            item_list_start_index = i + 1\n            break\n    if item_list_start_index == -1:\n        # Fallback for PC menu which doesn't show money\n        for i, line in enumerate(lines):\n            if line.strip().endswith('ITEMS'):\n                item_list_start_index = i + 1\n                break\n\n    if item_list_start_index == -1:\n        print(json.dumps({'error': 'Could not find start of item list.'}))\n        exit()\n\n    item_lines = lines[item_list_start_index:]\n    for i, line in enumerate(item_lines):\n        clean_line = line.strip()\n        if not clean_line or 'CANCEL' in clean_line:\n            continue\n        \n        is_selected = clean_line.startswith('→')\n        if is_selected:\n            current_selection_index = len(inventory)\n        \n        item_name = re.sub(r'^→\\s*|x\\d+$', '', clean_line).strip()\n        inventory.append(item_name)\n\nexcept Exception as e:\n    print(json.dumps({'error': f'Failed during inventory parsing: {str(e)}'}))\n    exit()\n\nif not inventory or current_selection_index == -1:\n    print(json.dumps({'error': 'Could not parse inventory or find current selection.'}))\n    exit()\n\nbuttons = []\nfor item_to_deposit in items_to_deposit:\n    try:\n        target_index = inventory.index(item_to_deposit)\n    except ValueError:\n        continue\n\n    diff = target_index - current_selection_index\n    if diff > 0:\n        buttons.extend(['Down'] * diff)\n    elif diff < 0:\n        buttons.extend(['Up'] * abs(diff))\n    \n    buttons.append('A') # Select item\n    buttons.append('A') # Confirm deposit\n\n    current_selection_index = target_index\n\n# Navigate to CANCEL\nif buttons:\n    cancel_index = len(inventory)\n    diff = cancel_index - current_selection_index\n    if diff > 0:\n        buttons.extend(['Down'] * diff)\n    elif diff < 0:\n        buttons.extend(['Up'] * abs(diff))\n    buttons.append('A')\n\nprint(json.dumps(buttons))",
+    "history": [
+      {
+        "commit_message": "feat: Create pc_item_management_tool. In response to a mandatory self-assessment identifying repetitive manual inventory management as a key inefficiency, this tool automates the process of depositing items into the PC. This will significantly speed up the restocking process and reduce manual error, directly addressing a major gameplay bottleneck.",
+        "timestamp": "2025-08-31T20:20:33.235Z",
+        "action_counter": 179964
       }
     ]
   }

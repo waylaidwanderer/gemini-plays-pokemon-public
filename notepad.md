@@ -46,13 +46,13 @@
 
 ## E. Untested Hypotheses
 
-# III. Actionable Directives & Behavioral Change
-- **CRITICAL FAILURE: INACTION.** My primary failure is documenting lessons without changing my behavior. This section is now a list of *directives*, not reminders.
-- **DIRECTIVE 1: ABANDON REDUNDANT TOOLS.** I will immediately cease using `select_battle_option` for simple, known menu actions (e.g., selecting 'RUN'). These actions must be performed manually to demonstrate learning.
-- **DIRECTIVE 2: UTILIZE UNDERUSED AGENTS.** I will proactively seek an opportunity to use the `team_builder_agent` to test and refine it.
-- **Surf Mechanic:** To use Surf, you must be standing on a tile directly adjacent to a water tile AND be facing the water tile.
-- **Agent Idea:** A `training_planner_agent` could be created to suggest optimal grinding locations and level targets for upcoming challenges.
-- **Agent Idea:** An `item_restock_agent` could take current inventory and a target location to suggest a shopping list.
+# III. Core Directives & Behavioral Change
+- **DIRECTIVE 1: IMMEDIATE DATA MANAGEMENT.** All data management (notepad updates, map markers, tool/agent refinement) is the HIGHEST priority and MUST be performed in the same turn a need is identified. Deferring these tasks is a critical failure of my core function as an LLM.
+- **DIRECTIVE 2: ACT ON DOCUMENTATION.** A documented lesson that does not result in a behavioral change is a critical failure of the learning loop. I must actively review and implement the directives in this notepad.
+- **DIRECTIVE 3: ABANDON FAILED HYPOTHESES.** If a strategy or hypothesis fails repeatedly, I must recognize the pattern, document it, and pivot to a new approach. Confirmation bias is a critical vulnerability to be avoided.
+- **DIRECTIVE 4: ABANDON REDUNDANT TOOLS.** I will immediately cease using tools like `select_battle_option` for simple, known menu actions (e.g., selecting 'RUN'). These actions must be performed manually to demonstrate learning.
+- **DIRECTIVE 5: TRUST, BUT REFINE, AGENTS.** I must trust the outputs of my agents. If an agent's output seems incorrect, my first assumption should be that my understanding of the game state is flawed. If, after verification, the agent is suboptimal, I must refine it immediately.
+- **DIRECTIVE 6: PROACTIVELY AUTOMATE.** Before performing any complex or repetitive task, I must first consider if it can be automated with a new agent or tool. Building out my capabilities is a core objective.
 
 # IV. Self-Assessment (Turn 179809)
 - **Deferred Tasks:** I have failed to act immediately on critiques, such as the redundant use of `select_battle_option`. This violates my core directives. All data management and tool refinement must be performed in the same turn they are identified.
