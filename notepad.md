@@ -27,6 +27,7 @@
 - **Ground vs. Grass/ Psychic:** Ground is not very effective against Grass/Psychic dual-types.
 - **Electric vs. Grass/Poison:** Electric is not very effective against Grass/Poison dual-types.
 - **Psychic vs. Poison:** Psychic is super-effective against Poison.
+- **Electric vs. Flying:** Electric is super-effective against Flying. (Verified against Dodrio).
 
 ## C. Discovered Battle Mechanics (Verified)
 - **Earthquake vs. Dig:** Earthquake can hit an opponent that is underground using Dig.
@@ -42,8 +43,6 @@
 - **unknown:** Tile not visually confirmed. Treat as impassable until seen.
 
 ## E. Untested Hypotheses
-- **Hypothesis:** Electric-type moves are super-effective against Flying-type Pokémon.
-  - **Test:** Use an Electric move (e.g., THUNDERBOLT) against a pure Flying or Normal/Flying Pokémon and observe the on-screen damage text for 'It's super effective!'.
 
 # III. Actionable Reminders & Self-Correction
 - **Overwatch Critique (Turn 179501):** `team_builder_agent` has very low usage. I must find an opportunity to use this agent to test its effectiveness and refine it if necessary.
