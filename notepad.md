@@ -18,7 +18,7 @@
 - **Poison vs. Poison/Flying:** Poison is not very effective against Poison/Flying dual-types (Verified vs. Zubat in Mt. Moon).
 - **Water vs. Rock/Water:** Water is not very effective against Rock/Water dual-types (Verified vs. Kabutops).
 - **Ground vs. Normal:** Ground was observed to be super-effective against Porygon. Needs further testing to confirm if this is a universal change for all Normal-types.
-- **Ground vs. Grass/Psychic:** Ground is not very effective against Grass/Psychic dual-types (Verified vs. Exeggutor).
+- **Ground vs. Grass/ Psychic:** Ground is not very effective against Grass/Psychic dual-types (Verified vs. Exeggutor).
 - **Electric vs. Grass/Poison:** Electric is not very effective against Grass/Poison dual-types (Verified vs. Victreebel).
 - **Psychic vs. Poison:** Psychic is super-effective against Poison (Verified vs. Golbat).
 
