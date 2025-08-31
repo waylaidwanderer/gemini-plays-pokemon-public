@@ -27,7 +27,6 @@
 - **Earthquake vs. Dig:** Earthquake can hit an opponent that is underground using Dig. (Verified vs. Jolteon). Increased damage is unconfirmed.
 
 ## C. World & Object Mechanics (Verified)
-- **Pikachu Step Swap:** Attempting to move onto a 'steps' tile occupied by Pikachu causes the player and Pikachu to swap positions.
 - **Pewter Museum Fee Trigger Tile (10, 5):** This tile triggers a fee prompt. Paying the fee alters the destination of the fake gym warp in Pewter City (15, 8), granting access to the museum's eastern section.
 - **Pewter Museum Fossil Interaction Soft-Lock:** Interacting with the Aerodactyl fossil at (3, 4) displays flavor text and then causes a soft-lock where movement is impossible. Pressing 'B' cancels the event and restores movement.
 - **Vermilion Gym Statues:** The statues in the gym act as the puzzle switches, not the trash cans. Interacting with the winner's board statue after checking all cans solved the puzzle.
@@ -35,13 +34,22 @@
 - **Powder Move Effectiveness (Contradictory Data):** In a previous battle, NIGHTSHADE's SLEEP POWDER failed against a VILEPLUME with the message 'It didn't affect VILEPLUME!'. However, in the current battle, Erika's VILEPLUME is consistently able to use SLEEP POWDER successfully on NIGHTSHADE. This suggests a potential immunity for Grass-types against powder moves *from other Grass-types*, but this immunity might not apply to the player's Pokémon or could be conditional. Needs further investigation.
 
 ## D. Tile & Traversal Mechanics (Verified)
+- **ground:** Standard walkable tile.
+- **grass:** Walkable tile where wild Pokémon can be encountered.
+- **impassable:** Walls, objects, and other tiles that cannot be walked on.
+- **water:** Can only be crossed with the Surf HM.
+- **ledge:** Can only be jumped down from above (Y-1). Impassable from all other directions.
+- **cuttable:** A tree that can be cut with the Cut HM. Becomes 'ground' temporarily.
 - **Surf Facing Requirement:** To use Surf, the player must be standing on a land tile and be facing the adjacent water tile they intend to enter. Attempting to use Surf while facing any other direction will fail.
 - **Defeated Trainers as Obstacles (Correction):** My previous assumption was incorrect. Defeated trainers remain as impassable objects and cannot be walked through. Paths must be planned around them.
+- **Pikachu Step Swap:** Attempting to move onto a 'steps' tile occupied by Pikachu causes the player and Pikachu to swap positions.
 
-# III. Current Objective: Post-Game Exploration
+# III. Current Objective & Hypotheses
 - **Goal:** Capture the legendary Pokémon Mewtwo.
-- **Status:** All Gym Leader rematches completed.
-- **Next Target:** Investigate the entrance to Cerulean Cave.
+- **Sub-Goal:** Gain access to Cerulean Cave.
+- **Current Hypothesis:** The warp at (3, 1) in the Badge House leads to the main area of Cerulean City, unlike the warp at (3, 8) which leads to an isolated platform.
+  - **Test:** Navigate to (3, 1) in the Badge House and use the warp.
+  - **Expected Outcome:** Arrive in a part of Cerulean City with access to the main city and the northern water routes.
 
 # IV. Gym Leader Rematch Data
 ### Erika (Celadon Gym)
@@ -60,12 +68,14 @@
 - **`master_battle_agent` (Agent):** Refined its logic for handling low-HP switch-ins to improve risk assessment. **Note:** Monitor performance regarding sacrificial pivots vs. switching in damaged key Pokémon.
 
 ## B. Future Tool & Agent Ideas
+- **'Pikachu Navigator' (Agent):** An agent that takes current position, Pikachu's position, and a target tile, and outputs the exact sequence of button presses needed to navigate around or onto Pikachu's tile.
+- **'Move Into Pikachu' (Tool):** A deterministic tool that takes current facing direction and the direction of Pikachu and outputs the 1 or 2 button presses needed to move onto Pikachu's tile.
 - **'Maze Navigator' (Agent):** An agent that takes a map layout and a destination, then breaks down the complex navigation into a series of intermediate, solvable `find_path` calls.
-- **'Use HM Automator' (Tool):** A high-level tool that takes an HM name (e.g., 'Cut') and a target coordinate. It would automate the entire sequence: open menu, select the correct Pokémon, select the HM, and execute it. This would significantly improve efficiency for recurring obstacles.
-- **'Next Pokémon Selector' (Tool/Agent):** A tool or agent that takes the current party state and the opponent's Pokémon as input and recommends the best Pokémon to send out after one of yours has fainted. This would automate the decision-making process in critical moments.
-- **'Battle Log Parser' (Tool):** A tool that takes raw battle screen text and extracts key events (moves used, effectiveness, status changes) to streamline documentation.
-- **'Strategic Team Builder' (Agent Expansion):** Enhance the existing `team_builder_agent` to not only suggest a team but also provide a high-level strategic plan for the battle, including lead matchups and key pivots.
-- **'Stall Breaker' (Agent):** An agent that analyzes battles for repetitive, non-damaging stall tactics (like sleep-locking) and suggests specific counter-strategies or Pokémon swaps to break the loop.
+- **'Use HM Automator' (Tool):** A high-level tool that takes an HM name (e.g., 'Cut') and a target coordinate. It would automate the entire sequence: open menu, select the correct Pokémon, select the HM, and execute it.
+- **'Next Pokémon Selector' (Tool/Agent):** A tool or agent that recommends the best Pokémon to send out after one of yours has fainted.
+- **'Battle Log Parser' (Tool):** A tool that takes raw battle screen text and extracts key events to streamline documentation.
+- **'Strategic Team Builder' (Agent Expansion):** Enhance the existing `team_builder_agent` to also provide a high-level strategic plan for the battle.
+- **'Stall Breaker' (Agent):** An agent that analyzes battles for repetitive, non-damaging stall tactics and suggests counter-strategies.
 
 # VI. Completed/Stalled Investigations
 - **Cerulean City Investigation:** Uncovered a path to the Cerulean Gym's back entrance by using Cut, but the path to Route 9 remains blocked by Officer Jenny. Investigation is currently stalled.
