@@ -868,34 +868,6 @@
       }
     ]
   },
-  "execute_button_sequence": {
-    "description": "Executes a predefined sequence of button presses. Useful for complex menu navigation that single-purpose tools can't handle, such as depositing a specific quantity of an item.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "buttons_json": {
-          "type": "string",
-          "description": "A JSON string representing an array of button presses."
-        }
-      },
-      "required": [
-        "buttons_json"
-      ]
-    },
-    "python_script": "import json\n\nbuttons = json.loads(input_data['buttons_json'])\nprint(json.dumps(buttons))",
-    "history": [
-      {
-        "commit_message": "feat: Create a generic tool to execute arbitrary button sequences. This will allow agents to orchestrate more complex actions, such as depositing a specific quantity of an item from the PC, directly addressing the inefficiency pointed out by the Overwatch critique.",
-        "timestamp": "2025-08-31T21:44:26.027Z",
-        "action_counter": 180161
-      },
-      {
-        "commit_message": "feat: Create a generic tool to execute arbitrary button sequences. This will allow agents to orchestrate more complex actions, such as depositing a specific quantity of an item from the PC, directly addressing the inefficiency pointed out by the Overwatch critique.",
-        "timestamp": "2025-08-31T22:03:57.274Z",
-        "action_counter": 180220
-      }
-    ]
-  },
   "elevator_navigator": {
     "description": "Navigates the Celadon Dept. Store elevator menu. Takes the current floor and target floor as input and outputs the necessary button presses to select the floor.",
     "input_schema": {

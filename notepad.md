@@ -66,9 +66,6 @@
 ## A. Tool Limitation (find_path)
 - The `find_path` tool is limited to single-map navigation. For complex, multi-level dungeons like Mt. Moon, it is unreliable. I must rely on methodical manual exploration and my `navigation_troubleshooter` agent instead of using `find_path` to plan routes across different floors.
 
-# VI. Future Development
-- **`nickname_generator` Tool:** The manual process of nicknaming is tedious and error-prone. A tool should be developed to take a target name and current cursor position as input, and output the precise sequence of button presses needed to enter it. This would automate the process and eliminate manual errors.
-
 # VII. Puzzles & Obstacles
 ## A. Route 4 "Geodude" Trainer Puzzle
 - **Location:** Route 4, Cool Trainer F at (10, 7).
