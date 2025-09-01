@@ -48,5 +48,7 @@
 - **Shopping Automation:** An agent that takes the output of `item_restock_agent` (the shopping list) and generates a sequence of button presses for a tool like `execute_button_sequence` to fully automate buying items.
 - **Pokémon Switching Automation:** An agent or tool to automate the multi-step process of switching Pokémon in battle.
 - **Systematic Tile Tester:** An agent or process to systematically test the properties of all encountered tile types and document the results.
-- **`navigation_troubleshooter` Refinement:** Add `party_health_summary` as an input to allow it to prioritize escape/healing when the party is weak.
 - **`find_path` Refinement:** Investigate and fix the tool's pathing logic, specifically its handling of `steps`, `elevated_ground`, and complex multi-level maps like Cerulean Cave. This is a top priority after escaping.
+
+## B. Completed Tasks
+- **`navigation_troubleshooter` Refinement:** Added `party_health_summary` as an input to allow it to prioritize escape/healing when the party is weak. (Turn 181506)
