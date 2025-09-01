@@ -18,10 +18,6 @@
 - **Segmented Waterways:** Some water routes are segmented and do not connect to all expected areas.
 - **HM Deposit Rule:** HMs considered 'important' (like CUT and FLASH) cannot be deposited into the PC.
 
-- **elevated_ground:** Walkable, but on a different Z-axis from `ground`. Cannot move directly between `ground` and `elevated_ground`.
-- **steps:** The only tile type that allows movement between `ground` and `elevated_ground`.
-- **ledge:** Can be jumped down, but not up. A single 'Down' input from above (Y-1) moves the player to the tile below the ledge (Y+2).
-- **spinner_up/down/left/right:** Forces movement in the specified direction.
 - **ladder_up / ladder_down:** These function as warps, instantly transporting the player between floors.
 - **teleport:** An instant warp tile, often used inside buildings like Silph Co.
 - **hole:** A warp tile that leads to a lower floor, like in Seafoam Islands.
