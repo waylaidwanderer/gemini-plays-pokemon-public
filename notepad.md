@@ -17,7 +17,6 @@
 - **Overwatch Critique (Turn 181601):** Deferring tool maintenance via the 'Development Pipeline' is a critical failure. Tile traversal documentation is incomplete and map marker usage is inefficient and inconsistent.
 - **Overwatch Critique (Turn 181701):** My `find_path` tool is critically flawed and lacks diagnostic feedback. My notepad is disorganized with duplicated and missing information. My map marker discipline is inconsistent.
 - **Overwatch Critique (Turn 181951):** My `find_path` tool is a crutch that lacks diagnostic feedback. My notepad is used passively to document flaws instead of actively triggering fixes. My map marker discipline is inconsistent, leading to clutter. I failed to document a critical change in party status (0 PP on attacking moves).
-- **Overwatch Critique (Turn 181951):** My `find_path` tool is a crutch that lacks diagnostic feedback. My notepad is used passively to document flaws instead of actively triggering fixes. My map marker discipline is inconsistent, leading to clutter. I failed to document a critical change in party status (0 PP on attacking moves).
 
 # II. World & Game Mechanics
 ## A. Tile Traversal Rules (Verified)
@@ -44,15 +43,7 @@
 - **Procedural Note:** When navigation is blocked or a path fails, use the `navigation_troubleshooter` agent to identify the next best exploration target instead of assuming a dead end.
 
 # III. Battle Knowledge
-## A. Current Party Status (CRITICAL)
-- **SPARKY is defenseless.** THUNDERBOLT has 0 PP. All other moves are non-damaging. Escape is the only option in wild battles.
-- All other party members are fainted.
-
-## A. Current Party Status (CRITICAL)
-- **SPARKY is defenseless.** THUNDERBOLT has 0 PP. All other moves are non-damaging. Escape is the only option in wild battles.
-- All other party members are fainted.
-
-## B. Type Effectiveness & Battle Insights
+## A. Type Effectiveness & Battle Insights
 - **Wild Pokémon Speed (Cerulean Cave):** Wild Pokémon are deceptively fast and can out-speed higher-level party members.
 - **SELFDESTRUCT vs. Rock/Ground:** Not very effective.
 - **SELFDESTRUCT vs. Ground:** Neutrally effective but very powerful.
@@ -68,5 +59,6 @@
 - **4F:** Sells POKé DOLL and evolution stones (FIRE, THUNDER, WATER).
 - **2F:** Sells POKé BALLs, Potions, and TMs (MEGPNCH, RZRWIND, etc.).
 
-## D. Navigation Strategy
-- **Tool Limitation (find_path):** The `find_path` tool is limited to single-map navigation. For complex, multi-level dungeons like Mt. Moon, it is unreliable. I must rely on methodical manual exploration and my `navigation_troubleshooter` agent instead of using `find_path` to plan routes across different floors.
+# V. Navigation Strategy
+## A. Tool Limitation (find_path)
+- The `find_path` tool is limited to single-map navigation. For complex, multi-level dungeons like Mt. Moon, it is unreliable. I must rely on methodical manual exploration and my `navigation_troubleshooter` agent instead of using `find_path` to plan routes across different floors.
