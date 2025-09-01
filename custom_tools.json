@@ -820,5 +820,31 @@
         "action_counter": 180220
       }
     ]
+  },
+  "elevator_navigator": {
+    "description": "Navigates the Celadon Dept. Store elevator menu. Takes the current floor and target floor as input and outputs the necessary button presses to select the floor.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "current_floor": {
+          "type": "string"
+        },
+        "target_floor": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "current_floor",
+        "target_floor"
+      ]
+    },
+    "python_script": "import json\n\nfloors = [\"1F\", \"2F\", \"3F\", \"4F\", \"5F\", \"6F\"]\n\ncurrent_floor = int(input_data['current_floor'])\ntarget_floor = int(input_data['target_floor'])\n\ncurrent_index = current_floor - 1\ntarget_index = target_floor - 1\n\ndiff = target_index - current_index\n\nbuttons = []\nif diff > 0:\n    buttons.extend([\"Down\"] * diff)\nelif diff < 0:\n    buttons.extend([\"Up\"] * abs(diff))\n\nbuttons.append(\"A\")\n\nprint(json.dumps(buttons))",
+    "history": [
+      {
+        "commit_message": "feat: Create elevator_navigator tool. In response to a mandatory self-assessment identifying a repetitive, error-prone task (navigating the elevator), this tool automates floor selection to prevent future loops and improve efficiency.",
+        "timestamp": "2025-09-01T00:06:22.394Z",
+        "action_counter": 180527
+      }
+    ]
   }
 }

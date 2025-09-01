@@ -68,6 +68,7 @@
 ## A. Celadon Department Store
 - **5F - Clerk 1 (6,4):** Sells TM12 WATRGUN (¥1000), TM16 PAYDAY (¥5000), TM19 SMCTOSS (¥3000), TM30 TELEPRT (¥1000).
 - **5F - Clerk 2 (7,4):** Sells HP UP (¥9800), PROTEIN (¥9800), IRON (¥9800), CARBOS (¥9800).
+- **4F - Clerk 1 (6, 8):** Sells POKé DOLL (¥1000), FIRE STONE (¥2100), THUNDERSTONE (¥2100), WATER STONE (¥2100).
 
 # VII. Agent & Tool Ideas
 - `item_restock_agent` Idea: Create an agent that takes the current inventory and a target shopping location (like Celadon Mart) to generate an optimized shopping list for restocking essential supplies like potions and Pokeballs.
