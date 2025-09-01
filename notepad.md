@@ -24,13 +24,13 @@
 # IV. Battle Knowledge
 ## A. Discovered Battle Mechanics (Verified)
 - **Earthquake vs. Dig:** Earthquake can hit an opponent that is underground using Dig.
-- **Wild Pokémon Speed:** Wild Pokémon in Cerulean Cave are deceptively fast and can out-speed higher-level party members. Do not rely on level alone to determine speed order.
-- **SELFDESTRUCT vs. Rock/Ground:** SELFDESTRUCT (a Normal-type move) is not very effective against Rock/Ground dual-types.
-- **SELFDESTRUCT vs. Ground:** SELFDESTRUCT (a Normal-type move) was observed to be neutrally effective against a Ground-type Pokémon (Marowak), but powerful enough to knock it out from over half health.
-- **Normal vs. Normal (OHKO):** Normal-type OHKO moves (like HORN DRILL) were observed to be ineffective against a higher-level Normal-type Pokémon (Kangaskhan).
+- **Wild Pokémon Speed (Cerulean Cave):** Wild Pokémon are deceptively fast and can out-speed higher-level party members.
+- **SELFDESTRUCT vs. Rock/Ground:** Not very effective.
+- **SELFDESTRUCT vs. Ground:** Neutrally effective but very powerful.
+- **Normal OHKO vs. Normal:** Ineffective against higher-level Normal-types.
 
 ## B. Known Pokemon Locations (Verified)
-- **Cerulean Cave:** Ditto, Wigglytuff, Electrode, Golem, Raichu, Sandslash, Parasect, Lickitung, Magneton, Dodrio. (Levels ~62-65)
+- **Cerulean Cave:** Ditto, Wigglytuff, Electrode, Golem, Raichu, Sandslash, Parasect, Lickitung, Magneton, Dodrio, RHYDON, VICTREEBEL.
 
 # V. Item & Store Data
 ## A. Celadon Department Store (Reference)
