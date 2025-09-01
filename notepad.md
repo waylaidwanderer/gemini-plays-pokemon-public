@@ -1,5 +1,5 @@
 # I. Core Directives & Lessons Learned
-- **DIRECTIVE 1: IMMEDIATE DATA MANAGEMENT.** All data management (notepad updates, map markers, tool/agent refinement) is the HIGHEST priority and MUST be performed in the same turn a need is identified.
+- **DIRECTIVE 1: IMMEDIATE DATA MANAGEMENT.** All data management (notepad updates, map markers, tool/agent refinement) is the HIGHEST priority and MUST be performed in the same turn a need is identified. Acknowledged lapse in battle, will be more diligent.
 - **DIRECTIVE 2: ACT ON DOCUMENTATION.** A documented lesson that does not result in a behavioral change is a critical failure of the learning loop.
 - **DIRECTIVE 3: ABANDON FAILED HYPOTHESES.** If a strategy fails repeatedly, I must recognize the pattern, document it, and pivot to a new approach.
 - **DIRECTIVE 4: TRUST, BUT REFINE, AGENTS.** I must trust the outputs of my agents. If an agent's output seems incorrect, my first assumption should be that my understanding of the game state is flawed. If, after verification, the agent is suboptimal, I must refine it immediately.
@@ -18,28 +18,24 @@
 - **Segmented Waterways:** Some water routes are segmented and do not connect to all expected areas.
 - **HM Deposit Rule:** HMs considered 'important' (like CUT and FLASH) cannot be deposited into the PC.
 
-# IV. Battle Knowledge
-## A. Type Effectiveness Discoveries (Verified)
-- **Poison vs. Bug:** Poison is now super-effective against Bug. Bug is no longer strong against Poison.
-- **Poison vs. Ground:** Poison is not very effective against Ground.
-- **Poison vs. Poison/Flying:** Poison is not very effective against Poison/Flying dual-types.
-- **Water vs. Rock/Water:** Water is not very effective against Rock/Water dual-types.
-- **Ground vs. Normal:** Ground was observed to be super-effective against Porygon.
-- **Ground vs. Grass/ Psychic:** Ground is not very effective against Grass/Psychic dual-types.
-- **Electric vs. Grass/Poison:** Electric is not very effective against Grass/Poison dual-types.
-- **Psychic vs. Poison:** Psychic is super-effective against Poison.
-- **Electric vs. Flying:** Electric is super-effective against Flying. (Verified against Dodrio).
-- **Electric vs. Electric:** Not very effective. (Verified against a transformed Ditto).
-- **Ground vs. Rock/Ground:** Ground is super-effective against Rock/Ground dual-types. (Verified against wild GOLEM in Cerulean Cave).
+## B. Tile Traversal & Movement Rules (Verified)
+- **ground / elevated_ground:** Standard walkable tiles. Cannot move directly between them.
+- **steps:** The only tile type that allows movement between `ground` and `elevated_ground`.
+- **impassable:** Walls, objects, etc. Cannot be entered.
+- **ledge:** Can be jumped down (one-way), but not climbed up. Acts as a wall from below and sides.
+- **water:** Requires SURF to cross.
+- **grass:** Tall grass where wild Pokémon appear. Walkable.
+- **cuttable:** A tree that can be cut with HM CUT.
 
-## B. Discovered Battle Mechanics (Verified)
+# IV. Battle Knowledge
+## A. Discovered Battle Mechanics (Verified)
 - **Earthquake vs. Dig:** Earthquake can hit an opponent that is underground using Dig.
-- **Wild Pokémon Moves:** Wild GOLEM in Cerulean Cave can use EXPLOSION and SELFDESTRUCT.
+- **Wild Pokémon Speed:** Wild Pokémon in Cerulean Cave are deceptively fast and can out-speed higher-level party members. Do not rely on level alone to determine speed order.
 - **SELFDESTRUCT vs. Rock/Ground:** SELFDESTRUCT (a Normal-type move) is not very effective against Rock/Ground dual-types.
 - **SELFDESTRUCT vs. Ground:** SELFDESTRUCT (a Normal-type move) was observed to be neutrally effective against a Ground-type Pokémon (Marowak), but powerful enough to knock it out from over half health.
-- **Normal vs. Normal (OHKO):** Normal-type OHKO moves (like HORN DRILL) were observed to be ineffective against a higher-level Normal-type Pokémon (Kangaskhan). The message displayed was "is unaffected!", which typically indicates type immunity.
+- **Normal vs. Normal (OHKO):** Normal-type OHKO moves (like HORN DRILL) were observed to be ineffective against a higher-level Normal-type Pokémon (Kangaskhan).
 
-## C. Known Pokemon Locations (Verified)
+## B. Known Pokemon Locations (Verified)
 - **Cerulean Cave:** Ditto, Wigglytuff, Electrode, Golem, Raichu, Sandslash, Parasect, Lickitung, Magneton, Dodrio. (Levels ~62-65)
 
 # V. Item & Store Data
@@ -51,4 +47,4 @@
 # VI. Agent & Tool Ideas
 - **Shopping Automation:** An agent that takes the output of `item_restock_agent` (the shopping list) and generates a sequence of button presses for a tool like `execute_button_sequence` to fully automate buying items.
 - **Pokémon Switching Automation:** An agent or tool to automate the multi-step process of switching Pokémon in battle (e.g., takes a target Pokémon name and generates the button sequence for `execute_button_sequence`).
-- **Rock vs. Ground:** Rock is not very effective against Ground. (Verified against wild GOLEM in Cerulean Cave).
+- **Flee-Prep Automation:** An agent to handle the logic of switching to a healthy Pokémon when the lead is incapacitated, specifically for the purpose of running on the next turn.
