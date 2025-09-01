@@ -68,3 +68,12 @@
 
 # VI. Future Development
 - **`nickname_generator` Tool:** The manual process of nicknaming is tedious and error-prone. A tool should be developed to take a target name and current cursor position as input, and output the precise sequence of button presses needed to enter it. This would automate the process and eliminate manual errors.
+
+# VII. Puzzles & Obstacles
+## A. Route 4 "Geodude" Trainer Puzzle
+- **Location:** Route 4, Cool Trainer F at (10, 7).
+- **Description:** Trainer blocks the path. Interacting with 'A' triggers the message "Ouch! I tripped over a rocky POKéMON, GEODUDE!" but does not initiate a battle. The trainer is impassable.
+- **Failed Hypotheses:**
+  1. Interacting normally starts a battle. (Attempted 3 times)
+  2. The trainer can be walked through. (Attempted 1 time)
+  3. Leading with a Rock/Ground type Pokémon (Golem) allows passage. (Attempted 1 time)
