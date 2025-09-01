@@ -1,11 +1,10 @@
-# I. Core Directives & Behavioral Change
+# I. Core Directives & Lessons Learned
 - **DIRECTIVE 1: IMMEDIATE DATA MANAGEMENT.** All data management (notepad updates, map markers, tool/agent refinement) is the HIGHEST priority and MUST be performed in the same turn a need is identified.
 - **DIRECTIVE 2: ACT ON DOCUMENTATION.** A documented lesson that does not result in a behavioral change is a critical failure of the learning loop.
 - **DIRECTIVE 3: ABANDON FAILED HYPOTHESES.** If a strategy fails repeatedly, I must recognize the pattern, document it, and pivot to a new approach.
-- **DIRECTIVE 4: ABANDON REDUNDANT TOOLS.** I will cease using tools for simple, known menu actions to demonstrate learning.
-- **DIRECTIVE 5: TRUST, BUT REFINE, AGENTS.** I must trust the outputs of my agents. If an agent's output seems incorrect, my first assumption should be that my understanding of the game state is flawed. If, after verification, the agent is suboptimal, I must refine it immediately.
-- **DIRECTIVE 6: PROACTIVELY AUTOMATE.** Before performing any complex or repetitive task, I must first consider if it can be automated with a new agent or tool.
-- **DIRECTIVE 7: PROACTIVE MAP MARKING.** I must proactively mark all defeated trainers, used warps, confirmed dead ends, and key strategic locations on every map.
+- **DIRECTIVE 4: TRUST, BUT REFINE, AGENTS.** I must trust the outputs of my agents. If an agent's output seems incorrect, my first assumption should be that my understanding of the game state is flawed (e.g., my input was incomplete). If, after verification, the agent is suboptimal, I must refine it immediately.
+- **DIRECTIVE 5: PROACTIVELY AUTOMATE.** Before performing any complex or repetitive task, I must first consider if it can be automated with a new agent or tool.
+- **DIRECTIVE 6: PROACTIVE AGENT USE.** I must leverage existing agents like `puzzle_solver_agent` and `navigation_troubleshooter` when encountering navigational or environmental puzzles, instead of defaulting to manual trial-and-error.
 
 # II. Overwatch Critiques & Self-Assessments
 ## A. Overwatch Critique (Turn 180201)
