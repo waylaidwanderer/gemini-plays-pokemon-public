@@ -78,18 +78,3 @@
   4. Interacting from the side changes the outcome. (1 attempt)
   5. Using SILPH SCOPE reveals a hidden Pokémon. (1 attempt)
   6. The Pokecenter has a second exit to bypass the trainer. (1 attempt)
-
-## C. Cerulean Mart Puzzle
-- **[SOLVED] Location:** Cerulean Mart (ID 67)
-- **Description:** Trapped in a small room with two trainers and a clerk. The only warp leads back to the southern part of Cerulean City, which is also a dead end.
-- **Solution:** The male trainer's dialogue ('Put your strongest POKéMON at the top of the list') is a direct hint. After putting the strongest POKéMON (SPARKY) in the lead, using the exit warp at (4, 8) successfully leads to the main part of Cerulean City.
-
-## C. Cerulean Mart Puzzle
-- **[SOLVED] Location:** Cerulean Mart (ID 67)
-- **Description:** Trapped in a small room with two trainers and a clerk. The only warp leads back to the southern part of Cerulean City, which is also a dead end.
-- **Solution:** The male trainer's dialogue ('Put your strongest POKéMON at the top of the list') is a direct hint. After putting the strongest POKéMON (SPARKY) in the lead, using the exit warp at (4, 8) successfully leads to the main part of Cerulean City.
-
-## C. Cerulean Mart Puzzle
-- **[SOLVED] Location:** Cerulean Mart (ID 67)
-- **Description:** Trapped in a small room with two trainers and a clerk. The only warp leads back to the southern part of Cerulean City, which is also a dead end.
-- **Solution:** The male trainer's dialogue ('Put your strongest POKéMON at the top of the list') is a direct hint. After putting the strongest POKéMON (SPARKY) in the lead, using the exit warp at (4, 8) successfully leads to the main part of Cerulean City.
