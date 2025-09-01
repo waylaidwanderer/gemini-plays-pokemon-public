@@ -78,4 +78,3 @@
   5. Using the SILPH SCOPE reveals a hidden Pokémon. (Attempted 1 time - resulted in Oak's 'not the time to use that' message)
   6. The Pokecenter has a second exit to bypass the trainer. (Attempted 1 time)
 - **Defeated Super Nerd (Mt. Moon B2F):** The Super Nerd at (13, 9) can be walked through after being defeated. Not all defeated trainers are impassable obstacles.
-- **Defeated Super Nerd (Mt. Moon B2F):** The Super Nerd at (13, 9) can be walked through after being defeated. Not all defeated trainers are impassable obstacles.
