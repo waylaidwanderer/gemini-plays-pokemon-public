@@ -12,7 +12,7 @@
 - **Confirmation Bias in Tool Debugging (Turns ~177769-177818):** `fly_menu_navigator` failures highlighted the need to actively disprove my own assumptions during debugging.
 - **Self-Assessment (Turn 181193):** `find_path` tool is unreliable in Cerulean Cave. Manual exploration is necessary when automation fails. Tile mechanic documentation needs to be more formal.
 
-# III. World & Tile Mechanics
+# II. World & Game Mechanics
 ## A. Tile Traversal Rules (Verified)
 - **ground:** Standard walkable tile.
 - **impassable:** Cannot be entered. Includes walls, rocks, water (without Surf), etc.
@@ -21,15 +21,18 @@
 - **steps:** The only tile type that allows movement between `ground` and `elevated_ground`.
 - **water:** Traversable only with Surf.
 
-# IV. Battle Knowledge
-## A. Discovered Battle Mechanics (Verified)
+## B. Other Mechanics (Verified)
 - **Earthquake vs. Dig:** Earthquake can hit an opponent that is underground using Dig.
+
+# III. Battle Knowledge
+## A. Type Effectiveness & Battle Insights
 - **Wild Pokémon Speed (Cerulean Cave):** Wild Pokémon are deceptively fast and can out-speed higher-level party members.
 - **SELFDESTRUCT vs. Rock/Ground:** Not very effective.
 - **SELFDESTRUCT vs. Ground:** Neutrally effective but very powerful.
 - **Normal OHKO vs. Normal:** Ineffective against higher-level Normal-types.
+- **Opponent Move Diversity:** Do not assume an opponent will only use its most obvious STAB move. High-level wild Pokémon in dangerous areas like Cerulean Cave have coverage moves (e.g., Golem with Explosion).
 
-## B. Known Pokemon Locations (Verified)
+## B. Known Pokemon Locations
 - **Cerulean Cave:** Ditto, Wigglytuff, Electrode, Golem, Raichu, Sandslash, Parasect, Lickitung, Magneton, Dodrio, RHYDON, VICTREEBEL.
 
 # V. Item & Store Data
