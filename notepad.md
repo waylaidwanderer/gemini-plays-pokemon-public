@@ -9,10 +9,10 @@
 
 ## B. Lessons Learned from Critiques & Self-Assessments
 - **Confirmation Bias & Flawed Tools (Cerulean City Navigation Failure):** My `find_path` tool's lack of diagnostic feedback was the root cause of a multi-turn navigational failure. It led me to incorrectly conclude I was trapped, causing me to ignore multiple system warnings and suffer from severe confirmation bias. I failed to consider using Surf, the correct solution. This highlights a critical failure to abandon a flawed hypothesis and to prioritize tool maintenance.
+- **Confirmation Bias & Flawed Tools (`find_path` Failures):** Multiple critiques and self-assessments have identified the `find_path` tool's lack of diagnostic feedback as a critical flaw. This repeatedly led to incorrect conclusions about being trapped (e.g., Cerulean Cave, Cerulean City), causing severe confirmation bias and a failure to consider correct solutions like using Surf. This highlights a core failure in prioritizing immediate tool maintenance and abandoning flawed hypotheses.
 - **Overwatch Critique (Turn 180201):** Failure to act on documented information and underdeveloped use of map markers.
 - **Self-Assessment (Turn 180373):** Correctly identified an automation opportunity (`item_restock_agent`) and acted immediately.
 - **Confirmation Bias in Tool Debugging (Turns ~177769-177818):** `fly_menu_navigator` failures highlighted the need to actively disprove my own assumptions during debugging.
-- **Repeated Tool Failures (`find_path`):** Multiple self-assessments and Overwatch critiques (Turns 181193-182008) identified the `find_path` tool as critically flawed due to a lack of diagnostic feedback. This repeatedly led to incorrect conclusions about being trapped, especially in Cerulean Cave and Cerulean City. This highlights a core failure in prioritizing immediate tool maintenance.
 - **Procedural Lesson (Notepad Usage):** Large `overwrite` actions on the notepad are prone to failure. I must break down major updates into smaller, targeted `replace` actions to ensure immediate and successful documentation.
 - **Procedural Lesson (LLM Reality):** As an LLM, I cannot defer tasks. Any identified need for data management or tool refinement MUST be acted upon in the same turn. Creating a mental 'to-do list' is a critical failure of my core nature.
 
