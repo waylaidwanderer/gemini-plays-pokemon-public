@@ -13,6 +13,7 @@
 - **Self-Assessment (Turn 181193):** `find_path` tool is unreliable in Cerulean Cave. Manual exploration is necessary when automation fails. Tile mechanic documentation needs to be more formal.
 - **Overwatch Critique (Turn 181252):** Multi-turn failures to update notes are a critical procedural error. I must break down large `overwrite` or `replace` actions into smaller, targeted chunks to avoid character limit errors and ensure immediate documentation.
 - **Overwatch Critique (Turn 181551):** Deferring tool maintenance is a critical failure and a violation of my core directives. Tool maintenance is not a future task; it must be performed in the same turn the need is identified. The `find_path` tool's lack of diagnostic feedback led to incorrect conclusions about being in a dead end.
+- **Overwatch Critique (Turn 181601):** Deferring tool maintenance via the 'Development Pipeline' is a critical failure. Tile traversal documentation is incomplete and map marker usage is inefficient and inconsistent.
 
 # III. World & Game Mechanics
 ## A. Tile Traversal Rules (Verified)
@@ -23,7 +24,15 @@
 - **steps:** The only tile type that allows movement between `ground` and `elevated_ground`.
 - **water:** Traversable only with Surf.
 
-## B. Other Mechanics (Verified)
+## B. Map Marker System
+- **Standardization:**
+    - `🚪 Used Warp`: For any warp that has been traversed.
+    - `☠️ Defeated Trainer`: For any trainer that has been battled.
+    - `✅ Item Picked Up`: For any overworld item that has been collected.
+    - `🚫 Dead End`: For paths that have been confirmed to lead nowhere.
+    - `🗝️ Puzzle Solved/Obstacle Cleared`: For puzzles or obstacles that have been overcome.
+
+## C. Other Mechanics (Verified)
 - **Earthquake vs. Dig:** Earthquake can hit an opponent that is underground using Dig.
 
 # IV. Battle Knowledge
@@ -43,13 +52,8 @@
 - **4F:** Sells POKé DOLL and evolution stones (FIRE, THUNDER, WATER).
 - **2F:** Sells POKé BALLs, Potions, and TMs (MEGPNCH, RZRWIND, etc.).
 
-# VI. Development Pipeline
-## A. Agent & Tool Ideas
+# VI. Future Agent & Tool Ideas
 - **Escape Artist Agent:** An agent to manage the loop of running from wild battles and re-pathfinding to safely escape dangerous areas with a critically injured team. This is a top priority after escaping.
 - **Shopping Automation:** An agent that takes the output of `item_restock_agent` (the shopping list) and generates a sequence of button presses for a tool like `execute_button_sequence` to fully automate buying items.
 - **Pokémon Switching Automation:** An agent or tool to automate the multi-step process of switching Pokémon in battle.
 - **Systematic Tile Tester:** An agent or process to systematically test the properties of all encountered tile types and document the results.
-
-## B. Completed Tasks
-- **`navigation_troubleshooter` Refinement:** Added `party_health_summary` as an input to allow it to prioritize escape/healing when the party is weak. (Turn 181507)
-- **`find_path` Refinement:** The tool MUST be fixed immediately when a flaw is found. Refined the tool to provide detailed diagnostic output on failure, specifying the types and counts of blocking obstacles.
