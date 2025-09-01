@@ -51,6 +51,7 @@
 - **Earthquake vs. Dig:** Earthquake can hit an opponent that is underground using Dig.
 - **Wild Pokémon Moves:** Wild GOLEM in Cerulean Cave can use EXPLOSION and SELFDESTRUCT.
 - **SELFDESTRUCT vs. Rock/Ground:** SELFDESTRUCT (a Normal-type move) is not very effective against Rock/Ground dual-types.
+- **Normal vs. Normal (OHKO):** Normal-type OHKO moves (like HORN DRILL) were observed to be ineffective against a higher-level Normal-type Pokémon (Kangaskhan). The message displayed was "is unaffected!", which typically indicates type immunity.
 
 ## C. Known Pokemon Locations (Verified)
 - **Cerulean Cave:** Ditto, Wigglytuff, Electrode, Golem, Raichu, Sandslash, Parasect, Lickitung, Magneton, Dodrio. (Levels ~62-65)
