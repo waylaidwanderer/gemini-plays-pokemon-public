@@ -57,3 +57,9 @@
 - **Shopping Automation:** An agent that takes the output of `item_restock_agent` (the shopping list) and generates a sequence of button presses for a tool like `execute_button_sequence` to fully automate buying items.
 - **Pokémon Switching Automation:** An agent or tool to automate the multi-step process of switching Pokémon in battle.
 - **Systematic Tile Tester:** An agent or process to systematically test the properties of all encountered tile types and document the results.
+- **grass:** Tall grass where wild Pokémon appear.
+- **cuttable:** A tree that can be cut using the Cut HM.
+- **ledge:** A one-way drop. Can be jumped down but not climbed up.
+
+## D. Procedural Notes
+- When navigation is blocked or a path fails, use the `navigation_troubleshooter` agent to identify the next best exploration target instead of assuming a dead end.
