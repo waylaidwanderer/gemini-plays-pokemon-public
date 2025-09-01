@@ -6,21 +6,13 @@
 - **DIRECTIVE 5: PROACTIVELY AUTOMATE.** Before performing any complex or repetitive task, I must first consider if it can be automated with a new agent or tool.
 - **DIRECTIVE 6: PROACTIVE AGENT USE.** I must leverage existing agents like `puzzle_solver_agent` and `navigation_troubleshooter` when encountering navigational or environmental puzzles, instead of defaulting to manual trial-and-error.
 
-# II. Overwatch Critiques & Self-Assessments
-## A. Overwatch Critique (Turn 180201)
-- **CRITICAL FAILURE - Inaction on Self-Correction:** My most significant failure is not acting upon the information documented in my own notepad.
-- **Agent & Tool Use:** I should use my `team_builder_agent` to achieve my tertiary goal.
-- **Map Marker Usage:** My use of map markers is critically underdeveloped.
-
-## B. Self-Assessment (Turn 180373)
-- **Data Management & Agent Creation:** My immediate action on tasks is good. I've identified an opportunity to automate my current task of restocking and will create an `item_restock_agent` immediately.
-
-# III. Meta-Progression & Lessons Learned
+# II. Lessons Learned from Critiques
+- **Overwatch Critique (Turn 180201):** My most significant failure is not acting upon the information documented in my own notepad. My use of map markers is also critically underdeveloped.
+- **Self-Assessment (Turn 180373):** I identified an opportunity to automate restocking and created the `item_restock_agent` immediately, which was a good adherence to directives.
 - **Confirmation Bias in Tool Debugging (Turns ~177769-177818):** My repeated failures with the `fly_menu_navigator` tool were exacerbated by confirmation bias. **Lesson:** When debugging, I must actively try to *disprove* my own assumptions.
 - **Trust in Agents:** My trust in the `master_battle_agent`'s high-risk strategies is correct. The agent's logic is sound, and I must continue to follow it.
-- **Core Directive Adherence:** My prioritization of documentation and self-assessment during a crisis (Turn 179809) was praised as exemplary.
 
-# IV. Game & World Knowledge
+# III. Game & World Knowledge
 ## A. General Game Mechanics (Verified)
 - **Porygon's Freezing Move:** Some Pokémon know moves that can inflict Freeze.
 - **Segmented Waterways:** Some water routes are segmented and do not connect to all expected areas.
@@ -43,7 +35,7 @@
 - **boulder_barrier:** An impassable barrier that becomes `cleared_boulder_barrier` when a corresponding switch is activated.
 - **unknown:** Tile not visually confirmed. Treat as impassable until seen.
 
-# V. Battle Knowledge
+# IV. Battle Knowledge
 ## A. Type Effectiveness Discoveries (Verified)
 - **Poison vs. Bug:** Poison is now super-effective against Bug. Bug is no longer strong against Poison.
 - **Poison vs. Ground:** Poison is not very effective against Ground.
@@ -63,13 +55,13 @@
 ## C. Known Pokemon Locations (Verified)
 - **Cerulean Cave:** Ditto, Wigglytuff, Electrode, Golem, Raichu, Sandslash, Parasect, Lickitung, Magneton, Dodrio. (Levels ~62-65)
 
-# VI. Item & Store Data
+# V. Item & Store Data
 ## A. Celadon Department Store (Reference)
 - **5F:** Sells TMs (WATRGUN, PAYDAY, SMCTOSS, TELEPRT) and stat-boosters (HP UP, PROTEIN, etc.).
 - **4F:** Sells POKé DOLL and evolution stones (FIRE, THUNDER, WATER).
 - **2F:** Sells POKé BALLs, Potions, and TMs (MEGPNCH, RZRWIND, etc.).
 
-# VII. Agent & Tool Ideas
+# VI. Agent & Tool Ideas
 - **Shopping Automation:** An agent that takes the output of `item_restock_agent` (the shopping list) and generates a sequence of button presses for a tool like `execute_button_sequence` to fully automate buying items.
 
-# VIII. Untested Hypotheses
+# VII. Untested Hypotheses
