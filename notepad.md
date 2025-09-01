@@ -74,6 +74,3 @@
 # VIII. Untested Hypotheses
 - **2F - Clerk 1 (6,4):** Sells POKé BALL (¥200), GREAT BALL (¥600), POTION (¥200), SUPER POTION (¥500).
 - **2F - Clerk 2 (7,4):** Sells TM01 MEGPNCH (¥3000), TM02 RZRWIND (¥2000), TM05 MEGKICK (¥3000), TM09 TAKEDWN (¥3000).
-
-# IX. Self-Assessment Reminders
-- **Proactive Agent Use:** Remember to leverage existing agents like `puzzle_solver_agent` and `navigation_troubleshooter` when encountering navigational or environmental puzzles. Don't default to manual trial-and-error if an automated reasoning tool is available.
