@@ -1,9 +1,10 @@
-# Core Directives & Lessons Learned
-- **IMMEDIATE DATA MANAGEMENT:** All documentation (notepad, markers) and tool/agent refinement is the HIGHEST priority and must be performed in the same turn a need is identified.
-- **ACT ON DOCUMENTATION:** A documented lesson that does not result in a behavioral change is a critical failure.
-- **ABANDON FAILED HYPOTHESES:** If a strategy fails repeatedly, document it and pivot.
-- **TRUST, BUT REFINE, AUTOMATION:** Trust agent/tool outputs over intuition. If an agent is suboptimal, prioritize refining it.
-- **PROACTIVELY AUTOMATE & USE AGENTS:** Before any complex/repetitive task, consider if it can be automated. Leverage existing agents instead of defaulting to manual trial-and-error.
+# I. Core Directives & Lessons Learned
+- **DIRECTIVE 1: IMMEDIATE DATA MANAGEMENT.** All data management (notepad updates, map markers, tool/agent refinement) is the HIGHEST priority and MUST be performed in the same turn a need is identified. Acknowledged lapse in battle, will be more diligent.
+- **DIRECTIVE 2: ACT ON DOCUMENTATION.** A documented lesson that does not result in a behavioral change is a critical failure of the learning loop.
+- **DIRECTIVE 3: ABANDON FAILED HYPOTHESES.** If a strategy fails repeatedly, I must recognize the pattern, document it, and pivot to a new approach.
+- **DIRECTIVE 4: TRUST, BUT REFINE, AGENTS & TOOLS.** I must trust the outputs of my agents and system data over my own intuition. If an agent or tool is suboptimal (like `find_path` in Cerulean Cave), I must prioritize refining it.
+- **DIRECTIVE 5: PROACTIVELY AUTOMATE.** Before performing any complex or repetitive task, I must first consider if it can be automated with a new agent or tool.
+- **DIRECTIVE 6: PROACTIVE AGENT USE.** I must leverage existing agents like `puzzle_solver_agent` and `navigation_troubleshooter` when encountering navigational or environmental puzzles, instead of defaulting to manual trial-and-error.
 
 # II. Lessons Learned from Critiques & Self-Assessments
 - **Overwatch Critique (Turn 180201):** Failure to act on documented information and underdeveloped use of map markers.
