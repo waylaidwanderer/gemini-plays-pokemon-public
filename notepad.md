@@ -18,12 +18,6 @@
 - **Segmented Waterways:** Some water routes are segmented and do not connect to all expected areas.
 - **HM Deposit Rule:** HMs considered 'important' (like CUT and FLASH) cannot be deposited into the PC.
 
-## B. Tile Mechanics & Traversal Rules (Verified)
-- **ground:** Standard walkable tile.
-- **grass:** Tall grass where wild Pokémon appear. Walkable.
-- **impassable:** Wall or obstacle. Cannot be entered.
-- **water:** Requires SURF to cross. Conditions: Must be standing on a tile directly adjacent to a water tile and be facing the water.
-- **cuttable:** A tree that can be cut with HM Cut. Becomes `ground` after being cut.
 - **elevated_ground:** Walkable, but on a different Z-axis from `ground`. Cannot move directly between `ground` and `elevated_ground`.
 - **steps:** The only tile type that allows movement between `ground` and `elevated_ground`.
 - **ledge:** Can be jumped down, but not up. A single 'Down' input from above (Y-1) moves the player to the tile below the ledge (Y+2).
