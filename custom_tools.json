@@ -843,7 +843,7 @@
         "target_floor"
       ]
     },
-    "python_script": "import json\n\ncurrent_floor_str = input_data['current_floor']\ntarget_floor_str = input_data['target_floor']\n\ntry:\n    current_floor_num = int(current_floor_str.replace('F', ''))\n    target_floor_num = int(target_floor_str.replace('F', ''))\nexcept (ValueError, AttributeError):\n    print(json.dumps({\"error\": \"Invalid floor format. Expected format like '1F', '2F', etc.\"}))\n    exit()\n\nfloor_order = [1, 2, 3, 4, 5]\n\ntry:\n    current_index = floor_order.index(current_floor_num)\n    target_index = floor_order.index(target_floor_num)\nexcept ValueError:\n    print(json.dumps({\"error\": f\"Invalid floor number. Valid floors are {floor_order}.\"}))\n    exit()\n    \nmoves = target_index - current_index\n\nbuttons = []\nif moves > 0:\n    buttons.extend(['Down'] * moves)\nelif moves < 0:\n    buttons.extend(['Up'] * abs(moves))\n\nbuttons.append('A')\n\nprint(json.dumps(buttons))",
+    "python_script": "import json\n\nfloor_map = {\"1F\": 0, \"2F\": 1, \"3F\": 2, \"4F\": 3, \"5F\": 4, \"ROOF\": 5}\n\ncurrent_floor_str = input_data['current_floor']\ntarget_floor_str = input_data['target_floor']\n\nif current_floor_str not in floor_map or target_floor_str not in floor_map:\n    print(json.dumps({'error': f'Invalid floor. Valid floors are: {list(floor_map.keys())}'}))\nelse:\n    current_idx = floor_map[current_floor_str]\n    target_idx = floor_map[target_floor_str]\n    \n    delta = target_idx - current_idx\n    buttons = []\n    if delta > 0:\n        buttons.extend(['Down'] * delta)\n    elif delta < 0:\n        buttons.extend(['Up'] * abs(delta))\n    \n    print(json.dumps(buttons))\n",
     "history": [
       {
         "commit_message": "feat: Create elevator_navigator tool. In response to a mandatory self-assessment identifying a repetitive, error-prone task (navigating the elevator), this tool automates floor selection to prevent future loops and improve efficiency.",
@@ -854,6 +854,11 @@
         "commit_message": "fix: Handle non-numeric 'F' in floor strings. The tool was crashing with a ValueError because it tried to convert strings like '1F' directly to integers. This commit adds logic to strip the 'F' from the floor strings before casting them to integers, resolving the crash and restoring functionality.",
         "timestamp": "2025-09-01T00:11:01.259Z",
         "action_counter": 180541
+      },
+      {
+        "commit_message": "feat: Create elevator_navigator tool. In response to a mandatory self-assessment identifying a repetitive, error-prone task (navigating the elevator), this tool automates floor selection to prevent future loops and improve efficiency.",
+        "timestamp": "2025-09-01T01:33:39.511Z",
+        "action_counter": 180732
       }
     ]
   }

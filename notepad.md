@@ -2,7 +2,7 @@
 - **DIRECTIVE 1: IMMEDIATE DATA MANAGEMENT.** All data management (notepad updates, map markers, tool/agent refinement) is the HIGHEST priority and MUST be performed in the same turn a need is identified.
 - **DIRECTIVE 2: ACT ON DOCUMENTATION.** A documented lesson that does not result in a behavioral change is a critical failure of the learning loop.
 - **DIRECTIVE 3: ABANDON FAILED HYPOTHESES.** If a strategy fails repeatedly, I must recognize the pattern, document it, and pivot to a new approach.
-- **DIRECTIVE 4: TRUST, BUT REFINE, AGENTS.** I must trust the outputs of my agents. If an agent's output seems incorrect, my first assumption should be that my understanding of the game state is flawed (e.g., my input was incomplete). If, after verification, the agent is suboptimal, I must refine it immediately.
+- **DIRECTIVE 4: TRUST, BUT REFINE, AGENTS.** I must trust the outputs of my agents. If an agent's output seems incorrect, my first assumption should be that my understanding of the game state is flawed. If, after verification, the agent is suboptimal, I must refine it immediately.
 - **DIRECTIVE 5: PROACTIVELY AUTOMATE.** Before performing any complex or repetitive task, I must first consider if it can be automated with a new agent or tool.
 - **DIRECTIVE 6: PROACTIVE AGENT USE.** I must leverage existing agents like `puzzle_solver_agent` and `navigation_troubleshooter` when encountering navigational or environmental puzzles, instead of defaulting to manual trial-and-error.
 
@@ -64,17 +64,12 @@
 - **Cerulean Cave:** Ditto, Wigglytuff, Electrode, Golem, Raichu, Sandslash, Parasect, Lickitung, Magneton, Dodrio. (Levels ~62-65)
 
 # VI. Item & Store Data
-## A. Celadon Department Store
-- **5F - Clerk 1 (6,4):** Sells TM12 WATRGUN (¥1000), TM16 PAYDAY (¥5000), TM19 SMCTOSS (¥3000), TM30 TELEPRT (¥1000).
-- **5F - Clerk 2 (7,4):** Sells HP UP (¥9800), PROTEIN (¥9800), IRON (¥9800), CARBOS (¥9800).
-- **4F - Clerk 1 (6, 8):** Sells POKé DOLL (¥1000), FIRE STONE (¥2100), THUNDERSTONE (¥2100), WATER STONE (¥2100).
-- **2F - Clerk 1 (6,4):** Sells POKé BALL (¥200), GREAT BALL (¥600), POTION (¥200), SUPER POTION (¥500).
-- **2F - Clerk 2 (7,4):** Sells TM01 MEGPNCH (¥3000), TM02 RZRWIND (¥2000), TM05 MEGKICK (¥3000), TM09 TAKEDWN (¥3000).
+## A. Celadon Department Store (Reference)
+- **5F:** Sells TMs (WATRGUN, PAYDAY, SMCTOSS, TELEPRT) and stat-boosters (HP UP, PROTEIN, etc.).
+- **4F:** Sells POKé DOLL and evolution stones (FIRE, THUNDER, WATER).
+- **2F:** Sells POKé BALLs, Potions, and TMs (MEGPNCH, RZRWIND, etc.).
 
 # VII. Agent & Tool Ideas
+- **Shopping Automation:** An agent that takes the output of `item_restock_agent` (the shopping list) and generates a sequence of button presses for a tool like `execute_button_sequence` to fully automate buying items.
 
-# VIII. Active Tasks & Objectives
-## A. Celadon Dept. Store Restock
-- **Goal:** Purchase SUPER POTIONs and GREAT BALLs.
-
-# IX. Untested Hypotheses
+# VIII. Untested Hypotheses
