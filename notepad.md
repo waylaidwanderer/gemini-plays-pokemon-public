@@ -59,3 +59,9 @@
 
 ## VII. Development Pipeline (Post-Escape)
 - **`find_path` Tool Refinement:** The tool needs a major update. It must be able to distinguish between permanent obstacles (like walls) and solvable puzzles (like pushable boulders) in its failure reports. This will prevent me from misinterpreting a puzzle as a dead end or a tool bug.
+
+## VI. Lessons from Overwatch Critique (Turn 181252)
+- **Notepad Updates:** Multi-turn failures to update notes are a critical procedural error. I must break down large `overwrite` or `replace` actions into smaller, targeted chunks to avoid character limit errors and ensure immediate documentation.
+
+## VII. Development Pipeline (Post-Escape)
+- **`find_path` Tool Refinement:** The tool needs a major update. It must be able to distinguish between permanent obstacles (like walls) and solvable puzzles (like pushable boulders) in its failure reports. This will prevent me from misinterpreting a puzzle as a dead end or a tool bug.
