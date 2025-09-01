@@ -43,7 +43,7 @@
     - `🔄 Trap/Loop`: For tiles or warps that are part of a confusing loop or trap.
 
 ## C. Untested Assumptions
-- **Magikarp Salesman:** Assumption is that he is a one-time interaction. I need to test this by speaking to him again after the nicknaming process is complete.
+- **Magikarp Salesman:** Confirmed he is a one-time interaction. He will not sell another Magikarp.
 
 # III. Battle Knowledge
 ## A. Type Effectiveness & Battle Insights
