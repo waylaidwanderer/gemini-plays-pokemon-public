@@ -67,14 +67,6 @@
 - The `find_path` tool is limited to single-map navigation and cannot plan routes that require using warps to connect otherwise disconnected areas on the same map. For complex, multi-map or multi-section dungeons, I must rely on manual exploration and my `navigation_troubleshooter` agent.
 
 # VI. Puzzles & Obstacles
-## A. Route 4 "Geodude" Trainer Puzzle
-- **Location:** Route 4, Cool Trainer F at (10, 7).
-- **Description:** Trainer blocks the path. Interacting triggers "Ouch! I tripped over a rocky POKéMON, GEODUDE!" but no battle. The trainer is impassable.
-- **Solution:** Stunned the trainer at (7, 9) and interacted with the tile she was on, which cleared the path.
-- **Failed Hypotheses Log:**
-  1. Interacting normally starts a battle. (3 attempts)
-  2. The trainer can be walked through. (1 attempt)
-  3. Leading with a Rock/Ground type allows passage. (1 attempt)
-  4. Interacting from the side changes the outcome. (1 attempt)
-  5. Using SILPH SCOPE reveals a hidden Pokémon. (1 attempt)
-  6. The Pokecenter has a second exit to bypass the trainer. (1 attempt)
+
+## A. Ideas for Future Agents
+- **Notepad Refactor Agent:** To handle complex cleanup and reorganization tasks that often fail due to character limits with manual `overwrite` or `replace` actions.
