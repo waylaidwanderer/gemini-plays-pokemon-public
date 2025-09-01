@@ -80,3 +80,5 @@
   6. The Pokecenter has a second exit to bypass the trainer. (1 attempt)
 ## D. Environmental Object Mechanics
 - **Cuttable Trees:** Confirmed that cuttable trees respawn after being cut. The exact trigger is unknown, but it may be related to changing maps or after a battle.
+## D. Environmental Object Mechanics
+- **Cuttable Trees:** Confirmed that cuttable trees respawn after being cut. The exact trigger is unknown, but it may be related to changing maps or after a battle.
