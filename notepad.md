@@ -57,3 +57,6 @@
 - **5F:** Sells TMs (WATRGUN, PAYDAY, SMCTOSS, TELEPRT) and stat-boosters (HP UP, PROTEIN, etc.).
 - **4F:** Sells POKé DOLL and evolution stones (FIRE, THUNDER, WATER).
 - **2F:** Sells POKé BALLs, Potions, and TMs (MEGPNCH, RZRWIND, etc.).
+
+## D. Navigation Strategy
+- **Tool Limitation (find_path):** The `find_path` tool is limited to single-map navigation. For complex, multi-level dungeons like Mt. Moon, it is unreliable. I must rely on methodical manual exploration and my `navigation_troubleshooter` agent instead of using `find_path` to plan routes across different floors.
