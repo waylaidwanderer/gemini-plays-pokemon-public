@@ -51,12 +51,3 @@
 
 ## B. Lessons & Hypotheses
 - **Opponent Move Diversity:** Do not assume an opponent will only use its most obvious STAB move. High-level wild Pokémon in dangerous areas like Cerulean Cave have coverage moves (e.g., Golem with Explosion). Be prepared for unexpected attacks.
-
-# VIII. World & Tile Mechanics
-## A. Tile Traversal Rules (Verified)
-- **ground:** Standard walkable tile.
-- **impassable:** Cannot be entered. Includes walls, rocks, water (without Surf), etc.
-- **ladder_down:** Acts as a warp to a lower floor.
-
-## B. Hypotheses Under Investigation
-- **Mewtwo's Location:** It is assumed Mewtwo is located deep within Cerulean Cave. This is based on general knowledge and has not been confirmed with in-game evidence.
