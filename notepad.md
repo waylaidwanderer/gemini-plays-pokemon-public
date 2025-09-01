@@ -46,6 +46,7 @@
 - **Electric vs. Grass/Poison:** Electric is not very effective against Grass/Poison dual-types.
 - **Psychic vs. Poison:** Psychic is super-effective against Poison.
 - **Electric vs. Flying:** Electric is super-effective against Flying. (Verified against Dodrio).
+- **Electric vs. Electric:** Not very effective. (Verified against a transformed Ditto).
 
 ## B. Discovered Battle Mechanics (Verified)
 - **Earthquake vs. Dig:** Earthquake can hit an opponent that is underground using Dig.
@@ -66,4 +67,3 @@
 - **Shopping Automation:** An agent that takes the output of `item_restock_agent` (the shopping list) and generates a sequence of button presses for a tool like `execute_button_sequence` to fully automate buying items.
 
 # VII. Untested Hypotheses
-- **Electric vs. Electric:** Not very effective. (Verified against a transformed Ditto).
