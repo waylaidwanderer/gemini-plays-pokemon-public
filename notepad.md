@@ -42,8 +42,8 @@
     - `🗝️ Puzzle Solved/Obstacle Cleared`: For puzzles or obstacles that have been overcome.
     - `🔄 Trap/Loop`: For tiles or warps that are part of a confusing loop or trap.
 
-## C. Untested Assumptions
-- **Magikarp Salesman:** Confirmed he is a one-time interaction. He will not sell another Magikarp.
+## C. Verified NPC Interactions
+- **Magikarp Salesman:** Confirmed he is a one-time interaction and will not sell another Magikarp.
 
 # III. Battle Knowledge
 ## A. Type Effectiveness & Battle Insights
