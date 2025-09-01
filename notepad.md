@@ -51,4 +51,4 @@
 - **`find_path` Refinement:** Investigate and fix the tool's pathing logic, specifically its handling of `steps`, `elevated_ground`, and complex multi-level maps like Cerulean Cave. This is a top priority after escaping.
 
 ## B. Completed Tasks
-- **`navigation_troubleshooter` Refinement:** Added `party_health_summary` as an input to allow it to prioritize escape/healing when the party is weak. (Turn 181506)
+- **`navigation_troubleshooter` Refinement:** Added `party_health_summary` as an input to allow it to prioritize escape/healing when the party is weak. (Turn 181507)
