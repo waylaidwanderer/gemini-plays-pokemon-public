@@ -50,3 +50,4 @@
 - **Shopping Automation:** An agent that takes the output of `item_restock_agent` (the shopping list) and generates a sequence of button presses for a tool like `execute_button_sequence` to fully automate buying items.
 
 # VII. Untested Hypotheses
+- **Ground vs. Rock/Ground:** Ground is super-effective against Rock/Ground dual-types. (Verified against wild GOLEM in Cerulean Cave).
