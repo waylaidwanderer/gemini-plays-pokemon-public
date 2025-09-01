@@ -30,6 +30,7 @@
 - **Psychic vs. Poison:** Psychic is super-effective against Poison.
 - **Electric vs. Flying:** Electric is super-effective against Flying. (Verified against Dodrio).
 - **Electric vs. Electric:** Not very effective. (Verified against a transformed Ditto).
+- **Ground vs. Rock/Ground:** Ground is super-effective against Rock/Ground dual-types. (Verified against wild GOLEM in Cerulean Cave).
 
 ## B. Discovered Battle Mechanics (Verified)
 - **Earthquake vs. Dig:** Earthquake can hit an opponent that is underground using Dig.
@@ -48,6 +49,4 @@
 
 # VI. Agent & Tool Ideas
 - **Shopping Automation:** An agent that takes the output of `item_restock_agent` (the shopping list) and generates a sequence of button presses for a tool like `execute_button_sequence` to fully automate buying items.
-
-# VII. Untested Hypotheses
-- **Ground vs. Rock/Ground:** Ground is super-effective against Rock/Ground dual-types. (Verified against wild GOLEM in Cerulean Cave).
+- **Pokémon Switching Automation:** An agent or tool to automate the multi-step process of switching Pokémon in battle (e.g., takes a target Pokémon name and generates the button sequence for `execute_button_sequence`).
