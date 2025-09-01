@@ -64,7 +64,7 @@
 
 # V. Navigation Strategy
 ## A. Tool Limitation (find_path)
-- The `find_path` tool is limited to single-map navigation. For complex, multi-level dungeons, I must rely on methodical manual exploration and my `navigation_troubleshooter` agent instead of using `find_path` to plan routes across different floors.
+- The `find_path` tool is limited to single-map navigation and cannot plan routes that require using warps to connect otherwise disconnected areas on the same map. For complex, multi-map or multi-section dungeons, I must rely on manual exploration and my `navigation_troubleshooter` agent.
 
 # VII. Puzzles & Obstacles
 ## A. Route 4 "Geodude" Trainer Puzzle
