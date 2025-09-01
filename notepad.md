@@ -65,3 +65,5 @@
 - The city is divided by a river. The western section (where you arrive from Route 4) and the eastern section (where the path to Route 9 is) are separated. To cross between them, I must use Surf.
 
 # VI. Puzzles & Obstacles
+- **teleport:** An instant warp tile within the same logical location.
+- **gate_offscreen:** A gate whose state is unknown. Treated as potentially open for pathfinding.
