@@ -888,33 +888,6 @@
       }
     ]
   },
-  "nickname_generator": {
-    "description": "Generates the button presses required to enter a Pokémon nickname on the naming screen. Assumes an uppercase-only character set and a fixed starting cursor position.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "target_nickname": {
-          "type": "string"
-        }
-      },
-      "required": [
-        "target_nickname"
-      ]
-    },
-    "python_script": "import json\n\ndef generate_nickname_presses(target_nickname):\n    layout = [\n        ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J'],\n        ['K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T'],\n        ['U', 'V', 'W', 'X', 'Y', 'Z', '(', ')', ':', ';'],\n        ['[', ']', '-', '?', '!', '♂', '♀', '/', '.', ','],\n        [' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', 'OK', 'END']\n    ]\n    char_map = {char: (r, c) for r, row in enumerate(layout) for c, char in enumerate(row)}\n    char_map['OK'] = (4, 8)\n    char_map['END'] = (4, 9)\n\n    current_pos = [0, 0] # Starts at 'A'\n    presses = []\n    target_nickname = target_nickname.upper()\n\n    for char in target_nickname:\n        if char not in char_map:\n            continue\n\n        target_pos = list(char_map[char])\n        \n        # Vertical movement\n        dy = target_pos[0] - current_pos[0]\n        if dy > 0: presses.extend(['Down'] * dy)\n        elif dy < 0: presses.extend(['Up'] * abs(dy))\n\n        # Horizontal movement\n        dx = target_pos[1] - current_pos[1]\n        if dx > 0: presses.extend(['Right'] * dx)\n        elif dx < 0: presses.extend(['Left'] * abs(dx))\n\n        presses.append('A')\n        current_pos = target_pos\n\n    # Move to END\n    target_pos = list(char_map['END'])\n    dy = target_pos[0] - current_pos[0]\n    if dy > 0: presses.extend(['Down'] * dy)\n    elif dy < 0: presses.extend(['Up'] * abs(dy))\n\n    dx = target_pos[1] - current_pos[1]\n    if dx > 0: presses.extend(['Right'] * dx)\n    elif dx < 0: presses.extend(['Left'] * abs(dx))\n    \n    presses.append('A')\n\n    print(json.dumps(presses))\n\ngenerate_nickname_presses(input_data['target_nickname'])",
-    "history": [
-      {
-        "commit_message": "feat: Create nickname_generator tool. In response to a mandatory Overwatch critique, this tool automates the tedious and error-prone process of nicknaming Pokémon. This directly addresses the failure to act immediately on identified automation opportunities.",
-        "timestamp": "2025-09-01T16:53:57.140Z",
-        "action_counter": 182201
-      },
-      {
-        "commit_message": "feat: Create nickname_generator tool. In response to a mandatory Overwatch critique, this tool automates the tedious and error-prone process of nicknaming Pokémon. This directly addresses the failure to act immediately on identified automation opportunities.",
-        "timestamp": "2025-09-01T17:05:57.456Z",
-        "action_counter": 182220
-      }
-    ]
-  },
   "item_menu_navigator": {
     "description": "Navigates the item menu to select a target item. Outputs the necessary button presses.",
     "input_schema": {
@@ -964,6 +937,44 @@
         "commit_message": "feat: Create move_selector tool. In response to a self-assessment identifying deferred tool creation as a critical failure, this tool automates navigation of the battle move selection menu. This will improve efficiency during frequent wild encounters.",
         "timestamp": "2025-09-01T17:41:15.145Z",
         "action_counter": 182272
+      }
+    ]
+  },
+  "repath_to_goal": {
+    "description": "Recalculates the shortest path from a new starting point to a persistent goal, designed for use after interruptions like wild battles.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "start_x": {
+          "type": "string"
+        },
+        "start_y": {
+          "type": "string"
+        },
+        "end_x": {
+          "type": "string"
+        },
+        "end_y": {
+          "type": "string"
+        },
+        "is_surfing": {
+          "type": "string",
+          "nullable": true
+        }
+      },
+      "required": [
+        "start_x",
+        "start_y",
+        "end_x",
+        "end_y"
+      ]
+    },
+    "python_script": "import json\nimport collections\nimport xml.etree.ElementTree as ET\n\ntry:\n    start_x_str = input_data['start_x']\n    start_y_str = input_data['start_y']\n    end_x_str = input_data['end_x']\n    end_y_str = input_data['end_y']\n    is_surfing_str = input_data.get('is_surfing')\n\n    is_surfing = is_surfing_str.lower() == 'true' if is_surfing_str is not None else False\n    root = ET.fromstring(map_xml_string)\n    map_width = int(root.get('width'))\n    map_height = int(root.get('height'))\n    tiles = {}\n    \n    for row in root.findall('Row'):\n        y = int(row.get('id'))\n        for tile_elem in row.findall('Tile'):\n            x = int(tile_elem.get('id'))\n            tile_type = tile_elem.get('type')\n            has_object = tile_elem.get('has-object') == 'true'\n            object_id, object_name = None, None\n            if has_object:\n                obj = tile_elem.find('Object')\n                if obj is not None:\n                    object_id = obj.get('id')\n                    object_name = obj.get('id-name')\n            tiles[(x, y)] = {'type': tile_type, 'has_object': has_object, 'object_id': object_id, 'object_name': object_name}\n\n    start = (int(start_x_str), int(start_y_str))\n    end_goal = (int(end_x_str), int(end_y_str))\n    \n    traversable_base_types = {'ground', 'steps', 'elevated_ground', 'cleared_boulder_barrier', 'ladder_up', 'ladder_down'}\n    if is_surfing:\n        traversable_base_types.add('water')\n\n    def get_traversability_reason(x, y):\n        if not (1 <= x <= map_width and 1 <= y <= map_height): return 'out_of_bounds'\n        tile_info = tiles.get((x, y))\n        if not tile_info: return 'no_tile_info'\n        if tile_info['type'] == 'unknown': return 'unseen_tile'\n        if tile_info['type'] in ['impassable', 'boulder_barrier', 'closed_gate', 'ledge']: return f\"{tile_info['type']}_tile\"\n        if tile_info['type'] == 'cuttable': return 'cuttable_tree'\n        if not is_surfing and tile_info['type'] == 'water': return 'water_requires_surf'\n        if tile_info['has_object'] and tile_info['object_id'] != '15': return f\"object_{tile_info.get('object_name', 'Unknown')}\"\n        if tile_info['type'] not in traversable_base_types: return f\"non_traversable_type_{tile_info['type']}\"\n        return 'traversable'\n\n    def is_traversable(x, y):\n        return get_traversability_reason(x, y) == 'traversable'\n\n    goal_set = set()\n    if is_traversable(end_goal[0], end_goal[1]):\n        goal_set.add(end_goal)\n    else:\n        for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n            neighbor = (end_goal[0] + dx, end_goal[1] + dy)\n            if is_traversable(neighbor[0], neighbor[1]):\n                goal_set.add(neighbor)\n    \n    if not goal_set:\n        reason = get_traversability_reason(end_goal[0], end_goal[1])\n        obstacle_info = {'x': end_goal[0], 'y': end_goal[1], 'type': tiles.get(end_goal, {}).get('type', 'unknown'), 'reason': reason}\n        result = {'path_found': False, 'error': f'Destination and all adjacent tiles are not traversable.', 'blocking_obstacles': [obstacle_info]}\n        print(json.dumps(result))\n    else:\n        queue = collections.deque([(start, [start])])\n        visited = {start}\n        \n        path_found = False\n        while queue:\n            (current_x, current_y), path = queue.popleft()\n            current_pos = (current_x, current_y)\n\n            if current_pos in goal_set:\n                result = {'path_found': True, 'path': path}\n                print(json.dumps(result))\n                path_found = True\n                break\n\n            current_tile_info = tiles.get(current_pos)\n            current_type = current_tile_info['type']\n\n            for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n                neighbor_pos = (current_x + dx, current_y + dy)\n                if neighbor_pos in visited or not is_traversable(neighbor_pos[0], neighbor_pos[1]):\n                    continue\n\n                neighbor_tile_info = tiles.get(neighbor_pos)\n                neighbor_type = neighbor_tile_info['type']\n\n                if current_type == 'ground' and neighbor_type == 'elevated_ground': continue\n                if current_type == 'elevated_ground' and neighbor_type == 'ground': continue\n\n                visited.add(neighbor_pos)\n                new_path = list(path)\n                new_path.append(neighbor_pos)\n                queue.append((neighbor_pos, new_path))\n        \n        if not path_found:\n            frontier_obstacles = []\n            max_obstacles_to_report = 5\n            for (vx, vy) in visited:\n                if len(frontier_obstacles) >= max_obstacles_to_report: break\n                for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n                    if len(frontier_obstacles) >= max_obstacles_to_report: break\n                    neighbor_pos = (vx + dx, vy + dy)\n                    if 1 <= neighbor_pos[0] <= map_width and 1 <= neighbor_pos[1] <= map_height and neighbor_pos not in visited:\n                        reason = get_traversability_reason(neighbor_pos[0], neighbor_pos[1])\n                        if reason != 'traversable':\n                            tile_info = tiles.get(neighbor_pos, {})\n                            obstacle_detail = {'x': neighbor_pos[0], 'y': neighbor_pos[1], 'type': tile_info.get('type', 'unknown'), 'reason': reason}\n                            if obstacle_detail not in frontier_obstacles:\n                                frontier_obstacles.append(obstacle_detail)\n\n            error_message = 'Path blocked. See blocking_obstacles for details.'\n            result = {'path_found': False, 'error': error_message, 'blocking_obstacles': frontier_obstacles}\n            print(json.dumps(result))\n\nexcept Exception as e:\n    error_result = {'path_found': False, 'error': f'Script failed with exception: {e}', 'blocking_obstacles': []}\n    print(json.dumps(error_result))",
+    "history": [
+      {
+        "commit_message": "feat: Create repath_to_goal tool to automate navigation recalculations. This tool addresses a critical Overwatch critique by creating a dedicated function for the repetitive task of re-running the pathfinder after being interrupted by a wild battle. This improves workflow efficiency and demonstrates immediate action on procedural feedback.",
+        "timestamp": "2025-09-01T19:33:45.884Z",
+        "action_counter": 182452
       }
     ]
   }
