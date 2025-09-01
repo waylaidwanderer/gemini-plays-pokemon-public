@@ -44,7 +44,11 @@
 - **Procedural Note:** When navigation is blocked or a path fails, use the `navigation_troubleshooter` agent to identify the next best exploration target instead of assuming a dead end.
 
 # III. Battle Knowledge
-## A. Type Effectiveness & Battle Insights
+## A. Current Party Status (CRITICAL)
+- **SPARKY is defenseless.** THUNDERBOLT has 0 PP. All other moves are non-damaging. Escape is the only option in wild battles.
+- All other party members are fainted.
+
+## B. Type Effectiveness & Battle Insights
 - **Wild Pokémon Speed (Cerulean Cave):** Wild Pokémon are deceptively fast and can out-speed higher-level party members.
 - **SELFDESTRUCT vs. Rock/Ground:** Not very effective.
 - **SELFDESTRUCT vs. Ground:** Neutrally effective but very powerful.
