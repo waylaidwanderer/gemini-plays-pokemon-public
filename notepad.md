@@ -35,22 +35,15 @@
 ## B. Known Pokemon Locations
 - **Cerulean Cave:** Ditto, Wigglytuff, Electrode, Golem, Raichu, Sandslash, Parasect, Lickitung, Magneton, Dodrio, RHYDON, VICTREEBEL.
 
-# V. Item & Store Data
+# IV. Item & Store Data
 ## A. Celadon Department Store (Reference)
 - **5F:** Sells TMs (WATRGUN, PAYDAY, SMCTOSS, TELEPRT) and stat-boosters (HP UP, PROTEIN, etc.).
 - **4F:** Sells POKé DOLL and evolution stones (FIRE, THUNDER, WATER).
 - **2F:** Sells POKé BALLs, Potions, and TMs (MEGPNCH, RZRWIND, etc.).
 
-# VI. Agent & Tool Ideas
-- **Shopping Automation:** An agent that takes the output of `item_restock_agent` (the shopping list) and generates a sequence of button presses for a tool like `execute_button_sequence` to fully automate buying items.
-- **Pokémon Switching Automation:** An agent or tool to automate the multi-step process of switching Pokémon in battle (e.g., takes a target Pokémon name and generates the button sequence for `execute_button_sequence`).
-- **Flee-Prep Automation:** An agent to handle the logic of switching to a healthy Pokémon when the lead is incapacitated, specifically for the purpose of running on the next turn.
-
-# VII. Future Development & Testing
+# V. Development Pipeline
 ## A. Agent & Tool Ideas
+- **Escape Artist Agent:** An agent that takes party status, location, and destination to manage a loop of running from wild battles and re-pathfinding to safely escape dangerous areas with a critically injured team.
+- **Shopping Automation:** An agent that takes the output of `item_restock_agent` (the shopping list) and generates a sequence of button presses for a tool like `execute_button_sequence` to fully automate buying items.
+- **Pokémon Switching Automation:** An agent or tool to automate the multi-step process of switching Pokémon in battle.
 - **Systematic Tile Tester:** An agent or process to systematically test the properties of all encountered tile types and document the results.
-- **Escape Artist Agent:** An agent that takes the party status during a wild battle and determines the optimal sequence of actions (e.g., switch to a specific Pokémon, then run) to flee successfully.
-- **Switch & Run Tool:** A tool that takes a Pokémon's name as input and generates the button sequence to switch to it. This could be used by the Escape Artist Agent.
-
-## B. Lessons & Hypotheses
-- **Opponent Move Diversity:** Do not assume an opponent will only use its most obvious STAB move. High-level wild Pokémon in dangerous areas like Cerulean Cave have coverage moves (e.g., Golem with Explosion). Be prepared for unexpected attacks.
