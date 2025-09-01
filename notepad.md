@@ -12,11 +12,14 @@
 - **Confirmation Bias in Tool Debugging (Turns ~177769-177818):** `fly_menu_navigator` failures highlighted the need to actively disprove my own assumptions during debugging.
 - **Self-Assessment (Turn 181193):** `find_path` tool is unreliable in Cerulean Cave. Manual exploration is necessary when automation fails. Tile mechanic documentation needs to be more formal.
 
-# III. Game & World Knowledge
-## A. General Game Mechanics (Verified)
-- **Porygon's Freezing Move:** Some Pokémon know moves that can inflict Freeze.
-- **Segmented Waterways:** Some water routes are segmented and do not connect to all expected areas.
-- **HM Deposit Rule:** HMs considered 'important' (like CUT and FLASH) cannot be deposited into the PC.
+# III. World & Tile Mechanics
+## A. Tile Traversal Rules (Verified)
+- **ground:** Standard walkable tile.
+- **impassable:** Cannot be entered. Includes walls, rocks, water (without Surf), etc.
+- **ladder_down / ladder_up:** Acts as a warp to another floor.
+- **elevated_ground:** Walkable ground at a different elevation. Cannot be accessed from `ground` directly.
+- **steps:** The only tile type that allows movement between `ground` and `elevated_ground`.
+- **water:** Traversable only with Surf.
 
 # IV. Battle Knowledge
 ## A. Discovered Battle Mechanics (Verified)
