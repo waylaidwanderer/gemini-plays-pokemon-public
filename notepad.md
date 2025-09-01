@@ -18,15 +18,6 @@
 - **Segmented Waterways:** Some water routes are segmented and do not connect to all expected areas.
 - **HM Deposit Rule:** HMs considered 'important' (like CUT and FLASH) cannot be deposited into the PC.
 
-## B. Tile Traversal & Movement Rules (Verified)
-- **ground / elevated_ground:** Standard walkable tiles. Cannot move directly between them.
-- **steps:** The only tile type that allows movement between `ground` and `elevated_ground`.
-- **impassable:** Walls, objects, etc. Cannot be entered.
-- **ledge:** Can be jumped down (one-way), but not climbed up. Acts as a wall from below and sides.
-- **water:** Requires SURF to cross.
-- **grass:** Tall grass where wild Pokémon appear. Walkable.
-- **cuttable:** A tree that can be cut with HM CUT.
-
 # IV. Battle Knowledge
 ## A. Discovered Battle Mechanics (Verified)
 - **Earthquake vs. Dig:** Earthquake can hit an opponent that is underground using Dig.
