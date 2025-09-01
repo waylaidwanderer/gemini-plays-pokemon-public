@@ -79,3 +79,4 @@
   3. Leading with a Rock/Ground type Pokémon (Golem) allows passage. (Attempted 1 time)
   4. Interacting from the side (left) changes the outcome. (Attempted 1 time)
   5. Using the SILPH SCOPE reveals a hidden Pokémon. (Attempted 1 time - resulted in Oak's 'not the time to use that' message)
+- **`item_user_agent` Tool:** Navigating menus to use a specific item is repetitive. An agent or tool could take an item name as input and generate the exact button sequence to use it, streamlining the process.
