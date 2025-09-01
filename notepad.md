@@ -66,3 +66,6 @@
 
 # VI. Escape Artist Agent (Self-Assessment Idea)
 - An agent to manage the loop of running from wild battles and re-pathfinding to safely escape dangerous areas with a critically injured team. This is a top priority after escaping.
+
+# VI. Escape Artist Agent (Self-Assessment Idea)
+- An agent to manage the loop of running from wild battles and re-pathfinding to safely escape dangerous areas with a critically injured team. This is a top priority after escaping.
