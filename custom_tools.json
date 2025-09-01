@@ -963,7 +963,7 @@
         "party_list_text"
       ]
     },
-    "python_script": "import json\n\nparty_text = input_data['party_list_text']\npokemon_name = input_data['pokemon_name'].upper()\nhm_move = input_data['hm_move'].upper()\n\nlines = party_text.strip().split('\\n')\nparty = []\nfor i in range(0, len(lines), 2):\n    if '→' in lines[i]:\n        name_line = lines[i].replace('→', '').strip()\n    else:\n        name_line = lines[i].strip()\n    \n    name = name_line.split(' ')[0].strip()\n    party.append(name)\n\nif pokemon_name not in party:\n    print(json.dumps({'error': f'Pokemon {pokemon_name} not in party.'}))\nelse:\n    current_index = -1\n    target_index = party.index(pokemon_name)\n\n    for i, line in enumerate(lines):\n        if '→' in line:\n            current_index = i // 2\n            break\n\n    if current_index == -1:\n        print(json.dumps({'error': 'Could not determine current cursor position.'}))\n    else:\n        moves = []\n        diff = target_index - current_index\n        if diff > 0:\n            moves.extend(['Down'] * diff)\n        elif diff < 0:\n            moves.extend(['Up'] * abs(diff))\n        \n        moves.append('A')\n        moves.append('A')\n\n        print(json.dumps({'buttons': moves}))",
+    "python_script": "import json\nimport re\n\nparty_list_text = input_data['party_list_text']\ntarget_pokemon_name = input_data['pokemon_name']\nhm_move = input_data['hm_move']\n\nbuttons = []\nlines = party_list_text.strip().split('\\n')\n\npokemon_names = []\ncursor_index = -1\nfor i, line in enumerate(lines):\n    if 'LV' in line:\n        name_match = re.match(r'([A-Z\\s]+)', line)\n        if name_match:\n            name = name_match.group(1).strip()\n            pokemon_names.append(name)\n    if '→' in line:\n        cursor_index = len(pokemon_names) - 1\n\ntry:\n    target_index = pokemon_names.index(target_pokemon_name)\nexcept ValueError:\n    print(json.dumps([]))\nelse:\n    if cursor_index != -1:\n        delta = target_index - cursor_index\n        if delta > 0:\n            buttons.extend(['Down'] * delta)\n        elif delta < 0:\n            buttons.extend(['Up'] * abs(delta))\n    \n    buttons.append('A')\n    buttons.append('A') # Simplification: Assumes HM is first option\n\n    print(json.dumps(buttons))",
     "history": [
       {
         "commit_message": "feat: Create hm_user tool to automate HM usage. This addresses a self-assessment finding that the repetitive menu navigation for HMs is a prime candidate for automation, improving gameplay efficiency.",
@@ -974,6 +974,11 @@
         "commit_message": "feat: Create hm_user tool to automate HM usage. This addresses a self-assessment finding that the repetitive menu navigation for HMs is a prime candidate for automation, improving gameplay efficiency.",
         "timestamp": "2025-09-01T22:19:20.440Z",
         "action_counter": 182735
+      },
+      {
+        "commit_message": "fix: Correct output format to valid JSON array. The tool was outputting a JSON object `{\"buttons\": [...]}` instead of a simple array `[...]`, causing the autopress to fail. This commit corrects the print statement to output the required format and adds more robust party list parsing.",
+        "timestamp": "2025-09-01T22:23:55.199Z",
+        "action_counter": 182742
       }
     ]
   }
