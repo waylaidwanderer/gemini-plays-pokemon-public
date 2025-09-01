@@ -78,3 +78,14 @@
   4. Interacting from the side changes the outcome. (1 attempt)
   5. Using SILPH SCOPE reveals a hidden Pokémon. (1 attempt)
   6. The Pokecenter has a second exit to bypass the trainer. (1 attempt)
+
+## B. Cerulean Mart Puzzle
+- **Location:** Cerulean Mart (ID 67)
+- **Description:** Trapped in a small room with two trainers and a clerk. The only warp leads back to the southern part of Cerulean City, which is also a dead end.
+- **Hypothesis 1:** The NPCs have a clue.
+  - **Test 1:** Talk to Cool Trainer M. **Result:** Gave a generic tip about REPEL. **Conclusion:** Unhelpful.
+  - **Test 2:** Talk to Cool Trainer F. **Result:** Gave a generic tip about RARE CANDY. **Conclusion:** Unhelpful.
+- **Hypothesis 2:** The clerk is the key.
+  - **Test 1:** Attempt to pathfind to the clerk. **Result:** Path is blocked by the counter. **Conclusion:** Clerk is not directly interactable.
+- **Hypothesis 3:** The male trainer's dialogue ('Put your strongest POKéMON at the top of the list') is a direct hint.
+  - **Test 1:** Switch lead Pokémon to SPARKY (Lv 70). **Result:** No immediate change in the room. **Conclusion:** The switch itself is not the trigger. A subsequent action is likely required.
