@@ -66,7 +66,7 @@
 ## A. Tool Limitation (find_path)
 - The `find_path` tool is limited to single-map navigation and cannot plan routes that require using warps to connect otherwise disconnected areas on the same map. For complex, multi-map or multi-section dungeons, I must rely on manual exploration and my `navigation_troubleshooter` agent.
 
-# VI. Puzzles & Obstacles
+## B. Cerulean City Navigation
+- The city is divided by a river. The western section (where you arrive from Route 4) and the eastern section (where the path to Route 9 is) are separated. To cross between them, I must use Surf.
 
-## A. Ideas for Future Agents
-- **Notepad Refactor Agent:** To handle complex cleanup and reorganization tasks that often fail due to character limits with manual `overwrite` or `replace` actions.
+# VI. Puzzles & Obstacles
