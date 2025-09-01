@@ -78,3 +78,4 @@
   2. The trainer can be walked through. (Attempted 1 time)
   3. Leading with a Rock/Ground type Pokémon (Golem) allows passage. (Attempted 1 time)
   4. Interacting from the side (left) changes the outcome. (Attempted 1 time)
+  5. Using the SILPH SCOPE reveals a hidden Pokémon. (Attempted 1 time - resulted in Oak's 'not the time to use that' message)
