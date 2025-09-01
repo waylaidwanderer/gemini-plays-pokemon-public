@@ -931,5 +931,27 @@
         "action_counter": 180732
       }
     ]
+  },
+  "nickname_generator": {
+    "description": "Generates the button presses required to enter a Pokémon nickname on the naming screen. Assumes an uppercase-only character set and a fixed starting cursor position.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "target_nickname": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "target_nickname"
+      ]
+    },
+    "python_script": "import json\ntarget_nickname = input_data['target_nickname']\nchar_map = [\n    ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J'],\n    ['K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T'],\n    ['U', 'V', 'W', 'X', 'Y', 'Z', '(', ')', ':', ';'],\n    ['[', ']', ' ', ' ', '-', '?', '!', ' ', ' ', '/'],\n    ['.', ',', ' ', '>', '<', ' ', ' ', ' ', ' ', ' ']\n]\nend_button = (5, 9)\npos_map = {char: (r, c) for r, row_val in enumerate(char_map) for c, char in enumerate(row_val)}\ncursor_pos = (0, 0)\nbuttons = []\nfor char in target_nickname.upper():\n    if char in pos_map:\n        target_pos = pos_map[char]\n        dr, dc = target_pos[0] - cursor_pos[0], target_pos[1] - cursor_pos[1]\n        buttons.extend(['Down'] * dr if dr > 0 else ['Up'] * -dr)\n        buttons.extend(['Right'] * dc if dc > 0 else ['Left'] * -dc)\n        buttons.append('A')\n        cursor_pos = target_pos\ntarget_pos = end_button\ndr, dc = target_pos[0] - cursor_pos[0], target_pos[1] - cursor_pos[1]\nbuttons.extend(['Down'] * dr if dr > 0 else ['Up'] * -dr)\nbuttons.extend(['Right'] * dc if dc > 0 else ['Left'] * -dc)\nbuttons.append('A')\nprint(json.dumps(buttons))",
+    "history": [
+      {
+        "commit_message": "feat: Create nickname_generator tool. In response to a mandatory Overwatch critique, this tool automates the tedious and error-prone process of nicknaming Pokémon. This directly addresses the failure to act immediately on identified automation opportunities.",
+        "timestamp": "2025-09-01T16:53:57.140Z",
+        "action_counter": 182201
+      }
+    ]
   }
 }
