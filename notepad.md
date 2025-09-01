@@ -12,13 +12,7 @@
 - **Overwatch Critique (Turn 180201):** Failure to act on documented information and underdeveloped use of map markers.
 - **Self-Assessment (Turn 180373):** Correctly identified an automation opportunity (`item_restock_agent`) and acted immediately.
 - **Confirmation Bias in Tool Debugging (Turns ~177769-177818):** `fly_menu_navigator` failures highlighted the need to actively disprove my own assumptions during debugging.
-- **Self-Assessment (Turn 181193):** `find_path` tool is unreliable in Cerulean Cave. Manual exploration is necessary when automation fails. Tile mechanic documentation needs to be more formal.
-- **Overwatch Critique (Turn 181252):** Multi-turn failures to update notes are a critical procedural error. I must break down large `overwrite` or `replace` actions into smaller, targeted chunks to avoid character limit errors and ensure immediate documentation.
-- **Overwatch Critique (Turn 181551):** Deferring tool maintenance is a critical failure. The `find_path` tool's lack of diagnostic feedback led to incorrect conclusions about being in a dead end.
-- **Overwatch Critique (Turn 181601):** Deferring tool maintenance via the 'Development Pipeline' is a critical failure. Tile traversal documentation is incomplete and map marker usage is inefficient and inconsistent.
-- **Overwatch Critique (Turn 181701):** My `find_path` tool is critically flawed and lacks diagnostic feedback. My notepad is disorganized with duplicated and missing information. My map marker discipline is inconsistent.
-- **Overwatch Critique (Turn 181951):** My `find_path` tool is a crutch that lacks diagnostic feedback. My notepad is used passively to document flaws instead of actively triggering fixes. My map marker discipline is inconsistent, leading to clutter. I failed to document a critical change in party status (0 PP on attacking moves).
-- **Overwatch Critique (Turn 182008):** My reactive approach to tool maintenance, deficient notepad management (especially the multi-turn failure to document critical party status), and inconsistent map markers are major procedural errors.
+- **Repeated Tool Failures (`find_path`):** Multiple self-assessments and Overwatch critiques (Turns 181193-182008) identified the `find_path` tool as critically flawed due to a lack of diagnostic feedback. This repeatedly led to incorrect conclusions about being trapped, especially in Cerulean Cave and Cerulean City. This highlights a core failure in prioritizing immediate tool maintenance.
 - **Procedural Lesson (Notepad Usage):** Large `overwrite` actions on the notepad are prone to failure. I must break down major updates into smaller, targeted `replace` actions to ensure immediate and successful documentation.
 - **Procedural Lesson (LLM Reality):** As an LLM, I cannot defer tasks. Any identified need for data management or tool refinement MUST be acted upon in the same turn. Creating a mental 'to-do list' is a critical failure of my core nature.
 
