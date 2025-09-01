@@ -18,13 +18,6 @@
 - **Segmented Waterways:** Some water routes are segmented and do not connect to all expected areas.
 - **HM Deposit Rule:** HMs considered 'important' (like CUT and FLASH) cannot be deposited into the PC.
 
-- **ladder_up / ladder_down:** These function as warps, instantly transporting the player between floors.
-- **teleport:** An instant warp tile, often used inside buildings like Silph Co.
-- **hole:** A warp tile that leads to a lower floor, like in Seafoam Islands.
-- **boulder_switch:** A floor switch that is activated by pushing a boulder onto it.
-- **boulder_barrier:** An impassable barrier that becomes `cleared_boulder_barrier` when a corresponding switch is activated.
-- **unknown:** Tile not visually confirmed. Treat as impassable until seen.
-
 # IV. Battle Knowledge
 ## A. Type Effectiveness Discoveries (Verified)
 - **Poison vs. Bug:** Poison is now super-effective against Bug. Bug is no longer strong against Poison.
