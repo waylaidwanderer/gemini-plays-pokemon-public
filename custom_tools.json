@@ -838,12 +838,17 @@
         "target_floor"
       ]
     },
-    "python_script": "import json\n\nfloors = [\"1F\", \"2F\", \"3F\", \"4F\", \"5F\", \"6F\"]\n\ncurrent_floor = int(input_data['current_floor'])\ntarget_floor = int(input_data['target_floor'])\n\ncurrent_index = current_floor - 1\ntarget_index = target_floor - 1\n\ndiff = target_index - current_index\n\nbuttons = []\nif diff > 0:\n    buttons.extend([\"Down\"] * diff)\nelif diff < 0:\n    buttons.extend([\"Up\"] * abs(diff))\n\nbuttons.append(\"A\")\n\nprint(json.dumps(buttons))",
+    "python_script": "import json\n\ncurrent_floor_str = input_data['current_floor']\ntarget_floor_str = input_data['target_floor']\n\ntry:\n    current_floor_num = int(current_floor_str.replace('F', ''))\n    target_floor_num = int(target_floor_str.replace('F', ''))\nexcept (ValueError, AttributeError):\n    print(json.dumps({\"error\": \"Invalid floor format. Expected format like '1F', '2F', etc.\"}))\n    exit()\n\nfloor_order = [1, 2, 3, 4, 5]\n\ntry:\n    current_index = floor_order.index(current_floor_num)\n    target_index = floor_order.index(target_floor_num)\nexcept ValueError:\n    print(json.dumps({\"error\": f\"Invalid floor number. Valid floors are {floor_order}.\"}))\n    exit()\n    \nmoves = target_index - current_index\n\nbuttons = []\nif moves > 0:\n    buttons.extend(['Down'] * moves)\nelif moves < 0:\n    buttons.extend(['Up'] * abs(moves))\n\nbuttons.append('A')\n\nprint(json.dumps(buttons))",
     "history": [
       {
         "commit_message": "feat: Create elevator_navigator tool. In response to a mandatory self-assessment identifying a repetitive, error-prone task (navigating the elevator), this tool automates floor selection to prevent future loops and improve efficiency.",
         "timestamp": "2025-09-01T00:06:22.394Z",
         "action_counter": 180527
+      },
+      {
+        "commit_message": "fix: Handle non-numeric 'F' in floor strings. The tool was crashing with a ValueError because it tried to convert strings like '1F' directly to integers. This commit adds logic to strip the 'F' from the floor strings before casting them to integers, resolving the crash and restoring functionality.",
+        "timestamp": "2025-09-01T00:11:01.259Z",
+        "action_counter": 180541
       }
     ]
   }

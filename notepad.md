@@ -74,3 +74,4 @@
 - `item_restock_agent` Idea: Create an agent that takes the current inventory and a target shopping location (like Celadon Mart) to generate an optimized shopping list for restocking essential supplies like potions and Pokeballs.
 
 # VIII. Untested Hypotheses
+- **2F - Clerk 1 (6,4):** Sells POKé BALL (¥200), GREAT BALL (¥600), POTION (¥200), SUPER POTION (¥500).
