@@ -79,29 +79,29 @@
   5. Using SILPH SCOPE reveals a hidden Pokémon. (1 attempt)
   6. The Pokecenter has a second exit to bypass the trainer. (1 attempt)
 
-## B. Cerulean Mart Puzzle
+## C. Cerulean Mart Puzzle
 - **[SOLVED] Location:** Cerulean Mart (ID 67)
 - **Description:** Trapped in a small room with two trainers and a clerk. The only warp leads back to the southern part of Cerulean City, which is also a dead end.
 - **Solution:** The male trainer's dialogue ('Put your strongest POKéMON at the top of the list') is a direct hint. After putting the strongest POKéMON (SPARKY) in the lead, using the exit warp at (4, 8) successfully leads to the main part of Cerulean City.
 - **Failed Hypotheses Log:**
-  - **Hypothesis 1:** The NPCs have a clue (beyond the main hint). **Result:** Generic dialogue. **Failed after 2 attempts.**
-  - **Hypothesis 2:** The clerk is directly interactable. **Result:** Path blocked by counter. **Failed after 1 attempt.**
-  - **Hypothesis 3:** Switching the lead Pokémon is the only action required. **Result:** No immediate change. **Failed after 1 attempt.** This was a prerequisite, not the full solution.
+  - Hypothesis 1: The NPCs have a clue (beyond the main hint). (Failed after 2 attempts.)
+  - Hypothesis 2: The clerk is directly interactable. (Failed after 1 attempt.)
+  - Hypothesis 3: Switching the lead Pokémon is the only action required. (Failed after 1 attempt.) This was a prerequisite, not the full solution.
 
-## B. Cerulean Mart Puzzle
+## C. Cerulean Mart Puzzle
 - **[SOLVED] Location:** Cerulean Mart (ID 67)
 - **Description:** Trapped in a small room with two trainers and a clerk. The only warp leads back to the southern part of Cerulean City, which is also a dead end.
 - **Solution:** The male trainer's dialogue ('Put your strongest POKéMON at the top of the list') is a direct hint. After putting the strongest POKéMON (SPARKY) in the lead, using the exit warp at (4, 8) successfully leads to the main part of Cerulean City.
 - **Failed Hypotheses Log:**
-  - **Hypothesis 1:** The NPCs have a clue (beyond the main hint). **Result:** Generic dialogue. **Failed after 2 attempts.**
-  - **Hypothesis 2:** The clerk is directly interactable. **Result:** Path blocked by counter. **Failed after 1 attempt.**
-  - **Hypothesis 3:** Switching the lead Pokémon is the only action required. **Result:** No immediate change. **Failed after 1 attempt.** This was a prerequisite, not the full solution.
+  - Hypothesis 1: The NPCs have a clue (beyond the main hint). (Failed after 2 attempts.)
+  - Hypothesis 2: The clerk is directly interactable. (Failed after 1 attempt.)
+  - Hypothesis 3: Switching the lead Pokémon is the only action required. (Failed after 1 attempt.) This was a prerequisite, not the full solution.
 
-## B. Cerulean Mart Puzzle
+## C. Cerulean Mart Puzzle
 - **[SOLVED] Location:** Cerulean Mart (ID 67)
 - **Description:** Trapped in a small room with two trainers and a clerk. The only warp leads back to the southern part of Cerulean City, which is also a dead end.
 - **Solution:** The male trainer's dialogue ('Put your strongest POKéMON at the top of the list') is a direct hint. After putting the strongest POKéMON (SPARKY) in the lead, using the exit warp at (4, 8) successfully leads to the main part of Cerulean City.
 - **Failed Hypotheses Log:**
-  - **Hypothesis 1:** The NPCs have a clue (beyond the main hint). **Result:** Generic dialogue. **Failed after 2 attempts.**
-  - **Hypothesis 2:** The clerk is directly interactable. **Result:** Path blocked by counter. **Failed after 1 attempt.**
-  - **Hypothesis 3:** Switching the lead Pokémon is the only action required. **Result:** No immediate change. **Failed after 1 attempt.** This was a prerequisite, not the full solution.
+  - Hypothesis 1: The NPCs have a clue (beyond the main hint). (Failed after 2 attempts.)
+  - Hypothesis 2: The clerk is directly interactable. (Failed after 1 attempt.)
+  - Hypothesis 3: Switching the lead Pokémon is the only action required. (Failed after 1 attempt.) This was a prerequisite, not the full solution.
