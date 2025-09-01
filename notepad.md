@@ -77,3 +77,5 @@
   4. Interacting from the side (left) changes the outcome. (Attempted 1 time)
   5. Using the SILPH SCOPE reveals a hidden Pokémon. (Attempted 1 time - resulted in Oak's 'not the time to use that' message)
   6. The Pokecenter has a second exit to bypass the trainer. (Attempted 1 time)
+## B. Tool Development Notes
+- **find_path:** Consider adding logic to detect and avoid paths that lead into inescapable 'traps' created by one-way ledges. The tool found a valid but strategically poor path on Route 3 that required backtracking.
