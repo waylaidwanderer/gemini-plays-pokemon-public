@@ -12,6 +12,7 @@
 - **Confirmation Bias in Tool Debugging (Turns ~177769-177818):** `fly_menu_navigator` failures highlighted the need to actively disprove my own assumptions during debugging.
 - **Self-Assessment (Turn 181193):** `find_path` tool is unreliable in Cerulean Cave. Manual exploration is necessary when automation fails. Tile mechanic documentation needs to be more formal.
 - **Overwatch Critique (Turn 181252):** Multi-turn failures to update notes are a critical procedural error. I must break down large `overwrite` or `replace` actions into smaller, targeted chunks to avoid character limit errors and ensure immediate documentation.
+- **Overwatch Critique (Turn 181551):** Deferring tool maintenance is a critical failure and a violation of my core directives. Tool maintenance is not a future task; it must be performed in the same turn the need is identified. The `find_path` tool's lack of diagnostic feedback led to incorrect conclusions about being in a dead end.
 
 # III. World & Game Mechanics
 ## A. Tile Traversal Rules (Verified)
@@ -48,7 +49,7 @@
 - **Shopping Automation:** An agent that takes the output of `item_restock_agent` (the shopping list) and generates a sequence of button presses for a tool like `execute_button_sequence` to fully automate buying items.
 - **Pokémon Switching Automation:** An agent or tool to automate the multi-step process of switching Pokémon in battle.
 - **Systematic Tile Tester:** An agent or process to systematically test the properties of all encountered tile types and document the results.
-- **`find_path` Refinement:** Investigate and fix the tool's pathing logic, specifically its handling of `steps`, `elevated_ground`, and complex multi-level maps like Cerulean Cave. This is a top priority after escaping.
 
 ## B. Completed Tasks
 - **`navigation_troubleshooter` Refinement:** Added `party_health_summary` as an input to allow it to prioritize escape/healing when the party is weak. (Turn 181507)
+- **`find_path` Refinement:** The tool MUST be fixed immediately when a flaw is found. Refined the tool to provide detailed diagnostic output on failure, specifying the types and counts of blocking obstacles.
