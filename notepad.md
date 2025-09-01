@@ -63,9 +63,3 @@
 - **Shopping Automation:** An agent that takes the output of `item_restock_agent` (the shopping list) and generates a sequence of button presses for a tool like `execute_button_sequence` to fully automate buying items.
 - **Pokémon Switching Automation:** An agent or tool to automate the multi-step process of switching Pokémon in battle.
 - **Systematic Tile Tester:** An agent or process to systematically test the properties of all encountered tile types and document the results.
-
-# VI. Escape Artist Agent (Self-Assessment Idea)
-- An agent to manage the loop of running from wild battles and re-pathfinding to safely escape dangerous areas with a critically injured team. This is a top priority after escaping.
-
-# VI. Escape Artist Agent (Self-Assessment Idea)
-- An agent to manage the loop of running from wild battles and re-pathfinding to safely escape dangerous areas with a critically injured team. This is a top priority after escaping.
