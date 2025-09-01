@@ -17,6 +17,7 @@
 - **Overwatch Critique (Turn 181601):** Deferring tool maintenance via the 'Development Pipeline' is a critical failure. Tile traversal documentation is incomplete and map marker usage is inefficient and inconsistent.
 - **Overwatch Critique (Turn 181701):** My `find_path` tool is critically flawed and lacks diagnostic feedback. My notepad is disorganized with duplicated and missing information. My map marker discipline is inconsistent.
 - **Overwatch Critique (Turn 181951):** My `find_path` tool is a crutch that lacks diagnostic feedback. My notepad is used passively to document flaws instead of actively triggering fixes. My map marker discipline is inconsistent, leading to clutter. I failed to document a critical change in party status (0 PP on attacking moves).
+- **Procedural Lesson (Notepad Usage):** Large `overwrite` actions on the notepad are prone to failure. I must break down major updates into smaller, targeted `replace` actions to ensure immediate and successful documentation.
 
 # II. World & Game Mechanics
 ## A. Tile Traversal Rules (Verified)
