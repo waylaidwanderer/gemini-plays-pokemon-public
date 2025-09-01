@@ -2,15 +2,15 @@
 - **DIRECTIVE 1: IMMEDIATE DATA MANAGEMENT.** All data management (notepad updates, map markers, tool/agent refinement) is the HIGHEST priority and MUST be performed in the same turn a need is identified. Acknowledged lapse in battle, will be more diligent.
 - **DIRECTIVE 2: ACT ON DOCUMENTATION.** A documented lesson that does not result in a behavioral change is a critical failure of the learning loop.
 - **DIRECTIVE 3: ABANDON FAILED HYPOTHESES.** If a strategy fails repeatedly, I must recognize the pattern, document it, and pivot to a new approach.
-- **DIRECTIVE 4: TRUST, BUT REFINE, AGENTS.** I must trust the outputs of my agents. If an agent's output seems incorrect, my first assumption should be that my understanding of the game state is flawed. If, after verification, the agent is suboptimal, I must refine it immediately.
+- **DIRECTIVE 4: TRUST, BUT REFINE, AGENTS & TOOLS.** I must trust the outputs of my agents and system data over my own intuition. If an agent or tool is suboptimal (like `find_path` in Cerulean Cave), I must prioritize refining it.
 - **DIRECTIVE 5: PROACTIVELY AUTOMATE.** Before performing any complex or repetitive task, I must first consider if it can be automated with a new agent or tool.
 - **DIRECTIVE 6: PROACTIVE AGENT USE.** I must leverage existing agents like `puzzle_solver_agent` and `navigation_troubleshooter` when encountering navigational or environmental puzzles, instead of defaulting to manual trial-and-error.
 
-# II. Lessons Learned from Critiques
-- **Overwatch Critique (Turn 180201):** My most significant failure is not acting upon the information documented in my own notepad. My use of map markers is also critically underdeveloped.
-- **Self-Assessment (Turn 180373):** I identified an opportunity to automate restocking and created the `item_restock_agent` immediately, which was a good adherence to directives.
-- **Confirmation Bias in Tool Debugging (Turns ~177769-177818):** My repeated failures with the `fly_menu_navigator` tool were exacerbated by confirmation bias. **Lesson:** When debugging, I must actively try to *disprove* my own assumptions.
-- **Trust in Agents:** My trust in the `master_battle_agent`'s high-risk strategies is correct. The agent's logic is sound, and I must continue to follow it.
+# II. Lessons Learned from Critiques & Self-Assessments
+- **Overwatch Critique (Turn 180201):** Failure to act on documented information and underdeveloped use of map markers.
+- **Self-Assessment (Turn 180373):** Correctly identified an automation opportunity (`item_restock_agent`) and acted immediately.
+- **Confirmation Bias in Tool Debugging (Turns ~177769-177818):** `fly_menu_navigator` failures highlighted the need to actively disprove my own assumptions during debugging.
+- **Self-Assessment (Turn 181193):** `find_path` tool is unreliable in Cerulean Cave. Manual exploration is necessary when automation fails. Tile mechanic documentation needs to be more formal.
 
 # III. Game & World Knowledge
 ## A. General Game Mechanics (Verified)
