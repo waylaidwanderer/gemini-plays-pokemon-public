@@ -75,3 +75,4 @@
 
 # VIII. Untested Hypotheses
 - **2F - Clerk 1 (6,4):** Sells POKé BALL (¥200), GREAT BALL (¥600), POTION (¥200), SUPER POTION (¥500).
+- **2F - Clerk 2 (7,4):** Sells TM01 MEGPNCH (¥3000), TM02 RZRWIND (¥2000), TM05 MEGKICK (¥3000), TM09 TAKEDWN (¥3000).
