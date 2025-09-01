@@ -794,6 +794,16 @@
         "commit_message": "feat: Add detailed obstacle reporting on path failure. The tool now returns a list of specific blocking tiles (with coordinates, type, and reason) instead of a vague summary. This directly addresses a critical Overwatch critique and will enable better debugging of navigation puzzles.",
         "timestamp": "2025-09-01T14:43:57.951Z",
         "action_counter": 181964
+      },
+      {
+        "commit_message": "feat: Add NPC awareness to avoid pathing into obstacles. The tool was repeatedly generating invalid paths by failing to account for NPCs as impassable objects. This commit modifies the script to parse all non-Pikachu objects from the map XML and treat their tiles as blocked, preventing future navigation failures and addressing a critical Overwatch critique.",
+        "timestamp": "2025-09-01T16:22:09.287Z",
+        "action_counter": 182151
+      },
+      {
+        "commit_message": "feat: Add NPC awareness to avoid pathing into obstacles. The tool was repeatedly generating invalid paths by failing to account for NPCs as impassable objects. This commit modifies the script to parse all non-Pikachu objects from the map XML and treat their tiles as blocked, preventing future navigation failures and addressing a critical Overwatch critique.",
+        "timestamp": "2025-09-01T16:23:01.655Z",
+        "action_counter": 182152
       }
     ]
   },
