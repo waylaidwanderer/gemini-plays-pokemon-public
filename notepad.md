@@ -50,3 +50,4 @@
 # VI. Agent & Tool Ideas
 - **Shopping Automation:** An agent that takes the output of `item_restock_agent` (the shopping list) and generates a sequence of button presses for a tool like `execute_button_sequence` to fully automate buying items.
 - **Pokémon Switching Automation:** An agent or tool to automate the multi-step process of switching Pokémon in battle (e.g., takes a target Pokémon name and generates the button sequence for `execute_button_sequence`).
+- **Rock vs. Ground:** Rock is not very effective against Ground. (Verified against wild GOLEM in Cerulean Cave).
