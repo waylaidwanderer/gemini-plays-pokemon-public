@@ -78,3 +78,5 @@
   4. Interacting from the side changes the outcome. (1 attempt)
   5. Using SILPH SCOPE reveals a hidden Pokémon. (1 attempt)
   6. The Pokecenter has a second exit to bypass the trainer. (1 attempt)
+## D. Environmental Object Mechanics
+- **Cuttable Trees:** Confirmed that cuttable trees respawn after being cut. The exact trigger is unknown, but it may be related to changing maps or after a battle.
