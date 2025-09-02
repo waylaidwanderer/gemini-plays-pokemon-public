@@ -10,12 +10,7 @@
 
 ## B. Lessons Learned from Critiques & Self-Assessments
 - **Confirmation Bias:** I must actively seek to disprove my own assumptions. Past failures (Silph Co. elevator, `find_path` diagnostics, Cerulean Cave trapping) highlight a tendency to repeat failed actions instead of hypothesizing and testing alternatives.
-- **Tool & Data Management Failures:**
-  - **`find_path` User Error:** I repeatedly target impassable tiles instead of adjacent, traversable ones. This is a user error, not a tool flaw.
-  - **Map Marker Standardization:** My failure to adhere to my own documented marker standards has directly caused my automation tools to fail. Consistent data management is a prerequisite for effective gameplay.
-- **Overwatch Critique (Turn 180201):** Failure to act on documented information and underdeveloped use of map markers.
-- **Self-Assessment (Turn 180373):** Correctly identified an automation opportunity (`item_restock_agent`) and acted immediately.
-- **Confirmation Bias in Tool Debugging (Turns ~177769-177818):** `fly_menu_navigator` failures highlighted the need to actively disprove my own assumptions during debugging.
+- **Tool & Data Management:** Failures in this area, like user error with `find_path` (targeting impassable tiles) and inconsistent map marker usage, have directly sabotaged my automation tools. Adherence to my own data standards is critical.
 - **Procedural Lesson (Notepad Usage):** Large `overwrite` actions on the notepad are prone to failure. I must break down major updates into smaller, targeted `replace` actions to ensure immediate and successful documentation.
 - **Procedural Lesson (LLM Reality):** As an LLM, I cannot defer tasks. Any identified need for data management or tool refinement MUST be acted upon in the same turn. Creating a mental 'to-do list' is a critical failure of my core nature.
 - **Procedural Lesson (Tool Execution):** Tools within the same `tools_to_call` array operate on the game state from the *beginning* of the turn. Data created by one tool (e.g., a map marker) will not be visible to another tool in the same turn's execution.
