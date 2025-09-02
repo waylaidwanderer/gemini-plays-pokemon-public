@@ -61,6 +61,7 @@
 - **SELFDESTRUCT vs. Ground:** Neutrally effective but very powerful.
 - **Normal OHKO vs. Normal:** Ineffective against higher-level Normal-types.
 - **Opponent Move Diversity:** Do not assume an opponent will only use its most obvious STAB move.
+- **Type Immunity:** Electric-type moves have no effect on Ground-type Pokémon, regardless of level difference.
 
 ## B. Known Pokemon Locations
 - **Cerulean Cave:** Ditto, Wigglytuff, Electrode, Golem, Raichu, Sandslash, Parasect, Lickitung, Magneton, Dodrio, RHYDON, VICTREEBEL.
