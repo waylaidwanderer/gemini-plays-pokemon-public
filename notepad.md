@@ -83,4 +83,4 @@
 
 # VII. Agent & Tool Development
 - **`find_path` Tool Limitation:** The `find_path` tool is limited to single-map navigation and cannot plan routes that require using warps to connect otherwise disconnected areas on the same map. For complex, multi-map or multi-section dungeons, I must rely on manual exploration and my `navigation_troubleshooter` agent.
-- **Untested Agent (`path_trap_detector`):** I have an untested agent. I need to find an opportunity to use it to verify its functionality.
+- **Untested Agent (`path_trap_detector`):** I have an untested agent. I need to find an opportunity to use it to verify its functionality. **Action Item:** Find an area with ledges (e.g., Route 4) to test this agent as soon as is practical.
