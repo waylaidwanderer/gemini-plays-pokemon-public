@@ -82,4 +82,5 @@
 # VII. Puzzles & Obstacles - In Progress
 ## A. Silph Co. Elevator
 - **Hypotheses 1-3 (Failed):** Direct interaction with the panel (standing still, turning, moving off/on) has proven unreliable and is not the correct solution.
-- **Hypothesis 4 (From Agent):** The solution may involve using the CARD KEY item from the inventory while standing at (4, 2) and facing the panel. This is the next logical test.
+- **Hypothesis 4 (Failed):** Using the CARD KEY from the inventory while at (4, 2) failed. The game responded with "This isn't the time to use that!".
+- **Hypothesis 5 (New):** The solution involves interacting with my follower Pikachu. This mechanic has solved previous puzzles (Trashed House, Pewter Museum). I will test this by turning to face Pikachu at (4, 3) and pressing 'A'.
