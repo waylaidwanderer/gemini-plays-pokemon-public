@@ -914,7 +914,7 @@
         "move_index"
       ]
     },
-    "python_script": "import json\n\npokemon_slot = int(input_data['pokemon_slot'])\nmove_index = int(input_data['move_index'])\n\nbuttons = [\"Start\"]\nbuttons.extend([\"Up\"] * 5)\nbuttons.append(\"Down\")\nbuttons.append(\"A\")\n\nbuttons.extend([\"Up\"] * 6)\nif pokemon_slot > 1:\n    buttons.extend([\"Down\"] * (pokemon_slot - 1))\nbuttons.append(\"A\")\n\nbuttons.extend([\"Up\"] * 4)\nif move_index > 0:\n    buttons.extend([\"Down\"] * move_index)\nbuttons.append(\"A\")\n\nprint(json.dumps(buttons))",
+    "python_script": "import json\npokemon_slot = int(input_data['pokemon_slot'])\nmove_index = int(input_data['move_index'])\n\nbuttons = ['Start']\n\n# Reset cursor in main menu (7 items)\nfor _ in range(6):\n    buttons.append('Up')\n# Navigate to POKEMON\nbuttons.extend(['Down', 'A'])\n\n# Reset cursor in party menu (6 items)\nfor _ in range(5):\n    buttons.append('Up')\n# Navigate to pokemon slot\nfor _ in range(pokemon_slot - 1):\n    buttons.append('Down')\nbuttons.append('A')\n\n# Reset cursor in sub-menu (4 items)\nfor _ in range(3):\n    buttons.append('Up')\n# Navigate to move index\nfor _ in range(move_index):\n    buttons.append('Down')\nbuttons.append('A')\n\nprint(json.dumps(buttons))",
     "history": [
       {
         "commit_message": "feat: Create use_hm_from_party tool. This tool automates the multi-step menu navigation required to use an HM move from the party screen. It was created to reliably use Surf in Cerulean City, adhering to the core directive of proactive automation for repetitive tasks.",
@@ -985,6 +985,21 @@
         "commit_message": "feat: Implement robust cursor-resetting logic. The tool was fundamentally unreliable due to inconsistent starting cursor positions in the main, party, and sub-menus. The new script now presses 'Up' multiple times to guarantee the cursor is at the top of each menu before navigating, making selection deterministic regardless of the previous menu state. This addresses numerous critical failures.",
         "timestamp": "2025-09-02T20:55:15.405Z",
         "action_counter": 185190
+      },
+      {
+        "commit_message": "fix: Correct menu navigation logic based on direct manual observation. The previous cursor-resetting logic failed. This version uses the observed static starting positions (POKéDEX, party slot 5, first move) for reliable navigation. This addresses multiple critical failures and the Overwatch critique.",
+        "timestamp": "2025-09-02T21:03:08.585Z",
+        "action_counter": 185204
+      },
+      {
+        "commit_message": "feat: Re-implement robust cursor-resetting logic. All previous attempts to fix this tool failed due to incorrect assumptions about static cursor positions. This commit reintroduces the cursor-resetting strategy (spamming 'Up') for the main, party, and sub-menus to make navigation deterministic, regardless of the previous menu state. This addresses the cascade of critical failures and the Overwatch critique about flawed debugging.",
+        "timestamp": "2025-09-02T21:06:51.662Z",
+        "action_counter": 185210
+      },
+      {
+        "commit_message": "fix: Correct off-by-one errors in cursor-resetting logic. The tool was failing because the loops for resetting the party and sub-menu cursors were iterating one too many times. The number of 'Up' presses has been adjusted to match the actual number of menu items (n-1 presses for n items), which should finally make the tool reliable.",
+        "timestamp": "2025-09-02T21:19:32.895Z",
+        "action_counter": 185231
       }
     ]
   },
