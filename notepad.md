@@ -96,3 +96,6 @@
 
 ## C. Agent & Tool Concepts
 - **`saffron_gym_maze_solver` (Concept):** An agent to solve the Saffron Gym teleporter maze by taking the map layout and warp connections as input to output the correct sequence.
+
+# VIII. Data Management To-Do
+- **Map Marker Correction:** On Mt Moon B1F (ID 60), remove the '🚫 Dead End' marker at (18, 12). It reflects a disproven hypothesis and is causing navigational confusion.
