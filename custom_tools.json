@@ -924,51 +924,6 @@
       }
     ]
   },
-  "hm_user": {
-    "description": "Automates the menu navigation required to use an HM move (like Surf, Cut, Fly) from the party screen. Outputs the necessary button presses.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "hm_move": {
-          "type": "string"
-        },
-        "pokemon_name": {
-          "type": "string"
-        },
-        "party_list_text": {
-          "type": "string"
-        }
-      },
-      "required": [
-        "hm_move",
-        "pokemon_name",
-        "party_list_text"
-      ]
-    },
-    "python_script": "import json\nimport re\n\nparty_list_text = input_data['party_list_text']\npokemon_name = input_data['pokemon_name'].upper()\nhm_move = input_data['hm_move'].upper()\n\nbuttons = []\nlines = [line.strip() for line in party_list_text.split('\\n') if line.strip()]\n\npokemon_entries = []\ncursor_index = -1\ntarget_index = -1\n\ni = 0\nfor line in lines:\n    match = re.match(r'^(→)?\\s*([A-Z]+)', line)\n    if match:\n        has_cursor = bool(match.group(1))\n        name = match.group(2)\n        \n        if name in [\"CHOOSE\", \"A\"]:\n            continue\n            \n        pokemon_entries.append(name)\n        \n        if has_cursor:\n            cursor_index = i\n        if name == pokemon_name:\n            target_index = i\n        i += 1\n\nif cursor_index != -1 and target_index != -1:\n    moves = target_index - cursor_index\n    if moves > 0:\n        buttons.extend(['Down'] * moves)\n    elif moves < 0:\n        buttons.extend(['Up'] * abs(moves))\n        \n    buttons.append('A')\n    buttons.append('A') # Assume HM is the first option\n\nprint(json.dumps(buttons))",
-    "history": [
-      {
-        "commit_message": "feat: Create hm_user tool to automate HM usage. This addresses a self-assessment finding that the repetitive menu navigation for HMs is a prime candidate for automation, improving gameplay efficiency.",
-        "timestamp": "2025-09-01T22:18:27.118Z",
-        "action_counter": 182734
-      },
-      {
-        "commit_message": "feat: Create hm_user tool to automate HM usage. This addresses a self-assessment finding that the repetitive menu navigation for HMs is a prime candidate for automation, improving gameplay efficiency.",
-        "timestamp": "2025-09-01T22:19:20.440Z",
-        "action_counter": 182735
-      },
-      {
-        "commit_message": "fix: Correct output format to valid JSON array. The tool was outputting a JSON object `{\"buttons\": [...]}` instead of a simple array `[...]`, causing the autopress to fail. This commit corrects the print statement to output the required format and adds more robust party list parsing.",
-        "timestamp": "2025-09-01T22:23:55.199Z",
-        "action_counter": 182742
-      },
-      {
-        "commit_message": "fix: Improve party list parsing and cursor calculation. The previous version was unreliable and failed to generate button presses correctly. This commit adds more robust regex-based parsing to accurately identify the current cursor position and the target Pokémon, calculates the necessary directional inputs, and automates the selection process. This directly addresses a critical Overwatch critique regarding faulty tool automation.",
-        "timestamp": "2025-09-01T22:56:25.232Z",
-        "action_counter": 182801
-      }
-    ]
-  },
   "pc_item_selector": {
     "description": "Navigates the PC item storage menu to select a target item, using the stored items list from the game state. Outputs the necessary button presses.",
     "input_schema": {
@@ -997,6 +952,48 @@
         "commit_message": "fix: Correct cursor navigation logic. The previous version failed to generate any button presses. This commit implements a robust loop to find the target item's index and correctly calculates the number of 'Down' presses required, ensuring the tool reliably navigates to the specified item.",
         "timestamp": "2025-09-02T00:32:47.234Z",
         "action_counter": 182977
+      }
+    ]
+  },
+  "silph_co_floor_explorer": {
+    "description": "Analyzes a floor of Silph Co. to determine the next logical exploration target. It considers undefeated trainers, unvisited warps, and unopened gates, providing a systematic plan to clear the floor.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "player_x": {
+          "type": "string"
+        },
+        "player_y": {
+          "type": "string"
+        },
+        "map_sprites_json": {
+          "type": "string"
+        },
+        "map_warps_json": {
+          "type": "string"
+        },
+        "map_xml_string": {
+          "type": "string"
+        },
+        "map_markers_json": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "player_x",
+        "player_y",
+        "map_sprites_json",
+        "map_warps_json",
+        "map_xml_string",
+        "map_markers_json"
+      ]
+    },
+    "python_script": "import json\nimport xml.etree.ElementTree as ET\nimport math\n\nplayer_x = int(input_data['player_x'])\nplayer_y = int(input_data['player_y'])\nmap_sprites = json.loads(input_data['map_sprites_json'])\nmap_warps = json.loads(input_data['map_warps_json'])\nmap_xml = input_data['map_xml_string']\nmap_markers = json.loads(input_data['map_markers_json']) if input_data.get('map_markers_json') else []\n\ndef get_distance(x1, y1, x2, y2):\n    return math.sqrt((x2 - x1)**2 + (y2 - y1)**2)\n\n# 1. Undefeated Trainers\ndefeated_trainers = set()\nfor marker in map_markers:\n    if marker['emoji'] == '☠️':\n        defeated_trainers.add((marker['x'], marker['y']))\n\nundefeated_trainers = []\nfor sprite in map_sprites:\n    if sprite['sprite_type'] in ['ROCKET', 'SCIENTIST']:\n        pos = (sprite['position']['x'], sprite['position']['y'])\n        if pos not in defeated_trainers:\n            undefeated_trainers.append(pos)\n\nif undefeated_trainers:\n    closest_trainer = min(undefeated_trainers, key=lambda pos: get_distance(player_x, player_y, pos[0], pos[1]))\n    result = {\"target_x\": closest_trainer[0], \"target_y\": closest_trainer[1], \"target_type\": \"TRAINER\", \"reasoning\": \"Prioritizing the closest undefeated trainer.\"}\n    print(json.dumps(result))\n    exit()\n\n# 2. Unopened Gates\nroot = ET.fromstring(map_xml)\nunopened_gates = []\nfor row in root.findall('Row'):\n    for tile in row.findall('Tile'):\n        if tile.get('type') in ['closed_gate', 'gate_offscreen']:\n            unopened_gates.append((int(tile.get('id')), int(row.get('id'))))\n\nif unopened_gates:\n    closest_gate = min(unopened_gates, key=lambda pos: get_distance(player_x, player_y, pos[0], pos[1]))\n    result = {\"target_x\": closest_gate[0], \"target_y\": closest_gate[1], \"target_type\": \"GATE\", \"reasoning\": \"Prioritizing the closest unopened gate.\"}\n    print(json.dumps(result))\n    exit()\n\n# 3. Unvisited Warps\nused_warps = set()\nfor marker in map_markers:\n    if marker['emoji'] == '🚪':\n        used_warps.add((marker['x'], marker['y']))\n\nunvisited_warps = []\nfor warp in map_warps:\n    pos = (warp['x'], warp['y'])\n    if pos not in used_warps:\n        unvisited_warps.append(pos)\n\nif unvisited_warps:\n    closest_warp = min(unvisited_warps, key=lambda pos: get_distance(player_x, player_y, pos[0], pos[1]))\n    result = {\"target_x\": closest_warp[0], \"target_y\": closest_warp[1], \"target_type\": \"WARP\", \"reasoning\": \"Prioritizing the closest unvisited warp.\"}\n    print(json.dumps(result))\n    exit()\n\n# 4. Ascend\nstairs = None\nfor warp in map_warps:\n    # Heuristic: Find warp with highest x and lowest y, likely the main stairs to ascend\n    if stairs is None or (warp['x'] > stairs['x'] and warp['y'] < stairs['y']):\n      stairs = warp\n      if 'Stairs' in warp.get('name', ''): # A more robust check if name is available\n          stairs = warp\n          break\n\nif stairs:\n    result = {\"target_x\": stairs['x'], \"target_y\": stairs['y'], \"target_type\": \"STAIRS\", \"reasoning\": \"Floor clear. Proceeding to the next floor via the main stairs.\"}\n    print(json.dumps(result))\n    exit()\n\n# Fallback\nresult = {\"target_x\": player_x, \"target_y\": player_y, \"target_type\": \"STAIRS\", \"reasoning\": \"Floor clear, but no stairs found. Re-evaluating.\"}\nprint(json.dumps(result))\n",
+    "history": [
+      {
+        "commit_message": "feat: Create silph_co_floor_explorer tool. This tool was incorrectly defined as an agent, causing a system error. This commit corrects the implementation to a tool, which can properly parse raw map data to determine the next logical exploration target on a given floor in Silph Co. This addresses a critical self-assessment and system critique.",
+        "timestamp": "2025-09-02T01:10:49.651Z",
+        "action_counter": 183046
       }
     ]
   }
