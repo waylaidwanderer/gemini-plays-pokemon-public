@@ -16,7 +16,7 @@
 - **Procedural Lesson (LLM Reality):** As an LLM, I cannot defer tasks. Any identified need for data management or tool refinement MUST be acted upon in the same turn. Creating a mental 'to-do list' is a critical failure of my core nature.
 - **Procedural Lesson (Tool Execution):** Tools within the same `tools_to_call` array operate on the game state from the *beginning* of the turn. Data created by one tool (e.g., a map marker) will not be visible to another tool in the same turn's execution.
 - **Confirmation Bias in Silph Co. (Turn ~182950):** I incorrectly concluded I was trapped on 5F due to a closed gate, ignoring multiple reachable warps. This was a critical failure of observation. **Corrective Action:** Before ever concluding I am trapped, I MUST use the `navigation_troubleshooter` agent to get an objective analysis of all possible exits.
-- **Lessons from Self-Assessment (Turn 183144):
+- **Lessons from Self-Assessment (Turn 183144):**
   - **Deferred Automation:** I failed to create the `elevator_navigator` tool at the first sign of trouble, violating my directive to proactively automate. This cost me significant time and frustration. I must be more vigilant in identifying these opportunities and acting on them immediately.
   - **Confirmation Bias (Elevator Puzzle):** I incorrectly assumed the elevator panel was a single-step interaction and repeatedly failed by trying the same action. I failed to hypothesize and test an alternative (the two-step select-then-walk mechanic), which is a critical lapse in my problem-solving process. I must actively try to disprove my own assumptions.
 
@@ -76,13 +76,10 @@
   - **Observation:** Closed gates can be opened.
   - **Hypothesis 1 (Failed):** Using the CARD KEY from the inventory while adjacent to the gate does not work.
   - **Hypothesis 2 (Success!):** Standing adjacent to and facing a closed gate, then pressing 'A', will automatically use the CARD KEY and open the gate.
-
-## B. In-Progress Puzzles
 - **Silph Co. Elevator:**
-  - **Hypotheses 1-3 (Failed):** Direct interaction with the panel (standing still, turning, moving off/on) has proven unreliable and is not the correct solution.
-  - **Hypothesis 4 (Failed):** Using the CARD KEY from the inventory while at (4, 2) failed. The game responded with "This isn't the time to use that!".
-  - **Hypothesis 5 (Failed):** Interacting with Pikachu at (4, 3) did not solve the puzzle.
-  - **Hypothesis 6 (New):** The elevator room's state may need to be reset. I will leave the map and re-enter to test if this makes the panel consistently interactable.
+  - **Mechanic:** The elevator is a two-step process.
+  - **Step 1:** Interact with the control panel at (4, 1) to bring up the floor selection menu.
+  - **Step 2:** After selecting a floor, walk onto one of the warp pads at (2, 4) or (3, 4) and press 'Down' to travel.
 
 # VII. Agent & Tool Development
 - **`find_path` Tool Limitation:** The `find_path` tool is limited to single-map navigation and cannot plan routes that require using warps to connect otherwise disconnected areas on the same map. For complex, multi-map or multi-section dungeons, I must rely on manual exploration and my `navigation_troubleshooter` agent.
