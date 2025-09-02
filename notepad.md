@@ -109,3 +109,4 @@
 ## E. Future Development & Tasks
 - **`multi_map_dungeon_solver` (Agent Concept):** An agent to handle complex, multi-floor dungeons like Rock Tunnel or Cerulean Cave by planning routes across different map IDs.
 - **Task:** Place map marker for defeated Super Nerd at (4, 6) on Rock Tunnel B1F.
+- **Procedural Lesson (Dead End Definition):** I incorrectly identified an area with two reachable exits as a 'dead end'. A true dead end has only one or zero exits. An area with two or more exits is a pathway, not a dead end. This distinction is critical for accurate navigation and validation checks.
