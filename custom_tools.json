@@ -914,7 +914,7 @@
     ]
   },
   "silph_co_floor_explorer": {
-    "description": "Analyzes a floor of Silph Co. to determine the next logical exploration target. It considers undefeated trainers (ignoring marked non-battlers) and unvisited warps, providing a systematic plan to clear the floor.",
+    "description": "Analyzes a floor of Silph Co. to determine the next logical exploration target. It considers undefeated trainers and unvisited warps (based on game state data), providing a systematic plan to clear the floor.",
     "input_schema": {
       "type": "object",
       "properties": {
@@ -926,19 +926,15 @@
         },
         "map_sprites_json": {
           "type": "string"
-        },
-        "map_warps_json": {
-          "type": "string"
         }
       },
       "required": [
         "player_x",
         "player_y",
-        "map_sprites_json",
-        "map_warps_json"
+        "map_sprites_json"
       ]
     },
-    "python_script": "import json\nimport xml.etree.ElementTree as ET\nimport sys\n\ntry:\n    player_x = int(input_data['player_x'])\n    player_y = int(input_data['player_y'])\n    map_sprites = json.loads(input_data['map_sprites_json'])\n    map_warps = json.loads(input_data['map_warps_json'])\n\n    root = ET.fromstring(map_xml_string)\n    map_markers = []\n    for row_elem in root.findall('Row'):\n        for tile_elem in row_elem.findall('Tile'):\n            for marker_elem in tile_elem.findall('Marker'):\n                map_markers.append({\n                    'x': int(tile_elem.get('id')),\n                    'y': int(row_elem.get('id')),\n                    'emoji': marker_elem.get('emoji'),\n                    'label': marker_elem.text\n                })\n\n    defeated_or_friendly_coords = set()\n    for marker in map_markers:\n        if marker['emoji'] in ['☠️', '💬']:\n            defeated_or_friendly_coords.add((marker['x'], marker['y']))\n\n    valid_trainer_types = {'Silph Worker M', 'Silph Worker F', 'ROCKET', 'SCIENTIST', 'Rocker'}\n    undefeated_trainers = []\n    for sprite in map_sprites:\n        if sprite['sprite_type'] in valid_trainer_types:\n             if (sprite['position']['x'], sprite['position']['y']) not in defeated_or_friendly_coords:\n                if sprite['reachable']:\n                    undefeated_trainers.append(sprite['position'])\n\n    used_warps_coords = set()\n    used_warp_emojis = {'🚪', '↩️', '⬆️', '🌀', '➡️', '⬅️', '⬇️', '🛬', '🚠'}\n    for marker in map_markers:\n        if marker['emoji'] in used_warp_emojis:\n            used_warps_coords.add((marker['x'], marker['y']))\n\n    unvisited_warps = []\n    for warp in map_warps:\n        if (warp['x'], warp['y']) not in used_warps_coords:\n            if warp['reachable']:\n                unvisited_warps.append({'x': warp['x'], 'y': warp['y']})\n\n    targets = []\n    for t in undefeated_trainers:\n        targets.append({'type': 'trainer', 'pos': t})\n    for w in unvisited_warps:\n        targets.append({'type': 'warp', 'pos': w})\n\n    if not targets:\n        print(json.dumps({'suggestion': 'AREA_CLEAR', 'x': player_x, 'y': player_y, 'reason': 'No undefeated trainers or unvisited warps found.'}))\n        sys.exit()\n\n    start_pos = (player_x, player_y)\n    closest_target = None\n    min_dist = float('inf')\n\n    for target in targets:\n        target_pos = (target['pos']['x'], target['pos']['y'])\n        dist = abs(start_pos[0] - target_pos[0]) + abs(start_pos[1] - target_pos[1])\n        if dist < min_dist:\n            min_dist = dist\n            closest_target = target\n\n    print(json.dumps({\n        'suggestion': f\"EXPLORE_{closest_target['type'].upper()}\",\n        'x': closest_target['pos']['x'],\n        'y': closest_target['pos']['y'],\n        'reason': f\"Closest unexplored target is a {closest_target['type']} at ({closest_target['pos']['x']}, {closest_target['pos']['y']}).\"\n    }))\n\nexcept Exception as e:\n    print(json.dumps({'error': str(e)}))\n",
+    "python_script": "import json\nimport xml.etree.ElementTree as ET\nimport sys\n\ntry:\n    player_x = int(input_data['player_x'])\n    player_y = int(input_data['player_y'])\n    map_sprites = json.loads(input_data['map_sprites_json'])\n\n    root = ET.fromstring(map_xml_string)\n    map_markers = []\n    for row_elem in root.findall('Row'):\n        for tile_elem in row_elem.findall('Tile'):\n            for marker_elem in tile_elem.findall('Marker'):\n                map_markers.append({\n                    'x': int(tile_elem.get('id')),\n                    'y': int(row_elem.get('id')),\n                    'emoji': marker_elem.get('emoji'),\n                    'label': marker_elem.text\n                })\n\n    defeated_or_friendly_coords = set()\n    for marker in map_markers:\n        if marker['emoji'] in ['☠️', '💬']:\n            defeated_or_friendly_coords.add((marker['x'], marker['y']))\n\n    valid_trainer_types = {'Silph Worker M', 'Silph Worker F', 'ROCKET', 'SCIENTIST', 'Rocker'}\n    undefeated_trainers = []\n    for sprite in map_sprites:\n        if sprite['sprite_type'] in valid_trainer_types:\n             if (sprite['position']['x'], sprite['position']['y']) not in defeated_or_friendly_coords:\n                if sprite['reachable']:\n                    undefeated_trainers.append(sprite['position'])\n\n    unvisited_warps = []\n    unvisited_warps_elem = root.find('ReachableUnvisitedWarps')\n    if unvisited_warps_elem is not None:\n        for warp_elem in unvisited_warps_elem.findall('Warp'):\n            unvisited_warps.append({\n                'x': int(warp_elem.get('x')),\n                'y': int(warp_elem.get('y'))\n            })\n\n    targets = []\n    for t in undefeated_trainers:\n        targets.append({'type': 'trainer', 'pos': t})\n    for w in unvisited_warps:\n        targets.append({'type': 'warp', 'pos': w})\n\n    if not targets:\n        print(json.dumps({'suggestion': 'AREA_CLEAR', 'x': player_x, 'y': player_y, 'reason': 'No undefeated trainers or unvisited warps found.'}))\n        sys.exit()\n\n    start_pos = (player_x, player_y)\n    closest_target = None\n    min_dist = float('inf')\n\n    for target in targets:\n        target_pos = (target['pos']['x'], target['pos']['y'])\n        dist = abs(start_pos[0] - target_pos[0]) + abs(start_pos[1] - target_pos[1])\n        if dist < min_dist:\n            min_dist = dist\n            closest_target = target\n\n    print(json.dumps({\n        'suggestion': f\"EXPLORE_{closest_target['type'].upper()}\",\n        'x': closest_target['pos']['x'],\n        'y': closest_target['pos']['y'],\n        'reason': f\"Closest unexplored target is a {closest_target['type']} at ({closest_target['pos']['x']}, {closest_target['pos']['y']}).\"\n    }))\n\nexcept Exception as e:\n    print(json.dumps({'error': str(e)}))\n",
     "history": [
       {
         "commit_message": "feat: Create silph_co_floor_explorer tool. This tool was incorrectly defined as an agent, causing a system error. This commit corrects the implementation to a tool, which can properly parse raw map data to determine the next logical exploration target on a given floor in Silph Co. This addresses a critical self-assessment and system critique.",
@@ -974,6 +970,16 @@
         "commit_message": "feat: Add elevator emoji to used warp check. The tool was incorrectly flagging the elevator warp as unvisited because it didn't recognize the '🚠' emoji. This commit expands the list of recognized 'used warp' emojis, improving the accuracy of its exploration suggestions.",
         "timestamp": "2025-09-02T04:44:03.168Z",
         "action_counter": 183465
+      },
+      {
+        "commit_message": "fix: Refactor warp detection to use game state data. This addresses a critical Overwatch critique where the tool's reliance on fallible map markers caused it to miss an unvisited warp. The logic now checks the 'num_visits' property from the warp data, making it far more robust and accurate.",
+        "timestamp": "2025-09-02T08:33:17.205Z",
+        "action_counter": 183901
+      },
+      {
+        "commit_message": "fix: Refactor tool to use `ReachableUnvisitedWarps` from map XML. The previous version incorrectly relied on a `num_visits` field that was not present in the input data, causing it to hallucinate all warps as unvisited. This commit makes the tool parse the correct source of truth from the map memory, drastically improving its accuracy and reliability as per Overwatch critique.",
+        "timestamp": "2025-09-02T09:00:29.746Z",
+        "action_counter": 183949
       }
     ]
   },
