@@ -69,7 +69,3 @@
 - **gate_offscreen:** A gate whose state is unknown. Treated as potentially open for pathfinding.
 
 - **Confirmation Bias in Silph Co. (Turn ~182950):** I incorrectly concluded I was trapped on 5F due to a closed gate, ignoring multiple reachable warps. This was a critical failure of observation. **Corrective Action:** Before ever concluding I am trapped, I MUST use the `navigation_troubleshooter` agent to get an objective analysis of all possible exits.
-- **closed_gate:** An impassable gate that is currently visible on the screen. It may require a switch or key to open. For pathfinding purposes, any `closed_gate` that is *off-screen* is treated as potentially open to encourage exploration of alternate routes.
-- **open_gate:** A previously closed gate that is now open and acts as `ground`. It is currently visible on the screen.
-- **closed_gate:** An impassable gate that is currently visible on the screen. It may require a switch or key to open. For pathfinding purposes, any `closed_gate` that is *off-screen* is treated as potentially open to encourage exploration of alternate routes.
-- **open_gate:** A previously closed gate that is now open and acts as `ground`. It is currently visible on the screen.
