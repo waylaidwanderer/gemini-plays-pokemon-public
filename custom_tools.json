@@ -989,7 +989,7 @@
         "move_index"
       ]
     },
-    "python_script": "import json\n\nslot = int(input_data['pokemon_slot'])\nmove_idx = int(input_data['move_index'])\n\nbuttons = ['Start', 'Down', 'A']\n\n# Navigate to pokemon\nfor _ in range(slot - 1):\n    buttons.append('Down')\n\nbuttons.append('A')\n\n# Navigate to move\nfor _ in range(move_idx):\n    buttons.append('Down')\n\nbuttons.append('A')\n\nprint(json.dumps(buttons))",
+    "python_script": "import sys\nimport json\n\ntry:\n    pokemon_slot = int(input_data['pokemon_slot'])\n    move_index = int(input_data['move_index'])\n\n    if not (1 <= pokemon_slot <= 6):\n        print(json.dumps({\"error\": \"pokemon_slot must be between 1 and 6.\"}))\n        sys.exit()\n    if not (0 <= move_index <= 3):\n        print(json.dumps({\"error\": \"move_index must be between 0 and 3.\"}))\n        sys.exit()\n\n    button_presses = []\n    button_presses.append(\"Start\")\n    \n    # Reliably navigate to POKEMON menu by resetting cursor position\n    for _ in range(6):\n        button_presses.append(\"Up\")\n    button_presses.append(\"Down\") # Selects POKéMON\n    button_presses.append(\"A\")\n\n    # Select the Pokemon (cursor starts at bottom, slot 6)\n    for _ in range(6 - pokemon_slot):\n        button_presses.append(\"Up\")\n    button_presses.append(\"A\")\n\n    # Select the move (cursor starts at top, index 0)\n    for _ in range(move_index):\n        button_presses.append(\"Down\")\n    button_presses.append(\"A\")\n\n    print(json.dumps(button_presses))\n\nexcept Exception as e:\n    print(json.dumps({\"error\": f\"Script failed with exception: {e}\"}))",
     "history": [
       {
         "commit_message": "feat: Create use_hm_from_party tool. This tool automates the multi-step menu navigation required to use an HM move from the party screen. It was created to reliably use Surf in Cerulean City, adhering to the core directive of proactive automation for repetitive tasks.",
@@ -1000,6 +1000,16 @@
         "commit_message": "fix: Parameterize move selection with move_index. The previous version incorrectly assumed the first field move was always the target, causing failures when a Pokémon had multiple HMs. This commit replaces the hardcoded selection with a `move_index` parameter, allowing for precise selection of any of a Pokémon's four moves. This directly addresses a critical Overwatch critique and makes the tool more robust and reliable.",
         "timestamp": "2025-09-02T13:43:19.791Z",
         "action_counter": 184451
+      },
+      {
+        "commit_message": "fix: Correct menu navigation logic. The previous version failed to account for the initial cursor position on 'POKéDEX', causing it to select the wrong menu item. This commit adds an explicit 'Down' press to correctly select 'POKéMON' before proceeding to the party list, and corrects the loop for selecting the pokemon slot. This directly addresses the critical failure during the Fly attempt from Cerulean City.",
+        "timestamp": "2025-09-02T15:18:11.899Z",
+        "action_counter": 184633
+      },
+      {
+        "commit_message": "fix: Implement robust menu navigation. The previous version failed due to inconsistent cursor positions in the main menu and assuming the party menu cursor started at the top. This commit adds logic to reliably select 'POKéMON' from the main menu and correctly navigates the party menu from its starting bottom position. This addresses multiple critical failures.",
+        "timestamp": "2025-09-02T15:27:15.989Z",
+        "action_counter": 184649
       }
     ]
   }
