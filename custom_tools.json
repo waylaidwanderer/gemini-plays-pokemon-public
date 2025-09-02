@@ -966,5 +966,36 @@
         "action_counter": 184325
       }
     ]
+  },
+  "use_hm_from_party": {
+    "description": "Opens the menu, navigates to a Pokémon at a specific party slot (1-6), and uses a move at a specific index (0-3). Outputs the button sequence.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "pokemon_slot": {
+          "type": "string"
+        },
+        "move_index": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "pokemon_slot",
+        "move_index"
+      ]
+    },
+    "python_script": "import json\n\nslot = int(input_data['pokemon_slot'])\nmove_idx = int(input_data['move_index'])\n\nbuttons = ['Start', 'Down', 'A']\n\n# Navigate to pokemon\nfor _ in range(slot - 1):\n    buttons.append('Down')\n\nbuttons.append('A')\n\n# Navigate to move\nfor _ in range(move_idx):\n    buttons.append('Down')\n\nbuttons.append('A')\n\nprint(json.dumps(buttons))",
+    "history": [
+      {
+        "commit_message": "feat: Create use_hm_from_party tool. This tool automates the multi-step menu navigation required to use an HM move from the party screen. It was created to reliably use Surf in Cerulean City, adhering to the core directive of proactive automation for repetitive tasks.",
+        "timestamp": "2025-09-02T13:33:24.708Z",
+        "action_counter": 184435
+      },
+      {
+        "commit_message": "fix: Parameterize move selection with move_index. The previous version incorrectly assumed the first field move was always the target, causing failures when a Pokémon had multiple HMs. This commit replaces the hardcoded selection with a `move_index` parameter, allowing for precise selection of any of a Pokémon's four moves. This directly addresses a critical Overwatch critique and makes the tool more robust and reliable.",
+        "timestamp": "2025-09-02T13:43:19.791Z",
+        "action_counter": 184451
+      }
+    ]
   }
 }
