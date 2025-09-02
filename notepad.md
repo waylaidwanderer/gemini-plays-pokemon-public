@@ -6,7 +6,7 @@
 - **DIRECTIVE 4: TRUST, BUT REFINE, AGENTS & TOOLS.** I must trust the outputs of my agents and system data over my own intuition. If an agent or tool is suboptimal, I must prioritize refining it.
 - **DIRECTIVE 5: PROACTIVELY AUTOMATE.** Before performing any complex or repetitive task, I must first consider if it can be automated with a new agent or tool.
 - **DIRECTIVE 6: PROACTIVE AGENT USE.** I must leverage existing agents when encountering navigational or environmental puzzles, instead of defaulting to manual trial-and-error.
-- **DIRECTIVE 7: ADHERE TO DATA STANDARDS.** My automation tools (like `silph_co_floor_explorer`) depend on consistent, standardized map markers. Failure to adhere to my own documented standards is a self-inflicted critical failure that wastes time and sabotages my own efforts.
+- **DIRECTIVE 7: ADHERE TO DATA STANDARDS.** My automation tools depend on consistent, standardized map markers. Failure to adhere to my own documented standards is a self-inflicted critical failure that wastes time and sabotages my own efforts.
 
 ## B. Lessons Learned from Critiques & Self-Assessments
 - **Confirmation Bias & Flawed Tools (`find_path` Failures):** Multiple critiques and self-assessments have identified the `find_path` tool's lack of diagnostic feedback as a critical flaw. This repeatedly led to incorrect conclusions about being trapped (e.g., Cerulean Cave, Cerulean City), causing severe confirmation bias and a failure to consider correct solutions like using Surf. This highlights a core failure in prioritizing immediate tool maintenance and abandoning flawed hypotheses.
@@ -87,9 +87,12 @@
   - **Step 2:** After selecting a floor, walk onto one of the warp pads at (2, 4) or (3, 4) and press 'Down' to travel.
 
 # VII. Agent & Tool Development
+## A. Tool Notes & Limitations
 - **`find_path` Tool Limitation:** The `find_path` tool is limited to single-map navigation and cannot plan routes that require using warps to connect otherwise disconnected areas on the same map. For complex, multi-map or multi-section dungeons, I must rely on manual exploration and my `navigation_troubleshooter` agent.
-- **Immediate Action Plan (`path_trap_detector`):** Per Overwatch critique, I have critically failed by deferring the testing of this agent. This is a violation of my core directives. All other objectives are now suspended. My immediate and sole priority is to travel to Route 4 (east of Mt. Moon) and conduct a thorough test of this agent's functionality.
-
-## B. Agent & Tool Concepts
-- **`saffron_gym_maze_solver` (Concept):** An agent to solve the Saffron Gym teleporter maze by taking the map layout and warp connections as input to output the correct sequence.
 - **Procedural Lesson (Tool Execution Order):** A tool that reads map data (like map markers) cannot see changes made by another tool (like `define_map_marker`) in the same `tools_to_call` array. Data management and data analysis must happen in separate, sequential turns.
+
+## B. Completed Development Tasks
+- **`path_trap_detector` Test (Completed):** Per Overwatch critique, testing this tool became the highest priority. After correcting several navigational hallucinations, I successfully reached Route 4 (west of Mt. Moon) and tested the tool on a valid ledge jump from (11, 11) to (11, 13). The tool correctly identified the ledge jump and accurately determined it was not a trap. The tool is now considered validated and functional.
+
+## C. Agent & Tool Concepts
+- **`saffron_gym_maze_solver` (Concept):** An agent to solve the Saffron Gym teleporter maze by taking the map layout and warp connections as input to output the correct sequence.

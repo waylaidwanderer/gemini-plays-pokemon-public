@@ -892,102 +892,6 @@
       }
     ]
   },
-  "move_selector": {
-    "description": "Navigates the move selection menu to a target move. Outputs the necessary directional button presses.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "target_move": {
-          "type": "string"
-        },
-        "screen_text": {
-          "type": "string"
-        }
-      },
-      "required": [
-        "target_move",
-        "screen_text"
-      ]
-    },
-    "python_script": "import re\nimport json\n\nmoves_text = input_data['screen_text']\ntarget_move = input_data['target_move'].upper()\n\nmoves_list = re.findall(r'→?([A-Z- ]+)', moves_text)\nmoves_list = [m.strip() for m in moves_list if m.strip() and m.strip() not in ['TYPE/', 'NORMAL', 'ROCK', 'GROUND'] and not re.match(r'\\d+/\\d+', m)]\n\nif not moves_list or len(moves_list) < 2:\n    print(json.dumps({'error': 'Could not parse moves from screen text.'}))\nelse:\n    current_move_match = re.search(r'→([A-Z- ]+)', moves_text)\n    if not current_move_match:\n        print(json.dumps({'error': 'Could not find current move cursor.'}))\n    else:\n        current_move = current_move_match.group(1).strip()\n        try:\n            current_idx = moves_list.index(current_move)\n            target_idx = moves_list.index(target_move)\n            \n            down_presses = (target_idx - current_idx + len(moves_list)) % len(moves_list)\n            up_presses = (current_idx - target_idx + len(moves_list)) % len(moves_list)\n            \n            if down_presses <= up_presses:\n                print(json.dumps(['Down'] * down_presses))\n            else:\n                print(json.dumps(['Up'] * up_presses))\n        except ValueError:\n            print(json.dumps({'error': f'Target move {target_move} not found in move list: {moves_list}'}))",
-    "history": [
-      {
-        "commit_message": "feat: Create move_selector tool. In response to a self-assessment identifying deferred tool creation as a critical failure, this tool automates navigation of the battle move selection menu. This will improve efficiency during frequent wild encounters.",
-        "timestamp": "2025-09-01T17:41:15.145Z",
-        "action_counter": 182272
-      }
-    ]
-  },
-  "silph_co_floor_explorer": {
-    "description": "Analyzes a floor of Silph Co. to determine the next logical exploration target. It considers undefeated trainers and unvisited warps (based on game state data), providing a systematic plan to clear the floor.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "player_x": {
-          "type": "string"
-        },
-        "player_y": {
-          "type": "string"
-        },
-        "map_sprites_json": {
-          "type": "string"
-        }
-      },
-      "required": [
-        "player_x",
-        "player_y",
-        "map_sprites_json"
-      ]
-    },
-    "python_script": "import json\nimport xml.etree.ElementTree as ET\nimport sys\n\ntry:\n    player_x = int(input_data['player_x'])\n    player_y = int(input_data['player_y'])\n    map_sprites = json.loads(input_data['map_sprites_json'])\n\n    root = ET.fromstring(map_xml_string)\n    map_markers = []\n    for row_elem in root.findall('Row'):\n        for tile_elem in row_elem.findall('Tile'):\n            for marker_elem in tile_elem.findall('Marker'):\n                map_markers.append({\n                    'x': int(tile_elem.get('id')),\n                    'y': int(row_elem.get('id')),\n                    'emoji': marker_elem.get('emoji'),\n                    'label': marker_elem.text\n                })\n\n    defeated_or_friendly_coords = set()\n    for marker in map_markers:\n        if marker['emoji'] in ['☠️', '💬']:\n            defeated_or_friendly_coords.add((marker['x'], marker['y']))\n\n    valid_trainer_types = {'Silph Worker M', 'Silph Worker F', 'ROCKET', 'SCIENTIST', 'Rocker'}\n    undefeated_trainers = []\n    for sprite in map_sprites:\n        if sprite['sprite_type'] in valid_trainer_types:\n             if (sprite['position']['x'], sprite['position']['y']) not in defeated_or_friendly_coords:\n                if sprite['reachable']:\n                    undefeated_trainers.append(sprite['position'])\n\n    unvisited_warps = []\n    unvisited_warps_elem = root.find('ReachableUnvisitedWarps')\n    if unvisited_warps_elem is not None:\n        for warp_elem in unvisited_warps_elem.findall('Warp'):\n            unvisited_warps.append({\n                'x': int(warp_elem.get('x')),\n                'y': int(warp_elem.get('y'))\n            })\n\n    targets = []\n    for t in undefeated_trainers:\n        targets.append({'type': 'trainer', 'pos': t})\n    for w in unvisited_warps:\n        targets.append({'type': 'warp', 'pos': w})\n\n    if not targets:\n        print(json.dumps({'suggestion': 'AREA_CLEAR', 'x': player_x, 'y': player_y, 'reason': 'No undefeated trainers or unvisited warps found.'}))\n        sys.exit()\n\n    start_pos = (player_x, player_y)\n    closest_target = None\n    min_dist = float('inf')\n\n    for target in targets:\n        target_pos = (target['pos']['x'], target['pos']['y'])\n        dist = abs(start_pos[0] - target_pos[0]) + abs(start_pos[1] - target_pos[1])\n        if dist < min_dist:\n            min_dist = dist\n            closest_target = target\n\n    print(json.dumps({\n        'suggestion': f\"EXPLORE_{closest_target['type'].upper()}\",\n        'x': closest_target['pos']['x'],\n        'y': closest_target['pos']['y'],\n        'reason': f\"Closest unexplored target is a {closest_target['type']} at ({closest_target['pos']['x']}, {closest_target['pos']['y']}).\"\n    }))\n\nexcept Exception as e:\n    print(json.dumps({'error': str(e)}))\n",
-    "history": [
-      {
-        "commit_message": "feat: Create silph_co_floor_explorer tool. This tool was incorrectly defined as an agent, causing a system error. This commit corrects the implementation to a tool, which can properly parse raw map data to determine the next logical exploration target on a given floor in Silph Co. This addresses a critical self-assessment and system critique.",
-        "timestamp": "2025-09-02T01:10:49.651Z",
-        "action_counter": 183046
-      },
-      {
-        "commit_message": "fix: Correct tool design to prevent system errors. The tool was previously defined to take raw map XML as an argument, which is a forbidden action. This commit removes `map_xml_string` from the `input_schema` and updates the script to correctly use the injected variable. This also simplifies the input by having the script parse markers directly from the XML, making the tool more robust and compliant with system rules.",
-        "timestamp": "2025-09-02T01:25:53.555Z",
-        "action_counter": 183056
-      },
-      {
-        "commit_message": "feat: Add logic to ignore non-battling NPCs. The tool will now check for a '💬' marker and exclude any sprites at those coordinates from its list of targets. This prevents the tool from repeatedly suggesting interaction with friendly NPCs.",
-        "timestamp": "2025-09-02T01:41:13.184Z",
-        "action_counter": 183093
-      },
-      {
-        "commit_message": "fix: Add sprite_type filter to prevent targeting inanimate objects. The tool was incorrectly identifying clipboards as trainers because their internal names contained 'SILPHCO'. This commit adds a whitelist of valid trainer sprite types, ensuring the tool only targets actual NPCs and improving the accuracy of its exploration suggestions.",
-        "timestamp": "2025-09-02T01:58:41.952Z",
-        "action_counter": 183128
-      },
-      {
-        "commit_message": "feat: Add more emojis to used warp check. The tool was only checking for '🚪' and incorrectly flagging already-used warps as unvisited. This commit adds '↩️', '⬆️', and '🌀' to the list of recognized emojis, improving the accuracy of its exploration suggestions.",
-        "timestamp": "2025-09-02T02:48:08.193Z",
-        "action_counter": 183227
-      },
-      {
-        "commit_message": "feat: Add more emojis to used warp check. The tool was incorrectly flagging already-used teleporters as unvisited because it didn't recognize directional arrow emojis. This commit expands the list of recognized 'used warp' emojis to include '➡️', '⬅️', '⬇️', and '🛬', improving the accuracy of its exploration suggestions.",
-        "timestamp": "2025-09-02T03:52:25.139Z",
-        "action_counter": 183360
-      },
-      {
-        "commit_message": "feat: Add elevator emoji to used warp check. The tool was incorrectly flagging the elevator warp as unvisited because it didn't recognize the '🚠' emoji. This commit expands the list of recognized 'used warp' emojis, improving the accuracy of its exploration suggestions.",
-        "timestamp": "2025-09-02T04:44:03.168Z",
-        "action_counter": 183465
-      },
-      {
-        "commit_message": "fix: Refactor warp detection to use game state data. This addresses a critical Overwatch critique where the tool's reliance on fallible map markers caused it to miss an unvisited warp. The logic now checks the 'num_visits' property from the warp data, making it far more robust and accurate.",
-        "timestamp": "2025-09-02T08:33:17.205Z",
-        "action_counter": 183901
-      },
-      {
-        "commit_message": "fix: Refactor tool to use `ReachableUnvisitedWarps` from map XML. The previous version incorrectly relied on a `num_visits` field that was not present in the input data, causing it to hallucinate all warps as unvisited. This commit makes the tool parse the correct source of truth from the map memory, drastically improving its accuracy and reliability as per Overwatch critique.",
-        "timestamp": "2025-09-02T09:00:29.746Z",
-        "action_counter": 183949
-      }
-    ]
-  },
   "elevator_navigator": {
     "description": "Navigates the Silph Co. elevator menu to a specific floor. Assumes the menu starts with the cursor on 1F.",
     "input_schema": {
@@ -1038,6 +942,28 @@
         "commit_message": "feat: Create item_menu_navigator tool. This tool automates the process of opening the menu, navigating to a specific item, and using it. This was created to efficiently test a hypothesis from the puzzle_solver_agent and to proactively automate a recurring, multi-step task, adhering to core directives.",
         "timestamp": "2025-09-02T07:58:01.562Z",
         "action_counter": 183864
+      }
+    ]
+  },
+  "path_trap_detector": {
+    "description": "Analyzes a path from the find_path tool to detect potential 'ledge traps' where a one-way jump leads to an inescapable area. Returns a warning if a trap is detected.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "path_json": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "path_json"
+      ]
+    },
+    "python_script": "import json\nimport collections\nimport xml.etree.ElementTree as ET\n\npath_json = input_data['path_json']\npath = json.loads(path_json)\nroot = ET.fromstring(map_xml_string)\n\nmap_width = int(root.get('width'))\nmap_height = int(root.get('height'))\ntiles = {}\nfor row in root.findall('Row'):\n    y = int(row.get('id'))\n    for tile_elem in row.findall('Tile'):\n        x = int(tile_elem.get('id'))\n        tile_type = tile_elem.get('type')\n        tiles[(x, y)] = tile_type\n\ndef is_traversable(x, y):\n    if not (1 <= x <= map_width and 1 <= y <= map_height):\n        return False\n    tile_type = tiles.get((x, y))\n    return tile_type in ['ground', 'grass', 'steps', 'elevated_ground']\n\nis_trap = False\nreasoning = \"No ledge jump found in the path.\"\n\nfor i in range(len(path) - 1):\n    start_pos = path[i]\n    end_pos = path[i+1]\n    \n    # Check for a ledge jump: move down 2 tiles, with the middle tile being a ledge\n    if start_pos[0] == end_pos[0] and end_pos[1] - start_pos[1] == 2:\n        ledge_pos = (start_pos[0], start_pos[1] + 1)\n        if tiles.get(ledge_pos) == 'ledge':\n            # Ledge jump detected. Now, check if the start is reachable from the end.\n            queue = collections.deque([end_pos])\n            visited = {tuple(end_pos)}\n            found_start = False\n            while queue:\n                current_pos = queue.popleft()\n                if tuple(current_pos) == tuple(start_pos):\n                    found_start = True\n                    break\n                \n                for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n                    next_pos = (current_pos[0] + dx, current_pos[1] + dy)\n                    if tuple(next_pos) not in visited and is_traversable(next_pos[0], next_pos[1]):\n                        visited.add(tuple(next_pos))\n                        queue.append(list(next_pos))\n\n            if not found_start:\n                is_trap = True\n                reasoning = f\"Ledge jump from {start_pos} to {end_pos} is a trap. The starting point is not reachable from the landing spot.\"\n                break\n            else:\n                reasoning = f\"Ledge jump from {start_pos} to {end_pos} is safe. The starting point is reachable from the landing spot.\"\n                break\n\nresult = {'is_trap': is_trap, 'reasoning': reasoning}\nprint(json.dumps(result))",
+    "history": [
+      {
+        "commit_message": "feat: Create path_trap_detector tool. This tool was converted from a misconfigured agent to correctly perform computational analysis on map data. It detects if a path containing a ledge jump leads to an inescapable area, addressing a critical design flaw and fulfilling a long-deferred testing objective.",
+        "timestamp": "2025-09-02T12:24:42.395Z",
+        "action_counter": 184325
       }
     ]
   }
