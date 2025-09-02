@@ -78,3 +78,10 @@
 - **Deferred Automation:** I failed to create the `elevator_navigator` tool at the first sign of trouble, violating my directive to proactively automate. This cost me significant time and frustration. I must be more vigilant in identifying these opportunities and acting on them immediately.
 - **Confirmation Bias (Elevator Puzzle):** I incorrectly assumed the elevator panel was a single-step interaction and repeatedly failed by trying the same action. I failed to hypothesize and test an alternative (the two-step select-then-walk mechanic), which is a critical lapse in my problem-solving process. I must actively try to disprove my own assumptions.
 - **Untested Agent (`path_trap_detector`):** I have an untested agent. I need to find an opportunity to use it to verify its functionality.
+
+# VII. Puzzles & Obstacles - In Progress
+## A. Silph Co. Elevator
+- **Observation:** The elevator panel at (4, 1) on the Elevator map sometimes opens a menu when 'A' is pressed from (4, 2), and sometimes it does not.
+- **Hypothesis 1 (Failed):** Standing at (4, 2) and facing the panel at (4, 1) is the sole condition to open the menu with 'A'.
+  - **Test:** Succeeded on turns 183144 & 183203. Failed on turns 183217 & 183219.
+  - **Conclusion:** The hypothesis is incorrect. There is an unknown additional condition.
