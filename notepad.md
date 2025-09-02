@@ -107,6 +107,6 @@
 - **Procedural Lesson (Dead End Definition):** I incorrectly identified an area with two reachable exits as a 'dead end'. A true dead end has only one or zero exits. An area with two or more exits is a pathway, not a dead end. This distinction is critical for accurate navigation and validation checks.
 
 ## E. Future Development & Tasks
-- **Task:** Place map marker for defeated Super Nerd at (4, 6) on Rock Tunnel B1F.
+
 - **Procedural Lesson (Tool Debugging - `use_hm_from_party` failure):** My debugging process was a critical failure. I relied on repeated, untested assumptions about menu layouts instead of gathering observational data first. This led to over 15 wasted turns. **Corrective Action:** Before writing or fixing any tool that interacts with a menu, I MUST first manually navigate the menu to observe and document its exact structure and cursor behavior. Data gathering precedes code.
 - **Proactive Agent Use (Self-Assessment - Turn 184940):** I failed to use the `puzzle_solver_agent` to debug the complex, multi-turn failure of the `use_hm_from_party` tool. I must be more proactive in using my cognitive agents for problem-solving, not just for environmental puzzles.

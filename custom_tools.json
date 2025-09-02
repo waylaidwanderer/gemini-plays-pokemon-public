@@ -897,32 +897,6 @@
       }
     ]
   },
-  "item_menu_navigator": {
-    "description": "Navigates the player's item menu to select and use a target item. Outputs the necessary button presses.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "target_item": {
-          "type": "string"
-        },
-        "inventory_list_json": {
-          "type": "string"
-        }
-      },
-      "required": [
-        "target_item",
-        "inventory_list_json"
-      ]
-    },
-    "python_script": "import json\nimport sys\n\ntry:\n    target_item = input_data['target_item']\n    inventory_list = json.loads(input_data['inventory_list_json'])\n    \n    if target_item not in inventory_list:\n        print(json.dumps({\"error\": f\"Item '{target_item}' not found in inventory.\"}))\n        sys.exit()\n\n    target_index = inventory_list.index(target_item)\n    \n    buttons = [\"Start\", \"Down\", \"Down\", \"A\"]\n    \n    num_items = len(inventory_list)\n    if target_index > num_items // 2:\n        presses = num_items - target_index\n        for _ in range(presses):\n            buttons.append(\"Up\")\n    else:\n        for _ in range(target_index):\n            buttons.append(\"Down\")\n\n    buttons.extend([\"A\", \"A\"])\n\n    print(json.dumps(buttons))\n\nexcept Exception as e:\n    print(json.dumps({\"error\": f\"Script failed: {str(e)}\"}))",
-    "history": [
-      {
-        "commit_message": "feat: Create item_menu_navigator tool. This tool automates the process of opening the menu, navigating to a specific item, and using it. This was created to efficiently test a hypothesis from the puzzle_solver_agent and to proactively automate a recurring, multi-step task, adhering to core directives.",
-        "timestamp": "2025-09-02T07:58:01.562Z",
-        "action_counter": 183864
-      }
-    ]
-  },
   "path_trap_detector": {
     "description": "Analyzes a path from the find_path tool to detect potential 'ledge traps' where a one-way jump leads to an inescapable area. Returns a warning if a trap is detected.",
     "input_schema": {
