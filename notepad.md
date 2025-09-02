@@ -83,4 +83,5 @@
 ## A. Silph Co. Elevator
 - **Hypotheses 1-3 (Failed):** Direct interaction with the panel (standing still, turning, moving off/on) has proven unreliable and is not the correct solution.
 - **Hypothesis 4 (Failed):** Using the CARD KEY from the inventory while at (4, 2) failed. The game responded with "This isn't the time to use that!".
-- **Hypothesis 5 (New):** The solution involves interacting with my follower Pikachu. This mechanic has solved previous puzzles (Trashed House, Pewter Museum). I will test this by turning to face Pikachu at (4, 3) and pressing 'A'.
+- **Hypothesis 5 (Failed):** Interacting with Pikachu at (4, 3) did not solve the puzzle.
+- **Hypothesis 6 (New):** The elevator room's state may need to be reset. I will leave the map and re-enter to test if this makes the panel consistently interactable.
