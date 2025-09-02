@@ -105,3 +105,7 @@
 - **Proactive Maze Agents:** For complex mazes (e.g., teleporter puzzles, spinner mazes), I MUST prioritize creating a dedicated solver agent *before* attempting a manual solution. Manual attempts should only be for initial data gathering.
 - **Procedural Lesson (Tool Refinement):** I have now failed multiple times to adhere to my core directive of immediate tool maintenance. Deferring a tool fix (e.g., `use_hm_from_party` failures) is a critical lapse in procedural discipline. Any broken tool MUST be fixed in the same turn it is identified, without exception.
 - **Proactive Agent Use (Overwatch Critique - Turn 184701):** I failed to use the `navigation_troubleshooter` agent after a `Navigable Warps Mismatch` warning. I must trust and utilize my specialized agents more proactively, especially when encountering the exact problems those agents were built to solve.
+
+## E. Future Development & Tasks
+- **`multi_map_dungeon_solver` (Agent Concept):** An agent to handle complex, multi-floor dungeons like Rock Tunnel or Cerulean Cave by planning routes across different map IDs.
+- **Task:** Place map marker for defeated Super Nerd at (4, 6) on Rock Tunnel B1F.
