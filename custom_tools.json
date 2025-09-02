@@ -897,33 +897,6 @@
       }
     ]
   },
-  "elevator_navigator": {
-    "description": "Navigates the Silph Co. elevator menu to a specific floor. Assumes the menu starts with the cursor on 1F.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "target_floor": {
-          "type": "string"
-        }
-      },
-      "required": [
-        "target_floor"
-      ]
-    },
-    "python_script": "import json\n\ntry:\n    target_floor_str = input_data['target_floor']\n    target_floor = int(target_floor_str.replace('F', ''))\n\n    if not (1 <= target_floor <= 11):\n        print(json.dumps([]))\n    else:\n        down_presses = target_floor - 1\n        buttons = []\n        if down_presses > 0:\n            buttons.extend(['Down'] * down_presses)\n        buttons.append('A')\n        print(json.dumps(buttons))\nexcept Exception as e:\n    print(json.dumps([]))",
-    "history": [
-      {
-        "commit_message": "feat: Create elevator_navigator tool. This automates the multi-button process of selecting a floor in the Silph Co. elevator, which has proven unreliable with manual, multi-turn inputs. This tool ensures the entire sequence is sent in a single turn, preventing system interruptions.",
-        "timestamp": "2025-09-02T01:44:06.615Z",
-        "action_counter": 183101
-      },
-      {
-        "commit_message": "fix: Correctly parse floor number by removing 'F'. The tool was crashing with a ValueError because it tried to convert a string like '8F' directly to an integer. This commit strips the 'F' before the conversion, allowing the tool to function as intended.",
-        "timestamp": "2025-09-02T02:37:38.144Z",
-        "action_counter": 183204
-      }
-    ]
-  },
   "item_menu_navigator": {
     "description": "Navigates the player's item menu to select and use a target item. Outputs the necessary button presses.",
     "input_schema": {
@@ -1010,6 +983,28 @@
         "commit_message": "fix: Implement robust menu navigation. The previous version failed due to inconsistent cursor positions in the main menu and assuming the party menu cursor started at the top. This commit adds logic to reliably select 'POKéMON' from the main menu and correctly navigates the party menu from its starting bottom position. This addresses multiple critical failures.",
         "timestamp": "2025-09-02T15:27:15.989Z",
         "action_counter": 184649
+      }
+    ]
+  },
+  "switch_pokemon_navigator": {
+    "description": "Navigates the party screen to switch to a specific Pokémon slot (1-6). Assumes the party screen is already open and the cursor is on slot 1.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "target_slot": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "target_slot"
+      ]
+    },
+    "python_script": "import json\n\ntarget_slot = int(input_data['target_slot'])\n\n# The cursor starts at slot 1.\n# Number of 'Down' presses needed is target_slot - 1.\nnum_down_presses = target_slot - 1\n\nbuttons = []\nif num_down_presses > 0:\n    buttons.extend(['Down'] * num_down_presses)\n\n# After navigating, press 'A' to select the Pokémon,\n# then another 'A' to confirm the 'SWITCH' option.\nbuttons.extend(['A', 'A'])\n\nprint(json.dumps(buttons))",
+    "history": [
+      {
+        "commit_message": "feat: Create switch_pokemon_navigator tool. This automates the multi-step, repetitive process of navigating the party menu to switch Pokémon during battle. This was created during a mandatory self-assessment to address a clear opportunity for proactive automation, fulfilling a core directive.",
+        "timestamp": "2025-09-02T16:47:51.678Z",
+        "action_counter": 184787
       }
     ]
   }

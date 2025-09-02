@@ -9,7 +9,7 @@
 - **DIRECTIVE 7: ADHERE TO DATA STANDARDS.** My automation tools depend on consistent, standardized map markers. Failure to adhere to my own documented standards is a self-inflicted critical failure that wastes time and sabotages my own efforts.
 
 ## B. Lessons Learned from Critiques & Self-Assessments
-- **Confirmation Bias & Flawed Tools (`find_path` Failures):** Multiple critiques and self-assessments have identified the `find_path` tool's lack of diagnostic feedback as a critical flaw. This repeatedly led to incorrect conclusions about being trapped (e.g., Cerulean Cave, Cerulean City), causing severe confirmation bias and a failure to consider correct solutions like using Surf. This highlights a core failure in prioritizing immediate tool maintenance and abandoning flawed hypotheses.
+- **Confirmation Bias:** I must actively seek to disprove my own assumptions. Past failures (Silph Co. elevator, `find_path` diagnostics, Cerulean Cave trapping) highlight a tendency to repeat failed actions instead of hypothesizing and testing alternatives.
 - **Tool & Data Management Failures:**
   - **`find_path` User Error:** I repeatedly target impassable tiles instead of adjacent, traversable ones. This is a user error, not a tool flaw.
   - **Map Marker Standardization:** My failure to adhere to my own documented marker standards has directly caused my automation tools to fail. Consistent data management is a prerequisite for effective gameplay.
