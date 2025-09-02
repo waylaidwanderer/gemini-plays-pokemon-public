@@ -103,3 +103,4 @@
 # VIII. Procedural Rules & Best Practices
 - **Pathfinding First:** Before assuming an HM or key item is needed to overcome a navigational obstacle, I MUST first use the `find_path` tool to confirm that the destination is truly unreachable.
 - **Proactive Maze Agents:** For complex mazes (e.g., teleporter puzzles, spinner mazes), I MUST prioritize creating a dedicated solver agent *before* attempting a manual solution. Manual attempts should only be for initial data gathering.
+- **Procedural Lesson (Tool Refinement):** I have now failed multiple times to adhere to my core directive of immediate tool maintenance. Deferring a tool fix (e.g., `use_hm_from_party` failures) is a critical lapse in procedural discipline. Any broken tool MUST be fixed in the same turn it is identified, without exception.
