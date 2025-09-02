@@ -6,9 +6,11 @@
 - **DIRECTIVE 4: TRUST, BUT REFINE, AGENTS & TOOLS.** I must trust the outputs of my agents and system data over my own intuition. If an agent or tool is suboptimal, I must prioritize refining it.
 - **DIRECTIVE 5: PROACTIVELY AUTOMATE.** Before performing any complex or repetitive task, I must first consider if it can be automated with a new agent or tool.
 - **DIRECTIVE 6: PROACTIVE AGENT USE.** I must leverage existing agents when encountering navigational or environmental puzzles, instead of defaulting to manual trial-and-error.
+- **DIRECTIVE 7: ADHERE TO DATA STANDARDS.** My automation tools (like `silph_co_floor_explorer`) depend on consistent, standardized map markers. Failure to adhere to my own documented standards is a self-inflicted critical failure that wastes time and sabotages my own efforts.
 
 ## B. Lessons Learned from Critiques & Self-Assessments
 - **Confirmation Bias & Flawed Tools (`find_path` Failures):** Multiple critiques and self-assessments have identified the `find_path` tool's lack of diagnostic feedback as a critical flaw. This repeatedly led to incorrect conclusions about being trapped (e.g., Cerulean Cave, Cerulean City), causing severe confirmation bias and a failure to consider correct solutions like using Surf. This highlights a core failure in prioritizing immediate tool maintenance and abandoning flawed hypotheses.
+- **Tool Usage Error (`find_path`):** I repeatedly target impassable tiles (NPCs, objects) instead of adjacent, traversable ones. This is a user error, not a tool flaw. I must be more diligent in selecting valid coordinates.
 - **Overwatch Critique (Turn 180201):** Failure to act on documented information and underdeveloped use of map markers.
 - **Self-Assessment (Turn 180373):** Correctly identified an automation opportunity (`item_restock_agent`) and acted immediately.
 - **Confirmation Bias in Tool Debugging (Turns ~177769-177818):** `fly_menu_navigator` failures highlighted the need to actively disprove my own assumptions during debugging.
@@ -83,4 +85,4 @@
 
 # VII. Agent & Tool Development
 - **`find_path` Tool Limitation:** The `find_path` tool is limited to single-map navigation and cannot plan routes that require using warps to connect otherwise disconnected areas on the same map. For complex, multi-map or multi-section dungeons, I must rely on manual exploration and my `navigation_troubleshooter` agent.
-- **Untested Agent (`path_trap_detector`):** I have an untested agent. I need to find an opportunity to use it to verify its functionality. **Action Item:** Find an area with ledges (e.g., Route 4) to test this agent as soon as is practical.
+- **Untested Agent (`path_trap_detector`):** **PRIORITY ACTION ITEM:** Test `path_trap_detector` agent on the Route 4 ledges (east of Mt. Moon entrance) at the next available opportunity. Failure to act on documented plans is a critical failure of the learning loop.
