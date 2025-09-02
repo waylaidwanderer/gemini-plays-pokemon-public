@@ -914,7 +914,7 @@
         "move_index"
       ]
     },
-    "python_script": "import json\n\npokemon_slot = int(input_data['pokemon_slot'])\nmove_index = int(input_data['move_index'])\n\nbuttons = [\"Start\", \"Down\", \"A\"]\n\nnum_up_presses = 6 - pokemon_slot\nif num_up_presses > 0:\n    buttons.extend([\"Up\"] * num_up_presses)\n\nbuttons.append(\"A\")\n\nif move_index > 0:\n    buttons.extend([\"Down\"] * move_index)\n\nbuttons.append(\"A\")\n\nprint(json.dumps(buttons))",
+    "python_script": "import json\n\npokemon_slot = int(input_data['pokemon_slot'])\nmove_index = int(input_data['move_index'])\n\n# Start -> POKéMON\nbuttons = [\"Start\", \"Down\", \"A\"]\n\n# Navigate from last slot (6) up to the target slot\nnum_up_presses = 6 - pokemon_slot\nif num_up_presses > 0:\n    buttons.extend([\"Up\"] * num_up_presses)\n\n# Select Pokémon -> Select Move\nbuttons.append(\"A\")\nif move_index > 0:\n    buttons.extend([\"Down\"] * move_index)\nbuttons.append(\"A\")\n\nprint(json.dumps(buttons))",
     "history": [
       {
         "commit_message": "feat: Create use_hm_from_party tool. This tool automates the multi-step menu navigation required to use an HM move from the party screen. It was created to reliably use Surf in Cerulean City, adhering to the core directive of proactive automation for repetitive tasks.",
@@ -970,6 +970,11 @@
         "commit_message": "fix: Correct menu navigation logic based on manual observation. The tool was failing due to incorrect assumptions about cursor starting positions. The new script correctly navigates from the known starting positions ('POKéDEX' in main menu, last Pokémon in party menu) and selects the correct move from the sub-menu. This addresses the critical failure pointed out by Overwatch.",
         "timestamp": "2025-09-02T20:09:52.433Z",
         "action_counter": 185101
+      },
+      {
+        "commit_message": "fix: Correct menu navigation logic based on manual observation. The tool was failing due to incorrect assumptions about cursor starting positions. The new script correctly navigates from the known starting positions ('POKéDEX' in main menu, last Pokémon in party menu) and selects the correct move from the sub-menu. This addresses the critical failure pointed out by Overwatch.",
+        "timestamp": "2025-09-02T20:11:05.864Z",
+        "action_counter": 185102
       }
     ]
   },
