@@ -914,7 +914,7 @@
         "move_index"
       ]
     },
-    "python_script": "import json\n\npokemon_slot = int(input_data['pokemon_slot'])\nmove_index = int(input_data['move_index'])\n\n# Start -> POKéMON\nbuttons = [\"Start\", \"Down\", \"A\"]\n\n# Navigate from last slot (6) up to the target slot\nnum_up_presses = 6 - pokemon_slot\nif num_up_presses > 0:\n    buttons.extend([\"Up\"] * num_up_presses)\n\n# Select Pokémon -> Select Move\nbuttons.append(\"A\")\nif move_index > 0:\n    buttons.extend([\"Down\"] * move_index)\nbuttons.append(\"A\")\n\nprint(json.dumps(buttons))",
+    "python_script": "import json\n\npokemon_slot = int(input_data['pokemon_slot'])\nmove_index = int(input_data['move_index'])\n\nbuttons = [\"Start\"]\nbuttons.extend([\"Up\"] * 5)\nbuttons.append(\"Down\")\nbuttons.append(\"A\")\n\nbuttons.extend([\"Up\"] * 6)\nif pokemon_slot > 1:\n    buttons.extend([\"Down\"] * (pokemon_slot - 1))\nbuttons.append(\"A\")\n\nbuttons.extend([\"Up\"] * 4)\nif move_index > 0:\n    buttons.extend([\"Down\"] * move_index)\nbuttons.append(\"A\")\n\nprint(json.dumps(buttons))",
     "history": [
       {
         "commit_message": "feat: Create use_hm_from_party tool. This tool automates the multi-step menu navigation required to use an HM move from the party screen. It was created to reliably use Surf in Cerulean City, adhering to the core directive of proactive automation for repetitive tasks.",
@@ -975,6 +975,16 @@
         "commit_message": "fix: Correct menu navigation logic based on manual observation. The tool was failing due to incorrect assumptions about cursor starting positions. The new script correctly navigates from the known starting positions ('POKéDEX' in main menu, last Pokémon in party menu) and selects the correct move from the sub-menu. This addresses the critical failure pointed out by Overwatch.",
         "timestamp": "2025-09-02T20:11:05.864Z",
         "action_counter": 185102
+      },
+      {
+        "commit_message": "fix: Correct menu navigation based on direct observation. The tool was failing due to incorrect assumptions about cursor starting positions in the main menu (starts on POKéDEX) and party menu (starts on slot 5), and the sub-menu layout (HM is first). The new script correctly navigates from these known starting points. This addresses the critical failure that caused over 15 wasted turns.",
+        "timestamp": "2025-09-02T20:36:35.645Z",
+        "action_counter": 185152
+      },
+      {
+        "commit_message": "feat: Implement robust cursor-resetting logic. The tool was fundamentally unreliable due to inconsistent starting cursor positions in the main, party, and sub-menus. The new script now presses 'Up' multiple times to guarantee the cursor is at the top of each menu before navigating, making selection deterministic regardless of the previous menu state. This addresses numerous critical failures.",
+        "timestamp": "2025-09-02T20:55:15.405Z",
+        "action_counter": 185190
       }
     ]
   },
