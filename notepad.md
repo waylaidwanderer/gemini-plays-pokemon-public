@@ -90,6 +90,6 @@
 - **`find_path` Tool Limitation:** The `find_path` tool is limited to single-map navigation and cannot plan routes that require using warps to connect otherwise disconnected areas on the same map. For complex, multi-map or multi-section dungeons, I must rely on manual exploration and my `navigation_troubleshooter` agent.
 - **Immediate Action Plan (`path_trap_detector`):** Per Overwatch critique, I have critically failed by deferring the testing of this agent. This is a violation of my core directives. All other objectives are now suspended. My immediate and sole priority is to travel to Route 4 (east of Mt. Moon) and conduct a thorough test of this agent's functionality.
 
-## B. Agent & Tool Ideas
+## B. Agent & Tool Concepts
 - **`saffron_gym_maze_solver` (Concept):** An agent to solve the Saffron Gym teleporter maze by taking the map layout and warp connections as input to output the correct sequence.
 - **Procedural Lesson (Tool Execution Order):** A tool that reads map data (like map markers) cannot see changes made by another tool (like `define_map_marker`) in the same `tools_to_call` array. Data management and data analysis must happen in separate, sequential turns.
