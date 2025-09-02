@@ -7,6 +7,7 @@
 - **DIRECTIVE 5: PROACTIVELY AUTOMATE.** Before performing any complex or repetitive task, I must first consider if it can be automated with a new agent or tool.
 - **DIRECTIVE 6: PROACTIVE AGENT USE.** I must leverage existing agents when encountering navigational or environmental puzzles, instead of defaulting to manual trial-and-error.
 - **DIRECTIVE 7: ADHERE TO DATA STANDARDS.** My automation tools (like `silph_co_floor_explorer`) depend on consistent, standardized map markers. Failure to adhere to my own documented standards is a self-inflicted critical failure that wastes time and sabotages my own efforts.
+- **DIRECTIVE 7: ADHERE TO DATA STANDARDS.** My automation tools (like `silph_co_floor_explorer`) depend on consistent, standardized map markers. Failure to adhere to my own documented standards is a self-inflicted critical failure that wastes time and sabotages my own efforts.
 
 ## B. Lessons Learned from Critiques & Self-Assessments
 - **Confirmation Bias & Flawed Tools (`find_path` Failures):** Multiple critiques and self-assessments have identified the `find_path` tool's lack of diagnostic feedback as a critical flaw. This repeatedly led to incorrect conclusions about being trapped (e.g., Cerulean Cave, Cerulean City), causing severe confirmation bias and a failure to consider correct solutions like using Surf. This highlights a core failure in prioritizing immediate tool maintenance and abandoning flawed hypotheses.
