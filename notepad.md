@@ -124,3 +124,6 @@
   5. `A` (Select Pokémon - cursor starts on first move)
   6. `Down` (x times to reach the correct HM)
   7. `A` (Use the HM)
+
+# IX. Tool Development Backlog
+- **`trivial_battle_automator` Refinement:** Per Overwatch critique, the tool needs to be made more robust to handle user input errors (e.g., passing a JSON array instead of an object). This must be addressed at the next opportunity.
