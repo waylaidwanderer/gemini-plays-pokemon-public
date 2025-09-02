@@ -897,6 +897,58 @@
       }
     ]
   },
+  "switch_pokemon_navigator": {
+    "description": "Navigates the party screen to switch to a specific Pokémon slot (1-6). Assumes the party screen is already open and the cursor is on slot 1.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "target_slot": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "target_slot"
+      ]
+    },
+    "python_script": "import json\n\ntarget_slot = int(input_data['target_slot'])\n\n# The cursor starts at slot 1.\n# Number of 'Down' presses needed is target_slot - 1.\nnum_down_presses = target_slot - 1\n\nbuttons = []\nif num_down_presses > 0:\n    buttons.extend(['Down'] * num_down_presses)\n\n# After navigating, press 'A' to select the Pokémon,\n# then another 'A' to confirm the 'SWITCH' option.\nbuttons.extend(['A', 'A'])\n\nprint(json.dumps(buttons))",
+    "history": [
+      {
+        "commit_message": "feat: Create switch_pokemon_navigator tool. This automates the multi-step, repetitive process of navigating the party menu to switch Pokémon during battle. This was created during a mandatory self-assessment to address a clear opportunity for proactive automation, fulfilling a core directive.",
+        "timestamp": "2025-09-02T16:47:51.678Z",
+        "action_counter": 184787
+      }
+    ]
+  },
+  "trivial_battle_automator": {
+    "description": "A tool to automate simple, repetitive wild battles. Checks for a significant level difference and if the opponent is wild. If so, it presses 'A' twice to select FIGHT and the first move.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "player_party_json": {
+          "type": "string"
+        },
+        "enemy_pokemon_json": {
+          "type": "string"
+        },
+        "active_pokemon_name": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "player_party_json",
+        "enemy_pokemon_json",
+        "active_pokemon_name"
+      ]
+    },
+    "python_script": "import json\nimport sys\n\ntry:\n    player_party = json.loads(input_data['player_party_json'])\n    enemy_pokemon = json.loads(input_data['enemy_pokemon_json'])\n    active_pokemon_name = input_data['active_pokemon_name']\n\n    player_active_pokemon = None\n    for p in player_party:\n        if p['species'] == active_pokemon_name:\n            player_active_pokemon = p\n            break\n            \n    if not player_active_pokemon:\n        print(json.dumps([]))\n        sys.exit()\n\n    player_level = player_active_pokemon['level']\n    enemy_level = enemy_pokemon['level']\n\n    if enemy_pokemon.get('trainer_name') is None and (player_level - enemy_level) >= 20:\n        print(json.dumps([\"A\", \"A\"]))\n    else:\n        print(json.dumps([]))\n\nexcept Exception as e:\n    print(json.dumps([]))",
+    "history": [
+      {
+        "commit_message": "feat: Create trivial_battle_automator tool. This tool addresses an Overwatch critique by proactively automating repetitive wild battles in the Power Plant, adhering to Directive 5. It checks for a significant level disparity against wild Pokémon and, if met, outputs the button presses to use the first move, streamlining exploration.",
+        "timestamp": "2025-09-02T19:41:45.046Z",
+        "action_counter": 185055
+      }
+    ]
+  },
   "use_hm_from_party": {
     "description": "Opens the menu, navigates to a Pokémon at a specific party slot (1-6), and uses a move at a specific index (0-3). Outputs the button sequence.",
     "input_schema": {
@@ -914,7 +966,7 @@
         "move_index"
       ]
     },
-    "python_script": "import json\npokemon_slot = int(input_data['pokemon_slot'])\nmove_index = int(input_data['move_index'])\n\nbuttons = ['Start']\n\n# Reset cursor in main menu (7 items)\nfor _ in range(6):\n    buttons.append('Up')\n# Navigate to POKEMON\nbuttons.extend(['Down', 'A'])\n\n# Reset cursor in party menu (6 items)\nfor _ in range(5):\n    buttons.append('Up')\n# Navigate to pokemon slot\nfor _ in range(pokemon_slot - 1):\n    buttons.append('Down')\nbuttons.append('A')\n\n# Reset cursor in sub-menu (4 items)\nfor _ in range(3):\n    buttons.append('Up')\n# Navigate to move index\nfor _ in range(move_index):\n    buttons.append('Down')\nbuttons.append('A')\n\nprint(json.dumps(buttons))",
+    "python_script": "import json\n\nbuttons = []\n\n# Open Main Menu\nbuttons.append(\"Start\")\n\n# Navigate to POKEMON (starts on POKéDEX)\nbuttons.append(\"Down\")\nbuttons.append(\"A\")\n\n# Navigate to target Pokemon slot (starts on slot 4)\nstart_slot = 4\ntarget_slot = int(input_data['pokemon_slot'])\n\nif target_slot > start_slot:\n    for _ in range(target_slot - start_slot):\n        buttons.append(\"Down\")\nelif target_slot < start_slot:\n    for _ in range(start_slot - target_slot):\n        buttons.append(\"Up\")\n\nbuttons.append(\"A\")\n\n# Navigate to target move (starts on index 0)\ntarget_move_index = int(input_data['move_index'])\n\nfor _ in range(target_move_index):\n    buttons.append(\"Down\")\n\nbuttons.append(\"A\")\n\nprint(json.dumps(buttons))",
     "history": [
       {
         "commit_message": "feat: Create use_hm_from_party tool. This tool automates the multi-step menu navigation required to use an HM move from the party screen. It was created to reliably use Surf in Cerulean City, adhering to the core directive of proactive automation for repetitive tasks.",
@@ -1000,58 +1052,11 @@
         "commit_message": "fix: Correct off-by-one errors in cursor-resetting logic. The tool was failing because the loops for resetting the party and sub-menu cursors were iterating one too many times. The number of 'Up' presses has been adjusted to match the actual number of menu items (n-1 presses for n items), which should finally make the tool reliable.",
         "timestamp": "2025-09-02T21:19:32.895Z",
         "action_counter": 185231
-      }
-    ]
-  },
-  "switch_pokemon_navigator": {
-    "description": "Navigates the party screen to switch to a specific Pokémon slot (1-6). Assumes the party screen is already open and the cursor is on slot 1.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "target_slot": {
-          "type": "string"
-        }
       },
-      "required": [
-        "target_slot"
-      ]
-    },
-    "python_script": "import json\n\ntarget_slot = int(input_data['target_slot'])\n\n# The cursor starts at slot 1.\n# Number of 'Down' presses needed is target_slot - 1.\nnum_down_presses = target_slot - 1\n\nbuttons = []\nif num_down_presses > 0:\n    buttons.extend(['Down'] * num_down_presses)\n\n# After navigating, press 'A' to select the Pokémon,\n# then another 'A' to confirm the 'SWITCH' option.\nbuttons.extend(['A', 'A'])\n\nprint(json.dumps(buttons))",
-    "history": [
       {
-        "commit_message": "feat: Create switch_pokemon_navigator tool. This automates the multi-step, repetitive process of navigating the party menu to switch Pokémon during battle. This was created during a mandatory self-assessment to address a clear opportunity for proactive automation, fulfilling a core directive.",
-        "timestamp": "2025-09-02T16:47:51.678Z",
-        "action_counter": 184787
-      }
-    ]
-  },
-  "trivial_battle_automator": {
-    "description": "A tool to automate simple, repetitive wild battles. Checks for a significant level difference and if the opponent is wild. If so, it presses 'A' twice to select FIGHT and the first move.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "player_party_json": {
-          "type": "string"
-        },
-        "enemy_pokemon_json": {
-          "type": "string"
-        },
-        "active_pokemon_name": {
-          "type": "string"
-        }
-      },
-      "required": [
-        "player_party_json",
-        "enemy_pokemon_json",
-        "active_pokemon_name"
-      ]
-    },
-    "python_script": "import json\nimport sys\n\ntry:\n    player_party = json.loads(input_data['player_party_json'])\n    enemy_pokemon = json.loads(input_data['enemy_pokemon_json'])\n    active_pokemon_name = input_data['active_pokemon_name']\n\n    player_active_pokemon = None\n    for p in player_party:\n        if p['species'] == active_pokemon_name:\n            player_active_pokemon = p\n            break\n            \n    if not player_active_pokemon:\n        print(json.dumps([]))\n        sys.exit()\n\n    player_level = player_active_pokemon['level']\n    enemy_level = enemy_pokemon['level']\n\n    if enemy_pokemon.get('trainer_name') is None and (player_level - enemy_level) >= 20:\n        print(json.dumps([\"A\", \"A\"]))\n    else:\n        print(json.dumps([]))\n\nexcept Exception as e:\n    print(json.dumps([]))",
-    "history": [
-      {
-        "commit_message": "feat: Create trivial_battle_automator tool. This tool addresses an Overwatch critique by proactively automating repetitive wild battles in the Power Plant, adhering to Directive 5. It checks for a significant level disparity against wild Pokémon and, if met, outputs the button presses to use the first move, streamlining exploration.",
-        "timestamp": "2025-09-02T19:41:45.046Z",
-        "action_counter": 185055
+        "commit_message": "fix: Overhaul logic based on direct manual observation of menu behavior. The previous versions failed due to incorrect assumptions about cursor starting positions. This commit rewrites the script to use the now-verified starting points: 'POKéDEX' in the main menu, slot 4 in the party menu, and the first move (index 0) in the sub-menu. This removes all guesswork and should make the tool's navigation completely deterministic and reliable, addressing numerous critical failures.",
+        "timestamp": "2025-09-02T21:50:58.992Z",
+        "action_counter": 185287
       }
     ]
   }
