@@ -127,3 +127,17 @@
 
 # IX. Tool Development Backlog
 - **`trivial_battle_automator` Refinement:** Per Overwatch critique, the tool needs to be made more robust to handle user input errors (e.g., passing a JSON array instead of an object). This must be addressed at the next opportunity.
+
+# IX. Tool Development Best Practices
+- **Menu Navigation Tools:** Before writing or fixing any tool that interacts with a menu, I MUST first manually navigate the menu step-by-step to observe and document its exact structure and cursor behavior (especially starting positions, which can be variable). Data gathering must always precede coding.
+
+## B. Lessons Learned from Critiques & Self-Assessments (Addendum)
+- **Catastrophic Tool Debugging Failure (use_hm_from_party):** For over 50 turns, I violated my core directives by repeatedly trying to fix a broken tool with untested assumptions about static menu cursors. This was a severe confirmation bias loop. The correct process, which I failed to follow, is to immediately stop, abandon the failed hypothesis, gather empirical data via manual testing, and then redefine the tool. This failure wasted significant time and highlights the criticality of a data-driven debugging process.
+
+## C. Verified Manual HM Usage Sequence
+- After a catastrophic, multi-turn failure, the following sequence was manually verified to use an HM from the party menu:
+  1. `Start` (Open Main Menu - cursor starts on 'POKéDEX')
+  2. `Down` (Navigate to 'POKéMON')
+  3. `A` (Select 'POKéMON' - cursor starts on a variable slot, in this case slot 4)
+  4. `A` (Select Pokémon - cursor starts on first move)
+  5. `A` (Use the HM)
