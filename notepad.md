@@ -9,15 +9,19 @@
 
 ## B. Lessons Learned from Critiques & Self-Assessments
 - **Confirmation Bias & Flawed Tools (`find_path` Failures):** Multiple critiques and self-assessments have identified the `find_path` tool's lack of diagnostic feedback as a critical flaw. This repeatedly led to incorrect conclusions about being trapped (e.g., Cerulean Cave, Cerulean City), causing severe confirmation bias and a failure to consider correct solutions like using Surf. This highlights a core failure in prioritizing immediate tool maintenance and abandoning flawed hypotheses.
-
 - **Overwatch Critique (Turn 180201):** Failure to act on documented information and underdeveloped use of map markers.
 - **Self-Assessment (Turn 180373):** Correctly identified an automation opportunity (`item_restock_agent`) and acted immediately.
 - **Confirmation Bias in Tool Debugging (Turns ~177769-177818):** `fly_menu_navigator` failures highlighted the need to actively disprove my own assumptions during debugging.
 - **Procedural Lesson (Notepad Usage):** Large `overwrite` actions on the notepad are prone to failure. I must break down major updates into smaller, targeted `replace` actions to ensure immediate and successful documentation.
 - **Procedural Lesson (LLM Reality):** As an LLM, I cannot defer tasks. Any identified need for data management or tool refinement MUST be acted upon in the same turn. Creating a mental 'to-do list' is a critical failure of my core nature.
+- **Procedural Lesson (Tool Execution):** Tools within the same `tools_to_call` array operate on the game state from the *beginning* of the turn. Data created by one tool (e.g., a map marker) will not be visible to another tool in the same turn's execution.
+- **Confirmation Bias in Silph Co. (Turn ~182950):** I incorrectly concluded I was trapped on 5F due to a closed gate, ignoring multiple reachable warps. This was a critical failure of observation. **Corrective Action:** Before ever concluding I am trapped, I MUST use the `navigation_troubleshooter` agent to get an objective analysis of all possible exits.
+- **Lessons from Self-Assessment (Turn 183144):
+  - **Deferred Automation:** I failed to create the `elevator_navigator` tool at the first sign of trouble, violating my directive to proactively automate. This cost me significant time and frustration. I must be more vigilant in identifying these opportunities and acting on them immediately.
+  - **Confirmation Bias (Elevator Puzzle):** I incorrectly assumed the elevator panel was a single-step interaction and repeatedly failed by trying the same action. I failed to hypothesize and test an alternative (the two-step select-then-walk mechanic), which is a critical lapse in my problem-solving process. I must actively try to disprove my own assumptions.
 
-# II. World & Game Mechanics
-## A. Tile Traversal Rules (Verified)
+# II. Game Mechanics & World Knowledge
+## A. Verified Tile Traversal Rules
 - **ground:** Standard walkable tile.
 - **grass:** Tall grass where wild Pokémon appear. Walkable.
 - **impassable:** Cannot be entered. Includes walls, rocks, etc.
@@ -27,6 +31,10 @@
 - **ladder_down / ladder_up:** Acts as a warp to another floor.
 - **elevated_ground:** Walkable ground at a different elevation. Cannot be accessed from `ground` directly.
 - **steps:** The only tile type that allows movement between `ground` and `elevated_ground`.
+- **teleport:** An instant warp tile within the same logical location.
+- **gate_offscreen:** A gate whose state is unknown. Treated as potentially open for pathfinding.
+- **closed_gate:** An impassable gate that is currently visible on the screen. It may require a switch or key to open. For pathfinding purposes, any `closed_gate` that is *off-screen* is treated as potentially open to encourage exploration of alternate routes.
+- **open_gate:** A previously closed gate that is now open and acts as `ground`. It is currently visible on the screen.
 
 ## B. Map Marker System
 - **Standardization:**
@@ -59,34 +67,23 @@
 - **2F:** Sells POKé BALLs, Potions, and TMs (MEGPNCH, RZRWIND, etc.).
 
 # V. Navigation Strategy
-## A. Tool Limitation (find_path)
-- The `find_path` tool is limited to single-map navigation and cannot plan routes that require using warps to connect otherwise disconnected areas on the same map. For complex, multi-map or multi-section dungeons, I must rely on manual exploration and my `navigation_troubleshooter` agent.
-
-## B. Cerulean City Navigation
+## A. Cerulean City Navigation
 - The city is divided by a river. The western section (where you arrive from Route 4) and the eastern section (where the path to Route 9 is) are separated. To cross between them, I must use Surf.
 
 # VI. Puzzles & Obstacles
-- **teleport:** An instant warp tile within the same logical location.
-- **gate_offscreen:** A gate whose state is unknown. Treated as potentially open for pathfinding.
+## A. Solved Puzzles
+- **Silph Co. Gate Mechanic:**
+  - **Observation:** Closed gates can be opened.
+  - **Hypothesis 1 (Failed):** Using the CARD KEY from the inventory while adjacent to the gate does not work.
+  - **Hypothesis 2 (Success!):** Standing adjacent to and facing a closed gate, then pressing 'A', will automatically use the CARD KEY and open the gate.
 
-- **Confirmation Bias in Silph Co. (Turn ~182950):** I incorrectly concluded I was trapped on 5F due to a closed gate, ignoring multiple reachable warps. This was a critical failure of observation. **Corrective Action:** Before ever concluding I am trapped, I MUST use the `navigation_troubleshooter` agent to get an objective analysis of all possible exits.
-- **closed_gate:** An impassable gate that is currently visible on the screen. It may require a switch or key to open. For pathfinding purposes, any `closed_gate` that is *off-screen* is treated as potentially open to encourage exploration of alternate routes.
-- **open_gate:** A previously closed gate that is now open and acts as `ground`. It is currently visible on the screen.
-- **Procedural Lesson (Tool Execution):** Tools within the same `tools_to_call` array operate on the game state from the *beginning* of the turn. Data created by one tool (e.g., a map marker) will not be visible to another tool in the same turn's execution.
+## B. In-Progress Puzzles
+- **Silph Co. Elevator:**
+  - **Hypotheses 1-3 (Failed):** Direct interaction with the panel (standing still, turning, moving off/on) has proven unreliable and is not the correct solution.
+  - **Hypothesis 4 (Failed):** Using the CARD KEY from the inventory while at (4, 2) failed. The game responded with "This isn't the time to use that!".
+  - **Hypothesis 5 (Failed):** Interacting with Pikachu at (4, 3) did not solve the puzzle.
+  - **Hypothesis 6 (New):** The elevator room's state may need to be reset. I will leave the map and re-enter to test if this makes the panel consistently interactable.
 
-## C. Lessons from Self-Assessment (Turn 183144)
-- **Deferred Automation:** I failed to create the `elevator_navigator` tool at the first sign of trouble, violating my directive to proactively automate. This cost me significant time and frustration. I must be more vigilant in identifying these opportunities and acting on them immediately.
-- **Confirmation Bias (Elevator Puzzle):** I incorrectly assumed the elevator panel was a single-step interaction and repeatedly failed by trying the same action. I failed to hypothesize and test an alternative (the two-step select-then-walk mechanic), which is a critical lapse in my problem-solving process. I must actively try to disprove my own assumptions.
+# VII. Agent & Tool Development
+- **`find_path` Tool Limitation:** The `find_path` tool is limited to single-map navigation and cannot plan routes that require using warps to connect otherwise disconnected areas on the same map. For complex, multi-map or multi-section dungeons, I must rely on manual exploration and my `navigation_troubleshooter` agent.
 - **Untested Agent (`path_trap_detector`):** I have an untested agent. I need to find an opportunity to use it to verify its functionality.
-
-# VII. Puzzles & Obstacles - In Progress
-## A. Silph Co. Elevator
-- **Hypotheses 1-3 (Failed):** Direct interaction with the panel (standing still, turning, moving off/on) has proven unreliable and is not the correct solution.
-- **Hypothesis 4 (Failed):** Using the CARD KEY from the inventory while at (4, 2) failed. The game responded with "This isn't the time to use that!".
-- **Hypothesis 5 (Failed):** Interacting with Pikachu at (4, 3) did not solve the puzzle.
-- **Hypothesis 6 (New):** The elevator room's state may need to be reset. I will leave the map and re-enter to test if this makes the panel consistently interactable.
-
-## D. Silph Co. Gate Mechanic (Verified)
-- **Observation:** Closed gates can be opened.
-- **Hypothesis 1 (Failed):** Using the CARD KEY from the inventory while adjacent to the gate does not work.
-- **Hypothesis 2 (Success!):** Standing adjacent to and facing a closed gate, then pressing 'A', will automatically use the CARD KEY and open the gate.
