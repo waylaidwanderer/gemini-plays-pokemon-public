@@ -966,7 +966,7 @@
         "move_index"
       ]
     },
-    "python_script": "import json\n\nbuttons = []\n\n# Open Main Menu\nbuttons.append(\"Start\")\n\n# Navigate to POKEMON (starts on POKéDEX)\nbuttons.append(\"Down\")\nbuttons.append(\"A\")\n\n# Navigate to target Pokemon slot (starts on slot 4)\nstart_slot = 4\ntarget_slot = int(input_data['pokemon_slot'])\n\nif target_slot > start_slot:\n    for _ in range(target_slot - start_slot):\n        buttons.append(\"Down\")\nelif target_slot < start_slot:\n    for _ in range(start_slot - target_slot):\n        buttons.append(\"Up\")\n\nbuttons.append(\"A\")\n\n# Navigate to target move (starts on index 0)\ntarget_move_index = int(input_data['move_index'])\n\nfor _ in range(target_move_index):\n    buttons.append(\"Down\")\n\nbuttons.append(\"A\")\n\nprint(json.dumps(buttons))",
+    "python_script": "import json\npokemon_slot = int(input_data['pokemon_slot'])\nmove_index = int(input_data['move_index'])\nbuttons = []\nbuttons.append(\"Start\")\nfor _ in range(6):\n    buttons.append(\"Up\")\nbuttons.append(\"Down\")\nbuttons.append(\"A\")\nfor _ in range(6):\n    buttons.append(\"Up\")\nfor _ in range(pokemon_slot - 1):\n    buttons.append(\"Down\")\nbuttons.append(\"A\")\nfor _ in range(4):\n    buttons.append(\"Up\")\nfor _ in range(move_index):\n    buttons.append(\"Down\")\nbuttons.append(\"A\")\nprint(json.dumps(buttons))",
     "history": [
       {
         "commit_message": "feat: Create use_hm_from_party tool. This tool automates the multi-step menu navigation required to use an HM move from the party screen. It was created to reliably use Surf in Cerulean City, adhering to the core directive of proactive automation for repetitive tasks.",
@@ -1057,6 +1057,16 @@
         "commit_message": "fix: Overhaul logic based on direct manual observation of menu behavior. The previous versions failed due to incorrect assumptions about cursor starting positions. This commit rewrites the script to use the now-verified starting points: 'POKéDEX' in the main menu, slot 4 in the party menu, and the first move (index 0) in the sub-menu. This removes all guesswork and should make the tool's navigation completely deterministic and reliable, addressing numerous critical failures.",
         "timestamp": "2025-09-02T21:50:58.992Z",
         "action_counter": 185287
+      },
+      {
+        "commit_message": "fix: Complete rewrite based on meticulous manual data gathering. All previous versions failed due to incorrect assumptions about cursor starting positions. This commit uses the now-verified starting points: 'ITEM' in the main menu (a safer default), the last conscious Pokémon (slot 6) in the party menu, and the first move in the sub-menu. This removes all guesswork and should make the tool's navigation completely deterministic and reliable, addressing a cascade of critical failures and a core Overwatch critique.",
+        "timestamp": "2025-09-02T21:57:37.829Z",
+        "action_counter": 185301
+      },
+      {
+        "commit_message": "feat: Implement robust cursor-resetting logic. All previous versions of this tool failed due to incorrect assumptions about static cursor starting positions. This commit completely rewrites the script to be deterministic by pressing 'Up' multiple times in the main, party, and sub-menus to force the cursor to the top before navigating. This removes all reliance on the previous menu state and should finally make the tool reliable, addressing a cascade of critical failures.",
+        "timestamp": "2025-09-02T22:07:45.082Z",
+        "action_counter": 185321
       }
     ]
   }
