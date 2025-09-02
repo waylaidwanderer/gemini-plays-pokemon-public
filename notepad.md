@@ -85,3 +85,8 @@
 - **Hypothesis 4 (Failed):** Using the CARD KEY from the inventory while at (4, 2) failed. The game responded with "This isn't the time to use that!".
 - **Hypothesis 5 (Failed):** Interacting with Pikachu at (4, 3) did not solve the puzzle.
 - **Hypothesis 6 (New):** The elevator room's state may need to be reset. I will leave the map and re-enter to test if this makes the panel consistently interactable.
+
+## D. Silph Co. Gate Mechanic (Verified)
+- **Observation:** Closed gates can be opened.
+- **Hypothesis 1 (Failed):** Using the CARD KEY from the inventory while adjacent to the gate does not work.
+- **Hypothesis 2 (Success!):** Standing adjacent to and facing a closed gate, then pressing 'A', will automatically use the CARD KEY and open the gate.
