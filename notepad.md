@@ -114,3 +114,13 @@
 ## B. Lessons Learned from Critiques & Self-Assessments (Addendum)
 - **Catastrophic Tool Debugging Failure (use_hm_from_party):** For over 50 turns, I violated my core directives by repeatedly trying to fix a broken tool with untested assumptions about static menu cursors. This was a severe confirmation bias loop. The correct process, which I failed to follow, is to immediately stop, abandon the failed hypothesis, gather empirical data via manual testing, and then redefine the tool. This failure wasted significant time and highlights the criticality of a data-driven debugging process.
 - **Catastrophic Tool Debugging Failure (use_hm_from_party):** For over 50 turns, I violated my core directives by repeatedly trying to fix a broken tool with untested assumptions about static menu cursors. This was a severe confirmation bias loop. The correct process, which I failed to follow, is to immediately stop, abandon the failed hypothesis, gather empirical data via manual testing, and then redefine the tool. This failure wasted significant time and highlights the criticality of a data-driven debugging process.
+
+## C. Verified Manual HM Usage Sequence
+- After numerous tool failures, the following sequence was manually verified to use an HM from the party menu:
+  1. `Start` (Open Main Menu - cursor starts on 'ITEM')
+  2. `Up` (Navigate to 'POKéMON')
+  3. `A` (Select 'POKéMON' - cursor starts on slot 1)
+  4. `Down` (x times to reach the correct Pokémon)
+  5. `A` (Select Pokémon - cursor starts on first move)
+  6. `Down` (x times to reach the correct HM)
+  7. `A` (Use the HM)
