@@ -962,7 +962,7 @@
         "move_index"
       ]
     },
-    "python_script": "import json\n\nbuttons = []\npokemon_slot = int(input_data['pokemon_slot'])\nmove_index = int(input_data['move_index'])\n\n# Open the main menu\nbuttons.append(\"Start\")\n\n# Reset cursor to top ('POKéDEX')\nfor _ in range(6):\n    buttons.append(\"Up\")\n\n# Navigate to 'POKéMON'\nbuttons.append(\"Down\")\nbuttons.append(\"A\")\n\n# Reset party cursor to top (slot 1)\nfor _ in range(5):\n    buttons.append(\"Up\")\n\n# Navigate to the target Pokémon slot\nfor _ in range(pokemon_slot - 1):\n    buttons.append(\"Down\")\nbuttons.append(\"A\")\n\n# Navigate to the target move in the sub-menu\n# The cursor starts on the first move (index 0)\nfor _ in range(move_index):\n    buttons.append(\"Down\")\nbuttons.append(\"A\")\n\nprint(json.dumps(buttons))\n",
+    "python_script": "import json\n\ntry:\n    pokemon_slot = int(input_data['pokemon_slot'])\n    move_index = int(input_data['move_index'])\n    \n    buttons = ['Start']\n    # Navigate from POKEDEX (start) to POKEMON (1 down)\n    buttons.append('Down')\n    buttons.append('A')\n    \n    # Navigate from bottom of party (slot 6) to target slot\n    num_ups = 6 - pokemon_slot\n    buttons.extend(['Up'] * num_ups)\n    buttons.append('A')\n    \n    # Navigate from first move (start) to target move\n    buttons.extend(['Down'] * move_index)\n    buttons.append('A')\n    \n    print(json.dumps(buttons))\nexcept Exception as e:\n    print(json.dumps({'error': str(e)}))",
     "history": [
       {
         "commit_message": "feat: Create use_hm_from_party tool. This tool automates the multi-step menu navigation required to use an HM move from the party screen. It was created to reliably use Surf in Cerulean City, adhering to the core directive of proactive automation for repetitive tasks.",
@@ -1008,6 +1008,11 @@
         "commit_message": "fix: Complete rewrite of menu navigation logic. The tool was fundamentally broken due to incorrect assumptions about main menu, party menu, and sub-menu cursor behavior. The new script now robustly resets the cursor position to the top of each menu before navigating, and correctly selects moves from the sub-menu, which is now known to be ordered with moves first. This addresses the cascade of critical failures and the Overwatch critique about flawed debugging.",
         "timestamp": "2025-09-02T17:59:35.408Z",
         "action_counter": 184902
+      },
+      {
+        "commit_message": "fix: Correct menu navigation logic based on manual observation. The tool was failing due to incorrect assumptions about cursor starting positions. The new script correctly navigates from the known starting positions ('POKéDEX' in main menu, last Pokémon in party menu) and selects the correct move from the sub-menu. This addresses the critical failure pointed out by Overwatch.",
+        "timestamp": "2025-09-02T18:31:18.474Z",
+        "action_counter": 184951
       }
     ]
   },
