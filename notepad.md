@@ -81,7 +81,5 @@
 
 # VII. Puzzles & Obstacles - In Progress
 ## A. Silph Co. Elevator
-- **Observation:** The elevator panel at (4, 1) on the Elevator map sometimes opens a menu when 'A' is pressed from (4, 2), and sometimes it does not.
-- **Hypothesis 1 (Failed):** Standing at (4, 2) and facing the panel at (4, 1) is the sole condition to open the menu with 'A'.
-  - **Test:** Succeeded on turns 183144 & 183203. Failed on turns 183217 & 183219.
-  - **Conclusion:** The hypothesis is incorrect. There is an unknown additional condition.
+- **Hypotheses 1-3 (Failed):** Direct interaction with the panel (standing still, turning, moving off/on) has proven unreliable and is not the correct solution.
+- **Hypothesis 4 (From Agent):** The solution may involve using the CARD KEY item from the inventory while standing at (4, 2) and facing the panel. This is the next logical test.
