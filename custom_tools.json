@@ -962,7 +962,7 @@
         "move_index"
       ]
     },
-    "python_script": "import json\n\npokemon_slot = int(input_data['pokemon_slot'])\nmove_index = int(input_data['move_index'])\n\nbuttons = [\"Start\"]\n\n# Main Menu: The cursor starts on POKéDEX. We need to go down to POKéMON.\nbuttons.append(\"Down\")\nbuttons.append(\"A\")\n\n# Party Menu: The cursor starts on the LAST Pokémon in the party (slot 6).\n# We need to move UP to the target slot.\nnum_up_presses = 6 - pokemon_slot\nfor _ in range(num_up_presses):\n    buttons.append(\"Up\")\nbuttons.append(\"A\")\n\n# Move Menu: The cursor starts on the first move.\n# We need to move DOWN to the target move.\nfor _ in range(move_index):\n    buttons.append(\"Down\")\nbuttons.append(\"A\")\n\nprint(json.dumps(buttons))",
+    "python_script": "import json\nimport sys\n\ntry:\n    pokemon_slot = int(input_data['pokemon_slot'])\n    move_index = int(input_data['move_index'])\n\n    if not (1 <= pokemon_slot <= 6):\n        print(json.dumps({\"error\": \"pokemon_slot must be between 1 and 6.\"}))\n        sys.exit()\n\n    if not (0 <= move_index <= 3):\n        print(json.dumps({\"error\": \"move_index must be between 0 and 3.\"}))\n        sys.exit()\n\n    buttons = []\n    buttons.append(\"Start\")\n\n    # Main Menu: Reset cursor to top (POKéDEX) & navigate to POKéMON\n    buttons.extend([\"Up\"] * 6)\n    buttons.append(\"Down\")\n    buttons.append(\"A\")\n\n    # Party Menu: Reset cursor to top (Slot 1) & navigate to Pokémon\n    buttons.extend([\"Up\"] * 5)\n    if pokemon_slot > 1:\n        buttons.extend([\"Down\"] * (pokemon_slot - 1))\n    buttons.append(\"A\")\n\n    # Sub-Menu: Moves are at the top, navigate to the correct one\n    if move_index > 0:\n        buttons.extend([\"Down\"] * move_index)\n    buttons.append(\"A\")\n\n    print(json.dumps(buttons))\n\nexcept Exception as e:\n    print(json.dumps({\"error\": f\"An error occurred: {str(e)}\"}))",
     "history": [
       {
         "commit_message": "feat: Create use_hm_from_party tool. This tool automates the multi-step menu navigation required to use an HM move from the party screen. It was created to reliably use Surf in Cerulean City, adhering to the core directive of proactive automation for repetitive tasks.",
@@ -988,6 +988,21 @@
         "commit_message": "fix: Correct menu navigation logic. The tool was failing because it incorrectly assumed the main menu cursor started at the bottom and the party menu cursor at the top. The new script correctly navigates from the known starting positions ('POKéDEX' in main menu, last Pokémon in party menu), which will prevent it from selecting 'STATS' or other wrong options. This directly addresses the repeated critical failures when trying to use Cut.",
         "timestamp": "2025-09-02T17:12:14.432Z",
         "action_counter": 184823
+      },
+      {
+        "commit_message": "fix: Correct menu navigation for main and party screens. The tool was failing because it incorrectly assumed the main menu cursor started somewhere other than 'POKéDEX' and that the party menu cursor started at the top. The new script correctly navigates from the known starting positions ('POKéDEX' in main menu, last Pokémon in party menu), which will prevent it from selecting the wrong options. This directly addresses the repeated critical failures.",
+        "timestamp": "2025-09-02T17:43:28.141Z",
+        "action_counter": 184876
+      },
+      {
+        "commit_message": "feat: Implement robust menu navigation by resetting cursor position. The tool was failing due to inconsistent starting cursor positions in the main and party menus. The new script now presses 'Up' multiple times to guarantee the cursor is at the top of each menu before navigating, making the selection process reliable regardless of the previous menu state. This addresses the critical failure that led to unintentionally saving the game.",
+        "timestamp": "2025-09-02T17:44:46.250Z",
+        "action_counter": 184878
+      },
+      {
+        "commit_message": "fix: Correct sub-menu navigation logic. The previous script failed because it incorrectly assumed the order of options in the Pokémon sub-menu. The new logic correctly navigates the 'Moves -> STATS -> SWITCH' layout, ensuring the right HM is selected. This addresses the critical failure that led to selecting 'SWITCH' by mistake.",
+        "timestamp": "2025-09-02T17:51:40.696Z",
+        "action_counter": 184887
       }
     ]
   },

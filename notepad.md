@@ -46,6 +46,10 @@
 ## C. Verified NPC Interactions
 - **Magikarp Salesman:** Confirmed he is a one-time interaction and will not sell another Magikarp.
 
+## D. HM Usage Mechanic
+- **CRITICAL DISCOVERY:** HMs like Cut cannot be used from the main ITEM menu. Attempting to do so leads to a 'Teach HM?' loop. 
+- **CORRECT METHOD:** HMs must be used directly from the Pokémon party screen. Select the Pokémon that knows the move, and then select the HM from its move list to use it in the overworld.
+
 # III. Battle Knowledge
 ## A. Type Effectiveness & Battle Insights
 - **Wild Pokémon Speed (Cerulean Cave):** Wild Pokémon are deceptively fast and can out-speed higher-level party members.
@@ -68,6 +72,9 @@
 ## A. Cerulean City Navigation
 - The city is divided by a river. The western section (where you arrive from Route 4) and the eastern section (where the path to Route 9 is) are separated. To cross between them, I must use Surf.
 
+## B. Mt. Moon Navigation
+- **Two Entrances:** There are two entrances to Mt. Moon from Route 4. The western entrance at (19, 6) leads to an isolated, dead-end section. The eastern entrance at (25, 6) leads to the main cave system and the path forward to Cerulean City.
+
 # VI. Puzzles & Obstacles
 ## A. Solved Puzzles
 - **Silph Co. Gate Mechanic:**
@@ -89,25 +96,14 @@
 
 ## C. Agent & Tool Concepts
 - **`saffron_gym_maze_solver` (Tool Concept):** A tool to solve the Saffron Gym teleporter maze. Per Overwatch critique, this is a computational task better suited for a tool than an agent. It will take the map layout and warp connections as input to deterministically calculate the correct sequence.
-
-## D. Mt. Moon Navigation
-- **Two Entrances:** There are two entrances to Mt. Moon from Route 4. The western entrance at (19, 6) leads to an isolated, dead-end section. The eastern entrance at (25, 6) leads to the main cave system and the path forward to Cerulean City.
+- **`multi_map_dungeon_solver` (Agent Concept):** An agent to handle complex, multi-floor dungeons like Rock Tunnel or Cerulean Cave by planning routes across different map IDs.
 
 # VIII. Procedural Rules & Best Practices
 - **Pathfinding First:** Before assuming an HM or key item is needed to overcome a navigational obstacle, I MUST first use the `find_path` tool to confirm that the destination is truly unreachable.
 - **Proactive Maze Agents:** For complex mazes (e.g., teleporter puzzles, spinner mazes), I MUST prioritize creating a dedicated solver agent *before* attempting a manual solution. Manual attempts should only be for initial data gathering.
 - **Procedural Lesson (Tool Refinement):** I have now failed multiple times to adhere to my core directive of immediate tool maintenance. Deferring a tool fix (e.g., `use_hm_from_party` failures) is a critical lapse in procedural discipline. Any broken tool MUST be fixed in the same turn it is identified, without exception.
 - **Proactive Agent Use (Overwatch Critique - Turn 184701):** I failed to use the `navigation_troubleshooter` agent after a `Navigable Warps Mismatch` warning. I must trust and utilize my specialized agents more proactively, especially when encountering the exact problems those agents were built to solve.
-
-## E. Future Development & Tasks
-- **`multi_map_dungeon_solver` (Agent Concept):** An agent to handle complex, multi-floor dungeons like Rock Tunnel or Cerulean Cave by planning routes across different map IDs.
-- **Task:** Place map marker for defeated Super Nerd at (4, 6) on Rock Tunnel B1F.
 - **Procedural Lesson (Dead End Definition):** I incorrectly identified an area with two reachable exits as a 'dead end'. A true dead end has only one or zero exits. An area with two or more exits is a pathway, not a dead end. This distinction is critical for accurate navigation and validation checks.
 
-## D. HM Usage Mechanic
-- **CRITICAL DISCOVERY:** HMs like Cut cannot be used from the main ITEM menu. Attempting to do so leads to a 'Teach HM?' loop. 
-- **CORRECT METHOD:** HMs must be used directly from the Pokémon party screen. Select the Pokémon that knows the move, and then select the HM from its move list to use it in the overworld.
-
-## D. HM Usage Mechanic
-- **CRITICAL DISCOVERY:** HMs like Cut cannot be used from the main ITEM menu. Attempting to do so leads to a 'Teach HM?' loop. 
-- **CORRECT METHOD:** HMs must be used directly from the Pokémon party screen. Select the Pokémon that knows the move, and then select the HM from its move list to use it in the overworld.
+## E. Future Development & Tasks
+- **Task:** Place map marker for defeated Super Nerd at (4, 6) on Rock Tunnel B1F.
