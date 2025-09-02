@@ -73,3 +73,5 @@
 - **open_gate:** A previously closed gate that is now open and acts as `ground`. It is currently visible on the screen.
 - **closed_gate:** An impassable gate that is currently visible on the screen. It may require a switch or key to open. For pathfinding purposes, any `closed_gate` that is *off-screen* is treated as potentially open to encourage exploration of alternate routes.
 - **open_gate:** A previously closed gate that is now open and acts as `ground`. It is currently visible on the screen.
+- **closed_gate:** An impassable gate that is currently visible on the screen. It may require a switch or key to open. For pathfinding purposes, any `closed_gate` that is *off-screen* is treated as potentially open to encourage exploration of alternate routes.
+- **open_gate:** A previously closed gate that is now open and acts as `ground`. It is currently visible on the screen.
