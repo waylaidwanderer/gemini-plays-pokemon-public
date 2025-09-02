@@ -107,3 +107,7 @@
 ## D. HM Usage Mechanic
 - **CRITICAL DISCOVERY:** HMs like Cut cannot be used from the main ITEM menu. Attempting to do so leads to a 'Teach HM?' loop. 
 - **CORRECT METHOD:** HMs must be used directly from the Pokémon party screen. Select the Pokémon that knows the move, and then select the HM from its move list to use it in the overworld.
+
+## D. HM Usage Mechanic
+- **CRITICAL DISCOVERY:** HMs like Cut cannot be used from the main ITEM menu. Attempting to do so leads to a 'Teach HM?' loop. 
+- **CORRECT METHOD:** HMs must be used directly from the Pokémon party screen. Select the Pokémon that knows the move, and then select the HM from its move list to use it in the overworld.
