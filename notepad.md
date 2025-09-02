@@ -97,7 +97,6 @@
 ## C. Agent & Tool Concepts
 - **`saffron_gym_maze_solver` (Tool Concept):** A tool to solve the Saffron Gym teleporter maze. Per Overwatch critique, this is a computational task better suited for a tool than an agent. It will take the map layout and warp connections as input to deterministically calculate the correct sequence.
 - **`multi_map_dungeon_solver` (Agent Concept):** An agent to handle complex, multi-floor dungeons like Rock Tunnel or Cerulean Cave by planning routes across different map IDs.
-- **`trivial_battle_automator` (Tool Concept):** A tool to automate simple, repetitive wild battles. Input would be party/enemy data. Output would be a single JSON array of button presses to execute the entire battle sequence (e.g., switch to a counter, use a super-effective move). This would streamline grinding and exploration in areas with frequent, non-threatening encounters.
 
 # VIII. Procedural Rules & Best Practices
 - **Pathfinding First:** Before assuming an HM or key item is needed to overcome a navigational obstacle, I MUST first use the `find_path` tool to confirm that the destination is truly unreachable.
@@ -107,6 +106,5 @@
 - **Procedural Lesson (Dead End Definition):** I incorrectly identified an area with two reachable exits as a 'dead end'. A true dead end has only one or zero exits. An area with two or more exits is a pathway, not a dead end. This distinction is critical for accurate navigation and validation checks.
 
 ## E. Future Development & Tasks
-
 - **Procedural Lesson (Tool Debugging - `use_hm_from_party` failure):** My debugging process was a critical failure. I relied on repeated, untested assumptions about menu layouts instead of gathering observational data first. This led to over 15 wasted turns. **Corrective Action:** Before writing or fixing any tool that interacts with a menu, I MUST first manually navigate the menu to observe and document its exact structure and cursor behavior. Data gathering precedes code.
 - **Proactive Agent Use (Self-Assessment - Turn 184940):** I failed to use the `puzzle_solver_agent` to debug the complex, multi-turn failure of the `use_hm_from_party` tool. I must be more proactive in using my cognitive agents for problem-solving, not just for environmental puzzles.
