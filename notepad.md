@@ -36,6 +36,7 @@
     - `🚫 Dead End`: For paths that have been confirmed to lead nowhere.
     - `🗝️ Puzzle Solved/Obstacle Cleared`: For puzzles or obstacles that have been overcome.
     - `🔄 Trap/Loop`: For tiles or warps that are part of a confusing loop or trap.
+    - `💬 Non-Battling NPC`: For NPCs that have been confirmed to not engage in battle.
 
 ## C. Verified NPC Interactions
 - **Magikarp Salesman:** Confirmed he is a one-time interaction and will not sell another Magikarp.
