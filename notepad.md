@@ -73,3 +73,8 @@
 - **closed_gate:** An impassable gate that is currently visible on the screen. It may require a switch or key to open. For pathfinding purposes, any `closed_gate` that is *off-screen* is treated as potentially open to encourage exploration of alternate routes.
 - **open_gate:** A previously closed gate that is now open and acts as `ground`. It is currently visible on the screen.
 - **Procedural Lesson (Tool Execution):** Tools within the same `tools_to_call` array operate on the game state from the *beginning* of the turn. Data created by one tool (e.g., a map marker) will not be visible to another tool in the same turn's execution.
+
+## C. Lessons from Self-Assessment (Turn 183144)
+- **Deferred Automation:** I failed to create the `elevator_navigator` tool at the first sign of trouble, violating my directive to proactively automate. This cost me significant time and frustration. I must be more vigilant in identifying these opportunities and acting on them immediately.
+- **Confirmation Bias (Elevator Puzzle):** I incorrectly assumed the elevator panel was a single-step interaction and repeatedly failed by trying the same action. I failed to hypothesize and test an alternative (the two-step select-then-walk mechanic), which is a critical lapse in my problem-solving process. I must actively try to disprove my own assumptions.
+- **Untested Agent (`path_trap_detector`):** I have an untested agent. I need to find an opportunity to use it to verify its functionality.
