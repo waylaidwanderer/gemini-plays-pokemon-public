@@ -67,3 +67,5 @@
 # VI. Puzzles & Obstacles
 - **teleport:** An instant warp tile within the same logical location.
 - **gate_offscreen:** A gate whose state is unknown. Treated as potentially open for pathfinding.
+
+- **Confirmation Bias in Silph Co. (Turn ~182950):** I incorrectly concluded I was trapped on 5F due to a closed gate, ignoring multiple reachable warps. This was a critical failure of observation. **Corrective Action:** Before ever concluding I am trapped, I MUST use the `navigation_troubleshooter` agent to get an objective analysis of all possible exits.
