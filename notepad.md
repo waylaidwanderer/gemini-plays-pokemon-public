@@ -103,3 +103,4 @@
 # VIII. Procedural Rules & Best Practices
 - **Pathfinding First:** Before assuming an HM or key item is needed to overcome a navigational obstacle, I MUST first use the `find_path` tool to confirm that the destination is truly unreachable.
 - **Proactive Maze Agents:** For complex mazes (e.g., teleporter puzzles, spinner mazes), I MUST prioritize creating a dedicated solver agent *before* attempting a manual solution. Manual attempts should only be for initial data gathering.
+- **`nickname_automator` (Tool Concept):** A tool that takes a string as input and outputs the sequence of button presses required to enter it on the Pokémon nicknaming screen. This would automate a tedious, repetitive task.
