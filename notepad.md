@@ -81,3 +81,4 @@
 ## A. `use_hm_from_party` Manual Test (Cut) - Attempt 1
 - **Objective:** Document the exact button presses to use Cut on the tree at Route 2 (6, 11).
 - **Turn 186993:** Starting from the overworld.
+- **Turn 187000:** Selected 'CUT'. Game returned error "There isn't anything to CUT!" and returned to Party Screen. **Conclusion:** Player must be facing the target object *before* opening the menu to use an HM.
