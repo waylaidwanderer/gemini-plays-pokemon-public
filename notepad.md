@@ -1,12 +1,12 @@
 # I. Core Directives & Lessons Learned
 ## A. Core Directives
-- **DIRECTIVE 1: IMMEDIATE DATA MANAGEMENT.** All data management (notepad updates, map markers, tool/agent refinement) is the HIGHEST priority and MUST be performed in the same turn a need is identified.
-- **DIRECTIVE 2: ACT ON DOCUMENTATION.** A documented lesson that does not result in a behavioral change is a critical failure of the learning loop.
-- **DIRECTIVE 3: ABANDON FAILED HYPOTHESES.** If a strategy fails repeatedly, I must recognize the pattern, document it, and pivot to a new approach.
-- **DIRECTIVE 4: TRUST, BUT REFINE, AGENTS & TOOLS.** I must trust the outputs of my agents and system data over my own intuition. If an agent or tool is suboptimal, I must prioritize refining it.
-- **DIRECTIVE 5: PROACTIVELY AUTOMATE.** Before performing any complex or repetitive task, I must first consider if it can be automated with a new agent or tool.
-- **DIRECTIVE 6: PROACTIVE AGENT USE.** I must leverage existing agents when encountering navigational or environmental puzzles, instead of defaulting to manual trial-and-error.
-- **DIRECTIVE 7: ADHERE TO DATA STANDARDS.** My automation tools depend on consistent, standardized map markers. Failure to adhere to my own documented standards is a self-inflicted critical failure that wastes time and sabotages my own efforts.
+- **D1: IMMEDIATE DATA MANAGEMENT:** All data management (notepad, markers, tool/agent refinement) is the HIGHEST priority and MUST be performed in the same turn a need is identified.
+- **D2: ACT ON DOCUMENTATION:** A documented lesson that does not result in a behavioral change is a critical failure.
+- **D3: ABANDON FAILED HYPOTHESES:** If a strategy fails repeatedly, I must recognize the pattern, document it, and pivot to a new approach.
+- **D4: TRUST, BUT REFINE:** I must trust the outputs of my agents and system data. If an agent or tool is suboptimal, I must prioritize refining it.
+- **D5: PROACTIVELY AUTOMATE:** Before performing any complex or repetitive task, I must first consider if it can be automated.
+- **D6: PROACTIVE AGENT USE:** I must leverage existing agents for complex puzzles instead of defaulting to manual trial-and-error.
+- **D7: ADHERE TO DATA STANDARDS:** My automation tools depend on consistent map markers. Failure to adhere to my own standards is a self-inflicted critical failure.
 
 ## B. Lessons Learned from Critiques & Self-Assessments
 - **Confirmation Bias:** I must actively seek to disprove my own assumptions. Past failures (Silph Co. elevator, `find_path` diagnostics, Cerulean Cave trapping) highlight a tendency to repeat failed actions instead of hypothesizing and testing alternatives.
