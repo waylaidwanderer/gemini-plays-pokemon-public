@@ -21,22 +21,7 @@
 - **Catastrophic Tool Debugging Failure (use_hm_from_party):** For over 50 turns, I violated my core directives by repeatedly trying to fix a broken tool with untested assumptions about static menu cursors. This was a severe confirmation bias loop. The correct process, which I failed to follow, is to immediately stop, abandon the failed hypothesis, gather empirical data via manual testing, and then redefine the tool. This failure wasted significant time and highlights the criticality of a data-driven debugging process.
 
 # II. Game Mechanics & World Knowledge
-## A. Verified Tile Traversal Rules
-- **ground:** Standard walkable tile.
-- **grass:** Tall grass where wild Pokémon appear. Walkable.
-- **impassable:** Cannot be entered. Includes walls, rocks, etc.
-- **water:** Traversable only with Surf.
-- **cuttable:** A tree that can be cut using the Cut HM. Impassable without Cut.
-- **ledge:** A one-way drop. Can be jumped down but not climbed up.
-- **ladder_down / ladder_up:** Acts as a warp to another floor.
-- **elevated_ground:** Walkable ground at a different elevation. Cannot be accessed from `ground` directly.
-- **steps:** The only tile type that allows movement between `ground` and `elevated_ground`.
-- **teleport:** An instant warp tile within the same logical location.
-- **gate_offscreen:** A gate whose state is unknown. Treated as potentially open for pathfinding.
-- **closed_gate:** An impassable gate that is currently visible on the screen. It may require a switch or key to open. For pathfinding purposes, any `closed_gate` that is *off-screen* is treated as potentially open to encourage exploration of alternate routes.
-- **open_gate:** A previously closed gate that is now open and acts as `ground`. It is currently visible on the screen.
-
-## B. Map Marker System
+## A. Map Marker System
 - **Standardization:**
     - `🚪 Used Warp`: For any warp that has been traversed.
     - `☠️ Defeated Trainer`: For any trainer that has been battled.
@@ -46,20 +31,23 @@
     - `🔄 Trap/Loop`: For tiles or warps that are part of a confusing loop or trap.
     - `💬 Non-Battling NPC`: For NPCs that have been confirmed to not engage in battle.
 
-## C. Verified NPC Interactions
+## B. Verified NPC Interactions
 - **Magikarp Salesman:** Confirmed he is a one-time interaction and will not sell another Magikarp.
 
-## D. HM Usage Mechanic
+## C. HM Usage Mechanic
 - **CRITICAL DISCOVERY:** HMs like Cut cannot be used from the main ITEM menu. Attempting to do so leads to a 'Teach HM?' loop. 
 - **CORRECT METHOD:** HMs must be used directly from the Pokémon party screen. Select the Pokémon that knows the move, and then select the HM from its move list to use it in the overworld.
 
-## E. Verified Manual HM Usage Sequence
+## D. Verified Manual HM Usage Sequence
 - After a catastrophic, multi-turn failure, the following sequence was manually verified to use an HM from the party menu:
   1. `Start` (Open Main Menu - cursor starts on 'POKéDEX')
   2. `Down` (Navigate to 'POKéMON')
   3. `A` (Select 'POKéMON' - cursor starts on a variable slot, in this case slot 4)
   4. `A` (Select Pokémon - cursor starts on first move)
   5. `A` (Use the HM)
+
+## E. World Mechanics & Discoveries
+- **Respawning Obstacles:** Cuttable trees can respawn after being cut. This was observed on Route 12 at coordinate (10, 100).
 
 # III. Battle Knowledge
 ## A. Type Effectiveness & Battle Insights
@@ -108,8 +96,11 @@
 ## C. Agent & Tool Concepts
 - **`saffron_gym_maze_solver` (Tool Concept):** A tool to solve the Saffron Gym teleporter maze. Per Overwatch critique, this is a computational task better suited for a tool than an agent. It will take the map layout and warp connections as input to deterministically calculate the correct sequence.
 - **`multi_map_dungeon_solver` (Agent Concept):** An agent to handle complex, multi-floor dungeons like Rock Tunnel or Cerulean Cave by planning routes across different map IDs.
+- **`route_verifier_agent` (Agent Concept):** An agent that takes a list of NPCs and defeated trainer markers for a map, then generates a plan to systematically visit and confirm the status of each trainer, ensuring no one is missed.
+- **`route_clearer_tool` (Tool Concept):** A computational tool that takes the map XML and a list of defeated trainer markers, then calculates an optimal path to visit every *un-marked* trainer on the route.
 
 # VIII. Procedural Rules & Best Practices
+## A. Procedural Rules
 - **Pathfinding First:** Before assuming an HM or key item is needed to overcome a navigational obstacle, I MUST first use the `find_path` tool to confirm that the destination is truly unreachable.
 - **Proactive Maze Agents:** For complex mazes (e.g., teleporter puzzles, spinner mazes), I MUST prioritize creating a dedicated solver agent *before* attempting a manual solution. Manual attempts should only be for initial data gathering.
 - **Procedural Lesson (Tool Refinement):** I have now failed multiple times to adhere to my core directive of immediate tool maintenance. Deferring a tool fix (e.g., `use_hm_from_party` failures) is a critical lapse in procedural discipline. Any broken tool MUST be fixed in the same turn it is identified, without exception.
@@ -118,27 +109,5 @@
 - **Tunnel Vision & Dead End Hallucination (Turn 185291):** I incorrectly identified a walled-off area in Cerulean City as a 'dead end' because I was hyper-focused on a single blocked path (a cuttable tree). I completely ignored multiple other reachable warps that served as valid exits. This was a critical failure of situational awareness. **Corrective Action:** Before concluding an area is a dead end, I MUST systematically check all reachable warps and map connections. A true dead end has one or zero exits. An area with multiple exits is a pathway, even if the most obvious route is blocked.
 - **Menu Navigation Tools:** Before writing or fixing any tool that interacts with a menu, I MUST first manually navigate the menu step-by-step to observe and document its exact structure and cursor behavior (especially starting positions, which can be variable). Data gathering must always precede coding.
 
-## D. Untested Assumptions & Hypotheses
+## B. Untested Assumptions & Hypotheses
 - **Snorlax Interaction:** I am assuming the POKé FLUTE is needed to wake the Snorlax on Route 12. This is based on external knowledge. **Hypothesis:** Interacting with Snorlax directly might trigger a different event or provide a clue. **Test:** Find the Snorlax and press 'A' on it before attempting to use any item.
-
-## E. New Automation Concepts
-- **`route_verifier_agent` (Agent Concept):** An agent that takes a list of NPCs and defeated trainer markers for a map, then generates a plan to systematically visit and confirm the status of each trainer, ensuring no one is missed.
-- **`route_clearer_tool` (Tool Concept):** A computational tool that takes the map XML and a list of defeated trainer markers, then calculates an optimal path to visit every *un-marked* trainer on the route.
-
-## F. World Mechanics & Discoveries
-- **Respawning Obstacles:** Cuttable trees can respawn after being cut. This was observed on Route 12 at coordinate (10, 100).
-
-## D. Untested Assumptions & Hypotheses
-- **Snorlax Interaction:** I am assuming the POKé FLUTE is needed to wake the Snorlax on Route 12. This is based on external knowledge. **Hypothesis:** Interacting with Snorlax directly might trigger a different event or provide a clue. **Test:** Find the Snorlax and press 'A' on it before attempting to use any item.
-
-## E. New Automation Concepts
-- **`route_verifier_agent` (Agent Concept):** An agent that takes a list of NPCs and defeated trainer markers for a map, then generates a plan to systematically visit and confirm the status of each trainer, ensuring no one is missed.
-- **`route_clearer_tool` (Tool Concept):** A computational tool that takes the map XML and a list of defeated trainer markers, then calculates an optimal path to visit every *un-marked* trainer on the route.
-
-## E. Verified Manual HM Usage Sequence
-- After a catastrophic, multi-turn failure, the following sequence was manually verified to use an HM from the party menu:
-  1. `Start` (Open Main Menu - cursor starts on 'POKéDEX')
-  2. `Down` (Navigate to 'POKéMON')
-  3. `A` (Select 'POKéMON' - cursor starts on a variable slot, in this case slot 4)
-  4. `A` (Select Pokémon - cursor starts on first move)
-  5. `A` (Use the HM)
