@@ -124,15 +124,5 @@
 # XI. Agent Strategy Notes
 - **Proactive Agent Use:** For complex dungeons with partitions and puzzles (like Seafoam Islands), I must be more proactive in using my `navigation_troubleshooter` and `puzzle_solver_agent` instead of relying solely on manual exploration and `find_path`, which can lead to getting stuck in loops or dead ends.
 
-## D. Verified Manual HM Usage Sequence
-- After a catastrophic, multi-turn failure, the following sequence was manually verified to use an HM from the party menu:
-  1. `Start` (Open Main Menu - cursor starts on 'ITEM')
-  2. `Up` (Navigate to 'POKéMON')
-  3. `A` (Select 'POKéMON' - cursor starts on slot 1)
-  4. `Down` x3 (Navigate to slot 4)
-  5. `A` (Select Pokémon - cursor starts on first move)
-  6. `Down` (Navigate to second move)
-  7. `A` (Use the HM)
-
 # XII. Procedural Lessons & Corrections
 - **Dead End Definition Correction (Turn 185787):** I incorrectly identified an area with 4 reachable warps as a 'dead end'. A true dead end has only one or zero exits. An area with multiple exits is a pathway, not a dead end. This distinction is critical for accurate navigation and validation checks.
