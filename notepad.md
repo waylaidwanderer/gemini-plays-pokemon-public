@@ -47,6 +47,18 @@
   4. `A` (Select Pokémon - cursor starts on first move)
   5. `A` (Use the HM)
 
+## C. HM Usage Mechanic
+- **CRITICAL DISCOVERY:** HMs like Cut cannot be used from the main ITEM menu. Attempting to do so leads to a 'Teach HM?' loop. 
+- **CORRECT METHOD:** HMs must be used directly from the Pokémon party screen. Select the Pokémon that knows the move, and then select the HM from its move list to use it in the overworld.
+
+## D. Verified Manual HM Usage Sequence
+- After a catastrophic, multi-turn failure, the following sequence was manually verified to use an HM from the party menu:
+  1. `Start` (Open Main Menu - cursor starts on 'POKéDEX')
+  2. `Down` (Navigate to 'POKéMON')
+  3. `A` (Select 'POKéMON' - cursor starts on a variable slot, in this case slot 4)
+  4. `A` (Select Pokémon - cursor starts on first move)
+  5. `A` (Use the HM)
+
 ## E. World Mechanics & Discoveries
 - **Respawning Obstacles:** Cuttable trees can respawn after being cut. This was observed on Route 12 at coordinate (10, 100).
 
