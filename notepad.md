@@ -40,7 +40,7 @@
   - `impassable`: Standard walls, objects, trees, etc.
   - `boulder_barrier`: A wall that is removed when a corresponding `boulder_switch` is activated.
 - **Special Mechanics:**
-  - **Healing Zone:** A tile described as a "purified, protected zone" that fully heals all Pokémon in the party.
+  - **Healing Zone:** A tile described as a "purified, protected zone" that fully heals all Pokémon in the party, including restoring all PP.
   - **Menu Input Blocking (CRITICAL):** Facing an impassable tile blocks that directional input in menus.
   - **HM Usage:** Must be adjacent to and facing the target object before opening the party menu.
   - **Boulder Pushing:** A multi-turn action. Cannot be done while surfing.
