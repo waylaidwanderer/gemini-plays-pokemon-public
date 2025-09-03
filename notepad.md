@@ -83,6 +83,7 @@
 ## B. Boulder Puzzle Mechanics
 - **Objective:** Boulders must often be pushed into holes to affect lower floors, typically to block strong water currents and open new paths.
 - **Movement:** Pushing a boulder is a multi-turn action. You must be adjacent to it. The first press turns you to face it (if not already facing) and pushes it one tile. Subsequent pushes require you to walk to the new adjacent tile first.
+- **Surfing Limitation:** It is impossible to push a boulder while surfing, even if Strength is active. This was confirmed on Seafoam Islands B3F.
 
 # VII. Agent & Tool Development
 ## A. Tool Notes & Limitations
