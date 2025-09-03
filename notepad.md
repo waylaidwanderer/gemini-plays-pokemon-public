@@ -110,12 +110,10 @@
 - **Hypothesis 3 (Failed):** Interact directly with Snorlax using 'A'. Result: No effect.
 - **Hypothesis 4 (Success):** The item menu is a single, scrollable list. After selecting 'ITEM' from the main menu, scroll down past the HMs (indicated by a '↓' arrow) to find Key Items like the POKé FLUTE. Using it from this menu wakes the Snorlax.
 
-## D. Pokémon Tower 7F (Dead End Hallucination)
-- **Observation:** Reached the top floor (7F) of the Pokémon Tower. The path was a dead end with no visible exits or interactable objects other than my follower Pikachu.
-- **Hypothesis 1 (Failed - 15+ attempts):** Interacting with Pikachu or the environment would trigger a cutscene or event. This was a severe case of **Confirmation Bias**, where I ignored mounting evidence (no text, loop warnings) because I assumed something *must* happen at the top of a dungeon.
-- **Test:** Pressed 'A', 'B', 'Start', and directional buttons repeatedly while standing at (12, 3) and facing Pikachu.
-- **Result:** No event triggered. The game state did not change, leading to multiple CRITICAL loop warnings from the system.
-- **Conclusion:** The 7th floor is a genuine dead end at this time. The assumption that something *must* happen at the top of a dungeon was a critical navigational hallucination. The correct action was to recognize the dead end and backtrack.
+## D. Pokémon Tower 7F (Dead End Puzzle)
+- **Observation:** Reached the top floor (7F) of the Pokémon Tower. The path is a confirmed dead end with no visible exits or interactable objects.
+- **Hypothesis 1 (Failed - 15+ attempts):** Interacting with Pikachu or the environment would trigger a cutscene. **Test:** Pressed 'A', 'B', 'Start', and directional buttons repeatedly at (12, 3). **Result:** No event triggered. **Conclusion:** This was a severe case of Confirmation Bias. Standard interaction is not the solution.
+- **Hypothesis 2 (Failed - Agent Suggestion):** Use the POKé FLUTE at the northernmost point (12, 3) to trigger a spectral event. **Test:** Navigated to (12, 3) and used POKé FLUTE from the item menu. **Result:** The game displayed text confirming the flute was played ("Now, that's a catchy tune!"), but no event occurred. **Conclusion:** The POKé FLUTE has no special effect on this floor. The area remains a dead end.
 
 ### C. Brainstorming Log
 - **'Wild Battle Automator V2' Agent:** An advanced version of the current tool that can handle non-trivial battles. It would analyze type matchups, select the best move from the full moveset (not just the first), and even recommend switching Pokémon if the current matchup is unfavorable.
