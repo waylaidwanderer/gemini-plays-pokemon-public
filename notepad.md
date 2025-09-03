@@ -11,8 +11,8 @@
 ## B. Key Lessons Learned
 - **Tool Maintenance is NOT a 'Task':** Listing tool repair as a 'to-do' item is a form of procrastination and a violation of D1. Tool refinement must be the immediate next action upon identifying a flaw.
 - **Data-Driven Debugging is Mandatory:** Before writing or fixing any tool that interacts with a menu, I MUST first manually navigate the menu to observe and document its exact structure and cursor behavior. Assuming menu behavior without gathering data is a guaranteed failure.
-- **Confirmation Bias Kills Progress:** I have a history of repeating failed actions (e.g., Silph Co. Elevator, `use_hm_from_party` tool). When stuck, I MUST use my `puzzle_solver_agent` to generate new, testable hypotheses.
-- **Navigational Hallucinations are Real:** I have a history of incorrectly concluding I am trapped or misidentifying my location. I must use `navigation_troubleshooter` and trust system warnings to verify my position and available exits before making navigational decisions.
+- **Confirmation Bias Kills Progress:** I have a history of repeating failed actions (e.g., `use_hm_from_party` tool). When stuck, I MUST use my `puzzle_solver_agent` to generate new, testable hypotheses.
+- **Navigational Hallucinations are Real:** I have a history of incorrectly concluding I am trapped or misidentifying map states (dead ends, unseen tiles). I must develop a tool for reliable map analysis and trust system warnings.
 
 # II. Game & World Mechanics
 
@@ -27,9 +27,10 @@
 ## B. Tile & Movement Mechanics
 - **Cuttable Trees:** Can respawn after being cut.
 - **Ledges:** One-way traversal only. Can be jumped down, but not climbed up. A jump down from Y to Y+1 lands the player at Y+2.
-- **HM Usage:** Must be used from the Pokémon party menu. A fainted Pokémon cannot use an HM. To use Surf, the player must be standing on a tile directly adjacent to a water tile and facing it.
-- **Boulder Pushing:** A multi-turn action. You must be adjacent. First press turns/pushes one tile. Subsequent pushes require walking to the new adjacent tile first. Cannot push boulders while surfing.
+- **HM Usage:** Must be used from the Pokémon party menu. A fainted Pokémon cannot use an HM. To use an HM on an object, the player must be standing on an adjacent tile and *facing* the object *before* opening the menu.
+- **Boulder Pushing:** A multi-turn action. Must be adjacent. First press turns/pushes one tile. Subsequent pushes require walking to the new adjacent tile first. Cannot push boulders while surfing.
 - **Menu Input Blocking (CRITICAL):** If the player is facing an impassable tile in the overworld, the corresponding directional input will be blocked within menus. This can abort automated tool sequences. To avoid this, I must ensure I am not facing an obstacle before using a tool that relies on directional inputs.
+- **Dead End Definition:** An area is considered a dead end if it has only one group of reachable exits (warps/map connections) and no reachable unseen tiles.
 
 # III. Battle & Item Knowledge
 
@@ -65,21 +66,18 @@
 - **Movement:** Pushing is a multi-turn action. Must be adjacent. First press turns/pushes. Subsequent pushes require moving to the new adjacent tile first.
 - **Surfing Limitation:** Cannot push boulders while surfing (confirmed on Seafoam Islands B3F).
 
-# VI. Agent & Tool Development Principles
-- **Data-Driven Debugging (CRITICAL):** My repeated failures with menu-navigation tools (`use_hm_from_party`, `switch_pokemon_navigator`) stemmed from fixing them based on assumptions rather than evidence. **Corrective Action:** Before writing or fixing any tool that interacts with a menu, I MUST first manually navigate it step-by-step, meticulously documenting the exact button presses and cursor behavior. This data gathering is a mandatory prerequisite to any coding.
+# VI. Agent & Tool Development
+
+## A. Development Principles
+- **Data-Driven Debugging (CRITICAL):** My repeated failures with menu-navigation tools (`use_hm_from_party`) stemmed from fixing them based on assumptions rather than evidence. **Corrective Action:** Before writing or fixing any tool that interacts with a menu, I MUST first manually navigate it step-by-step, meticulously documenting the exact button presses and cursor behavior. This data gathering is a mandatory prerequisite to any coding.
 - **Tool Execution Order:** A tool that reads map data cannot see changes made by another tool in the same turn. Data management and data analysis must happen in separate, sequential turns.
 - **`find_path` Limitation:** This tool is limited to single-map navigation and cannot plan routes across disconnected map sections. For complex dungeons, I must rely on manual exploration and my `navigation_troubleshooter` agent.
-- **Future Agent Idea:** A 'Stuck Loop Detector' agent could analyze move history and game state to identify and diagnose repetitive failures, suggesting alternative hypotheses.
+
+## B. Future Development Ideas
+- **'Stuck Loop Detector' Agent:** Could analyze move history and game state to identify and diagnose repetitive failures, suggesting alternative hypotheses.
+- **'Map Analyzer' Tool/Agent:** A reliable tool to calculate reachable unseen tiles and determine if an area is a dead end to prevent navigational hallucinations.
 
 # VII. Data-Driven Debugging Logs
 ## A. `use_hm_from_party` Manual Test (Cut)
-- **Turn 186919:** Start Menu is open. Cursor defaults to 'POKéMON'. Pressing 'A' to enter Party Screen.
-- **Turn 186921:** Entered Party Screen. Cursor defaults to the last Pokémon in the party (slot 6). Pressing 'Up' to move to NIGHTSHADE (slot 5).
-- **Turn 186924:** Selected NIGHTSHADE. Sub-menu appeared, cursor defaults to the first move ('CUT'). Pressing 'A' to select it.
-
-# VIII. Manual Data Gathering Logs
-## A. `use_hm_from_party` Manual Test (Cut) - Attempt 1
-- **Objective:** Document the exact button presses to use Cut on the tree at Route 2 (6, 11).
-- **Turn 186993:** Starting from the overworld.
-- **Turn 187000:** Selected 'CUT'. Game returned error "There isn't anything to CUT!" and returned to Party Screen. **Conclusion:** Player must be facing the target object *before* opening the menu to use an HM.
-- **Turn 187007:** Entered Party Screen. Cursor defaulted to NIGHTSHADE (slot 5), not SPARKY (slot 1) as previously observed. **Conclusion:** Party screen cursor position is not reliably at the top. A cursor-resetting sequence (e.g., spamming 'Up') is necessary for a robust tool.
+- **Attempt 1 (Failure):** Selected 'CUT'. Game returned error "There isn't anything to CUT!". **Conclusion:** Player must be facing the target object *before* opening the menu to use an HM.
+- **Attempt 2 (Success):** Faced tree, then navigated menu. **Discovery:** Party screen cursor position is not reliably at the top. A cursor-resetting sequence (e.g., spamming 'Up') is necessary for a robust tool.
