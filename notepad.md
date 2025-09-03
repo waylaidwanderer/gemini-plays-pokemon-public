@@ -121,13 +121,6 @@
   9. Press A to confirm.
 - **Execution Log:**
 
-# X. Tile Traversal Mechanics
-- **ground:** Standard walkable tile.
-- **water:** Traversable only with Surf.
-- **impassable:** Solid obstacle, cannot be entered.
-- **grass:** Walkable, contains wild Pokémon.
-- **ledge:** Can only be jumped down from above (Y-1). Impassable from all other directions.
-
 # XI. New Tool & Agent Concepts
 - **`route_20_maze_solver` (Tool Concept):** A computational tool that will analyze the `map_xml_string` for Route 20 to find a traversable path through the water and around the impassable rock formations, guiding navigation from the eastern entrance to the western exit that leads to Cinnabar Island.
 
