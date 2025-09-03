@@ -82,3 +82,4 @@
 - **Objective:** Document the exact button presses to use Cut on the tree at Route 2 (6, 11).
 - **Turn 186993:** Starting from the overworld.
 - **Turn 187000:** Selected 'CUT'. Game returned error "There isn't anything to CUT!" and returned to Party Screen. **Conclusion:** Player must be facing the target object *before* opening the menu to use an HM.
+- **Turn 187007:** Entered Party Screen. Cursor defaulted to NIGHTSHADE (slot 5), not SPARKY (slot 1) as previously observed. **Conclusion:** Party screen cursor position is not reliably at the top. A cursor-resetting sequence (e.g., spamming 'Up') is necessary for a robust tool.
