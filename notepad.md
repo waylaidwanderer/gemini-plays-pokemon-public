@@ -53,6 +53,14 @@
 - **CRITICAL DISCOVERY:** HMs like Cut cannot be used from the main ITEM menu. Attempting to do so leads to a 'Teach HM?' loop. 
 - **CORRECT METHOD:** HMs must be used directly from the Pokémon party screen. Select the Pokémon that knows the move, and then select the HM from its move list to use it in the overworld.
 
+## E. Verified Manual HM Usage Sequence
+- After a catastrophic, multi-turn failure, the following sequence was manually verified to use an HM from the party menu:
+  1. `Start` (Open Main Menu - cursor starts on 'POKéDEX')
+  2. `Down` (Navigate to 'POKéMON')
+  3. `A` (Select 'POKéMON' - cursor starts on a variable slot, in this case slot 4)
+  4. `A` (Select Pokémon - cursor starts on first move)
+  5. `A` (Use the HM)
+
 # III. Battle Knowledge
 ## A. Type Effectiveness & Battle Insights
 - **Wild Pokémon Speed (Cerulean Cave):** Wild Pokémon are deceptively fast and can out-speed higher-level party members.
@@ -109,11 +117,3 @@
 - **Procedural Lesson (Dead End Definition):** I incorrectly identified an area with two reachable exits as a 'dead end'. A true dead end has only one or zero exits. An area with two or more exits is a pathway, not a dead end. This distinction is critical for accurate navigation and validation checks.
 - **Tunnel Vision & Dead End Hallucination (Turn 185291):** I incorrectly identified a walled-off area in Cerulean City as a 'dead end' because I was hyper-focused on a single blocked path (a cuttable tree). I completely ignored multiple other reachable warps that served as valid exits. This was a critical failure of situational awareness. **Corrective Action:** Before concluding an area is a dead end, I MUST systematically check all reachable warps and map connections. A true dead end has one or zero exits. An area with multiple exits is a pathway, even if the most obvious route is blocked.
 - **Menu Navigation Tools:** Before writing or fixing any tool that interacts with a menu, I MUST first manually navigate the menu step-by-step to observe and document its exact structure and cursor behavior (especially starting positions, which can be variable). Data gathering must always precede coding.
-
-## C. Verified Manual HM Usage Sequence
-- After a catastrophic, multi-turn failure, the following sequence was manually verified to use an HM from the party menu:
-  1. `Start` (Open Main Menu - cursor starts on 'POKéDEX')
-  2. `Down` (Navigate to 'POKéMON')
-  3. `A` (Select 'POKéMON' - cursor starts on a variable slot, in this case slot 4)
-  4. `A` (Select Pokémon - cursor starts on first move)
-  5. `A` (Use the HM)

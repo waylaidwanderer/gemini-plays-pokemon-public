@@ -976,7 +976,7 @@
         "move_index"
       ]
     },
-    "python_script": "import json\n\npokemon_slot = int(input_data['pokemon_slot'])\nmove_index = int(input_data['move_index'])\n\nbuttons = []\n# 1. Open main menu and navigate to POKéMON\nbuttons.append(\"Start\")\n# Reset cursor to top (POKéDEX)\nfor _ in range(6):\n    buttons.append(\"Up\")\n# Navigate to POKéMON (1 down from POKéDEX)\nbuttons.append(\"Down\")\nbuttons.append(\"A\")\n\n# 2. Navigate to the correct Pokémon in the party menu\n# Reset cursor to top (slot 1)\nfor _ in range(5):\n    buttons.append(\"Up\")\n# Navigate down to the target slot\nfor _ in range(pokemon_slot - 1):\n    buttons.append(\"Down\")\nbuttons.append(\"A\")\n\n# 3. Navigate to the correct move in the sub-menu\n# Reset cursor to top (move 1)\nfor _ in range(3):\n    buttons.append(\"Up\")\n# Navigate down to the target move\nfor _ in range(move_index):\n    buttons.append(\"Down\")\nbuttons.append(\"A\")\n\nprint(json.dumps(buttons))",
+    "python_script": "import json\n\nslot = int(input_data['pokemon_slot'])\nmove_idx = int(input_data['move_index'])\n\nbuttons = ['Start']\n\n# Reset main menu cursor to top (POKéDEX)\nfor _ in range(6):\n    buttons.append('Up')\n\n# Navigate to POKéMON (1 down from POKéDEX)\nbuttons.append('Down')\nbuttons.append('A')\n\n# Reset party menu cursor to top (slot 1)\nfor _ in range(5):\n    buttons.append('Up')\n\n# Navigate to target slot\nfor _ in range(slot - 1):\n    buttons.append('Down')\nbuttons.append('A')\n\n# Reset move menu cursor to top (move 1)\nfor _ in range(3):\n    buttons.append('Up')\n\n# Navigate to target move\nfor _ in range(move_idx):\n    buttons.append('Down')\nbuttons.append('A')\n\nprint(json.dumps(buttons))",
     "history": [
       {
         "commit_message": "feat: Create use_hm_from_party tool. This tool automates the multi-step menu navigation required to use an HM move from the party screen. It was created to reliably use Surf in Cerulean City, adhering to the core directive of proactive automation for repetitive tasks.",
@@ -1107,6 +1107,11 @@
         "commit_message": "fix: Implement failsafe cursor-resetting logic. All previous versions failed because the menu cursor's starting position is non-deterministic. This commit completely rewrites the script to be robust by pressing 'Up' multiple times in each menu (main, party, sub-menu) to force the cursor to the top before navigating. This removes all reliance on the previous menu state and should finally make the tool reliable, addressing a cascade of critical failures.",
         "timestamp": "2025-09-02T23:46:52.897Z",
         "action_counter": 185533
+      },
+      {
+        "commit_message": "fix: Implement failsafe cursor-resetting logic. All previous versions failed because the menu cursor's starting position is non-deterministic. This commit completely rewrites the script to be robust by pressing 'Up' multiple times in each menu (main, party, sub-menu) to force the cursor to the top before navigating. This removes all reliance on the previous menu state and should finally make the tool reliable, addressing a cascade of critical failures.",
+        "timestamp": "2025-09-02T23:56:44.643Z",
+        "action_counter": 185556
       }
     ]
   }
