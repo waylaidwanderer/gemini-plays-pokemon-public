@@ -64,6 +64,7 @@
 ## A. Solved Puzzles
 - **Silph Co. Gate Mechanic:** Standing adjacent to a closed gate and pressing 'A' automatically uses the CARD KEY to open it.
 - **Silph Co. Elevator:** A two-step process. First, interact with the control panel to select a floor. Second, walk onto a warp pad and press 'Down' to travel.
+- **Snorlax Puzzle (Route 12):** The item menu is a single, scrollable list. After selecting 'ITEM' from the main menu, scroll down past the HMs (indicated by a '↓' arrow) to find Key Items like the POKé FLUTE. Using it from this menu wakes the Snorlax.
 
 ## B. Boulder Puzzle Mechanics
 - **Objective:** Boulders are often pushed into holes to block water currents on lower floors.
@@ -78,7 +79,6 @@
 - **`find_path` Limitation:** This tool is limited to single-map navigation and cannot plan routes across disconnected map sections. For complex dungeons, I must rely on manual exploration and my `navigation_troubleshooter` agent.
 
 ## B. Future Development Ideas
-- **`find_path` Tool Improvement:** Refine the tool to provide contextual failure reports, such as identifying the specific obstacle (e.g., 'cuttable_tree') that is blocking a path.
 - **'Stuck Loop Detector' Agent:** Could analyze move history and game state to identify and diagnose repetitive failures, suggesting alternative hypotheses.
 - **'Map Analyzer' Tool/Agent:** A reliable tool to calculate reachable unseen tiles and determine if an area is a dead end to prevent navigational hallucinations.
 - **'High-Level Planner' Agent:** Could analyze the primary goal and suggest a sequence of maps or major objectives to achieve it.
