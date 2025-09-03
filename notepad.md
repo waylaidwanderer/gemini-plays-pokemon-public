@@ -83,6 +83,7 @@
 - **'High-Level Planner' Agent:** Could analyze the primary goal and suggest a sequence of maps or major objectives to achieve it.
 - **'Team Composition' Agent:** Could analyze the party and PC to suggest optimal teams for specific challenges (e.g., a specific Gym Leader rematch).
 - **'Inventory/PC Summary' Tool:** Could provide a quick summary of current items without manual checking.
+- **`find_path` Tool Improvement:** Refine the tool to provide contextual failure reports, such as identifying the specific obstacle (e.g., 'cuttable_tree') that is blocking a path.
 
 # VII. Data-Driven Debugging Logs
 ## A. `use_hm_from_party` Manual Test (Cut)
