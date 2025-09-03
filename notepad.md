@@ -110,6 +110,7 @@
 - **'Grinding Spot Recommender' Agent:** An agent that analyzes my notepad's 'Known Pokemon Locations' section and my current party to suggest optimal grinding locations based on type advantages and EXP yield.
 - **'Menu Analyzer' Tool (TOP PRIORITY):** A tool that can parse screen text from menus to determine cursor position, available options, and list structure. This is critical for creating robust menu navigation tools and avoiding future failure loops.
 - **'Pattern Recognition' Agent:** An agent that could analyze map sprite lists and existing map markers to identify patterns (e.g., 'all NPCs in this area are non-battlers') and form high-level hypotheses to guide exploration.
+- **'Get Tool Code' Tool:** A tool to retrieve the Python script of an existing custom tool to allow for easier editing and debugging.
 
 ## C. Data-Driven Debugging Logs
 - **`use_hm_from_party` Manual Test (Cut):**
