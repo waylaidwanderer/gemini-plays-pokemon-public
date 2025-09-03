@@ -35,13 +35,11 @@
 - **Magikarp Salesman:** One-time interaction.
 
 # III. Battle Knowledge
-## A. Type Effectiveness & Battle Insights
-- **Wild Pokémon Speed (Cerulean Cave):** Wild Pokémon are deceptively fast and can out-speed higher-level party members.
-- **SELFDESTRUCT vs. Rock/Ground:** Not very effective.
-- **SELFDESTRUCT vs. Ground:** Neutrally effective but very powerful.
-- **Normal OHKO vs. Normal:** Ineffective against higher-level Normal-types.
-- **Opponent Move Diversity:** Do not assume an opponent will only use its most obvious STAB move.
-- **Type Immunity:** Electric-type moves have no effect on Ground-type Pokémon, regardless of level difference.
+
+## A. Type Effectiveness & Insights
+- **Wild Pokémon Speed (Cerulean Cave):** Wild Pokémon are deceptively fast.
+- **SELFDESTRUCT:** Not very effective vs. Rock/Ground; Neutrally effective vs. Ground.
+- **Type Immunity:** Electric moves have no effect on Ground-types.
 
 ## B. Known Pokemon Locations
 - **Cerulean Cave:** Ditto, Wigglytuff, Electrode, Golem, Raichu, Sandslash, Parasect, Lickitung, Magneton, Dodrio, RHYDON, VICTREEBEL.
