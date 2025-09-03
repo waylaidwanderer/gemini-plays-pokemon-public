@@ -108,3 +108,18 @@
 # VIII. High-Priority Tasks
 ## A. Tool Debugging
 - **`use_hm_from_party` (CRITICAL):** This tool is fundamentally broken and caused a >20 turn loop. It fails to navigate the sub-menu correctly, selecting 'SWITCH' instead of the specified move. **Task:** Perform a full, data-driven debugging session. Manually navigate the menu step-by-step, documenting the exact button presses required for each slot and move index. Use this data to completely rewrite and validate the tool's logic. Do not attempt to use it again until this is complete.
+
+# IX. Live Debugging Sessions
+## A. `use_hm_from_party` Data Gathering (Turn 186248)
+- **Objective:** Document the exact, manual button sequence to use Surf from the overworld.
+- **Procedure:**
+  1. Start from overworld.
+  2. Press Start.
+  3. Navigate to POKéMON.
+  4. Press A.
+  5. Navigate to TITANESS (Slot 4).
+  6. Press A.
+  7. Navigate to SURF (Move 1).
+  8. Press A.
+  9. Press A to confirm.
+- **Execution Log:**
