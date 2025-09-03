@@ -31,6 +31,7 @@
 - **HM Usage:** Must be adjacent to and facing the target object before opening the party menu.
 - **Boulder Pushing:** A multi-turn action. Cannot be done while surfing.
 - **Dead End Definition:** A map is only a dead end if it has only one exit warp/connection and no reachable unseen tiles. The nature of the destination map is irrelevant to this classification.
+- **SURF vs. DIG:** The move SURF will miss an opponent that is underground from using DIG.
 
 ## C. Type Effectiveness & Insights
 - **Wild Pokémon Speed (Cerulean Cave):** Wild Pokémon are deceptively fast.
@@ -107,4 +108,3 @@
   - **Hypothesis 3 (Failed):** Interact directly with Snorlax using 'A'. Result: No effect.
   - **Hypothesis 4 (Success):** The item menu is a single, scrollable list. After selecting 'ITEM' from the main menu, scroll down past the HMs (indicated by a '↓' arrow) to find Key Items like the POKé FLUTE. Using it from this menu wakes the Snorlax.
 - **Menu Cursor Behavior (Critical Lesson):** Menu cursor starting positions are non-deterministic. A single manual test is insufficient to establish a reliable pattern. Tools that navigate menus MUST force a known state (e.g., by repeatedly pressing 'Up' to reset the cursor to the top) rather than assuming a specific starting position. This was the root cause of the `use_hm_from_party` failure loop.
-- **'Menu Analyzer' Tool (TOP PRIORITY):** A tool that can parse screen text from menus to determine cursor position, available options, and list structure. This is critical for creating robust menu navigation tools and avoiding future failure loops.
