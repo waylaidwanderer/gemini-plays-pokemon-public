@@ -126,3 +126,10 @@
 
 # XII. Procedural Lessons & Corrections
 - **Dead End Definition Correction (Turn 185787):** I incorrectly identified an area with 4 reachable warps as a 'dead end'. A true dead end has only one or zero exits. An area with multiple exits is a pathway, not a dead end. This distinction is critical for accurate navigation and validation checks.
+
+# XIII. Tile Mechanics (Addendum)
+- **water**: Requires Surf to cross.
+- **cuttable**: Requires Cut to pass; may respawn.
+
+# XIV. Agent & Tool Development (New Concepts)
+- **`dungeon_navigator` (Agent Concept):** An agent designed for complex, multi-floor dungeons. It would analyze connections between map IDs to plan routes, identify key items or puzzles blocking paths across floors, and avoid getting stuck in loops that a single-map navigator might fall into.
