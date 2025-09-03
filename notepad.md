@@ -30,7 +30,6 @@
 - **Ledges:** One-way traversal only. Can be jumped down, but not climbed up. A jump down from Y to Y+1 lands the player at Y+2.
 - **HM Usage:** Must be used from the Pokémon party menu. A fainted Pokémon cannot use an HM. To use an HM on an object, the player must be standing on an adjacent tile and *facing* the object *before* opening the menu.
 - **Boulder Pushing:** A multi-turn action. Must be adjacent. First press turns/pushes one tile. Subsequent pushes require walking to the new adjacent tile first. Cannot push boulders while surfing.
-- **Menu Input Blocking (CRITICAL):** If the player is facing an impassable tile in the overworld, the corresponding directional input will be blocked within menus. This can abort automated tool sequences. To avoid this, I must ensure I am not facing an obstacle before using a tool that relies on directional inputs.
 - **Dead End Definition:** An area is considered a dead end if it has only one group of reachable exits (warps/map connections) and no reachable unseen tiles.
 
 # III. Battle & Item Knowledge
@@ -78,13 +77,14 @@
 - **`find_path` Limitation:** This tool is limited to single-map navigation and cannot plan routes across disconnected map sections. For complex dungeons, I must rely on manual exploration and my `navigation_troubleshooter` agent.
 
 ## B. Future Development Ideas
+- **`find_path` Tool Improvement:** Refine the tool to provide contextual failure reports, such as identifying the specific obstacle (e.g., 'cuttable_tree') that is blocking a path.
 - **'Stuck Loop Detector' Agent:** Could analyze move history and game state to identify and diagnose repetitive failures, suggesting alternative hypotheses.
 - **'Map Analyzer' Tool/Agent:** A reliable tool to calculate reachable unseen tiles and determine if an area is a dead end to prevent navigational hallucinations.
+- **'High-Level Planner' Agent:** Could analyze the primary goal and suggest a sequence of maps or major objectives to achieve it.
+- **'Team Composition' Agent:** Could analyze the party and PC to suggest optimal teams for specific challenges (e.g., a specific Gym Leader rematch).
+- **'Inventory/PC Summary' Tool:** Could provide a quick summary of current items without manual checking.
 
 # VII. Data-Driven Debugging Logs
 ## A. `use_hm_from_party` Manual Test (Cut)
 - **Attempt 1 (Failure):** Selected 'CUT'. Game returned error "There isn't anything to CUT!". **Conclusion:** Player must be facing the target object *before* opening the menu to use an HM.
 - **Attempt 2 (Success):** Faced tree, then navigated menu. **Discovery:** Party screen cursor position is not reliably at the top. A cursor-resetting sequence (e.g., spamming 'Up') is necessary for a robust tool.
-- **'High-Level Planner' Agent:** Could analyze the primary goal and suggest a sequence of maps or major objectives to achieve it.
-- **'Team Composition' Agent:** Could analyze the party and PC to suggest optimal teams for specific challenges (e.g., a specific Gym Leader rematch).
-- **'Inventory/PC Summary' Tool:** Could provide a quick summary of current items without manual checking.
