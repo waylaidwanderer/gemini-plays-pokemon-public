@@ -100,3 +100,4 @@
 
 ## D. Untested Hypotheses & Development Concepts
 - **`boulder_puzzle_solver_tool` (Tool Concept):** A computational tool to solve the Seafoam Islands boulder puzzles. It would take the map XML as input, identify all boulders, switches, holes, and barriers, and then calculate the optimal sequence of pushes required to solve the puzzle for a given floor.
+- **Dead End Hallucination (Seafoam Islands B2F - Turn 185984):** I repeated my Cerulean City mistake. I incorrectly concluded I was in an isolated dead end on B2F because the path I took led to a dead end on B3F. I failed to check for other reachable warps on B2F before making this assumption. **Corrective Action:** I MUST systematically check ALL reachable warps and map connections using game state data before ever concluding an area is a dead end. A true dead end has one or zero exits.
