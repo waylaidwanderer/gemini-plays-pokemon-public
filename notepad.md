@@ -132,3 +132,9 @@
 
 ## A. `route_20_maze_solver` Refinement Note
 - The tool correctly identified that Route 20 is partitioned by failing to find a path. This is a good outcome, but the tool should be refined to explicitly report "Path failed due to map partition" instead of a generic "No path found." This will provide better diagnostic information for future complex navigation.
+
+# X. Live Debugging Sessions
+## A. `use_hm_from_party` Data Gathering 2 (Turn 186663)
+- **Objective:** Document the exact, manual button sequence to use Surf from the overworld.
+- **Procedure:**
+  - **Turn 186662:** Pressed Start. Menu opens, cursor on 'ITEM'.
