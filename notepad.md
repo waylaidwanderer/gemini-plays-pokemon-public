@@ -25,26 +25,12 @@
 - `💬 Non-Battling NPC`: For NPCs that have been confirmed to not engage in battle.
 - `💖 Healing Zone`: For tiles that provide party healing.
 
-## B. Tile & Movement Mechanics
-- **Traversable Tiles:**
-  - `ground`, `grass`: Standard walkable ground.
-  - `elevated_ground`: Walkable, but only accessible via `steps`.
-  - `steps`: Allows movement between `ground` and `elevated_ground`.
-  - `water`: Requires Surf HM to cross.
-  - `warp`, `ladder_up`, `ladder_down`, `hole`, `teleport`: Tiles that trigger a map transition.
-- **Conditional/One-Way Tiles:**
-  - `ledge`: Can only be jumped down. A jump from (X, Y) lands at (X, Y+2).
-  - `cuttable`: An obstacle that can be temporarily cleared with Cut HM.
-  - `boulder_switch`: A tile that a boulder can be pushed onto.
-- **Impassable Tiles:**
-  - `impassable`: Standard walls, objects, trees, etc.
-  - `boulder_barrier`: A wall that is removed when a corresponding `boulder_switch` is activated.
-- **Special Mechanics:**
-  - **Healing Zone:** A tile described as a "purified, protected zone" that fully heals all Pokémon in the party's HP and restores all their PP.
-  - **Menu Input Blocking (CRITICAL):** Facing an impassable tile blocks that directional input in menus.
-  - **HM Usage:** Must be adjacent to and facing the target object before opening the party menu.
-  - **Boulder Pushing:** A multi-turn action. Cannot be done while surfing.
-  - **Dead End Definition:** A map is only a dead end if it has only one exit warp/connection and no reachable unseen tiles. The nature of the destination map is irrelevant to this classification.
+## B. Special Mechanics & Discoveries
+- **Healing Zone:** A tile described as a "purified, protected zone" that fully heals all Pokémon in the party's HP and restores all their PP.
+- **Menu Input Blocking (CRITICAL):** Facing an impassable tile blocks that directional input in menus.
+- **HM Usage:** Must be adjacent to and facing the target object before opening the party menu.
+- **Boulder Pushing:** A multi-turn action. Cannot be done while surfing.
+- **Dead End Definition:** A map is only a dead end if it has only one exit warp/connection and no reachable unseen tiles. The nature of the destination map is irrelevant to this classification.
 
 ## C. Type Effectiveness & Insights
 - **Wild Pokémon Speed (Cerulean Cave):** Wild Pokémon are deceptively fast.
@@ -105,12 +91,11 @@
 - **'Team Composition' Agent:** Could analyze the party and PC to suggest optimal teams for specific challenges (e.g., a specific Gym Leader rematch).
 - **'Inventory/PC Summary' Tool:** Could provide a quick summary of current items without manual checking.
 - **'Wild Battle Automator V2' Agent:** An advanced version of the current tool that can handle non-trivial battles. It would analyze type matchups, select the best move from the full moveset (not just the first), and even recommend switching Pokémon if the current matchup is unfavorable.
-  - **Improvement Idea (per Overwatch):** Instead of a small, hardcoded type dictionary, create a more robust solution, such as a dedicated 'type-checker' tool or a process to systematically expand the internal dictionary to prevent future failures.
 - **'PC Summary' Tool:** A tool to quickly parse and display a summary of Pokémon stored in the PC, including species, level, and moves. This would save time compared to manually checking the PC.
 - **'Grinding Spot Recommender' Agent:** An agent that analyzes my notepad's 'Known Pokemon Locations' section and my current party to suggest optimal grinding locations based on type advantages and EXP yield.
 - **'Menu Analyzer' Tool (TOP PRIORITY):** A tool that can parse screen text from menus to determine cursor position, available options, and list structure. This is critical for creating robust menu navigation tools and avoiding future failure loops.
 - **'Pattern Recognition' Agent:** An agent that could analyze map sprite lists and existing map markers to identify patterns (e.g., 'all NPCs in this area are non-battlers') and form high-level hypotheses to guide exploration.
-- **'Get Tool Code' Tool:** A tool to retrieve the Python script of an existing custom tool to allow for easier editing and debugging.
+- **'Dynamic Type Chart Builder' Tool:** A long-term project to create a tool that parses battle text (e.g., "It's super effective!") to systematically build a complete and verified type effectiveness chart for this ROM hack. This would replace the brittle hardcoded dictionaries in other tools.
 
 ## C. Data-Driven Debugging Logs
 - **`use_hm_from_party` Manual Test (Cut):**
