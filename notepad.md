@@ -25,6 +25,11 @@
 - `💬 Non-Battling NPC`: For NPCs that have been confirmed to not engage in battle.
 
 ## B. Tile & Movement Mechanics
+- **Basic Tiles:**
+  - `ground`, `elevated_ground`, `steps`, `grass`: Standard traversable tiles.
+  - `impassable`: Walls, objects, and other solid barriers.
+  - `water`: Requires Surf to cross.
+  - `warp`: Teleports the player to another location.
 - **Menu Input Blocking (CRITICAL):** If the player is facing an impassable tile in the overworld, the corresponding directional input will be blocked within menus. This can abort automated tool sequences. To avoid this, I must ensure I am not facing an obstacle before using a tool that relies on directional inputs.
 - **Cuttable Trees:** Can respawn after being cut.
 - **Ledges:** One-way traversal only. Can be jumped down, but not climbed up. A jump down from Y to Y+1 lands the player at Y+2.
