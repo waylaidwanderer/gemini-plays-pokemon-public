@@ -138,3 +138,6 @@
 - **Objective:** Document the exact, manual button sequence to use Surf from the overworld.
 - **Procedure:**
   - **Turn 186662:** Pressed Start. Menu opens, cursor on 'ITEM'.
+
+# XII. Core Debugging & Development Principles
+- **Data-Driven Debugging (CRITICAL LESSON):** My repeated failures with menu-navigation tools (`use_hm_from_party`, `switch_pokemon_navigator`) stemmed from attempting to fix them based on assumptions rather than evidence. **Corrective Action:** Before writing or fixing any tool that interacts with a menu, I MUST first manually navigate the menu step-by-step, meticulously documenting the exact button presses and cursor behavior. This data gathering is a mandatory prerequisite to any coding and must be used to establish ground truth. Failure to do so is a guaranteed path to repeated critical failures.
