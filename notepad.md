@@ -23,20 +23,27 @@
 - `🚫 Dead End`: For paths that have been confirmed to lead nowhere.
 - `🗝️ Puzzle Solved/Obstacle Cleared`: For puzzles or obstacles that have been overcome.
 - `💬 Non-Battling NPC`: For NPCs that have been confirmed to not engage in battle.
+- `💖 Healing Zone`: For tiles that provide party healing.
 
 ## B. Tile & Movement Mechanics
-- **Basic Tiles:**
-  - `ground`, `elevated_ground`, `steps`, `grass`: Standard traversable tiles.
-  - `impassable`: Walls, objects, and other solid barriers.
-  - `water`: Requires Surf to cross.
-  - `warp`: Teleports the player to another location.
-- **Menu Input Blocking (CRITICAL):** If the player is facing an impassable tile in the overworld, the corresponding directional input will be blocked within menus. This can abort automated tool sequences. To avoid this, I must ensure I am not facing an obstacle before using a tool that relies on directional inputs.
-- **Cuttable Trees:** Can respawn after being cut.
-- **Ledges:** One-way traversal only. Can be jumped down, but not climbed up. A jump down from Y to Y+1 lands the player at Y+2.
-- **HM Usage:** Must be used from the Pokémon party menu. A fainted Pokémon cannot use an HM. To use an HM on an object, the player must be standing on an adjacent tile and *facing* the object *before* opening the menu.
-- **Item Menu Anomaly:** Selecting 'ITEM' from the main menu can sometimes lead to an HM-only list, not the full inventory. The trigger for this is currently unknown. To use an HM on an object, the player must be standing on an adjacent tile and *facing* the object *before* opening the menu.
-- **Boulder Pushing:** A multi-turn action. Must be adjacent. First press turns/pushes one tile. Subsequent pushes require walking to the new adjacent tile first. Cannot push boulders while surfing.
-- **Dead End Definition:** An area is considered a dead end if it has only one group of reachable exits (warps/map connections) and no reachable unseen tiles.
+- **Traversable Tiles:**
+  - `ground`, `grass`: Standard walkable ground.
+  - `elevated_ground`: Walkable, but only accessible via `steps`.
+  - `steps`: Allows movement between `ground` and `elevated_ground`.
+  - `water`: Requires Surf HM to cross.
+  - `warp`, `ladder_up`, `ladder_down`, `hole`, `teleport`: Tiles that trigger a map transition.
+- **Conditional/One-Way Tiles:**
+  - `ledge`: Can only be jumped down. A jump from (X, Y) lands at (X, Y+2).
+  - `cuttable`: An obstacle that can be temporarily cleared with Cut HM.
+  - `boulder_switch`: A tile that a boulder can be pushed onto.
+- **Impassable Tiles:**
+  - `impassable`: Standard walls, objects, trees, etc.
+  - `boulder_barrier`: A wall that is removed when a corresponding `boulder_switch` is activated.
+- **Special Mechanics:**
+  - **Menu Input Blocking (CRITICAL):** Facing an impassable tile blocks that directional input in menus.
+  - **HM Usage:** Must be adjacent to and facing the target object before opening the party menu.
+  - **Boulder Pushing:** A multi-turn action. Cannot be done while surfing.
+  - **Dead End Definition:** An area with only one exit group and no reachable unseen tiles.
 
 # III. Battle & Item Knowledge
 
@@ -47,6 +54,7 @@
 
 ## B. Known Pokemon Locations
 - **Cerulean Cave:** Ditto, Wigglytuff, Electrode, Golem, Raichu, Sandslash, Parasect, Lickitung, Magneton, Dodrio, RHYDON, VICTREEBEL.
+- **Pokémon Tower:** GASTLY.
 
 ## C. Item & Store Data
 ### Item Locations & Vendors
