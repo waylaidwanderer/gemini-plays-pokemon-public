@@ -88,8 +88,8 @@
 
 # VIII. High-Priority Tasks
 ## A. Tool Debugging
-- **`use_hm_from_party` (CRITICAL):** This tool is fundamentally broken and caused a >20 turn loop. It fails to navigate the sub-menu correctly, selecting 'SWITCH' instead of the specified move. **Task:** Perform a full, data-driven debugging session. Manually navigate the menu step-by-step, documenting the exact button presses required for each slot and move index. Use this data to completely rewrite and validate the tool's logic. Do not attempt to use it again until this is complete.
-- **`switch_pokemon_navigator` (CRITICAL):** This tool has failed twice in a row, selecting the wrong Pokémon (slot 5, then slot 3) when slot 4 was the target. The cursor-resetting logic is fundamentally flawed and cannot be trusted. **Task:** Perform a full, data-driven debugging session as soon as possible. Do not use this tool again until it is completely rewritten and validated.
+- **`use_hm_from_party` (CRITICAL):** Fundamentally broken. Requires full data-driven rewrite before next use.
+- **`switch_pokemon_navigator` (CRITICAL):** Cursor-reset logic is flawed. Requires full data-driven rewrite before next use.
 
 # IX. Live Debugging Sessions
 ## A. `use_hm_from_party` Data Gathering (Turn 186248)
