@@ -11,7 +11,7 @@
 ## B. Key Lessons Learned
 - **Tool Maintenance is NOT a 'Task':** Listing tool repair as a 'to-do' item is a form of procrastination and a violation of D1. Tool refinement must be the immediate next action upon identifying a flaw.
 - **Data-Driven Debugging is Mandatory:** Before writing or fixing any tool that interacts with a menu, I MUST first manually navigate the menu to observe and document its exact structure and cursor behavior. Assuming menu behavior without gathering data is a guaranteed failure.
-- **Confirmation Bias Kills Progress:** I have a history of repeating failed actions (e.g., `use_hm_from_party` tool) or blaming tools for my own errors. I must trust my tools' outputs (like a calculated path) and meticulously verify my own actions before concluding a tool is faulty. When stuck, I MUST use my `puzzle_solver_agent` to generate new, testable hypotheses.
+- **Confirmation Bias Kills Progress:** I have a history of repeating failed actions (e.g., trying the broken `use_hm_from_party` tool 3 times before debugging) or blaming tools for my own errors. I must trust my tools' outputs (like a calculated path) and meticulously verify my own actions before concluding a tool is faulty. When stuck, I MUST use my `puzzle_solver_agent` to generate new, testable hypotheses.
 - **Navigational Hallucinations are Real:** I have a history of incorrectly concluding I am trapped or misidentifying map states (dead ends, unseen tiles). I must develop a tool for reliable map analysis and trust system warnings.
 
 # II. Game & World Mechanics
@@ -109,6 +109,7 @@
 - **'PC Summary' Tool:** A tool to quickly parse and display a summary of Pokémon stored in the PC, including species, level, and moves. This would save time compared to manually checking the PC.
 - **'Grinding Spot Recommender' Agent:** An agent that analyzes my notepad's 'Known Pokemon Locations' section and my current party to suggest optimal grinding locations based on type advantages and EXP yield.
 - **'Menu Analyzer' Tool:** A tool that can parse screen text from menus to determine cursor position, available options, and list structure. This would be invaluable for debugging and creating robust menu navigation tools.
+- **'Pattern Recognition' Agent:** An agent that could analyze map sprite lists and existing map markers to identify patterns (e.g., 'all NPCs in this area are non-battlers') and form high-level hypotheses to guide exploration.
 
 ## C. Data-Driven Debugging Logs
 - **`use_hm_from_party` Manual Test (Cut):**
