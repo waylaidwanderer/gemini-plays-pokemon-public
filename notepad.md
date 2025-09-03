@@ -122,3 +122,4 @@
   - **Hypothesis 4 (Success):** The item menu is a single, scrollable list. After selecting 'ITEM' from the main menu, scroll down past the HMs (indicated by a '↓' arrow) to find Key Items like the POKé FLUTE. Using it from this menu wakes the Snorlax.
 - **`use_hm_from_party` Manual Test (Fly - Pallet Town):**
   - **Step 1 (Open Menu):** Pressed 'Start'. Cursor defaults to 'POKéMON'. Result: Success.
+  - **Step 2 (Enter Party):** Pressed 'A'. Cursor defaults to slot 2 (CRAG). Result: Success.
