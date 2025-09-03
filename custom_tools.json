@@ -995,7 +995,7 @@
         "move_index"
       ]
     },
-    "python_script": "import json\n\nslot = int(input_data['pokemon_slot'])\nmove_idx = int(input_data['move_index'])\n\nbuttons = []\n\n# Open Start Menu\nbuttons.append('Start')\n\n# --- Main Menu Navigation ---\n# Reset cursor to top (POKéDEX) - 6 items in menu\nfor _ in range(5):\n    buttons.append('Up')\n# Navigate down to POKéMON (1 down press)\nbuttons.append('Down')\nbuttons.append('A')\n\n# --- Party Menu Navigation ---\n# Reset cursor to top (Slot 1) - 6 pokemon in party\nfor _ in range(5):\n    buttons.append('Up')\n# Navigate to target slot\nfor _ in range(slot - 1):\n    buttons.append('Down')\nbuttons.append('A')\n\n# --- Sub-Menu Navigation ---\n# The cursor auto-selects the first usable field move.\n# However, to be robust, we will navigate from the top.\n# There are 4 moves + STATS + SWITCH + CANCEL = 7 items\n# The first item is always a move. We assume HMs are listed before STATS.\nfor _ in range(6):\n    buttons.append('Up')\n# Navigate to target move index\nfor _ in range(move_idx):\n    buttons.append('Down')\nbuttons.append('A')\n\n# Confirm using the move in the overworld\nbuttons.append('A')\n\nprint(json.dumps(buttons))",
+    "python_script": "import json\nimport sys\n\ntry:\n    pokemon_slot = int(input_data['pokemon_slot'])\n    move_index = int(input_data['move_index'])\n\n    if not (1 <= pokemon_slot <= 6):\n        print(json.dumps({'error': 'pokemon_slot must be between 1 and 6'}))\n        sys.exit()\n    if not (0 <= move_index <= 3):\n        print(json.dumps({'error': 'move_index must be between 0 and 3'}))\n        sys.exit()\n\n    buttons = []\n    buttons.append('Start')\n    buttons.append('Down')\n    buttons.append('A')\n\n    buttons.extend(['Up'] * 5)\n    buttons.extend(['Down'] * (pokemon_slot - 1))\n    buttons.append('A')\n\n    buttons.extend(['Up'] * 5)\n    buttons.extend(['Down'] * move_index)\n    buttons.append('A')\n\n    buttons.append('A')\n\n    print(json.dumps(buttons))\n\nexcept Exception as e:\n    print(json.dumps({'error': f'Script failed: {e}'}))\n",
     "history": [
       {
         "commit_message": "feat: Create use_hm_from_party tool. This tool automates the multi-step menu navigation required to use an HM move from the party screen. It was created to reliably use Surf in Cerulean City, adhering to the core directive of proactive automation for repetitive tasks.",
@@ -1186,6 +1186,11 @@
         "commit_message": "fix: Complete rewrite based on manual data gathering. All previous versions failed due to incorrect assumptions about menu behavior. This version implements a robust, deterministic cursor-resetting strategy for all menus (main, party, sub-menu) and correctly navigates to the specified Pokémon and move. This addresses the long-standing critical failure and adheres to the data-driven debugging process mandated by Overwatch.",
         "timestamp": "2025-09-03T05:36:36.967Z",
         "action_counter": 186210
+      },
+      {
+        "commit_message": "fix: Remove faulty main menu cursor reset. The previous version used repeated 'Up' presses to reset the main menu cursor, which failed if the player was standing against a northern wall. This commit replaces that flawed logic with a single 'Down' press, relying on the fact that the menu cursor always starts at the top ('POKéDEX') when opened. This makes the tool reliable regardless of player position.",
+        "timestamp": "2025-09-03T06:45:09.827Z",
+        "action_counter": 186345
       }
     ]
   }
