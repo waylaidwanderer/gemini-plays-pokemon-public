@@ -108,7 +108,7 @@
   - **Improvement Idea (per Overwatch):** Instead of a small, hardcoded type dictionary, create a more robust solution, such as a dedicated 'type-checker' tool or a process to systematically expand the internal dictionary to prevent future failures.
 - **'PC Summary' Tool:** A tool to quickly parse and display a summary of Pokémon stored in the PC, including species, level, and moves. This would save time compared to manually checking the PC.
 - **'Grinding Spot Recommender' Agent:** An agent that analyzes my notepad's 'Known Pokemon Locations' section and my current party to suggest optimal grinding locations based on type advantages and EXP yield.
-- **'Menu Analyzer' Tool:** A tool that can parse screen text from menus to determine cursor position, available options, and list structure. This would be invaluable for debugging and creating robust menu navigation tools.
+- **'Menu Analyzer' Tool (TOP PRIORITY):** A tool that can parse screen text from menus to determine cursor position, available options, and list structure. This is critical for creating robust menu navigation tools and avoiding future failure loops.
 - **'Pattern Recognition' Agent:** An agent that could analyze map sprite lists and existing map markers to identify patterns (e.g., 'all NPCs in this area are non-battlers') and form high-level hypotheses to guide exploration.
 
 ## C. Data-Driven Debugging Logs
@@ -121,4 +121,4 @@
   - **Hypothesis 3 (Failed):** Interact directly with Snorlax using 'A'. Result: No effect.
   - **Hypothesis 4 (Success):** The item menu is a single, scrollable list. After selecting 'ITEM' from the main menu, scroll down past the HMs (indicated by a '↓' arrow) to find Key Items like the POKé FLUTE. Using it from this menu wakes the Snorlax.
 - **Menu Cursor Behavior (Critical Lesson):** Menu cursor starting positions are non-deterministic. A single manual test is insufficient to establish a reliable pattern. Tools that navigate menus MUST force a known state (e.g., by repeatedly pressing 'Up' to reset the cursor to the top) rather than assuming a specific starting position. This was the root cause of the `use_hm_from_party` failure loop.
-- **'Menu Analyzer' Tool:** A tool that can parse screen text from menus to determine cursor position, available options, and list structure. This would be invaluable for debugging and creating robust menu navigation tools.
+- **'Menu Analyzer' Tool (TOP PRIORITY):** A tool that can parse screen text from menus to determine cursor position, available options, and list structure. This is critical for creating robust menu navigation tools and avoiding future failure loops.
