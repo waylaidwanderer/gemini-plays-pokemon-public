@@ -1,4 +1,5 @@
 # I. Core Directives & Lessons Learned
+
 ## A. Core Directives
 - **D1: IMMEDIATE DATA MANAGEMENT:** All data management (notepad, markers, tool/agent refinement) is the HIGHEST priority and MUST be performed in the same turn a need is identified.
 - **D2: ACT ON DOCUMENTATION:** A documented lesson that does not result in a behavioral change is a critical failure.
@@ -8,18 +9,11 @@
 - **D6: PROACTIVE AGENT USE:** I must leverage existing agents for complex puzzles instead of defaulting to manual trial-and-error.
 - **D7: ADHERE TO DATA STANDARDS:** My automation tools depend on consistent map markers. Failure to adhere to my own standards is a self-inflicted critical failure.
 
-## B. Lessons Learned from Critiques & Self-Assessments
-- **Confirmation Bias & Data Integrity:** I have a history of repeating failed actions instead of hypothesizing alternatives (e.g., Silph Co. Elevator, `use_hm_from_party` debugging). This is often compounded by inconsistent data management (map markers, tool inputs). **Corrective Action:** I must actively seek to disprove my own assumptions, use agents like `puzzle_solver_agent` when stuck, and adhere strictly to my own data standards.
-- **Procedural Lessons:** I must act on data/tool needs in the same turn (LLM Reality). Data management and analysis must be in separate turns (Tool Execution Order).
-- **Navigational Hallucinations:** I have a history of incorrectly concluding I am trapped (Silph Co. 5F, Cerulean City, Seafoam Islands B2F). I must use `navigation_troubleshooter` to verify exits before assuming a dead end.
-- **Procrastination on Maintenance (CRITICAL LESSON):** I have a history of deferring critical tool/agent maintenance by setting it as a 'goal' or adding it to a 'to-do list'. This is a direct violation of D1 (IMMEDIATE DATA MANAGEMENT) and a misunderstanding of my nature as an LLM. Maintenance is not a goal; it is an immediate, high-priority action that must never be deferred.
-- **Confirmation Bias (Silph Co. Elevator):** I fell into a severe loop attempting the same failed action. This was a critical failure to act on documented knowledge and abandon a failed hypothesis. **Corrective Action:** When stuck, I MUST use my `puzzle_solver_agent` to generate new hypotheses.
-- **Self-Assessment (Silph Co. Elevator):** I failed to proactively automate a repetitive task (`elevator_navigator`) and fell into a confirmation bias loop by repeating a failed action instead of hypothesizing and testing alternatives. This highlights a critical need to act on my core directives immediately.
-- **Flawed Debugging Process:** I have a history of attempting to fix tools based on untested assumptions (e.g., `use_hm_from_party` menu navigation). **Corrective Action:** Before writing or fixing any tool that interacts with a menu, I MUST first manually navigate the menu to observe and document its exact structure and cursor behavior. Data gathering must precede coding.
-- **Failure of Proactive Agent Use (Badge House Hallucination):** I failed to use the `puzzle_solver_agent` to break my severe, multi-turn hallucination loop while stuck in the Badge House. I must be more proactive in using my cognitive agents for complex problem-solving, not just environmental puzzles.
-- **Catastrophic Tool Debugging Failure (`use_hm_from_party`):** A >50 turn loop occurred from violating core directives by repeatedly trying to fix a broken tool with untested assumptions. The correct process is to stop, abandon the failed hypothesis, gather data manually, then redefine the tool.
-- **Navigational Hallucinations:** I have a history of incorrectly concluding I am trapped (Silph Co. 5F, Cerulean City, Seafoam Islands B2F). I must use `navigation_troubleshooter` to verify exits before assuming a dead end.
-- **Procrastination on Maintenance (CRITICAL LESSON):** I have a history of deferring critical tool/agent maintenance by setting it as a 'goal' or adding it to a 'to-do list'. This is a direct violation of D1 (IMMEDIATE DATA MANAGEMENT) and a misunderstanding of my nature as an LLM. Maintenance is not a goal; it is an immediate, high-priority action that must never be deferred.
+## B. Key Lessons Learned
+- **LLM Reality & Procrastination:** Deferring critical maintenance (tools, agents, data) by setting it as a 'goal' is a critical failure. Maintenance is an immediate, high-priority action that must never be deferred.
+- **Data-Driven Debugging:** Before writing or fixing any tool that interacts with a menu, I MUST first manually navigate the menu to observe and document its exact structure and cursor behavior. Data gathering must precede coding.
+- **Confirmation Bias:** I have a history of repeating failed actions (e.g., Silph Co. Elevator). When stuck, I MUST use my `puzzle_solver_agent` to generate new hypotheses.
+- **Navigational Hallucinations:** I have a history of incorrectly concluding I am trapped. I must use `navigation_troubleshooter` to verify exits before assuming a dead end.
 
 # II. Game Mechanics & World Knowledge
 ## A. Map Marker System
