@@ -47,14 +47,14 @@
 - **4F:** Sells POKé DOLL and evolution stones (FIRE, THUNDER, WATER).
 - **2F:** Sells POKé BALLs, Potions, and TMs (MEGPNCH, RZRWIND, etc.).
 
-# V. Navigation Strategy
+# IV. Navigation Strategy
 ## A. Cerulean City Navigation
 - The city is divided by a river. The western section (where you arrive from Route 4) and the eastern section (where the path to Route 9 is) are separated. To cross between them, I must use Surf.
 
 ## B. Mt. Moon Navigation
 - **Two Entrances:** There are two entrances to Mt. Moon from Route 4. The western entrance at (19, 6) leads to an isolated, dead-end section. The eastern entrance at (25, 6) leads to the main cave system and the path forward to Cerulean City.
 
-# VI. Puzzles & Obstacles
+# V. Puzzles & Obstacles
 
 ## A. Solved Puzzles
 - **Silph Co. Gate Mechanic:** Standing adjacent to a closed gate and pressing 'A' automatically uses the CARD KEY to open it.
@@ -65,23 +65,10 @@
 - **Movement:** Pushing is a multi-turn action. Must be adjacent. First press turns/pushes. Subsequent pushes require moving to the new adjacent tile first.
 - **Surfing Limitation:** Cannot push boulders while surfing (confirmed on Seafoam Islands B3F).
 
-# VII. Agent & Tool Development
-## A. Tool Notes & Limitations
-- **`find_path` Tool Limitation:** The `find_path` tool is limited to single-map navigation and cannot plan routes that require using warps to connect otherwise disconnected areas on the same map. For complex, multi-map or multi-section dungeons, I must rely on manual exploration and my `navigation_troubleshooter` agent.
-- **Procedural Lesson (Tool Execution Order):** A tool that reads map data (like map markers) cannot see changes made by another tool (like `define_map_marker`) in the same `tools_to_call` array. Data management and data analysis must happen in separate, sequential turns.
-- **CRITICAL LESSON (use_hm_from_party):** Menu cursor starting positions are NOT static or predictable. Any tool that navigates a menu MUST first reset the cursor to a known state (e.g., by pressing 'Up' multiple times) before attempting to navigate. Assuming a static start position is a guaranteed failure.
-
-## B. Completed Development Tasks
-- **`path_trap_detector` Test (Completed):** Successfully tested on a valid ledge jump on Route 4. The tool is now considered validated and functional.
-
-## C. Debunked Hypotheses
-- **Cinnabar Gym Access:** The SECRET KEY was in the PC, not the Pokémon Mansion.
-
-## D. Development Concepts
-- **`dungeon_navigator_agent`:** An agent for complex, multi-floor dungeons.
-- **`route_clearer_tool`:** A tool to calculate optimal paths to visit all un-marked trainers on a route.
-- **`boulder_puzzle_solver_tool`:** A tool to solve boulder puzzles.
-- **`saffron_gym_maze_solver`:** A tool to solve the Saffron Gym teleporter maze.
+# VI. Agent & Tool Development Principles
+- **Data-Driven Debugging (CRITICAL):** My repeated failures with menu-navigation tools (`use_hm_from_party`, `switch_pokemon_navigator`) stemmed from fixing them based on assumptions rather than evidence. **Corrective Action:** Before writing or fixing any tool that interacts with a menu, I MUST first manually navigate it step-by-step, meticulously documenting the exact button presses and cursor behavior. This data gathering is a mandatory prerequisite to any coding.
+- **Tool Execution Order:** A tool that reads map data cannot see changes made by another tool in the same turn. Data management and data analysis must happen in separate, sequential turns.
+- **`find_path` Limitation:** This tool is limited to single-map navigation and cannot plan routes across disconnected map sections. For complex dungeons, I must rely on manual exploration and my `navigation_troubleshooter` agent.
 
 # VIII. High-Priority Tasks
 ## A. Tool Debugging
