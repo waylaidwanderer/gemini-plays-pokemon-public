@@ -15,27 +15,24 @@
 - **Confirmation Bias:** I have a history of repeating failed actions (e.g., Silph Co. Elevator). When stuck, I MUST use my `puzzle_solver_agent` to generate new hypotheses.
 - **Navigational Hallucinations:** I have a history of incorrectly concluding I am trapped. I must use `navigation_troubleshooter` to verify exits before assuming a dead end.
 
-# II. Game Mechanics & World Knowledge
+# II. Game & World Mechanics
+
 ## A. Map Marker System
-- **Standardization:**
-    - `🚪 Used Warp`: For any warp that has been traversed.
-    - `☠️ Defeated Trainer`: For any trainer that has been battled.
-    - `✅ Item Picked Up`: For any overworld item that has been collected.
-    - `🚫 Dead End`: For paths that have been confirmed to lead nowhere.
-    - `🗝️ Puzzle Solved/Obstacle Cleared`: For puzzles or obstacles that have been overcome.
-    - `🔄 Trap/Loop`: For tiles or warps that are part of a confusing loop or trap.
-    - `💬 Non-Battling NPC`: For NPCs that have been confirmed to not engage in battle.
+- `🚪 Used Warp`: For any warp that has been traversed.
+- `☠️ Defeated Trainer`: For any trainer that has been battled.
+- `✅ Item Picked Up`: For any overworld item that has been collected.
+- `🚫 Dead End`: For paths that have been confirmed to lead nowhere.
+- `🗝️ Puzzle Solved/Obstacle Cleared`: For puzzles or obstacles that have been overcome.
+- `🔄 Trap/Loop`: For tiles or warps that are part of a confusing loop or trap.
+- `💬 Non-Battling NPC`: For NPCs that have been confirmed to not engage in battle.
 
-## B. Verified NPC Interactions
-- **Magikarp Salesman:** Confirmed he is a one-time interaction and will not sell another Magikarp.
+## B. Tile & Movement Mechanics
+- **Cuttable Trees:** Can respawn after being cut (observed on Route 12).
+- **HM Usage:** Must be used from the Pokémon party menu. A fainted Pokémon cannot use an HM. To use Surf, the player must be standing on a tile directly adjacent to a water tile and be facing it.
+- **Boulder Pushing:** A multi-turn action. You must be adjacent. First press turns/pushes one tile. Subsequent pushes require walking to the new adjacent tile first. Cannot push boulders while surfing.
 
-## C. World Mechanics & Discoveries
-- **Respawning Obstacles:** Cuttable trees can respawn after being cut. This was observed on Route 12 at coordinate (10, 100).
-
-## D. HM Usage Mechanic
-- HMs must be used from the Pokémon party menu, not the item menu.
-- A fainted Pokémon cannot use an HM move from the party menu.
-- To use Surf, the player must be standing on a tile directly adjacent to a water tile and be facing it.
+## C. NPC Interactions & World State
+- **Magikarp Salesman:** One-time interaction.
 
 # III. Battle Knowledge
 ## A. Type Effectiveness & Battle Insights
