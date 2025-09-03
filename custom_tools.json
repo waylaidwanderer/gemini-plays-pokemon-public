@@ -932,15 +932,19 @@
         },
         "active_pokemon_name": {
           "type": "string"
+        },
+        "player_party_moves_pp_json": {
+          "type": "string"
         }
       },
       "required": [
         "player_party_json",
         "enemy_pokemon_json",
-        "active_pokemon_name"
+        "active_pokemon_name",
+        "player_party_moves_pp_json"
       ]
     },
-    "python_script": "import json\nimport sys\n\ntry:\n    player_party = json.loads(input_data['player_party_json'])\n    enemy_data = json.loads(input_data['enemy_pokemon_json'])\n    active_pokemon_name = input_data['active_pokemon_name']\n\n    # Handle both single object and list with a single object\n    if isinstance(enemy_data, list):\n        enemy_pokemon = enemy_data[0]\n    else:\n        enemy_pokemon = enemy_data\n\n    player_active_pokemon = None\n    for p in player_party:\n        if p['name'] == active_pokemon_name:\n            player_active_pokemon = p\n            break\n            \n    if not player_active_pokemon:\n        print(json.dumps([]))\n        sys.exit()\n\n    player_level = player_active_pokemon['level']\n    enemy_level = enemy_pokemon['level']\n\n    if enemy_pokemon.get('trainer_name') is None and (player_level - enemy_level) >= 20:\n        print(json.dumps([\"A\", \"A\"]))\n    else:\n        print(json.dumps([]))\n\nexcept Exception as e:\n    print(json.dumps([]))",
+    "python_script": "import json\nimport sys\n\ntry:\n    player_party = json.loads(input_data['player_party_json'])\n    enemy_data = json.loads(input_data['enemy_pokemon_json'])\n    active_pokemon_name = input_data['active_pokemon_name']\n    moves_pp_data = json.loads(input_data['player_party_moves_pp_json'])\n\n    if isinstance(enemy_data, list):\n        enemy_pokemon = enemy_data[0]\n    else:\n        enemy_pokemon = enemy_data\n\n    player_active_pokemon = None\n    active_pokemon_index = -1\n    for i, p in enumerate(player_party):\n        if p['name'] == active_pokemon_name:\n            player_active_pokemon = p\n            active_pokemon_index = i\n            break\n            \n    if not player_active_pokemon:\n        print(json.dumps([]))\n        sys.exit()\n\n    # Check PP of the first move\n    first_move_pp = moves_pp_data[active_pokemon_index]['moves'][0]['pp']\n    if first_move_pp == 0:\n        print(json.dumps([]))\n        sys.exit()\n\n    player_level = player_active_pokemon['level']\n    enemy_level = enemy_pokemon['level']\n\n    if enemy_pokemon.get('trainer_name') is None and (player_level - enemy_level) >= 20:\n        print(json.dumps([\"A\", \"A\"]))\n    else:\n        print(json.dumps([]))\n\nexcept Exception as e:\n    print(json.dumps([]))",
     "history": [
       {
         "commit_message": "feat: Create trivial_battle_automator tool. This tool addresses an Overwatch critique by proactively automating repetitive wild battles in the Power Plant, adhering to Directive 5. It checks for a significant level disparity against wild Pokémon and, if met, outputs the button presses to use the first move, streamlining exploration.",
@@ -961,6 +965,11 @@
         "commit_message": "fix: Correctly identify active Pokémon by nickname. The tool was failing because it compared the active Pokémon's nickname (`active_pokemon_name`) to the species name (`p['species']`) from the party data. This commit changes the comparison to use the correct field (`p['name']`), ensuring the tool can correctly identify the active Pokémon and trigger its automation logic. This addresses a critical failure identified during a mandatory self-assessment.",
         "timestamp": "2025-09-03T01:16:43.984Z",
         "action_counter": 185710
+      },
+      {
+        "commit_message": "fix: Add PP check for first move. The tool previously failed to account for a move having 0 PP, which would cause the automation to select an unusable move. This commit adds a new required input, `player_party_moves_pp_json`, and incorporates logic to check if the first move has PP > 0 before outputting the button presses. This prevents a critical failure state and makes the tool more robust.",
+        "timestamp": "2025-09-03T03:02:22.292Z",
+        "action_counter": 185931
       }
     ]
   },

@@ -93,3 +93,10 @@
 
 ## C. Procedural Lessons (Merged)
 - **Menu Navigation Tools:** Before writing or fixing any tool that interacts with a menu, I MUST first manually navigate the menu step-by-step to observe and document its exact structure and cursor behavior (especially starting positions, which can be variable). Data gathering must always precede coding.
+
+## F. Boulder Puzzle Mechanics
+- **Objective:** Boulders must often be pushed into holes to affect lower floors, typically to block strong water currents and open new paths.
+- **Movement:** Pushing a boulder is a multi-turn action. You must be adjacent to it. The first press turns you to face it (if not already facing) and pushes it one tile. Subsequent pushes require you to walk to the new adjacent tile first.
+
+## D. Untested Hypotheses & Development Concepts
+- **`boulder_puzzle_solver_tool` (Tool Concept):** A computational tool to solve the Seafoam Islands boulder puzzles. It would take the map XML as input, identify all boulders, switches, holes, and barriers, and then calculate the optimal sequence of pushes required to solve the puzzle for a given floor.
