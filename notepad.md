@@ -83,11 +83,8 @@
 - **'High-Level Planner' Agent:** Could analyze the primary goal and suggest a sequence of maps or major objectives to achieve it.
 - **'Team Composition' Agent:** Could analyze the party and PC to suggest optimal teams for specific challenges (e.g., a specific Gym Leader rematch).
 - **'Inventory/PC Summary' Tool:** Could provide a quick summary of current items without manual checking.
-- **`find_path` Tool Improvement:** Refine the tool to provide contextual failure reports, such as identifying the specific obstacle (e.g., 'cuttable_tree') that is blocking a path.
 
 # VII. Data-Driven Debugging Logs
 ## A. `use_hm_from_party` Manual Test (Cut)
 - **Attempt 1 (Failure):** Selected 'CUT'. Game returned error "There isn't anything to CUT!". **Conclusion:** Player must be facing the target object *before* opening the menu to use an HM.
 - **Attempt 2 (Success):** Faced tree, then navigated menu. **Discovery:** Party screen cursor position is not reliably at the top. A cursor-resetting sequence (e.g., spamming 'Up') is necessary for a robust tool.
-- **'High-Level Planner' Agent:** Could analyze the primary goal and suggest a sequence of maps or major objectives to achieve it.
-- **'Inventory/PC Summary' Tool:** Could provide a quick summary of current items without manual checking.
