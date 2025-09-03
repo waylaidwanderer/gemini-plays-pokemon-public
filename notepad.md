@@ -38,6 +38,16 @@
 ## E. World Mechanics & Discoveries
 - **Respawning Obstacles:** Cuttable trees can respawn after being cut. This was observed on Route 12 at coordinate (10, 100).
 
+## F. Tile Mechanics
+- **ground**: Standard walkable tile.
+- **elevated_ground**: Walkable, but only accessible from `steps` tiles.
+- **steps**: Allows movement between `ground` and `elevated_ground`.
+- **impassable**: Walls, cannot be entered.
+- **ladder_up / ladder_down**: Warps between floors.
+- **hole**: A one-way drop to the floor below.
+- **water**: Requires Surf to cross.
+- **cuttable**: Requires Cut to pass; may respawn.
+
 # III. Battle Knowledge
 ## A. Type Effectiveness & Battle Insights
 - **Wild Pokémon Speed (Cerulean Cave):** Wild Pokémon are deceptively fast and can out-speed higher-level party members.
