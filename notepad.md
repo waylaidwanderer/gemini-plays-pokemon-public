@@ -22,16 +22,14 @@
 - `✅ Item Picked Up`: For any overworld item that has been collected.
 - `🚫 Dead End`: For paths that have been confirmed to lead nowhere.
 - `🗝️ Puzzle Solved/Obstacle Cleared`: For puzzles or obstacles that have been overcome.
-- `🔄 Trap/Loop`: For tiles or warps that are part of a confusing loop or trap.
 - `💬 Non-Battling NPC`: For NPCs that have been confirmed to not engage in battle.
 
 ## B. Tile & Movement Mechanics
-- **Cuttable Trees:** Can respawn after being cut (observed on Route 12).
-- **HM Usage:** Must be used from the Pokémon party menu. A fainted Pokémon cannot use an HM. To use Surf, the player must be standing on a tile directly adjacent to a water tile and be facing it.
+- **Cuttable Trees:** Can respawn after being cut.
+- **Ledges:** One-way traversal only. Can be jumped down, but not climbed up.
+- **HM Usage:** Must be used from the Pokémon party menu. A fainted Pokémon cannot use an HM. To use Surf, the player must be standing on a tile directly adjacent to a water tile and facing it.
 - **Boulder Pushing:** A multi-turn action. You must be adjacent. First press turns/pushes one tile. Subsequent pushes require walking to the new adjacent tile first. Cannot push boulders while surfing.
-
-## C. NPC Interactions & World State
-- **Magikarp Salesman:** One-time interaction.
+- **Menu Input Blocking (CRITICAL):** If the player is facing an impassable tile in the overworld, the corresponding directional input will be blocked within menus. This can abort automated tool sequences. To avoid this, I must ensure I am not facing an obstacle before using a tool that relies on directional inputs.
 
 # III. Battle Knowledge
 
