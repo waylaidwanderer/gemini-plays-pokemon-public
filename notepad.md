@@ -75,18 +75,16 @@
 - **CRITICAL LESSON (use_hm_from_party):** Menu cursor starting positions are NOT static or predictable. Any tool that navigates a menu MUST first reset the cursor to a known state (e.g., by pressing 'Up' multiple times) before attempting to navigate. Assuming a static start position is a guaranteed failure.
 
 ## B. Completed Development Tasks
-- **`path_trap_detector` Test (Completed):** Per Overwatch critique, testing this tool became the highest priority. After correcting several navigational hallucinations, I successfully reached Route 4 (west of Mt. Moon) and tested the tool on a valid ledge jump from (11, 11) to (11, 13). The tool correctly identified the ledge jump and accurately determined it was not a trap. The tool is now considered validated and functional.
+- **`path_trap_detector` Test (Completed):** Successfully tested on a valid ledge jump on Route 4. The tool is now considered validated and functional.
 
-## C. Untested Hypotheses & Development Concepts
-## D. Debunked Hypotheses
-- **Cinnabar Gym Access:** I assumed the SECRET KEY was in the Pokémon Mansion. This was false. I failed to check my PC, where the key was already stored.
+## C. Debunked Hypotheses
+- **Cinnabar Gym Access:** The SECRET KEY was in the PC, not the Pokémon Mansion.
 
 ## D. Development Concepts
-- **`dungeon_navigator_agent` (Consolidated Concept):** An agent to handle complex, multi-floor dungeons by analyzing connections between map IDs to plan routes and identify cross-floor puzzles.
-- **`route_clearer_tool` (Consolidated Concept):** A computational tool that takes map XML and defeated trainer markers to calculate an optimal path to visit every *un-marked* trainer on a route.
-- **`boulder_puzzle_solver_tool` (Tool Concept):** A computational tool to solve boulder puzzles by taking map XML and calculating the optimal sequence of pushes.
-- **`saffron_gym_maze_solver` (Tool Concept):** A tool to solve the Saffron Gym teleporter maze by taking the map layout and warp connections as input to deterministically calculate the correct sequence.
-- **Seafoam Islands Connection:** The hole on B2F at (20, 7) leads to B3F at (19, 8).
+- **`dungeon_navigator_agent`:** An agent for complex, multi-floor dungeons.
+- **`route_clearer_tool`:** A tool to calculate optimal paths to visit all un-marked trainers on a route.
+- **`boulder_puzzle_solver_tool`:** A tool to solve boulder puzzles.
+- **`saffron_gym_maze_solver`:** A tool to solve the Saffron Gym teleporter maze.
 
 # VIII. High-Priority Tasks
 ## A. Tool Debugging
