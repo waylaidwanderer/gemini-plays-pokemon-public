@@ -94,9 +94,8 @@
 # V. Agent & Tool Development
 
 ## A. Development Principles
-- **Data-Driven Debugging (CRITICAL):** My repeated failures with menu-navigation tools (`use_hm_from_party`) stemmed from fixing them based on assumptions rather than evidence. **Corrective Action:** Before writing or fixing any tool that interacts with a menu, I MUST first manually navigate it step-by-step, meticulously documenting the exact button presses and cursor behavior. This data gathering is a mandatory prerequisite to any coding.
-- **Tool Execution Order:** A tool that reads map data cannot see changes made by another tool in the same turn. Data management and data analysis must happen in separate, sequential turns.
-- **`find_path` Limitation:** This tool is limited to single-map navigation and cannot plan routes across disconnected map sections. For complex dungeons, I must rely on manual exploration and my `navigation_troubleshooter` agent.
+- **Data-Driven Debugging (CRITICAL):** My repeated failures with menu-navigation tools (`use_hm_from_party`, `switch_pokemon_navigator`) stemmed from fixing them based on assumptions rather than evidence. **Corrective Action:** Before writing or fixing any tool that interacts with a menu, I MUST first manually navigate it step-by-step, meticulously documenting the exact button presses and cursor behavior. This data gathering is a mandatory prerequisite to any coding.
+- **`find_path` Unreliability (High Priority Task):** This tool has repeatedly generated invalid paths. I must perform a systematic debug. **Plan:** Find a simple, contained map. Give the tool a start and end point. Manually verify the generated path against the map XML. If it fails, add debug prints to the tool's code to trace the BFS queue, visited set, and traversability checks to identify the logical error.
 
 ## B. Future Development Ideas
 - **'Execute Battle Action' Tool:** A tool that takes an action type (MOVE/SWITCH) and target (move index/slot number) and outputs the button presses to automate battle menu navigation.
