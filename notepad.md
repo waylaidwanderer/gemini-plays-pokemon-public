@@ -20,6 +20,7 @@
 - **Failure of Proactive Agent Use (Badge House Hallucination):** I failed to use the `puzzle_solver_agent` to break my severe, multi-turn hallucination loop while stuck in the Badge House. I must be more proactive in using my cognitive agents for complex problem-solving, not just environmental puzzles.
 - **Catastrophic Tool Debugging Failure (use_hm_from_party):** For over 50 turns, I violated my core directives by repeatedly trying to fix a broken tool with untested assumptions about static menu cursors. This was a severe confirmation bias loop. The correct process, which I failed to follow, is to immediately stop, abandon the failed hypothesis, gather empirical data via manual testing, and then redefine the tool. This failure wasted significant time and highlights the criticality of a data-driven debugging process.
 - **Tunnel Vision & Dead End Hallucination (Turn 185291):** I incorrectly identified a walled-off area in Cerulean City as a 'dead end' because I was hyper-focused on a single blocked path (a cuttable tree). I completely ignored multiple other reachable warps that served as valid exits. This was a critical failure of situational awareness. **Corrective Action:** Before concluding an area is a dead end, I MUST systematically check all reachable warps and map connections. A true dead end has one or zero exits. An area with multiple exits is a pathway, even if the most obvious route is blocked.
+- **Dead End Hallucination (Seafoam Islands B2F - Turn 185984):** I repeated my Cerulean City mistake. I incorrectly concluded I was in an isolated dead end on B2F because the path I took led to a dead end on B3F. I failed to check for other reachable warps on B2F before making this assumption. **Corrective Action:** I MUST systematically check ALL reachable warps and map connections using game state data before ever concluding an area is a dead end. A true dead end has one or zero exits.
 
 # II. Game Mechanics & World Knowledge
 ## A. Map Marker System
@@ -35,8 +36,13 @@
 ## B. Verified NPC Interactions
 - **Magikarp Salesman:** Confirmed he is a one-time interaction and will not sell another Magikarp.
 
-## E. World Mechanics & Discoveries
+## C. World Mechanics & Discoveries
 - **Respawning Obstacles:** Cuttable trees can respawn after being cut. This was observed on Route 12 at coordinate (10, 100).
+
+## D. HM Usage Mechanic
+- HMs must be used from the Pokémon party menu, not the item menu.
+- A fainted Pokémon cannot use an HM move from the party menu.
+- To use Surf, the player must be standing on a tile directly adjacent to a water tile and be facing it.
 
 # III. Battle Knowledge
 ## A. Type Effectiveness & Battle Insights
@@ -74,6 +80,10 @@
   - **Step 1:** Interact with the control panel at (4, 1) to bring up the floor selection menu.
   - **Step 2:** After selecting a floor, walk onto one of the warp pads at (2, 4) or (3, 4) and press 'Down' to travel.
 
+## B. Boulder Puzzle Mechanics
+- **Objective:** Boulders must often be pushed into holes to affect lower floors, typically to block strong water currents and open new paths.
+- **Movement:** Pushing a boulder is a multi-turn action. You must be adjacent to it. The first press turns you to face it (if not already facing) and pushes it one tile. Subsequent pushes require you to walk to the new adjacent tile first.
+
 # VII. Agent & Tool Development
 ## A. Tool Notes & Limitations
 - **`find_path` Tool Limitation:** The `find_path` tool is limited to single-map navigation and cannot plan routes that require using warps to connect otherwise disconnected areas on the same map. For complex, multi-map or multi-section dungeons, I must rely on manual exploration and my `navigation_troubleshooter` agent.
@@ -90,14 +100,4 @@
 - **`route_verifier_agent` (Agent Concept):** An agent that takes a list of NPCs and defeated trainer markers for a map, then generates a plan to systematically visit and confirm the status of each trainer, ensuring no one is missed.
 - **`route_clearer_tool` (Tool Concept):** A computational tool that takes the map XML and a list of defeated trainer markers, then calculates an optimal path to visit every *un-marked* trainer on the route.
 - **`dungeon_navigator` (Agent Concept):** An agent designed for complex, multi-floor dungeons. It would analyze connections between map IDs to plan routes, identify key items or puzzles blocking paths across floors, and avoid getting stuck in loops that a single-map navigator might fall into.
-
-## C. Procedural Lessons (Merged)
-- **Menu Navigation Tools:** Before writing or fixing any tool that interacts with a menu, I MUST first manually navigate the menu step-by-step to observe and document its exact structure and cursor behavior (especially starting positions, which can be variable). Data gathering must always precede coding.
-
-## F. Boulder Puzzle Mechanics
-- **Objective:** Boulders must often be pushed into holes to affect lower floors, typically to block strong water currents and open new paths.
-- **Movement:** Pushing a boulder is a multi-turn action. You must be adjacent to it. The first press turns you to face it (if not already facing) and pushes it one tile. Subsequent pushes require you to walk to the new adjacent tile first.
-
-## D. Untested Hypotheses & Development Concepts
 - **`boulder_puzzle_solver_tool` (Tool Concept):** A computational tool to solve the Seafoam Islands boulder puzzles. It would take the map XML as input, identify all boulders, switches, holes, and barriers, and then calculate the optimal sequence of pushes required to solve the puzzle for a given floor.
-- **Dead End Hallucination (Seafoam Islands B2F - Turn 185984):** I repeated my Cerulean City mistake. I incorrectly concluded I was in an isolated dead end on B2F because the path I took led to a dead end on B3F. I failed to check for other reachable warps on B2F before making this assumption. **Corrective Action:** I MUST systematically check ALL reachable warps and map connections using game state data before ever concluding an area is a dead end. A true dead end has one or zero exits.
