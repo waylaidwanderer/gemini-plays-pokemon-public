@@ -89,6 +89,7 @@
 ## A. Tool Notes & Limitations
 - **`find_path` Tool Limitation:** The `find_path` tool is limited to single-map navigation and cannot plan routes that require using warps to connect otherwise disconnected areas on the same map. For complex, multi-map or multi-section dungeons, I must rely on manual exploration and my `navigation_troubleshooter` agent.
 - **Procedural Lesson (Tool Execution Order):** A tool that reads map data (like map markers) cannot see changes made by another tool (like `define_map_marker`) in the same `tools_to_call` array. Data management and data analysis must happen in separate, sequential turns.
+- **CRITICAL LESSON (use_hm_from_party):** Menu cursor starting positions are NOT static or predictable. Any tool that navigates a menu MUST first reset the cursor to a known state (e.g., by pressing 'Up' multiple times) before attempting to navigate. Assuming a static start position is a guaranteed failure.
 
 ## B. Completed Development Tasks
 - **`path_trap_detector` Test (Completed):** Per Overwatch critique, testing this tool became the highest priority. After correcting several navigational hallucinations, I successfully reached Route 4 (west of Mt. Moon) and tested the tool on a valid ledge jump from (11, 11) to (11, 13). The tool correctly identified the ledge jump and accurately determined it was not a trap. The tool is now considered validated and functional.
@@ -99,6 +100,7 @@
 - **`multi_map_dungeon_solver` (Agent Concept):** An agent to handle complex, multi-floor dungeons like Rock Tunnel or Cerulean Cave by planning routes across different map IDs.
 - **`route_verifier_agent` (Agent Concept):** An agent that takes a list of NPCs and defeated trainer markers for a map, then generates a plan to systematically visit and confirm the status of each trainer, ensuring no one is missed.
 - **`route_clearer_tool` (Tool Concept):** A computational tool that takes the map XML and a list of defeated trainer markers, then calculates an optimal path to visit every *un-marked* trainer on the route.
+- **`dungeon_navigator` (Agent Concept):** An agent designed for complex, multi-floor dungeons. It would analyze connections between map IDs to plan routes, identify key items or puzzles blocking paths across floors, and avoid getting stuck in loops that a single-map navigator might fall into.
 
 # VIII. Procedural Rules & Best Practices
 ## A. Procedural Rules
@@ -110,6 +112,9 @@
 - **Tunnel Vision & Dead End Hallucination (Turn 185291):** I incorrectly identified a walled-off area in Cerulean City as a 'dead end' because I was hyper-focused on a single blocked path (a cuttable tree). I completely ignored multiple other reachable warps that served as valid exits. This was a critical failure of situational awareness. **Corrective Action:** Before concluding an area is a dead end, I MUST systematically check all reachable warps and map connections. A true dead end has one or zero exits. An area with multiple exits is a pathway, even if the most obvious route is blocked.
 - **Menu Navigation Tools:** Before writing or fixing any tool that interacts with a menu, I MUST first manually navigate the menu step-by-step to observe and document its exact structure and cursor behavior (especially starting positions, which can be variable). Data gathering must always precede coding.
 
+## B. Agent Strategy Notes
+- **Proactive Agent Use:** For complex dungeons with partitions and puzzles (like Seafoam Islands), I must be more proactive in using my `navigation_troubleshooter` and `puzzle_solver_agent` instead of relying solely on manual exploration and `find_path`, which can lead to getting stuck in loops or dead ends.
+
 # IX. Tile Mechanics
 - **ground**: Standard walkable tile.
 - **elevated_ground**: Walkable, but only accessible from `steps` tiles.
@@ -117,19 +122,5 @@
 - **impassable**: Walls, cannot be entered.
 - **ladder_up / ladder_down**: Warps between floors.
 - **hole**: A one-way drop to the floor below.
-
-# X. Lessons Learned (Tool Development)
-- **CRITICAL LESSON (use_hm_from_party):** Menu cursor starting positions are NOT static or predictable. Any tool that navigates a menu MUST first reset the cursor to a known state (e.g., by pressing 'Up' multiple times) before attempting to navigate. Assuming a static start position is a guaranteed failure.
-
-# XI. Agent Strategy Notes
-- **Proactive Agent Use:** For complex dungeons with partitions and puzzles (like Seafoam Islands), I must be more proactive in using my `navigation_troubleshooter` and `puzzle_solver_agent` instead of relying solely on manual exploration and `find_path`, which can lead to getting stuck in loops or dead ends.
-
-# XII. Procedural Lessons & Corrections
-- **Dead End Definition Correction (Turn 185787):** I incorrectly identified an area with 4 reachable warps as a 'dead end'. A true dead end has only one or zero exits. An area with multiple exits is a pathway, not a dead end. This distinction is critical for accurate navigation and validation checks.
-
-# XIII. Tile Mechanics (Addendum)
 - **water**: Requires Surf to cross.
 - **cuttable**: Requires Cut to pass; may respawn.
-
-# XIV. Agent & Tool Development (New Concepts)
-- **`dungeon_navigator` (Agent Concept):** An agent designed for complex, multi-floor dungeons. It would analyze connections between map IDs to plan routes, identify key items or puzzles blocking paths across floors, and avoid getting stuck in loops that a single-map navigator might fall into.
