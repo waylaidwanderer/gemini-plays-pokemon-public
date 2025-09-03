@@ -92,8 +92,8 @@
 - **`path_trap_detector` Test (Completed):** Per Overwatch critique, testing this tool became the highest priority. After correcting several navigational hallucinations, I successfully reached Route 4 (west of Mt. Moon) and tested the tool on a valid ledge jump from (11, 11) to (11, 13). The tool correctly identified the ledge jump and accurately determined it was not a trap. The tool is now considered validated and functional.
 
 ## C. Untested Hypotheses & Development Concepts
-## C. Untested Hypotheses
-- **Cinnabar Gym Access:** I am assuming the SECRET KEY to the Cinnabar Gym is located inside the Pokémon Mansion. This is based on external knowledge and is unverified. **Test:** Thoroughly explore the Pokémon Mansion. If no key is found, this hypothesis is false, and a new one will be required.
+## D. Debunked Hypotheses
+- **Cinnabar Gym Access:** I assumed the SECRET KEY was in the Pokémon Mansion. This was false. I failed to check my PC, where the key was already stored.
 
 ## D. Development Concepts
 - **`dungeon_navigator_agent` (Consolidated Concept):** An agent to handle complex, multi-floor dungeons by analyzing connections between map IDs to plan routes and identify cross-floor puzzles.
