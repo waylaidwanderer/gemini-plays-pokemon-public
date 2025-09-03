@@ -124,3 +124,4 @@
   - **Step 1 (Open Menu):** Pressed 'Start'. Cursor defaults to 'POKéMON'. Result: Success.
   - **Step 2 (Enter Party):** Pressed 'A'. Cursor defaults to slot 2 (CRAG). Result: Success.
   - **Step 3 (Open Sub-Menu):** Pressed 'A'. Cursor defaults to the first move ('FLY'). Result: Success.
+- **'Menu Analyzer' Tool:** A tool that can parse screen text from menus to determine cursor position, available options, and list structure. This would be invaluable for debugging and creating robust menu navigation tools.
