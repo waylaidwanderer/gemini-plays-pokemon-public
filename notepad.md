@@ -117,3 +117,10 @@
 - **Procedural Lesson (Dead End Definition):** I incorrectly identified an area with two reachable exits as a 'dead end'. A true dead end has only one or zero exits. An area with two or more exits is a pathway, not a dead end. This distinction is critical for accurate navigation and validation checks.
 - **Tunnel Vision & Dead End Hallucination (Turn 185291):** I incorrectly identified a walled-off area in Cerulean City as a 'dead end' because I was hyper-focused on a single blocked path (a cuttable tree). I completely ignored multiple other reachable warps that served as valid exits. This was a critical failure of situational awareness. **Corrective Action:** Before concluding an area is a dead end, I MUST systematically check all reachable warps and map connections. A true dead end has one or zero exits. An area with multiple exits is a pathway, even if the most obvious route is blocked.
 - **Menu Navigation Tools:** Before writing or fixing any tool that interacts with a menu, I MUST first manually navigate the menu step-by-step to observe and document its exact structure and cursor behavior (especially starting positions, which can be variable). Data gathering must always precede coding.
+
+## D. Untested Assumptions & Hypotheses
+- **Snorlax Interaction:** I am assuming the POKé FLUTE is needed to wake the Snorlax on Route 12. This is based on external knowledge. **Hypothesis:** Interacting with Snorlax directly might trigger a different event or provide a clue. **Test:** Find the Snorlax and press 'A' on it before attempting to use any item.
+
+## E. New Automation Concepts
+- **`route_verifier_agent` (Agent Concept):** An agent that takes a list of NPCs and defeated trainer markers for a map, then generates a plan to systematically visit and confirm the status of each trainer, ensuring no one is missed.
+- **`route_clearer_tool` (Tool Concept):** A computational tool that takes the map XML and a list of defeated trainer markers, then calculates an optimal path to visit every *un-marked* trainer on the route.
