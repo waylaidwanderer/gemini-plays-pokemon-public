@@ -105,6 +105,7 @@
 - **'Team Composition' Agent:** Could analyze the party and PC to suggest optimal teams for specific challenges (e.g., a specific Gym Leader rematch).
 - **'Inventory/PC Summary' Tool:** Could provide a quick summary of current items without manual checking.
 - **'Wild Battle Automator V2' Agent:** An advanced version of the current tool that can handle non-trivial battles. It would analyze type matchups, select the best move from the full moveset (not just the first), and even recommend switching Pokémon if the current matchup is unfavorable.
+  - **Improvement Idea (per Overwatch):** Instead of a small, hardcoded type dictionary, create a more robust solution, such as a dedicated 'type-checker' tool or a process to systematically expand the internal dictionary to prevent future failures.
 - **'PC Summary' Tool:** A tool to quickly parse and display a summary of Pokémon stored in the PC, including species, level, and moves. This would save time compared to manually checking the PC.
 - **'Grinding Spot Recommender' Agent:** An agent that analyzes my notepad's 'Known Pokemon Locations' section and my current party to suggest optimal grinding locations based on type advantages and EXP yield.
 
