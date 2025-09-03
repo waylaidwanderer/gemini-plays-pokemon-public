@@ -26,7 +26,7 @@
 
 ## B. Tile & Movement Mechanics
 - **Cuttable Trees:** Can respawn after being cut.
-- **Ledges:** One-way traversal only. Can be jumped down, but not climbed up.
+- **Ledges:** One-way traversal only. Can be jumped down, but not climbed up. A jump down from Y to Y+1 lands the player at Y+2.
 - **HM Usage:** Must be used from the Pokémon party menu. A fainted Pokémon cannot use an HM. To use Surf, the player must be standing on a tile directly adjacent to a water tile and facing it.
 - **Boulder Pushing:** A multi-turn action. You must be adjacent. First press turns/pushes one tile. Subsequent pushes require walking to the new adjacent tile first. Cannot push boulders while surfing.
 - **Menu Input Blocking (CRITICAL):** If the player is facing an impassable tile in the overworld, the corresponding directional input will be blocked within menus. This can abort automated tool sequences. To avoid this, I must ensure I am not facing an obstacle before using a tool that relies on directional inputs.
@@ -69,6 +69,7 @@
 - **Data-Driven Debugging (CRITICAL):** My repeated failures with menu-navigation tools (`use_hm_from_party`, `switch_pokemon_navigator`) stemmed from fixing them based on assumptions rather than evidence. **Corrective Action:** Before writing or fixing any tool that interacts with a menu, I MUST first manually navigate it step-by-step, meticulously documenting the exact button presses and cursor behavior. This data gathering is a mandatory prerequisite to any coding.
 - **Tool Execution Order:** A tool that reads map data cannot see changes made by another tool in the same turn. Data management and data analysis must happen in separate, sequential turns.
 - **`find_path` Limitation:** This tool is limited to single-map navigation and cannot plan routes across disconnected map sections. For complex dungeons, I must rely on manual exploration and my `navigation_troubleshooter` agent.
+- **Future Agent Idea:** A 'Stuck Loop Detector' agent could analyze move history and game state to identify and diagnose repetitive failures, suggesting alternative hypotheses.
 
 # VII. Data-Driven Debugging Logs
 ## A. `use_hm_from_party` Manual Test (Cut)
