@@ -73,3 +73,4 @@
 # VII. Data-Driven Debugging Logs
 ## A. `use_hm_from_party` Manual Test (Cut)
 - **Turn 186919:** Start Menu is open. Cursor defaults to 'POKéMON'. Pressing 'A' to enter Party Screen.
+- **Turn 186921:** Entered Party Screen. Cursor defaults to the last Pokémon in the party (slot 6). Pressing 'Up' to move to NIGHTSHADE (slot 5).
