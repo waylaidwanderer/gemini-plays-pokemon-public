@@ -43,6 +43,9 @@
 - **Cerulean Cave:** Ditto, Wigglytuff, Electrode, Golem, Raichu, Sandslash, Parasect, Lickitung, Magneton, Dodrio, RHYDON, VICTREEBEL.
 
 ## C. Item & Store Data
+### Item Locations & Vendors
+- **Route 12 Super Rod House:** Fishing Guru gives the SUPER ROD.
+
 ### Celadon Department Store (Reference)
 - **5F:** Sells TMs (WATRGUN, PAYDAY, SMCTOSS, TELEPRT) and stat-boosters (HP UP, PROTEIN, etc.).
 - **4F:** Sells POKé DOLL and evolution stones (FIRE, THUNDER, WATER).
