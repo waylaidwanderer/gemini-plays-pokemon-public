@@ -130,3 +130,11 @@
 
 # XI. New Tool & Agent Concepts
 - **`route_20_maze_solver` (Tool Concept):** A computational tool that will analyze the `map_xml_string` for Route 20 to find a traversable path through the water and around the impassable rock formations, guiding navigation from the eastern entrance to the western exit that leads to Cinnabar Island.
+
+## B. `use_hm_from_party` Manual Execution Log (Pallet Town)
+- **Turn 186398:** Faced water at (5, 14).
+- **Turn 186399:** Pressed Start.
+- **Turn 186400:** Pressed A (cursor was on POKEMON).
+
+## C. `route_20_maze_solver` Refinement Note
+- The tool correctly identified that Route 20 is partitioned by failing to find a path. This is a good outcome, but the tool should be refined to explicitly report "Path failed due to map partition" instead of a generic "No path found." This will provide better diagnostic information for future complex navigation.

@@ -1193,5 +1193,39 @@
         "action_counter": 186345
       }
     ]
+  },
+  "route_20_maze_solver": {
+    "description": "Solves the Route 20 water maze by finding a path from a start coordinate to an end coordinate, navigating around the impassable rock formations. Specifically designed for surfing.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "start_x": {
+          "type": "string"
+        },
+        "start_y": {
+          "type": "string"
+        },
+        "end_x": {
+          "type": "string"
+        },
+        "end_y": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "start_x",
+        "start_y",
+        "end_x",
+        "end_y"
+      ]
+    },
+    "python_script": "import json\nimport collections\nimport xml.etree.ElementTree as ET\n\nroot = ET.fromstring(map_xml_string)\nmap_width = int(root.get('width'))\nmap_height = int(root.get('height'))\ntiles = {}\nfor row in root.findall('Row'):\n    y = int(row.get('id'))\n    for tile_elem in row.findall('Tile'):\n        x = int(tile_elem.get('id'))\n        tile_type = tile_elem.get('type')\n        has_object = tile_elem.get('has-object') == 'true'\n        object_id = None\n        if has_object:\n            obj = tile_elem.find('Object')\n            if obj is not None:\n                object_id = obj.get('id')\n        tiles[(x, y)] = {'type': tile_type, 'has_object': has_object, 'object_id': object_id}\n\nstart_x = int(input_data['start_x'])\nstart_y = int(input_data['start_y'])\nend_x = int(input_data['end_x'])\nend_y = int(input_data['end_y'])\n\nstart = (start_x, start_y)\nend = (end_x, end_y)\n\nqueue = collections.deque([(start, [start])])\nvisited = {start}\n\npath_found = False\nwhile queue:\n    (current_x, current_y), path = queue.popleft()\n\n    if (current_x, current_y) == end:\n        print(json.dumps({'path_found': True, 'path': path}))\n        path_found = True\n        break\n\n    for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n        next_pos = (current_x + dx, current_y + dy)\n        \n        if not (1 <= next_pos[0] <= map_width and 1 <= next_pos[1] <= map_height):\n            continue\n\n        if next_pos in visited:\n            continue\n\n        tile_info = tiles.get(next_pos)\n        if not tile_info:\n            continue\n\n        is_traversable = tile_info['type'] == 'water' and not (tile_info['has_object'] and tile_info['object_id'] != '15')\n\n        if is_traversable:\n            visited.add(next_pos)\n            new_path = list(path)\n            new_path.append(next_pos)\n            queue.append((next_pos, new_path))\n\nif not path_found:\n    print(json.dumps({'path_found': False, 'error': 'No path found.'}))",
+    "history": [
+      {
+        "commit_message": "feat: Create route_20_maze_solver tool. This tool is a direct response to repeated `find_path` failures on Route 20, which confirmed the area is a complex water maze. Instead of continuing with inefficient trial-and-error navigation, this tool provides a deterministic solution by performing a Breadth-First Search on the map data, specifically treating only 'water' tiles without blocking objects as traversable. This adheres to the core directive of proactively automating complex navigational puzzles.",
+        "timestamp": "2025-09-03T07:05:41.104Z",
+        "action_counter": 186386
+      }
+    ]
   }
 }
