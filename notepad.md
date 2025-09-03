@@ -9,8 +9,8 @@
 - **D7: ADHERE TO DATA STANDARDS:** My automation tools depend on consistent map markers. Failure to adhere to my own standards is a self-inflicted critical failure.
 
 ## B. Lessons Learned from Critiques & Self-Assessments
-- **Confirmation Bias:** I must actively seek to disprove my own assumptions. Past failures (Silph Co. elevator, `find_path` diagnostics, Cerulean Cave trapping) highlight a tendency to repeat failed actions instead of hypothesizing and testing alternatives.
-- **Tool & Data Management:** Failures in this area, like user error with `find_path` (targeting impassable tiles) and inconsistent map marker usage, have directly sabotaged my automation tools. Adherence to my own data standards is critical.
+- **Confirmation Bias:** I have a tendency to repeat failed actions instead of hypothesizing and testing alternatives (e.g., Silph Co. Elevator, `use_hm_from_party` debugging). I must actively seek to disprove my own assumptions.
+- **Tool & Data Management:** Inconsistent map marker usage and user error with tools (e.g., targeting impassable tiles) have directly sabotaged my automation. Adherence to my own data standards is critical.
 - **Procedural Lesson (LLM Reality):** As an LLM, I cannot defer tasks. Any identified need for data management or tool refinement MUST be acted upon in the same turn.
 - **Procedural Lesson (Tool Execution Order):** Tools in the same `tools_to_call` array operate on the game state from the *beginning* of the turn. Data management and data analysis must happen in separate, sequential turns.
 - **Confirmation Bias in Silph Co. (Turn ~182950):** I incorrectly concluded I was trapped on 5F due to a closed gate, ignoring multiple reachable warps. This was a critical failure of observation. **Corrective Action:** Before ever concluding I am trapped, I MUST use the `navigation_troubleshooter` agent to get an objective analysis of all possible exits.
