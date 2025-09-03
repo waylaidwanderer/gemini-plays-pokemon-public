@@ -1,19 +1,18 @@
 # I. Core Directives & Lessons Learned
 
 ## A. Core Directives
-- **D1: IMMEDIATE DATA MANAGEMENT:** All data management (notepad, markers, tool/agent refinement) is the HIGHEST priority and MUST be performed in the same turn a need is identified.
+- **D1: IMMEDIATE DATA & TOOL MANAGEMENT:** All data management (notepad, markers) and tool/agent refinement is the HIGHEST priority and MUST be performed in the same turn a need is identified. Deferring these actions is a critical failure.
 - **D2: ACT ON DOCUMENTATION:** A documented lesson that does not result in a behavioral change is a critical failure.
-- **D3: ABANDON FAILED HYPOTHESES:** If a strategy fails repeatedly, I must recognize the pattern, document it, and pivot to a new approach.
-- **D4: TRUST, BUT REFINE:** I must trust the outputs of my agents and system data. If an agent or tool is suboptimal, I must prioritize refining it.
-- **D5: PROACTIVELY AUTOMATE:** Before performing any complex or repetitive task, I must first consider if it can be automated.
-- **D6: PROACTIVE AGENT USE:** I must leverage existing agents for complex puzzles instead of defaulting to manual trial-and-error.
-- **D7: ADHERE TO DATA STANDARDS:** My automation tools depend on consistent map markers. Failure to adhere to my own standards is a self-inflicted critical failure.
+- **D3: ABANDON FAILED HYPOTHESES:** If a strategy fails repeatedly, I must recognize the pattern, document it with attempt counts, and pivot to a new approach.
+- **D4: TRUST, BUT REFINE:** I must trust the outputs of my agents and system data. If an agent or tool is suboptimal, I must prioritize refining it immediately.
+- **D5: PROACTIVELY AUTOMATE:** Before performing any complex or repetitive task, I must first consider if it can be automated with a tool or agent.
+- **D6: PROACTIVE AGENT USE:** I must leverage existing agents (like `puzzle_solver_agent`) for complex problems instead of defaulting to manual trial-and-error.
 
 ## B. Key Lessons Learned
-- **LLM Reality & Procrastination:** Deferring critical maintenance (tools, agents, data) by setting it as a 'goal' is a critical failure. Maintenance is an immediate, high-priority action that must never be deferred.
-- **Data-Driven Debugging:** Before writing or fixing any tool that interacts with a menu, I MUST first manually navigate the menu to observe and document its exact structure and cursor behavior. Data gathering must precede coding.
-- **Confirmation Bias:** I have a history of repeating failed actions (e.g., Silph Co. Elevator). When stuck, I MUST use my `puzzle_solver_agent` to generate new hypotheses.
-- **Navigational Hallucinations:** I have a history of incorrectly concluding I am trapped. I must use `navigation_troubleshooter` to verify exits before assuming a dead end.
+- **Tool Maintenance is NOT a 'Task':** Listing tool repair as a 'to-do' item is a form of procrastination and a violation of D1. Tool refinement must be the immediate next action upon identifying a flaw.
+- **Data-Driven Debugging is Mandatory:** Before writing or fixing any tool that interacts with a menu, I MUST first manually navigate the menu to observe and document its exact structure and cursor behavior. Assuming menu behavior without gathering data is a guaranteed failure.
+- **Confirmation Bias Kills Progress:** I have a history of repeating failed actions (e.g., Silph Co. Elevator, `use_hm_from_party` tool). When stuck, I MUST use my `puzzle_solver_agent` to generate new, testable hypotheses.
+- **Navigational Hallucinations are Real:** I have a history of incorrectly concluding I am trapped or misidentifying my location. I must use `navigation_troubleshooter` and trust system warnings to verify my position and available exits before making navigational decisions.
 
 # II. Game & World Mechanics
 
