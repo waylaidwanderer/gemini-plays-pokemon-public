@@ -995,7 +995,7 @@
         "move_index"
       ]
     },
-    "python_script": "import json\n\npokemon_slot = int(input_data['pokemon_slot'])\nmove_index = int(input_data['move_index'])\n\nbuttons = []\n\n# Open Start Menu\nbuttons.append('Start')\n\n# --- Main Menu Navigation ---\n# Reset cursor to top (POKéDEX) by pressing Up multiple times\nbuttons.extend(['Up'] * 5)\n# Navigate to POKéMON (1 down from POKéDEX)\nbuttons.append('Down')\nbuttons.append('A')\n\n# --- Party Menu Navigation ---\n# Reset cursor to top (Slot 1) by pressing Up multiple times\nbuttons.extend(['Up'] * 5)\n# Navigate to target Pokémon slot\nif pokemon_slot > 1:\n    buttons.extend(['Down'] * (pokemon_slot - 1))\nbuttons.append('A')\n\n# --- Sub-Menu (Move Selection) ---\n# Reset cursor to top (Move 1) by pressing Up multiple times\nbuttons.extend(['Up'] * 5)\n# Navigate to target move index\nif move_index > 0:\n    buttons.extend(['Down'] * move_index)\nbuttons.append('A')\n\nprint(json.dumps(buttons))",
+    "python_script": "import json\n\nslot = int(input_data['pokemon_slot'])\nmove_idx = int(input_data['move_index'])\n\nbuttons = []\n\n# Open menu\nbuttons.append(\"Start\")\n\n# Reset cursor to top (POKéDEX)\nfor _ in range(6):\n    buttons.append(\"Up\")\n\n# Navigate to POKéMON\nbuttons.append(\"Down\")\nbuttons.append(\"A\")\n\n# Reset cursor to top (Slot 1)\nfor _ in range(6):\n    buttons.append(\"Up\")\n\n# Navigate to target Pokémon slot\nfor _ in range(slot - 1):\n    buttons.append(\"Down\")\nbuttons.append(\"A\")\n\n# Reset cursor to top (First move)\nfor _ in range(4):\n    buttons.append(\"Up\")\n\n# Navigate to target move index\nfor _ in range(move_idx):\n    buttons.append(\"Down\")\nbuttons.append(\"A\")\n\nprint(json.dumps(buttons))\n",
     "history": [
       {
         "commit_message": "feat: Create use_hm_from_party tool. This tool automates the multi-step menu navigation required to use an HM move from the party screen. It was created to reliably use Surf in Cerulean City, adhering to the core directive of proactive automation for repetitive tasks.",
@@ -1151,6 +1151,21 @@
         "commit_message": "fix: Complete rewrite to implement failsafe cursor-resetting logic. All previous versions failed because the menu cursor's starting position is non-deterministic. This commit completely rewrites the script to be robust by pressing 'Up' multiple times in each menu (main, party, sub-menu) to force the cursor to a known top position before navigating. This removes all reliance on the previous menu state and should finally make the tool reliable, addressing a cascade of critical failures and a core Overwatch critique.",
         "timestamp": "2025-09-03T03:38:07.938Z",
         "action_counter": 186006
+      },
+      {
+        "commit_message": "fix: Correct menu navigation logic. The previous version incorrectly pressed 'Down' in the main menu after resetting the cursor, causing it to select 'ITEM' instead of 'POKéMON'. This commit removes the erroneous 'Down' press, ensuring the tool correctly navigates to the POKéMON menu as intended. This addresses a critical failure during the Seafoam Islands puzzle.",
+        "timestamp": "2025-09-03T04:15:27.707Z",
+        "action_counter": 186069
+      },
+      {
+        "commit_message": "fix: Add 'Down' press to select POKéMON menu. The previous fix incorrectly removed a necessary 'Down' press after the cursor reset, causing the tool to select 'POKéDEX' or 'ITEM' instead of 'POKéMON'. This commit re-adds the 'Down' press to ensure correct menu navigation.",
+        "timestamp": "2025-09-03T04:24:07.893Z",
+        "action_counter": 186084
+      },
+      {
+        "commit_message": "fix: Correct sub-menu navigation logic. The tool was fundamentally broken because it failed to navigate the sub-menu, causing it to select 'SWITCH' instead of the intended move. This commit adds the necessary 'Down' presses to select the correct move based on `move_index`, which should finally make the tool reliable.",
+        "timestamp": "2025-09-03T04:29:31.506Z",
+        "action_counter": 186091
       }
     ]
   }
