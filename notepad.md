@@ -143,3 +143,6 @@
   5. `A` (Select Pokémon - cursor starts on first move)
   6. `Down` (Navigate to second move)
   7. `A` (Use the HM)
+
+# XII. Procedural Lessons & Corrections
+- **Dead End Definition Correction (Turn 185787):** I incorrectly identified an area with 4 reachable warps as a 'dead end'. A true dead end has only one or zero exits. An area with multiple exits is a pathway, not a dead end. This distinction is critical for accurate navigation and validation checks.
