@@ -11,9 +11,8 @@
 ## B. Key Lessons Learned
 - **Tool Maintenance is NOT a 'Task':** Listing tool repair as a 'to-do' item is a form of procrastination and a violation of D1. Tool refinement must be the immediate next action upon identifying a flaw.
 - **Data-Driven Debugging is Mandatory:** Before writing or fixing any tool that interacts with a menu, I MUST first manually navigate the menu to observe and document its exact structure and cursor behavior. Assuming menu behavior without gathering data is a guaranteed failure.
-- **Confirmation Bias Kills Progress:** I have a history of repeating failed actions (e.g., `use_hm_from_party` tool). When stuck, I MUST use my `puzzle_solver_agent` to generate new, testable hypotheses.
+- **Confirmation Bias Kills Progress:** I have a history of repeating failed actions (e.g., `use_hm_from_party` tool) or blaming tools for my own errors. I must trust my tools' outputs (like a calculated path) and meticulously verify my own actions before concluding a tool is faulty. When stuck, I MUST use my `puzzle_solver_agent` to generate new, testable hypotheses.
 - **Navigational Hallucinations are Real:** I have a history of incorrectly concluding I am trapped or misidentifying map states (dead ends, unseen tiles). I must develop a tool for reliable map analysis and trust system warnings.
-- **Proactive Agent Use:** I must leverage existing agents (like `puzzle_solver_agent`) for complex problems instead of defaulting to manual trial-and-error. Failing to do so, as on Pokémon Tower 7F, is a violation of D6.
 
 # II. Game & World Mechanics
 
@@ -41,6 +40,7 @@
   - `impassable`: Standard walls, objects, trees, etc.
   - `boulder_barrier`: A wall that is removed when a corresponding `boulder_switch` is activated.
 - **Special Mechanics:**
+  - **Healing Zone:** A tile described as a "purified, protected zone" that fully heals all Pokémon in the party.
   - **Menu Input Blocking (CRITICAL):** Facing an impassable tile blocks that directional input in menus.
   - **HM Usage:** Must be adjacent to and facing the target object before opening the party menu.
   - **Boulder Pushing:** A multi-turn action. Cannot be done while surfing.
@@ -99,6 +99,7 @@
 - **`find_path` Limitation:** This tool is limited to single-map navigation and cannot plan routes across disconnected map sections. For complex dungeons, I must rely on manual exploration and my `navigation_troubleshooter` agent.
 
 ## B. Future Development Ideas
+- **'Execute Battle Action' Tool:** A tool that takes an action type (MOVE/SWITCH) and target (move index/slot number) and outputs the button presses to automate battle menu navigation.
 - **'Stuck Loop Detector' Agent:** Could analyze move history and game state to identify and diagnose repetitive failures, suggesting alternative hypotheses.
 - **'Map Analyzer' Tool/Agent:** A reliable tool to calculate reachable unseen tiles and determine if an area is a dead end to prevent navigational hallucinations.
 - **'High-Level Planner' Agent:** Could analyze the primary goal and suggest a sequence of maps or major objectives to achieve it.
