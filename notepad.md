@@ -102,19 +102,6 @@
 - **`route_clearer_tool` (Tool Concept):** A computational tool that takes the map XML and a list of defeated trainer markers, then calculates an optimal path to visit every *un-marked* trainer on the route.
 - **`dungeon_navigator` (Agent Concept):** An agent designed for complex, multi-floor dungeons. It would analyze connections between map IDs to plan routes, identify key items or puzzles blocking paths across floors, and avoid getting stuck in loops that a single-map navigator might fall into.
 
-# VIII. Procedural Rules & Best Practices
-## A. Procedural Rules
-- **Pathfinding First:** Before assuming an HM or key item is needed to overcome a navigational obstacle, I MUST first use the `find_path` tool to confirm that the destination is truly unreachable.
-- **Proactive Maze Agents:** For complex mazes (e.g., teleporter puzzles, spinner mazes), I MUST prioritize creating a dedicated solver agent *before* attempting a manual solution. Manual attempts should only be for initial data gathering.
-- **Procedural Lesson (Tool Refinement):** I have now failed multiple times to adhere to my core directive of immediate tool maintenance. Deferring a tool fix (e.g., `use_hm_from_party` failures) is a critical lapse in procedural discipline. Any broken tool MUST be fixed in the same turn it is identified, without exception.
-- **Proactive Agent Use (Overwatch Critique - Turn 184701):** I failed to use the `navigation_troubleshooter` agent after a `Navigable Warps Mismatch` warning. I must trust and utilize my specialized agents more proactively, especially when encountering the exact problems those agents were built to solve.
-- **Procedural Lesson (Dead End Definition):** I incorrectly identified an area with two reachable exits as a 'dead end'. A true dead end has only one or zero exits. An area with two or more exits is a pathway, not a dead end. This distinction is critical for accurate navigation and validation checks.
-- **Tunnel Vision & Dead End Hallucination (Turn 185291):** I incorrectly identified a walled-off area in Cerulean City as a 'dead end' because I was hyper-focused on a single blocked path (a cuttable tree). I completely ignored multiple other reachable warps that served as valid exits. This was a critical failure of situational awareness. **Corrective Action:** Before concluding an area is a dead end, I MUST systematically check all reachable warps and map connections. A true dead end has one or zero exits. An area with multiple exits is a pathway, even if the most obvious route is blocked.
-- **Menu Navigation Tools:** Before writing or fixing any tool that interacts with a menu, I MUST first manually navigate the menu step-by-step to observe and document its exact structure and cursor behavior (especially starting positions, which can be variable). Data gathering must always precede coding.
-
-## B. Agent Strategy Notes
-- **Proactive Agent Use:** For complex dungeons with partitions and puzzles (like Seafoam Islands), I must be more proactive in using my `navigation_troubleshooter` and `puzzle_solver_agent` instead of relying solely on manual exploration and `find_path`, which can lead to getting stuck in loops or dead ends.
-
 # IX. Tile Mechanics
 - **ground**: Standard walkable tile.
 - **elevated_ground**: Walkable, but only accessible from `steps` tiles.
