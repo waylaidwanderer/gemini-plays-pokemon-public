@@ -94,3 +94,4 @@
 - **Hypothesis 1 (Failed):** Use POKé FLUTE from 'ITEM' menu. Result: Led to an HM-only screen.
 - **Hypothesis 2 (Failed - Agent Suggestion):** Switch inventory 'pockets' with Left/Right. Result: No effect. The inventory does not appear to have pockets.
 - **Hypothesis 3 (Failed):** Interact directly with Snorlax using 'A'. Result: No effect.
+- **Hypothesis 4 (Success):** The item menu is a single, scrollable list. After selecting 'ITEM' from the main menu, scroll down past the HMs (indicated by a '↓' arrow) to find Key Items like the POKé FLUTE. Using it from this menu wakes the Snorlax.
