@@ -109,3 +109,17 @@
 - **Procedural Lesson (Dead End Definition):** I incorrectly identified an area with two reachable exits as a 'dead end'. A true dead end has only one or zero exits. An area with two or more exits is a pathway, not a dead end. This distinction is critical for accurate navigation and validation checks.
 - **Tunnel Vision & Dead End Hallucination (Turn 185291):** I incorrectly identified a walled-off area in Cerulean City as a 'dead end' because I was hyper-focused on a single blocked path (a cuttable tree). I completely ignored multiple other reachable warps that served as valid exits. This was a critical failure of situational awareness. **Corrective Action:** Before concluding an area is a dead end, I MUST systematically check all reachable warps and map connections. A true dead end has one or zero exits. An area with multiple exits is a pathway, even if the most obvious route is blocked.
 - **Menu Navigation Tools:** Before writing or fixing any tool that interacts with a menu, I MUST first manually navigate the menu step-by-step to observe and document its exact structure and cursor behavior (especially starting positions, which can be variable). Data gathering must always precede coding.
+
+# IX. Tile Mechanics
+- **ground**: Standard walkable tile.
+- **elevated_ground**: Walkable, but only accessible from `steps` tiles.
+- **steps**: Allows movement between `ground` and `elevated_ground`.
+- **impassable**: Walls, cannot be entered.
+- **ladder_up / ladder_down**: Warps between floors.
+- **hole**: A one-way drop to the floor below.
+
+# X. Lessons Learned (Tool Development)
+- **CRITICAL LESSON (use_hm_from_party):** Menu cursor starting positions are NOT static or predictable. Any tool that navigates a menu MUST first reset the cursor to a known state (e.g., by pressing 'Up' multiple times) before attempting to navigate. Assuming a static start position is a guaranteed failure.
+
+# XI. Agent Strategy Notes
+- **Proactive Agent Use:** For complex dungeons with partitions and puzzles (like Seafoam Islands), I must be more proactive in using my `navigation_troubleshooter` and `puzzle_solver_agent` instead of relying solely on manual exploration and `find_path`, which can lead to getting stuck in loops or dead ends.
