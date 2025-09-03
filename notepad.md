@@ -116,3 +116,8 @@
 - **Test:** Pressed 'A', 'B', 'Start', and directional buttons repeatedly while standing at (12, 3) and facing Pikachu.
 - **Result:** No event triggered. The game state did not change, leading to multiple CRITICAL loop warnings from the system.
 - **Conclusion:** The 7th floor is a genuine dead end at this time. The assumption that something *must* happen at the top of a dungeon was a critical navigational hallucination. The correct action was to recognize the dead end and backtrack.
+
+### C. Brainstorming Log
+- **'Wild Battle Automator V2' Agent:** An advanced version of the current tool that can handle non-trivial battles. It would analyze type matchups, select the best move from the full moveset (not just the first), and even recommend switching Pokémon if the current matchup is unfavorable.
+- **'PC Summary' Tool:** A tool to quickly parse and display a summary of Pokémon stored in the PC, including species, level, and moves. This would save time compared to manually checking the PC.
+- **'Grinding Spot Recommender' Agent:** An agent that analyzes my notepad's 'Known Pokemon Locations' section and my current party to suggest optimal grinding locations based on type advantages and EXP yield.
