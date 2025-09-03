@@ -88,3 +88,8 @@
 ## A. `use_hm_from_party` Manual Test (Cut)
 - **Attempt 1 (Failure):** Selected 'CUT'. Game returned error "There isn't anything to CUT!". **Conclusion:** Player must be facing the target object *before* opening the menu to use an HM.
 - **Attempt 2 (Success):** Faced tree, then navigated menu. **Discovery:** Party screen cursor position is not reliably at the top. A cursor-resetting sequence (e.g., spamming 'Up') is necessary for a robust tool.
+
+## C. Snorlax Puzzle (Route 12)
+- **Hypothesis 1 (Failed):** Use POKé FLUTE from 'ITEM' menu. Result: Led to an HM-only screen.
+- **Hypothesis 2 (Failed - Agent Suggestion):** Switch inventory 'pockets' with Left/Right. Result: No effect. The inventory does not appear to have pockets.
+- **Hypothesis 3 (Failed):** Interact directly with Snorlax using 'A'. Result: No effect.
