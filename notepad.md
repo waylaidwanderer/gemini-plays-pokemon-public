@@ -101,15 +101,5 @@
 - **`route_clearer_tool` (Tool Concept):** A computational tool that takes the map XML and a list of defeated trainer markers, then calculates an optimal path to visit every *un-marked* trainer on the route.
 - **`dungeon_navigator` (Agent Concept):** An agent designed for complex, multi-floor dungeons. It would analyze connections between map IDs to plan routes, identify key items or puzzles blocking paths across floors, and avoid getting stuck in loops that a single-map navigator might fall into.
 
-# IX. Tile Mechanics
-- **ground**: Standard walkable tile.
-- **elevated_ground**: Walkable, but only accessible from `steps` tiles.
-- **steps**: Allows movement between `ground` and `elevated_ground`.
-- **impassable**: Walls, cannot be entered.
-- **ladder_up / ladder_down**: Warps between floors.
-- **hole**: A one-way drop to the floor below.
-- **water**: Requires Surf to cross.
-- **cuttable**: Requires Cut to pass; may respawn.
-
 ## C. Procedural Lessons (Merged)
 - **Menu Navigation Tools:** Before writing or fixing any tool that interacts with a menu, I MUST first manually navigate the menu step-by-step to observe and document its exact structure and cursor behavior (especially starting positions, which can be variable). Data gathering must always precede coding.
