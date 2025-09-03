@@ -44,7 +44,7 @@
   - **Menu Input Blocking (CRITICAL):** Facing an impassable tile blocks that directional input in menus.
   - **HM Usage:** Must be adjacent to and facing the target object before opening the party menu.
   - **Boulder Pushing:** A multi-turn action. Cannot be done while surfing.
-  - **Dead End Definition:** An area with only one exit group and no reachable unseen tiles.
+  - **Dead End Definition:** A map is only a dead end if it has only one exit warp/connection and no reachable unseen tiles. The nature of the destination map is irrelevant to this classification.
 
 ## C. Type Effectiveness & Insights
 - **Wild Pokémon Speed (Cerulean Cave):** Wild Pokémon are deceptively fast.
