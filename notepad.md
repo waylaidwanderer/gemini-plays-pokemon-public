@@ -108,6 +108,7 @@
   - **Improvement Idea (per Overwatch):** Instead of a small, hardcoded type dictionary, create a more robust solution, such as a dedicated 'type-checker' tool or a process to systematically expand the internal dictionary to prevent future failures.
 - **'PC Summary' Tool:** A tool to quickly parse and display a summary of Pokémon stored in the PC, including species, level, and moves. This would save time compared to manually checking the PC.
 - **'Grinding Spot Recommender' Agent:** An agent that analyzes my notepad's 'Known Pokemon Locations' section and my current party to suggest optimal grinding locations based on type advantages and EXP yield.
+- **'Menu Analyzer' Tool:** A tool that can parse screen text from menus to determine cursor position, available options, and list structure. This would be invaluable for debugging and creating robust menu navigation tools.
 
 ## C. Data-Driven Debugging Logs
 - **`use_hm_from_party` Manual Test (Cut):**
