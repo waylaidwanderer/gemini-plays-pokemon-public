@@ -29,6 +29,7 @@
 - **Cuttable Trees:** Can respawn after being cut.
 - **Ledges:** One-way traversal only. Can be jumped down, but not climbed up. A jump down from Y to Y+1 lands the player at Y+2.
 - **HM Usage:** Must be used from the Pokémon party menu. A fainted Pokémon cannot use an HM. To use an HM on an object, the player must be standing on an adjacent tile and *facing* the object *before* opening the menu.
+- **Item Menu Anomaly:** Selecting 'ITEM' from the main menu can sometimes lead to an HM-only list, not the full inventory. The trigger for this is currently unknown. To use an HM on an object, the player must be standing on an adjacent tile and *facing* the object *before* opening the menu.
 - **Boulder Pushing:** A multi-turn action. Must be adjacent. First press turns/pushes one tile. Subsequent pushes require walking to the new adjacent tile first. Cannot push boulders while surfing.
 - **Dead End Definition:** An area is considered a dead end if it has only one group of reachable exits (warps/map connections) and no reachable unseen tiles.
 
