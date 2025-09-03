@@ -58,20 +58,15 @@
 - **Two Entrances:** There are two entrances to Mt. Moon from Route 4. The western entrance at (19, 6) leads to an isolated, dead-end section. The eastern entrance at (25, 6) leads to the main cave system and the path forward to Cerulean City.
 
 # VI. Puzzles & Obstacles
+
 ## A. Solved Puzzles
-- **Silph Co. Gate Mechanic:**
-  - **Observation:** Closed gates can be opened.
-  - **Hypothesis 1 (Failed):** Using the CARD KEY from the inventory while adjacent to the gate does not work.
-  - **Hypothesis 2 (Success!):** Standing adjacent to and facing a closed gate, then pressing 'A', will automatically use the CARD KEY and open the gate.
-- **Silph Co. Elevator:**
-  - **Mechanic:** The elevator is a two-step process.
-  - **Step 1:** Interact with the control panel at (4, 1) to bring up the floor selection menu.
-  - **Step 2:** After selecting a floor, walk onto one of the warp pads at (2, 4) or (3, 4) and press 'Down' to travel.
+- **Silph Co. Gate Mechanic:** Standing adjacent to a closed gate and pressing 'A' automatically uses the CARD KEY to open it.
+- **Silph Co. Elevator:** A two-step process. First, interact with the control panel to select a floor. Second, walk onto a warp pad and press 'Down' to travel.
 
 ## B. Boulder Puzzle Mechanics
-- **Objective:** Boulders must often be pushed into holes to affect lower floors, typically to block strong water currents and open new paths.
-- **Movement:** Pushing a boulder is a multi-turn action. You must be adjacent to it. The first press turns you to face it (if not already facing) and pushes it one tile. Subsequent pushes require you to walk to the new adjacent tile first.
-- **Surfing Limitation:** It is impossible to push a boulder while surfing, even if Strength is active. This was confirmed on Seafoam Islands B3F.
+- **Objective:** Boulders are often pushed into holes to block water currents on lower floors.
+- **Movement:** Pushing is a multi-turn action. Must be adjacent. First press turns/pushes. Subsequent pushes require moving to the new adjacent tile first.
+- **Surfing Limitation:** Cannot push boulders while surfing (confirmed on Seafoam Islands B3F).
 
 # VII. Agent & Tool Development
 ## A. Tool Notes & Limitations
