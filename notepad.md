@@ -124,3 +124,6 @@
 ## E. New Automation Concepts
 - **`route_verifier_agent` (Agent Concept):** An agent that takes a list of NPCs and defeated trainer markers for a map, then generates a plan to systematically visit and confirm the status of each trainer, ensuring no one is missed.
 - **`route_clearer_tool` (Tool Concept):** A computational tool that takes the map XML and a list of defeated trainer markers, then calculates an optimal path to visit every *un-marked* trainer on the route.
+
+## F. World Mechanics & Discoveries
+- **Respawning Obstacles:** Cuttable trees can respawn after being cut. This was observed on Route 12 at coordinate (10, 100).
