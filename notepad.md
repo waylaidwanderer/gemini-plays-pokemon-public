@@ -93,7 +93,8 @@
 ## B. Completed Development Tasks
 - **`path_trap_detector` Test (Completed):** Per Overwatch critique, testing this tool became the highest priority. After correcting several navigational hallucinations, I successfully reached Route 4 (west of Mt. Moon) and tested the tool on a valid ledge jump from (11, 11) to (11, 13). The tool correctly identified the ledge jump and accurately determined it was not a trap. The tool is now considered validated and functional.
 
-## C. Agent & Tool Concepts
+## C. Untested Hypotheses & Development Concepts
+- **Snorlax Interaction:** I am assuming the POKé FLUTE is needed to wake the Snorlax on Route 12. This is based on external knowledge. **Hypothesis:** Interacting with Snorlax directly might trigger a different event or provide a clue. **Test:** Find the Snorlax and press 'A' on it before attempting to use any item.
 - **`saffron_gym_maze_solver` (Tool Concept):** A tool to solve the Saffron Gym teleporter maze. Per Overwatch critique, this is a computational task better suited for a tool than an agent. It will take the map layout and warp connections as input to deterministically calculate the correct sequence.
 - **`multi_map_dungeon_solver` (Agent Concept):** An agent to handle complex, multi-floor dungeons like Rock Tunnel or Cerulean Cave by planning routes across different map IDs.
 - **`route_verifier_agent` (Agent Concept):** An agent that takes a list of NPCs and defeated trainer markers for a map, then generates a plan to systematically visit and confirm the status of each trainer, ensuring no one is missed.
@@ -108,6 +109,3 @@
 - **Procedural Lesson (Dead End Definition):** I incorrectly identified an area with two reachable exits as a 'dead end'. A true dead end has only one or zero exits. An area with two or more exits is a pathway, not a dead end. This distinction is critical for accurate navigation and validation checks.
 - **Tunnel Vision & Dead End Hallucination (Turn 185291):** I incorrectly identified a walled-off area in Cerulean City as a 'dead end' because I was hyper-focused on a single blocked path (a cuttable tree). I completely ignored multiple other reachable warps that served as valid exits. This was a critical failure of situational awareness. **Corrective Action:** Before concluding an area is a dead end, I MUST systematically check all reachable warps and map connections. A true dead end has one or zero exits. An area with multiple exits is a pathway, even if the most obvious route is blocked.
 - **Menu Navigation Tools:** Before writing or fixing any tool that interacts with a menu, I MUST first manually navigate the menu step-by-step to observe and document its exact structure and cursor behavior (especially starting positions, which can be variable). Data gathering must always precede coding.
-
-## B. Untested Assumptions & Hypotheses
-- **Snorlax Interaction:** I am assuming the POKé FLUTE is needed to wake the Snorlax on Route 12. This is based on external knowledge. **Hypothesis:** Interacting with Snorlax directly might trigger a different event or provide a clue. **Test:** Find the Snorlax and press 'A' on it before attempting to use any item.
