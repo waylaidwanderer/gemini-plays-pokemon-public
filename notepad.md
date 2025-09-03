@@ -13,6 +13,7 @@
 - **Data-Driven Debugging is Mandatory:** Before writing or fixing any tool that interacts with a menu, I MUST first manually navigate the menu to observe and document its exact structure and cursor behavior. Assuming menu behavior without gathering data is a guaranteed failure.
 - **Confirmation Bias Kills Progress:** I have a history of repeating failed actions (e.g., `use_hm_from_party` tool). When stuck, I MUST use my `puzzle_solver_agent` to generate new, testable hypotheses.
 - **Navigational Hallucinations are Real:** I have a history of incorrectly concluding I am trapped or misidentifying map states (dead ends, unseen tiles). I must develop a tool for reliable map analysis and trust system warnings.
+- **Proactive Agent Use:** I must leverage existing agents (like `puzzle_solver_agent`) for complex problems instead of defaulting to manual trial-and-error. Failing to do so, as on Pokémon Tower 7F, is a violation of D6.
 
 # II. Game & World Mechanics
 
@@ -111,7 +112,7 @@
 
 ## D. Pokémon Tower 7F (Dead End Hallucination)
 - **Observation:** Reached the top floor (7F) of the Pokémon Tower. The path was a dead end with no visible exits or interactable objects other than my follower Pikachu.
-- **Hypothesis 1 (Failed - 15+ attempts):** Interacting with Pikachu or the environment would trigger a cutscene or event.
+- **Hypothesis 1 (Failed - 15+ attempts):** Interacting with Pikachu or the environment would trigger a cutscene or event. This was a severe case of **Confirmation Bias**, where I ignored mounting evidence (no text, loop warnings) because I assumed something *must* happen at the top of a dungeon.
 - **Test:** Pressed 'A', 'B', 'Start', and directional buttons repeatedly while standing at (12, 3) and facing Pikachu.
 - **Result:** No event triggered. The game state did not change, leading to multiple CRITICAL loop warnings from the system.
 - **Conclusion:** The 7th floor is a genuine dead end at this time. The assumption that something *must* happen at the top of a dungeon was a critical navigational hallucination. The correct action was to recognize the dead end and backtrack.
