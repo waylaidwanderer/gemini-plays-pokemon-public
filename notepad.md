@@ -76,3 +76,8 @@
 - **Turn 186919:** Start Menu is open. Cursor defaults to 'POKéMON'. Pressing 'A' to enter Party Screen.
 - **Turn 186921:** Entered Party Screen. Cursor defaults to the last Pokémon in the party (slot 6). Pressing 'Up' to move to NIGHTSHADE (slot 5).
 - **Turn 186924:** Selected NIGHTSHADE. Sub-menu appeared, cursor defaults to the first move ('CUT'). Pressing 'A' to select it.
+
+# VIII. Manual Data Gathering Logs
+## A. `use_hm_from_party` Manual Test (Cut) - Attempt 1
+- **Objective:** Document the exact button presses to use Cut on the tree at Route 2 (6, 11).
+- **Turn 186993:** Starting from the overworld.
