@@ -903,7 +903,7 @@
     ]
   },
   "switch_pokemon_navigator": {
-    "description": "Navigates the party screen to switch to a specific Pokémon slot (1-6). Assumes the party screen is already open and the cursor is on slot 1.",
+    "description": "Navigates the party screen to switch to a specific Pokémon slot (1-6). Assumes the party screen is already open. Now includes a cursor-resetting failsafe.",
     "input_schema": {
       "type": "object",
       "properties": {
@@ -915,12 +915,17 @@
         "target_slot"
       ]
     },
-    "python_script": "import json\n\ntarget_slot = int(input_data['target_slot'])\n\n# The cursor starts at slot 1.\n# Number of 'Down' presses needed is target_slot - 1.\nnum_down_presses = target_slot - 1\n\nbuttons = []\nif num_down_presses > 0:\n    buttons.extend(['Down'] * num_down_presses)\n\n# After navigating, press 'A' to select the Pokémon,\n# then another 'A' to confirm the 'SWITCH' option.\nbuttons.extend(['A', 'A'])\n\nprint(json.dumps(buttons))",
+    "python_script": "import json\ntarget_slot = int(input_data['target_slot'])\n\n# Failsafe: Reset cursor to the top (slot 1) by pressing 'Up' multiple times.\n# 5 presses is enough for a party of 6.\nbuttons = ['Up'] * 5\n\n# Navigate down to the target slot.\n# If target is slot 1, no 'Down' presses are needed.\nif target_slot > 1:\n    buttons.extend(['Down'] * (target_slot - 1))\n    \n# Select the Pokémon and then confirm the SWITCH action.\nbuttons.extend(['A', 'A'])\n\nprint(json.dumps(buttons))",
     "history": [
       {
         "commit_message": "feat: Create switch_pokemon_navigator tool. This automates the multi-step, repetitive process of navigating the party menu to switch Pokémon during battle. This was created during a mandatory self-assessment to address a clear opportunity for proactive automation, fulfilling a core directive.",
         "timestamp": "2025-09-02T16:47:51.678Z",
         "action_counter": 184787
+      },
+      {
+        "commit_message": "fix: Implement failsafe cursor-resetting logic. The tool failed by incorrectly assuming the cursor's starting position in the party menu, leading to the wrong Pokémon being switched in. This commit adds a robust failsafe by pressing 'Up' multiple times to force the cursor to the top (slot 1) before navigating to the target slot. This makes the tool's behavior deterministic and reliable, addressing a critical failure during the Blaine rematch.",
+        "timestamp": "2025-09-03T09:10:50.370Z",
+        "action_counter": 186544
       }
     ]
   },
