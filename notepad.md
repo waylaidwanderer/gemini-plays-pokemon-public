@@ -134,3 +134,11 @@
 ## E. New Automation Concepts
 - **`route_verifier_agent` (Agent Concept):** An agent that takes a list of NPCs and defeated trainer markers for a map, then generates a plan to systematically visit and confirm the status of each trainer, ensuring no one is missed.
 - **`route_clearer_tool` (Tool Concept):** A computational tool that takes the map XML and a list of defeated trainer markers, then calculates an optimal path to visit every *un-marked* trainer on the route.
+
+## E. Verified Manual HM Usage Sequence
+- After a catastrophic, multi-turn failure, the following sequence was manually verified to use an HM from the party menu:
+  1. `Start` (Open Main Menu - cursor starts on 'POKéDEX')
+  2. `Down` (Navigate to 'POKéMON')
+  3. `A` (Select 'POKéMON' - cursor starts on a variable slot, in this case slot 4)
+  4. `A` (Select Pokémon - cursor starts on first move)
+  5. `A` (Use the HM)
