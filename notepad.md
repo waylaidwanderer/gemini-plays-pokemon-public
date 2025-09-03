@@ -31,7 +31,7 @@
 - **Boulder Pushing:** A multi-turn action. You must be adjacent. First press turns/pushes one tile. Subsequent pushes require walking to the new adjacent tile first. Cannot push boulders while surfing.
 - **Menu Input Blocking (CRITICAL):** If the player is facing an impassable tile in the overworld, the corresponding directional input will be blocked within menus. This can abort automated tool sequences. To avoid this, I must ensure I am not facing an obstacle before using a tool that relies on directional inputs.
 
-# III. Battle Knowledge
+# III. Battle & Item Knowledge
 
 ## A. Type Effectiveness & Insights
 - **Wild Pokémon Speed (Cerulean Cave):** Wild Pokémon are deceptively fast.
@@ -41,8 +41,8 @@
 ## B. Known Pokemon Locations
 - **Cerulean Cave:** Ditto, Wigglytuff, Electrode, Golem, Raichu, Sandslash, Parasect, Lickitung, Magneton, Dodrio, RHYDON, VICTREEBEL.
 
-# IV. Item & Store Data
-## A. Celadon Department Store (Reference)
+## C. Item & Store Data
+### Celadon Department Store (Reference)
 - **5F:** Sells TMs (WATRGUN, PAYDAY, SMCTOSS, TELEPRT) and stat-boosters (HP UP, PROTEIN, etc.).
 - **4F:** Sells POKé DOLL and evolution stones (FIRE, THUNDER, WATER).
 - **2F:** Sells POKé BALLs, Potions, and TMs (MEGPNCH, RZRWIND, etc.).
