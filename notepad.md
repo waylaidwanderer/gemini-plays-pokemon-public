@@ -92,12 +92,14 @@
 - **`path_trap_detector` Test (Completed):** Per Overwatch critique, testing this tool became the highest priority. After correcting several navigational hallucinations, I successfully reached Route 4 (west of Mt. Moon) and tested the tool on a valid ledge jump from (11, 11) to (11, 13). The tool correctly identified the ledge jump and accurately determined it was not a trap. The tool is now considered validated and functional.
 
 ## C. Untested Hypotheses & Development Concepts
-- **Snorlax Interaction:** I am assuming the POKé FLUTE is needed to wake the Snorlax on Route 12. This is based on external knowledge. **Hypothesis:** Interacting with Snorlax directly might trigger a different event or provide a clue. **Test:** Find the Snorlax and press 'A' on it before attempting to use any item.
-- **`saffron_gym_maze_solver` (Tool Concept):** A tool to solve the Saffron Gym teleporter maze. Per Overwatch critique, this is a computational task better suited for a tool than an agent. It will take the map layout and warp connections as input to deterministically calculate the correct sequence.
-- **`dungeon_navigator_agent` (Consolidated Concept):** An agent to handle complex, multi-floor dungeons (e.g., Rock Tunnel, Silph Co.) by analyzing connections between map IDs to plan routes, identify key items or puzzles blocking paths across floors, and avoid getting stuck in loops that a single-map navigator might fall into.
-- **`route_clearer_tool` (Consolidated Concept):** A computational tool that takes the map XML and a list of defeated trainer markers, then calculates an optimal path to visit every *un-marked* trainer on the route, effectively verifying and clearing the route in one operation.
-- **`boulder_puzzle_solver_tool` (Tool Concept):** A computational tool to solve the Seafoam Islands boulder puzzles. It would take the map XML as input, identify all boulders, switches, holes, and barriers, and then calculate the optimal sequence of pushes required to solve the puzzle for a given floor.
-- **System Reachability Data as Source of Truth:** The system's global reachability data is the absolute source of truth. The system's check is optimistic and global (ignoring partitions), telling me what is *possible* on the map. My `find_path` tool provides practical, local pathfinding, telling me what is *achievable* from my current position. A discrepancy where the system shows a path but my tool does not indicates a flaw in my tool's logic that must be debugged immediately. A discrepancy where my tool shows no path but the system also shows limited reachability can indicate I am in a partitioned section of the map and need to find an alternate route.
+## C. Untested Hypotheses
+- **Cinnabar Gym Access:** I am assuming the SECRET KEY to the Cinnabar Gym is located inside the Pokémon Mansion. This is based on external knowledge and is unverified. **Test:** Thoroughly explore the Pokémon Mansion. If no key is found, this hypothesis is false, and a new one will be required.
+
+## D. Development Concepts
+- **`dungeon_navigator_agent` (Consolidated Concept):** An agent to handle complex, multi-floor dungeons by analyzing connections between map IDs to plan routes and identify cross-floor puzzles.
+- **`route_clearer_tool` (Consolidated Concept):** A computational tool that takes map XML and defeated trainer markers to calculate an optimal path to visit every *un-marked* trainer on a route.
+- **`boulder_puzzle_solver_tool` (Tool Concept):** A computational tool to solve boulder puzzles by taking map XML and calculating the optimal sequence of pushes.
+- **`saffron_gym_maze_solver` (Tool Concept):** A tool to solve the Saffron Gym teleporter maze by taking the map layout and warp connections as input to deterministically calculate the correct sequence.
 - **Seafoam Islands Connection:** The hole on B2F at (20, 7) leads to B3F at (19, 8).
 
 # VIII. High-Priority Tasks

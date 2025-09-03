@@ -995,7 +995,7 @@
         "move_index"
       ]
     },
-    "python_script": "import json\nimport sys\n\ntry:\n    pokemon_slot = int(input_data['pokemon_slot'])\n    move_index = int(input_data['move_index'])\n\n    if not (1 <= pokemon_slot <= 6):\n        print(json.dumps({'error': 'pokemon_slot must be between 1 and 6'}))\n        sys.exit()\n    if not (0 <= move_index <= 3):\n        print(json.dumps({'error': 'move_index must be between 0 and 3'}))\n        sys.exit()\n\n    buttons = []\n    buttons.append('Start')\n    buttons.append('Down')\n    buttons.append('A')\n\n    buttons.extend(['Up'] * 5)\n    buttons.extend(['Down'] * (pokemon_slot - 1))\n    buttons.append('A')\n\n    buttons.extend(['Up'] * 5)\n    buttons.extend(['Down'] * move_index)\n    buttons.append('A')\n\n    buttons.append('A')\n\n    print(json.dumps(buttons))\n\nexcept Exception as e:\n    print(json.dumps({'error': f'Script failed: {e}'}))\n",
+    "python_script": "import json\n\npokemon_slot = int(input_data['pokemon_slot'])\nmove_index = int(input_data['move_index'])\n\nbuttons = []\n\n# Open main menu\nbuttons.append('Start')\n\n# Reset cursor to top (POKéDEX) and navigate to POKéMON\nbuttons.extend(['Up'] * 5)\nbuttons.append('Down')\nbuttons.append('A')\n\n# Reset party cursor to top (slot 1) and navigate to target slot\nbuttons.extend(['Up'] * 5)\nif pokemon_slot > 1:\n    buttons.extend(['Down'] * (pokemon_slot - 1))\nbuttons.append('A')\n\n# Reset sub-menu cursor to top (first move) and navigate to target move\nbuttons.extend(['Up'] * 5)\nif move_index > 0:\n    buttons.extend(['Down'] * move_index)\n\n# Select move and confirm\nbuttons.append('A')\nbuttons.append('A')\n\nprint(json.dumps(buttons))",
     "history": [
       {
         "commit_message": "feat: Create use_hm_from_party tool. This tool automates the multi-step menu navigation required to use an HM move from the party screen. It was created to reliably use Surf in Cerulean City, adhering to the core directive of proactive automation for repetitive tasks.",
@@ -1191,6 +1191,11 @@
         "commit_message": "fix: Remove faulty main menu cursor reset. The previous version used repeated 'Up' presses to reset the main menu cursor, which failed if the player was standing against a northern wall. This commit replaces that flawed logic with a single 'Down' press, relying on the fact that the menu cursor always starts at the top ('POKéDEX') when opened. This makes the tool reliable regardless of player position.",
         "timestamp": "2025-09-03T06:45:09.827Z",
         "action_counter": 186345
+      },
+      {
+        "commit_message": "fix: Complete rewrite for robustness against non-deterministic menu cursors. Previous versions repeatedly failed due to assuming static cursor positions. This commit implements a cursor-resetting strategy for all menus (main, party, sub-menu) by pressing 'Up' multiple times, ensuring a known starting point before navigation. This addresses a long-standing critical failure and is based on manual data gathering, adhering to core debugging principles.",
+        "timestamp": "2025-09-03T08:08:42.404Z",
+        "action_counter": 186451
       }
     ]
   },
