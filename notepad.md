@@ -133,3 +133,13 @@
   5. `A` (Select Pokémon - cursor starts on first move)
   6. `Down` (Navigate to second move)
   7. `A` (Use the HM)
+
+## D. Verified Manual HM Usage Sequence
+- After a catastrophic, multi-turn failure, the following sequence was manually verified to use an HM from the party menu:
+  1. `Start` (Open Main Menu - cursor starts on 'ITEM')
+  2. `Up` (Navigate to 'POKéMON')
+  3. `A` (Select 'POKéMON' - cursor starts on slot 1)
+  4. `Down` x3 (Navigate to slot 4)
+  5. `A` (Select Pokémon - cursor starts on first move)
+  6. `Down` (Navigate to second move)
+  7. `A` (Use the HM)
