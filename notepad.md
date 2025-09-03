@@ -95,7 +95,7 @@
 
 ## A. Development Principles
 - **Data-Driven Debugging (CRITICAL):** My repeated failures with menu-navigation tools (`use_hm_from_party`, `switch_pokemon_navigator`) stemmed from fixing them based on assumptions rather than evidence. **Corrective Action:** Before writing or fixing any tool that interacts with a menu, I MUST first manually navigate it step-by-step, meticulously documenting the exact button presses and cursor behavior. This data gathering is a mandatory prerequisite to any coding.
-- **`find_path` Unreliability (High Priority Task):** This tool has repeatedly generated invalid paths. I must perform a systematic debug. **Plan:** Find a simple, contained map. Give the tool a start and end point. Manually verify the generated path against the map XML. If it fails, add debug prints to the tool's code to trace the BFS queue, visited set, and traversability checks to identify the logical error.
+- **`find_path` Reliability:** This tool has been significantly improved with diagnostic reporting. Future issues should be addressed by analyzing its detailed failure reports to distinguish between tool bugs and in-game puzzles.
 
 ## B. Future Development Ideas
 - **'Execute Battle Action' Tool:** A tool that takes an action type (MOVE/SWITCH) and target (move index/slot number) and outputs the button presses to automate battle menu navigation.
