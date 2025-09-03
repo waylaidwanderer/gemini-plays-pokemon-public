@@ -111,3 +111,6 @@
 - **hole**: A one-way drop to the floor below.
 - **water**: Requires Surf to cross.
 - **cuttable**: Requires Cut to pass; may respawn.
+
+## C. Procedural Lessons (Merged)
+- **Menu Navigation Tools:** Before writing or fixing any tool that interacts with a menu, I MUST first manually navigate the menu step-by-step to observe and document its exact structure and cursor behavior (especially starting positions, which can be variable). Data gathering must always precede coding.
