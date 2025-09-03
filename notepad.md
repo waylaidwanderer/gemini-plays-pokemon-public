@@ -109,5 +109,9 @@
 - **Hypothesis 3 (Failed):** Interact directly with Snorlax using 'A'. Result: No effect.
 - **Hypothesis 4 (Success):** The item menu is a single, scrollable list. After selecting 'ITEM' from the main menu, scroll down past the HMs (indicated by a '↓' arrow) to find Key Items like the POKé FLUTE. Using it from this menu wakes the Snorlax.
 
-## C. Pokémon Tower
-- **5F Healing Zone:** Stepping on the tile at (12, 10) triggers a full party heal.
+## D. Pokémon Tower 7F (Dead End Hallucination)
+- **Observation:** Reached the top floor (7F) of the Pokémon Tower. The path was a dead end with no visible exits or interactable objects other than my follower Pikachu.
+- **Hypothesis 1 (Failed - 15+ attempts):** Interacting with Pikachu or the environment would trigger a cutscene or event.
+- **Test:** Pressed 'A', 'B', 'Start', and directional buttons repeatedly while standing at (12, 3) and facing Pikachu.
+- **Result:** No event triggered. The game state did not change, leading to multiple CRITICAL loop warnings from the system.
+- **Conclusion:** The 7th floor is a genuine dead end at this time. The assumption that something *must* happen at the top of a dungeon was a critical navigational hallucination. The correct action was to recognize the dead end and backtrack.
