@@ -125,3 +125,6 @@
 ## A. `find_path` Tool Refinement (Resolved)
 - **Critique (Turn 189302):** The tool lacked diagnostic features for map partitioning.
 - **Resolution (Turn 189308 & 189328):** The tool was successfully updated to perform a reachability analysis and report failures due to disconnected map partitions. A critical typo in the XML library import was also fixed.
+
+# VIII. Critical Lessons from Hallucinations
+- **Dead End Validation Failure (Turn 190005):** I incorrectly assessed Cerulean Mart as not a dead end. A map with only one exit (a single warp, warp group, or map connection) and zero reachable unseen tiles IS a dead end. This is a critical rule for the `is_in_dead_end_area` validation check that I must follow precisely.
