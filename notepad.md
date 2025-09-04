@@ -123,3 +123,6 @@
 ## A. Navigational Hallucinations
 - **Route 24 Unseen Tiles (Turn 188804):** I incorrectly reported 67 reachable unseen tiles when the system confirmed there were 0. **Conclusion:** My manual assessment of map exploration status is highly unreliable. I MUST use the `map_analyzer` tool to get an accurate count of reachable unseen tiles and warps before making any exploration decisions. Trusting my own visual scan leads to critical errors.
 - **Warp Hallucination (Cerulean Gym - Turn 188811):** I incorrectly reported 0 reachable warps when the exit warps at (5, 14) and (6, 14) were reachable. **Conclusion:** This is a repeat of the unseen tile hallucination. I MUST use the `map_analyzer` tool to verify reachable warps and tiles before making navigational claims or decisions. Manual assessment is proven to be unreliable.
+
+## C. Cerulean Cave Entrance Puzzle
+- **Hypothesis 1 (Failed):** Interacting with follower Pikachu at (5, 4) in the Cerulean Gym will open the path to Cerulean Cave. **Test:** Stood at (5, 4), faced Pikachu, and pressed 'A'. **Result:** No event triggered. **Conclusion:** This interaction is not the trigger, or it was a one-time event for the Misty rematch.
