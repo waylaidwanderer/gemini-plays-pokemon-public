@@ -31,6 +31,7 @@
 - **Boulder Pushing:** A multi-turn action. Cannot be done while surfing.
 - **Dead End Definition:** A map is only a dead end if it has only one exit warp/connection and no reachable unseen tiles. The nature of the destination map is irrelevant to this classification.
 - **SURF vs. DIG:** The move SURF will miss an opponent that is underground from using DIG.
+- **Escape is Not Guaranteed (CRITICAL LESSON):** I incorrectly assumed fleeing from wild battles was always possible. The DODRIO in Cerulean Cave proved this wrong by preventing escape, leading to a party wipe. I must not rely on running as a guaranteed safe option, especially when at low health.
 
 ## C. Type Effectiveness & Insights
 - Electric is not very effective against Electric-types.
@@ -50,6 +51,8 @@
 - **Ground/Elevated Ground:** Standard walkable tiles. Cannot move between them directly.
 - **Impassable:** Walls, rocks, etc. Cannot be entered.
 - **Ladder (Up/Down):** Acts as a warp to a different floor.
+- **Water:** Requires the HM Surf to cross. Can only be entered from an adjacent land tile.
+- **Ledge:** A one-way obstacle. Can only be jumped down from above (Y-1). Attempting to move up or sideways into a ledge will fail.
 
 # III. Active Puzzles & Navigation Strategy
 
@@ -95,7 +98,6 @@
 - **`find_path` Reliability:** This tool has been significantly improved with diagnostic reporting. Future issues should be addressed by analyzing its detailed failure reports to distinguish between tool bugs and in-game puzzles.
 
 ## B. Development Brainstorming
-- **'Menu Analyzer' Tool (TOP PRIORITY):** A tool that can parse screen text from menus to determine cursor position, available options, and list structure. This is critical for creating a truly robust menu navigation solution.
 - **'Execute Battle Action' Tool (TOP PRIORITY):** A tool that takes an action type (MOVE/SWITCH) and target (move index/slot number) and outputs the button presses to automate battle menu navigation. This would work in tandem with the `master_battle_agent`.
 - **'Stuck Loop Detector' Agent:** Could analyze move history and game state to identify and diagnose repetitive failures, suggesting alternative hypotheses.
 - **'Map Analyzer' Tool/Agent:** A reliable tool to calculate reachable unseen tiles and determine if an area is a dead end to prevent navigational hallucinations.
@@ -107,6 +109,7 @@
 - **'Grinding Spot Recommender' Agent:** An agent that analyzes my notepad's 'Known Pokemon Locations' section and my current party to suggest optimal grinding locations based on type advantages and EXP yield.
 - **'Pattern Recognition' Agent:** An agent that could analyze map sprite lists and existing map markers to identify patterns (e.g., 'all NPCs in this area are non-battlers') and form high-level hypotheses to guide exploration.
 - **'Dynamic Type Chart Builder' Tool:** A long-term project to create a tool that parses battle text (e.g., "It's super effective!") to systematically build a complete and verified type effectiveness chart for this ROM hack. This would replace the brittle hardcoded dictionaries in other tools.
+- **'Automated Fly Menu Navigation' Tool:** A tool to parse the Fly menu, identify all available locations, and generate the button presses needed to select a specific destination. This would prevent the tedious and error-prone manual scrolling I currently have to do.
 
 ## C. Data-Driven Debugging Logs
 - **`use_hm_from_party` Manual Test (Cut):**
@@ -121,13 +124,9 @@
 - **SURF vs. DIG:** The move SURF will miss an opponent that is underground from using DIG.
 
 ## D. Tool Development Lessons
-- **Menu Navigation Tool Failures (CRITICAL):** My past menu tools (`use_hm_from_party`, `switch_pokemon_navigator`) were fundamentally flawed. My current `menu_navigator` tool is also critically flawed due to the 'Menu Input Blocking' mechanic. Its cursor-resetting logic (spamming 'Up') will fail if the player is adjacent to an impassable tile, making it unreliable. **Conclusion:** These tools are effectively retired. A new, environment-aware solution using a 'Menu Analyzer' is the only path forward.
+- **Menu Navigation Tool Failures (CRITICAL):** My past menu tools (`use_hm_from_party`, `switch_pokemon_navigator`) were fundamentally flawed. My `menu_navigator` tool is also critically flawed due to the 'Menu Input Blocking' mechanic. Its cursor-resetting logic (spamming 'Up') will fail if the player is adjacent to an impassable tile, making it unreliable. **Conclusion:** These tools are effectively retired. A new, environment-aware solution using a 'Menu Analyzer' and a selection tool is the only path forward. I have since created `menu_analyzer` and `select_menu_option` to address this.
 
 ## E. Navigational Lessons
 - **Dead End Definition (Correction):** A 'dead end area' assessment applies to the *entire map's* reachable exits (warps/connections). An isolated section is not a dead end if other exits exist elsewhere on the map, even if currently unreachable from my position. This was the cause of my hallucination on Cerulean Cave 2F.
 - **Warp Reachability (Correction):** A warp being listed in `Map Events` does not guarantee it is reachable from the current position. The map is often partitioned. I must verify pathability by analyzing the map layout or using a pathfinding tool before assuming a warp is accessible. This was the cause of my hallucination on Cerulean Cave 1F.
 - **Sequential Tool Call Failure:** Calling multiple tools that depend on menu state changes in the same turn (e.g., one tool to open a menu, a second to navigate it) is unreliable and can fail. Only one menu-altering tool should be called per turn to ensure the game state updates correctly before the next action.
-
-## F. Self-Assessment Lessons (Turn 188481)
-- **Manual Menu Navigation is Unreliable:** My repeated, critical errors during the VILEPLUME battle (e.g., sending out REVENANT instead of NIGHTSHADE) confirm that my own manual inputs in complex menu situations are a significant point of failure. I must treat my own ability to navigate menus with the same skepticism I apply to a faulty tool and rely on data-driven verification before every action.
-- **Menu Navigation Tool Failures (CRITICAL):** My past menu tools (`use_hm_from_party`, `switch_pokemon_navigator`) were fundamentally flawed. My current `menu_navigator` tool is also critically flawed due to the 'Menu Input Blocking' mechanic. Its cursor-resetting logic (spamming 'Up') will fail if the player is adjacent to an impassable tile, making it unreliable. **Conclusion:** These tools are effectively retired. A new, environment-aware solution using a 'Menu Analyzer' is the only path forward. I have since created the `menu_analyzer` and `select_menu_option` tools to address this.
