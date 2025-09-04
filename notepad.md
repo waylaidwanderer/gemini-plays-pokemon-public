@@ -132,8 +132,3 @@
 - **Turn 188885 & 188869:** Had hallucinations about the current turn number. Conclusion: I must always trust the turn number provided in the Game State Information and update my own records accordingly.
 - **Turn 188914:** Had a hallucination about the current turn number. Must trust Game State.
 - **Turn 188917:** Had a hallucination about the current turn number. Must trust Game State.
-
-## E. Tile Traversal & Movement Rules
-- **`elevated_ground` & `steps`:** Movement between `ground` and `elevated_ground` is only possible via a `steps` tile.
-- **`ladder_up` & `ladder_down`:** These function as warps between floors.
-- **FLY HM:** Cannot be used indoors or in caves to escape.
