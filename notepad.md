@@ -40,8 +40,7 @@
 - Electric is not very effective against Electric-types.
 - Electric is not very effective against Grass/Poison dual-types.
 - **Wild Pokémon Speed (Cerulean Cave):** Wild Pokémon are deceptively fast.
-- **Wild Pokémon Moves (Cerulean Cave):** GOLEM can use SELFDESTRUCT and EXPLOSION. SELFDESTRUCT dealt significant neutral damage to TITANESS (Normal-type). EXPLOSION is not very effective against Rock/Ground-types.
-- **SELFDESTRUCT:** Not very effective vs. Rock/Ground; Neutrally effective vs. Ground.
+- **Wild Pokémon Moves (Cerulean Cave):** GOLEM can use SELFDESTRUCT and EXPLOSION. Both moves are not very effective against Rock/Ground types, as confirmed in multiple battles. SELFDESTRUCT is neutrally effective vs. Ground-types.
 - **Type Immunity:** Electric moves have no effect on Ground-types.
 - Poison is not very effective against Ground-types.
 
