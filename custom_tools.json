@@ -1010,5 +1010,28 @@
         "action_counter": 188019
       }
     ]
+  },
+  "menu_navigator": {
+    "description": "Navigates the Pokémon party menu to select a specific Pokémon slot. It accounts for the non-deterministic starting cursor position by repeatedly pressing 'Up' to reset the cursor to the top, then moves 'Down' to the target slot. This provides a reliable way to select a Pokémon for switching or using HMs, bypassing menu desync issues.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "target_slot": {
+          "type": "string",
+          "description": "The 1-indexed party slot to select (1-6)."
+        }
+      },
+      "required": [
+        "target_slot"
+      ]
+    },
+    "python_script": "import json\n\ntry:\n    target_slot = int(input_data['target_slot'])\n    if not 1 <= target_slot <= 6:\n        raise ValueError(\"Target slot must be between 1 and 6.\")\n\n    buttons = []\n    # Reset cursor to the top (slot 1)\n    for _ in range(6):\n        buttons.append(\"Up\")\n\n    # Move down to the target slot\n    if target_slot > 1:\n        for _ in range(target_slot - 1):\n            buttons.append(\"Down\")\n\n    # Select the Pokémon\n    buttons.append(\"A\")\n\n    print(json.dumps(buttons))\n\nexcept Exception as e:\n    print(json.dumps({'error': str(e)}))",
+    "history": [
+      {
+        "commit_message": "feat: Create reliable menu navigation tool. This tool addresses a critical, recurring menu desynchronization issue by implementing a cursor-resetting logic. It repeatedly presses 'Up' to force the cursor to the top of the party list before navigating down to the desired slot. This deterministic approach will prevent future failures when switching Pokémon or using HMs. This is a direct response to a critical Overwatch critique regarding tool procrastination.",
+        "timestamp": "2025-09-04T02:12:14.733Z",
+        "action_counter": 188351
+      }
+    ]
   }
 }
