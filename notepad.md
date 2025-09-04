@@ -127,3 +127,4 @@
 # VIII. To-Do & Reminders
 
 - **`ladder_up`/`ladder_down` & `elevated_ground`:** Movement between a ladder tile and an adjacent `elevated_ground` tile is possible. (Confirmed in Cerulean Cave B1F)
+- `ladder_up`/`ladder_down` & `elevated_ground`: Movement between a ladder tile and an adjacent `elevated_ground` tile is possible. (Confirmed in Cerulean Cave B1F)
