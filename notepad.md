@@ -139,3 +139,9 @@
 ## B. Tool Development Ideas
 - **`select_fly_destination`:** A tool to automate navigating the Fly menu. It would take the current screen text and a target city as input, and output the precise sequence of 'Up' or 'Down' presses required, followed by an 'A' press. This would prevent manual errors and speed up travel.
 - **Respawning Obstacles:** Cuttable trees respawn after a certain amount of time or after changing maps, as observed with the tree at Cerulean City (20, 29).
+
+## C. Puzzle Solving & Agent Usage
+- **Lesson (Cerulean Gym):** I fell into a confirmation bias loop trying to interact with Pikachu at (5, 4). After multiple failures, I correctly pivoted to a new hypothesis (Pikachu must stand on the tile), which worked. **Correction:** I must recognize these loops faster and use my `puzzle_solver_agent` to generate new hypotheses when my own attempts fail more than twice.
+
+## B. Tool Development Ideas
+- **`use_hm_from_party_menu`:** A tool to automate the multi-step process of using a field move like Cut. It would take the Pokémon's name as input and execute the necessary menu navigation.
