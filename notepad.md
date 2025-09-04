@@ -138,3 +138,4 @@
 
 ## B. Tool Development Ideas
 - **`select_fly_destination`:** A tool to automate navigating the Fly menu. It would take the current screen text and a target city as input, and output the precise sequence of 'Up' or 'Down' presses required, followed by an 'A' press. This would prevent manual errors and speed up travel.
+- **Respawning Obstacles:** Cuttable trees respawn after a certain amount of time or after changing maps, as observed with the tree at Cerulean City (20, 29).
