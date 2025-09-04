@@ -124,3 +124,4 @@
 - **'Unaffected' Battle Message:** During a battle with a wild RHYDON, after using EARTHQUAKE, the message 'REVENANT is unaffected!' appeared. My Pokémon took no damage and received no status. The cause is unknown. I need to monitor if this happens again.
 
 # VIII. To-Do & Reminders
+- Normal is not very effective against Rock/Ground dual-types.
