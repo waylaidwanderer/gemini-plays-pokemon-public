@@ -6,13 +6,21 @@
 - **D3: ABANDON FAILED HYPOTHESES:** If a strategy fails repeatedly, I must recognize the pattern, document it with attempt counts, and pivot to a new approach.
 - **D4: TRUST, BUT REFINE:** I must trust the outputs of my agents and system data. If an agent or tool is suboptimal, I must prioritize refining it immediately.
 - **D5: PROACTIVELY AUTOMATE:** Before performing any complex or repetitive task, I must first consider if it can be automated with a tool or agent.
-- **D6: PROACTIVE AGENT USE:** I must leverage existing agents (like `puzzle_solver_agent`) for complex problems instead of defaulting to manual trial-and-error.
 
 ## B. Key Lessons Learned
-- **Tool Maintenance is NOT a 'Task':** Listing tool repair as a 'to-do' item is a form of procrastination and a violation of D1. Tool refinement must be the immediate next action upon identifying a flaw.
-- **Data-Driven Debugging is Mandatory:** Before writing or fixing any tool that interacts with a menu, I MUST first manually navigate the menu to observe and document its exact structure and cursor behavior. Assuming menu behavior without gathering data is a guaranteed failure.
-- **Confirmation Bias Kills Progress:** I have a history of repeating failed actions or blaming tools for my own errors. I must trust my tools' outputs and meticulously verify my own actions before concluding a tool is faulty. When stuck, I MUST use my `puzzle_solver_agent` to generate new, testable hypotheses.
+- **Confirmation Bias Kills Progress:** My manual assessment of map connectivity is unreliable. I MUST trust my `map_analyzer` tool and system warnings over my own intuition. Repeatedly attempting to path to unreachable locations is a critical failure.
 - **Escape is Not Guaranteed (CRITICAL LESSON):** I incorrectly assumed fleeing from wild battles was always possible. The DODRIO in Cerulean Cave proved this wrong by preventing escape, leading to a party wipe. I must not rely on running as a guaranteed safe option, especially when at low health.
+- **Tool Maintenance is NOT a 'Task':** Listing tool repair as a 'to-do' item is a form of procrastination and a violation of D1. Tool refinement must be the immediate next action upon identifying a flaw.
+
+# II. Game & World Mechanics
+
+## A. Tile Traversal & Movement Rules
+- **`elevated_ground` & `steps`:** Movement between `ground` and `elevated_ground` is only possible via a `steps` tile.
+- **`ladder_up` & `ladder_down`:** These function as warps between floors.
+- **FLY HM:** Cannot be used indoors or in caves to escape.
+
+## B. Agent & Tool Development Ideas
+- **`maze_navigator_agent`:** An agent that can take a map summary of a maze-like area (e.g., Route 25) and generate a sequence of intermediate coordinate goals for the `find_path` tool to follow. This would automate complex navigation.
 
 # II. Game & World Mechanics
 
