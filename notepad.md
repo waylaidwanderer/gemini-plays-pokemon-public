@@ -43,6 +43,7 @@
 - **Wild Pokémon Moves (Cerulean Cave):** GOLEM can use SELFDESTRUCT and EXPLOSION. SELFDESTRUCT dealt significant neutral damage to TITANESS (Normal-type). EXPLOSION is not very effective against Rock/Ground-types.
 - **SELFDESTRUCT:** Not very effective vs. Rock/Ground; Neutrally effective vs. Ground.
 - **Type Immunity:** Electric moves have no effect on Ground-types.
+- Poison is not very effective against Ground-types.
 
 ## E. Known Pokemon Locations
 - **Cerulean Cave:** Ditto, Wigglytuff, Electrode, Golem, Raichu, Sandslash, Parasect, Lickitung, Magneton, Dodrio, RHYDON, VICTREEBEL, GOLBAT, KADABRA.
@@ -124,5 +125,3 @@
 
 # VIII. To-Do & Reminders
 - Mark the surf spot on Cerulean Cave 1F at (23, 10) with a '🌊' emoji and 'Surf Spot' label when I return to that map.
-- Poison is not very effective against Ground-types.
-- Poison is not very effective against Ground-types.
