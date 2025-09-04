@@ -120,3 +120,4 @@
 
 ## D. Navigational Lessons
 - **Dead End Definition (Correction):** A 'dead end area' assessment applies to the *entire map's* reachable exits (warps/connections). An isolated section is not a dead end if other exits exist elsewhere on the map, even if currently unreachable from my position. This was the cause of my hallucination on Cerulean Cave 2F.
+- **Warp Reachability (Correction):** A warp being listed in `Map Events` does not guarantee it is reachable from the current position. The map is often partitioned. I must verify pathability by analyzing the map layout or using a pathfinding tool before assuming a warp is accessible. This was the cause of my hallucination on Cerulean Cave 1F.
