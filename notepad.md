@@ -117,3 +117,6 @@
 ## D. Tool Development Lessons
 - **Menu Navigation Tool Failures (CRITICAL):** My `use_hm_from_party` and `switch_pokemon_navigator` tools have proven to be fundamentally flawed. The 'Menu Input Blocking' mechanic, where being adjacent to an impassable tile blocks the corresponding directional input in menus, makes any tool that relies on a fixed sequence of directional inputs (especially 'Up' for cursor-resetting) inherently unreliable. **Conclusion:** These tools are retired.
 - **`menu_navigator` Flaw (CRITICAL - Confirmed by Overwatch):** My new `menu_navigator` tool, while an improvement, has a critical design flaw. It fails to account for the 'Menu Input Blocking' mechanic. Its cursor-resetting logic (spamming 'Up') will fail if the player is facing an impassable tile, making it unreliable. **Conclusion:** This tool is fundamentally unreliable and must be used with extreme caution, only when the player is confirmed to be in an open space. It needs to be replaced with a more environment-aware tool.
+
+## D. Navigational Lessons
+- **Dead End Definition (Correction):** A 'dead end area' assessment applies to the *entire map's* reachable exits (warps/connections). An isolated section is not a dead end if other exits exist elsewhere on the map, even if currently unreachable from my position. This was the cause of my hallucination on Cerulean Cave 2F.
