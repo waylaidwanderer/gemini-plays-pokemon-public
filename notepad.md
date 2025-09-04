@@ -124,3 +124,6 @@
 
 ## F. Unexplained Phenomena
 - **'Unaffected' Battle Message:** During a battle with a wild RHYDON, after using EARTHQUAKE, the message 'REVENANT is unaffected!' appeared. My Pokémon took no damage and received no status. The cause is unknown. I need to monitor if this happens again.
+
+## C. Navigational Lessons
+- **Functional Dead Ends:** An area may be reported as not a dead end by the system if a path exists that requires a specific HM (like Surf). However, if the Pokémon with that HM is fainted, the area becomes a 'functional dead end' from a practical standpoint, requiring backtracking.
