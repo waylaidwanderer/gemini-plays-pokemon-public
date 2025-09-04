@@ -28,6 +28,7 @@
 ## B. Special Mechanics & Discoveries
 - **Healing Zone:** A tile described as a "purified, protected zone" that fully heals all Pokémon in the party's HP and restores all their PP.
 - **Menu Input Blocking (CRITICAL):** Facing an impassable tile blocks that directional input in menus. This was discovered when the `use_hm_from_party` tool failed because its cursor-resetting logic (spamming 'Up') was nullified by a wall behind the player. This makes any menu navigation tool that relies on directional inputs fundamentally unreliable unless the player is in an open space.
+- **Steps Tile:** Allows movement between 'ground' and 'elevated_ground' tiles.
 - **HM Usage:** Must be adjacent to and facing the target object before opening the party menu.
 - **Boulder Pushing:** A multi-turn action. Cannot be done while surfing.
 - **Dead End Definition:** A map is only a dead end if it has only one exit warp/connection and no reachable unseen tiles. The nature of the destination map is irrelevant to this classification.
@@ -50,6 +51,7 @@
 - **Observation:** Reached the top floor (7F) of the Pokémon Tower. The path is a confirmed dead end with no visible exits or interactable objects.
 - **Hypothesis 1 (Failed - 15+ attempts):** Interacting with Pikachu or the environment would trigger a cutscene. **Test:** Pressed 'A', 'B', 'Start', and directional buttons repeatedly at (12, 3). **Result:** No event triggered. **Conclusion:** This was a severe case of Confirmation Bias. Standard interaction is not the solution.
 - **Hypothesis 2 (Failed - Agent Suggestion):** Use the POKé FLUTE at the northernmost point (12, 3) to trigger a spectral event. **Test:** Navigated to (12, 3) and used POKé FLUTE from the item menu. **Result:** The game displayed text confirming the flute was played ("Now, that's a catchy tune!"), but no event occurred. **Conclusion:** The POKé FLUTE has no special effect on this floor. The area remains a dead end.
+- **Hypothesis 3 (Untested):** Use the SILPH SCOPE might reveal a hidden object or ghost, as simple interaction and the POKé FLUTE have failed.
 
 ## B. Cerulean City Navigation
 - The city is divided by a river. The western section (where you arrive from Route 4) and the eastern section (where the path to Route 9 is) are separated. To cross between them, I must use Surf.
@@ -112,13 +114,5 @@
 - **Menu Cursor Behavior (Critical Lesson):** Menu cursor starting positions are non-deterministic. A single manual test is insufficient to establish a reliable pattern. Tools that navigate menus MUST force a known state (e.g., by repeatedly pressing 'Up' to reset the cursor to the top) rather than assuming a specific starting position. This was the root cause of the `use_hm_from_party` failure loop.
 - **SURF vs. DIG:** The move SURF will miss an opponent that is underground from using DIG.
 
-## C. Tool Development Lessons
+## D. Tool Development Lessons
 - **Menu Navigation Tool Failures (CRITICAL):** My `use_hm_from_party` and `switch_pokemon_navigator` tools have proven to be fundamentally flawed. The 'Menu Input Blocking' mechanic, where being adjacent to an impassable tile blocks the corresponding directional input in menus, makes any tool that relies on a fixed sequence of directional inputs (especially 'Up' for cursor-resetting) inherently unreliable. **Conclusion:** These tools are retired. Future attempts at menu automation will require a more advanced 'Menu Analyzer' tool that can read screen text to determine cursor position before acting, making navigation truly deterministic.
-
-## F. Tile Mechanics Reference
-- **Healing Zone:** A tile that fully heals party HP and PP.
-- **Steps:** Allows movement between 'ground' and 'elevated_ground' tiles.
-- **Menu Input Blocking:** Facing an impassable tile blocks that directional input in menus.
-
-## G. Untested Hypotheses
-- **Pokémon Tower 7F:** Using the SILPH SCOPE might reveal a hidden object or ghost, as simple interaction and the POKé FLUTE have failed.
