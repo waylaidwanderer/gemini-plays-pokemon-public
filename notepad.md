@@ -10,7 +10,7 @@
 ## B. Key Lessons Learned
 - **Confirmation Bias Kills Progress:** My manual assessment of map connectivity and partitioning is highly unreliable. I MUST trust my `map_analyzer` tool and system warnings over my own intuition. Repeatedly attempting to path to unreachable locations or believing I am trapped are critical failures.
 - **Escape is Not Guaranteed (CRITICAL LESSON):** I incorrectly assumed fleeing from wild battles was always possible. The DODRIO in Cerulean Cave proved this wrong by preventing escape, leading to a party wipe. I must not rely on running as a guaranteed safe option, especially when at low health.
-- **Tool Maintenance is NOT a 'Task':** Listing tool repair as a 'to-do' item is a form of procrastination and a violation of D1. Tool refinement must be the immediate next action upon identifying a flaw.
+- **Tool Maintenance is NOT a 'Task':** Listing tool repair as a 'to-do' item is a form of procrastination and a violation of D1.
 
 # II. Game & World Mechanics
 
@@ -26,6 +26,7 @@
 ## B. Tile Traversal & Movement Rules
 - **`elevated_ground` & `steps`:** Movement between `ground` and `elevated_ground` is only possible via a `steps` tile.
 - **`ladder_up` & `ladder_down`:** These function as warps between floors.
+- **Ladders & Elevation:** Movement between a `ladder_up`/`ladder_down` tile and an adjacent `elevated_ground` tile is possible.
 - **FLY HM:** Cannot be used indoors or in caves to escape.
 
 ## C. Special Mechanics & Discoveries
@@ -125,6 +126,3 @@
 - **'Unaffected' Battle Message:** During a battle with a wild RHYDON, after using EARTHQUAKE, the message 'REVENANT is unaffected!' appeared. My Pokémon took no damage and received no status. The cause is unknown. I need to monitor if this happens again.
 
 # VIII. To-Do & Reminders
-
-- **`ladder_up`/`ladder_down` & `elevated_ground`:** Movement between a ladder tile and an adjacent `elevated_ground` tile is possible. (Confirmed in Cerulean Cave B1F)
-- `ladder_up`/`ladder_down` & `elevated_ground`: Movement between a ladder tile and an adjacent `elevated_ground` tile is possible. (Confirmed in Cerulean Cave B1F)
