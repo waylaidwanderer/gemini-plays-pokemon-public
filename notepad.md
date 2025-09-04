@@ -31,6 +31,7 @@
 - **Boulder Pushing:** A multi-turn action. Cannot be done while surfing.
 - **Dead End Definition:** A map is only a dead end if it has only one exit warp/connection and no reachable unseen tiles. The nature of the destination map is irrelevant to this classification.
 - **SURF vs. DIG:** The move SURF will miss an opponent that is underground from using DIG.
+- **Healing Zone:** A tile described as a "purified, protected zone" that fully heals all Pokémon in the party's HP and restores all their PP. Found on Pokémon Tower 5F.
 
 ## C. Type Effectiveness & Insights
 - Electric is not very effective against Electric-types.
@@ -43,15 +44,6 @@
 ## D. Known Pokemon Locations
 - **Cerulean Cave:** Ditto, Wigglytuff, Electrode, Golem, Raichu, Sandslash, Parasect, Lickitung, Magneton, Dodrio, RHYDON, VICTREEBEL.
 - **Pokémon Tower:** GASTLY, CUBONE.
-
-## E. Tile Traversal Rules
-- **Healing Zone:** A tile described as a "purified, protected zone" that fully heals all Pokémon in the party's HP and restores all their PP. Found on Pokémon Tower 5F.
-- **Steps Tile:** Allows movement between 'ground' and 'elevated_ground' tiles.
-- **Ground/Elevated Ground:** Standard walkable tiles. Cannot move between them directly.
-- **Impassable:** Walls, rocks, etc. Cannot be entered.
-- **Ladder (Up/Down):** Acts as a warp to a different floor.
-- **Water:** Requires the HM Surf to cross. Can only be entered from an adjacent land tile.
-- **Ledge:** A one-way obstacle. Can only be jumped down from above (Y-1). Attempting to move up or sideways into a ledge will fail.
 
 # III. Active Puzzles & Navigation Strategy
 
@@ -104,7 +96,6 @@
 
 ## B. Tool Development Lessons
 - **Menu Cursor Behavior (Critical Lesson):** Menu cursor starting positions are non-deterministic. A single manual test is insufficient to establish a reliable pattern. Tools that navigate menus MUST force a known state (e.g., by repeatedly pressing 'Up' to reset the cursor to the top) rather than assuming a specific starting position. This was the root cause of the `use_hm_from_party` failure loop.
-- **SURF vs. DIG:** The move SURF will miss an opponent that is underground from using DIG.
 - **Menu Navigation Tool Failures (CRITICAL):** My past menu tools (`use_hm_from_party`, `switch_pokemon_navigator`) were fundamentally flawed. My `menu_navigator` tool is also critically flawed due to the 'Menu Input Blocking' mechanic. Its cursor-resetting logic (spamming 'Up') will fail if the player is adjacent to an impassable tile, making it unreliable. **Conclusion:** These tools are effectively retired. A new, environment-aware solution using a 'Menu Analyzer' and a selection tool is the only path forward. I have since created `menu_analyzer` and `select_menu_option` to address this.
 
 ## C. Navigational Lessons
@@ -123,22 +114,11 @@
 - **Route 24 Unseen Tiles (Turn 188804):** I incorrectly reported 67 reachable unseen tiles when the system confirmed there were 0. **Conclusion:** My manual assessment of map exploration status is highly unreliable. I MUST use the `map_analyzer` tool to get an accurate count of reachable unseen tiles and warps before making any exploration decisions. Trusting my own visual scan leads to critical errors.
 - **Warp Hallucination (Cerulean Gym - Turn 188811):** I incorrectly reported 0 reachable warps when the exit warps at (5, 14) and (6, 14) were reachable. **Conclusion:** This is a repeat of the unseen tile hallucination. I MUST use the `map_analyzer` tool to verify reachable warps and tiles before making navigational claims or decisions. Manual assessment is proven to be unreliable.
 
-## C. Cerulean Cave Entrance Puzzle
+## B. Cerulean Cave Entrance Puzzle
 - **Hypothesis 1 (Failed):** Interacting with follower Pikachu at (5, 4) in the Cerulean Gym will open the path to Cerulean Cave. **Test:** Stood at (5, 4), faced Pikachu, and pressed 'A'. **Result:** No event triggered. **Conclusion:** This interaction is not the trigger, or it was a one-time event for the Misty rematch.
 
-# VII. Self-Assessment & Correction Log (Turn 188841)
-
-## A. Critical Failures Identified
-- **Notepad Management:** My attempt to reorganize my notepad with `overwrite` failed due to a safeguard against massive data loss. This highlights a flaw in my approach to data management. I summarized too aggressively instead of purely restructuring. **Lesson:** For large reorganizations, I must be more careful, or break the process into smaller, verifiable steps using `replace`.
-- **Navigational Hallucination (Route 4):** I had a severe hallucination, believing I was in Cerulean City when I was on Route 4. This led to a tool crash and a failed strategic plan. **Conclusion:** I must be more vigilant in verifying my location in the Game State Information after every map transition. This is a repeat failure and indicates a critical flaw in my verification process.
 ## C. Positional Hallucinations
 - **Route 24 Arrival (Turn 188858):** I had a hallucination about my arrival coordinates from Cerulean City, believing I was at (12, 36) when I was actually at (11, 36). This caused me to place a map marker incorrectly and provide the wrong starting point to my `find_path` tool. **Conclusion:** I must be extremely vigilant and always verify my position from the Game State Information after every map transition before taking any action.
 
-## C. Turn Count Hallucinations
-- **Turn 188885 & 188869:** Had hallucinations about the current turn number. Conclusion: I must always trust the turn number provided in the Game State Information and update my own records accordingly.
-## C. Turn Count Hallucinations
-- **Turn 188885 & 188869:** Had hallucinations about the current turn number. Conclusion: I must always trust the turn number provided in the Game State Information and update my own records accordingly.
-## C. Turn Count Hallucinations
-- **Turn 188885 & 188869:** Had hallucinations about the current turn number. Conclusion: I must always trust the turn number provided in the Game State Information and update my own records accordingly.
-## C. Turn Count Hallucinations
+## D. Turn Count Hallucinations
 - **Turn 188885 & 188869:** Had hallucinations about the current turn number. Conclusion: I must always trust the turn number provided in the Game State Information and update my own records accordingly.
