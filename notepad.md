@@ -137,7 +137,7 @@
 - **Fly Menu Order:** I have been assuming the list of flyable locations is in a fixed, static order. I need to test if this order can change based on my current location or other factors.
 
 ## B. Tool Development Ideas
-- **`select_fly_destination`:** A tool to automate navigating the Fly menu. It would take the current screen text and a target city as input, and output the precise sequence of 'Up' or 'Down' presses required, followed by an 'A' press. This would prevent manual errors and speed up travel.
+- **`use_hm_from_party_menu`:** A tool to automate the multi-step process of using a field move like Cut or Fly. It would take the Pokémon's name and the move/destination as input, parse the menu, and execute the necessary navigation to use the move. This consolidates previous ideas for Fly and general HM usage.
 - **Respawning Obstacles:** Cuttable trees respawn after a certain amount of time or after changing maps, as observed with the tree at Cerulean City (20, 29).
 
 ## C. Puzzle Solving & Agent Usage
