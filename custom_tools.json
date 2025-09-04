@@ -922,53 +922,6 @@
       }
     ]
   },
-  "switch_pokemon_navigator": {
-    "description": "Navigates the party screen to switch to a specific Pokémon slot (1-6). Assumes the party screen is already open. Now includes a cursor-resetting failsafe for both the main party list and the sub-menu.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "target_slot": {
-          "type": "string"
-        }
-      },
-      "required": [
-        "target_slot"
-      ]
-    },
-    "python_script": "import json\nimport sys\n\ntry:\n    target_slot = int(input_data['target_slot'])\n\n    if not (1 <= target_slot <= 6):\n        print(json.dumps({\"error\": \"target_slot must be between 1 and 6.\"}))\n        sys.exit()\n\n    button_sequence = []\n\n    # Failsafe 1: Reset main party cursor to the top (Slot 1)\n    for _ in range(6):\n        button_sequence.append(\"Up\")\n\n    # Navigate to the target slot\n    for _ in range(target_slot - 1):\n        button_sequence.append(\"Down\")\n    \n    # Select the Pokémon to open the sub-menu\n    button_sequence.append(\"A\")\n\n    # Failsafe 2: Reset sub-menu cursor to the top ('SWITCH')\n    for _ in range(3):\n        button_sequence.append(\"Up\")\n\n    # Confirm the switch\n    button_sequence.append(\"A\")\n\n    print(json.dumps(button_sequence))\n\nexcept Exception as e:\n    print(json.dumps({\"error\": f\"An error occurred: {str(e)}\"}))\n",
-    "history": [
-      {
-        "commit_message": "feat: Create switch_pokemon_navigator tool. This automates the multi-step, repetitive process of navigating the party menu to switch Pokémon during battle. This was created during a mandatory self-assessment to address a clear opportunity for proactive automation, fulfilling a core directive.",
-        "timestamp": "2025-09-02T16:47:51.678Z",
-        "action_counter": 184787
-      },
-      {
-        "commit_message": "fix: Implement failsafe cursor-resetting logic. The tool failed by incorrectly assuming the cursor's starting position in the party menu, leading to the wrong Pokémon being switched in. This commit adds a robust failsafe by pressing 'Up' multiple times to force the cursor to the top (slot 1) before navigating to the target slot. This makes the tool's behavior deterministic and reliable, addressing a critical failure during the Blaine rematch.",
-        "timestamp": "2025-09-03T09:10:50.370Z",
-        "action_counter": 186544
-      },
-      {
-        "commit_message": "fix: Implement failsafe cursor-resetting logic. The tool failed by incorrectly assuming the cursor's starting position in the party menu, leading to the wrong Pokémon being switched in. This commit adds a robust failsafe by pressing 'Up' multiple times to force the cursor to the top (slot 1) before navigating to the target slot. This makes the tool's behavior deterministic and reliable, addressing a critical failure during the Blaine rematch.",
-        "timestamp": "2025-09-03T10:12:06.545Z",
-        "action_counter": 186651
-      },
-      {
-        "commit_message": "fix: Implement failsafe cursor-resetting logic. The tool failed by incorrectly assuming the cursor's starting position in the party menu, leading to the wrong Pokémon being switched in. This commit adds a robust failsafe by pressing 'Up' multiple times to force the cursor to the top (slot 1) before navigating to the target slot. This makes the tool's behavior deterministic and reliable, addressing a critical failure during the Blaine rematch.",
-        "timestamp": "2025-09-03T12:06:51.009Z",
-        "action_counter": 186852
-      },
-      {
-        "commit_message": "fix: Complete rewrite based on meticulous manual data gathering. All previous versions failed due to incorrect assumptions about menu behavior. This version implements a robust, deterministic cursor-resetting strategy by spamming 'Up' to force the cursor to the top position (slot 1), which was verified to be a non-wrapping boundary. It then navigates down to the target slot. This addresses the long-standing critical failures of this tool and adheres to the data-driven debugging process mandated by Overwatch.",
-        "timestamp": "2025-09-03T19:47:55.188Z",
-        "action_counter": 187609
-      },
-      {
-        "commit_message": "fix: Implement robust, data-driven, two-stage cursor reset. The tool was critically failing by assuming the sub-menu ('SWITCH'/'STATS') cursor position. This rewrite adds a second cursor-resetting failsafe after opening the sub-menu by spamming 'Up' to guarantee the cursor is on 'SWITCH' before confirming. This directly addresses the repeated failures and adheres to the mandatory data-driven debugging process.",
-        "timestamp": "2025-09-03T20:37:22.472Z",
-        "action_counter": 187701
-      }
-    ]
-  },
   "trivial_battle_automator": {
     "description": "A tool to automate simple, repetitive wild battles. Checks for a significant level difference and if the opponent is wild. If so, it presses 'A' twice to select FIGHT and the first move, after checking for type immunities.",
     "input_schema": {
