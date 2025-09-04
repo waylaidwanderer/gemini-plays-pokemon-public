@@ -143,3 +143,4 @@
 ## C. Puzzle Solving & Agent Usage
 - **Lesson (Cerulean Gym):** I fell into a confirmation bias loop trying to interact with Pikachu at (5, 4). After multiple failures, I correctly pivoted to a new hypothesis (Pikachu must stand on the tile), which worked. **Correction:** I must recognize these loops faster and use my `puzzle_solver_agent` to generate new hypotheses when my own attempts fail more than twice.
 - **Inventory Slot Management (CRITICAL LESSON):** Discarding a partial stack of an item does NOT free up an inventory slot. To create space, an entire stack of an item must be discarded. My `inventory_manager` agent has been updated to reflect this.
+- **`automated_item_discarder`:** A tool that takes an item name and quantity, then automatically executes the menu navigation to discard it. This would streamline inventory management and avoid manual input errors, but would need to be robust enough to handle the 'Menu Input Blocking' mechanic.
