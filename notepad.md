@@ -93,21 +93,7 @@
 
 # V. Agent & Tool Development
 
-## A. Development Brainstorming
-- **'Automated Fly Menu Navigation' Tool (TOP PRIORITY):** A tool to parse the Fly menu, identify all available locations, and generate the button presses needed to select a specific destination. This would prevent the tedious and error-prone manual scrolling I currently have to do.
-- **'Execute Battle Action' Tool:** A tool that takes an action type (MOVE/SWITCH) and target (move index/slot number) and outputs the button presses to automate battle menu navigation. This would work in tandem with the `master_battle_agent`.
-- **'Stuck Loop Detector' Agent:** Could analyze move history and game state to identify and diagnose repetitive failures, suggesting alternative hypotheses.
-- **'Map Analyzer' Tool/Agent:** A reliable tool to calculate reachable unseen tiles and determine if an area is a dead end to prevent navigational hallucinations.
-- **'High-Level Planner' Agent:** Could analyze the primary goal and suggest a sequence of maps or major objectives to achieve it.
-- **'Team Composition' Agent:** Could analyze the party and PC to suggest optimal teams for specific challenges (e.g., a specific Gym Leader rematch).
-- **'Inventory/PC Summary' Tool:** Could provide a quick summary of current items without manual checking.
-- **'Wild Battle Automator V2' Agent:** An advanced version of the current tool that can handle non-trivial battles. It would analyze type matchups, select the best move from the full moveset (not just the first), and even recommend switching Pokémon if the current matchup is unfavorable.
-- **'PC Summary' Tool:** A tool to quickly parse and display a summary of Pokémon stored in the PC, including species, level, and moves. This would save time compared to manually checking the PC.
-- **'Grinding Spot Recommender' Agent:** An agent that analyzes my notepad's 'Known Pokemon Locations' section and my current party to suggest optimal grinding locations based on type advantages and EXP yield.
-- **'Pattern Recognition' Agent:** An agent that could analyze map sprite lists and existing map markers to identify patterns (e.g., 'all NPCs in this area are non-battlers') and form high-level hypotheses to guide exploration.
-- **'Dynamic Type Chart Builder' Tool:** A long-term project to create a tool that parses battle text (e.g., "It's super effective!") to systematically build a complete and verified type effectiveness chart for this ROM hack. This would replace the brittle hardcoded dictionaries in other tools.
-
-## B. Data-Driven Debugging Logs
+## A. Data-Driven Debugging Logs
 - **`use_hm_from_party` Manual Test (Cut):**
   - **Attempt 1 (Failure):** Selected 'CUT'. Game returned error "There isn't anything to CUT!". **Conclusion:** Player must be facing the target object *before* opening the menu to use an HM.
   - **Attempt 2 (Success):** Faced tree, then navigated menu. **Discovery:** Party screen cursor position is not reliably at the top. A cursor-resetting sequence (e.g., spamming 'Up') is necessary for a robust tool.
@@ -117,12 +103,12 @@
 - **Hypothesis 3 (Failed):** Interact directly with Snorlax using 'A'. Result: No effect.
 - **Hypothesis 4 (Success):** The item menu is a single, scrollable list. After selecting 'ITEM' from the main menu, scroll down past the HMs (indicated by a '↓' arrow) to find Key Items like the POKé FLUTE. Using it from this menu wakes the Snorlax.
 
-## C. Tool Development Lessons
+## B. Tool Development Lessons
 - **Menu Cursor Behavior (Critical Lesson):** Menu cursor starting positions are non-deterministic. A single manual test is insufficient to establish a reliable pattern. Tools that navigate menus MUST force a known state (e.g., by repeatedly pressing 'Up' to reset the cursor to the top) rather than assuming a specific starting position. This was the root cause of the `use_hm_from_party` failure loop.
 - **SURF vs. DIG:** The move SURF will miss an opponent that is underground from using DIG.
 - **Menu Navigation Tool Failures (CRITICAL):** My past menu tools (`use_hm_from_party`, `switch_pokemon_navigator`) were fundamentally flawed. My `menu_navigator` tool is also critically flawed due to the 'Menu Input Blocking' mechanic. Its cursor-resetting logic (spamming 'Up') will fail if the player is adjacent to an impassable tile, making it unreliable. **Conclusion:** These tools are effectively retired. A new, environment-aware solution using a 'Menu Analyzer' and a selection tool is the only path forward. I have since created `menu_analyzer` and `select_menu_option` to address this.
 
-## D. Navigational Lessons
+## C. Navigational Lessons
 - **Dead End Definition (Correction):** A 'dead end area' assessment applies to the *entire map's* reachable exits (warps/connections). An isolated section is not a dead end if other exits exist elsewhere on the map, even if currently unreachable from my position. This was the cause of my hallucination on Cerulean Cave 2F.
 - **Warp Reachability (Correction):** A warp being listed in `Map Events` does not guarantee it is reachable from the current position. The map is often partitioned. I must verify pathability by analyzing the map layout or using a pathfinding tool before assuming a warp is accessible. This was the cause of my hallucination on Cerulean Cave 1F.
 - **Sequential Tool Call Failure:** Calling multiple tools that depend on menu state changes in the same turn (e.g., one tool to open a menu, a second to navigate it) is unreliable and can fail. Only one menu-altering tool should be called per turn to ensure the game state updates correctly before the next action.
