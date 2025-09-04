@@ -129,3 +129,12 @@
 ## A. `find_path` Tool Refinement (Resolved)
 - **Critique (Turn 189302):** The tool lacked diagnostic features for map partitioning.
 - **Resolution (Turn 189308 & 189328):** The tool was successfully updated to perform a reachability analysis and report failures due to disconnected map partitions. A critical typo in the XML library import was also fixed.
+
+# VIII. Untested Assumptions & Future Development
+
+## A. Untested Assumptions
+- **Mewtwo's Location:** While Cerulean Cave is the strongest lead, it is not 100% confirmed to be Mewtwo's only possible location. I must remain open to other possibilities if the cave does not yield results.
+- **Fly Menu Order:** I have been assuming the list of flyable locations is in a fixed, static order. I need to test if this order can change based on my current location or other factors.
+
+## B. Tool Development Ideas
+- **`select_fly_destination`:** A tool to automate navigating the Fly menu. It would take the current screen text and a target city as input, and output the precise sequence of 'Up' or 'Down' presses required, followed by an 'A' press. This would prevent manual errors and speed up travel.
