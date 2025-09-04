@@ -49,6 +49,15 @@
 - **Cerulean Cave:** Ditto, Wigglytuff, Electrode, Golem, Raichu, Sandslash, Parasect, Lickitung, Magneton, Dodrio, RHYDON, VICTREEBEL, GOLBAT, KADABRA.
 - **Pokémon Tower:** GASTLY, CUBONE.
 
+## F. Navigational Lessons & Discoveries
+- **Dead End Definition (Correction):** A 'dead end area' assessment applies to the *entire map's* reachable exits. An isolated section is not a dead end if other exits exist elsewhere on the map, even if currently unreachable.
+- **Warp Reachability (Correction):** A warp being listed in `Map Events` does not guarantee it is reachable from the current position. The map is often partitioned.
+- **Self-Assessment Insights (Turn 188789):** Wasted time exploring rivers in Cerulean City/Route 24. Should have used a data-driven tool like `map_analyzer` sooner to confirm it was a dead end.
+- **Functional Dead Ends:** An area may be reported as not a dead end by the system if a path exists that requires a specific HM (like Surf). However, if the Pokémon with that HM is fainted, the area becomes a 'functional dead end' from a practical standpoint, requiring backtracking.
+
+## G. Unexplained Phenomena
+- **'Unaffected' Battle Message:** During a battle with a wild RHYDON, after using EARTHQUAKE, the message 'REVENANT is unaffected!' appeared. My Pokémon took no damage and received no status. The cause is unknown. I need to monitor if this happens again.
+
 # III. Active Puzzles & Navigation Strategy
 
 ## A. Pokémon Tower 7F (Dead End Puzzle)
@@ -99,11 +108,6 @@
 - **Sequential Tool Call Failure:** Calling multiple menu-altering tools in the same turn is unreliable. Only one should be called per turn.
 - **Decoy Entrances:** Be wary of entrances that lead to isolated areas (e.g., Cerulean Cave's fake entrance).
 
-## C. Navigational Lessons
-- **Dead End Definition (Correction):** A 'dead end area' assessment applies to the *entire map's* reachable exits. An isolated section is not a dead end if other exits exist elsewhere on the map, even if currently unreachable.
-- **Warp Reachability (Correction):** A warp being listed in `Map Events` does not guarantee it is reachable from the current position. The map is often partitioned.
-- **Self-Assessment Insights (Turn 188789):** Wasted time exploring rivers in Cerulean City/Route 24. Should have used a data-driven tool like `map_analyzer` sooner to confirm it was a dead end.
-
 # VI. Self-Correction & Hallucination Log
 
 ## A. Navigational Hallucinations
@@ -121,9 +125,3 @@
 ## A. `find_path` Tool Refinement (Resolved)
 - **Critique (Turn 189302):** The tool lacked diagnostic features for map partitioning.
 - **Resolution (Turn 189308 & 189328):** The tool was successfully updated to perform a reachability analysis and report failures due to disconnected map partitions. A critical typo in the XML library import was also fixed.
-
-## F. Unexplained Phenomena
-- **'Unaffected' Battle Message:** During a battle with a wild RHYDON, after using EARTHQUAKE, the message 'REVENANT is unaffected!' appeared. My Pokémon took no damage and received no status. The cause is unknown. I need to monitor if this happens again.
-
-## C. Navigational Lessons
-- **Functional Dead Ends:** An area may be reported as not a dead end by the system if a path exists that requires a specific HM (like Surf). However, if the Pokémon with that HM is fainted, the area becomes a 'functional dead end' from a practical standpoint, requiring backtracking.
