@@ -1000,52 +1000,6 @@
       }
     ]
   },
-  "select_pokemon_from_party": {
-    "description": "Calculates the button presses needed to select a specific Pokémon from the party menu screen. It identifies the cursor's current position and the target's position to generate the correct sequence of 'Down' presses, followed by 'A' to select.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "screen_text": {
-          "type": "string"
-        },
-        "target_pokemon_name": {
-          "type": "string"
-        }
-      },
-      "required": [
-        "screen_text",
-        "target_pokemon_name"
-      ]
-    },
-    "python_script": "import json\nimport re\n\nscreen_text = input_data['screen_text']\ntarget_pokemon_name = input_data['target_pokemon_name']\nlines = screen_text.strip().split('\\n')\n\nparty_pokemon = []\ncursor_index = -1\n\n# New parsing logic to handle multi-line entries\nfor i, line in enumerate(lines):\n    # Regex to find a Pokémon name (uppercase, LV, and status)\n    match = re.search(r'([A-Z-]{2,})\\s+LV\\s*\\d+\\s*(SLP|PAR|FNT|OK)?', line)\n    if match:\n        pokemon_name = match.group(1).strip()\n        party_pokemon.append(pokemon_name)\n        \n        # Check the *next* line for the cursor\n        if i + 1 < len(lines):\n            next_line = lines[i+1]\n            if '→' in next_line:\n                cursor_index = len(party_pokemon) - 1\n\n# Fallback for single-line format\nif cursor_index == -1:\n    for i, line in enumerate(lines):\n        if '→' in line:\n            match = re.search(r'([A-Z-]{2,})\\s+LV', line)\n            if match:\n                pokemon_name = match.group(1).strip()\n                if pokemon_name in party_pokemon:\n                    cursor_index = party_pokemon.index(pokemon_name)\n                break\n\nif not party_pokemon or cursor_index == -1:\n    print(json.dumps([]))\nelse:\n    try:\n        target_index = -1\n        for i, name in enumerate(party_pokemon):\n            if name.upper() == target_pokemon_name.upper():\n                target_index = i\n                break\n        \n        if target_index == -1:\n             print(json.dumps([]))\n             exit()\n\n        diff = target_index - cursor_index\n        num_pokemon = len(party_pokemon)\n        \n        buttons = []\n        if diff != 0:\n            if diff > 0: # Target is below cursor\n                if diff <= num_pokemon / 2:\n                    for _ in range(diff):\n                        buttons.append('Down')\n                else:\n                    for _ in range(num_pokemon - diff):\n                        buttons.append('Up')\n            else: # Target is above cursor\n                if abs(diff) <= num_pokemon / 2:\n                    for _ in range(abs(diff)):\n                        buttons.append('Up')\n                else:\n                    for _ in range(num_pokemon + diff):\n                        buttons.append('Down')\n\n        buttons.append('A')\n        print(json.dumps(buttons))\n    except Exception:\n        print(json.dumps([]))",
-    "history": [
-      {
-        "commit_message": "feat: Create select_pokemon_from_party tool. This tool automates the error-prone process of manually selecting a Pokémon from the party menu during battle. It parses the screen text to find the cursor and target, then generates the necessary button presses. This is a direct response to a mandatory self-assessment and addresses a key area for automation to improve efficiency and reduce input errors.",
-        "timestamp": "2025-09-04T17:05:58.752Z",
-        "action_counter": 189562
-      },
-      {
-        "commit_message": "fix: Correct button press calculation. The tool was previously miscalculating the number of 'Down' presses required, leading to incorrect Pokémon selections. This commit fixes the logic to correctly calculate the difference between the cursor and target indices, including menu wrap-around, and generate the appropriate number of button presses. This addresses a critical failure from the last battle.",
-        "timestamp": "2025-09-04T17:34:16.436Z",
-        "action_counter": 189605
-      },
-      {
-        "commit_message": "fix: Correct SyntaxError in regex pattern. The tool was failing due to an unescaped single quote inside a single-quoted raw string, causing a Python syntax error. This commit changes the string literal to use double quotes, which correctly handles the special characters in Pokémon names and resolves the critical tool failure.",
-        "timestamp": "2025-09-04T17:40:10.540Z",
-        "action_counter": 189614
-      },
-      {
-        "commit_message": "fix: Implement robust multi-line party menu parsing. The previous version failed to correctly associate the cursor ('→') with the Pokémon name on the preceding line, leading to incorrect or zero button presses. This commit introduces a new parsing loop that explicitly checks the line following a Pokémon's name for the cursor, ensuring reliable position detection. This addresses the critical tool failures from the last two battle turns.",
-        "timestamp": "2025-09-04T17:42:21.229Z",
-        "action_counter": 189618
-      },
-      {
-        "commit_message": "fix: Implement robust multi-line party menu parsing. The previous version failed to correctly associate the cursor ('→') with the Pokémon name on the preceding line, leading to incorrect or zero button presses. This commit introduces a new parsing loop that explicitly checks the line following a Pokémon's name for the cursor, ensuring reliable position detection. This addresses the critical tool failures from the last two battle turns.",
-        "timestamp": "2025-09-04T21:18:37.922Z",
-        "action_counter": 190001
-      }
-    ]
-  },
   "select_move_from_list": {
     "description": "Analyzes the battle move selection screen text to find the cursor's current position and a target move, then calculates and outputs the button presses needed to select it.",
     "input_schema": {
@@ -1069,6 +1023,32 @@
         "commit_message": "feat: Create select_move_from_list tool. This automates the process of selecting a move from the battle menu, reducing manual input errors during critical moments. This is a direct response to the self-assessment identifying repetitive manual actions that could be automated.",
         "timestamp": "2025-09-04T20:43:14.055Z",
         "action_counter": 189920
+      }
+    ]
+  },
+  "select_item_from_list": {
+    "description": "Calculates the button presses needed to select a specific item from the item menu screen.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "screen_text": {
+          "type": "string"
+        },
+        "target_item": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "screen_text",
+        "target_item"
+      ]
+    },
+    "python_script": "import json\nimport re\nimport sys\n\ntry:\n    screen_text = input_data['screen_text']\n    target_item = input_data['target_item']\n\n    lines = screen_text.strip().split('\\n')\n    \n    items = []\n    cursor_pos = -1\n    \n    for i, line in enumerate(lines):\n        if '→' in line:\n            cursor_pos = len(items)\n            item_name = line.replace('→', '').strip().split(' ')[0]\n            items.append(item_name)\n        elif line.strip() and line.strip() != \"EXIT\":\n            item_name = line.strip().split(' ')[0]\n            items.append(item_name)\n\n    if cursor_pos == -1:\n        print(json.dumps([]))\n        sys.exit()\n\n    try:\n        target_pos = items.index(target_item)\n    except ValueError:\n        print(json.dumps([]))\n        sys.exit()\n\n    num_items = len(items)\n    \n    if cursor_pos == target_pos:\n        presses = []\n    elif cursor_pos < target_pos:\n        down_presses = target_pos - cursor_pos\n        up_presses = num_items - down_presses\n        if down_presses <= up_presses:\n            presses = ['Down'] * down_presses\n        else:\n            presses = ['Up'] * up_presses\n    else: # cursor_pos > target_pos\n        up_presses = cursor_pos - target_pos\n        down_presses = num_items - up_presses\n        if up_presses <= down_presses:\n            presses = ['Up'] * up_presses\n        else:\n            presses = ['Down'] * down_presses\n            \n    print(json.dumps(presses))\n\nexcept Exception as e:\n    print(json.dumps([]))\n",
+    "history": [
+      {
+        "commit_message": "feat: Create select_item_from_list tool to automate item selection. This is a direct response to a mandatory self-assessment that identified repeated manual failures in menu navigation. This tool parses the item menu, finds the cursor and target, and calculates the optimal button presses, preventing errors caused by mechanics like impassable tile input blocking.",
+        "timestamp": "2025-09-04T21:55:24.514Z",
+        "action_counter": 190074
       }
     ]
   }
