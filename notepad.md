@@ -128,3 +128,4 @@
 
 # VIII. High-Priority Tasks
 - **`select_pokemon_from_party` Tool Repair:** This tool is fundamentally flawed and has failed repeatedly. It MUST be redesigned and fixed in a safe environment (e.g., Pokémon Center) before its next use. This is a top-priority task resulting from the mandatory self-assessment.
+- **Respawning Obstacles:** Cuttable trees respawn after blacking out or changing maps, as observed at Cerulean City (20, 29).

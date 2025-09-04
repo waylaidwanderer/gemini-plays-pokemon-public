@@ -969,32 +969,6 @@
       }
     ]
   },
-  "select_menu_option": {
-    "description": "Analyzes menu screen text to find the current cursor position and a target option, then calculates and outputs the button presses needed to move the cursor to the target and select it. Assumes a single-column layout.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "screen_text": {
-          "type": "string"
-        },
-        "target_option": {
-          "type": "string"
-        }
-      },
-      "required": [
-        "screen_text",
-        "target_option"
-      ]
-    },
-    "python_script": "import json\nimport re\n\nscreen_text = input_data['screen_text']\ntarget_option = input_data['target_option']\nlines = screen_text.strip().split('\\n')\n\ncursor_char = '→'\nmenu_options = []\ncursor_line_index = -1\n\nfor i, line in enumerate(lines):\n    # This regex is simplified to split by multiple spaces or the cursor, then filter.\n    potential_options = [opt.strip() for opt in re.split(r'\\s{2,}|\\s*→\\s*', line) if opt]\n    menu_options.extend(potential_options)\n    if cursor_char in line:\n        cursor_line_index = i\n\n# Find current cursor position by text\n# This is brittle if options have same name, but works for most menus\ncursor_on_text = None\nif cursor_line_index != -1:\n    line_with_cursor = lines[cursor_line_index]\n    options_in_line = [opt.strip() for opt in re.split(r'\\s{2,}|\\s*→\\s*', line_with_cursor) if opt]\n    if options_in_line:\n        cursor_on_text = options_in_line[0] # Assumes first option in a cursor line is the selected one\n\n# Find indices\ntry:\n    current_index = menu_options.index(cursor_on_text)\n    target_index = menu_options.index(target_option)\nexcept (ValueError, IndexError):\n    print(json.dumps({'error': 'Could not find target or current option in menu.'}))\n    exit()\n\npresses = []\n# For now, this only handles single-column vertical menus.\nif target_index > current_index:\n    for _ in range(target_index - current_index):\n        presses.append('Down')\nelif target_index < current_index:\n    for _ in range(current_index - target_index):\n        presses.append('Up')\n\npresses.append('A')\nprint(json.dumps(presses))",
-    "history": [
-      {
-        "commit_message": "feat: Create select_menu_option tool. This tool automates menu navigation by parsing screen text to find the cursor and a target, then generates the required button presses. This is a direct response to repeated critical failures in manual menu navigation and addresses a major strategic weakness.",
-        "timestamp": "2025-09-04T04:33:27.001Z",
-        "action_counter": 188583
-      }
-    ]
-  },
   "map_analyzer": {
     "description": "Analyzes the current map XML to find all reachable unseen tiles and reachable warps from the player's current position using a Breadth-First Search. This is used to prevent navigational hallucinations and accurately assess exploration progress.",
     "input_schema": {
@@ -1064,6 +1038,32 @@
         "commit_message": "fix: Implement robust multi-line party menu parsing. The previous version failed to correctly associate the cursor ('→') with the Pokémon name on the preceding line, leading to incorrect or zero button presses. This commit introduces a new parsing loop that explicitly checks the line following a Pokémon's name for the cursor, ensuring reliable position detection. This addresses the critical tool failures from the last two battle turns.",
         "timestamp": "2025-09-04T17:42:21.229Z",
         "action_counter": 189618
+      }
+    ]
+  },
+  "select_move_from_list": {
+    "description": "Analyzes the battle move selection screen text to find the cursor's current position and a target move, then calculates and outputs the button presses needed to select it.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "screen_text": {
+          "type": "string"
+        },
+        "target_move": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "screen_text",
+        "target_move"
+      ]
+    },
+    "python_script": "import json\nimport re\n\nscreen_text = input_data['screen_text']\ntarget_move = input_data['target_move']\nlines = screen_text.split('\\n')\n\nmoves = []\ncursor_pos = -1\n\nfor i, line in enumerate(lines):\n    # Find moves, which are typically uppercase words\n    # This regex looks for an optional cursor, followed by an uppercase word\n    match = re.search(r'(→)?([A-Z-]{2,})', line)\n    if match:\n        is_cursor = match.group(1) is not None\n        move_name = match.group(2)\n        # A simple check to avoid capturing things like 'TYPE/' or 'PKMN'\n        if move_name not in ['TYPE', 'PKMN', 'ITEM', 'RUN']:\n            moves.append(move_name)\n            if is_cursor:\n                cursor_pos = len(moves) - 1\n\nif not moves or cursor_pos == -1:\n    print(json.dumps([]))\nelse:\n    try:\n        target_pos = moves.index(target_move)\n        diff = target_pos - cursor_pos\n        \n        buttons = []\n        if diff > 0:\n            for _ in range(diff):\n                buttons.append('Down')\n        elif diff < 0:\n            for _ in range(abs(diff)):\n                buttons.append('Up')\n        \n        buttons.append('A')\n        print(json.dumps(buttons))\n    except ValueError:\n        # Target move not found in the list\n        print(json.dumps([]))",
+    "history": [
+      {
+        "commit_message": "feat: Create select_move_from_list tool. This automates the process of selecting a move from the battle menu, reducing manual input errors during critical moments. This is a direct response to the self-assessment identifying repetitive manual actions that could be automated.",
+        "timestamp": "2025-09-04T20:43:14.055Z",
+        "action_counter": 189920
       }
     ]
   }
