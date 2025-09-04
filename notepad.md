@@ -11,8 +11,8 @@
 ## B. Key Lessons Learned
 - **Tool Maintenance is NOT a 'Task':** Listing tool repair as a 'to-do' item is a form of procrastination and a violation of D1. Tool refinement must be the immediate next action upon identifying a flaw.
 - **Data-Driven Debugging is Mandatory:** Before writing or fixing any tool that interacts with a menu, I MUST first manually navigate the menu to observe and document its exact structure and cursor behavior. Assuming menu behavior without gathering data is a guaranteed failure.
-- **Confirmation Bias Kills Progress:** I have a history of repeating failed actions (e.g., trying the broken `use_hm_from_party` tool 3 times before debugging) or blaming tools for my own errors. I must trust my tools' outputs (like a calculated path) and meticulously verify my own actions before concluding a tool is faulty. When stuck, I MUST use my `puzzle_solver_agent` to generate new, testable hypotheses.
-- **Navigational Hallucinations are Real:** I have a history of incorrectly concluding I am trapped or misidentifying map states (dead ends, unseen tiles). I must develop a tool for reliable map analysis and trust system warnings.
+- **Confirmation Bias Kills Progress:** I have a history of repeating failed actions or blaming tools for my own errors. I must trust my tools' outputs and meticulously verify my own actions before concluding a tool is faulty. When stuck, I MUST use my `puzzle_solver_agent` to generate new, testable hypotheses.
+- **Navigational Hallucinations are Real:** I have a history of incorrectly concluding I am trapped or misidentifying map states. I must develop a tool for reliable map analysis and trust system warnings.
 
 # II. Game & World Mechanics
 
@@ -26,9 +26,7 @@
 - `💖 Healing Zone`: For tiles that provide party healing.
 
 ## B. Special Mechanics & Discoveries
-- **Healing Zone:** A tile described as a "purified, protected zone" that fully heals all Pokémon in the party's HP and restores all their PP.
-- **Menu Input Blocking (CRITICAL):** Facing an impassable tile blocks that directional input in menus. This was discovered when the `use_hm_from_party` tool failed because its cursor-resetting logic (spamming 'Up') was nullified by a wall behind the player. This makes any menu navigation tool that relies on directional inputs fundamentally unreliable unless the player is in an open space.
-- **Steps Tile:** Allows movement between 'ground' and 'elevated_ground' tiles.
+- **Menu Input Blocking (CRITICAL):** Facing an impassable tile blocks that directional input in menus. This makes any menu navigation tool that relies on fixed directional inputs fundamentally unreliable unless the player is in an open space.
 - **HM Usage:** Must be adjacent to and facing the target object before opening the party menu.
 - **Boulder Pushing:** A multi-turn action. Cannot be done while surfing.
 - **Dead End Definition:** A map is only a dead end if it has only one exit warp/connection and no reachable unseen tiles. The nature of the destination map is irrelevant to this classification.
@@ -36,6 +34,7 @@
 
 ## C. Type Effectiveness & Insights
 - Electric is not very effective against Electric-types.
+- Electric is not very effective against Grass/Poison dual-types.
 - **Wild Pokémon Speed (Cerulean Cave):** Wild Pokémon are deceptively fast.
 - **Wild Pokémon Moves (Cerulean Cave):** GOLEM can use SELFDESTRUCT. It dealt significant neutral damage to TITANESS (Normal-type).
 - **SELFDESTRUCT:** Not very effective vs. Rock/Ground; Neutrally effective vs. Ground.
@@ -44,6 +43,13 @@
 ## D. Known Pokemon Locations
 - **Cerulean Cave:** Ditto, Wigglytuff, Electrode, Golem, Raichu, Sandslash, Parasect, Lickitung, Magneton, Dodrio, RHYDON, VICTREEBEL.
 - **Pokémon Tower:** GASTLY, CUBONE.
+
+## E. Tile Traversal Rules
+- **Healing Zone:** A tile described as a "purified, protected zone" that fully heals all Pokémon in the party's HP and restores all their PP. Found on Pokémon Tower 5F.
+- **Steps Tile:** Allows movement between 'ground' and 'elevated_ground' tiles.
+- **Ground/Elevated Ground:** Standard walkable tiles. Cannot move between them directly.
+- **Impassable:** Walls, rocks, etc. Cannot be entered.
+- **Ladder (Up/Down):** Acts as a warp to a different floor.
 
 # III. Active Puzzles & Navigation Strategy
 
@@ -85,11 +91,12 @@
 # V. Agent & Tool Development
 
 ## A. Development Principles
-- **Data-Driven Debugging (CRITICAL):** My repeated failures with menu-navigation tools (`use_hm_from_party`, `switch_pokemon_navigator`) stemmed from fixing them based on assumptions rather than evidence. **Corrective Action:** Before writing or fixing any tool that interacts with a menu, I MUST first manually navigate it step-by-step, meticulously documenting the exact button presses and cursor behavior. This data gathering is a mandatory prerequisite to any coding.
+- **Data-Driven Debugging (CRITICAL):** My repeated failures with menu-navigation tools stemmed from fixing them based on assumptions rather than evidence. **Corrective Action:** Before writing or fixing any tool that interacts with a menu, I MUST first manually navigate it step-by-step, meticulously documenting the exact button presses and cursor behavior. This data gathering is a mandatory prerequisite to any coding.
 - **`find_path` Reliability:** This tool has been significantly improved with diagnostic reporting. Future issues should be addressed by analyzing its detailed failure reports to distinguish between tool bugs and in-game puzzles.
 
 ## B. Development Brainstorming
-- **'Execute Battle Action' Tool:** A tool that takes an action type (MOVE/SWITCH) and target (move index/slot number) and outputs the button presses to automate battle menu navigation.
+- **'Menu Analyzer' Tool (TOP PRIORITY):** A tool that can parse screen text from menus to determine cursor position, available options, and list structure. This is critical for creating a truly robust menu navigation solution.
+- **'Execute Battle Action' Tool (TOP PRIORITY):** A tool that takes an action type (MOVE/SWITCH) and target (move index/slot number) and outputs the button presses to automate battle menu navigation. This would work in tandem with the `master_battle_agent`.
 - **'Stuck Loop Detector' Agent:** Could analyze move history and game state to identify and diagnose repetitive failures, suggesting alternative hypotheses.
 - **'Map Analyzer' Tool/Agent:** A reliable tool to calculate reachable unseen tiles and determine if an area is a dead end to prevent navigational hallucinations.
 - **'High-Level Planner' Agent:** Could analyze the primary goal and suggest a sequence of maps or major objectives to achieve it.
@@ -98,7 +105,6 @@
 - **'Wild Battle Automator V2' Agent:** An advanced version of the current tool that can handle non-trivial battles. It would analyze type matchups, select the best move from the full moveset (not just the first), and even recommend switching Pokémon if the current matchup is unfavorable.
 - **'PC Summary' Tool:** A tool to quickly parse and display a summary of Pokémon stored in the PC, including species, level, and moves. This would save time compared to manually checking the PC.
 - **'Grinding Spot Recommender' Agent:** An agent that analyzes my notepad's 'Known Pokemon Locations' section and my current party to suggest optimal grinding locations based on type advantages and EXP yield.
-- **'Menu Analyzer' Tool (TOP PRIORITY):** A tool that can parse screen text from menus to determine cursor position, available options, and list structure. This is critical for creating a truly robust menu navigation solution. My current `menu_navigator` is a temporary, flawed fix that only works in open spaces; a true analyzer is still needed to replace it and avoid future failure loops.
 - **'Pattern Recognition' Agent:** An agent that could analyze map sprite lists and existing map markers to identify patterns (e.g., 'all NPCs in this area are non-battlers') and form high-level hypotheses to guide exploration.
 - **'Dynamic Type Chart Builder' Tool:** A long-term project to create a tool that parses battle text (e.g., "It's super effective!") to systematically build a complete and verified type effectiveness chart for this ROM hack. This would replace the brittle hardcoded dictionaries in other tools.
 
@@ -115,14 +121,12 @@
 - **SURF vs. DIG:** The move SURF will miss an opponent that is underground from using DIG.
 
 ## D. Tool Development Lessons
-- **Menu Navigation Tool Failures (CRITICAL):** My `use_hm_from_party` and `switch_pokemon_navigator` tools have proven to be fundamentally flawed. The 'Menu Input Blocking' mechanic, where being adjacent to an impassable tile blocks the corresponding directional input in menus, makes any tool that relies on a fixed sequence of directional inputs (especially 'Up' for cursor-resetting) inherently unreliable. **Conclusion:** These tools are retired.
-- **`menu_navigator` Flaw (CRITICAL - Confirmed by Overwatch):** My new `menu_navigator` tool, while an improvement, has a critical design flaw. It fails to account for the 'Menu Input Blocking' mechanic. Its cursor-resetting logic (spamming 'Up') will fail if the player is facing an impassable tile, making it unreliable. **Conclusion:** This tool is fundamentally unreliable and must be used with extreme caution, only when the player is confirmed to be in an open space. It needs to be replaced with a more environment-aware tool.
+- **Menu Navigation Tool Failures (CRITICAL):** My past menu tools (`use_hm_from_party`, `switch_pokemon_navigator`) were fundamentally flawed. My current `menu_navigator` tool is also critically flawed due to the 'Menu Input Blocking' mechanic. Its cursor-resetting logic (spamming 'Up') will fail if the player is adjacent to an impassable tile, making it unreliable. **Conclusion:** These tools are effectively retired. A new, environment-aware solution using a 'Menu Analyzer' is the only path forward.
 
-## D. Navigational Lessons
+## E. Navigational Lessons
 - **Dead End Definition (Correction):** A 'dead end area' assessment applies to the *entire map's* reachable exits (warps/connections). An isolated section is not a dead end if other exits exist elsewhere on the map, even if currently unreachable from my position. This was the cause of my hallucination on Cerulean Cave 2F.
 - **Warp Reachability (Correction):** A warp being listed in `Map Events` does not guarantee it is reachable from the current position. The map is often partitioned. I must verify pathability by analyzing the map layout or using a pathfinding tool before assuming a warp is accessible. This was the cause of my hallucination on Cerulean Cave 1F.
 - **Sequential Tool Call Failure:** Calling multiple tools that depend on menu state changes in the same turn (e.g., one tool to open a menu, a second to navigate it) is unreliable and can fail. Only one menu-altering tool should be called per turn to ensure the game state updates correctly before the next action.
-- Electric is not very effective against Grass/Poison dual-types.
 
 ## F. Self-Assessment Lessons (Turn 188481)
 - **Manual Menu Navigation is Unreliable:** My repeated, critical errors during the VILEPLUME battle (e.g., sending out REVENANT instead of NIGHTSHADE) confirm that my own manual inputs in complex menu situations are a significant point of failure. I must treat my own ability to navigate menus with the same skepticism I apply to a faulty tool and rely on data-driven verification before every action.
