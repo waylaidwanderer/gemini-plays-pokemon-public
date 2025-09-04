@@ -8,7 +8,7 @@
 - **D5: PROACTIVELY AUTOMATE:** Before performing any complex or repetitive task, I must first consider if it can be automated with a tool or agent.
 
 ## B. Key Lessons Learned
-- **Confirmation Bias Kills Progress:** My manual assessment of map connectivity is highly unreliable. I MUST trust my `map_analyzer` tool and system warnings over my own intuition. Repeatedly attempting to path to unreachable locations is a critical failure.
+- **Confirmation Bias Kills Progress:** My manual assessment of map connectivity and partitioning is highly unreliable. I MUST trust my `map_analyzer` tool and system warnings over my own intuition. Repeatedly attempting to path to unreachable locations or believing I am trapped are critical failures.
 - **Escape is Not Guaranteed (CRITICAL LESSON):** I incorrectly assumed fleeing from wild battles was always possible. The DODRIO in Cerulean Cave proved this wrong by preventing escape, leading to a party wipe. I must not rely on running as a guaranteed safe option, especially when at low health.
 - **Tool Maintenance is NOT a 'Task':** Listing tool repair as a 'to-do' item is a form of procrastination and a violation of D1. Tool refinement must be the immediate next action upon identifying a flaw.
 
@@ -92,6 +92,7 @@
 - **`use_hm_from_party`, `switch_pokemon_navigator`, `menu_navigator`:** These tools are retired due to fundamental flaws related to non-deterministic menu cursor positions and the 'Menu Input Blocking' mechanic. They serve as a critical lesson that menu automation requires environment-aware parsing (`menu_analyzer`) and targeted selection (`select_menu_option`), not blind input sequences.
 
 ## B. Key Development Lessons
+- **`select_pokemon_from_party` Critical Failure (Turns 189613-189620):** The tool repeatedly failed to parse the multi-line party menu, causing incorrect Pokémon selections even after multiple fix attempts. The current implementation is fundamentally flawed. **Conclusion:** Manual selection is required until a complete redesign and robust testing can be performed in a safe environment.
 - **`use_hm_from_party` Manual Test (Cut):** Discovered player must be facing the target *before* opening the menu.
 - **Snorlax Puzzle (Route 12):** Confirmed item menu is a single scrollable list, not pocketed.
 - **Menu Cursor Behavior (Critical Lesson):** Menu cursor starting positions are non-deterministic. Tools must force a known state (e.g., by spamming 'Up') rather than assuming a start position.
@@ -106,6 +107,7 @@
 # VI. Self-Correction & Hallucination Log
 
 ## A. Navigational Hallucinations
+- **Cerulean Cave 1F Partition (Turn 189610):** Incorrectly believed I was trapped on an isolated platform at (28, 2). A system warning corrected me, revealing that another ladder at (8, 2) was reachable. **Conclusion:** Reinforces the absolute necessity of trusting system data over intuition.
 - **Route 24 Unseen Tiles (Turn 188804):** Incorrectly reported 67 reachable unseen tiles when there were 0. **Conclusion:** Manual assessment is unreliable. MUST use `map_analyzer`.
 - **Warp Hallucination (Cerulean Gym - Turn 188811):** Incorrectly reported 0 reachable warps when the exit was reachable. **Conclusion:** MUST use `map_analyzer`.
 - **Dead End Hallucination (Cerulean Cave B1F - Turn 189197):** Incorrectly reported being in a dead end. **Conclusion:** Reinforces the absolute necessity of the `map_analyzer` tool.
