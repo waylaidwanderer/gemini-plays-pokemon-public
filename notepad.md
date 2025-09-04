@@ -85,31 +85,30 @@
 - **4F:** Sells POKé DOLL and evolution stones (FIRE, THUNDER, WATER).
 - **2F:** Sells POKé BALLs, Potions, and TMs (MEGPNCH, RZRWIND, etc.).
 
-# V. Agent & Tool Development
+# V. Agent & Tool Development History
 
-## A. Development Lessons & History
-- **`use_hm_from_party` Manual Test (Cut):** Discovered player must be facing the target *before* opening the menu. Also found that the party screen cursor position is not reliably at the top.
+## A. Retired Concepts & Tools
+- **`use_hm_from_party`, `switch_pokemon_navigator`, `menu_navigator`:** These tools are retired due to fundamental flaws related to non-deterministic menu cursor positions and the 'Menu Input Blocking' mechanic. They serve as a critical lesson that menu automation requires environment-aware parsing (`menu_analyzer`) and targeted selection (`select_menu_option`), not blind input sequences.
+
+## B. Key Development Lessons
+- **`use_hm_from_party` Manual Test (Cut):** Discovered player must be facing the target *before* opening the menu.
 - **Snorlax Puzzle (Route 12):** Confirmed item menu is a single scrollable list, not pocketed.
-- **Menu Cursor Behavior (Critical Lesson):** Menu cursor starting positions are non-deterministic. A single manual test is insufficient to establish a reliable pattern. Tools that navigate menus MUST force a known state (e.g., by repeatedly pressing 'Up' to reset the cursor to the top) rather than assuming a specific starting position. This was the root cause of the `use_hm_from_party` failure loop.
-- **Menu Navigation Tool Failures (CRITICAL):** My past menu tools (`use_hm_from_party`, `switch_pokemon_navigator`) were fundamentally flawed. My `menu_navigator` tool is also critically flawed due to the 'Menu Input Blocking' mechanic. Its cursor-resetting logic (spamming 'Up') will fail if the player is adjacent to an impassable tile, making it unreliable. **Conclusion:** These tools are effectively retired. A new, environment-aware solution using a 'Menu Analyzer' and a selection tool is the only path forward. I have since created `menu_analyzer` and `select_menu_option` to address this.
-- **Sequential Tool Call Failure:** Calling multiple tools that depend on menu state changes in the same turn (e.g., one tool to open a menu, a second to navigate it) is unreliable and can fail. Only one menu-altering tool should be called per turn to ensure the game state updates correctly before the next action.
-- **Decoy Entrances:** I must be wary of decoy entrances that lead to isolated areas. If an entrance doesn't lead to the main part of a location, I should immediately suspect it's a trick and search for an alternative path instead of trying to force progress from the decoy spot (e.g., Cerulean Cave's fake entrance).
+- **Menu Cursor Behavior (Critical Lesson):** Menu cursor starting positions are non-deterministic. Tools must force a known state (e.g., by spamming 'Up') rather than assuming a start position.
+- **Sequential Tool Call Failure:** Calling multiple menu-altering tools in the same turn is unreliable. Only one should be called per turn.
+- **Decoy Entrances:** Be wary of entrances that lead to isolated areas (e.g., Cerulean Cave's fake entrance).
 
-## B. Navigational Lessons
-- **Dead End Definition (Correction):** A 'dead end area' assessment applies to the *entire map's* reachable exits (warps/connections). An isolated section is not a dead end if other exits exist elsewhere on the map, even if currently unreachable from my position. This was the cause of my hallucination on Cerulean Cave 2F.
-- **Warp Reachability (Correction):** A warp being listed in `Map Events` does not guarantee it is reachable from the current position. The map is often partitioned. I must verify pathability by analyzing the map layout or using a pathfinding tool before assuming a warp is accessible. This was the cause of my hallucination on Cerulean Cave 1F.
-- **Self-Assessment Insights (Turn 188789):** I wasted significant time exploring the rivers in Cerulean City and Route 24 based on the weak hypothesis that a new entrance to Cerulean Cave must be there. I should have used the `map_analyzer` tool sooner to definitively prove it was a dead end instead of manually exploring every tile. This is a key lesson in trusting data over intuition.
+## C. Navigational Lessons
+- **Dead End Definition (Correction):** A 'dead end area' assessment applies to the *entire map's* reachable exits. An isolated section is not a dead end if other exits exist elsewhere on the map, even if currently unreachable.
+- **Warp Reachability (Correction):** A warp being listed in `Map Events` does not guarantee it is reachable from the current position. The map is often partitioned.
+- **Self-Assessment Insights (Turn 188789):** Wasted time exploring rivers in Cerulean City/Route 24. Should have used a data-driven tool like `map_analyzer` sooner to confirm it was a dead end.
 
 # VI. Self-Correction & Hallucination Log
 
 ## A. Navigational Hallucinations
-- **Route 24 Unseen Tiles (Turn 188804):** I incorrectly reported 67 reachable unseen tiles when the system confirmed there were 0. **Conclusion:** My manual assessment of map exploration status is highly unreliable. I MUST use the `map_analyzer` tool to get an accurate count of reachable unseen tiles and warps before making any exploration decisions.
-- **Warp Hallucination (Cerulean Gym - Turn 188811):** I incorrectly reported 0 reachable warps when the exit warps were reachable. **Conclusion:** I MUST use the `map_analyzer` tool to verify reachable warps and tiles before making navigational claims or decisions. Manual assessment is proven to be unreliable.
-- **Dead End Hallucination (Cerulean Cave B1F - Turn 189197):** I incorrectly reported being in a dead end area on map 227. The system corrected me, noting there were 10 reachable unseen tiles and 1 reachable exit. This is a critical failure of my manual assessment and reinforces the absolute necessity of using my newly created `map_analyzer` tool for all future navigation decisions to prevent such errors.
+- **Route 24 Unseen Tiles (Turn 188804):** Incorrectly reported 67 reachable unseen tiles when there were 0. **Conclusion:** Manual assessment is unreliable. MUST use `map_analyzer`.
+- **Warp Hallucination (Cerulean Gym - Turn 188811):** Incorrectly reported 0 reachable warps when the exit was reachable. **Conclusion:** MUST use `map_analyzer`.
+- **Dead End Hallucination (Cerulean Cave B1F - Turn 189197):** Incorrectly reported being in a dead end. **Conclusion:** Reinforces the absolute necessity of the `map_analyzer` tool.
 
-## B. Cerulean Cave Entrance Puzzle
-- **Hypothesis 1 (Failed):** Interacting with follower Pikachu at (5, 4) in the Cerulean Gym will open the path to Cerulean Cave. **Result:** No event triggered. **Conclusion:** This interaction is not the trigger.
-
-## C. Positional & Turn Count Hallucinations
-- **Route 24 Arrival (Turn 188858):** I had a hallucination about my arrival coordinates. **Conclusion:** I must be extremely vigilant and always verify my position from the Game State Information after every map transition.
-- **Turn Count Hallucinations (Multiple):** Had hallucinations about the current turn number. Conclusion: I must always trust the turn number provided in the Game State Information and update my own records accordingly.
+## B. Positional & Turn Count Hallucinations
+- **Route 24 Arrival (Turn 188858):** Hallucinated arrival coordinates. **Conclusion:** Must always verify position from Game State after map transitions.
+- **Turn Numbers (Multiple):** Hallucinated the turn number. **Conclusion:** Must always trust the Game State Information.
