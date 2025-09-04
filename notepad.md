@@ -125,3 +125,6 @@
 ## A. `find_path` Tool Refinement (Resolved)
 - **Critique (Turn 189302):** The tool lacked diagnostic features for map partitioning.
 - **Resolution (Turn 189308 & 189328):** The tool was successfully updated to perform a reachability analysis and report failures due to disconnected map partitions. A critical typo in the XML library import was also fixed.
+
+# VIII. High-Priority Tasks
+- **`select_pokemon_from_party` Tool Repair:** This tool is fundamentally flawed and has failed repeatedly. It MUST be redesigned and fixed in a safe environment (e.g., Pokémon Center) before its next use. This is a top-priority task resulting from the mandatory self-assessment.
