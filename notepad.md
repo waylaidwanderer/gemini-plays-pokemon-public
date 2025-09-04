@@ -142,6 +142,3 @@
 
 ## C. Puzzle Solving & Agent Usage
 - **Lesson (Cerulean Gym):** I fell into a confirmation bias loop trying to interact with Pikachu at (5, 4). After multiple failures, I correctly pivoted to a new hypothesis (Pikachu must stand on the tile), which worked. **Correction:** I must recognize these loops faster and use my `puzzle_solver_agent` to generate new hypotheses when my own attempts fail more than twice.
-
-## B. Tool Development Ideas
-- **`use_hm_from_party_menu`:** A tool to automate the multi-step process of using a field move like Cut. It would take the Pokémon's name as input and execute the necessary menu navigation.
