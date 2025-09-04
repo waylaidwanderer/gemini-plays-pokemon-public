@@ -125,3 +125,4 @@
 # VIII. To-Do & Reminders
 - Mark the surf spot on Cerulean Cave 1F at (23, 10) with a '🌊' emoji and 'Surf Spot' label when I return to that map.
 - Poison is not very effective against Ground-types.
+- Poison is not very effective against Ground-types.
