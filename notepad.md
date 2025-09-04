@@ -125,3 +125,5 @@
 - **'Unaffected' Battle Message:** During a battle with a wild RHYDON, after using EARTHQUAKE, the message 'REVENANT is unaffected!' appeared. My Pokémon took no damage and received no status. The cause is unknown. I need to monitor if this happens again.
 
 # VIII. To-Do & Reminders
+
+- **`ladder_up`/`ladder_down` & `elevated_ground`:** Movement between a ladder tile and an adjacent `elevated_ground` tile is possible. (Confirmed in Cerulean Cave B1F)
