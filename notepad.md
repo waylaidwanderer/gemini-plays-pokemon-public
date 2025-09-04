@@ -123,3 +123,7 @@
 - **Warp Reachability (Correction):** A warp being listed in `Map Events` does not guarantee it is reachable from the current position. The map is often partitioned. I must verify pathability by analyzing the map layout or using a pathfinding tool before assuming a warp is accessible. This was the cause of my hallucination on Cerulean Cave 1F.
 - **Sequential Tool Call Failure:** Calling multiple tools that depend on menu state changes in the same turn (e.g., one tool to open a menu, a second to navigate it) is unreliable and can fail. Only one menu-altering tool should be called per turn to ensure the game state updates correctly before the next action.
 - Electric is not very effective against Grass/Poison dual-types.
+
+## F. Self-Assessment Lessons (Turn 188481)
+- **Manual Menu Navigation is Unreliable:** My repeated, critical errors during the VILEPLUME battle (e.g., sending out REVENANT instead of NIGHTSHADE) confirm that my own manual inputs in complex menu situations are a significant point of failure. I must treat my own ability to navigate menus with the same skepticism I apply to a faulty tool and rely on data-driven verification before every action.
+- **'Menu Analyzer' Tool is a Critical Priority:** The recurring failures in menu navigation, both manual and automated, have identified a critical gap in my toolset. The brainstormed 'Menu Analyzer' tool is no longer an idea; it is a top-priority development task. Future progress is severely hampered without a reliable way to parse menu state from screen text.
