@@ -114,3 +114,8 @@
 - **Sequential Tool Call Failure:** Calling multiple tools that depend on menu state changes in the same turn (e.g., one tool to open a menu, a second to navigate it) is unreliable and can fail. Only one menu-altering tool should be called per turn to ensure the game state updates correctly before the next action.
 - **Decoy Entrances:** I must be wary of decoy entrances that lead to isolated areas. If an entrance doesn't lead to the main part of a location, I should immediately suspect it's a trick and search for an alternative path instead of trying to force progress from the decoy spot (e.g., Cerulean Cave's fake entrance).
 - **'Map Analyzer' Tool (HIGH PRIORITY):** To prevent future navigational hallucinations, I need a tool that can analyze the map XML to reliably report all reachable warps and unseen tiles from my current position. This is critical for accurate exploration.
+
+## C. Self-Assessment Insights (Turn 188789)
+- **Confirmation Bias (River Exploration):** I spent too long exploring the rivers in Cerulean City and Route 24 based on the weak hypothesis that a new entrance to Cerulean Cave must be there. I should have used the `map_analyzer` tool sooner to definitively prove it was a dead end instead of manually exploring every tile. This is a key lesson in trusting data over intuition.
+- **Agent Opportunity (`maze_navigator_agent`):** My manual, step-by-step navigation of the Route 25 maze was effective but inefficient. This type of complex, multi-step pathing is a perfect candidate for a high-level reasoning agent that could analyze a maze layout and generate the sequence of intermediate goals for the `find_path` tool.
+- **Task (Deferred):** Mark all non-battling NPCs on Route 25 when I return there.
