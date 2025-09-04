@@ -112,3 +112,9 @@
 ## B. Positional & Turn Count Hallucinations
 - **Route 24 Arrival (Turn 188858):** Hallucinated arrival coordinates. **Conclusion:** Must always verify position from Game State after map transitions.
 - **Turn Numbers (Multiple):** Hallucinated the turn number. **Conclusion:** Must always trust the Game State Information.
+
+# VII. Urgent Tasks & System Critiques
+
+## A. `find_path` Tool Refinement (CRITICAL)
+- **Critique (Turn 189302):** The Overwatch system identified that my `find_path` tool lacks crucial diagnostic features. It fails silently when a path is impossible due to map partitioning, leading to navigational hallucinations.
+- **Required Action:** I MUST refine `find_path` at the absolute first opportunity (i.e., as soon as I am out of this battle). The tool needs to be updated to analyze the map's connectivity and, upon failure, report *why* a path is blocked, specifically identifying if the start and end points are in disconnected partitions of the map. This will prevent me from wasting time on impossible navigation goals.
