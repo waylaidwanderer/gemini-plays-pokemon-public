@@ -1059,7 +1059,7 @@
     ]
   },
   "use_hm_from_party": {
-    "description": "Opens the menu, navigates to a Pokémon at a specific party slot (1-6), uses a move at a specific index (0-3), and optionally navigates the Fly map. Outputs the button sequence.",
+    "description": "Opens the menu, navigates to a Pokémon at a specific party slot (1-6), and uses a move at a specific index (0-3). Incorporates robust, data-driven cursor-resetting logic for all menus to ensure deterministic behavior.",
     "input_schema": {
       "type": "object",
       "properties": {
@@ -1068,10 +1068,6 @@
         },
         "move_index": {
           "type": "string"
-        },
-        "fly_destination_index": {
-          "type": "string",
-          "nullable": true
         }
       },
       "required": [
@@ -1079,7 +1075,7 @@
         "move_index"
       ]
     },
-    "python_script": "import json\nimport sys\n\ntry:\n    pokemon_slot = int(input_data['pokemon_slot'])\n    move_index = int(input_data['move_index'])\n    fly_destination_index_str = input_data.get('fly_destination_index')\n    fly_destination_index = int(fly_destination_index_str) if fly_destination_index_str is not None else None\n\n    if not (1 <= pokemon_slot <= 6):\n        print(json.dumps({'error': 'pokemon_slot must be between 1 and 6.'}))\n        sys.exit()\n    if not (0 <= move_index <= 3):\n        print(json.dumps({'error': 'move_index must be between 0 and 3.'}))\n        sys.exit()\n\n    buttons = []\n\n    # 1. Open main menu\n    buttons.append('Start')\n\n    # 2. Reset main menu cursor and select POKéMON\n    for _ in range(7):\n        buttons.append('Up')\n    buttons.append('Down')\n    buttons.append('A')\n\n    # 3. Reset party menu cursor and select Pokémon slot\n    for _ in range(6):\n        buttons.append('Up')\n    for _ in range(pokemon_slot - 1):\n        buttons.append('Down')\n    buttons.append('A')\n\n    # 4. Reset sub-menu cursor and select move index\n    for _ in range(4):\n        buttons.append('Up')\n    for _ in range(move_index):\n        buttons.append('Down')\n    buttons.append('A')\n\n    # 5. Handle Fly map navigation if applicable\n    if fly_destination_index is not None:\n        # Reset Fly map cursor\n        for _ in range(10):\n            buttons.append('Up')\n        # Navigate to destination\n        for _ in range(fly_destination_index):\n            buttons.append('Down')\n        buttons.append('A')\n\n    print(json.dumps(buttons))\n\nexcept Exception as e:\n    print(json.dumps({'error': f'An error occurred: {str(e)}'}))",
+    "python_script": "import json\nimport sys\n\ntry:\n    pokemon_slot = int(input_data['pokemon_slot'])\n    move_index = int(input_data['move_index'])\n\n    buttons = []\n\n    # 1. Open main menu\n    buttons.append(\"Start\")\n\n    # 2. Reset main menu cursor to top (POKéDEX)\n    buttons.extend([\"Up\"] * 6)\n\n    # 3. Navigate to and select POKéMON\n    buttons.append(\"Down\")\n    buttons.append(\"A\")\n\n    # 4. Reset party menu cursor to top (slot 1)\n    buttons.extend([\"Up\"] * 6)\n\n    # 5. Navigate to the target Pokémon slot\n    buttons.extend([\"Down\"] * (pokemon_slot - 1))\n    buttons.append(\"A\")\n\n    # 6. Reset sub-menu cursor to top (first move)\n    buttons.extend([\"Up\"] * 4)\n\n    # 7. Navigate to the target move index\n    buttons.extend([\"Down\"] * move_index)\n    buttons.append(\"A\")\n\n    print(json.dumps(buttons))\n\nexcept Exception as e:\n    print(json.dumps({\"error\": str(e)}))\n",
     "history": [
       {
         "commit_message": "feat: Create use_hm_from_party tool. This tool automates the multi-step menu navigation required to use an HM move from the party screen. It was created to reliably use Surf in Cerulean City, adhering to the core directive of proactive automation for repetitive tasks.",
@@ -1400,40 +1396,16 @@
         "commit_message": "fix: Complete rewrite based on meticulous manual data gathering. All previous versions failed due to incorrect assumptions about menu behavior. This version implements a robust, deterministic cursor-resetting strategy for all menus (main, party, sub-menu) and correctly navigates to the specified Pokémon and move. This addresses the long-standing critical failure and adheres to the data-driven debugging process mandated by Overwatch.",
         "timestamp": "2025-09-04T00:03:32.183Z",
         "action_counter": 188113
-      }
-    ]
-  },
-  "route_20_maze_solver": {
-    "description": "Solves the Route 20 water maze by finding a path from a start coordinate to an end coordinate, navigating around the impassable rock formations. Specifically designed for surfing.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "start_x": {
-          "type": "string"
-        },
-        "start_y": {
-          "type": "string"
-        },
-        "end_x": {
-          "type": "string"
-        },
-        "end_y": {
-          "type": "string"
-        }
       },
-      "required": [
-        "start_x",
-        "start_y",
-        "end_x",
-        "end_y"
-      ]
-    },
-    "python_script": "import json\nimport collections\nimport xml.etree.ElementTree as ET\n\nroot = ET.fromstring(map_xml_string)\nmap_width = int(root.get('width'))\nmap_height = int(root.get('height'))\ntiles = {}\nfor row in root.findall('Row'):\n    y = int(row.get('id'))\n    for tile_elem in row.findall('Tile'):\n        x = int(tile_elem.get('id'))\n        tile_type = tile_elem.get('type')\n        has_object = tile_elem.get('has-object') == 'true'\n        object_id = None\n        if has_object:\n            obj = tile_elem.find('Object')\n            if obj is not None:\n                object_id = obj.get('id')\n        tiles[(x, y)] = {'type': tile_type, 'has_object': has_object, 'object_id': object_id}\n\nstart_x = int(input_data['start_x'])\nstart_y = int(input_data['start_y'])\nend_x = int(input_data['end_x'])\nend_y = int(input_data['end_y'])\n\nstart = (start_x, start_y)\nend = (end_x, end_y)\n\nqueue = collections.deque([(start, [start])])\nvisited = {start}\n\npath_found = False\nwhile queue:\n    (current_x, current_y), path = queue.popleft()\n\n    if (current_x, current_y) == end:\n        print(json.dumps({'path_found': True, 'path': path}))\n        path_found = True\n        break\n\n    for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n        next_pos = (current_x + dx, current_y + dy)\n        \n        if not (1 <= next_pos[0] <= map_width and 1 <= next_pos[1] <= map_height):\n            continue\n\n        if next_pos in visited:\n            continue\n\n        tile_info = tiles.get(next_pos)\n        if not tile_info:\n            continue\n\n        is_traversable = tile_info['type'] == 'water' and not (tile_info['has_object'] and tile_info['object_id'] != '15')\n\n        if is_traversable:\n            visited.add(next_pos)\n            new_path = list(path)\n            new_path.append(next_pos)\n            queue.append((next_pos, new_path))\n\nif not path_found:\n    print(json.dumps({'path_found': False, 'error': 'No path found.'}))",
-    "history": [
       {
-        "commit_message": "feat: Create route_20_maze_solver tool. This tool is a direct response to repeated `find_path` failures on Route 20, which confirmed the area is a complex water maze. Instead of continuing with inefficient trial-and-error navigation, this tool provides a deterministic solution by performing a Breadth-First Search on the map data, specifically treating only 'water' tiles without blocking objects as traversable. This adheres to the core directive of proactively automating complex navigational puzzles.",
-        "timestamp": "2025-09-03T07:05:41.104Z",
-        "action_counter": 186386
+        "commit_message": "feat: Create robust use_hm_from_party tool. This is a direct response to a mandatory self-assessment identifying the repetitive, manual task of using HMs as a key automation opportunity. This version incorporates robust, data-driven cursor-resetting logic (spamming 'Up') for all menus to ensure deterministic behavior, addressing the critical failure points of its retired predecessor.",
+        "timestamp": "2025-09-04T00:32:54.305Z",
+        "action_counter": 188175
+      },
+      {
+        "commit_message": "fix: Add 'Down' press after main menu cursor reset. The tool was failing because after resetting the cursor to the top ('POKéDEX'), it immediately pressed 'A' instead of navigating down to 'POKéMON'. This commit adds the necessary 'Down' press to ensure the correct menu is selected, addressing a critical tool failure.",
+        "timestamp": "2025-09-04T00:41:01.199Z",
+        "action_counter": 188190
       }
     ]
   }

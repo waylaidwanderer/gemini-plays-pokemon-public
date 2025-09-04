@@ -27,7 +27,7 @@
 
 ## B. Special Mechanics & Discoveries
 - **Healing Zone:** A tile described as a "purified, protected zone" that fully heals all Pokémon in the party's HP and restores all their PP.
-- **Menu Input Blocking (CRITICAL):** Facing an impassable tile blocks that directional input in menus.
+- **Menu Input Blocking (CRITICAL):** Facing an impassable tile blocks that directional input in menus. This was discovered when the `use_hm_from_party` tool failed because its cursor-resetting logic (spamming 'Up') was nullified by a wall behind the player. This makes any menu navigation tool that relies on directional inputs fundamentally unreliable unless the player is in an open space.
 - **HM Usage:** Must be adjacent to and facing the target object before opening the party menu.
 - **Boulder Pushing:** A multi-turn action. Cannot be done while surfing.
 - **Dead End Definition:** A map is only a dead end if it has only one exit warp/connection and no reachable unseen tiles. The nature of the destination map is irrelevant to this classification.
