@@ -124,3 +124,4 @@
 
 ## F. Unexplained Phenomena
 - **'Unaffected' Battle Message:** During a battle with a wild RHYDON, after using EARTHQUAKE, the message 'REVENANT is unaffected!' appeared. My Pokémon took no damage and received no status. The cause is unknown. I need to monitor if this happens again.
+- **Surf HM:** Requires a conscious (non-fainted) Pokémon that knows Surf to be used in the overworld. (Inferred from being unable to Surf on Cerulean Cave B1F with fainted TITANESS).
