@@ -1033,5 +1033,53 @@
         "action_counter": 188351
       }
     ]
+  },
+  "menu_analyzer": {
+    "description": "Parses screen text from a menu to identify the available options, their layout (e.g., single column, 2x2 grid), and the current cursor position. This is the foundation for creating reliable menu navigation automation.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "screen_text": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "screen_text"
+      ]
+    },
+    "python_script": "import json\nimport re\n\n# injected variables: map_xml_string, input_data\nscreen_text = input_data['screen_text']\nlines = screen_text.strip().split('\\n')\n\ncursor_char = '→'\nmenu_options = []\ncursor_position = None\n\n# Simple single-column or 2x2 grid parser\nfor i, line in enumerate(lines):\n    if cursor_char in line:\n        # Find all potential options in the line\n        # This regex finds words that are not LV, TYPE/, or numbers\n        potential_options = [opt for opt in re.split(r'\\s{2,}|\\s*→\\s*', line) if opt and not opt.isdigit() and 'LV' not in opt and 'TYPE/' not in opt]\n        \n        for j, option in enumerate(potential_options):\n            if cursor_char in line and option in line.replace(cursor_char, ''):\n                 # Crude position detection\n                cursor_position = {'line': i, 'option_index_in_line': j, 'option_text': option.strip()}\n            menu_options.append(option.strip())\n    else:\n        # Also parse lines without cursor to get all options\n        potential_options = [opt for opt in re.split(r'\\s{2,}', line) if opt and not opt.isdigit() and 'LV' not in opt and 'TYPE/' not in opt]\n        for option in potential_options:\n            menu_options.append(option.strip())\n\n# Deduplicate while preserving order\nseen = set()\nmenu_options = [x for x in menu_options if not (x in seen or seen.add(x))]\n\nresult = {\n    'menu_options': menu_options,\n    'cursor_position_details': cursor_position,\n    'cursor_on_option': cursor_position['option_text'] if cursor_position else None\n}\n\nprint(json.dumps(result))",
+    "history": [
+      {
+        "commit_message": "feat: Create initial version of menu_analyzer. This tool is a direct response to repeated, critical failures in both manual and automated menu navigation. It provides a foundational capability to parse screen text to determine available menu options and the current cursor position. This is the first and most critical step towards building a reliable, environment-aware menu automation system, addressing a major strategic weakness identified by both self-assessment and Overwatch.",
+        "timestamp": "2025-09-04T04:29:26.124Z",
+        "action_counter": 188572
+      }
+    ]
+  },
+  "select_menu_option": {
+    "description": "Analyzes menu screen text to find the current cursor position and a target option, then calculates and outputs the button presses needed to move the cursor to the target and select it. Assumes a single-column layout.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "screen_text": {
+          "type": "string"
+        },
+        "target_option": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "screen_text",
+        "target_option"
+      ]
+    },
+    "python_script": "import json\nimport re\n\nscreen_text = input_data['screen_text']\ntarget_option = input_data['target_option']\nlines = screen_text.strip().split('\\n')\n\ncursor_char = '→'\nmenu_options = []\ncursor_line_index = -1\n\nfor i, line in enumerate(lines):\n    # This regex is simplified to split by multiple spaces or the cursor, then filter.\n    potential_options = [opt.strip() for opt in re.split(r'\\s{2,}|\\s*→\\s*', line) if opt]\n    menu_options.extend(potential_options)\n    if cursor_char in line:\n        cursor_line_index = i\n\n# Find current cursor position by text\n# This is brittle if options have same name, but works for most menus\ncursor_on_text = None\nif cursor_line_index != -1:\n    line_with_cursor = lines[cursor_line_index]\n    options_in_line = [opt.strip() for opt in re.split(r'\\s{2,}|\\s*→\\s*', line_with_cursor) if opt]\n    if options_in_line:\n        cursor_on_text = options_in_line[0] # Assumes first option in a cursor line is the selected one\n\n# Find indices\ntry:\n    current_index = menu_options.index(cursor_on_text)\n    target_index = menu_options.index(target_option)\nexcept (ValueError, IndexError):\n    print(json.dumps({'error': 'Could not find target or current option in menu.'}))\n    exit()\n\npresses = []\n# For now, this only handles single-column vertical menus.\nif target_index > current_index:\n    for _ in range(target_index - current_index):\n        presses.append('Down')\nelif target_index < current_index:\n    for _ in range(current_index - target_index):\n        presses.append('Up')\n\npresses.append('A')\nprint(json.dumps(presses))",
+    "history": [
+      {
+        "commit_message": "feat: Create select_menu_option tool. This tool automates menu navigation by parsing screen text to find the cursor and a target, then generates the required button presses. This is a direct response to repeated critical failures in manual menu navigation and addresses a major strategic weakness.",
+        "timestamp": "2025-09-04T04:33:27.001Z",
+        "action_counter": 188583
+      }
+    ]
   }
 }
