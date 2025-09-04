@@ -11,6 +11,7 @@
 - **Confirmation Bias Kills Progress:** My manual assessment of map connectivity and partitioning is highly unreliable. I MUST trust my `map_analyzer` tool and system warnings over my own intuition. Repeatedly attempting to path to unreachable locations or believing I am trapped are critical failures.
 - **Escape is Not Guaranteed (CRITICAL LESSON):** I incorrectly assumed fleeing from wild battles was always possible. The DODRIO in Cerulean Cave proved this wrong by preventing escape, leading to a party wipe. I must not rely on running as a guaranteed safe option, especially when at low health.
 - **Tool Maintenance is NOT a 'Task':** Listing tool repair as a 'to-do' item is a form of procrastination and a violation of D1.
+- **Dead End Validation Failure (Turn 190005):** I incorrectly assessed Cerulean Mart as not a dead end. A map with only one exit (a single warp, warp group, or map connection) and zero reachable unseen tiles IS a dead end. This is a critical rule for the `is_in_dead_end_area` validation check that I must follow precisely.
 
 # II. Game & World Mechanics
 
@@ -24,6 +25,11 @@
 - `💖 Healing Zone`: For tiles that provide party healing.
 
 ## B. Tile Traversal & Movement Rules
+- **`ground`**: Standard walkable tile.
+- **`impassable`**: Walls, counters, etc. Cannot be entered.
+- **`water`**: Crossable using HM Surf.
+- **`cuttable`**: Tree that can be cut with HM Cut.
+- **`ledge`**: Can be jumped down from above, but not climbed up.
 - **`elevated_ground` & `steps`:** Movement between `ground` and `elevated_ground` is only possible via a `steps` tile.
 - **Ladders & Elevation:** Movement between a `ladder_up`/`ladder_down` tile and an adjacent `elevated_ground` tile is possible.
 - **FLY HM:** Cannot be used indoors or in caves to escape.
@@ -66,12 +72,6 @@
 - **Hypothesis 2 (Failed - Agent Suggestion):** Use the POKé FLUTE at the northernmost point (12, 3) to trigger a spectral event. **Result:** The game displayed text confirming the flute was played, but no event occurred. **Conclusion:** The POKé FLUTE has no special effect on this floor.
 - **Hypothesis 3 (Untested):** Use the SILPH SCOPE might reveal a hidden object or ghost, as simple interaction and the POKé FLUTE have failed.
 
-## B. Cerulean City Navigation
-- The city is divided by a river. The western section (where you arrive from Route 4) and the eastern section (where the path to Route 9 is) are separated. To cross between them, I must use Surf.
-
-## C. Mt. Moon Navigation
-- **Two Entrances:** There are two entrances to Mt. Moon from Route 4. The western entrance at (19, 6) leads to an isolated, dead-end section. The eastern entrance at (25, 6) leads to the main cave system and the path forward to Cerulean City.
-
 # IV. Solved Puzzles & Mechanics Reference
 
 ## A. Silph Co. Puzzles
@@ -86,7 +86,11 @@
 - **Movement:** Pushing is a multi-turn action. Must be adjacent. First press turns/pushes. Subsequent pushes require moving to the new adjacent tile first.
 - **Surfing Limitation:** Cannot push boulders while surfing (confirmed on Seafoam Islands B3F).
 
-## D. Item & Store Data
+## D. Navigation Puzzles
+- **Cerulean City River:** The city is divided by a river. The western section (where you arrive from Route 4) and the eastern section (where the path to Route 9 is) are separated. To cross between them, I must use Surf.
+- **Mt. Moon Entrances:** There are two entrances to Mt. Moon from Route 4. The western entrance at (19, 6) leads to an isolated, dead-end section. The eastern entrance at (25, 6) leads to the main cave system and the path forward to Cerulean City.
+
+## E. Item & Store Data
 ### Item Locations & Vendors
 - **Route 12 Super Rod House:** Fishing Guru gives the SUPER ROD.
 
@@ -125,6 +129,3 @@
 ## A. `find_path` Tool Refinement (Resolved)
 - **Critique (Turn 189302):** The tool lacked diagnostic features for map partitioning.
 - **Resolution (Turn 189308 & 189328):** The tool was successfully updated to perform a reachability analysis and report failures due to disconnected map partitions. A critical typo in the XML library import was also fixed.
-
-# VIII. Critical Lessons from Hallucinations
-- **Dead End Validation Failure (Turn 190005):** I incorrectly assessed Cerulean Mart as not a dead end. A map with only one exit (a single warp, warp group, or map connection) and zero reachable unseen tiles IS a dead end. This is a critical rule for the `is_in_dead_end_area` validation check that I must follow precisely.
