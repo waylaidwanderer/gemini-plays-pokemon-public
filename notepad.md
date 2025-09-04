@@ -129,7 +129,3 @@
 - **`elevated_ground` & `steps`:** Movement between `ground` and `elevated_ground` is only possible via a `steps` tile.
 - **`ladder_up` & `ladder_down`:** These function as warps between floors.
 - **FLY HM:** Cannot be used indoors or in caves to escape.
-
-## F. Future Agent & Tool Ideas
-- **`party_navigator_agent`:** An agent to determine the button presses needed to select a specific Pokémon in the party menu.
-- **`select_party_member` tool:** A computational tool to execute the logic for selecting a party member, based on the fixed 2x3 grid layout.
