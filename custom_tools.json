@@ -928,7 +928,7 @@
     ]
   },
   "trivial_battle_automator": {
-    "description": "A tool to automate simple, repetitive wild battles. Checks for a significant level difference and if the opponent is wild. If so, it presses 'A' twice to select FIGHT and the first move, after checking for type immunities.",
+    "description": "A tool to automate simple, repetitive wild battles. Checks for a significant level difference (20+ levels). If so, it presses 'A' twice to select FIGHT and the first move, after checking for type immunities.",
     "input_schema": {
       "type": "object",
       "properties": {
@@ -952,7 +952,7 @@
         "player_party_moves_pp_json"
       ]
     },
-    "python_script": "import json\nimport sys\n\ntry:\n    player_party = json.loads(input_data['player_party_json'])\n    enemy_pokemon = json.loads(input_data['enemy_pokemon_json'])\n    active_pokemon_name = input_data['active_pokemon_name']\n    moves_pp = json.loads(input_data['player_party_moves_pp_json'])\n\n    active_pokemon = next((p for p in player_party if p['species'] == active_pokemon_name), None)\n\n    if not active_pokemon or not enemy_pokemon.get('is_wild', False):\n        print(json.dumps(['A']))\n        sys.exit()\n\n    level_difference = active_pokemon['level'] - enemy_pokemon['level']\n    if level_difference < 20:\n        print(json.dumps(['A']))\n        sys.exit()\n\n    active_pokemon_moves = next((m for m in moves_pp if m['species'] == active_pokemon_name), None)\n    if not active_pokemon_moves or not active_pokemon_moves['moves']:\n        print(json.dumps(['A']))\n        sys.exit()\n\n    first_move = active_pokemon_moves['moves'][0]\n    if first_move['pp'] == 0:\n        print(json.dumps(['A']))\n        sys.exit()\n\n    MOVE_TYPES = {'THUNDERBOLT': 'Electric', 'FLASH': 'Normal', 'LIGHT SCREEN': 'Psychic', 'THUNDER WAVE': 'Electric'}\n    POKEMON_TYPES = {'GASTLY': ['Ghost', 'Poison'], 'CUBONE': ['Ground', ''], 'DIGLETT': ['Ground', '']}\n    IMMUNITIES = {'Electric': ['Ground']}\n\n    move_type = MOVE_TYPES.get(first_move['name'])\n    enemy_types = POKEMON_TYPES.get(enemy_pokemon['species'])\n\n    if move_type and enemy_types:\n        if any(enemy_type in IMMUNITIES.get(move_type, []) for enemy_type in enemy_types if enemy_type):\n            print(json.dumps(['A'])) \n            sys.exit()\n\n    print(json.dumps(['A', 'A']))\n\nexcept Exception:\n    print(json.dumps(['A']))\n",
+    "python_script": "import json\nimport sys\n\ntry:\n    player_party = json.loads(input_data['player_party_json'])\n    enemy_pokemon = json.loads(input_data['enemy_pokemon_json'])\n    active_pokemon_name = input_data['active_pokemon_name']\n    moves_pp = json.loads(input_data['player_party_moves_pp_json'])\n\n    active_pokemon = next((p for p in player_party if p['name'] == active_pokemon_name), None)\n\n    if not active_pokemon:\n        print(json.dumps(['A']))\n        sys.exit()\n\n    level_difference = active_pokemon['level'] - enemy_pokemon['level']\n    if level_difference < 20:\n        print(json.dumps(['A']))\n        sys.exit()\n\n    active_pokemon_moves = moves_pp.get(active_pokemon_name)\n    if not active_pokemon_moves:\n        print(json.dumps(['A']))\n        sys.exit()\n\n    first_move_name = list(active_pokemon_moves.keys())[0]\n    first_move_pp = active_pokemon_moves[first_move_name][0]\n\n    if first_move_pp == 0:\n        print(json.dumps(['A']))\n        sys.exit()\n\n    MOVE_TYPES = {'THUNDERBOLT': 'Electric', 'FLASH': 'Normal', 'LIGHT SCREEN': 'Psychic', 'THUNDER WAVE': 'Electric'}\n    POKEMON_TYPES = {'GASTLY': ['Ghost', 'Poison'], 'CUBONE': ['Ground', None], 'DIGLETT': ['Ground', None], 'DITTO': ['Normal', None]}\n    IMMUNITIES = {'Electric': ['Ground']}\n\n    move_type = MOVE_TYPES.get(first_move_name)\n    enemy_types = POKEMON_TYPES.get(enemy_pokemon['name'])\n\n    if move_type and enemy_types:\n        if any(enemy_type in IMMUNITIES.get(move_type, []) for enemy_type in enemy_types if enemy_type):\n            print(json.dumps(['A']))\n            sys.exit()\n\n    print(json.dumps(['A', 'A']))\n\nexcept Exception:\n    print(json.dumps(['A']))\n",
     "history": [
       {
         "commit_message": "feat: Create trivial_battle_automator tool. This tool addresses an Overwatch critique by proactively automating repetitive wild battles in the Power Plant, adhering to Directive 5. It checks for a significant level disparity against wild Pokémon and, if met, outputs the button presses to use the first move, streamlining exploration.",
@@ -1013,6 +1013,11 @@
         "commit_message": "fix: Add DIGLETT type data and improve failsafe. The tool was failing against wild Diglett due to missing type data, and its error handling returned an empty list, wasting a turn. This commit adds Diglett to the internal POKEMON_TYPES dictionary and changes the failsafe behavior in the try-except block to return ['A'], ensuring a move is at least selected on failure. This is a direct response to a mandatory self-assessment.",
         "timestamp": "2025-09-03T23:11:04.834Z",
         "action_counter": 188019
+      },
+      {
+        "commit_message": "feat: Add DITTO type data and improve robustness. The tool was failing against wild Ditto due to missing type data. It also now correctly parses the moves PP dictionary and finds the active Pokémon by its nickname. This addresses several critical flaws that caused the tool to fail automation.",
+        "timestamp": "2025-09-04T07:52:22.428Z",
+        "action_counter": 188886
       }
     ]
   },
