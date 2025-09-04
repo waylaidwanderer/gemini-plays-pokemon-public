@@ -25,15 +25,15 @@
 
 ## B. Tile Traversal & Movement Rules
 - **`elevated_ground` & `steps`:** Movement between `ground` and `elevated_ground` is only possible via a `steps` tile.
-- **`ladder_up` & `ladder_down`:** These function as warps between floors.
 - **Ladders & Elevation:** Movement between a `ladder_up`/`ladder_down` tile and an adjacent `elevated_ground` tile is possible.
 - **FLY HM:** Cannot be used indoors or in caves to escape.
+- **SURF HM:** Requires a conscious (non-fainted) Pokémon that knows Surf to be used in the overworld.
 
 ## C. Special Mechanics & Discoveries
 - **Menu Input Blocking (CRITICAL):** Facing an impassable tile blocks that directional input in menus. This makes any menu navigation tool that relies on fixed directional inputs fundamentally unreliable unless the player is in an open space.
 - **HM Usage:** Must be adjacent to and facing the target object before opening the party menu.
 - **Boulder Pushing:** A multi-turn action. Cannot be done while surfing.
-- **Dead End Definition:** A map is only a dead end if it has only one exit warp/connection and no reachable unseen tiles. The nature of the destination map is irrelevant to this classification.
+- **Dead End Definition (Correction):** A map is only a dead end if it has only one exit warp/connection and no reachable unseen tiles. The nature of the destination map is irrelevant to this classification.
 - **SURF vs. DIG:** The move SURF will miss an opponent that is underground from using DIG.
 - **Healing Zone:** A tile described as a "purified, protected zone" that fully heals all Pokémon in the party's HP and restores all their PP. Found on Pokémon Tower 5F.
 
@@ -124,4 +124,3 @@
 
 ## F. Unexplained Phenomena
 - **'Unaffected' Battle Message:** During a battle with a wild RHYDON, after using EARTHQUAKE, the message 'REVENANT is unaffected!' appeared. My Pokémon took no damage and received no status. The cause is unknown. I need to monitor if this happens again.
-- **Surf HM:** Requires a conscious (non-fainted) Pokémon that knows Surf to be used in the overworld. (Inferred from being unable to Surf on Cerulean Cave B1F with fainted TITANESS).
