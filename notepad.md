@@ -114,3 +114,11 @@
 
 ## C. Tool Development Lessons
 - **Menu Navigation Tool Failures (CRITICAL):** My `use_hm_from_party` and `switch_pokemon_navigator` tools have proven to be fundamentally flawed. The 'Menu Input Blocking' mechanic, where being adjacent to an impassable tile blocks the corresponding directional input in menus, makes any tool that relies on a fixed sequence of directional inputs (especially 'Up' for cursor-resetting) inherently unreliable. **Conclusion:** These tools are retired. Future attempts at menu automation will require a more advanced 'Menu Analyzer' tool that can read screen text to determine cursor position before acting, making navigation truly deterministic.
+
+## F. Tile Mechanics Reference
+- **Healing Zone:** A tile that fully heals party HP and PP.
+- **Steps:** Allows movement between 'ground' and 'elevated_ground' tiles.
+- **Menu Input Blocking:** Facing an impassable tile blocks that directional input in menus.
+
+## G. Untested Hypotheses
+- **Pokémon Tower 7F:** Using the SILPH SCOPE might reveal a hidden object or ghost, as simple interaction and the POKé FLUTE have failed.
