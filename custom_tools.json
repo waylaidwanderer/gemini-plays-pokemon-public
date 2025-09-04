@@ -942,100 +942,6 @@
       }
     ]
   },
-  "trivial_battle_automator": {
-    "description": "A tool to automate simple, repetitive wild battles. Checks for a significant level difference (20+ levels). If so, it presses 'A' twice to select FIGHT and the first move, after checking for type immunities.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "player_party_json": {
-          "type": "string"
-        },
-        "enemy_pokemon_json": {
-          "type": "string"
-        },
-        "active_pokemon_name": {
-          "type": "string"
-        },
-        "player_party_moves_pp_json": {
-          "type": "string"
-        }
-      },
-      "required": [
-        "player_party_json",
-        "enemy_pokemon_json",
-        "active_pokemon_name",
-        "player_party_moves_pp_json"
-      ]
-    },
-    "python_script": "import json\nimport sys\n\ntry:\n    player_party = json.loads(input_data['player_party_json'])\n    enemy_pokemon = json.loads(input_data['enemy_pokemon_json'])\n    active_pokemon_name = input_data['active_pokemon_name']\n    moves_pp = json.loads(input_data['player_party_moves_pp_json'])\n\n    active_pokemon = next((p for p in player_party if p['name'] == active_pokemon_name), None)\n\n    if not active_pokemon:\n        print(json.dumps(['A']))\n        sys.exit()\n\n    level_difference = active_pokemon['level'] - enemy_pokemon['level']\n    if level_difference < 20:\n        print(json.dumps(['A']))\n        sys.exit()\n\n    active_pokemon_moves = moves_pp.get(active_pokemon_name)\n    if not active_pokemon_moves:\n        print(json.dumps(['A']))\n        sys.exit()\n\n    first_move_name = list(active_pokemon_moves.keys())[0]\n    first_move_pp = active_pokemon_moves[first_move_name][0]\n\n    if first_move_pp == 0:\n        print(json.dumps(['A']))\n        sys.exit()\n\n    MOVE_TYPES = {'THUNDERBOLT': 'Electric', 'FLASH': 'Normal', 'LIGHT SCREEN': 'Psychic', 'THUNDER WAVE': 'Electric'}\n    POKEMON_TYPES = {'GASTLY': ['Ghost', 'Poison'], 'CUBONE': ['Ground', None], 'DIGLETT': ['Ground', None], 'DITTO': ['Normal', None]}\n    IMMUNITIES = {'Electric': ['Ground']}\n\n    move_type = MOVE_TYPES.get(first_move_name)\n    enemy_types = POKEMON_TYPES.get(enemy_pokemon['name'])\n\n    if move_type and enemy_types:\n        if any(enemy_type in IMMUNITIES.get(move_type, []) for enemy_type in enemy_types if enemy_type):\n            print(json.dumps(['A']))\n            sys.exit()\n\n    print(json.dumps(['A', 'A']))\n\nexcept Exception:\n    print(json.dumps(['A']))\n",
-    "history": [
-      {
-        "commit_message": "feat: Create trivial_battle_automator tool. This tool addresses an Overwatch critique by proactively automating repetitive wild battles in the Power Plant, adhering to Directive 5. It checks for a significant level disparity against wild Pokémon and, if met, outputs the button presses to use the first move, streamlining exploration.",
-        "timestamp": "2025-09-02T19:41:45.046Z",
-        "action_counter": 185055
-      },
-      {
-        "commit_message": "fix: Add robustness to handle list-based enemy data. The tool previously crashed if the `enemy_pokemon_json` was a list containing a single object instead of just the object. This commit adds a check to handle both data structures, preventing user error from causing a failure. This addresses a deferred maintenance task identified in an Overwatch critique.",
-        "timestamp": "2025-09-02T23:33:21.147Z",
-        "action_counter": 185502
-      },
-      {
-        "commit_message": "fix: Add robustness to handle list-based enemy data. The tool previously crashed if the `enemy_pokemon_json` was a list containing a single object instead of just the object. This commit adds a check to handle both data structures, preventing user error from causing a failure. This addresses a deferred maintenance task identified in an Overwatch critique.",
-        "timestamp": "2025-09-02T23:43:05.383Z",
-        "action_counter": 185524
-      },
-      {
-        "commit_message": "fix: Correctly identify active Pokémon by nickname. The tool was failing because it compared the active Pokémon's nickname (`active_pokemon_name`) to the species name (`p['species']`) from the party data. This commit changes the comparison to use the correct field (`p['name']`), ensuring the tool can correctly identify the active Pokémon and trigger its automation logic. This addresses a critical failure identified during a mandatory self-assessment.",
-        "timestamp": "2025-09-03T01:16:43.984Z",
-        "action_counter": 185710
-      },
-      {
-        "commit_message": "fix: Add PP check for first move. The tool previously failed to account for a move having 0 PP, which would cause the automation to select an unusable move. This commit adds a new required input, `player_party_moves_pp_json`, and incorporates logic to check if the first move has PP > 0 before outputting the button presses. This prevents a critical failure state and makes the tool more robust.",
-        "timestamp": "2025-09-03T03:02:22.292Z",
-        "action_counter": 185931
-      },
-      {
-        "commit_message": "feat: Add type immunity check. The tool will now check if the first move is ineffective due to a type immunity before automatically using it. This prevents wasting a turn in trivial encounters, addressing a key Overwatch critique.",
-        "timestamp": "2025-09-03T14:07:24.125Z",
-        "action_counter": 187044
-      },
-      {
-        "commit_message": "fix: Add hardcoded move types to enable immunity check. The tool was crashing because it tried to access move type data that wasn't available in its inputs. This commit adds a hardcoded `MOVE_TYPES` dictionary to provide this data, allowing the immunity check to function correctly. This directly addresses a critical Overwatch critique.",
-        "timestamp": "2025-09-03T14:13:26.894Z",
-        "action_counter": 187051
-      },
-      {
-        "commit_message": "fix: Add failsafe and enemy type data for immunity check. The tool was crashing or returning invalid output. This commit adds a POKEMON_TYPES dictionary for wild encounters and wraps the logic in a try-except block to guarantee a valid JSON array is always returned, addressing a critical failure pointed out by Overwatch.",
-        "timestamp": "2025-09-03T14:29:25.966Z",
-        "action_counter": 187077
-      },
-      {
-        "commit_message": "fix: Remove faulty sys.argv parsing. The script was crashing on launch because it contained a line `input_data = json.loads(sys.argv[1])`, which is incompatible with the live environment where `input_data` is an injected dictionary. This commit removes that line, allowing the script to execute its logic and the failsafe `try...except` block correctly. This addresses a critical, repeated tool failure.",
-        "timestamp": "2025-09-03T14:30:29.338Z",
-        "action_counter": 187078
-      },
-      {
-        "commit_message": "fix: Add GASTLY type data. The tool failed to automate a battle against a wild Gastly because its type was missing from the internal dictionary. This commit adds the necessary type data to prevent future failures and improve automation reliability.",
-        "timestamp": "2025-09-03T17:45:39.669Z",
-        "action_counter": 187366
-      },
-      {
-        "commit_message": "fix: Add CUBONE type data. The tool failed to check for immunity when battling a wild Cubone because its type was missing from the internal POKEMON_TYPES dictionary. This commit adds the necessary data to prevent future failures against this species.",
-        "timestamp": "2025-09-03T18:52:23.109Z",
-        "action_counter": 187493
-      },
-      {
-        "commit_message": "fix: Add DIGLETT type data and improve failsafe. The tool was failing against wild Diglett due to missing type data, and its error handling returned an empty list, wasting a turn. This commit adds Diglett to the internal POKEMON_TYPES dictionary and changes the failsafe behavior in the try-except block to return ['A'], ensuring a move is at least selected on failure. This is a direct response to a mandatory self-assessment.",
-        "timestamp": "2025-09-03T23:11:04.834Z",
-        "action_counter": 188019
-      },
-      {
-        "commit_message": "feat: Add DITTO type data and improve robustness. The tool was failing against wild Ditto due to missing type data. It also now correctly parses the moves PP dictionary and finds the active Pokémon by its nickname. This addresses several critical flaws that caused the tool to fail automation.",
-        "timestamp": "2025-09-04T07:52:22.428Z",
-        "action_counter": 188886
-      }
-    ]
-  },
   "menu_analyzer": {
     "description": "Parses screen text from a menu to identify the available options, their layout (e.g., single column, 2x2 grid), and the current cursor position. This is the foundation for creating reliable menu navigation automation.",
     "input_schema": {
@@ -1102,6 +1008,32 @@
         "commit_message": "feat: Create map_analyzer tool to prevent navigational hallucinations. This tool performs a BFS from the player's current position to identify all truly reachable unseen tiles and warps, respecting complex traversal rules like ledges and elevation. This is a direct response to a critical Overwatch critique regarding tool procrastination and will serve as the foundation for more reliable navigation and exploration decisions.",
         "timestamp": "2025-09-04T11:16:04.392Z",
         "action_counter": 189201
+      }
+    ]
+  },
+  "select_pokemon_from_party": {
+    "description": "Calculates the button presses needed to select a specific Pokémon from the party menu screen. It identifies the cursor's current position and the target's position to generate the correct sequence of 'Down' presses, followed by 'A' to select.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "screen_text": {
+          "type": "string"
+        },
+        "target_pokemon_name": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "screen_text",
+        "target_pokemon_name"
+      ]
+    },
+    "python_script": "import json\nimport re\n\nscreen_text = input_data['screen_text']\ntarget_pokemon_name = input_data['target_pokemon_name'].upper()\n\nlines = screen_text.strip().split('\\n')\nparty_members = []\ncursor_position = -1\n\n# Regex to find Pokémon names, ignoring potential LV text and status\nfor i, line in enumerate(lines):\n    if '→' in line:\n        cursor_position = len(party_members)\n    \n    match = re.search(r'([A-Z-Z♀♂]+)', line)\n    if match:\n        pokemon_name = match.group(1)\n        if pokemon_name not in ['LV', 'PAR', 'SLP', 'PSN', 'BRN', 'FRZ', 'OK'] and len(pokemon_name) > 2:\n            party_members.append(pokemon_name)\n\n# Clean up party list by removing duplicates that might arise from parsing\nseen = set()\nunique_party = [x for x in party_members if not (x in seen or seen.add(x))]\n\nif not unique_party:\n    print(json.dumps({'error': 'Could not parse party members from screen text.'}))\nelse:\n    try:\n        target_index = unique_party.index(target_pokemon_name)\n        \n        if cursor_position == -1:\n            cursor_position = 0\n\n        moves = target_index - cursor_position\n        buttons = []\n        if moves > 0:\n            buttons.extend(['Down'] * moves)\n        elif moves < 0:\n            buttons.extend(['Up'] * abs(moves))\n        \n        buttons.append('A')\n        print(json.dumps(buttons))\n\n    except ValueError:\n        print(json.dumps({'error': f'Target Pokémon {target_pokemon_name} not found in party.'}))\n    except Exception as e:\n        print(json.dumps({'error': str(e)}))\n",
+    "history": [
+      {
+        "commit_message": "feat: Create select_pokemon_from_party tool. This tool automates the error-prone process of manually selecting a Pokémon from the party menu during battle. It parses the screen text to find the cursor and target, then generates the necessary button presses. This is a direct response to a mandatory self-assessment and addresses a key area for automation to improve efficiency and reduce input errors.",
+        "timestamp": "2025-09-04T17:05:58.752Z",
+        "action_counter": 189562
       }
     ]
   }
