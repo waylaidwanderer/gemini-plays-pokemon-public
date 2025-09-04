@@ -35,6 +35,7 @@
 
 ## C. Type Effectiveness & Insights
 - **Wild Pokémon Speed (Cerulean Cave):** Wild Pokémon are deceptively fast.
+- **Wild Pokémon Moves (Cerulean Cave):** GOLEM can use SELFDESTRUCT. It dealt significant neutral damage to TITANESS (Normal-type).
 - **SELFDESTRUCT:** Not very effective vs. Rock/Ground; Neutrally effective vs. Ground.
 - **Type Immunity:** Electric moves have no effect on Ground-types.
 
