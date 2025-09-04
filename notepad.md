@@ -13,6 +13,7 @@
 - **Data-Driven Debugging is Mandatory:** Before writing or fixing any tool that interacts with a menu, I MUST first manually navigate the menu to observe and document its exact structure and cursor behavior. Assuming menu behavior without gathering data is a guaranteed failure.
 - **Confirmation Bias Kills Progress:** I have a history of repeating failed actions or blaming tools for my own errors. I must trust my tools' outputs and meticulously verify my own actions before concluding a tool is faulty. When stuck, I MUST use my `puzzle_solver_agent` to generate new, testable hypotheses.
 - **Navigational Hallucinations are Real:** I have a history of incorrectly concluding I am trapped or misidentifying map states. I must develop a tool for reliable map analysis and trust system warnings.
+- **Escape is Not Guaranteed (CRITICAL LESSON):** I incorrectly assumed fleeing from wild battles was always possible. The DODRIO in Cerulean Cave proved this wrong by preventing escape, leading to a party wipe. I must not rely on running as a guaranteed safe option, especially when at low health.
 
 # II. Game & World Mechanics
 
@@ -31,7 +32,6 @@
 - **Boulder Pushing:** A multi-turn action. Cannot be done while surfing.
 - **Dead End Definition:** A map is only a dead end if it has only one exit warp/connection and no reachable unseen tiles. The nature of the destination map is irrelevant to this classification.
 - **SURF vs. DIG:** The move SURF will miss an opponent that is underground from using DIG.
-- **Escape is Not Guaranteed (CRITICAL LESSON):** I incorrectly assumed fleeing from wild battles was always possible. The DODRIO in Cerulean Cave proved this wrong by preventing escape, leading to a party wipe. I must not rely on running as a guaranteed safe option, especially when at low health.
 
 ## C. Type Effectiveness & Insights
 - Electric is not very effective against Electric-types.
@@ -93,12 +93,9 @@
 
 # V. Agent & Tool Development
 
-## A. Development Principles
-- **Data-Driven Debugging (CRITICAL):** My repeated failures with menu-navigation tools stemmed from fixing them based on assumptions rather than evidence. **Corrective Action:** Before writing or fixing any tool that interacts with a menu, I MUST first manually navigate it step-by-step, meticulously documenting the exact button presses and cursor behavior. This data gathering is a mandatory prerequisite to any coding.
-- **`find_path` Reliability:** This tool has been significantly improved with diagnostic reporting. Future issues should be addressed by analyzing its detailed failure reports to distinguish between tool bugs and in-game puzzles.
-
-## B. Development Brainstorming
-- **'Execute Battle Action' Tool (TOP PRIORITY):** A tool that takes an action type (MOVE/SWITCH) and target (move index/slot number) and outputs the button presses to automate battle menu navigation. This would work in tandem with the `master_battle_agent`.
+## A. Development Brainstorming
+- **'Automated Fly Menu Navigation' Tool (TOP PRIORITY):** A tool to parse the Fly menu, identify all available locations, and generate the button presses needed to select a specific destination. This would prevent the tedious and error-prone manual scrolling I currently have to do.
+- **'Execute Battle Action' Tool:** A tool that takes an action type (MOVE/SWITCH) and target (move index/slot number) and outputs the button presses to automate battle menu navigation. This would work in tandem with the `master_battle_agent`.
 - **'Stuck Loop Detector' Agent:** Could analyze move history and game state to identify and diagnose repetitive failures, suggesting alternative hypotheses.
 - **'Map Analyzer' Tool/Agent:** A reliable tool to calculate reachable unseen tiles and determine if an area is a dead end to prevent navigational hallucinations.
 - **'High-Level Planner' Agent:** Could analyze the primary goal and suggest a sequence of maps or major objectives to achieve it.
@@ -109,9 +106,8 @@
 - **'Grinding Spot Recommender' Agent:** An agent that analyzes my notepad's 'Known Pokemon Locations' section and my current party to suggest optimal grinding locations based on type advantages and EXP yield.
 - **'Pattern Recognition' Agent:** An agent that could analyze map sprite lists and existing map markers to identify patterns (e.g., 'all NPCs in this area are non-battlers') and form high-level hypotheses to guide exploration.
 - **'Dynamic Type Chart Builder' Tool:** A long-term project to create a tool that parses battle text (e.g., "It's super effective!") to systematically build a complete and verified type effectiveness chart for this ROM hack. This would replace the brittle hardcoded dictionaries in other tools.
-- **'Automated Fly Menu Navigation' Tool:** A tool to parse the Fly menu, identify all available locations, and generate the button presses needed to select a specific destination. This would prevent the tedious and error-prone manual scrolling I currently have to do.
 
-## C. Data-Driven Debugging Logs
+## B. Data-Driven Debugging Logs
 - **`use_hm_from_party` Manual Test (Cut):**
   - **Attempt 1 (Failure):** Selected 'CUT'. Game returned error "There isn't anything to CUT!". **Conclusion:** Player must be facing the target object *before* opening the menu to use an HM.
   - **Attempt 2 (Success):** Faced tree, then navigated menu. **Discovery:** Party screen cursor position is not reliably at the top. A cursor-resetting sequence (e.g., spamming 'Up') is necessary for a robust tool.
@@ -120,13 +116,13 @@
 - **Hypothesis 2 (Failed - Agent Suggestion):** Switch inventory 'pockets' with Left/Right. Result: No effect. The inventory does not appear to have pockets.
 - **Hypothesis 3 (Failed):** Interact directly with Snorlax using 'A'. Result: No effect.
 - **Hypothesis 4 (Success):** The item menu is a single, scrollable list. After selecting 'ITEM' from the main menu, scroll down past the HMs (indicated by a '↓' arrow) to find Key Items like the POKé FLUTE. Using it from this menu wakes the Snorlax.
+
+## C. Tool Development Lessons
 - **Menu Cursor Behavior (Critical Lesson):** Menu cursor starting positions are non-deterministic. A single manual test is insufficient to establish a reliable pattern. Tools that navigate menus MUST force a known state (e.g., by repeatedly pressing 'Up' to reset the cursor to the top) rather than assuming a specific starting position. This was the root cause of the `use_hm_from_party` failure loop.
 - **SURF vs. DIG:** The move SURF will miss an opponent that is underground from using DIG.
-
-## D. Tool Development Lessons
 - **Menu Navigation Tool Failures (CRITICAL):** My past menu tools (`use_hm_from_party`, `switch_pokemon_navigator`) were fundamentally flawed. My `menu_navigator` tool is also critically flawed due to the 'Menu Input Blocking' mechanic. Its cursor-resetting logic (spamming 'Up') will fail if the player is adjacent to an impassable tile, making it unreliable. **Conclusion:** These tools are effectively retired. A new, environment-aware solution using a 'Menu Analyzer' and a selection tool is the only path forward. I have since created `menu_analyzer` and `select_menu_option` to address this.
 
-## E. Navigational Lessons
+## D. Navigational Lessons
 - **Dead End Definition (Correction):** A 'dead end area' assessment applies to the *entire map's* reachable exits (warps/connections). An isolated section is not a dead end if other exits exist elsewhere on the map, even if currently unreachable from my position. This was the cause of my hallucination on Cerulean Cave 2F.
 - **Warp Reachability (Correction):** A warp being listed in `Map Events` does not guarantee it is reachable from the current position. The map is often partitioned. I must verify pathability by analyzing the map layout or using a pathfinding tool before assuming a warp is accessible. This was the cause of my hallucination on Cerulean Cave 1F.
 - **Sequential Tool Call Failure:** Calling multiple tools that depend on menu state changes in the same turn (e.g., one tool to open a menu, a second to navigate it) is unreliable and can fail. Only one menu-altering tool should be called per turn to ensure the game state updates correctly before the next action.
