@@ -34,6 +34,7 @@
 - **SURF vs. DIG:** The move SURF will miss an opponent that is underground from using DIG.
 
 ## C. Type Effectiveness & Insights
+- Electric is not very effective against Electric-types.
 - **Wild Pokémon Speed (Cerulean Cave):** Wild Pokémon are deceptively fast.
 - **Wild Pokémon Moves (Cerulean Cave):** GOLEM can use SELFDESTRUCT. It dealt significant neutral damage to TITANESS (Normal-type).
 - **SELFDESTRUCT:** Not very effective vs. Rock/Ground; Neutrally effective vs. Ground.
