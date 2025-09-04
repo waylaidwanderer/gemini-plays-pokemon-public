@@ -110,3 +110,6 @@
 - **Menu Cursor Behavior (Critical Lesson):** Menu cursor starting positions are non-deterministic. A single manual test is insufficient to establish a reliable pattern. Tools that navigate menus MUST force a known state (e.g., by repeatedly pressing 'Up' to reset the cursor to the top) rather than assuming a specific starting position. This was the root cause of the `use_hm_from_party` failure loop.
 - **SURF vs. DIG:** The move SURF will miss an opponent that is underground from using DIG.
 - **SURF vs. DIG:** The move SURF will miss an opponent that is underground from using DIG.
+
+## C. Tool Development Lessons
+- **`use_hm_from_party` Tool Failure (CRITICAL):** This tool is fundamentally flawed. Multiple rewrites based on manual data gathering have failed repeatedly, indicating that the menu cursor's behavior is non-deterministic or affected by context I cannot predict with a static script. **Conclusion:** This tool is retired. Future attempts at menu automation will require a more advanced tool that can read screen text to determine cursor position before acting.
