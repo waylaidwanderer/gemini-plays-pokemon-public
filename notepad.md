@@ -117,7 +117,6 @@
 ## D. Self-Assessment Insights (Turn 188789)
 - **Confirmation Bias (River Exploration):** I spent too long exploring the rivers in Cerulean City and Route 24 based on the weak hypothesis that a new entrance to Cerulean Cave must be there. I should have used the `map_analyzer` tool sooner to definitively prove it was a dead end instead of manually exploring every tile. This is a key lesson in trusting data over intuition.
 - **Agent Opportunity (`maze_navigator_agent`):** My manual, step-by-step navigation of the Route 25 maze was effective but inefficient. This type of complex, multi-step pathing is a perfect candidate for a high-level reasoning agent that could analyze a maze layout and generate the sequence of intermediate goals for the `find_path` tool.
-- **Task (Deferred):** Mark all non-battling NPCs on Route 25 when I return there.
 
 # VI. Self-Correction & Hallucination Log
 ## A. Navigational Hallucinations
