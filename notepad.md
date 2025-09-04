@@ -12,7 +12,6 @@
 - **Tool Maintenance is NOT a 'Task':** Listing tool repair as a 'to-do' item is a form of procrastination and a violation of D1. Tool refinement must be the immediate next action upon identifying a flaw.
 - **Data-Driven Debugging is Mandatory:** Before writing or fixing any tool that interacts with a menu, I MUST first manually navigate the menu to observe and document its exact structure and cursor behavior. Assuming menu behavior without gathering data is a guaranteed failure.
 - **Confirmation Bias Kills Progress:** I have a history of repeating failed actions or blaming tools for my own errors. I must trust my tools' outputs and meticulously verify my own actions before concluding a tool is faulty. When stuck, I MUST use my `puzzle_solver_agent` to generate new, testable hypotheses.
-- **Navigational Hallucinations are Real:** I have a history of incorrectly concluding I am trapped or misidentifying map states. I must develop a tool for reliable map analysis and trust system warnings.
 - **Escape is Not Guaranteed (CRITICAL LESSON):** I incorrectly assumed fleeing from wild battles was always possible. The DODRIO in Cerulean Cave proved this wrong by preventing escape, leading to a party wipe. I must not rely on running as a guaranteed safe option, especially when at low health.
 
 # II. Game & World Mechanics
@@ -115,7 +114,11 @@
 - **Decoy Entrances:** I must be wary of decoy entrances that lead to isolated areas. If an entrance doesn't lead to the main part of a location, I should immediately suspect it's a trick and search for an alternative path instead of trying to force progress from the decoy spot (e.g., Cerulean Cave's fake entrance).
 - **'Map Analyzer' Tool (HIGH PRIORITY):** To prevent future navigational hallucinations, I need a tool that can analyze the map XML to reliably report all reachable warps and unseen tiles from my current position. This is critical for accurate exploration.
 
-## C. Self-Assessment Insights (Turn 188789)
+## D. Self-Assessment Insights (Turn 188789)
 - **Confirmation Bias (River Exploration):** I spent too long exploring the rivers in Cerulean City and Route 24 based on the weak hypothesis that a new entrance to Cerulean Cave must be there. I should have used the `map_analyzer` tool sooner to definitively prove it was a dead end instead of manually exploring every tile. This is a key lesson in trusting data over intuition.
 - **Agent Opportunity (`maze_navigator_agent`):** My manual, step-by-step navigation of the Route 25 maze was effective but inefficient. This type of complex, multi-step pathing is a perfect candidate for a high-level reasoning agent that could analyze a maze layout and generate the sequence of intermediate goals for the `find_path` tool.
 - **Task (Deferred):** Mark all non-battling NPCs on Route 25 when I return there.
+
+# VI. Self-Correction & Hallucination Log
+## A. Navigational Hallucinations
+- **Route 24 Unseen Tiles (Turn 188804):** I incorrectly reported 67 reachable unseen tiles when the system confirmed there were 0. **Conclusion:** My manual assessment of map exploration status is highly unreliable. I MUST use the `map_analyzer` tool to get an accurate count of reachable unseen tiles and warps before making any exploration decisions. Trusting my own visual scan leads to critical errors.
