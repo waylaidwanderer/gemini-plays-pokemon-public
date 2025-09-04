@@ -118,3 +118,9 @@
 ## A. `find_path` Tool Refinement (Resolved)
 - **Critique (Turn 189302):** The tool lacked diagnostic features for map partitioning.
 - **Resolution (Turn 189308 & 189328):** The tool was successfully updated to perform a reachability analysis and report failures due to disconnected map partitions. A critical typo in the XML library import was also fixed.
+
+## F. Unexplained Phenomena
+- **'Unaffected' Battle Message:** During a battle with a wild RHYDON, after using EARTHQUAKE, the message 'REVENANT is unaffected!' appeared. My Pokémon took no damage and received no status. The cause is unknown. I need to monitor if this happens again.
+
+# VIII. To-Do & Reminders
+- Mark the surf spot on Cerulean Cave 1F at (23, 10) with a '🌊' emoji and 'Surf Spot' label when I return to that map.
