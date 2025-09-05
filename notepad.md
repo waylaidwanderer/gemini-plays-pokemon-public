@@ -132,3 +132,4 @@
 # IX. Immediate Development Priorities (Post-Tower)
 - **`spinner_maze_solver`:** Per Overwatch critique, this is a high-priority tool to automate spinner puzzles.
 - **`npc_pathing_assistant`:** Also from the critique, this will help with navigation around moving NPCs.
+- Healing Item Mechanics (CRITICAL): HYPER POTIONs restore HP but do NOT cure status conditions like poison. This is a major change from the base game.
