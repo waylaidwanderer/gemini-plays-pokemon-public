@@ -140,3 +140,7 @@
 - **Task 1: Correct Map Markers (Route 12)**
   - **A. Super Nerd at (15, 77):** Marker is contradictory ('Defeated' and 'Non-battling'). Plan: Navigate to NPC, re-interact to confirm status, then delete the incorrect marker.
   - **B. Route 11 Connection at (1, 63):** Markers are redundant. Plan: After resolving the Super Nerd issue, delete one of the markers to improve clarity.
+
+# X. Critical Failures & Corrections Log
+## A. Navigational Hallucinations
+- **Route 14 Unseen Tiles (Turn 192124 - CRITICAL):** Received a system warning that I hallucinated 45 reachable unseen tiles on Route 14 when there were 0. This indicates a severe flaw in my map assessment process or a bug in my `map_analyzer` tool. Discarding all current navigation plans for this route. Immediate priority is to re-run `map_analyzer` to diagnose the source of the error. All exploration is on hold until this is resolved.
