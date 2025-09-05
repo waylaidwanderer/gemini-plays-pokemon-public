@@ -74,8 +74,6 @@
 
 # IV. Solved Puzzles & Mechanics Reference
 
-## B. Snorlax Puzzle (Route 12)
-- The item menu is a single, scrollable list. After selecting 'ITEM' from the main menu, scroll down past the HMs (indicated by a '↓' arrow) to find Key Items like the POKé FLUTE. Using it from this menu wakes the Snorlax.
 ## C. Boulder Puzzle Mechanics
 - Objective: Boulders are often pushed into holes to block water currents on lower floors.
 - Movement: Pushing is a multi-turn action. Must be adjacent. First press turns/pushes. Subsequent pushes require moving to the new adjacent tile first.
