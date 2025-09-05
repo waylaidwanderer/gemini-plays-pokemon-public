@@ -126,3 +126,11 @@
 # VII. Tool & Agent Development Ideas
 - `npc_pathing_assistant`: An agent or tool to handle navigation around moving NPCs. It could take start/end coordinates and a blocking sprite ID. If the path is blocked by that NPC, it could suggest using `stun_npc` at a strategic location or calculate a path that waits for the NPC to move out of the way.
 - Type Immunity: Ground-type moves (EARTHQUAKE) do not affect GASTLY (Ghost/Poison). This implies a Levitate-like ability or a major type chart change.
+
+# IX. New Agent/Tool Ideas & Test Plans
+## A. Agent/Tool Ideas
+- `emergency_switch_advisor` (Agent): Takes current battle state (active pokemon status, opponent type) and suggests the best switch-in from the party. This would automate the reasoning for critical switches like the one I'm doing now.
+- `select_pokemon_from_party` (Tool): Revisit this tool. A robust version should spam 'Up' in the party menu to reach a known state (the first Pokémon), then calculate the required 'Down' presses to select a target by name. This would make switching much more reliable.
+## B. Test Plans
+- **Hypothesis:** The friendly healer on Pokémon Tower 6F cures status conditions in addition to HP/PP.
+- **Test:** After the current battle, take the poisoned REVENANT to the healer at (13, 9). Check REVENANT's status after the interaction.
