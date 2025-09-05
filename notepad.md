@@ -44,7 +44,7 @@
 - Dead End Definition (Correction): A map is only a dead end if it has only one exit warp/connection and no reachable unseen tiles. The nature of the destination map is irrelevant to this classification.
 - SURF vs. DIG: The move SURF will miss an opponent that is underground from using DIG.
 - Healing Zone: A tile described as a "purified, protected zone" that fully heals all Pokémon in the party's HP and restores all their PP, including curing status conditions. Found on Pokémon Tower 5F at (12, 10). The friendly healer NPC on 6F at (13, 9) does NOT cure status conditions.
-- Respawning Obstacles: Cuttable trees respawn after a certain amount of time or after changing maps, as observed with the tree at Cerulean City (20, 29).
+- Respawning Obstacles: Cuttable trees respawn. One was observed at Cerulean City (20, 29). Another instance occurred in Fuchsia City at (17, 12), which changed from 'ground' to 'cuttable' while I was on the map, suggesting they can respawn dynamically without a map change.
 - Proactive Tile Testing: I need to be diligent in testing tiles that appear impassable (like small fences or rocks) to confirm their properties, as ROM hacks can have unusual traversal rules.
 ## D. Inventory Management (CRITICAL LESSON)
 - Inventory Over-Capacity: If the inventory count is over the maximum (e.g., 21/20), the displayed item list may be truncated. Tossing an entire stack of an item successfully frees up a slot, bringing the count back to the maximum. Discarding a partial stack does NOT free up an inventory slot.
