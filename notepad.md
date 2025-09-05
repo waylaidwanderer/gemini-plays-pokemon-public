@@ -30,6 +30,8 @@
 - `elevated_ground` & `steps`: Movement between `ground` and `elevated_ground` is only possible via a `steps` tile.
 - `grass`: Tall grass for wild Pokémon encounters. Walkable like `ground`.
 - `water`: Crossable using HM Surf.
+- `cuttable`: A tree that blocks the path. Requires the HM move CUT to pass. The player must be adjacent to and facing the tree. These trees can respawn after a certain amount of time or after changing maps.
+- `ledge`: A one-way obstacle. Can only be jumped down from the tile directly above it (Y-1). Attempting to move onto a ledge from below or the sides will fail.
 - Ladders & Elevation: Movement between a `ladder_up`/`ladder_down` tile and an adjacent `elevated_ground` tile is possible.
 - `teleport`: Instant warp tile within the same logical location.
 - `spinner_up/down/left/right`: Forces movement in a specific direction.
@@ -89,16 +91,21 @@
 - 4F: Sells POKé DOLL and evolution stones (FIRE, THUNDER, WATER).
 - 2F: Sells POKé BALLs, Potions, and TMs (MEGPNCH, RZRWIND, etc.).
 
-# IV. Agent & Tool Development History
-## A. Retired Concepts & Tools
+# IV. Agent & Tool Development
+## A. Agent & Tool Ideas
+- **gym_prep_agent**: An agent that takes a gym type (e.g., 'Poison') and the contents of my PC boxes as input, then suggests an optimal team of 6 Pokémon to train and use for that gym battle. This would help automate strategic team building for major fights.
+- **obstacle_handler_agent:** An agent that takes a `find_path` failure report as input. It would identify the type of obstacle (e.g., 'cuttable_tree', 'boulder') and output a structured, multi-step plan to overcome it. For example, for a tree, it would output: { "action_1": "path_to_obstacle_adjacent", "coords": [X, Y], "action_2": "use_hm", "hm_name": "CUT", "action_3": "path_to_original_destination", "coords": [A, B] }. This would automate the recovery process from common navigational blockages.
+- **select_safari_option_tool**: The `select_battle_option` tool does not work in the Safari Zone because the menu is different ('BALL', 'BAIT', 'ROCK', 'RUN'). A new tool is needed to parse this specific 2x2 grid and select the correct option to automate Safari Zone encounters.
+## B. Retired Concepts & Tools
 - `use_hm_from_party`, `switch_pokemon_navigator`, `menu_navigator`: These tools are retired due to fundamental flaws related to non-deterministic menu cursor positions and the 'Menu Input Blocking' mechanic. They serve as a critical lesson that menu automation requires environment-aware parsing (`menu_analyzer`) and targeted selection (`select_menu_option`), not blind input sequences.
-## B. Key Development Lessons
+## C. Key Development Lessons
 - `select_pokemon_from_party` Critical Failure (Turns 189613-189620): The tool repeatedly failed to parse the multi-line party menu, causing incorrect Pokémon selections even after multiple fix attempts. The current implementation is fundamentally flawed. Conclusion: Manual selection is required until a complete redesign and robust testing can be performed in a safe environment.
 - `use_hm_from_party` Manual Test (Cut): Discovered player must be facing the target *before* opening the menu.
+- `use_hm_tool` Failure (Turn 192268): The tool failed because it attempted to perform a multi-stage, dynamic menu navigation task in a single script. This is impossible as tools cannot react to screen changes mid-execution. The correct approach is a sequential, multi-turn process: 1. Open Menu. 2. `menu_analyzer` + `select_menu_option` for 'POKéMON'. 3. `menu_analyzer` + `select_menu_option` for the specific Pokémon. 4. 'A' to confirm. 5. `menu_analyzer` + `select_menu_option` for the HM. 6. 'A' to use.
 - Menu Cursor Behavior (Critical Lesson): Menu cursor starting positions are non-deterministic. Tools must force a known state (e.g., by spamming 'Up') rather than assuming a start position.
 - Sequential Tool Call Failure: Calling multiple menu-altering tools in the same turn is unreliable. Only one should be called per turn.
 - Decoy Entrances: Be wary of entrances that lead to isolated areas (e.g., Cerulean Cave's fake entrance).
-## C. Tool Malfunctions & Bugs
+## D. Tool Malfunctions & Bugs
 - `find_path` on Route 7 (Correction): The tool is NOT bugged. My previous assessment was a hallucination. The tool correctly identifies that Route 7 is partitioned by impassable ledges and walls. The eastern and western sections are not connected on this map. The tool's 'no path found' result is accurate.
 - `find_path` in Pokémon Fan Club (Turn 192001): The tool failed to find a valid path in a confined space, despite one existing. This indicates a flaw in the BFS implementation or traversability logic when dealing with complex obstacles. I have added a TODO to the tool to implement detailed logging to trace the search path and identify the point of failure.
 
@@ -115,47 +122,26 @@
 ## B. Positional & Turn Count Hallucinations
 - Route 24 Arrival (Turn 188858): Hallucinated arrival coordinates. Conclusion: Must always verify position from Game State after map transitions.
 - Turn Numbers (Multiple): Hallucinated the turn number. Conclusion: Must always trust the Game State Information.
+- Route 14 Unseen Tiles (Turn 192124 - CRITICAL): Received a system warning that I hallucinated 45 reachable unseen tiles on Route 14 when there were 0. This indicates a severe flaw in my map assessment process or a bug in my `map_analyzer` tool. Discarding all current navigation plans for this route. Immediate priority is to re-run `map_analyzer` to diagnose the source of the error. All exploration is on hold until this is resolved.
+- Route 15 Unseen Tiles (Turn 192132 - CRITICAL): Received a system warning for hallucinating 272 reachable unseen tiles when there were 0. This was a failure in my manual assessment when constructing the `validation_checks` block. My `map_analyzer` tool's output was correct (0 unseen tiles), but I ignored it. **LESSON:** I MUST trust the direct output of my validated tools over my own manual interpretation of the map. This is a direct violation of my "Trust, but Refine" directive.
+- Turn Count Mismatch (Turn 192152 - CRITICAL): Received a system warning for reporting turn 192150 when the correct turn was 192151. This is a data-processing hallucination. LESSON: I must always use the turn number provided in the Game State Information as the absolute source of truth.
+- Turn Count Mismatch (Turn 192154 - CRITICAL): Received a second consecutive system warning for reporting turn 192152 when the correct turn was 192153. This indicates a persistent data-processing hallucination. LESSON: I must double-check the turn number from the Game State Information before every single response.
+- Positional Mismatch (Turn 192155 - CRITICAL): Received a system warning for reporting my position as (4, 4) when I was at (4, 8). This is another data-processing hallucination. LESSON: I must verify my coordinates from the Game State Information before every action.
+- Positional Mismatch (Turn 192155 - CRITICAL): Received a system warning for reporting my position as (4, 4) when I was at (4, 8). This is another data-processing hallucination. LESSON: I must verify my coordinates from the Game State Information before every action.
 ## C. Manual Pathing Failures
 - Pokémon Tower 6F (Turn 191168): Manually created a path plan that led directly into an impassable wall at (12, 10). Conclusion: Manual pathing is unreliable. I MUST use the `find_path` tool for all non-trivial navigation.
 
-# VI. Active Hypotheses & Untested Assumptions
-- **Cerulean Cave Entrance:** The entrance to Cerulean Cave is located somewhere within Cerulean City itself. Test: If all leads within the city are exhausted, systematically explore all exits to surrounding routes (24, 25, 9, 5) for new paths.
-- **Officer Jenny:** Officer Jenny at (29, 13) is a permanent story block and not tied to a different, undiscovered trigger. Test: Re-interact with her only after making significant progress elsewhere in the city or surrounding areas.
-
-# VII. Critical Failures & Corrections Log
-## A. Hallucinations
-- **Route 14 Unseen Tiles (Turn 192124 - CRITICAL):** Received a system warning that I hallucinated 45 reachable unseen tiles on Route 14 when there were 0. This indicates a severe flaw in my map assessment process or a bug in my `map_analyzer` tool. Discarding all current navigation plans for this route. Immediate priority is to re-run `map_analyzer` to diagnose the source of the error. All exploration is on hold until this is resolved.
-- **Route 15 Unseen Tiles (Turn 192132 - CRITICAL):** Received a system warning for hallucinating 272 reachable unseen tiles when there were 0. This was a failure in my manual assessment when constructing the `validation_checks` block. My `map_analyzer` tool's output was correct (0 unseen tiles), but I ignored it. **LESSON:** I MUST trust the direct output of my validated tools over my own manual interpretation of the map. This is a direct violation of my "Trust, but Refine" directive.
-- **Turn Count Mismatch (Turn 192152 - CRITICAL):** Received a system warning for reporting turn 192150 when the correct turn was 192151. This is a data-processing hallucination. LESSON: I must always use the turn number provided in the Game State Information as the absolute source of truth.
-- **Turn Count Mismatch (Turn 192154 - CRITICAL):** Received a second consecutive system warning for reporting turn 192152 when the correct turn was 192153. This indicates a persistent data-processing hallucination. LESSON: I must double-check the turn number from the Game State Information before every single response.
-- **Positional Mismatch (Turn 192155 - CRITICAL):** Received a system warning for reporting my position as (4, 4) when I was at (4, 8). This is another data-processing hallucination. LESSON: I must verify my coordinates from the Game State Information before every action.
-- **Positional Mismatch (Turn 192155 - CRITICAL):** Received a system warning for reporting my position as (4, 4) when I was at (4, 8). This is another data-processing hallucination. LESSON: I must verify my coordinates from the Game State Information before every action.
-
-# VIII. Trainer Rosters
+# VI. Trainer Rosters
 ## A. Nurse Joy (Fuchsia Pokecenter)
 - KANGASKHAN (Lv 65): DOUBLE-EDGE, DOUBLE TEAM
 - SNORLAX (Lv 65): ICE BEAM, REST
 
-# IX. Agent & Tool Ideas
-- **gym_prep_agent**: An agent that takes a gym type (e.g., 'Poison') and the contents of my PC boxes as input, then suggests an optimal team of 6 Pokémon to train and use for that gym battle. This would help automate strategic team building for major fights.
-- **Warden's Clue (Safari Zone):** The Warden at (3, 4) in his house mentioned a 'SECRET HOUSE' in the Safari Zone. Finding it supposedly rewards an HM, which he believes is SURF. **Contradiction:** I already possess HM03 (SURF). This needs investigation. The Safari Zone is the next logical objective.
-## D. Tool Development Lessons
-- `use_hm_tool` Failure (Turn 192268): The tool failed because it attempted to perform a multi-stage, dynamic menu navigation task in a single script. This is impossible as tools cannot react to screen changes mid-execution. The correct approach is a sequential, multi-turn process: 1. Open Menu. 2. `menu_analyzer` + `select_menu_option` for 'POKéMON'. 3. `menu_analyzer` + `select_menu_option` for the specific Pokémon. 4. 'A' to confirm. 5. `menu_analyzer` + `select_menu_option` for the HM. 6. 'A' to use.
-
-## J. Tile Traversal & Movement Rules (Addendum)
-- `cuttable`: A tree that blocks the path. Requires the HM move CUT to pass. The player must be adjacent to and facing the tree. These trees can respawn after a certain amount of time or after changing maps.
-- `ledge`: A one-way obstacle. Can only be jumped down from the tile directly above it (Y-1). Attempting to move onto a ledge from below or the sides will fail.
-
-## K. Multi-Turn Manual Processes
-- **Using HMs (e.g., CUT):** This is a multi-turn process that cannot be automated with a single tool. The sequence is: 1. Stand adjacent to and face the target. 2. Press Start to open the menu. 3. Navigate to and select 'POKéMON'. 4. Navigate to and select the Pokémon with the HM. 5. Navigate to and select the HM move from the sub-menu. 6. Press A to use it.
-
-# X. Active Hypotheses & Untested Assumptions (New)
+# VII. Active Hypotheses & Untested Assumptions
+- **Cerulean Cave Entrance:** The entrance to Cerulean Cave is located somewhere within Cerulean City itself. Test: If all leads within the city are exhausted, systematically explore all exits to surrounding routes (24, 25, 9, 5) for new paths.
+- **Officer Jenny:** Officer Jenny at (29, 13) is a permanent story block and not tied to a different, undiscovered trigger. Test: Re-interact with her only after making significant progress elsewhere in the city or surrounding areas.
 - **Safari Zone Entrance:** The entrance is at (19, 4). Test: Navigate to the coordinates and attempt to enter the warp.
 - **Secret House Location:** The "SECRET HOUSE" is a discoverable, physical location within the Safari Zone map areas. Test: Systematically explore all areas of the Safari Zone.
-- **Warden's HM Clue:** The Warden's statement that the HM is SURF is a mistake, a red herring, or refers to a different version of SURF, as I already possess HM03. Test: Find the item in the Secret House and identify it.
+- **Warden's HM Clue:** The Warden at (3, 4) in his house mentioned a 'SECRET HOUSE' in the Safari Zone. Finding it supposedly rewards an HM, which he believes is SURF. **Contradiction:** I already possess HM03 (SURF). This needs investigation. The Safari Zone is the next logical objective. Test: Find the item in the Secret House and identify it.
 
-# XI. Agent & Tool Ideas (New)
-- **obstacle_handler_agent:** An agent that takes a `find_path` failure report as input. It would identify the type of obstacle (e.g., 'cuttable_tree', 'boulder') and output a structured, multi-step plan to overcome it. For example, for a tree, it would output: { "action_1": "path_to_obstacle_adjacent", "coords": [X, Y], "action_2": "use_hm", "hm_name": "CUT", "action_3": "path_to_original_destination", "coords": [A, B] }. This would automate the recovery process from common navigational blockages.
-
-# XII. Agent & Tool Ideas (New)
-- **select_safari_option_tool**: The `select_battle_option` tool does not work in the Safari Zone because the menu is different ('BALL', 'BAIT', 'ROCK', 'RUN'). A new tool is needed to parse this specific 2x2 grid and select the correct option to automate Safari Zone encounters.
+# VIII. Multi-Turn Manual Processes
+- **Using HMs (e.g., CUT):** This is a multi-turn process that cannot be automated with a single tool. The sequence is: 1. Stand adjacent to and face the target. 2. Press Start to open the menu. 3. Navigate to and select 'POKéMON'. 4. Navigate to and select the Pokémon with the HM. 5. Navigate to and select the HM move from the sub-menu. 6. Press A to use it.
