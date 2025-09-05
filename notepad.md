@@ -136,7 +136,6 @@
 - **Officer Jenny:** Officer Jenny at (29, 13) is a permanent story block and not tied to a different, undiscovered trigger. Test: Re-interact with her only after making significant progress elsewhere in the city or surrounding areas.
 - **Safari Zone Entrance:** The entrance is at (19, 4). Test: Navigate to the coordinates and attempt to enter the warp.
 - **Secret House Location:** The "SECRET HOUSE" is a discoverable, physical location within the Safari Zone map areas. Test: Systematically explore all areas of the Safari Zone.
-- **Warden's HM Clue:** The Warden at (3, 4) in his house mentioned a 'SECRET HOUSE' in the Safari Zone. Finding it supposedly rewards an HM, which he believes is SURF. **Contradiction:** I already possess HM03 (SURF). This needs investigation. The Safari Zone is the next logical objective. Test: Find the item in the Secret House and identify it.
 
 # VIII. Multi-Turn Manual Processes
 - **Using HMs (e.g., CUT):** This is a multi-turn process that cannot be automated with a single tool. The sequence is: 1. Stand adjacent to and face the target. 2. Press Start to open the menu. 3. Navigate to and select 'POKéMON'. 4. Navigate to and select the Pokémon with the HM. 5. Navigate to and select the HM move from the sub-menu. 6. Press A to use it.
