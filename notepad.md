@@ -70,7 +70,8 @@
 - **Observation:** Reached the top floor (7F) of the Pokémon Tower. The path is a confirmed dead end with no visible exits or interactable objects.
 - **Hypothesis 1 (Failed - 15+ attempts):** Interacting with Pikachu or the environment would trigger a cutscene. **Conclusion:** This was a severe case of Confirmation Bias. Standard interaction is not the solution.
 - **Hypothesis 2 (Failed - Agent Suggestion):** Use the POKé FLUTE at the northernmost point (12, 3) to trigger a spectral event. **Result:** The game displayed text confirming the flute was played, but no event occurred. **Conclusion:** The POKé FLUTE has no special effect on this floor.
-- **Hypothesis 3 (Untested):** Use the SILPH SCOPE might reveal a hidden object or ghost, as simple interaction and the POKé FLUTE have failed.
+- **Hypothesis 3 (Failed - 1 attempt):** Use the SILPH SCOPE from the item menu at (12, 3). **Result:** The game displayed the message "This isn't the time to use that!", preventing its use. **Conclusion:** The SILPH SCOPE cannot be actively used to solve this puzzle.
+- **Hypothesis 4 (Untested):** The SILPH SCOPE's effect is passive. Its presence in the inventory will automatically trigger an event, likely by revealing a previously invisible ghost that blocks the true path forward. The most logical place for this trigger is near the stairs at (10, 17).
 
 # IV. Solved Puzzles & Mechanics Reference
 
