@@ -1,15 +1,17 @@
-# I. Core Directives & Lessons Learned
+# I. Core Directives & Key Lessons Learned
 ## A. Core Directives
-- D1: IMMEDIATE DATA & TOOL MANAGEMENT: All data management (notepad, markers) and tool/agent refinement is the HIGHEST priority and MUST be performed in the same turn a need is identified. Deferring these actions is a critical failure.
+- D1: IMMEDIATE DATA & TOOL MANAGEMENT: All data management (notepad, markers) and tool/agent refinement is the HIGHEST priority and MUST be performed in the same turn a need is identified.
 - D2: ACT ON DOCUMENTATION: A documented lesson that does not result in a behavioral change is a critical failure.
 - D3: ABANDON FAILED HYPOTHESES: If a strategy fails repeatedly, I must recognize the pattern, document it with attempt counts, and pivot to a new approach.
 - D4: TRUST, BUT REFINE: I must trust the outputs of my agents and system data. If an agent or tool is suboptimal, I must prioritize refining it immediately.
 - D5: PROACTIVELY AUTOMATE: Before performing any complex or repetitive task, I must first consider if it can be automated with a tool or agent.
-## B. Key Lessons Learned
-- Confirmation Bias Kills Progress: My manual assessment of map connectivity and partitioning is highly unreliable. I MUST trust my `map_analyzer` tool and system warnings over my own intuition. Repeatedly attempting to path to unreachable locations or believing I am trapped are critical failures.
-- Escape is Not Guaranteed (CRITICAL LESSON): I incorrectly assumed fleeing from wild battles was always possible. The DODRIO in Cerulean Cave proved this wrong by preventing escape, leading to a party wipe. I must not rely on running as a guaranteed safe option, especially when at low health.
-- Tool Maintenance is NOT a 'Task': Listing tool repair as a 'to-do' item is a form of procrastination and a violation of D1.
-- Dead End Validation Failure (Turn 190005): I incorrectly assessed Cerulean Mart as not a dead end. A map with only one exit (a single warp, warp group, or map connection) and zero reachable unseen tiles IS a dead end. This is a critical rule for the `is_in_dead_end_area` validation check that I must follow precisely.
+## B. CRITICAL Lessons from Overwatch Critique (Turn 191004)
+- **Tool Usage Discipline:** I have repeatedly failed to use tools correctly (forgetting `autopress_buttons: true`, providing incorrect coordinates to `find_path`). This is a critical failure. I MUST verify my position from the Game State before every pathfinding call and double-check all flags for tools that generate button presses.
+- **Proactive Automation is Key:** I have good ideas for tools but fail to implement them. I must prioritize building tools like `npc_pathing_assistant` to solve recurring problems instead of just documenting them as ideas.
+## C. Other Key Lessons Learned
+- **Positional Awareness:** I have repeatedly hallucinated my position, leading to failed movements. I MUST verify my current coordinates from the Game State Information *before* every single action.
+- **Confirmation Bias:** My manual assessment of map connectivity (dead ends, partitions) is highly unreliable. I MUST trust my `map_analyzer` tool and system warnings over my own intuition.
+- **Escape is Not Guaranteed:** Fleeing from wild battles is not always possible (e.g., DODRIO in Cerulean Cave). I must not rely on running as a guaranteed safe option.
 
 # II. Game & World Mechanics
 ## A. Map Marker System
