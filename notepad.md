@@ -53,6 +53,7 @@
 - Type Immunity: Electric moves have no effect on Ground-types.
 - Poison is not very effective against Ground-types.
 - Normal-type moves do not affect Ghost-type Pokémon. (Verified: TITANESS's DOUBLE-EDGE vs. GASTLY)
+- Type Immunity: Ground-type moves (EARTHQUAKE) do not affect GASTLY (Ghost/Poison). This implies a Levitate-like ability or a major type chart change.
 ## F. Known Pokemon Locations
 - Cerulean Cave: Ditto, Wigglytuff, Electrode, Golem, Raichu, Sandslash, Parasect, Lickitung, Magneton, Dodrio, RHYDON, VICTREEBEL, GOLBAT, KADABRA.
 - Pokémon Tower: GASTLY, CUBONE.
@@ -64,19 +65,7 @@
 ## H. Unexplained Phenomena
 - 'Unaffected' Battle Message: During a battle with a wild RHYDON, after using EARTHQUAKE, the message 'REVENANT is unaffected!' appeared. My Pokémon took no damage and received no status. The cause is unknown. I need to monitor if this happens again.
 
-## A. Pokémon Tower 7F (Ghost Puzzle)
-- **Current Status:** Blocked by a ghost on 7F. The standard SILPH SCOPE interaction failed.
-- **Hypothesis (from puzzle_solver_agent):** The trigger for the ghost event is on a lower floor, unlocked by obtaining the SILPH SCOPE.
-- **Discovery (Confirmed):** The Channeler on 2F at (4, 8) has new dialogue after obtaining the SILPH SCOPE, explicitly mentioning it can unmask GHOSTs. This confirms the agent's hypothesis.
-- **Next Action:** Continue re-exploring the tower from 2F down to 1F, checking all NPCs for new dialogue.
-
-## B. Untested Assumptions (from Self-Assessment Turn 191202)
-- **Assumption 1:** The solution to the ghost puzzle is *inside* the Pokemon Tower.
-  - **Test:** If re-exploring floors 4F down to 1F yields no results, I must exit the tower and systematically re-explore Lavender Town, interacting with every NPC.
-- **Assumption 2:** The bugged Channeler at (15, 13) on 4F is just a bug and not part of the puzzle.
-  - **Test:** If the current re-exploration of the tower fails, I will return to this Channeler and attempt to interact again to see if the interaction loop is breakable or contains a clue.
-
-# IV. Solved Puzzles & Mechanics Reference
+# III. Solved Puzzles & Mechanics Reference
 ## A. Boulder Puzzle Mechanics
 - Objective: Boulders are often pushed into holes to block water currents on lower floors.
 - Movement: Pushing is a multi-turn action. Must be adjacent. First press turns/pushes. Subsequent pushes require moving to the new adjacent tile first.
@@ -86,7 +75,11 @@
 - Mt. Moon Entrances: There are two entrances to Mt. Moon from Route 4. The western entrance at (19, 6) leads to an isolated, dead-end section. The eastern entrance at (25, 6) leads to the main cave system and the path forward to Cerulean City.
 - Route 8 Gatehouse: The gatehouse connecting the two halves of Route 8 has a 1x2 warp. To enter from the west, I had to stand on the southern tile (2, 11) and press Right.
 - Snorlax Puzzle (Route 12): The item menu is a single, scrollable list. After selecting 'ITEM' from the main menu, scroll down past the HMs (indicated by a '↓' arrow) to find Key Items like the POKé FLUTE. Using it from this menu wakes the Snorlax.
-## C. Item & Store Data
+## C. Pokémon Tower Ghost Puzzle (Solved)
+- The trigger for the ghost event was on a lower floor, unlocked by obtaining the SILPH SCOPE.
+- The Channeler on 2F at (4, 8) has new dialogue after obtaining the SILPH SCOPE, explicitly mentioning it can unmask GHOSTs.
+- After calming the Marowak spirit on 6F, I rescued Mr. Fuji from Team Rocket on 7F.
+## D. Item & Store Data
 ### Item Locations & Vendors
 - Route 12 Super Rod House: Fishing Guru gives the SUPER ROD.
 ### Celadon Department Store (Reference)
@@ -94,7 +87,7 @@
 - 4F: Sells POKé DOLL and evolution stones (FIRE, THUNDER, WATER).
 - 2F: Sells POKé BALLs, Potions, and TMs (MEGPNCH, RZRWIND, etc.).
 
-# V. Agent & Tool Development History
+# IV. Agent & Tool Development History
 ## A. Retired Concepts & Tools
 - `use_hm_from_party`, `switch_pokemon_navigator`, `menu_navigator`: These tools are retired due to fundamental flaws related to non-deterministic menu cursor positions and the 'Menu Input Blocking' mechanic. They serve as a critical lesson that menu automation requires environment-aware parsing (`menu_analyzer`) and targeted selection (`select_menu_option`), not blind input sequences.
 ## B. Key Development Lessons
@@ -106,7 +99,7 @@
 ## C. Tool Malfunctions & Bugs
 - `find_path` on Route 7 (Correction): The tool is NOT bugged. My previous assessment was a hallucination. The tool correctly identifies that Route 7 is partitioned by impassable ledges and walls. The eastern and western sections are not connected on this map. The tool's 'no path found' result is accurate.
 
-# VI. Self-Correction & Hallucination Log
+# V. Self-Correction & Hallucination Log
 - Pokemon Tower 7F (Turn 191582): Incorrectly reported 131 reachable unseen tiles and that the area was not a dead end, triggering a critical system warning. The system confirmed 0 reachable unseen tiles and that it *is* a dead end. Conclusion: My manual map assessment is critically flawed. I MUST ALWAYS trust the system's validation checks over my own intuition.
 ## A. Navigational Hallucinations
 - Cerulean Cave 1F Partition (Turn 189610): Incorrectly believed I was trapped on an isolated platform at (28, 2). A system warning corrected me, revealing that another ladder at (8, 2) was reachable. Conclusion: Reinforces the absolute necessity of trusting system data over intuition.
@@ -115,44 +108,29 @@
 - Dead End Hallucination (Cerulean Cave B1F - Turn 189197): Incorrectly reported being in a dead end. Conclusion: Reinforces the absolute necessity of the `map_analyzer` tool.
 - Saffron City Warp Reachability (Turn 190629): Incorrectly reported a warp at (30, 30) as unreachable due to a moving NPC, causing a system warning. This reinforces that my manual assessment of reachability is flawed and I must rely on system data.
 - Route 7 Dead End (Turn 190623): Incorrectly assessed Route 7 as a dead end, triggering a critical system warning. I must trust the system's data that another exit exists, even if my tools and visual assessment fail to find it.
+- Cerulean Cave Entrance: Assumed the main entrance to Cerulean Gym at (5, 12) was the warp to Cerulean Cave. This is incorrect. The tile is not a warp, and the gym is a dead end. The true entrance must be found elsewhere in Cerulean City.
 ## B. Positional & Turn Count Hallucinations
 - Route 24 Arrival (Turn 188858): Hallucinated arrival coordinates. Conclusion: Must always verify position from Game State after map transitions.
 - Turn Numbers (Multiple): Hallucinated the turn number. Conclusion: Must always trust the Game State Information.
 ## C. Manual Pathing Failures
 - Pokémon Tower 6F (Turn 191168): Manually created a path plan that led directly into an impassable wall at (12, 10). Conclusion: Manual pathing is unreliable. I MUST use the `find_path` tool for all non-trivial navigation.
 
-# VII. Tool & Agent Development Ideas
+# VI. Tool & Agent Development Ideas
+## A. Active Ideas
 - `npc_pathing_assistant`: An agent or tool to handle navigation around moving NPCs. It could take start/end coordinates and a blocking sprite ID. If the path is blocked by that NPC, it could suggest using `stun_npc` at a strategic location or calculate a path that waits for the NPC to move out of the way.
-- Type Immunity: Ground-type moves (EARTHQUAKE) do not affect GASTLY (Ghost/Poison). This implies a Levitate-like ability or a major type chart change.
+- `select_menu_option_tool`: A tool that takes the output of `menu_analyzer` (which parses the screen text of a menu) and a target option string (e.g., "TITANESS"). It would then calculate and return the precise sequence of button presses (Up/Down/Left/Right) required to move the cursor from its current position to the target option. This would fully automate menu navigation, making actions like switching Pokémon much more reliable and efficient.
+- `systematic_exploration_planner` (Agent): An agent that takes `map_analyzer` output and failed hypotheses from the notepad to generate a systematic exploration plan when I'm stuck (e.g., 'All warps explored. Systematically check all NPCs next.').
+- `stuck_situation_analyzer` (Agent): To suggest non-obvious button presses (like 'B') when soft-locked in an event.
+- High-level menu automation tool: A tool that chains `menu_analyzer` and `select_menu_option` to perform multi-step actions like using an HM from the party menu.
+## B. Immediate Development Priorities (Post-Tower)
+- **`spinner_maze_solver`:** Per Overwatch critique, this is a high-priority tool to automate spinner puzzles.
+- **`npc_pathing_assistant`:** Also from the critique, this will help with navigation around moving NPCs.
 
-# VIII. Retired Agent/Tool Ideas & Test Plans
-## A. Agent/Tool Ideas
-- `emergency_switch_advisor` (Agent): Takes current battle state (active pokemon status, opponent type) and suggests the best switch-in from the party. This would automate the reasoning for critical switches like the one I'm doing now.
+# VII. Retired Agent/Tool Ideas & Test Plans
+- `emergency_switch_advisor` (Agent): Takes current battle state (active pokemon status, opponent type) and suggests the best switch-in from the party. This would automate the reasoning for critical switches.
 - `select_pokemon_from_party` (Tool): Revisit this tool. A robust version should spam 'Up' in the party menu to reach a known state (the first Pokémon), then calculate the required 'Down' presses to select a target by name. This would make switching much more reliable.
 - `spinner_maze_solver`: A tool to automatically navigate spinner tile mazes, like the one in the Rocket Hideout.
 
-# IX. Immediate Development Priorities (Post-Tower)
-- **`spinner_maze_solver`:** Per Overwatch critique, this is a high-priority tool to automate spinner puzzles.
-- **`npc_pathing_assistant`:** Also from the critique, this will help with navigation around moving NPCs.
-- Healing Item Mechanics (CRITICAL): HYPER POTIONs restore HP but do NOT cure status conditions like poison. This is a major change from the base game.
-
-# X. New Tool & Agent Ideas
-- `select_menu_option_tool`: A tool that takes the output of `menu_analyzer` (which parses the screen text of a menu) and a target option string (e.g., "TITANESS"). It would then calculate and return the precise sequence of button presses (Up/Down/Left/Right) required to move the cursor from its current position to the target option. This would fully automate menu navigation, making actions like switching Pokémon much more reliable and efficient.
-- `systematic_exploration_planner` (Agent): An agent that takes `map_analyzer` output and failed hypotheses from the notepad to generate a systematic exploration plan when I'm stuck (e.g., 'All warps explored. Systematically check all NPCs next.').
-
-# XI. Self-Assessment Log (Turn 191765)
-- **Tile Mechanics:** I need to be more proactive in testing tiles that appear impassable to confirm their properties, as this is a ROM hack with unusual rules.
-- **Untested Assumptions:**
-  - **Assumption:** Mr. Fuji is in his house in Lavender Town. **Test:** After exiting the tower, go to his house and interact with him.
-  - **Assumption:** The bugged Channeler at (15, 13) on 4F is not part of the main puzzle. **Test:** If the Lavender Town investigation fails, return to this NPC and re-evaluate.
-
-# XI. Self-Assessment Log (Turn 191816)
-- **Untested Assumption:** The warp at the Cerulean Gym entrance (5, 12) still leads to Cerulean Cave. **Test:** After arriving in Cerulean City, I will go to the gym and attempt to enter.
-## C. Navigational Hallucinations & Failed Assumptions
-- Cerulean Cave Entrance: Assumed the main entrance to Cerulean Gym at (5, 12) was the warp to Cerulean Cave. This is incorrect. The tile is not a warp, and the gym is a dead end. The true entrance must be found elsewhere in Cerulean City.
-
-# XII. Self-Assessment Log (Turn 191868)
-- **New Agent Idea:** `stuck_situation_analyzer` to suggest non-obvious button presses (like 'B') when soft-locked in an event.
-- **New Tool Idea:** A high-level menu automation tool that chains `menu_analyzer` and `select_menu_option` to perform multi-step actions like using an HM from the party menu.
-- **Untested Assumption:** The entrance to Cerulean Cave is located somewhere within Cerulean City itself. **Test:** If all leads within the city are exhausted, systematically explore all exits to surrounding routes (24, 25, 9, 5) for new paths.
-- **Untested Assumption:** Officer Jenny at (29, 13) is a permanent story block and not tied to a different, undiscovered trigger. **Test:** Re-interact with her only after making significant progress elsewhere in the city or surrounding areas.
+# VIII. Active Hypotheses & Untested Assumptions
+- **Cerulean Cave Entrance:** The entrance to Cerulean Cave is located somewhere within Cerulean City itself. Test: If all leads within the city are exhausted, systematically explore all exits to surrounding routes (24, 25, 9, 5) for new paths.
+- **Officer Jenny:** Officer Jenny at (29, 13) is a permanent story block and not tied to a different, undiscovered trigger. Test: Re-interact with her only after making significant progress elsewhere in the city or surrounding areas.
