@@ -139,3 +139,4 @@
 
 # VIII. Multi-Turn Manual Processes
 - **Using HMs (e.g., CUT):** This is a multi-turn process that cannot be automated with a single tool. The sequence is: 1. Stand adjacent to and face the target. 2. Press Start to open the menu. 3. Navigate to and select 'POKéMON'. 4. Navigate to and select the Pokémon with the HM. 5. Navigate to and select the HM move from the sub-menu. 6. Press A to use it.
+- **gym_prep_agent**: An agent that takes a gym type (e.g., 'Poison') and the contents of my PC boxes as input, then suggests an optimal team of 6 Pokémon to train and use for that gym battle. This would help automate strategic team building for major fights.
