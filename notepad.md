@@ -134,3 +134,6 @@
 ## A. Nurse Joy (Fuchsia Pokecenter)
 - KANGASKHAN (Lv 65): DOUBLE-EDGE, DOUBLE TEAM
 - SNORLAX (Lv 65): ICE BEAM, REST
+
+# IX. Agent & Tool Ideas
+- **gym_prep_agent**: An agent that takes a gym type (e.g., 'Poison') and the contents of my PC boxes as input, then suggests an optimal team of 6 Pokémon to train and use for that gym battle. This would help automate strategic team building for major fights.
