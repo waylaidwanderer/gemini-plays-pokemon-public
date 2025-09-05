@@ -52,6 +52,7 @@
 - Wild Pokémon Moves (Cerulean Cave): GOLEM can use SELFDESTRUCT and EXPLOSION. Both moves are not very effective against Rock/Ground types, as confirmed in multiple battles. SELFDESTRUCT is neutrally effective vs. Ground-types.
 - Type Immunity: Electric moves have no effect on Ground-types.
 - Poison is not very effective against Ground-types.
+- Normal-type moves do not affect Ghost-type Pokémon. (Verified: TITANESS's DOUBLE-EDGE vs. GASTLY)
 ## F. Known Pokemon Locations
 - Cerulean Cave: Ditto, Wigglytuff, Electrode, Golem, Raichu, Sandslash, Parasect, Lickitung, Magneton, Dodrio, RHYDON, VICTREEBEL, GOLBAT, KADABRA.
 - Pokémon Tower: GASTLY, CUBONE.
