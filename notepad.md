@@ -122,14 +122,11 @@
 - `systematic_exploration_planner` (Agent): An agent that takes `map_analyzer` output and failed hypotheses from the notepad to generate a systematic exploration plan when I'm stuck (e.g., 'All warps explored. Systematically check all NPCs next.').
 - `stuck_situation_analyzer` (Agent): To suggest non-obvious button presses (like 'B') when soft-locked in an event.
 - High-level menu automation tool: A tool that chains `menu_analyzer` and `select_menu_option` to perform multi-step actions like using an HM from the party menu.
-## B. Immediate Development Priorities (Post-Tower)
-- **`spinner_maze_solver`:** Per Overwatch critique, this is a high-priority tool to automate spinner puzzles.
-- **`npc_pathing_assistant`:** Also from the critique, this will help with navigation around moving NPCs.
+- `spinner_maze_solver`: A tool to automatically navigate spinner tile mazes, like the one in the Rocket Hideout.
 
 # VII. Retired Agent/Tool Ideas & Test Plans
 - `emergency_switch_advisor` (Agent): Takes current battle state (active pokemon status, opponent type) and suggests the best switch-in from the party. This would automate the reasoning for critical switches.
 - `select_pokemon_from_party` (Tool): Revisit this tool. A robust version should spam 'Up' in the party menu to reach a known state (the first Pokémon), then calculate the required 'Down' presses to select a target by name. This would make switching much more reliable.
-- `spinner_maze_solver`: A tool to automatically navigate spinner tile mazes, like the one in the Rocket Hideout.
 
 # VIII. Active Hypotheses & Untested Assumptions
 - **Cerulean Cave Entrance:** The entrance to Cerulean Cave is located somewhere within Cerulean City itself. Test: If all leads within the city are exhausted, systematically explore all exits to surrounding routes (24, 25, 9, 5) for new paths.
