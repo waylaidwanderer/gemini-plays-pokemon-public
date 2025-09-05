@@ -141,3 +141,18 @@
 - **Warden's Clue (Safari Zone):** The Warden at (3, 4) in his house mentioned a 'SECRET HOUSE' in the Safari Zone. Finding it supposedly rewards an HM, which he believes is SURF. **Contradiction:** I already possess HM03 (SURF). This needs investigation. The Safari Zone is the next logical objective.
 ## D. Tool Development Lessons
 - `use_hm_tool` Failure (Turn 192268): The tool failed because it attempted to perform a multi-stage, dynamic menu navigation task in a single script. This is impossible as tools cannot react to screen changes mid-execution. The correct approach is a sequential, multi-turn process: 1. Open Menu. 2. `menu_analyzer` + `select_menu_option` for 'POKéMON'. 3. `menu_analyzer` + `select_menu_option` for the specific Pokémon. 4. 'A' to confirm. 5. `menu_analyzer` + `select_menu_option` for the HM. 6. 'A' to use.
+
+## J. Tile Traversal & Movement Rules (Addendum)
+- `cuttable`: A tree that blocks the path. Requires the HM move CUT to pass. The player must be adjacent to and facing the tree. These trees can respawn after a certain amount of time or after changing maps.
+- `ledge`: A one-way obstacle. Can only be jumped down from the tile directly above it (Y-1). Attempting to move onto a ledge from below or the sides will fail.
+
+## K. Multi-Turn Manual Processes
+- **Using HMs (e.g., CUT):** This is a multi-turn process that cannot be automated with a single tool. The sequence is: 1. Stand adjacent to and face the target. 2. Press Start to open the menu. 3. Navigate to and select 'POKéMON'. 4. Navigate to and select the Pokémon with the HM. 5. Navigate to and select the HM move from the sub-menu. 6. Press A to use it.
+
+# X. Active Hypotheses & Untested Assumptions (New)
+- **Safari Zone Entrance:** The entrance is at (19, 4). Test: Navigate to the coordinates and attempt to enter the warp.
+- **Secret House Location:** The "SECRET HOUSE" is a discoverable, physical location within the Safari Zone map areas. Test: Systematically explore all areas of the Safari Zone.
+- **Warden's HM Clue:** The Warden's statement that the HM is SURF is a mistake, a red herring, or refers to a different version of SURF, as I already possess HM03. Test: Find the item in the Secret House and identify it.
+
+# XI. Agent & Tool Ideas (New)
+- **obstacle_handler_agent:** An agent that takes a `find_path` failure report as input. It would identify the type of obstacle (e.g., 'cuttable_tree', 'boulder') and output a structured, multi-step plan to overcome it. For example, for a tree, it would output: { "action_1": "path_to_obstacle_adjacent", "coords": [X, Y], "action_2": "use_hm", "hm_name": "CUT", "action_3": "path_to_original_destination", "coords": [A, B] }. This would automate the recovery process from common navigational blockages.

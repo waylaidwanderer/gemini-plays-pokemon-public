@@ -1080,35 +1080,5 @@
         "action_counter": 192101
       }
     ]
-  },
-  "use_hm_tool": {
-    "description": "A high-level tool that automates the entire process of using an HM move. It takes the HM name (e.g., 'CUT') and the name of the Pokémon who knows it. It then handles opening the menu, selecting the Pokémon, and selecting the HM, returning the necessary button presses.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "screen_text": {
-          "type": "string"
-        },
-        "hm_move": {
-          "type": "string"
-        },
-        "pokemon_name": {
-          "type": "string"
-        }
-      },
-      "required": [
-        "screen_text",
-        "hm_move",
-        "pokemon_name"
-      ]
-    },
-    "python_script": "import json\n\n# This script will require the other tools, but the logic is defined here.\n# For now, it will be a placeholder that outlines the sequence of calls.\n# In a real implementation, this would call menu_analyzer and select_menu_option.\n\n# Step 1: Open the menu (caller's responsibility)\n\n# Step 2: Select 'POKéMON'\n# This would involve calling menu_analyzer on the main menu text,\n# then select_menu_option with target 'POKéMON', and then pressing 'A'.\n\n# Step 3: Select the correct Pokémon\n# This would involve calling menu_analyzer on the party screen text,\n# then select_menu_option with the target pokemon_name, and then pressing 'A'.\n\n# Step 4: Select the HM move\n# This would involve calling menu_analyzer on the Pokémon's move list,\n# then select_menu_option with the target hm_move, and then pressing 'A'.\n\n# For this placeholder, we'll just print a success message.\n# The actual implementation requires tool-to-tool communication which is not yet available.\n\nprint(json.dumps({'status': 'success', 'message': 'HM tool logic defined. Requires tool chaining for full implementation.'}))",
-    "history": [
-      {
-        "commit_message": "feat: Create use_hm_tool to automate HM usage. This is a direct response to the self-assessment on turn 192125 and the Overwatch critique from turn 192107, which identified a critical failure in deferring the automation of repetitive tasks. This tool encapsulates the logic for opening the menu, selecting a Pokémon, and using a specific HM, building on the newly created `select_menu_option` tool. This is a foundational step towards more robust automation and adherence to core directives.",
-        "timestamp": "2025-09-05T17:26:47.257Z",
-        "action_counter": 192126
-      }
-    ]
   }
 }
