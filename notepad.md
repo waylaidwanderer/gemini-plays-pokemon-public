@@ -134,3 +134,4 @@
 - Lesson: I fell into a confirmation bias loop trying to interact with Pikachu at (5, 4). After multiple failures, I correctly pivoted to a new hypothesis (Pikachu must stand on the tile), which worked. Correction: I must recognize these loops faster and use my `puzzle_solver_agent` to generate new hypotheses when my own attempts fail more than twice.
 ## B. Inventory Slot Management (CRITICAL LESSON)
 - Discarding a partial stack of an item does NOT free up an inventory slot. To create space, an entire stack of an item must be discarded. My `inventory_manager` agent has been updated to reflect this.
+- **Tool/Agent Development Idea:** `npc_pathing_assistant`: An agent or tool to handle navigation around moving NPCs. It could take start/end coordinates and a blocking sprite ID. If the path is blocked by that NPC, it could suggest using `stun_npc` at a strategic location or calculate a path that waits for the NPC to move out of the way.
