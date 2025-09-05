@@ -67,6 +67,7 @@
 - Hypothesis 4 (Failed - 1 attempt): The SILPH SCOPE's effect is passive. Its presence in the inventory will automatically trigger an event by walking into the entity at (10, 16). Result: Movement was blocked. Conclusion: The item's effect is not passive in this manner.
 - Hypothesis 5 (Failed - 1 attempt): Actively use the SILPH SCOPE from the item menu while standing adjacent to the invisible entity at (10, 16). Result: The game displayed the message "This isn't the time to use that!", preventing its use. Conclusion: Actively using the SILPH SCOPE from the menu is not the solution.
 - Hypothesis 6 (Failed - 1 attempt): Register the SILPH SCOPE to the SELECT button, then press SELECT while adjacent to the entity at (10, 16). Result: The item sub-menu does not have a "REGISTER" option, only "USE", "INFO", and "TOSS". Conclusion: This method of interaction is not possible.
+- Hypothesis 7 (Failed - 1 attempt): Standing on the tile to the right of the entity (11, 16) with the SILPH SCOPE will trigger an event. Result: No event occurred. Conclusion: This tile is not the trigger.
 
 # IV. Solved Puzzles & Mechanics Reference
 ## A. Silph Co. Puzzles
@@ -146,23 +147,9 @@
 # X. Self-Assessment Insights & Future Development
 ## A. Methodological Improvements
 - Proactive Tile Testing: I have not been diligent about testing tiles that appear impassable. I must add this to my standard exploration procedure to avoid missing hidden paths, especially in a ROM hack.
-
 ## B. Untested Assumptions
 - Pokémon Tower Puzzle: I am assuming the ghost on 7F is the only way forward and that the SILPH SCOPE is the only solution. If my next hypothesis fails, I must test this by thoroughly exploring floors 5 and 6 for hidden switches or paths.
 - Mr. Fuji's Role: I am assuming Mr. Fuji is the key to solving the puzzle, but this is unverified.
-
-## C. Tool & Agent Development Ideas
-- `npc_pathing_assistant`: An agent or tool to handle navigation around moving NPCs. It could take start/end coordinates and a blocking sprite ID. If the path is blocked by that NPC, it could suggest using `stun_npc` at a strategic location or calculate a path that waits for the NPC to move out of the way.
-- Hypothesis 7 (Failed - 1 attempt): Standing on the tile to the right of the entity (11, 16) with the SILPH SCOPE will trigger an event. Result: No event occurred. Conclusion: This tile is not the trigger.
-
-# X. Self-Assessment Insights & Future Development
-## A. Methodological Improvements
-- Proactive Tile Testing: I have not been diligent about testing tiles that appear impassable. I must add this to my standard exploration procedure to avoid missing hidden paths, especially in a ROM hack.
-
-## B. Untested Assumptions
-- Pokémon Tower Puzzle: I am assuming the ghost on 7F is the only way forward and that the SILPH SCOPE is the only solution. If my next hypothesis fails, I must test this by thoroughly exploring floors 5 and 6 for hidden switches or paths.
-- Mr. Fuji's Role: I am assuming Mr. Fuji is the key to solving the puzzle, but this is unverified.
-
 ## C. Tool & Agent Development Ideas
 - `auto_battle_trivial_encounter` (Improvement): The current tool relies on a hardcoded moveset for REVENANT. A more robust version would parse the active Pokémon's moves from the screen or take them as an argument to be more flexible.
 - `npc_pathing_assistant`: An agent or tool to handle navigation around moving NPCs. It could take start/end coordinates and a blocking sprite ID. If the path is blocked by that NPC, it could suggest using `stun_npc` at a strategic location or calculate a path that waits for the NPC to move out of the way.
