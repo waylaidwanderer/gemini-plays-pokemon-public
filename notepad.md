@@ -40,7 +40,7 @@
 - Boulder Pushing: A multi-turn action. Cannot be done while surfing.
 - Dead End Definition (Correction): A map is only a dead end if it has only one exit warp/connection and no reachable unseen tiles. The nature of the destination map is irrelevant to this classification.
 - SURF vs. DIG: The move SURF will miss an opponent that is underground from using DIG.
-- Healing Zone: A tile described as a "purified, protected zone" that fully heals all Pokémon in the party's HP and restores all their PP. Found on Pokémon Tower 5F.
+- Healing Zone: A tile described as a "purified, protected zone" that fully heals all Pokémon in the party's HP and restores all their PP, including curing status conditions. Found on Pokémon Tower 5F at (12, 10). The friendly healer NPC on 6F at (13, 9) does NOT cure status conditions.
 - Respawning Obstacles: Cuttable trees respawn after a certain amount of time or after changing maps, as observed with the tree at Cerulean City (20, 29).
 - Proactive Tile Testing: I need to be diligent in testing tiles that appear impassable (like small fences or rocks) to confirm their properties, as ROM hacks can have unusual traversal rules.
 ## D. Inventory Management (CRITICAL LESSON)
@@ -70,11 +70,11 @@
 - **New Hypothesis (from puzzle_solver_agent):** The trigger for the ghost event is on a lower floor (1F-4F). Obtaining the SILPH SCOPE may have unlocked new dialogue or events in these earlier areas.
 - **Next Action:** Systematically re-explore Pokémon Tower from 1F upwards, interacting with every NPC.
 
-## B. Untested Assumptions
-- **Assumption:** The ghost on 7F is the *only* way forward.
-- **Test:** Re-explore floors 5 and 6 for alternative paths or hidden switches.
-- **Assumption:** The SILPH SCOPE is the *only* solution to the ghost problem.
-- **Test:** If re-exploration fails, I must re-evaluate my key items to see if another item has a hidden purpose.
+## B. Untested Assumptions (from Self-Assessment Turn 191202)
+- **Assumption 1:** The solution to the ghost puzzle is *inside* the Pokemon Tower.
+  - **Test:** If re-exploring floors 4F down to 1F yields no results, I must exit the tower and systematically re-explore Lavender Town, interacting with every NPC.
+- **Assumption 2:** The bugged Channeler at (15, 13) on 4F is just a bug and not part of the puzzle.
+  - **Test:** If the current re-exploration of the tower fails, I will return to this Channeler and attempt to interact again to see if the interaction loop is breakable or contains a clue.
 
 # IV. Solved Puzzles & Mechanics Reference
 ## A. Boulder Puzzle Mechanics
@@ -120,21 +120,11 @@
 ## C. Manual Pathing Failures
 - Pokémon Tower 6F (Turn 191168): Manually created a path plan that led directly into an impassable wall at (12, 10). Conclusion: Manual pathing is unreliable. I MUST use the `find_path` tool for all non-trivial navigation.
 
-# VIII. Puzzle Solving & Agent Usage
-## A. Cerulean Gym Puzzle
-- Lesson: I fell into a confirmation bias loop trying to interact with Pikachu at (5, 4). After multiple failures, I correctly pivoted to a new hypothesis (Pikachu must stand on the tile), which worked. Correction: I must recognize these loops faster and use my `puzzle_solver_agent` to generate new hypotheses when my own attempts fail more than twice.
-## B. Inventory Slot Management (CRITICAL LESSON)
-- Discarding a partial stack of an item does NOT free up an inventory slot. To create space, an entire stack of an item must be discarded. My `inventory_manager` agent has been updated to reflect this.
-
 # VII. Tool & Agent Development Ideas
 - `npc_pathing_assistant`: An agent or tool to handle navigation around moving NPCs. It could take start/end coordinates and a blocking sprite ID. If the path is blocked by that NPC, it could suggest using `stun_npc` at a strategic location or calculate a path that waits for the NPC to move out of the way.
 - Type Immunity: Ground-type moves (EARTHQUAKE) do not affect GASTLY (Ghost/Poison). This implies a Levitate-like ability or a major type chart change.
 
-# IX. New Agent/Tool Ideas & Test Plans
+# VIII. Retired Agent/Tool Ideas & Test Plans
 ## A. Agent/Tool Ideas
 - `emergency_switch_advisor` (Agent): Takes current battle state (active pokemon status, opponent type) and suggests the best switch-in from the party. This would automate the reasoning for critical switches like the one I'm doing now.
 - `select_pokemon_from_party` (Tool): Revisit this tool. A robust version should spam 'Up' in the party menu to reach a known state (the first Pokémon), then calculate the required 'Down' presses to select a target by name. This would make switching much more reliable.
-## B. Test Plans
-- **Hypothesis:** The friendly healer on Pokémon Tower 6F cures status conditions in addition to HP/PP.
-- **Test:** After the current battle, take the poisoned REVENANT to the healer at (13, 9). Check REVENANT's status after the interaction.
-- **Conclusion:** The friendly healer NPC on 6F at (13, 9) does NOT cure status conditions. However, the special 'purified zone' tile on 5F at (12, 10) DOES cure status conditions, as it cured REVENANT's poison.
