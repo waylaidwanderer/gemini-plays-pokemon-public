@@ -25,15 +25,20 @@
 - `💖 Healing Zone`: For tiles that provide party healing.
 
 ## B. Tile Traversal & Movement Rules
-- **`ground`**: Standard walkable tile.
-- **`impassable`**: Walls, counters, etc. Cannot be entered.
-- **`water`**: Crossable using HM Surf.
-- **`cuttable`**: Tree that can be cut with HM Cut.
-- **`ledge`**: Can be jumped down from above, but not climbed up.
 - **`elevated_ground` & `steps`:** Movement between `ground` and `elevated_ground` is only possible via a `steps` tile.
 - **Ladders & Elevation:** Movement between a `ladder_up`/`ladder_down` tile and an adjacent `elevated_ground` tile is possible.
 - **FLY HM:** Cannot be used indoors or in caves to escape.
 - **SURF HM:** Requires a conscious (non-fainted) Pokémon that knows Surf to be used in the overworld.
+
+## D. Agent & Tool Ideas from Self-Assessment (Turn 190585)
+- **`Retreat Strategist` Agent:** An agent that could orchestrate a multi-step retreat from a complex area (like a dungeon) to a safe location (like a Pokémon Center). It would generate a high-level plan involving a sequence of pathfinding, map transitions, and marker updates.
+- **`auto_battle_trivial_encounter` Tool (Detailed Plan):** This tool would automate battles against low-level wild Pokémon. 
+  - **Input:** A single move name (e.g., 'EARTHQUAKE'). 
+  - **Process:** 
+    1. Parse the battle menu to find the 'FIGHT' option and press 'A'. 
+    2. Parse the move menu to find the target move and press 'A'. 
+    3. Automatically press 'A' to clear all post-battle text boxes ('super effective', 'fainted', 'gained EXP', etc.) until the overworld is visible again. 
+  - **Benefit:** This would consolidate a 3-4 turn manual process into a single, reliable tool call, drastically improving efficiency when navigating areas with frequent, non-threatening wild encounters.
 
 ## C. Special Mechanics & Discoveries
 - **Menu Input Blocking (CRITICAL):** Facing an impassable tile blocks that directional input in menus. This makes any menu navigation tool that relies on fixed directional inputs fundamentally unreliable unless the player is in an open space.
