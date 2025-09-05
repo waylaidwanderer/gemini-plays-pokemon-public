@@ -117,30 +117,9 @@
 ## C. Manual Pathing Failures
 - Pokémon Tower 6F (Turn 191168): Manually created a path plan that led directly into an impassable wall at (12, 10). Conclusion: Manual pathing is unreliable. I MUST use the `find_path` tool for all non-trivial navigation.
 
-# VI. Tool & Agent Development Ideas
-## A. Active Ideas
-- `npc_pathing_assistant`: An agent or tool to handle navigation around moving NPCs. It could take start/end coordinates and a blocking sprite ID. If the path is blocked by that NPC, it could suggest using `stun_npc` at a strategic location or calculate a path that waits for the NPC to move out of the way.
-
-- `use_hm_tool`: A high-level tool that takes an HM name (e.g., 'SURF') as input. It would internally open the menu, use `menu_analyzer` and `select_menu_option` to find the correct Pokémon and select the HM. This would automate the entire HM usage process, making it much more reliable and efficient.
-- `systematic_exploration_planner` (Agent): An agent that takes `map_analyzer` output and failed hypotheses from the notepad to generate a systematic exploration plan when I'm stuck (e.g., 'All warps explored. Systematically check all NPCs next.').
-- `stuck_situation_analyzer` (Agent): To suggest non-obvious button presses (like 'B') when soft-locked in an event.
-- `spinner_maze_solver`: A tool to automatically navigate spinner tile mazes, like the one in the Rocket Hideout.
-- `complex_obstacle_navigator` (Agent): Takes map layout and generates a multi-step navigation plan around complex static obstacles, breaking the problem down into smaller `find_path` calls.
-- `trainer_recon` (Agent): Takes `Map Sprites` and `relevant_map_markers` to produce a list of un-defeated trainers to prioritize.
-
-# VII. Retired Agent/Tool Ideas & Test Plans
-- `emergency_switch_advisor` (Agent): Takes current battle state (active pokemon status, opponent type) and suggests the best switch-in from the party. This would automate the reasoning for critical switches.
-- `select_pokemon_from_party` (Tool): Revisit this tool. A robust version should spam 'Up' in the party menu to reach a known state (the first Pokémon), then calculate the required 'Down' presses to select a target by name. This would make switching much more reliable.
-
-# VIII. Active Hypotheses & Untested Assumptions
+# VI. Active Hypotheses & Untested Assumptions
 - **Cerulean Cave Entrance:** The entrance to Cerulean Cave is located somewhere within Cerulean City itself. Test: If all leads within the city are exhausted, systematically explore all exits to surrounding routes (24, 25, 9, 5) for new paths.
 - **Officer Jenny:** Officer Jenny at (29, 13) is a permanent story block and not tied to a different, undiscovered trigger. Test: Re-interact with her only after making significant progress elsewhere in the city or surrounding areas.
 
-# IX. Immediate Tasks (from Overwatch Critique)
-- **Task 1: Correct Map Markers (Route 12)**
-  - **A. Super Nerd at (15, 77):** Marker is contradictory ('Defeated' and 'Non-battling'). Plan: Navigate to NPC, re-interact to confirm status, then delete the incorrect marker.
-  - **B. Route 11 Connection at (1, 63):** Markers are redundant. Plan: After resolving the Super Nerd issue, delete one of the markers to improve clarity.
-
-# X. Critical Failures & Corrections Log
-## A. Navigational Hallucinations
+# VII. Critical Failures & Corrections Log
 - **Route 14 Unseen Tiles (Turn 192124 - CRITICAL):** Received a system warning that I hallucinated 45 reachable unseen tiles on Route 14 when there were 0. This indicates a severe flaw in my map assessment process or a bug in my `map_analyzer` tool. Discarding all current navigation plans for this route. Immediate priority is to re-run `map_analyzer` to diagnose the source of the error. All exploration is on hold until this is resolved.
