@@ -116,6 +116,8 @@
 ## B. Positional & Turn Count Hallucinations
 - Route 24 Arrival (Turn 188858): Hallucinated arrival coordinates. Conclusion: Must always verify position from Game State after map transitions.
 - Turn Numbers (Multiple): Hallucinated the turn number. Conclusion: Must always trust the Game State Information.
+## C. Manual Pathing Failures
+- Pokémon Tower 6F (Turn 191168): Manually created a path plan that led directly into an impassable wall at (12, 10). Conclusion: Manual pathing is unreliable. I MUST use the `find_path` tool for all non-trivial navigation.
 
 # VIII. Puzzle Solving & Agent Usage
 ## A. Cerulean Gym Puzzle
