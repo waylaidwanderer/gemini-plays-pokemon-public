@@ -148,3 +148,5 @@
 
 # XI. Self-Assessment Log (Turn 191816)
 - **Untested Assumption:** The warp at the Cerulean Gym entrance (5, 12) still leads to Cerulean Cave. **Test:** After arriving in Cerulean City, I will go to the gym and attempt to enter.
+## C. Navigational Hallucinations & Failed Assumptions
+- Cerulean Cave Entrance: Assumed the main entrance to Cerulean Gym at (5, 12) was the warp to Cerulean Cave. This is incorrect. The tile is not a warp, and the gym is a dead end. The true entrance must be found elsewhere in Cerulean City.
