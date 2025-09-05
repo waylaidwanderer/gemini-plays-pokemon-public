@@ -65,10 +65,10 @@
 
 # III. Active Puzzles & Navigation Strategy
 ## A. Pokémon Tower 7F (Ghost Puzzle)
-- **Current Status:** All attempts to interact with the ghost on 7F using the SILPH SCOPE or other items have failed. Speaking to Mr. Fuji resulted in a dialogue loop about his POKé FLUTE, providing no new information. This path is a dead end.
-- **Current Status:** All attempts on floors 5-7 have failed. The puzzle solution is likely not in the immediate vicinity of the ghost.
-- **New Hypothesis (from puzzle_solver_agent):** The trigger for the ghost event is on a lower floor (1F-4F). Obtaining the SILPH SCOPE may have unlocked new dialogue or events in these earlier areas.
-- **Next Action:** Systematically re-explore Pokémon Tower from 1F upwards, interacting with every NPC.
+- **Current Status:** Blocked by a ghost on 7F. The standard SILPH SCOPE interaction failed.
+- **Hypothesis (from puzzle_solver_agent):** The trigger for the ghost event is on a lower floor, unlocked by obtaining the SILPH SCOPE.
+- **Discovery (Confirmed):** The Channeler on 2F at (4, 8) has new dialogue after obtaining the SILPH SCOPE, explicitly mentioning it can unmask GHOSTs. This confirms the agent's hypothesis.
+- **Next Action:** Continue re-exploring the tower from 2F down to 1F, checking all NPCs for new dialogue.
 
 ## B. Untested Assumptions (from Self-Assessment Turn 191202)
 - **Assumption 1:** The solution to the ghost puzzle is *inside* the Pokemon Tower.
