@@ -135,3 +135,8 @@
 # VIII. Active Hypotheses & Untested Assumptions
 - **Cerulean Cave Entrance:** The entrance to Cerulean Cave is located somewhere within Cerulean City itself. Test: If all leads within the city are exhausted, systematically explore all exits to surrounding routes (24, 25, 9, 5) for new paths.
 - **Officer Jenny:** Officer Jenny at (29, 13) is a permanent story block and not tied to a different, undiscovered trigger. Test: Re-interact with her only after making significant progress elsewhere in the city or surrounding areas.
+
+# IX. Immediate Tasks (from Overwatch Critique)
+- **Task 1: Correct Map Markers (Route 12)**
+  - **A. Super Nerd at (15, 77):** Marker is contradictory ('Defeated' and 'Non-battling'). Plan: Navigate to NPC, re-interact to confirm status, then delete the incorrect marker.
+  - **B. Route 11 Connection at (1, 63):** Markers are redundant. Plan: After resolving the Super Nerd issue, delete one of the markers to improve clarity.
