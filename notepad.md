@@ -73,9 +73,7 @@
 - **Test:** If re-exploration fails, I must re-evaluate my key items to see if another item has a hidden purpose.
 
 # IV. Solved Puzzles & Mechanics Reference
-## A. Silph Co. Puzzles
-- Gate Mechanic: Standing adjacent to a closed gate and pressing 'A' automatically uses the CARD KEY to open it.
-- Elevator: A two-step process. First, interact with the control panel to select a floor. Second, walk onto a warp pad and press 'Down' to travel.
+
 ## B. Snorlax Puzzle (Route 12)
 - The item menu is a single, scrollable list. After selecting 'ITEM' from the main menu, scroll down past the HMs (indicated by a '↓' arrow) to find Key Items like the POKé FLUTE. Using it from this menu wakes the Snorlax.
 ## C. Boulder Puzzle Mechanics
