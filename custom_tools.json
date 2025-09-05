@@ -975,12 +975,17 @@
         "screen_text"
       ]
     },
-    "python_script": "import json\nimport re\n\n# injected variables: map_xml_string, input_data\nscreen_text = input_data['screen_text']\nlines = screen_text.strip().split('\\n')\n\ncursor_char = '→'\nmenu_options = []\ncursor_position = None\n\n# Simple single-column or 2x2 grid parser\nfor i, line in enumerate(lines):\n    if cursor_char in line:\n        # Find all potential options in the line\n        # This regex finds words that are not LV, TYPE/, or numbers\n        potential_options = [opt for opt in re.split(r'\\s{2,}|\\s*→\\s*', line) if opt and not opt.isdigit() and 'LV' not in opt and 'TYPE/' not in opt]\n        \n        for j, option in enumerate(potential_options):\n            if cursor_char in line and option in line.replace(cursor_char, ''):\n                 # Crude position detection\n                cursor_position = {'line': i, 'option_index_in_line': j, 'option_text': option.strip()}\n            menu_options.append(option.strip())\n    else:\n        # Also parse lines without cursor to get all options\n        potential_options = [opt for opt in re.split(r'\\s{2,}', line) if opt and not opt.isdigit() and 'LV' not in opt and 'TYPE/' not in opt]\n        for option in potential_options:\n            menu_options.append(option.strip())\n\n# Deduplicate while preserving order\nseen = set()\nmenu_options = [x for x in menu_options if not (x in seen or seen.add(x))]\n\nresult = {\n    'menu_options': menu_options,\n    'cursor_position_details': cursor_position,\n    'cursor_on_option': cursor_position['option_text'] if cursor_position else None\n}\n\nprint(json.dumps(result))",
+    "python_script": "import json\nimport re\n\nscreen_text = input_data['screen_text']\nlines = screen_text.strip().split('\\n')\n\noptions = []\ncursor_position = None\nlayout = 'single_column' # Default assumption\n\n# Party menu check\nif 'Choose a POKéMON.' in screen_text:\n    pokemon_names = []\n    cursor_index = -1\n    for i, line in enumerate(lines):\n        # Pokémon names are typically at the start of a line, not indented\n        match = re.match(r'^([A-Z]+)', line.strip())\n        if match:\n            pokemon_names.append(match.group(1))\n        # The cursor line is indented and starts with '→'\n        if line.strip().startswith('→'):\n            # The cursor points to the Pokémon on the previous line\n            cursor_index = len(pokemon_names) - 1\n    \n    options = pokemon_names\n    if cursor_index != -1:\n        cursor_position = options[cursor_index]\n# General menu parsing\nelse:\n    cursor_char = '→'\n    # Simple 2x2 grid check (like the main battle menu)\n    if len(lines) > 1 and '→' in lines[0] and len(re.findall(r'\\b[A-Z]+\\b', lines[0])) > 1:\n        layout = '2x2_grid'\n    \n    all_options_flat = []\n    cursor_line_index = -1\n    for i, line in enumerate(lines):\n        line_options = [opt.strip() for opt in re.split(r'\\s{2,}', line.strip().replace(cursor_char, '')) if opt]\n        all_options_flat.extend(line_options)\n        if cursor_char in line:\n            cursor_line_index = i\n\n    options = all_options_flat\n    # Find what the cursor is on\n    if cursor_line_index != -1:\n        line_with_cursor = lines[cursor_line_index]\n        # This is a simplification; assumes first option on the line is selected if cursor is present\n        cursor_position = [opt.strip() for opt in re.split(r'\\s{2,}', line_with_cursor.strip().replace(cursor_char, '')) if opt][0]\n\n# Final cleanup to remove duplicates\nseen = set()\noptions = [x for x in options if not (x in seen or seen.add(x))]\nif 'Choose' in options: options.remove('Choose')\nif 'a' in options: options.remove('a')\nif 'POKéMON.' in options: options.remove('POKéMON.')\n\n\nresult = {\n    'options': options,\n    'cursor_position': cursor_position,\n    'layout': layout\n}\n\nprint(json.dumps(result))",
     "history": [
       {
         "commit_message": "feat: Create initial version of menu_analyzer. This tool is a direct response to repeated, critical failures in both manual and automated menu navigation. It provides a foundational capability to parse screen text to determine available menu options and the current cursor position. This is the first and most critical step towards building a reliable, environment-aware menu automation system, addressing a major strategic weakness identified by both self-assessment and Overwatch.",
         "timestamp": "2025-09-04T04:29:26.124Z",
         "action_counter": 188572
+      },
+      {
+        "commit_message": "fix: Improve party menu parsing. The previous regex-based approach failed to correctly identify the selected Pokémon in the multi-line party menu. This commit adds specific logic to detect the party menu screen and correctly associates the cursor on one line with the Pokémon name on the preceding line. This is a critical fix to enable the new `select_menu_option` tool to function correctly.",
+        "timestamp": "2025-09-05T13:06:17.314Z",
+        "action_counter": 191656
       }
     ]
   },
@@ -1015,47 +1020,6 @@
       }
     ]
   },
-  "auto_battle_trivial_encounter": {
-    "description": "Fully automates a trivial wild Pokémon battle from the main battle menu. Selects FIGHT, chooses the move at the specified index (0-3), and advances text to end the battle. Should only be used for guaranteed one-hit KOs.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "target_move_index": {
-          "type": "string"
-        },
-        "active_pokemon_name": {
-          "type": "string"
-        }
-      },
-      "required": [
-        "target_move_index",
-        "active_pokemon_name"
-      ]
-    },
-    "python_script": "import json\ntry:\n    target_index = int(input_data['target_move_index'])\n    if not (0 <= target_index <= 3):\n        raise ValueError(\"Index must be between 0 and 3\")\n    \n    buttons = ['A'] # Select FIGHT\n    buttons.extend(['Down'] * target_index)\n    buttons.append('A') # Select move\n    buttons.extend(['A'] * 10) # Advance text\n    \n    print(json.dumps(buttons))\nexcept Exception as e:\n    print(json.dumps({\"error\": str(e)}))",
-    "history": [
-      {
-        "commit_message": "feat: Create auto_battle_trivial_encounter tool. This is a direct response to the mandatory self-assessment identifying repetitive manual actions in the Pokémon Tower. This tool automates the entire process of a trivial battle, from selecting FIGHT to choosing a move from a known moveset and advancing text, significantly improving efficiency.",
-        "timestamp": "2025-09-05T04:27:50.379Z",
-        "action_counter": 190843
-      },
-      {
-        "commit_message": "fix: Address critical flaw in tool execution. This redefinition is in direct response to an Overwatch critique highlighting that the tool's output was not being automatically executed. This action prioritizes immediate tool maintenance and adherence to core directives over gameplay progression, as mandated.",
-        "timestamp": "2025-09-05T04:32:07.566Z",
-        "action_counter": 190851
-      },
-      {
-        "commit_message": "refactor: Generalize tool by parameterizing move and Pokémon. The previous version hardcoded 'REVENANT' and 'EARTHQUAKE', making it inflexible. This commit modifies the tool to accept `target_move` and `active_pokemon_name` as arguments. This directly addresses a key finding from my self-assessment and an Overwatch critique, making the tool reusable for any Pokémon in any trivial battle, thus improving automation efficiency.",
-        "timestamp": "2025-09-05T06:51:16.342Z",
-        "action_counter": 191098
-      },
-      {
-        "commit_message": "refactor: Change tool to use move index instead of name. The previous version used a hardcoded number of 'Down' presses which was unreliable as it depended on a specific moveset order. This new version takes a `target_move_index` (0-3) as input, making it flexible for any Pokémon while remaining simple and robust. This directly addresses the tool failure in the last battle.",
-        "timestamp": "2025-09-05T08:21:42.293Z",
-        "action_counter": 191185
-      }
-    ]
-  },
   "spinner_maze_solver": {
     "description": "Calculates the path through a spinner maze. It takes start and end coordinates and returns the initial button press required to start the correct spinner sequence.",
     "input_schema": {
@@ -1087,6 +1051,32 @@
         "commit_message": "feat: Create spinner_maze_solver tool. This is a direct response to a critical Overwatch critique regarding tool procrastination. This tool provides a foundational capability to automate spinner maze puzzles by simulating paths from adjacent spinner tiles to a target destination.",
         "timestamp": "2025-09-05T10:35:18.187Z",
         "action_counter": 191403
+      }
+    ]
+  },
+  "select_menu_option": {
+    "description": "Takes the output of `menu_analyzer` and a target option string (e.g., a Pokémon's name) and calculates the precise sequence of button presses (Up/Down/Left/Right) required to move the cursor from its current position to the target option. This automates menu navigation.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "menu_analyzer_output": {
+          "type": "string"
+        },
+        "target_option": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "menu_analyzer_output",
+        "target_option"
+      ]
+    },
+    "python_script": "import json\n\nmenu_data = json.loads(input_data['menu_analyzer_output'])\ntarget_option = input_data['target_option']\n\noptions = menu_data['options']\nlayout = menu_data['layout']\ncursor_pos_str = menu_data['cursor_position']\n\nif target_option not in options:\n    print(json.dumps({'error': f'Target option \"{target_option}\" not found in menu options.'}))\n    exit()\n\ncurrent_index = options.index(cursor_pos_str)\ntarget_index = options.index(target_option)\n\nbuttons = []\nif layout == 'single_column':\n    diff = target_index - current_index\n    if diff > 0:\n        buttons.extend(['Down'] * diff)\n    elif diff < 0:\n        buttons.extend(['Up'] * abs(diff))\nelif layout == '2x2_grid':\n    # Assuming options are [top-left, top-right, bottom-left, bottom-right]\n    rows = {0: 0, 1: 0, 2: 1, 3: 1}\n    cols = {0: 0, 1: 1, 2: 0, 3: 1}\n    \n    current_row, current_col = rows[current_index], cols[current_index]\n    target_row, target_col = rows[target_index], cols[target_index]\n\n    row_diff = target_row - current_row\n    col_diff = target_col - current_col\n\n    if row_diff > 0: buttons.append('Down')\n    elif row_diff < 0: buttons.append('Up')\n\n    if col_diff > 0: buttons.append('Right')\n    elif col_diff < 0: buttons.append('Left')\n\nprint(json.dumps(buttons))",
+    "history": [
+      {
+        "commit_message": "feat: Create select_menu_option tool to automate menu navigation. This is a direct response to a critical Overwatch critique highlighting repeated failures in manual menu selection. This tool will take parsed menu data and a target string to calculate the necessary button presses, making actions like switching Pokémon reliable and efficient. This is a foundational step towards robust automation.",
+        "timestamp": "2025-09-05T13:04:30.935Z",
+        "action_counter": 191653
       }
     ]
   }

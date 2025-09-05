@@ -138,3 +138,4 @@
 
 # X. New Tool & Agent Ideas
 - `select_menu_option_tool`: A tool that takes the output of `menu_analyzer` (which parses the screen text of a menu) and a target option string (e.g., "TITANESS"). It would then calculate and return the precise sequence of button presses (Up/Down/Left/Right) required to move the cursor from its current position to the target option. This would fully automate menu navigation, making actions like switching Pokémon much more reliable and efficient.
+- `systematic_exploration_planner` (Agent): An agent that takes `map_analyzer` output and failed hypotheses from the notepad to generate a systematic exploration plan when I'm stuck (e.g., 'All warps explored. Systematically check all NPCs next.').
