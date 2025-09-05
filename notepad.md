@@ -100,7 +100,7 @@
 - Sequential Tool Call Failure: Calling multiple menu-altering tools in the same turn is unreliable. Only one should be called per turn.
 - Decoy Entrances: Be wary of entrances that lead to isolated areas (e.g., Cerulean Cave's fake entrance).
 ## C. Tool Malfunctions & Bugs
-- `find_path` Failure (Route 7): The tool is currently bugged on Route 7 (ID 18). It incorrectly reports paths as blocked by impassable tiles when they are clear (e.g., path from (20, 10) to the grassy area). Manual navigation is required on this map until the tool can be debugged and fixed.
+- `find_path` on Route 7 (Correction): The tool is NOT bugged. My previous assessment was a hallucination. The tool correctly identifies that Route 7 is partitioned by impassable ledges and walls. The eastern and western sections are not connected on this map. The tool's 'no path found' result is accurate.
 ## D. Untested Assumptions & Future Development
 - Mewtwo's Location: While Cerulean Cave is the strongest lead, it is not 100% confirmed to be Mewtwo's only possible location. I must remain open to other possibilities if the cave does not yield results.
 - Fly Menu Order: I have been assuming the list of flyable locations is in a fixed, static order. I need to test if this order can change based on my current location or other factors.
