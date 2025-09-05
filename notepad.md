@@ -156,3 +156,6 @@
 
 # XI. Agent & Tool Ideas (New)
 - **obstacle_handler_agent:** An agent that takes a `find_path` failure report as input. It would identify the type of obstacle (e.g., 'cuttable_tree', 'boulder') and output a structured, multi-step plan to overcome it. For example, for a tree, it would output: { "action_1": "path_to_obstacle_adjacent", "coords": [X, Y], "action_2": "use_hm", "hm_name": "CUT", "action_3": "path_to_original_destination", "coords": [A, B] }. This would automate the recovery process from common navigational blockages.
+
+# XII. Agent & Tool Ideas (New)
+- **select_safari_option_tool**: The `select_battle_option` tool does not work in the Safari Zone because the menu is different ('BALL', 'BAIT', 'ROCK', 'RUN'). A new tool is needed to parse this specific 2x2 grid and select the correct option to automate Safari Zone encounters.
