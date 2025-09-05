@@ -51,6 +51,7 @@
 ## E. Type Effectiveness & Insights
 - Electric is not very effective against Electric-types.
 - Electric is not very effective against Grass/Poison dual-types.
+- Electric is not very effective against Bug/Grass dual-types. (Verified: SPARKY's THUNDERBOLT vs PARAS)
 - Wild Pokémon Speed (Cerulean Cave): Wild Pokémon are deceptively fast.
 - Wild Pokémon Moves (Cerulean Cave): GOLEM can use SELFDESTRUCT and EXPLOSION. Both moves are not very effective against Rock/Ground types, as confirmed in multiple battles. SELFDESTRUCT is neutrally effective vs. Ground-types.
 - Type Immunity: Electric moves have no effect on Ground-types.
