@@ -95,6 +95,7 @@
 # IV. Agent & Tool Development
 ## A. Agent & Tool Ideas
 - **gym_prep_agent**: An agent that takes a gym type (e.g., 'Poison') and the contents of my PC boxes as input, then suggests an optimal team of 6 Pokémon to train and use for that gym battle. This would help automate strategic team building for major fights.
+- **puzzle_documentation_agent**: An agent that takes a summary of a solved puzzle and formats it for the notepad, ensuring consistency.
 
 ## B. Retired Concepts & Tools
 - `use_hm_from_party`, `switch_pokemon_navigator`, `menu_navigator`, `use_hm_tool`: These tools are retired due to fundamental flaws related to non-deterministic menu cursor positions and the 'Menu Input Blocking' mechanic. They serve as a critical lesson that menu automation requires environment-aware parsing (`menu_analyzer`) and targeted selection (`select_menu_option`), not blind input sequences.
@@ -103,6 +104,7 @@
 - **Menu Cursor Behavior (Critical Lesson):** Menu cursor starting positions are non-deterministic. Tools must force a known state (e.g., by spamming 'Up') rather than assuming a start position.
 ## D. Tool Malfunctions & Bugs
 - **`find_path` & `map_analyzer` (Safari Zone Center - CRITICAL):** Both tools are currently bugged and cannot correctly parse the partitioned layout of the Safari Zone Center map. They fail to find paths to reachable areas confirmed by system data. IMMEDIATE PRIORITY: Fix these tools before proceeding with any exploration.
+- **`find_path` (Mt. Moon B2F - CRITICAL):** The tool failed to find a clear, valid path on this map (Turn 192731) despite the game state confirming the destination was reachable. This indicates a persistent, critical bug in the BFS or map parsing logic that was not resolved by the previous fix. Further debugging is the highest priority.
 
 # V. Self-Correction & Hallucination Log
 - Pokemon Tower 7F (Turn 191582): Incorrectly reported 131 reachable unseen tiles and that the area was not a dead end, triggering a critical system warning. The system confirmed 0 reachable unseen tiles and that it *is* a dead end. Conclusion: My manual map assessment is critically flawed. I MUST ALWAYS trust the system's validation checks over my own intuition.
@@ -136,9 +138,3 @@
 - **Officer Jenny:** Officer Jenny at (29, 13) is a permanent story block and not tied to a different, undiscovered trigger. Test: Re-interact with her only after making significant progress elsewhere in the city or surrounding areas.
 - **Safari Zone Entrance:** The entrance is at (19, 4). Test: Navigate to the coordinates and attempt to enter the warp.
 - **Secret House Location:** The "SECRET HOUSE" is a discoverable, physical location within the Safari Zone map areas. Test: Systematically explore all areas of the Safari Zone.
-
-# VIII. Multi-Turn Manual Processes
-- **Using HMs (e.g., CUT):** This is a multi-turn process that cannot be automated with a single tool. The sequence is: 1. Stand adjacent to and face the target. 2. Press Start to open the menu. 3. Navigate to and select 'POKéMON'. 4. Navigate to and select the Pokémon with the HM. 5. Navigate to and select the HM move from the sub-menu. 6. Press A to use it.
-- **puzzle_documentation_agent**: An agent that takes a summary of a solved puzzle and formats it for the notepad, ensuring consistency.
-- **`find_path` (Mt. Moon B2F - CRITICAL):** The tool failed to find a clear, valid path on this map (Turn 192731) despite the game state confirming the destination was reachable. This indicates a persistent, critical bug in the BFS or map parsing logic that was not resolved by the previous fix. Further debugging is the highest priority.
-- **`find_path` (Mt. Moon B2F - CRITICAL):** The tool failed to find a clear, valid path on this map (Turn 192731) despite the game state confirming the destination was reachable. This indicates a persistent, critical bug in the BFS or map parsing logic that was not resolved by the previous fix. Further debugging is the highest priority.
