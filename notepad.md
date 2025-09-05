@@ -140,3 +140,6 @@
 # VIII. Multi-Turn Manual Processes
 - **Using HMs (e.g., CUT):** This is a multi-turn process that cannot be automated with a single tool. The sequence is: 1. Stand adjacent to and face the target. 2. Press Start to open the menu. 3. Navigate to and select 'POKéMON'. 4. Navigate to and select the Pokémon with the HM. 5. Navigate to and select the HM move from the sub-menu. 6. Press A to use it.
 - **puzzle_documentation_agent**: An agent that takes a summary of a solved puzzle and formats it for the notepad, ensuring consistency.
+## C. Special Mechanics & Discoveries (Self-Assessment Additions)
+- Proactive Tile Testing: I need to be more diligent in testing tiles that appear impassable (like small fences or rocks) to confirm their properties, as ROM hacks can have unusual traversal rules.
+- Confirmation Bias (Mt. Moon): I must avoid fixating on the Rocket Grunt's location as the only possible place to find the fossil on B2F. I will systematically explore the entire accessible area of the floor once I reach it.
