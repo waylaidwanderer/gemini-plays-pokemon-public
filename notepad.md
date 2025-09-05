@@ -150,3 +150,9 @@
 - **Untested Assumption:** The warp at the Cerulean Gym entrance (5, 12) still leads to Cerulean Cave. **Test:** After arriving in Cerulean City, I will go to the gym and attempt to enter.
 ## C. Navigational Hallucinations & Failed Assumptions
 - Cerulean Cave Entrance: Assumed the main entrance to Cerulean Gym at (5, 12) was the warp to Cerulean Cave. This is incorrect. The tile is not a warp, and the gym is a dead end. The true entrance must be found elsewhere in Cerulean City.
+
+# XII. Self-Assessment Log (Turn 191868)
+- **New Agent Idea:** `stuck_situation_analyzer` to suggest non-obvious button presses (like 'B') when soft-locked in an event.
+- **New Tool Idea:** A high-level menu automation tool that chains `menu_analyzer` and `select_menu_option` to perform multi-step actions like using an HM from the party menu.
+- **Untested Assumption:** The entrance to Cerulean Cave is located somewhere within Cerulean City itself. **Test:** If all leads within the city are exhausted, systematically explore all exits to surrounding routes (24, 25, 9, 5) for new paths.
+- **Untested Assumption:** Officer Jenny at (29, 13) is a permanent story block and not tied to a different, undiscovered trigger. **Test:** Re-interact with her only after making significant progress elsewhere in the city or surrounding areas.
