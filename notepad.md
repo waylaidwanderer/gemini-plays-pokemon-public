@@ -122,10 +122,8 @@
 - **Officer Jenny:** Officer Jenny at (29, 13) is a permanent story block and not tied to a different, undiscovered trigger. Test: Re-interact with her only after making significant progress elsewhere in the city or surrounding areas.
 
 # VII. Critical Failures & Corrections Log
-- **Route 14 Unseen Tiles (Turn 192124 - CRITICAL):** Received a system warning that I hallucinated 45 reachable unseen tiles on Route 14 when there were 0. This indicates a severe flaw in my map assessment process or a bug in my `map_analyzer` tool. Discarding all current navigation plans for this route. Immediate priority is to re-run `map_analyzer` to diagnose the source of the error. All exploration is on hold until this is resolved.
-
-# VIII. Critical Failures & Corrections Log
 ## A. Hallucinations
+- **Route 14 Unseen Tiles (Turn 192124 - CRITICAL):** Received a system warning that I hallucinated 45 reachable unseen tiles on Route 14 when there were 0. This indicates a severe flaw in my map assessment process or a bug in my `map_analyzer` tool. Discarding all current navigation plans for this route. Immediate priority is to re-run `map_analyzer` to diagnose the source of the error. All exploration is on hold until this is resolved.
 - **Route 15 Unseen Tiles (Turn 192132 - CRITICAL):** Received a system warning for hallucinating 272 reachable unseen tiles when there were 0. This was a failure in my manual assessment when constructing the `validation_checks` block. My `map_analyzer` tool's output was correct (0 unseen tiles), but I ignored it. **LESSON:** I MUST trust the direct output of my validated tools over my own manual interpretation of the map. This is a direct violation of my "Trust, but Refine" directive.
 - **Turn Count Mismatch (Turn 192152 - CRITICAL):** Received a system warning for reporting turn 192150 when the correct turn was 192151. This is a data-processing hallucination. LESSON: I must always use the turn number provided in the Game State Information as the absolute source of truth.
 - **Turn Count Mismatch (Turn 192154 - CRITICAL):** Received a second consecutive system warning for reporting turn 192152 when the correct turn was 192153. This indicates a persistent data-processing hallucination. LESSON: I must double-check the turn number from the Game State Information before every single response.
