@@ -142,3 +142,14 @@
 - **Marker Usage Failure (Turn 190751):** I wasted a turn trying to interact with a Fisher on Route 12 that I had *already marked* as a non-battler. This is a failure to use my own documented data. I MUST check map markers for a target tile before planning an interaction.
 - **Proactive Tile Testing:** I have not been diligent about testing tiles that appear impassable, like fences. I need to add this to my standard exploration procedure to avoid missing hidden paths in this ROM hack.
 - **Untested Assumption:** The hypothesis that the Underground Path connects Route 7 and Route 8 remains untested. I will keep this in mind as a potential alternate route if my current path is blocked.
+
+# X. Self-Assessment Insights & Future Development
+## A. Methodological Improvements
+- Proactive Tile Testing: I have not been diligent about testing tiles that appear impassable. I must add this to my standard exploration procedure to avoid missing hidden paths, especially in a ROM hack.
+
+## B. Untested Assumptions
+- Pokémon Tower Puzzle: I am assuming the ghost on 7F is the only way forward and that the SILPH SCOPE is the only solution. If my next hypothesis fails, I must test this by thoroughly exploring floors 5 and 6 for hidden switches or paths.
+- Mr. Fuji's Role: I am assuming Mr. Fuji is the key to solving the puzzle, but this is unverified.
+
+## C. Tool & Agent Development Ideas
+- `npc_pathing_assistant`: An agent or tool to handle navigation around moving NPCs. It could take start/end coordinates and a blocking sprite ID. If the path is blocked by that NPC, it could suggest using `stun_npc` at a strategic location or calculate a path that waits for the NPC to move out of the way.
