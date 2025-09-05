@@ -173,3 +173,6 @@
 ## C. Methodological Improvements
 - **Proactive Tile Testing:** I need to be more diligent in testing tiles that appear impassable (like small fences or rocks) to confirm their properties, as ROM hacks can have unusual traversal rules.
 - **Hypothesis Falsification:** A key part of the scientific method is trying to prove a hypothesis wrong. After a test seems to confirm a hypothesis, I should perform another test that tries to *disprove* it to avoid confirmation bias.
+
+## B. Tool Development Ideas (Additions)
+- **`register_item_to_select`**: A tool to automate registering a key item to the SELECT button. This would involve parsing the item menu, selecting the item, and choosing the 'REGISTER' option. This would be useful if this becomes a recurring puzzle mechanic.
