@@ -120,7 +120,7 @@
 # VI. Tool & Agent Development Ideas
 ## A. Active Ideas
 - `npc_pathing_assistant`: An agent or tool to handle navigation around moving NPCs. It could take start/end coordinates and a blocking sprite ID. If the path is blocked by that NPC, it could suggest using `stun_npc` at a strategic location or calculate a path that waits for the NPC to move out of the way.
-- `select_menu_option_tool`: A tool that takes the output of `menu_analyzer` (which parses the screen text of a menu) and a target option string (e.g., "TITANESS"). It would then calculate and return the precise sequence of button presses (Up/Down/Left/Right) required to move the cursor from its current position to the target option. This would fully automate menu navigation, making actions like switching Pokémon much more reliable and efficient.
+
 - `use_hm_tool`: A high-level tool that takes an HM name (e.g., 'SURF') as input. It would internally open the menu, use `menu_analyzer` and `select_menu_option` to find the correct Pokémon and select the HM. This would automate the entire HM usage process, making it much more reliable and efficient.
 - `systematic_exploration_planner` (Agent): An agent that takes `map_analyzer` output and failed hypotheses from the notepad to generate a systematic exploration plan when I'm stuck (e.g., 'All warps explored. Systematically check all NPCs next.').
 - `stuck_situation_analyzer` (Agent): To suggest non-obvious button presses (like 'B') when soft-locked in an event.
