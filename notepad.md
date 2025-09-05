@@ -81,6 +81,7 @@
 ## D. Navigation Puzzles
 - Cerulean City River: The city is divided by a river. The western section (where you arrive from Route 4) and the eastern section (where the path to Route 9 is) are separated. To cross between them, I must use Surf.
 - Mt. Moon Entrances: There are two entrances to Mt. Moon from Route 4. The western entrance at (19, 6) leads to an isolated, dead-end section. The eastern entrance at (25, 6) leads to the main cave system and the path forward to Cerulean City.
+- Route 8 Gatehouse: The gatehouse connecting the two halves of Route 8 has a 1x2 warp. To enter from the west, I had to stand on the southern tile (2, 11) and press Right.
 ## E. Item & Store Data
 ### Item Locations & Vendors
 - Route 12 Super Rod House: Fishing Guru gives the SUPER ROD.
@@ -136,16 +137,8 @@
 - Discarding a partial stack of an item does NOT free up an inventory slot. To create space, an entire stack of an item must be discarded. My `inventory_manager` agent has been updated to reflect this.
 - **Tool/Agent Development Idea:** `npc_pathing_assistant`: An agent or tool to handle navigation around moving NPCs. It could take start/end coordinates and a blocking sprite ID. If the path is blocked by that NPC, it could suggest using `stun_npc` at a strategic location or calculate a path that waits for the NPC to move out of the way.
 
-# IX. Self-Assessment Log (Turn 190738)
-- **Data Integrity Failure:** I had a major navigational hallucination, believing I was on Route 12 when I was still on Route 11, and placed a marker on the wrong map. This is a critical failure. I MUST always verify my location from the Game State *before* placing markers or making navigational decisions.
-- **Marker Usage Failure:** I wasted a turn trying to interact with a Fisher on Route 12 that I had *already marked* as a non-battler. This is a failure to use my own documented data. I MUST check map markers for a target tile before planning an interaction.
+# IX. Self-Assessment Log
+- **Data Integrity Failure (Turn 190738 & 190751):** I had major navigational hallucinations, believing I was on the wrong route and placing markers on the wrong map. This is a critical failure. I MUST always verify my location from the Game State *before* placing markers or making navigational decisions.
+- **Marker Usage Failure (Turn 190751):** I wasted a turn trying to interact with a Fisher on Route 12 that I had *already marked* as a non-battler. This is a failure to use my own documented data. I MUST check map markers for a target tile before planning an interaction.
 - **Proactive Tile Testing:** I have not been diligent about testing tiles that appear impassable, like fences. I need to add this to my standard exploration procedure to avoid missing hidden paths in this ROM hack.
 - **Untested Assumption:** The hypothesis that the Underground Path connects Route 7 and Route 8 remains untested. I will keep this in mind as a potential alternate route if my current path is blocked.
-
-# IX. Self-Assessment Log (Turn 190751)
-- **Data Integrity Failure:** I had a major navigational hallucination, believing I was on Route 13 when I was still on Route 12, and placed a marker on the wrong map. This is a critical failure. I MUST always verify my location from the Game State *before* placing markers or making navigational decisions.
-- **Marker Usage Failure:** I wasted a turn trying to interact with a Fisher on Route 12 that I had *already marked* as a non-battler. This is a failure to use my own documented data. I MUST check map markers for a target tile before planning an interaction.
-- **Proactive Tile Testing:** I have not been diligent about testing tiles that appear impassable, like fences. I need to add this to my standard exploration procedure to avoid missing hidden paths in this ROM hack.
-- **Untested Assumption:** The hypothesis that the Underground Path connects Route 7 and Route 8 remains untested. I will keep this in mind as a potential alternate route if my current path is blocked.
-## D. Navigation Puzzles
-- Route 8 Gatehouse: The gatehouse connecting the two halves of Route 8 has a 1x2 warp. To enter from the west, I had to stand on the southern tile (2, 11) and press Right.
