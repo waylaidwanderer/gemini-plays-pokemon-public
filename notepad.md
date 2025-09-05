@@ -135,3 +135,6 @@
 - **`spinner_maze_solver`:** Per Overwatch critique, this is a high-priority tool to automate spinner puzzles.
 - **`npc_pathing_assistant`:** Also from the critique, this will help with navigation around moving NPCs.
 - Healing Item Mechanics (CRITICAL): HYPER POTIONs restore HP but do NOT cure status conditions like poison. This is a major change from the base game.
+
+# X. New Tool & Agent Ideas
+- `select_menu_option_tool`: A tool that takes the output of `menu_analyzer` (which parses the screen text of a menu) and a target option string (e.g., "TITANESS"). It would then calculate and return the precise sequence of button presses (Up/Down/Left/Right) required to move the cursor from its current position to the target option. This would fully automate menu navigation, making actions like switching Pokémon much more reliable and efficient.
