@@ -5,9 +5,9 @@
 - D3: ABANDON FAILED HYPOTHESES: If a strategy fails repeatedly, I must recognize the pattern, document it with attempt counts, and pivot to a new approach.
 - D4: TRUST, BUT REFINE: I must trust the outputs of my agents and system data. If an agent or tool is suboptimal, I must prioritize refining it immediately.
 - D5: PROACTIVELY AUTOMATE: Before performing any complex or repetitive task, I must first consider if it can be automated with a tool or agent.
-## B. CRITICAL Lessons from Overwatch Critique (Turn 191004)
-- **Tool Usage Discipline:** I have repeatedly failed to use tools correctly (forgetting `autopress_buttons: true`, providing incorrect coordinates to `find_path`). This is a critical failure. I MUST verify my position from the Game State before every pathfinding call and double-check all flags for tools that generate button presses.
-- **Proactive Automation is Key:** I have good ideas for tools but fail to implement them. I must prioritize building tools like `npc_pathing_assistant` to solve recurring problems instead of just documenting them as ideas.
+## B. CRITICAL Lessons from Overwatch Critique (Turn 191004 & 192050)
+- **Tool Usage Discipline & Maintenance (CRITICAL FAILURE):** I have repeatedly failed to use tools correctly and, more importantly, I deferred fixing the `find_path` tool when I knew it was bugged (Turn 191994). This is a direct violation of my core directives. I MUST fix any faulty tool immediately. My subsequent creation and fixing of `select_menu_option` demonstrates corrected behavior.
+- **Proactive Automation is Key:** I have good ideas for tools but fail to implement them. I must prioritize building tools like `npc_pathing_assistant` and `use_hm_tool` to solve recurring problems instead of just documenting them as ideas.
 ## C. Other Key Lessons Learned
 - **Positional Awareness (CRITICAL):** I have repeatedly hallucinated my position, leading to failed movements and incorrect tool inputs. I MUST verify my current coordinates from the Game State Information *before* every single action.
 - **Confirmation Bias:** My manual assessment of map connectivity (dead ends, partitions) is highly unreliable. I MUST trust my `map_analyzer` tool and system warnings over my own intuition. I must also recognize when a hypothesis (e.g., Mr. Fuji being the key) is a dead end and pivot quickly.
@@ -28,18 +28,17 @@
 ## B. Tile Traversal & Movement Rules
 - `ground` / `impassable`: Basic walkable and non-walkable tiles.
 - `elevated_ground` & `steps`: Movement between `ground` and `elevated_ground` is only possible via a `steps` tile.
+- `grass`: Tall grass for wild Pokémon encounters. Walkable like `ground`.
+- `water`: Crossable using HM Surf.
 - Ladders & Elevation: Movement between a `ladder_up`/`ladder_down` tile and an adjacent `elevated_ground` tile is possible.
 - `teleport`: Instant warp tile within the same logical location.
 - `spinner_up/down/left/right`: Forces movement in a specific direction.
 - `boulder_switch`: Floor switch activated by a boulder.
-- `grass`: Tall grass for wild Pokémon encounters. Walkable like `ground`.
-- `water`: Crossable using HM Surf.
-- FLY HM: Cannot be used indoors or in caves to escape.
-- SURF HM: Requires a conscious (non-fainted) Pokémon that knows Surf to be used in the overworld.
 ## C. Special Mechanics & Discoveries
 - Menu Input Blocking (CRITICAL): Facing an impassable tile blocks that directional input in menus. This makes any menu navigation tool that relies on fixed directional inputs fundamentally unreliable unless the player is in an open space.
 - HM Usage: Must be adjacent to and facing the target object before opening the party menu.
 - Boulder Pushing: A multi-turn action. Cannot be done while surfing.
+- Auto-Dismount from Surf: The game automatically transitions the player from 'surfing' to 'walking' when moving from a water tile to an adjacent, valid land tile. No menu interaction is required.
 - Dead End Definition (Correction): A map is only a dead end if it has only one exit warp/connection and no reachable unseen tiles. The nature of the destination map is irrelevant to this classification.
 - SURF vs. DIG: The move SURF will miss an opponent that is underground from using DIG.
 - Healing Zone: A tile described as a "purified, protected zone" that fully heals all Pokémon in the party's HP and restores all their PP, including curing status conditions. Found on Pokémon Tower 5F at (12, 10). The friendly healer NPC on 6F at (13, 9) does NOT cure status conditions.
@@ -100,6 +99,7 @@
 - Decoy Entrances: Be wary of entrances that lead to isolated areas (e.g., Cerulean Cave's fake entrance).
 ## C. Tool Malfunctions & Bugs
 - `find_path` on Route 7 (Correction): The tool is NOT bugged. My previous assessment was a hallucination. The tool correctly identifies that Route 7 is partitioned by impassable ledges and walls. The eastern and western sections are not connected on this map. The tool's 'no path found' result is accurate.
+- `find_path` in Pokémon Fan Club (Turn 192001): The tool failed to find a valid path in a confined space, despite one existing. This indicates a flaw in the BFS implementation or traversability logic when dealing with complex obstacles. I have added a TODO to the tool to implement detailed logging to trace the search path and identify the point of failure.
 
 # V. Self-Correction & Hallucination Log
 - Pokemon Tower 7F (Turn 191582): Incorrectly reported 131 reachable unseen tiles and that the area was not a dead end, triggering a critical system warning. The system confirmed 0 reachable unseen tiles and that it *is* a dead end. Conclusion: My manual map assessment is critically flawed. I MUST ALWAYS trust the system's validation checks over my own intuition.
@@ -121,9 +121,9 @@
 ## A. Active Ideas
 - `npc_pathing_assistant`: An agent or tool to handle navigation around moving NPCs. It could take start/end coordinates and a blocking sprite ID. If the path is blocked by that NPC, it could suggest using `stun_npc` at a strategic location or calculate a path that waits for the NPC to move out of the way.
 - `select_menu_option_tool`: A tool that takes the output of `menu_analyzer` (which parses the screen text of a menu) and a target option string (e.g., "TITANESS"). It would then calculate and return the precise sequence of button presses (Up/Down/Left/Right) required to move the cursor from its current position to the target option. This would fully automate menu navigation, making actions like switching Pokémon much more reliable and efficient.
+- `use_hm_tool`: A high-level tool that takes an HM name (e.g., 'SURF') as input. It would internally open the menu, use `menu_analyzer` and `select_menu_option` to find the correct Pokémon and select the HM. This would automate the entire HM usage process, making it much more reliable and efficient.
 - `systematic_exploration_planner` (Agent): An agent that takes `map_analyzer` output and failed hypotheses from the notepad to generate a systematic exploration plan when I'm stuck (e.g., 'All warps explored. Systematically check all NPCs next.').
 - `stuck_situation_analyzer` (Agent): To suggest non-obvious button presses (like 'B') when soft-locked in an event.
-- High-level menu automation tool: A tool that chains `menu_analyzer` and `select_menu_option` to perform multi-step actions like using an HM from the party menu.
 - `spinner_maze_solver`: A tool to automatically navigate spinner tile mazes, like the one in the Rocket Hideout.
 - `complex_obstacle_navigator` (Agent): Takes map layout and generates a multi-step navigation plan around complex static obstacles, breaking the problem down into smaller `find_path` calls.
 - `trainer_recon` (Agent): Takes `Map Sprites` and `relevant_map_markers` to produce a list of un-defeated trainers to prioritize.
@@ -135,5 +135,3 @@
 # VIII. Active Hypotheses & Untested Assumptions
 - **Cerulean Cave Entrance:** The entrance to Cerulean Cave is located somewhere within Cerulean City itself. Test: If all leads within the city are exhausted, systematically explore all exits to surrounding routes (24, 25, 9, 5) for new paths.
 - **Officer Jenny:** Officer Jenny at (29, 13) is a permanent story block and not tied to a different, undiscovered trigger. Test: Re-interact with her only after making significant progress elsewhere in the city or surrounding areas.
-- `use_hm_tool`: A high-level tool that takes an HM name (e.g., 'SURF') as input. It would internally open the menu, find the correct Pokémon, and select the HM. This would automate the entire HM usage process, making it much more reliable and efficient.
-- Auto-Dismount from Surf: The game automatically transitions the player from 'surfing' to 'walking' when moving from a water tile to an adjacent, valid land tile. No menu interaction is required.
