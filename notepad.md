@@ -52,6 +52,7 @@
 - Wild Pokémon Speed (Cerulean Cave): Wild Pokémon are deceptively fast.
 - Wild Pokémon Moves (Cerulean Cave): GOLEM can use SELFDESTRUCT and EXPLOSION. Both moves are not very effective against Rock/Ground types, as confirmed in multiple battles. SELFDESTRUCT is neutrally effective vs. Ground-types.
 - Type Immunity: Electric moves have no effect on Ground-types.
+- Normal is super-effective against Ground-types. (Verified: Chansey's EGG BOMB vs. REVENANT)
 - Poison is not very effective against Ground-types.
 - Normal-type moves do not affect Ghost-type Pokémon. (Verified: TITANESS's DOUBLE-EDGE vs. GASTLY)
 - Type Immunity: Ground-type moves (EARTHQUAKE) do not affect GASTLY (Ghost/Poison). This implies a Levitate-like ability or a major type chart change.
