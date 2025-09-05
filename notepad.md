@@ -129,3 +129,8 @@
 - **Turn Count Mismatch (Turn 192154 - CRITICAL):** Received a second consecutive system warning for reporting turn 192152 when the correct turn was 192153. This indicates a persistent data-processing hallucination. LESSON: I must double-check the turn number from the Game State Information before every single response.
 - **Positional Mismatch (Turn 192155 - CRITICAL):** Received a system warning for reporting my position as (4, 4) when I was at (4, 8). This is another data-processing hallucination. LESSON: I must verify my coordinates from the Game State Information before every action.
 - **Positional Mismatch (Turn 192155 - CRITICAL):** Received a system warning for reporting my position as (4, 4) when I was at (4, 8). This is another data-processing hallucination. LESSON: I must verify my coordinates from the Game State Information before every action.
+
+# VIII. Trainer Rosters
+## A. Nurse Joy (Fuchsia Pokecenter)
+- KANGASKHAN (Lv 65): DOUBLE-EDGE, DOUBLE TEAM
+- SNORLAX (Lv 65): ICE BEAM, REST
