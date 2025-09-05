@@ -59,15 +59,16 @@
 - 'Unaffected' Battle Message: During a battle with a wild RHYDON, after using EARTHQUAKE, the message 'REVENANT is unaffected!' appeared. My Pokémon took no damage and received no status. The cause is unknown. I need to monitor if this happens again.
 
 # III. Active Puzzles & Navigation Strategy
-## A. Pokémon Tower 7F (Dead End Puzzle)
-- Observation: Reached the top floor (7F) of the Pokémon Tower. The path is a confirmed dead end with no visible exits or interactable objects.
-- Hypothesis 1 (Failed - 15+ attempts): Interacting with Pikachu or the environment would trigger a cutscene. Conclusion: This was a severe case of Confirmation Bias. Standard interaction is not the solution.
-- Hypothesis 2 (Failed - Agent Suggestion): Use the POKé FLUTE at the northernmost point (12, 3) to trigger a spectral event. Result: The game displayed text confirming the flute was played, but no event occurred. Conclusion: The POKé FLUTE has no special effect on this floor.
-- Hypothesis 3 (Failed - 1 attempt): Use the SILPH SCOPE from the item menu at (12, 3). Result: The game displayed the message "This isn't the time to use that!", preventing its use. Conclusion: The item cannot be actively used from a distance.
-- Hypothesis 4 (Failed - 1 attempt): The SILPH SCOPE's effect is passive. Its presence in the inventory will automatically trigger an event by walking into the entity at (10, 16). Result: Movement was blocked. Conclusion: The item's effect is not passive in this manner.
-- Hypothesis 5 (Failed - 1 attempt): Actively use the SILPH SCOPE from the item menu while standing adjacent to the invisible entity at (10, 16). Result: The game displayed the message "This isn't the time to use that!", preventing its use. Conclusion: Actively using the SILPH SCOPE from the menu is not the solution.
-- Hypothesis 6 (Failed - 1 attempt): Register the SILPH SCOPE to the SELECT button, then press SELECT while adjacent to the entity at (10, 16). Result: The item sub-menu does not have a "REGISTER" option, only "USE", "INFO", and "TOSS". Conclusion: This method of interaction is not possible.
-- Hypothesis 7 (Failed - 1 attempt): Standing on the tile to the right of the entity (11, 16) with the SILPH SCOPE will trigger an event. Result: No event occurred. Conclusion: This tile is not the trigger.
+## A. Pokémon Tower 7F (Ghost Puzzle)
+- **Current Status:** All attempts to interact with the ghost on 7F using the SILPH SCOPE or other items have failed. Speaking to Mr. Fuji resulted in a dialogue loop about his POKé FLUTE, providing no new information. This path is a dead end.
+- **New Hypothesis:** The solution is not on 7F. There may be a hidden switch or alternate path on a lower floor (5F or 6F) that was previously missed.
+- **Next Action:** Thoroughly re-explore Pokémon Tower 5F and 6F. Test every wall and interact with every object.
+
+## B. Untested Assumptions
+- **Assumption:** The ghost on 7F is the *only* way forward.
+- **Test:** Re-explore floors 5 and 6 for alternative paths or hidden switches.
+- **Assumption:** The SILPH SCOPE is the *only* solution to the ghost problem.
+- **Test:** If re-exploration fails, I must re-evaluate my key items to see if another item has a hidden purpose.
 
 # IV. Solved Puzzles & Mechanics Reference
 ## A. Silph Co. Puzzles
