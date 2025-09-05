@@ -136,3 +136,4 @@
 - **Cerulean Cave Entrance:** The entrance to Cerulean Cave is located somewhere within Cerulean City itself. Test: If all leads within the city are exhausted, systematically explore all exits to surrounding routes (24, 25, 9, 5) for new paths.
 - **Officer Jenny:** Officer Jenny at (29, 13) is a permanent story block and not tied to a different, undiscovered trigger. Test: Re-interact with her only after making significant progress elsewhere in the city or surrounding areas.
 - `use_hm_tool`: A high-level tool that takes an HM name (e.g., 'SURF') as input. It would internally open the menu, find the correct Pokémon, and select the HM. This would automate the entire HM usage process, making it much more reliable and efficient.
+- Auto-Dismount from Surf: The game automatically transitions the player from 'surfing' to 'walking' when moving from a water tile to an adjacent, valid land tile. No menu interaction is required.

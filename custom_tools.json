@@ -1076,7 +1076,7 @@
         "target_option"
       ]
     },
-    "python_script": "import json\n\nmenu_data = json.loads(input_data['menu_analyzer_output'])\ntarget_option = input_data['target_option']\n\noptions = menu_data.get('options', [])\ncursor_pos = menu_data.get('cursor_position')\nlayout = menu_data.get('layout', 'single_column')\n\nif not options or cursor_pos is None or target_option not in options:\n    print(json.dumps([]))\nelse:\n    try:\n        cursor_idx = options.index(cursor_pos)\n        target_idx = options.index(target_option)\n    except ValueError:\n        print(json.dumps([]))\n        exit()\n\n    moves = []\n    if layout == 'single_column':\n        diff = target_idx - cursor_idx\n        if diff > 0:\n            moves.extend(['Down'] * diff)\n        elif diff < 0:\n            moves.extend(['Up'] * abs(diff))\n    elif layout == '2x2_grid':\n        # Assuming 2 columns\n        cursor_row, cursor_col = divmod(cursor_idx, 2)\n        target_row, target_col = divmod(target_idx, 2)\n\n        v_diff = target_row - cursor_row\n        if v_diff > 0:\n            moves.extend(['Down'] * v_diff)\n        elif v_diff < 0:\n            moves.extend(['Up'] * abs(v_diff))\n\n        h_diff = target_col - cursor_col\n        if h_diff > 0:\n            moves.extend(['Right'] * h_diff)\n        elif h_diff < 0:\n            moves.extend(['Left'] * abs(h_diff))\n\n    print(json.dumps(moves))",
+    "python_script": "import json\nimport sys\n\ntry:\n    menu_analyzer_output_str = input_data['menu_analyzer_output']\n    menu_data = json.loads(menu_analyzer_output_str)\n    \n    target_option = input_data['target_option']\n\n    options = menu_data.get('options')\n    cursor_position = menu_data.get('cursor_position')\n    layout = menu_data.get('layout')\n\n    if not options or cursor_position is None:\n        print(json.dumps({\"error\": \"Missing 'options' or 'cursor_position' in menu_analyzer_output.\"}))\n        sys.exit()\n\n    try:\n        current_index = options.index(cursor_position)\n        target_index = options.index(target_option)\n    except ValueError:\n        print(json.dumps({\"error\": f\"Option '{cursor_position}' or '{target_option}' not found in the provided options list.\"}))\n        sys.exit()\n\n    button_presses = []\n    if layout == 'single_column':\n        delta = target_index - current_index\n        if delta > 0:\n            button_presses = ['Down'] * delta\n        elif delta < 0:\n            button_presses = ['Up'] * abs(delta)\n    \n    elif layout == '2x2_grid':\n        if target_index == current_index + 1:\n             button_presses.append('Right')\n        elif target_index == current_index - 1:\n             button_presses.append('Left')\n        elif target_index > current_index:\n             button_presses.append('Down')\n        elif target_index < current_index:\n             button_presses.append('Up')\n\n    print(json.dumps(button_presses))\n\nexcept json.JSONDecodeError:\n    print(json.dumps({\"error\": \"Invalid JSON format for menu_analyzer_output.\"}))\nexcept Exception as e:\n    print(json.dumps({\"error\": f\"An unexpected error occurred: {str(e)}\"}))",
     "history": [
       {
         "commit_message": "feat: Create select_menu_option tool to automate menu navigation. This is a direct response to a critical Overwatch critique highlighting repeated failures in manual menu selection. This tool will take parsed menu data and a target string to calculate the necessary button presses, making actions like switching Pokémon reliable and efficient. This is a foundational step towards robust automation.",
@@ -1087,6 +1087,16 @@
         "commit_message": "feat: Create select_menu_option tool to automate menu navigation. This is a direct response to a critical self-assessment identifying repeated failures in manual menu selection. This tool will take parsed menu data and a target string to calculate the necessary button presses, making actions like switching Pokémon reliable and efficient. This is a foundational step towards robust automation.",
         "timestamp": "2025-09-05T15:26:15.417Z",
         "action_counter": 191919
+      },
+      {
+        "commit_message": "feat: Create select_menu_option tool to automate menu navigation. This is a direct response to a critical Overwatch critique identifying deferred tool maintenance. This tool will take parsed menu data and a target string to calculate the necessary button presses, making actions like switching Pokémon or using HMs reliable and efficient. This is a foundational step towards robust automation.",
+        "timestamp": "2025-09-05T16:41:36.614Z",
+        "action_counter": 192054
+      },
+      {
+        "commit_message": "fix: Add JSON parsing for menu_analyzer_output. The tool was failing because it received a JSON string but was attempting to treat it as a dictionary. This commit adds the necessary `json.loads()` call to correctly parse the input, which is a critical fix to enable automated menu navigation.",
+        "timestamp": "2025-09-05T16:43:47.725Z",
+        "action_counter": 192058
       }
     ]
   }
