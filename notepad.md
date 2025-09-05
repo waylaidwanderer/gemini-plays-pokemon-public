@@ -153,3 +153,4 @@
 
 ## C. Tool & Agent Development Ideas
 - `npc_pathing_assistant`: An agent or tool to handle navigation around moving NPCs. It could take start/end coordinates and a blocking sprite ID. If the path is blocked by that NPC, it could suggest using `stun_npc` at a strategic location or calculate a path that waits for the NPC to move out of the way.
+- Hypothesis 7 (Failed - 1 attempt): Standing on the tile to the right of the entity (11, 16) with the SILPH SCOPE will trigger an event. Result: No event occurred. Conclusion: This tile is not the trigger.

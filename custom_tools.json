@@ -1031,43 +1031,34 @@
       }
     ]
   },
-  "select_item_from_list": {
-    "description": "Calculates the button presses needed to select a specific item from the item menu screen. Requires the full inventory list to handle scrolling.",
+  "auto_battle_trivial_encounter": {
+    "description": "Fully automates a trivial wild Pokémon battle from the main battle menu. Selects FIGHT, chooses the specified move based on a known moveset, and advances text to end the battle. Should only be used for guaranteed one-hit KOs.",
     "input_schema": {
       "type": "object",
       "properties": {
-        "screen_text": {
+        "target_move": {
           "type": "string"
         },
-        "target_item": {
-          "type": "string"
-        },
-        "full_inventory_json": {
+        "active_pokemon_name": {
           "type": "string"
         }
       },
       "required": [
-        "screen_text",
-        "target_item",
-        "full_inventory_json"
+        "target_move",
+        "active_pokemon_name"
       ]
     },
-    "python_script": "import json\nimport sys\n\ntry:\n    screen_text = input_data['screen_text']\n    target_item = input_data['target_item']\n    full_inventory_json = input_data['full_inventory_json']\n    \n    inventory_list = json.loads(full_inventory_json)\n    \n    item_names = [item['item_name'] for item in inventory_list]\n\n    lines = screen_text.strip().split('\\n')\n    \n    cursor_item_name = None\n    \n    for line in lines:\n        if '→' in line:\n            cursor_item_name = line.replace('→', '').strip().split(' ')[0]\n            break\n            \n    if not cursor_item_name:\n        print(json.dumps({\"error\": \"Could not find cursor on screen.\"}))\n        sys.exit()\n\n    try:\n        cursor_pos_abs = item_names.index(cursor_item_name)\n        target_pos_abs = item_names.index(target_item)\n    except ValueError as e:\n        print(json.dumps({\"error\": f\"Item not found in full inventory. Cursor: '{cursor_item_name}', Target: '{target_item}'.\"}))\n        sys.exit()\n\n    diff = target_pos_abs - cursor_pos_abs\n    \n    buttons = []\n    if diff > 0:\n        buttons = ['Down'] * diff\n    elif diff < 0:\n        buttons = ['Up'] * abs(diff)\n\n    buttons.append('A')\n    print(json.dumps(buttons))\n\nexcept Exception as e:\n    import traceback\n    error_info = traceback.format_exc()\n    print(json.dumps({\"error\": f\"An error occurred: {e}\", \"traceback\": error_info}))",
+    "python_script": "import json\nPOKEMON_MOVESETS = {\"REVENANT\": [\"THRASH\", \"HEADBUTT\", \"EARTHQUAKE\", \"BONEMERANG\"]}\ntry:\n    target_move = input_data['target_move']\n    active_pokemon = input_data['active_pokemon_name']\n    presses = []\n    if active_pokemon in POKEMON_MOVESETS:\n        moves = POKEMON_MOVESETS[active_pokemon]\n        if target_move in moves:\n            presses.append('A') # Select FIGHT\n            target_index = moves.index(target_move)\n            for _ in range(target_index):\n                presses.append('Down')\n            presses.append('A') # Select Move\n            # Add presses to advance through battle text\n            for _ in range(6): # A generous number to clear all text\n                presses.append('A')\n    print(json.dumps(presses))\nexcept Exception as e:\n    print(json.dumps([]))",
     "history": [
       {
-        "commit_message": "feat: Create select_item_from_list tool to automate item selection. This is a direct response to a mandatory self-assessment that identified repeated manual failures in menu navigation. This tool parses the item menu, finds the cursor and target, and calculates the optimal button presses, preventing errors caused by mechanics like impassable tile input blocking.",
-        "timestamp": "2025-09-04T21:55:24.514Z",
-        "action_counter": 190074
+        "commit_message": "feat: Create auto_battle_trivial_encounter tool. This is a direct response to the mandatory self-assessment identifying repetitive manual actions in the Pokémon Tower. This tool automates the entire process of a trivial battle, from selecting FIGHT to choosing a move from a known moveset and advancing text, significantly improving efficiency.",
+        "timestamp": "2025-09-05T04:27:50.379Z",
+        "action_counter": 190843
       },
       {
-        "commit_message": "refactor: Add full_inventory_json input to handle scrolling. The previous version of the tool could only parse visible items, making it useless for inventories that require scrolling. This refactor makes the tool robust by using the full inventory list to calculate the absolute positions of the cursor and target items, allowing it to generate the correct number of 'Up' or 'Down' presses regardless of what is currently on screen. This directly addresses a critical tool failure and a lapse in my maintenance directive.",
-        "timestamp": "2025-09-05T01:10:20.556Z",
-        "action_counter": 190482
-      },
-      {
-        "commit_message": "fix: Improve script robustness to prevent crashes. The previous script was failing with a `KeyError`. This new version simplifies the screen parsing logic to only find the current cursor item, then uses the absolute positions from the `full_inventory_json` to calculate the difference. This is more resilient to on-screen formatting and prevents the tool from failing when the target item is not visible. This directly addresses the critical tool failure from the previous turn.",
-        "timestamp": "2025-09-05T01:26:24.230Z",
-        "action_counter": 190515
+        "commit_message": "fix: Address critical flaw in tool execution. This redefinition is in direct response to an Overwatch critique highlighting that the tool's output was not being automatically executed. This action prioritizes immediate tool maintenance and adherence to core directives over gameplay progression, as mandated.",
+        "timestamp": "2025-09-05T04:32:07.566Z",
+        "action_counter": 190851
       }
     ]
   }
