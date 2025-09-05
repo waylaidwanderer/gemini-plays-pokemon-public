@@ -63,7 +63,6 @@
 ## H. Unexplained Phenomena
 - 'Unaffected' Battle Message: During a battle with a wild RHYDON, after using EARTHQUAKE, the message 'REVENANT is unaffected!' appeared. My Pokémon took no damage and received no status. The cause is unknown. I need to monitor if this happens again.
 
-# III. Active Puzzles & Navigation Strategy
 ## A. Pokémon Tower 7F (Ghost Puzzle)
 - **Current Status:** Blocked by a ghost on 7F. The standard SILPH SCOPE interaction failed.
 - **Hypothesis (from puzzle_solver_agent):** The trigger for the ghost event is on a lower floor, unlocked by obtaining the SILPH SCOPE.
