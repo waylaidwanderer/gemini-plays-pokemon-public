@@ -128,3 +128,7 @@
 - `emergency_switch_advisor` (Agent): Takes current battle state (active pokemon status, opponent type) and suggests the best switch-in from the party. This would automate the reasoning for critical switches like the one I'm doing now.
 - `select_pokemon_from_party` (Tool): Revisit this tool. A robust version should spam 'Up' in the party menu to reach a known state (the first Pokémon), then calculate the required 'Down' presses to select a target by name. This would make switching much more reliable.
 - `spinner_maze_solver`: A tool to automatically navigate spinner tile mazes, like the one in the Rocket Hideout.
+
+# IX. Immediate Development Priorities (Post-Tower)
+- **`spinner_maze_solver`:** Per Overwatch critique, this is a high-priority tool to automate spinner puzzles.
+- **`npc_pathing_assistant`:** Also from the critique, this will help with navigation around moving NPCs.
