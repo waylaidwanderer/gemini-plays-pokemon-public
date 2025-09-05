@@ -128,24 +128,5 @@
 ## B. Inventory Slot Management (CRITICAL LESSON)
 - Discarding a partial stack of an item does NOT free up an inventory slot. To create space, an entire stack of an item must be discarded. My `inventory_manager` agent has been updated to reflect this.
 
-# IX. Self-Assessment Log
-- **Data Integrity Failure (Turn 190738 & 190751):** I had major navigational hallucinations, believing I was on the wrong route and placing markers on the wrong map. This is a critical failure. I MUST always verify my location from the Game State *before* placing markers or making navigational decisions.
-- **Marker Usage Failure (Turn 190751):** I wasted a turn trying to interact with a Fisher on Route 12 that I had *already marked* as a non-battler. This is a failure to use my own documented data. I MUST check map markers for a target tile before planning an interaction.
-- **Proactive Tile Testing:** I have not been diligent about testing tiles that appear impassable, like fences. I need to add this to my standard exploration procedure to avoid missing hidden paths in this ROM hack.
-- **Untested Assumption:** The hypothesis that the Underground Path connects Route 7 and Route 8 remains untested. I will keep this in mind as a potential alternate route if my current path is blocked.
-
-# X. Self-Assessment Insights & Future Development
-## A. Methodological Improvements
-- Proactive Tile Testing: I have not been diligent about testing tiles that appear impassable. I must add this to my standard exploration procedure to avoid missing hidden paths, especially in a ROM hack.
-## B. Untested Assumptions
-- Pokémon Tower Puzzle: I am assuming the ghost on 7F is the only way forward and that the SILPH SCOPE is the only solution. If my next hypothesis fails, I must test this by thoroughly exploring floors 5 and 6 for hidden switches or paths.
-- Mr. Fuji's Role: I am assuming Mr. Fuji is the key to solving the puzzle, but this is unverified.
-## C. Tool & Agent Development Ideas
-- `auto_battle_trivial_encounter` (Improvement): The current tool relies on a hardcoded moveset for REVENANT. A more robust version would parse the active Pokémon's moves from the screen or take them as an argument to be more flexible.
+# VII. Tool & Agent Development Ideas
 - `npc_pathing_assistant`: An agent or tool to handle navigation around moving NPCs. It could take start/end coordinates and a blocking sprite ID. If the path is blocked by that NPC, it could suggest using `stun_npc` at a strategic location or calculate a path that waits for the NPC to move out of the way.
-
-# XI. Self-Assessment Insights (Turn 190995 & 191047)
-- **Positional Awareness Failure (CRITICAL):** I have repeatedly hallucinated my position (e.g., Turn 190985), leading to failed movements and incorrect tool inputs. I MUST verify my current coordinates from the Game State Information *before* every single action.
-- **Tool Usage Failure (CRITICAL):** I have failed to use my own tools correctly (e.g., omitting `autopress_buttons: true` for `auto_battle_trivial_encounter` on Turns 190983 & 190984), causing repeated failed turns. I must verify the arguments and flags for every tool call.
-- **Confirmation Bias (Mr. Fuji):** My hypothesis that Mr. Fuji was the key to the ghost puzzle was based on an assumption. After he entered a dialogue loop, I correctly identified this as a dead end and pivoted to a new hypothesis, which is the correct procedure.
-- **Systematic Search Failure (6F):** My systematic search of walls on 6F for a hidden switch yielded no results. This hypothesis is likely incorrect. I have correctly pivoted to investigating the 5th floor.
