@@ -139,3 +139,9 @@
 # X. New Tool & Agent Ideas
 - `select_menu_option_tool`: A tool that takes the output of `menu_analyzer` (which parses the screen text of a menu) and a target option string (e.g., "TITANESS"). It would then calculate and return the precise sequence of button presses (Up/Down/Left/Right) required to move the cursor from its current position to the target option. This would fully automate menu navigation, making actions like switching Pokémon much more reliable and efficient.
 - `systematic_exploration_planner` (Agent): An agent that takes `map_analyzer` output and failed hypotheses from the notepad to generate a systematic exploration plan when I'm stuck (e.g., 'All warps explored. Systematically check all NPCs next.').
+
+# XI. Self-Assessment Log (Turn 191765)
+- **Tile Mechanics:** I need to be more proactive in testing tiles that appear impassable to confirm their properties, as this is a ROM hack with unusual rules.
+- **Untested Assumptions:**
+  - **Assumption:** Mr. Fuji is in his house in Lavender Town. **Test:** After exiting the tower, go to his house and interact with him.
+  - **Assumption:** The bugged Channeler at (15, 13) on 4F is not part of the main puzzle. **Test:** If the Lavender Town investigation fails, return to this NPC and re-evaluate.
