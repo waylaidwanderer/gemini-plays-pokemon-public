@@ -73,7 +73,7 @@
 - **Hypothesis 3 (Failed - 1 attempt):** Use the SILPH SCOPE from the item menu at (12, 3). **Result:** The game displayed the message "This isn't the time to use that!", preventing its use. **Conclusion:** The SILPH SCOPE cannot be actively used to solve this puzzle.
 - **Hypothesis 4 (Failed - 1 attempt):** The SILPH SCOPE's effect is passive. Its presence in the inventory will automatically trigger an event by walking into the entity at (10, 16). **Result:** Movement was blocked. **Conclusion:** The item's effect is not passive in this manner.
 - **Hypothesis 5 (Failed - 1 attempt):** Actively use the SILPH SCOPE from the item menu while standing adjacent to the invisible entity at (10, 16). **Result:** The game displayed the message "This isn't the time to use that!", preventing its use. **Conclusion:** Actively using the SILPH SCOPE from the menu is not the solution.
-- **Hypothesis 6 (Untested - Agent Suggestion):** Register the SILPH SCOPE to the SELECT button, then press SELECT while adjacent to the entity at (10, 16).
+- **Hypothesis 6 (Failed - 1 attempt):** Register the SILPH SCOPE to the SELECT button, then press SELECT while adjacent to the entity at (10, 16). **Result:** The item sub-menu does not have a "REGISTER" option, only "USE", "INFO", and "TOSS". **Conclusion:** This method of interaction is not possible.
 
 # IV. Solved Puzzles & Mechanics Reference
 
