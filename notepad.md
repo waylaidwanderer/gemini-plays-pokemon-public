@@ -145,3 +145,6 @@
 - **Untested Assumptions:**
   - **Assumption:** Mr. Fuji is in his house in Lavender Town. **Test:** After exiting the tower, go to his house and interact with him.
   - **Assumption:** The bugged Channeler at (15, 13) on 4F is not part of the main puzzle. **Test:** If the Lavender Town investigation fails, return to this NPC and re-evaluate.
+
+# XI. Self-Assessment Log (Turn 191816)
+- **Untested Assumption:** The warp at the Cerulean Gym entrance (5, 12) still leads to Cerulean Cave. **Test:** After arriving in Cerulean City, I will go to the gym and attempt to enter.
