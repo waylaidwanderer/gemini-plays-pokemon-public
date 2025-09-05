@@ -164,3 +164,9 @@
 
 ## B. Inventory Management (CRITICAL LESSON)
 - **Inventory Over-Capacity:** If the inventory count is over the maximum (e.g., 21/20), the displayed item list may be truncated. Tossing an entire stack of an item successfully frees up a slot, bringing the count back to the maximum. Discarding a partial stack does NOT free up an inventory slot.
+
+# VIII. Self-Correction & Hallucination Log (Additions)
+
+## C. Methodological Improvements
+- **Proactive Tile Testing:** I need to be more diligent in testing tiles that appear impassable (like small fences or rocks) to confirm their properties, as ROM hacks can have unusual traversal rules.
+- **Hypothesis Falsification:** A key part of the scientific method is trying to prove a hypothesis wrong. After a test seems to confirm a hypothesis, I should perform another test that tries to *disprove* it to avoid confirmation bias.

@@ -1032,7 +1032,7 @@
     ]
   },
   "select_item_from_list": {
-    "description": "Calculates the button presses needed to select a specific item from the item menu screen.",
+    "description": "Calculates the button presses needed to select a specific item from the item menu screen. Requires the full inventory list to handle scrolling.",
     "input_schema": {
       "type": "object",
       "properties": {
@@ -1041,19 +1041,28 @@
         },
         "target_item": {
           "type": "string"
+        },
+        "full_inventory_json": {
+          "type": "string"
         }
       },
       "required": [
         "screen_text",
-        "target_item"
+        "target_item",
+        "full_inventory_json"
       ]
     },
-    "python_script": "import json\nimport re\nimport sys\n\ntry:\n    screen_text = input_data['screen_text']\n    target_item = input_data['target_item']\n\n    lines = screen_text.strip().split('\\n')\n    \n    items = []\n    cursor_pos = -1\n    \n    for i, line in enumerate(lines):\n        if '→' in line:\n            cursor_pos = len(items)\n            item_name = line.replace('→', '').strip().split(' ')[0]\n            items.append(item_name)\n        elif line.strip() and line.strip() != \"EXIT\":\n            item_name = line.strip().split(' ')[0]\n            items.append(item_name)\n\n    if cursor_pos == -1:\n        print(json.dumps([]))\n        sys.exit()\n\n    try:\n        target_pos = items.index(target_item)\n    except ValueError:\n        print(json.dumps([]))\n        sys.exit()\n\n    num_items = len(items)\n    \n    if cursor_pos == target_pos:\n        presses = []\n    elif cursor_pos < target_pos:\n        down_presses = target_pos - cursor_pos\n        up_presses = num_items - down_presses\n        if down_presses <= up_presses:\n            presses = ['Down'] * down_presses\n        else:\n            presses = ['Up'] * up_presses\n    else: # cursor_pos > target_pos\n        up_presses = cursor_pos - target_pos\n        down_presses = num_items - up_presses\n        if up_presses <= down_presses:\n            presses = ['Up'] * up_presses\n        else:\n            presses = ['Down'] * down_presses\n            \n    print(json.dumps(presses))\n\nexcept Exception as e:\n    print(json.dumps([]))\n",
+    "python_script": "import json\nimport sys\n\ntry:\n    screen_text = input_data['screen_text']\n    target_item = input_data['target_item']\n    full_inventory_json = input_data['full_inventory_json']\n\n    full_inventory = json.loads(full_inventory_json)\n    item_names = [item['name'] for item in full_inventory]\n\n    lines = screen_text.strip().split('\\n')\n    visible_items = []\n    cursor_pos_visible = -1\n\n    for i, line in enumerate(lines):\n        if 'EXIT' in line or 'x' in line or '×' in line:\n            continue\n        item_name = line.replace('→', '').strip()\n        if item_name:\n            visible_items.append(item_name)\n            if '→' in line:\n                cursor_pos_visible = len(visible_items) - 1\n\n    if cursor_pos_visible == -1:\n        print(json.dumps({'error': 'Could not determine cursor position from screen text.'}))\n        sys.exit()\n\n    cursor_item_name = visible_items[cursor_pos_visible]\n\n    try:\n        # Find the absolute index of the cursor and target in the full inventory\n        cursor_pos_full = item_names.index(cursor_item_name)\n        target_pos_full = item_names.index(target_item)\n    except ValueError:\n        print(json.dumps({'error': f'Target item \"{target_item}\" not found in full inventory.'}))\n        sys.exit()\n\n    # Calculate the difference\n    diff = target_pos_full - cursor_pos_full\n    presses = []\n    if diff > 0:\n        presses = ['Down'] * diff\n    elif diff < 0:\n        presses = ['Up'] * abs(diff)\n\n    presses.append('A')\n    print(json.dumps(presses))\n\nexcept Exception as e:\n    print(json.dumps({'error': f'An error occurred: {str(e)}'}))\n",
     "history": [
       {
         "commit_message": "feat: Create select_item_from_list tool to automate item selection. This is a direct response to a mandatory self-assessment that identified repeated manual failures in menu navigation. This tool parses the item menu, finds the cursor and target, and calculates the optimal button presses, preventing errors caused by mechanics like impassable tile input blocking.",
         "timestamp": "2025-09-04T21:55:24.514Z",
         "action_counter": 190074
+      },
+      {
+        "commit_message": "refactor: Add full_inventory_json input to handle scrolling. The previous version of the tool could only parse visible items, making it useless for inventories that require scrolling. This refactor makes the tool robust by using the full inventory list to calculate the absolute positions of the cursor and target items, allowing it to generate the correct number of 'Up' or 'Down' presses regardless of what is currently on screen. This directly addresses a critical tool failure and a lapse in my maintenance directive.",
+        "timestamp": "2025-09-05T01:10:20.556Z",
+        "action_counter": 190482
       }
     ]
   }
