@@ -125,7 +125,6 @@
 - Positional Mismatch (Turn 192155 - CRITICAL): Received a system warning for reporting my position as (4, 4) when I was at (4, 8). This is another data-processing hallucination. LESSON: I must verify my coordinates from the Game State Information before every action.
 ## C. Manual Pathing Failures
 - Pokémon Tower 6F (Turn 191168): Manually created a path plan that led directly into an impassable wall at (12, 10). Conclusion: Manual pathing is unreliable. I MUST use the `find_path` tool for all non-trivial navigation.
-- Confirmation Bias (Mt. Moon): I must avoid fixating on the Rocket Grunt's location as the only possible place to find the fossil on B2F. I will systematically explore the entire accessible area of the floor once I reach it.
 
 # VI. Trainer Rosters
 ## A. Nurse Joy (Fuchsia Pokecenter)
