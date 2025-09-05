@@ -144,3 +144,8 @@
 ## C. Tool & Agent Development Ideas
 - `auto_battle_trivial_encounter` (Improvement): The current tool relies on a hardcoded moveset for REVENANT. A more robust version would parse the active Pokémon's moves from the screen or take them as an argument to be more flexible.
 - `npc_pathing_assistant`: An agent or tool to handle navigation around moving NPCs. It could take start/end coordinates and a blocking sprite ID. If the path is blocked by that NPC, it could suggest using `stun_npc` at a strategic location or calculate a path that waits for the NPC to move out of the way.
+
+# XI. Self-Assessment Insights (Turn 190995)
+- **Positional Awareness Failure (CRITICAL):** I have repeatedly hallucinated my position (e.g., Turn 190985), leading to failed movements and incorrect tool inputs. I MUST verify my current coordinates from the Game State Information *before* every single action.
+- **Tool Usage Failure (CRITICAL):** I have failed to use my own tools correctly (e.g., omitting `autopress_buttons: true` for `auto_battle_trivial_encounter` on Turns 190983 & 190984), causing repeated failed turns. I must verify the arguments and flags for every tool call.
+- **Confirmation Bias (Mr. Fuji):** My hypothesis that Mr. Fuji was the key to the ghost puzzle was based on an assumption. After he entered a dialogue loop, I correctly identified this as a dead end and pivoted to a new hypothesis, which is the correct procedure.
