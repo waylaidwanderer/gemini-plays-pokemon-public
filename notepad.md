@@ -154,3 +154,13 @@
 ## C. Special Mechanics & Discoveries
 - **Proactive Tile Testing:** I need to be more diligent in testing tiles that appear impassable (like small fences or rocks) to confirm their properties, as ROM hacks can have unusual traversal rules.
 - **Inventory Over-Capacity:** If the inventory count is over the maximum (e.g., 21/20), the displayed item list may be truncated. Tossing an entire stack of an item successfully frees up a slot, bringing the count back to the maximum.
+
+# IX. Newly Added Mechanics & Discoveries
+
+## A. Tile Traversal (Additions)
+- **`teleport`**: Instant warp tile within the same logical location.
+- **`spinner_up/down/left/right`**: Forces movement in a specific direction.
+- **`boulder_switch`**: Floor switch activated by a boulder.
+
+## B. Inventory Management (CRITICAL LESSON)
+- **Inventory Over-Capacity:** If the inventory count is over the maximum (e.g., 21/20), the displayed item list may be truncated. Tossing an entire stack of an item successfully frees up a slot, bringing the count back to the maximum. Discarding a partial stack does NOT free up an inventory slot.
