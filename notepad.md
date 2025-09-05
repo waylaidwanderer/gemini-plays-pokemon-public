@@ -94,7 +94,6 @@
 # IV. Agent & Tool Development
 ## A. Agent & Tool Ideas
 - **gym_prep_agent**: An agent that takes a gym type (e.g., 'Poison') and the contents of my PC boxes as input, then suggests an optimal team of 6 Pokémon to train and use for that gym battle. This would help automate strategic team building for major fights.
-- **obstacle_handler_agent:** An agent that takes a `find_path` failure report as input. It would identify the type of obstacle (e.g., 'cuttable_tree', 'boulder') and output a structured, multi-step plan to overcome it. For example, for a tree, it would output: { "action_1": "path_to_obstacle_adjacent", "coords": [X, Y], "action_2": "use_hm", "hm_name": "CUT", "action_3": "path_to_original_destination", "coords": [A, B] }. This would automate the recovery process from common navigational blockages.
 
 ## B. Retired Concepts & Tools
 - `use_hm_from_party`, `switch_pokemon_navigator`, `menu_navigator`, `use_hm_tool`: These tools are retired due to fundamental flaws related to non-deterministic menu cursor positions and the 'Menu Input Blocking' mechanic. They serve as a critical lesson that menu automation requires environment-aware parsing (`menu_analyzer`) and targeted selection (`select_menu_option`), not blind input sequences.
@@ -139,4 +138,3 @@
 
 # VIII. Multi-Turn Manual Processes
 - **Using HMs (e.g., CUT):** This is a multi-turn process that cannot be automated with a single tool. The sequence is: 1. Stand adjacent to and face the target. 2. Press Start to open the menu. 3. Navigate to and select 'POKéMON'. 4. Navigate to and select the Pokémon with the HM. 5. Navigate to and select the HM move from the sub-menu. 6. Press A to use it.
-- **gym_prep_agent**: An agent that takes a gym type (e.g., 'Poison') and the contents of my PC boxes as input, then suggests an optimal team of 6 Pokémon to train and use for that gym battle. This would help automate strategic team building for major fights.
