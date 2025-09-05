@@ -32,6 +32,8 @@
 - `teleport`: Instant warp tile within the same logical location.
 - `spinner_up/down/left/right`: Forces movement in a specific direction.
 - `boulder_switch`: Floor switch activated by a boulder.
+- `grass`: Tall grass for wild Pokémon encounters. Walkable like `ground`.
+- `water`: Crossable using HM Surf.
 - FLY HM: Cannot be used indoors or in caves to escape.
 - SURF HM: Requires a conscious (non-fainted) Pokémon that knows Surf to be used in the overworld.
 ## C. Special Mechanics & Discoveries
@@ -123,6 +125,8 @@
 - `stuck_situation_analyzer` (Agent): To suggest non-obvious button presses (like 'B') when soft-locked in an event.
 - High-level menu automation tool: A tool that chains `menu_analyzer` and `select_menu_option` to perform multi-step actions like using an HM from the party menu.
 - `spinner_maze_solver`: A tool to automatically navigate spinner tile mazes, like the one in the Rocket Hideout.
+- `complex_obstacle_navigator` (Agent): Takes map layout and generates a multi-step navigation plan around complex static obstacles, breaking the problem down into smaller `find_path` calls.
+- `trainer_recon` (Agent): Takes `Map Sprites` and `relevant_map_markers` to produce a list of un-defeated trainers to prioritize.
 
 # VII. Retired Agent/Tool Ideas & Test Plans
 - `emergency_switch_advisor` (Agent): Takes current battle state (active pokemon status, opponent type) and suggests the best switch-in from the party. This would automate the reasoning for critical switches.
