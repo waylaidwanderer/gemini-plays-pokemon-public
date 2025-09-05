@@ -138,3 +138,4 @@
 
 # IX. Agent & Tool Ideas
 - **gym_prep_agent**: An agent that takes a gym type (e.g., 'Poison') and the contents of my PC boxes as input, then suggests an optimal team of 6 Pokémon to train and use for that gym battle. This would help automate strategic team building for major fights.
+- **Warden's Clue (Safari Zone):** The Warden at (3, 4) in his house mentioned a 'SECRET HOUSE' in the Safari Zone. Finding it supposedly rewards an HM, which he believes is SURF. **Contradiction:** I already possess HM03 (SURF). This needs investigation. The Safari Zone is the next logical objective.
