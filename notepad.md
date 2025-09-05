@@ -139,8 +139,8 @@
 ## B. Tool Development Ideas
 - **`use_hm_from_party_menu`:** A tool to automate the multi-step process of using a field move like Cut or Fly. It would take the Pokémon's name and the move/destination as input, parse the menu, and execute the necessary navigation to use the move. This consolidates previous ideas for Fly and general HM usage.
 - **Respawning Obstacles:** Cuttable trees respawn after a certain amount of time or after changing maps, as observed with the tree at Cerulean City (20, 29).
+- **`automated_item_discarder`:** A tool that takes an item name and quantity, then automatically executes the menu navigation to discard it. This would streamline inventory management and avoid manual input errors, but would need to be robust enough to handle the 'Menu Input Blocking' mechanic.
 
 ## C. Puzzle Solving & Agent Usage
 - **Lesson (Cerulean Gym):** I fell into a confirmation bias loop trying to interact with Pikachu at (5, 4). After multiple failures, I correctly pivoted to a new hypothesis (Pikachu must stand on the tile), which worked. **Correction:** I must recognize these loops faster and use my `puzzle_solver_agent` to generate new hypotheses when my own attempts fail more than twice.
 - **Inventory Slot Management (CRITICAL LESSON):** Discarding a partial stack of an item does NOT free up an inventory slot. To create space, an entire stack of an item must be discarded. My `inventory_manager` agent has been updated to reflect this.
-- **`automated_item_discarder`:** A tool that takes an item name and quantity, then automatically executes the menu navigation to discard it. This would streamline inventory management and avoid manual input errors, but would need to be robust enough to handle the 'Menu Input Blocking' mechanic.
