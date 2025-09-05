@@ -72,6 +72,7 @@
 - **Hypothesis 2 (Failed - Agent Suggestion):** Use the POKé FLUTE at the northernmost point (12, 3) to trigger a spectral event. **Result:** The game displayed text confirming the flute was played, but no event occurred. **Conclusion:** The POKé FLUTE has no special effect on this floor.
 - **Hypothesis 3 (Failed - 1 attempt):** Use the SILPH SCOPE from the item menu at (12, 3). **Result:** The game displayed the message "This isn't the time to use that!", preventing its use. **Conclusion:** The SILPH SCOPE cannot be actively used to solve this puzzle.
 - **Hypothesis 4 (Untested):** The SILPH SCOPE's effect is passive. Its presence in the inventory will automatically trigger an event, likely by revealing a previously invisible ghost that blocks the true path forward. The most logical place for this trigger is near the stairs at (10, 17).
+- **Hypothesis 5 (Testing - Agent Suggestion):** Actively use the SILPH SCOPE from the item menu while standing adjacent to the invisible entity at (10, 16).
 
 # IV. Solved Puzzles & Mechanics Reference
 
