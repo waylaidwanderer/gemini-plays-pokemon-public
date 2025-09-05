@@ -138,4 +138,3 @@
 - **Hypothesis:** The friendly healer on Pokémon Tower 6F cures status conditions in addition to HP/PP.
 - **Test:** After the current battle, take the poisoned REVENANT to the healer at (13, 9). Check REVENANT's status after the interaction.
 - **Conclusion:** The friendly healer NPC on 6F at (13, 9) does NOT cure status conditions. However, the special 'purified zone' tile on 5F at (12, 10) DOES cure status conditions, as it cured REVENANT's poison.
-- **Conclusion:** The friendly healer NPC on 6F at (13, 9) does NOT cure status conditions. However, the special 'purified zone' tile on 5F at (12, 10) DOES cure status conditions, as it cured REVENANT's poison.

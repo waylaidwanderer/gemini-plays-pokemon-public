@@ -1032,11 +1032,11 @@
     ]
   },
   "auto_battle_trivial_encounter": {
-    "description": "Fully automates a trivial wild Pokémon battle from the main battle menu. Selects FIGHT, chooses the specified move based on a known moveset, and advances text to end the battle. Should only be used for guaranteed one-hit KOs.",
+    "description": "Fully automates a trivial wild Pokémon battle from the main battle menu. Selects FIGHT, chooses the move at the specified index (0-3), and advances text to end the battle. Should only be used for guaranteed one-hit KOs.",
     "input_schema": {
       "type": "object",
       "properties": {
-        "target_move": {
+        "target_move_index": {
           "type": "string"
         },
         "active_pokemon_name": {
@@ -1044,11 +1044,11 @@
         }
       },
       "required": [
-        "target_move",
+        "target_move_index",
         "active_pokemon_name"
       ]
     },
-    "python_script": "import json\n\n# This tool assumes the battle has just started and the main menu (FIGHT, PKMN, ITEM, RUN) is visible.\n# It also assumes the active Pokémon's moveset is known and the target move will be a one-hit KO.\n\n# Mapping of Pokémon names to their known movesets.\n# CRITICAL: This must be manually updated as movesets change.\nknown_movesets = {\n    'REVENANT': ['THRASH', 'HEADBUTT', 'EARTHQUAKE', 'BONEMERANG'],\n    'CRAG': ['BODY SLAM', 'EARTHQUAKE', 'STRENGTH', 'ROCK SLIDE'],\n    'SPARKY': ['THUNDERBOLT', 'FLASH', 'LIGHT SCREEN', 'THUNDER WAVE'],\n    'TITANESS': ['DOUBLE-EDGE', 'SURF', 'STRENGTH', 'BODY SLAM'],\n    'NIGHTSHADE': ['STUN SPORE', 'CUT', 'PETAL DANCE', 'SLEEP POWDER'],\n    'ECHO': ['FLY', 'CONFUSE RAY', 'SLUDGE', 'HAZE'],\n    'NEPTUNE': ['ICE BEAM', 'BODY SLAM', 'CONFUSE RAY', 'SURF']\n}\n\ntarget_move = input_data['target_move']\nactive_pokemon_name = input_data['active_pokemon_name']\n\nmoves = known_movesets.get(active_pokemon_name)\n\nif not moves:\n    print(json.dumps({'error': f'Unknown moveset for {active_pokemon_name}. Please update the tool.'}))\nelse:\n    try:\n        move_index = moves.index(target_move)\n    except ValueError:\n        print(json.dumps({'error': f'Move {target_move} not found in known moveset for {active_pokemon_name}.'}))\n    else:\n        # 1. Select FIGHT\n        button_presses = ['A']\n\n        # 2. Navigate to the correct move\n        # The cursor starts at the top-left move.\n        if move_index == 1: # Top-right\n            button_presses.append('Right')\n        elif move_index == 2: # Bottom-left\n            button_presses.append('Down')\n        elif move_index == 3: # Bottom-right\n            button_presses.extend(['Down', 'Right'])\n\n        # 3. Select the move and advance through all battle text\n        # Adding enough 'A' presses to get through fainting, EXP gain, etc.\n        button_presses.extend(['A'] * 10)\n\n        print(json.dumps(button_presses))",
+    "python_script": "import json\ntry:\n    target_index = int(input_data['target_move_index'])\n    if not (0 <= target_index <= 3):\n        raise ValueError(\"Index must be between 0 and 3\")\n    \n    buttons = ['A'] # Select FIGHT\n    buttons.extend(['Down'] * target_index)\n    buttons.append('A') # Select move\n    buttons.extend(['A'] * 10) # Advance text\n    \n    print(json.dumps(buttons))\nexcept Exception as e:\n    print(json.dumps({\"error\": str(e)}))",
     "history": [
       {
         "commit_message": "feat: Create auto_battle_trivial_encounter tool. This is a direct response to the mandatory self-assessment identifying repetitive manual actions in the Pokémon Tower. This tool automates the entire process of a trivial battle, from selecting FIGHT to choosing a move from a known moveset and advancing text, significantly improving efficiency.",
@@ -1064,6 +1064,11 @@
         "commit_message": "refactor: Generalize tool by parameterizing move and Pokémon. The previous version hardcoded 'REVENANT' and 'EARTHQUAKE', making it inflexible. This commit modifies the tool to accept `target_move` and `active_pokemon_name` as arguments. This directly addresses a key finding from my self-assessment and an Overwatch critique, making the tool reusable for any Pokémon in any trivial battle, thus improving automation efficiency.",
         "timestamp": "2025-09-05T06:51:16.342Z",
         "action_counter": 191098
+      },
+      {
+        "commit_message": "refactor: Change tool to use move index instead of name. The previous version used a hardcoded number of 'Down' presses which was unreliable as it depended on a specific moveset order. This new version takes a `target_move_index` (0-3) as input, making it flexible for any Pokémon while remaining simple and robust. This directly addresses the tool failure in the last battle.",
+        "timestamp": "2025-09-05T08:21:42.293Z",
+        "action_counter": 191185
       }
     ]
   }
