@@ -20,6 +20,7 @@
 - `🗝️ Puzzle Solved/Obstacle Cleared`: For puzzles or obstacles that have been overcome.
 - `💬 Non-Battling NPC`: For NPCs that have been confirmed to not engage in battle.
 - `💖 Healing Zone`: For tiles that provide party healing.
+- `➡️ Arrival Point`: For the tile where I arrive on a new map after a transition.
 ## B. Tile Traversal & Movement Rules
 - `elevated_ground` & `steps`: Movement between `ground` and `elevated_ground` is only possible via a `steps` tile.
 - Ladders & Elevation: Movement between a `ladder_up`/`ladder_down` tile and an adjacent `elevated_ground` tile is possible.
@@ -62,7 +63,7 @@
 - Observation: Reached the top floor (7F) of the Pokémon Tower. The path is a confirmed dead end with no visible exits or interactable objects.
 - Hypothesis 1 (Failed - 15+ attempts): Interacting with Pikachu or the environment would trigger a cutscene. Conclusion: This was a severe case of Confirmation Bias. Standard interaction is not the solution.
 - Hypothesis 2 (Failed - Agent Suggestion): Use the POKé FLUTE at the northernmost point (12, 3) to trigger a spectral event. Result: The game displayed text confirming the flute was played, but no event occurred. Conclusion: The POKé FLUTE has no special effect on this floor.
-- Hypothesis 3 (Failed - 1 attempt): Use the SILPH SCOPE from the item menu at (12, 3). Result: The game displayed the message "This isn't the time to use that!", preventing its use. Conclusion: The SILPH SCOPE cannot be actively used to solve this puzzle.
+- Hypothesis 3 (Failed - 1 attempt): Use the SILPH SCOPE from the item menu at (12, 3). Result: The game displayed the message "This isn't the time to use that!", preventing its use. Conclusion: The item cannot be actively used from a distance.
 - Hypothesis 4 (Failed - 1 attempt): The SILPH SCOPE's effect is passive. Its presence in the inventory will automatically trigger an event by walking into the entity at (10, 16). Result: Movement was blocked. Conclusion: The item's effect is not passive in this manner.
 - Hypothesis 5 (Failed - 1 attempt): Actively use the SILPH SCOPE from the item menu while standing adjacent to the invisible entity at (10, 16). Result: The game displayed the message "This isn't the time to use that!", preventing its use. Conclusion: Actively using the SILPH SCOPE from the menu is not the solution.
 - Hypothesis 6 (Failed - 1 attempt): Register the SILPH SCOPE to the SELECT button, then press SELECT while adjacent to the entity at (10, 16). Result: The item sub-menu does not have a "REGISTER" option, only "USE", "INFO", and "TOSS". Conclusion: This method of interaction is not possible.
@@ -98,6 +99,15 @@
 - Menu Cursor Behavior (Critical Lesson): Menu cursor starting positions are non-deterministic. Tools must force a known state (e.g., by spamming 'Up') rather than assuming a start position.
 - Sequential Tool Call Failure: Calling multiple menu-altering tools in the same turn is unreliable. Only one should be called per turn.
 - Decoy Entrances: Be wary of entrances that lead to isolated areas (e.g., Cerulean Cave's fake entrance).
+## C. Tool Malfunctions & Bugs
+- `find_path` Failure (Route 7): The tool is currently bugged on Route 7 (ID 18). It incorrectly reports paths as blocked by impassable tiles when they are clear (e.g., path from (20, 10) to the grassy area). Manual navigation is required on this map until the tool can be debugged and fixed.
+## D. Untested Assumptions & Future Development
+- Mewtwo's Location: While Cerulean Cave is the strongest lead, it is not 100% confirmed to be Mewtwo's only possible location. I must remain open to other possibilities if the cave does not yield results.
+- Fly Menu Order: I have been assuming the list of flyable locations is in a fixed, static order. I need to test if this order can change based on my current location or other factors.
+- Route 10 North Connectivity: I have assumed the northern section of Route 10 is a dead end that only leads to the Power Plant. I need to fly back to Cerulean City and approach from Route 9 to test if there are other paths I missed.
+- **Tool Development Idea:** `auto_battle_trivial_encounter`: A tool to fully automate battles against low-level wild Pokémon. It would take a move name as input and handle selecting FIGHT, navigating the menu, and executing the move in one go.
+- **Tool Development Idea:** `register_item_to_select`: A tool to automate registering a key item to the SELECT button. This would involve parsing the item menu, selecting the item, and choosing the 'REGISTER' option. This would be useful if this becomes a recurring puzzle mechanic.
+- **Agent Development Idea:** `Retreat Strategist`: An agent to be called after a party wipe or when a primary goal is critically stalled. It would analyze the last known safe location (e.g., last used Pokémon Center), the player's available HMs (like Fly), and the nature of the obstacle that caused the failure (e.g., 'party wipe due to unexpected high-level trainer' or 'navigational dead end'). Its output would be a recommended, safe location to retreat to (e.g., 'Fly to Pallet Town') and a high-level suggestion for the next course of action (e.g., 'Regroup and train' or 'Investigate alternative routes from a different hub city').
 
 # VI. Self-Correction & Hallucination Log
 ## A. Navigational Hallucinations
@@ -105,6 +115,8 @@
 - Route 24 Unseen Tiles (Turn 188804): Incorrectly reported 67 reachable unseen tiles when there were 0. Conclusion: Manual assessment is unreliable. MUST use `map_analyzer`.
 - Warp Hallucination (Cerulean Gym - Turn 188811): Incorrectly reported 0 reachable warps when the exit was reachable. Conclusion: MUST use `map_analyzer`.
 - Dead End Hallucination (Cerulean Cave B1F - Turn 189197): Incorrectly reported being in a dead end. Conclusion: Reinforces the absolute necessity of the `map_analyzer` tool.
+- Saffron City Warp Reachability (Turn 190629): Incorrectly reported a warp at (30, 30) as unreachable due to a moving NPC, causing a system warning. This reinforces that my manual assessment of reachability is flawed and I must rely on system data.
+- Route 7 Dead End (Turn 190623): Incorrectly assessed Route 7 as a dead end, triggering a critical system warning. I must trust the system's data that another exit exists, even if my tools and visual assessment fail to find it.
 ## B. Positional & Turn Count Hallucinations
 - Route 24 Arrival (Turn 188858): Hallucinated arrival coordinates. Conclusion: Must always verify position from Game State after map transitions.
 - Turn Numbers (Multiple): Hallucinated the turn number. Conclusion: Must always trust the Game State Information.
@@ -117,18 +129,8 @@
 - Critique (Turn 189302): The tool lacked diagnostic features for map partitioning.
 - Resolution (Turn 189308 & 189328): The tool was successfully updated to perform a reachability analysis and report failures due to disconnected map partitions. A critical typo in the XML library import was also fixed.
 
-# VIII. Untested Assumptions & Future Development
-## A. Untested Assumptions
-- Mewtwo's Location: While Cerulean Cave is the strongest lead, it is not 100% confirmed to be Mewtwo's only possible location. I must remain open to other possibilities if the cave does not yield results.
-- Fly Menu Order: I have been assuming the list of flyable locations is in a fixed, static order. I need to test if this order can change based on my current location or other factors.
-- Route 10 North Connectivity: I have assumed the northern section of Route 10 is a dead end that only leads to the Power Plant. I need to fly back to Cerulean City and approach from Route 9 to test if there are other paths I missed.
-## B. Tool Development Ideas
-- `use_hm_from_party_menu`: A tool to automate the multi-step process of using a field move like Cut or Fly. It would take the Pokémon's name and the move/destination as input, parse the menu, and execute the necessary navigation to use the move. This consolidates previous ideas for Fly and general HM usage.
-- `automated_item_discarder`: A tool that takes an item name and quantity, then automatically executes the menu navigation to discard it. This would streamline inventory management and avoid manual input errors, but would need to be robust enough to handle the 'Menu Input Blocking' mechanic.
-- `auto_battle_trivial_encounter`: A tool to fully automate battles against low-level wild Pokémon. It would take a move name as input and handle selecting FIGHT, navigating the menu, and executing the move in one go.
-- `register_item_to_select`: A tool to automate registering a key item to the SELECT button. This would involve parsing the item menu, selecting the item, and choosing the 'REGISTER' option. This would be useful if this becomes a recurring puzzle mechanic.
-## C. Puzzle Solving & Agent Usage
-- Lesson (Cerulean Gym): I fell into a confirmation bias loop trying to interact with Pikachu at (5, 4). After multiple failures, I correctly pivoted to a new hypothesis (Pikachu must stand on the tile), which worked. Correction: I must recognize these loops faster and use my `puzzle_solver_agent` to generate new hypotheses when my own attempts fail more than twice.
-- Inventory Slot Management (CRITICAL LESSON): Discarding a partial stack of an item does NOT free up an inventory slot. To create space, an entire stack of an item must be discarded. My `inventory_manager` agent has been updated to reflect this.
-## C. Tool Malfunctions & Bugs
-- `find_path` Failure (Route 7): The tool is currently bugged on Route 7 (ID 18). It incorrectly reports paths as blocked by impassable tiles when they are clear (e.g., path from (20, 10) to the grassy area). Manual navigation is required on this map until the tool can be debugged and fixed.
+# VIII. Puzzle Solving & Agent Usage
+## A. Cerulean Gym Puzzle
+- Lesson: I fell into a confirmation bias loop trying to interact with Pikachu at (5, 4). After multiple failures, I correctly pivoted to a new hypothesis (Pikachu must stand on the tile), which worked. Correction: I must recognize these loops faster and use my `puzzle_solver_agent` to generate new hypotheses when my own attempts fail more than twice.
+## B. Inventory Slot Management (CRITICAL LESSON)
+- Discarding a partial stack of an item does NOT free up an inventory slot. To create space, an entire stack of an item must be discarded. My `inventory_manager` agent has been updated to reflect this.
