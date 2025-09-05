@@ -116,6 +116,7 @@
 - Saffron City Warp Reachability (Turn 190629): Incorrectly reported a warp at (30, 30) as unreachable due to a moving NPC, causing a system warning. This reinforces that my manual assessment of reachability is flawed and I must rely on system data.
 - Route 7 Dead End (Turn 190623): Incorrectly assessed Route 7 as a dead end, triggering a critical system warning. I must trust the system's data that another exit exists, even if my tools and visual assessment fail to find it.
 - Cerulean Cave Entrance: Assumed the main entrance to Cerulean Gym at (5, 12) was the warp to Cerulean Cave. This is incorrect. The tile is not a warp, and the gym is a dead end. The true entrance must be found elsewhere in Cerulean City.
+- Mt. Moon 1F (Turn 192757 - CRITICAL): Incorrectly assessed the map as a dead end. A system warning corrected me, pointing out there were 4 reachable exits (warps). This is a critical failure in applying my own dead-end definition. Lesson: I must systematically verify all reachable warps and connections before concluding an area is a dead end. My manual assessment is unreliable.
 ## B. Positional & Turn Count Hallucinations
 - Route 24 Arrival (Turn 188858): Hallucinated arrival coordinates. Conclusion: Must always verify position from Game State after map transitions.
 - Turn Numbers (Multiple): Hallucinated the turn number. Conclusion: Must always trust the Game State Information.
