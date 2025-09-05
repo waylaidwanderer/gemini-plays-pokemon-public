@@ -147,3 +147,5 @@
 - **Marker Usage Failure:** I wasted a turn trying to interact with a Fisher on Route 12 that I had *already marked* as a non-battler. This is a failure to use my own documented data. I MUST check map markers for a target tile before planning an interaction.
 - **Proactive Tile Testing:** I have not been diligent about testing tiles that appear impassable, like fences. I need to add this to my standard exploration procedure to avoid missing hidden paths in this ROM hack.
 - **Untested Assumption:** The hypothesis that the Underground Path connects Route 7 and Route 8 remains untested. I will keep this in mind as a potential alternate route if my current path is blocked.
+## D. Navigation Puzzles
+- Route 8 Gatehouse: The gatehouse connecting the two halves of Route 8 has a 1x2 warp. To enter from the west, I had to stand on the southern tile (2, 11) and press Right.
