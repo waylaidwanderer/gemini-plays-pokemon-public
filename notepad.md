@@ -103,13 +103,6 @@
 - Decoy Entrances: Be wary of entrances that lead to isolated areas (e.g., Cerulean Cave's fake entrance).
 ## C. Tool Malfunctions & Bugs
 - `find_path` on Route 7 (Correction): The tool is NOT bugged. My previous assessment was a hallucination. The tool correctly identifies that Route 7 is partitioned by impassable ledges and walls. The eastern and western sections are not connected on this map. The tool's 'no path found' result is accurate.
-## D. Untested Assumptions & Future Development
-- Mewtwo's Location: While Cerulean Cave is the strongest lead, it is not 100% confirmed to be Mewtwo's only possible location. I must remain open to other possibilities if the cave does not yield results.
-- Fly Menu Order: I have been assuming the list of flyable locations is in a fixed, static order. I need to test if this order can change based on my current location or other factors.
-- Route 10 North Connectivity: I have assumed the northern section of Route 10 is a dead end that only leads to the Power Plant. I need to fly back to Cerulean City and approach from Route 9 to test if there are other paths I missed.
-- **Tool Development Idea:** `auto_battle_trivial_encounter`: A tool to fully automate battles against low-level wild Pokémon. It would take a move name as input and handle selecting FIGHT, navigating the menu, and executing the move in one go.
-- **Tool Development Idea:** `register_item_to_select`: A tool to automate registering a key item to the SELECT button. This would involve parsing the item menu, selecting the item, and choosing the 'REGISTER' option. This would be useful if this becomes a recurring puzzle mechanic.
-- **Agent Development Idea:** `Retreat Strategist`: An agent to be called after a party wipe or when a primary goal is critically stalled. It would analyze the last known safe location (e.g., last used Pokémon Center), the player's available HMs (like Fly), and the nature of the obstacle that caused the failure (e.g., 'party wipe due to unexpected high-level trainer' or 'navigational dead end'). Its output would be a recommended, safe location to retreat to (e.g., 'Fly to Pallet Town') and a high-level suggestion for the next course of action (e.g., 'Regroup and train' or 'Investigate alternative routes from a different hub city').
 
 # VI. Self-Correction & Hallucination Log
 ## A. Navigational Hallucinations
@@ -122,9 +115,6 @@
 ## B. Positional & Turn Count Hallucinations
 - Route 24 Arrival (Turn 188858): Hallucinated arrival coordinates. Conclusion: Must always verify position from Game State after map transitions.
 - Turn Numbers (Multiple): Hallucinated the turn number. Conclusion: Must always trust the Game State Information.
-## C. Methodological Improvements
-- Proactive Tile Testing: I need to be diligent in testing tiles that appear impassable (like small fences or rocks) to confirm their properties, as ROM hacks can have unusual traversal rules.
-- Hypothesis Falsification: A key part of the scientific method is trying to prove a hypothesis wrong. After a test seems to confirm a hypothesis, I should perform another test that tries to *disprove* it to avoid confirmation bias.
 
 # VII. System Critiques & Resolved Tasks
 ## A. `find_path` Tool Refinement (Resolved)
