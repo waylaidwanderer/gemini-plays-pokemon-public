@@ -139,3 +139,5 @@
 
 # VIII. Multi-Turn Manual Processes
 - **Using HMs (e.g., CUT):** This is a multi-turn process that cannot be automated with a single tool. The sequence is: 1. Stand adjacent to and face the target. 2. Press Start to open the menu. 3. Navigate to and select 'POKéMON'. 4. Navigate to and select the Pokémon with the HM. 5. Navigate to and select the HM move from the sub-menu. 6. Press A to use it.
+- **safari_zone_navigator_agent**: An agent that can plan an optimal route through the Safari Zone to a specific target, taking the step and time limits into account.
+- **select_hm_tool**: A specialized version of `select_menu_option` that takes an HM name (e.g., 'SURF') as input and generates the button presses to select it from the correct Pokémon's move list. This would streamline the multi-turn HM usage process.
