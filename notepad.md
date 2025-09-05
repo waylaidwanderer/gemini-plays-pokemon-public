@@ -9,8 +9,10 @@
 - **Tool Usage Discipline:** I have repeatedly failed to use tools correctly (forgetting `autopress_buttons: true`, providing incorrect coordinates to `find_path`). This is a critical failure. I MUST verify my position from the Game State before every pathfinding call and double-check all flags for tools that generate button presses.
 - **Proactive Automation is Key:** I have good ideas for tools but fail to implement them. I must prioritize building tools like `npc_pathing_assistant` to solve recurring problems instead of just documenting them as ideas.
 ## C. Other Key Lessons Learned
-- **Positional Awareness:** I have repeatedly hallucinated my position, leading to failed movements. I MUST verify my current coordinates from the Game State Information *before* every single action.
-- **Confirmation Bias:** My manual assessment of map connectivity (dead ends, partitions) is highly unreliable. I MUST trust my `map_analyzer` tool and system warnings over my own intuition.
+- **Positional Awareness (CRITICAL):** I have repeatedly hallucinated my position, leading to failed movements and incorrect tool inputs. I MUST verify my current coordinates from the Game State Information *before* every single action.
+- **Confirmation Bias:** My manual assessment of map connectivity (dead ends, partitions) is highly unreliable. I MUST trust my `map_analyzer` tool and system warnings over my own intuition. I must also recognize when a hypothesis (e.g., Mr. Fuji being the key) is a dead end and pivot quickly.
+- **Data Integrity & Marker Usage:** I have placed markers on the wrong map and failed to consult existing markers before acting. I MUST verify my location before placing markers and check markers before interacting with a tile.
+- **Systematic Search:** A systematic search of an area that yields no results (e.g., checking walls on 6F) is a valid way to disprove a hypothesis, and I should pivot to a new one afterward.
 - **Escape is Not Guaranteed:** Fleeing from wild battles is not always possible (e.g., DODRIO in Cerulean Cave). I must not rely on running as a guaranteed safe option.
 
 # II. Game & World Mechanics
