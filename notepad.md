@@ -24,6 +24,7 @@
 - `💖 Healing Zone`: For tiles that provide party healing.
 - `➡️ Arrival Point`: For the tile where I arrive on a new map after a transition.
 ## B. Tile Traversal & Movement Rules
+- `ground` / `impassable`: Basic walkable and non-walkable tiles.
 - `elevated_ground` & `steps`: Movement between `ground` and `elevated_ground` is only possible via a `steps` tile.
 - Ladders & Elevation: Movement between a `ladder_up`/`ladder_down` tile and an adjacent `elevated_ground` tile is possible.
 - `teleport`: Instant warp tile within the same logical location.
@@ -64,7 +65,7 @@
 ## A. Pokémon Tower 7F (Ghost Puzzle)
 - **Current Status:** All attempts to interact with the ghost on 7F using the SILPH SCOPE or other items have failed. Speaking to Mr. Fuji resulted in a dialogue loop about his POKé FLUTE, providing no new information. This path is a dead end.
 - **New Hypothesis:** The solution is not on 7F. There may be a hidden switch or alternate path on a lower floor (5F or 6F) that was previously missed.
-- **Next Action:** Thoroughly re-explore Pokémon Tower 5F and 6F. Test every wall and interact with every object.
+- **Next Action:** Thoroughly re-explore Pokémon Tower 5F, focusing on the area around the healing zone.
 
 ## B. Untested Assumptions
 - **Assumption:** The ghost on 7F is the *only* way forward.
@@ -73,16 +74,16 @@
 - **Test:** If re-exploration fails, I must re-evaluate my key items to see if another item has a hidden purpose.
 
 # IV. Solved Puzzles & Mechanics Reference
-
-## C. Boulder Puzzle Mechanics
+## A. Boulder Puzzle Mechanics
 - Objective: Boulders are often pushed into holes to block water currents on lower floors.
 - Movement: Pushing is a multi-turn action. Must be adjacent. First press turns/pushes. Subsequent pushes require moving to the new adjacent tile first.
 - Surfing Limitation: Cannot push boulders while surfing (confirmed on Seafoam Islands B3F).
-## D. Navigation Puzzles
+## B. Navigation Puzzles
 - Cerulean City River: The city is divided by a river. The western section (where you arrive from Route 4) and the eastern section (where the path to Route 9 is) are separated. To cross between them, I must use Surf.
 - Mt. Moon Entrances: There are two entrances to Mt. Moon from Route 4. The western entrance at (19, 6) leads to an isolated, dead-end section. The eastern entrance at (25, 6) leads to the main cave system and the path forward to Cerulean City.
 - Route 8 Gatehouse: The gatehouse connecting the two halves of Route 8 has a 1x2 warp. To enter from the west, I had to stand on the southern tile (2, 11) and press Right.
-## E. Item & Store Data
+- Snorlax Puzzle (Route 12): The item menu is a single, scrollable list. After selecting 'ITEM' from the main menu, scroll down past the HMs (indicated by a '↓' arrow) to find Key Items like the POKé FLUTE. Using it from this menu wakes the Snorlax.
+## C. Item & Store Data
 ### Item Locations & Vendors
 - Route 12 Super Rod House: Fishing Guru gives the SUPER ROD.
 ### Celadon Department Store (Reference)
@@ -96,7 +97,6 @@
 ## B. Key Development Lessons
 - `select_pokemon_from_party` Critical Failure (Turns 189613-189620): The tool repeatedly failed to parse the multi-line party menu, causing incorrect Pokémon selections even after multiple fix attempts. The current implementation is fundamentally flawed. Conclusion: Manual selection is required until a complete redesign and robust testing can be performed in a safe environment.
 - `use_hm_from_party` Manual Test (Cut): Discovered player must be facing the target *before* opening the menu.
-- Snorlax Puzzle (Route 12): Confirmed item menu is a single scrollable list, not pocketed.
 - Menu Cursor Behavior (Critical Lesson): Menu cursor starting positions are non-deterministic. Tools must force a known state (e.g., by spamming 'Up') rather than assuming a start position.
 - Sequential Tool Call Failure: Calling multiple menu-altering tools in the same turn is unreliable. Only one should be called per turn.
 - Decoy Entrances: Be wary of entrances that lead to isolated areas (e.g., Cerulean Cave's fake entrance).
@@ -125,7 +125,6 @@
 - Lesson: I fell into a confirmation bias loop trying to interact with Pikachu at (5, 4). After multiple failures, I correctly pivoted to a new hypothesis (Pikachu must stand on the tile), which worked. Correction: I must recognize these loops faster and use my `puzzle_solver_agent` to generate new hypotheses when my own attempts fail more than twice.
 ## B. Inventory Slot Management (CRITICAL LESSON)
 - Discarding a partial stack of an item does NOT free up an inventory slot. To create space, an entire stack of an item must be discarded. My `inventory_manager` agent has been updated to reflect this.
-- **Tool/Agent Development Idea:** `npc_pathing_assistant`: An agent or tool to handle navigation around moving NPCs. It could take start/end coordinates and a blocking sprite ID. If the path is blocked by that NPC, it could suggest using `stun_npc` at a strategic location or calculate a path that waits for the NPC to move out of the way.
 
 # IX. Self-Assessment Log
 - **Data Integrity Failure (Turn 190738 & 190751):** I had major navigational hallucinations, believing I was on the wrong route and placing markers on the wrong map. This is a critical failure. I MUST always verify my location from the Game State *before* placing markers or making navigational decisions.
@@ -143,11 +142,8 @@
 - `auto_battle_trivial_encounter` (Improvement): The current tool relies on a hardcoded moveset for REVENANT. A more robust version would parse the active Pokémon's moves from the screen or take them as an argument to be more flexible.
 - `npc_pathing_assistant`: An agent or tool to handle navigation around moving NPCs. It could take start/end coordinates and a blocking sprite ID. If the path is blocked by that NPC, it could suggest using `stun_npc` at a strategic location or calculate a path that waits for the NPC to move out of the way.
 
-# XI. Self-Assessment Insights (Turn 190995)
+# XI. Self-Assessment Insights (Turn 190995 & 191047)
 - **Positional Awareness Failure (CRITICAL):** I have repeatedly hallucinated my position (e.g., Turn 190985), leading to failed movements and incorrect tool inputs. I MUST verify my current coordinates from the Game State Information *before* every single action.
 - **Tool Usage Failure (CRITICAL):** I have failed to use my own tools correctly (e.g., omitting `autopress_buttons: true` for `auto_battle_trivial_encounter` on Turns 190983 & 190984), causing repeated failed turns. I must verify the arguments and flags for every tool call.
 - **Confirmation Bias (Mr. Fuji):** My hypothesis that Mr. Fuji was the key to the ghost puzzle was based on an assumption. After he entered a dialogue loop, I correctly identified this as a dead end and pivoted to a new hypothesis, which is the correct procedure.
-
-# VI. Reference Library (Solved Puzzles, Mechanics, etc.)
-## B. Snorlax Puzzle (Route 12)
-- The item menu is a single, scrollable list. After selecting 'ITEM' from the main menu, scroll down past the HMs (indicated by a '↓' arrow) to find Key Items like the POKé FLUTE. Using it from this menu wakes the Snorlax.
+- **Systematic Search Failure (6F):** My systematic search of walls on 6F for a hidden switch yielded no results. This hypothesis is likely incorrect. I have correctly pivoted to investigating the 5th floor.
