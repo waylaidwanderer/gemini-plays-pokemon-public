@@ -151,3 +151,5 @@
 - **Positional Awareness Failure (CRITICAL):** I have repeatedly hallucinated my position (e.g., Turn 190985), leading to failed movements and incorrect tool inputs. I MUST verify my current coordinates from the Game State Information *before* every single action.
 - **Tool Usage Failure (CRITICAL):** I have failed to use my own tools correctly (e.g., omitting `autopress_buttons: true` for `auto_battle_trivial_encounter` on Turns 190983 & 190984), causing repeated failed turns. I must verify the arguments and flags for every tool call.
 - **Confirmation Bias (Mr. Fuji):** My hypothesis that Mr. Fuji was the key to the ghost puzzle was based on an assumption. After he entered a dialogue loop, I correctly identified this as a dead end and pivoted to a new hypothesis, which is the correct procedure.
+
+# VI. Reference Library (Solved Puzzles, Mechanics, etc.)
