@@ -117,3 +117,6 @@
 ## A. Key Trainer Rosters
 - **Nurse Joy (Fuchsia Pokecenter):** KANGASKHAN (Lv 65): DOUBLE-EDGE, DOUBLE TEAM; SNORLAX (Lv 65): ICE BEAM, REST
 - **Mt. Moon B2F Navigable Warps & Dead End (Turn 193068 - CRITICAL):** Received a system warning for reporting 2 navigable warps when there was only 1, leading to an incorrect dead-end calculation. This is a failure to trust my `map_analyzer` tool over manual assessment. LESSON: I MUST always trust the output of my system tools for calculating reachability and dead-end status. Manual verification has repeatedly proven unreliable.
+
+# V. Self-Correction & Hallucination Log (Addendum)
+- **Map ID Mismatch (Turn 193072 - CRITICAL):** Hallucinated a map change from B2F to B1F that did not occur. **LESSON: I MUST verify the `current_map_id` from the Game State Information after every warp attempt to confirm the transition was successful before proceeding.**
