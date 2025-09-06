@@ -64,3 +64,4 @@
 - CELADON CITY
 - VERMILION CITY
 - LAVENDER TOWN
+- **Lesson: Mt. Moon Partitions:** The lower floors of Mt. Moon are heavily partitioned. My pathfinding tools were failing because I was trying to navigate between disconnected areas. I repeatedly misidentified these partitions as dead ends, failing to account for all reachable warps. I must trust system data on reachability over my own flawed manual assessments or old markers.
