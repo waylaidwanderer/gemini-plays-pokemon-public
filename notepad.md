@@ -147,3 +147,7 @@
 # VI. Battle Data
 ## A. Key Trainer Rosters
 - **Nurse Joy (Fuchsia Pokecenter):** KANGASKHAN (Lv 65): DOUBLE-EDGE, DOUBLE TEAM; SNORLAX (Lv 65): ICE BEAM, REST
+
+# VI. Battle Data
+## A. Key Trainer Rosters
+- **Nurse Joy (Fuchsia Pokecenter):** KANGASKHAN (Lv 65): DOUBLE-EDGE, DOUBLE TEAM; SNORLAX (Lv 65): ICE BEAM, REST
