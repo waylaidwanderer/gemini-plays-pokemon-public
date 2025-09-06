@@ -64,12 +64,6 @@
 - **Lesson: Battle Move Selection:** The move selection menu is a single-column list navigated with UP/DOWN only. LEFT/RIGHT have no effect.
 - **Lesson: Fly Destination Verification:** The `automated_fly_navigator` tool correctly identifies invalid destinations. I must verify that a location is on the Fly menu list *before* attempting to navigate to it. Pewter City is not a flyable location.
 
-## B. New Tool & Agent Ideas
-- **`automated_battle_move_selector`**: A tool that takes the output of `battle_strategist_agent` and fully automates the move selection process.
-- **`automated_pokecenter_healer`**: A tool to automate the dialogue sequence for healing Pokémon at any Pokémon Center.
-- **`puzzle_solver_agent`**: Takes current puzzle context and generates new hypotheses to test. Ideal for complex logical problems like the Officer Jenny situation.
-- **Pathfinder Refinement:** Update `automated_path_navigator` to recognize cuttable trees as potential paths, reporting that 'Cut is required' rather than 'No path found'.
-
 ## C. Fly Menu Order (Data Gathering)
 - PALLET TOWN
 - SAFFRON CITY
