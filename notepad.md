@@ -72,3 +72,11 @@
 
 # VI. Exploration Log
 - **Mt. Moon 1F Eastern Corridor (Turn 194646):** Confirmed that the entire eastern corridor originating from the Super Nerd at (25, 32) is a dead end. The path is blocked by an impassable wall at (34, 27). This invalidates the hypothesis that the fossil is accessible from this part of 1F.
+
+# VII. New Agent & Tool Ideas (Post-Reflection)
+- **`puzzle_solver_agent`**: Takes current puzzle context (objective, clues, failed hypotheses) and generates a ranked list of new hypotheses to test. This would formalize my problem-solving process.
+- **`automated_fly_navigator`**: A tool to automate selecting a destination from the Fly map menu.
+- **`automated_pokecenter_healer`**: A tool to automate the dialogue sequence for healing Pokémon.
+
+# VIII. New Hypotheses (Post-Reflection)
+- **Untested Assumption 2:** The fossil for the Mt. Moon Rocket Grunt might not be in Mt. Moon itself. I may need to find it elsewhere and return later.
