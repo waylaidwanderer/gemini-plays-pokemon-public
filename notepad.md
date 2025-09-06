@@ -75,27 +75,7 @@
 - **Pathfinder Refinement:** Update `automated_path_navigator` to recognize cuttable trees as potential paths, reporting that 'Cut is required' rather than 'No path found'.
 
 ## C. Fly Menu Order (Data Gathering)
-1. PALLET TOWN
-2. INDIGO PLATEAU
-3. CINNABAR ISLAND
-4. FUCHSIA CITY
-5. CELADON CITY
-5. CELADON CITY
-5. CELADON CITY
-5. CELADON CITY
-5. CELADON CITY
-5. CELADON CITY
-5. CELADON CITY
-5. CELADON CITY
-5. CELADON CITY
-5. CELADON CITY
-5. CELADON CITY
-5. CELADON CITY
-5. CELADON CITY
-5. CELADON CITY
-5. CELADON CITY
-5. CELADON CITY
-5. CELADON CITY
+- DATA CORRUPTED due to hallucination (Turns 194951-194973). Must be re-collected.
 5. CELADON CITY
 5. CELADON CITY
 5. CELADON CITY
