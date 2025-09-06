@@ -1158,7 +1158,7 @@
         "target_option"
       ]
     },
-    "python_script": "import json\n\ntry:\n    menu_data = json.loads(input_data['menu_analyzer_output'])\n    target_option_text = input_data['target_option']\n\n    cursor_pos = menu_data.get('cursor_position')\n    options = menu_data.get('options', [])\n\n    if not cursor_pos or not options:\n        print(json.dumps({\"error\": \"Invalid menu_analyzer_output: missing cursor_position or options.\"}))\n    else:\n        target_option = None\n        for option in options:\n            if option['text'] == target_option_text:\n                target_option = option\n                break\n\n        if not target_option:\n            print(json.dumps({\"error\": f\"Target option '{target_option_text}' not found in menu.\"}))\n        else:\n            target_pos = target_option['position']\n            dx = target_pos['x'] - cursor_pos['x']\n            dy = target_pos['y'] - cursor_pos['y']\n\n            buttons = []\n            if dx > 0:\n                buttons.extend(['Right'] * dx)\n            elif dx < 0:\n                buttons.extend(['Left'] * abs(dx))\n            \n            if dy > 0:\n                buttons.extend(['Down'] * dy)\n            elif dy < 0:\n                buttons.extend(['Up'] * abs(dy))\n            \n            print(json.dumps({\"buttons\": buttons}))\n\nexcept Exception as e:\n    print(json.dumps({\"error\": str(e)}))",
+    "python_script": "import json\n\nmenu_analyzer_output_str = input_data['menu_analyzer_output']\ntarget_option = input_data['target_option']\n\ntry:\n    menu_data = json.loads(menu_analyzer_output_str)\n    options = menu_data.get('options', [])\n    cursor_position = menu_data.get('cursor_position')\n    layout = menu_data.get('layout', 'single_column')\n\n    if not options or not cursor_position:\n        print(json.dumps({\"error\": \"Invalid menu data provided\"}))\n        exit()\n\n    try:\n        current_index = options.index(cursor_position)\n        target_index = options.index(target_option)\n    except ValueError:\n        print(json.dumps({\"error\": f\"Option '{target_option}' or cursor '{cursor_position}' not found in options list\"}))\n        exit()\n\n    moves = target_index - current_index\n    button_presses = []\n\n    if layout == 'single_column':\n        if moves > 0:\n            button_presses = ['Down'] * moves\n        elif moves < 0:\n            button_presses = ['Up'] * abs(moves)\n\n    print(json.dumps(button_presses))\n\nexcept json.JSONDecodeError:\n    print(json.dumps({\"error\": \"Failed to decode menu_analyzer_output JSON string\"}))\nexcept Exception as e:\n    print(json.dumps({\"error\": str(e)}))",
     "history": [
       {
         "commit_message": "feat: Create select_menu_option tool to automate menu navigation. This is a direct response to a critical Overwatch critique highlighting repeated failures in manual menu selection. This tool will take parsed menu data and a target string to calculate the necessary button presses, making actions like switching Pokémon reliable and efficient. This is a foundational step towards robust automation.",
@@ -1184,6 +1184,11 @@
         "commit_message": "feat: Create select_menu_option tool to automate menu navigation. This is a direct response to a critical Overwatch critique highlighting my failure to implement documented tool ideas. This tool will take parsed menu data and a target string to calculate the necessary button presses, making actions like switching Pokémon reliable and efficient. This is a foundational step towards robust automation.",
         "timestamp": "2025-09-05T17:08:33.939Z",
         "action_counter": 192101
+      },
+      {
+        "commit_message": "fix: Add JSON parsing for menu_analyzer_output. The tool was failing because it received a JSON string but was attempting to treat it as a dictionary. This commit adds the necessary `json.loads()` call to correctly parse the input, which is a critical fix to enable automated menu navigation.",
+        "timestamp": "2025-09-06T04:55:31.148Z",
+        "action_counter": 193297
       }
     ]
   },

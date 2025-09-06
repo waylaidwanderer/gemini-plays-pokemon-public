@@ -45,39 +45,6 @@
 - **Cerulean City River:** The city is divided by a river. To cross between the western and eastern sections, I must use Surf.
 - **Mt. Moon Entrances:** The western entrance at (19, 6) leads to a dead end. The eastern entrance at (25, 6) leads to the main cave system.
 
-## B. Map & World Mechanics
-### 1. Map Marker System
-- `🚪 Used Warp`: For any warp that has been traversed.
-- `☠️ Defeated Trainer`: For any trainer that has been battled.
-- `✅ Item Picked Up`: For any overworld item that has been collected.
-- `🚫 Dead End`: For paths confirmed to lead nowhere.
-- `🗝️ Puzzle Solved/Obstacle Cleared`: For solved puzzles/cleared obstacles.
-- `💬 Non-Battling NPC`: For NPCs confirmed to not battle.
-- `💖 Healing Zone`: For tiles providing party healing.
-- `➡️ Arrival Point`: For arrival tile on a new map.
-
-### 2. Tile Traversal & Movement Rules
-- `ground` / `impassable`: Basic walkable and non-walkable tiles.
-- `elevated_ground` & `steps`: Movement between `ground` and `elevated_ground` only possible via `steps`.
-- `grass`: Tall grass, walkable.
-- `water`: Crossable using Surf.
-- `cuttable`: Tree blocking path, requires HM CUT. Can respawn.
-- `ledge`: One-way obstacle. Jump down from tile directly above (Y-1).
-- `ladder`: Movement possible between a `ladder` and adjacent `elevated_ground`.
-- `teleport`: Instant warp within the same map.
-- `spinner`: Forces movement in a specific direction.
-- `boulder_switch`: Floor switch activated by a boulder.
-
-### 3. Special Mechanics & Discoveries
-- **HM Usage:** Must be adjacent to and facing the target object before opening the party menu.
-- **Boulder Pushing:** A multi-turn action. Cannot be done while surfing.
-- **Auto-Dismount (Surf):** Automatically dismounts when moving from water to land.
-- **SURF vs. DIG:** SURF misses an opponent underground from DIG.
-- **Healing Zone (Pokémon Tower):** 5F at (12, 10) fully heals HP/PP/status. 6F healer at (13, 9) does NOT cure status.
-- **Respawning Obstacles:** Cuttable trees can respawn, even without a map change.
-- **Cerulean City River:** The city is divided by a river. To cross between the western and eastern sections, I must use Surf.
-- **Mt. Moon Entrances:** The western entrance at (19, 6) leads to a dead end. The eastern entrance at (25, 6) leads to the main cave system.
-
 # III. Battle Data & Insights
 ## A. Type Effectiveness & Immunities
 - Electric is not very effective against Electric, Grass/Poison, and Bug/Grass types.
