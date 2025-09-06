@@ -33,6 +33,9 @@
 # III. World Data
 
 ## A. Tile Mechanics (Verified)
+- **`ground`**: Basic walkable tile.
+- **`grass`**: Walkable tile with wild Pokémon encounters.
+- **`impassable`**: Walls and other obstacles that cannot be walked on.
 - **`ledge`**: Can only be jumped down from above (Y-1). Impassable from below and sides.
 - **`steps`**: Allows movement between `ground` and `elevated_ground`.
 - **`elevated_ground`**: Can only be accessed from `steps` or other `elevated_ground` tiles. Cannot be accessed directly from `ground`.
@@ -46,7 +49,7 @@
 - **Seafoam Islands Current:** Solved multi-floor boulder puzzle to stop the strong water current on B4F.
 
 ## C. Key Locations & Discoveries
-- **Mt. Moon Entrances:** The eastern entrance (from Route 3) appears to be the main path forward. The western entrance (from Route 4) connects to a separate, large section of the cave that is currently being explored for an alternate route.
+- **Mt. Moon Entrances:** The eastern entrance (from Route 4, near Route 3) is the presumed main path. The western entrance (from Route 4, near Cerulean) leads to a separate section that was fully explored and confirmed to not contain a fossil.
 - **Celadon Dept. Store:** Sells TMs, stat-boosters, POKé DOLLs, and evolution stones.
 - **Route 12:** Location of the Super Rod House.
 - **Cinnabar Island:** Home to a Pokémon Lab that can regenerate fossils.
@@ -56,7 +59,8 @@
 
 # IV. Active Hypotheses & Test Results
 
-- **Conclusion: Mt. Moon Western Section** - I have fully explored the western section of Mt. Moon (accessed from Route 4 West). It does not contain the required fossil. While I previously believed I was trapped here, this was a navigational error. The area has multiple connections to the rest of the cave. The next step is to exit and explore the eastern section.
+- **Conclusion: Mt. Moon Navigation (Turn 194304):** My previous belief that I was trapped in the western section of Mt. Moon was a hallucination caused by confirmation bias. The area has multiple exits. The correct path forward is to enter Mt. Moon from the eastern entrance on Route 4.
+- **Hypothesis 1:** The eastern section of Mt. Moon contains a fossil needed to pass the Rocket Grunt on B2F. **Test Plan:** Thoroughly explore the eastern section of Mt. Moon.
 - **Untested Assumption 1:** The Officer Jenny blocking the path in Cerulean City is a permanent story block.
 - **Untested Assumption 2:** The Hiker at (6, 7) on Mt. Moon 1F is a non-battling NPC. **Test Plan:** Interact with him at the next opportunity.
 
