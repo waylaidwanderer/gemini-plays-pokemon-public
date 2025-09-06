@@ -63,11 +63,14 @@
 
 # V. Tool & Agent Development
 
-## A. Active Agents & Tools
+## A. Active Agents
 - **`stuck_navigator_agent`**: Suggests high-level navigational pivots when tools fail.
+
+## B. Active Tools
 - **`automated_path_navigator`**: Automates pathfinding and movement, useful for interruption-heavy routes.
 
-## B. Agent & Tool Ideas
+## C. Agent & Tool Ideas
+- **`automated_path_navigator` Improvement:** Refine the tool to provide context on failure (e.g., coordinates and type of blocking tile).
 - **`navigation_manager_agent`**: A stateful agent that remembers a long-term navigation goal and automatically re-plans/re-issues movement commands after interruptions like wild battles.
 - **`exploration_planner_agent`**: Analyzes map sprites to generate an optimal exploration route to all un-interacted-with NPCs and items.
 - **`fossil_finder_agent`**: Analyzes world map data to suggest likely fossil locations.
@@ -75,7 +78,7 @@
 - **`puzzle_documentation_agent`**: Formats puzzle summaries for the notepad.
 - **`notepad_organizer_agent`**: Automates notepad cleaning and reorganization.
 
-## C. Key Development Lessons & Bugs
+## D. Key Development Lessons & Bugs
 - **`use_hm_tool` Failure:** A single tool cannot perform a multi-stage, dynamic menu navigation task. The correct approach is a sequential, multi-turn process using `menu_analyzer` and `select_menu_option`.
 - **Menu Cursor Behavior:** Menu cursor starting positions are non-deterministic. Tools must force a known state rather than assuming a start position.
 - **`map_analyzer` Deletion (Turn 193716):** The tool was fundamentally flawed, failing to parse partitioned maps. After multiple failed fixes, it was deleted as it was a liability causing navigational hallucinations.
