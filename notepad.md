@@ -143,3 +143,7 @@
 ## A. Key Trainer Rosters
 - **Nurse Joy (Fuchsia Pokecenter):** KANGASKHAN (Lv 65): DOUBLE-EDGE, DOUBLE TEAM; SNORLAX (Lv 65): ICE BEAM, REST
 - Mt. Moon B1F Unseen Tiles (Turn 192926 - CRITICAL): Received a system warning for reporting 57 reachable unseen tiles when there were 0. This was a failure in my manual assessment during the construction of the `validation_checks` block. LESSON: I must ALWAYS use my `map_analyzer` tool to generate this data and NEVER rely on manual counting or estimation. This is a direct violation of my 'Trust, but Refine' and 'Confirmation Bias & System Data' lessons.
+
+# VI. Battle Data
+## A. Key Trainer Rosters
+- **Nurse Joy (Fuchsia Pokecenter):** KANGASKHAN (Lv 65): DOUBLE-EDGE, DOUBLE TEAM; SNORLAX (Lv 65): ICE BEAM, REST
