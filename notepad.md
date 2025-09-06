@@ -16,7 +16,7 @@
 # III. Battle Data
 
 ## A. Type Chart (Verified)
-- Electric is not very effective against Electric, Grass/Poison, and Bug/Grass types.
+- Electric is not very effective against Electric and Grass/Poison types.
 - Ground moves do not affect GASTLY (Ghost/Poison).
 - Normal moves do not affect Ghost-types.
 - Normal is super-effective against Ground-types.
