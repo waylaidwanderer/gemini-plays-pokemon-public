@@ -125,11 +125,6 @@
 ## C. Manual Pathing Failures
 - Pokémon Tower 6F (Turn 191168): Manually created a path plan that led directly into an impassable wall at (12, 10). Conclusion: Manual pathing is unreliable. I MUST use the `find_path` tool for all non-trivial navigation.
 
-# VI. Trainer Rosters
-## A. Nurse Joy (Fuchsia Pokecenter)
-- KANGASKHAN (Lv 65): DOUBLE-EDGE, DOUBLE TEAM
-- SNORLAX (Lv 65): ICE BEAM, REST
-
 # VII. Active Hypotheses & Untested Assumptions
 - **Cerulean Cave Entrance:** The entrance is somewhere in Cerulean City.
 - **Officer Jenny:** The block at (29, 13) is a permanent story block.
