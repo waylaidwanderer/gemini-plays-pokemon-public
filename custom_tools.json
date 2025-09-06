@@ -221,7 +221,7 @@
         "target_move"
       ]
     },
-    "python_script": "import json\n\ntry:\n    pokemon_moveset = input_data['pokemon_moveset']\n    target_move = input_data['target_move']\n\n    if target_move not in pokemon_moveset:\n        print(json.dumps({'success': False, 'reason': f'Move \"{target_move}\" not in moveset.'}))\n        exit()\n\n    target_index = pokemon_moveset.index(target_move)\n    \n    # The move menu is a single column, cursor starts at index 0.\n    # We just need to press 'Down' target_index times.\n    button_presses = ['Down'] * target_index\n\n    print(json.dumps(button_presses))\n\nexcept Exception as e:\n    print(json.dumps({'success': False, 'reason': f'An error occurred: {str(e)}'}))\n",
+    "python_script": "import json\ntry:\n    moveset_str = input_data['pokemon_moveset']\n    moveset = json.loads(moveset_str)\n    target = input_data['target_move']\n    if target in moveset:\n        target_index = moveset.index(target)\n        # This assumes the cursor starts at the first move (index 0)\n        num_presses = target_index\n        buttons = [\"Down\"] * num_presses\n        print(json.dumps(buttons))\n    else:\n        print(json.dumps([]))\nexcept Exception as e:\n    print(json.dumps([]))",
     "history": [
       {
         "commit_message": "feat: Create automated_battle_move_selector tool. This is a direct response to a mandatory self-assessment identifying deferred tool creation as a critical failure. This tool automates the repetitive task of selecting a move in battle, improving efficiency and reducing manual error.",
@@ -237,6 +237,16 @@
         "commit_message": "feat: Create automated_battle_move_selector tool. This is a direct response to a mandatory self-assessment identifying deferred tool creation as a critical failure. This tool automates the repetitive task of selecting a move in battle, improving efficiency and reducing manual error.",
         "timestamp": "2025-09-06T22:03:01.667Z",
         "action_counter": 195157
+      },
+      {
+        "commit_message": "fix: Correct button press calculation. The previous version produced an excessive and incorrect number of 'Down' presses. This commit fixes the logic to correctly calculate the number of presses based on the target move's index in the moveset list. This is a critical fix to address a major tool failure.",
+        "timestamp": "2025-09-06T22:29:29.676Z",
+        "action_counter": 195198
+      },
+      {
+        "commit_message": "fix: Add JSON parsing for moveset input. The tool was critically failing because it treated the JSON string of the moveset as a raw string, causing incorrect index calculations and button presses. This commit adds `json.loads()` to correctly parse the input into a Python list, which is a critical fix to address the failure identified by Overwatch.",
+        "timestamp": "2025-09-06T22:31:41.993Z",
+        "action_counter": 195201
       }
     ]
   }
