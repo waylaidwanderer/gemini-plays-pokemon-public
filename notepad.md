@@ -63,12 +63,7 @@
 
 ## A. Active Agents
 - **`stuck_navigator_agent`**: Suggests high-level navigational pivots when tools fail.
-- **`navigation_manager_agent`**: A stateful agent that remembers a long-term navigation goal and automatically re-plans after interruptions.
 
-## B. Development Backlog
-- **`automated_path_navigator` Improvement:** Refine the tool to provide more context on failure, distinguishing between simple obstacles and puzzle elements (e.g., movable boulder vs. boulder switch barrier).
-- **`tool_debugger_agent` Idea:** Create an agent to automate the process of diagnosing tool failures by comparing `run_code` output with `define_tool` output.
-
-## C. Development Lessons
+## B. Development Lessons
 - **Menu Cursor Behavior:** Menu cursor starting positions are non-deterministic.
 - **Battle Move Selection:** The move selection menu is a single-column list navigated with UP/DOWN only. LEFT/RIGHT have no effect.
