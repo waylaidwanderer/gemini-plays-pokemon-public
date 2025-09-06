@@ -119,3 +119,13 @@
 - **Lesson 1: Trust System Data & Tools Over Manual Assessment.** I have repeatedly failed to correctly assess unseen tiles, warp reachability, dead-end status, and turn counts. Manual assessment is unreliable. I MUST ALWAYS use my `map_analyzer` tool for map analysis and trust system warnings and Game State Information (especially turn count and map ID) over my own perception.
 - **Lesson 2: Use Automation for Navigation.** I have repeatedly created manual path plans that failed or were inefficient. I MUST use the `find_path` tool for all non-trivial navigation.
 - **Lesson 3: Verify Map Transitions.** I have hallucinated map changes that did not occur. I MUST verify the `current_map_id` from the Game State Information after every warp to confirm the transition was successful before proceeding.
+
+# VIII. Self-Assessment Insights (Turn 193356)
+## A. New Agent & Tool Ideas
+- **notepad_organizer_agent**: An agent to automate the process of cleaning and reorganizing the notepad based on a set of rules.
+- **navigation_manager_agent**: An agent to remember a long-term navigation goal and automatically re-plan the path after interruptions like wild battles.
+
+## B. Untested Assumptions & Plans
+- **Assumption:** The required fossil is located on the lower floors (B1F or B2F) of Mt. Moon. This is based on the presence of a Rocket Grunt looking for one.
+- **Test Plan:** Systematically explore all reachable areas of B1F and B2F.
+- **Contingency Plan:** If the fossil is not found on the lower floors, I will return to Mt. Moon 1F and use my now-fixed `map_analyzer` tool to perform a full scan for any previously missed partitioned areas.
