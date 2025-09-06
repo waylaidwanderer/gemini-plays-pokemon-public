@@ -55,11 +55,11 @@
 - Poison is not very effective against Ground-types.
 - Wild Pokémon in Cerulean Cave are very fast.
 - Wild GOLEM in Cerulean Cave can use SELFDESTRUCT and EXPLOSION.
-## B. Key Trainer Rosters
-- **Nurse Joy (Fuchsia Pokecenter):** KANGASKHAN (Lv 65): DOUBLE-EDGE, DOUBLE TEAM; SNORLAX (Lv 65): ICE BEAM, REST
-## C. Known Pokemon Locations
+## B. Known Pokemon Locations
 - **Cerulean Cave:** Ditto, Wigglytuff, Electrode, Golem, Raichu, Sandslash, Parasect, Lickitung, Magneton, Dodrio, RHYDON, VICTREEBEL, GOLBAT, KADABRA.
 - **Pokémon Tower:** GASTLY, CUBONE.
+## C. Key Trainer Rosters
+- **Nurse Joy (Fuchsia Pokecenter):** KANGASKHAN (Lv 65): DOUBLE-EDGE, DOUBLE TEAM; SNORLAX (Lv 65): ICE BEAM, REST
 
 # IV. Solved Puzzles & Key Data
 ## A. Major Puzzles
