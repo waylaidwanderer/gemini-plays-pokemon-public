@@ -72,3 +72,4 @@
 ## A. Tile Traversal Rules
 - **Ledges:** Can only be jumped down (from Y-1 to Y+2 in one move). Impassable from below or sides.
 - **Steps:** The only way to move between `ground` and `elevated_ground`.
+- **Ladder Up/Down:** Acts as a warp to a different floor.
