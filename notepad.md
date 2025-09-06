@@ -42,6 +42,7 @@
 - **`elevated_ground`**: Can only be accessed from `steps` or other `elevated_ground` tiles.
 - **`cuttable`**: Can be cut with HM Cut. Respawns on map change.
 - **`ladder_up`/`ladder_down`**: Warps that function as instant transitions between floors.
+- **`water`**: Impassable without the SURF ability.
 
 ## B. Solved Puzzles & Key Events
 - **Snorlax (Routes 11 & 12):** Awakened using the POKé FLUTE from the ITEM menu.
@@ -64,6 +65,8 @@
 ## B. Development Lessons
 - **Lesson: Menu Cursor Behavior:** Menu cursor starting positions are non-deterministic.
 - **Lesson: Battle Move Selection:** The move selection menu is a single-column list navigated with UP/DOWN only. LEFT/RIGHT have no effect.
+## C. New Tool Ideas
+- **`automated_battle_move_selector`**: A tool that takes the output of `battle_strategist_agent` and fully automates the move selection process, including navigating the menu and confirming the move.
 
 # VI. Exploration Log
 - **Mt. Moon 1F Eastern Corridor (Turn 194646):** Confirmed that the entire eastern corridor originating from the Super Nerd at (25, 32) is a dead end. The path is blocked by an impassable wall at (34, 27). This invalidates the hypothesis that the fossil is accessible from this part of 1F.
