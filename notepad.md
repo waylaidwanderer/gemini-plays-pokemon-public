@@ -57,30 +57,20 @@
 - **Hypothesis 1 (Active):** The fossil needed to pass the Rocket Grunt is located in a previously unexplored section of Mt. Moon 1F, accessible from the eastern entrance near the Super Nerd at (25, 32). **Test Plan:** Thoroughly explore the eastern corridors originating from (25, 31).
 - **Untested Assumption 1:** The Officer Jenny blocking the path in Cerulean City is a permanent story block.
 
+# IV. Active Hypotheses & Test Results
+- **Hypothesis 1 (Invalidated):** The fossil needed to pass the Rocket Grunt is located in a previously unexplored section of Mt. Moon 1F. **Result (Turn 194646):** The entire eastern corridor originating from the Super Nerd at (25, 32) is a confirmed dead end.
+- **Hypothesis 2 (Active):** The fossil is located on a lower floor of Mt. Moon (B1F or B2F). **Test Plan:** Systematically re-explore all paths on B1F and B2F, starting from known ladders.
+- **Untested Assumption 1:** The Officer Jenny blocking the path in Cerulean City is a permanent story block.
+
 # V. Tool & Agent Development
-
-## A. Active Agents
-- **`stuck_navigator_agent`**: Suggests high-level navigational pivots when tools fail.
-
-## B. Development Pipeline & Lessons
-- **Lesson: Menu Cursor Behavior:** Menu cursor starting positions are non-deterministic.
-- **Lesson: Battle Move Selection:** The move selection menu is a single-column list navigated with UP/DOWN only. LEFT/RIGHT have no effect.
-- **Tool Idea: Map Connectivity Analyzer:** A tool that takes the map XML and analyzes its structure to identify all distinct, partitioned areas. It would output which warps/connections belong to which partition. This would allow for much more strategic exploration of complex maps like Mt. Moon and prevent wasting time in dead-end zones.
-
-# V. Active Hypotheses & Test Results
-
-- **Hypothesis 1 (Active):** The fossil needed to pass the Rocket Grunt is located in a previously unexplored section of Mt. Moon 1F, accessible from the eastern entrance near the Super Nerd at (25, 32).
-- **Untested Assumption 1 (Identified Turn 194639):** The fossil is located on Mt. Moon 1F. My `map_connectivity_analyzer` confirmed all warps *on this floor* are connected, but this doesn't preclude a separate, unconnected area on a lower floor. **Test Plan:** Thoroughly explore the eastern corridor. If it proves to be a dead end, I must systematically re-explore B1F and B2F via all known ladders to search for missed paths.
-
-# VI. Tool & Agent Development
-
 ## A. Active Agents & Tools
 - **`stuck_navigator_agent`**: Suggests high-level navigational pivots when tools fail.
 - **`map_connectivity_analyzer`**: Analyzes map XML to identify partitioned areas.
-
-## B. Development Pipeline
-- **Tool Idea: Battle Strategist Agent:** An agent that takes my party, the opponent's Pokémon, and known moves to suggest the best course of action. Potentially useful for Elite Four rematches or other difficult encounters.
+## B. Development Pipeline & Lessons
+- **Lesson: Menu Cursor Behavior:** Menu cursor starting positions are non-deterministic.
+- **Lesson: Battle Move Selection:** The move selection menu is a single-column list navigated with UP/DOWN only. LEFT/RIGHT have no effect.
+- **Tool Idea: Map Connectivity Analyzer:** A tool that takes the map XML and analyzes its structure to identify all distinct, partitioned areas.
+- **Tool Idea: Battle Strategist Agent:** An agent that takes my party, the opponent's Pokémon, and known moves to suggest the best course of action.
 
 # VI. Exploration Log
-
 - **Mt. Moon 1F Eastern Corridor (Turn 194646):** Confirmed that the entire eastern corridor originating from the Super Nerd at (25, 32) is a dead end. The path is blocked by an impassable wall at (34, 27). This invalidates the hypothesis that the fossil is accessible from this part of 1F.
