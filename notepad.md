@@ -57,27 +57,20 @@
 - Cerulean Cave: Ditto, Wigglytuff, Electrode, Golem, Raichu, Sandslash, Parasect, Lickitung, Magneton, Dodrio, RHYDON, VICTREEBEL, GOLBAT, KADABRA.
 - Pokémon Tower: GASTLY, CUBONE.
 
-# III. Data & Puzzles
-## A. Boulder Puzzle Mechanics
+# III. Solved Puzzles & Key Data
+## A. Boulder Puzzles
 - Objective: Boulders are often pushed into holes to block water currents on lower floors.
 - Movement: Pushing is a multi-turn action. Must be adjacent. First press turns/pushes. Subsequent pushes require moving to the new adjacent tile first.
 - Surfing Limitation: Cannot push boulders while surfing (confirmed on Seafoam Islands B3F).
 ## B. Navigation Puzzles
-- Cerulean City River: The city is divided by a river. The western section (where you arrive from Route 4) and the eastern section (where the path to Route 9 is) are separated. To cross between them, I must use Surf.
-- Mt. Moon Entrances: There are two entrances to Mt. Moon from Route 4. The western entrance at (19, 6) leads to an isolated, dead-end section. The eastern entrance at (25, 6) leads to the main cave system and the path forward to Cerulean City.
+- Pokémon Tower Ghost Puzzle: The trigger for the ghost event was on a lower floor, unlocked by obtaining the SILPH SCOPE. After calming the Marowak spirit on 6F, I rescued Mr. Fuji from Team Rocket on 7F.
 - Route 8 Gatehouse: The gatehouse connecting the two halves of Route 8 has a 1x2 warp. To enter from the west, I had to stand on the southern tile (2, 11) and press Right.
 - Snorlax Puzzle (Route 12): The item menu is a single, scrollable list. After selecting 'ITEM' from the main menu, scroll down past the HMs (indicated by a '↓' arrow) to find Key Items like the POKé FLUTE. Using it from this menu wakes the Snorlax.
-## C. Pokémon Tower Ghost Puzzle (Solved)
-- The trigger for the ghost event was on a lower floor, unlocked by obtaining the SILPH SCOPE.
-- The Channeler on 2F at (4, 8) has new dialogue after obtaining the SILPH SCOPE, explicitly mentioning it can unmask GHOSTs.
-- After calming the Marowak spirit on 6F, I rescued Mr. Fuji from Team Rocket on 7F.
-## D. Item & Store Data
-### Item Locations & Vendors
+## C. Item & Store Data
 - Route 12 Super Rod House: Fishing Guru gives the SUPER ROD.
-### Celadon Department Store (Reference)
-- 5F: Sells TMs (WATRGUN, PAYDAY, SMCTOSS, TELEPRT) and stat-boosters (HP UP, PROTEIN, etc.).
-- 4F: Sells POKé DOLL and evolution stones (FIRE, THUNDER, WATER).
-- 2F: Sells POKé BALLs, Potions, and TMs (MEGPNCH, RZRWIND, etc.).
+- Celadon Dept. Store: Sells TMs, stat-boosters, POKé DOLL, and evolution stones.
+## D. Key Trainer Rosters
+- **Nurse Joy (Fuchsia Pokecenter):** KANGASKHAN (Lv 65): DOUBLE-EDGE, DOUBLE TEAM; SNORLAX (Lv 65): ICE BEAM, REST
 
 # IV. Agent & Tool Development
 ## A. Agent & Tool Ideas
