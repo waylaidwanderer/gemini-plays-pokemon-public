@@ -36,17 +36,15 @@
 - `spinner`: Forces movement in a specific direction.
 - `boulder_switch`: Floor switch activated by a boulder.
 ## C. Special Mechanics & Discoveries
-- Menu Input Blocking (CRITICAL): Facing an impassable tile blocks that directional input in menus. This makes any menu navigation tool that relies on fixed directional inputs fundamentally unreliable unless the player is in an open space.
+- Menu Input Blocking: Facing an impassable tile blocks that directional input in menus.
 - HM Usage: Must be adjacent to and facing the target object before opening the party menu.
 - Boulder Pushing: A multi-turn action. Cannot be done while surfing.
-- Auto-Dismount from Surf: The game automatically transitions the player from 'surfing' to 'walking' when moving from a water tile to an adjacent, valid land tile. No menu interaction is required.
-- Dead End Definition (Correction): A map is only a dead end if it has only one exit warp/connection and no reachable unseen tiles. The nature of the destination map is irrelevant to this classification.
-- SURF vs. DIG: The move SURF will miss an opponent that is underground from using DIG.
-- Healing Zone: A tile described as a "purified, protected zone" that fully heals all Pokémon in the party's HP and restores all their PP, including curing status conditions. Found on Pokémon Tower 5F at (12, 10). The friendly healer NPC on 6F at (13, 9) does NOT cure status conditions.
-- Respawning Obstacles: Cuttable trees respawn. One was observed at Cerulean City (20, 29). Another instance occurred in Fuchsia City at (17, 12), which changed from 'ground' to 'cuttable' while I was on the map, suggesting they can respawn dynamically without a map change.
-- Proactive Tile Testing: I need to be diligent in testing tiles that appear impassable (like small fences or rocks) to confirm their properties, as ROM hacks can have unusual traversal rules.
-## D. Inventory Management (CRITICAL LESSON)
-- Inventory Over-Capacity: If the inventory count is over the maximum (e.g., 21/20), the displayed item list may be truncated. Tossing an entire stack of an item successfully frees up a slot, bringing the count back to the maximum. Discarding a partial stack does NOT free up an inventory slot.
+- Auto-Dismount (Surf): Automatically dismounts when moving from water to land.
+- Dead End Definition: A map is only a dead end if it has one or fewer exits and no reachable unseen tiles.
+- SURF vs. DIG: SURF misses an opponent underground from DIG.
+- Healing Zone (Pokémon Tower): 5F at (12, 10) fully heals HP/PP/status. 6F healer at (13, 9) does NOT cure status.
+- Respawning Obstacles: Cuttable trees can respawn, even without a map change.
+- Inventory Over-Capacity: Discarding a partial stack does NOT free an inventory slot; the entire stack must be tossed.
 ## E. Type Effectiveness & Insights
 - Electric is not very effective against Electric-types.
 - Electric is not very effective against Grass/Poison dual-types.
