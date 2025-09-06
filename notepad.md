@@ -151,3 +151,4 @@
 # VI. Battle Data
 ## A. Key Trainer Rosters
 - **Nurse Joy (Fuchsia Pokecenter):** KANGASKHAN (Lv 65): DOUBLE-EDGE, DOUBLE TEAM; SNORLAX (Lv 65): ICE BEAM, REST
+- Dead End Calculation Failure (Mt. Moon B2F - Turn 193032 - CRITICAL): Received a system warning for incorrectly reporting `is_in_dead_end_area` as false. The area had only 1 reachable exit and 0 unseen tiles, making it a dead end. LESSON: I must be extremely rigorous when applying the dead-end definition and always trust system data over my own calculations if a discrepancy arises.
