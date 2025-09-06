@@ -80,3 +80,7 @@
 
 ## B. Development Pipeline
 - **Tool Idea: Battle Strategist Agent:** An agent that takes my party, the opponent's Pokémon, and known moves to suggest the best course of action. Potentially useful for Elite Four rematches or other difficult encounters.
+
+# VI. Exploration Log
+
+- **Mt. Moon 1F Eastern Corridor (Turn 194646):** Confirmed that the entire eastern corridor originating from the Super Nerd at (25, 32) is a dead end. The path is blocked by an impassable wall at (34, 27). This invalidates the hypothesis that the fossil is accessible from this part of 1F.
