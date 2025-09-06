@@ -131,7 +131,7 @@
 - SNORLAX (Lv 65): ICE BEAM, REST
 
 # VII. Active Hypotheses & Untested Assumptions
-- **Cerulean Cave Entrance:** The entrance to Cerulean Cave is located somewhere within Cerulean City itself. Test: If all leads within the city are exhausted, systematically explore all exits to surrounding routes (24, 25, 9, 5) for new paths.
-- **Officer Jenny:** Officer Jenny at (29, 13) is a permanent story block and not tied to a different, undiscovered trigger. Test: Re-interact with her only after making significant progress elsewhere in the city or surrounding areas.
-- **Safari Zone Entrance:** The entrance is at (19, 4). Test: Navigate to the coordinates and attempt to enter the warp.
-- **Secret House Location:** The "SECRET HOUSE" is a discoverable, physical location within the Safari Zone map areas. Test: Systematically explore all areas of the Safari Zone.
+- **Cerulean Cave Entrance:** The entrance is somewhere in Cerulean City.
+- **Officer Jenny:** The block at (29, 13) is a permanent story block.
+- **Safari Zone Entrance:** The entrance is at (19, 4).
+- **Secret House Location:** The 'SECRET HOUSE' is a discoverable location within the Safari Zone.
