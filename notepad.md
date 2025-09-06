@@ -45,6 +45,8 @@
 - **Celadon Dept. Store:** Sells TMs, stat-boosters, POKé DOLLs, and evolution stones.
 - **Route 12:** Location of the Super Rod House.
 
+- **Cinnabar Island:** Home to a Pokémon Lab that can regenerate fossils.
+
 ## C. Active Hypotheses
 - **Hypothesis 1:** The required fossil is located on the lower floors of Mt. Moon (B1F/B2F).
     - **Reasoning:** A Rocket Grunt on B2F is looking for one, suggesting their presence.
