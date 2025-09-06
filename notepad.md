@@ -46,6 +46,8 @@
 - **Hypothesis 2 (Invalidated):** The trigger to move Officer Jenny is on Route 24/Nugget Bridge. **Test Result:** Explored the entire route, no Team Rocket activity found.
 - **Hypothesis 3 (Active):** The fossil needed for the Mt. Moon Rocket Grunt is located on a lower floor of Mt. Moon (B1F or B2F). **Test Plan:** Systematically re-explore all paths on B1F and B2F, starting from known ladders.
 
+- **Hypothesis 3 (Active - From Agent):** The fossil is a reward for defeating a specific trainer, likely the Super Nerd on floor B2F who mentions the Cinnabar Island Lab. **Test Plan:** Locate and defeat this Super Nerd to see if he offers a fossil.
+
 # V. Tool & Agent Development
 
 ## A. Development Lessons
