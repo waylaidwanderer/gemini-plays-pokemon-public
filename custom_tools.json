@@ -201,39 +201,42 @@
       }
     ]
   },
-  "automated_fly_navigator": {
-    "description": "Analyzes the Fly menu screen text to determine the current location and calculates the button presses needed to reach a target destination. The Fly menu is a single column list that wraps around.",
+  "automated_battle_move_selector": {
+    "description": "Takes a Pokémon's known moveset and a target move, then calculates the button presses (Up/Down) to select it in the single-column battle menu. This automates move selection.",
     "input_schema": {
       "type": "object",
       "properties": {
-        "screen_text": {
-          "type": "string"
+        "pokemon_moveset": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
         },
-        "target_destination": {
+        "target_move": {
           "type": "string"
         }
       },
       "required": [
-        "screen_text",
-        "target_destination"
+        "pokemon_moveset",
+        "target_move"
       ]
     },
-    "python_script": "import json\nimport re\n\n# Get the input data\nscreen_text = input_data[\"screen_text\"]\ntarget_destination = input_data[\"target_destination\"]\n\n# The correct, verified order of all flyable locations\nfly_locations = [\n    \"PALLET TOWN\",\n    \"SAFFRON CITY\",\n    \"INDIGO PLATEAU\",\n    \"CINNABAR ISLAND\",\n    \"FUCHSIA CITY\",\n    \"CELADON CITY\",\n    \"VERMILION CITY\",\n    \"LAVENDER TOWN\"\n]\n\n# Extract the current location from the screen text\nmatch = re.search(r\"To (\\w+\\s*\\w*)\", screen_text)\nif not match:\n    print(json.dumps({\"error\": \"Could not parse current location from screen text.\"}))\n    exit()\n\ncurrent_location = match.group(1).strip()\n\n# Find the indices of the current and target locations\ntry:\n    current_index = fly_locations.index(current_location)\n    target_index = fly_locations.index(target_destination)\nexcept ValueError:\n    print(json.dumps({\"error\": f\"Invalid location. Current: '{current_location}', Target: '{target_destination}'.\"}))\n    exit()\n\n# Calculate the shortest path (Up or Down)\nnum_locations = len(fly_locations)\ndown_presses = (target_index - current_index + num_locations) % num_locations\nup_presses = (current_index - target_index + num_locations) % num_locations\n\n# Determine the optimal direction and create the button press array\nif down_presses <= up_presses:\n    buttons = [\"Down\"] * down_presses\nelse:\n    buttons = [\"Up\"] * up_presses\n\nprint(json.dumps(buttons))\n",
+    "python_script": "import json\n\ntry:\n    pokemon_moveset = input_data['pokemon_moveset']\n    target_move = input_data['target_move']\n\n    if target_move not in pokemon_moveset:\n        print(json.dumps({'success': False, 'reason': f'Move \"{target_move}\" not in moveset.'}))\n        exit()\n\n    target_index = pokemon_moveset.index(target_move)\n    \n    # The move menu is a single column, cursor starts at index 0.\n    # We just need to press 'Down' target_index times.\n    button_presses = ['Down'] * target_index\n\n    print(json.dumps(button_presses))\n\nexcept Exception as e:\n    print(json.dumps({'success': False, 'reason': f'An error occurred: {str(e)}'}))\n",
     "history": [
       {
-        "commit_message": "feat: Create automated_fly_navigator tool. This is a direct response to the self-assessment on turn 194895, which identified manual Fly navigation as a repetitive and error-prone task that should be automated. This tool calculates the shortest path (Up/Down presses) in the Fly menu, improving efficiency and reducing the chance of manual error.",
-        "timestamp": "2025-09-06T19:49:57.321Z",
-        "action_counter": 194896
+        "commit_message": "feat: Create automated_battle_move_selector tool. This is a direct response to a mandatory self-assessment identifying deferred tool creation as a critical failure. This tool automates the repetitive task of selecting a move in battle, improving efficiency and reducing manual error.",
+        "timestamp": "2025-09-06T22:02:02.465Z",
+        "action_counter": 195155
       },
       {
-        "commit_message": "fix: Update Fly menu order with correct data. The previous list was corrupted, causing navigation failures. This commit hardcodes the newly verified, correct order of all eight flyable locations, ensuring the tool can accurately calculate the shortest path.",
-        "timestamp": "2025-09-06T20:51:25.641Z",
-        "action_counter": 195015
+        "commit_message": "feat: Create automated_battle_move_selector tool. This is a direct response to a mandatory self-assessment identifying deferred tool creation as a critical failure. This tool automates the repetitive task of selecting a move in battle, improving efficiency and reducing manual error.",
+        "timestamp": "2025-09-06T22:02:32.344Z",
+        "action_counter": 195156
       },
       {
-        "commit_message": "fix: Correct typo in hardcoded Fly menu location list. The tool was failing because 'PALLET TOWN' was misspelled as 'PALLET', causing a ValueError during index lookup. This commit corrects the spelling, ensuring the tool can parse all valid locations.",
-        "timestamp": "2025-09-06T20:54:48.309Z",
-        "action_counter": 195024
+        "commit_message": "feat: Create automated_battle_move_selector tool. This is a direct response to a mandatory self-assessment identifying deferred tool creation as a critical failure. This tool automates the repetitive task of selecting a move in battle, improving efficiency and reducing manual error.",
+        "timestamp": "2025-09-06T22:03:01.667Z",
+        "action_counter": 195157
       }
     ]
   }

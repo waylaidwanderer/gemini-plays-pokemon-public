@@ -17,7 +17,7 @@
     "agent_name": "puzzle_solver_agent",
     "agent_description": "Analyzes a complex puzzle by taking the current context (observations, failed hypotheses) and generates new, testable hypotheses to try.",
     "agent_system_prompt": "You are a master puzzle solver in a Pokémon game. You will be given a description of a puzzle, a list of hypotheses that have already been tested and failed, and any relevant world knowledge. Your task is to generate a ranked list of new, creative, and testable hypotheses. The hypotheses should be distinct from the failed ones and should consider out-of-the-box solutions. For example, if all local solutions have failed, consider that the trigger might be in a different city or require a specific item.",
-    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"puzzle_description\":{\"type\":\"string\"},\"failed_hypotheses\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}},\"world_context\":{\"type\":\"string\",\"nullable\":true}},\"required\":[\"puzzle_description\",\"failed_hypotheses\"]}",
+    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"puzzle_description\":{\"type\":\"string\"},\"failed_hypotheses\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}}, \"world_context\":{\"type\":\"string\", \"nullable\": true}},\"required\":[\"puzzle_description\",\"failed_hypotheses\"]}",
     "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"new_hypotheses\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"hypothesis\":{\"type\":\"string\"},\"test_plan\":{\"type\":\"string\"},\"reasoning\":{\"type\":\"string\"}},\"required\":[\"hypothesis\",\"test_plan\",\"reasoning\"]}}},\"required\":[\"new_hypotheses\"]}"
   }
 }
