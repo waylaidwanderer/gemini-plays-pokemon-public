@@ -59,14 +59,6 @@
 - **Mt. Moon B1F Dead End Miscalculation (Turn 193079 - CRITICAL):** Received another system warning for incorrectly identifying a non-dead-end area as a dead end. This is a recurring failure to correctly apply the definition (2 or more reachable exits = not a dead end). LESSON: I must be more rigorous in my analysis and always trust the system's dead-end calculation over my own flawed manual assessment.
 - **Mt. Moon B1F Dead End Miscalculation (Turn 193079 - CRITICAL):** Received another system warning for incorrectly identifying a non-dead-end area as a dead end. This is a recurring failure to correctly apply the definition (2 or more reachable exits = not a dead end). LESSON: I must be more rigorous in my analysis and always trust the system's dead-end calculation over my own flawed manual assessment.
 
-# VII. Post-Reflection Plan (Turn 193099)
-## A. New Agent & Tool Ideas
-- **stuck_navigator_agent**: An agent to suggest high-level navigational pivots when tools fail or progress is stalled in complex, multi-map areas.
-- **fossil_finder_agent**: An agent to analyze map data across the entire known world to suggest the most likely location for a required fossil.
-- **`find_path`/`map_analyzer` Bug (CRITICAL):** Both tools are critically bugged in partitioned maps (e.g., Mt. Moon). They fail to build a complete graph of reachable areas, leading to incorrect dead-end calculations and pathing failures. **LESSON (from Overwatch):** Tool refinement is a non-deferrable, highest-priority action. I MUST fix faulty tools in the same turn a flaw is discovered.
-- **Mt. Moon B1F Partition Failure (Turn 193112 - CRITICAL):** Received another system warning for hallucinating numerous unreachable warps as reachable. This confirms my `map_analyzer` fix was insufficient and the tool is still critically bugged and cannot handle map partitions correctly. LESSON: I must completely distrust my tool's output in complex, multi-level maps and rely solely on system warnings for determining dead ends and reachability until the tool is fixed again.
-- **Museum 1F Dead End Miscalculation (Turn 193148 - CRITICAL):** Received a system warning for reporting the museum as a dead end when it has two reachable exits (Pewter City and Museum 2F). This is another failure to correctly apply the dead-end definition. LESSON: I must be more rigorous and trust system warnings.
-
 # IV. Agent & Tool Development
 ## A. Agent & Tool Ideas
 - **stuck_navigator_agent**: An agent to suggest high-level navigational pivots when tools fail or progress is stalled in complex, multi-map areas.
