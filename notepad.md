@@ -45,7 +45,7 @@
 - **Cinnabar Island:** Home to a Pokémon Lab that can regenerate fossils.
 
 ## C. Obstacles & Solutions
-- **Rocket Grunt (Mt. Moon B2F at 30, 12):** Confirmed he is blocking the path and demands a fossil to pass.
+- **Rocket Grunt (Mt. Moon B2F at 30, 12):** Confirmed via dialogue that he is blocking the path south and demands a fossil to pass. This route is a dead end until a fossil is acquired.
 
 # IV. Active Hypotheses & Test Results
 
