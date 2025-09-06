@@ -53,11 +53,6 @@
 - **Rocket Grunt (Mt. Moon B2F at 30, 12):** Confirmed via dialogue that he is blocking the path south and demands a fossil to pass.
 
 # IV. Active Hypotheses & Test Results
-
-- **Hypothesis 1 (Active):** The fossil needed to pass the Rocket Grunt is located in a previously unexplored section of Mt. Moon 1F, accessible from the eastern entrance near the Super Nerd at (25, 32). **Test Plan:** Thoroughly explore the eastern corridors originating from (25, 31).
-- **Untested Assumption 1:** The Officer Jenny blocking the path in Cerulean City is a permanent story block.
-
-# IV. Active Hypotheses & Test Results
 - **Hypothesis 1 (Invalidated):** The fossil needed to pass the Rocket Grunt is located in a previously unexplored section of Mt. Moon 1F. **Result (Turn 194646):** The entire eastern corridor originating from the Super Nerd at (25, 32) is a confirmed dead end.
 - **Hypothesis 2 (Active):** The fossil is located on a lower floor of Mt. Moon (B1F or B2F). **Test Plan:** Systematically re-explore all paths on B1F and B2F, starting from known ladders.
 - **Untested Assumption 1:** The Officer Jenny blocking the path in Cerulean City is a permanent story block.
