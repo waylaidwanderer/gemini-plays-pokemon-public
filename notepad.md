@@ -74,3 +74,4 @@
 - **Menu Cursor Behavior:** Menu cursor starting positions are non-deterministic. Tools must force a known state rather than assuming a start position.
 - **`map_analyzer` Deletion (Turn 193716):** The tool was fundamentally flawed, failing to parse partitioned maps. After multiple failed fixes, it was deleted as it was a liability causing navigational hallucinations.
 - **Overwatch Lesson (CRITICAL):** Tool refinement is a non-deferrable, highest-priority action. I MUST fix or delete faulty tools in the same turn a flaw is discovered.
+- **`navigate_with_retries` Tool Flaw:** The concept is better suited for an agent, as tools are stateless and cannot remember a navigation goal across turns.
