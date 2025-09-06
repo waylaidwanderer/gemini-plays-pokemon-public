@@ -29,23 +29,24 @@
 ## C. Key Trainer Rosters
 - **Nurse Joy (Fuchsia Pokecenter):** KANGASKHAN (Lv 65): DOUBLE-EDGE, DOUBLE TEAM; SNORLAX (Lv 65): ICE BEAM, REST
 
-# IV. World Data & Hypotheses
+# IV. World Data
 
-## A. Solved Puzzles
-- **Pokémon Tower Ghost:** Required SILPH SCOPE. Calmed Marowak on 6F, rescued Mr. Fuji on 7F.
-- **Snorlax (Routes 11 & 12):** Used POKé FLUTE from the ITEM menu.
-- **Seafoam Islands Boulder Puzzle:** Pushed boulders into holes across multiple floors to stop water current on B4F.
-- **Pewter Museum 2F:** Solved by interacting with follower Pikachu while adjacent to a Scientist to move a blocking NPC.
+## A. Solved Puzzles & Key Events
+- **Pewter Museum 2F:** Solved blocking NPC puzzle by interacting with follower Pikachu adjacent to a Scientist.
+- **Snorlax (Routes 11 & 12):** Awakened using the POKé FLUTE from the ITEM menu.
+- **Pokémon Tower Ghost:** Used SILPH SCOPE to reveal the ghost, allowing passage to rescue Mr. Fuji.
+- **Seafoam Islands Current:** Solved multi-floor boulder puzzle to stop the strong water current on B4F.
 
-## B. Key Locations & Item Data
-- **Route 12:** Super Rod House.
-- **Celadon Dept. Store:** Sells TMs, stat-boosters, POKé DOLL, evolution stones.
-- **Mt. Moon Entrances:** Western entrance (from Route 4) leads to a dead end. Eastern entrance (from Route 3) is the main path.
+## B. Key Locations & Discoveries
+- **Mt. Moon Entrances:** The eastern entrance (from Route 3) is the main path; the western entrance (from Route 4) is a dead end.
+- **Celadon Dept. Store:** Sells TMs, stat-boosters, POKé DOLLs, and evolution stones.
+- **Route 12:** Location of the Super Rod House.
 
-## C. Active Hypotheses & Plans
-- **Primary Goal:** Find a fossil in Mt. Moon, likely on the lower floors (B1F/B2F).
-- **Contingency:** If no fossil is found, use fixed tools to re-scan Mt. Moon 1F for partitioned areas.
-- **Untested Assumption:** Officer Jenny at (29, 13) in Cerulean City is a permanent story block.
+## C. Active Hypotheses
+- **Hypothesis 1:** The required fossil is located on the lower floors of Mt. Moon (B1F/B2F).
+    - **Reasoning:** A Rocket Grunt on B2F is looking for one, suggesting their presence.
+    - **Test Plan:** Systematically explore all reachable areas of B1F and B2F.
+- **Untested Assumption:** The Officer Jenny blocking the path in Cerulean City is a permanent story block.
 
 - Mt. Moon B1F Unseen Tiles (Turn 192926 - CRITICAL): Received a system warning for reporting 57 reachable unseen tiles when there were 0. This was a failure in my manual assessment during the construction of the `validation_checks` block. LESSON: I must ALWAYS use my `map_analyzer` tool to generate this data and NEVER rely on manual counting or estimation. This is a direct violation of my 'Trust, but Refine' and 'Confirmation Bias & System Data' lessons.
 
