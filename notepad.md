@@ -48,10 +48,6 @@
     - **Test Plan:** Systematically explore all reachable areas of B1F and B2F.
 - **Untested Assumption:** The Officer Jenny blocking the path in Cerulean City is a permanent story block.
 
-- Mt. Moon B1F Unseen Tiles (Turn 192926 - CRITICAL): Received a system warning for reporting 57 reachable unseen tiles when there were 0. This was a failure in my manual assessment during the construction of the `validation_checks` block. LESSON: I must ALWAYS use my `map_analyzer` tool to generate this data and NEVER rely on manual counting or estimation. This is a direct violation of my 'Trust, but Refine' and 'Confirmation Bias & System Data' lessons.
-
-- **Mt. Moon B2F Navigable Warps & Dead End (Turn 193068 - CRITICAL):** Received a system warning for reporting 2 navigable warps when there was only 1, leading to an incorrect dead-end calculation. This is a failure to trust my `map_analyzer` tool over manual assessment. LESSON: I MUST always trust the output of my system tools for calculating reachability and dead-end status. Manual verification has repeatedly proven unreliable.
-
 # V. Self-Correction & Hallucination Log (Addendum)
 - **Map ID Mismatch (Turn 193072 - CRITICAL):** Hallucinated a map change from B2F to B1F that did not occur. **LESSON: I MUST verify the `current_map_id` from the Game State Information after every warp attempt to confirm the transition was successful before proceeding.**
 - **Mt. Moon B1F Unseen Tiles (Turn 193077 - CRITICAL):** Received a system warning for reporting 57 reachable unseen tiles and numerous unreachable warps as reachable. This indicates a critical failure in my manual assessment and a bug in my `map_analyzer` tool's ability to detect map partitions. LESSON: I must ALWAYS trust system warnings over my own tools and manual checks, and I need to debug my map analysis tools.
