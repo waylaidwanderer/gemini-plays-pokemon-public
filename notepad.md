@@ -44,28 +44,30 @@
 - **Route 12:** Location of the Super Rod House.
 - **Cinnabar Island:** Home to a Pokémon Lab that can regenerate fossils.
 
+## C. Obstacles & Solutions
+- **Rocket Grunt (Mt. Moon B2F at 30, 12):** Confirmed he is blocking the path and demands a fossil to pass.
+
 # IV. Active Hypotheses & Test Results
 
-- **Hypothesis 1:** The required fossil is located on the lower floors of Mt. Moon (B1F/B2F).
-    - **Reasoning:** A Rocket Grunt on B2F is looking for one, suggesting their presence.
-    - **Test Plan:** Systematically explore all reachable areas of 1F, B1F and B2F.
+- **Hypothesis 1:** The required fossil is located in the western section of Mt. Moon.
+    - **Reasoning:** This is the only major area of the cave I have not fully explored.
+    - **Test Plan:** Systematically explore all paths and battle all trainers in the area accessible from the western entrance.
 - **Untested Assumption 1:** The Officer Jenny blocking the path in Cerulean City is a permanent story block.
-- **Untested Assumption 2:** The Rocket Grunt at Mt. Moon B2F (30, 12) is the only way forward in that section and requires a fossil to pass.
-- **Test Result (Turn 193797):** Spoke to Super Nerd on Mt. Moon 1F at (25, 32). He provided no information on fossils. This path is exhausted.
-- **Test Result (Turn 193832):** Spoke to Rocket Grunt at Mt. Moon B2F (30, 12). He confirmed he is blocking the path and demands a fossil to pass. This confirms Untested Assumption 2.
 
 # V. Tool & Agent Development
 
 ## A. Active Agents & Tools
 - **`stuck_navigator_agent`**: Suggests high-level navigational pivots when tools fail.
+- **`automated_path_navigator`**: Automates pathfinding and movement, useful for interruption-heavy routes.
 
 ## B. Agent & Tool Ideas
-- **`navigate_with_retries_tool`**: Combines pathfinding with automatic retries upon interruption by wild battles.
-- `fossil_finder_agent`: Analyzes world map data to suggest likely fossil locations.
-- `gym_prep_agent`: Suggests an optimal team of 6 for a given gym type.
-- `puzzle_documentation_agent`: Formats puzzle summaries for the notepad.
-- `notepad_organizer_agent`: Automates notepad cleaning and reorganization.
-- `navigation_manager_agent`: Remembers a long-term navigation goal and re-plans after interruptions.
+- **`navigate_with_retries_tool`**: A wrapper tool that automatically re-calls `automated_path_navigator` after being interrupted by a wild battle.
+- **`exploration_planner_agent`**: Analyzes map sprites to generate an optimal exploration route to all un-interacted-with NPCs and items.
+- **`fossil_finder_agent`**: Analyzes world map data to suggest likely fossil locations.
+- **`gym_prep_agent`**: Suggests an optimal team of 6 for a given gym type.
+- **`puzzle_documentation_agent`**: Formats puzzle summaries for the notepad.
+- **`notepad_organizer_agent`**: Automates notepad cleaning and reorganization.
+- **`navigation_manager_agent`**: Remembers a long-term navigation goal and re-plans after interruptions.
 
 ## C. Key Development Lessons & Bugs
 - **`use_hm_tool` Failure:** A single tool cannot perform a multi-stage, dynamic menu navigation task. The correct approach is a sequential, multi-turn process using `menu_analyzer` and `select_menu_option`.
