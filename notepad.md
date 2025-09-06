@@ -106,7 +106,7 @@
 - **`map_analyzer` (Mt. Moon B2F):** The tool was hallucinating reachable warps due to a faulty BFS. Attempting a fix by porting the more robust BFS logic from `find_path`.
 - **`find_path` (Mt. Moon B2F):** The tool failed to find a valid path on this map, indicating a persistent, critical bug in the BFS or map parsing logic.
 
-### G. Self-Correction & Hallucination Log
+#### G. Self-Correction & Hallucination Log
 - Pokemon Tower 7F (Turn 191582): Incorrectly reported 131 reachable unseen tiles and that the area was not a dead end, triggering a critical system warning. The system confirmed 0 reachable unseen tiles and that it *is* a dead end. Conclusion: My manual map assessment is critically flawed. I MUST ALWAYS trust the system's validation checks over my own intuition.
 ## A. Navigational Hallucinations
 - Cerulean Cave 1F Partition (Turn 189610): Incorrectly believed I was trapped on an isolated platform at (28, 2). A system warning corrected me, revealing that another ladder at (8, 2) was reachable. Conclusion: Reinforces the absolute necessity of trusting system data over intuition.
