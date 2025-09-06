@@ -57,26 +57,23 @@
 - **Hypothesis 1 (Invalidated):** The fossil needed to pass the Rocket Grunt is located in a previously unexplored section of Mt. Moon 1F. **Result (Turn 194646):** The entire eastern corridor originating from the Super Nerd at (25, 32) is a confirmed dead end.
 - **Hypothesis 2 (Active):** The fossil is located on a lower floor of Mt. Moon (B1F or B2F). **Test Plan:** Systematically re-explore all paths on B1F and B2F, starting from known ladders.
 - **Untested Assumption 1:** The Officer Jenny blocking the path in Cerulean City is a permanent story block.
+- **Untested Assumption 2:** The fossil for the Mt. Moon Rocket Grunt might not be in Mt. Moon itself. I may need to find it elsewhere and return later.
 
 # V. Tool & Agent Development
+
 ## A. Active Agents & Tools
 - **`stuck_navigator_agent`**: Suggests high-level navigational pivots when tools fail.
 - **`map_connectivity_analyzer`**: Analyzes map XML to identify partitioned areas.
+
 ## B. Development Lessons
 - **Lesson: Menu Cursor Behavior:** Menu cursor starting positions are non-deterministic.
 - **Lesson: Battle Move Selection:** The move selection menu is a single-column list navigated with UP/DOWN only. LEFT/RIGHT have no effect.
+
 ## C. New Tool Ideas
 - **`automated_battle_move_selector`**: A tool that takes the output of `battle_strategist_agent` and fully automates the move selection process, including navigating the menu and confirming the move.
 - **`automated_fly_navigator`**: A tool to automate selecting a destination from the Fly map menu.
 - **`automated_pokecenter_healer`**: A tool to automate the dialogue sequence for healing Pokémon at any Pokémon Center.
+- **`puzzle_solver_agent`**: Takes current puzzle context (objective, clues, failed hypotheses) and generates a ranked list of new hypotheses to test. This would formalize my problem-solving process.
 
 # VI. Exploration Log
 - **Mt. Moon 1F Eastern Corridor (Turn 194646):** Confirmed that the entire eastern corridor originating from the Super Nerd at (25, 32) is a dead end. The path is blocked by an impassable wall at (34, 27). This invalidates the hypothesis that the fossil is accessible from this part of 1F.
-
-# VII. New Agent & Tool Ideas (Post-Reflection)
-- **`puzzle_solver_agent`**: Takes current puzzle context (objective, clues, failed hypotheses) and generates a ranked list of new hypotheses to test. This would formalize my problem-solving process.
-- **`automated_fly_navigator`**: A tool to automate selecting a destination from the Fly map menu.
-- **`automated_pokecenter_healer`**: A tool to automate the dialogue sequence for healing Pokémon.
-
-# VIII. New Hypotheses (Post-Reflection)
-- **Untested Assumption 2:** The fossil for the Mt. Moon Rocket Grunt might not be in Mt. Moon itself. I may need to find it elsewhere and return later.

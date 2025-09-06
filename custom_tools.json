@@ -77,38 +77,6 @@
       }
     ]
   },
-  "path_validator": {
-    "description": "Analyzes a path plan to detect if it crosses any unintended warp tiles before the final destination.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "path_plan_json": {
-          "type": "string"
-        }
-      },
-      "required": [
-        "path_plan_json"
-      ]
-    },
-    "python_script": "import json\nimport xml.etree.ElementTree as ET\n\ntry:\n    path_plan_json = input_data['path_plan_json']\n    path_plan = json.loads(path_plan_json)\n    root = ET.fromstring(map_xml_string)\n    \n    warp_tiles = set()\n    for row in root.findall('Row'):\n        for tile in row.findall('Tile'):\n            if tile.get('is-warp') == 'true':\n                warp_tiles.add((int(tile.get('id')), int(row.get('id'))))\n    \n    unintended_warp_found = False\n    # Check all steps in the path except the start and end points\n    for i in range(1, len(path_plan) - 1):\n        step = tuple(path_plan[i])\n        if step in warp_tiles:\n            unintended_warp_found = True\n            break\n            \n    print(json.dumps({'unintended_warp_found': unintended_warp_found}))\nexcept Exception as e:\n    print(json.dumps({'unintended_warp_found': True, 'error': str(e)}))",
-    "history": [
-      {
-        "commit_message": "feat: Create path_validator tool to prevent accidental warp usage. This tool is a direct response to a critical Overwatch critique from turn 192855 highlighting my failure to implement documented tool ideas. It will analyze a path plan and flag any unintended warps, preventing a common and repeated navigational error.",
-        "timestamp": "2025-09-06T00:49:49.766Z",
-        "action_counter": 192857
-      },
-      {
-        "commit_message": "fix: Ignore starting tile in warp check. The tool was incorrectly flagging paths as invalid if the player's starting position was a warp tile. This commit modifies the loop to start checking from the second step (index 1) of the path plan, which correctly ignores the initial position and prevents this false positive. This is a critical fix for reliable path validation.",
-        "timestamp": "2025-09-06T01:36:45.524Z",
-        "action_counter": 192930
-      },
-      {
-        "commit_message": "feat: Create path_validator tool to prevent accidental warp usage. This tool is a direct response to a critical failure of the `automated_path_navigator` which routed me through an unintended warp. This new tool will be used to vet all future paths.",
-        "timestamp": "2025-09-06T12:01:39.765Z",
-        "action_counter": 194039
-      }
-    ]
-  },
   "automated_path_navigator": {
     "description": "Takes start/end coordinates, finds the shortest path using BFS, and returns a JSON object containing a success flag, a reason, and a coordinate array for the `path_plan`. It handles ledge traversal, impassable destinations, and accounts for objects (except Pikachu). Returns a specific failure reason, including obstacle coordinates, if no path is found.",
     "input_schema": {
@@ -225,6 +193,32 @@
         "commit_message": "feat: Create map_connectivity_analyzer tool. This is a direct response to a critical Overwatch critique from turn 194600 highlighting my failure to implement documented tool ideas. This tool will analyze the map XML to identify all distinct, partitioned areas, which is essential for strategic exploration of complex maps like Mt. Moon and prevents wasting time in dead-end zones.",
         "timestamp": "2025-09-06T17:15:12.703Z",
         "action_counter": 194609
+      }
+    ]
+  },
+  "automated_fly_navigator": {
+    "description": "Analyzes the Fly menu screen text to determine the current location and calculates the button presses needed to reach a target destination. The Fly menu is a single column list that wraps around.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "screen_text": {
+          "type": "string"
+        },
+        "target_destination": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "screen_text",
+        "target_destination"
+      ]
+    },
+    "python_script": "import json\nimport re\n\n# The known order of Fly locations\nfly_locations = [\n    \"PALLET TOWN\", \"VIRIDIAN CITY\", \"PEWTER CITY\", \"CERULEAN CITY\",\n    \"LAVENDER TOWN\", \"VERMILION CITY\", \"CELADON CITY\", \"FUCHSIA CITY\",\n    \"CINNABAR ISLAND\", \"INDIGO PLATEAU\", \"SAFFRON CITY\"\n]\n\nscreen_text = input_data['screen_text']\ntarget_destination = input_data['target_destination'].upper()\n\n# Find the current location\nmatch = re.search(r\"To (\\w+\\s*\\w*)\", screen_text)\nif not match:\n    print(json.dumps({\"error\": \"Could not parse current location from screen text.\"}))\n    exit()\n\ncurrent_location = match.group(1).strip().upper()\n\ntry:\n    current_index = fly_locations.index(current_location)\n    target_index = fly_locations.index(target_destination)\nexcept ValueError:\n    print(json.dumps({\"error\": f\"Invalid location provided. Current: {current_location}, Target: {target_destination}\"}))\n    exit()\n\nnum_locations = len(fly_locations)\n# Calculate moves in both directions (down and up)\ndown_moves = (target_index - current_index + num_locations) % num_locations\nup_moves = (current_index - target_index + num_locations) % num_locations\n\n# Choose the shorter path\nif down_moves <= up_moves:\n    buttons = [\"Down\"] * down_moves\nelse:\n    buttons = [\"Up\"] * up_moves\n\nprint(json.dumps(buttons))",
+    "history": [
+      {
+        "commit_message": "feat: Create automated_fly_navigator tool. This is a direct response to the self-assessment on turn 194895, which identified manual Fly navigation as a repetitive and error-prone task that should be automated. This tool calculates the shortest path (Up/Down presses) in the Fly menu, improving efficiency and reducing the chance of manual error.",
+        "timestamp": "2025-09-06T19:49:57.321Z",
+        "action_counter": 194896
       }
     ]
   }
