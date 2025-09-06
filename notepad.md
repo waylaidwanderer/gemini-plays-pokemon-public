@@ -67,8 +67,8 @@
 - **Lesson: Battle Move Selection:** The move selection menu is a single-column list navigated with UP/DOWN only. LEFT/RIGHT have no effect.
 ## C. New Tool Ideas
 - **`automated_battle_move_selector`**: A tool that takes the output of `battle_strategist_agent` and fully automates the move selection process, including navigating the menu and confirming the move.
+- **`automated_fly_navigator`**: A tool to automate selecting a destination from the Fly map menu.
+- **`automated_pokecenter_healer`**: A tool to automate the dialogue sequence for healing Pokémon at any Pokémon Center.
 
 # VI. Exploration Log
 - **Mt. Moon 1F Eastern Corridor (Turn 194646):** Confirmed that the entire eastern corridor originating from the Super Nerd at (25, 32) is a dead end. The path is blocked by an impassable wall at (34, 27). This invalidates the hypothesis that the fossil is accessible from this part of 1F.
-- **`automated_fly_navigator`**: A tool to automate selecting a destination from the Fly map menu.
-- **`automated_pokecenter_healer`**: A tool to automate the dialogue sequence for healing Pokémon at any Pokémon Center.
