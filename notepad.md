@@ -78,3 +78,4 @@
 - Awaiting re-collection.
 ## C. Fly Menu Order (Data Gathering)
 - PALLET TOWN
+- SAFFRON CITY
