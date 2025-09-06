@@ -87,3 +87,5 @@
 - **impassable:** A solid wall or object.
 - **cuttable:** A tree that can be cut with HM Cut. Respawns on map change.
 - **grass:** Tall grass where wild Pokémon appear.
+- **`fossil_finder_agent`**: Analyzes world map data to suggest likely fossil locations.
+- **`navigate_with_retries_tool`**: A wrapper tool that automatically re-calls `automated_path_navigator` after being interrupted by a wild battle.
