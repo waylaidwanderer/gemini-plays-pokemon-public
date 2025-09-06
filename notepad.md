@@ -32,17 +32,6 @@
 
 # III. World Data
 
-## A. Tile Mechanics (Verified)
-- **`ground`**: Basic walkable tile.
-- **`grass`**: Walkable tile with wild Pokémon encounters.
-- **`impassable`**: Walls and other obstacles that cannot be walked on.
-- **`ledge`**: Can only be jumped down from above (Y-1). Impassable from below and sides.
-- **`steps`**: Allows movement between `ground` and `elevated_ground`.
-- **`elevated_ground`**: Can only be accessed from `steps` or other `elevated_ground` tiles.
-- **`cuttable`**: Can be cut with HM Cut. Respawns on map change.
-- **`ladder_up`/`ladder_down`**: Warps that function as instant transitions between floors.
-- **`water`**: Impassable without the SURF ability.
-
 ## B. Solved Puzzles & Key Events
 - **Snorlax (Routes 11 & 12):** Awakened using the POKé FLUTE from the ITEM menu.
 - **Pokémon Tower Ghost:** Used SILPH SCOPE to reveal the ghost.
