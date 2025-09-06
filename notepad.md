@@ -61,18 +61,14 @@
 - **Cerulean Cave:** Ditto, Wigglytuff, Electrode, Golem, Raichu, Sandslash, Parasect, Lickitung, Magneton, Dodrio, RHYDON, VICTREEBEL, GOLBAT, KADABRA.
 - **Pokémon Tower:** GASTLY, CUBONE.
 
-# III. Solved Puzzles & Key Data
-## A. Boulder Puzzles
-- Objective: Boulders are often pushed into holes to block water currents on lower floors.
-- Movement: Pushing is a multi-turn action. Must be adjacent. First press turns/pushes. Subsequent pushes require moving to the new adjacent tile first.
-- Surfing Limitation: Cannot push boulders while surfing (confirmed on Seafoam Islands B3F).
-## B. Navigation Puzzles
-- Pokémon Tower Ghost Puzzle: The trigger for the ghost event was on a lower floor, unlocked by obtaining the SILPH SCOPE. After calming the Marowak spirit on 6F, I rescued Mr. Fuji from Team Rocket on 7F.
-- Route 8 Gatehouse: The gatehouse connecting the two halves of Route 8 has a 1x2 warp. To enter from the west, I had to stand on the southern tile (2, 11) and press Right.
-- Snorlax Puzzle (Route 12): The item menu is a single, scrollable list. After selecting 'ITEM' from the main menu, scroll down past the HMs (indicated by a '↓' arrow) to find Key Items like the POKé FLUTE. Using it from this menu wakes the Snorlax.
-## C. Item & Store Data
-- Route 12 Super Rod House: Fishing Guru gives the SUPER ROD.
-- Celadon Dept. Store: Sells TMs, stat-boosters, POKé DOLL, and evolution stones.
+# IV. Solved Puzzles & Key Data
+## A. Major Puzzles
+- **Pokémon Tower Ghost:** Required SILPH SCOPE. Calmed Marowak on 6F, rescued Mr. Fuji on 7F.
+- **Snorlax (Routes 11 & 12):** Used POKé FLUTE from the ITEM menu (past HMs).
+- **Seafoam Islands Boulder Puzzle:** Pushed boulders into holes across multiple floors to stop water current on B4F.
+## B. Item & Store Data
+- **Route 12:** Super Rod House.
+- **Celadon Dept. Store:** Sells TMs, stat-boosters, POKé DOLL, evolution stones.
 ## D. Key Trainer Rosters
 - **Nurse Joy (Fuchsia Pokecenter):** KANGASKHAN (Lv 65): DOUBLE-EDGE, DOUBLE TEAM; SNORLAX (Lv 65): ICE BEAM, REST
 
