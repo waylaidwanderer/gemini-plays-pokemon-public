@@ -54,7 +54,7 @@
 
 # IV. Active Hypotheses & Test Results
 
-- **Hypothesis 1:** The fossil needed to pass the Rocket Grunt is located in the lower floors of Mt. Moon, accessible from the western entrance. **Test Plan:** Thoroughly explore B1F and B2F via the ladder at (6, 6) on 1F.
+- **Hypothesis 1 (Active):** The fossil needed to pass the Rocket Grunt is located in a previously unexplored section of Mt. Moon 1F, accessible from the eastern entrance near the Super Nerd at (25, 32). **Test Plan:** Thoroughly explore the eastern corridors originating from (25, 31).
 - **Untested Assumption 1:** The Officer Jenny blocking the path in Cerulean City is a permanent story block.
 
 # V. Tool & Agent Development
