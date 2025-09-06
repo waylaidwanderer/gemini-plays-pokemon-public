@@ -73,3 +73,8 @@
 - **`automated_pokecenter_healer`**: A tool to automate the dialogue sequence for healing Pokémon at any Pokémon Center.
 - **`puzzle_solver_agent`**: Takes current puzzle context and generates new hypotheses to test. Ideal for complex logical problems like the Officer Jenny situation.
 - **Pathfinder Refinement:** Update `automated_path_navigator` to recognize cuttable trees as potential paths, reporting that 'Cut is required' rather than 'No path found'.
+
+## C. Fly Menu Order (Data Gathering)
+1. PALLET TOWN
+2. INDIGO PLATEAU
+3. CINNABAR ISLAND
