@@ -33,39 +33,29 @@
 - `spinner`: Forces movement in a specific direction.
 - `boulder_switch`: Floor switch activated by a boulder.
 ## C. Special Mechanics & Discoveries
-- Menu Input Blocking: Facing an impassable tile blocks that directional input in menus.
 - HM Usage: Must be adjacent to and facing the target object before opening the party menu.
 - Boulder Pushing: A multi-turn action. Cannot be done while surfing.
 - Auto-Dismount (Surf): Automatically dismounts when moving from water to land.
-- Dead End Definition: A map is only a dead end if it has one or fewer exits and no reachable unseen tiles.
 - SURF vs. DIG: SURF misses an opponent underground from DIG.
 - Healing Zone (Pokémon Tower): 5F at (12, 10) fully heals HP/PP/status. 6F healer at (13, 9) does NOT cure status.
 - Respawning Obstacles: Cuttable trees can respawn, even without a map change.
-- Inventory Over-Capacity: Discarding a partial stack does NOT free an inventory slot; the entire stack must be tossed.
 - Cerulean City River: The city is divided by a river. The western section (where you arrive from Route 4) and the eastern section (where the path to Route 9 is) are separated. To cross between them, I must use Surf.
 - Mt. Moon Entrances: There are two entrances to Mt. Moon from Route 4. The western entrance at (19, 6) leads to an isolated, dead-end section. The eastern entrance at (25, 6) leads to the main cave system and the path forward to Cerulean City.
-- Route 8 Gatehouse: The gatehouse connecting the two halves of Route 8 has a 1x2 warp. To enter from the west, I had to stand on the southern tile (2, 11) and press Right.
-- Snorlax Puzzle (Route 12): The item menu is a single, scrollable list. After selecting 'ITEM' from the main menu, scroll down past the HMs (indicated by a '↓' arrow) to find Key Items like the POKé FLUTE. Using it from this menu wakes the Snorlax.
-## E. Type Effectiveness & Insights
+## D. Type Effectiveness & Insights
 - Electric is not very effective against Electric-types.
 - Electric is not very effective against Grass/Poison dual-types.
 - Electric is not very effective against Bug/Grass dual-types. (Verified: SPARKY's THUNDERBOLT vs PARAS)
 - Wild Pokémon Speed (Cerulean Cave): Wild Pokémon are deceptively fast.
 - Wild Pokémon Moves (Cerulean Cave): GOLEM can use SELFDESTRUCT and EXPLOSION. Both moves are not very effective against Rock/Ground types, as confirmed in multiple battles. SELFDESTRUCT is neutrally effective vs. Ground-types.
 - Type Immunity: Electric moves have no effect on Ground-types.
+- Type Immunity: Ground-type moves (EARTHQUAKE) do not affect GASTLY (Ghost/Poison). This implies a Levitate-like ability or a major type chart change.
+- Type Immunity: Normal-type moves do not affect Ghost-type Pokémon. (Verified: TITANESS's DOUBLE-EDGE vs. GASTLY)
 - Normal is super-effective against Ground-types. (Verified: Chansey's EGG BOMB vs. REVENANT)
 - Poison is not very effective against Ground-types.
-- Normal-type moves do not affect Ghost-type Pokémon. (Verified: TITANESS's DOUBLE-EDGE vs. GASTLY)
-- Type Immunity: Ground-type moves (EARTHQUAKE) do not affect GASTLY (Ghost/Poison). This implies a Levitate-like ability or a major type chart change.
-## F. Known Pokemon Locations
+- 'Unaffected' Battle Message: REVENANT was 'unaffected' by a wild RHYDON's EARTHQUAKE. Cause unknown.
+## E. Known Pokemon Locations
 - Cerulean Cave: Ditto, Wigglytuff, Electrode, Golem, Raichu, Sandslash, Parasect, Lickitung, Magneton, Dodrio, RHYDON, VICTREEBEL, GOLBAT, KADABRA.
 - Pokémon Tower: GASTLY, CUBONE.
-
-- Dead End Definition: A 'dead end area' assessment applies to the *entire map's* reachable exits. An isolated section is not a dead end if other exits exist elsewhere on the map, even if currently unreachable.
-- Warp Reachability: A warp in `Map Events` is not guaranteed to be reachable from the current position due to map partitions.
-- Functional Dead Ends: An area becomes a 'functional dead end' if progress requires an HM from a fainted Pokémon.
-## H. Unexplained Phenomena
-- 'Unaffected' Battle Message: REVENANT was 'unaffected' by a wild RHYDON's EARTHQUAKE. Cause unknown.
 
 # III. Data & Puzzles
 ## A. Boulder Puzzle Mechanics
