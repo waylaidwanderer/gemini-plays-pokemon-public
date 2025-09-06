@@ -56,10 +56,7 @@
 
 # IV. Active Hypotheses & Test Results
 
-- **Hypothesis 1 (Falsified):** The required fossil is located in the western section of Mt. Moon.
-    - **Reasoning:** This was the only major area of the cave I had not fully explored.
-    - **Test Result:** I have now explored all paths in the western section and found no fossil. All paths lead to dead ends.
-    - **Conclusion:** The fossil is not in the western section. I will now proceed with my contingency plan to re-explore the eastern section of Mt. Moon.
+- **Conclusion: Mt. Moon Western Section** - I have fully explored the western section of Mt. Moon (accessed from Route 4 West). It does not contain the required fossil. While I previously believed I was trapped here, this was a navigational error. The area has multiple connections to the rest of the cave. The next step is to exit and explore the eastern section.
 - **Untested Assumption 1:** The Officer Jenny blocking the path in Cerulean City is a permanent story block.
 - **Untested Assumption 2:** The Hiker at (6, 7) on Mt. Moon 1F is a non-battling NPC. **Test Plan:** Interact with him at the next opportunity.
 
