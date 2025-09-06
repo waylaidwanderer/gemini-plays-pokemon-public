@@ -45,21 +45,21 @@
 - **Respawning Obstacles:** Cuttable trees can respawn, even without a map change.
 - **Cerulean City River:** The city is divided by a river. To cross between the western and eastern sections, I must use Surf.
 - **Mt. Moon Entrances:** The western entrance at (19, 6) leads to a dead end. The eastern entrance at (25, 6) leads to the main cave system.
-## D. Type Effectiveness & Insights
-- Electric is not very effective against Electric-types.
-- Electric is not very effective against Grass/Poison dual-types.
-- Electric is not very effective against Bug/Grass dual-types. (Verified: SPARKY's THUNDERBOLT vs PARAS)
-- Wild Pokémon Speed (Cerulean Cave): Wild Pokémon are deceptively fast.
-- Wild Pokémon Moves (Cerulean Cave): GOLEM can use SELFDESTRUCT and EXPLOSION. Both moves are not very effective against Rock/Ground types, as confirmed in multiple battles. SELFDESTRUCT is neutrally effective vs. Ground-types.
-- Type Immunity: Electric moves have no effect on Ground-types.
-- Type Immunity: Ground-type moves (EARTHQUAKE) do not affect GASTLY (Ghost/Poison). This implies a Levitate-like ability or a major type chart change.
-- Type Immunity: Normal-type moves do not affect Ghost-type Pokémon. (Verified: TITANESS's DOUBLE-EDGE vs. GASTLY)
-- Normal is super-effective against Ground-types. (Verified: Chansey's EGG BOMB vs. REVENANT)
+
+# III. Battle Data & Insights
+## A. Type Effectiveness & Immunities
+- Electric is not very effective against Electric, Grass/Poison, and Bug/Grass types.
+- Ground moves do not affect GASTLY (Ghost/Poison).
+- Normal moves do not affect Ghost-types.
+- Normal is super-effective against Ground-types.
 - Poison is not very effective against Ground-types.
-- 'Unaffected' Battle Message: REVENANT was 'unaffected' by a wild RHYDON's EARTHQUAKE. Cause unknown.
-## E. Known Pokemon Locations
-- Cerulean Cave: Ditto, Wigglytuff, Electrode, Golem, Raichu, Sandslash, Parasect, Lickitung, Magneton, Dodrio, RHYDON, VICTREEBEL, GOLBAT, KADABRA.
-- Pokémon Tower: GASTLY, CUBONE.
+- Wild Pokémon in Cerulean Cave are very fast.
+- Wild GOLEM in Cerulean Cave can use SELFDESTRUCT and EXPLOSION.
+## B. Key Trainer Rosters
+- **Nurse Joy (Fuchsia Pokecenter):** KANGASKHAN (Lv 65): DOUBLE-EDGE, DOUBLE TEAM; SNORLAX (Lv 65): ICE BEAM, REST
+## C. Known Pokemon Locations
+- **Cerulean Cave:** Ditto, Wigglytuff, Electrode, Golem, Raichu, Sandslash, Parasect, Lickitung, Magneton, Dodrio, RHYDON, VICTREEBEL, GOLBAT, KADABRA.
+- **Pokémon Tower:** GASTLY, CUBONE.
 
 # III. Solved Puzzles & Key Data
 ## A. Boulder Puzzles
