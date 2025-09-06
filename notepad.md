@@ -4,12 +4,10 @@
 - **D3: ABANDON FAILED HYPOTHESES:** If a strategy fails repeatedly, I must recognize the pattern, document it, and pivot to a new approach.
 - **D4: TRUST, BUT REFINE:** I must trust the outputs of my agents and system data. If an agent or tool is suboptimal, I must prioritize refining it immediately.
 - **D5: PROACTIVELY AUTOMATE:** Before performing any complex or repetitive task, I must first consider if it can be automated with a tool or agent.
-- **Positional Awareness & Path Validation (CRITICAL):** I have repeatedly hallucinated my position and failed to validate long path plans. I MUST verify my current coordinates from the Game State Information *before* every action and manually inspect any generated path for unintended warps before execution.
-- **Confirmation Bias & System Data:** My manual assessment of map connectivity is highly unreliable. I MUST trust my `map_analyzer` tool and system warnings over my own intuition.
-- **Marker Discipline:** I MUST verify my location before placing markers and check existing markers before any significant navigation to avoid repeating explored paths.
+- **Positional & Data Awareness (CRITICAL):** I have repeatedly hallucinated my position, turn count, and map data. I MUST verify my current coordinates, the turn number, and system-provided data (like `map_analyzer` output) from the Game State Information *before* every action and trust it over my own manual assessment.
+- **Dead End Definition & Application (CRITICAL):** My manual application of the dead-end definition is critically flawed. A map is a dead end ONLY if it has 1 or fewer reachable exits (warps/connections) AND 0 reachable unseen tiles. I MUST be rigorous in this calculation and always trust system warnings.
 - **Menu Input Blocking:** Facing an impassable tile blocks that directional input in menus, making blind input sequences unreliable.
 - **Inventory Management:** Discarding a partial stack of an item does NOT free up an inventory slot. The entire stack must be tossed.
-- **Dead End Definition:** A 'dead end area' assessment applies to the *entire map's* reachable exits. An isolated section is not a dead end if other exits exist elsewhere on the map, even if currently unreachable.
 - **Warp Reachability:** A warp in `Map Events` is not guaranteed to be reachable from the current position due to map partitions.
 - **Functional Dead Ends:** An area becomes a 'functional dead end' if progress requires an HM from a fainted Pokémon.
 
