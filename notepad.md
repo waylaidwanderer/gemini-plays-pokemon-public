@@ -59,23 +59,16 @@
 
 # V. Tool & Agent Development
 
-## A. Active Agents & Tools
-- **`stuck_navigator_agent`**: Suggests high-level navigational pivots when tools fail.
-- **`map_connectivity_analyzer`**: Analyzes map XML to identify partitioned areas.
-- **`automated_fly_navigator`**: Automates Fly menu navigation.
-
-## B. Development Lessons
+## A. Development Lessons
 - **Lesson: Menu Cursor Behavior:** Menu cursor starting positions are non-deterministic.
 - **Lesson: Battle Move Selection:** The move selection menu is a single-column list navigated with UP/DOWN only. LEFT/RIGHT have no effect.
 
-## C. New Tool & Agent Ideas
+## B. New Tool & Agent Ideas
 - **`automated_battle_move_selector`**: A tool that takes the output of `battle_strategist_agent` and fully automates the move selection process.
 - **`automated_pokecenter_healer`**: A tool to automate the dialogue sequence for healing Pokémon at any Pokémon Center.
 - **`puzzle_solver_agent`**: Takes current puzzle context and generates new hypotheses to test. Ideal for complex logical problems like the Officer Jenny situation.
 - **Pathfinder Refinement:** Update `automated_path_navigator` to recognize cuttable trees as potential paths, reporting that 'Cut is required' rather than 'No path found'.
 
-## C. Fly Menu Order (Data Gathering)
-- Awaiting re-collection.
 ## C. Fly Menu Order (Data Gathering)
 - PALLET TOWN
 - SAFFRON CITY
