@@ -66,6 +66,7 @@
 - **Pokémon Tower Ghost:** Required SILPH SCOPE. Calmed Marowak on 6F, rescued Mr. Fuji on 7F.
 - **Snorlax (Routes 11 & 12):** Used POKé FLUTE from the ITEM menu (past HMs).
 - **Seafoam Islands Boulder Puzzle:** Pushed boulders into holes across multiple floors to stop water current on B4F.
+- **Pewter Museum 2F:** Solved by interacting with follower Pikachu while adjacent to the Scientist NPC, which caused the Youngster NPC to move and unblock the exit warp.
 ## B. Item & Store Data
 - **Route 12:** Super Rod House.
 - **Celadon Dept. Store:** Sells TMs, stat-boosters, POKé DOLL, evolution stones.
