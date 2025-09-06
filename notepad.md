@@ -86,17 +86,10 @@
 - **`map_analyzer` (Mt. Moon B2F):** The tool was hallucinating reachable warps due to a faulty BFS. Attempting a fix by porting the more robust BFS logic from `find_path`.
 - **`find_path` (Mt. Moon B2F):** The tool failed to find a valid path on this map, indicating a persistent, critical bug in the BFS or map parsing logic.
 
-### G. Self-Correction & Hallucination Log
-- Pokemon Tower 7F (Turn 191582): Incorrectly reported 131 reachable unseen tiles and that the area was not a dead end, triggering a critical system warning. The system confirmed 0 reachable unseen tiles and that it *is* a dead end. Conclusion: My manual map assessment is critically flawed. I MUST ALWAYS trust the system's validation checks over my own intuition.
+# V. Self-Correction & Hallucination Log
 ## A. Navigational Hallucinations
-- Cerulean Cave 1F Partition (Turn 189610): Incorrectly believed I was trapped on an isolated platform at (28, 2). A system warning corrected me, revealing that another ladder at (8, 2) was reachable. Conclusion: Reinforces the absolute necessity of trusting system data over intuition.
-- Route 24 Unseen Tiles (Turn 188804): Incorrectly reported 67 reachable unseen tiles when there were 0. Conclusion: Manual assessment is unreliable. MUST use `map_analyzer`.
-- Warp Hallucination (Cerulean Gym - Turn 188811): Incorrectly reported 0 reachable warps when the exit was reachable. Conclusion: MUST use `map_analyzer`.
-- Dead End Hallucination (Cerulean Cave B1F - Turn 189197): Incorrectly reported being in a dead end. Conclusion: Reinforces the absolute necessity of the `map_analyzer` tool.
-- Saffron City Warp Reachability (Turn 190629): Incorrectly reported a warp at (30, 30) as unreachable due to a moving NPC, causing a system warning. This reinforces that my manual assessment of reachability is flawed and I must rely on system data.
-- Route 7 Dead End (Turn 190623): Incorrectly assessed Route 7 as a dead end, triggering a critical system warning. I must trust the system's data that another exit exists, even if my tools and visual assessment fail to find it.
-- Cerulean Cave Entrance: Assumed the main entrance to Cerulean Gym at (5, 12) was the warp to Cerulean Cave. This is incorrect. The tile is not a warp, and the gym is a dead end. The true entrance must be found elsewhere in Cerulean City.
-- Mt. Moon 1F (Turn 192757 - CRITICAL): Incorrectly assessed the map as a dead end. A system warning corrected me, pointing out there were 4 reachable exits (warps). This is a critical failure in applying my own dead-end definition. Lesson: I must systematically verify all reachable warps and connections before concluding an area is a dead end. My manual assessment is unreliable.
+- **Manual Map Assessment is Unreliable:** I have repeatedly failed to correctly assess unseen tiles, warp reachability, and dead-end status. (e.g., Pokemon Tower 7F, Route 24, Cerulean Gym, Cerulean Cave B1F, Saffron City, Route 7, Mt. Moon 1F, Mt. Moon B1F, Mt. Moon B2F). **LESSON: I MUST ALWAYS use my `map_analyzer` tool and trust system warnings over my own manual assessment.**
+- **Misunderstood Map Connections:** I have made incorrect assumptions about map connections. (e.g., Cerulean Cave Entrance). **LESSON: I must verify all potential paths and not rely on assumptions.**
 ## B. Positional & Turn Count Hallucinations
 - Route 24 Arrival (Turn 188858): Hallucinated arrival coordinates. Conclusion: Must always verify position from Game State after map transitions.
 - Turn Numbers (Multiple): Hallucinated the turn number. Conclusion: Must always trust the Game State Information.
