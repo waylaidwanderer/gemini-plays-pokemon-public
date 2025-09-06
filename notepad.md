@@ -32,19 +32,25 @@
 
 # III. World Data
 
-## A. Solved Puzzles & Key Events
+## A. Tile Mechanics (Verified)
+- **`ledge`**: Can only be jumped down from above (Y-1). Impassable from below and sides.
+- **`steps`**: Allows movement between `ground` and `elevated_ground`.
+- **`elevated_ground`**: Can only be accessed from `steps` or other `elevated_ground` tiles. Cannot be accessed directly from `ground`.
+- **`cuttable`**: Can be cut with HM Cut. Respawns on map change.
+
+## B. Solved Puzzles & Key Events
 - **Pewter Museum 2F:** Solved blocking NPC puzzle by interacting with follower Pikachu adjacent to a Scientist.
 - **Snorlax (Routes 11 & 12):** Awakened using the POKé FLUTE from the ITEM menu.
 - **Pokémon Tower Ghost:** Used SILPH SCOPE to reveal the ghost, allowing passage to rescue Mr. Fuji.
 - **Seafoam Islands Current:** Solved multi-floor boulder puzzle to stop the strong water current on B4F.
 
-## B. Key Locations & Discoveries
+## C. Key Locations & Discoveries
 - **Mt. Moon Entrances:** The eastern entrance (from Route 3) appears to be the main path forward. The western entrance (from Route 4) connects to a separate, large section of the cave that is currently being explored for an alternate route.
 - **Celadon Dept. Store:** Sells TMs, stat-boosters, POKé DOLLs, and evolution stones.
 - **Route 12:** Location of the Super Rod House.
 - **Cinnabar Island:** Home to a Pokémon Lab that can regenerate fossils.
 
-## C. Obstacles & Solutions
+## D. Obstacles & Solutions
 - **Rocket Grunt (Mt. Moon B2F at 30, 12):** Confirmed via dialogue that he is blocking the path south and demands a fossil to pass. This route is a dead end until a fossil is acquired.
 
 # IV. Active Hypotheses & Test Results
@@ -52,6 +58,7 @@
 - **Hypothesis 1:** The required fossil is located in the western section of Mt. Moon.
     - **Reasoning:** This is the only major area of the cave I have not fully explored.
     - **Test Plan:** Systematically explore all paths and battle all trainers in the area accessible from the western entrance.
+    - **Contingency:** If no fossil is found, fully re-explore the eastern section of Mt. Moon, as I may have missed a path.
 - **Untested Assumption 1:** The Officer Jenny blocking the path in Cerulean City is a permanent story block.
 
 # V. Tool & Agent Development
@@ -61,13 +68,12 @@
 - **`automated_path_navigator`**: Automates pathfinding and movement, useful for interruption-heavy routes.
 
 ## B. Agent & Tool Ideas
-- **`navigate_with_retries_tool`**: A wrapper tool that automatically re-calls `automated_path_navigator` after being interrupted by a wild battle.
+- **`navigation_manager_agent`**: A stateful agent that remembers a long-term navigation goal and automatically re-plans/re-issues movement commands after interruptions like wild battles.
 - **`exploration_planner_agent`**: Analyzes map sprites to generate an optimal exploration route to all un-interacted-with NPCs and items.
 - **`fossil_finder_agent`**: Analyzes world map data to suggest likely fossil locations.
 - **`gym_prep_agent`**: Suggests an optimal team of 6 for a given gym type.
 - **`puzzle_documentation_agent`**: Formats puzzle summaries for the notepad.
 - **`notepad_organizer_agent`**: Automates notepad cleaning and reorganization.
-- **`navigation_manager_agent`**: Remembers a long-term navigation goal and re-plans after interruptions.
 
 ## C. Key Development Lessons & Bugs
 - **`use_hm_tool` Failure:** A single tool cannot perform a multi-stage, dynamic menu navigation task. The correct approach is a sequential, multi-turn process using `menu_analyzer` and `select_menu_option`.
