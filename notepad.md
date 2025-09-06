@@ -60,12 +60,11 @@
 - Cerulean Cave: Ditto, Wigglytuff, Electrode, Golem, Raichu, Sandslash, Parasect, Lickitung, Magneton, Dodrio, RHYDON, VICTREEBEL, GOLBAT, KADABRA.
 - Pokémon Tower: GASTLY, CUBONE.
 ## G. Navigational Lessons & Discoveries
-- Dead End Definition (Correction): A 'dead end area' assessment applies to the *entire map's* reachable exits. An isolated section is not a dead end if other exits exist elsewhere on the map, even if currently unreachable.
-- Warp Reachability (Correction): A warp being listed in `Map Events` does not guarantee it is reachable from the current position. The map is often partitioned.
-- Self-Assessment Insights (Turn 188789): Wasted time exploring rivers in Cerulean City/Route 24. Should have used a data-driven tool like `map_analyzer` sooner to confirm it was a dead end.
-- Functional Dead Ends: An area may be reported as not a dead end by the system if a path exists that requires a specific HM (like Surf). However, if the Pokémon with that HM is fainted, the area becomes a 'functional dead end' from a practical standpoint, requiring backtracking.
+- Dead End Definition: A 'dead end area' assessment applies to the *entire map's* reachable exits. An isolated section is not a dead end if other exits exist elsewhere on the map, even if currently unreachable.
+- Warp Reachability: A warp in `Map Events` is not guaranteed to be reachable from the current position due to map partitions.
+- Functional Dead Ends: An area becomes a 'functional dead end' if progress requires an HM from a fainted Pokémon.
 ## H. Unexplained Phenomena
-- 'Unaffected' Battle Message: During a battle with a wild RHYDON, after using EARTHQUAKE, the message 'REVENANT is unaffected!' appeared. My Pokémon took no damage and received no status. The cause is unknown. I need to monitor if this happens again.
+- 'Unaffected' Battle Message: REVENANT was 'unaffected' by a wild RHYDON's EARTHQUAKE. Cause unknown.
 
 # III. Solved Puzzles & Mechanics Reference
 ## A. Boulder Puzzle Mechanics
