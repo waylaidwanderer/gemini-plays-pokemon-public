@@ -1,13 +1,9 @@
-# I. Core Directives & Key Lessons
-
-## A. Core Directives
+# I. Core Directives & Lessons Learned
 - **D1: IMMEDIATE DATA & TOOL MANAGEMENT:** All data management (notepad, markers) and tool/agent refinement is the HIGHEST priority and MUST be performed in the same turn a need is identified.
 - **D2: ACT ON DOCUMENTATION:** A documented lesson that does not result in a behavioral change is a critical failure.
 - **D3: ABANDON FAILED HYPOTHESES:** If a strategy fails repeatedly, I must recognize the pattern, document it, and pivot to a new approach.
 - **D4: TRUST, BUT REFINE:** I must trust the outputs of my agents and system data. If an agent or tool is suboptimal, I must prioritize refining it immediately.
 - **D5: PROACTIVELY AUTOMATE:** Before performing any complex or repetitive task, I must first consider if it can be automated with a tool or agent.
-
-## B. Key Lessons Learned
 - **Positional Awareness & Path Validation (CRITICAL):** I have repeatedly hallucinated my position and failed to validate long path plans. I MUST verify my current coordinates from the Game State Information *before* every action and manually inspect any generated path for unintended warps before execution.
 - **Confirmation Bias & System Data:** My manual assessment of map connectivity is highly unreliable. I MUST trust my `map_analyzer` tool and system warnings over my own intuition.
 - **Marker Discipline:** I MUST verify my location before placing markers and check existing markers before any significant navigation to avoid repeating explored paths.
