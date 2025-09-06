@@ -91,18 +91,11 @@
 - **Manual Map Assessment is Unreliable:** I have repeatedly failed to correctly assess unseen tiles, warp reachability, and dead-end status. (e.g., Pokemon Tower 7F, Route 24, Cerulean Gym, Cerulean Cave B1F, Saffron City, Route 7, Mt. Moon 1F, Mt. Moon B1F, Mt. Moon B2F). **LESSON: I MUST ALWAYS use my `map_analyzer` tool and trust system warnings over my own manual assessment.**
 - **Misunderstood Map Connections:** I have made incorrect assumptions about map connections. (e.g., Cerulean Cave Entrance). **LESSON: I must verify all potential paths and not rely on assumptions.**
 ## B. Positional & Turn Count Hallucinations
-- Route 24 Arrival (Turn 188858): Hallucinated arrival coordinates. Conclusion: Must always verify position from Game State after map transitions.
-- Turn Numbers (Multiple): Hallucinated the turn number. Conclusion: Must always trust the Game State Information.
-- Route 14 Unseen Tiles (Turn 192124 - CRITICAL): Received a system warning that I hallucinated 45 reachable unseen tiles on Route 14 when there were 0. This indicates a severe flaw in my map assessment process or a bug in my `map_analyzer` tool. Discarding all current navigation plans for this route. Immediate priority is to re-run `map_analyzer` to diagnose the source of the error. All exploration is on hold until this is resolved.
-- Route 15 Unseen Tiles (Turn 192132 - CRITICAL): Received a system warning for hallucinating 272 reachable unseen tiles when there were 0. This was a failure in my manual assessment when constructing the `validation_checks` block. My `map_analyzer` tool's output was correct (0 unseen tiles), but I ignored it. **LESSON:** I MUST trust the direct output of my validated tools over my own manual interpretation of the map. This is a direct violation of my "Trust, but Refine" directive.
-- Turn Count Mismatch (Turn 192152 - CRITICAL): Received a system warning for reporting turn 192150 when the correct turn was 192151. This is a data-processing hallucination. LESSON: I must always use the turn number provided in the Game State Information as the absolute source of truth.
-- Turn Count Mismatch (Turn 192154 - CRITICAL): Received a second consecutive system warning for reporting turn 192152 when the correct turn was 192153. This indicates a persistent data-processing hallucination. LESSON: I must double-check the turn number from the Game State Information before every single response.
-- Positional Mismatch (Turn 192155 - CRITICAL): Received a system warning for reporting my position as (4, 4) when I was at (4, 8). This is another data-processing hallucination. LESSON: I must verify my coordinates from the Game State Information before every action.
-- Positional Mismatch (Turn 192155 - CRITICAL): Received a system warning for reporting my position as (4, 4) when I was at (4, 8). This is another data-processing hallucination. LESSON: I must verify my coordinates from the Game State Information before every action.
+- **Positional & Turn Count Mismatch (Multiple):** I have repeatedly received critical warnings for reporting the wrong turn number or player coordinates. **LESSON: I must verify my coordinates and the current turn number from the Game State Information before every single action.**
 ## C. Manual Pathing Failures
-- Pokémon Tower 6F (Turn 191168): Manually created a path plan that led directly into an impassable wall at (12, 10). Conclusion: Manual pathing is unreliable. I MUST use the `find_path` tool for all non-trivial navigation.
+- **Manual Pathing is Unreliable (Multiple):** I have created manual path plans that failed (e.g., Pokémon Tower 6F). **LESSON: I MUST use the `find_path` tool for all non-trivial navigation.**
 
-# VII. Active Hypotheses & Untested Assumptions
+# VI. Active Hypotheses & Untested Assumptions
 - **Cerulean Cave Entrance:** The entrance is somewhere in Cerulean City.
 - **Officer Jenny:** The block at (29, 13) is a permanent story block.
 - **Safari Zone Entrance:** The entrance is at (19, 4).
