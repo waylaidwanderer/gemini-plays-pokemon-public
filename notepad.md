@@ -70,3 +70,5 @@
 
 # VI. Exploration Log
 - **Mt. Moon 1F Eastern Corridor (Turn 194646):** Confirmed that the entire eastern corridor originating from the Super Nerd at (25, 32) is a dead end. The path is blocked by an impassable wall at (34, 27). This invalidates the hypothesis that the fossil is accessible from this part of 1F.
+- **`automated_fly_navigator`**: A tool to automate selecting a destination from the Fly map menu.
+- **`automated_pokecenter_healer`**: A tool to automate the dialogue sequence for healing Pokémon at any Pokémon Center.
