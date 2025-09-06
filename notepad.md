@@ -132,3 +132,33 @@
 - **`find_path`/`map_analyzer` Bug:** Both tools are critically bugged in partitioned maps like Mt. Moon. They fail to build a complete graph of reachable areas, leading to incorrect dead-end calculations and unreachable pathing goals. **PRIORITY 1:** Overhaul the BFS logic in both tools to correctly map all connected nodes in a partition before returning results.
 - **Mt. Moon B1F Partition Failure (Turn 193112 - CRITICAL):** Received another system warning for hallucinating numerous unreachable warps as reachable. This confirms my `map_analyzer` fix was insufficient and the tool is still critically bugged and cannot handle map partitions correctly. LESSON: I must completely distrust my tool's output in complex, multi-level maps and rely solely on system warnings for determining dead ends and reachability until the tool is fixed again.
 - **Museum 1F Dead End Miscalculation (Turn 193148 - CRITICAL):** Received a system warning for reporting the museum as a dead end when it has two reachable exits (Pewter City and Museum 2F). This is another failure to correctly apply the dead-end definition. LESSON: I must be more rigorous and trust system warnings.
+
+# V. Agent & Tool Development
+## A. Agent & Tool Ideas
+- **stuck_navigator_agent**: An agent to suggest high-level navigational pivots when tools fail or progress is stalled in complex, multi-map areas.
+- **fossil_finder_agent**: An agent to analyze map data across the entire known world to suggest the most likely location for a required fossil.
+- **gym_prep_agent**: An agent that takes a gym type and PC box contents as input to suggest an optimal team of 6.
+- **puzzle_documentation_agent**: An agent that takes a puzzle summary and formats it for the notepad.
+## B. Retired Concepts & Tools
+- `use_hm_from_party`, `switch_pokemon_navigator`, `menu_navigator`, `use_hm_tool`: Retired due to flaws with non-deterministic menu cursors and the 'Menu Input Blocking' mechanic. Lesson: Menu automation requires environment-aware parsing (`menu_analyzer`) and targeted selection (`select_menu_option`).
+## C. Key Development Lessons
+- **`use_hm_tool` Failure:** A single tool cannot perform a multi-stage, dynamic menu navigation task. The correct approach is a sequential, multi-turn process using `menu_analyzer` and `select_menu_option`.
+- **Menu Cursor Behavior:** Menu cursor starting positions are non-deterministic. Tools must force a known state rather than assuming a start position.
+## D. Tool Malfunctions & Bugs
+- **`find_path` / `map_analyzer` (Partitioned Maps):** Both tools have a critical bug where they fail to correctly parse partitioned map layouts (e.g., Safari Zone Center, Mt. Moon). This leads to incorrect reachability analysis, pathing failures, and dead-end miscalculations. This is a top priority to fix.
+
+# VI. Self-Correction & Hallucination Log
+## A. Navigational Hallucinations
+- **Manual Map Assessment is Unreliable:** I have repeatedly failed to correctly assess unseen tiles, warp reachability, and dead-end status. (e.g., Pokemon Tower 7F, Route 24, Cerulean Gym, Cerulean Cave B1F, Saffron City, Route 7, Mt. Moon 1F, Mt. Moon B1F, Mt. Moon B2F, Museum 1F). **LESSON: I MUST ALWAYS use my `map_analyzer` tool and trust system warnings over my own manual assessment.**
+## B. Positional & Turn Count Hallucinations
+- **Positional & Turn Count Mismatch (Multiple):** I have repeatedly received critical warnings for reporting the wrong turn number or player coordinates. **LESSON: I must verify my coordinates and the current turn number from the Game State Information before every single action.**
+## C. Manual Pathing Failures
+- **Manual Pathing is Unreliable (Multiple):** I have created manual path plans that failed (e.g., Pokémon Tower 6F). **LESSON: I MUST use the `find_path` tool for all non-trivial navigation.**
+## D. Map ID Mismatch
+- **Map ID Mismatch (Turn 193072 - CRITICAL):** Hallucinated a map change from B2F to B1F that did not occur. **LESSON: I MUST verify the `current_map_id` from the Game State Information after every warp attempt to confirm the transition was successful before proceeding.**
+
+# VII. Active Hypotheses & Untested Assumptions
+- **Cerulean Cave Entrance:** The entrance is somewhere in Cerulean City.
+- **Officer Jenny:** The block at (29, 13) is a permanent story block.
+- **Safari Zone Entrance:** The entrance is at (19, 4).
+- **Secret House Location:** The 'SECRET HOUSE' is a discoverable location within the Safari Zone.
