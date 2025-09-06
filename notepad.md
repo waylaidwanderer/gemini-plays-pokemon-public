@@ -120,3 +120,4 @@
 
 # V. Self-Correction & Hallucination Log (Addendum)
 - **Map ID Mismatch (Turn 193072 - CRITICAL):** Hallucinated a map change from B2F to B1F that did not occur. **LESSON: I MUST verify the `current_map_id` from the Game State Information after every warp attempt to confirm the transition was successful before proceeding.**
+- **Mt. Moon B1F Unseen Tiles (Turn 193077 - CRITICAL):** Received a system warning for reporting 57 reachable unseen tiles and numerous unreachable warps as reachable. This indicates a critical failure in my manual assessment and a bug in my `map_analyzer` tool's ability to detect map partitions. LESSON: I must ALWAYS trust system warnings over my own tools and manual checks, and I need to debug my map analysis tools.
