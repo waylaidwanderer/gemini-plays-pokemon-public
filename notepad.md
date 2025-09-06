@@ -79,3 +79,4 @@
 ## C. New Tool & Agent Ideas (Post-Reflection)
 - **`party_manager_agent`**: A specialized agent to automate the multi-step process of switching party members in the menu, combining menu analysis and selection logic.
 - **`select_party_member_tool`**: A computational tool that takes a Pokémon's name and calculates the button presses needed to select it in the party menu. This would be a core component of the `party_manager_agent`.
+- **System vs. Local Reachability (Turn 193685 - CRITICAL):** System warnings about "reachable" tiles/warps are a global check for the entire map and may not reflect what is reachable from my current partitioned location. My `map_analyzer` tool performs a *local* reachability check. I MUST trust my tool's output for immediate navigation decisions, even if it seems to contradict a global system warning.
