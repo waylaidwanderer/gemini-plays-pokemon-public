@@ -52,12 +52,11 @@
 
 ## C. Obstacles & Solutions
 - **Rocket Grunt (Mt. Moon B2F at 30, 12):** Confirmed via dialogue that he is blocking the path south and demands a fossil to pass.
+- **Officer Jenny (Cerulean City):** Blocking path east due to Team Rocket robbery. All attempts to move her by interacting with NPCs, Pikachu, and items in the Trashed House have failed.
 
 # IV. Active Hypotheses & Test Results
-- **Hypothesis 1 (Invalidated):** The fossil needed to pass the Rocket Grunt is located in a previously unexplored section of Mt. Moon 1F. **Result (Turn 194646):** The entire eastern corridor originating from the Super Nerd at (25, 32) is a confirmed dead end.
-- **Hypothesis 2 (Active):** The fossil is located on a lower floor of Mt. Moon (B1F or B2F). **Test Plan:** Systematically re-explore all paths on B1F and B2F, starting from known ladders.
-- **Untested Assumption 1:** The Officer Jenny blocking the path in Cerulean City is a permanent story block.
-- **Untested Assumption 2:** The fossil for the Mt. Moon Rocket Grunt might not be in Mt. Moon itself. I may need to find it elsewhere and return later.
+- **Hypothesis 1 (Active):** The trigger to move Officer Jenny is located on Route 24 (Nugget Bridge), another known Team Rocket area. **Test Plan:** Proceed north to Route 24 and investigate.
+- **Hypothesis 2 (Active):** The fossil needed for the Mt. Moon Rocket Grunt is located on a lower floor of Mt. Moon (B1F or B2F). **Test Plan:** Systematically re-explore all paths on B1F and B2F, starting from known ladders.
 
 # V. Tool & Agent Development
 
@@ -70,10 +69,10 @@
 - **Lesson: Battle Move Selection:** The move selection menu is a single-column list navigated with UP/DOWN only. LEFT/RIGHT have no effect.
 
 ## C. New Tool Ideas
-- **`automated_battle_move_selector`**: A tool that takes the output of `battle_strategist_agent` and fully automates the move selection process, including navigating the menu and confirming the move.
-- **`automated_fly_navigator`**: A tool to automate selecting a destination from the Fly map menu.
+- **`automated_battle_move_selector`**: A tool that takes the output of `battle_strategist_agent` and fully automates the move selection process.
 - **`automated_pokecenter_healer`**: A tool to automate the dialogue sequence for healing Pokémon at any Pokémon Center.
-- **`puzzle_solver_agent`**: Takes current puzzle context (objective, clues, failed hypotheses) and generates a ranked list of new hypotheses to test. This would formalize my problem-solving process.
+- **`puzzle_solver_agent`**: Takes current puzzle context and generates new hypotheses to test.
 
 # VI. Exploration Log
-- **Mt. Moon 1F Eastern Corridor (Turn 194646):** Confirmed that the entire eastern corridor originating from the Super Nerd at (25, 32) is a dead end. The path is blocked by an impassable wall at (34, 27). This invalidates the hypothesis that the fossil is accessible from this part of 1F.
+- **Mt. Moon 1F Eastern Corridor (Turn 194646):** Confirmed that the entire eastern corridor originating from the Super Nerd at (25, 32) is a dead end. This invalidates the hypothesis that the fossil is accessible from this part of 1F.
+- **Cerulean City Team Rocket Event (Turns 194892-194900):** Confirmed that all interactions within the Trashed House and its backyard (talking to NPCs, interacting with Pikachu, interacting with the hole) do not trigger Officer Jenny to move. This invalidates the hypothesis that the solution is contained solely within that partitioned area.
