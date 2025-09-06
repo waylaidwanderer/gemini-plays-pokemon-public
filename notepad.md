@@ -66,7 +66,7 @@
 ## H. Unexplained Phenomena
 - 'Unaffected' Battle Message: REVENANT was 'unaffected' by a wild RHYDON's EARTHQUAKE. Cause unknown.
 
-# III. Solved Puzzles & Mechanics Reference
+# III. Data & Puzzles
 ## A. Boulder Puzzle Mechanics
 - Objective: Boulders are often pushed into holes to block water currents on lower floors.
 - Movement: Pushing is a multi-turn action. Must be adjacent. First press turns/pushes. Subsequent pushes require moving to the new adjacent tile first.
