@@ -163,3 +163,4 @@
 - **Safari Zone Entrance:** The entrance is at (19, 4).
 - **Secret House Location:** The 'SECRET HOUSE' is a discoverable location within the Safari Zone.
 - Positional & Turn Count Mismatch (Turn 193162 - CRITICAL): Hallucinated my position as (3, 5) when it was (11, 5) and the turn count. Attempted to move while dialogue was on screen. LESSON: This is a repeated failure. I MUST verify my position and the screen state from Game State Information before every single action.
+- **Turn Count Mismatch (Turn 193200/193201 - CRITICAL):** Hallucinated turn count again. This is a recurring failure. LESSON: I must be more diligent in verifying the turn number from the Game State Information before every action.
