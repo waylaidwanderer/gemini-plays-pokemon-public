@@ -1150,12 +1150,17 @@
         "path_plan_json"
       ]
     },
-    "python_script": "import json\nimport xml.etree.ElementTree as ET\n\npath_plan = json.loads(input_data['path_plan_json'])\nroot = ET.fromstring(map_xml_string)\n\nwarp_tiles = set()\nfor row in root.findall('Row'):\n    y = int(row.get('id'))\n    for tile_elem in row.findall('Tile'):\n        x = int(tile_elem.get('id'))\n        if tile_elem.get('is-warp') == 'true':\n            warp_tiles.add((x, y))\n\nunintended_warp = None\n# Check all steps except the last one\nfor i in range(len(path_plan) - 1):\n    step = path_plan[i]\n    pos = (step[0], step[1])\n    if pos in warp_tiles:\n        unintended_warp = pos\n        break\n\nif unintended_warp:\n    result = {\n        'valid': False,\n        'error': f'Path crosses an unintended warp at ({unintended_warp[0]}, {unintended_warp[1]})'\n    }\nelse:\n    result = {'valid': True}\n\nprint(json.dumps(result))",
+    "python_script": "import json\nimport xml.etree.ElementTree as ET\n\npath_plan = json.loads(input_data['path_plan_json'])\nroot = ET.fromstring(map_xml_string)\n\nwarp_tiles = set()\nfor row in root.findall('Row'):\n    y = int(row.get('id'))\n    for tile_elem in row.findall('Tile'):\n        x = int(tile_elem.get('id'))\n        if tile_elem.get('is-warp') == 'true':\n            warp_tiles.add((x, y))\n\nunintended_warp = None\n# Check all steps except the first and the last one\nfor i in range(1, len(path_plan) - 1):\n    step = path_plan[i]\n    pos = (step[0], step[1])\n    if pos in warp_tiles:\n        unintended_warp = pos\n        break\n\nif unintended_warp:\n    result = {\n        'valid': False,\n        'error': f'Path crosses an unintended warp at ({unintended_warp[0]}, {unintended_warp[1]})'\n    }\nelse:\n    result = {'valid': True}\n\nprint(json.dumps(result))",
     "history": [
       {
         "commit_message": "feat: Create path_validator tool to prevent accidental warp usage. This tool is a direct response to a critical Overwatch critique from turn 192855 highlighting my failure to implement documented tool ideas. It will analyze a path plan and flag any unintended warps, preventing a common and repeated navigational error.",
         "timestamp": "2025-09-06T00:49:49.766Z",
         "action_counter": 192857
+      },
+      {
+        "commit_message": "fix: Ignore starting tile in warp check. The tool was incorrectly flagging paths as invalid if the player's starting position was a warp tile. This commit modifies the loop to start checking from the second step (index 1) of the path plan, which correctly ignores the initial position and prevents this false positive. This is a critical fix for reliable path validation.",
+        "timestamp": "2025-09-06T01:36:45.524Z",
+        "action_counter": 192930
       }
     ]
   }
