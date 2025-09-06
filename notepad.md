@@ -82,3 +82,4 @@
 - **impassable:** A solid wall or object.
 - **cuttable:** A tree that can be cut with HM Cut. Respawns on map change.
 - **grass:** Tall grass where wild Pokémon appear.
+- **Test Result (Turn 193797):** Spoke to Super Nerd on Mt. Moon 1F at (25, 32). He provided no information on fossils. This path is exhausted.
