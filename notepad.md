@@ -191,3 +191,6 @@
 - **Officer Jenny (Cerulean City):** The block at (29, 13) is a permanent story block.
 - **Safari Zone Entrance:** The entrance is at (19, 4).
 - **Secret House Location:** The 'SECRET HOUSE' is a discoverable location within the Safari Zone.
+
+# V. Self-Correction & Hallucination Log
+- **Mt. Moon Pokecenter Dead End Miscalculation (Turn 193271 - CRITICAL):** Received a system warning for incorrectly identifying the Pokecenter as a non-dead-end area. It has only one exit (the warp at (4,8) and (5,8) is a single logical exit), making it a dead end. This is a failure to correctly apply the dead-end definition. LESSON: I must be more rigorous in my analysis and always trust the system's dead-end calculation over my own flawed manual assessment.
