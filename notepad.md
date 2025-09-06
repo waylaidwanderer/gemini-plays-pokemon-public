@@ -6,12 +6,13 @@
 - **D3: ABANDON FAILED HYPOTHESES:** If a strategy fails repeatedly, I must recognize the pattern, document it, and pivot to a new approach.
 - **D4: TRUST, BUT REFINE:** I must trust the outputs of my agents and system data. If an agent or tool is suboptimal, I must prioritize refining it immediately.
 - **D5: PROACTIVELY AUTOMATE:** Before performing any complex or repetitive task, I must first consider if it can be automated with a tool or agent.
+- **D6: BATTLE EFFICIENCY:** Do not use complex agents for trivial wild battles. Handle them manually for maximum speed.
 
 ## B. Key Lessons & Recurring Failures (Hallucination Log)
 - **Positional & Data Awareness:** I MUST verify my current coordinates, turn number, and system-provided data from the Game State Information *before* every action and trust it over my own manual assessment.
 - **Dead End Definition & Application:** My manual application of the dead-end definition is critically flawed. A map is a dead end ONLY if it has 1 or fewer reachable exits (warps/connections) AND 0 reachable unseen tiles. I must be rigorous in this calculation.
-- **System vs. Local Reachability (Turn 193685 - CRITICAL):** System warnings about "reachable" tiles/warps are a global check for the entire map and may not reflect what is reachable from my current partitioned location. My `map_analyzer` tool performs a *local* reachability check. I MUST trust my tool's output for immediate navigation decisions, even if it seems to contradict a global system warning.
-- **Confirmation Bias in Debugging (Turn 193715):** I wasted over a dozen turns attempting to patch `map_analyzer`, assuming each small change would work. This was confirmation bias. LESSON: If a tool fix fails more than twice, I must pivot to a different debugging strategy (e.g., complete overhaul, using an agent) instead of repeating the same failed approach.
+- **System vs. Local Reachability (Turn 193685 - CRITICAL):** System warnings about "reachable" tiles/warps are a global check for the entire map and may not reflect what is reachable from my current partitioned location. A local reachability check (like from a working tool) is necessary for immediate navigation decisions.
+- **Confirmation Bias in Debugging (Turn 193715):** I wasted over a dozen turns attempting to patch `map_analyzer`, assuming each small change would work. This was confirmation bias. LESSON: If a tool fix fails more than twice, I must pivot to a different debugging strategy (e.g., complete overhaul, using an agent, or deleting the tool) instead of repeating the same failed approach.
 
 # II. Battle Data
 
@@ -66,8 +67,8 @@
 ## B. Key Development Lessons & Bugs
 - **`use_hm_tool` Failure:** A single tool cannot perform a multi-stage, dynamic menu navigation task. The correct approach is a sequential, multi-turn process using `menu_analyzer` and `select_menu_option`.
 - **Menu Cursor Behavior:** Menu cursor starting positions are non-deterministic. Tools must force a known state rather than assuming a start position.
-- **`find_path` / `map_analyzer` Bug (Partitioned Maps):** Both tools have a critical, recurring bug where they fail to correctly parse partitioned map layouts (e.g., Safari Zone, Mt. Moon). This leads to incorrect reachability analysis, pathing failures, and dead-end miscalculations. My attempts to fix `map_analyzer` have repeatedly failed, indicating a need for a new debugging strategy.
-- **Overwatch Lesson (CRITICAL):** Tool refinement is a non-deferrable, highest-priority action. I MUST fix faulty tools in the same turn a flaw is discovered.
+- **`map_analyzer` Deletion (Turn 193716):** The tool was fundamentally flawed, failing to parse partitioned maps. After multiple failed fixes, it was deleted as it was a liability causing navigational hallucinations.
+- **Overwatch Lesson (CRITICAL):** Tool refinement is a non-deferrable, highest-priority action. I MUST fix or delete faulty tools in the same turn a flaw is discovered.
 
 # V. Game Mechanics & Tile Data
 
@@ -77,6 +78,7 @@
 - **steps:** The only way to move between `ground` and `elevated_ground`.
 - **ledge:** One-way traversal. Can only be jumped down (from Y-1 to Y+2 in one move). Impassable from below or sides.
 - **ladder_up / ladder_down:** Acts as a warp to a different floor.
+- **trap_ladder:** A special ladder (e.g., Mt. Moon B1F at (26, 16)) that moves the player one tile instead of warping them.
 - **impassable:** A solid wall or object.
 - **cuttable:** A tree that can be cut with HM Cut. Respawns on map change.
 - **grass:** Tall grass where wild Pokémon appear.
