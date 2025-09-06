@@ -83,3 +83,4 @@
 - **cuttable:** A tree that can be cut with HM Cut. Respawns on map change.
 - **grass:** Tall grass where wild Pokémon appear.
 - **Test Result (Turn 193797):** Spoke to Super Nerd on Mt. Moon 1F at (25, 32). He provided no information on fossils. This path is exhausted.
+- Test Result (Turn 193832): Spoke to Rocket Grunt at Mt. Moon B2F (30, 12). He confirmed he is blocking the path and demands a fossil to pass. This confirms Untested Assumption 2.
