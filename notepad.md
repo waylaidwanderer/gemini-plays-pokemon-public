@@ -79,12 +79,6 @@
 - **`find_path` / `map_analyzer` (Partitioned Maps):** Both tools have a critical bug where they fail to correctly parse partitioned map layouts (e.g., Safari Zone Center, Mt. Moon). This leads to incorrect reachability analysis, pathing failures, and dead-end miscalculations.
 - **Overwatch Lesson (CRITICAL):** Tool refinement is a non-deferrable, highest-priority action. I MUST fix faulty tools in the same turn a flaw is discovered.
 
-# V. Self-Correction & Hallucination Log
-## A. Core Lessons from Recurring Failures
-- **Lesson 1: Trust System Data & Tools Over Manual Assessment.** I have repeatedly failed to correctly assess unseen tiles, warp reachability, dead-end status, and turn counts. Manual assessment is unreliable. I MUST ALWAYS use my `map_analyzer` tool for map analysis and trust system warnings and Game State Information (especially turn count and map ID) over my own perception.
-- **Lesson 2: Use Automation for Navigation.** I have repeatedly created manual path plans that failed or were inefficient. I MUST use the `find_path` tool for all non-trivial navigation.
-- **Lesson 3: Verify Map Transitions.** I have hallucinated map changes that did not occur. I MUST verify the `current_map_id` from the Game State Information after every warp to confirm the transition was successful before proceeding.
-
 # VIII. Self-Assessment Insights (Turn 193356)
 ## A. New Agent & Tool Ideas
 - **notepad_organizer_agent**: An agent to automate the process of cleaning and reorganizing the notepad based on a set of rules.
