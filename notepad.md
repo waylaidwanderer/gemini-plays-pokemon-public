@@ -37,6 +37,7 @@
 - **`steps`**: Allows movement between `ground` and `elevated_ground`.
 - **`elevated_ground`**: Can only be accessed from `steps` or other `elevated_ground` tiles. Cannot be accessed directly from `ground`.
 - **`cuttable`**: Can be cut with HM Cut. Respawns on map change.
+- **`ladder_up`/`ladder_down`**: Warps that function as instant transitions between floors.
 
 ## B. Solved Puzzles & Key Events
 - **Pewter Museum 2F:** Solved blocking NPC puzzle by interacting with follower Pikachu adjacent to a Scientist.
@@ -60,6 +61,7 @@
     - **Test Plan:** Systematically explore all paths and battle all trainers in the area accessible from the western entrance.
     - **Contingency:** If no fossil is found, fully re-explore the eastern section of Mt. Moon, as I may have missed a path.
 - **Untested Assumption 1:** The Officer Jenny blocking the path in Cerulean City is a permanent story block.
+- **Untested Assumption 2:** The Hiker at (6, 7) on Mt. Moon 1F is a non-battling NPC. **Test Plan:** Interact with him at the next opportunity.
 
 # V. Tool & Agent Development
 
@@ -70,8 +72,9 @@
 - **`automated_path_navigator`**: Automates pathfinding and movement, useful for interruption-heavy routes.
 
 ## C. Agent & Tool Ideas
+- **`navigation_manager_agent` (HIGH PRIORITY):** A stateful agent that remembers a long-term navigation goal and automatically re-plans/re-issues movement commands after interruptions like wild battles.
+- **`automated_battle_agent`**: An agent to handle trivial wild battles by automatically selecting the first available super-effective move.
 - **`automated_path_navigator` Improvement:** Refine the tool to provide context on failure (e.g., coordinates and type of blocking tile).
-- **`navigation_manager_agent`**: A stateful agent that remembers a long-term navigation goal and automatically re-plans/re-issues movement commands after interruptions like wild battles.
 - **`exploration_planner_agent`**: Analyzes map sprites to generate an optimal exploration route to all un-interacted-with NPCs and items.
 - **`fossil_finder_agent`**: Analyzes world map data to suggest likely fossil locations.
 - **`gym_prep_agent`**: Suggests an optimal team of 6 for a given gym type.
