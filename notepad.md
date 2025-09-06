@@ -71,10 +71,10 @@
 ## B. Active Tools
 - **`automated_path_navigator`**: Automates pathfinding and movement, useful for interruption-heavy routes.
 
-## C. Agent & Tool Ideas
-- **`navigation_manager_agent` (HIGH PRIORITY):** A stateful agent that remembers a long-term navigation goal and automatically re-plans/re-issues movement commands after interruptions like wild battles.
+## C. Agent & Tool Ideas (Prioritized based on Overwatch feedback)
+- **`navigation_manager_agent` (CRITICAL PRIORITY):** A stateful agent that remembers a long-term navigation goal and automatically re-plans/re-issues movement commands after interruptions like wild battles. This is a top priority to improve efficiency, as noted by Overwatch.
+- **`automated_path_navigator` Improvement (HIGH PRIORITY):** Refine the tool to provide context on failure (e.g., coordinates and type of blocking tile). Overwatch noted this is a critical enhancement.
 - **`automated_battle_agent`**: An agent to handle trivial wild battles by automatically selecting the first available super-effective move.
-- **`automated_path_navigator` Improvement:** Refine the tool to provide context on failure (e.g., coordinates and type of blocking tile).
 - **`exploration_planner_agent`**: Analyzes map sprites to generate an optimal exploration route to all un-interacted-with NPCs and items.
 - **`fossil_finder_agent`**: Analyzes world map data to suggest likely fossil locations.
 - **`gym_prep_agent`**: Suggests an optimal team of 6 for a given gym type.
