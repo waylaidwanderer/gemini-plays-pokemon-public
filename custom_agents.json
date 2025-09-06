@@ -26,5 +26,12 @@
     "agent_system_prompt": "You are a party management specialist. Your task is to take a list of Pokémon to be withdrawn from the PC and a list of Pokémon to be deposited from the current party, and generate a sequence of actions to perform the swap. The actions can be 'WITHDRAW', 'DEPOSIT', or 'SWITCH'. You will be given the current party, the Pokémon in the current PC box, and the desired party composition. Your output must be a JSON array of action objects, each with an 'action_type' and a 'pokemon_name'.",
     "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"current_party_json\":{\"type\":\"string\"},\"pc_box_pokemon_json\":{\"type\":\"string\"},\"desired_party_json\":{\"type\":\"string\"}},\"required\":[\"current_party_json\",\"pc_box_pokemon_json\",\"desired_party_json\"]}",
     "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"actions\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"action_type\":{\"type\":\"string\",\"enum\":[\"WITHDRAW\",\"DEPOSIT\",\"SWITCH\"]},\"pokemon_name\":{\"type\":\"string\"}},\"required\":[\"action_type\",\"pokemon_name\"]}}},\"required\":[\"actions\"]}"
+  },
+  "debugging_assistant_agent": {
+    "agent_name": "debugging_assistant_agent",
+    "agent_description": "Takes a tool's code, error, and expected output to suggest logical fixes.",
+    "agent_system_prompt": "You are a debugging assistant. You will be given a Python script, an error message, and the expected output. Your task is to analyze the code and the error to suggest a logical fix. Your output should be a JSON object with the suggested fix and an explanation of why it should work.",
+    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"code\":{\"type\":\"string\"},\"error\":{\"type\":\"string\"},\"expected_output\":{\"type\":\"string\"}},\"required\":[\"code\",\"error\",\"expected_output\"]}",
+    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"suggested_fix\":{\"type\":\"string\"},\"explanation\":{\"type\":\"string\"}},\"required\":[\"suggested_fix\",\"explanation\"]}"
   }
 }
