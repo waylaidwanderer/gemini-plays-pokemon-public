@@ -121,12 +121,6 @@
 - **Manual Pathing is Unreliable (Multiple):** I have created manual path plans that failed. **LESSON: I MUST use the `find_path` tool for all non-trivial navigation.**
 - **Map ID Mismatch (Turn 193072):** Hallucinated a map change that did not occur. **LESSON: I MUST verify the `current_map_id` from the Game State Information after every warp attempt to confirm the transition was successful before proceeding.**
 
-# VI. Active Hypotheses & Untested Assumptions
-- **Cerulean Cave Entrance:** The entrance is somewhere in Cerulean City.
-- **Officer Jenny (Cerulean City):** The block at (29, 13) is a permanent story block.
-- **Safari Zone Entrance:** The entrance is at (19, 4).
-- **Secret House Location:** The 'SECRET HOUSE' is a discoverable location within the Safari Zone.
-
 # V. Self-Correction & Hallucination Log
 - **Mt. Moon Pokecenter Dead End Miscalculation (Turn 193271 - CRITICAL):** Received a system warning for incorrectly identifying the Pokecenter as a non-dead-end area. It has only one exit (the warp at (4,8) and (5,8) is a single logical exit), making it a dead end. This is a failure to correctly apply the dead-end definition. LESSON: I must be more rigorous in my analysis and always trust the system's dead-end calculation over my own flawed manual assessment.
 - **Mt. Moon 1F Unseen Tiles (Turn 193284 - CRITICAL):** Received a system warning for reporting 9 reachable unseen tiles when there were 0. This is another critical failure of manual map assessment. LESSON: I MUST ALWAYS use the `map_analyzer` tool and trust system data over my own estimations.
