@@ -73,3 +73,7 @@
 - **Ledges:** Can only be jumped down (from Y-1 to Y+2 in one move). Impassable from below or sides.
 - **Steps:** The only way to move between `ground` and `elevated_ground`.
 - **Ladder Up/Down:** Acts as a warp to a different floor.
+
+## C. New Tool & Agent Ideas (Post-Reflection)
+- **`party_manager_agent`**: A specialized agent to automate the multi-step process of switching party members in the menu, combining menu analysis and selection logic.
+- **`select_party_member_tool`**: A computational tool that takes a Pokémon's name and calculates the button presses needed to select it in the party menu. This would be a core component of the `party_manager_agent`.
