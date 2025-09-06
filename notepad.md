@@ -48,6 +48,10 @@
 - Healing Zone (Pokémon Tower): 5F at (12, 10) fully heals HP/PP/status. 6F healer at (13, 9) does NOT cure status.
 - Respawning Obstacles: Cuttable trees can respawn, even without a map change.
 - Inventory Over-Capacity: Discarding a partial stack does NOT free an inventory slot; the entire stack must be tossed.
+- Cerulean City River: The city is divided by a river. The western section (where you arrive from Route 4) and the eastern section (where the path to Route 9 is) are separated. To cross between them, I must use Surf.
+- Mt. Moon Entrances: There are two entrances to Mt. Moon from Route 4. The western entrance at (19, 6) leads to an isolated, dead-end section. The eastern entrance at (25, 6) leads to the main cave system and the path forward to Cerulean City.
+- Route 8 Gatehouse: The gatehouse connecting the two halves of Route 8 has a 1x2 warp. To enter from the west, I had to stand on the southern tile (2, 11) and press Right.
+- Snorlax Puzzle (Route 12): The item menu is a single, scrollable list. After selecting 'ITEM' from the main menu, scroll down past the HMs (indicated by a '↓' arrow) to find Key Items like the POKé FLUTE. Using it from this menu wakes the Snorlax.
 ## E. Type Effectiveness & Insights
 - Electric is not very effective against Electric-types.
 - Electric is not very effective against Grass/Poison dual-types.
