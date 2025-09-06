@@ -14,7 +14,7 @@
 - **System vs. Local Reachability (Turn 193685 - CRITICAL):** System warnings about "reachable" tiles/warps are a global check for the entire map and may not reflect what is reachable from my current partitioned location. A local reachability check (like from a working tool) is necessary for immediate navigation decisions.
 - **Confirmation Bias in Debugging (Turn 193715):** I wasted over a dozen turns attempting to patch `map_analyzer`, assuming each small change would work. This was confirmation bias. LESSON: If a tool fix fails more than twice, I must pivot to a different debugging strategy (e.g., complete overhaul, using an agent, or deleting the tool) instead of repeating the same failed approach.
 
-# II. Battle Data
+# II. Game Data
 
 ## A. Type Chart (Verified)
 - Electric is not very effective against Electric, Grass/Poison, and Bug/Grass types.
@@ -44,31 +44,36 @@
 - **Route 12:** Location of the Super Rod House.
 - **Cinnabar Island:** Home to a Pokémon Lab that can regenerate fossils.
 
-## C. Active Hypotheses
+# IV. Active Hypotheses & Test Results
+
 - **Hypothesis 1:** The required fossil is located on the lower floors of Mt. Moon (B1F/B2F).
     - **Reasoning:** A Rocket Grunt on B2F is looking for one, suggesting their presence.
-    - **Test Plan:** Systematically explore all reachable areas of B1F and B2F.
+    - **Test Plan:** Systematically explore all reachable areas of 1F, B1F and B2F.
 - **Untested Assumption 1:** The Officer Jenny blocking the path in Cerulean City is a permanent story block.
-- **Untested Assumption 2:** The Rocket Grunt at Mt. Moon B2F (30, 12) is the only way forward in that section and requires a fossil to pass. 
-    - **Test Plan:** After escaping the current partitioned area, I will search for an alternate route on B2F that bypasses this grunt.
+- **Untested Assumption 2:** The Rocket Grunt at Mt. Moon B2F (30, 12) is the only way forward in that section and requires a fossil to pass.
+- **Test Result (Turn 193797):** Spoke to Super Nerd on Mt. Moon 1F at (25, 32). He provided no information on fossils. This path is exhausted.
+- **Test Result (Turn 193832):** Spoke to Rocket Grunt at Mt. Moon B2F (30, 12). He confirmed he is blocking the path and demands a fossil to pass. This confirms Untested Assumption 2.
 
-# IV. Tool & Agent Development
+# V. Tool & Agent Development
 
-## A. Agent & Tool Ideas
-- `stuck_navigator_agent`: Suggests high-level navigational pivots when tools fail.
+## A. Active Agents & Tools
+- **`stuck_navigator_agent`**: Suggests high-level navigational pivots when tools fail.
+
+## B. Agent & Tool Ideas
+- **`navigate_with_retries_tool`**: Combines pathfinding with automatic retries upon interruption by wild battles.
 - `fossil_finder_agent`: Analyzes world map data to suggest likely fossil locations.
 - `gym_prep_agent`: Suggests an optimal team of 6 for a given gym type.
 - `puzzle_documentation_agent`: Formats puzzle summaries for the notepad.
 - `notepad_organizer_agent`: Automates notepad cleaning and reorganization.
 - `navigation_manager_agent`: Remembers a long-term navigation goal and re-plans after interruptions.
 
-## B. Key Development Lessons & Bugs
+## C. Key Development Lessons & Bugs
 - **`use_hm_tool` Failure:** A single tool cannot perform a multi-stage, dynamic menu navigation task. The correct approach is a sequential, multi-turn process using `menu_analyzer` and `select_menu_option`.
 - **Menu Cursor Behavior:** Menu cursor starting positions are non-deterministic. Tools must force a known state rather than assuming a start position.
 - **`map_analyzer` Deletion (Turn 193716):** The tool was fundamentally flawed, failing to parse partitioned maps. After multiple failed fixes, it was deleted as it was a liability causing navigational hallucinations.
 - **Overwatch Lesson (CRITICAL):** Tool refinement is a non-deferrable, highest-priority action. I MUST fix or delete faulty tools in the same turn a flaw is discovered.
 
-# V. Game Mechanics & Tile Data
+# VI. Game Mechanics & Tile Data
 
 ## A. Tile Traversal Rules
 - **ground:** Standard walkable tile.
@@ -80,5 +85,3 @@
 - **impassable:** A solid wall or object.
 - **cuttable:** A tree that can be cut with HM Cut. Respawns on map change.
 - **grass:** Tall grass where wild Pokémon appear.
-- **Test Result (Turn 193797):** Spoke to Super Nerd on Mt. Moon 1F at (25, 32). He provided no information on fossils. This path is exhausted.
-- Test Result (Turn 193832): Spoke to Rocket Grunt at Mt. Moon B2F (30, 12). He confirmed he is blocking the path and demands a fossil to pass. This confirms Untested Assumption 2.
