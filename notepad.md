@@ -1,19 +1,18 @@
-# I. Core Directives & Key Lessons Learned
+# I. Core Directives & Key Lessons
+
 ## A. Core Directives
-- D1: IMMEDIATE DATA & TOOL MANAGEMENT: All data management (notepad, markers) and tool/agent refinement is the HIGHEST priority and MUST be performed in the same turn a need is identified.
-- D2: ACT ON DOCUMENTATION: A documented lesson that does not result in a behavioral change is a critical failure.
-- D3: ABANDON FAILED HYPOTHESES: If a strategy fails repeatedly, I must recognize the pattern, document it with attempt counts, and pivot to a new approach.
-- D4: TRUST, BUT REFINE: I must trust the outputs of my agents and system data. If an agent or tool is suboptimal, I must prioritize refining it immediately.
-- D5: PROACTIVELY AUTOMATE: Before performing any complex or repetitive task, I must first consider if it can be automated with a tool or agent.
-## B. CRITICAL Lessons from Overwatch Critique (Turn 191004 & 192050)
-- **Tool Usage Discipline & Maintenance (CRITICAL FAILURE):** I have repeatedly failed to use tools correctly and, more importantly, I deferred fixing the `find_path` tool when I knew it was bugged (Turn 191994). This is a direct violation of my core directives. I MUST fix any faulty tool immediately. My subsequent creation and fixing of `select_menu_option` demonstrates corrected behavior.
-- **Proactive Automation is Key:** I have good ideas for tools but fail to implement them. I must prioritize building tools like `npc_pathing_assistant` and `use_hm_tool` to solve recurring problems instead of just documenting them as ideas.
-## C. Other Key Lessons Learned
-- **Positional Awareness (CRITICAL):** I have repeatedly hallucinated my position, leading to failed movements and incorrect tool inputs. I MUST verify my current coordinates from the Game State Information *before* every single action.
-- **Confirmation Bias:** My manual assessment of map connectivity (dead ends, partitions) is highly unreliable. I MUST trust my `map_analyzer` tool and system warnings over my own intuition. I must also recognize when a hypothesis (e.g., Mr. Fuji being the key) is a dead end and pivot quickly.
-- **Data Integrity & Marker Usage:** I have placed markers on the wrong map and failed to consult existing markers before acting. I MUST verify my location before placing markers and check markers before interacting with a tile.
-- **Systematic Search:** A systematic search of an area that yields no results (e.g., checking walls on 6F) is a valid way to disprove a hypothesis, and I should pivot to a new one afterward.
-- **Escape is Not Guaranteed:** Fleeing from wild battles is not always possible (e.g., DODRIO in Cerulean Cave). I must not rely on running as a guaranteed safe option.
+- **D1: IMMEDIATE DATA & TOOL MANAGEMENT:** All data management (notepad, markers) and tool/agent refinement is the HIGHEST priority and MUST be performed in the same turn a need is identified.
+- **D2: ACT ON DOCUMENTATION:** A documented lesson that does not result in a behavioral change is a critical failure.
+- **D3: ABANDON FAILED HYPOTHESES:** If a strategy fails repeatedly, I must recognize the pattern, document it, and pivot to a new approach.
+- **D4: TRUST, BUT REFINE:** I must trust the outputs of my agents and system data. If an agent or tool is suboptimal, I must prioritize refining it immediately.
+- **D5: PROACTIVELY AUTOMATE:** Before performing any complex or repetitive task, I must first consider if it can be automated with a tool or agent.
+
+## B. Key Lessons Learned
+- **Positional Awareness & Path Validation (CRITICAL):** I have repeatedly hallucinated my position and failed to validate long path plans. I MUST verify my current coordinates from the Game State Information *before* every action and manually inspect any generated path for unintended warps before execution.
+- **Confirmation Bias & System Data:** My manual assessment of map connectivity is highly unreliable. I MUST trust my `map_analyzer` tool and system warnings over my own intuition.
+- **Marker Discipline:** I MUST verify my location before placing markers and check existing markers before any significant navigation to avoid repeating explored paths.
+- **Menu Input Blocking:** Facing an impassable tile blocks that directional input in menus, making blind input sequences unreliable.
+- **Inventory Management:** Discarding a partial stack of an item does NOT free up an inventory slot. The entire stack must be tossed.
 
 # II. Game & World Mechanics
 ## A. Map Marker System
