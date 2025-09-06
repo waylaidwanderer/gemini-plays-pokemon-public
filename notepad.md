@@ -62,7 +62,7 @@
 ## F. Known Pokemon Locations
 - Cerulean Cave: Ditto, Wigglytuff, Electrode, Golem, Raichu, Sandslash, Parasect, Lickitung, Magneton, Dodrio, RHYDON, VICTREEBEL, GOLBAT, KADABRA.
 - Pokémon Tower: GASTLY, CUBONE.
-## G. Navigational Lessons & Discoveries
+
 - Dead End Definition: A 'dead end area' assessment applies to the *entire map's* reachable exits. An isolated section is not a dead end if other exits exist elsewhere on the map, even if currently unreachable.
 - Warp Reachability: A warp in `Map Events` is not guaranteed to be reachable from the current position due to map partitions.
 - Functional Dead Ends: An area becomes a 'functional dead end' if progress requires an HM from a fainted Pokémon.
