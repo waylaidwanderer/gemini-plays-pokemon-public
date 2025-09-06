@@ -59,23 +59,20 @@
 - **Mt. Moon B1F Dead End Miscalculation (Turn 193079 - CRITICAL):** Received another system warning for incorrectly identifying a non-dead-end area as a dead end. This is a recurring failure to correctly apply the definition (2 or more reachable exits = not a dead end). LESSON: I must be more rigorous in my analysis and always trust the system's dead-end calculation over my own flawed manual assessment.
 - **Mt. Moon B1F Dead End Miscalculation (Turn 193079 - CRITICAL):** Received another system warning for incorrectly identifying a non-dead-end area as a dead end. This is a recurring failure to correctly apply the definition (2 or more reachable exits = not a dead end). LESSON: I must be more rigorous in my analysis and always trust the system's dead-end calculation over my own flawed manual assessment.
 
-# IV. Agent & Tool Development
+# V. Tool & Agent Development
 ## A. Agent & Tool Ideas
-- **stuck_navigator_agent**: An agent to suggest high-level navigational pivots when tools fail or progress is stalled in complex, multi-map areas.
-- **fossil_finder_agent**: An agent to analyze map data across the entire known world to suggest the most likely location for a required fossil.
-- **gym_prep_agent**: An agent that takes a gym type and PC box contents as input to suggest an optimal team of 6.
-- **puzzle_documentation_agent**: An agent that takes a puzzle summary and formats it for the notepad.
+- **stuck_navigator_agent**: Suggests high-level navigational pivots when tools fail.
+- **fossil_finder_agent**: Analyzes world map data to suggest likely fossil locations.
+- **gym_prep_agent**: Suggests an optimal team of 6 for a given gym type.
+- **puzzle_documentation_agent**: Formats puzzle summaries for the notepad.
+- **notepad_organizer_agent**: Automates notepad cleaning and reorganization.
+- **navigation_manager_agent**: Remembers a long-term navigation goal and re-plans after interruptions.
 
 ## B. Key Development Lessons & Bugs
 - **`use_hm_tool` Failure:** A single tool cannot perform a multi-stage, dynamic menu navigation task. The correct approach is a sequential, multi-turn process using `menu_analyzer` and `select_menu_option`.
 - **Menu Cursor Behavior:** Menu cursor starting positions are non-deterministic. Tools must force a known state rather than assuming a start position.
-- **`find_path` / `map_analyzer` (Partitioned Maps):** Both tools have a critical bug where they fail to correctly parse partitioned map layouts (e.g., Safari Zone Center, Mt. Moon). This leads to incorrect reachability analysis, pathing failures, and dead-end miscalculations.
+- **`find_path` / `map_analyzer` Bug (Partitioned Maps):** Both tools have a critical, recurring bug where they fail to correctly parse partitioned map layouts (e.g., Safari Zone, Mt. Moon). This leads to incorrect reachability analysis, pathing failures, and dead-end miscalculations.
 - **Overwatch Lesson (CRITICAL):** Tool refinement is a non-deferrable, highest-priority action. I MUST fix faulty tools in the same turn a flaw is discovered.
-
-# VIII. Self-Assessment Insights (Turn 193356)
-## A. New Agent & Tool Ideas
-- **notepad_organizer_agent**: An agent to automate the process of cleaning and reorganizing the notepad based on a set of rules.
-- **navigation_manager_agent**: An agent to remember a long-term navigation goal and automatically re-plan the path after interruptions like wild battles.
 
 ## B. Untested Assumptions & Plans
 - **Assumption:** The required fossil is located on the lower floors (B1F or B2F) of Mt. Moon. This is based on the presence of a Rocket Grunt looking for one.
