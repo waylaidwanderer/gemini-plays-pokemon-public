@@ -130,3 +130,7 @@
 - **Officer Jenny:** The block at (29, 13) is a permanent story block.
 - **Safari Zone Entrance:** The entrance is at (19, 4).
 - **Secret House Location:** The 'SECRET HOUSE' is a discoverable location within the Safari Zone.
+
+# VI. Battle Data
+## A. Key Trainer Rosters
+- **Nurse Joy (Fuchsia Pokecenter):** KANGASKHAN (Lv 65): DOUBLE-EDGE, DOUBLE TEAM; SNORLAX (Lv 65): ICE BEAM, REST
