@@ -1,9 +1,1 @@
-{
-  "debugging_assistant_agent": {
-    "agent_name": "debugging_assistant_agent",
-    "agent_description": "Takes a tool's code, error, and expected output to suggest logical fixes.",
-    "agent_system_prompt": "You are a debugging assistant. You will be given a Python script, an error message, and the expected output. Your task is to analyze the code and the error to suggest a logical fix. Your output should be a JSON object with the suggested fix and an explanation of why it should work.",
-    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"code\":{\"type\":\"string\"},\"error\":{\"type\":\"string\"},\"expected_output\":{\"type\":\"string\"}},\"required\":[\"code\",\"error\",\"expected_output\"]}",
-    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"suggested_fix\":{\"type\":\"string\"},\"explanation\":{\"type\":\"string\"}},\"required\":[\"suggested_fix\",\"explanation\"]}"
-  }
-}
+{}
