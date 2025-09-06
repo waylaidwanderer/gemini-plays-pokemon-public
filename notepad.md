@@ -61,11 +61,9 @@
 ## A. Active Agents & Tools
 - **`stuck_navigator_agent`**: Suggests high-level navigational pivots when tools fail.
 - **`map_connectivity_analyzer`**: Analyzes map XML to identify partitioned areas.
-## B. Development Pipeline & Lessons
+## B. Development Lessons
 - **Lesson: Menu Cursor Behavior:** Menu cursor starting positions are non-deterministic.
 - **Lesson: Battle Move Selection:** The move selection menu is a single-column list navigated with UP/DOWN only. LEFT/RIGHT have no effect.
-- **Tool Idea: Map Connectivity Analyzer:** A tool that takes the map XML and analyzes its structure to identify all distinct, partitioned areas.
-- **Tool Idea: Battle Strategist Agent:** An agent that takes my party, the opponent's Pokémon, and known moves to suggest the best course of action.
 
 # VI. Exploration Log
 - **Mt. Moon 1F Eastern Corridor (Turn 194646):** Confirmed that the entire eastern corridor originating from the Super Nerd at (25, 32) is a dead end. The path is blocked by an impassable wall at (34, 27). This invalidates the hypothesis that the fossil is accessible from this part of 1F.
