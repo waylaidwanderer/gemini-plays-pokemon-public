@@ -62,9 +62,7 @@
 ## A. Active Agents
 - **`stuck_navigator_agent`**: Suggests high-level navigational pivots when tools fail.
 
-## B. Development Lessons
-- **Menu Cursor Behavior:** Menu cursor starting positions are non-deterministic.
-- **Battle Move Selection:** The move selection menu is a single-column list navigated with UP/DOWN only. LEFT/RIGHT have no effect.
-
-## C. Tool Ideas
-- **Map Connectivity Analyzer:** A tool that takes the map XML and analyzes its structure to identify all distinct, partitioned areas. It would output which warps/connections belong to which partition. This would allow for much more strategic exploration of complex maps like Mt. Moon and prevent wasting time in dead-end zones.
+## B. Development Pipeline & Lessons
+- **Lesson: Menu Cursor Behavior:** Menu cursor starting positions are non-deterministic.
+- **Lesson: Battle Move Selection:** The move selection menu is a single-column list navigated with UP/DOWN only. LEFT/RIGHT have no effect.
+- **Tool Idea: Map Connectivity Analyzer:** A tool that takes the map XML and analyzes its structure to identify all distinct, partitioned areas. It would output which warps/connections belong to which partition. This would allow for much more strategic exploration of complex maps like Mt. Moon and prevent wasting time in dead-end zones.
