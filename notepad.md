@@ -65,22 +65,13 @@
 - **Untested Assumption 2:** The Hiker at (6, 7) on Mt. Moon 1F is a non-battling NPC. **Test Plan:** Interact with him at the next opportunity.
 - **Untested Assumption 3:** The Super Nerd at (25, 32) on Mt. Moon 1F is a non-battling NPC. **Test Plan:** Interact with him at the next opportunity.
 
-# V. Tool & Agent Development
-
+# VI. Tool & Agent Development
 ## A. Active Agents
 - **`stuck_navigator_agent`**: Suggests high-level navigational pivots when tools fail.
 - **`navigation_manager_agent`**: A stateful agent that remembers a long-term navigation goal and automatically re-plans/re-issues movement commands after interruptions.
-
 ## B. Active Tools
-- **`automated_path_navigator`**: Automates pathfinding and movement, useful for interruption-heavy routes.
-
-## C. Agent & Tool Ideas
-- **`automated_battle_agent`**: An agent to handle trivial wild battles by automatically selecting the first available super-effective move.
-- **`exploration_planner_agent`**: Analyzes map sprites to generate an optimal exploration route to all un-interacted-with NPCs and items.
-
-## D. Key Development Lessons & Bugs
-- **`use_hm_tool` Failure:** A single tool cannot perform a multi-stage, dynamic menu navigation task. The correct approach is a sequential, multi-turn process using `menu_analyzer` and `select_menu_option`.
-- **Menu Cursor Behavior:** Menu cursor starting positions are non-deterministic. Tools must force a known state rather than assuming a start position.
-- **`map_analyzer` Deletion (Turn 193716):** The tool was fundamentally flawed, failing to parse partitioned maps. After multiple failed fixes, it was deleted as it was a liability causing navigational hallucinations.
+- **`automated_path_navigator`**: Automates pathfinding and movement.
+## C. Development Lessons & Bugs
+- **`define_tool` Staleness:** The `define_tool` system can serve a stale version of a script. If a tool fails after a fix, test the raw code with `run_code` to differentiate between logic errors and system issues.
+- **Menu Cursor Behavior:** Menu cursor starting positions are non-deterministic. Tools must force a known state.
 - **Battle Move Selection:** The move selection menu is a single-column list navigated with UP/DOWN only. LEFT/RIGHT have no effect.
-- **`define_tool` Staleness (Turn 194369):** Discovered that `automated_path_navigator` was failing because the `define_tool` system was serving a stale version of the script. The Python logic itself was correct, as proven by a `run_code` test. LESSON: If a tool repeatedly fails after a fix, test the raw code with `run_code` to differentiate between logic errors and system issues.
