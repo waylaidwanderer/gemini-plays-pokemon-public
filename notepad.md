@@ -72,20 +72,6 @@
 ## D. Key Trainer Rosters
 - **Nurse Joy (Fuchsia Pokecenter):** KANGASKHAN (Lv 65): DOUBLE-EDGE, DOUBLE TEAM; SNORLAX (Lv 65): ICE BEAM, REST
 
-# IV. Agent & Tool Development
-## A. Agent & Tool Ideas
-- **gym_prep_agent**: An agent that takes a gym type and PC box contents as input to suggest an optimal team of 6.
-- **puzzle_documentation_agent**: An agent that takes a puzzle summary and formats it for the notepad.
-## B. Retired Concepts & Tools
-- `use_hm_from_party`, `switch_pokemon_navigator`, `menu_navigator`, `use_hm_tool`: Retired due to flaws with non-deterministic menu cursors and the 'Menu Input Blocking' mechanic. Lesson: Menu automation requires environment-aware parsing (`menu_analyzer`) and targeted selection (`select_menu_option`).
-## C. Key Development Lessons
-- **`use_hm_tool` Failure:** A single tool cannot perform a multi-stage, dynamic menu navigation task. The correct approach is a sequential, multi-turn process using `menu_analyzer` and `select_menu_option`.
-- **Menu Cursor Behavior:** Menu cursor starting positions are non-deterministic. Tools must force a known state rather than assuming a start position.
-## D. Tool Malfunctions & Bugs
-- **`find_path` & `map_analyzer` (Safari Zone Center):** Both tools are bugged and cannot correctly parse the partitioned layout of this map.
-- **`map_analyzer` (Mt. Moon B2F):** The tool was hallucinating reachable warps due to a faulty BFS. Attempting a fix by porting the more robust BFS logic from `find_path`.
-- **`find_path` (Mt. Moon B2F):** The tool failed to find a valid path on this map, indicating a persistent, critical bug in the BFS or map parsing logic.
-
 # V. Self-Correction & Hallucination Log
 ## A. Navigational Hallucinations
 - **Manual Map Assessment is Unreliable:** I have repeatedly failed to correctly assess unseen tiles, warp reachability, and dead-end status. (e.g., Pokemon Tower 7F, Route 24, Cerulean Gym, Cerulean Cave B1F, Saffron City, Route 7, Mt. Moon 1F, Mt. Moon B1F, Mt. Moon B2F). **LESSON: I MUST ALWAYS use my `map_analyzer` tool and trust system warnings over my own manual assessment.**
