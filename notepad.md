@@ -19,21 +19,21 @@
 - `🚪 Used Warp`: For any warp that has been traversed.
 - `☠️ Defeated Trainer`: For any trainer that has been battled.
 - `✅ Item Picked Up`: For any overworld item that has been collected.
-- `🚫 Dead End`: For paths that have been confirmed to lead nowhere.
-- `🗝️ Puzzle Solved/Obstacle Cleared`: For puzzles or obstacles that have been overcome.
-- `💬 Non-Battling NPC`: For NPCs that have been confirmed to not engage in battle.
-- `💖 Healing Zone`: For tiles that provide party healing.
-- `➡️ Arrival Point`: For the tile where I arrive on a new map after a transition.
+- `🚫 Dead End`: For paths confirmed to lead nowhere.
+- `🗝️ Puzzle Solved/Obstacle Cleared`: For solved puzzles/cleared obstacles.
+- `💬 Non-Battling NPC`: For NPCs confirmed to not battle.
+- `💖 Healing Zone`: For tiles providing party healing.
+- `➡️ Arrival Point`: For arrival tile on a new map.
 ## B. Tile Traversal & Movement Rules
 - `ground` / `impassable`: Basic walkable and non-walkable tiles.
-- `elevated_ground` & `steps`: Movement between `ground` and `elevated_ground` is only possible via a `steps` tile.
-- `grass`: Tall grass for wild Pokémon encounters. Walkable like `ground`.
-- `water`: Crossable using HM Surf.
-- `cuttable`: A tree that blocks the path. Requires the HM move CUT to pass. The player must be adjacent to and facing the tree. These trees can respawn after a certain amount of time or after changing maps.
-- `ledge`: A one-way obstacle. Can only be jumped down from the tile directly above it (Y-1). Attempting to move onto a ledge from below or the sides will fail.
-- Ladders & Elevation: Movement between a `ladder_up`/`ladder_down` tile and an adjacent `elevated_ground` tile is possible.
-- `teleport`: Instant warp tile within the same logical location.
-- `spinner_up/down/left/right`: Forces movement in a specific direction.
+- `elevated_ground` & `steps`: Movement between `ground` and `elevated_ground` only possible via `steps`.
+- `grass`: Tall grass, walkable.
+- `water`: Crossable using Surf.
+- `cuttable`: Tree blocking path, requires HM CUT. Can respawn.
+- `ledge`: One-way obstacle. Jump down from tile directly above (Y-1).
+- Ladders & Elevation: Movement possible between a `ladder` and adjacent `elevated_ground`.
+- `teleport`: Instant warp within the same map.
+- `spinner`: Forces movement in a specific direction.
 - `boulder_switch`: Floor switch activated by a boulder.
 ## C. Special Mechanics & Discoveries
 - Menu Input Blocking (CRITICAL): Facing an impassable tile blocks that directional input in menus. This makes any menu navigation tool that relies on fixed directional inputs fundamentally unreliable unless the player is in an open space.
