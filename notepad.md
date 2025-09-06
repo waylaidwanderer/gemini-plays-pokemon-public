@@ -74,7 +74,8 @@
 - **`find_path` / `map_analyzer` Bug (Partitioned Maps):** Both tools have a critical, recurring bug where they fail to correctly parse partitioned map layouts (e.g., Safari Zone, Mt. Moon). This leads to incorrect reachability analysis, pathing failures, and dead-end miscalculations.
 - **Overwatch Lesson (CRITICAL):** Tool refinement is a non-deferrable, highest-priority action. I MUST fix faulty tools in the same turn a flaw is discovered.
 
-## B. Untested Assumptions & Plans
-- **Assumption:** The required fossil is located on the lower floors (B1F or B2F) of Mt. Moon. This is based on the presence of a Rocket Grunt looking for one.
-- **Test Plan:** Systematically explore all reachable areas of B1F and B2F.
-- **Contingency Plan:** If the fossil is not found on the lower floors, I will return to Mt. Moon 1F and use my now-fixed `map_analyzer` tool to perform a full scan for any previously missed partitioned areas.
+## C. Active Hypotheses
+- **Hypothesis 1:** The required fossil is located on the lower floors of Mt. Moon (B1F/B2F).
+    - **Reasoning:** A Rocket Grunt on B2F is looking for one, suggesting their presence.
+    - **Test Plan:** Systematically explore all reachable areas of B1F and B2F.
+- **Untested Assumption:** The Officer Jenny blocking the path in Cerulean City is a permanent story block.
