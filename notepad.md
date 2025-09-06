@@ -29,27 +29,23 @@
 ## C. Key Trainer Rosters
 - **Nurse Joy (Fuchsia Pokecenter):** KANGASKHAN (Lv 65): DOUBLE-EDGE, DOUBLE TEAM; SNORLAX (Lv 65): ICE BEAM, REST
 
-# IV. Solved Puzzles & Key Data
-## A. Major Puzzles
+# IV. World Data & Hypotheses
+
+## A. Solved Puzzles
 - **Pokémon Tower Ghost:** Required SILPH SCOPE. Calmed Marowak on 6F, rescued Mr. Fuji on 7F.
-- **Snorlax (Routes 11 & 12):** Used POKé FLUTE from the ITEM menu (past HMs).
+- **Snorlax (Routes 11 & 12):** Used POKé FLUTE from the ITEM menu.
 - **Seafoam Islands Boulder Puzzle:** Pushed boulders into holes across multiple floors to stop water current on B4F.
-- **Pewter Museum 2F:** Solved by interacting with follower Pikachu while adjacent to the Scientist NPC, which caused the Youngster NPC to move and unblock the exit warp.
-## B. Item & Store Data
+- **Pewter Museum 2F:** Solved by interacting with follower Pikachu while adjacent to a Scientist to move a blocking NPC.
+
+## B. Key Locations & Item Data
 - **Route 12:** Super Rod House.
 - **Celadon Dept. Store:** Sells TMs, stat-boosters, POKé DOLL, evolution stones.
-## D. Key Trainer Rosters
-- **Nurse Joy (Fuchsia Pokecenter):** KANGASKHAN (Lv 65): DOUBLE-EDGE, DOUBLE TEAM; SNORLAX (Lv 65): ICE BEAM, REST
+- **Mt. Moon Entrances:** Western entrance (from Route 4) leads to a dead end. Eastern entrance (from Route 3) is the main path.
 
-# VI. Active Hypotheses & Untested Assumptions
-- **Cerulean Cave Entrance:** The entrance is somewhere in Cerulean City.
-- **Officer Jenny:** The block at (29, 13) is a permanent story block.
-- **Safari Zone Entrance:** The entrance is at (19, 4).
-- **Secret House Location:** The 'SECRET HOUSE' is a discoverable location within the Safari Zone.
-- **Cerulean Cave Entrance:** The entrance is somewhere in Cerulean City.
-- **Officer Jenny:** The block at (29, 13) is a permanent story block.
-- **Safari Zone Entrance:** The entrance is at (19, 4).
-- **Secret House Location:** The 'SECRET HOUSE' is a discoverable location within the Safari Zone.
+## C. Active Hypotheses & Plans
+- **Primary Goal:** Find a fossil in Mt. Moon, likely on the lower floors (B1F/B2F).
+- **Contingency:** If no fossil is found, use fixed tools to re-scan Mt. Moon 1F for partitioned areas.
+- **Untested Assumption:** Officer Jenny at (29, 13) in Cerulean City is a permanent story block.
 
 - Mt. Moon B1F Unseen Tiles (Turn 192926 - CRITICAL): Received a system warning for reporting 57 reachable unseen tiles when there were 0. This was a failure in my manual assessment during the construction of the `validation_checks` block. LESSON: I must ALWAYS use my `map_analyzer` tool to generate this data and NEVER rely on manual counting or estimation. This is a direct violation of my 'Trust, but Refine' and 'Confirmation Bias & System Data' lessons.
 
