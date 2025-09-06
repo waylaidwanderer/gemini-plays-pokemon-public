@@ -39,7 +39,7 @@
 - **Seafoam Islands Current:** Solved multi-floor boulder puzzle to stop the strong water current on B4F.
 
 ## B. Key Locations & Discoveries
-- **Mt. Moon Entrances:** The eastern entrance (from Route 3) is the main path; the western entrance (from Route 4) is a dead end.
+- **Mt. Moon Entrances:** The eastern entrance (from Route 3) appears to be the main path forward. The western entrance (from Route 4) connects to a separate, large section of the cave that is currently being explored for an alternate route.
 - **Celadon Dept. Store:** Sells TMs, stat-boosters, POKé DOLLs, and evolution stones.
 - **Route 12:** Location of the Super Rod House.
 - **Cinnabar Island:** Home to a Pokémon Lab that can regenerate fossils.

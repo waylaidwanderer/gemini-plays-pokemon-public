@@ -1121,5 +1121,39 @@
         "action_counter": 192930
       }
     ]
+  },
+  "automated_path_navigator": {
+    "description": "Takes start and end coordinates, finds the shortest path using the same logic as the find_path tool, and returns a JSON array of button presses to follow it. This automates the multi-step process of pathfinding and then manually inputting the path. Returns an empty array if no path is found.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "start_x": {
+          "type": "string"
+        },
+        "start_y": {
+          "type": "string"
+        },
+        "end_x": {
+          "type": "string"
+        },
+        "end_y": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "start_x",
+        "start_y",
+        "end_x",
+        "end_y"
+      ]
+    },
+    "python_script": "import json\nimport collections\nimport xml.etree.ElementTree as ET\nimport sys\n\ntry:\n    start_x_str = input_data['start_x']\n    start_y_str = input_data['start_y']\n    end_x_str = input_data['end_x']\n    end_y_str = input_data['end_y']\n    root = ET.fromstring(map_xml_string)\n    map_width = int(root.get('width'))\n    map_height = int(root.get('height'))\n    tiles = {}\n    for row in root.findall('Row'):\n        y = int(row.get('id'))\n        for tile_elem in row.findall('Tile'):\n            x = int(tile_elem.get('id'))\n            tile_type = tile_elem.get('type')\n            has_object = tile_elem.get('has-object') == 'true'\n            object_id = None\n            if has_object:\n                obj = tile_elem.find('Object')\n                if obj is not None:\n                    object_id = obj.get('id')\n            tiles[(x, y)] = {'type': tile_type, 'has_object': has_object, 'object_id': object_id}\n\n    start = (int(start_x_str), int(start_y_str))\n    end_goal = (int(end_x_str), int(end_y_str))\n    traversable_base_types = {'ground', 'steps', 'elevated_ground', 'cleared_boulder_barrier', 'ladder_up', 'ladder_down', 'grass', 'gate_offscreen', 'open_gate'}\n    ground_level_tiles = {'ground', 'grass'}\n    elevated_level_tiles = {'elevated_ground'}\n\n    def get_traversability_reason(x, y, is_destination=False):\n        if not (1 <= x <= map_width and 1 <= y <= map_height): return 'out_of_bounds'\n        tile_info = tiles.get((x, y))\n        if not tile_info: return 'no_tile_info'\n        if tile_info['type'] == 'unknown': return 'unseen_tile'\n        if tile_info['type'] in ['impassable', 'boulder_barrier', 'closed_gate']: return f\"impassable_type_{tile_info['type']}\"\n        if tile_info['has_object'] and tile_info['object_id'] != '15': return f\"object_blocking_{tile_info.get('object_id', 'Unknown')}\"\n        if not is_destination and tile_info['type'] not in traversable_base_types and tile_info['type'] != 'ledge': return f\"non_traversable_type_{tile_info['type']}\"\n        return 'traversable'\n\n    goal_set = set()\n    end_goal_reason = get_traversability_reason(end_goal[0], end_goal[1], is_destination=True)\n    if end_goal_reason == 'traversable' or (end_goal_reason.startswith('non_traversable_type') and 'ledge' in end_goal_reason):\n        goal_set.add(end_goal)\n    else:\n        for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n            neighbor = (end_goal[0] + dx, end_goal[1] + dy)\n            if get_traversability_reason(neighbor[0], neighbor[1], is_destination=True) == 'traversable':\n                goal_set.add(neighbor)\n\n    path_coords = None\n    if goal_set:\n        queue = collections.deque([(start, [start])])\n        visited = {start}\n        while queue:\n            (current_x, current_y), path = queue.popleft()\n            current_pos = (current_x, current_y)\n            current_tile_info = tiles.get(current_pos)\n            if current_pos in goal_set:\n                path_coords = path\n                break\n            for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n                next_pos = (current_x + dx, current_y + dy)\n                if next_pos in visited: continue\n                next_tile_info = tiles.get(next_pos)\n                if not next_tile_info: continue\n                visited.add(next_pos)\n                ct = current_tile_info['type']\n                nt = next_tile_info['type']\n                if nt == 'ledge':\n                    if dy == 1 and dx == 0:\n                        hop_dest = (current_x, current_y + 2)\n                        if hop_dest not in visited and tiles.get(hop_dest) and get_traversability_reason(hop_dest[0], hop_dest[1]) == 'traversable':\n                            visited.add(hop_dest)\n                            queue.append((hop_dest, path + [hop_dest]))\n                    continue\n                if ct in ground_level_tiles and nt in elevated_level_tiles and ct != 'steps' and nt != 'steps':\n                    continue\n                if get_traversability_reason(next_pos[0], next_pos[1]) == 'traversable':\n                    queue.append((next_pos, path + [next_pos]))\n\n    buttons = []\n    if path_coords:\n        for i in range(len(path_coords) - 1):\n            current_pos = path_coords[i]\n            next_pos = path_coords[i+1]\n            dx = next_pos[0] - current_pos[0]\n            dy = next_pos[1] - current_pos[1]\n            if dy == 2 and dx == 0:\n                buttons.append('Down')\n                continue\n            if dx == 1:\n                buttons.append('Right')\n            elif dx == -1:\n                buttons.append('Left')\n            elif dy == 1:\n                buttons.append('Down')\n            elif dy == -1:\n                buttons.append('Up')\n    print(json.dumps(buttons))\nexcept Exception as e:\n    print(json.dumps([]))",
+    "history": [
+      {
+        "commit_message": "feat: Create automated_path_navigator tool. This is a direct response to a critical Overwatch critique highlighting my failure to automate a recurring task. This tool will take start and end coordinates, find a path, and output the button presses needed to traverse it, which will make navigating long, interruption-prone routes much more efficient.",
+        "timestamp": "2025-09-06T11:39:15.851Z",
+        "action_counter": 194002
+      }
+    ]
   }
 }
