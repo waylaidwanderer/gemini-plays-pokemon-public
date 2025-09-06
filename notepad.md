@@ -13,6 +13,9 @@
 - **Marker Discipline:** I MUST verify my location before placing markers and check existing markers before any significant navigation to avoid repeating explored paths.
 - **Menu Input Blocking:** Facing an impassable tile blocks that directional input in menus, making blind input sequences unreliable.
 - **Inventory Management:** Discarding a partial stack of an item does NOT free up an inventory slot. The entire stack must be tossed.
+- **Dead End Definition:** A 'dead end area' assessment applies to the *entire map's* reachable exits. An isolated section is not a dead end if other exits exist elsewhere on the map, even if currently unreachable.
+- **Warp Reachability:** A warp in `Map Events` is not guaranteed to be reachable from the current position due to map partitions.
+- **Functional Dead Ends:** An area becomes a 'functional dead end' if progress requires an HM from a fainted Pokémon.
 
 # II. Game & World Mechanics
 ## A. Map Marker System
