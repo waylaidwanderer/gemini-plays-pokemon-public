@@ -13,18 +13,19 @@
 - **Map ID Mismatch (Turn 193072):** Hallucinated a map change that did not occur. LESSON: I MUST verify the `current_map_id` from Game State Information after every warp attempt.
 - **Tool Failures in Partitioned Maps (`map_analyzer`/`find_path`):** My navigation tools have repeatedly failed in complex, partitioned maps (e.g., Mt. Moon, Safari Zone), causing incorrect reachability analysis and pathing failures. LESSON: Tool refinement is a non-deferrable, highest-priority action. I must fix faulty tools in the same turn a flaw is discovered and rely on system warnings until they are fixed.
 
-# III. Battle Data & Insights
-## A. Type Effectiveness & Immunities
+# III. Battle Data
+
+## A. Type Chart (Verified)
 - Electric is not very effective against Electric, Grass/Poison, and Bug/Grass types.
 - Ground moves do not affect GASTLY (Ghost/Poison).
 - Normal moves do not affect Ghost-types.
 - Normal is super-effective against Ground-types.
 - Poison is not very effective against Ground-types.
-- Wild Pokémon in Cerulean Cave are very fast.
-- Wild GOLEM in Cerulean Cave can use SELFDESTRUCT and EXPLOSION.
+
 ## B. Known Pokemon Locations
 - **Cerulean Cave:** Ditto, Wigglytuff, Electrode, Golem, Raichu, Sandslash, Parasect, Lickitung, Magneton, Dodrio, RHYDON, VICTREEBEL, GOLBAT, KADABRA.
 - **Pokémon Tower:** GASTLY, CUBONE.
+
 ## C. Key Trainer Rosters
 - **Nurse Joy (Fuchsia Pokecenter):** KANGASKHAN (Lv 65): DOUBLE-EDGE, DOUBLE TEAM; SNORLAX (Lv 65): ICE BEAM, REST
 
