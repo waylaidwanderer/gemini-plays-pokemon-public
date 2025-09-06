@@ -100,6 +100,7 @@
 - **Menu Cursor Behavior:** Menu cursor starting positions are non-deterministic. Tools must force a known state rather than assuming a start position.
 ## D. Tool Malfunctions & Bugs
 - **`find_path` & `map_analyzer` (Safari Zone Center):** Both tools are bugged and cannot correctly parse the partitioned layout of this map.
+- **`map_analyzer` (Mt. Moon B2F):** The tool was hallucinating reachable warps due to a faulty BFS. Attempting a fix by porting the more robust BFS logic from `find_path`.
 - **`find_path` (Mt. Moon B2F):** The tool failed to find a valid path on this map, indicating a persistent, critical bug in the BFS or map parsing logic.
 
 # V. Self-Correction & Hallucination Log
