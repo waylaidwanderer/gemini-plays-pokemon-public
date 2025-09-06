@@ -62,6 +62,7 @@
 ## A. Development Lessons
 - **Lesson: Menu Cursor Behavior:** Menu cursor starting positions are non-deterministic.
 - **Lesson: Battle Move Selection:** The move selection menu is a single-column list navigated with UP/DOWN only. LEFT/RIGHT have no effect.
+- **Lesson: Fly Destination Verification:** The `automated_fly_navigator` tool correctly identifies invalid destinations. I must verify that a location is on the Fly menu list *before* attempting to navigate to it. Pewter City is not a flyable location.
 
 ## B. New Tool & Agent Ideas
 - **`automated_battle_move_selector`**: A tool that takes the output of `battle_strategist_agent` and fully automates the move selection process.
@@ -78,4 +79,3 @@
 - CELADON CITY
 - VERMILION CITY
 - LAVENDER TOWN
-- **Lesson: Fly Destination Verification:** The `automated_fly_navigator` tool correctly identifies invalid destinations. I must verify that a location is on the Fly menu list *before* attempting to navigate to it. Pewter City is not a flyable location.
