@@ -8,11 +8,13 @@
 - **D5: PROACTIVELY AUTOMATE:** Before performing any complex or repetitive task, I must first consider if it can be automated with a tool or agent.
 - **D6: BATTLE EFFICIENCY:** Do not use complex agents for trivial wild battles. Handle them manually for maximum speed.
 
-## B. Key Lessons & Recurring Failures (Hallucination Log)
+## B. Key Lessons & Recurring Failures
 - **Positional & Data Awareness:** I MUST verify my current coordinates, turn number, and system-provided data from the Game State Information *before* every action and trust it over my own manual assessment.
-- **Dead End Definition & Application:** My manual application of the dead-end definition is critically flawed. A map is a dead end ONLY if it has 1 or fewer reachable exits (warps/connections) AND 0 reachable unseen tiles. I must be rigorous in this calculation.
-- **System vs. Local Reachability (Turn 193685 - CRITICAL):** System warnings about "reachable" tiles/warps are a global check for the entire map and may not reflect what is reachable from my current partitioned location. A local reachability check (like from a working tool) is necessary for immediate navigation decisions.
-- **Confirmation Bias in Debugging (Turn 193715):** I wasted over a dozen turns attempting to patch `map_analyzer`, assuming each small change would work. This was confirmation bias. LESSON: If a tool fix fails more than twice, I must pivot to a different debugging strategy (e.g., complete overhaul, using an agent, or deleting the tool) instead of repeating the same failed approach.
+- **Dead End Definition:** A map is a dead end ONLY if it has 1 or fewer reachable exits (warps/connections) AND 0 reachable unseen tiles. I must be rigorous in this calculation.
+- **System vs. Local Reachability:** System warnings about "reachable" tiles/warps are a global check for the entire map and may not reflect what is reachable from my current partitioned location.
+- **Confirmation Bias in Debugging:** Wasting multiple turns on small, failed fixes for a tool is a critical error. LESSON: If a tool fix fails more than twice, I must pivot to a different debugging strategy (e.g., complete overhaul or using `run_code` to test logic).
+- **Simple Solutions First (Overwatch):** When stuck, I must test the most basic solutions (e.g., closing a dialogue box with 'A') before hypothesizing complex puzzles.
+- **`define_tool` Staleness (Turn 194368):** The `define_tool` system can serve a stale version of a script. If a tool fails after a fix, I must test the raw code with `run_code` to differentiate between logic errors and system issues.
 
 # II. Game Data
 
@@ -26,6 +28,7 @@
 ## B. Known Pokemon Locations
 - **Cerulean Cave:** Ditto, Wigglytuff, Electrode, Golem, Raichu, Sandslash, Parasect, Lickitung, Magneton, Dodrio, RHYDON, VICTREEBEL, GOLBAT, KADABRA.
 - **Pokémon Tower:** GASTLY, CUBONE.
+- **Mt. Moon:** ZUBAT, SANDSHREW.
 
 ## C. Key Trainer Rosters
 - **Nurse Joy (Fuchsia Pokecenter):** KANGASKHAN (Lv 65): DOUBLE-EDGE, DOUBLE TEAM; SNORLAX (Lv 65): ICE BEAM, REST
@@ -38,40 +41,34 @@
 - **`impassable`**: Walls and other obstacles that cannot be walked on.
 - **`ledge`**: Can only be jumped down from above (Y-1). Impassable from below and sides.
 - **`steps`**: Allows movement between `ground` and `elevated_ground`.
-- **`elevated_ground`**: Can only be accessed from `steps` or other `elevated_ground` tiles. Cannot be accessed directly from `ground`.
+- **`elevated_ground`**: Can only be accessed from `steps` or other `elevated_ground` tiles.
 - **`cuttable`**: Can be cut with HM Cut. Respawns on map change.
 - **`ladder_up`/`ladder_down`**: Warps that function as instant transitions between floors.
 
 ## B. Solved Puzzles & Key Events
-- **Pewter Museum 2F:** Solved blocking NPC puzzle by interacting with follower Pikachu adjacent to a Scientist.
 - **Snorlax (Routes 11 & 12):** Awakened using the POKé FLUTE from the ITEM menu.
-- **Pokémon Tower Ghost:** Used SILPH SCOPE to reveal the ghost, allowing passage to rescue Mr. Fuji.
-- **Seafoam Islands Current:** Solved multi-floor boulder puzzle to stop the strong water current on B4F.
+- **Pokémon Tower Ghost:** Used SILPH SCOPE to reveal the ghost.
+- **Seafoam Islands Current:** Solved multi-floor boulder puzzle to stop the strong water current.
+- **Mt. Moon Super Nerd Block (Turn 194398):** NPC at (25, 32) on 1F creates a dialogue trigger on tile (25, 31) that blocks all movement. Solution is to press 'A' to dismiss the dialogue.
 
-## C. Key Locations & Discoveries
-- **Mt. Moon Entrances:** The eastern entrance (from Route 4, near Route 3) is the presumed main path. The western entrance (from Route 4, near Cerulean) leads to a separate section that was fully explored and confirmed to not contain a fossil.
-- **Celadon Dept. Store:** Sells TMs, stat-boosters, POKé DOLLs, and evolution stones.
-- **Route 12:** Location of the Super Rod House.
-- **Cinnabar Island:** Home to a Pokémon Lab that can regenerate fossils.
-
-## D. Obstacles & Solutions
-- **Rocket Grunt (Mt. Moon B2F at 30, 12):** Confirmed via dialogue that he is blocking the path south and demands a fossil to pass. This route is a dead end until a fossil is acquired.
+## C. Obstacles & Solutions
+- **Rocket Grunt (Mt. Moon B2F at 30, 12):** Confirmed via dialogue that he is blocking the path south and demands a fossil to pass.
 
 # IV. Active Hypotheses & Test Results
 
-- **Conclusion: Mt. Moon Navigation (Turn 194304):** My previous belief that I was trapped in the western section of Mt. Moon was a hallucination caused by confirmation bias. The area has multiple exits. The correct path forward is to enter Mt. Moon from the eastern entrance on Route 4.
-- **Hypothesis 1:** The eastern section of Mt. Moon contains a fossil needed to pass the Rocket Grunt on B2F. **Test Plan:** Thoroughly explore the eastern section of Mt. Moon.
+- **Hypothesis 1:** The fossil needed to pass the Rocket Grunt is located in the lower floors of Mt. Moon, accessible from the western entrance. **Test Plan:** Thoroughly explore B1F and B2F via the ladder at (6, 6) on 1F.
 - **Untested Assumption 1:** The Officer Jenny blocking the path in Cerulean City is a permanent story block.
-- **Untested Assumption 2:** The Hiker at (6, 7) on Mt. Moon 1F is a non-battling NPC. **Test Plan:** Interact with him at the next opportunity.
-- **Untested Assumption 3:** The Super Nerd at (25, 32) on Mt. Moon 1F is a non-battling NPC. **Test Plan:** Interact with him at the next opportunity.
 
-# VI. Tool & Agent Development
+# V. Tool & Agent Development
+
 ## A. Active Agents
 - **`stuck_navigator_agent`**: Suggests high-level navigational pivots when tools fail.
-- **`navigation_manager_agent`**: A stateful agent that remembers a long-term navigation goal and automatically re-plans/re-issues movement commands after interruptions.
-## B. Active Tools
-- **`automated_path_navigator`**: Automates pathfinding and movement.
-## C. Development Lessons & Bugs
-- **`define_tool` Staleness:** The `define_tool` system can serve a stale version of a script. If a tool fails after a fix, test the raw code with `run_code` to differentiate between logic errors and system issues.
-- **Menu Cursor Behavior:** Menu cursor starting positions are non-deterministic. Tools must force a known state.
+- **`navigation_manager_agent`**: A stateful agent that remembers a long-term navigation goal and automatically re-plans after interruptions.
+
+## B. Development Backlog
+- **`automated_path_navigator` Improvement:** Refine the tool to provide more context on failure, distinguishing between simple obstacles and puzzle elements (e.g., movable boulder vs. boulder switch barrier).
+- **`tool_debugger_agent` Idea:** Create an agent to automate the process of diagnosing tool failures by comparing `run_code` output with `define_tool` output.
+
+## C. Development Lessons
+- **Menu Cursor Behavior:** Menu cursor starting positions are non-deterministic.
 - **Battle Move Selection:** The move selection menu is a single-column list navigated with UP/DOWN only. LEFT/RIGHT have no effect.
