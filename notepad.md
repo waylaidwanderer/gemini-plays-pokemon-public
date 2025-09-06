@@ -76,7 +76,6 @@
 ## A. Agent & Tool Ideas
 - **gym_prep_agent**: An agent that takes a gym type and PC box contents as input to suggest an optimal team of 6.
 - **puzzle_documentation_agent**: An agent that takes a puzzle summary and formats it for the notepad.
-
 ## B. Retired Concepts & Tools
 - `use_hm_from_party`, `switch_pokemon_navigator`, `menu_navigator`, `use_hm_tool`: Retired due to flaws with non-deterministic menu cursors and the 'Menu Input Blocking' mechanic. Lesson: Menu automation requires environment-aware parsing (`menu_analyzer`) and targeted selection (`select_menu_option`).
 ## C. Key Development Lessons
