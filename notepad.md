@@ -72,14 +72,6 @@
 ## D. Key Trainer Rosters
 - **Nurse Joy (Fuchsia Pokecenter):** KANGASKHAN (Lv 65): DOUBLE-EDGE, DOUBLE TEAM; SNORLAX (Lv 65): ICE BEAM, REST
 
-# V. Self-Correction & Hallucination Log
-## A. Navigational Hallucinations
-- **Manual Map Assessment is Unreliable:** I have repeatedly failed to correctly assess unseen tiles, warp reachability, and dead-end status. (e.g., Pokemon Tower 7F, Route 24, Cerulean Gym, Cerulean Cave B1F, Saffron City, Route 7, Mt. Moon 1F, Mt. Moon B1F, Mt. Moon B2F). **LESSON: I MUST ALWAYS use my `map_analyzer` tool and trust system warnings over my own manual assessment.**
-## B. Positional & Turn Count Hallucinations
-- **Positional & Turn Count Mismatch (Multiple):** I have repeatedly received critical warnings for reporting the wrong turn number or player coordinates. **LESSON: I must verify my coordinates and the current turn number from the Game State Information before every single action.**
-## C. Manual Pathing Failures
-- **Manual Pathing is Unreliable (Multiple):** I have created manual path plans that failed (e.g., Pokémon Tower 6F). **LESSON: I MUST use the `find_path` tool for all non-trivial navigation.**
-
 # VI. Active Hypotheses & Untested Assumptions
 - **Cerulean Cave Entrance:** The entrance is somewhere in Cerulean City.
 - **Officer Jenny:** The block at (29, 13) is a permanent story block.
