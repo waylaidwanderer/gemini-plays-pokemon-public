@@ -104,18 +104,8 @@
 - **Safari Zone Entrance:** The entrance is at (19, 4).
 - **Secret House Location:** The 'SECRET HOUSE' is a discoverable location within the Safari Zone.
 
-# VI. Battle Data
-## A. Key Trainer Rosters
-- **Nurse Joy (Fuchsia Pokecenter):** KANGASKHAN (Lv 65): DOUBLE-EDGE, DOUBLE TEAM; SNORLAX (Lv 65): ICE BEAM, REST
-
-# VI. Battle Data
-## A. Key Trainer Rosters
-- **Nurse Joy (Fuchsia Pokecenter):** KANGASKHAN (Lv 65): DOUBLE-EDGE, DOUBLE TEAM; SNORLAX (Lv 65): ICE BEAM, REST
 - Mt. Moon B1F Unseen Tiles (Turn 192926 - CRITICAL): Received a system warning for reporting 57 reachable unseen tiles when there were 0. This was a failure in my manual assessment during the construction of the `validation_checks` block. LESSON: I must ALWAYS use my `map_analyzer` tool to generate this data and NEVER rely on manual counting or estimation. This is a direct violation of my 'Trust, but Refine' and 'Confirmation Bias & System Data' lessons.
 
-# VI. Battle Data
-## A. Key Trainer Rosters
-- **Nurse Joy (Fuchsia Pokecenter):** KANGASKHAN (Lv 65): DOUBLE-EDGE, DOUBLE TEAM; SNORLAX (Lv 65): ICE BEAM, REST
 - **Mt. Moon B2F Navigable Warps & Dead End (Turn 193068 - CRITICAL):** Received a system warning for reporting 2 navigable warps when there was only 1, leading to an incorrect dead-end calculation. This is a failure to trust my `map_analyzer` tool over manual assessment. LESSON: I MUST always trust the output of my system tools for calculating reachability and dead-end status. Manual verification has repeatedly proven unreliable.
 
 # V. Self-Correction & Hallucination Log (Addendum)
