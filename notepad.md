@@ -10,11 +10,8 @@
 ## B. Key Lessons & Recurring Failures (Hallucination Log)
 - **Positional & Data Awareness:** I MUST verify my current coordinates, turn number, and system-provided data from the Game State Information *before* every action and trust it over my own manual assessment.
 - **Dead End Definition & Application:** My manual application of the dead-end definition is critically flawed. A map is a dead end ONLY if it has 1 or fewer reachable exits (warps/connections) AND 0 reachable unseen tiles. I must be rigorous in this calculation.
-- **Map ID Mismatch (Turn 193072):** Hallucinated a map change that did not occur. LESSON: I MUST verify the `current_map_id` from Game State Information after every warp attempt.
-- **Tool Failures in Partitioned Maps (`map_analyzer`/`find_path`):** My navigation tools have repeatedly failed in complex, partitioned maps (e.g., Mt. Moon, Safari Zone), causing incorrect reachability analysis and pathing failures. LESSON: Tool refinement is a non-deferrable, highest-priority action. I must fix faulty tools in the same turn a flaw is discovered and rely on system warnings until they are fixed.
-- **Mt. Moon B1F Unseen Tiles (Turn 193077 - CRITICAL):** Received a system warning for reporting 57 reachable unseen tiles and numerous unreachable warps as reachable. This indicates a critical failure in my manual assessment and a bug in my `map_analyzer` tool's ability to detect map partitions. LESSON: I must ALWAYS trust system warnings over my own tools and manual checks, and I need to debug my map analysis tools.
-- **Mt. Moon B1F Partition Failure (Turn 193078 - CRITICAL):** Received another system warning for hallucinating 57 reachable unseen tiles and multiple unreachable warps as reachable. This confirms my `map_analyzer` is critically bugged and cannot handle map partitions correctly. LESSON: I must completely distrust my tool's output in complex, multi-level maps and rely solely on system warnings for determining dead ends and reachability until the tool is fixed.
-- **Mt. Moon B1F Dead End Miscalculation (Turn 193079 - CRITICAL):** Received a system warning for incorrectly identifying a non-dead-end area as a dead end. This is a recurring failure to correctly apply the definition (2 or more reachable exits = not a dead end). LESSON: I must be more rigorous in my analysis and always trust the system's dead-end calculation over my own flawed manual assessment.
+- **System vs. Local Reachability (Turn 193685 - CRITICAL):** System warnings about "reachable" tiles/warps are a global check for the entire map and may not reflect what is reachable from my current partitioned location. My `map_analyzer` tool performs a *local* reachability check. I MUST trust my tool's output for immediate navigation decisions, even if it seems to contradict a global system warning.
+- **Confirmation Bias in Debugging (Turn 193715):** I wasted over a dozen turns attempting to patch `map_analyzer`, assuming each small change would work. This was confirmation bias. LESSON: If a tool fix fails more than twice, I must pivot to a different debugging strategy (e.g., complete overhaul, using an agent) instead of repeating the same failed approach.
 
 # II. Battle Data
 
@@ -44,39 +41,42 @@
 - **Mt. Moon Entrances:** The eastern entrance (from Route 3) is the main path; the western entrance (from Route 4) is a dead end.
 - **Celadon Dept. Store:** Sells TMs, stat-boosters, POKé DOLLs, and evolution stones.
 - **Route 12:** Location of the Super Rod House.
-
 - **Cinnabar Island:** Home to a Pokémon Lab that can regenerate fossils.
 
 ## C. Active Hypotheses
 - **Hypothesis 1:** The required fossil is located on the lower floors of Mt. Moon (B1F/B2F).
     - **Reasoning:** A Rocket Grunt on B2F is looking for one, suggesting their presence.
     - **Test Plan:** Systematically explore all reachable areas of B1F and B2F.
-- **Untested Assumption:** The Officer Jenny blocking the path in Cerulean City is a permanent story block.
+- **Untested Assumption 1:** The Officer Jenny blocking the path in Cerulean City is a permanent story block.
+- **Untested Assumption 2:** The Rocket Grunt at Mt. Moon B2F (30, 12) is the only way forward in that section and requires a fossil to pass. 
+    - **Test Plan:** After escaping the current partitioned area, I will search for an alternate route on B2F that bypasses this grunt.
 
 # IV. Tool & Agent Development
 
 ## A. Agent & Tool Ideas
-- **`stuck_navigator_agent`**: Suggests high-level navigational pivots when tools fail.
-- **`fossil_finder_agent`**: Analyzes world map data to suggest likely fossil locations.
-- **`gym_prep_agent`**: Suggests an optimal team of 6 for a given gym type.
-- **`puzzle_documentation_agent`**: Formats puzzle summaries for the notepad.
-- **`notepad_organizer_agent`**: Automates notepad cleaning and reorganization.
-- **`navigation_manager_agent`**: Remembers a long-term navigation goal and re-plans after interruptions.
+- `stuck_navigator_agent`: Suggests high-level navigational pivots when tools fail.
+- `fossil_finder_agent`: Analyzes world map data to suggest likely fossil locations.
+- `gym_prep_agent`: Suggests an optimal team of 6 for a given gym type.
+- `puzzle_documentation_agent`: Formats puzzle summaries for the notepad.
+- `notepad_organizer_agent`: Automates notepad cleaning and reorganization.
+- `navigation_manager_agent`: Remembers a long-term navigation goal and re-plans after interruptions.
+- `debugging_assistant_agent`: Takes a tool's code, error, and expected output to suggest logical fixes.
+- `party_manager_agent`: A specialized agent to automate the multi-step process of switching party members in the menu.
 
 ## B. Key Development Lessons & Bugs
 - **`use_hm_tool` Failure:** A single tool cannot perform a multi-stage, dynamic menu navigation task. The correct approach is a sequential, multi-turn process using `menu_analyzer` and `select_menu_option`.
 - **Menu Cursor Behavior:** Menu cursor starting positions are non-deterministic. Tools must force a known state rather than assuming a start position.
-- **`find_path` / `map_analyzer` Bug (Partitioned Maps):** Both tools have a critical, recurring bug where they fail to correctly parse partitioned map layouts (e.g., Safari Zone, Mt. Moon). This leads to incorrect reachability analysis, pathing failures, and dead-end miscalculations.
+- **`find_path` / `map_analyzer` Bug (Partitioned Maps):** Both tools have a critical, recurring bug where they fail to correctly parse partitioned map layouts (e.g., Safari Zone, Mt. Moon). This leads to incorrect reachability analysis, pathing failures, and dead-end miscalculations. My attempts to fix `map_analyzer` have repeatedly failed, indicating a need for a new debugging strategy.
 - **Overwatch Lesson (CRITICAL):** Tool refinement is a non-deferrable, highest-priority action. I MUST fix faulty tools in the same turn a flaw is discovered.
 
 # V. Game Mechanics & Tile Data
 
 ## A. Tile Traversal Rules
-- **Ledges:** Can only be jumped down (from Y-1 to Y+2 in one move). Impassable from below or sides.
-- **Steps:** The only way to move between `ground` and `elevated_ground`.
-- **Ladder Up/Down:** Acts as a warp to a different floor.
-
-## C. New Tool & Agent Ideas (Post-Reflection)
-- **`party_manager_agent`**: A specialized agent to automate the multi-step process of switching party members in the menu, combining menu analysis and selection logic.
-- **`select_party_member_tool`**: A computational tool that takes a Pokémon's name and calculates the button presses needed to select it in the party menu. This would be a core component of the `party_manager_agent`.
-- **System vs. Local Reachability (Turn 193685 - CRITICAL):** System warnings about "reachable" tiles/warps are a global check for the entire map and may not reflect what is reachable from my current partitioned location. My `map_analyzer` tool performs a *local* reachability check. I MUST trust my tool's output for immediate navigation decisions, even if it seems to contradict a global system warning.
+- **ground:** Standard walkable tile.
+- **elevated_ground:** Walkable, but only accessible from `steps` tiles or other `elevated_ground` tiles.
+- **steps:** The only way to move between `ground` and `elevated_ground`.
+- **ledge:** One-way traversal. Can only be jumped down (from Y-1 to Y+2 in one move). Impassable from below or sides.
+- **ladder_up / ladder_down:** Acts as a warp to a different floor.
+- **impassable:** A solid wall or object.
+- **cuttable:** A tree that can be cut with HM Cut. Respawns on map change.
+- **grass:** Tall grass where wild Pokémon appear.
