@@ -213,12 +213,22 @@
         "target_destination"
       ]
     },
-    "python_script": "import json\nimport re\n\n# The known order of Fly locations\nfly_locations = [\n    \"PALLET TOWN\", \"VIRIDIAN CITY\", \"PEWTER CITY\", \"CERULEAN CITY\",\n    \"LAVENDER TOWN\", \"VERMILION CITY\", \"CELADON CITY\", \"FUCHSIA CITY\",\n    \"CINNABAR ISLAND\", \"INDIGO PLATEAU\", \"SAFFRON CITY\"\n]\n\nscreen_text = input_data['screen_text']\ntarget_destination = input_data['target_destination'].upper()\n\n# Find the current location\nmatch = re.search(r\"To (\\w+\\s*\\w*)\", screen_text)\nif not match:\n    print(json.dumps({\"error\": \"Could not parse current location from screen text.\"}))\n    exit()\n\ncurrent_location = match.group(1).strip().upper()\n\ntry:\n    current_index = fly_locations.index(current_location)\n    target_index = fly_locations.index(target_destination)\nexcept ValueError:\n    print(json.dumps({\"error\": f\"Invalid location provided. Current: {current_location}, Target: {target_destination}\"}))\n    exit()\n\nnum_locations = len(fly_locations)\n# Calculate moves in both directions (down and up)\ndown_moves = (target_index - current_index + num_locations) % num_locations\nup_moves = (current_index - target_index + num_locations) % num_locations\n\n# Choose the shorter path\nif down_moves <= up_moves:\n    buttons = [\"Down\"] * down_moves\nelse:\n    buttons = [\"Up\"] * up_moves\n\nprint(json.dumps(buttons))",
+    "python_script": "import json\nimport re\n\n# Get the input data\nscreen_text = input_data[\"screen_text\"]\ntarget_destination = input_data[\"target_destination\"]\n\n# The correct, verified order of all flyable locations\nfly_locations = [\n    \"PALLET TOWN\",\n    \"SAFFRON CITY\",\n    \"INDIGO PLATEAU\",\n    \"CINNABAR ISLAND\",\n    \"FUCHSIA CITY\",\n    \"CELADON CITY\",\n    \"VERMILION CITY\",\n    \"LAVENDER TOWN\"\n]\n\n# Extract the current location from the screen text\nmatch = re.search(r\"To (\\w+\\s*\\w*)\", screen_text)\nif not match:\n    print(json.dumps({\"error\": \"Could not parse current location from screen text.\"}))\n    exit()\n\ncurrent_location = match.group(1).strip()\n\n# Find the indices of the current and target locations\ntry:\n    current_index = fly_locations.index(current_location)\n    target_index = fly_locations.index(target_destination)\nexcept ValueError:\n    print(json.dumps({\"error\": f\"Invalid location. Current: '{current_location}', Target: '{target_destination}'.\"}))\n    exit()\n\n# Calculate the shortest path (Up or Down)\nnum_locations = len(fly_locations)\ndown_presses = (target_index - current_index + num_locations) % num_locations\nup_presses = (current_index - target_index + num_locations) % num_locations\n\n# Determine the optimal direction and create the button press array\nif down_presses <= up_presses:\n    buttons = [\"Down\"] * down_presses\nelse:\n    buttons = [\"Up\"] * up_presses\n\nprint(json.dumps(buttons))\n",
     "history": [
       {
         "commit_message": "feat: Create automated_fly_navigator tool. This is a direct response to the self-assessment on turn 194895, which identified manual Fly navigation as a repetitive and error-prone task that should be automated. This tool calculates the shortest path (Up/Down presses) in the Fly menu, improving efficiency and reducing the chance of manual error.",
         "timestamp": "2025-09-06T19:49:57.321Z",
         "action_counter": 194896
+      },
+      {
+        "commit_message": "fix: Update Fly menu order with correct data. The previous list was corrupted, causing navigation failures. This commit hardcodes the newly verified, correct order of all eight flyable locations, ensuring the tool can accurately calculate the shortest path.",
+        "timestamp": "2025-09-06T20:51:25.641Z",
+        "action_counter": 195015
+      },
+      {
+        "commit_message": "fix: Correct typo in hardcoded Fly menu location list. The tool was failing because 'PALLET TOWN' was misspelled as 'PALLET', causing a ValueError during index lookup. This commit corrects the spelling, ensuring the tool can parse all valid locations.",
+        "timestamp": "2025-09-06T20:54:48.309Z",
+        "action_counter": 195024
       }
     ]
   }

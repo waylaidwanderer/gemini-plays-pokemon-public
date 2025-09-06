@@ -78,3 +78,4 @@
 - CELADON CITY
 - VERMILION CITY
 - LAVENDER TOWN
+- **Lesson: Fly Destination Verification:** The `automated_fly_navigator` tool correctly identifies invalid destinations. I must verify that a location is on the Fly menu list *before* attempting to navigate to it. Pewter City is not a flyable location.
