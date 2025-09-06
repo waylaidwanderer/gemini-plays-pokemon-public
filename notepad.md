@@ -75,3 +75,14 @@
     - **Reasoning:** A Rocket Grunt on B2F is looking for one, suggesting their presence.
     - **Test Plan:** Systematically explore all reachable areas of B1F and B2F.
 - **Untested Assumption:** The Officer Jenny blocking the path in Cerulean City is a permanent story block.
+
+# VI. Game Mechanics & Tile Data
+
+## A. Tile Traversal Rules
+- **Ledges:** Can only be jumped down (from Y-1 to Y+2 in one move). Impassable from below or sides.
+- **Steps:** The only way to move between `ground` and `elevated_ground`.
+
+# VII. Tool & Agent Development
+
+## A. Agent & Tool Ideas
+- **`notepad_organizer_agent`**: Automates notepad cleanup and reorganization.
