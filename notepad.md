@@ -7,12 +7,12 @@
 4.  **ABANDON FAILED HYPOTHESES:** If a strategy fails repeatedly, I must recognize the pattern, document it, and pivot to a new approach.
 
 ## B. Key Lessons & Recurring Failures
-- **Positional & Data Awareness:** I MUST verify my current coordinates, turn number, and system-provided data from the Game State Information *before* every action and trust it over my own manual assessment.
+- **Positional & Data Awareness:** I must verify my current coordinates, turn number, and system-provided data from the Game State Information *before* every action and trust it over my own manual assessment.
 - **Dead End Definition:** A map is a dead end ONLY if it has 1 or fewer reachable exits (warps/connections) AND 0 reachable unseen tiles. I must be rigorous in this calculation.
 - **System vs. Local Reachability:** System warnings about "reachable" tiles/warps are a global check for the entire map and may not reflect what is reachable from my current partitioned location.
-- **Confirmation Bias in Debugging:** Wasting multiple turns on small, failed fixes for a tool is a critical error. LESSON: If a tool fix fails more than twice, I must pivot to a different debugging strategy (e.g., complete overhaul or using `run_code` to test logic).
-- **Simple Solutions First (Overwatch):** When stuck, I must test the most basic solutions (e.g., closing a dialogue box with 'A') before hypothesizing complex puzzles.
-- **`define_tool` Staleness (Turn 194368):** The `define_tool` system can serve a stale version of a script. If a tool fails after a fix, I must test the raw code with `run_code` to differentiate between logic errors and system issues.
+- **Confirmation Bias in Debugging:** Wasting multiple turns on small, failed fixes for a tool is a critical error. If a tool fix fails more than twice, I must pivot to a different debugging strategy (e.g., complete overhaul or using `run_code` to test logic).
+- **Simple Solutions First:** When stuck, I must test the most basic solutions (e.g., closing a dialogue box with 'A') before hypothesizing complex puzzles.
+- **`define_tool` Staleness:** The `define_tool` system can serve a stale version of a script. If a tool fails after a fix, I must test the raw code with `run_code` to differentiate between logic errors and system issues.
 
 # II. Game Data
 
