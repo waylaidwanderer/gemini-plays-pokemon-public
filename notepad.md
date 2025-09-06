@@ -61,7 +61,7 @@
 - `puzzle_documentation_agent`: Formats puzzle summaries for the notepad.
 - `notepad_organizer_agent`: Automates notepad cleaning and reorganization.
 - `navigation_manager_agent`: Remembers a long-term navigation goal and re-plans after interruptions.
-- `debugging_assistant_agent`: Takes a tool's code, error, and expected output to suggest logical fixes.
+
 - `party_manager_agent`: A specialized agent to automate the multi-step process of switching party members in the menu.
 
 ## B. Key Development Lessons & Bugs
