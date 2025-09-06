@@ -91,3 +91,4 @@
 
 ## D. Key Development Lessons & Bugs
 - **Battle Move Selection:** The move selection menu is a single-column list navigated with UP/DOWN only. LEFT/RIGHT have no effect.
+- **`define_tool` Staleness (Turn 194369):** Discovered that `automated_path_navigator` was failing because the `define_tool` system was serving a stale version of the script. The Python logic itself was correct, as proven by a `run_code` test. LESSON: If a tool repeatedly fails after a fix, test the raw code with `run_code` to differentiate between logic errors and system issues.
