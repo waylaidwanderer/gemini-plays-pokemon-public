@@ -62,8 +62,6 @@
 - `notepad_organizer_agent`: Automates notepad cleaning and reorganization.
 - `navigation_manager_agent`: Remembers a long-term navigation goal and re-plans after interruptions.
 
-- `party_manager_agent`: A specialized agent to automate the multi-step process of switching party members in the menu.
-
 ## B. Key Development Lessons & Bugs
 - **`use_hm_tool` Failure:** A single tool cannot perform a multi-stage, dynamic menu navigation task. The correct approach is a sequential, multi-turn process using `menu_analyzer` and `select_menu_option`.
 - **Menu Cursor Behavior:** Menu cursor starting positions are non-deterministic. Tools must force a known state rather than assuming a start position.
