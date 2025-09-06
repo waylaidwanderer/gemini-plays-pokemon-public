@@ -88,7 +88,6 @@
 - **`map_analyzer` Deletion (Turn 193716):** The tool was fundamentally flawed, failing to parse partitioned maps. After multiple failed fixes, it was deleted as it was a liability causing navigational hallucinations.
 - **Overwatch Lesson (CRITICAL):** Tool refinement is a non-deferrable, highest-priority action. I MUST fix or delete faulty tools in the same turn a flaw is discovered.
 - **`navigate_with_retries` Tool Flaw:** The concept is better suited for an agent, as tools are stateless and cannot remember a navigation goal across turns.
-- **`navigation_manager_agent` Failure (Turn 194288):** After four consecutive failures where the agent returned an empty string instead of valid JSON, I have concluded the agent is fundamentally unworkable and have deleted it. Navigation interruptions will be managed manually by re-running `automated_path_navigator` after each battle.
 
 ## D. Key Development Lessons & Bugs
 - **Battle Move Selection:** The move selection menu is a single-column list navigated with UP/DOWN only. LEFT/RIGHT have no effect.
