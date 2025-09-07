@@ -59,4 +59,4 @@
     - HYPNO (Lv 64) - Moves: PSYWAVE
     - SLOWBRO (Lv 64) - Moves: PSYCHIC
     - JYNX (Lv 64) - Moves: BLIZZARD
-    - GENGAR (Lv 64) - Moves:
+    - GENGAR (Lv 64) - Moves: NIGHT SHADE
