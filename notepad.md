@@ -36,12 +36,26 @@
 - **HM Usage:** HMs like Surf and Fly must be used from the POKéMON menu. You must be facing the correct tile type (e.g., water for Surf) for it to work.
 - **Warp Tiles:** Larger 2x1 or 1x2 warps (like exit mats) require moving onto the warp tile and then pressing the directional button towards the impassable boundary.
 
-## B. Solved Puzzles & Key Events
+## B. Tile Mechanics (Verified)
+- **ground**: Standard walkable tile.
+- **grass**: Walkable tile with wild encounters.
+- **impassable**: Walls, counters, etc. Cannot be entered.
+- **water**: Requires Surf to cross.
+- **cuttable**: Requires Cut to pass. Respawns on map change.
+- **ledge**: One-way traversal downwards.
+- **steps**: Allows movement between `ground` and `elevated_ground`.
+- **elevated_ground**: Walkable ground at a different elevation.
+- **teleport**: Instant warp tile.
+- **hole**: Warp tile leading to a lower map area.
+- **ladder_up**: Warp tile leading to a higher floor.
+- **ladder_down**: Warp tile leading to a lower floor.
+
+## C. Solved Puzzles & Key Events
 - **Snorlax (Routes 11 & 12):** Awakened using the POKé FLUTE from the ITEM menu.
 - **Pokémon Tower Ghost:** Used SILPH SCOPE to reveal the ghost.
 - **Seafoam Islands Current:** Solved multi-floor boulder puzzle to stop the strong water current.
 
-## C. Obstacles & Solutions
+## D. Obstacles & Solutions
 - **Rocket Grunt (Mt. Moon B2F at 30, 12):** Confirmed via dialogue that he is blocking the path south and demands a fossil to pass.
 - **Officer Jenny (Cerulean City):** Blocking path east. All local hypotheses have failed. The trigger is likely elsewhere.
 
@@ -70,8 +84,7 @@
 - **Lesson: Mt. Moon Partitions:** The lower floors of Mt. Moon are heavily partitioned. My pathfinding tools were failing because I was trying to navigate between disconnected areas. I repeatedly misidentified these partitions as dead ends, failing to account for all reachable warps.
 - **Lesson: Discipline:** I must be more disciplined about using existing automation (agents and tools) for tasks like menu navigation and getting unstuck, rather than resorting to error-prone manual attempts.
 
-## D. Future Development Ideas
+## B. Future Development Ideas
 - **GymLeaderStrategist Agent:** An agent that takes a gym leader's known roster and my current party to suggest an optimal team order before the battle begins.
 - **select_party_member Tool:** A tool that takes the party list and a target Pokémon's name to automate selecting them from the party menu.
 - **navigation_diagnostics_agent:** An agent that takes a failed pathfinder output and the current player state (walking/surfing) to suggest a root cause.
-- **battle_strategist_agent:** An agent that analyzes the current battle state (my party, opponent's Pokémon, known moves) and suggests the best course of action (which move to use or which Pokémon to switch to).
