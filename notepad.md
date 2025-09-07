@@ -73,8 +73,8 @@
     - MR. MIME (Lv 65) - Moves: PSYCHIC
     - HYPNO (Lv 64) - Moves: PSYWAVE
     - SLOWBRO (Lv 64) - Moves: PSYCHIC
-    - JYNX (Lv 64) - Moves: BLIZZARD
-    - GENGAR (Lv 64) - Moves: NIGHT SHADE
+    - JYNX (Lv 64) - Moves: BLIZZARD, BUBBLEBEAM, DREAM EATER
+    - GENGAR (Lv 64) - Moves: NIGHT SHADE, PSYCHIC
     - ALAKAZAM (Lv 65) - Moves: THUNDER WAVE, PSYCHIC
 
 # VI. Interaction Rules
