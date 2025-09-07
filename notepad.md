@@ -26,21 +26,11 @@
 
 # V. Tool & Agent Development
 
-## A. Development Lessons
-- **Menu Cursor Behavior:** Menu cursor starting positions are non-deterministic.
-- **Battle Move Selection:** The move selection menu is a single-column list navigated with UP/DOWN only.
-- **Map Partitions:** Some areas (like Mt. Moon and Route 2) are heavily partitioned. Pathfinding tools will correctly fail if the start and end points are in disconnected partitions.
-
 ## B. Future Development Ideas
 - **GymLeaderStrategist Agent:** An agent that takes a gym leader's known roster and my current party to suggest an optimal team order before the battle begins.
 - **select_party_member Tool:** A tool that takes the party list and a target Pokémon's name to automate selecting them from the party menu.
 
 # V. Tool & Agent Development
-
-## A. Development Lessons
-- **Menu Cursor Behavior:** Menu cursor starting positions are non-deterministic.
-- **Battle Move Selection:** The move selection menu is a single-column list navigated with UP/DOWN only.
-- **Map Partitions:** Some areas (like Mt. Moon and Route 2) are heavily partitioned. Pathfinding tools will correctly fail if the start and end points are in disconnected partitions.
 
 ## B. Future Development Ideas
 - **GymLeaderStrategist Agent:** An agent that takes a gym leader's known roster and my current party to suggest an optimal team order before the battle begins.
