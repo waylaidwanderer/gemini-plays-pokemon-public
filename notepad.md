@@ -13,24 +13,6 @@
 - **Confirmation Bias in Problem-Solving:** Persisting with a failed hypothesis is a critical error. My handling of the Officer Jenny puzzle and the `automated_path_navigator` debugging are key examples of this failure. After a few failed attempts, I must invalidate the hypothesis and pivot to a new one.
 - **Data Maintenance Efficiency:** Map connection markers (entry and exit) must be placed in the same turn immediately following a map transition to avoid inefficient backtracking.
 
-# IV. Puzzles & Hypotheses
-
-## A. Mt. Moon Fossil Puzzle
-- **Obstacle:** Rocket Grunt at (30, 12) on Mt. Moon B2F blocks the path south, demanding a fossil.
-- **Clue:** Super Nerd at (13, 9) on Mt. Moon B2F mentioned a Pokémon Lab on Cinnabar Island that regenerates fossils.
-- **Hypothesis 1 (Invalidated):** A fossil is an item hidden in an unexplored partition of Mt. Moon.
-- **Hypothesis 2 (Invalidated):** The fossil is located on Cinnabar Island.
-  - **Test Result:** Spoke to the Fossil Revival Scientist in the Cinnabar Lab. He confirmed he revives fossils but I do not have one. This hypothesis is now invalid.
-- **Hypothesis 3 (Stalled):** The fossil is not located in Mt. Moon or the immediate surrounding areas. The `stuck_navigator_agent` suggests this goal is a distraction from the main story path. All leads are exhausted for now.
-
-## C. Core Lessons & Recurring Failures
-- **Dead End Definition:** A map is a dead end ONLY if it has 1 or fewer reachable exits (warps/connections) AND 0 reachable unseen tiles. I must be more rigorous in this calculation. A recent warning confirmed this, as the museum has 2 reachable warps and is not a dead end.
-
-## B. Cerulean City Officer Jenny Puzzle
-- **Obstacle:** Officer Jenny blocks the path east out of Cerulean City.
-- **Hypothesis 1-5 (Invalidated):** Various local triggers in Cerulean City.
-- **Hypothesis 6 (Deprioritized):** The trigger for Officer Jenny is not in Cerulean City. The `stuck_navigator_agent` suggests this path requires the HM 'Cut' and I should explore north first.
-
 # V. Tool & Agent Development
 
 ## A. Development Lessons
