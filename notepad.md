@@ -90,3 +90,4 @@
 ## D. Agent Usage Notes
 - Reminder: Use existing agents like `puzzle_solver_agent` more consistently for complex problems like the fossil hunt, rather than relying solely on manual hypothesis generation.
 - **TeamBuilder Agent Idea:** An agent that takes my PC box contents and a Gym Leader's roster (from my notes) to suggest an optimal team composition and move order.
+- **MarkerCleanup Tool:** A tool to parse the `relevant_map_markers` list, group markers by coordinate, and identify those with similar labels that could be consolidated.
