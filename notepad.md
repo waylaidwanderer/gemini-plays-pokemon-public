@@ -13,26 +13,6 @@
 - **Confirmation Bias in Problem-Solving:** Persisting with a failed hypothesis is a critical error. My handling of the Officer Jenny puzzle and the `automated_path_navigator` debugging are key examples of this failure. After a few failed attempts, I must invalidate the hypothesis and pivot to a new one.
 - **Data Maintenance Efficiency:** Map connection markers (entry and exit) must be placed in the same turn immediately following a map transition to avoid inefficient backtracking.
 
-# V. Tool & Agent Development
-
-## A. Development Lessons
-- **Lesson: Trust System Data:** I must trust system data (map memory, tool outputs) over my own assumptions. My failure to believe the pathfinder's correct output regarding an impassable tile was a critical error that wasted significant time.
-- **Lesson: Menu Cursor Behavior:** Menu cursor starting positions are non-deterministic.
-- **Lesson: Battle Move Selection:** The move selection menu is a single-column list navigated with UP/DOWN only. LEFT/RIGHT have no effect.
-- **Lesson: Fly Destination Verification:** The `automated_fly_navigator` tool correctly identifies invalid destinations. I must verify that a location is on the Fly menu list *before* attempting to navigate to it. Pewter City is not a flyable location.
-- **Lesson: Mt. Moon Partitions:** The lower floors of Mt. Moon are heavily partitioned. My pathfinding tools were failing because I was trying to navigate between disconnected areas. I repeatedly misidentified these partitions as dead ends, failing to account for all reachable warps.
-- **Lesson: Discipline:** I must be more disciplined about using existing automation (agents and tools) for tasks like menu navigation and getting unstuck, rather than resorting to error-prone manual attempts.
-
-## B. Future Development Ideas
-- **GymLeaderStrategist Agent:** An agent that takes a gym leader's known roster and my current party to suggest an optimal team order before the battle begins.
-- **select_party_member Tool:** A tool that takes the party list and a target Pokémon's name to automate selecting them from the party menu.
-- **navigation_diagnostics_agent:** An agent that takes a failed pathfinder output and the current player state (walking/surfing) to suggest a root cause. This is a direct response to Overwatch feedback regarding the need for better tool failure diagnostics.
-
-## C. Area & Navigation Insights
-- **Route 2 Partitions:** Route 2 is split into at least two disconnected sections. The western area, accessible after cutting a tree, is separate from the eastern path that connects Viridian Forest, Diglett's Cave, and Pewter City.
-- **Hypothesis 4 (Invalidated):** The Pewter Museum of Science contains clues about where to find a fossil.
-  - **Test Result:** Explored both floors of the museum, examined all exhibits, and spoke to relevant NPCs. No information about finding new fossils was discovered.
-
 # VI. Game Mechanics & Tile Properties
 
 ## A. Tile Traversal Rules
