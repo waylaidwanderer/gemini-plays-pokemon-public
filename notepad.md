@@ -48,3 +48,10 @@
 # V. Untested Hypotheses & Test Plans
 - **Silent Healing:** I observed that my party was healed at the Pewter Pokémon Center without any confirmation dialogue. Hypothesis: This is a consistent mechanic. Test Plan: Next time I heal my Pokémon, I will pay close attention to the dialogue flow and see if the healing happens silently again. I will try this at two different Pokémon Centers to verify.
 - **Battling Nurses:** Confirmed that Nurse Joy in Fuchsia City will repeatedly challenge me to a battle immediately after healing my party. Hypothesis: This behavior may be unique to this specific Nurse Joy. Test Plan: Visit a different Pokémon Center (e.g., Saffron City) and heal my party to see if a battle is triggered there.
+
+## E. Gym Leader Rematches
+
+### 1. Sabrina (Saffron City Gym)
+- **Attempt 1:**
+  - **Roster:**
+    - MR. MIME (Lv 65) - Moves: (unknown)
