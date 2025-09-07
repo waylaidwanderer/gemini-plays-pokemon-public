@@ -64,3 +64,11 @@
 
 ## B. Future Development Ideas
 - **GymLeaderStrategist Agent:** An agent that takes a gym leader's known roster and my current party to suggest an optimal team order before the battle begins.
+
+## C. Game Mechanics & Quirks
+- **Battle Move Menu:** The move selection menu in battle appears to wrap around (e.g., pressing Up from the top move selects the bottom move).
+
+# V. Tool & Agent Development
+
+## B. Future Development Ideas
+- **GymLeaderStrategist Agent:** An agent that takes a gym leader's known roster and my current party to suggest an optimal team order before the battle begins.
