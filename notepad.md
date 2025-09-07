@@ -53,7 +53,6 @@
 - **select_menu_option:** Calculates button presses to navigate menus based on `menu_analyzer` output.
 - **automated_path_navigator:** Finds the shortest path between two points on the current map.
 - **automated_battle_move_selector:** Calculates button presses to select a move in battle.
-- **saffron_gym_maze_solver:** Solves the Saffron Gym teleporter maze.
 
 ## B. Defined Agents
 - **stuck_navigator_agent:** Suggests high-level navigational pivots when pathfinding fails.
