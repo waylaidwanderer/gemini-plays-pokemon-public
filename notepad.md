@@ -54,4 +54,4 @@
 ### 1. Sabrina (Saffron City Gym)
 - **Attempt 1:**
   - **Roster:**
-    - MR. MIME (Lv 65) - Moves: (unknown)
+    - MR. MIME (Lv 65) - Moves: PSYCHIC
