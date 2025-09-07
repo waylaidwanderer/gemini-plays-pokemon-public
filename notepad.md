@@ -70,6 +70,7 @@
   3. The tool will parse the first suggestion, extract the target coordinates, and then call `automated_path_navigator` internally within its script to find the path.
   4. The tool's final output will be a JSON object containing the `path_plan` array for the movement and two `define_map_marker` tool call definitions (one for departure, one for arrival) that can be executed on a subsequent turn.
 - **Team Builder Agent:** An agent that can analyze my entire PC box and suggest an optimal team for a specific upcoming challenge.
+- **Pokémon Switcher Tool:** A high-level tool that automates the entire process of switching Pokémon. It would take an agent's recommendation (e.g., 'Switch to Marowak'), then internally call `menu_analyzer` and `select_menu_option` to execute the necessary menu navigation automatically.
 
 # V. Past Major Victories
 
