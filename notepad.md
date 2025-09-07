@@ -39,12 +39,10 @@
 - **Seafoam Islands Current:** Solved multi-floor boulder puzzle to stop the strong water current.
 - **Pewter Museum Puzzle:** Solved by a sequence of interactions with the Aerodactyl Fossil and an invisible follower Pikachu, which caused a blocking Youngster to move.
 
-## D. Obstacles & Solutions
-
 # III. Current Objectives & Hypotheses
 
 ## A. Current Main Objective
-- **Saffron Gym Maze:** Solved. The goal is now to defeat Sabrina.
+- **Defeat Sabrina:** I have solved the Saffron Gym Maze and now need to defeat the Gym Leader.
 
 ## B. Active Hypotheses & Test Plans
 - **Menu Cursor Reset:** Hypothesis: The game resets the cursor to the first Pokémon in the list in the 'Bring out which POKéMON?' menu if a turn passes without a selection. Test Plan: Next time I am in this specific menu, I will manually move the cursor to a different Pokémon, wait one turn, and observe if the cursor position changes.
