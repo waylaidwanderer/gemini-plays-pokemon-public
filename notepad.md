@@ -24,18 +24,6 @@
 - **Rocket Grunt (Mt. Moon B2F at 30, 12):** Confirmed via dialogue that he is blocking the path south and demands a fossil to pass.
 - **Officer Jenny (Cerulean City):** Blocking path east. All local hypotheses have failed. The trigger is likely elsewhere.
 
-# IV. Game Mechanics & Tile Properties
-
-## A. Tile Traversal Rules
-- **ground:** Standard walkable tile.
-- **impassable:** Cannot be entered. Walls, rocks, etc.
-- **elevated_ground:** Walkable, but can only be accessed from `steps` tiles or other `elevated_ground` tiles.
-- **steps:** Allows movement between `ground` and `elevated_ground`.
-- **ladder_up / ladder_down:** Acts as a warp to a different floor. Walkable.
-- **ledge:** A one-way obstacle. Can be jumped down (from Y-1 to Y+2 in one move), but not climbed up. Acts as a wall from below or the sides.
-- **grass:** Tall grass where wild Pokémon can be encountered. Walkable like `ground`.
-- **unknown:** Tile type has not been visually confirmed.
-
 # V. Tool & Agent Development
 
 ## A. Development Lessons
@@ -46,18 +34,6 @@
 ## B. Future Development Ideas
 - **GymLeaderStrategist Agent:** An agent that takes a gym leader's known roster and my current party to suggest an optimal team order before the battle begins.
 - **select_party_member Tool:** A tool that takes the party list and a target Pokémon's name to automate selecting them from the party menu.
-
-# IV. Game Mechanics & Tile Properties
-
-## A. Tile Traversal Rules
-- **ground:** Standard walkable tile.
-- **impassable:** Cannot be entered. Walls, rocks, etc.
-- **elevated_ground:** Walkable, but can only be accessed from `steps` tiles or other `elevated_ground` tiles.
-- **steps:** Allows movement between `ground` and `elevated_ground`.
-- **ladder_up / ladder_down:** Acts as a warp to a different floor. Walkable.
-- **ledge:** A one-way obstacle. Can be jumped down (from Y-1 to Y+2 in one move), but not climbed up. Acts as a wall from below or the sides.
-- **grass:** Tall grass where wild Pokémon can be encountered. Walkable like `ground`.
-- **unknown:** Tile type has not been visually confirmed.
 
 # V. Tool & Agent Development
 
