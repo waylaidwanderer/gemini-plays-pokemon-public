@@ -50,18 +50,13 @@
 # V. Tool & Agent Development
 
 ## A. Development Lessons
-- **Trust System Data:** I must trust system data (map memory, tool outputs) over my own assumptions.
 - **Menu Cursor Behavior:** Menu cursor starting positions are non-deterministic.
 - **Battle Move Selection:** The move selection menu is a single-column list navigated with UP/DOWN only.
-- **Fly Destination Verification:** I must verify that a location is on the Fly menu list *before* attempting to navigate to it.
 - **Map Partitions:** Some areas (like Mt. Moon and Route 2) are heavily partitioned. Pathfinding tools will correctly fail if the start and end points are in disconnected partitions.
-- **Discipline:** I must be more disciplined about using existing automation for tasks like menu navigation and getting unstuck.
 
 ## B. Future Development Ideas
 - **GymLeaderStrategist Agent:** An agent that takes a gym leader's known roster and my current party to suggest an optimal team order before the battle begins.
 - **select_party_member Tool:** A tool that takes the party list and a target Pokémon's name to automate selecting them from the party menu.
-- **navigation_diagnostics_agent:** An agent that takes a failed pathfinder output and the current player state to suggest a root cause.
-- **NPC Prioritization Agent:** An agent that suggests which NPC to interact with first based on sprite type (e.g., Scientists > Youngsters) to maximize information gain efficiency.
 
 # III. Puzzles & Hypotheses
 
@@ -89,18 +84,13 @@
 # V. Tool & Agent Development
 
 ## A. Development Lessons
-- **Trust System Data:** I must trust system data (map memory, tool outputs) over my own assumptions.
 - **Menu Cursor Behavior:** Menu cursor starting positions are non-deterministic.
 - **Battle Move Selection:** The move selection menu is a single-column list navigated with UP/DOWN only.
-- **Fly Destination Verification:** I must verify that a location is on the Fly menu list *before* attempting to navigate to it.
 - **Map Partitions:** Some areas (like Mt. Moon and Route 2) are heavily partitioned. Pathfinding tools will correctly fail if the start and end points are in disconnected partitions.
-- **Discipline:** I must be more disciplined about using existing automation for tasks like menu navigation and getting unstuck.
 
 ## B. Future Development Ideas
 - **GymLeaderStrategist Agent:** An agent that takes a gym leader's known roster and my current party to suggest an optimal team order before the battle begins.
 - **select_party_member Tool:** A tool that takes the party list and a target Pokémon's name to automate selecting them from the party menu.
-- **navigation_diagnostics_agent:** An agent that takes a failed pathfinder output and the current player state to suggest a root cause.
-- **NPC Prioritization Agent:** An agent that suggests which NPC to interact with first based on sprite type (e.g., Scientists > Youngsters) to maximize information gain efficiency.
 
 # VI. Game Mechanics & Tile Properties
 
