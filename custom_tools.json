@@ -354,7 +354,7 @@
         "target_move"
       ]
     },
-    "python_script": "import json\ntry:\n    moveset_str = input_data['pokemon_moveset']\n    moveset = json.loads(moveset_str)\n    target = input_data['target_move']\n    if target in moveset:\n        target_index = moveset.index(target)\n        # This assumes the cursor starts at the first move (index 0)\n        num_presses = target_index\n        buttons = [\"Down\"] * num_presses\n        print(json.dumps(buttons))\n    else:\n        print(json.dumps([]))\nexcept Exception as e:\n    print(json.dumps([]))",
+    "python_script": "import json\n\ntry:\n    pokemon_moveset = json.loads(input_data['pokemon_moveset'])\n    target_move = input_data['target_move']\n    \n    target_index = pokemon_moveset.index(target_move)\n    num_moves = len(pokemon_moveset)\n    \n    # Assumes cursor starts at index 0 (the first move)\n    down_presses = target_index\n    up_presses = num_moves - target_index if target_index != 0 else 0\n    \n    buttons = []\n    if down_presses <= up_presses:\n        buttons = ['Down'] * down_presses\n    else:\n        buttons = ['Up'] * up_presses\n        \n    print(json.dumps(buttons))\nexcept (ValueError, IndexError):\n    print(json.dumps([]))",
     "history": [
       {
         "commit_message": "feat: Create automated_battle_move_selector tool. This is a direct response to a mandatory self-assessment identifying deferred tool creation as a critical failure. This tool automates the repetitive task of selecting a move in battle, improving efficiency and reducing manual error.",
@@ -380,6 +380,11 @@
         "commit_message": "fix: Add JSON parsing for moveset input. The tool was critically failing because it treated the JSON string of the moveset as a raw string, causing incorrect index calculations and button presses. This commit adds `json.loads()` to correctly parse the input into a Python list, which is a critical fix to address the failure identified by Overwatch.",
         "timestamp": "2025-09-06T22:31:41.993Z",
         "action_counter": 195201
+      },
+      {
+        "commit_message": "fix: Add wrap-around logic for move selection. The tool previously only calculated 'Down' presses, failing on menus where wrapping 'Up' would be more efficient. This commit calculates both 'Up' and 'Down' paths and chooses the shorter one. This is a critical fix to address a major tool failure identified by Overwatch.",
+        "timestamp": "2025-09-07T11:14:57.214Z",
+        "action_counter": 196653
       }
     ]
   },
