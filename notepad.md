@@ -36,20 +36,6 @@
 - **HM Usage:** HMs like Surf and Fly must be used from the POKéMON menu. You must be facing the correct tile type (e.g., water for Surf) for it to work.
 - **Warp Tiles:** Larger 2x1 or 1x2 warps (like exit mats) require moving onto the warp tile and then pressing the directional button towards the impassable boundary.
 
-## B. Tile Mechanics (Verified)
-- **ground**: Standard walkable tile.
-- **grass**: Walkable tile with wild encounters.
-- **impassable**: Walls, counters, etc. Cannot be entered.
-- **water**: Requires Surf to cross.
-- **cuttable**: Requires Cut to pass. Respawns on map change.
-- **ledge**: One-way traversal downwards.
-- **steps**: Allows movement between `ground` and `elevated_ground`.
-- **elevated_ground**: Walkable ground at a different elevation.
-- **teleport**: Instant warp tile.
-- **hole**: Warp tile leading to a lower map area.
-- **ladder_up**: Warp tile leading to a higher floor.
-- **ladder_down**: Warp tile leading to a lower floor.
-
 ## C. Solved Puzzles & Key Events
 - **Snorlax (Routes 11 & 12):** Awakened using the POKé FLUTE from the ITEM menu.
 - **Pokémon Tower Ghost:** Used SILPH SCOPE to reveal the ghost.
