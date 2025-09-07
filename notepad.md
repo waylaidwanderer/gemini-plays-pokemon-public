@@ -24,22 +24,16 @@
 - **Rocket Grunt (Mt. Moon B2F at 30, 12):** Confirmed via dialogue that he is blocking the path south and demands a fossil to pass.
 - **Officer Jenny (Cerulean City):** Blocking path east. All local hypotheses have failed. The trigger is likely elsewhere.
 
-# --- REORGANIZED NOTEPAD (PENDING DELETION OF OLD CONTENT) ---
+# III. Puzzles & Hypotheses
 
-# I. Core Directives & Lessons
+## A. Mt. Moon Fossil Puzzle (Stalled)
+- **Obstacle:** Rocket Grunt at (30, 12) on Mt. Moon B2F blocks the path south, demanding a fossil.
+- **Status:** All leads are exhausted for now. This goal is a distraction from the main story path.
 
-## A. Core Directives
-1.  **IMMEDIATE MAINTENANCE:** All data management (notepad, markers) and tool/agent refinement is the HIGHEST priority and MUST be performed in the same turn a need is identified.
-2.  **PROACTIVE AUTOMATION:** Before any complex or repetitive task, I must first consider automating it with a tool or agent. If one doesn't exist, creating it is the new priority.
-3.  **TRUST, BUT REFINE:** I must trust the outputs of my agents and system data. If an agent or tool is suboptimal, I must prioritize refining it immediately.
-4.  **ABANDON FAILED HYPOTHESES:** If a strategy fails repeatedly, I must recognize the pattern, document it, and pivot to a new approach.
-
-## B. Key Lessons & Recurring Failures
-- **Positional & Data Awareness:** I must verify my current coordinates, turn number, and system-provided data from the Game State Information *before* every action and trust it over my own manual assessment.
-- **Dead End Definition:** A map is a dead end ONLY if it has 1 or fewer reachable exits (warps/connections) AND 0 reachable unseen tiles. I must be rigorous in this calculation.
-- **System vs. Local Reachability:** System warnings about "reachable" tiles/warps are a global check for the entire map and may not reflect what is reachable from my current partitioned location.
-- **Confirmation Bias in Problem-Solving:** Persisting with a failed hypothesis is a critical error. After a few failed attempts, I must invalidate the hypothesis and pivot to a new one.
-- **Data Maintenance Efficiency:** Map connection markers (entry and exit) must be placed in the same turn immediately following a map transition to avoid inefficient backtracking.
+## B. Pewter Museum Puzzle (Active)
+- **Hypothesis 1 (Failed):** Interacting with the Aerodactyl Fossil at (3, 4) solves the puzzle.
+- **Hypothesis 2 (Active):** Interacting with *both* the Aerodactyl Fossil (3, 4) and the Kabutops Fossil (3, 7) is required.
+  - **Test Plan:** Interact with the Kabutops Fossil, then check if the path to the gym exit at (17, 8) is open.
 
 # III. World Data
 
@@ -84,22 +78,16 @@
 - **navigation_diagnostics_agent:** An agent that takes a failed pathfinder output and the current player state to suggest a root cause.
 - **NPC Prioritization Agent:** An agent that suggests which NPC to interact with first based on sprite type (e.g., Scientists > Youngsters) to maximize information gain efficiency.
 
-# --- REORGANIZED NOTEPAD (PENDING DELETION OF OLD CONTENT) ---
+# III. Puzzles & Hypotheses
 
-# I. Core Directives & Lessons
+## A. Mt. Moon Fossil Puzzle (Stalled)
+- **Obstacle:** Rocket Grunt at (30, 12) on Mt. Moon B2F blocks the path south, demanding a fossil.
+- **Status:** All leads are exhausted for now. This goal is a distraction from the main story path.
 
-## A. Core Directives
-1.  **IMMEDIATE MAINTENANCE:** All data management (notepad, markers) and tool/agent refinement is the HIGHEST priority and MUST be performed in the same turn a need is identified.
-2.  **PROACTIVE AUTOMATION:** Before any complex or repetitive task, I must first consider automating it with a tool or agent. If one doesn't exist, creating it is the new priority.
-3.  **TRUST, BUT REFINE:** I must trust the outputs of my agents and system data. If an agent or tool is suboptimal, I must prioritize refining it immediately.
-4.  **ABANDON FAILED HYPOTHESES:** If a strategy fails repeatedly, I must recognize the pattern, document it, and pivot to a new approach.
-
-## B. Key Lessons & Recurring Failures
-- **Positional & Data Awareness:** I must verify my current coordinates, turn number, and system-provided data from the Game State Information *before* every action and trust it over my own manual assessment.
-- **Dead End Definition:** A map is a dead end ONLY if it has 1 or fewer reachable exits (warps/connections) AND 0 reachable unseen tiles. I must be rigorous in this calculation.
-- **System vs. Local Reachability:** System warnings about "reachable" tiles/warps are a global check for the entire map and may not reflect what is reachable from my current partitioned location.
-- **Confirmation Bias in Problem-Solving:** Persisting with a failed hypothesis is a critical error. After a few failed attempts, I must invalidate the hypothesis and pivot to a new one.
-- **Data Maintenance Efficiency:** Map connection markers (entry and exit) must be placed in the same turn immediately following a map transition to avoid inefficient backtracking.
+## B. Pewter Museum Puzzle (Active)
+- **Hypothesis 1 (Failed):** Interacting with the Aerodactyl Fossil at (3, 4) solves the puzzle.
+- **Hypothesis 2 (Active):** Interacting with *both* the Aerodactyl Fossil (3, 4) and the Kabutops Fossil (3, 7) is required.
+  - **Test Plan:** Interact with the Kabutops Fossil, then check if the path to the gym exit at (17, 8) is open.
 
 # III. World Data
 
