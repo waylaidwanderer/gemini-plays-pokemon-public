@@ -407,39 +407,43 @@
       }
     ]
   },
-  "select_party_member": {
-    "description": "Takes `menu_analyzer` output and a target Pokémon to automate selecting them. It calculates the necessary Up/Down presses from the current cursor position. Handles menu wrapping.",
+  "saffron_gym_maze_solver": {
+    "description": "Solves the Saffron Gym teleporter maze. It parses map markers to build a graph of warp connections and uses BFS to find the shortest path from a start coordinate to the exit at (9, 18). It returns a sequence of target warp coordinates to follow.",
     "input_schema": {
       "type": "object",
       "properties": {
-        "menu_analyzer_output": {
+        "start_x": {
           "type": "string"
         },
-        "target_pokemon": {
+        "start_y": {
+          "type": "string"
+        },
+        "map_markers": {
           "type": "string"
         }
       },
       "required": [
-        "menu_analyzer_output",
-        "target_pokemon"
+        "start_x",
+        "start_y",
+        "map_markers"
       ]
     },
-    "python_script": "import json\n\ntry:\n    menu_data = json.loads(input_data['menu_analyzer_output'])\n    target_pokemon = input_data['target_pokemon']\n\n    options = menu_data['options']\n    cursor_position = menu_data['cursor_position']\n\n    if target_pokemon not in options or cursor_position not in options:\n        print(json.dumps([]))\n    else:\n        current_index = options.index(cursor_position)\n        target_index = options.index(target_pokemon)\n\n        diff = target_index - current_index\n        \n        buttons = []\n        if diff > 0:\n            buttons = ['Down'] * diff\n        elif diff < 0:\n            buttons = ['Up'] * abs(diff)\n            \n        print(json.dumps(buttons))\n\nexcept Exception as e:\n    print(json.dumps([]))",
+    "python_script": "import json\nimport collections\nimport re\n\nstart_x = int(input_data['start_x'])\nstart_y = int(input_data['start_y'])\nmap_markers_json = input_data['map_markers']\n\nmap_markers = json.loads(map_markers_json)\nadj = collections.defaultdict(list)\n\n# Regex to find coordinates like (X, Y) in the marker labels\ncoord_regex = re.compile(r'\\((\\d+), (\\d+)\\)')\n\nfor marker in map_markers:\n    label = marker.get('label', '')\n    from_pos = (marker['x'], marker['y'])\n    \n    # Find all coordinate pairs in the label\n    matches = coord_regex.findall(label)\n    \n    if matches:\n        to_pos_str = matches[0] # Assume the first coordinate pair is the destination\n        to_pos = (int(to_pos_str[0]), int(to_pos_str[1]))\n        \n        # Add the connection\n        if to_pos not in adj[from_pos]:\n            adj[from_pos].append(to_pos)\n            \n        # If it's a bi-directional warp, add the reverse connection\n        if 'Bi-directional' in label or 'to/from' in label:\n            if from_pos not in adj[to_pos]:\n                adj[to_pos].append(from_pos)\n\nstart_node = (start_x, start_y)\n# The final exit is in the room with y>=14, leading to the tile at (9,18)\nqueue = collections.deque([(start_node, [start_node])])\nvisited = {start_node}\npath_to_exit = None\n\nwhile queue:\n    current_pos, path = queue.popleft()\n\n    if current_pos[1] >= 14: # Heuristic for being in the exit room\n        path.append((9, 18)) # The actual exit tile\n        path_to_exit = path\n        break\n\n    neighbors = sorted(adj.get(current_pos, []))\n    for neighbor in neighbors:\n        if neighbor not in visited:\n            visited.add(neighbor)\n            new_path = list(path)\n            new_path.append(neighbor)\n            queue.append((neighbor, new_path))\n\nif path_to_exit:\n    result = {'success': True, 'path': [{'x': p[0], 'y': p[1]} for p in path_to_exit]}\nelse:\n    result = {'success': False, 'path': [], 'reason': 'No path to the exit room could be found. The graph may be incomplete.'}\n\nprint(json.dumps(result))",
     "history": [
       {
-        "commit_message": "feat: Create select_party_member tool. This is a direct response to a critical Overwatch critique identifying deferred tool creation. This tool automates selecting a Pokémon from the party menu, improving efficiency and reducing manual error.",
-        "timestamp": "2025-09-07T10:52:43.674Z",
-        "action_counter": 196603
+        "commit_message": "feat: Create saffron_gym_maze_solver. This tool automates solving the Saffron Gym teleporter maze by building a graph from map markers and finding the shortest path to the exit. This is a direct response to being stuck and adheres to the core directive of automating complex problems.",
+        "timestamp": "2025-09-07T14:01:19.159Z",
+        "action_counter": 196985
       },
       {
-        "commit_message": "fix: Add cursor position awareness. The tool now takes `menu_analyzer_output` to determine the starting cursor position, preventing incorrect navigation when the cursor does not start on the first party member (e.g., after a Pokémon faints). This is a critical fix to address a major tool failure.",
-        "timestamp": "2025-09-07T11:22:48.405Z",
-        "action_counter": 196670
+        "commit_message": "fix: Correct regex for parsing warp markers. The previous regex had incorrect escaping, causing it to fail to build a complete graph of the maze. Also improved the exit condition heuristic. This is a critical fix to address the tool's failure to find a path.",
+        "timestamp": "2025-09-07T14:03:34.230Z",
+        "action_counter": 196987
       },
       {
-        "commit_message": "fix: Remove incorrect menu wrap-around logic. The tool was built on the false assumption that menus wrap, causing it to fail. This critical fix removes the wrap-around calculation and implements direct up/down navigation, aligning the tool with observed game mechanics.",
-        "timestamp": "2025-09-07T11:51:24.314Z",
-        "action_counter": 196731
+        "commit_message": "fix: Improve marker parsing and graph creation. The previous version used a rigid regex that failed to parse various marker labels. This commit implements a more flexible regex to find any coordinate pair and adds logic to handle bi-directional warps, creating a more complete and accurate graph of the maze. This is a critical fix to address repeated tool failures.",
+        "timestamp": "2025-09-07T14:10:19.325Z",
+        "action_counter": 196998
       }
     ]
   }

@@ -41,7 +41,7 @@
 # IV. Tool & Agent Development
 
 ## A. Future Development Ideas
-- **Warp Pathfinder Tool:** A computational tool that automates maze navigation by parsing warp data and calculating the optimal path, then returning a sequence of coordinates to follow. This is a high priority after escaping Saffron Gym.
+- **General Warp Pathfinder Tool:** A more generalized version of the `saffron_gym_maze_solver` that can work on any map with complex warp puzzles.
 - **GymLeaderStrategist Agent:** An agent that takes a gym leader's known roster and my current party to suggest an optimal team order before the battle begins.
 - **Team Builder Agent:** An agent that can analyze my entire PC box and suggest an optimal team for a specific upcoming challenge, like a Gym Leader or the Elite Four.
 
