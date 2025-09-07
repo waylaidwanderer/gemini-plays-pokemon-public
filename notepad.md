@@ -148,3 +148,18 @@
 - **select_party_member Tool:** A tool that takes the party list and a target Pokémon's name to automate selecting them from the party menu.
 - **navigation_diagnostics_agent:** An agent that takes a failed pathfinder output and the current player state to suggest a root cause.
 - **NPC Prioritization Agent:** An agent that suggests which NPC to interact with first based on sprite type (e.g., Scientists > Youngsters) to maximize information gain efficiency.
+
+# VI. Game Mechanics & Tile Properties
+
+## A. Tile Traversal Rules
+- **ground:** Standard walkable tile.
+- **impassable:** Cannot be entered. Walls, rocks, etc.
+- **elevated_ground:** Walkable, but can only be accessed from `steps` tiles or other `elevated_ground` tiles.
+- **steps:** Allows movement between `ground` and `elevated_ground`.
+- **ladder_up / ladder_down:** Acts as a warp to a different floor. Walkable.
+- **ledge:** A one-way obstacle. Can be jumped down (from Y-1 to Y+2 in one move), but not climbed up. Acts as a wall from below or the sides.
+- **grass:** Tall grass where wild Pokémon can be encountered. Walkable like `ground`.
+- **unknown:** Tile type has not been visually confirmed. The tile at (3, 5) in the Pewter Museum 1F is of this type and appears to be a trap or puzzle tile, as it prevents movement after stepping on it.
+
+## B. Future Development Ideas
+- **notepad_refactor_agent:** An agent that takes large blocks of old and new text and generates a series of small, valid `replace` operations to perform a major notepad reorganization without triggering data loss safeguards.
