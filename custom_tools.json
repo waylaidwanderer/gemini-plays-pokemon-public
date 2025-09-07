@@ -382,5 +382,34 @@
         "action_counter": 195201
       }
     ]
+  },
+  "select_party_member": {
+    "description": "Takes the party list and a target Pokémon's name to automate selecting them from the party menu. It calculates the necessary Up/Down presses assuming the cursor starts on the first Pokémon.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "party_list": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "target_pokemon": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "party_list",
+        "target_pokemon"
+      ]
+    },
+    "python_script": "import json\n\nparty_list_str = input_data['party_list']\ntarget_pokemon = input_data['target_pokemon']\n\nparty_list = json.loads(party_list_str)\n\nif target_pokemon in party_list:\n    target_index = party_list.index(target_pokemon)\n    button_presses = ['Down'] * target_index\n    print(json.dumps(button_presses))\nelse:\n    print(json.dumps([]))",
+    "history": [
+      {
+        "commit_message": "feat: Create select_party_member tool. This is a direct response to a critical Overwatch critique identifying deferred tool creation. This tool automates selecting a Pokémon from the party menu, improving efficiency and reducing manual error.",
+        "timestamp": "2025-09-07T10:52:43.674Z",
+        "action_counter": 196603
+      }
+    ]
   }
 }
