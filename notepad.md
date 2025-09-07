@@ -88,3 +88,6 @@
 - **GymLeaderStrategist Agent:** An agent that takes a gym leader's known roster and my current party to suggest an optimal team order before the battle begins.
 - **select_party_member Tool:** A tool that takes the party list and a target Pokémon's name to automate selecting them from the party menu.
 - **navigation_diagnostics_agent:** An agent that takes a failed pathfinder output and the current player state (walking/surfing) to suggest a root cause. This is a direct response to Overwatch feedback regarding the need for better tool failure diagnostics.
+
+## C. Area & Navigation Insights
+- **Route 2 Partitions:** Route 2 is split into at least two disconnected sections. The western area, accessible after cutting a tree, is separate from the eastern path that connects Viridian Forest, Diglett's Cave, and Pewter City.
