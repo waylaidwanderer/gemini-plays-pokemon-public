@@ -89,17 +89,6 @@
 - **navigation_diagnostics_agent:** An agent that takes a failed pathfinder output and the current player state to suggest a root cause.
 - **NPC Prioritization Agent:** An agent that suggests which NPC to interact with first based on sprite type (e.g., Scientists > Youngsters) to maximize information gain efficiency.
 
-# VI. Game Mechanics & Tile Properties
-
-## A. Tile Traversal Rules
-- **ground:** Standard walkable tile.
-- **impassable:** Cannot be entered. Walls, rocks, etc.
-- **elevated_ground:** Walkable, but can only be accessed from `steps` tiles or other `elevated_ground` tiles.
-- **steps:** Allows movement between `ground` and `elevated_ground`.
-- **ladder_up / ladder_down:** Acts as a warp to a different floor. Walkable.
-- **ledge:** A one-way obstacle. Can be jumped down (from Y-1 to Y+2 in one move), but not climbed up.
-- **grass:** Tall grass where wild Pokémon can be encountered. Walkable like `ground`.
-
 # --- REORGANIZED NOTEPAD (PENDING DELETION OF OLD CONTENT) ---
 
 # I. Core Directives & Lessons
@@ -159,14 +148,3 @@
 - **select_party_member Tool:** A tool that takes the party list and a target Pokémon's name to automate selecting them from the party menu.
 - **navigation_diagnostics_agent:** An agent that takes a failed pathfinder output and the current player state to suggest a root cause.
 - **NPC Prioritization Agent:** An agent that suggests which NPC to interact with first based on sprite type (e.g., Scientists > Youngsters) to maximize information gain efficiency.
-
-# VI. Game Mechanics & Tile Properties
-
-## A. Tile Traversal Rules
-- **ground:** Standard walkable tile.
-- **impassable:** Cannot be entered. Walls, rocks, etc.
-- **elevated_ground:** Walkable, but can only be accessed from `steps` tiles or other `elevated_ground` tiles.
-- **steps:** Allows movement between `ground` and `elevated_ground`.
-- **ladder_up / ladder_down:** Acts as a warp to a different floor. Walkable.
-- **ledge:** A one-way obstacle. Can be jumped down (from Y-1 to Y+2 in one move), but not climbed up.
-- **grass:** Tall grass where wild Pokémon can be encountered. Walkable like `ground`.
