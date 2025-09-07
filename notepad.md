@@ -24,17 +24,6 @@
 - **Rocket Grunt (Mt. Moon B2F at 30, 12):** Confirmed via dialogue that he is blocking the path south and demands a fossil to pass.
 - **Officer Jenny (Cerulean City):** Blocking path east. All local hypotheses have failed. The trigger is likely elsewhere.
 
-# III. Puzzles & Hypotheses
-
-## A. Mt. Moon Fossil Puzzle (Stalled)
-- **Obstacle:** Rocket Grunt at (30, 12) on Mt. Moon B2F blocks the path south, demanding a fossil.
-- **Status:** All leads are exhausted for now. This goal is a distraction from the main story path.
-
-## B. Pewter Museum Puzzle (Active)
-- **Hypothesis 1 (Failed):** Interacting with the Aerodactyl Fossil at (3, 4) solves the puzzle.
-- **Hypothesis 2 (Active):** Interacting with *both* the Aerodactyl Fossil (3, 4) and the Kabutops Fossil (3, 7) is required.
-  - **Test Plan:** Interact with the Kabutops Fossil, then check if the path to the gym exit at (17, 8) is open.
-
 # IV. Game Mechanics & Tile Properties
 
 ## A. Tile Traversal Rules
@@ -57,17 +46,6 @@
 ## B. Future Development Ideas
 - **GymLeaderStrategist Agent:** An agent that takes a gym leader's known roster and my current party to suggest an optimal team order before the battle begins.
 - **select_party_member Tool:** A tool that takes the party list and a target Pokémon's name to automate selecting them from the party menu.
-
-# III. Puzzles & Hypotheses
-
-## A. Mt. Moon Fossil Puzzle (Stalled)
-- **Obstacle:** Rocket Grunt at (30, 12) on Mt. Moon B2F blocks the path south, demanding a fossil.
-- **Status:** All leads are exhausted for now. This goal is a distraction from the main story path.
-
-## B. Pewter Museum Puzzle (Active)
-- **Hypothesis 1 (Failed):** Interacting with the Aerodactyl Fossil at (3, 4) solves the puzzle.
-- **Hypothesis 2 (Active):** Interacting with *both* the Aerodactyl Fossil (3, 4) and the Kabutops Fossil (3, 7) is required.
-  - **Test Plan:** Interact with the Kabutops Fossil, then check if the path to the gym exit at (17, 8) is open.
 
 # IV. Game Mechanics & Tile Properties
 
