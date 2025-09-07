@@ -60,4 +60,4 @@
     - SLOWBRO (Lv 64) - Moves: PSYCHIC
     - JYNX (Lv 64) - Moves: BLIZZARD
     - GENGAR (Lv 64) - Moves: NIGHT SHADE
-    - ALAKAZAM (Lv 65) - Moves:
+    - ALAKAZAM (Lv 65) - Moves: THUNDER WAVE
