@@ -80,3 +80,15 @@
 # VI. Interaction Rules
 - **1x1 Warp Tiles:** To re-use a 1x1 warp tile after arriving on it, you must step off the tile onto an adjacent ground tile, then step back on. Attempting to press the direction of an impassable boundary while on the tile will not work.
 - **Battle State Parser Tool:** A tool to automatically parse screen text and game state during a battle to generate the JSON input for the `battle_strategist_agent`, streamlining the path to full battle automation.
+
+## C. Additional Tile Traversal Rules
+- **water:** Crossable using HM Surf.
+- **cuttable:** Tree that can be cut with HM Cut. Respawn on map change.
+
+# VII. New Hypotheses & Development Ideas
+
+## A. New Hypotheses
+- **Respawn Point:** The game sets the last used Pokémon Center as the respawn point after a blackout. Test Plan: Heal at a new Pokémon Center, then intentionally black out to a weak wild Pokémon and observe the respawn location.
+
+## B. New Development Ideas
+- **Fly Automator Tool:** A high-level tool that takes a destination city name as input and automatically executes the entire sequence of menu navigation required to fly there.
