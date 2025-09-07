@@ -48,7 +48,7 @@
 - **Clue:** Super Nerd at (13, 9) on Mt. Moon B2F mentioned a Pokémon Lab on Cinnabar Island that regenerates fossils.
 - **Hypothesis 1 (Invalidated):** A fossil is an item hidden in an unexplored partition of Mt. Moon.
   - **Test Result:** A full exploration of all reachable partitions of Mt. Moon, including the area east of the mountain on Route 4, yielded no fossil item. This hypothesis is now considered invalid.
-- **Hypothesis 2 (Active):** The 'fossil' is not a physical item to be found now, but will be obtained later in the story, likely related to the Cinnabar Island lab.
+- **Hypothesis 2 (Active):** The fossil is not located in Mt. Moon or the immediate surrounding areas. The next step is to progress the main story elsewhere to find new leads.
 
 ## B. Cerulean City Officer Jenny Puzzle
 - **Obstacle:** Officer Jenny blocks the path east out of Cerulean City.

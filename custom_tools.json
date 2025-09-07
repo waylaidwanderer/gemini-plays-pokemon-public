@@ -12,7 +12,7 @@
         "screen_text"
       ]
     },
-    "python_script": "import json\nimport re\n\nscreen_text = input_data['screen_text']\nlines = screen_text.strip().split('\\n')\n\noptions = []\ncursor_position = None\nlayout = 'single_column' # Default assumption\n\n# Party menu check\nif 'Choose a POKéMON.' in screen_text:\n    pokemon_names = []\n    cursor_index = -1\n    for i, line in enumerate(lines):\n        # Pokémon names are typically at the start of a line, not indented\n        match = re.match(r'^([A-Z]+)', line.strip())\n        if match:\n            pokemon_names.append(match.group(1))\n        # The cursor line is indented and starts with '→'\n        if line.strip().startswith('→'):\n            # The cursor points to the Pokémon on the previous line\n            cursor_index = len(pokemon_names) - 1\n    \n    options = pokemon_names\n    if cursor_index != -1:\n        cursor_position = options[cursor_index]\n# General menu parsing\nelse:\n    cursor_char = '→'\n    # Simple 2x2 grid check (like the main battle menu)\n    if len(lines) > 1 and '→' in lines[0] and len(re.findall(r'\\b[A-Z]+\\b', lines[0])) > 1:\n        layout = '2x2_grid'\n    \n    all_options_flat = []\n    cursor_line_index = -1\n    for i, line in enumerate(lines):\n        line_options = [opt.strip() for opt in re.split(r'\\s{2,}', line.strip().replace(cursor_char, '')) if opt]\n        all_options_flat.extend(line_options)\n        if cursor_char in line:\n            cursor_line_index = i\n\n    options = all_options_flat\n    # Find what the cursor is on\n    if cursor_line_index != -1:\n        line_with_cursor = lines[cursor_line_index]\n        # This is a simplification; assumes first option on the line is selected if cursor is present\n        cursor_position = [opt.strip() for opt in re.split(r'\\s{2,}', line_with_cursor.strip().replace(cursor_char, '')) if opt][0]\n\n# Final cleanup to remove duplicates\nseen = set()\noptions = [x for x in options if not (x in seen or seen.add(x))]\nif 'Choose' in options: options.remove('Choose')\nif 'a' in options: options.remove('a')\nif 'POKéMON.' in options: options.remove('POKéMON.')\n\n\nresult = {\n    'options': options,\n    'cursor_position': cursor_position,\n    'layout': layout\n}\n\nprint(json.dumps(result))",
+    "python_script": "import json\nimport re\n\nscreen_text = input_data['screen_text']\nlines = screen_text.strip().split('\\n')\n\noptions = []\ncursor_position = None\nlayout = 'single_column' # Default assumption\n\n# Party menu check\nif 'Choose a POKéMON.' in screen_text:\n    pokemon_names = []\n    cursor_index = -1\n    for i, line in enumerate(lines):\n        match = re.match(r'^([A-Z]+)', line.strip())\n        if match:\n            pokemon_names.append(match.group(1))\n        if line.strip().startswith('→'):\n            cursor_index = len(pokemon_names) - 1\n    \n    options = pokemon_names\n    if cursor_index != -1:\n        cursor_position = options[cursor_index]\n# General menu parsing\nelse:\n    cursor_char = '→'\n    # Check for simple single-column menus first\n    is_single_column = all(line.strip().startswith(cursor_char) or not re.search(r'\\s{2,}', line.strip()) for line in lines if line.strip())\n    \n    if is_single_column:\n        layout = 'single_column'\n        for line in lines:\n            if line.strip():\n                option = line.strip().replace(cursor_char, '')\n                options.append(option)\n                if cursor_char in line:\n                    cursor_position = option\n    else: # Fallback to grid or more complex layouts\n        layout = '2x2_grid' # Assumption for now\n        all_options_flat = []\n        cursor_line_index = -1\n        for i, line in enumerate(lines):\n            line_options = [opt.strip() for opt in re.split(r'\\s{2,}', line.strip().replace(cursor_char, '')) if opt]\n            all_options_flat.extend(line_options)\n            if cursor_char in line:\n                cursor_line_index = i\n\n        options = all_options_flat\n        if cursor_line_index != -1:\n            line_with_cursor = lines[cursor_line_index]\n            cursor_position = [opt.strip() for opt in re.split(r'\\s{2,}', line_with_cursor.strip().replace(cursor_char, '')) if opt][0]\n\nseen = set()\noptions = [x for x in options if not (x in seen or seen.add(x))]\nif 'Choose' in options: options.remove('Choose')\nif 'a' in options: options.remove('a')\nif 'POKéMON.' in options: options.remove('POKéMON.')\n\nresult = {\n    'options': options,\n    'cursor_position': cursor_position,\n    'layout': layout\n}\n\nprint(json.dumps(result))",
     "history": [
       {
         "commit_message": "feat: Create initial version of menu_analyzer. This tool is a direct response to repeated, critical failures in both manual and automated menu navigation. It provides a foundational capability to parse screen text to determine available menu options and the current cursor position. This is the first and most critical step towards building a reliable, environment-aware menu automation system, addressing a major strategic weakness identified by both self-assessment and Overwatch.",
@@ -23,6 +23,11 @@
         "commit_message": "fix: Improve party menu parsing. The previous regex-based approach failed to correctly identify the selected Pokémon in the multi-line party menu. This commit adds specific logic to detect the party menu screen and correctly associates the cursor on one line with the Pokémon name on the preceding line. This is a critical fix to enable the new `select_menu_option` tool to function correctly.",
         "timestamp": "2025-09-05T13:06:17.314Z",
         "action_counter": 191656
+      },
+      {
+        "commit_message": "fix: Improve layout detection for single-column menus. The previous logic was too broad and incorrectly classified the single-column PC menu as a 2x2 grid, causing downstream tool failures. This commit adds a more specific check for single-column layouts to prevent this misclassification.",
+        "timestamp": "2025-09-07T01:03:14.676Z",
+        "action_counter": 195484
       }
     ]
   },
@@ -43,7 +48,7 @@
         "target_option"
       ]
     },
-    "python_script": "import json\n\nmenu_analyzer_output_str = input_data['menu_analyzer_output']\ntarget_option = input_data['target_option']\n\ntry:\n    menu_data = json.loads(menu_analyzer_output_str)\n    options = menu_data.get('options', [])\n    cursor_position = menu_data.get('cursor_position')\n    layout = menu_data.get('layout', 'single_column')\n\n    if not options or not cursor_position:\n        print(json.dumps({\"error\": \"Invalid menu data provided\"}))\n        exit()\n\n    try:\n        current_index = options.index(cursor_position)\n        target_index = options.index(target_option)\n    except ValueError:\n        print(json.dumps({\"error\": f\"Option '{target_option}' or cursor '{cursor_position}' not found in options list\"}))\n        exit()\n\n    moves = target_index - current_index\n    button_presses = []\n\n    if layout == 'single_column':\n        if moves > 0:\n            button_presses = ['Down'] * moves\n        elif moves < 0:\n            button_presses = ['Up'] * abs(moves)\n\n    print(json.dumps(button_presses))\n\nexcept json.JSONDecodeError:\n    print(json.dumps({\"error\": \"Failed to decode menu_analyzer_output JSON string\"}))\nexcept Exception as e:\n    print(json.dumps({\"error\": str(e)}))",
+    "python_script": "import json\n\nmenu_analyzer_output_str = input_data['menu_analyzer_output']\ntarget_option = input_data['target_option']\n\ntry:\n    menu_data = json.loads(menu_analyzer_output_str)\n    options = menu_data.get('options', [])\n    cursor_position = menu_data.get('cursor_position')\n    layout = menu_data.get('layout', 'single_column')\n\n    if not options or not cursor_position:\n        print(json.dumps({\"error\": \"Invalid menu data\"}))\n        exit()\n\n    try:\n        current_index = options.index(cursor_position)\n        target_index = options.index(target_option)\n    except ValueError:\n        print(json.dumps({\"error\": \"Option or cursor not found\"}))\n        exit()\n\n    button_presses = []\n    if layout == 'single_column':\n        moves = target_index - current_index\n        if moves > 0:\n            button_presses = ['Down'] * moves\n        elif moves < 0:\n            button_presses = ['Up'] * abs(moves)\n    elif layout == '2x2_grid':\n        # Assuming a 2x2 grid with a specific layout like FIGHT, PKMN, ITEM, RUN\n        positions = {options[i]: (i % 2, i // 2) for i in range(len(options))}\n        current_pos = positions[cursor_position]\n        target_pos = positions[target_option]\n        \n        h_moves = target_pos[0] - current_pos[0]\n        v_moves = target_pos[1] - current_pos[1]\n        \n        if h_moves > 0: button_presses.extend(['Right'] * h_moves)\n        if h_moves < 0: button_presses.extend(['Left'] * abs(h_moves))\n        if v_moves > 0: button_presses.extend(['Down'] * v_moves)\n        if v_moves < 0: button_presses.extend(['Up'] * abs(v_moves))\n\n    print(json.dumps(button_presses))\n\nexcept Exception as e:\n    print(json.dumps({\"error\": str(e)}))",
     "history": [
       {
         "commit_message": "feat: Create select_menu_option tool to automate menu navigation. This is a direct response to a critical Overwatch critique highlighting repeated failures in manual menu selection. This tool will take parsed menu data and a target string to calculate the necessary button presses, making actions like switching Pokémon reliable and efficient. This is a foundational step towards robust automation.",
@@ -74,6 +79,11 @@
         "commit_message": "fix: Add JSON parsing for menu_analyzer_output. The tool was failing because it received a JSON string but was attempting to treat it as a dictionary. This commit adds the necessary `json.loads()` call to correctly parse the input, which is a critical fix to enable automated menu navigation.",
         "timestamp": "2025-09-06T04:55:31.148Z",
         "action_counter": 193297
+      },
+      {
+        "commit_message": "feat: Add support for 2x2 grid layouts. The tool previously only handled single-column menus, causing it to fail on any other layout. This commit adds logic to calculate horizontal and vertical movements for grid-based menus, making the tool more versatile and robust for general menu automation.",
+        "timestamp": "2025-09-07T01:03:38.390Z",
+        "action_counter": 195485
       }
     ]
   },
@@ -191,21 +201,6 @@
       }
     ]
   },
-  "map_connectivity_analyzer": {
-    "description": "Analyzes the map XML to identify all distinct, partitioned areas. Outputs which warps/connections belong to which partition, helping to strategize exploration of complex maps.",
-    "input_schema": {
-      "type": "object",
-      "properties": {}
-    },
-    "python_script": "import json\nimport collections\nimport xml.etree.ElementTree as ET\n\nroot = ET.fromstring(map_xml_string)\nmap_width = int(root.get('width'))\nmap_height = int(root.get('height'))\ntiles = {}\nwarps = []\nfor row in root.findall('Row'):\n    y = int(row.get('id'))\n    for tile_elem in row.findall('Tile'):\n        x = int(tile_elem.get('id'))\n        tile_type = tile_elem.get('type')\n        has_object = tile_elem.get('has-object') == 'true'\n        object_id = None\n        if has_object:\n            obj = tile_elem.find('Object')\n            if obj is not None:\n                object_id = obj.get('id')\n        tiles[(x, y)] = {'type': tile_type, 'has_object': has_object, 'object_id': object_id}\n        if tile_elem.get('is-warp') == 'true':\n            warps.append((x, y))\n\nimpassable_types = {'impassable', 'boulder_barrier', 'closed_gate', 'cuttable', 'water', 'unknown'}\nground_level_tiles = {'ground', 'grass'}\nelevated_level_tiles = {'elevated_ground'}\n\ndef is_traversable(x, y, from_pos=None):\n    tile_info = tiles.get((x, y))\n    if not tile_info or not (1 <= x <= map_width and 1 <= y <= map_height):\n        return False\n    if tile_info['type'] in impassable_types:\n        return False\n    if tile_info['has_object'] and tile_info.get('object_id') != '15':\n        return False\n    \n    target_type = tile_info['type']\n    if from_pos:\n        from_tile_info = tiles.get(from_pos)\n        from_type = from_tile_info['type']\n        if from_type in ground_level_tiles and target_type in elevated_level_tiles and from_type != 'steps' and target_type != 'steps':\n            return False\n        if from_type in elevated_level_tiles and target_type in ground_level_tiles and from_type != 'steps' and target_type != 'steps':\n             if y < from_pos[1]: return False\n\n    return True\n\npartitions = []\nvisited_warps = set()\n\nfor warp in warps:\n    if warp in visited_warps:\n        continue\n\n    current_partition_warps = []\n    queue = collections.deque([warp])\n    visited_tiles = {warp}\n\n    while queue:\n        current_pos = queue.popleft()\n        (cx, cy) = current_pos\n\n        if current_pos in warps:\n            if current_pos not in visited_warps:\n                 current_partition_warps.append({\"x\": cx, \"y\": cy})\n                 visited_warps.add(current_pos)\n\n        for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n            next_pos = (cx + dx, cy + dy)\n            if next_pos in visited_tiles:\n                continue\n            \n            next_tile_info = tiles.get(next_pos)\n            if next_tile_info and next_tile_info['type'] == 'ledge':\n                if dy == 1 and dx == 0:\n                    hop_dest = (cx, cy + 2)\n                    if hop_dest not in visited_tiles and is_traversable(hop_dest[0], hop_dest[1], from_pos=next_pos):\n                        visited_tiles.add(hop_dest)\n                        queue.append(hop_dest)\n                continue\n\n            if is_traversable(next_pos[0], next_pos[1], from_pos=current_pos):\n                visited_tiles.add(next_pos)\n                queue.append(next_pos)\n    \n    if current_partition_warps:\n        partitions.append(sorted(current_partition_warps, key=lambda k: (k['y'], k['x'])))\n\nprint(json.dumps({\"partitions\": partitions}))",
-    "history": [
-      {
-        "commit_message": "feat: Create map_connectivity_analyzer tool. This is a direct response to a critical Overwatch critique from turn 194600 highlighting my failure to implement documented tool ideas. This tool will analyze the map XML to identify all distinct, partitioned areas, which is essential for strategic exploration of complex maps like Mt. Moon and prevents wasting time in dead-end zones.",
-        "timestamp": "2025-09-06T17:15:12.703Z",
-        "action_counter": 194609
-      }
-    ]
-  },
   "automated_battle_move_selector": {
     "description": "Takes a Pokémon's known moveset and a target move, then calculates the button presses (Up/Down) to select it in the single-column battle menu. This automates move selection.",
     "input_schema": {
@@ -252,6 +247,35 @@
         "commit_message": "fix: Add JSON parsing for moveset input. The tool was critically failing because it treated the JSON string of the moveset as a raw string, causing incorrect index calculations and button presses. This commit adds `json.loads()` to correctly parse the input into a Python list, which is a critical fix to address the failure identified by Overwatch.",
         "timestamp": "2025-09-06T22:31:41.993Z",
         "action_counter": 195201
+      }
+    ]
+  },
+  "use_hm_cut": {
+    "description": "Automates the entire menu navigation process to use the HM Cut. Takes the name of the Pokémon who knows Cut as input and outputs the sequence of button presses.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "pokemon_with_cut": {
+          "type": "string"
+        },
+        "party_list": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "required": [
+        "pokemon_with_cut",
+        "party_list"
+      ]
+    },
+    "python_script": "import json\n\nparty = json.loads(input_data['party_list'])\npokemon_name = input_data['pokemon_with_cut']\n\nbutton_presses = ['Start', 'A'] # Open menu, select POKEMON\n\n# Calculate Down presses to reach the pokemon\ntry:\n    target_index = party.index(pokemon_name)\nexcept ValueError:\n    print(json.dumps([])) # Pokemon not in party\n    exit()\n\nfor _ in range(target_index):\n    button_presses.append('Down')\n\n# Select pokemon and then select CUT (assuming it's the first option)\nbutton_presses.extend(['A', 'A'])\n\nprint(json.dumps(button_presses))",
+    "history": [
+      {
+        "commit_message": "feat: Create use_hm_cut tool to automate HM usage. This is a direct response to a mandatory self-assessment identifying repeated manual failures in using HMs. This tool encapsulates the entire menu navigation sequence, reducing the chance of error and improving efficiency.",
+        "timestamp": "2025-09-07T00:54:45.485Z",
+        "action_counter": 195463
       }
     ]
   }
