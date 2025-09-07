@@ -32,10 +32,6 @@
 
 # III. World Data
 
-## A. Game Mechanics & Rules
-- **HM Usage:** HMs like Surf and Fly must be used from the POKéMON menu. You must be facing the correct tile type (e.g., water for Surf) for it to work.
-- **Warp Tiles:** Larger 2x1 or 1x2 warps (like exit mats) require moving onto the warp tile and then pressing the directional button towards the impassable boundary.
-
 ## C. Solved Puzzles & Key Events
 - **Snorlax (Routes 11 & 12):** Awakened using the POKé FLUTE from the ITEM menu.
 - **Pokémon Tower Ghost:** Used SILPH SCOPE to reveal the ghost.
