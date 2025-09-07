@@ -55,3 +55,4 @@
 - **Attempt 1:**
   - **Roster:**
     - MR. MIME (Lv 65) - Moves: PSYCHIC
+    - HYPNO (Lv 64) - Moves: (unknown)
