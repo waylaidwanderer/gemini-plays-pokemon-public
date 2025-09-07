@@ -35,6 +35,7 @@
 - **ladder_up / ladder_down:** Acts as a warp to a different floor. Walkable.
 - **ledge:** A one-way obstacle. Can be jumped down (from Y-1 to Y+2 in one move), but not climbed up. Acts as a wall from below or the sides.
 - **grass:** Tall grass where wild Pokémon can be encountered. Walkable like `ground`.
+- **teleport:** An instant warp tile within the same map or to a connected one. Walkable.
 - **unknown:** Tile type has not been visually confirmed.
 
 # IV. Tool & Agent Development
@@ -55,4 +56,4 @@
 - **Attempt 1:**
   - **Roster:**
     - MR. MIME (Lv 65) - Moves: PSYCHIC
-    - HYPNO (Lv 64) - Moves: (unknown)
+    - HYPNO (Lv 64) - Moves: PSYWAVE
