@@ -88,3 +88,4 @@
 - **GymLeaderStrategist Agent:** An agent that takes a gym leader's known roster and my current party to suggest an optimal team order before the battle begins.
 - **select_party_member Tool:** A tool that takes the party list and a target Pokémon's name to automate selecting them from the party menu.
 - **navigation_diagnostics_agent:** An agent that takes a failed pathfinder output and the current player state (walking/surfing) to suggest a root cause.
+- **Lesson: Ledge Traversal Bug:** My `automated_path_navigator` tool currently treats 'ledge' tiles as impassable, preventing it from finding paths that require jumping down. This is a critical bug that needs to be fixed. The tool's BFS logic must be updated to handle the one-way, directional nature of ledges.
