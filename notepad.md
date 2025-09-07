@@ -93,4 +93,3 @@
 - **elevated_ground:** Walkable ground at a higher elevation, only accessible via `steps`.
 
 ## D. Future Development Ideas
-- **Tool Debugger Agent:** Create an agent that can analyze a tool's code, input, output, and expected output to suggest potential bugs and fixes. This would streamline the debugging process.
