@@ -63,7 +63,12 @@
 - **major_battle_strategist_agent:** Analyzes an opponent's known roster and the player's current party to suggest an optimal team order and lead Pokémon for any major battle.
 
 ## C. Future Development Ideas
-- **Exploration Master Tool/Agent:** A high-level tool or agent to automate the entire maze exploration loop: call `stuck_navigator_agent`, then `automated_path_navigator`, execute the path, and then place both departure and arrival map markers. This would streamline the current multi-turn process into a single command.
+- **Exploration Master Tool:** A high-level tool to automate the maze exploration loop. 
+  **Design:**
+  1. The tool's Python script will need to be able to call other tools/agents, which is not currently possible. This requires a new system capability.
+  2. **Interim Solution:** Create a tool that takes the JSON output of `stuck_navigator_agent` as input.
+  3. The tool will parse the first suggestion, extract the target coordinates, and then call `automated_path_navigator` internally within its script to find the path.
+  4. The tool's final output will be a JSON object containing the `path_plan` array for the movement and two `define_map_marker` tool call definitions (one for departure, one for arrival) that can be executed on a subsequent turn.
 - **Team Builder Agent:** An agent that can analyze my entire PC box and suggest an optimal team for a specific upcoming challenge.
 
 # V. Completed Gym Leader Rematches
