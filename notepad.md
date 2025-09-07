@@ -55,8 +55,10 @@
 - **Hypothesis 2 (Invalidated):** The trigger is on Route 24/Nugget Bridge.
 - **Hypothesis 3 (Invalidated):** The trigger is defeating Team Rocket elsewhere.
   - **Test Result:** Interacting with Officer Jenny after clearing Silph Co. changed her dialogue, but she did not move. This confirms the event state is linked, but the trigger is more specific.
-- **Hypothesis 4 (Active):** The trigger is interacting with the residents of the robbed house *after* recovering the stolen TM DIG from the Rocket Grunt.
-  - **Test Plan:** Navigate to the Trashed House at (28, 12) and speak with the NPCs inside.
+- **Hypothesis 4 (Invalidated):** The trigger is interacting with the Fishing Guru in the robbed house after recovering the stolen TM DIG.
+  - **Test Result:** Spoke to the Fishing Guru. His dialogue confirmed the robbery but did not trigger any event or reward.
+- **Hypothesis 5 (Active):** The trigger is interacting with the *other* resident of the robbed house, the Girl.
+  - **Test Plan:** Speak with the Girl at (7, 7) in the Trashed House.
 
 # V. Tool & Agent Development
 
