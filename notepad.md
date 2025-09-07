@@ -68,29 +68,22 @@
 - **Lesson: Menu Cursor Behavior:** Menu cursor starting positions are non-deterministic.
 - **Lesson: Battle Move Selection:** The move selection menu is a single-column list navigated with UP/DOWN only. LEFT/RIGHT have no effect.
 - **Lesson: Fly Destination Verification:** The `automated_fly_navigator` tool correctly identifies invalid destinations. I must verify that a location is on the Fly menu list *before* attempting to navigate to it. Pewter City is not a flyable location.
-
-## C. Fly Menu Order (Data Gathering)
-- PALLET TOWN
-- SAFFRON CITY
-- INDIGO PLATEAU
-- CINNABAR ISLAND
-- FUCHSIA CITY
-- CELADON CITY
-- VERMILION CITY
-- LAVENDER TOWN
 - **Lesson: Mt. Moon Partitions:** The lower floors of Mt. Moon are heavily partitioned. My pathfinding tools were failing because I was trying to navigate between disconnected areas. I repeatedly misidentified these partitions as dead ends, failing to account for all reachable warps. I must trust system data on reachability over my own flawed manual assessments or old markers.
+- **Lesson: Discipline:** I must be more disciplined about using existing automation (agents and tools) for tasks like menu navigation and getting unstuck, rather than resorting to error-prone manual attempts.
+
+## D. Future Development Ideas
+- **GymLeaderStrategist Agent:** An agent that takes a gym leader's known roster and my current party to suggest an optimal team order before the battle begins.
+- **`use_hm_cut` Tool Testing:** The tool failed by moving the player and triggering a Surf prompt. This needs to be tested in a controlled environment to diagnose the bug.
 
 # VI. Game Mechanics & Rules
 
 ## A. Tile Traversal Rules (Verified)
 - **ground:** Standard walkable tile.
 - **grass:** Walkable tile where wild Pokémon encounters can occur.
+- **water:** Can be crossed using the HM Surf.
 - **impassable:** A solid barrier like a wall, tree, or object. Cannot be entered.
 - **cuttable:** A small tree that can be removed with the HM Cut. Becomes 'ground' after use but respawns on map change.
 - **ledge:** Can only be jumped down from above (Y-1). Jumping moves the player to Y+2 in one step. Acts as a wall from below and sides.
 - **ladder_up / ladder_down:** Acts as a warp tile, moving the player between floors.
 - **steps:** The only tile type that allows movement between `ground` and `elevated_ground`.
 - **elevated_ground:** Walkable ground at a higher elevation, only accessible via `steps`.
-
-## D. Future Development Ideas
-- **GymLeaderStrategist Agent:** An agent that takes a gym leader's known roster and my current party to suggest an optimal team order before the battle begins.
