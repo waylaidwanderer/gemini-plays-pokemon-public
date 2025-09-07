@@ -51,12 +51,12 @@
 
 ## B. Cerulean City Officer Jenny Puzzle
 - **Obstacle:** Officer Jenny blocks the path east out of Cerulean City.
-- **Hypothesis 1 (Invalidated):** The trigger is in the Trashed House or its backyard.
-  - **Test Result:** All local interactions failed.
+- **Hypothesis 1 (Invalidated):** The trigger is in the Trashed House or its backyard. (Pre-Rocket events)
 - **Hypothesis 2 (Invalidated):** The trigger is on Route 24/Nugget Bridge.
-  - **Test Result:** No Team Rocket activity found.
-- **Hypothesis 3 (Active):** The trigger is located somewhere else entirely, likely related to Team Rocket's activities in another city.
-  - **Test Plan:** Continue progressing the main story and look for other Team Rocket events.
+- **Hypothesis 3 (Invalidated):** The trigger is defeating Team Rocket elsewhere.
+  - **Test Result:** Interacting with Officer Jenny after clearing Silph Co. changed her dialogue, but she did not move. This confirms the event state is linked, but the trigger is more specific.
+- **Hypothesis 4 (Active):** The trigger is interacting with the residents of the robbed house *after* recovering the stolen TM DIG from the Rocket Grunt.
+  - **Test Plan:** Navigate to the Trashed House at (28, 12) and speak with the NPCs inside.
 
 # V. Tool & Agent Development
 
