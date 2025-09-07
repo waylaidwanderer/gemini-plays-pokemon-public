@@ -25,7 +25,7 @@
 ## B. Known Pokemon Locations
 - **Cerulean Cave:** Ditto, Wigglytuff, Electrode, Golem, Raichu, Sandslash, Parasect, Lickitung, Magneton, Dodrio, RHYDON, VICTREEBEL, GOLBAT, KADABRA.
 - **Pokémon Tower:** GASTLY, CUBONE.
-- **Mt. Moon:** ZUBAT, SANDSHREW.
+- **Mt. Moon:** ZUBAT, SANDSHREW, PARAS.
 
 ## C. Key Trainer Rosters
 - **Nurse Joy (Fuchsia Pokecenter):** KANGASKHAN (Lv 65): DOUBLE-EDGE, DOUBLE TEAM; SNORLAX (Lv 65): ICE BEAM, REST
@@ -39,15 +39,16 @@
 
 ## C. Obstacles & Solutions
 - **Rocket Grunt (Mt. Moon B2F at 30, 12):** Confirmed via dialogue that he is blocking the path south and demands a fossil to pass.
-- **Officer Jenny (Cerulean City):** Blocking path east. All local hypotheses (talking to NPCs, interacting with Pikachu, clearing the backyard area) have failed. The trigger is likely elsewhere.
+- **Officer Jenny (Cerulean City):** Blocking path east. All local hypotheses have failed. The trigger is likely elsewhere.
 
 # IV. Puzzles & Hypotheses
 
 ## A. Mt. Moon Fossil Puzzle
 - **Obstacle:** Rocket Grunt at (30, 12) on Mt. Moon B2F blocks the path south, demanding a fossil.
 - **Clue:** Super Nerd at (13, 9) on Mt. Moon B2F mentioned a Pokémon Lab on Cinnabar Island that regenerates fossils.
-- **Hypothesis 1 (Active):** The fossil is an item hidden in an unexplored partition of Mt. Moon.
-  - **Test Plan:** Systematically re-explore all floors of Mt. Moon, prioritizing paths leading from previously unused ladders, such as the one at (6, 8) on B2F.
+- **Hypothesis 1 (Invalidated):** A fossil is an item hidden in an unexplored partition of Mt. Moon.
+  - **Test Result:** A full exploration of all reachable partitions of Mt. Moon, including the area east of the mountain on Route 4, yielded no fossil item. This hypothesis is now considered invalid.
+- **Hypothesis 2 (Active):** The 'fossil' is not a physical item to be found now, but will be obtained later in the story, likely related to the Cinnabar Island lab.
 
 ## B. Cerulean City Officer Jenny Puzzle
 - **Obstacle:** Officer Jenny blocks the path east out of Cerulean City.
@@ -85,6 +86,7 @@
 - **ground:** Standard walkable tile.
 - **grass:** Walkable tile where wild Pokémon encounters can occur.
 - **impassable:** A solid barrier like a wall, tree, or object. Cannot be entered.
+- **cuttable:** A small tree that can be removed with the HM Cut. Becomes 'ground' after use but respawns on map change.
 - **ledge:** Can only be jumped down from above (Y-1). Jumping moves the player to Y+2 in one step. Acts as a wall from below and sides.
 - **ladder_up / ladder_down:** Acts as a warp tile, moving the player between floors.
 - **steps:** The only tile type that allows movement between `ground` and `elevated_ground`.
