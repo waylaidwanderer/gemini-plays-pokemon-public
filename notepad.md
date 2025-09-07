@@ -13,21 +13,16 @@
 - **Confirmation Bias in Problem-Solving:** Persisting with a failed hypothesis is a critical error. After a few failed attempts, I must invalidate the hypothesis and pivot to a new one.
 - **Data Maintenance Efficiency:** Map connection markers (entry and exit) must be placed in the same turn immediately following a map transition to avoid inefficient backtracking.
 
-# VI. Game Mechanics & Tile Properties
+# II. World Data
 
-## A. Tile Traversal Rules
-- **ground:** Standard walkable tile.
-- **impassable:** Cannot be entered. Walls, rocks, etc.
-- **elevated_ground:** Walkable, but can only be accessed from `steps` tiles or other `elevated_ground` tiles.
-- **steps:** Allows movement between `ground` and `elevated_ground`.
-- **ladder_up / ladder_down:** Acts as a warp to a different floor. Walkable.
-- **ledge:** A one-way obstacle. Can be jumped down (from Y-1 to Y+2 in one move), but not climbed up. Acts as a wall from below or the sides.
-- **grass:** Tall grass where wild Pokémon can be encountered. Walkable like `ground`.
+## A. Solved Puzzles & Key Events
+- **Snorlax (Routes 11 & 12):** Awakened using the POKé FLUTE from the ITEM menu.
+- **Pokémon Tower Ghost:** Used SILPH SCOPE to reveal the ghost.
+- **Seafoam Islands Current:** Solved multi-floor boulder puzzle to stop the strong water current.
 
-## D. Agent Usage Notes
-- Reminder: Use existing agents like `puzzle_solver_agent` more consistently for complex problems like the fossil hunt, rather than relying solely on manual hypothesis generation.
-- **TeamBuilder Agent Idea:** An agent that takes my PC box contents and a Gym Leader's roster (from my notes) to suggest an optimal team composition and move order.
-- **MarkerCleanup Tool:** A tool to parse the `relevant_map_markers` list, group markers by coordinate, and identify those with similar labels that could be consolidated.
+## B. Obstacles & Solutions
+- **Rocket Grunt (Mt. Moon B2F at 30, 12):** Confirmed via dialogue that he is blocking the path south and demands a fossil to pass.
+- **Officer Jenny (Cerulean City):** Blocking path east. All local hypotheses have failed. The trigger is likely elsewhere.
 
 # --- REORGANIZED NOTEPAD (PENDING DELETION OF OLD CONTENT) ---
 
