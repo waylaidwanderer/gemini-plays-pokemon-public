@@ -40,9 +40,22 @@
 
 # IV. Tool & Agent Development
 
-## A. Future Development Ideas
+## A. Defined Tools
+- **menu_analyzer:** Parses menu screen text to identify options and cursor position.
+- **select_menu_option:** Calculates button presses to navigate menus based on `menu_analyzer` output.
+- **automated_path_navigator:** Finds the shortest path between two points on the current map.
+- **automated_battle_move_selector:** Calculates button presses to select a move in battle.
+- **saffron_gym_maze_solver:** Solves the Saffron Gym teleporter maze.
+
+## B. Defined Agents
+- **stuck_navigator_agent:** Suggests high-level navigational pivots when pathfinding fails.
+- **battle_strategist_agent:** Recommends the best action (move or switch) during a battle.
+- **puzzle_solver_agent:** Generates new hypotheses for complex puzzles.
+- **notepad_refactor_agent:** Generates `replace` operations for major notepad reorganization.
+- **gym_leader_strategist_agent:** Suggests an optimal team order for Gym Leader battles.
+
+## C. Future Development Ideas
 - **General Warp Pathfinder Tool:** A more generalized version of the `saffron_gym_maze_solver` that can work on any map with complex warp puzzles.
-- **GymLeaderStrategist Agent:** An agent that takes a gym leader's known roster and my current party to suggest an optimal team order before the battle begins.
 - **Team Builder Agent:** An agent that can analyze my entire PC box and suggest an optimal team for a specific upcoming challenge, like a Gym Leader or the Elite Four.
 
 # V. Untested Hypotheses & Test Plans
