@@ -75,3 +75,5 @@
 - **Route 2 Partitions:** Route 2 is split into at least two disconnected sections. The western area, accessible after cutting a tree, is separate from the eastern path that connects Viridian Forest, Diglett's Cave, and Pewter City.
 - **Hypothesis 4 (Invalidated):** The Pewter Museum of Science contains clues about where to find a fossil.
   - **Test Result:** Explored both floors of the museum, examined all exhibits, and spoke to relevant NPCs. No information about finding new fossils was discovered.
+- **Hypothesis 4 (Invalidated):** The Pewter Museum of Science contains clues about where to find a fossil.
+  - **Test Result:** Explored both floors of the museum, examined all exhibits, and spoke to relevant NPCs. No information about finding new fossils was discovered.
