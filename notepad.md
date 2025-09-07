@@ -46,3 +46,5 @@
 # V. Untested Hypotheses & Test Plans
 - **Silent Healing:** I observed that my party was healed at the Pewter Pokémon Center without any confirmation dialogue. Hypothesis: This is a consistent mechanic. Test Plan: Next time I heal my Pokémon, I will pay close attention to the dialogue flow and see if the healing happens silently again. I will try this at two different Pokémon Centers to verify.
 - **Battling Nurses:** Confirmed that Nurse Joy in Fuchsia City will repeatedly challenge me to a battle immediately after healing my party. Hypothesis: This behavior may be unique to this specific Nurse Joy. Test Plan: Visit a different Pokémon Center (e.g., Saffron City) and heal my party to see if a battle is triggered there.
+- **Maze Solver Agent:** An agent that can take warp data for a maze-like area and determine the correct sequence of warps to reach a specific destination.
+- **Warp Pathfinder Tool:** A computational tool that automates maze navigation by parsing warp data and calculating the optimal path, then returning a sequence of coordinates to follow.
