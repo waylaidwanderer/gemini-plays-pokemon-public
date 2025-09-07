@@ -389,31 +389,33 @@
     ]
   },
   "select_party_member": {
-    "description": "Takes the party list and a target Pokémon's name to automate selecting them from the party menu. It calculates the necessary Up/Down presses assuming the cursor starts on the first Pokémon.",
+    "description": "Takes `menu_analyzer` output and a target Pokémon to automate selecting them. It calculates the necessary Up/Down presses from the current cursor position. Handles menu wrapping.",
     "input_schema": {
       "type": "object",
       "properties": {
-        "party_list": {
-          "type": "array",
-          "items": {
-            "type": "string"
-          }
+        "menu_analyzer_output": {
+          "type": "string"
         },
         "target_pokemon": {
           "type": "string"
         }
       },
       "required": [
-        "party_list",
+        "menu_analyzer_output",
         "target_pokemon"
       ]
     },
-    "python_script": "import json\n\nparty_list_str = input_data['party_list']\ntarget_pokemon = input_data['target_pokemon']\n\nparty_list = json.loads(party_list_str)\n\nif target_pokemon in party_list:\n    target_index = party_list.index(target_pokemon)\n    button_presses = ['Down'] * target_index\n    print(json.dumps(button_presses))\nelse:\n    print(json.dumps([]))",
+    "python_script": "import json\nmenu_data = json.loads(input_data['menu_analyzer_output'])\ntarget_option = input_data['target_pokemon']\noptions = menu_data['options']\ncursor_position = menu_data['cursor_position']\ntry:\n    start_index = options.index(cursor_position)\n    target_index = options.index(target_option)\n    distance_down = (target_index - start_index + len(options)) % len(options)\n    distance_up = (start_index - target_index + len(options)) % len(options)\n    if distance_down <= distance_up:\n        button_presses = ['Down'] * distance_down\n    else:\n        button_presses = ['Up'] * distance_up\n    print(json.dumps(button_presses))\nexcept (ValueError, KeyError) as e:\n    print(json.dumps({'error': f'Could not find option or position: {str(e)}', 'buttons': []}))",
     "history": [
       {
         "commit_message": "feat: Create select_party_member tool. This is a direct response to a critical Overwatch critique identifying deferred tool creation. This tool automates selecting a Pokémon from the party menu, improving efficiency and reducing manual error.",
         "timestamp": "2025-09-07T10:52:43.674Z",
         "action_counter": 196603
+      },
+      {
+        "commit_message": "fix: Add cursor position awareness. The tool now takes `menu_analyzer_output` to determine the starting cursor position, preventing incorrect navigation when the cursor does not start on the first party member (e.g., after a Pokémon faints). This is a critical fix to address a major tool failure.",
+        "timestamp": "2025-09-07T11:22:48.405Z",
+        "action_counter": 196670
       }
     ]
   }
