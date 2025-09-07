@@ -13,17 +13,6 @@
 - **Confirmation Bias in Problem-Solving:** Persisting with a failed hypothesis is a critical error. My handling of the Officer Jenny puzzle and the `automated_path_navigator` debugging are key examples of this failure. After a few failed attempts, I must invalidate the hypothesis and pivot to a new one.
 - **Data Maintenance Efficiency:** Map connection markers (entry and exit) must be placed in the same turn immediately following a map transition to avoid inefficient backtracking.
 
-# III. World Data
-
-## C. Solved Puzzles & Key Events
-- **Snorlax (Routes 11 & 12):** Awakened using the POKé FLUTE from the ITEM menu.
-- **Pokémon Tower Ghost:** Used SILPH SCOPE to reveal the ghost.
-- **Seafoam Islands Current:** Solved multi-floor boulder puzzle to stop the strong water current.
-
-## D. Obstacles & Solutions
-- **Rocket Grunt (Mt. Moon B2F at 30, 12):** Confirmed via dialogue that he is blocking the path south and demands a fossil to pass.
-- **Officer Jenny (Cerulean City):** Blocking path east. All local hypotheses have failed. The trigger is likely elsewhere.
-
 # IV. Puzzles & Hypotheses
 
 ## A. Mt. Moon Fossil Puzzle
