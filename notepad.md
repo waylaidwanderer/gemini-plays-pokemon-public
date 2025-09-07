@@ -72,9 +72,9 @@
 - **Pokémon Switcher Tool:** A high-level tool that automates the entire process of switching Pokémon.
 - **Battle State Parser Tool:** A tool to automatically parse screen text during a battle to generate the JSON input for the `comprehensive_battle_agent`.
 - **Fly Automator Tool:** A high-level tool that takes a destination city name as input and automatically executes the entire sequence of menu navigation required to fly there.
-- **Battle Manager Agent:** A high-level agent to orchestrate an entire battle turn.
-- **Exploration Master Tool:** A high-level tool to automate the maze exploration loop.
-- **Team Builder Agent:** An agent that can analyze my entire PC box and suggest an optimal team for a specific upcoming challenge.
+- **Battle Manager Agent:** A high-level agent to orchestrate an entire battle turn by analyzing the state, calling the `comprehensive_battle_agent` for a strategy, and then calling the appropriate tool (`select_battle_option` or a future `select_move` tool) to execute the turn.
+- **Exploration Master Tool:** A high-level tool to automate the maze exploration loop. It would take the current map's warp data, use the `stuck_navigator_agent` to decide which unexplored warp to try next, call the `automated_path_navigator` to get there, and execute the path.
+- **Team Builder Agent:** An agent that can analyze my entire PC box and suggest an optimal team for a specific upcoming challenge (like a Gym Leader rematch or the Elite Four), considering type matchups, levels, and known moves.
 
 # V. Major Battle Data
 

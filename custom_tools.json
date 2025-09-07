@@ -373,5 +373,35 @@
         "action_counter": 197305
       }
     ]
+  },
+  "auto_battle_selector": {
+    "description": "Automatically selects the requested main battle menu option (FIGHT, PKMN, ITEM, RUN). This tool can only be used during a battle when the main battle menu is visible. It cannot be used if a sub-menu is open. **You should always prefer using this tool over manually selecting the option, especially when struggling to select the correct option.**",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "option_to_select": {
+          "type": "string",
+          "enum": [
+            "FIGHT",
+            "PKMN",
+            "ITEM",
+            "RUN"
+          ],
+          "description": "The main battle menu option you want to automatically select"
+        }
+      },
+      "required": [
+        "option_to_select"
+      ],
+      "additionalProperties": false
+    },
+    "python_script": "import json\n\noption_to_select = input_data.get('option_to_select')\n\n# The battle menu is a 2x2 grid:\n# [FIGHT] [PKMN]\n# [ITEM]  [RUN]\n\n# Mapping options to their grid positions (row, col)\noption_positions = {\n    'FIGHT': (0, 0),\n    'PKMN': (0, 1),\n    'ITEM': (1, 0),\n    'RUN': (1, 1)\n}\n\n# Current cursor is always at (0, 0) when this menu opens\ncurrent_pos = (0, 0)\ntarget_pos = option_positions.get(option_to_select)\n\nif target_pos is None:\n    print(json.dumps([]))\nelse:\n    row_diff = target_pos[0] - current_pos[0]\n    col_diff = target_pos[1] - current_pos[1]\n\n    button_presses = []\n    if row_diff > 0:\n        button_presses.extend(['Down'] * row_diff)\n    if col_diff > 0:\n        button_presses.extend(['Right'] * col_diff)\n    \n    button_presses.append('A')\n    print(json.dumps(button_presses))",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2025-09-07T22:33:26.042Z",
+        "action_counter": 197977
+      }
+    ]
   }
 }
