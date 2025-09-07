@@ -45,4 +45,4 @@
 
 # V. Untested Hypotheses & Test Plans
 - **Silent Healing:** I observed that my party was healed at the Pewter Pokémon Center without any confirmation dialogue. Hypothesis: This is a consistent mechanic. Test Plan: Next time I heal my Pokémon, I will pay close attention to the dialogue flow and see if the healing happens silently again. I will try this at two different Pokémon Centers to verify.
-- **Battling Nurses:** Nurse Joy in Fuchsia City challenged me to a battle after healing. Hypothesis: All Nurse Joys will now initiate a battle after healing. Test Plan: Visit a different Pokémon Center (e.g., Saffron City) and heal my party to see if a battle is triggered.
+- **Battling Nurses:** Confirmed that Nurse Joy in Fuchsia City will repeatedly challenge me to a battle immediately after healing my party. Hypothesis: This behavior may be unique to this specific Nurse Joy. Test Plan: Visit a different Pokémon Center (e.g., Saffron City) and heal my party to see if a battle is triggered there.
