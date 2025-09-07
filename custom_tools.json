@@ -12,7 +12,7 @@
         "screen_text"
       ]
     },
-    "python_script": "import json\nimport re\n\nscreen_text = input_data['screen_text']\nlines = screen_text.strip().split('\\n')\n\noptions = []\ncursor_position = None\nlayout = 'single_column' # Default assumption\n\n# Party menu check\nif 'Choose a POKéMON.' in screen_text:\n    pokemon_names = []\n    cursor_index = -1\n    for i, line in enumerate(lines):\n        match = re.match(r'^([A-Z]+)', line.strip())\n        if match:\n            pokemon_names.append(match.group(1))\n        if line.strip().startswith('→'):\n            cursor_index = len(pokemon_names) - 1\n    \n    options = pokemon_names\n    if cursor_index != -1:\n        cursor_position = options[cursor_index]\n# General menu parsing\nelse:\n    cursor_char = '→'\n    # Check for simple single-column menus first\n    is_single_column = all(line.strip().startswith(cursor_char) or not re.search(r'\\s{2,}', line.strip()) for line in lines if line.strip())\n    \n    if is_single_column:\n        layout = 'single_column'\n        for line in lines:\n            if line.strip():\n                option = line.strip().replace(cursor_char, '')\n                options.append(option)\n                if cursor_char in line:\n                    cursor_position = option\n    else: # Fallback to grid or more complex layouts\n        layout = '2x2_grid' # Assumption for now\n        all_options_flat = []\n        cursor_line_index = -1\n        for i, line in enumerate(lines):\n            line_options = [opt.strip() for opt in re.split(r'\\s{2,}', line.strip().replace(cursor_char, '')) if opt]\n            all_options_flat.extend(line_options)\n            if cursor_char in line:\n                cursor_line_index = i\n\n        options = all_options_flat\n        if cursor_line_index != -1:\n            line_with_cursor = lines[cursor_line_index]\n            cursor_position = [opt.strip() for opt in re.split(r'\\s{2,}', line_with_cursor.strip().replace(cursor_char, '')) if opt][0]\n\nseen = set()\noptions = [x for x in options if not (x in seen or seen.add(x))]\nif 'Choose' in options: options.remove('Choose')\nif 'a' in options: options.remove('a')\nif 'POKéMON.' in options: options.remove('POKéMON.')\n\nresult = {\n    'options': options,\n    'cursor_position': cursor_position,\n    'layout': layout\n}\n\nprint(json.dumps(result))",
+    "python_script": "import json\nimport re\n\nscreen_text = input_data['screen_text']\nlines = screen_text.strip().split('\\n')\n\noptions = []\ncursor_position = None\nlayout = 'single_column' # Default assumption\n\n# Party menu check\nif 'POKéMON?' in screen_text:\n    pokemon_names = []\n    cursor_index = -1\n    # Iterate through lines to find Pokémon names and cursor\n    for i, line in enumerate(lines):\n        # Pokémon names are usually at the start of a line and in all caps\n        # This regex is simple and might need adjustment for edge cases\n        match = re.match(r'^([A-Z]+)', line.strip())\n        if match:\n            pokemon_names.append(match.group(1))\n        if line.strip().startswith('→'):\n            # The cursor points to the last found Pokémon name\n            cursor_index = len(pokemon_names) - 1\n    \n    options = pokemon_names\n    if cursor_index != -1:\n        cursor_position = options[cursor_index]\n# General menu parsing\nelse:\n    cursor_char = '→'\n    # Check for simple single-column menus first\n    is_single_column = all(line.strip().startswith(cursor_char) or not re.search(r'\\s{2,}', line.strip()) for line in lines if line.strip())\n    \n    if is_single_column:\n        layout = 'single_column'\n        for line in lines:\n            if line.strip():\n                option = line.strip().replace(cursor_char, '')\n                options.append(option)\n                if cursor_char in line:\n                    cursor_position = option\n    else: # Fallback to grid or more complex layouts\n        layout = '2x2_grid' # Assumption for now\n        all_options_flat = []\n        cursor_line_index = -1\n        for i, line in enumerate(lines):\n            line_options = [opt.strip() for opt in re.split(r'\\s{2,}', line.strip().replace(cursor_char, '')) if opt]\n            all_options_flat.extend(line_options)\n            if cursor_char in line:\n                cursor_line_index = i\n\n        options = all_options_flat\n        if cursor_line_index != -1:\n            line_with_cursor = lines[cursor_line_index]\n            cursor_position = [opt.strip() for opt in re.split(r'\\s{2,}', line_with_cursor.strip().replace(cursor_char, '')) if opt][0]\n\n# Clean up the options list\nseen = set()\noptions = [x for x in options if not (x in seen or seen.add(x))]\nif 'Choose' in options: options.remove('Choose')\nif 'a' in options: options.remove('a')\nif 'POKéMON.' in options: options.remove('POKéMON.')\nif 'Bring' in options: options.remove('Bring')\nif 'out' in options: options.remove('out')\nif 'which' in options: options.remove('which')\n\nresult = {\n    'options': options,\n    'cursor_position': cursor_position,\n    'layout': layout\n}\n\nprint(json.dumps(result))",
     "history": [
       {
         "commit_message": "feat: Create initial version of menu_analyzer. This tool is a direct response to repeated, critical failures in both manual and automated menu navigation. It provides a foundational capability to parse screen text to determine available menu options and the current cursor position. This is the first and most critical step towards building a reliable, environment-aware menu automation system, addressing a major strategic weakness identified by both self-assessment and Overwatch.",
@@ -28,6 +28,11 @@
         "commit_message": "fix: Improve layout detection for single-column menus. The previous logic was too broad and incorrectly classified the single-column PC menu as a 2x2 grid, causing downstream tool failures. This commit adds a more specific check for single-column layouts to prevent this misclassification.",
         "timestamp": "2025-09-07T01:03:14.676Z",
         "action_counter": 195484
+      },
+      {
+        "commit_message": "fix: Improve party menu detection. The tool failed to correctly identify the 'Bring out which POKéMON?' screen as a party menu. This commit generalizes the check to 'POKéMON?' to handle both this case and the standard 'Choose a POKéMON.' screen, preventing incorrect parsing and layout detection.",
+        "timestamp": "2025-09-07T13:09:18.075Z",
+        "action_counter": 196890
       }
     ]
   },
@@ -340,7 +345,7 @@
     ]
   },
   "automated_battle_move_selector": {
-    "description": "Takes a Pokémon's known moveset and a target move, then calculates the button presses (Up/Down) to select it in the single-column battle menu. This automates move selection.",
+    "description": "Takes a Pokémon's known moveset, the current selection, and a target move, then calculates the button presses (Up/Down) to select it in the single-column battle menu. This automates move selection.",
     "input_schema": {
       "type": "object",
       "properties": {
@@ -350,16 +355,20 @@
             "type": "string"
           }
         },
+        "current_selection": {
+          "type": "string"
+        },
         "target_move": {
           "type": "string"
         }
       },
       "required": [
         "pokemon_moveset",
+        "current_selection",
         "target_move"
       ]
     },
-    "python_script": "import json\n\ntry:\n    pokemon_moveset = json.loads(input_data['pokemon_moveset'])\n    target_move = input_data['target_move']\n    \n    target_index = pokemon_moveset.index(target_move)\n    num_moves = len(pokemon_moveset)\n    \n    # Assumes cursor starts at index 0 (the first move)\n    down_presses = target_index\n    up_presses = num_moves - target_index if target_index != 0 else 0\n    \n    buttons = []\n    if down_presses <= up_presses:\n        buttons = ['Down'] * down_presses\n    else:\n        buttons = ['Up'] * up_presses\n        \n    print(json.dumps(buttons))\nexcept (ValueError, IndexError):\n    print(json.dumps([]))",
+    "python_script": "import json\n\npokemon_moveset_str = input_data['pokemon_moveset']\ncurrent_selection = input_data['current_selection']\ntarget_move = input_data['target_move']\n\npokemon_moveset = json.loads(pokemon_moveset_str)\n\ntry:\n    current_index = pokemon_moveset.index(current_selection)\n    target_index = pokemon_moveset.index(target_move)\nexcept ValueError:\n    print(json.dumps({\"error\": \"Move not found in moveset\"}))\n    exit()\n\nif target_index > current_index:\n    diff = target_index - current_index\n    buttons = ['Down'] * diff\n    print(json.dumps(buttons))\nelif target_index < current_index:\n    diff = current_index - target_index\n    buttons = ['Up'] * diff\n    print(json.dumps(buttons))\nelse:\n    print(json.dumps([]))",
     "history": [
       {
         "commit_message": "feat: Create automated_battle_move_selector tool. This is a direct response to a mandatory self-assessment identifying deferred tool creation as a critical failure. This tool automates the repetitive task of selecting a move in battle, improving efficiency and reducing manual error.",
@@ -390,6 +399,11 @@
         "commit_message": "fix: Add wrap-around logic for move selection. The tool previously only calculated 'Down' presses, failing on menus where wrapping 'Up' would be more efficient. This commit calculates both 'Up' and 'Down' paths and chooses the shorter one. This is a critical fix to address a major tool failure identified by Overwatch.",
         "timestamp": "2025-09-07T11:14:57.214Z",
         "action_counter": 196653
+      },
+      {
+        "commit_message": "fix: Remove incorrect menu wrap-around logic and add cursor awareness. The tool was critically failing because it incorrectly assumed menus wrap and had no knowledge of the current cursor position. This commit removes the faulty wrap-around calculation and adds a `current_selection` parameter to enable correct, direct up/down navigation based on the actual game state. This is a critical fix to address repeated tool failures.",
+        "timestamp": "2025-09-07T13:13:54.559Z",
+        "action_counter": 196902
       }
     ]
   },
