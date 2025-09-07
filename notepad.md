@@ -81,3 +81,6 @@
     - JYNX (Lv 64) - Moves: BLIZZARD
     - GENGAR (Lv 64) - Moves: NIGHT SHADE
     - ALAKAZAM (Lv 65) - Moves: THUNDER WAVE, PSYCHIC
+
+## C. Interaction Rules
+- **1x1 Warp Tiles:** To re-use a 1x1 warp tile after arriving on it, you must step off the tile onto an adjacent ground tile, then step back on. Attempting to press the direction of an impassable boundary while on the tile will not work.
