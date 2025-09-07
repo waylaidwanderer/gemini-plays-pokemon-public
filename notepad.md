@@ -41,12 +41,22 @@
 - **Rocket Grunt (Mt. Moon B2F at 30, 12):** Confirmed via dialogue that he is blocking the path south and demands a fossil to pass.
 - **Officer Jenny (Cerulean City):** Blocking path east. All local hypotheses (talking to NPCs, interacting with Pikachu, clearing the backyard area) have failed. The trigger is likely elsewhere.
 
-# IV. Active Hypotheses & Test Results
-- **Hypothesis 1 (Invalidated):** The trigger to move Officer Jenny is located in the Trashed House or its immediate backyard. **Test Result:** All interactions within this area, including defeating the Rocket Grunt, talking to NPCs, and interacting with Pikachu/the environment, failed to move her. 
-- **Hypothesis 2 (Invalidated):** The trigger to move Officer Jenny is on Route 24/Nugget Bridge. **Test Result:** Explored the entire route, no Team Rocket activity found.
-- **Hypothesis 3 (Active):** The fossil needed for the Mt. Moon Rocket Grunt is located on a lower floor of Mt. Moon (B1F or B2F). **Test Plan:** Systematically re-explore all paths on B1F and B2F, starting from known ladders.
+# IV. Puzzles & Hypotheses
 
-- **Hypothesis 3 (Active - From Agent):** The fossil is a reward for defeating a specific trainer, likely the Super Nerd on floor B2F who mentions the Cinnabar Island Lab. **Test Plan:** Locate and defeat this Super Nerd to see if he offers a fossil.
+## A. Mt. Moon Fossil Puzzle
+- **Obstacle:** Rocket Grunt at (30, 12) on Mt. Moon B2F blocks the path south, demanding a fossil.
+- **Clue:** Super Nerd at (13, 9) on Mt. Moon B2F mentioned a Pokémon Lab on Cinnabar Island that regenerates fossils.
+- **Hypothesis 1 (Active):** The fossil is an item hidden in an unexplored partition of Mt. Moon.
+  - **Test Plan:** Systematically re-explore all floors of Mt. Moon, prioritizing paths leading from previously unused ladders, such as the one at (6, 8) on B2F.
+
+## B. Cerulean City Officer Jenny Puzzle
+- **Obstacle:** Officer Jenny blocks the path east out of Cerulean City.
+- **Hypothesis 1 (Invalidated):** The trigger is in the Trashed House or its backyard.
+  - **Test Result:** All local interactions failed.
+- **Hypothesis 2 (Invalidated):** The trigger is on Route 24/Nugget Bridge.
+  - **Test Result:** No Team Rocket activity found.
+- **Hypothesis 3 (Active):** The trigger is located somewhere else entirely, likely related to Team Rocket's activities in another city.
+  - **Test Plan:** Continue progressing the main story and look for other Team Rocket events.
 
 # V. Tool & Agent Development
 
@@ -64,5 +74,4 @@
 - CELADON CITY
 - VERMILION CITY
 - LAVENDER TOWN
-- **Lesson: Mt. Moon Partitions:** The lower floors of Mt. Moon are heavily partitioned. My pathfinding tools were failing because I was trying to navigate between disconnected areas. I repeatedly misidentified these partitions as dead ends, failing to account for all reachable warps. I must trust system data on reachability over my own flawed manual assessments or old markers.
 - **Lesson: Mt. Moon Partitions:** The lower floors of Mt. Moon are heavily partitioned. My pathfinding tools were failing because I was trying to navigate between disconnected areas. I repeatedly misidentified these partitions as dead ends, failing to account for all reachable warps. I must trust system data on reachability over my own flawed manual assessments or old markers.
