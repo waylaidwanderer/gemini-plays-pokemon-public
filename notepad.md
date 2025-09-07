@@ -44,7 +44,7 @@
 
 ## B. Untested Hypotheses & Test Plans
 - **Menu Cursor Reset:** Hypothesis: The game resets the cursor to the first Pokémon in the list in the 'Bring out which POKéMON?' menu if a turn passes without a selection. Test Plan: Next time I am in this specific menu, I will manually move the cursor to a different Pokémon, wait one turn, and observe if the cursor position changes.
-- **Menu Selection Bug:** Hypothesis: The menu bug where selecting one Pokémon (CRAG) opened the sub-menu for another (ECHO) was a one-time glitch. Test Plan: I will attempt the same switch action again. If the bug reoccurs, it is a consistent, albeit strange, mechanic that needs to be documented and worked around.
+- **Menu Selection Bug:** Hypothesis: Selecting a Pokémon in the 'Bring out which POKéMON?' menu consistently opens the sub-menu for a different, seemingly random Pokémon. This has been observed multiple times when trying to select CRAG. Test Plan: I will test a workaround. Instead of selecting the desired Pokémon (CRAG), I will select an adjacent Pokémon (REVENANT) to see if the bug inadvertently selects CRAG for me.
 
 # IV. Tool & Agent Development
 
