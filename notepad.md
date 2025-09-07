@@ -95,3 +95,12 @@
 
 ## B. New Development Ideas
 - **Fly Automator Tool:** A high-level tool that takes a destination city name as input and automatically executes the entire sequence of menu navigation required to fly there.
+
+# VIII. New Development Ideas & Testing Notes
+
+## A. New Development Ideas
+- **Battle Manager Agent:** A high-level agent to orchestrate an entire battle turn. It would analyze the state, decide if strategic advice is needed, call the `comprehensive_battle_agent`, and then call the necessary menu tools to execute the recommended action automatically.
+- **Battle State Parser Tool:** A tool to automatically parse screen text during a battle to generate the JSON input for the `comprehensive_battle_agent`, streamlining the path to full battle automation.
+
+## B. Mechanics to Verify
+- **Light Screen Duration:** Hypothesis: Light Screen lasts for 5 turns, as is standard. Test Plan: In the current battle, I will count the turns after using Light Screen and watch for the 'Light Screen wore off!' message to confirm its duration in this ROM hack.
