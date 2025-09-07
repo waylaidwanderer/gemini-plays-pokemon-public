@@ -28,13 +28,11 @@
 
 ## B. Future Development Ideas
 - **GymLeaderStrategist Agent:** An agent that takes a gym leader's known roster and my current party to suggest an optimal team order before the battle begins.
-- **select_party_member Tool:** A tool that takes the party list and a target Pokémon's name to automate selecting them from the party menu.
 
 # V. Tool & Agent Development
 
 ## B. Future Development Ideas
 - **GymLeaderStrategist Agent:** An agent that takes a gym leader's known roster and my current party to suggest an optimal team order before the battle begins.
-- **select_party_member Tool:** A tool that takes the party list and a target Pokémon's name to automate selecting them from the party menu.
 
 # VI. Game Mechanics & Tile Properties
 
