@@ -47,20 +47,14 @@
 - **Obstacle:** Rocket Grunt at (30, 12) on Mt. Moon B2F blocks the path south, demanding a fossil.
 - **Clue:** Super Nerd at (13, 9) on Mt. Moon B2F mentioned a Pokémon Lab on Cinnabar Island that regenerates fossils.
 - **Hypothesis 1 (Invalidated):** A fossil is an item hidden in an unexplored partition of Mt. Moon.
-  - **Test Result:** A full exploration of all reachable partitions of Mt. Moon, including the area east of the mountain on Route 4, yielded no fossil item. This hypothesis is now considered invalid.
-- **Hypothesis 2 (Active):** The fossil is not located in Mt. Moon or the immediate surrounding areas. The next step is to progress the main story elsewhere to find new leads.
+- **Hypothesis 2 (Invalidated):** The fossil is located on Cinnabar Island.
+  - **Test Result:** Spoke to the Fossil Revival Scientist in the Cinnabar Lab. He confirmed he revives fossils but I do not have one. This hypothesis is now invalid.
+- **Hypothesis 3 (Deprioritized):** The fossil is not located in Mt. Moon or the immediate surrounding areas. The `stuck_navigator_agent` suggests this goal is a distraction from the main story path.
 
 ## B. Cerulean City Officer Jenny Puzzle
 - **Obstacle:** Officer Jenny blocks the path east out of Cerulean City.
-- **Hypothesis 1 (Invalidated):** The trigger is in the Trashed House or its backyard. (Pre-Rocket events)
-- **Hypothesis 2 (Invalidated):** The trigger is on Route 24/Nugget Bridge.
-- **Hypothesis 3 (Invalidated):** The trigger is defeating Team Rocket elsewhere.
-  - **Test Result:** Interacting with Officer Jenny after clearing Silph Co. changed her dialogue, but she did not move. This confirms the event state is linked, but the trigger is more specific.
-- **Hypothesis 4 (Invalidated):** The trigger is interacting with the Fishing Guru in the robbed house after recovering the stolen TM DIG.
-  - **Test Result:** Spoke to the Fishing Guru. His dialogue confirmed the robbery but did not trigger any event or reward.
-- **Hypothesis 5 (Invalidated):** The trigger is interacting with the *other* resident of the robbed house, the Girl.
-  - **Test Result:** Spoke to the Girl. Her dialogue confirmed the robbery but did not trigger any event or reward.
-- **Hypothesis 6 (Active):** The trigger for Officer Jenny is not in Cerulean City. I must progress the main story elsewhere, likely by traveling south towards Vermilion City, as suggested by my `puzzle_solver_agent`.
+- **Hypothesis 1-5 (Invalidated):** Various local triggers in Cerulean City.
+- **Hypothesis 6 (Deprioritized):** The trigger for Officer Jenny is not in Cerulean City. The `stuck_navigator_agent` suggests this path requires the HM 'Cut' and I should explore north first.
 
 # V. Tool & Agent Development
 
