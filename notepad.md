@@ -57,3 +57,4 @@
   - **Roster:**
     - MR. MIME (Lv 65) - Moves: PSYCHIC
     - HYPNO (Lv 64) - Moves: PSYWAVE
+    - SLOWBRO (Lv 64) - Moves:
