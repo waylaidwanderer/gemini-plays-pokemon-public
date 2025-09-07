@@ -32,6 +32,10 @@
 
 # III. World Data
 
+## A. Game Mechanics & Rules
+- **HM Usage:** HMs like Surf and Fly must be used from the POKéMON menu. You must be facing the correct tile type (e.g., water for Surf) for it to work.
+- **Warp Tiles:** Larger 2x1 or 1x2 warps (like exit mats) require moving onto the warp tile and then pressing the directional button towards the impassable boundary.
+
 ## B. Solved Puzzles & Key Events
 - **Snorlax (Routes 11 & 12):** Awakened using the POKé FLUTE from the ITEM menu.
 - **Pokémon Tower Ghost:** Used SILPH SCOPE to reveal the ghost.
@@ -70,4 +74,4 @@
 - **GymLeaderStrategist Agent:** An agent that takes a gym leader's known roster and my current party to suggest an optimal team order before the battle begins.
 - **select_party_member Tool:** A tool that takes the party list and a target Pokémon's name to automate selecting them from the party menu.
 - **navigation_diagnostics_agent:** An agent that takes a failed pathfinder output and the current player state (walking/surfing) to suggest a root cause.
-- **automated_path_navigator Refinement:** Instead of a separate tool, modify the existing pathfinder to accept a `movement_state` argument ('walking' or 'surfing') to handle different traversable tile sets.
+- **battle_strategist_agent:** An agent that analyzes the current battle state (my party, opponent's Pokémon, known moves) and suggests the best course of action (which move to use or which Pokémon to switch to).
