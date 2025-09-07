@@ -19,22 +19,13 @@
 - **Snorlax (Routes 11 & 12):** Awakened using the POKé FLUTE from the ITEM menu.
 - **Pokémon Tower Ghost:** Used SILPH SCOPE to reveal the ghost.
 - **Seafoam Islands Current:** Solved multi-floor boulder puzzle to stop the strong water current.
+- **Pewter Museum Puzzle:** Solved by a sequence of interactions with the Aerodactyl Fossil and an invisible follower Pikachu, which caused a blocking Youngster to move.
 
 ## B. Obstacles & Solutions
 - **Rocket Grunt (Mt. Moon B2F at 30, 12):** Confirmed via dialogue that he is blocking the path south and demands a fossil to pass.
 - **Officer Jenny (Cerulean City):** Blocking path east. All local hypotheses have failed. The trigger is likely elsewhere.
 
-# V. Tool & Agent Development
-
-## B. Future Development Ideas
-- **GymLeaderStrategist Agent:** An agent that takes a gym leader's known roster and my current party to suggest an optimal team order before the battle begins.
-
-# V. Tool & Agent Development
-
-## B. Future Development Ideas
-- **GymLeaderStrategist Agent:** An agent that takes a gym leader's known roster and my current party to suggest an optimal team order before the battle begins.
-
-# VI. Game Mechanics & Tile Properties
+# III. Game Mechanics & Tile Properties
 
 ## A. Tile Traversal Rules
 - **ground:** Standard walkable tile.
@@ -46,17 +37,12 @@
 - **grass:** Tall grass where wild Pokémon can be encountered. Walkable like `ground`.
 - **unknown:** Tile type has not been visually confirmed.
 
-## B. Pewter Museum Puzzle (Solved)
-- **Solution:** The puzzle requires a specific sequence of events mimicking the Cerulean Gym puzzle.
-  1. Interact with the Aerodactyl Fossil on Museum 1F, which causes the follower Pikachu to disappear.
-  2. Go to Museum 2F.
-  3. Stand adjacent to the Scientist at (8, 6).
-  4. Interact with the (now invisible) follower Pikachu, causing it to disappear again.
-  5. This sequence causes the Youngster blocking the path at (2, 8) to move, opening the way to the other side of the museum.
+# IV. Tool & Agent Development
 
-## B. Future Development & Testing
-### Development Ideas
+## A. Future Development Ideas
+- **GymLeaderStrategist Agent:** An agent that takes a gym leader's known roster and my current party to suggest an optimal team order before the battle begins.
 - **Team Builder Agent:** An agent that can analyze my entire PC box and suggest an optimal team for a specific upcoming challenge, like a Gym Leader or the Elite Four.
 
-### Untested Hypotheses
+# V. Untested Hypotheses & Test Plans
 - **Silent Healing:** I observed that my party was healed at the Pewter Pokémon Center without any confirmation dialogue. Hypothesis: This is a consistent mechanic. Test Plan: Next time I heal my Pokémon, I will pay close attention to the dialogue flow and see if the healing happens silently again. I will try this at two different Pokémon Centers to verify.
+- **Battling Nurses:** Nurse Joy in Fuchsia City challenged me to a battle after healing. Hypothesis: All Nurse Joys will now initiate a battle after healing. Test Plan: Visit a different Pokémon Center (e.g., Saffron City) and heal my party to see if a battle is triggered.

@@ -405,7 +405,7 @@
         "target_pokemon"
       ]
     },
-    "python_script": "import json\nmenu_data = json.loads(input_data['menu_analyzer_output'])\ntarget_option = input_data['target_pokemon']\noptions = menu_data['options']\ncursor_position = menu_data['cursor_position']\ntry:\n    start_index = options.index(cursor_position)\n    target_index = options.index(target_option)\n    distance_down = (target_index - start_index + len(options)) % len(options)\n    distance_up = (start_index - target_index + len(options)) % len(options)\n    if distance_down <= distance_up:\n        button_presses = ['Down'] * distance_down\n    else:\n        button_presses = ['Up'] * distance_up\n    print(json.dumps(button_presses))\nexcept (ValueError, KeyError) as e:\n    print(json.dumps({'error': f'Could not find option or position: {str(e)}', 'buttons': []}))",
+    "python_script": "import json\n\ntry:\n    menu_data = json.loads(input_data['menu_analyzer_output'])\n    target_pokemon = input_data['target_pokemon']\n\n    options = menu_data['options']\n    cursor_position = menu_data['cursor_position']\n\n    if target_pokemon not in options or cursor_position not in options:\n        print(json.dumps([]))\n    else:\n        current_index = options.index(cursor_position)\n        target_index = options.index(target_pokemon)\n\n        diff = target_index - current_index\n        \n        buttons = []\n        if diff > 0:\n            buttons = ['Down'] * diff\n        elif diff < 0:\n            buttons = ['Up'] * abs(diff)\n            \n        print(json.dumps(buttons))\n\nexcept Exception as e:\n    print(json.dumps([]))",
     "history": [
       {
         "commit_message": "feat: Create select_party_member tool. This is a direct response to a critical Overwatch critique identifying deferred tool creation. This tool automates selecting a Pokémon from the party menu, improving efficiency and reducing manual error.",
@@ -416,6 +416,11 @@
         "commit_message": "fix: Add cursor position awareness. The tool now takes `menu_analyzer_output` to determine the starting cursor position, preventing incorrect navigation when the cursor does not start on the first party member (e.g., after a Pokémon faints). This is a critical fix to address a major tool failure.",
         "timestamp": "2025-09-07T11:22:48.405Z",
         "action_counter": 196670
+      },
+      {
+        "commit_message": "fix: Remove incorrect menu wrap-around logic. The tool was built on the false assumption that menus wrap, causing it to fail. This critical fix removes the wrap-around calculation and implements direct up/down navigation, aligning the tool with observed game mechanics.",
+        "timestamp": "2025-09-07T11:51:24.314Z",
+        "action_counter": 196731
       }
     ]
   }
