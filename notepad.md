@@ -13,23 +13,6 @@
 - **Confirmation Bias in Problem-Solving:** Persisting with a failed hypothesis is a critical error. My handling of the Officer Jenny puzzle and the `automated_path_navigator` debugging are key examples of this failure. After a few failed attempts, I must invalidate the hypothesis and pivot to a new one.
 - **Data Maintenance Efficiency:** Map connection markers (entry and exit) must be placed in the same turn immediately following a map transition to avoid inefficient backtracking.
 
-# II. Game Data
-
-## A. Type Chart (Verified)
-- Electric is not very effective against Electric, Grass/Poison, and Bug/Grass types.
-- Ground moves do not affect GASTLY (Ghost/Poison).
-- Normal moves do not affect Ghost-types.
-- Normal is not very effective against GEODUDE (Rock/Ground).
-- Poison is not very effective against Ground-types.
-
-## B. Known Pokemon Locations
-- **Cerulean Cave:** Ditto, Wigglytuff, Electrode, Golem, Raichu, Sandslash, Parasect, Lickitung, Magneton, Dodrio, RHYDON, VICTREEBEL, GOLBAT, KADABRA.
-- **Pokémon Tower:** GASTLY, CUBONE.
-- **Mt. Moon:** ZUBAT, SANDSHREW, PARAS.
-
-## C. Key Trainer Rosters
-- **Nurse Joy (Fuchsia Pokecenter):** KANGASKHAN (Lv 65): DOUBLE-EDGE, DOUBLE TEAM; SNORLAX (Lv 65): ICE BEAM, REST
-
 # III. World Data
 
 ## C. Solved Puzzles & Key Events
@@ -112,23 +95,6 @@
 - **Confirmation Bias in Problem-Solving:** Persisting with a failed hypothesis is a critical error. My handling of the Officer Jenny puzzle and the `automated_path_navigator` debugging are key examples of this failure. After a few failed attempts, I must invalidate the hypothesis and pivot to a new one.
 - **Data Maintenance Efficiency:** Map connection markers (entry and exit) must be placed in the same turn immediately following a map transition to avoid inefficient backtracking.
 
-# II. Game Data
-
-## A. Type Chart (Verified)
-- Electric is not very effective against Electric, Grass/Poison, and Bug/Grass types.
-- Ground moves do not affect GASTLY (Ghost/Poison).
-- Normal moves do not affect Ghost-types.
-- Normal is not very effective against GEODUDE (Rock/Ground).
-- Poison is not very effective against Ground-types.
-
-## B. Known Pokemon Locations
-- **Cerulean Cave:** Ditto, Wigglytuff, Electrode, Golem, Raichu, Sandslash, Parasect, Lickitung, Magneton, Dodrio, RHYDON, VICTREEBEL, GOLBAT, KADABRA.
-- **Pokémon Tower:** GASTLY, CUBONE.
-- **Mt. Moon:** ZUBAT, SANDSHREW, PARAS.
-
-## C. Key Trainer Rosters
-- **Nurse Joy (Fuchsia Pokecenter):** KANGASKHAN (Lv 65): DOUBLE-EDGE, DOUBLE TEAM; SNORLAX (Lv 65): ICE BEAM, REST
-
 # III. World Data
 
 ## A. Solved Puzzles & Key Events
@@ -199,23 +165,6 @@
 - **System vs. Local Reachability:** System warnings about "reachable" tiles/warps are a global check for the entire map and may not reflect what is reachable from my current partitioned location.
 - **Confirmation Bias in Problem-Solving:** Persisting with a failed hypothesis is a critical error. My handling of the Officer Jenny puzzle and the `automated_path_navigator` debugging are key examples of this failure. After a few failed attempts, I must invalidate the hypothesis and pivot to a new one.
 - **Data Maintenance Efficiency:** Map connection markers (entry and exit) must be placed in the same turn immediately following a map transition to avoid inefficient backtracking.
-
-# II. Game Data
-
-## A. Type Chart (Verified)
-- Electric is not very effective against Electric, Grass/Poison, and Bug/Grass types.
-- Ground moves do not affect GASTLY (Ghost/Poison).
-- Normal moves do not affect Ghost-types.
-- Normal is not very effective against GEODUDE (Rock/Ground).
-- Poison is not very effective against Ground-types.
-
-## B. Known Pokemon Locations
-- **Cerulean Cave:** Ditto, Wigglytuff, Electrode, Golem, Raichu, Sandslash, Parasect, Lickitung, Magneton, Dodrio, RHYDON, VICTREEBEL, GOLBAT, KADABRA.
-- **Pokémon Tower:** GASTLY, CUBONE.
-- **Mt. Moon:** ZUBAT, SANDSHREW, PARAS.
-
-## C. Key Trainer Rosters
-- **Nurse Joy (Fuchsia Pokecenter):** KANGASKHAN (Lv 65): DOUBLE-EDGE, DOUBLE TEAM; SNORLAX (Lv 65): ICE BEAM, REST
 
 # III. World Data
 
