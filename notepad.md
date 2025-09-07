@@ -51,7 +51,7 @@
 
 ## A. Defined Tools
 - **menu_analyzer:** Parses menu screen text to identify options and cursor position.
-- **select_menu_option:** Calculates button presses to navigate menus based on `menu_analyzer` output.
+- **select_battle_option:** Calculates button presses to navigate menus based on `menu_analyzer` output.
 - **automated_path_navigator:** Finds the shortest path between two points on the current map.
 - **automated_battle_move_selector:** Calculates button presses to select a move in battle.
 
@@ -71,7 +71,7 @@
   4. The tool's final output will be a JSON object containing the `path_plan` array for the movement and two `define_map_marker` tool call definitions (one for departure, one for arrival) that can be executed on a subsequent turn.
 - **Team Builder Agent:** An agent that can analyze my entire PC box and suggest an optimal team for a specific upcoming challenge.
 
-# V. Completed Gym Leader Rematches
+# V. Past Major Victories
 
 ### 1. Sabrina (Saffron City Gym)
 - **Roster:**
