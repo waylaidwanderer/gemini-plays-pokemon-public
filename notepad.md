@@ -75,3 +75,13 @@
 - **Route 2 Partitions:** Route 2 is split into at least two disconnected sections. The western area, accessible after cutting a tree, is separate from the eastern path that connects Viridian Forest, Diglett's Cave, and Pewter City.
 - **Hypothesis 4 (Invalidated):** The Pewter Museum of Science contains clues about where to find a fossil.
   - **Test Result:** Explored both floors of the museum, examined all exhibits, and spoke to relevant NPCs. No information about finding new fossils was discovered.
+
+# VI. Game Mechanics & Tile Properties
+
+## A. Tile Traversal Rules
+- **ground:** Standard walkable tile.
+- **impassable:** Cannot be entered. Walls, rocks, etc.
+- **elevated_ground:** Walkable, but can only be accessed from `steps` tiles or other `elevated_ground` tiles.
+- **steps:** Allows movement between `ground` and `elevated_ground`.
+- **ladder_up / ladder_down:** Acts as a warp to a different floor. Walkable.
+- **ledge:** A one-way obstacle. Can be jumped down (from Y-1 to Y+2 in one move), but not climbed up. Acts as a wall from below or the sides.
