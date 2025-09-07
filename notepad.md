@@ -74,17 +74,4 @@
 
 ## D. Future Development Ideas
 - **GymLeaderStrategist Agent:** An agent that takes a gym leader's known roster and my current party to suggest an optimal team order before the battle begins.
-
-# VI. Game Mechanics & Rules
-
-## A. Tile Traversal Rules (Verified)
-- **ground:** Standard walkable tile.
-- **grass:** Walkable tile where wild Pokémon encounters can occur.
-- **water:** Can only be crossed using the HM Surf.
-- **impassable:** A solid barrier like a wall, tree, or object. Cannot be entered.
-- **cuttable:** A small tree that can be removed with the HM Cut. Becomes 'ground' after use but respawns on map change.
-- **ledge:** Can only be jumped down from above (Y-1). Jumping moves the player to Y+2 in one step. Acts as a wall from below and sides.
-- **ladder_up / ladder_down:** Acts as a warp tile, moving the player between floors.
-- **steps:** The only tile type that allows movement between `ground` and `elevated_ground`.
-- **elevated_ground:** Walkable ground at a higher elevation, only accessible via `steps`.
 - **select_party_member Tool:** A tool that takes the party list and a target Pokémon's name to automate selecting them from the party menu.
