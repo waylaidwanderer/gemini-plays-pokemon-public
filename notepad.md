@@ -75,3 +75,5 @@
 ## D. Future Development Ideas
 - **GymLeaderStrategist Agent:** An agent that takes a gym leader's known roster and my current party to suggest an optimal team order before the battle begins.
 - **select_party_member Tool:** A tool that takes the party list and a target Pokémon's name to automate selecting them from the party menu.
+- **navigation_diagnostics_agent:** An agent that takes a failed pathfinder output and the current player state (walking/surfing) to suggest a root cause.
+- **automated_path_navigator Refinement:** Instead of a separate tool, modify the existing pathfinder to accept a `movement_state` argument ('walking' or 'surfing') to handle different traversable tile sets.
