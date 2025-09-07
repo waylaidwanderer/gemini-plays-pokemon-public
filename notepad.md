@@ -160,3 +160,6 @@
 - **ledge:** A one-way obstacle. Can be jumped down (from Y-1 to Y+2 in one move), but not climbed up. Acts as a wall from below or the sides.
 - **grass:** Tall grass where wild Pokémon can be encountered. Walkable like `ground`.
 - **unknown:** Tile type has not been visually confirmed.
+
+## C. Core Lessons & Recurring Failures
+- **Dead End Definition:** A map is a dead end ONLY if it has 1 or fewer reachable exits (warps/connections) AND 0 reachable unseen tiles. My previous understanding was incorrect, leading to misclassification of Mt. Moon. I must be more rigorous in this calculation.
