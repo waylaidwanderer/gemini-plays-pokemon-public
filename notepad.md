@@ -87,3 +87,9 @@
 
 ## C. Core Lessons & Recurring Failures
 - **Dead End Definition:** A map is a dead end ONLY if it has 1 or fewer reachable exits (warps/connections) AND 0 reachable unseen tiles. My previous understanding was incorrect, leading to misclassification of Mt. Moon. I must be more rigorous in this calculation.
+
+## B. Pewter Museum Puzzle (Active)
+- **Hypothesis 1 (Failed):** Interacting with only the Aerodactyl Fossil (3, 4) solves the puzzle.
+- **Hypothesis 2 (Failed):** Interacting with the Kabutops Fossil (3, 7) after the Aerodactyl Fossil solves the puzzle.
+- **Hypothesis 3 (Active - From Agent):** The scientist at (16, 3) must be spoken to again *after* Pikachu disappears.
+  - **Test Plan:** Navigate to the scientist at (16, 3) and interact with him.
