@@ -77,3 +77,14 @@
 - VERMILION CITY
 - LAVENDER TOWN
 - **Lesson: Mt. Moon Partitions:** The lower floors of Mt. Moon are heavily partitioned. My pathfinding tools were failing because I was trying to navigate between disconnected areas. I repeatedly misidentified these partitions as dead ends, failing to account for all reachable warps. I must trust system data on reachability over my own flawed manual assessments or old markers.
+
+# VI. Game Mechanics & Rules
+
+## A. Tile Traversal Rules (Verified)
+- **ground:** Standard walkable tile.
+- **grass:** Walkable tile where wild Pokémon encounters can occur.
+- **impassable:** A solid barrier like a wall, tree, or object. Cannot be entered.
+- **ledge:** Can only be jumped down from above (Y-1). Jumping moves the player to Y+2 in one step. Acts as a wall from below and sides.
+- **ladder_up / ladder_down:** Acts as a warp tile, moving the player between floors.
+- **steps:** The only tile type that allows movement between `ground` and `elevated_ground`.
+- **elevated_ground:** Walkable ground at a higher elevation, only accessible via `steps`.
