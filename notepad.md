@@ -65,7 +65,3 @@
   3. Stand adjacent to the Scientist at (8, 6).
   4. Interact with the (now invisible) follower Pikachu, causing it to disappear again.
   5. This sequence causes the Youngster blocking the path at (2, 8) to move, opening the way to the other side of the museum.
-
-## C. Future Development Ideas (Post-Assessment)
-- **GymLeaderStrategist Agent:** An agent that takes a gym leader's known roster and my current party to suggest an optimal team order before the battle begins.
-- **select_party_member Tool:** A tool that takes the party list and a target Pokémon's name to automate selecting them from the party menu.
