@@ -48,18 +48,21 @@
 
 # IV. Tool & Agent Development
 
-## A. Defined Tools
+## A. Defined Tools & Agents
+### Custom Tools
 - **menu_analyzer:** Parses menu screen text to identify options and cursor position.
-- **select_battle_option:** Calculates button presses to navigate menus based on `menu_analyzer` output.
 - **automated_path_navigator:** Finds the shortest path between two points on the current map.
+
+### System Tools (Cannot be modified/deleted)
+- **select_menu_option:** Calculates button presses to navigate menus based on `menu_analyzer` output.
+- **select_battle_option:** Automatically selects a main battle menu option (FIGHT, PKMN, ITEM, RUN).
 - **automated_battle_move_selector:** Calculates button presses to select a move in battle.
 
-## B. Defined Agents
+### Custom Agents
 - **stuck_navigator_agent:** Suggests high-level navigational pivots when pathfinding fails.
-- **battle_strategist_agent:** Recommends the best action (move or switch) during a battle.
 - **puzzle_solver_agent:** Generates new hypotheses for complex puzzles.
 - **notepad_refactor_agent:** Generates `replace` operations for major notepad reorganization.
-- **major_battle_strategist_agent:** Analyzes an opponent's known roster and the player's current party to suggest an optimal team order and lead Pokémon for any major battle.
+- **comprehensive_battle_agent:** Provides both pre-battle team composition advice and turn-by-turn tactical recommendations.
 
 ## C. Future Development Ideas
 - **Exploration Master Tool:** A high-level tool to automate the maze exploration loop.
