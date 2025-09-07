@@ -38,7 +38,7 @@
 # III. Current Objectives & Hypotheses
 
 ## A. Saffron Gym Maze
-**Status:** Stuck, but systematically mapping connections.
+**Status:** Solved. The path to the final room is via the warp at (6, 10), which leads to (10, 6).
 **Goal:** Find the warp that connects to the final area with Sabrina and the exit at (9, 18).
 **Method:** Systematically explore every warp departure point until all connections are mapped. Use the `stuck_navigator_agent` to identify the next unexplored, reachable warp. If all are explored, begin systematic re-exploration.
 **Next Step:** Continue systematic re-exploration from current position.
