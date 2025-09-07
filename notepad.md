@@ -52,7 +52,7 @@
 - **Hypothesis 3 (Stalled):** The fossil is not located in Mt. Moon or the immediate surrounding areas. The `stuck_navigator_agent` suggests this goal is a distraction from the main story path. All leads are exhausted for now.
 
 ## C. Core Lessons & Recurring Failures
-- **Dead End Definition:** A map is a dead end ONLY if it has 1 or fewer reachable exits (warps/connections) AND 0 reachable unseen tiles. My previous understanding was incorrect, leading to misclassification of Mt. Moon. I must be more rigorous in this calculation.
+- **Dead End Definition:** A map is a dead end ONLY if it has 1 or fewer reachable exits (warps/connections) AND 0 reachable unseen tiles. I must be more rigorous in this calculation. A recent warning confirmed this, as the museum has 2 reachable warps and is not a dead end.
 
 ## B. Cerulean City Officer Jenny Puzzle
 - **Obstacle:** Officer Jenny blocks the path east out of Cerulean City.
