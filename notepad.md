@@ -29,14 +29,10 @@
 ## B. Future Development Ideas
 - **GymLeaderStrategist Agent:** An agent that takes a gym leader's known roster and my current party to suggest an optimal team order before the battle begins.
 
-# VI. Game Mechanics & Tile Properties
-
 # V. Tool & Agent Development
 
 ## B. Future Development Ideas
 - **GymLeaderStrategist Agent:** An agent that takes a gym leader's known roster and my current party to suggest an optimal team order before the battle begins.
-
-# VI. Game Mechanics & Tile Properties
 
 # VI. Game Mechanics & Tile Properties
 
