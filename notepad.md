@@ -163,3 +163,6 @@
 
 ## C. Core Lessons & Recurring Failures
 - **Dead End Definition:** A map is a dead end ONLY if it has 1 or fewer reachable exits (warps/connections) AND 0 reachable unseen tiles. My previous understanding was incorrect, leading to misclassification of Mt. Moon. I must be more rigorous in this calculation.
+
+## C. Core Lessons & Recurring Failures
+- **Dead End Definition:** A map is a dead end ONLY if it has 1 or fewer reachable exits (warps/connections) AND 0 reachable unseen tiles. My previous understanding was incorrect, leading to misclassification of Mt. Moon. I must be more rigorous in this calculation.
