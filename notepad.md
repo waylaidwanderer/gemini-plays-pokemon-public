@@ -35,32 +35,17 @@
 - **Hypothesis 2 (Active):** Interacting with *both* the Aerodactyl Fossil (3, 4) and the Kabutops Fossil (3, 7) is required.
   - **Test Plan:** Interact with the Kabutops Fossil, then check if the path to the gym exit at (17, 8) is open.
 
-# III. World Data
+# IV. Game Mechanics & Tile Properties
 
-## A. Solved Puzzles & Key Events
-- **Snorlax (Routes 11 & 12):** Awakened using the POKé FLUTE from the ITEM menu.
-- **Pokémon Tower Ghost:** Used SILPH SCOPE to reveal the ghost.
-- **Seafoam Islands Current:** Solved multi-floor boulder puzzle to stop the strong water current.
-
-## B. Obstacles & Solutions
-- **Rocket Grunt (Mt. Moon B2F at 30, 12):** Confirmed via dialogue that he is blocking the path south and demands a fossil to pass.
-- **Officer Jenny (Cerulean City):** Blocking path east. All local hypotheses have failed. The trigger is likely elsewhere.
-
-# IV. Puzzles & Hypotheses
-
-## A. Mt. Moon Fossil Puzzle (Stalled)
-- **Obstacle:** Rocket Grunt at (30, 12) on Mt. Moon B2F blocks the path south, demanding a fossil.
-- **Status:** All leads are exhausted for now. This goal is a distraction from the main story path.
-
-## B. Cerulean City Officer Jenny Puzzle (Deprioritized)
-- **Obstacle:** Officer Jenny blocks the path east out of Cerulean City.
-- **Status:** The `stuck_navigator_agent` suggests this path requires the HM 'Cut' and I should explore north first.
-
-## C. Pewter Museum Exploration
-- **Hypothesis 1:** The Pewter Museum of Science contains clues about where to find a fossil.
-  - **Test Plan:** Explore both floors of the museum, examine all exhibits, and speak to relevant NPCs.
-- **Hypothesis 2 (Counter-Hypothesis):** The museum is an optional area with no critical path information.
-  - **Test Plan:** If a full exploration yields no key items or direct clues for progression, I will assume it's optional and focus on finding the exit from Pewter City.
+## A. Tile Traversal Rules
+- **ground:** Standard walkable tile.
+- **impassable:** Cannot be entered. Walls, rocks, etc.
+- **elevated_ground:** Walkable, but can only be accessed from `steps` tiles or other `elevated_ground` tiles.
+- **steps:** Allows movement between `ground` and `elevated_ground`.
+- **ladder_up / ladder_down:** Acts as a warp to a different floor. Walkable.
+- **ledge:** A one-way obstacle. Can be jumped down (from Y-1 to Y+2 in one move), but not climbed up. Acts as a wall from below or the sides.
+- **grass:** Tall grass where wild Pokémon can be encountered. Walkable like `ground`.
+- **unknown:** Tile type has not been visually confirmed.
 
 # V. Tool & Agent Development
 
@@ -89,32 +74,17 @@
 - **Hypothesis 2 (Active):** Interacting with *both* the Aerodactyl Fossil (3, 4) and the Kabutops Fossil (3, 7) is required.
   - **Test Plan:** Interact with the Kabutops Fossil, then check if the path to the gym exit at (17, 8) is open.
 
-# III. World Data
+# IV. Game Mechanics & Tile Properties
 
-## A. Solved Puzzles & Key Events
-- **Snorlax (Routes 11 & 12):** Awakened using the POKé FLUTE from the ITEM menu.
-- **Pokémon Tower Ghost:** Used SILPH SCOPE to reveal the ghost.
-- **Seafoam Islands Current:** Solved multi-floor boulder puzzle to stop the strong water current.
-
-## B. Obstacles & Solutions
-- **Rocket Grunt (Mt. Moon B2F at 30, 12):** Confirmed via dialogue that he is blocking the path south and demands a fossil to pass.
-- **Officer Jenny (Cerulean City):** Blocking path east. All local hypotheses have failed. The trigger is likely elsewhere.
-
-# IV. Puzzles & Hypotheses
-
-## A. Mt. Moon Fossil Puzzle (Stalled)
-- **Obstacle:** Rocket Grunt at (30, 12) on Mt. Moon B2F blocks the path south, demanding a fossil.
-- **Status:** All leads are exhausted for now. This goal is a distraction from the main story path.
-
-## B. Cerulean City Officer Jenny Puzzle (Deprioritized)
-- **Obstacle:** Officer Jenny blocks the path east out of Cerulean City.
-- **Status:** The `stuck_navigator_agent` suggests this path requires the HM 'Cut' and I should explore north first.
-
-## C. Pewter Museum Exploration
-- **Hypothesis 1:** The Pewter Museum of Science contains clues about where to find a fossil.
-  - **Test Plan:** Explore both floors of the museum, examine all exhibits, and speak to relevant NPCs.
-- **Hypothesis 2 (Counter-Hypothesis):** The museum is an optional area with no critical path information.
-  - **Test Plan:** If a full exploration yields no key items or direct clues for progression, I will assume it's optional and focus on finding the exit from Pewter City.
+## A. Tile Traversal Rules
+- **ground:** Standard walkable tile.
+- **impassable:** Cannot be entered. Walls, rocks, etc.
+- **elevated_ground:** Walkable, but can only be accessed from `steps` tiles or other `elevated_ground` tiles.
+- **steps:** Allows movement between `ground` and `elevated_ground`.
+- **ladder_up / ladder_down:** Acts as a warp to a different floor. Walkable.
+- **ledge:** A one-way obstacle. Can be jumped down (from Y-1 to Y+2 in one move), but not climbed up. Acts as a wall from below or the sides.
+- **grass:** Tall grass where wild Pokémon can be encountered. Walkable like `ground`.
+- **unknown:** Tile type has not been visually confirmed.
 
 # V. Tool & Agent Development
 
