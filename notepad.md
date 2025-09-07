@@ -87,3 +87,4 @@
 - **ladder_up / ladder_down:** Acts as a warp tile, moving the player between floors.
 - **steps:** The only tile type that allows movement between `ground` and `elevated_ground`.
 - **elevated_ground:** Walkable ground at a higher elevation, only accessible via `steps`.
+- **select_party_member Tool:** A tool that takes the party list and a target Pokémon's name to automate selecting them from the party menu.
