@@ -85,3 +85,8 @@
 - **steps:** Allows movement between `ground` and `elevated_ground`.
 - **ladder_up / ladder_down:** Acts as a warp to a different floor. Walkable.
 - **ledge:** A one-way obstacle. Can be jumped down (from Y-1 to Y+2 in one move), but not climbed up. Acts as a wall from below or the sides.
+- **grass:** Tall grass where wild Pokémon can be encountered. Walkable like `ground`.
+
+## D. Agent Usage Notes
+- Reminder: Use existing agents like `puzzle_solver_agent` more consistently for complex problems like the fossil hunt, rather than relying solely on manual hypothesis generation.
+- **TeamBuilder Agent Idea:** An agent that takes my PC box contents and a Gym Leader's roster (from my notes) to suggest an optimal team composition and move order.
