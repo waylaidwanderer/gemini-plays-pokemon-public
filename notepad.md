@@ -72,6 +72,7 @@
 - **Pokémon Switcher Tool:** A high-level tool that automates the entire process of switching Pokémon.
 - **Battle State Parser Tool:** A tool to automatically parse screen text during a battle to generate the JSON input for the `comprehensive_battle_agent`.
 - **Fly Automator Tool:** A high-level tool that takes a destination city name as input and automatically executes the entire sequence of menu navigation required to fly there.
+- **Maze Navigator Automator Tool:** A high-level tool that takes the output of `stuck_navigator_agent` and automatically executes the navigation to the suggested warp, streamlining maze exploration.
 
 # V. Major Battle Data
 
@@ -103,4 +104,3 @@
     4. Enter Cerulean Cave and navigate to Mewtwo's location.
     5. Save before initiating the battle.
     6. Inflict status, lower HP, and begin throwing Ultra Balls.
-- **Maze Navigator Automator Tool:** A high-level tool that takes the output of `stuck_navigator_agent` and automatically executes the navigation to the suggested warp, streamlining maze exploration.
