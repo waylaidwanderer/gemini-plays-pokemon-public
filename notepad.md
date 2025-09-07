@@ -160,6 +160,3 @@
 - **ledge:** A one-way obstacle. Can be jumped down (from Y-1 to Y+2 in one move), but not climbed up. Acts as a wall from below or the sides.
 - **grass:** Tall grass where wild Pokémon can be encountered. Walkable like `ground`.
 - **unknown:** Tile type has not been visually confirmed.
-
-## B. Future Development Ideas
-- **notepad_refactor_agent:** An agent that takes large blocks of old and new text and generates a series of small, valid `replace` operations to perform a major notepad reorganization without triggering data loss safeguards.
