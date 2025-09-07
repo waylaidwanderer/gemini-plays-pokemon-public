@@ -86,3 +86,23 @@
     - JYNX (Lv 64) - Moves: BLIZZARD, BUBBLEBEAM, DREAM EATER, LOVELY KISS
     - GENGAR (Lv 64) - Moves: NIGHT SHADE, PSYCHIC
     - ALAKAZAM (Lv 65) - Moves: THUNDER WAVE, PSYCHIC
+
+# VI. Long-Term Plans & Strategies
+
+## A. Operation: Capture Mewtwo
+- **Location:** Cerulean Cave (accessed via Cerulean Gym).
+- **Team Strategy:**
+    - **Status Inflictor:** TITANESS (Body Slam for paralysis) or SPARKY (Thunder Wave). Sleep is preferable if available. NIGHTSHADE's Sleep Powder could work if it can survive.
+    - **Damage Dealer:** REVENANT (Bonemerang/Earthquake) to lower Mewtwo's health carefully. Need to avoid a critical hit KO.
+    - **Utility:** A Pokémon with Surf is required for cave navigation (TITANESS or NEPTUNE).
+- **Required Items:**
+    - Purchase a large stock of Ultra Balls from a Poké Mart.
+    - Bring Max Potions and Full Heals for the battle.
+    - The MASTER BALL is the final fallback option.
+- **Execution Plan:**
+    1. Heal party at a Pokémon Center.
+    2. Fly to a city with a Mart (like Celadon) to stock up on Ultra Balls.
+    3. Fly to Cerulean City.
+    4. Enter Cerulean Cave and navigate to Mewtwo's location.
+    5. Save before initiating the battle.
+    6. Inflict status, lower HP, and begin throwing Ultra Balls.
