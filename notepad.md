@@ -53,6 +53,3 @@
   3. Stand adjacent to the Scientist at (8, 6).
   4. Interact with the (now invisible) follower Pikachu, causing it to disappear again.
   5. This sequence causes the Youngster blocking the path at (2, 8) to move, opening the way to the other side of the museum.
-
-## C. Game Mechanics & Quirks
-- **Silent Healing:** Sometimes, interacting with Nurse Joy will heal the party without displaying any dialogue text. The healing animation and sound still occur. Check party status to confirm healing.
