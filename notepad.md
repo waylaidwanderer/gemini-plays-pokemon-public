@@ -60,7 +60,7 @@
 - **battle_strategist_agent:** Recommends the best action (move or switch) during a battle.
 - **puzzle_solver_agent:** Generates new hypotheses for complex puzzles.
 - **notepad_refactor_agent:** Generates `replace` operations for major notepad reorganization.
-- **gym_leader_strategist_agent:** Suggests an optimal team order for Gym Leader battles.
+- **major_battle_strategist_agent:** Analyzes an opponent's known roster and the player's current party to suggest an optimal team order and lead Pokémon for any major battle.
 
 ## C. Future Development Ideas
 - **General Warp Pathfinder Tool:** A more generalized version of the `saffron_gym_maze_solver` that can work on any map with complex warp puzzles.
