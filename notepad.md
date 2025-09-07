@@ -54,10 +54,9 @@
   4. Interact with the (now invisible) follower Pikachu, causing it to disappear again.
   5. This sequence causes the Youngster blocking the path at (2, 8) to move, opening the way to the other side of the museum.
 
-# VII. Future Development & Testing
-
-## A. Future Development Ideas
+## B. Future Development & Testing
+### Development Ideas
 - **Team Builder Agent:** An agent that can analyze my entire PC box and suggest an optimal team for a specific upcoming challenge, like a Gym Leader or the Elite Four.
 
-## B. Untested Hypotheses
+### Untested Hypotheses
 - **Silent Healing:** I observed that my party was healed at the Pewter Pokémon Center without any confirmation dialogue. Hypothesis: This is a consistent mechanic. Test Plan: Next time I heal my Pokémon, I will pay close attention to the dialogue flow and see if the healing happens silently again. I will try this at two different Pokémon Centers to verify.
