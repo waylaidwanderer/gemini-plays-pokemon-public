@@ -58,12 +58,6 @@
 - **grass:** Tall grass where wild Pokémon can be encountered. Walkable like `ground`.
 - **unknown:** Tile type has not been visually confirmed.
 
-## C. Core Lessons & Recurring Failures
-- **Dead End Definition:** A map is a dead end ONLY if it has 1 or fewer reachable exits (warps/connections) AND 0 reachable unseen tiles. My previous understanding was incorrect, leading to misclassification of Mt. Moon. I must be more rigorous in this calculation.
-
-## C. Core Lessons & Recurring Failures
-- **Dead End Definition:** A map is a dead end ONLY if it has 1 or fewer reachable exits (warps/connections) AND 0 reachable unseen tiles. My previous understanding was incorrect, leading to misclassification of Mt. Moon. I must be more rigorous in this calculation.
-
 ## B. Pewter Museum Puzzle (Solved)
 - **Solution:** The puzzle requires a specific sequence of events mimicking the Cerulean Gym puzzle.
   1. Interact with the Aerodactyl Fossil on Museum 1F, which causes the follower Pikachu to disappear.
