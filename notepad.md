@@ -73,6 +73,7 @@
 - **Battle State Parser Tool:** A tool to automatically parse screen text during a battle to generate the JSON input for the `comprehensive_battle_agent`.
 - **Fly Automator Tool:** A high-level tool that takes a destination city name as input and automatically executes the entire sequence of menu navigation required to fly there.
 - **Maze Navigator Automator Tool:** A high-level tool that takes the output of `stuck_navigator_agent` and automatically executes the navigation to the suggested warp, streamlining maze exploration.
+- **Item Buyer Tool:** A high-level tool that can navigate to a specific shop, interact with the correct clerk, and purchase a specified quantity of an item.
 
 # V. Major Battle Data
 
