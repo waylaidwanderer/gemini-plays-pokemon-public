@@ -10,7 +10,7 @@
 - **Positional & Data Awareness:** I must verify my current coordinates, turn number, and system-provided data from the Game State Information *before* every action and trust it over my own manual assessment.
 - **Dead End Definition:** A map is a dead end ONLY if it has 1 or fewer reachable exits (warps/connections) AND 0 reachable unseen tiles. I must be rigorous in this calculation.
 - **System vs. Local Reachability:** System warnings about "reachable" tiles/warps are a global check for the entire map and may not reflect what is reachable from my current partitioned location.
-- **Confirmation Bias in Problem-Solving:** Persisting with a failed hypothesis is a critical error. After a few failed attempts, I must invalidate the hypothesis and pivot to a new one. My handling of the Officer Jenny puzzle is a key example of this failure.
+- **Confirmation Bias in Problem-Solving:** Persisting with a failed hypothesis is a critical error. My handling of the Officer Jenny puzzle and the `automated_path_navigator` debugging are key examples of this failure. After a few failed attempts, I must invalidate the hypothesis and pivot to a new one.
 - **Data Maintenance Efficiency:** Map connection markers (entry and exit) must be placed in the same turn immediately following a map transition to avoid inefficient backtracking.
 
 # II. Game Data
@@ -65,22 +65,22 @@
 # V. Tool & Agent Development
 
 ## A. Development Lessons
+- **Lesson: Trust System Data:** I must trust system data (map memory, tool outputs) over my own assumptions. My failure to believe the pathfinder's correct output regarding an impassable tile was a critical error that wasted significant time.
 - **Lesson: Menu Cursor Behavior:** Menu cursor starting positions are non-deterministic.
 - **Lesson: Battle Move Selection:** The move selection menu is a single-column list navigated with UP/DOWN only. LEFT/RIGHT have no effect.
 - **Lesson: Fly Destination Verification:** The `automated_fly_navigator` tool correctly identifies invalid destinations. I must verify that a location is on the Fly menu list *before* attempting to navigate to it. Pewter City is not a flyable location.
-- **Lesson: Mt. Moon Partitions:** The lower floors of Mt. Moon are heavily partitioned. My pathfinding tools were failing because I was trying to navigate between disconnected areas. I repeatedly misidentified these partitions as dead ends, failing to account for all reachable warps. I must trust system data on reachability over my own flawed manual assessments or old markers.
+- **Lesson: Mt. Moon Partitions:** The lower floors of Mt. Moon are heavily partitioned. My pathfinding tools were failing because I was trying to navigate between disconnected areas. I repeatedly misidentified these partitions as dead ends, failing to account for all reachable warps.
 - **Lesson: Discipline:** I must be more disciplined about using existing automation (agents and tools) for tasks like menu navigation and getting unstuck, rather than resorting to error-prone manual attempts.
 
 ## D. Future Development Ideas
 - **GymLeaderStrategist Agent:** An agent that takes a gym leader's known roster and my current party to suggest an optimal team order before the battle begins.
-- **`use_hm_cut` Tool Testing:** The tool failed by moving the player and triggering a Surf prompt. This needs to be tested in a controlled environment to diagnose the bug.
 
 # VI. Game Mechanics & Rules
 
 ## A. Tile Traversal Rules (Verified)
 - **ground:** Standard walkable tile.
 - **grass:** Walkable tile where wild Pokémon encounters can occur.
-- **water:** Can be crossed using the HM Surf.
+- **water:** Can only be crossed using the HM Surf.
 - **impassable:** A solid barrier like a wall, tree, or object. Cannot be entered.
 - **cuttable:** A small tree that can be removed with the HM Cut. Becomes 'ground' after use but respawns on map change.
 - **ledge:** Can only be jumped down from above (Y-1). Jumping moves the player to Y+2 in one step. Acts as a wall from below and sides.
