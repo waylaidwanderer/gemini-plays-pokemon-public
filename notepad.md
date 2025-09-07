@@ -70,6 +70,8 @@
 - **Fly Automator Tool:** A high-level tool that takes a destination city name as input and automatically executes the entire sequence of menu navigation required to fly there.
 - **Maze Navigator Automator Tool:** A high-level tool that takes the output of `stuck_navigator_agent` and automatically executes the navigation to the suggested warp, streamlining maze exploration.
 - **Item Buyer Tool:** A high-level tool that can navigate to a specific shop, interact with the correct clerk, and purchase a specified quantity of an item.
+- **Store Navigator Agent:** A high-level agent to devise exploration strategies for multi-floor buildings like department stores or Silph Co.
+- **Elevator Automator Tool:** A tool that takes a target floor number and automates the button presses required to select it in the elevator menu.
 
 # V. Major Battle Data
 
