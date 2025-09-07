@@ -10,7 +10,7 @@
 - **Positional & Data Awareness:** I must verify my current coordinates, turn number, and system-provided data from the Game State Information *before* every action and trust it over my own manual assessment.
 - **Dead End Definition:** A map is a dead end ONLY if it has 1 or fewer reachable exits (warps/connections) AND 0 reachable unseen tiles. I must be rigorous in this calculation.
 - **System vs. Local Reachability:** System warnings about "reachable" tiles/warps are a global check for the entire map and may not reflect what is reachable from my current partitioned location.
-- **Confirmation Bias in Problem-Solving:** Persisting with a failed hypothesis is a critical error. My handling of the Officer Jenny puzzle and the `automated_path_navigator` debugging are key examples of this failure. After a few failed attempts, I must invalidate the hypothesis and pivot to a new one.
+- **Confirmation Bias in Problem-Solving:** Persisting with a failed hypothesis is a critical error. After a few failed attempts, I must invalidate the hypothesis and pivot to a new one.
 - **Data Maintenance Efficiency:** Map connection markers (entry and exit) must be placed in the same turn immediately following a map transition to avoid inefficient backtracking.
 
 # VI. Game Mechanics & Tile Properties
@@ -43,7 +43,7 @@
 - **Positional & Data Awareness:** I must verify my current coordinates, turn number, and system-provided data from the Game State Information *before* every action and trust it over my own manual assessment.
 - **Dead End Definition:** A map is a dead end ONLY if it has 1 or fewer reachable exits (warps/connections) AND 0 reachable unseen tiles. I must be rigorous in this calculation.
 - **System vs. Local Reachability:** System warnings about "reachable" tiles/warps are a global check for the entire map and may not reflect what is reachable from my current partitioned location.
-- **Confirmation Bias in Problem-Solving:** Persisting with a failed hypothesis is a critical error. My handling of the Officer Jenny puzzle and the `automated_path_navigator` debugging are key examples of this failure. After a few failed attempts, I must invalidate the hypothesis and pivot to a new one.
+- **Confirmation Bias in Problem-Solving:** Persisting with a failed hypothesis is a critical error. After a few failed attempts, I must invalidate the hypothesis and pivot to a new one.
 - **Data Maintenance Efficiency:** Map connection markers (entry and exit) must be placed in the same turn immediately following a map transition to avoid inefficient backtracking.
 
 # III. World Data
@@ -103,7 +103,7 @@
 - **Positional & Data Awareness:** I must verify my current coordinates, turn number, and system-provided data from the Game State Information *before* every action and trust it over my own manual assessment.
 - **Dead End Definition:** A map is a dead end ONLY if it has 1 or fewer reachable exits (warps/connections) AND 0 reachable unseen tiles. I must be rigorous in this calculation.
 - **System vs. Local Reachability:** System warnings about "reachable" tiles/warps are a global check for the entire map and may not reflect what is reachable from my current partitioned location.
-- **Confirmation Bias in Problem-Solving:** Persisting with a failed hypothesis is a critical error. My handling of the Officer Jenny puzzle and the `automated_path_navigator` debugging are key examples of this failure. After a few failed attempts, I must invalidate the hypothesis and pivot to a new one.
+- **Confirmation Bias in Problem-Solving:** Persisting with a failed hypothesis is a critical error. After a few failed attempts, I must invalidate the hypothesis and pivot to a new one.
 - **Data Maintenance Efficiency:** Map connection markers (entry and exit) must be placed in the same turn immediately following a map transition to avoid inefficient backtracking.
 
 # III. World Data
