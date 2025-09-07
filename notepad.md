@@ -71,3 +71,14 @@
     - JYNX (Lv 64) - Moves: BLIZZARD
     - GENGAR (Lv 64) - Moves: NIGHT SHADE
     - ALAKAZAM (Lv 65) - Moves: THUNDER WAVE, PSYCHIC
+
+# VII. Active Puzzles & Exploration Plans
+
+## A. Saffron Gym Maze
+**Status:** Stuck in a disconnected partition.
+**Goal:** Find the warp that connects the two maze partitions to reach the exit at (9, 18).
+**Method:** Systematically explore every warp departure point until all connections are mapped. Use the `stuck_navigator_agent` to identify the next unexplored, reachable warp.
+**Next Step:** Use `stuck_navigator_agent` from current position (12, 6) to find the next departure point.
+
+## B. Next Gym Leader Rematch: Erika
+**Plan:** Before challenging Erika, use the `gym_leader_strategist_agent` to determine the optimal team composition and lead Pokémon.
