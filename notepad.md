@@ -71,8 +71,10 @@
 - **battle_anomaly_detector_agent:** Analyzes repeated battle events for hidden mechanics.
 
 ## B. Future Development Ideas
-- **`switch_advisor_agent`:** A specialized agent to recommend the optimal Pokémon to switch to during battle, considering type matchups, HP, and status conditions.
-- **`battle_action_agent`:** A high-level agent that takes a simple command like 'switch to REVENANT' and orchestrates the necessary sequence of tool calls (`select_battle_option`, `menu_analyzer`, `select_menu_option`, etc.) to execute it, streamlining complex battle menu navigation.
+- **`comprehensive_battle_agent` (Enhancements):**
+    - **Run vs. Fight Logic:** Add a module to decide whether to run from or fight a wild encounter based on party health, goal priority, and opponent threat level.
+    - **Switch Advisor:** Incorporate logic to recommend the optimal Pokémon to switch to mid-battle, considering type matchups, HP, and status.
+    - **Action Orchestrator:** Develop a high-level function that takes simple commands (e.g., 'switch to REVENANT') and orchestrates the necessary sequence of tool calls to execute it, streamlining complex menu navigation.
 
 # V. Major Battle Data
 
