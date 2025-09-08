@@ -38,14 +38,14 @@
 # III. Current Objectives & Hypotheses
 
 ## A. Current Main Objective
-- **Heal Party:** My party is in critical condition, with one Pokémon fainted. I must find an exit from Cerulean Cave and get to a Pokémon Center.
+- **Heal Party:** My party is in critical condition, with two Pokémon fainted. I must find an exit from Cerulean Cave and get to a Pokémon Center.
 - **Find Exit:** The immediate goal is to navigate the cave's floors to find the main entrance/exit.
 
 ## B. Active Hypotheses & Test Plans
-- **Menu Cursor Reset:** Hypothesis: The game resets the cursor to the first Pokémon in the list in the 'Bring out which POKéMON?' menu if a turn passes without a selection. Test Plan: Next time I am in this specific menu, I will manually move the cursor to a different Pokémon, wait one turn, and observe if the cursor position changes.
+- **Cerulean Cave 'Trap' Battle:** Hypothesis: The wild Wigglytuff encounter on Cerulean Cave 2F is a 'trap' battle where running is impossible. This is based on 10 consecutive failed escape attempts. Test Plan: This hypothesis was tested and confirmed by switching to an offensive strategy, which successfully ended the encounter.
 - **Light Screen Duration:** Hypothesis: Light Screen lasts for 5 turns, as is standard. Test Plan: In a future battle, count the turns after using Light Screen and watch for the 'Light Screen wore off!' message to confirm its duration.
 - **Respawn Point:** Hypothesis: The game sets the last used Pokémon Center as the respawn point after a blackout. Test Plan: Heal at a new Pokémon Center, then intentionally black out to a weak wild Pokémon and observe the respawn location.
-- **Cerulean Cave Exit Path:** Hypothesis: The ladder at (8, 2) on 1F is the next step in the path to the main cave area and the exit. Test Plan: Navigate to and use the ladder at (8, 2).
+- **Cerulean Cave Exit Path:** Hypothesis: The ladder at (20, 8) on 2F is the next step in the path to the main cave area and the exit. Test Plan: Navigate to and use the ladder at (20, 8).
 
 ## C. Disproven Hypotheses
 - **Menu Selection Bug:** Hypothesis: Selecting a Pokémon in the 'Bring out which POKéMON?' menu consistently opens the sub-menu for a different Pokémon. **(Disproven on Turn 197844)** Test: Selected REVENANT. Result: REVENANT's sub-menu opened. Conclusion: The bug is not a simple mis-selection of an adjacent Pokémon.
@@ -65,9 +65,9 @@
 - **notepad_refactor_agent:** Generates `replace` operations for major notepad reorganization.
 - **comprehensive_battle_agent:** Provides pre-battle and in-battle tactical advice.
 
-## B. Tool Development Ideas
+## B. Tool & Agent Development Ideas
 - **auto_flee_sequence:** A more advanced tool that could handle the multi-turn process of running from a battle, from the initial text prompt to completion.
-- **path_navigator_diagnostics:** Refine `automated_path_navigator` to provide specific reasons for path failure (e.g., 'Path blocked by water, requires Surf') instead of a generic 'unreachable partition' message.
+- **battle_anomaly_detector_agent:** New agent idea. Should analyze battle event logs to determine if repeated failures (like the 10 failed run attempts vs. Wigglytuff) are due to extreme RNG or a hidden 'trap' mechanic.
 
 # V. Major Battle Data
 
