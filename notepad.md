@@ -58,6 +58,7 @@
 ### Custom Tools
 - **menu_analyzer:** Parses menu screen text to identify options and cursor position.
 - **automated_path_navigator:** Finds the shortest path between two points on the current map.
+- **elevator_navigator:** Parses the Celadon Dept. Store elevator menu screen text, and given a target floor (e.g., '2F'), calculates the button presses needed to select it.
 ### Custom Agents
 - **stuck_navigator_agent:** Suggests high-level navigational pivots when pathfinding fails.
 - **puzzle_solver_agent:** Generates new hypotheses for complex puzzles.
@@ -71,7 +72,6 @@
 - **Maze Navigator Automator Tool:** A high-level tool that takes the output of `stuck_navigator_agent` and automatically executes the navigation to the suggested warp, streamlining maze exploration.
 - **Item Buyer Tool:** A high-level tool that can navigate to a specific shop, interact with the correct clerk, and purchase a specified quantity of an item.
 - **Store Navigator Agent:** A high-level agent to devise exploration strategies for multi-floor buildings like department stores or Silph Co.
-- **Elevator Automator Tool:** A tool that takes a target floor number and automates the button presses required to select it in the elevator menu.
 
 # V. Major Battle Data
 

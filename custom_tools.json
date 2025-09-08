@@ -413,5 +413,31 @@
         "action_counter": 197977
       }
     ]
+  },
+  "elevator_navigator": {
+    "description": "Parses the Celadon Dept. Store elevator menu screen text, and given a target floor (e.g., '2F'), calculates the button presses needed to select it.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "screen_text": {
+          "type": "string"
+        },
+        "target_floor": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "screen_text",
+        "target_floor"
+      ]
+    },
+    "python_script": "import json\nimport re\n\nscreen_text = input_data['screen_text']\ntarget_floor_str = input_data['target_floor']\n\nfloor_order = {\n    \"ROOF\": 0, \"5F\": 1, \"4F\": 2, \"3F\": 3, \"2F\": 4, \"1F\": 5\n}\n\ncursor_match = re.search(r'>\\s*(\\w+)', screen_text)\nif not cursor_match:\n    print(json.dumps([]))\n    exit()\n\ncurrent_floor_str = cursor_match.group(1)\n\ncurrent_index = floor_order.get(current_floor_str)\ntarget_index = floor_order.get(target_floor_str)\n\nif current_index is None or target_index is None:\n    print(json.dumps([]))\n    exit()\n\ndiff = target_index - current_index\nbuttons = []\nif diff > 0:\n    buttons = [\"Down\"] * diff\nelif diff < 0:\n    buttons = [\"Up\"] * abs(diff)\n\nbuttons.append(\"A\")\n\nprint(json.dumps(buttons))",
+    "history": [
+      {
+        "commit_message": "feat: Create elevator_navigator tool to automate floor selection. This is a direct result of a mandatory self-assessment identifying an opportunity for automation in the Celadon Department Store. This tool will parse the elevator menu and calculate the necessary Up/Down/A presses, streamlining navigation.",
+        "timestamp": "2025-09-08T00:24:33.925Z",
+        "action_counter": 198232
+      }
+    ]
   }
 }
