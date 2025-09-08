@@ -72,6 +72,7 @@
 - **Maze Navigator Automator Tool:** A high-level tool that takes the output of `stuck_navigator_agent` and automatically executes the navigation to the suggested warp, streamlining maze exploration.
 - **Item Buyer Tool:** A high-level tool that can navigate to a specific shop, interact with the correct clerk, and purchase a specified quantity of an item.
 - **Store Navigator Agent:** A high-level agent to devise exploration strategies for multi-floor buildings like department stores or Silph Co.
+- **Elevator Automator Tool:** A high-level tool that automates the entire two-step process of using the Celadon Dept. Store elevator: selecting a floor from the menu, then pathfinding to and activating the correct warp tile.
 
 # V. Major Battle Data
 
