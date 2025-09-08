@@ -72,7 +72,7 @@
 
 ## B. Future Development Ideas
 - **`comprehensive_battle_agent` (Enhancements):**
-    - **Run vs. Fight Logic:** Add a module to decide whether to run from or fight a wild encounter based on party health, goal priority, and opponent threat level.
+    - **Run vs. Fight Logic:** Add a module to decide whether to run from or fight a wild encounter based on party health, goal priority, and opponent threat level. This consolidation addresses the Overwatch critique about hyper-specialized agents.
     - **Switch Advisor:** Incorporate logic to recommend the optimal Pokémon to switch to mid-battle, considering type matchups, HP, and status.
     - **Action Orchestrator:** Develop a high-level function that takes simple commands (e.g., 'switch to REVENANT') and orchestrates the necessary sequence of tool calls to execute it, streamlining complex menu navigation.
 
@@ -113,4 +113,3 @@
 - **Wild Pokémon Encounters:**
     - WIGGLYTUFF (Lv 62) - Moves: LOVELY KISS, DOUBLE-EDGE, DOUBLE-EDGE
     - SANDSLASH (Lv 63) - Moves: SWORDS DANCE
-- `run_or_fight_agent` A specialized agent to decide whether to run from or fight a wild encounter based on current party HP/status, the wild Pokémon's species and level, and the current primary goal (e.g., prioritize running if the goal is to escape a dangerous area).
