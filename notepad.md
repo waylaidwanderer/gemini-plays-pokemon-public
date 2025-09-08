@@ -25,6 +25,7 @@
 ## B. Tile Traversal & Movement Rules
 - **1x1 Warp Tiles (Instant):** Most 1x1 warps trigger instantly upon stepping on them. To re-use the warp, you must step off the tile and then back on.
 - **1x1 Warp Tiles (Non-Instant):** Some 1x1 warps require a second input. After stepping on the warp tile, you must press the directional button that moves you *into* the building's impassable boundary to trigger the warp.
+- **`steps` tiles:** These are the only tiles that allow movement between `ground` and `elevated_ground`.
 
 ## C. Solved Puzzles
 - **Snorlax (Routes 11 & 12):** Awakened using the POKé FLUTE from the ITEM menu.
@@ -83,4 +84,3 @@
     4. Enter Cerulean Cave and navigate to Mewtwo's location.
     5. Save before initiating the battle.
     6. Inflict status, lower HP, and begin throwing Ultra Balls.
-- **`steps` tiles:** These are the only tiles that allow movement between `ground` and `elevated_ground`.
