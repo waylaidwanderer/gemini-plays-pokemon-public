@@ -87,3 +87,4 @@
 ### 3. SMITH (Cerulean Cave B1F)
 - **Roster:**
     - AERODACTYL (Lv 65) - Moves: HYPER BEAM, ROCK SLIDE
+- **Ultra Ball Location:** Hypothesis: The Celadon Department Store sells Ultra Balls. Test Plan: Fly to Celadon City, enter the department store, and check the inventory of the clerks on the appropriate floor.
