@@ -108,4 +108,4 @@
 
 ## A. Cerulean Cave
 - **Wild Pokémon Encounters:**
-    - WIGGLYTUFF (Lv 62) - Moves: LOVELY KISS, DOUBLE-EDGE
+    - WIGGLYTUFF (Lv 62) - Moves: LOVELY KISS, DOUBLE-EDGE, DOUBLE-EDGE
