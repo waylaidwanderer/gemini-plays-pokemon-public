@@ -14,22 +14,6 @@
 
 # II. Game Mechanics & World Data
 
-## A. Tile Traversal Rules
-- **ground:** Standard walkable tile.
-- **impassable:** Cannot be entered. Walls, rocks, etc.
-- **elevated_ground:** Walkable, but can only be accessed from `steps` tiles or other `elevated_ground` tiles.
-- **steps:** Allows movement between `ground` and `elevated_ground`.
-- **ladder_up / ladder_down:** Acts as a warp to a different floor.
-- **ledge:** A one-way obstacle. Can be jumped down (from Y-1 to Y+2 in one move), but not climbed up.
-- **grass:** Tall grass where wild Pokémon can be encountered.
-- **teleport:** An instant warp tile within the same logical location (e.g., inside a building).
-- **water:** Crossable using HM Surf.
-- **cuttable:** Tree that can be cut with HM Cut. Respawn on map change.
-- **spinner_up/down/left/right:** Forces movement in the specified direction.
-- **boulder_switch:** Floor switch for boulders.
-- **boulder_barrier:** Barrier that is removed when a corresponding switch is pressed.
-- **unknown:** Tile type has not been visually confirmed.
-
 ## B. Interaction Rules & Game Systems
 - **1x1 Warp Tiles:** To re-use a 1x1 warp tile after arriving on it, you must step off the tile onto an adjacent ground tile, then step back on.
 
