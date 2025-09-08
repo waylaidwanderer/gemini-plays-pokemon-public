@@ -98,17 +98,6 @@
     5. Save before initiating the battle.
     6. Inflict status, lower HP, and begin throwing Ultra Balls.
 
-# VII. Self-Assessment (Turn 199155)
-
-## A. Key Failures & Lessons Learned
-- **Hallucination & Repetitive Actions:** I attempted to delete an agent and edit my notepad in turn 199154 that I had already successfully addressed in turn 199153. This is a critical failure in tracking my own actions. I must verify state more carefully before acting.
-- **Confirmation Bias (Cerulean Cave B1F):** I incorrectly assumed the high encounter rate was a complex puzzle. I wasted many turns on complex hypotheses (Pikachu interaction, follower swap) instead of first testing the simpler hypothesis that it was just high RNG requiring a change in movement strategy (one tile at a time). I must actively try to disprove my assumptions first.
-
-# VIII. Self-Assessment (Turn 199258)
-
-## A. Key Failures & Lessons Learned
-- **Deferred Maintenance:** In turns 199208-199212, I identified that my `automated_path_navigator` tool was broken but continued to navigate manually instead of fixing it immediately. This is a critical violation of my core directive to perform maintenance tasks without delay. I must prioritize fixing broken tools over any other in-game action.
-
 ## B. Notepad & Tool Improvements
 - **Missing Tile Mechanics:** Documented `impassable` and `water` tile types for completeness.
 - **System 'Dead End' Definition:** An area is NOT a 'dead end' if the entire map contains 2 or more reachable warps/connections, even if those exits are in different, unreachable partitions from the player's current location.
