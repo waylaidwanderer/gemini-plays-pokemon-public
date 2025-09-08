@@ -105,3 +105,4 @@
     5. Save before initiating the battle.
     6. Inflict status, lower HP, and begin throwing Ultra Balls.
 - **Decorative Grass (Celadon Dept. Store):** The small grass patches inside the Celadon Department Store are impassable and act as walls, despite the 'grass' tile type sometimes being traversable outdoors.
+- **Elevator Automator Tool:** A high-level tool that automates the entire two-step process of using the Celadon Dept. Store elevator: selecting a floor from the menu, then pathfinding to and activating the correct warp tile.
