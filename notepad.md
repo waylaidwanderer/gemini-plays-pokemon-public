@@ -111,3 +111,4 @@
 - **Wild Pokémon Encounters:**
     - WIGGLYTUFF (Lv 62) - Moves: LOVELY KISS, DOUBLE-EDGE, DOUBLE-EDGE
     - SANDSLASH (Lv 63) - Moves: SWORDS DANCE
+- `run_or_fight_agent` A specialized agent to decide whether to run from or fight a wild encounter based on current party HP/status, the wild Pokémon's species and level, and the current primary goal (e.g., prioritize running if the goal is to escape a dangerous area).
