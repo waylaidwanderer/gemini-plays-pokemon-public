@@ -39,6 +39,7 @@
 ## B. Active Hypotheses & Test Plans
 - **Light Screen Duration:** Hypothesis: Light Screen lasts for 5 turns, as is standard. Test Plan: In a future battle, count the turns after using Light Screen and watch for the 'Light Screen wore off!' message to confirm its duration.
 - **Respawn Point:** Hypothesis: The game sets the last used Pokémon Center as the respawn point after a blackout. Test Plan: Heal at a new Pokémon Center, then intentionally black out to a weak wild Pokémon and observe the respawn location.
+- **Hidden Passages:** Hypothesis: Some 'impassable' walls in Cerulean Cave are secret passages. Test Plan: Systematically walk into different types of wall tiles in the current partition to test for fake walls. Mark tested walls with a map marker.
 
 ## C. Disproven Hypotheses
 - **Menu Selection Bug:** Hypothesis: Selecting a Pokémon in the 'Bring out which POKéMON?' menu consistently opens the sub-menu for a different Pokémon. **(Disproven on Turn 197844)** Test: Selected REVENANT. Result: REVENANT's sub-menu opened. Conclusion: The bug is not a simple mis-selection of an adjacent Pokémon.
@@ -63,6 +64,7 @@
     - **Run vs. Fight Logic:** Add a module to decide whether to run from or fight a wild encounter based on party health, goal priority, and opponent threat level.
     - **Switch Advisor:** Incorporate logic to recommend the optimal Pokémon to switch to mid-battle, considering type matchups, HP, and status.
     - **Action Orchestrator:** Develop a high-level function that takes simple commands (e.g., 'switch to REVENANT') and orchestrates the necessary sequence of tool calls to execute it, streamlining complex menu navigation.
+- **`exploration_pattern_agent`:** Create an agent that takes map data and a partition and suggests a systematic exploration pattern (e.g., 'probe all eastern walls, then southern') to find hidden paths when the pathfinder fails.
 
 # V. Major Battle Data
 
@@ -100,12 +102,3 @@
     4. Enter Cerulean Cave and navigate to Mewtwo's location.
     5. Save before initiating the battle.
     6. Inflict status, lower HP, and begin throwing Ultra Balls.
-
-## C. Tile Traversal Rules
-- **ground**: Walkable.
-- **elevated_ground**: Walkable, but only accessible from `steps` or other `elevated_ground` tiles.
-- **steps**: Allows movement between `ground` and `elevated_ground`.
-- **ladder_up** / **ladder_down**: Warps between floors.
-- **impassable**: Cannot be walked on.
-- **water**: Requires Surf to cross.
-- **ledge**: One-way downward traversal.
