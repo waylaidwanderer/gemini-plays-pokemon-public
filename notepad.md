@@ -33,6 +33,7 @@
 - **Pokémon Tower Ghost:** Used SILPH SCOPE to reveal the ghost.
 - **Seafoam Islands Current:** Solved multi-floor boulder puzzle to stop the strong water current.
 - **Pewter Museum Puzzle:** Solved by a sequence of interactions with the Aerodactyl Fossil and an invisible follower Pikachu, which caused a blocking Youngster to move.
+- **Cerulean Cave B1F Encounter Trap:** The high encounter rate at (2, 7) was not a scripted puzzle but simply high RNG. The solution was to move one tile at a time and run from each battle, as multi-step path plans were consistently interrupted.
 
 # III. Current Objectives & Hypotheses
 
@@ -94,32 +95,3 @@
     4. Enter Cerulean Cave and navigate to Mewtwo's location.
     5. Save before initiating the battle.
     6. Inflict status, lower HP, and begin throwing Ultra Balls.
-
-# VII. Active Puzzles
-
-## A. Cerulean Cave B1F - Encounter Trap
-- **Observation:** At tile (2, 7), any attempt to move triggers a wild Pokemon encounter with what appears to be a 100% success rate. This effectively traps me. The goal is to reach the ladder at (4, 7).
-- **Failed Hypotheses:**
-    - H1: Brute-force movement will eventually succeed. (Failed 8+ times)
-    - H2: Moving in a different direction (e.g., up) will bypass the trigger. (Failed 1 time)
-    - H3: Interacting with the adjacent follower Pikachu will resolve the puzzle. (Failed 1 time)
-
-# V. Active Puzzles & Hypotheses
-
-## A. Cerulean Cave B1F - Encounter Trap
-- **Observation:** At tile (2, 7), any attempt to move triggers a wild Pokemon encounter with a 100% success rate. The goal is to reach the ladder at (4, 7).
-- **Failed Hypotheses:**
-    - H1: Brute-force movement. (Failed 8+ times)
-    - H2: Moving in a different direction. (Failed 1 time)
-    - H3: Interacting with follower Pikachu. (Failed 1 time)
-- **Active Hypothesis:** The puzzle requires a specific follower Pokémon other than Pikachu to safely cross the tile.
-
-# VII. Active Puzzles
-
-## A. Cerulean Cave B1F - Encounter Trap
-- **Observation:** At tile (2, 7), any attempt to move triggers a wild Pokemon encounter with what appears to be a 100% success rate. This effectively traps me. The goal is to reach the ladder at (4, 7).
-- **Failed Hypotheses:**
-    - H1: Brute-force movement will eventually succeed. (Failed 8+ times)
-    - H2: Moving in a different direction (e.g., up) will bypass the trigger. (Failed 1 time)
-    - H3: Interacting with the adjacent follower Pikachu will resolve the puzzle. (Failed 1 time)
-- **Active Hypothesis (from puzzle_solver_agent):** The puzzle requires a specific follower Pokémon other than Pikachu to safely cross the tile.
