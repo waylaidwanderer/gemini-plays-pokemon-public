@@ -4,19 +4,29 @@
 1.  **IMMEDIATE MAINTENANCE:** All data management (notepad, markers) and tool/agent refinement is the HIGHEST priority and MUST be performed in the same turn a need is identified.
 2.  **PROACTIVE AUTOMATION:** Before any complex or repetitive task, I must first consider automating it with a tool or agent. If one doesn't exist, creating it is the new priority.
 3.  **TRUST, BUT REFINE:** I must trust the outputs of my agents and system data. If an agent or tool is suboptimal, I must prioritize refining it immediately. A tool's error message about its inputs is a reflection of my data quality, not a flaw in the tool.
-4.  **ABANDON FAILED HYPOTHESES:** If a strategy fails repeatedly, I must recognize the pattern, document it, and pivot to a new approach. I must not get stuck on a single solution and be flexible.
+4.  **TRUST GAME STATE OVER TOOLS:** If a tool's output (e.g., 'no path found') contradicts the Game State Information (e.g., a listed reachable warp), my assumption must be that the tool is wrong. I must prioritize debugging the tool instead of repeatedly trusting its faulty output.
+5.  **ABANDON FAILED HYPOTHESES:** If a strategy fails repeatedly, I must recognize the pattern, document it, and pivot to a new approach. I must not get stuck on a single solution and be flexible.
 
 ## B. Key Lessons & Recurring Failures
 - **Positional & Data Awareness:** I must verify my current coordinates, turn number, and system-provided data from the Game State Information *before* every action and trust it over my own manual assessment.
 - **System vs. Local Reachability:** System warnings about 'reachable' tiles/warps are a global check for the entire map and may not reflect what is reachable from my current partitioned location.
-- **System vs. Local Reachability:** System warnings about "reachable" tiles/warps are a global check for the entire map and may not reflect what is reachable from my current partitioned location.
-- **Confirmation Bias in Problem-Solving:** My biggest failure is assuming my code is wrong when a tool fails, instead of testing the hypothesis that my input data is wrong. I must verify data quality first before debugging code.
+- **Confirmation Bias in Problem-Solving:** My biggest failure is assuming my code is wrong when a tool fails, instead of testing the hypothesis that my input data is wrong. I must verify data quality first before debugging code. A specific example is when my pathfinder correctly identified Cerulean Cave B1F as partitioned, but I assumed the tool was bugged because the global 'reachable unseen tiles' count was non-zero. I wasted many turns debugging a correct tool instead of questioning my interpretation of the data.
 - **Notepad Precision:** Repeated failures with `notepad_edit` `replace` operations highlight a need for greater precision. I must use the system's suggestions and be exact with `old_text` to ensure critical updates are performed on the first attempt.
 
 # II. Game Mechanics & World Data
 
+## A. Tile Mechanics
+- **ground:** Standard walkable tile.
+- **elevated_ground:** Walkable tile at a different elevation. Cannot be accessed from `ground` directly.
+- **steps:** The only tile type that allows movement between `ground` and `elevated_ground`.
+- **ladder_up / ladder_down:** Warps between floors.
+- **impassable:** Walls, rocks, etc. Cannot be entered.
+- **water:** Can only be crossed with Surf.
+
 ## B. Interaction Rules & Game Systems
 - **1x1 Warp Tiles:** To re-use a 1x1 warp tile after arriving on it, you must step off the tile onto an adjacent ground tile, then step back on.
+- **Non-Instant Warps:** Some 1x1 warps are not instant. After stepping on the warp tile, you must press the directional button that moves you *into* the building's impassable boundary to trigger the warp.
+- **Decorative Grass (Celadon Dept. Store):** The small grass patches inside the Celadon Department Store are impassable and act as walls, despite the 'grass' tile type sometimes being traversable outdoors.
 
 ## C. Solved Puzzles
 - **Snorlax (Routes 11 & 12):** Awakened using the POKé FLUTE from the ITEM menu.
@@ -33,7 +43,6 @@
 - **Menu Cursor Reset:** Hypothesis: The game resets the cursor to the first Pokémon in the list in the 'Bring out which POKéMON?' menu if a turn passes without a selection. Test Plan: Next time I am in this specific menu, I will manually move the cursor to a different Pokémon, wait one turn, and observe if the cursor position changes.
 - **Light Screen Duration:** Hypothesis: Light Screen lasts for 5 turns, as is standard. Test Plan: In a future battle, count the turns after using Light Screen and watch for the 'Light Screen wore off!' message to confirm its duration.
 - **Respawn Point:** Hypothesis: The game sets the last used Pokémon Center as the respawn point after a blackout. Test Plan: Heal at a new Pokémon Center, then intentionally black out to a weak wild Pokémon and observe the respawn location.
-- **Confirmation Bias Lesson:** When a test for a hypothesis fails (e.g., trying to trigger a warp by moving NORTH), the immediate next step must be to test the OPPOSITE hypothesis (e.g., moving SOUTH). Repeating the same failed test is inefficient and leads to getting stuck. I must actively try to disprove my own assumptions.
 
 ## C. Disproven Hypotheses
 - **Menu Selection Bug:** Hypothesis: Selecting a Pokémon in the 'Bring out which POKéMON?' menu consistently opens the sub-menu for a different Pokémon. **(Disproven on Turn 197844)** Test: Selected REVENANT. Result: REVENANT's sub-menu opened. Conclusion: The bug is not a simple mis-selection of an adjacent Pokémon.
@@ -51,6 +60,9 @@
 - **notepad_refactor_agent:** Generates `replace` operations for major notepad reorganization.
 - **comprehensive_battle_agent:** Provides both pre-battle team composition advice and turn-by-turn tactical recommendations.
 - **store_navigator_agent:** A high-level agent to devise exploration strategies for multi-floor buildings like department stores or Silph Co.
+
+## B. Development Ideas
+- **Debugging Assistant Agent:** An agent that could take a tool's code, error messages, and debug logs as input to suggest potential bugs and more effective test cases. This would streamline the debugging process for complex tool failures.
 
 # V. Major Battle Data
 
@@ -82,6 +94,3 @@
     4. Enter Cerulean Cave and navigate to Mewtwo's location.
     5. Save before initiating the battle.
     6. Inflict status, lower HP, and begin throwing Ultra Balls.
-- **Decorative Grass (Celadon Dept. Store):** The small grass patches inside the Celadon Department Store are impassable and act as walls, despite the 'grass' tile type sometimes being traversable outdoors.
-- **Non-Instant Warps:** Some 1x1 warps are not instant. After stepping on the warp tile, you must press the directional button that moves you *into* the building's impassable boundary to trigger the warp. This can be confusing if an NPC is standing on the tile adjacent to the warp.
-- **Trust Game State Over Tools:** If a tool's output (e.g., 'no path found') contradicts the Game State Information (e.g., a listed reachable warp), the tool is wrong. I must prioritize debugging the tool instead of repeatedly trusting its faulty output.
