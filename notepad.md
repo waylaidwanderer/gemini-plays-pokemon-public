@@ -26,6 +26,8 @@
 - **`ground`:** Standard walkable tile.
 - **`impassable`:** Walls, counters, and other objects that cannot be walked on.
 - **`grass`:** Walkable tiles where wild Pokémon encounters can occur.
+- **`water`:** Crossable using HM Surf. Must be facing the water to initiate Surf.
+- **`ledge`:** Can be jumped down (from Y-1 to Y+2 in one move), but not climbed up. Acts as a wall from below or the sides.
 - **`steps`:** These are the only tiles that allow movement between `ground` and `elevated_ground`.
 - **1x1 Warp Tiles (Instant):** Most 1x1 warps trigger instantly upon stepping on them. To re-use the warp, you must step off the tile and then back on.
 - **1x1 Warp Tiles (Non-Instant):** Some 1x1 warps require a second input. After stepping on the warp tile, you must press the directional button that moves you *into* the building's impassable boundary to trigger the warp.
@@ -44,8 +46,8 @@
 - **Capture Mewtwo:** After defeating SMITH, find and capture the legendary Pokémon Mewtwo.
 
 ## B. Active Hypotheses & Test Plans
-- **Training Location:** Hypothesis: Cerulean Cave is the best location to train NIGHTSHADE. Test Plan: Enter the cave and engage in several wild battles to assess the Pokémon levels and EXP gain.
-- **Team Composition vs. SMITH:** Hypothesis: My current party is optimally configured for the rematch against SMITH. Test Plan: Use the `comprehensive_battle_agent` to perform a pre-battle analysis of my team against SMITH's known roster (Lv 65 AERODACTYL with HYPER BEAM, ROCK SLIDE).
+- **Route 24 Surf Path:** Hypothesis: Surfing south from Route 24 provides access to the otherwise fenced-off Cerulean Cave entrance. Test Plan: Use Surf on Route 24 and navigate south to see if the path to the cave is clear.
+- **Team Composition vs. SMITH:** Hypothesis: My current party is optimally configured for the rematch against SMITH. Test Plan: Use the `comprehensive_battle_agent` to perform a pre-battle analysis of my team against SMITH's known roster (Lv 65 AERODACTYL with HYPER BEAM, ROCK SLIDE). (Completed, Golem lead confirmed).
 - **Light Screen Duration:** Hypothesis: Light Screen lasts for 5 turns, as is standard. Test Plan: In a future battle, count the turns after using Light Screen and watch for the 'Light Screen wore off!' message to confirm its duration.
 - **Respawn Point:** Hypothesis: The game sets the last used Pokémon Center as the respawn point after a blackout. Test Plan: Heal at a new Pokémon Center, then intentionally black out to a weak wild Pokémon and observe the respawn location.
 - **Hidden Passages:** Hypothesis: Some 'impassable' walls in Cerulean Cave are secret passages. Test Plan: Systematically walk into different types of wall tiles in the current partition to test for fake walls. Mark tested walls with a map marker.
@@ -95,5 +97,3 @@
 
 ## B. New Agent Ideas
 - **`training_spot_analyzer`:** An agent that takes the player's party levels and a list of available routes with known wild Pokémon data to suggest the most optimal training location based on EXP yield and travel time.
-- **Dead End Logic:** I misidentified the Pokémon Center as not a dead end. A location is a dead end if it has fewer than 2 reachable, non-adjacent exits (warps/connections). I must be more careful with this check.
-- **System Dead End Logic (Clarification):** The system's 'is_in_dead_end_area' check applies to the *entire map*, not the current partitioned area. A map is considered a dead end only if it has fewer than 2 reachable exits in total, even if those exits are in separate, unreachable partitions. I must remember this to avoid future validation errors.
