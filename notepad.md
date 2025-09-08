@@ -38,7 +38,8 @@
 # III. Current Objectives & Hypotheses
 
 ## A. Current Main Objective
-- **Capture Mewtwo:** I need to stock up on Ultra Balls and then travel to Cerulean Cave to find and capture Mewtwo.
+- **Heal Party:** My party is in critical condition, with one Pokémon fainted. I must find an exit from Cerulean Cave and get to a Pokémon Center.
+- **Find Exit:** The immediate goal is to navigate the cave's floors to find the main entrance/exit.
 
 ## B. Active Hypotheses & Test Plans
 - **Menu Cursor Reset:** Hypothesis: The game resets the cursor to the first Pokémon in the list in the 'Bring out which POKéMON?' menu if a turn passes without a selection. Test Plan: Next time I am in this specific menu, I will manually move the cursor to a different Pokémon, wait one turn, and observe if the cursor position changes.
