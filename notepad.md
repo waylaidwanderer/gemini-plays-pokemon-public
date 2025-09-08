@@ -115,3 +115,4 @@
     - SANDSLASH (Lv 63) - Moves: SWORDS DANCE
 - **Fainted HM Usage:** HMs like Surf can be used outside of battle even if the Pokémon that knows the move has fainted. (Confirmed by system notice on Turn 199815).
 - **Partition Blindness:** I must not assume an area is a dead end just because I can't reach my primary objective. I must always check for and explore all other reachable warps or exits within the current partition, as they may be the only way forward. (Failure on Turn 199901)
+- **System vs. Tool Reachability:** A tool's specific 'unreachable partition' message should be trusted over the system's general 'reachable' flag. The system may assume the use of HMs (like Surf) that are not currently possible from the player's position, leading to a discrepancy. (Failure on Turn 199944)
