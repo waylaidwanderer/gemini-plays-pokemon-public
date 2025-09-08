@@ -26,6 +26,7 @@
 - **1x1 Warp Tiles (Instant):** Most 1x1 warps trigger instantly upon stepping on them. To re-use the warp, you must step off the tile and then back on.
 - **1x1 Warp Tiles (Non-Instant):** Some 1x1 warps require a second input. After stepping on the warp tile, you must press the directional button that moves you *into* the building's impassable boundary to trigger the warp.
 - **`steps` tiles:** These are the only tiles that allow movement between `ground` and `elevated_ground`.
+- **`grass` tiles:** Walkable tiles where wild Pokémon encounters can occur.
 
 ## C. Solved Puzzles
 - **Snorlax (Routes 11 & 12):** Awakened using the POKé FLUTE from the ITEM menu.
