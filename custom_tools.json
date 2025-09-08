@@ -482,19 +482,28 @@
             "RUN"
           ],
           "description": "The main battle menu option you want to automatically select"
+        },
+        "screen_text": {
+          "type": "string",
+          "description": "The full screen text from the game, used to determine the current cursor position."
         }
       },
       "required": [
-        "option_to_select"
-      ],
-      "additionalProperties": false
+        "option_to_select",
+        "screen_text"
+      ]
     },
-    "python_script": "import json\n\noption_to_select = input_data.get('option_to_select')\n\n# The battle menu is a 2x2 grid:\n# [FIGHT] [PKMN]\n# [ITEM]  [RUN]\n\n# Mapping options to their grid positions (row, col)\noption_positions = {\n    'FIGHT': (0, 0),\n    'PKMN': (0, 1),\n    'ITEM': (1, 0),\n    'RUN': (1, 1)\n}\n\n# Current cursor is always at (0, 0) when this menu opens\ncurrent_pos = (0, 0)\ntarget_pos = option_positions.get(option_to_select)\n\nif target_pos is None:\n    print(json.dumps([]))\nelse:\n    row_diff = target_pos[0] - current_pos[0]\n    col_diff = target_pos[1] - current_pos[1]\n\n    button_presses = []\n    if row_diff > 0:\n        button_presses.extend(['Down'] * row_diff)\n    if col_diff > 0:\n        button_presses.extend(['Right'] * col_diff)\n    \n    button_presses.append('A')\n    print(json.dumps(button_presses))",
+    "python_script": "import json\nimport re\n\nscreen_text = input_data['screen_text']\noption_to_select = input_data['option_to_select']\n\noption_positions = {\n    'FIGHT': (0, 0),\n    'PKMN': (0, 1),\n    'ITEM': (1, 0),\n    'RUN': (1, 1)\n}\n\ncurrent_option = None\npatterns = {\n    'FIGHT': r'→\\s*FIGHT',\n    'PKMN': r'→\\s*PKMN',\n    'ITEM': r'→\\s*ITEM',\n    'RUN': r'→\\s*RUN'\n}\n\n# A more robust check for the second column options\nif not current_option and re.search(r'FIGHT\\s+→PKMN', screen_text): current_option = 'PKMN'\nif not current_option and re.search(r'ITEM\\s+→RUN', screen_text): current_option = 'RUN'\n\n# Check for first column options\nfor option, pattern in patterns.items():\n    if re.search(pattern, screen_text):\n        current_option = option\n        break\n\n# Default to FIGHT if parsing fails\nif current_option is None:\n    current_option = 'FIGHT'\n\ncurrent_pos = option_positions.get(current_option, (0, 0))\ntarget_pos = option_positions.get(option_to_select)\n\nif target_pos is None:\n    print(json.dumps([]))\nelse:\n    row_diff = target_pos[0] - current_pos[0]\n    col_diff = target_pos[1] - current_pos[1]\n\n    button_presses = []\n    if row_diff > 0:\n        button_presses.extend(['Down'] * row_diff)\n    elif row_diff < 0:\n        button_presses.extend(['Up'] * abs(row_diff))\n\n    if col_diff > 0:\n        button_presses.extend(['Right'] * col_diff)\n    elif col_diff < 0:\n        button_presses.extend(['Left'] * abs(col_diff))\n    \n    button_presses.append('A')\n    print(json.dumps(button_presses))",
     "history": [
       {
         "commit_message": "Initial version",
         "timestamp": "2025-09-07T22:33:26.042Z",
         "action_counter": 197977
+      },
+      {
+        "commit_message": "fix: Add screen_text parsing to determine cursor position. The tool previously assumed the cursor always started at 'FIGHT', causing it to fail in other scenarios. This commit makes the tool robust to any starting cursor position by parsing the screen text. This is a critical fix to enable reliable battle automation.",
+        "timestamp": "2025-09-08T09:47:08.934Z",
+        "action_counter": 199362
       }
     ]
   },

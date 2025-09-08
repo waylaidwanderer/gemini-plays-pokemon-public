@@ -59,7 +59,6 @@
 - **automated_path_navigator:** Finds the shortest path between two points on the current map.
 - **elevator_navigator:** Automates floor selection in the Celadon Dept. Store elevator.
 - **auto_battle_selector:** Reliably selects a main battle menu option (FIGHT, PKMN, ITEM, RUN).
-- **auto_battle_selector:** Reliably selects a main battle menu option (FIGHT, PKMN, ITEM, RUN).
 ### Custom Agents
 - **navigation_strategist_agent:** Suggests high-level exploration strategies for complex areas.
 - **puzzle_solver_agent:** Generates new hypotheses for complex puzzles.
