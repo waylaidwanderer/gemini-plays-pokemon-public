@@ -8,6 +8,7 @@
 5.  **ABANDON FAILED HYPOTHESES:** If a strategy fails repeatedly, I must recognize the pattern, document it, and pivot to a new approach. I must not get stuck on a single solution and be flexible.
 
 ## B. Key Lessons & Recurring Failures
+- **CRITICAL: DATA VERIFICATION:** My most severe failures stem from hallucinating my location or other game state variables. I MUST verify my current map ID, coordinates, and other data from the Game State Information *before* every single action. Trust the data, not my memory.
 - **Positional & Data Awareness:** I must verify my current coordinates, turn number, and system-provided data from the Game State Information *before* every action and trust it over my own manual assessment.
 - **Confirmation Bias:** My biggest failure is assuming my code is wrong when a tool fails, instead of testing the hypothesis that my input data is wrong (e.g., Cerulean Cave B1F partition issue). I must verify data quality first before debugging code. I must also actively try to disprove my own assumptions (e.g., assuming high encounter rate was a puzzle, or that 3 failed escapes was just RNG).
 - **Notepad Precision:** Repeated failures with `notepad_edit` `replace` operations highlight a need for greater precision. I must use the system's suggestions and be exact with `old_text`.
@@ -17,13 +18,15 @@
 # II. Game Mechanics & World Data
 
 ## A. Discovered Mechanics
-- **1x1 Warp Tiles:** To re-use a 1x1 warp tile after arriving on it, you must step off the tile onto an adjacent ground tile, then step back on.
-- **Non-Instant Warps:** Some 1x1 warps are not instant. After stepping on the warp tile, you must press the directional button that moves you *into* the building's impassable boundary to trigger the warp.
 - **System 'Dead End' Definition:** An area is NOT a 'dead end' if the entire map contains 2 or more reachable warps/connections, even if those exits are in different, unreachable partitions from the player's current location.
 - **Trap Battles:** Certain wild encounters, particularly in late-game areas like Cerulean Cave, appear to be 'trap' battles where the 'RUN' option is disabled. This was observed with a Wigglytuff and suspected with a Ditto.
 - **Fainted HM Usage:** HMs like Surf can be used outside of battle even if the Pokémon that knows the move has fainted. (Confirmed by system notice on Turn 199815).
 
-## B. Solved Puzzles
+## B. Tile Traversal & Movement Rules
+- **1x1 Warp Tiles (Instant):** Most 1x1 warps trigger instantly upon stepping on them. To re-use the warp, you must step off the tile and then back on.
+- **1x1 Warp Tiles (Non-Instant):** Some 1x1 warps require a second input. After stepping on the warp tile, you must press the directional button that moves you *into* the building's impassable boundary to trigger the warp.
+
+## C. Solved Puzzles
 - **Snorlax (Routes 11 & 12):** Awakened using the POKé FLUTE from the ITEM menu.
 - **Pokémon Tower Ghost:** Used SILPH SCOPE to reveal the ghost.
 - **Seafoam Islands Current:** Solved multi-floor boulder puzzle to stop the strong water current.
@@ -44,29 +47,7 @@
 ## C. Disproven Hypotheses
 - **Menu Selection Bug:** Hypothesis: Selecting a Pokémon in the 'Bring out which POKéMON?' menu consistently opens the sub-menu for a different Pokémon. **(Disproven on Turn 197844)** Test: Selected REVENANT. Result: REVENANT's sub-menu opened. Conclusion: The bug is not a simple mis-selection of an adjacent Pokémon.
 
-# IV. Tool & Agent Development
-
-## A. Defined Tools & Agents
-### Custom Tools
-- **menu_analyzer:** Parses menu screen text to identify options and cursor position.
-- **select_menu_option:** Calculates button presses to navigate menus based on `menu_analyzer` output.
-- **automated_path_navigator:** Finds the shortest path between two points on the current map.
-- **auto_battle_selector:** Reliably selects a main battle menu option (FIGHT, PKMN, ITEM, RUN).
-### Custom Agents
-- **navigation_strategist_agent:** Suggests high-level exploration strategies for complex areas.
-- **puzzle_solver_agent:** Generates new hypotheses for complex puzzles.
-- **notepad_refactor_agent:** Generates `replace` operations for major notepad reorganization.
-- **comprehensive_battle_agent:** Provides pre-battle and in-battle tactical advice.
-- **battle_anomaly_detector_agent:** Analyzes repeated battle events for hidden mechanics.
-
-## B. Future Development Ideas
-- **`comprehensive_battle_agent` (Enhancements):**
-    - **Run vs. Fight Logic:** Add a module to decide whether to run from or fight a wild encounter based on party health, goal priority, and opponent threat level.
-    - **Switch Advisor:** Incorporate logic to recommend the optimal Pokémon to switch to mid-battle, considering type matchups, HP, and status.
-    - **Action Orchestrator:** Develop a high-level function that takes simple commands (e.g., 'switch to REVENANT') and orchestrates the necessary sequence of tool calls to execute it, streamlining complex menu navigation.
-- **`exploration_pattern_agent`:** Create an agent that takes map data and a partition and suggests a systematic exploration pattern (e.g., 'probe all eastern walls, then southern') to find hidden paths when the pathfinder fails.
-
-# V. Major Battle Data
+# IV. Major Battle Data
 
 ### 1. Sabrina (Saffron City Gym)
 - **Roster:**
@@ -83,7 +64,7 @@
     - SANDSLASH (Lv 63) - Moves: SWORDS DANCE
     - GOLEM (Lv 64) - Moves: EXPLOSION
 
-# VI. Long-Term Plans & Strategies
+# V. Long-Term Plans & Strategies
 
 ## A. Operation: Capture Mewtwo
 - **Location:** Cerulean Cave (accessed via Cerulean Gym).
