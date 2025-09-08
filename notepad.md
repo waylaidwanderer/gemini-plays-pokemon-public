@@ -18,21 +18,13 @@
 # II. Game Mechanics & World Data
 
 ## A. Discovered Mechanics
-- **System 'Dead End' Definition:** An area is NOT a 'dead end' if the entire map contains 2 or more reachable warps/connections, even if those exits are in different, unreachable partitions from the player's current location.
+- **System 'Dead End' Definition:** An area is NOT a 'dead end' if the entire map contains 2 or more reachable warps/connections, even if those exits are in different, unreachable partitions from the player's current location. This is evaluated on a whole-map basis.
 - **Trap Battles:** Certain wild encounters, particularly in late-game areas like Cerulean Cave, appear to be 'trap' battles where the 'RUN' option is disabled. This was observed with a Wigglytuff, suspected with a Ditto, and confirmed with a KADABRA.
 - **Fainted HM Usage:** HMs like Surf can be used outside of battle even if the Pokémon that knows the move has fainted. (Confirmed by system notice on Turn 199815).
-
-## B. Tile Traversal & Movement Rules
-- **`ground`:** Standard walkable tile.
-- **`impassable`:** Walls, counters, and other objects that cannot be walked on.
-- **`grass`:** Walkable tiles where wild Pokémon encounters can occur.
-- **`water`:** Crossable using HM Surf. Must be facing the water to initiate Surf.
-- **`ledge`:** Can be jumped down (from Y-1 to Y+2 in one move), but not climbed up. Acts as a wall from below or the sides.
-- **`steps`:** These are the only tiles that allow movement between `ground` and `elevated_ground`.
 - **1x1 Warp Tiles (Instant):** Most 1x1 warps trigger instantly upon stepping on them. To re-use the warp, you must step off the tile and then back on.
 - **1x1 Warp Tiles (Non-Instant):** Some 1x1 warps require a second input. After stepping on the warp tile, you must press the directional button that moves you *into* the building's impassable boundary to trigger the warp.
 
-## C. Solved Puzzles
+## B. Solved Puzzles
 - **Snorlax (Routes 11 & 12):** Awakened using the POKé FLUTE from the ITEM menu.
 - **Pokémon Tower Ghost:** Used SILPH SCOPE to reveal the ghost.
 - **Seafoam Islands Current:** Solved multi-floor boulder puzzle to stop the strong water current.
@@ -80,7 +72,7 @@
 # V. Long-Term Plans & Strategies
 
 ## A. Operation: Capture Mewtwo
-- **Location:** Cerulean Cave (accessed via Cerulean Gym).
+- **Location:** Cerulean Cave (accessed via surfing south from Route 24).
 - **Team Strategy:**
     - **Status Inflictor:** TITANESS (Body Slam for paralysis) or SPARKY (Thunder Wave). Sleep is preferable if available. NIGHTSHADE's Sleep Powder could work if it can survive.
     - **Damage Dealer:** REVENANT (Bonemerang/Earthquake) to lower Mewtwo's health carefully. Need to avoid a critical hit KO.
@@ -94,6 +86,3 @@
     2. Fly to Cerulean City.
     3. Enter Cerulean Cave and navigate to Mewtwo's location.
     4. Save before initiating the battle.
-
-## B. New Agent Ideas
-- **`training_spot_analyzer`:** An agent that takes the player's party levels and a list of available routes with known wild Pokémon data to suggest the most optimal training location based on EXP yield and travel time.
