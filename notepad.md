@@ -94,3 +94,12 @@
     4. Enter Cerulean Cave and navigate to Mewtwo's location.
     5. Save before initiating the battle.
     6. Inflict status, lower HP, and begin throwing Ultra Balls.
+
+# VII. Active Puzzles
+
+## A. Cerulean Cave B1F - Encounter Trap
+- **Observation:** At tile (2, 7), any attempt to move triggers a wild Pokemon encounter with what appears to be a 100% success rate. This effectively traps me. The goal is to reach the ladder at (4, 7).
+- **Failed Hypotheses:**
+    - H1: Brute-force movement will eventually succeed. (Failed 8+ times)
+    - H2: Moving in a different direction (e.g., up) will bypass the trigger. (Failed 1 time)
+    - H3: Interacting with the adjacent follower Pikachu will resolve the puzzle. (Failed 1 time)
