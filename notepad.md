@@ -86,3 +86,6 @@
     2. Fly to Cerulean City.
     3. Enter Cerulean Cave and navigate to Mewtwo's location.
     4. Save before initiating the battle.
+
+## B. Discovered Mechanics
+- **Lead Pokémon HM Bug:** Using an HM move (like SURF) with a Pokémon that is not in the first party slot can cause the lead Pokémon to use a different HM instead (e.g., STRENGTH). Hypothesis: The Pokémon using the HM must be in the lead to function correctly. Test Plan: After this battle, attempt to use SURF with TITANESS in the second party slot to see if the bug is consistently reproducible. This will help confirm if the 'lead Pokémon' is the only variable.
