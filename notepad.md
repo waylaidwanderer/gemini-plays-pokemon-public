@@ -83,3 +83,7 @@
     3. Fly to Cerulean City.
     4. Enter Cerulean Cave and navigate to Mewtwo's location.
     5. Save before initiating the battle.
+
+### 3. SMITH (Cerulean Cave B1F)
+- **Roster:**
+    - AERODACTYL (Lv 65) - Moves: HYPER BEAM, ROCK SLIDE
