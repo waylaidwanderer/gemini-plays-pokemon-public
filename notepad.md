@@ -78,12 +78,11 @@
     - **Utility:** A Pokémon with Surf is required for cave navigation (TITANESS or NEPTUNE).
 - **Required Items:**
     - I have 31 Ultra Balls, which should be sufficient.
-    - Bring Max Potions and Full Heals for the battle.
     - The MASTER BALL is the final fallback option.
 - **Execution Plan:**
     1. Heal party at a Pokémon Center.
     2. Fly to Cerulean City.
-    3. Enter Cerulean Cave and navigate to Mewtwo's location.
+    3. Enter Cerulean Cave via Route 24 and navigate to Mewtwo's location.
     4. Save before initiating the battle.
 
 ## B. Discovered Mechanics
