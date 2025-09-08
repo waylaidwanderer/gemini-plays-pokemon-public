@@ -48,6 +48,7 @@
 - **Menu Cursor Reset:** Hypothesis: The game resets the cursor to the first Pokémon in the list in the 'Bring out which POKéMON?' menu if a turn passes without a selection. Test Plan: Next time I am in this specific menu, I will manually move the cursor to a different Pokémon, wait one turn, and observe if the cursor position changes.
 - **Light Screen Duration:** Hypothesis: Light Screen lasts for 5 turns, as is standard. Test Plan: In a future battle, count the turns after using Light Screen and watch for the 'Light Screen wore off!' message to confirm its duration.
 - **Respawn Point:** Hypothesis: The game sets the last used Pokémon Center as the respawn point after a blackout. Test Plan: Heal at a new Pokémon Center, then intentionally black out to a weak wild Pokémon and observe the respawn location.
+- **Cerulean Cave Entrance (Re-test):** Hypothesis: The warp at (5, 12) in Cerulean City is not a fake entrance, but was simply unreachable from the partitioned area I was in. Test Plan: After returning to the main area of Cerulean City, navigate to (5, 12) and attempt to enter. If it leads to the cave, the hypothesis is confirmed.
 
 ## C. Disproven Hypotheses
 - **Menu Selection Bug:** Hypothesis: Selecting a Pokémon in the 'Bring out which POKéMON?' menu consistently opens the sub-menu for a different Pokémon. **(Disproven on Turn 197844)** Test: Selected REVENANT. Result: REVENANT's sub-menu opened. Conclusion: The bug is not a simple mis-selection of an adjacent Pokémon.
@@ -71,8 +72,8 @@
 - **Battle State Parser Tool:** A tool to automatically parse screen text during a battle to generate the JSON input for the `comprehensive_battle_agent`.
 - **Fly Automator Tool:** A high-level tool that takes a destination city name as input and automatically executes the entire sequence of menu navigation required to fly there.
 - **Maze Navigator Automator Tool:** A high-level tool that takes the output of `stuck_navigator_agent` and automatically executes the navigation to the suggested warp, streamlining maze exploration.
-- **Item Buyer Tool:** A high-level tool that can navigate a shop menu to purchase a specified quantity of an item. This would automate the process of buying items like Ultra Balls. It should handle menu navigation, quantity selection, and confirmation.
 - **Elevator Automator Tool:** A high-level tool that automates the entire two-step process of using the Celadon Dept. Store elevator: selecting a floor from the menu, then pathfinding to and activating the correct warp tile.
+- **stuck_navigator_agent Refinement:** Improve prompt to better distinguish between partitioned maps (requiring backtracking) and solvable mazes (requiring exploration of alternatives).
 
 # V. Major Battle Data
 
