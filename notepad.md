@@ -23,6 +23,7 @@
 - **Fainted HM Usage:** HMs like Surf can be used outside of battle even if the Pokémon that knows the move has fainted. (Confirmed by system notice on Turn 199815).
 - **1x1 Warp Tiles (Instant):** Most 1x1 warps trigger instantly upon stepping on them. To re-use the warp, you must step off the tile and then back on.
 - **1x1 Warp Tiles (Non-Instant):** Some 1x1 warps require a second input. After stepping on the warp tile, you must press the directional button that moves you *into* the building's impassable boundary to trigger the warp.
+- **Lead Pokémon HM Bug:** Using an HM move (like SURF) with a Pokémon that is not in the first party slot can cause the lead Pokémon to use a different HM instead (e.g., STRENGTH). Hypothesis: The Pokémon using the HM must be in the lead to function correctly. Test Plan: After this battle, attempt to use SURF with TITANESS in the second party slot to see if the bug is consistently reproducible. This will help confirm if the 'lead Pokémon' is the only variable.
 
 ## B. Solved Puzzles
 - **Snorlax (Routes 11 & 12):** Awakened using the POKé FLUTE from the ITEM menu.
