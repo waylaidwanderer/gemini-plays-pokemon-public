@@ -110,3 +110,6 @@
 - **Wild Pokémon Encounters:**
     - WIGGLYTUFF (Lv 62) - Moves: LOVELY KISS, DOUBLE-EDGE, DOUBLE-EDGE
     - SANDSLASH (Lv 63) - Moves: SWORDS DANCE
+
+## C. Future Agent Ideas
+- **`battle_action_agent`:** A high-level agent that takes a simple command like 'switch to REVENANT' and orchestrates the necessary sequence of tool calls (`select_battle_option`, `menu_analyzer`, `select_menu_option`, etc.) to execute it, streamlining complex battle menu navigation.
