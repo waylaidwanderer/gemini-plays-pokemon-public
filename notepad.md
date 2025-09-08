@@ -83,9 +83,3 @@
     3. Fly to Cerulean City.
     4. Enter Cerulean Cave and navigate to Mewtwo's location.
     5. Save before initiating the battle.
-    6. Inflict status, lower HP, and begin throwing Ultra Balls.
-- **`ground`**: Standard walkable tile.
-- **`elevated_ground`**: Walkable tile at a different elevation, only accessible via `steps` tiles.
-- **`impassable`**: Walls or obstacles that cannot be walked on.
-- **`water`**: Can only be crossed using the HM move Surf.
-- **`ladder_up` / `ladder_down`**: Warps that move the player between floors.
