@@ -113,3 +113,4 @@
 - **Wild Pokémon Encounters:**
     - WIGGLYTUFF (Lv 62) - Moves: LOVELY KISS, DOUBLE-EDGE, DOUBLE-EDGE
     - SANDSLASH (Lv 63) - Moves: SWORDS DANCE
+- **Fainted HM Usage:** HMs like Surf can be used outside of battle even if the Pokémon that knows the move has fainted. (Confirmed by system notice on Turn 199815).
