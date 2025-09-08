@@ -64,6 +64,7 @@
 - **puzzle_solver_agent:** Generates new hypotheses for complex puzzles.
 - **notepad_refactor_agent:** Generates `replace` operations for major notepad reorganization.
 - **comprehensive_battle_agent:** Provides both pre-battle team composition advice and turn-by-turn tactical recommendations.
+- **Store Navigator Agent:** A high-level agent to devise exploration strategies for multi-floor buildings like department stores or Silph Co.
 
 ## B. Future Development Ideas
 - **Pokémon Switcher Tool:** A high-level tool that automates the entire process of switching Pokémon.
@@ -71,7 +72,6 @@
 - **Fly Automator Tool:** A high-level tool that takes a destination city name as input and automatically executes the entire sequence of menu navigation required to fly there.
 - **Maze Navigator Automator Tool:** A high-level tool that takes the output of `stuck_navigator_agent` and automatically executes the navigation to the suggested warp, streamlining maze exploration.
 - **Item Buyer Tool:** A high-level tool that can navigate a shop menu to purchase a specified quantity of an item. This would automate the process of buying items like Ultra Balls. It should handle menu navigation, quantity selection, and confirmation.
-- **Store Navigator Agent:** A high-level agent to devise exploration strategies for multi-floor buildings like department stores or Silph Co.
 - **Elevator Automator Tool:** A high-level tool that automates the entire two-step process of using the Celadon Dept. Store elevator: selecting a floor from the menu, then pathfinding to and activating the correct warp tile.
 
 # V. Major Battle Data
@@ -105,4 +105,3 @@
     5. Save before initiating the battle.
     6. Inflict status, lower HP, and begin throwing Ultra Balls.
 - **Decorative Grass (Celadon Dept. Store):** The small grass patches inside the Celadon Department Store are impassable and act as walls, despite the 'grass' tile type sometimes being traversable outdoors.
-- **Elevator Automator Tool:** A high-level tool that automates the entire two-step process of using the Celadon Dept. Store elevator: selecting a floor from the menu, then pathfinding to and activating the correct warp tile.
