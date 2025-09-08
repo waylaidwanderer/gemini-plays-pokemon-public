@@ -94,3 +94,13 @@
     4. Enter Cerulean Cave and navigate to Mewtwo's location.
     5. Save before initiating the battle.
     6. Inflict status, lower HP, and begin throwing Ultra Balls.
+
+# VII. Self-Assessment (Turn 199155)
+
+## A. Key Failures & Lessons Learned
+- **Hallucination & Repetitive Actions:** I attempted to delete an agent and edit my notepad in turn 199154 that I had already successfully addressed in turn 199153. This is a critical failure in tracking my own actions. I must verify state more carefully before acting.
+- **Confirmation Bias (Cerulean Cave B1F):** I incorrectly assumed the high encounter rate was a complex puzzle. I wasted many turns on complex hypotheses (Pikachu interaction, follower swap) instead of first testing the simpler hypothesis that it was just high RNG requiring a change in movement strategy (one tile at a time). I must actively try to disprove my assumptions first.
+
+## B. Notepad & Tool Improvements
+- **Missing Tile Mechanics:** Documented `ledge`, `teleport`, `hole`, and `cleared_boulder_barrier`.
+- **New Tool Idea:** `auto_flee` tool to automate the two-turn process of running from wild battles.
