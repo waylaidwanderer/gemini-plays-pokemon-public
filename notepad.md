@@ -72,6 +72,7 @@
 
 ## B. Future Development Ideas
 - **`switch_advisor_agent`:** A specialized agent to recommend the optimal Pokémon to switch to during battle, considering type matchups, HP, and status conditions.
+- **`battle_action_agent`:** A high-level agent that takes a simple command like 'switch to REVENANT' and orchestrates the necessary sequence of tool calls (`select_battle_option`, `menu_analyzer`, `select_menu_option`, etc.) to execute it, streamlining complex battle menu navigation.
 
 # V. Major Battle Data
 
@@ -110,6 +111,3 @@
 - **Wild Pokémon Encounters:**
     - WIGGLYTUFF (Lv 62) - Moves: LOVELY KISS, DOUBLE-EDGE, DOUBLE-EDGE
     - SANDSLASH (Lv 63) - Moves: SWORDS DANCE
-
-## C. Future Agent Ideas
-- **`battle_action_agent`:** A high-level agent that takes a simple command like 'switch to REVENANT' and orchestrates the necessary sequence of tool calls (`select_battle_option`, `menu_analyzer`, `select_menu_option`, etc.) to execute it, streamlining complex battle menu navigation.
