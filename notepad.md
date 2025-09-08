@@ -56,13 +56,10 @@
 - **automated_path_navigator:** Finds the shortest path between two points on the current map.
 - **elevator_navigator:** Parses the Celadon Dept. Store elevator menu screen text, and given a target floor (e.g., '2F'), calculates the button presses needed to select it.
 ### Custom Agents
-- **exploration_strategist_agent:** Analyzes a high-level exploration goal, a list of previously failed/explored locations, and the current map's connections to suggest the next most logical area (map or warp) to investigate.
+- **navigation_strategist_agent:** Analyzes a high-level exploration goal, a list of previously failed/explored locations, and the current map's connections to suggest the next most logical area (map or warp) to investigate.
 - **puzzle_solver_agent:** Generates new hypotheses for complex puzzles.
 - **notepad_refactor_agent:** Generates `replace` operations for major notepad reorganization.
 - **comprehensive_battle_agent:** Provides both pre-battle team composition advice and turn-by-turn tactical recommendations.
-
-## B. Development Ideas
-- **Debugging Assistant Agent:** An agent that could take a tool's code, error messages, and debug logs as input to suggest potential bugs and more effective test cases. This would streamline the debugging process for complex tool failures.
 
 # V. Major Battle Data
 
