@@ -27,7 +27,8 @@
 ## B. Interaction Rules & Game Systems
 - **1x1 Warp Tiles:** To re-use a 1x1 warp tile after arriving on it, you must step off the tile onto an adjacent ground tile, then step back on.
 - **Non-Instant Warps:** Some 1x1 warps are not instant. After stepping on the warp tile, you must press the directional button that moves you *into* the building's impassable boundary to trigger the warp.
-- **Decorative Grass (Celadon Dept. Store):** The small grass patches inside the Celadon Department Store are impassable and act as walls, despite the 'grass' tile type sometimes being traversable outdoors.
+- **System 'Dead End' Definition:** An area is NOT a 'dead end' if the entire map contains 2 or more reachable warps/connections, even if those exits are in different, unreachable partitions from the player's current location.
+- **Decorative Grass (Celadon Dept. Store):** The small grass patches inside the Celadon Department Store are impassable.
 
 ## C. Solved Puzzles
 - **Snorlax (Routes 11 & 12):** Awakened using the POKé FLUTE from the ITEM menu.
