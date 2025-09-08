@@ -37,8 +37,8 @@
 # III. Current Objectives & Hypotheses
 
 ## A. Current Main Objective
-- **Heal Party:** My party is in critical condition, with four Pokémon fainted. I must find an exit from Cerulean Cave and get to a Pokémon Center.
-- **Find Exit:** The immediate goal is to navigate the cave's floors to find the main entrance/exit.
+- **Defeat SMITH:** Prepare for and win the rematch against SMITH in Cerulean Cave.
+- **Capture Mewtwo:** After defeating SMITH, find and capture the legendary Pokémon Mewtwo.
 
 ## B. Active Hypotheses & Test Plans
 - **Light Screen Duration:** Hypothesis: Light Screen lasts for 5 turns, as is standard. Test Plan: In a future battle, count the turns after using Light Screen and watch for the 'Light Screen wore off!' message to confirm its duration.
