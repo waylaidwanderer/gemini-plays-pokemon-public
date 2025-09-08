@@ -61,7 +61,7 @@
 - **menu_analyzer:** Parses menu screen text to identify options and cursor position.
 - **select_menu_option:** Calculates button presses to navigate menus based on `menu_analyzer` output.
 - **automated_path_navigator:** Finds the shortest path between two points on the current map.
-- **elevator_navigator:** Automates floor selection in the Celadon Dept. Store elevator.
+
 - **auto_battle_selector:** Reliably selects a main battle menu option (FIGHT, PKMN, ITEM, RUN).
 ### Custom Agents
 - **navigation_strategist_agent:** Suggests high-level exploration strategies for complex areas.
