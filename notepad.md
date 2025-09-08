@@ -96,3 +96,4 @@
 ## B. New Agent Ideas
 - **`training_spot_analyzer`:** An agent that takes the player's party levels and a list of available routes with known wild Pokémon data to suggest the most optimal training location based on EXP yield and travel time.
 - **Dead End Logic:** I misidentified the Pokémon Center as not a dead end. A location is a dead end if it has fewer than 2 reachable, non-adjacent exits (warps/connections). I must be more careful with this check.
+- **System Dead End Logic (Clarification):** The system's 'is_in_dead_end_area' check applies to the *entire map*, not the current partitioned area. A map is considered a dead end only if it has fewer than 2 reachable exits in total, even if those exits are in separate, unreachable partitions. I must remember this to avoid future validation errors.
