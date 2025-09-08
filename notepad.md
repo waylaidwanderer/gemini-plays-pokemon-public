@@ -60,7 +60,6 @@
 - **puzzle_solver_agent:** Generates new hypotheses for complex puzzles.
 - **notepad_refactor_agent:** Generates `replace` operations for major notepad reorganization.
 - **comprehensive_battle_agent:** Provides both pre-battle team composition advice and turn-by-turn tactical recommendations.
-- **store_navigator_agent:** A high-level agent to devise exploration strategies for multi-floor buildings like department stores or Silph Co.
 
 ## B. Development Ideas
 - **Debugging Assistant Agent:** An agent that could take a tool's code, error messages, and debug logs as input to suggest potential bugs and more effective test cases. This would streamline the debugging process for complex tool failures.
