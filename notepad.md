@@ -101,3 +101,9 @@
 ## B. Notepad & Tool Improvements
 - **Missing Tile Mechanics:** Documented `impassable` and `water` tile types for completeness.
 - **System 'Dead End' Definition:** An area is NOT a 'dead end' if the entire map contains 2 or more reachable warps/connections, even if those exits are in different, unreachable partitions from the player's current location.
+
+# VII. Area-Specific Data
+
+## A. Cerulean Cave
+- **Wild Pokémon Encounters:**
+    - WIGGLYTUFF (Lv 62) - Moves: LOVELY KISS
