@@ -16,12 +16,12 @@
 
 # II. Game Mechanics & World Data
 
-## A. Interaction Rules & Game Systems
+## A. Discovered Mechanics
 - **1x1 Warp Tiles:** To re-use a 1x1 warp tile after arriving on it, you must step off the tile onto an adjacent ground tile, then step back on.
 - **Non-Instant Warps:** Some 1x1 warps are not instant. After stepping on the warp tile, you must press the directional button that moves you *into* the building's impassable boundary to trigger the warp.
 - **System 'Dead End' Definition:** An area is NOT a 'dead end' if the entire map contains 2 or more reachable warps/connections, even if those exits are in different, unreachable partitions from the player's current location.
-- **Decorative Grass (Celadon Dept. Store):** The small grass patches inside the Celadon Department Store are impassable.
 - **Trap Battles:** Certain wild encounters, particularly in late-game areas like Cerulean Cave, appear to be 'trap' battles where the 'RUN' option is disabled. This was observed with a Wigglytuff and suspected with a Ditto.
+- **Fainted HM Usage:** HMs like Surf can be used outside of battle even if the Pokémon that knows the move has fainted. (Confirmed by system notice on Turn 199815).
 
 ## B. Solved Puzzles
 - **Snorlax (Routes 11 & 12):** Awakened using the POKé FLUTE from the ITEM menu.
@@ -60,7 +60,7 @@
 
 ## B. Future Development Ideas
 - **`comprehensive_battle_agent` (Enhancements):**
-    - **Run vs. Fight Logic:** Add a module to decide whether to run from or fight a wild encounter based on party health, goal priority, and opponent threat level. This consolidation addresses the Overwatch critique about hyper-specialized agents.
+    - **Run vs. Fight Logic:** Add a module to decide whether to run from or fight a wild encounter based on party health, goal priority, and opponent threat level.
     - **Switch Advisor:** Incorporate logic to recommend the optimal Pokémon to switch to mid-battle, considering type matchups, HP, and status.
     - **Action Orchestrator:** Develop a high-level function that takes simple commands (e.g., 'switch to REVENANT') and orchestrates the necessary sequence of tool calls to execute it, streamlining complex menu navigation.
 
@@ -74,6 +74,12 @@
     - JYNX (Lv 64) - Moves: BLIZZARD, BUBBLEBEAM, DREAM EATER, LOVELY KISS
     - GENGAR (Lv 64) - Moves: NIGHT SHADE, PSYCHIC
     - ALAKAZAM (Lv 65) - Moves: THUNDER WAVE, PSYCHIC
+
+### 2. Cerulean Cave Wild Pokémon
+- **Observed Species & Moves:**
+    - WIGGLYTUFF (Lv 62) - Moves: LOVELY KISS, DOUBLE-EDGE
+    - SANDSLASH (Lv 63) - Moves: SWORDS DANCE
+    - GOLEM (Lv 64) - Moves: EXPLOSION
 
 # VI. Long-Term Plans & Strategies
 
@@ -94,14 +100,3 @@
     4. Enter Cerulean Cave and navigate to Mewtwo's location.
     5. Save before initiating the battle.
     6. Inflict status, lower HP, and begin throwing Ultra Balls.
-
-# VII. Area-Specific Data
-
-## A. Cerulean Cave
-- **Wild Pokémon Encounters:**
-    - WIGGLYTUFF (Lv 62) - Moves: LOVELY KISS, DOUBLE-EDGE, DOUBLE-EDGE
-    - SANDSLASH (Lv 63) - Moves: SWORDS DANCE
-    - GOLEM (Lv 64) - Moves: EXPLOSION
-- **Fainted HM Usage:** HMs like Surf can be used outside of battle even if the Pokémon that knows the move has fainted. (Confirmed by system notice on Turn 199815).
-- **Partition Blindness:** I must not assume an area is a dead end just because I can't reach my primary objective. I must always check for and explore all other reachable warps or exits within the current partition, as they may be the only way forward. (Failure on Turn 199901)
-- **System vs. Tool Reachability:** A tool's specific 'unreachable partition' message should be trusted over the system's general 'reachable' flag. The system may assume the use of HMs (like Surf) that are not currently possible from the player's position, leading to a discrepancy. (Failure on Turn 199944)
