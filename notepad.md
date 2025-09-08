@@ -39,8 +39,6 @@
 - **Capture Mewtwo:** After defeating SMITH, find and capture the legendary Pokémon Mewtwo.
 
 ## B. Active Hypotheses & Test Plans
-- **Route 24 Surf Path:** Hypothesis: Surfing south from Route 24 provides access to the otherwise fenced-off Cerulean Cave entrance. Test Plan: Use Surf on Route 24 and navigate south to see if the path to the cave is clear.
-- **Team Composition vs. SMITH:** Hypothesis: My current party is optimally configured for the rematch against SMITH. Test Plan: Use the `comprehensive_battle_agent` to perform a pre-battle analysis of my team against SMITH's known roster (Lv 65 AERODACTYL with HYPER BEAM, ROCK SLIDE). (Completed, Golem lead confirmed).
 - **Light Screen Duration:** Hypothesis: Light Screen lasts for 5 turns, as is standard. Test Plan: In a future battle, count the turns after using Light Screen and watch for the 'Light Screen wore off!' message to confirm its duration.
 - **Respawn Point:** Hypothesis: The game sets the last used Pokémon Center as the respawn point after a blackout. Test Plan: Heal at a new Pokémon Center, then intentionally black out to a weak wild Pokémon and observe the respawn location.
 - **Hidden Passages:** Hypothesis: Some 'impassable' walls in Cerulean Cave are secret passages. Test Plan: Systematically walk into different types of wall tiles in the current partition to test for fake walls. Mark tested walls with a map marker.
