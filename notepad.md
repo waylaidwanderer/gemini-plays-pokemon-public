@@ -96,6 +96,7 @@
 
 ### Cerulean Cave Wild Pokémon
 - **LICKITUNG (Lv 61):** Moves: WRAP
+- **CHANSEY (Lv 63):** Moves: DEFENSE CURL
 
 ### Discovered Mechanics
 - **Potential Ground Immunity:** A wild LICKITUNG (Lv 61) in Cerulean Cave took no damage from the Ground-type move EARTHQUAKE. It was defeated by the Rock-type move ROCK SLIDE. This suggests a potential type immunity or a specific battle mechanic. **Test Plan:** Encounter another Lickitung and test with a different Ground move (e.g., Bonemerang) to confirm.
