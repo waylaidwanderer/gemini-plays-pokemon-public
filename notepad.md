@@ -55,16 +55,19 @@
 ## A. Defined Tools & Agents
 ### Custom Tools
 - **menu_analyzer:** Parses menu screen text to identify options and cursor position.
+- **select_menu_option:** Calculates button presses to navigate menus based on `menu_analyzer` output.
 - **automated_path_navigator:** Finds the shortest path between two points on the current map.
-- **elevator_navigator:** Parses the Celadon Dept. Store elevator menu screen text, and given a target floor (e.g., '2F'), calculates the button presses needed to select it.
+- **elevator_navigator:** Automates floor selection in the Celadon Dept. Store elevator.
+- **auto_battle_selector:** Reliably selects a main battle menu option (FIGHT, PKMN, ITEM, RUN).
 ### Custom Agents
-- **navigation_strategist_agent:** Analyzes a high-level exploration goal, a list of previously failed/explored locations, and the current map's connections to suggest the next most logical area (map or warp) to investigate.
+- **navigation_strategist_agent:** Suggests high-level exploration strategies for complex areas.
 - **puzzle_solver_agent:** Generates new hypotheses for complex puzzles.
 - **notepad_refactor_agent:** Generates `replace` operations for major notepad reorganization.
-- **comprehensive_battle_agent:** Provides both pre-battle team composition advice and turn-by-turn tactical recommendations.
+- **comprehensive_battle_agent:** Provides pre-battle and in-battle tactical advice.
 
 ## B. Tool Development Ideas
-- **auto_flee:** A tool to automate running from wild battles. Current limitation is that advancing the initial battle text and selecting the RUN command is a two-turn process, which a single tool cannot execute.
+- **auto_flee_sequence:** A more advanced tool that could handle the multi-turn process of running from a battle, from the initial text prompt to completion.
+- **path_navigator_diagnostics:** Refine `automated_path_navigator` to provide specific reasons for path failure (e.g., 'Path blocked by water, requires Surf') instead of a generic 'unreachable partition' message.
 
 # V. Major Battle Data
 
