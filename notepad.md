@@ -83,3 +83,4 @@
     4. Enter Cerulean Cave and navigate to Mewtwo's location.
     5. Save before initiating the battle.
     6. Inflict status, lower HP, and begin throwing Ultra Balls.
+- **`steps` tiles:** These are the only tiles that allow movement between `ground` and `elevated_ground`.
