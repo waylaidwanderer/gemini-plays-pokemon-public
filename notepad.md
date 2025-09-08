@@ -70,7 +70,7 @@
 - **Battle State Parser Tool:** A tool to automatically parse screen text during a battle to generate the JSON input for the `comprehensive_battle_agent`.
 - **Fly Automator Tool:** A high-level tool that takes a destination city name as input and automatically executes the entire sequence of menu navigation required to fly there.
 - **Maze Navigator Automator Tool:** A high-level tool that takes the output of `stuck_navigator_agent` and automatically executes the navigation to the suggested warp, streamlining maze exploration.
-- **Item Buyer Tool:** A high-level tool that can navigate a shop menu to purchase a specified quantity of an item. This would automate the process of buying items like Ultra Balls.
+- **Item Buyer Tool:** A high-level tool that can navigate a shop menu to purchase a specified quantity of an item. This would automate the process of buying items like Ultra Balls. It should handle menu navigation, quantity selection, and confirmation.
 - **Store Navigator Agent:** A high-level agent to devise exploration strategies for multi-floor buildings like department stores or Silph Co.
 - **Elevator Automator Tool:** A high-level tool that automates the entire two-step process of using the Celadon Dept. Store elevator: selecting a floor from the menu, then pathfinding to and activating the correct warp tile.
 
