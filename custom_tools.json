@@ -76,6 +76,10 @@
         },
         "target_option": {
           "type": "string"
+        },
+        "confirm_selection": {
+          "type": "string",
+          "description": "Set to 'true' to append an 'A' button press to confirm the selection."
         }
       },
       "required": [
@@ -83,7 +87,7 @@
         "target_option"
       ]
     },
-    "python_script": "import json\n\nmenu_analyzer_output_str = input_data['menu_analyzer_output']\ntarget_option = input_data['target_option']\n\ntry:\n    menu_data = json.loads(menu_analyzer_output_str)\n    options = menu_data.get('options', [])\n    cursor_position = menu_data.get('cursor_position')\n    layout = menu_data.get('layout', 'single_column')\n\n    if not options or not cursor_position:\n        print(json.dumps({\"error\": \"Invalid menu data\"}))\n        exit()\n\n    try:\n        current_index = options.index(cursor_position)\n        target_index = options.index(target_option)\n    except ValueError:\n        print(json.dumps({\"error\": \"Option or cursor not found\"}))\n        exit()\n\n    button_presses = []\n    if layout == 'single_column':\n        moves = target_index - current_index\n        if moves > 0:\n            button_presses = ['Down'] * moves\n        elif moves < 0:\n            button_presses = ['Up'] * abs(moves)\n    elif layout == '2x2_grid':\n        # Assuming a 2x2 grid with a specific layout like FIGHT, PKMN, ITEM, RUN\n        positions = {options[i]: (i % 2, i // 2) for i in range(len(options))}\n        current_pos = positions[cursor_position]\n        target_pos = positions[target_option]\n        \n        h_moves = target_pos[0] - current_pos[0]\n        v_moves = target_pos[1] - current_pos[1]\n        \n        if h_moves > 0: button_presses.extend(['Right'] * h_moves)\n        if h_moves < 0: button_presses.extend(['Left'] * abs(h_moves))\n        if v_moves > 0: button_presses.extend(['Down'] * v_moves)\n        if v_moves < 0: button_presses.extend(['Up'] * abs(v_moves))\n\n    print(json.dumps(button_presses))\n\nexcept Exception as e:\n    print(json.dumps({\"error\": str(e)}))",
+    "python_script": "import json\nimport collections\n\nmenu_analyzer_output = input_data['menu_analyzer_output']\ntarget_option = input_data['target_option']\nconfirm_selection = input_data.get('confirm_selection', 'false').lower() == 'true'\n\ndata = json.loads(menu_analyzer_output)\noptions = data.get('options', [])\ncursor_position = data.get('cursor_position')\nlayout = data.get('layout', 'single_column')\n\nbutton_presses = []\n\nif not options or cursor_position is None or target_option not in options:\n    print(json.dumps([]))\nelse:\n    try:\n        start_index = options.index(cursor_position)\n        target_index = options.index(target_option)\n\n        if layout == 'single_column':\n            diff = target_index - start_index\n            if diff > 0:\n                button_presses.extend(['Down'] * diff)\n            elif diff < 0:\n                button_presses.extend(['Up'] * abs(diff))\n        \n        elif layout == '2x2_grid':\n            rows, cols = 2, 2\n            start_row, start_col = divmod(start_index, cols)\n            target_row, target_col = divmod(target_index, cols)\n\n            row_diff = target_row - start_row\n            col_diff = target_col - start_col\n\n            if row_diff > 0:\n                button_presses.extend(['Down'] * row_diff)\n            elif row_diff < 0:\n                button_presses.extend(['Up'] * abs(row_diff))\n            \n            if col_diff > 0:\n                button_presses.extend(['Right'] * col_diff)\n            elif col_diff < 0:\n                button_presses.extend(['Left'] * abs(col_diff))\n\n        if confirm_selection:\n            button_presses.append('A')\n\n        print(json.dumps(button_presses))\n\n    except (ValueError, KeyError) as e:\n        print(json.dumps([]))",
     "history": [
       {
         "commit_message": "feat: Create select_menu_option tool to automate menu navigation. This is a direct response to a critical Overwatch critique highlighting repeated failures in manual menu selection. This tool will take parsed menu data and a target string to calculate the necessary button presses, making actions like switching Pokémon reliable and efficient. This is a foundational step towards robust automation.",
@@ -119,6 +123,11 @@
         "commit_message": "feat: Add support for 2x2 grid layouts. The tool previously only handled single-column menus, causing it to fail on any other layout. This commit adds logic to calculate horizontal and vertical movements for grid-based menus, making the tool more versatile and robust for general menu automation.",
         "timestamp": "2025-09-07T01:03:38.390Z",
         "action_counter": 195485
+      },
+      {
+        "commit_message": "feat: Add `confirm_selection` argument. This commit adds a boolean flag to automatically append an 'A' button press to the calculated movement sequence. This addresses a critical flaw where the tool would move the cursor but not actually select the option, making menu automation unreliable. This is a direct response to a gameplay failure and an Overwatch critique.",
+        "timestamp": "2025-09-08T09:45:57.565Z",
+        "action_counter": 199361
       }
     ]
   },
