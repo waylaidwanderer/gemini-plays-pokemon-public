@@ -23,10 +23,12 @@
 - **Fainted HM Usage:** HMs like Surf can be used outside of battle even if the Pokémon that knows the move has fainted. (Confirmed by system notice on Turn 199815).
 
 ## B. Tile Traversal & Movement Rules
+- **`ground`:** Standard walkable tile.
+- **`impassable`:** Walls, counters, and other objects that cannot be walked on.
+- **`grass`:** Walkable tiles where wild Pokémon encounters can occur.
+- **`steps`:** These are the only tiles that allow movement between `ground` and `elevated_ground`.
 - **1x1 Warp Tiles (Instant):** Most 1x1 warps trigger instantly upon stepping on them. To re-use the warp, you must step off the tile and then back on.
 - **1x1 Warp Tiles (Non-Instant):** Some 1x1 warps require a second input. After stepping on the warp tile, you must press the directional button that moves you *into* the building's impassable boundary to trigger the warp.
-- **`steps` tiles:** These are the only tiles that allow movement between `ground` and `elevated_ground`.
-- **`grass` tiles:** Walkable tiles where wild Pokémon encounters can occur.
 
 ## C. Solved Puzzles
 - **Snorlax (Routes 11 & 12):** Awakened using the POKé FLUTE from the ITEM menu.
@@ -42,12 +44,15 @@
 - **Capture Mewtwo:** After defeating SMITH, find and capture the legendary Pokémon Mewtwo.
 
 ## B. Active Hypotheses & Test Plans
+- **Training Location:** Hypothesis: Cerulean Cave is the best location to train NIGHTSHADE. Test Plan: Enter the cave and engage in several wild battles to assess the Pokémon levels and EXP gain.
+- **Team Composition vs. SMITH:** Hypothesis: My current party is optimally configured for the rematch against SMITH. Test Plan: Use the `comprehensive_battle_agent` to perform a pre-battle analysis of my team against SMITH's known roster (Lv 65 AERODACTYL with HYPER BEAM, ROCK SLIDE).
 - **Light Screen Duration:** Hypothesis: Light Screen lasts for 5 turns, as is standard. Test Plan: In a future battle, count the turns after using Light Screen and watch for the 'Light Screen wore off!' message to confirm its duration.
 - **Respawn Point:** Hypothesis: The game sets the last used Pokémon Center as the respawn point after a blackout. Test Plan: Heal at a new Pokémon Center, then intentionally black out to a weak wild Pokémon and observe the respawn location.
 - **Hidden Passages:** Hypothesis: Some 'impassable' walls in Cerulean Cave are secret passages. Test Plan: Systematically walk into different types of wall tiles in the current partition to test for fake walls. Mark tested walls with a map marker.
 
 ## C. Disproven Hypotheses
 - **Menu Selection Bug:** Hypothesis: Selecting a Pokémon in the 'Bring out which POKéMON?' menu consistently opens the sub-menu for a different Pokémon. **(Disproven on Turn 197844)** Test: Selected REVENANT. Result: REVENANT's sub-menu opened. Conclusion: The bug is not a simple mis-selection of an adjacent Pokémon.
+- **Route 7 Training Spot:** Hypothesis: Route 7 is a good location for training NIGHTSHADE. **(Disproven on Turn 200582)** Test: Battled wild Pokémon. Result: Wild Pokémon were Lv 22-23, yielding minimal EXP. Conclusion: Route 7 is not a viable training spot for a Lv 44 Pokémon.
 
 # IV. Major Battle Data
 
@@ -60,7 +65,11 @@
     - GENGAR (Lv 64) - Moves: NIGHT SHADE, PSYCHIC
     - ALAKAZAM (Lv 65) - Moves: THUNDER WAVE, PSYCHIC
 
-### 2. Cerulean Cave Wild Pokémon
+### 2. SMITH (Cerulean Cave B1F)
+- **Roster:**
+    - AERODACTYL (Lv 65) - Moves: HYPER BEAM, ROCK SLIDE
+
+### 3. Cerulean Cave Wild Pokémon
 - **Observed Species & Moves:**
     - WIGGLYTUFF (Lv 62) - Moves: LOVELY KISS, DOUBLE-EDGE
     - SANDSLASH (Lv 63) - Moves: SWORDS DANCE
@@ -75,17 +84,14 @@
     - **Damage Dealer:** REVENANT (Bonemerang/Earthquake) to lower Mewtwo's health carefully. Need to avoid a critical hit KO.
     - **Utility:** A Pokémon with Surf is required for cave navigation (TITANESS or NEPTUNE).
 - **Required Items:**
-    - Purchase a large stock of Ultra Balls from a Poké Mart.
+    - I have 31 Ultra Balls, which should be sufficient.
     - Bring Max Potions and Full Heals for the battle.
     - The MASTER BALL is the final fallback option.
 - **Execution Plan:**
     1. Heal party at a Pokémon Center.
-    2. Fly to a city with a Mart (like Celadon) to stock up on Ultra Balls.
-    3. Fly to Cerulean City.
-    4. Enter Cerulean Cave and navigate to Mewtwo's location.
-    5. Save before initiating the battle.
+    2. Fly to Cerulean City.
+    3. Enter Cerulean Cave and navigate to Mewtwo's location.
+    4. Save before initiating the battle.
 
-### 3. SMITH (Cerulean Cave B1F)
-- **Roster:**
-    - AERODACTYL (Lv 65) - Moves: HYPER BEAM, ROCK SLIDE
-- **Ultra Ball Location:** Hypothesis: The Celadon Department Store sells Ultra Balls. **(Resolved - Checked inventory and already have 31 Ultra Balls.)**
+## B. New Agent Ideas
+- **`training_spot_analyzer`:** An agent that takes the player's party levels and a list of available routes with known wild Pokémon data to suggest the most optimal training location based on EXP yield and travel time.
