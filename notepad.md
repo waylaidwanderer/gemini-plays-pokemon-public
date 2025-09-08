@@ -35,7 +35,7 @@
 - **Pokémon Tower Ghost:** Used SILPH SCOPE to reveal the ghost.
 - **Seafoam Islands Current:** Solved multi-floor boulder puzzle to stop the strong water current.
 - **Pewter Museum Puzzle:** Solved by a sequence of interactions with the Aerodactyl Fossil and an invisible follower Pikachu, which caused a blocking Youngster to move.
-- **Cerulean Cave B1F Encounter Trap:** The high encounter rate at (2, 7) was not a scripted puzzle but simply high RNG. The solution was to move one tile at a time and run from each battle, as multi-step path plans were consistently interrupted.
+- **Cerulean Cave B1F Encounter Trap:** The high encounter rate at (2, 7) was not a scripted puzzle but simply high RNG. The solution was to move one tile at a time and run from each battle.
 
 # III. Current Objectives & Hypotheses
 
