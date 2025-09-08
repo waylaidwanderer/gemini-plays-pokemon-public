@@ -42,7 +42,7 @@
 # III. Current Objectives & Hypotheses
 
 ## A. Current Main Objective
-- **Defeat Sabrina:** I have solved the Saffron Gym Maze and now need to defeat the Gym Leader.
+- **Capture Mewtwo:** I need to stock up on Ultra Balls and then travel to Cerulean Cave to find and capture Mewtwo.
 
 ## B. Active Hypotheses & Test Plans
 - **Menu Cursor Reset:** Hypothesis: The game resets the cursor to the first Pokémon in the list in the 'Bring out which POKéMON?' menu if a turn passes without a selection. Test Plan: Next time I am in this specific menu, I will manually move the cursor to a different Pokémon, wait one turn, and observe if the cursor position changes.
