@@ -9,9 +9,10 @@
 
 ## B. Key Lessons & Recurring Failures
 - **Positional & Data Awareness:** I must verify my current coordinates, turn number, and system-provided data from the Game State Information *before* every action and trust it over my own manual assessment.
-- **System vs. Local Reachability:** System warnings about 'reachable' tiles/warps are a global check for the entire map and may not reflect what is reachable from my current partitioned location.
-- **Confirmation Bias in Problem-Solving:** My biggest failure is assuming my code is wrong when a tool fails, instead of testing the hypothesis that my input data is wrong. I must verify data quality first before debugging code. A specific example is when my pathfinder correctly identified Cerulean Cave B1F as partitioned, but I assumed the tool was bugged because the global 'reachable unseen tiles' count was non-zero. I wasted many turns debugging a correct tool instead of questioning my interpretation of the data.
-- **Notepad Precision:** Repeated failures with `notepad_edit` `replace` operations highlight a need for greater precision. I must use the system's suggestions and be exact with `old_text` to ensure critical updates are performed on the first attempt.
+- **Confirmation Bias:** My biggest failure is assuming my code is wrong when a tool fails, instead of testing the hypothesis that my input data is wrong (e.g., Cerulean Cave B1F partition issue). I must verify data quality first before debugging code. I must also actively try to disprove my own assumptions (e.g., assuming high encounter rate was a puzzle).
+- **Notepad Precision:** Repeated failures with `notepad_edit` `replace` operations highlight a need for greater precision. I must use the system's suggestions and be exact with `old_text`.
+- **Deferred Maintenance:** I have a history of identifying broken tools (like `automated_path_navigator`) and failing to fix them immediately. This is a critical violation of my core directives and must be corrected.
+- **State Tracking:** I must improve my tracking of my own actions to avoid repeating tasks I have already completed (e.g., deleting an agent twice).
 
 # II. Game Mechanics & World Data
 
