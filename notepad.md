@@ -75,6 +75,7 @@
     - **Run vs. Fight Logic:** Add a module to decide whether to run from or fight a wild encounter based on party health, goal priority, and opponent threat level. This consolidation addresses the Overwatch critique about hyper-specialized agents.
     - **Switch Advisor:** Incorporate logic to recommend the optimal Pokémon to switch to mid-battle, considering type matchups, HP, and status.
     - **Action Orchestrator:** Develop a high-level function that takes simple commands (e.g., 'switch to REVENANT') and orchestrates the necessary sequence of tool calls to execute it, streamlining complex menu navigation.
+    - **Action Orchestrator:** Develop a high-level function that takes simple commands (e.g., 'switch to REVENANT') and orchestrates the necessary sequence of tool calls to execute it, streamlining complex menu navigation.
 
 # V. Major Battle Data
 
