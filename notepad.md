@@ -114,3 +114,7 @@
 ## B. Notepad & Tool Improvements
 - **Missing Tile Mechanics:** Documented `impassable` and `water` tile types for completeness.
 - **New Tool Idea:** Re-documented the `auto_flee` tool concept, noting the two-turn limitation as a technical hurdle to solve.
+
+## C. High-Priority Tool Refinements (Post-Battle)
+- **`automated_path_navigator`:** Must be updated to provide specific reasons for path failure (e.g., 'Path blocked by water, requires Surf') instead of a generic 'unreachable partition' message. This is a critical fix to prevent future misinterpretations of game state.
+- **`battle_anomaly_detector_agent`:** New agent idea. Should analyze battle event logs to determine if repeated failures (like the 10 failed run attempts vs. Wigglytuff) are due to extreme RNG or a hidden 'trap' mechanic.
