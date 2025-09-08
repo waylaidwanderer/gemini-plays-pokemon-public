@@ -67,14 +67,6 @@
 - **comprehensive_battle_agent:** Provides both pre-battle team composition advice and turn-by-turn tactical recommendations.
 - **Store Navigator Agent:** A high-level agent to devise exploration strategies for multi-floor buildings like department stores or Silph Co.
 
-## B. Future Development Ideas
-- **Pokémon Switcher Tool:** A high-level tool that automates the entire process of switching Pokémon.
-- **Battle State Parser Tool:** A tool to automatically parse screen text during a battle to generate the JSON input for the `comprehensive_battle_agent`.
-- **Fly Automator Tool:** A high-level tool that takes a destination city name as input and automatically executes the entire sequence of menu navigation required to fly there.
-- **Maze Navigator Automator Tool:** A high-level tool that takes the output of `stuck_navigator_agent` and automatically executes the navigation to the suggested warp, streamlining maze exploration.
-- **Elevator Automator Tool:** A high-level tool that automates the entire two-step process of using the Celadon Dept. Store elevator: selecting a floor from the menu, then pathfinding to and activating the correct warp tile.
-- **stuck_navigator_agent Refinement:** Improve prompt to better distinguish between partitioned maps (requiring backtracking) and solvable mazes (requiring exploration of alternatives).
-
 # V. Major Battle Data
 
 ### 1. Sabrina (Saffron City Gym)
