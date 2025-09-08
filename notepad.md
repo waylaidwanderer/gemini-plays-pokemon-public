@@ -106,3 +106,4 @@
     5. Save before initiating the battle.
     6. Inflict status, lower HP, and begin throwing Ultra Balls.
 - **Decorative Grass (Celadon Dept. Store):** The small grass patches inside the Celadon Department Store are impassable and act as walls, despite the 'grass' tile type sometimes being traversable outdoors.
+- **Non-Instant Warps:** Some 1x1 warps are not instant. After stepping on the warp tile, you must press the directional button that moves you *into* the building's impassable boundary to trigger the warp. This can be confusing if an NPC is standing on the tile adjacent to the warp.
