@@ -9,9 +9,9 @@
 
 ## B. Key Lessons & Recurring Failures
 - **Positional & Data Awareness:** I must verify my current coordinates, turn number, and system-provided data from the Game State Information *before* every action and trust it over my own manual assessment.
-- **Confirmation Bias:** My biggest failure is assuming my code is wrong when a tool fails, instead of testing the hypothesis that my input data is wrong (e.g., Cerulean Cave B1F partition issue). I must verify data quality first before debugging code. I must also actively try to disprove my own assumptions (e.g., assuming high encounter rate was a puzzle).
+- **Confirmation Bias:** My biggest failure is assuming my code is wrong when a tool fails, instead of testing the hypothesis that my input data is wrong (e.g., Cerulean Cave B1F partition issue). I must verify data quality first before debugging code. I must also actively try to disprove my own assumptions (e.g., assuming high encounter rate was a puzzle, or that 3 failed escapes was just RNG).
 - **Notepad Precision:** Repeated failures with `notepad_edit` `replace` operations highlight a need for greater precision. I must use the system's suggestions and be exact with `old_text`.
-- **Deferred Maintenance:** I have a history of identifying broken tools (like `automated_path_navigator`) and failing to fix them immediately. This is a critical violation of my core directives and must be corrected.
+- **Deferred Maintenance:** I have a history of identifying broken tools (like `automated_path_navigator`, `menu_analyzer`, `auto_battle_selector`) and failing to fix them immediately. This is a critical violation of my core directives and must be corrected.
 - **State Tracking:** I must improve my tracking of my own actions to avoid repeating tasks I have already completed (e.g., deleting an agent twice).
 
 # II. Game Mechanics & World Data
@@ -20,9 +20,11 @@
 - **ground:** Standard walkable tile.
 - **elevated_ground:** Walkable tile at a different elevation. Cannot be accessed from `ground` directly.
 - **steps:** The only tile type that allows movement between `ground` and `elevated_ground`.
-- **ladder_up / ladder_down:** Warps between floors.
 - **impassable:** Walls, rocks, etc. Cannot be entered.
 - **water:** Can only be crossed with Surf.
+- **ledge:** One-way tile. Can be jumped down, but not climbed up.
+- **cuttable:** A tree that can be cut with HM Cut. Becomes `ground` after cutting but respawns.
+- **warp tiles:** Includes `ladder_up`, `ladder_down`, `teleport`, `hole`. These tiles move the player to a new location.
 
 ## B. Interaction Rules & Game Systems
 - **1x1 Warp Tiles:** To re-use a 1x1 warp tile after arriving on it, you must step off the tile onto an adjacent ground tile, then step back on.
@@ -44,13 +46,13 @@
 - **Find Exit:** The immediate goal is to navigate the cave's floors to find the main entrance/exit.
 
 ## B. Active Hypotheses & Test Plans
-- **Cerulean Cave 'Trap' Battle:** Hypothesis: The wild Wigglytuff encounter on Cerulean Cave 2F is a 'trap' battle where running is impossible. This is based on 10 consecutive failed escape attempts. Test Plan: This hypothesis was tested and confirmed by switching to an offensive strategy, which successfully ended the encounter.
 - **Light Screen Duration:** Hypothesis: Light Screen lasts for 5 turns, as is standard. Test Plan: In a future battle, count the turns after using Light Screen and watch for the 'Light Screen wore off!' message to confirm its duration.
 - **Respawn Point:** Hypothesis: The game sets the last used Pokémon Center as the respawn point after a blackout. Test Plan: Heal at a new Pokémon Center, then intentionally black out to a weak wild Pokémon and observe the respawn location.
 - **Cerulean Cave Exit Path:** Hypothesis: The ladder at (20, 8) on 2F is the next step in the path to the main cave area and the exit. Test Plan: Navigate to and use the ladder at (20, 8).
 
 ## C. Disproven Hypotheses
 - **Menu Selection Bug:** Hypothesis: Selecting a Pokémon in the 'Bring out which POKéMON?' menu consistently opens the sub-menu for a different Pokémon. **(Disproven on Turn 197844)** Test: Selected REVENANT. Result: REVENANT's sub-menu opened. Conclusion: The bug is not a simple mis-selection of an adjacent Pokémon.
+- **Cerulean Cave 'Trap' Battle:** Hypothesis: The wild Wigglytuff encounter on Cerulean Cave 2F is a 'trap' battle where running is impossible. **(Confirmed on Turn 199572)** Test: Attempted to run 10 times consecutively, all failed. Switched to an offensive strategy, which successfully ended the encounter.
 
 # IV. Tool & Agent Development
 
@@ -66,6 +68,10 @@
 - **puzzle_solver_agent:** Generates new hypotheses for complex puzzles.
 - **notepad_refactor_agent:** Generates `replace` operations for major notepad reorganization.
 - **comprehensive_battle_agent:** Provides pre-battle and in-battle tactical advice.
+- **battle_anomaly_detector_agent:** Analyzes repeated battle events for hidden mechanics.
+
+## B. Future Development Ideas
+- **`switch_advisor_agent`:** A specialized agent to recommend the optimal Pokémon to switch to during battle, considering type matchups, HP, and status conditions.
 
 # V. Major Battle Data
 
@@ -98,12 +104,8 @@
     5. Save before initiating the battle.
     6. Inflict status, lower HP, and begin throwing Ultra Balls.
 
-## B. Notepad & Tool Improvements
-- **Missing Tile Mechanics:** Documented `impassable` and `water` tile types for completeness.
-- **System 'Dead End' Definition:** An area is NOT a 'dead end' if the entire map contains 2 or more reachable warps/connections, even if those exits are in different, unreachable partitions from the player's current location.
-
 # VII. Area-Specific Data
 
 ## A. Cerulean Cave
 - **Wild Pokémon Encounters:**
-    - WIGGLYTUFF (Lv 62) - Moves: LOVELY KISS
+    - WIGGLYTUFF (Lv 62) - Moves: LOVELY KISS, DOUBLE-EDGE

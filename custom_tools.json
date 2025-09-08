@@ -12,7 +12,7 @@
         "screen_text"
       ]
     },
-    "python_script": "\nimport json\nimport re\n\nscreen_text = input_data['screen_text']\nlines = [line.strip() for line in screen_text.strip().split('\\n') if line.strip()]\n\noptions = []\ncursor_position = None\nlayout = 'single_column'\ncursor_char = '→'\n\n# Special handler for the glitched party sub-menu\nsubmenu_keywords = ['STATS', 'SWITCH', 'CANCEL']\nis_submenu = all(keyword in screen_text for keyword in submenu_keywords)\n\nif is_submenu:\n    layout = 'single_column'\n    options = submenu_keywords\n    \n    # The text contains a rendering artifact ('→FLASH') making direct cursor parsing unreliable.\n    # The game's cursor defaults to the first option, 'STATS', when this menu opens.\n    # We will assume this default unless the cursor is explicitly next to another valid option.\n    found_cursor = False\n    for line in lines:\n        if cursor_char in line:\n            # Check if this line contains one of our known valid options\n            for opt in options:\n                if opt in line:\n                    # The cursor is next to a valid option, so we can trust it\n                    cursor_position = opt\n                    found_cursor = True\n                    break\n        if found_cursor:\n            break\n            \n    # If the cursor was found on a line with junk text, assume it's on the first option\n    if not found_cursor and options:\n        cursor_position = options[0]\n\nelse:\n    # General menu parsing logic\n    is_party_menu = \"Choose a POKéMON\" in screen_text or \"Bring out which POKéMON\" in screen_text\n    if is_party_menu:\n        pokemon_names = []\n        cursor_index = -1\n        text_lines = screen_text.strip().split('\\n')\n        for i, line in enumerate(text_lines):\n            match = re.match(r\"^\\s*([A-Z']{2,})\\s+LV\", line)\n            if match:\n                pokemon_name = match.group(1).strip()\n                pokemon_names.append(pokemon_name)\n                if i + 1 < len(text_lines) and text_lines[i+1].strip().startswith(cursor_char):\n                    cursor_index = len(pokemon_names) - 1\n        options = pokemon_names\n        if cursor_index != -1 and options:\n            cursor_position = options[cursor_index]\n    else:\n        is_multi_column = any(re.search(r'\\S\\s{2,}\\S', line) for line in lines)\n        if is_multi_column:\n            layout = '2x2_grid'\n            flat_options = []\n            cursor_opt = None\n            for line in lines:\n                parts = re.split(r'\\s{2,}', line)\n                for part in parts:\n                    if part:\n                        clean_part = part.replace(cursor_char, '')\n                        flat_options.append(clean_part)\n                        if cursor_char in part:\n                            cursor_opt = clean_part\n            options = flat_options\n            cursor_position = cursor_opt\n        else:\n            for line in lines:\n                option = line.replace(cursor_char, '')\n                options.append(option)\n                if cursor_char in line:\n                    cursor_position = option\n\nresult = {\n    'options': options,\n    'cursor_position': cursor_position,\n    'layout': layout\n}\nprint(json.dumps(result))\n",
+    "python_script": "import json\nimport re\n\nscreen_text = input_data['screen_text']\nlines = [line.strip() for line in screen_text.strip().split('\\n') if line.strip()]\n\noptions = []\ncursor_position = None\nlayout = 'single_column'\ncursor_char = '→'\n\n# Special handler for the glitched party sub-menu\nsubmenu_keywords = ['STATS', 'SWITCH', 'CANCEL']\nis_submenu = all(keyword in screen_text for keyword in submenu_keywords)\n\nif is_submenu:\n    layout = 'single_column'\n    options = submenu_keywords\n    \n    found_cursor = False\n    for line in lines:\n        if cursor_char in line:\n            for opt in options:\n                if opt in line:\n                    cursor_position = opt\n                    found_cursor = True\n                    break\n        if found_cursor:\n            break\n            \n    if not found_cursor and options:\n        cursor_position = options[0]\n\nelse:\n    # General menu parsing logic\n    is_party_menu = \"Choose a POKéMON\" in screen_text or \"Bring out which POKéMON\" in screen_text\n    if is_party_menu:\n        pokemon_names = []\n        cursor_index = -1\n        text_lines = screen_text.strip().split('\\n')\n        \n        i = 0\n        while i < len(text_lines):\n            line1 = text_lines[i]\n            \n            match = re.match(r\"^\\s*([A-Z']{2,})\\s+LV\", line1)\n            if match:\n                pokemon_name = match.group(1).strip()\n                pokemon_names.append(pokemon_name)\n                \n                if i + 1 < len(text_lines):\n                    line2 = text_lines[i+1]\n                    if line2.strip().startswith('→'):\n                        cursor_index = len(pokemon_names) - 1\n                \n                i += 2\n            else:\n                i += 1\n                \n        options = pokemon_names\n        if cursor_index != -1 and options:\n            cursor_position = options[cursor_index]\n    else:\n        is_multi_column = any(re.search(r'\\S\\s{2,}\\S', line) for line in lines)\n        if is_multi_column:\n            layout = '2x2_grid'\n            flat_options = []\n            cursor_opt = None\n            for line in lines:\n                parts = re.split(r'\\s{2,}', line)\n                for part in parts:\n                    if part:\n                        clean_part = part.replace(cursor_char, '')\n                        flat_options.append(clean_part)\n                        if cursor_char in part:\n                            cursor_opt = clean_part\n            options = flat_options\n            cursor_position = cursor_opt\n        else:\n            for line in lines:\n                option = line.replace(cursor_char, '')\n                options.append(option)\n                if cursor_char in line:\n                    cursor_position = option\n\nresult = {\n    'options': options,\n    'cursor_position': cursor_position,\n    'layout': layout\n}\nprint(json.dumps(result))",
     "history": [
       {
         "commit_message": "feat: Create initial version of menu_analyzer. This tool is a direct response to repeated, critical failures in both manual and automated menu navigation. It provides a foundational capability to parse screen text to determine available menu options and the current cursor position. This is the first and most critical step towards building a reliable, environment-aware menu automation system, addressing a major strategic weakness identified by both self-assessment and Overwatch.",
@@ -63,11 +63,16 @@
         "commit_message": "fix: Add specific handler for glitched party sub-menu. The previous logic failed to parse the jumbled text and rendering artifacts on the STATS/SWITCH/CANCEL screen. This commit adds a special case to identify this menu by its keywords and correctly assumes the cursor is on the default first option ('STATS') when the text-based cursor position is unreliable. This is a critical fix to unblock party management automation.",
         "timestamp": "2025-09-08T06:53:05.525Z",
         "action_counter": 199067
+      },
+      {
+        "commit_message": "fix: Overhaul party menu parsing. The previous logic failed to correctly parse the two-line structure of party menu entries. This commit introduces a new while loop that processes the menu in two-line chunks, correctly identifying the Pokémon name and then checking the subsequent line for the cursor. This is a critical fix to address a repeated tool failure and enable reliable party management automation.",
+        "timestamp": "2025-09-08T11:51:03.394Z",
+        "action_counter": 199586
       }
     ]
   },
   "select_menu_option": {
-    "description": "Takes the output of `menu_analyzer` and a target option string (e.g., a Pokémon's name) and calculates the precise sequence of button presses (Up/Down/Left/Right) required to move the cursor from its current position to the target option. This automates menu navigation.",
+    "description": "Takes the output of `menu_analyzer` and a target option string (e.g., a Pokémon's name) and calculates the precise sequence of button presses (Up/Down/Left/Right) required to move the cursor from its current position to the target option. This tool ONLY generates directional movements; a separate 'A' press is required to confirm a selection.",
     "input_schema": {
       "type": "object",
       "properties": {
@@ -76,10 +81,6 @@
         },
         "target_option": {
           "type": "string"
-        },
-        "confirm_selection": {
-          "type": "string",
-          "description": "Set to 'true' to append an 'A' button press to confirm the selection."
         }
       },
       "required": [
@@ -87,7 +88,7 @@
         "target_option"
       ]
     },
-    "python_script": "import json\nimport collections\n\nmenu_analyzer_output = input_data['menu_analyzer_output']\ntarget_option = input_data['target_option']\nconfirm_selection = input_data.get('confirm_selection', 'false').lower() == 'true'\n\ndata = json.loads(menu_analyzer_output)\noptions = data.get('options', [])\ncursor_position = data.get('cursor_position')\nlayout = data.get('layout', 'single_column')\n\nbutton_presses = []\n\nif not options or cursor_position is None or target_option not in options:\n    print(json.dumps([]))\nelse:\n    try:\n        start_index = options.index(cursor_position)\n        target_index = options.index(target_option)\n\n        if layout == 'single_column':\n            diff = target_index - start_index\n            if diff > 0:\n                button_presses.extend(['Down'] * diff)\n            elif diff < 0:\n                button_presses.extend(['Up'] * abs(diff))\n        \n        elif layout == '2x2_grid':\n            rows, cols = 2, 2\n            start_row, start_col = divmod(start_index, cols)\n            target_row, target_col = divmod(target_index, cols)\n\n            row_diff = target_row - start_row\n            col_diff = target_col - start_col\n\n            if row_diff > 0:\n                button_presses.extend(['Down'] * row_diff)\n            elif row_diff < 0:\n                button_presses.extend(['Up'] * abs(row_diff))\n            \n            if col_diff > 0:\n                button_presses.extend(['Right'] * col_diff)\n            elif col_diff < 0:\n                button_presses.extend(['Left'] * abs(col_diff))\n\n        if confirm_selection:\n            button_presses.append('A')\n\n        print(json.dumps(button_presses))\n\n    except (ValueError, KeyError) as e:\n        print(json.dumps([]))",
+    "python_script": "import json\n\ntry:\n    menu_analyzer_output = json.loads(input_data['menu_analyzer_output'])\n    target_option = input_data['target_option']\n\n    options = menu_analyzer_output.get('options', [])\n    cursor_position = menu_analyzer_output.get('cursor_position')\n    layout = menu_analyzer_output.get('layout', 'single_column')\n\n    if not options or cursor_position is None or target_option not in options:\n        print(json.dumps([]))\n        exit()\n\n    current_idx = options.index(cursor_position)\n    target_idx = options.index(target_option)\n    \n    button_presses = []\n\n    if layout == 'single_column':\n        diff = target_idx - current_idx\n        if diff > 0:\n            button_presses.extend(['Down'] * diff)\n        elif diff < 0:\n            button_presses.extend(['Up'] * abs(diff))\n    \n    elif layout == '2x2_grid':\n        pos_map = {\n            0: (0, 0), 1: (0, 1),\n            2: (1, 0), 3: (1, 1)\n        }\n        current_row, current_col = pos_map.get(current_idx, (0,0))\n        target_row, target_col = pos_map.get(target_idx, (0,0))\n\n        row_diff = target_row - current_row\n        col_diff = target_col - current_col\n\n        if row_diff > 0: button_presses.extend(['Down'] * row_diff)\n        elif row_diff < 0: button_presses.extend(['Up'] * abs(row_diff))\n        \n        if col_diff > 0: button_presses.extend(['Right'] * col_diff)\n        elif col_diff < 0: button_presses.extend(['Left'] * abs(col_diff))\n\n    print(json.dumps(button_presses))\n\nexcept Exception as e:\n    print(json.dumps([]))",
     "history": [
       {
         "commit_message": "feat: Create select_menu_option tool to automate menu navigation. This is a direct response to a critical Overwatch critique highlighting repeated failures in manual menu selection. This tool will take parsed menu data and a target string to calculate the necessary button presses, making actions like switching Pokémon reliable and efficient. This is a foundational step towards robust automation.",
@@ -128,6 +129,11 @@
         "commit_message": "feat: Add `confirm_selection` argument. This commit adds a boolean flag to automatically append an 'A' button press to the calculated movement sequence. This addresses a critical flaw where the tool would move the cursor but not actually select the option, making menu automation unreliable. This is a direct response to a gameplay failure and an Overwatch critique.",
         "timestamp": "2025-09-08T09:45:57.565Z",
         "action_counter": 199361
+      },
+      {
+        "commit_message": "refactor: Remove automatic 'A' press and `confirm_selection` flag. The system has repeatedly shown issues with mixed directional and action button sequences, leading to tool failure. This commit refactors the tool to only generate directional movements, forcing a more reliable two-step process (move, then confirm) for menu navigation. This is a direct response to a critical tool failure and an Overwatch critique.",
+        "timestamp": "2025-09-08T11:58:46.787Z",
+        "action_counter": 199602
       }
     ]
   },
@@ -489,7 +495,7 @@
     ]
   },
   "auto_battle_selector": {
-    "description": "Automatically selects the requested main battle menu option (FIGHT, PKMN, ITEM, RUN). This tool can only be used during a battle when the main battle menu is visible. It cannot be used if a sub-menu is open. **You should always prefer using this tool over manually selecting the option, especially when struggling to select the correct option.**",
+    "description": "Automatically moves the cursor to the requested main battle menu option (FIGHT, PKMN, ITEM, RUN). This tool can only be used during a battle when the main battle menu is visible. It cannot be used if a sub-menu is open. This tool ONLY generates directional movements; a separate 'A' press is required to confirm a selection.",
     "input_schema": {
       "type": "object",
       "properties": {
@@ -500,12 +506,10 @@
             "PKMN",
             "ITEM",
             "RUN"
-          ],
-          "description": "The main battle menu option you want to automatically select"
+          ]
         },
         "screen_text": {
-          "type": "string",
-          "description": "The full screen text from the game, used to determine the current cursor position."
+          "type": "string"
         }
       },
       "required": [
@@ -513,7 +517,7 @@
         "screen_text"
       ]
     },
-    "python_script": "import json\nimport re\n\nscreen_text = input_data['screen_text']\noption_to_select = input_data['option_to_select']\n\noption_positions = {\n    'FIGHT': (0, 0),\n    'PKMN': (0, 1),\n    'ITEM': (1, 0),\n    'RUN': (1, 1)\n}\n\ncurrent_option = None\npatterns = {\n    'FIGHT': r'→\\s*FIGHT',\n    'PKMN': r'→\\s*PKMN',\n    'ITEM': r'→\\s*ITEM',\n    'RUN': r'→\\s*RUN'\n}\n\n# A more robust check for the second column options\nif not current_option and re.search(r'FIGHT\\s+→PKMN', screen_text): current_option = 'PKMN'\nif not current_option and re.search(r'ITEM\\s+→RUN', screen_text): current_option = 'RUN'\n\n# Check for first column options\nfor option, pattern in patterns.items():\n    if re.search(pattern, screen_text):\n        current_option = option\n        break\n\n# Default to FIGHT if parsing fails\nif current_option is None:\n    current_option = 'FIGHT'\n\ncurrent_pos = option_positions.get(current_option, (0, 0))\ntarget_pos = option_positions.get(option_to_select)\n\nif target_pos is None:\n    print(json.dumps([]))\nelse:\n    row_diff = target_pos[0] - current_pos[0]\n    col_diff = target_pos[1] - current_pos[1]\n\n    button_presses = []\n    if row_diff > 0:\n        button_presses.extend(['Down'] * row_diff)\n    elif row_diff < 0:\n        button_presses.extend(['Up'] * abs(row_diff))\n\n    if col_diff > 0:\n        button_presses.extend(['Right'] * col_diff)\n    elif col_diff < 0:\n        button_presses.extend(['Left'] * abs(col_diff))\n    \n    button_presses.append('A')\n    print(json.dumps(button_presses))",
+    "python_script": "import json\nimport re\n\nscreen_text = input_data['screen_text']\noption_to_select = input_data['option_to_select']\n\noption_positions = {\n    'FIGHT': (0, 0),\n    'PKMN': (0, 1),\n    'ITEM': (1, 0),\n    'RUN': (1, 1)\n}\n\ncurrent_option = None\npatterns = {\n    'FIGHT': r'→\\s*FIGHT',\n    'PKMN': r'→\\s*PKMN',\n    'ITEM': r'→\\s*ITEM',\n    'RUN': r'→\\s*RUN'\n}\n\nif not current_option and re.search(r'FIGHT\\s+→PKMN', screen_text): current_option = 'PKMN'\nif not current_option and re.search(r'ITEM\\s+→RUN', screen_text): current_option = 'RUN'\n\nfor option, pattern in patterns.items():\n    if re.search(pattern, screen_text):\n        current_option = option\n        break\n\nif current_option is None:\n    current_option = 'FIGHT'\n\ncurrent_pos = option_positions.get(current_option, (0, 0))\ntarget_pos = option_positions.get(option_to_select)\n\nif target_pos is None:\n    print(json.dumps([]))\nelse:\n    row_diff = target_pos[0] - current_pos[0]\n    col_diff = target_pos[1] - current_pos[1]\n\n    button_presses = []\n    if row_diff > 0:\n        button_presses.extend(['Down'] * row_diff)\n    elif row_diff < 0:\n        button_presses.extend(['Up'] * abs(row_diff))\n\n    if col_diff > 0:\n        button_presses.extend(['Right'] * col_diff)\n    elif col_diff < 0:\n        button_presses.extend(['Left'] * abs(col_diff))\n    \n    print(json.dumps(button_presses))",
     "history": [
       {
         "commit_message": "Initial version",
@@ -524,6 +528,11 @@
         "commit_message": "fix: Add screen_text parsing to determine cursor position. The tool previously assumed the cursor always started at 'FIGHT', causing it to fail in other scenarios. This commit makes the tool robust to any starting cursor position by parsing the screen text. This is a critical fix to enable reliable battle automation.",
         "timestamp": "2025-09-08T09:47:08.934Z",
         "action_counter": 199362
+      },
+      {
+        "commit_message": "refactor: Remove automatic 'A' press. The system has repeatedly shown issues with mixed directional and action button sequences, leading to tool failure. This commit refactors the tool to only generate directional movements, forcing a more reliable two-step process (move, then confirm) for battle menu navigation. This is a direct response to a critical tool failure and an Overwatch critique.",
+        "timestamp": "2025-09-08T11:59:24.144Z",
+        "action_counter": 199603
       }
     ]
   },
