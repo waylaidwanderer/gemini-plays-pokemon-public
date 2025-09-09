@@ -1,19 +1,17 @@
-# I. Core Directives & Lessons
+# I. Core Principles & Lessons Learned
 
-## A. Core Directives
-1.  **IMMEDIATE MAINTENANCE:** All data management (notepad, markers) and tool/agent refinement is the HIGHEST priority and MUST be performed in the same turn a need is identified. Deferring these tasks is a critical failure.
-2.  **PROACTIVE AUTOMATION:** Before any complex or repetitive task, I must first consider automating it with a tool or agent. If one doesn't exist, creating it is the new priority.
-3.  **TRUST, BUT REFINE:** I must trust the outputs of my agents and system data. If an agent or tool is suboptimal, I must prioritize refining it immediately. A tool's error message about its inputs is a reflection of my data quality, not a flaw in the tool.
-4.  **TRUST GAME STATE OVER TOOLS:** If a tool's output contradicts the Game State Information, my assumption must be that the tool is wrong. I must prioritize debugging the tool.
-5.  **ABANDON FAILED HYPOTHESES:** If a strategy fails repeatedly, I must recognize the pattern, document it, and pivot to a new approach. I must not get stuck on a single solution and be flexible.
+## A. Core Principles
+1.  **Immediate Maintenance:** All data management (notepad, markers) and tool/agent refinement is the HIGHEST priority and MUST be performed in the same turn a need is identified. Deferring these tasks is a critical failure.
+2.  **Proactive Automation:** Before any complex or repetitive task, I must first consider automating it with a tool or agent. If one doesn't exist, creating it is the new priority.
+3.  **Trust, But Refine:** I must trust the outputs of my agents and system data. If an agent or tool is suboptimal, I must prioritize refining it immediately. A tool's error message about its inputs is a reflection of my data quality, not a flaw in the tool.
+4.  **Trust Game State Over Tools:** If a tool's output contradicts the Game State Information, my assumption must be that the tool is wrong. I must prioritize debugging the tool.
+5.  **Abandon Failed Hypotheses:** If a strategy fails repeatedly, I must recognize the pattern, document it, and pivot to a new approach. I must not get stuck on a single solution and be flexible.
 
 ## B. Key Lessons & Recurring Failures
-- **CRITICAL: DATA VERIFICATION:** My most severe failures stem from hallucinating my location or other game state variables. I MUST verify my current map ID, coordinates, and other data from the Game State Information *before* every single action. Trust the data, not my memory.
-- **Positional & Data Awareness:** I must verify my current coordinates, turn number, and system-provided data from the Game State Information *before* every action and trust it over my own manual assessment.
-- **Confirmation Bias:** My biggest failure is assuming my code is wrong when a tool fails, instead of testing the hypothesis that my input data is wrong (e.g., trying to path through a fence on Route 2). I must verify data quality first before debugging code. I must also actively try to disprove my own assumptions.
-- **Notepad Precision:** Repeated failures with `notepad_edit` `replace` operations highlight a need for greater precision. I must use the system's suggestions and be exact with `old_text`.
-- **Deferred Maintenance:** I have a history of identifying broken tools (like `automated_path_navigator`) and failing to fix them immediately. This is a critical violation of my core directives and must be corrected.
-- **State Tracking & Verification:** I must improve my tracking of my own actions and their outcomes to avoid repeating tasks. On turn 203161, I almost repeated a maintenance action. On turns 203203-203204, I got stuck in a loop trying to fix a notepad issue that was already resolved on turn 203202. This is a critical, recurring failure that needs to be addressed by verifying the outcome of every action before planning the next.
+- **CRITICAL: Data Verification & State Tracking:** My most severe failures stem from hallucinating game state variables (location, turn count, etc.) and failing to track the outcomes of my own actions. I MUST verify my current map ID, coordinates, and all other data from the Game State Information *before* every single action and trust it over my memory.
+- **Confirmation Bias:** My biggest failure is assuming my code is wrong when a tool fails, instead of testing the hypothesis that my input data is wrong. I must verify data quality first before debugging code and actively try to disprove my own assumptions.
+- **Notepad Precision:** I must be exact with `old_text` when using `notepad_edit` `replace` operations to avoid failures.
+- **Deferred Maintenance:** I have a history of identifying broken tools and failing to fix them immediately. This is a critical violation of my core principles and must be corrected.
 
 # II. Game Mechanics & World Data
 - **Trap Battles:** Certain wild encounters appear to be 'trap' battles where the 'RUN' option is disabled (Observed: Wigglytuff, KADABRA; Suspected: Ditto).
