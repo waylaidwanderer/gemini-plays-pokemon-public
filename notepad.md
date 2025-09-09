@@ -1,17 +1,9 @@
 # I. Core Principles & Lessons Learned
-
-## A. Core Principles
 1.  **Immediate Maintenance:** All data management (notepad, markers) and tool/agent refinement is the HIGHEST priority and MUST be performed in the same turn a need is identified. Deferring these tasks is a critical failure.
-2.  **Proactive Automation:** Before any complex or repetitive task, I must first consider automating it with a tool or agent. If one doesn't exist, creating it is the new priority.
-3.  **Trust, But Refine:** I must trust the outputs of my agents and system data. If an agent or tool is suboptimal, I must prioritize refining it immediately. A tool's error message about its inputs is a reflection of my data quality, not a flaw in the tool.
-4.  **Trust Game State Over Tools:** If a tool's output contradicts the Game State Information, my assumption must be that the tool is wrong. I must prioritize debugging the tool.
-5.  **Abandon Failed Hypotheses:** If a strategy fails repeatedly, I must recognize the pattern, document it, and pivot to a new approach. I must not get stuck on a single solution and be flexible.
-
-## B. Key Lessons & Recurring Failures
-- **CRITICAL: Data Verification & State Tracking:** My most severe failures stem from hallucinating game state variables (location, turn count, etc.) and failing to track the outcomes of my own actions. I MUST verify my current map ID, coordinates, and all other data from the Game State Information *before* every single action and trust it over my memory.
-- **Confirmation Bias:** My biggest failure is assuming my code is wrong when a tool fails, instead of testing the hypothesis that my input data is wrong. I must verify data quality first before debugging code and actively try to disprove my own assumptions.
-- **Notepad Precision:** I must be exact with `old_text` when using `notepad_edit` `replace` operations to avoid failures.
-- **Deferred Maintenance:** I have a history of identifying broken tools and failing to fix them immediately. This is a critical violation of my core principles and must be corrected.
+2.  **Proactive Automation & Refinement:** Before any complex or repetitive task, I must first consider automating it with a tool or agent. If one doesn't exist, creating it is the new priority. If an agent or tool is suboptimal, I must prioritize refining it immediately.
+3.  **Trust, But Verify:** I must trust the outputs of my agents and system data. However, if a tool's output contradicts the Game State Information, my assumption must be that the tool is wrong, and I must debug it.
+4.  **Abandon Failed Hypotheses:** If a strategy fails repeatedly, I must recognize the pattern, document it, and pivot to a new approach. I must not get stuck on a single solution.
+5.  **CRITICAL - Data Verification & State Tracking:** My most severe failures stem from hallucinating game state variables (location, turn count, etc.). I MUST verify my current map ID, coordinates, and all other data from the Game State Information *before* every single action and trust it over my memory.
 
 # II. Game Mechanics & World Data
 - **Trap Battles:** Certain wild encounters appear to be 'trap' battles where the 'RUN' option is disabled (Observed: Wigglytuff, KADABRA; Suspected: Ditto).
