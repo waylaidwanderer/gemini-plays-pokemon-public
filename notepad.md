@@ -20,6 +20,7 @@
 - **Fainted HM Usage:** A fainted Pokémon can still use field moves like CUT and Surf outside of battle.
 - **Cycling Road Forced Movement:** On certain routes like Route 18, the player character experiences forced, multi-tile movement in a single direction, especially when moving downhill.
 - **Map Partitions & Reachability:** A single map can have physically disconnected areas (partitions). A path may be blocked by being in the wrong partition. I must analyze the map XML for physical barriers and not solely rely on the 'Reachable' flag in the Game State Information.
+- **PC Interaction:** The PC at a Pokémon Center must be interacted with from the tile directly below it (Y+1), while facing up.
 
 # III. Current Objectives & Hypotheses
 
@@ -28,7 +29,6 @@
 
 ## B. Active Hypotheses & Test Plans
 - **Mt. Moon Rocket Grunt:** Hypothesis: Giving a fossil Pokémon to the Rocket Grunt at (30, 12) on Mt. Moon B2F will cause him to move and unblock the path. Test Plan: Withdraw a fossil Pokémon from the PC, travel to Mt. Moon, and interact with the grunt.
-- **PC Interaction:** Hypothesis: The PC at a Pokémon Center must be interacted with from the tile directly below it (Y+1), while facing up. Test Plan: Navigate to (14, 5) in the Mt. Moon Pokémon Center, face up, and press 'A'.
 - **Light Screen Duration:** Hypothesis: Light Screen lasts for 5 turns. Test Plan: In a future battle, count the turns after using Light Screen to confirm its duration.
 - **Respawn Point:** Hypothesis: The game sets the last used Pokémon Center as the respawn point after a blackout. Test Plan: Heal at a new Pokémon Center, then intentionally black out to a weak wild Pokémon and observe the respawn location.
 
@@ -86,6 +86,10 @@
 - **`battle_matchup_analyzer`:** A tool that takes my party and an opponent's Pokémon species as input, analyzes type matchups, and suggests the optimal Pokémon to switch to.
 - **`PC Organizer Tool`**: A tool to analyze stored Pokémon and suggest which ones to keep, train, or release based on current goals and team composition.
 - **PC/Party Menu Navigation Toolchain (`menu_analyzer` and `select_menu_option`):** Create a series of tools to fully automate withdrawing/depositing Pokémon and using HMs. This is a high-priority task to eliminate manual errors and inefficiency.
+- **PC Task Agent:** A high-level agent that could take a goal like "Withdraw HELIX" and break it down into the necessary sub-steps, calling the appropriate tools (`pc_navigator`, `select_menu_option`, etc.) to complete the task automatically.
 
 # VIII. Tile Traversal and Movement Rules
-- This section will document the observed behavior of all unique tile types encountered in the game.
+- **ground:** Standard walkable tile.
+- **elevated_ground:** Walkable, but only accessible from other `elevated_ground` tiles or `steps`.
+- **impassable:** Cannot be entered. Walls, objects, etc.
+- **ladder_up / ladder_down:** Warps between floors.
