@@ -23,8 +23,6 @@
   - Test Plan: If the primary hypothesis fails, check inventory/PC for a fossil item. If none, investigate re-acquiring one (e.g., Pewter Museum).
 - **Tertiary Hypothesis (Cinnabar Flag):** A story flag must be triggered at the Cinnabar Island Pokémon Lab before the Mt. Moon event can be resolved.
   - Test Plan: If other hypotheses fail, fly to Cinnabar, speak with all scientists (especially the fossil reviver), then return to Mt. Moon.
-- **Game Mechanic Hypothesis (Respawn Point):** The game sets the last used Pokémon Center as the respawn point after a blackout.
-  - Test Plan: Heal at a new Pokémon Center, then intentionally black out to observe the respawn location.
 
 # IV. Solved Puzzles & Disproven Hypotheses
 - **PC Interaction:** The PC at a Pokémon Center must be interacted with from the tile directly below it (Y+1), while facing up. **(Proven on Turn 202507)**
