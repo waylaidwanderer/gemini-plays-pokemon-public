@@ -75,7 +75,7 @@
 - **Roster:**
     - OMASTAR (Lv 64) - Moves: HYDRO PUMP
     - ONIX (Lv 65) - Moves: EARTHQUAKE
-    - KABUTOPS (Lv 64) - Moves:
+    - KABUTOPS (Lv 64) - Moves: SWORDS DANCE
 
 # VI. Tile Mechanics
 - **ground**: Standard walkable tile.
