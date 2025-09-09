@@ -27,6 +27,7 @@
 - **Potential Ground Immunity:** A wild LICKITUNG (Lv 61) in Cerulean Cave took no damage from the Ground-type move EARTHQUAKE. It was defeated by the Rock-type move ROCK SLIDE. This suggests a potential type immunity or a specific battle mechanic. **Test Plan:** Encounter another Lickitung and test with a different Ground move (e.g., Bonemerang) to confirm.
 - **Sleeping HM Usage:** A Pokémon with the Sleep status condition CAN use an HM move (like Surf) outside of battle. (Confirmed on Turn 201076 in Cerulean Cave 1F).
 - **Elevated Ground:** Movement between `ground` and `elevated_ground` is only possible via `steps` tiles. Direct movement between them is impossible.
+- **Ledges:** Can be jumped down, but not climbed up. Treat as ground only when above (Y-1); otherwise, treat as impassable walls.
 
 ## B. Solved Puzzles
 - **Snorlax (Routes 11 & 12):** Awakened using the POKé FLUTE from the ITEM menu.
