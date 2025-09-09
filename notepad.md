@@ -31,14 +31,15 @@
 - **Light Screen Duration:** Hypothesis: Light Screen lasts for 5 turns. Test Plan: In a future battle, count the turns after using Light Screen to confirm its duration.
 - **Respawn Point:** Hypothesis: The game sets the last used Pokémon Center as the respawn point after a blackout. Test Plan: Heal at a new Pokémon Center, then intentionally black out to a weak wild Pokémon and observe the respawn location.
 
-## C. Disproven Hypotheses
+# IV. Solved Puzzles & Disproven Hypotheses
+- **Pokémon PC Menu:** Hypothesis: "Gem's PC" leads to Pokémon Storage. **(Disproven over ~5 turns)** Test: Selected "Gem's PC". Result: Consistently led to Item Storage. Conclusion: "Gem's PC" is for items. **New Hypothesis:** "BILL's PC" leads to Pokémon Storage. **(Proven on Turn 202198)** Test: Selected "BILL's PC". Result: Successfully accessed Pokémon Storage System.
 - **S.S. TICKET:** Hypothesis: The S.S. TICKET from the Silph Co. President allows access to a new ship or area at the Vermilion City port. **(Disproven on Turn 202143)** Test: Went to the S.S. Anne dock entrance at (19, 32) and interacted with the sailor. Result: The sailor gave the standard "The ship set sail" dialogue, indicating no new event was triggered.
 - **Route 2 Gatehouse Path:** Hypothesis: The gatehouse at (17, 36) connects the eastern and western partitions of Route 2. **(Disproven on Turn 201910)** Test: Entered the gatehouse warp. Result: Emerged on the same side of the route after a brief loading screen, indicating it's not a partition connector. Conclusion: The gatehouse is a simple pass-through building on one side of the route.
 - **Route 2 Northern Path:** Hypothesis: The path north to Pewter City from the eastern partition of Route 2 is directly accessible. **(Disproven on Turn 201874)** Test: Used `automated_path_navigator`. Result: No path found due to an impassable fence. Conclusion: The map is partitioned.
 - **Menu Selection Bug:** Hypothesis: Selecting a Pokémon in the 'Bring out which POKéMON?' menu consistently opens the sub-menu for a different Pokémon. **(Disproven on Turn 197844)**
 - **Route 7 Training Spot:** Hypothesis: Route 7 is a good location for training NIGHTSHADE. **(Disproven on Turn 200582)**
 
-# IV. Major Battle Data
+# V. Major Battle Data
 
 ### 1. Sabrina (Saffron City Gym)
 - **Roster:**
@@ -73,7 +74,7 @@
     - CHANSEY (Lv 63): Moves: DEFENSE CURL, MEGA PUNCH
     - RAICHU (Lv 64): Moves: AGILITY
 
-# V. Technical Documentation
+# VI. Technical Documentation
 
 ## A. Automation & Tool Development Ideas
 - **`map_partition_analyzer`:** A tool that takes map XML and a start coordinate, performs a BFS, and returns all reachable tiles. This would programmatically verify reachability before pathfinding.
@@ -81,20 +82,5 @@
 - **Pathing Strategist/Chunker:** A tool to break down long paths on maps with forced movement (like Cycling Road).
 - **Multi-Step Navigation Agent:** An agent that can create a high-level plan involving multiple steps, such as navigating to an obstacle, removing it, and then navigating to the final destination.
 - **`battle_matchup_analyzer`:** A tool that takes my party and an opponent's Pokémon species as input, analyzes type matchups, and suggests the optimal Pokémon to switch to.
-- **`select_move_tool`**: A tool that takes a move name as input from the battle menu and calculates the button presses to select it. (DEFINED)
-
-# VI. Tile Mechanics
-- **ground**: Standard walkable tile.
-- **impassable**: Walls, objects, cannot be entered.
-- **grass**: Tall grass with wild Pokémon encounters.
-- **water**: Requires SURF to cross.
-- **cuttable**: A tree that can be cut with HM01 CUT.
-- **ledge**: Can only be jumped down from above.
-- **steps**: Allows movement between `ground` and `elevated_ground`.
-- **elevated_ground**: Walkable ground at a different elevation.
-- **teleport**: Instant warp tile.
-- **hole**: Warps to a lower floor.
-- **ladder_up / ladder_down**: Warps between floors.
-- **spinner_...**: Forces movement in a specific direction.
 - **`Quest Assistant Agent`**: An agent that takes a quest description (e.g., 'Need a fossil Pokémon') and the player's stored Pokémon list to recommend the best candidate for the task.
 - **`PC Organizer Tool`**: A tool to analyze stored Pokémon and suggest which ones to keep, train, or release based on current goals and team composition.
