@@ -20,7 +20,6 @@
 - **Fainted HM Usage:** A fainted Pokémon can still use field moves like CUT and Surf outside of battle.
 - **Cycling Road Forced Movement:** On certain routes like Route 18, the player character experiences forced, multi-tile movement in a single direction, especially when moving downhill.
 - **Map Partitions & Reachability:** A single map can have physically disconnected areas (partitions). A path may be blocked by being in the wrong partition. I must analyze the map XML for physical barriers and not solely rely on the 'Reachable' flag in the Game State Information.
-- **PC Interaction:** The PC at a Pokémon Center must be interacted with from the tile directly below it (Y+1), while facing up.
 
 # III. Current Objectives & Hypotheses
 
@@ -31,6 +30,7 @@
 - **Mt. Moon Rocket Grunt:** Hypothesis: Giving a fossil Pokémon to the Rocket Grunt at (30, 12) on Mt. Moon B2F will cause him to move and unblock the path. Test Plan: Withdraw a fossil Pokémon from the PC, travel to Mt. Moon, and interact with the grunt.
 - **Light Screen Duration:** Hypothesis: Light Screen lasts for 5 turns. Test Plan: In a future battle, count the turns after using Light Screen to confirm its duration.
 - **Respawn Point:** Hypothesis: The game sets the last used Pokémon Center as the respawn point after a blackout. Test Plan: Heal at a new Pokémon Center, then intentionally black out to a weak wild Pokémon and observe the respawn location.
+- **PC Interaction:** Hypothesis: The PC at a Pokémon Center must be interacted with from the tile directly below it (Y+1), while facing up. **(Proven on Turn 202507)**
 
 # IV. Solved Puzzles & Disproven Hypotheses
 - **Pokémon PC Menu:** Hypothesis: "Gem's PC" leads to Pokémon Storage. **(Disproven over ~20 turns)** Test: Selected "Gem's PC". Result: Consistently led to Item Storage. Conclusion: "Gem's PC" is for items. **New Hypothesis:** "BILL's PC" leads to Pokémon Storage. **(Proven on Turn 202198)** Test: Selected "BILL's PC". Result: Successfully accessed Pokémon Storage System.
@@ -84,8 +84,7 @@
 - **Pathing Strategist/Chunker:** A tool to break down long paths on maps with forced movement (like Cycling Road).
 - **Multi-Step Navigation Agent / `navigation_strategist_agent`:** An agent to break down long-term navigation goals into smaller, manageable steps.
 - **`battle_matchup_analyzer`:** A tool that takes my party and an opponent's Pokémon species as input, analyzes type matchups, and suggests the optimal Pokémon to switch to.
-- **`PC Organizer Tool`**: A tool to analyze stored Pokémon and suggest which ones to keep, train, or release based on current goals and team composition.
-- **PC Task Agent:** A high-level agent that could take a goal like "Withdraw HELIX" and break it down into the necessary sub-steps, calling the appropriate tools (`pc_navigator`, `select_menu_option`, etc.) to complete the task automatically. This would likely use a toolchain like `menu_analyzer` and `select_menu_option` as its building blocks.
+- **PC Task Agent:** A high-level agent that could take a goal like "Withdraw HELIX" and break it down into the necessary sub-steps, calling the appropriate tools (`pc_navigator`, `select_menu_option`, etc.) to complete the task automatically.
 
 # VIII. Tile Traversal and Movement Rules
 - **ground:** Standard walkable tile.
