@@ -104,3 +104,7 @@
 - **Investigation:** Manually traced the map XML. Discovered an `impassable` wall at (25, 18) that completely isolates the starting platform from the `steps` needed to reach the ground level.
 - **Conclusion:** The tool was **correct**. My manual map assessment was flawed; I failed to account for a partition wall.
 - **Lesson:** TRUST THE TOOL. Before debugging the tool's code, perform a rigorous manual trace of the map XML to verify that a path is *physically possible*. A "no path found" result is often an accurate reflection of a partitioned map.
+- **teleport:** Instant warp tile within the same logical location.
+- **hole:** Warp tile leading to a lower map area.
+- **cleared_boulder_barrier:** A former barrier, now acts as `ground`.
+- **open_gate / gate_offscreen:** A gate that is currently open or off-screen, treated as traversable.
