@@ -105,3 +105,11 @@
 
 ## C. Lessons from Self-Assessment (Turn 202901)
 - **Deferred Maintenance Failure:** I violated my core directive by deferring tool maintenance. On Turn 202849, I identified the need for the `room_explorer` tool but did not create it until Turn 202851. Similarly, when my `run_code` script for mapping a room failed on Turn 202852, I used the faulty data instead of immediately correcting the script. This is a critical error in process and must not be repeated.
+
+## D. Agent-Generated Hypotheses (Turn 202944)
+1.  **Sole Party Member:** The fossil Pokémon must be the sole member of the party, thereby forcing it into the lead position and circumventing the bugged menu.
+    - Test Plan: Travel to the nearest Pokémon Center. Use the PC to deposit all Pokémon except for HELIX. With HELIX as the only Pokémon in the party, return to Mt. Moon B2F and approach the area blocked by the Rocket Grunt.
+2.  **Fossil Item:** The Rocket Grunt requires the actual 'Helix Fossil' or 'Dome Fossil' item, not the revived fossil Pokémon.
+    - Test Plan: Check inventory/PC for a fossil item. If none, investigate ways to re-acquire one (e.g., Pewter Museum). Return to Mt. Moon with the fossil item and check the grunt.
+3.  **Cinnabar Lab Flag:** A story flag must be triggered at the Cinnabar Island Pokémon Lab before the Mt. Moon event can be resolved.
+    - Test Plan: Fly to Cinnabar Island and enter the Pokémon Lab. Speak with all scientists, especially the fossil reviver. Show him HELIX. After exhausting interactions, fly back to Mt. Moon and check on the grunt.
