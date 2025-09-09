@@ -58,7 +58,8 @@
     - WIGGLYTUFF (Lv 62) - Moves: LOVELY KISS, DOUBLE-EDGE, REST
     - SANDSLASH (Lv 63) - Moves: SWORDS DANCE, EARTHQUAKE
     - GOLEM (Lv 64) - Moves:
-    - NINETALES (Lv 64) - Moves: EXPLOSION
+    - NINETALES (Lv 64) - Moves:
+    - AERODACTYL (Lv 65) - Moves: EXPLOSION
     - LICKITUNG (Lv 61): Moves: WRAP
     - CHANSEY (Lv 63): Moves: DEFENSE CURL, MEGA PUNCH
     - RAICHU (Lv 64): Moves: AGILITY
@@ -86,3 +87,4 @@
 - **`battle_matchup_analyzer`:** A tool that takes my party and an opponent's Pokémon species as input, analyzes type matchups, and suggests the optimal Pokémon to switch to.
     - GOLEM (Lv 64) - Moves:
     - NINETALES (Lv 64) - Moves:
+    - AERODACTYL (Lv 65) - Moves:
