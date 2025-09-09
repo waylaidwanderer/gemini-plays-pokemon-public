@@ -1,7 +1,7 @@
 # I. Core Directives & Lessons
 
 ## A. Core Directives
-1.  **IMMEDIATE MAINTENANCE:** All data management (notepad, markers) and tool/agent refinement is the HIGHEST priority and MUST be performed in the same turn a need is identified.
+1.  **IMMEDIATE MAINTENANCE:** All data management (notepad, markers) and tool/agent refinement is the HIGHEST priority and MUST be performed in the same turn a need is identified. Deferring these tasks is a critical failure.
 2.  **PROACTIVE AUTOMATION:** Before any complex or repetitive task, I must first consider automating it with a tool or agent. If one doesn't exist, creating it is the new priority.
 3.  **TRUST, BUT REFINE:** I must trust the outputs of my agents and system data. If an agent or tool is suboptimal, I must prioritize refining it immediately. A tool's error message about its inputs is a reflection of my data quality, not a flaw in the tool.
 4.  **TRUST GAME STATE OVER TOOLS:** If a tool's output contradicts the Game State Information, my assumption must be that the tool is wrong. I must prioritize debugging the tool.
@@ -24,14 +24,16 @@
 # III. Current Objectives & Hypotheses
 
 ## A. Current Main Objective
-- **Reach Cerulean City:** Traverse the eastern routes to get to Cerulean City.
+- **Reach Pewter City:** Traverse Route 2 to get to Pewter City.
 
 ## B. Active Hypotheses & Test Plans
-- **Route 2 Pathing:** Hypothesis: The path to the western side of Route 2 (and thus to Pewter City) is through the southern gatehouse at (17, 36). Test Plan: Navigate to the gatehouse and pass through it.
+- **Route 2 Pathing:** Hypothesis: The cuttable tree at (6, 11) is the final obstacle before the northern exit. Test Plan: Cut the tree, then use the pathfinder to navigate to the exit at (10, 1).
+- **Route 2 Northern Exit:** Hypothesis: The northern exit at (10, 1) leads to Pewter City as indicated by the map connection data. Test Plan: Reach the exit and walk through it.
 - **Light Screen Duration:** Hypothesis: Light Screen lasts for 5 turns. Test Plan: In a future battle, count the turns after using Light Screen to confirm its duration.
 - **Respawn Point:** Hypothesis: The game sets the last used Pokémon Center as the respawn point after a blackout. Test Plan: Heal at a new Pokémon Center, then intentionally black out to a weak wild Pokémon and observe the respawn location.
 
 ## C. Disproven Hypotheses
+- **Route 2 Gatehouse Path:** Hypothesis: The gatehouse at (17, 36) connects the eastern and western partitions of Route 2. **(Disproven on Turn 201910)** Test: Entered the gatehouse warp. Result: Emerged on the same side of the route after a brief loading screen, indicating it's not a partition connector. Conclusion: The gatehouse is a simple pass-through building on one side of the route.
 - **Route 2 Northern Path:** Hypothesis: The path north to Pewter City from the eastern partition of Route 2 is directly accessible. **(Disproven on Turn 201874)** Test: Used `automated_path_navigator`. Result: No path found due to an impassable fence. Conclusion: The map is partitioned.
 - **Menu Selection Bug:** Hypothesis: Selecting a Pokémon in the 'Bring out which POKéMON?' menu consistently opens the sub-menu for a different Pokémon. **(Disproven on Turn 197844)**
 - **Route 7 Training Spot:** Hypothesis: Route 7 is a good location for training NIGHTSHADE. **(Disproven on Turn 200582)**
@@ -67,3 +69,4 @@
 - **`map_partition_analyzer`:** A tool that takes map XML and a start coordinate, performs a BFS, and returns all reachable tiles. This would programmatically verify reachability before pathfinding.
 - **HM Automation Toolchain:** A toolchain to automate using HMs outside of battle.
 - **Pathing Strategist/Chunker:** A tool to break down long paths on maps with forced movement (like Cycling Road).
+- **Multi-Step Navigation Agent:** An agent that can create a high-level plan involving multiple steps, such as navigating to an obstacle, removing it, and then navigating to the final destination. This would be useful for situations like the current one with the cuttable tree.
