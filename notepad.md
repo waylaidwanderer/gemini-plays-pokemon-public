@@ -87,3 +87,16 @@
 - **`ladder_down`**: A warp tile that leads to a lower floor.
 
 - **Respawning Tree:** Hypothesis: The cuttable tree on Route 2 at (6, 11) will always respawn after leaving and re-entering the map. Test Plan: After traversing Diglett's Cave, return to Route 2 to check if the tree has reappeared.
+
+## B. Tile Glossary
+- **`ground`**: Standard walkable tile.
+- **`grass`**: Walkable tile where wild Pokémon can be encountered.
+- **`impassable`**: Walls, rocks, etc. Cannot be entered.
+- **`water`**: Can be crossed using the HM move Surf.
+- **`cuttable`**: A tree that can be removed with the HM move Cut. It may respawn after leaving and re-entering the map.
+- **`ledge`**: Can be jumped down, but not climbed up. Treat as ground only when above (Y-1); otherwise, treat as impassable.
+- **`elevated_ground`**: Walkable ground at a different elevation. Direct movement between `ground` and `elevated_ground` is impossible.
+- **`steps`**: The only tile type that allows movement between `ground` and `elevated_ground`.
+- **`ladder_down`**: A warp tile that leads to a lower floor.
+
+- **Respawning Tree:** Hypothesis: The cuttable tree on Route 2 at (6, 11) will always respawn after leaving and re-entering the map. Test Plan: After traversing Diglett's Cave, return to Route 2 to check if the tree has reappeared.
