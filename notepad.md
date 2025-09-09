@@ -96,3 +96,5 @@
 - **hole**: Warps to a lower floor.
 - **ladder_up / ladder_down**: Warps between floors.
 - **spinner_...**: Forces movement in a specific direction.
+- **`Quest Assistant Agent`**: An agent that takes a quest description (e.g., 'Need a fossil Pokémon') and the player's stored Pokémon list to recommend the best candidate for the task.
+- **`PC Organizer Tool`**: A tool to analyze stored Pokémon and suggest which ones to keep, train, or release based on current goals and team composition.
