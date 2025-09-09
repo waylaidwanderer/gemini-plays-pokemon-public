@@ -83,3 +83,4 @@
 
 ## D. Tile Mechanics
 - **Ledge Traversal:** Ledges can only be traversed downwards. Moving from a tile above a ledge (Y-1) to the ledge tile (Y) results in landing on the tile below the ledge (Y+1) in a single step.
+- **Map Partition Hallucination:** On Route 15, I incorrectly identified a warp at (8,9) as reachable, failing to recognize it was in a separate, inaccessible partition of the map. This is a critical failure of map analysis. Lesson: I MUST analyze the map XML for physical barriers and trust the 'reachable' flags in the Game State Information before assuming a path exists.
