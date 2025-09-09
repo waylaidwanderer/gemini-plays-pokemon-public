@@ -20,6 +20,7 @@
 - **Fainted HM Usage:** A fainted Pokémon can still use field moves like CUT and Surf outside of battle.
 - **Cycling Road Forced Movement:** On certain routes like Route 18, the player character experiences forced, multi-tile movement in a single direction, especially when moving downhill.
 - **Map Partitions & Reachability:** A single map can have physically disconnected areas (partitions). A path may be blocked by being in the wrong partition. I must analyze the map XML for physical barriers and not solely rely on the 'Reachable' flag in the Game State Information.
+- **PC Interaction:** The PC at a Pokémon Center is an object that must be interacted with from the tile directly below it (Y+1), while facing up.
 
 # III. Current Objectives & Hypotheses
 
@@ -32,7 +33,7 @@
 - **Respawn Point:** Hypothesis: The game sets the last used Pokémon Center as the respawn point after a blackout. Test Plan: Heal at a new Pokémon Center, then intentionally black out to a weak wild Pokémon and observe the respawn location.
 
 # IV. Solved Puzzles & Disproven Hypotheses
-- **Pokémon PC Menu:** Hypothesis: "Gem's PC" leads to Pokémon Storage. **(Disproven over ~5 turns)** Test: Selected "Gem's PC". Result: Consistently led to Item Storage. Conclusion: "Gem's PC" is for items. **New Hypothesis:** "BILL's PC" leads to Pokémon Storage. **(Proven on Turn 202198)** Test: Selected "BILL's PC". Result: Successfully accessed Pokémon Storage System.
+- **Pokémon PC Menu:** Hypothesis: "Gem's PC" leads to Pokémon Storage. **(Disproven over ~20 turns)** Test: Selected "Gem's PC". Result: Consistently led to Item Storage. Conclusion: "Gem's PC" is for items. **New Hypothesis:** "BILL's PC" leads to Pokémon Storage. **(Proven on Turn 202198)** Test: Selected "BILL's PC". Result: Successfully accessed Pokémon Storage System.
 - **S.S. TICKET:** Hypothesis: The S.S. TICKET from the Silph Co. President allows access to a new ship or area at the Vermilion City port. **(Disproven on Turn 202143)** Test: Went to the S.S. Anne dock entrance at (19, 32) and interacted with the sailor. Result: The sailor gave the standard "The ship set sail" dialogue, indicating no new event was triggered.
 - **Route 2 Gatehouse Path:** Hypothesis: The gatehouse at (17, 36) connects the eastern and western partitions of Route 2. **(Disproven on Turn 201910)** Test: Entered the gatehouse warp. Result: Emerged on the same side of the route after a brief loading screen, indicating it's not a partition connector. Conclusion: The gatehouse is a simple pass-through building on one side of the route.
 - **Route 2 Northern Path:** Hypothesis: The path north to Pewter City from the eastern partition of Route 2 is directly accessible. **(Disproven on Turn 201874)** Test: Used `automated_path_navigator`. Result: No path found due to an impassable fence. Conclusion: The map is partitioned.
