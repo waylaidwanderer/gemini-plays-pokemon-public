@@ -102,3 +102,6 @@
 3.  **Item/Move Subversion:** An Escape Rope or the move Dig has a unique, non-standard function in the B2F dead-end room.
     - Test Plan: Go to the center of the B2F dead-end room. Use Escape Rope. If that fails, use Dig (if available).
 - **B2F Dead-End Room Trigger:** Hypothesis: The dead-end room on B2F (accessed via ladder at B1F (14, 28)) contains a hidden trigger. **(Disproven on Turn 202872)** Test: Used `room_explorer` tool to systematically walk over every tile in the partition. Result: No hidden warps, switches, or events were found. The only notable feature was an extremely high wild encounter rate.
+
+## C. Lessons from Self-Assessment (Turn 202901)
+- **Deferred Maintenance Failure:** I violated my core directive by deferring tool maintenance. On Turn 202849, I identified the need for the `room_explorer` tool but did not create it until Turn 202851. Similarly, when my `run_code` script for mapping a room failed on Turn 202852, I used the faulty data instead of immediately correcting the script. This is a critical error in process and must not be repeated.
