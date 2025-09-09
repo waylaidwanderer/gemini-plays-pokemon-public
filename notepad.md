@@ -16,13 +16,9 @@
 - **State Tracking:** I must improve my tracking of my own actions to avoid repeating tasks I have already completed (e.g., deleting an agent twice, redefining a fixed tool).
 
 # II. Game Mechanics & World Data
-
-## A. Discovered Mechanics
 - **Trap Battles:** Certain wild encounters, particularly in late-game areas like Cerulean Cave, appear to be 'trap' battles where the 'RUN' option is disabled. This was observed with a Wigglytuff, suspected with a Ditto, and confirmed with a KADABRA.
 - **Fainted HM Usage:** HMs like Surf can be used outside of battle even if the Pokémon that knows the move has fainted. (Confirmed by system notice on Turn 199815).
 - **Cycling Road Forced Movement:** On certain routes like Route 18 (Cycling Road), the player character experiences forced, multi-tile movement in a single direction, especially when moving downhill. This can interrupt and invalidate long path plans, requiring a strategy of shorter, more deliberate movements.
-
-## B. Navigation & Tile Rules
 - **System 'Dead End' Definition:** An area is NOT a 'dead end' if the total of reachable non-adjacent warps (or warp groups) and reachable map connections is 2 or more. This is evaluated on a whole-map basis, even if the player is in a partition with only one exit. (Corrected on Turn 200952 after system warning).
 - **1x1 Warp Tiles (Instant):** Most 1x1 warps trigger instantly upon stepping on them. To re-use the warp, you must step off the tile and then back on.
 - **1x1 Warp Tiles (Non-Instant):** Some 1x1 warps require a second input. After stepping on the warp tile, you must press the directional button that moves you *into* the building's impassable boundary to trigger the warp.
