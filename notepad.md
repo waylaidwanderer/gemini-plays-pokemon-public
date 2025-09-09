@@ -28,6 +28,7 @@
 
 ## B. Active Hypotheses & Test Plans
 - **Mt. Moon Rocket Grunt:** Hypothesis: Giving a fossil Pokémon to the Rocket Grunt at (30, 12) on Mt. Moon B2F will cause him to move and unblock the path. Test Plan: Withdraw a fossil Pokémon from the PC, travel to Mt. Moon, and interact with the grunt.
+- **Fossil Type:** Hypothesis: The Rocket Grunt requires a fossil *item* (e.g., HELIX FOSSIL) and not a revived fossil *Pokémon*. Test Plan: If presenting the Pokémon fails, search for a fossil item and present that instead.
 - **Light Screen Duration:** Hypothesis: Light Screen lasts for 5 turns. Test Plan: In a future battle, count the turns after using Light Screen to confirm its duration.
 - **Respawn Point:** Hypothesis: The game sets the last used Pokémon Center as the respawn point after a blackout. Test Plan: Heal at a new Pokémon Center, then intentionally black out to a weak wild Pokémon and observe the respawn location.
 
@@ -39,7 +40,7 @@
 - **Route 2 Northern Path:** Hypothesis: The path north to Pewter City from the eastern partition of Route 2 is directly accessible. **(Disproven on Turn 201874)** Test: Used `automated_path_navigator`. Result: No path found due to an impassable fence. Conclusion: The map is partitioned.
 - **Menu Selection Bug:** Hypothesis: Selecting a Pokémon in the 'Bring out which POKéMON?' menu consistently opens the sub-menu for a different Pokémon. **(Disproven on Turn 197844)**
 - **Route 7 Training Spot:** Hypothesis: Route 7 is a good location for training NIGHTSHADE. **(Disproven on Turn 200582)**
-- **Route 4 Dead End:** Hypothesis: The western part of Route 4 is a direct path from Cerulean to Mt. Moon. **(Disproven on Turn 202331)** Test: Attempted to navigate west on Route 4 from Cerulean City. Result: The path is blocked by a series of one-way ledges that can only be jumped down from east to west. Conclusion: It is impossible to travel from Cerulean City to Mt. Moon via Route 4; the path is one-way from Mt. Moon to Cerulean.
+- **Route 4 Dead End:** Hypothesis: The western part of Route 4 is a direct path from Cerulean to Mt. Moon. **(Disproven on Turn 202331)** Test: Attempted to navigate west on Route 4 from Cerulean. Result: The path is blocked by a series of one-way ledges that can only be jumped down from east to west. Conclusion: It is impossible to travel from Cerulean City to Mt. Moon via Route 4; the path is one-way from Mt. Moon to Cerulean.
 
 # V. Major Battle Data
 
@@ -79,28 +80,13 @@
 # VI. Technical Documentation
 
 ## A. Automation & Tool Development Ideas
-- **`map_partition_analyzer`:** A tool that takes map XML and a start coordinate, performs a BFS, and returns all reachable tiles. This would programmatically verify reachability before pathfinding.
+- **`room_explorer`:** A tool that takes a list of coordinates (from `map_partition_analyzer`) and generates an efficient 'snaking' path to visit every tile. This would automate the process of thoroughly searching small, isolated rooms for hidden triggers.
 - **HM Automation Toolchain:** A toolchain to automate using HMs outside of battle.
 - **Pathing Strategist/Chunker:** A tool to break down long paths on maps with forced movement (like Cycling Road).
 - **`battle_matchup_analyzer`:** A tool that takes my party and an opponent's Pokémon species as input, analyzes type matchups, and suggests the optimal Pokémon to switch to.
 - **PC Automation Suite:** A high-level agent (`pc_task_agent`) that takes a complex goal (e.g., "Withdraw HELIX, Deposit GUILLOTIN") and uses a toolchain of menu parsers and navigators to execute the multi-step process automatically.
 
-# VII. Tile Traversal and Movement Rules
-- **ground:** Standard walkable tile.
-- **grass:** Walkable tile where wild Pokémon can be encountered.
-- **elevated_ground:** Walkable, but only accessible from other `elevated_ground` tiles or `steps`.
-- **steps:** The only tile type that allows movement between `ground` and `elevated_ground`.
-- **impassable:** Cannot be entered. Includes walls, trees, water (without Surf), and most objects.
-- **water:** Traversable only with the HM move Surf.
-- **ledge:** A one-way tile. Can only be jumped down from the tile above it (Y-1).
-- **cuttable:** A tree that can be removed with the HM move Cut. Respawns when changing maps.
-- **ladder_up / ladder_down:** Warps that move the player between different floors of a location.
-- **teleport:** Instant warp tile within the same logical location.
-- **hole:** Warp tile leading to a lower map area.
-- **cleared_boulder_barrier:** A former barrier, now acts as `ground`.
-- **open_gate / gate_offscreen:** A gate that is currently open or off-screen, treated as traversable.
-
-# VIII. Lessons from Tool Failures & Debugging
+# VII. Lessons from Tool Failures & Debugging
 ## A. automated_path_navigator on Mt. Moon B2F (Turn 202577)
 - **Symptom:** Tool returned "No path found. Path blocked by impassable terrain." when attempting to path from (22, 18) to (30, 11).
 - **Initial Hypothesis:** The tool's logic for handling `elevated_ground` and `steps` was flawed.
@@ -108,11 +94,10 @@
 - **Conclusion:** The tool was **correct**. My manual map assessment was flawed; I failed to account for a partition wall.
 - **Lesson:** TRUST THE TOOL. Before debugging the tool's code, perform a rigorous manual trace of the map XML to verify that a path is *physically possible*. A "no path found" result is often an accurate reflection of a partitioned map.
 
-## C. Agent-Generated Hypotheses (Turn 202785)
+## B. Agent-Generated Hypotheses (Turn 202785)
 1.  **Hidden Trigger:** The dead-end room on B2F (accessed via ladder at B1F (14, 28)) contains a hidden trigger, like an invisible warp or a secret switch.
     - Test Plan: Go to the B2F dead-end room. Walk over every tile. Interact with every wall and rock.
 2.  **Fossil Lead:** Having the fossil Pokémon (HELIX) in the lead party slot triggers a special event.
     - Test Plan: Put HELIX in the lead. Re-explore the isolated B1F partition and the B2F dead-end room, interacting with objects.
 3.  **Item/Move Subversion:** An Escape Rope or the move Dig has a unique, non-standard function in the B2F dead-end room.
     - Test Plan: Go to the center of the B2F dead-end room. Use Escape Rope. If that fails, use Dig (if available).
-- **`room_explorer`:** A tool that takes a list of coordinates (from `map_partition_analyzer`) and generates an efficient 'snaking' path to visit every tile. This would automate the process of thoroughly searching small, isolated rooms for hidden triggers.
