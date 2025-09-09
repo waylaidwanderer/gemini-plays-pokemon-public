@@ -18,19 +18,17 @@
 # II. Game Mechanics & World Data
 
 ## A. Discovered Mechanics
-- **System 'Dead End' Definition:** An area is NOT a 'dead end' if the total of reachable non-adjacent warps (or warp groups) and reachable map connections is 2 or more. This is evaluated on a whole-map basis, even if the player is in a partition with only one exit. (Corrected on Turn 200952 after system warning).
 - **Trap Battles:** Certain wild encounters, particularly in late-game areas like Cerulean Cave, appear to be 'trap' battles where the 'RUN' option is disabled. This was observed with a Wigglytuff, suspected with a Ditto, and confirmed with a KADABRA.
 - **Fainted HM Usage:** HMs like Surf can be used outside of battle even if the Pokémon that knows the move has fainted. (Confirmed by system notice on Turn 199815).
-- **1x1 Warp Tiles (Instant):** Most 1x1 warps trigger instantly upon stepping on them. To re-use the warp, you must step off the tile and then back on.
-- **1x1 Warp Tiles (Non-Instant):** Some 1x1 warps require a second input. After stepping on the warp tile, you must press the directional button that moves you *into* the building's impassable boundary to trigger the warp.
 - **Cycling Road Forced Movement:** On certain routes like Route 18 (Cycling Road), the player character experiences forced, multi-tile movement in a single direction, especially when moving downhill. This can interrupt and invalidate long path plans, requiring a strategy of shorter, more deliberate movements.
 
-## B. Solved Puzzles
-- **Snorlax (Routes 11 & 12):** Awakened using the POKé FLUTE from the ITEM menu.
-- **Pokémon Tower Ghost:** Used SILPH SCOPE to reveal the ghost.
-- **Seafoam Islands Current:** Solved multi-floor boulder puzzle to stop the strong water current.
-- **Pewter Museum Puzzle:** Solved by a sequence of interactions with the Aerodactyl Fossil and an invisible follower Pikachu, which caused a blocking Youngster to move.
-- **Cerulean Cave B1F Encounter Trap:** The high encounter rate at (2, 7) was not a scripted puzzle but simply high RNG. The solution was to move one tile at a time and run from each battle.
+## B. Navigation & Tile Rules
+- **System 'Dead End' Definition:** An area is NOT a 'dead end' if the total of reachable non-adjacent warps (or warp groups) and reachable map connections is 2 or more. This is evaluated on a whole-map basis, even if the player is in a partition with only one exit. (Corrected on Turn 200952 after system warning).
+- **1x1 Warp Tiles (Instant):** Most 1x1 warps trigger instantly upon stepping on them. To re-use the warp, you must step off the tile and then back on.
+- **1x1 Warp Tiles (Non-Instant):** Some 1x1 warps require a second input. After stepping on the warp tile, you must press the directional button that moves you *into* the building's impassable boundary to trigger the warp.
+- **Navigation Failure Protocol:** If `automated_path_navigator` fails to find a path to an intended exit, I must first systematically scan the entire map in Map Memory for any other reachable warps or map connections before concluding I am at a dead end or that the tool is broken.
+- **Map Connection 'Reachable' Flag:** The 'Reachable' flag for a map connection in the Game State Information should be treated with skepticism. It appears to be a general property and may not account for one-way paths (like ledges or Cycling Road) that make the connection unreachable from the player's current partition.
+- **Map Partition Hallucination:** On Route 15, I incorrectly identified a warp at (8,9) as reachable, failing to recognize it was in a separate, inaccessible partition of the map. This is a critical failure of map analysis. Lesson: I MUST analyze the map XML for physical barriers and trust the 'reachable' flags in the Game State Information before assuming a path exists.
 
 # III. Current Objectives & Hypotheses
 
@@ -76,10 +74,3 @@
 ## B. Automation & Tool Development Ideas
 - **HM Automation Toolchain:** Plan to create a tool or series of tools to automate the process of using an HM move outside of battle. This would involve parsing the party menu, identifying the correct Pokémon with the HM, and navigating the sub-menus to execute the move. This will improve efficiency and reduce manual input errors.
 - **Pathing Strategist/Chunker:** Idea for a new tool or agent to handle navigation on maps with forced movement mechanics like Cycling Road. It would take a long path plan and break it into smaller, more reliable chunks to prevent interruptions from the game's auto-movement.
-
-## C. Procedural Rules
-- **Navigation Failure Protocol:** If `automated_path_navigator` fails to find a path to an intended exit, I must first systematically scan the entire map in Map Memory for any other reachable warps or map connections before concluding I am at a dead end or that the tool is broken.
-- **Map Connection 'Reachable' Flag:** The 'Reachable' flag for a map connection in the Game State Information should be treated with skepticism. It appears to be a general property and may not account for one-way paths (like ledges or Cycling Road) that make the connection unreachable from the player's current partition.
-
-## D. Tile Mechanics
-- **Map Partition Hallucination:** On Route 15, I incorrectly identified a warp at (8,9) as reachable, failing to recognize it was in a separate, inaccessible partition of the map. This is a critical failure of map analysis. Lesson: I MUST analyze the map XML for physical barriers and trust the 'reachable' flags in the Game State Information before assuming a path exists.
