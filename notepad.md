@@ -113,3 +113,17 @@
     - Test Plan: Check inventory/PC for a fossil item. If none, investigate ways to re-acquire one (e.g., Pewter Museum). Return to Mt. Moon with the fossil item and check the grunt.
 3.  **Cinnabar Lab Flag:** A story flag must be triggered at the Cinnabar Island Pokémon Lab before the Mt. Moon event can be resolved.
     - Test Plan: Fly to Cinnabar Island and enter the Pokémon Lab. Speak with all scientists, especially the fossil reviver. Show him HELIX. After exhausting interactions, fly back to Mt. Moon and check on the grunt.
+
+# VIII. Tile Traversal Mechanics
+- **ground**: Standard walkable tile.
+- **grass**: Walkable, triggers wild encounters.
+- **impassable**: Walls, objects, cannot be entered.
+- **ledge**: Can only be jumped down from the tile above (Y-1). Impassable from all other directions.
+- **steps**: Allows movement between `ground` and `elevated_ground`.
+- **elevated_ground**: Walkable ground at a different height, only accessible via `steps`.
+- **cuttable**: A tree that can be cut. Becomes `ground` but respawns on map change.
+- **water**: Requires SURF to cross.
+- **ladder_up / ladder_down**: Warps between floors.
+
+# IX. New Automation Ideas
+- **`deposit_pokemon_tool`**: A tool to automate the multi-step process of depositing a specific Pokémon. Would require parsing the party menu, selecting the Pokémon, pressing 'A', parsing the submenu, selecting 'DEPOSIT', and pressing 'A' again.
