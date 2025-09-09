@@ -70,3 +70,9 @@
 - **HM Automation Toolchain:** Plan to create a tool or series of tools to automate the process of using an HM move outside of battle. This would involve parsing the party menu, identifying the correct Pokémon with the HM, and navigating the sub-menus to execute the move. This will improve efficiency and reduce manual input errors.
 - **Pathing Strategist/Chunker:** Idea for a new tool or agent to handle navigation on maps with forced movement mechanics like Cycling Road. It would take a long path plan and break it into smaller, more reliable chunks to prevent interruptions from the game's auto-movement.
 - **Fainted HM Usage (Confirmed by NPC):** An NPC on Route 2 confirmed that a fainted Pokémon can still use field moves like CUT.
+
+## D. Tile Traversal Mechanics
+- **ground:** Standard walkable tile.
+- **impassable:** Walls and objects that cannot be walked on or through.
+- **grass:** Tall grass where wild Pokémon can be encountered. Walkable.
+- **cuttable:** A tree that can be removed with the HM move CUT. Respawns on map change.
