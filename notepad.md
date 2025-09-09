@@ -24,15 +24,15 @@
 # III. Current Objectives & Hypotheses
 
 ## A. Current Main Objective
-- **Reach Pewter City:** Traverse Route 2 to get to Pewter City.
+- **Investigate the Mt. Moon fossil event:** A Rocket Grunt on Mt. Moon B2F is blocking a path and needs a fossil. This seems to be a key post-game event.
 
 ## B. Active Hypotheses & Test Plans
-- **Route 2 Pathing:** Hypothesis: The cuttable tree at (6, 11) is the final obstacle before the northern exit. Test Plan: Cut the tree, then use the pathfinder to navigate to the exit at (10, 1).
-- **Route 2 Northern Exit:** Hypothesis: The northern exit at (10, 1) leads to Pewter City as indicated by the map connection data. Test Plan: Reach the exit and walk through it.
+- **Mt. Moon Rocket Grunt:** Hypothesis: Giving a fossil Pokémon to the Rocket Grunt at (30, 12) on Mt. Moon B2F will cause him to move and unblock the path. Test Plan: Withdraw a fossil Pokémon from the PC, travel to Mt. Moon, and interact with the grunt.
 - **Light Screen Duration:** Hypothesis: Light Screen lasts for 5 turns. Test Plan: In a future battle, count the turns after using Light Screen to confirm its duration.
 - **Respawn Point:** Hypothesis: The game sets the last used Pokémon Center as the respawn point after a blackout. Test Plan: Heal at a new Pokémon Center, then intentionally black out to a weak wild Pokémon and observe the respawn location.
 
 ## C. Disproven Hypotheses
+- **S.S. TICKET:** Hypothesis: The S.S. TICKET from the Silph Co. President allows access to a new ship or area at the Vermilion City port. **(Disproven on Turn 202143)** Test: Went to the S.S. Anne dock entrance at (19, 32) and interacted with the sailor. Result: The sailor gave the standard "The ship set sail" dialogue, indicating no new event was triggered.
 - **Route 2 Gatehouse Path:** Hypothesis: The gatehouse at (17, 36) connects the eastern and western partitions of Route 2. **(Disproven on Turn 201910)** Test: Entered the gatehouse warp. Result: Emerged on the same side of the route after a brief loading screen, indicating it's not a partition connector. Conclusion: The gatehouse is a simple pass-through building on one side of the route.
 - **Route 2 Northern Path:** Hypothesis: The path north to Pewter City from the eastern partition of Route 2 is directly accessible. **(Disproven on Turn 201874)** Test: Used `automated_path_navigator`. Result: No path found due to an impassable fence. Conclusion: The map is partitioned.
 - **Menu Selection Bug:** Hypothesis: Selecting a Pokémon in the 'Bring out which POKéMON?' menu consistently opens the sub-menu for a different Pokémon. **(Disproven on Turn 197844)**
@@ -66,9 +66,9 @@
 - **Observed Species & Moves:**
     - WIGGLYTUFF (Lv 62) - Moves: LOVELY KISS, DOUBLE-EDGE, REST
     - SANDSLASH (Lv 63) - Moves: SWORDS DANCE, EARTHQUAKE
-    - GOLEM (Lv 64) - Moves:
+    - GOLEM (Lv 64) - Moves: EXPLOSION
     - NINETALES (Lv 64) - Moves:
-    - AERODACTYL (Lv 65) - Moves: EXPLOSION
+    - AERODACTYL (Lv 65) - Moves:
     - LICKITUNG (Lv 61): Moves: WRAP
     - CHANSEY (Lv 63): Moves: DEFENSE CURL, MEGA PUNCH
     - RAICHU (Lv 64): Moves: AGILITY
@@ -79,13 +79,9 @@
 - **`map_partition_analyzer`:** A tool that takes map XML and a start coordinate, performs a BFS, and returns all reachable tiles. This would programmatically verify reachability before pathfinding.
 - **HM Automation Toolchain:** A toolchain to automate using HMs outside of battle.
 - **Pathing Strategist/Chunker:** A tool to break down long paths on maps with forced movement (like Cycling Road).
-- **Multi-Step Navigation Agent:** An agent that can create a high-level plan involving multiple steps, such as navigating to an obstacle, removing it, and then navigating to the final destination. This would be useful for situations like the current one with the cuttable tree.
+- **Multi-Step Navigation Agent:** An agent that can create a high-level plan involving multiple steps, such as navigating to an obstacle, removing it, and then navigating to the final destination.
 - **`battle_matchup_analyzer`:** A tool that takes my party and an opponent's Pokémon species as input, analyzes type matchups, and suggests the optimal Pokémon to switch to.
-- **`select_move_tool`**: A tool that takes a move name as input from the battle menu and calculates the button presses to select it.
-
-# VI. Tile Mechanics
-- **ground**: Standard walkable tile.
-- **impassable**: Walls, objects, cannot be entered.
+- **`select_move_tool`**: A tool that takes a move name as input from the battle menu and calculates the button presses to select it. (DEFINED)
 
 # VI. Tile Mechanics
 - **ground**: Standard walkable tile.
@@ -100,4 +96,3 @@
 - **hole**: Warps to a lower floor.
 - **ladder_up / ladder_down**: Warps between floors.
 - **spinner_...**: Forces movement in a specific direction.
-- **S.S. TICKET:** Hypothesis: The S.S. TICKET from the Silph Co. President allows access to a new ship or area at the Vermilion City port. Test Plan: Go to the S.S. Anne dock entrance at (19, 32) and attempt to enter.
