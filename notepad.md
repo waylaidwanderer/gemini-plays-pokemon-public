@@ -71,13 +71,6 @@
 
 # V. Technical Documentation
 
-## A. Verified Tile Glossary
-- **ground:** Standard walkable tile.
-- **grass:** Walkable tile with wild encounters.
-- **impassable:** A solid wall or object.
-- **cuttable:** A tree that can be removed with the HM Cut. Appears to respawn.
-- **ladder_up / ladder_down:** Warps that move between floors in a cave/building.
-
 ## B. Automation & Tool Development Ideas
 - **HM Automation Toolchain:** Plan to create a tool or series of tools to automate the process of using an HM move outside of battle. This would involve parsing the party menu, identifying the correct Pokémon with the HM, and navigating the sub-menus to execute the move. This will improve efficiency and reduce manual input errors.
 
