@@ -59,6 +59,8 @@
     - ONIX (Lv 65) - Moves: EARTHQUAKE, ROCK SLIDE
     - KABUTOPS (Lv 64) - Moves: SWORDS DANCE, SLASH
     - GOLEM (Lv 64) - Moves: ROCK SLIDE
+    - NINETALES (Lv 64) - Moves: REFLECT
+    - AERODACTYL (Lv 65) - Moves: FLY
 
 ### 4. Cerulean Cave Wild Pokémon
 - **Observed Species & Moves:**
