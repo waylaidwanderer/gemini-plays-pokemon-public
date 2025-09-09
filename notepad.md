@@ -82,7 +82,6 @@
 - **`map_partition_analyzer`:** A tool that takes map XML and a start coordinate, performs a BFS, and returns all reachable tiles. This would programmatically verify reachability before pathfinding.
 - **HM Automation Toolchain:** A toolchain to automate using HMs outside of battle.
 - **Pathing Strategist/Chunker:** A tool to break down long paths on maps with forced movement (like Cycling Road).
-- **Multi-Step Navigation Agent / `navigation_strategist_agent`:** An agent to break down long-term navigation goals into smaller, manageable steps.
 - **`battle_matchup_analyzer`:** A tool that takes my party and an opponent's Pokémon species as input, analyzes type matchups, and suggests the optimal Pokémon to switch to.
 - **PC Automation Suite:** A high-level agent (`pc_task_agent`) that takes a complex goal (e.g., "Withdraw HELIX, Deposit GUILLOTIN") and uses a toolchain of menu parsers and navigators to execute the multi-step process automatically.
 
@@ -96,6 +95,10 @@
 - **ledge:** A one-way tile. Can only be jumped down from the tile above it (Y-1).
 - **cuttable:** A tree that can be removed with the HM move Cut. Respawns when changing maps.
 - **ladder_up / ladder_down:** Warps that move the player between different floors of a location.
+- **teleport:** Instant warp tile within the same logical location.
+- **hole:** Warp tile leading to a lower map area.
+- **cleared_boulder_barrier:** A former barrier, now acts as `ground`.
+- **open_gate / gate_offscreen:** A gate that is currently open or off-screen, treated as traversable.
 
 # VIII. Lessons from Tool Failures & Debugging
 ## A. automated_path_navigator on Mt. Moon B2F (Turn 202577)
@@ -104,7 +107,3 @@
 - **Investigation:** Manually traced the map XML. Discovered an `impassable` wall at (25, 18) that completely isolates the starting platform from the `steps` needed to reach the ground level.
 - **Conclusion:** The tool was **correct**. My manual map assessment was flawed; I failed to account for a partition wall.
 - **Lesson:** TRUST THE TOOL. Before debugging the tool's code, perform a rigorous manual trace of the map XML to verify that a path is *physically possible*. A "no path found" result is often an accurate reflection of a partitioned map.
-- **teleport:** Instant warp tile within the same logical location.
-- **hole:** Warp tile leading to a lower map area.
-- **cleared_boulder_barrier:** A former barrier, now acts as `ground`.
-- **open_gate / gate_offscreen:** A gate that is currently open or off-screen, treated as traversable.
