@@ -704,52 +704,6 @@
       }
     ]
   },
-  "select_move_tool": {
-    "description": "Takes a move name as input from the battle menu and calculates the button presses to select it. The battle move menu is a 2x2 grid. It also requires the screen_text to identify the current cursor position and check the PP of the currently selected move.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "screen_text": {
-          "type": "string"
-        },
-        "target_move": {
-          "type": "string"
-        }
-      },
-      "required": [
-        "screen_text",
-        "target_move"
-      ]
-    },
-    "python_script": "import json\nimport re\n\nscreen_text = input_data['screen_text']\ntarget_move = input_data['target_move']\n\nlines = screen_text.split('\\n')\n\npp_line_index = -1\npp_value = -1\nfor i, line in enumerate(lines):\n    if re.search(r'^\\d+/\\d+$', line.strip()):\n        pp_line_index = i\n        try:\n            pp_value = int(line.strip().split('/')[0])\n        except (ValueError, IndexError):\n            pass\n        break\n\nif pp_line_index == -1:\n    print(json.dumps([]))\n    exit()\n\nmove_lines = lines[pp_line_index+1:]\nif len(move_lines) < 4:\n    print(json.dumps([]))\n    exit()\n\nmove_candidates = move_lines[:4]\n\nparsed_moves = []\ncurrent_idx = -1\n\nfor i, line in enumerate(move_candidates):\n    is_cursor_line = '→' in line\n    move_name = line.replace('→', '').strip()\n    parsed_moves.append(move_name)\n    if is_cursor_line:\n        current_idx = i\n\nif current_idx == -1 or target_move not in parsed_moves:\n    print(json.dumps([]))\n    exit()\n\n# Check if the target move is the current move and has 0 PP\nif parsed_moves[current_idx] == target_move and pp_value == 0:\n    print(json.dumps([]))\n    exit()\n\ntarget_idx = parsed_moves.index(target_move)\n\ndy = target_idx - current_idx\n\npresses = []\nif dy > 0:\n    presses.extend(['Down'] * dy)\nelif dy < 0:\n    presses.extend(['Up'] * abs(dy))\n\nprint(json.dumps(presses))",
-    "history": [
-      {
-        "commit_message": "feat: Create select_move_tool to automate battle move selection. This tool parses the 2x2 move menu from the screen text to find the current cursor position and the target move, then calculates the sequence of directional button presses required to select it. This is a direct response to an Overwatch critique identifying a failure to proactively automate repetitive tasks.",
-        "timestamp": "2025-09-09T11:42:08.878Z",
-        "action_counter": 202101
-      },
-      {
-        "commit_message": "fix: Overhaul move menu parsing logic. The previous regex-based approach was brittle and failed to correctly extract move names and cursor position from the screen text. This commit replaces it with a more robust line-by-line analysis and corrects the internal mapping of move order to the 2x2 grid layout. This is a critical fix to address a repeated tool failure.",
-        "timestamp": "2025-09-09T14:30:26.182Z",
-        "action_counter": 202431
-      },
-      {
-        "commit_message": "fix: Overhaul move menu parsing again. The previous logic was still too complex and failed to handle the simple list-like format of the move menu text. This commit simplifies the logic to treat the four lines after the PP count as a simple vertical list, which aligns with the Up/Down only navigation. This is a critical fix to address repeated tool failures.",
-        "timestamp": "2025-09-09T14:32:18.059Z",
-        "action_counter": 202434
-      },
-      {
-        "commit_message": "fix: Improve PP line detection regex. The previous regex `\\d+/\\d+` was too generic and incorrectly matched the HP display line (e.g., 'NORMAL   271/271'). This commit changes the regex to `^\\d+/\\d+$` to ensure it only matches lines that consist solely of the PP count, preventing misidentification. This is a critical fix to address a repeated tool failure.",
-        "timestamp": "2025-09-09T16:40:46.684Z",
-        "action_counter": 202586
-      },
-      {
-        "commit_message": "feat: Add basic PP check for currently selected move. The tool now parses the PP value for the move the cursor is currently on. If the player tries to select the same move and its PP is 0, the tool will not output any button presses. This is a preliminary fix to address a critique, though a more robust solution is needed.",
-        "timestamp": "2025-09-09T20:48:07.297Z",
-        "action_counter": 203001
-      }
-    ]
-  },
   "get_partition_coordinates": {
     "description": "Scans the current map from a starting coordinate to find all connected, traversable tiles in the same partition. Returns a JSON list of [x, y] coordinates. Useful for mapping out isolated rooms or areas.",
     "input_schema": {
