@@ -115,3 +115,4 @@
     - Test Plan: Put HELIX in the lead. Re-explore the isolated B1F partition and the B2F dead-end room, interacting with objects.
 3.  **Item/Move Subversion:** An Escape Rope or the move Dig has a unique, non-standard function in the B2F dead-end room.
     - Test Plan: Go to the center of the B2F dead-end room. Use Escape Rope. If that fails, use Dig (if available).
+- **`room_explorer`:** A tool that takes a list of coordinates (from `map_partition_analyzer`) and generates an efficient 'snaking' path to visit every tile. This would automate the process of thoroughly searching small, isolated rooms for hidden triggers.
