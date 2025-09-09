@@ -468,6 +468,21 @@
         "commit_message": "feat: Add detailed obstacle reporting on path failure. This is a direct response to a critical Overwatch critique. The tool will now analyze the frontier of the explored area to identify specific blocking tile types (e.g., ledge, cuttable, water) and include them in the failure reason. This provides crucial diagnostic information to distinguish between tool bugs and in-game puzzles, preventing navigational errors like the one on Route 15.",
         "timestamp": "2025-09-09T06:04:33.359Z",
         "action_counter": 201551
+      },
+      {
+        "commit_message": "test: Add comprehensive debug prints to trace BFS execution. The pathfinder is failing on a simple, straight path on Route 2, incorrectly citing obstacles from a disconnected map partition. This commit adds detailed logging to the core BFS loop and the `is_valid_move` function to trace which nodes are being explored, which are being skipped, and why. This is a critical diagnostic step to identify the root cause of the tool's failure.",
+        "timestamp": "2025-09-09T09:24:36.412Z",
+        "action_counter": 201844
+      },
+      {
+        "commit_message": "test: Uncomment debug prints to trace BFS execution. The pathfinder is still failing to find a valid path on a simple, straight route. This commit enables the previously added debug logging to get a detailed trace of the BFS algorithm's exploration path and decision-making process. This is a critical step in diagnosing the root cause of the tool's failure.",
+        "timestamp": "2025-09-09T09:26:23.457Z",
+        "action_counter": 201846
+      },
+      {
+        "commit_message": "refactor: Remove all debug prints. After analyzing the debug logs, it's clear the pathfinding logic is correct and was failing due to my own misinterpretation of the map data (attempting to path through a fence). This commit cleans up the code by removing all diagnostic prints, which are no longer necessary.",
+        "timestamp": "2025-09-09T09:27:58.812Z",
+        "action_counter": 201848
       }
     ]
   },
