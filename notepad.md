@@ -74,4 +74,4 @@
 ### 3. Brock (Pewter City Gym)
 - **Roster:**
     - OMASTAR (Lv 64) - Moves: HYDRO PUMP
-    - ONIX (Lv 65) - Moves: (none observed)
+    - ONIX (Lv 65) - Moves: EARTHQUAKE
