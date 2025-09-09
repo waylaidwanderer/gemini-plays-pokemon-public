@@ -76,3 +76,10 @@
     - OMASTAR (Lv 64) - Moves: HYDRO PUMP
     - ONIX (Lv 65) - Moves: EARTHQUAKE
     - KABUTOPS (Lv 64) - Moves:
+
+# VI. Tile Mechanics
+- **ground**: Standard walkable tile.
+- **impassable**: Walls, objects, cannot be entered.
+
+## A. Automation & Tool Development Ideas (New)
+- **`battle_matchup_analyzer`:** A tool that takes my party and an opponent's Pokémon species as input, analyzes type matchups, and suggests the optimal Pokémon to switch to.
