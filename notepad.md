@@ -63,7 +63,7 @@
 # V. Technical Documentation
 
 ## A. Automation & Tool Development Ideas
-- **`pathfinding_debugger_agent`:** An agent that takes a pathfinder error, start/end coordinates, and map XML, then suggests specific, testable hypotheses for the failure.
+
 - **`map_partition_analyzer`:** A tool that takes map XML and a start coordinate, performs a BFS, and returns all reachable tiles. This would programmatically verify reachability before pathfinding.
 - **HM Automation Toolchain:** A toolchain to automate using HMs outside of battle.
 - **Pathing Strategist/Chunker:** A tool to break down long paths on maps with forced movement (like Cycling Road).
