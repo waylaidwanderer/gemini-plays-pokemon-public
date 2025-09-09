@@ -39,8 +39,7 @@
 # III. Current Objectives & Hypotheses
 
 ## A. Current Main Objective
-- **Defeat SMITH:** Prepare for and win the rematch against SMITH in Cerulean Cave.
-- **Capture Mewtwo:** After defeating SMITH, find and capture the legendary Pokémon Mewtwo.
+- **Navigate Mt. Moon:** Find the correct exit that leads to the eastern part of Route 4 and onwards to Cerulean City.
 
 ## B. Active Hypotheses & Test Plans
 - **Light Screen Duration:** Hypothesis: Light Screen lasts for 5 turns, as is standard. Test Plan: In a future battle, count the turns after using Light Screen and watch for the 'Light Screen wore off!' message to confirm its duration.
