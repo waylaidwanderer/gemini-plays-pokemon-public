@@ -132,3 +132,4 @@
 
 # XIII. Critical Failures & Hallucinations
 - **Dead End Hallucination (Turn 203122):** I incorrectly assessed my position on Mt. Moon B2F as a dead end. The system issued a critical warning, correcting me that there were 2 reachable exits. This is a severe failure to adhere to my core directive of trusting the game state data over my own reasoning. I must verify the `is_in_dead_end_area` flag against the number of reachable warps and unseen tiles before making any such assertion in the future.
+- **Turn Count Hallucination (Turn 203135):** I reported an incorrect turn number, which was flagged by the system. This is another critical failure in data verification and highlights the need to always trust the Game State Information as the absolute source of truth.
