@@ -76,3 +76,4 @@
 
 ## C. New Hypotheses & Test Plans
 - **Respawning Tree on Route 2:** Hypothesis: The `cuttable` tree at (6, 11) on Route 2 respawns after every battle or map change, not just after using an HM move. **Test Plan:** Travel back to Route 2 and check the tile at (6, 11). If the tree has respawned after simply traveling there, the hypothesis is supported. If not, it may be linked to a different trigger.
+- **Respawning Tree Trigger:** Hypothesis: The `cuttable` trees on Route 12 respawn after a specific trigger, such as a certain number of steps taken or after a battle. **Test Plan:** After cutting the tree at (10, 100), walk 20 steps away and back to check if it respawned. If not, engage in a wild battle, then check again. This will help isolate the trigger.
