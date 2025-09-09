@@ -25,14 +25,13 @@
   - Test Plan: If other hypotheses fail, fly to Cinnabar, speak with all scientists (especially the fossil reviver), then return to Mt. Moon.
 
 # IV. Solved Puzzles & Disproven Hypotheses
-- **PC Interaction:** The PC at a Pokémon Center must be interacted with from the tile directly below it (Y+1), while facing up. **(Proven on Turn 202507)**
-- **Pokémon PC Menu:** Hypothesis: "Gem's PC" leads to Pokémon Storage. **(Disproven over ~20 turns)** Test: Selected "Gem's PC". Result: Consistently led to Item Storage. Conclusion: "Gem's PC" is for items. **New Hypothesis:** "BILL's PC" leads to Pokémon Storage. **(Proven on Turn 202198)** Test: Selected "BILL's PC". Result: Successfully accessed Pokémon Storage System.
-- **S.S. TICKET:** Hypothesis: The S.S. TICKET from the Silph Co. President allows access to a new ship or area at the Vermilion City port. **(Disproven on Turn 202143)** Test: Went to the S.S. Anne dock entrance at (19, 32) and interacted with the sailor. Result: The sailor gave the standard "The ship set sail" dialogue, indicating no new event was triggered.
-- **Route 2 Gatehouse Path:** Hypothesis: The gatehouse at (17, 36) connects the eastern and western partitions of Route 2. **(Disproven on Turn 201910)** Test: Entered the gatehouse warp. Result: Emerged on the same side of the route after a brief loading screen, indicating it's not a partition connector. Conclusion: The gatehouse is a simple pass-through building on one side of the route.
-- **Route 2 Northern Path:** Hypothesis: The path north to Pewter City from the eastern partition of Route 2 is directly accessible. **(Disproven on Turn 201874)** Test: Used `automated_path_navigator`. Result: No path found due to an impassable fence. Conclusion: The map is partitioned.
-- **Menu Selection Bug:** Hypothesis: Selecting a Pokémon in the 'Bring out which POKéMON?' menu consistently opens the sub-menu for a different Pokémon. **(Disproven on Turn 197844)**
-- **Route 7 Training Spot:** Hypothesis: Route 7 is a good location for training NIGHTSHADE. **(Disproven on Turn 200582)**
-- **Route 4 Dead End:** Hypothesis: The western part of Route 4 is a direct path from Cerulean to Mt. Moon. **(Disproven on Turn 202331)** Test: Attempted to navigate west on Route 4 from Cerulean. Result: The path is blocked by a series of one-way ledges that can only be jumped down from east to west. Conclusion: It is impossible to travel from Cerulean City to Mt. Moon via Route 4; the path is one-way from Mt. Moon to Cerulean.
+- **PC Interaction:** The PC at a Pokémon Center must be interacted with from the tile directly below it (Y+1), while facing up.
+- **Pokémon PC Menu:** "Gem's PC" is for Item Storage. "BILL's PC" is for Pokémon Storage.
+- **S.S. TICKET:** Does not trigger a new event at the Vermilion City port.
+- **Route 2 Gatehouse:** Is a simple pass-through building, not a connector between map partitions.
+- **Route 2 Northern Path:** The route is partitioned by a fence; the northern path is not directly accessible from the south-eastern section.
+- **Route 4 Path:** The path from Mt. Moon to Cerulean City is a one-way trip due to ledges. It's impossible to travel from Cerulean to Mt. Moon via this route.
+- **B2F Dead-End Room Trigger (Mt. Moon):** The isolated room on B2F, accessed via the ladder at B1F (14, 28), contains no hidden triggers. Systematically walking over every tile revealed nothing but a high wild encounter rate.
 
 # V. Major Battle Data
 
