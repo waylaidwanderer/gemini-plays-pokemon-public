@@ -85,3 +85,12 @@
 - **`battle_matchup_analyzer`:** A tool that takes my party and an opponent's Pokémon species as input, analyzes type matchups, and suggests the optimal Pokémon to switch to.
 - **`Quest Assistant Agent`**: An agent that takes a quest description (e.g., 'Need a fossil Pokémon') and the player's stored Pokémon list to recommend the best candidate for the task.
 - **`PC Organizer Tool`**: A tool to analyze stored Pokémon and suggest which ones to keep, train, or release based on current goals and team composition.
+
+# VII. Tile & Traversal Mechanics
+- **ground**: Standard walkable tile.
+- **grass**: Walkable tile with wild Pokémon encounters.
+- **impassable**: Walls, objects, and other barriers. Cannot be entered.
+- **ledge**: Can only be jumped down from above (Y-1). Acts as a wall from all other directions.
+- **water**: Requires Surf to cross.
+- **cuttable**: Requires Cut to pass. Respawns on map change.
+- **steps**: Allows movement between 'ground' and 'elevated_ground' tiles.
