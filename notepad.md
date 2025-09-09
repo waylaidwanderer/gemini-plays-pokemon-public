@@ -12,7 +12,7 @@
 - **Positional & Data Awareness:** I must verify my current coordinates, turn number, and system-provided data from the Game State Information *before* every action and trust it over my own manual assessment.
 - **Confirmation Bias:** My biggest failure is assuming my code is wrong when a tool fails, instead of testing the hypothesis that my input data is wrong (e.g., Cerulean Cave B1F partition issue). I must verify data quality first before debugging code. I must also actively try to disprove my own assumptions (e.g., assuming high encounter rate was a puzzle, or that 3 failed escapes was just RNG).
 - **Notepad Precision:** Repeated failures with `notepad_edit` `replace` operations highlight a need for greater precision. I must use the system's suggestions and be exact with `old_text`.
-- **Deferred Maintenance:** I have a history of identifying broken tools (like `automated_path_navigator`, `menu_analyzer`, `auto_battle_selector`) and failing to fix them immediately. This is a critical violation of my core directives and must be corrected.
+- **Deferred Maintenance:** I have a history of identifying broken tools (like `automated_path_navigator`) and failing to fix them immediately. This is a critical violation of my core directives and must be corrected.
 - **State Tracking:** I must improve my tracking of my own actions to avoid repeating tasks I have already completed (e.g., deleting an agent twice, redefining a fixed tool).
 
 # II. Game Mechanics & World Data
@@ -23,6 +23,8 @@
 - **Fainted HM Usage:** HMs like Surf can be used outside of battle even if the Pokémon that knows the move has fainted. (Confirmed by system notice on Turn 199815).
 - **1x1 Warp Tiles (Instant):** Most 1x1 warps trigger instantly upon stepping on them. To re-use the warp, you must step off the tile and then back on.
 - **1x1 Warp Tiles (Non-Instant):** Some 1x1 warps require a second input. After stepping on the warp tile, you must press the directional button that moves you *into* the building's impassable boundary to trigger the warp.
+- **Cycling Road Forced Movement:** On certain routes like Route 18 (Cycling Road), the player character experiences forced, multi-tile movement in a single direction, especially when moving downhill. This can interrupt and invalidate long path plans, requiring a strategy of shorter, more deliberate movements.
+
 ## B. Solved Puzzles
 - **Snorlax (Routes 11 & 12):** Awakened using the POKé FLUTE from the ITEM menu.
 - **Pokémon Tower Ghost:** Used SILPH SCOPE to reveal the ghost.
@@ -73,13 +75,11 @@
 
 ## B. Automation & Tool Development Ideas
 - **HM Automation Toolchain:** Plan to create a tool or series of tools to automate the process of using an HM move outside of battle. This would involve parsing the party menu, identifying the correct Pokémon with the HM, and navigating the sub-menus to execute the move. This will improve efficiency and reduce manual input errors.
+- **Pathing Strategist/Chunker:** Idea for a new tool or agent to handle navigation on maps with forced movement mechanics like Cycling Road. It would take a long path plan and break it into smaller, more reliable chunks to prevent interruptions from the game's auto-movement.
 
-## C. New Hypotheses & Test Plans
-- **Respawning Tree on Route 2:** Hypothesis: The `cuttable` tree at (6, 11) on Route 2 respawns after every battle or map change, not just after using an HM move. **Test Plan:** Travel back to Route 2 and check the tile at (6, 11). If the tree has respawned after simply traveling there, the hypothesis is supported. If not, it may be linked to a different trigger.
-- **Respawning Tree Trigger:** Hypothesis: The `cuttable` trees on Route 12 respawn after a specific trigger, such as a certain number of steps taken or after a battle. **Test Plan:** After cutting the tree at (10, 100), walk 20 steps away and back to check if it respawned. If not, engage in a wild battle, then check again. This will help isolate the trigger.
-- **Reachable Unseen Tiles Hallucination:** On Turn 201530, I incorrectly reported 290 reachable unseen tiles on Route 15 when there were 0. This is a critical data verification failure and highlights the need to trust system data over my own assessment.
 ## C. Procedural Rules
 - **Navigation Failure Protocol:** If `automated_path_navigator` fails to find a path to an intended exit, I must first systematically scan the entire map in Map Memory for any other reachable warps or map connections before concluding I am at a dead end or that the tool is broken.
+- **Map Connection 'Reachable' Flag:** The 'Reachable' flag for a map connection in the Game State Information should be treated with skepticism. It appears to be a general property and may not account for one-way paths (like ledges or Cycling Road) that make the connection unreachable from the player's current partition.
 
 ## D. Tile Mechanics
 - **Ledge Traversal:** Ledges can only be traversed downwards. Moving from a tile above a ledge (Y-1) to the ledge tile (Y) results in landing on the tile below the ledge (Y+1) in a single step.
