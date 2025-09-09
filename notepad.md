@@ -70,3 +70,7 @@
 - **HM Automation Toolchain:** A toolchain to automate using HMs outside of battle.
 - **Pathing Strategist/Chunker:** A tool to break down long paths on maps with forced movement (like Cycling Road).
 - **Multi-Step Navigation Agent:** An agent that can create a high-level plan involving multiple steps, such as navigating to an obstacle, removing it, and then navigating to the final destination. This would be useful for situations like the current one with the cuttable tree.
+
+### 3. Brock (Pewter City Gym)
+- **Roster:**
+    - OMASTAR (Lv 64) - Moves: HYDRO PUMP
