@@ -39,6 +39,7 @@
 - **Route 2 Northern Path:** Hypothesis: The path north to Pewter City from the eastern partition of Route 2 is directly accessible. **(Disproven on Turn 201874)** Test: Used `automated_path_navigator`. Result: No path found due to an impassable fence. Conclusion: The map is partitioned.
 - **Menu Selection Bug:** Hypothesis: Selecting a Pokémon in the 'Bring out which POKéMON?' menu consistently opens the sub-menu for a different Pokémon. **(Disproven on Turn 197844)**
 - **Route 7 Training Spot:** Hypothesis: Route 7 is a good location for training NIGHTSHADE. **(Disproven on Turn 200582)**
+- **Route 4 Dead End:** Hypothesis: The western part of Route 4 is a direct path from Cerulean to Mt. Moon. **(Disproven on Turn 202331)** Test: Attempted to navigate west on Route 4 from Cerulean City. Result: The path is blocked by a series of one-way ledges that can only be jumped down from east to west. Conclusion: It is impossible to travel from Cerulean City to Mt. Moon via Route 4; the path is one-way from Mt. Moon to Cerulean.
 
 # V. Major Battle Data
 
@@ -85,14 +86,4 @@
 - **`battle_matchup_analyzer`:** A tool that takes my party and an opponent's Pokémon species as input, analyzes type matchups, and suggests the optimal Pokémon to switch to.
 - **`Quest Assistant Agent`**: An agent that takes a quest description (e.g., 'Need a fossil Pokémon') and the player's stored Pokémon list to recommend the best candidate for the task.
 - **`PC Organizer Tool`**: A tool to analyze stored Pokémon and suggest which ones to keep, train, or release based on current goals and team composition.
-
-# VII. Tile & Traversal Mechanics
-- **ground**: Standard walkable tile.
-- **grass**: Walkable tile with wild Pokémon encounters.
-- **impassable**: Walls, objects, and other barriers. Cannot be entered.
-- **ledge**: Can only be jumped down from above (Y-1). Acts as a wall from all other directions.
-- **water**: Requires Surf to cross.
-- **cuttable**: Requires Cut to pass. Respawns on map change.
-- **steps**: Allows movement between 'ground' and 'elevated_ground' tiles.
-- **Route 4 Dead End:** Hypothesis: The western part of Route 4 is a direct path from Cerulean to Mt. Moon. **(Disproven on Turn 202331)** Test: Attempted to navigate west on Route 4 from Cerulean City. Result: The path is blocked by a series of one-way ledges that can only be jumped down from east to west. Conclusion: It is impossible to travel from Cerulean City to Mt. Moon via Route 4; the path is one-way from Mt. Moon to Cerulean.
 - **PC/Party Menu Navigation Toolchain:** Create a series of tools to fully automate withdrawing/depositing Pokémon and using HMs. This is a high-priority task to eliminate manual errors and inefficiency.
