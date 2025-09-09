@@ -20,8 +20,9 @@
 - **Fainted HM Usage:** HMs like Surf can be used outside of battle even if the Pokémon that knows the move has fainted. (Confirmed by system notice on Turn 199815).
 - **Cycling Road Forced Movement:** On certain routes like Route 18 (Cycling Road), the player character experiences forced, multi-tile movement in a single direction, especially when moving downhill. This can interrupt and invalidate long path plans, requiring a strategy of shorter, more deliberate movements.
 - **System 'Dead End' Definition:** An area is NOT a 'dead end' if the total of reachable non-adjacent warps (or warp groups) and reachable map connections is 2 or more. This is evaluated on a whole-map basis, even if the player is in a partition with only one exit. (Corrected on Turn 200952 after system warning).
-- **1x1 Warp Tiles (Instant):** Most 1x1 warps trigger instantly upon stepping on them. To re-use the warp, you must step off the tile and then back on.
-- **1x1 Warp Tiles (Non-Instant):** Some 1x1 warps require a second input. After stepping on the warp tile, you must press the directional button that moves you *into* the building's impassable boundary to trigger the warp.
+- **Warp Tile Mechanics:**
+    - **1x1 (Instant):** Most 1x1 warps trigger instantly upon stepping on them. To re-use the warp, you must step off the tile and then back on.
+    - **1x1 (Non-Instant):** Some 1x1 warps require a second input. After stepping on the warp tile, you must press the directional button that moves you *into* the building's impassable boundary to trigger the warp.
 - **Map Partitions & Reachability:** A single map can have physically disconnected areas (partitions). A path may be blocked by being in the wrong partition. The 'Reachable' flag for map connections may not account for one-way paths (ledges, etc.) that make a connection unreachable from the player's current partition. I must analyze the map XML for physical barriers and trust 'reachable' flags in the Game State Information before assuming a path exists.
 
 # III. Current Objectives & Hypotheses
