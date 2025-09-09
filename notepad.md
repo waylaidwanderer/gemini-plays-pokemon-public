@@ -91,3 +91,11 @@
 - **elevated_ground:** Walkable, but only accessible from other `elevated_ground` tiles or `steps`.
 - **impassable:** Cannot be entered. Walls, objects, etc.
 - **ladder_up / ladder_down:** Warps between floors.
+
+# VIII. Lessons from Tool Failures & Debugging
+## A. automated_path_navigator on Mt. Moon B2F (Turn 202577)
+- **Symptom:** Tool returned "No path found. Path blocked by impassable terrain." when attempting to path from (22, 18) to (30, 11).
+- **Initial Hypothesis:** The tool's logic for handling `elevated_ground` and `steps` was flawed.
+- **Investigation:** Manually traced the map XML. Discovered an `impassable` wall at (25, 18) that completely isolates the starting platform from the `steps` needed to reach the ground level.
+- **Conclusion:** The tool was **correct**. My manual map assessment was flawed; I failed to account for a partition wall.
+- **Lesson:** TRUST THE TOOL. Before debugging the tool's code, perform a rigorous manual trace of the map XML to verify that a path is *physically possible*. A "no path found" result is often an accurate reflection of a partitioned map.
