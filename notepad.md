@@ -25,6 +25,8 @@
 - **1x1 Warp Tiles (Non-Instant):** Some 1x1 warps require a second input. After stepping on the warp tile, you must press the directional button that moves you *into* the building's impassable boundary to trigger the warp.
 - **Lead Pokémon HM Bug:** Using an HM move (like SURF) with a Pokémon that is not in the first party slot can cause the lead Pokémon to use a different HM instead (e.g., STRENGTH). Hypothesis: The Pokémon using the HM must be in the lead to function correctly. Test Plan: After this battle, attempt to use SURF with TITANESS in the second party slot to see if the bug is consistently reproducible. This will help confirm if the 'lead Pokémon' is the only variable.
 - **Potential Ground Immunity:** A wild LICKITUNG (Lv 61) in Cerulean Cave took no damage from the Ground-type move EARTHQUAKE. It was defeated by the Rock-type move ROCK SLIDE. This suggests a potential type immunity or a specific battle mechanic. **Test Plan:** Encounter another Lickitung and test with a different Ground move (e.g., Bonemerang) to confirm.
+- **Sleeping HM Usage:** A Pokémon with the Sleep status condition CAN use an HM move (like Surf) outside of battle. (Confirmed on Turn 201076 in Cerulean Cave 1F).
+- **Elevated Ground:** Movement between `ground` and `elevated_ground` is only possible via `steps` tiles. Direct movement between them is impossible.
 
 ## B. Solved Puzzles
 - **Snorlax (Routes 11 & 12):** Awakened using the POKé FLUTE from the ITEM menu.
@@ -43,6 +45,7 @@
 - **Light Screen Duration:** Hypothesis: Light Screen lasts for 5 turns, as is standard. Test Plan: In a future battle, count the turns after using Light Screen and watch for the 'Light Screen wore off!' message to confirm its duration.
 - **Respawn Point:** Hypothesis: The game sets the last used Pokémon Center as the respawn point after a blackout. Test Plan: Heal at a new Pokémon Center, then intentionally black out to a weak wild Pokémon and observe the respawn location.
 - **Hidden Passages:** Hypothesis: Some 'impassable' walls in Cerulean Cave are secret passages. Test Plan: Systematically walk into different types of wall tiles in the current partition to test for fake walls. Mark tested walls with a map marker.
+- **Scripted High Encounter Rate:** Hypothesis: Certain corridors and tiles in Cerulean Cave (especially on 2F) have a scripted, abnormally high encounter rate, rather than it being purely random chance. **Test Plan:** Once the party is healed, return to the corridors on 2F where encounters were frequent (e.g., around (26,8), (10,15)) and walk back and forth on a small set of tiles for a fixed duration (e.g., 2 minutes) to measure the number of encounters. Compare this to a control area on 1F. This will help determine if it's a feature of the area or just bad luck.
 
 ## C. Disproven Hypotheses
 - **Menu Selection Bug:** Hypothesis: Selecting a Pokémon in the 'Bring out which POKéMON?' menu consistently opens the sub-menu for a different Pokémon. **(Disproven on Turn 197844)** Test: Selected REVENANT. Result: REVENANT's sub-menu opened. Conclusion: The bug is not a simple mis-selection of an adjacent Pokémon.
@@ -71,8 +74,3 @@
     - LICKITUNG (Lv 61): Moves: WRAP
     - CHANSEY (Lv 63): Moves: DEFENSE CURL, MEGA PUNCH
     - RAICHU (Lv 64): Moves: AGILITY
-
-## B. New Hypotheses
-- **Scripted High Encounter Rate:** Hypothesis: Certain corridors and tiles in Cerulean Cave (especially on 2F) have a scripted, abnormally high encounter rate, rather than it being purely random chance. **Test Plan:** Once the party is healed, return to the corridors on 2F where encounters were frequent (e.g., around (26,8), (10,15)) and walk back and forth on a small set of tiles for a fixed duration (e.g., 2 minutes) to measure the number of encounters. Compare this to a control area on 1F. This will help determine if it's a feature of the area or just bad luck.
-- **Sleeping HM Usage:** A Pokémon with the Sleep status condition CAN use an HM move (like Surf) outside of battle. (Confirmed on Turn 201076 in Cerulean Cave 1F).
-- **Elevated Ground:** Movement between `ground` and `elevated_ground` is only possible via `steps` tiles. Direct movement between them is impossible.
