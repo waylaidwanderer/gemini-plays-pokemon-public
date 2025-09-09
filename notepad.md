@@ -107,3 +107,11 @@
 - **Investigation:** Manually traced the map XML. Discovered an `impassable` wall at (25, 18) that completely isolates the starting platform from the `steps` needed to reach the ground level.
 - **Conclusion:** The tool was **correct**. My manual map assessment was flawed; I failed to account for a partition wall.
 - **Lesson:** TRUST THE TOOL. Before debugging the tool's code, perform a rigorous manual trace of the map XML to verify that a path is *physically possible*. A "no path found" result is often an accurate reflection of a partitioned map.
+
+## C. Agent-Generated Hypotheses (Turn 202785)
+1.  **Hidden Trigger:** The dead-end room on B2F (accessed via ladder at B1F (14, 28)) contains a hidden trigger, like an invisible warp or a secret switch.
+    - Test Plan: Go to the B2F dead-end room. Walk over every tile. Interact with every wall and rock.
+2.  **Fossil Lead:** Having the fossil Pokémon (HELIX) in the lead party slot triggers a special event.
+    - Test Plan: Put HELIX in the lead. Re-explore the isolated B1F partition and the B2F dead-end room, interacting with objects.
+3.  **Item/Move Subversion:** An Escape Rope or the move Dig has a unique, non-standard function in the B2F dead-end room.
+    - Test Plan: Go to the center of the B2F dead-end room. Use Escape Rope. If that fails, use Dig (if available).
