@@ -137,3 +137,26 @@
 - **Dead End Hallucination (Turn 203122 & 203175):** I have repeatedly failed to correctly assess dead-end areas (Mt. Moon B2F, Cerulean Pokecenter). This is a severe failure to trust and properly interpret game state data.
 - **Turn Count Hallucination (Turn 203135):** I reported an incorrect turn number. This is a critical failure in data verification.
 - **Massive Location Hallucination (Turn 203169):** I experienced a severe hallucination, believing I was in Cerulean City when I was on Route 4, leading to incorrect data and tool failure. This is a critical failure to verify game state data before every action.
+
+# XIII. New Automation & Hypothesis Plans (Post-Critique)
+
+## A. PC Automation Suite (`pc_pokemon_management_tool`)
+- **Goal:** Create a high-level tool to fully automate depositing or withdrawing a specific Pokémon.
+- **Required Steps:**
+  1.  Call `menu_analyzer` on the main PC menu to find 'BILL's PC'.
+  2.  Call `select_menu_option` to move to and select 'BILL's PC'.
+  3.  Call `menu_analyzer` on the storage system menu to find 'DEPOSIT PKMN' or 'WITHDRAW PKMN'.
+  4.  Call `select_menu_option` to move to and select the desired action.
+  5.  Call `menu_analyzer` on the party/box list.
+  6.  Call `select_menu_option` to find and select the target Pokémon by name.
+  7.  Call `menu_analyzer` on the final confirmation sub-menu.
+  8.  Call `select_menu_option` to select 'DEPOSIT' or 'WITHDRAW'.
+- **Implementation:** This logic should be encapsulated in a new `define_tool` script.
+
+## B. Mt. Moon Fossil Event Hypotheses
+- **Primary Hypothesis:** The Rocket Grunt at (30, 12) on Mt. Moon B2F requires a *revived fossil Pokémon*.
+  - **Test Plan:** Travel to the grunt with HELIX (Omanyte) in the party. Interact with him. **Outcome:** Grunt moves or provides new dialogue.
+- **Secondary Hypothesis:** The grunt requires the *Helix Fossil item*, not the Pokémon.
+  - **Test Plan:** If the primary hypothesis fails, check inventory and PC for a 'Helix Fossil' item. If found, return to the grunt with the item. **Outcome:** Grunt moves.
+- **Tertiary Hypothesis:** A story flag at the Cinnabar Island Pokémon Lab is required.
+  - **Test Plan:** If both above hypotheses fail, fly to Cinnabar Island. Speak to all scientists in the lab, especially the one who revives fossils. Then, return to the grunt. **Outcome:** Grunt moves.
