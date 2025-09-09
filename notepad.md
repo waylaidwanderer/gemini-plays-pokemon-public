@@ -23,12 +23,6 @@
 - **Fainted HM Usage:** HMs like Surf can be used outside of battle even if the Pokémon that knows the move has fainted. (Confirmed by system notice on Turn 199815).
 - **1x1 Warp Tiles (Instant):** Most 1x1 warps trigger instantly upon stepping on them. To re-use the warp, you must step off the tile and then back on.
 - **1x1 Warp Tiles (Non-Instant):** Some 1x1 warps require a second input. After stepping on the warp tile, you must press the directional button that moves you *into* the building's impassable boundary to trigger the warp.
-- **Lead Pokémon HM Bug:** Using an HM move (like SURF) with a Pokémon that is not in the first party slot can cause the lead Pokémon to use a different HM instead (e.g., STRENGTH). Hypothesis: The Pokémon using the HM must be in the lead to function correctly. Test Plan: After this battle, attempt to use SURF with TITANESS in the second party slot to see if the bug is consistently reproducible. This will help confirm if the 'lead Pokémon' is the only variable.
-- **Potential Ground Immunity:** A wild LICKITUNG (Lv 61) in Cerulean Cave took no damage from the Ground-type move EARTHQUAKE. It was defeated by the Rock-type move ROCK SLIDE. This suggests a potential type immunity or a specific battle mechanic. **Test Plan:** Encounter another Lickitung and test with a different Ground move (e.g., Bonemerang) to confirm.
-- **Sleeping HM Usage:** A Pokémon with the Sleep status condition CAN use an HM move (like Surf) outside of battle. (Confirmed on Turn 201076 in Cerulean Cave 1F).
-- **Elevated Ground:** Movement between `ground` and `elevated_ground` is only possible via `steps` tiles. Direct movement between them is impossible.
-- **Ledges:** Can be jumped down, but not climbed up. Treat as ground only when above (Y-1); otherwise, treat as impassable walls.
-
 ## B. Solved Puzzles
 - **Snorlax (Routes 11 & 12):** Awakened using the POKé FLUTE from the ITEM menu.
 - **Pokémon Tower Ghost:** Used SILPH SCOPE to reveal the ghost.
