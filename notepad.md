@@ -86,3 +86,17 @@
 # VI. Tile Mechanics
 - **ground**: Standard walkable tile.
 - **impassable**: Walls, objects, cannot be entered.
+
+# VI. Tile Mechanics
+- **ground**: Standard walkable tile.
+- **impassable**: Walls, objects, cannot be entered.
+- **grass**: Tall grass with wild Pokémon encounters.
+- **water**: Requires SURF to cross.
+- **cuttable**: A tree that can be cut with HM01 CUT.
+- **ledge**: Can only be jumped down from above.
+- **steps**: Allows movement between `ground` and `elevated_ground`.
+- **elevated_ground**: Walkable ground at a different elevation.
+- **teleport**: Instant warp tile.
+- **hole**: Warps to a lower floor.
+- **ladder_up / ladder_down**: Warps between floors.
+- **spinner_...**: Forces movement in a specific direction.

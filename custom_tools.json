@@ -709,5 +709,31 @@
         "action_counter": 201366
       }
     ]
+  },
+  "select_move_tool": {
+    "description": "Takes a move name as input from the battle menu and calculates the button presses to select it. The battle move menu is a 2x2 grid. It also requires the screen_text to identify the current cursor position.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "screen_text": {
+          "type": "string"
+        },
+        "target_move": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "screen_text",
+        "target_move"
+      ]
+    },
+    "python_script": "import json\nimport re\n\nscreen_text = input_data['screen_text']\ntarget_move = input_data['target_move']\n\nlines = screen_text.split('\\n')\nmoves = []\n\n# Find the line with PP count, moves start after that.\npp_line_index = -1\nfor i, line in enumerate(lines):\n    if re.search(r'\\d+/\\d+', line):\n        pp_line_index = i\n        break\n\nif pp_line_index == -1:\n    print(json.dumps([]))\n    exit()\n\n# Extract the four move names from the lines following the PP count\nmove_lines = lines[pp_line_index+1:]\nall_words = []\nfor line in move_lines:\n    # Clean up the line and split into words\n    cleaned_line = line.replace('→', '').strip()\n    all_words.extend(cleaned_line.split())\n\n# Filter for actual moves (all caps, possibly with hyphen)\nmove_regex = re.compile(r'^[A-Z]+(?:-[A-Z]+)?$')\nmoves = [word for word in all_words if move_regex.match(word)]\n\nif len(moves) != 4:\n    print(json.dumps([]))\n    exit()\n\n# Find the move with the cursor\ncurrent_move_name = ''\nfor line in move_lines:\n    if '→' in line:\n        # Find the uppercase word immediately following the arrow\n        match = re.search(r'→([A-Z-]+)', line)\n        if match:\n            current_move_name = match.group(1)\n            break\n\nif not current_move_name:\n    # If the above fails, find which of the 4 moves is on the line with the cursor\n    for line in move_lines:\n        if '→' in line:\n            for move in moves:\n                if move in line:\n                    current_move_name = move\n                    break\n            break\n\nif not current_move_name or target_move not in moves:\n    print(json.dumps([]))\n    exit()\n\n# Determine grid positions and calculate button presses\ncurrent_idx = moves.index(current_move_name)\ntarget_idx = moves.index(target_move)\n\ncoords = {\n    0: (0, 0), # Top-left\n    1: (1, 0), # Top-right\n    2: (0, 1), # Bottom-left\n    3: (1, 1)  # Bottom-right\n}\n\n# Remap indices to handle column-major order in text\ntext_order_to_grid_idx = {0: 0, 1: 2, 2: 1, 3: 3}\n\ncurrent_coord = coords[text_order_to_grid_idx[current_idx]]\ntarget_coord = coords[text_order_to_grid_idx[target_idx]]\n\ndx = target_coord[0] - current_coord[0]\ndy = target_coord[1] - current_coord[1]\n\npresses = []\nif dx > 0: presses.extend(['Right'] * dx)\nelif dx < 0: presses.extend(['Left'] * abs(dx))\nif dy > 0: presses.extend(['Down'] * dy)\nelif dy < 0: presses.extend(['Up'] * abs(dy))\n\nprint(json.dumps(presses))",
+    "history": [
+      {
+        "commit_message": "feat: Create select_move_tool to automate battle move selection. This tool parses the 2x2 move menu from the screen text to find the current cursor position and the target move, then calculates the sequence of directional button presses required to select it. This is a direct response to an Overwatch critique identifying a failure to proactively automate repetitive tasks.",
+        "timestamp": "2025-09-09T11:42:08.878Z",
+        "action_counter": 202101
+      }
+    ]
   }
 }
