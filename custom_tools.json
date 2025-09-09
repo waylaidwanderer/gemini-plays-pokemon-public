@@ -1,46 +1,4 @@
 {
-  "auto_battle_selector": {
-    "description": "Automatically moves the cursor to the requested main battle menu option (FIGHT, PKMN, ITEM, RUN). This tool can only be used during a battle when the main battle menu is visible. It cannot be used if a sub-menu is open. This tool ONLY generates directional movements; a separate 'A' press is required to confirm a selection.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "option_to_select": {
-          "type": "string",
-          "enum": [
-            "FIGHT",
-            "PKMN",
-            "ITEM",
-            "RUN"
-          ]
-        },
-        "screen_text": {
-          "type": "string"
-        }
-      },
-      "required": [
-        "option_to_select",
-        "screen_text"
-      ]
-    },
-    "python_script": "import json\nimport re\n\nscreen_text = input_data['screen_text']\noption_to_select = input_data['option_to_select']\n\noption_positions = {\n    'FIGHT': (0, 0),\n    'PKMN': (0, 1),\n    'ITEM': (1, 0),\n    'RUN': (1, 1)\n}\n\ncurrent_option = None\npatterns = {\n    'FIGHT': r'→\\s*FIGHT',\n    'PKMN': r'→\\s*PKMN',\n    'ITEM': r'→\\s*ITEM',\n    'RUN': r'→\\s*RUN'\n}\n\nif not current_option and re.search(r'FIGHT\\s+→PKMN', screen_text): current_option = 'PKMN'\nif not current_option and re.search(r'ITEM\\s+→RUN', screen_text): current_option = 'RUN'\n\nfor option, pattern in patterns.items():\n    if re.search(pattern, screen_text):\n        current_option = option\n        break\n\nif current_option is None:\n    current_option = 'FIGHT'\n\ncurrent_pos = option_positions.get(current_option, (0, 0))\ntarget_pos = option_positions.get(option_to_select)\n\nif target_pos is None:\n    print(json.dumps([]))\nelse:\n    row_diff = target_pos[0] - current_pos[0]\n    col_diff = target_pos[1] - current_pos[1]\n\n    button_presses = []\n    if row_diff > 0:\n        button_presses.extend(['Down'] * row_diff)\n    elif row_diff < 0:\n        button_presses.extend(['Up'] * abs(row_diff))\n\n    if col_diff > 0:\n        button_presses.extend(['Right'] * col_diff)\n    elif col_diff < 0:\n        button_presses.extend(['Left'] * abs(col_diff))\n    \n    print(json.dumps(button_presses))",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2025-09-07T22:33:26.042Z",
-        "action_counter": 197977
-      },
-      {
-        "commit_message": "fix: Add screen_text parsing to determine cursor position. The tool previously assumed the cursor always started at 'FIGHT', causing it to fail in other scenarios. This commit makes the tool robust to any starting cursor position by parsing the screen text. This is a critical fix to enable reliable battle automation.",
-        "timestamp": "2025-09-08T09:47:08.934Z",
-        "action_counter": 199362
-      },
-      {
-        "commit_message": "refactor: Remove automatic 'A' press. The system has repeatedly shown issues with mixed directional and action button sequences, leading to tool failure. This commit refactors the tool to only generate directional movements, forcing a more reliable two-step process (move, then confirm) for battle menu navigation. This is a direct response to a critical tool failure and an Overwatch critique.",
-        "timestamp": "2025-09-08T11:59:24.144Z",
-        "action_counter": 199603
-      }
-    ]
-  },
   "automated_path_navigator": {
     "description": "Takes start/end coordinates and a movement state ('walking' or 'surfing'), finds the shortest path using BFS, and returns a JSON object containing a success flag, a reason, and a coordinate array for the `path_plan`. It handles ledge traversal, impassable destinations, and accounts for objects (except Pikachu). Returns a specific failure reason, including obstacle coordinates and object names, if no path is found.",
     "input_schema": {
@@ -74,7 +32,7 @@
         "movement_state"
       ]
     },
-    "python_script": "import json\nimport collections\nimport xml.etree.ElementTree as ET\n\ntry:\n    start_x = int(input_data['start_x'])\n    start_y = int(input_data['start_y'])\n    end_x = int(input_data['end_x'])\n    end_y = int(input_data['end_y'])\n    movement_state = input_data['movement_state']\n\n    root = ET.fromstring(map_xml_string)\n    map_width = int(root.get('width'))\n    map_height = int(root.get('height'))\n    tiles = {}\n    for row in root.findall('Row'):\n        y = int(row.get('id'))\n        for tile_elem in row.findall('Tile'):\n            x = int(tile_elem.get('id'))\n            obj = tile_elem.find('Object')\n            tiles[(x, y)] = {\n                'type': tile_elem.get('type'),\n                'has_object': tile_elem.get('has-object') == 'true',\n                'object_id_name': obj.get('id-name') if obj is not None else None\n            }\n\n    start = (start_x, start_y)\n    end = (end_x, end_y)\n    \n    base_traversable_tile_types = {\n        'ground', 'grass', 'elevated_ground', 'steps', 'ladder_up', \n        'ladder_down', 'teleport', 'hole', 'cleared_boulder_barrier',\n        'open_gate', 'gate_offscreen'\n    }\n\n    if movement_state == 'surfing':\n        base_traversable_tile_types.add('water')\n\n    def is_valid_move(pos, from_pos=None):\n        x, y = pos\n        if not (1 <= x <= map_width and 1 <= y <= map_height):\n            return False\n        \n        tile_info = tiles.get(pos)\n        if not tile_info: return False\n\n        if tile_info['type'] not in base_traversable_tile_types:\n             return False\n\n        if tile_info['has_object'] and (tile_info.get('object_id_name') or '').upper() != 'PIKACHU':\n            return False\n\n        if from_pos:\n            current_tile_info = tiles.get(from_pos)\n            current_type = current_tile_info.get('type')\n            next_type = tile_info.get('type')\n            \n            is_elevation_change = (current_type == 'ground' and next_type == 'elevated_ground') or \\\n                                  (current_type == 'elevated_ground' and next_type == 'ground')\n            \n            is_via_steps = (current_type == 'steps' or next_type == 'steps')\n            \n            if is_elevation_change and not is_via_steps:\n                return False\n        \n        return True\n\n    goal_tiles = []\n    if is_valid_move(end):\n        goal_tiles.append(end)\n    else:\n        for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n            adj_pos = (end_x + dx, end_y + dy)\n            if is_valid_move(adj_pos):\n                goal_tiles.append(adj_pos)\n\n    if not goal_tiles:\n        end_tile_info = tiles.get(end)\n        reason_details = [f\"Destination ({end_x}, {end_y}): type={end_tile_info.get('type', 'N/A') if end_tile_info else 'Off-map'}\"]\n        for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n            adj_pos = (end_x + dx, end_y + dy)\n            adj_tile_info = tiles.get(adj_pos)\n            reason_details.append(f\"  - Neighbor {adj_pos}: type={adj_tile_info.get('type', 'N/A') if adj_tile_info else 'Off-map'}\")\n        reason = f'Destination and all adjacent tiles are impassable. Details: {'; '.join(reason_details)}'\n        print(json.dumps({'success': False, 'reason': reason, 'path_plan': []}))\n        exit()\n\n    queue = collections.deque([(start, [start])])\n    visited = {start}\n    path_found = False\n    final_path_coords = []\n\n    while queue:\n        current_pos, path = queue.popleft()\n        \n        if current_pos in goal_tiles:\n            final_path_coords = path\n            path_found = True\n            break\n\n        (cx, cy) = current_pos\n        for dx, dy in [(-1, 0), (1, 0), (0, -1), (0, 1)]:\n            next_pos = (cx + dx, cy + dy)\n            \n            if next_pos in visited:\n                continue\n\n            if tiles.get(next_pos, {}).get('type') == 'ledge':\n                if dy == 1 and dx == 0:\n                    final_pos = (cx, cy + 2)\n                    if final_pos not in visited and is_valid_move(final_pos, from_pos=current_pos):\n                        visited.add(final_pos)\n                        new_path = list(path)\n                        new_path.append(final_pos)\n                        queue.append((final_pos, new_path))\n                continue\n\n            if is_valid_move(next_pos, from_pos=current_pos):\n                visited.add(next_pos)\n                new_path = list(path)\n                new_path.append(next_pos)\n                queue.append((next_pos, new_path))\n\n    if path_found:\n        final_path_plan = [{'x': p[0], 'y': p[1]} for p in final_path_coords]\n        print(json.dumps({'success': True, 'reason': 'Path found.', 'path_plan': final_path_plan}))\n    else:\n        q_check = collections.deque([start])\n        reachable_visited = {start}\n        while q_check:\n            pos = q_check.popleft()\n            (cx, cy) = pos\n            for dx, dy in [(-1, 0), (1, 0), (0, -1), (0, 1)]:\n                next_pos = (cx + dx, cy + dy)\n                if next_pos not in reachable_visited and is_valid_move(next_pos, from_pos=pos):\n                    reachable_visited.add(next_pos)\n                    q_check.append(next_pos)\n        \n        if end not in reachable_visited:\n            reason = 'No path found. The destination is in a separate, unreachable map partition.'\n        else:\n            reason = 'No path found. An unknown obstacle is blocking the way.'\n\n        end_tile_info = tiles.get(end)\n        if end_tile_info and end_tile_info.get('type') == 'water' and movement_state == 'walking':\n            reason = 'No path found. The destination is across water and requires Surf.'\n            \n        print(json.dumps({'success': False, 'reason': reason, 'path_plan': []}))\n\nexcept Exception as e:\n    print(json.dumps({'success': False, 'reason': f'An error occurred: {str(e)}', 'path_plan': []}))",
+    "python_script": "import json\nimport collections\nimport xml.etree.ElementTree as ET\n\ntry:\n    start_x = int(input_data['start_x'])\n    start_y = int(input_data['start_y'])\n    end_x = int(input_data['end_x'])\n    end_y = int(input_data['end_y'])\n    movement_state = input_data['movement_state']\n\n    root = ET.fromstring(map_xml_string)\n    map_width = int(root.get('width'))\n    map_height = int(root.get('height'))\n    tiles = {}\n    for row in root.findall('Row'):\n        y = int(row.get('id'))\n        for tile_elem in row.findall('Tile'):\n            x = int(tile_elem.get('id'))\n            obj = tile_elem.find('Object')\n            tiles[(x, y)] = {\n                'type': tile_elem.get('type'),\n                'has_object': tile_elem.get('has-object') == 'true',\n                'object_id_name': obj.get('id-name') if obj is not None else None\n            }\n\n    start = (start_x, start_y)\n    end = (end_x, end_y)\n    \n    base_traversable_tile_types = {\n        'ground', 'grass', 'elevated_ground', 'steps', 'ladder_up', \n        'ladder_down', 'teleport', 'hole', 'cleared_boulder_barrier',\n        'open_gate', 'gate_offscreen'\n    }\n\n    if movement_state == 'surfing':\n        base_traversable_tile_types.add('water')\n\n    def is_valid_move(pos, from_pos=None):\n        x, y = pos\n        if not (1 <= x <= map_width and 1 <= y <= map_height):\n            return False\n        \n        tile_info = tiles.get(pos)\n        if not tile_info: return False\n\n        if tile_info['type'] not in base_traversable_tile_types:\n             return False\n\n        if tile_info['has_object'] and (tile_info.get('object_id_name') or '').upper() != 'PIKACHU':\n            return False\n\n        if from_pos:\n            current_tile_info = tiles.get(from_pos)\n            current_type = current_tile_info.get('type')\n            next_type = tile_info.get('type')\n            \n            is_elevation_change = (current_type == 'ground' and next_type == 'elevated_ground') or \\\n                                  (current_type == 'elevated_ground' and next_type == 'ground')\n            \n            is_via_steps = (current_type == 'steps' or next_type == 'steps')\n            \n            if is_elevation_change and not is_via_steps:\n                return False\n        \n        return True\n\n    goal_tiles = []\n    if is_valid_move(end):\n        goal_tiles.append(end)\n    else:\n        for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n            adj_pos = (end_x + dx, end_y + dy)\n            if is_valid_move(adj_pos):\n                goal_tiles.append(adj_pos)\n\n    if not goal_tiles:\n        reason_details = []\n        end_tile_info = tiles.get(end)\n        if end_tile_info:\n            reason_details.append(f\"Dest ({end_x},{end_y}): type={end_tile_info.get('type', 'unknown')}\")\n        else:\n            reason_details.append(f\"Dest ({end_x},{end_y}): unknown tile\")\n\n        for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n            adj_pos = (end_x + dx, end_y + dy)\n            adj_tile_info = tiles.get(adj_pos)\n            if adj_tile_info:\n                reason_details.append(f\"Adj ({adj_pos[0]},{adj_pos[1]}): type={adj_tile_info.get('type', 'unknown')}\")\n            else:\n                reason_details.append(f\"Adj ({adj_pos[0]},{adj_pos[1]}): unknown tile\")\n        \n        reason = f\"Destination and all adjacent tiles are impassable. Details: {'; '.join(reason_details)}\"\n        print(json.dumps({'success': False, 'reason': reason, 'path_plan': []}))\n        exit()\n\n    queue = collections.deque([(start, [start])])\n    visited = {start}\n    path_found = False\n    final_path_coords = []\n\n    while queue:\n        current_pos, path = queue.popleft()\n        \n        if current_pos in goal_tiles:\n            final_path_coords = path\n            path_found = True\n            break\n\n        (cx, cy) = current_pos\n        for dx, dy in [(-1, 0), (1, 0), (0, -1), (0, 1)]:\n            next_pos = (cx + dx, cy + dy)\n            \n            if next_pos in visited:\n                continue\n\n            if tiles.get(next_pos, {}).get('type') == 'ledge':\n                if dy == 1 and dx == 0:\n                    final_pos = (cx, cy + 2)\n                    if final_pos not in visited and is_valid_move(final_pos, from_pos=current_pos):\n                        visited.add(final_pos)\n                        new_path = list(path)\n                        new_path.append(final_pos)\n                        queue.append((final_pos, new_path))\n                continue\n\n            if is_valid_move(next_pos, from_pos=current_pos):\n                visited.add(next_pos)\n                new_path = list(path)\n                new_path.append(next_pos)\n                queue.append((next_pos, new_path))\n\n    if path_found:\n        final_path_plan = [{'x': p[0], 'y': p[1]} for p in final_path_coords]\n        print(json.dumps({'success': True, 'reason': 'Path found.', 'path_plan': final_path_plan}))\n    else:\n        q_check = collections.deque([start])\n        reachable_visited = {start}\n        while q_check:\n            pos = q_check.popleft()\n            (cx, cy) = pos\n            for dx, dy in [(-1, 0), (1, 0), (0, -1), (0, 1)]:\n                next_pos = (cx + dx, cy + dy)\n                if next_pos not in reachable_visited and is_valid_move(next_pos, from_pos=pos):\n                    reachable_visited.add(next_pos)\n                    q_check.append(next_pos)\n        \n        if end not in reachable_visited:\n            reason = 'No path found. The destination is in a separate, unreachable map partition.'\n        else:\n            reason = 'No path found. An unknown obstacle is blocking the way.'\n\n        end_tile_info = tiles.get(end)\n        if end_tile_info and end_tile_info.get('type') == 'water' and movement_state == 'walking':\n            reason = 'No path found. The destination is across water and requires Surf.'\n            \n        print(json.dumps({'success': False, 'reason': reason, 'path_plan': []}))\n\nexcept Exception as e:\n    print(json.dumps({'success': False, 'reason': f'An error occurred: {str(e)}', 'path_plan': []}))",
     "history": [
       {
         "commit_message": "feat: Create automated_path_navigator tool. This is a direct response to a critical Overwatch critique highlighting my failure to automate a recurring task. This tool will take start and end coordinates, find a path, and output the button presses needed to traverse it, which will make navigating long, interruption-prone routes much more efficient.",
@@ -500,6 +458,11 @@
         "commit_message": "feat: Add detailed diagnostic feedback on pathing failure. This directly addresses a critical Overwatch critique. The tool will now report the tile types of the destination and its neighbors when it cannot find a valid starting point for the pathfinding algorithm. This provides crucial context to distinguish between tool bugs and in-game puzzles.",
         "timestamp": "2025-09-09T03:51:39.368Z",
         "action_counter": 201301
+      },
+      {
+        "commit_message": "fix: Correct SyntaxError in f-string for diagnostic feedback. The previous version had a typo that caused the tool to crash when a path was not found. This commit fixes the f-string syntax and ensures the detailed diagnostic information is correctly formatted and printed. This is a critical fix to restore the tool's core functionality and improve its debugging capabilities, directly addressing a tool failure and an Overwatch critique.",
+        "timestamp": "2025-09-09T03:54:40.356Z",
+        "action_counter": 201307
       }
     ]
   },
@@ -648,75 +611,6 @@
         "commit_message": "refactor: Remove automatic 'A' press and `confirm_selection` flag. The system has repeatedly shown issues with mixed directional and action button sequences, leading to tool failure. This commit refactors the tool to only generate directional movements, forcing a more reliable two-step process (move, then confirm) for menu navigation. This is a direct response to a critical tool failure and an Overwatch critique.",
         "timestamp": "2025-09-08T11:58:46.787Z",
         "action_counter": 199602
-      }
-    ]
-  },
-  "battle_escape_assistant": {
-    "description": "Automates switching from a disabled lead Pokémon to the most survivable party member. It determines the optimal switch target based on a combination of HP ratio and level, and generates the button presses to execute the switch. This tool should be used to safely switch out of a dangerous situation.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "party_data": {
-          "type": "array",
-          "items": {
-            "type": "object",
-            "properties": {
-              "species": {
-                "type": "string"
-              },
-              "level": {
-                "type": "integer"
-              },
-              "current_hp": {
-                "type": "integer"
-              },
-              "max_hp": {
-                "type": "integer"
-              },
-              "status": {
-                "type": "string"
-              }
-            },
-            "required": [
-              "species",
-              "level",
-              "current_hp",
-              "max_hp",
-              "status"
-            ]
-          }
-        }
-      },
-      "required": [
-        "party_data"
-      ]
-    },
-    "python_script": "import json\n\ntry:\n    party_data_str = input_data['party_data']\n    party = json.loads(party_data_str)\n\n    best_target_index = -1\n    max_survivability_score = -1.0\n\n    for i in range(1, len(party)):\n        pokemon = party[i]\n        if pokemon.get('max_hp', 0) > 0 and pokemon.get('current_hp', 0) > 0:\n            hp_ratio = pokemon['current_hp'] / pokemon['max_hp']\n            level = pokemon['level']\n            survivability_score = hp_ratio * level\n            if survivability_score > max_survivability_score:\n                max_survivability_score = survivability_score\n                best_target_index = i\n\n    button_presses = []\n    if best_target_index != -1:\n        button_presses.extend([\"Right\", \"A\"])\n        button_presses.extend([\"Down\"] * best_target_index)\n        button_presses.extend([\"A\", \"A\"])\n\n    print(json.dumps(button_presses))\n\nexcept Exception as e:\n    print(json.dumps([]))",
-    "history": [
-      {
-        "commit_message": "feat: Create battle_escape_assistant tool. This tool automates the common and time-consuming task of switching from a disabled lead Pokemon to a healthy one during a wild battle. This is a direct response to a mandatory reflection identifying this inefficiency. The tool calculates the best switch target and generates the button sequence to open the party menu, select the Pokemon, and confirm the switch. This will significantly speed up traversal through high-encounter areas.",
-        "timestamp": "2025-09-09T00:11:55.614Z",
-        "action_counter": 200901
-      },
-      {
-        "commit_message": "feat: Create and enhance battle_escape_assistant. This tool now automates the entire sequence of switching from a disabled lead to a healthy Pokemon and then running from the battle. This is a direct response to a mandatory reflection identifying this inefficiency and will significantly speed up traversal through high-encounter areas.",
-        "timestamp": "2025-09-09T00:13:11.965Z",
-        "action_counter": 200903
-      },
-      {
-        "commit_message": "fix: Add JSON parsing for party_data input. The tool was failing with a TypeError because it was treating the JSON string input as a Python object without parsing it first. This commit adds the necessary `json.loads()` call to correctly handle the input, which is a critical fix to make the tool functional.",
-        "timestamp": "2025-09-09T00:16:46.202Z",
-        "action_counter": 200909
-      },
-      {
-        "commit_message": "refactor: Overhaul logic to use a survivability score (HP ratio * level) instead of just HP ratio. This prevents switching into underleveled Pokemon. feat: Simplify the tool's purpose to only handle the switch, removing the unreliable multi-state 'run' sequence. This directly addresses two critical Overwatch critiques.",
-        "timestamp": "2025-09-09T00:39:35.761Z",
-        "action_counter": 200951
-      },
-      {
-        "commit_message": "refactor: Overhaul logic to use a survivability score (HP ratio * level) instead of just HP ratio. This prevents switching into underleveled Pokemon. feat: Simplify the tool's purpose to only handle the switch, removing the unreliable multi-state 'run' sequence. This directly addresses two critical Overwatch critiques.",
-        "timestamp": "2025-09-09T00:40:16.317Z",
-        "action_counter": 200952
       }
     ]
   }
