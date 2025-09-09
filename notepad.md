@@ -71,9 +71,3 @@
     - LICKITUNG (Lv 61): Moves: WRAP
     - CHANSEY (Lv 63): Moves: DEFENSE CURL, MEGA PUNCH
     - RAICHU (Lv 64): Moves: AGILITY
-
-# V. Automation & Strategy Development (NEW)
-
-## A. New Tool Idea: Battle Escape Assistant
-- **Purpose:** To automate the multi-turn process of switching from a disabled lead Pokémon (e.g., asleep, fainted) to a healthy one and then running from a wild battle.
-- **Function:** The tool will take the party status as input, identify the best Pokémon to switch to, and generate the full sequence of button presses required to execute the switch and then select 'RUN'.
