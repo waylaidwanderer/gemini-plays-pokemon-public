@@ -100,3 +100,4 @@
 - **hole**: Warps to a lower floor.
 - **ladder_up / ladder_down**: Warps between floors.
 - **spinner_...**: Forces movement in a specific direction.
+- **S.S. TICKET:** Hypothesis: The S.S. TICKET from the Silph Co. President allows access to a new ship or area at the Vermilion City port. Test Plan: Go to the S.S. Anne dock entrance at (19, 32) and attempt to enter.
