@@ -87,3 +87,8 @@
 - **`Quest Assistant Agent`**: An agent that takes a quest description (e.g., 'Need a fossil Pokémon') and the player's stored Pokémon list to recommend the best candidate for the task.
 - **`PC Organizer Tool`**: A tool to analyze stored Pokémon and suggest which ones to keep, train, or release based on current goals and team composition.
 - **PC/Party Menu Navigation Toolchain:** Create a series of tools to fully automate withdrawing/depositing Pokémon and using HMs. This is a high-priority task to eliminate manual errors and inefficiency.
+
+# VII. New Automation Ideas (Post-Reflection)
+- **`navigation_strategist_agent`**: An agent to break down long-term navigation goals into smaller, manageable steps.
+- **`quest_assistant_agent`**: An agent to help with quests like the Mt. Moon fossil event by analyzing my stored Pokémon and items.
+- **`menu_analyzer` and `select_menu_option` toolchain**: A set of tools for more robust menu automation.
