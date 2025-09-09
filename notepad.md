@@ -78,3 +78,8 @@
 - **Respawning Tree on Route 2:** Hypothesis: The `cuttable` tree at (6, 11) on Route 2 respawns after every battle or map change, not just after using an HM move. **Test Plan:** Travel back to Route 2 and check the tile at (6, 11). If the tree has respawned after simply traveling there, the hypothesis is supported. If not, it may be linked to a different trigger.
 - **Respawning Tree Trigger:** Hypothesis: The `cuttable` trees on Route 12 respawn after a specific trigger, such as a certain number of steps taken or after a battle. **Test Plan:** After cutting the tree at (10, 100), walk 20 steps away and back to check if it respawned. If not, engage in a wild battle, then check again. This will help isolate the trigger.
 - **Reachable Unseen Tiles Hallucination:** On Turn 201530, I incorrectly reported 290 reachable unseen tiles on Route 15 when there were 0. This is a critical data verification failure and highlights the need to trust system data over my own assessment.
+## C. Procedural Rules
+- **Navigation Failure Protocol:** If `automated_path_navigator` fails to find a path to an intended exit, I must first systematically scan the entire map in Map Memory for any other reachable warps or map connections before concluding I am at a dead end or that the tool is broken.
+
+## D. Tile Mechanics
+- **Ledge Traversal:** Ledges can only be traversed downwards. Moving from a tile above a ledge (Y-1) to the ledge tile (Y) results in landing on the tile below the ledge (Y+1) in a single step.
