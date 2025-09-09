@@ -83,3 +83,4 @@
 
 ## A. Automation & Tool Development Ideas (New)
 - **`battle_matchup_analyzer`:** A tool that takes my party and an opponent's Pokémon species as input, analyzes type matchups, and suggests the optimal Pokémon to switch to.
+    - GOLEM (Lv 64) - Moves:
