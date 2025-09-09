@@ -22,13 +22,17 @@
 # III. Current Objectives & Hypotheses
 
 ## A. Current Main Objective
-- **Investigate the Mt. Moon fossil event:** A Rocket Grunt on Mt. Moon B2F is blocking a path and needs a fossil. This seems to be a key post-game event.
+- **Investigate the Mt. Moon fossil event:** A Rocket Grunt on Mt. Moon B2F is blocking a path and needs a fossil.
 
 ## B. Active Hypotheses & Test Plans
-- **Mt. Moon Rocket Grunt:** Hypothesis: Giving a fossil Pokémon to the Rocket Grunt at (30, 12) on Mt. Moon B2F will cause him to move and unblock the path. Test Plan: Withdraw a fossil Pokémon from the PC, travel to Mt. Moon, and interact with the grunt.
-- **Fossil Type:** Hypothesis: The Rocket Grunt requires a fossil *item* (e.g., HELIX FOSSIL) and not a revived fossil *Pokémon*. Test Plan: If presenting the Pokémon fails, search for a fossil item and present that instead.
-- **Light Screen Duration:** Hypothesis: Light Screen lasts for 5 turns. Test Plan: In a future battle, count the turns after using Light Screen to confirm its duration.
-- **Respawn Point:** Hypothesis: The game sets the last used Pokémon Center as the respawn point after a blackout. Test Plan: Heal at a new Pokémon Center, then intentionally black out to a weak wild Pokémon and observe the respawn location.
+- **Primary Hypothesis (Fossil Pokémon):** Giving the revived HELIX Pokémon to the Rocket Grunt at (30, 12) on Mt. Moon B2F will cause him to move.
+  - Test Plan: With HELIX in the party, travel to Mt. Moon and interact with the grunt.
+- **Secondary Hypothesis (Fossil Item):** The Rocket Grunt requires the actual 'Helix Fossil' item, not the revived Pokémon.
+  - Test Plan: If the primary hypothesis fails, check inventory/PC for a fossil item. If none, investigate re-acquiring one (e.g., Pewter Museum).
+- **Tertiary Hypothesis (Cinnabar Flag):** A story flag must be triggered at the Cinnabar Island Pokémon Lab before the Mt. Moon event can be resolved.
+  - Test Plan: If other hypotheses fail, fly to Cinnabar, speak with all scientists (especially the fossil reviver), then return to Mt. Moon.
+- **Game Mechanic Hypothesis (Respawn Point):** The game sets the last used Pokémon Center as the respawn point after a blackout.
+  - Test Plan: Heal at a new Pokémon Center, then intentionally black out to observe the respawn location.
 
 # IV. Solved Puzzles & Disproven Hypotheses
 - **PC Interaction:** The PC at a Pokémon Center must be interacted with from the tile directly below it (Y+1), while facing up. **(Proven on Turn 202507)**
