@@ -613,5 +613,41 @@
         "action_counter": 199602
       }
     ]
+  },
+  "select_battle_action": {
+    "description": "Calculates the button presses to select a main battle menu option (FIGHT, PKMN, ITEM, RUN) and can optionally confirm the selection. Takes screen_text to find the cursor. Returns a button sequence that can be autopressed.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "screen_text": {
+          "type": "string"
+        },
+        "option_to_select": {
+          "type": "string",
+          "enum": [
+            "FIGHT",
+            "PKMN",
+            "ITEM",
+            "RUN"
+          ]
+        },
+        "confirm_selection": {
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "screen_text",
+        "option_to_select",
+        "confirm_selection"
+      ]
+    },
+    "python_script": "import json\nimport re\n\nscreen_text = input_data['screen_text']\noption_to_select = input_data['option_to_select']\nconfirm_selection = input_data['confirm_selection'].lower() == 'true'\n\noption_positions = {\n    'FIGHT': (0, 0),\n    'PKMN': (0, 1),\n    'ITEM': (1, 0),\n    'RUN': (1, 1)\n}\n\ncurrent_option = None\nif re.search(r'→\\s*FIGHT', screen_text): current_option = 'FIGHT'\nelif re.search(r'→\\s*ITEM', screen_text): current_option = 'ITEM'\nelif re.search(r'FIGHT\\s+→\\s*PKMN', screen_text): current_option = 'PKMN'\nelif re.search(r'ITEM\\s+→\\s*RUN', screen_text): current_option = 'RUN'\n\nif current_option is None:\n    current_option = 'FIGHT'\n\ncurrent_pos = option_positions.get(current_option, (0, 0))\ntarget_pos = option_positions.get(option_to_select)\n\nbutton_presses = []\nif target_pos:\n    row_diff = target_pos[0] - current_pos[0]\n    col_diff = target_pos[1] - current_pos[1]\n\n    if row_diff > 0: button_presses.extend(['Down'] * row_diff)\n    elif row_diff < 0: button_presses.extend(['Up'] * abs(row_diff))\n\n    if col_diff > 0: button_presses.extend(['Right'] * col_diff)\n    elif col_diff < 0: button_presses.extend(['Left'] * abs(col_diff))\n    \n    if confirm_selection:\n        button_presses.append('A')\n\nprint(json.dumps(button_presses))",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2025-09-09T04:26:58.312Z",
+        "action_counter": 201364
+      }
+    ]
   }
 }
