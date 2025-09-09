@@ -735,8 +735,8 @@
       }
     ]
   },
-  "map_partition_analyzer": {
-    "description": "Takes a starting coordinate on the current map and performs a breadth-first search (BFS) to find all reachable tiles from that point. It returns a JSON object containing the number of reachable tiles and a list of their coordinates. This is used to programmatically verify map connectivity and identify isolated partitions.",
+  "room_explorer": {
+    "description": "Takes a list of coordinates for a room/partition (e.g., from `map_partition_analyzer`) and the player's start coordinate, and generates an efficient 'snaking' path to visit every tile in that partition. This automates the process of thoroughly searching small, isolated rooms for hidden triggers.",
     "input_schema": {
       "type": "object",
       "properties": {
@@ -746,26 +746,22 @@
         "start_y": {
           "type": "string"
         },
-        "movement_state": {
-          "type": "string",
-          "enum": [
-            "walking",
-            "surfing"
-          ]
+        "partition_coordinates": {
+          "type": "string"
         }
       },
       "required": [
         "start_x",
         "start_y",
-        "movement_state"
+        "partition_coordinates"
       ]
     },
-    "python_script": "import json\nimport collections\nimport xml.etree.ElementTree as ET\n\ntry:\n    start_x = int(input_data['start_x'])\n    start_y = int(input_data['start_y'])\n    movement_state = input_data['movement_state']\n\n    root = ET.fromstring(map_xml_string)\n    map_width = int(root.get('width'))\n    map_height = int(root.get('height'))\n    tiles = {}\n    for row in root.findall('Row'):\n        y = int(row.get('id'))\n        for tile_elem in row.findall('Tile'):\n            x = int(tile_elem.get('id'))\n            obj = tile_elem.find('Object')\n            tiles[(x, y)] = {\n                'type': tile_elem.get('type'),\n                'has_object': tile_elem.get('has-object') == 'true',\n                'object_id_name': obj.get('id-name') if obj is not None else None\n            }\n\n    start = (start_x, start_y)\n    \n    base_traversable_tile_types = {\n        'ground', 'grass', 'elevated_ground', 'steps', 'ladder_up', \n        'ladder_down', 'teleport', 'hole', 'cleared_boulder_barrier',\n        'open_gate', 'gate_offscreen'\n    }\n\n    if movement_state == 'surfing':\n        base_traversable_tile_types.add('water')\n\n    def is_valid_move(pos, from_pos=None):\n        x, y = pos\n        if not (1 <= x <= map_width and 1 <= y <= map_height):\n            return False\n        \n        tile_info = tiles.get(pos)\n        if not tile_info:\n            return False\n\n        if tile_info['type'] not in base_traversable_tile_types:\n            return False\n\n        if tile_info['has_object'] and (tile_info.get('object_id_name') or '').upper() != 'PIKACHU':\n            return False\n\n        if from_pos:\n            current_tile_info = tiles.get(from_pos)\n            current_type = current_tile_info.get('type')\n            next_type = tile_info.get('type')\n            \n            is_elevation_change = (current_type == 'ground' and next_type == 'elevated_ground') or \\\n                                  (current_type == 'elevated_ground' and next_type == 'ground')\n            \n            is_via_steps = (current_type == 'steps' or next_type == 'steps')\n            \n            if is_elevation_change and not is_via_steps:\n                return False\n        \n        return True\n\n    queue = collections.deque([start])\n    visited = {start}\n\n    while queue:\n        current_pos = queue.popleft()\n        (cx, cy) = current_pos\n        for dx, dy in [(-1, 0), (1, 0), (0, -1), (0, 1)]:\n            next_pos = (cx + dx, cy + dy)\n            \n            if next_pos in visited:\n                continue\n\n            if tiles.get(next_pos, {}).get('type') == 'ledge':\n                if dy == 1 and dx == 0: # Moving down\n                    final_pos = (cx, cy + 2)\n                    if final_pos not in visited and is_valid_move(final_pos, from_pos=current_pos):\n                        visited.add(final_pos)\n                        queue.append(final_pos)\n                continue\n\n            if is_valid_move(next_pos, from_pos=current_pos):\n                visited.add(next_pos)\n                queue.append(next_pos)\n    \n    reachable_coords = [{'x': p[0], 'y': p[1]} for p in sorted(list(visited))]\n    print(json.dumps({'reachable_tile_count': len(reachable_coords), 'reachable_tiles': reachable_coords}))\n\nexcept Exception as e:\n    print(json.dumps({'error': str(e)}))\n",
+    "python_script": "import json\n\nstart_x = int(input_data['start_x'])\nstart_y = int(input_data['start_y'])\npartition_coords_str = input_data['partition_coordinates']\n\npartition_coords = json.loads(partition_coords_str)\npartition_set = {tuple(p) for p in partition_coords}\n\nif not partition_set:\n    print(json.dumps([]))\nelse:\n    min_y = min(p[1] for p in partition_set)\n    max_y = max(p[1] for p in partition_set)\n\n    path = []\n    direction = 1  # 1 for left-to-right, -1 for right-to-left\n\n    # Determine initial direction based on start_x\n    first_row_coords = sorted([p for p in partition_set if p[1] == min_y], key=lambda p: p[0])\n    if first_row_coords:\n        mid_x = (first_row_coords[0][0] + first_row_coords[-1][0]) / 2\n        if start_x > mid_x:\n            direction = -1 # Start from the right\n\n    for y in range(min_y, max_y + 1):\n        row_coords = sorted([p for p in partition_set if p[1] == y], key=lambda p: p[0])\n        if not row_coords:\n            continue\n\n        if direction == -1:\n            row_coords.reverse()\n\n        for x, y_coord in row_coords:\n            path.append({'x': x, 'y': y_coord})\n        \n        direction *= -1\n\n    print(json.dumps(path))",
     "history": [
       {
-        "commit_message": "feat: Create map_partition_analyzer tool. This tool performs a BFS from a starting coordinate to identify all reachable tiles, helping to programmatically confirm map connectivity and avoid navigational errors caused by hallucinations about partitioned areas. This is a direct response to repeated failures in navigating Mt. Moon.",
-        "timestamp": "2025-09-09T18:29:30.355Z",
-        "action_counter": 202748
+        "commit_message": "feat: Create room_explorer tool to automate searching rooms. This tool generates an efficient 'snaking' path to visit every tile in a given partition, addressing the need to automate repetitive exploration tasks identified during the mandatory self-assessment. This will significantly speed up searching for hidden triggers.",
+        "timestamp": "2025-09-09T19:20:51.271Z",
+        "action_counter": 202851
       }
     ]
   }
