@@ -24,6 +24,7 @@
 - **1x1 Warp Tiles (Instant):** Most 1x1 warps trigger instantly upon stepping on them. To re-use the warp, you must step off the tile and then back on.
 - **1x1 Warp Tiles (Non-Instant):** Some 1x1 warps require a second input. After stepping on the warp tile, you must press the directional button that moves you *into* the building's impassable boundary to trigger the warp.
 - **Lead Pokémon HM Bug:** Using an HM move (like SURF) with a Pokémon that is not in the first party slot can cause the lead Pokémon to use a different HM instead (e.g., STRENGTH). Hypothesis: The Pokémon using the HM must be in the lead to function correctly. Test Plan: After this battle, attempt to use SURF with TITANESS in the second party slot to see if the bug is consistently reproducible. This will help confirm if the 'lead Pokémon' is the only variable.
+- **Potential Ground Immunity:** A wild LICKITUNG (Lv 61) in Cerulean Cave took no damage from the Ground-type move EARTHQUAKE. It was defeated by the Rock-type move ROCK SLIDE. This suggests a potential type immunity or a specific battle mechanic. **Test Plan:** Encounter another Lickitung and test with a different Ground move (e.g., Bonemerang) to confirm.
 
 ## B. Solved Puzzles
 - **Snorlax (Routes 11 & 12):** Awakened using the POKé FLUTE from the ITEM menu.
@@ -64,31 +65,15 @@
 
 ### 3. Cerulean Cave Wild Pokémon
 - **Observed Species & Moves:**
-    - WIGGLYTUFF (Lv 62) - Moves: LOVELY KISS, DOUBLE-EDGE
-    - SANDSLASH (Lv 63) - Moves: SWORDS DANCE
+    - WIGGLYTUFF (Lv 62) - Moves: LOVELY KISS, DOUBLE-EDGE, REST
+    - SANDSLASH (Lv 63) - Moves: SWORDS DANCE, EARTHQUAKE
     - GOLEM (Lv 64) - Moves: EXPLOSION
+    - LICKITUNG (Lv 61): Moves: WRAP
+    - CHANSEY (Lv 63): Moves: DEFENSE CURL, MEGA PUNCH
+    - RAICHU (Lv 64): Moves: AGILITY
 
-# V. Long-Term Plans & Strategies
+# V. Automation & Strategy Development (NEW)
 
-## A. Operation: Capture Mewtwo
-- **Location:** Cerulean Cave (accessed via surfing south from Route 24).
-- **Team Strategy:**
-    - **Status Inflictor:** TITANESS (Body Slam for paralysis) or SPARKY (Thunder Wave). Sleep is preferable if available. NIGHTSHADE's Sleep Powder could work if it can survive.
-    - **Damage Dealer:** REVENANT (Bonemerang/Earthquake) to lower Mewtwo's health carefully. Need to avoid a critical hit KO.
-    - **Utility:** A Pokémon with Surf is required for cave navigation (TITANESS or NEPTUNE).
-- **Required Items:**
-    - I have 31 Ultra Balls, which should be sufficient.
-    - The MASTER BALL is the final fallback option.
-- **Execution Plan:**
-    1. Heal party at a Pokémon Center.
-    2. Fly to Cerulean City.
-    3. Enter Cerulean Cave via Route 24 and navigate to Mewtwo's location.
-    4. Save before initiating the battle.# Battle & Mechanics Update (Cerulean Cave)
-
-### Cerulean Cave Wild Pokémon
-- **LICKITUNG (Lv 61):** Moves: WRAP
-- **CHANSEY (Lv 63):** Moves: DEFENSE CURL
-- **RAICHU (Lv 64):** Moves: AGILITY
-
-### Discovered Mechanics
-- **Potential Ground Immunity:** A wild LICKITUNG (Lv 61) in Cerulean Cave took no damage from the Ground-type move EARTHQUAKE. It was defeated by the Rock-type move ROCK SLIDE. This suggests a potential type immunity or a specific battle mechanic. **Test Plan:** Encounter another Lickitung and test with a different Ground move (e.g., Bonemerang) to confirm.
+## A. New Tool Idea: Battle Escape Assistant
+- **Purpose:** To automate the multi-turn process of switching from a disabled lead Pokémon (e.g., asleep, fainted) to a healthy one and then running from a wild battle.
+- **Function:** The tool will take the party status as input, identify the best Pokémon to switch to, and generate the full sequence of button presses required to execute the switch and then select 'RUN'.
