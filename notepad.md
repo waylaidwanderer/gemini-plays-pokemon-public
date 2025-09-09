@@ -84,7 +84,7 @@
 - **Pathing Strategist/Chunker:** A tool to break down long paths on maps with forced movement (like Cycling Road).
 - **Multi-Step Navigation Agent / `navigation_strategist_agent`:** An agent to break down long-term navigation goals into smaller, manageable steps.
 - **`battle_matchup_analyzer`:** A tool that takes my party and an opponent's Pokémon species as input, analyzes type matchups, and suggests the optimal Pokémon to switch to.
-- **PC Task Agent:** A high-level agent that could take a goal like "Withdraw HELIX" and break it down into the necessary sub-steps, calling the appropriate tools (`pc_navigator`, `select_menu_option`, etc.) to complete the task automatically.
+- **PC Task Agent:** A high-level agent to fully automate PC tasks. It would take a goal like "Withdraw HELIX" and use the existing toolchain (`pc_navigator`, `select_menu_option`, etc.) to execute the necessary steps.
 
 # VII. Tile Traversal and Movement Rules
 - **ground:** Standard walkable tile.
