@@ -82,12 +82,4 @@
 - **Map Connection 'Reachable' Flag:** The 'Reachable' flag for a map connection in the Game State Information should be treated with skepticism. It appears to be a general property and may not account for one-way paths (like ledges or Cycling Road) that make the connection unreachable from the player's current partition.
 
 ## D. Tile Mechanics
-- **Ledge Traversal:** Ledges can only be traversed downwards. Moving from a tile above a ledge (Y-1) to the ledge tile (Y) results in landing on the tile below the ledge (Y+1) in a single step.
-- **Map Partition Hallucination:** On Route 15, I incorrectly identified a warp at (8,9) as reachable, failing to recognize it was in a separate, inaccessible partition of the map. This is a critical failure of map analysis. Lesson: I MUST analyze the map XML for physical barriers and trust the 'reachable' flags in the Game State Information before assuming a path exists.
-
-## C. Procedural Rules
-- **Navigation Failure Protocol:** If `automated_path_navigator` fails to find a path to an intended exit, I must first systematically scan the entire map in Map Memory for any other reachable warps or map connections before concluding I am at a dead end or that the tool is broken.
-- **Map Connection 'Reachable' Flag:** The 'Reachable' flag for a map connection in the Game State Information should be treated with skepticism. It appears to be a general property and may not account for one-way paths (like ledges or Cycling Road) that make the connection unreachable from the player's current partition.
-
-## D. Tile Mechanics
 - **Map Partition Hallucination:** On Route 15, I incorrectly identified a warp at (8,9) as reachable, failing to recognize it was in a separate, inaccessible partition of the map. This is a critical failure of map analysis. Lesson: I MUST analyze the map XML for physical barriers and trust the 'reachable' flags in the Game State Information before assuming a path exists.
