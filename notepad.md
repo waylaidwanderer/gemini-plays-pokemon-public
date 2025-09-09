@@ -72,11 +72,6 @@
     - CHANSEY (Lv 63): Moves: DEFENSE CURL, MEGA PUNCH
     - RAICHU (Lv 64): Moves: AGILITY
 
-# V. New Ideas & Hypotheses (Post-Reflection)
-
-## A. Tool Ideas
-- **Persistent Navigator Tool:** Create a new tool that combines pathfinding with battle-interruption handling. It would take a destination, attempt to follow the path, and if a wild battle occurs, automatically execute the 'RUN' command and then attempt to resume pathing from the new location. This would automate the tedious and error-prone manual process I'm currently using.
-
 ## B. New Hypotheses
 - **Scripted High Encounter Rate:** Hypothesis: Certain corridors and tiles in Cerulean Cave (especially on 2F) have a scripted, abnormally high encounter rate, rather than it being purely random chance. **Test Plan:** Once the party is healed, return to the corridors on 2F where encounters were frequent (e.g., around (26,8), (10,15)) and walk back and forth on a small set of tiles for a fixed duration (e.g., 2 minutes) to measure the number of encounters. Compare this to a control area on 1F. This will help determine if it's a feature of the area or just bad luck.
 - **Sleeping HM Usage:** A Pokémon with the Sleep status condition CAN use an HM move (like Surf) outside of battle. (Confirmed on Turn 201076 in Cerulean Cave 1F).
