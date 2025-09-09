@@ -92,3 +92,6 @@
 - **`navigation_strategist_agent`**: An agent to break down long-term navigation goals into smaller, manageable steps.
 - **`quest_assistant_agent`**: An agent to help with quests like the Mt. Moon fossil event by analyzing my stored Pokémon and items.
 - **`menu_analyzer` and `select_menu_option` toolchain**: A set of tools for more robust menu automation.
+
+# VIII. Tile Traversal and Movement Rules
+- This section will document the observed behavior of all unique tile types encountered in the game.
