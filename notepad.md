@@ -114,20 +114,14 @@
 3.  **Cinnabar Lab Flag:** A story flag must be triggered at the Cinnabar Island Pokémon Lab before the Mt. Moon event can be resolved.
     - Test Plan: Fly to Cinnabar Island and enter the Pokémon Lab. Speak with all scientists, especially the fossil reviver. Show him HELIX. After exhausting interactions, fly back to Mt. Moon and check on the grunt.
 
-# VIII. Tile Traversal Mechanics
-- **ground**: Standard walkable tile.
-- **grass**: Walkable, triggers wild encounters.
-- **impassable**: Walls, objects, cannot be entered.
-- **ledge**: Can only be jumped down from the tile above (Y-1). Impassable from all other directions.
-- **steps**: Allows movement between `ground` and `elevated_ground`.
-- **elevated_ground**: Walkable ground at a different height, only accessible via `steps`.
-- **cuttable**: A tree that can be cut. Becomes `ground` but respawns on map change.
-- **water**: Requires SURF to cross.
-- **ladder_up / ladder_down**: Warps between floors.
-
 # IX. New Automation Ideas
 - **`deposit_pokemon_tool`**: A tool to automate the multi-step process of depositing a specific Pokémon. Would require parsing the party menu, selecting the Pokémon, pressing 'A', parsing the submenu, selecting 'DEPOSIT', and pressing 'A' again.
 
 # X. Self-Assessment Notes (Turn 203055)
 - **Tile Mechanics:** I need to be more diligent about documenting every new tile type I encounter and its properties in the 'Tile Traversal Mechanics' section. This will serve as a definitive guide to the game's physics.
 - **New Tool Idea (`deposit_pokemon_tool`):** The process of depositing multiple Pokémon is tedious and error-prone. I should create a tool that automates the entire sequence for a single Pokémon: selecting 'DEPOSIT PKMN', selecting the target Pokémon from the party list, selecting 'DEPOSIT' from the sub-menu, and confirming. This would be a key component of a larger PC automation suite.
+
+# XI. Overwatch Critique Notes (Turn 203101)
+- **Notepad Redundancy:** Removed the 'Tile Traversal Mechanics' section as it was redundant with core instructions.
+- **Map Marker Cleanup:** Tasked with consolidating redundant warp markers. Will perform this action as soon as I exit the current battle and regain access to map memory.
+- **Tool Maintenance:** Acknowledged failure to immediately create `room_explorer` tool. Re-committing to immediate tool creation/refinement as the highest priority action.
