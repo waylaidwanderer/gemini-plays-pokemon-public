@@ -94,3 +94,4 @@
 - **water**: Requires Surf to cross.
 - **cuttable**: Requires Cut to pass. Respawns on map change.
 - **steps**: Allows movement between 'ground' and 'elevated_ground' tiles.
+- **Route 4 Dead End:** Hypothesis: The western part of Route 4 is a direct path from Cerulean to Mt. Moon. **(Disproven on Turn 202331)** Test: Attempted to navigate west on Route 4 from Cerulean City. Result: The path is blocked by a series of one-way ledges that can only be jumped down from east to west. Conclusion: It is impossible to travel from Cerulean City to Mt. Moon via Route 4; the path is one-way from Mt. Moon to Cerulean.
