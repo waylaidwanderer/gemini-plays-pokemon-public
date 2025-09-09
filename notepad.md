@@ -53,7 +53,14 @@
 - **Roster:**
     - AERODACTYL (Lv 65) - Moves: HYPER BEAM, ROCK SLIDE
 
-### 3. Cerulean Cave Wild Pokémon
+### 3. Brock (Pewter City Gym)
+- **Roster:**
+    - OMASTAR (Lv 64) - Moves: HYDRO PUMP, BLIZZARD
+    - ONIX (Lv 65) - Moves: EARTHQUAKE, ROCK SLIDE
+    - KABUTOPS (Lv 64) - Moves: SWORDS DANCE, SLASH
+    - GOLEM (Lv 64) - Moves: ROCK SLIDE
+
+### 4. Cerulean Cave Wild Pokémon
 - **Observed Species & Moves:**
     - WIGGLYTUFF (Lv 62) - Moves: LOVELY KISS, DOUBLE-EDGE, REST
     - SANDSLASH (Lv 63) - Moves: SWORDS DANCE, EARTHQUAKE
@@ -67,24 +74,13 @@
 # V. Technical Documentation
 
 ## A. Automation & Tool Development Ideas
-
 - **`map_partition_analyzer`:** A tool that takes map XML and a start coordinate, performs a BFS, and returns all reachable tiles. This would programmatically verify reachability before pathfinding.
 - **HM Automation Toolchain:** A toolchain to automate using HMs outside of battle.
 - **Pathing Strategist/Chunker:** A tool to break down long paths on maps with forced movement (like Cycling Road).
 - **Multi-Step Navigation Agent:** An agent that can create a high-level plan involving multiple steps, such as navigating to an obstacle, removing it, and then navigating to the final destination. This would be useful for situations like the current one with the cuttable tree.
-
-### 3. Brock (Pewter City Gym)
-- **Roster:**
-    - OMASTAR (Lv 64) - Moves: HYDRO PUMP
-    - ONIX (Lv 65) - Moves: EARTHQUAKE
-    - KABUTOPS (Lv 64) - Moves: SWORDS DANCE
+- **`battle_matchup_analyzer`:** A tool that takes my party and an opponent's Pokémon species as input, analyzes type matchups, and suggests the optimal Pokémon to switch to.
+- **`select_move_tool`**: A tool that takes a move name as input from the battle menu and calculates the button presses to select it.
 
 # VI. Tile Mechanics
 - **ground**: Standard walkable tile.
 - **impassable**: Walls, objects, cannot be entered.
-
-## A. Automation & Tool Development Ideas (New)
-- **`battle_matchup_analyzer`:** A tool that takes my party and an opponent's Pokémon species as input, analyzes type matchups, and suggests the optimal Pokémon to switch to.
-    - GOLEM (Lv 64) - Moves:
-    - NINETALES (Lv 64) - Moves:
-    - AERODACTYL (Lv 65) - Moves:
