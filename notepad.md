@@ -86,7 +86,7 @@
 - **`battle_matchup_analyzer`:** A tool that takes my party and an opponent's Pokémon species as input, analyzes type matchups, and suggests the optimal Pokémon to switch to.
 - **PC Task Agent:** A high-level agent that could take a goal like "Withdraw HELIX" and break it down into the necessary sub-steps, calling the appropriate tools (`pc_navigator`, `select_menu_option`, etc.) to complete the task automatically.
 
-# VIII. Tile Traversal and Movement Rules
+# VII. Tile Traversal and Movement Rules
 - **ground:** Standard walkable tile.
 - **elevated_ground:** Walkable, but only accessible from other `elevated_ground` tiles or `steps`.
 - **impassable:** Cannot be entered. Walls, objects, etc.
