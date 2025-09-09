@@ -88,9 +88,14 @@
 
 # VII. Tile Traversal and Movement Rules
 - **ground:** Standard walkable tile.
+- **grass:** Walkable tile where wild Pokémon can be encountered.
 - **elevated_ground:** Walkable, but only accessible from other `elevated_ground` tiles or `steps`.
-- **impassable:** Cannot be entered. Walls, objects, etc.
-- **ladder_up / ladder_down:** Warps between floors.
+- **steps:** The only tile type that allows movement between `ground` and `elevated_ground`.
+- **impassable:** Cannot be entered. Includes walls, trees, water (without Surf), and most objects.
+- **water:** Traversable only with the HM move Surf.
+- **ledge:** A one-way tile. Can only be jumped down from the tile above it (Y-1).
+- **cuttable:** A tree that can be removed with the HM move Cut. Respawns when changing maps.
+- **ladder_up / ladder_down:** Warps that move the player between different floors of a location.
 
 # VIII. Lessons from Tool Failures & Debugging
 ## A. automated_path_navigator on Mt. Moon B2F (Turn 202577)

@@ -706,7 +706,7 @@
         "target_move"
       ]
     },
-    "python_script": "import json\nimport re\n\nscreen_text = input_data['screen_text']\ntarget_move = input_data['target_move']\n\nlines = screen_text.split('\\n')\n\n# Find the line with PP count, as moves are listed after it.\npp_line_index = -1\nfor i, line in enumerate(lines):\n    if re.search(r'\\d+/\\d+', line):\n        pp_line_index = i\n        break\n\nif pp_line_index == -1:\n    print(json.dumps([]))\n    exit()\n\n# Assume the 4 lines after the PP line are the moves.\nmove_lines = lines[pp_line_index+1:]\nif len(move_lines) < 4:\n    print(json.dumps([]))\n    exit()\n\nmove_candidates = move_lines[:4]\n\nparsed_moves = []\ncurrent_idx = -1\n\nfor i, line in enumerate(move_candidates):\n    is_cursor_line = '→' in line\n    move_name = line.replace('→', '').strip()\n    parsed_moves.append(move_name)\n    if is_cursor_line:\n        current_idx = i\n\nif current_idx == -1 or target_move not in parsed_moves:\n    print(json.dumps([]))\n    exit()\n\ntarget_idx = parsed_moves.index(target_move)\n\n# The menu is navigated vertically (Up/Down).\ndy = target_idx - current_idx\n\npresses = []\nif dy > 0:\n    presses.extend(['Down'] * dy)\nelif dy < 0:\n    presses.extend(['Up'] * abs(dy))\n\nprint(json.dumps(presses))",
+    "python_script": "import json\nimport re\n\nscreen_text = input_data['screen_text']\ntarget_move = input_data['target_move']\n\nlines = screen_text.split('\\n')\n\npp_line_index = -1\nfor i, line in enumerate(lines):\n    # Use a more specific regex to only match lines that are just PP counts.\n    if re.search(r'^\\d+/\\d+$', line.strip()):\n        pp_line_index = i\n        break\n\nif pp_line_index == -1:\n    print(json.dumps([]))\n    exit()\n\n# Assume the 4 lines after the PP line are the moves.\nmove_lines = lines[pp_line_index+1:]\nif len(move_lines) < 4:\n    print(json.dumps([]))\n    exit()\n\nmove_candidates = move_lines[:4]\n\nparsed_moves = []\ncurrent_idx = -1\n\nfor i, line in enumerate(move_candidates):\n    is_cursor_line = '→' in line\n    move_name = line.replace('→', '').strip()\n    parsed_moves.append(move_name)\n    if is_cursor_line:\n        current_idx = i\n\nif current_idx == -1 or target_move not in parsed_moves:\n    print(json.dumps([]))\n    exit()\n\ntarget_idx = parsed_moves.index(target_move)\n\n# The menu is navigated vertically (Up/Down).\ndy = target_idx - current_idx\n\npresses = []\nif dy > 0:\n    presses.extend(['Down'] * dy)\nelif dy < 0:\n    presses.extend(['Up'] * abs(dy))\n\nprint(json.dumps(presses))",
     "history": [
       {
         "commit_message": "feat: Create select_move_tool to automate battle move selection. This tool parses the 2x2 move menu from the screen text to find the current cursor position and the target move, then calculates the sequence of directional button presses required to select it. This is a direct response to an Overwatch critique identifying a failure to proactively automate repetitive tasks.",
@@ -722,6 +722,11 @@
         "commit_message": "fix: Overhaul move menu parsing again. The previous logic was still too complex and failed to handle the simple list-like format of the move menu text. This commit simplifies the logic to treat the four lines after the PP count as a simple vertical list, which aligns with the Up/Down only navigation. This is a critical fix to address repeated tool failures.",
         "timestamp": "2025-09-09T14:32:18.059Z",
         "action_counter": 202434
+      },
+      {
+        "commit_message": "fix: Improve PP line detection regex. The previous regex `\\d+/\\d+` was too generic and incorrectly matched the HP display line (e.g., 'NORMAL   271/271'). This commit changes the regex to `^\\d+/\\d+$` to ensure it only matches lines that consist solely of the PP count, preventing misidentification. This is a critical fix to address a repeated tool failure.",
+        "timestamp": "2025-09-09T16:40:46.684Z",
+        "action_counter": 202586
       }
     ]
   },
