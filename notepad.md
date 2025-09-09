@@ -20,7 +20,6 @@
 - **Fainted HM Usage:** A fainted Pokémon can still use field moves like CUT and Surf outside of battle.
 - **Cycling Road Forced Movement:** On certain routes like Route 18, the player character experiences forced, multi-tile movement in a single direction, especially when moving downhill.
 - **Map Partitions & Reachability:** A single map can have physically disconnected areas (partitions). A path may be blocked by being in the wrong partition. I must analyze the map XML for physical barriers and not solely rely on the 'Reachable' flag in the Game State Information.
-- **PC Interaction:** The PC at a Pokémon Center is an object that must be interacted with from the tile directly below it (Y+1), while facing up.
 
 # III. Current Objectives & Hypotheses
 
@@ -29,6 +28,7 @@
 
 ## B. Active Hypotheses & Test Plans
 - **Mt. Moon Rocket Grunt:** Hypothesis: Giving a fossil Pokémon to the Rocket Grunt at (30, 12) on Mt. Moon B2F will cause him to move and unblock the path. Test Plan: Withdraw a fossil Pokémon from the PC, travel to Mt. Moon, and interact with the grunt.
+- **PC Interaction:** Hypothesis: The PC at a Pokémon Center must be interacted with from the tile directly below it (Y+1), while facing up. Test Plan: Navigate to (14, 5) in the Mt. Moon Pokémon Center, face up, and press 'A'.
 - **Light Screen Duration:** Hypothesis: Light Screen lasts for 5 turns. Test Plan: In a future battle, count the turns after using Light Screen to confirm its duration.
 - **Respawn Point:** Hypothesis: The game sets the last used Pokémon Center as the respawn point after a blackout. Test Plan: Heal at a new Pokémon Center, then intentionally black out to a weak wild Pokémon and observe the respawn location.
 
@@ -82,16 +82,10 @@
 - **`map_partition_analyzer`:** A tool that takes map XML and a start coordinate, performs a BFS, and returns all reachable tiles. This would programmatically verify reachability before pathfinding.
 - **HM Automation Toolchain:** A toolchain to automate using HMs outside of battle.
 - **Pathing Strategist/Chunker:** A tool to break down long paths on maps with forced movement (like Cycling Road).
-- **Multi-Step Navigation Agent:** An agent that can create a high-level plan involving multiple steps, such as navigating to an obstacle, removing it, and then navigating to the final destination.
+- **Multi-Step Navigation Agent / `navigation_strategist_agent`:** An agent to break down long-term navigation goals into smaller, manageable steps.
 - **`battle_matchup_analyzer`:** A tool that takes my party and an opponent's Pokémon species as input, analyzes type matchups, and suggests the optimal Pokémon to switch to.
-- **`Quest Assistant Agent`**: An agent that takes a quest description (e.g., 'Need a fossil Pokémon') and the player's stored Pokémon list to recommend the best candidate for the task.
 - **`PC Organizer Tool`**: A tool to analyze stored Pokémon and suggest which ones to keep, train, or release based on current goals and team composition.
-- **PC/Party Menu Navigation Toolchain:** Create a series of tools to fully automate withdrawing/depositing Pokémon and using HMs. This is a high-priority task to eliminate manual errors and inefficiency.
-
-# VII. New Automation Ideas (Post-Reflection)
-- **`navigation_strategist_agent`**: An agent to break down long-term navigation goals into smaller, manageable steps.
-- **`quest_assistant_agent`**: An agent to help with quests like the Mt. Moon fossil event by analyzing my stored Pokémon and items.
-- **`menu_analyzer` and `select_menu_option` toolchain**: A set of tools for more robust menu automation.
+- **PC/Party Menu Navigation Toolchain (`menu_analyzer` and `select_menu_option`):** Create a series of tools to fully automate withdrawing/depositing Pokémon and using HMs. This is a high-priority task to eliminate manual errors and inefficiency.
 
 # VIII. Tile Traversal and Movement Rules
 - This section will document the observed behavior of all unique tile types encountered in the game.
