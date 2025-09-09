@@ -19,7 +19,6 @@
 - **Trap Battles:** Certain wild encounters appear to be 'trap' battles where the 'RUN' option is disabled (Observed: Wigglytuff, KADABRA; Suspected: Ditto).
 - **Fainted HM Usage:** A fainted Pokémon can still use field moves like CUT and Surf outside of battle.
 - **Cycling Road Forced Movement:** On certain routes like Route 18, the player character experiences forced, multi-tile movement in a single direction, especially when moving downhill.
-- **System 'Dead End' Definition:** An area is NOT a 'dead end' if the total of reachable non-adjacent warps (or warp groups) and reachable map connections is 2 or more. This is evaluated on a whole-map basis, even if the player is in a partition with only one exit.
 - **Map Partitions & Reachability:** A single map can have physically disconnected areas (partitions). A path may be blocked by being in the wrong partition. I must analyze the map XML for physical barriers and not solely rely on the 'Reachable' flag in the Game State Information.
 
 # III. Current Objectives & Hypotheses
@@ -31,8 +30,6 @@
 - **Route 2 Pathing:** Hypothesis: The path to the western side of Route 2 (and thus to Pewter City) is through the southern gatehouse at (17, 36). Test Plan: Navigate to the gatehouse and pass through it.
 - **Light Screen Duration:** Hypothesis: Light Screen lasts for 5 turns. Test Plan: In a future battle, count the turns after using Light Screen to confirm its duration.
 - **Respawn Point:** Hypothesis: The game sets the last used Pokémon Center as the respawn point after a blackout. Test Plan: Heal at a new Pokémon Center, then intentionally black out to a weak wild Pokémon and observe the respawn location.
-- **Hidden Passages:** Hypothesis: Some 'impassable' walls in Cerulean Cave are secret passages. Test Plan: Systematically walk into different types of wall tiles in the current partition to test for fake walls. Mark tested walls with a map marker.
-- **Scripted High Encounter Rate:** Hypothesis: Certain corridors and tiles in Cerulean Cave have a scripted, abnormally high encounter rate, rather than it being purely random chance. Test Plan: Once the party is healed, return to the corridors on 2F where encounters were frequent and walk back and forth on a small set of tiles for a fixed duration to measure the number of encounters.
 
 ## C. Disproven Hypotheses
 - **Route 2 Northern Path:** Hypothesis: The path north to Pewter City from the eastern partition of Route 2 is directly accessible. **(Disproven on Turn 201874)** Test: Used `automated_path_navigator`. Result: No path found due to an impassable fence. Conclusion: The map is partitioned.
