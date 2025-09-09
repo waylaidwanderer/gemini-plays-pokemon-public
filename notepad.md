@@ -85,8 +85,7 @@
 - **Multi-Step Navigation Agent / `navigation_strategist_agent`:** An agent to break down long-term navigation goals into smaller, manageable steps.
 - **`battle_matchup_analyzer`:** A tool that takes my party and an opponent's Pokémon species as input, analyzes type matchups, and suggests the optimal Pokémon to switch to.
 - **`PC Organizer Tool`**: A tool to analyze stored Pokémon and suggest which ones to keep, train, or release based on current goals and team composition.
-- **PC/Party Menu Navigation Toolchain (`menu_analyzer` and `select_menu_option`):** Create a series of tools to fully automate withdrawing/depositing Pokémon and using HMs. This is a high-priority task to eliminate manual errors and inefficiency.
-- **PC Task Agent:** A high-level agent that could take a goal like "Withdraw HELIX" and break it down into the necessary sub-steps, calling the appropriate tools (`pc_navigator`, `select_menu_option`, etc.) to complete the task automatically.
+- **PC Task Agent:** A high-level agent that could take a goal like "Withdraw HELIX" and break it down into the necessary sub-steps, calling the appropriate tools (`pc_navigator`, `select_menu_option`, etc.) to complete the task automatically. This would likely use a toolchain like `menu_analyzer` and `select_menu_option` as its building blocks.
 
 # VIII. Tile Traversal and Movement Rules
 - **ground:** Standard walkable tile.
