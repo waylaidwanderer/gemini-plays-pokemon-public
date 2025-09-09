@@ -129,3 +129,6 @@
 # XII. Self-Assessment Notes (Turn 203107)
 - **Maintenance Failure:** Acknowledged a critical failure to adhere to my 'Immediate Maintenance' directive by deferring the creation of the `room_explorer` tool. This is a severe lapse and must be corrected going forward. All tool/agent creation and refinement must happen the moment the need is identified.
 - **New Tool Idea (`deposit_pokemon_tool`):** The process of depositing multiple Pokémon is tedious and error-prone. I should create a tool that automates the entire sequence for a single Pokémon: selecting 'DEPOSIT PKMN', selecting the target Pokémon from the party list, selecting 'DEPOSIT' from the sub-menu, and confirming. This would be a key component of a larger PC automation suite.
+
+# XIII. Critical Failures & Hallucinations
+- **Dead End Hallucination (Turn 203122):** I incorrectly assessed my position on Mt. Moon B2F as a dead end. The system issued a critical warning, correcting me that there were 2 reachable exits. This is a severe failure to adhere to my core directive of trusting the game state data over my own reasoning. I must verify the `is_in_dead_end_area` flag against the number of reachable warps and unseen tiles before making any such assertion in the future.
