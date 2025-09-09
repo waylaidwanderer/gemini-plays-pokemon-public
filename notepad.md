@@ -10,20 +10,17 @@
 ## B. Key Lessons & Recurring Failures
 - **CRITICAL: DATA VERIFICATION:** My most severe failures stem from hallucinating my location or other game state variables. I MUST verify my current map ID, coordinates, and other data from the Game State Information *before* every single action. Trust the data, not my memory.
 - **Positional & Data Awareness:** I must verify my current coordinates, turn number, and system-provided data from the Game State Information *before* every action and trust it over my own manual assessment.
-- **Confirmation Bias:** My biggest failure is assuming my code is wrong when a tool fails, instead of testing the hypothesis that my input data is wrong (e.g., Cerulean Cave B1F partition issue). I must verify data quality first before debugging code. I must also actively try to disprove my own assumptions (e.g., assuming high encounter rate was a puzzle, or that 3 failed escapes was just RNG).
+- **Confirmation Bias:** My biggest failure is assuming my code is wrong when a tool fails, instead of testing the hypothesis that my input data is wrong (e.g., trying to path through a fence on Route 2). I must verify data quality first before debugging code. I must also actively try to disprove my own assumptions.
 - **Notepad Precision:** Repeated failures with `notepad_edit` `replace` operations highlight a need for greater precision. I must use the system's suggestions and be exact with `old_text`.
 - **Deferred Maintenance:** I have a history of identifying broken tools (like `automated_path_navigator`) and failing to fix them immediately. This is a critical violation of my core directives and must be corrected.
-- **State Tracking:** I must improve my tracking of my own actions to avoid repeating tasks I have already completed (e.g., deleting an agent twice, redefining a fixed tool).
+- **State Tracking:** I must improve my tracking of my own actions to avoid repeating tasks I have already completed.
 
 # II. Game Mechanics & World Data
-- **Trap Battles:** Certain wild encounters, particularly in late-game areas like Cerulean Cave, appear to be 'trap' battles where the 'RUN' option is disabled. This was observed with a Wigglytuff, suspected with a Ditto, and confirmed with a KADABRA.
-- **Fainted HM Usage (Confirmed by NPC & System):** A fainted Pokémon can still use field moves like CUT and Surf outside of battle. This was confirmed by an NPC on Route 2 and a system notice on Turn 199815.
-- **Cycling Road Forced Movement:** On certain routes like Route 18 (Cycling Road), the player character experiences forced, multi-tile movement in a single direction, especially when moving downhill. This can interrupt and invalidate long path plans, requiring a strategy of shorter, more deliberate movements.
-- **System 'Dead End' Definition:** An area is NOT a 'dead end' if the total of reachable non-adjacent warps (or warp groups) and reachable map connections is 2 or more. This is evaluated on a whole-map basis, even if the player is in a partition with only one exit. (Corrected on Turn 200952 after system warning).
-- **Warp Tile Mechanics:**
-    - **1x1 (Instant):** Most 1x1 warps trigger instantly upon stepping on them. To re-use the warp, you must step off the tile and then back on.
-    - **1x1 (Non-Instant):** Some 1x1 warps require a second input. After stepping on the warp tile, you must press the directional button that moves you *into* the building's impassable boundary to trigger the warp.
-- **Map Partitions & Reachability:** A single map can have physically disconnected areas (partitions). A path may be blocked by being in the wrong partition. The 'Reachable' flag for map connections may not account for one-way paths (ledges, etc.) that make a connection unreachable from the player's current partition. I must analyze the map XML for physical barriers and trust 'reachable' flags in the Game State Information before assuming a path exists.
+- **Trap Battles:** Certain wild encounters appear to be 'trap' battles where the 'RUN' option is disabled (Observed: Wigglytuff, KADABRA; Suspected: Ditto).
+- **Fainted HM Usage:** A fainted Pokémon can still use field moves like CUT and Surf outside of battle.
+- **Cycling Road Forced Movement:** On certain routes like Route 18, the player character experiences forced, multi-tile movement in a single direction, especially when moving downhill.
+- **System 'Dead End' Definition:** An area is NOT a 'dead end' if the total of reachable non-adjacent warps (or warp groups) and reachable map connections is 2 or more. This is evaluated on a whole-map basis, even if the player is in a partition with only one exit.
+- **Map Partitions & Reachability:** A single map can have physically disconnected areas (partitions). A path may be blocked by being in the wrong partition. I must analyze the map XML for physical barriers and not solely rely on the 'Reachable' flag in the Game State Information.
 
 # III. Current Objectives & Hypotheses
 
@@ -31,14 +28,16 @@
 - **Reach Cerulean City:** Traverse the eastern routes to get to Cerulean City.
 
 ## B. Active Hypotheses & Test Plans
-- **Light Screen Duration:** Hypothesis: Light Screen lasts for 5 turns, as is standard. Test Plan: In a future battle, count the turns after using Light Screen and watch for the 'Light Screen wore off!' message to confirm its duration.
+- **Route 2 Pathing:** Hypothesis: The path to the western side of Route 2 (and thus to Pewter City) is through the southern gatehouse at (17, 36). Test Plan: Navigate to the gatehouse and pass through it.
+- **Light Screen Duration:** Hypothesis: Light Screen lasts for 5 turns. Test Plan: In a future battle, count the turns after using Light Screen to confirm its duration.
 - **Respawn Point:** Hypothesis: The game sets the last used Pokémon Center as the respawn point after a blackout. Test Plan: Heal at a new Pokémon Center, then intentionally black out to a weak wild Pokémon and observe the respawn location.
 - **Hidden Passages:** Hypothesis: Some 'impassable' walls in Cerulean Cave are secret passages. Test Plan: Systematically walk into different types of wall tiles in the current partition to test for fake walls. Mark tested walls with a map marker.
-- **Scripted High Encounter Rate:** Hypothesis: Certain corridors and tiles in Cerulean Cave have a scripted, abnormally high encounter rate, rather than it being purely random chance. **Test Plan:** Once the party is healed, return to the corridors on 2F where encounters were frequent (e.g., around (26,8), (10,15)) and walk back and forth on a small set of tiles for a fixed duration (e.g., 2 minutes) to measure the number of encounters. Compare this to a control area on 1F. This will help determine if it's a feature of the area or just bad luck.
+- **Scripted High Encounter Rate:** Hypothesis: Certain corridors and tiles in Cerulean Cave have a scripted, abnormally high encounter rate, rather than it being purely random chance. Test Plan: Once the party is healed, return to the corridors on 2F where encounters were frequent and walk back and forth on a small set of tiles for a fixed duration to measure the number of encounters.
 
 ## C. Disproven Hypotheses
-- **Menu Selection Bug:** Hypothesis: Selecting a Pokémon in the 'Bring out which POKéMON?' menu consistently opens the sub-menu for a different Pokémon. **(Disproven on Turn 197844)** Test: Selected REVENANT. Result: REVENANT's sub-menu opened. Conclusion: The bug is not a simple mis-selection of an adjacent Pokémon.
-- **Route 7 Training Spot:** Hypothesis: Route 7 is a good location for training NIGHTSHADE. **(Disproven on Turn 200582)** Test: Battled wild Pokémon. Result: Wild Pokémon were Lv 22-23, yielding minimal EXP. Conclusion: Route 7 is not a viable training spot for a Lv 44 Pokémon.
+- **Route 2 Northern Path:** Hypothesis: The path north to Pewter City from the eastern partition of Route 2 is directly accessible. **(Disproven on Turn 201874)** Test: Used `automated_path_navigator`. Result: No path found due to an impassable fence. Conclusion: The map is partitioned.
+- **Menu Selection Bug:** Hypothesis: Selecting a Pokémon in the 'Bring out which POKéMON?' menu consistently opens the sub-menu for a different Pokémon. **(Disproven on Turn 197844)**
+- **Route 7 Training Spot:** Hypothesis: Route 7 is a good location for training NIGHTSHADE. **(Disproven on Turn 200582)**
 
 # IV. Major Battle Data
 
@@ -66,12 +65,17 @@
 
 # V. Technical Documentation
 
-## B. Automation & Tool Development Ideas
-- **HM Automation Toolchain:** Plan to create a tool or series of tools to automate the process of using an HM move outside of battle. This would involve parsing the party menu, identifying the correct Pokémon with the HM, and navigating the sub-menus to execute the move. This will improve efficiency and reduce manual input errors.
-- **Pathing Strategist/Chunker:** Idea for a new tool or agent to handle navigation on maps with forced movement mechanics like Cycling Road. It would take a long path plan and break it into smaller, more reliable chunks to prevent interruptions from the game's auto-movement.
+## A. Automation & Tool Development Ideas
+- **`pathfinding_debugger_agent`:** An agent that takes a pathfinder error, start/end coordinates, and map XML, then suggests specific, testable hypotheses for the failure.
+- **`map_partition_analyzer`:** A tool that takes map XML and a start coordinate, performs a BFS, and returns all reachable tiles. This would programmatically verify reachability before pathfinding.
+- **HM Automation Toolchain:** A toolchain to automate using HMs outside of battle.
+- **Pathing Strategist/Chunker:** A tool to break down long paths on maps with forced movement (like Cycling Road).
 
-## D. Tile Traversal Mechanics
+## B. Tile Traversal Mechanics
 - **ground:** Standard walkable tile.
-- **impassable:** Walls and objects that cannot be walked on or through.
+- **impassable:** Walls, fences, and objects that cannot be walked on or through.
 - **grass:** Tall grass where wild Pokémon can be encountered. Walkable.
 - **cuttable:** A tree that can be removed with the HM move CUT. Respawns on map change.
+- **ledge:** Can only be jumped down from above (Y-1). Impassable from below and sides.
+- **Warp Tile (1x1 Instant):** Most 1x1 warps trigger instantly upon stepping on them. To re-use, step off and back on.
+- **Warp Tile (1x1 Non-Instant):** Some 1x1 warps require a second input into the building's impassable boundary.
