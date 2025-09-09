@@ -18,7 +18,7 @@
 # II. Game Mechanics & World Data
 
 ## A. Discovered Mechanics
-- **System 'Dead End' Definition:** An area is NOT a 'dead end' if the entire map contains 2 or more reachable warps/connections, even if those exits are in different, unreachable partitions from the player's current location. This is evaluated on a whole-map basis.
+- **System 'Dead End' Definition:** An area is NOT a 'dead end' if the total of reachable non-adjacent warps (or warp groups) and reachable map connections is 2 or more. This is evaluated on a whole-map basis, even if the player is in a partition with only one exit. (Corrected on Turn 200952 after system warning).
 - **Trap Battles:** Certain wild encounters, particularly in late-game areas like Cerulean Cave, appear to be 'trap' battles where the 'RUN' option is disabled. This was observed with a Wigglytuff, suspected with a Ditto, and confirmed with a KADABRA.
 - **Fainted HM Usage:** HMs like Surf can be used outside of battle even if the Pokémon that knows the move has fainted. (Confirmed by system notice on Turn 199815).
 - **1x1 Warp Tiles (Instant):** Most 1x1 warps trigger instantly upon stepping on them. To re-use the warp, you must step off the tile and then back on.

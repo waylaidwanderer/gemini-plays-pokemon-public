@@ -632,7 +632,7 @@
     ]
   },
   "battle_escape_assistant": {
-    "description": "Automates switching from a disabled lead Pokémon to a healthy one and then running from a wild battle. It determines the optimal switch target and generates the full sequence of button presses to execute the switch and then select 'RUN'. This tool should be used to escape non-critical wild encounters efficiently.",
+    "description": "Automates switching from a disabled lead Pokémon to the most survivable party member. It determines the optimal switch target based on a combination of HP ratio and level, and generates the button presses to execute the switch. This tool should be used to safely switch out of a dangerous situation.",
     "input_schema": {
       "type": "object",
       "properties": {
@@ -671,7 +671,7 @@
         "party_data"
       ]
     },
-    "python_script": "import json\nparty_data = input_data['party_data']\n\n# Find the best Pokemon to switch to (not the lead, not fainted, highest HP)\nswitch_target_index = -1\nmax_hp = -1\n\nfor i in range(1, len(party_data)):\n    pokemon = party_data[i]\n    if pokemon['status'] != 'FNT' and pokemon['current_hp'] > 0:\n        if pokemon['current_hp'] > max_hp:\n            max_hp = pokemon['current_hp']\n            switch_target_index = i\n\nif switch_target_index == -1:\n    print(json.dumps([])) # No valid Pokemon to switch to\nelse:\n    # Sequence: Open PKMN menu -> Select Pokemon -> Select SWITCH\n    # The tool assumes the main battle menu is open.\n    button_presses = ['Right', 'A'] # Navigate to PKMN and select\n    \n    # Move cursor to target Pokemon (starts at index 0)\n    button_presses.extend(['Down'] * switch_target_index)\n    \n    # Select the Pokemon, then select SWITCH (default option)\n    button_presses.extend(['A', 'A'])\n    \n    # After the switch, the main battle menu will reappear.\n    # We need to select RUN.\n    button_presses.extend(['Down', 'Right', 'A'])\n    \n    print(json.dumps(button_presses))",
+    "python_script": "import json\n\ntry:\n    party_data_str = input_data['party_data']\n    party = json.loads(party_data_str)\n\n    best_target_index = -1\n    max_survivability_score = -1.0\n\n    for i in range(1, len(party)):\n        pokemon = party[i]\n        if pokemon.get('max_hp', 0) > 0 and pokemon.get('current_hp', 0) > 0:\n            hp_ratio = pokemon['current_hp'] / pokemon['max_hp']\n            level = pokemon['level']\n            survivability_score = hp_ratio * level\n            if survivability_score > max_survivability_score:\n                max_survivability_score = survivability_score\n                best_target_index = i\n\n    button_presses = []\n    if best_target_index != -1:\n        button_presses.extend([\"Right\", \"A\"])\n        button_presses.extend([\"Down\"] * best_target_index)\n        button_presses.extend([\"A\", \"A\"])\n\n    print(json.dumps(button_presses))\n\nexcept Exception as e:\n    print(json.dumps([]))",
     "history": [
       {
         "commit_message": "feat: Create battle_escape_assistant tool. This tool automates the common and time-consuming task of switching from a disabled lead Pokemon to a healthy one during a wild battle. This is a direct response to a mandatory reflection identifying this inefficiency. The tool calculates the best switch target and generates the button sequence to open the party menu, select the Pokemon, and confirm the switch. This will significantly speed up traversal through high-encounter areas.",
@@ -682,6 +682,21 @@
         "commit_message": "feat: Create and enhance battle_escape_assistant. This tool now automates the entire sequence of switching from a disabled lead to a healthy Pokemon and then running from the battle. This is a direct response to a mandatory reflection identifying this inefficiency and will significantly speed up traversal through high-encounter areas.",
         "timestamp": "2025-09-09T00:13:11.965Z",
         "action_counter": 200903
+      },
+      {
+        "commit_message": "fix: Add JSON parsing for party_data input. The tool was failing with a TypeError because it was treating the JSON string input as a Python object without parsing it first. This commit adds the necessary `json.loads()` call to correctly handle the input, which is a critical fix to make the tool functional.",
+        "timestamp": "2025-09-09T00:16:46.202Z",
+        "action_counter": 200909
+      },
+      {
+        "commit_message": "refactor: Overhaul logic to use a survivability score (HP ratio * level) instead of just HP ratio. This prevents switching into underleveled Pokemon. feat: Simplify the tool's purpose to only handle the switch, removing the unreliable multi-state 'run' sequence. This directly addresses two critical Overwatch critiques.",
+        "timestamp": "2025-09-09T00:39:35.761Z",
+        "action_counter": 200951
+      },
+      {
+        "commit_message": "refactor: Overhaul logic to use a survivability score (HP ratio * level) instead of just HP ratio. This prevents switching into underleveled Pokemon. feat: Simplify the tool's purpose to only handle the switch, removing the unreliable multi-state 'run' sequence. This directly addresses two critical Overwatch critiques.",
+        "timestamp": "2025-09-09T00:40:16.317Z",
+        "action_counter": 200952
       }
     ]
   }
