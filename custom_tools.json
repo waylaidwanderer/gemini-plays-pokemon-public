@@ -745,8 +745,8 @@
       }
     ]
   },
-  "room_explorer": {
-    "description": "Takes a starting coordinate and a list of coordinates for a room/partition, then generates an efficient path to visit every tile in the list by performing a full DFS traversal. This automates searching small, isolated areas for hidden triggers.",
+  "automated_room_explorer": {
+    "description": "A tool that automates the full process of exploring a room or partition. It takes a starting coordinate, finds all connected traversable tiles in that partition, and then generates an efficient, continuous DFS path to visit every single one. This combines `get_partition_coordinates` and `room_explorer` to prevent manual data transfer errors.",
     "input_schema": {
       "type": "object",
       "properties": {
@@ -755,33 +755,19 @@
         },
         "start_y": {
           "type": "string"
-        },
-        "coordinate_list_json": {
-          "type": "string"
         }
       },
       "required": [
         "start_x",
-        "start_y",
-        "coordinate_list_json"
+        "start_y"
       ]
     },
-    "python_script": "import json\n\nstart_x = int(input_data['start_x'])\nstart_y = int(input_data['start_y'])\ncoordinate_list_json = input_data['coordinate_list_json']\ncoords_list = json.loads(coordinate_list_json)\nallowed_tiles = set(tuple(c) for c in coords_list)\n\npath = []\nstack = [(start_x, start_y)]\nvisited = set()\n\n# This algorithm performs a full traversal of the graph of allowed tiles\n# ensuring every tile is visited through a continuous path.\nwhile stack:\n    x, y = stack.pop()\n    \n    if (x, y) not in visited:\n        # If we jump to a non-adjacent tile (which happens when backtracking),\n        # we need to find a path from the previous tile to the current one.\n        if path and (abs(x - path[-1]['x']) > 1 or abs(y - path[-1]['y']) > 1):\n            # This part is complex, let's try a simpler DFS that records backtracking.\n            pass # Placeholder for a more robust implementation if needed\n\n        visited.add((x, y))\n        path.append({'x': x, 'y': y})\n        \n        # Add neighbors to the stack\n        for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]: # Down, Up, Right, Left\n            nx, ny = x + dx, y + dy\n            if (nx, ny) in allowed_tiles and (nx, ny) not in visited:\n                stack.append((nx, ny))\n\n# The above simple DFS creates jumps. A better approach that traces the path:\npath = []\nstack = [(start_x, start_y)]\nvisited = set([(start_x, start_y)])\n\nwhile stack:\n    x, y = stack[-1]\n    found_new = False\n    # Check neighbors in a fixed order\n    for dx, dy in [(1, 0), (-1, 0), (0, 1), (0, -1)]: # R, L, D, U\n        nx, ny = x + dx, y + dy\n        if (nx, ny) in allowed_tiles and (nx, ny) not in visited:\n            visited.add((nx, ny))\n            stack.append((nx, ny))\n            path.append({'x': nx, 'y': ny})\n            found_new = True\n            break\n    \n    if not found_new:\n        stack.pop()\n        if stack:\n            # Add backtracking step\n            px, py = stack[-1]\n            path.append({'x': px, 'y': py})\n\n# The path starts implicitly at start_x, start_y. Prepend it.\nfinal_path = [{'x': start_x, 'y': start_y}] + path\n\n# Remove consecutive duplicates that can occur from backtracking\ndeduped_path = []\nif final_path:\n    deduped_path.append(final_path[0])\n    for i in range(1, len(final_path)):\n        if final_path[i] != final_path[i-1]:\n            deduped_path.append(final_path[i])\n\nprint(json.dumps(deduped_path))",
+    "python_script": "import json\nimport collections\nimport xml.etree.ElementTree as ET\n\n# Step 1: Get Partition Coordinates\nstart_x = int(input_data['start_x'])\nstart_y = int(input_data['start_y'])\n\nroot = ET.fromstring(map_xml_string)\ntiles = {}\nfor row in root.findall('Row'):\n    y = int(row.get('id'))\n    for tile_elem in row.findall('Tile'):\n        x = int(tile_elem.get('id'))\n        tiles[(x, y)] = tile_elem.get('type')\n\nstart_node = (start_x, start_y)\nbase_traversable = {'ground', 'grass', 'elevated_ground', 'steps', 'ladder_up', 'ladder_down', 'teleport', 'hole'}\n\nqueue = collections.deque([start_node])\nvisited_partition = {start_node}\npartition_coords = []\n\nwhile queue:\n    x, y = queue.popleft()\n    partition_coords.append([x, y])\n    for dx, dy in [(-1, 0), (1, 0), (0, -1), (0, 1)]:\n        nx, ny = x + dx, y + dy\n        neighbor = (nx, ny)\n        if neighbor not in visited_partition and tiles.get(neighbor) in base_traversable:\n            visited_partition.add(neighbor)\n            queue.append(neighbor)\n\n# Step 2: Generate Exploration Path from Partition\nallowed_tiles = set(tuple(c) for c in partition_coords)\npath = []\nstack = [(start_x, start_y)]\nvisited_dfs = set([(start_x, start_y)])\n\nwhile stack:\n    x, y = stack[-1]\n    found_new = False\n    for dx, dy in [(1, 0), (-1, 0), (0, 1), (0, -1)]:\n        nx, ny = x + dx, y + dy\n        if (nx, ny) in allowed_tiles and (nx, ny) not in visited_dfs:\n            visited_dfs.add((nx, ny))\n            stack.append((nx, ny))\n            path.append({'x': nx, 'y': ny})\n            found_new = True\n            break\n    if not found_new:\n        stack.pop()\n        if stack:\n            px, py = stack[-1]\n            path.append({'x': px, 'y': py})\n\nfinal_path = [{'x': start_x, 'y': start_y}] + path\ndeduped_path = []\nif final_path:\n    deduped_path.append(final_path[0])\n    for i in range(1, len(final_path)):\n        if final_path[i] != final_path[i-1]:\n            deduped_path.append(final_path[i])\n\nprint(json.dumps(deduped_path))",
     "history": [
       {
-        "commit_message": "feat: Create room_explorer tool. This tool automates the process of thoroughly searching small, isolated rooms by generating an efficient 'snaking' path to visit every tile in a given partition. This is a direct response to a critical Overwatch critique identifying deferred tool maintenance and will make future exploration for hidden triggers much more systematic and reliable.",
-        "timestamp": "2025-09-10T00:14:38.280Z",
-        "action_counter": 203402
-      },
-      {
-        "commit_message": "fix: Correct NameError in output list comprehension. The original script had a variable scope issue when formatting the final JSON output. This commit rewrites the path generation and output formatting to be more robust, ensuring it produces a valid path_plan starting from the player's current location. This is a critical fix to enable automated room exploration.",
-        "timestamp": "2025-09-10T01:05:39.960Z",
-        "action_counter": 203469
-      },
-      {
-        "commit_message": "fix: Implement DFS traversal to generate a valid, continuous path. The previous logic incorrectly sorted coordinates without ensuring adjacency, resulting in an invalid path. This new implementation performs a depth-first search of the entire partition, including backtracking steps, to guarantee a continuous path that visits every specified tile. This is a critical fix to enable automated room exploration.",
-        "timestamp": "2025-09-10T01:39:01.228Z",
-        "action_counter": 203510
+        "commit_message": "feat: Create `automated_room_explorer` tool. This new tool combines the functionality of `get_partition_coordinates` and `room_explorer` into a single, automated process. It takes a starting coordinate, finds the entire reachable partition, and generates a complete DFS exploration path. This was created in direct response to a critical Overwatch critique that highlighted repeated failures due to manual JSON formatting errors when passing data between the two older tools. This wrapper tool eliminates the manual step, making room exploration more reliable and robust.",
+        "timestamp": "2025-09-10T03:09:30.658Z",
+        "action_counter": 203562
       }
     ]
   }
