@@ -143,9 +143,6 @@
 2.  **Fossil Lead:** Having the fossil Pokémon (HELIX) in the lead party slot triggers a special event.
     - Test Plan: Put HELIX in the lead. Re-explore the isolated B1F partition and the B2F dead-end room, interacting with objects.
 3.  **Item/Move Subversion:** An Escape Rope or the move Dig has a unique, non-standard function in the B2F dead-end room.
-    - Test Plan: Go to the center of the B2F dead-end room. Use Escape Rope. If that fails, use Dig (if available).
-- **B2F Dead-End Room Trigger:** Hypothesis: The dead-end room on B2F (accessed via ladder at B1F (14, 28)) contains a hidden trigger. **(Disproven on Turn 202872)** Test: Used `room_explorer` tool to systematically walk over every tile in the partition. Result: No hidden warps, switches, or events were found. The only notable feature was an extremely high wild encounter rate.
-
 ## D. Agent-Generated Hypotheses (Turn 202944)
 1.  **Sole Party Member:** The fossil Pokémon must be the sole member of the party, thereby forcing it into the lead position and circumventing the bugged menu.
     - Test Plan: Travel to the nearest Pokémon Center. Use the PC to deposit all Pokémon except for HELIX. With HELIX as the only Pokémon in the party, return to Mt. Moon B2F and approach the area blocked by the Rocket Grunt.
