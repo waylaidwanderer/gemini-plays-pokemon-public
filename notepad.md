@@ -76,4 +76,3 @@
 
 ## A. Automation & Tool Development Ideas
 ## B. Lessons from Failures
-- **Dead End Hallucination on Mt. Moon B1F (Turn 203629):** I incorrectly classified the map as a dead end. I failed to account for all reachable warps across different partitions of the map (specifically the one at (6,6)). Lesson: The 'is_in_dead_end_area' check must consider the entire map's connectivity, not just the immediate partition.
