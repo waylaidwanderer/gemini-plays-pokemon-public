@@ -26,7 +26,17 @@
 - **Map Partitions & Reachability:** A single map can have physically disconnected areas (partitions). A path may be blocked by being in the wrong partition. I must analyze the map XML for physical barriers and not solely rely on the 'Reachable' flag in the Game State Information.
 - **Hidden Warp Tiles:** Certain 'dead-end' rooms may contain hidden, one-way warp tiles that trigger upon being walked over. (Discovered in Mt. Moon B1F western partition).
 
-# III. Current Objectives & Hypotheses (Consolidated)
+# III. Current Objectives & Hypotheses
+## A. Main Objective
+- **Investigate the Mt. Moon fossil event:** A Rocket Grunt at (30, 12) on Mt. Moon B2F is blocking a path and needs a fossil.
+
+## B. Active Hypotheses
+- **Primary Hypothesis (Fossil Pokémon):** Giving the revived HELIX Pokémon to the Rocket Grunt will cause him to move.
+- **Secondary Hypothesis (Fossil Item):** The Rocket Grunt requires the actual 'Helix Fossil' item, not the revived Pokémon.
+- **Tertiary Hypothesis (Cinnabar Flag):** A story flag must be triggered at the Cinnabar Island Pokémon Lab before the Mt. Moon event can be resolved.
+- **Hypothesis (Fossil Lead):** Having the fossil Pokémon (HELIX) in the lead party slot triggers a special event.
+- **Hypothesis (Sole Party Member):** The fossil Pokémon must be the sole member of the party.
+- **Hypothesis (Item/Move Subversion):** An Escape Rope or the move Dig has a unique, non-standard function in the B2F dead-end room. (Consolidated)
 
 ## A. Main Objective
 - **Investigate the Mt. Moon fossil event:** A Rocket Grunt on Mt. Moon B2F is blocking a path and needs a fossil.
@@ -167,6 +177,16 @@
 ## B. Tile Mechanics & Navigation
 
 # III. Current Objectives & Hypotheses
+## A. Main Objective
+- **Investigate the Mt. Moon fossil event:** A Rocket Grunt at (30, 12) on Mt. Moon B2F is blocking a path and needs a fossil.
+
+## B. Active Hypotheses
+- **Primary Hypothesis (Fossil Pokémon):** Giving the revived HELIX Pokémon to the Rocket Grunt will cause him to move.
+- **Secondary Hypothesis (Fossil Item):** The Rocket Grunt requires the actual 'Helix Fossil' item, not the revived Pokémon.
+- **Tertiary Hypothesis (Cinnabar Flag):** A story flag must be triggered at the Cinnabar Island Pokémon Lab before the Mt. Moon event can be resolved.
+- **Hypothesis (Fossil Lead):** Having the fossil Pokémon (HELIX) in the lead party slot triggers a special event.
+- **Hypothesis (Sole Party Member):** The fossil Pokémon must be the sole member of the party.
+- **Hypothesis (Item/Move Subversion):** An Escape Rope or the move Dig has a unique, non-standard function in the B2F dead-end room.
 ## A. Main Objective
 ## B. Active Hypotheses
 
