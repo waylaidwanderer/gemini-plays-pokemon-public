@@ -54,12 +54,10 @@
 
 # IV. Solved Puzzles & Disproven Hypotheses
 - **S.S. TICKET:** Does not trigger a new event at the Vermilion City port.
-- **Route 2 Gatehouse:** Is a simple pass-through building, not a connector between map partitions.
 - **Route 2 Northern Path:** The route is partitioned by a fence; the northern path is not directly accessible from the south-eastern section.
 - **Route 4 Path:** The path from Mt. Moon to Cerulean City is a one-way trip due to ledges. It's impossible to travel from Cerulean to Mt. Moon via this route.
 - **B2F Dead-End Room Trigger (Mt. Moon):** The isolated room on B2F, accessed via the ladder at B1F (14, 28), contains no hidden triggers. Systematically walking over every tile revealed nothing but a high wild encounter rate.
 - **B1F Western Partition Trigger (Mt. Moon):** The isolated area on B1F, accessed from the B2F platform at (22, 18), contains no hidden triggers. Systematically walking over every tile revealed nothing.
-- **Route 2 Gatehouse:** Is a simple pass-through building, not a connector between map partitions.
 - **Route 2 Northern Path:** The route is partitioned by a fence; the northern path is not directly accessible from the south-eastern section.
 - **Route 4 Path:** The path from Mt. Moon to Cerulean City is a one-way trip due to ledges. It's impossible to travel from Cerulean to Mt. Moon via this route.
 - **B2F Dead-End Room Trigger (Mt. Moon):** The isolated room on B2F, accessed via the ladder at B1F (14, 28), contains no hidden triggers. Systematically walking over every tile revealed nothing but a high wild encounter rate.
@@ -237,7 +235,6 @@
 
 # IV. Solved Puzzles & Disproven Hypotheses
 - **S.S. TICKET:** Does not trigger a new event at the Vermilion City port.
-- **Route 2 Gatehouse:** Is a simple pass-through building, not a connector between map partitions.
 - **Route 2 Northern Path:** The route is partitioned by a fence; the northern path is not directly accessible from the south-eastern section.
 - **Route 4 Path:** The path from Mt. Moon to Cerulean City is a one-way trip due to ledges. It's impossible to travel from Cerulean to Mt. Moon via this route.
 - **B2F Dead-End Room Trigger (Mt. Moon):** The isolated room on B2F, accessed via the ladder at B1F (14, 28), contains no hidden triggers. Systematically walking over every tile revealed nothing but a high wild encounter rate.
