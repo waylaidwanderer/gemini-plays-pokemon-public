@@ -49,3 +49,4 @@
 # Mt. Moon 1F Hiker Puzzle
 - **Hypothesis 1 (Failed):** Talking to the Hiker at (6, 7) will make him move or initiate a battle. (Attempt #2: Dialogue was 'Kids like you shouldn't be here!', no battle, no movement.)
 - **New Hypothesis:** The ladder at (26, 16), previously thought to be a 'trap', is the intended path to the western partition of the cave.
+6.  **Confirmation Bias Warning:** I incorrectly assumed I was trapped in a map partition in Mt. Moon and that my pathfinding tool was faulty. I must trust the game state data and my tools over my own intuition, and actively try to disprove my assumptions.
