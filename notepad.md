@@ -58,5 +58,3 @@
     - Test Plan: Check inventory/PC for a fossil item. If none, investigate ways to re-acquire one (e.g., Pewter Museum). Return to Mt. Moon with the fossil item and check the grunt.
 3.  **Cinnabar Lab Flag:** A story flag must be triggered at the Cinnabar Island Pokémon Lab before the Mt. Moon event can be resolved.
     - Test Plan: Fly to Cinnabar Island and enter the Pokémon Lab. Speak with all scientists, especially the fossil reviver. Show him HELIX. After exhausting interactions, fly back to Mt. Moon and check on the grunt.
-
-# REFACTORING TEMPLATE (WIP)
