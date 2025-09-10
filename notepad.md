@@ -42,7 +42,11 @@
 - Water is super-effective against Rock/Ground (Observed: OMANYTE's SURF vs GEODUDE).
 
 # V. Battle Strategy & Tool Usage
-- If `battle_sequence_automator` fails, use `comprehensive_battle_agent` for turn-by-turn advice instead of repeated failed tool calls.
+- **Battle Automation Flow:**
+  1.  **Main Menu:** Use `select_battle_option` to choose FIGHT, PKMN, ITEM, or RUN.
+  2.  **Move/PKMN Selection:** Use `menu_analyzer` to parse the screen, then `select_menu_option` to make a selection.
+  3.  **Fallback:** If the above toolchain fails, call `comprehensive_battle_agent` for turn-by-turn advice.
+  4.  **Last Resort:** Manual button presses should only be used if all automated systems and agents fail.
 - For complex navigation puzzles (like partitioned caves), use the `navigation_strategist_agent` to devise a high-level plan.
 - Water is not very effective against Bug/Grass (Observed: OMANYTE's BUBBLEBEAM vs PARAS).
 
