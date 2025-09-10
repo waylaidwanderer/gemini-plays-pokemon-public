@@ -14,6 +14,7 @@
 - **ledge:** One-way traversal. Can be jumped down, but not climbed up.
 - **warp tiles (ladders, holes, etc.):** Cause instant map transition. Often need to step off and back on to reuse.
 - **ladder_up, ladder_down:** Specific types of warp tiles leading between floors.
+- **cuttable:** Tree that can be cut with HM Cut. Becomes 'ground' after cutting, but respawns on map change or after battle.
 
 ## B. World Information
 - **Trap Battles:** Certain wild encounters appear to be 'trap' battles where the 'RUN' option is disabled (Observed: Wigglytuff, KADABRA; Suspected: Ditto).
@@ -44,4 +45,3 @@
     1. Exit Mt. Moon.
     2. Fly to Pewter City and investigate the Museum of Science.
     3. If unsuccessful, fly to Cinnabar Island and investigate the Pokémon Lab.
-- **cuttable:** Tree that can be cut with HM Cut. Becomes 'ground' after cutting, but respawns on map change or after battle.
