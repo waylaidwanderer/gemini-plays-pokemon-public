@@ -13,6 +13,7 @@
 - **steps:** The only tile type that allows movement between 'ground' and 'elevated_ground'.
 - **ledge:** One-way traversal. Can be jumped down, but not climbed up.
 - **warp tiles (ladders, holes, etc.):** Cause instant map transition. Often need to step off and back on to reuse.
+- **ladder_up, ladder_down:** Specific types of warp tiles leading between floors.
 
 ## B. World Information
 - **Trap Battles:** Certain wild encounters appear to be 'trap' battles where the 'RUN' option is disabled (Observed: Wigglytuff, KADABRA; Suspected: Ditto).
