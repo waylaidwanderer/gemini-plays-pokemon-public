@@ -15,6 +15,7 @@
 - **warp tiles (ladders, holes, etc.):** Cause instant map transition. Often need to step off and back on to reuse.
 - **ladder_up, ladder_down:** Specific types of warp tiles leading between floors.
 - **cuttable:** Tree that can be cut with HM Cut. Becomes 'ground' after cutting, but respawns on map change or after battle.
+- **water:** Crossable using HM Surf.
 
 ## B. World Information
 - **Trap Battles:** Certain wild encounters appear to be 'trap' battles where the 'RUN' option is disabled (Observed: Wigglytuff, KADABRA; Suspected: Ditto).
@@ -37,7 +38,8 @@
 - **Brock (Pewter Gym):** OMASTAR (Lv 64 - HYDRO PUMP, BLIZZARD), ONIX (Lv 65 - EARTHQUAKE, ROCK SLIDE), KABUTOPS (Lv 64 - SWORDS DANCE, SLASH), GOLEM (Lv 64 - ROCK SLIDE), NINETALES (Lv 64 - REFLECT), AERODACTYL (Lv 65 - FLY).
 
 # V. Automation & Tool Development Ideas
-- **Party Manager Tool/Agent:** A system to automate complex party management tasks in the PC, like depositing the entire party or withdrawing a specific set of Pokémon. This would chain `menu_analyzer` and `select_menu_option` calls.
+- **Party Manager Tool:** A system to automate complex party management tasks in the PC, like depositing the entire party or withdrawing a specific set of Pokémon. This would be a computational tool that chains `menu_analyzer` and `select_menu_option` calls, possibly using `autopress_buttons`.
+- **Fly Automator Tool:** A tool to automate the sequence of `POKEMON -> [Pokemon Name] -> FLY -> [City Name]`. This would streamline travel between cities.
 
 # VI. Future Plans & Ideas
 - **Multi-Map Navigator Agent:** An agent that can plan routes across multiple maps (e.g., through different floors of a cave) to reach a final destination.
@@ -45,3 +47,4 @@
     1. Exit Mt. Moon.
     2. Fly to Pewter City and investigate the Museum of Science.
     3. If unsuccessful, fly to Cinnabar Island and investigate the Pokémon Lab.
+    4. **New Plan:** Return to Mt. Moon to find a fossil *item*.
