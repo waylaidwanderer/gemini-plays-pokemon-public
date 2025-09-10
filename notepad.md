@@ -116,3 +116,4 @@
 - **Deferred Maintenance Failure (Multiple Turns):** I have repeatedly violated my core directive by deferring tool creation and maintenance. This is a critical error in process and must not be repeated. All tool/agent creation and refinement must happen the moment the need is identified.
 - **Dead End Hallucination (Multiple Turns):** I have repeatedly failed to correctly assess dead-end areas. This is a severe failure to trust and properly interpret game state data.
 - **State Tracking & Verification Hallucinations (Multiple Turns):** I have a recurring failure of state tracking, leading to incorrect turn counts and location reporting. I must verify the outcome and game state of every action before planning the next.
+- **`multi_map_navigation_agent`**: An agent that can create a high-level plan for traveling between two points across multiple maps.
