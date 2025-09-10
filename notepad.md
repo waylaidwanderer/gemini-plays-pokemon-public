@@ -132,3 +132,4 @@
 - **State Tracking & Verification Hallucinations (Multiple Turns):** I have a recurring failure of state tracking, leading to incorrect turn counts and location reporting. I must verify the outcome and game state of every action before planning the next.
 ## A. Automation & Tool Development Ideas
 ## B. Lessons from Failures
+- **Dead End Hallucination on Mt. Moon B1F (Turn 203629):** I incorrectly classified the map as a dead end. I failed to account for all reachable warps across different partitions of the map (specifically the one at (6,6)). Lesson: The 'is_in_dead_end_area' check must consider the entire map's connectivity, not just the immediate partition.
