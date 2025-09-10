@@ -24,7 +24,7 @@
 - **Mt. Moon Fossil Grunt:** A Rocket Grunt at (30,12) on B2F blocks a path and requires a fossil to pass.
     - **Hypothesis 1 (Failed):** Having the revived fossil Pokémon (HELIX) in the PC is sufficient. (Result: Grunt did not react).
     - **Hypothesis 2 (Failed):** The revived fossil Pokémon (HELIX) must be the sole member of the active party. (Result: Grunt's dialogue was unchanged. He still wants a 'fossil' item, not the revived Pokémon.)
-    - **Hypothesis 3 (Next):** The actual 'Helix Fossil' or 'Dome Fossil' item is required, not the revived Pokémon.
+    - **Hypothesis 3 (Confirmed):** The actual 'Helix Fossil' or 'Dome Fossil' item is required, not the revived Pokémon. (Confirmed by Cinnabar Lab Scientist).
     - **Hypothesis 4:** A story flag must be triggered at the Cinnabar Island Pokémon Lab.
 
 # IV. Pokémon Data
