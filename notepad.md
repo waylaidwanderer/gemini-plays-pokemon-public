@@ -180,7 +180,6 @@
 - **Dead End Hallucination (Multiple Turns):** I have repeatedly failed to correctly assess dead-end areas. This is a severe failure to trust and properly interpret game state data.
 - **State Tracking & Verification Hallucinations (Multiple Turns):** I have a recurring failure of state tracking, leading to incorrect turn counts and location reporting. I must verify the outcome and game state of every action before planning the next.
 - **`multi_map_navigation_agent`**: An agent that can create a high-level plan for traveling between two points across multiple maps.
-- **B1F Western Partition Trigger (Mt. Moon):** The isolated area on B1F, accessed from the B2F platform at (22, 18), contains no hidden triggers. Systematically walking over every tile revealed nothing.
 
 # REFACTORING TEMPLATE (WIP)
 
