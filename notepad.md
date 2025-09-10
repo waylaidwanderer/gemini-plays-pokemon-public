@@ -37,3 +37,10 @@
 
 # V. Automation & Tool Development Ideas
 - **Party Manager Tool/Agent:** A system to automate complex party management tasks in the PC, like depositing the entire party or withdrawing a specific set of Pokémon. This would chain `menu_analyzer` and `select_menu_option` calls.
+
+# VI. Future Plans & Ideas
+- **Multi-Map Navigator Agent:** An agent that can plan routes across multiple maps (e.g., through different floors of a cave) to reach a final destination.
+- **Fossil Item Search Plan:**
+    1. Exit Mt. Moon.
+    2. Fly to Pewter City and investigate the Museum of Science.
+    3. If unsuccessful, fly to Cinnabar Island and investigate the Pokémon Lab.
