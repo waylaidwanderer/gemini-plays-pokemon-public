@@ -11,18 +11,21 @@
 - **Cycling Road Forced Movement:** On certain routes like Route 18, the player character experiences forced, multi-tile movement in a single direction, especially when moving downhill.
 - **Map Partitions & Reachability:** A single map can have physically disconnected areas (partitions). A path may be blocked by being in the wrong partition. I must analyze the map XML for physical barriers and not solely rely on the 'Reachable' flag in the Game State Information.
 
-# III. Current Objectives & Hypotheses
+# III. Current Objectives & Hypotheses (Consolidated)
 
-## A. Current Main Objective
+## A. Main Objective
 - **Investigate the Mt. Moon fossil event:** A Rocket Grunt on Mt. Moon B2F is blocking a path and needs a fossil.
 
-## B. Active Hypotheses & Test Plans
+## B. Story & Event Hypotheses
 - **Primary Hypothesis (Fossil Pokémon):** Giving the revived HELIX Pokémon to the Rocket Grunt at (30, 12) on Mt. Moon B2F will cause him to move.
-  - Test Plan: With HELIX in the party, travel to Mt. Moon and interact with the grunt.
 - **Secondary Hypothesis (Fossil Item):** The Rocket Grunt requires the actual 'Helix Fossil' item, not the revived Pokémon.
-  - Test Plan: If the primary hypothesis fails, check inventory/PC for a fossil item. If none, investigate re-acquiring one (e.g., Pewter Museum).
 - **Tertiary Hypothesis (Cinnabar Flag):** A story flag must be triggered at the Cinnabar Island Pokémon Lab before the Mt. Moon event can be resolved.
-  - Test Plan: If other hypotheses fail, fly to Cinnabar, speak with all scientists (especially the fossil reviver), then return to Mt. Moon.
+- **Hypothesis (Fossil Lead):** Having the fossil Pokémon (HELIX) in the lead party slot triggers a special event.
+- **Hypothesis (Sole Party Member):** The fossil Pokémon must be the sole member of the party.
+
+## C. Navigation & Puzzle Hypotheses
+- **Hypothesis (Hidden Trigger):** The dead-end room on B2F (accessed via ladder at B1F (14, 28)) contains a hidden trigger, like an invisible warp or a secret switch.
+- **Hypothesis (Item/Move Subversion):** An Escape Rope or the move Dig has a unique, non-standard function in the B2F dead-end room.
 
 # IV. Solved Puzzles & Disproven Hypotheses
 - **PC Interaction:** The PC at a Pokémon Center must be interacted with from the tile directly below it (Y+1), while facing up.
