@@ -45,11 +45,10 @@
 - Water is not very effective against Bug/Grass (Observed: OMANYTE's BUBBLEBEAM vs PARAS).
 
 # V. Battle Strategy & Tool Usage
-- **Battle Automation Flow:**
-  1.  **Main Menu:** Use `select_battle_option` to choose FIGHT, PKMN, ITEM, or RUN.
-  2.  **Move/PKMN Selection:** Use `menu_analyzer` to parse the screen, then `select_menu_option` to make a selection.
-  3.  **Fallback:** If the above toolchain fails, call `comprehensive_battle_agent` for turn-by-turn advice.
-  4.  **Last Resort:** Manual button presses should only be used if all automated systems and agents fail.
+- **Battle Automation Flow (Manual):**
+  1.  **Main Menu:** Use `select_battle_option` for reliable menu selection.
+  2.  **Move/PKMN Selection:** Use `menu_analyzer` and `select_menu_option` if needed, but manual presses are the primary method until `battle_sequence_automator` is rebuilt.
+  3.  **Strategy:** Call `comprehensive_battle_agent` for advice in complex battles.
 - For complex navigation puzzles (like partitioned caves), use the `navigation_strategist_agent` to devise a high-level plan.
 
 # VI. Tool Development & Maintenance
