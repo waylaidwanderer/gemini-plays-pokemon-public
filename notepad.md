@@ -43,9 +43,4 @@
 
 # VI. Future Plans & Ideas
 - **Multi-Map Navigator Agent:** An agent that can plan routes across multiple maps (e.g., through different floors of a cave) to reach a final destination.
-- **Fossil Item Search Plan:**
-    1. Exit Mt. Moon.
-    2. Fly to Pewter City and investigate the Museum of Science.
-    3. If unsuccessful, fly to Cinnabar Island and investigate the Pokémon Lab.
-    4. **New Plan:** Return to Mt. Moon to find a fossil *item*.
-- **Fly Automator Tool:** A tool to automate the sequence of `POKEMON -> [Pokemon Name] -> FLY -> [City Name]`. This would streamline travel between cities.
+- **Fossil Item Search Plan:** Return to Mt. Moon to find a fossil *item*.
