@@ -208,14 +208,6 @@
 - **Secondary Hypothesis (Fossil Item):** The Rocket Grunt requires the actual 'Helix Fossil' item, not the revived Pokémon.
 - **Tertiary Hypothesis (Cinnabar Flag):** A story flag must be triggered at the Cinnabar Island Pokémon Lab before the Mt. Moon event can be resolved.
 - **Hypothesis (Fossil Lead):** Having the fossil Pokémon (HELIX) in the lead party slot triggers a special event.
-- **Hypothesis (Sole Party Member):** The fossil Pokémon must be the sole member of the party.
-- **Hypothesis (Item/Move Subversion):** An Escape Rope or the move Dig has a unique, non-standard function in the B2F dead-end room.
-## A. Main Objective
-## B. Active Hypotheses
-
-# IV. Solved Puzzles & Disproven Hypotheses
-- **S.S. TICKET:** Does not trigger a new event at the Vermilion City port.
-- **Route 2 Northern Path:** The route is partitioned by a fence; the northern path is not directly accessible from the south-eastern section.
 
 # V. Major Battle Data
 ### 1. Sabrina (Saffron City Gym)
