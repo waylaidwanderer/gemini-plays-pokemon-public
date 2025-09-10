@@ -45,13 +45,6 @@
 - **Primary Hypothesis (Fossil Pokémon):** Giving the revived HELIX Pokémon to the Rocket Grunt at (30, 12) on Mt. Moon B2F will cause him to move.
 - **Secondary Hypothesis (Fossil Item):** The Rocket Grunt requires the actual 'Helix Fossil' item, not the revived Pokémon.
 - **Tertiary Hypothesis (Cinnabar Flag):** A story flag must be triggered at the Cinnabar Island Pokémon Lab before the Mt. Moon event can be resolved.
-- **Hypothesis (Fossil Lead):** Having the fossil Pokémon (HELIX) in the lead party slot triggers a special event.
-- **Hypothesis (Sole Party Member):** The fossil Pokémon must be the sole member of the party.
-
-# IV. Solved Puzzles & Disproven Hypotheses
-- **S.S. TICKET:** Does not trigger a new event at the Vermilion City port.
-- **Route 2 Northern Path:** The route is partitioned by a fence; the northern path is not directly accessible from the south-eastern section.
-- **Route 2 Northern Path:** The route is partitioned by a fence; the northern path is not directly accessible from the south-eastern section.
 
 # V. Major Battle Data
 ### 1. Sabrina (Saffron City Gym)
