@@ -42,3 +42,4 @@
 
 # V. Battle Strategy & Tool Usage
 - If `battle_sequence_automator` fails, use `comprehensive_battle_agent` for turn-by-turn advice instead of repeated failed tool calls.
+- For complex navigation puzzles (like partitioned caves), use the `navigation_strategist_agent` to devise a high-level plan.
