@@ -73,6 +73,3 @@
     - Test Plan: Fly to Cinnabar Island and enter the Pokémon Lab. Speak with all scientists, especially the fossil reviver. Show him HELIX. After exhausting interactions, fly back to Mt. Moon and check on the grunt.
 
 # REFACTORING TEMPLATE (WIP)
-
-## A. Automation & Tool Development Ideas
-## B. Lessons from Failures
