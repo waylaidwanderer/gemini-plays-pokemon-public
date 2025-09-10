@@ -27,6 +27,7 @@
     - **Hypothesis 2 (Failed):** The revived fossil Pokémon (HELIX) must be the sole member of the active party. (Result: Grunt's dialogue was unchanged. He still wants a 'fossil' item, not the revived Pokémon.)
     - **Hypothesis 3 (Confirmed):** The actual 'Helix Fossil' or 'Dome Fossil' item is required, not the revived Pokémon. (Confirmed by Cinnabar Lab Scientist).
     - **Hypothesis 4:** A story flag must be triggered at the Cinnabar Island Pokémon Lab.
+    - **Hypothesis 5 (Confirmed):** The Grunt's dialogue is "If you find a fossil, give it to me and scram!". This confirms he is the obstacle and the fossil item is the key.
 
 # IV. Pokémon Data
 ## A. Wild Pokémon Locations & Movesets
