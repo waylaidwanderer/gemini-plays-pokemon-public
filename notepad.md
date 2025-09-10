@@ -72,16 +72,6 @@
 3.  **Cinnabar Lab Flag:** A story flag must be triggered at the Cinnabar Island Pokémon Lab before the Mt. Moon event can be resolved.
     - Test Plan: Fly to Cinnabar Island and enter the Pokémon Lab. Speak with all scientists, especially the fossil reviver. Show him HELIX. After exhausting interactions, fly back to Mt. Moon and check on the grunt.
 
-# VI. Technical Documentation & Lessons Learned
-
-## B. Lessons from Failures, Critiques, & Hallucinations
-- **`automated_path_navigator` on Mt. Moon B2F (Turn 202577):** The tool was **correct** in reporting no path. My manual map assessment was flawed. Lesson: TRUST THE TOOL. Before debugging, rigorously verify that a path is physically possible in the map XML.
-- **Deferred Maintenance Failure (Multiple Turns):** I have repeatedly violated my core directive by deferring tool creation and maintenance. This is a critical error in process and must not be repeated. All tool/agent creation and refinement must happen the moment the need is identified.
-- **Dead End Hallucination (Multiple Turns):** I have repeatedly failed to correctly assess dead-end areas. This is a severe failure to trust and properly interpret game state data.
-- **State Tracking & Verification Hallucinations (Multiple Turns):** I have a recurring failure of state tracking, leading to incorrect turn counts and location reporting. I must verify the outcome and game state of every action before planning the next.
-
-- **`multi_map_navigation_agent`**: An agent that can create a high-level plan for traveling between two points across multiple maps.
-
 # REFACTORING TEMPLATE (WIP)
 
 # I. Core Principles & Lessons Learned
