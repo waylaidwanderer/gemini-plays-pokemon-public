@@ -43,13 +43,6 @@
 
 # VI. Technical Documentation
 
-## A. Automation & Tool Development Ideas
-- **`room_explorer`:** A tool that takes a list of coordinates (from `map_partition_analyzer`) and generates an efficient 'snaking' path to visit every tile. This would automate the process of thoroughly searching small, isolated rooms for hidden triggers.
-- **HM Automation Toolchain:** A toolchain to automate using HMs outside of battle.
-- **Pathing Strategist/Chunker:** A tool to break down long paths on maps with forced movement (like Cycling Road).
-- **`battle_matchup_analyzer`:** A tool that takes my party and an opponent's Pokémon species as input, analyzes type matchups, and suggests the optimal Pokémon to switch to.
-- **PC Automation Suite:** A high-level agent (`pc_task_agent`) that takes a complex goal (e.g., "Withdraw HELIX, Deposit GUILLOTIN") and uses a toolchain of menu parsers and navigators to execute the multi-step process automatically.
-
 # VII. Lessons from Tool Failures & Debugging
 ## A. automated_path_navigator on Mt. Moon B2F (Turn 202577)
 - **Symptom:** Tool returned "No path found. Path blocked by impassable terrain." when attempting to path from (22, 18) to (30, 11).
