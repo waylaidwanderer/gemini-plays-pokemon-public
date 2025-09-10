@@ -52,8 +52,7 @@
 - **Lesson:** TRUST THE TOOL. Before debugging the tool's code, perform a rigorous manual trace of the map XML to verify that a path is *physically possible*. A "no path found" result is often an accurate reflection of a partitioned map.
 
 ## D. Agent-Generated Hypotheses (Turn 202944)
-1.  **Sole Party Member:** The fossil Pokémon must be the sole member of the party, thereby forcing it into the lead position and circumventing the bugged menu.
-    - Test Plan: Travel to the nearest Pokémon Center. Use the PC to deposit all Pokémon except for HELIX. With HELIX as the only Pokémon in the party, return to Mt. Moon B2F and approach the area blocked by the Rocket Grunt.
+
 2.  **Fossil Item:** The Rocket Grunt requires the actual 'Helix Fossil' or 'Dome Fossil' item, not the revived fossil Pokémon.
     - Test Plan: Check inventory/PC for a fossil item. If none, investigate ways to re-acquire one (e.g., Pewter Museum). Return to Mt. Moon with the fossil item and check the grunt.
 3.  **Cinnabar Lab Flag:** A story flag must be triggered at the Cinnabar Island Pokémon Lab before the Mt. Moon event can be resolved.
