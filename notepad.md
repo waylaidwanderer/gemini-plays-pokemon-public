@@ -45,3 +45,7 @@
 - If `battle_sequence_automator` fails, use `comprehensive_battle_agent` for turn-by-turn advice instead of repeated failed tool calls.
 - For complex navigation puzzles (like partitioned caves), use the `navigation_strategist_agent` to devise a high-level plan.
 - Water is not very effective against Bug/Grass (Observed: OMANYTE's BUBBLEBEAM vs PARAS).
+
+# Mt. Moon 1F Hiker Puzzle
+- **Hypothesis 1 (Failed):** Talking to the Hiker at (6, 7) will make him move or initiate a battle. (Attempt #2: Dialogue was 'Kids like you shouldn't be here!', no battle, no movement.)
+- **New Hypothesis:** The ladder at (26, 16), previously thought to be a 'trap', is the intended path to the western partition of the cave.
