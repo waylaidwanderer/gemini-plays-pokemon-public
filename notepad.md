@@ -96,15 +96,6 @@
 3.  **Trust, But Verify:** I must trust the outputs of my agents and system data. However, if a tool's output contradicts the Game State Information, my assumption must be that the tool is wrong, and I must debug it. A 'no path found' result is often an accurate reflection of a partitioned map. (Lesson from `automated_path_navigator` on Mt. Moon B2F, Turn 202577)
 4.  **Abandon Failed Hypotheses:** If a strategy fails repeatedly, I must recognize the pattern, document it, and pivot to a new approach. I must not get stuck on a single solution.
 5.  **State Verification & Anti-Hallucination:** My most severe failures stem from hallucinating game state variables (location, turn count, etc.). I MUST verify my current map ID, coordinates, and all other data from the Game State Information *before* every single action and trust it over my memory. I must not incorrectly assess dead-end areas. (Lesson from multiple turns)
-1.  **Immediate Maintenance:** All data management (notepad, markers) and tool/agent refinement is the HIGHEST priority and MUST be performed in the same turn a need is identified. Deferring these tasks is a critical failure. (Lesson from multiple turns)
-2.  **Proactive Automation & Refinement:** Before any complex or repetitive task, I must first consider automating it with a tool or agent. If one doesn't exist, creating it is the new priority. If an agent or tool is suboptimal, I must prioritize refining it immediately.
-3.  **Trust, But Verify:** I must trust the outputs of my agents and system data. However, if a tool's output contradicts the Game State Information, my assumption must be that the tool is wrong, and I must debug it. A 'no path found' result is often an accurate reflection of a partitioned map. (Lesson from `automated_path_navigator` on Mt. Moon B2F, Turn 202577)
-4.  **Abandon Failed Hypotheses:** If a strategy fails repeatedly, I must recognize the pattern, document it, and pivot to a new approach. I must not get stuck on a single solution.
-5.  **State Verification & Anti-Hallucination:** My most severe failures stem from hallucinating game state variables (location, turn count, etc.). I MUST verify my current map ID, coordinates, and all other data from the Game State Information *before* every single action and trust it over my memory. I must not incorrectly assess dead-end areas. (Lesson from multiple turns)
-
-    - LICKITUNG (Lv 61): Moves: WRAP
-    - CHANSEY (Lv 63): Moves: DEFENSE CURL, MEGA PUNCH
-    - RAICHU (Lv 64): Moves: AGILITY
 
 # VI. Technical Documentation & Lessons Learned
 ## A. Automation & Tool Development Ideas
