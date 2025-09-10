@@ -53,8 +53,6 @@
 - **Hypothesis (Item/Move Subversion):** An Escape Rope or the move Dig has a unique, non-standard function in the B2F dead-end room.
 
 # IV. Solved Puzzles & Disproven Hypotheses
-- **PC Interaction:** The PC at a Pokémon Center must be interacted with from the tile directly below it (Y+1), while facing up.
-- **Pokémon PC Menu:** "Gem's PC" is for Item Storage. "BILL's PC" is for Pokémon Storage.
 - **S.S. TICKET:** Does not trigger a new event at the Vermilion City port.
 - **Route 2 Gatehouse:** Is a simple pass-through building, not a connector between map partitions.
 - **Route 2 Northern Path:** The route is partitioned by a fence; the northern path is not directly accessible from the south-eastern section.
@@ -241,8 +239,6 @@
 ## B. Active Hypotheses
 
 # IV. Solved Puzzles & Disproven Hypotheses
-- **PC Interaction:** The PC at a Pokémon Center must be interacted with from the tile directly below it (Y+1), while facing up.
-- **Pokémon PC Menu:** "Gem's PC" is for Item Storage. "BILL's PC" is for Pokémon Storage.
 - **S.S. TICKET:** Does not trigger a new event at the Vermilion City port.
 - **Route 2 Gatehouse:** Is a simple pass-through building, not a connector between map partitions.
 - **Route 2 Northern Path:** The route is partitioned by a fence; the northern path is not directly accessible from the south-eastern section.
