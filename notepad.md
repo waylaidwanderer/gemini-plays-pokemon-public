@@ -70,6 +70,36 @@
 - **B2F Dead-End Room Trigger (Mt. Moon):** The isolated room on B2F, accessed via the ladder at B1F (14, 28), contains no hidden triggers. Systematically walking over every tile revealed nothing but a high wild encounter rate.
 
 # V. Major Battle Data
+### 1. Sabrina (Saffron City Gym)
+- **Roster:**
+    - MR. MIME (Lv 65) - Moves: PSYCHIC
+    - HYPNO (Lv 64) - Moves: PSYWAVE
+    - SLOWBRO (Lv 64) - Moves: PSYCHIC
+    - JYNX (Lv 64) - Moves: BLIZZARD, BUBBLEBEAM, DREAM EATER, LOVELY KISS
+    - GENGAR (Lv 64) - Moves: NIGHT SHADE, PSYCHIC
+    - ALAKAZAM (Lv 65) - Moves: THUNDER WAVE, PSYCHIC
+
+### 2. SMITH (Cerulean Cave B1F)
+- **Roster:**
+    - AERODACTYL (Lv 65) - Moves: HYPER BEAM, ROCK SLIDE
+
+### 3. Brock (Pewter City Gym)
+- **Roster:**
+    - OMASTAR (Lv 64) - Moves: HYDRO PUMP, BLIZZARD
+    - ONIX (Lv 65) - Moves: EARTHQUAKE, ROCK SLIDE
+    - KABUTOPS (Lv 64) - Moves: SWORDS DANCE, SLASH
+    - GOLEM (Lv 64) - Moves: ROCK SLIDE
+    - NINETALES (Lv 64) - Moves: REFLECT
+    - AERODACTYL (Lv 65) - Moves: FLY
+
+### 4. Cerulean Cave Wild Pokémon
+- **Observed Species & Moves:**
+    - WIGGLYTUFF (Lv 62) - Moves: LOVELY KISS, DOUBLE-EDGE, REST
+    - SANDSLASH (Lv 63) - Moves: SWORDS DANCE, EARTHQUAKE
+    - GOLEM (Lv 64) - Moves: EXPLOSION
+    - LICKITUNG (Lv 61): Moves: WRAP
+    - CHANSEY (Lv 63): Moves: DEFENSE CURL, MEGA PUNCH
+    - RAICHU (Lv 64): Moves: AGILITY
 
 ### 1. Sabrina (Saffron City Gym)
 - **Roster:**
@@ -209,6 +239,36 @@
 - **B1F Western Partition Trigger (Mt. Moon):** The isolated area on B1F, accessed from the B2F platform at (22, 18), contains no hidden triggers. Systematically walking over every tile revealed nothing.
 
 # V. Major Battle Data
+### 1. Sabrina (Saffron City Gym)
+- **Roster:**
+    - MR. MIME (Lv 65) - Moves: PSYCHIC
+    - HYPNO (Lv 64) - Moves: PSYWAVE
+    - SLOWBRO (Lv 64) - Moves: PSYCHIC
+    - JYNX (Lv 64) - Moves: BLIZZARD, BUBBLEBEAM, DREAM EATER, LOVELY KISS
+    - GENGAR (Lv 64) - Moves: NIGHT SHADE, PSYCHIC
+    - ALAKAZAM (Lv 65) - Moves: THUNDER WAVE, PSYCHIC
+
+### 2. SMITH (Cerulean Cave B1F)
+- **Roster:**
+    - AERODACTYL (Lv 65) - Moves: HYPER BEAM, ROCK SLIDE
+
+### 3. Brock (Pewter City Gym)
+- **Roster:**
+    - OMASTAR (Lv 64) - Moves: HYDRO PUMP, BLIZZARD
+    - ONIX (Lv 65) - Moves: EARTHQUAKE, ROCK SLIDE
+    - KABUTOPS (Lv 64) - Moves: SWORDS DANCE, SLASH
+    - GOLEM (Lv 64) - Moves: ROCK SLIDE
+    - NINETALES (Lv 64) - Moves: REFLECT
+    - AERODACTYL (Lv 65) - Moves: FLY
+
+### 4. Cerulean Cave Wild Pokémon
+- **Observed Species & Moves:**
+    - WIGGLYTUFF (Lv 62) - Moves: LOVELY KISS, DOUBLE-EDGE, REST
+    - SANDSLASH (Lv 63) - Moves: SWORDS DANCE, EARTHQUAKE
+    - GOLEM (Lv 64) - Moves: EXPLOSION
+    - LICKITUNG (Lv 61): Moves: WRAP
+    - CHANSEY (Lv 63): Moves: DEFENSE CURL, MEGA PUNCH
+    - RAICHU (Lv 64): Moves: AGILITY
 
 # VI. Technical Documentation & Lessons Learned
 ## A. Automation & Tool Development Ideas
