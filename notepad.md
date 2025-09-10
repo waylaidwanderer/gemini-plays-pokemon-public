@@ -17,9 +17,9 @@
 - **cuttable:** Tree that can be cut with HM Cut. Becomes 'ground' after cutting, but respawns on map change or after battle.
 - **water:** Crossable using HM Surf.
 
-## B. World Information
+## B. Gameplay Mechanics
 - **Trap Battles:** Certain wild encounters appear to be 'trap' battles where the 'RUN' option is disabled (Observed: Wigglytuff, KADABRA; Suspected: Ditto).
-- **Cinnabar Lab:** Has a lab to regenerate fossils.
+- **Fossil Regeneration:** The Cinnabar Lab has a machine to regenerate fossils.
 
 # III. Key Puzzles & Events
 - **Mt. Moon Fossil Grunt:** A Rocket Grunt at (30,12) on B2F blocks a path and requires a fossil to pass.
