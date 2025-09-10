@@ -44,3 +44,4 @@
     1. Exit Mt. Moon.
     2. Fly to Pewter City and investigate the Museum of Science.
     3. If unsuccessful, fly to Cinnabar Island and investigate the Pokémon Lab.
+- **cuttable:** Tree that can be cut with HM Cut. Becomes 'ground' after cutting, but respawns on map change or after battle.
