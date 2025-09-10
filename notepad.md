@@ -48,10 +48,6 @@
 - **Hypothesis (Fossil Lead):** Having the fossil Pokémon (HELIX) in the lead party slot triggers a special event.
 - **Hypothesis (Sole Party Member):** The fossil Pokémon must be the sole member of the party.
 
-## C. Navigation & Puzzle Hypotheses
-- **Hypothesis (Hidden Trigger):** The dead-end room on B2F (accessed via ladder at B1F (14, 28)) contains a hidden trigger, like an invisible warp or a secret switch.
-- **Hypothesis (Item/Move Subversion):** An Escape Rope or the move Dig has a unique, non-standard function in the B2F dead-end room.
-
 # IV. Solved Puzzles & Disproven Hypotheses
 - **S.S. TICKET:** Does not trigger a new event at the Vermilion City port.
 - **Route 2 Northern Path:** The route is partitioned by a fence; the northern path is not directly accessible from the south-eastern section.
