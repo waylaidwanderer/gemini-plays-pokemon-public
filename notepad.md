@@ -73,12 +73,6 @@
     - Test Plan: Fly to Cinnabar Island and enter the Pokémon Lab. Speak with all scientists, especially the fossil reviver. Show him HELIX. After exhausting interactions, fly back to Mt. Moon and check on the grunt.
 
 # VI. Technical Documentation & Lessons Learned
-## A. Automation & Tool Development Ideas
-- **HM Automation Toolchain:** A toolchain to automate using HMs outside of battle.
-- **Pathing Strategist/Chunker:** A tool to break down long paths on maps with forced movement (like Cycling Road).
-- **`battle_matchup_analyzer`:** A tool that takes my party and an opponent's Pokémon species as input, analyzes type matchups, and suggests the optimal Pokémon to switch to.
-- **PC Automation Suite (`pc_pokemon_management_tool`):** A high-level tool to fully automate depositing or withdrawing a specific Pokémon.
-- **`multi_map_navigation_agent`**: An agent that can create a high-level plan for traveling between two points across multiple maps.
 
 ## B. Lessons from Failures, Critiques, & Hallucinations
 - **`automated_path_navigator` on Mt. Moon B2F (Turn 202577):** The tool was **correct** in reporting no path. My manual map assessment was flawed. Lesson: TRUST THE TOOL. Before debugging, rigorously verify that a path is physically possible in the map XML.
@@ -98,12 +92,6 @@
 5.  **State Verification & Anti-Hallucination:** My most severe failures stem from hallucinating game state variables (location, turn count, etc.). I MUST verify my current map ID, coordinates, and all other data from the Game State Information *before* every single action and trust it over my memory. I must not incorrectly assess dead-end areas. (Lesson from multiple turns)
 
 # VI. Technical Documentation & Lessons Learned
-## A. Automation & Tool Development Ideas
-- **HM Automation Toolchain:** A toolchain to automate using HMs outside of battle.
-- **Pathing Strategist/Chunker:** A tool to break down long paths on maps with forced movement (like Cycling Road).
-- **`battle_matchup_analyzer`:** A tool that takes my party and an opponent's Pokémon species as input, analyzes type matchups, and suggests the optimal Pokémon to switch to.
-- **PC Automation Suite (`pc_pokemon_management_tool`):** A high-level tool to fully automate depositing or withdrawing a specific Pokémon.
-- **`multi_map_navigation_agent`**: An agent that can create a high-level plan for traveling between two points across multiple maps.
 
 ## B. Lessons from Failures, Critiques, & Hallucinations
 - **`automated_path_navigator` on Mt. Moon B2F (Turn 202577):** The tool was **correct** in reporting no path. My manual map assessment was flawed. Lesson: TRUST THE TOOL. Before debugging, rigorously verify that a path is physically possible in the map XML.
