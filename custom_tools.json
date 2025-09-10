@@ -795,19 +795,23 @@
     ]
   },
   "battle_sequence_automator": {
-    "description": "Automates a single turn in a wild battle. It parses the screen to determine the state (main menu or move selection), selects FIGHT, or calculates the button presses to select the best available damaging move with PP. If the initially selected move is invalid (0 PP or status move), it will not attempt to select another to avoid errors.",
+    "description": "Automates a single turn in a wild battle. It analyzes the player's party data and screen text to select the best available damaging move with PP.",
     "input_schema": {
       "type": "object",
       "properties": {
         "screen_text": {
           "type": "string"
+        },
+        "player_party_json": {
+          "type": "string"
         }
       },
       "required": [
-        "screen_text"
+        "screen_text",
+        "player_party_json"
       ]
     },
-    "python_script": "import json\nimport re\n\nscreen_text = input_data['screen_text']\nbuttons = []\n\n# State 1: Main battle menu\nif \"→FIGHT\" in screen_text:\n    buttons.append(\"A\")\n\n# State 2: Move selection menu\nelif \"TYPE/\" in screen_text:\n    lines = screen_text.strip().split('\\n')\n    \n    status_moves = [\n        'CONFUSE RAY', 'HAZE', 'WITHDRAW', 'LIGHT SCREEN', 'THUNDER WAVE', 'STUN SPORE', \n        'SLEEP POWDER', 'POISON GAS', 'ACID ARMOR', 'MINIMIZE', 'HARDEN', 'FOCUS ENERGY', \n        'SAND-ATTACK', 'GROWL', 'TAIL WHIP', 'DISABLE', 'SUPERSONIC', 'AGILITY', \n        'REFLECT', 'DEFENSE CURL', 'REST', 'LOVELY KISS', 'DREAM EATER', 'SWORDS DANCE',\n        'WRAP'\n    ]\n    \n    # Find the line with the cursor '→'\n    cursor_line_index = -1\n    for i, line in enumerate(lines):\n        if \"→\" in line:\n            cursor_line_index = i\n            break\n    \n    if cursor_line_index != -1:\n        # The move name is on this line\n        move_name = lines[cursor_line_index].replace(\"→\", \"\").strip()\n        \n        # The PP is on the line above the first move\n        # We need to find the start of the move list\n        first_move_index = cursor_line_index\n        while first_move_index > 0 and '→' not in lines[first_move_index-1] and len(lines[first_move_index-1].strip()) > 1:\n             # This is a rough heuristic, but basically find where the list starts\n             if not re.match(r'^[A-Z\\s-]+$', lines[first_move_index-1].strip()):\n                 break\n             first_move_index -= 1\n\n        pp_line = lines[first_move_index-1]\n        pp_match = re.match(r'(\\d+)/\\d+', pp_line.strip())\n        \n        if pp_match:\n            current_pp = int(pp_match.group(1))\n            \n            if move_name.upper() not in status_moves and current_pp > 0:\n                buttons.append(\"A\")\n\nprint(json.dumps(buttons))",
+    "python_script": "import json\nimport sys\n\nstatus_moves = {\n    \"AGILITY\", \"AMNESIA\", \"BARRIER\", \"BIDE\", \"CONFUSE RAY\", \"CONVERSION\",\n    \"DEFENSE CURL\", \"DISABLE\", \"DOUBLE TEAM\", \"FLASH\", \"FOCUS ENERGY\", \"GROWL\",\n    \"GROWTH\", \"HARDEN\", \"HAZE\", \"HYPNOSIS\", \"KINESIS\", \"LEECH SEED\", \"LEER\",\n    \"LIGHT SCREEN\", \"LOVELY KISS\", \"MEDITATE\", \"METRONOME\", \"MIMIC\", \"MINIMIZE\",\n    \"MIST\", \"POISON GAS\", \"POISONPOWDER\", \"PSYWAVE\", \"RECOVER\", \"REFLECT\",\n    \"REST\", \"ROAR\", \"SAND-ATTACK\", \"SCREECH\", \"SHARPEN\", \"SING\", \"SLEEP POWDER\",\n    \"SMOG\", \"SMOKESCREEN\", \"SOFTBOILED\", \"SPORE\", \"STRING SHOT\", \"STUN SPORE\",\n    \"SUBSTITUTE\", \"SUPERSONIC\", \"SWORDS DANCE\", \"TAIL WHIP\", \"TELEPORT\",\n    \"THUNDER WAVE\", \"TOXIC\", \"TRANSFORM\", \"WHIRLWIND\", \"WITHDRAW\"\n}\n\ntry:\n    screen_text = input_data['screen_text']\n    player_party_json = input_data['player_party_json']\n\n    lines = screen_text.strip().split('\\n')\n    \n    active_pokemon_name = lines[2].strip().upper()\n    \n    screen_moves = []\n    cursor_pos = -1\n    move_list_started = False\n    \n    # Find the start of the move list\n    move_start_line = -1\n    for i, line in enumerate(lines):\n        if '→' in line:\n            move_start_line = i\n            break\n\n    if move_start_line != -1:\n        for i in range(move_start_line, len(lines)):\n            line = lines[i]\n            clean_line = line.replace('→', '').strip()\n            if clean_line.isupper() or '-' in clean_line:\n                if '→' in line:\n                    cursor_pos = len(screen_moves)\n                screen_moves.append(clean_line)\n\n    party_data = json.loads(player_party_json)\n    \n    active_pokemon_moves = []\n    for pokemon_data in party_data:\n        if pokemon_data.get('name', '').upper() == active_pokemon_name:\n            active_pokemon_moves = pokemon_data.get('moves', [])\n            break\n\n    buttons = []\n    best_move_index = -1\n\n    for i, move_name in enumerate(screen_moves):\n        move_data_found = None\n        for move_data in active_pokemon_moves:\n            if move_data.get('name', '').upper() == move_name.upper():\n                move_data_found = move_data\n                break\n        \n        if move_data_found:\n            if 'pp' in move_data_found and move_data_found['pp'] > 0 and move_name.upper() not in status_moves:\n                best_move_index = i\n                break\n    \n    if best_move_index != -1:\n        presses = (best_move_index - cursor_pos + len(screen_moves)) % len(screen_moves)\n        if presses > len(screen_moves) / 2:\n            buttons.extend(['Up'] * (len(screen_moves) - presses))\n        else:\n            buttons.extend(['Down'] * presses)\n        buttons.append('A')\n        print(json.dumps(buttons))\n    else:\n        print(json.dumps([]))\n\nexcept Exception:\n    print(json.dumps([]))",
     "history": [
       {
         "commit_message": "feat: Create battle_sequence_automator tool. This tool automates simple wild battles by selecting FIGHT and then choosing a super-effective move. This is a direct response to a self-assessment that identified repetitive manual actions in battles as a key inefficiency. The initial version contains hardcoded logic for the current situation (HELIX vs. Rock-types in Mt. Moon).",
@@ -878,6 +882,36 @@
         "commit_message": "fix: Simplify move selection logic to be more robust. The tool now only analyzes the currently selected move and its displayed PP. It will select the move if it is damaging and has PP > 0. This avoids complex, brittle parsing of the entire move list and prevents failures when PP for other moves is not visible on screen. This is a critical fix to restore battle automation functionality.",
         "timestamp": "2025-09-10T20:02:57.876Z",
         "action_counter": 204599
+      },
+      {
+        "commit_message": "feat: Add party data input to enable intelligent move selection. The tool now requires `player_party_json` to access the PP of all moves for the active Pokémon. This allows it to iterate through the on-screen move list and select the first valid damaging move, instead of being stuck on a 0 PP move. This is a critical fix to unblock battle automation.",
+        "timestamp": "2025-09-10T21:13:55.598Z",
+        "action_counter": 204714
+      },
+      {
+        "commit_message": "fix: Corrected the status move list and added debug prints. The tool was failing because its internal list of status moves incorrectly contained many damaging moves (e.g., WATER GUN), causing it to ignore valid attacks. This commit removes those moves and adds extensive print statements to help diagnose any further issues. This is a critical fix to restore battle automation.",
+        "timestamp": "2025-09-10T21:19:28.523Z",
+        "action_counter": 204721
+      },
+      {
+        "commit_message": "fix: Overhaul parsing logic to correctly identify the active Pokémon by its nickname. The previous version failed because it incorrectly tried to match the Pokémon's species name against the screen text, which displays the nickname. This commit fixes the screen parser to extract the nickname and updates the main logic to use this for matching against the party data. This is a critical fix to restore all battle automation functionality.",
+        "timestamp": "2025-09-10T21:20:24.232Z",
+        "action_counter": 204722
+      },
+      {
+        "commit_message": "fix: Remove all debug prints. The previous version's logic was correct, but the tool failed because debug print statements were contaminating the standard output, preventing the system from parsing the final JSON array. This commit removes all non-essential print statements to ensure clean, valid output. This is a critical fix to restore battle automation.",
+        "timestamp": "2025-09-10T21:21:00.524Z",
+        "action_counter": 204723
+      },
+      {
+        "commit_message": "fix: Remove all debug prints. The previous version's logic was correct, but the tool failed because debug print statements were contaminating the standard output, preventing the system from parsing the final JSON array. This commit removes all non-essential print statements to ensure clean, valid output. This is a critical fix to restore battle automation.",
+        "timestamp": "2025-09-10T21:26:03.651Z",
+        "action_counter": 204730
+      },
+      {
+        "commit_message": "fix: Add defensive check for 'pp' key. The tool was failing with a `KeyError` when trying to access `move_data['pp']`. This commit adds a check to ensure the 'pp' key exists in the move data dictionary before attempting to access its value. This makes the tool more robust against potential malformed party data and prevents crashes during battle automation.",
+        "timestamp": "2025-09-10T21:30:22.156Z",
+        "action_counter": 204736
       }
     ]
   }

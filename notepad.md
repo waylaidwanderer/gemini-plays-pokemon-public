@@ -54,3 +54,6 @@
 - **Hypothesis 1 (Failed):** Talking to the Hiker at (6, 7) will make him move or initiate a battle. (Attempt #2: Dialogue was 'Kids like you shouldn't be here!', no battle, no movement.)
 - **New Hypothesis:** The ladder at (26, 16), previously thought to be a 'trap', is the intended path to the western partition of the cave.
 6.  **Confirmation Bias Warning:** I incorrectly assumed I was trapped in a map partition in Mt. Moon and that my pathfinding tool was faulty. I must trust the game state data and my tools over my own intuition, and actively try to disprove my assumptions.
+
+# VI. Tool Development & Maintenance
+- **`battle_sequence_automator`:** This tool has failed repeatedly due to multiple bugs (incorrect status move list, nickname vs. species matching, contaminated JSON output from debug prints, KeyError). It requires a full teardown and rebuild outside of active battle. Do not attempt to use it again until it has been properly fixed.
