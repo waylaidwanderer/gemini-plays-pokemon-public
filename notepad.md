@@ -38,7 +38,7 @@
 - **Brock (Pewter Gym):** OMASTAR (Lv 64 - HYDRO PUMP, BLIZZARD), ONIX (Lv 65 - EARTHQUAKE, ROCK SLIDE), KABUTOPS (Lv 64 - SWORDS DANCE, SLASH), GOLEM (Lv 64 - ROCK SLIDE), NINETALES (Lv 64 - REFLECT), AERODACTYL (Lv 65 - FLY).
 
 ## C. Type Effectiveness Chart
-* (To be populated based on in-battle observations)
+- Water is super-effective against Rock/Ground (Observed: OMANYTE's SURF vs GEODUDE).
 
 # V. Battle Strategy & Tool Usage
 - If `battle_sequence_automator` fails, use `comprehensive_battle_agent` for turn-by-turn advice instead of repeated failed tool calls.
