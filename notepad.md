@@ -56,7 +56,6 @@
 - **S.S. TICKET:** Does not trigger a new event at the Vermilion City port.
 - **Route 2 Northern Path:** The route is partitioned by a fence; the northern path is not directly accessible from the south-eastern section.
 - **B2F Dead-End Room Trigger (Mt. Moon):** The isolated room on B2F, accessed via the ladder at B1F (14, 28), contains no hidden triggers. Systematically walking over every tile revealed nothing but a high wild encounter rate.
-- **B1F Western Partition Trigger (Mt. Moon):** The isolated area on B1F, accessed from the B2F platform at (22, 18), contains no hidden triggers. Systematically walking over every tile revealed nothing.
 - **Route 2 Northern Path:** The route is partitioned by a fence; the northern path is not directly accessible from the south-eastern section.
 - **B2F Dead-End Room Trigger (Mt. Moon):** The isolated room on B2F, accessed via the ladder at B1F (14, 28), contains no hidden triggers. Systematically walking over every tile revealed nothing but a high wild encounter rate.
 
@@ -235,7 +234,6 @@
 - **S.S. TICKET:** Does not trigger a new event at the Vermilion City port.
 - **Route 2 Northern Path:** The route is partitioned by a fence; the northern path is not directly accessible from the south-eastern section.
 - **B2F Dead-End Room Trigger (Mt. Moon):** The isolated room on B2F, accessed via the ladder at B1F (14, 28), contains no hidden triggers. Systematically walking over every tile revealed nothing but a high wild encounter rate.
-- **B1F Western Partition Trigger (Mt. Moon):** The isolated area on B1F, accessed from the B2F platform at (22, 18), contains no hidden triggers. Systematically walking over every tile revealed nothing.
 
 # V. Major Battle Data
 ### 1. Sabrina (Saffron City Gym)
