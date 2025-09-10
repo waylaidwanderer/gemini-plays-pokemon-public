@@ -39,3 +39,6 @@
 
 ## C. Type Effectiveness Chart
 * (To be populated based on in-battle observations)
+
+# V. Battle Strategy & Tool Usage
+- If `battle_sequence_automator` fails, use `comprehensive_battle_agent` for turn-by-turn advice instead of repeated failed tool calls.
