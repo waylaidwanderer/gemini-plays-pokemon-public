@@ -10,6 +10,7 @@
 - **Fainted HM Usage:** A fainted Pokémon can still use field moves like CUT and Surf outside of battle.
 - **Cycling Road Forced Movement:** On certain routes like Route 18, the player character experiences forced, multi-tile movement in a single direction, especially when moving downhill.
 - **Map Partitions & Reachability:** A single map can have physically disconnected areas (partitions). A path may be blocked by being in the wrong partition. I must analyze the map XML for physical barriers and not solely rely on the 'Reachable' flag in the Game State Information.
+- **Hidden Warp Tiles:** Certain 'dead-end' rooms may contain hidden, one-way warp tiles that trigger upon being walked over. (Discovered in Mt. Moon B1F western partition).
 
 # III. Current Objectives & Hypotheses (Consolidated)
 
