@@ -81,13 +81,6 @@
 4.  **Abandon Failed Hypotheses:** If a strategy fails repeatedly, I must recognize the pattern, document it, and pivot to a new approach. I must not get stuck on a single solution.
 5.  **State Verification & Anti-Hallucination:** My most severe failures stem from hallucinating game state variables (location, turn count, etc.). I MUST verify my current map ID, coordinates, and all other data from the Game State Information *before* every single action and trust it over my memory. I must not incorrectly assess dead-end areas. (Lesson from multiple turns)
 
-# VI. Technical Documentation & Lessons Learned
-
-## B. Lessons from Failures, Critiques, & Hallucinations
-- **`automated_path_navigator` on Mt. Moon B2F (Turn 202577):** The tool was **correct** in reporting no path. My manual map assessment was flawed. Lesson: TRUST THE TOOL. Before debugging, rigorously verify that a path is physically possible in the map XML.
-- **Deferred Maintenance Failure (Multiple Turns):** I have repeatedly violated my core directive by deferring tool creation and maintenance. This is a critical error in process and must not be repeated. All tool/agent creation and refinement must happen the moment the need is identified.
-- **Dead End Hallucination (Multiple Turns):** I have repeatedly failed to correctly assess dead-end areas. This is a severe failure to trust and properly interpret game state data.
-- **State Tracking & Verification Hallucinations (Multiple Turns):** I have a recurring failure of state tracking, leading to incorrect turn counts and location reporting. I must verify the outcome and game state of every action before planning the next.
 ## A. Automation & Tool Development Ideas
 ## B. Lessons from Failures
 - **Dead End Hallucination on Mt. Moon B1F (Turn 203629):** I incorrectly classified the map as a dead end. I failed to account for all reachable warps across different partitions of the map (specifically the one at (6,6)). Lesson: The 'is_in_dead_end_area' check must consider the entire map's connectivity, not just the immediate partition.
