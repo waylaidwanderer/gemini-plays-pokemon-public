@@ -33,18 +33,6 @@
 ## B. Active Hypotheses
 - **Primary Hypothesis (Fossil Pokémon):** Giving the revived HELIX Pokémon to the Rocket Grunt will cause him to move.
 - **Secondary Hypothesis (Fossil Item):** The Rocket Grunt requires the actual 'Helix Fossil' item, not the revived Pokémon.
-- **Tertiary Hypothesis (Cinnabar Flag):** A story flag must be triggered at the Cinnabar Island Pokémon Lab before the Mt. Moon event can be resolved.
-- **Hypothesis (Fossil Lead):** Having the fossil Pokémon (HELIX) in the lead party slot triggers a special event.
-- **Hypothesis (Sole Party Member):** The fossil Pokémon must be the sole member of the party.
-- **Hypothesis (Item/Move Subversion):** An Escape Rope or the move Dig has a unique, non-standard function in the B2F dead-end room. (Consolidated)
-
-## A. Main Objective
-- **Investigate the Mt. Moon fossil event:** A Rocket Grunt on Mt. Moon B2F is blocking a path and needs a fossil.
-
-## B. Story & Event Hypotheses
-- **Primary Hypothesis (Fossil Pokémon):** Giving the revived HELIX Pokémon to the Rocket Grunt at (30, 12) on Mt. Moon B2F will cause him to move.
-- **Secondary Hypothesis (Fossil Item):** The Rocket Grunt requires the actual 'Helix Fossil' item, not the revived Pokémon.
-- **Tertiary Hypothesis (Cinnabar Flag):** A story flag must be triggered at the Cinnabar Island Pokémon Lab before the Mt. Moon event can be resolved.
 
 # V. Major Battle Data
 ### 1. Sabrina (Saffron City Gym)
