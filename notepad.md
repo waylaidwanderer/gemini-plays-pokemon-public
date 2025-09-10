@@ -39,7 +39,7 @@
 
 # V. Automation & Tool Development Ideas
 - **Party Manager Tool:** A system to automate complex party management tasks in the PC, like depositing the entire party or withdrawing a specific set of Pokémon. This would be a computational tool that chains `menu_analyzer` and `select_menu_option` calls, possibly using `autopress_buttons`.
-- **Fly Automator Tool:** A tool to automate the sequence of `POKEMON -> [Pokemon Name] -> FLY -> [City Name]`. This would streamline travel between cities.
+- **Room Explorer Improvement:** Update `automated_room_explorer` to account for NPC obstacles.
 
 # VI. Future Plans & Ideas
 - **Multi-Map Navigator Agent:** An agent that can plan routes across multiple maps (e.g., through different floors of a cave) to reach a final destination.
