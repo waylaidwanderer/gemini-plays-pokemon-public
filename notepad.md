@@ -133,30 +133,6 @@
 4.  **Abandon Failed Hypotheses:** If a strategy fails repeatedly, I must recognize the pattern, document it, and pivot to a new approach. I must not get stuck on a single solution.
 5.  **State Verification & Anti-Hallucination:** My most severe failures stem from hallucinating game state variables (location, turn count, etc.). I MUST verify my current map ID, coordinates, and all other data from the Game State Information *before* every single action and trust it over my memory. I must not incorrectly assess dead-end areas. (Lesson from multiple turns)
 
-# II. Game Mechanics & World Data
-- **Trap Battles:** Certain wild encounters appear to be 'trap' battles where the 'RUN' option is disabled (Observed: Wigglytuff, KADABRA; Suspected: Ditto).
-- **Fainted HM Usage:** A fainted Pokémon can still use field moves like CUT and Surf outside of battle.
-- **Cycling Road Forced Movement:** On certain routes like Route 18, the player character experiences forced, multi-tile movement in a single direction, especially when moving downhill.
-- **Map Partitions & Reachability:** A single map can have physically disconnected areas (partitions). A path may be blocked by being in the wrong partition. I must analyze the map XML for physical barriers and not solely rely on the 'Reachable' flag in the Game State Information.
-- **Hidden Warp Tiles:** Certain 'dead-end' rooms may contain hidden, one-way warp tiles that trigger upon being walked over. (Discovered in Mt. Moon B1F western partition).
-- **PC Interaction:** The PC at a Pokémon Center must be interacted with from the tile directly below it (Y+1), while facing up.
-- **Pokémon PC Menu:** "Gem's PC" is for Item Storage. "BILL's PC" is for Pokémon Storage.
-- **Trap Battles:** Certain wild encounters appear to be 'trap' battles where the 'RUN' option is disabled (Observed: Wigglytuff, KADABRA; Suspected: Ditto).
-- **Fainted HM Usage:** A fainted Pokémon can still use field moves like CUT and Surf outside of battle.
-
-- **Roster:**
-    - OMASTAR (Lv 64) - Moves: HYDRO PUMP, BLIZZARD
-    - ONIX (Lv 65) - Moves: EARTHQUAKE, ROCK SLIDE
-    - KABUTOPS (Lv 64) - Moves: SWORDS DANCE, SLASH
-    - GOLEM (Lv 64) - Moves: ROCK SLIDE
-    - NINETALES (Lv 64) - Moves: REFLECT
-    - AERODACTYL (Lv 65) - Moves: FLY
-
-### 4. Cerulean Cave Wild Pokémon
-- **Observed Species & Moves:**
-    - WIGGLYTUFF (Lv 62) - Moves: LOVELY KISS, DOUBLE-EDGE, REST
-    - SANDSLASH (Lv 63) - Moves: SWORDS DANCE, EARTHQUAKE
-    - GOLEM (Lv 64) - Moves: EXPLOSION
     - LICKITUNG (Lv 61): Moves: WRAP
     - CHANSEY (Lv 63): Moves: DEFENSE CURL, MEGA PUNCH
     - RAICHU (Lv 64): Moves: AGILITY
