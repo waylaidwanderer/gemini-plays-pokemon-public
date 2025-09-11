@@ -24,12 +24,15 @@
 # III. Current Quest: The Mt. Moon Fossil
 - **Objective:** Find a fossil item to give to the Rocket Grunt at Mt. Moon B2F (30, 12).
 - **Key Obstacle:** The path to the fossil is blocked by the Grunt, who states: "If you find a fossil, give it to me and scram!"
-- **Current Status:** After exhausting all leads in the eastern part of Mt. Moon, I discovered a new western section. However, the high encounter rate and a paralyzed lead Pokémon have forced a tactical retreat to a Pokémon Center. The party is now healed and ready to return.
+- **Current Status:** Actively testing the hypothesis that a fainted Omanyte will be accepted as a 'fossil'.
 - **Failed Hypotheses Log:**
     1.  Giving the *revived* fossil Pokémon (HELIX) is sufficient. (Result: Failure)
     2.  The Super Nerd at B2F (13, 9) gives a fossil after being defeated. (Result: Failure, he only gives dialogue.)
     3.  The visible items at B2F (9, 9) and (5, 9) are fossils. (Result: Failure, they are non-interactive scenery.)
     4.  The Super Nerd provides a non-fossil key item. (Result: Failure, dialogue only.)
+- **Untested Assumptions Log:**
+    1.  **Assumption:** The *only* way to pass the grunt is with a fossil item. **Test Plan:** If all fossil-related hypotheses fail, try interacting with the grunt while using different key items or having different Pokémon in the lead.
+    2.  **Assumption:** The encounter rate is uniform across this floor. **Test Plan:** If a wild Pokémon isn't found soon, move to a different walkable area on B2F to see if the encounter rate changes.
 
 # IV. Pokémon Data
 ## A. Wild Pokémon Locations & Movesets
@@ -51,3 +54,5 @@
 
 # VI. System & Tool Notes
 - **Tool Deletion Anomaly:** The `delete_tool` command consistently fails for `select_battle_option` with a 'not found' error, despite the tool being listed as available. Deprecating in practice instead of attempting further deletion.
+- **System & Tool Ideas:**
+    - **Battle Staller Agent:** An agent that can take a battle objective (e.g., 'survive X turns', 'get Pokémon Y to faint') and output an optimal sequence of non-damaging or strategic moves.
