@@ -5,24 +5,16 @@
 4.  **Confirmation Bias Warning (Route 2 Lesson):** I incorrectly assumed the Route 2 Gatehouse was a viable shortcut. I must trust my pathfinding tool's 'no path found' results and investigate the reason for the failure rather than assuming the tool is wrong.
 5.  **Exhaust All Options (Mt. Moon Hiker Lesson):** A Hiker at Mt. Moon 1F (6, 7) blocked a path. Instead of getting stuck, I explored an alternative path via a ladder at (26, 16), which was the correct way forward. This reinforces the need to explore all reachable alternatives when a path seems blocked.
 6.  **Warp Discipline:** After every warp, my first action must be to check and, if necessary, create/update markers on **both** the departure and arrival maps.
+7.  **Mandatory Self-Assessment:** Periodically, I must perform a structured self-review to ensure my strategies, documentation, and tool usage remain optimal and aligned with my core principles. This prevents strategic drift and corrects bad habits before they become ingrained.
 
 # II. Game Mechanics & World Data
 - **Gameplay Mechanics:**
     - **Trap Battles:** Certain wild encounters appear to be 'trap' battles where the 'RUN' option is disabled (Observed: Wigglytuff, KADABRA; Suspected: Ditto).
     - **Fossil Regeneration:** The Cinnabar Lab has a machine to regenerate fossils.
-- **Tile Mechanics:**
-    - `ground`, `grass`: Standard traversable tiles.
-    - `impassable`: Walls, counters, etc. Cannot be entered.
-    - `elevated_ground`: Traversable, but can only be accessed from 'steps' tiles.
-    - `steps`: The only tile type that allows movement between 'ground' and 'elevated_ground'.
-    - `ledge`: One-way traversal. Can be jumped down, but not climbed up.
-    - `warp tiles` (e.g., ladder_up, ladder_down, hole, teleport): Cause instant map transition. Often need to step off and back on to reuse. `ladder_up` specifically takes you to a higher floor.
-    - `cuttable`: Tree that can be cut with HM Cut. Becomes `ground` after cutting, but respawns on map change or after battle.
-    - `water`: Crossable using HM Surf.
 
 # III. Current Quest: The Mt. Moon Fossil
 - **Objective:** Find a fossil item to give to the Rocket Grunt at Mt. Moon B2F (30, 12).
-- **Current Plan:** Retrieve the ITEMFINDER from the PC and return to Mt. Moon to search for a hidden fossil.
+- **Current Plan:** Retrieve HELIX from the PC, return to Mt. Moon, and show it to the Super Nerd at B2F (13, 9).
 - **Failed Hypotheses Log:**
     1.  Giving the *revived* fossil Pokémon (HELIX) is sufficient. (Result: Failure)
     2.  The Super Nerd at B2F (13, 9) gives a fossil after being defeated. (Result: Failure)
@@ -32,6 +24,7 @@
     6.  Using a MOON STONE from the inventory has an effect. (Result: Failure, opens Pokémon menu.)
     7.  The Cinnabar Lab can 'de-revive' a Pokémon back into a fossil. (Result: Failure, scientist only revives fossils.)
     8.  A Pokémon nicknamed 'FOSSIL' will satisfy the Grunt. (Result: Failure, dialogue unchanged.)
+    9. The fossil is a hidden item on Mt. Moon B2F. (Result: Failure, ITEMFINDER search yielded only an ETHER).
 
 # IV. Pokémon & Battle Data
 ## A. Type Effectiveness Chart (Verified)
@@ -54,7 +47,6 @@
 - **Battle Menu Anomaly (Inconclusive):** A test suggested the move selection menu resets if confirmation is delayed, but a second identical test contradicted this. The exact mechanic is unknown and requires further investigation. All battle automation must now combine directional inputs and the 'A' press into a single turn's action.
 - **Master Navigator Agent Lesson:** For complex, multi-floor navigation puzzles like Mt. Moon, I should use the `master_navigator_agent` instead of relying on manual pathfinding and the simpler `automated_path_navigator`. This will be more efficient and less prone to error.
 - **Future Tool Improvement:** Upgrade `battle_automator` to incorporate type effectiveness logic for move selection, making it a more intelligent combat tool.
-7.  **Mandatory Self-Assessment:** Periodically, I must perform a structured self-review to ensure my strategies, documentation, and tool usage remain optimal and aligned with my core principles. This prevents strategic drift and corrects bad habits before they become ingrained.
 
 # VI. Puzzle Solver Agent Hypotheses (Mt. Moon Fossil)
 1.  **Lose to the Super Nerd:** Intentionally lose the battle against the Super Nerd at B2F (13, 9). He might offer a fossil as a 'consolation prize'.
