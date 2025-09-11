@@ -56,10 +56,6 @@
 
 # VII. Current Mt. Moon Puzzle State
 - **Objective:** Find a fossil item to give to the Rocket Grunt at B2F (30, 12).
-- **Summary of Exploration:**
-  - Mt. Moon 1F: Fully explored. No fossil found.
-  - Mt. Moon B1F (Western Partition): Fully explored via ladder at 1F (26, 16). No fossil found.
-  - Mt. Moon B2F (Western Partition): Fully explored via ladder at B1F (14, 28). No fossil found.
-  - Mt. Moon B1F/B2F (Eastern/Dead End Partition): Accessed via ladder at 1F (18, 12). This is a dead end containing the fossil-blocking Grunt.
-- **Current Hypothesis:** The only remaining unexplored path is via the ladder at 1F (6, 6), which is located near the blocking Hiker. This must lead to the Super Nerd's area and the fossil.
+- **Summary of Exploration:** All previously known paths on 1F, B1F, and B2F have been fully explored and lead to dead ends or the fossil-blocking Grunt. No fossil has been found.
+- **Current Hypothesis:** The only remaining unexplored path is via the ladder at 1F (6, 6), which was previously missed. This must lead to the Super Nerd's area and the fossil.
 - **Test Plan:** Navigate to and use the ladder at Mt. Moon 1F (6, 6).
