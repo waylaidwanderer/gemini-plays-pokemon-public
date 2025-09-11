@@ -69,4 +69,4 @@
 - **Battle Menu Anomaly (Inconclusive):** A test suggested the move selection menu resets if confirmation is delayed, but a second identical test contradicted this. The exact mechanic is unknown and requires further investigation.
   - **Test 1 (vs Sandshrew):** Selected SLUDGE, delayed confirmation -> FLY was used.
   - **Test 2 (vs Geodude):** Selected SLUDGE, delayed confirmation -> SLUDGE was used.
-  - **Conclusion:** Hypothesis of a simple reset is **disproven**. The trigger for this behavior is unknown. All battle automation must now combine directional inputs and the 'A' press into a single turn's action.
+  - **Conclusion:** Hypothesis of a simple reset is **disproven**. The trigger for this behavior is unknown. All battle automation must now combine directional inputs and the 'A' press into a single turn's action. All battle automation must now combine directional inputs and the 'A' press into a single turn's action.
