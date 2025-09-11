@@ -63,6 +63,8 @@
 # VII. System & Tool Development Ideas
 - **Battle Log Anomaly Agent:** An agent to analyze discrepancies between intended actions and battle outcomes to hypothesize hidden mechanics.
 
-# VIII. Active Experiments
-- **Battle Menu Selection Hypothesis:** The move selection in battle may reset to the default (top) option if the confirmation 'A' press occurs in a different turn than the directional inputs.
-  - **Test Plan:** In the next wild battle, use `battle_automator` to select a non-default move (e.g., SLUDGE). In the subsequent turn, manually press 'A'. Observe whether the selected move or the default move (e.g., FLY) is executed.
+# VIII. Confirmed Mechanics & Resolved Experiments
+- **Battle Menu Reset:** The move selection menu *does* reset to the default (top) option if the confirmation 'A' press is not made in the same turn as the directional inputs.
+  - **Test:** Used `battle_automator` to select SLUDGE (requiring Down presses), then pressed 'A' in the next turn.
+  - **Result:** FLY (the top move) was executed instead of SLUDGE.
+  - **Conclusion:** This mechanic is confirmed. All battle automation must now combine directional inputs and the 'A' press into a single turn's action.
