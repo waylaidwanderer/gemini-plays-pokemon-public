@@ -62,6 +62,8 @@
   - **Test Result:** The partition of B2F accessible via the ladder at (14, 28) on B1F has been fully explored and contains no fossil.
   - **Hypothesis (Disproven):** The ladder at (18, 12) on B1F leads to the Super Nerd's area.
   - **Test Result:** The ladder leads to the eastern partition of B2F, which is a dead end containing the fossil-blocking Rocket Grunt.
+  - **New Hypothesis:** The only remaining unexplored path is to the Super Nerd's area. I must return to 1F to find a different route to that part of B1F/B2F.
+  - **Test Result:** The ladder leads to the eastern partition of B2F, which is a dead end containing the fossil-blocking Rocket Grunt.
   - **Test Result:** The ladder leads to the eastern partition of B2F, which is a dead end containing the fossil-blocking Rocket Grunt.
   - **Test Result:** The ladder leads to the eastern partition of B2F, which is a dead end containing the fossil-blocking Rocket Grunt.
 - **New Assumption:** The fossil is in the eastern partition of B2F.
