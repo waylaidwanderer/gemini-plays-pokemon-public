@@ -43,7 +43,7 @@
 - Water is not very effective against Bug/Grass (Observed: OMANYTE's BUBBLEBEAM vs PARAS).
 
 # V. Battle Strategy & Tool Usage
-- **Battle Automation Flow:** Use the `battle_sequence_automator` for routine wild battles. For trainer battles, use `comprehensive_battle_agent` for strategic advice, and `select_battle_option`, `menu_analyzer`, and `select_menu_option` for reliable menu navigation.
+- **Battle Automation Flow:** Use `battle_sequence_automator` for routine wild battles to select the best damaging move. Note: This tool only outputs directional presses; the final 'A' confirmation is manual. For trainer battles, use `comprehensive_battle_agent` for strategic advice.
 - **Navigation:** Use `automated_path_navigator` for standard point-to-point travel. For complex exploration or puzzles, use `navigation_strategist_agent`.
 
 # VI. Tool Development & Maintenance
