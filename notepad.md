@@ -46,9 +46,6 @@
 - **Battle Automation Flow:** Use `battle_automator` for routine wild battles to select the best damaging move. Note: This tool only outputs directional presses; the final 'A' confirmation is manual. For trainer battles, use `comprehensive_battle_agent` for strategic advice.
 - **Navigation:** Use `automated_path_navigator` for standard point-to-point travel. For complex exploration or puzzles, use `navigation_strategist_agent`.
 
-# VI. Tool Development & Maintenance
-- **`battle_sequence_automator`:** This tool has a history of failures but has been significantly improved. Recent fixes include adding menu state detection (to distinguish the main battle menu from the move menu) and correcting the logic for matching a Pokémon's nickname. It should be tested further in low-stakes battles.
-
 # VII. Current Mt. Moon Puzzle State
 - **Objective:** Find a fossil item to give to the Rocket Grunt at B2F (30, 12).
 - **Summary of Exploration:** All previously known paths on 1F, B1F, and B2F have been fully explored and lead to dead ends or the fossil-blocking Grunt. No fossil has been found.
