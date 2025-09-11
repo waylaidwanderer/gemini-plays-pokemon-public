@@ -59,4 +59,6 @@
   - **Test Result:** The entirety of Mt. Moon 1F has been explored, and no fossil item was found. This assumption is false.
 - **New Assumption (Updated):** The fossil is on B2F.
   - **Test Result:** The western partition of Mt. Moon B1F has been fully explored and contains no fossil.
-  - **Test Plan:** Explore the area of B2F accessible via the ladder at (14, 28) on B1F.
+  - **Test Result:** The partition of B2F accessible via the ladder at (14, 28) on B1F has been fully explored and contains no fossil.
+  - **New Assumption:** The fossil is in the Super Nerd's isolated area on B2F.
+  - **Test Plan:** Return to B1F, then find a path to the ladder at (24, 4) which leads to the Super Nerd's area.
