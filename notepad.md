@@ -47,7 +47,7 @@
 
 # V. Battle Strategy & Tool Usage
 - **Battle Automation Flow:** Use the consolidated `battle_automator` for routine wild battles and main menu navigation. For complex trainer battles, consult `comprehensive_battle_agent` for strategic advice.
-- **Navigation:** Use `automated_path_navigator` for standard point-to-point travel. For complex multi-floor navigation, test `multi_floor_navigation_agent` before defaulting to `navigation_strategist_agent`.
+- **Navigation:** Use `automated_path_navigator` for standard point-to-point travel. For multi-floor buildings with known warp connections, use `multi_floor_navigation_agent`. For high-level exploration planning in complex, unknown areas, use `navigation_strategist_agent`.
 
 # VI. System & Tool Notes
 - **Tool Deletion Anomaly:** The `delete_tool` command consistently fails for `select_battle_option` with a 'not found' error, despite the tool being listed as available. Deprecating in practice instead of attempting further deletion.
