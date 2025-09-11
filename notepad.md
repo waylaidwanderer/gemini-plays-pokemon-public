@@ -48,7 +48,6 @@
 
 # VI. Tool Development & Maintenance
 - **`battle_sequence_automator`:** This tool was rebuilt after repeated critical failures. It now uses a more robust script that correctly parses nicknames, uses party JSON data to check PP, and selects the first available damaging move. It should be monitored for any new issues.
-- **Agent Idea - Team Composition Advisor:** Create an agent that, given an opponent's Pokémon, recommends the best party member to switch to and potentially the best move to use.
 
 # VII. Current Mt. Moon Puzzle State
 - **Objective:** Find a fossil item to give to the Rocket Grunt at B2F (30, 12).
