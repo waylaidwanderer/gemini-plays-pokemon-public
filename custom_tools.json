@@ -571,184 +571,6 @@
       }
     ]
   },
-  "menu_analyzer": {
-    "description": "Parses screen text from a menu to identify the available options, their layout (e.g., single column, 2x2 grid), and the current cursor position. This is the foundation for creating reliable menu navigation automation.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "screen_text": {
-          "type": "string"
-        }
-      },
-      "required": [
-        "screen_text"
-      ]
-    },
-    "python_script": "import json\nimport re\n\nscreen_text = input_data['screen_text']\nlines = [line.strip() for line in screen_text.strip().split('\\n') if line.strip()]\n\noptions = []\ncursor_position = None\nlayout = 'single_column'\ncursor_char = '→'\n\nsubmenu_keywords = ['STATS', 'SWITCH', 'CANCEL']\nis_submenu = all(keyword in screen_text for keyword in submenu_keywords)\npc_withdraw_submenu_keywords = ['WITHDRAW', 'STATS', 'CANCEL']\nis_pc_withdraw_submenu = all(keyword in screen_text for keyword in pc_withdraw_submenu_keywords)\nis_pc_menu = \"BOX No.\" in screen_text\nis_move_selection = \"TYPE/\" in screen_text\n\nif is_submenu:\n    layout = 'single_column'\n    options = submenu_keywords\n    found_cursor = False\n    for line in lines:\n        if cursor_char in line:\n            for opt in options:\n                if opt in line:\n                    cursor_position = opt\n                    found_cursor = True\n                    break\n        if found_cursor:\n            break\n    if not found_cursor and options:\n        cursor_position = options[0]\nelif is_pc_withdraw_submenu:\n    layout = 'single_column'\n    options = pc_withdraw_submenu_keywords\n    found_cursor = False\n    for line in lines:\n        if cursor_char in line:\n            for opt in options:\n                if opt in line:\n                    cursor_position = opt\n                    found_cursor = True\n                    break\n        if found_cursor:\n            break\n    if not found_cursor and options:\n        cursor_position = options[0]\nelif is_pc_menu:\n    layout = 'single_column'\n    pokemon_names = []\n    cursor_name = None\n    i = 0\n    while i < len(lines):\n        line = lines[i]\n        if not line.startswith(\"LV\") and \"BOX No.\" not in line:\n            words = line.replace(cursor_char, '').strip().split()\n            if words:\n                name = words[-1]\n                if len(name) > 2 and name.isupper():\n                    pokemon_names.append(name)\n                    if cursor_char in line:\n                        cursor_name = name\n        i += 1\n    options = pokemon_names\n    cursor_position = cursor_name\nelif is_move_selection:\n    layout = 'single_column'\n    move_options = []\n    cursor_move = None\n    start_parsing = False\n    for line in lines:\n        if re.search(r'\\d+/\\d+', line):\n            start_parsing = True\n            continue\n        if start_parsing:\n            clean_line = line.replace(cursor_char, '').strip()\n            if clean_line and re.match(r'^[A-Z\\s-]+$', clean_line):\n                move_options.append(clean_line)\n                if cursor_char in line:\n                    cursor_move = clean_line\n    options = move_options\n    cursor_position = cursor_move\nelse:\n    is_party_menu = \"Choose a POKéMON\" in screen_text or \"Bring out which\" in screen_text\n    is_multi_column = any(re.search(r'\\S\\s{2,}\\S', line) for line in lines)\n    if is_party_menu:\n        pokemon_names = []\n        cursor_index = -1\n        text_lines = screen_text.strip().split('\\n')\n        i = 0\n        while i < len(text_lines):\n            line1 = text_lines[i]\n            match = re.match(r\"^\\s*([A-Z']{2,})\\s+LV\", line1)\n            if match:\n                pokemon_name = match.group(1).strip()\n                pokemon_names.append(pokemon_name)\n                if i + 1 < len(text_lines):\n                    line2 = text_lines[i+1]\n                    if line2.strip().startswith('→'):\n                        cursor_index = len(pokemon_names) - 1\n                i += 2\n            else:\n                i += 1\n        options = pokemon_names\n        if cursor_index != -1 and options:\n            cursor_position = options[cursor_index]\n    elif is_multi_column:\n        layout = '2x2_grid'\n        flat_options = []\n        cursor_opt = None\n        for line in lines:\n            parts = re.split(r'\\s{2,}', line)\n            for part in parts:\n                if part:\n                    clean_part = part.replace(cursor_char, '')\n                    flat_options.append(clean_part)\n                    if cursor_char in part:\n                        cursor_opt = clean_part\n        options = flat_options\n        cursor_position = cursor_opt\n    else:\n        for line in lines:\n            option = line.replace(cursor_char, '')\n            options.append(option)\n            if cursor_char in line:\n                cursor_position = option\n\nresult = {\n    'options': options,\n    'cursor_position': cursor_position,\n    'layout': layout\n}\nprint(json.dumps(result))",
-    "history": [
-      {
-        "commit_message": "feat: Create initial version of menu_analyzer. This tool is a direct response to repeated, critical failures in both manual and automated menu navigation. It provides a foundational capability to parse screen text to determine available menu options and the current cursor position. This is the first and most critical step towards building a reliable, environment-aware menu automation system, addressing a major strategic weakness identified by both self-assessment and Overwatch.",
-        "timestamp": "2025-09-04T04:29:26.124Z",
-        "action_counter": 188572
-      },
-      {
-        "commit_message": "fix: Improve party menu parsing. The previous regex-based approach failed to correctly identify the selected Pokémon in the multi-line party menu. This commit adds specific logic to detect the party menu screen and correctly associates the cursor on one line with the Pokémon name on the preceding line. This is a critical fix to enable the new `select_menu_option` tool to function correctly.",
-        "timestamp": "2025-09-05T13:06:17.314Z",
-        "action_counter": 191656
-      },
-      {
-        "commit_message": "fix: Improve layout detection for single-column menus. The previous logic was too broad and incorrectly classified the single-column PC menu as a 2x2 grid, causing downstream tool failures. This commit adds a more specific check for single-column layouts to prevent this misclassification.",
-        "timestamp": "2025-09-07T01:03:14.676Z",
-        "action_counter": 195484
-      },
-      {
-        "commit_message": "fix: Improve party menu detection. The tool failed to correctly identify the 'Bring out which POKéMON?' screen as a party menu. This commit generalizes the check to 'POKéMON?' to handle both this case and the standard 'Choose a POKéMON.' screen, preventing incorrect parsing and layout detection.",
-        "timestamp": "2025-09-07T13:09:18.075Z",
-        "action_counter": 196890
-      },
-      {
-        "commit_message": "fix: Overhaul party menu parsing logic. The previous regex-based approach failed to correctly identify Pokémon names and cursor position in the multi-line party menu. This commit introduces a new stateful parser that identifies a Pokémon by a 'NAME LV' line and checks the subsequent line for the cursor. This is a critical fix to address repeated tool failures and enable reliable automated party management.",
-        "timestamp": "2025-09-07T19:52:15.733Z",
-        "action_counter": 197606
-      },
-      {
-        "commit_message": "fix(menu_analyzer): Use double quotes in regex to prevent syntax error. The previous regex `r'...'` was failing due to a conflict with the single quote character used for matching Pokémon names. This commit changes the regex to use double quotes `r\"...\"`, which resolves the syntax error and restores the tool's functionality for parsing party menus. This is a critical fix to address a persistent tool failure.",
-        "timestamp": "2025-09-07T19:54:26.496Z",
-        "action_counter": 197611
-      },
-      {
-        "commit_message": "fix: Improve party menu detection. The tool failed to correctly identify the 'Bring out which POKéMON?' screen as a party menu. This commit generalizes the check to 'POKéMON?' to handle both this case and the standard 'Choose a POKéMON.' screen, preventing incorrect parsing and layout detection.",
-        "timestamp": "2025-09-07T20:07:04.006Z",
-        "action_counter": 197642
-      },
-      {
-        "commit_message": "fix: Generalize party menu detection. The previous logic was too specific and failed on the 'Choose a POKéMON.' screen. This commit changes the check to the more general 'POKéMON' substring, which correctly identifies all party menu variations. This is a critical fix to address repeated tool failures.",
-        "timestamp": "2025-09-07T20:15:39.170Z",
-        "action_counter": 197661
-      },
-      {
-        "commit_message": "fix: Improve menu type detection. The previous logic used a check that was too general ('POKéMON' in screen_text), causing the main menu to be misidentified as a party menu. This commit introduces a more specific check for party menus and improves the logic for differentiating between single and multi-column layouts. This is a critical fix to prevent repeated tool failures.",
-        "timestamp": "2025-09-08T06:48:28.676Z",
-        "action_counter": 199056
-      },
-      {
-        "commit_message": "fix: Add specific handler for glitched party sub-menu. The previous logic failed to parse the jumbled text and rendering artifacts on the STATS/SWITCH/CANCEL screen. This commit adds a special case to identify this menu by its keywords and correctly assumes the cursor is on the default first option ('STATS') when the text-based cursor position is unreliable. This is a critical fix to unblock party management automation.",
-        "timestamp": "2025-09-08T06:53:05.525Z",
-        "action_counter": 199067
-      },
-      {
-        "commit_message": "fix: Overhaul party menu parsing. The previous logic failed to correctly parse the two-line structure of party menu entries. This commit introduces a new while loop that processes the menu in two-line chunks, correctly identifying the Pokémon name and then checking the subsequent line for the cursor. This is a critical fix to address a repeated tool failure and enable reliable party management automation.",
-        "timestamp": "2025-09-08T11:51:03.394Z",
-        "action_counter": 199586
-      },
-      {
-        "commit_message": "fix: Prevent party menu from being misidentified as multi-column. The previous logic allowed the multi-column check to run even if the menu was already identified as a party menu, causing incorrect parsing. This commit restructures the logic into an if/elif/else block to ensure the checks are mutually exclusive. This is a critical fix to address a repeated tool failure.",
-        "timestamp": "2025-09-08T16:35:45.824Z",
-        "action_counter": 199987
-      },
-      {
-        "commit_message": "fix: Improve party menu detection logic. The previous check for 'Bring out which POKéMON' failed due to a newline character in the screen text. This commit changes the check to 'Bring out which', making it robust to newlines and preventing the tool from incorrectly classifying the party menu as a multi-column layout. This is a critical fix to address repeated tool failures.",
-        "timestamp": "2025-09-08T16:37:22.643Z",
-        "action_counter": 199990
-      },
-      {
-        "commit_message": "fix: Add specific handler for PC withdrawal menu. The previous logic incorrectly classified the PC Pokémon list as a 2x2 grid due to unusual spacing. This commit adds a dedicated check for PC menus (by looking for \"BOX No.\") and implements a more robust parsing logic to correctly extract Pokémon names from the single-column list. This is a critical fix to unblock PC automation.",
-        "timestamp": "2025-09-09T22:36:29.939Z",
-        "action_counter": 203194
-      },
-      {
-        "commit_message": "fix: Add specific handler for PC withdrawal sub-menu. The previous logic misidentified this menu as a 2x2 grid and failed to parse the options correctly. This commit adds a dedicated check for the 'WITHDRAW/STATS/CANCEL' keywords to ensure accurate parsing. This is a critical fix to unblock PC automation.",
-        "timestamp": "2025-09-09T22:52:27.498Z",
-        "action_counter": 203228
-      },
-      {
-        "commit_message": "fix: Add specific handler for move selection menu. The previous logic incorrectly classified the move list as a 2x2 grid. This commit adds a dedicated check for the 'TYPE/' keyword and implements a more robust parsing logic to correctly extract moves from the single-column list. This is a critical fix to unblock battle automation.",
-        "timestamp": "2025-09-10T13:02:43.921Z",
-        "action_counter": 204292
-      },
-      {
-        "commit_message": "fix: Add specific handler for move selection menu. The previous logic incorrectly classified the move list as a 2x2 grid. This commit adds a dedicated check for the 'TYPE/' keyword and implements a more robust parsing logic to correctly extract moves from the single-column list. This is a critical fix to unblock battle automation.",
-        "timestamp": "2025-09-10T13:11:52.461Z",
-        "action_counter": 204300
-      },
-      {
-        "commit_message": "fix: Improve move selection parsing. The previous logic incorrectly included the Pokémon's name in the list of moves. This commit adds a more specific regex to only identify valid move names (uppercase words, potentially with hyphens), ensuring that only actual moves are parsed. This is a critical fix to make the tool reliable for battle automation.",
-        "timestamp": "2025-09-10T20:34:01.629Z",
-        "action_counter": 204644
-      },
-      {
-        "commit_message": "fix: Overhaul move selection parsing logic. The previous regex-based approach was fundamentally flawed, incorrectly parsing Pokémon names as moves and failing to handle move names containing spaces. This commit replaces the logic with a new stateful parser that correctly identifies the start of the move list by looking for the PP display (e.g., '0/25'). It then parses all subsequent uppercase lines as moves, correctly handling spaces. This is a critical fix to unblock all battle automation.",
-        "timestamp": "2025-09-10T20:36:19.727Z",
-        "action_counter": 204648
-      }
-    ]
-  },
-  "select_menu_option": {
-    "description": "Takes the output of `menu_analyzer` and a target option string (e.g., a Pokémon's name) and calculates the precise sequence of button presses (Up/Down/Left/Right) required to move the cursor from its current position to the target option. This tool ONLY generates directional movements; a separate 'A' press is required to confirm a selection.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "menu_analyzer_output": {
-          "type": "string"
-        },
-        "target_option": {
-          "type": "string"
-        }
-      },
-      "required": [
-        "menu_analyzer_output",
-        "target_option"
-      ]
-    },
-    "python_script": "import json\n\ntry:\n    menu_analyzer_output = json.loads(input_data['menu_analyzer_output'])\n    target_option = input_data['target_option']\n\n    options = menu_analyzer_output.get('options', [])\n    cursor_position = menu_analyzer_output.get('cursor_position')\n    layout = menu_analyzer_output.get('layout', 'single_column')\n\n    if not options or cursor_position is None or target_option not in options:\n        print(json.dumps([]))\n        exit()\n\n    current_idx = options.index(cursor_position)\n    target_idx = options.index(target_option)\n    \n    button_presses = []\n\n    if layout == 'single_column':\n        diff = target_idx - current_idx\n        if diff > 0:\n            button_presses.extend(['Down'] * diff)\n        elif diff < 0:\n            button_presses.extend(['Up'] * abs(diff))\n    \n    elif layout == '2x2_grid':\n        pos_map = {\n            0: (0, 0), 1: (0, 1),\n            2: (1, 0), 3: (1, 1)\n        }\n        current_row, current_col = pos_map.get(current_idx, (0,0))\n        target_row, target_col = pos_map.get(target_idx, (0,0))\n\n        row_diff = target_row - current_row\n        col_diff = target_col - current_col\n\n        if row_diff > 0: button_presses.extend(['Down'] * row_diff)\n        elif row_diff < 0: button_presses.extend(['Up'] * abs(row_diff))\n        \n        if col_diff > 0: button_presses.extend(['Right'] * col_diff)\n        elif col_diff < 0: button_presses.extend(['Left'] * abs(col_diff))\n\n    print(json.dumps(button_presses))\n\nexcept Exception as e:\n    print(json.dumps([]))",
-    "history": [
-      {
-        "commit_message": "feat: Create select_menu_option tool to automate menu navigation. This is a direct response to a critical Overwatch critique highlighting repeated failures in manual menu selection. This tool will take parsed menu data and a target string to calculate the necessary button presses, making actions like switching Pokémon reliable and efficient. This is a foundational step towards robust automation.",
-        "timestamp": "2025-09-05T13:04:30.935Z",
-        "action_counter": 191653
-      },
-      {
-        "commit_message": "feat: Create select_menu_option tool to automate menu navigation. This is a direct response to a critical self-assessment identifying repeated failures in manual menu selection. This tool will take parsed menu data and a target string to calculate the necessary button presses, making actions like switching Pokémon reliable and efficient. This is a foundational step towards robust automation.",
-        "timestamp": "2025-09-05T15:26:15.417Z",
-        "action_counter": 191919
-      },
-      {
-        "commit_message": "feat: Create select_menu_option tool to automate menu navigation. This is a direct response to a critical Overwatch critique identifying deferred tool maintenance. This tool will take parsed menu data and a target string to calculate the necessary button presses, making actions like switching Pokémon or using HMs reliable and efficient. This is a foundational step towards robust automation.",
-        "timestamp": "2025-09-05T16:41:36.614Z",
-        "action_counter": 192054
-      },
-      {
-        "commit_message": "fix: Add JSON parsing for menu_analyzer_output. The tool was failing because it received a JSON string but was attempting to treat it as a dictionary. This commit adds the necessary `json.loads()` call to correctly parse the input, which is a critical fix to enable automated menu navigation.",
-        "timestamp": "2025-09-05T16:43:47.725Z",
-        "action_counter": 192058
-      },
-      {
-        "commit_message": "feat: Create select_menu_option tool to automate menu navigation. This is a direct response to a critical Overwatch critique highlighting my failure to implement documented tool ideas. This tool will take parsed menu data and a target string to calculate the necessary button presses, making actions like switching Pokémon reliable and efficient. This is a foundational step towards robust automation.",
-        "timestamp": "2025-09-05T17:08:33.939Z",
-        "action_counter": 192101
-      },
-      {
-        "commit_message": "fix: Add JSON parsing for menu_analyzer_output. The tool was failing because it received a JSON string but was attempting to treat it as a dictionary. This commit adds the necessary `json.loads()` call to correctly parse the input, which is a critical fix to enable automated menu navigation.",
-        "timestamp": "2025-09-06T04:55:31.148Z",
-        "action_counter": 193297
-      },
-      {
-        "commit_message": "feat: Add support for 2x2 grid layouts. The tool previously only handled single-column menus, causing it to fail on any other layout. This commit adds logic to calculate horizontal and vertical movements for grid-based menus, making the tool more versatile and robust for general menu automation.",
-        "timestamp": "2025-09-07T01:03:38.390Z",
-        "action_counter": 195485
-      },
-      {
-        "commit_message": "feat: Add `confirm_selection` argument. This commit adds a boolean flag to automatically append an 'A' button press to the calculated movement sequence. This addresses a critical flaw where the tool would move the cursor but not actually select the option, making menu automation unreliable. This is a direct response to a gameplay failure and an Overwatch critique.",
-        "timestamp": "2025-09-08T09:45:57.565Z",
-        "action_counter": 199361
-      },
-      {
-        "commit_message": "refactor: Remove automatic 'A' press and `confirm_selection` flag. The system has repeatedly shown issues with mixed directional and action button sequences, leading to tool failure. This commit refactors the tool to only generate directional movements, forcing a more reliable two-step process (move, then confirm) for menu navigation. This is a direct response to a critical tool failure and an Overwatch critique.",
-        "timestamp": "2025-09-08T11:58:46.787Z",
-        "action_counter": 199602
-      }
-    ]
-  },
   "automated_room_explorer": {
     "description": "A tool that automates exploring a room. Generates a DFS path to visit all connected traversable tiles. Can resume an interrupted path if the original path is provided.",
     "input_schema": {
@@ -932,6 +754,184 @@
         "commit_message": "refactor: Complete overhaul of battle automation logic. This commit replaces the entire script with a more robust version that correctly parses the active Pokémon's nickname, uses party JSON data to verify move PP, and intelligently selects the first available damaging move. This fixes multiple critical failures, including incorrect move selection, nickname vs. species matching errors, and unhandled KeyErrors. This is a direct response to repeated tool failures and a critical Overwatch critique.",
         "timestamp": "2025-09-10T22:53:24.269Z",
         "action_counter": 204801
+      }
+    ]
+  },
+  "menu_analyzer": {
+    "description": "Parses screen text from a menu to identify the available options, their layout (e.g., single column, 2x2 grid), and the current cursor position. This is the foundation for creating reliable menu navigation automation.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "screen_text": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "screen_text"
+      ]
+    },
+    "python_script": "import json\nimport re\n\nscreen_text = input_data['screen_text']\nlines = [line.strip() for line in screen_text.strip().split('\\n') if line.strip()]\n\noptions = []\ncursor_position = None\nlayout = 'single_column'\ncursor_char = '→'\n\nsubmenu_keywords = ['STATS', 'SWITCH', 'CANCEL']\nis_submenu = all(keyword in screen_text for keyword in submenu_keywords)\npc_withdraw_submenu_keywords = ['WITHDRAW', 'STATS', 'CANCEL']\nis_pc_withdraw_submenu = all(keyword in screen_text for keyword in pc_withdraw_submenu_keywords)\nis_pc_menu = \"BOX No.\" in screen_text\nis_move_selection = \"TYPE/\" in screen_text\n\nif is_submenu:\n    layout = 'single_column'\n    options = submenu_keywords\n    found_cursor = False\n    for line in lines:\n        if cursor_char in line:\n            for opt in options:\n                if opt in line:\n                    cursor_position = opt\n                    found_cursor = True\n                    break\n        if found_cursor:\n            break\n    if not found_cursor and options:\n        cursor_position = options[0]\nelif is_pc_withdraw_submenu:\n    layout = 'single_column'\n    options = pc_withdraw_submenu_keywords\n    found_cursor = False\n    for line in lines:\n        if cursor_char in line:\n            for opt in options:\n                if opt in line:\n                    cursor_position = opt\n                    found_cursor = True\n                    break\n        if found_cursor:\n            break\n    if not found_cursor and options:\n        cursor_position = options[0]\nelif is_pc_menu:\n    layout = 'single_column'\n    pokemon_names = []\n    cursor_name = None\n    i = 0\n    while i < len(lines):\n        line = lines[i]\n        if not line.startswith(\"LV\") and \"BOX No.\" not in line:\n            words = line.replace(cursor_char, '').strip().split()\n            if words:\n                name = words[-1]\n                if len(name) > 2 and name.isupper():\n                    pokemon_names.append(name)\n                    if cursor_char in line:\n                        cursor_name = name\n        i += 1\n    options = pokemon_names\n    cursor_position = cursor_name\nelif is_move_selection:\n    layout = 'single_column'\n    move_options = []\n    cursor_move = None\n    start_parsing = False\n    for line in lines:\n        if re.search(r'\\d+/\\d+', line):\n            start_parsing = True\n            continue\n        if start_parsing:\n            clean_line = line.replace(cursor_char, '').strip()\n            if clean_line and re.match(r'^[A-Z\\s-]+$', clean_line):\n                move_options.append(clean_line)\n                if cursor_char in line:\n                    cursor_move = clean_line\n    options = move_options\n    cursor_position = cursor_move\nelse:\n    is_party_menu = \"Choose a POKéMON\" in screen_text or \"Bring out which\" in screen_text\n    is_multi_column = any(re.search(r'\\S\\s{2,}\\S', line) for line in lines)\n    if is_party_menu:\n        pokemon_names = []\n        cursor_index = -1\n        text_lines = screen_text.strip().split('\\n')\n        i = 0\n        while i < len(text_lines):\n            line1 = text_lines[i]\n            match = re.match(r\"^\\s*([A-Z']{2,})\\s+LV\", line1)\n            if match:\n                pokemon_name = match.group(1).strip()\n                pokemon_names.append(pokemon_name)\n                if i + 1 < len(text_lines):\n                    line2 = text_lines[i+1]\n                    if line2.strip().startswith('→'):\n                        cursor_index = len(pokemon_names) - 1\n                i += 2\n            else:\n                i += 1\n        options = pokemon_names\n        if cursor_index != -1 and options:\n            cursor_position = options[cursor_index]\n    elif is_multi_column:\n        layout = '2x2_grid'\n        flat_options = []\n        cursor_opt = None\n        for line in lines:\n            parts = re.split(r'\\s{2,}', line)\n            for part in parts:\n                if part:\n                    clean_part = part.replace(cursor_char, '')\n                    flat_options.append(clean_part)\n                    if cursor_char in part:\n                        cursor_opt = clean_part\n        options = flat_options\n        cursor_position = cursor_opt\n    else:\n        for line in lines:\n            option = line.replace(cursor_char, '')\n            options.append(option)\n            if cursor_char in line:\n                cursor_position = option\n\nresult = {\n    'options': options,\n    'cursor_position': cursor_position,\n    'layout': layout\n}\nprint(json.dumps(result))",
+    "history": [
+      {
+        "commit_message": "feat: Create initial version of menu_analyzer. This tool is a direct response to repeated, critical failures in both manual and automated menu navigation. It provides a foundational capability to parse screen text to determine available menu options and the current cursor position. This is the first and most critical step towards building a reliable, environment-aware menu automation system, addressing a major strategic weakness identified by both self-assessment and Overwatch.",
+        "timestamp": "2025-09-04T04:29:26.124Z",
+        "action_counter": 188572
+      },
+      {
+        "commit_message": "fix: Improve party menu parsing. The previous regex-based approach failed to correctly identify the selected Pokémon in the multi-line party menu. This commit adds specific logic to detect the party menu screen and correctly associates the cursor on one line with the Pokémon name on the preceding line. This is a critical fix to enable the new `select_menu_option` tool to function correctly.",
+        "timestamp": "2025-09-05T13:06:17.314Z",
+        "action_counter": 191656
+      },
+      {
+        "commit_message": "fix: Improve layout detection for single-column menus. The previous logic was too broad and incorrectly classified the single-column PC menu as a 2x2 grid, causing downstream tool failures. This commit adds a more specific check for single-column layouts to prevent this misclassification.",
+        "timestamp": "2025-09-07T01:03:14.676Z",
+        "action_counter": 195484
+      },
+      {
+        "commit_message": "fix: Improve party menu detection. The tool failed to correctly identify the 'Bring out which POKéMON?' screen as a party menu. This commit generalizes the check to 'POKéMON?' to handle both this case and the standard 'Choose a POKéMON.' screen, preventing incorrect parsing and layout detection.",
+        "timestamp": "2025-09-07T13:09:18.075Z",
+        "action_counter": 196890
+      },
+      {
+        "commit_message": "fix: Overhaul party menu parsing logic. The previous regex-based approach failed to correctly identify Pokémon names and cursor position in the multi-line party menu. This commit introduces a new stateful parser that identifies a Pokémon by a 'NAME LV' line and checks the subsequent line for the cursor. This is a critical fix to address repeated tool failures and enable reliable automated party management.",
+        "timestamp": "2025-09-07T19:52:15.733Z",
+        "action_counter": 197606
+      },
+      {
+        "commit_message": "fix(menu_analyzer): Use double quotes in regex to prevent syntax error. The previous regex `r'...'` was failing due to a conflict with the single quote character used for matching Pokémon names. This commit changes the regex to use double quotes `r\"...\"`, which resolves the syntax error and restores the tool's functionality for parsing party menus. This is a critical fix to address a persistent tool failure.",
+        "timestamp": "2025-09-07T19:54:26.496Z",
+        "action_counter": 197611
+      },
+      {
+        "commit_message": "fix: Improve party menu detection. The tool failed to correctly identify the 'Bring out which POKéMON?' screen as a party menu. This commit generalizes the check to 'POKéMON?' to handle both this case and the standard 'Choose a POKéMON.' screen, preventing incorrect parsing and layout detection.",
+        "timestamp": "2025-09-07T20:07:04.006Z",
+        "action_counter": 197642
+      },
+      {
+        "commit_message": "fix: Generalize party menu detection. The previous logic was too specific and failed on the 'Choose a POKéMON.' screen. This commit changes the check to the more general 'POKéMON' substring, which correctly identifies all party menu variations. This is a critical fix to address repeated tool failures.",
+        "timestamp": "2025-09-07T20:15:39.170Z",
+        "action_counter": 197661
+      },
+      {
+        "commit_message": "fix: Improve menu type detection. The previous logic used a check that was too general ('POKéMON' in screen_text), causing the main menu to be misidentified as a party menu. This commit introduces a more specific check for party menus and improves the logic for differentiating between single and multi-column layouts. This is a critical fix to prevent repeated tool failures.",
+        "timestamp": "2025-09-08T06:48:28.676Z",
+        "action_counter": 199056
+      },
+      {
+        "commit_message": "fix: Add specific handler for glitched party sub-menu. The previous logic failed to parse the jumbled text and rendering artifacts on the STATS/SWITCH/CANCEL screen. This commit adds a special case to identify this menu by its keywords and correctly assumes the cursor is on the default first option ('STATS') when the text-based cursor position is unreliable. This is a critical fix to unblock party management automation.",
+        "timestamp": "2025-09-08T06:53:05.525Z",
+        "action_counter": 199067
+      },
+      {
+        "commit_message": "fix: Overhaul party menu parsing. The previous logic failed to correctly parse the two-line structure of party menu entries. This commit introduces a new while loop that processes the menu in two-line chunks, correctly identifying the Pokémon name and then checking the subsequent line for the cursor. This is a critical fix to address a repeated tool failure and enable reliable party management automation.",
+        "timestamp": "2025-09-08T11:51:03.394Z",
+        "action_counter": 199586
+      },
+      {
+        "commit_message": "fix: Prevent party menu from being misidentified as multi-column. The previous logic allowed the multi-column check to run even if the menu was already identified as a party menu, causing incorrect parsing. This commit restructures the logic into an if/elif/else block to ensure the checks are mutually exclusive. This is a critical fix to address a repeated tool failure.",
+        "timestamp": "2025-09-08T16:35:45.824Z",
+        "action_counter": 199987
+      },
+      {
+        "commit_message": "fix: Improve party menu detection logic. The previous check for 'Bring out which POKéMON' failed due to a newline character in the screen text. This commit changes the check to 'Bring out which', making it robust to newlines and preventing the tool from incorrectly classifying the party menu as a multi-column layout. This is a critical fix to address repeated tool failures.",
+        "timestamp": "2025-09-08T16:37:22.643Z",
+        "action_counter": 199990
+      },
+      {
+        "commit_message": "fix: Add specific handler for PC withdrawal menu. The previous logic incorrectly classified the PC Pokémon list as a 2x2 grid due to unusual spacing. This commit adds a dedicated check for PC menus (by looking for \"BOX No.\") and implements a more robust parsing logic to correctly extract Pokémon names from the single-column list. This is a critical fix to unblock PC automation.",
+        "timestamp": "2025-09-09T22:36:29.939Z",
+        "action_counter": 203194
+      },
+      {
+        "commit_message": "fix: Add specific handler for PC withdrawal sub-menu. The previous logic misidentified this menu as a 2x2 grid and failed to parse the options correctly. This commit adds a dedicated check for the 'WITHDRAW/STATS/CANCEL' keywords to ensure accurate parsing. This is a critical fix to unblock PC automation.",
+        "timestamp": "2025-09-09T22:52:27.498Z",
+        "action_counter": 203228
+      },
+      {
+        "commit_message": "fix: Add specific handler for move selection menu. The previous logic incorrectly classified the move list as a 2x2 grid. This commit adds a dedicated check for the 'TYPE/' keyword and implements a more robust parsing logic to correctly extract moves from the single-column list. This is a critical fix to unblock battle automation.",
+        "timestamp": "2025-09-10T13:02:43.921Z",
+        "action_counter": 204292
+      },
+      {
+        "commit_message": "fix: Add specific handler for move selection menu. The previous logic incorrectly classified the move list as a 2x2 grid. This commit adds a dedicated check for the 'TYPE/' keyword and implements a more robust parsing logic to correctly extract moves from the single-column list. This is a critical fix to unblock battle automation.",
+        "timestamp": "2025-09-10T13:11:52.461Z",
+        "action_counter": 204300
+      },
+      {
+        "commit_message": "fix: Improve move selection parsing. The previous logic incorrectly included the Pokémon's name in the list of moves. This commit adds a more specific regex to only identify valid move names (uppercase words, potentially with hyphens), ensuring that only actual moves are parsed. This is a critical fix to make the tool reliable for battle automation.",
+        "timestamp": "2025-09-10T20:34:01.629Z",
+        "action_counter": 204644
+      },
+      {
+        "commit_message": "fix: Overhaul move selection parsing logic. The previous regex-based approach was fundamentally flawed, incorrectly parsing Pokémon names as moves and failing to handle move names containing spaces. This commit replaces the logic with a new stateful parser that correctly identifies the start of the move list by looking for the PP display (e.g., '0/25'). It then parses all subsequent uppercase lines as moves, correctly handling spaces. This is a critical fix to unblock all battle automation.",
+        "timestamp": "2025-09-10T20:36:19.727Z",
+        "action_counter": 204648
+      }
+    ]
+  },
+  "select_menu_option": {
+    "description": "Takes the output of `menu_analyzer` and a target option string (e.g., a Pokémon's name) and calculates the precise sequence of button presses (Up/Down/Left/Right) required to move the cursor from its current position to the target option. This tool ONLY generates directional movements; a separate 'A' press is required to confirm a selection.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "menu_analyzer_output": {
+          "type": "string"
+        },
+        "target_option": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "menu_analyzer_output",
+        "target_option"
+      ]
+    },
+    "python_script": "import json\n\ntry:\n    menu_analyzer_output = json.loads(input_data['menu_analyzer_output'])\n    target_option = input_data['target_option']\n\n    options = menu_analyzer_output.get('options', [])\n    cursor_position = menu_analyzer_output.get('cursor_position')\n    layout = menu_analyzer_output.get('layout', 'single_column')\n\n    if not options or cursor_position is None or target_option not in options:\n        print(json.dumps([]))\n        exit()\n\n    current_idx = options.index(cursor_position)\n    target_idx = options.index(target_option)\n    \n    button_presses = []\n\n    if layout == 'single_column':\n        diff = target_idx - current_idx\n        if diff > 0:\n            button_presses.extend(['Down'] * diff)\n        elif diff < 0:\n            button_presses.extend(['Up'] * abs(diff))\n    \n    elif layout == '2x2_grid':\n        pos_map = {\n            0: (0, 0), 1: (0, 1),\n            2: (1, 0), 3: (1, 1)\n        }\n        current_row, current_col = pos_map.get(current_idx, (0,0))\n        target_row, target_col = pos_map.get(target_idx, (0,0))\n\n        row_diff = target_row - current_row\n        col_diff = target_col - current_col\n\n        if row_diff > 0: button_presses.extend(['Down'] * row_diff)\n        elif row_diff < 0: button_presses.extend(['Up'] * abs(row_diff))\n        \n        if col_diff > 0: button_presses.extend(['Right'] * col_diff)\n        elif col_diff < 0: button_presses.extend(['Left'] * abs(col_diff))\n\n    print(json.dumps(button_presses))\n\nexcept Exception as e:\n    print(json.dumps([]))",
+    "history": [
+      {
+        "commit_message": "feat: Create select_menu_option tool to automate menu navigation. This is a direct response to a critical Overwatch critique highlighting repeated failures in manual menu selection. This tool will take parsed menu data and a target string to calculate the necessary button presses, making actions like switching Pokémon reliable and efficient. This is a foundational step towards robust automation.",
+        "timestamp": "2025-09-05T13:04:30.935Z",
+        "action_counter": 191653
+      },
+      {
+        "commit_message": "feat: Create select_menu_option tool to automate menu navigation. This is a direct response to a critical self-assessment identifying repeated failures in manual menu selection. This tool will take parsed menu data and a target string to calculate the necessary button presses, making actions like switching Pokémon reliable and efficient. This is a foundational step towards robust automation.",
+        "timestamp": "2025-09-05T15:26:15.417Z",
+        "action_counter": 191919
+      },
+      {
+        "commit_message": "feat: Create select_menu_option tool to automate menu navigation. This is a direct response to a critical Overwatch critique identifying deferred tool maintenance. This tool will take parsed menu data and a target string to calculate the necessary button presses, making actions like switching Pokémon or using HMs reliable and efficient. This is a foundational step towards robust automation.",
+        "timestamp": "2025-09-05T16:41:36.614Z",
+        "action_counter": 192054
+      },
+      {
+        "commit_message": "fix: Add JSON parsing for menu_analyzer_output. The tool was failing because it received a JSON string but was attempting to treat it as a dictionary. This commit adds the necessary `json.loads()` call to correctly parse the input, which is a critical fix to enable automated menu navigation.",
+        "timestamp": "2025-09-05T16:43:47.725Z",
+        "action_counter": 192058
+      },
+      {
+        "commit_message": "feat: Create select_menu_option tool to automate menu navigation. This is a direct response to a critical Overwatch critique highlighting my failure to implement documented tool ideas. This tool will take parsed menu data and a target string to calculate the necessary button presses, making actions like switching Pokémon reliable and efficient. This is a foundational step towards robust automation.",
+        "timestamp": "2025-09-05T17:08:33.939Z",
+        "action_counter": 192101
+      },
+      {
+        "commit_message": "fix: Add JSON parsing for menu_analyzer_output. The tool was failing because it received a JSON string but was attempting to treat it as a dictionary. This commit adds the necessary `json.loads()` call to correctly parse the input, which is a critical fix to enable automated menu navigation.",
+        "timestamp": "2025-09-06T04:55:31.148Z",
+        "action_counter": 193297
+      },
+      {
+        "commit_message": "feat: Add support for 2x2 grid layouts. The tool previously only handled single-column menus, causing it to fail on any other layout. This commit adds logic to calculate horizontal and vertical movements for grid-based menus, making the tool more versatile and robust for general menu automation.",
+        "timestamp": "2025-09-07T01:03:38.390Z",
+        "action_counter": 195485
+      },
+      {
+        "commit_message": "feat: Add `confirm_selection` argument. This commit adds a boolean flag to automatically append an 'A' button press to the calculated movement sequence. This addresses a critical flaw where the tool would move the cursor but not actually select the option, making menu automation unreliable. This is a direct response to a gameplay failure and an Overwatch critique.",
+        "timestamp": "2025-09-08T09:45:57.565Z",
+        "action_counter": 199361
+      },
+      {
+        "commit_message": "refactor: Remove automatic 'A' press and `confirm_selection` flag. The system has repeatedly shown issues with mixed directional and action button sequences, leading to tool failure. This commit refactors the tool to only generate directional movements, forcing a more reliable two-step process (move, then confirm) for menu navigation. This is a direct response to a critical tool failure and an Overwatch critique.",
+        "timestamp": "2025-09-08T11:58:46.787Z",
+        "action_counter": 199602
       }
     ]
   }

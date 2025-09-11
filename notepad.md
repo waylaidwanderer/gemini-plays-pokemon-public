@@ -60,5 +60,7 @@
 - **New Assumption (Updated):** The fossil is on B2F.
   - **Test Result:** The western partition of Mt. Moon B1F has been fully explored and contains no fossil.
   - **Test Result:** The partition of B2F accessible via the ladder at (14, 28) on B1F has been fully explored and contains no fossil.
-  - **New Assumption:** The fossil is in the Super Nerd's isolated area on B2F.
-  - **Test Plan:** Return to B1F, then find a path to the ladder at (24, 4) which leads to the Super Nerd's area.
+  - **Hypothesis (Disproven):** The ladder at (18, 12) on B1F leads to the Super Nerd's area.
+  - **Test Result:** The ladder leads to the eastern partition of B2F, which is a dead end containing the fossil-blocking Rocket Grunt.
+- **New Assumption:** The fossil is in the eastern partition of B2F.
+  - **Test Plan:** Explore this area and approach the Rocket Grunt.
