@@ -44,8 +44,8 @@
 - Poison is not very effective against Poison (Observed: GOLBAT's SLUDGE vs ZUBAT).
 
 # V. Battle Strategy & Tool Usage
-- **Battle Automation Flow:** Use `battle_automator` for routine wild battles to select the best damaging move. Note: This tool only outputs directional presses; the final 'A' confirmation is manual. For trainer battles, use `comprehensive_battle_agent` for strategic advice.
-- **Navigation:** Use `automated_path_navigator` for standard point-to-point travel. For complex exploration or puzzles, use `navigation_strategist_agent`.
+- **Battle Automation Flow:** Use the consolidated `battle_automator` for routine wild battles and main menu navigation. For complex trainer battles, consult `comprehensive_battle_agent` for strategic advice. The `select_battle_option` tool is deprecated.
+- **Navigation:** Use `automated_path_navigator` for standard point-to-point travel. For complex multi-floor navigation, test `multi_floor_navigation_agent` before defaulting to `navigation_strategist_agent`.
 
 # III. Mt. Moon Puzzle
 - **Objective:** Find a fossil item to give to the Rocket Grunt at B2F (30, 12).
