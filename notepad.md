@@ -21,8 +21,8 @@
     - `water`: Crossable using HM Surf.
 
 # III. Current Quest: The Mt. Moon Fossil
-- **Objective:** Find a way to get past the Rocket Grunt at Mt. Moon B2F (30, 12).
-- **Current Plan:** Test the `puzzle_solver_agent`'s top hypothesis: a Pokémon nicknamed 'FOSSIL' will satisfy the Grunt.
+- **Objective:** Find a fossil item to give to the Rocket Grunt at Mt. Moon B2F (30, 12).
+- **Current Plan:** Retrieve the ITEMFINDER from the PC and return to Mt. Moon to search for a hidden fossil.
 - **Failed Hypotheses Log:**
     1.  Giving the *revived* fossil Pokémon (HELIX) is sufficient. (Result: Failure)
     2.  The Super Nerd at B2F (13, 9) gives a fossil after being defeated. (Result: Failure)
@@ -31,6 +31,7 @@
     5.  The Rocket Grunt will accept a fainted Omanyte. (Result: Failure, could not get Omanyte to faint.)
     6.  Using a MOON STONE from the inventory has an effect. (Result: Failure, opens Pokémon menu.)
     7.  The Cinnabar Lab can 'de-revive' a Pokémon back into a fossil. (Result: Failure, scientist only revives fossils.)
+    8.  A Pokémon nicknamed 'FOSSIL' will satisfy the Grunt. (Result: Failure, dialogue unchanged.)
 
 # IV. Pokémon & Battle Data
 ## A. Type Effectiveness Chart (Verified)
@@ -52,4 +53,5 @@
 - **PP Management for Stalling:** When planning to stall in a battle (e.g., to faint a Pokémon intentionally), always check the PP of non-damaging moves beforehand. Running out of PP can force an attack and ruin the strategy.
 - **Battle Menu Anomaly (Inconclusive):** A test suggested the move selection menu resets if confirmation is delayed, but a second identical test contradicted this. The exact mechanic is unknown and requires further investigation. All battle automation must now combine directional inputs and the 'A' press into a single turn's action.
 - **Master Navigator Agent Lesson:** For complex, multi-floor navigation puzzles like Mt. Moon, I should use the `master_navigator_agent` instead of relying on manual pathfinding and the simpler `automated_path_navigator`. This will be more efficient and less prone to error.
-    8.  A Pokémon nicknamed 'FOSSIL' will satisfy the Grunt. (Result: Failure, dialogue unchanged.)
+- **Future Agent Idea:** Create an `itemfinder_assistant_agent` to suggest optimal search patterns for hidden items on a map.
+- **Future Tool Improvement:** Upgrade `battle_automator` to incorporate type effectiveness logic for move selection, making it a more intelligent combat tool.
