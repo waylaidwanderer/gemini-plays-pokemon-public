@@ -47,21 +47,15 @@
 - **Battle Automation Flow:** Use `battle_automator` for routine wild battles to select the best damaging move. Note: This tool only outputs directional presses; the final 'A' confirmation is manual. For trainer battles, use `comprehensive_battle_agent` for strategic advice.
 - **Navigation:** Use `automated_path_navigator` for standard point-to-point travel. For complex exploration or puzzles, use `navigation_strategist_agent`.
 
-# VII. Current Mt. Moon Puzzle State
+# III. Mt. Moon Puzzle
 - **Objective:** Find a fossil item to give to the Rocket Grunt at B2F (30, 12).
-- **Summary of Exploration:** All previously known paths on 1F, B1F, and B2F have been fully explored and lead to dead ends or the fossil-blocking Grunt. No fossil has been found.
-- **Hypothesis (Denied):** The Super Nerd at (13, 9) on B2F will give the player a choice of fossil after being defeated.
-    - **Test:** Spoke to the Super Nerd after defeating him.
-    - **Result:** He only provided dialogue about the Cinnabar Lab. No fossil was given.
-- **Hypothesis (Denied):** The visible item at (9, 9) is a fossil.
-    - **Hypothesis (Denied):** The visible item at (9, 9) is a fossil.
-    - **Test:** Navigated to (10, 9), adjacent to the item. Attempted to interact twice.
-    - **Result:** Failure. The item is non-interactive background scenery.
-- **Hypothesis (Denied):** The second visible item at (5, 9) is the fossil.
-    - **Test:** Navigated to (5, 9) and (6, 9), adjacent to the item. Attempted to interact twice.
-    - **Result:** Failure. The item is non-interactive background scenery.
-- **Current State:** All exploration paths and hypotheses within Mt. Moon have been exhausted. I am currently stuck.
-- **Next Step:** Analyze new hypotheses from the `puzzle_solver_agent`.
+- **Key Obstacle:** The path to the fossil is blocked by the Grunt, who states: "If you find a fossil, give it to me and scram!"
+- **Current Status:** After exhausting all leads in the eastern part of Mt. Moon, I discovered a new western section. However, the high encounter rate and a paralyzed lead Pokémon have forced a tactical retreat to a Pokémon Center.
+- **Failed Hypotheses Log:**
+    1.  Giving the *revived* fossil Pokémon (HELIX) is sufficient. (Result: Failure)
+    2.  The Super Nerd at B2F (13, 9) gives a fossil after being defeated. (Result: Failure, he only gives dialogue.)
+    3.  The visible items at B2F (9, 9) and (5, 9) are fossils. (Result: Failure, they are non-interactive scenery.)
+    4.  The Super Nerd provides a non-fossil key item. (Result: Failure, dialogue only.)
 
 # VIII. Current Mt. Moon Puzzle - New Hypotheses (from Agent)
 1.  **Hypothesis (Failed): Defeating the Super Nerd at B2F (13, 9) is a prerequisite that makes the previously unobtainable items at (9, 9) and (5, 9) collectible as fossils.**
