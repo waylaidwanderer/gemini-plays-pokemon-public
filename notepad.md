@@ -59,3 +59,10 @@
 - **System & Tool Ideas:**
     - **Battle Staller Agent:** An agent that can take a battle objective (e.g., 'survive X turns', 'get Pokémon Y to faint') and output an optimal sequence of non-damaging or strategic moves.
 - **PP Management for Stalling:** When planning to stall in a battle (e.g., to faint a Pokémon intentionally), always check the PP of non-damaging moves beforehand. Running out of PP can force an attack and ruin the strategy.
+
+# VII. System & Tool Development Ideas
+- **Battle Log Anomaly Agent:** An agent to analyze discrepancies between intended actions and battle outcomes to hypothesize hidden mechanics.
+
+# VIII. Active Experiments
+- **Battle Menu Selection Hypothesis:** The move selection in battle may reset to the default (top) option if the confirmation 'A' press occurs in a different turn than the directional inputs.
+  - **Test Plan:** In the next wild battle, use `battle_automator` to select a non-default move (e.g., SLUDGE). In the subsequent turn, manually press 'A'. Observe whether the selected move or the default move (e.g., FLY) is executed.
