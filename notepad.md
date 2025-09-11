@@ -8,20 +8,18 @@
 7.  **Exhaust All Options (Mt. Moon Hiker Lesson):** A Hiker at Mt. Moon 1F (6, 7) blocked a path and was unmovable. Instead of getting stuck, I explored an alternative path via a ladder at (26, 16), which proved to be the correct way forward. This reinforces the need to explore all reachable alternatives when a path seems blocked.
 
 # II. Game Mechanics & World Data
-## A. Tile Mechanics
-- **ground, grass:** Standard traversable tiles.
-- **impassable:** Walls, counters, etc. Cannot be entered.
-- **elevated_ground:** Traversable, but can only be accessed from 'steps' tiles.
-- **steps:** The only tile type that allows movement between 'ground' and 'elevated_ground'.
-- **ledge:** One-way traversal. Can be jumped down, but not climbed up.
-- **warp tiles (ladders, holes, etc.):** Cause instant map transition. Often need to step off and back on to reuse.
-- **ladder_up, ladder_down:** Specific types of warp tiles leading between floors.
-- **cuttable:** Tree that can be cut with HM Cut. Becomes 'ground' after cutting, but respawns on map change or after battle.
-- **water:** Crossable using HM Surf.
-
-## B. Gameplay Mechanics
-- **Trap Battles:** Certain wild encounters appear to be 'trap' battles where the 'RUN' option is disabled (Observed: Wigglytuff, KADABRA; Suspected: Ditto).
-- **Fossil Regeneration:** The Cinnabar Lab has a machine to regenerate fossils.
+- **Tile Mechanics:**
+    - `ground`, `grass`: Standard traversable tiles.
+    - `impassable`: Walls, counters, etc. Cannot be entered.
+    - `elevated_ground`: Traversable, but can only be accessed from 'steps' tiles.
+    - `steps`: The only tile type that allows movement between 'ground' and 'elevated_ground'.
+    - `ledge`: One-way traversal. Can be jumped down, but not climbed up.
+    - `warp tiles` (ladders, holes, etc.): Cause instant map transition. Often need to step off and back on to reuse.
+    - `cuttable`: Tree that can be cut with HM Cut. Becomes `ground` after cutting, but respawns on map change or after battle.
+    - `water`: Crossable using HM Surf.
+- **Gameplay Mechanics:**
+    - **Trap Battles:** Certain wild encounters appear to be 'trap' battles where the 'RUN' option is disabled (Observed: Wigglytuff, KADABRA; Suspected: Ditto).
+    - **Fossil Regeneration:** The Cinnabar Lab has a machine to regenerate fossils.
 
 # III. Key Puzzles & Events
 - **Mt. Moon Fossil Grunt:** A Rocket Grunt at (30,12) on B2F blocks a path and requires a fossil to pass.
