@@ -2,7 +2,7 @@
 1.  **Immediate Maintenance:** All data management (notepad, markers) and tool/agent refinement is the HIGHEST priority and MUST be performed in the same turn a need is identified.
 2.  **Proactive Automation & Refinement:** Before any complex or repetitive task, I must first consider automating it with a tool or agent. If one doesn't exist, creating it is the new priority. If an agent or tool is suboptimal, I must prioritize refining it immediately.
 3.  **Trust, But Verify:** I must trust the outputs of my agents and system data. However, if a tool's output contradicts the Game State Information, my assumption must be that the tool is wrong, and I must debug it.
-4.  **Abandon Failed Hypotheses:** If a strategy fails repeatedly, I must recognize the pattern, document it, and pivot to a new approach.
+4.  **Abandon Failed Hypotheses:** If a strategy fails repeatedly, I must recognize the pattern, document it, and pivot to a new approach. My repeated attempts to make HELIX faint is a key example of failing to do this quickly enough.
 5.  **CRITICAL - Data Verification & State Tracking:** My most severe failures stem from hallucinating game state variables (location, turn count, etc.). I MUST verify my current map ID, coordinates, and all other data from the Game State Information *before* every single action and trust it over my memory.
 6.  **Confirmation Bias Warning (Mt. Moon Lesson):** I incorrectly assumed I was trapped in a map partition in Mt. Moon and that my pathfinding tool was faulty. I must trust the game state data and my tools over my own intuition, and actively try to disprove my assumptions. A "no path found" result is often a correct assessment of the map.
 7.  **Exhaust All Options (Mt. Moon Hiker Lesson):** A Hiker at Mt. Moon 1F (6, 7) blocked a path and was unmovable. Instead of getting stuck, I explored an alternative path via a ladder at (26, 16), which proved to be the correct way forward. This reinforces the need to explore all reachable alternatives when a path seems blocked.
@@ -22,9 +22,9 @@
     - `water`: Crossable using HM Surf.
 
 # III. Current Quest: The Mt. Moon Fossil
-- **Objective:** Find a fossil item to give to the Rocket Grunt at Mt. Moon B2F (30, 12).
+- **Objective:** Find a way to get past the Rocket Grunt at Mt. Moon B2F (30, 12).
 - **Key Obstacle:** The path to the fossil is blocked by the Grunt, who states: "If you find a fossil, give it to me and scram!"
-- **Current Status:** Testing new hypotheses from the `puzzle_solver_agent`. The top priority is testing if a MOON STONE will be accepted by the grunt.
+- **Current Status:** Testing the hypothesis that the Grunt wants a MOON STONE. This was the top suggestion from the `puzzle_solver_agent` after previous hypotheses failed.
 - **Failed Hypotheses Log:**
     1.  Giving the *revived* fossil Pokémon (HELIX) is sufficient. (Result: Failure)
     2.  The Super Nerd at B2F (13, 9) gives a fossil after being defeated. (Result: Failure, he only gives dialogue.)
@@ -50,7 +50,7 @@
 - Poison is not very effective against Poison (Observed: GOLBAT's SLUDGE vs ZUBAT).
 
 # V. Battle Strategy & Tool Usage
-- **Battle Automation Flow:** Use the consolidated `battle_automator` for all in-battle menu navigation (main menu and move selection). For complex trainer battles, consult `comprehensive_battle_agent` for high-level strategic advice.
+- **Battle Automation Flow:** Use the consolidated `battle_automator` for all in-battle menu navigation. For complex trainer battles, consult `comprehensive_battle_agent` for high-level strategic advice.
 - **Navigation:** Use `automated_path_navigator` for standard point-to-point travel. For multi-floor buildings with known warp connections, use `multi_floor_navigation_agent`. For high-level exploration planning in complex, unknown areas, use `navigation_strategist_agent`.
 
 # VI. System & Tool Notes
