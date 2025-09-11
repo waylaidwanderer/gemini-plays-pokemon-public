@@ -830,29 +830,29 @@
       }
     ]
   },
-  "select_fly_destination": {
-    "description": "Navigates the Fly menu. Takes a target city name and the current screen text, then calculates the sequence of 'Down' presses to select it. Assumes the menu is already open.",
+  "text_entry_automator": {
+    "description": "Automates text entry on the in-game keyboard. It parses the keyboard layout, finds the cursor, and for each character in the target string, calculates the shortest path of directional presses followed by an 'A' press. Outputs a single list of button presses for the entire string.",
     "input_schema": {
       "type": "object",
       "properties": {
-        "target_city": {
+        "screen_text": {
           "type": "string"
         },
-        "screen_text": {
+        "target_string": {
           "type": "string"
         }
       },
       "required": [
-        "target_city",
-        "screen_text"
+        "screen_text",
+        "target_string"
       ]
     },
-    "python_script": "import json\nimport re\n\ntarget_city = input_data['target_city'].upper()\nscreen_text = input_data['screen_text']\n\nfly_destinations = [\n    'PALLET TOWN',\n    'VIRIDIAN CITY',\n    'PEWTER CITY',\n    'CERULEAN CITY',\n    'VERMILION CITY',\n    'LAVENDER TOWN',\n    'CELADON CITY',\n    'SAFFRON CITY',\n    'FUCHSIA CITY',\n    'CINNABAR ISLAND',\n    'INDIGO PLATEAU'\n]\n\nmatch = re.search(r'To (\\w+(\\s\\w+)*)', screen_text)\nif not match:\n    print(json.dumps([]))\n    exit()\n\ncurrent_city = match.group(1).strip().upper()\n\ntry:\n    current_index = fly_destinations.index(current_city)\n    target_index = fly_destinations.index(target_city)\nexcept ValueError:\n    print(json.dumps([]))\n    exit()\n\nmoves = (target_index - current_index + len(fly_destinations)) % len(fly_destinations)\n\nbuttons = ['Down'] * moves\nprint(json.dumps(buttons))",
+    "python_script": "import json\nimport collections\n\ndef solve():\n    screen_text = input_data['screen_text']\n    target_string = input_data['target_string']\n\n    lines = screen_text.strip().split('\\n')\n    keyboard_lines = []\n    in_keyboard = False\n    for line in lines:\n        if '→' in line or ('PK MN' in line and 'END' in line):\n            in_keyboard = True\n        if in_keyboard and line.strip():\n            keyboard_lines.append(line)\n\n    if not keyboard_lines:\n        print(json.dumps([]))\n        return\n\n    char_to_pos = {}\n    start_pos = None\n    for r, row_str in enumerate(keyboard_lines):\n        clean_row = row_str.replace('→', '')\n        col_offset = 0\n        for c, char in enumerate(clean_row):\n            if char == ' ':\n                col_offset += 1\n                continue\n            actual_c = c + col_offset\n            char_to_pos[char] = (r, actual_c)\n            if '→' in row_str and row_str.find('→') == c:\n                start_pos = (r, actual_c)\n    \n    # Special handling for multi-char keys\n    for r, row_str in enumerate(keyboard_lines):\n        if 'PK MN' in row_str: char_to_pos['PK'] = (r, row_str.find('PK MN'))\n        if 'END' in row_str: char_to_pos['END'] = (r, row_str.find('END'))\n        if 'lower case' in row_str: char_to_pos['LOWER'] = (r, row_str.find('lower case'))\n\n    if start_pos is None:\n        # Fallback if cursor not found, assume top-left\n        start_pos = (0, 0)\n        for r, row_str in enumerate(keyboard_lines):\n            if row_str.strip():\n                start_pos = (r, row_str.find(row_str.strip()[0]))\n                break\n\n    current_pos = start_pos\n    all_buttons = []\n\n    for target_char in target_string:\n        if target_char not in char_to_pos:\n            continue\n        \n        target_pos = char_to_pos[target_char]\n        \n        # Simple greedy movement, not BFS, but good enough for this grid\n        dr = target_pos[0] - current_pos[0]\n        dc = target_pos[1] - current_pos[1]\n        \n        if dr > 0: all_buttons.extend(['Down'] * dr)\n        if dr < 0: all_buttons.extend(['Up'] * abs(dr))\n        if dc > 0: all_buttons.extend(['Right'] * dc)\n        if dc < 0: all_buttons.extend(['Left'] * abs(dc))\n        \n        all_buttons.append('A')\n        current_pos = target_pos\n\n    print(json.dumps(all_buttons))\n\nsolve()\n",
     "history": [
       {
-        "commit_message": "Initial version",
-        "timestamp": "2025-09-11T09:06:44.456Z",
-        "action_counter": 205622
+        "commit_message": "feat: Create text_entry_automator tool. This tool automates text entry on the in-game keyboard by parsing the layout and calculating the necessary button presses. This is a critical quality-of-life improvement to prevent manual errors and speed up repetitive naming tasks.",
+        "timestamp": "2025-09-11T19:47:30.147Z",
+        "action_counter": 206570
       }
     ]
   }
