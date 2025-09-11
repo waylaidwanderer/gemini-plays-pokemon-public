@@ -14,7 +14,7 @@
     - `elevated_ground`: Traversable, but can only be accessed from 'steps' tiles.
     - `steps`: The only tile type that allows movement between 'ground' and 'elevated_ground'.
     - `ledge`: One-way traversal. Can be jumped down, but not climbed up.
-    - `warp tiles` (ladders, holes, etc.): Cause instant map transition. Often need to step off and back on to reuse.
+    - `warp tiles` (e.g., ladder_up, ladder_down, hole, teleport): Cause instant map transition. Often need to step off and back on to reuse.
     - `cuttable`: Tree that can be cut with HM Cut. Becomes `ground` after cutting, but respawns on map change or after battle.
     - `water`: Crossable using HM Surf.
 - **Gameplay Mechanics:**
