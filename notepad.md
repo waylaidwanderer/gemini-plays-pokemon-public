@@ -22,8 +22,8 @@
 
 # III. Current Quest: The Mt. Moon Fossil
 - **Objective:** Find a way to get past the Rocket Grunt at Mt. Moon B2F (30, 12).
-- **Current Plan:** Pursuing the top hypothesis from `puzzle_solver_agent`: travel to Cinnabar Island to attempt to 'de-revive' HELIX into a fossil item at the Pokémon Lab.
-- **Current Roadblock:** Path on Route 2 is blocked by a `cuttable` tree. I must backtrack to Pewter City PC to get a Pokémon that can learn Cut.
+- **Current Plan:** Generate new hypotheses using `puzzle_solver_agent` after the Cinnabar Lab plan failed.
+- **Current Roadblock:** I do not possess a fossil item.
 - **Failed Hypotheses Log:**
     1.  Giving the *revived* fossil Pokémon (HELIX) is sufficient. (Result: Failure)
     2.  The Super Nerd at B2F (13, 9) gives a fossil after being defeated. (Result: Failure)
@@ -31,9 +31,7 @@
     4.  The Super Nerd provides a non-fossil key item. (Result: Failure, dialogue only.)
     5.  The Rocket Grunt will accept a fainted Omanyte. (Result: Failure, could not get Omanyte to faint.)
     6.  Using a MOON STONE from the inventory has an effect. (Result: Failure, opens Pokémon menu.)
-- **Untested Assumptions Log:**
-    1.  **Assumption:** The Cinnabar Lab can 'de-revive' a Pokémon.
-    2.  **Assumption:** A Pokémon in my PC can learn Cut.
+    7.  The Cinnabar Lab can 'de-revive' a Pokémon back into a fossil. (Result: Failure, scientist only revives fossils.)
 
 # IV. Pokémon Data
 ## A. Wild Pokémon Locations & Movesets
