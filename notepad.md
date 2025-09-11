@@ -22,8 +22,7 @@
 
 # III. Current Quest: The Mt. Moon Fossil
 - **Objective:** Find a way to get past the Rocket Grunt at Mt. Moon B2F (30, 12).
-- **Current Plan:** Generate new hypotheses using `puzzle_solver_agent` after the Cinnabar Lab plan failed.
-- **Current Roadblock:** I do not possess a fossil item.
+- **Current Plan:** Test the `puzzle_solver_agent`'s top hypothesis: a Pokémon nicknamed 'FOSSIL' will satisfy the Grunt.
 - **Failed Hypotheses Log:**
     1.  Giving the *revived* fossil Pokémon (HELIX) is sufficient. (Result: Failure)
     2.  The Super Nerd at B2F (13, 9) gives a fossil after being defeated. (Result: Failure)
