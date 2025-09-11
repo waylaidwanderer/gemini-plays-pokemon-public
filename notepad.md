@@ -59,3 +59,5 @@
 - **elevated_ground**: Walkable ground at a different height, requires 'steps' to access.
 - **steps**: Allows movement between 'ground' and 'elevated_ground'.
 - **ladder_up / ladder_down**: Warps between floors.
+- **cuttable**: Tree that can be cut with HM Cut.
+- **ledge**: Can be jumped down, but not climbed up.
