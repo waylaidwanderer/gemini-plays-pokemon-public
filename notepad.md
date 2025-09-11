@@ -47,7 +47,7 @@
 - **Navigation:** Use `automated_path_navigator` for standard point-to-point travel. For complex exploration or puzzles, use `navigation_strategist_agent`.
 
 # VI. Tool Development & Maintenance
-- **`battle_sequence_automator`:** This tool was rebuilt after repeated critical failures. It now uses a more robust script that correctly parses nicknames, uses party JSON data to check PP, and selects the first available damaging move. It should be monitored for any new issues.
+- **`battle_sequence_automator`:** This tool has a history of failures but has been significantly improved. Recent fixes include adding menu state detection (to distinguish the main battle menu from the move menu) and correcting the logic for matching a Pokémon's nickname. It should be tested further in low-stakes battles.
 
 # VII. Current Mt. Moon Puzzle State
 - **Objective:** Find a fossil item to give to the Rocket Grunt at B2F (30, 12).
