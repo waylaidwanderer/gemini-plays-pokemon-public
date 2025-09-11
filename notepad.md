@@ -58,8 +58,7 @@
 - **Hypothesis (Denied):** The visible item at (9, 9) is a fossil.
     - **Hypothesis (Denied):** The visible item at (9, 9) is a fossil.
     - **Test:** Navigated to (10, 9), adjacent to the item. Attempted to interact twice.
-    - **Result:** Failure. The item is non-interactive background scenery.
-- **Hypothesis (Denied):** The second visible item at (5, 9) is the fossil.
+    - **Hypothesis (Denied):** The second visible item at (5, 9) is the fossil.
     - **Test:** Navigated to (5, 9) and (6, 9), adjacent to the item. Attempted to interact twice.
     - **Result:** Failure. The item is non-interactive background scenery.
 - **Current State:** All exploration paths and hypotheses within Mt. Moon have been exhausted. I am currently stuck.
