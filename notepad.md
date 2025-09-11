@@ -66,7 +66,7 @@
 - **Battle Log Anomaly Agent:** An agent to analyze discrepancies between intended actions and battle outcomes to hypothesize hidden mechanics.
 
 # VIII. Confirmed Mechanics & Resolved Experiments
-- **Battle Menu Reset:** The move selection menu *does* reset to the default (top) option if the confirmation 'A' press is not made in the same turn as the directional inputs.
-  - **Test:** Used `battle_automator` to select SLUDGE (requiring Down presses), then pressed 'A' in the next turn.
-  - **Result:** FLY (the top move) was executed instead of SLUDGE.
-  - **Conclusion:** This mechanic is confirmed. All battle automation must now combine directional inputs and the 'A' press into a single turn's action.
+- **Battle Menu Anomaly (Inconclusive):** A test suggested the move selection menu resets if confirmation is delayed, but a second identical test contradicted this. The exact mechanic is unknown and requires further investigation.
+  - **Test 1 (vs Sandshrew):** Selected SLUDGE, delayed confirmation -> FLY was used.
+  - **Test 2 (vs Geodude):** Selected SLUDGE, delayed confirmation -> SLUDGE was used.
+  - **Conclusion:** Hypothesis of a simple reset is **disproven**. The trigger for this behavior is unknown. All battle automation must now combine directional inputs and the 'A' press into a single turn's action.
