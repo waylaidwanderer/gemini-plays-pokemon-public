@@ -50,24 +50,12 @@
 - Poison is not very effective against Poison (Observed: GOLBAT's SLUDGE vs ZUBAT).
 - Flying is not very effective against Rock/Ground (Observed: ECHO's FLY vs GEODUDE).
 
-# V. Battle Strategy & Tool Usage
-- **Battle Automation Flow:** Use the consolidated `battle_automator` for all in-battle menu navigation. For complex trainer battles, consult `comprehensive_battle_agent` for high-level strategic advice.
-- **Navigation:** Use `automated_path_navigator` for standard point-to-point travel. For complex navigation involving multiple floors or unknown layouts, use `master_navigator_agent`.
-
-# VI. System & Tool Notes
+# V. System & Tool Notes
 - **Tool Deletion Anomaly:** The `delete_tool` command consistently fails for `select_battle_option` with a 'not found' error, despite the tool being listed as available. Deprecating in practice instead of attempting further deletion.
 - **PP Management for Stalling:** When planning to stall in a battle (e.g., to faint a Pokémon intentionally), always check the PP of non-damaging moves beforehand. Running out of PP can force an attack and ruin the strategy.
-- **Tool Refinement Needed (`battle_automator`):** The current zero-PP check is a temporary fix. A more robust solution is needed, such as parsing PP from the screen or creating an internal model of move states.
-- **Tool Refinement Needed (`automated_path_navigator`):** The tool must be enhanced to provide specific reasons for pathing failures (e.g., 'blocked by NPC', 'unreachable partition') to improve diagnostics.
 
-# VII. Confirmed Mechanics & Resolved Experiments
+# VI. Confirmed Mechanics & Resolved Experiments
 - **Battle Menu Anomaly (Inconclusive):** A test suggested the move selection menu resets if confirmation is delayed, but a second identical test contradicted this. The exact mechanic is unknown and requires further investigation.
   - **Test 1 (vs Sandshrew):** Selected SLUDGE, delayed confirmation -> FLY was used.
   - **Test 2 (vs Geodude):** Selected SLUDGE, delayed confirmation -> SLUDGE was used.
   - **Conclusion:** Hypothesis of a simple reset is **disproven**. The trigger for this behavior is unknown. All battle automation must now combine directional inputs and the 'A' press into a single turn's action.
-
-# VIII. Future Plans & System Development Ideas
-- **New Agent/Tool Idea:** Create a 'Team Composition Advisor' to suggest optimal parties for specific areas or gyms, based on known wild/trainer Pokémon.
-- **New Agent/Tool Idea:** Create a 'Battle Staller Agent' that can take a battle objective (e.g., 'survive X turns', 'get Pokémon Y to faint') and output an optimal sequence of non-damaging or strategic moves.
-- **New Agent/Tool Idea:** An agent to analyze discrepancies between intended actions and battle outcomes to hypothesize hidden mechanics.
-- **NPC Re-check:** After resolving the Mt. Moon fossil quest, re-interact with the Hiker at Mt. Moon 1F (6, 7) to see if he has moved.
