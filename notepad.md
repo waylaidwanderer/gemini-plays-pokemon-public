@@ -56,6 +56,7 @@
     - **Test:** Spoke to the Super Nerd after defeating him.
     - **Result:** He only provided dialogue about the Cinnabar Lab. No fossil was given.
 - **Hypothesis (Denied):** The visible item at (9, 9) is a fossil.
+    - **Hypothesis (Denied):** The visible item at (9, 9) is a fossil.
     - **Test:** Navigated to (10, 9), adjacent to the item. Attempted to interact twice.
     - **Result:** Failure. The item is non-interactive background scenery.
 - **Current Hypothesis:** The second visible item at (5, 9) is the fossil.
