@@ -48,6 +48,7 @@
 - Water is super-effective against Rock/Ground (Observed: OMANYTE's SURF vs GEODUDE).
 - Water is not very effective against Bug/Grass (Observed: OMANYTE's BUBBLEBEAM vs PARAS).
 - Poison is not very effective against Poison (Observed: GOLBAT's SLUDGE vs ZUBAT).
+- Flying is not very effective against Rock/Ground (Observed: ECHO's FLY vs GEODUDE).
 
 # V. Battle Strategy & Tool Usage
 - **Battle Automation Flow:** Use the consolidated `battle_automator` for all in-battle menu navigation. For complex trainer battles, consult `comprehensive_battle_agent` for high-level strategic advice.
