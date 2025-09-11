@@ -22,18 +22,18 @@
 
 # III. Current Quest: The Mt. Moon Fossil
 - **Objective:** Find a way to get past the Rocket Grunt at Mt. Moon B2F (30, 12).
-- **Key Obstacle:** The path to the fossil is blocked by the Grunt, who states: "If you find a fossil, give it to me and scram!"
-- **Current Status:** Pursuing the top hypothesis from `puzzle_solver_agent`: travel to Cinnabar Island to attempt to 'de-revive' HELIX into a fossil item at the Pokémon Lab.
+- **Current Plan:** Pursuing the top hypothesis from `puzzle_solver_agent`: travel to Cinnabar Island to attempt to 'de-revive' HELIX into a fossil item at the Pokémon Lab.
+- **Current Roadblock:** Path on Route 2 is blocked by a `cuttable` tree. I must backtrack to Pewter City PC to get a Pokémon that can learn Cut.
 - **Failed Hypotheses Log:**
     1.  Giving the *revived* fossil Pokémon (HELIX) is sufficient. (Result: Failure)
-    2.  The Super Nerd at B2F (13, 9) gives a fossil after being defeated. (Result: Failure, he only gives dialogue.)
-    3.  The visible items at B2F (9, 9) and (5, 9) are fossils. (Result: Failure, they are non-interactive scenery.)
+    2.  The Super Nerd at B2F (13, 9) gives a fossil after being defeated. (Result: Failure)
+    3.  The visible items at B2F (9, 9) and (5, 9) are fossils. (Result: Failure, non-interactive scenery.)
     4.  The Super Nerd provides a non-fossil key item. (Result: Failure, dialogue only.)
-    5.  The Rocket Grunt will accept a fainted Omanyte. (Result: Failure, could not get Omanyte to faint after 3 attempts.)
-    6.  Using a MOON STONE from the inventory has an effect. (Result: Failure, it opens the standard Pokémon selection menu where it can't be used.)
+    5.  The Rocket Grunt will accept a fainted Omanyte. (Result: Failure, could not get Omanyte to faint.)
+    6.  Using a MOON STONE from the inventory has an effect. (Result: Failure, opens Pokémon menu.)
 - **Untested Assumptions Log:**
-    1.  **Assumption:** The *only* way to pass the grunt is with a fossil item. **Test Plan:** If all fossil-related hypotheses fail, try interacting with the grunt while using different key items or having different Pokémon in the lead.
-    2.  **Assumption:** The encounter rate is uniform across this floor. **Test Plan:** If a wild Pokémon isn't found soon, move to a different walkable area on B2F to see if the encounter rate changes.
+    1.  **Assumption:** The Cinnabar Lab can 'de-revive' a Pokémon.
+    2.  **Assumption:** A Pokémon in my PC can learn Cut.
 
 # IV. Pokémon Data
 ## A. Wild Pokémon Locations & Movesets
