@@ -52,3 +52,4 @@
 # VI. System & Tool Notes
 - **Tool Deletion Anomaly:** The `delete_tool` command consistently fails for `select_battle_option` with a 'not found' error, despite the tool being listed as available. Deprecating in practice instead of attempting further deletion.
     5.  The Super Nerd at B2F (13, 9) has new dialogue after exploring the western cave sections. (Result: Failure, dialogue is unchanged.)
+5. The Super Nerd at B2F (13, 9) has new dialogue after exploring the western cave sections. (Result: Failure, dialogue is unchanged.)
