@@ -55,5 +55,7 @@
 - **`battle_sequence_automator`:** This tool has failed repeatedly due to multiple bugs (incorrect status move list, nickname vs. species matching, contaminated JSON output from debug prints, KeyError). It requires a full teardown and rebuild outside of active battle. Do not attempt to use it again until it has been properly fixed.
 
 # VII. Current Assumptions & Tests
-- **Assumption:** The fossil required by the Rocket Grunt is located on Mt. Moon 1F.
-  - **Test Plan:** Fully explore all reachable areas of Mt. Moon 1F using the `automated_room_explorer`. If no fossil is found, this assumption will be considered false, and the next exploration target will be Mt. Moon B1F and B2F.
+- **Assumption (Disproven):** The fossil required by the Rocket Grunt is located on Mt. Moon 1F.
+  - **Test Result:** The entirety of Mt. Moon 1F has been explored, and no fossil item was found. This assumption is false.
+- **New Assumption:** The fossil is located on either Mt. Moon B1F or B2F.
+  - **Test Plan:** Systematically explore all reachable areas of Mt. Moon B1F, then B2F, using the `automated_room_explorer` tool to find the fossil.
