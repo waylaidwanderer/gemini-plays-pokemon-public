@@ -52,6 +52,9 @@
 # VII. Current Mt. Moon Puzzle State
 - **Objective:** Find a fossil item to give to the Rocket Grunt at B2F (30, 12).
 - **Summary of Exploration:** All previously known paths on 1F, B1F, and B2F have been fully explored and lead to dead ends or the fossil-blocking Grunt. No fossil has been found.
-- **Current Hypothesis:** The only remaining unexplored path is via the ladder at 1F (6, 6), which was previously missed. This must lead to the Super Nerd's area and the fossil.
-- **Test Plan:** Navigate to and use the ladder at Mt. Moon 1F (6, 6).
+- **Hypothesis (Denied):** The Super Nerd at (13, 9) on B2F will give the player a choice of fossil after being defeated.
+    - **Test:** Spoke to the Super Nerd after defeating him.
+    - **Result:** He only provided dialogue about the Cinnabar Lab. No fossil was given.
+- **Current Hypothesis:** The two visible items behind the Super Nerd at (9, 9) and (5, 9) are the fossils, which became available after his defeat.
+- **Test Plan:** Navigate to one of the items and attempt to pick it up.
 - **Future Improvement:** Consolidate `select_battle_option` and `battle_sequence_automator` into a single, more intelligent tool that can handle both the main battle menu and the move menu to streamline battle automation.
