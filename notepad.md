@@ -54,3 +54,4 @@
 - **Summary of Exploration:** All previously known paths on 1F, B1F, and B2F have been fully explored and lead to dead ends or the fossil-blocking Grunt. No fossil has been found.
 - **Current Hypothesis:** The only remaining unexplored path is via the ladder at 1F (6, 6), which was previously missed. This must lead to the Super Nerd's area and the fossil.
 - **Test Plan:** Navigate to and use the ladder at Mt. Moon 1F (6, 6).
+- **Future Improvement:** Consolidate `select_battle_option` and `battle_sequence_automator` into a single, more intelligent tool that can handle both the main battle menu and the move menu to streamline battle automation.
