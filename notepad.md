@@ -43,15 +43,12 @@
 - Water is not very effective against Bug/Grass (Observed: OMANYTE's BUBBLEBEAM vs PARAS).
 
 # V. Battle Strategy & Tool Usage
-- **Battle Automation Flow (Manual):**
-  1.  **Main Menu:** Use `select_battle_option` for reliable menu selection.
-  2.  **Move/PKMN Selection:** Use `menu_analyzer` and `select_menu_option` if needed, but manual presses are the primary method until `battle_sequence_automator` is rebuilt.
-  3.  **Strategy:** Call `comprehensive_battle_agent` for advice in complex battles.
-- For complex navigation puzzles (like partitioned caves), use the `navigation_strategist_agent` to devise a high-level plan.
+- **Battle Automation Flow:** Use the `battle_sequence_automator` for routine wild battles. For trainer battles, use `comprehensive_battle_agent` for strategic advice, and `select_battle_option`, `menu_analyzer`, and `select_menu_option` for reliable menu navigation.
+- **Navigation:** Use `automated_path_navigator` for standard point-to-point travel. For complex exploration or puzzles, use `navigation_strategist_agent`.
 
 # VI. Tool Development & Maintenance
-- **`battle_sequence_automator`:** This tool has failed repeatedly due to multiple bugs (incorrect status move list, nickname vs. species matching, contaminated JSON output from debug prints, KeyError). It requires a full teardown and rebuild outside of active battle. Do not attempt to use it again until it has been properly fixed.
-    - **PRIORITY TASK:** Rebuild this tool at the next available opportunity (e.g., at a Pokémon Center) to restore battle automation capabilities.
+- **`battle_sequence_automator`:** This tool was rebuilt after repeated critical failures. It now uses a more robust script that correctly parses nicknames, uses party JSON data to check PP, and selects the first available damaging move. It should be monitored for any new issues.
+- **Agent Idea - Team Composition Advisor:** Create an agent that, given an opponent's Pokémon, recommends the best party member to switch to and potentially the best move to use.
 
 # VII. Current Mt. Moon Puzzle State
 - **Objective:** Find a fossil item to give to the Rocket Grunt at B2F (30, 12).
