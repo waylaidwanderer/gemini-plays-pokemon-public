@@ -64,3 +64,14 @@
     - **Result:** Failure. The item is non-interactive background scenery.
 - **Current State:** All exploration paths and hypotheses within Mt. Moon have been exhausted. I am currently stuck.
 - **Next Step:** Analyze new hypotheses from the `puzzle_solver_agent`.
+
+# VIII. Current Mt. Moon Puzzle - New Hypotheses (from Agent)
+1.  **Hypothesis: Defeating the Super Nerd at B2F (13, 9) is a prerequisite that makes the previously unobtainable items at (9, 9) and (5, 9) collectible as fossils.**
+    -   *Test Plan:* Re-confirm Super Nerd is defeated, then immediately interact with the items at (9, 9) and (5, 9).
+    -   *Reasoning:* Classic RPG sequential trigger. The actions might need to be performed in a specific order.
+2.  **Hypothesis: A hidden switch or interactive object exists in the immediate vicinity of the Super Nerd and the two visible items.**
+    -   *Test Plan:* Systematically press the action button on all adjacent walls and objects around (13, 9), (9, 9), and (5, 9).
+    -   *Reasoning:* A new path might need to be created via a hidden environmental trigger.
+3.  **Hypothesis: The Super Nerd's dialogue about Cinnabar is a misdirection, and he provides a different, non-fossil key item that will satisfy the Rocket Grunt.**
+    -   *Test Plan:* After interacting with the Super Nerd, check the Key Items pocket for any new items and present them to the Grunt.
+    -   *Reasoning:* Subverts the stated goal; the true objective is to pass the Grunt, not necessarily with a fossil.

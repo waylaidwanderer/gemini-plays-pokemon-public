@@ -571,61 +571,6 @@
       }
     ]
   },
-  "automated_room_explorer": {
-    "description": "A tool that automates exploring a room. Generates a DFS path to visit all connected traversable tiles. Can resume an interrupted path if the original path is provided.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "start_x": {
-          "type": "string"
-        },
-        "start_y": {
-          "type": "string"
-        },
-        "interrupted_path_json": {
-          "type": "string",
-          "nullable": true
-        }
-      },
-      "required": [
-        "start_x",
-        "start_y"
-      ]
-    },
-    "python_script": "import json\nimport collections\nimport xml.etree.ElementTree as ET\n\nstart_x = int(input_data['start_x'])\nstart_y = int(input_data['start_y'])\ninterrupted_path_json = input_data.get('interrupted_path_json')\n\nif interrupted_path_json:\n    try:\n        path_data = json.loads(interrupted_path_json)\n        start_index = -1\n        for i, step in enumerate(path_data):\n            if step['x'] == start_x and step['y'] == start_y:\n                start_index = i\n                break\n        if start_index != -1:\n            resumed_path = path_data[start_index:]\n            print(json.dumps(resumed_path))\n            exit()\n        else:\n            interrupted_path_json = None\n    except (json.JSONDecodeError, IndexError):\n        interrupted_path_json = None\n\nroot = ET.fromstring(map_xml_string)\ntiles = {}\nfor row in root.findall('Row'):\n    y = int(row.get('id'))\n    for tile_elem in row.findall('Tile'):\n        x = int(tile_elem.get('id'))\n        obj = tile_elem.find('Object')\n        tiles[(x, y)] = {\n            'type': tile_elem.get('type'),\n            'has_object': tile_elem.get('has-object') == 'true',\n            'object_id_name': obj.get('id-name') if obj is not None else None\n        }\n\ndef is_valid_transition(from_pos, to_pos, tiles_data):\n    from_tile = tiles_data.get(from_pos)\n    to_tile = tiles_data.get(to_pos)\n    if not from_tile or not to_tile:\n        return False\n\n    if to_tile['has_object'] and (to_tile.get('object_id_name') or '').upper() != 'PIKACHU':\n        return False\n\n    from_type = from_tile['type']\n    to_type = to_tile['type']\n    \n    traversable_types = {\n        'ground', 'grass', 'steps', 'ladder_up', 'ladder_down', 'teleport', \n        'hole', 'cleared_boulder_barrier', 'open_gate', 'gate_offscreen', 'elevated_ground'\n    }\n\n    if to_type not in traversable_types:\n        return False\n\n    if from_type == 'ground' and to_type == 'elevated_ground': return False\n    if from_type == 'elevated_ground' and to_type == 'ground': return False\n\n    return True\n\nstart_node = (start_x, start_y)\nqueue = collections.deque([start_node])\nvisited_partition = {start_node}\npartition_coords = []\n\nif tiles.get(start_node):\n    while queue:\n        x, y = queue.popleft()\n        partition_coords.append([x, y])\n        for dx, dy in [(-1, 0), (1, 0), (0, -1), (0, 1)]:\n            nx, ny = x + dx, y + dy\n            neighbor = (nx, ny)\n            if neighbor not in visited_partition and is_valid_transition((x, y), neighbor, tiles):\n                visited_partition.add(neighbor)\n                queue.append(neighbor)\n\nallowed_tiles = set(tuple(c) for c in partition_coords)\npath = []\nstack = [(start_x, start_y)]\nvisited_dfs = set([(start_x, start_y)])\n\nif allowed_tiles:\n    while stack:\n        x, y = stack[-1]\n        found_new = False\n        for dx, dy in [(1, 0), (-1, 0), (0, 1), (0, -1)]:\n            nx, ny = x + dx, y + dy\n            if (nx, ny) in allowed_tiles and (nx, ny) not in visited_dfs:\n                visited_dfs.add((nx, ny))\n                stack.append((nx, ny))\n                path.append({'x': nx, 'y': ny})\n                found_new = True\n                break\n        if not found_new:\n            stack.pop()\n            if stack:\n                px, py = stack[-1]\n                path.append({'x': px, 'y': py})\n\nfinal_path = [{'x': start_x, 'y': start_y}] + path\ndeduped_path = []\nif final_path and allowed_tiles:\n    deduped_path.append(final_path[0])\n    for i in range(1, len(final_path)):\n        if final_path[i] != final_path[i-1]:\n            deduped_path.append(final_path[i])\n\nprint(json.dumps(deduped_path))",
-    "history": [
-      {
-        "commit_message": "feat: Create `automated_room_explorer` tool. This new tool combines the functionality of `get_partition_coordinates` and `room_explorer` into a single, automated process. It takes a starting coordinate, finds the entire reachable partition, and generates a complete DFS exploration path. This was created in direct response to a critical Overwatch critique that highlighted repeated failures due to manual JSON formatting errors when passing data between the two older tools. This wrapper tool eliminates the manual step, making room exploration more reliable and robust.",
-        "timestamp": "2025-09-10T03:09:30.658Z",
-        "action_counter": 203562
-      },
-      {
-        "commit_message": "fix: Improve tile traversability logic. The previous version failed to correctly parse the map for impassable tiles and objects, causing it to generate invalid paths. This commit integrates the more robust parsing and validation logic from the `automated_path_navigator` tool, including a comprehensive list of traversable tile types and a check for blocking objects. This is a critical fix to ensure the tool generates reliable exploration paths.",
-        "timestamp": "2025-09-10T09:03:56.520Z",
-        "action_counter": 204148
-      },
-      {
-        "commit_message": "fix: Correct XML parsing module import. The tool was failing with a `ModuleNotFoundError` because it was trying to import `xml.et.ElementTree` instead of the correct `xml.etree.ElementTree`. This is a critical fix to restore basic tool functionality.",
-        "timestamp": "2025-09-10T09:05:24.948Z",
-        "action_counter": 204151
-      },
-      {
-        "commit_message": "feat: Add path resumption capability. The tool can now take an optional `interrupted_path_json` argument. If provided, it will find the player's current position in the path and return the remainder, allowing exploration to resume efficiently after interruptions like wild battles. This is a direct response to an Overwatch critique about the tool's inefficiency and my failure to prioritize tool maintenance.",
-        "timestamp": "2025-09-10T10:02:23.620Z",
-        "action_counter": 204201
-      },
-      {
-        "commit_message": "fix: Add elevation transition checks. The tool previously generated invalid paths between 'ground' and 'elevated_ground' tiles. This commit adds logic to the neighbor-checking function to enforce the rule that movement between these elevations is only possible via 'steps' tiles. This is a critical fix to prevent movement failures.",
-        "timestamp": "2025-09-11T00:40:15.799Z",
-        "action_counter": 204844
-      },
-      {
-        "commit_message": "fix: Correct XML parsing module import. The tool was failing with a `ModuleNotFoundError` because it was trying to import `xml.et.ElementTree` instead of the correct `xml.etree.ElementTree`. This is a critical fix to restore basic tool functionality.",
-        "timestamp": "2025-09-11T00:41:17.224Z",
-        "action_counter": 204846
-      }
-    ]
-  },
   "menu_analyzer": {
     "description": "Parses screen text from a menu to identify the available options, their layout (e.g., single column, 2x2 grid), and the current cursor position. This is the foundation for creating reliable menu navigation automation.",
     "input_schema": {
@@ -801,6 +746,32 @@
         "commit_message": "refactor: Remove automatic 'A' press and `confirm_selection` flag. The system has repeatedly shown issues with mixed directional and action button sequences, leading to tool failure. This commit refactors the tool to only generate directional movements, forcing a more reliable two-step process (move, then confirm) for menu navigation. This is a direct response to a critical tool failure and an Overwatch critique.",
         "timestamp": "2025-09-08T11:58:46.787Z",
         "action_counter": 199602
+      }
+    ]
+  },
+  "battle_automator": {
+    "description": "A consolidated battle tool that handles both the main battle menu and the move selection menu. It intelligently detects the current menu and performs the optimal action: selecting 'FIGHT' from the main menu or the best available damaging move from the move menu. It only outputs directional button presses.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "screen_text": {
+          "type": "string"
+        },
+        "player_party_json": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "screen_text",
+        "player_party_json"
+      ]
+    },
+    "python_script": "import json\nimport re\n\nscreen_text = input_data['screen_text']\nplayer_party_json = input_data['player_party_json']\n\nif \"FIGHT\" in screen_text and \"PKMN\" in screen_text:\n    # In the main battle menu, the cursor starts on FIGHT. No directional press needed.\n    print(json.dumps([])) \n    exit()\n\nif \"TYPE/\" in screen_text or re.search(r'\\d+/\\d+', screen_text):\n    player_party = json.loads(player_party_json)\n    lines = screen_text.split('\\n')\n\n    active_pokemon_nickname = None\n    if len(lines) > 2:\n        match = re.match(r'^([A-Z-é.♀♂’]+)', lines[2].strip())\n        if match:\n            active_pokemon_nickname = match.group(1)\n\n    active_pokemon_data = None\n    if active_pokemon_nickname:\n        for pokemon in player_party:\n            if pokemon.get('nickname') == active_pokemon_nickname:\n                active_pokemon_data = pokemon\n                break\n\n    if not active_pokemon_data:\n        print(json.dumps([]))\n        exit()\n\n    moves_on_screen = []\n    cursor_index = -1\n    for i, line in enumerate(lines):\n        clean_line = line.replace('→', '').strip()\n        is_move = any(m['name'] == clean_line for m in active_pokemon_data.get('moves', []))\n        if is_move:\n            moves_on_screen.append(clean_line)\n            if '→' in line:\n                cursor_index = len(moves_on_screen) - 1\n\n    status_moves = [\"WITHDRAW\", \"CONFUSE RAY\", \"HAZE\", \"HARDEN\", \"FOCUS ENERGY\", \"ACID ARMOR\", \"MINIMIZE\", \"SAND-ATTACK\", \"STUN SPORE\", \"SLEEP POWDER\", \"LIGHT SCREEN\", \"THUNDER WAVE\", \"SUPERSONIC\"]\n\n    best_move_index = -1\n    for i, move_name in enumerate(moves_on_screen):\n        move_data = next((m for m in active_pokemon_data['moves'] if m['name'] == move_name), None)\n        if move_data and move_data.get('pp', 0) > 0 and move_name not in status_moves:\n            best_move_index = i\n            break\n\n    if best_move_index != -1 and cursor_index != -1:\n        moves_to_make = best_move_index - cursor_index\n        buttons = []\n        if moves_to_make > 0:\n            buttons.extend([\"Down\"] * moves_to_make)\n        elif moves_to_make < 0:\n            buttons.extend([\"Up\"] * abs(moves_to_make))\n        print(json.dumps(buttons))\n    else:\n        print(json.dumps([]))\nelse:\n    print(json.dumps([]))",
+    "history": [
+      {
+        "commit_message": "feat: Create consolidated battle_automator tool. This new tool merges the functionality of the deprecated `select_battle_option` and `battle_sequence_automator` tools into a single, more robust solution. It intelligently detects whether the main battle menu or the move selection menu is active and takes the appropriate action. This directly addresses an Overwatch critique about tool redundancy and improves the overall efficiency of battle automation.",
+        "timestamp": "2025-09-11T06:23:52.583Z",
+        "action_counter": 205354
       }
     ]
   }
