@@ -51,6 +51,8 @@
 - Flying is not very effective against Rock/Ground (Observed: ECHO's FLY vs GEODUDE).
 
 # V. Battle Strategy & Tool Usage
+
+# V. Battle Strategy & Tool Usage
 - **Battle Automation Flow:** Use the consolidated `battle_automator` for all in-battle menu navigation. For complex trainer battles, consult `comprehensive_battle_agent` for high-level strategic advice.
 - **Navigation:** Use `automated_path_navigator` for standard point-to-point travel. For complex navigation involving multiple floors or unknown layouts, use `master_navigator_agent`.
 
