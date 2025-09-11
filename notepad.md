@@ -57,5 +57,6 @@
 # VII. Current Assumptions & Tests
 - **Assumption (Disproven):** The fossil required by the Rocket Grunt is located on Mt. Moon 1F.
   - **Test Result:** The entirety of Mt. Moon 1F has been explored, and no fossil item was found. This assumption is false.
-- **New Assumption:** The fossil is located on either Mt. Moon B1F or B2F.
-  - **Test Plan:** Systematically explore all reachable areas of Mt. Moon B1F, then B2F, using the `automated_room_explorer` tool to find the fossil.
+- **New Assumption (Updated):** The fossil is on B2F.
+  - **Test Result:** The western partition of Mt. Moon B1F has been fully explored and contains no fossil.
+  - **Test Plan:** Explore the area of B2F accessible via the ladder at (14, 28) on B1F.
