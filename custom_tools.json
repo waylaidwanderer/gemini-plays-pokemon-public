@@ -845,34 +845,29 @@
       }
     ]
   },
-  "text_entry_automator": {
-    "description": "Automates text entry on the in-game keyboard. It parses the keyboard layout, finds the cursor, and for each character in the target string, calculates the shortest path of directional presses followed by an 'A' press. Outputs a single list of button presses for the entire string.",
+  "itemfinder_search_planner": {
+    "description": "Parses the current map to find all reachable ground tiles in the player's current partition and generates an efficient path to visit each of them, suitable for a systematic ITEMFINDER search.",
     "input_schema": {
       "type": "object",
       "properties": {
-        "screen_text": {
+        "start_x": {
           "type": "string"
         },
-        "target_string": {
+        "start_y": {
           "type": "string"
         }
       },
       "required": [
-        "screen_text",
-        "target_string"
+        "start_x",
+        "start_y"
       ]
     },
-    "python_script": "import json\nimport collections\n\n# Parse screen text to build keyboard layout and find cursor\nlines = input_data['screen_text'].strip().split('\\n')\nkeyboard_layout = []\ncursor_pos = None\n\n# The keyboard grid starts after the 'NICKNAME?' line\nkeyboard_start_index = -1\nfor i, line in enumerate(lines):\n    if 'NICKNAME?' in line:\n        keyboard_start_index = i + 1\n        break\n\nif keyboard_start_index != -1:\n    for r, line in enumerate(lines[keyboard_start_index:]):\n        if 'lower case' in line or 'UPPER CASE' in line:\n            # This is the toggle row, not part of the main grid\n            continue\n        # Clean up the line and find the cursor\n        clean_line = line.replace('→', '')\n        row_chars = [c for c in clean_line.split(' ') if c] # Split by space and remove empty strings\n        if '→' in line:\n            # Find which character the cursor is on\n            # We need to handle the split carefully\n            parts = line.split('→')\n            left_of_cursor = parts[0].strip().split(' ')\n            cursor_col = len([p for p in left_of_cursor if p])\n            cursor_pos = (cursor_col, r)\n\n        # Handle special multi-character symbols\n        processed_row = []\n        i = 0\n        while i < len(row_chars):\n            # Check for two-part symbols like 'PK' and 'MN'\n            if i + 1 < len(row_chars) and row_chars[i] + row_chars[i+1] in ['PKMN']:\n                processed_row.append(row_chars[i] + row_chars[i+1])\n                i += 2\n            else:\n                processed_row.append(row_chars[i])\n                i += 1\n        keyboard_layout.append(processed_row)\n\n# Create a map of characters to their coordinates\nchar_to_coords = {}\nfor r, row in enumerate(keyboard_layout):\n    for c, char in enumerate(row):\n        char_to_coords[char] = (c, r)\n\n# BFS to find shortest path between two characters on the keyboard\ndef find_path(start_char, end_char):\n    start_pos = char_to_coords[start_char]\n    end_pos = char_to_coords[end_char]\n    queue = collections.deque([(start_pos, [])])\n    visited = {start_pos}\n    while queue:\n        (current_c, current_r), path = queue.popleft()\n        if (current_c, current_r) == end_pos:\n            return path\n        # Moves: Up, Down, Left, Right\n        for dc, dr, move in [(0, -1, 'Up'), (0, 1, 'Down'), (-1, 0, 'Left'), (1, 0, 'Right')]:\n            next_c, next_r = current_c + dc, current_r + dr\n            # Check bounds\n            if 0 <= next_r < len(keyboard_layout) and 0 <= next_c < len(keyboard_layout[next_r]):\n                if (next_c, next_r) not in visited:\n                    visited.add((next_c, next_r))\n                    new_path = list(path)\n                    new_path.append(move)\n                    queue.append(((next_c, next_r), new_path))\n    return [] # Should not happen on a connected grid\n\n# Generate button presses for the target string\ntarget_string = input_data['target_string']\nbutton_presses = []\ncurrent_char_on_screen = 'A' # Default starting character\nif cursor_pos:\n    c, r = cursor_pos\n    if r < len(keyboard_layout) and c < len(keyboard_layout[r]):\n        current_char_on_screen = keyboard_layout[r][c]\n\nfor target_char in target_string:\n    path_moves = find_path(current_char_on_screen, target_char)\n    button_presses.extend(path_moves)\n    button_presses.append('A')\n    current_char_on_screen = target_char\n\n# Move to END and confirm\npath_to_end = find_path(current_char_on_screen, 'END')\nbutton_presses.extend(path_to_end)\nbutton_presses.append('A')\n\nprint(json.dumps(button_presses))",
+    "python_script": "import json\nimport collections\nimport xml.etree.ElementTree as ET\n\ntry:\n    start_x = int(input_data['start_x'])\n    start_y = int(input_data['start_y'])\n    root = ET.fromstring(map_xml_string)\n    map_width = int(root.get('width'))\n    map_height = int(root.get('height'))\n    tiles = {}\n    for row in root.findall('Row'):\n        y = int(row.get('id'))\n        for tile_elem in row.findall('Tile'):\n            x = int(tile_elem.get('id'))\n            obj = tile_elem.find('Object')\n            tiles[(x, y)] = {\n                'type': tile_elem.get('type'),\n                'has_object': tile_elem.get('has-object') == 'true',\n                'object_id_name': obj.get('id-name') if obj is not None else None\n            }\n\n    traversable_types = {'ground', 'grass'}\n    start_node = (start_x, start_y)\n\n    # Step 1: Find all reachable tiles in the current partition\n    q = collections.deque([start_node])\n    reachable_nodes = {start_node}\n    while q:\n        cx, cy = q.popleft()\n        for dx, dy in [(-1, 0), (1, 0), (0, -1), (0, 1)]:\n            nx, ny = cx + dx, cy + dy\n            neighbor = (nx, ny)\n            if neighbor not in reachable_nodes and 1 <= nx <= map_width and 1 <= ny <= map_height:\n                tile_info = tiles.get(neighbor)\n                if tile_info and tile_info['type'] in traversable_types and not (tile_info['has_object'] and (tile_info.get('object_id_name') or '').upper() != 'PIKACHU'):\n                    reachable_nodes.add(neighbor)\n                    q.append(neighbor)\n    \n    search_points = sorted(list(reachable_nodes))\n\n    if not search_points:\n        print(json.dumps({'success': False, 'reason': 'No searchable tiles found in the current area.', 'path_plan': []}))\n        exit()\n\n    # Step 2: Build a complete path visiting all search points (Greedy TSP approximation)\n    unvisited = set(search_points)\n    current_pos = start_node\n    path_plan = [current_pos]\n    unvisited.discard(current_pos)\n\n    while unvisited:\n        closest_node = min(unvisited, key=lambda p: (abs(p[0] - current_pos[0]) + abs(p[1] - current_pos[1])))\n        path_plan.append(closest_node)\n        unvisited.remove(closest_node)\n        current_pos = closest_node\n\n    final_path_plan = [{'x': p[0], 'y': p[1]} for p in path_plan]\n    print(json.dumps({'success': True, 'reason': 'Search path generated.', 'path_plan': final_path_plan}))\n\nexcept Exception as e:\n    print(json.dumps({'success': False, 'reason': f'An error occurred: {str(e)}', 'path_plan': []}))",
     "history": [
       {
-        "commit_message": "feat: Create text_entry_automator tool. This tool automates text entry on the in-game keyboard by parsing the layout and calculating the necessary button presses. This is a critical quality-of-life improvement to prevent manual errors and speed up repetitive naming tasks.",
-        "timestamp": "2025-09-11T19:47:30.147Z",
-        "action_counter": 206570
-      },
-      {
-        "commit_message": "fix: Overhaul keyboard parsing and pathfinding logic. The previous version failed to correctly parse the keyboard layout, especially with multi-character symbols like 'PKMN'. This commit implements a more robust parser that correctly identifies character positions and the cursor. It also uses a BFS algorithm to calculate the shortest path between characters, ensuring efficient text entry. This is a critical fix to make the tool functional for all text entry tasks.",
-        "timestamp": "2025-09-11T20:03:55.177Z",
-        "action_counter": 206607
+        "commit_message": "feat: Create itemfinder_search_planner tool. This tool automates the process of systematically searching a map area for hidden items by generating an efficient path that covers all reachable ground tiles. This is a direct response to a self-assessment identifying the need to automate repetitive, manual tasks.",
+        "timestamp": "2025-09-11T21:42:32.617Z",
+        "action_counter": 206802
       }
     ]
   }
