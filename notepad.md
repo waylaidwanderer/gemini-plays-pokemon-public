@@ -55,3 +55,9 @@
 - **Master Navigator Agent Lesson:** For complex, multi-floor navigation puzzles like Mt. Moon, I should use the `master_navigator_agent` instead of relying on manual pathfinding and the simpler `automated_path_navigator`. This will be more efficient and less prone to error.
 - **Future Tool Improvement:** Upgrade `battle_automator` to incorporate type effectiveness logic for move selection, making it a more intelligent combat tool.
 7.  **Mandatory Self-Assessment:** Periodically, I must perform a structured self-review to ensure my strategies, documentation, and tool usage remain optimal and aligned with my core principles. This prevents strategic drift and corrects bad habits before they become ingrained.
+
+# VI. Puzzle Solver Agent Hypotheses (Mt. Moon Fossil)
+1.  **Lose to the Super Nerd:** Intentionally lose the battle against the Super Nerd at B2F (13, 9). He might offer a fossil as a 'consolation prize'.
+2.  **Show Revived Fossil:** The Super Nerd's dialogue might change if spoken to with a revived fossil Pokémon (HELIX the Omanyte) in the party.
+3.  **Give Geodude to Grunt:** The Rocket Grunt might accept a common Geodude, mistaking it for a fossil.
+4.  **Use Moon Stone on Environment:** The MOON STONE might need to be used on a specific environmental tile, not from the menu, to reveal a fossil.
