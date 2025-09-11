@@ -52,3 +52,10 @@
 2.  **Show Revived Fossil:** The Super Nerd's dialogue might change if spoken to with a revived fossil Pokémon (HELIX the Omanyte) in the party.
 3.  **Give Geodude to Grunt:** The Rocket Grunt might accept a common Geodude, mistaking it for a fossil.
 4.  **Use Moon Stone on Environment:** The MOON STONE might need to be used on a specific environmental tile, not from the menu, to reveal a fossil.
+
+# VII. Tile Mechanics Glossary
+- **ground**: Standard walkable tile.
+- **impassable**: Walls, rocks, cannot be entered.
+- **elevated_ground**: Walkable ground at a different height, requires 'steps' to access.
+- **steps**: Allows movement between 'ground' and 'elevated_ground'.
+- **ladder_up / ladder_down**: Warps between floors.
