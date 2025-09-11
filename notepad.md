@@ -56,14 +56,3 @@
     2.  The Super Nerd at B2F (13, 9) gives a fossil after being defeated. (Result: Failure, he only gives dialogue.)
     3.  The visible items at B2F (9, 9) and (5, 9) are fossils. (Result: Failure, they are non-interactive scenery.)
     4.  The Super Nerd provides a non-fossil key item. (Result: Failure, dialogue only.)
-
-# VIII. Current Mt. Moon Puzzle - New Hypotheses (from Agent)
-
-2.  **Hypothesis (Failed): A hidden switch or interactive object exists in the immediate vicinity of the Super Nerd and the two visible items.**
-    -   *Test Plan:* Systematically press the action button on all adjacent walls and objects around (13, 9), (9, 9), and (5, 9).
-    -   *Reasoning:* A new path might need to be created via a hidden environmental trigger.
-    -   **Result (Confirmed Failure):** Performed a systematic search of all adjacent walls around the three points of interest. No switches or interactive objects were found.
-3.  **Hypothesis (Failed): The Super Nerd's dialogue about Cinnabar is a misdirection, and he provides a different, non-fossil key item that will satisfy the Rocket Grunt.**
-    -   *Test Plan:* After interacting with the Super Nerd, check the Key Items pocket for any new items and present them to the Grunt.
-    -   *Reasoning:* Subverts the stated goal; the true objective is to pass the Grunt, not necessarily with a fossil.
-    -   **Result (Confirmed Failure):** Interacting with the Super Nerd only repeated his previous dialogue about the Cinnabar Lab. No new items were received.
