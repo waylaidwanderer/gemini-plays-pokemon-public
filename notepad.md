@@ -8,6 +8,9 @@
 7.  **Exhaust All Options (Mt. Moon Hiker Lesson):** A Hiker at Mt. Moon 1F (6, 7) blocked a path and was unmovable. Instead of getting stuck, I explored an alternative path via a ladder at (26, 16), which proved to be the correct way forward. This reinforces the need to explore all reachable alternatives when a path seems blocked.
 
 # II. Game Mechanics & World Data
+- **Gameplay Mechanics:**
+    - **Trap Battles:** Certain wild encounters appear to be 'trap' battles where the 'RUN' option is disabled (Observed: Wigglytuff, KADABRA; Suspected: Ditto).
+    - **Fossil Regeneration:** The Cinnabar Lab has a machine to regenerate fossils.
 - **Tile Mechanics:**
     - `ground`, `grass`: Standard traversable tiles.
     - `impassable`: Walls, counters, etc. Cannot be entered.
@@ -17,17 +20,16 @@
     - `warp tiles` (e.g., ladder_up, ladder_down, hole, teleport): Cause instant map transition. Often need to step off and back on to reuse.
     - `cuttable`: Tree that can be cut with HM Cut. Becomes `ground` after cutting, but respawns on map change or after battle.
     - `water`: Crossable using HM Surf.
-- **Gameplay Mechanics:**
-    - **Trap Battles:** Certain wild encounters appear to be 'trap' battles where the 'RUN' option is disabled (Observed: Wigglytuff, KADABRA; Suspected: Ditto).
-    - **Fossil Regeneration:** The Cinnabar Lab has a machine to regenerate fossils.
 
-# III. Key Puzzles & Events
-- **Mt. Moon Fossil Grunt:** A Rocket Grunt at (30,12) on B2F blocks a path. Requires a fossil item to pass.
-    - **Dialogue:** "If you find a fossil, give it to me and scram!"
-    - **Hypothesis 1 (Failed):** Giving the *revived* fossil Pokémon (HELIX) is sufficient.
-        - Test 1: HELIX in PC. Result: Failure.
-        - Test 2: HELIX as sole party member. Result: Failure.
-    - **Hypothesis 2 (Confirmed):** An actual 'Helix Fossil' or 'Dome Fossil' *item* is required. (Confirmed by Cinnabar Lab Scientist dialogue).
+# III. Current Quest: The Mt. Moon Fossil
+- **Objective:** Find a fossil item to give to the Rocket Grunt at Mt. Moon B2F (30, 12).
+- **Key Obstacle:** The path to the fossil is blocked by the Grunt, who states: "If you find a fossil, give it to me and scram!"
+- **Current Status:** After exhausting all leads in the eastern part of Mt. Moon, I discovered a new western section. However, the high encounter rate and a paralyzed lead Pokémon have forced a tactical retreat to a Pokémon Center. The party is now healed and ready to return.
+- **Failed Hypotheses Log:**
+    1.  Giving the *revived* fossil Pokémon (HELIX) is sufficient. (Result: Failure)
+    2.  The Super Nerd at B2F (13, 9) gives a fossil after being defeated. (Result: Failure, he only gives dialogue.)
+    3.  The visible items at B2F (9, 9) and (5, 9) are fossils. (Result: Failure, they are non-interactive scenery.)
+    4.  The Super Nerd provides a non-fossil key item. (Result: Failure, dialogue only.)
 
 # IV. Pokémon Data
 ## A. Wild Pokémon Locations & Movesets
@@ -44,18 +46,8 @@
 - Poison is not very effective against Poison (Observed: GOLBAT's SLUDGE vs ZUBAT).
 
 # V. Battle Strategy & Tool Usage
-- **Battle Automation Flow:** Use the consolidated `battle_automator` for routine wild battles and main menu navigation. For complex trainer battles, consult `comprehensive_battle_agent` for strategic advice. The `select_battle_option` tool is deprecated.
+- **Battle Automation Flow:** Use the consolidated `battle_automator` for routine wild battles and main menu navigation. For complex trainer battles, consult `comprehensive_battle_agent` for strategic advice.
 - **Navigation:** Use `automated_path_navigator` for standard point-to-point travel. For complex multi-floor navigation, test `multi_floor_navigation_agent` before defaulting to `navigation_strategist_agent`.
-
-# III. Mt. Moon Puzzle
-- **Objective:** Find a fossil item to give to the Rocket Grunt at B2F (30, 12).
-- **Key Obstacle:** The path to the fossil is blocked by the Grunt, who states: "If you find a fossil, give it to me and scram!"
-- **Current Status:** After exhausting all leads in the eastern part of Mt. Moon, I discovered a new western section. However, the high encounter rate and a paralyzed lead Pokémon have forced a tactical retreat to a Pokémon Center.
-- **Failed Hypotheses Log:**
-    1.  Giving the *revived* fossil Pokémon (HELIX) is sufficient. (Result: Failure)
-    2.  The Super Nerd at B2F (13, 9) gives a fossil after being defeated. (Result: Failure, he only gives dialogue.)
-    3.  The visible items at B2F (9, 9) and (5, 9) are fossils. (Result: Failure, they are non-interactive scenery.)
-    4.  The Super Nerd provides a non-fossil key item. (Result: Failure, dialogue only.)
 
 # VI. System & Tool Notes
 - **Tool Deletion Anomaly:** The `delete_tool` command consistently fails for `select_battle_option` with a 'not found' error, despite the tool being listed as available. Deprecating in practice instead of attempting further deletion.
