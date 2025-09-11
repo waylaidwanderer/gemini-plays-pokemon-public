@@ -53,6 +53,7 @@
 
 # VI. Tool Development & Maintenance
 - **`battle_sequence_automator`:** This tool has failed repeatedly due to multiple bugs (incorrect status move list, nickname vs. species matching, contaminated JSON output from debug prints, KeyError). It requires a full teardown and rebuild outside of active battle. Do not attempt to use it again until it has been properly fixed.
+    - **PRIORITY TASK:** Rebuild this tool at the next available opportunity (e.g., at a Pokémon Center) to restore battle automation capabilities.
 
 # VII. Current Mt. Moon Puzzle State
 - **Objective:** Find a fossil item to give to the Rocket Grunt at B2F (30, 12).
