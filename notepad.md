@@ -30,6 +30,7 @@
     2.  The Super Nerd at B2F (13, 9) gives a fossil after being defeated. (Result: Failure, he only gives dialogue.)
     3.  The visible items at B2F (9, 9) and (5, 9) are fossils. (Result: Failure, they are non-interactive scenery.)
     4.  The Super Nerd provides a non-fossil key item. (Result: Failure, dialogue only.)
+    5.  The Rocket Grunt will accept a fainted Omanyte. (Result: Failure, could not get Omanyte to faint after 3 attempts.)
 - **Untested Assumptions Log:**
     1.  **Assumption:** The *only* way to pass the grunt is with a fossil item. **Test Plan:** If all fossil-related hypotheses fail, try interacting with the grunt while using different key items or having different Pokémon in the lead.
     2.  **Assumption:** The encounter rate is uniform across this floor. **Test Plan:** If a wild Pokémon isn't found soon, move to a different walkable area on B2F to see if the encounter rate changes.
@@ -49,12 +50,11 @@
 - Poison is not very effective against Poison (Observed: GOLBAT's SLUDGE vs ZUBAT).
 
 # V. Battle Strategy & Tool Usage
-- **Battle Automation Flow:** Use the consolidated `battle_automator` for routine wild battles and main menu navigation. For complex trainer battles, consult `comprehensive_battle_agent` for strategic advice.
+- **Battle Automation Flow:** Use the consolidated `battle_automator` for all in-battle menu navigation (main menu and move selection). For complex trainer battles, consult `comprehensive_battle_agent` for high-level strategic advice.
 - **Navigation:** Use `automated_path_navigator` for standard point-to-point travel. For multi-floor buildings with known warp connections, use `multi_floor_navigation_agent`. For high-level exploration planning in complex, unknown areas, use `navigation_strategist_agent`.
 
 # VI. System & Tool Notes
 - **Tool Deletion Anomaly:** The `delete_tool` command consistently fails for `select_battle_option` with a 'not found' error, despite the tool being listed as available. Deprecating in practice instead of attempting further deletion.
 - **System & Tool Ideas:**
-    - **Battle Staller Agent:** An agent that can take a battle objective (e.g., 'survive X turns', 'get Pokémon Y to faint') and output an optimal sequence of non-damaging or strategic moves.
     - **Battle Staller Agent:** An agent that can take a battle objective (e.g., 'survive X turns', 'get Pokémon Y to faint') and output an optimal sequence of non-damaging or strategic moves.
 - **PP Management for Stalling:** When planning to stall in a battle (e.g., to faint a Pokémon intentionally), always check the PP of non-damaging moves beforehand. Running out of PP can force an attack and ruin the strategy.
