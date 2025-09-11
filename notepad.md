@@ -58,6 +58,8 @@
 # VI. System & Tool Notes
 - **Tool Deletion Anomaly:** The `delete_tool` command consistently fails for `select_battle_option` with a 'not found' error, despite the tool being listed as available. Deprecating in practice instead of attempting further deletion.
 - **PP Management for Stalling:** When planning to stall in a battle (e.g., to faint a Pokémon intentionally), always check the PP of non-damaging moves beforehand. Running out of PP can force an attack and ruin the strategy.
+- **Tool Refinement Needed (`battle_automator`):** The current zero-PP check is a temporary fix. A more robust solution is needed, such as parsing PP from the screen or creating an internal model of move states.
+- **Tool Refinement Needed (`automated_path_navigator`):** The tool must be enhanced to provide specific reasons for pathing failures (e.g., 'blocked by NPC', 'unreachable partition') to improve diagnostics.
 
 # VII. Confirmed Mechanics & Resolved Experiments
 - **Battle Menu Anomaly (Inconclusive):** A test suggested the move selection menu resets if confirmation is delayed, but a second identical test contradicted this. The exact mechanic is unknown and requires further investigation.
