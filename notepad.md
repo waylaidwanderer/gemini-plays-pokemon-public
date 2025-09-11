@@ -37,7 +37,7 @@
 ## A. Type Effectiveness Chart (Verified)
 - Water is super-effective against Rock/Ground (Observed: OMANYTE's SURF vs GEODUDE).
 - Water is not very effective against Bug/Grass (Observed: OMANYTE's BUBBLEBEAM vs PARAS).
-- Poison is not very effective against Poison/Flying (Confirmed: GOLBAT's SLUDGE vs ZUBAT).
+- Poison is not very effective against Poison/Flying (Confirmed: ECHO's SLUDGE vs ZUBAT) and Rock/Ground (Observed: ECHO's SLUDGE vs GEODUDE).
 - Flying is not very effective against Rock/Ground (Observed: ECHO's FLY vs GEODUDE).
 
 ## B. Notable Trainer Rosters
