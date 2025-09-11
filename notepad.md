@@ -75,3 +75,7 @@
 # IX. Future Plans & Reminders
 - **New Agent/Tool Idea:** Create a 'Team Composition Advisor' to suggest optimal parties for specific areas or gyms, based on known wild/trainer Pokémon.
 - **NPC Re-check:** After resolving the Mt. Moon fossil quest, re-interact with the Hiker at Mt. Moon 1F (6, 7) to see if he has moved.
+
+# IX. Future Plans & Reminders
+- **New Agent/Tool Idea:** Create a 'Battle Staller Agent' that can take a battle objective (e.g., 'survive X turns', 'get Pokémon Y to faint') and output an optimal sequence of non-damaging or strategic moves.
+- **NPC Re-check:** After resolving the Mt. Moon fossil quest, re-interact with the Hiker at Mt. Moon 1F (6, 7) to see if he has moved.
