@@ -22,12 +22,12 @@
     - **Fossil Regeneration:** The Cinnabar Lab has a machine to regenerate fossils.
 
 # III. Key Puzzles & Events
-- **Mt. Moon Fossil Grunt:** A Rocket Grunt at (30,12) on B2F blocks a path and requires a fossil to pass.
-    - **Hypothesis 1 (Failed):** Having the revived fossil Pokémon (HELIX) in the PC is sufficient. (Result: Grunt did not react).
-    - **Hypothesis 2 (Failed):** The revived fossil Pokémon (HELIX) must be the sole member of the active party. (Result: Grunt's dialogue was unchanged. He still wants a 'fossil' item, not the revived Pokémon.)
-    - **Hypothesis 3 (Confirmed):** The actual 'Helix Fossil' or 'Dome Fossil' item is required, not the revived Pokémon. (Confirmed by Cinnabar Lab Scientist).
-    - **Hypothesis 4:** A story flag must be triggered at the Cinnabar Island Pokémon Lab.
-    - **Hypothesis 5 (Confirmed):** The Grunt's dialogue is "If you find a fossil, give it to me and scram!". This confirms he is the obstacle and the fossil item is the key.
+- **Mt. Moon Fossil Grunt:** A Rocket Grunt at (30,12) on B2F blocks a path. Requires a fossil item to pass.
+    - **Dialogue:** "If you find a fossil, give it to me and scram!"
+    - **Hypothesis 1 (Failed):** Giving the *revived* fossil Pokémon (HELIX) is sufficient.
+        - Test 1: HELIX in PC. Result: Failure.
+        - Test 2: HELIX as sole party member. Result: Failure.
+    - **Hypothesis 2 (Confirmed):** An actual 'Helix Fossil' or 'Dome Fossil' *item* is required. (Confirmed by Cinnabar Lab Scientist dialogue).
 
 # IV. Pokémon Data
 ## A. Wild Pokémon Locations & Movesets
