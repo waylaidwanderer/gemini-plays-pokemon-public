@@ -63,5 +63,6 @@
   - **Hypothesis (Disproven):** The ladder at (18, 12) on B1F leads to the Super Nerd's area.
   - **Test Result:** The ladder leads to the eastern partition of B2F, which is a dead end containing the fossil-blocking Rocket Grunt.
   - **Test Result:** The ladder leads to the eastern partition of B2F, which is a dead end containing the fossil-blocking Rocket Grunt.
+  - **Test Result:** The ladder leads to the eastern partition of B2F, which is a dead end containing the fossil-blocking Rocket Grunt.
 - **New Assumption:** The fossil is in the eastern partition of B2F.
   - **Test Plan:** Explore this area and approach the Rocket Grunt.
