@@ -54,21 +54,12 @@
 # VI. Tool Development & Maintenance
 - **`battle_sequence_automator`:** This tool has failed repeatedly due to multiple bugs (incorrect status move list, nickname vs. species matching, contaminated JSON output from debug prints, KeyError). It requires a full teardown and rebuild outside of active battle. Do not attempt to use it again until it has been properly fixed.
 
-# VII. Current Assumptions & Tests
-- **Assumption (Disproven):** The fossil required by the Rocket Grunt is located on Mt. Moon 1F.
-  - **Test Result:** The entirety of Mt. Moon 1F has been explored, and no fossil item was found. This assumption is false.
-- **New Assumption (Updated):** The fossil is on B2F.
-  - **Test Result:** The western partition of Mt. Moon B1F has been fully explored and contains no fossil.
-  - **Test Result:** The partition of B2F accessible via the ladder at (14, 28) on B1F has been fully explored and contains no fossil.
-  - **Hypothesis (Disproven):** The ladder at (18, 12) on B1F leads to the Super Nerd's area.
-  - **Test Result:** The ladder leads to the eastern partition of B2F, which is a dead end containing the fossil-blocking Rocket Grunt.
-  - **New Hypothesis:** The only remaining unexplored path is to the Super Nerd's area. I must return to 1F to find a different route to that part of B1F/B2F.
-  - **Test Result:** The ladder leads to the eastern partition of B2F, which is a dead end containing the fossil-blocking Rocket Grunt.
-  - **New Hypothesis:** The only remaining unexplored path is to the Super Nerd's area. I must return to 1F to find a different route to that part of B1F/B2F.
-  - **Test Result:** The ladder leads to the eastern partition of B2F, which is a dead end containing the fossil-blocking Rocket Grunt.
-  - **New Hypothesis:** The only remaining unexplored path is to the Super Nerd's area. I must return to 1F to find a different route to that part of B1F/B2F.
-  - **Test Result:** The ladder leads to the eastern partition of B2F, which is a dead end containing the fossil-blocking Rocket Grunt.
-  - **Test Result:** The ladder leads to the eastern partition of B2F, which is a dead end containing the fossil-blocking Rocket Grunt.
-  - **Test Result:** The ladder leads to the eastern partition of B2F, which is a dead end containing the fossil-blocking Rocket Grunt.
-- **New Assumption:** The fossil is in the eastern partition of B2F.
-  - **Test Plan:** Explore this area and approach the Rocket Grunt.
+# VII. Current Mt. Moon Puzzle State
+- **Objective:** Find a fossil item to give to the Rocket Grunt at B2F (30, 12).
+- **Summary of Exploration:**
+  - Mt. Moon 1F: Fully explored. No fossil found.
+  - Mt. Moon B1F (Western Partition): Fully explored via ladder at 1F (26, 16). No fossil found.
+  - Mt. Moon B2F (Western Partition): Fully explored via ladder at B1F (14, 28). No fossil found.
+  - Mt. Moon B1F/B2F (Eastern/Dead End Partition): Accessed via ladder at 1F (18, 12). This is a dead end containing the fossil-blocking Grunt.
+- **Current Hypothesis:** The only remaining unexplored path is via the ladder at 1F (6, 6), which is located near the blocking Hiker. This must lead to the Super Nerd's area and the fossil.
+- **Test Plan:** Navigate to and use the ladder at Mt. Moon 1F (6, 6).
