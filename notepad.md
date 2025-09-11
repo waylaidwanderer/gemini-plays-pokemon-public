@@ -53,5 +53,4 @@
 - **PP Management for Stalling:** When planning to stall in a battle (e.g., to faint a Pokémon intentionally), always check the PP of non-damaging moves beforehand. Running out of PP can force an attack and ruin the strategy.
 - **Battle Menu Anomaly (Inconclusive):** A test suggested the move selection menu resets if confirmation is delayed, but a second identical test contradicted this. The exact mechanic is unknown and requires further investigation. All battle automation must now combine directional inputs and the 'A' press into a single turn's action.
 - **Master Navigator Agent Lesson:** For complex, multi-floor navigation puzzles like Mt. Moon, I should use the `master_navigator_agent` instead of relying on manual pathfinding and the simpler `automated_path_navigator`. This will be more efficient and less prone to error.
-- **Future Agent Idea:** Create an `itemfinder_assistant_agent` to suggest optimal search patterns for hidden items on a map.
 - **Future Tool Improvement:** Upgrade `battle_automator` to incorporate type effectiveness logic for move selection, making it a more intelligent combat tool.
