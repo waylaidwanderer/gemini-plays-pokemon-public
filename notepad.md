@@ -41,6 +41,7 @@
 ## C. Type Effectiveness Chart
 - Water is super-effective against Rock/Ground (Observed: OMANYTE's SURF vs GEODUDE).
 - Water is not very effective against Bug/Grass (Observed: OMANYTE's BUBBLEBEAM vs PARAS).
+- Poison is not very effective against Poison (Observed: GOLBAT's SLUDGE vs ZUBAT).
 
 # V. Battle Strategy & Tool Usage
 - **Battle Automation Flow:** Use `battle_automator` for routine wild battles to select the best damaging move. Note: This tool only outputs directional presses; the final 'A' confirmation is manual. For trainer battles, use `comprehensive_battle_agent` for strategic advice.
