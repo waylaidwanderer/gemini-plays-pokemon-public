@@ -55,6 +55,9 @@
 - **Hypothesis (Denied):** The Super Nerd at (13, 9) on B2F will give the player a choice of fossil after being defeated.
     - **Test:** Spoke to the Super Nerd after defeating him.
     - **Result:** He only provided dialogue about the Cinnabar Lab. No fossil was given.
-- **Current Hypothesis:** The two visible items behind the Super Nerd at (9, 9) and (5, 9) are the fossils, which became available after his defeat.
-- **Test Plan:** Navigate to one of the items and attempt to pick it up.
+- **Hypothesis (Denied):** The visible item at (9, 9) is a fossil.
+    - **Test:** Navigated to (10, 9), adjacent to the item. Attempted to interact twice.
+    - **Result:** Failure. The item is non-interactive background scenery.
+- **Current Hypothesis:** The second visible item at (5, 9) is the fossil.
+- **Test Plan:** Navigate to (6, 9), adjacent to the item, and attempt to interact.
 - **Future Improvement:** Consolidate `select_battle_option` and `battle_sequence_automator` into a single, more intelligent tool that can handle both the main battle menu and the move menu to streamline battle automation.
