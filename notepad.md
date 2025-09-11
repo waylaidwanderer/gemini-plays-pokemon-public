@@ -24,7 +24,7 @@
 # III. Current Quest: The Mt. Moon Fossil
 - **Objective:** Find a way to get past the Rocket Grunt at Mt. Moon B2F (30, 12).
 - **Key Obstacle:** The path to the fossil is blocked by the Grunt, who states: "If you find a fossil, give it to me and scram!"
-- **Current Status:** The MOON STONE hypothesis has failed. I need a new approach.
+- **Current Status:** Pursuing the top hypothesis from `puzzle_solver_agent`: travel to Cinnabar Island to attempt to 'de-revive' HELIX into a fossil item at the Pokémon Lab.
 - **Failed Hypotheses Log:**
     1.  Giving the *revived* fossil Pokémon (HELIX) is sufficient. (Result: Failure)
     2.  The Super Nerd at B2F (13, 9) gives a fossil after being defeated. (Result: Failure, he only gives dialogue.)
