@@ -766,7 +766,7 @@
         "player_party_json"
       ]
     },
-    "python_script": "import json\nimport re\n\nscreen_text = input_data['screen_text']\nplayer_party_json = input_data['player_party_json']\n\nif \"FIGHT\" in screen_text and \"PKMN\" in screen_text:\n    # In the main battle menu, the cursor starts on FIGHT. No directional press needed.\n    print(json.dumps([])) \n    exit()\n\nif \"TYPE/\" in screen_text or re.search(r'\\d+/\\d+', screen_text):\n    player_party = json.loads(player_party_json)\n    lines = screen_text.split('\\n')\n\n    active_pokemon_nickname = None\n    if len(lines) > 2:\n        match = re.match(r'^([A-Z-é.♀♂’]+)', lines[2].strip())\n        if match:\n            active_pokemon_nickname = match.group(1)\n\n    active_pokemon_data = None\n    if active_pokemon_nickname:\n        for pokemon in player_party:\n            if pokemon.get('name') == active_pokemon_nickname:\n                active_pokemon_data = pokemon\n                break\n\n    if not active_pokemon_data:\n        print(json.dumps([]))\n        exit()\n\n    moves_on_screen = []\n    cursor_index = -1\n    for i, line in enumerate(lines):\n        clean_line = line.replace('→', '').strip()\n        is_move = any(m['name'] == clean_line for m in active_pokemon_data.get('moves', []))\n        if is_move:\n            moves_on_screen.append(clean_line)\n            if '→' in line:\n                cursor_index = len(moves_on_screen) - 1\n\n    status_moves = [\"WITHDRAW\", \"CONFUSE RAY\", \"HAZE\", \"HARDEN\", \"FOCUS ENERGY\", \"ACID ARMOR\", \"MINIMIZE\", \"SAND-ATTACK\", \"STUN SPORE\", \"SLEEP POWDER\", \"LIGHT SCREEN\", \"THUNDER WAVE\", \"SUPERSONIC\"]\n\n    best_move_index = -1\n    for i, move_name in enumerate(moves_on_screen):\n        move_data = next((m for m in active_pokemon_data['moves'] if m['name'] == move_name), None)\n        if move_data and move_data.get('pp', 0) > 0 and move_name not in status_moves:\n            best_move_index = i\n            break\n\n    if best_move_index != -1 and cursor_index != -1:\n        moves_to_make = best_move_index - cursor_index\n        buttons = []\n        if moves_to_make > 0:\n            buttons.extend([\"Down\"] * moves_to_make)\n        elif moves_to_make < 0:\n            buttons.extend([\"Up\"] * abs(moves_to_make))\n        print(json.dumps(buttons))\n    else:\n        print(json.dumps([]))\nelse:\n    print(json.dumps([]))",
+    "python_script": "import json\nimport re\n\nscreen_text = input_data['screen_text']\nplayer_party_json = input_data['player_party_json']\n\nif \"FIGHT\" in screen_text and \"PKMN\" in screen_text:\n    print(json.dumps([]))\n    exit()\n\nif \"TYPE/\" in screen_text or re.search(r'\\d+/\\d+', screen_text):\n    player_party = json.loads(player_party_json)\n    lines = screen_text.split('\\n')\n\n    active_pokemon_nickname = None\n    if len(lines) > 2:\n        match = re.match(r'^([A-Z-é.♀♂’]+)', lines[2].strip())\n        if match:\n            active_pokemon_nickname = match.group(1)\n\n    active_pokemon_data = None\n    if active_pokemon_nickname:\n        for pokemon in player_party:\n            if pokemon.get('name') == active_pokemon_nickname:\n                active_pokemon_data = pokemon\n                break\n\n    if not active_pokemon_data:\n        print(json.dumps([]))\n        exit()\n\n    moves_on_screen = []\n    cursor_index = -1\n    for i, line in enumerate(lines):\n        clean_line = line.replace('→', '').strip()\n        is_move = any(m['name'] == clean_line for m in active_pokemon_data.get('moves', []))\n        if is_move:\n            moves_on_screen.append(clean_line)\n            if '→' in line:\n                cursor_index = len(moves_on_screen) - 1\n\n    status_moves = [\"WITHDRAW\", \"CONFUSE RAY\", \"HAZE\", \"HARDEN\", \"FOCUS ENERGY\", \"ACID ARMOR\", \"MINIMIZE\", \"SAND-ATTACK\", \"STUN SPORE\", \"SLEEP POWDER\", \"LIGHT SCREEN\", \"THUNDER WAVE\", \"SUPERSONIC\"]\n    two_turn_moves = [\"FLY\", \"DIG\", \"RAZOR WIND\", \"SKULL BASH\", \"SOLARBEAM\"]\n\n    best_move_index = -1\n    best_single_turn_move_index = -1\n\n    for i, move_name in enumerate(moves_on_screen):\n        move_data = next((m for m in active_pokemon_data['moves'] if m['name'] == move_name), None)\n        if move_data and move_data.get('pp', 0) > 0 and move_name not in status_moves:\n            if best_move_index == -1:\n                best_move_index = i\n            if move_name not in two_turn_moves:\n                best_single_turn_move_index = i\n                break\n\n    final_move_index = best_single_turn_move_index if best_single_turn_move_index != -1 else best_move_index\n\n    if final_move_index != -1 and cursor_index != -1:\n        moves_to_make = final_move_index - cursor_index\n        buttons = []\n        if moves_to_make > 0:\n            buttons.extend([\"Down\"] * moves_to_make)\n        elif moves_to_make < 0:\n            buttons.extend([\"Up\"] * abs(moves_to_make))\n        print(json.dumps(buttons))\n    else:\n        print(json.dumps([]))\nelse:\n    print(json.dumps([]))",
     "history": [
       {
         "commit_message": "feat: Create consolidated battle_automator tool. This new tool merges the functionality of the deprecated `select_battle_option` and `battle_sequence_automator` tools into a single, more robust solution. It intelligently detects whether the main battle menu or the move selection menu is active and takes the appropriate action. This directly addresses an Overwatch critique about tool redundancy and improves the overall efficiency of battle automation.",
@@ -777,6 +777,38 @@
         "commit_message": "fix: Correct key for Pokémon name lookup. The tool was failing because it was using `pokemon.get('nickname')` to find the active Pokémon in the party data, but the game state provides this information under the `name` key. This commit changes the lookup to use `pokemon.get('name')`, which is a critical fix to restore battle automation functionality.",
         "timestamp": "2025-09-11T06:29:31.407Z",
         "action_counter": 205365
+      },
+      {
+        "commit_message": "refactor: Prioritize single-turn moves. This commit refactors the move selection logic to prefer single-turn damaging moves over two-turn moves (like FLY or DIG). This addresses a critical Overwatch critique and improves battle efficiency by avoiding unnecessary delays. The tool will now select the first single-turn move, and only fall back to a two-turn move if no other damaging options are available.",
+        "timestamp": "2025-09-11T07:12:29.112Z",
+        "action_counter": 205452
+      },
+      {
+        "commit_message": "refactor: Prioritize single-turn moves. This commit refactors the move selection logic to prefer single-turn damaging moves over two-turn moves (like FLY or DIG). This addresses a critical Overwatch critique and improves battle efficiency by avoiding unnecessary delays. The tool will now select the first single-turn move, and only fall back to a two-turn move if no other damaging options are available.",
+        "timestamp": "2025-09-11T07:13:43.501Z",
+        "action_counter": 205454
+      }
+    ]
+  },
+  "automated_party_manager": {
+    "description": "Automates switching the lead Pokémon. It identifies the strongest, non-fainted Pokémon in the party (excluding the current leader) and generates the button presses to make it the new leader. This tool should be called from the overworld.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "player_party_json": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "player_party_json"
+      ]
+    },
+    "python_script": "import json\n\nplayer_party = json.loads(input_data['player_party_json'])\n\nif len(player_party) < 2:\n    print(json.dumps([]))\n    exit()\n\ncurrent_leader = player_party[0]\nstrongest_candidate = None\nstrongest_candidate_index = -1\n\nfor i, pokemon in enumerate(player_party[1:], 1):\n    if pokemon['current_hp'] > 0:\n        if strongest_candidate is None or pokemon['level'] > strongest_candidate['level']:\n            strongest_candidate = pokemon\n            strongest_candidate_index = i\n\nif strongest_candidate_index == -1:\n    print(json.dumps([]))\n    exit()\n\n# Sequence of button presses:\n# 1. Start to open menu\n# 2. Down to select 'POKéMON'\n# 3. A to open party screen\n# 4. Down to select the strongest Pokémon\n# 5. A to open sub-menu\n# 6. Down (x2) to select 'SWITCH'\n# 7. A to confirm 'SWITCH'\n# 8. Up (to select leader)\n# 9. A to confirm swap\n# 10. B to close party screen\n# 11. B to close main menu\n\nbuttons = []\nbuttons.append('Start')\nbuttons.append('Down')\nbuttons.append('A')\nbuttons.extend(['Down'] * strongest_candidate_index)\nbuttons.append('A')\nbuttons.extend(['Down', 'Down'])\nbuttons.append('A')\nbuttons.extend(['Up'] * strongest_candidate_index)\nbuttons.append('A')\nbuttons.append('B')\nbuttons.append('B')\n\nprint(json.dumps(buttons))",
+    "history": [
+      {
+        "commit_message": "feat: Create automated_party_manager tool. This tool automates the common, repetitive task of switching the lead Pokémon to the strongest available party member. This is a direct response to a self-assessment identifying a failure to proactively automate recurring tasks, which violates core directives.",
+        "timestamp": "2025-09-11T07:18:44.736Z",
+        "action_counter": 205466
       }
     ]
   }

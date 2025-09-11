@@ -67,9 +67,10 @@
     -   *Test Plan:* Re-confirm Super Nerd is defeated, then immediately interact with the items at (9, 9) and (5, 9).
     -   *Reasoning:* Classic RPG sequential trigger. The actions might need to be performed in a specific order.
     -   **Result (Confirmed Failure):** Both items at (9, 9) and (5, 9) are non-interactive background scenery, even after re-confirming the Super Nerd's defeated state. This hypothesis is fully debunked.
-2.  **Hypothesis: A hidden switch or interactive object exists in the immediate vicinity of the Super Nerd and the two visible items.**
+2.  **Hypothesis (Failed): A hidden switch or interactive object exists in the immediate vicinity of the Super Nerd and the two visible items.**
     -   *Test Plan:* Systematically press the action button on all adjacent walls and objects around (13, 9), (9, 9), and (5, 9).
     -   *Reasoning:* A new path might need to be created via a hidden environmental trigger.
+    -   **Result (Confirmed Failure):** Performed a systematic search of all adjacent walls around the three points of interest. No switches or interactive objects were found.
 3.  **Hypothesis: The Super Nerd's dialogue about Cinnabar is a misdirection, and he provides a different, non-fossil key item that will satisfy the Rocket Grunt.**
     -   *Test Plan:* After interacting with the Super Nerd, check the Key Items pocket for any new items and present them to the Grunt.
     -   *Reasoning:* Subverts the stated goal; the true objective is to pass the Grunt, not necessarily with a fossil.
