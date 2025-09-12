@@ -12,6 +12,12 @@
 - **Gameplay Mechanics:**
     - **Trap Battles:** Certain wild encounters appear to be 'trap' battles where the 'RUN' option is disabled (Observed: Wigglytuff, KADABRA; Suspected: Ditto).
     - **Fossil Regeneration:** The Cinnabar Lab has a machine to regenerate fossils.
+- **Tile Mechanics (Verified):**
+    - `impassable`: Solid barrier. Cannot be entered.
+    - `elevated_ground`: Walkable ground at a different elevation. Cannot be entered from `ground` directly.
+    - `ground`: Standard walkable tile.
+    - `steps`: The only tile type that allows movement between `ground` and `elevated_ground`.
+    - `ladder_up` / `ladder_down`: Warps that lead to different floors.
 
 # III. Quest Log
 - **Current Quest: The Mt. Moon Fossil**
@@ -19,7 +25,7 @@
     - **Hypothesis:** One of the rocks in Mt. Moon is interactable and contains a fossil.
     - **Method:** Systematically check every single 'impassable' rock tile on all floors of Mt. Moon.
     - **Progress:** All reachable rocks on Mt. Moon 1F have been checked and were not interactable.
-    - **Next Step:** Proceed to Mt. Moon B1F and begin the systematic rock search there.
+    - **Next Step:** Continue systematic rock search on Mt. Moon B1F.
 
 # IV. Battle Intel
 - **Type Effectiveness Chart (Verified):**
@@ -38,4 +44,6 @@
 - **NPC Passability:** Some NPCs, like the Super Nerd in Rock Tunnel B1F at (4,6), can be walked through.
 
 # VI. Future Automation Ideas
-- **Full Search Automator:** Brainstorm a tool that can handle the entire search loop: find target -> path to target -> turn -> interact -> mark -> repeat. This would fully automate systematic searches like the current rock-checking task.
+- **Full Search Automator:** A master tool that executes the entire systematic search loop. 
+    - **Logic:** 1. Call `rock_checker_automator` to get a path. 2. Execute the path. 3. Automatically press 'A' to interact. 4. Automatically call `define_map_marker` to mark the spot. 5. Repeat the loop until the tool returns no more targets.
+    - **Challenge:** Would require a tool that can call other tools and press buttons, which may require a more advanced system or a stateful script.
