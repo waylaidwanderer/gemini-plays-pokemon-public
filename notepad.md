@@ -13,16 +13,6 @@
 - **Gameplay Mechanics:**
     - **Trap Battles:** Certain wild encounters appear to be 'trap' battles where the 'RUN' option is disabled (Observed: Wigglytuff, KADABRA; Suspected: Ditto).
     - **Fossil Regeneration:** The Cinnabar Lab has a machine to regenerate fossils.
-- **Tile Mechanics Glossary:**
-    - **ground**: Standard walkable tile.
-    - **impassable**: Walls, rocks, cannot be entered.
-    - **elevated_ground**: Walkable ground at a different height, requires 'steps' to access.
-    - **steps**: Allows movement between 'ground' and 'elevated_ground'.
-    - **ladder_up / ladder_down**: Warps between floors.
-    - **cuttable**: Tree that can be cut with HM Cut.
-    - **ledge**: Can be jumped down, but not climbed up.
-    - **grass**: Tall grass for wild Pokémon encounters.
-    - **water**: Crossable using HM Surf.
 
 # III. Current Quest: The Mt. Moon Fossil
 - **Objective:** Find a fossil item to give to the Rocket Grunt at Mt. Moon B2F (30, 12).
