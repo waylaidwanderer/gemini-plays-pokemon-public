@@ -11,6 +11,16 @@
 - **Gameplay Mechanics:**
     - **Trap Battles:** Certain wild encounters appear to be 'trap' battles where the 'RUN' option is disabled (Observed: Wigglytuff, KADABRA; Suspected: Ditto).
     - **Fossil Regeneration:** The Cinnabar Lab has a machine to regenerate fossils.
+- **Tile Mechanics Glossary:**
+    - **ground**: Standard walkable tile.
+    - **impassable**: Walls, rocks, cannot be entered.
+    - **elevated_ground**: Walkable ground at a different height, requires 'steps' to access.
+    - **steps**: Allows movement between 'ground' and 'elevated_ground'.
+    - **ladder_up / ladder_down**: Warps between floors.
+    - **cuttable**: Tree that can be cut with HM Cut.
+    - **ledge**: Can be jumped down, but not climbed up.
+    - **grass**: Tall grass for wild Pokémon encounters.
+    - **water**: Crossable using HM Surf.
 
 # III. Current Quest: The Mt. Moon Fossil
 - **Objective:** Find a fossil item to give to the Rocket Grunt at Mt. Moon B2F (30, 12).
@@ -47,20 +57,9 @@
 - **PP Management for Stalling:** When planning to stall in a battle (e.g., to faint a Pokémon intentionally), always check the PP of non-damaging moves beforehand. Running out of PP can force an attack and ruin the strategy.
 - **Battle Menu Anomaly (Inconclusive):** A test suggested the move selection menu resets if confirmation is delayed, but a second identical test contradicted this. The exact mechanic is unknown and requires further investigation. All battle automation must now combine directional inputs and the 'A' press into a single turn's action.
 - **Master Navigator Agent Lesson:** For complex, multi-floor, partitioned navigation puzzles like Mt. Moon, I should use the `master_navigator_agent` instead of relying on manual pathfinding and the simpler `automated_path_navigator` to avoid hallucinations.
+- **Menu Navigation Tool Idea:** The party sub-menu (SURF/STATS/SWITCH/CANCEL) has a tricky layout. If I continue to struggle with this type of menu, consider creating a more specialized tool or agent that can handle non-standard grid layouts.
 
 # VI. Puzzle Solver Agent Hypotheses (Mt. Moon Fossil)
 1.  **Lose to the Super Nerd:** Intentionally lose the battle against the Super Nerd at B2F (13, 9). He might offer a fossil as a 'consolation prize'.
 2.  **Give Geodude to Grunt:** The Rocket Grunt might accept a common Geodude, mistaking it for a fossil.
 3.  **Use Moon Stone on Environment:** The MOON STONE might need to be used on a specific environmental tile, not from the menu, to reveal a fossil.
-
-# VII. Tile Mechanics Glossary
-- **ground**: Standard walkable tile.
-- **impassable**: Walls, rocks, cannot be entered.
-- **elevated_ground**: Walkable ground at a different height, requires 'steps' to access.
-- **steps**: Allows movement between 'ground' and 'elevated_ground'.
-- **ladder_up / ladder_down**: Warps between floors.
-- **cuttable**: Tree that can be cut with HM Cut.
-- **ledge**: Can be jumped down, but not climbed up.
-- **grass**: Tall grass for wild Pokémon encounters.
-- **water**: Crossable using HM Surf.
-- **Menu Navigation Tool Idea:** The party sub-menu (SURF/STATS/SWITCH/CANCEL) has a tricky layout. If I continue to struggle with this type of menu, consider creating a more specialized tool or agent that can handle non-standard grid layouts.
