@@ -16,7 +16,6 @@
     - **Passable NPCs:** Some NPCs that appear to block paths can be walked through (Observed: Super Nerd in Rock Tunnel B1F at (4,6)). Must be tested case-by-case.
     - **Ladder/Warp Re-use:** To use a 1x1 warp tile (like a ladder) immediately after arriving on it, one must first step off the tile and then step back on.
     - **Ledge Traversal:** Ledges are one-way only. Jumping down is an irreversible move for that path.
-    - **Interactable Scenery Hypothesis:** Currently testing the hypothesis that one specific 'impassable' rock tile in Mt. Moon is interactable to solve a puzzle.
 
 # III. Quest Log
 - **Current Quest: The Mt. Moon Fossil**
