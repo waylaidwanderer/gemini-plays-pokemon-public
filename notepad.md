@@ -40,3 +40,9 @@
 - **Agent Idea: `StuckDetectorAgent`:** An agent that analyzes movement patterns to detect loops and suggest new targets to break them.
 - **Contingency Plan Update:** To combat confirmation bias, if the systematic rock search of all Mt. Moon floors fails, the next immediate hypothesis to test will be a systematic sweep of all floors with the ITEMFINDER.
 - **Hypothesis Retest:** After exhausting the rock search on Mt. Moon 1F, I must return to the Hiker at (6, 7) and interact with him again to confirm his state has not changed.
+
+# VI. Tile Mechanics Encyclopedia
+- **ground:** Standard walkable tile.
+- **grass:** Walkable tile where wild Pokémon can be encountered.
+- **impassable:** A wall or object that cannot be walked on or through.
+- **ladder_up / ladder_down:** Warps that move between floors.
