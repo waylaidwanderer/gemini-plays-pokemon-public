@@ -708,72 +708,6 @@
       }
     ]
   },
-  "select_menu_option": {
-    "description": "Takes the output of `menu_analyzer` and a target option string (e.g., a Pokémon's name) and calculates the precise sequence of button presses (Up/Down/Left/Right) required to move the cursor from its current position to the target option. This tool ONLY generates directional movements; a separate 'A' press is required to confirm a selection.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "menu_analyzer_output": {
-          "type": "string"
-        },
-        "target_option": {
-          "type": "string"
-        }
-      },
-      "required": [
-        "menu_analyzer_output",
-        "target_option"
-      ]
-    },
-    "python_script": "import json\n\ntry:\n    menu_analyzer_output = json.loads(input_data['menu_analyzer_output'])\n    target_option = input_data['target_option']\n\n    options = menu_analyzer_output.get('options', [])\n    cursor_position = menu_analyzer_output.get('cursor_position')\n    layout = menu_analyzer_output.get('layout', 'single_column')\n\n    if not options or cursor_position is None or target_option not in options:\n        print(json.dumps([]))\n        exit()\n\n    current_idx = options.index(cursor_position)\n    target_idx = options.index(target_option)\n    \n    button_presses = []\n\n    if layout == 'single_column':\n        diff = target_idx - current_idx\n        if diff > 0:\n            button_presses.extend(['Down'] * diff)\n        elif diff < 0:\n            button_presses.extend(['Up'] * abs(diff))\n    \n    elif layout == '2x2_grid':\n        pos_map = {\n            0: (0, 0), 1: (0, 1),\n            2: (1, 0), 3: (1, 1)\n        }\n        current_row, current_col = pos_map.get(current_idx, (0,0))\n        target_row, target_col = pos_map.get(target_idx, (0,0))\n\n        row_diff = target_row - current_row\n        col_diff = target_col - current_col\n\n        if row_diff > 0: button_presses.extend(['Down'] * row_diff)\n        elif row_diff < 0: button_presses.extend(['Up'] * abs(row_diff))\n        \n        if col_diff > 0: button_presses.extend(['Right'] * col_diff)\n        elif col_diff < 0: button_presses.extend(['Left'] * abs(col_diff))\n\n    print(json.dumps(button_presses))\n\nexcept Exception as e:\n    print(json.dumps([]))",
-    "history": [
-      {
-        "commit_message": "feat: Create select_menu_option tool to automate menu navigation. This is a direct response to a critical Overwatch critique highlighting repeated failures in manual menu selection. This tool will take parsed menu data and a target string to calculate the necessary button presses, making actions like switching Pokémon reliable and efficient. This is a foundational step towards robust automation.",
-        "timestamp": "2025-09-05T13:04:30.935Z",
-        "action_counter": 191653
-      },
-      {
-        "commit_message": "feat: Create select_menu_option tool to automate menu navigation. This is a direct response to a critical self-assessment identifying repeated failures in manual menu selection. This tool will take parsed menu data and a target string to calculate the necessary button presses, making actions like switching Pokémon reliable and efficient. This is a foundational step towards robust automation.",
-        "timestamp": "2025-09-05T15:26:15.417Z",
-        "action_counter": 191919
-      },
-      {
-        "commit_message": "feat: Create select_menu_option tool to automate menu navigation. This is a direct response to a critical Overwatch critique identifying deferred tool maintenance. This tool will take parsed menu data and a target string to calculate the necessary button presses, making actions like switching Pokémon or using HMs reliable and efficient. This is a foundational step towards robust automation.",
-        "timestamp": "2025-09-05T16:41:36.614Z",
-        "action_counter": 192054
-      },
-      {
-        "commit_message": "fix: Add JSON parsing for menu_analyzer_output. The tool was failing because it received a JSON string but was attempting to treat it as a dictionary. This commit adds the necessary `json.loads()` call to correctly parse the input, which is a critical fix to enable automated menu navigation.",
-        "timestamp": "2025-09-05T16:43:47.725Z",
-        "action_counter": 192058
-      },
-      {
-        "commit_message": "feat: Create select_menu_option tool to automate menu navigation. This is a direct response to a critical Overwatch critique highlighting my failure to implement documented tool ideas. This tool will take parsed menu data and a target string to calculate the necessary button presses, making actions like switching Pokémon reliable and efficient. This is a foundational step towards robust automation.",
-        "timestamp": "2025-09-05T17:08:33.939Z",
-        "action_counter": 192101
-      },
-      {
-        "commit_message": "fix: Add JSON parsing for menu_analyzer_output. The tool was failing because it received a JSON string but was attempting to treat it as a dictionary. This commit adds the necessary `json.loads()` call to correctly parse the input, which is a critical fix to enable automated menu navigation.",
-        "timestamp": "2025-09-06T04:55:31.148Z",
-        "action_counter": 193297
-      },
-      {
-        "commit_message": "feat: Add support for 2x2 grid layouts. The tool previously only handled single-column menus, causing it to fail on any other layout. This commit adds logic to calculate horizontal and vertical movements for grid-based menus, making the tool more versatile and robust for general menu automation.",
-        "timestamp": "2025-09-07T01:03:38.390Z",
-        "action_counter": 195485
-      },
-      {
-        "commit_message": "feat: Add `confirm_selection` argument. This commit adds a boolean flag to automatically append an 'A' button press to the calculated movement sequence. This addresses a critical flaw where the tool would move the cursor but not actually select the option, making menu automation unreliable. This is a direct response to a gameplay failure and an Overwatch critique.",
-        "timestamp": "2025-09-08T09:45:57.565Z",
-        "action_counter": 199361
-      },
-      {
-        "commit_message": "refactor: Remove automatic 'A' press and `confirm_selection` flag. The system has repeatedly shown issues with mixed directional and action button sequences, leading to tool failure. This commit refactors the tool to only generate directional movements, forcing a more reliable two-step process (move, then confirm) for menu navigation. This is a direct response to a critical tool failure and an Overwatch critique.",
-        "timestamp": "2025-09-08T11:58:46.787Z",
-        "action_counter": 199602
-      }
-    ]
-  },
   "battle_automator": {
     "description": "A consolidated battle tool that handles both the main battle menu and the move selection menu. It can select a specific main menu option if requested, or otherwise perform the optimal action: selecting 'FIGHT' from the main menu or the best available damaging move from the move menu, now with type effectiveness logic. IMPORTANT: This tool now ONLY outputs directional movements; a separate 'A' press is required to confirm a selection.",
     "input_schema": {
@@ -906,7 +840,7 @@
         "target_tile_type"
       ]
     },
-    "python_script": "import json\nimport collections\nimport xml.etree.ElementTree as ET\n\ntry:\n    start_x = int(input_data['start_x'])\n    start_y = int(input_data['start_y'])\n    target_tile_type = input_data['target_tile_type']\n\n    root = ET.fromstring(map_xml_string)\n    map_width = int(root.get('width'))\n    map_height = int(root.get('height'))\n    tiles = {}\n    debug_prints = []\n\n    for row in root.findall('Row'):\n        y = int(row.get('id'))\n        for tile_elem in row.findall('Tile'):\n            x = int(tile_elem.get('id'))\n            obj = tile_elem.find('Object')\n            marker = tile_elem.find('Marker')\n            has_marker_flag = marker is not None\n            if has_marker_flag:\n                debug_prints.append(f\"Marker found at ({x}, {y})\")\n            tiles[(x, y)] = {\n                'type': tile_elem.get('type'),\n                'has_object': tile_elem.get('has-object') == 'true',\n                'object_id_name': obj.get('id-name') if obj is not None else None,\n                'has_marker': has_marker_flag\n            }\n\n    interaction_points = set()\n    for (x, y), tile_info in tiles.items():\n        if tile_info['type'] == target_tile_type:\n            for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n                adj_pos = (x + dx, y + dy)\n                adj_tile_info = tiles.get(adj_pos)\n                if adj_tile_info and adj_tile_info['type'] in {'ground', 'grass', 'elevated_ground', 'steps'}:\n                    if not adj_tile_info['has_marker']:\n                        interaction_points.add(adj_pos)\n                    else:\n                        debug_prints.append(f\"Point {adj_pos} for rock ({x},{y}) ignored due to marker.\")\n\n    reason_string = ''\n    if not interaction_points:\n        reason_string = 'No unmarked, reachable interaction points found.'\n        debug_info = \" | DEBUG: \" + \" || \".join(debug_prints)\n        print(json.dumps({'success': False, 'reason': reason_string + debug_info, 'path_plan': []}))\n        exit()\n    \n    debug_prints.append(f\"Found {len(interaction_points)} points: {sorted(list(interaction_points))}\")\n\n    start_pos = (start_x, start_y)\n    queue = collections.deque([(start_pos, [start_pos])])\n    visited = {start_pos}\n    \n    base_traversable_tile_types = {'ground', 'grass', 'elevated_ground', 'steps', 'ladder_up', 'ladder_down', 'teleport', 'hole'}\n\n    path_found = None\n\n    while queue:\n        current_pos, path = queue.popleft()\n\n        if current_pos in interaction_points:\n            path_found = path\n            break\n\n        (cx, cy) = current_pos\n        current_tile_info = tiles.get(current_pos)\n        for dx, dy in [(-1, 0), (1, 0), (0, -1), (0, 1)]:\n            next_pos = (cx + dx, cy + dy)\n            if next_pos in visited:\n                continue\n\n            if not (1 <= next_pos[0] <= map_width and 1 <= next_pos[1] <= map_height):\n                continue\n            \n            next_tile_info = tiles.get(next_pos)\n            if not next_tile_info or next_tile_info['type'] not in base_traversable_tile_types:\n                continue\n            \n            if current_tile_info and {current_tile_info['type'], next_tile_info['type']} == {'ground', 'elevated_ground'}:\n                continue\n            \n            if next_tile_info['has_object'] and next_tile_info.get('object_id_name', '').upper() != 'PIKACHU':\n                continue\n\n            visited.add(next_pos)\n            new_path = list(path)\n            new_path.append(next_pos)\n            queue.append((next_pos, new_path))\n    \n    debug_info = \" | DEBUG: \" + \" || \".join(debug_prints)\n    if path_found:\n        final_path_coords = [{'x': p[0], 'y': p[1]} for p in path_found]\n        final_path_coords.append(final_path_coords[-1])\n        reason_string = 'Path to nearest interaction point found.'\n        print(json.dumps({'success': True, 'reason': reason_string + debug_info, 'path_plan': final_path_coords}))\n    else:\n        reason_string = 'Could not find a path to any of the interaction points.'\n        print(json.dumps({'success': False, 'reason': reason_string + debug_info, 'path_plan': []}))\n\nexcept Exception as e:\n    print(json.dumps({'success': False, 'reason': f'An error occurred: {str(e)}', 'path_plan': []}))\n",
+    "python_script": "import json\nimport collections\nimport xml.etree.ElementTree as ET\n\ntry:\n    start_x = int(input_data['start_x'])\n    start_y = int(input_data['start_y'])\n    target_tile_type = input_data['target_tile_type']\n\n    root = ET.fromstring(map_xml_string)\n    map_width = int(root.get('width'))\n    map_height = int(root.get('height'))\n    tiles = {}\n    debug_prints = []\n\n    for row in root.findall('Row'):\n        y = int(row.get('id'))\n        for tile_elem in row.findall('Tile'):\n            x = int(tile_elem.get('id'))\n            obj = tile_elem.find('Object')\n            marker = tile_elem.find('Marker')\n            has_marker_flag = marker is not None\n            if has_marker_flag:\n                debug_prints.append(f\"Marker found at ({x}, {y})\")\n            tiles[(x, y)] = {\n                'type': tile_elem.get('type'),\n                'has_object': tile_elem.get('has-object') == 'true',\n                'object_id_name': obj.get('id-name') if obj is not None else None,\n                'has_marker': has_marker_flag\n            }\n\n    interaction_points = set()\n    for (x, y), tile_info in tiles.items():\n        if tile_info['type'] == target_tile_type:\n            for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n                adj_pos = (x + dx, y + dy)\n                adj_tile_info = tiles.get(adj_pos)\n                if adj_tile_info and adj_tile_info['type'] in {'ground', 'grass', 'elevated_ground', 'steps'}:\n                    if not adj_tile_info['has_marker']:\n                        interaction_points.add(adj_pos)\n                    else:\n                        debug_prints.append(f\"Point {adj_pos} for rock ({x},{y}) ignored due to marker.\")\n\n    start_pos = (start_x, start_y)\n    interaction_points.discard(start_pos)\n\n    reason_string = ''\n    if not interaction_points:\n        reason_string = 'No unmarked, reachable interaction points found.'\n        debug_info = \" | DEBUG: \" + \" || \".join(debug_prints)\n        print(json.dumps({'success': False, 'reason': reason_string + debug_info, 'path_plan': []}))\n        exit()\n    \n    debug_prints.append(f\"Found {len(interaction_points)} points: {sorted(list(interaction_points))}\")\n\n    queue = collections.deque([(start_pos, [start_pos])])\n    visited = {start_pos}\n    \n    base_traversable_tile_types = {'ground', 'grass', 'elevated_ground', 'steps', 'ladder_up', 'ladder_down', 'teleport', 'hole'}\n\n    path_found = None\n\n    while queue:\n        current_pos, path = queue.popleft()\n\n        if current_pos in interaction_points:\n            path_found = path\n            break\n\n        (cx, cy) = current_pos\n        current_tile_info = tiles.get(current_pos)\n        for dx, dy in [(-1, 0), (1, 0), (0, -1), (0, 1)]:\n            next_pos = (cx + dx, cy + dy)\n            if next_pos in visited:\n                continue\n\n            if not (1 <= next_pos[0] <= map_width and 1 <= next_pos[1] <= map_height):\n                continue\n            \n            next_tile_info = tiles.get(next_pos)\n            if not next_tile_info or next_tile_info['type'] not in base_traversable_tile_types:\n                continue\n            \n            if current_tile_info and {current_tile_info['type'], next_tile_info['type']} == {'ground', 'elevated_ground'}:\n                continue\n            \n            if next_tile_info['has_object'] and next_tile_info.get('object_id_name', '').upper() != 'PIKACHU':\n                continue\n\n            visited.add(next_pos)\n            new_path = list(path)\n            new_path.append(next_pos)\n            queue.append((next_pos, new_path))\n    \n    debug_info = \" | DEBUG: \" + \" || \".join(debug_prints)\n    if path_found:\n        final_path_coords = [{'x': p[0], 'y': p[1]} for p in path_found]\n        final_path_coords.append(final_path_coords[-1])\n        reason_string = 'Path to nearest interaction point found.'\n        print(json.dumps({'success': True, 'reason': reason_string + debug_info, 'path_plan': final_path_coords}))\n    else:\n        reason_string = 'Could not find a path to any of the interaction points.'\n        print(json.dumps({'success': False, 'reason': reason_string + debug_info, 'path_plan': []}))\n\nexcept Exception as e:\n    print(json.dumps({'success': False, 'reason': f'An error occurred: {str(e)}', 'path_plan': []}))\n",
     "history": [
       {
         "commit_message": "feat: Create map_interaction_planner tool. This tool automates the tedious process of systematically searching a map for interactable scenery by generating an efficient path to visit every tile of a specified type (e.g., 'impassable'). This is a direct response to a self-assessment identifying the need to automate repetitive, manual exploration tasks and will significantly speed up testing the 'interactable rock' hypothesis for the Mt. Moon fossil puzzle.",
@@ -942,6 +876,11 @@
         "commit_message": "fix: Add debug prints to diagnose marker issue. The tool is incorrectly returning previously checked locations. This commit adds extensive logging to the 'reason' field of the output to track which tiles it identifies as having markers and which interaction points it considers valid. This is a critical step to identify and fix the bug preventing the systematic rock search from progressing.",
         "timestamp": "2025-09-12T11:22:17.610Z",
         "action_counter": 208198
+      },
+      {
+        "commit_message": "fix: Prevent tool from getting stuck on its own location. The tool was returning a zero-length path if the starting position was also the closest interaction point. This commit adds a line to explicitly remove the starting position from the set of valid targets before beginning the pathfinding search, ensuring it always finds the *next* closest point. This is a critical fix to unblock the systematic rock search.",
+        "timestamp": "2025-09-12T12:22:03.764Z",
+        "action_counter": 208326
       }
     ]
   }

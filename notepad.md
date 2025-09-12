@@ -15,6 +15,15 @@
 14. **Master Navigator Agent Lesson:** For complex, multi-floor, partitioned navigation puzzles like Mt. Moon, use the `master_navigator_agent` to avoid hallucinations.
 15. **Leverage Strategic Agents:** When simple automation tools fail, pivot to using high-level strategic agents for advice and execute manually.
 
+## 1.1. Future Improvements & Automation
+- **Tool Idea: `rock_checker_automator`:** Create a high-level tool that automates the entire rock-checking loop.
+    - **Inputs:** `start_x`, `start_y`, `target_tile_type`.
+    - **Logic:** 1. Call `map_interaction_planner` to get the path. 2. If path found, generate button presses for path, turn, and 'A'. 3. After interaction, call `define_map_marker`. 4. Output full sequence for `autopress_buttons`.
+    - **Purpose:** Streamline the current 4-5 turn manual process into a single tool call.
+- **Contingency Plan Update:** To combat confirmation bias, if the systematic rock search of all Mt. Moon floors fails, the next immediate hypothesis to test will be a systematic sweep of all floors with the ITEMFINDER. This should be done before attempting more complex theories like needing a Pokémon with 'Dig'.
+- **Agent Idea: `StuckDetectorAgent`:** An agent that analyzes movement patterns to detect loops. If a loop is found, it would review the list of remaining objectives/targets (like the interaction points from the planner) and suggest a new, distant target to manually override the current plan and break the loop.
+- **Hypothesis Retest:** After exhausting the rock search on Mt. Moon 1F, I must return to the Hiker at (6, 7) and interact with him again to confirm his state has not changed.
+
 # II. Game World Mechanics
 - **Gameplay Mechanics:**
     - **Trap Battles:** Certain wild encounters appear to be 'trap' battles where the 'RUN' option is disabled (Observed: Wigglytuff, KADABRA; Suspected: Ditto).
@@ -51,9 +60,3 @@
     - **Brock (Pewter Gym):** OMASTAR (Lv 64 - HYDRO PUMP, BLIZZARD), ONIX (Lv 65 - EARTHQUAKE, ROCK SLIDE), KABUTOPS (Lv 64 - SWORDS DANCE, SLASH), GOLEM (Lv 64 - ROCK SLIDE), NINETALES (Lv 64 - REFLECT), AERODACTYL (Lv 65 - FLY).
 - **Wild Pokémon Locations:**
     - **Cerulean Cave:** WIGGLYTUFF (Lv 62 - LOVELY KISS, DOUBLE-EDGE, REST), SANDSLASH (Lv 63 - SWORDS DANCE, EARTHQUAKE), GOLEM (Lv 64 - EXPLOSION), LICKITUNG (Lv 61 - WRAP), CHANSEY (Lv 63 - DEFENSE CURL, MEGA PUNCH), RAICHU (Lv 64 - AGILITY).
-
-# V. Future Plans & Automation Ideas
-- **Tool Idea: `rock_checker_automator`:** Create a high-level tool that automates the entire loop of: 1. Find closest unmarked 'impassable' tile. 2. Path to adjacent tile. 3. Press 'A'. 4. Mark the tile as checked. 5. Repeat. This would streamline the current tedious manual process.
-- **Contingency Plan Update:** To combat confirmation bias, if the systematic rock search of all Mt. Moon floors fails, the next immediate hypothesis to test will be a systematic sweep of all floors with the ITEMFINDER. This should be done before attempting more complex theories like needing a Pokémon with 'Dig'.
-- **Agent Idea: `StuckDetectorAgent`:** An agent that analyzes movement patterns to detect loops. If a loop is found, it would review the list of remaining objectives/targets (like the interaction points from the planner) and suggest a new, distant target to manually override the current plan and break the loop.
-- **Hypothesis Retest:** After exhausting the rock search on Mt. Moon 1F, I must return to the Hiker at (6, 7) and interact with him again to confirm his state has not changed.
