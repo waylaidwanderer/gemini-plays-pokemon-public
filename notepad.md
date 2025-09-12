@@ -1,19 +1,12 @@
 # I. Meta-Strategy & Core Principles
-1.  **Immediate Maintenance:** All data management (notepad, markers) and tool/agent refinement is the HIGHEST priority and MUST be performed in the same turn a need is identified, regardless of game state.
+1.  **Immediate Maintenance:** All data management (notepad, markers) and tool/agent refinement is the HIGHEST priority and MUST be performed in the same turn a need is identified, regardless of game state. Deferring these tasks is a critical failure.
 2.  **Proactive Automation & Refinement:** Before any complex or repetitive task, I must first consider automating it with a tool or agent. If one doesn't exist, creating it is the new priority. If an agent or tool is suboptimal, I must prioritize refining it immediately.
 3.  **Trust, But Verify:** I must trust the outputs of my agents and system data. However, if a tool's output contradicts the Game State Information, my assumption must be that the tool is wrong, and I must debug it.
-4.  **Confirmation Bias Warning (Route 2 Lesson):** I incorrectly assumed the Route 2 Gatehouse was a viable shortcut. I must trust my pathfinding tool's 'no path found' results and investigate the reason for the failure rather than assuming the tool is wrong.
-5.  **Exhaust All Options (Mt. Moon Hiker Lesson):** A Hiker at Mt. Moon 1F (6, 7) blocked a path. Instead of getting stuck, I explored an alternative path via a ladder at (26, 16), which was the correct way forward. This reinforces the need to explore all reachable alternatives when a path seems blocked.
-6.  **Warp Discipline:** After every warp, my first action must be to check and, if necessary, create/update markers on **both** the departure and arrival maps.
-7.  **Mandatory Self-Assessment:** Periodically, I must perform a structured self-review to ensure my strategies, documentation, and tool usage remain optimal and aligned with my core principles.
-8.  **Map Partition Awareness (Mt. Moon B1F Lesson):** I hallucinated reachable warps by failing to recognize the map was partitioned into disconnected areas. I must always verify path connectivity between my current position and any target, not just assume all tiles on a map are connected.
-9.  **Efficiency Over Fixation (Wild Battle Lesson):** If a simple automation tool fails during a low-stakes, repetitive task (like a wild battle), it is more efficient to complete the task manually and fix the tool later, rather than getting stuck debugging mid-task. High-level strategic agents can provide a better alternative than faulty simple automation.
-10. **Tool Deletion Anomaly:** The `delete_tool` command consistently fails for `select_battle_option` with a 'not found' error. Deprecating in practice instead of attempting further deletion.
-11. **Tool Deprecation (`select_battle_option`):** Per Overwatch critique, this tool is inefficient. I will cease using it in favor of direct manual input or `battle_automator`.
-12. **PP Management for Stalling:** When planning to stall in a battle, always check the PP of non-damaging moves beforehand.
-13. **Battle Menu Anomaly (Confirmed):** The system's tool execution is unreliable when combining directional inputs with an action button ('A') in a single turn. Automation must separate these into separate turns.
-14. **Master Navigator Agent Lesson:** For complex, multi-floor, partitioned navigation puzzles like Mt. Moon, use the `master_navigator_agent` to avoid hallucinations.
-15. **Leverage Strategic Agents:** When simple automation tools fail, pivot to using high-level strategic agents for advice and execute manually.
+4.  **Hypothesis-Driven Exploration:** All exploration must be guided by a clear, documented hypothesis. I must avoid wandering aimlessly and systematically test one variable at a time, documenting all results.
+5.  **Warp Discipline:** After every warp, my first action must be to check and, if necessary, create/update markers on **both** the departure and arrival maps.
+6.  **Mandatory Self-Assessment:** Every 50 turns, I must perform a structured self-review to ensure my strategies, documentation, and tool usage remain optimal and aligned with my core principles.
+7.  **Efficiency Over Fixation:** If a simple automation tool fails during a low-stakes, repetitive task (like a wild battle), it is more efficient to complete the task manually and fix the tool later, rather than getting stuck debugging mid-task.
+8.  **Battle Menu Anomaly (Confirmed):** The system's tool execution is unreliable when combining directional inputs with an action button ('A') in a single turn. Automation must separate these into separate turns.
 
 ## 1.1. Future Improvements & Automation
 - **Tool Idea: `rock_checker_automator`:** Create a high-level tool that automates the entire rock-checking loop.
