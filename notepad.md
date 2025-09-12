@@ -12,14 +12,14 @@
 - **Gameplay Mechanics:**
     - **Trap Battles:** Certain wild encounters appear to be 'trap' battles where the 'RUN' option is disabled (Observed: Wigglytuff, KADABRA; Suspected: Ditto).
     - **Fossil Regeneration:** The Cinnabar Lab has a machine to regenerate fossils.
-- **Tile & Movement Mechanics (Player-Discovered):**
-    - **Passable NPCs:** Some NPCs that appear to block paths can be walked through (Observed: Super Nerd in Rock Tunnel B1F at (4,6)). Must be tested case-by-case.
-    - **Ladder/Warp Re-use:** To use a 1x1 warp tile (like a ladder) immediately after arriving on it, one must first step off the tile and then step back on.
-    - **Ledge Traversal:** Ledges are one-way only. Jumping down is an irreversible move for that path.
 
 # III. Quest Log
 - **Current Quest: The Mt. Moon Fossil**
-        4. The Hiker at 1F (6, 7) moves after a different trigger (already tested post-Super Nerd, but keeping in mind).
+    - **Objective:** Find a fossil to give to the Rocket Grunt blocking the path at Mt. Moon B2F (30,12).
+    - **Hypothesis:** One of the rocks in Mt. Moon is interactable and contains a fossil.
+    - **Method:** Systematically check every single 'impassable' rock tile on all floors of Mt. Moon.
+    - **Progress:** All reachable rocks on Mt. Moon 1F have been checked and were not interactable.
+    - **Next Step:** Proceed to Mt. Moon B1F and begin the systematic rock search there.
 
 # IV. Battle Intel
 - **Type Effectiveness Chart (Verified):**
@@ -34,15 +34,12 @@
 - **Wild Pokémon Locations:**
     - **Cerulean Cave:** WIGGLYTUFF (Lv 62 - LOVELY KISS, DOUBLE-EDGE, REST), SANDSLASH (Lv 63 - SWORDS DANCE, EARTHQUAKE), GOLEM (Lv 64 - EXPLOSION), LICKITUNG (Lv 61 - WRAP), CHANSEY (Lv 63 - DEFENSE CURL, MEGA PUNCH), RAICHU (Lv 64 - AGILITY).
 
-# V. Future Improvements & Automation
-- **Tool Improvement Idea (from Overwatch):** Enhance `map_interaction_planner` to provide specific failure reasons, distinguishing between simple obstacles and puzzle elements like boulder barriers.
-- **Tool Idea: `rock_checker_automator`:** Create a high-level tool that automates the entire rock-checking loop to streamline the current manual process.
-- **Agent Idea: `StuckDetectorAgent`:** An agent that analyzes movement patterns to detect loops and suggest new targets to break them.
-- **Contingency Plan Update:** To combat confirmation bias, if the systematic rock search of all Mt. Moon floors fails, the next immediate hypothesis to test will be a systematic sweep of all floors with the ITEMFINDER.
-- **Hypothesis Retest:** After exhausting the rock search on Mt. Moon 1F, I must return to the Hiker at (6, 7) and interact with him again to confirm his state has not changed.
-
-# VI. Tile Mechanics Encyclopedia
+# V. Tile Mechanics Encyclopedia
 - **ground:** Standard walkable tile.
 - **grass:** Walkable tile where wild Pokémon can be encountered.
 - **impassable:** A wall or object that cannot be walked on or through.
-- **ladder_up / ladder_down:** Warps that move between floors.
+- **ladder_up / ladder_down:** Warps that move between floors. To re-use immediately, must step off and on again.
+- **elevated_ground:** Walkable ground at a different elevation. Cannot be accessed from 'ground' directly.
+- **steps:** The only tile type that allows movement between 'ground' and 'elevated_ground'.
+- **ledge:** One-way tile. Can only be jumped down from the tile above it (Y-1). Impassable from all other directions.
+- **Passable NPCs:** Some NPCs that appear to block paths can be walked through (Observed: Super Nerd in Rock Tunnel B1F at (4,6)). Must be tested case-by-case.
