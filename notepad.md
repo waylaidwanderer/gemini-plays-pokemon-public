@@ -16,13 +16,12 @@
 
 # III. Current Quest: The Mt. Moon Fossil
 - **Objective:** Find a fossil item to give to the Rocket Grunt at Mt. Moon B2F (30, 12).
-- **Current Plan:** Test new hypotheses from the puzzle_solver_agent, starting with having a thematic Pokémon (HELIX) lead the party when talking to the Rocket Grunt.
+- **Current Plan:** Test new hypotheses from the puzzle_solver_agent, starting with searching for an interactable rock formation.
 - **New Hypotheses (from Agent):**
-    1. A Pokémon with the Pickup ability can find the fossil.
-    2. The Hiker at 1F (6, 7) moves after a different trigger (already tested post-Super Nerd, but keeping in mind).
-    3. An interactable rock formation somewhere in Mt. Moon gives the fossil.
-    4. Using the move 'Dig' on a specific tile unearths the fossil.
-    5. A thematically related Pokémon (e.g., Cubone, Geodude, Omanyte) in the party's lead slot triggers new dialogue.
+    1. An interactable rock formation somewhere in Mt. Moon gives the fossil.
+    2. A Pokémon with the Pickup ability can find the fossil.
+    3. Using the move 'Dig' on a specific tile unearths the fossil.
+    4. The Hiker at 1F (6, 7) moves after a different trigger (already tested post-Super Nerd, but keeping in mind).
 - **Failed Hypotheses Log:**
     1.  Giving the *revived* fossil Pokémon (HELIX) is sufficient. (Result: Failure)
     2.  The Super Nerd at B2F (13, 9) gives a fossil after being defeated. (Result: Failure)
@@ -35,6 +34,7 @@
     9. The fossil is a hidden item on Mt. Moon B2F. (Result: Failure, ITEMFINDER search yielded only an ETHER).
     10. The Super Nerd's dialogue might change if spoken to with a revived fossil Pokémon (HELIX the Omanyte) in the party. (Result: Failure, dialogue unchanged).
     11. The Hiker at 1F (6, 7) is passable like some NPCs in Rock Tunnel. (Result: Failure, movement was blocked).
+    12. A thematically related Pokémon (HELIX the Omanyte) in the party's lead slot triggers new dialogue with the Rocket Grunt. (Result: Failure, dialogue unchanged).
 
 # IV. Pokémon & Battle Data
 ## A. Type Effectiveness Chart (Verified)
