@@ -16,7 +16,7 @@
 
 # III. Current Quest: The Mt. Moon Fossil
 - **Objective:** Find a fossil item to give to the Rocket Grunt at Mt. Moon B2F (30, 12).
-- **Current Plan:** Test new hypotheses from the puzzle_solver_agent, starting with searching for an interactable rock formation.
+- **Current Plan:** Upon arriving at Mt. Moon, create the `map_interaction_planner` tool. Use it to test the hypothesis that an interactable rock formation gives the fossil.
 - **New Hypotheses (from Agent):**
     1. An interactable rock formation somewhere in Mt. Moon gives the fossil.
     2. A Pokémon with the Pickup ability can find the fossil.
