@@ -38,6 +38,7 @@
     8.  A Pokémon nicknamed 'FOSSIL' will satisfy the Grunt. (Result: Failure, dialogue unchanged.)
     9. The fossil is a hidden item on Mt. Moon B2F. (Result: Failure, ITEMFINDER search yielded only an ETHER).
     10. The Super Nerd's dialogue might change if spoken to with a revived fossil Pokémon (HELIX the Omanyte) in the party. (Result: Failure, dialogue unchanged).
+    11. The Hiker at 1F (6, 7) is passable like some NPCs in Rock Tunnel. (Result: Failure, movement was blocked).
 
 # IV. Pokémon & Battle Data
 ## A. Type Effectiveness Chart (Verified)
