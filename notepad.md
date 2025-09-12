@@ -55,3 +55,5 @@
 # V. Future Plans & Automation Ideas
 - **Tool Idea: `rock_checker_automator`:** Create a high-level tool that automates the entire loop of: 1. Find closest unmarked 'impassable' tile. 2. Path to adjacent tile. 3. Press 'A'. 4. Mark the tile as checked. 5. Repeat. This would streamline the current tedious manual process.
 - **Contingency Plan Update:** To combat confirmation bias, if the systematic rock search of all Mt. Moon floors fails, the next immediate hypothesis to test will be a systematic sweep of all floors with the ITEMFINDER. This should be done before attempting more complex theories like needing a Pokémon with 'Dig'.
+- **Agent Idea: `StuckDetectorAgent`:** An agent that analyzes movement patterns to detect loops. If a loop is found, it would review the list of remaining objectives/targets (like the interaction points from the planner) and suggest a new, distant target to manually override the current plan and break the loop.
+- **Hypothesis Retest:** After exhausting the rock search on Mt. Moon 1F, I must return to the Hiker at (6, 7) and interact with him again to confirm his state has not changed.
