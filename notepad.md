@@ -59,7 +59,7 @@
 - **Leverage Strategic Agents:** When simple automation tools fail or become inefficient (e.g., `battle_automator` in a complex fight), I should pivot to using high-level strategic agents like `comprehensive_battle_agent` for advice, then execute the recommended actions manually.
 
 # VI. Tile Mechanics Glossary (Player-Discovered)
-- *This section is for documenting my own observations about how tiles behave in this specific ROM hack.*
+*This section is for documenting my own observations about how tiles behave in this specific ROM hack.*
 
 # VII. Tool & Agent Development Ideas
 - **New Tool Idea: `map_interaction_planner`**: Create a tool similar to `itemfinder_search_planner` that generates a path to systematically interact with every tile of a specific type (e.g., 'impassable' for rocks, or specific object names) on the current map. This would automate searching for hidden interactable scenery.
