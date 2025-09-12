@@ -37,3 +37,9 @@
     - **Cerulean Cave:** WIGGLYTUFF (Lv 62 - LOVELY KISS, DOUBLE-EDGE, REST), SANDSLASH (Lv 63 - SWORDS DANCE, EARTHQUAKE), GOLEM (Lv 64 - EXPLOSION), LICKITUNG (Lv 61 - WRAP), CHANSEY (Lv 63 - DEFENSE CURL, MEGA PUNCH), RAICHU (Lv 64 - AGILITY).
 - **Tool Improvement Idea (from Overwatch):** Enhance `map_interaction_planner` to provide specific failure reasons, distinguishing between simple obstacles and puzzle elements like boulder barriers.
 - **Tool Improvement Idea (from Overwatch):** Enhance `map_interaction_planner` to provide specific failure reasons, distinguishing between simple obstacles and puzzle elements like boulder barriers.
+
+# V. Future Improvements & Automation
+- **Tool Idea: `rock_checker_automator`:** Create a high-level tool that automates the entire rock-checking loop to streamline the current manual process.
+- **Agent Idea: `StuckDetectorAgent`:** An agent that analyzes movement patterns to detect loops and suggest new targets to break them.
+- **Contingency Plan Update:** To combat confirmation bias, if the systematic rock search of all Mt. Moon floors fails, the next immediate hypothesis to test will be a systematic sweep of all floors with the ITEMFINDER.
+- **Hypothesis Retest:** After exhausting the rock search on Mt. Moon 1F, I must return to the Hiker at (6, 7) and interact with him again to confirm his state has not changed.
