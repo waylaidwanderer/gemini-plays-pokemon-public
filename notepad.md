@@ -6,6 +6,7 @@
 5.  **Exhaust All Options (Mt. Moon Hiker Lesson):** A Hiker at Mt. Moon 1F (6, 7) blocked a path. Instead of getting stuck, I explored an alternative path via a ladder at (26, 16), which was the correct way forward. This reinforces the need to explore all reachable alternatives when a path seems blocked.
 6.  **Warp Discipline:** After every warp, my first action must be to check and, if necessary, create/update markers on **both** the departure and arrival maps.
 7.  **Mandatory Self-Assessment:** Periodically, I must perform a structured self-review to ensure my strategies, documentation, and tool usage remain optimal and aligned with my core principles.
+8.  **Map Partition Awareness (Mt. Moon B1F Lesson):** I hallucinated reachable warps by failing to recognize the map was partitioned into disconnected areas. I must always verify path connectivity between my current position and any target, not just assume all tiles on a map are connected.
 
 # II. Game Mechanics & World Data
 - **Gameplay Mechanics:**
@@ -24,8 +25,8 @@
 
 # III. Current Quest: The Mt. Moon Fossil
 - **Objective:** Find a fossil item to give to the Rocket Grunt at Mt. Moon B2F (30, 12).
-- **Current Plan:** Explore Mt. Moon to find a path to the main section of B2F where a fossil might be located.
-- **Failed Hypotheses Log (Mt. Moon Fossil):
+- **Current Plan:** Explore Mt. Moon to find a path to the main section of B2F where a fossil might be located. The path via the Hiker at 1F (6,7) is blocked, so I am exploring the alternate route starting from the ladder at 1F (26,16).
+- **Failed Hypotheses Log:
     1.  Giving the *revived* fossil Pokémon (HELIX) is sufficient. (Result: Failure)
     2.  The Super Nerd at B2F (13, 9) gives a fossil after being defeated. (Result: Failure)
     3.  The visible items at B2F (9, 9) and (5, 9) are fossils. (Result: Failure, non-interactive scenery.)
@@ -36,6 +37,10 @@
     8.  A Pokémon nicknamed 'FOSSIL' will satisfy the Grunt. (Result: Failure, dialogue unchanged.)
     9. The fossil is a hidden item on Mt. Moon B2F. (Result: Failure, ITEMFINDER search yielded only an ETHER).
     10. The Super Nerd's dialogue might change if spoken to with a revived fossil Pokémon (HELIX the Omanyte) in the party. (Result: Failure, dialogue unchanged).
+- **Next Hypotheses to Test (from `puzzle_solver_agent`):**
+    1.  **Lose to the Super Nerd:** Intentionally lose the battle against the Super Nerd at B2F (13, 9). He might offer a fossil as a 'consolation prize'.
+    2.  **Give Geodude to Grunt:** The Rocket Grunt might accept a common Geodude, mistaking it for a fossil.
+    3.  **Use Moon Stone on Environment:** The MOON STONE might need to be used on a specific environmental tile, not from the menu, to reveal a fossil.
 
 # IV. Pokémon & Battle Data
 ## A. Type Effectiveness Chart (Verified)
@@ -55,12 +60,6 @@
 # V. System & Tool Notes
 - **Tool Deletion Anomaly:** The `delete_tool` command consistently fails for `select_battle_option` with a 'not found' error, despite the tool being listed as available. Deprecating in practice instead of attempting further deletion.
 - **PP Management for Stalling:** When planning to stall in a battle (e.g., to faint a Pokémon intentionally), always check the PP of non-damaging moves beforehand. Running out of PP can force an attack and ruin the strategy.
-- **Battle Menu Anomaly (Inconclusive):** A test suggested the move selection menu resets if confirmation is delayed, but a second identical test contradicted this. The exact mechanic is unknown and requires further investigation. All battle automation must now combine directional inputs and the 'A' press into a single turn's action.
+- **Battle Menu Anomaly (Confirmed):** The system's tool execution pipeline is unreliable when a tool's output combines directional inputs (Up/Down/Left/Right) with an action button ('A') in a single turn. This was observed during a battle where the `battle_automator` failed to execute `['Down', 'Down', 'A']` but manual, separate inputs of `['Down', 'Down']` and then `['A']` worked. All future automation must account for this by separating directional movements from action confirmations into separate turns.
 - **Master Navigator Agent Lesson:** For complex, multi-floor, partitioned navigation puzzles like Mt. Moon, I should use the `master_navigator_agent` instead of relying on manual pathfinding and the simpler `automated_path_navigator` to avoid hallucinations.
 - **Menu Navigation Tool Idea:** The party sub-menu (SURF/STATS/SWITCH/CANCEL) has a tricky layout. If I continue to struggle with this type of menu, consider creating a more specialized tool or agent that can handle non-standard grid layouts.
-
-# VI. Puzzle Solver Agent Hypotheses (Mt. Moon Fossil)
-1.  **Lose to the Super Nerd:** Intentionally lose the battle against the Super Nerd at B2F (13, 9). He might offer a fossil as a 'consolation prize'.
-2.  **Give Geodude to Grunt:** The Rocket Grunt might accept a common Geodude, mistaking it for a fossil.
-3.  **Use Moon Stone on Environment:** The MOON STONE might need to be used on a specific environmental tile, not from the menu, to reveal a fossil.
-8.  **Map Partition Awareness (Mt. Moon B1F Lesson):** I hallucinated reachable warps by failing to recognize the map was partitioned into disconnected areas. I must always verify path connectivity between my current position and any target, not just assume all tiles on a map are connected.
