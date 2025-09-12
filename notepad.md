@@ -63,3 +63,4 @@
 - **ledge**: Can be jumped down, but not climbed up.
 - **grass**: Tall grass for wild Pokémon encounters.
 - **water**: Crossable using HM Surf.
+- **Menu Navigation Tool Idea:** The party sub-menu (SURF/STATS/SWITCH/CANCEL) has a tricky layout. If I continue to struggle with this type of menu, consider creating a more specialized tool or agent that can handle non-standard grid layouts.
