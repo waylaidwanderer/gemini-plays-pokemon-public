@@ -25,7 +25,7 @@
 
 # III. Current Quest: The Mt. Moon Fossil
 - **Objective:** Find a fossil item to give to the Rocket Grunt at Mt. Moon B2F (30, 12).
-- **Current Plan:** Explore Mt. Moon to find a path to the main section of B2F where a fossil might be located. The path via the Hiker at 1F (6,7) is blocked, so I am exploring the alternate route starting from the ladder at 1F (26,16).
+- **Current Plan:** Explore Mt. Moon to find a path to the main section of B2F. The path via the Hiker at 1F (6,7) is blocked, so I am exploring an alternate route starting from the ladder at 1F (26,16).
 - **Failed Hypotheses Log:**
     1.  Giving the *revived* fossil Pokémon (HELIX) is sufficient. (Result: Failure)
     2.  The Super Nerd at B2F (13, 9) gives a fossil after being defeated. (Result: Failure)
@@ -62,4 +62,3 @@
 - **PP Management for Stalling:** When planning to stall in a battle (e.g., to faint a Pokémon intentionally), always check the PP of non-damaging moves beforehand. Running out of PP can force an attack and ruin the strategy.
 - **Battle Menu Anomaly (Confirmed):** The system's tool execution pipeline is unreliable when a tool's output combines directional inputs (Up/Down/Left/Right) with an action button ('A') in a single turn. This was observed during a battle where the `battle_automator` failed to execute `['Down', 'Down', 'A']` but manual, separate inputs of `['Down', 'Down']` and then `['A']` worked. All future automation must account for this by separating directional movements from action confirmations into separate turns.
 - **Master Navigator Agent Lesson:** For complex, multi-floor, partitioned navigation puzzles like Mt. Moon, I should use the `master_navigator_agent` instead of relying on manual pathfinding and the simpler `automated_path_navigator` to avoid hallucinations.
-- **Menu Navigation Tool Idea:** The party sub-menu (SURF/STATS/SWITCH/CANCEL) has a tricky layout. If I continue to struggle with this type of menu, consider creating a more specialized tool or agent that can handle non-standard grid layouts.
