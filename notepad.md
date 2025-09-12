@@ -51,18 +51,18 @@
 ## C. Wild Pokémon Locations
 - **Cerulean Cave:** WIGGLYTUFF (Lv 62 - LOVELY KISS, DOUBLE-EDGE, REST), SANDSLASH (Lv 63 - SWORDS DANCE, EARTHQUAKE), GOLEM (Lv 64 - EXPLOSION), LICKITUNG (Lv 61 - WRAP), CHANSEY (Lv 63 - DEFENSE CURL, MEGA PUNCH), RAICHU (Lv 64 - AGILITY).
 
-# V. System & Tool Notes
-- **Tool Deletion Anomaly:** The `delete_tool` command consistently fails for `select_battle_option` with a 'not found' error, despite the tool being listed as available. Deprecating in practice instead of attempting further deletion.
-- **Tool Deprecation (`select_battle_option`):** Per Overwatch critique, the `select_battle_option` tool is inefficient as it requires manual button presses in a separate turn. I will cease using this tool in favor of direct manual input for battle menu selections.
-- **PP Management for Stalling:** When planning to stall in a battle (e.g., to faint a Pokémon intentionally), always check the PP of non-damaging moves beforehand. Running out of PP can force an attack and ruin the strategy.
-- **Battle Menu Anomaly (Confirmed):** The system's tool execution pipeline is unreliable when a tool's output combines directional inputs (Up/Down/Left/Right) with an action button ('A') in a single turn. This was observed during a battle where the `battle_automator` failed to execute `['Down', 'Down', 'A']` but manual, separate inputs of `['Down', 'Down']` and then `['A']` worked. All future automation must account for this by separating directional movements from action confirmations into separate turns.
-- **Master Navigator Agent Lesson:** For complex, multi-floor, partitioned navigation puzzles like Mt. Moon, I should use the `master_navigator_agent` instead of relying on manual pathfinding and the simpler `automated_path_navigator` to avoid hallucinations.
-- **Leverage Strategic Agents:** When simple automation tools fail or become inefficient (e.g., `battle_automator` in a complex fight), I should pivot to using high-level strategic agents like `comprehensive_battle_agent` for advice, then execute the recommended actions manually.
-
-# VI. Tile Mechanics Glossary (Player-Discovered)
-*This section is for documenting my own observations about how tiles behave in this specific ROM hack.*
-- **Passable NPCs:** Some NPCs that appear to block paths can be walked through (Observed: Super Nerd in Rock Tunnel B1F at (4,6)). This is not a universal rule and must be tested on a case-by-case basis.
+# V. System & World Mechanics
+## A. System & Tool Notes
+- **Tool Deletion Anomaly:** The `delete_tool` command consistently fails for `select_battle_option` with a 'not found' error. Deprecating in practice instead of attempting further deletion.
+- **Tool Deprecation (`select_battle_option`):** Per Overwatch critique, this tool is inefficient. I will cease using it in favor of direct manual input or `battle_automator`.
+- **PP Management for Stalling:** When planning to stall in a battle, always check the PP of non-damaging moves beforehand.
+- **Battle Menu Anomaly (Confirmed):** The system's tool execution is unreliable when combining directional inputs with an action button ('A') in a single turn. Automation must separate these into separate turns.
+- **Master Navigator Agent Lesson:** For complex, multi-floor, partitioned navigation puzzles like Mt. Moon, use the `master_navigator_agent` to avoid hallucinations.
+- **Leverage Strategic Agents:** When simple automation tools fail, pivot to using high-level strategic agents for advice and execute manually.
+## B. Tile & Movement Mechanics (Player-Discovered)
+- **Passable NPCs:** Some NPCs that appear to block paths can be walked through (Observed: Super Nerd in Rock Tunnel B1F at (4,6)). Must be tested case-by-case.
 - **Ladder/Warp Re-use:** To use a 1x1 warp tile (like a ladder) immediately after arriving on it, one must first step off the tile and then step back on.
+- **Ledge Traversal:** Ledges are one-way only. Jumping down is an irreversible move for that path.
 
-# VII. Tool & Agent Development Ideas
+# VI. Tool & Agent Development Ideas
 - **New Tool Idea: `map_interaction_planner`**: Create a tool similar to `itemfinder_search_planner` that generates a path to systematically interact with every tile of a specific type (e.g., 'impassable' for rocks, or specific object names) on the current map. This would automate searching for hidden interactable scenery.
