@@ -23,6 +23,7 @@
     2. A Pokémon with the Pickup ability can find the fossil.
     3. Using the move 'Dig' on a specific tile unearths the fossil.
     4. The Hiker at 1F (6, 7) moves after a different trigger (already tested post-Super Nerd, but keeping in mind).
+- **Contingency Plan:** If the rock search fails on all floors, the next step is to test other hypotheses, such as using the ITEMFINDER systematically or acquiring a Pokémon with 'Dig' or 'Pickup'.
 - **Failed Hypotheses Log:**
     1.  Giving the *revived* fossil Pokémon (HELIX) is sufficient. (Result: Failure)
     2.  The Super Nerd at B2F (13, 9) gives a fossil after being defeated. (Result: Failure)
@@ -65,3 +66,4 @@
 - Ladder/Warp Re-use: To use a 1x1 warp tile (like a ladder) immediately after arriving on it, one must first step off the tile and then step back on.
 - Ledge Traversal: Ledges are one-way only. Jumping down is an irreversible move for that path.
 - Elevation Change: Movement between 'ground' and 'elevated_ground' tiles is only possible via an intermediate 'steps' tile. Direct transitions are impassable.
+- Impassable Tiles: These form the walls and obstacles of the world. Currently testing the hypothesis that one specific 'impassable' rock tile in Mt. Moon is interactable to solve a puzzle.
