@@ -66,3 +66,4 @@
 - Ledge Traversal: Ledges are one-way only. Jumping down is an irreversible move for that path.
 
 # VI. Tool & Agent Development Ideas
+- Elevation Change: Movement between 'ground' and 'elevated_ground' tiles is only possible via an intermediate 'steps' tile. Direct transitions are impassable.
