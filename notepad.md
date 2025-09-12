@@ -63,3 +63,4 @@
 1.  **Lose to the Super Nerd:** Intentionally lose the battle against the Super Nerd at B2F (13, 9). He might offer a fossil as a 'consolation prize'.
 2.  **Give Geodude to Grunt:** The Rocket Grunt might accept a common Geodude, mistaking it for a fossil.
 3.  **Use Moon Stone on Environment:** The MOON STONE might need to be used on a specific environmental tile, not from the menu, to reveal a fossil.
+8.  **Map Partition Awareness (Mt. Moon B1F Lesson):** I hallucinated reachable warps by failing to recognize the map was partitioned into disconnected areas. I must always verify path connectivity between my current position and any target, not just assume all tiles on a map are connected.
