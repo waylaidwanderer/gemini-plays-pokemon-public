@@ -63,3 +63,7 @@
 
 # VII. Tool & Agent Development Ideas
 - **New Tool Idea: `map_interaction_planner`**: Create a tool similar to `itemfinder_search_planner` that generates a path to systematically interact with every tile of a specific type (e.g., 'impassable' for rocks, or specific object names) on the current map. This would automate searching for hidden interactable scenery.
+
+# VII. Tile Mechanics Glossary (Player-Discovered)
+- **Passable NPCs:** Some NPCs that appear to block paths can be walked through (Observed: Super Nerd in Rock Tunnel B1F at (4,6)). This is not a universal rule and must be tested on a case-by-case basis.
+- **Ladder/Warp Re-use:** To use a 1x1 warp tile (like a ladder) immediately after arriving on it, one must first step off the tile and then step back on.
