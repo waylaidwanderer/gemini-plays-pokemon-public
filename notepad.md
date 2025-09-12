@@ -61,10 +61,8 @@
 - **Master Navigator Agent Lesson:** For complex, multi-floor, partitioned navigation puzzles like Mt. Moon, use the `master_navigator_agent` to avoid hallucinations.
 - **Leverage Strategic Agents:** When simple automation tools fail, pivot to using high-level strategic agents for advice and execute manually.
 ## B. Tile & Movement Mechanics (Player-Discovered)
-- **`impassable`:** Standard walls, rocks, and other scenery that block movement. Interaction requires being adjacent.
-- **`ground` / `elevated_ground`:** Standard walkable tiles.
-- **Passable NPCs:** Some NPCs that appear to block paths can be walked through (Observed: Super Nerd in Rock Tunnel B1F at (4,6)). Must be tested case-by-case.
-- **Ladder/Warp Re-use:** To use a 1x1 warp tile (like a ladder) immediately after arriving on it, one must first step off the tile and then step back on.
-- **Ledge Traversal:** Ledges are one-way only. Jumping down is an irreversible move for that path.
+- Passable NPCs: Some NPCs that appear to block paths can be walked through (Observed: Super Nerd in Rock Tunnel B1F at (4,6)). Must be tested case-by-case.
+- Ladder/Warp Re-use: To use a 1x1 warp tile (like a ladder) immediately after arriving on it, one must first step off the tile and then step back on.
+- Ledge Traversal: Ledges are one-way only. Jumping down is an irreversible move for that path.
 
 # VI. Tool & Agent Development Ideas
