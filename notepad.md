@@ -65,4 +65,3 @@
 - **Ledge Traversal:** Ledges are one-way only. Jumping down is an irreversible move for that path.
 
 # VI. Tool & Agent Development Ideas
-- **New Tool Idea: `map_interaction_planner`**: Create a tool similar to `itemfinder_search_planner` that generates a path to systematically interact with every tile of a specific type (e.g., 'impassable' for rocks, or specific object names) on the current map. This would automate searching for hidden interactable scenery.
