@@ -33,3 +33,9 @@
     - **Brock (Pewter Gym):** OMASTAR (Lv 64 - HYDRO PUMP, BLIZZARD), ONIX (Lv 65 - EARTHQUAKE, ROCK SLIDE), KABUTOPS (Lv 64 - SWORDS DANCE, SLASH), GOLEM (Lv 64 - ROCK SLIDE), NINETALES (Lv 64 - REFLECT), AERODACTYL (Lv 65 - FLY).
 - **Wild Pokémon Locations:**
     - **Cerulean Cave:** WIGGLYTUFF (Lv 62 - LOVELY KISS, DOUBLE-EDGE, REST), SANDSLASH (Lv 63 - SWORDS DANCE, EARTHQUAKE), GOLEM (Lv 64 - EXPLOSION), LICKITUNG (Lv 61 - WRAP), CHANSEY (Lv 63 - DEFENSE CURL, MEGA PUNCH), RAICHU (Lv 64 - AGILITY).
+
+# V. Unique Mechanics & Interactions
+- **NPC Passability:** Some NPCs, like the Super Nerd in Rock Tunnel B1F at (4,6), can be walked through.
+
+# VI. Future Automation Ideas
+- **Full Search Automator:** Brainstorm a tool that can handle the entire search loop: find target -> path to target -> turn -> interact -> mark -> repeat. This would fully automate systematic searches like the current rock-checking task.
