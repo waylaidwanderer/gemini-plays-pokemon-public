@@ -8,15 +8,6 @@
 7.  **Efficiency Over Fixation:** If a simple automation tool fails during a low-stakes, repetitive task (like a wild battle), it is more efficient to complete the task manually and fix the tool later, rather than getting stuck debugging mid-task.
 8.  **Battle Menu Anomaly (Confirmed):** The system's tool execution is unreliable when combining directional inputs with an action button ('A') in a single turn. Automation must separate these into separate turns.
 
-## 1.1. Future Improvements & Automation
-- **Tool Idea: `rock_checker_automator`:** Create a high-level tool that automates the entire rock-checking loop.
-    - **Inputs:** `start_x`, `start_y`, `target_tile_type`.
-    - **Logic:** 1. Call `map_interaction_planner` to get the path. 2. If path found, generate button presses for path, turn, and 'A'. 3. After interaction, call `define_map_marker`. 4. Output full sequence for `autopress_buttons`.
-    - **Purpose:** Streamline the current 4-5 turn manual process into a single tool call.
-- **Contingency Plan Update:** To combat confirmation bias, if the systematic rock search of all Mt. Moon floors fails, the next immediate hypothesis to test will be a systematic sweep of all floors with the ITEMFINDER. This should be done before attempting more complex theories like needing a Pokémon with 'Dig'.
-- **Agent Idea: `StuckDetectorAgent`:** An agent that analyzes movement patterns to detect loops. If a loop is found, it would review the list of remaining objectives/targets (like the interaction points from the planner) and suggest a new, distant target to manually override the current plan and break the loop.
-- **Hypothesis Retest:** After exhausting the rock search on Mt. Moon 1F, I must return to the Hiker at (6, 7) and interact with him again to confirm his state has not changed.
-
 # II. Game World Mechanics
 - **Gameplay Mechanics:**
     - **Trap Battles:** Certain wild encounters appear to be 'trap' battles where the 'RUN' option is disabled (Observed: Wigglytuff, KADABRA; Suspected: Ditto).
