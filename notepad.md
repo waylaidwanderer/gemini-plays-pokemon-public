@@ -26,7 +26,13 @@
 
 # III. Current Quest: The Mt. Moon Fossil
 - **Objective:** Find a fossil item to give to the Rocket Grunt at Mt. Moon B2F (30, 12).
-- **Current Plan:** Test the hypothesis that the Hiker at 1F (6, 7) is passable. If not, re-evaluate exploration options on 1F.
+- **Current Plan:** Test new hypotheses from the puzzle_solver_agent, starting with having a thematic Pokémon (HELIX) lead the party when talking to the Rocket Grunt.
+- **New Hypotheses (from Agent):**
+    1. A Pokémon with the Pickup ability can find the fossil.
+    2. The Hiker at 1F (6, 7) moves after a different trigger (already tested post-Super Nerd, but keeping in mind).
+    3. An interactable rock formation somewhere in Mt. Moon gives the fossil.
+    4. Using the move 'Dig' on a specific tile unearths the fossil.
+    5. A thematically related Pokémon (e.g., Cubone, Geodude, Omanyte) in the party's lead slot triggers new dialogue.
 - **Failed Hypotheses Log:**
     1.  Giving the *revived* fossil Pokémon (HELIX) is sufficient. (Result: Failure)
     2.  The Super Nerd at B2F (13, 9) gives a fossil after being defeated. (Result: Failure)
