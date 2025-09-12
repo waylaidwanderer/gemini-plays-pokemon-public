@@ -37,19 +37,7 @@
         3. Using the move 'Dig' on a specific tile unearths the fossil.
         4. The Hiker at 1F (6, 7) moves after a different trigger (already tested post-Super Nerd, but keeping in mind).
     - **Contingency Plan:** If the rock search fails on all floors, the next step is to test other hypotheses, such as using the ITEMFINDER systematically or acquiring a Pokémon with 'Dig' or 'Pickup'.
-    - **Failed Hypotheses Log:**
-        1.  Giving the *revived* fossil Pokémon (HELIX) is sufficient. (Result: Failure)
-        2.  The Super Nerd at B2F (13, 9) gives a fossil after being defeated. (Result: Failure)
-        3.  The visible items at B2F (9, 9) and (5, 9) are fossils. (Result: Failure, non-interactive scenery.)
-        4.  The Super Nerd provides a non-fossil key item. (Result: Failure, dialogue only.)
-        5.  The Rocket Grunt will accept a fainted Omanyte. (Result: Failure, could not get Omanyte to faint.)
-        6.  Using a MOON STONE from the inventory has an effect. (Result: Failure, opens Pokémon menu.)
-        7.  The Cinnabar Lab can 'de-revive' a Pokémon back into a fossil. (Result: Failure, scientist only revives fossils.)
-        8.  A Pokémon nicknamed 'FOSSIL' will satisfy the Grunt. (Result: Failure, dialogue unchanged.)
-        9. The fossil is a hidden item on Mt. Moon B2F. (Result: Failure, ITEMFINDER search yielded only an ETHER).
-        10. The Super Nerd's dialogue might change if spoken to with a revived fossil Pokémon (HELIX the Omanyte) in the party. (Result: Failure, dialogue unchanged).
-        11. The Hiker at 1F (6, 7) is passable like some NPCs in Rock Tunnel. (Result: Failure, movement was blocked).
-        12. A thematically related Pokémon (HELIX the Omanyte) in the party's lead slot triggers new dialogue with the Rocket Grunt. (Result: Failure, dialogue unchanged).
+    - **Failed Hypotheses Log (Summary):** Reviving the fossil, defeating the Super Nerd, interacting with scenery, using items (MOON STONE), manipulating party composition (nicknames, fainted status, species), and using the ITEMFINDER on B2F have all failed to produce the fossil.
 
 # IV. Battle Intel
 - **Type Effectiveness Chart (Verified):**
