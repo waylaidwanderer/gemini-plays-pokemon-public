@@ -23,13 +23,10 @@
     - **Current Plan:** Systematically check every 'impassable' tile (rock formation) in Mt. Moon using the `map_interaction_planner` tool to test the hypothesis that one is interactable.
 
         4. The Hiker at 1F (6, 7) moves after a different trigger (already tested post-Super Nerd, but keeping in mind).
-    - **Contingency Plan:** If the rock search fails on all floors, the next step is to test other hypotheses, such as using the ITEMFINDER systematically or acquiring a Pokémon with 'Dig' or 'Pickup'.
 
         4. The Hiker at 1F (6, 7) moves after a different trigger (already tested post-Super Nerd, but keeping in mind).
-    - **Contingency Plan:** If the rock search fails on all floors, the next step is to test other hypotheses, such as using the ITEMFINDER systematically or acquiring a Pokémon with 'Dig' or 'Pickup'.
 
         4. The Hiker at 1F (6, 7) moves after a different trigger (already tested post-Super Nerd, but keeping in mind).
-    - **Contingency Plan:** If the rock search fails on all floors, the next step is to test other hypotheses, such as using the ITEMFINDER systematically or acquiring a Pokémon with 'Dig' or 'Pickup'.
 
 # IV. Battle Intel
 - **Type Effectiveness Chart (Verified):**
