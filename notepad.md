@@ -16,9 +16,10 @@
 
 # III. Current Quest: The Mt. Moon Fossil
 - **Objective:** Find a fossil item to give to the Rocket Grunt at Mt. Moon B2F (30, 12).
-- **Current Plan:** Upon arriving at Mt. Moon, create the `map_interaction_planner` tool. Use it to test the hypothesis that an interactable rock formation gives the fossil.
+- **Current Plan:** Systematically check every 'impassable' tile (rock formation) in Mt. Moon using the `map_interaction_planner` tool to test the hypothesis that one is interactable.
+- **Progress:** All reachable rocks on Mt. Moon 1F are being checked. If this floor yields nothing, the search will continue on B1F and B2F.
 - **New Hypotheses (from Agent):**
-    1. An interactable rock formation somewhere in Mt. Moon gives the fossil.
+    1. An interactable rock formation somewhere in Mt. Moon gives the fossil. (IN PROGRESS)
     2. A Pokémon with the Pickup ability can find the fossil.
     3. Using the move 'Dig' on a specific tile unearths the fossil.
     4. The Hiker at 1F (6, 7) moves after a different trigger (already tested post-Super Nerd, but keeping in mind).
@@ -60,6 +61,8 @@
 - **Master Navigator Agent Lesson:** For complex, multi-floor, partitioned navigation puzzles like Mt. Moon, use the `master_navigator_agent` to avoid hallucinations.
 - **Leverage Strategic Agents:** When simple automation tools fail, pivot to using high-level strategic agents for advice and execute manually.
 ## B. Tile & Movement Mechanics (Player-Discovered)
+- **`impassable`:** Standard walls, rocks, and other scenery that block movement. Interaction requires being adjacent.
+- **`ground` / `elevated_ground`:** Standard walkable tiles.
 - **Passable NPCs:** Some NPCs that appear to block paths can be walked through (Observed: Super Nerd in Rock Tunnel B1F at (4,6)). Must be tested case-by-case.
 - **Ladder/Warp Re-use:** To use a 1x1 warp tile (like a ladder) immediately after arriving on it, one must first step off the tile and then step back on.
 - **Ledge Traversal:** Ledges are one-way only. Jumping down is an irreversible move for that path.
