@@ -61,3 +61,4 @@
 - **Wild Pokémon Locations:**
     - **Cerulean Cave:** WIGGLYTUFF (Lv 62 - LOVELY KISS, DOUBLE-EDGE, REST), SANDSLASH (Lv 63 - SWORDS DANCE, EARTHQUAKE), GOLEM (Lv 64 - EXPLOSION), LICKITUNG (Lv 61 - WRAP), CHANSEY (Lv 63 - DEFENSE CURL, MEGA PUNCH), RAICHU (Lv 64 - AGILITY).
 - **Tool Improvement Idea (from Overwatch):** Enhance `map_interaction_planner` to provide specific failure reasons, distinguishing between simple obstacles and puzzle elements like boulder barriers.
+- **Tool Improvement Idea (from Overwatch):** Enhance `map_interaction_planner` to provide specific failure reasons, distinguishing between simple obstacles and puzzle elements like boulder barriers.
