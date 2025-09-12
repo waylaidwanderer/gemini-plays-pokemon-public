@@ -61,3 +61,5 @@
 - **ladder_up / ladder_down**: Warps between floors.
 - **cuttable**: Tree that can be cut with HM Cut.
 - **ledge**: Can be jumped down, but not climbed up.
+- **grass**: Tall grass for wild Pokémon encounters.
+- **water**: Crossable using HM Surf.
