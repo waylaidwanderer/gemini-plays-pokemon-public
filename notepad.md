@@ -26,7 +26,7 @@
 # III. Current Quest: The Mt. Moon Fossil
 - **Objective:** Find a fossil item to give to the Rocket Grunt at Mt. Moon B2F (30, 12).
 - **Current Plan:** Explore Mt. Moon to find a path to the main section of B2F where a fossil might be located. The path via the Hiker at 1F (6,7) is blocked, so I am exploring the alternate route starting from the ladder at 1F (26,16).
-- **Failed Hypotheses Log:
+- **Failed Hypotheses Log:**
     1.  Giving the *revived* fossil Pokémon (HELIX) is sufficient. (Result: Failure)
     2.  The Super Nerd at B2F (13, 9) gives a fossil after being defeated. (Result: Failure)
     3.  The visible items at B2F (9, 9) and (5, 9) are fossils. (Result: Failure, non-interactive scenery.)
@@ -37,7 +37,7 @@
     8.  A Pokémon nicknamed 'FOSSIL' will satisfy the Grunt. (Result: Failure, dialogue unchanged.)
     9. The fossil is a hidden item on Mt. Moon B2F. (Result: Failure, ITEMFINDER search yielded only an ETHER).
     10. The Super Nerd's dialogue might change if spoken to with a revived fossil Pokémon (HELIX the Omanyte) in the party. (Result: Failure, dialogue unchanged).
-- **Next Hypotheses to Test (from `puzzle_solver_agent`):**
+- **Next Hypotheses to Test:**
     1.  **Lose to the Super Nerd:** Intentionally lose the battle against the Super Nerd at B2F (13, 9). He might offer a fossil as a 'consolation prize'.
     2.  **Give Geodude to Grunt:** The Rocket Grunt might accept a common Geodude, mistaking it for a fossil.
     3.  **Use Moon Stone on Environment:** The MOON STONE might need to be used on a specific environmental tile, not from the menu, to reveal a fossil.
