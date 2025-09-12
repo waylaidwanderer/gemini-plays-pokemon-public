@@ -57,3 +57,9 @@
 - **Battle Menu Anomaly (Confirmed):** The system's tool execution pipeline is unreliable when a tool's output combines directional inputs (Up/Down/Left/Right) with an action button ('A') in a single turn. This was observed during a battle where the `battle_automator` failed to execute `['Down', 'Down', 'A']` but manual, separate inputs of `['Down', 'Down']` and then `['A']` worked. All future automation must account for this by separating directional movements from action confirmations into separate turns.
 - **Master Navigator Agent Lesson:** For complex, multi-floor, partitioned navigation puzzles like Mt. Moon, I should use the `master_navigator_agent` instead of relying on manual pathfinding and the simpler `automated_path_navigator` to avoid hallucinations.
 - **Leverage Strategic Agents:** When simple automation tools fail or become inefficient (e.g., `battle_automator` in a complex fight), I should pivot to using high-level strategic agents like `comprehensive_battle_agent` for advice, then execute the recommended actions manually.
+
+# VI. Tile Mechanics Glossary (Player-Discovered)
+- *This section is for documenting my own observations about how tiles behave in this specific ROM hack.*
+
+# VII. Tool & Agent Development Ideas
+- **New Tool Idea: `map_interaction_planner`**: Create a tool similar to `itemfinder_search_planner` that generates a path to systematically interact with every tile of a specific type (e.g., 'impassable' for rocks, or specific object names) on the current map. This would automate searching for hidden interactable scenery.
