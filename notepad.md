@@ -21,27 +21,13 @@
 - **Current Quest: The Mt. Moon Fossil**
     - **Objective:** Find a fossil item to give to the Rocket Grunt at Mt. Moon B2F (30, 12).
     - **Current Plan:** Systematically check every 'impassable' tile (rock formation) in Mt. Moon using the `map_interaction_planner` tool to test the hypothesis that one is interactable.
-    - **Progress:** All reachable rocks on Mt. Moon 1F are being checked. If this floor yields nothing, the search will continue on B1F and B2F.
-    - **Active Hypotheses (from Agent):**
-        1. An interactable rock formation somewhere in Mt. Moon gives the fossil. (IN PROGRESS)
-        2. A Pokémon with the Pickup ability can find the fossil.
-        3. Using the move 'Dig' on a specific tile unearths the fossil.
+
         4. The Hiker at 1F (6, 7) moves after a different trigger (already tested post-Super Nerd, but keeping in mind).
     - **Contingency Plan:** If the rock search fails on all floors, the next step is to test other hypotheses, such as using the ITEMFINDER systematically or acquiring a Pokémon with 'Dig' or 'Pickup'.
 
-    - **Progress:** All reachable rocks on Mt. Moon 1F are being checked. If this floor yields nothing, the search will continue on B1F and B2F.
-    - **Active Hypotheses (from Agent):**
-        1. An interactable rock formation somewhere in Mt. Moon gives the fossil. (IN PROGRESS)
-        2. A Pokémon with the Pickup ability can find the fossil.
-        3. Using the move 'Dig' on a specific tile unearths the fossil.
         4. The Hiker at 1F (6, 7) moves after a different trigger (already tested post-Super Nerd, but keeping in mind).
     - **Contingency Plan:** If the rock search fails on all floors, the next step is to test other hypotheses, such as using the ITEMFINDER systematically or acquiring a Pokémon with 'Dig' or 'Pickup'.
 
-    - **Progress:** All reachable rocks on Mt. Moon 1F are being checked. If this floor yields nothing, the search will continue on B1F and B2F.
-    - **Active Hypotheses (from Agent):**
-        1. An interactable rock formation somewhere in Mt. Moon gives the fossil. (IN PROGRESS)
-        2. A Pokémon with the Pickup ability can find the fossil.
-        3. Using the move 'Dig' on a specific tile unearths the fossil.
         4. The Hiker at 1F (6, 7) moves after a different trigger (already tested post-Super Nerd, but keeping in mind).
     - **Contingency Plan:** If the rock search fails on all floors, the next step is to test other hypotheses, such as using the ITEMFINDER systematically or acquiring a Pokémon with 'Dig' or 'Pickup'.
 
