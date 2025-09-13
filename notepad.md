@@ -93,3 +93,4 @@
 
 # IX. Mistakes & Lessons Learned
 - **(Turn 210951):** Misread the map data, causing me to generate an invalid path through an impassable tile at (14, 8). I must always verify the map XML before planning a path manually and trust the `automated_path_navigator` tool more.
+- **(Turn 210956):** Failed to perform mandatory self-assessment on time (due at turn 210799), a critical lapse in discipline. Made a manual pathing error by misreading map data, reinforcing the need to rely on automated tools. Acknowledged recurring system-level input drops in battle menus and the necessity of retrying failed navigation attempts.
