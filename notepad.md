@@ -68,3 +68,7 @@
         - **`use_hm` Tool:** A tool to automate using a field move like Cut or Flash. `use_hm(hm_name, pokemon_name)`.
         - **`capture_assistant` Agent:** An agent to provide turn-by-turn advice for catching wild Pokémon.
         - **`wild_battle_automator` Tool:** A tool to manage simple wild encounters by repeatedly using the single most effective move until the battle ends.
+
+# VII. Game Mechanics & Tile Properties
+- **ground:** A standard, walkable tile. Can be occupied by objects or lead to warps.
+- **impassable:** A solid tile that cannot be entered, such as a wall or a gravestone.
