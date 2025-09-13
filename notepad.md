@@ -40,7 +40,7 @@
     - The Hiker on Mt. Moon 1F at (6,7) is part of a chained quest. (Reasoning: Two path-blockers in one dungeon is suspicious). (Result: Dialogue unchanged, even with different Pokémon in party).
     - The 'fossil' the Grunt wants must be stolen from the Pewter City Museum of Science. (Reasoning: Suggested by puzzle_solver_agent). (Result: Interacting with both fossil exhibits yielded no item or event).
     - The move 'Dig' must be used on a specific, unmarked tile within Mt. Moon to unearth the other fossil. (Reasoning: Suggested by puzzle_solver_agent). (Result: Systematically checked all reachable ground tiles on 1F with no success. The move consistently teleports the player out of the cave).
-- The Rocket Grunt will accept a Pokémon nicknamed 'fossil'. (Reasoning: Suggested by puzzle_solver_agent). (Result: Dialogue unchanged).
+    - The Rocket Grunt will accept a Pokémon nicknamed 'fossil'. (Reasoning: Suggested by puzzle_solver_agent). (Result: Dialogue unchanged).
 
 - **New Hypotheses (from puzzle_solver_agent - Turn 209957):**
     - **Hypothesis 1:** The scientist in the Cinnabar Lab will provide a 'replica' fossil or the other, unchosen fossil after being shown a fully-evolved version of the fossil he revived.
@@ -54,17 +54,7 @@
 - **(Turn 209979):** Lapsed in immediate maintenance, fixated on the 'Dig' hypothesis for over 100 turns (confirmation bias), and created a flawed tool (`clear_map_markers_by_emoji`). Pivoting strategy to address this.
 - **(Turn 210339):** Hallucinated my location for multiple turns, leading to wasted actions. Failed to document tile mechanics. Identified redundant map markers and inefficient manual processes (flying, marker cleanup) that should be automated. Re-prioritizing tool development and committing to more rigorous verification of game state.
 
-# VI. Game Mechanics & Tile Properties
-- **ground:** Standard walkable tile.
-- **impassable:** Walls, objects, cannot be entered.
-- **grass:** Tall grass, wild Pokémon encounters.
-- **warp:** Triggers a map change when entered. Can be doors, stairs, ladders, cave entrances.
-- **ledge:** One-way traversal. Can be jumped down, but not climbed up.
-- **steps:** Allows movement between `ground` and `elevated_ground`.
-- **elevated_ground:** Walkable, but at a different height. Only accessible via `steps`.
-- **cuttable:** A tree that can be removed with the HM 'Cut'. Respawns on map change.
-
-# VII. Automation Suite
+# VI. Automation Suite
 - **Strategy:**
     - **Battle:** Use `comprehensive_battle_agent` for high-stakes battles.
     - **Navigation:** Use `automated_path_navigator` for single-map pathfinding. Use `master_navigator_agent` for complex, multi-map navigation.
