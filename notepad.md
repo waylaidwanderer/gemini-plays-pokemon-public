@@ -83,3 +83,4 @@
     - Water is not very effective against Ghost/Poison (Observed: HELIX's SURF vs GASTLY).
         - **`consolidate_nav_agents` Task:** Consolidate `master_navigator_agent` and `stuck_detector_agent` into a single, more robust navigation agent. (HIGH PRIORITY - per Overwatch critique).
         - **`refine_battle_tool` Task:** Refine `select_battle_option` tool/workflow to fully automate its task without requiring manual button presses in the same turn. (HIGH PRIORITY - per Overwatch critique).
+- **Pokemon Tower 6F Healer Change:** The friendly Channeler at (13,11) is no longer a healer. Her dialogue has changed to "I feel anemic and weak...". This is a significant world state change.
