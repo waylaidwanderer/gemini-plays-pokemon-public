@@ -69,6 +69,11 @@
 # VII. Game Mechanics & Tile Traversal Rules
 - **Fly HM:** Cannot be used indoors or in caves. The list of flyable cities is limited and does not include all major locations (e.g., Pewter City is not on the list).
 - **Dig HM:** Using Dig inside a cave teleports the player to the last used entrance, similar to an Escape Rope. The exact exit point can be inconsistent.
-- **Cuttable Trees:** These obstacles can be removed with the Cut HM. They respawn after changing maps or blacking out.
-- **Ledges:** Can only be jumped down, not climbed up. Traversal is a one-way path.
-- **Ground vs. Elevated Ground:** Direct movement between these two tile types is impossible. 'Steps' tiles must be used to transition between elevations.
+- **Cuttable Trees (`cuttable`):** Obstacles requiring the Cut HM. They respawn after changing maps or blacking out.
+- **Ledges (`ledge`):** Can only be jumped down, not climbed up. Traversal is a one-way path.
+- **Ground (`ground`):** Standard walkable terrain.
+- **Elevated Ground (`elevated_ground`):** Walkable terrain at a different height. Inaccessible from `ground` directly.
+- **Steps (`steps`):** The only tile type that allows movement between `ground` and `elevated_ground`.
+- **Impassable (`impassable`):** Walls, objects, and other solid barriers.
+- **Grass (`grass`):** Tall grass where wild Pokémon appear.
+- **Water (`water`):** Requires Surf HM to cross.
