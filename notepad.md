@@ -57,9 +57,11 @@
 - **Strategy:**
     - **Battle:** Use `comprehensive_battle_agent` for high-stakes battles.
     - **Navigation:** Use `automated_path_navigator` for single-map pathfinding. Use `master_navigator_agent` for complex, multi-map navigation.
-- **Automation Pipeline (Ideas):**
-    - **Dig Search Orchestrator Agent:** An agent to manage the entire Dig search loop: find next spot, navigate, use Dig, and report outcome.
-    - **Fly Navigator Tool:** A tool to automate flying to a specific city. `fly_to(city_name)`.
-    - **PC Navigator Tool:** A tool to automate withdrawing/depositing a specific Pokémon from the PC. `pc_navigate(action, pokemon_name)`.
-    - **Item User Tool:** A tool to automate using an item from the bag. `use_item_from_bag(item_name, [target_pokemon])`.
-    - **Capture Assistant Agent:** An agent to provide turn-by-turn advice for catching wild Pokémon.
+- **Tool Development Log:**
+    - **(Turn 210051):** Created `initiate_fly` tool to automate opening the Fly menu. This is a direct response to an Overwatch critique about failing to proactively automate repetitive tasks.
+    - **Backlog:**
+        - **`fly_to_city` Tool:** An enhanced version of `initiate_fly` that can also select the destination city from the map. Requires mapping the Fly screen layout.
+        - **`dig_search` Tool:** A tool to manage the entire Dig search loop: find next spot, navigate, use Dig, and report outcome. (Corrected from 'Agent' to 'Tool').
+        - **`pc_navigator` Tool:** A tool to automate withdrawing/depositing a specific Pokémon from the PC. `pc_navigate(action, pokemon_name)`.
+        - **`item_user` Tool:** A tool to automate using an item from the bag. `use_item_from_bag(item_name, [target_pokemon])`.
+        - **`capture_assistant` Agent:** An agent to provide turn-by-turn advice for catching wild Pokémon.
