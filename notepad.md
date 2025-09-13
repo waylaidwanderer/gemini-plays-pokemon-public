@@ -40,12 +40,12 @@
     - The Hiker on Mt. Moon 1F at (6,7) is part of a chained quest. (Reasoning: Two path-blockers in one dungeon is suspicious). (Result: Dialogue unchanged, even with different Pokémon in party).
     - The 'fossil' the Grunt wants must be stolen from the Pewter City Museum of Science. (Reasoning: Suggested by puzzle_solver_agent). (Result: Interacting with both fossil exhibits yielded no item or event).
     - The move 'Dig' must be used on a specific, unmarked tile within Mt. Moon to unearth the other fossil. (Reasoning: Suggested by puzzle_solver_agent). (Result: Systematically checked all reachable ground tiles on 1F with no success. The move consistently teleports the player out of the cave).
+- The Rocket Grunt will accept a Pokémon nicknamed 'fossil'. (Reasoning: Suggested by puzzle_solver_agent). (Result: Dialogue unchanged).
 
 - **New Hypotheses (from puzzle_solver_agent - Turn 209957):**
     - **Hypothesis 1:** The scientist in the Cinnabar Lab will provide a 'replica' fossil or the other, unchosen fossil after being shown a fully-evolved version of the fossil he revived.
-    - **Hypothesis 2:** The 'fossil' the Rocket Grunt wants is a bone-related item from the Pokémon Tower in Lavender Town, likely a Thick Club or Rare Bone.
+    - **Hypothesis 2 (Active):** The 'fossil' the Rocket Grunt wants is a bone-related item from the Pokémon Tower in Lavender Town, likely a Thick Club or Rare Bone.
     - **Hypothesis 3:** The Hiker on Mt. Moon 1F at (6,7) will trade you for your revived fossil Pokémon, giving you the other fossil in return.
-    - **Hypothesis 4 (Active):** The Rocket Grunt is being literal and will only accept a Pokémon nicknamed 'fossil'.
     - **Hypothesis 5:** The other fossil (the one you didn't pick) has respawned at its original location, but only after a specific flag is triggered, like re-battling the Super Nerd.
 
 # V. Self-Assessment Findings
