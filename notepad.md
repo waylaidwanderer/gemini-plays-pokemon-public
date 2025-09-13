@@ -7,7 +7,7 @@
 6.  **Mandatory Self-Assessment:** Every 50 turns, I must perform a structured self-review to ensure my strategies, documentation, and tool usage remain optimal and aligned with my core principles.
 7.  **Efficiency Over Fixation:** If a simple automation tool fails during a low-stakes, repetitive task (like a wild battle), it is more efficient to complete the task manually and fix the tool later, rather than getting stuck debugging mid-task.
 8.  **Battle Menu Anomaly (Confirmed):** The system's tool execution is unreliable when combining directional inputs with an action button ('A') in a single turn. Automation must separate these into separate turns.
-9.  **Confirmation Bias Awareness (Self-Assessment Finding):** I must be vigilant against confirmation bias. If a hypothesis fails multiple documented tests, I must actively pivot to a new, different hypothesis rather than repeating the failed approach. I should also formulate tests designed to *disprove* my own theories, not just confirm them.
+9.  **Confirmation Bias Awareness (Self-Assessment Finding):** I must be vigilant against confirmation bias. If a hypothesis fails multiple documented tests, I must actively pivot to a new, different hypothesis rather than repeating the failed approach. I should also formulate tests designed to *disprove* my own theories, not just confirm them. To combat this, I should use the `puzzle_solver_agent` more readily when I feel stuck on a single line of reasoning.
 
 # II. Game World Mechanics
 - **Gameplay Mechanics:**
@@ -17,6 +17,7 @@
 - **Tile Mechanics (Verified):**
     - `impassable`: Solid barrier. Cannot be entered.
     - `ground`: Standard walkable tile.
+    - `grass`: Walkable tile that can trigger wild Pokémon encounters.
     - `elevated_ground`: Walkable ground at a different elevation. Cannot be accessed from `ground` directly.
     - `steps`: The only tile type that allows movement between `ground` and `elevated_ground`.
     - `ladder_up` / `ladder_down`: Warps that lead to different floors.
@@ -72,7 +73,8 @@
 - **Active Tools:**
     - `nickname_automator`: Automates entering a Pokémon's nickname.
 - **Automation Pipeline (Ideas):**
-    - **Fly Navigator Tool:** A tool to automate flying to a specific city. `fly_to(city_name)`.
+    - **Fly Navigator Tool:** A tool to automate flying to a specific city. `fly_to(city_name)`. Requires gathering data on the Fly menu layout first.
+    - **PC Navigator Tool:** A tool to automate withdrawing/depositing a specific Pokémon from the PC. `pc_navigate(action, pokemon_name)`.
     - **Item User Tool:** A tool to automate using an item from the bag. `use_item_from_bag(item_name, [target_pokemon])`.
     - **Capture Assistant Agent:** An agent to provide turn-by-turn advice for catching wild Pokémon.
     - **Full Search Automator:** A master tool that executes a systematic search loop (path, interact, mark, repeat).
