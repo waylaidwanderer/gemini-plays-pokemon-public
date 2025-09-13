@@ -52,16 +52,7 @@
     - **(from puzzle_solver_agent - Turn 210894) Hypothesis 3:** The Escape Rope item is scripted to function differently within Mt. Moon, acting as a warp to the central B2F area instead of the cave entrance.
 
 # V. Game Mechanics & World State
-- **Tile Types (Observed):**
-    - **ground/grass:** Standard traversable terrain. Grass can trigger wild encounters.
-    - **impassable:** Walls, trees, buildings, and other objects that cannot be walked on or through.
-    - **cuttable:** Trees that can be removed with the HM Cut. They respawn when changing maps.
-    - **ledge:** Can only be jumped down from above. Acts as a wall from all other directions.
-    - **water:** Requires Surf to traverse.
-    - **steps:** Allows movement between 'ground' and 'elevated_ground' tiles.
-    - **elevated_ground:** Raised terrain, only accessible via 'steps' or other 'elevated_ground' tiles.
-    - **ladder_up/ladder_down:** Instant warp tiles between floors.
-    - **teleport/hole:** Instant warp tiles.
+
 - **Battle Menu Anomaly (Confirmed Mechanic):** The `battle_anomaly_detector_agent` has concluded that the consistent failure to navigate the move selection menu is a **suspected game mechanic**, not a random bug. The game appears to be intentionally restricting move selection in certain battles (likely wild encounters) to the first move slot. **Strategy:** For low-stakes wild battles, running is the most efficient option.
 - **Pokemon Tower 6F Healer Change:** The friendly Channeler at (13,11) is no longer a healer. Her dialogue has changed to "I feel anemic and weak...". This is a significant world state change.
 
