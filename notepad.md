@@ -52,6 +52,7 @@
         - **Hypothesis 1 (High Priority):** There is a hidden, one-way passage concealed in a wall on 1F that leads to a different section of the lower floors.
         - **Hypothesis 2:** A specific, seemingly mundane rock in Mt. Moon is a disguised ladder that can only be activated by having a Clefairy in the first slot of the party.
         - **Hypothesis 3:** The Escape Rope item is scripted to function differently within Mt. Moon, acting as a warp to the central B2F area instead of the cave entrance.
+        - **Hypothesis 4 (Low Priority - Easiest to Test):** One of the ladders that leads to a dead end must be entered and exited a specific number of times (e.g., three times) to change its destination.
 
 # V. Self-Assessment Findings
 - **(Turn 209210):** Lapsed in immediacy, exhibited confirmation bias, and failed to verify game state after tool use.
