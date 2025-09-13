@@ -72,7 +72,8 @@
     - **Battle:** Use `battle_automator` for routine wild battles. Use `comprehensive_battle_agent` for high-stakes battles.
     - **Navigation:** Use `automated_path_navigator` for single-map pathfinding. Use `master_navigator_agent` for complex, multi-map navigation.
 - **Automation Pipeline (Ideas):**
-
+    - **Systematic Search Planner:** Generalize the `dig_search_planner` to be parameterizable for different search types (e.g., checking all rocks, using an item on all grass tiles) on any map. (Overwatch Suggestion - Implemented Turn 209928)
+    - **Dig Search Orchestrator Agent:** An agent to manage the entire Dig search loop: find next spot, navigate, use Dig, and report outcome. (Self-Assessment Idea - Turn 209928)
     - **Fly Navigator Tool:** A tool to automate flying to a specific city. `fly_to(city_name)`. Requires gathering data on the Fly menu layout first.
     - **PC Navigator Tool:** A tool to automate withdrawing/depositing a specific Pokémon from the PC. `pc_navigate(action, pokemon_name)`.
     - **Item User Tool:** A tool to automate using an item from the bag. `use_item_from_bag(item_name, [target_pokemon])`.
@@ -83,4 +84,3 @@
 - **Untested Assumption:** My systematic 'Dig' search has been confined to Mt. Moon 1F. If this floor is fully searched with no results, the next step must be to expand the systematic search to the ground tiles on B1F and then B2F.
 - **Tool Failure:** The `automated_path_navigator` tool has a recurring bug causing it to generate invalid paths through impassable tiles. A fix has been re-applied.
 - **Marker Inconsistency:** I have been using two different marker styles (`❌` and `⛏️`) for tracking searched tiles. I will standardize on `⛏️` for all systematic tile searches going forward to maintain clarity.
-    - **Systematic Search Planner:** Generalize the `dig_search_planner` to be parameterizable for different search types (e.g., checking all rocks, using an item on all grass tiles) on any map. (Overwatch Suggestion)
