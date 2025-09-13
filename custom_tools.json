@@ -889,29 +889,34 @@
       }
     ]
   },
-  "rock_checker_automator": {
-    "description": "Automates the planning phase of the rock-checking loop. It finds the nearest unmarked rock and generates a path plan to an adjacent tile, streamlining the systematic search process.",
+  "fly_navigator": {
+    "description": "Calculates the optimal button presses (Up/Down, then A) to select a destination city from the Fly menu. It requires the current screen text and the target city name. The tool's output is a JSON array of button strings for direct execution with autopress_buttons.",
     "input_schema": {
       "type": "object",
       "properties": {
-        "start_x": {
+        "screen_text": {
           "type": "string"
         },
-        "start_y": {
+        "target_location": {
           "type": "string"
         }
       },
       "required": [
-        "start_x",
-        "start_y"
+        "screen_text",
+        "target_location"
       ]
     },
-    "python_script": "import json\nimport collections\nimport xml.etree.ElementTree as ET\n\ntry:\n    start_x = int(input_data['start_x'])\n    start_y = int(input_data['start_y'])\n    target_tile_type = 'impassable'\n\n    root = ET.fromstring(map_xml_string)\n    map_width = int(root.get('width'))\n    map_height = int(root.get('height'))\n    tiles = {}\n\n    for row in root.findall('Row'):\n        y = int(row.get('id'))\n        for tile_elem in row.findall('Tile'):\n            x = int(tile_elem.get('id'))\n            obj = tile_elem.find('Object')\n            marker = tile_elem.find('Marker')\n            tiles[(x, y)] = {\n                'type': tile_elem.get('type'),\n                'has_object': tile_elem.get('has-object') == 'true',\n                'object_id_name': obj.get('id-name') if obj is not None else None,\n                'has_marker': marker is not None\n            }\n\n    interaction_points = set()\n    for (x, y), tile_info in tiles.items():\n        if tile_info['type'] == target_tile_type:\n            for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n                adj_pos = (x + dx, y + dy)\n                adj_tile_info = tiles.get(adj_pos)\n                if adj_tile_info and adj_tile_info['type'] in {'ground', 'grass', 'elevated_ground', 'steps'}:\n                    if not adj_tile_info['has_marker']:\n                        interaction_points.add(adj_pos)\n\n    start_pos = (start_x, start_y)\n    interaction_points.discard(start_pos)\n\n    if not interaction_points:\n        print(json.dumps({'success': False, 'reason': 'No unmarked, reachable interaction points found.', 'path_plan': []}))\n        exit()\n\n    queue = collections.deque([(start_pos, [start_pos])])\n    visited = {start_pos}\n    base_traversable_tile_types = {'ground', 'grass', 'elevated_ground', 'steps', 'ladder_up', 'ladder_down', 'teleport', 'hole'}\n    path_found = None\n\n    while queue:\n        current_pos, path = queue.popleft()\n        if current_pos in interaction_points:\n            path_found = path\n            break\n        (cx, cy) = current_pos\n        current_tile_info = tiles.get(current_pos)\n        for dx, dy in [(-1, 0), (1, 0), (0, -1), (0, 1)]:\n            next_pos = (cx + dx, cy + dy)\n            if next_pos in visited or not (1 <= next_pos[0] <= map_width and 1 <= next_pos[1] <= map_height):\n                continue\n            next_tile_info = tiles.get(next_pos)\n            if not next_tile_info or next_tile_info['type'] not in base_traversable_tile_types:\n                continue\n            if current_tile_info and {current_tile_info['type'], next_tile_info['type']} == {'ground', 'elevated_ground'}:\n                continue\n            if next_tile_info['has_object'] and next_tile_info.get('object_id_name', '').upper() != 'PIKACHU':\n                continue\n            visited.add(next_pos)\n            new_path = list(path)\n            new_path.append(next_pos)\n            queue.append((next_pos, new_path))\n\n    if path_found:\n        final_path_coords = [{'x': p[0], 'y': p[1]} for p in path_found]\n        print(json.dumps({'success': True, 'reason': 'Path to nearest interaction point found.', 'path_plan': final_path_coords}))\n    else:\n        print(json.dumps({'success': False, 'reason': 'Could not find a path to any of the interaction points.', 'path_plan': []}))\n\nexcept Exception as e:\n    print(json.dumps({'success': False, 'reason': f'An error occurred: {str(e)}', 'path_plan': []}))\n",
+    "python_script": "import json\nimport re\n\ndef find_shortest_path(current_index, target_index, list_length):\n    down_dist = (target_index - current_index + list_length) % list_length\n    up_dist = (current_index - target_index + list_length) % list_length\n    if down_dist <= up_dist:\n        return [\"Down\"] * down_dist\n    else:\n        return [\"Up\"] * up_dist\n\nfly_locations = [\n    \"PALLET TOWN\", \"VIRIDIAN CITY\", \"PEWTER CITY\", \"CERULEAN CITY\",\n    \"LAVENDER TOWN\", \"VERMILION CITY\", \"CELADON CITY\", \"FUCHSIA CITY\",\n    \"SAFFRON CITY\", \"INDIGO PLATEAU\", \"CINNABAR ISLAND\"\n]\n\ntry:\n    screen_text = input_data['screen_text']\n    target_location = input_data['target_location'].upper()\n\n    match = re.search(r\"To (.+?)\\s*→\", screen_text)\n    if not match:\n        # Fallback for error handling, though not directly executable by autopress\n        print(json.dumps([]))\n        exit()\n\n    current_location = match.group(1).strip()\n\n    if current_location not in fly_locations or target_location not in fly_locations:\n        print(json.dumps([]))\n        exit()\n\n    current_idx = fly_locations.index(current_location)\n    target_idx = fly_locations.index(target_location)\n\n    path = find_shortest_path(current_idx, target_idx, len(fly_locations))\n    path.append(\"A\")\n\n    print(json.dumps(path))\n\nexcept Exception as e:\n    print(json.dumps([]))",
     "history": [
       {
-        "commit_message": "feat: Create rock_checker_automator tool. This tool automates the planning phase of the systematic rock search, addressing a critical Overwatch critique about deferring automation tasks. This initial version finds the nearest unmarked rock and provides a path, streamlining the manual loop.",
-        "timestamp": "2025-09-12T14:55:48.947Z",
-        "action_counter": 208501
+        "commit_message": "feat: Create fly_navigator tool. This tool automates the process of selecting a destination from the Fly menu by calculating the shortest path of Up/Down presses. This was identified as a necessary automation during a mandatory self-assessment to improve gameplay efficiency.",
+        "timestamp": "2025-09-13T01:58:58.757Z",
+        "action_counter": 209110
+      },
+      {
+        "commit_message": "fix: Correct output format for autopress_buttons. The tool was previously returning a JSON object, which is incompatible with the autopress feature. This commit modifies the script to print a raw JSON array of button strings, resolving the critical execution failure.",
+        "timestamp": "2025-09-13T02:00:42.004Z",
+        "action_counter": 209112
       }
     ]
   }
