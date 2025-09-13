@@ -51,6 +51,7 @@
 - **Failed Hypotheses:**
     - The fossil is in an interactable rock.
     - The Hiker on 1F at (6,7) will move if shown the revived HELIX fossil Pokémon. (Result: Dialogue unchanged).
+    - The scientist in the Cinnabar Lab Fossil Room at (5,3) can 'un-revive' a fossil Pokémon. (Result: Dialogue was generic, asked for a fossil item).
 - **Hypothesis 1 (Top Priority):** The required fossil must be obtained by 'un-reviving' my current HELIX fossil Pokémon at the Cinnabar Island lab.
 - **Hypothesis 2:** Presenting the revived HELIX fossil Pokémon to the Rocket Grunt on B2F will trigger a new event.
 
