@@ -12,13 +12,14 @@
 # II. Quest Log
 - **Current Quest: The Mt. Moon Fossil**
     - **Objective:** Find a fossil to give to the Rocket Grunt blocking the path at Mt. Moon B2F (30,12).
-    - **Status:** Pivoting away from the 'Dig' hypothesis after extensive, failed testing. Now pursuing new leads from the `puzzle_solver_agent`.
-    - **Next Step:** Travel to Lavender Town to test the hypothesis that the grunt wants a bone-related item from the Pokémon Tower. Be wary of confirmation bias with this hypothesis; pivot quickly if it yields no results.
+    - **Status:** Actively testing the hypothesis that the 'fossil' is a bone-related item from the Pokémon Tower in Lavender Town.
+    - **Next Step:** Explore the top floor of the Pokémon Tower for relevant items or NPCs.
 
 # III. Battle Intel
 - **Type Effectiveness Chart (Verified):**
     - Water is super-effective against Rock/Ground (Observed: OMANYTE's SURF vs GEODUDE).
     - Water is not very effective against Bug/Grass (Observed: OMANYTE's BUBBLEBEAM vs PARAS).
+    - Water is not very effective against Ghost/Poison (Observed: HELIX's SURF vs GASTLY).
     - Poison is not very effective against Poison/Flying (Confirmed: ECHO's SLUDGE vs ZUBAT) and Rock/Ground (Observed: ECHO's SLUDGE vs GEODUDE).
     - Flying is not very effective against Rock/Ground (Observed: ECHO's FLY vs GEODUDE).
 - **Notable Trainer Rosters:**
@@ -55,21 +56,10 @@
 - **(Turn 210339):** Hallucinated my location for multiple turns, leading to wasted actions. Failed to document tile mechanics. Identified redundant map markers and inefficient manual processes (flying, marker cleanup) that should be automated. Re-prioritizing tool development and committing to more rigorous verification of game state.
 - **(Turn 210442):** Notepad's tile mechanics section was incomplete and automation backlog was out of date. Failed to mark defeated trainers on current map. Addressed all issues immediately.
 
-# VI. Automation Suite
-- **Strategy:**
-    - **Battle:** Use `comprehensive_battle_agent` for high-stakes battles.
-    - **Navigation:** Use `automated_path_navigator` for single-map pathfinding. Use `master_navigator_agent` for complex, multi-map navigation.
-- **Tool Development Log:**
-    - **(Turn 210051):** Created `initiate_fly` tool to automate opening the Fly menu. This is a direct response to an Overwatch critique about failing to proactively automate repetitive tasks.
-    - **Backlog (Priority Order):**
-        - **`fly_to_city` Tool:** An enhanced version of `initiate_fly` that can also select the destination city from the map. Requires mapping the Fly screen layout. (HIGH PRIORITY - will prevent inefficient manual menuing).
-        - **`clear_map_markers` Task:** Use existing `find_map_markers_by_emoji` tool to get a list of markers, then use `delete_map_marker` in a loop to clear them. (Note: A single tool cannot delete multiple markers at once due to system limitations).
-        - **`pc_navigator` Tool:** A tool to automate withdrawing/depositing a specific Pokémon from the PC. `pc_navigate(action, pokemon_name)`.
-        - **`item_user` Tool:** A tool to automate using an item from the bag. `use_item_from_bag(item_name, [target_pokemon])`.
-        - **`use_hm` Tool:** A tool to automate using a field move like Cut or Flash. `use_hm(hm_name, pokemon_name)`.
-        - **`capture_assistant` Agent:** An agent to provide turn-by-turn advice for catching wild Pokémon.
-        - **`wild_battle_automator` Tool:** A tool to manage simple wild encounters by repeatedly using the single most effective move until the battle ends.
-        - **`TeamCompositionAdvisor` Agent:** An agent that suggests an optimal party from the PC for a specific challenge (e.g., Gym rematch).
+# VI. Automation Strategy
+- **Battle:** Use `comprehensive_battle_agent` for high-stakes battles. Use `select_move_in_battle` for standard move selection.
+- **Navigation:** Use `automated_path_navigator` for single-map pathfinding. Use `master_navigator_agent` for complex, multi-map navigation.
+- **Tool Development Note:** I need to observe the Fly map screen to gather layout data before I can build the `fly_to_city` tool.
 
 # VII. Game Mechanics & Tile Properties
 - **ground:** A standard, walkable tile. Can be occupied by objects or lead to warps.
@@ -80,7 +70,6 @@
 - **elevated_ground:** Walkable ground at a different elevation.
 - **ledge:** One-way traversal. Can be jumped down from above (Y-1 to Y+2), but not climbed up.
 - **cuttable:** A tree that can be cut with HM Cut. Becomes `ground` after cutting, but respawns on map change or after battle.
-    - Water is not very effective against Ghost/Poison (Observed: HELIX's SURF vs GASTLY).
-        - **`consolidate_nav_agents` Task:** Consolidate `master_navigator_agent` and `stuck_detector_agent` into a single, more robust navigation agent. (HIGH PRIORITY - per Overwatch critique).
-        - **`refine_battle_tool` Task:** Refine `select_battle_option` tool/workflow to fully automate its task without requiring manual button presses in the same turn. (HIGH PRIORITY - per Overwatch critique).
+
+# VIII. World State Changes
 - **Pokemon Tower 6F Healer Change:** The friendly Channeler at (13,11) is no longer a healer. Her dialogue has changed to "I feel anemic and weak...". This is a significant world state change.
