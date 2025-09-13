@@ -768,7 +768,7 @@
     ]
   },
   "initiate_fly": {
-    "description": "Automates the menu navigation to select a Pokémon and use the Fly HM, stopping at the map selection screen. Assumes Fly is the first move.",
+    "description": "Automates the menu navigation to select a Pokémon and use the Fly HM, stopping at the map selection screen. Executes the process in stages to avoid system input errors.",
     "input_schema": {
       "type": "object",
       "properties": {
@@ -778,14 +778,19 @@
         "party_list": {
           "type": "string",
           "description": "A stringified JSON array of the player's current party."
+        },
+        "stage": {
+          "type": "string",
+          "description": "The stage of the sequence to execute (1: open party, 2: select pokemon, 3: use move)."
         }
       },
       "required": [
         "pokemon_name",
-        "party_list"
+        "party_list",
+        "stage"
       ]
     },
-    "python_script": "import json\n\nparty_list_str = input_data['party_list']\nparty_list = json.loads(party_list_str)\n\n\nfor i, pokemon in enumerate(party_list):\n    if pokemon['name'].upper() == input_data['pokemon_name'].upper():\n        pokemon_index = i\n        break\n\npresses = ['Start', 'A']\n\nfor _ in range(pokemon_index):\n    presses.append('Down')\n\npresses.extend(['A', 'A'])\n\nprint(json.dumps(presses))",
+    "python_script": "import json\n\npokemon_name = input_data['pokemon_name']\nparty_list_str = input_data['party_list']\nstage = int(input_data['stage'])\nparty = json.loads(party_list_str)\n\npokemon_index = -1\nfor i, pokemon in enumerate(party):\n    if pokemon['name'].upper() == pokemon_name.upper():\n        pokemon_index = i\n        break\n\nif pokemon_index == -1:\n    print(json.dumps([]))\nelse:\n    if stage == 1:\n        buttons = [\"Start\", \"A\"]\n        print(json.dumps(buttons))\n    elif stage == 2:\n        buttons = [\"Down\"] * pokemon_index\n        print(json.dumps(buttons))\n    elif stage == 3:\n        buttons = [\"A\", \"A\"]\n        print(json.dumps(buttons))",
     "history": [
       {
         "commit_message": "feat: Create initiate_fly tool to automate menuing for Fly HM. This tool opens the party menu, selects the specified Pokemon, and uses the Fly move, leaving the player at the map selection screen. This is a direct response to an Overwatch critique regarding the failure to proactively automate repetitive tasks and will improve navigation efficiency.",
@@ -796,6 +801,11 @@
         "commit_message": "fix: Correct attribute access for pokemon name. The script was attempting to call `.upper()` on the entire pokemon dictionary object instead of the `name` key's string value, causing an AttributeError. This commit fixes the logic to correctly access `pokemon['name']` before the string method call. This is a critical fix to unblock Fly automation.",
         "timestamp": "2025-09-13T09:36:48.965Z",
         "action_counter": 210056
+      },
+      {
+        "commit_message": "refactor: Add stage parameter to execute Fly sequence in chunks. This is a direct response to an Overwatch critique regarding tool refinement after the single-sequence approach failed. This change tests the hypothesis that the system cannot handle long button sequences from tools.",
+        "timestamp": "2025-09-13T10:12:22.353Z",
+        "action_counter": 210151
       }
     ]
   }

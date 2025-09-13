@@ -64,6 +64,7 @@
         - **`dig_search` Tool:** A tool to manage the entire Dig search loop: find next spot, navigate, use Dig, and report outcome. (Corrected from 'Agent' to 'Tool').
         - **`pc_navigator` Tool:** A tool to automate withdrawing/depositing a specific Pokémon from the PC. `pc_navigate(action, pokemon_name)`.
         - **`item_user` Tool:** A tool to automate using an item from the bag. `use_item_from_bag(item_name, [target_pokemon])`.
+        - **`use_hm` Tool:** A tool to automate using a field move like Cut or Flash. `use_hm(hm_name, pokemon_name)`.
         - **`capture_assistant` Agent:** An agent to provide turn-by-turn advice for catching wild Pokémon.
 
 # VII. Game Mechanics & Tile Traversal Rules
