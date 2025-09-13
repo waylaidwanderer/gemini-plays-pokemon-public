@@ -61,3 +61,4 @@
 - **Navigation Automation:**
     - `automated_path_navigator` (Tool): Use for standard A-to-B pathfinding on a single, contiguous map.
     - `master_navigator_agent` (Agent): Reserve for complex, multi-map navigation puzzles (e.g., Silph Co. teleporter maze) that require high-level reasoning about warp sequences and overall strategy.
+9.  **Confirmation Bias Awareness (Self-Assessment Finding):** I must be vigilant against confirmation bias. If a hypothesis fails multiple documented tests, I must actively pivot to a new, different hypothesis rather than repeating the failed approach. I should also formulate tests designed to *disprove* my own theories, not just confirm them.
