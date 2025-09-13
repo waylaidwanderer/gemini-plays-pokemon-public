@@ -43,7 +43,22 @@
 - **Wild Pokémon Locations:**
     - **Cerulean Cave:** WIGGLYTUFF (Lv 62 - LOVELY KISS, DOUBLE-EDGE, REST), SANDSLASH (Lv 63 - SWORDS DANCE, EARTHQUAKE), GOLEM (Lv 64 - EXPLOSION), LICKITUNG (Lv 61 - WRAP), CHANSEY (Lv 63 - DEFENSE CURL, MEGA PUNCH), RAICHU (Lv 64 - AGILITY).
 
-# V. Fossil Quest - New Hypotheses (from puzzle_solver_agent)
+# V. Fossil Quest - Hypotheses Log
+- **Failed Hypotheses:**
+    - The fossil is in an interactable rock.
+    - The Hiker on 1F at (6,7) will move if shown the revived HELIX fossil Pokémon. (Result: Dialogue unchanged).
+    - The scientist in the Cinnabar Lab Fossil Room at (5,3) can 'un-revive' a fossil Pokémon. (Result: Dialogue was generic, asked for a fossil item).
+    - The scientist in the Cinnabar Lab Fossil Room at (8,3) can 'un-revive' a fossil Pokémon. (Result: Dialogue confirmed he only revives fossil items, does not reverse the process).
+    - Presenting the revived HELIX fossil Pokémon to the Rocket Grunt on B2F will trigger a new event. (Result: Dialogue unchanged, still demands a fossil item).
+    - The 'fossil' the Rocket Grunt wants is the MOON STONE. (Reasoning: Wordplay and context of being in Mt. Moon). (Result: Dialogue unchanged).
+    - A specific, non-fossil Pokémon from Mt. Moon (e.g., Geodude) will satisfy the Grunt. (Reasoning: Subverting expectations by reinterpreting 'fossil'). (Result: Dialogue unchanged).
+    - The Hiker on Mt. Moon 1F at (6,7) is part of a chained quest. (Reasoning: Two path-blockers in one dungeon is suspicious). (Result: Dialogue unchanged, even with different Pokémon in party).
+
+- **New Hypotheses (from puzzle_solver_agent):**
+    - **Hypothesis 1 (Active):** The 'fossil' the Grunt wants must be stolen from the Pewter City Museum of Science.
+    - **Hypothesis 2:** The move 'Dig' must be used on a specific, unmarked tile within Mt. Moon to unearth the other fossil.
+    - **Hypothesis 3:** The Grunt will accept a Rhyhorn as a 'fossil' due to its rocky, prehistoric appearance.
+    - **Hypothesis 4:** A Pokémon intrinsically linked to bones, like Cubone or Marowak, is what the Grunt considers a 'fossil'.
 - **Failed Hypotheses:**
     - The fossil is in an interactable rock.
     - The Hiker on 1F at (6,7) will move if shown the revived HELIX fossil Pokémon. (Result: Dialogue unchanged).
