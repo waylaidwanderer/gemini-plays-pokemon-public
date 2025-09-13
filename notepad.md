@@ -78,3 +78,4 @@
 - **Impassable (`impassable`):** Walls, objects, and other solid barriers.
 - **Grass (`grass`):** Tall grass where wild Pokémon appear.
 - **Water (`water`):** Requires Surf HM to cross.
+        - **`wild_battle_automator` Tool:** A tool to manage simple wild encounters by repeatedly using the single most effective move until the battle ends.
