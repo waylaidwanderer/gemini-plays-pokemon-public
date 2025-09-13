@@ -62,16 +62,6 @@
 - **Navigation:** Use `automated_path_navigator` for single-map pathfinding. Use `master_navigator_agent` for complex, multi-map navigation.
 - **Tool Development Note:** I need to observe the Fly map screen to gather layout data before I can build the `fly_to_city` tool.
 
-# VII. Game Mechanics & Tile Properties
-- **ground:** A standard, walkable tile. Can be occupied by objects or lead to warps.
-- **impassable:** A solid tile that cannot be entered, such as a wall or a gravestone.
-- **grass:** Tall grass where wild Pokémon can be encountered. Walkable.
-- **water:** Can be crossed with SURF. Impassable otherwise.
-- **steps:** Allows movement between `ground` and `elevated_ground`.
-- **elevated_ground:** Walkable ground at a different elevation.
-- **ledge:** One-way traversal. Can be jumped down from above (Y-1 to Y+2), but not climbed up.
-- **cuttable:** A tree that can be cut with HM Cut. Becomes `ground` after cutting, but respawns on map change or after battle.
-
 # VIII. World State Changes
 - **Pokemon Tower 6F Healer Change:** The friendly Channeler at (13,11) is no longer a healer. Her dialogue has changed to "I feel anemic and weak...". This is a significant world state change.
 - **Future Development:**
