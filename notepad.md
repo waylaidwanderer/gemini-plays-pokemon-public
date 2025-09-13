@@ -90,3 +90,6 @@
 - **Hypothesis 2:** A specific, seemingly mundane rock in Mt. Moon is a disguised ladder that can only be activated by having a Clefairy in the first slot of the party.
 - **Hypothesis 3:** The Escape Rope item is scripted to function differently within Mt. Moon, acting as a warp to the central B2F area instead of the cave entrance.
 - **Hypothesis 4 (Low Priority - Easiest to Test):** One of the ladders that leads to a dead end must be entered and exited a specific number of times (e.g., three times) to change its destination.
+
+# IX. Mistakes & Lessons Learned
+- **(Turn 210951):** Misread the map data, causing me to generate an invalid path through an impassable tile at (14, 8). I must always verify the map XML before planning a path manually and trust the `automated_path_navigator` tool more.
