@@ -71,7 +71,6 @@
     - **Battle:** Use `battle_automator` for routine wild battles. Use `comprehensive_battle_agent` for high-stakes battles.
     - **Navigation:** Use `automated_path_navigator` for single-map pathfinding. Use `master_navigator_agent` for complex, multi-map navigation.
 - **Active Tools:**
-    - `nickname_automator`: Automates entering a Pokémon's nickname.
 - **Automation Pipeline (Ideas):**
     - **Fly Navigator Tool:** A tool to automate flying to a specific city. `fly_to(city_name)`. Requires gathering data on the Fly menu layout first.
     - **PC Navigator Tool:** A tool to automate withdrawing/depositing a specific Pokémon from the PC. `pc_navigate(action, pokemon_name)`.
