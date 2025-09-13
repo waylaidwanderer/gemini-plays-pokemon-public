@@ -48,7 +48,7 @@
 - **Active Hypotheses:**
     - **(from Turn 209957):** The scientist in the Cinnabar Lab will provide a 'replica' fossil or the other, unchosen fossil after being shown a fully-evolved version of the fossil he revived.
     - **(from Turn 209957):** The other fossil (the one you didn't pick) has respawned at its original location, but only after a specific flag is triggered, like re-battling the Super Nerd.
-    - **(from puzzle_solver_agent - Turn 210894) Hypothesis 1 (High Priority):** There is a hidden, one-way passage concealed in a wall on 1F that leads to a different section of the lower floors.
+    - **(from puzzle_solver_agent - Turn 210894) Hypothesis 1 (Partially Tested):** There is a hidden, one-way passage concealed in a wall on 1F. (Status: The western wall from (2,3) to (2,18) has been systematically checked and yielded no results. This part of the hypothesis is falsified.)
     - **(from puzzle_solver_agent - Turn 210894) Hypothesis 2:** A specific, seemingly mundane rock in Mt. Moon is a disguised ladder that can only be activated by having a Clefairy in the first slot of the party.
     - **(from puzzle_solver_agent - Turn 210894) Hypothesis 3:** The Escape Rope item is scripted to function differently within Mt. Moon, acting as a warp to the central B2F area instead of the cave entrance.
 
