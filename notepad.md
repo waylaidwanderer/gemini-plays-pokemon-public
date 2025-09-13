@@ -14,7 +14,7 @@
     - **Fossil Regeneration:** The Cinnabar Lab has a machine to regenerate fossils.
 - **Tile Mechanics (Verified):**
     - `impassable`: Solid barrier. Cannot be entered.
-    - `elevated_ground`: Walkable ground at a different elevation. Cannot be entered from `ground` directly.
+    - `elevated_ground`: Walkable ground at a different elevation. Direct movement between `ground` and `elevated_ground` is impossible; a `steps` tile must be used as an intermediary.
     - `ground`: Standard walkable tile.
     - `steps`: The only tile type that allows movement between `ground` and `elevated_ground`.
     - `ladder_up` / `ladder_down`: Warps that lead to different floors.
