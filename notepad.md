@@ -25,8 +25,8 @@
     - **Objective:** Find a fossil to give to the Rocket Grunt blocking the path at Mt. Moon B2F (30,12).
     - **Hypothesis:** One of the rocks in Mt. Moon is interactable and contains a fossil.
     - **Method:** Systematically check every single 'impassable' rock tile on all floors of Mt. Moon.
-    - **Progress:** All reachable rocks on Mt. Moon 1F have been checked. Now searching B1F.
-    - **Next Step:** Continue systematic rock search on Mt. Moon B1F.
+    - **Progress:** All reachable rocks on Mt. Moon 1F and the first B1F platform have been checked. Now searching a new area of B1F.
+    - **Next Step:** Explore the newly discovered corridor on Mt. Moon B1F.
 
 # IV. Battle Intel
 - **Type Effectiveness Chart (Verified):**
