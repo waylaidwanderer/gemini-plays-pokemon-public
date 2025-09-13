@@ -48,11 +48,9 @@
 - **Active Hypotheses:**
     - **(from Turn 209957):** The scientist in the Cinnabar Lab will provide a 'replica' fossil or the other, unchosen fossil after being shown a fully-evolved version of the fossil he revived.
     - **(from Turn 209957):** The other fossil (the one you didn't pick) has respawned at its original location, but only after a specific flag is triggered, like re-battling the Super Nerd.
-    - **(from puzzle_solver_agent - Turn 210894):**
-        - **Hypothesis 1 (High Priority):** There is a hidden, one-way passage concealed in a wall on 1F that leads to a different section of the lower floors.
-        - **Hypothesis 2:** A specific, seemingly mundane rock in Mt. Moon is a disguised ladder that can only be activated by having a Clefairy in the first slot of the party.
-        - **Hypothesis 3:** The Escape Rope item is scripted to function differently within Mt. Moon, acting as a warp to the central B2F area instead of the cave entrance.
-        - **Hypothesis 4 (Low Priority - Easiest to Test):** One of the ladders that leads to a dead end must be entered and exited a specific number of times (e.g., three times) to change its destination.
+    - **(from puzzle_solver_agent - Turn 210894) Hypothesis 1 (High Priority):** There is a hidden, one-way passage concealed in a wall on 1F that leads to a different section of the lower floors.
+    - **(from puzzle_solver_agent - Turn 210894) Hypothesis 2:** A specific, seemingly mundane rock in Mt. Moon is a disguised ladder that can only be activated by having a Clefairy in the first slot of the party.
+    - **(from puzzle_solver_agent - Turn 210894) Hypothesis 3:** The Escape Rope item is scripted to function differently within Mt. Moon, acting as a warp to the central B2F area instead of the cave entrance.
 
 # V. Self-Assessment Findings
 - **(Turn 209210):** Lapsed in immediacy, exhibited confirmation bias, and failed to verify game state after tool use.
@@ -70,10 +68,6 @@
     - Create a `fly_to_city` tool after observing the Fly map layout.
     - Create a 'Lead Pokémon Advisor' agent to suggest the best lead for an area based on known wild Pokémon.
     - Create a tool to automate simple wild battles (e.g., against Zubat/Geodude in Mt. Moon).
-- **Future Development:**
-    - Create a `fly_to_city` tool after observing the Fly map layout.
-    - Create a 'Lead Pokémon Advisor' agent to suggest the best lead for an area based on known wild Pokémon.
-    - Create a tool to automate simple wild battles (e.g., against Zubat/Geodude in Mt. Moon).
 
 # VII. Game & Tile Mechanics
 - **Ground/Grass:** Standard traversable terrain. Grass can trigger wild encounters.
@@ -84,12 +78,6 @@
 
 # VIII. World State Changes
 - **Pokemon Tower 6F Healer Change:** The friendly Channeler at (13,11) is no longer a healer. Her dialogue has changed to "I feel anemic and weak...". This is a significant world state change.
-
-# V. Fossil Quest - Agent Hypotheses (Turn 210894)
-- **Hypothesis 1 (High Priority):** There is a hidden, one-way passage concealed in a wall on 1F that leads to a different section of the lower floors.
-- **Hypothesis 2:** A specific, seemingly mundane rock in Mt. Moon is a disguised ladder that can only be activated by having a Clefairy in the first slot of the party.
-- **Hypothesis 3:** The Escape Rope item is scripted to function differently within Mt. Moon, acting as a warp to the central B2F area instead of the cave entrance.
-- **Hypothesis 4 (Low Priority - Easiest to Test):** One of the ladders that leads to a dead end must be entered and exited a specific number of times (e.g., three times) to change its destination.
 
 # IX. Mistakes & Lessons Learned
 - **(Turn 210951):** Misread the map data, causing me to generate an invalid path through an impassable tile at (14, 8). I must always verify the map XML before planning a path manually and trust the `automated_path_navigator` tool more.
