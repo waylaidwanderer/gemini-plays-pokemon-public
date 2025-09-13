@@ -70,7 +70,7 @@
 - **Cuttable:** Trees that can be removed with the HM Cut. They respawn when changing maps.
 - **Ledge:** Can only be jumped down from above. Acts as a wall from all other directions.
 - **Elevation:** Direct movement between 'ground' and 'elevated_ground' tiles is impossible. Traversal requires using a 'steps' tile as an intermediary.
-- **Ladders:** `ladder_up` and `ladder_down` tiles function as warps, instantly transporting the player between floors.
+- **Ladders:** `ladder_up` and `ladder_down` tiles function as 'warp' tiles, instantly transporting the player between floors.
 
 # VIII. World State Changes
 - **Pokemon Tower 6F Healer Change:** The friendly Channeler at (13,11) is no longer a healer. Her dialogue has changed to "I feel anemic and weak...". This is a significant world state change.
