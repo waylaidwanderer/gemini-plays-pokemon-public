@@ -47,7 +47,8 @@
     - **Challenge:** Would require a tool that can call other tools and press buttons, which may require a more advanced system or a stateful script.
 
 # VI. Fossil Quest - New Hypotheses (from puzzle_solver_agent)
-- **Failed Hypothesis:** The fossil is in an interactable rock.
-- **Hypothesis 1 (Top Priority):** The Hiker on 1F at (6,7) is blocking the path to the fossil and will move if shown a specific Pokémon, likely the revived HELIX fossil Pokémon.
-- **Hypothesis 2:** The required fossil must be obtained by 'un-reviving' my current HELIX fossil Pokémon at the Cinnabar Island lab.
-- **Hypothesis 3:** Presenting the revived HELIX fossil Pokémon to the Rocket Grunt on B2F will trigger a new event.
+- **Failed Hypotheses:**
+    - The fossil is in an interactable rock.
+    - The Hiker on 1F at (6,7) will move if shown the revived HELIX fossil Pokémon. (Result: Dialogue unchanged).
+- **Hypothesis 1 (Top Priority):** The required fossil must be obtained by 'un-reviving' my current HELIX fossil Pokémon at the Cinnabar Island lab.
+- **Hypothesis 2:** Presenting the revived HELIX fossil Pokémon to the Rocket Grunt on B2F will trigger a new event.
