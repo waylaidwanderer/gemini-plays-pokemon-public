@@ -848,5 +848,37 @@
         "action_counter": 210701
       }
     ]
+  },
+  "clear_map_markers_by_emoji": {
+    "description": "Generates a list of `delete_map_marker` tool calls for all markers on the current map that match a given emoji. Useful for bulk cleanup of redundant markers.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "emoji": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "emoji"
+      ]
+    },
+    "python_script": "import json\nimport xml.etree.ElementTree as ET\n\ndef run_tool():\n    emoji_to_clear = input_data['emoji']\n    \n    root = ET.fromstring(map_xml_string)\n    map_id_current = root.get('id')\n\n    tool_calls = []\n    for row in root.findall('Row'):\n        y = row.get('id')\n        for tile in row.findall('Tile'):\n            x = tile.get('id')\n            for marker in tile.findall('Marker'):\n                if marker.get('emoji') == emoji_to_clear:\n                    tool_calls.append({\n                        'tool_name': 'delete_map_marker',\n                        'tool_args': [\n                            {'name': 'map_id', 'value': map_id_current},\n                            {'name': 'x', 'value': x},\n                            {'name': 'y', 'value': y},\n                            {'name': 'emoji', 'value': emoji_to_clear}\n                        ]\n                    })\n    \n    print(json.dumps({'tool_calls_to_make': tool_calls}))\n\nrun_tool()",
+    "history": [
+      {
+        "commit_message": "feat: Create tool to bulk-delete map markers by emoji. This is a direct response to an Overwatch critique regarding redundant map markers on Mt. Moon. This tool will improve map clarity and workflow efficiency.",
+        "timestamp": "2025-09-13T18:03:50.783Z",
+        "action_counter": 210801
+      },
+      {
+        "commit_message": "fix: Correct Y-coordinate parsing and improve output structure. The previous version had a critical bug in its XML parsing logic that would have caused it to fail. This commit fixes the logic to correctly iterate through rows to get the Y coordinate. It also wraps the output in a JSON object for easier parsing in subsequent turns. This is a critical fix to unblock map cleanup automation.",
+        "timestamp": "2025-09-13T18:05:36.690Z",
+        "action_counter": 210803
+      },
+      {
+        "commit_message": "fix: Correct ModuleNotFoundError by fixing typo in ElementTree import. The tool was crashing because `xml.et` is not a valid module. This commit changes it to the correct `xml.etree`, which is a critical fix to unblock map cleanup automation.",
+        "timestamp": "2025-09-13T18:06:35.061Z",
+        "action_counter": 210805
+      }
+    ]
   }
 }

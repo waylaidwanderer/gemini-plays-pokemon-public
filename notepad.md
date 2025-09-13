@@ -12,8 +12,8 @@
 # II. Quest Log
 - **Current Quest: The Mt. Moon Fossil**
     - **Objective:** Find a fossil to give to the Rocket Grunt blocking the path at Mt. Moon B2F (30,12).
-    - **Status:** Actively testing the hypothesis that the Hiker on Mt. Moon 1F will trade for my revived fossil.
-    - **Next Step:** Travel to Mt. Moon 1F to interact with the Hiker at (6,7).
+    - **Status:** The Hiker trade hypothesis failed. Now testing the hypothesis that the other fossil has respawned on B2F, possibly after re-battling the Super Nerd.
+    - **Next Step:** Travel to Mt. Moon B2F to find the Super Nerd and the original fossil location.
 
 # III. Battle Intel
 - **Type Effectiveness Chart (Verified):**
@@ -43,11 +43,11 @@
     - The move 'Dig' must be used on a specific, unmarked tile within Mt. Moon to unearth the other fossil. (Reasoning: Suggested by puzzle_solver_agent). (Result: Systematically checked all reachable ground tiles on 1F with no success. The move consistently teleports the player out of the cave).
     - The Rocket Grunt will accept a Pokémon nicknamed 'fossil'. (Reasoning: Suggested by puzzle_solver_agent). (Result: Dialogue unchanged).
     - The 'fossil' the Rocket Grunt wants is a bone-related item from the Pokémon Tower in Lavender Town, likely a Thick Club or Rare Bone. (Result: Reached the top floor (7F) of the tower. No items or relevant NPCs were found. Hypothesis failed.)
+    - The Hiker on Mt. Moon 1F at (6,7) will trade you for your revived fossil Pokémon, giving you the other fossil in return. (Result: Dialogue unchanged, still says "Kids like you shouldn't be here!").
 
 - **New Hypotheses (from puzzle_solver_agent - Turn 209957):**
     - **Hypothesis 1:** The scientist in the Cinnabar Lab will provide a 'replica' fossil or the other, unchosen fossil after being shown a fully-evolved version of the fossil he revived.
-    - **Hypothesis 3 (Active):** The Hiker on Mt. Moon 1F at (6,7) will trade you for your revived fossil Pokémon, giving you the other fossil in return.
-    - **Hypothesis 5:** The other fossil (the one you didn't pick) has respawned at its original location, but only after a specific flag is triggered, like re-battling the Super Nerd.
+    - **Hypothesis 5 (Active):** The other fossil (the one you didn't pick) has respawned at its original location, but only after a specific flag is triggered, like re-battling the Super Nerd.
 
 # V. Self-Assessment Findings
 - **(Turn 209210):** Lapsed in immediacy, exhibited confirmation bias, and failed to verify game state after tool use.
