@@ -53,7 +53,11 @@
     - The Hiker on 1F at (6,7) will move if shown the revived HELIX fossil Pokémon. (Result: Dialogue unchanged).
     - The scientist in the Cinnabar Lab Fossil Room at (5,3) can 'un-revive' a fossil Pokémon. (Result: Dialogue was generic, asked for a fossil item).
     - The scientist in the Cinnabar Lab Fossil Room at (8,3) can 'un-revive' a fossil Pokémon. (Result: Dialogue confirmed he only revives fossil items, does not reverse the process).
-- **Hypothesis 1 (Top Priority):** Presenting the revived HELIX fossil Pokémon to the Rocket Grunt on B2F will trigger a new event.
+    - Presenting the revived HELIX fossil Pokémon to the Rocket Grunt on B2F will trigger a new event. (Result: Dialogue unchanged, still demands a fossil item).
+- **Hypothesis 1 (Top Priority):** The 'fossil' the Rocket Grunt wants is the MOON STONE. (Reasoning: Wordplay and context of being in Mt. Moon).
+- **Hypothesis 2:** A specific, non-fossil Pokémon from Mt. Moon (e.g., Geodude) will satisfy the Grunt. (Reasoning: Subverting expectations by reinterpreting 'fossil').
+- **Hypothesis 3:** The Hiker on Mt. Moon 1F at (6,7) is part of a chained quest and must be dealt with first. (Reasoning: Two path-blockers in one dungeon is suspicious).
+- **Hypothesis 4:** The fossil is a hidden item on the ground, requiring a move like Dig. (Reasoning: A common ROM hack method for hiding key items).
 
 # VII. Automation Strategy
 - **Battle Automation:**
