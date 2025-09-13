@@ -53,6 +53,7 @@
 - **(Turn 209672):** Made an untested assumption about search area, a tool failed repeatedly, and used inconsistent map markers.
 - **(Turn 209979):** Lapsed in immediate maintenance, fixated on the 'Dig' hypothesis for over 100 turns (confirmation bias), and created a flawed tool (`clear_map_markers_by_emoji`). Pivoting strategy to address this.
 - **(Turn 210339):** Hallucinated my location for multiple turns, leading to wasted actions. Failed to document tile mechanics. Identified redundant map markers and inefficient manual processes (flying, marker cleanup) that should be automated. Re-prioritizing tool development and committing to more rigorous verification of game state.
+- **(Turn 210442):** Notepad's tile mechanics section was incomplete and automation backlog was out of date. Failed to mark defeated trainers on current map. Addressed all issues immediately.
 
 # VI. Automation Suite
 - **Strategy:**
@@ -62,13 +63,20 @@
     - **(Turn 210051):** Created `initiate_fly` tool to automate opening the Fly menu. This is a direct response to an Overwatch critique about failing to proactively automate repetitive tasks.
     - **Backlog (Priority Order):**
         - **`fly_to_city` Tool:** An enhanced version of `initiate_fly` that can also select the destination city from the map. Requires mapping the Fly screen layout. (HIGH PRIORITY - will prevent inefficient manual menuing).
-        - **`clear_map_markers_by_emoji` Tool:** A tool to delete all map markers on a given map that use a specific emoji. `clear_map_markers_by_emoji(map_id, emoji)`. (HIGH PRIORITY - will prevent tedious manual cleanup).
+        - **`clear_map_markers` Task:** Use existing `find_map_markers_by_emoji` tool to get a list of markers, then use `delete_map_marker` in a loop to clear them. (Note: A single tool cannot delete multiple markers at once due to system limitations).
         - **`pc_navigator` Tool:** A tool to automate withdrawing/depositing a specific Pokémon from the PC. `pc_navigate(action, pokemon_name)`.
         - **`item_user` Tool:** A tool to automate using an item from the bag. `use_item_from_bag(item_name, [target_pokemon])`.
         - **`use_hm` Tool:** A tool to automate using a field move like Cut or Flash. `use_hm(hm_name, pokemon_name)`.
         - **`capture_assistant` Agent:** An agent to provide turn-by-turn advice for catching wild Pokémon.
         - **`wild_battle_automator` Tool:** A tool to manage simple wild encounters by repeatedly using the single most effective move until the battle ends.
+        - **`TeamCompositionAdvisor` Agent:** An agent that suggests an optimal party from the PC for a specific challenge (e.g., Gym rematch).
 
 # VII. Game Mechanics & Tile Properties
 - **ground:** A standard, walkable tile. Can be occupied by objects or lead to warps.
 - **impassable:** A solid tile that cannot be entered, such as a wall or a gravestone.
+- **grass:** Tall grass where wild Pokémon can be encountered. Walkable.
+- **water:** Can be crossed with SURF. Impassable otherwise.
+- **steps:** Allows movement between `ground` and `elevated_ground`.
+- **elevated_ground:** Walkable ground at a different elevation.
+- **ledge:** One-way traversal. Can be jumped down from above (Y-1 to Y+2), but not climbed up.
+- **cuttable:** A tree that can be cut with HM Cut. Becomes `ground` after cutting, but respawns on map change or after battle.
