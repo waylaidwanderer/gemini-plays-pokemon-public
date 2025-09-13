@@ -6,14 +6,14 @@
 5.  **Warp Discipline:** After every warp, my first action must be to check and, if necessary, create/update markers on **both** the departure and arrival maps.
 6.  **Mandatory Self-Assessment:** Every 50 turns, I must perform a structured self-review to ensure my strategies, documentation, and tool usage remain optimal and aligned with my core principles.
 7.  **Efficiency Over Fixation:** If a simple automation tool fails during a low-stakes, repetitive task (like a wild battle), it is more efficient to complete the task manually and fix the tool later, rather than getting stuck debugging mid-task.
-8.  **Battle Menu Anomaly (Confirmed):** The system's tool execution is unreliable when combining directional inputs with an action button ('A') in a single turn. Automation must separate these into separate turns.
+8.  **Battle Menu Anomaly (Confirmed):** The system's tool execution is unreliable when combining directional inputs with an action button ('A') in a single turn. Automation must separate these into separate turns. Input drops for 'A' presses are also common, requiring retry logic (e.g., pressing 'A' multiple times).
 9.  **Confirmation Bias Awareness (Self-Assessment Finding):** I must be vigilant against confirmation bias. If a hypothesis fails multiple documented tests, I must actively pivot to a new, different hypothesis rather than repeating the failed approach. I should also formulate tests designed to *disprove* my own theories, not just confirm them. To combat this, I should use the `puzzle_solver_agent` more readily when I feel stuck on a single line of reasoning.
 
 # II. Quest Log
 - **Current Quest: The Mt. Moon Fossil**
     - **Objective:** Find a fossil to give to the Rocket Grunt blocking the path at Mt. Moon B2F (30,12).
-    - **Status:** The Hiker trade hypothesis failed. Now testing the hypothesis that the other fossil has respawned on B2F, possibly after re-battling the Super Nerd.
-    - **Next Step:** Travel to Mt. Moon B2F to find the Super Nerd and the original fossil location.
+    - **Status:** Currently testing the hypothesis that there is a hidden, one-way passage concealed in a wall on 1F.
+    - **Next Step:** Continue the systematic sweep of the western wall on Mt. Moon 1F.
 
 # III. Battle Intel
 - **Type Effectiveness Chart (Verified):**
@@ -53,21 +53,16 @@
     - **(from puzzle_solver_agent - Turn 210894) Hypothesis 3:** The Escape Rope item is scripted to function differently within Mt. Moon, acting as a warp to the central B2F area instead of the cave entrance.
 
 # V. Self-Assessment Findings
-- **(Turn 209210):** Lapsed in immediacy, exhibited confirmation bias, and failed to verify game state after tool use.
-- **(Turn 209672):** Made an untested assumption about search area, a tool failed repeatedly, and used inconsistent map markers.
-- **(Turn 209979):** Lapsed in immediate maintenance, fixated on the 'Dig' hypothesis for over 100 turns (confirmation bias), and created a flawed tool (`clear_map_markers_by_emoji`). Pivoting strategy to address this.
-- **(Turn 210339):** Hallucinated my location for multiple turns, leading to wasted actions. Failed to document tile mechanics. Identified redundant map markers and inefficient manual processes (flying, marker cleanup) that should be automated. Re-prioritizing tool development and committing to more rigorous verification of game state.
-- **(Turn 210442):** Notepad's tile mechanics section was incomplete and automation backlog was out of date. Failed to mark defeated trainers on current map. Addressed all issues immediately.
-- **(Turn 210749):** Failed to immediately fix `select_move_in_battle` tool after first malfunction, leading to getting stuck in battle loops. Exhibited confirmation bias by repeatedly trying to select 'SURF' when the equally effective 'ROCK THROW' was already selected and the menu was unresponsive to navigation. Incomplete documentation of tile mechanics. Goals were too method-oriented. Addressed all immediately.
+- **(Turn 210956):** Failed to perform mandatory self-assessment on time (due at turn 210799), a critical lapse in discipline. Made a manual pathing error by misreading map data, reinforcing the need to rely on automated tools. Acknowledged recurring system-level input drops in battle menus and the necessity of retrying failed navigation attempts.
+- **(Turn 211006):** Failed to immediately fix `select_move_in_battle` tool after its first failure, leading to getting stuck in battle loops. This was a critical lapse in adhering to the immediate maintenance directive.
 
 # VI. Automation Strategy
 - **Battle:** Use `comprehensive_battle_agent` for high-stakes battles. Use `select_move_in_battle` for standard move selection.
 - **Navigation:** Use `automated_path_navigator` for single-map pathfinding. Use `master_navigator_agent` for complex, multi-map navigation.
-- **Tool Development Note:** I need to observe the Fly map screen to gather layout data before I can build the `fly_to_city` tool.
-- **Future Development:**
-    - Create a `fly_to_city` tool after observing the Fly map layout.
-    - Create a 'Lead Pokémon Advisor' agent to suggest the best lead for an area based on known wild Pokémon.
-    - Create a tool to automate simple wild battles (e.g., against Zubat/Geodude in Mt. Moon).
+- **Future Development Pipeline:**
+    - A `fly_to_city` tool (requires observing the Fly map layout first).
+    - A 'Lead Pokémon Advisor' agent to suggest the best lead for an area based on known wild Pokémon.
+    - A tool to automate simple wild battles (e.g., against Zubat/Geodude in Mt. Moon).
 
 # VII. Game & Tile Mechanics
 - **Ground/Grass:** Standard traversable terrain. Grass can trigger wild encounters.
@@ -75,10 +70,10 @@
 - **Cuttable:** Trees that can be removed with the HM Cut. They respawn when changing maps.
 - **Ledge:** Can only be jumped down from above. Acts as a wall from all other directions.
 - **Elevation:** Direct movement between 'ground' and 'elevated_ground' tiles is impossible. Traversal requires using a 'steps' tile as an intermediary.
+- **Ladders:** `ladder_up` and `ladder_down` tiles function as warps, instantly transporting the player between floors.
 
 # VIII. World State Changes
 - **Pokemon Tower 6F Healer Change:** The friendly Channeler at (13,11) is no longer a healer. Her dialogue has changed to "I feel anemic and weak...". This is a significant world state change.
 
 # IX. Mistakes & Lessons Learned
 - **(Turn 210951):** Misread the map data, causing me to generate an invalid path through an impassable tile at (14, 8). I must always verify the map XML before planning a path manually and trust the `automated_path_navigator` tool more.
-- **(Turn 210956):** Failed to perform mandatory self-assessment on time (due at turn 210799), a critical lapse in discipline. Made a manual pathing error by misreading map data, reinforcing the need to rely on automated tools. Acknowledged recurring system-level input drops in battle menus and the necessity of retrying failed navigation attempts.
