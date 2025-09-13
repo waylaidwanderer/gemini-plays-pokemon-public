@@ -12,10 +12,11 @@
 - **Gameplay Mechanics:**
     - **Trap Battles:** Certain wild encounters appear to be 'trap' battles where the 'RUN' option is disabled (Observed: Wigglytuff, KADABRA; Suspected: Ditto).
     - **Fossil Regeneration:** The Cinnabar Lab has a machine to regenerate fossils.
+    - **NPC Passability:** Some NPCs, like the Super Nerd in Rock Tunnel B1F at (4,6), can be walked through.
 - **Tile Mechanics (Verified):**
-    - `impassable`: Solid barrier. Cannot be entered.
-    - `elevated_ground`: Walkable ground at a different elevation. Direct movement between `ground` and `elevated_ground` is impossible; a `steps` tile must be used as an intermediary.
+    - `impassable`: Solid barrier. Cannot be entered. The subject of my current fossil hunt.
     - `ground`: Standard walkable tile.
+    - `elevated_ground`: Walkable ground at a different elevation. Cannot be accessed from `ground` directly.
     - `steps`: The only tile type that allows movement between `ground` and `elevated_ground`.
     - `ladder_up` / `ladder_down`: Warps that lead to different floors.
 
@@ -24,7 +25,7 @@
     - **Objective:** Find a fossil to give to the Rocket Grunt blocking the path at Mt. Moon B2F (30,12).
     - **Hypothesis:** One of the rocks in Mt. Moon is interactable and contains a fossil.
     - **Method:** Systematically check every single 'impassable' rock tile on all floors of Mt. Moon.
-    - **Progress:** All reachable rocks on Mt. Moon 1F have been checked and were not interactable.
+    - **Progress:** All reachable rocks on Mt. Moon 1F have been checked. Now searching B1F.
     - **Next Step:** Continue systematic rock search on Mt. Moon B1F.
 
 # IV. Battle Intel
@@ -40,10 +41,7 @@
 - **Wild Pokémon Locations:**
     - **Cerulean Cave:** WIGGLYTUFF (Lv 62 - LOVELY KISS, DOUBLE-EDGE, REST), SANDSLASH (Lv 63 - SWORDS DANCE, EARTHQUAKE), GOLEM (Lv 64 - EXPLOSION), LICKITUNG (Lv 61 - WRAP), CHANSEY (Lv 63 - DEFENSE CURL, MEGA PUNCH), RAICHU (Lv 64 - AGILITY).
 
-# V. Unique Mechanics & Interactions
-- **NPC Passability:** Some NPCs, like the Super Nerd in Rock Tunnel B1F at (4,6), can be walked through.
-
-# VI. Future Automation Ideas
+# V. Future Automation Ideas
 - **Full Search Automator:** A master tool that executes the entire systematic search loop. 
     - **Logic:** 1. Call `rock_checker_automator` to get a path. 2. Execute the path. 3. Automatically press 'A' to interact. 4. Automatically call `define_map_marker` to mark the spot. 5. Repeat the loop until the tool returns no more targets.
     - **Challenge:** Would require a tool that can call other tools and press buttons, which may require a more advanced system or a stateful script.
