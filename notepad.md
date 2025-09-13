@@ -72,6 +72,7 @@
     - **`fly_to_city` tool:** Automate flying to a specific city. Requires observing the Fly map layout first.
     - **`auto_battle_wild` tool:** A tool to automate simple wild battles by repeatedly using the first move.
     - **`hypothesis_manager` agent:** An agent to help manage and prioritize quest hypotheses when stuck.
+    - **`rock_checker` tool:** A tool to automate the process of systematically checking rock formations. It would take a list of coordinates, navigate to each, turn to face the rock, interact, and mark it as checked.
 
 # VII. Self-Assessment Log
 - **(Turn 210956):** Failed to perform mandatory self-assessment on time. Made a manual pathing error by misreading map data, reinforcing the need to rely on automated tools. Acknowledged recurring system-level input drops in battle menus and the necessity of retrying failed navigation attempts.
