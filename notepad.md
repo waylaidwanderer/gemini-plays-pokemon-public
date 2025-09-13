@@ -14,7 +14,7 @@
     - **Trap Battles:** Certain wild encounters appear to be 'trap' battles where the 'RUN' option is disabled (Observed: Wigglytuff, KADABRA; Suspected: Ditto).
     - **Fossil Regeneration:** The Cinnabar Lab has a machine to regenerate fossils.
     - **NPC Passability:** Some NPCs, like the Super Nerd in Rock Tunnel B1F at (4,6), can be walked through.
-    - **Dig Mechanic (Inconsistent):** Using 'Dig' in Mt. Moon has inconsistent effects. It has been observed to teleport the player to a fixed location on Route 3 at (62, 1), but it has also been observed to do nothing, leaving the player in the same spot. The trigger for the teleport is currently unknown.
+    - **Dig Mechanic (Highly Inconsistent):** Using 'Dig' in Mt. Moon has multiple, inconsistent effects. It has been observed to: 1) Teleport the player to a fixed location on Route 3 at (62, 1). 2) Teleport the player to the last used entrance (e.g., Route 4). 3) Do nothing, leaving the player in the same spot. The trigger for each outcome is currently unknown.
 - **Tile Mechanics (Verified):**
     - `impassable`: Solid barrier. Cannot be entered.
     - `ground`: Standard walkable tile.
