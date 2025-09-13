@@ -15,6 +15,8 @@
     - **Fossil Regeneration:** The Cinnabar Lab has a machine to regenerate fossils.
     - **NPC Passability:** Some NPCs, like the Super Nerd in Rock Tunnel B1F at (4,6), can be walked through.
     - **Dig Mechanic (Verified):** Using the move 'Dig' while inside a cave functions like an Escape Rope, teleporting the player to the last used entrance.
+- **Automation Pipeline (Ideas):**
+    - **Full Search Automator:** A master tool that executes a systematic search loop (path, interact, mark, repeat). This would combine the logic of `dig_search_planner` and an action like using a move or interacting. It should be able to take a target map, tile type, and action as input.
 - **Tile Mechanics (Verified):**
     - `impassable`: Solid barrier. Cannot be entered.
     - `ground`: Standard walkable tile.
