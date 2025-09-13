@@ -67,3 +67,6 @@
 - **Future Development:**
     - Create a `fly_to_city` tool after observing the Fly map layout.
     - Create a 'Lead Pokémon Advisor' agent to suggest the best lead for an area based on known wild Pokémon.
+
+# VII. Game & Tile Mechanics
+- **Elevation:** Direct movement between 'ground' and 'elevated_ground' tiles is impossible. Traversal requires using a 'steps' tile as an intermediary.
