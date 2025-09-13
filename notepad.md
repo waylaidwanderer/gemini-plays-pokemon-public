@@ -45,3 +45,9 @@
 - **Full Search Automator:** A master tool that executes the entire systematic search loop. 
     - **Logic:** 1. Call `rock_checker_automator` to get a path. 2. Execute the path. 3. Automatically press 'A' to interact. 4. Automatically call `define_map_marker` to mark the spot. 5. Repeat the loop until the tool returns no more targets.
     - **Challenge:** Would require a tool that can call other tools and press buttons, which may require a more advanced system or a stateful script.
+
+# VI. Fossil Quest - New Hypotheses (from puzzle_solver_agent)
+- **Failed Hypothesis:** The fossil is in an interactable rock.
+- **Hypothesis 1 (Top Priority):** The Hiker on 1F at (6,7) is blocking the path to the fossil and will move if shown a specific Pokémon, likely the revived HELIX fossil Pokémon.
+- **Hypothesis 2:** The required fossil must be obtained by 'un-reviving' my current HELIX fossil Pokémon at the Cinnabar Island lab.
+- **Hypothesis 3:** Presenting the revived HELIX fossil Pokémon to the Rocket Grunt on B2F will trigger a new event.
