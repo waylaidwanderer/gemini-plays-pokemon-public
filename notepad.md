@@ -9,22 +9,13 @@
 8.  **Battle Menu Anomaly (Confirmed):** The system's tool execution is unreliable when combining directional inputs with an action button ('A') in a single turn. Automation must separate these into separate turns.
 9.  **Confirmation Bias Awareness (Self-Assessment Finding):** I must be vigilant against confirmation bias. If a hypothesis fails multiple documented tests, I must actively pivot to a new, different hypothesis rather than repeating the failed approach. I should also formulate tests designed to *disprove* my own theories, not just confirm them. To combat this, I should use the `puzzle_solver_agent` more readily when I feel stuck on a single line of reasoning.
 
-# II. Game World Mechanics
-- **Gameplay Mechanics:**
-    - **Trap Battles:** Certain wild encounters appear to be 'trap' battles where the 'RUN' option is disabled (Observed: Wigglytuff, KADABRA; Suspected: Ditto).
-    - **Fossil Regeneration:** The Cinnabar Lab has a machine to regenerate fossils.
-    - **NPC Passability:** Some NPCs, like the Super Nerd in Rock Tunnel B1F at (4,6), can be walked through.
-    - **Dig Mechanic (Highly Inconsistent):** Using 'Dig' in Mt. Moon has multiple, inconsistent effects. It has been observed to: 1) Teleport the player to a fixed location on Route 3 at (62, 1). 2) Teleport the player to the last used entrance (e.g., Route 4). 3) Do nothing, leaving the player in the same spot. The trigger for each outcome is currently unknown.
-
-# III. Quest Log
+# II. Quest Log
 - **Current Quest: The Mt. Moon Fossil**
     - **Objective:** Find a fossil to give to the Rocket Grunt blocking the path at Mt. Moon B2F (30,12).
-    - **Hypothesis:** One of the rocks in Mt. Moon is interactable and contains a fossil.
-    - **Method:** Systematically check every single 'impassable' rock tile on all floors of Mt. Moon.
-    - **Progress:** All reachable rocks on Mt. Moon 1F and the first B1F platform have been checked. Now searching a new area of B1F.
-    - **Next Step:** Explore the newly discovered corridor on Mt. Moon B1F.
+    - **Status:** Pivoting away from the 'Dig' hypothesis after extensive, failed testing. Now pursuing new leads from the `puzzle_solver_agent`.
+    - **Next Step:** Travel to Lavender Town to test the hypothesis that the grunt wants a Pokémon nicknamed 'fossil'.
 
-# IV. Battle Intel
+# III. Battle Intel
 - **Type Effectiveness Chart (Verified):**
     - Water is super-effective against Rock/Ground (Observed: OMANYTE's SURF vs GEODUDE).
     - Water is not very effective against Bug/Grass (Observed: OMANYTE's BUBBLEBEAM vs PARAS).
@@ -37,7 +28,7 @@
 - **Wild Pokémon Locations:**
     - **Cerulean Cave:** WIGGLYTUFF (Lv 62 - LOVELY KISS, DOUBLE-EDGE, REST), SANDSLASH (Lv 63 - SWORDS DANCE, EARTHQUAKE), GOLEM (Lv 64 - EXPLOSION), LICKITUNG (Lv 61 - WRAP), CHANSEY (Lv 63 - DEFENSE CURL, MEGA PUNCH), RAICHU (Lv 64 - AGILITY).
 
-# V. Fossil Quest - Hypotheses Log
+# IV. Fossil Quest - Hypotheses Log
 - **Failed Hypotheses:**
     - The fossil is in an interactable rock.
     - The Hiker on 1F at (6,7) will move if shown the revived HELIX fossil Pokémon. (Result: Dialogue unchanged).
@@ -57,24 +48,18 @@
     - **Hypothesis 4 (Active):** The Rocket Grunt is being literal and will only accept a Pokémon nicknamed 'fossil'.
     - **Hypothesis 5:** The other fossil (the one you didn't pick) has respawned at its original location, but only after a specific flag is triggered, like re-battling the Super Nerd.
 
-# VI. Self-Assessment Findings (Turn 209210)
-- **Lapse in Immediacy:** I deferred a notepad cleanup task, violating the principle of immediate maintenance.
-- **Confirmation Bias:** I was too focused on the 'interactable rock' hypothesis and must be quicker to pivot and use the `puzzle_solver_agent` when a line of inquiry is exhausted.
-- **Verification Failure:** I failed to verify the game state after using the `fly_navigator` tool, leading to a critical hallucination. I must confirm all map transitions visually.
+# V. Self-Assessment Findings
+- **(Turn 209210):** Lapsed in immediacy, exhibited confirmation bias, and failed to verify game state after tool use.
+- **(Turn 209672):** Made an untested assumption about search area, a tool failed repeatedly, and used inconsistent map markers.
+- **(Turn 209979):** Lapsed in immediate maintenance, fixated on the 'Dig' hypothesis for over 100 turns (confirmation bias), and created a flawed tool (`clear_map_markers_by_emoji`). Pivoting strategy to address this.
 
-# VII. Automation Suite
+# VI. Automation Suite
 - **Strategy:**
     - **Battle:** Use `comprehensive_battle_agent` for high-stakes battles.
     - **Navigation:** Use `automated_path_navigator` for single-map pathfinding. Use `master_navigator_agent` for complex, multi-map navigation.
 - **Automation Pipeline (Ideas):**
-    - **Dig Search Orchestrator Agent:** An agent to manage the entire Dig search loop: find next spot, navigate, use Dig, and report outcome. (Self-Assessment Idea - Turn 209928)
-    - **Fly Navigator Tool:** A tool to automate flying to a specific city. `fly_to(city_name)`. Requires gathering data on the Fly menu layout first.
+    - **Dig Search Orchestrator Agent:** An agent to manage the entire Dig search loop: find next spot, navigate, use Dig, and report outcome.
+    - **Fly Navigator Tool:** A tool to automate flying to a specific city. `fly_to(city_name)`.
     - **PC Navigator Tool:** A tool to automate withdrawing/depositing a specific Pokémon from the PC. `pc_navigate(action, pokemon_name)`.
     - **Item User Tool:** A tool to automate using an item from the bag. `use_item_from_bag(item_name, [target_pokemon])`.
     - **Capture Assistant Agent:** An agent to provide turn-by-turn advice for catching wild Pokémon.
-    - `trap_tile`: A tile that appears as one type (e.g., 'ground') but becomes 'impassable' when stepped on. Requires passing a turn without moving (e.g., opening/closing the menu) to reset.
-
-# VIII. Self-Assessment Findings (Turn 209672)
-- **Untested Assumption:** My systematic 'Dig' search has been confined to Mt. Moon 1F. If this floor is fully searched with no results, the next step must be to expand the systematic search to the ground tiles on B1F and then B2F.
-- **Tool Failure:** The `automated_path_navigator` tool has a recurring bug causing it to generate invalid paths through impassable tiles. A fix has been re-applied.
-- **Marker Inconsistency:** I have been using two different marker styles (`❌` and `⛏️`) for tracking searched tiles. I will standardize on `⛏️` for all systematic tile searches going forward to maintain clarity.

@@ -766,31 +766,5 @@
         "action_counter": 209941
       }
     ]
-  },
-  "clear_map_markers_by_emoji": {
-    "description": "Deletes all map markers on a specified map that use a specific emoji.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "map_id": {
-          "type": "string"
-        },
-        "emoji_to_delete": {
-          "type": "string"
-        }
-      },
-      "required": [
-        "map_id",
-        "emoji_to_delete"
-      ]
-    },
-    "python_script": "import xml.etree.ElementTree as ET\nimport json\n\nroot = ET.fromstring(map_xml_string)\nmap_id_str = input_data['map_id']\nemoji_to_delete = input_data['emoji_to_delete']\n\ndeletion_commands = []\n\nfor row in root.findall('Row'):\n    y = int(row.get('id'))\n    for tile in row.findall('Tile'):\n        x = int(tile.get('id'))\n        for marker in tile.findall('Marker'):\n            if marker.get('emoji') == emoji_to_delete:\n                command = {\n                    'tool_name': 'delete_map_marker',\n                    'tool_args': [\n                        {'name': 'map_id', 'value': map_id_str},\n                        {'name': 'x', 'value': str(x)},\n                        {'name': 'y', 'value': str(y)},\n                        {'name': 'emoji', 'value': emoji_to_delete}\n                    ]\n                }\n                deletion_commands.append(command)\n\nprint(json.dumps(deletion_commands))",
-    "history": [
-      {
-        "commit_message": "feat: Create tool to batch-delete map markers by emoji. This addresses an Overwatch critique about map clutter from a failed hypothesis, allowing for efficient cleanup without manual intervention.",
-        "timestamp": "2025-09-13T08:57:13.893Z",
-        "action_counter": 209954
-      }
-    ]
   }
 }
