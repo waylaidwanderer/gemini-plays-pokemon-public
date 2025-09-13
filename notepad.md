@@ -14,6 +14,7 @@
     - **Trap Battles:** Certain wild encounters appear to be 'trap' battles where the 'RUN' option is disabled (Observed: Wigglytuff, KADABRA; Suspected: Ditto).
     - **Fossil Regeneration:** The Cinnabar Lab has a machine to regenerate fossils.
     - **NPC Passability:** Some NPCs, like the Super Nerd in Rock Tunnel B1F at (4,6), can be walked through.
+    - **Dig Mechanic (Verified):** Using the move 'Dig' while inside a cave functions like an Escape Rope, teleporting the player to the last used entrance.
 - **Tile Mechanics (Verified):**
     - `impassable`: Solid barrier. Cannot be entered.
     - `ground`: Standard walkable tile.
