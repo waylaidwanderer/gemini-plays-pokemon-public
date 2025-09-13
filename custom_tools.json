@@ -892,7 +892,7 @@
         "player_party_json"
       ]
     },
-    "python_script": "import json\n\ntry:\n    move_name = input_data['move_name'].upper()\n    player_party_json = input_data['player_party_json']\n    party = json.loads(player_party_json)\n\n    pokemon_with_move_index = -1\n    for i, pokemon in enumerate(party):\n        if any(move.get('name', '').upper() == move_name for move in pokemon.get('moves', [])):\n            pokemon_with_move_index = i\n            break\n\n    if pokemon_with_move_index == -1:\n        print(json.dumps([]))\n    else:\n        # This assumes the menu cursor starts on the top option (POKEDEX)\n        # and the desired field move is the top option in the pokemon's action menu.\n        presses = [\"Start\", \"Down\", \"A\"]\n        presses.extend([\"Down\"] * pokemon_with_move_index)\n        presses.extend([\"A\", \"A\"])\n        print(json.dumps(presses))\nexcept Exception:\n    print(json.dumps([]))",
+    "python_script": "import json\n\ntry:\n    move_name = input_data['move_name'].upper()\n    player_party_json = input_data['player_party_json']\n    party = json.loads(player_party_json)\n\n    pokemon_with_move_index = -1\n    move_index_in_list = -1\n\n    for i, pokemon in enumerate(party):\n        moves = pokemon.get('moves', [])\n        for j, move in enumerate(moves):\n            if move.get('name', '').upper() == move_name:\n                pokemon_with_move_index = i\n                move_index_in_list = j\n                break\n        if pokemon_with_move_index != -1:\n            break\n\n    if pokemon_with_move_index == -1:\n        print(json.dumps([]))\n    else:\n        presses = [\"Start\", \"Down\", \"A\"]\n        presses.extend([\"Down\"] * pokemon_with_move_index)\n        presses.append(\"A\")\n        presses.extend([\"Down\"] * move_index_in_list)\n        presses.append(\"A\")\n        print(json.dumps(presses))\nexcept Exception:\n    print(json.dumps([]))",
     "history": [
       {
         "commit_message": "feat: Create use_field_move tool. This tool automates the repetitive menu navigation required to use a field move like Dig. This will significantly speed up the systematic search of Mt. Moon and aligns with the core principle of proactive automation identified during self-assessment.",
@@ -903,6 +903,16 @@
         "commit_message": "refactor: Update description to warn against using autopress. This is a direct response to an Overwatch critique regarding a tool failure in turn 209779. The tool's logic is sound, but the execution method was flawed. This change ensures the user (me) will execute the sequence manually, preventing future errors.",
         "timestamp": "2025-09-13T07:46:16.703Z",
         "action_counter": 209801
+      },
+      {
+        "commit_message": "fix: Correct move parsing and add move selection logic. The tool was failing because it expected a dictionary for moves instead of a string array. It also incorrectly assumed the field move was always the first move. This commit fixes the parsing to handle string arrays and adds logic to navigate to the correct move in the Pokémon's move list.",
+        "timestamp": "2025-09-13T08:23:03.251Z",
+        "action_counter": 209880
+      },
+      {
+        "commit_message": "fix: Correct move parsing to handle dictionary format. The tool was failing because it expected a list of strings for moves, but the input is a list of dictionaries. This commit updates the script to correctly access the move name using `move.get('name', '')`, restoring functionality.",
+        "timestamp": "2025-09-13T08:31:20.152Z",
+        "action_counter": 209898
       }
     ]
   }

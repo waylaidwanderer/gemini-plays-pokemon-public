@@ -83,3 +83,4 @@
 - **Untested Assumption:** My systematic 'Dig' search has been confined to Mt. Moon 1F. If this floor is fully searched with no results, the next step must be to expand the systematic search to the ground tiles on B1F and then B2F.
 - **Tool Failure:** The `automated_path_navigator` tool has a recurring bug causing it to generate invalid paths through impassable tiles. A fix has been re-applied.
 - **Marker Inconsistency:** I have been using two different marker styles (`❌` and `⛏️`) for tracking searched tiles. I will standardize on `⛏️` for all systematic tile searches going forward to maintain clarity.
+    - **Systematic Search Planner:** Generalize the `dig_search_planner` to be parameterizable for different search types (e.g., checking all rocks, using an item on all grass tiles) on any map. (Overwatch Suggestion)
