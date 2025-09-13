@@ -73,6 +73,7 @@
 - **Confirmation Bias:** I was too focused on the 'interactable rock' hypothesis and must be quicker to pivot and use the `puzzle_solver_agent` when a line of inquiry is exhausted.
 - **Verification Failure:** I failed to verify the game state after using the `fly_navigator` tool, leading to a critical hallucination. I must confirm all map transitions visually.
 
-# IX. Future Automation Ideas (Expanded)
+# IX. Automation Tools & Future Ideas
+- **Nickname Automator:** A tool that automates entering a nickname on the Pokémon naming screen. Calculates the optimal button presses to spell the name, including case changes, and confirms it.
 - **Item User Tool:** A tool to automate using an item from the bag on a Pokémon or in the overworld. `use_item_from_bag(item_name, [target_pokemon])`.
 - **Capture Assistant Agent:** An agent to provide turn-by-turn advice for catching wild Pokémon. Input: Target species, level, HP%, my party. Output: Recommended action ('attack' with safe move, 'switch', 'throw_ball').
