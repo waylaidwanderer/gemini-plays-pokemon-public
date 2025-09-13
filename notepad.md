@@ -6,8 +6,7 @@
 5.  **Warp Discipline:** After every warp, my first action must be to check and, if necessary, create/update markers on **both** the departure and arrival maps.
 6.  **Mandatory Self-Assessment:** Every 50 turns, I must perform a structured self-review to ensure my strategies, documentation, and tool usage remain optimal and aligned with my core principles.
 7.  **Efficiency Over Fixation:** If a simple automation tool fails during a low-stakes, repetitive task (like a wild battle), it is more efficient to complete the task manually and fix the tool later, rather than getting stuck debugging mid-task.
-8.  **Battle Menu Anomaly (Confirmed Mechanic):** The `battle_anomaly_detector_agent` has concluded that the consistent failure to navigate the move selection menu is a **suspected game mechanic**, not a random bug. The game appears to be intentionally restricting move selection in certain battles (likely wild encounters) to the first move slot. **Strategy:** For low-stakes wild battles, running is the most efficient option. Fighting should be avoided unless necessary, as it risks getting stuck or being forced to use a suboptimal move.
-9.  **Confirmation Bias Awareness (Self-Assessment Finding):** I must be vigilant against confirmation bias. If a hypothesis fails multiple documented tests, I must actively pivot to a new, different hypothesis rather than repeating the failed approach. I should also formulate tests designed to *disprove* my own theories, not just confirm them. To combat this, I should use the `puzzle_solver_agent` more readily when I feel stuck on a single line of reasoning.
+8.  **Confirmation Bias Awareness (Self-Assessment Finding):** I must be vigilant against confirmation bias. If a hypothesis fails multiple documented tests, I must actively pivot to a new, different hypothesis rather than repeating the failed approach. I should also formulate tests designed to *disprove* my own theories, not just confirm them. To combat this, I should use the `puzzle_solver_agent` more readily when I feel stuck on a single line of reasoning.
 
 # II. Quest Log
 - **Current Quest: The Mt. Moon Fossil**
@@ -52,29 +51,30 @@
     - **(from puzzle_solver_agent - Turn 210894) Hypothesis 2:** A specific, seemingly mundane rock in Mt. Moon is a disguised ladder that can only be activated by having a Clefairy in the first slot of the party.
     - **(from puzzle_solver_agent - Turn 210894) Hypothesis 3:** The Escape Rope item is scripted to function differently within Mt. Moon, acting as a warp to the central B2F area instead of the cave entrance.
 
-# V. Self-Assessment Findings
-- **(Turn 210956):** Failed to perform mandatory self-assessment on time (due at turn 210799), a critical lapse in discipline. Made a manual pathing error by misreading map data, reinforcing the need to rely on automated tools. Acknowledged recurring system-level input drops in battle menus and the necessity of retrying failed navigation attempts.
-- **(Turn 211006):** Failed to immediately fix `select_move_in_battle` tool after its first failure, leading to getting stuck in battle loops. This was a critical lapse in adhering to the immediate maintenance directive.
-- **(Turn 211057):** Failed to use `battle_anomaly_detector_agent` to investigate recurring menu bugs. Must use it at the next opportunity. Identified need to improve notepad and create new tools for efficiency.
+# V. Game Mechanics & World State
+- **Tile Types (Observed):**
+    - **ground/grass:** Standard traversable terrain. Grass can trigger wild encounters.
+    - **impassable:** Walls, trees, buildings, and other objects that cannot be walked on or through.
+    - **cuttable:** Trees that can be removed with the HM Cut. They respawn when changing maps.
+    - **ledge:** Can only be jumped down from above. Acts as a wall from all other directions.
+    - **water:** Requires Surf to traverse.
+    - **steps:** Allows movement between 'ground' and 'elevated_ground' tiles.
+    - **elevated_ground:** Raised terrain, only accessible via 'steps' or other 'elevated_ground' tiles.
+    - **ladder_up/ladder_down:** Instant warp tiles between floors.
+    - **teleport/hole:** Instant warp tiles.
+- **Battle Menu Anomaly (Confirmed Mechanic):** The `battle_anomaly_detector_agent` has concluded that the consistent failure to navigate the move selection menu is a **suspected game mechanic**, not a random bug. The game appears to be intentionally restricting move selection in certain battles (likely wild encounters) to the first move slot. **Strategy:** For low-stakes wild battles, running is the most efficient option.
+- **Pokemon Tower 6F Healer Change:** The friendly Channeler at (13,11) is no longer a healer. Her dialogue has changed to "I feel anemic and weak...". This is a significant world state change.
 
 # VI. Automation Strategy
 - **Battle:** Use `comprehensive_battle_agent` for high-stakes battles. Use `select_move_in_battle` for standard move selection. Use `battle_anomaly_detector_agent` to investigate recurring battle issues.
 - **Navigation:** Use `automated_path_navigator` for single-map pathfinding. Use `master_navigator_agent` for complex, multi-map navigation.
 - **Future Development Pipeline:**
     - **`fly_to_city` tool:** Automate flying to a specific city. Requires observing the Fly map layout first.
-    - **`auto_battle_wild` tool:** A tool to automate simple wild battles (e.g., against Zubat/Geodude in Mt. Moon) by repeatedly using the first move.
+    - **`auto_battle_wild` tool:** A tool to automate simple wild battles by repeatedly using the first move.
     - **`hypothesis_manager` agent:** An agent to help manage and prioritize quest hypotheses when stuck.
 
-# VII. Game & Tile Mechanics
-- **Ground/Grass:** Standard traversable terrain. Grass can trigger wild encounters.
-- **Impassable:** Walls, trees, buildings, and other objects that cannot be walked on or through.
-- **Cuttable:** Trees that can be removed with the HM Cut. They respawn when changing maps.
-- **Ledge:** Can only be jumped down from above. Acts as a wall from all other directions.
-- **Elevation:** Direct movement between 'ground' and 'elevated_ground' tiles is impossible. Traversal requires using a 'steps' tile as an intermediary.
-- **Ladders:** `ladder_up` and `ladder_down` tiles function as 'warp' tiles, instantly transporting the player between floors.
-
-# VIII. World State Changes
-- **Pokemon Tower 6F Healer Change:** The friendly Channeler at (13,11) is no longer a healer. Her dialogue has changed to "I feel anemic and weak...". This is a significant world state change.
-
-# IX. Mistakes & Lessons Learned
-- **(Turn 210951):** Misread the map data, causing me to generate an invalid path through an impassable tile at (14, 8). I must always verify the map XML before planning a path manually and trust the `automated_path_navigator` tool more.
+# VII. Self-Assessment Log
+- **(Turn 210956):** Failed to perform mandatory self-assessment on time. Made a manual pathing error by misreading map data, reinforcing the need to rely on automated tools. Acknowledged recurring system-level input drops in battle menus and the necessity of retrying failed navigation attempts.
+- **(Turn 211006):** Failed to immediately fix `select_move_in_battle` tool after its first failure, leading to getting stuck in battle loops. This was a critical lapse in adhering to the immediate maintenance directive.
+- **(Turn 211057):** Failed to use `battle_anomaly_detector_agent` to investigate recurring menu bugs. Must use it at the next opportunity. Identified need to improve notepad and create new tools for efficiency.
+- **(Turn 211109):** Performed mandatory self-assessment. Identified minor lapses in immediate maintenance. Overhauled notepad to improve structure and add a comprehensive tile mechanics section. Re-committed to immediate action on all maintenance and documentation tasks.
