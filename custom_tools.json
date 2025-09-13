@@ -814,25 +814,29 @@
       }
     ]
   },
-  "find_map_markers_by_emoji": {
-    "description": "Finds all map markers on the current map with a specific emoji and returns their coordinates as a JSON list.",
+  "select_move_in_battle": {
+    "description": "Analyzes the in-battle move selection screen and outputs the button presses needed to select a specific move.",
     "input_schema": {
       "type": "object",
       "properties": {
-        "emoji": {
+        "screen_text": {
+          "type": "string"
+        },
+        "target_move": {
           "type": "string"
         }
       },
       "required": [
-        "emoji"
+        "screen_text",
+        "target_move"
       ]
     },
-    "python_script": "import json\nimport xml.etree.ElementTree as ET\n\ntry:\n    emoji_to_find = input_data['emoji']\n    root = ET.fromstring(map_xml_string)\n    found_markers = []\n    for row in root.findall('Row'):\n        for tile in row.findall('Tile'):\n            for marker in tile.findall('Marker'):\n                if marker.get('emoji') == emoji_to_find:\n                    x = tile.get('id')\n                    y = row.get('id')\n                    found_markers.append({'x': int(x), 'y': int(y)})\n    print(json.dumps(found_markers))\nexcept Exception as e:\n    print(json.dumps([{\"error\": str(e)}]))",
+    "python_script": "import json\nimport re\n\nscreen_text = input_data['screen_text']\ntarget_move = input_data['target_move'].upper()\n\nlines = screen_text.split('\\n')\nmoves = []\ncursor_index = -1\n\n# Find the start of the move list (usually after TYPE/)\nmove_list_started = False\nfor i, line in enumerate(lines):\n    if 'TYPE/' in line:\n        move_list_started = True\n        continue\n    if not move_list_started:\n        continue\n    \n    if len(moves) >= 4:\n        break\n        \n    match = re.match(r\"(→)?\\s*([A-Z\\s-]+)\", line.strip())\n    if match:\n        has_cursor = match.group(1) is not None\n        move_name = match.group(2).strip()\n        moves.append(move_name)\n        if has_cursor:\n            cursor_index = len(moves) - 1\n\nif not moves or cursor_index == -1:\n    print(json.dumps([]))\n    exit()\n\ntry:\n    target_index = moves.index(target_move)\nexcept ValueError:\n    print(json.dumps([]))\n    exit()\n\ndelta = target_index - cursor_index\nbuttons = []\nif delta > 0:\n    buttons.extend([\"Down\"] * delta)\nelif delta < 0:\n    buttons.extend([\"Up\"] * abs(delta))\n\nbuttons.append(\"A\")\nprint(json.dumps(buttons))",
     "history": [
       {
-        "commit_message": "feat: Create tool to find markers by emoji. This addresses an Overwatch critique about map clutter from a debunked hypothesis by automating the first step of the cleanup process.",
-        "timestamp": "2025-09-13T11:15:22.641Z",
-        "action_counter": 210261
+        "commit_message": "feat: Create select_move_in_battle tool. This tool automates the process of selecting a move from the battle menu, addressing an Overwatch critique about inefficient workflows and the need for proactive automation.",
+        "timestamp": "2025-09-13T13:18:16.139Z",
+        "action_counter": 210502
       }
     ]
   }
