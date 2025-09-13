@@ -76,3 +76,10 @@
 - **Untested Assumption:** My systematic 'Dig' search has been confined to Mt. Moon 1F. If this floor is fully searched with no results, the next step must be to expand the systematic search to the ground tiles on B1F and then B2F.
 - **Tool Failure:** The `automated_path_navigator` tool has a recurring bug causing it to generate invalid paths through impassable tiles. A fix has been re-applied.
 - **Marker Inconsistency:** I have been using two different marker styles (`❌` and `⛏️`) for tracking searched tiles. I will standardize on `⛏️` for all systematic tile searches going forward to maintain clarity.
+
+- **New Hypotheses (from puzzle_solver_agent - Turn 209957):**
+    - **Hypothesis 1:** The scientist in the Cinnabar Lab will provide a 'replica' fossil or the other, unchosen fossil after being shown a fully-evolved version of the fossil he revived.
+    - **Hypothesis 2:** The 'fossil' the Rocket Grunt wants is a bone-related item from the Pokémon Tower in Lavender Town, likely a Thick Club or Rare Bone.
+    - **Hypothesis 3:** The Hiker on Mt. Moon 1F at (6,7) will trade you for your revived fossil Pokémon, giving you the other fossil in return.
+    - **Hypothesis 4 (Active):** The Rocket Grunt is being literal and will only accept a Pokémon nicknamed 'fossil'.
+    - **Hypothesis 5:** The other fossil (the one you didn't pick) has respawned at its original location, but only after a specific flag is triggered, like re-battling the Super Nerd.
