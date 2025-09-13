@@ -78,3 +78,7 @@
     - **Item User Tool:** A tool to automate using an item from the bag. `use_item_from_bag(item_name, [target_pokemon])`.
     - **Capture Assistant Agent:** An agent to provide turn-by-turn advice for catching wild Pokémon.
     - `trap_tile`: A tile that appears as one type (e.g., 'ground') but becomes 'impassable' when stepped on. Requires passing a turn without moving (e.g., opening/closing the menu) to reset.
+
+# VIII. Self-Assessment Findings (Turn 209552)
+- **Untested Assumption:** My systematic 'Dig' search has been confined to Mt. Moon 1F. If this floor is fully searched with no results, the next step must be to expand the systematic search to the ground tiles on B1F and then B2F.
+- **Tool Idea:** The current dig-teleport-mark-return loop is functional but inefficient. A future 'Full Search Automator' tool could streamline this by handling pathing, the action (Dig), and marking in a single command, though the teleport mechanic adds complexity.
