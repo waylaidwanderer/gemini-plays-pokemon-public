@@ -76,3 +76,4 @@
     - **Capture Assistant Agent:** An agent to provide turn-by-turn advice for catching wild Pokémon.
     - **Full Search Automator:** A master tool that executes a systematic search loop (path, interact, mark, repeat).
     - A specific, non-fossil Pokémon from Mt. Moon (e.g., Geodude) will satisfy the Grunt. (Result: Dialogue unchanged).
+    - **Fly Navigator Tool:** A tool to automate flying to a specific city. `fly_to(city_name)`.
