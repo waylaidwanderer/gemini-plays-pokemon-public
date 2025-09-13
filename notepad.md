@@ -12,8 +12,8 @@
 # II. Quest Log
 - **Current Quest: The Mt. Moon Fossil**
     - **Objective:** Find a fossil to give to the Rocket Grunt blocking the path at Mt. Moon B2F (30,12).
-    - **Status:** Actively testing the hypothesis that the 'fossil' is a bone-related item from the Pokémon Tower in Lavender Town.
-    - **Next Step:** Explore the top floor of the Pokémon Tower for relevant items or NPCs.
+    - **Status:** Actively testing the hypothesis that the Hiker on Mt. Moon 1F will trade for my revived fossil.
+    - **Next Step:** Travel to Mt. Moon 1F to interact with the Hiker at (6,7).
 
 # III. Battle Intel
 - **Type Effectiveness Chart (Verified):**
@@ -42,8 +42,7 @@
     - The 'fossil' the Grunt wants must be stolen from the Pewter City Museum of Science. (Reasoning: Suggested by puzzle_solver_agent). (Result: Interacting with both fossil exhibits yielded no item or event).
     - The move 'Dig' must be used on a specific, unmarked tile within Mt. Moon to unearth the other fossil. (Reasoning: Suggested by puzzle_solver_agent). (Result: Systematically checked all reachable ground tiles on 1F with no success. The move consistently teleports the player out of the cave).
     - The Rocket Grunt will accept a Pokémon nicknamed 'fossil'. (Reasoning: Suggested by puzzle_solver_agent). (Result: Dialogue unchanged).
-
-- The 'fossil' the Rocket Grunt wants is a bone-related item from the Pokémon Tower in Lavender Town, likely a Thick Club or Rare Bone. (Result: Reached the top floor (7F) of the tower. No items or relevant NPCs were found. Hypothesis failed.)
+    - The 'fossil' the Rocket Grunt wants is a bone-related item from the Pokémon Tower in Lavender Town, likely a Thick Club or Rare Bone. (Result: Reached the top floor (7F) of the tower. No items or relevant NPCs were found. Hypothesis failed.)
 
 - **New Hypotheses (from puzzle_solver_agent - Turn 209957):**
     - **Hypothesis 1:** The scientist in the Cinnabar Lab will provide a 'replica' fossil or the other, unchosen fossil after being shown a fully-evolved version of the fossil he revived.
@@ -56,17 +55,22 @@
 - **(Turn 209979):** Lapsed in immediate maintenance, fixated on the 'Dig' hypothesis for over 100 turns (confirmation bias), and created a flawed tool (`clear_map_markers_by_emoji`). Pivoting strategy to address this.
 - **(Turn 210339):** Hallucinated my location for multiple turns, leading to wasted actions. Failed to document tile mechanics. Identified redundant map markers and inefficient manual processes (flying, marker cleanup) that should be automated. Re-prioritizing tool development and committing to more rigorous verification of game state.
 - **(Turn 210442):** Notepad's tile mechanics section was incomplete and automation backlog was out of date. Failed to mark defeated trainers on current map. Addressed all issues immediately.
+- **(Turn 210749):** Failed to immediately fix `select_move_in_battle` tool after first malfunction, leading to getting stuck in battle loops. Exhibited confirmation bias by repeatedly trying to select 'SURF' when the equally effective 'ROCK THROW' was already selected and the menu was unresponsive to navigation. Incomplete documentation of tile mechanics. Goals were too method-oriented. Addressed all immediately.
 
 # VI. Automation Strategy
 - **Battle:** Use `comprehensive_battle_agent` for high-stakes battles. Use `select_move_in_battle` for standard move selection.
 - **Navigation:** Use `automated_path_navigator` for single-map pathfinding. Use `master_navigator_agent` for complex, multi-map navigation.
 - **Tool Development Note:** I need to observe the Fly map screen to gather layout data before I can build the `fly_to_city` tool.
 
+# VII. Game & Tile Mechanics
+- **Ground/Grass:** Standard traversable terrain. Grass can trigger wild encounters.
+- **Impassable:** Walls, trees, buildings, and other objects that cannot be walked on or through.
+- **Cuttable:** Trees that can be removed with the HM Cut. They respawn when changing maps.
+- **Ledge:** Can only be jumped down from above. Acts as a wall from all other directions.
+- **Elevation:** Direct movement between 'ground' and 'elevated_ground' tiles is impossible. Traversal requires using a 'steps' tile as an intermediary.
+
 # VIII. World State Changes
 - **Pokemon Tower 6F Healer Change:** The friendly Channeler at (13,11) is no longer a healer. Her dialogue has changed to "I feel anemic and weak...". This is a significant world state change.
 - **Future Development:**
     - Create a `fly_to_city` tool after observing the Fly map layout.
     - Create a 'Lead Pokémon Advisor' agent to suggest the best lead for an area based on known wild Pokémon.
-
-# VII. Game & Tile Mechanics
-- **Elevation:** Direct movement between 'ground' and 'elevated_ground' tiles is impossible. Traversal requires using a 'steps' tile as an intermediary.
