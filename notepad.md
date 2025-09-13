@@ -70,6 +70,10 @@
     - Create a `fly_to_city` tool after observing the Fly map layout.
     - Create a 'Lead Pokémon Advisor' agent to suggest the best lead for an area based on known wild Pokémon.
     - Create a tool to automate simple wild battles (e.g., against Zubat/Geodude in Mt. Moon).
+- **Future Development:**
+    - Create a `fly_to_city` tool after observing the Fly map layout.
+    - Create a 'Lead Pokémon Advisor' agent to suggest the best lead for an area based on known wild Pokémon.
+    - Create a tool to automate simple wild battles (e.g., against Zubat/Geodude in Mt. Moon).
 
 # VII. Game & Tile Mechanics
 - **Ground/Grass:** Standard traversable terrain. Grass can trigger wild encounters.
