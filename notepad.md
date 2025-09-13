@@ -76,9 +76,6 @@
 
 # VIII. World State Changes
 - **Pokemon Tower 6F Healer Change:** The friendly Channeler at (13,11) is no longer a healer. Her dialogue has changed to "I feel anemic and weak...". This is a significant world state change.
-- **Future Development:**
-    - Create a `fly_to_city` tool after observing the Fly map layout.
-    - Create a 'Lead Pokémon Advisor' agent to suggest the best lead for an area based on known wild Pokémon.
 
 # V. Fossil Quest - Agent Hypotheses (Turn 210894)
 - **Hypothesis 1 (High Priority):** There is a hidden, one-way passage concealed in a wall on 1F that leads to a different section of the lower floors.
