@@ -80,3 +80,4 @@
 - **elevated_ground:** Walkable ground at a different elevation.
 - **ledge:** One-way traversal. Can be jumped down from above (Y-1 to Y+2), but not climbed up.
 - **cuttable:** A tree that can be cut with HM Cut. Becomes `ground` after cutting, but respawns on map change or after battle.
+    - Water is not very effective against Ghost/Poison (Observed: HELIX's SURF vs GASTLY).
