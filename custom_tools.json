@@ -781,7 +781,7 @@
         },
         "stage": {
           "type": "string",
-          "description": "The stage of the sequence to execute (1: open party, 2: select pokemon, 3: use move)."
+          "description": "The stage of the sequence to execute (1: open menu, 2: select pokemon, 3: use move)."
         }
       },
       "required": [
@@ -790,7 +790,7 @@
         "stage"
       ]
     },
-    "python_script": "import json\n\npokemon_name = input_data['pokemon_name']\nparty_list_str = input_data['party_list']\nstage = int(input_data['stage'])\nparty = json.loads(party_list_str)\n\npokemon_index = -1\nfor i, pokemon in enumerate(party):\n    if pokemon['name'].upper() == pokemon_name.upper():\n        pokemon_index = i\n        break\n\nif pokemon_index == -1:\n    print(json.dumps([]))\nelse:\n    if stage == 1:\n        buttons = [\"Start\", \"A\"]\n        print(json.dumps(buttons))\n    elif stage == 2:\n        buttons = [\"Down\"] * pokemon_index\n        print(json.dumps(buttons))\n    elif stage == 3:\n        buttons = [\"A\", \"A\"]\n        print(json.dumps(buttons))",
+    "python_script": "import json\n\ntry:\n    pokemon_name_to_find = input_data['pokemon_name']\n    party_list_str = input_data['party_list']\n    stage = input_data['stage']\n    \n    party = json.loads(party_list_str)\n    \n    buttons = []\n    \n    if stage == '1': # Open main menu\n        buttons = [\"Start\"]\n    elif stage == '2': # Select Pokemon in party\n        pokemon_index = -1\n        for i, pokemon in enumerate(party):\n            if pokemon['name'].upper() == pokemon_name_to_find.upper():\n                pokemon_index = i\n                break\n        \n        if pokemon_index != -1:\n            for _ in range(pokemon_index):\n                buttons.append(\"Down\")\n            buttons.append(\"A\")\n    elif stage == '3': # Use Fly\n        buttons = [\"A\"]\n\n    print(json.dumps(buttons))\n\nexcept Exception as e:\n    print(json.dumps({\"error\": str(e)}))",
     "history": [
       {
         "commit_message": "feat: Create initiate_fly tool to automate menuing for Fly HM. This tool opens the party menu, selects the specified Pokemon, and uses the Fly move, leaving the player at the map selection screen. This is a direct response to an Overwatch critique regarding the failure to proactively automate repetitive tasks and will improve navigation efficiency.",
@@ -806,6 +806,33 @@
         "commit_message": "refactor: Add stage parameter to execute Fly sequence in chunks. This is a direct response to an Overwatch critique regarding tool refinement after the single-sequence approach failed. This change tests the hypothesis that the system cannot handle long button sequences from tools.",
         "timestamp": "2025-09-13T10:12:22.353Z",
         "action_counter": 210151
+      },
+      {
+        "commit_message": "fix: Correct stage 1 logic to only open the menu. The previous version incorrectly selected the first option (Pokédex) by pressing 'A' immediately. This change makes the tool more reliable by breaking down the action into smaller, user-controlled steps.",
+        "timestamp": "2025-09-13T11:32:21.815Z",
+        "action_counter": 210299
+      }
+    ]
+  },
+  "find_map_markers_by_emoji": {
+    "description": "Finds all map markers on the current map with a specific emoji and returns their coordinates as a JSON list.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "emoji": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "emoji"
+      ]
+    },
+    "python_script": "import json\nimport xml.etree.ElementTree as ET\n\ntry:\n    emoji_to_find = input_data['emoji']\n    root = ET.fromstring(map_xml_string)\n    found_markers = []\n    for row in root.findall('Row'):\n        for tile in row.findall('Tile'):\n            for marker in tile.findall('Marker'):\n                if marker.get('emoji') == emoji_to_find:\n                    x = tile.get('id')\n                    y = row.get('id')\n                    found_markers.append({'x': int(x), 'y': int(y)})\n    print(json.dumps(found_markers))\nexcept Exception as e:\n    print(json.dumps([{\"error\": str(e)}]))",
+    "history": [
+      {
+        "commit_message": "feat: Create tool to find markers by emoji. This addresses an Overwatch critique about map clutter from a debunked hypothesis by automating the first step of the cleanup process.",
+        "timestamp": "2025-09-13T11:15:22.641Z",
+        "action_counter": 210261
       }
     ]
   }

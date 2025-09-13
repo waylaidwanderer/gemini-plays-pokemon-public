@@ -13,7 +13,7 @@
 - **Current Quest: The Mt. Moon Fossil**
     - **Objective:** Find a fossil to give to the Rocket Grunt blocking the path at Mt. Moon B2F (30,12).
     - **Status:** Pivoting away from the 'Dig' hypothesis after extensive, failed testing. Now pursuing new leads from the `puzzle_solver_agent`.
-    - **Next Step:** Travel to Lavender Town to test the hypothesis that the grunt wants a Pokémon nicknamed 'fossil'.
+    - **Next Step:** Travel to Lavender Town to test the hypothesis that the grunt wants a bone-related item from the Pokémon Tower. Be wary of confirmation bias with this hypothesis; pivot quickly if it yields no results.
 
 # III. Battle Intel
 - **Type Effectiveness Chart (Verified):**
@@ -52,18 +52,29 @@
 - **(Turn 209210):** Lapsed in immediacy, exhibited confirmation bias, and failed to verify game state after tool use.
 - **(Turn 209672):** Made an untested assumption about search area, a tool failed repeatedly, and used inconsistent map markers.
 - **(Turn 209979):** Lapsed in immediate maintenance, fixated on the 'Dig' hypothesis for over 100 turns (confirmation bias), and created a flawed tool (`clear_map_markers_by_emoji`). Pivoting strategy to address this.
+- **(Turn 210339):** Hallucinated my location for multiple turns, leading to wasted actions. Failed to document tile mechanics. Identified redundant map markers and inefficient manual processes (flying, marker cleanup) that should be automated. Re-prioritizing tool development and committing to more rigorous verification of game state.
 
-# VI. Automation Suite
+# VI. Game Mechanics & Tile Properties
+- **ground:** Standard walkable tile.
+- **impassable:** Walls, objects, cannot be entered.
+- **grass:** Tall grass, wild Pokémon encounters.
+- **warp:** Triggers a map change when entered. Can be doors, stairs, ladders, cave entrances.
+- **ledge:** One-way traversal. Can be jumped down, but not climbed up.
+- **steps:** Allows movement between `ground` and `elevated_ground`.
+- **elevated_ground:** Walkable, but at a different height. Only accessible via `steps`.
+- **cuttable:** A tree that can be removed with the HM 'Cut'. Respawns on map change.
+
+# VII. Automation Suite
 - **Strategy:**
     - **Battle:** Use `comprehensive_battle_agent` for high-stakes battles.
     - **Navigation:** Use `automated_path_navigator` for single-map pathfinding. Use `master_navigator_agent` for complex, multi-map navigation.
 - **Tool Development Log:**
     - **(Turn 210051):** Created `initiate_fly` tool to automate opening the Fly menu. This is a direct response to an Overwatch critique about failing to proactively automate repetitive tasks.
-    - **Backlog:**
-        - **`fly_to_city` Tool:** An enhanced version of `initiate_fly` that can also select the destination city from the map. Requires mapping the Fly screen layout.
+    - **Backlog (Priority Order):**
+        - **`fly_to_city` Tool:** An enhanced version of `initiate_fly` that can also select the destination city from the map. Requires mapping the Fly screen layout. (HIGH PRIORITY - will prevent inefficient manual menuing).
+        - **`clear_map_markers_by_emoji` Tool:** A tool to delete all map markers on a given map that use a specific emoji. `clear_map_markers_by_emoji(map_id, emoji)`. (HIGH PRIORITY - will prevent tedious manual cleanup).
         - **`pc_navigator` Tool:** A tool to automate withdrawing/depositing a specific Pokémon from the PC. `pc_navigate(action, pokemon_name)`.
         - **`item_user` Tool:** A tool to automate using an item from the bag. `use_item_from_bag(item_name, [target_pokemon])`.
         - **`use_hm` Tool:** A tool to automate using a field move like Cut or Flash. `use_hm(hm_name, pokemon_name)`.
         - **`capture_assistant` Agent:** An agent to provide turn-by-turn advice for catching wild Pokémon.
         - **`wild_battle_automator` Tool:** A tool to manage simple wild encounters by repeatedly using the single most effective move until the battle ends.
-        - **`clear_map_markers_by_emoji` Tool:** A tool to delete all map markers on a given map that use a specific emoji. `clear_map_markers_by_emoji(map_id, emoji)`.
