@@ -32,22 +32,25 @@
 # IV. Fossil Quest - Hypotheses Log
 - **Failed Hypotheses:**
     - The fossil is in an interactable rock.
-    - The Hiker on 1F at (6,7) will move if shown the revived HELIX fossil Pokémon. (Result: Dialogue unchanged).
-    - The scientist in the Cinnabar Lab Fossil Room at (5,3) can 'un-revive' a fossil Pokémon. (Result: Dialogue was generic, asked for a fossil item).
-    - The scientist in the Cinnabar Lab Fossil Room at (8,3) can 'un-revive' a fossil Pokémon. (Result: Dialogue confirmed he only revives fossil items, does not reverse the process).
-    - Presenting the revived HELIX fossil Pokémon to the Rocket Grunt on B2F will trigger a new event. (Result: Dialogue unchanged, still demands a fossil item).
-    - The 'fossil' the Rocket Grunt wants is the MOON STONE. (Reasoning: Wordplay and context of being in Mt. Moon). (Result: Dialogue unchanged).
-    - A specific, non-fossil Pokémon from Mt. Moon (e.g., Geodude) will satisfy the Grunt. (Reasoning: Subverting expectations by reinterpreting 'fossil'). (Result: Dialogue unchanged).
-    - The Hiker on Mt. Moon 1F at (6,7) is part of a chained quest. (Reasoning: Two path-blockers in one dungeon is suspicious). (Result: Dialogue unchanged, even with different Pokémon in party).
-    - The 'fossil' the Grunt wants must be stolen from the Pewter City Museum of Science. (Reasoning: Suggested by puzzle_solver_agent). (Result: Interacting with both fossil exhibits yielded no item or event).
-    - The move 'Dig' must be used on a specific, unmarked tile within Mt. Moon to unearth the other fossil. (Reasoning: Suggested by puzzle_solver_agent). (Result: Systematically checked all reachable ground tiles on 1F with no success. The move consistently teleports the player out of the cave).
-    - The Rocket Grunt will accept a Pokémon nicknamed 'fossil'. (Reasoning: Suggested by puzzle_solver_agent). (Result: Dialogue unchanged).
-    - The 'fossil' the Rocket Grunt wants is a bone-related item from the Pokémon Tower in Lavender Town, likely a Thick Club or Rare Bone. (Result: Reached the top floor (7F) of the tower. No items or relevant NPCs were found. Hypothesis failed.)
-    - The Hiker on Mt. Moon 1F at (6,7) will trade you for your revived fossil Pokémon, giving you the other fossil in return. (Result: Dialogue unchanged, still says "Kids like you shouldn't be here!").
+    - The Hiker on 1F at (6,7) will move if shown the revived HELIX fossil Pokémon.
+    - The scientist in the Cinnabar Lab Fossil Room can 'un-revive' a fossil Pokémon.
+    - Presenting the revived HELIX fossil Pokémon to the Rocket Grunt on B2F will trigger a new event.
+    - The 'fossil' the Rocket Grunt wants is the MOON STONE.
+    - A specific, non-fossil Pokémon from Mt. Moon (e.g., Geodude) will satisfy the Grunt.
+    - The Hiker on Mt. Moon 1F at (6,7) is part of a chained quest.
+    - The 'fossil' the Grunt wants must be stolen from the Pewter City Museum of Science.
+    - The move 'Dig' must be used on a specific, unmarked tile within Mt. Moon to unearth the other fossil.
+    - The Rocket Grunt will accept a Pokémon nicknamed 'fossil'.
+    - The 'fossil' the Rocket Grunt wants is a bone-related item from the Pokémon Tower in Lavender Town.
+    - The Hiker on Mt. Moon 1F at (6,7) will trade you for your revived fossil Pokémon.
+    - One of the ladders that leads to a dead end must be entered and exited a specific number of times (e.g., three times) to change its destination. (Result: Tested on ladder at (26,16). No change in destination after 3 cycles).
 
-- **New Hypotheses (from puzzle_solver_agent - Turn 209957):**
-    - **Hypothesis 1:** The scientist in the Cinnabar Lab will provide a 'replica' fossil or the other, unchosen fossil after being shown a fully-evolved version of the fossil he revived.
-    - **Hypothesis 5 (Active):** The other fossil (the one you didn't pick) has respawned at its original location, but only after a specific flag is triggered, like re-battling the Super Nerd.
+- **Active Hypotheses:**
+    - **(from Turn 209957):** The scientist in the Cinnabar Lab will provide a 'replica' fossil or the other, unchosen fossil after being shown a fully-evolved version of the fossil he revived.
+    - **(from Turn 209957):** The other fossil (the one you didn't pick) has respawned at its original location, but only after a specific flag is triggered, like re-battling the Super Nerd.
+    - **(from Turn 210894 - High Priority):** There is a hidden, one-way passage concealed in a wall on 1F that leads to a different section of the lower floors.
+    - **(from Turn 210894):** A specific, seemingly mundane rock in Mt. Moon is a disguised ladder that can only be activated by having a Clefairy in the first slot of the party.
+    - **(from Turn 210894):** The Escape Rope item is scripted to function differently within Mt. Moon, acting as a warp to the central B2F area instead of the cave entrance.
 - **New Hypotheses (from puzzle_solver_agent - Turn 210894):**
     - **Hypothesis 1 (High Priority):** There is a hidden, one-way passage concealed in a wall on 1F that leads to a different section of the lower floors.
     - **Hypothesis 2:** A specific, seemingly mundane rock in Mt. Moon is a disguised ladder that can only be activated by having a Clefairy in the first slot of the party.
