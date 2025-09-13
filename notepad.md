@@ -52,7 +52,7 @@
     - Presenting the revived HELIX fossil Pokémon to the Rocket Grunt on B2F will trigger a new event. (Result: Dialogue unchanged, still demands a fossil item).
 - **Hypothesis 1 (Failed):** The 'fossil' the Rocket Grunt wants is the MOON STONE. (Reasoning: Wordplay and context of being in Mt. Moon). (Result: Dialogue unchanged).
 - **Hypothesis 2:** A specific, non-fossil Pokémon from Mt. Moon (e.g., Geodude) will satisfy the Grunt. (Reasoning: Subverting expectations by reinterpreting 'fossil').
-- **Hypothesis 3:** The Hiker on Mt. Moon 1F at (6,7) is part of a chained quest and must be dealt with first. (Reasoning: Two path-blockers in one dungeon is suspicious).
+- **Hypothesis 3 (Failed):** The Hiker on Mt. Moon 1F at (6,7) is part of a chained quest. (Reasoning: Two path-blockers in one dungeon is suspicious). (Result: Dialogue unchanged, even with different Pokémon in party).
 - **Hypothesis 4:** The fossil is a hidden item on the ground, requiring a move like Dig. (Reasoning: A common ROM hack method for hiding key items).
 
 # VI. Self-Assessment Findings (Turn 209210)
