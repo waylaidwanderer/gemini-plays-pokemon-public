@@ -73,13 +73,13 @@
     - **Navigation:** Use `automated_path_navigator` for single-map pathfinding. Use `master_navigator_agent` for complex, multi-map navigation.
 - **Automation Pipeline (Ideas):**
     - **Full Search Automator:** A master tool that executes a systematic search loop. It would take a target map, target tile type, and a sequence of actions (e.g., menu navigation to use a field move) as input. Its loop would be: 1. Call a planner tool (like `dig_search_planner`) to find the next target tile. 2. Execute the path to the tile. 3. Execute the predefined action sequence (e.g., open menu, select Pokémon, select move). 4. Handle any interruptions (like wild battles). 5. After the action, call `define_map_marker` to mark the tile. 6. Repeat until the planner tool finds no more valid targets. This would fully automate systematic searches.
-    - **BUG REPORT (automated_path_navigator):** The tool is generating invalid paths that move through 'impassable' tiles. This has occurred multiple times on Route 4. I have implemented a fix to explicitly check for and disallow movement onto 'impassable' tiles.
     - **Fly Navigator Tool:** A tool to automate flying to a specific city. `fly_to(city_name)`. Requires gathering data on the Fly menu layout first.
     - **PC Navigator Tool:** A tool to automate withdrawing/depositing a specific Pokémon from the PC. `pc_navigate(action, pokemon_name)`.
     - **Item User Tool:** A tool to automate using an item from the bag. `use_item_from_bag(item_name, [target_pokemon])`.
     - **Capture Assistant Agent:** An agent to provide turn-by-turn advice for catching wild Pokémon.
     - `trap_tile`: A tile that appears as one type (e.g., 'ground') but becomes 'impassable' when stepped on. Requires passing a turn without moving (e.g., opening/closing the menu) to reset.
 
-# VIII. Self-Assessment Findings (Turn 209552)
+# VIII. Self-Assessment Findings (Turn 209672)
 - **Untested Assumption:** My systematic 'Dig' search has been confined to Mt. Moon 1F. If this floor is fully searched with no results, the next step must be to expand the systematic search to the ground tiles on B1F and then B2F.
-- **Tool Idea:** The current dig-teleport-mark-return loop is functional but inefficient. A future 'Full Search Automator' tool could streamline this by handling pathing, the action (Dig), and marking in a single command, though the teleport mechanic adds complexity.
+- **Tool Failure:** The `automated_path_navigator` tool has a recurring bug causing it to generate invalid paths through impassable tiles. A fix has been re-applied.
+- **Marker Inconsistency:** I have been using two different marker styles (`❌` and `⛏️`) for tracking searched tiles. I will standardize on `⛏️` for all systematic tile searches going forward to maintain clarity.
