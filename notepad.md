@@ -6,14 +6,14 @@
 5.  **Warp Discipline:** After every warp, my first action must be to check and, if necessary, create/update markers on **both** the departure and arrival maps.
 6.  **Mandatory Self-Assessment:** Every 50 turns, I must perform a structured self-review to ensure my strategies, documentation, and tool usage remain optimal and aligned with my core principles.
 7.  **Efficiency Over Fixation:** If a simple automation tool fails during a low-stakes, repetitive task (like a wild battle), it is more efficient to complete the task manually and fix the tool later, rather than getting stuck debugging mid-task.
-8.  **Battle Menu Anomaly (Confirmed):** The system's tool execution is unreliable when combining directional inputs with an action button ('A') in a single turn. Automation must separate these into separate turns. Input drops for 'A' presses are also common, requiring retry logic (e.g., pressing 'A' multiple times).
+8.  **Battle Menu Anomaly (Hypothesis):** The system's tool execution is unreliable when combining directional inputs with an action button ('A') in a single turn. Input drops for 'A' presses are also common. **Next Step:** The next time this occurs, I MUST use the `battle_anomaly_detector_agent` to determine if this is a system bug or a hidden game mechanic.
 9.  **Confirmation Bias Awareness (Self-Assessment Finding):** I must be vigilant against confirmation bias. If a hypothesis fails multiple documented tests, I must actively pivot to a new, different hypothesis rather than repeating the failed approach. I should also formulate tests designed to *disprove* my own theories, not just confirm them. To combat this, I should use the `puzzle_solver_agent` more readily when I feel stuck on a single line of reasoning.
 
 # II. Quest Log
 - **Current Quest: The Mt. Moon Fossil**
     - **Objective:** Find a fossil to give to the Rocket Grunt blocking the path at Mt. Moon B2F (30,12).
-    - **Status:** Currently testing the hypothesis that there is a hidden, one-way passage concealed in a wall on 1F.
-    - **Next Step:** Continue the systematic sweep of the western wall on Mt. Moon 1F.
+    - **Status:** Pivoting to a new hypothesis after the 'hidden wall passage' test failed.
+    - **Next Step:** Exit Mt. Moon, retrieve LUNA (Clefairy) from the PC, and return to test the 'Clefairy rock ladder' hypothesis.
 
 # III. Battle Intel
 - **Type Effectiveness Chart (Verified):**
@@ -44,25 +44,26 @@
     - The 'fossil' the Rocket Grunt wants is a bone-related item from the Pokémon Tower in Lavender Town.
     - The Hiker on Mt. Moon 1F at (6,7) will trade you for your revived fossil Pokémon.
     - One of the ladders that leads to a dead end must be entered and exited a specific number of times (e.g., three times) to change its destination. (Result: Tested on ladder at (26,16). No change in destination after 3 cycles).
+    - **(FALSIFIED):** There is a hidden, one-way passage concealed in the western wall on 1F. (Result: The western wall from (2,3) to (2,18) has been systematically checked and yielded no results.)
 
 - **Active Hypotheses:**
     - **(from Turn 209957):** The scientist in the Cinnabar Lab will provide a 'replica' fossil or the other, unchosen fossil after being shown a fully-evolved version of the fossil he revived.
     - **(from Turn 209957):** The other fossil (the one you didn't pick) has respawned at its original location, but only after a specific flag is triggered, like re-battling the Super Nerd.
-    - **(from puzzle_solver_agent - Turn 210894) Hypothesis 1 (Partially Tested):** There is a hidden, one-way passage concealed in a wall on 1F. (Status: The western wall from (2,3) to (2,18) has been systematically checked and yielded no results. This part of the hypothesis is falsified.)
     - **(from puzzle_solver_agent - Turn 210894) Hypothesis 2:** A specific, seemingly mundane rock in Mt. Moon is a disguised ladder that can only be activated by having a Clefairy in the first slot of the party.
     - **(from puzzle_solver_agent - Turn 210894) Hypothesis 3:** The Escape Rope item is scripted to function differently within Mt. Moon, acting as a warp to the central B2F area instead of the cave entrance.
 
 # V. Self-Assessment Findings
 - **(Turn 210956):** Failed to perform mandatory self-assessment on time (due at turn 210799), a critical lapse in discipline. Made a manual pathing error by misreading map data, reinforcing the need to rely on automated tools. Acknowledged recurring system-level input drops in battle menus and the necessity of retrying failed navigation attempts.
 - **(Turn 211006):** Failed to immediately fix `select_move_in_battle` tool after its first failure, leading to getting stuck in battle loops. This was a critical lapse in adhering to the immediate maintenance directive.
+- **(Turn 211057):** Failed to use `battle_anomaly_detector_agent` to investigate recurring menu bugs. Must use it at the next opportunity. Identified need to improve notepad and create new tools for efficiency.
 
 # VI. Automation Strategy
-- **Battle:** Use `comprehensive_battle_agent` for high-stakes battles. Use `select_move_in_battle` for standard move selection.
+- **Battle:** Use `comprehensive_battle_agent` for high-stakes battles. Use `select_move_in_battle` for standard move selection. Use `battle_anomaly_detector_agent` to investigate recurring battle issues.
 - **Navigation:** Use `automated_path_navigator` for single-map pathfinding. Use `master_navigator_agent` for complex, multi-map navigation.
 - **Future Development Pipeline:**
-    - A `fly_to_city` tool (requires observing the Fly map layout first).
-    - A 'Lead Pokémon Advisor' agent to suggest the best lead for an area based on known wild Pokémon.
-    - A tool to automate simple wild battles (e.g., against Zubat/Geodude in Mt. Moon).
+    - **`fly_to_city` tool:** Automate flying to a specific city. Requires observing the Fly map layout first.
+    - **`auto_battle_wild` tool:** A tool to automate simple wild battles (e.g., against Zubat/Geodude in Mt. Moon) by repeatedly using the first move.
+    - **`hypothesis_manager` agent:** An agent to help manage and prioritize quest hypotheses when stuck.
 
 # VII. Game & Tile Mechanics
 - **Ground/Grass:** Standard traversable terrain. Grass can trigger wild encounters.
