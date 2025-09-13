@@ -873,31 +873,5 @@
         "action_counter": 211001
       }
     ]
-  },
-  "fly_to_city": {
-    "description": "Automates selecting a city from the Fly map. Takes the target city name and screen text, then outputs the button presses needed to select it and confirm.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "target_city": {
-          "type": "string"
-        },
-        "screen_text": {
-          "type": "string"
-        }
-      },
-      "required": [
-        "target_city",
-        "screen_text"
-      ]
-    },
-    "python_script": "import json\nimport re\n\ndef fly_to_city():\n    target_city = input_data['target_city'].upper()\n    screen_text = input_data['screen_text']\n    \n    city_order = [\n        'PALLET TOWN',\n        'VIRIDIAN CITY',\n        'PEWTER CITY',\n        'CERULEAN CITY',\n        'LAVENDER TOWN',\n        'VERMILION CITY',\n        'CELADON CITY',\n        'FUCHSIA CITY',\n        'CINNABAR ISLAND',\n        'INDIGO PLATEAU',\n        'SAFFRON CITY'\n    ]\n    \n    try:\n        current_city_match = re.search(r'To (\\w+\\s*\\w*)', screen_text)\n        if not current_city_match:\n            print(json.dumps({'success': False, 'reason': 'Could not parse current city from screen text.'}))\n            return\n            \n        current_city = current_city_match.group(1).strip().upper()\n        \n        if target_city not in city_order:\n            print(json.dumps({'success': False, 'reason': f'Target city \"{target_city}\" is not a known flyable location.'}))\n            return\n\n        current_index = city_order.index(current_city)\n        target_index = city_order.index(target_city)\n        \n        presses = []\n        diff = target_index - current_index\n        \n        if diff > 0:\n            for _ in range(diff):\n                presses.append('Down')\n        elif diff < 0:\n            for _ in range(abs(diff)):\n                presses.append('Up')\n\n        presses.append('A')\n        \n        print(json.dumps({'success': True, 'buttons': presses}))\n\n    except Exception as e:\n        print(json.dumps({'success': False, 'reason': f'An error occurred: {str(e)}'}))\n\nfly_to_city()\n",
-    "history": [
-      {
-        "commit_message": "feat: Create fly_to_city tool to automate city selection. This tool parses the Fly map screen to determine the current and target cities, then calculates the necessary 'Up'/'Down' presses. This addresses a key efficiency gap identified during a mandatory self-assessment and removes the need for manual menu navigation.",
-        "timestamp": "2025-09-13T23:01:26.941Z",
-        "action_counter": 211265
-      }
-    ]
   }
 }
