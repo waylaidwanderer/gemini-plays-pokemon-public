@@ -15,8 +15,6 @@
     - **Fossil Regeneration:** The Cinnabar Lab has a machine to regenerate fossils.
     - **NPC Passability:** Some NPCs, like the Super Nerd in Rock Tunnel B1F at (4,6), can be walked through.
     - **Dig Mechanic (Verified):** Using the move 'Dig' while inside a cave functions like an Escape Rope, teleporting the player to the last used entrance.
-- **Automation Pipeline (Ideas):**
-    - **Full Search Automator:** A master tool that executes a systematic search loop (path, interact, mark, repeat). This would combine the logic of `dig_search_planner` and an action like using a move or interacting. It should be able to take a target map, tile type, and action as input.
 - **Tile Mechanics (Verified):**
     - `impassable`: Solid barrier. Cannot be entered.
     - `ground`: Standard walkable tile.
@@ -73,11 +71,10 @@
 - **Strategy:**
     - **Battle:** Use `battle_automator` for routine wild battles. Use `comprehensive_battle_agent` for high-stakes battles.
     - **Navigation:** Use `automated_path_navigator` for single-map pathfinding. Use `master_navigator_agent` for complex, multi-map navigation.
-- **Active Tools:**
 - **Automation Pipeline (Ideas):**
+    - **Full Search Automator:** A master tool that executes a systematic search loop (path, interact, mark, repeat). This would combine the logic of `dig_search_planner` and an action like using a move or interacting. It should be able to take a target map, tile type, and action as input.
     - **Fly Navigator Tool:** A tool to automate flying to a specific city. `fly_to(city_name)`. Requires gathering data on the Fly menu layout first.
     - **PC Navigator Tool:** A tool to automate withdrawing/depositing a specific Pokémon from the PC. `pc_navigate(action, pokemon_name)`.
     - **Item User Tool:** A tool to automate using an item from the bag. `use_item_from_bag(item_name, [target_pokemon])`.
     - **Capture Assistant Agent:** An agent to provide turn-by-turn advice for catching wild Pokémon.
-    - **Full Search Automator:** A master tool that executes a systematic search loop (path, interact, mark, repeat).
     - `trap_tile`: A tile that appears as one type (e.g., 'ground') but becomes 'impassable' when stepped on. Requires passing a turn without moving (e.g., opening/closing the menu) to reset.
