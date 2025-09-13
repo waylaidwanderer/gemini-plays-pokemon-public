@@ -52,3 +52,11 @@
     - The Hiker on 1F at (6,7) will move if shown the revived HELIX fossil Pokémon. (Result: Dialogue unchanged).
 - **Hypothesis 1 (Top Priority):** The required fossil must be obtained by 'un-reviving' my current HELIX fossil Pokémon at the Cinnabar Island lab.
 - **Hypothesis 2:** Presenting the revived HELIX fossil Pokémon to the Rocket Grunt on B2F will trigger a new event.
+
+# VII. Automation Strategy
+- **Battle Automation:**
+    - `battle_automator` (Tool): Use for routine, low-stakes wild battles where speed and efficiency are the priority.
+    - `comprehensive_battle_agent` (Agent): Reserve for high-stakes, complex battles (Gym Leaders, Rival, etc.) that require deep strategic analysis, move prediction, and pre-battle team planning.
+- **Navigation Automation:**
+    - `automated_path_navigator` (Tool): Use for standard A-to-B pathfinding on a single, contiguous map.
+    - `master_navigator_agent` (Agent): Reserve for complex, multi-map navigation puzzles (e.g., Silph Co. teleporter maze) that require high-level reasoning about warp sequences and overall strategy.
