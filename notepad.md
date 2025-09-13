@@ -15,14 +15,6 @@
     - **Fossil Regeneration:** The Cinnabar Lab has a machine to regenerate fossils.
     - **NPC Passability:** Some NPCs, like the Super Nerd in Rock Tunnel B1F at (4,6), can be walked through.
     - **Dig Mechanic (Highly Inconsistent):** Using 'Dig' in Mt. Moon has multiple, inconsistent effects. It has been observed to: 1) Teleport the player to a fixed location on Route 3 at (62, 1). 2) Teleport the player to the last used entrance (e.g., Route 4). 3) Do nothing, leaving the player in the same spot. The trigger for each outcome is currently unknown.
-- **Tile Mechanics (Verified):**
-    - `impassable`: Solid barrier. Cannot be entered.
-    - `ground`: Standard walkable tile.
-    - `grass`: Walkable tile that can trigger wild Pokémon encounters.
-    - `elevated_ground`: Walkable ground at a different elevation. Cannot be accessed from `ground` directly.
-    - `steps`: The only tile type that allows movement between `ground` and `elevated_ground`.
-    - `ladder_up` / `ladder_down`: Warps that lead to different floors.
-    - `ledge`: One-way traversal, can only be jumped down.
 
 # III. Quest Log
 - **Current Quest: The Mt. Moon Fossil**

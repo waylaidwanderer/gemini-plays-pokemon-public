@@ -616,117 +616,6 @@
       }
     ]
   },
-  "battle_automator": {
-    "description": "A consolidated battle tool that handles both the main battle menu and the move selection menu. It can select a specific main menu option if requested, or otherwise perform the optimal action: selecting 'FIGHT' from the main menu or the best available damaging move from the move menu, now with type effectiveness logic. IMPORTANT: This tool now ONLY outputs directional movements; a separate 'A' press is required to confirm a selection.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "screen_text": {
-          "type": "string"
-        },
-        "player_party_json": {
-          "type": "string"
-        },
-        "preferred_action": {
-          "type": "string",
-          "enum": [
-            "FIGHT",
-            "PKMN",
-            "ITEM",
-            "RUN"
-          ],
-          "nullable": true
-        }
-      },
-      "required": [
-        "screen_text",
-        "player_party_json"
-      ]
-    },
-    "python_script": "import json\nimport re\n\nTYPE_CHART = {\n    'NORMAL': {'super_effective': [], 'not_very_effective': ['ROCK', 'STEEL'], 'immune': ['GHOST']},\n    'FIRE': {'super_effective': ['GRASS', 'ICE', 'BUG', 'STEEL'], 'not_very_effective': ['FIRE', 'WATER', 'ROCK', 'DRAGON'], 'immune': []},\n    'WATER': {'super_effective': ['FIRE', 'GROUND', 'ROCK'], 'not_very_effective': ['WATER', 'GRASS', 'DRAGON'], 'immune': []},\n    'ELECTRIC': {'super_effective': ['WATER', 'FLYING'], 'not_very_effective': ['ELECTRIC', 'GRASS', 'DRAGON'], 'immune': ['GROUND']},\n    'GRASS': {'super_effective': ['WATER', 'GROUND', 'ROCK'], 'not_very_effective': ['FIRE', 'GRASS', 'POISON', 'FLYING', 'BUG', 'DRAGON', 'STEEL'], 'immune': []},\n    'ICE': {'super_effective': ['GRASS', 'GROUND', 'FLYING', 'DRAGON'], 'not_very_effective': ['FIRE', 'WATER', 'ICE', 'STEEL'], 'immune': []},\n    'FIGHTING': {'super_effective': ['NORMAL', 'ICE', 'ROCK', 'DARK', 'STEEL'], 'not_very_effective': ['POISON', 'FLYING', 'PSYCHIC', 'BUG', 'FAIRY'], 'immune': ['GHOST']},\n    'POISON': {'super_effective': ['GRASS', 'FAIRY'], 'not_very_effective': ['POISON', 'GROUND', 'ROCK', 'GHOST'], 'immune': ['STEEL']},\n    'GROUND': {'super_effective': ['FIRE', 'ELECTRIC', 'POISON', 'ROCK', 'STEEL'], 'not_very_effective': ['GRASS', 'BUG'], 'immune': []},\n    'FLYING': {'super_effective': ['GRASS', 'FIGHTING', 'BUG'], 'not_very_effective': ['ELECTRIC', 'ROCK', 'STEEL'], 'immune': []},\n    'PSYCHIC': {'super_effective': ['FIGHTING', 'POISON'], 'not_very_effective': ['PSYCHIC', 'STEEL'], 'immune': ['DARK']},\n    'BUG': {'super_effective': ['GRASS', 'PSYCHIC', 'DARK'], 'not_very_effective': ['FIRE', 'FIGHTING', 'POISON', 'FLYING', 'GHOST', 'STEEL', 'FAIRY'], 'immune': []},\n    'ROCK': {'super_effective': ['FIRE', 'ICE', 'FLYING', 'BUG'], 'not_very_effective': ['FIGHTING', 'GROUND', 'STEEL'], 'immune': []},\n    'GHOST': {'super_effective': ['PSYCHIC', 'GHOST'], 'not_very_effective': ['DARK'], 'immune': ['NORMAL']},\n    'DRAGON': {'super_effective': ['DRAGON'], 'not_very_effective': ['STEEL'], 'immune': ['FAIRY']},\n    'DARK': {'super_effective': ['PSYCHIC', 'GHOST'], 'not_very_effective': ['FIGHTING', 'DARK', 'FAIRY'], 'immune': []},\n    'STEEL': {'super_effective': ['ICE', 'ROCK', 'FAIRY'], 'not_very_effective': ['FIRE', 'WATER', 'ELECTRIC', 'STEEL'], 'immune': []},\n    'FAIRY': {'super_effective': ['FIGHTING', 'DRAGON', 'DARK'], 'not_very_effective': ['FIRE', 'POISON', 'STEEL'], 'immune': []}\n}\n\nMOVE_TYPES = {\n    'FLY': 'FLYING', 'CONFUSE RAY': 'GHOST', 'SLUDGE': 'POISON', 'HAZE': 'ICE',\n    'ICE BEAM': 'ICE', 'BODY SLAM': 'NORMAL', 'SURF': 'WATER',\n    'TACKLE': 'NORMAL', 'TAIL WHIP': 'NORMAL', 'QUICK ATTACK': 'NORMAL',\n    'WATER GUN': 'WATER', 'WITHDRAW': 'NORMAL', 'BUBBLEBEAM': 'WATER',\n    'ROCK THROW': 'ROCK'\n}\n\nSPECIES_TYPES = {\n    'ZUBAT': ['POISON', 'FLYING'],\n    'SANDSHREW': ['GROUND'],\n    'PARAS': ['BUG', 'GRASS'],\n    'GEODUDE': ['ROCK', 'GROUND']\n}\n\ndef get_menu_layout(screen_text):\n    lines = [line.strip() for line in screen_text.split('\\n') if line.strip()]\n    if '→FIGHT' in screen_text and 'PKMN' in screen_text:\n        return 'battle_main', {'layout': '2x2', 'options': ['FIGHT', 'PKMN', 'ITEM', 'RUN'], 'cursor_position': [0, 0]}\n    elif 'TYPE/' in screen_text:\n        moves = []\n        cursor_y = -1\n        start_index = -1\n        for i, line in enumerate(lines):\n            if re.search(r'\\d+/\\d+', line):\n                start_index = i + 1\n                break\n        if start_index != -1:\n            for i in range(start_index, len(lines)):\n                line = lines[i]\n                move_text = line.replace('→', '').strip()\n                if move_text and all(c.isupper() or c.isspace() or c == '-' for c in move_text):\n                    if '→' in line:\n                        cursor_y = len(moves)\n                    moves.append(move_text)\n        if moves and cursor_y != -1:\n            return 'battle_moves', {'layout': 'single_column', 'options': moves, 'cursor_position': [0, cursor_y]}\n    return 'unknown', {}\n\ndef calculate_moves(current_pos, target_pos, layout):\n    moves = []\n    if layout == 'single_column':\n        diff = target_pos[1] - current_pos[1]\n        if diff > 0:\n            moves.extend(['Down'] * diff)\n        elif diff < 0:\n            moves.extend(['Up'] * abs(diff))\n    elif layout == '2x2':\n        if current_pos[0] != target_pos[0]:\n            moves.append('Right' if target_pos[0] > current_pos[0] else 'Left')\n        if current_pos[1] != target_pos[1]:\n            moves.append('Down' if target_pos[1] > current_pos[1] else 'Up')\n    return moves\n\ntry:\n    screen_text = input_data['screen_text']\n    player_party_json = input_data['player_party_json']\n    party_data = json.loads(player_party_json)\n    preferred_action = input_data.get('preferred_action')\n\n    menu_type, menu_info = get_menu_layout(screen_text)\n\n    if menu_type == 'battle_main':\n        target_option = preferred_action if preferred_action else 'FIGHT'\n        if target_option in menu_info['options']:\n            target_index = menu_info['options'].index(target_option)\n            target_pos = [target_index % 2, target_index // 2]\n            button_presses = calculate_moves(menu_info['cursor_position'], target_pos, menu_info['layout'])\n            print(json.dumps(button_presses))\n        else:\n            print(json.dumps([]))\n\n    elif menu_type == 'battle_moves':\n        opponent_species_match = re.search(r'(.+?)\\nLV', screen_text)\n        opponent_species = opponent_species_match.group(1).strip().upper() if opponent_species_match else None\n        opponent_types = SPECIES_TYPES.get(opponent_species)\n\n        active_pokemon_name = screen_text.splitlines()[2].strip()\n        active_pokemon = next((p for p in party_data if p.get('name') == active_pokemon_name), None)\n        \n        best_move = None\n        if active_pokemon:\n            moves_with_pp = active_pokemon['moves']\n            damaging_moves = [move for move in moves_with_pp if move['name'] not in ['CONFUSE RAY', 'HAZE', 'LIGHT SCREEN', 'THUNDER WAVE', 'WITHDRAW', 'HARDEN', 'FOCUS ENERGY', 'ACID ARMOR', 'MINIMIZE', 'AGILITY', 'DEFENSE CURL', 'REFLECT', 'SWORDS DANCE']]\n            usable_damaging_moves = [move for move in damaging_moves if move.get('pp', 0) > 0]\n            \n            if opponent_types:\n                move_scores = {}\n                for move in usable_damaging_moves:\n                    move_type = MOVE_TYPES.get(move['name'])\n                    if move_type:\n                        total_effectiveness = 1\n                        for opp_type in opponent_types:\n                            if opp_type in TYPE_CHART[move_type]['super_effective']:\n                                total_effectiveness *= 2\n                            elif opp_type in TYPE_CHART[move_type]['not_very_effective']:\n                                total_effectiveness *= 0.5\n                            elif opp_type in TYPE_CHART[move_type]['immune']:\n                                total_effectiveness *= 0\n                        move_scores[move['name']] = total_effectiveness\n                if move_scores:\n                    best_move = max(move_scores, key=move_scores.get)\n\n            if not best_move:\n                single_turn_moves = [move['name'] for move in usable_damaging_moves if move['name'] not in ['FLY', 'DIG']]\n                if single_turn_moves:\n                    best_move = single_turn_moves[0]\n                elif usable_damaging_moves:\n                    best_move = usable_damaging_moves[0]['name']\n                elif moves_with_pp:\n                    best_move = moves_with_pp[0]['name']\n\n        if best_move and best_move in menu_info['options']:\n            target_index = menu_info['options'].index(best_move)\n            target_pos = [0, target_index]\n            button_presses = calculate_moves(menu_info['cursor_position'], target_pos, menu_info['layout'])\n            print(json.dumps(button_presses))\n        else:\n            print(json.dumps([]))\n    else:\n        print(json.dumps([]))\n\nexcept Exception as e:\n    print(json.dumps({'error': str(e)}))\n",
-    "history": [
-      {
-        "commit_message": "feat: Create consolidated battle_automator tool. This new tool merges the functionality of the deprecated `select_battle_option` and `battle_sequence_automator` tools into a single, more robust solution. It intelligently detects whether the main battle menu or the move selection menu is active and takes the appropriate action. This directly addresses an Overwatch critique about tool redundancy and improves the overall efficiency of battle automation.",
-        "timestamp": "2025-09-11T06:23:52.583Z",
-        "action_counter": 205354
-      },
-      {
-        "commit_message": "fix: Correct key for Pokémon name lookup. The tool was failing because it was using `pokemon.get('nickname')` to find the active Pokémon in the party data, but the game state provides this information under the `name` key. This commit changes the lookup to use `pokemon.get('name')`, which is a critical fix to restore battle automation functionality.",
-        "timestamp": "2025-09-11T06:29:31.407Z",
-        "action_counter": 205365
-      },
-      {
-        "commit_message": "refactor: Prioritize single-turn moves. This commit refactors the move selection logic to prefer single-turn damaging moves over two-turn moves (like FLY or DIG). This addresses a critical Overwatch critique and improves battle efficiency by avoiding unnecessary delays. The tool will now select the first single-turn move, and only fall back to a two-turn move if no other damaging options are available.",
-        "timestamp": "2025-09-11T07:12:29.112Z",
-        "action_counter": 205452
-      },
-      {
-        "commit_message": "refactor: Prioritize single-turn moves. This commit refactors the move selection logic to prefer single-turn damaging moves over two-turn moves (like FLY or DIG). This addresses a critical Overwatch critique and improves battle efficiency by avoiding unnecessary delays. The tool will now select the first single-turn move, and only fall back to a two-turn move if no other damaging options are available.",
-        "timestamp": "2025-09-11T07:13:43.501Z",
-        "action_counter": 205454
-      },
-      {
-        "commit_message": "fix: Add JSON parsing for player_party_json. The tool was failing with a TypeError because it was treating the `player_party_json` input string as a Python object without first parsing it. This commit adds the necessary `json.loads()` call to correctly process the party data, which is a critical fix to restore all battle automation functionality.",
-        "timestamp": "2025-09-11T09:25:34.479Z",
-        "action_counter": 205648
-      },
-      {
-        "commit_message": "feat: Consolidate battle menu tools. This commit refactors the `battle_automator` to handle all main battle menu selections ('FIGHT', 'PKMN', 'ITEM', 'RUN') via a new `preferred_action` argument. This fully absorbs the functionality of the deprecated `select_battle_option` tool, creating a single, robust solution for all in-battle automation as per Overwatch critique.",
-        "timestamp": "2025-09-11T12:14:41.412Z",
-        "action_counter": 205951
-      },
-      {
-        "commit_message": "fix: Overhaul move selection parsing logic. The previous index-based approach was fragile and failed to parse the first move in the list. This commit replaces it with a stateful parser that correctly identifies the start of the move list by looking for the PP display. This is a critical fix to address repeated tool failures and an Overwatch critique.",
-        "timestamp": "2025-09-11T14:28:52.223Z",
-        "action_counter": 206101
-      },
-      {
-        "commit_message": "fix: Add check for known zero-PP moves. The tool previously selected moves with no PP, causing battle actions to fail. This commit adds a hardcoded check for known zero-PP moves (specifically ECHO's SLUDGE) to prevent this. This is a temporary fix until a more robust PP-tracking mechanism can be implemented.",
-        "timestamp": "2025-09-11T15:43:17.253Z",
-        "action_counter": 206175
-      },
-      {
-        "commit_message": "fix: Remove faulty zero-PP move check. The previous logic had a hardcoded exception to prevent selecting SLUDGE for ECHO, assuming it had 0 PP. This is no longer true and was causing the tool to select suboptimal moves. This commit removes the check entirely, restoring correct move selection logic. This is a critical fix for battle automation.",
-        "timestamp": "2025-09-11T21:14:18.586Z",
-        "action_counter": 206742
-      },
-      {
-        "commit_message": "feat: Add type effectiveness logic. This commit adds a type chart and logic to select moves based on their effectiveness against the opponent's type. This is a critical improvement to make the tool more intelligent in battle and avoid selecting not-very-effective moves. It will now prioritize super-effective moves, then neutral, then fall back to the old logic if type info is unavailable.",
-        "timestamp": "2025-09-11T23:02:39.611Z",
-        "action_counter": 206989
-      },
-      {
-        "commit_message": "feat: Add automatic 'A' press and dual-type effectiveness. This commit addresses a critical directive to combine directional and action inputs in a single turn for battle automation. It also enhances the type effectiveness logic to handle dual-type opponents, improving move selection accuracy. It also adds ROCK THROW to the move dictionary.",
-        "timestamp": "2025-09-11T23:58:57.451Z",
-        "action_counter": 207115
-      },
-      {
-        "commit_message": "feat: Add opponent species parsing and update type chart. This commit introduces two major improvements: 1) The tool now parses the opponent's species from the screen text and uses a new `SPECIES_TYPES` dictionary to determine type advantages, making it much more intelligent. 2) The main `TYPE_CHART` has been updated to remove the Ground-type immunity to Flying-type moves, which directly reflects an in-game observation and makes the tool's logic align with the ROM hack's specific mechanics. This is a critical fix to ensure optimal move selection.",
-        "timestamp": "2025-09-12T00:13:17.938Z",
-        "action_counter": 207136
-      },
-      {
-        "commit_message": "fix: Correct dictionary key usage in move scoring. The tool was crashing with an 'unhashable type: 'dict'' error because it was using the entire move dictionary object as a key for the `move_scores` dictionary. This commit corrects the logic to use the move's name string (`move['name']`) as the key, resolving the critical failure and restoring battle automation functionality.",
-        "timestamp": "2025-09-12T00:22:07.207Z",
-        "action_counter": 207152
-      },
-      {
-        "commit_message": "fix: Add PP check to move selection logic. The tool was selecting moves with 0 PP, causing battle actions to fail. This commit adds a check to ensure only moves with PP greater than zero are considered for use. This is a critical fix for battle automation reliability.",
-        "timestamp": "2025-09-12T01:17:52.543Z",
-        "action_counter": 207272
-      },
-      {
-        "commit_message": "refactor: Remove automatic 'A' press. This commit refactors the tool to only generate directional movements, forcing a more reliable two-step process (move, then confirm) for menu navigation. This is a direct response to a critical tool failure and an Overwatch critique.",
-        "timestamp": "2025-09-12T01:36:34.283Z",
-        "action_counter": 207311
-      },
-      {
-        "commit_message": "feat: Add GEODUDE to species type dictionary. This is a critical fix to ensure the tool selects super-effective moves against this common opponent, preventing suboptimal move choices like ROCK THROW.",
-        "timestamp": "2025-09-12T02:36:50.982Z",
-        "action_counter": 207432
-      }
-    ]
-  },
   "menu_analyzer": {
     "description": "Parses screen text from a menu to identify the available options, their layout (e.g., single column, 2x2 grid), and the current cursor position. This is the foundation for creating reliable menu navigation automation.",
     "input_schema": {
@@ -844,8 +733,8 @@
       }
     ]
   },
-  "dig_search_planner": {
-    "description": "Finds the closest, unmarked 'ground' tile on the current map and generates a path to it. Used for systematically testing the 'Dig' hypothesis. It avoids tiles that have a '⛏️' marker.",
+  "systematic_search_planner": {
+    "description": "Finds the closest, unchecked, reachable tile of a specified type on the current map and returns a path to it. Avoids tiles marked with a specific emoji.",
     "input_schema": {
       "type": "object",
       "properties": {
@@ -854,65 +743,53 @@
         },
         "start_y": {
           "type": "string"
+        },
+        "target_tile_type": {
+          "type": "string"
+        },
+        "marker_emoji": {
+          "type": "string"
         }
       },
       "required": [
         "start_x",
-        "start_y"
+        "start_y",
+        "target_tile_type",
+        "marker_emoji"
       ]
     },
-    "python_script": "import json\nimport collections\nimport xml.etree.ElementTree as ET\n\ndef find_path(start_x, start_y, end_x, end_y, tiles, map_width, map_height):\n    start = (start_x, start_y)\n    end = (end_x, end_y)\n    base_traversable = {'ground', 'grass', 'steps', 'ladder_up', 'ladder_down', 'teleport', 'hole', 'cleared_boulder_barrier', 'open_gate', 'gate_offscreen'}\n    \n    def is_valid(pos, from_pos=None):\n        x, y = pos\n        if not (1 <= x <= map_width and 1 <= y <= map_height):\n            return False\n        tile_info = tiles.get(pos)\n        if not tile_info or tile_info['type'] not in base_traversable:\n            return False\n        if tile_info['has_object'] and tile_info.get('object_id_name', '').upper() != 'PIKACHU':\n            return False\n        if from_pos:\n            current_type = tiles.get(from_pos, {}).get('type')\n            next_type = tile_info.get('type')\n            if (current_type, next_type) in [('ground', 'elevated_ground'), ('elevated_ground', 'ground')] and not (current_type == 'steps' or next_type == 'steps'):\n                return False\n        return True\n\n    queue = collections.deque([(start, [start])])\n    visited = {start}\n    while queue:\n        (current_pos, path) = queue.popleft()\n        if current_pos == end:\n            return path\n        (cx, cy) = current_pos\n        for dx, dy in [(-1, 0), (1, 0), (0, -1), (0, 1)]:\n            next_pos = (cx + dx, cy + dy)\n            if next_pos not in visited and is_valid(next_pos, from_pos=current_pos):\n                visited.add(next_pos)\n                new_path = list(path)\n                new_path.append(next_pos)\n                queue.append((next_pos, new_path))\n    return None\n\nroot = ET.fromstring(map_xml_string)\nmap_width = int(root.get('width'))\nmap_height = int(root.get('height'))\ntiles = {}\nall_ground_tiles = []\n\nfor row in root.findall('Row'):\n    y = int(row.get('id'))\n    for tile_elem in row.findall('Tile'):\n        x = int(tile_elem.get('id'))\n        tile_type = tile_elem.get('type')\n        has_marker = any(marker.text for marker in tile_elem.findall('Marker') if marker.get('emoji') == '⛏️')\n        obj = tile_elem.find('Object')\n        tiles[(x, y)] = {\n            'type': tile_type,\n            'has_object': tile_elem.get('has-object') == 'true',\n            'object_id_name': obj.get('id-name') if obj is not None else None\n        }\n        if tile_type == 'ground' and not has_marker:\n            all_ground_tiles.append((x, y))\n\nstart_x = int(input_data['start_x'])\nstart_y = int(input_data['start_y'])\n\n# Remove the starting position from the list of potential targets\nif (start_x, start_y) in all_ground_tiles:\n    all_ground_tiles.remove((start_x, start_y))\n\nif not all_ground_tiles:\n    print(json.dumps({'success': False, 'reason': 'No unchecked ground tiles found.', 'path_plan': []}))\n    exit()\n\nclosest_tile = None\nshortest_path = None\n\nfor gx, gy in all_ground_tiles:\n    path = find_path(start_x, start_y, gx, gy, tiles, map_width, map_height)\n    if path and (shortest_path is None or len(path) < len(shortest_path)):\n        shortest_path = path\n        closest_tile = (gx, gy)\n\nif shortest_path:\n    path_plan = [{'x': p[0], 'y': p[1]} for p in shortest_path]\n    print(json.dumps({'success': True, 'reason': f'Path found to closest unchecked ground tile at ({closest_tile[0]},{closest_tile[1]}).', 'path_plan': path_plan}))\nelse:\n    print(json.dumps({'success': False, 'reason': 'No reachable unchecked ground tiles found.', 'path_plan': []}))",
+    "python_script": "import json\nimport collections\nimport xml.etree.ElementTree as ET\n\ndef find_path(start_x, start_y, end_x, end_y, tiles, map_width, map_height):\n    start = (start_x, start_y)\n    end = (end_x, end_y)\n    base_traversable = {'ground', 'grass', 'steps', 'ladder_up', 'ladder_down', 'teleport', 'hole', 'cleared_boulder_barrier', 'open_gate', 'gate_offscreen'}\n    \n    def is_valid(pos, from_pos=None):\n        x, y = pos\n        if not (1 <= x <= map_width and 1 <= y <= map_height):\n            return False\n        tile_info = tiles.get(pos)\n        if not tile_info or tile_info['type'] not in base_traversable:\n            return False\n        if tile_info['has_object'] and tile_info.get('object_id_name', '').upper() != 'PIKACHU':\n            return False\n        if from_pos:\n            current_type = tiles.get(from_pos, {}).get('type')\n            next_type = tile_info.get('type')\n            if (current_type, next_type) in [('ground', 'elevated_ground'), ('elevated_ground', 'ground')] and not (current_type == 'steps' or next_type == 'steps'):\n                return False\n        return True\n\n    queue = collections.deque([(start, [start])])\n    visited = {start}\n    while queue:\n        (current_pos, path) = queue.popleft()\n        if current_pos == end:\n            return path\n        (cx, cy) = current_pos\n        for dx, dy in [(-1, 0), (1, 0), (0, -1), (0, 1)]:\n            next_pos = (cx + dx, cy + dy)\n            if next_pos not in visited and is_valid(next_pos, from_pos=current_pos):\n                visited.add(next_pos)\n                new_path = list(path)\n                new_path.append(next_pos)\n                queue.append((next_pos, new_path))\n    return None\n\ntry:\n    root = ET.fromstring(map_xml_string)\n    map_width = int(root.get('width'))\n    map_height = int(root.get('height'))\n    tiles = {}\n    target_tiles = []\n\n    target_tile_type = input_data['target_tile_type']\n    marker_emoji = input_data['marker_emoji']\n\n    for row in root.findall('Row'):\n        y = int(row.get('id'))\n        for tile_elem in row.findall('Tile'):\n            x = int(tile_elem.get('id'))\n            tile_type = tile_elem.get('type')\n            has_marker = any(marker.text for marker in tile_elem.findall('Marker') if marker.get('emoji') == marker_emoji)\n            obj = tile_elem.find('Object')\n            tiles[(x, y)] = {\n                'type': tile_type,\n                'has_object': tile_elem.get('has-object') == 'true',\n                'object_id_name': obj.get('id-name') if obj is not None else None\n            }\n            if tile_type == target_tile_type and not has_marker:\n                target_tiles.append((x, y))\n\n    start_x = int(input_data['start_x'])\n    start_y = int(input_data['start_y'])\n\n    if (start_x, start_y) in target_tiles:\n        target_tiles.remove((start_x, start_y))\n\n    if not target_tiles:\n        print(json.dumps({'success': False, 'reason': f'No unchecked {target_tile_type} tiles found.', 'path_plan': []}))\n    else:\n        closest_tile = None\n        shortest_path = None\n\n        for gx, gy in target_tiles:\n            path = find_path(start_x, start_y, gx, gy, tiles, map_width, map_height)\n            if path and (shortest_path is None or len(path) < len(shortest_path)):\n                shortest_path = path\n                closest_tile = (gx, gy)\n\n        if shortest_path:\n            path_plan = [{'x': p[0], 'y': p[1]} for p in shortest_path]\n            print(json.dumps({'success': True, 'reason': f'Path found to closest unchecked {target_tile_type} tile at ({closest_tile[0]},{closest_tile[1]}).', 'path_plan': path_plan}))\n        else:\n            print(json.dumps({'success': False, 'reason': f'No reachable unchecked {target_tile_type} tiles found.', 'path_plan': []}))\nexcept Exception as e:\n    print(json.dumps({'success': False, 'reason': f'An error occurred: {str(e)}', 'path_plan': []}))",
     "history": [
       {
-        "commit_message": "feat: Create dig_search_planner tool. This tool automates the navigation part of the systematic 'Dig' search in Mt. Moon. It finds the closest 'ground' tile that has not been marked with '⛏️' and generates a path to it. This is a direct response to the need to efficiently test the 'Dig' hypothesis without tedious manual navigation, adhering to the core principle of proactive automation.",
-        "timestamp": "2025-09-13T04:39:42.761Z",
-        "action_counter": 209434
-      },
-      {
-        "commit_message": "fix: Prevent tool from getting stuck on its own location. The tool was returning a zero-length path if the starting position was also the closest target. This commit adds a line to explicitly remove the starting position from the set of valid targets before beginning the search, ensuring it always finds the *next* closest point. This is a critical fix to unblock the systematic Dig search.",
-        "timestamp": "2025-09-13T05:07:51.796Z",
-        "action_counter": 209501
+        "commit_message": "feat: Generalize dig_search_planner into systematic_search_planner. This new tool is parameterized to search for any tile type and avoid any marker emoji, making it reusable for future quests. This is a direct implementation of an Overwatch suggestion to improve tool modularity.",
+        "timestamp": "2025-09-13T08:51:22.407Z",
+        "action_counter": 209941
       }
     ]
   },
-  "use_field_move": {
-    "description": "Automates generating the button sequence for a field move (Dig, Cut, etc.). Finds the Pokémon and calculates the presses. WARNING: The `autopress_buttons` feature is unreliable for this tool's output. Execute the generated button sequence manually.",
+  "clear_map_markers_by_emoji": {
+    "description": "Deletes all map markers on a specified map that use a specific emoji.",
     "input_schema": {
       "type": "object",
       "properties": {
-        "move_name": {
+        "map_id": {
           "type": "string"
         },
-        "player_party_json": {
+        "emoji_to_delete": {
           "type": "string"
         }
       },
       "required": [
-        "move_name",
-        "player_party_json"
+        "map_id",
+        "emoji_to_delete"
       ]
     },
-    "python_script": "import json\n\ntry:\n    move_name = input_data['move_name'].upper()\n    player_party_json = input_data['player_party_json']\n    party = json.loads(player_party_json)\n\n    pokemon_with_move_index = -1\n    move_index_in_list = -1\n\n    for i, pokemon in enumerate(party):\n        moves = pokemon.get('moves', [])\n        for j, move in enumerate(moves):\n            if move.get('name', '').upper() == move_name:\n                pokemon_with_move_index = i\n                move_index_in_list = j\n                break\n        if pokemon_with_move_index != -1:\n            break\n\n    if pokemon_with_move_index == -1:\n        print(json.dumps([]))\n    else:\n        presses = [\"Start\", \"Down\", \"A\"]\n        presses.extend([\"Down\"] * pokemon_with_move_index)\n        presses.append(\"A\")\n        presses.extend([\"Down\"] * move_index_in_list)\n        presses.append(\"A\")\n        print(json.dumps(presses))\nexcept Exception:\n    print(json.dumps([]))",
+    "python_script": "import xml.etree.ElementTree as ET\nimport json\n\nroot = ET.fromstring(map_xml_string)\nmap_id_str = input_data['map_id']\nemoji_to_delete = input_data['emoji_to_delete']\n\ndeletion_commands = []\n\nfor row in root.findall('Row'):\n    y = int(row.get('id'))\n    for tile in row.findall('Tile'):\n        x = int(tile.get('id'))\n        for marker in tile.findall('Marker'):\n            if marker.get('emoji') == emoji_to_delete:\n                command = {\n                    'tool_name': 'delete_map_marker',\n                    'tool_args': [\n                        {'name': 'map_id', 'value': map_id_str},\n                        {'name': 'x', 'value': str(x)},\n                        {'name': 'y', 'value': str(y)},\n                        {'name': 'emoji', 'value': emoji_to_delete}\n                    ]\n                }\n                deletion_commands.append(command)\n\nprint(json.dumps(deletion_commands))",
     "history": [
       {
-        "commit_message": "feat: Create use_field_move tool. This tool automates the repetitive menu navigation required to use a field move like Dig. This will significantly speed up the systematic search of Mt. Moon and aligns with the core principle of proactive automation identified during self-assessment.",
-        "timestamp": "2025-09-13T07:23:42.097Z",
-        "action_counter": 209775
-      },
-      {
-        "commit_message": "refactor: Update description to warn against using autopress. This is a direct response to an Overwatch critique regarding a tool failure in turn 209779. The tool's logic is sound, but the execution method was flawed. This change ensures the user (me) will execute the sequence manually, preventing future errors.",
-        "timestamp": "2025-09-13T07:46:16.703Z",
-        "action_counter": 209801
-      },
-      {
-        "commit_message": "fix: Correct move parsing and add move selection logic. The tool was failing because it expected a dictionary for moves instead of a string array. It also incorrectly assumed the field move was always the first move. This commit fixes the parsing to handle string arrays and adds logic to navigate to the correct move in the Pokémon's move list.",
-        "timestamp": "2025-09-13T08:23:03.251Z",
-        "action_counter": 209880
-      },
-      {
-        "commit_message": "fix: Correct move parsing to handle dictionary format. The tool was failing because it expected a list of strings for moves, but the input is a list of dictionaries. This commit updates the script to correctly access the move name using `move.get('name', '')`, restoring functionality.",
-        "timestamp": "2025-09-13T08:31:20.152Z",
-        "action_counter": 209898
+        "commit_message": "feat: Create tool to batch-delete map markers by emoji. This addresses an Overwatch critique about map clutter from a failed hypothesis, allowing for efficient cleanup without manual intervention.",
+        "timestamp": "2025-09-13T08:57:13.893Z",
+        "action_counter": 209954
       }
     ]
   }
