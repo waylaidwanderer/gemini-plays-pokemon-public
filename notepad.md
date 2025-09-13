@@ -78,3 +78,4 @@
     - **Item User Tool:** A tool to automate using an item from the bag. `use_item_from_bag(item_name, [target_pokemon])`.
     - **Capture Assistant Agent:** An agent to provide turn-by-turn advice for catching wild Pokémon.
     - **Full Search Automator:** A master tool that executes a systematic search loop (path, interact, mark, repeat).
+    - `trap_tile`: A tile that appears as one type (e.g., 'ground') but becomes 'impassable' when stepped on. Requires passing a turn without moving (e.g., opening/closing the menu) to reset.
