@@ -67,3 +67,12 @@
     - `automated_path_navigator` (Tool): Use for standard A-to-B pathfinding on a single, contiguous map.
     - `master_navigator_agent` (Agent): Reserve for complex, multi-map navigation puzzles (e.g., Silph Co. teleporter maze) that require high-level reasoning about warp sequences and overall strategy.
 9.  **Confirmation Bias Awareness (Self-Assessment Finding):** I must be vigilant against confirmation bias. If a hypothesis fails multiple documented tests, I must actively pivot to a new, different hypothesis rather than repeating the failed approach. I should also formulate tests designed to *disprove* my own theories, not just confirm them.
+
+# VIII. Self-Assessment Findings (Turn 209210)
+- **Lapse in Immediacy:** I deferred a notepad cleanup task, violating the principle of immediate maintenance.
+- **Confirmation Bias:** I was too focused on the 'interactable rock' hypothesis and must be quicker to pivot and use the `puzzle_solver_agent` when a line of inquiry is exhausted.
+- **Verification Failure:** I failed to verify the game state after using the `fly_navigator` tool, leading to a critical hallucination. I must confirm all map transitions visually.
+
+# IX. Future Automation Ideas (Expanded)
+- **Item User Tool:** A tool to automate using an item from the bag on a Pokémon or in the overworld. `use_item_from_bag(item_name, [target_pokemon])`.
+- **Capture Assistant Agent:** An agent to provide turn-by-turn advice for catching wild Pokémon. Input: Target species, level, HP%, my party. Output: Recommended action ('attack' with safe move, 'switch', 'throw_ball').
