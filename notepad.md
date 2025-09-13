@@ -65,3 +65,10 @@
         - **`pc_navigator` Tool:** A tool to automate withdrawing/depositing a specific Pokémon from the PC. `pc_navigate(action, pokemon_name)`.
         - **`item_user` Tool:** A tool to automate using an item from the bag. `use_item_from_bag(item_name, [target_pokemon])`.
         - **`capture_assistant` Agent:** An agent to provide turn-by-turn advice for catching wild Pokémon.
+
+# VII. Game Mechanics & Tile Traversal Rules
+- **Fly HM:** Cannot be used indoors or in caves. The list of flyable cities is limited and does not include all major locations (e.g., Pewter City is not on the list).
+- **Dig HM:** Using Dig inside a cave teleports the player to the last used entrance, similar to an Escape Rope. The exact exit point can be inconsistent.
+- **Cuttable Trees:** These obstacles can be removed with the Cut HM. They respawn after changing maps or blacking out.
+- **Ledges:** Can only be jumped down, not climbed up. Traversal is a one-way path.
+- **Ground vs. Elevated Ground:** Direct movement between these two tile types is impossible. 'Steps' tiles must be used to transition between elevations.

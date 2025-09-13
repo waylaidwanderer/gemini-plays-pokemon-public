@@ -766,5 +766,37 @@
         "action_counter": 209941
       }
     ]
+  },
+  "initiate_fly": {
+    "description": "Automates the menu navigation to select a Pokémon and use the Fly HM, stopping at the map selection screen. Assumes Fly is the first move.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "pokemon_name": {
+          "type": "string"
+        },
+        "party_list": {
+          "type": "string",
+          "description": "A stringified JSON array of the player's current party."
+        }
+      },
+      "required": [
+        "pokemon_name",
+        "party_list"
+      ]
+    },
+    "python_script": "import json\n\nparty_list_str = input_data['party_list']\nparty_list = json.loads(party_list_str)\n\n\nfor i, pokemon in enumerate(party_list):\n    if pokemon['name'].upper() == input_data['pokemon_name'].upper():\n        pokemon_index = i\n        break\n\npresses = ['Start', 'A']\n\nfor _ in range(pokemon_index):\n    presses.append('Down')\n\npresses.extend(['A', 'A'])\n\nprint(json.dumps(presses))",
+    "history": [
+      {
+        "commit_message": "feat: Create initiate_fly tool to automate menuing for Fly HM. This tool opens the party menu, selects the specified Pokemon, and uses the Fly move, leaving the player at the map selection screen. This is a direct response to an Overwatch critique regarding the failure to proactively automate repetitive tasks and will improve navigation efficiency.",
+        "timestamp": "2025-09-13T09:35:11.658Z",
+        "action_counter": 210051
+      },
+      {
+        "commit_message": "fix: Correct attribute access for pokemon name. The script was attempting to call `.upper()` on the entire pokemon dictionary object instead of the `name` key's string value, causing an AttributeError. This commit fixes the logic to correctly access `pokemon['name']` before the string method call. This is a critical fix to unblock Fly automation.",
+        "timestamp": "2025-09-13T09:36:48.965Z",
+        "action_counter": 210056
+      }
+    ]
   }
 }
