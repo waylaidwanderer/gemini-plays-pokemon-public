@@ -889,34 +889,29 @@
       }
     ]
   },
-  "fly_navigator": {
-    "description": "Calculates the optimal button presses (Up/Down, then A) to select a destination city from the Fly menu. It requires the current screen text and the target city name. The tool's output is a JSON array of button strings for direct execution with autopress_buttons.",
+  "nickname_automator": {
+    "description": "Automates entering a nickname on the Pokémon naming screen. Calculates the optimal button presses to spell the name, including case changes, and confirms it.",
     "input_schema": {
       "type": "object",
       "properties": {
         "screen_text": {
           "type": "string"
         },
-        "target_location": {
+        "nickname": {
           "type": "string"
         }
       },
       "required": [
         "screen_text",
-        "target_location"
+        "nickname"
       ]
     },
-    "python_script": "import json\nimport re\n\ndef find_shortest_path(current_index, target_index, list_length):\n    down_dist = (target_index - current_index + list_length) % list_length\n    up_dist = (current_index - target_index + list_length) % list_length\n    if down_dist <= up_dist:\n        return [\"Down\"] * down_dist\n    else:\n        return [\"Up\"] * up_dist\n\nfly_locations = [\n    \"PALLET TOWN\", \"VIRIDIAN CITY\", \"PEWTER CITY\", \"CERULEAN CITY\",\n    \"LAVENDER TOWN\", \"VERMILION CITY\", \"CELADON CITY\", \"FUCHSIA CITY\",\n    \"SAFFRON CITY\", \"INDIGO PLATEAU\", \"CINNABAR ISLAND\"\n]\n\ntry:\n    screen_text = input_data['screen_text']\n    target_location = input_data['target_location'].upper()\n\n    match = re.search(r\"To (.+?)\\s*→\", screen_text)\n    if not match:\n        # Fallback for error handling, though not directly executable by autopress\n        print(json.dumps([]))\n        exit()\n\n    current_location = match.group(1).strip()\n\n    if current_location not in fly_locations or target_location not in fly_locations:\n        print(json.dumps([]))\n        exit()\n\n    current_idx = fly_locations.index(current_location)\n    target_idx = fly_locations.index(target_location)\n\n    path = find_shortest_path(current_idx, target_idx, len(fly_locations))\n    path.append(\"A\")\n\n    print(json.dumps(path))\n\nexcept Exception as e:\n    print(json.dumps([]))",
+    "python_script": "import json\nimport re\n\ndef get_keyboard_layout(screen_text):\n    if 'a b c d e f g h i' in screen_text:\n        return {\n            'layout': [\n                list('abcdefghi'),\n                list('jklmnopqr'),\n                list('stuvwxyz'),\n            ],\n            'is_upper': False,\n            'y_offset': 4\n        }\n    else:\n        return {\n            'layout': [\n                list('ABCDEFGHI'),\n                list('JKLMNOPQR'),\n                list('STUVWXYZ'),\n            ],\n            'is_upper': True,\n            'y_offset': 4\n        }\n\ndef find_cursor_and_map(screen_text):\n    keyboard = get_keyboard_layout(screen_text)\n    lines = screen_text.split('\\n')\n    char_map = {}\n    cursor_pos = None\n\n    for r, row in enumerate(keyboard['layout']):\n        for c, char in enumerate(row):\n            char_map[char] = (c, r)\n    \n    for i, line in enumerate(lines):\n        if '→' in line:\n            cursor_y = i - keyboard['y_offset']\n            # This is a heuristic for x-position based on character spacing\n            cursor_x = (line.find('→')) // 2\n            cursor_pos = (cursor_x, cursor_y)\n            break\n\n    # Add special keys\n    char_map['case_switch'] = (0, 5) # Approximate position\n    char_map['END'] = (8, 5) # Approximate position\n    \n    return char_map, cursor_pos, keyboard['is_upper']\n\ndef calculate_moves(start, end):\n    moves = []\n    # Simplified grid movement\n    dx = end[0] - start[0]\n    dy = end[1] - start[1]\n    if dx > 0: moves.extend(['Right'] * dx)\n    if dx < 0: moves.extend(['Left'] * abs(dx))\n    if dy > 0: moves.extend(['Down'] * dy)\n    if dy < 0: moves.extend(['Up'] * abs(dy))\n    return moves\n\ntry:\n    screen_text = input_data['screen_text']\n    nickname = input_data['nickname']\n    \n    button_presses = ['B'] * 5 # Clear default name\n    \n    char_map, cursor_pos, is_upper = find_cursor_and_map(screen_text)\n    \n    for char in nickname:\n        needs_upper = char.isupper()\n        if (needs_upper and not is_upper) or (not needs_upper and is_upper):\n            target_pos = char_map['case_switch']\n            button_presses.extend(calculate_moves(cursor_pos, target_pos))\n            button_presses.append('A')\n            is_upper = not is_upper\n            # Re-parse screen after case change for new cursor pos\n            # This is a limitation; for now we assume a static return position\n            cursor_pos = (0, 5)\n\n        target_pos = char_map.get(char)\n        if target_pos:\n            button_presses.extend(calculate_moves(cursor_pos, target_pos))\n            button_presses.append('A')\n            cursor_pos = target_pos\n\n    target_pos = char_map['END']\n    button_presses.extend(calculate_moves(cursor_pos, target_pos))\n    button_presses.append('A') # Select END\n    button_presses.append('A') # Confirm nickname\n\n    print(json.dumps(button_presses))\nexcept Exception as e:\n    print(json.dumps({'error': str(e), 'details': 'Failed during nickname automation script.'}))\n",
     "history": [
       {
-        "commit_message": "feat: Create fly_navigator tool. This tool automates the process of selecting a destination from the Fly menu by calculating the shortest path of Up/Down presses. This was identified as a necessary automation during a mandatory self-assessment to improve gameplay efficiency.",
-        "timestamp": "2025-09-13T01:58:58.757Z",
-        "action_counter": 209110
-      },
-      {
-        "commit_message": "fix: Correct output format for autopress_buttons. The tool was previously returning a JSON object, which is incompatible with the autopress feature. This commit modifies the script to print a raw JSON array of button strings, resolving the critical execution failure.",
-        "timestamp": "2025-09-13T02:00:42.004Z",
-        "action_counter": 209112
+        "commit_message": "feat: Create nickname_automator tool. This tool automates the repetitive and time-consuming task of entering a Pokémon's nickname. This is a direct response to an Overwatch critique identifying a failure to adhere to the core principle of proactive automation. The tool calculates the necessary button presses to spell out a given name, including handling case changes, to improve gameplay efficiency.",
+        "timestamp": "2025-09-13T03:10:24.410Z",
+        "action_counter": 209254
       }
     ]
   }

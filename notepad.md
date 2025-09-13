@@ -7,6 +7,7 @@
 6.  **Mandatory Self-Assessment:** Every 50 turns, I must perform a structured self-review to ensure my strategies, documentation, and tool usage remain optimal and aligned with my core principles.
 7.  **Efficiency Over Fixation:** If a simple automation tool fails during a low-stakes, repetitive task (like a wild battle), it is more efficient to complete the task manually and fix the tool later, rather than getting stuck debugging mid-task.
 8.  **Battle Menu Anomaly (Confirmed):** The system's tool execution is unreliable when combining directional inputs with an action button ('A') in a single turn. Automation must separate these into separate turns.
+9.  **Confirmation Bias Awareness (Self-Assessment Finding):** I must be vigilant against confirmation bias. If a hypothesis fails multiple documented tests, I must actively pivot to a new, different hypothesis rather than repeating the failed approach. I should also formulate tests designed to *disprove* my own theories, not just confirm them.
 
 # II. Game World Mechanics
 - **Gameplay Mechanics:**
@@ -42,12 +43,7 @@
 - **Wild Pokémon Locations:**
     - **Cerulean Cave:** WIGGLYTUFF (Lv 62 - LOVELY KISS, DOUBLE-EDGE, REST), SANDSLASH (Lv 63 - SWORDS DANCE, EARTHQUAKE), GOLEM (Lv 64 - EXPLOSION), LICKITUNG (Lv 61 - WRAP), CHANSEY (Lv 63 - DEFENSE CURL, MEGA PUNCH), RAICHU (Lv 64 - AGILITY).
 
-# V. Future Automation Ideas
-- **Full Search Automator:** A master tool that executes the entire systematic search loop. 
-    - **Logic:** 1. Call `rock_checker_automator` to get a path. 2. Execute the path. 3. Automatically press 'A' to interact. 4. Automatically call `define_map_marker` to mark the spot. 5. Repeat the loop until the tool returns no more targets.
-    - **Challenge:** Would require a tool that can call other tools and press buttons, which may require a more advanced system or a stateful script.
-
-# VI. Fossil Quest - New Hypotheses (from puzzle_solver_agent)
+# V. Fossil Quest - New Hypotheses (from puzzle_solver_agent)
 - **Failed Hypotheses:**
     - The fossil is in an interactable rock.
     - The Hiker on 1F at (6,7) will move if shown the revived HELIX fossil Pokémon. (Result: Dialogue unchanged).
@@ -59,21 +55,18 @@
 - **Hypothesis 3:** The Hiker on Mt. Moon 1F at (6,7) is part of a chained quest and must be dealt with first. (Reasoning: Two path-blockers in one dungeon is suspicious).
 - **Hypothesis 4:** The fossil is a hidden item on the ground, requiring a move like Dig. (Reasoning: A common ROM hack method for hiding key items).
 
-# VII. Automation Strategy
-- **Battle Automation:**
-    - `battle_automator` (Tool): Use for routine, low-stakes wild battles where speed and efficiency are the priority.
-    - `comprehensive_battle_agent` (Agent): Reserve for high-stakes, complex battles (Gym Leaders, Rival, etc.) that require deep strategic analysis, move prediction, and pre-battle team planning.
-- **Navigation Automation:**
-    - `automated_path_navigator` (Tool): Use for standard A-to-B pathfinding on a single, contiguous map.
-    - `master_navigator_agent` (Agent): Reserve for complex, multi-map navigation puzzles (e.g., Silph Co. teleporter maze) that require high-level reasoning about warp sequences and overall strategy.
-9.  **Confirmation Bias Awareness (Self-Assessment Finding):** I must be vigilant against confirmation bias. If a hypothesis fails multiple documented tests, I must actively pivot to a new, different hypothesis rather than repeating the failed approach. I should also formulate tests designed to *disprove* my own theories, not just confirm them.
-
-# VIII. Self-Assessment Findings (Turn 209210)
+# VI. Self-Assessment Findings (Turn 209210)
 - **Lapse in Immediacy:** I deferred a notepad cleanup task, violating the principle of immediate maintenance.
 - **Confirmation Bias:** I was too focused on the 'interactable rock' hypothesis and must be quicker to pivot and use the `puzzle_solver_agent` when a line of inquiry is exhausted.
 - **Verification Failure:** I failed to verify the game state after using the `fly_navigator` tool, leading to a critical hallucination. I must confirm all map transitions visually.
 
-# IX. Automation Tools & Future Ideas
-- **Nickname Automator:** A tool that automates entering a nickname on the Pokémon naming screen. Calculates the optimal button presses to spell the name, including case changes, and confirms it.
-- **Item User Tool:** A tool to automate using an item from the bag on a Pokémon or in the overworld. `use_item_from_bag(item_name, [target_pokemon])`.
-- **Capture Assistant Agent:** An agent to provide turn-by-turn advice for catching wild Pokémon. Input: Target species, level, HP%, my party. Output: Recommended action ('attack' with safe move, 'switch', 'throw_ball').
+# VII. Automation Suite
+- **Strategy:**
+    - **Battle:** Use `battle_automator` for routine wild battles. Use `comprehensive_battle_agent` for high-stakes battles.
+    - **Navigation:** Use `automated_path_navigator` for single-map pathfinding. Use `master_navigator_agent` for complex, multi-map navigation.
+- **Active Tools:**
+    - `nickname_automator`: Automates entering a Pokémon's nickname.
+- **Automation Pipeline (Ideas):**
+    - **Item User Tool:** A tool to automate using an item from the bag. `use_item_from_bag(item_name, [target_pokemon])`.
+    - **Capture Assistant Agent:** An agent to provide turn-by-turn advice for catching wild Pokémon.
+    - **Full Search Automator:** A master tool that executes a systematic search loop (path, interact, mark, repeat).
