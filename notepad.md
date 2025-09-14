@@ -83,3 +83,6 @@
 - **Menu Navigation Mapper Agent:** An agent that takes a series of manual inputs and observed cursor movements to deduce the layout and control scheme of an unknown menu, then generates a navigation map for the `general_menu_navigator` tool.
 - **Multi-Map Route Planner Agent:** An agent that can plan the most efficient route between two distant points that may span multiple cities and routes, using Fly and walking/surfing as necessary. This would handle high-level strategic navigation.
 - **Path Segment Executor Tool:** A tool that takes a full path, executes it in smaller chunks, automatically re-runs the pathfinder from the new location after an interruption (like a wild battle), and then continues along the new path. This would streamline navigation through high-encounter areas.
+
+# IX. Maintenance Log
+- **Task:** Correct faulty map markers on Route 4 (West, map ID 14) at coordinates (10, 18). The current markers incorrectly reference Route 3 instead of Cerulean City. This must be done immediately upon returning to that map.
