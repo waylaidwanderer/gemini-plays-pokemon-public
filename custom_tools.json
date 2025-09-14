@@ -846,15 +846,20 @@
         "party_list": {
           "type": "string",
           "description": "A stringified JSON array of the player's current party, including nicknames."
+        },
+        "move_list": {
+          "type": "string",
+          "description": "A stringified JSON array of the target Pokémon's moves."
         }
       },
       "required": [
         "pokemon_name",
         "move_name",
-        "party_list"
+        "party_list",
+        "move_list"
       ]
     },
-    "python_script": "import json\n\ntry:\n    pokemon_name = input_data['pokemon_name']\n    party_list_str = input_data['party_list']\n    party = json.loads(party_list_str)\n\n    pokemon_index = -1\n    for i, p in enumerate(party):\n        if p.get('nickname', p.get('species', '')).upper() == pokemon_name.upper():\n            pokemon_index = i\n            break\n\n    if pokemon_index == -1:\n        print(json.dumps({\"success\": False, \"reason\": f\"Pokémon '{pokemon_name}' not found in party.\"}))\n        exit()\n\n    button_presses = ['Start']\n    button_presses.extend(['Up', 'Up', 'Up'])\n    button_presses.append('A')\n    button_presses.extend(['Down'] * pokemon_index)\n    button_presses.append('A')\n    button_presses.append('A')\n\n    print(json.dumps(button_presses))\n\nexcept Exception as e:\n    print(json.dumps({\"success\": False, \"reason\": f\"An error occurred: {str(e)}\"}))",
+    "python_script": "import json\n\nparty_list = json.loads(input_data['party_list'])\npokemon_name = input_data['pokemon_name'].upper()\nmove_list = json.loads(input_data['move_list'])\nmove_name = input_data['move_name'].upper()\n\nbuttons = ['Start'] + ['Up'] * 3 + ['A']\n\ntry:\n    pokemon_index = [p['nickname'].upper() for p in party_list].index(pokemon_name)\nexcept ValueError:\n    # Fallback to species name if nickname not found\n    try:\n        pokemon_index = [p['species'].upper() for p in party_list].index(pokemon_name)\n    except ValueError:\n        print(json.dumps({'error': f'Pokemon \"{pokemon_name}\" not found in party.'}))\n        exit()\n\nbuttons.extend(['Down'] * pokemon_index)\nbuttons.append('A')\n\ntry:\n    move_index = [m.upper() for m in move_list].index(move_name)\nexcept ValueError:\n    print(json.dumps({'error': f'Move \"{move_name}\" not found for {pokemon_name}.'}))\n    exit()\n\nbuttons.extend(['Down'] * move_index)\nbuttons.append('A')\n\nprint(json.dumps(buttons))",
     "history": [
       {
         "commit_message": "feat: Create generic use_field_move tool. This tool automates using any field move from the party menu, replacing the more specific `initiate_fly` tool. This addresses a manual task identified during self-assessment and improves automation capabilities.",
@@ -935,6 +940,16 @@
         "commit_message": "refactor: Simplify and correct menu navigation. The previous version had overly complex logic. This commit simplifies the script and corrects the initial main menu navigation to 'Up' x3 to reliably select 'POKéMON' from any starting cursor position, which is a common failure point. This directly addresses the Overwatch critique regarding tool reliability.",
         "timestamp": "2025-09-14T10:29:07.705Z",
         "action_counter": 212705
+      },
+      {
+        "commit_message": "refactor: Overhaul tool to be programmatic. The tool now takes the party list and move list as input, finds the index of the target Pokémon and move, and calculates the necessary button presses. This replaces the previous hardcoded and unreliable logic, addressing repeated failures.",
+        "timestamp": "2025-09-14T12:11:49.896Z",
+        "action_counter": 212939
+      },
+      {
+        "commit_message": "refactor: Overhaul script to be fully programmatic and robust. The tool now takes the party and move lists as JSON input, programmatically finds the indices of the target Pokémon and move, and generates the button presses dynamically. This replaces the previous unreliable logic that was prone to failure. The initial menu navigation is also corrected to 'Up' x3 to reliably select 'POKéMON' from any starting cursor position. This addresses repeated failures and the Overwatch critique from turn 212958.",
+        "timestamp": "2025-09-14T12:21:37.589Z",
+        "action_counter": 212958
       }
     ]
   },
