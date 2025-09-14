@@ -13,19 +13,18 @@
     - **Objective:** Obtain a POKé DOLL and give it to COPYCAT.
     - **Status:** Stalled. All leads in Cerulean City have been exhausted. Suspect COPYCAT is not in a currently accessible area.
 
-# III. Battle Intel
+# III. Battle Intelligence
 - **Type Effectiveness Chart (Verified):**
-    - Water is super-effective against Rock/Ground (Observed: OMANYTE's SURF vs GEODUDE).
-    - Water is not very effective against Bug/Grass (Observed: OMANYTE's BUBBLEBEAM vs PARAS).
-    - Water is not very effective against Ghost/Poison (Observed: HELIX's SURF vs GASTLY).
-    - Poison is not very effective against Poison/Flying (Confirmed: ECHO's SLUDGE vs ZUBAT) and Rock/Ground (Observed: ECHO's SLUDGE vs GEODUDE).
-    - Flying is not very effective against Rock/Ground (Observed: ECHO's FLY vs GEODUDE).
+    - Water > Rock/Ground
+    - Water is not very effective against Bug/Grass, Ghost/Poison
+    - Poison is not very effective against Poison/Flying, Rock/Ground
+    - Flying is not very effective against Rock/Ground
 - **Notable Trainer Rosters:**
-    - **Sabrina (Saffron Gym):** MR. MIME (Lv 65 - PSYCHIC), HYPNO (Lv 64 - PSYWAVE), SLOWBRO (Lv 64 - PSYCHIC), JYNX (Lv 64 - BLIZZARD, BUBBLEBEAM, DREAM EATER, LOVELY KISS), GENGAR (Lv 64 - NIGHT SHADE, PSYCHIC), ALAKAZAM (Lv 65 - THUNDER WAVE, PSYCHIC).
-    - **SMITH (Cerulean Cave):** AERODACTYL (Lv 65 - HYPER BEAM, ROCK SLIDE).
-    - **Brock (Pewter Gym):** OMASTAR (Lv 64 - HYDRO PUMP, BLIZZARD), ONIX (Lv 65 - EARTHQUAKE, ROCK SLIDE), KABUTOPS (Lv 64 - SWORDS DANCE, SLASH), GOLEM (Lv 64 - ROCK SLIDE), NINETALES (Lv 64 - REFLECT), AERODACTYL (Lv 65 - FLY).
+    - **Sabrina (Saffron Gym):** MR. MIME (Lv 65), HYPNO (Lv 64), SLOWBRO (Lv 64), JYNX (Lv 64), GENGAR (Lv 64), ALAKAZAM (Lv 65).
+    - **SMITH (Cerulean Cave):** AERODACTYL (Lv 65).
+    - **Brock (Pewter Gym):** OMASTAR (Lv 64), ONIX (Lv 65), KABUTOPS (Lv 64), GOLEM (Lv 64), NINETALES (Lv 64), AERODACTYL (Lv 65).
 - **Wild Pokémon Locations:**
-    - **Cerulean Cave:** WIGGLYTUFF (Lv 62 - LOVELY KISS, DOUBLE-EDGE, REST), SANDSLASH (Lv 63 - SWORDS DANCE, EARTHQUAKE), GOLEM (Lv 64 - EXPLOSION), LICKITUNG (Lv 61 - WRAP), CHANSEY (Lv 63 - DEFENSE CURL, MEGA PUNCH), RAICHU (Lv 64 - AGILITY).
+    - **Cerulean Cave:** WIGGLYTUFF (Lv 62), SANDSLASH (Lv 63), GOLEM (Lv 64), LICKITUNG (Lv 61), CHANSEY (Lv 63), RAICHU (Lv 64).
 
 # IV. Fossil Quest - Hypotheses Log
 - **Failed Hypotheses:**
