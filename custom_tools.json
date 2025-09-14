@@ -1023,37 +1023,29 @@
       }
     ]
   },
-  "shop_item_finder": {
-    "description": "Analyzes a shop menu's screen text to find a target item and generates the button presses needed to select and purchase it. It handles scrolling through the item list.",
+  "general_menu_navigator": {
+    "description": "Takes the output of menu_analyzer and a target option, then generates the required button presses to navigate to and select it. Can handle single-column and 2x2 grid layouts.",
     "input_schema": {
       "type": "object",
       "properties": {
-        "screen_text": {
+        "menu_analysis_json": {
           "type": "string"
         },
-        "target_item": {
+        "target_option": {
           "type": "string"
-        },
-        "action": {
-          "type": "string",
-          "enum": [
-            "select",
-            "buy"
-          ]
         }
       },
       "required": [
-        "screen_text",
-        "target_item",
-        "action"
+        "menu_analysis_json",
+        "target_option"
       ]
     },
-    "python_script": "import json\nimport re\nimport sys\n\ninput_data = json.loads(sys.argv[1])\nscreen_text = input_data['screen_text']\ntarget_item = input_data['target_item'].upper()\naction = input_data['action']\n\nlines = screen_text.strip().split('\\n')\nshop_items = []\ncursor_index = -1\n\nfor i, line in enumerate(lines):\n    clean_line = line.strip()\n    if 'CANCEL' in clean_line:\n        break\n    \n    match = re.search(r\"([A-Z0-9'.é -]+)¥\", clean_line)\n    if match:\n        item_name = match.group(1).strip()\n        shop_items.append(item_name)\n        if clean_line.startswith('→'):\n            cursor_index = len(shop_items) - 1\n\nbuttons = []\n\nif target_item in shop_items:\n    target_index = shop_items.index(target_item)\n    \n    if cursor_index != -1:\n        move_count = target_index - cursor_index\n        if move_count > 0:\n            buttons.extend(['Down'] * move_count)\n        elif move_count < 0:\n            buttons.extend(['Up'] * abs(move_count))\n            \n    if action == 'buy':\n        buttons.append('A')\n\nprint(json.dumps(buttons))",
+    "python_script": "import json\n\nmenu_data = json.loads(input_data['menu_analysis_json'])\ntarget = input_data['target_option']\n\noptions = menu_data['options']\ncursor_pos = menu_data['cursor_position']\nlayout = menu_data['layout']\n\nif target not in options:\n    print(json.dumps([]))\n    exit()\n\ntarget_idx = options.index(target)\ncursor_idx = options.index(cursor_pos)\n\npresses = []\nif layout == 'single_column':\n    diff = target_idx - cursor_idx\n    if diff > 0:\n        presses.extend(['Down'] * diff)\n    elif diff < 0:\n        presses.extend(['Up'] * abs(diff))\nelif layout == '2x2_grid':\n    # (0,0) (1,0)\n    # (0,1) (1,1)\n    coords = {0: (0,0), 1: (0,1), 2: (1,0), 3: (1,1)}\n    cursor_x, cursor_y = coords[cursor_idx]\n    target_x, target_y = coords[target_idx]\n\n    if target_x > cursor_x: presses.append('Right')\n    if target_x < cursor_x: presses.append('Left')\n    if target_y > cursor_y: presses.append('Down')\n    if target_y < cursor_y: presses.append('Up')\n\npresses.append('A')\nprint(json.dumps(presses))",
     "history": [
       {
-        "commit_message": "feat: Create shop_item_finder tool. This tool automates navigating shop menus to select and purchase specific items, which will be critical for quests like the POKé DOLL objective. This aligns with the core principle of proactive automation.",
-        "timestamp": "2025-09-14T15:42:22.068Z",
-        "action_counter": 213319
+        "commit_message": "feat: Create general_menu_navigator tool. This tool automates navigation in both single-column and 2x2 grid menus, taking output from menu_analyzer to generate button presses. This is a critical step in creating robust, reusable menu automation.",
+        "timestamp": "2025-09-14T16:48:08.006Z",
+        "action_counter": 213473
       }
     ]
   }
