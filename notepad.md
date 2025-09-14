@@ -92,3 +92,6 @@
 - **New Quest: The Copycat's Gift**
     - **Objective:** Obtain a POKé DOLL and give it to COPYCAT in Cerulean City.
     - **Source:** Super Nerd on Celadon Mart 4F at (13,6). Dialogue: "I'm getting a gift for COPYCAT in CERULEAN CITY. It's got to be a POKé DOLL. They are trendy!"
+- **New Quest: The Copycat's Gift**
+    - **Objective:** Obtain a POKé DOLL and give it to COPYCAT in Cerulean City.
+    - **Source:** Super Nerd on Celadon Mart 4F at (13,6). Dialogue: "I'm getting a gift for COPYCAT in CERULEAN CITY. It's got to be a POKé DOLL. They are trendy!"
