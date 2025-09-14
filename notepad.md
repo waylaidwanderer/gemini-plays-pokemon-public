@@ -100,7 +100,7 @@
     - `menu_analyzer`: Parses menu screen text to identify options and cursor position.
     - `select_move_in_battle`: Automates selecting a specific move in battle.
     - `use_field_move`: Automates using a field move from the party menu.
-    - `shop_item_finder`: Automates finding and purchasing items in shops.
+    - `general_menu_navigator`: Takes the output of menu_analyzer and a target option, then generates the required button presses to navigate to and select it.
 
 # IX. Automation Ideas
 - **General Menu Navigator Tool:** A tool that takes the output of `menu_analyzer` and a target option, then generates the required button presses to navigate to and select it.
