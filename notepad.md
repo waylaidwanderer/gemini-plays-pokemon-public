@@ -8,7 +8,6 @@
 7.  **Efficiency Over Fixation:** If a simple automation tool fails during a low-stakes, repetitive task (like a wild battle), it is more efficient to complete the task manually and fix the tool later, rather than getting stuck debugging mid-task.
 8.  **Confirmation Bias Awareness (Self-Assessment Finding):** I must be vigilant against confirmation bias. If a hypothesis fails multiple documented tests, I must actively pivot to a new, different hypothesis rather than repeating the failed approach. I should also formulate tests designed to *disprove* my own theories, not just confirm them. To combat this, I should use the `puzzle_solver_agent` more readily when I feel stuck on a single line of reasoning.
 9. **Strategic Agent Use:** I will make a conscious effort to use the `master_navigator_agent` for high-level exploration planning in new, complex areas (like the partitioned Celadon Dept. Store) to avoid trial-and-error pathing.
-10. **Agent/Tool Development Pipeline:** Consolidate `puzzle_item_agent` logic into the more general `puzzle_solver_agent` and delete the redundant agent to free up a slot.
 
 # II. Quest Log
 - **Current Quest: The Mt. Moon Fossil**
@@ -88,12 +87,20 @@
 - **(Turn 213076):** Performed self-assessment. Identified a persistent failure to interact with a moving NPC and a hallucination about my position. Corrected by using the `stun_npc` tool and re-pathing from my actual location.
 - **(Turn 213112):** Performed self-assessment. Refactored notepad to include new 'Tile Mechanics' and 'Automation Ideas' sections. Re-committed to using `master_navigator_agent` for complex exploration.
 - **(Turn 213164):** Performed self-assessment. Refactored notepad to remove redundant quest entries. Confirmed adherence to core principles.
+- **(Turn 213420):** Performed self-assessment. Updated tool/agent documentation in notepad. Confirmed adherence to core principles and flexibility in goal-setting.
 
 # VIII. Defined Agents & Tools
 - **Agents:**
-    - `puzzle_item_agent`: Suggests a logical order for trying items to solve an NPC's request.
+    - `puzzle_solver_agent`: (Planned) Analyzes a complex puzzle to generate new hypotheses.
+    - `comprehensive_battle_agent`: Provides pre-battle and in-battle strategic advice.
+    - `battle_anomaly_detector_agent`: Detects non-random battle outcomes.
+    - `master_navigator_agent`: High-level navigation expert.
 - **Tools:**
-    - `shop_item_finder`: Automates navigating shop menus to select and purchase specific items.
+    - `automated_path_navigator`: Finds the shortest path between two points on the current map.
+    - `menu_analyzer`: Parses menu screen text to identify options and cursor position.
+    - `select_move_in_battle`: Automates selecting a specific move in battle.
+    - `use_field_move`: Automates using a field move from the party menu.
+    - `shop_item_finder`: Automates finding and purchasing items in shops.
 
 # IX. Automation Ideas
 - **General Menu Navigator Tool:** A tool that takes the output of `menu_analyzer` and a target option, then generates the required button presses to navigate to and select it.
