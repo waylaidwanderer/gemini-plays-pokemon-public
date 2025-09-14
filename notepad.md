@@ -8,7 +8,7 @@
 # II. Quest Log
 - **Current Quest: The Mt. Moon Fossil**
     - **Objective:** Find a fossil to give to the Rocket Grunt blocking the path at Mt. Moon B2F (30,12), or find a way past the Hiker at 1F (6,7).
-    - **Status:** Active. The main path on B2F is blocked by a Rocket Grunt demanding a fossil. All attempts to find a fossil or bypass the Hiker on 1F have failed. Currently exploring an alternate route through the western section of the basement floors, which appears to be the intended path forward.
+    - **Status:** Active. The path to the main Rocket Grunt on B2F at (30,12) appears to be blocked. I am currently exploring a large, isolated eastern partition of B2F, trying to find a way to progress, but have so far been unsuccessful.
 - **Stalled Quest: The Copycat's Gift**
     - **Objective:** Obtain a POKé DOLL and give it to COPYCAT.
     - **Status:** Stalled. All leads in Cerulean City have been exhausted. Suspect COPYCAT is not in a currently accessible area.
