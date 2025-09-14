@@ -12,7 +12,10 @@
 # II. Quest Log
 - **Current Quest: The Mt. Moon Fossil**
     - **Objective:** Find a fossil to give to the Rocket Grunt blocking the path at Mt. Moon B2F (30,12).
-    - **Status:** Exploring Celadon Dept. Store for clues after exhausting leads in Mt. Moon.
+    - **Status:** Stalled. Actively pursuing other leads.
+- **New Quest: The Copycat's Gift**
+    - **Objective:** Obtain a POKé DOLL and give it to COPYCAT in Cerulean City.
+    - **Source:** Super Nerd on Celadon Mart 4F at (13,6). Dialogue: "I'm getting a gift for COPYCAT in CERULEAN CITY. It's got to be a POKé DOLL. They are trendy!"
 
 # III. Battle Intel
 - **Type Effectiveness Chart (Verified):**
@@ -57,7 +60,6 @@
 - **Battle Menu Anomaly:** The game appears to intentionally restrict move selection in certain wild battles to the first move slot. Strategy: For low-stakes wild battles, running is the most efficient option.
 - **Party Menu 'SWITCH' Lock:** The game appears to intentionally prevent the use of the 'SWITCH' command in the party menu under certain, currently unknown, conditions. This was observed after multiple failed escape attempts in Mt. Moon.
 - **Pokemon Tower 6F Healer Change:** The friendly Channeler at (13,11) is no longer a healer. Her dialogue has changed to 'I feel anemic and weak...'.
-- **Impassable Decorative Grass:** The small grass patches inside the Celadon Department Store are purely decorative and act as impassable walls.
 - **POKé DOLL Escape:** A POKé DOLL can be used to guarantee an escape from a wild Pokémon battle.
 
 # VI. Tile Mechanics
@@ -69,6 +71,7 @@
 - **cuttable:** A tree that can be cut with HM Cut. Becomes `ground` but respawns on map change.
 - **water:** Requires HM Surf to cross.
 - **Warp Tiles (ladders, doors, etc.):** Tiles that transport the player to another map or location.
+- **Impassable Decorative Grass:** The small grass patches inside the Celadon Department Store are purely decorative and act as impassable walls.
 
 # VII. Automation Ideas
 - **General Menu Navigator Tool:** A tool that takes the output of `menu_analyzer` and a target option, then generates the required button presses to navigate to and select it.
@@ -86,12 +89,4 @@
 - **(Turn 212805):** Performed self-assessment. Identified a persistent loop/fixation on a failed hypothesis (interacting with the ghost spot). Corrected by formulating a new, different test plan (talking to the 'anemic' Channeler).
 - **(Turn 213076):** Performed self-assessment. Identified a persistent failure to interact with a moving NPC and a hallucination about my position. Corrected by using the `stun_npc` tool and re-pathing from my actual location.
 - **(Turn 213112):** Performed self-assessment. Refactored notepad to include new 'Tile Mechanics' and 'Automation Ideas' sections. Re-committed to using `master_navigator_agent` for complex exploration.
-- **New Quest: The Copycat's Gift**
-    - **Objective:** Obtain a POKé DOLL and give it to COPYCAT in Cerulean City.
-    - **Source:** Super Nerd on Celadon Mart 4F at (13,6). Dialogue: "I'm getting a gift for COPYCAT in CERULEAN CITY. It's got to be a POKé DOLL. They are trendy!"
-- **New Quest: The Copycat's Gift**
-    - **Objective:** Obtain a POKé DOLL and give it to COPYCAT in Cerulean City.
-    - **Source:** Super Nerd on Celadon Mart 4F at (13,6). Dialogue: "I'm getting a gift for COPYCAT in CERULEAN CITY. It's got to be a POKé DOLL. They are trendy!"
-- **New Quest: The Copycat's Gift**
-    - **Objective:** Obtain a POKé DOLL and give it to COPYCAT in Cerulean City.
-    - **Source:** Super Nerd on Celadon Mart 4F at (13,6). Dialogue: "I'm getting a gift for COPYCAT in CERULEAN CITY. It's got to be a POKé DOLL. They are trendy!"
+- **(Turn 213164):** Performed self-assessment. Refactored notepad to remove redundant quest entries. Confirmed adherence to core principles.
