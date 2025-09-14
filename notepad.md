@@ -77,3 +77,4 @@
     - `steps`: Allows movement between `ground` and `elevated_ground`.
     - `ladder_up`/`ladder_down`: Warps between floors.
 - **(Note on Hypothesis 2):** If all rocks on 1F are exhausted with no result, the next step is to systematically check all rocks on B1F, and then B2F.
+- **Defeated Trainers as Obstacles:** Once a trainer is defeated, their sprite becomes an impassable object. You cannot walk through them. This is a critical mechanic for pathfinding in areas with many trainers.
