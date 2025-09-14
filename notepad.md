@@ -67,3 +67,9 @@
 # VI. World & Tile Mechanics
 - **elevated_ground:** Walkable, but cannot be accessed directly from `ground` tiles. Requires `steps` as an intermediary.
 - **steps:** Allows movement between `ground` and `elevated_ground`.
+
+# VII. Agent-Generated Hypotheses & Plans
+- **master_navigator_agent (Turn 214302):** The repeated 'dead end hallucinations' are likely a puzzle mechanic involving secret passages hidden in walls. The plan is to systematically test walls in apparent dead ends by walking into them and pressing the interact button.
+
+# VIII. Immediate Maintenance Tasks
+- **Map 60 (Mt. Moon B1F):** Delete redundant 'Rock checked' markers on impassable tiles upon returning to this map.
