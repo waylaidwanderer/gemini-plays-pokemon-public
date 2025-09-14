@@ -85,4 +85,4 @@
 - **Path Segment Executor Tool:** A tool that takes a full path, executes it in smaller chunks, automatically re-runs the pathfinder from the new location after an interruption (like a wild battle), and then continues along the new path. This would streamline navigation through high-encounter areas.
 
 # IX. Maintenance Log
-- **Task:** Correct faulty map markers on Route 4 (West, map ID 14) at coordinates (10, 18). The current markers incorrectly reference Route 3 instead of Cerulean City. This must be done immediately upon returning to that map.
+- **Task:** Correct faulty map markers on Route 4 (map ID 15) at coordinates (90, 11) on the eastern plateau. The current markers incorrectly reference Route 3 instead of Cerulean City. This must be done immediately upon returning to that part of the map.
