@@ -844,7 +844,7 @@
         "party_list"
       ]
     },
-    "python_script": "import json\nparty = json.loads(input_data['party_list'])\npokemon_species = input_data['pokemon_name'].upper()\nbuttons = []\nbuttons.extend(['Start', 'Down', 'A'])\ntry:\n    pokemon_index = [p['species'].upper() for p in party].index(pokemon_species)\nexcept ValueError:\n    print(json.dumps([]))\n    exit()\nfor _ in range(pokemon_index):\n    buttons.append('Down')\nbuttons.append('A')\nbuttons.append('A')\nprint(json.dumps(buttons))",
+    "python_script": "import json\ntry:\n    pokemon_name = input_data['pokemon_name']\n    move_name = input_data['move_name']\n    party_list_str = input_data['party_list']\n    party = json.loads(party_list_str)\n    button_presses = ['Start', 'Down', 'A']\n    pokemon_index = -1\n    pokemon_moves = []\n    for i, p in enumerate(party):\n        if p.get('species') == pokemon_name:\n            pokemon_index = i\n            pokemon_moves = p.get('moves', [])\n            break\n    if pokemon_index == -1:\n        print(json.dumps({'error': f\"Pokemon '{pokemon_name}' not found in party.\"}))\n    else:\n        for _ in range(pokemon_index):\n            button_presses.append('Down')\n        button_presses.append('A')\n        move_index = -1\n        try:\n            move_index = pokemon_moves.index(move_name)\n        except ValueError:\n            pass\n        if move_index == -1:\n            print(json.dumps({'error': f\"Move '{move_name}' not found for {pokemon_name}.\"}))\n        else:\n            for _ in range(move_index):\n                button_presses.append('Down')\n            button_presses.append('A')\n            print(json.dumps(button_presses))\nexcept Exception as e:\n    print(json.dumps({'error': str(e)}))",
     "history": [
       {
         "commit_message": "feat: Create generic use_field_move tool. This tool automates using any field move from the party menu, replacing the more specific `initiate_fly` tool. This addresses a manual task identified during self-assessment and improves automation capabilities.",
@@ -860,6 +860,11 @@
         "commit_message": "feat: Create generic use_field_move tool. This tool automates using any field move from the party menu, replacing more specific tools. This addresses a manual task identified during self-assessment and improves automation capabilities.",
         "timestamp": "2025-09-14T04:41:53.797Z",
         "action_counter": 212036
+      },
+      {
+        "commit_message": "fix: Overhaul logic to dynamically select Pokémon and move. The tool now correctly calculates the required 'Down' presses based on the party and move lists provided as input. It also stops after initiating the move, preventing erroneous inputs on subsequent screens like the Fly map. This is a critical fix to unblock field move automation.",
+        "timestamp": "2025-09-14T04:46:53.106Z",
+        "action_counter": 212047
       }
     ]
   }
