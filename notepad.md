@@ -86,3 +86,6 @@
 - **(Turn 212805):** Performed self-assessment. Identified a persistent loop/fixation on a failed hypothesis (interacting with the ghost spot). Corrected by formulating a new, different test plan (talking to the 'anemic' Channeler).
 - **(Turn 213076):** Performed self-assessment. Identified a persistent failure to interact with a moving NPC and a hallucination about my position. Corrected by using the `stun_npc` tool and re-pathing from my actual location.
 - **(Turn 213112):** Performed self-assessment. Refactored notepad to include new 'Tile Mechanics' and 'Automation Ideas' sections. Re-committed to using `master_navigator_agent` for complex exploration.
+- **New Quest: The Copycat's Gift**
+    - **Objective:** Obtain a POKé DOLL and give it to COPYCAT in Cerulean City.
+    - **Source:** Super Nerd on Celadon Mart 4F at (13,6). Dialogue: "I'm getting a gift for COPYCAT in CERULEAN CITY. It's got to be a POKé DOLL. They are trendy!"
