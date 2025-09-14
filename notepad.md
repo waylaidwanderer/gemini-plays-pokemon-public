@@ -47,7 +47,7 @@
     - The Hiker's line 'I'm on a break' is a literal statement of need. He is thirsty, and giving him a specific drink item will make him move. (Result: Failed. Interacting with him only produces the dialogue "Kids like you shouldn't be here!". No option to give him an item was presented).
     - An un-revived fossil Pokémon can be acquired by fishing in one of the small, seemingly decorative water pools inside Mt. Moon. (Status: All known water pools in Mt. Moon appear to be in unreachable map partitions).
     - The Rocket Grunt will accept a Pokémon that is thematically a 'fossil' but is not from a revived fossil item. The player's Marowak, due to its skull, might qualify, but only after undergoing a secret event. (Sub-hypothesis: Use Moon Stone on it. Result: Failed. The game displays 'NOT ABLE').
-    - The Pokémon Tower is a red herring for the fossil quest. Both interacting with the Marowak ghost spot and speaking to the 'anemic' Channeler with a Marowak in the party yielded no results.
+    - The Pokémon Tower is a red herring for the fossil quest. (Failed: Interacting with ghost spot and 'anemic' Channeler with Marowak in party yielded no results).
 - **Active Hypotheses:**
     - The 'fossil' the Rocket Grunt wants is a fainted Pokémon.
 
