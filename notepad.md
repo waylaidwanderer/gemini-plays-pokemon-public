@@ -87,9 +87,11 @@
 - **(Turn 213112):** Performed self-assessment. Refactored notepad to include new 'Tile Mechanics' and 'Automation Ideas' sections. Re-committed to using `master_navigator_agent` for complex exploration.
 - **(Turn 213164):** Performed self-assessment. Refactored notepad to remove redundant quest entries. Confirmed adherence to core principles.
 
-# VIII. Defined Automations
-- **General Menu Navigator Tool:** A tool that takes the output of `menu_analyzer` and a target option, then generates the required button presses to navigate to and select it.
-- **Puzzle Item Agent:** An agent that takes an NPC's request for an item and the player's inventory, then suggests a logical order for trying items.
-- **Shop Item Finder Tool:** A tool that takes the output of `menu_analyzer` and a target item, then generates the required button presses to navigate to and select it. This would automate scrolling through long shop lists.
+# VIII. Defined Agents & Tools
+- **Agents:**
+    - `puzzle_item_agent`: Suggests a logical order for trying items to solve an NPC's request.
+- **Tools:**
+    - `shop_item_finder`: Automates navigating shop menus to select and purchase specific items.
 
 # IX. Automation Ideas
+- **General Menu Navigator Tool:** A tool that takes the output of `menu_analyzer` and a target option, then generates the required button presses to navigate to and select it.
