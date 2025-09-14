@@ -1013,35 +1013,37 @@
       }
     ]
   },
-  "battle_menu_navigator": {
-    "description": "Navigates the main battle menu to select FIGHT, PKMN, ITEM, or RUN. Verifies that the player is in a battle before executing.",
+  "shop_item_finder": {
+    "description": "Analyzes a shop menu's screen text to find a target item and generates the button presses needed to select and purchase it. It handles scrolling through the item list.",
     "input_schema": {
       "type": "object",
       "properties": {
-        "option_to_select": {
+        "screen_text": {
+          "type": "string"
+        },
+        "target_item": {
+          "type": "string"
+        },
+        "action": {
           "type": "string",
           "enum": [
-            "FIGHT",
-            "PKMN",
-            "ITEM",
-            "RUN"
+            "select",
+            "buy"
           ]
-        },
-        "is_in_battle": {
-          "type": "boolean"
         }
       },
       "required": [
-        "option_to_select",
-        "is_in_battle"
+        "screen_text",
+        "target_item",
+        "action"
       ]
     },
-    "python_script": "import json\n\nis_in_battle = input_data.get('is_in_battle', 'false').lower() == 'true'\n\nif not is_in_battle:\n    print(json.dumps({\"error\": \"Not in battle\"}))\nelse:\n    option = input_data['option_to_select']\n    presses = []\n    if option == 'PKMN':\n        presses.append('Right')\n    elif option == 'ITEM':\n        presses.append('Down')\n    elif option == 'RUN':\n        presses.extend(['Right', 'Down'])\n    presses.append('A')\n    print(json.dumps(presses))",
+    "python_script": "import json\nimport re\nimport sys\n\ninput_data = json.loads(sys.argv[1])\nscreen_text = input_data['screen_text']\ntarget_item = input_data['target_item'].upper()\naction = input_data['action']\n\nlines = screen_text.strip().split('\\n')\nshop_items = []\ncursor_index = -1\n\nfor i, line in enumerate(lines):\n    clean_line = line.strip()\n    if 'CANCEL' in clean_line:\n        break\n    \n    match = re.search(r\"([A-Z0-9'.é -]+)¥\", clean_line)\n    if match:\n        item_name = match.group(1).strip()\n        shop_items.append(item_name)\n        if clean_line.startswith('→'):\n            cursor_index = len(shop_items) - 1\n\nbuttons = []\n\nif target_item in shop_items:\n    target_index = shop_items.index(target_item)\n    \n    if cursor_index != -1:\n        move_count = target_index - cursor_index\n        if move_count > 0:\n            buttons.extend(['Down'] * move_count)\n        elif move_count < 0:\n            buttons.extend(['Up'] * abs(move_count))\n            \n    if action == 'buy':\n        buttons.append('A')\n\nprint(json.dumps(buttons))",
     "history": [
       {
-        "commit_message": "feat: Create battle_menu_navigator tool. This replaces the reserved 'select_battle_option' name and includes a pre-condition check for battle status, as mandated by the Overwatch critique. This is a critical fix to unblock battle automation.",
-        "timestamp": "2025-09-14T10:29:07.706Z",
-        "action_counter": 212705
+        "commit_message": "feat: Create shop_item_finder tool. This tool automates navigating shop menus to select and purchase specific items, which will be critical for quests like the POKé DOLL objective. This aligns with the core principle of proactive automation.",
+        "timestamp": "2025-09-14T15:42:22.068Z",
+        "action_counter": 213319
       }
     ]
   }
