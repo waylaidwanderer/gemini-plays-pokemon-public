@@ -82,3 +82,4 @@
 - **`steps`**: Allows movement between `ground` and `elevated_ground`.
 - **`impassable`**: Walls, rocks, and other solid barriers. Cannot be entered.
 - **`ladder_down` / `ladder_up`**: Act as warps between floors. Must step off and back on to re-use after arriving on one.
+- **`grass`**: Walkable tile with wild Pokémon encounters.
