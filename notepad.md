@@ -8,7 +8,7 @@
 # II. Quest Log
 - **Current Quest: The Mt. Moon Fossil**
     - **Objective:** Find a fossil to give to the Rocket Grunt blocking the path at Mt. Moon B2F (30,12), or find a way past the Hiker at 1F (6,7).
-    - **Status:** Active. The path to the main Rocket Grunt on B2F at (30,12) appears to be blocked. I am currently exploring a large, isolated eastern partition of B2F, trying to find a way to progress, but have so far been unsuccessful.
+    - **Status:** Active. The path to the main Rocket Grunt on B2F at (30,12) appears to be blocked. I am currently exploring a large, isolated eastern partition of B2F. My `master_navigator_agent` has determined this is a maze puzzle, and the solution is to use the 'wall-following' method to find a secret passage.
 - **Stalled Quest: The Copycat's Gift**
     - **Objective:** Obtain a POKé DOLL and give it to COPYCAT.
     - **Status:** Stalled. All leads in Cerulean City have been exhausted. Suspect COPYCAT is not in a currently accessible area.
@@ -28,11 +28,12 @@
 
 # IV. Fossil Quest - Hypotheses Log
 - **Active Hypotheses (Ranked by Agent):**
-    1.  **POKé DOLL as Fossil:** The Rocket Grunt on B2F will accept the POKé DOLL as the 'fossil'.
-    2.  **POKé DOLL and the Hiker:** Getting rid of the POKé DOLL (by giving it to the Grunt) will make the Hiker on 1F move because the player is no longer a 'kid' with a toy.
-    3.  **Fainted Fossil:** The Grunt wants a revived fossil Pokémon that has fainted.
-    4.  **No Starter in Party:** The Hiker will move if the player's starter Pokémon is in the PC.
-    5.  **Silph Scope Ghost:** The Silph Scope will reveal a ghost in Mt. Moon that needs to be captured and shown to the Grunt.
+    1.  **Wall-Following Maze:** The eastern partition of B2F is a maze with secret passages. The solution is to systematically follow a wall to find the exit.
+    2.  **POKé DOLL as Fossil:** The Rocket Grunt on B2F will accept the POKé DOLL as the 'fossil'.
+    3.  **POKé DOLL and the Hiker:** Getting rid of the POKé DOLL (by giving it to the Grunt) will make the Hiker on 1F move because the player is no longer a 'kid' with a toy.
+    4.  **Fainted Fossil:** The Grunt wants a revived fossil Pokémon that has fainted.
+    5.  **No Starter in Party:** The Hiker will move if the player's starter Pokémon is in the PC.
+    6.  **Silph Scope Ghost:** The Silph Scope will reveal a ghost in Mt. Moon that needs to be captured and shown to the Grunt.
 - **Failed Hypotheses:**
     - The Hiker will only move for an 'adult', a status temporarily gained by interacting with the 'Old Man' in Viridian City. (Result: Failed. Hiker's dialogue was unchanged.)
     - The fossil is in an interactable rock.
@@ -68,8 +69,5 @@
 - **elevated_ground:** Walkable, but cannot be accessed directly from `ground` tiles. Requires `steps` as an intermediary.
 - **steps:** Allows movement between `ground` and `elevated_ground`.
 
-# VII. Agent-Generated Hypotheses & Plans
-- **master_navigator_agent (Turn 214302):** The repeated 'dead end hallucinations' are likely a puzzle mechanic involving secret passages hidden in walls. The plan is to systematically test walls in apparent dead ends by walking into them and pressing the interact button.
-
-# VIII. Immediate Maintenance Tasks
+# VII. Immediate Maintenance Tasks
 - **Map 60 (Mt. Moon B1F):** Delete redundant 'Rock checked' markers on impassable tiles upon returning to this map.
