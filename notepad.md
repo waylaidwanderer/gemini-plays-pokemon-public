@@ -94,9 +94,3 @@
 
 # IX. Automation Ideas
 - **Menu Navigation Mapper Agent:** An agent that takes a series of manual inputs and observed cursor movements to deduce the layout and control scheme of an unknown menu, then generates a navigation map for the `general_menu_navigator` tool.
-
-# X. Future Tasks & Reminders
-- **Map Marker Cleanup:** Consolidate redundant rock markers on Mt. Moon 1F into a single summary marker upon next visit.
-- **Encounter Rate Analyst Agent:** Consider creating an agent to analyze encounter rates in different areas to find optimal paths for travel vs. grinding.
-- **Mt. Moon High Encounter Rate:** The western section of Mt. Moon 1F (and likely B1F) has a deliberately high, near-100% encounter rate per step. This is a suspected 'trap' mechanic. Strategy: Running from all non-essential wild battles is the most efficient way to navigate this area.
-    - All known ladder routes from Mt. Moon 1F to B2F have been explored. The paths from the ladders at (18,12) and (26,16) lead to partitioned dead ends. The path from the ladder at (6,6) is the correct route forward.
