@@ -79,18 +79,6 @@
 - **(Turn 213727):** Performed self-assessment. Identified failure to immediately fix tools (`general_menu_navigator`). Acknowledged underutilization of `master_navigator_agent` and confirmation bias regarding menu layouts. Updated notepad with new hypotheses and automation ideas.
 - **(Turn 213778):** Performed self-assessment. Acknowledged inefficient debugging methods (guessing instead of data-gathering) and failure to use agents when stuck. Re-committed to a more scientific approach to problem-solving. Pivoted goals due to stalled quest.
 
-# VIII. Defined Agents & Tools
-- **Agents:**
-    - `puzzle_solver_agent`: Analyzes a complex puzzle to generate new hypotheses.
-    - `comprehensive_battle_agent`: Provides pre-battle and in-battle strategic advice.
-    - `battle_anomaly_detector_agent`: Detects non-random battle outcomes.
-    - `master_navigator_agent`: High-level navigation expert.
-- **Tools:**
-    - `automated_path_navigator`: Finds the shortest path between two points on the current map.
-    - `menu_analyzer`: Parses menu screen text to identify options and cursor position.
-    - `select_move_in_battle`: Automates selecting a specific move in battle.
-    - `use_field_move`: Automates using a field move from the party menu.
-    - `general_menu_navigator`: Takes the output of menu_analyzer and a target option, then generates the required button presses to navigate to and select it.
-
-# IX. Automation Ideas
+# VIII. Automation Ideas
 - **Menu Navigation Mapper Agent:** An agent that takes a series of manual inputs and observed cursor movements to deduce the layout and control scheme of an unknown menu, then generates a navigation map for the `general_menu_navigator` tool.
+- **Multi-Map Route Planner Agent:** An agent that can plan the most efficient route between two distant points that may span multiple cities and routes, using Fly and walking/surfing as necessary. This would handle high-level strategic navigation.
