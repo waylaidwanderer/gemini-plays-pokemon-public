@@ -7,7 +7,7 @@
 6.  **Mandatory Self-Assessment:** Every 50 turns, I must perform a structured self-review to ensure my strategies, documentation, and tool usage remain optimal and aligned with my core principles.
 7.  **Efficiency Over Fixation:** If a simple automation tool fails during a low-stakes, repetitive task (like a wild battle), it is more efficient to complete the task manually and fix the tool later, rather than getting stuck debugging mid-task.
 8.  **Confirmation Bias Awareness (Self-Assessment Finding):** I must be vigilant against confirmation bias. If a hypothesis fails multiple documented tests, I must actively pivot to a new, different hypothesis rather than repeating the failed approach. I should also formulate tests designed to *disprove* my own theories, not just confirm them. To combat this, I should use the `puzzle_solver_agent` more readily when I feel stuck on a single line of reasoning.
-9. **Strategic Agent Use:** I will make a conscious effort to use the `master_navigator_agent` for high-level exploration planning in new, complex areas to avoid trial-and-error pathing.
+9. **Strategic Agent Use:** I will make a conscious effort to use the `master_navigator_agent` for high-level exploration planning in new, complex areas (like the partitioned Celadon Dept. Store) to avoid trial-and-error pathing.
 
 # II. Quest Log
 - **Current Quest: The Mt. Moon Fossil**
