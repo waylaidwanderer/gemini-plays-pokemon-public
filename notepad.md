@@ -73,11 +73,7 @@
 - **Warp Tiles (ladders, doors, etc.):** Tiles that transport the player to another map or location.
 - **Impassable Decorative Grass:** The small grass patches inside the Celadon Department Store are purely decorative and act as impassable walls.
 
-# VII. Automation Ideas
-- **General Menu Navigator Tool:** A tool that takes the output of `menu_analyzer` and a target option, then generates the required button presses to navigate to and select it.
-- **Puzzle Item Agent:** An agent that takes an NPC's request for an item and the player's inventory, then suggests a logical order for trying items.
-
-# VIII. Self-Assessment Log
+# VII. Self-Assessment Log
 - **(Turn 210956):** Failed mandatory self-assessment. Misread map data. Acknowledged input drops and need to retry failed navigation.
 - **(Turn 211006):** Failed to immediately fix `select_move_in_battle` tool, violating immediate maintenance directive.
 - **(Turn 211057):** Failed to use `battle_anomaly_detector_agent`. Identified need to improve notepad and create new tools.
@@ -90,3 +86,7 @@
 - **(Turn 213076):** Performed self-assessment. Identified a persistent failure to interact with a moving NPC and a hallucination about my position. Corrected by using the `stun_npc` tool and re-pathing from my actual location.
 - **(Turn 213112):** Performed self-assessment. Refactored notepad to include new 'Tile Mechanics' and 'Automation Ideas' sections. Re-committed to using `master_navigator_agent` for complex exploration.
 - **(Turn 213164):** Performed self-assessment. Refactored notepad to remove redundant quest entries. Confirmed adherence to core principles.
+
+# VIII. Defined Automations
+- **General Menu Navigator Tool:** A tool that takes the output of `menu_analyzer` and a target option, then generates the required button presses to navigate to and select it.
+- **Puzzle Item Agent:** An agent that takes an NPC's request for an item and the player's inventory, then suggests a logical order for trying items.
