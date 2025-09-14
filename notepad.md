@@ -63,18 +63,6 @@
 - **Shop Menu Navigation Anomaly:** The shop menu in the Cerulean Mart does not follow a standard grid layout. Manual testing showed 'Down' moves from 'BUY' to 'SELL', but 'Right' does nothing from either position. The menu must be exited with the 'B' button.
 - **Unreliable Automation:** The `use_field_move` tool's single-sequence design was unreliable. It has been refactored into a multi-stage process for improved stability.
 
-# VI. Tile Mechanics
-- **ground / grass:** Standard walkable tiles.
-- **impassable:** Walls, counters, and other solid objects. Cannot be entered.
-- **ledge:** Can only be jumped down (from Y-1 to Y+2 in one move). Acts as a wall from all other directions.
-- **steps:** The only way to transition between `ground` and `elevated_ground`.
-- **elevated_ground:** Walkable, but at a different height. Cannot be accessed directly from `ground`.
-- **cuttable:** A tree that can be cut with HM Cut. Becomes `ground` but respawns on map change.
-- **water:** Requires HM Surf to cross.
-- **Warp Tiles (ladders, doors, etc.):** Tiles that transport the player to another map or location.
-- **Impassable Decorative Grass:** The small grass patches inside the Celadon Department Store are purely decorative and act as impassable walls.
-- **trashcan:** Found in Cerulean Badge House at (8,8). Properties unknown, likely impassable. (Hypothesis: Test interaction upon next visit.)
-
 # VII. Self-Assessment Log
 - **(Turn 213727):** Performed self-assessment. Identified failure to immediately fix tools (`general_menu_navigator`). Acknowledged underutilization of `master_navigator_agent` and confirmation bias regarding menu layouts. Updated notepad with new hypotheses and automation ideas.
 - **(Turn 213778):** Performed self-assessment. Acknowledged inefficient debugging methods (guessing instead of data-gathering) and failure to use agents when stuck. Re-committed to a more scientific approach to problem-solving. Pivoted goals due to stalled quest.
