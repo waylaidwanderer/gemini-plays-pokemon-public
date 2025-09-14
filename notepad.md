@@ -7,11 +7,12 @@
 6.  **Mandatory Self-Assessment:** Every 50 turns, I must perform a structured self-review to ensure my strategies, documentation, and tool usage remain optimal and aligned with my core principles.
 7.  **Efficiency Over Fixation:** If a simple automation tool fails during a low-stakes, repetitive task (like a wild battle), it is more efficient to complete the task manually and fix the tool later, rather than getting stuck debugging mid-task.
 8.  **Confirmation Bias Awareness (Self-Assessment Finding):** I must be vigilant against confirmation bias. If a hypothesis fails multiple documented tests, I must actively pivot to a new, different hypothesis rather than repeating the failed approach. I should also formulate tests designed to *disprove* my own theories, not just confirm them. To combat this, I should use the `puzzle_solver_agent` more readily when I feel stuck on a single line of reasoning.
+9. **Strategic Agent Use:** I will make a conscious effort to use the `master_navigator_agent` for high-level exploration planning in new, complex areas to avoid trial-and-error pathing.
 
 # II. Quest Log
 - **Current Quest: The Mt. Moon Fossil**
     - **Objective:** Find a fossil to give to the Rocket Grunt blocking the path at Mt. Moon B2F (30,12).
-    - **Status:** Pivoting to new hypotheses after getting stuck in a loop.
+    - **Status:** Exploring Celadon Dept. Store for clues after exhausting leads in Mt. Moon.
 
 # III. Battle Intel
 - **Type Effectiveness Chart (Verified):**
@@ -44,19 +45,36 @@
     - There is a hidden, one-way passage concealed in the western wall on 1F. (Result: The western wall from (2,3) to (2,18) has been systematically checked and yielded no results.)
     - The Escape Rope item is scripted to function differently within Mt. Moon, acting as a warp to the central B2F area instead of the cave entrance. (Result: Using an Escape Rope on Mt. Moon 1F functioned normally, warping me to the last used Pokémon Center on Route 4.)
     - A specific, seemingly mundane rock in Mt. Moon is a disguised ladder that can only be activated by having a Clefairy in the first slot of the party. (Result: Systematically checked all rocks on 1F and a portion of B1F. No results.)
-    - The Hiker's line 'I'm on a break' is a literal statement of need. He is thirsty, and giving him a specific drink item will make him move. (Result: Failed. Interacting with him only produces the dialogue "Kids like you shouldn't be here!". No option to give him an item was presented).
+    - The Hiker's line 'I'm on a break' is a literal statement of need. He is thirsty, and giving him a specific drink item will make him move. (Result: Failed. Interacting with him only produces the dialogue 'Kids like you shouldn't be here!'. No option to give him an item was presented).
     - An un-revived fossil Pokémon can be acquired by fishing in one of the small, seemingly decorative water pools inside Mt. Moon. (Status: All known water pools in Mt. Moon appear to be in unreachable map partitions).
     - The Rocket Grunt will accept a Pokémon that is thematically a 'fossil' but is not from a revived fossil item. The player's Marowak, due to its skull, might qualify, but only after undergoing a secret event. (Sub-hypothesis: Use Moon Stone on it. Result: Failed. The game displays 'NOT ABLE').
     - The Pokémon Tower is a red herring for the fossil quest. (Failed: Interacting with ghost spot and 'anemic' Channeler with Marowak in party yielded no results).
 - **Active Hypotheses:**
     - The 'fossil' the Rocket Grunt wants is a fainted Pokémon.
+    - Giving the Little Girl on the Celadon Mart Roof the correct drink will trigger an event that opens a path to the eastern side of 4F.
 
 # V. Game & World Mechanics
 - **Battle Menu Anomaly:** The game appears to intentionally restrict move selection in certain wild battles to the first move slot. Strategy: For low-stakes wild battles, running is the most efficient option.
 - **Party Menu 'SWITCH' Lock:** The game appears to intentionally prevent the use of the 'SWITCH' command in the party menu under certain, currently unknown, conditions. This was observed after multiple failed escape attempts in Mt. Moon.
-- **Pokemon Tower 6F Healer Change:** The friendly Channeler at (13,11) is no longer a healer. Her dialogue has changed to "I feel anemic and weak...".
+- **Pokemon Tower 6F Healer Change:** The friendly Channeler at (13,11) is no longer a healer. Her dialogue has changed to 'I feel anemic and weak...'.
+- **Impassable Decorative Grass:** The small grass patches inside the Celadon Department Store are purely decorative and act as impassable walls.
+- **POKé DOLL Escape:** A POKé DOLL can be used to guarantee an escape from a wild Pokémon battle.
 
-# VI. Self-Assessment Log
+# VI. Tile Mechanics
+- **ground / grass:** Standard walkable tiles.
+- **impassable:** Walls, counters, and other solid objects. Cannot be entered.
+- **ledge:** Can only be jumped down (from Y-1 to Y+2 in one move). Acts as a wall from all other directions.
+- **steps:** The only way to transition between `ground` and `elevated_ground`.
+- **elevated_ground:** Walkable, but at a different height. Cannot be accessed directly from `ground`.
+- **cuttable:** A tree that can be cut with HM Cut. Becomes `ground` but respawns on map change.
+- **water:** Requires HM Surf to cross.
+- **Warp Tiles (ladders, doors, etc.):** Tiles that transport the player to another map or location.
+
+# VII. Automation Ideas
+- **General Menu Navigator Tool:** A tool that takes the output of `menu_analyzer` and a target option, then generates the required button presses to navigate to and select it.
+- **Puzzle Item Agent:** An agent that takes an NPC's request for an item and the player's inventory, then suggests a logical order for trying items.
+
+# VIII. Self-Assessment Log
 - **(Turn 210956):** Failed mandatory self-assessment. Misread map data. Acknowledged input drops and need to retry failed navigation.
 - **(Turn 211006):** Failed to immediately fix `select_move_in_battle` tool, violating immediate maintenance directive.
 - **(Turn 211057):** Failed to use `battle_anomaly_detector_agent`. Identified need to improve notepad and create new tools.
@@ -66,6 +84,5 @@
 - **(Turn 212415):** Update on Hypothesis 3: The ladder at B1F (14,28) leads to an isolated, elevated platform on B2F at (16,28), not the main western area with the water pool. The western B2F map is also partitioned.
 - **(Turn 212438):** Update on Hypothesis 3: The ladder at B1F (22,18) also leads to an isolated platform on B2F, not the main western area. This route is also a dead end for reaching the water pool.
 - **(Turn 212805):** Performed self-assessment. Identified a persistent loop/fixation on a failed hypothesis (interacting with the ghost spot). Corrected by formulating a new, different test plan (talking to the 'anemic' Channeler).
-    - The Cubone in the Lavender Cubone House will trigger a special event if interacted with while a Marowak is in the first party slot. (Result: Interacting only produced its cry, "Kyarugoo!").
-- **Impassable Decorative Grass:** The small grass patches inside the Celadon Department Store are purely decorative and act as impassable walls.
-- **POKé DOLL Escape:** A POKé DOLL can be used to guarantee an escape from a wild Pokémon battle.
+- **(Turn 213076):** Performed self-assessment. Identified a persistent failure to interact with a moving NPC and a hallucination about my position. Corrected by using the `stun_npc` tool and re-pathing from my actual location.
+- **(Turn 213112):** Performed self-assessment. Refactored notepad to include new 'Tile Mechanics' and 'Automation Ideas' sections. Re-committed to using `master_navigator_agent` for complex exploration.
