@@ -75,6 +75,7 @@
 - **water:** Requires HM Surf to cross.
 - **Warp Tiles (ladders, doors, etc.):** Tiles that transport the player to another map or location.
 - **Impassable Decorative Grass:** The small grass patches inside the Celadon Department Store are purely decorative and act as impassable walls.
+- **trashcan:** Found in Cerulean Badge House at (8,8). Properties unknown, likely impassable. (Hypothesis: Test interaction.)
 
 # VII. Self-Assessment Log
 - **(Turn 210956):** Failed mandatory self-assessment. Misread map data. Acknowledged input drops and need to retry failed navigation.
