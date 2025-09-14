@@ -62,7 +62,7 @@
 - **Future Development Pipeline:**
     - **`auto_run_wild` tool:** Automate running from wild battles. Useful for high-encounter areas when not grinding.
     - **`auto_battle_wild` tool:** A tool to automate simple wild battles by repeatedly using the first move.
-    - **`rock_checker` tool:** A tool to automate the process of systematically checking rock formations. It would take a list of coordinates, navigate to each, turn to face the rock, interact, and mark it as checked.
+    
 
 # VII. Self-Assessment Log
 - **(Turn 210956):** Failed to perform mandatory self-assessment on time. Made a manual pathing error by misreading map data, reinforcing the need to rely on automated tools. Acknowledged recurring system-level input drops in battle menus and the necessity of retrying failed navigation attempts.
