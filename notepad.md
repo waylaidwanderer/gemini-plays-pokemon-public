@@ -65,15 +65,6 @@
 - **Party Menu 'SWITCH' Lock:** The game appears to intentionally prevent the use of the 'SWITCH' command in the party menu under certain, currently unknown, conditions. This was observed after multiple failed escape attempts in Mt. Moon.
 - **Pokemon Tower 6F Healer Change:** The friendly Channeler at (13,11) is no longer a healer. Her dialogue has changed to "I feel anemic and weak...".
 - **Defeated Trainers as Obstacles:** Once a trainer is defeated, their sprite becomes an impassable object. You cannot walk through them.
-- **Tile Types (Verified):**
-    - `ground`: Standard walkable tile.
-    - `impassable`: Walls, rocks, objects. Cannot be entered.
-    - `elevated_ground`: Walkable, but only accessible from `steps` tiles.
-    - `steps`: Allows movement between `ground` and `elevated_ground`.
-    - `ladder_up`/`ladder_down`: Warps between floors.
-    - `warp`: General term for doors, ladders, stairs, etc. Most 1x1 warps are instant. Larger 2x1 or 1x2 warps (like exit mats) require a two-step process: move onto the warp tile, then press the directional button into the impassable boundary.
-    - `ledge`: One-way traversal. Can be jumped down, but not climbed up.
-    - `grass`: Walkable tile that can trigger wild Pokémon encounters.
 
 # VI. Self-Assessment Log
 - **(Turn 210956):** Failed mandatory self-assessment. Misread map data. Acknowledged input drops and need to retry failed navigation.
