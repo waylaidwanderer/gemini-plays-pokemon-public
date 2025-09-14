@@ -75,3 +75,5 @@
     - `elevated_ground`: Walkable, but only accessible from `steps` tiles.
     - `steps`: Allows movement between `ground` and `elevated_ground`.
     - `ladder_up`/`ladder_down`: Warps between floors.
+- **(Note on Hypothesis 2):** If all rocks on 1F are exhausted with no result, the next step is to systematically check all rocks on B1F, and then B2F.
+- `ladder_down`: Warps between floors.
