@@ -113,3 +113,4 @@
 
 # IX. Automation Ideas
 - **Menu Navigation Mapper Agent:** An agent that takes a series of manual inputs and observed cursor movements to deduce the layout and control scheme of an unknown menu, then generates a navigation map for the `general_menu_navigator` tool.
+        - **New Hypothesis:** The moving Cool Trainer F NPC at (10, 28) in Cerulean City is COPYCAT.
