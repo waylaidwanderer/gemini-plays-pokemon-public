@@ -74,3 +74,6 @@
 - **grass**: Tall grass with wild Pokémon encounters.
 - **cuttable**: A tree that can be removed with the HM move Cut. Respawns on map change.
 - **ledge**: Can only be jumped down (from Y-1 to Y+2). Acts as a wall from all other directions.
+
+# VIII. Maintenance To-Do
+- **(from Overwatch Critique):** Standardize the inconsistent map markers for the Saffron City connection on Route 7 (eastern side).
