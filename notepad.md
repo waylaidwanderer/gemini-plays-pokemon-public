@@ -98,3 +98,4 @@
 # X. Future Tasks & Reminders
 - **Map Marker Cleanup:** Consolidate redundant rock markers on Mt. Moon 1F into a single summary marker upon next visit.
 - **Encounter Rate Analyst Agent:** Consider creating an agent to analyze encounter rates in different areas to find optimal paths for travel vs. grinding.
+- **Mt. Moon High Encounter Rate:** The western section of Mt. Moon 1F (and likely B1F) has a deliberately high, near-100% encounter rate per step. This is a suspected 'trap' mechanic. Strategy: Running from all non-essential wild battles is the most efficient way to navigate this area.
