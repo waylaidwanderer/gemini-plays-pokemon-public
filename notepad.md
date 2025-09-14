@@ -74,3 +74,4 @@
 
 # IX. Maintenance Log
 - **Task:** Correct faulty map markers on Route 4 (map ID 15) at coordinates (90, 11) on the eastern plateau. The current markers incorrectly reference Route 3 instead of Cerulean City. This must be done immediately upon returning to that part of the map.
+- **Map Connectivity Analyzer Agent:** An agent that takes a map ID and a list of warps as input and produces a graph-like structure showing how different areas connect. This would help visualize complex layouts and avoid getting stuck in what appear to be dead ends.
