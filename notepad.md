@@ -55,7 +55,11 @@
     - The Rocket Grunt will accept a Pokémon that is thematically a 'fossil' but is not from a revived fossil item. The player's Marowak, due to its skull, might qualify, but only after undergoing a secret event. (Sub-hypothesis: Use Moon Stone on it. Result: Failed. The game displays 'NOT ABLE').
     - The Pokémon Tower is a red herring for the fossil quest. (Failed: Interacting with ghost spot and 'anemic' Channeler with Marowak in party yielded no results).
 - **Active Hypotheses:**
-    - **New Hypothesis (from Overwatch):** Use the `puzzle_solver_agent` to generate new, out-of-the-box hypotheses for the Mt. Moon fossil quest.
+    - **Active Hypothesis (from Agent):** The Hiker on 1F will only move for an 'adult', a status temporarily gained by interacting with the 'Old Man' in Viridian City.
+- **Agent Hypothesis 2:** The Hiker on 1F is a disguised Team Rocket Grunt, and using the Silph Scope will reveal his true identity.
+- **Agent Hypothesis 3:** A new, un-revived fossil can be created by having a specific Pokémon use Self-Destruct or Explosion inside Mt. Moon.
+- **Agent Hypothesis 4:** The Rocket Grunt on B2F will accept the POKé DOLL as a 'fossil'.
+- **Agent Hypothesis 5:** Losing a battle (blacking out) on the tile directly in front of the Hiker on 1F will trigger a new event.
 
 # V. Game & World Mechanics
 - **Battle Menu Anomaly:** The game appears to intentionally restrict move selection in certain wild battles to the first move slot. Strategy: For low-stakes wild battles, running is the most efficient option.

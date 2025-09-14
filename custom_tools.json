@@ -868,10 +868,18 @@
     ]
   },
   "use_field_move": {
-    "description": "Automates the menu navigation to select a Pokémon and use a specified field move (like Dig, Cut, Fly, etc.).",
+    "description": "Automates using a field move in stages. Stage 1: Opens menu and selects POKéMON. Stage 2: Selects the specified Pokémon. Stage 3: Selects and uses the specified move.",
     "input_schema": {
       "type": "object",
       "properties": {
+        "stage": {
+          "type": "string",
+          "enum": [
+            "open_menu",
+            "select_pokemon",
+            "select_move"
+          ]
+        },
         "pokemon_name": {
           "type": "string"
         },
@@ -879,22 +887,17 @@
           "type": "string"
         },
         "party_list": {
-          "type": "string",
-          "description": "A stringified JSON array of the player's current party, including nicknames."
+          "type": "string"
         },
         "move_list": {
-          "type": "string",
-          "description": "A stringified JSON array of the target Pokémon's moves."
+          "type": "string"
         }
       },
       "required": [
-        "pokemon_name",
-        "move_name",
-        "party_list",
-        "move_list"
+        "stage"
       ]
     },
-    "python_script": "import json\n\ndef main():\n    try:\n        pokemon_name = input_data['pokemon_name']\n        move_name = input_data['move_name']\n        party_list = json.loads(input_data['party_list'])\n        move_list = json.loads(input_data['move_list'])\n\n        try:\n            pokemon_index = party_list.index(pokemon_name)\n        except ValueError:\n            print(json.dumps({\"error\": f\"Pokemon '{pokemon_name}' not found in party.\"}))\n            return\n\n        try:\n            move_index = move_list.index(move_name)\n        except ValueError:\n            print(json.dumps({\"error\": f\"Move '{move_name}' not found in moveset.\"}))\n            return\n\n        button_presses = []\n\n        button_presses.append('Start')\n        button_presses.extend(['Up'] * 6)\n        button_presses.append('Down')\n        button_presses.append('A')\n\n        button_presses.extend(['Down'] * pokemon_index)\n        button_presses.append('A')\n\n        button_presses.extend(['Down'] * move_index)\n        button_presses.append('A')\n\n        print(json.dumps(button_presses))\n    except Exception as e:\n        print(json.dumps({\"error\": str(e)}))\n\nmain()",
+    "python_script": "import json\n\ndef main():\n    try:\n        stage = input_data['stage']\n        button_presses = []\n\n        if stage == 'open_menu':\n            button_presses.append('Start')\n            button_presses.extend(['Up'] * 6) # Reset cursor to top\n            button_presses.append('Down') # Move to POKéMON\n            button_presses.append('A')\n        elif stage == 'select_pokemon':\n            pokemon_name = input_data['pokemon_name']\n            party_list = json.loads(input_data['party_list'])\n            pokemon_index = party_list.index(pokemon_name)\n            button_presses.extend(['Down'] * pokemon_index)\n            button_presses.append('A')\n        elif stage == 'select_move':\n            move_name = input_data['move_name']\n            move_list = json.loads(input_data['move_list'])\n            move_index = move_list.index(move_name)\n            button_presses.extend(['Down'] * move_index)\n            button_presses.append('A')\n        \n        print(json.dumps(button_presses))\n    except Exception as e:\n        print(json.dumps({\"error\": str(e)}))\n\nmain()",
     "history": [
       {
         "commit_message": "feat: Create generic use_field_move tool. This tool automates using any field move from the party menu, replacing the more specific `initiate_fly` tool. This addresses a manual task identified during self-assessment and improves automation capabilities.",
@@ -1045,6 +1048,11 @@
         "commit_message": "fix: Add dynamic move selection. The tool previously failed to use the `move_list` input, incorrectly assuming the target move was always the first option. This commit implements the logic to programmatically find the move's index and generate the correct number of 'Down' presses. This is a critical fix to make the tool robust and directly addresses the Overwatch critique.",
         "timestamp": "2025-09-14T17:42:12.600Z",
         "action_counter": 213601
+      },
+      {
+        "commit_message": "refactor: Overhaul tool to use a multi-stage process. The previous single-sequence approach was highly unreliable and frequently interrupted by the system. This commit refactors the tool to operate in three distinct stages (open_menu, select_pokemon, select_move), making it more robust and easier to debug. This is a critical fix to address the persistent tool failure identified by Overwatch.",
+        "timestamp": "2025-09-14T19:05:55.127Z",
+        "action_counter": 213803
       }
     ]
   },
