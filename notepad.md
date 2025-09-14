@@ -48,7 +48,7 @@
 - **Active Hypotheses:**
     - **(from Turn 209957):** The scientist in the Cinnabar Lab will provide a 'replica' fossil or the other, unchosen fossil after being shown a fully-evolved version of the fossil he revived.
     - **(from Turn 209957):** The other fossil (the one you didn't pick) has respawned at its original location, but only after a specific flag is triggered, like re-battling the Super Nerd.
-    - **(from puzzle_solver_agent - Turn 210894) Hypothesis 2:** A specific, seemingly mundane rock in Mt. Moon is a disguised ladder that can only be activated by having a Clefairy in the first slot of the party. **Test Plan:** Systematically check all rocks on 1F, then B1F, then B2F if 1F yields no results.
+    - **(from puzzle_solver_agent - Turn 210894) Hypothesis 2:** A specific, seemingly mundane rock in Mt. Moon is a disguised ladder that can only be activated by having a Clefairy in the first slot of the party. **Test Plan:** Systematically check all rocks on 1F, then B1F, then B2F if 1F yields no results. (Status: Systematically checking all rocks along the western wall of 1F. No success yet.)
     - **(from puzzle_solver_agent - Turn 210894) Hypothesis 3:** The Escape Rope item is scripted to function differently within Mt. Moon, acting as a warp to the central B2F area instead of the cave entrance.
 
 # V. Game Mechanics & World State
