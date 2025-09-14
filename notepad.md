@@ -72,5 +72,5 @@
 - **(Turn 211057):** Failed to use `battle_anomaly_detector_agent`. Identified need to improve notepad and create new tools.
 - **(Turn 211109):** Performed self-assessment. Overhauled notepad. Re-committed to immediate maintenance.
 - **(Turn 211776):** Performed self-assessment. Reorganized notepad for clarity. Confirmed adherence to core principles, especially immediate maintenance and hypothesis-driven exploration.
-    - `cuttable`: Tree that can be cut with HM Cut. Becomes `ground` after cutting, but respawns on map change or after battle.
+
 - **Update on Hypothesis 3:** The target water pool on B2F is in a separate map partition and unreachable from the central B2F area accessed via the ladder at B1F (18,12). A new route must be found.
