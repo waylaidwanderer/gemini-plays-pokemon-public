@@ -873,7 +873,7 @@
     ]
   },
   "use_field_move": {
-    "description": "Automates using a field move in stages. Stage 1: Opens menu and selects POKéMON. Stage 2: Selects the specified Pokémon. Stage 3: Selects and uses the specified move.",
+    "description": "Automates using a field move in stages. Stage 1: Opens menu and selects POKéMON. Stage 2: Selects the specified Pokémon by parsing the party screen. Stage 3: Selects and uses the specified move by parsing the move screen.",
     "input_schema": {
       "type": "object",
       "properties": {
@@ -891,10 +891,7 @@
         "move_name": {
           "type": "string"
         },
-        "party_list": {
-          "type": "string"
-        },
-        "move_list": {
+        "screen_text": {
           "type": "string"
         }
       },
@@ -902,7 +899,7 @@
         "stage"
       ]
     },
-    "python_script": "import json\nimport sys\n\ndef main():\n    try:\n        stage = input_data['stage']\n        \n        if stage == 'open_menu':\n            # New stateless navigation: Go to bottom of menu, then up to POKéMON.\n            # Down x6 ensures cursor is at EXIT. Up x5 moves to POKéMON.\n            button_sequence = ['Start'] + ['Down'] * 6 + ['Up'] * 5 + ['A']\n            print(json.dumps(button_sequence))\n            return\n\n        elif stage == 'select_pokemon':\n            pokemon_name = input_data['pokemon_name']\n            party_list_str = input_data['party_list']\n            party_list = json.loads(party_list_str)\n            \n            target_index = -1\n            for i, pokemon in enumerate(party_list):\n                # Matching against 'species' as 'nickname' isn't in the provided party data structure\n                if pokemon.get('species', '').strip().upper() == pokemon_name.strip().upper():\n                    target_index = i\n                    break\n            \n            if target_index == -1:\n                print(json.dumps({\"error\": f\"Pokemon '{pokemon_name}' not found in party.\"}), file=sys.stderr)\n                return\n\n            # Assumes cursor starts at the top of the list\n            button_sequence = ['Down'] * target_index + ['A']\n            print(json.dumps(button_sequence))\n            return\n\n        elif stage == 'select_move':\n            move_name = input_data['move_name']\n            move_list_str = input_data['move_list']\n            move_list = json.loads(move_list_str)\n\n            target_index = -1\n            for i, move in enumerate(move_list):\n                if move.strip().upper() == move_name.strip().upper():\n                    target_index = i\n                    break\n            \n            if target_index == -1:\n                print(json.dumps({\"error\": f\"Move '{move_name}' not found.\"}), file=sys.stderr)\n                return\n\n            # Assumes cursor starts at the top of the move sub-menu\n            button_sequence = ['Down'] * target_index + ['A']\n            print(json.dumps(button_sequence))\n            return\n            \n    except Exception as e:\n        print(json.dumps({\"error\": str(e)}), file=sys.stderr)\n\nmain()",
+    "python_script": "import json\n\ndef main():\n    stage = input_data.get('stage')\n    buttons = []\n\n    if stage == 'open_menu':\n        buttons.extend(['Start'] + ['Down'] * 6 + ['Up'] * 5 + ['A'])\n\n    elif stage == 'select_pokemon':\n        pokemon_name = input_data.get('pokemon_name', '').upper()\n        screen_text = input_data.get('screen_text', '')\n        party = []\n        for line in screen_text.split('\\n'):\n            parts = line.split()\n            if parts and parts[0].isupper() and parts[0] != 'LV' and not parts[0].startswith('→'):\n                party.append(parts[0])\n        \n        if pokemon_name in party:\n            pkmn_index = party.index(pokemon_name)\n            buttons.extend(['Down'] * pkmn_index)\n            buttons.append('A')\n        else:\n            print(json.dumps({'error': f\"Pokemon '{pokemon_name}' not found in parsed party: {party}\"}))\n            return\n\n    elif stage == 'select_move':\n        move_name = input_data.get('move_name', '').upper()\n        screen_text = input_data.get('screen_text', '')\n        moves = []\n        for line in screen_text.split('\\n'):\n            if '→' in line:\n                move = line.split('→')[-1].strip().split()[0]\n                moves.append(move)\n\n        if move_name in moves:\n            move_index = moves.index(move_name)\n            buttons.extend(['Down'] * move_index)\n            buttons.append('A')\n        else:\n            print(json.dumps({'error': f\"Move '{move_name}' not found in parsed moves: {moves}\"}))\n            return\n\n    print(json.dumps(buttons))\n\nmain()",
     "history": [
       {
         "commit_message": "feat: Create generic use_field_move tool. This tool automates using any field move from the party menu, replacing the more specific `initiate_fly` tool. This addresses a manual task identified during self-assessment and improves automation capabilities.",
@@ -1068,6 +1065,11 @@
         "commit_message": "refactor: Overhaul 'open_menu' stage with robust stateless navigation. The previous 'Up' spam logic was fundamentally flawed due to menu wrap-around. The new logic forces the cursor to the bottom of the menu ('Down' x6) and then moves up a fixed amount ('Up' x5) to reliably select 'POKéMON' regardless of the cursor's starting state. This directly addresses the critical tool failure identified by Overwatch.",
         "timestamp": "2025-09-14T19:28:54.332Z",
         "action_counter": 213851
+      },
+      {
+        "commit_message": "refactor: Overhaul select_pokemon and select_move stages to parse screen_text. This is a critical fix to address a major tool failure identified by Overwatch. The tool no longer relies on unreliable, hardcoded JSON input for party/move lists and instead parses them directly from the game state, making it far more robust.",
+        "timestamp": "2025-09-14T19:58:05.736Z",
+        "action_counter": 213902
       }
     ]
   },

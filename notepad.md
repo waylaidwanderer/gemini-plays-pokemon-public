@@ -1,14 +1,9 @@
-# I. Meta-Strategy & Automation
-1.  **Immediate Maintenance:** All data management (notepad, markers) and tool/agent refinement is the HIGHEST priority and MUST be performed in the same turn a need is identified, regardless of game state. Deferring these tasks is a critical failure.
-2.  **Proactive Automation & Refinement:** Before any complex or repetitive task, I must first consider automating it with a tool or agent. If one doesn't exist, creating it is the new priority. If an agent or tool is suboptimal, I must prioritize refining it immediately.
-3.  **Trust, But Verify:** I must trust the outputs of my agents and system data. However, if a tool's output contradicts the Game State Information, my assumption must be that the tool is wrong, and I must debug it.
-4.  **Hypothesis-Driven Exploration:** All exploration must be guided by a clear, documented hypothesis. I must avoid wandering aimlessly and systematically test one variable at a time, documenting all results.
-5.  **Warp Discipline:** After every warp, my first action must be to check and, if necessary, create/update markers on **both** the departure and arrival maps.
-6.  **Mandatory Self-Assessment:** Every 50 turns, I must perform a structured self-review to ensure my strategies, documentation, and tool usage remain optimal and aligned with my core principles.
-7.  **Efficiency Over Fixation:** If a simple automation tool fails during a low-stakes, repetitive task (like a wild battle), it is more efficient to complete the task manually and fix the tool later, rather than getting stuck debugging mid-task.
-8.  **Confirmation Bias Awareness (Self-Assessment Finding):** I must be vigilant against confirmation bias. If a hypothesis fails multiple documented tests, I must actively pivot to a new, different hypothesis rather than repeating the failed approach. I should also formulate tests designed to *disprove* my own theories, not just confirm them. To combat this, I should use the `puzzle_solver_agent` more readily when I feel stuck on a single line of reasoning.
-9.  **Strategic Agent Use:** I will make a conscious effort to use the `master_navigator_agent` for high-level exploration planning in new, complex areas (like the partitioned Celadon Dept. Store) to avoid trial-and-error pathing, especially its `detect_stuck` mode when navigation fails repeatedly.
-10. **Complex Navigation:** For multi-floor or multi-map navigation puzzles (like the Celadon Dept. Store), I will use the `master_navigator_agent` in `navigate_warps` mode to generate a high-level plan instead of relying on manual floor-by-floor pathing.
+# I. Core Principles & Meta-Strategy
+1.  **Immediate Maintenance:** All data management (notepad, markers) and tool/agent refinement is the HIGHEST priority and MUST be performed in the same turn a need is identified.
+2.  **Proactive Automation:** Before any complex or repetitive task, consider automating it. If a tool is suboptimal, refine it immediately.
+3.  **Trust, But Verify:** Trust agent/system outputs. If a tool contradicts game state, the tool is wrong and must be debugged.
+4.  **Hypothesis-Driven Exploration:** All exploration must be guided by a clear, documented hypothesis. Systematically test one variable at a time.
+5.  **Confirmation Bias Awareness:** If a hypothesis repeatedly fails, pivot to a new one. Use the `puzzle_solver_agent` to generate new lines of reasoning when stuck.
 
 # II. Quest Log
 - **Current Quest: The Mt. Moon Fossil**
