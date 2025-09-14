@@ -78,3 +78,6 @@
     - `ladder_up`/`ladder_down`: Warps between floors.
 - **(Note on Hypothesis 2):** If all rocks on 1F are exhausted with no result, the next step is to systematically check all rocks on B1F, and then B2F.
 - **Defeated Trainers as Obstacles:** Once a trainer is defeated, their sprite becomes an impassable object. You cannot walk through them. This is a critical mechanic for pathfinding in areas with many trainers.
+
+# IX. Suspected Mechanics & Anomalies
+- **Party Menu 'SWITCH' Lock:** The game appears to intentionally prevent the use of the 'SWITCH' command in the party menu under certain, currently unknown, conditions. This was observed after multiple failed escape attempts in Mt. Moon. This behaves similarly to the Battle Menu Anomaly. **Action:** If this recurs, use the `battle_anomaly_detector_agent` to analyze it.
