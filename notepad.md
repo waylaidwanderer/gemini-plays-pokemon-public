@@ -94,3 +94,7 @@
 
 # IX. Automation Ideas
 - **Menu Navigation Mapper Agent:** An agent that takes a series of manual inputs and observed cursor movements to deduce the layout and control scheme of an unknown menu, then generates a navigation map for the `general_menu_navigator` tool.
+
+# X. Future Tasks & Reminders
+- **Map Marker Cleanup:** Consolidate redundant rock markers on Mt. Moon 1F into a single summary marker upon next visit.
+- **Encounter Rate Analyst Agent:** Consider creating an agent to analyze encounter rates in different areas to find optimal paths for travel vs. grinding.
