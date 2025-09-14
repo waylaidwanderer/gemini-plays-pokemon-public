@@ -90,3 +90,6 @@
 # VIII. Defined Automations
 - **General Menu Navigator Tool:** A tool that takes the output of `menu_analyzer` and a target option, then generates the required button presses to navigate to and select it.
 - **Puzzle Item Agent:** An agent that takes an NPC's request for an item and the player's inventory, then suggests a logical order for trying items.
+
+# IX. Automation Ideas
+- **Shop Item Finder Tool:** A tool that takes the output of `menu_analyzer` and a target item, then generates the required button presses to navigate to and select it. This would automate scrolling through long shop lists.
