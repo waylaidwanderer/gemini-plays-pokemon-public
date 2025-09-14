@@ -884,7 +884,7 @@
         "move_list"
       ]
     },
-    "python_script": "import json\n\nparty = json.loads(input_data['party_list'])\nmoves = json.loads(input_data['move_list'])\npokemon_name = input_data['pokemon_name']\nmove_name = input_data['move_name']\n\nbutton_presses = []\n\n# Open the main menu and navigate to the POKéMON screen.\n# This sequence is designed to be stateless. Pressing 'Up' six times guarantees\n# the cursor is at the top of the menu, regardless of its previous position.\n# Then, one 'Down' press reliably selects 'POKéMON'.\nbutton_presses.extend([\"Start\"])\nbutton_presses.extend([\"Up\"] * 6)\nbutton_presses.extend([\"Down\"])\nbutton_presses.extend([\"A\"])\n\n# Select the correct Pokémon from the party list.\ntry:\n    pokemon_index = -1\n    for i, p in enumerate(party):\n        if p['species'].upper() == pokemon_name.upper() or p.get('name', '').upper() == pokemon_name.upper():\n            pokemon_index = i\n            break\n\n    if pokemon_index == -1:\n        print(json.dumps([]))\n        return\n\n    button_presses.extend([\"Down\"] * pokemon_index)\n    button_presses.extend([\"A\"])\n\n    # The HM/field move is always the first option in the sub-menu.\n    # Therefore, we just need to press 'A' to select it.\n    button_presses.extend([\"A\"])\n\nexcept (ValueError, IndexError) as e:\n    print(json.dumps([]))\n    return\n\nprint(json.dumps(button_presses))",
+    "python_script": "import json\n\ndef main():\n    try:\n        pokemon_name = input_data['pokemon_name']\n        move_name = input_data['move_name']\n        party_list = json.loads(input_data['party_list'])\n        move_list = json.loads(input_data['move_list'])\n\n        try:\n            pokemon_index = party_list.index(pokemon_name)\n        except ValueError:\n            print(json.dumps({\"error\": f\"Pokemon '{pokemon_name}' not found in party.\"}))\n            return\n\n        try:\n            move_index = move_list.index(move_name)\n        except ValueError:\n            print(json.dumps({\"error\": f\"Move '{move_name}' not found in moveset.\"}))\n            return\n\n        button_presses = []\n\n        button_presses.append('Start')\n        button_presses.extend(['Up'] * 6)\n        button_presses.append('Down')\n        button_presses.append('A')\n\n        button_presses.extend(['Down'] * pokemon_index)\n        button_presses.append('A')\n\n        button_presses.extend(['Down'] * move_index)\n        button_presses.append('A')\n\n        print(json.dumps(button_presses))\n    except Exception as e:\n        print(json.dumps({\"error\": str(e)}))\n\nmain()",
     "history": [
       {
         "commit_message": "feat: Create generic use_field_move tool. This tool automates using any field move from the party menu, replacing the more specific `initiate_fly` tool. This addresses a manual task identified during self-assessment and improves automation capabilities.",
@@ -1025,6 +1025,16 @@
         "commit_message": "refactor: Re-apply stateless menu navigation logic. The tool has continued to fail despite a previous fix. This commit re-applies the robust, stateless navigation sequence ('Up' x6, then 'Down') to ensure the cursor reliably lands on 'POKéMON'. This action is a direct response to a persistent Overwatch critique mandating immediate tool maintenance and aims to definitively resolve the stateful cursor issue.",
         "timestamp": "2025-09-14T13:14:16.550Z",
         "action_counter": 213033
+      },
+      {
+        "commit_message": "fix: Correct SyntaxError by wrapping script in a function. The previous script had 'return' statements in the global scope, causing a crash. This commit wraps the entire logic in a main() function to resolve the syntax error and re-implements the stateless menu navigation logic from the previous successful commit. This is a critical fix to unblock field move automation.",
+        "timestamp": "2025-09-14T17:40:40.495Z",
+        "action_counter": 213598
+      },
+      {
+        "commit_message": "fix: Add dynamic move selection. The tool previously failed to use the `move_list` input, incorrectly assuming the target move was always the first option. This commit implements the logic to programmatically find the move's index and generate the correct number of 'Down' presses. This is a critical fix to make the tool robust and directly addresses the Overwatch critique.",
+        "timestamp": "2025-09-14T17:42:12.600Z",
+        "action_counter": 213601
       }
     ]
   },
