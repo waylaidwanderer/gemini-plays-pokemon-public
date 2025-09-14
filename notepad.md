@@ -7,7 +7,7 @@
 6.  **Mandatory Self-Assessment:** Every 50 turns, I must perform a structured self-review to ensure my strategies, documentation, and tool usage remain optimal and aligned with my core principles.
 7.  **Efficiency Over Fixation:** If a simple automation tool fails during a low-stakes, repetitive task (like a wild battle), it is more efficient to complete the task manually and fix the tool later, rather than getting stuck debugging mid-task.
 8.  **Confirmation Bias Awareness (Self-Assessment Finding):** I must be vigilant against confirmation bias. If a hypothesis fails multiple documented tests, I must actively pivot to a new, different hypothesis rather than repeating the failed approach. I should also formulate tests designed to *disprove* my own theories, not just confirm them. To combat this, I should use the `puzzle_solver_agent` more readily when I feel stuck on a single line of reasoning.
-9.  **Strategic Agent Use:** I will make a conscious effort to use the `master_navigator_agent` for high-level exploration planning in new, complex areas (like the partitioned Celadon Dept. Store) to avoid trial-and-error pathing.
+9.  **Strategic Agent Use:** I will make a conscious effort to use the `master_navigator_agent` for high-level exploration planning in new, complex areas (like the partitioned Celadon Dept. Store) to avoid trial-and-error pathing, especially its `detect_stuck` mode when navigation fails repeatedly.
 10. **Complex Navigation:** For multi-floor or multi-map navigation puzzles (like the Celadon Dept. Store), I will use the `master_navigator_agent` in `navigate_warps` mode to generate a high-level plan instead of relying on manual floor-by-floor pathing.
 
 # II. Quest Log
@@ -17,6 +17,9 @@
 - **New Quest: The Copycat's Gift**
     - **Objective:** Obtain a POKé DOLL and give it to COPYCAT in Cerulean City.
     - **Source:** Super Nerd on Celadon Mart 4F at (13,6). Dialogue: "I'm getting a gift for COPYCAT in CERULEAN CITY. It's got to be a POKé DOLL. They are trendy!"
+    - **Hypotheses:**
+        - COPYCAT is an NPC inside one of Cerulean City's buildings.
+        - COPYCAT is an overworld NPC in Cerulean City.
 
 # III. Battle Intel
 - **Type Effectiveness Chart (Verified):**
@@ -64,6 +67,7 @@
 - **Party Menu 'SWITCH' Lock:** The game appears to intentionally prevent the use of the 'SWITCH' command in the party menu under certain, currently unknown, conditions. This was observed after multiple failed escape attempts in Mt. Moon.
 - **Pokemon Tower 6F Healer Change:** The friendly Channeler at (13,11) is no longer a healer. Her dialogue has changed to 'I feel anemic and weak...'.
 - **POKé DOLL Escape:** A POKé DOLL can be used to guarantee an escape from a wild Pokémon battle.
+- **Shop Menu Navigation Anomaly:** The shop menu in the Cerulean Mart does not follow a standard 2x2 grid layout. Navigation appears to be column-based. Further testing is required to map it out for automation.
 
 # VI. Tile Mechanics
 - **ground / grass:** Standard walkable tiles.
@@ -75,7 +79,7 @@
 - **water:** Requires HM Surf to cross.
 - **Warp Tiles (ladders, doors, etc.):** Tiles that transport the player to another map or location.
 - **Impassable Decorative Grass:** The small grass patches inside the Celadon Department Store are purely decorative and act as impassable walls.
-- **trashcan:** Found in Cerulean Badge House at (8,8). Properties unknown, likely impassable. (Hypothesis: Test interaction.)
+- **trashcan:** Found in Cerulean Badge House at (8,8). Properties unknown, likely impassable. (Hypothesis: Test interaction upon next visit.)
 
 # VII. Self-Assessment Log
 - **(Turn 210956):** Failed mandatory self-assessment. Misread map data. Acknowledged input drops and need to retry failed navigation.
@@ -92,6 +96,7 @@
 - **(Turn 213164):** Performed self-assessment. Refactored notepad to remove redundant quest entries. Confirmed adherence to core principles.
 - **(Turn 213420):** Performed self-assessment. Updated tool/agent documentation in notepad. Confirmed adherence to core principles and flexibility in goal-setting.
 - **(Turn 213573):** Performed self-assessment. Refactored notepad to integrate strategic principles. Identified a missed opportunity to use `master_navigator_agent` for complex navigation. Deleted one redundant map marker.
+- **(Turn 213727):** Performed self-assessment. Identified failure to immediately fix tools (`general_menu_navigator`). Acknowledged underutilization of `master_navigator_agent` and confirmation bias regarding menu layouts. Updated notepad with new hypotheses and automation ideas.
 
 # VIII. Defined Agents & Tools
 - **Agents:**
@@ -105,3 +110,6 @@
     - `select_move_in_battle`: Automates selecting a specific move in battle.
     - `use_field_move`: Automates using a field move from the party menu.
     - `general_menu_navigator`: Takes the output of menu_analyzer and a target option, then generates the required button presses to navigate to and select it.
+
+# IX. Automation Ideas
+- **Menu Navigation Mapper Agent:** An agent that takes a series of manual inputs and observed cursor movements to deduce the layout and control scheme of an unknown menu, then generates a navigation map for the `general_menu_navigator` tool.
