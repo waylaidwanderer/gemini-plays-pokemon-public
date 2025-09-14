@@ -49,7 +49,6 @@
     - An un-revived fossil Pokémon can be acquired by fishing in one of the small, seemingly decorative water pools inside Mt. Moon. (Status: All known water pools in Mt. Moon appear to be in unreachable map partitions).
     - The Rocket Grunt will accept a Pokémon that is thematically a 'fossil' but is not from a revived fossil item. The player's Marowak, due to its skull, might qualify, but only after undergoing a secret event. (Sub-hypothesis: Use Moon Stone on it. Result: Failed. The game displays 'NOT ABLE').
     - Interacting with the spot in the Pokémon Tower where Marowak's mother's ghost was will trigger an event if Marowak is in the party. (Result: Failed after numerous attempts. This approach has led to a persistent loop between 6F and 7F with no results. Abandoning this method.)
-- Interacting with the spot in the Pokémon Tower where Marowak's mother's ghost was will trigger an event if Marowak is in the party. (Result: Failed after numerous attempts. This approach has led to a persistent loop between 6F and 7F with no results. Abandoning this method.)
     - The Channeler on 6F at (13,11) who says "I feel anemic and weak..." will have new dialogue if approached with the Marowak ('REVENANT') in the party. (Result: Failed. Dialogue unchanged. This suggests the Pokémon Tower is a red herring for the fossil quest.)
 - **Active Hypotheses:**
     - None. Need to generate new leads.
@@ -58,10 +57,6 @@
 - **Battle Menu Anomaly:** The game appears to intentionally restrict move selection in certain wild battles to the first move slot. Strategy: For low-stakes wild battles, running is the most efficient option.
 - **Party Menu 'SWITCH' Lock:** The game appears to intentionally prevent the use of the 'SWITCH' command in the party menu under certain, currently unknown, conditions. This was observed after multiple failed escape attempts in Mt. Moon.
 - **Pokemon Tower 6F Healer Change:** The friendly Channeler at (13,11) is no longer a healer. Her dialogue has changed to "I feel anemic and weak...".
-- **Tile Mechanics:**
-    - `ground`: Standard walkable tile.
-    - `impassable`: Walls and obstacles that cannot be entered.
-    - `warp`: A tile that transports the player to another location, either instantly or by moving into a boundary.
 
 # VI. Self-Assessment Log
 - **(Turn 210956):** Failed mandatory self-assessment. Misread map data. Acknowledged input drops and need to retry failed navigation.
