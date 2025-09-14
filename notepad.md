@@ -1,4 +1,4 @@
-# I. Meta-Strategy & Core Principles
+# I. Meta-Strategy & Automation
 1.  **Immediate Maintenance:** All data management (notepad, markers) and tool/agent refinement is the HIGHEST priority and MUST be performed in the same turn a need is identified, regardless of game state. Deferring these tasks is a critical failure.
 2.  **Proactive Automation & Refinement:** Before any complex or repetitive task, I must first consider automating it with a tool or agent. If one doesn't exist, creating it is the new priority. If an agent or tool is suboptimal, I must prioritize refining it immediately.
 3.  **Trust, But Verify:** I must trust the outputs of my agents and system data. However, if a tool's output contradicts the Game State Information, my assumption must be that the tool is wrong, and I must debug it.
@@ -7,12 +7,14 @@
 6.  **Mandatory Self-Assessment:** Every 50 turns, I must perform a structured self-review to ensure my strategies, documentation, and tool usage remain optimal and aligned with my core principles.
 7.  **Efficiency Over Fixation:** If a simple automation tool fails during a low-stakes, repetitive task (like a wild battle), it is more efficient to complete the task manually and fix the tool later, rather than getting stuck debugging mid-task.
 8.  **Confirmation Bias Awareness (Self-Assessment Finding):** I must be vigilant against confirmation bias. If a hypothesis fails multiple documented tests, I must actively pivot to a new, different hypothesis rather than repeating the failed approach. I should also formulate tests designed to *disprove* my own theories, not just confirm them. To combat this, I should use the `puzzle_solver_agent` more readily when I feel stuck on a single line of reasoning.
+9. **Automation Tools:**
+    - **Battle:** Use `comprehensive_battle_agent` for high-stakes battles. Use `select_move_in_battle` for standard move selection. Use `battle_anomaly_detector_agent` to investigate recurring battle issues.
+    - **Navigation:** Use `automated_path_navigator` for single-map pathfinding. Use `master_navigator_agent` for complex, multi-map navigation.
 
 # II. Quest Log
 - **Current Quest: The Mt. Moon Fossil**
     - **Objective:** Find a fossil to give to the Rocket Grunt blocking the path at Mt. Moon B2F (30,12).
-    - **Status:** Pivoting to a new hypothesis after the 'hidden wall passage' test failed.
-    - **Next Step:** Exit Mt. Moon, retrieve LUNA (Clefairy) from the PC, and return to test the 'Clefairy rock ladder' hypothesis.
+    - **Status:** Systematically testing the 'Clefairy rock ladder' hypothesis on Mt. Moon 1F.
 
 # III. Battle Intel
 - **Type Effectiveness Chart (Verified):**
@@ -44,7 +46,6 @@
     - The Hiker on Mt. Moon 1F at (6,7) will trade you for your revived fossil Pokémon.
     - One of the ladders that leads to a dead end must be entered and exited a specific number of times (e.g., three times) to change its destination. (Result: Tested on ladder at (26,16). No change in destination after 3 cycles).
     - **(FALSIFIED):** There is a hidden, one-way passage concealed in the western wall on 1F. (Result: The western wall from (2,3) to (2,18) has been systematically checked and yielded no results.)
-
 - **Active Hypotheses:**
     - **(from Turn 209957):** The scientist in the Cinnabar Lab will provide a 'replica' fossil or the other, unchosen fossil after being shown a fully-evolved version of the fossil he revived.
     - **(from Turn 209957):** The other fossil (the one you didn't pick) has respawned at its original location, but only after a specific flag is triggered, like re-battling the Super Nerd.
@@ -52,33 +53,22 @@
     - **(from puzzle_solver_agent - Turn 210894) Hypothesis 3:** The Escape Rope item is scripted to function differently within Mt. Moon, acting as a warp to the central B2F area instead of the cave entrance.
     - **(Contingency):** If all Mt. Moon-based hypotheses are exhausted, the trigger/solution may be located on another map entirely.
 
-# V. Game Mechanics & World State
-
-- **Battle Menu Anomaly (Confirmed Mechanic):** The `battle_anomaly_detector_agent` has concluded that the consistent failure to navigate the move selection menu is a **suspected game mechanic**, not a random bug. The game appears to be intentionally restricting move selection in certain battles (likely wild encounters) to the first move slot. **Strategy:** For low-stakes wild battles, running is the most efficient option.
-- **Pokemon Tower 6F Healer Change:** The friendly Channeler at (13,11) is no longer a healer. Her dialogue has changed to "I feel anemic and weak...". This is a significant world state change.
-
-# VI. Automation Strategy
-- **Battle:** Use `comprehensive_battle_agent` for high-stakes battles. Use `select_move_in_battle` for standard move selection. Use `battle_anomaly_detector_agent` to investigate recurring battle issues.
-- **Navigation:** Use `automated_path_navigator` for single-map pathfinding. Use `master_navigator_agent` for complex, multi-map navigation.
-
-# VII. Self-Assessment Log
-- **(Turn 210956):** Failed to perform mandatory self-assessment on time. Made a manual pathing error by misreading map data, reinforcing the need to rely on automated tools. Acknowledged recurring system-level input drops in battle menus and the necessity of retrying failed navigation attempts.
-- **(Turn 211006):** Failed to immediately fix `select_move_in_battle` tool after its first failure, leading to getting stuck in battle loops. This was a critical lapse in adhering to the immediate maintenance directive.
-- **(Turn 211057):** Failed to use `battle_anomaly_detector_agent` to investigate recurring menu bugs. Must use it at the next opportunity. Identified need to improve notepad and create new tools for efficiency.
-- **(Turn 211109):** Performed mandatory self-assessment. Identified minor lapses in immediate maintenance. Overhauled notepad to improve structure and add a comprehensive tile mechanics section. Re-committed to immediate action on all maintenance and documentation tasks.
-
-# VIII. World Mechanics & Tile Glossary
-- **Battle Menu Anomaly:** The game appears to intentionally restrict move selection in certain wild battles to the first move slot.
-- **Pokemon Tower 6F Healer:** The Channeler at (13,11) is no longer a healer.
+# V. Game & World Mechanics
+- **Battle Menu Anomaly:** The game appears to intentionally restrict move selection in certain wild battles to the first move slot. Strategy: For low-stakes wild battles, running is the most efficient option.
+- **Party Menu 'SWITCH' Lock:** The game appears to intentionally prevent the use of the 'SWITCH' command in the party menu under certain, currently unknown, conditions. This was observed after multiple failed escape attempts in Mt. Moon.
+- **Pokemon Tower 6F Healer Change:** The friendly Channeler at (13,11) is no longer a healer. Her dialogue has changed to "I feel anemic and weak...".
+- **Defeated Trainers as Obstacles:** Once a trainer is defeated, their sprite becomes an impassable object. You cannot walk through them.
 - **Tile Types (Verified):**
     - `ground`: Standard walkable tile.
     - `impassable`: Walls, rocks, objects. Cannot be entered.
     - `elevated_ground`: Walkable, but only accessible from `steps` tiles.
     - `steps`: Allows movement between `ground` and `elevated_ground`.
     - `ladder_up`/`ladder_down`: Warps between floors.
-- **(Note on Hypothesis 2):** If all rocks on 1F are exhausted with no result, the next step is to systematically check all rocks on B1F, and then B2F.
-- **Defeated Trainers as Obstacles:** Once a trainer is defeated, their sprite becomes an impassable object. You cannot walk through them. This is a critical mechanic for pathfinding in areas with many trainers.
-
-# IX. Suspected Mechanics & Anomalies
-- **Party Menu 'SWITCH' Lock:** The game appears to intentionally prevent the use of the 'SWITCH' command in the party menu under certain, currently unknown, conditions. This was observed after multiple failed escape attempts in Mt. Moon. This behaves similarly to the Battle Menu Anomaly. **Action:** If this recurs, use the `battle_anomaly_detector_agent` to analyze it.
     - `warp`: General term for doors, ladders, stairs, etc. Most 1x1 warps are instant. Larger 2x1 or 1x2 warps (like exit mats) require a two-step process: move onto the warp tile, then press the directional button into the impassable boundary.
+
+# VI. Self-Assessment Log
+- **(Turn 210956):** Failed mandatory self-assessment. Misread map data. Acknowledged input drops and need to retry failed navigation.
+- **(Turn 211006):** Failed to immediately fix `select_move_in_battle` tool, violating immediate maintenance directive.
+- **(Turn 211057):** Failed to use `battle_anomaly_detector_agent`. Identified need to improve notepad and create new tools.
+- **(Turn 211109):** Performed self-assessment. Overhauled notepad. Re-committed to immediate maintenance.
+- **(Turn 211776):** Performed self-assessment. Reorganized notepad for clarity. Confirmed adherence to core principles, especially immediate maintenance and hypothesis-driven exploration.
