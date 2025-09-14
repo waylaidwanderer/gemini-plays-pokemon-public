@@ -27,7 +27,14 @@
     - **Cerulean Cave:** WIGGLYTUFF (Lv 62), SANDSLASH (Lv 63), GOLEM (Lv 64), LICKITUNG (Lv 61), CHANSEY (Lv 63), RAICHU (Lv 64).
 
 # IV. Fossil Quest - Hypotheses Log
+- **Active Hypotheses (Ranked by Agent):**
+    1.  **POKé DOLL as Fossil:** The Rocket Grunt on B2F will accept the POKé DOLL as the 'fossil'.
+    2.  **POKé DOLL and the Hiker:** Getting rid of the POKé DOLL (by giving it to the Grunt) will make the Hiker on 1F move because the player is no longer a 'kid' with a toy.
+    3.  **Fainted Fossil:** The Grunt wants a revived fossil Pokémon that has fainted.
+    4.  **No Starter in Party:** The Hiker will move if the player's starter Pokémon is in the PC.
+    5.  **Silph Scope Ghost:** The Silph Scope will reveal a ghost in Mt. Moon that needs to be captured and shown to the Grunt.
 - **Failed Hypotheses:**
+    - The Hiker will only move for an 'adult', a status temporarily gained by interacting with the 'Old Man' in Viridian City. (Result: Failed. Hiker's dialogue was unchanged.)
     - The fossil is in an interactable rock.
     - The Hiker on 1F at (6,7) will move if shown the revived HELIX fossil Pokémon.
     - The scientist in the Cinnabar Lab Fossil Room can 'un-revive' a fossil Pokémon.
@@ -39,20 +46,14 @@
     - The move 'Dig' must be used on a specific, unmarked tile within Mt. Moon to unearth the other fossil.
     - The Rocket Grunt will accept a Pokémon nicknamed 'fossil'.
     - The Hiker on Mt. Moon 1F at (6,7) will trade you for your revived fossil Pokémon.
-    - One of the ladders that leads to a dead end must be entered and exited a specific number of times (e.g., three times) to change its destination. (Result: Tested on ladder at (26,16). No change in destination after 3 cycles).
-    - There is a hidden, one-way passage concealed in the western wall on 1F. (Result: The western wall from (2,3) to (2,18) has been systematically checked and yielded no results.)
-    - The Escape Rope item is scripted to function differently within Mt. Moon, acting as a warp to the central B2F area instead of the cave entrance. (Result: Using an Escape Rope on Mt. Moon 1F functioned normally, warping me to the last used Pokémon Center on Route 4.)
-    - A specific, seemingly mundane rock in Mt. Moon is a disguised ladder that can only be activated by having a Clefairy in the first slot of the party. (Result: Systematically checked all rocks on 1F and a portion of B1F. No results.)
-    - The Hiker's line 'I'm on a break' is a literal statement of need. He is thirsty, and giving him a specific drink item will make him move. (Result: Failed. Interacting with him only produces the dialogue 'Kids like you shouldn't be here!'. No option to give him an item was presented).
-    - An un-revived fossil Pokémon can be acquired by fishing in one of the small, seemingly decorative water pools inside Mt. Moon. (Status: All known water pools in Mt. Moon appear to be in unreachable map partitions).
-    - The Rocket Grunt will accept a Pokémon that is thematically a 'fossil' but is not from a revived fossil item. The player's Marowak, due to its skull, might qualify, but only after undergoing a secret event. (Sub-hypothesis: Use Moon Stone on it. Result: Failed. The game displays 'NOT ABLE').
-    - The Pokémon Tower is a red herring for the fossil quest. (Failed: Interacting with ghost spot and 'anemic' Channeler with Marowak in party yielded no results).
-- **Active Hypotheses:**
-    - **Active Hypothesis (from Agent):** The Hiker on 1F will only move for an 'adult', a status temporarily gained by interacting with the 'Old Man' in Viridian City.
-- **Agent Hypothesis 2:** The Hiker on 1F is a disguised Team Rocket Grunt, and using the Silph Scope will reveal his true identity.
-- **Agent Hypothesis 3:** A new, un-revived fossil can be created by having a specific Pokémon use Self-Destruct or Explosion inside Mt. Moon.
-- **Agent Hypothesis 4:** The Rocket Grunt on B2F will accept the POKé DOLL as a 'fossil'.
-- **Agent Hypothesis 5:** Losing a battle (blacking out) on the tile directly in front of the Hiker on 1F will trigger a new event.
+    - A ladder's destination can be changed by entering and exiting it multiple times.
+    - There is a hidden, one-way passage concealed in the western wall on 1F.
+    - The Escape Rope item functions differently within Mt. Moon.
+    - A rock is a disguised ladder that requires a Clefairy in the party.
+    - The Hiker is thirsty and needs a drink item.
+    - An un-revived fossil can be acquired by fishing inside Mt. Moon.
+    - The Rocket Grunt will accept a thematically 'fossil' Pokémon like Marowak.
+    - The Pokémon Tower is a red herring for the fossil quest.
 
 # V. Game & World Mechanics
 - **Battle Menu Anomaly:** The game appears to intentionally restrict move selection in certain wild battles to the first move slot. Strategy: For low-stakes wild battles, running is the most efficient option.
