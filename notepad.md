@@ -67,7 +67,7 @@
 - **Pokemon Tower 6F Healer Change:** The friendly Channeler at (13,11) is no longer a healer. Her dialogue has changed to 'I feel anemic and weak...'.
 - **POKé DOLL Escape:** A POKé DOLL can be used to guarantee an escape from a wild Pokémon battle.
 - **Shop Menu Navigation Anomaly:** The shop menu in the Cerulean Mart does not follow a standard grid layout. Manual testing showed 'Down' moves from 'BUY' to 'SELL', but 'Right' does nothing from either position. The menu must be exited with the 'B' button.
-- **Unreliable Automation:** Long, automated button sequences (like from the `use_field_move` tool) are prone to being interrupted by the system. For complex menu navigation, a manual, step-by-step approach is more reliable.
+- **Unreliable Automation:** The `use_field_move` tool's single-sequence design was unreliable. It has been refactored into a multi-stage process for improved stability.
 
 # VI. Tile Mechanics
 - **ground / grass:** Standard walkable tiles.
