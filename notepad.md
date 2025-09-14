@@ -7,12 +7,11 @@
 
 # II. Quest Log
 - **Current Quest: The Mt. Moon Fossil**
-    - **Objective:** Find a fossil to give to the Rocket Grunt blocking the path at Mt. Moon B2F (30,12).
-    - **Status:** Active. Will use `puzzle_solver_agent` for new hypotheses.
+    - **Objective:** Find a fossil to give to the Rocket Grunt blocking the path at Mt. Moon B2F (30,12), or find a way past the Hiker at 1F (6,7).
+    - **Status:** Active. Currently pursuing an agent-generated hypothesis that requires visiting the 'Old Man' in Viridian City.
 - **Stalled Quest: The Copycat's Gift**
     - **Objective:** Obtain a POKé DOLL and give it to COPYCAT.
-    - **Status:** Stalled. All leads in Cerulean City have been exhausted.
-    - **New Hypothesis:** COPYCAT is not currently in Cerulean City, or is in a hidden, currently inaccessible area.
+    - **Status:** Stalled. All leads in Cerulean City have been exhausted. Suspect COPYCAT is not in a currently accessible area.
 
 # III. Battle Intel
 - **Type Effectiveness Chart (Verified):**
