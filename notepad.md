@@ -54,6 +54,7 @@
     - An un-revived fossil can be acquired by fishing inside Mt. Moon.
     - The Rocket Grunt will accept a thematically 'fossil' Pokémon like Marowak.
     - The Pokémon Tower is a red herring for the fossil quest.
+    - Interacting with the second Rocket Grunt on B2F at (30, 18) will open a new path or provide a clue. (Result: Failed. Dialogue was generic and unchanged.)
 
 # V. Game & World Mechanics
 - **Battle Menu Anomaly:** The game appears to intentionally restrict move selection in certain wild battles to the first move slot. Strategy: For low-stakes wild battles, running is the most efficient option.
@@ -63,12 +64,6 @@
 - **Shop Menu Navigation Anomaly:** The shop menu in the Cerulean Mart does not follow a standard grid layout. Manual testing showed 'Down' moves from 'BUY' to 'SELL', but 'Right' does nothing from either position. The menu must be exited with the 'B' button.
 - **Unreliable Automation:** The `use_field_move` tool's single-sequence design was unreliable. It has been refactored into a multi-stage process for improved stability.
 
-# VII. Self-Assessment Log
-- **(Turn 213727):** Performed self-assessment. Identified failure to immediately fix tools (`general_menu_navigator`). Acknowledged underutilization of `master_navigator_agent` and confirmation bias regarding menu layouts. Updated notepad with new hypotheses and automation ideas.
-- **(Turn 213778):** Performed self-assessment. Acknowledged inefficient debugging methods (guessing instead of data-gathering) and failure to use agents when stuck. Re-committed to a more scientific approach to problem-solving. Pivoted goals due to stalled quest.
-
-# VIII. Automation Ideas
-- **Menu Navigation Mapper Agent:** An agent that takes a series of manual inputs and observed cursor movements to deduce the layout and control scheme of an unknown menu, then generates a navigation map for the `general_menu_navigator` tool.
-- **Multi-Map Route Planner Agent:** An agent that can plan the most efficient route between two distant points that may span multiple cities and routes, using Fly and walking/surfing as necessary. This would handle high-level strategic navigation.
-- **Path Segment Executor Tool:** A tool that takes a full path, executes it in smaller chunks, automatically re-runs the pathfinder from the new location after an interruption (like a wild battle), and then continues along the new path. This would streamline navigation through high-encounter areas.
-    - Interacting with the second Rocket Grunt on B2F at (30, 18) will open a new path or provide a clue. (Result: Failed. Dialogue was generic and unchanged.)
+# VI. World & Tile Mechanics
+- **elevated_ground:** Walkable, but cannot be accessed directly from `ground` tiles. Requires `steps` as an intermediary.
+- **steps:** Allows movement between `ground` and `elevated_ground`.
