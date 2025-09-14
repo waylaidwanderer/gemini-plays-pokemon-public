@@ -39,7 +39,6 @@
     - The 'fossil' the Grunt wants must be stolen from the Pewter City Museum of Science.
     - The move 'Dig' must be used on a specific, unmarked tile within Mt. Moon to unearth the other fossil.
     - The Rocket Grunt will accept a Pokémon nicknamed 'fossil'.
-    - The 'fossil' the Rocket Grunt wants is a bone-related item from the Pokémon Tower in Lavender Town.
     - The Hiker on Mt. Moon 1F at (6,7) will trade you for your revived fossil Pokémon.
     - One of the ladders that leads to a dead end must be entered and exited a specific number of times (e.g., three times) to change its destination. (Result: Tested on ladder at (26,16). No change in destination after 3 cycles).
     - There is a hidden, one-way passage concealed in the western wall on 1F. (Result: The western wall from (2,3) to (2,18) has been systematically checked and yielded no results.)
@@ -48,10 +47,9 @@
     - The Hiker's line 'I'm on a break' is a literal statement of need. He is thirsty, and giving him a specific drink item will make him move. (Result: Failed. Interacting with him only produces the dialogue "Kids like you shouldn't be here!". No option to give him an item was presented).
     - An un-revived fossil Pokémon can be acquired by fishing in one of the small, seemingly decorative water pools inside Mt. Moon. (Status: All known water pools in Mt. Moon appear to be in unreachable map partitions).
     - The Rocket Grunt will accept a Pokémon that is thematically a 'fossil' but is not from a revived fossil item. The player's Marowak, due to its skull, might qualify, but only after undergoing a secret event. (Sub-hypothesis: Use Moon Stone on it. Result: Failed. The game displays 'NOT ABLE').
-    - Interacting with the spot in the Pokémon Tower where Marowak's mother's ghost was will trigger an event if Marowak is in the party. (Result: Failed after numerous attempts. This approach has led to a persistent loop between 6F and 7F with no results. Abandoning this method.)
-    - The Channeler on 6F at (13,11) who says "I feel anemic and weak..." will have new dialogue if approached with the Marowak ('REVENANT') in the party. (Result: Failed. Dialogue unchanged. This suggests the Pokémon Tower is a red herring for the fossil quest.)
+    - The Pokémon Tower is a red herring for the fossil quest. Both interacting with the Marowak ghost spot and speaking to the 'anemic' Channeler with a Marowak in the party yielded no results.
 - **Active Hypotheses:**
-    - None. Need to generate new leads.
+    - The 'fossil' the Rocket Grunt wants is a fainted Pokémon.
 
 # V. Game & World Mechanics
 - **Battle Menu Anomaly:** The game appears to intentionally restrict move selection in certain wild battles to the first move slot. Strategy: For low-stakes wild battles, running is the most efficient option.
@@ -67,4 +65,4 @@
 - **(Turn 212394):** Update on Hypothesis 3: The target water pool on B2F is in a separate map partition and unreachable from the central B2F area accessed via the ladder at B1F (18,12).
 - **(Turn 212415):** Update on Hypothesis 3: The ladder at B1F (14,28) leads to an isolated, elevated platform on B2F at (16,28), not the main western area with the water pool. The western B2F map is also partitioned.
 - **(Turn 212438):** Update on Hypothesis 3: The ladder at B1F (22,18) also leads to an isolated platform on B2F, not the main western area. This route is also a dead end for reaching the water pool.
-- **(Turn 212805):** Performed self-assessment. Identified a persistent loop/fixation on a failed hypothesis (interacting with the ghost spot). Corrected by formulating a new, different test plan (talking to the 'anemic' Channeler). Added a new 'Tile Mechanics' section to the notepad to improve documentation discipline.
+- **(Turn 212805):** Performed self-assessment. Identified a persistent loop/fixation on a failed hypothesis (interacting with the ghost spot). Corrected by formulating a new, different test plan (talking to the 'anemic' Channeler).
