@@ -104,3 +104,4 @@
 
 # IX. Automation Ideas
 - **General Menu Navigator Tool:** A tool that takes the output of `menu_analyzer` and a target option, then generates the required button presses to navigate to and select it.
+10. **Complex Navigation:** For multi-floor or multi-map navigation puzzles (like the Celadon Dept. Store), I will use the `master_navigator_agent` in `navigate_warps` mode to generate a high-level plan instead of relying on manual floor-by-floor pathing.
