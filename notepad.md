@@ -60,7 +60,6 @@
 - **Battle:** Use `comprehensive_battle_agent` for high-stakes battles. Use `select_move_in_battle` for standard move selection. Use `battle_anomaly_detector_agent` to investigate recurring battle issues.
 - **Navigation:** Use `automated_path_navigator` for single-map pathfinding. Use `master_navigator_agent` for complex, multi-map navigation.
 - **Future Development Pipeline:**
-    - **`auto_run_wild` tool:** Automate running from wild battles. Useful for high-encounter areas when not grinding.
     - **`auto_battle_wild` tool:** A tool to automate simple wild battles by repeatedly using the first move.
     
 
