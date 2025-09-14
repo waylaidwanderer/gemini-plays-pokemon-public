@@ -72,6 +72,13 @@
 - **(Turn 211057):** Failed to use `battle_anomaly_detector_agent`. Identified need to improve notepad and create new tools.
 - **(Turn 211109):** Performed self-assessment. Overhauled notepad. Re-committed to immediate maintenance.
 - **(Turn 211776):** Performed self-assessment. Reorganized notepad for clarity. Confirmed adherence to core principles, especially immediate maintenance and hypothesis-driven exploration.
-- **(Turn 212394):** Update on Hypothesis 3: The target water pool on B2F is in a separate map partition and unreachable from the central B2F area accessed via the ladder at B1F (18,12). A new route must be found.
+- **(Turn 212394):** Update on Hypothesis 3: The target water pool on B2F is in a separate map partition and unreachable from the central B2F area accessed via the ladder at B1F (18,12).
 - **(Turn 212415):** Update on Hypothesis 3: The ladder at B1F (14,28) leads to an isolated, elevated platform on B2F at (16,28), not the main western area with the water pool. The western B2F map is also partitioned.
 - **(Turn 212438):** Update on Hypothesis 3: The ladder at B1F (22,18) also leads to an isolated platform on B2F, not the main western area. This route is also a dead end for reaching the water pool.
+
+# VII. Tile Mechanics
+- **`ground`**: Standard walkable tile.
+- **`elevated_ground`**: Walkable, but can only be accessed from `steps` tiles or other `elevated_ground` tiles. Cannot be accessed directly from `ground`.
+- **`steps`**: Allows movement between `ground` and `elevated_ground`.
+- **`impassable`**: Walls, rocks, and other solid barriers. Cannot be entered.
+- **`ladder_down` / `ladder_up`**: Act as warps between floors. Must step off and back on to re-use after arriving on one.
