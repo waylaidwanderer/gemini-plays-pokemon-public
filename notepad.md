@@ -13,13 +13,11 @@
 # II. Quest Log
 - **Current Quest: The Mt. Moon Fossil**
     - **Objective:** Find a fossil to give to the Rocket Grunt blocking the path at Mt. Moon B2F (30,12).
-    - **Status:** Stalled. Actively pursuing other leads.
-- **New Quest: The Copycat's Gift**
-    - **Objective:** Obtain a POKé DOLL and give it to COPYCAT in Cerulean City.
-    - **Source:** Super Nerd on Celadon Mart 4F at (13,6). Dialogue: "I'm getting a gift for COPYCAT in CERULEAN CITY. It's got to be a POKé DOLL. They are trendy!"
-    - **Hypotheses:**
-        - COPYCAT is an NPC inside one of Cerulean City's buildings.
-        - COPYCAT is an overworld NPC in Cerulean City.
+    - **Status:** Active. Will use `puzzle_solver_agent` for new hypotheses.
+- **Stalled Quest: The Copycat's Gift**
+    - **Objective:** Obtain a POKé DOLL and give it to COPYCAT.
+    - **Status:** Stalled. All leads in Cerulean City have been exhausted.
+    - **New Hypothesis:** COPYCAT is not currently in Cerulean City, or is in a hidden, currently inaccessible area.
 
 # III. Battle Intel
 - **Type Effectiveness Chart (Verified):**
@@ -57,9 +55,6 @@
     - The Rocket Grunt will accept a Pokémon that is thematically a 'fossil' but is not from a revived fossil item. The player's Marowak, due to its skull, might qualify, but only after undergoing a secret event. (Sub-hypothesis: Use Moon Stone on it. Result: Failed. The game displays 'NOT ABLE').
     - The Pokémon Tower is a red herring for the fossil quest. (Failed: Interacting with ghost spot and 'anemic' Channeler with Marowak in party yielded no results).
 - **Active Hypotheses:**
-    - The 'fossil' the Rocket Grunt wants is a fainted Pokémon.
-    - Giving the Little Girl on the Celadon Mart Roof the correct drink will trigger an event that opens a path to the eastern side of 4F.
-    - One of the vending machines on the Celadon Mart Roof is a secret teleporter. (Result: Interacted with all three vending machines and purchased one of each drink. No teleportation occurred.)
     - **New Hypothesis (from Overwatch):** Use the `puzzle_solver_agent` to generate new, out-of-the-box hypotheses for the Mt. Moon fossil quest.
 
 # V. Game & World Mechanics
@@ -67,7 +62,8 @@
 - **Party Menu 'SWITCH' Lock:** The game appears to intentionally prevent the use of the 'SWITCH' command in the party menu under certain, currently unknown, conditions. This was observed after multiple failed escape attempts in Mt. Moon.
 - **Pokemon Tower 6F Healer Change:** The friendly Channeler at (13,11) is no longer a healer. Her dialogue has changed to 'I feel anemic and weak...'.
 - **POKé DOLL Escape:** A POKé DOLL can be used to guarantee an escape from a wild Pokémon battle.
-- **Shop Menu Navigation Anomaly:** The shop menu in the Cerulean Mart does not follow a standard 2x2 grid layout. Navigation appears to be column-based. Further testing is required to map it out for automation.
+- **Shop Menu Navigation Anomaly:** The shop menu in the Cerulean Mart does not follow a standard grid layout. Manual testing showed 'Down' moves from 'BUY' to 'SELL', but 'Right' does nothing from either position. The menu must be exited with the 'B' button.
+- **Unreliable Automation:** Long, automated button sequences (like from the `use_field_move` tool) are prone to being interrupted by the system. For complex menu navigation, a manual, step-by-step approach is more reliable.
 
 # VI. Tile Mechanics
 - **ground / grass:** Standard walkable tiles.
@@ -82,21 +78,8 @@
 - **trashcan:** Found in Cerulean Badge House at (8,8). Properties unknown, likely impassable. (Hypothesis: Test interaction upon next visit.)
 
 # VII. Self-Assessment Log
-- **(Turn 210956):** Failed mandatory self-assessment. Misread map data. Acknowledged input drops and need to retry failed navigation.
-- **(Turn 211006):** Failed to immediately fix `select_move_in_battle` tool, violating immediate maintenance directive.
-- **(Turn 211057):** Failed to use `battle_anomaly_detector_agent`. Identified need to improve notepad and create new tools.
-- **(Turn 211109):** Performed self-assessment. Overhauled notepad. Re-committed to immediate maintenance.
-- **(Turn 211776):** Performed self-assessment. Reorganized notepad for clarity. Confirmed adherence to core principles, especially immediate maintenance and hypothesis-driven exploration.
-- **(Turn 212394):** Update on Hypothesis 3: The target water pool on B2F is in a separate map partition and unreachable from the central B2F area accessed via the ladder at B1F (18,12).
-- **(Turn 212415):** Update on Hypothesis 3: The ladder at B1F (14,28) leads to an isolated, elevated platform on B2F at (16,28), not the main western area with the water pool. The western B2F map is also partitioned.
-- **(Turn 212438):** Update on Hypothesis 3: The ladder at B1F (22,18) also leads to an isolated platform on B2F, not the main western area. This route is also a dead end for reaching the water pool.
-- **(Turn 212805):** Performed self-assessment. Identified a persistent loop/fixation on a failed hypothesis (interacting with the ghost spot). Corrected by formulating a new, different test plan (talking to the 'anemic' Channeler).
-- **(Turn 213076):** Performed self-assessment. Identified a persistent failure to interact with a moving NPC and a hallucination about my position. Corrected by using the `stun_npc` tool and re-pathing from my actual location.
-- **(Turn 213112):** Performed self-assessment. Refactored notepad to include new 'Tile Mechanics' and 'Automation Ideas' sections. Re-committed to using `master_navigator_agent` for complex exploration.
-- **(Turn 213164):** Performed self-assessment. Refactored notepad to remove redundant quest entries. Confirmed adherence to core principles.
-- **(Turn 213420):** Performed self-assessment. Updated tool/agent documentation in notepad. Confirmed adherence to core principles and flexibility in goal-setting.
-- **(Turn 213573):** Performed self-assessment. Refactored notepad to integrate strategic principles. Identified a missed opportunity to use `master_navigator_agent` for complex navigation. Deleted one redundant map marker.
 - **(Turn 213727):** Performed self-assessment. Identified failure to immediately fix tools (`general_menu_navigator`). Acknowledged underutilization of `master_navigator_agent` and confirmation bias regarding menu layouts. Updated notepad with new hypotheses and automation ideas.
+- **(Turn 213778):** Performed self-assessment. Acknowledged inefficient debugging methods (guessing instead of data-gathering) and failure to use agents when stuck. Re-committed to a more scientific approach to problem-solving. Pivoted goals due to stalled quest.
 
 # VIII. Defined Agents & Tools
 - **Agents:**
@@ -113,4 +96,3 @@
 
 # IX. Automation Ideas
 - **Menu Navigation Mapper Agent:** An agent that takes a series of manual inputs and observed cursor movements to deduce the layout and control scheme of an unknown menu, then generates a navigation map for the `general_menu_navigator` tool.
-        - **New Hypothesis:** The moving Cool Trainer F NPC at (10, 28) in Cerulean City is COPYCAT.
