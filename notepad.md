@@ -72,6 +72,8 @@
     - `steps`: Allows movement between `ground` and `elevated_ground`.
     - `ladder_up`/`ladder_down`: Warps between floors.
     - `warp`: General term for doors, ladders, stairs, etc. Most 1x1 warps are instant. Larger 2x1 or 1x2 warps (like exit mats) require a two-step process: move onto the warp tile, then press the directional button into the impassable boundary.
+    - `ledge`: One-way traversal. Can be jumped down, but not climbed up.
+    - `grass`: Walkable tile that can trigger wild Pokémon encounters.
 
 # VI. Self-Assessment Log
 - **(Turn 210956):** Failed mandatory self-assessment. Misread map data. Acknowledged input drops and need to retry failed navigation.
