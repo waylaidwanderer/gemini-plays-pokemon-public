@@ -8,8 +8,15 @@
 7.  **Efficiency Over Fixation:** If a simple automation tool fails during a low-stakes, repetitive task (like a wild battle), it is more efficient to complete the task manually and fix the tool later, rather than getting stuck debugging mid-task.
 8.  **Confirmation Bias Awareness (Self-Assessment Finding):** I must be vigilant against confirmation bias. If a hypothesis fails multiple documented tests, I must actively pivot to a new, different hypothesis rather than repeating the failed approach. I should also formulate tests designed to *disprove* my own theories, not just confirm them. To combat this, I should use the `puzzle_solver_agent` more readily when I feel stuck on a single line of reasoning.
 9. **Automation Tools:**
-    - **Battle:** Use `comprehensive_battle_agent` for high-stakes battles. Use `select_move_in_battle` for standard move selection. Use `battle_anomaly_detector_agent` to investigate recurring battle issues.
-    - **Navigation:** Use `automated_path_navigator` for single-map pathfinding. Use `master_navigator_agent` for complex, multi-map navigation.
+    - **Agents (Reasoning & Analysis):**
+        - `comprehensive_battle_agent`: For high-stakes battle strategy.
+        - `battle_anomaly_detector_agent`: To investigate recurring battle issues (e.g., escape failures).
+        - `master_navigator_agent`: For complex, multi-map navigation planning.
+        - `puzzle_solver_agent`: To generate new hypotheses when stuck on a puzzle.
+    - **Tools (Computation & Execution):**
+        - `automated_path_navigator`: For single-map pathfinding.
+        - `select_move_in_battle`: For automated move selection in battle.
+        - `rock_checker`: To systematically find and check potential interactive rocks.
 
 # II. Quest Log
 - **Current Quest: The Mt. Moon Fossil**
