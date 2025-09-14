@@ -67,3 +67,4 @@
 - **(Turn 212438):** Update on Hypothesis 3: The ladder at B1F (22,18) also leads to an isolated platform on B2F, not the main western area. This route is also a dead end for reaching the water pool.
 - **(Turn 212805):** Performed self-assessment. Identified a persistent loop/fixation on a failed hypothesis (interacting with the ghost spot). Corrected by formulating a new, different test plan (talking to the 'anemic' Channeler).
     - The Cubone in the Lavender Cubone House will trigger a special event if interacted with while a Marowak is in the first party slot. (Result: Interacting only produced its cry, "Kyarugoo!").
+- **Impassable Decorative Grass:** The small grass patches inside the Celadon Department Store are purely decorative and act as impassable walls.
