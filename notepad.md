@@ -41,6 +41,10 @@
     - The Pokémon Tower is a red herring for the fossil quest.
     - Interacting with the second Rocket Grunt on B2F at (30, 18) will open a new path or provide a clue. (Result: Failed. Dialogue was generic and unchanged.)
 
+- **Untested Assumptions:**
+    - The Hiker on 1F and the Rocket Grunt on B2F are part of the same puzzle. They might be two separate roadblocks.
+    - The solution involves *giving* an item/Pokémon to an NPC. The solution could be an environmental trigger or showing a specific Pokémon state.
+
 # III. Battle Intelligence
 
 - **Type Effectiveness Chart (Verified):**
@@ -69,6 +73,8 @@
     - **impassable:** Walls, counters, and other solid barriers.
     - **grass:** Tall grass where wild Pokémon can be encountered. Also used for some decorative, impassable objects.
     - **elevated_ground:** Walkable ground at a different elevation. Direct movement between `ground` and `elevated_ground` is impossible without `steps`.
+    - **steps:** Allows movement between `ground` and `elevated_ground`.
+    - **ladder_up / ladder_down:** Warps between floors.
 
 # V. Future Development Ideas
 
