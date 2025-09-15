@@ -14,10 +14,10 @@
     2.  **Poké Doll for Hiker:** The Hiker on 1F will accept the POKé DOLL.
 
 - **Failed Hypotheses:**
-    - The Silph Scope will reveal a ghost in Mt. Moon, or the Grunt himself is a ghost. (Result: Failed. Prof. Oak prevents the item's use.)
-    - The Rocket Grunt on B2F will accept the POKé DOLL as the 'fossil'. (Result: Failed. Prof. Oak prevents the item's use.)
-    - Giving the POKé DOLL to the Grunt will make the Hiker on 1F move. (Result: Dependent on failed hypothesis, invalidated.)
-    - The Hiker will only move for an 'adult', a status temporarily gained by interacting with the 'Old Man' in Viridian City. (Result: Failed. Hiker's dialogue was unchanged.)
+    - The Silph Scope will reveal a ghost in Mt. Moon. (Result: Failed. Prof. Oak prevents item use.)
+    - The Rocket Grunt on B2F will accept the POKé DOLL. (Result: Failed. Prof. Oak prevents item use.)
+    - Giving the POKé DOLL to the Grunt will make the Hiker on 1F move. (Result: Invalidated.)
+    - The Hiker will only move for an 'adult'. (Result: Failed. Dialogue unchanged.)
     - The fossil is in an interactable rock.
     - The Hiker on 1F at (6,7) will move if shown the revived HELIX fossil Pokémon.
     - The scientist in the Cinnabar Lab Fossil Room can 'un-revive' a fossil Pokémon.
@@ -26,7 +26,7 @@
     - A specific, non-fossil Pokémon from Mt. Moon (e.g., Geodude) will satisfy the Grunt.
     - The Hiker on Mt. Moon 1F at (6,7) is part of a chained quest.
     - The 'fossil' the Grunt wants must be stolen from the Pewter City Museum of Science.
-    - The move 'Dig' must be used on a specific, unmarked tile within Mt. Moon to unearth the other fossil.
+    - The move 'Dig' must be used on a specific, unmarked tile within Mt. Moon.
     - The Rocket Grunt will accept a Pokémon nicknamed 'fossil'.
     - The Hiker on Mt. Moon 1F at (6,7) will trade you for your revived fossil Pokémon.
     - A ladder's destination can be changed by entering and exiting it multiple times.
@@ -37,9 +37,9 @@
     - An un-revived fossil can be acquired by fishing inside Mt. Moon.
     - The Rocket Grunt will accept a thematically 'fossil' Pokémon like Marowak.
     - The Pokémon Tower is a red herring for the fossil quest.
-    - Interacting with the second Rocket Grunt on B2F at (30, 18) will open a new path or provide a clue. (Result: Failed. Dialogue was generic and unchanged.)
-    - Evolving a Clefairy with a Moon Stone in front of the Grunt will trigger an event. (Result: Failed. Prof. Oak prevents the item's use.)
-    - Speaking to the Old Man in Viridian City will influence an NPC in Mt. Moon. (Result: Failed. Dialogue was unchanged.)
+    - Interacting with the second Rocket Grunt on B2F at (30, 18) will open a new path or provide a clue. (Result: Failed.)
+    - Evolving a Clefairy with a Moon Stone in front of the Grunt will trigger an event. (Result: Failed. Prof. Oak prevents item use.)
+    - Speaking to the Old Man in Viridian City will influence an NPC in Mt. Moon. (Result: Failed.)
 
 # III. Battle Intelligence
 
