@@ -10,9 +10,8 @@
 # II. Fossil Quest - Hypotheses Log
 
 - **Active Hypotheses (Ranked by Agent):**
-    1.  **Fainted Fossil:** The Grunt wants a revived fossil Pokémon that has fainted. (Untestable due to low encounter rate in current area).
-    2.  **Hiker Disguise:** The Hiker on 1F will move if a 'Hiker' Pokémon (like Geodude) is in the party lead.
-    3.  **Poké Doll for Hiker:** The Hiker on 1F will accept the POKé DOLL.
+    1.  **Hiker Disguise:** The Hiker on 1F will move if a 'Hiker' Pokémon (like Geodude) is in the party lead.
+    2.  **Poké Doll for Hiker:** The Hiker on 1F will accept the POKé DOLL.
 
 - **Failed Hypotheses:**
     - The Silph Scope will reveal a ghost in Mt. Moon, or the Grunt himself is a ghost. (Result: Failed. Prof. Oak prevents the item's use.)
@@ -40,6 +39,7 @@
     - The Pokémon Tower is a red herring for the fossil quest.
     - Interacting with the second Rocket Grunt on B2F at (30, 18) will open a new path or provide a clue. (Result: Failed. Dialogue was generic and unchanged.)
     - Evolving a Clefairy with a Moon Stone in front of the Grunt will trigger an event. (Result: Failed. Prof. Oak prevents the item's use.)
+    - Speaking to the Old Man in Viridian City will influence an NPC in Mt. Moon. (Result: Failed. Dialogue was unchanged.)
 
 - **Untested Assumptions:**
     - The Hiker on 1F and the Rocket Grunt on B2F are part of the same puzzle. They might be two separate roadblocks.
@@ -70,11 +70,14 @@
     - **Pokemon Tower 6F Healer Change:** The friendly Channeler at (13,11) is no longer a healer. Her dialogue has changed to 'I feel anemic and weak...'.
 
 # V. Tile Mechanics & Interaction Rules
-- **PC Tile (Mt. Moon Pokémon Center):** This tile is typed as 'grass'. Interaction requires standing on the tile directly below it (e.g., at (14, 5) for a PC at (14, 4)) and facing up.
+- **General Traversal:**
+    - `ledge`: Can only be jumped down (from Y-1 to Y+2 in one move). Impassable from all other directions.
+    - `steps`: The only way to move between `ground` and `elevated_ground` tiles.
+- **PC Tile:** This tile is often typed as `grass`. Interaction requires standing on the tile directly below it (e.g., at (X, Y+1) for a PC at (X, Y)) and facing up.
 
 # VI. Untested Assumptions & Future Tests
 - **'CHANGE BOX' Functionality:** It's assumed that changing boxes does not affect the order of Pokémon within a box. This needs to be tested to see if it could simplify the PC shuffling process.
 
 # VII. Agent & Tool Development Log
 
-- **`pc_shuffler_agent`:** Defined in turn 215166 but not used. **CRITICAL:** Must test this agent at the next PC interaction to validate its effectiveness and avoid repeating lengthy manual processes.
+- **`pc_shuffler_agent`:** Defined in turn 215166. **CRITICAL FAILURE:** I failed to use this agent immediately after creating it, instead performing a 20+ turn manual shuffle. I MUST test this agent at the next PC interaction to validate its effectiveness and correct this procedural error.
