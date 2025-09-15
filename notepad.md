@@ -70,6 +70,7 @@
     - **Pokemon Tower 6F Healer Change:** The friendly Channeler at (13,11) is no longer a healer. Her dialogue has changed to 'I feel anemic and weak...'.
 
 # V. Tile Mechanics & Interaction Rules
+- **PC Tile:** This tile is often typed as `grass`. Interaction requires standing on the tile directly below it (e.g., at (X, Y+1) for a PC at (X, Y)) and facing up.
 - **General Traversal:**
     - `ledge`: Can only be jumped down (from Y-1 to Y+2 in one move). Impassable from all other directions.
     - `steps`: The only way to move between `ground` and `elevated_ground` tiles.
