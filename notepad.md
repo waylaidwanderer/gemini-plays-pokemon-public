@@ -74,3 +74,7 @@
 
 # VI. Untested Assumptions & Future Tests
 - **'CHANGE BOX' Functionality:** It's assumed that changing boxes does not affect the order of Pokémon within a box. This needs to be tested to see if it could simplify the PC shuffling process.
+
+# VII. Agent & Tool Development Log
+
+- **`pc_shuffler_agent`:** Defined in turn 215166 but not used. **CRITICAL:** Must test this agent at the next PC interaction to validate its effectiveness and avoid repeating lengthy manual processes.
