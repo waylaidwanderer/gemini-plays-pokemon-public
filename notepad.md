@@ -52,9 +52,11 @@
 # VI. Fossil Quest - Hypotheses Log
 
 - **Active Hypotheses (Ranked by Plausibility):**
-    - The Hiker wants a party of fully-evolved Pokémon.
-    - The Rocket Grunt wants the OLD AMBER.
-    - The Rocket Grunt wants a Parasect ('living fossil').
+    - The Hiker on 1F will move if Flash is used nearby.
+    - The Rocket Grunt will be satisfied if a Pokémon uses 'Ancient Power' in battle against him.
+    - The Rocket Grunt will move if a Geodude uses Self-Destruct in battle against him.
+    - The Hiker will move once the Pokédex is completed for all Mt. Moon native species.
+    - The Rocket Grunt will move if a Clefairy uses Metronome in battle against him.
 - **Failed Hypotheses:**
     - The Hiker on 1F will accept the POKé DOLL. (Result: Failed. Prof. Oak prevents item use.)
     - The Silph Scope will reveal a ghost in Mt. Moon. (Result: Failed. Prof. Oak prevents item use.)
