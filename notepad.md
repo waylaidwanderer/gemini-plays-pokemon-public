@@ -88,7 +88,6 @@
     - The Hiker on 1F will move if a 'Hiker' Pokémon (like Geodude) is in the party lead. (Result: Failed. Dialogue unchanged.)
 
 # VII. Future Agent & Tool Ideas
-- **Auto-Battle Tool:** Create a tool to automate simple wild encounters by selecting the first move.
 - **Team Composition Agent:** Analyze Pokedex and suggest teams for specific challenges (e.g., Gyms) based on type coverage and known opponent rosters.
 - **Grinding Optimizer Agent:** Suggest optimal grinding locations based on party levels, target EXP, and wild Pokémon data from known areas.
 
