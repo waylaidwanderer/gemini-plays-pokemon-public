@@ -68,3 +68,9 @@
 - **Area-Specific Mechanics:**
     - **Pewter Museum Trap Tile:** On Pewter Museum 2F, the tile at (3,5) is a trap that warps the player to an isolated room. Escape requires interacting with a follower Pikachu.
     - **Pokemon Tower 6F Healer Change:** The friendly Channeler at (13,11) is no longer a healer. Her dialogue has changed to 'I feel anemic and weak...'.
+
+# V. Tile Mechanics & Interaction Rules
+- **PC Tile (Mt. Moon Pokémon Center):** This tile is typed as 'grass'. Interaction requires standing on the tile directly below it (e.g., at (14, 5) for a PC at (14, 4)) and facing up.
+
+# VI. Untested Assumptions & Future Tests
+- **'CHANGE BOX' Functionality:** It's assumed that changing boxes does not affect the order of Pokémon within a box. This needs to be tested to see if it could simplify the PC shuffling process.
