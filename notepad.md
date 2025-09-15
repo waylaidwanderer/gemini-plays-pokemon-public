@@ -127,3 +127,4 @@
         - `Down`, `Down`, `Down`, `Down` (Navigate to LOG OFF)
         - `A` (Select LOG OFF) -> Exits PC.
     5.  **End:** Player is in the overworld, facing the PC. One cycle complete.
+- **PC Tile Anomaly:** The tile for the PC in Pokémon Centers (e.g., Viridian Pokecenter (14,4)) is typed as `grass` in the map data, but it is impassable and functions as an interactable object.
