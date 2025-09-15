@@ -125,3 +125,7 @@
         - `Down`, `Down`, `Down`, `Down` (Navigate to LOG OFF)
         - `A` (Select LOG OFF) -> Exits PC.
     5.  **End:** Player is in the overworld, facing the PC. One cycle complete.
+
+# VIII. Future Agent & Tool Ideas
+- **Team Composition Agent:** Analyze Pokedex and suggest teams for specific challenges (e.g., Gyms) based on type coverage and known opponent rosters.
+- **Grinding Optimizer Agent:** Suggest optimal grinding locations based on party levels, target EXP, and wild Pokémon data from known areas.
