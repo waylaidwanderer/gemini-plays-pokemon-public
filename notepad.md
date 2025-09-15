@@ -81,3 +81,7 @@
 # VII. Agent & Tool Development Log
 
 - **`pc_shuffler_agent`:** Defined in turn 215166. **CRITICAL FAILURE (Corrected):** I failed to use this agent immediately after creation, instead performing a lengthy manual shuffle. I have now corrected this by using the agent in Viridian City (Turn 215239) to validate its effectiveness and fix my procedural error.
+
+# VIII. Self-Assessment Insights (Turn 215319)
+- **PC Tile Interaction:** The PC tile in Pokémon Centers is often typed as `grass` in the map data. Interaction requires standing on the tile directly below it (e.g., at (X, Y+1) for a PC at (X, Y)) and facing up.
+- **Mt. Moon Quest Solvability:** A major untested assumption is that the Mt. Moon fossil quest is solvable *at this point in the game*. If the current 'Hiker's Pokémon' hypothesis fails, I must consider that I may be missing a key item or event trigger from an unexplored post-game area. I will pivot to a different objective if this next test fails.
