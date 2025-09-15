@@ -47,7 +47,6 @@
 # VI. Fossil Quest - Hypotheses Log
 
 - **Active Hypotheses (Ranked by Plausibility):**
-    - The 'fossil' the Rocket Grunt wants is the MOON STONE. (Source: Pewter Museum sign links Moon Stone to Mt. Moon).
     - The Hiker wants a party of fully-evolved Pokémon.
     - The Rocket Grunt wants the OLD AMBER.
     - The Rocket Grunt wants a Parasect ('living fossil').
@@ -61,7 +60,7 @@
     - The Hiker on 1F at (6,7) will move if shown the revived HELIX fossil Pokémon.
     - The scientist in the Cinnabar Lab Fossil Room can 'un-revive' a fossil Pokémon.
     - Presenting the revived HELIX fossil Pokémon to the Rocket Grunt on B2F will trigger a new event.
-    - The 'fossil' the Rocket Grunt wants is the MOON STONE.
+    - The 'fossil' the Rocket Grunt wants is the MOON STONE. (Result: Failed. Dialogue unchanged.)
     - A specific, non-fossil Pokémon from Mt. Moon (e.g., Geodude) will satisfy the Grunt.
     - The Hiker on Mt. Moon 1F at (6,7) is part of a chained quest.
     - The 'fossil' the Grunt wants must be stolen from the Pewter City Museum of Science.
