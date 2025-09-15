@@ -90,37 +90,37 @@
 
 - **Objective:** Document the precise button sequence for one full PC shuffle cycle (withdraw, swap, deposit) to serve as a blueprint for the `pc_shuffler_executor` tool, as per the Overwatch critique.
 
-- **Simulation: One Full Cycle**
+- **Simulation: One Full Cycle (Corrected)**
     1.  **Start:** Player is in the overworld, facing the PC.
     2.  **Action: Withdraw**
-        - `A` (Interact with PC)
-        - `A` (Select BILL's PC)
-        - `A` (Select WITHDRAW PKMN)
-        - `A` (Confirm withdrawal of top Pokémon)
-        - `A` (Acknowledge 'Got [Pokemon Name]' message)
-        - `Down` x5 (Navigate to SEE YA!)
-        - `A` (Select SEE YA!)
-        - `Down` x4 (Navigate to LOG OFF)
-        - `A` (Select LOG OFF)
-    3.  **Action: Swap**
+        - `A` (Interact with PC) -> Opens "BILL'S PC/GEM's PC/..." menu. Cursor on BILL's PC.
+        - `A` (Select BILL's PC) -> Opens "WITHDRAW/DEPOSIT/..." menu. Cursor on WITHDRAW.
+        - `A` (Select WITHDRAW PKMN) -> Opens box list.
+        - `A` (Confirm withdrawal of top Pokémon) -> "Got [Pokemon Name]" message appears.
+        - `A` (Acknowledge message) -> Returns to "WITHDRAW/DEPOSIT/..." menu. Cursor on WITHDRAW.
+        - `Down`, `Down`, `Down` (Navigate to SEE YA!)
+        - `A` (Select SEE YA!) -> Returns to "BILL'S PC/GEM's PC/..." menu. Cursor on BILL's PC.
+        - `Down`, `Down`, `Down` (Navigate to LOG OFF)
+        - `A` (Select LOG OFF) -> Exits PC.
+    3.  **Action: Swap** (From lead to last slot)
         - `Start` (Open main menu)
         - `A` (Select PKMN)
         - `A` (Select lead Pokémon)
         - `Down` (Navigate to SWITCH)
         - `A` (Select SWITCH)
-        - `Down` x5 (Navigate to 6th Pokémon slot)
+        - `Down` * (party_size - 1) times (Navigate to last Pokémon slot)
         - `A` (Confirm swap)
         - `B` (Exit party menu)
         - `B` (Exit main menu)
     4.  **Action: Deposit**
-        - `A` (Interact with PC)
-        - `A` (Select BILL's PC)
+        - `A` (Interact with PC) -> Opens "BILL'S PC/GEM's PC/..." menu. Cursor on BILL's PC.
+        - `A` (Select BILL's PC) -> Opens "WITHDRAW/DEPOSIT/..." menu. Cursor on WITHDRAW.
         - `Down` (Navigate to DEPOSIT PKMN)
-        - `A` (Select DEPOSIT PKMN)
+        - `A` (Select DEPOSIT PKMN) -> Opens party list.
         - `A` (Select lead Pokémon to deposit)
-        - `A` (Confirm DEPOSIT)
-        - `Down` x4 (Navigate to SEE YA!)
-        - `A` (Select SEE YA!)
-        - `Down` x4 (Navigate to LOG OFF)
-        - `A` (Select LOG OFF)
+        - `A` (Confirm DEPOSIT) -> Returns to "WITHDRAW/DEPOSIT/..." menu. Cursor on DEPOSIT.
+        - `Down`, `Down` (Navigate to SEE YA!)
+        - `A` (Select SEE YA!) -> Returns to "BILL'S PC/GEM's PC/..." menu. Cursor on BILL's PC.
+        - `Down`, `Down`, `Down` (Navigate to LOG OFF)
+        - `A` (Select LOG OFF) -> Exits PC.
     5.  **End:** Player is in the overworld, facing the PC. One cycle complete.
