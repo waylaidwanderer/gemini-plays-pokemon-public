@@ -85,6 +85,3 @@
     - The Hiker on 1F will move if the Poké Flute is used near him. (Result: Failed. Item use had no effect.)
 
 # VII. Future Agent & Tool Ideas
-
-- **Strategic Team Builder Agent:** An agent that analyzes my current party, PC box, and a known opponent's roster (from my notes) to suggest an optimal team of 6 and a lead Pokémon for the battle.
-- **Strategic Team Builder Agent:** An agent that analyzes my current party, PC box, and a known opponent's roster (from my notes) to suggest an optimal team of 6 and a lead Pokémon for the battle.
