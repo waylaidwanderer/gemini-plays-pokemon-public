@@ -88,7 +88,7 @@
 - **Team Composition Agent:** Analyze Pokedex and suggest teams for specific challenges (e.g., Gyms) based on type coverage and known opponent rosters.
 - **Grinding Optimizer Agent:** Suggest optimal grinding locations based on party levels, target EXP, and wild Pokémon data from known areas.
 
-- **party_swap_lead tool:** Automates swapping the second Pokémon in the party to the lead position.
+- **Journey Manager Agent:** A high-level agent to manage multi-step navigation, including handling battle interruptions by calling battle agents and recalculating paths.
 
 # VIII. Contingency Plans
 
