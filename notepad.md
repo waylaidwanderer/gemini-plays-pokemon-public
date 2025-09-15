@@ -91,3 +91,6 @@
 - **Auto-Battle Tool:** Create a tool to automate simple wild encounters by selecting the first move.
 - **Team Composition Agent:** Analyze Pokedex and suggest teams for specific challenges (e.g., Gyms) based on type coverage and known opponent rosters.
 - **Grinding Optimizer Agent:** Suggest optimal grinding locations based on party levels, target EXP, and wild Pokémon data from known areas.
+
+# VIII. Contingency Plans
+- **Mt. Moon Progression:** If all current hypotheses for the Hiker/Grunt puzzle fail, the core assumption that this is the only path forward may be incorrect. The contingency plan is to perform a full re-exploration of all floors of Mt. Moon, looking for hidden paths, interactable scenery, or different outcomes from previously-used warps that might have been missed.
