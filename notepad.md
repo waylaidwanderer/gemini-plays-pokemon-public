@@ -61,6 +61,7 @@
     - The scientist in the Cinnabar Lab Fossil Room can 'un-revive' a fossil Pokémon.
     - Presenting the revived HELIX fossil Pokémon to the Rocket Grunt on B2F will trigger a new event.
     - The 'fossil' the Rocket Grunt wants is the MOON STONE. (Result: Failed. Dialogue unchanged.)
+    - The Rocket Grunt will accept a thematically 'fossil' Pokémon like Marowak.
     - A specific, non-fossil Pokémon from Mt. Moon (e.g., Geodude) will satisfy the Grunt.
     - The Hiker on Mt. Moon 1F at (6,7) is part of a chained quest.
     - The 'fossil' the Grunt wants must be stolen from the Pewter City Museum of Science.
