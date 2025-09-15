@@ -37,13 +37,6 @@
 
 # V. Tile Mechanics & Interaction Rules
 
-- **General Traversal:**
-    - `ledge`: Can only be jumped down (from Y-1 to Y+2 in one move). Impassable from all other directions.
-    - `steps`: The only way to move between `ground` and `elevated_ground` tiles.
-    - `impassable`: Walls, counters, etc. Cannot be entered.
-    - `ground`: Walkable tile.
-    - `grass`: Tall grass for wild encounters. Walkable.
-    - `ladder_up` / `ladder_down`: Warp tiles that lead to different floors.
 - **PC Interaction:**
     - **Tile:** The tile for the PC in Pokémon Centers (e.g., Viridian Pokecenter (14,4)) is typed as `grass` in the map data, but it is impassable. Interaction requires standing on the tile directly below it (at (X, Y+1)) and facing up.
     - **Mechanics:** Selecting 'WITHDRAW PKMN' automatically withdraws the first Pokémon in the box list if the party has space. Selecting 'DEPOSIT PKMN' automatically deposits the lead Pokémon in the party. There is no option to choose which Pokémon to withdraw or deposit.
