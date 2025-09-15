@@ -803,90 +803,6 @@
       }
     ]
   },
-  "select_move_in_battle": {
-    "description": "Analyzes the in-battle move selection screen and outputs the button presses needed to select a specific move. Operates in two stages to comply with system input limitations.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "screen_text": {
-          "type": "string"
-        },
-        "target_move": {
-          "type": "string"
-        },
-        "stage": {
-          "type": "string",
-          "enum": [
-            "navigate",
-            "confirm"
-          ]
-        }
-      },
-      "required": [
-        "screen_text",
-        "target_move",
-        "stage"
-      ]
-    },
-    "python_script": "import json\nimport re\n\ndef select_move():\n    screen_text = input_data['screen_text']\n    target_move = input_data['target_move'].upper()\n    stage = input_data['stage']\n\n    lines = screen_text.strip().split('\\n')\n    \n    pp_line_index = -1\n    for i, line in enumerate(lines):\n        if re.search(r'\\d+/\\d+', line):\n            pp_line_index = i\n            break\n    \n    if pp_line_index == -1:\n        print(json.dumps([]))\n        return\n\n    raw_move_lines = lines[pp_line_index + 1 : pp_line_index + 5]\n    if len(raw_move_lines) < 4:\n        print(json.dumps([]))\n        return\n\n    moves = []\n    cursor_pos = -1\n    cursor_char = '→'\n    for i, line in enumerate(raw_move_lines):\n        clean_line = line.strip()\n        if cursor_char in clean_line:\n            cursor_pos = i\n            clean_line = clean_line.replace(cursor_char, '').strip()\n        moves.append(clean_line)\n\n    if cursor_pos == -1:\n        print(json.dumps([]))\n        return\n\n    try:\n        target_pos = moves.index(target_move)\n    except ValueError:\n        print(json.dumps([]))\n        return\n\n    buttons = []\n    if stage == 'navigate':\n        diff = target_pos - cursor_pos\n        if diff > 0:\n            buttons.extend(['Down'] * diff)\n        elif diff < 0:\n            buttons.extend(['Up'] * abs(diff))\n    elif stage == 'confirm':\n        if cursor_pos == target_pos:\n             buttons.extend(['A', 'A', 'A'])\n\n    print(json.dumps(buttons))\n\nselect_move()\n",
-    "history": [
-      {
-        "commit_message": "feat: Create select_move_in_battle tool. This tool automates the process of selecting a move from the battle menu, addressing an Overwatch critique about inefficient workflows and the need for proactive automation.",
-        "timestamp": "2025-09-13T13:18:16.139Z",
-        "action_counter": 210502
-      },
-      {
-        "commit_message": "fix: Overhaul move selection logic. The previous version repeatedly failed. This commit replaces the logic with a self-contained parser that identifies the 2x2 move grid based on uppercase words, determines cursor and target positions, and calculates the necessary button presses. This removes the dependency on the external `menu_analyzer` tool for this specific, critical task, directly addressing the Overwatch critique.",
-        "timestamp": "2025-09-13T15:01:02.172Z",
-        "action_counter": 210601
-      },
-      {
-        "commit_message": "fix: Overhaul move selection logic. The previous version repeatedly failed. This commit replaces the logic with a self-contained parser that identifies the 2x2 move grid based on uppercase words, determines cursor and target positions, and calculates the necessary button presses. This removes the dependency on the external `menu_analyzer` tool for this specific, critical task, directly addressing the Overwatch critique.",
-        "timestamp": "2025-09-13T15:10:32.137Z",
-        "action_counter": 210610
-      },
-      {
-        "commit_message": "refactor: Add stage parameter to separate directional inputs from action inputs. This is a critical fix to address the 'Battle Menu Anomaly' where the system drops inputs when directional and action buttons are combined in a single sequence. The tool will now require two calls: one to 'navigate' and one to 'confirm'.",
-        "timestamp": "2025-09-13T16:08:35.723Z",
-        "action_counter": 210654
-      },
-      {
-        "commit_message": "fix: Correct TypeError in tool script. The tool was attempting to json.loads() a dictionary that was already parsed. Removed the redundant parsing to prevent the crash. This is a critical fix to unblock battle automation.",
-        "timestamp": "2025-09-13T16:29:29.378Z",
-        "action_counter": 210680
-      },
-      {
-        "commit_message": "fix: Correct TypeError in tool script. The tool was attempting to json.loads() a dictionary that was already parsed. Removed the redundant parsing to prevent the crash. This is a critical fix to unblock battle automation.",
-        "timestamp": "2025-09-13T16:30:00.735Z",
-        "action_counter": 210681
-      },
-      {
-        "commit_message": "fix: Overhaul move parsing logic to use PP as anchor. The previous regex-based approach was fundamentally flawed and misidentified Pokémon names as moves. This commit introduces a new stateful parser that correctly identifies the start of the move list by looking for the PP display (e.g., '25/25'). It then parses the subsequent four lines as moves. This also corrects the coordinate calculation to match the on-screen display order (TL, BL, TR, BR). This is a critical fix to unblock all battle automation.",
-        "timestamp": "2025-09-13T16:38:05.341Z",
-        "action_counter": 210687
-      },
-      {
-        "commit_message": "fix: Overhaul move selection logic for single-column menu. The previous logic incorrectly assumed a 2x2 grid, causing navigation failures. This commit replaces the logic to correctly handle the observed single-column layout by calculating 'Up'/'Down' presses based on list indices. This is a critical fix to unblock battle automation.",
-        "timestamp": "2025-09-13T16:51:19.211Z",
-        "action_counter": 210701
-      },
-      {
-        "commit_message": "fix: Re-apply tool logic to address execution failure. The tool failed to register an 'A' press at turn 210874. This re-commit ensures the logic is properly registered by the system to prevent future intermittent failures, as mandated by the overwatch critique.",
-        "timestamp": "2025-09-13T19:31:47.306Z",
-        "action_counter": 210918
-      },
-      {
-        "commit_message": "fix: Send double 'A' press in confirm stage. The tool has repeatedly failed to register single 'A' presses, leading to getting stuck in battle menus. This change sends the input twice as a brute-force attempt to overcome the suspected system-level input drop, directly addressing the Overwatch critique mandating immediate tool refinement.",
-        "timestamp": "2025-09-13T19:41:29.251Z",
-        "action_counter": 210933
-      },
-      {
-        "commit_message": "fix: Send triple 'A' press in confirm stage. The tool has repeatedly failed to register single or double 'A' presses, likely due to a system-level input drop. This change sends the input three times as a brute-force attempt to overcome the issue and unblock battle automation, as mandated by the overwatch critique.",
-        "timestamp": "2025-09-13T21:03:32.503Z",
-        "action_counter": 211001
-      }
-    ]
-  },
   "pc_deposit_lead": {
     "description": "Automates depositing the lead Pokémon in the party via the fixed PC menu. Assumes the main PC menu is open with the cursor on 'DEPOSIT PKMN'.",
     "input_schema": {
@@ -916,6 +832,22 @@
         "commit_message": "feat: Create tool to automate withdrawing top Pokémon. This replaces the more generic select_menu_option tool to make space and provides more targeted automation for PC management, addressing a self-assessment finding.",
         "timestamp": "2025-09-15T03:00:23.404Z",
         "action_counter": 214756
+      }
+    ]
+  },
+  "party_swap_lead": {
+    "description": "Automates swapping the first and second Pokémon in the party. Assumes the party menu is open with the cursor on the lead Pokémon.",
+    "input_schema": {
+      "type": "object",
+      "properties": {},
+      "required": []
+    },
+    "python_script": "import json\nprint(json.dumps([\"A\", \"Down\", \"A\", \"Down\", \"A\"]))",
+    "history": [
+      {
+        "commit_message": "feat: Create tool to automate swapping lead Pokémon. This is a direct response to a self-assessment finding, which identified a failure to automate repetitive menu navigation.",
+        "timestamp": "2025-09-15T03:15:31.885Z",
+        "action_counter": 214807
       }
     ]
   }
