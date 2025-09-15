@@ -85,3 +85,42 @@
 # VIII. Self-Assessment Insights (Turn 215319)
 
 - **Mt. Moon Quest Solvability:** A major untested assumption is that the Mt. Moon fossil quest is solvable *at this point in the game*. If the current 'Hiker's Pokémon' hypothesis fails, I must consider that I may be missing a key item or event trigger from an unexplored post-game area. I will pivot to a different objective if this next test fails.
+
+# IX. Tool Development - PC Shuffler Simulation
+
+- **Objective:** Document the precise button sequence for one full PC shuffle cycle (withdraw, swap, deposit) to serve as a blueprint for the `pc_shuffler_executor` tool, as per the Overwatch critique.
+
+- **Simulation: One Full Cycle**
+    1.  **Start:** Player is in the overworld, facing the PC.
+    2.  **Action: Withdraw**
+        - `A` (Interact with PC)
+        - `A` (Select BILL's PC)
+        - `A` (Select WITHDRAW PKMN)
+        - `A` (Confirm withdrawal of top Pokémon)
+        - `A` (Acknowledge 'Got [Pokemon Name]' message)
+        - `Down` x5 (Navigate to SEE YA!)
+        - `A` (Select SEE YA!)
+        - `Down` x4 (Navigate to LOG OFF)
+        - `A` (Select LOG OFF)
+    3.  **Action: Swap**
+        - `Start` (Open main menu)
+        - `A` (Select PKMN)
+        - `A` (Select lead Pokémon)
+        - `Down` (Navigate to SWITCH)
+        - `A` (Select SWITCH)
+        - `Down` x5 (Navigate to 6th Pokémon slot)
+        - `A` (Confirm swap)
+        - `B` (Exit party menu)
+        - `B` (Exit main menu)
+    4.  **Action: Deposit**
+        - `A` (Interact with PC)
+        - `A` (Select BILL's PC)
+        - `Down` (Navigate to DEPOSIT PKMN)
+        - `A` (Select DEPOSIT PKMN)
+        - `A` (Select lead Pokémon to deposit)
+        - `A` (Confirm DEPOSIT)
+        - `Down` x4 (Navigate to SEE YA!)
+        - `A` (Select SEE YA!)
+        - `Down` x4 (Navigate to LOG OFF)
+        - `A` (Select LOG OFF)
+    5.  **End:** Player is in the overworld, facing the PC. One cycle complete.
