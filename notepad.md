@@ -41,8 +41,6 @@
 - **PC Interaction:**
     - **Tile:** The tile for the PC in Pokémon Centers (e.g., Viridian Pokecenter (14,4)) is typed as `grass` in the map data, but it is impassable. Interaction requires standing on the tile directly below it (at (X, Y+1)) and facing up.
     - **Mechanics:** Selecting 'WITHDRAW PKMN' automatically withdraws the first Pokémon in the box list if the party has space. Selecting 'DEPOSIT PKMN' automatically deposits the lead Pokémon in the party. There is no option to choose which Pokémon to withdraw or deposit.
-- **ground:** Standard walkable tile.
-- **impassable:** Acts as a wall, blocking movement.
 - **elevated_ground:** Inaccessible from 'ground' tiles unless via 'steps'. Acts as a separate plane of movement.
 - **ladder_down/ladder_up:** Function as warps between floors.
 
