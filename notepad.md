@@ -47,18 +47,16 @@
 # VI. Fossil Quest - Hypotheses Log
 
 - **Active Hypotheses (Ranked by Agent):**
-    - The Rocket Grunt wants a fainted fossil Pokémon. (Requires fainting Omanyte).
-    - The Hiker's dialogue 'Kids like you...' is a clue. Present an 'adult' Pokémon (e.g., Nidoqueen).
-    - The Rocket Grunt wants a Pokémon that knows the move 'Ancient Power'.
-    - The Rocket Grunt wants the DOME fossil or OLD AMBER, not the HELIX fossil.
-    - The Hiker is a disguised Rocket member seeking a password hidden in an item name.
-
+    - The Hiker wants a party of fully-evolved Pokémon.
+    - The Rocket Grunt wants the OLD AMBER.
+    - The Rocket Grunt wants a Parasect ('living fossil').
+    - The Hiker will move if the player walks into him repeatedly.
 - **Failed Hypotheses:**
     - The Hiker on 1F will accept the POKé DOLL. (Result: Failed. Prof. Oak prevents item use.)
     - The Silph Scope will reveal a ghost in Mt. Moon. (Result: Failed. Prof. Oak prevents item use.)
     - The Rocket Grunt on B2F will accept the POKé DOLL. (Result: Failed. Prof. Oak prevents item use.)
     - Giving the POKé DOLL to the Grunt will make the Hiker on 1F move. (Result: Invalidated.)
-    - The Hiker will only move for an 'adult'. (Result: Failed. Dialogue unchanged.)
+    - The Hiker will only move for an 'adult' Pokémon (Nidoqueen). (Result: Failed. Dialogue unchanged.)
     - The fossil is in an interactable rock.
     - The Hiker on 1F at (6,7) will move if shown the revived HELIX fossil Pokémon.
     - The scientist in the Cinnabar Lab Fossil Room can 'un-revive' a fossil Pokémon.
@@ -82,16 +80,10 @@
     - Evolving a Clefairy with a Moon Stone in front of the Grunt will trigger an event. (Result: Failed. Prof. Oak prevents item use.)
     - Speaking to the Old Man in Viridian City will influence an NPC in Mt. Moon. (Result: Failed.)
     - The Hiker on 1F will move if a 'Hiker' Pokémon (like Geodude) is in the party lead. (Result: Failed. Dialogue unchanged.)
+    - The Hiker on 1F will move if the Poké Flute is used near him. (Result: Failed. Item use had no effect.)
 
 # VII. Future Agent & Tool Ideas
 
 - **Team Composition Agent:** Analyze Pokedex and suggest teams for specific challenges (e.g., Gyms) based on type coverage and known opponent rosters.
 - **Grinding Optimizer Agent:** Suggest optimal grinding locations based on party levels, target EXP, and wild Pokémon data from known areas.
-
 - **Journey Manager Agent:** A high-level agent to manage multi-step navigation, including handling battle interruptions by calling battle agents and recalculating paths.
-
-# VIII. Contingency Plans
-
-- **Mt. Moon Progression:** If all current hypotheses for the Hiker/Grunt puzzle fail, the core assumption that this is the only path forward may be incorrect. The contingency plan is to perform a full re-exploration of all floors of Mt. Moon, looking for hidden paths, interactable scenery, or different outcomes from previously-used warps that might have been missed.
-    - The Hiker on 1F will move if a 'Hiker' Pokémon (like Geodude) is in the party lead. (Result: Failed. Dialogue unchanged.)
-- The Hiker on 1F will move if the Poké Flute is used near him. (Result: Failed. Item use had no effect.)
