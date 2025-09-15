@@ -872,7 +872,7 @@
         "party_size"
       ]
     },
-    "python_script": "import json\n\ndef do_withdraw(buttons):\n    buttons.extend(['A', 'A', 'A', 'A', 'A'])\n    buttons.extend(['Down'] * 5)\n    buttons.extend(['A'])\n    buttons.extend(['Down'] * 4)\n    buttons.extend(['A'])\n\ndef do_swap(buttons, party_size):\n    buttons.extend(['Start', 'A', 'A', 'Down', 'A'])\n    buttons.extend(['Down'] * (int(party_size) -1)) # party size is now 6 after withdraw\n    buttons.extend(['A', 'B', 'B'])\n\ndef do_deposit(buttons):\n    buttons.extend(['A', 'A', 'Down', 'A', 'A', 'A'])\n    buttons.extend(['Down'] * 4)\n    buttons.extend(['A'])\n    buttons.extend(['Down'] * 4)\n    buttons.extend(['A'])\n\naction_plan_str = input_data['action_plan']\nparty_size = input_data['party_size']\nplan = json.loads(action_plan_str)\n\nall_buttons = []\n\nfor action_item in plan['action_plan']:\n    action = action_item['action']\n    if action == 'WITHDRAW':\n        do_withdraw(all_buttons)\n    elif action == 'SWAP LEAD WITH':\n        do_swap(all_buttons, party_size)\n    elif action == 'DEPOSIT':\n        do_deposit(all_buttons)\n\nprint(json.dumps(all_buttons))",
+    "python_script": "import json\n\ndef do_withdraw():\n    return ['A', 'A', 'A', 'A', 'A', 'Down', 'Down', 'Down', 'Down', 'Down', 'A', 'Down', 'Down', 'Down', 'Down', 'A']\n\ndef do_swap(party_size_at_start_of_swap):\n    num_downs = int(party_size_at_start_of_swap) - 1\n    buttons = ['Start', 'A', 'A', 'Down', 'A']\n    buttons.extend(['Down'] * num_downs)\n    buttons.extend(['A', 'B', 'B'])\n    return buttons\n\ndef do_deposit():\n    return ['A', 'A', 'Down', 'A', 'A', 'A', 'Down', 'Down', 'Down', 'Down', 'A', 'Down', 'Down', 'Down', 'Down', 'A']\n\naction_plan_str = input_data['action_plan']\ninitial_party_size = int(input_data['party_size'])\nplan = json.loads(action_plan_str)\n\nall_buttons = []\ncurrent_party_size = initial_party_size\n\nfor action_item in plan['action_plan']:\n    action = action_item['action']\n    if action == 'WITHDRAW':\n        all_buttons.extend(do_withdraw())\n        current_party_size += 1\n    elif action == 'SWAP LEAD WITH':\n        all_buttons.extend(do_swap(current_party_size))\n    elif action == 'DEPOSIT':\n        all_buttons.extend(do_deposit())\n        current_party_size -= 1\n\nprint(json.dumps(all_buttons))",
     "history": [
       {
         "commit_message": "feat: Create tool to automate PC shuffling. This is a direct response to an Overwatch critique that identified a critical failure to automate a repetitive, error-prone manual task. This tool takes an action plan from the `pc_shuffler_agent` and executes the entire sequence of withdrawals, party swaps, and deposits automatically.",
@@ -918,6 +918,11 @@
         "commit_message": "fix: Overhaul button generation logic. The previous version generated a single, massive button sequence that was prone to failure and difficult to debug. This commit refactors the logic into modular functions for each core action (withdraw, deposit, swap). This new structure correctly handles the menu flow, preventing the 'Printer Error' bug by ensuring the correct options are selected. This is a critical fix to address the tool's complete failure from the previous turn.",
         "timestamp": "2025-09-15T08:09:39.549Z",
         "action_counter": 215462
+      },
+      {
+        "commit_message": "fix: Correct party swap logic and align with simulation. The previous version had an off-by-one error in calculating the number of 'Down' presses required to swap the lead Pokémon with the last one in the party. This commit corrects the logic to `party_size - 1` and refactors the button generation to more closely match the validated simulation from the notepad. This addresses a critical logic bug that would have caused the tool to fail mid-sequence.",
+        "timestamp": "2025-09-15T08:18:59.224Z",
+        "action_counter": 215465
       }
     ]
   }
