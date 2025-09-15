@@ -46,11 +46,11 @@
 
 # VI. Fossil Quest - Hypotheses Log
 
-- **Active Hypotheses (Ranked by Agent):**
+- **Active Hypotheses (Ranked by Plausibility):**
+    - The 'fossil' the Rocket Grunt wants is the MOON STONE. (Source: Pewter Museum sign links Moon Stone to Mt. Moon).
     - The Hiker wants a party of fully-evolved Pokémon.
     - The Rocket Grunt wants the OLD AMBER.
     - The Rocket Grunt wants a Parasect ('living fossil').
-    - The Hiker on 1F will move if the player walks into him repeatedly. (Result: Failed. No change after 4 attempts.)
 - **Failed Hypotheses:**
     - The Hiker on 1F will accept the POKé DOLL. (Result: Failed. Prof. Oak prevents item use.)
     - The Silph Scope will reveal a ghost in Mt. Moon. (Result: Failed. Prof. Oak prevents item use.)
