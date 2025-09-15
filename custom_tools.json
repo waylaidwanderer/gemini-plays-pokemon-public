@@ -887,37 +887,6 @@
       }
     ]
   },
-  "select_menu_option": {
-    "description": "Parses a menu from screen text, finds a target option, and returns the button presses to select it. Primarily designed for single-column menus.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "screen_text": {
-          "type": "string"
-        },
-        "target_option": {
-          "type": "string"
-        }
-      },
-      "required": [
-        "screen_text",
-        "target_option"
-      ]
-    },
-    "python_script": "import json\nimport re\n\ndef select_option():\n    screen_text = input_data['screen_text']\n    target_option = input_data['target_option']\n    \n    lines = [line.strip() for line in screen_text.split('\\n') if line.strip()]\n    \n    options = []\n    cursor_pos = -1\n    \n    for i, line in enumerate(lines):\n        if line.startswith('→'):\n            cursor_pos = i\n            options.append(line[1:].strip())\n        else:\n            # Handle multi-column layouts like YES/NO\n            parts = re.split(r'\\s{2,}', line)\n            if len(parts) > 1 and any(p.strip() for p in parts):\n                 options.extend([p.strip() for p in parts if p.strip()])\n            else:\n                 options.append(line)\n\n    if not options or target_option not in options:\n        print(json.dumps([]))\n        return\n\n    target_index = options.index(target_option)\n    \n    if cursor_pos == -1:\n        cursor_pos = 0\n\n    moves = target_index - cursor_pos\n    \n    buttons = []\n    if moves > 0:\n        buttons.extend(['Down'] * moves)\n    elif moves < 0:\n        buttons.extend(['Up'] * abs(moves))\n        \n    buttons.extend(['A', 'A', 'A'])\n    \n    print(json.dumps(buttons))\n\nselect_option()\n",
-    "history": [
-      {
-        "commit_message": "feat: Create tool to automate menu selection. This tool parses single-column menus to find and select a target option, addressing a critical inefficiency identified by Overwatch. This is a foundational step in improving automation and eliminating wasted turns on manual menu navigation.",
-        "timestamp": "2025-09-15T02:16:20.871Z",
-        "action_counter": 214651
-      },
-      {
-        "commit_message": "fix: Send triple 'A' press for confirmation. The tool failed to register a single 'A' press, similar to issues seen with other tools. This change implements the same brute-force fix of sending the input three times to improve reliability against suspected system-level input drops, directly addressing the tool failure from turn 214655.",
-        "timestamp": "2025-09-15T02:18:24.136Z",
-        "action_counter": 214656
-      }
-    ]
-  },
   "pc_deposit_lead": {
     "description": "Automates depositing the lead Pokémon in the party via the fixed PC menu. Assumes the main PC menu is open with the cursor on 'DEPOSIT PKMN'.",
     "input_schema": {
@@ -931,6 +900,22 @@
         "commit_message": "feat: Create tool to automate depositing lead Pokémon. This is a direct response to the mandatory self-assessment, which identified a failure to automate repetitive tasks. This tool will streamline PC management.",
         "timestamp": "2025-09-15T02:59:58.054Z",
         "action_counter": 214755
+      }
+    ]
+  },
+  "pc_withdraw_top": {
+    "description": "Automates withdrawing the top Pokémon from the current PC box. Assumes the main PC menu is open with the cursor on 'WITHDRAW PKMN'.",
+    "input_schema": {
+      "type": "object",
+      "properties": {},
+      "required": []
+    },
+    "python_script": "import json; print(json.dumps(['A', 'A', 'A']))",
+    "history": [
+      {
+        "commit_message": "feat: Create tool to automate withdrawing top Pokémon. This replaces the more generic select_menu_option tool to make space and provides more targeted automation for PC management, addressing a self-assessment finding.",
+        "timestamp": "2025-09-15T03:00:23.404Z",
+        "action_counter": 214756
       }
     ]
   }

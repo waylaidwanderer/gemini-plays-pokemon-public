@@ -57,11 +57,16 @@
     - **SMITH (Cerulean Cave):** AERODACTYL (Lv 65).
     - **Brock (Pewter Gym):** OMASTAR (Lv 64), ONIX (Lv 65), KABUTOPS (Lv 64), GOLEM (Lv 64), NINETALES (Lv 64), AERODACTYL (Lv 65).
 
-# IV. Anomalous Mechanics
+# IV. Game Mechanics & Rules
 
-- **General Mechanics:**
+- **Tile Traversal and Movement Rules:**
+    - **ground:** Standard walkable tile.
+    - **impassable:** Walls, objects, and other barriers. Cannot be entered.
+    - **grass (decorative):** Impassable tile type found indoors, such as in Pokémon Centers.
+    - **warp:** A tile that teleports the player to another location, often a door, ladder, or cave entrance.
+
+- **Anomalous Mechanics:**
     - **POKé DOLL Escape:** A POKé DOLL can be used to guarantee an escape from a wild Pokémon battle.
-- **Observed Anomalies:**
     - **Battle Menu Anomaly:** The game appears to intentionally restrict move selection in certain wild battles to the first move slot.
     - **Party Menu 'SWITCH' Lock:** The game can prevent using the 'SWITCH' command in the party menu, observed after multiple failed escape attempts.
     - **Shop Menu Navigation Anomaly:** The Cerulean Mart shop menu does not follow a standard grid layout and requires 'B' to exit.
