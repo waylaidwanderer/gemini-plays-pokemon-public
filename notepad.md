@@ -51,7 +51,11 @@
 # VI. Fossil Quest - Hypotheses Log
 
 - **Active Hypotheses (Ranked by Agent):**
-    - None. Need to generate new hypotheses.
+    - The Rocket Grunt wants a fainted fossil Pokémon. (Requires fainting Omanyte).
+    - The Hiker's dialogue 'Kids like you...' is a clue. Present an 'adult' Pokémon (e.g., Nidoqueen).
+    - The Rocket Grunt wants a Pokémon that knows the move 'Ancient Power'.
+    - The Rocket Grunt wants the DOME fossil or OLD AMBER, not the HELIX fossil.
+    - The Hiker is a disguised Rocket member seeking a password hidden in an item name.
 
 - **Failed Hypotheses:**
     - The Hiker on 1F will accept the POKé DOLL. (Result: Failed. Prof. Oak prevents item use.)
