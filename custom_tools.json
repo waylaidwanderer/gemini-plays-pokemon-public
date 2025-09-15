@@ -861,10 +861,7 @@
       "type": "object",
       "properties": {
         "action_plan": {
-          "type": "array",
-          "items": {
-            "type": "object"
-          }
+          "type": "string"
         },
         "party_size": {
           "type": "string"
@@ -875,7 +872,7 @@
         "party_size"
       ]
     },
-    "python_script": "import json\n\ndef generate_pc_shuffle_buttons():\n    try:\n        action_plan_data = input_data['action_plan']\n        party_size = int(input_data['party_size'])\n        buttons = []\n\n        def log_in_to_bills_pc():\n            buttons.extend(['A', 'A'])\n\n        def log_out_from_bills_pc():\n            buttons.extend(['Down', 'Down', 'Down', 'Down', 'A'])\n\n        def log_out_from_main_pc():\n            buttons.extend(['Down', 'Down', 'Down', 'Down', 'A'])\n\n        def do_deposit():\n            buttons.extend(['Down', 'A'])\n            buttons.extend(['A'])\n            buttons.extend(['A'])\n\n        def do_withdraw():\n            buttons.extend(['A'])\n            buttons.extend(['A'])\n            buttons.extend(['A'])\n            buttons.extend(['A'])\n\n        def do_swap(current_party_size):\n            log_out_from_bills_pc()\n            log_out_from_main_pc()\n            buttons.extend(['Start', 'A'])\n            buttons.extend(['A'])\n            buttons.extend(['Down', 'A'])\n            buttons.extend(['Down'] * (current_party_size - 1))\n            buttons.extend(['A'])\n            buttons.extend(['B', 'B'])\n            log_in_to_bills_pc()\n\n        log_in_to_bills_pc()\n        current_party_size_tracker = party_size\n\n        for action_item in action_plan_data:\n            action = action_item.get('action')\n            if action == 'DEPOSIT':\n                do_deposit()\n                current_party_size_tracker -= 1\n            elif action == 'WITHDRAW':\n                do_withdraw()\n                current_party_size_tracker += 1\n            elif action.startswith('SWAP LEAD WITH'):\n                do_swap(current_party_size_tracker)\n\n        log_out_from_bills_pc()\n        log_out_from_main_pc()\n\n        print(json.dumps(buttons))\n    except Exception as e:\n        import traceback\n        print(json.dumps([f'Error: {str(e)}']))\n\ngenerate_pc_shuffle_buttons()",
+    "python_script": "import json\n\ndef generate_pc_shuffle_buttons():\n    try:\n        action_plan_data = json.loads(input_data['action_plan'])\n        party_size = int(input_data['party_size'])\n        buttons = []\n\n        def log_in_to_bills_pc():\n            buttons.extend(['A', 'A'])\n\n        def log_out_from_bills_pc():\n            buttons.extend(['Down', 'Down', 'Down', 'Down', 'A'])\n\n        def log_out_from_main_pc():\n            buttons.extend(['Down', 'Down', 'Down', 'Down', 'A'])\n\n        def do_deposit():\n            buttons.extend(['Down', 'A'])\n            buttons.extend(['A'])\n            buttons.extend(['A'])\n\n        def do_withdraw():\n            buttons.extend(['A'])\n            buttons.extend(['A'])\n            buttons.extend(['A'])\n            buttons.extend(['A'])\n\n        def do_swap(current_party_size):\n            log_out_from_bills_pc()\n            log_out_from_main_pc()\n            buttons.extend(['Start', 'A'])\n            buttons.extend(['A'])\n            buttons.extend(['Down', 'A'])\n            buttons.extend(['Down'] * (current_party_size - 1))\n            buttons.extend(['A'])\n            buttons.extend(['B', 'B'])\n            log_in_to_bills_pc()\n\n        log_in_to_bills_pc()\n        current_party_size_tracker = party_size\n\n        for action_item in action_plan_data:\n            action = action_item.get('action')\n            if action == 'DEPOSIT':\n                do_deposit()\n                current_party_size_tracker -= 1\n            elif action == 'WITHDRAW':\n                do_withdraw()\n                current_party_size_tracker += 1\n            elif action.startswith('SWAP LEAD WITH'):\n                do_swap(current_party_size_tracker)\n\n        log_out_from_bills_pc()\n        log_out_from_main_pc()\n\n        print(json.dumps(buttons))\n    except Exception as e:\n        import traceback\n        print(json.dumps([f'Error: {str(e)}']))\n\ngenerate_pc_shuffle_buttons()",
     "history": [
       {
         "commit_message": "feat: Create tool to automate PC shuffling. This is a direct response to an Overwatch critique that identified a critical failure to automate a repetitive, error-prone manual task. This tool takes an action plan from the `pc_shuffler_agent` and executes the entire sequence of withdrawals, party swaps, and deposits automatically.",
@@ -996,6 +993,11 @@
         "commit_message": "refactor: Complete architectural overhaul to improve reliability. This commit addresses the Overwatch critique by rewriting the tool to perform all actions within a single, stateful PC session where possible, only logging out when necessary for party swaps. The logic is now based directly on the validated simulation in the notepad, ensuring correct menu navigation for Pokémon storage, not item storage. This is a critical fix to address repeated, catastrophic tool failures.",
         "timestamp": "2025-09-15T10:49:25.672Z",
         "action_counter": 215753
+      },
+      {
+        "commit_message": "fix: Add JSON parsing for action_plan. The tool was failing with an AttributeError because it was treating the input `action_plan` (a JSON string) as a Python list. This commit adds `json.loads()` to correctly parse the string into a list of dictionaries, which is the required format for the rest of the script. This is a critical fix to resolve the tool's repeated parsing failures.",
+        "timestamp": "2025-09-15T10:51:00.471Z",
+        "action_counter": 215756
       }
     ]
   }
