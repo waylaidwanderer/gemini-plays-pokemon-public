@@ -57,7 +57,7 @@
     - **SMITH (Cerulean Cave):** AERODACTYL (Lv 65).
     - **Brock (Pewter Gym):** OMASTAR (Lv 64), ONIX (Lv 65), KABUTOPS (Lv 64), GOLEM (Lv 64), NINETALES (Lv 64), AERODACTYL (Lv 65).
 
-# IV. Game Mechanics & Tile Glossary
+# IV. Anomalous Mechanics
 
 - **General Mechanics:**
     - **POKé DOLL Escape:** A POKé DOLL can be used to guarantee an escape from a wild Pokémon battle.
@@ -65,8 +65,7 @@
     - **Battle Menu Anomaly:** The game appears to intentionally restrict move selection in certain wild battles to the first move slot.
     - **Party Menu 'SWITCH' Lock:** The game can prevent using the 'SWITCH' command in the party menu, observed after multiple failed escape attempts.
     - **Shop Menu Navigation Anomaly:** The Cerulean Mart shop menu does not follow a standard grid layout and requires 'B' to exit.
+    - **PC Withdrawal/Deposit Anomaly:** The PC has a non-standard, fixed behavior. Selecting 'WITHDRAW PKMN' automatically withdraws the first Pokémon in the box list if the party has space. Selecting 'DEPOSIT PKMN' automatically deposits the lead Pokémon in the party. There is no option to choose which Pokémon to withdraw or deposit.
 - **Area-Specific Mechanics:**
     - **Pewter Museum Trap Tile:** On Pewter Museum 2F, the tile at (3,5) is a trap that warps the player to an isolated room. Escape requires interacting with a follower Pikachu.
     - **Pokemon Tower 6F Healer Change:** The friendly Channeler at (13,11) is no longer a healer. Her dialogue has changed to 'I feel anemic and weak...'.
-
-- **PC Withdrawal/Deposit Anomaly:** The PC has a non-standard, fixed behavior. Selecting 'WITHDRAW PKMN' automatically withdraws the first Pokémon in the box list if the party has space. Selecting 'DEPOSIT PKMN' automatically deposits the lead Pokémon in the party. There is no option to choose which Pokémon to withdraw or deposit.

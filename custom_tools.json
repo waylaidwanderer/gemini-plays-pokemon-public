@@ -917,5 +917,21 @@
         "action_counter": 214656
       }
     ]
+  },
+  "pc_deposit_lead": {
+    "description": "Automates depositing the lead Pokémon in the party via the fixed PC menu. Assumes the main PC menu is open with the cursor on 'DEPOSIT PKMN'.",
+    "input_schema": {
+      "type": "object",
+      "properties": {},
+      "required": []
+    },
+    "python_script": "import json; print(json.dumps(['A', 'A', 'A']))",
+    "history": [
+      {
+        "commit_message": "feat: Create tool to automate depositing lead Pokémon. This is a direct response to the mandatory self-assessment, which identified a failure to automate repetitive tasks. This tool will streamline PC management.",
+        "timestamp": "2025-09-15T02:59:58.054Z",
+        "action_counter": 214755
+      }
+    ]
   }
 }
