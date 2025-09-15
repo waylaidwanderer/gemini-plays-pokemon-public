@@ -76,3 +76,7 @@
 - **steps**: Allows movement between 'ground' and 'elevated_ground'.
 - **impassable**: Walls and other obstacles. Cannot be entered.
 - **ladder_up** / **ladder_down**: Warps between floors.
+
+# VI. Tool Development Notes
+
+- **automated_path_navigator Bug:** The tool incorrectly treats defeated trainers (like the Rocket at Mt. Moon B2F (16, 23)) as impassable objects. This needs to be fixed to allow pathing through areas after clearing them.
