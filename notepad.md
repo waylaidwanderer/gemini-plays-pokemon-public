@@ -71,3 +71,4 @@
 
 # VII. Immediate Maintenance Tasks
 - **Map 60 (Mt. Moon B1F):** Delete redundant 'Rock checked' markers on impassable tiles upon returning to this map.
+- **Warp Tiles (Ladders/Doors):** Most 1x1 warp tiles are instant. To use them again to go back, you must step off the tile and then step back on.
