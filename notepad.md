@@ -91,3 +91,4 @@
 # VII. Future Agent & Tool Ideas
 
 - **Agent Idea: Automated Task Decomposer:** An agent that takes a high-level goal (e.g., 'Get the Soul Badge') and breaks it down into a logical, ordered sequence of sub-tasks (e.g., '1. Navigate to Fuchsia City', '2. Find the Safari Zone Warden's missing item', '3. Obtain the Strength HM', '4. Solve the Fuchsia Gym puzzle', '5. Defeat Koga'). This would help structure my planning process and ensure no critical steps are missed.
+- **Tool Idea: Lead Matchup Analyzer:** A computational tool that analyzes the lead Pokémon in a wild battle against the player's party. It would take the opponent's species and level, and the player's full party data (species, level, HP, status) and output a simple recommendation: 'STAY' or 'SWITCH to [Optimal Pokémon]'. This would automate the decision-making process for initial encounters.
