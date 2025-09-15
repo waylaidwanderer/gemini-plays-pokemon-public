@@ -7,7 +7,46 @@
     - **Objective:** Obtain a POKé DOLL and give it to COPYCAT.
     - **Status:** Stalled. All leads in Cerulean City exhausted. Suspect COPYCAT is not in a currently accessible area.
 
-# II. Fossil Quest - Hypotheses Log
+# II. Game Mechanics & World Rules
+
+- **Anomalous Mechanics:**
+    - **POKé DOLL Escape:** A POKé DOLL can be used to guarantee an escape from a wild Pokémon battle.
+    - **Battle Menu Anomaly:** The game appears to intentionally restrict move selection in certain wild battles to the first move slot.
+    - **Party Menu 'SWITCH' Lock:** The game can prevent using the 'SWITCH' command in the party menu, observed after multiple failed escape attempts.
+    - **Shop Menu Navigation Anomaly:** The Cerulean Mart shop menu does not follow a standard grid layout and requires 'B' to exit.
+
+# III. Battle Intelligence
+
+- **Type Effectiveness Chart (Verified):**
+    - Water > Rock/Ground
+    - Water is not very effective against Bug/Grass, Ghost/Poison
+    - Poison is not very effective against Poison/Flying, Rock/Ground
+    - Flying is not very effective against Rock/Ground
+- **Notable Trainer Rosters:**
+    - **Sabrina (Saffron Gym):** MR. MIME (Lv 65), HYPNO (Lv 64), SLOWBRO (Lv 64), JYNX (Lv 64), GENGAR (Lv 64), ALAKAZAM (Lv 65).
+    - **SMITH (Cerulean Cave):** AERODACTYL (Lv 65).
+    - **Brock (Pewter Gym):** OMASTAR (Lv 64), ONIX (Lv 65), KABUTOPS (Lv 64), GOLEM (Lv 64), NINETALES (Lv 64), AERODACTYL (Lv 65).
+
+# IV. Key Discoveries & Lessons Learned
+
+- **PC Mechanics (CRITICAL):** The PC is **stateful**. It remembers the last system accessed (e.g., 'BILL's PC' for Pokémon or 'Gem's PC' for Items). When turning on the PC, it will open directly into the last-used system, bypassing the main selection menu. Any automation tool MUST account for this by having a reset sequence (e.g., pressing 'B' multiple times) to return to a known state before executing commands.
+- **Tool Development Failure:** Repeatedly deferred fixing a critically flawed tool (`pc_shuffler_executor`) instead of addressing it immediately. Operated on an untested assumption (PC is stateless) which caused a loop of failures. **Lesson:** Verify core mechanics manually before automating them. Fix broken tools immediately.
+- **Navigation Failure (Confirmation Bias):** Incorrectly assumed the eastern section of Route 4 was the correct path without verifying, leading to a significant detour. **Lesson:** Do not assume a path is correct. Explore all options when the way forward is not immediately clear.
+
+# V. Tile Mechanics & Interaction Rules
+
+- **General Traversal:**
+    - `ledge`: Can only be jumped down (from Y-1 to Y+2 in one move). Impassable from all other directions.
+    - `steps`: The only way to move between `ground` and `elevated_ground` tiles.
+    - `impassable`: Walls, counters, etc. Cannot be entered.
+    - `ground`: Walkable tile.
+    - `grass`: Tall grass for wild encounters. Walkable.
+    - `ladder_up` / `ladder_down`: Warp tiles that lead to different floors.
+- **PC Interaction:**
+    - **Tile:** The tile for the PC in Pokémon Centers (e.g., Viridian Pokecenter (14,4)) is typed as `grass` in the map data, but it is impassable. Interaction requires standing on the tile directly below it (at (X, Y+1)) and facing up.
+    - **Mechanics:** Selecting 'WITHDRAW PKMN' automatically withdraws the first Pokémon in the box list if the party has space. Selecting 'DEPOSIT PKMN' automatically deposits the lead Pokémon in the party. There is no option to choose which Pokémon to withdraw or deposit.
+
+# VI. Fossil Quest - Hypotheses Log
 
 - **Active Hypotheses (Ranked by Agent):**
     1.  **Hiker Disguise:** The Hiker on 1F will move if a 'Hiker' Pokémon (like Geodude) is in the party lead.
@@ -41,81 +80,7 @@
     - Evolving a Clefairy with a Moon Stone in front of the Grunt will trigger an event. (Result: Failed. Prof. Oak prevents item use.)
     - Speaking to the Old Man in Viridian City will influence an NPC in Mt. Moon. (Result: Failed.)
 
-# III. Game Mechanics & World Rules
-
-- **Anomalous Mechanics:**
-    - **POKé DOLL Escape:** A POKé DOLL can be used to guarantee an escape from a wild Pokémon battle.
-    - **Battle Menu Anomaly:** The game appears to intentionally restrict move selection in certain wild battles to the first move slot.
-    - **Party Menu 'SWITCH' Lock:** The game can prevent using the 'SWITCH' command in the party menu, observed after multiple failed escape attempts.
-    - **Shop Menu Navigation Anomaly:** The Cerulean Mart shop menu does not follow a standard grid layout and requires 'B' to exit.
-
-# IV. Battle Intelligence
-
-- **Type Effectiveness Chart (Verified):**
-    - Water > Rock/Ground
-    - Water is not very effective against Bug/Grass, Ghost/Poison
-    - Poison is not very effective against Poison/Flying, Rock/Ground
-    - Flying is not very effective against Rock/Ground
-- **Notable Trainer Rosters:**
-    - **Sabrina (Saffron Gym):** MR. MIME (Lv 65), HYPNO (Lv 64), SLOWBRO (Lv 64), JYNX (Lv 64), GENGAR (Lv 64), ALAKAZAM (Lv 65).
-    - **SMITH (Cerulean Cave):** AERODACTYL (Lv 65).
-    - **Brock (Pewter Gym):** OMASTAR (Lv 64), ONIX (Lv 65), KABUTOPS (Lv 64), GOLEM (Lv 64), NINETALES (Lv 64), AERODACTYL (Lv 65).
-
-# V. Key Discoveries & Lessons Learned
-
-- **PC Mechanics (CRITICAL):** The PC is **stateful**. It remembers the last system accessed (e.g., 'BILL's PC' for Pokémon or 'Gem's PC' for Items). When turning on the PC, it will open directly into the last-used system, bypassing the main selection menu. Any automation tool MUST account for this by having a reset sequence (e.g., pressing 'B' multiple times) to return to a known state before executing commands.
-- **Tool Development Failure:** Repeatedly deferred fixing a critically flawed tool (`pc_shuffler_executor`) instead of addressing it immediately. Operated on an untested assumption (PC is stateless) which caused a loop of failures. **Lesson:** Verify core mechanics manually before automating them. Fix broken tools immediately.
-
-# VI. Tile Mechanics & Interaction Rules
-
-- **General Traversal:**
-    - `ledge`: Can only be jumped down (from Y-1 to Y+2 in one move). Impassable from all other directions.
-    - `steps`: The only way to move between `ground` and `elevated_ground` tiles.
-    - `impassable`: Walls, counters, etc. Cannot be entered.
-    - `ground`: Walkable tile.
-    - `grass`: Tall grass for wild encounters. Walkable.
-- **PC Interaction:**
-    - **Tile:** The tile for the PC in Pokémon Centers (e.g., Viridian Pokecenter (14,4)) is typed as `grass` in the map data, but it is impassable. Interaction requires standing on the tile directly below it (at (X, Y+1)) and facing up.
-    - **Mechanics:** Selecting 'WITHDRAW PKMN' automatically withdraws the first Pokémon in the box list if the party has space. Selecting 'DEPOSIT PKMN' automatically deposits the lead Pokémon in the party. There is no option to choose which Pokémon to withdraw or deposit.
-
-# VII. Tool Development - PC Shuffler Simulation (Blueprint)
-
-- **Objective:** Document the precise button sequence for one full PC shuffle cycle (withdraw, swap, deposit) to serve as a blueprint for the `pc_shuffler_executor` tool.
-- **Simulation: One Full Cycle (Validated)**
-    1.  **Start:** Player is in the overworld, facing the PC.
-    2.  **Action: Withdraw**
-        - `A` (Interact with PC) -> Opens "BILL'S PC/GEM's PC/..." menu.
-        - `A` (Select BILL's PC) -> Opens "WITHDRAW/DEPOSIT/..." menu.
-        - `A` (Select WITHDRAW PKMN) -> Opens box list.
-        - `A` (Confirm withdrawal of top Pokémon) -> "Got [Pokemon Name]" message appears.
-        - `A` (Acknowledge message) -> Returns to "WITHDRAW/DEPOSIT/..." menu.
-        - `Down`, `Down` (Navigate to SEE YA!)
-        - `A` (Select SEE YA!) -> Returns to "BILL'S PC/GEM's PC/..." menu.
-        - `Down`, `Down`, `Down`, `Down` (Navigate to LOG OFF)
-        - `A` (Select LOG OFF) -> Exits PC.
-    3.  **Action: Swap** (From lead to last slot)
-        - `Start` (Open main menu)
-        - `A` (Select PKMN)
-        - `A` (Select lead Pokémon)
-        - `Down` (Navigate to SWITCH)
-        - `A` (Select SWITCH)
-        - `Down` * (party_size - 1) times (Navigate to last Pokémon slot)
-        - `A` (Confirm swap)
-        - `B` (Exit party menu)
-        - `B` (Exit main menu)
-    4.  **Action: Deposit**
-        - `A` (Interact with PC) -> Opens "BILL'S PC/GEM's PC/..." menu.
-        - `A` (Select BILL's PC) -> Opens "WITHDRAW/DEPOSIT/..." menu.
-        - `Down` (Navigate to DEPOSIT PKMN)
-        - `A` (Select DEPOSIT PKMN) -> Opens party list.
-        - `A` (Select lead Pokémon to deposit)
-        - `A` (Confirm DEPOSIT) -> Returns to "WITHDRAW/DEPOSIT/..." menu.
-        - `Down` (Navigate to SEE YA!)
-        - `A` (Select SEE YA!) -> Returns to "BILL'S PC/GEM's PC/..." menu.
-        - `Down`, `Down`, `Down`, `Down` (Navigate to LOG OFF)
-        - `A` (Select LOG OFF) -> Exits PC.
-    5.  **End:** Player is in the overworld, facing the PC. One cycle complete.
-
-# VIII. Future Agent & Tool Ideas
+# VII. Future Agent & Tool Ideas
+- **Auto-Battle Tool:** Create a tool to automate simple wild encounters by selecting the first move.
 - **Team Composition Agent:** Analyze Pokedex and suggest teams for specific challenges (e.g., Gyms) based on type coverage and known opponent rosters.
 - **Grinding Optimizer Agent:** Suggest optimal grinding locations based on party levels, target EXP, and wild Pokémon data from known areas.
