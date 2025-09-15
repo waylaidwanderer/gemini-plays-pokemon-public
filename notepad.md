@@ -15,7 +15,6 @@
     3.  **Poké Doll for Hiker:** The Hiker on 1F will accept the POKé DOLL.
 
 - **Failed Hypotheses:**
-    - **Moon Stone Evolution:** Evolving a Clefairy with a Moon Stone in front of the Grunt will trigger an event. (Result: Failed. Prof. Oak prevents the item's use.)
     - The Silph Scope will reveal a ghost in Mt. Moon, or the Grunt himself is a ghost. (Result: Failed. Prof. Oak prevents the item's use.)
     - The Rocket Grunt on B2F will accept the POKé DOLL as the 'fossil'. (Result: Failed. Prof. Oak prevents the item's use.)
     - Giving the POKé DOLL to the Grunt will make the Hiker on 1F move. (Result: Dependent on failed hypothesis, invalidated.)
@@ -40,6 +39,7 @@
     - The Rocket Grunt will accept a thematically 'fossil' Pokémon like Marowak.
     - The Pokémon Tower is a red herring for the fossil quest.
     - Interacting with the second Rocket Grunt on B2F at (30, 18) will open a new path or provide a clue. (Result: Failed. Dialogue was generic and unchanged.)
+    - Evolving a Clefairy with a Moon Stone in front of the Grunt will trigger an event. (Result: Failed. Prof. Oak prevents the item's use.)
 
 - **Untested Assumptions:**
     - The Hiker on 1F and the Rocket Grunt on B2F are part of the same puzzle. They might be two separate roadblocks.
