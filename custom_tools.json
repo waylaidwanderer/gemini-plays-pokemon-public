@@ -1055,15 +1055,20 @@
       }
     ]
   },
-  "auto_battle_tool": {
-    "description": "Automates simple wild encounters by selecting the first available move. Assumes the main battle menu (FIGHT/PKMN/ITEM/RUN) is active.",
+  "party_swap_lead": {
+    "description": "Automates swapping the second Pokémon in the party to the lead position.",
     "input_schema": {},
-    "python_script": "import json\nprint(json.dumps(['A', 'A']))",
+    "python_script": "import json\nprint(json.dumps([\"Start\", \"A\", \"Down\", \"A\", \"A\", \"Up\", \"A\", \"B\", \"B\"]))",
     "history": [
       {
-        "commit_message": "feat: Create tool to automate simple wild battles. This tool selects the 'FIGHT' option and then confirms the first move, streamlining repetitive encounters.",
-        "timestamp": "2025-09-15T13:07:56.861Z",
-        "action_counter": 215985
+        "commit_message": "feat: Create tool to automate party lead swap. This is a direct response to an Overwatch critique identifying repeated manual failures at this task. This tool will prevent future errors and improve efficiency.",
+        "timestamp": "2025-09-15T16:12:58.278Z",
+        "action_counter": 216204
+      },
+      {
+        "commit_message": "feat: Create tool to automate party lead swap. This is a direct response to an Overwatch critique identifying repeated manual failures at this task. This tool will prevent future errors and improve efficiency.",
+        "timestamp": "2025-09-15T16:13:21.326Z",
+        "action_counter": 216205
       }
     ]
   }
