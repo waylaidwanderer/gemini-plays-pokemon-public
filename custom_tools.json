@@ -808,22 +808,6 @@
       }
     ]
   },
-  "pc_withdraw_top": {
-    "description": "Automates withdrawing the top Pokémon from the current PC box. Assumes the main PC menu is open with the cursor on 'WITHDRAW PKMN'.",
-    "input_schema": {
-      "type": "object",
-      "properties": {},
-      "required": []
-    },
-    "python_script": "import json; print(json.dumps(['A', 'A', 'A']))",
-    "history": [
-      {
-        "commit_message": "feat: Create tool to automate withdrawing top Pokémon. This replaces the more generic select_menu_option tool to make space and provides more targeted automation for PC management, addressing a self-assessment finding.",
-        "timestamp": "2025-09-15T03:00:23.404Z",
-        "action_counter": 214756
-      }
-    ]
-  },
   "party_swap_lead": {
     "description": "Automates swapping the first and second Pokémon in the party. Assumes the party menu is open with the cursor on the lead Pokémon.",
     "input_schema": {
@@ -868,6 +852,32 @@
         "commit_message": "feat: Create tool to automate move selection. This is a direct response to an Overwatch critique identifying a missed opportunity for automation. This tool will streamline frequent, low-stakes wild battles by automatically selecting and executing a chosen move.",
         "timestamp": "2025-09-15T04:35:48.815Z",
         "action_counter": 215003
+      }
+    ]
+  },
+  "pc_shuffler_executor": {
+    "description": "Executes a full PC shuffling plan from the pc_shuffler_agent. Takes the agent's action plan as input and outputs a complete sequence of button presses to automate the process. Must be started from the main PC menu (BILL's PC, etc.).",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "action_plan": {
+          "type": "string"
+        },
+        "party_size": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "action_plan",
+        "party_size"
+      ]
+    },
+    "python_script": "import json\n\ndef generate_pc_shuffle_buttons(action_plan_str, party_size_str):\n    try:\n        action_plan = json.loads(action_plan_str)\n        party_size_during_cycle = int(party_size_str)\n    except (json.JSONDecodeError, ValueError):\n        print(json.dumps({\"error\": \"Invalid JSON or party_size\"}))\n        return\n\n    buttons = []\n    # Assumes starting at main PC menu (BILL's PC)\n    buttons.extend(['A']) # Select BILL's PC\n    buttons.extend(['A']) # Acknowledge 'Accessed PC'\n\n    for i, action_data in enumerate(action_plan):\n        action = action_data.get(\"action\")\n\n        if action == \"WITHDRAW\":\n            buttons.extend(['A', 'A']) # Withdraw and confirm\n        \n        elif action == \"SWAP LEAD WITH\":\n            buttons.extend(['Down', 'Down', 'Down', 'Down', 'Down', 'A']) # Select SEE YA!\n            buttons.extend(['Down', 'Down', 'Down', 'Down', 'A'])       # Select LOG OFF\n            buttons.extend(['Start', 'A'])\n            # Navigate to the last pokemon in the party to select it\n            for _ in range(party_size_during_cycle):\n                buttons.append('Down')\n            buttons.extend(['A', 'Down', 'A'])\n            # Navigate back to the top to swap with the lead\n            for _ in range(party_size_during_cycle):\n                buttons.append('Up')\n            buttons.append('A')\n            buttons.extend(['B', 'B']) # Exit party and main menu\n            buttons.extend(['A']) # Re-interact with PC\n            buttons.extend(['A', 'A']) # Select BILL's PC and acknowledge\n            \n        elif action == \"DEPOSIT\":\n            buttons.extend(['Down', 'A']) # Select DEPOSIT and confirm\n            buttons.append('B') # Go back from box view to menu\n            \n    print(json.dumps(buttons))\n\ngenerate_pc_shuffle_buttons(input_data['action_plan'], input_data['party_size'])",
+    "history": [
+      {
+        "commit_message": "feat: Create tool to automate PC shuffling. This is a direct response to an Overwatch critique that identified a critical failure to automate a repetitive, error-prone manual task. This tool takes an action plan from the `pc_shuffler_agent` and executes the entire sequence of withdrawals, party swaps, and deposits automatically.",
+        "timestamp": "2025-09-15T06:40:51.957Z",
+        "action_counter": 215354
       }
     ]
   }
