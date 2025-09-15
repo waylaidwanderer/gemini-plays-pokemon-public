@@ -11,11 +11,11 @@
 
 - **Active Hypotheses (Ranked by Agent):**
     1.  **Fainted Fossil:** The Grunt wants a revived fossil Pokémon that has fainted. (Untestable due to low encounter rate in current area).
-    2.  **Moon Stone Evolution:** Evolving a Clefairy with a Moon Stone in front of the Grunt will trigger an event.
-    3.  **Hiker Disguise:** The Hiker on 1F will move if a 'Hiker' Pokémon (like Geodude) is in the party lead.
-    4.  **Poké Doll for Hiker:** The Hiker on 1F will accept the POKé DOLL.
+    2.  **Hiker Disguise:** The Hiker on 1F will move if a 'Hiker' Pokémon (like Geodude) is in the party lead.
+    3.  **Poké Doll for Hiker:** The Hiker on 1F will accept the POKé DOLL.
 
 - **Failed Hypotheses:**
+    - **Moon Stone Evolution:** Evolving a Clefairy with a Moon Stone in front of the Grunt will trigger an event. (Result: Failed. Prof. Oak prevents the item's use.)
     - The Silph Scope will reveal a ghost in Mt. Moon, or the Grunt himself is a ghost. (Result: Failed. Prof. Oak prevents the item's use.)
     - The Rocket Grunt on B2F will accept the POKé DOLL as the 'fossil'. (Result: Failed. Prof. Oak prevents the item's use.)
     - Giving the POKé DOLL to the Grunt will make the Hiker on 1F move. (Result: Dependent on failed hypothesis, invalidated.)
@@ -76,7 +76,3 @@
 - **steps**: Allows movement between 'ground' and 'elevated_ground'.
 - **impassable**: Walls and other obstacles. Cannot be entered.
 - **ladder_up** / **ladder_down**: Warps between floors.
-
-# VI. Tool Development Notes
-
-- **automated_path_navigator Bug:** The tool incorrectly treats defeated trainers (like the Rocket at Mt. Moon B2F (16, 23)) as impassable objects. This needs to be fixed to allow pathing through areas after clearing them.
