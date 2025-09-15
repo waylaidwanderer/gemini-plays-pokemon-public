@@ -8,7 +8,7 @@
 # II. Quest Log
 - **Current Quest: The Mt. Moon Fossil**
     - **Objective:** Find a fossil to give to the Rocket Grunt blocking the path at Mt. Moon B2F (30,12), or find a way past the Hiker at 1F (6,7).
-    - **Status:** Active. The isolated eastern partition of B2F has been fully explored and confirmed to be a dead end. Current focus is re-investigating the main paths on 1F, starting with the Hiker at (6,7).
+    - **Status:** Active. The isolated eastern partition of B2F has been fully explored and confirmed to be a dead end. Current focus is testing new hypotheses on the Rocket Grunt.
 - **Stalled Quest: The Copycat's Gift**
     - **Objective:** Obtain a POKé DOLL and give it to COPYCAT.
     - **Status:** Stalled. All leads in Cerulean City have been exhausted. Suspect COPYCAT is not in a currently accessible area.
@@ -28,11 +28,9 @@
 
 # IV. Fossil Quest - Hypotheses Log
 - **Active Hypotheses (Ranked by Agent):**
-    1.  **POKé DOLL as Fossil:** The Rocket Grunt on B2F will accept the POKé DOLL as the 'fossil'.
-    2.  **POKé DOLL and the Hiker:** Getting rid of the POKé DOLL (by giving it to the Grunt) will make the Hiker on 1F move because the player is no longer a 'kid' with a toy.
-    3.  **Fainted Fossil:** The Grunt wants a revived fossil Pokémon that has fainted.
-    4.  **No Starter in Party:** The Hiker will move if the player's starter Pokémon is in the PC.
-    5.  **Silph Scope Ghost:** The Silph Scope will reveal a ghost in Mt. Moon that needs to be captured and shown to the Grunt.
+    1.  **Fainted Fossil:** The Grunt wants a revived fossil Pokémon that has fainted.
+    2.  **No Starter in Party:** The Hiker will move if the player's starter Pokémon is in the PC.
+    3.  **Silph Scope Ghost:** The Silph Scope will reveal a ghost in Mt. Moon that needs to be captured and shown to the Grunt.
 - **Failed Hypotheses:**
     - The Hiker will only move for an 'adult', a status temporarily gained by interacting with the 'Old Man' in Viridian City. (Result: Failed. Hiker's dialogue was unchanged.)
     - The fossil is in an interactable rock.
@@ -55,6 +53,8 @@
     - The Rocket Grunt will accept a thematically 'fossil' Pokémon like Marowak.
     - The Pokémon Tower is a red herring for the fossil quest.
     - Interacting with the second Rocket Grunt on B2F at (30, 18) will open a new path or provide a clue. (Result: Failed. Dialogue was generic and unchanged.)
+    - The Rocket Grunt on B2F will accept the POKé DOLL as the 'fossil'. (Result: Failed. Prof. Oak prevents the item's use.)
+    - Giving the POKé DOLL to the Grunt will make the Hiker on 1F move. (Result: Dependent on failed hypothesis, invalidated.)
 
 # V. Game & World Mechanics
 - **Battle Menu Anomaly:** The game appears to intentionally restrict move selection in certain wild battles to the first move slot. Strategy: For low-stakes wild battles, running is the most efficient option.
