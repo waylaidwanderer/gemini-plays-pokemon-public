@@ -94,3 +94,4 @@
 
 - **Mt. Moon Progression:** If all current hypotheses for the Hiker/Grunt puzzle fail, the core assumption that this is the only path forward may be incorrect. The contingency plan is to perform a full re-exploration of all floors of Mt. Moon, looking for hidden paths, interactable scenery, or different outcomes from previously-used warps that might have been missed.
     - The Hiker on 1F will move if a 'Hiker' Pokémon (like Geodude) is in the party lead. (Result: Failed. Dialogue unchanged.)
+- The Hiker on 1F will move if the Poké Flute is used near him. (Result: Failed. Item use had no effect.)
