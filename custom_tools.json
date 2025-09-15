@@ -813,27 +813,6 @@
       }
     ]
   },
-  "party_swap_lead": {
-    "description": "Automates swapping the first and second Pokémon in the party. Assumes the party menu is open with the cursor on the lead Pokémon.",
-    "input_schema": {
-      "type": "object",
-      "properties": {},
-      "required": []
-    },
-    "python_script": "import json\nprint(json.dumps([\"A\", \"Down\", \"Down\", \"A\", \"Down\", \"A\"]))",
-    "history": [
-      {
-        "commit_message": "feat: Create tool to automate swapping lead Pokémon. This is a direct response to a self-assessment finding, which identified a failure to automate repetitive menu navigation.",
-        "timestamp": "2025-09-15T03:15:31.885Z",
-        "action_counter": 214807
-      },
-      {
-        "commit_message": "feat: Create tool to automate swapping lead Pokémon. This is a direct response to a self-assessment finding, which identified a failure to automate repetitive menu navigation.",
-        "timestamp": "2025-09-15T04:59:11.414Z",
-        "action_counter": 215063
-      }
-    ]
-  },
   "select_battle_move": {
     "description": "Automates selecting a move from the in-battle move menu. Takes a move name and the current screen text as input, and outputs the button presses needed to highlight and confirm it. Assumes the move selection screen is active.",
     "input_schema": {
@@ -851,7 +830,7 @@
         "screen_text"
       ]
     },
-    "python_script": "import json\nimport re\n\ndef select_move():\n    screen_text = input_data['screen_text']\n    move_to_select = input_data['move_to_select']\n\n    lines = screen_text.split('\\n')\n    move_lines = []\n    pp_found = False\n    for line in lines:\n        if 'TYPE/' in line or re.search(r'\\d+/\\d+', line):\n            pp_found = True\n            continue\n        if pp_found and line.strip() and line.strip() != '-':\n            move_lines.append(line.strip().replace('→', '').strip())\n\n    if not move_lines:\n        print(json.dumps([]))\n        return\n\n    try:\n        target_index = move_lines.index(move_to_select)\n    except ValueError:\n        print(json.dumps([]))\n        return\n\n    cursor_pos = 0\n    for i, move in enumerate(move_lines):\n        if '→' in screen_text and move_to_select in screen_text.split('\\n')[i+2]: # Heuristic for finding cursor\n             cursor_pos = i\n             break\n    \n    # Simplified cursor finding for now\n    for i, line in enumerate(lines):\n        if '→' in line:\n            # Assuming the move is on the same line or the line after the cursor arrow\n            if move_lines[0] in line:\n                cursor_pos = 0\n            elif len(move_lines) > 1 and move_lines[1] in line:\n                cursor_pos = 1\n            elif len(move_lines) > 2 and move_lines[2] in line:\n                cursor_pos = 2\n            elif len(move_lines) > 3 and move_lines[3] in line:\n                cursor_pos = 3\n            break\n\n    # Fallback to find cursor based on arrow\n    if '→' in screen_text:\n        arrow_line_index = -1\n        for i, line in enumerate(lines):\n            if '→' in line:\n                arrow_line_index = i\n                break\n        if arrow_line_index != -1:\n            # This is a heuristic, might need refinement\n            # Find the start of the move list\n            move_list_start_index = -1\n            for i, line in enumerate(lines):\n                if 'TYPE/' in line:\n                    move_list_start_index = i + 2\n                    break\n            if move_list_start_index != -1:\n                 cursor_pos = arrow_line_index - move_list_start_index\n\n    # Calculate button presses\n    presses = []\n    vertical_moves = target_index - cursor_pos\n    if vertical_moves > 0:\n        presses.extend(['Down'] * vertical_moves)\n    elif vertical_moves < 0:\n        presses.extend(['Up'] * abs(vertical_moves))\n\n    presses.append('A')\n    print(json.dumps(presses))\n\nselect_move()",
+    "python_script": "import json\nimport re\n\ndef select_move():\n    screen_text = input_data['screen_text']\n    move_to_select = input_data['move_to_select']\n    \n    lines = screen_text.split('\\n')\n    \n    try:\n        type_line_index = -1\n        for i, line in enumerate(lines):\n            if 'TYPE/' in line:\n                type_line_index = i\n                break\n        \n        if type_line_index == -1:\n            print(json.dumps([]))\n            return\n\n        moves = [line.strip().replace('→', '') for line in lines[type_line_index + 2:type_line_index + 6]]\n        \n        cleaned_moves = []\n        for move in moves:\n            match = re.match(r'([A-Z\\s-]+)', move)\n            if match:\n                cleaned_moves.append(match.group(1).strip())\n            else:\n                cleaned_moves.append(\"\")\n\n        cursor_pos = -1\n        for i, line in enumerate(lines):\n            if '→' in line:\n                if i in range(type_line_index + 2, type_line_index + 6):\n                    cursor_pos = i - (type_line_index + 2)\n                    break\n        \n        if cursor_pos == -1:\n            cursor_pos = 0\n\n        target_pos = -1\n        for i, move in enumerate(cleaned_moves):\n            if move.upper() == move_to_select.upper():\n                target_pos = i\n                break\n        \n        if target_pos == -1:\n            print(json.dumps([]))\n            return\n\n        presses = []\n        diff = target_pos - cursor_pos\n        \n        if diff > 0:\n            for _ in range(diff):\n                presses.append(\"Down\")\n        elif diff < 0:\n            for _ in range(abs(diff)):\n                presses.append(\"Up\")\n        \n        presses.append(\"A\")\n        \n        print(json.dumps(presses))\n\n    except Exception as e:\n        print(json.dumps([]))\n\nselect_move()\n",
     "history": [
       {
         "commit_message": "feat: Create tool to automate move selection. This is a direct response to an Overwatch critique identifying a missed opportunity for automation. This tool will streamline frequent, low-stakes wild battles by automatically selecting and executing a chosen move.",
@@ -862,6 +841,16 @@
         "commit_message": "feat: Create tool to automate move selection. This is a direct response to a self-assessment finding, which identified a failure to automate repetitive wild battles. This tool will streamline frequent, low-stakes wild battles by automatically selecting and executing a chosen move.",
         "timestamp": "2025-09-15T12:32:50.621Z",
         "action_counter": 215932
+      },
+      {
+        "commit_message": "fix: Overhaul move parsing logic. The previous version was unreliable and selected the wrong move. This commit implements a more robust parsing method that anchors to the 'TYPE/' line and reads the subsequent four lines as the move list, correctly handling single-column layouts. This is a critical fix to address a major tool failure.",
+        "timestamp": "2025-09-15T12:51:33.188Z",
+        "action_counter": 215961
+      },
+      {
+        "commit_message": "fix: Overhaul move parsing logic. The previous version was unreliable and selected the wrong move. This commit implements a more robust parsing method that anchors to the 'TYPE/' line and reads the subsequent four lines as the move list, correctly handling single-column layouts. This is a critical fix to address a major tool failure.",
+        "timestamp": "2025-09-15T12:55:21.749Z",
+        "action_counter": 215965
       }
     ]
   },
@@ -1058,6 +1047,18 @@
         "commit_message": "refactor: Complete architectural overhaul to improve reliability. This commit addresses the Overwatch critique by rewriting the tool to perform all actions within a single, stateful PC session where possible, only logging out when necessary for party swaps. The logic is now based directly on the validated simulation in the notepad, ensuring correct menu navigation for Pokémon storage, not item storage. This is a critical fix to address repeated, catastrophic tool failures.",
         "timestamp": "2025-09-15T11:22:39.318Z",
         "action_counter": 215822
+      }
+    ]
+  },
+  "auto_battle_tool": {
+    "description": "Automates simple wild encounters by selecting the first available move. Assumes the main battle menu (FIGHT/PKMN/ITEM/RUN) is active.",
+    "input_schema": {},
+    "python_script": "import json\nprint(json.dumps(['A', 'A']))",
+    "history": [
+      {
+        "commit_message": "feat: Create tool to automate simple wild battles. This tool selects the 'FIGHT' option and then confirms the first move, streamlining repetitive encounters.",
+        "timestamp": "2025-09-15T13:07:56.861Z",
+        "action_counter": 215985
       }
     ]
   }

@@ -51,8 +51,7 @@
 # VI. Fossil Quest - Hypotheses Log
 
 - **Active Hypotheses (Ranked by Agent):**
-    1.  **Hiker Disguise:** The Hiker on 1F will move if a 'Hiker' Pokémon (like Geodude) is in the party lead.
-    2.  **Poké Doll for Hiker:** The Hiker on 1F will accept the POKé DOLL.
+    1.  **Poké Doll for Hiker:** The Hiker on 1F will accept the POKé DOLL.
 
 - **Failed Hypotheses:**
     - The Silph Scope will reveal a ghost in Mt. Moon. (Result: Failed. Prof. Oak prevents item use.)
@@ -81,6 +80,7 @@
     - Interacting with the second Rocket Grunt on B2F at (30, 18) will open a new path or provide a clue. (Result: Failed.)
     - Evolving a Clefairy with a Moon Stone in front of the Grunt will trigger an event. (Result: Failed. Prof. Oak prevents item use.)
     - Speaking to the Old Man in Viridian City will influence an NPC in Mt. Moon. (Result: Failed.)
+    - The Hiker on 1F will move if a 'Hiker' Pokémon (like Geodude) is in the party lead. (Result: Failed. Dialogue unchanged.)
 
 # VII. Future Agent & Tool Ideas
 - **Auto-Battle Tool:** Create a tool to automate simple wild encounters by selecting the first move.
