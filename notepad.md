@@ -65,15 +65,12 @@
     - **Pewter Museum Trap Tile:** On Pewter Museum 2F, the tile at (3,5) is a trap that warps the player to an isolated room. Escape requires interacting with a follower Pikachu.
     - **Pokemon Tower 6F Healer Change:** The friendly Channeler at (13,11) is no longer a healer. Her dialogue has changed to 'I feel anemic and weak...'.
 - **Tile Types:**
+    - **ground:** Standard walkable tile.
+    - **impassable:** Walls, counters, and other solid barriers.
+    - **grass:** Tall grass where wild Pokémon can be encountered. Also used for some decorative, impassable objects.
     - **elevated_ground:** Walkable ground at a different elevation. Direct movement between `ground` and `elevated_ground` is impossible without `steps`.
 
 # V. Future Development Ideas
 
 - **Agent Idea: Menu Navigator** - An agent that can take a screenshot of a complex menu (like the PC) and a high-level goal (e.g., 'withdraw LUNA from Box 3') and generate the sequence of menu selections required.
 - **Tool Idea: `select_menu_option`** - A generic tool that takes screen text and a target option name, then uses `menu_analyzer` to find the option's position and calculates the button presses needed to select it. This would automate simple menu navigation.
-
-# VI. Tile Glossary (Expanded)
-
-- **ground:** Standard walkable tile.
-- **impassable:** Walls, counters, and other solid barriers.
-- **grass:** Tall grass where wild Pokémon can be encountered. Also used for some decorative, impassable objects.
