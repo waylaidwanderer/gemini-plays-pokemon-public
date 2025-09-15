@@ -23,6 +23,7 @@
     - Poison is not very effective against Poison/Flying, Rock/Ground
     - Flying is not very effective against Rock/Ground
     - Rock is not very effective against Ground
+    - Normal is not very effective against Ground
 - **Notable Trainer Rosters:**
     - **Sabrina (Saffron Gym):** MR. MIME (Lv 65), HYPNO (Lv 64), SLOWBRO (Lv 64), JYNX (Lv 64), GENGAR (Lv 64), ALAKAZAM (Lv 65).
     - **SMITH (Cerulean Cave):** AERODACTYL (Lv 65).
