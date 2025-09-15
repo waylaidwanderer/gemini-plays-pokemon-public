@@ -7,8 +7,8 @@
 
 # II. Quest Log
 - **Current Quest: The Mt. Moon Fossil**
-    - **Objective:** Find a fossil to give to the Rocket Grunt blocking the path at Mt. Moon B2F (30,12), or find a way past the Hiker at 1F (6,7).
-    - **Status:** Active. The isolated eastern partition of B2F has been fully explored and confirmed to be a dead end. Current focus is testing new hypotheses on the Rocket Grunt.
+    - **Objective:** Find a way past the Rocket Grunt at Mt. Moon B2F (30,12) or the Hiker at 1F (6,7).
+    - **Status:** Active. The isolated eastern partition of B2F is a confirmed dead end. Current focus is testing new hypotheses on the Rocket Grunt.
 - **Stalled Quest: The Copycat's Gift**
     - **Objective:** Obtain a POKé DOLL and give it to COPYCAT.
     - **Status:** Stalled. All leads in Cerulean City have been exhausted. Suspect COPYCAT is not in a currently accessible area.
@@ -62,9 +62,15 @@
 - **Pokemon Tower 6F Healer Change:** The friendly Channeler at (13,11) is no longer a healer. Her dialogue has changed to 'I feel anemic and weak...'.
 - **POKé DOLL Escape:** A POKé DOLL can be used to guarantee an escape from a wild Pokémon battle.
 - **Shop Menu Navigation Anomaly:** The shop menu in the Cerulean Mart does not follow a standard grid layout. Manual testing showed 'Down' moves from 'BUY' to 'SELL', but 'Right' does nothing from either position. The menu must be exited with the 'B' button.
-- **Unreliable Automation:** The `use_field_move` tool's single-sequence design was unreliable. It has been refactored into a multi-stage process for improved stability.
 
 # VI. World & Tile Mechanics
+- **ground:** Standard walkable tile.
+- **impassable:** Walls, rocks, objects. Cannot be entered.
+- **grass:** Tall grass where wild Pokémon appear.
+- **cuttable:** A tree that can be cut with HM Cut. Becomes `ground` after cutting.
 - **elevated_ground:** Walkable, but cannot be accessed directly from `ground` tiles. Requires `steps` as an intermediary.
 - **steps:** Allows movement between `ground` and `elevated_ground`.
-- **Warp Tiles (Ladders/Doors):** Most 1x1 warp tiles are instant. To use them again to go back, you must step off the tile and then step back on.
+- **ledge:** Can be jumped down (one-way), but not climbed up.
+- **water:** Requires SURF to cross.
+- **ladder_up / ladder_down:** Warps between floors.
+- **Warp Tiles (Doors/Ladders):** Most 1x1 warp tiles are instant. To use them again to go back, you must step off the tile and then step back on.
