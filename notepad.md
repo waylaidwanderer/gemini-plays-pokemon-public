@@ -41,7 +41,15 @@
     - Evolving a Clefairy with a Moon Stone in front of the Grunt will trigger an event. (Result: Failed. Prof. Oak prevents item use.)
     - Speaking to the Old Man in Viridian City will influence an NPC in Mt. Moon. (Result: Failed.)
 
-# III. Battle Intelligence
+# III. Game Mechanics & World Rules
+
+- **Anomalous Mechanics:**
+    - **POKé DOLL Escape:** A POKé DOLL can be used to guarantee an escape from a wild Pokémon battle.
+    - **Battle Menu Anomaly:** The game appears to intentionally restrict move selection in certain wild battles to the first move slot.
+    - **Party Menu 'SWITCH' Lock:** The game can prevent using the 'SWITCH' command in the party menu, observed after multiple failed escape attempts.
+    - **Shop Menu Navigation Anomaly:** The Cerulean Mart shop menu does not follow a standard grid layout and requires 'B' to exit.
+
+# IV. Battle Intelligence
 
 - **Type Effectiveness Chart (Verified):**
     - Water > Rock/Ground
@@ -52,14 +60,6 @@
     - **Sabrina (Saffron Gym):** MR. MIME (Lv 65), HYPNO (Lv 64), SLOWBRO (Lv 64), JYNX (Lv 64), GENGAR (Lv 64), ALAKAZAM (Lv 65).
     - **SMITH (Cerulean Cave):** AERODACTYL (Lv 65).
     - **Brock (Pewter Gym):** OMASTAR (Lv 64), ONIX (Lv 65), KABUTOPS (Lv 64), GOLEM (Lv 64), NINETALES (Lv 64), AERODACTYL (Lv 65).
-
-# IV. Game Mechanics & Rules
-
-- **Anomalous Mechanics:**
-    - **POKé DOLL Escape:** A POKé DOLL can be used to guarantee an escape from a wild Pokémon battle.
-    - **Battle Menu Anomaly:** The game appears to intentionally restrict move selection in certain wild battles to the first move slot.
-    - **Party Menu 'SWITCH' Lock:** The game can prevent using the 'SWITCH' command in the party menu, observed after multiple failed escape attempts.
-    - **Shop Menu Navigation Anomaly:** The Cerulean Mart shop menu does not follow a standard grid layout and requires 'B' to exit.
 
 # V. Key Discoveries & Lessons Learned
 
