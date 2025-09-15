@@ -87,7 +87,7 @@
 
 - **Team Composition Agent:** Analyze Pokedex and suggest teams for specific challenges (e.g., Gyms) based on type coverage and known opponent rosters.
 - **Grinding Optimizer Agent:** Suggest optimal grinding locations based on party levels, target EXP, and wild Pokémon data from known areas.
-- **pc_shuffler_agent:** Takes party, PC box, and target Pokémon as input. Outputs the optimal sequence of deposits/withdrawals/swaps to retrieve the target, accounting for the buggy PC mechanics.
+
 - **party_swap_lead tool:** Automates swapping the second Pokémon in the party to the lead position.
 
 # VIII. Contingency Plans
