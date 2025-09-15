@@ -86,3 +86,9 @@
 
 # VIII. Contingency Plans
 - **Mt. Moon Progression:** If all current hypotheses for the Hiker/Grunt puzzle fail, the core assumption that this is the only path forward may be incorrect. The contingency plan is to perform a full re-exploration of all floors of Mt. Moon, looking for hidden paths, interactable scenery, or different outcomes from previously-used warps that might have been missed.
+- **elevated_ground:** Inaccessible from 'ground' tiles unless via 'steps'. Acts as a separate plane of movement.
+- **ladder_down/ladder_up:** Function as warps between floors.
+
+# IX. Future Agent & Tool Ideas
+- **pc_shuffler_agent:** Takes party, PC box, and target Pokémon as input. Outputs the optimal sequence of deposits/withdrawals/swaps to retrieve the target, accounting for the buggy PC mechanics.
+- **party_swap_lead tool:** Automates swapping the second Pokémon in the party to the lead position.
