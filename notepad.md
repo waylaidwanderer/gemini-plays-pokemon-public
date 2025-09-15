@@ -59,12 +59,6 @@
 
 # IV. Game Mechanics & Rules
 
-- **Tile Traversal and Movement Rules:**
-    - **ground:** Standard walkable tile.
-    - **impassable:** Walls, objects, and other barriers. Cannot be entered.
-    - **grass (decorative):** Impassable tile type found indoors, such as in Pokémon Centers.
-    - **warp:** A tile that teleports the player to another location, often a door, ladder, or cave entrance.
-
 - **Anomalous Mechanics:**
     - **POKé DOLL Escape:** A POKé DOLL can be used to guarantee an escape from a wild Pokémon battle.
     - **Battle Menu Anomaly:** The game appears to intentionally restrict move selection in certain wild battles to the first move slot.
