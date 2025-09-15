@@ -43,6 +43,10 @@
     - **Mechanics:** Selecting 'WITHDRAW PKMN' automatically withdraws the first Pokémon in the box list if the party has space. Selecting 'DEPOSIT PKMN' automatically deposits the lead Pokémon in the party. There is no option to choose which Pokémon to withdraw or deposit.
 - **elevated_ground:** Inaccessible from 'ground' tiles unless via 'steps'. Acts as a separate plane of movement.
 - **ladder_down/ladder_up:** Function as warps between floors.
+- **Event Trigger Tile:** Some tiles, when stepped on, can trigger a scripted event or dialogue, such as the entrance fee tile in the Pewter Museum of Science. These are not visually distinct from normal ground tiles.
+- **ground:** Standard walkable tile.
+- **impassable:** Walls and other obstacles that cannot be walked on.
+- **steps:** Allows movement between 'ground' and 'elevated_ground' tiles.
 
 # VI. Fossil Quest - Hypotheses Log
 
@@ -74,18 +78,10 @@
     - A rock is a disguised ladder that requires a Clefairy in the party.
     - The Hiker is thirsty and needs a drink item.
     - An un-revived fossil can be acquired by fishing inside Mt. Moon.
-    - The Rocket Grunt will accept a thematically 'fossil' Pokémon like Marowak.
     - The Pokémon Tower is a red herring for the fossil quest.
     - Interacting with the second Rocket Grunt on B2F at (30, 18) will open a new path or provide a clue. (Result: Failed.)
     - Evolving a Clefairy with a Moon Stone in front of the Grunt will trigger an event. (Result: Failed. Prof. Oak prevents item use.)
     - Speaking to the Old Man in Viridian City will influence an NPC in Mt. Moon. (Result: Failed.)
     - The Hiker on 1F will move if a 'Hiker' Pokémon (like Geodude) is in the party lead. (Result: Failed. Dialogue unchanged.)
     - The Hiker on 1F will move if the Poké Flute is used near him. (Result: Failed. Item use had no effect.)
-
-# VII. Future Agent & Tool Ideas
-- **Wild Battle Automator:** A tool that analyzes the active opponent in a wild battle and automatically selects the most effective move from the player's active Pokémon's moveset. This would streamline grinding and traversal through high-encounter areas.
-- **Event Trigger Tile:** Some tiles, when stepped on, can trigger a scripted event or dialogue, such as the entrance fee tile in the Pewter Museum of Science. These are not visually distinct from normal ground tiles.
-- **ground:** Standard walkable tile.
-- **impassable:** Walls and other obstacles that cannot be walked on.
-- **steps:** Allows movement between 'ground' and 'elevated_ground' tiles.
     - The Rocket Grunt will accept the revived HELIX fossil Pokémon (Omanyte), but only if it is fainted. (Result: Failed. Dialogue unchanged.)
