@@ -84,3 +84,4 @@
 
 # VII. Future Agent & Tool Ideas
 - **Wild Battle Automator:** A tool that analyzes the active opponent in a wild battle and automatically selects the most effective move from the player's active Pokémon's moveset. This would streamline grinding and traversal through high-encounter areas.
+- **Event Trigger Tile:** Some tiles, when stepped on, can trigger a scripted event or dialogue, such as the entrance fee tile in the Pewter Museum of Science. These are not visually distinct from normal ground tiles.
