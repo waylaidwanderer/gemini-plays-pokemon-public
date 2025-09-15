@@ -822,5 +822,54 @@
         "action_counter": 213716
       }
     ]
+  },
+  "lead_matchup_analyzer": {
+    "description": "Analyzes the player's party against a wild Pokémon to recommend the best lead. Prioritizes Pokémon that are not level-capped and have a type advantage or at least neutral matchup, while avoiding those with a disadvantage.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "player_party": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "species": {
+                "type": "string"
+              },
+              "level": {
+                "type": "integer"
+              },
+              "status": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "species",
+              "level",
+              "status"
+            ]
+          }
+        },
+        "opponent_species": {
+          "type": "string"
+        },
+        "level_cap": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "player_party",
+        "opponent_species",
+        "level_cap"
+      ]
+    },
+    "python_script": "import json\n\ntype_chart = {\n    'NORMAL': {'super_effective': [], 'not_very_effective': ['ROCK', 'STEEL'], 'immune': ['GHOST']},\n    'FIRE': {'super_effective': ['GRASS', 'ICE', 'BUG', 'STEEL'], 'not_very_effective': ['FIRE', 'WATER', 'ROCK', 'DRAGON'], 'immune': []},\n    'WATER': {'super_effective': ['FIRE', 'GROUND', 'ROCK'], 'not_very_effective': ['WATER', 'GRASS', 'DRAGON'], 'immune': []},\n    'ELECTRIC': {'super_effective': ['WATER', 'FLYING'], 'not_very_effective': ['ELECTRIC', 'GRASS', 'DRAGON'], 'immune': ['GROUND']},\n    'GRASS': {'super_effective': ['WATER', 'GROUND', 'ROCK'], 'not_very_effective': ['FIRE', 'GRASS', 'POISON', 'FLYING', 'BUG', 'DRAGON', 'STEEL'], 'immune': []},\n    'ICE': {'super_effective': ['GRASS', 'GROUND', 'FLYING', 'DRAGON'], 'not_very_effective': ['FIRE', 'WATER', 'ICE', 'STEEL'], 'immune': []},\n    'FIGHTING': {'super_effective': ['NORMAL', 'ICE', 'ROCK', 'DARK', 'STEEL'], 'not_very_effective': ['POISON', 'FLYING', 'PSYCHIC', 'BUG', 'FAIRY'], 'immune': ['GHOST']},\n    'POISON': {'super_effective': ['GRASS', 'FAIRY'], 'not_very_effective': ['POISON', 'GROUND', 'ROCK', 'GHOST'], 'immune': ['STEEL']},\n    'GROUND': {'super_effective': ['FIRE', 'ELECTRIC', 'POISON', 'ROCK', 'STEEL'], 'not_very_effective': ['GRASS', 'BUG'], 'immune': ['FLYING']},\n    'FLYING': {'super_effective': ['GRASS', 'FIGHTING', 'BUG'], 'not_very_effective': ['ELECTRIC', 'ROCK', 'STEEL'], 'immune': []},\n    'PSYCHIC': {'super_effective': ['FIGHTING', 'POISON'], 'not_very_effective': ['PSYCHIC', 'STEEL'], 'immune': ['DARK']},\n    'BUG': {'super_effective': ['GRASS', 'PSYCHIC', 'DARK'], 'not_very_effective': ['FIRE', 'FIGHTING', 'POISON', 'FLYING', 'GHOST', 'STEEL', 'FAIRY'], 'immune': []},\n    'ROCK': {'super_effective': ['FIRE', 'ICE', 'FLYING', 'BUG'], 'not_very_effective': ['FIGHTING', 'GROUND', 'STEEL'], 'immune': []},\n    'GHOST': {'super_effective': ['PSYCHIC', 'GHOST'], 'not_very_effective': ['DARK'], 'immune': ['NORMAL']},\n    'DRAGON': {'super_effective': ['DRAGON'], 'not_very_effective': ['STEEL'], 'immune': ['FAIRY']},\n    'DARK': {'super_effective': ['PSYCHIC', 'GHOST'], 'not_very_effective': ['FIGHTING', 'DARK', 'FAIRY'], 'immune': []},\n    'STEEL': {'super_effective': ['ICE', 'ROCK', 'FAIRY'], 'not_very_effective': ['FIRE', 'WATER', 'ELECTRIC', 'STEEL'], 'immune': []},\n    'FAIRY': {'super_effective': ['FIGHTING', 'DRAGON', 'DARK'], 'not_very_effective': ['FIRE', 'POISON', 'STEEL'], 'immune': []}\n}\n\npokemon_types = {\n    'CLEFABLE': ['NORMAL'], 'GRIMER': ['POISON'], 'GEODUDE': ['ROCK', 'GROUND'], \n    'PIKACHU': ['ELECTRIC'], 'NIDOQUEEN': ['POISON', 'GROUND'], 'LAPRAS': ['WATER', 'ICE']\n}\n\nparty = input_data['player_party']\nopponent_species = input_data['opponent_species'].upper()\nlevel_cap = int(input_data['level_cap'])\n\nopponent_types = pokemon_types.get(opponent_species, [])\n\nscores = []\nfor i, p in enumerate(party):\n    if p['level'] >= level_cap or p['status'] != 'OK':\n        continue\n\n    player_types = pokemon_types.get(p['species'].upper(), [])\n    score = 0\n    for p_type in player_types:\n        for o_type in opponent_types:\n            if o_type in type_chart.get(p_type, {}).get('super_effective', []):\n                score += 2\n            elif o_type in type_chart.get(p_type, {}).get('not_very_effective', []):\n                score -= 2\n            elif o_type in type_chart.get(p_type, {}).get('immune', []):\n                score -= 4\n            else:\n                score += 1 # Neutral\n    scores.append({'index': i, 'score': score, 'pokemon': p})\n\nif not scores:\n    print(json.dumps({'recommendation': party[0]['species'] if party else 'N/A', 'reason': 'No suitable Pokemon available.'}))\nelse:\n    best_pokemon = max(scores, key=lambda x: x['score'])\n    print(json.dumps({'recommendation': best_pokemon['pokemon']['species'], 'reason': f'Best matchup with score {best_pokemon['score']}.'}))\n",
+    "history": [
+      {
+        "commit_message": "feat: Create lead_matchup_analyzer tool. This tool automates the process of selecting an optimal lead Pokémon for wild battles by considering type advantages, level caps, and status conditions. This addresses a key opportunity for efficiency identified during mandatory self-assessment.",
+        "timestamp": "2025-09-15T23:43:56.182Z",
+        "action_counter": 217113
+      }
+    ]
   }
 }

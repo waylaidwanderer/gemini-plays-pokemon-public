@@ -89,3 +89,7 @@
     - The Hiker on 1F will move if the Poké Flute is used near him. (Result: Item use had no effect.)
     - The Rocket Grunt will accept the revived HELIX fossil Pokémon (Omanyte), but only if it is fainted. (Result: Failed. Dialogue unchanged.)
     - The 'fossil' the Grunt wants is a Moon Stone held by a Clefairy. (Result: Failed. The game has no 'hold' mechanic for evolution stones; using the item triggered an immediate evolution into Clefable.)
+
+# VII. Mt. Moon Access Plan
+- **Problem:** The eastern section of Route 4 is a one-way path from Mt. Moon, blocking westward travel.
+- **New Plan:** Return to Cerulean City and explore Route 9 to the east. This may provide an alternate route to the western side of Route 4 or Mt. Moon.
