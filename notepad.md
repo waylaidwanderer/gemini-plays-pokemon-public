@@ -88,3 +88,4 @@
 - **ground:** Standard walkable tile.
 - **impassable:** Walls and other obstacles that cannot be walked on.
 - **steps:** Allows movement between 'ground' and 'elevated_ground' tiles.
+    - The Rocket Grunt will accept the revived HELIX fossil Pokémon (Omanyte), but only if it is fainted. (Result: Failed. Dialogue unchanged.)
