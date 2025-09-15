@@ -41,10 +41,6 @@
     - Evolving a Clefairy with a Moon Stone in front of the Grunt will trigger an event. (Result: Failed. Prof. Oak prevents the item's use.)
     - Speaking to the Old Man in Viridian City will influence an NPC in Mt. Moon. (Result: Failed. Dialogue was unchanged.)
 
-- **Untested Assumptions:**
-    - The Hiker on 1F and the Rocket Grunt on B2F are part of the same puzzle. They might be two separate roadblocks.
-    - The solution involves *giving* an item/Pokémon to an NPC. The solution could be an environmental trigger or showing a specific Pokémon state.
-
 # III. Battle Intelligence
 
 - **Type Effectiveness Chart (Verified):**
@@ -65,32 +61,26 @@
     - **Party Menu 'SWITCH' Lock:** The game can prevent using the 'SWITCH' command in the party menu, observed after multiple failed escape attempts.
     - **Shop Menu Navigation Anomaly:** The Cerulean Mart shop menu does not follow a standard grid layout and requires 'B' to exit.
 
-# V. Tile Mechanics & Interaction Rules
+# V. Key Discoveries & Lessons Learned
+
+- **PC Mechanics (CRITICAL):** The PC is **stateful**. It remembers the last system accessed (e.g., 'BILL's PC' for Pokémon or 'Gem's PC' for Items). When turning on the PC, it will open directly into the last-used system, bypassing the main selection menu. Any automation tool MUST account for this by having a reset sequence (e.g., pressing 'B' multiple times) to return to a known state before executing commands.
+- **Tool Development Failure:** Repeatedly deferred fixing a critically flawed tool (`pc_shuffler_executor`) instead of addressing it immediately. Operated on an untested assumption (PC is stateless) which caused a loop of failures. **Lesson:** Verify core mechanics manually before automating them. Fix broken tools immediately.
+
+# VI. Tile Mechanics & Interaction Rules
+
 - **General Traversal:**
     - `ledge`: Can only be jumped down (from Y-1 to Y+2 in one move). Impassable from all other directions.
     - `steps`: The only way to move between `ground` and `elevated_ground` tiles.
     - `impassable`: Walls, counters, etc. Cannot be entered.
     - `ground`: Walkable tile.
     - `grass`: Tall grass for wild encounters. Walkable.
-- **PC Interaction:** The PC has a non-standard, fixed behavior. 
+- **PC Interaction:**
     - **Tile:** The tile for the PC in Pokémon Centers (e.g., Viridian Pokecenter (14,4)) is typed as `grass` in the map data, but it is impassable. Interaction requires standing on the tile directly below it (at (X, Y+1)) and facing up.
     - **Mechanics:** Selecting 'WITHDRAW PKMN' automatically withdraws the first Pokémon in the box list if the party has space. Selecting 'DEPOSIT PKMN' automatically deposits the lead Pokémon in the party. There is no option to choose which Pokémon to withdraw or deposit.
 
-# VI. Untested Assumptions & Future Tests
-- **'CHANGE BOX' Functionality:** It's assumed that changing boxes does not affect the order of Pokémon within a box. This needs to be tested to see if it could simplify the PC shuffling process.
+# VII. Tool Development - PC Shuffler Simulation (Blueprint)
 
-# VII. Agent & Tool Development Log
-
-- **`pc_shuffler_agent`:** Defined in turn 215166. **CRITICAL FAILURE (Corrected):** I failed to use this agent immediately after creation, instead performing a lengthy manual shuffle. I have now corrected this by using the agent in Viridian City (Turn 215239) to validate its effectiveness and fix my procedural error.
-
-# VIII. Self-Assessment Insights (Turn 215319)
-
-- **Mt. Moon Quest Solvability:** A major untested assumption is that the Mt. Moon fossil quest is solvable *at this point in the game*. If the current 'Hiker's Pokémon' hypothesis fails, I must consider that I may be missing a key item or event trigger from an unexplored post-game area. I will pivot to a different objective if this next test fails.
-
-# IX. Tool Development - PC Shuffler Simulation
-
-- **Objective:** Document the precise button sequence for one full PC shuffle cycle (withdraw, swap, deposit) to serve as a blueprint for the `pc_shuffler_executor` tool, as per the Overwatch critique.
-
+- **Objective:** Document the precise button sequence for one full PC shuffle cycle (withdraw, swap, deposit) to serve as a blueprint for the `pc_shuffler_executor` tool.
 - **Simulation: One Full Cycle (Validated)**
     1.  **Start:** Player is in the overworld, facing the PC.
     2.  **Action: Withdraw**
