@@ -28,10 +28,12 @@
 
 # IV. Fossil Quest - Hypotheses Log
 - **Active Hypotheses (Ranked by Agent):**
-    1.  **Fainted Fossil:** The Grunt wants a revived fossil Pokémon that has fainted.
+    1.  **Fainted Fossil:** The Grunt wants a revived fossil Pokémon that has fainted. (Current Test)
     2.  **No Starter in Party:** The Hiker will move if the player's starter Pokémon is in the PC.
     3.  **Silph Scope Ghost:** The Silph Scope will reveal a ghost in Mt. Moon that needs to be captured and shown to the Grunt.
 - **Failed Hypotheses:**
+    - The Rocket Grunt on B2F will accept the POKé DOLL as the 'fossil'. (Result: Failed. Prof. Oak prevents the item's use.)
+    - Giving the POKé DOLL to the Grunt will make the Hiker on 1F move. (Result: Dependent on failed hypothesis, invalidated.)
     - The Hiker will only move for an 'adult', a status temporarily gained by interacting with the 'Old Man' in Viridian City. (Result: Failed. Hiker's dialogue was unchanged.)
     - The fossil is in an interactable rock.
     - The Hiker on 1F at (6,7) will move if shown the revived HELIX fossil Pokémon.
@@ -53,10 +55,9 @@
     - The Rocket Grunt will accept a thematically 'fossil' Pokémon like Marowak.
     - The Pokémon Tower is a red herring for the fossil quest.
     - Interacting with the second Rocket Grunt on B2F at (30, 18) will open a new path or provide a clue. (Result: Failed. Dialogue was generic and unchanged.)
-    - The Rocket Grunt on B2F will accept the POKé DOLL as the 'fossil'. (Result: Failed. Prof. Oak prevents the item's use.)
-    - Giving the POKé DOLL to the Grunt will make the Hiker on 1F move. (Result: Dependent on failed hypothesis, invalidated.)
 
-# V. Game & World Mechanics
+# V. ROM Hack Specific Mechanics
+- **Pewter Museum Trap Tile:** On Pewter Museum 2F, the tile at (3,5) is a trap that warps the player to an isolated room. Escape requires interacting with a follower Pikachu.
 - **Battle Menu Anomaly:** The game appears to intentionally restrict move selection in certain wild battles to the first move slot. Strategy: For low-stakes wild battles, running is the most efficient option.
 - **Party Menu 'SWITCH' Lock:** The game appears to intentionally prevent the use of the 'SWITCH' command in the party menu under certain, currently unknown, conditions. This was observed after multiple failed escape attempts in Mt. Moon.
 - **Pokemon Tower 6F Healer Change:** The friendly Channeler at (13,11) is no longer a healer. Her dialogue has changed to 'I feel anemic and weak...'.
