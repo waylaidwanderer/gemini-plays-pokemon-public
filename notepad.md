@@ -85,3 +85,4 @@
     - The Hiker on 1F will move if the Poké Flute is used near him. (Result: Failed. Item use had no effect.)
 
 # VII. Future Agent & Tool Ideas
+- **Wild Battle Automator:** A tool that analyzes the active opponent in a wild battle and automatically selects the most effective move from the player's active Pokémon's moveset. This would streamline grinding and traversal through high-encounter areas.
