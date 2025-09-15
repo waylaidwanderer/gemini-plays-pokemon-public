@@ -85,4 +85,5 @@
 
 # VII. Future Agent & Tool Ideas
 
-- **Strategic Team Builder Agent:** An agent that analyzes my current party, PC box, and a known opponent's roster (from my notes) to suggest an optimal team of 6 and a lead Pokémon for the battle.
+- **Team Composition Agent:** Analyze Pokedex and suggest teams for specific challenges (e.g., Gyms) based on type coverage and known opponent rosters.
+- **Grinding Optimizer Agent:** Suggest optimal grinding locations based on party levels, target EXP, and wild Pokémon data from known areas.
