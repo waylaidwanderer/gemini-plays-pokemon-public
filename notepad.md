@@ -75,8 +75,3 @@
     - **elevated_ground:** Walkable ground at a different elevation. Direct movement between `ground` and `elevated_ground` is impossible without `steps`.
     - **steps:** Allows movement between `ground` and `elevated_ground`.
     - **ladder_up / ladder_down:** Warps between floors.
-
-# V. Future Development Ideas
-
-- **Agent Idea: Menu Navigator** - An agent that can take a screenshot of a complex menu (like the PC) and a high-level goal (e.g., 'withdraw LUNA from Box 3') and generate the sequence of menu selections required.
-- **Tool Idea: `select_menu_option`** - A generic tool that takes screen text and a target option name, then uses `menu_analyzer` to find the option's position and calculates the button presses needed to select it. This would automate simple menu navigation.
