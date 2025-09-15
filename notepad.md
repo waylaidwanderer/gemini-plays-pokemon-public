@@ -76,3 +76,4 @@
 - **steps**: Allows movement between 'ground' and 'elevated_ground'.
 - **impassable**: Walls and other obstacles. Cannot be entered.
 - **ladder_up** / **ladder_down**: Warps between floors.
+- **water**: Crossable using HM Surf.
