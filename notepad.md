@@ -51,9 +51,10 @@
 # VI. Fossil Quest - Hypotheses Log
 
 - **Active Hypotheses (Ranked by Agent):**
-    1.  **Poké Doll for Hiker:** The Hiker on 1F will accept the POKé DOLL.
+    - None. Need to generate new hypotheses.
 
 - **Failed Hypotheses:**
+    - The Hiker on 1F will accept the POKé DOLL. (Result: Failed. Prof. Oak prevents item use.)
     - The Silph Scope will reveal a ghost in Mt. Moon. (Result: Failed. Prof. Oak prevents item use.)
     - The Rocket Grunt on B2F will accept the POKé DOLL. (Result: Failed. Prof. Oak prevents item use.)
     - Giving the POKé DOLL to the Grunt will make the Hiker on 1F move. (Result: Invalidated.)
