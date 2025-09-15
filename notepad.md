@@ -87,3 +87,4 @@
 - **Team Composition Agent:** Analyze Pokedex and suggest teams for specific challenges (e.g., Gyms) based on type coverage and known opponent rosters.
 - **Grinding Optimizer Agent:** Suggest optimal grinding locations based on party levels, target EXP, and wild Pokémon data from known areas.
 - **Journey Manager Agent:** A high-level agent to manage multi-step navigation, including handling battle interruptions by calling battle agents and recalculating paths.
+- **Tool Usage Failure (Execution):** Repeatedly failed to execute tool calls due to incorrect arguments (e.g., typos, extra spaces). **Lesson:** Meticulously verify every character in tool arguments before execution. Immediate correction of failed tool calls is the highest priority.
