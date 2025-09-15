@@ -1065,20 +1065,34 @@
       }
     ]
   },
-  "party_swap_lead": {
-    "description": "Automates swapping the second Pokémon in the party to the lead position.",
-    "input_schema": {},
-    "python_script": "import json\nprint(json.dumps([\"Start\", \"A\", \"Down\", \"A\", \"A\", \"Up\", \"A\", \"B\", \"B\"]))",
+  "battle_switch_pokemon": {
+    "description": "Automates switching to a specific Pokémon during a battle. Takes the target Pokémon's name and the current screen text as input, and outputs the button presses needed to select and switch to it. Assumes the party menu is already open.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "target_pokemon_name": {
+          "type": "string"
+        },
+        "screen_text": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "target_pokemon_name",
+        "screen_text"
+      ]
+    },
+    "python_script": "import json\nimport re\n\ndef switch_pokemon():\n    try:\n        target_name_input = input_data['target_pokemon_name']\n        screen_text = input_data['screen_text']\n        lines = screen_text.strip().split('\\n')\n\n        party = []\n        cursor_index = -1\n        # Regex to capture Pokémon names (case-insensitive) and locate the cursor\n        for i, line in enumerate(lines):\n            # A Pokémon line can be identified by having a LV indicator or being all caps\n            # This is a heuristic and might need refinement\n            if 'LV' in line or re.match(r'^[A-Z\\s]+$', line.strip()):\n                match = re.match(r'\\s*([a-zA-Z]+)', line.strip())\n                if match:\n                    party.append(match.group(1))\n                    if '→' in line or (i+1 < len(lines) and '→' in lines[i+1]):\n                        cursor_index = len(party) - 1\n\n        # Fallback for parsing if the above fails\n        if not party:\n            for i, line in enumerate(lines):\n                match = re.match(r'\\s*(?:→\\s*)?([a-zA-Z]+)', line)\n                if match:\n                    name = match.group(1)\n                    if name not in ['Choose', 'Move']:\n                        party.append(name)\n                        if '→' in line:\n                            cursor_index = len(party) - 1\n\n        if not party or cursor_index == -1:\n            print(json.dumps([])) # Failed to parse party or find cursor\n            return\n\n        # Find target index by comparing with uppercase versions\n        target_name_upper = target_name_input.upper()\n        party_upper = [p.upper() for p in party]\n        try:\n            target_index = party_upper.index(target_name_upper)\n        except ValueError:\n            print(json.dumps([])) # Target not found\n            return\n\n        # Calculate moves\n        delta = target_index - cursor_index\n        buttons = []\n        if delta > 0:\n            buttons.extend(['Down'] * delta)\n        elif delta < 0:\n            buttons.extend(['Up'] * abs(delta))\n        \n        buttons.extend(['A', 'A'])  # Select Pokémon, then select SWITCH\n        \n        print(json.dumps(buttons))\n\n    except Exception:\n        print(json.dumps([]))\n\nswitch_pokemon()",
     "history": [
       {
-        "commit_message": "feat: Create tool to automate party lead swap. This is a direct response to an Overwatch critique identifying repeated manual failures at this task. This tool will prevent future errors and improve efficiency.",
-        "timestamp": "2025-09-15T16:12:58.278Z",
-        "action_counter": 216204
+        "commit_message": "feat: Create tool to automate in-battle Pokémon switching. This is a direct response to an Overwatch critique identifying repeated manual failures at this task. This tool will parse the party menu screen text to calculate and execute the button presses required to switch to a target Pokémon, preventing future time-wasting error loops.",
+        "timestamp": "2025-09-15T20:54:20.488Z",
+        "action_counter": 216754
       },
       {
-        "commit_message": "feat: Create tool to automate party lead swap. This is a direct response to an Overwatch critique identifying repeated manual failures at this task. This tool will prevent future errors and improve efficiency.",
-        "timestamp": "2025-09-15T16:13:21.326Z",
-        "action_counter": 216205
+        "commit_message": "fix: Overhaul logic to use cursor position and improve parsing. The previous version incorrectly assumed the cursor was on the active Pokémon and had a faulty regex that missed lowercase names. This commit fixes both issues by actively finding the cursor's position ('→') and using a more robust, case-insensitive regex. This is a critical fix to address the tool's complete failure on its first use.",
+        "timestamp": "2025-09-15T20:55:57.427Z",
+        "action_counter": 216757
       }
     ]
   }
