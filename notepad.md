@@ -64,10 +64,6 @@
     - **Battle Menu Anomaly:** The game appears to intentionally restrict move selection in certain wild battles to the first move slot.
     - **Party Menu 'SWITCH' Lock:** The game can prevent using the 'SWITCH' command in the party menu, observed after multiple failed escape attempts.
     - **Shop Menu Navigation Anomaly:** The Cerulean Mart shop menu does not follow a standard grid layout and requires 'B' to exit.
-    - **PC Withdrawal/Deposit Anomaly:** The PC has a non-standard, fixed behavior. Selecting 'WITHDRAW PKMN' automatically withdraws the first Pokémon in the box list if the party has space. Selecting 'DEPOSIT PKMN' automatically deposits the lead Pokémon in the party. There is no option to choose which Pokémon to withdraw or deposit.
-- **Area-Specific Mechanics:**
-    - **Pewter Museum Trap Tile:** On Pewter Museum 2F, the tile at (3,5) is a trap that warps the player to an isolated room. Escape requires interacting with a follower Pikachu.
-    - **Pokemon Tower 6F Healer Change:** The friendly Channeler at (13,11) is no longer a healer. Her dialogue has changed to 'I feel anemic and weak...'.
 
 # V. Tile Mechanics & Interaction Rules
 - **General Traversal:**
@@ -76,7 +72,9 @@
     - `impassable`: Walls, counters, etc. Cannot be entered.
     - `ground`: Walkable tile.
     - `grass`: Tall grass for wild encounters. Walkable.
-- **PC Tile:** Interaction requires standing on the tile directly below it (e.g., at (X, Y+1) for a PC at (X, Y)) and facing up.
+- **PC Interaction:** The PC has a non-standard, fixed behavior. 
+    - **Tile:** The tile for the PC in Pokémon Centers (e.g., Viridian Pokecenter (14,4)) is typed as `grass` in the map data, but it is impassable. Interaction requires standing on the tile directly below it (at (X, Y+1)) and facing up.
+    - **Mechanics:** Selecting 'WITHDRAW PKMN' automatically withdraws the first Pokémon in the box list if the party has space. Selecting 'DEPOSIT PKMN' automatically deposits the lead Pokémon in the party. There is no option to choose which Pokémon to withdraw or deposit.
 
 # VI. Untested Assumptions & Future Tests
 - **'CHANGE BOX' Functionality:** It's assumed that changing boxes does not affect the order of Pokémon within a box. This needs to be tested to see if it could simplify the PC shuffling process.
@@ -127,4 +125,3 @@
         - `Down`, `Down`, `Down`, `Down` (Navigate to LOG OFF)
         - `A` (Select LOG OFF) -> Exits PC.
     5.  **End:** Player is in the overworld, facing the PC. One cycle complete.
-- **PC Tile Anomaly:** The tile for the PC in Pokémon Centers (e.g., Viridian Pokecenter (14,4)) is typed as `grass` in the map data, but it is impassable and functions as an interactable object.
