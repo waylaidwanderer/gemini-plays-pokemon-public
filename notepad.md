@@ -73,7 +73,7 @@
 - **General Traversal:**
     - `ledge`: Can only be jumped down (from Y-1 to Y+2 in one move). Impassable from all other directions.
     - `steps`: The only way to move between `ground` and `elevated_ground` tiles.
-- **PC Tile:** This tile is often typed as `grass`. Interaction requires standing on the tile directly below it (e.g., at (X, Y+1) for a PC at (X, Y)) and facing up.
+- **PC Tile:** Interaction requires standing on the tile directly below it (e.g., at (X, Y+1) for a PC at (X, Y)) and facing up.
 
 # VI. Untested Assumptions & Future Tests
 - **'CHANGE BOX' Functionality:** It's assumed that changing boxes does not affect the order of Pokémon within a box. This needs to be tested to see if it could simplify the PC shuffling process.
