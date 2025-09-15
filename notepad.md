@@ -29,11 +29,11 @@
 # IV. Fossil Quest - Hypotheses Log
 - **Active Hypotheses (Ranked by Agent):**
     1.  **Fainted Fossil:** The Grunt wants a revived fossil Pokémon that has fainted. (Untestable due to low encounter rate in current area).
-    2.  **Silph Scope Ghost:** The Silph Scope will reveal a ghost in Mt. Moon, or the Grunt himself is a ghost. (Current Test)
-    3.  **Moon Stone Evolution:** Evolving a Clefairy with a Moon Stone in front of the Grunt will trigger an event.
-    4.  **Hiker Disguise:** The Hiker on 1F will move if a 'Hiker' Pokémon (like Geodude) is in the party lead.
-    5.  **Poké Doll for Hiker:** The Hiker on 1F will accept the POKé DOLL.
+    2.  **Moon Stone Evolution:** Evolving a Clefairy with a Moon Stone in front of the Grunt will trigger an event.
+    3.  **Hiker Disguise:** The Hiker on 1F will move if a 'Hiker' Pokémon (like Geodude) is in the party lead.
+    4.  **Poké Doll for Hiker:** The Hiker on 1F will accept the POKé DOLL.
 - **Failed Hypotheses:**
+    - The Silph Scope will reveal a ghost in Mt. Moon, or the Grunt himself is a ghost. (Result: Failed. Prof. Oak prevents the item's use.)
     - The Rocket Grunt on B2F will accept the POKé DOLL as the 'fossil'. (Result: Failed. Prof. Oak prevents the item's use.)
     - Giving the POKé DOLL to the Grunt will make the Hiker on 1F move. (Result: Dependent on failed hypothesis, invalidated.)
     - The Hiker will only move for an 'adult', a status temporarily gained by interacting with the 'Old Man' in Viridian City. (Result: Failed. Hiker's dialogue was unchanged.)
