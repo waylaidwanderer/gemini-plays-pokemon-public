@@ -75,3 +75,4 @@
     - **elevated_ground:** Walkable ground at a different elevation. Direct movement between `ground` and `elevated_ground` is impossible without `steps`.
     - **steps:** Allows movement between `ground` and `elevated_ground`.
     - **ladder_up / ladder_down:** Warps between floors.
+- **PC Withdrawal/Deposit Anomaly:** The PC has a non-standard, fixed behavior. Selecting 'WITHDRAW PKMN' automatically withdraws the first Pokémon in the box list if the party has space. Selecting 'DEPOSIT PKMN' automatically deposits the lead Pokémon in the party. There is no option to choose which Pokémon to withdraw or deposit.

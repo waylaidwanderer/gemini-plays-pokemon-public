@@ -887,34 +887,34 @@
       }
     ]
   },
-  "select_item_from_inventory": {
-    "description": "Parses the item inventory screen to find a target item and outputs the button presses needed to select it. Assumes the item is visible on the current screen.",
+  "select_menu_option": {
+    "description": "Parses a menu from screen text, finds a target option, and returns the button presses to select it. Primarily designed for single-column menus.",
     "input_schema": {
       "type": "object",
       "properties": {
         "screen_text": {
           "type": "string"
         },
-        "target_item": {
+        "target_option": {
           "type": "string"
         }
       },
       "required": [
         "screen_text",
-        "target_item"
+        "target_option"
       ]
     },
-    "python_script": "import json\nimport re\n\ndef select_item():\n    screen_text = input_data['screen_text']\n    target_item = input_data['target_item'].upper()\n    \n    lines = screen_text.split('\\n')\n    \n    # This regex finds lines that are likely items (uppercase, not special words)\n    # and also captures the cursor position.\n    items_on_screen = []\n    cursor_pos = -1\n    for i, line in enumerate(lines):\n        clean_line = line.strip()\n        is_cursor = False\n        if clean_line.startswith('→'):\n            is_cursor = True\n            clean_line = clean_line.replace('→', '').strip()\n        \n        # Simple heuristic for an item line\n        if re.match(r'^[A-Z. ]+$', clean_line) and clean_line not in ['CANCEL', 'EXIT', 'USE', 'INFO', 'TOSS']:\n            items_on_screen.append(clean_line)\n            if is_cursor:\n                cursor_pos = len(items_on_screen) - 1\n\n    if cursor_pos == -1:\n        print(json.dumps({\"success\": False, \"reason\": \"Could not determine cursor position.\", \"buttons\": []}))\n        return\n\n    try:\n        target_pos = items_on_screen.index(target_item)\n    except ValueError:\n        print(json.dumps({\"success\": False, \"reason\": f\"Target item '{target_item}' not found in parsed list: {items_on_screen}\", \"buttons\": []}))\n        return\n\n    moves = target_pos - cursor_pos\n    buttons = []\n    if moves > 0:\n        buttons = ['Down'] * moves\n    elif moves < 0:\n        buttons = ['Up'] * abs(moves)\n    \n    buttons.append('A')\n    \n    print(json.dumps({\"success\": True, \"reason\": \"Path to item found.\", \"buttons\": buttons}))\n\nselect_item()\n",
+    "python_script": "import json\nimport re\n\ndef select_option():\n    screen_text = input_data['screen_text']\n    target_option = input_data['target_option']\n    \n    lines = [line.strip() for line in screen_text.split('\\n') if line.strip()]\n    \n    options = []\n    cursor_pos = -1\n    \n    for i, line in enumerate(lines):\n        if line.startswith('→'):\n            cursor_pos = i\n            options.append(line[1:].strip())\n        else:\n            # Handle multi-column layouts like YES/NO\n            parts = re.split(r'\\s{2,}', line)\n            if len(parts) > 1 and any(p.strip() for p in parts):\n                 options.extend([p.strip() for p in parts if p.strip()])\n            else:\n                 options.append(line)\n\n    if not options or target_option not in options:\n        print(json.dumps([]))\n        return\n\n    target_index = options.index(target_option)\n    \n    if cursor_pos == -1:\n        cursor_pos = 0\n\n    moves = target_index - cursor_pos\n    \n    buttons = []\n    if moves > 0:\n        buttons.extend(['Down'] * moves)\n    elif moves < 0:\n        buttons.extend(['Up'] * abs(moves))\n        \n    buttons.extend(['A', 'A', 'A'])\n    \n    print(json.dumps(buttons))\n\nselect_option()\n",
     "history": [
       {
-        "commit_message": "feat: Create tool to automate item selection. This tool parses the inventory screen to find and select a target item, addressing a key inefficiency identified in self-assessment and by Overwatch. This is a critical step in improving automation.",
-        "timestamp": "2025-09-15T00:34:31.333Z",
-        "action_counter": 214401
+        "commit_message": "feat: Create tool to automate menu selection. This tool parses single-column menus to find and select a target option, addressing a critical inefficiency identified by Overwatch. This is a foundational step in improving automation and eliminating wasted turns on manual menu navigation.",
+        "timestamp": "2025-09-15T02:16:20.871Z",
+        "action_counter": 214651
       },
       {
-        "commit_message": "feat: Create tool to automate item selection. This tool parses the inventory screen to find and select a target item, addressing a key inefficiency identified in self-assessment and by Overwatch. This is a critical step in improving automation.",
-        "timestamp": "2025-09-15T00:35:17.637Z",
-        "action_counter": 214402
+        "commit_message": "fix: Send triple 'A' press for confirmation. The tool failed to register a single 'A' press, similar to issues seen with other tools. This change implements the same brute-force fix of sending the input three times to improve reliability against suspected system-level input drops, directly addressing the tool failure from turn 214655.",
+        "timestamp": "2025-09-15T02:18:24.136Z",
+        "action_counter": 214656
       }
     ]
   }
