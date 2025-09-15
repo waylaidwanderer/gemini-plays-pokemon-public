@@ -34,7 +34,7 @@
 - **PC Mechanics (CRITICAL):** The PC is **stateful**. It remembers the last system accessed (e.g., 'BILL's PC' for Pokémon or 'Gem's PC' for Items). When turning on the PC, it will open directly into the last-used system, bypassing the main selection menu. Any automation tool MUST account for this by having a reset sequence (e.g., pressing 'B' multiple times) to return to a known state before executing commands.
 - **Tool Development Failure:** Repeatedly deferred fixing a critically flawed tool (`pc_shuffler_executor`) instead of addressing it immediately. Operated on an untested assumption (PC is stateless) which caused a loop of failures. **Lesson:** Verify core mechanics manually before automating them. Fix broken tools immediately.
 - **Navigation Failure (Confirmation Bias):** Incorrectly assumed the eastern section of Route 4 was the correct path without verifying, leading to a significant detour. **Lesson:** Do not assume a path is correct. Explore all options when the way forward is not immediately clear.
-- **Tool Usage Failure (Execution):** Repeatedly failed to execute tool calls due to incorrect arguments (e.g., typos, extra spaces). **Lesson:** Meticulously verify every character in tool arguments before execution. Immediate correction of failed tool calls is the highest priority.
+- **Tool Usage Failure (Execution Loop):** Fell into a severe loop of failing maintenance-related tool calls due to repeated, minor argument errors (e.g., typos, extra spaces). Lesson: Prioritize resolving the immediate game state (like a battle) before attempting complex maintenance. Perform maintenance in a stable overworld state. Meticulously verify every character in tool arguments before execution.
 
 # V. Tile Mechanics & Interaction Rules
 
@@ -85,5 +85,4 @@
 
 # VII. Future Agent & Tool Ideas
 
-- **Team Composition Agent:** Analyze Pokedex and suggest teams for specific challenges (e.g., Gyms) based on type coverage and known opponent rosters.
-- **Grinding Optimizer Agent:** Suggest optimal grinding locations based on party levels, target EXP, and wild Pokémon data from known areas.
+- **Strategic Team Builder Agent:** An agent that analyzes my current party, PC box, and a known opponent's roster (from my notes) to suggest an optimal team of 6 and a lead Pokémon for the battle.
