@@ -101,9 +101,18 @@
 - **Nurse Joy Rematches:** Some Nurse Joys in Pokémon Centers will challenge the player to a battle after healing their party. This has been observed in Fuchsia City.
     - **Roster (Fuchsia City):** KANGASKHAN (Lv 65), SNORLAX (Lv 65), STARMIE (Lv 65), PORYGON (Lv 65), EXEGGUTOR (Lv 65), CHANSEY (Lv 65).
     - **Known Movesets:**
-        - **Kangaskhan:** DOUBLE TEAM, DOUBLE-EDGE. (Immune to THUNDER WAVE, suggesting Ground-type or special ability).
+        - **Kangaskhan:** DOUBLE TEAM, DOUBLE-EDGE.
         - **Snorlax:** (No moves observed).
         - **Starmie:** PSYCHIC.
         - **Porygon:** THUNDER WAVE, BLIZZARD, REFLECT, RECOVER.
         - **Exeggutor:** REFLECT, SLEEP POWDER, DREAM EATER.
-    - Normal > Water/Ice
+        - **Chansey:** REFLECT, EGG BOMB.
+- **Type Effectiveness Chart (Verified):**
+    - Water > Rock/Ground
+    - Water is not very effective against Bug/Grass, Ghost/Poison
+    - Poison is not very effective against Poison/Flying, Rock/Ground
+    - Flying is not very effective against Rock/Ground
+    - Rock is not very effective against Ground
+    - Normal is not very effective against Ground
+    - Flying is not very effective against Electric
+    - **Normal > Water/Ice (NEW)**
