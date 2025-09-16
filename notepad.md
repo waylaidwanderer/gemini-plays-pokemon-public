@@ -47,19 +47,24 @@
 - **PC Mechanics (CRITICAL):** The PC is **stateful**. It remembers the last system accessed (e.g., 'BILL's PC' for Pokémon or 'Gem's PC' for Items). When turning on the PC, it will open directly into the last-used system, bypassing the main selection menu. Any automation tool MUST account for this by having a reset sequence (e.g., pressing 'B' multiple times) to return to a known state before executing commands.
 - **Route 4 Access (CRITICAL):** There are two distinct maps named 'Route 4'. One is west of Mt. Moon (accessible from Route 3) and one is east of Mt. Moon (leading to Cerulean City). The eastern section is a one-way path *from* Mt. Moon, blocking westward travel. They are not directly connected.
 - **External Puzzle Solutions:** After exhausting all internal hypotheses for the Mt. Moon blockade, it's necessary to consider that the solution may require an external trigger, item, or quest flag from another location in the world.
-- **Tool Development Failure:** Repeatedly deferred fixing a critically flawed tool (`pc_shuffler_executor`, `spinner_maze_solver`) instead of addressing it immediately. Operated on an untested assumption (PC is stateless) which caused a loop of failures. **Lesson:** Verify core mechanics manually before automating them. Fix broken tools immediately.
+- **Tool Development Failure:** Repeatedly deferred fixing a critically flawed tool (`spinner_maze_solver`, `automated_path_navigator`) instead of addressing it immediately. Operated on an untested assumption (PC is stateless) which caused a loop of failures. **Lesson:** Verify core mechanics manually before automating them. Fix broken tools immediately.
 - **Navigation Failure (Confirmation Bias):** Incorrectly assumed the eastern section of Route 4 was the correct path without verifying, leading to a significant detour. **Lesson:** Do not assume a path is correct. Explore all options when the way forward is not immediately clear.
 - **Tool Usage Failure (Execution Loop):** Fell into a severe loop of failing maintenance-related tool calls due to repeated, minor argument errors (e.g., typos, extra spaces). **Lesson:** Prioritize resolving the immediate game state (like a battle) before attempting complex maintenance. Perform maintenance in a stable overworld state. Meticulously verify every character in tool arguments before execution.
 - **Hypothesis Testing Failure (Preparation):** Arrived at a location to test a hypothesis without the required Pokémon/items/moves. **Lesson:** Always verify party composition and necessary items/moves *before* traveling to a location to test a hypothesis.
 
-# V. Tile Mechanics & Interaction Rules
+# V. Solved Puzzles
+
+- **Rocket Hideout B2F Spinner Maze:** The maze is divided into two main sections (north and south), connected by a specific spinner tile. The northern section is a complex loop designed to be confusing. The key is to find the spinner at (14, 11) which leads to the southern section at (15, 13). The Pikachu interactions on this floor are traps that lock the player and must be escaped by pressing 'B'.
+
+# VI. Tile Mechanics & Interaction Rules
 
 - **PC Interaction:** The tile for the PC in Pokémon Centers (e.g., Viridian Pokecenter (14,4)) is typed as `grass` in the map data, but it is impassable. Interaction requires standing on the tile directly below it (at (X, Y+1)) and facing up.
 - **Warp Tiles (1x1):** To re-use an instant warp tile after arriving on it, you must first step off the tile and then step back on.
 - **Ledge Traversal:** Moving down onto a ledge tile automatically results in a two-tile jump to the tile below the ledge.
 - **Spinner Tiles:** Tiles that force movement in a specific direction (`spinner_up`, `spinner_down`, `spinner_left`, `spinner_right`). This forced movement continues until an obstacle or a `spinner_stop` tile is encountered.
+- **Spinner Stop Tiles:** A `spinner_stop` tile halts all momentum from a spinner chain.
 
-# VI. Fossil Quest - Hypotheses Log
+# VII. Fossil Quest - Hypotheses Log
 
 - **Active Hypotheses (Ranked by Plausibility):**
     - The Rocket Grunt on B2F will only move if presented with the revived DOME fossil Pokémon (Kabuto).
@@ -114,7 +119,7 @@
     - Using Selfdestruct on a wall near the Rocket Grunt at B2F (30,12) will create a new passage. (Result: Failed. Used Selfdestruct in a battle adjacent to the wall at (31,12). The wall remained impassable.)
     - The Hiker on 1F is the father of the Super Nerd. Defeating the son will make the Hiker move. (Result: Failed. The Super Nerd was already defeated, and the Hiker's dialogue is unchanged.)
 
-# VII. Fossil Quest - Agent-Generated Hypotheses
+# VIII. Fossil Quest - Agent-Generated Hypotheses
 
 - **Active Hypotheses (Ranked by Plausibility):**
     - The Hiker is not a blocker but a Move Tutor who will teach a unique move. He will only move after teaching the move, which requires the player to have a specific Pokémon (e.g., Geodude, Onix) and an empty move slot in their party.
