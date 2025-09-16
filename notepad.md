@@ -138,3 +138,10 @@
 - **Tool Maintenance Failure (CRITICAL):** Deferred fixing the critically flawed `spinner_maze_solver` for over 50 turns. Instead of immediately addressing its bugs (statelessness, no collision detection, flawed simulation, incorrect output), I attempted manual workarounds and got stuck in loops. This was a fundamental misunderstanding of the 'immediate maintenance' directive. **Lesson:** A broken tool must be fixed immediately, as it is the highest priority task. Do not attempt to use or work around a known-broken tool.
 - **Spinner Stop Tile:** A tile that halts movement from a spinner chain. It is a traversable tile.
 - **Tool Failure (Spinner Maze):** The `spinner_maze_solver` tool is fundamentally flawed. Its internal simulation of spinner physics does not match the game's actual mechanics, causing it to generate invalid paths and get stuck in loops, even with multiple fixes. **Lesson:** When a complex tool proves unreliable after repeated fixes, it's more efficient to abandon it and pivot to a simpler, more robust strategy (like manual navigation assisted by a targeted simulation tool) rather than continuing to patch the broken foundation.
+
+# VII. Archived Puzzles & Investigations
+
+- **Rocket Hideout Spinner Mazes (B2F & B3F)**
+    - **Status:** B3F Completed. B2F In Progress.
+    - **B2F Strategy:** The `spinner_maze_solver` tool proved fundamentally unreliable due to inaccurate physics simulation. It has been deleted. Proceeding with careful, manual, step-by-step navigation, aided by the `spinner_move_simulator` tool.
+    - **B2F Visited Stop Tiles:** (16, 19), (12, 21), (3, 20), (9, 12).
