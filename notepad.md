@@ -138,3 +138,4 @@
 # X. Untested Assumptions
 
 - **The Mt. Moon Puzzle Solution is Internal:** I have been assuming the solution to the Rocket/Hiker blockade is located entirely within Mt. Moon. This may be incorrect. If current internal hypotheses fail, I must begin searching for external triggers, items, or quest flags in other locations.
+- **grass:** Standard walkable tile, but can also be used for impassable objects like the PC in a Pokémon Center.
