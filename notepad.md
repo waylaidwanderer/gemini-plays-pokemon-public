@@ -43,11 +43,11 @@
 
 - **PC Mechanics (CRITICAL):** The PC is **stateful**. It remembers the last system accessed (e.g., 'BILL's PC' for Pokémon or 'Gem's PC' for Items). When turning on the PC, it will open directly into the last-used system, bypassing the main selection menu. Any automation tool MUST account for this by having a reset sequence (e.g., pressing 'B' multiple times) to return to a known state before executing commands.
 - **Route 4 Access (CRITICAL):** There are two distinct maps named 'Route 4'. One is west of Mt. Moon (accessible from Route 3) and one is east of Mt. Moon (leading to Cerulean City). The eastern section is a one-way path *from* Mt. Moon, blocking westward travel. They are not directly connected.
-- **External Puzzle Solutions:** After exhausting all internal hypotheses for the Mt. Moon blockade, it's necessary to consider that the solution may require an external trigger, item, or quest flag from another location in the world.
 - **Tool Development Failure:** Repeatedly deferred fixing a critically flawed tool (`pc_shuffler_executor`) instead of addressing it immediately. Operated on an untested assumption (PC is stateless) which caused a loop of failures. **Lesson:** Verify core mechanics manually before automating them. Fix broken tools immediately.
 - **Navigation Failure (Confirmation Bias):** Incorrectly assumed the eastern section of Route 4 was the correct path without verifying, leading to a significant detour. **Lesson:** Do not assume a path is correct. Explore all options when the way forward is not immediately clear.
 - **Tool Usage Failure (Execution Loop):** Fell into a severe loop of failing maintenance-related tool calls due to repeated, minor argument errors (e.g., typos, extra spaces). **Lesson:** Prioritize resolving the immediate game state (like a battle) before attempting complex maintenance. Perform maintenance in a stable overworld state. Meticulously verify every character in tool arguments before execution.
 - **Hypothesis Testing Failure (Preparation):** Arrived at a location to test a hypothesis without the required Pokémon/items/moves. **Lesson:** Always verify party composition and necessary items/moves *before* traveling to a location to test a hypothesis.
+- **The Mt. Moon Puzzle Solution is External:** After exhausting all internal hypotheses for the Rocket/Hiker blockade, it's necessary to consider that the solution may require an external trigger, item, or quest flag from another location in the world. This was confirmed after finding no solution within Mt. Moon itself.
 
 # V. Tile Mechanics & Interaction Rules
 
@@ -55,6 +55,7 @@
 - **Warp Tiles (1x1):** To re-use an instant warp tile after arriving on it, you must first step off the tile and then step back on.
 - **Ledge Traversal:** Moving down onto a ledge tile automatically results in a two-tile jump to the tile below the ledge.
 - **Spinner Tiles:** Tiles that force movement in a specific direction (`spinner_up`, `spinner_down`, `spinner_left`, `spinner_right`) until an obstacle or a `spinner_stop` tile is encountered.
+- **Closed Gate:** An impassable gate. Its state is specific to the screen view and may require a switch or key to open.
 
 # VI. Fossil Quest - Hypotheses Log
 
@@ -124,3 +125,4 @@
 
 - **Multi-Map Pathfinding Tool:** A tool that can plan a route across multiple maps, identifying the required sequence of warps, ladders, and map connections to travel from a start point on one map to a destination on another.
 - **Spinner Maze Solver Tool:** A tool that can parse the map data to understand spinner tile paths and automatically calculate the correct sequence of movements to navigate spinner mazes.
+- **Map Partition Analyzer Agent:** An agent that can analyze the map XML to identify disconnected partitions and suggest a more systematic exploration strategy, preventing wasted time in dead-end loops.
