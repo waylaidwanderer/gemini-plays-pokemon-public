@@ -927,22 +927,6 @@
       }
     ]
   },
-  "battle_menu_buster": {
-    "description": "Attempts to break the battle menu input lock by trying a sequence of button presses ('Down', then 'A'). This is for situations where the game is not responding to standard move selection.",
-    "input_schema": {
-      "type": "object",
-      "properties": {},
-      "required": []
-    },
-    "python_script": "import json\nprint(json.dumps([\"Down\", \"A\"]))",
-    "history": [
-      {
-        "commit_message": "feat: Create battle_menu_buster tool. This tool is a direct response to a recurring battle menu input anomaly where 'A' presses are not registering. It automates a sequence of button presses ('Down', then 'A') to change the menu state and force the battle to progress. This was identified as a key opportunity for automation during a mandatory self-assessment.",
-        "timestamp": "2025-09-16T10:24:53.974Z",
-        "action_counter": 218343
-      }
-    ]
-  },
   "automated_battle_move_selector": {
     "description": "A smart battle tool that automates move selection. If on the main battle menu, it selects 'FIGHT'. If on the move selection menu, it navigates to and selects the specified move.",
     "input_schema": {
@@ -976,6 +960,60 @@
         "commit_message": "fix: Implement robust main menu navigation. The tool now correctly identifies the cursor's position on the 2x2 main battle menu and navigates to 'FIGHT' before selecting it. This fixes a critical bug where the tool would fail if the cursor wasn't already on 'FIGHT'.",
         "timestamp": "2025-09-16T11:23:50.154Z",
         "action_counter": 218465
+      }
+    ]
+  },
+  "spinner_maze_solver": {
+    "description": "Calculates the sequence of button presses to navigate a spinner maze from a start to an end coordinate. This tool should be used for complex spinner puzzles where manual pathing is difficult. The output can be used with `autopress_buttons`.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "start_x": {
+          "type": "string"
+        },
+        "start_y": {
+          "type": "string"
+        },
+        "end_x": {
+          "type": "string"
+        },
+        "end_y": {
+          "type": "string"
+        },
+        "start_facing": {
+          "type": "string",
+          "enum": [
+            "up",
+            "down",
+            "left",
+            "right"
+          ]
+        }
+      },
+      "required": [
+        "start_x",
+        "start_y",
+        "end_x",
+        "end_y",
+        "start_facing"
+      ]
+    },
+    "python_script": "import json\nimport collections\nimport xml.etree.ElementTree as ET\n\ndef solve_spinner_maze():\n    root = ET.fromstring(map_xml_string)\n    map_width = int(root.get('width'))\n    map_height = int(root.get('height'))\n    tiles = {}\n    for row in root.findall('Row'):\n        y = int(row.get('id'))\n        for tile_elem in row.findall('Tile'):\n            x = int(tile_elem.get('id'))\n            obj = tile_elem.find('Object')\n            spinner = tile_elem.find('Spinner')\n            tiles[(x, y)] = {\n                'type': tile_elem.get('type'),\n                'has_object': tile_elem.get('has-object') == 'true',\n                'object_id_name': obj.get('id-name') if obj is not None else None,\n                'spinner_direction': spinner.get('direction') if spinner is not None else None\n            }\n\n    start_x = int(input_data['start_x'])\n    start_y = int(input_data['start_y'])\n    end_x = int(input_data['end_x'])\n    end_y = int(input_data['end_y'])\n    start_facing = input_data['start_facing']\n\n    start_pos = (start_x, start_y)\n    end_pos = (end_x, end_y)\n\n    def get_tile(pos):\n        return tiles.get(pos)\n\n    def is_pikachu(pos):\n        tile = get_tile(pos)\n        return tile and tile['has_object'] and tile['object_id_name'] == 'Pikachu'\n\n    def is_valid(pos):\n        x, y = pos\n        if not (1 <= x <= map_width and 1 <= y <= map_height):\n            return False\n        tile = get_tile(pos)\n        return tile and tile['type'] not in ['impassable']\n\n    # State: (x, y, facing)\n    start_state = (start_pos[0], start_pos[1], start_facing)\n    queue = collections.deque([(start_state, [])]) # (state, button_path)\n    visited = {start_state}\n\n    button_map = {\n        'Up': {'vec': (0, -1), 'face': 'up'},\n        'Down': {'vec': (0, 1), 'face': 'down'},\n        'Left': {'vec': (-1, 0), 'face': 'left'},\n        'Right': {'vec': (1, 0), 'face': 'right'}\n    }\n\n    while queue:\n        (current_x, current_y, current_facing), path = queue.popleft()\n        current_pos = (current_x, current_y)\n\n        if current_pos == end_pos:\n            print(json.dumps(path))\n            return\n\n        for button, move_info in button_map.items():\n            new_path = path + [button]\n            dx, dy = move_info['vec']\n            next_pos_candidate = (current_x + dx, current_y + dy)\n            target_facing = move_info['face']\n\n            # Handle Pikachu turn rule\n            if is_pikachu(next_pos_candidate) and current_facing != target_facing:\n                new_state = (current_x, current_y, target_facing)\n                if new_state not in visited:\n                    visited.add(new_state)\n                    queue.append((new_state, new_path))\n                continue\n\n            # Handle normal movement and spinners\n            if is_valid(next_pos_candidate):\n                final_pos = next_pos_candidate\n                final_facing = target_facing\n                \n                # Simulate spinner movement\n                next_tile = get_tile(final_pos)\n                if next_tile and next_tile['type'].startswith('spinner_'):\n                    while True:\n                        current_tile = get_tile(final_pos)\n                        if not current_tile or not current_tile['type'].startswith('spinner_'):\n                            break\n                        \n                        direction = current_tile['spinner_direction']\n                        if direction == 'stop': break\n                        \n                        spin_dx, spin_dy = button_map[direction.capitalize()]['vec']\n                        final_pos = (final_pos[0] + spin_dx, final_pos[1] + spin_dy)\n                        if not is_valid(final_pos):\n                            final_pos = (final_pos[0] - spin_dx, final_pos[1] - spin_dy)\n                            break\n                \n                new_state = (final_pos[0], final_pos[1], final_facing)\n                if new_state not in visited:\n                    visited.add(new_state)\n                    queue.append((new_state, new_path))\n\n    print(json.dumps([])) # Return empty list if no path is found\n\nsolve_spinner_maze()",
+    "history": [
+      {
+        "commit_message": "feat: Create spinner_maze_solver tool. This tool automates the navigation of spinner mazes by simulating spinner movement and using a BFS search to find the correct sequence of button presses. This is a direct response to a critical overwatch critique and addresses a major recurring gameplay challenge.",
+        "timestamp": "2025-09-16T16:47:03.803Z",
+        "action_counter": 218860
+      },
+      {
+        "commit_message": "fix: Correct tool output to be a valid JSON array. The previous version returned a JSON object, which is incompatible with the `autopress_buttons` feature. This change ensures the tool prints only the array of button presses on success, or an empty array on failure.",
+        "timestamp": "2025-09-16T16:48:08.603Z",
+        "action_counter": 218862
+      },
+      {
+        "commit_message": "fix: Overhaul BFS to be state-aware of facing direction. The previous implementation's pathfinding was based only on coordinates, which failed to account for the special turn-in-place mechanic when moving towards Pikachu. This commit refactors the core BFS algorithm to use a state of (x, y, facing), allowing it to correctly simulate the 1-2 button presses required for Pikachu movement and generate valid, executable paths. This is a critical fix to unblock spinner maze automation.",
+        "timestamp": "2025-09-16T16:52:29.104Z",
+        "action_counter": 218867
       }
     ]
   }

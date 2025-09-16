@@ -6,6 +6,9 @@
 - **Stalled Quest: The Copycat's Gift**
     - **Objective:** Obtain a POKé DOLL and give it to COPYCAT.
     - **Status:** Stalled. All leads in Cerulean City exhausted. Suspect COPYCAT is not in a currently accessible area.
+- **Secondary Quest: Rocket Investigation**
+    - **Objective:** Investigate Team Rocket locations for clues related to the Mt. Moon blockade.
+    - **Note:** A Rocket on B3F mentioned a LIFT KEY is needed for the elevator. The key is currently in the PC.
 
 # II. Game Mechanics & World Rules
 
@@ -130,3 +133,5 @@
 # X. Rocket Hideout B2F Spinner Maze
 
 - **Objective:** Navigate the spinner maze to reach the elevator warp at (25, 20).
+- **Failed Hypotheses:**
+    - (None yet)
