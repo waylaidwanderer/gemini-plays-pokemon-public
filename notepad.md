@@ -62,7 +62,7 @@
 # VI. Fossil Quest - Hypotheses Log
 
 - **Active Hypotheses (Ranked by Plausibility):**
-    - The Hiker on 1F will move if Flash is used nearby.
+    - The Hiker on 1F will move if Flash is used nearby. (Result: Failed. Prof. Oak prevents field move use.)
     - The Rocket Grunt will be satisfied if a Pokémon uses 'Ancient Power' in battle against him.
     - The Rocket Grunt will move if a Geodude uses Self-Destruct in battle against him.
     - The Hiker will move once the Pokédex is completed for all Mt. Moon native species.
