@@ -42,6 +42,7 @@
 # IV. Key Discoveries & Lessons Learned
 
 - **PC Mechanics (CRITICAL):** The PC is **stateful**. It remembers the last system accessed (e.g., 'BILL's PC' for Pokémon or 'Gem's PC' for Items). When turning on the PC, it will open directly into the last-used system, bypassing the main selection menu. Any automation tool MUST account for this by having a reset sequence (e.g., pressing 'B' multiple times) to return to a known state before executing commands.
+- **Route 4 Access (CRITICAL):** There are two distinct maps named 'Route 4'. One is west of Mt. Moon (accessible from Route 3) and one is east of Mt. Moon (leading to Cerulean City). The eastern section is a one-way path *from* Mt. Moon, blocking westward travel. They are not directly connected.
 - **Tool Development Failure:** Repeatedly deferred fixing a critically flawed tool (`pc_shuffler_executor`) instead of addressing it immediately. Operated on an untested assumption (PC is stateless) which caused a loop of failures. **Lesson:** Verify core mechanics manually before automating them. Fix broken tools immediately.
 - **Navigation Failure (Confirmation Bias):** Incorrectly assumed the eastern section of Route 4 was the correct path without verifying, leading to a significant detour. **Lesson:** Do not assume a path is correct. Explore all options when the way forward is not immediately clear.
 - **Tool Usage Failure (Execution Loop):** Fell into a severe loop of failing maintenance-related tool calls due to repeated, minor argument errors (e.g., typos, extra spaces). **Lesson:** Prioritize resolving the immediate game state (like a battle) before attempting complex maintenance. Perform maintenance in a stable overworld state. Meticulously verify every character in tool arguments before execution.
@@ -49,17 +50,8 @@
 
 # V. Tile Mechanics & Interaction Rules
 
-- **PC Interaction:**
-    - **Tile:** The tile for the PC in Pokémon Centers (e.g., Viridian Pokecenter (14,4)) is typed as `grass` in the map data, but it is impassable. Interaction requires standing on the tile directly below it (at (X, Y+1)) and facing up.
-    - **Mechanics:** Selecting 'WITHDRAW PKMN' opens the box menu, allowing the player to freely select which Pokémon to withdraw. Selecting 'DEPOSIT PKMN' opens the party menu, allowing the player to choose which Pokémon to deposit.
-- **Warp Tiles (1x1):** To re-use an instant warp tile after arriving on it, you must first step off the tile and then step back on. This applies to tiles like `ladder_down` and `ladder_up`.
-- **elevated_ground:** Inaccessible from 'ground' tiles unless via 'steps'. Acts as a separate plane of movement.
-- **ladder_down/ladder_up:** Function as 1x1 warp tiles between floors.
-- **Event Trigger Tile:** Some tiles, when stepped on, can trigger a scripted event or dialogue, such as the entrance fee tile in the Pewter Museum of Science. These are not visually distinct from normal ground tiles.
-- **ground:** Standard walkable tile.
-- **grass:** Standard walkable tile, but can also be used for impassable objects like the PC in a Pokémon Center.
-- **impassable:** Walls and other obstacles that cannot be walked on.
-- **steps:** Allows movement between 'ground' and 'elevated_ground' tiles.
+- **PC Interaction:** The tile for the PC in Pokémon Centers (e.g., Viridian Pokecenter (14,4)) is typed as `grass` in the map data, but it is impassable. Interaction requires standing on the tile directly below it (at (X, Y+1)) and facing up.
+- **Warp Tiles (1x1):** To re-use an instant warp tile after arriving on it, you must first step off the tile and then step back on.
 - **Ledge Traversal:** Moving down onto a ledge tile automatically results in a two-tile jump to the tile below the ledge.
 - **Spinner Tiles:** Tiles that force movement in a specific direction (`spinner_up`, `spinner_down`, `spinner_left`, `spinner_right`) until an obstacle or a `spinner_stop` tile is encountered.
 
@@ -127,16 +119,11 @@
 - **Failed Agent Hypotheses:**
     - One of the NPCs will react to a specific Pokémon's cry. (Result: Failed. Used Clefable's cry next to the Hiker on 1F and the Rocket Grunt on B2F. Dialogue unchanged in both cases.)
 
-# VIII. Mt. Moon Access Plan
-
-- **Problem:** The eastern section of Route 4 is a one-way path from Mt. Moon, blocking westward travel.
-- **Key Insight:** There are two distinct maps named 'Route 4'. One is west of Mt. Moon (accessible from Route 3) and one is east of Mt. Moon (leading to Cerulean City). They are not directly connected.
-
-# IX. Tool Development Ideas
+# VIII. Tool Development Ideas
 
 - **Multi-Map Pathfinding Tool:** A tool that can plan a route across multiple maps, identifying the required sequence of warps, ladders, and map connections to travel from a start point on one map to a destination on another.
 - **Spinner Maze Solver Tool:** A tool that can parse the map data to understand spinner tile paths and automatically calculate the correct sequence of movements to navigate spinner mazes.
 
-# X. Untested Assumptions
+# IX. Untested Assumptions
 
 - **The Mt. Moon Puzzle Solution is External:** I have been assuming the solution to the Rocket/Hiker blockade is located entirely within Mt. Moon. This may be incorrect. If current internal hypotheses fail, I must begin searching for external triggers, items, or quest flags in other locations. If the Rocket Hideout provides no clues, the search may need to be broadened beyond just Rocket-controlled areas.
