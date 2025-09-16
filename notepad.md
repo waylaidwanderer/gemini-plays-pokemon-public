@@ -122,7 +122,7 @@
     - A visually distinct section of the cave wall, possibly near one of the NPCs, is destructible. Using a Pokémon move like Self-Destruct, Explosion, or Hyper Beam on it will create a new passage, bypassing the blockade.
     - The Rocket Grunt is waiting for a 'delivery.' You must obtain a specific item from another Team Rocket member somewhere else in the world (e.g., Celadon Game Corner, Silph Co.) and deliver it to this Grunt.
 - **Failed Agent Hypotheses:**
-    - One of the NPCs will react to a specific Pokémon's cry. (Result: Failed. Used Clefable's cry next to the Hiker on 1F. Dialogue unchanged.)
+    - One of the NPCs will react to a specific Pokémon's cry. (Result: Failed. Used Clefable's cry next to the Hiker on 1F and the Rocket Grunt on B2F. Dialogue unchanged in both cases.)
 
 # VIII. Mt. Moon Access Plan
 
