@@ -105,3 +105,4 @@
 - **Conclusion:** External navigation seems to be a red herring. The solution to the puzzle must lie *inside* Mt. Moon, involving an interaction with either the Rocket Grunt on B2F or the Hiker on 1F.
 - **New Plan:** Return to Mt. Moon and systematically test the remaining hypotheses from the log.
 - **Ledge Traversal:** Moving down onto a ledge tile automatically results in a two-tile jump to the tile below the ledge.
+- **Ledge Traversal:** Moving down onto a ledge tile automatically results in a two-tile jump to the tile below the ledge.
