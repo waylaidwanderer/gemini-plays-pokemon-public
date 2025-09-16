@@ -953,5 +953,21 @@
         "action_counter": 218198
       }
     ]
+  },
+  "battle_menu_buster": {
+    "description": "Attempts to break the battle menu input lock by trying a sequence of button presses ('Down', then 'A'). This is for situations where the game is not responding to standard move selection.",
+    "input_schema": {
+      "type": "object",
+      "properties": {},
+      "required": []
+    },
+    "python_script": "import json\nprint(json.dumps([\"Down\", \"A\"]))",
+    "history": [
+      {
+        "commit_message": "feat: Create battle_menu_buster tool. This tool is a direct response to a recurring battle menu input anomaly where 'A' presses are not registering. It automates a sequence of button presses ('Down', then 'A') to change the menu state and force the battle to progress. This was identified as a key opportunity for automation during a mandatory self-assessment.",
+        "timestamp": "2025-09-16T10:24:53.974Z",
+        "action_counter": 218343
+      }
+    ]
   }
 }

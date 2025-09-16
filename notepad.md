@@ -65,7 +65,7 @@
 
 - **Active Hypotheses (Ranked by Plausibility):**
     - The Rocket Grunt will be satisfied if a Pokémon uses 'Ancient Power' in battle against him.
-    - The Rocket Grunt will move if a Geodude uses Self-Destruct in battle against him.
+    - The Rocket Grunt will move if a Geodude uses Self-Destruct in battle against him. (Result: Failed. The Grunt is not a trainer and cannot be battled.)
     - The Hiker will move once the Pokédex is completed for all Mt. Moon native species.
     - The Rocket Grunt will move if a Clefairy uses Metronome in battle against him.
     - The Rocket Grunt on B2F at (30,12) is not looking for a specific fossil item, but for a 'fossilized' Pokémon (petrified status).
