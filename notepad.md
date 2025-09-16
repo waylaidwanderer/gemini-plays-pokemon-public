@@ -47,9 +47,8 @@
 - **PC Mechanics (CRITICAL):** The PC is **stateful**. It remembers the last system accessed (e.g., 'BILL's PC' for Pokémon or 'Gem's PC' for Items). When turning on the PC, it will open directly into the last-used system, bypassing the main selection menu. Any automation tool MUST account for this by having a reset sequence (e.g., pressing 'B' multiple times) to return to a known state before executing commands.
 - **Route 4 Access (CRITICAL):** There are two distinct maps named 'Route 4'. One is west of Mt. Moon (accessible from Route 3) and one is east of Mt. Moon (leading to Cerulean City). The eastern section is a one-way path *from* Mt. Moon, blocking westward travel. They are not directly connected.
 - **External Puzzle Solutions:** After exhausting all internal hypotheses for the Mt. Moon blockade, it's necessary to consider that the solution may require an external trigger, item, or quest flag from another location in the world.
-- **Tool Development Failure:** Repeatedly deferred fixing a critically flawed tool (`spinner_maze_solver`, `automated_path_navigator`) instead of addressing it immediately. Operated on an untested assumption (PC is stateless) which caused a loop of failures. **Lesson:** Verify core mechanics manually before automating them. Fix broken tools immediately.
-- **Navigation Failure (Confirmation Bias):** Incorrectly assumed the eastern section of Route 4 was the correct path without verifying, leading to a significant detour. **Lesson:** Do not assume a path is correct. Explore all options when the way forward is not immediately clear.
-- **Tool Usage Failure (Execution Loop):** Fell into a severe loop of failing maintenance-related tool calls due to repeated, minor argument errors (e.g., typos, extra spaces). **Lesson:** Prioritize resolving the immediate game state (like a battle) before attempting complex maintenance. Perform maintenance in a stable overworld state. Meticulously verify every character in tool arguments before execution.
+- **Tool Development Philosophy:** Repeatedly deferred fixing a critically flawed tool (`spinner_maze_solver`, `automated_path_navigator`) instead of addressing it immediately. Operated on an untested assumption (PC is stateless) which caused a loop of failures. **Lesson:** Verify core mechanics manually before automating them. Fix broken tools immediately. A simple, reliable tool is better than a complex, buggy one.
+- **Confirmation Bias in Navigation:** Incorrectly concluded an area was a 'dead end' because the `automated_path_navigator` failed, ignoring other reachable warps on the map. **Lesson:** A tool's failure to find a path to a *specific* destination does not mean the entire area is unreachable or fully explored. Always verify against all available map data before concluding you are stuck.
 - **Hypothesis Testing Failure (Preparation):** Arrived at a location to test a hypothesis without the required Pokémon/items/moves. **Lesson:** Always verify party composition and necessary items/moves *before* traveling to a location to test a hypothesis.
 
 # V. Solved Puzzles
@@ -61,8 +60,9 @@
 - **PC Interaction:** The tile for the PC in Pokémon Centers (e.g., Viridian Pokecenter (14,4)) is typed as `grass` in the map data, but it is impassable. Interaction requires standing on the tile directly below it (at (X, Y+1)) and facing up.
 - **Warp Tiles (1x1):** To re-use an instant warp tile after arriving on it, you must first step off the tile and then step back on.
 - **Ledge Traversal:** Moving down onto a ledge tile automatically results in a two-tile jump to the tile below the ledge.
-- **Spinner Tiles:** Tiles that force movement in a specific direction (`spinner_up`, `spinner_down`, `spinner_left`, `spinner_right`). This forced movement continues until an obstacle or a `spinner_stop` tile is encountered.
-- **Spinner Stop Tiles:** A `spinner_stop` tile halts all momentum from a spinner chain.
+- **Spinner Tiles:** There are two main types:
+    - **Directional Spinners (`spinner_up`, `spinner_down`, `spinner_left`, `spinner_right`):** Force movement in a specific direction. This forced movement continues until an obstacle is hit.
+    - **Spinner Stop Tiles (`spinner_stop`):** A safe tile that halts all momentum from a spinner chain. It does not initiate movement on its own.
 
 # VII. Fossil Quest - Hypotheses Log
 
