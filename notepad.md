@@ -62,7 +62,7 @@
 # VI. Fossil Quest - Hypotheses Log
 
 - **Active Hypotheses (Ranked by Plausibility):**
-    - The Hiker at 1F (6,7) will move if approached with a party where all non-fainted members are afflicted with the 'Poison' status condition. (Note: LUNA is expected to faint from poison damage en route.)
+    - The Hiker at 1F (6,7) will move if approached with a party where all non-fainted members are afflicted with the 'Poison' status condition. (Note: LUNA fainted from poison damage en route.) (Result: Failed. Dialogue unchanged.)
     - The Rocket Grunt will be satisfied if a Pokémon uses 'Ancient Power' in battle against him.
     - The Rocket Grunt will move if a Geodude uses Self-Destruct in battle against him.
     - The Hiker will move once the Pokédex is completed for all Mt. Moon native species.
