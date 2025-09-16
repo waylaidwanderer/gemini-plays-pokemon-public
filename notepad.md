@@ -2,7 +2,7 @@
 
 - **Current Quest: The Mt. Moon Fossil**
     - **Objective:** Find a way past the Rocket Grunt at Mt. Moon B2F (30,12) or the Hiker at 1F (6,7).
-    - **Status:** Active. Systematically testing hypotheses.
+    - **Status:** Active. Current working assumption is that the solution is internal to Mt. Moon. Systematically testing hypotheses.
 - **Stalled Quest: The Copycat's Gift**
     - **Objective:** Obtain a POKé DOLL and give it to COPYCAT.
     - **Status:** Stalled. All leads in Cerulean City exhausted. Suspect COPYCAT is not in a currently accessible area.
@@ -65,7 +65,6 @@
 
 - **Active Hypotheses (Ranked by Plausibility):**
     - The Rocket Grunt will be satisfied if a Pokémon uses 'Ancient Power' in battle against him.
-    - The Rocket Grunt will move if a Geodude uses Self-Destruct in battle against him. (Result: Failed. The Grunt is not a trainer and cannot be battled.)
     - The Hiker will move once the Pokédex is completed for all Mt. Moon native species.
     - The Rocket Grunt will move if a Clefairy uses Metronome in battle against him.
     - The Rocket Grunt on B2F at (30,12) is not looking for a specific fossil item, but for a 'fossilized' Pokémon (petrified status).
@@ -73,6 +72,7 @@
     - The Rocket Grunt at B2F (30,12) is waiting for a secret password made of a sequence of Pokémon cries.
     - The Rocket Grunt on B2F (30,12) is a spy and requires a disguise to be bypassed.
 - **Failed Hypotheses:**
+    - The Geodude will move if a Geodude uses Self-Destruct in battle against him. (Result: Failed. The Grunt is not a trainer and cannot be battled.)
     - The Hiker at 1F (6,7) has lost an item. Using the Itemfinder near him will reveal a hidden item which, when returned, will make him move. (Result: Failed. Itemfinder did not respond.)
     - The Hiker on 1F will move if Pikachu interacts with him. (Result: Failed. Dialogue unchanged.)
     - The Hiker on 1F will move if Flash is used nearby. (Result: Failed. Prof. Oak prevents field move use.)
@@ -108,12 +108,6 @@
     - The Rocket Grunt will accept the revived HELIX fossil Pokémon (Omanyte), but only if it is fainted. (Result: Failed. Dialogue unchanged.)
     - The 'fossil' the Grunt wants is a Moon Stone held by a Clefairy. (Result: Failed. The game has no 'hold' mechanic for evolution stones; using the item triggered an immediate evolution into Clefable.)
     - The Hiker at 1F (6,7) will move if approached with a party where all non-fainted members are afflicted with the 'Poison' status condition. (Note: LUNA fainted from poison damage en route.) (Result: Failed. Dialogue unchanged.)
-- **Untested Assumptions (to be revisited if all other hypotheses fail):**
-    1. The solution to the Mt. Moon puzzle is exclusively internal to the cave.
-    2. One of the currently generated hypotheses is the correct one.
-    3. The Hiker and Rocket Grunt are the only two puzzle triggers.
-    4. The wild Oddish on Route 3 knows a poison-inflicting move.
-    5. A fully poisoned party is the specific and only condition required to make the Hiker on Mt. Moon 1F move.
 
 # VII. Fossil Quest - Agent-Generated Hypotheses
 
@@ -127,7 +121,5 @@
 # VIII. Mt. Moon Access Plan
 
 - **Problem:** The eastern section of Route 4 is a one-way path from Mt. Moon, blocking westward travel.
-- **Failed Plan:** The hypothesis that an alternate route to Route 4 existed west of Celadon City has been falsified. The path via Route 16 leads south through Cycling Road to Fuchsia City, which is a dead end for this quest.
 - **Conclusion:** External navigation seems to be a red herring. The solution to the puzzle must lie *inside* Mt. Moon, involving an interaction with either the Rocket Grunt on B2F or the Hiker on 1F.
-- **New Plan:** Return to Mt. Moon and systematically test the remaining hypotheses from the log.
 - **Key Insight:** There are two distinct maps named 'Route 4'. One is west of Mt. Moon (accessible from Route 3) and one is east of Mt. Moon (leading to Cerulean City). They are not directly connected.

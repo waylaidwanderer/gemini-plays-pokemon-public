@@ -927,33 +927,6 @@
       }
     ]
   },
-  "select_first_move": {
-    "description": "When in the battle move selection menu, this tool automatically calculates the button presses needed to select the first move in the list and executes them. This is useful for automating simple wild battles.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "screen_text": {
-          "type": "string"
-        }
-      },
-      "required": [
-        "screen_text"
-      ]
-    },
-    "python_script": "import json\nprint(json.dumps([\"A\"]))",
-    "history": [
-      {
-        "commit_message": "feat: Create select_first_move tool. This tool automates selecting the first move in a battle, streamlining the frequent and repetitive wild encounters in high-density areas like Mt. Moon. This directly addresses an efficiency issue identified during mandatory self-assessment.",
-        "timestamp": "2025-09-16T09:04:50.724Z",
-        "action_counter": 218190
-      },
-      {
-        "commit_message": "fix: Simplify logic to press 'A'. The previous implementation incorrectly calculated button presses, leading it to select the wrong move. This commit replaces the complex logic with a simple, direct command to press 'A', which is the correct action since the cursor always defaults to the first move. This is a critical fix to make the tool reliable for battle automation.",
-        "timestamp": "2025-09-16T09:10:46.673Z",
-        "action_counter": 218198
-      }
-    ]
-  },
   "battle_menu_buster": {
     "description": "Attempts to break the battle menu input lock by trying a sequence of button presses ('Down', then 'A'). This is for situations where the game is not responding to standard move selection.",
     "input_schema": {
@@ -967,6 +940,42 @@
         "commit_message": "feat: Create battle_menu_buster tool. This tool is a direct response to a recurring battle menu input anomaly where 'A' presses are not registering. It automates a sequence of button presses ('Down', then 'A') to change the menu state and force the battle to progress. This was identified as a key opportunity for automation during a mandatory self-assessment.",
         "timestamp": "2025-09-16T10:24:53.974Z",
         "action_counter": 218343
+      }
+    ]
+  },
+  "automated_battle_move_selector": {
+    "description": "A smart battle tool that automates move selection. If on the main battle menu, it selects 'FIGHT'. If on the move selection menu, it navigates to and selects the specified move.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "screen_text": {
+          "type": "string"
+        },
+        "target_move": {
+          "type": "string",
+          "nullable": true
+        }
+      },
+      "required": [
+        "screen_text"
+      ]
+    },
+    "python_script": "import json\nimport re\n\nscreen_text = input_data['screen_text']\ntarget_move = input_data.get('target_move', '').upper()\nbuttons = []\n\nis_main_menu = 'FIGHT' in screen_text and 'PKMN' in screen_text and 'ITEM' in screen_text and 'RUN' in screen_text\nis_move_menu = 'TYPE/' in screen_text\n\nif is_main_menu:\n    if '→FIGHT' in screen_text:\n        buttons.append('A')\n    elif '→PKMN' in screen_text:\n        buttons.extend(['Left', 'A'])\n    elif '→ITEM' in screen_text:\n        buttons.extend(['Up', 'A'])\n    elif '→RUN' in screen_text:\n        buttons.extend(['Up', 'Left', 'A'])\nelif is_move_menu:\n    lines = screen_text.split('\\n')\n    moves = []\n    cursor_index = -1\n    move_pattern = re.compile(r'^(→)?([A-Z\\s-]+)')\n    move_list_started = False\n    for i, line in enumerate(lines):\n        line = line.strip()\n        if 'TYPE/' in line:\n            move_list_started = True\n            continue\n        if move_list_started:\n            match = move_pattern.match(line)\n            if match:\n                has_cursor = match.group(1) is not None\n                move_name = match.group(2).strip()\n                if has_cursor:\n                    cursor_index = len(moves)\n                moves.append(move_name)\n    if moves and cursor_index != -1 and target_move:\n        try:\n            target_index = moves.index(target_move)\n            delta = target_index - cursor_index\n            if delta > 0:\n                for _ in range(delta):\n                    buttons.append('Down')\n            elif delta < 0:\n                for _ in range(abs(delta)):\n                    buttons.append('Up')\n            buttons.append('A')\n        except ValueError:\n            pass\n\nprint(json.dumps(buttons))",
+    "history": [
+      {
+        "commit_message": "feat: Create automated_battle_move_selector tool. This tool consolidates previous battle-related tools into a single, state-aware function. It can select 'FIGHT' from the main menu or a specific move from the move selection menu, streamlining wild battles as suggested by overwatch.",
+        "timestamp": "2025-09-16T11:18:46.481Z",
+        "action_counter": 218455
+      },
+      {
+        "commit_message": "fix: Improve menu detection logic. The previous version incorrectly identified the main battle menu, causing it to open the item menu. This commit adds more specific checks for both the main battle menu (looking for all four options) and the move selection menu (looking for 'TYPE/'), making the tool more robust and preventing incorrect menu navigation.",
+        "timestamp": "2025-09-16T11:22:03.955Z",
+        "action_counter": 218462
+      },
+      {
+        "commit_message": "fix: Implement robust main menu navigation. The tool now correctly identifies the cursor's position on the 2x2 main battle menu and navigates to 'FIGHT' before selecting it. This fixes a critical bug where the tool would fail if the cursor wasn't already on 'FIGHT'.",
+        "timestamp": "2025-09-16T11:23:50.154Z",
+        "action_counter": 218465
       }
     ]
   }
