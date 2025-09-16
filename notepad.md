@@ -121,5 +121,5 @@
 # VIII. Mt. Moon Access Plan
 
 - **Problem:** The eastern section of Route 4 is a one-way path from Mt. Moon, blocking westward travel.
-- **Conclusion:** External navigation seems to be a red herring. The solution to the puzzle must lie *inside* Mt. Moon, involving an interaction with either the Rocket Grunt on B2F or the Hiker on 1F.
+- **Untested Assumption:** The solution to the puzzle must lie *inside* Mt. Moon, involving an interaction with either the Rocket Grunt on B2F or the Hiker on 1F.
 - **Key Insight:** There are two distinct maps named 'Route 4'. One is west of Mt. Moon (accessible from Route 3) and one is east of Mt. Moon (leading to Cerulean City). They are not directly connected.
