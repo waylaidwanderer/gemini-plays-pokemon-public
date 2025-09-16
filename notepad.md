@@ -133,3 +133,4 @@
         1.  The solution to the Mt. Moon puzzle is exclusively internal to the cave. (To be revisited if all internal hypotheses fail).
         2.  One of the currently generated hypotheses is the correct one. (Will generate more if all fail).
         3.  The Hiker and Rocket Grunt are the only two puzzle triggers. (Will re-explore the entire cave for other possibilities if current hypotheses are exhausted).
+- **Sandshrew (Wild, Mt. Moon):** SCRATCH, POISON STING.
