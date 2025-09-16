@@ -44,7 +44,8 @@
 - **PC Mechanics (CRITICAL):** The PC is **stateful**. It remembers the last system accessed (e.g., 'BILL's PC' for Pokémon or 'Gem's PC' for Items). When turning on the PC, it will open directly into the last-used system, bypassing the main selection menu. Any automation tool MUST account for this by having a reset sequence (e.g., pressing 'B' multiple times) to return to a known state before executing commands.
 - **Tool Development Failure:** Repeatedly deferred fixing a critically flawed tool (`pc_shuffler_executor`) instead of addressing it immediately. Operated on an untested assumption (PC is stateless) which caused a loop of failures. **Lesson:** Verify core mechanics manually before automating them. Fix broken tools immediately.
 - **Navigation Failure (Confirmation Bias):** Incorrectly assumed the eastern section of Route 4 was the correct path without verifying, leading to a significant detour. **Lesson:** Do not assume a path is correct. Explore all options when the way forward is not immediately clear.
-- **Tool Usage Failure (Execution Loop):** Fell into a severe loop of failing maintenance-related tool calls due to repeated, minor argument errors (e.g., typos, extra spaces). Lesson: Prioritize resolving the immediate game state (like a battle) before attempting complex maintenance. Perform maintenance in a stable overworld state. Meticulously verify every character in tool arguments before execution.
+- **Tool Usage Failure (Execution Loop):** Fell into a severe loop of failing maintenance-related tool calls due to repeated, minor argument errors (e.g., typos, extra spaces). **Lesson:** Prioritize resolving the immediate game state (like a battle) before attempting complex maintenance. Perform maintenance in a stable overworld state. Meticulously verify every character in tool arguments before execution.
+- **Hypothesis Testing Failure (Preparation):** Arrived at a location to test a hypothesis without the required Pokémon/items/moves. **Lesson:** Always verify party composition and necessary items/moves *before* traveling to a location to test a hypothesis.
 
 # V. Tile Mechanics & Interaction Rules
 
@@ -130,8 +131,3 @@
 - **Conclusion:** External navigation seems to be a red herring. The solution to the puzzle must lie *inside* Mt. Moon, involving an interaction with either the Rocket Grunt on B2F or the Hiker on 1F.
 - **New Plan:** Return to Mt. Moon and systematically test the remaining hypotheses from the log.
 - **Key Insight:** There are two distinct maps named 'Route 4'. One is west of Mt. Moon (accessible from Route 3) and one is east of Mt. Moon (leading to Cerulean City). They are not directly connected.
-
-# IX. Fossil Quest - Plan Correction
-
-- **Mistake:** Arrived at Hiker to test Flash hypothesis without the required Pokémon (LUNA, Clefable) in my party.
-- **Lesson:** Always verify party composition and necessary items/moves *before* traveling to a location to test a hypothesis.
