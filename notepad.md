@@ -99,3 +99,4 @@
 
 - **Route Viability:** Currently assuming that progressing through Route 9 and Rock Tunnel will lead to an alternate path to Mt. Moon. This is based on general Kanto layout and has not been verified in this ROM hack. **Test:** Continue through Rock Tunnel to its exit and observe the connecting area. If it does not lead toward the objective, I must re-evaluate all possible paths from previously visited cities.
 - **Route Viability 2.0:** Assuming a westward path from Celadon City will eventually connect to Route 4, providing an alternate entrance to Mt. Moon. **Test:** Travel to Celadon City and explore all westward routes.
+- **Nurse Joy Rematches:** Some Nurse Joys in Pokémon Centers will challenge the player to a battle after healing their party. This has been observed in Fuchsia City.
