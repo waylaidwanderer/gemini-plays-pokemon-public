@@ -94,3 +94,7 @@
 # VII. Mt. Moon Access Plan
 - **Problem:** The eastern section of Route 4 is a one-way path from Mt. Moon, blocking westward travel.
 - **New Plan:** Return to Cerulean City and explore Route 9 to the east. This may provide an alternate route to the western side of Route 4 or Mt. Moon.
+
+# VIII. Untested Assumptions
+
+- **Route Viability:** Currently assuming that progressing through Route 9 and Rock Tunnel will lead to an alternate path to Mt. Moon. This is based on general Kanto layout and has not been verified in this ROM hack. **Test:** Continue through Rock Tunnel to its exit and observe the connecting area. If it does not lead toward the objective, I must re-evaluate all possible paths from previously visited cities.
