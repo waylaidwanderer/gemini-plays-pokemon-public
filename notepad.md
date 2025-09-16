@@ -128,3 +128,4 @@
 - **Failed Agent Hypotheses:**
     - One of the NPCs will react to a specific Pokémon's cry. (Result: Failed. Used Clefable's cry next to the Hiker on 1F and the Rocket Grunt on B2F. Dialogue unchanged in both cases.)
     - There is a hidden switch or item on the floor, possibly revealed by the Itemfinder. (Result: Failed. ITEMFINDER did not respond on B3F.)
+ - **Tool Failure (Spinner Move Simulator):** The `spinner_move_simulator` provided an incorrect prediction for the spinner at (5, 12), leading to an unintended loop. The tool's simulation does not accurately reflect the game's mechanics and should not be trusted. Future navigation in spinner mazes must rely on direct observation or hard-coded map data (like `end-coordinate` attributes) instead of simulation.
