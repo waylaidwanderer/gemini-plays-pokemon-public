@@ -127,9 +127,12 @@
 # VIII. Archived Puzzles & Investigations
 
 - **Rocket Hideout Spinner Mazes (B2F & B3F)**
-    - **Status:** Completed.
-    - **Solution:** Required the development of a stateful, collision-aware pathfinding tool (`spinner_maze_solver`) to navigate the complex spinner sequences. The process involved iterative debugging and fixing multiple flaws in the tool's logic related to state management, collision detection, and spinner chain simulation.
-    - **Failed Hypotheses:**
+    - **Status:** B3F Completed. B2F In Progress.
+    - **B3F Solution:** Required the development of a stateful, collision-aware pathfinding tool (`spinner_maze_solver`) to navigate the complex spinner sequences.
+    - **B2F Problem:** The `spinner_maze_solver` tool's output is being truncated by the game engine whenever a spinner is hit, preventing the full path from being executed. This leads to repeated, partial movements and getting stuck in loops between `spinner_stop` tiles.
+    - **B2F New Strategy:** Utilize the `avoid_coords` parameter in the `spinner_maze_solver` tool. By passing a list of previously visited `spinner_stop` tiles, the tool can be forced to find a non-looping path towards the final destination.
+    - **B2F Visited Stop Tiles:** (16, 19), (12, 21), (3, 20), (9, 12).
+    - **Failed Hypotheses (B3F):**
         - There is a hidden item or switch on the floor on B3F. (Result: Failed. ITEMFINDER did not respond at (19, 16).)
         - Interacting with Pikachu on B2F was required to progress. (Result: Failed. This was a trap that reset upon failure.)
 - **Tool Maintenance Failure (CRITICAL):** Deferred fixing the critically flawed `spinner_maze_solver` for over 50 turns. Instead of immediately addressing its bugs (statelessness, no collision detection, flawed simulation, incorrect output), I attempted manual workarounds and got stuck in loops. This was a fundamental misunderstanding of the 'immediate maintenance' directive. **Lesson:** A broken tool must be fixed immediately, as it is the highest priority task. Do not attempt to use or work around a known-broken tool.
