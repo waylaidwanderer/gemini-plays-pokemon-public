@@ -64,6 +64,7 @@
 # VI. Fossil Quest - Hypotheses Log
 
 - **Active Hypotheses (Ranked by Plausibility):**
+    - Using Selfdestruct on a wall near the Rocket Grunt at B2F (30,12) will create a new passage.
     - The Rocket Grunt will be satisfied if a Pokémon uses 'Ancient Power' in battle against him.
     - The Hiker will move once the Pokédex is completed for all Mt. Moon native species.
     - The Rocket Grunt will move if a Clefairy uses Metronome in battle against him.
