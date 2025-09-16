@@ -129,8 +129,8 @@
 - **Rocket Hideout Spinner Mazes (B2F & B3F)**
     - **Status:** B3F Completed. B2F In Progress.
     - **B3F Solution:** Required the development of a stateful, collision-aware pathfinding tool (`spinner_maze_solver`) to navigate the complex spinner sequences.
-    - **B2F Problem:** The `spinner_maze_solver` tool's output is being truncated by the game engine whenever a spinner is hit, preventing the full path from being executed. This leads to repeated, partial movements and getting stuck in loops between `spinner_stop` tiles.
-    - **B2F New Strategy:** Utilize the `avoid_coords` parameter in the `spinner_maze_solver` tool. By passing a list of previously visited `spinner_stop` tiles, the tool can be forced to find a non-looping path towards the final destination.
+    - **B2F Problem:** The `spinner_maze_solver` tool has proven to be fundamentally unreliable. Its internal simulation of spinner physics does not match the game's actual mechanics, causing it to generate invalid paths and get stuck in loops, even with fixes and `avoid_coords`. The tool has been deleted.
+    - **B2F New Strategy:** Abandoning automated pathfinding for this maze. Proceeding with careful, manual, step-by-step navigation.
     - **B2F Visited Stop Tiles:** (16, 19), (12, 21), (3, 20), (9, 12).
     - **Failed Hypotheses (B3F):**
         - There is a hidden item or switch on the floor on B3F. (Result: Failed. ITEMFINDER did not respond at (19, 16).)
