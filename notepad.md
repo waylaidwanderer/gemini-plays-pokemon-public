@@ -53,7 +53,7 @@
 
 # V. Solved Puzzles
 
-- **Rocket Hideout B2F Spinner Maze:** The maze is divided into two main sections (north and south), connected by a specific spinner tile. The northern section is a complex loop designed to be confusing. The key is to find the spinner at (14, 11) which leads to the southern section at (15, 13). The Pikachu interactions on this floor are traps that lock the player and must be escaped by pressing 'B'.
+- **Rocket Hideout Spinner Mazes (B2F & B3F):** The mazes are divided into sections. B2F's key is the spinner at (14, 11) to reach the southern section at (15, 13). The Pikachu interactions on both floors are traps that lock the player and must be escaped by pressing 'B'.
 
 # VI. Tile Mechanics & Interaction Rules
 
