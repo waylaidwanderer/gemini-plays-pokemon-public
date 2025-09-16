@@ -107,3 +107,9 @@
 - **Conclusion:** External navigation seems to be a red herring. The solution to the puzzle must lie *inside* Mt. Moon, involving an interaction with either the Rocket Grunt on B2F or the Hiker on 1F.
 - **New Plan:** Return to Mt. Moon and systematically test the remaining hypotheses from the log.
 - **Key Insight:** There are two distinct maps named 'Route 4'. One is west of Mt. Moon (accessible from Route 3) and one is east of Mt. Moon (leading to Cerulean City). They are not directly connected.
+
+# VIII. Fossil Quest - Plan Correction
+
+- **Mistake:** Arrived at Hiker to test Flash hypothesis without the required Pokémon (LUNA, Clefable) in my party.
+- **Lesson:** Always verify party composition and necessary items/moves *before* traveling to a location to test a hypothesis.
+- **New Sub-Goal:** Return to the Pokémon Center on Route 4, withdraw LUNA from the PC, and then return to the Hiker.
