@@ -93,7 +93,7 @@
 
 # VII. Mt. Moon Access Plan
 - **Problem:** The eastern section of Route 4 is a one-way path from Mt. Moon, blocking westward travel.
-- **New Plan:** Return to Cerulean City and explore Route 9 to the east. This may provide an alternate route to the western side of Route 4 or Mt. Moon.
+- **New Plan:** Rock Tunnel leads south to Lavender Town, not west. The new approach is to travel to Lavender Town, then Fly to Celadon City and explore west from there to find an alternate route to Route 4 and Mt. Moon.
 
 # VIII. Untested Assumptions
 
