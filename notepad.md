@@ -113,3 +113,4 @@
 - **Mistake:** Arrived at Hiker to test Flash hypothesis without the required Pokémon (LUNA, Clefable) in my party.
 - **Lesson:** Always verify party composition and necessary items/moves *before* traveling to a location to test a hypothesis.
 - **New Sub-Goal:** Return to the Pokémon Center on Route 4, withdraw LUNA from the PC, and then return to the Hiker.
+    - The Hiker on 1F will move if Pikachu interacts with him.
