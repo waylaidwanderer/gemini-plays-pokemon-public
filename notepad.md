@@ -119,6 +119,7 @@
     - The Rocket Grunt is waiting for a 'delivery.' You must obtain a specific item from another Team Rocket member somewhere else in the world (e.g., Celadon Game Corner, Silph Co.) and deliver it to this Grunt.
 - **Failed Agent Hypotheses:**
     - One of the NPCs will react to a specific Pokémon's cry. (Result: Failed. Used Clefable's cry next to the Hiker on 1F and the Rocket Grunt on B2F. Dialogue unchanged in both cases.)
+    - There is a hidden switch or item on the floor, possibly revealed by the Itemfinder. (Result: Failed. ITEMFINDER did not respond on B3F.)
 
 # VIII. Tool Development Ideas
 
