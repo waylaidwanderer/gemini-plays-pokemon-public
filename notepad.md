@@ -134,3 +134,9 @@
         2.  One of the currently generated hypotheses is the correct one. (Will generate more if all fail).
         3.  The Hiker and Rocket Grunt are the only two puzzle triggers. (Will re-explore the entire cave for other possibilities if current hypotheses are exhausted).
 - **Sandshrew (Wild, Mt. Moon):** SCRATCH, POISON STING.
+
+# X. Self-Assessment Log (Turn 218036)
+- **Untested Assumptions:**
+    1. The wild Oddish on Route 3 knows a poison-inflicting move.
+    2. A fully poisoned party is the specific and only condition required to make the Hiker on Mt. Moon 1F move.
+    3. The solution to the Mt. Moon puzzle is entirely contained within the cave and involves either the Hiker or the Rocket Grunt.
