@@ -93,3 +93,7 @@
 # VII. Mt. Moon Access Plan
 - **Problem:** The eastern section of Route 4 is a one-way path from Mt. Moon, blocking westward travel.
 - **New Plan:** Return to Cerulean City and explore Route 9 to the east. This may provide an alternate route to the western side of Route 4 or Mt. Moon.
+- **cuttable:** A tree that can be removed with the HM move Cut. Becomes 'ground' after being cut, but respawns when changing maps.
+- **water:** Can be traversed with the HM move Surf.
+- **grass:** Tall grass where wild Pokémon can be encountered. Walkable.
+- **ledge:** Can be jumped down from above, but not climbed up from below. A one-way traversal tile.
