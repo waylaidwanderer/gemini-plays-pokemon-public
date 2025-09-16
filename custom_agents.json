@@ -12,12 +12,5 @@
     "agent_system_prompt": "You are a creative problem-solving assistant for a Pokémon game. You will be given a puzzle's objective, the current location, and a comprehensive list of hypotheses that have already been tested and failed. Your task is to generate a ranked list of new, creative, and plausible hypotheses to test. Prioritize ideas that involve unique game mechanics, NPC interactions, or item uses that haven't been tried. Avoid suggesting variations of previously failed hypotheses. Think outside the box.",
     "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"objective\":{\"type\":\"string\",\"description\":\"A clear description of the puzzle's goal.\"},\"current_location\":{\"type\":\"string\",\"description\":\"The name of the map where the puzzle is located.\"},\"failed_hypotheses\":{\"type\":\"array\",\"items\":{\"type\":\"string\"},\"description\":\"A list of all hypotheses that have been tested and proven false.\"}},\"required\":[\"objective\",\"failed_hypotheses\"]}",
     "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"new_hypotheses\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"rank\":{\"type\":\"integer\"},\"hypothesis\":{\"type\":\"string\"},\"reasoning\":{\"type\":\"string\"}},\"required\":[\"rank\",\"hypothesis\",\"reasoning\"]}}},\"required\":[\"new_hypotheses\"]}"
-  },
-  "tool_debugger_agent": {
-    "agent_name": "tool_debugger_agent",
-    "agent_description": "Analyzes a broken custom tool's code, input, and error message to diagnose the bug and suggest a specific code fix.",
-    "agent_system_prompt": "You are an expert Python programmer specializing in debugging. You will be given the code for a custom tool, the input that caused it to fail, and the resulting error message or incorrect output. Your task is to analyze these three components, identify the root cause of the bug, and provide a corrected version of the Python script. Explain the bug and your fix clearly and concisely.",
-    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"tool_code\":{\"type\":\"string\"},\"failed_input\":{\"type\":\"object\"},\"error_message\":{\"type\":\"string\"}},\"required\":[\"tool_code\",\"failed_input\",\"error_message\"]}",
-    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"bug_analysis\":{\"type\":\"string\"},\"corrected_code\":{\"type\":\"string\"}},\"required\":[\"bug_analysis\",\"corrected_code\"]}"
   }
 }
