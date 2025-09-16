@@ -64,7 +64,12 @@
 # VI. Fossil Quest - Hypotheses Log
 
 - **Active Hypotheses (Ranked by Plausibility):**
-    - Using Selfdestruct on a wall near the Rocket Grunt at B2F (30,12) will create a new passage.
+    - The Rocket Grunt on B2F will only move if presented with the revived DOME fossil Pokémon (Kabuto).
+    - The Rocket Grunt on B2F or the Hiker on 1F wants the un-revived fossil ITEM, not the revived Pokémon.
+    - The Hiker on 1F is the father of the Super Nerd. Defeating the son will make the Hiker move.
+    - A non-damaging move with a field effect (e.g., Sweet Scent, Sing) must be used in front of the Hiker.
+    - The Hiker will move if the player interacts with him while having a full party of fainted Pokémon.
+    - The solution requires the Silph Scope, which must be shown to the Grunt after defeating Giovanni in Celadon City.
     - The Rocket Grunt will be satisfied if a Pokémon uses 'Ancient Power' in battle against him.
     - The Hiker will move once the Pokédex is completed for all Mt. Moon native species.
     - The Rocket Grunt will move if a Clefairy uses Metronome in battle against him.
