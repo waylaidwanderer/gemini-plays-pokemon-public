@@ -2,7 +2,7 @@
 
 - **Current Quest: The Mt. Moon Fossil**
     - **Objective:** Find a way past the Rocket Grunt at Mt. Moon B2F (30,12) or the Hiker at 1F (6,7).
-    - **Status:** Active. Current working assumption is that the solution is internal to Mt. Moon. Systematically testing hypotheses.
+    - **Status:** Active. Pivoting to external investigation after exhausting internal hypotheses.
 - **Stalled Quest: The Copycat's Gift**
     - **Objective:** Obtain a POKé DOLL and give it to COPYCAT.
     - **Status:** Stalled. All leads in Cerulean City exhausted. Suspect COPYCAT is not in a currently accessible area.
@@ -66,7 +66,6 @@
 - **Active Hypotheses (Ranked by Plausibility):**
     - The Rocket Grunt on B2F will only move if presented with the revived DOME fossil Pokémon (Kabuto).
     - The Rocket Grunt on B2F or the Hiker on 1F wants the un-revived fossil ITEM, not the revived Pokémon.
-    - The Hiker on 1F is the father of the Super Nerd. Defeating the son will make the Hiker move.
     - A non-damaging move with a field effect (e.g., Sweet Scent, Sing) must be used in front of the Hiker.
     - The Hiker will move if the player interacts with him while having a full party of fainted Pokémon.
     - The solution requires the Silph Scope, which must be shown to the Grunt after defeating Giovanni in Celadon City.
@@ -113,8 +112,9 @@
     - The Hiker on 1F will move if the Poké Flute is used near him. (Result: Item use had no effect.)
     - The Rocket Grunt will accept the revived HELIX fossil Pokémon (Omanyte), but only if it is fainted. (Result: Failed. Dialogue unchanged.)
     - The 'fossil' the Grunt wants is a Moon Stone held by a Clefairy. (Result: Failed. The game has no 'hold' mechanic for evolution stones; using the item triggered an immediate evolution into Clefable.)
-        - The Hiker at 1F (6,7) will move if approached with a party where all non-fainted members are afflicted with the 'Poison' status condition. (Note: LUNA fainted from poison damage en route.) (Result: Failed. Dialogue unchanged.)
+    - The Hiker at 1F (6,7) will move if approached with a party where all non-fainted members are afflicted with the 'Poison' status condition. (Note: LUNA fainted from poison damage en route.) (Result: Failed. Dialogue unchanged.)
     - Using Selfdestruct on a wall near the Rocket Grunt at B2F (30,12) will create a new passage. (Result: Failed. Used Selfdestruct in a battle adjacent to the wall at (31,12). The wall remained impassable.)
+    - The Hiker on 1F is the father of the Super Nerd. Defeating the son will make the Hiker move. (Result: Failed. The Super Nerd was already defeated, and the Hiker's dialogue is unchanged.)
 
 # VII. Fossil Quest - Agent-Generated Hypotheses
 
