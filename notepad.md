@@ -140,3 +140,11 @@
     1. The wild Oddish on Route 3 knows a poison-inflicting move.
     2. A fully poisoned party is the specific and only condition required to make the Hiker on Mt. Moon 1F move.
     3. The solution to the Mt. Moon puzzle is entirely contained within the cave and involves either the Hiker or the Rocket Grunt.
+
+# XI. Fossil Quest - Agent-Generated Hypotheses
+
+- **Active Hypotheses (Ranked by Plausibility):**
+    - One of the NPCs will react to a specific Pokémon's cry. Using the 'Cry' function from the party screen while standing next to the NPC with a specific Pokémon (e.g., a Clefairy, a Jigglypuff, or the revived Aerodactyl) in the lead will cause them to move.
+    - The Hiker is not a blocker but a Move Tutor who will teach a unique move. He will only move after teaching the move, which requires the player to have a specific Pokémon (e.g., Geodude, Onix) and an empty move slot in their party.
+    - A visually distinct section of the cave wall, possibly near one of the NPCs, is destructible. Using a Pokémon move like Self-Destruct, Explosion, or Hyper Beam on it will create a new passage, bypassing the blockade.
+    - The Rocket Grunt is waiting for a 'delivery.' You must obtain a specific item from another Team Rocket member somewhere else in the world (e.g., Celadon Game Corner, Silph Co.) and deliver it to this Grunt.
