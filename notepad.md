@@ -131,3 +131,7 @@
 - **Objective:** Navigate the spinner maze to reach all accessible areas.
 - **Failed Hypotheses:**
     - There is a hidden item or switch on the floor. (Result: Failed. ITEMFINDER did not respond at (19, 16).)
+
+# X. Rocket Hideout B2F Spinner Maze
+
+- **Objective:** Navigate the spinner maze to reach the elevator warp at (25, 20).
