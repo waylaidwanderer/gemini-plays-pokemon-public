@@ -54,7 +54,7 @@
 - **PC Interaction:** The tile for the PC in Pokémon Centers (e.g., Viridian Pokecenter (14,4)) is typed as `grass` in the map data, but it is impassable. Interaction requires standing on the tile directly below it (at (X, Y+1)) and facing up.
 - **Warp Tiles (1x1):** To re-use an instant warp tile after arriving on it, you must first step off the tile and then step back on.
 - **Ledge Traversal:** Moving down onto a ledge tile automatically results in a two-tile jump to the tile below the ledge.
-- **Spinner Tiles:** Tiles that force movement in a specific direction (`spinner_up`, `spinner_down`, `spinner_left`, `spinner_right`) until an obstacle or a `spinner_stop` tile is encountered.
+- **Spinner Tiles:** Tiles that force movement in a specific direction (`spinner_up`, `spinner_down`, `spinner_left`, `spinner_right`). This forced movement continues until an obstacle or a `spinner_stop` tile is encountered.
 
 # VI. Fossil Quest - Hypotheses Log
 
@@ -120,11 +120,6 @@
 - **Failed Agent Hypotheses:**
     - One of the NPCs will react to a specific Pokémon's cry. (Result: Failed. Used Clefable's cry next to the Hiker on 1F and the Rocket Grunt on B2F. Dialogue unchanged in both cases.)
     - There is a hidden switch or item on the floor, possibly revealed by the Itemfinder. (Result: Failed. ITEMFINDER did not respond on B3F.)
-
-# VIII. Tool Development Ideas
-
-- **Multi-Map Pathfinding Tool:** A tool that can plan a route across multiple maps, identifying the required sequence of warps, ladders, and map connections to travel from a start point on one map to a destination on another.
-- **Spinner Maze Solver Tool:** A tool that can parse the map data to understand spinner tile paths and automatically calculate the correct sequence of movements to navigate spinner mazes.
 
 # IX. Rocket Hideout B3F Spinner Maze
 
