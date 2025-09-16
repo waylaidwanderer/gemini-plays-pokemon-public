@@ -125,3 +125,9 @@
 
 - **Multi-Map Pathfinding Tool:** A tool that can plan a route across multiple maps, identifying the required sequence of warps, ladders, and map connections to travel from a start point on one map to a destination on another.
 - **Spinner Maze Solver Tool:** A tool that can parse the map data to understand spinner tile paths and automatically calculate the correct sequence of movements to navigate spinner mazes.
+
+# IX. Rocket Hideout B3F Spinner Maze
+
+- **Objective:** Navigate the spinner maze to reach all accessible areas.
+- **Failed Hypotheses:**
+    - There is a hidden item or switch on the floor. (Result: Failed. ITEMFINDER did not respond at (19, 16).)
