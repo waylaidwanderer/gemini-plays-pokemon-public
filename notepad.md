@@ -62,7 +62,6 @@
 # VI. Fossil Quest - Hypotheses Log
 
 - **Active Hypotheses (Ranked by Plausibility):**
-    - The Hiker at 1F (6,7) has lost an item. Using the Itemfinder near him will reveal a hidden item which, when returned, will make him move.
     - The Hiker at 1F (6,7) will move if approached with an entire party of Pokémon afflicted with the 'Poison' status condition.
     - The Rocket Grunt will be satisfied if a Pokémon uses 'Ancient Power' in battle against him.
     - The Rocket Grunt will move if a Geodude uses Self-Destruct in battle against him.
@@ -72,6 +71,8 @@
     - The Hiker on 1F (6,7) or the Rocket Grunt on B2F (30,12) is on a schedule and will only move at a specific in-game time.
     - The Rocket Grunt at B2F (30,12) is waiting for a secret password made of a sequence of Pokémon cries.
     - The Rocket Grunt on B2F (30,12) is a spy and requires a disguise to be bypassed.
+- **Failed Hypotheses:**
+    - The Hiker at 1F (6,7) has lost an item. Using the Itemfinder near him will reveal a hidden item which, when returned, will make him move. (Result: Failed. Itemfinder did not respond.)
 - **Failed Hypotheses:**
     - The Hiker on 1F will move if Pikachu interacts with him. (Result: Failed. Dialogue unchanged.)
     - The Hiker on 1F will move if Flash is used nearby. (Result: Failed. Prof. Oak prevents field move use.)
