@@ -101,9 +101,6 @@
 
 # VII. Mt. Moon Access Plan
 - **Problem:** The eastern section of Route 4 is a one-way path from Mt. Moon, blocking westward travel.
-- **New Plan:** Rock Tunnel leads south to Lavender Town, not west. The new approach is to travel to Lavender Town, then Fly to Celadon City and explore west from there to find an alternate route to Route 4 and Mt. Moon.
-
-# VIII. Untested Assumptions
-
-- **Route Viability:** Currently assuming that progressing through Route 9 and Rock Tunnel will lead to an alternate path to Mt. Moon. This is based on general Kanto layout and has not been verified in this ROM hack. **Test:** Continue through Rock Tunnel to its exit and observe the connecting area. If it does not lead toward the objective, I must re-evaluate all possible paths from previously visited cities.
-- **Route Viability 2.0:** Assuming a westward path from Celadon City will eventually connect to Route 4, providing an alternate entrance to Mt. Moon. **Test:** Travel to Celadon City and explore all westward routes.
+- **Failed Plan:** The hypothesis that an alternate route to Route 4 existed west of Celadon City has been falsified. The path via Route 16 leads south through Cycling Road to Fuchsia City, which is a dead end for this quest.
+- **Conclusion:** External navigation seems to be a red herring. The solution to the puzzle must lie *inside* Mt. Moon, involving an interaction with either the Rocket Grunt on B2F or the Hiker on 1F.
+- **New Plan:** Return to Mt. Moon and systematically test the remaining hypotheses from the log.
