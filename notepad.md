@@ -61,8 +61,11 @@
 - **Warp Tiles (1x1):** To re-use an instant warp tile after arriving on it, you must first step off the tile and then step back on.
 - **Ledge Traversal:** Moving down onto a ledge tile automatically results in a two-tile jump to the tile below the ledge.
 - **Spinner Tiles:** There are two main types:
-    - **Directional Spinners (`spinner_up`, `spinner_down`, `spinner_left`, `spinner_right`):** Force movement in a specific direction. This forced movement continues until an obstacle is hit.
+    - **Directional Spinners (`spinner_up`, `spinner_down`, `spinner_left`, `spinner_right`):** Force movement in a specific direction. This forced movement continues until an obstacle is hit. Treated as impassable by the pathfinder.
     - **Spinner Stop Tiles (`spinner_stop`):** A safe tile that halts all momentum from a spinner chain. It does not initiate movement on its own.
+- **Gate Tiles:**
+    - **`closed_gate`:** An impassable gate that is currently visible on the screen. Pathfinding treats this as a wall.
+    - **`gate_offscreen`:** A gate (either open or closed) that is not currently visible on the screen. Pathfinding optimistically treats this as open to encourage exploration.
 
 # VII. Fossil Quest - Hypotheses Log
 
