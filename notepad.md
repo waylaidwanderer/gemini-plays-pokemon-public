@@ -57,9 +57,11 @@
 - **ladder_down/ladder_up:** Function as 1x1 warp tiles between floors.
 - **Event Trigger Tile:** Some tiles, when stepped on, can trigger a scripted event or dialogue, such as the entrance fee tile in the Pewter Museum of Science. These are not visually distinct from normal ground tiles.
 - **ground:** Standard walkable tile.
+- **grass:** Standard walkable tile, but can also be used for impassable objects like the PC in a Pokémon Center.
 - **impassable:** Walls and other obstacles that cannot be walked on.
 - **steps:** Allows movement between 'ground' and 'elevated_ground' tiles.
 - **Ledge Traversal:** Moving down onto a ledge tile automatically results in a two-tile jump to the tile below the ledge.
+- **Spinner Tiles:** Tiles that force movement in a specific direction (`spinner_up`, `spinner_down`, `spinner_left`, `spinner_right`) until an obstacle or a `spinner_stop` tile is encountered.
 
 # VI. Fossil Quest - Hypotheses Log
 
@@ -128,14 +130,13 @@
 # VIII. Mt. Moon Access Plan
 
 - **Problem:** The eastern section of Route 4 is a one-way path from Mt. Moon, blocking westward travel.
-- **Untested Assumption:** The solution to the puzzle must lie *inside* Mt. Moon, involving an interaction with either the Rocket Grunt on B2F or the Hiker on 1F.
 - **Key Insight:** There are two distinct maps named 'Route 4'. One is west of Mt. Moon (accessible from Route 3) and one is east of Mt. Moon (leading to Cerulean City). They are not directly connected.
 
 # IX. Tool Development Ideas
 
 - **Multi-Map Pathfinding Tool:** A tool that can plan a route across multiple maps, identifying the required sequence of warps, ladders, and map connections to travel from a start point on one map to a destination on another.
+- **Spinner Maze Solver Tool:** A tool that can parse the map data to understand spinner tile paths and automatically calculate the correct sequence of movements to navigate spinner mazes.
 
 # X. Untested Assumptions
 
-- **The Mt. Moon Puzzle Solution is Internal:** I have been assuming the solution to the Rocket/Hiker blockade is located entirely within Mt. Moon. This may be incorrect. If current internal hypotheses fail, I must begin searching for external triggers, items, or quest flags in other locations.
-- **grass:** Standard walkable tile, but can also be used for impassable objects like the PC in a Pokémon Center.
+- **The Mt. Moon Puzzle Solution is External:** I have been assuming the solution to the Rocket/Hiker blockade is located entirely within Mt. Moon. This may be incorrect. If current internal hypotheses fail, I must begin searching for external triggers, items, or quest flags in other locations. If the Rocket Hideout provides no clues, the search may need to be broadened beyond just Rocket-controlled areas.
