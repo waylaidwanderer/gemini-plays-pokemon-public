@@ -49,7 +49,7 @@
 
 - **PC Interaction:**
     - **Tile:** The tile for the PC in Pokémon Centers (e.g., Viridian Pokecenter (14,4)) is typed as `grass` in the map data, but it is impassable. Interaction requires standing on the tile directly below it (at (X, Y+1)) and facing up.
-    - **Mechanics:** Selecting 'WITHDRAW PKMN' automatically withdraws the first Pokémon in the box list if the party has space. Selecting 'DEPOSIT PKMN' opens the party menu, allowing the player to choose which Pokémon to deposit.
+    - **Mechanics:** Selecting 'WITHDRAW PKMN' opens the box menu, allowing the player to freely select which Pokémon to withdraw. Selecting 'DEPOSIT PKMN' opens the party menu, allowing the player to choose which Pokémon to deposit.
 - **Warp Tiles (1x1):** To re-use an instant warp tile after arriving on it, you must first step off the tile and then step back on. This applies to tiles like `ladder_down` and `ladder_up`.
 - **elevated_ground:** Inaccessible from 'ground' tiles unless via 'steps'. Acts as a separate plane of movement.
 - **ladder_down/ladder_up:** Function as 1x1 warp tiles between floors.
