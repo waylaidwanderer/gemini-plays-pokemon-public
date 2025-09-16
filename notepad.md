@@ -37,6 +37,7 @@
     - **Porygon:** THUNDER WAVE, BLIZZARD, REFLECT, RECOVER.
     - **Exeggutor:** REFLECT, SLEEP POWDER, DREAM EATER.
     - **Chansey:** REFLECT, EGG BOMB.
+    - **Sandshrew (Wild, Mt. Moon):** SCRATCH, POISON STING.
 
 # IV. Key Discoveries & Lessons Learned
 
@@ -62,7 +63,6 @@
 # VI. Fossil Quest - Hypotheses Log
 
 - **Active Hypotheses (Ranked by Plausibility):**
-    - The Hiker at 1F (6,7) will move if approached with a party where all non-fainted members are afflicted with the 'Poison' status condition. (Note: LUNA fainted from poison damage en route.) (Result: Failed. Dialogue unchanged.)
     - The Rocket Grunt will be satisfied if a Pokémon uses 'Ancient Power' in battle against him.
     - The Rocket Grunt will move if a Geodude uses Self-Destruct in battle against him.
     - The Hiker will move once the Pokédex is completed for all Mt. Moon native species.
@@ -73,7 +73,6 @@
     - The Rocket Grunt on B2F (30,12) is a spy and requires a disguise to be bypassed.
 - **Failed Hypotheses:**
     - The Hiker at 1F (6,7) has lost an item. Using the Itemfinder near him will reveal a hidden item which, when returned, will make him move. (Result: Failed. Itemfinder did not respond.)
-- **Failed Hypotheses:**
     - The Hiker on 1F will move if Pikachu interacts with him. (Result: Failed. Dialogue unchanged.)
     - The Hiker on 1F will move if Flash is used nearby. (Result: Failed. Prof. Oak prevents field move use.)
     - The Hiker on 1F will accept the POKé DOLL. (Result: Failed. Prof. Oak prevents item use.)
@@ -107,8 +106,24 @@
     - The Hiker on 1F will move if the Poké Flute is used near him. (Result: Item use had no effect.)
     - The Rocket Grunt will accept the revived HELIX fossil Pokémon (Omanyte), but only if it is fainted. (Result: Failed. Dialogue unchanged.)
     - The 'fossil' the Grunt wants is a Moon Stone held by a Clefairy. (Result: Failed. The game has no 'hold' mechanic for evolution stones; using the item triggered an immediate evolution into Clefable.)
+    - The Hiker at 1F (6,7) will move if approached with a party where all non-fainted members are afflicted with the 'Poison' status condition. (Note: LUNA fainted from poison damage en route.) (Result: Failed. Dialogue unchanged.)
+- **Untested Assumptions (to be revisited if all other hypotheses fail):**
+    1. The solution to the Mt. Moon puzzle is exclusively internal to the cave.
+    2. One of the currently generated hypotheses is the correct one.
+    3. The Hiker and Rocket Grunt are the only two puzzle triggers.
+    4. The wild Oddish on Route 3 knows a poison-inflicting move.
+    5. A fully poisoned party is the specific and only condition required to make the Hiker on Mt. Moon 1F move.
 
-# VII. Mt. Moon Access Plan
+# VII. Fossil Quest - Agent-Generated Hypotheses
+
+- **Active Hypotheses (Ranked by Plausibility):**
+    - The Hiker is not a blocker but a Move Tutor who will teach a unique move. He will only move after teaching the move, which requires the player to have a specific Pokémon (e.g., Geodude, Onix) and an empty move slot in their party.
+    - A visually distinct section of the cave wall, possibly near one of the NPCs, is destructible. Using a Pokémon move like Self-Destruct, Explosion, or Hyper Beam on it will create a new passage, bypassing the blockade.
+    - The Rocket Grunt is waiting for a 'delivery.' You must obtain a specific item from another Team Rocket member somewhere else in the world (e.g., Celadon Game Corner, Silph Co.) and deliver it to this Grunt.
+- **Failed Agent Hypotheses:**
+    - One of the NPCs will react to a specific Pokémon's cry. (Result: Failed. Used Clefable's cry next to the Hiker on 1F. Dialogue unchanged.)
+
+# VIII. Mt. Moon Access Plan
 
 - **Problem:** The eastern section of Route 4 is a one-way path from Mt. Moon, blocking westward travel.
 - **Failed Plan:** The hypothesis that an alternate route to Route 4 existed west of Celadon City has been falsified. The path via Route 16 leads south through Cycling Road to Fuchsia City, which is a dead end for this quest.
@@ -116,37 +131,7 @@
 - **New Plan:** Return to Mt. Moon and systematically test the remaining hypotheses from the log.
 - **Key Insight:** There are two distinct maps named 'Route 4'. One is west of Mt. Moon (accessible from Route 3) and one is east of Mt. Moon (leading to Cerulean City). They are not directly connected.
 
-# VIII. Fossil Quest - Plan Correction
+# IX. Fossil Quest - Plan Correction
 
 - **Mistake:** Arrived at Hiker to test Flash hypothesis without the required Pokémon (LUNA, Clefable) in my party.
 - **Lesson:** Always verify party composition and necessary items/moves *before* traveling to a location to test a hypothesis.
-
-# IX. Self-Assessment Log
-
-- **Turn 217985 Reflection:**
-    - **Data Management:** Past issues with deferred tool maintenance have been corrected. Current practice is to address tool/agent issues immediately.
-    - **Notepad Quality:** Notepad is well-organized and contains unique, valuable information. No major refactoring needed.
-    - **Mechanic Documentation:** All known tile types are documented with their observed mechanics.
-    - **Agent/Tool Opportunities:** No immediate opportunities for new agents or tools were identified. Existing ones are sufficient for current tasks.
-    - **Goal Adherence:** Goals are correctly formatted as 'WHAT' not 'HOW'. Flexibility has been demonstrated by pivoting between stalled quests.
-    - **Untested Assumptions:**
-        1.  The solution to the Mt. Moon puzzle is exclusively internal to the cave. (To be revisited if all internal hypotheses fail).
-        2.  One of the currently generated hypotheses is the correct one. (Will generate more if all fail).
-        3.  The Hiker and Rocket Grunt are the only two puzzle triggers. (Will re-explore the entire cave for other possibilities if current hypotheses are exhausted).
-- **Sandshrew (Wild, Mt. Moon):** SCRATCH, POISON STING.
-
-# X. Self-Assessment Log (Turn 218036)
-- **Untested Assumptions:**
-    1. The wild Oddish on Route 3 knows a poison-inflicting move.
-    2. A fully poisoned party is the specific and only condition required to make the Hiker on Mt. Moon 1F move.
-    3. The solution to the Mt. Moon puzzle is entirely contained within the cave and involves either the Hiker or the Rocket Grunt.
-
-# XI. Fossil Quest - Agent-Generated Hypotheses
-
-- **Active Hypotheses (Ranked by Plausibility):**
-    
-- **Failed Agent Hypotheses:**
-    - One of the NPCs will react to a specific Pokémon's cry. (Result: Failed. Used Clefable's cry next to the Hiker on 1F. Dialogue unchanged.)
-    - The Hiker is not a blocker but a Move Tutor who will teach a unique move. He will only move after teaching the move, which requires the player to have a specific Pokémon (e.g., Geodude, Onix) and an empty move slot in their party.
-    - A visually distinct section of the cave wall, possibly near one of the NPCs, is destructible. Using a Pokémon move like Self-Destruct, Explosion, or Hyper Beam on it will create a new passage, bypassing the blockade.
-    - The Rocket Grunt is waiting for a 'delivery.' You must obtain a specific item from another Team Rocket member somewhere else in the world (e.g., Celadon Game Corner, Silph Co.) and deliver it to this Grunt.
