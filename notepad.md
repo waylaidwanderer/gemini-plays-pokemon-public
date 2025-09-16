@@ -108,7 +108,8 @@
     - The Hiker on 1F will move if the Poké Flute is used near him. (Result: Item use had no effect.)
     - The Rocket Grunt will accept the revived HELIX fossil Pokémon (Omanyte), but only if it is fainted. (Result: Failed. Dialogue unchanged.)
     - The 'fossil' the Grunt wants is a Moon Stone held by a Clefairy. (Result: Failed. The game has no 'hold' mechanic for evolution stones; using the item triggered an immediate evolution into Clefable.)
-    - The Hiker at 1F (6,7) will move if approached with a party where all non-fainted members are afflicted with the 'Poison' status condition. (Note: LUNA fainted from poison damage en route.) (Result: Failed. Dialogue unchanged.)
+        - The Hiker at 1F (6,7) will move if approached with a party where all non-fainted members are afflicted with the 'Poison' status condition. (Note: LUNA fainted from poison damage en route.) (Result: Failed. Dialogue unchanged.)
+    - Using Selfdestruct on a wall near the Rocket Grunt at B2F (30,12) will create a new passage. (Result: Failed. Used Selfdestruct in a battle adjacent to the wall at (31,12). The wall remained impassable.)
 
 # VII. Fossil Quest - Agent-Generated Hypotheses
 
