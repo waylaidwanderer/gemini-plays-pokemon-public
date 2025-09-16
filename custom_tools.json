@@ -1,4 +1,40 @@
 {
+  "automated_battle_move_selector": {
+    "description": "A smart battle tool that automates move selection. If on the main battle menu, it selects 'FIGHT'. If on the move selection menu, it navigates to and selects the specified move.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "screen_text": {
+          "type": "string"
+        },
+        "target_move": {
+          "type": "string",
+          "nullable": true
+        }
+      },
+      "required": [
+        "screen_text"
+      ]
+    },
+    "python_script": "import json\nimport re\n\nscreen_text = input_data['screen_text']\ntarget_move = input_data.get('target_move', '').upper()\nbuttons = []\n\nis_main_menu = 'FIGHT' in screen_text and 'PKMN' in screen_text and 'ITEM' in screen_text and 'RUN' in screen_text\nis_move_menu = 'TYPE/' in screen_text\n\nif is_main_menu:\n    if '→FIGHT' in screen_text:\n        buttons.append('A')\n    elif '→PKMN' in screen_text:\n        buttons.extend(['Left', 'A'])\n    elif '→ITEM' in screen_text:\n        buttons.extend(['Up', 'A'])\n    elif '→RUN' in screen_text:\n        buttons.extend(['Up', 'Left', 'A'])\nelif is_move_menu:\n    lines = screen_text.split('\\n')\n    moves = []\n    cursor_index = -1\n    move_pattern = re.compile(r'^(→)?([A-Z\\s-]+)')\n    move_list_started = False\n    for i, line in enumerate(lines):\n        line = line.strip()\n        if 'TYPE/' in line:\n            move_list_started = True\n            continue\n        if move_list_started:\n            match = move_pattern.match(line)\n            if match:\n                has_cursor = match.group(1) is not None\n                move_name = match.group(2).strip()\n                if has_cursor:\n                    cursor_index = len(moves)\n                moves.append(move_name)\n    if moves and cursor_index != -1 and target_move:\n        try:\n            target_index = moves.index(target_move)\n            delta = target_index - cursor_index\n            if delta > 0:\n                for _ in range(delta):\n                    buttons.append('Down')\n            elif delta < 0:\n                for _ in range(abs(delta)):\n                    buttons.append('Up')\n            buttons.append('A')\n        except ValueError:\n            pass\n\nprint(json.dumps(buttons))",
+    "history": [
+      {
+        "commit_message": "feat: Create automated_battle_move_selector tool. This tool consolidates previous battle-related tools into a single, state-aware function. It can select 'FIGHT' from the main menu or a specific move from the move selection menu, streamlining wild battles as suggested by overwatch.",
+        "timestamp": "2025-09-16T11:18:46.481Z",
+        "action_counter": 218455
+      },
+      {
+        "commit_message": "fix: Improve menu detection logic. The previous version incorrectly identified the main battle menu, causing it to open the item menu. This commit adds more specific checks for both the main battle menu (looking for all four options) and the move selection menu (looking for 'TYPE/'), making the tool more robust and preventing incorrect menu navigation.",
+        "timestamp": "2025-09-16T11:22:03.955Z",
+        "action_counter": 218462
+      },
+      {
+        "commit_message": "fix: Implement robust main menu navigation. The tool now correctly identifies the cursor's position on the 2x2 main battle menu and navigates to 'FIGHT' before selecting it. This fixes a critical bug where the tool would fail if the cursor wasn't already on 'FIGHT'.",
+        "timestamp": "2025-09-16T11:23:50.154Z",
+        "action_counter": 218465
+      }
+    ]
+  },
   "automated_path_navigator": {
     "description": "Takes start/end coordinates and a movement state ('walking' or 'surfing'), finds the shortest path using BFS, and returns a JSON object containing a success flag, a reason, and a coordinate array for the `path_plan`. It handles ledge traversal, impassable destinations, and accounts for objects (except Pikachu). Can accept an optional list of temporarily passable coordinates (e.g., for stunned NPCs).",
     "input_schema": {
@@ -746,6 +782,60 @@
       }
     ]
   },
+  "lead_matchup_analyzer": {
+    "description": "Analyzes the player's party against a wild Pokémon to recommend the best lead. Prioritizes Pokémon that are not level-capped and have a type advantage or at least neutral matchup, while avoiding those with a disadvantage.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "player_party": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "species": {
+                "type": "string"
+              },
+              "level": {
+                "type": "integer"
+              },
+              "status": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "species",
+              "level",
+              "status"
+            ]
+          }
+        },
+        "opponent_species": {
+          "type": "string"
+        },
+        "level_cap": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "player_party",
+        "opponent_species",
+        "level_cap"
+      ]
+    },
+    "python_script": "import json\n\n# --- Data ---\npokemon_types = {\n    'BULBASAUR': ['GRASS', 'POISON'], 'IVYSAUR': ['GRASS', 'POISON'], 'VENUSAUR': ['GRASS', 'POISON'],\n    'CHARMANDER': ['FIRE'], 'CHARMELEON': ['FIRE'], 'CHARIZARD': ['FIRE', 'FLYING'],\n    'SQUIRTLE': ['WATER'], 'WARTORTLE': ['WATER'], 'BLASTOISE': ['WATER'],\n    'CATERPIE': ['BUG'], 'METAPOD': ['BUG'], 'BUTTERFREE': ['BUG', 'FLYING'],\n    'WEEDLE': ['BUG', 'POISON'], 'KAKUNA': ['BUG', 'POISON'], 'BEEDRILL': ['BUG', 'POISON'],\n    'PIDGEY': ['NORMAL', 'FLYING'], 'PIDGEOTTO': ['NORMAL', 'FLYING'], 'PIDGEOT': ['NORMAL', 'FLYING'],\n    'RATTATA': ['NORMAL'], 'RATICATE': ['NORMAL'],\n    'SPEAROW': ['NORMAL', 'FLYING'], 'FEAROW': ['NORMAL', 'FLYING'],\n    'EKANS': ['POISON'], 'ARBOK': ['POISON'],\n    'PIKACHU': ['ELECTRIC'], 'RAICHU': ['ELECTRIC'],\n    'SANDSHREW': ['GROUND'], 'SANDSLASH': ['GROUND'],\n    'NIDORAN♀': ['POISON'], 'NIDORINA': ['POISON'], 'NIDOQUEEN': ['POISON', 'GROUND'],\n    'NIDORAN♂': ['POISON'], 'NIDORINO': ['POISON'], 'NIDOKING': ['POISON', 'GROUND'],\n    'CLEFAIRY': ['NORMAL'], 'CLEFABLE': ['NORMAL'],\n    'VULPIX': ['FIRE'], 'NINETALES': ['FIRE'],\n    'JIGGLYPUFF': ['NORMAL'], 'WIGGLYTUFF': ['NORMAL'],\n    'ZUBAT': ['POISON', 'FLYING'], 'GOLBAT': ['POISON', 'FLYING'],\n    'ODDISH': ['GRASS', 'POISON'], 'GLOOM': ['GRASS', 'POISON'], 'VILEPLUME': ['GRASS', 'POISON'],\n    'PARAS': ['BUG', 'GRASS'], 'PARASECT': ['BUG', 'GRASS'],\n    'VENONAT': ['BUG', 'POISON'], 'VENOMOTH': ['BUG', 'POISON'],\n    'DIGLETT': ['GROUND'], 'DUGTRIO': ['GROUND'],\n    'MEOWTH': ['NORMAL'], 'PERSIAN': ['NORMAL'],\n    'PSYDUCK': ['WATER'], 'GOLDUCK': ['WATER'],\n    'MANKEY': ['FIGHTING'], 'PRIMEAPE': ['FIGHTING'],\n    'GROWLITHE': ['FIRE'], 'ARCANINE': ['FIRE'],\n    'POLIWAG': ['WATER'], 'POLIWHIRL': ['WATER'], 'POLIWRATH': ['WATER', 'FIGHTING'],\n    'ABRA': ['PSYCHIC'], 'KADABRA': ['PSYCHIC'], 'ALAKAZAM': ['PSYCHIC'],\n    'MACHOP': ['FIGHTING'], 'MACHOKE': ['FIGHTING'], 'MACHAMP': ['FIGHTING'],\n    'BELLSPROUT': ['GRASS', 'POISON'], 'WEEPINBELL': ['GRASS', 'POISON'], 'VICTREEBEL': ['GRASS', 'POISON'],\n    'TENTACOOL': ['WATER', 'POISON'], 'TENTACRUEL': ['WATER', 'POISON'],\n    'GEODUDE': ['ROCK', 'GROUND'], 'GRAVELER': ['ROCK', 'GROUND'], 'GOLEM': ['ROCK', 'GROUND'],\n    'PONYTA': ['FIRE'], 'RAPIDASH': ['FIRE'],\n    'SLOWPOKE': ['WATER', 'PSYCHIC'], 'SLOWBRO': ['WATER', 'PSYCHIC'],\n    'MAGNEMITE': ['ELECTRIC'], 'MAGNETON': ['ELECTRIC'],\n    'FARFETCHD': ['NORMAL', 'FLYING'],\n    'DODUO': ['NORMAL', 'FLYING'], 'DODRIO': ['NORMAL', 'FLYING'],\n    'SEEL': ['WATER'], 'DEWGONG': ['WATER', 'ICE'],\n    'GRIMER': ['POISON'], 'MUK': ['POISON'],\n    'SHELLDER': ['WATER'], 'CLOYSTER': ['WATER', 'ICE'],\n    'GASTLY': ['GHOST', 'POISON'], 'HAUNTER': ['GHOST', 'POISON'], 'GENGAR': ['GHOST', 'POISON'],\n    'ONIX': ['ROCK', 'GROUND'],\n    'DROWZEE': ['PSYCHIC'], 'HYPNO': ['PSYCHIC'],\n    'KRABBY': ['WATER'], 'KINGLER': ['WATER'],\n    'VOLTORB': ['ELECTRIC'], 'ELECTRODE': ['ELECTRIC'],\n    'EXEGGCUTE': ['GRASS', 'PSYCHIC'], 'EXEGGUTOR': ['GRASS', 'PSYCHIC'],\n    'CUBONE': ['GROUND'], 'MAROWAK': ['GROUND'],\n    'HITMONLEE': ['FIGHTING'], 'HITMONCHAN': ['FIGHTING'],\n    'LICKITUNG': ['NORMAL'],\n    'KOFFING': ['POISON'], 'WEEZING': ['POISON'],\n    'RHYHORN': ['ROCK', 'GROUND'], 'RHYDON': ['ROCK', 'GROUND'],\n    'CHANSEY': ['NORMAL'],\n    'TANGELA': ['GRASS'],\n    'KANGASKHAN': ['NORMAL'],\n    'HORSEA': ['WATER'], 'SEADRA': ['WATER'],\n    'GOLDEEN': ['WATER'], 'SEAKING': ['WATER'],\n    'STARYU': ['WATER'], 'STARMIE': ['WATER', 'PSYCHIC'],\n    'MR. MIME': ['PSYCHIC'],\n    'SCYTHER': ['BUG', 'FLYING'],\n    'JYNX': ['ICE', 'PSYCHIC'],\n    'ELECTABUZZ': ['ELECTRIC'],\n    'MAGMAR': ['FIRE'],\n    'PINSIR': ['BUG'],\n    'TAUROS': ['NORMAL'],\n    'MAGIKARP': ['WATER'], 'GYARADOS': ['WATER', 'FLYING'],\n    'LAPRAS': ['WATER', 'ICE'],\n    'DITTO': ['NORMAL'],\n    'EEVEE': ['NORMAL'], 'VAPOREON': ['WATER'], 'JOLTEON': ['ELECTRIC'], 'FLAREON': ['FIRE'],\n    'PORYGON': ['NORMAL'],\n    'OMANYTE': ['ROCK', 'WATER'], 'OMASTAR': ['ROCK', 'WATER'],\n    'KABUTO': ['ROCK', 'WATER'], 'KABUTOPS': ['ROCK', 'WATER'],\n    'AERODACTYL': ['ROCK', 'FLYING'],\n    'SNORLAX': ['NORMAL'],\n    'ARTICUNO': ['ICE', 'FLYING'],\n    'ZAPDOS': ['ELECTRIC', 'FLYING'],\n    'MOLTRES': ['FIRE', 'FLYING'],\n    'DRATINI': ['DRAGON'], 'DRAGONAIR': ['DRAGON'], 'DRAGONITE': ['DRAGON', 'FLYING'],\n    'MEWTWO': ['PSYCHIC'],\n    'MEW': ['PSYCHIC']\n}\n\ntype_chart = {\n    'NORMAL': {'super_effective': [], 'not_very_effective': ['ROCK'], 'immune': ['GHOST']},\n    'FIRE': {'super_effective': ['GRASS', 'ICE', 'BUG'], 'not_very_effective': ['FIRE', 'WATER', 'ROCK', 'DRAGON'], 'immune': []},\n    'WATER': {'super_effective': ['FIRE', 'GROUND', 'ROCK'], 'not_very_effective': ['WATER', 'GRASS', 'DRAGON'], 'immune': []},\n    'ELECTRIC': {'super_effective': ['WATER', 'FLYING'], 'not_very_effective': ['ELECTRIC', 'GRASS', 'DRAGON'], 'immune': ['GROUND']},\n    'GRASS': {'super_effective': ['WATER', 'GROUND', 'ROCK'], 'not_very_effective': ['FIRE', 'GRASS', 'POISON', 'FLYING', 'BUG', 'DRAGON'], 'immune': []},\n    'ICE': {'super_effective': ['GRASS', 'GROUND', 'FLYING', 'DRAGON'], 'not_very_effective': ['FIRE', 'WATER', 'ICE'], 'immune': []},\n    'FIGHTING': {'super_effective': ['NORMAL', 'ICE', 'ROCK'], 'not_very_effective': ['POISON', 'FLYING', 'PSYCHIC', 'BUG'], 'immune': ['GHOST']},\n    'POISON': {'super_effective': ['GRASS', 'BUG'], 'not_very_effective': ['POISON', 'GROUND', 'ROCK', 'GHOST'], 'immune': []},\n    'GROUND': {'super_effective': ['FIRE', 'ELECTRIC', 'POISON', 'ROCK'], 'not_very_effective': ['GRASS', 'BUG'], 'immune': ['FLYING']},\n    'FLYING': {'super_effective': ['GRASS', 'FIGHTING', 'BUG'], 'not_very_effective': ['ELECTRIC', 'ROCK'], 'immune': []},\n    'PSYCHIC': {'super_effective': ['FIGHTING', 'POISON'], 'not_very_effective': ['PSYCHIC'], 'immune': []},\n    'BUG': {'super_effective': ['GRASS', 'POISON', 'PSYCHIC'], 'not_very_effective': ['FIRE', 'FIGHTING', 'FLYING', 'GHOST'], 'immune': []},\n    'ROCK': {'super_effective': ['FIRE', 'ICE', 'FLYING', 'BUG'], 'not_very_effective': ['FIGHTING', 'GROUND'], 'immune': []},\n    'GHOST': {'super_effective': ['GHOST'], 'not_very_effective': ['NORMAL', 'PSYCHIC'], 'immune': []},\n    'DRAGON': {'super_effective': ['DRAGON'], 'not_very_effective': [], 'immune': []}\n}\n\n# --- Logic ---\ndef calculate_effectiveness(attacker_types, defender_types):\n    multiplier = 1.0\n    for att_type in attacker_types:\n        for def_type in defender_types:\n            if def_type in type_chart[att_type]['super_effective']:\n                multiplier *= 2.0\n            if def_type in type_chart[att_type]['not_very_effective']:\n                multiplier *= 0.5\n            if def_type in type_chart[att_type]['immune']:\n                return 0.0\n    return multiplier\n\ndef analyze_matchups(player_party, opponent_species, level_cap):\n    opponent_types = pokemon_types.get(opponent_species.upper(), [])\n    if not opponent_types:\n        return {'error': f'Opponent species {opponent_species} not found in type database.'}\n\n    scores = {}\n    for i, pokemon in enumerate(player_party):\n        species = pokemon['species'].upper()\n        level = pokemon['level']\n        status = pokemon['status']\n\n        if status == 'FNT' or level >= level_cap:\n            scores[i] = -1000 # Heavily penalize fainted or level-capped Pokemon\n            continue\n\n        player_types = pokemon_types.get(species, [])\n        if not player_types:\n            scores[i] = 0 # Neutral score if player species is unknown\n            continue\n        \n        # Offensive matchup: player vs opponent\n        offensive_multiplier = 0\n        for p_type in player_types:\n             # This is a simplification; we assume the pokemon has a move of its type\n            current_multiplier = 1.0\n            for o_type in opponent_types:\n                if o_type in type_chart[p_type]['super_effective']:\n                    current_multiplier *= 2.0\n                if o_type in type_chart[p_type]['not_very_effective']:\n                    current_multiplier *= 0.5\n                if o_type in type_chart[p_type]['immune']:\n                    current_multiplier = 0.0\n                    break\n            offensive_multiplier = max(offensive_multiplier, current_multiplier)\n\n        # Defensive matchup: opponent vs player\n        defensive_multiplier = 0\n        for o_type in opponent_types:\n            current_multiplier = 1.0\n            for p_type in player_types:\n                if p_type in type_chart[o_type]['super_effective']:\n                    current_multiplier *= 2.0\n                if p_type in type_chart[o_type]['not_very_effective']:\n                    current_multiplier *= 0.5\n                if p_type in type_chart[o_type]['immune']:\n                    current_multiplier = 0.0\n                    break\n            defensive_multiplier = max(defensive_multiplier, current_multiplier)\n\n        # Scoring logic\n        score = 0\n        if offensive_multiplier > 1:\n            score += 100 # Strong advantage\n        elif offensive_multiplier == 1:\n            score += 50  # Neutral\n        elif offensive_multiplier < 1 and offensive_multiplier > 0:\n            score -= 50 # Disadvantage\n        elif offensive_multiplier == 0:\n            score -= 150 # Immune\n\n        if defensive_multiplier < 1 and defensive_multiplier > 0:\n            score += 100 # Resists opponent\n        elif defensive_multiplier == 1:\n            score += 50  # Takes neutral damage\n        elif defensive_multiplier > 1:\n            score -= 100 # Weak to opponent\n        elif defensive_multiplier == 0:\n            score += 150 # Immune to opponent\n\n        scores[i] = score\n\n    # Find the best Pokemon\n    best_pokemon_index = max(scores, key=scores.get)\n    recommended_pokemon = player_party[best_pokemon_index]\n\n    return {\n        'recommended_lead_index': best_pokemon_index,\n        'recommended_lead_species': recommended_pokemon['species'],\n        'reasoning': f'Best matchup based on type advantage and level. Score: {scores[best_pokemon_index]}'\n    }\n\n# --- Execution ---\nplayer_party_data = input_data['player_party']\nopponent_species_data = input_data['opponent_species']\nlevel_cap_data = int(input_data['level_cap'])\n\nresult = analyze_matchups(player_party_data, opponent_species_data, level_cap_data)\nprint(json.dumps(result))\n",
+    "history": [
+      {
+        "commit_message": "feat: Create lead_matchup_analyzer tool. This tool automates the process of selecting an optimal lead Pokémon for wild battles by considering type advantages, level caps, and status conditions. This addresses a key opportunity for efficiency identified during mandatory self-assessment.",
+        "timestamp": "2025-09-15T23:43:56.182Z",
+        "action_counter": 217113
+      },
+      {
+        "commit_message": "fix: Expand pokemon_types dictionary to include all 151 Pokémon. The previous hardcoded list was a major design flaw that limited the tool's reusability. This change makes the tool robust and reliable for any encountered Pokémon, addressing a critical overwatch critique.",
+        "timestamp": "2025-09-16T00:04:50.852Z",
+        "action_counter": 217160
+      }
+    ]
+  },
   "menu_analyzer": {
     "description": "Parses screen text from a menu to identify the available options, their layout (e.g., single column, 2x2 grid), and the current cursor position. This is the foundation for creating reliable menu navigation automation.",
     "input_schema": {
@@ -873,98 +963,8 @@
       }
     ]
   },
-  "lead_matchup_analyzer": {
-    "description": "Analyzes the player's party against a wild Pokémon to recommend the best lead. Prioritizes Pokémon that are not level-capped and have a type advantage or at least neutral matchup, while avoiding those with a disadvantage.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "player_party": {
-          "type": "array",
-          "items": {
-            "type": "object",
-            "properties": {
-              "species": {
-                "type": "string"
-              },
-              "level": {
-                "type": "integer"
-              },
-              "status": {
-                "type": "string"
-              }
-            },
-            "required": [
-              "species",
-              "level",
-              "status"
-            ]
-          }
-        },
-        "opponent_species": {
-          "type": "string"
-        },
-        "level_cap": {
-          "type": "integer"
-        }
-      },
-      "required": [
-        "player_party",
-        "opponent_species",
-        "level_cap"
-      ]
-    },
-    "python_script": "import json\n\n# --- Data ---\npokemon_types = {\n    'BULBASAUR': ['GRASS', 'POISON'], 'IVYSAUR': ['GRASS', 'POISON'], 'VENUSAUR': ['GRASS', 'POISON'],\n    'CHARMANDER': ['FIRE'], 'CHARMELEON': ['FIRE'], 'CHARIZARD': ['FIRE', 'FLYING'],\n    'SQUIRTLE': ['WATER'], 'WARTORTLE': ['WATER'], 'BLASTOISE': ['WATER'],\n    'CATERPIE': ['BUG'], 'METAPOD': ['BUG'], 'BUTTERFREE': ['BUG', 'FLYING'],\n    'WEEDLE': ['BUG', 'POISON'], 'KAKUNA': ['BUG', 'POISON'], 'BEEDRILL': ['BUG', 'POISON'],\n    'PIDGEY': ['NORMAL', 'FLYING'], 'PIDGEOTTO': ['NORMAL', 'FLYING'], 'PIDGEOT': ['NORMAL', 'FLYING'],\n    'RATTATA': ['NORMAL'], 'RATICATE': ['NORMAL'],\n    'SPEAROW': ['NORMAL', 'FLYING'], 'FEAROW': ['NORMAL', 'FLYING'],\n    'EKANS': ['POISON'], 'ARBOK': ['POISON'],\n    'PIKACHU': ['ELECTRIC'], 'RAICHU': ['ELECTRIC'],\n    'SANDSHREW': ['GROUND'], 'SANDSLASH': ['GROUND'],\n    'NIDORAN♀': ['POISON'], 'NIDORINA': ['POISON'], 'NIDOQUEEN': ['POISON', 'GROUND'],\n    'NIDORAN♂': ['POISON'], 'NIDORINO': ['POISON'], 'NIDOKING': ['POISON', 'GROUND'],\n    'CLEFAIRY': ['NORMAL'], 'CLEFABLE': ['NORMAL'],\n    'VULPIX': ['FIRE'], 'NINETALES': ['FIRE'],\n    'JIGGLYPUFF': ['NORMAL'], 'WIGGLYTUFF': ['NORMAL'],\n    'ZUBAT': ['POISON', 'FLYING'], 'GOLBAT': ['POISON', 'FLYING'],\n    'ODDISH': ['GRASS', 'POISON'], 'GLOOM': ['GRASS', 'POISON'], 'VILEPLUME': ['GRASS', 'POISON'],\n    'PARAS': ['BUG', 'GRASS'], 'PARASECT': ['BUG', 'GRASS'],\n    'VENONAT': ['BUG', 'POISON'], 'VENOMOTH': ['BUG', 'POISON'],\n    'DIGLETT': ['GROUND'], 'DUGTRIO': ['GROUND'],\n    'MEOWTH': ['NORMAL'], 'PERSIAN': ['NORMAL'],\n    'PSYDUCK': ['WATER'], 'GOLDUCK': ['WATER'],\n    'MANKEY': ['FIGHTING'], 'PRIMEAPE': ['FIGHTING'],\n    'GROWLITHE': ['FIRE'], 'ARCANINE': ['FIRE'],\n    'POLIWAG': ['WATER'], 'POLIWHIRL': ['WATER'], 'POLIWRATH': ['WATER', 'FIGHTING'],\n    'ABRA': ['PSYCHIC'], 'KADABRA': ['PSYCHIC'], 'ALAKAZAM': ['PSYCHIC'],\n    'MACHOP': ['FIGHTING'], 'MACHOKE': ['FIGHTING'], 'MACHAMP': ['FIGHTING'],\n    'BELLSPROUT': ['GRASS', 'POISON'], 'WEEPINBELL': ['GRASS', 'POISON'], 'VICTREEBEL': ['GRASS', 'POISON'],\n    'TENTACOOL': ['WATER', 'POISON'], 'TENTACRUEL': ['WATER', 'POISON'],\n    'GEODUDE': ['ROCK', 'GROUND'], 'GRAVELER': ['ROCK', 'GROUND'], 'GOLEM': ['ROCK', 'GROUND'],\n    'PONYTA': ['FIRE'], 'RAPIDASH': ['FIRE'],\n    'SLOWPOKE': ['WATER', 'PSYCHIC'], 'SLOWBRO': ['WATER', 'PSYCHIC'],\n    'MAGNEMITE': ['ELECTRIC'], 'MAGNETON': ['ELECTRIC'],\n    'FARFETCHD': ['NORMAL', 'FLYING'],\n    'DODUO': ['NORMAL', 'FLYING'], 'DODRIO': ['NORMAL', 'FLYING'],\n    'SEEL': ['WATER'], 'DEWGONG': ['WATER', 'ICE'],\n    'GRIMER': ['POISON'], 'MUK': ['POISON'],\n    'SHELLDER': ['WATER'], 'CLOYSTER': ['WATER', 'ICE'],\n    'GASTLY': ['GHOST', 'POISON'], 'HAUNTER': ['GHOST', 'POISON'], 'GENGAR': ['GHOST', 'POISON'],\n    'ONIX': ['ROCK', 'GROUND'],\n    'DROWZEE': ['PSYCHIC'], 'HYPNO': ['PSYCHIC'],\n    'KRABBY': ['WATER'], 'KINGLER': ['WATER'],\n    'VOLTORB': ['ELECTRIC'], 'ELECTRODE': ['ELECTRIC'],\n    'EXEGGCUTE': ['GRASS', 'PSYCHIC'], 'EXEGGUTOR': ['GRASS', 'PSYCHIC'],\n    'CUBONE': ['GROUND'], 'MAROWAK': ['GROUND'],\n    'HITMONLEE': ['FIGHTING'], 'HITMONCHAN': ['FIGHTING'],\n    'LICKITUNG': ['NORMAL'],\n    'KOFFING': ['POISON'], 'WEEZING': ['POISON'],\n    'RHYHORN': ['ROCK', 'GROUND'], 'RHYDON': ['ROCK', 'GROUND'],\n    'CHANSEY': ['NORMAL'],\n    'TANGELA': ['GRASS'],\n    'KANGASKHAN': ['NORMAL'],\n    'HORSEA': ['WATER'], 'SEADRA': ['WATER'],\n    'GOLDEEN': ['WATER'], 'SEAKING': ['WATER'],\n    'STARYU': ['WATER'], 'STARMIE': ['WATER', 'PSYCHIC'],\n    'MR. MIME': ['PSYCHIC'],\n    'SCYTHER': ['BUG', 'FLYING'],\n    'JYNX': ['ICE', 'PSYCHIC'],\n    'ELECTABUZZ': ['ELECTRIC'],\n    'MAGMAR': ['FIRE'],\n    'PINSIR': ['BUG'],\n    'TAUROS': ['NORMAL'],\n    'MAGIKARP': ['WATER'], 'GYARADOS': ['WATER', 'FLYING'],\n    'LAPRAS': ['WATER', 'ICE'],\n    'DITTO': ['NORMAL'],\n    'EEVEE': ['NORMAL'], 'VAPOREON': ['WATER'], 'JOLTEON': ['ELECTRIC'], 'FLAREON': ['FIRE'],\n    'PORYGON': ['NORMAL'],\n    'OMANYTE': ['ROCK', 'WATER'], 'OMASTAR': ['ROCK', 'WATER'],\n    'KABUTO': ['ROCK', 'WATER'], 'KABUTOPS': ['ROCK', 'WATER'],\n    'AERODACTYL': ['ROCK', 'FLYING'],\n    'SNORLAX': ['NORMAL'],\n    'ARTICUNO': ['ICE', 'FLYING'],\n    'ZAPDOS': ['ELECTRIC', 'FLYING'],\n    'MOLTRES': ['FIRE', 'FLYING'],\n    'DRATINI': ['DRAGON'], 'DRAGONAIR': ['DRAGON'], 'DRAGONITE': ['DRAGON', 'FLYING'],\n    'MEWTWO': ['PSYCHIC'],\n    'MEW': ['PSYCHIC']\n}\n\ntype_chart = {\n    'NORMAL': {'super_effective': [], 'not_very_effective': ['ROCK'], 'immune': ['GHOST']},\n    'FIRE': {'super_effective': ['GRASS', 'ICE', 'BUG'], 'not_very_effective': ['FIRE', 'WATER', 'ROCK', 'DRAGON'], 'immune': []},\n    'WATER': {'super_effective': ['FIRE', 'GROUND', 'ROCK'], 'not_very_effective': ['WATER', 'GRASS', 'DRAGON'], 'immune': []},\n    'ELECTRIC': {'super_effective': ['WATER', 'FLYING'], 'not_very_effective': ['ELECTRIC', 'GRASS', 'DRAGON'], 'immune': ['GROUND']},\n    'GRASS': {'super_effective': ['WATER', 'GROUND', 'ROCK'], 'not_very_effective': ['FIRE', 'GRASS', 'POISON', 'FLYING', 'BUG', 'DRAGON'], 'immune': []},\n    'ICE': {'super_effective': ['GRASS', 'GROUND', 'FLYING', 'DRAGON'], 'not_very_effective': ['FIRE', 'WATER', 'ICE'], 'immune': []},\n    'FIGHTING': {'super_effective': ['NORMAL', 'ICE', 'ROCK'], 'not_very_effective': ['POISON', 'FLYING', 'PSYCHIC', 'BUG'], 'immune': ['GHOST']},\n    'POISON': {'super_effective': ['GRASS', 'BUG'], 'not_very_effective': ['POISON', 'GROUND', 'ROCK', 'GHOST'], 'immune': []},\n    'GROUND': {'super_effective': ['FIRE', 'ELECTRIC', 'POISON', 'ROCK'], 'not_very_effective': ['GRASS', 'BUG'], 'immune': ['FLYING']},\n    'FLYING': {'super_effective': ['GRASS', 'FIGHTING', 'BUG'], 'not_very_effective': ['ELECTRIC', 'ROCK'], 'immune': []},\n    'PSYCHIC': {'super_effective': ['FIGHTING', 'POISON'], 'not_very_effective': ['PSYCHIC'], 'immune': []},\n    'BUG': {'super_effective': ['GRASS', 'POISON', 'PSYCHIC'], 'not_very_effective': ['FIRE', 'FIGHTING', 'FLYING', 'GHOST'], 'immune': []},\n    'ROCK': {'super_effective': ['FIRE', 'ICE', 'FLYING', 'BUG'], 'not_very_effective': ['FIGHTING', 'GROUND'], 'immune': []},\n    'GHOST': {'super_effective': ['GHOST'], 'not_very_effective': ['NORMAL', 'PSYCHIC'], 'immune': []},\n    'DRAGON': {'super_effective': ['DRAGON'], 'not_very_effective': [], 'immune': []}\n}\n\n# --- Logic ---\ndef calculate_effectiveness(attacker_types, defender_types):\n    multiplier = 1.0\n    for att_type in attacker_types:\n        for def_type in defender_types:\n            if def_type in type_chart[att_type]['super_effective']:\n                multiplier *= 2.0\n            if def_type in type_chart[att_type]['not_very_effective']:\n                multiplier *= 0.5\n            if def_type in type_chart[att_type]['immune']:\n                return 0.0\n    return multiplier\n\ndef analyze_matchups(player_party, opponent_species, level_cap):\n    opponent_types = pokemon_types.get(opponent_species.upper(), [])\n    if not opponent_types:\n        return {'error': f'Opponent species {opponent_species} not found in type database.'}\n\n    scores = {}\n    for i, pokemon in enumerate(player_party):\n        species = pokemon['species'].upper()\n        level = pokemon['level']\n        status = pokemon['status']\n\n        if status == 'FNT' or level >= level_cap:\n            scores[i] = -1000 # Heavily penalize fainted or level-capped Pokemon\n            continue\n\n        player_types = pokemon_types.get(species, [])\n        if not player_types:\n            scores[i] = 0 # Neutral score if player species is unknown\n            continue\n        \n        # Offensive matchup: player vs opponent\n        offensive_multiplier = 0\n        for p_type in player_types:\n             # This is a simplification; we assume the pokemon has a move of its type\n            current_multiplier = 1.0\n            for o_type in opponent_types:\n                if o_type in type_chart[p_type]['super_effective']:\n                    current_multiplier *= 2.0\n                if o_type in type_chart[p_type]['not_very_effective']:\n                    current_multiplier *= 0.5\n                if o_type in type_chart[p_type]['immune']:\n                    current_multiplier = 0.0\n                    break\n            offensive_multiplier = max(offensive_multiplier, current_multiplier)\n\n        # Defensive matchup: opponent vs player\n        defensive_multiplier = 0\n        for o_type in opponent_types:\n            current_multiplier = 1.0\n            for p_type in player_types:\n                if p_type in type_chart[o_type]['super_effective']:\n                    current_multiplier *= 2.0\n                if p_type in type_chart[o_type]['not_very_effective']:\n                    current_multiplier *= 0.5\n                if p_type in type_chart[o_type]['immune']:\n                    current_multiplier = 0.0\n                    break\n            defensive_multiplier = max(defensive_multiplier, current_multiplier)\n\n        # Scoring logic\n        score = 0\n        if offensive_multiplier > 1:\n            score += 100 # Strong advantage\n        elif offensive_multiplier == 1:\n            score += 50  # Neutral\n        elif offensive_multiplier < 1 and offensive_multiplier > 0:\n            score -= 50 # Disadvantage\n        elif offensive_multiplier == 0:\n            score -= 150 # Immune\n\n        if defensive_multiplier < 1 and defensive_multiplier > 0:\n            score += 100 # Resists opponent\n        elif defensive_multiplier == 1:\n            score += 50  # Takes neutral damage\n        elif defensive_multiplier > 1:\n            score -= 100 # Weak to opponent\n        elif defensive_multiplier == 0:\n            score += 150 # Immune to opponent\n\n        scores[i] = score\n\n    # Find the best Pokemon\n    best_pokemon_index = max(scores, key=scores.get)\n    recommended_pokemon = player_party[best_pokemon_index]\n\n    return {\n        'recommended_lead_index': best_pokemon_index,\n        'recommended_lead_species': recommended_pokemon['species'],\n        'reasoning': f'Best matchup based on type advantage and level. Score: {scores[best_pokemon_index]}'\n    }\n\n# --- Execution ---\nplayer_party_data = input_data['player_party']\nopponent_species_data = input_data['opponent_species']\nlevel_cap_data = int(input_data['level_cap'])\n\nresult = analyze_matchups(player_party_data, opponent_species_data, level_cap_data)\nprint(json.dumps(result))\n",
-    "history": [
-      {
-        "commit_message": "feat: Create lead_matchup_analyzer tool. This tool automates the process of selecting an optimal lead Pokémon for wild battles by considering type advantages, level caps, and status conditions. This addresses a key opportunity for efficiency identified during mandatory self-assessment.",
-        "timestamp": "2025-09-15T23:43:56.182Z",
-        "action_counter": 217113
-      },
-      {
-        "commit_message": "fix: Expand pokemon_types dictionary to include all 151 Pokémon. The previous hardcoded list was a major design flaw that limited the tool's reusability. This change makes the tool robust and reliable for any encountered Pokémon, addressing a critical overwatch critique.",
-        "timestamp": "2025-09-16T00:04:50.852Z",
-        "action_counter": 217160
-      }
-    ]
-  },
-  "automated_battle_move_selector": {
-    "description": "A smart battle tool that automates move selection. If on the main battle menu, it selects 'FIGHT'. If on the move selection menu, it navigates to and selects the specified move.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "screen_text": {
-          "type": "string"
-        },
-        "target_move": {
-          "type": "string",
-          "nullable": true
-        }
-      },
-      "required": [
-        "screen_text"
-      ]
-    },
-    "python_script": "import json\nimport re\n\nscreen_text = input_data['screen_text']\ntarget_move = input_data.get('target_move', '').upper()\nbuttons = []\n\nis_main_menu = 'FIGHT' in screen_text and 'PKMN' in screen_text and 'ITEM' in screen_text and 'RUN' in screen_text\nis_move_menu = 'TYPE/' in screen_text\n\nif is_main_menu:\n    if '→FIGHT' in screen_text:\n        buttons.append('A')\n    elif '→PKMN' in screen_text:\n        buttons.extend(['Left', 'A'])\n    elif '→ITEM' in screen_text:\n        buttons.extend(['Up', 'A'])\n    elif '→RUN' in screen_text:\n        buttons.extend(['Up', 'Left', 'A'])\nelif is_move_menu:\n    lines = screen_text.split('\\n')\n    moves = []\n    cursor_index = -1\n    move_pattern = re.compile(r'^(→)?([A-Z\\s-]+)')\n    move_list_started = False\n    for i, line in enumerate(lines):\n        line = line.strip()\n        if 'TYPE/' in line:\n            move_list_started = True\n            continue\n        if move_list_started:\n            match = move_pattern.match(line)\n            if match:\n                has_cursor = match.group(1) is not None\n                move_name = match.group(2).strip()\n                if has_cursor:\n                    cursor_index = len(moves)\n                moves.append(move_name)\n    if moves and cursor_index != -1 and target_move:\n        try:\n            target_index = moves.index(target_move)\n            delta = target_index - cursor_index\n            if delta > 0:\n                for _ in range(delta):\n                    buttons.append('Down')\n            elif delta < 0:\n                for _ in range(abs(delta)):\n                    buttons.append('Up')\n            buttons.append('A')\n        except ValueError:\n            pass\n\nprint(json.dumps(buttons))",
-    "history": [
-      {
-        "commit_message": "feat: Create automated_battle_move_selector tool. This tool consolidates previous battle-related tools into a single, state-aware function. It can select 'FIGHT' from the main menu or a specific move from the move selection menu, streamlining wild battles as suggested by overwatch.",
-        "timestamp": "2025-09-16T11:18:46.481Z",
-        "action_counter": 218455
-      },
-      {
-        "commit_message": "fix: Improve menu detection logic. The previous version incorrectly identified the main battle menu, causing it to open the item menu. This commit adds more specific checks for both the main battle menu (looking for all four options) and the move selection menu (looking for 'TYPE/'), making the tool more robust and preventing incorrect menu navigation.",
-        "timestamp": "2025-09-16T11:22:03.955Z",
-        "action_counter": 218462
-      },
-      {
-        "commit_message": "fix: Implement robust main menu navigation. The tool now correctly identifies the cursor's position on the 2x2 main battle menu and navigates to 'FIGHT' before selecting it. This fixes a critical bug where the tool would fail if the cursor wasn't already on 'FIGHT'.",
-        "timestamp": "2025-09-16T11:23:50.154Z",
-        "action_counter": 218465
-      }
-    ]
-  },
   "spinner_maze_solver": {
-    "description": "Calculates the sequence of button presses to navigate a spinner maze from a start to an end coordinate. This tool should be used for complex spinner puzzles where manual pathing is difficult. The output can be used with `autopress_buttons`.",
+    "description": "Calculates the sequence of button presses to navigate a spinner maze from a start to an end coordinate. Accepts an optional list of coordinates to avoid, preventing navigation loops in multi-part solutions. The output can be used with `autopress_buttons`.",
     "input_schema": {
       "type": "object",
       "properties": {
@@ -988,6 +988,11 @@
             "left",
             "right"
           ]
+        },
+        "avoid_coords": {
+          "type": "string",
+          "nullable": true,
+          "description": "A JSON string of a list of [x, y] coordinates to avoid."
         }
       },
       "required": [
@@ -998,7 +1003,7 @@
         "start_facing"
       ]
     },
-    "python_script": "import json\nimport collections\nimport xml.etree.ElementTree as ET\n\ndef solve_spinner_maze():\n    root = ET.fromstring(map_xml_string)\n    map_width = int(root.get('width'))\n    map_height = int(root.get('height'))\n    tiles = {}\n    for row in root.findall('Row'):\n        y = int(row.get('id'))\n        for tile_elem in row.findall('Tile'):\n            x = int(tile_elem.get('id'))\n            obj = tile_elem.find('Object')\n            spinner = tile_elem.find('Spinner')\n            tiles[(x, y)] = {\n                'type': tile_elem.get('type'),\n                'has_object': tile_elem.get('has-object') == 'true',\n                'object_id_name': obj.get('id-name') if obj is not None else None,\n                'spinner_direction': spinner.get('direction') if spinner is not None else None\n            }\n\n    start_x = int(input_data['start_x'])\n    start_y = int(input_data['start_y'])\n    end_x = int(input_data['end_x'])\n    end_y = int(input_data['end_y'])\n    start_facing = input_data['start_facing']\n\n    start_pos = (start_x, start_y)\n    end_pos = (end_x, end_y)\n\n    def get_tile(pos):\n        return tiles.get(pos)\n\n    def is_pikachu(pos):\n        tile = get_tile(pos)\n        return tile and tile['has_object'] and tile['object_id_name'] == 'Pikachu'\n\n    def is_valid(pos):\n        x, y = pos\n        if not (1 <= x <= map_width and 1 <= y <= map_height):\n            return False\n        tile = get_tile(pos)\n        return tile and tile['type'] not in ['impassable']\n\n    # State: (x, y, facing)\n    start_state = (start_pos[0], start_pos[1], start_facing)\n    queue = collections.deque([(start_state, [])]) # (state, button_path)\n    visited = {start_state}\n\n    button_map = {\n        'Up': {'vec': (0, -1), 'face': 'up'},\n        'Down': {'vec': (0, 1), 'face': 'down'},\n        'Left': {'vec': (-1, 0), 'face': 'left'},\n        'Right': {'vec': (1, 0), 'face': 'right'}\n    }\n\n    while queue:\n        (current_x, current_y, current_facing), path = queue.popleft()\n        current_pos = (current_x, current_y)\n\n        if current_pos == end_pos:\n            print(json.dumps(path))\n            return\n\n        for button, move_info in button_map.items():\n            new_path = path + [button]\n            dx, dy = move_info['vec']\n            next_pos_candidate = (current_x + dx, current_y + dy)\n            target_facing = move_info['face']\n\n            # Handle Pikachu turn rule\n            if is_pikachu(next_pos_candidate) and current_facing != target_facing:\n                new_state = (current_x, current_y, target_facing)\n                if new_state not in visited:\n                    visited.add(new_state)\n                    queue.append((new_state, new_path))\n                continue\n\n            # Handle normal movement and spinners\n            if is_valid(next_pos_candidate):\n                final_pos = next_pos_candidate\n                final_facing = target_facing\n                \n                # Simulate spinner movement\n                next_tile = get_tile(final_pos)\n                if next_tile and next_tile['type'].startswith('spinner_'):\n                    while True:\n                        current_tile = get_tile(final_pos)\n                        if not current_tile or not current_tile['type'].startswith('spinner_'):\n                            break\n                        \n                        direction = current_tile['spinner_direction']\n                        if direction == 'stop': break\n                        \n                        spin_dx, spin_dy = button_map[direction.capitalize()]['vec']\n                        final_pos = (final_pos[0] + spin_dx, final_pos[1] + spin_dy)\n                        if not is_valid(final_pos):\n                            final_pos = (final_pos[0] - spin_dx, final_pos[1] - spin_dy)\n                            break\n                \n                new_state = (final_pos[0], final_pos[1], final_facing)\n                if new_state not in visited:\n                    visited.add(new_state)\n                    queue.append((new_state, new_path))\n\n    print(json.dumps([])) # Return empty list if no path is found\n\nsolve_spinner_maze()",
+    "python_script": "import json\nimport collections\nimport xml.etree.ElementTree as ET\nimport sys\n\ndef solve_spinner_maze():\n    try:\n        start_x = int(input_data['start_x'])\n        start_y = int(input_data['start_y'])\n        end_x = int(input_data['end_x'])\n        end_y = int(input_data['end_y'])\n        start_facing = input_data['start_facing']\n        avoid_coords_str = input_data.get('avoid_coords')\n\n        root = ET.fromstring(map_xml_string)\n        map_width = int(root.get('width'))\n        map_height = int(root.get('height'))\n        tiles = {}\n        impassable_tiles = set()\n\n        for row in root.findall('Row'):\n            y = int(row.get('id'))\n            for tile_elem in row.findall('Tile'):\n                x = int(tile_elem.get('id'))\n                tile_type = tile_elem.get('type')\n                obj = tile_elem.find('Object')\n                obj_id_name = obj.get('id-name') if obj is not None else None\n                tiles[(x, y)] = tile_type\n                \n                is_impassable_type = tile_type in ['impassable', 'unknown', 'closed_gate', 'boulder_barrier']\n                has_blocking_object = tile_elem.get('has-object') == 'true' and (obj_id_name or '').upper() != 'PIKACHU'\n\n                if is_impassable_type or has_blocking_object:\n                    impassable_tiles.add((x, y))\n\n        start_node = (start_x, start_y, start_facing)\n        end_node_coords = (end_x, end_y)\n        \n        queue = collections.deque([(start_node, [])])\n        visited = {start_node}\n\n        if avoid_coords_str:\n            try:\n                avoid_list = json.loads(avoid_coords_str)\n                for x, y in avoid_list:\n                    for facing in ['up', 'down', 'left', 'right']:\n                        visited.add((x, y, facing))\n            except (json.JSONDecodeError, TypeError):\n                pass\n\n        while queue:\n            (current_x, current_y, current_facing), path = queue.popleft()\n\n            if (current_x, current_y) == end_node_coords:\n                print(json.dumps(path))\n                return\n\n            for move_dir in ['Up', 'Down', 'Left', 'Right']:\n                next_x, next_y = current_x, current_y\n                next_facing = move_dir.lower()\n                \n                pikachu_elem = root.find(f\".//Tile[@coordinate='({current_x}, {current_y})']/Object[@id-name='Pikachu']\")\n                is_pikachu_adj = False\n                if pikachu_elem is not None:\n                    px, py = int(pikachu_elem.get('x')), int(pikachu_elem.get('y'))\n                    if (move_dir == 'Up' and py == current_y - 1 and px == current_x) or \\\n                       (move_dir == 'Down' and py == current_y + 1 and px == current_x) or \\\n                       (move_dir == 'Left' and px == current_x - 1 and py == current_y) or \\\n                       (move_dir == 'Right' and px == current_x + 1 and py == current_y):\n                        is_pikachu_adj = True\n                \n                num_presses = 1\n                if is_pikachu_adj and current_facing != next_facing:\n                    num_presses = 2\n\n                temp_path = list(path)\n                for _ in range(num_presses):\n                    temp_path.append(move_dir)\n                \n                if move_dir == 'Up': next_y -= 1\n                elif move_dir == 'Down': next_y += 1\n                elif move_dir == 'Left': next_x -= 1\n                elif move_dir == 'Right': next_x += 1\n                \n                if (next_x, next_y) in impassable_tiles:\n                    continue\n\n                sim_x, sim_y = next_x, next_y\n                sim_dir = move_dir.lower()\n                \n                # Spinner simulation loop\n                while True:\n                    current_tile_type = tiles.get((sim_x, sim_y))\n                    if not current_tile_type or 'spinner' not in current_tile_type:\n                        break\n                    if current_tile_type == 'spinner_stop':\n                        break\n\n                    if current_tile_type == 'spinner_up': sim_dir = 'up'\n                    elif current_tile_type == 'spinner_down': sim_dir = 'down'\n                    elif current_tile_type == 'spinner_left': sim_dir = 'left'\n                    elif current_tile_type == 'spinner_right': sim_dir = 'right'\n\n                    if sim_dir == 'up': sim_y -= 1\n                    elif sim_dir == 'down': sim_y += 1\n                    elif sim_dir == 'left': sim_x -= 1\n                    elif sim_dir == 'right': sim_x += 1\n                    \n                    if (sim_x, sim_y) in impassable_tiles:\n                        sim_x, sim_y = -1, -1 # Invalid end state\n                        break\n                \n                if sim_x == -1: continue\n\n                final_state = (sim_x, sim_y, next_facing)\n                if final_state not in visited:\n                    visited.add(final_state)\n                    queue.append((final_state, temp_path))\n        \n        print(json.dumps([]))\n\n    except Exception as e:\n        print(json.dumps([]))\n\nsolve_spinner_maze()",
     "history": [
       {
         "commit_message": "feat: Create spinner_maze_solver tool. This tool automates the navigation of spinner mazes by simulating spinner movement and using a BFS search to find the correct sequence of button presses. This is a direct response to a critical overwatch critique and addresses a major recurring gameplay challenge.",
@@ -1014,6 +1019,36 @@
         "commit_message": "fix: Overhaul BFS to be state-aware of facing direction. The previous implementation's pathfinding was based only on coordinates, which failed to account for the special turn-in-place mechanic when moving towards Pikachu. This commit refactors the core BFS algorithm to use a state of (x, y, facing), allowing it to correctly simulate the 1-2 button presses required for Pikachu movement and generate valid, executable paths. This is a critical fix to unblock spinner maze automation.",
         "timestamp": "2025-09-16T16:52:29.104Z",
         "action_counter": 218867
+      },
+      {
+        "commit_message": "feat: Add stateful navigation to prevent loops. The tool now accepts an optional `avoid_coords` argument (a JSON list of coordinates). These coordinates are pre-loaded into the `visited` set of the BFS search, effectively preventing the solver from re-exploring those states. This transforms the tool from a stateless pathfinder into a stateful one, capable of solving multi-part spinner mazes without getting caught in navigation loops. This is a critical fix to unblock progression.",
+        "timestamp": "2025-09-16T18:11:29.362Z",
+        "action_counter": 218951
+      },
+      {
+        "commit_message": "fix: Add collision detection for impassable tiles and objects. The tool now parses the map XML to identify all non-traversable tiles and objects (excluding Pikachu) at the start. It then checks if a potential move is valid before adding it to the search queue. This prevents the tool from generating paths that move directly into walls or other obstacles, fixing a critical pathfinding bug.",
+        "timestamp": "2025-09-16T18:12:22.988Z",
+        "action_counter": 218953
+      },
+      {
+        "commit_message": "fix: Implement full spinner chain simulation. The tool previously only checked the validity of the initial move, not the final destination of a spinner sequence. This caused it to enter avoided coordinates. The new logic simulates the entire chain of spinner movements to find the final landing spot before adding a path to the search queue, ensuring `avoid_coords` is respected and preventing invalid pathing.",
+        "timestamp": "2025-09-16T18:16:01.360Z",
+        "action_counter": 218958
+      },
+      {
+        "commit_message": "fix: Correctly simulate spinner chain destination. The previous fix was incomplete and did not properly check the final landing coordinate of a spinner chain against the 'avoid_coords' list. This commit refactors the simulation logic to ensure the entire chain is traced and the final destination tile is validated before a path is added to the search queue. This is a critical fix to prevent the solver from entering known loops.",
+        "timestamp": "2025-09-16T18:19:29.488Z",
+        "action_counter": 218963
+      },
+      {
+        "commit_message": "fix: Overhaul spinner simulation logic. The previous simulation was critically flawed, failing to account for continuous movement over non-spinner tiles and direction changes. This commit completely rewrites the simulation to accurately trace the entire spinner chain to its final destination, checking for obstacles, stop tiles, and direction changes along the way. This is a critical fix to make the tool reliable for complex spinner mazes.",
+        "timestamp": "2025-09-16T18:20:29.396Z",
+        "action_counter": 218964
+      },
+      {
+        "commit_message": "fix: Capitalize button press output. The tool was outputting lowercase direction strings (e.g., 'left'), which is an invalid format for the `autopress_buttons` feature. This commit adds `.capitalize()` to the move direction strings to ensure they are correctly formatted (e.g., 'Left'), fixing the tool's compatibility with the execution engine.",
+        "timestamp": "2025-09-16T18:22:55.516Z",
+        "action_counter": 218969
       }
     ]
   }

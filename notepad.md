@@ -124,14 +124,13 @@
     - One of the NPCs will react to a specific Pokémon's cry. (Result: Failed. Used Clefable's cry next to the Hiker on 1F and the Rocket Grunt on B2F. Dialogue unchanged in both cases.)
     - There is a hidden switch or item on the floor, possibly revealed by the Itemfinder. (Result: Failed. ITEMFINDER did not respond on B3F.)
 
-# IX. Rocket Hideout B3F Spinner Maze
+# VIII. Archived Puzzles & Investigations
 
-- **Objective:** Navigate the spinner maze to reach all accessible areas.
-- **Failed Hypotheses:**
-    - There is a hidden item or switch on the floor. (Result: Failed. ITEMFINDER did not respond at (19, 16).)
-
-# X. Rocket Hideout B2F Spinner Maze
-
-- **Objective:** Navigate the spinner maze to reach the elevator warp at (25, 20).
-- **Failed Hypotheses:**
-    - (None yet)
+- **Rocket Hideout B3F Spinner Maze**
+    - **Objective:** Navigate the spinner maze to reach all accessible areas.
+    - **Failed Hypotheses:**
+        - There is a hidden item or switch on the floor. (Result: Failed. ITEMFINDER did not respond at (19, 16).)
+- **Rocket Hideout B2F Spinner Maze**
+    - **Objective:** Navigate the spinner maze to reach the elevator warp at (25, 20).
+    - **Failed Hypotheses:**
+        - (None yet)
