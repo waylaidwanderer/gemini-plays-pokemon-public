@@ -106,3 +106,4 @@
         - **Starmie:** PSYCHIC.
         - **Porygon:** THUNDER WAVE, BLIZZARD, REFLECT, RECOVER.
         - **Exeggutor:** REFLECT, SLEEP POWDER, DREAM EATER.
+    - Normal > Water/Ice
