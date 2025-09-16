@@ -24,10 +24,19 @@
     - Rock is not very effective against Ground
     - Normal is not very effective against Ground
     - Flying is not very effective against Electric
+    - Normal > Water/Ice
 - **Notable Trainer Rosters:**
     - **Sabrina (Saffron Gym):** MR. MIME (Lv 65), HYPNO (Lv 64), SLOWBRO (Lv 64), JYNX (Lv 64), GENGAR (Lv 64), ALAKAZAM (Lv 65).
     - **SMITH (Cerulean Cave):** AERODACTYL (Lv 65).
     - **Brock (Pewter Gym):** OMASTAR (Lv 64), ONIX (Lv 65), KABUTOPS (Lv 64), GOLEM (Lv 64), NINETALES (Lv 64), AERODACTYL (Lv 65).
+    - **Nurse Joy (Fuchsia City):** KANGASKHAN (Lv 65), SNORLAX (Lv 65), STARMIE (Lv 65), PORYGON (Lv 65), EXEGGUTOR (Lv 65), CHANSEY (Lv 65).
+- **Known Movesets:**
+    - **Kangaskhan:** DOUBLE TEAM, DOUBLE-EDGE.
+    - **Snorlax:** (No moves observed).
+    - **Starmie:** PSYCHIC.
+    - **Porygon:** THUNDER WAVE, BLIZZARD, REFLECT, RECOVER.
+    - **Exeggutor:** REFLECT, SLEEP POWDER, DREAM EATER.
+    - **Chansey:** REFLECT, EGG BOMB.
 
 # IV. Key Discoveries & Lessons Learned
 
@@ -98,21 +107,3 @@
 
 - **Route Viability:** Currently assuming that progressing through Route 9 and Rock Tunnel will lead to an alternate path to Mt. Moon. This is based on general Kanto layout and has not been verified in this ROM hack. **Test:** Continue through Rock Tunnel to its exit and observe the connecting area. If it does not lead toward the objective, I must re-evaluate all possible paths from previously visited cities.
 - **Route Viability 2.0:** Assuming a westward path from Celadon City will eventually connect to Route 4, providing an alternate entrance to Mt. Moon. **Test:** Travel to Celadon City and explore all westward routes.
-- **Nurse Joy Rematches:** Some Nurse Joys in Pokémon Centers will challenge the player to a battle after healing their party. This has been observed in Fuchsia City.
-    - **Roster (Fuchsia City):** KANGASKHAN (Lv 65), SNORLAX (Lv 65), STARMIE (Lv 65), PORYGON (Lv 65), EXEGGUTOR (Lv 65), CHANSEY (Lv 65).
-    - **Known Movesets:**
-        - **Kangaskhan:** DOUBLE TEAM, DOUBLE-EDGE.
-        - **Snorlax:** (No moves observed).
-        - **Starmie:** PSYCHIC.
-        - **Porygon:** THUNDER WAVE, BLIZZARD, REFLECT, RECOVER.
-        - **Exeggutor:** REFLECT, SLEEP POWDER, DREAM EATER.
-        - **Chansey:** REFLECT, EGG BOMB.
-- **Type Effectiveness Chart (Verified):**
-    - Water > Rock/Ground
-    - Water is not very effective against Bug/Grass, Ghost/Poison
-    - Poison is not very effective against Poison/Flying, Rock/Ground
-    - Flying is not very effective against Rock/Ground
-    - Rock is not very effective against Ground
-    - Normal is not very effective against Ground
-    - Flying is not very effective against Electric
-    - **Normal > Water/Ice (NEW)**
