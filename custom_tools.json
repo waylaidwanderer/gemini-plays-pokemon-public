@@ -963,8 +963,8 @@
       }
     ]
   },
-  "spinner_maze_solver": {
-    "description": "Calculates the sequence of button presses to navigate a spinner maze from a start to an end coordinate. Accepts an optional list of coordinates to avoid, preventing navigation loops in multi-part solutions. The output can be used with `autopress_buttons`.",
+  "spinner_move_simulator": {
+    "description": "Simulates a single button press (Up, Down, Left, Right) from a given coordinate in a spinner maze. It returns the final landing coordinates (x, y) after the full spinner chain resolves. This helps with manual navigation by predicting the outcome of a move without executing it.",
     "input_schema": {
       "type": "object",
       "properties": {
@@ -974,106 +974,28 @@
         "start_y": {
           "type": "string"
         },
-        "end_x": {
-          "type": "string"
-        },
-        "end_y": {
-          "type": "string"
-        },
-        "start_facing": {
+        "move_direction": {
           "type": "string",
           "enum": [
-            "up",
-            "down",
-            "left",
-            "right"
+            "Up",
+            "Down",
+            "Left",
+            "Right"
           ]
-        },
-        "avoid_coords": {
-          "type": "string",
-          "nullable": true,
-          "description": "A JSON string of a list of [x, y] coordinates to avoid."
         }
       },
       "required": [
         "start_x",
         "start_y",
-        "end_x",
-        "end_y",
-        "start_facing"
+        "move_direction"
       ]
     },
-    "python_script": "import json\nimport collections\nimport xml.etree.ElementTree as ET\n\ndef solve_spinner_maze():\n    try:\n        start_x = int(input_data['start_x'])\n        start_y = int(input_data['start_y'])\n        end_x = int(input_data['end_x'])\n        end_y = int(input_data['end_y'])\n        start_facing = input_data['start_facing']\n        avoid_coords_str = input_data.get('avoid_coords')\n        avoid_list = []\n        if avoid_coords_str:\n            try:\n                avoid_list = json.loads(avoid_coords_str)\n            except (json.JSONDecodeError, TypeError):\n                pass\n\n        root = ET.fromstring(map_xml_string)\n        tiles = {}\n        impassable_tiles = set()\n        \n        pikachu_coords = None\n        for row in root.findall('Row'):\n            y_coord = int(row.get('id'))\n            for tile_elem in row.findall('Tile'):\n                x_coord = int(tile_elem.get('id'))\n                pikachu_obj = tile_elem.find(\"Object[@id-name='Pikachu']\")\n                if pikachu_obj is not None:\n                    pikachu_coords = (x_coord, y_coord)\n                    break\n            if pikachu_coords is not None:\n                break\n\n        for row in root.findall('Row'):\n            y = int(row.get('id'))\n            for tile_elem in row.findall('Tile'):\n                x = int(tile_elem.get('id'))\n                tile_type = tile_elem.get('type')\n                obj = tile_elem.find('Object')\n                obj_id_name = obj.get('id-name') if obj is not None else None\n                tiles[(x, y)] = tile_type\n                \n                is_impassable_type = tile_type in ['impassable', 'unknown', 'closed_gate', 'boulder_barrier']\n                has_blocking_object = tile_elem.get('has-object') == 'true' and (obj_id_name or '').upper() != 'PIKACHU'\n\n                if is_impassable_type or has_blocking_object:\n                    impassable_tiles.add((x, y))\n\n        start_node = (start_x, start_y, start_facing)\n        end_node_coords = (end_x, end_y)\n        \n        queue = collections.deque([(start_node, [])])\n        visited = {start_node}\n\n        avoid_coords_set = {tuple(c) for c in avoid_list}\n\n        if avoid_coords_str:\n            for x, y in avoid_list:\n                for facing in ['up', 'down', 'left', 'right']:\n                    visited.add((x, y, facing))\n\n        while queue:\n            (current_x, current_y, current_facing), path = queue.popleft()\n\n            if (current_x, current_y) == end_node_coords:\n                print(json.dumps([p.capitalize() for p in path]))\n                return\n\n            for move_dir_lower in ['up', 'down', 'left', 'right']:\n                next_x, next_y = current_x, current_y\n                next_facing = move_dir_lower\n                \n                if move_dir_lower == 'up': next_y -= 1\n                elif move_dir_lower == 'down': next_y += 1\n                elif move_dir_lower == 'left': next_x -= 1\n                elif move_dir_lower == 'right': next_x += 1\n\n                num_presses = 1\n                is_moving_to_pikachu = (next_x, next_y) == pikachu_coords\n                if is_moving_to_pikachu and current_facing != next_facing:\n                    num_presses = 2\n\n                temp_path = list(path)\n                for _ in range(num_presses):\n                    temp_path.append(move_dir_lower)\n                \n                if (next_x, next_y) in impassable_tiles:\n                    continue\n\n                sim_x, sim_y = next_x, next_y\n                sim_dir = move_dir_lower\n                sim_visited_in_chain = {(sim_x, sim_y)}\n                \n                while True:\n                    current_tile_type = tiles.get((sim_x, sim_y))\n                    if not current_tile_type or 'spinner' not in current_tile_type:\n                        break\n                    if current_tile_type == 'spinner_stop':\n                        break\n\n                    if 'up' in current_tile_type: sim_dir = 'up'\n                    elif 'down' in current_tile_type: sim_dir = 'down'\n                    elif 'left' in current_tile_type: sim_dir = 'left'\n                    elif 'right' in current_tile_type: sim_dir = 'right'\n\n                    if sim_dir == 'up': sim_y -= 1\n                    elif sim_dir == 'down': sim_y += 1\n                    elif sim_dir == 'left': sim_x -= 1\n                    elif sim_dir == 'right': sim_x += 1\n\n                    if (sim_x, sim_y) in sim_visited_in_chain:\n                        sim_x, sim_y = -1, -1\n                        break\n                    sim_visited_in_chain.add((sim_x, sim_y))\n                    \n                    if (sim_x, sim_y) in impassable_tiles:\n                        sim_x, sim_y = -1, -1\n                        break\n                \n                if sim_x == -1: continue\n\n                final_coords = (sim_x, sim_y)\n                if final_coords in avoid_coords_set:\n                    continue\n\n                final_state = (sim_x, sim_y, next_facing)\n                if final_state not in visited:\n                    visited.add(final_state)\n                    queue.append((final_state, temp_path))\n        \n        print(json.dumps([]))\n\n    except Exception:\n        print(json.dumps([]))\n\nsolve_spinner_maze()",
+    "python_script": "import json\nimport xml.etree.ElementTree as ET\n\ndef simulate_move():\n    try:\n        start_x = int(input_data['start_x'])\n        start_y = int(input_data['start_y'])\n        move_dir = input_data['move_direction'].lower()\n\n        root = ET.fromstring(map_xml_string)\n        tiles = {}\n        impassable_tiles = set()\n\n        for row in root.findall('Row'):\n            y = int(row.get('id'))\n            for tile_elem in row.findall('Tile'):\n                x = int(tile_elem.get('id'))\n                tile_type = tile_elem.get('type')\n                obj = tile_elem.find('Object')\n                obj_id_name = obj.get('id-name') if obj is not None else None\n                tiles[(x, y)] = tile_type\n                \n                is_impassable_type = tile_type in ['impassable', 'unknown', 'closed_gate', 'boulder_barrier']\n                has_blocking_object = tile_elem.get('has-object') == 'true' and (obj_id_name or '').upper() != 'PIKACHU'\n\n                if is_impassable_type or has_blocking_object:\n                    impassable_tiles.add((x, y))\n\n        next_x, next_y = start_x, start_y\n        if move_dir == 'up': next_y -= 1\n        elif move_dir == 'down': next_y += 1\n        elif move_dir == 'left': next_x -= 1\n        elif move_dir == 'right': next_x += 1\n\n        if (next_x, next_y) in impassable_tiles:\n            print(json.dumps({'success': False, 'reason': 'Initial move is blocked by an impassable tile.'}))\n            return\n\n        sim_x, sim_y = next_x, next_y\n        sim_dir = move_dir\n        sim_visited_in_chain = {(sim_x, sim_y)}\n\n        while True:\n            current_tile_type = tiles.get((sim_x, sim_y))\n            if not current_tile_type or 'spinner' not in current_tile_type or current_tile_type == 'spinner_stop':\n                break\n\n            if 'up' in current_tile_type: sim_dir = 'up'\n            elif 'down' in current_tile_type: sim_dir = 'down'\n            elif 'left' in current_tile_type: sim_dir = 'left'\n            elif 'right' in current_tile_type: sim_dir = 'right'\n\n            if sim_dir == 'up': sim_y -= 1\n            elif sim_dir == 'down': sim_y += 1\n            elif sim_dir == 'left': sim_x -= 1\n            elif sim_dir == 'right': sim_x += 1\n            \n            if (sim_x, sim_y) in sim_visited_in_chain:\n                print(json.dumps({'success': False, 'reason': 'Infinite loop detected in spinner chain.'}))\n                return\n            sim_visited_in_chain.add((sim_x, sim_y))\n\n            if (sim_x, sim_y) in impassable_tiles:\n                print(json.dumps({'success': False, 'reason': 'Spinner chain leads into an impassable tile.'}))\n                return\n\n        print(json.dumps({'success': True, 'final_x': sim_x, 'final_y': sim_y}))\n\n    except Exception as e:\n        print(json.dumps({'success': False, 'reason': f'An error occurred: {str(e)}'}))\n\nsimulate_move()",
     "history": [
       {
-        "commit_message": "feat: Create spinner_maze_solver tool. This tool automates the navigation of spinner mazes by simulating spinner movement and using a BFS search to find the correct sequence of button presses. This is a direct response to a critical overwatch critique and addresses a major recurring gameplay challenge.",
-        "timestamp": "2025-09-16T16:47:03.803Z",
-        "action_counter": 218860
-      },
-      {
-        "commit_message": "fix: Correct tool output to be a valid JSON array. The previous version returned a JSON object, which is incompatible with the `autopress_buttons` feature. This change ensures the tool prints only the array of button presses on success, or an empty array on failure.",
-        "timestamp": "2025-09-16T16:48:08.603Z",
-        "action_counter": 218862
-      },
-      {
-        "commit_message": "fix: Overhaul BFS to be state-aware of facing direction. The previous implementation's pathfinding was based only on coordinates, which failed to account for the special turn-in-place mechanic when moving towards Pikachu. This commit refactors the core BFS algorithm to use a state of (x, y, facing), allowing it to correctly simulate the 1-2 button presses required for Pikachu movement and generate valid, executable paths. This is a critical fix to unblock spinner maze automation.",
-        "timestamp": "2025-09-16T16:52:29.104Z",
-        "action_counter": 218867
-      },
-      {
-        "commit_message": "feat: Add stateful navigation to prevent loops. The tool now accepts an optional `avoid_coords` argument (a JSON list of coordinates). These coordinates are pre-loaded into the `visited` set of the BFS search, effectively preventing the solver from re-exploring those states. This transforms the tool from a stateless pathfinder into a stateful one, capable of solving multi-part spinner mazes without getting caught in navigation loops. This is a critical fix to unblock progression.",
-        "timestamp": "2025-09-16T18:11:29.362Z",
-        "action_counter": 218951
-      },
-      {
-        "commit_message": "fix: Add collision detection for impassable tiles and objects. The tool now parses the map XML to identify all non-traversable tiles and objects (excluding Pikachu) at the start. It then checks if a potential move is valid before adding it to the search queue. This prevents the tool from generating paths that move directly into walls or other obstacles, fixing a critical pathfinding bug.",
-        "timestamp": "2025-09-16T18:12:22.988Z",
-        "action_counter": 218953
-      },
-      {
-        "commit_message": "fix: Implement full spinner chain simulation. The tool previously only checked the validity of the initial move, not the final destination of a spinner sequence. This caused it to enter avoided coordinates. The new logic simulates the entire chain of spinner movements to find the final landing spot before adding a path to the search queue, ensuring `avoid_coords` is respected and preventing invalid pathing.",
-        "timestamp": "2025-09-16T18:16:01.360Z",
-        "action_counter": 218958
-      },
-      {
-        "commit_message": "fix: Correctly simulate spinner chain destination. The previous fix was incomplete and did not properly check the final landing coordinate of a spinner chain against the 'avoid_coords' list. This commit refactors the simulation logic to ensure the entire chain is traced and the final destination tile is validated before a path is added to the search queue. This is a critical fix to prevent the solver from entering known loops.",
-        "timestamp": "2025-09-16T18:19:29.488Z",
-        "action_counter": 218963
-      },
-      {
-        "commit_message": "fix: Overhaul spinner simulation logic. The previous simulation was critically flawed, failing to account for continuous movement over non-spinner tiles and direction changes. This commit completely rewrites the simulation to accurately trace the entire spinner chain to its final destination, checking for obstacles, stop tiles, and direction changes along the way. This is a critical fix to make the tool reliable for complex spinner mazes.",
-        "timestamp": "2025-09-16T18:20:29.396Z",
-        "action_counter": 218964
-      },
-      {
-        "commit_message": "fix: Capitalize button press output. The tool was outputting lowercase direction strings (e.g., 'left'), which is an invalid format for the `autopress_buttons` feature. This commit adds `.capitalize()` to the move direction strings to ensure they are correctly formatted (e.g., 'Left'), fixing the tool's compatibility with the execution engine.",
-        "timestamp": "2025-09-16T18:22:55.516Z",
-        "action_counter": 218969
-      },
-      {
-        "commit_message": "fix: Correct Pikachu movement logic. The previous version incorrectly checked for Pikachu on the current tile instead of the destination tile, causing the pathfinding to fail on any route that required moving onto Pikachu's space. This commit rewrites the logic to correctly identify Pikachu's location and apply the 1-2 button press rule, unblocking maze navigation.",
-        "timestamp": "2025-09-16T18:41:57.534Z",
-        "action_counter": 219003
-      },
-      {
-        "commit_message": "test: Remove main try/except block to expose raw traceback. The tool is failing with a generic 'no path' error, and previous debugging attempts have been inconclusive. This commit removes the main try/except block to force the raw Python exception to be printed to the tool's output. This is a diagnostic step to identify the exact line and cause of the crash.",
-        "timestamp": "2025-09-16T18:45:31.187Z",
-        "action_counter": 219008
-      },
-      {
-        "commit_message": "fix: Correct Pikachu coordinate parsing. The tool was using `.getparent()` on an XML element, which is not a valid method in the `xml.etree` library, causing a crash. This commit replaces the faulty logic with a robust iteration through the map XML to correctly find the tile containing Pikachu and extract its coordinates. This is a critical fix to unblock maze navigation.",
-        "timestamp": "2025-09-16T18:47:08.899Z",
-        "action_counter": 219010
-      },
-      {
-        "commit_message": "fix: Correctly respect `avoid_coords`. The tool previously only added avoided coordinates to the visited set, preventing paths from starting on them but not from landing on them after a spinner chain. This commit adds an explicit check to ensure the final destination of any spinner sequence is not in the `avoid_coords` list, preventing loops.",
-        "timestamp": "2025-09-16T19:18:47.270Z",
-        "action_counter": 219048
-      },
-      {
-        "commit_message": "fix: Add infinite loop detection to spinner simulation. The previous simulation logic could get stuck in an infinite loop if it encountered opposing spinner tiles (e.g., spinner_up next to spinner_down), causing the tool to fail. This commit adds a `sim_visited_in_chain` set to track tiles visited within a single simulation chain. If a tile is revisited, a loop is detected, and the path is correctly discarded as invalid. This is a critical fix to make the tool robust against complex spinner layouts.",
-        "timestamp": "2025-09-16T19:22:34.768Z",
-        "action_counter": 219052
+        "commit_message": "feat: Create spinner_move_simulator tool. This tool simulates a single move in a spinner maze and returns the final landing coordinates. This replaces the complex and buggy `spinner_maze_solver` and provides a reliable way to assist with manual navigation by allowing for move prediction without execution.",
+        "timestamp": "2025-09-16T19:32:03.553Z",
+        "action_counter": 219063
       }
     ]
   }
