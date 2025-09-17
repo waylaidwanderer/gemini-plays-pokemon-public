@@ -136,3 +136,17 @@
 # X. Verified Observations
 
 - **Game Corner Clerk Dialogue:** The clerk at (6, 7) will say "You don't have a COIN CASE!" if the player attempts to buy coins without one.
+
+# X. Coin Case Quest - Hypotheses Log
+
+- **Active Hypotheses (from Agent):**
+    - **(Rank 1)** An NPC in the Celadon Diner will trade the COIN CASE for a specific drink from the Celadon Department Store Vending Machines. (Note: Currently untestable as most Diner NPCs are unreachable.)
+    - **(Rank 2)** The COIN CASE is a reward from the Prize Corner clerk in the Game Corner for talking to them before you have any coins.
+    - **(Rank 3)** The COIN CASE is given by an old man in one of Celadon's residential houses after showing him a specific Pokémon he finds interesting.
+    - **(Rank 4)** The COIN CASE is a reward for winning a battle against a specific, non-obvious trainer inside one of Celadon City's buildings.
+- **Failed Hypotheses:**
+    - The COIN CASE is a hidden item in the Game Corner.
+    - The COIN CASE is a hidden item in the Celadon Diner.
+    - An NPC who mentions forgetting their COIN CASE will give it to you.
+    - A random NPC in the Game Corner gives you the COIN CASE.
+    - The Cook in the Celadon Diner gives you the COIN CASE.
