@@ -2,7 +2,7 @@
 
 - **Current Quest: The Mt. Moon Fossil**
     - **Objective:** Find a way past the Rocket Grunt at Mt. Moon B2F (30,12) or the Hiker at 1F (6,7).
-    - **Status:** Active. Pivoting to external investigation after exhausting internal hypotheses.
+    - **Status:** Active. 
 - **Stalled Quest: The Copycat's Gift**
     - **Objective:** Obtain a POKé DOLL and give it to COPYCAT.
     - **Status:** Stalled. All leads in Cerulean City exhausted. Suspect COPYCAT is not in a currently accessible area.
@@ -18,7 +18,6 @@
 - **Shop Menu Navigation Anomaly:** The Cerulean Mart shop menu does not follow a standard grid layout and requires 'B' to exit.
 - **PC Interaction:** The tile for the PC in Pokémon Centers (e.g., Viridian Pokecenter (14,4)) is typed as `grass` in the map data, but it is impassable. Interaction requires standing on the tile directly below it (at (X, Y+1)) and facing up.
 - **Warp Tiles (1x1):** To re-use an instant warp tile after arriving on it, you must first step off the tile and then step back on.
-- **Ledge Traversal:** Moving down onto a ledge tile automatically results in a two-tile jump to the tile below the ledge.
 - **Pikachu Following Mechanic (CRITICAL):** If Pikachu is directly adjacent to the player in the direction of intended movement, AND the player is not already facing Pikachu, the first button press will only turn the player to face Pikachu. A second button press in the same direction is required to move onto Pikachu's tile. This does not apply if the player is already facing Pikachu or if Pikachu is not in the direction of movement.
 - **Pikachu Trap Mechanic:** On Rocket Hideout floors, interacting with a specific Pikachu can trigger a trap that locks the player on an impassable tile. This trap is escaped by pressing the 'B' button.
 
@@ -27,6 +26,9 @@
 - **ground:** Standard walkable tile.
 - **impassable:** A wall or obstacle that cannot be entered.
 - **grass:** Tall grass where wild Pokémon appear. Walkable.
+- **cuttable:** A tree that can be removed with the Cut HM. Respawns on map change.
+- **water:** A body of water that can be crossed with the Surf HM.
+- **ledge:** A one-way drop. Can be jumped down but not climbed up.
 - **spinner_up, spinner_down, spinner_left, spinner_right:** A tile that forces movement in the specified direction. The actual destination of the spinner sequence can be unpredictable and must be verified through experimentation.
 - **spinner_stop:** A safe tile that stops movement from a spinner. These are key strategic points in a spinner maze.
 
@@ -59,16 +61,13 @@
 
 - **PC Mechanics (CRITICAL):** The PC is **stateful**. It remembers the last system accessed (e.g., 'BILL's PC' for Pokémon or 'Gem's PC' for Items). When turning on the PC, it will open directly into the last-used system, bypassing the main selection menu. Any automation tool MUST account for this by having a reset sequence (e.g., pressing 'B' multiple times) to return to a known state before executing commands.
 - **Route 4 Access (CRITICAL):** There are two distinct maps named 'Route 4'. One is west of Mt. Moon (accessible from Route 3) and one is east of Mt. Moon (leading to Cerulean City). The eastern section is a one-way path *from* Mt. Moon, blocking westward travel. They are not directly connected.
-- **Tool Development Philosophy (CRITICAL):** Repeatedly deferred fixing critically flawed tools (`spinner_maze_solver`, `automated_path_navigator`) instead of addressing them immediately. Operated on an untested assumption (PC is stateless) which caused a loop of failures. **Lesson Reinforced:** Broken tools must be fixed *immediately* on the turn the flaw is discovered. This task takes precedence over any in-game action. Procrastination is a critical failure.
+- **Tool Development Philosophy (CRITICAL):** Repeatedly deferred fixing critically flawed tools (`spinner_maze_solver`, `automated_path_navigator`) instead of addressing them immediately. Operated on an untested assumption (PC is stateless) which caused a loop of failures. **Lesson Reinforced:** Broken tools must be fixed *immediately* on the turn the flaw is discovered. This is a non-negotiable directive. Any identified tool flaw or opportunity for significant improvement must be addressed before any other gameplay action.
 - **Confirmation Bias & Over-Correction (CRITICAL):** My handling of the Rocket Hideout B2F maze was a cascade of cognitive errors. First, I incorrectly assumed the solution must be complex, causing me to ignore simple paths. After this was pointed out, I over-corrected and assumed a simple path *must* exist, leading me to hallucinate a non-existent 'eastern corridor' and distrust my tool's more complex (but likely correct) solution. **Lesson:** Do not swing from one bias to another. Trust verifiable data and tool outputs over intuition or narratives. A simple solution is preferable, but not guaranteed. The goal is to find the *correct* solution, regardless of its complexity.
 - **Hypothesis Testing Failure (Preparation):** Arrived at a location to test a hypothesis without the required Pokémon/items/moves. **Lesson:** Always verify party composition and necessary items/moves *before* traveling to a location to test a hypothesis.
 - **Pikachu Following Mechanic (CRITICAL CLARIFICATION):** My previous understanding was incomplete. The 'turn vs. move' mechanic is stateful and depends on the player's current facing direction. A button press in Pikachu's direction will only cause a turn *if the player is not already facing that direction*. Any pathfinding tool for spinner mazes *must* track the player's inferred facing direction based on the last move in the path and add an extra button press for a 'turn' action when required. Failure to do so results in invalid path sequences.
+- **Rocket Hideout Spinner Physics:** All known spinner data for the Rocket Hideout B2F floor has been collected and successfully implemented into the `spinner_maze_solver` tool. The tool is now the source of truth for this information.
 
-# VI. Active Investigations
-
-- **Rocket Hideout B2F Spinner Physics:** All known spinner data for this floor has been collected and successfully implemented into the `spinner_maze_solver` tool. The tool is now the source of truth for this information.
-
-# VII. Fossil Quest - Hypotheses Log
+# VI. Fossil Quest - Hypotheses Log
 
 - **Active Hypotheses (Ranked by Plausibility):**
     - The Rocket Grunt on B2F will only move if presented with the revived DOME fossil Pokémon (Kabuto).
@@ -125,8 +124,7 @@
     - One of the NPCs will react to a specific Pokémon's cry. (Result: Failed. Used Clefable's cry next to the Hiker on 1F and the Rocket Grunt on B2F. Dialogue unchanged in both cases.)
     - There is a hidden switch or item on the floor, possibly revealed by the Itemfinder. (Result: Failed. ITEMFINDER did not respond on B3F.)
 
-# VIII. Strategic Notes & Reminders
+# VII. Strategic Notes & Reminders
 
 - **Agent Utilization:** For complex navigation puzzles like spinner mazes, I must remember to use the `multi_stage_navigator` agent to guide exploration instead of relying on manual trial-and-error. The agent is designed to suggest the most logical next step.
 - **Tool Maintenance Protocol:** Critical tool flaws must be fixed *immediately* upon discovery. Deferring fixes is a critical failure. This includes improving tools that provide poor feedback, like the pathfinder.
-- **Current Plan - Rocket Hideout:** B1F and B4F are dead ends when accessed from the main elevator. The path to the boss must be on B3F. The next step is to return to B3F and find the alternate route to B4F.
