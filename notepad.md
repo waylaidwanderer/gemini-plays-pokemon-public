@@ -116,7 +116,7 @@
     - The NPC Melanie in Cerulean City will have new dialogue if the player has a Bulbasaur in the lead of their party. (Result: Confirmed. Dialogue changed to a single line but did not advance the Copycat quest.)
     - The Hiker will move if spoken to with only one conscious Pokémon in the party. (Result: Failed. Dialogue unchanged.)
 
-# VII. Strategic Notes & Future Ideas
+# VII. Strategic Notes
 
 - **Fossil Quest Strategy:** The Rocket Grunt was a red herring. The solution must involve the Hiker on 1F. I must systematically test my remaining hypotheses on him.
 - **Agent Utilization:** For complex navigation puzzles, I must remember to use the `multi_stage_navigator` agent to guide exploration instead of relying on manual trial-and-error. The agent is designed to suggest the most logical next step. For the Fossil Quest, I must use the `puzzle_hypothesis_generator` agent to generate new ideas instead of relying solely on my own intuition.
