@@ -8,7 +8,7 @@
     - **Status:** Stalled. All leads in Cerulean City exhausted. Suspect COPYCAT is not in a currently accessible area.
 - **Secondary Quest: Rocket Investigation**
     - **Objective:** Investigate Team Rocket locations for clues related to the Mt. Moon blockade.
-    - **Note:** A Rocket on B3F mentioned a LIFT KEY is needed for the elevator. The key is currently in the PC.
+    - **Note:** A Rocket on B3F mentioned a LIFT KEY is needed for the elevator. The key is in the PC, but the Rocket at (11,23) has already been given it (per map marker), while the Rocket at (27,13) still asks for it. This may be a puzzle.
 
 # II. Game Mechanics & World Rules
 
@@ -132,7 +132,7 @@
     - One of the NPCs will react to a specific Pokémon's cry. (Result: Failed. Used Clefable's cry next to the Hiker on 1F and the Rocket Grunt on B2F. Dialogue unchanged in both cases.)
     - There is a hidden switch or item on the floor, possibly revealed by the Itemfinder. (Result: Failed. ITEMFINDER did not respond on B3F.)
 
-# IX. Rocket Hideout B3F Puzzle - Hypotheses Log
+# IX. Rocket Hideout B3F Puzzle - Hypotheses Log (Consolidated)
 
 - **Active Hypotheses (Ranked by Plausibility):**
     - **(Rank 1) Global Floor Trigger:** A path opens only after defeating every Rocket Grunt on B3F.
