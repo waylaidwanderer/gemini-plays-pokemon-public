@@ -19,15 +19,6 @@
 - **PC Interaction:** The PC in Pokémon Centers is interacted with from the tile directly below it (at (X, Y+1)), facing up. The tile itself (e.g., Viridian Pokecenter (14,4)) is impassable despite being typed as `grass`.
 - **Pikachu Trap Mechanic:** On Rocket Hideout floors, interacting with a specific Pikachu can trigger a trap that locks the player on an impassable tile. This trap is escaped by pressing the 'B' button.
 
-# III. Tile Traversal & Movement Rules
-
-- **`ground`, `grass`:** Standard walkable tiles.
-- **`impassable`:** Walls, counters, and other solid objects. Cannot be entered.
-- **`ledge`:** Can only be jumped down from above (Y-1). Acts as a wall from all other directions.
-- **`elevated_ground`:** Walkable ground at a different elevation. Can only be accessed from `steps` tiles, other `elevated_ground` tiles, or warps. Direct movement between `ground` and `elevated_ground` is impossible.
-- **`steps`:** The only tile type that allows movement between `ground` and `elevated_ground`.
-- **Warp Tiles (1x1):** To re-use an instant warp tile after arriving on it, you must first step off the tile and then step back on. Exception: The ladder at Mt. Moon B1F (18,12) required stepping onto an adjacent `elevated_ground` tile at (18,11) and then back down to (18,12) to trigger the warp up.
-
 # IV. Battle Intelligence
 
 - **Type Effectiveness Chart (Verified):**
