@@ -25,10 +25,9 @@
 
 - **ground:** Standard walkable tile.
 - **impassable:** A wall or obstacle that cannot be entered.
-- **spinner_up, spinner_down, spinner_left, spinner_right:** A tile that forces movement in the specified direction.
-- **spinner_stop:** A safe tile that stops movement from a spinner.
-- **spinner_up, spinner_down, spinner_left, spinner_right:** A tile that forces movement in the specified direction.
-- **spinner_stop:** A safe tile that stops movement from a spinner.
+- **grass:** Tall grass where wild Pokémon appear. Walkable.
+- **spinner_up, spinner_down, spinner_left, spinner_right:** A tile that forces movement in the specified direction. The actual destination of the spinner sequence can be unpredictable and must be verified through experimentation.
+- **spinner_stop:** A safe tile that stops movement from a spinner. These are key strategic points in a spinner maze.
 
 # IV. Battle Intelligence
 
@@ -61,7 +60,7 @@
 - **Route 4 Access (CRITICAL):** There are two distinct maps named 'Route 4'. One is west of Mt. Moon (accessible from Route 3) and one is east of Mt. Moon (leading to Cerulean City). The eastern section is a one-way path *from* Mt. Moon, blocking westward travel. They are not directly connected.
 - **External Puzzle Solutions:** After exhausting all internal hypotheses for the Mt. Moon blockade, it's necessary to consider that the solution may require an external trigger, item, or quest flag from another location in the world.
 - **Tool Development Philosophy (CRITICAL):** Repeatedly deferred fixing critically flawed tools (`spinner_maze_solver`, `automated_path_navigator`) instead of addressing them immediately. Operated on an untested assumption (PC is stateless) which caused a loop of failures. **Lesson Reinforced:** Broken tools must be fixed *immediately* on the turn the flaw is discovered. This task takes precedence over any in-game action. Procrastination is a critical failure.
-- **Confirmation Bias & Over-Correction (CRITICAL):** My handling of the Rocket Hideout B3F maze was a cascade of cognitive errors. First, I incorrectly assumed the solution must be complex, causing me to ignore simple paths. After this was pointed out, I over-corrected and assumed a simple path *must* exist, leading me to hallucinate a non-existent 'eastern corridor' and distrust my tool's more complex (but likely correct) solution. **Lesson:** Do not swing from one bias to another. Trust verifiable data and tool outputs over intuition or narratives. A simple solution is preferable, but not guaranteed. The goal is to find the *correct* solution, regardless of its complexity.
+- **Confirmation Bias & Over-Correction (CRITICAL):** My handling of the Rocket Hideout B2F maze was a cascade of cognitive errors. First, I incorrectly assumed the solution must be complex, causing me to ignore simple paths. After this was pointed out, I over-corrected and assumed a simple path *must* exist, leading me to hallucinate a non-existent 'eastern corridor' and distrust my tool's more complex (but likely correct) solution. **Lesson:** Do not swing from one bias to another. Trust verifiable data and tool outputs over intuition or narratives. A simple solution is preferable, but not guaranteed. The goal is to find the *correct* solution, regardless of its complexity.
 - **Hypothesis Testing Failure (Preparation):** Arrived at a location to test a hypothesis without the required Pokémon/items/moves. **Lesson:** Always verify party composition and necessary items/moves *before* traveling to a location to test a hypothesis.
 - **Pikachu Following Mechanic (CRITICAL CLARIFICATION):** My previous understanding was incomplete. The 'turn vs. move' mechanic is stateful and depends on the player's current facing direction. A button press in Pikachu's direction will only cause a turn *if the player is not already facing that direction*. Any pathfinding tool for spinner mazes *must* track the player's inferred facing direction based on the last move in the path and add an extra button press for a 'turn' action when required. Failure to do so results in invalid path sequences.
 
@@ -73,6 +72,7 @@
 
 - **Stuck Navigator Agent Idea:** Create an agent that suggests alternative short-term navigation goals when the player gets stuck in a loop. It could analyze the map for safe, unexplored areas to break the cycle.
 - **Multi-Stage Navigation Agent Idea:** Create an agent to plan a sequence of intermediate goals for complex navigation puzzles like spinner mazes, taking map data and a log of failed paths as input.
+- **Spinner Physics Data Collection:** The `spinner_maze_solver`'s simulation is inaccurate. I need to manually trigger each spinner in this maze and record its actual entry and exit points. This data is required to build a correct physics model and fix the tool.
 
 # VIII. Fossil Quest - Hypotheses Log
 
