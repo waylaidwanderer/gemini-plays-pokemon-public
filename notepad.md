@@ -65,7 +65,7 @@
 # VI. Fossil Quest - Hypotheses Log
 
 - **Active Hypotheses:**
-    - The Rocket Grunt or Hiker will react to the revived *Dome* Fossil Pokémon, Kabuto. (Next to test)
+    - The Rocket Grunt will react to the revived *Dome* Fossil Pokémon, Kabuto. (Result: Failed. Dialogue unchanged, and the path behind him is a confirmed dead end.)
     - The Hiker will move if 'Earthquake' is used in a wild battle adjacent to him.
     - The Hiker will move if spoken to with only one conscious Pokémon in the party.
     - The Hiker requires a monetary payment or will react to the player having zero money.
