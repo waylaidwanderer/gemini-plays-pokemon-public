@@ -68,14 +68,13 @@
 
 - **Rocket Hideout B2F Spinner Physics**
     - **Objective:** Systematically trigger each spinner to map its entry and exit points. This data is required to fix the `spinner_maze_solver` tool.
-    - **Agent-Led Investigation Log (multi_stage_navigator):**
-        - **Destination:** Spinner Stop at (15, 13)
-        - **Sub-goal 1:** Test spinner at (17, 15).
-        - **Result 1:** Confirmed, it leads back to (17, 14). No other effects observed.
     - **Observed Data:**
         - Spinner at (17, 15) [spinner_up] leads to (17, 14).
         - Spinner at (18, 11) [spinner_left] leads to (15, 13).
         - Spinner at (14, 13) [spinner_right] leads back to (15, 13).
+        - Spinner at (14, 11) [spinner_down] leads to (15, 13).
+        - Spinner at (13, 14) [spinner_up] leads to (3, 10).
+        - Spinner at (5, 10) [spinner_left] leads to (3, 10).
 
 # VII. Fossil Quest - Hypotheses Log
 
@@ -133,7 +132,3 @@
     - The Hiker on 1F is the father of the Super Nerd. Defeating the son will make the Hiker move. (Result: Failed. The Super Nerd was already defeated, and the Hiker's dialogue is unchanged.)
     - One of the NPCs will react to a specific Pokémon's cry. (Result: Failed. Used Clefable's cry next to the Hiker on 1F and the Rocket Grunt on B2F. Dialogue unchanged in both cases.)
     - There is a hidden switch or item on the floor, possibly revealed by the Itemfinder. (Result: Failed. ITEMFINDER did not respond on B3F.)
-        - Spinner at (14, 11) [spinner_down] leads to (15, 13).
-        - Spinner at (13, 14) [spinner_up] leads to (3, 10).
-        - Spinner at (13, 14) [spinner_up] leads to (3, 10).
-        - Spinner at (5, 10) [spinner_left] leads to (3, 10).
