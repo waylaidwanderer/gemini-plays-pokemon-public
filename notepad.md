@@ -91,7 +91,7 @@
     - There is a hidden, one-way passage concealed in the western wall on 1F.
     - The Escape Rope item functions differently within Mt. Moon.
     - A rock is a disguised ladder that requires a Clefairy in the party.
-    - The Hiker is thirsty and needs a drink item.
+    - The Hiker is thirsty and needs a drink item. (Result: Failed. Prof. Oak prevents item use.)
     - An un-revived fossil can be acquired by fishing inside Mt. Moon.
     - The Pokémon Tower is a red herring for the fossil quest.
     - Interacting with the second Rocket Grunt on B2F at (30, 18) will open a new path or provide a clue. (Result: Failed.)
@@ -106,6 +106,7 @@
     - The Hiker on 1F is the father of the Super Nerd. Defeating the son will make the Hiker move. (Result: Failed. The Super Nerd was already defeated, and the Hiker's dialogue is unchanged.)
     - One of the NPCs will react to a specific Pokémon's cry. (Result: Failed. Used Clefable's cry next to the Hiker on 1F and the Rocket Grunt on B2F. Dialogue unchanged in both cases.)
     - There is a hidden switch or item on the floor, possibly revealed by the Itemfinder. (Result: Failed. ITEMFINDER did not respond on B3F.)
+    - The Super Nerd's dialogue at 1F (25, 32) has changed. (Result: Failed. Dialogue unchanged.)
 
 # VII. Strategic Notes & Reminders
 
