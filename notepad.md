@@ -126,3 +126,12 @@
 # IX. Cognitive Bias & Self-Correction Log
 
 - **Fossil Quest Confirmation Bias:** I may be too focused on the Hiker at 1F (6,7) being the direct solution. It's possible that an action performed elsewhere on the map (or even in a different location entirely) could trigger him to move. I must remain open to testing hypotheses that are not directly related to interacting with the Hiker himself.
+
+# VIII. Future Tool Ideas
+- An `item_menu_navigator` tool to automatically select a specific item from the inventory, avoiding manual scrolling.
+
+# X. Fossil Quest - New Hypotheses
+- If the Coin Case is not found in the Game Corner, the man at (15,12) may have lost it somewhere else in Celadon City. A city-wide search would be the next step.
+
+# XI. Verified Observations
+- The `grass` tiles inside the Celadon Game Corner are purely decorative and do not trigger wild encounters.
