@@ -8,7 +8,7 @@
     - **Status:** Stalled. All leads in Cerulean City exhausted. Suspect COPYCAT is not in a currently accessible area.
 - **Secondary Quest: Rocket Investigation**
     - **Objective:** Use the LIFT KEY to operate the elevator in the Rocket Hideout.
-    - **Status:** Active. LIFT KEY obtained. Currently navigating the B2F spinner maze to reach the elevator.
+    - **Status:** Active. LIFT KEY obtained. Currently stuck in the B2F spinner maze.
 
 # II. Game Mechanics & World Rules
 
@@ -20,6 +20,7 @@
 - **Warp Tiles (1x1):** To re-use an instant warp tile after arriving on it, you must first step off the tile and then step back on.
 - **Ledge Traversal:** Moving down onto a ledge tile automatically results in a two-tile jump to the tile below the ledge.
 - **Pikachu Following Mechanic (CRITICAL):** If Pikachu is directly adjacent to the player in the direction of intended movement, AND the player is not already facing Pikachu, the first button press will only turn the player to face Pikachu. A second button press in the same direction is required to move onto Pikachu's tile. This does not apply if the player is already facing Pikachu or if Pikachu is not in the direction of movement.
+- **Pikachu Trap Mechanic:** On Rocket Hideout floors, interacting with a specific Pikachu can trigger a trap that locks the player on an impassable tile. This trap is escaped by pressing the 'B' button.
 
 # III. Tile Type Glossary (Observed)
 
@@ -58,23 +59,19 @@
 
 - **PC Mechanics (CRITICAL):** The PC is **stateful**. It remembers the last system accessed (e.g., 'BILL's PC' for Pokémon or 'Gem's PC' for Items). When turning on the PC, it will open directly into the last-used system, bypassing the main selection menu. Any automation tool MUST account for this by having a reset sequence (e.g., pressing 'B' multiple times) to return to a known state before executing commands.
 - **Route 4 Access (CRITICAL):** There are two distinct maps named 'Route 4'. One is west of Mt. Moon (accessible from Route 3) and one is east of Mt. Moon (leading to Cerulean City). The eastern section is a one-way path *from* Mt. Moon, blocking westward travel. They are not directly connected.
-- **External Puzzle Solutions:** After exhausting all internal hypotheses for the Mt. Moon blockade, it's necessary to consider that the solution may require an external trigger, item, or quest flag from another location in the world.
 - **Tool Development Philosophy (CRITICAL):** Repeatedly deferred fixing critically flawed tools (`spinner_maze_solver`, `automated_path_navigator`) instead of addressing them immediately. Operated on an untested assumption (PC is stateless) which caused a loop of failures. **Lesson Reinforced:** Broken tools must be fixed *immediately* on the turn the flaw is discovered. This task takes precedence over any in-game action. Procrastination is a critical failure.
 - **Confirmation Bias & Over-Correction (CRITICAL):** My handling of the Rocket Hideout B2F maze was a cascade of cognitive errors. First, I incorrectly assumed the solution must be complex, causing me to ignore simple paths. After this was pointed out, I over-corrected and assumed a simple path *must* exist, leading me to hallucinate a non-existent 'eastern corridor' and distrust my tool's more complex (but likely correct) solution. **Lesson:** Do not swing from one bias to another. Trust verifiable data and tool outputs over intuition or narratives. A simple solution is preferable, but not guaranteed. The goal is to find the *correct* solution, regardless of its complexity.
 - **Hypothesis Testing Failure (Preparation):** Arrived at a location to test a hypothesis without the required Pokémon/items/moves. **Lesson:** Always verify party composition and necessary items/moves *before* traveling to a location to test a hypothesis.
 - **Pikachu Following Mechanic (CRITICAL CLARIFICATION):** My previous understanding was incomplete. The 'turn vs. move' mechanic is stateful and depends on the player's current facing direction. A button press in Pikachu's direction will only cause a turn *if the player is not already facing that direction*. Any pathfinding tool for spinner mazes *must* track the player's inferred facing direction based on the last move in the path and add an extra button press for a 'turn' action when required. Failure to do so results in invalid path sequences.
 
-# VI. Solved Puzzles
+# VI. Active Investigations
 
-- **Rocket Hideout Spinner Mazes (B2F & B3F):** The mazes are divided into sections. B2F's key is the spinner at (14, 11) to reach the southern section at (15, 13). The Pikachu interactions on both floors are traps that lock the player and must be escaped by pressing 'B'.
+- **Rocket Hideout B2F Spinner Physics**
+    - **Objective:** Systematically trigger each spinner to map its entry and exit points. This data is required to fix the `spinner_maze_solver` tool.
+    - **Observed Data:**
+        - Spinner at (17, 15) [spinner_up] leads to (17, 14).
 
-# VII. Future Development Notes
-
-- **Stuck Navigator Agent Idea:** Create an agent that suggests alternative short-term navigation goals when the player gets stuck in a loop. It could analyze the map for safe, unexplored areas to break the cycle.
-- **Multi-Stage Navigation Agent Idea:** Create an agent to plan a sequence of intermediate goals for complex navigation puzzles like spinner mazes, taking map data and a log of failed paths as input.
-- **Spinner Physics Data Collection:** The `spinner_maze_solver`'s simulation is inaccurate. I need to manually trigger each spinner in this maze and record its actual entry and exit points. This data is required to build a correct physics model and fix the tool.
-
-# VIII. Fossil Quest - Hypotheses Log
+# VII. Fossil Quest - Hypotheses Log
 
 - **Active Hypotheses (Ranked by Plausibility):**
     - The Rocket Grunt on B2F will only move if presented with the revived DOME fossil Pokémon (Kabuto).
@@ -128,20 +125,5 @@
     - The Hiker at 1F (6,7) will approach with a party where all non-fainted members are afflicted with the 'Poison' status condition. (Note: LUNA fainted from poison damage en route.) (Result: Failed. Dialogue unchanged.)
     - Using Selfdestruct on a wall near the Rocket Grunt at B2F (30,12) will create a new passage. (Result: Failed. Used Selfdestruct in a battle adjacent to the wall at (31,12). The wall remained impassable.)
     - The Hiker on 1F is the father of the Super Nerd. Defeating the son will make the Hiker move. (Result: Failed. The Super Nerd was already defeated, and the Hiker's dialogue is unchanged.)
-
-# IX. Fossil Quest - Agent-Generated Hypotheses
-
-- **Active Hypotheses (Ranked by Plausibility):**
-    - The Hiker is not a blocker but a Move Tutor who will teach a unique move. He will only move after teaching the move, which requires the player to have a specific Pokémon (e.g., Geodude, Onix) and an empty move slot in their party.
-    - A visually distinct section of the cave wall, possibly near one of the NPCs, is destructible. Using a Pokémon move like Self-Destruct, Explosion, or Hyper Beam on it will create a new passage, bypassing the blockade.
-    - The Rocket Grunt is waiting for a 'delivery.' You must obtain a specific item from another Team Rocket member somewhere else in the world (e.g., Celadon Game Corner, Silph Co.) and deliver it to this Grunt.
-- **Failed Agent Hypotheses:**
     - One of the NPCs will react to a specific Pokémon's cry. (Result: Failed. Used Clefable's cry next to the Hiker on 1F and the Rocket Grunt on B2F. Dialogue unchanged in both cases.)
     - There is a hidden switch or item on the floor, possibly revealed by the Itemfinder. (Result: Failed. ITEMFINDER did not respond on B3F.)
-
-# X. Spinner Maze Data Collection (Rocket Hideout B2F)
-
-*Objective: Systematically trigger each spinner to map its entry and exit points. This data is required to fix the `spinner_maze_solver` tool.*
-
-**Observed Spinner Physics:**
-- Spinner at (17, 15) [spinner_up] leads to (17, 14).
