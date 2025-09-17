@@ -66,8 +66,7 @@
 
 # VI. Active Investigations
 
-- **Rocket Hideout B2F Spinner Physics**
-    - **Status:** All known spinner data for this floor has been collected and successfully implemented into the `spinner_maze_solver` tool. The tool is now the source of truth for this information.
+- **Rocket Hideout B2F Spinner Physics:** All known spinner data for this floor has been collected and successfully implemented into the `spinner_maze_solver` tool. The tool is now the source of truth for this information.
 
 # VII. Fossil Quest - Hypotheses Log
 
@@ -129,12 +128,3 @@
 # VIII. Future Tool Improvements
 
 - **`spinner_maze_solver` Modularity:** The current implementation hardcodes the spinner map for Rocket Hideout B2F. For future reusability, I should refactor it to accept the spinner map data as an input parameter.
-        - Spinner at (14, 19) [spinner_left] leads to (12, 21).
-
-# IX. Active Data Collection
-
-- **Rocket Hideout B2F Spinner Physics**
-    - Spinner at (11, 20) [spinner_left] leads to (15, 16).
-        - Spinner at (11, 20) [spinner_left] leads to (15, 16).
-        - Spinner at (15, 17) [spinner_down] leads to (15, 16).
-        - Spinner at (15, 17) [spinner_down] leads to (15, 16).
