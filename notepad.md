@@ -129,3 +129,4 @@
 # VIII. Future Tool Improvements
 
 - **`spinner_maze_solver` Modularity:** The current implementation hardcodes the spinner map for Rocket Hideout B2F. For future reusability, I should refactor it to accept the spinner map data as an input parameter.
+        - Spinner at (14, 19) [spinner_left] leads to (12, 21).
