@@ -69,7 +69,7 @@
 # VI. Fossil Quest - Hypotheses Log
 
 - **Active Hypotheses:**
-    - The Hiker will move if 'Earthquake' is used in a wild battle adjacent to him.
+    - The Hiker will move if 'Earthquake' is used in a wild battle adjacent to him. (Result: Failed. Used Earthquake in a battle next to the Hiker. Dialogue unchanged.)
     - The Hiker will move if spoken to with only one conscious Pokémon in the party.
     - The Hiker requires a monetary payment or will react to the player having zero money.
     - The 'fossil' the Rocket Grunt wants is a Pokémon Egg.
