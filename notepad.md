@@ -49,20 +49,19 @@
 
 - **PC Mechanics (CRITICAL):** The PC is **stateful**. It remembers the last system accessed (e.g., 'BILL's PC' for Pokémon or 'Gem's PC' for Items). When turning on the PC, it will open directly into the last-used system, bypassing the main selection menu. Any automation tool MUST account for this by having a reset sequence (e.g., pressing 'B' multiple times) to return to a known state before executing commands.
 - **Route 4 Access (CRITICAL):** There are two distinct maps named 'Route 4'. One is west of Mt. Moon (accessible from Route 3) and one is east of Mt. Moon (leading to Cerulean City). The eastern section is a one-way path *from* Mt. Moon, blocking westward travel. They are not directly connected.
-- **Tool Development Philosophy (CRITICAL):** Repeatedly deferred fixing critically flawed tools (`spinner_maze_solver`, `automated_path_navigator`) instead of addressing them immediately. Operated on an untested assumption (PC is stateless) which caused a loop of failures. **Lesson Reinforced:** Broken tools must be fixed *immediately* on the turn the flaw is discovered. This is a non-negotiable directive. Any identified tool flaw or opportunity for significant improvement must be addressed before any other gameplay action.
+- **Tool Development Philosophy (CRITICAL):** Repeatedly deferred fixing critically flawed tools instead of addressing them immediately. Operated on an untested assumption (PC is stateless) which caused a loop of failures. **Lesson Reinforced:** Broken tools must be fixed *immediately* on the turn the flaw is discovered. This is a non-negotiable directive. Any identified tool flaw or opportunity for significant improvement must be addressed before any other gameplay action.
 - **Confirmation Bias & Over-Correction (CRITICAL):** My handling of the Rocket Hideout B2F maze was a cascade of cognitive errors. First, I incorrectly assumed the solution must be complex, causing me to ignore simple paths. After this was pointed out, I over-corrected and assumed a simple path *must* exist, leading me to hallucinate a non-existent 'eastern corridor' and distrust my tool's more complex (but likely correct) solution. **Lesson:** Do not swing from one bias to another. Trust verifiable data and tool outputs over intuition or narratives. A simple solution is preferable, but not guaranteed. The goal is to find the *correct* solution, regardless of its complexity.
 - **Hypothesis Testing Failure (Preparation):** Arrived at a location to test a hypothesis without the required Pokémon/items/moves. **Lesson:** Always verify party composition and necessary items/moves *before* traveling to a location to test a hypothesis.
 - **Pikachu Following Mechanic (CRITICAL CLARIFICATION):** My previous understanding was incomplete. The 'turn vs. move' mechanic is stateful and depends on the player's current facing direction. A button press in Pikachu's direction will only cause a turn *if the player is not already facing that direction*. Any pathfinding tool for spinner mazes *must* track the player's inferred facing direction based on the last move in the path and add an extra button press for a 'turn' action when required. Failure to do so results in invalid path sequences.
-- **Rocket Hideout Spinner Physics:** All known spinner data for the Rocket Hideout B2F floor has been collected. The `spinner_maze_solver` tool was the source of truth for this information before its deletion.
+- **Rocket Hideout Spinner Physics:** All known spinner data for the Rocket Hideout B2F floor has been collected.
 
 # VI. Fossil Quest - Hypotheses Log
 
 - **Active Hypotheses (Ranked by Plausibility):**
     - 1. The Hiker will move after all Team Rocket members within Mt. Moon have been defeated.
-    - 2. The Hiker is looking for a Moon Stone and will move if the player has one in their inventory when they speak to him.
-    - 3. The Hiker will move if the player uses an Escape Rope in the tile directly adjacent to him.
-    - 4. Evolve a Clefairy into a Clefable (using a Moon Stone) in front of the Hiker.
-    - 5. The Hiker will move if the player has registered a certain number of Pokémon (e.g., 20) in their Pokédex.
+    - 2. The Hiker will move if the player uses an Escape Rope in the tile directly adjacent to him.
+    - 3. Evolve a Clefairy into a Clefable (using a Moon Stone) in front of the Hiker.
+    - 4. The Hiker will move if the player has registered a certain number of Pokémon (e.g., 20) in their Pokédex.
 - **Failed Hypotheses:**
     - The Geodude will move if a Geodude uses Self-Destruct in battle against him. (Result: Failed. The Grunt is not a trainer and cannot be battled.)
     - The Hiker at 1F (6,7) has lost an item. Using the Itemfinder near him will reveal a hidden item which, when returned, will make him move. (Result: Failed. Itemfinder did not respond.)
@@ -105,9 +104,9 @@
     - One of the NPCs will react to a specific Pokémon's cry. (Result: Failed. Used Clefable's cry next to the Hiker on 1F and the Rocket Grunt on B2F. Dialogue unchanged in both cases.)
     - There is a hidden switch or item on the floor, possibly revealed by the Itemfinder. (Result: Failed. ITEMFINDER did not respond on B3F.)
     - The Super Nerd's dialogue at 1F (25, 32) has changed. (Result: Failed. Dialogue unchanged.)
+    - The Hiker is looking for a Moon Stone and will move if the player has one in their inventory when they speak to him. (Result: Failed. Dialogue unchanged.)
 
 # VII. Strategic Notes & Reminders
 
 - **Agent Utilization:** For complex navigation puzzles, I must remember to use the `multi_stage_navigator` agent to guide exploration instead of relying on manual trial-and-error. The agent is designed to suggest the most logical next step.
 - **Tool Maintenance Protocol:** Critical tool flaws must be fixed *immediately* upon discovery. Deferring fixes is a critical failure. This includes improving tools that provide poor feedback, like the pathfinder.
-    - The Hiker is looking for a Moon Stone and will move if the player has one in their inventory when they speak to him. (Result: Failed. Dialogue unchanged.)
