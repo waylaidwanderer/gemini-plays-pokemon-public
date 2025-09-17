@@ -1012,33 +1012,6 @@
       }
     ]
   },
-  "fly_navigator": {
-    "description": "Automates selecting a destination from the Fly menu. Takes a city name and outputs the necessary button presses. Must be called with autopress_buttons: true.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "destination_city": {
-          "type": "string"
-        }
-      },
-      "required": [
-        "destination_city"
-      ]
-    },
-    "python_script": "import json\n\ndestination = input_data['destination_city']\n\n# Standard Pokedex order for cities. Assumes starting position is PALLET TOWN.\nfly_destinations = [\n    \"PALLET TOWN\",\n    \"VIRIDIAN CITY\",\n    \"PEWTER CITY\",\n    \"CERULEAN CITY\",\n    \"LAVENDER TOWN\",\n    \"VERMILION CITY\",\n    \"CELADON CITY\",\n    \"FUCHSIA CITY\",\n    \"CINNABAR ISLAND\",\n    \"INDIGO PLATEAU\",\n    \"SAFFRON CITY\"\n]\n\ntry:\n    index = fly_destinations.index(destination.upper())\nexcept ValueError:\n    print(json.dumps([])) # Return empty list if city not found\nelse:\n    buttons = [\"Down\"] * index\n    buttons.append(\"A\")\n    print(json.dumps(buttons))",
-    "history": [
-      {
-        "commit_message": "feat: Create fly_navigator tool. This tool automates the process of selecting a destination from the Fly menu, addressing a key efficiency issue identified by overwatch. It takes a city name, calculates the required 'Down' presses from the default position, and outputs a JSON array of button presses compatible with the `autopress_buttons` feature.",
-        "timestamp": "2025-09-17T17:55:34.817Z",
-        "action_counter": 221154
-      },
-      {
-        "commit_message": "feat: Create fly_navigator tool. This tool automates the process of selecting a destination from the Fly menu, addressing a key efficiency issue identified by overwatch. It takes a city name, calculates the required 'Down' presses from the default position, and outputs a JSON array of button presses compatible with the `autopress_buttons` feature.",
-        "timestamp": "2025-09-17T21:58:18.783Z",
-        "action_counter": 221602
-      }
-    ]
-  },
   "pc_navigator": {
     "description": "Automates PC interactions. Starts with a reset sequence to handle the PC's statefulness. Takes an action ('deposit' or 'withdraw') and a party slot or Pokémon name as input.",
     "input_schema": {
@@ -1065,6 +1038,32 @@
         "commit_message": "feat: Create pc_navigator tool for automation. This initial version handles the 'deposit' action. It includes a critical 'B' button reset sequence to manage the PC's stateful nature, preventing common interaction failures. This is a high-priority tool to improve efficiency.",
         "timestamp": "2025-09-17T22:08:37.743Z",
         "action_counter": 221629
+      }
+    ]
+  },
+  "item_menu_navigator": {
+    "description": "Automates selecting a specific item from the inventory menu. Takes an item name and the full screen text of the item menu as input, and returns a JSON array of button presses. Must be called with `autopress_buttons: true`.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "item_name": {
+          "type": "string"
+        },
+        "screen_text": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "item_name",
+        "screen_text"
+      ]
+    },
+    "python_script": "import json\nimport re\n\nitem_name_to_find = input_data['item_name']\nscreen_text = input_data['screen_text']\n\nlines = screen_text.split('\\n')\nitems = []\ncursor_pos = -1\n\nitem_list_started = False\ncancel_found = False\nfor i, line in enumerate(lines):\n    # Find the start of the list, which is usually the first item with a quantity\n    if not item_list_started and 'x' in line and re.search(r'\\d', line):\n        item_list_started = True\n\n    if item_list_started and not cancel_found:\n        is_cursor_line = line.strip().startswith('→')\n        cleaned_line = line.replace('→', '').strip()\n        \n        if 'CANCEL' in cleaned_line:\n            cancel_found = True\n            continue\n\n        match = re.match(r'([A-Za-z\\s\\.\\-]+)', cleaned_line)\n        if match:\n            item = match.group(1).strip()\n            if item:\n                items.append(item)\n                if is_cursor_line:\n                    cursor_pos = len(items) - 1\n\ntry:\n    target_pos = items.index(item_name_to_find)\nexcept ValueError:\n    print(json.dumps([]))\n    exit()\n\nif cursor_pos == -1:\n    print(json.dumps([]))\n    exit()\n\nmoves = []\ndiff = target_pos - cursor_pos\n\nif diff > 0:\n    for _ in range(diff):\n        moves.append(\"Down\")\nelif diff < 0:\n    for _ in range(abs(diff)):\n        moves.append(\"Up\")\n\nmoves.append(\"A\")\n\nprint(json.dumps(moves))",
+    "history": [
+      {
+        "commit_message": "feat: Create item_menu_navigator tool. This tool automates item selection from the inventory, addressing a critical efficiency issue identified by overwatch. It parses screen text to locate the target item and calculates the necessary button presses.",
+        "timestamp": "2025-09-17T22:38:29.396Z",
+        "action_counter": 221701
       }
     ]
   }

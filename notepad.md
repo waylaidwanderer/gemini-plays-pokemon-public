@@ -21,7 +21,6 @@
 # III. Observed Tile Mechanics
 
 - **PC Interaction Tile:** The PC in Pokémon Centers is interacted with from the tile directly below it (at (X, Y+1)), facing up. The tile the PC is on is impassable.
-- **Decorative Grass:** The `grass` tiles inside the Celadon Game Corner are purely decorative and do not trigger wild encounters.
 
 # IV. Battle Intelligence
 
