@@ -20,26 +20,6 @@
 - **Warp Tiles (1x1):** To re-use an instant warp tile after arriving on it, you must first step off the tile and then step back on.
 - **Pikachu Trap Mechanic:** On Rocket Hideout floors, interacting with a specific Pikachu can trigger a trap that locks the player on an impassable tile. This trap is escaped by pressing the 'B' button.
 
-# III. Tile Mechanics
-
-- **`ground`**: Walkable tile.
-- **`grass`**: Walkable tile with wild Pokémon encounters.
-- **`impassable`**: Walls, rocks, etc. Cannot be entered.
-- **`ledge`**: Can be jumped down, but not climbed up.
-- **`steps`**: Allows movement between `ground` and `elevated_ground`.
-- **`elevated_ground`**: Walkable ground at a different elevation.
-- **`ladder_up`**: Warps to a higher floor.
-- **`ladder_down`**: Warps to a lower floor.
-- **`spinner_up`, `spinner_down`, `spinner_left`, `spinner_right`**: Forces movement in the specified direction.
-- **`spinner_stop`**: Tile that stops spinner movement.
-- **`cuttable`**: Tree that can be cut with HM Cut.
-- **`water`**: Crossable using HM Surf.
-- **`teleport`**: Instant warp tile.
-- **`hole`**: Warps to a lower map area.
-- **`closed_gate`**: An impassable gate.
-- **`open_gate`**: A passable gate.
-- **`gate_offscreen`**: A gate whose state is unknown.
-
 # IV. Battle Intelligence
 
 - **Type Effectiveness Chart (Verified):**
