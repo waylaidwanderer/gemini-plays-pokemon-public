@@ -16,20 +16,10 @@
 - **Battle Menu Anomaly:** The game appears to intentionally restrict move selection in certain wild battles to the first move slot.
 - **Party Menu 'SWITCH' Lock:** The game can prevent using the 'SWITCH' command in the party menu, observed after multiple failed escape attempts.
 - **Shop Menu Navigation Anomaly:** The Cerulean Mart shop menu does not follow a standard grid layout and requires 'B' to exit.
-
-### Movement & Interaction
 - **PC Interaction:** The tile for the PC in Pokémon Centers (e.g., Viridian Pokecenter (14,4)) is typed as `grass` in the map data, but it is impassable. Interaction requires standing on the tile directly below it (at (X, Y+1)) and facing up.
 - **Warp Tiles (1x1):** To re-use an instant warp tile after arriving on it, you must first step off the tile and then step back on.
 - **Ledge Traversal:** Moving down onto a ledge tile automatically results in a two-tile jump to the tile below the ledge.
-- **Pikachu Following Mechanic (CRITICAL):** If Pikachu is directly adjacent to the player in the direction of intended movement, the first button press will only turn the player to face Pikachu. A second button press in the same direction is required to move onto Pikachu's tile. This does not apply if the player is already facing Pikachu.
-
-### Tile-Specific Rules
-- **`ground`, `grass`:** Standard walkable tiles.
-- **`impassable`:** Walls, objects, and other barriers. Cannot be entered.
-- **`spinner_...`:** Directional spinner tiles that force movement until an obstacle is hit.
-- **`spinner_stop`:** A safe tile that halts all momentum from a spinner chain.
-- **`closed_gate`:** An impassable gate that is currently visible on the screen. Pathfinding treats this as a wall.
-- **`gate_offscreen`:** A gate (either open or closed) that is not currently visible. Pathfinding optimistically treats this as open to encourage exploration.
+- **Pikachu Following Mechanic (CRITICAL):** If Pikachu is directly adjacent to the player in the direction of intended movement, AND the player is not already facing Pikachu, the first button press will only turn the player to face Pikachu. A second button press in the same direction is required to move onto Pikachu's tile. This does not apply if the player is already facing Pikachu or if Pikachu is not in the direction of movement.
 
 # III. Battle Intelligence
 
@@ -71,7 +61,7 @@
 
 # VI. Future Development Notes
 
-- Refine `spinner_maze_solver` to account for player facing direction, as it currently generates invalid paths when a 'turn' action is required before a 'move' action (e.g., when adjacent to Pikachu).
+- **Stuck Navigator Agent Idea:** Create an agent that suggests alternative short-term navigation goals when the player gets stuck in a loop. It could analyze the map for safe, unexplored areas to break the cycle.
 
 # VII. Fossil Quest - Hypotheses Log
 
