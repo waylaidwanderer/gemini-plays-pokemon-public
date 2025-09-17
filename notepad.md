@@ -1,19 +1,23 @@
-# I. Quest Log
+# I. Active Quests
 
 - **Current Quest: The Mt. Moon Fossil**
     - **Objective:** Find a way past the Hiker at 1F (6,7).
     - **Status:** Active. 
-- **Current Quest: The Coin Case**
-    - **Objective:** Obtain a COIN CASE to play games at the Celadon Game Corner.
-    - **Status:** Active. All NPCs in the Game Corner mention needing one.
 - **Stalled Quest: The Copycat's Gift**
     - **Objective:** Obtain a POKé DOLL and give it to COPYCAT.
     - **Status:** Active. All leads in Cerulean City exhausted for now.
-- **Completed Quest: Rocket Investigation**
+
+# II. Completed Quests
+
+- **Quest: Rocket Investigation**
     - **Objective:** Use the LIFT KEY to operate the elevator in the Rocket Hideout.
     - **Status:** Completed. Defeated Giovanni and dismantled the operation.
+- **Quest: The Coin Case**
+    - **Objective:** Obtain a COIN CASE to play games at the Celadon Game Corner.
+    - **Status:** Completed.
+    - **Solution:** The Gym Guide NPC at (1, 2) in the Celadon Diner gives the player the COIN CASE. He mentions he is giving up gambling after losing everything at the slots, a fact corroborated by the Fisher NPC in the same room.
 
-# II. Game Mechanics & World Rules
+# III. Game Mechanics & World Rules
 
 - **POKé DOLL Escape:** A POKé DOLL can be used to guarantee an escape from a wild Pokémon battle.
 - **Battle Menu Anomaly:** The game appears to intentionally restrict move selection in certain wild battles to the first move slot.
@@ -21,12 +25,13 @@
 - **Shop Menu Navigation Anomaly:** The Cerulean Mart shop menu does not follow a standard grid layout and requires 'B' to exit.
 - **Pikachu Trap Mechanic:** On Rocket Hideout floors, interacting with a specific Pikachu can trigger a trap that locks the player on an impassable tile. This trap is escaped by pressing the 'B' button.
 
-# III. Observed Tile Mechanics
+# IV. Observed Tile Mechanics
 
 - **PC Interaction Tile:** The PC in Pokémon Centers is interacted with from the tile directly below it (at (X, Y+1)), facing up. The tile the PC is on is impassable.
 - **Game Corner Grass Tiles:** The decorative `grass` tiles inside the Celadon Game Corner are generally traversable. However, a move from a `ground` tile at (8, 7) to a `grass` tile at (8, 6) was inexplicably blocked once. A subsequent test moving from (9, 7) to (9, 6) was successful. The exact condition for the blockage is unknown and requires further investigation.
+- **Celadon Diner Counters:** The `impassable` counter tiles in the Celadon Diner create partitions, making large sections of the room inaccessible from the entrance.
 
-# IV. Battle Intelligence
+# V. Battle Intelligence
 
 - **Type Effectiveness Chart (Verified):**
     - Water > Rock/Ground
@@ -51,7 +56,7 @@
     - **Chansey:** REFLECT, EGG BOMB.
     - **Sandshrew (Wild, Mt. Moon):** SCRATCH, POISON STING.
 
-# V. Key Discoveries & Lessons Learned
+# VI. Key Discoveries & Lessons Learned
 
 - **Tool Deferral Failure (CRITICAL):** Repeatedly deferred the creation of necessary tools (e.g., `item_menu_navigator`, `area_searcher`) by listing them as 'Future Tool Ideas' instead of building them immediately upon identifying the need. This is a critical inefficiency and a violation of core directives. **Lesson Reinforced:** If a repetitive manual task can be automated, or a complex reasoning task can be delegated, building a tool or agent for it is the highest priority. Deferring tool creation is a critical failure.
 - **PC Mechanics (CRITICAL):** The PC is **stateful**. It remembers the last system accessed (e.g., 'BILL's PC' for Pokémon or 'Gem's PC' for Items). When turning on the PC, it will open directly into the last-used system, bypassing the main selection menu. Any automation tool MUST account for this by having a reset sequence (e.g., pressing 'B' multiple times) to return to a known state before executing commands.
@@ -61,7 +66,7 @@
 - **Pikachu Following Mechanic (CRITICAL CLARIFICATION):** My previous understanding was incomplete. The 'turn vs. move' mechanic is stateful and depends on the player's current facing direction. A button press in Pikachu's direction will only cause a turn *if the player is not already facing that direction*. Any pathfinding tool for spinner mazes *must* track the player's inferred facing direction based on the last move in the path and add an extra button press for a 'turn' action when required. Failure to do so results in invalid path sequences.
 - **Rocket Hideout Spinner Physics:** All known spinner data for the Rocket Hideout B2F floor has been collected.
 
-# VI. Fossil Quest - Hypotheses Log
+# VII. Fossil Quest - Hypotheses Log
 
 - **Active Hypotheses:**
     - **(Agent Hypothesis #1)** The Rocket Grunt on B2F wants one of the un-revived fossil items (Helix or Dome Fossil) directly, before it has been revived at the Cinnabar Lab.
@@ -118,36 +123,17 @@
     - The NPC Melanie in Cerulean City will have new dialogue if the player has a Bulbasaur in the lead of their party. (Result: Confirmed. Dialogue changed to a single line but did not advance the Copycat quest.)
     - The Hiker will move if spoken to with only one conscious Pokémon in the party. (Result: Failed. Dialogue unchanged.)
 
-# VII. Strategic Notes
+# VIII. Strategic Notes
 
 - **Fossil Quest Strategy:** The Rocket Grunt was a red herring. The solution must involve the Hiker on 1F. I must systematically test my remaining hypotheses on him.
 - **Agent Utilization:** For complex navigation puzzles, I must remember to use the `multi_stage_navigator` agent to guide exploration instead of relying on manual trial-and-error. The agent is designed to suggest the most logical next step. For the Fossil Quest, I must use the `puzzle_hypothesis_generator` agent to generate new ideas instead of relying solely on my own intuition.
 - **Tool Maintenance Protocol:** Critical tool flaws must be fixed *immediately* upon discovery. Deferring fixes is a critical failure. This includes improving tools that provide poor feedback, like the pathfinder.
 - **`autopress_buttons` Flag (CRITICAL):** The `automated_battle_move_selector` tool outputs a sequence of button presses (e.g., `["Down", "A"]`). For this sequence to execute correctly without being truncated by the system, the `autopress_buttons: true` flag MUST be set when calling the tool. Failure to do so results in only the first button press being executed, causing battle automation to fail.
 
-# VIII. Cognitive Bias & Self-Correction Log
+# IX. Cognitive Bias & Self-Correction Log
 
 - **Fossil Quest Confirmation Bias:** I may be too focused on the Hiker at 1F (6,7) being the direct solution. It's possible that an action performed elsewhere on the map (or even in a different location entirely) could trigger him to move. I must remain open to testing hypotheses that are not directly related to interacting with the Hiker himself.
-
-# IX. Fossil Quest - New Hypotheses
-
-- If the Coin Case is not found in the Game Corner, the man at (15,12) may have lost it somewhere else in Celadon City. A city-wide search would be the next step.
 
 # X. Verified Observations
 
 - **Game Corner Clerk Dialogue:** The clerk at (6, 7) will say "You don't have a COIN CASE!" if the player attempts to buy coins without one.
-
-# X. Coin Case Quest - Hypotheses Log
-
-- **Active Hypotheses (from Agent):**
-    - **(Rank 1)** An NPC in the Celadon Diner will trade the COIN CASE for a specific drink from the Celadon Department Store Vending Machines. (Note: Currently untestable as most Diner NPCs are unreachable.)
-    - **(Rank 3)** The COIN CASE is given by an old man in one of Celadon's residential houses after showing him a specific Pokémon he finds interesting.
-    - **(Rank 4)** The COIN CASE is a reward for winning a battle against a specific, non-obvious trainer inside one of Celadon City's buildings.
-- **Failed Hypotheses:**
-    - The COIN CASE is a hidden item in the Game Corner.
-    - The COIN CASE is a hidden item in the Celadon Diner.
-    - An NPC who mentions forgetting their COIN CASE will give it to you.
-    - A random NPC in the Game Corner gives you the COIN CASE.
-    - The Cook in the Celadon Diner gives you the COIN CASE.
-    - The COIN CASE is a reward from the Prize Corner clerk in the Game Corner for talking to them before you have any coins.
-- **Celadon Diner Counters:** The `impassable` counter tiles in the Celadon Diner create partitions, making large sections of the room inaccessible from the entrance.
