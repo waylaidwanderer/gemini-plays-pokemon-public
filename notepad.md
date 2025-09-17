@@ -8,7 +8,7 @@
     - **Status:** Stalled. All leads in Cerulean City exhausted. Suspect COPYCAT is not in a currently accessible area.
 - **Secondary Quest: Rocket Investigation**
     - **Objective:** Retrieve the LIFT KEY from a PC and use it to operate the elevator in the Rocket Hideout.
-    - **Note:** The LIFT KEY is confirmed to be in the PC storage. The puzzle is to exit the hideout, retrieve the key, and then give it to the correct Rocket to operate the elevator.
+    - **Note:** The LIFT KEY is confirmed to be in the PC storage. The Rocket at (27,13) on B3F mentioned it is needed for the elevator. The puzzle is to exit the hideout, retrieve the key, and return.
 
 # II. Game Mechanics & World Rules
 
