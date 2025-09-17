@@ -150,3 +150,4 @@
     - A random NPC in the Game Corner gives you the COIN CASE.
     - The Cook in the Celadon Diner gives you the COIN CASE.
     - The COIN CASE is a reward from the Prize Corner clerk in the Game Corner for talking to them before you have any coins.
+- **Celadon Diner Counters:** The `impassable` counter tiles in the Celadon Diner create partitions, making large sections of the room inaccessible from the entrance.
