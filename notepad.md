@@ -144,3 +144,4 @@
 *Objective: Systematically trigger each spinner to map its entry and exit points. This data is required to fix the `spinner_maze_solver` tool.*
 
 **Observed Spinner Physics:**
+- Spinner at (17, 15) [spinner_up] leads to (17, 14).
