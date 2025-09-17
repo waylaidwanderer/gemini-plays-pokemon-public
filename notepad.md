@@ -16,8 +16,12 @@
 - **Battle Menu Anomaly:** The game appears to intentionally restrict move selection in certain wild battles to the first move slot.
 - **Party Menu 'SWITCH' Lock:** The game can prevent using the 'SWITCH' command in the party menu, observed after multiple failed escape attempts.
 - **Shop Menu Navigation Anomaly:** The Cerulean Mart shop menu does not follow a standard grid layout and requires 'B' to exit.
-- **PC Interaction:** The PC in Pokémon Centers is interacted with from the tile directly below it (at (X, Y+1)), facing up. The tile itself (e.g., Viridian Pokecenter (14,4)) is impassable despite being typed as `grass`.
 - **Pikachu Trap Mechanic:** On Rocket Hideout floors, interacting with a specific Pikachu can trigger a trap that locks the player on an impassable tile. This trap is escaped by pressing the 'B' button.
+
+# III. Observed Tile Mechanics
+
+- **PC Interaction Tile:** The PC in Pokémon Centers is interacted with from the tile directly below it (at (X, Y+1)), facing up. The tile the PC is on is impassable.
+- **Decorative Grass:** The `grass` tiles inside the Celadon Game Corner are purely decorative and do not trigger wild encounters.
 
 # IV. Battle Intelligence
 
@@ -117,8 +121,6 @@
 - **Fossil Quest Strategy:** The Rocket Grunt was a red herring. The solution must involve the Hiker on 1F. I must systematically test my remaining hypotheses on him.
 - **Agent Utilization:** For complex navigation puzzles, I must remember to use the `multi_stage_navigator` agent to guide exploration instead of relying on manual trial-and-error. The agent is designed to suggest the most logical next step. For the Fossil Quest, I must use the `puzzle_hypothesis_generator` agent to generate new ideas instead of relying solely on my own intuition.
 - **Tool Maintenance Protocol:** Critical tool flaws must be fixed *immediately* upon discovery. Deferring fixes is a critical failure. This includes improving tools that provide poor feedback, like the pathfinder.
-- **Future Tool Idea: PC Navigator (High Priority):** Create a tool to automate PC interactions. 
-    - **Plan:** The tool must be robust enough to handle the PC's stateful nature. It should begin every execution with a 'reset sequence' (e.g., pressing 'B' three times) to return to a known, predictable state (the overworld). From there, it can reliably execute a sequence of button presses to navigate menus. It will take 'action' (withdraw/deposit) and 'pokemon_name' as parameters.
 - **`autopress_buttons` Flag (CRITICAL):** The `automated_battle_move_selector` tool outputs a sequence of button presses (e.g., `["Down", "A"]`). For this sequence to execute correctly without being truncated by the system, the `autopress_buttons: true` flag MUST be set when calling the tool. Failure to do so results in only the first button press being executed, causing battle automation to fail.
 
 # IX. Cognitive Bias & Self-Correction Log
