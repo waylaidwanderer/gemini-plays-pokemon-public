@@ -135,3 +135,4 @@
     - There is a hidden switch or item on the floor, possibly revealed by the Itemfinder. (Result: Failed. ITEMFINDER did not respond on B3F.)
         - Spinner at (14, 11) [spinner_down] leads to (15, 13).
         - Spinner at (13, 14) [spinner_up] leads to (3, 10).
+        - Spinner at (13, 14) [spinner_up] leads to (3, 10).
