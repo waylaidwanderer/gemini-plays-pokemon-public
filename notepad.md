@@ -63,8 +63,6 @@
     - 3. The Hiker will move if the player uses an Escape Rope in the tile directly adjacent to him.
     - 4. Evolve a Clefairy into a Clefable (using a Moon Stone) in front of the Hiker.
     - 5. The Hiker will move if the player has registered a certain number of Pokémon (e.g., 20) in their Pokédex.
-    - 6. The Rocket Grunt on B2F will only move if presented with the revived DOME fossil Pokémon (Kabuto).
-    - 7. The Rocket Grunt on B2F or the Hiker on 1F wants the un-revived fossil ITEM, not the revived Pokémon.
 - **Failed Hypotheses:**
     - The Geodude will move if a Geodude uses Self-Destruct in battle against him. (Result: Failed. The Grunt is not a trainer and cannot be battled.)
     - The Hiker at 1F (6,7) has lost an item. Using the Itemfinder near him will reveal a hidden item which, when returned, will make him move. (Result: Failed. Itemfinder did not respond.)
