@@ -8,7 +8,7 @@
     - **Status:** Stalled. All leads in Cerulean City exhausted. Suspect COPYCAT is not in a currently accessible area.
 - **Secondary Quest: Rocket Investigation**
     - **Objective:** Investigate Team Rocket locations for clues related to the Mt. Moon blockade.
-    - **Note:** A Rocket on B3F mentioned a LIFT KEY is needed for the elevator. The key is in the PC, but the Rocket at (11,23) has already been given it (per map marker), while the Rocket at (27,13) still asks for it. This may be a puzzle.
+    - **Note:** A Rocket on B3F mentioned a LIFT KEY is needed for the elevator. Its location is unconfirmed; the key is not in my inventory or the PC. A map marker at (11,23) indicates the key was given, but the Rocket at (27,13) still asks for it. This is an unsolved puzzle.
 
 # II. Game Mechanics & World Rules
 
