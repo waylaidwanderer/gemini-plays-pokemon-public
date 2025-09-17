@@ -75,6 +75,7 @@
     - **Observed Data:**
         - Spinner at (17, 15) [spinner_up] leads to (17, 14).
         - Spinner at (18, 11) [spinner_left] leads to (15, 13).
+        - Spinner at (14, 13) [spinner_right] leads back to (15, 13).
 
 # VII. Fossil Quest - Hypotheses Log
 
