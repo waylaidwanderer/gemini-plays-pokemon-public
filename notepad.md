@@ -66,7 +66,7 @@
 
 # VI. Future Development Notes
 
-- Refine `spinner_maze_solver` to correctly handle Pikachu movement mechanics, as it currently generates invalid paths when Pikachu is adjacent.
+- Refine `spinner_maze_solver` to account for player facing direction, as it currently generates invalid paths when a 'turn' action is required before a 'move' action (e.g., when adjacent to Pikachu).
 
 # VII. Fossil Quest - Hypotheses Log
 
