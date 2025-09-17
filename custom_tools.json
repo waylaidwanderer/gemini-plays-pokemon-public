@@ -1164,7 +1164,7 @@
   "pc_deposit_lead": {
     "description": "Automates depositing the lead Pokémon into the PC. Must be standing in front of the PC. Must be called with autopress_buttons: true.",
     "input_schema": {},
-    "python_script": "import json\n# This script assumes the player is standing one tile below the PC, facing up.\n# It includes a reset sequence to handle the PC's stateful nature.\n\n# B, B, B: Reset sequence to exit any menu and return to a known state (overworld).\n# A: Turn on PC.\n# A: Select 'BILL'S PC' (assuming it's the first option).\n# Down: Move cursor to 'DEPOSIT PKMN'.\n# A: Select 'DEPOSIT PKMN'.\n# A: Select the lead Pokémon (cursor defaults to the first slot).\n# A: Confirm deposit.\n# B, B, B: Exit PC menu fully.\nbuttons = ['B', 'B', 'B', 'A', 'A', 'Down', 'A', 'A', 'A', 'B', 'B', 'B']\nprint(json.dumps(buttons))",
+    "python_script": "import json\n\nbuttons = [\n    \"B\", \"B\", \"B\",  # Reset sequence to exit any menu\n    \"A\",             # Turn on PC\n    \"A\",             # Select BILL's PC\n    \"A\",             # Acknowledge 'Accessed' message\n    \"Down\",          # Move to DEPOSIT PKMN\n    \"A\",             # Select DEPOSIT PKMN\n    \"A\",             # Select lead PKMN (default cursor position)\n    \"A\",             # Select DEPOSIT on sub-menu\n    \"A\"              # Acknowledge 'was stored' message\n]\n\nprint(json.dumps(buttons))",
     "history": [
       {
         "commit_message": "feat: Create pc_deposit_lead tool. This tool automates the process of depositing the lead Pokémon into the PC. This is the first step in addressing the overwatch critique about procrastinating on PC automation. It provides a simple, reliable way to manage the party for hypothesis testing.",
@@ -1175,6 +1175,11 @@
         "commit_message": "fix: Add reset sequence to handle PC statefulness. The previous version of the tool failed because it did not account for the PC remembering the last-used menu. This commit adds a three-'B'-press reset sequence at the beginning of the button presses to ensure the tool always starts from the overworld, making the navigation reliable. This is a critical fix to unblock party management automation.",
         "timestamp": "2025-09-17T19:05:34.186Z",
         "action_counter": 221266
+      },
+      {
+        "commit_message": "feat: Create pc_deposit_lead tool. This is a direct response to a mandatory self-assessment which identified PC management as a key repetitive task that must be automated. This tool provides a reliable way to deposit the lead Pokémon, which is the first step in creating a suite of PC management tools. The script includes a three-'B' reset sequence to handle the PC's stateful nature.",
+        "timestamp": "2025-09-17T20:52:31.673Z",
+        "action_counter": 221475
       }
     ]
   }
