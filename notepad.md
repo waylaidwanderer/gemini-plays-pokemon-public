@@ -58,6 +58,9 @@
 # VI. Fossil Quest - Hypotheses Log
 
 - **Active Hypotheses (Ranked by Plausibility):**
+    - The Hiker will move after all Team Rocket members within Mt. Moon have been defeated.
+    - The Hiker is looking for a Moon Stone and will move if the player has one in their inventory when they speak to him.
+    - The Hiker will move if the player uses an Escape Rope in the tile directly adjacent to him.
     - The Rocket Grunt on B2F will only move if presented with the revived DOME fossil Pokémon (Kabuto).
     - The Rocket Grunt on B2F or the Hiker on 1F wants the un-revived fossil ITEM, not the revived Pokémon.
     - A non-damaging move with a field effect (e.g., Sweet Scent, Sing) must be used in front of the Hiker.
