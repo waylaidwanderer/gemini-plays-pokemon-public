@@ -145,4 +145,4 @@
     - **(Hidden Object Switch):** An inanimate object near the chamber has a hidden switch. (Status: Untested, but deprioritized).
     - **(Field Move Solution):** Using the move 'Dig' inside the chamber might create an exit. (Status: Untested, but deprioritized).
     - **(Hidden Spinner Tile):** A floor tile in the chamber is a hidden one-way spinner that starts a sequence to a new area. (Result: Failed. All four tiles in the 2x2 chamber at (20,15)-(21,16) have been tested.)
-    - **(Intentional Trap Failure):** Letting the Pikachu trap fully activate, instead of escaping, might be a transport mechanism. (Result: Failed. Activating the trap and waiting did nothing. Pressing 'B' was required to escape, returning to the start position.)
+    - (Intentional Trap Failure): Activating the Pikachu trap at (20, 16) and then escaping with 'B' will reset the player's position to the maze entrance. (Result: Failed. Escaping the trap returned the player to the adjacent tile at (21, 16), not the maze entrance.)
