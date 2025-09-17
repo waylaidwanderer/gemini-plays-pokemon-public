@@ -5,7 +5,7 @@
     - **Status:** Active. 
 - **Stalled Quest: The Copycat's Gift**
     - **Objective:** Obtain a POKé DOLL and give it to COPYCAT.
-    - **Status:** Active. Currently searching Cerulean City.
+    - **Status:** Active. All leads in Cerulean City exhausted for now.
 - **Completed Quest: Rocket Investigation**
     - **Objective:** Use the LIFT KEY to operate the elevator in the Rocket Hideout.
     - **Status:** Completed. Defeated Giovanni and dismantled the operation.
@@ -19,6 +19,13 @@
 - **PC Interaction:** The tile for the PC in Pokémon Centers (e.g., Viridian Pokecenter (14,4)) is typed as `grass` in the map data, but it is impassable. Interaction requires standing on the tile directly below it (at (X, Y+1)) and facing up.
 - **Warp Tiles (1x1):** To re-use an instant warp tile after arriving on it, you must first step off the tile and then step back on.
 - **Pikachu Trap Mechanic:** On Rocket Hideout floors, interacting with a specific Pikachu can trigger a trap that locks the player on an impassable tile. This trap is escaped by pressing the 'B' button.
+
+# III. Tile Traversal & Movement Rules
+
+- **`ground`, `grass`:** Standard walkable tiles.
+- **`impassable`:** Walls, counters, and other solid objects. Cannot be entered.
+- **`ledge`:** Can only be jumped down from above (Y-1). Acts as a wall from all other directions.
+- **`PC Tile` (`grass` type):** The PC tile itself is impassable. Must be interacted with from the tile below (Y+1), facing up.
 
 # IV. Battle Intelligence
 
@@ -108,11 +115,13 @@
     - One of the NPCs will react to a specific Pokémon's cry. (Result: Failed. Used Clefable's cry next to the Hiker on 1F and the Rocket Grunt on B2F. Dialogue unchanged in both cases.)
     - There is a hidden switch or item on the floor, possibly revealed by the Itemfinder. (Result: Failed. ITEMFINDER did not respond on B3F.)
     - The Super Nerd's dialogue at 1F (25, 32) has changed. (Result: Failed. Dialogue unchanged.)
+    - The NPC Melanie in Cerulean City will have new dialogue if the player has a Bulbasaur in the lead of their party. (Result: Confirmed. Dialogue changed to a single line but did not advance the Copycat quest.)
 
 # VII. Strategic Notes & Future Ideas
 
+- **Fossil Quest Strategy:** If the Kabuto hypothesis fails, I must broaden my approach beyond 'giving an item/Pokémon'. The solution could be an action performed elsewhere that affects the NPCs in Mt. Moon.
 - **Agent Utilization:** For complex navigation puzzles, I must remember to use the `multi_stage_navigator` agent to guide exploration instead of relying on manual trial-and-error. The agent is designed to suggest the most logical next step.
 - **Tool Maintenance Protocol:** Critical tool flaws must be fixed *immediately* upon discovery. Deferring fixes is a critical failure. This includes improving tools that provide poor feedback, like the pathfinder.
 - **Future Agent Idea: Exploration Planner:** Create an agent that takes a city name and a list of visited building coordinates, then outputs the next logical building to visit to ensure systematic exploration.
-- **Future Tool Idea: PC Navigator:** Create a tool to automate PC interactions, accounting for its stateful nature. This is a high-priority task for the next available turn.
-    - The NPC Melanie in Cerulean City will have new dialogue if the player has a Bulbasaur in the lead of their party. (Result: Failed. While new dialogue was triggered, it was a single line that did not advance the Copycat quest.)
+- **Future Tool Idea: PC Navigator (High Priority):** Create a tool to automate PC interactions. 
+    - **Plan:** The tool must be robust enough to handle the PC's stateful nature. It should begin every execution with a 'reset sequence' (e.g., pressing 'B' three times) to return to a known, predictable state (the overworld). From there, it can reliably execute a sequence of button presses to navigate menus. It will take 'action' (withdraw/deposit) and 'pokemon_name' as parameters.
