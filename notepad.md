@@ -125,6 +125,8 @@
     - One of the NPCs will react to a specific Pokémon's cry. (Result: Failed. Used Clefable's cry next to the Hiker on 1F and the Rocket Grunt on B2F. Dialogue unchanged in both cases.)
     - There is a hidden switch or item on the floor, possibly revealed by the Itemfinder. (Result: Failed. ITEMFINDER did not respond on B3F.)
 
-# VIII. Future Tool Improvements
+# VIII. Strategic Notes & Reminders
 
-- **`spinner_maze_solver` Modularity:** The current implementation hardcodes the spinner map for Rocket Hideout B2F. For future reusability, I should refactor it to accept the spinner map data as an input parameter.
+- **Agent Utilization:** For complex navigation puzzles like spinner mazes, I must remember to use the `multi_stage_navigator` agent to guide exploration instead of relying on manual trial-and-error. The agent is designed to suggest the most logical next step.
+- **Tool Maintenance Protocol:** Critical tool flaws must be fixed *immediately* upon discovery. Deferring fixes is a critical failure. This includes improving tools that provide poor feedback, like the pathfinder.
+- **Current Plan - Rocket Hideout:** B1F and B4F are dead ends when accessed from the main elevator. The path to the boss must be on B3F. The next step is to return to B3F and find the alternate route to B4F.
