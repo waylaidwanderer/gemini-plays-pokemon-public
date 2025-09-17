@@ -115,3 +115,4 @@
 - **Tool Maintenance Protocol:** Critical tool flaws must be fixed *immediately* upon discovery. Deferring fixes is a critical failure. This includes improving tools that provide poor feedback, like the pathfinder.
 - **Future Agent Idea: Exploration Planner:** Create an agent that takes a city name and a list of visited building coordinates, then outputs the next logical building to visit to ensure systematic exploration.
 - **Future Tool Idea: PC Navigator:** Create a tool to automate PC interactions, accounting for its stateful nature. This is a high-priority task for the next available turn.
+    - The NPC Melanie in Cerulean City will have new dialogue if the player has a Bulbasaur in the lead of their party. (Result: Failed. Dialogue unchanged, interaction still produces no text after initial prompt is cleared.)
