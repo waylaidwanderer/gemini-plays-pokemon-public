@@ -134,4 +134,3 @@
 - If the Coin Case is not found in the Game Corner, the man at (15,12) may have lost it somewhere else in Celadon City. A city-wide search would be the next step.
 
 # XI. Verified Observations
-- The `grass` tiles inside the Celadon Game Corner are purely decorative and do not trigger wild encounters.
