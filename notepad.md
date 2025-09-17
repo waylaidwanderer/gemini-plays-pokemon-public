@@ -7,8 +7,8 @@
     - **Objective:** Obtain a POKé DOLL and give it to COPYCAT.
     - **Status:** Stalled. All leads in Cerulean City exhausted. Suspect COPYCAT is not in a currently accessible area.
 - **Secondary Quest: Rocket Investigation**
-    - **Objective:** Investigate Team Rocket locations for clues related to the Mt. Moon blockade.
-    - **Note:** A Rocket on B3F mentioned a LIFT KEY is needed for the elevator. The LIFT KEY is in the PC (confirmed). The LIFT KEY is in the PC. The puzzle is to retrieve the key from the PC and give it to the correct Rocket.
+    - **Objective:** Retrieve the LIFT KEY from a PC and use it to operate the elevator in the Rocket Hideout.
+    - **Note:** The LIFT KEY is confirmed to be in the PC storage. The Rocket at (27,13) on B3F mentioned it is needed for the elevator. The puzzle is to exit the hideout, retrieve the key, and return.
 
 # II. Game Mechanics & World Rules
 
