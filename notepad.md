@@ -125,11 +125,6 @@
     - The Hiker on 1F is the father of the Super Nerd. Defeating the son will make the Hiker move. (Result: Failed. The Super Nerd was already defeated, and the Hiker's dialogue is unchanged.)
     - One of the NPCs will react to a specific Pokémon's cry. (Result: Failed. Used Clefable's cry next to the Hiker on 1F and the Rocket Grunt on B2F. Dialogue unchanged in both cases.)
     - There is a hidden switch or item on the floor, possibly revealed by the Itemfinder. (Result: Failed. ITEMFINDER did not respond on B3F.)
-        - Spinner at (5, 12) [spinner_right] leads to (9, 12).
-        - Spinner at (11, 11) [spinner_up] leads to (3, 10).
-        - Spinner at (11, 16) [spinner_up] leads to (3, 10).
-        - Spinner at (12, 15) [spinner_down] leads to (16, 19).
-        - Spinner at (17, 19) [spinner_up] leads to (17, 14).
 
 # VIII. Future Tool Improvements
 
