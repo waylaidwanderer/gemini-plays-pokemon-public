@@ -134,9 +134,10 @@
     - There is a hidden switch or item on the floor, possibly revealed by the Itemfinder. (Result: Failed. ITEMFINDER did not respond on B3F.)
         - Spinner at (5, 12) [spinner_right] leads to (9, 12).
         - Spinner at (11, 11) [spinner_up] leads to (3, 10).
-        - Spinner at (14, 11) [spinner_down] leads to (15, 13).
         - Spinner at (11, 16) [spinner_up] leads to (3, 10).
         - Spinner at (12, 15) [spinner_down] leads to (16, 19).
-        - Spinner at (12, 15) [spinner_down] leads to (16, 19).
         - Spinner at (17, 19) [spinner_up] leads to (17, 14).
-        - Spinner at (17, 19) [spinner_up] leads to (17, 14).
+
+# VIII. Future Tool Improvements
+
+- **`spinner_maze_solver` Modularity:** The current implementation hardcodes the spinner map for Rocket Hideout B2F. For future reusability, I should refactor it to accept the spinner map data as an input parameter.
