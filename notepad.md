@@ -134,3 +134,4 @@
     - One of the NPCs will react to a specific Pokémon's cry. (Result: Failed. Used Clefable's cry next to the Hiker on 1F and the Rocket Grunt on B2F. Dialogue unchanged in both cases.)
     - There is a hidden switch or item on the floor, possibly revealed by the Itemfinder. (Result: Failed. ITEMFINDER did not respond on B3F.)
         - Spinner at (14, 11) [spinner_down] leads to (15, 13).
+        - Spinner at (13, 14) [spinner_up] leads to (3, 10).
