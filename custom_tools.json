@@ -1066,5 +1066,54 @@
         "action_counter": 221701
       }
     ]
+  },
+  "area_searcher": {
+    "description": "Generates a single, continuous path_plan to systematically search a rectangular area. Takes the top-left (x1, y1) and bottom-right (x2, y2) coordinates of the search area. The user should first navigate to the starting point and then execute the generated path.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "x1": {
+          "type": "string"
+        },
+        "y1": {
+          "type": "string"
+        },
+        "x2": {
+          "type": "string"
+        },
+        "y2": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "x1",
+        "y1",
+        "x2",
+        "y2"
+      ]
+    },
+    "python_script": "import json\nimport xml.etree.ElementTree as ET\nimport collections\n\nx1 = int(input_data['x1'])\ny1 = int(input_data['y1'])\nx2 = int(input_data['x2'])\ny2 = int(input_data['y2'])\n\nroot = ET.fromstring(map_xml_string)\ntiles = {}\nplayer_pos = None\nfor row in root.findall('Row'):\n    y_coord = int(row.get('id'))\n    for tile_elem in row.findall('Tile'):\n        x_coord = int(tile_elem.get('id'))\n        if tile_elem.find('Player') is not None:\n            player_pos = (x_coord, y_coord)\n        \n        obj = tile_elem.find('Object')\n        obj_id_name = obj.get('id-name') if obj is not None else None\n        \n        tiles[(x_coord, y_coord)] = {\n            'type': tile_elem.get('type'),\n            'has_object': tile_elem.get('has-object') == 'true',\n            'object_id_name': obj_id_name\n        }\n\ndef is_traversable(pos):\n    x, y = pos\n    if not (x1 <= x <= x2 and y1 <= y <= y2):\n        return False\n    tile_info = tiles.get(pos)\n    if not tile_info:\n        return False\n    \n    if tile_info['has_object'] and (tile_info.get('object_id_name') or '').upper() != 'PIKACHU':\n        return False\n        \n    if tile_info['type'] not in {'ground', 'grass'}:\n        return False\n        \n    return True\n\nstart_node = player_pos\nqueue = collections.deque([start_node])\nvisited_bfs = {start_node}\nreachable_tiles = [start_node]\nwhile queue:\n    current = queue.popleft()\n    cx, cy = current\n    for dx, dy in [(-1, 0), (1, 0), (0, -1), (0, 1)]:\n        neighbor = (cx + dx, cy + dy)\n        if neighbor not in visited_bfs and is_traversable(neighbor):\n            visited_bfs.add(neighbor)\n            queue.append(neighbor)\n            reachable_tiles.append(neighbor)\n\npath_plan = [{'x': start_node[0], 'y': start_node[1]}]\nunvisited = set(reachable_tiles)\nunvisited.remove(start_node)\ncurrent_pos = start_node\n\nwhile unvisited:\n    q = collections.deque([(current_pos, [current_pos])])\n    visited_for_path = {current_pos}\n    target_node = None\n    path_to_target = []\n    found = False\n    \n    while q:\n        node, path = q.popleft()\n        if node in unvisited:\n            target_node = node\n            path_to_target = path\n            found = True\n            break\n        \n        nx, ny = node\n        for dx, dy in [(-1, 0), (1, 0), (0, -1), (0, 1)]:\n            neighbor = (nx + dx, ny + dy)\n            if neighbor in reachable_tiles and neighbor not in visited_for_path:\n                visited_for_path.add(neighbor)\n                new_path = list(path)\n                new_path.append(neighbor)\n                q.append((neighbor, new_path))\n    \n    if found:\n        for step in path_to_target[1:]:\n            path_plan.append({'x': step[0], 'y': step[1]})\n            unvisited.discard(step)\n        current_pos = target_node\n    else:\n        break\n\nresult = {'success': True, 'reason': 'Search path generated.', 'path_plan': path_plan}\nprint(json.dumps(result))",
+    "history": [
+      {
+        "commit_message": "feat: Create area_searcher tool. This tool automates the tedious process of manually searching areas for hidden items, addressing a critical overwatch critique. It generates an efficient, continuous path to cover a specified rectangular region.",
+        "timestamp": "2025-09-17T22:39:12.010Z",
+        "action_counter": 221703
+      },
+      {
+        "commit_message": "fix: Add obstacle detection to area_searcher. The previous version generated a naive serpentine path that did not account for impassable tiles or objects, causing the path executor to fail. This commit integrates parsing of the map_xml_string to check each tile's traversability before adding it to the path. This prevents the generation of invalid paths and is a critical fix for reliable automation.",
+        "timestamp": "2025-09-17T22:43:14.834Z",
+        "action_counter": 221709
+      },
+      {
+        "commit_message": "fix: Correct XML parsing logic. The previous version used a non-existent `getparent` method, causing a crash. This commit removes that call and implements a standard dictionary-based lookup for tile data, which is a robust and correct way to parse the provided `map_xml_string`. This is a critical fix to restore the tool's functionality.",
+        "timestamp": "2025-09-17T22:44:56.105Z",
+        "action_counter": 221713
+      },
+      {
+        "commit_message": "fix: Implement continuous path generation. The previous version generated a disconnected list of valid coordinates, causing the path executor to fail. This commit completely overhauls the logic to use a greedy nearest-neighbor algorithm on top of a BFS search. The tool now identifies all traversable tiles in the specified area and constructs a single, continuous, and valid `path_plan` that visits all of them, ensuring compatibility with the game's path execution engine. This is a critical fix to enable reliable automated area searching.",
+        "timestamp": "2025-09-17T22:48:50.363Z",
+        "action_counter": 221717
+      }
+    ]
   }
 }

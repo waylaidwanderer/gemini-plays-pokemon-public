@@ -3,6 +3,9 @@
 - **Current Quest: The Mt. Moon Fossil**
     - **Objective:** Find a way past the Hiker at 1F (6,7).
     - **Status:** Active. 
+- **Current Quest: The Coin Case**
+    - **Objective:** Obtain a COIN CASE to play games at the Celadon Game Corner.
+    - **Status:** Active. All NPCs in the Game Corner mention needing one.
 - **Stalled Quest: The Copycat's Gift**
     - **Objective:** Obtain a POKé DOLL and give it to COPYCAT.
     - **Status:** Active. All leads in Cerulean City exhausted for now.
@@ -21,6 +24,7 @@
 # III. Observed Tile Mechanics
 
 - **PC Interaction Tile:** The PC in Pokémon Centers is interacted with from the tile directly below it (at (X, Y+1)), facing up. The tile the PC is on is impassable.
+- **Game Corner Grass Tiles:** The decorative `grass` tiles inside the Celadon Game Corner are generally traversable. However, a move from a `ground` tile at (8, 7) to a `grass` tile at (8, 6) was inexplicably blocked once. A subsequent test moving from (9, 7) to (9, 6) was successful. The exact condition for the blockage is unknown and requires further investigation.
 
 # IV. Battle Intelligence
 
@@ -49,10 +53,9 @@
 
 # V. Key Discoveries & Lessons Learned
 
+- **Tool Deferral Failure (CRITICAL):** Repeatedly deferred the creation of necessary tools (e.g., `item_menu_navigator`, `area_searcher`) by listing them as 'Future Tool Ideas' instead of building them immediately upon identifying the need. This is a critical inefficiency and a violation of core directives. **Lesson Reinforced:** If a repetitive manual task can be automated, or a complex reasoning task can be delegated, building a tool or agent for it is the highest priority. Deferring tool creation is a critical failure.
 - **PC Mechanics (CRITICAL):** The PC is **stateful**. It remembers the last system accessed (e.g., 'BILL's PC' for Pokémon or 'Gem's PC' for Items). When turning on the PC, it will open directly into the last-used system, bypassing the main selection menu. Any automation tool MUST account for this by having a reset sequence (e.g., pressing 'B' multiple times) to return to a known state before executing commands.
 - **Route 4 Access (CRITICAL):** There are two distinct maps named 'Route 4'. One is west of Mt. Moon (accessible from Route 3) and one is east of Mt. Moon (leading to Cerulean City). The eastern section is a one-way path *from* Mt. Moon, blocking westward travel. They are not directly connected.
-- **Tool Development Philosophy (CRITICAL):** Repeatedly deferred fixing critically flawed tools instead of addressing them immediately. Operated on an untested assumption (PC is stateless) which caused a loop of failures. **Lesson Reinforced:** Broken tools must be fixed *immediately* on the turn the flaw is discovered. This is a non-negotiable directive. Any identified tool flaw or opportunity for significant improvement must be addressed before any other gameplay action.
-- **Tool Deferral Failure (CRITICAL):** Repeatedly deferred the creation of necessary tools (e.g., `fly_navigator`, `pc_navigator`) instead of building them proactively. **Lesson Reinforced:** If a repetitive manual task can be automated, building a tool for it is the highest priority. Deferring tool creation is a critical inefficiency.
 - **Confirmation Bias & Over-Correction (CRITICAL):** My handling of the Rocket Hideout B2F maze was a cascade of cognitive errors. First, I incorrectly assumed the solution must be complex, causing me to ignore simple paths. After this was pointed out, I over-corrected and assumed a simple path *must* exist, leading me to hallucinate a non-existent 'eastern corridor' and distrust my tool's more complex (but likely correct) solution. **Lesson:** Do not swing from one bias to another. Trust verifiable data and tool outputs over intuition or narratives. A simple solution is preferable, but not guaranteed. The goal is to find the *correct* solution, regardless of its complexity.
 - **Hypothesis Testing Failure (Preparation):** Arrived at a location to test a hypothesis without the required Pokémon/items/moves. **Lesson:** Always verify party composition and necessary items/moves *before* traveling to a location to test a hypothesis.
 - **Pikachu Following Mechanic (CRITICAL CLARIFICATION):** My previous understanding was incomplete. The 'turn vs. move' mechanic is stateful and depends on the player's current facing direction. A button press in Pikachu's direction will only cause a turn *if the player is not already facing that direction*. Any pathfinding tool for spinner mazes *must* track the player's inferred facing direction based on the last move in the path and add an extra button press for a 'turn' action when required. Failure to do so results in invalid path sequences.
@@ -122,14 +125,14 @@
 - **Tool Maintenance Protocol:** Critical tool flaws must be fixed *immediately* upon discovery. Deferring fixes is a critical failure. This includes improving tools that provide poor feedback, like the pathfinder.
 - **`autopress_buttons` Flag (CRITICAL):** The `automated_battle_move_selector` tool outputs a sequence of button presses (e.g., `["Down", "A"]`). For this sequence to execute correctly without being truncated by the system, the `autopress_buttons: true` flag MUST be set when calling the tool. Failure to do so results in only the first button press being executed, causing battle automation to fail.
 
-# IX. Cognitive Bias & Self-Correction Log
+# VIII. Cognitive Bias & Self-Correction Log
 
 - **Fossil Quest Confirmation Bias:** I may be too focused on the Hiker at 1F (6,7) being the direct solution. It's possible that an action performed elsewhere on the map (or even in a different location entirely) could trigger him to move. I must remain open to testing hypotheses that are not directly related to interacting with the Hiker himself.
 
-# VIII. Future Tool Ideas
-- An `item_menu_navigator` tool to automatically select a specific item from the inventory, avoiding manual scrolling.
+# IX. Fossil Quest - New Hypotheses
 
-# X. Fossil Quest - New Hypotheses
 - If the Coin Case is not found in the Game Corner, the man at (15,12) may have lost it somewhere else in Celadon City. A city-wide search would be the next step.
 
-# XI. Verified Observations
+# X. Verified Observations
+
+- **Game Corner Clerk Dialogue:** The clerk at (6, 7) will say "You don't have a COIN CASE!" if the player attempts to buy coins without one.
