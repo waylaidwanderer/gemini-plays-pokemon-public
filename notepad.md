@@ -131,3 +131,11 @@
 - **Failed Agent Hypotheses:**
     - One of the NPCs will react to a specific Pokémon's cry. (Result: Failed. Used Clefable's cry next to the Hiker on 1F and the Rocket Grunt on B2F. Dialogue unchanged in both cases.)
     - There is a hidden switch or item on the floor, possibly revealed by the Itemfinder. (Result: Failed. ITEMFINDER did not respond on B3F.)
+
+# IX. Rocket Hideout B3F Puzzle - Agent Hypotheses
+
+- **(Rank 1) Hidden Spinner Tile:** A floor tile in the chamber is a hidden one-way spinner that starts a sequence to a new area.
+- **(Rank 2) Intentional Trap Failure:** Letting the Pikachu trap fully activate, instead of escaping, might be a transport mechanism.
+- **(Rank 3) Global Floor Trigger:** A path opens only after defeating every Rocket Grunt on B3F.
+- **(Rank 4) Hidden Object Switch:** An inanimate object near the chamber has a hidden switch.
+- **(Rank 5) Field Move Solution:** Using the move 'Dig' inside the chamber might create an exit.
