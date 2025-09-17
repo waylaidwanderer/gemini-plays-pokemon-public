@@ -135,9 +135,9 @@
 # IX. Rocket Hideout B3F Puzzle - Hypotheses Log
 
 - **Active Hypotheses (Ranked by Plausibility):**
-    - **(Rank 1) Intentional Trap Failure:** Letting the Pikachu trap fully activate, instead of escaping, might be a transport mechanism.
-    - **(Rank 2) Global Floor Trigger:** A path opens only after defeating every Rocket Grunt on B3F.
-    - **(Rank 3) Hidden Object Switch:** An inanimate object near the chamber has a hidden switch.
-    - **(Rank 4) Field Move Solution:** Using the move 'Dig' inside the chamber might create an exit.
+    - **(Rank 1) Global Floor Trigger:** A path opens only after defeating every Rocket Grunt on B3F.
+    - **(Rank 2) Hidden Object Switch:** An inanimate object near the chamber has a hidden switch.
+    - **(Rank 3) Field Move Solution:** Using the move 'Dig' inside the chamber might create an exit.
 - **Failed Hypotheses:**
     - **(Hidden Spinner Tile):** A floor tile in the chamber is a hidden one-way spinner that starts a sequence to a new area. (Result: Failed. All four tiles in the 2x2 chamber at (20,15)-(21,16) have been tested.)
+    - **(Intentional Trap Failure):** Letting the Pikachu trap fully activate, instead of escaping, might be a transport mechanism. (Result: Failed. Activating the trap and waiting did nothing. Pressing 'B' was required to escape, returning to the start position.)
