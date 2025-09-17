@@ -20,14 +20,6 @@
 - **Warp Tiles (1x1):** To re-use an instant warp tile after arriving on it, you must first step off the tile and then step back on.
 - **Pikachu Trap Mechanic:** On Rocket Hideout floors, interacting with a specific Pikachu can trigger a trap that locks the player on an impassable tile. This trap is escaped by pressing the 'B' button.
 
-# III. Tile Mechanics
-
-- **ground:** Standard walkable tile.
-- **grass:** Walkable tile where wild Pokémon encounters can occur.
-- **water:** Traversable only with the Surf HM.
-- **impassable:** Walls, objects, and other barriers. Cannot be entered.
-- **ledge:** A one-way barrier. Can be jumped down from above (Y-1), but cannot be climbed up from below (Y+1) or traversed horizontally.
-
 # IV. Battle Intelligence
 
 - **Type Effectiveness Chart (Verified):**
