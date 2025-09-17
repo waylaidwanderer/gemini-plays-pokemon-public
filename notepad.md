@@ -110,3 +110,4 @@
 
 - **Agent Utilization:** For complex navigation puzzles, I must remember to use the `multi_stage_navigator` agent to guide exploration instead of relying on manual trial-and-error. The agent is designed to suggest the most logical next step.
 - **Tool Maintenance Protocol:** Critical tool flaws must be fixed *immediately* upon discovery. Deferring fixes is a critical failure. This includes improving tools that provide poor feedback, like the pathfinder.
+    - The Hiker is looking for a Moon Stone and will move if the player has one in their inventory when they speak to him. (Result: Failed. Dialogue unchanged.)
