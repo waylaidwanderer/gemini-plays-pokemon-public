@@ -117,7 +117,3 @@
 
 - **Agent Utilization:** For complex navigation puzzles like spinner mazes, I must remember to use the `multi_stage_navigator` agent to guide exploration instead of relying on manual trial-and-error. The agent is designed to suggest the most logical next step.
 - **Tool Maintenance Protocol:** Critical tool flaws must be fixed *immediately* upon discovery. Deferring fixes is a critical failure. This includes improving tools that provide poor feedback, like the pathfinder.
-
-# VIII. Tile Mechanics (Observed)
-
-- **elevated_ground:** A walkable tile at a different elevation. Movement between `elevated_ground` and `ground` is only possible via a `steps` tile. Direct movement is impossible.
