@@ -135,10 +135,14 @@
 
 # IX. Rocket Hideout B3F Puzzle - Hypotheses Log (Consolidated)
 
-- **Active Hypotheses (Ranked by Plausibility):**
-    - **(Rank 1) Global Floor Trigger:** A path opens only after defeating every Rocket Grunt on B3F.
-    - **(Rank 2) Hidden Object Switch:** An inanimate object near the chamber has a hidden switch.
-    - **(Rank 3) Field Move Solution:** Using the move 'Dig' inside the chamber might create an exit.
+- **Active Hypotheses (Agent-Generated, Ranked by Plausibility):**
+    - **(Rank 1) Counter-intuitive Navigation:** The correct path to the southern warp requires traveling north first, to a different section of the maze, and using a spinner there to be routed back south.
+    - **(Rank 2) Hidden Wall Passage:** A hidden path exists through a fake wall, allowing the player to bypass the southern spinner section entirely.
+    - **(Rank 3) NPC Battle Trigger:** Defeating a specific, previously un-battled Rocket Grunt on B3F alters the state of the spinners or opens a previously closed-off route.
+    - **(Rank 4) Hidden Itemfinder Switch:** The solution requires using the Itemfinder near the southern spinners to locate a hidden switch on the floor that changes the spinner layout.
 - **Failed Hypotheses:**
+    - **(Global Floor Trigger):** A path opens only after defeating every Rocket Grunt on B3F. (Status: Untested, but deprioritized in favor of agent hypotheses).
+    - **(Hidden Object Switch):** An inanimate object near the chamber has a hidden switch. (Status: Untested, but deprioritized).
+    - **(Field Move Solution):** Using the move 'Dig' inside the chamber might create an exit. (Status: Untested, but deprioritized).
     - **(Hidden Spinner Tile):** A floor tile in the chamber is a hidden one-way spinner that starts a sequence to a new area. (Result: Failed. All four tiles in the 2x2 chamber at (20,15)-(21,16) have been tested.)
     - **(Intentional Trap Failure):** Letting the Pikachu trap fully activate, instead of escaping, might be a transport mechanism. (Result: Failed. Activating the trap and waiting did nothing. Pressing 'B' was required to escape, returning to the start position.)
