@@ -140,4 +140,3 @@
         - Spinner at (12, 15) [spinner_down] leads to (16, 19).
         - Spinner at (17, 19) [spinner_up] leads to (17, 14).
         - Spinner at (17, 19) [spinner_up] leads to (17, 14).
-        - Spinner at (14, 19) [spinner_left] leads to (12, 21).
