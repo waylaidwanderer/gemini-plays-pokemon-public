@@ -120,3 +120,17 @@
 - **Future Tool Idea: PC Navigator (High Priority):** Create a tool to automate PC interactions. 
     - **Plan:** The tool must be robust enough to handle the PC's stateful nature. It should begin every execution with a 'reset sequence' (e.g., pressing 'B' three times) to return to a known, predictable state (the overworld). From there, it can reliably execute a sequence of button presses to navigate menus. It will take 'action' (withdraw/deposit) and 'pokemon_name' as parameters.
 - **`autopress_buttons` Flag (CRITICAL):** The `automated_battle_move_selector` tool outputs a sequence of button presses (e.g., `["Down", "A"]`). For this sequence to execute correctly without being truncated by the system, the `autopress_buttons: true` flag MUST be set when calling the tool. Failure to do so results in only the first button press being executed, causing battle automation to fail.
+
+# VIII. Tile Traversal & Movement Rules
+
+- **ground:** Standard walkable tile.
+- **grass:** Walkable tile with wild Pokémon encounters.
+- **impassable:** Cannot be entered (walls, objects, etc.).
+- **ledge:** One-way traversal. Can be jumped down, but not climbed up.
+- **water:** Requires SURF to cross.
+- **steps:** Allows movement between `ground` and `elevated_ground` tiles.
+- **elevated_ground:** Walkable, but only accessible via `steps` tiles.
+
+# IX. Cognitive Bias & Self-Correction Log
+
+- **Fossil Quest Confirmation Bias:** I may be too focused on the Hiker at 1F (6,7) being the direct solution. It's possible that an action performed elsewhere on the map (or even in a different location entirely) could trigger him to move. I must remain open to testing hypotheses that are not directly related to interacting with the Hiker himself.
