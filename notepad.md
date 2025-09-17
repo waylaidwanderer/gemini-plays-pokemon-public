@@ -127,3 +127,13 @@
 # VIII. Future Development Ideas
 
 - **Wild Battle Manager Agent:** An agent that takes party status and wild Pokémon species to recommend an optimal action (fight, run, switch) and move choice to conserve PP or ensure a capture.
+
+# VII. Lessons from Overwatch Critique (Turn 220963)
+
+- **Notepad Precision:** My repeated failures to use the `replace` action highlight a critical lack of precision. I must copy text exactly for this tool. The `overwrite` tool should only be used if the net character change is small.
+- **Warp Marking Consistency:** I must mark both the departure and arrival points of a warp immediately after using it to maintain a reliable navigation log.
+- **Map Connectivity Verification:** I must use tools like `map_partition_analyzer` to verify my assumptions about map layouts before spending turns on unreachable paths, as I did in Mt. Moon B1F/B2F.
+
+# VIII. Future Development Ideas
+
+- **Wild Battle Manager Agent:** An agent that takes party status and wild Pokémon species to recommend an optimal action (fight, run, switch) and move choice to conserve PP or ensure a capture.
