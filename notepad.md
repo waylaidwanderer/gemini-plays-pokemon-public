@@ -16,8 +16,7 @@
 - **Battle Menu Anomaly:** The game appears to intentionally restrict move selection in certain wild battles to the first move slot.
 - **Party Menu 'SWITCH' Lock:** The game can prevent using the 'SWITCH' command in the party menu, observed after multiple failed escape attempts.
 - **Shop Menu Navigation Anomaly:** The Cerulean Mart shop menu does not follow a standard grid layout and requires 'B' to exit.
-- **PC Interaction:** The tile for the PC in Pokémon Centers (e.g., Viridian Pokecenter (14,4)) is typed as `grass` in the map data, but it is impassable. Interaction requires standing on the tile directly below it (at (X, Y+1)) and facing up.
-- **Warp Tiles (1x1):** To re-use an instant warp tile after arriving on it, you must first step off the tile and then step back on.
+- **PC Interaction:** The PC in Pokémon Centers is interacted with from the tile directly below it (at (X, Y+1)), facing up. The tile itself (e.g., Viridian Pokecenter (14,4)) is impassable despite being typed as `grass`.
 - **Pikachu Trap Mechanic:** On Rocket Hideout floors, interacting with a specific Pikachu can trigger a trap that locks the player on an impassable tile. This trap is escaped by pressing the 'B' button.
 
 # III. Tile Traversal & Movement Rules
@@ -27,8 +26,7 @@
 - **`ledge`:** Can only be jumped down from above (Y-1). Acts as a wall from all other directions.
 - **`elevated_ground`:** Walkable ground at a different elevation. Can only be accessed from `steps` tiles, other `elevated_ground` tiles, or warps. Direct movement between `ground` and `elevated_ground` is impossible.
 - **`steps`:** The only tile type that allows movement between `ground` and `elevated_ground`.
-- **`ladder_up`, `ladder_down`:** Warp tiles that lead to higher or lower floors.
-- **`PC Tile` (`grass` type):** The PC tile itself is impassable. Must be interacted with from the tile below (Y+1), facing up.
+- **Warp Tiles (1x1):** To re-use an instant warp tile after arriving on it, you must first step off the tile and then step back on. Exception: The ladder at Mt. Moon B1F (18,12) required stepping onto an adjacent `elevated_ground` tile at (18,11) and then back down to (18,12) to trigger the warp up.
 
 # IV. Battle Intelligence
 
@@ -69,10 +67,8 @@
 # VI. Fossil Quest - Hypotheses Log
 
 - **Active Hypotheses:**
-    - The Hiker will move if 'Earthquake' is used in a wild battle adjacent to him. (Result: Failed. Used Earthquake in a battle next to the Hiker. Dialogue unchanged.)
-    - The Hiker will move if spoken to with only one conscious Pokémon in the party. (Result: Failed. Dialogue unchanged.)
-    - The Hiker requires a monetary payment or will react to the player having zero money.
-    - The 'fossil' the Rocket Grunt wants is a Pokémon Egg.
+    - **(Agent Hypothesis #1)** The Rocket Grunt on B2F desires the un-revived fossil item (Helix or Dome Fossil), not a living Pokémon. The player must show the fossil item to the Grunt before reviving it on Cinnabar Island.
+    - **(Agent Hypothesis #4)** After reviving one fossil (e.g., Omanyte), the player must return and show it to the Super Nerd. He will then give the player the *other* fossil (e.g., the Dome Fossil), which is the item the Rocket Grunt actually wants.
 - **Failed Hypotheses:**
     - The Rocket Grunt will react to the revived *Dome* Fossil Pokémon, Kabuto. (Result: Failed. Dialogue unchanged, and the path behind him is a confirmed dead end.)
     - The Hiker will move after all Team Rocket members within Mt. Moon have been defeated. (Result: Failed. All battlable Rockets defeated, Hiker's dialogue unchanged.)
@@ -120,14 +116,13 @@
     - There is a hidden switch or item on the floor, possibly revealed by the Itemfinder. (Result: Failed. ITEMFINDER did not respond on B3F.)
     - The Super Nerd's dialogue at 1F (25, 32) has changed. (Result: Failed. Dialogue unchanged.)
     - The NPC Melanie in Cerulean City will have new dialogue if the player has a Bulbasaur in the lead of their party. (Result: Confirmed. Dialogue changed to a single line but did not advance the Copycat quest.)
+    - The Hiker will move if spoken to with only one conscious Pokémon in the party. (Result: Failed. Dialogue unchanged.)
 
 # VII. Strategic Notes & Future Ideas
 
 - **Fossil Quest Strategy:** The Rocket Grunt was a red herring. The solution must involve the Hiker on 1F. I must systematically test my remaining hypotheses on him.
-- **Agent Utilization:** For complex navigation puzzles, I must remember to use the `multi_stage_navigator` agent to guide exploration instead of relying on manual trial-and-error. The agent is designed to suggest the most logical next step.
+- **Agent Utilization:** For complex navigation puzzles, I must remember to use the `multi_stage_navigator` agent to guide exploration instead of relying on manual trial-and-error. The agent is designed to suggest the most logical next step. For the Fossil Quest, I must use the `puzzle_hypothesis_generator` agent to generate new ideas instead of relying solely on my own intuition.
 - **Tool Maintenance Protocol:** Critical tool flaws must be fixed *immediately* upon discovery. Deferring fixes is a critical failure. This includes improving tools that provide poor feedback, like the pathfinder.
-- **Future Agent Idea: Exploration Planner:** Create an agent that takes a city name and a list of visited building coordinates, then outputs the next logical building to visit to ensure systematic exploration.
 - **Future Tool Idea: PC Navigator (High Priority):** Create a tool to automate PC interactions. 
     - **Plan:** The tool must be robust enough to handle the PC's stateful nature. It should begin every execution with a 'reset sequence' (e.g., pressing 'B' three times) to return to a known, predictable state (the overworld). From there, it can reliably execute a sequence of button presses to navigate menus. It will take 'action' (withdraw/deposit) and 'pokemon_name' as parameters.
-- **`autopress_buttons` Flag (CRITICAL):** The `automated_battle_move_selector` tool outputs a sequence of button presses (e.g., `["Down", "A"]`). For this sequence to execute correctly without being truncated by the system, the `autopress_buttons: true` flag MUST be set when calling the tool. Failure to do so results in only the first button press being executed, causing battle automation to fail. This was the root cause of recent battle failures.
-- **Fossil Quest Strategy Update:** For the Fossil Quest, I must use the `puzzle_hypothesis_generator` agent to generate new ideas instead of relying solely on my own intuition. This will help overcome biases and explore more creative solutions.
+- **`autopress_buttons` Flag (CRITICAL):** The `automated_battle_move_selector` tool outputs a sequence of button presses (e.g., `["Down", "A"]`). For this sequence to execute correctly without being truncated by the system, the `autopress_buttons: true` flag MUST be set when calling the tool. Failure to do so results in only the first button press being executed, causing battle automation to fail.
