@@ -18,19 +18,7 @@
 - **Shop Menu Navigation Anomaly:** The Cerulean Mart shop menu does not follow a standard grid layout and requires 'B' to exit.
 - **PC Interaction:** The tile for the PC in Pokémon Centers (e.g., Viridian Pokecenter (14,4)) is typed as `grass` in the map data, but it is impassable. Interaction requires standing on the tile directly below it (at (X, Y+1)) and facing up.
 - **Warp Tiles (1x1):** To re-use an instant warp tile after arriving on it, you must first step off the tile and then step back on.
-- **Pikachu Following Mechanic (CRITICAL):** If Pikachu is directly adjacent to the player in the direction of intended movement, AND the player is not already facing Pikachu, the first button press will only turn the player to face Pikachu. A second button press in the same direction is required to move onto Pikachu's tile. This does not apply if the player is already facing Pikachu or if Pikachu is not in the direction of movement.
 - **Pikachu Trap Mechanic:** On Rocket Hideout floors, interacting with a specific Pikachu can trigger a trap that locks the player on an impassable tile. This trap is escaped by pressing the 'B' button.
-
-# III. Tile Type Glossary (Observed)
-
-- **ground:** Standard walkable tile.
-- **impassable:** A wall or obstacle that cannot be entered.
-- **grass:** Tall grass where wild Pokémon appear. Walkable.
-- **cuttable:** A tree that can be removed with the Cut HM. Respawns on map change.
-- **water:** A body of water that can be crossed with the Surf HM.
-- **ledge:** A one-way drop. Can be jumped down but not climbed up.
-- **spinner_up, spinner_down, spinner_left, spinner_right:** A tile that forces movement in the specified direction. The actual destination of the spinner sequence can be unpredictable and must be verified through experimentation.
-- **spinner_stop:** A safe tile that stops movement from a spinner. These are key strategic points in a spinner maze.
 
 # IV. Battle Intelligence
 
