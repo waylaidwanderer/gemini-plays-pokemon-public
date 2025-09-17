@@ -77,12 +77,13 @@
 
 # VI. Fossil Quest - Hypotheses Log
 
-- **Active Hypotheses (Ranked by Plausibility):**
-    - 1. The Hiker will move after all Team Rocket members within Mt. Moon have been defeated.
-    - 2. The Hiker will move if the player uses an Escape Rope in the tile directly adjacent to him.
-    - 3. Evolve a Clefairy into a Clefable (using a Moon Stone) in front of the Hiker.
-    - 4. The Hiker will move if the player has registered a certain number of Pokémon (e.g., 20) in their Pokédex.
+- **Active Hypotheses:**
+    - 1. The Hiker will move if the player uses an Escape Rope in the tile directly adjacent to him. (Blocked by game mechanic)
+    - 2. Evolve a Clefairy into a Clefable (using a Moon Stone) in front of the Hiker.
 - **Failed Hypotheses:**
+    - The Hiker will move after all Team Rocket members within Mt. Moon have been defeated. (Result: Failed. All battlable Rockets defeated, Hiker's dialogue unchanged.)
+    - The Hiker will move if the player has registered a certain number of Pokémon (e.g., 20) in their Pokédex. (Result: Failed. Player has 55 Pokémon registered, Hiker's dialogue unchanged.)
+    - The Hiker is looking for a Moon Stone and will move if the player has one in their inventory when they speak to him. (Result: Failed. Dialogue unchanged.)
     - The Geodude will move if a Geodude uses Self-Destruct in battle against him. (Result: Failed. The Grunt is not a trainer and cannot be battled.)
     - The Hiker at 1F (6,7) has lost an item. Using the Itemfinder near him will reveal a hidden item which, when returned, will make him move. (Result: Failed. Itemfinder did not respond.)
     - The Hiker on 1F will move if Pikachu interacts with him. (Result: Failed. Dialogue unchanged.)
@@ -124,7 +125,6 @@
     - One of the NPCs will react to a specific Pokémon's cry. (Result: Failed. Used Clefable's cry next to the Hiker on 1F and the Rocket Grunt on B2F. Dialogue unchanged in both cases.)
     - There is a hidden switch or item on the floor, possibly revealed by the Itemfinder. (Result: Failed. ITEMFINDER did not respond on B3F.)
     - The Super Nerd's dialogue at 1F (25, 32) has changed. (Result: Failed. Dialogue unchanged.)
-    - The Hiker is looking for a Moon Stone and will move if the player has one in their inventory when they speak to him. (Result: Failed. Dialogue unchanged.)
 
 # VII. Strategic Notes & Reminders
 
