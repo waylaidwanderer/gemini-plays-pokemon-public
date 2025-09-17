@@ -66,7 +66,7 @@
 
 # VI. Future Development Notes
 
-- Consider creating a robust `spinner_maze_solver` tool to automate navigation in spinner mazes, as this is a recurring challenge.
+- Refine `spinner_maze_solver` to correctly handle Pikachu movement mechanics, as it currently generates invalid paths when Pikachu is adjacent.
 
 # VII. Fossil Quest - Hypotheses Log
 
