@@ -48,7 +48,7 @@
     - Poison is not very effective against Poison/Flying, Rock/Ground
     - Flying is not very effective against Rock/Ground
     - Rock is not very effective against Ground
-    - Normal is not very effective against Ground
+    - Normal > Ground
     - Flying is not very effective against Electric
     - Normal > Water/Ice
 - **Notable Trainer Rosters:**
