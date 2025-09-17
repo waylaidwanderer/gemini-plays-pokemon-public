@@ -53,26 +53,18 @@
 - **Confirmation Bias & Over-Correction (CRITICAL):** My handling of the Rocket Hideout B2F maze was a cascade of cognitive errors. First, I incorrectly assumed the solution must be complex, causing me to ignore simple paths. After this was pointed out, I over-corrected and assumed a simple path *must* exist, leading me to hallucinate a non-existent 'eastern corridor' and distrust my tool's more complex (but likely correct) solution. **Lesson:** Do not swing from one bias to another. Trust verifiable data and tool outputs over intuition or narratives. A simple solution is preferable, but not guaranteed. The goal is to find the *correct* solution, regardless of its complexity.
 - **Hypothesis Testing Failure (Preparation):** Arrived at a location to test a hypothesis without the required Pokémon/items/moves. **Lesson:** Always verify party composition and necessary items/moves *before* traveling to a location to test a hypothesis.
 - **Pikachu Following Mechanic (CRITICAL CLARIFICATION):** My previous understanding was incomplete. The 'turn vs. move' mechanic is stateful and depends on the player's current facing direction. A button press in Pikachu's direction will only cause a turn *if the player is not already facing that direction*. Any pathfinding tool for spinner mazes *must* track the player's inferred facing direction based on the last move in the path and add an extra button press for a 'turn' action when required. Failure to do so results in invalid path sequences.
-- **Rocket Hideout Spinner Physics:** All known spinner data for the Rocket Hideout B2F floor has been collected and successfully implemented into the `spinner_maze_solver` tool. The tool is now the source of truth for this information.
+- **Rocket Hideout Spinner Physics:** All known spinner data for the Rocket Hideout B2F floor has been collected. The `spinner_maze_solver` tool was the source of truth for this information before its deletion.
 
 # VI. Fossil Quest - Hypotheses Log
 
 - **Active Hypotheses (Ranked by Plausibility):**
-    - The Hiker will move after all Team Rocket members within Mt. Moon have been defeated.
-    - The Hiker is looking for a Moon Stone and will move if the player has one in their inventory when they speak to him.
-    - The Hiker will move if the player uses an Escape Rope in the tile directly adjacent to him.
-    - The Rocket Grunt on B2F will only move if presented with the revived DOME fossil Pokémon (Kabuto).
-    - The Rocket Grunt on B2F or the Hiker on 1F wants the un-revived fossil ITEM, not the revived Pokémon.
-    - A non-damaging move with a field effect (e.g., Sweet Scent, Sing) must be used in front of the Hiker.
-    - The Hiker will move if the player interacts with him while having a full party of fainted Pokémon.
-    - The solution requires the Silph Scope, which must be shown to the Grunt after defeating Giovanni in Celadon City.
-    - The Rocket Grunt will be satisfied if a Pokémon uses 'Ancient Power' in battle against him.
-    - The Hiker will move once the Pokédex is completed for all Mt. Moon native species.
-    - The Rocket Grunt will move if a Clefairy uses Metronome in battle against him.
-    - The Rocket Grunt on B2F at (30,12) is not looking for a specific fossil item, but for a 'fossilized' Pokémon (petrified status).
-    - The Hiker on 1F (6,7) or the Rocket Grunt on B2F (30,12) is on a schedule and will only move at a specific in-game time.
-    - The Rocket Grunt at B2F (30,12) is waiting for a secret password made of a sequence of Pokémon cries.
-    - The Rocket Grunt on B2F (30,12) is a spy and requires a disguise to be bypassed.
+    - 1. The Hiker will move after all Team Rocket members within Mt. Moon have been defeated.
+    - 2. The Hiker is looking for a Moon Stone and will move if the player has one in their inventory when they speak to him.
+    - 3. The Hiker will move if the player uses an Escape Rope in the tile directly adjacent to him.
+    - 4. Evolve a Clefairy into a Clefable (using a Moon Stone) in front of the Hiker.
+    - 5. The Hiker will move if the player has registered a certain number of Pokémon (e.g., 20) in their Pokédex.
+    - 6. The Rocket Grunt on B2F will only move if presented with the revived DOME fossil Pokémon (Kabuto).
+    - 7. The Rocket Grunt on B2F or the Hiker on 1F wants the un-revived fossil ITEM, not the revived Pokémon.
 - **Failed Hypotheses:**
     - The Geodude will move if a Geodude uses Self-Destruct in battle against him. (Result: Failed. The Grunt is not a trainer and cannot be battled.)
     - The Hiker at 1F (6,7) has lost an item. Using the Itemfinder near him will reveal a hidden item which, when returned, will make him move. (Result: Failed. Itemfinder did not respond.)
@@ -114,9 +106,8 @@
     - The Hiker on 1F is the father of the Super Nerd. Defeating the son will make the Hiker move. (Result: Failed. The Super Nerd was already defeated, and the Hiker's dialogue is unchanged.)
     - One of the NPCs will react to a specific Pokémon's cry. (Result: Failed. Used Clefable's cry next to the Hiker on 1F and the Rocket Grunt on B2F. Dialogue unchanged in both cases.)
     - There is a hidden switch or item on the floor, possibly revealed by the Itemfinder. (Result: Failed. ITEMFINDER did not respond on B3F.)
-    - The Rocket Grunt will accept a Pokémon nicknamed 'fossil'. (Result: Failed. Dialogue unchanged.)
 
 # VII. Strategic Notes & Reminders
 
-- **Agent Utilization:** For complex navigation puzzles like spinner mazes, I must remember to use the `multi_stage_navigator` agent to guide exploration instead of relying on manual trial-and-error. The agent is designed to suggest the most logical next step.
+- **Agent Utilization:** For complex navigation puzzles, I must remember to use the `multi_stage_navigator` agent to guide exploration instead of relying on manual trial-and-error. The agent is designed to suggest the most logical next step.
 - **Tool Maintenance Protocol:** Critical tool flaws must be fixed *immediately* upon discovery. Deferring fixes is a critical failure. This includes improving tools that provide poor feedback, like the pathfinder.
