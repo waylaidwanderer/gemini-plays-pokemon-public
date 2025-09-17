@@ -1,7 +1,7 @@
 # I. Quest Log
 
 - **Current Quest: The Mt. Moon Fossil**
-    - **Objective:** Find a way past the Rocket Grunt at Mt. Moon B2F (30,12) or the Hiker at 1F (6,7).
+    - **Objective:** Find a way past the Hiker at 1F (6,7).
     - **Status:** Active. 
 - **Stalled Quest: The Copycat's Gift**
     - **Objective:** Obtain a POKé DOLL and give it to COPYCAT.
@@ -25,6 +25,9 @@
 - **`ground`, `grass`:** Standard walkable tiles.
 - **`impassable`:** Walls, counters, and other solid objects. Cannot be entered.
 - **`ledge`:** Can only be jumped down from above (Y-1). Acts as a wall from all other directions.
+- **`elevated_ground`:** Walkable ground at a different elevation. Can only be accessed from `steps` tiles, other `elevated_ground` tiles, or warps. Direct movement between `ground` and `elevated_ground` is impossible.
+- **`steps`:** The only tile type that allows movement between `ground` and `elevated_ground`.
+- **`ladder_up`, `ladder_down`:** Warp tiles that lead to higher or lower floors.
 - **`PC Tile` (`grass` type):** The PC tile itself is impassable. Must be interacted with from the tile below (Y+1), facing up.
 
 # IV. Battle Intelligence
@@ -57,6 +60,7 @@
 - **PC Mechanics (CRITICAL):** The PC is **stateful**. It remembers the last system accessed (e.g., 'BILL's PC' for Pokémon or 'Gem's PC' for Items). When turning on the PC, it will open directly into the last-used system, bypassing the main selection menu. Any automation tool MUST account for this by having a reset sequence (e.g., pressing 'B' multiple times) to return to a known state before executing commands.
 - **Route 4 Access (CRITICAL):** There are two distinct maps named 'Route 4'. One is west of Mt. Moon (accessible from Route 3) and one is east of Mt. Moon (leading to Cerulean City). The eastern section is a one-way path *from* Mt. Moon, blocking westward travel. They are not directly connected.
 - **Tool Development Philosophy (CRITICAL):** Repeatedly deferred fixing critically flawed tools instead of addressing them immediately. Operated on an untested assumption (PC is stateless) which caused a loop of failures. **Lesson Reinforced:** Broken tools must be fixed *immediately* on the turn the flaw is discovered. This is a non-negotiable directive. Any identified tool flaw or opportunity for significant improvement must be addressed before any other gameplay action.
+- **Tool Deferral Failure (CRITICAL):** Repeatedly deferred the creation of necessary tools (e.g., `fly_navigator`, `pc_navigator`) instead of building them proactively. **Lesson Reinforced:** If a repetitive manual task can be automated, building a tool for it is the highest priority. Deferring tool creation is a critical inefficiency.
 - **Confirmation Bias & Over-Correction (CRITICAL):** My handling of the Rocket Hideout B2F maze was a cascade of cognitive errors. First, I incorrectly assumed the solution must be complex, causing me to ignore simple paths. After this was pointed out, I over-corrected and assumed a simple path *must* exist, leading me to hallucinate a non-existent 'eastern corridor' and distrust my tool's more complex (but likely correct) solution. **Lesson:** Do not swing from one bias to another. Trust verifiable data and tool outputs over intuition or narratives. A simple solution is preferable, but not guaranteed. The goal is to find the *correct* solution, regardless of its complexity.
 - **Hypothesis Testing Failure (Preparation):** Arrived at a location to test a hypothesis without the required Pokémon/items/moves. **Lesson:** Always verify party composition and necessary items/moves *before* traveling to a location to test a hypothesis.
 - **Pikachu Following Mechanic (CRITICAL CLARIFICATION):** My previous understanding was incomplete. The 'turn vs. move' mechanic is stateful and depends on the player's current facing direction. A button press in Pikachu's direction will only cause a turn *if the player is not already facing that direction*. Any pathfinding tool for spinner mazes *must* track the player's inferred facing direction based on the last move in the path and add an extra button press for a 'turn' action when required. Failure to do so results in invalid path sequences.
@@ -65,12 +69,12 @@
 # VI. Fossil Quest - Hypotheses Log
 
 - **Active Hypotheses:**
-    - The Rocket Grunt will react to the revived *Dome* Fossil Pokémon, Kabuto. (Result: Failed. Dialogue unchanged, and the path behind him is a confirmed dead end.)
     - The Hiker will move if 'Earthquake' is used in a wild battle adjacent to him.
     - The Hiker will move if spoken to with only one conscious Pokémon in the party.
     - The Hiker requires a monetary payment or will react to the player having zero money.
     - The 'fossil' the Rocket Grunt wants is a Pokémon Egg.
 - **Failed Hypotheses:**
+    - The Rocket Grunt will react to the revived *Dome* Fossil Pokémon, Kabuto. (Result: Failed. Dialogue unchanged, and the path behind him is a confirmed dead end.)
     - The Hiker will move after all Team Rocket members within Mt. Moon have been defeated. (Result: Failed. All battlable Rockets defeated, Hiker's dialogue unchanged.)
     - The Hiker will move if the player has registered a certain number of Pokémon (e.g., 20) in their Pokédex. (Result: Failed. Player has 55 Pokémon registered, Hiker's dialogue unchanged.)
     - The Hiker is looking for a Moon Stone and will move if the player has one in their inventory when they speak to him. (Result: Failed. Dialogue unchanged.)
@@ -119,7 +123,7 @@
 
 # VII. Strategic Notes & Future Ideas
 
-- **Fossil Quest Strategy:** If the Kabuto hypothesis fails, I must broaden my approach beyond 'giving an item/Pokémon'. The solution could be an action performed elsewhere that affects the NPCs in Mt. Moon.
+- **Fossil Quest Strategy:** The Rocket Grunt was a red herring. The solution must involve the Hiker on 1F. I must systematically test my remaining hypotheses on him.
 - **Agent Utilization:** For complex navigation puzzles, I must remember to use the `multi_stage_navigator` agent to guide exploration instead of relying on manual trial-and-error. The agent is designed to suggest the most logical next step.
 - **Tool Maintenance Protocol:** Critical tool flaws must be fixed *immediately* upon discovery. Deferring fixes is a critical failure. This includes improving tools that provide poor feedback, like the pathfinder.
 - **Future Agent Idea: Exploration Planner:** Create an agent that takes a city name and a list of visited building coordinates, then outputs the next logical building to visit to ensure systematic exploration.
