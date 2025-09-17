@@ -27,6 +27,8 @@
 - **impassable:** A wall or obstacle that cannot be entered.
 - **spinner_up, spinner_down, spinner_left, spinner_right:** A tile that forces movement in the specified direction.
 - **spinner_stop:** A safe tile that stops movement from a spinner.
+- **spinner_up, spinner_down, spinner_left, spinner_right:** A tile that forces movement in the specified direction.
+- **spinner_stop:** A safe tile that stops movement from a spinner.
 
 # IV. Battle Intelligence
 
