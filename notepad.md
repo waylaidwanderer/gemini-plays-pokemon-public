@@ -78,8 +78,7 @@
 # VI. Fossil Quest - Hypotheses Log
 
 - **Active Hypotheses:**
-    - 1. The Hiker will move if the player uses an Escape Rope in the tile directly adjacent to him. (Blocked by game mechanic)
-    - 2. Evolve a Clefairy into a Clefable (using a Moon Stone) in front of the Hiker.
+    - *Generating new hypotheses with an agent. All previous active hypotheses are now considered stalled or invalid.*
 - **Failed Hypotheses:**
     - The Hiker will move after all Team Rocket members within Mt. Moon have been defeated. (Result: Failed. All battlable Rockets defeated, Hiker's dialogue unchanged.)
     - The Hiker will move if the player has registered a certain number of Pokémon (e.g., 20) in their Pokédex. (Result: Failed. Player has 55 Pokémon registered, Hiker's dialogue unchanged.)
