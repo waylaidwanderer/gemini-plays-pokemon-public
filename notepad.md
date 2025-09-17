@@ -74,6 +74,7 @@
         - **Result 1:** Confirmed, it leads back to (17, 14). No other effects observed.
     - **Observed Data:**
         - Spinner at (17, 15) [spinner_up] leads to (17, 14).
+        - Spinner at (18, 11) [spinner_left] leads to (15, 13).
 
 # VII. Fossil Quest - Hypotheses Log
 
