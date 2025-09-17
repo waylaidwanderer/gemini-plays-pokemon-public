@@ -67,14 +67,7 @@
 # VI. Active Investigations
 
 - **Rocket Hideout B2F Spinner Physics**
-    - **Objective:** Systematically trigger each spinner to map its entry and exit points. This data is required to fix the `spinner_maze_solver` tool.
-    - **Observed Data:**
-        - Spinner at (17, 15) [spinner_up] leads to (17, 14).
-        - Spinner at (18, 11) [spinner_left] leads to (15, 13).
-        - Spinner at (14, 13) [spinner_right] leads back to (15, 13).
-        - Spinner at (14, 11) [spinner_down] leads to (15, 13).
-        - Spinner at (13, 14) [spinner_up] leads to (3, 10).
-        - Spinner at (5, 10) [spinner_left] leads to (3, 10).
+    - **Status:** All known spinner data for this floor has been collected and successfully implemented into the `spinner_maze_solver` tool. The tool is now the source of truth for this information.
 
 # VII. Fossil Quest - Hypotheses Log
 
