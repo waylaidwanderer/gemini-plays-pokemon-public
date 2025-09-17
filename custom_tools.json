@@ -1058,12 +1058,17 @@
         "screen_text"
       ]
     },
-    "python_script": "import json\nimport re\n\nitem_name_to_find = input_data['item_name']\nscreen_text = input_data['screen_text']\n\nlines = screen_text.split('\\n')\nitems = []\ncursor_pos = -1\n\nitem_list_started = False\ncancel_found = False\nfor i, line in enumerate(lines):\n    # Find the start of the list, which is usually the first item with a quantity\n    if not item_list_started and 'x' in line and re.search(r'\\d', line):\n        item_list_started = True\n\n    if item_list_started and not cancel_found:\n        is_cursor_line = line.strip().startswith('→')\n        cleaned_line = line.replace('→', '').strip()\n        \n        if 'CANCEL' in cleaned_line:\n            cancel_found = True\n            continue\n\n        match = re.match(r'([A-Za-z\\s\\.\\-]+)', cleaned_line)\n        if match:\n            item = match.group(1).strip()\n            if item:\n                items.append(item)\n                if is_cursor_line:\n                    cursor_pos = len(items) - 1\n\ntry:\n    target_pos = items.index(item_name_to_find)\nexcept ValueError:\n    print(json.dumps([]))\n    exit()\n\nif cursor_pos == -1:\n    print(json.dumps([]))\n    exit()\n\nmoves = []\ndiff = target_pos - cursor_pos\n\nif diff > 0:\n    for _ in range(diff):\n        moves.append(\"Down\")\nelif diff < 0:\n    for _ in range(abs(diff)):\n        moves.append(\"Up\")\n\nmoves.append(\"A\")\n\nprint(json.dumps(moves))",
+    "python_script": "import json\n\nitem_name = input_data['item_name']\nscreen_text = input_data['screen_text']\n\nlines = screen_text.strip().split('\\n')\n\ncursor_line_index = -1\nfor i, line in enumerate(lines):\n    if '→' in line:\n        cursor_line_index = i\n        break\n\ntarget_line_index = -1\nfor i, line in enumerate(lines):\n    # Use a simpler, more robust check instead of regex\n    if item_name.upper() in line.upper():\n        target_line_index = i\n        break\n        \nif cursor_line_index != -1 and target_line_index != -1:\n    moves = []\n    vertical_diff = target_line_index - cursor_line_index\n    if vertical_diff > 0:\n        moves.extend(['Down'] * vertical_diff)\n    elif vertical_diff < 0:\n        moves.extend(['Up'] * abs(vertical_diff))\n    \n    moves.append('A')\n    \n    print(json.dumps(moves))\nelse:\n    print(json.dumps([]))",
     "history": [
       {
         "commit_message": "feat: Create item_menu_navigator tool. This tool automates item selection from the inventory, addressing a critical efficiency issue identified by overwatch. It parses screen text to locate the target item and calculates the necessary button presses.",
         "timestamp": "2025-09-17T22:38:29.396Z",
         "action_counter": 221701
+      },
+      {
+        "commit_message": "fix: Improve item matching logic. The previous version used a regex that could fail unexpectedly. This commit replaces it with a simpler and more robust `in` check on the uppercase string, preventing silent failures where the tool would return no output. This is a critical fix for reliable menu automation.",
+        "timestamp": "2025-09-17T23:02:58.571Z",
+        "action_counter": 221737
       }
     ]
   },
