@@ -20,7 +20,7 @@
 - **Warp Tiles (1x1):** To re-use an instant warp tile after arriving on it, you must first step off the tile and then step back on.
 - **Pikachu Trap Mechanic:** On Rocket Hideout floors, interacting with a specific Pikachu can trigger a trap that locks the player on an impassable tile. This trap is escaped by pressing the 'B' button.
 
-# IV. Battle Intelligence
+# III. Battle Intelligence
 
 - **Type Effectiveness Chart (Verified):**
     - Water > Rock/Ground
@@ -45,7 +45,7 @@
     - **Chansey:** REFLECT, EGG BOMB.
     - **Sandshrew (Wild, Mt. Moon):** SCRATCH, POISON STING.
 
-# V. Key Discoveries & Lessons Learned
+# IV. Key Discoveries & Lessons Learned
 
 - **PC Mechanics (CRITICAL):** The PC is **stateful**. It remembers the last system accessed (e.g., 'BILL's PC' for Pokémon or 'Gem's PC' for Items). When turning on the PC, it will open directly into the last-used system, bypassing the main selection menu. Any automation tool MUST account for this by having a reset sequence (e.g., pressing 'B' multiple times) to return to a known state before executing commands.
 - **Route 4 Access (CRITICAL):** There are two distinct maps named 'Route 4'. One is west of Mt. Moon (accessible from Route 3) and one is east of Mt. Moon (leading to Cerulean City). The eastern section is a one-way path *from* Mt. Moon, blocking westward travel. They are not directly connected.
@@ -55,7 +55,7 @@
 - **Pikachu Following Mechanic (CRITICAL CLARIFICATION):** My previous understanding was incomplete. The 'turn vs. move' mechanic is stateful and depends on the player's current facing direction. A button press in Pikachu's direction will only cause a turn *if the player is not already facing that direction*. Any pathfinding tool for spinner mazes *must* track the player's inferred facing direction based on the last move in the path and add an extra button press for a 'turn' action when required. Failure to do so results in invalid path sequences.
 - **Rocket Hideout Spinner Physics:** All known spinner data for the Rocket Hideout B2F floor has been collected.
 
-# VI. Fossil Quest - Hypotheses Log
+# V. Fossil Quest - Hypotheses Log
 
 - **Active Hypotheses:**
     - *Generating new hypotheses with an agent. All previous active hypotheses are now considered stalled or invalid.*
@@ -105,7 +105,7 @@
     - There is a hidden switch or item on the floor, possibly revealed by the Itemfinder. (Result: Failed. ITEMFINDER did not respond on B3F.)
     - The Super Nerd's dialogue at 1F (25, 32) has changed. (Result: Failed. Dialogue unchanged.)
 
-# VII. Strategic Notes & Reminders
+# VI. Strategic Notes & Reminders
 
 - **Agent Utilization:** For complex navigation puzzles, I must remember to use the `multi_stage_navigator` agent to guide exploration instead of relying on manual trial-and-error. The agent is designed to suggest the most logical next step.
 - **Tool Maintenance Protocol:** Critical tool flaws must be fixed *immediately* upon discovery. Deferring fixes is a critical failure. This includes improving tools that provide poor feedback, like the pathfinder.
