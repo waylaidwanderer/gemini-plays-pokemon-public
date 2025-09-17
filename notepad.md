@@ -5,7 +5,7 @@
     - **Status:** Active. 
 - **Stalled Quest: The Copycat's Gift**
     - **Objective:** Obtain a POKé DOLL and give it to COPYCAT.
-    - **Status:** Stalled. All leads in Cerulean City exhausted. Suspect COPYCAT is not in a currently accessible area.
+    - **Status:** Active. Currently searching Cerulean City.
 - **Completed Quest: Rocket Investigation**
     - **Objective:** Use the LIFT KEY to operate the elevator in the Rocket Hideout.
     - **Status:** Completed. Defeated Giovanni and dismantled the operation.
@@ -20,7 +20,15 @@
 - **Warp Tiles (1x1):** To re-use an instant warp tile after arriving on it, you must first step off the tile and then step back on.
 - **Pikachu Trap Mechanic:** On Rocket Hideout floors, interacting with a specific Pikachu can trigger a trap that locks the player on an impassable tile. This trap is escaped by pressing the 'B' button.
 
-# III. Battle Intelligence
+# III. Tile Mechanics
+
+- **ground:** Standard walkable tile.
+- **grass:** Walkable tile where wild Pokémon encounters can occur.
+- **water:** Traversable only with the Surf HM.
+- **impassable:** Walls, objects, and other barriers. Cannot be entered.
+- **ledge:** A one-way barrier. Can be jumped down from above (Y-1), but cannot be climbed up from below (Y+1) or traversed horizontally.
+
+# IV. Battle Intelligence
 
 - **Type Effectiveness Chart (Verified):**
     - Water > Rock/Ground
@@ -45,7 +53,7 @@
     - **Chansey:** REFLECT, EGG BOMB.
     - **Sandshrew (Wild, Mt. Moon):** SCRATCH, POISON STING.
 
-# IV. Key Discoveries & Lessons Learned
+# V. Key Discoveries & Lessons Learned
 
 - **PC Mechanics (CRITICAL):** The PC is **stateful**. It remembers the last system accessed (e.g., 'BILL's PC' for Pokémon or 'Gem's PC' for Items). When turning on the PC, it will open directly into the last-used system, bypassing the main selection menu. Any automation tool MUST account for this by having a reset sequence (e.g., pressing 'B' multiple times) to return to a known state before executing commands.
 - **Route 4 Access (CRITICAL):** There are two distinct maps named 'Route 4'. One is west of Mt. Moon (accessible from Route 3) and one is east of Mt. Moon (leading to Cerulean City). The eastern section is a one-way path *from* Mt. Moon, blocking westward travel. They are not directly connected.
@@ -55,10 +63,14 @@
 - **Pikachu Following Mechanic (CRITICAL CLARIFICATION):** My previous understanding was incomplete. The 'turn vs. move' mechanic is stateful and depends on the player's current facing direction. A button press in Pikachu's direction will only cause a turn *if the player is not already facing that direction*. Any pathfinding tool for spinner mazes *must* track the player's inferred facing direction based on the last move in the path and add an extra button press for a 'turn' action when required. Failure to do so results in invalid path sequences.
 - **Rocket Hideout Spinner Physics:** All known spinner data for the Rocket Hideout B2F floor has been collected.
 
-# V. Fossil Quest - Hypotheses Log
+# VI. Fossil Quest - Hypotheses Log
 
 - **Active Hypotheses:**
-    - *Generating new hypotheses with an agent. All previous active hypotheses are now considered stalled or invalid.*
+    - The Rocket Grunt or Hiker will react to the revived *Dome* Fossil Pokémon, Kabuto. (Next to test)
+    - The Hiker will move if 'Earthquake' is used in a wild battle adjacent to him.
+    - The Hiker will move if spoken to with only one conscious Pokémon in the party.
+    - The Hiker requires a monetary payment or will react to the player having zero money.
+    - The 'fossil' the Rocket Grunt wants is a Pokémon Egg.
 - **Failed Hypotheses:**
     - The Hiker will move after all Team Rocket members within Mt. Moon have been defeated. (Result: Failed. All battlable Rockets defeated, Hiker's dialogue unchanged.)
     - The Hiker will move if the player has registered a certain number of Pokémon (e.g., 20) in their Pokédex. (Result: Failed. Player has 55 Pokémon registered, Hiker's dialogue unchanged.)
@@ -105,15 +117,8 @@
     - There is a hidden switch or item on the floor, possibly revealed by the Itemfinder. (Result: Failed. ITEMFINDER did not respond on B3F.)
     - The Super Nerd's dialogue at 1F (25, 32) has changed. (Result: Failed. Dialogue unchanged.)
 
-# VI. Strategic Notes & Reminders
+# VII. Strategic Notes & Future Ideas
 
 - **Agent Utilization:** For complex navigation puzzles, I must remember to use the `multi_stage_navigator` agent to guide exploration instead of relying on manual trial-and-error. The agent is designed to suggest the most logical next step.
 - **Tool Maintenance Protocol:** Critical tool flaws must be fixed *immediately* upon discovery. Deferring fixes is a critical failure. This includes improving tools that provide poor feedback, like the pathfinder.
-- **Fossil Quest - Active Hypotheses:**
-    - 1. The Rocket Grunt or Hiker will react to the revived *Dome* Fossil Pokémon, Kabuto. (Next to test)
-    - 2. The Hiker will move if 'Earthquake' is used in a wild battle adjacent to him.
-    - 3. The Hiker will move if spoken to with only one conscious Pokémon in the party.
-    - 4. The Hiker requires a monetary payment or will react to the player having zero money.
-    - 5. The 'fossil' the Rocket Grunt wants is a Pokémon Egg.
-- **Fossil Quest - Invalidated Hypotheses:**
-    - Present an un-revived Helix or Dome Fossil *item* to the Rocket Grunt at B2F (30,12). (Reason: Cannot obtain another un-revived fossil.)
+- **Future Agent Idea: Exploration Planner:** Create an agent that takes a city name and a list of visited building coordinates, then outputs the next logical building to visit to ensure systematic exploration.
