@@ -8,7 +8,7 @@
     - **Status:** Stalled. All leads in Cerulean City exhausted. Suspect COPYCAT is not in a currently accessible area.
 - **Secondary Quest: Rocket Investigation**
     - **Objective:** Use the LIFT KEY to operate the elevator in the Rocket Hideout.
-    - **Status:** Active. LIFT KEY obtained. Currently navigating back to the elevator.
+    - **Status:** Active. LIFT KEY obtained. Currently backtracking to find the correct path to the elevator.
 
 # II. Game Mechanics & World Rules
 
@@ -16,15 +16,20 @@
 - **Battle Menu Anomaly:** The game appears to intentionally restrict move selection in certain wild battles to the first move slot.
 - **Party Menu 'SWITCH' Lock:** The game can prevent using the 'SWITCH' command in the party menu, observed after multiple failed escape attempts.
 - **Shop Menu Navigation Anomaly:** The Cerulean Mart shop menu does not follow a standard grid layout and requires 'B' to exit.
+
+### Movement & Interaction
 - **PC Interaction:** The tile for the PC in Pokémon Centers (e.g., Viridian Pokecenter (14,4)) is typed as `grass` in the map data, but it is impassable. Interaction requires standing on the tile directly below it (at (X, Y+1)) and facing up.
 - **Warp Tiles (1x1):** To re-use an instant warp tile after arriving on it, you must first step off the tile and then step back on.
 - **Ledge Traversal:** Moving down onto a ledge tile automatically results in a two-tile jump to the tile below the ledge.
-- **Spinner Tiles:** There are two main types:
-    - **Directional Spinners (`spinner_up`, `spinner_down`, `spinner_left`, `spinner_right`):** Force movement in a specific direction. This forced movement continues until an obstacle is hit. Treated as impassable by the pathfinder.
-    - **Spinner Stop Tiles (`spinner_stop`):** A safe tile that halts all momentum from a spinner chain. It does not initiate movement on its own.
-- **Gate Tiles:**
-    - **`closed_gate`:** An impassable gate that is currently visible on the screen. Pathfinding treats this as a wall.
-    - **`gate_offscreen`:** A gate (either open or closed) that is not currently visible on the screen. Pathfinding optimistically treats this as open to encourage exploration.
+- **Pikachu Following Mechanic (CRITICAL):** If Pikachu is directly adjacent to the player in the direction of intended movement, the first button press will only turn the player to face Pikachu. A second button press in the same direction is required to move onto Pikachu's tile. This does not apply if the player is already facing Pikachu.
+
+### Tile-Specific Rules
+- **`ground`, `grass`:** Standard walkable tiles.
+- **`impassable`:** Walls, objects, and other barriers. Cannot be entered.
+- **`spinner_...`:** Directional spinner tiles that force movement until an obstacle is hit.
+- **`spinner_stop`:** A safe tile that halts all momentum from a spinner chain.
+- **`closed_gate`:** An impassable gate that is currently visible on the screen. Pathfinding treats this as a wall.
+- **`gate_offscreen`:** A gate (either open or closed) that is not currently visible. Pathfinding optimistically treats this as open to encourage exploration.
 
 # III. Battle Intelligence
 
@@ -119,7 +124,7 @@
     - The Hiker on 1F will move if the Poké Flute is used near him. (Result: Item use had no effect.)
     - The Rocket Grunt will accept the revived HELIX fossil Pokémon (Omanyte), but only if it is fainted. (Result: Failed. Dialogue unchanged.)
     - The 'fossil' the Grunt wants is a Moon Stone held by a Clefairy. (Result: Failed. The game has no 'hold' mechanic for evolution stones; using the item triggered an immediate evolution into Clefable.)
-    - The Hiker at 1F (6,7) will move if approached with a party where all non-fainted members are afflicted with the 'Poison' status condition. (Note: LUNA fainted from poison damage en route.) (Result: Failed. Dialogue unchanged.)
+    - The Hiker at 1F (6,7) will approach with a party where all non-fainted members are afflicted with the 'Poison' status condition. (Note: LUNA fainted from poison damage en route.) (Result: Failed. Dialogue unchanged.)
     - Using Selfdestruct on a wall near the Rocket Grunt at B2F (30,12) will create a new passage. (Result: Failed. Used Selfdestruct in a battle adjacent to the wall at (31,12). The wall remained impassable.)
     - The Hiker on 1F is the father of the Super Nerd. Defeating the son will make the Hiker move. (Result: Failed. The Super Nerd was already defeated, and the Hiker's dialogue is unchanged.)
 
