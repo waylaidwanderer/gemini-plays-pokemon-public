@@ -7,8 +7,8 @@
     - **Objective:** Obtain a POKé DOLL and give it to COPYCAT.
     - **Status:** Stalled. All leads in Cerulean City exhausted. Suspect COPYCAT is not in a currently accessible area.
 - **Secondary Quest: Rocket Investigation**
-    - **Objective:** Retrieve the LIFT KEY from a PC and use it to operate the elevator in the Rocket Hideout.
-    - **Note:** The LIFT KEY is confirmed to be in the PC storage. The Rocket at (27,13) on B3F mentioned it is needed for the elevator. The puzzle is to exit the hideout, retrieve the key, and return.
+    - **Objective:** Use the LIFT KEY to operate the elevator in the Rocket Hideout.
+    - **Status:** Active. LIFT KEY obtained. Currently navigating back to the elevator.
 
 # II. Game Mechanics & World Rules
 
@@ -16,6 +16,15 @@
 - **Battle Menu Anomaly:** The game appears to intentionally restrict move selection in certain wild battles to the first move slot.
 - **Party Menu 'SWITCH' Lock:** The game can prevent using the 'SWITCH' command in the party menu, observed after multiple failed escape attempts.
 - **Shop Menu Navigation Anomaly:** The Cerulean Mart shop menu does not follow a standard grid layout and requires 'B' to exit.
+- **PC Interaction:** The tile for the PC in Pokémon Centers (e.g., Viridian Pokecenter (14,4)) is typed as `grass` in the map data, but it is impassable. Interaction requires standing on the tile directly below it (at (X, Y+1)) and facing up.
+- **Warp Tiles (1x1):** To re-use an instant warp tile after arriving on it, you must first step off the tile and then step back on.
+- **Ledge Traversal:** Moving down onto a ledge tile automatically results in a two-tile jump to the tile below the ledge.
+- **Spinner Tiles:** There are two main types:
+    - **Directional Spinners (`spinner_up`, `spinner_down`, `spinner_left`, `spinner_right`):** Force movement in a specific direction. This forced movement continues until an obstacle is hit. Treated as impassable by the pathfinder.
+    - **Spinner Stop Tiles (`spinner_stop`):** A safe tile that halts all momentum from a spinner chain. It does not initiate movement on its own.
+- **Gate Tiles:**
+    - **`closed_gate`:** An impassable gate that is currently visible on the screen. Pathfinding treats this as a wall.
+    - **`gate_offscreen`:** A gate (either open or closed) that is not currently visible on the screen. Pathfinding optimistically treats this as open to encourage exploration.
 
 # III. Battle Intelligence
 
@@ -55,17 +64,9 @@
 
 - **Rocket Hideout Spinner Mazes (B2F & B3F):** The mazes are divided into sections. B2F's key is the spinner at (14, 11) to reach the southern section at (15, 13). The Pikachu interactions on both floors are traps that lock the player and must be escaped by pressing 'B'.
 
-# VI. Tile Mechanics & Interaction Rules
+# VI. Future Development Notes
 
-- **PC Interaction:** The tile for the PC in Pokémon Centers (e.g., Viridian Pokecenter (14,4)) is typed as `grass` in the map data, but it is impassable. Interaction requires standing on the tile directly below it (at (X, Y+1)) and facing up.
-- **Warp Tiles (1x1):** To re-use an instant warp tile after arriving on it, you must first step off the tile and then step back on.
-- **Ledge Traversal:** Moving down onto a ledge tile automatically results in a two-tile jump to the tile below the ledge.
-- **Spinner Tiles:** There are two main types:
-    - **Directional Spinners (`spinner_up`, `spinner_down`, `spinner_left`, `spinner_right`):** Force movement in a specific direction. This forced movement continues until an obstacle is hit. Treated as impassable by the pathfinder.
-    - **Spinner Stop Tiles (`spinner_stop`):** A safe tile that halts all momentum from a spinner chain. It does not initiate movement on its own.
-- **Gate Tiles:**
-    - **`closed_gate`:** An impassable gate that is currently visible on the screen. Pathfinding treats this as a wall.
-    - **`gate_offscreen`:** A gate (either open or closed) that is not currently visible on the screen. Pathfinding optimistically treats this as open to encourage exploration.
+- Consider creating a robust `spinner_maze_solver` tool to automate navigation in spinner mazes, as this is a recurring challenge.
 
 # VII. Fossil Quest - Hypotheses Log
 
