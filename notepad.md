@@ -6,12 +6,16 @@
 -   **Obstacle:** A Scientist at (13, 5) on 1F blocks the path to an item.
 -   **Key Finding:** The Scientist at (13, 5) is in an area completely surrounded by impassable tiles. Hypotheses requiring direct interaction are invalid. **CRITICAL:** Avoid confirmation bias that this specific Scientist is the *only* key. The solution may lie elsewhere in the museum.
 -   **New Hypotheses (from Agent):**
-    1.  **Rank 1:** Use the HM move 'Cut' on the tree blocking the east side entrance of the museum. (Reasoning: Suggests an alternate entrance may exist, a common puzzle mechanic. Status: Blocked, path unreachable.)
-    2.  **Rank 2:** Use the Itemfinder on the first floor, specifically in front of the large space shuttle exhibit. (Reasoning: Re-using a tested tool in a more logical, untested location. Note: Space Shuttle is on 2F, but the spirit of the hypothesis is to check 1F exhibits.)
+    1.  **Rank 1:** Place a Clefairy in the first slot of your party and speak to the scientist on the second floor standing near the large Moon Stone display. (Reasoning: Tests for a hidden, theme-based NPC trigger. Status: Testable, requires PC visit.)
+    2.  **Rank 2:** Attempt to ride the Bicycle indoors on the first floor. (Reasoning: Unconventional item use might trigger a unique event. Status: Testable.)
+-   **Invalidated Hypotheses (from Agent):**
+    - Use 'Cut' on the east-side tree: The path to the tree is physically blocked by the impassable museum building itself, not an event. (Verified by pathfinder).
+    - Check behind the counter: The tiles behind the counter are marked as impassable. (Verified by map data).
 -   **Failed Hypotheses (Consolidated):**
     - After talking to the scientist on the 2nd floor next to the Aerodactyl fossil, interact with the fossil display itself. (Result: No change, triggered standard trap.)
     - Use the 'POKé DOLL' item while standing next to the barrier in front of the Scientist. (Result: Professor Oak's dialogue prevents use.)
     - Use a Pokémon with the move 'Dig' in front of the scientist. (Result: Warped out of the museum, similar to an Escape Rope).
+    - Use the Itemfinder on the first floor, specifically in front of the large space shuttle exhibit. (Result: The exhibit is on 2F, but using Itemfinder on 1F yielded nothing.)
     - Use a Poké Doll on the blocking Scientist at (13, 5). (Result: Untestable, path is blocked)
     - Interact with the large Moon Stone display on the 2nd floor. (Result: No change)
     - Talk to the Youngster at (2, 8) on 2F, then return to the blocking Scientist on 1F. (Result: No change)
