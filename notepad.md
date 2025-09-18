@@ -4,11 +4,11 @@
 -   **Objective:** Retrieve the Old Amber.
 -   **Location:** Pewter Museum of Science.
 -   **Obstacle:** A Scientist at (13, 5) on 1F blocks the path.
--   **Agent-Generated Hypotheses (Testing):**
-    1.  Use a Poké Doll on the blocking Scientist at (13, 5).
-    2.  Interact with the large Moon Stone display on the 2nd floor.
-    3.  Talk to the Youngster at (2, 8) on 2F, then return to the blocking Scientist on 1F.
-    4.  Use the Itemfinder on the 2nd floor to find a hidden item.
+-   **Failed Hypotheses (continued):**
+    4.  Use a Poké Doll on the blocking Scientist at (13, 5). (Result: Untestable, path is blocked)
+    5.  Interact with the large Moon Stone display on the 2nd floor. (Result: No change)
+    6.  Talk to the Youngster at (2, 8) on 2F, then return to the blocking Scientist on 1F. (Result: No change)
+    7.  Use the Itemfinder on the 2nd floor to find a hidden item. (Result: No item found)
 
 ## **Active Quest: The Copycat's Gift**
 
