@@ -64,12 +64,6 @@
 - **Fossil Quest Confirmation Bias:** I may be too focused on the Hiker at 1F (6,7) being the direct solution. I must remain open to testing hypotheses that are not directly related to interacting with the Hiker himself.
 - **Game Corner Entry Failure (CRITICAL):** Became stuck in a loop for over 20 turns attempting to enter the Celadon Game Corner while Pikachu blocked one of the warp tiles. **Lesson:** If a specific path or objective is repeatedly blocked, do not persist with the same failed approach. Re-evaluate, check for alternate routes, or pivot to a different high-priority goal.
 
-# VI. Strategic Notes
-
-- **Agent Utilization:** For complex puzzles, I must use `multi_stage_navigator` and `npc_behavior_strategist` instead of manual trial-and-error.
-- **Tool Maintenance Protocol:** Critical tool flaws must be fixed *immediately* upon discovery.
-- **`autopress_buttons` Flag (CRITICAL):** Certain automation tools require the `autopress_buttons: true` flag to be set when called to function correctly.
-
 # VIII. Verified Observations
 
 - **Game Corner Clerk Dialogue:** The clerk at (6, 7) will say "You don't have a COIN CASE!" if the player attempts to buy coins without one.
