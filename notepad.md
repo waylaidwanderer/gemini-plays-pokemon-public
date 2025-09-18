@@ -4,10 +4,11 @@
 -   **Objective:** Retrieve the Old Amber.
 -   **Location:** Pewter Museum of Science.
 -   **Obstacle:** A Scientist at (13, 5) on 1F blocks the path.
--   **Failed Hypotheses:**
-    1.  Showing a living Aerodactyl/Kabutops to the Old Man at (2, 5) will move the blocking Scientist. (Result: No change)
-    2.  Triggering both the Kabutops and Aerodactyl Fossil traps in succession will move the Scientist. (Result: No change)
-    3.  Reading the "SPACE SHUTTLE COLUMBIA" sign on 2F will change NPC dialogue, revealing a clue. (Result: No change)
+-   **Agent-Generated Hypotheses (Testing):**
+    1.  Use a Poké Doll on the blocking Scientist at (13, 5).
+    2.  Interact with the large Moon Stone display on the 2nd floor.
+    3.  Talk to the Youngster at (2, 8) on 2F, then return to the blocking Scientist on 1F.
+    4.  Use the Itemfinder on the 2nd floor to find a hidden item.
 
 ## **Stalled Quest: The Copycat's Gift**
 
