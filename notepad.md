@@ -123,6 +123,9 @@
     - The NPC Melanie in Cerulean City will have new dialogue if the player has a Bulbasaur in the lead of their party. (Result: Confirmed. Dialogue changed to a single line but did not advance the Copycat quest.)
     - The Hiker will move if spoken to with only one conscious Pokémon in the party. (Result: Failed. Dialogue unchanged.)
     - Interacting with the Scientist at (8, 6) from position (8, 7) will move the Youngster. (Result: Failed. The Scientist only provided flavor text about the space exhibit.)
+    - Interacting with the Scientist at (8, 6) from position (7, 6) will move the Youngster. (Result: Failed. The Scientist only provided flavor text about the space exhibit.)
+    - Interacting with Pikachu from position (7, 6) will move the Youngster. (Result: Failed. Triggered a 'Cancel Lock' trap.)
+    - Interacting with the Youngster at (8, 8) from position (7, 8) will make him move off the warp tile. (Result: Failed. Dialogue unchanged.)
 
 # X. Archived Quests & Solved Puzzles
 
