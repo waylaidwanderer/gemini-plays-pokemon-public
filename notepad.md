@@ -4,17 +4,20 @@
 -   **Objective:** Retrieve the Old Amber.
 -   **Location:** Pewter Museum of Science.
 -   **Obstacle:** A Scientist at (13, 5) on 1F blocks the path to an item.
--   **Key Finding:** The Scientist at (13, 5) is in an area completely surrounded by impassable tiles. Hypotheses requiring direct interaction are invalid. **CRITICAL:** Avoid confirmation bias that this specific Scientist is the *only* key. The solution may lie elsewhere in the museum.
 -   **New Hypotheses (from Agent):**
     1.  **Rank 1:** Give a 'Fresh Water', 'Soda Pop', or 'Lemonade' to the thirsty man in NW Pewter City. (Reasoning: Classic side-quest trigger that could affect the museum.)
-    2.  **Rank 2:** Interact with the large space shuttle model on 2F of the museum. (Reasoning: Untested major exhibit could be a hidden switch.)
-    3.  **Rank 3:** Examine the exterior rear wall of the museum for a hidden switch. (Reasoning: Builds on the failed 'Cut' idea with a more subtle approach.)
-    4.  **Rank 4:** Use the 'Silph Scope' on 1F of the museum near the blocking Scientist. (Reasoning: Unconventional item use for a potentially paranormal puzzle.)
-    5.  **Rank 5:** Place a Pokémon with the 'Illuminate' ability in the lead and interact with the unlit fossil display. (Reasoning: Tests an obscure non-HM field ability.)
-    -   **Invalidated Hypotheses:**
+    2.  **Rank 3:** Examine the exterior rear wall of the museum for a hidden switch. (Reasoning: Builds on the failed 'Cut' idea with a more subtle approach.)
+    3.  **Rank 4:** Use the 'Silph Scope' on 1F of the museum near the blocking Scientist. (Reasoning: Unconventional item use for a potentially paranormal puzzle.)
+    4.  **Rank 5:** Place a Pokémon with the 'Illuminate' ability in the lead and interact with the unlit fossil display. (Reasoning: Tests an obscure non-HM field ability.)
+-   **Contingency Plans:**
+    - If all other hypotheses fail, use the Itemfinder on both floors of the museum to search for hidden items, including the Old Amber itself.
+-   **Anomalies to Investigate:**
+    - There is a single tile of `grass` at (12, 2) on the museum's 2F. This is highly unusual for an indoor location and may be a hidden puzzle element. Plan to investigate this tile if other leads are exhausted.
+-   **Invalidated Hypotheses:**
     - Go behind the main counter on 1F: The tiles behind the counter are marked as impassable. (Verified by map data).
     - Use 'Cut' on the east-side tree (before event): The path to the tree is physically blocked by the impassable museum building itself. (Verified by pathfinder).
 -   **Failed Hypotheses (Consolidated):**
+    - Interact with the large space shuttle model on 2F of the museum. (Result: Displayed the text "SPACE SHUTTLE COLUMBIA", no other effect.)
     - Place a Clefairy/Clefable in the first party slot and speak to the scientist near the Moon Stone display on 2F. (Result: No change in dialogue.)
     - Attempt to ride the Bicycle indoors on the first floor. (Result: Professor Oak's dialogue prevents use.)
     - After talking to the scientist on the 2nd floor next to the Aerodactyl fossil, interact with the fossil display itself. (Result: No change, triggered standard trap.)
