@@ -87,7 +87,7 @@
 - **Active Hypotheses (from `npc_behavior_strategist`):**
     - **(Rank 1: Clefairy Hypothesis)** Show a Clefairy to the Gambler at (2, 5) to cause a commotion that distracts the Scientist at (13, 5).
     - **(Rank 2: Moon Stone Hypothesis)** Use a Moon Stone in front of the Scientist at (18, 5) who talks about Mt. Moon.
-    - **(Rank 3: Aerodactyl to Gambler Hypothesis)** Show a live Aerodactyl to the Gambler at (2, 5).
+    - **(Failed: Aerodactyl to Gambler Hypothesis)** Show a live Aerodactyl to the Gambler at (2, 5). (Result: Dialogue unchanged.)
     - **(Rank 4: Rapid Trap Trigger Hypothesis)** Trigger the Kabutops and Aerodactyl fossil traps in quick succession to create a distraction.
 - **Failed Hypotheses:**
     - **(Show Matching Fossil)** Interacting with a fossil exhibit with the corresponding live Pokémon (e.g., Aerodactyl with Aerodactyl Fossil) will trigger a new event. (Result: Failed. Triggered the same trap.)
@@ -160,5 +160,5 @@
 
 - **(Rank 1: Clefairy Hypothesis)** Show a Clefairy to the Gambler at (2, 5) to cause a commotion that distracts the Scientist at (13, 5).
 - **(Rank 2: Moon Stone Hypothesis)** Use a Moon Stone in front of the Scientist at (18, 5) who talks about Mt. Moon.
-- **(Rank 3: Aerodactyl to Gambler Hypothesis)** Show a live Aerodactyl to the Gambler at (2, 5).
+- **(Failed: Aerodactyl to Gambler Hypothesis)** Show a live Aerodactyl to the Gambler at (2, 5). (Result: Dialogue unchanged.)
 - **(Rank 4: Rapid Trap Trigger Hypothesis)** Trigger the Kabutops and Aerodactyl fossil traps in quick succession to create a distraction.
