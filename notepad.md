@@ -126,6 +126,7 @@
     - Interacting with the Scientist at (8, 6) from position (7, 6) will move the Youngster. (Result: Failed. The Scientist only provided flavor text about the space exhibit.)
     - Interacting with Pikachu from position (7, 6) will move the Youngster. (Result: Failed. Triggered a 'Cancel Lock' trap.)
     - Interacting with the Youngster (initially at (7, 8)) from position (6, 8) moved him to (8, 8), blocking the warp. A subsequent interaction from (7, 8) did not move him further. (Result: Failed. Dialogue unchanged.)
+    - (Agent Hypothesis #2) Leading with a fossil Pokémon (Kabutops) and interacting with the Youngster does not make him move. (Result: Failed. Dialogue unchanged.)
 
 # X. Archived Quests & Solved Puzzles
 
@@ -136,4 +137,3 @@
     - **Objective:** Obtain a COIN CASE to play games at the Celadon Game Corner.
     - **Status:** Completed.
     - **Solution:** The Gym Guide NPC at (1, 2) in the Celadon Diner gives the player the COIN CASE. He mentions he is giving up gambling after losing everything at the slots, a fact corroborated by the Fisher NPC in the same room.
-    - (Agent Hypothesis #2) Leading with a fossil Pokémon (Kabutops) and interacting with the Youngster does not make him move. (Result: Failed. Dialogue unchanged.)
