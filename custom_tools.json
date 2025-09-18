@@ -1092,7 +1092,7 @@
         "action"
       ]
     },
-    "python_script": "import json\n\ndef navigate_pc():\n    action = input_data['action']\n    party_slot = input_data.get('party_slot')\n    pokemon_name = input_data.get('pokemon_name')\n\n    # Aggressive reset sequence to ensure we start from the overworld\n    buttons = ['B'] * 8\n\n    # Open PC and access BILL's PC (Pokémon Storage)\n    buttons.extend(['A', 'A'])\n\n    if action == 'deposit':\n        # Navigate to DEPOSIT PKMN\n        buttons.append('Down')\n        buttons.append('A')\n        # Navigate to the specified party slot\n        if party_slot:\n            slot_num = int(party_slot)\n            if slot_num > 1:\n                buttons.extend(['Down'] * (slot_num - 1))\n        buttons.append('A') # Select Pokémon\n        buttons.append('A') # Confirm DEPOSIT\n\n    elif action == 'withdraw':\n        # Navigate to WITHDRAW PKMN (already selected)\n        buttons.append('A')\n        # This part is complex as it requires finding the Pokémon in the box.\n        # For now, we'll assume the user will handle box navigation and Pokémon selection manually after this.\n        # A future version could parse screen text to find the Pokémon.\n        pass # Manual selection needed for now\n\n    print(json.dumps(buttons))\n\nnavigate_pc()",
+    "python_script": "import json\n\ndef pc_navigator():\n    action = input_data.get('action')\n    party_slot_str = input_data.get('party_slot')\n    pokemon_name = input_data.get('pokemon_name')\n\n    # Robust reset sequence\n    buttons = ['B'] * 8  # Exit any menu to overworld\n    buttons.append('A')   # Interact with PC\n    buttons.extend(['Up'] * 10) # Ensure cursor is at the top\n    buttons.append('A')   # Select BILL's PC\n\n    if action == 'deposit':\n        buttons.append('Down') # Move to DEPOSIT PKMN\n        buttons.append('A')   # Select DEPOSIT PKMN\n        if party_slot_str:\n            try:\n                party_slot = int(party_slot_str)\n                buttons.extend(['Down'] * (party_slot - 1))\n                buttons.append('A') # Select Pokemon\n                buttons.append('A') # Confirm DEPOSIT\n            except (ValueError, TypeError):\n                pass\n    elif action == 'withdraw':\n        buttons.append('A') # Select WITHDRAW PKMN\n    \n    print(json.dumps(buttons))\n\npc_navigator()",
     "history": [
       {
         "commit_message": "feat: Create pc_navigator tool for automation. This initial version handles the 'deposit' action. It includes a critical 'B' button reset sequence to manage the PC's stateful nature, preventing common interaction failures. This is a high-priority tool to improve efficiency.",
@@ -1113,6 +1113,11 @@
         "commit_message": "fix: Overhaul reset sequence and action logic. The previous version's reset was unreliable, causing loops if the PC was in an unexpected state. This commit implements a more aggressive 8-press 'B' reset to ensure a clean return to the overworld before initiating any action. It also refines the deposit/withdraw logic to be more predictable and stops the tool from trying to auto-exit, preventing further state mismatches. This directly addresses the critical Overwatch critique.",
         "timestamp": "2025-09-18T17:54:28.880Z",
         "action_counter": 223374
+      },
+      {
+        "commit_message": "feat: Add cursor reset to PC navigation. The tool was failing because the PC menu cursor position is stateful. This commit adds a sequence of 'Up' presses after accessing the PC to guarantee the cursor is on the top option ('BILL's PC') before proceeding. This is a critical fix to improve the tool's reliability and address an Overwatch critique.",
+        "timestamp": "2025-09-18T18:39:35.411Z",
+        "action_counter": 223459
       }
     ]
   },
