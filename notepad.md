@@ -144,3 +144,8 @@
 
 - **Elevated Ground & Steps:** Movement between `ground` and `elevated_ground` tiles is only possible via an intermediary `steps` tile. Direct traversal is impossible.
 - **Future Tool/Agent Idea: Battle Strategist.** Create an agent that analyzes the player's party and the opponent's known roster/movesets to suggest the optimal lead Pokémon and a sequence of moves for a battle.
+
+# XI. New Discoveries & Strategies (Post-Reflection)
+
+- **Elevated Ground & Steps:** Movement between `ground` and `elevated_ground` tiles is only possible via an intermediary `steps` tile. Direct traversal is impossible.
+- **Future Tool/Agent Idea: Battle Strategist.** Create an agent that analyzes the player's party and the opponent's known roster/movesets to suggest the optimal lead Pokémon and a sequence of moves for a battle.
