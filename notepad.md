@@ -78,7 +78,7 @@
 # XI. New Discoveries & Strategies (Post-Reflection)
 
 - **Elevated Ground & Steps:** Movement between `ground` and `elevated_ground` tiles is only possible via an intermediary `steps` tile. Direct traversal is impossible.
-- **Mt. Moon Trap Mechanic:** Similar to the Rocket Hideout, certain tiles in Mt. Moon can trap the player on an 'impassable' tile after a wild battle. This is resolved by pressing the 'A' button to escape a hidden dialogue box. (Correction: Previously thought it was 'B' like the Rocket Hideout, but 'A' is the correct button for this specific trap.)
+- **Trap Tiles:** Interacting with certain objects (e.g., fossil exhibits in Pewter Museum, specific tiles in Mt. Moon) can trigger a trap that locks the player on an impassable tile. This is escaped by pressing 'A' to dismiss a hidden dialogue box.
 - Spoke to Super Nerd at Rock Tunnel B1F (21, 22). Dialogue: 'Costume players dress up as POKéMON for fun.' This was not related to the Mt. Moon fossil quest.
 - Spoke to Super Nerd at Rock Tunnel 1F (24, 9). Dialogue: 'Oh well, I'll get a ZUBAT as I go!'. This was post-battle dialogue and not relevant to the quest. This confirms the Rock Tunnel hypothesis is a dead end.
 
