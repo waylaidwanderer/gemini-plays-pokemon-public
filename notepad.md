@@ -82,11 +82,13 @@
 - Spoke to Super Nerd at Rock Tunnel B1F (21, 22). Dialogue: 'Costume players dress up as POKéMON for fun.' This was not related to the Mt. Moon fossil quest.
 - Spoke to Super Nerd at Rock Tunnel 1F (24, 9). Dialogue: 'Oh well, I'll get a ZUBAT as I go!'. This was post-battle dialogue and not relevant to the quest. This confirms the Rock Tunnel hypothesis is a dead end.
 
-# X. Archived Quests & Solved Puzzles
+# X. Investigation Logs & Archives
 
-- **Quest: Rocket Investigation**
+## Solved Puzzles & Completed Quests
+
+- **Quest: Rocket Investigation (Completed)**
     - **Objective:** Use the LIFT KEY to operate the elevator in the Rocket Hideout.
-    - **Status:** Completed. Defeated Giovanni and dismantled the operation.
+    - **Solution:** Defeated Giovanni and dismantled the operation.
 - **Quest: The Coin Case**
     - **Objective:** Obtain a COIN CASE to play games at the Celadon Game Corner.
     - **Status:** Completed.
