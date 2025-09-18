@@ -100,13 +100,6 @@
         - **(Agent Hypothesis #4 - Trading Mechanic)** The solution involves the in-game trading system. The player must trade their revived fossil Pokémon to another player and then trade it back. (Reason: Unable to trade.)
     - **Failed Hypotheses:**
 
-        - Giving the POKé DOLL to the Grunt will make the Hiker on 1F move. (Result: Invalidated.)
-        - The Hiker will only move for an 'adult' Pokémon (Nidoqueen). (Result: Failed. Dialogue unchanged.)
-        - The fossil is in an interactable rock.
-        - The Hiker on 1F at (6,7) will move if shown the revived HELIX fossil Pokémon.
-        - The scientist in the Cinnabar Lab Fossil Room can 'un-revive' a fossil Pokémon.
-        - Presenting the revived HELIX fossil Pokémon to the Rocket Grunt on B2F will trigger a new event.
-        - The 'fossil' the Rocket Grunt wants is the MOON STONE. (Result: Failed. Dialogue unchanged.)
         - The Rocket Grunt will accept a thematically 'fossil' Pokémon like Marowak.
         - A specific, non-fossil Pokémon from Mt. Moon (e.g., Geodude) will satisfy the Grunt.
         - The Hiker on Mt. Moon 1F at (6,7) is part of a chained quest.
