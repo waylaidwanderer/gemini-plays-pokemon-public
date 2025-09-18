@@ -130,7 +130,6 @@
 
 # VIII. Strategic Notes
 
-- **Fossil Quest Strategy:** The Rocket Grunt was a red herring. The solution must involve the Hiker on 1F. I must systematically test my remaining hypotheses on him.
 - **Agent Utilization:** For complex navigation puzzles, I must remember to use the `multi_stage_navigator` agent to guide exploration instead of relying on manual trial-and-error. The agent is designed to suggest the most logical next step. For the Fossil Quest, I must use the `puzzle_hypothesis_generator` agent to generate new ideas instead of relying solely on my own intuition.
 - **Tool Maintenance Protocol:** Critical tool flaws must be fixed *immediately* upon discovery. Deferring fixes is a critical failure. This includes improving tools that provide poor feedback, like the pathfinder.
 - **`autopress_buttons` Flag (CRITICAL):** The `automated_battle_move_selector` tool outputs a sequence of button presses (e.g., `["Down", "A"]`). For this sequence to execute correctly without being truncated by the system, the `autopress_buttons: true` flag MUST be set when calling the tool. Failure to do so results in only the first button press being executed, causing battle automation to fail.
