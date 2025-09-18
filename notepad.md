@@ -5,10 +5,11 @@
 -   **Location:** Pewter Museum of Science.
 -   **Obstacle:** A Scientist at (13, 5) on 1F blocks the path to an item.
 -   **New Hypotheses (from Agent):**
-    1.  **Rank 1:** Give a 'Fresh Water', 'Soda Pop', or 'Lemonade' to the thirsty man in NW Pewter City. (Reasoning: Classic side-quest trigger that could affect the museum.)
-    2.  **Rank 3:** Examine the exterior rear wall of the museum for a hidden switch. (Reasoning: Builds on the failed 'Cut' idea with a more subtle approach.)
-    3.  **Rank 4:** Use the 'Silph Scope' on 1F of the museum near the blocking Scientist. (Reasoning: Unconventional item use for a potentially paranormal puzzle.)
-    4.  **Rank 5:** Place a Pokémon with the 'Illuminate' ability in the lead and interact with the unlit fossil display. (Reasoning: Tests an obscure non-HM field ability.)
+    1.  **Rank 3:** Examine the exterior rear wall of the museum for a hidden switch. (Reasoning: Builds on the failed 'Cut' idea with a more subtle approach.)
+    2.  **Rank 4:** Use the 'Silph Scope' on 1F of the museum near the blocking Scientist. (Reasoning: Unconventional item use for a potentially paranormal puzzle.)
+    3.  **Rank 5:** Place a Pokémon with the 'Illuminate' ability in the lead and interact with the unlit fossil display. (Reasoning: Tests an obscure non-HM field ability.)
+-   **Failed Hypotheses (Consolidated):**
+    - Give a 'Fresh Water', 'Soda Pop', or 'Lemonade' to the thirsty man in NW Pewter City. (Result: Could not locate the NPC in the specified area.)
 -   **Contingency Plans:**
     - If all other hypotheses fail, use the Itemfinder on both floors of the museum to search for hidden items, including the Old Amber itself.
 -   **Anomalies to Investigate:**
