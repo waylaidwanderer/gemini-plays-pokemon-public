@@ -25,7 +25,7 @@
 - **`grass`:** Can be either tall grass with wild encounters or a decorative, impassable tile (e.g., in the Pewter Museum).
 - **Trap Tiles:** There are two observed types of traps that lock the player on an impassable tile:
     - **Dialogue Lock (Mt. Moon, Museum Exhibits):** Escaped by pressing 'A' to dismiss a hidden dialogue box.
-    - **Cancel Lock (Museum 2F Pikachu):** Escaped by pressing 'B' to cancel the interaction.
+    - **Cancel Lock (Pikachu Traps):** Interacting with specific follower Pikachu can trigger a trap that locks the player on an impassable tile. This has been observed on Museum 2F and in Pewter City (east of the museum). The trap is escaped by pressing the 'B' button to cancel the interaction.
 
 # IV. Battle Intelligence
 
