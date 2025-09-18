@@ -8,6 +8,9 @@
 -   **New Hypotheses (from Agent):**
     1.  **Rank 1:** Place a Clefairy in the first slot of your party and speak to the scientist on the second floor standing near the large Moon Stone display. (Reasoning: Tests for a hidden, theme-based NPC trigger. Status: Testable, requires PC visit.)
     2.  **Rank 2:** Attempt to ride the Bicycle indoors on the first floor. (Reasoning: Unconventional item use might trigger a unique event. Status: Testable.)
+-   **New Hypotheses (from Agent):**
+    1.  **Rank 1:** Place a Clefairy in the first slot of your party and speak to the scientist on the second floor standing near the large Moon Stone display. (Reasoning: Tests for a hidden, theme-based NPC trigger. Status: Testable, requires PC visit.)
+    2.  **Rank 2:** Attempt to ride the Bicycle indoors on the first floor. (Reasoning: Unconventional item use might trigger a unique event. Status: Testable.)
 -   **Invalidated Hypotheses (from Agent):**
     - Use 'Cut' on the east-side tree: The path to the tree is physically blocked by the impassable museum building itself, not an event. (Verified by pathfinder).
     - Check behind the counter: The tiles behind the counter are marked as impassable. (Verified by map data).
