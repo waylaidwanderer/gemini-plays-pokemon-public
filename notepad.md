@@ -22,6 +22,7 @@
 - **`cuttable`:** Tree that can be cut with HM Cut. Becomes `ground` after cutting, but respawns on map change or after battle.
 - **`ledge`:** Can be jumped down, but not climbed up. Treat as impassable from all directions except from above.
 - **`elevated_ground` & `steps`:** Movement between `ground` and `elevated_ground` tiles is only possible via an intermediary `steps` tile. Direct traversal is impossible.
+- **`grass`:** Can be either tall grass with wild encounters or a decorative, impassable tile (e.g., in the Pewter Museum).
 - **Trap Tiles:** There are two observed types of traps that lock the player on an impassable tile:
     - **Dialogue Lock (Mt. Moon, Museum Exhibits):** Escaped by pressing 'A' to dismiss a hidden dialogue box.
     - **Cancel Lock (Museum 2F Pikachu):** Escaped by pressing 'B' to cancel the interaction.
@@ -121,6 +122,7 @@
     - The Super Nerd's dialogue at 1F (25, 32) has changed. (Result: Failed. Dialogue unchanged.)
     - The NPC Melanie in Cerulean City will have new dialogue if the player has a Bulbasaur in the lead of their party. (Result: Confirmed. Dialogue changed to a single line but did not advance the Copycat quest.)
     - The Hiker will move if spoken to with only one conscious Pokémon in the party. (Result: Failed. Dialogue unchanged.)
+    - Interacting with the Scientist at (8, 6) from position (8, 7) will move the Youngster. (Result: Failed. The Scientist only provided flavor text about the space exhibit.)
 
 # X. Archived Quests & Solved Puzzles
 
@@ -131,5 +133,3 @@
     - **Objective:** Obtain a COIN CASE to play games at the Celadon Game Corner.
     - **Status:** Completed.
     - **Solution:** The Gym Guide NPC at (1, 2) in the Celadon Diner gives the player the COIN CASE. He mentions he is giving up gambling after losing everything at the slots, a fact corroborated by the Fisher NPC in the same room.
-- **`grass`:** Can be either tall grass with wild encounters or a decorative, impassable tile (e.g., in the Pewter Museum).
-    - Interacting with the Scientist at (8, 6) from position (8, 7) will move the Youngster. (Result: Failed. The Scientist only provided flavor text about the space exhibit.)
