@@ -3,22 +3,21 @@
 ## Main Quest: The Enigmatic Old Amber
 -   **Objective:** Retrieve the Old Amber.
 -   **Location:** Pewter Museum of Science.
--   **Obstacle:** A Scientist at (13, 5) on 1F blocks the path.
--   **Key Finding:** The Scientist at (13, 5) is in an area completely surrounded by impassable tiles and cannot be interacted with directly. Hypotheses requiring direct interaction are invalid.
+-   **Obstacle:** A Scientist at (13, 5) on 1F blocks the path to an item.
+-   **Key Finding:** The Scientist at (13, 5) is in an area completely surrounded by impassable tiles. Hypotheses requiring direct interaction are invalid. **CRITICAL:** Avoid confirmation bias that this specific Scientist is the *only* key. The solution may lie elsewhere in the museum.
 -   **New Hypotheses (to be tested):**
     1.  Use a Pokémon with the move 'Dig' on the tile directly in front of the impassable barrier separating the player from the Scientist.
     2.  Interact with the large Space Shuttle exhibit on 1F with a Clefairy in the party lead.
     3.  Find and press a hidden switch on the wall behind the museum's front reception desk.
     4.  Use the 'POKé DOLL' item while standing next to the barrier in front of the Scientist.
     5.  Read every single plaque and sign on both floors of the museum in order, then speak to the Old Man at (2, 5) on 1F again.
--   **Failed Hypotheses (continued):**
-    4.  Use a Poké Doll on the blocking Scientist at (13, 5). (Result: Untestable, path is blocked)
-    5.  Interact with the large Moon Stone display on the 2nd floor. (Result: No change)
-    6.  Talk to the Youngster at (2, 8) on 2F, then return to the blocking Scientist on 1F. (Result: No change)
-    7.  Use the Itemfinder on the 2nd floor to find a hidden item. (Result: No item found)
+-   **Failed Hypotheses (Consolidated):**
+    - Use a Poké Doll on the blocking Scientist at (13, 5). (Result: Untestable, path is blocked)
+    - Interact with the large Moon Stone display on the 2nd floor. (Result: No change)
+    - Talk to the Youngster at (2, 8) on 2F, then return to the blocking Scientist on 1F. (Result: No change)
+    - Use the Itemfinder on the 2nd floor to find a hidden item. (Result: No item found)
 
-## **Active Quest: The Copycat's Gift**
-
+## Active Quest: The Copycat's Gift
 -   **Objective:** Give the POKé DOLL to COPYCAT.
 -   **Location:** Cerulean City (exact location of COPYCAT TBD).
 -   **Status:** Item obtained. Ready to proceed once COPYCAT is found.
@@ -43,7 +42,7 @@
 -   **steps:** Allows movement between 'ground' and 'elevated_ground'.
 -   **elevated_ground:** Walkable, but only accessible via 'steps' tiles.
 
-# III. Key Discoveries & Lessons Learned
+# IV. Key Discoveries & Lessons Learned
 
 -   **Confirmation Bias & Over-Correction (CRITICAL):** My handling of the Rocket Hideout B2F maze was a cascade of cognitive errors. **Lesson:** Do not swing from one bias to another. Trust verifiable data and tool outputs over intuition.
 -   **Hypothesis Testing Failure (Preparation):** Arrived at a location to test a hypothesis without the required Pokémon/items/moves. **Lesson:** Always verify party composition and necessary items/moves *before* traveling.
