@@ -4,6 +4,13 @@
 -   **Objective:** Retrieve the Old Amber.
 -   **Location:** Pewter Museum of Science.
 -   **Obstacle:** A Scientist at (13, 5) on 1F blocks the path.
+-   **Key Finding:** The Scientist at (13, 5) is in an area completely surrounded by impassable tiles and cannot be interacted with directly. Hypotheses requiring direct interaction are invalid.
+-   **New Hypotheses (to be tested):**
+    1.  Use a Pokémon with the move 'Dig' on the tile directly in front of the impassable barrier separating the player from the Scientist.
+    2.  Interact with the large Space Shuttle exhibit on 1F with a Clefairy in the party lead.
+    3.  Find and press a hidden switch on the wall behind the museum's front reception desk.
+    4.  Use the 'POKé DOLL' item while standing next to the barrier in front of the Scientist.
+    5.  Read every single plaque and sign on both floors of the museum in order, then speak to the Old Man at (2, 5) on 1F again.
 -   **Failed Hypotheses (continued):**
     4.  Use a Poké Doll on the blocking Scientist at (13, 5). (Result: Untestable, path is blocked)
     5.  Interact with the large Moon Stone display on the 2nd floor. (Result: No change)
