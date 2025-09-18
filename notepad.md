@@ -64,12 +64,6 @@
 - **Fossil Quest Confirmation Bias:** I may be too focused on the Hiker at 1F (6,7) being the direct solution. I must remain open to testing hypotheses that are not directly related to interacting with the Hiker himself.
 - **Game Corner Entry Failure (CRITICAL):** Became stuck in a loop for over 20 turns attempting to enter the Celadon Game Corner while Pikachu blocked one of the warp tiles. **Lesson:** If a specific path or objective is repeatedly blocked, do not persist with the same failed approach. Re-evaluate, check for alternate routes, or pivot to a different high-priority goal.
 
-# VIII. Verified Observations
-
-- **Game Corner Clerk Dialogue:** The clerk at (6, 7) will say "You don't have a COIN CASE!" if the player attempts to buy coins without one.
-- Spoke to Super Nerd at Rock Tunnel B1F (21, 22). Dialogue: 'Costume players dress up as POKéMON for fun.' This was not related to the Mt. Moon fossil quest.
-- Spoke to Super Nerd at Rock Tunnel 1F (24, 9). Dialogue: 'Oh well, I'll get a ZUBAT as I go!'. This was post-battle dialogue and not relevant to the quest. This confirms the Rock Tunnel hypothesis is a dead end.
-
 # X. Investigation Logs & Archives
 
 ## Solved Puzzles & Completed Quests
