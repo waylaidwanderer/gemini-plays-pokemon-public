@@ -2,7 +2,7 @@
 
 - **Current Quest: Retrieve the Old Amber**
     - **Objective:** Retrieve the Old Amber and present it to the Rocket Grunt on Mt. Moon B2F.
-    - **Status:** Active. The Old Amber is likely located in the Pewter Museum of Science.
+    - **Status:** Active. Investigating the Pewter Museum of Science. All NPCs spoken to; no leads found. Next hypothesis: use Cut on the tree east of the museum.
 - **Stalled Quest: The Copycat's Gift**
     - **Objective:** Obtain a POKé DOLL and give it to COPYCAT.
     - **Status:** Active. All leads in Cerulean City exhausted for now.
