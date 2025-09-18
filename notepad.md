@@ -148,4 +148,3 @@
         - The Super Nerd's dialogue at 1F (25, 32) has changed. (Result: Failed. Dialogue unchanged.)
         - The NPC Melanie in Cerulean City will have new dialogue if the player has a Bulbasaur in the lead of their party. (Result: Confirmed. Dialogue changed to a single line but did not advance the Copycat quest.)
         - The Hiker will move if spoken to with only one conscious Pokémon in the party. (Result: Failed. Dialogue unchanged.)
-- **Pewter Museum Trap Mechanic:** Interacting with fossil exhibits can trigger a trap that locks the player on an impassable tile. This is escaped by pressing the 'A' button to dismiss a hidden dialogue box.
