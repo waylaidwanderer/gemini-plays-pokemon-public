@@ -1,4 +1,31 @@
 {
+  "auto_run_from_battle": {
+    "description": "Automates running from a wild battle. Navigates to and selects the 'RUN' option from the main battle menu. Must be called with `autopress_buttons: true`.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "screen_text": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "screen_text"
+      ]
+    },
+    "python_script": "import json\nimport re\n\ndef run_from_battle():\n    screen_text = input_data['screen_text']\n    lines = screen_text.strip().split('\\n')\n    \n    # Find the main battle menu\n    menu_line_index = -1\n    for i, line in enumerate(lines):\n        if 'FIGHT' in line and 'PKMN' in line:\n            menu_line_index = i\n            break\n\n    if menu_line_index == -1:\n        print(json.dumps([])) # Not on the main menu\n        return\n\n    # Determine cursor position\n    cursor_line = lines[menu_line_index]\n    cursor_pos = (0, 0) # Default to FIGHT\n    if '→' in cursor_line:\n        if cursor_line.index('→') < cursor_line.index('FIGHT'):\n            cursor_pos = (0, 0) # FIGHT\n        else:\n            cursor_pos = (1, 0) # PKMN\n    elif len(lines) > menu_line_index + 1 and '→' in lines[menu_line_index+1]:\n        cursor_line_2 = lines[menu_line_index+1]\n        if cursor_line_2.index('→') < cursor_line_2.index('ITEM'):\n            cursor_pos = (0, 1) # ITEM\n        else:\n            cursor_pos = (1, 1) # RUN\n\n    # Target is RUN at (1, 1)\n    target_pos = (1, 1)\n    \n    moves = []\n    # Move horizontally\n    if cursor_pos[0] < target_pos[0]:\n        moves.extend(['Right'] * (target_pos[0] - cursor_pos[0]))\n    elif cursor_pos[0] > target_pos[0]:\n        moves.extend(['Left'] * (cursor_pos[0] - target_pos[0]))\n\n    # Move vertically\n    if cursor_pos[1] < target_pos[1]:\n        moves.extend(['Down'] * (target_pos[1] - cursor_pos[1]))\n    elif cursor_pos[1] > target_pos[1]:\n        moves.extend(['Up'] * (cursor_pos[1] - target_pos[1]))\n        \n    moves.append('A')\n    print(json.dumps(moves))\n\nrun_from_battle()",
+    "history": [
+      {
+        "commit_message": "feat: Create auto_run_from_battle tool. This tool automates selecting the 'RUN' option in wild battles to improve navigation efficiency in high-encounter areas, addressing a key finding from my mandatory reflection.",
+        "timestamp": "2025-09-18T02:43:27.920Z",
+        "action_counter": 222143
+      },
+      {
+        "commit_message": "feat: Create auto_run_from_battle tool. This tool automates selecting the 'RUN' option in wild battles to improve navigation efficiency in high-encounter areas, addressing a key finding from my mandatory reflection.",
+        "timestamp": "2025-09-18T03:09:00.209Z",
+        "action_counter": 222193
+      }
+    ]
+  },
   "automated_battle_move_selector": {
     "description": "A smart battle tool that automates move selection and returns a JSON array of button presses. **MUST be called with `autopress_buttons: true` to function correctly.** If on the main battle menu, it selects 'FIGHT'. If on the move selection menu, it navigates to and selects the specified move.",
     "input_schema": {
@@ -1097,6 +1124,72 @@
       }
     ]
   },
+  "item_menu_navigator": {
+    "description": "Automates selecting a specific item from the inventory menu. Takes an item name and the full screen text of the item menu as input, and returns a JSON array of button presses. Must be called with `autopress_buttons: true`.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "item_name": {
+          "type": "string"
+        },
+        "screen_text": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "item_name",
+        "screen_text"
+      ]
+    },
+    "python_script": "import json\nimport re\n\ndef navigate_item_menu():\n    item_name = input_data['item_name'].upper()\n    screen_text = input_data['screen_text']\n    lines = screen_text.split('\\n')\n    \n    items = []\n    cursor_pos = -1\n    in_item_list = False\n    for i, line in enumerate(lines):\n        if 'EXIT' in line:\n            in_item_list = True\n            continue\n        if not in_item_list:\n            continue\n\n        cleaned_line = line.strip()\n        if cleaned_line.startswith('→'):\n            cursor_pos = len(items)\n            cleaned_line = cleaned_line.replace('→', '').strip()\n\n        # Extract item name, removing quantity\n        match = re.match(r'([A-Z\\s\\.]+)', cleaned_line)\n        if match:\n            items.append(match.group(1).strip())\n\n    if not items:\n        print(json.dumps([]))\n        return\n\n    if cursor_pos == -1: # Default to first item if no cursor found\n        cursor_pos = 0\n\n    target_index = -1\n    for i, item in enumerate(items):\n        if item_name in item:\n            target_index = i\n            break\n\n    if target_index == -1:\n        # Handle scrolling if item is not visible\n        if '↓' in screen_text:\n            # Assume we need to scroll. Press Down to check next page.\n            print(json.dumps(['Down']))\n        else:\n            print(json.dumps([])) # Item not found, and no scroll down option\n        return\n\n    moves = []\n    # Simplified logic: assume 4 items per page view for scrolling\n    # This is a heuristic and might need refinement.\n    num_items_on_screen = len(items)\n    \n    # Calculate vertical moves\n    delta = target_index - cursor_pos\n    if delta > 0:\n        moves.extend(['Down'] * delta)\n    elif delta < 0:\n        moves.extend(['Up'] * abs(delta))\n\n    moves.append('A')\n    print(json.dumps(moves))\n\nnavigate_item_menu()",
+    "history": [
+      {
+        "commit_message": "feat: Create item_menu_navigator tool. This tool automates item selection from the inventory, addressing a critical efficiency issue identified by overwatch. It parses screen text to locate the target item and calculates the necessary button presses.",
+        "timestamp": "2025-09-17T22:38:29.396Z",
+        "action_counter": 221701
+      },
+      {
+        "commit_message": "fix: Improve item matching logic. The previous version used a regex that could fail unexpectedly. This commit replaces it with a simpler and more robust `in` check on the uppercase string, preventing silent failures where the tool would return no output. This is a critical fix for reliable menu automation.",
+        "timestamp": "2025-09-17T23:02:58.571Z",
+        "action_counter": 221737
+      },
+      {
+        "commit_message": "feat: Create item_menu_navigator tool. This tool automates item selection from the inventory, addressing a critical efficiency issue identified by overwatch. It parses screen text to locate the target item and calculates the necessary button presses.",
+        "timestamp": "2025-09-17T23:57:20.019Z",
+        "action_counter": 221851
+      },
+      {
+        "commit_message": "fix: Overhaul parsing logic to correctly handle all item types. The previous version failed to parse items without a quantity (e.g., TOWN MAP) because it required a quantity marker ('x') to identify the start of the item list. This commit removes that flawed dependency and implements a more robust parsing method that correctly identifies and extracts all items, regardless of whether they have a quantity. This is a critical fix for reliable menu automation.",
+        "timestamp": "2025-09-18T06:38:33.773Z",
+        "action_counter": 222529
+      },
+      {
+        "commit_message": "fix: Overhaul parsing logic to correctly handle all item types. The previous version failed to parse items without a quantity (e.g., TOWN MAP) because it required a quantity marker ('x') to identify the start of the item list. This commit removes that flawed dependency and implements a more robust parsing method that correctly identifies and extracts all items, regardless of whether they have a quantity. This is a critical fix for reliable menu automation.",
+        "timestamp": "2025-09-18T07:12:07.900Z",
+        "action_counter": 222548
+      },
+      {
+        "commit_message": "fix: Add 'A' press to finalize item selection. The tool previously navigated to the correct item but failed to select it, requiring a manual 'A' press in the following turn. This commit adds the final 'A' to the button sequence, making the tool fully autonomous and fixing a critical usability flaw.",
+        "timestamp": "2025-09-18T16:08:03.461Z",
+        "action_counter": 223169
+      },
+      {
+        "commit_message": "fix: Add 'A' press to finalize item selection. The tool previously navigated to the correct item but failed to select it, requiring a manual 'A' press in the following turn. This commit adds the final 'A' to the button sequence, making the tool fully autonomous and fixing a critical usability flaw.",
+        "timestamp": "2025-09-18T16:09:10.388Z",
+        "action_counter": 223170
+      },
+      {
+        "commit_message": "fix: Add 'A' press to finalize item selection. The tool previously navigated to the correct item but failed to select it, requiring a manual 'A' press in the following turn. This commit adds the final 'A' to the button sequence, making the tool fully autonomous and fixing a critical usability flaw.",
+        "timestamp": "2025-09-18T16:32:15.587Z",
+        "action_counter": 223220
+      },
+      {
+        "commit_message": "feat: Add basic scrolling logic. The tool now attempts to scroll down if the target item is not found on the current screen and a scroll indicator is present. This is a heuristic-based approach and may require further refinement for multi-page scrolling, but it's a critical first step to address the tool's failure to find items off-screen.",
+        "timestamp": "2025-09-18T20:19:04.285Z",
+        "action_counter": 223682
+      }
+    ]
+  },
   "pc_navigator": {
     "description": "Automates PC interactions. Starts with a reset sequence to handle the PC's statefulness. Takes an action ('deposit' or 'withdraw') and a party slot or Pokémon name as input.",
     "input_schema": {
@@ -1168,99 +1261,6 @@
         "commit_message": "fix: Increase reset sequence to improve reliability. The tool was repeatedly failing due to screen text interruptions, indicating the 20-press 'B' reset was insufficient. This commit increases the reset to 30 presses and reinforces the exit sequence to make the tool more robust against the PC's stateful nature and prevent these critical failures.",
         "timestamp": "2025-09-18T20:53:16.685Z",
         "action_counter": 223755
-      }
-    ]
-  },
-  "item_menu_navigator": {
-    "description": "Automates selecting a specific item from the inventory menu. Takes an item name and the full screen text of the item menu as input, and returns a JSON array of button presses. Must be called with `autopress_buttons: true`.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "item_name": {
-          "type": "string"
-        },
-        "screen_text": {
-          "type": "string"
-        }
-      },
-      "required": [
-        "item_name",
-        "screen_text"
-      ]
-    },
-    "python_script": "import json\nimport re\n\ndef navigate_item_menu():\n    item_name = input_data['item_name'].upper()\n    screen_text = input_data['screen_text']\n    lines = screen_text.split('\\n')\n    \n    items = []\n    cursor_pos = -1\n    in_item_list = False\n    for i, line in enumerate(lines):\n        if 'EXIT' in line:\n            in_item_list = True\n            continue\n        if not in_item_list:\n            continue\n\n        cleaned_line = line.strip()\n        if cleaned_line.startswith('→'):\n            cursor_pos = len(items)\n            cleaned_line = cleaned_line.replace('→', '').strip()\n\n        # Extract item name, removing quantity\n        match = re.match(r'([A-Z\\s\\.]+)', cleaned_line)\n        if match:\n            items.append(match.group(1).strip())\n\n    if not items:\n        print(json.dumps([]))\n        return\n\n    if cursor_pos == -1: # Default to first item if no cursor found\n        cursor_pos = 0\n\n    target_index = -1\n    for i, item in enumerate(items):\n        if item_name in item:\n            target_index = i\n            break\n\n    if target_index == -1:\n        # Handle scrolling if item is not visible\n        if '↓' in screen_text:\n            # Assume we need to scroll. Press Down to check next page.\n            print(json.dumps(['Down']))\n        else:\n            print(json.dumps([])) # Item not found, and no scroll down option\n        return\n\n    moves = []\n    # Simplified logic: assume 4 items per page view for scrolling\n    # This is a heuristic and might need refinement.\n    num_items_on_screen = len(items)\n    \n    # Calculate vertical moves\n    delta = target_index - cursor_pos\n    if delta > 0:\n        moves.extend(['Down'] * delta)\n    elif delta < 0:\n        moves.extend(['Up'] * abs(delta))\n\n    moves.append('A')\n    print(json.dumps(moves))\n\nnavigate_item_menu()",
-    "history": [
-      {
-        "commit_message": "feat: Create item_menu_navigator tool. This tool automates item selection from the inventory, addressing a critical efficiency issue identified by overwatch. It parses screen text to locate the target item and calculates the necessary button presses.",
-        "timestamp": "2025-09-17T22:38:29.396Z",
-        "action_counter": 221701
-      },
-      {
-        "commit_message": "fix: Improve item matching logic. The previous version used a regex that could fail unexpectedly. This commit replaces it with a simpler and more robust `in` check on the uppercase string, preventing silent failures where the tool would return no output. This is a critical fix for reliable menu automation.",
-        "timestamp": "2025-09-17T23:02:58.571Z",
-        "action_counter": 221737
-      },
-      {
-        "commit_message": "feat: Create item_menu_navigator tool. This tool automates item selection from the inventory, addressing a critical efficiency issue identified by overwatch. It parses screen text to locate the target item and calculates the necessary button presses.",
-        "timestamp": "2025-09-17T23:57:20.019Z",
-        "action_counter": 221851
-      },
-      {
-        "commit_message": "fix: Overhaul parsing logic to correctly handle all item types. The previous version failed to parse items without a quantity (e.g., TOWN MAP) because it required a quantity marker ('x') to identify the start of the item list. This commit removes that flawed dependency and implements a more robust parsing method that correctly identifies and extracts all items, regardless of whether they have a quantity. This is a critical fix for reliable menu automation.",
-        "timestamp": "2025-09-18T06:38:33.773Z",
-        "action_counter": 222529
-      },
-      {
-        "commit_message": "fix: Overhaul parsing logic to correctly handle all item types. The previous version failed to parse items without a quantity (e.g., TOWN MAP) because it required a quantity marker ('x') to identify the start of the item list. This commit removes that flawed dependency and implements a more robust parsing method that correctly identifies and extracts all items, regardless of whether they have a quantity. This is a critical fix for reliable menu automation.",
-        "timestamp": "2025-09-18T07:12:07.900Z",
-        "action_counter": 222548
-      },
-      {
-        "commit_message": "fix: Add 'A' press to finalize item selection. The tool previously navigated to the correct item but failed to select it, requiring a manual 'A' press in the following turn. This commit adds the final 'A' to the button sequence, making the tool fully autonomous and fixing a critical usability flaw.",
-        "timestamp": "2025-09-18T16:08:03.461Z",
-        "action_counter": 223169
-      },
-      {
-        "commit_message": "fix: Add 'A' press to finalize item selection. The tool previously navigated to the correct item but failed to select it, requiring a manual 'A' press in the following turn. This commit adds the final 'A' to the button sequence, making the tool fully autonomous and fixing a critical usability flaw.",
-        "timestamp": "2025-09-18T16:09:10.388Z",
-        "action_counter": 223170
-      },
-      {
-        "commit_message": "fix: Add 'A' press to finalize item selection. The tool previously navigated to the correct item but failed to select it, requiring a manual 'A' press in the following turn. This commit adds the final 'A' to the button sequence, making the tool fully autonomous and fixing a critical usability flaw.",
-        "timestamp": "2025-09-18T16:32:15.587Z",
-        "action_counter": 223220
-      },
-      {
-        "commit_message": "feat: Add basic scrolling logic. The tool now attempts to scroll down if the target item is not found on the current screen and a scroll indicator is present. This is a heuristic-based approach and may require further refinement for multi-page scrolling, but it's a critical first step to address the tool's failure to find items off-screen.",
-        "timestamp": "2025-09-18T20:19:04.285Z",
-        "action_counter": 223682
-      }
-    ]
-  },
-  "auto_run_from_battle": {
-    "description": "Automates running from a wild battle. Navigates to and selects the 'RUN' option from the main battle menu. Must be called with `autopress_buttons: true`.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "screen_text": {
-          "type": "string"
-        }
-      },
-      "required": [
-        "screen_text"
-      ]
-    },
-    "python_script": "import json\nimport re\n\ndef run_from_battle():\n    screen_text = input_data['screen_text']\n    lines = screen_text.strip().split('\\n')\n    \n    # Find the main battle menu\n    menu_line_index = -1\n    for i, line in enumerate(lines):\n        if 'FIGHT' in line and 'PKMN' in line:\n            menu_line_index = i\n            break\n\n    if menu_line_index == -1:\n        print(json.dumps([])) # Not on the main menu\n        return\n\n    # Determine cursor position\n    cursor_line = lines[menu_line_index]\n    cursor_pos = (0, 0) # Default to FIGHT\n    if '→' in cursor_line:\n        if cursor_line.index('→') < cursor_line.index('FIGHT'):\n            cursor_pos = (0, 0) # FIGHT\n        else:\n            cursor_pos = (1, 0) # PKMN\n    elif len(lines) > menu_line_index + 1 and '→' in lines[menu_line_index+1]:\n        cursor_line_2 = lines[menu_line_index+1]\n        if cursor_line_2.index('→') < cursor_line_2.index('ITEM'):\n            cursor_pos = (0, 1) # ITEM\n        else:\n            cursor_pos = (1, 1) # RUN\n\n    # Target is RUN at (1, 1)\n    target_pos = (1, 1)\n    \n    moves = []\n    # Move horizontally\n    if cursor_pos[0] < target_pos[0]:\n        moves.extend(['Right'] * (target_pos[0] - cursor_pos[0]))\n    elif cursor_pos[0] > target_pos[0]:\n        moves.extend(['Left'] * (cursor_pos[0] - target_pos[0]))\n\n    # Move vertically\n    if cursor_pos[1] < target_pos[1]:\n        moves.extend(['Down'] * (target_pos[1] - cursor_pos[1]))\n    elif cursor_pos[1] > target_pos[1]:\n        moves.extend(['Up'] * (cursor_pos[1] - target_pos[1]))\n        \n    moves.append('A')\n    print(json.dumps(moves))\n\nrun_from_battle()",
-    "history": [
-      {
-        "commit_message": "feat: Create auto_run_from_battle tool. This tool automates selecting the 'RUN' option in wild battles to improve navigation efficiency in high-encounter areas, addressing a key finding from my mandatory reflection.",
-        "timestamp": "2025-09-18T02:43:27.920Z",
-        "action_counter": 222143
-      },
-      {
-        "commit_message": "feat: Create auto_run_from_battle tool. This tool automates selecting the 'RUN' option in wild battles to improve navigation efficiency in high-encounter areas, addressing a key finding from my mandatory reflection.",
-        "timestamp": "2025-09-18T03:09:00.209Z",
-        "action_counter": 222193
       }
     ]
   }
