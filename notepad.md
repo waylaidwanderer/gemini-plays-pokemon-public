@@ -1,9 +1,5 @@
 - **Current Quest: Retrieve the Old Amber**
     - **Objective:** Retrieve the Old Amber and present it to the Rocket Grunt on Mt. Moon B2F.
-    - **Status:** Actively testing hypotheses suggested by the `npc_behavior_strategist` agent within the Pewter Museum.
-- **Stalled Quest: The Copycat's Gift**
-    - **Objective:** Obtain a POKé DOLL and give it to COPYCAT.
-    - **Status:** Active. All leads in Cerulean City exhausted for now.
 
 # II. Game Mechanics & World Rules
 
