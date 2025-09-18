@@ -15,16 +15,6 @@
 - **Shop Menu Navigation Anomaly:** The Cerulean Mart shop menu does not follow a standard grid layout and requires 'B' to exit.
 - **Pikachu Trap Mechanic:** On Rocket Hideout floors and in the Pewter Museum, interacting with specific objects can trigger a trap that locks the player on an impassable tile. This trap is escaped by pressing the 'B' button.
 
-# IV. Battle Intelligence
-
-- **Type Effectiveness Chart (Verified):**
-    - Water > Rock/Ground
-    - Water is not very effective against Bug/Grass, Ghost/Poison
-    - Poison is not very effective against Poison/Flying, Rock/Ground
-    - Flying is not very effective against Rock/Ground, Electric
-    - Rock is not very effective against Ground
-    - Normal > Ground, Water/Ice
-    - Normal is not very effective against Rock/Flying
 - **Notable Trainer Rosters:**
     - **Sabrina (Saffron Gym):** MR. MIME (Lv 65), HYPNO (Lv 64), SLOWBRO (Lv 64), JYNX (Lv 64), GENGAR (Lv 64), ALAKAZAM (Lv 65).
     - **SMITH (Cerulean Cave):** AERODACTYL (Lv 65).
