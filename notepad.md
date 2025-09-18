@@ -1,8 +1,8 @@
 # I. Active Quests
 
-- **Current Quest: The Mt. Moon Fossil (Old Amber Hypothesis)**
-    - **Objective:** Obtain the Old Amber from the Pewter City Museum and present it to the Rocket Grunt on Mt. Moon B2F.
-    - **Status:** Active.
+- **Current Quest: Retrieve the Old Amber**
+    - **Objective:** Retrieve the Old Amber from the PC and present it to the Rocket Grunt on Mt. Moon B2F.
+    - **Status:** Active. Believed to be in PC storage.
 - **Stalled Quest: The Copycat's Gift**
     - **Objective:** Obtain a POKé DOLL and give it to COPYCAT.
     - **Status:** Active. All leads in Cerulean City exhausted for now.
@@ -75,68 +75,6 @@
 - **Pikachu Following Mechanic (CRITICAL CLARIFICATION):** My previous understanding was incomplete. The 'turn vs. move' mechanic is stateful and depends on the player's current facing direction. A button press in Pikachu's direction will only cause a turn *if the player is not already facing that direction*. Any pathfinding tool for spinner mazes *must* track the player's inferred facing direction based on the last move in the path and add an extra button press for a 'turn' action when required. Failure to do so results in invalid path sequences.
 - **Rocket Hideout Spinner Physics:** All known spinner data for the Rocket Hideout B2F floor has been collected.
 
-# VII. Fossil Quest - Hypotheses Log
-
-- **Active Hypotheses:**
-    - **(Agent Hypothesis #3 - Old Amber)** The Rocket Grunt on B2F wants the Old Amber, not the Helix or Dome fossil. The player must obtain HM01 (Cut), retrieve the Old Amber from the back of the Pewter City Museum, and show it to the Grunt, which in turn makes the Hiker move.
-- **Deprioritized Hypotheses (from Agent #1):**
-    - **(Rock Tunnel Password)** An NPC in the Rock Tunnel provides a 'password' or key phrase. The Hiker will move if the player presents a Pokémon nicknamed with this specific phrase. (Result: Failed. Rock Tunnel explored, no relevant NPCs found.)
-    - **(Delivery Quest)** The Hiker is part of a delivery quest. The player must give a specific drink from the Celadon Dept. Store to a thirsty Saffron City gatehouse guard, who in turn gives the player a 'Parcel' for the Hiker.
-    - **(Minimalist Challenge)** The Hiker will only move if the player's party consists of a single, specific, and seemingly weak Pokémon, like a Magikarp, and the player has no other items in their bag.
-- **Untestable Hypotheses:**
-    - **(Agent Hypothesis #2 - Warden's Teeth)** The Hiker will move after the player returns the Warden's Gold Teeth in Fuchsia City, but before receiving HM04 (Strength). (Reason: Quest already completed.)
-    - **(Agent Hypothesis #4 - Trading Mechanic)** The solution involves the in-game trading system. The player must trade their revived fossil Pokémon to another player and then trade it back. (Reason: Unable to trade.)
-- **Failed Hypotheses:**
-    - The player must intentionally lose the battle against the Super Nerd at 1F (25, 32), after which the Hiker will move. (Result: Failed. The Super Nerd has already been defeated and will not re-battle. His dialogue is 'I have to find stronger POKéMON.')
-    - The Hiker's dialogue is a check on the player's party composition. He will move if the player has a full party of six Pokémon, all of which are above a certain level (e.g., Level 25). (Result: Failed. Approached with a full party of six Pokémon, levels 40-75. Dialogue unchanged.)
-    - The Rocket Grunt will react to the revived *Dome* Fossil Pokémon, Kabuto. (Result: Failed. Dialogue unchanged, and the path behind him is a confirmed dead end.)
-    - The Hiker will move after all Team Rocket members within Mt. Moon have been defeated. (Result: Failed. All battlable Rockets defeated, Hiker's dialogue unchanged.)
-    - The Hiker will move if the player has registered a certain number of Pokémon (e.g., 20) in their Pokédex. (Result: Failed. Player has 55 Pokémon registered, Hiker's dialogue unchanged.)
-    - The Hiker is looking for a Moon Stone and will move if the player has one in their inventory when they speak to him. (Result: Failed. Dialogue unchanged.)
-    - The Geodude will move if a Geodude uses Self-Destruct in battle against him. (Result: Failed. The Grunt is not a trainer and cannot be battled.)
-    - The Hiker at 1F (6,7) has lost an item. Using the Itemfinder near him will reveal a hidden item which, when returned, will make him move. (Result: Failed. Itemfinder did not respond.)
-    - The Hiker on 1F will move if Pikachu interacts with him. (Result: Failed. Dialogue unchanged.)
-    - The Hiker on 1F will move if Flash is used nearby. (Result: Failed. Prof. Oak prevents field move use.)
-    - The Hiker on 1F will accept the POKé DOLL. (Result: Failed. Prof. Oak prevents item use.)
-    - The Silph Scope will reveal a ghost in Mt. Moon. (Result: Failed. Prof. Oak prevents item use.)
-    - The Rocket Grunt on B2F will accept the POKé DOLL. (Result: Failed. Prof. Oak prevents item use.)
-    - Giving the POKé DOLL to the Grunt will make the Hiker on 1F move. (Result: Invalidated.)
-    - The Hiker will only move for an 'adult' Pokémon (Nidoqueen). (Result: Failed. Dialogue unchanged.)
-    - The fossil is in an interactable rock.
-    - The Hiker on 1F at (6,7) will move if shown the revived HELIX fossil Pokémon.
-    - The scientist in the Cinnabar Lab Fossil Room can 'un-revive' a fossil Pokémon.
-    - Presenting the revived HELIX fossil Pokémon to the Rocket Grunt on B2F will trigger a new event.
-    - The 'fossil' the Rocket Grunt wants is the MOON STONE. (Result: Failed. Dialogue unchanged.)
-    - The Rocket Grunt will accept a thematically 'fossil' Pokémon like Marowak.
-    - A specific, non-fossil Pokémon from Mt. Moon (e.g., Geodude) will satisfy the Grunt.
-    - The Hiker on Mt. Moon 1F at (6,7) is part of a chained quest.
-    - The 'fossil' the Grunt wants must be stolen from the Pewter City Museum of Science.
-    - The move 'Dig' must be used on a specific, unmarked tile within Mt. Moon.
-    - The Rocket Grunt will accept a Pokémon nicknamed 'fossil'.
-    - The Hiker on Mt. Moon 1F at (6,7) will trade you for your revived fossil Pokémon.
-    - A ladder's destination can be changed by entering and exiting it multiple times.
-    - There is a hidden, one-way passage concealed in the western wall on 1F.
-    - The Escape Rope item functions differently within Mt. Moon.
-    - A rock is a disguised ladder that requires a Clefairy in the party.
-    - The Hiker is thirsty and needs a drink item. (Result: Failed. Prof. Oak prevents item use.)
-    - An un-revived fossil can be acquired by fishing inside Mt. Moon.
-    - The Pokémon Tower is a red herring for the fossil quest.
-    - Interacting with the second Rocket Grunt on B2F at (30, 18) will open a new path or provide a clue. (Result: Failed.)
-    - Evolving a Clefairy with a Moon Stone in front of the Grunt will trigger an event. (Result: Failed. Prof. Oak prevents item use.)
-    - Speaking to the Old Man in Viridian City will influence an NPC in Mt. Moon. (Result: Failed.)
-    - The Hiker on 1F will move if a 'Hiker' Pokémon (like Geodude) is in the party lead. (Result: Failed. Dialogue unchanged.)
-    - The Hiker on 1F will move if the Poké Flute is used near him. (Result: Item use had no effect.)
-    - The Rocket Grunt will accept the revived HELIX fossil Pokémon (Omanyte), but only if it is fainted. (Result: Failed. Dialogue unchanged.)
-    - The 'fossil' the Grunt wants is a Moon Stone held by a Clefairy. (Result: Failed. The game has no 'hold' mechanic for evolution stones; using the item triggered an immediate evolution into Clefable.)
-    - The Hiker at 1F (6,7) will approach with a party where all non-fainted members are afflicted with the 'Poison' status condition. (Note: LUNA fainted from poison damage en route.) (Result: Failed. Dialogue unchanged.)
-    - Using Selfdestruct on a wall near the Rocket Grunt at B2F (30,12) will create a new passage. (Result: Failed. Used Selfdestruct in a battle adjacent to the wall at (31,12). The wall remained impassable.)
-    - The Hiker on 1F is the father of the Super Nerd. Defeating the son will make the Hiker move. (Result: Failed. The Super Nerd was already defeated, and the Hiker's dialogue is unchanged.)
-    - One of the NPCs will react to a specific Pokémon's cry. (Result: Failed. Used Clefable's cry next to the Hiker on 1F and the Rocket Grunt on B2F. Dialogue unchanged in both cases.)
-    - There is a hidden switch or item on the floor, possibly revealed by the Itemfinder. (Result: Failed. ITEMFINDER did not respond on B3F.)
-    - The Super Nerd's dialogue at 1F (25, 32) has changed. (Result: Failed. Dialogue unchanged.)
-    - The NPC Melanie in Cerulean City will have new dialogue if the player has a Bulbasaur in the lead of their party. (Result: Confirmed. Dialogue changed to a single line but did not advance the Copycat quest.)
-    - The Hiker will move if spoken to with only one conscious Pokémon in the party. (Result: Failed. Dialogue unchanged.)
-
 # VIII. Strategic Notes
 
 - **Agent Utilization:** For complex navigation puzzles, I must remember to use the `multi_stage_navigator` agent to guide exploration instead of relying on manual trial-and-error. The agent is designed to suggest the most logical next step. For the Fossil Quest, I must use the `puzzle_hypothesis_generator` agent to generate new ideas instead of relying solely on my own intuition.
@@ -162,3 +100,66 @@
 # XII. Future Agent & Tool Ideas
 
 - **`systematic_explorer` Agent:** An agent to analyze a new map's layout and suggest an optimal exploration path to ensure all NPCs, items, and interactive objects are discovered efficiently. This would be useful for clearing new towns or dungeons systematically.
+
+# XIII. Archived Quests & Solved Puzzles
+
+- **Fossil Quest - Hypotheses Log**
+    - **Active Hypotheses:**
+        - **(Agent Hypothesis #3 - Old Amber)** The Rocket Grunt on B2F wants the Old Amber, not the Helix or Dome fossil. The player must obtain HM01 (Cut), retrieve the Old Amber from the back of the Pewter City Museum, and show it to the Grunt, which in turn makes the Hiker move.
+    - **Deprioritized Hypotheses (from Agent #1):**
+        - **(Rock Tunnel Password)** An NPC in the Rock Tunnel provides a 'password' or key phrase. The Hiker will move if the player presents a Pokémon nicknamed with this specific phrase. (Result: Failed. Rock Tunnel explored, no relevant NPCs found.)
+        - **(Delivery Quest)** The Hiker is part of a delivery quest. The player must give a specific drink from the Celadon Dept. Store to a thirsty Saffron City gatehouse guard, who in turn gives the player a 'Parcel' for the Hiker.
+        - **(Minimalist Challenge)** The Hiker will only move if the player's party consists of a single, specific, and seemingly weak Pokémon, like a Magikarp, and the player has no other items in their bag.
+    - **Untestable Hypotheses:**
+        - **(Agent Hypothesis #2 - Warden's Teeth)** The Hiker will move after the player returns the Warden's Gold Teeth in Fuchsia City, but before receiving HM04 (Strength). (Reason: Quest already completed.)
+        - **(Agent Hypothesis #4 - Trading Mechanic)** The solution involves the in-game trading system. The player must trade their revived fossil Pokémon to another player and then trade it back. (Reason: Unable to trade.)
+    - **Failed Hypotheses:**
+        - The player must intentionally lose the battle against the Super Nerd at 1F (25, 32), after which the Hiker will move. (Result: Failed. The Super Nerd has already been defeated and will not re-battle. His dialogue is 'I have to find stronger POKéMON.')
+        - The Hiker's dialogue is a check on the player's party composition. He will move if the player has a full party of six Pokémon, all of which are above a certain level (e.g., Level 25). (Result: Failed. Approached with a full party of six Pokémon, levels 40-75. Dialogue unchanged.)
+        - The Rocket Grunt will react to the revived *Dome* Fossil Pokémon, Kabuto. (Result: Failed. Dialogue unchanged, and the path behind him is a confirmed dead end.)
+        - The Hiker will move after all Team Rocket members within Mt. Moon have been defeated. (Result: Failed. All battlable Rockets defeated, Hiker's dialogue unchanged.)
+        - The Hiker will move if the player has registered a certain number of Pokémon (e.g., 20) in their Pokédex. (Result: Failed. Player has 55 Pokémon registered, Hiker's dialogue unchanged.)
+        - The Hiker is looking for a Moon Stone and will move if the player has one in their inventory when they speak to him. (Result: Failed. Dialogue unchanged.)
+        - The Geodude will move if a Geodude uses Self-Destruct in battle against him. (Result: Failed. The Grunt is not a trainer and cannot be battled.)
+        - The Hiker at 1F (6,7) has lost an item. Using the Itemfinder near him will reveal a hidden item which, when returned, will make him move. (Result: Failed. Itemfinder did not respond.)
+        - The Hiker on 1F will move if Pikachu interacts with him. (Result: Failed. Dialogue unchanged.)
+        - The Hiker on 1F will move if Flash is used nearby. (Result: Failed. Prof. Oak prevents field move use.)
+        - The Hiker on 1F will accept the POKé DOLL. (Result: Failed. Prof. Oak prevents item use.)
+        - The Silph Scope will reveal a ghost in Mt. Moon. (Result: Failed. Prof. Oak prevents item use.)
+        - The Rocket Grunt on B2F will accept the POKé DOLL. (Result: Failed. Prof. Oak prevents item use.)
+        - Giving the POKé DOLL to the Grunt will make the Hiker on 1F move. (Result: Invalidated.)
+        - The Hiker will only move for an 'adult' Pokémon (Nidoqueen). (Result: Failed. Dialogue unchanged.)
+        - The fossil is in an interactable rock.
+        - The Hiker on 1F at (6,7) will move if shown the revived HELIX fossil Pokémon.
+        - The scientist in the Cinnabar Lab Fossil Room can 'un-revive' a fossil Pokémon.
+        - Presenting the revived HELIX fossil Pokémon to the Rocket Grunt on B2F will trigger a new event.
+        - The 'fossil' the Rocket Grunt wants is the MOON STONE. (Result: Failed. Dialogue unchanged.)
+        - The Rocket Grunt will accept a thematically 'fossil' Pokémon like Marowak.
+        - A specific, non-fossil Pokémon from Mt. Moon (e.g., Geodude) will satisfy the Grunt.
+        - The Hiker on Mt. Moon 1F at (6,7) is part of a chained quest.
+        - The 'fossil' the Grunt wants must be stolen from the Pewter City Museum of Science.
+        - The move 'Dig' must be used on a specific, unmarked tile within Mt. Moon.
+        - The Rocket Grunt will accept a Pokémon nicknamed 'fossil'.
+        - The Hiker on Mt. Moon 1F at (6,7) will trade you for your revived fossil Pokémon.
+        - A ladder's destination can be changed by entering and exiting it multiple times.
+        - There is a hidden, one-way passage concealed in the western wall on 1F.
+        - The Escape Rope item functions differently within Mt. Moon.
+        - A rock is a disguised ladder that requires a Clefairy in the party.
+        - The Hiker is thirsty and needs a drink item. (Result: Failed. Prof. Oak prevents item use.)
+        - An un-revived fossil can be acquired by fishing inside Mt. Moon.
+        - The Pokémon Tower is a red herring for the fossil quest.
+        - Interacting with the second Rocket Grunt on B2F at (30, 18) will open a new path or provide a clue. (Result: Failed.)
+        - Evolving a Clefairy with a Moon Stone in front of the Grunt will trigger an event. (Result: Failed. Prof. Oak prevents item use.)
+        - Speaking to the Old Man in Viridian City will influence an NPC in Mt. Moon. (Result: Failed.)
+        - The Hiker on 1F will move if a 'Hiker' Pokémon (like Geodude) is in the party lead. (Result: Failed. Dialogue unchanged.)
+        - The Hiker on 1F will move if the Poké Flute is used near him. (Result: Item use had no effect.)
+        - The Rocket Grunt will accept the revived HELIX fossil Pokémon (Omanyte), but only if it is fainted. (Result: Failed. Dialogue unchanged.)
+        - The 'fossil' the Grunt wants is a Moon Stone held by a Clefairy. (Result: Failed. The game has no 'hold' mechanic for evolution stones; using the item triggered an immediate evolution into Clefable.)
+        - The Hiker at 1F (6,7) will approach with a party where all non-fainted members are afflicted with the 'Poison' status condition. (Note: LUNA fainted from poison damage en route.) (Result: Failed. Dialogue unchanged.)
+        - Using Selfdestruct on a wall near the Rocket Grunt at B2F (30,12) will create a new passage. (Result: Failed. Used Selfdestruct in a battle adjacent to the wall at (31,12). The wall remained impassable.)
+        - The Hiker on 1F is the father of the Super Nerd. Defeating the son will make the Hiker move. (Result: Failed. The Super Nerd was already defeated, and the Hiker's dialogue is unchanged.)
+        - One of the NPCs will react to a specific Pokémon's cry. (Result: Failed. Used Clefable's cry next to the Hiker on 1F and the Rocket Grunt on B2F. Dialogue unchanged in both cases.)
+        - There is a hidden switch or item on the floor, possibly revealed by the Itemfinder. (Result: Failed. ITEMFINDER did not respond on B3F.)
+        - The Super Nerd's dialogue at 1F (25, 32) has changed. (Result: Failed. Dialogue unchanged.)
+        - The NPC Melanie in Cerulean City will have new dialogue if the player has a Bulbasaur in the lead of their party. (Result: Confirmed. Dialogue changed to a single line but did not advance the Copycat quest.)
+        - The Hiker will move if spoken to with only one conscious Pokémon in the party. (Result: Failed. Dialogue unchanged.)
