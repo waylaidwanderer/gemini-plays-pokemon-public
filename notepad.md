@@ -69,10 +69,12 @@
 # VII. Fossil Quest - Hypotheses Log
 
 - **Active Hypotheses:**
-    - **(Agent Hypothesis #1)** An NPC from outside Mt. Moon must be escorted to the Hiker. The Hiker is waiting for a friend and will move once they are reunited.
-    - **(Agent Hypothesis #2)** A wild, un-caught Pokémon from within Mt. Moon must be lured to a specific location near the Hiker.
-    - **(Agent Hypothesis #3)** The un-revived fossil (Helix or Dome) must be placed on a specific pedestal or rock formation within Mt. Moon.
-    - **(Agent Hypothesis #5)** The Hiker is a permanent fixture, but can be bypassed by using the move Teleport from a specific, unmarked tile in the room.
+    - **(Agent Hypothesis #1 - Rock Tunnel Password)** An NPC in the Rock Tunnel provides a 'password' or key phrase. The Hiker will move if the player presents a Pokémon nicknamed with this specific phrase.
+    - **(Agent Hypothesis #3 - Delivery Quest)** The Hiker is part of a delivery quest. The player must give a specific drink from the Celadon Dept. Store to a thirsty Saffron City gatehouse guard, who in turn gives the player a 'Parcel' for the Hiker.
+    - **(Agent Hypothesis #5 - Minimalist Challenge)** The Hiker will only move if the player's party consists of a single, specific, and seemingly weak Pokémon, like a Magikarp, and the player has no other items in their bag.
+- **Untestable Hypotheses:**
+    - **(Agent Hypothesis #2 - Warden's Teeth)** The Hiker will move after the player returns the Warden's Gold Teeth in Fuchsia City, but before receiving HM04 (Strength). (Reason: Quest already completed.)
+    - **(Agent Hypothesis #4 - Trading Mechanic)** The solution involves the in-game trading system. The player must trade their revived fossil Pokémon to another player and then trade it back. (Reason: Unable to trade.)
 - **Failed Hypotheses:**
     - The player must intentionally lose the battle against the Super Nerd at 1F (25, 32), after which the Hiker will move. (Result: Failed. The Super Nerd has already been defeated and will not re-battle. His dialogue is 'I have to find stronger POKéMON.')
     - The Hiker's dialogue is a check on the player's party composition. He will move if the player has a full party of six Pokémon, all of which are above a certain level (e.g., Level 25). (Result: Failed. Approached with a full party of six Pokémon, levels 40-75. Dialogue unchanged.)
