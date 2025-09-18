@@ -126,7 +126,7 @@
     - Interacting with the Scientist at (8, 6) from position (7, 6) will move the Youngster. (Result: Failed. The Scientist only provided flavor text about the space exhibit.)
     - Interacting with Pikachu from position (7, 6) will move the Youngster. (Result: Failed. Triggered a 'Cancel Lock' trap.)
     - Interacting with the Youngster (initially at (7, 8)) from position (6, 8) moved him to (8, 8), blocking the warp. A subsequent interaction from (7, 8) did not move him further. (Result: Failed. Dialogue unchanged.)
-    - (Agent Hypothesis #2) Leading with a fossil Pokémon (Kabutops) and interacting with the Youngster does not make him move. (Result: Failed. Dialogue unchanged.)
+    - (Agent Hypothesis #2) Leading with a fossil Pokémon (Kabutops) and interacting with the Youngster at (8, 8) changes his dialogue to 'What's so special about it?' but does not make him move. (Result: Failed.)
 
 # X. Archived Quests & Solved Puzzles
 
