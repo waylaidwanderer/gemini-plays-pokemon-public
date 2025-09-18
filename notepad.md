@@ -105,7 +105,11 @@
 
 - **Fossil Quest - Hypotheses Log**
     - **Active Hypotheses:**
-        - **(Agent Hypothesis #3 - Old Amber)** The Rocket Grunt on B2F wants the Old Amber, not the Helix or Dome fossil. The player must obtain HM01 (Cut), retrieve the Old Amber from the back of the Pewter City Museum, and show it to the Grunt, which in turn makes the Hiker move.
+        - **(Pewter Museum - Cut Tree)** Use 'Cut' on the unique-looking tree to the right of the museum's east wing to reveal a hidden entrance.
+        - **(Pewter Museum - Show Pokémon)** Show a specific living fossil Pokémon (like Omanyte) to an NPC inside the museum to trigger a new event.
+        - **(Pewter Museum - Find Key)** An NPC elsewhere in Pewter City has a 'Museum Key' that opens the back room.
+        - **(Pewter Museum - Itemfinder)** Use the Itemfinder inside the museum to locate a hidden switch.
+        - **(Mt. Moon - Old Amber)** The Rocket Grunt on B2F wants the Old Amber. Retrieve it from the Pewter Museum and show it to him to make the Hiker move.
     - **Deprioritized Hypotheses (from Agent #1):**
         - **(Rock Tunnel Password)** An NPC in the Rock Tunnel provides a 'password' or key phrase. The Hiker will move if the player presents a Pokémon nicknamed with this specific phrase. (Result: Failed. Rock Tunnel explored, no relevant NPCs found.)
         - **(Delivery Quest)** The Hiker is part of a delivery quest. The player must give a specific drink from the Celadon Dept. Store to a thirsty Saffron City gatehouse guard, who in turn gives the player a 'Parcel' for the Hiker.
