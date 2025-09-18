@@ -15,11 +15,6 @@
 - **Shop Menu Navigation Anomaly:** The Cerulean Mart shop menu does not follow a standard grid layout and requires 'B' to exit.
 - **Pikachu Trap Mechanic:** On Rocket Hideout floors and in the Pewter Museum, interacting with specific objects can trigger a trap that locks the player on an impassable tile. This trap is escaped by pressing the 'B' button.
 
-- **Notable Trainer Rosters:**
-    - **Sabrina (Saffron Gym):** MR. MIME (Lv 65), HYPNO (Lv 64), SLOWBRO (Lv 64), JYNX (Lv 64), GENGAR (Lv 64), ALAKAZAM (Lv 65).
-    - **SMITH (Cerulean Cave):** AERODACTYL (Lv 65).
-    - **Brock (Pewter Gym):** OMASTAR (Lv 64), ONIX (Lv 65), KABUTOPS (Lv 64), GOLEM (Lv 64), NINETALES (Lv 64), AERODACTYL (Lv 65).
-    - **Nurse Joy (Fuchsia City):** KANGASKHAN (Lv 65), SNORLAX (Lv 65), STARMIE (Lv 65), PORYGON (Lv 65), EXEGGUTOR (Lv 65), CHANSEY (Lv 65).
 - **Known Movesets:**
     - **Kangaskhan:** DOUBLE TEAM, DOUBLE-EDGE.
     - **Snorlax:** (No moves observed).
