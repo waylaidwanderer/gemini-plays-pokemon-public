@@ -6,7 +6,7 @@
 -   **Obstacle:** A Scientist at (13, 5) on 1F blocks the path to an item.
 -   **Key Finding:** The Scientist at (13, 5) is in an area completely surrounded by impassable tiles. Hypotheses requiring direct interaction are invalid. **CRITICAL:** Avoid confirmation bias that this specific Scientist is the *only* key. The solution may lie elsewhere in the museum.
 -   **New Hypotheses (from Agent):**
-    1.  **Rank 1:** After defeating Brock, use 'Cut' on the tree on the east side of Pewter City for a potential side entrance. (Reasoning: Standard HM-based progression gate.)
+    - Use 'Cut' on the east-side tree: The path to the tree is physically blocked by the impassable museum building itself. (Verified by pathfinder).
     -   **Invalidated Hypotheses:**
     - Go behind the main counter on 1F: The tiles behind the counter are marked as impassable. (Verified by map data).
     - Use 'Cut' on the east-side tree (before event): The path to the tree is physically blocked by the impassable museum building itself. (Verified by pathfinder).
