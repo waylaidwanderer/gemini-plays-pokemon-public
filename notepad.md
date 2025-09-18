@@ -12,8 +12,8 @@
     - Examine the exterior rear wall of the museum for a hidden switch. (Result: Interacting with the wall at (6,1) had no effect.)
 -   **Contingency Plans:**
     - If all other hypotheses fail, use the Itemfinder on both floors of the museum to search for hidden items, including the Old Amber itself.
--   **Anomalies to Investigate:**
-    - There is a single tile of `grass` at (12, 2) on the museum's 2F. This is highly unusual for an indoor location and may be a hidden puzzle element. Plan to investigate this tile if other leads are exhausted.
+-   **Anomalies Investigated (2F Grass Tile):**
+    - The single `grass` tile at (12, 2) on 2F is inaccessible from the main area. **Conclusion:** This is likely an exit point from a hidden area on 1F, not an entrance.
 -   **Invalidated Hypotheses:**
     - Go behind the main counter on 1F: The tiles behind the counter are marked as impassable. (Verified by map data).
     - Use 'Cut' on the east-side tree (before event): The path to the tree is physically blocked by the impassable museum building itself. (Verified by pathfinder).
