@@ -109,7 +109,8 @@
     - The NPC Melanie in Cerulean City will have new dialogue if the player has a Bulbasaur in the lead of their party. (Result: Confirmed. Dialogue changed to a single line but did not advance the Copycat quest.)
     - The Hiker will move if spoken to with only one conscious Pokémon in the party. (Result: Failed. Dialogue unchanged.)
     - Interacting with the Scientist at (8, 6) after reading the Moon Stone sign does not change his dialogue. (Result: Failed.)
-    - **(Pewter Museum - Cut Tree)** Use 'Cut' on the unique-looking tree to the right of the museum's east wing to reveal a hidden entrance. (Result: Failed. The tree was cuttable but led to a small, empty, dead-end area with no new paths or events.)
+    - **(Pewter Museum - Cut Tree)** Use 'Cut' on the unique-looking tree to the right of the museum's east wing to reveal a hidden entrance.     - **(Pewter Museum - Cut Tree)** Use 'Cut' on the unique-looking tree to the right of the museum's east wing to reveal a hidden entrance. (Result: Failed. The tree was cuttable but led to a small, empty, dead-end area with no new paths or events.)
+    - **(Agent Hypothesis #5 - Cut Plant)** Use the HM 'Cut' on the small potted plant located to the left of the 'impassable wall'. (Result: Failed. The game responded with "There isn't anything to CUT!")
 
 # X. Archived Quests & Solved Puzzles
 
