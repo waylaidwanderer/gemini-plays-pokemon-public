@@ -15,18 +15,6 @@
 - **Shop Menu Navigation Anomaly:** The Cerulean Mart shop menu does not follow a standard grid layout and requires 'B' to exit.
 - **Pikachu Trap Mechanic:** On Rocket Hideout floors, interacting with a specific Pikachu can trigger a trap that locks the player on an impassable tile. This trap is escaped by pressing the 'B' button.
 
-# III. Tile Mechanics
-
-- **`ground`:** Standard walkable tile.
-- **`impassable`:** Walls, counters, rocks, buildings, etc. Cannot be entered.
-- **`cuttable`:** Tree that can be cut with HM Cut. Becomes `ground` after cutting, but respawns on map change or after battle.
-- **`ledge`:** Can be jumped down, but not climbed up. Treat as impassable from all directions except from above.
-- **`elevated_ground` & `steps`:** Movement between `ground` and `elevated_ground` tiles is only possible via an intermediary `steps` tile. Direct traversal is impossible.
-- **`grass`:** Can be either tall grass with wild encounters or a decorative, impassable tile (e.g., in the Pewter Museum).
-- **Trap Tiles:** There are two observed types of traps that lock the player on an impassable tile:
-    - **Dialogue Lock (Mt. Moon, Museum Exhibits):** Escaped by pressing 'A' to dismiss a hidden dialogue box.
-    - **Cancel Lock (Pikachu Traps):** Interacting with specific follower Pikachu can trigger a trap that locks the player on an impassable tile. This has been observed on Museum 2F and in Pewter City (east of the museum). The trap is escaped by pressing the 'B' button to cancel the interaction.
-
 # IV. Battle Intelligence
 
 - **Type Effectiveness Chart (Verified):**
