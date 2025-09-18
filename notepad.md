@@ -135,3 +135,4 @@
 # XI. Future Development
 
 - **New Agent Idea (NPC Behavior Strategist):** Create an agent to suggest solutions for dynamic NPC blocking puzzles, like the Youngster in the museum. This agent would analyze NPC positions, dialogue, and player actions to hypothesize novel interaction sequences.
+- **(Pewter Museum - Cut Tree)** Use 'Cut' on the unique-looking tree to the right of the museum's east wing to reveal a hidden entrance. (Result: Failed. The tree was cuttable but led to a small, empty, dead-end area with no new paths or events.)
