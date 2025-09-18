@@ -146,3 +146,4 @@
 
 - **Elevated Ground & Steps:** Movement between `ground` and `elevated_ground` tiles is only possible via an intermediary `steps` tile. Direct traversal is impossible.
 - **Mt. Moon Trap Mechanic:** Similar to the Rocket Hideout, certain tiles in Mt. Moon can trap the player on an 'impassable' tile after a wild battle. This is resolved by pressing the 'A' button to escape a hidden dialogue box. (Correction: Previously thought it was 'B' like the Rocket Hideout, but 'A' is the correct button for this specific trap.)
+- Spoke to Super Nerd at Rock Tunnel B1F (21, 22). Dialogue: 'Costume players dress up as POKéMON for fun.' This does not appear to be related to the Mt. Moon fossil quest.

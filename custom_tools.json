@@ -1077,37 +1077,25 @@
       }
     ]
   },
-  "search_and_interact": {
-    "description": "Generates a path to search a rectangular area and outputs a sequence of button presses to move to each tile and press 'A' to interact. Must be called with `autopress_buttons: true`.",
+  "auto_run_from_battle": {
+    "description": "Automates running from a wild battle. Navigates to and selects the 'RUN' option from the main battle menu. Must be called with `autopress_buttons: true`.",
     "input_schema": {
       "type": "object",
       "properties": {
-        "x1": {
-          "type": "string"
-        },
-        "y1": {
-          "type": "string"
-        },
-        "x2": {
-          "type": "string"
-        },
-        "y2": {
+        "screen_text": {
           "type": "string"
         }
       },
       "required": [
-        "x1",
-        "y1",
-        "x2",
-        "y2"
+        "screen_text"
       ]
     },
-    "python_script": "import json\nimport xml.etree.ElementTree as ET\nimport collections\n\nx1, y1 = int(input_data['x1']), int(input_data['y1'])\nx2, y2 = int(input_data['x2']), int(input_data['y2'])\n\nroot = ET.fromstring(map_xml_string)\ntiles = {}\nplayer_pos = None\nfor row in root.findall('Row'):\n    y = int(row.get('id'))\n    for tile_elem in row.findall('Tile'):\n        x = int(tile_elem.get('id'))\n        if tile_elem.find('Player') is not None:\n            player_pos = (x, y)\n        obj = tile_elem.find('Object')\n        tiles[(x, y)] = {\n            'type': tile_elem.get('type'),\n            'has_object': tile_elem.get('has-object') == 'true',\n            'object_id_name': obj.get('id-name') if obj is not None else None\n        }\n\ndef is_valid(pos):\n    tile_info = tiles.get(pos)\n    if not tile_info: return False\n    traversable_types = {'ground', 'grass', 'steps', 'elevated_ground', 'cleared_boulder_barrier', 'open_gate', 'gate_offscreen'}\n    if tile_info['type'] in traversable_types:\n        if tile_info['has_object'] and (tile_info.get('object_id_name') or '').upper() != 'PIKACHU':\n            return False\n        return True\n    return False\n\ndef bfs(start, end):\n    if not is_valid(start) or not is_valid(end): return None\n    queue = collections.deque([(start, [start])])\n    visited = {start}\n    while queue:\n        current, path = queue.popleft()\n        if current == end: return path\n        x, y = current\n        for dx, dy in [(-1, 0), (1, 0), (0, -1), (0, 1)]:\n            neighbor = (x + dx, y + dy)\n            if neighbor not in visited and is_valid(neighbor):\n                visited.add(neighbor)\n                new_path = list(path)\n                new_path.append(neighbor)\n                queue.append((neighbor, new_path))\n    return None\n\nsearch_tiles = set()\nfor y in range(y1, y2 + 1):\n    for x in range(x1, x2 + 1):\n        if is_valid((x, y)):\n            search_tiles.add((x, y))\n\npath_plan_coords = []\nif search_tiles and player_pos:\n    start_node = min(search_tiles, key=lambda t: abs(t[0] - player_pos[0]) + abs(t[1] - player_pos[1]))\n    path_to_start = bfs(player_pos, start_node)\n    if path_to_start:\n        path_plan_coords = path_to_start\n        unvisited = search_tiles - set(path_to_start)\n        current_node = path_plan_coords[-1]\n        while unvisited:\n            next_node = min(unvisited, key=lambda t: abs(t[0] - current_node[0]) + abs(t[1] - current_node[1]))\n            segment = bfs(current_node, next_node)\n            if segment and len(segment) > 1:\n                path_plan_coords.extend(segment[1:])\n                unvisited -= set(segment)\n                current_node = next_node\n            else:\n                unvisited.remove(next_node)\n\nbuttons = []\nif path_plan_coords:\n    buttons.append(\"A\")\n    for i in range(len(path_plan_coords) - 1):\n        x1, y1 = path_plan_coords[i]\n        x2, y2 = path_plan_coords[i+1]\n        if x2 > x1: buttons.append(\"Right\")\n        elif x2 < x1: buttons.append(\"Left\")\n        elif y2 > y1: buttons.append(\"Down\")\n        elif y2 < y1: buttons.append(\"Up\")\n        buttons.append(\"A\")\n\nprint(json.dumps(buttons))",
+    "python_script": "import json\nimport re\nimport sys\n\ndef run_tool():\n    screen_text = input_data['screen_text']\n    buttons = []\n    main_menu_options = [['FIGHT', 'PKMN'], ['ITEM', 'RUN']]\n    cursor_pos = None\n\n    # Find cursor position\n    for r, row in enumerate(main_menu_options):\n        for c, option in enumerate(row):\n            if f'→{option}' in screen_text:\n                cursor_pos = (r, c)\n                break\n        if cursor_pos:\n            break\n\n    if cursor_pos:\n        # Target is RUN at (1, 1)\n        target_pos = (1, 1)\n        \n        # Horizontal movement\n        if cursor_pos[1] < target_pos[1]:\n            buttons.append('Right')\n        elif cursor_pos[1] > target_pos[1]:\n            buttons.append('Left')\n            \n        # Vertical movement\n        if cursor_pos[0] < target_pos[0]:\n            buttons.append('Down')\n        elif cursor_pos[0] > target_pos[0]:\n            buttons.append('Up')\n\n    buttons.append('A')\n    print(json.dumps(buttons))\n\nrun_tool()\n",
     "history": [
       {
-        "commit_message": "feat: Create search_and_interact tool. This tool automates systematic area searches by generating a path and inserting 'A' button presses to interact with each tile, addressing a major efficiency issue with manual searching.",
-        "timestamp": "2025-09-18T01:31:17.905Z",
-        "action_counter": 222009
+        "commit_message": "feat: Create auto_run_from_battle tool. This tool automates selecting the 'RUN' option in wild battles to improve navigation efficiency in high-encounter areas, addressing a key finding from my mandatory reflection.",
+        "timestamp": "2025-09-18T02:43:27.920Z",
+        "action_counter": 222143
       }
     ]
   }
