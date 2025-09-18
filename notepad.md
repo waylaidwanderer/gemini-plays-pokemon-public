@@ -2,7 +2,7 @@
 
 - **Current Quest: Retrieve the Old Amber**
     - **Objective:** Retrieve the Old Amber and present it to the Rocket Grunt on Mt. Moon B2F.
-    - **Status:** Active. The Super Nerd in Pewter City at (28, 18) has new dialogue after solving the museum puzzle. Currently in conversation with him.
+    - **Status:** Active. The puzzle sequence in the Pewter Museum and subsequent conversation with the Super Nerd did not yield the Old Amber. Currently investigating new hypotheses within the museum.
 - **Stalled Quest: The Copycat's Gift**
     - **Objective:** Obtain a POKé DOLL and give it to COPYCAT.
     - **Status:** Active. All leads in Cerulean City exhausted for now.
@@ -74,9 +74,8 @@
 # IX. Fossil Quest - Hypotheses Log
 
 - **Active Hypotheses:**
-    - **(Pewter Museum - Show Pokémon)** Show a specific living fossil Pokémon (like Omanyte) to an NPC inside the museum to trigger a new event.
+    - **(Pewter Museum - Itemfinder)** Use the Itemfinder inside the museum to locate a hidden switch or the Old Amber itself. (Current hypothesis)
     - **(Pewter Museum - Find Key)** An NPC elsewhere in Pewter City has a 'Museum Key' that opens the back room.
-    - **(Pewter Museum - Itemfinder)** Use the Itemfinder inside the museum to locate a hidden switch.
     - **(Mt. Moon - Old Amber)** The Rocket Grunt on B2F wants the Old Amber. Retrieve it from the Pewter Museum and show it to him to make the Hiker move.
 - **Deprioritized Hypotheses (from Agent #1):**
     - **(Rock Tunnel Password)** An NPC in the Rock Tunnel provides a 'password' or key phrase. The Hiker will move if the player presents a Pokémon nicknamed with this specific phrase. (Result: Failed. Rock Tunnel explored, no relevant NPCs found.)
@@ -86,6 +85,7 @@
     - **(Agent Hypothesis #2 - Warden's Teeth)** The Hiker will move after the player returns the Warden's Gold Teeth in Fuchsia City, but before receiving HM04 (Strength). (Reason: Quest already completed.)
     - **(Agent Hypothesis #4 - Trading Mechanic)** The solution involves the in-game trading system. The player must trade their revived fossil Pokémon to another player and then trade it back. (Reason: Unable to trade.)
 - **Failed Hypotheses:**
+    - **(Pewter Museum - Show Pokémon)** Show a specific living fossil Pokémon (like Omanyte) to an NPC inside the museum to trigger a new event. (Result: Failed. Old Man at (2,5) had new dialogue but it was not a quest trigger. Menu bug prevented swapping to test other fossil.)
     - A ladder's destination can be changed by entering and exiting it multiple times.
     - There is a hidden, one-way passage concealed in the western wall on 1F.
     - The Escape Rope item functions differently within Mt. Moon.
@@ -109,7 +109,7 @@
     - The NPC Melanie in Cerulean City will have new dialogue if the player has a Bulbasaur in the lead of their party. (Result: Confirmed. Dialogue changed to a single line but did not advance the Copycat quest.)
     - The Hiker will move if spoken to with only one conscious Pokémon in the party. (Result: Failed. Dialogue unchanged.)
     - Interacting with the Scientist at (8, 6) after reading the Moon Stone sign does not change his dialogue. (Result: Failed.)
-    - **(Pewter Museum - Cut Tree)** Use 'Cut' on the unique-looking tree to the right of the museum's east wing to reveal a hidden entrance.     - **(Pewter Museum - Cut Tree)** Use 'Cut' on the unique-looking tree to the right of the museum's east wing to reveal a hidden entrance. (Result: Failed. The tree was cuttable but led to a small, empty, dead-end area with no new paths or events.)
+    - **(Pewter Museum - Cut Tree)** Use 'Cut' on the unique-looking tree to the right of the museum's east wing to reveal a hidden entrance. (Result: Failed. The tree was cuttable but led to a small, empty, dead-end area with no new paths or events.)
     - **(Agent Hypothesis #5 - Cut Plant)** Use the HM 'Cut' on the small potted plant located to the left of the 'impassable wall'. (Result: Failed. The game responded with "There isn't anything to CUT!")
 
 # X. Archived Quests & Solved Puzzles
@@ -137,8 +137,6 @@
 - **New Agent Idea (NPC Behavior Strategist):** Create an agent to suggest solutions for dynamic NPC blocking puzzles, like the Youngster in the museum. This agent would analyze NPC positions, dialogue, and player actions to hypothesize novel interaction sequences.
 
 # XII. Tool Development & Maintenance Log
-
-- **`item_menu_navigator` Flaw (CRITICAL):** The tool correctly navigates to the target item but fails to press 'A' to select it. A manual 'A' press is required in the subsequent turn until this is fixed.
 
 # XIII. Reflection & Maintenance Log (Turn 223220)
 
