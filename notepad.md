@@ -72,9 +72,9 @@
     - **(Agent Hypothesis #1)** An NPC from outside Mt. Moon must be escorted to the Hiker. The Hiker is waiting for a friend and will move once they are reunited.
     - **(Agent Hypothesis #2)** A wild, un-caught Pokémon from within Mt. Moon must be lured to a specific location near the Hiker.
     - **(Agent Hypothesis #3)** The un-revived fossil (Helix or Dome) must be placed on a specific pedestal or rock formation within Mt. Moon.
-    - The player must intentionally lose the battle against the Super Nerd at 1F (25, 32), after which the Hiker will move. (Result: Failed. The Super Nerd has already been defeated and will not re-battle. His dialogue is 'I have to find stronger POKéMON.')
     - **(Agent Hypothesis #5)** The Hiker is a permanent fixture, but can be bypassed by using the move Teleport from a specific, unmarked tile in the room.
 - **Failed Hypotheses:**
+    - The player must intentionally lose the battle against the Super Nerd at 1F (25, 32), after which the Hiker will move. (Result: Failed. The Super Nerd has already been defeated and will not re-battle. His dialogue is 'I have to find stronger POKéMON.')
     - The Hiker's dialogue is a check on the player's party composition. He will move if the player has a full party of six Pokémon, all of which are above a certain level (e.g., Level 25). (Result: Failed. Approached with a full party of six Pokémon, levels 40-75. Dialogue unchanged.)
     - The Rocket Grunt will react to the revived *Dome* Fossil Pokémon, Kabuto. (Result: Failed. Dialogue unchanged, and the path behind him is a confirmed dead end.)
     - The Hiker will move after all Team Rocket members within Mt. Moon have been defeated. (Result: Failed. All battlable Rockets defeated, Hiker's dialogue unchanged.)
@@ -143,14 +143,3 @@
 # XI. New Discoveries & Strategies (Post-Reflection)
 
 - **Elevated Ground & Steps:** Movement between `ground` and `elevated_ground` tiles is only possible via an intermediary `steps` tile. Direct traversal is impossible.
-- **Future Tool/Agent Idea: Battle Strategist.** Create an agent that analyzes the player's party and the opponent's known roster/movesets to suggest the optimal lead Pokémon and a sequence of moves for a battle.
-
-# XI. New Discoveries & Strategies (Post-Reflection)
-
-- **Elevated Ground & Steps:** Movement between `ground` and `elevated_ground` tiles is only possible via an intermediary `steps` tile. Direct traversal is impossible.
-- **Future Tool/Agent Idea: Battle Strategist.** Create an agent that analyzes the player's party and the opponent's known roster/movesets to suggest the optimal lead Pokémon and a sequence of moves for a battle.
-
-# XI. New Discoveries & Strategies (Post-Reflection)
-
-- **Elevated Ground & Steps:** Movement between `ground` and `elevated_ground` tiles is only possible via an intermediary `steps` tile. Direct traversal is impossible.
-- **Future Tool/Agent Idea: Battle Strategist.** Create an agent that analyzes the player's party and the opponent's known roster/movesets to suggest the optimal lead Pokémon and a sequence of moves for a battle.
