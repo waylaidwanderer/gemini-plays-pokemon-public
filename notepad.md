@@ -134,3 +134,7 @@
 # XI. Future Development
 
 - **New Agent Idea (NPC Behavior Strategist):** Create an agent to suggest solutions for dynamic NPC blocking puzzles, like the Youngster in the museum. This agent would analyze NPC positions, dialogue, and player actions to hypothesize novel interaction sequences.
+
+# XII. Tool Development & Maintenance Log
+
+- **`item_menu_navigator` Flaw (CRITICAL):** The tool correctly navigates to the target item but fails to press 'A' to select it. A manual 'A' press is required in the subsequent turn until this is fixed.
