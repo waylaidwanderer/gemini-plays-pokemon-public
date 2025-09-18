@@ -1,8 +1,8 @@
 # I. Active Quests
 
-- **Current Quest: The Mt. Moon Fossil**
-    - **Objective:** Find a way past the Hiker at 1F (6,7).
-    - **Status:** Active. 
+- **Current Quest: The Mt. Moon Fossil (Old Amber Hypothesis)**
+    - **Objective:** Obtain the Old Amber from the Pewter City Museum and present it to the Rocket Grunt on Mt. Moon B2F.
+    - **Status:** Active.
 - **Stalled Quest: The Copycat's Gift**
     - **Objective:** Obtain a POKé DOLL and give it to COPYCAT.
     - **Status:** Active. All leads in Cerulean City exhausted for now.
@@ -69,9 +69,11 @@
 # VII. Fossil Quest - Hypotheses Log
 
 - **Active Hypotheses:**
-    - **(Agent Hypothesis #1 - Rock Tunnel Password)** An NPC in the Rock Tunnel provides a 'password' or key phrase. The Hiker will move if the player presents a Pokémon nicknamed with this specific phrase.
-    - **(Agent Hypothesis #3 - Delivery Quest)** The Hiker is part of a delivery quest. The player must give a specific drink from the Celadon Dept. Store to a thirsty Saffron City gatehouse guard, who in turn gives the player a 'Parcel' for the Hiker.
-    - **(Agent Hypothesis #5 - Minimalist Challenge)** The Hiker will only move if the player's party consists of a single, specific, and seemingly weak Pokémon, like a Magikarp, and the player has no other items in their bag.
+    - **(Agent Hypothesis #3 - Old Amber)** The Rocket Grunt on B2F wants the Old Amber, not the Helix or Dome fossil. The player must obtain HM01 (Cut), retrieve the Old Amber from the back of the Pewter City Museum, and show it to the Grunt, which in turn makes the Hiker move.
+- **Deprioritized Hypotheses (from Agent #1):**
+    - **(Rock Tunnel Password)** An NPC in the Rock Tunnel provides a 'password' or key phrase. The Hiker will move if the player presents a Pokémon nicknamed with this specific phrase. (Result: Failed. Rock Tunnel explored, no relevant NPCs found.)
+    - **(Delivery Quest)** The Hiker is part of a delivery quest. The player must give a specific drink from the Celadon Dept. Store to a thirsty Saffron City gatehouse guard, who in turn gives the player a 'Parcel' for the Hiker.
+    - **(Minimalist Challenge)** The Hiker will only move if the player's party consists of a single, specific, and seemingly weak Pokémon, like a Magikarp, and the player has no other items in their bag.
 - **Untestable Hypotheses:**
     - **(Agent Hypothesis #2 - Warden's Teeth)** The Hiker will move after the player returns the Warden's Gold Teeth in Fuchsia City, but before receiving HM04 (Strength). (Reason: Quest already completed.)
     - **(Agent Hypothesis #4 - Trading Mechanic)** The solution involves the in-game trading system. The player must trade their revived fossil Pokémon to another player and then trade it back. (Reason: Unable to trade.)
