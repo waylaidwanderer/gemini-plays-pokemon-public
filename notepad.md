@@ -32,16 +32,6 @@
 -   **Item Usage:**
     -   A POKé DOLL guarantees escape from a wild battle.
 
-# III. Tile Traversal Rules
-
--   **ground:** Standard walkable tile.
--   **grass:** Walkable, triggers wild encounters. (Note: Some decorative grass is impassable).
--   **impassable:** Cannot be entered.
--   **warp:** Teleports the player to another location.
--   **ledge:** Can be jumped down, but not up.
--   **steps:** Allows movement between 'ground' and 'elevated_ground'.
--   **elevated_ground:** Walkable, but only accessible via 'steps' tiles.
-
 # IV. Key Discoveries & Lessons Learned
 
 -   **Confirmation Bias & Over-Correction (CRITICAL):** My handling of the Rocket Hideout B2F maze was a cascade of cognitive errors. **Lesson:** Do not swing from one bias to another. Trust verifiable data and tool outputs over intuition.
