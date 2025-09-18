@@ -2,7 +2,7 @@
 
 - **Current Quest: Retrieve the Old Amber**
     - **Objective:** Retrieve the Old Amber and present it to the Rocket Grunt on Mt. Moon B2F.
-    - **Status:** Actively testing the 'Exhibit Password' hypothesis suggested by the `puzzle_hypothesis_generator` agent within the Pewter Museum.
+    - **Status:** Actively testing hypotheses suggested by the `npc_behavior_strategist` agent within the Pewter Museum.
 - **Stalled Quest: The Copycat's Gift**
     - **Objective:** Obtain a POKé DOLL and give it to COPYCAT.
     - **Status:** Active. All leads in Cerulean City exhausted for now.
@@ -13,7 +13,7 @@
 - **Battle Menu Anomaly:** The game appears to intentionally restrict move selection in certain wild battles to the first move slot.
 - **Party Menu 'SWITCH' Lock:** The game can prevent using the 'SWITCH' command in the party menu, observed after multiple failed escape attempts.
 - **Shop Menu Navigation Anomaly:** The Cerulean Mart shop menu does not follow a standard grid layout and requires 'B' to exit.
-- **Pikachu Trap Mechanic:** On Rocket Hideout floors, interacting with a specific Pikachu can trigger a trap that locks the player on an impassable tile. This trap is escaped by pressing the 'B' button.
+- **Pikachu Trap Mechanic:** On Rocket Hideout floors and in the Pewter Museum, interacting with specific objects can trigger a trap that locks the player on an impassable tile. This trap is escaped by pressing the 'B' button.
 
 # III. Tile Mechanics & Traversal Rules
 
@@ -67,7 +67,7 @@
 
 # VI. Strategic Notes
 
-- **Agent Utilization:** For complex puzzles, I must use `multi_stage_navigator` and `puzzle_hypothesis_generator` instead of manual trial-and-error.
+- **Agent Utilization:** For complex puzzles, I must use `multi_stage_navigator` and `npc_behavior_strategist` instead of manual trial-and-error.
 - **Tool Maintenance Protocol:** Critical tool flaws must be fixed *immediately* upon discovery.
 - **`autopress_buttons` Flag (CRITICAL):** Certain automation tools require the `autopress_buttons: true` flag to be set when called to function correctly.
 
@@ -82,22 +82,19 @@
 - Spoke to Super Nerd at Rock Tunnel B1F (21, 22). Dialogue: 'Costume players dress up as POKéMON for fun.' This was not related to the Mt. Moon fossil quest.
 - Spoke to Super Nerd at Rock Tunnel 1F (24, 9). Dialogue: 'Oh well, I'll get a ZUBAT as I go!'. This was post-battle dialogue and not relevant to the quest. This confirms the Rock Tunnel hypothesis is a dead end.
 
-# V. Fossil Quest - Hypotheses Log
+# IX. Fossil Quest - Hypotheses Log
 
 - **Active Hypotheses (from `npc_behavior_strategist`):**
     - **(Rank 1: Clefairy Hypothesis)** Show a Clefairy to the Gambler at (2, 5) to cause a commotion that distracts the Scientist at (13, 5).
     - **(Rank 2: Moon Stone Hypothesis)** Use a Moon Stone in front of the Scientist at (18, 5) who talks about Mt. Moon.
-    - **(Failed: Aerodactyl to Gambler Hypothesis)** Show a live Aerodactyl to the Gambler at (2, 5). (Result: Dialogue unchanged.)
     - **(Rank 4: Rapid Trap Trigger Hypothesis)** Trigger the Kabutops and Aerodactyl fossil traps in quick succession to create a distraction.
-- **Failed Hypotheses:**
-    - **(Show Matching Fossil)** Interacting with a fossil exhibit with the corresponding live Pokémon (e.g., Aerodactyl with Aerodactyl Fossil) will trigger a new event. (Result: Failed. Triggered the same trap.)
-    - **(Show Any Fossil)** Interacting with a fossil exhibit with *any* live fossil Pokémon will trigger a new event. (Result: Failed. Triggered a trap.)
-    - *See Archived Logs for a full list of previously failed hypotheses.*
-    - **(Minimalist Challenge)** The Hiker will only move if the player's party consists of a single, specific, and seemingly weak Pokémon, like a Magikarp, and the player has no other items in their bag.
 - **Untestable Hypotheses:**
     - **(Agent Hypothesis #2 - Warden's Teeth)** The Hiker will move after the player returns the Warden's Gold Teeth in Fuchsia City, but before receiving HM04 (Strength). (Reason: Quest already completed.)
     - **(Agent Hypothesis #4 - Trading Mechanic)** The solution involves the in-game trading system. The player must trade their revived fossil Pokémon to another player and then trade it back. (Reason: Unable to trade.)
 - **Failed Hypotheses:**
+    - **(Aerodactyl to Gambler Hypothesis)** Show a live Aerodactyl to the Gambler at (2, 5). (Result: Dialogue unchanged.)
+    - **(Show Matching Fossil)** Interacting with a fossil exhibit with the corresponding live Pokémon (e.g., Aerodactyl with Aerodactyl Fossil) will trigger a new event. (Result: Failed. Triggered the same trap.)
+    - **(Show Any Fossil)** Interacting with a fossil exhibit with *any* live fossil Pokémon will trigger a new event. (Result: Failed. Triggered a trap.)
     - **(Pewter Museum - Show Pokémon)** Show a specific living fossil Pokémon (like Omanyte or Kabutops) to an NPC inside the museum to trigger a new event. (Result: Failed. Old Man at (2,5) had new dialogue for Omanyte but it was not a quest trigger. A menu bug prevented swapping to Kabutops to test further.)
     - **(Pewter Museum - Itemfinder)** Use the Itemfinder inside the museum to locate a hidden switch or the Old Amber itself. (Result: Failed. ITEMFINDER did not respond on 1F.)
     - A ladder's destination can be changed by entering and exiting it multiple times.
@@ -140,25 +137,8 @@
     - **Status:** Solved.
     - **Solution:** The solution is a multi-step process. First, lead with a revived fossil Pokémon (e.g., Kabutops) and speak to the Youngster. His dialogue will change. Second, speak to the Scientist in the same room. Even though the Scientist's dialogue does not change, this action will cause the Youngster to move away from the exit warp.
 
-# X. Reflection & Maintenance Log (Turn 222912)
+# XI. Reflection & Maintenance Log
 
-- **Tile Mechanics Update:** Added `ladder_down` to my documentation. It functions as a warp to a lower floor.
-- **Cognitive Bias Log Update:** Added an entry about misdiagnosing the `automated_path_navigator` failure. The tool was correct; my *assumption* about the destination's reachability was wrong. **Lesson Reinforced:** I must trust my tools and verify my own assumptions about the game state before attempting to debug code.
-- **(Mt. Moon - Rocket Grunt Dialogue)** Spoke to the Rocket Grunt at B2F (30, 12). His dialogue remains: "If you find a fossil, give it to me and scram!". This confirms the fossil is the required item.
-
-# XI. Future Development
-
-- **New Agent Idea (NPC Behavior Strategist):** Create an agent to suggest solutions for dynamic NPC blocking puzzles, like the Youngster in the museum. This agent would analyze NPC positions, dialogue, and player actions to hypothesize novel interaction sequences.
-
-# XIII. Reflection & Maintenance Log (Turn 223220)
-
-- **Mandatory Reflection:** Performed mandatory self-assessment.
-- **Tool Deferral Failure (Correction):** Identified and corrected a critical failure to immediately fix the `item_menu_navigator` tool. Also created the `npc_behavior_strategist` agent, which was previously deferred. This reinforces the core directive of immediate action.
-- **Tile Mechanics Update:** Added `grass` to my documentation. It is a walkable tile type that can trigger wild Pokémon encounters.
-
-# X. Fossil Quest - New Hypotheses (from `npc_behavior_strategist`)
-
-- **(Rank 1: Clefairy Hypothesis)** Show a Clefairy to the Gambler at (2, 5) to cause a commotion that distracts the Scientist at (13, 5).
-- **(Rank 2: Moon Stone Hypothesis)** Use a Moon Stone in front of the Scientist at (18, 5) who talks about Mt. Moon.
-- **(Failed: Aerodactyl to Gambler Hypothesis)** Show a live Aerodactyl to the Gambler at (2, 5). (Result: Dialogue unchanged.)
-- **(Rank 4: Rapid Trap Trigger Hypothesis)** Trigger the Kabutops and Aerodactyl fossil traps in quick succession to create a distraction.
+- **(Turn 222912):** Added `ladder_down` to my documentation. It functions as a warp to a lower floor. Added an entry about misdiagnosing the `automated_path_navigator` failure. The tool was correct; my *assumption* about the destination's reachability was wrong. **Lesson Reinforced:** I must trust my tools and verify my own assumptions about the game state before attempting to debug code. Spoke to the Rocket Grunt at B2F (30, 12). His dialogue remains: "If you find a fossil, give it to me and scram!". This confirms the fossil is the required item.
+- **(Turn 223220):** Performed mandatory self-assessment. Identified and corrected a critical failure to immediately fix the `item_menu_navigator` tool. Also created the `npc_behavior_strategist` agent, which was previously deferred. This reinforces the core directive of immediate action. Added `grass` to my documentation.
+- **(Turn 223454):** Received Overwatch critique. The `pc_navigator` tool is unreliable and needs to be fixed. My notepad has duplicate sections and needs to be cleaned up. I will address these data management issues immediately.
