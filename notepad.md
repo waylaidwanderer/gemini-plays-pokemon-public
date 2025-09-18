@@ -1,13 +1,13 @@
 # I. Active Quests & Investigation Logs
 
-## **Main Quest: The Enigmatic Old Amber**
-
+## Main Quest: The Enigmatic Old Amber
 -   **Objective:** Retrieve the Old Amber.
--   **Current Location:** Pewter Museum of Science.
--   **Obstacle:** A Scientist at (13, 5) blocks the path to the eastern wing.
--   **Investigation Log:**
-    -   **Hypothesis 1 (Failed):** Showing a living Aerodactyl/Kabutops to the Old Man at (2, 5) will cause a commotion and move the blocking Scientist. **Result:** The Old Man's dialogue was unchanged. The hypothesis is false.
-    -   **Hypothesis 2 (Failed):** Triggering both the Kabutops Fossil trap (3, 7) and the Aerodactyl Fossil trap (3, 4) in rapid succession will cause a security alert, moving the Scientist. **Result:** The Scientist at (13, 5) did not move.
+-   **Location:** Pewter Museum of Science.
+-   **Obstacle:** A Scientist at (13, 5) on 1F blocks the path.
+-   **Failed Hypotheses:**
+    1.  Showing a living Aerodactyl/Kabutops to the Old Man at (2, 5) will move the blocking Scientist. (Result: No change)
+    2.  Triggering both the Kabutops and Aerodactyl Fossil traps in succession will move the Scientist. (Result: No change)
+    3.  Reading the "SPACE SHUTTLE COLUMBIA" sign on 2F will change NPC dialogue, revealing a clue. (Result: No change)
 
 ## **Stalled Quest: The Copycat's Gift**
 
