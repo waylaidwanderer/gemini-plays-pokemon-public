@@ -2,7 +2,7 @@
 
 - **Current Quest: Retrieve the Old Amber**
     - **Objective:** Retrieve the Old Amber and present it to the Rocket Grunt on Mt. Moon B2F.
-    - **Status:** Active. The puzzle sequence in the Pewter Museum and subsequent conversation with the Super Nerd did not yield the Old Amber. Currently investigating new hypotheses within the museum.
+    - **Status:** Active. All leads within the Pewter Museum have been exhausted. Currently generating new hypotheses with `puzzle_hypothesis_generator` agent.
 - **Stalled Quest: The Copycat's Gift**
     - **Objective:** Obtain a POKé DOLL and give it to COPYCAT.
     - **Status:** Active. All leads in Cerulean City exhausted for now.
@@ -74,9 +74,9 @@
 # IX. Fossil Quest - Hypotheses Log
 
 - **Active Hypotheses:**
-    - **(Pewter Museum - Itemfinder)** Use the Itemfinder inside the museum to locate a hidden switch or the Old Amber itself. (Current hypothesis)
     - **(Pewter Museum - Find Key)** An NPC elsewhere in Pewter City has a 'Museum Key' that opens the back room.
     - **(Mt. Moon - Old Amber)** The Rocket Grunt on B2F wants the Old Amber. Retrieve it from the Pewter Museum and show it to him to make the Hiker move.
+    - **(Generating New Hypotheses)** All current leads have been exhausted. Consulting `puzzle_hypothesis_generator` agent for new ideas.
 - **Deprioritized Hypotheses (from Agent #1):**
     - **(Rock Tunnel Password)** An NPC in the Rock Tunnel provides a 'password' or key phrase. The Hiker will move if the player presents a Pokémon nicknamed with this specific phrase. (Result: Failed. Rock Tunnel explored, no relevant NPCs found.)
     - **(Delivery Quest)** The Hiker is part of a delivery quest. The player must give a specific drink from the Celadon Dept. Store to a thirsty Saffron City gatehouse guard, who in turn gives the player a 'Parcel' for the Hiker.
@@ -85,7 +85,8 @@
     - **(Agent Hypothesis #2 - Warden's Teeth)** The Hiker will move after the player returns the Warden's Gold Teeth in Fuchsia City, but before receiving HM04 (Strength). (Reason: Quest already completed.)
     - **(Agent Hypothesis #4 - Trading Mechanic)** The solution involves the in-game trading system. The player must trade their revived fossil Pokémon to another player and then trade it back. (Reason: Unable to trade.)
 - **Failed Hypotheses:**
-    - **(Pewter Museum - Show Pokémon)** Show a specific living fossil Pokémon (like Omanyte) to an NPC inside the museum to trigger a new event. (Result: Failed. Old Man at (2,5) had new dialogue but it was not a quest trigger. Menu bug prevented swapping to test other fossil.)
+    - **(Pewter Museum - Show Pokémon)** Show a specific living fossil Pokémon (like Omanyte or Kabutops) to an NPC inside the museum to trigger a new event. (Result: Failed. Old Man at (2,5) had new dialogue for Omanyte but it was not a quest trigger. A menu bug prevented swapping to Kabutops to test further.)
+    - **(Pewter Museum - Itemfinder)** Use the Itemfinder inside the museum to locate a hidden switch or the Old Amber itself. (Result: Failed. ITEMFINDER did not respond on 1F.)
     - A ladder's destination can be changed by entering and exiting it multiple times.
     - There is a hidden, one-way passage concealed in the western wall on 1F.
     - The Escape Rope item functions differently within Mt. Moon.
@@ -135,8 +136,6 @@
 # XI. Future Development
 
 - **New Agent Idea (NPC Behavior Strategist):** Create an agent to suggest solutions for dynamic NPC blocking puzzles, like the Youngster in the museum. This agent would analyze NPC positions, dialogue, and player actions to hypothesize novel interaction sequences.
-
-# XII. Tool Development & Maintenance Log
 
 # XIII. Reflection & Maintenance Log (Turn 223220)
 
