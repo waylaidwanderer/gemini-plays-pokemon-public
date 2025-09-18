@@ -100,13 +100,6 @@
         - **(Agent Hypothesis #4 - Trading Mechanic)** The solution involves the in-game trading system. The player must trade their revived fossil Pokémon to another player and then trade it back. (Reason: Unable to trade.)
     - **Failed Hypotheses:**
 
-        - The Geodude will move if a Geodude uses Self-Destruct in battle against him. (Result: Failed. The Grunt is not a trainer and cannot be battled.)
-        - The Hiker at 1F (6,7) has lost an item. Using the Itemfinder near him will reveal a hidden item which, when returned, will make him move. (Result: Failed. Itemfinder did not respond.)
-        - The Hiker on 1F will move if Pikachu interacts with him. (Result: Failed. Dialogue unchanged.)
-        - The Hiker on 1F will move if Flash is used nearby. (Result: Failed. Prof. Oak prevents field move use.)
-        - The Hiker on 1F will accept the POKé DOLL. (Result: Failed. Prof. Oak prevents item use.)
-        - The Silph Scope will reveal a ghost in Mt. Moon. (Result: Failed. Prof. Oak prevents item use.)
-        - The Rocket Grunt on B2F will accept the POKé DOLL. (Result: Failed. Prof. Oak prevents item use.)
         - Giving the POKé DOLL to the Grunt will make the Hiker on 1F move. (Result: Invalidated.)
         - The Hiker will only move for an 'adult' Pokémon (Nidoqueen). (Result: Failed. Dialogue unchanged.)
         - The fossil is in an interactable rock.
