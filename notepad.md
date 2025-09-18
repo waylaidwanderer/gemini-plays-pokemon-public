@@ -8,11 +8,11 @@
 -   **New Hypotheses (from Agent):**
     1.  **Rank 1:** After defeating Brock, use 'Cut' on the tree on the east side of Pewter City for a potential side entrance. (Reasoning: Standard HM-based progression gate.)
     2.  **Rank 2:** Place a Clefairy in the first party slot and speak to the scientist near the Moon Stone display on 2F. (Reasoning: Tests for a hidden, theme-based NPC trigger.)
-    3.  **Rank 3:** Attempt to ride the Bicycle indoors on the first floor. (Reasoning: Unconventional item use might trigger a unique event.)
--   **Invalidated Hypotheses:**
+    -   **Invalidated Hypotheses:**
     - Go behind the main counter on 1F: The tiles behind the counter are marked as impassable. (Verified by map data).
     - Use 'Cut' on the east-side tree (before event): The path to the tree is physically blocked by the impassable museum building itself. (Verified by pathfinder).
 -   **Failed Hypotheses (Consolidated):**
+    - Attempt to ride the Bicycle indoors on the first floor. (Result: Professor Oak's dialogue prevents use.)
     - After talking to the scientist on the 2nd floor next to the Aerodactyl fossil, interact with the fossil display itself. (Result: No change, triggered standard trap.)
     - Use the 'POKé DOLL' item while standing next to the barrier in front of the Scientist. (Result: Professor Oak's dialogue prevents use.)
     - Use a Pokémon with the move 'Dig' in front of the scientist. (Result: Warped out of the museum, similar to an Escape Rope).
