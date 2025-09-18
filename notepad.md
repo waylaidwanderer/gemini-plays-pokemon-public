@@ -82,17 +82,6 @@
 - Spoke to Super Nerd at Rock Tunnel B1F (21, 22). Dialogue: 'Costume players dress up as POKéMON for fun.' This was not related to the Mt. Moon fossil quest.
 - Spoke to Super Nerd at Rock Tunnel 1F (24, 9). Dialogue: 'Oh well, I'll get a ZUBAT as I go!'. This was post-battle dialogue and not relevant to the quest. This confirms the Rock Tunnel hypothesis is a dead end.
 
-# IX. Fossil Quest - Hypotheses Log
-
-- **Active Hypotheses (from `npc_behavior_strategist`):**
-    - **(Rank 1: Clefairy Hypothesis)** Show a Clefairy to the Gambler at (2, 5) to cause a commotion that distracts the Scientist at (13, 5).
-    - **(Rank 2: Moon Stone Hypothesis)** Use a Moon Stone in front of the Scientist at (18, 5) who talks about Mt. Moon.
-    - **(Rank 4: Rapid Trap Trigger Hypothesis)** Trigger the Kabutops and Aerodactyl fossil traps in quick succession to create a distraction.
-- **Untestable Hypotheses:**
-    - **(Agent Hypothesis #2 - Warden's Teeth)** The Hiker will move after the player returns the Warden's Gold Teeth in Fuchsia City, but before receiving HM04 (Strength). (Reason: Quest already completed.)
-    - **(Agent Hypothesis #4 - Trading Mechanic)** The solution involves the in-game trading system. The player must trade their revived fossil Pokémon to another player and then trade it back. (Reason: Unable to trade.)
-- **Failed Hypotheses:**
-    - **(Aerodactyl to Gambler Hypothesis)** Show a live Aerodactyl to the Gambler at (2, 5). (Result: Dialogue unchanged.)
     - **(Show Matching Fossil)** Interacting with a fossil exhibit with the corresponding live Pokémon (e.g., Aerodactyl with Aerodactyl Fossil) will trigger a new event. (Result: Failed. Triggered the same trap.)
     - **(Show Any Fossil)** Interacting with a fossil exhibit with *any* live fossil Pokémon will trigger a new event. (Result: Failed. Triggered a trap.)
     - **(Pewter Museum - Show Pokémon)** Show a specific living fossil Pokémon (like Omanyte or Kabutops) to an NPC inside the museum to trigger a new event. (Result: Failed. Old Man at (2,5) had new dialogue for Omanyte but it was not a quest trigger. A menu bug prevented swapping to Kabutops to test further.)
