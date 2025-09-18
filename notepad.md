@@ -122,3 +122,7 @@
         - The Super Nerd's dialogue at 1F (25, 32) has changed. (Result: Failed. Dialogue unchanged.)
         - The NPC Melanie in Cerulean City will have new dialogue if the player has a Bulbasaur in the lead of their party. (Result: Confirmed. Dialogue changed to a single line but did not advance the Copycat quest.)
         - The Hiker will move if spoken to with only one conscious Pokémon in the party. (Result: Failed. Dialogue unchanged.)
+- **Brock's Rematch Team (Pewter Gym):**
+    - OMASTAR (Lv 64): HYDRO PUMP
+    - ONIX (Lv 65): EARTHQUAKE
+    - KABUTOPS (Lv 64): SLASH
