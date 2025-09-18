@@ -25,12 +25,6 @@
 - **Shop Menu Navigation Anomaly:** The Cerulean Mart shop menu does not follow a standard grid layout and requires 'B' to exit.
 - **Pikachu Trap Mechanic:** On Rocket Hideout floors, interacting with a specific Pikachu can trigger a trap that locks the player on an impassable tile. This trap is escaped by pressing the 'B' button.
 
-# IV. Discovered Tile Mechanics & Anomalies
-
-- **PC Interaction Tile:** The PC in Pokémon Centers is interacted with from the tile directly below it (at (X, Y+1)), facing up. The tile the PC is on is impassable.
-- **Game Corner Grass Tiles:** The decorative `grass` tiles inside the Celadon Game Corner are generally traversable. However, a move from a `ground` tile at (8, 7) to a `grass` tile at (8, 6) was inexplicably blocked once. A subsequent test moving from (9, 7) to (9, 6) was successful. The exact condition for the blockage is unknown and requires further investigation.
-- **Celadon Diner Counters:** The `impassable` counter tiles in the Celadon Diner create partitions, making large sections of the room inaccessible from the entrance.
-
 # V. Battle Intelligence
 
 - **Type Effectiveness Chart (Verified):**
