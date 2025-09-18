@@ -82,14 +82,6 @@
 - Spoke to Super Nerd at Rock Tunnel B1F (21, 22). Dialogue: 'Costume players dress up as POKéMON for fun.' This was not related to the Mt. Moon fossil quest.
 - Spoke to Super Nerd at Rock Tunnel 1F (24, 9). Dialogue: 'Oh well, I'll get a ZUBAT as I go!'. This was post-battle dialogue and not relevant to the quest. This confirms the Rock Tunnel hypothesis is a dead end.
 
-    - There is a hidden switch or item on the floor, possibly revealed by the Itemfinder. (Result: Failed. ITEMFINDER did not respond on B3F.)
-    - The Super Nerd's dialogue at 1F (25, 32) has changed. (Result: Failed. Dialogue unchanged.)
-    - The NPC Melanie in Cerulean City will have new dialogue if the player has a Bulbasaur in the lead of their party. (Result: Confirmed. Dialogue changed to a single line but did not advance the Copycat quest.)
-    - The Hiker will move if spoken to with only one conscious Pokémon in the party. (Result: Failed. Dialogue unchanged.)
-    - Interacting with the Scientist at (8, 6) after reading the Moon Stone sign does not change his dialogue. (Result: Failed.)
-    - **(Pewter Museum - Cut Tree)** Use 'Cut' on the unique-looking tree to the right of the museum's east wing to reveal a hidden entrance. (Result: Failed. The tree was cuttable but led to a small, empty, dead-end area with no new paths or events.)
-    - **(Agent Hypothesis #5 - Cut Plant)** Use the HM 'Cut' on the small potted plant located to the left of the 'impassable wall'. (Result: Failed. The game responded with "There isn't anything to CUT!")
-
 # X. Archived Quests & Solved Puzzles
 
 - **Quest: Rocket Investigation**
