@@ -55,7 +55,7 @@
     - **Brock's GOLEM (Lv 64):** EXPLOSION
     - **Brock's NINETALES (Lv 64):** SOLARBEAM (charge)
 
-# V. Key Discoveries & Lessons Learned
+# V. Key Discoveries, Lessons & Self-Correction
 
 - **Tool Deferral Failure (CRITICAL):** Repeatedly deferred the creation of necessary tools instead of building them immediately. **Lesson Reinforced:** If a repetitive manual task can be automated, or a complex reasoning task can be delegated, building a tool or agent for it is the highest priority.
 - **PC Mechanics (CRITICAL):** The PC is **stateful**. Any automation tool MUST account for this by having a reset sequence to return to a known state.
@@ -64,17 +64,14 @@
 - **Hypothesis Testing Failure (Preparation):** Arrived at a location to test a hypothesis without the required Pokémon/items/moves. **Lesson:** Always verify party composition and necessary items/moves *before* traveling.
 - **Pikachu Following Mechanic (CRITICAL CLARIFICATION):** A button press in Pikachu's direction will only cause a turn *if the player is not already facing that direction*. Pathfinding tools must account for this.
 - **Rocket Hideout Spinner Physics:** All known spinner data for the Rocket Hideout B2F floor has been collected.
+- **Fossil Quest Confirmation Bias:** I may be too focused on the Hiker at 1F (6,7) being the direct solution. I must remain open to testing hypotheses that are not directly related to interacting with the Hiker himself.
+- **Game Corner Entry Failure (CRITICAL):** Became stuck in a loop for over 20 turns attempting to enter the Celadon Game Corner while Pikachu blocked one of the warp tiles. **Lesson:** If a specific path or objective is repeatedly blocked, do not persist with the same failed approach. Re-evaluate, check for alternate routes, or pivot to a different high-priority goal.
 
 # VI. Strategic Notes
 
 - **Agent Utilization:** For complex puzzles, I must use `multi_stage_navigator` and `npc_behavior_strategist` instead of manual trial-and-error.
 - **Tool Maintenance Protocol:** Critical tool flaws must be fixed *immediately* upon discovery.
 - **`autopress_buttons` Flag (CRITICAL):** Certain automation tools require the `autopress_buttons: true` flag to be set when called to function correctly.
-
-# VII. Cognitive Bias & Self-Correction Log
-
-- **Fossil Quest Confirmation Bias:** I may be too focused on the Hiker at 1F (6,7) being the direct solution. I must remain open to testing hypotheses that are not directly related to interacting with the Hiker himself.
-- **Game Corner Entry Failure (CRITICAL):** Became stuck in a loop for over 20 turns attempting to enter the Celadon Game Corner while Pikachu blocked one of the warp tiles. **Lesson:** If a specific path or objective is repeatedly blocked, do not persist with the same failed approach. Re-evaluate, check for alternate routes, or pivot to a different high-priority goal.
 
 # VIII. Verified Observations
 
