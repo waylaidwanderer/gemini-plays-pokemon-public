@@ -15,6 +15,17 @@
 - **Shop Menu Navigation Anomaly:** The Cerulean Mart shop menu does not follow a standard grid layout and requires 'B' to exit.
 - **Pikachu Trap Mechanic:** On Rocket Hideout floors, interacting with a specific Pikachu can trigger a trap that locks the player on an impassable tile. This trap is escaped by pressing the 'B' button.
 
+# III. Tile Mechanics & Traversal Rules
+
+- **`ground`**: Walkable.
+- **`grass`**: Walkable, triggers wild encounters.
+- **`impassable`**: Walls, cannot be entered.
+- **`ledge`**: One-way traversal downwards.
+- **`cuttable`**: Requires HM Cut to pass. Respawns on map change.
+- **`ladder_down`**: Warp to a lower floor.
+- **`elevated_ground`**: Walkable ground at a different elevation. Requires `steps` to access from `ground`.
+- **`steps`**: Allows movement between `ground` and `elevated_ground`.
+
 # IV. Battle Intelligence
 
 - **Type Effectiveness Chart (Verified):**
