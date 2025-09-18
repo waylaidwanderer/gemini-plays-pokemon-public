@@ -72,7 +72,7 @@
     - **(Agent Hypothesis #1)** An NPC from outside Mt. Moon must be escorted to the Hiker. The Hiker is waiting for a friend and will move once they are reunited.
     - **(Agent Hypothesis #2)** A wild, un-caught Pokémon from within Mt. Moon must be lured to a specific location near the Hiker.
     - **(Agent Hypothesis #3)** The un-revived fossil (Helix or Dome) must be placed on a specific pedestal or rock formation within Mt. Moon.
-    - **(Agent Hypothesis #4)** The player must intentionally lose the battle against the Super Nerd at 1F (25, 32), after which the Hiker will move.
+    - The player must intentionally lose the battle against the Super Nerd at 1F (25, 32), after which the Hiker will move. (Result: Failed. The Super Nerd has already been defeated and will not re-battle. His dialogue is 'I have to find stronger POKéMON.')
     - **(Agent Hypothesis #5)** The Hiker is a permanent fixture, but can be bypassed by using the move Teleport from a specific, unmarked tile in the room.
 - **Failed Hypotheses:**
     - The Hiker's dialogue is a check on the player's party composition. He will move if the player has a full party of six Pokémon, all of which are above a certain level (e.g., Level 25). (Result: Failed. Approached with a full party of six Pokémon, levels 40-75. Dialogue unchanged.)
