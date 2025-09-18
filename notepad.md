@@ -29,8 +29,6 @@
     - **Brock's GOLEM (Lv 64):** EXPLOSION
     - **Brock's NINETALES (Lv 64):** SOLARBEAM (charge)
 
-# V. Key Discoveries, Lessons & Self-Correction
-
 - **Confirmation Bias & Over-Correction (CRITICAL):** My handling of the Rocket Hideout B2F maze was a cascade of cognitive errors. **Lesson:** Do not swing from one bias to another. Trust verifiable data and tool outputs over intuition.
 - **Hypothesis Testing Failure (Preparation):** Arrived at a location to test a hypothesis without the required Pokémon/items/moves. **Lesson:** Always verify party composition and necessary items/moves *before* traveling.
 - **Pikachu Following Mechanic (CRITICAL CLARIFICATION):** A button press in Pikachu's direction will only cause a turn *if the player is not already facing that direction*. Pathfinding tools must account for this.
