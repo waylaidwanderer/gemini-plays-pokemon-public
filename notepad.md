@@ -22,7 +22,9 @@
 - **`cuttable`:** Tree that can be cut with HM Cut. Becomes `ground` after cutting, but respawns on map change or after battle.
 - **`ledge`:** Can be jumped down, but not climbed up. Treat as impassable from all directions except from above.
 - **`elevated_ground` & `steps`:** Movement between `ground` and `elevated_ground` tiles is only possible via an intermediary `steps` tile. Direct traversal is impossible.
-- **Trap Tiles:** Interacting with certain objects (e.g., fossil exhibits in Pewter Museum, specific tiles in Mt. Moon) can trigger a trap that locks the player on an impassable tile. This is escaped by pressing 'A' to dismiss a hidden dialogue box.
+- **Trap Tiles:** There are two observed types of traps that lock the player on an impassable tile:
+    - **Dialogue Lock (Mt. Moon, Museum Exhibits):** Escaped by pressing 'A' to dismiss a hidden dialogue box.
+    - **Cancel Lock (Museum 2F Pikachu):** Escaped by pressing 'B' to cancel the interaction.
 
 # IV. Battle Intelligence
 
