@@ -10,10 +10,11 @@
     3.  Talk to the Youngster at (2, 8) on 2F, then return to the blocking Scientist on 1F.
     4.  Use the Itemfinder on the 2nd floor to find a hidden item.
 
-## **Stalled Quest: The Copycat's Gift**
+## **Active Quest: The Copycat's Gift**
 
--   **Objective:** Obtain a POKé DOLL and give it to COPYCAT.
--   **Status:** Active. All leads in Cerulean City exhausted for now.
+-   **Objective:** Give the POKé DOLL to COPYCAT.
+-   **Location:** Cerulean City (exact location of COPYCAT TBD).
+-   **Status:** Item obtained. Ready to proceed once COPYCAT is found.
 
 # II. Game Mechanics & World Rules
 
