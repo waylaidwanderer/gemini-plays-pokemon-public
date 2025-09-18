@@ -142,3 +142,4 @@
 - **Tile Mechanics Update:** Added `ladder_down` to my documentation. It functions as a warp to a lower floor.
 - **New Agent Idea:** Consider creating an 'NPC Behavior Strategist' agent to suggest solutions for dynamic NPC blocking puzzles, like the Youngster in the museum.
 - **Cognitive Bias Log Update:** Added an entry about misdiagnosing the `automated_path_navigator` failure. The tool was correct; my *assumption* about the destination's reachability was wrong. **Lesson Reinforced:** I must trust my tools and verify my own assumptions about the game state before attempting to debug code.
+- **(Mt. Moon - Rocket Grunt Dialogue)** Spoke to the Rocket Grunt at B2F (30, 12). His dialogue remains: "If you find a fossil, give it to me and scram!". This confirms the fossil is the required item.
