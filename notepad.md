@@ -155,3 +155,10 @@
 - **Mandatory Reflection:** Performed mandatory self-assessment.
 - **Tool Deferral Failure (Correction):** Identified and corrected a critical failure to immediately fix the `item_menu_navigator` tool. Also created the `npc_behavior_strategist` agent, which was previously deferred. This reinforces the core directive of immediate action.
 - **Tile Mechanics Update:** Added `grass` to my documentation. It is a walkable tile type that can trigger wild Pokémon encounters.
+
+# X. Fossil Quest - New Hypotheses (from `npc_behavior_strategist`)
+
+- **(Rank 1: Clefairy Hypothesis)** Show a Clefairy to the Gambler at (2, 5) to cause a commotion that distracts the Scientist at (13, 5).
+- **(Rank 2: Moon Stone Hypothesis)** Use a Moon Stone in front of the Scientist at (18, 5) who talks about Mt. Moon.
+- **(Rank 3: Aerodactyl to Gambler Hypothesis)** Show a live Aerodactyl to the Gambler at (2, 5).
+- **(Rank 4: Rapid Trap Trigger Hypothesis)** Trigger the Kabutops and Aerodactyl fossil traps in quick succession to create a distraction.
