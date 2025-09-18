@@ -2,7 +2,7 @@
 
 - **Current Quest: Retrieve the Old Amber**
     - **Objective:** Retrieve the Old Amber and present it to the Rocket Grunt on Mt. Moon B2F.
-    - **Status:** Active. Investigating the Pewter Museum of Science. Next hypothesis: use Cut on the tree east of the museum.
+    - **Status:** Active. Investigating the Pewter Museum of Science. Next hypothesis: Interact with follower Pikachu near the Hiker and his daughter.
 - **Stalled Quest: The Copycat's Gift**
     - **Objective:** Obtain a POKé DOLL and give it to COPYCAT.
     - **Status:** Active. All leads in Cerulean City exhausted for now.
@@ -74,7 +74,6 @@
 # IX. Fossil Quest - Hypotheses Log
 
 - **Active Hypotheses:**
-    - **(Pewter Museum - Cut Tree)** Use 'Cut' on the unique-looking tree to the right of the museum's east wing to reveal a hidden entrance.
     - **(Pewter Museum - Show Pokémon)** Show a specific living fossil Pokémon (like Omanyte) to an NPC inside the museum to trigger a new event.
     - **(Pewter Museum - Find Key)** An NPC elsewhere in Pewter City has a 'Museum Key' that opens the back room.
     - **(Pewter Museum - Itemfinder)** Use the Itemfinder inside the museum to locate a hidden switch.
@@ -110,6 +109,7 @@
     - The NPC Melanie in Cerulean City will have new dialogue if the player has a Bulbasaur in the lead of their party. (Result: Confirmed. Dialogue changed to a single line but did not advance the Copycat quest.)
     - The Hiker will move if spoken to with only one conscious Pokémon in the party. (Result: Failed. Dialogue unchanged.)
     - Interacting with the Scientist at (8, 6) after reading the Moon Stone sign does not change his dialogue. (Result: Failed.)
+    - **(Pewter Museum - Cut Tree)** Use 'Cut' on the unique-looking tree to the right of the museum's east wing to reveal a hidden entrance. (Result: Failed. The tree was cuttable but led to a small, empty, dead-end area with no new paths or events.)
 
 # X. Archived Quests & Solved Puzzles
 
@@ -128,11 +128,9 @@
 # X. Reflection & Maintenance Log (Turn 222912)
 
 - **Tile Mechanics Update:** Added `ladder_down` to my documentation. It functions as a warp to a lower floor.
-- **New Agent Idea:** Consider creating an 'NPC Behavior Strategist' agent to suggest solutions for dynamic NPC blocking puzzles, like the Youngster in the museum.
 - **Cognitive Bias Log Update:** Added an entry about misdiagnosing the `automated_path_navigator` failure. The tool was correct; my *assumption* about the destination's reachability was wrong. **Lesson Reinforced:** I must trust my tools and verify my own assumptions about the game state before attempting to debug code.
 - **(Mt. Moon - Rocket Grunt Dialogue)** Spoke to the Rocket Grunt at B2F (30, 12). His dialogue remains: "If you find a fossil, give it to me and scram!". This confirms the fossil is the required item.
 
 # XI. Future Development
 
 - **New Agent Idea (NPC Behavior Strategist):** Create an agent to suggest solutions for dynamic NPC blocking puzzles, like the Youngster in the museum. This agent would analyze NPC positions, dialogue, and player actions to hypothesize novel interaction sequences.
-- **(Pewter Museum - Cut Tree)** Use 'Cut' on the unique-looking tree to the right of the museum's east wing to reveal a hidden entrance. (Result: Failed. The tree was cuttable but led to a small, empty, dead-end area with no new paths or events.)
