@@ -125,7 +125,7 @@
     - Interacting with the Scientist at (8, 6) from position (8, 7) will move the Youngster. (Result: Failed. The Scientist only provided flavor text about the space exhibit.)
     - Interacting with the Scientist at (8, 6) from position (7, 6) will move the Youngster. (Result: Failed. The Scientist only provided flavor text about the space exhibit.)
     - Interacting with Pikachu from position (7, 6) will move the Youngster. (Result: Failed. Triggered a 'Cancel Lock' trap.)
-    - Interacting with the Youngster at (8, 8) from position (7, 8) will make him move off the warp tile. (Result: Failed. Dialogue unchanged.)
+    - Interacting with the Youngster (initially at (7, 8)) from position (6, 8) moved him to (8, 8), blocking the warp. A subsequent interaction from (7, 8) did not move him further. (Result: Failed. Dialogue unchanged.)
 
 # X. Archived Quests & Solved Puzzles
 
