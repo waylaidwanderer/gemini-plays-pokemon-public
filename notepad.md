@@ -2,7 +2,7 @@
 
 - **Current Quest: Retrieve the Old Amber**
     - **Objective:** Retrieve the Old Amber and present it to the Rocket Grunt on Mt. Moon B2F.
-    - **Status:** Active. Investigating the Pewter Museum of Science. Next hypothesis: Interact with follower Pikachu near the Hiker and his daughter.
+    - **Status:** Active. The Super Nerd in Pewter City at (28, 18) has new dialogue after solving the museum puzzle. Currently in conversation with him.
 - **Stalled Quest: The Copycat's Gift**
     - **Objective:** Obtain a POKé DOLL and give it to COPYCAT.
     - **Status:** Active. All leads in Cerulean City exhausted for now.
