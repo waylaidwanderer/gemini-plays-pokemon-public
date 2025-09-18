@@ -136,3 +136,4 @@
     - **Objective:** Obtain a COIN CASE to play games at the Celadon Game Corner.
     - **Status:** Completed.
     - **Solution:** The Gym Guide NPC at (1, 2) in the Celadon Diner gives the player the COIN CASE. He mentions he is giving up gambling after losing everything at the slots, a fact corroborated by the Fisher NPC in the same room.
+    - (Agent Hypothesis #2) Leading with a fossil Pokémon (Kabutops) and interacting with the Youngster does not make him move. (Result: Failed. Dialogue unchanged.)
