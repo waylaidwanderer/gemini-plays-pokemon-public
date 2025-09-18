@@ -16,12 +16,20 @@
 
 # II. Game Mechanics & World Rules
 
--   **POKé DOLL Escape:** A POKé DOLL can be used to guarantee an escape from a wild Pokémon battle.
--   **Battle Menu Anomaly:** The game appears to intentionally restrict move selection in certain wild battles to the first move slot.
--   **Shop Menu Navigation Anomaly:** The Cerulean Mart shop menu does not follow a standard grid layout and requires 'B' to exit.
--   **Pikachu Trap Mechanic:** On Rocket Hideout floors and in the Pewter Museum, interacting with specific objects can trigger a trap that locks the player on an impassable tile. This trap is escaped by pressing the 'B' button.
--   **PC Mechanics:** The PC is **stateful**. Any automation tool MUST account for this by having a reset sequence to return to a known state.
--   **Route 4 Access:** There are two distinct maps named 'Route 4'. The eastern section is a one-way path *from* Mt. Moon.
+-   **Battle Menu Anomaly:** The game sometimes restricts move selection to the first slot in wild battles.
+-   **PC Statefulness:** The PC is stateful. Automation tools MUST have a reset sequence.
+-   **Pikachu Following Mechanic:** A button press in Pikachu's direction only causes a turn if not already facing that direction.
+-   **Trap Mechanics:**
+    -   **Pewter Museum:** Interacting with fossil exhibits or Pikachu after cutting the tree at (27, 5) can trigger a lock. Pressing 'B' escapes.
+-   **Item Usage:**
+    -   A POKé DOLL guarantees escape from a wild battle.
+
+# III. Tile Traversal Rules
+
+-   **ground:** Standard walkable tile.
+-   **grass:** Walkable, triggers wild encounters.
+-   **impassable:** Cannot be entered.
+-   **warp:** Teleports the player to another location.
 
 # III. Key Discoveries & Lessons Learned
 
