@@ -27,6 +27,15 @@
 
 # IV. Observed Tile Mechanics
 
+- **`ground`**: Standard walkable tile.
+- **`grass`**: Walkable tile where wild Pokémon can be encountered.
+- **`impassable`**: Walls, counters, and other solid objects. Cannot be entered.
+- **`cuttable`**: A tree that can be removed with the Field Move 'Cut'.
+- **`ledge`**: Can only be jumped down from above (Y-1). Impassable from all other directions.
+- **`elevated_ground`**: Walkable ground at a higher elevation. Cannot be accessed directly from `ground` tiles.
+- **`steps`**: The only tile type that allows movement between `ground` and `elevated_ground`.
+- **`spinner`**: Tiles that force movement in a specific direction.
+- **`warp`**: Tiles like doors or ladders that transport the player to another location.
 - **PC Interaction Tile:** The PC in Pokémon Centers is interacted with from the tile directly below it (at (X, Y+1)), facing up. The tile the PC is on is impassable.
 - **Game Corner Grass Tiles:** The decorative `grass` tiles inside the Celadon Game Corner are generally traversable. However, a move from a `ground` tile at (8, 7) to a `grass` tile at (8, 6) was inexplicably blocked once. A subsequent test moving from (9, 7) to (9, 6) was successful. The exact condition for the blockage is unknown and requires further investigation.
 - **Celadon Diner Counters:** The `impassable` counter tiles in the Celadon Diner create partitions, making large sections of the room inaccessible from the entrance.
