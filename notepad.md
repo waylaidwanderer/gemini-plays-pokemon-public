@@ -29,9 +29,12 @@
 # III. Tile Traversal Rules
 
 -   **ground:** Standard walkable tile.
--   **grass:** Walkable, triggers wild encounters.
+-   **grass:** Walkable, triggers wild encounters. (Note: Some decorative grass is impassable).
 -   **impassable:** Cannot be entered.
 -   **warp:** Teleports the player to another location.
+-   **ledge:** Can be jumped down, but not up.
+-   **steps:** Allows movement between 'ground' and 'elevated_ground'.
+-   **elevated_ground:** Walkable, but only accessible via 'steps' tiles.
 
 # III. Key Discoveries & Lessons Learned
 
