@@ -69,10 +69,11 @@
 # VII. Fossil Quest - Hypotheses Log
 
 - **Active Hypotheses:**
-    - **(Agent Hypothesis #1)** The Rocket Grunt on B2F wants one of the un-revived fossil items (Helix or Dome Fossil) directly, before it has been revived at the Cinnabar Lab.
-    - **(Agent Hypothesis #3)** The player must lose the battle against the Super Nerd who guards the two fossils. This loss triggers a different event flag.
-    - **(Agent Hypothesis #4)** The Hiker will move if the player has the 'Coin Case' from Celadon City in their inventory when spoken to.
-    - **(Agent Hypothesis #5)** The Hiker is blocking the path because a specific, non-obvious Team Rocket member in the cave has not been defeated.
+    - **(Agent Hypothesis #1)** An NPC from outside Mt. Moon must be escorted to the Hiker. The Hiker is waiting for a friend and will move once they are reunited.
+    - **(Agent Hypothesis #2)** A wild, un-caught Pokémon from within Mt. Moon must be lured to a specific location near the Hiker.
+    - **(Agent Hypothesis #3)** The un-revived fossil (Helix or Dome) must be placed on a specific pedestal or rock formation within Mt. Moon.
+    - **(Agent Hypothesis #4)** The player must intentionally lose the battle against the Super Nerd at 1F (25, 32), after which the Hiker will move.
+    - **(Agent Hypothesis #5)** The Hiker is a permanent fixture, but can be bypassed by using the move Teleport from a specific, unmarked tile in the room.
 - **Failed Hypotheses:**
     - The Hiker's dialogue is a check on the player's party composition. He will move if the player has a full party of six Pokémon, all of which are above a certain level (e.g., Level 25). (Result: Failed. Approached with a full party of six Pokémon, levels 40-75. Dialogue unchanged.)
     - The Rocket Grunt will react to the revived *Dome* Fossil Pokémon, Kabuto. (Result: Failed. Dialogue unchanged, and the path behind him is a confirmed dead end.)
