@@ -7,8 +7,7 @@
 -   **Key Finding:** The Scientist at (13, 5) is in an area completely surrounded by impassable tiles. Hypotheses requiring direct interaction are invalid. **CRITICAL:** Avoid confirmation bias that this specific Scientist is the *only* key. The solution may lie elsewhere in the museum.
 -   **New Hypotheses (to be tested):**
     1.  Interact with the large Space Shuttle exhibit on 1F with a Clefairy in the party lead.
-    2.  Find and press a hidden switch on the wall behind the museum's front reception desk.
-    3.  Read every single plaque and sign on both floors of the museum in order, then speak to the Old Man at (2, 5) on 1F again.
+-   **Note:** Overwatch critique identified a hallucinated hypothesis (hidden switch) and a tedious one (reading all signs). Both have been removed. Will use puzzle_hypothesis_generator for better ideas.
 -   **Failed Hypotheses (Consolidated):**
     - Use the 'POKé DOLL' item while standing next to the barrier in front of the Scientist. (Result: Professor Oak's dialogue prevents use.)
     - Use a Pokémon with the move 'Dig' in front of the scientist. (Result: Warped out of the museum, similar to an Escape Rope).
