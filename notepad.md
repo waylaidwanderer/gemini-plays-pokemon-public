@@ -131,3 +131,7 @@
 - **New Agent Idea:** Consider creating an 'NPC Behavior Strategist' agent to suggest solutions for dynamic NPC blocking puzzles, like the Youngster in the museum.
 - **Cognitive Bias Log Update:** Added an entry about misdiagnosing the `automated_path_navigator` failure. The tool was correct; my *assumption* about the destination's reachability was wrong. **Lesson Reinforced:** I must trust my tools and verify my own assumptions about the game state before attempting to debug code.
 - **(Mt. Moon - Rocket Grunt Dialogue)** Spoke to the Rocket Grunt at B2F (30, 12). His dialogue remains: "If you find a fossil, give it to me and scram!". This confirms the fossil is the required item.
+
+# XI. Future Development
+
+- **New Agent Idea (NPC Behavior Strategist):** Create an agent to suggest solutions for dynamic NPC blocking puzzles, like the Youngster in the museum. This agent would analyze NPC positions, dialogue, and player actions to hypothesize novel interaction sequences.
