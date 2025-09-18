@@ -143,3 +143,4 @@
 # XI. New Discoveries & Strategies (Post-Reflection)
 
 - **Elevated Ground & Steps:** Movement between `ground` and `elevated_ground` tiles is only possible via an intermediary `steps` tile. Direct traversal is impossible.
+- **Mt. Moon Trap Mechanic:** Similar to the Rocket Hideout, certain tiles in Mt. Moon can trap the player on an 'impassable' tile after a wild battle. This is resolved by pressing the 'B' button to escape a hidden dialogue box.
