@@ -2,7 +2,7 @@
 
 - **Current Quest: Retrieve the Old Amber**
     - **Objective:** Retrieve the Old Amber and present it to the Rocket Grunt on Mt. Moon B2F.
-    - **Status:** Active. Investigating the Pewter Museum of Science. All NPCs spoken to; no leads found. Next hypothesis: use Cut on the tree east of the museum.
+    - **Status:** Active. Investigating the Pewter Museum of Science. Next hypothesis: use Cut on the tree east of the museum.
 - **Stalled Quest: The Copycat's Gift**
     - **Objective:** Obtain a POKé DOLL and give it to COPYCAT.
     - **Status:** Active. All leads in Cerulean City exhausted for now.
@@ -99,7 +99,6 @@
     - **(Agent Hypothesis #2 - Warden's Teeth)** The Hiker will move after the player returns the Warden's Gold Teeth in Fuchsia City, but before receiving HM04 (Strength). (Reason: Quest already completed.)
     - **(Agent Hypothesis #4 - Trading Mechanic)** The solution involves the in-game trading system. The player must trade their revived fossil Pokémon to another player and then trade it back. (Reason: Unable to trade.)
 - **Failed Hypotheses:**
-
     - A ladder's destination can be changed by entering and exiting it multiple times.
     - There is a hidden, one-way passage concealed in the western wall on 1F.
     - The Escape Rope item functions differently within Mt. Moon.
@@ -122,11 +121,7 @@
     - The Super Nerd's dialogue at 1F (25, 32) has changed. (Result: Failed. Dialogue unchanged.)
     - The NPC Melanie in Cerulean City will have new dialogue if the player has a Bulbasaur in the lead of their party. (Result: Confirmed. Dialogue changed to a single line but did not advance the Copycat quest.)
     - The Hiker will move if spoken to with only one conscious Pokémon in the party. (Result: Failed. Dialogue unchanged.)
-    - Interacting with the Scientist at (8, 6) from position (8, 7) will move the Youngster. (Result: Failed. The Scientist only provided flavor text about the space exhibit.)
-    - Interacting with the Scientist at (8, 6) from position (7, 6) will move the Youngster. (Result: Failed. The Scientist only provided flavor text about the space exhibit.)
-    - Interacting with Pikachu from position (7, 6) will move the Youngster. (Result: Failed. Triggered a 'Cancel Lock' trap.)
-    - Interacting with the Youngster (initially at (7, 8)) from position (6, 8) moved him to (8, 8), blocking the warp. A subsequent interaction from (7, 8) did not move him further. (Result: Failed. Dialogue unchanged.)
-    - (Agent Hypothesis #2) Leading with a fossil Pokémon (Kabutops) and interacting with the Youngster at (8, 8) changes his dialogue to 'What's so special about it?' but does not make him move. (Result: Failed.)
+    - Interacting with the Scientist at (8, 6) after reading the Moon Stone sign does not change his dialogue. (Result: Failed.)
 
 # X. Archived Quests & Solved Puzzles
 
@@ -137,3 +132,7 @@
     - **Objective:** Obtain a COIN CASE to play games at the Celadon Game Corner.
     - **Status:** Completed.
     - **Solution:** The Gym Guide NPC at (1, 2) in the Celadon Diner gives the player the COIN CASE. He mentions he is giving up gambling after losing everything at the slots, a fact corroborated by the Fisher NPC in the same room.
+- **Puzzle: Pewter Museum 2F Exit**
+    - **Objective:** Get the Youngster NPC to move from blocking the exit warp.
+    - **Status:** Solved.
+    - **Solution:** The solution is a multi-step process. First, lead with a revived fossil Pokémon (e.g., Kabutops) and speak to the Youngster. His dialogue will change. Second, speak to the Scientist in the same room. Even though the Scientist's dialogue does not change, this action will cause the Youngster to move away from the exit warp.
