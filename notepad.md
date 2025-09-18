@@ -91,5 +91,3 @@
     - **Objective:** Get the Youngster NPC to move from blocking the exit warp.
     - **Status:** Solved.
     - **Solution:** The solution is a multi-step process. First, lead with a revived fossil Pokémon (e.g., Kabutops) and speak to the Youngster. His dialogue will change. Second, speak to the Scientist in the same room. Even though the Scientist's dialogue does not change, this action will cause the Youngster to move away from the exit warp.
-
-- **Pewter Museum Scientist Puzzle - Hypothesis 1 (Failed):** Showing a living Kabutops to the Old Man at (2, 5) will cause a commotion and move the blocking Scientist. **Result:** The Old Man's dialogue was unchanged. The hypothesis is false.
