@@ -86,13 +86,7 @@
     - **(Show Any Fossil)** Interacting with a fossil exhibit with *any* live fossil Pokémon will trigger a new event. (Result: Failed. Triggered a trap.)
     - **(Pewter Museum - Show Pokémon)** Show a specific living fossil Pokémon (like Omanyte or Kabutops) to an NPC inside the museum to trigger a new event. (Result: Failed. Old Man at (2,5) had new dialogue for Omanyte but it was not a quest trigger. A menu bug prevented swapping to Kabutops to test further.)
     - **(Pewter Museum - Itemfinder)** Use the Itemfinder inside the museum to locate a hidden switch or the Old Amber itself. (Result: Failed. ITEMFINDER did not respond on 1F.)
-    - A ladder's destination can be changed by entering and exiting it multiple times.
-    - There is a hidden, one-way passage concealed in the western wall on 1F.
-    - The Escape Rope item functions differently within Mt. Moon.
-    - A rock is a disguised ladder that requires a Clefairy in the party.
-    - The Hiker is thirsty and needs a drink item. (Result: Failed. Prof. Oak prevents item use.)
-    - An un-revived fossil can be acquired by fishing inside Mt. Moon.
-    - The Pokémon Tower is a red herring for the fossil quest.
+
     - Interacting with the second Rocket Grunt on B2F at (30, 18) will open a new path or provide a clue. (Result: Failed.)
     - Evolving a Clefairy with a Moon Stone in front of the Grunt will trigger an event. (Result: Failed. Prof. Oak prevents item use.)
     - Speaking to the Old Man in Viridian City will influence an NPC in Mt. Moon. (Result: Failed.)

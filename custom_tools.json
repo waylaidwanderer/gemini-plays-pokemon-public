@@ -1092,7 +1092,7 @@
         "action"
       ]
     },
-    "python_script": "import json\n\ndef pc_navigator():\n    action = input_data.get('action')\n    party_slot_str = input_data.get('party_slot')\n    pokemon_name = input_data.get('pokemon_name')\n\n    # Robust reset sequence\n    buttons = ['B'] * 8  # Exit any menu to overworld\n    buttons.append('A')   # Interact with PC\n    buttons.extend(['Up'] * 10) # Ensure cursor is at the top\n    buttons.append('A')   # Select BILL's PC\n\n    if action == 'deposit':\n        buttons.append('Down') # Move to DEPOSIT PKMN\n        buttons.append('A')   # Select DEPOSIT PKMN\n        if party_slot_str:\n            try:\n                party_slot = int(party_slot_str)\n                buttons.extend(['Down'] * (party_slot - 1))\n                buttons.append('A') # Select Pokemon\n                buttons.append('A') # Confirm DEPOSIT\n            except (ValueError, TypeError):\n                pass\n    elif action == 'withdraw':\n        buttons.append('A') # Select WITHDRAW PKMN\n    \n    print(json.dumps(buttons))\n\npc_navigator()",
+    "python_script": "import json\n\nbuttons = ['B'] * 10\nbuttons.append('A')\nbuttons.extend(['Up'] * 10)\nbuttons.append('A')\nbuttons.extend(['Up'] * 10)\n\naction = input_data['action']\nparty_slot_str = input_data.get('party_slot')\n\nif action == 'deposit':\n    buttons.append('Down')\n    buttons.append('A')\n    if party_slot_str:\n        party_slot = int(party_slot_str)\n        buttons.extend(['Down'] * (party_slot - 1))\n        buttons.append('A')\n        buttons.append('A')\nelif action == 'withdraw':\n    buttons.append('A')\n    # This part is a placeholder for future screen-aware logic\n    # For now, it assumes the desired pokemon is in the first slot.\n    if input_data.get('pokemon_name'):\n        buttons.append('A') # Select first pokemon\n        buttons.append('A') # Confirm withdraw\n\nprint(json.dumps(buttons))",
     "history": [
       {
         "commit_message": "feat: Create pc_navigator tool for automation. This initial version handles the 'deposit' action. It includes a critical 'B' button reset sequence to manage the PC's stateful nature, preventing common interaction failures. This is a high-priority tool to improve efficiency.",
@@ -1118,6 +1118,11 @@
         "commit_message": "feat: Add cursor reset to PC navigation. The tool was failing because the PC menu cursor position is stateful. This commit adds a sequence of 'Up' presses after accessing the PC to guarantee the cursor is on the top option ('BILL's PC') before proceeding. This is a critical fix to improve the tool's reliability and address an Overwatch critique.",
         "timestamp": "2025-09-18T18:39:35.411Z",
         "action_counter": 223459
+      },
+      {
+        "commit_message": "refactor: Reinforce reset and navigation logic. The tool was being interrupted by screen text, indicating its state handling is not robust enough. This commit increases the number of reset presses ('B' and 'Up') to more reliably handle unexpected menu states and prevent interruptions during execution. This is a direct response to a critical overwatch critique.",
+        "timestamp": "2025-09-18T19:00:37.482Z",
+        "action_counter": 223501
       }
     ]
   },
