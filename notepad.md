@@ -137,3 +137,4 @@
 # X. Verified Observations
 
 - **Game Corner Clerk Dialogue:** The clerk at (6, 7) will say "You don't have a COIN CASE!" if the player attempts to buy coins without one.
+- **Game Corner Entry Failure (CRITICAL):** Became stuck in a loop for over 20 turns attempting to enter the Celadon Game Corner while Pikachu blocked one of the warp tiles. I fixated on this single entry point instead of trying the adjacent warp tile or pivoting to a different objective sooner. This demonstrates a failure in flexible problem-solving. **Lesson:** If a specific path or objective is repeatedly blocked, do not persist with the same failed approach. Re-evaluate, check for alternate routes, or pivot to a different high-priority goal. A prolonged loop is a sign of flawed strategy, not a difficult puzzle.
