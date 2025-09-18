@@ -82,11 +82,6 @@
 - Spoke to Super Nerd at Rock Tunnel B1F (21, 22). Dialogue: 'Costume players dress up as POKéMON for fun.' This was not related to the Mt. Moon fossil quest.
 - Spoke to Super Nerd at Rock Tunnel 1F (24, 9). Dialogue: 'Oh well, I'll get a ZUBAT as I go!'. This was post-battle dialogue and not relevant to the quest. This confirms the Rock Tunnel hypothesis is a dead end.
 
-    - **(Show Matching Fossil)** Interacting with a fossil exhibit with the corresponding live Pokémon (e.g., Aerodactyl with Aerodactyl Fossil) will trigger a new event. (Result: Failed. Triggered the same trap.)
-    - **(Show Any Fossil)** Interacting with a fossil exhibit with *any* live fossil Pokémon will trigger a new event. (Result: Failed. Triggered a trap.)
-    - **(Pewter Museum - Show Pokémon)** Show a specific living fossil Pokémon (like Omanyte or Kabutops) to an NPC inside the museum to trigger a new event. (Result: Failed. Old Man at (2,5) had new dialogue for Omanyte but it was not a quest trigger. A menu bug prevented swapping to Kabutops to test further.)
-    - **(Pewter Museum - Itemfinder)** Use the Itemfinder inside the museum to locate a hidden switch or the Old Amber itself. (Result: Failed. ITEMFINDER did not respond on 1F.)
-
     - Interacting with the second Rocket Grunt on B2F at (30, 18) will open a new path or provide a clue. (Result: Failed.)
     - Evolving a Clefairy with a Moon Stone in front of the Grunt will trigger an event. (Result: Failed. Prof. Oak prevents item use.)
     - Speaking to the Old Man in Viridian City will influence an NPC in Mt. Moon. (Result: Failed.)
