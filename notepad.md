@@ -100,13 +100,6 @@
         - **(Agent Hypothesis #4 - Trading Mechanic)** The solution involves the in-game trading system. The player must trade their revived fossil Pokémon to another player and then trade it back. (Reason: Unable to trade.)
     - **Failed Hypotheses:**
 
-        - The Rocket Grunt will accept a thematically 'fossil' Pokémon like Marowak.
-        - A specific, non-fossil Pokémon from Mt. Moon (e.g., Geodude) will satisfy the Grunt.
-        - The Hiker on Mt. Moon 1F at (6,7) is part of a chained quest.
-        - The 'fossil' the Grunt wants must be stolen from the Pewter City Museum of Science.
-        - The move 'Dig' must be used on a specific, unmarked tile within Mt. Moon.
-        - The Rocket Grunt will accept a Pokémon nicknamed 'fossil'.
-        - The Hiker on Mt. Moon 1F at (6,7) will trade you for your revived fossil Pokémon.
         - A ladder's destination can be changed by entering and exiting it multiple times.
         - There is a hidden, one-way passage concealed in the western wall on 1F.
         - The Escape Rope item functions differently within Mt. Moon.
