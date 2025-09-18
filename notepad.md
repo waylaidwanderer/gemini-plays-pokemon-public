@@ -50,3 +50,9 @@
     3.  Have a Clefairy lead the party and talk to the girl at (12, 6) on 2F.
     4.  Interact with the blank wall behind the front desk clerk on 1F.
     5.  Exit and re-enter the museum without paying.
+-   **Failed Hypotheses (Round 2 - Results):**
+    1.  Talk to the Scientist at (13, 5) on 1F with a Dome/Helix Fossil in inventory. (Result: Pending)
+    2.  Use 'Cut' on the small trees inside the museum on 1F. (Result: Invalid, no trees exist)
+    3.  Have a Clefairy lead the party and talk to the girl at (12, 6) on 2F. (Result: Pending)
+    4.  Interact with the blank wall behind the front desk clerk on 1F. (Result: Untestable, path is blocked)
+    5.  Exit and re-enter the museum without paying. (Result: No change)

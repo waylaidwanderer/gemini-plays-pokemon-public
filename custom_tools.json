@@ -1102,7 +1102,7 @@
         "action"
       ]
     },
-    "python_script": "import json\n\nbuttons = ['B'] * 10\nbuttons.append('A')\nbuttons.extend(['Up'] * 10)\nbuttons.append('A')\nbuttons.extend(['Up'] * 10)\n\naction = input_data['action']\nparty_slot_str = input_data.get('party_slot')\n\nif action == 'deposit':\n    buttons.append('Down')\n    buttons.append('A')\n    if party_slot_str:\n        party_slot = int(party_slot_str)\n        buttons.extend(['Down'] * (party_slot - 1))\n        buttons.append('A')\n        buttons.append('A')\nelif action == 'withdraw':\n    buttons.append('A')\n    # This part is a placeholder for future screen-aware logic\n    # For now, it assumes the desired pokemon is in the first slot.\n    if input_data.get('pokemon_name'):\n        buttons.append('A') # Select first pokemon\n        buttons.append('A') # Confirm withdraw\n\nprint(json.dumps(buttons))",
+    "python_script": "import json\n\naction = input_data.get(\"action\")\nparty_slot_str = input_data.get(\"party_slot\")\npokemon_name = input_data.get(\"pokemon_name\")\n\nbuttons = []\n\n# Phase 1: Aggressive Reset\nbuttons.extend([\"B\"] * 20)\n\n# Phase 2: PC Interaction\nbuttons.append(\"A\")\nbuttons.extend([\"Up\"] * 10)\nbuttons.append(\"A\")\n\n# Phase 3: Action Execution\nif action == \"deposit\":\n    buttons.append(\"A\")\n    if party_slot_str:\n        try:\n            party_slot = int(party_slot_str)\n            if party_slot > 1:\n                buttons.extend([\"Down\"] * (party_slot - 1))\n        except (ValueError, TypeError):\n            pass\n    buttons.append(\"A\")\n    buttons.append(\"A\")\nelif action == \"withdraw\":\n    buttons.append(\"Down\")\n    buttons.append(\"A\")\n    # This part is complex and would require screen parsing.\n    # For now, withdraws the first Pokémon in the box.\n    buttons.append(\"A\")\n    buttons.append(\"A\")\n\n# Phase 4: Clean Exit\nbuttons.extend([\"B\"] * 5)\n\nprint(json.dumps(buttons))",
     "history": [
       {
         "commit_message": "feat: Create pc_navigator tool for automation. This initial version handles the 'deposit' action. It includes a critical 'B' button reset sequence to manage the PC's stateful nature, preventing common interaction failures. This is a high-priority tool to improve efficiency.",
@@ -1133,6 +1133,16 @@
         "commit_message": "refactor: Reinforce reset and navigation logic. The tool was being interrupted by screen text, indicating its state handling is not robust enough. This commit increases the number of reset presses ('B' and 'Up') to more reliably handle unexpected menu states and prevent interruptions during execution. This is a direct response to a critical overwatch critique.",
         "timestamp": "2025-09-18T19:00:37.482Z",
         "action_counter": 223501
+      },
+      {
+        "commit_message": "fix: Increase reset sequence to improve reliability. The tool was repeatedly failing due to screen text interruptions, indicating the 10-press 'B' reset was insufficient to handle the PC's stateful nature. This commit increases the reset to 15 presses to make the tool more robust and prevent these critical failures.",
+        "timestamp": "2025-09-18T20:30:54.070Z",
+        "action_counter": 223705
+      },
+      {
+        "commit_message": "fix: Overhaul logic with explicit exit sequence. The tool was failing due to its stateful nature. This commit adds an explicit exit sequence by adding 'B' presses at the end of the script to ensure it always returns to the overworld. It also corrects the number of 'A' presses for deposit actions and adds proper party slot navigation. This is a direct response to repeated failures and a critical fix for my automation workflow.",
+        "timestamp": "2025-09-18T20:34:09.958Z",
+        "action_counter": 223711
       }
     ]
   },
