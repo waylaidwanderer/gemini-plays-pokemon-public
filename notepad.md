@@ -8,9 +8,9 @@
 -   **New Hypotheses (to be tested):**
     1.  Interact with the large Space Shuttle exhibit on 1F with a Clefairy in the party lead.
     2.  Find and press a hidden switch on the wall behind the museum's front reception desk.
-    3.  Use the 'POKé DOLL' item while standing next to the barrier in front of the Scientist.
-    4.  Read every single plaque and sign on both floors of the museum in order, then speak to the Old Man at (2, 5) on 1F again.
+    3.  Read every single plaque and sign on both floors of the museum in order, then speak to the Old Man at (2, 5) on 1F again.
 -   **Failed Hypotheses (Consolidated):**
+    - Use the 'POKé DOLL' item while standing next to the barrier in front of the Scientist. (Result: Professor Oak's dialogue prevents use.)
     - Use a Pokémon with the move 'Dig' in front of the scientist. (Result: Warped out of the museum, similar to an Escape Rope).
     - Use a Poké Doll on the blocking Scientist at (13, 5). (Result: Untestable, path is blocked)
     - Interact with the large Moon Stone display on the 2nd floor. (Result: No change)
