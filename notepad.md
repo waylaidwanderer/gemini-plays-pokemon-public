@@ -131,3 +131,4 @@
     - **Objective:** Obtain a COIN CASE to play games at the Celadon Game Corner.
     - **Status:** Completed.
     - **Solution:** The Gym Guide NPC at (1, 2) in the Celadon Diner gives the player the COIN CASE. He mentions he is giving up gambling after losing everything at the slots, a fact corroborated by the Fisher NPC in the same room.
+- **`grass`:** Can be either tall grass with wild encounters or a decorative, impassable tile (e.g., in the Pewter Museum).
