@@ -57,7 +57,6 @@
 
 # V. Key Discoveries, Lessons & Self-Correction
 
-- **PC Mechanics (CRITICAL):** The PC is **stateful**. Any automation tool MUST account for this by having a reset sequence to return to a known state.
 - **Route 4 Access (CRITICAL):** There are two distinct maps named 'Route 4'. The eastern section is a one-way path *from* Mt. Moon.
 - **Confirmation Bias & Over-Correction (CRITICAL):** My handling of the Rocket Hideout B2F maze was a cascade of cognitive errors. **Lesson:** Do not swing from one bias to another. Trust verifiable data and tool outputs over intuition.
 - **Hypothesis Testing Failure (Preparation):** Arrived at a location to test a hypothesis without the required Pokémon/items/moves. **Lesson:** Always verify party composition and necessary items/moves *before* traveling.
