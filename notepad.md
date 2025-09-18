@@ -41,3 +41,10 @@
 -   **Tool Deferral Failure (CRITICAL):** Repeatedly deferred the creation of necessary tools instead of building them immediately. **Lesson Reinforced:** If a repetitive manual task can be automated, or a complex reasoning task can be delegated, building a tool or agent for it is the highest priority.
 -   **Game Corner Entry Failure (CRITICAL):** Became stuck in a loop attempting to enter the Celadon Game Corner while Pikachu blocked a warp tile. **Lesson:** If a specific path or objective is repeatedly blocked, do not persist with the same failed approach. Re-evaluate, check for alternate routes, or pivot to a different high-priority goal.
     4.  Reading the "SPACE SHUTTLE COLUMBIA" sign on 2F will change NPC dialogue on 2F, revealing a clue. (Result: No change)
+
+-   **Agent-Generated Hypotheses (Round 2 - Testing):**
+    1.  Talk to the Scientist at (13, 5) on 1F with a Dome/Helix Fossil in inventory.
+    2.  Use 'Cut' on the small trees inside the museum on 1F.
+    3.  Have a Clefairy lead the party and talk to the girl at (12, 6) on 2F.
+    4.  Interact with the blank wall behind the front desk clerk on 1F.
+    5.  Exit and re-enter the museum without paying.
