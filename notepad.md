@@ -6,10 +6,10 @@
 -   **Obstacle:** A Scientist at (13, 5) on 1F blocks the path to an item.
 -   **Key Finding:** The Scientist at (13, 5) is in an area completely surrounded by impassable tiles. Hypotheses requiring direct interaction are invalid. **CRITICAL:** Avoid confirmation bias that this specific Scientist is the *only* key. The solution may lie elsewhere in the museum.
 -   **New Hypotheses (from Agent):**
-    1.  **Rank 1:** Use the HM move 'Cut' on the tree blocking the east side entrance of the museum. (Reasoning: Suggests an alternate entrance may exist, a common puzzle mechanic.)
-    2.  **Rank 2:** After talking to the scientist on the 2nd floor next to the Aerodactyl fossil, interact with the fossil display itself. (Reasoning: Proposes a specific sequence of actions thematically linked to the objective.)
-    3.  **Rank 3:** Use the Itemfinder on the first floor, specifically in front of the large space shuttle exhibit. (Reasoning: Re-using a tested tool in a more logical, untested location.)
+    1.  **Rank 1:** Use the HM move 'Cut' on the tree blocking the east side entrance of the museum. (Reasoning: Suggests an alternate entrance may exist, a common puzzle mechanic. Status: Blocked, path unreachable.)
+    2.  **Rank 2:** Use the Itemfinder on the first floor, specifically in front of the large space shuttle exhibit. (Reasoning: Re-using a tested tool in a more logical, untested location. Note: Space Shuttle is on 2F, but the spirit of the hypothesis is to check 1F exhibits.)
 -   **Failed Hypotheses (Consolidated):**
+    - After talking to the scientist on the 2nd floor next to the Aerodactyl fossil, interact with the fossil display itself. (Result: No change, triggered standard trap.)
     - Use the 'POKé DOLL' item while standing next to the barrier in front of the Scientist. (Result: Professor Oak's dialogue prevents use.)
     - Use a Pokémon with the move 'Dig' in front of the scientist. (Result: Warped out of the museum, similar to an Escape Rope).
     - Use a Poké Doll on the blocking Scientist at (13, 5). (Result: Untestable, path is blocked)
