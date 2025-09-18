@@ -1090,12 +1090,17 @@
         "screen_text"
       ]
     },
-    "python_script": "import json\nimport re\nimport sys\n\ndef run_tool():\n    screen_text = input_data['screen_text']\n    buttons = []\n    main_menu_options = [['FIGHT', 'PKMN'], ['ITEM', 'RUN']]\n    cursor_pos = None\n\n    # Find cursor position\n    for r, row in enumerate(main_menu_options):\n        for c, option in enumerate(row):\n            if f'→{option}' in screen_text:\n                cursor_pos = (r, c)\n                break\n        if cursor_pos:\n            break\n\n    if cursor_pos:\n        # Target is RUN at (1, 1)\n        target_pos = (1, 1)\n        \n        # Horizontal movement\n        if cursor_pos[1] < target_pos[1]:\n            buttons.append('Right')\n        elif cursor_pos[1] > target_pos[1]:\n            buttons.append('Left')\n            \n        # Vertical movement\n        if cursor_pos[0] < target_pos[0]:\n            buttons.append('Down')\n        elif cursor_pos[0] > target_pos[0]:\n            buttons.append('Up')\n\n    buttons.append('A')\n    print(json.dumps(buttons))\n\nrun_tool()\n",
+    "python_script": "import json\nimport re\n\ndef run_from_battle():\n    screen_text = input_data['screen_text']\n    lines = screen_text.strip().split('\\n')\n    \n    # Find the main battle menu\n    menu_line_index = -1\n    for i, line in enumerate(lines):\n        if 'FIGHT' in line and 'PKMN' in line:\n            menu_line_index = i\n            break\n\n    if menu_line_index == -1:\n        print(json.dumps([])) # Not on the main menu\n        return\n\n    # Determine cursor position\n    cursor_line = lines[menu_line_index]\n    cursor_pos = (0, 0) # Default to FIGHT\n    if '→' in cursor_line:\n        if cursor_line.index('→') < cursor_line.index('FIGHT'):\n            cursor_pos = (0, 0) # FIGHT\n        else:\n            cursor_pos = (1, 0) # PKMN\n    elif len(lines) > menu_line_index + 1 and '→' in lines[menu_line_index+1]:\n        cursor_line_2 = lines[menu_line_index+1]\n        if cursor_line_2.index('→') < cursor_line_2.index('ITEM'):\n            cursor_pos = (0, 1) # ITEM\n        else:\n            cursor_pos = (1, 1) # RUN\n\n    # Target is RUN at (1, 1)\n    target_pos = (1, 1)\n    \n    moves = []\n    # Move horizontally\n    if cursor_pos[0] < target_pos[0]:\n        moves.extend(['Right'] * (target_pos[0] - cursor_pos[0]))\n    elif cursor_pos[0] > target_pos[0]:\n        moves.extend(['Left'] * (cursor_pos[0] - target_pos[0]))\n\n    # Move vertically\n    if cursor_pos[1] < target_pos[1]:\n        moves.extend(['Down'] * (target_pos[1] - cursor_pos[1]))\n    elif cursor_pos[1] > target_pos[1]:\n        moves.extend(['Up'] * (cursor_pos[1] - target_pos[1]))\n        \n    moves.append('A')\n    print(json.dumps(moves))\n\nrun_from_battle()",
     "history": [
       {
         "commit_message": "feat: Create auto_run_from_battle tool. This tool automates selecting the 'RUN' option in wild battles to improve navigation efficiency in high-encounter areas, addressing a key finding from my mandatory reflection.",
         "timestamp": "2025-09-18T02:43:27.920Z",
         "action_counter": 222143
+      },
+      {
+        "commit_message": "feat: Create auto_run_from_battle tool. This tool automates selecting the 'RUN' option in wild battles to improve navigation efficiency in high-encounter areas, addressing a key finding from my mandatory reflection.",
+        "timestamp": "2025-09-18T03:09:00.209Z",
+        "action_counter": 222193
       }
     ]
   }
