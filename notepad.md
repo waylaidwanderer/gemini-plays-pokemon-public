@@ -5,21 +5,23 @@
 -   **Location:** Pewter Museum of Science.
 -   **Obstacle:** A Scientist at (13, 5) on 1F blocks the path to an item.
 
+-   **Confirmed Puzzle Steps:**
+    1.  Lead with a Geodude or a revived fossil Pokémon (Omanyte, Aerodactyl) and speak to the Old Man at (2, 5) on 1F.
+    2.  Speak to the Scientist at (8, 6) on 2F, who mentions the space exhibit.
+    3.  Interact with the Kabutops Fossil at (3, 7) on 1F.
+
 -   **Consolidated Failed Hypotheses:**
-    -   **Full Puzzle Sequence:** Solving the full puzzle sequence (Key Pokémon to Old Man -> 2F Scientist dialogue -> Space Shuttle -> Kabutops Fossil) with Geodude, Omanyte, or Aerodactyl in the lead does not move the blocking scientist.
-    -   **Pikachu Interaction (Self-Generated):** Triggering the Aerodactyl fossil trap and then immediately interacting with the Pikachu at (4, 5) does not move the blocking scientist.
-    -   **Fossil Sequence:** Interacting with the AerodactylFossil at (3, 4) and the KabutopsFossil at (3, 7) in immediate succession does not move the blocking scientist; both simply trigger traps.
-    -   **Pikachu Interaction (Agent-Generated):** Leading with a Pikachu and interacting with the NPC Pikachu at (1, 6) does not trigger a special event; it is another trap.
-    -   **NPC Dialogue Re-check:** Speaking to the Old Man at (2, 5) after completing all puzzle steps and interactions yields no new dialogue.
+    -   Solving the full puzzle sequence with Geodude, Omanyte, or Aerodactyl in the lead does not move the blocking scientist.
+    -   Triggering the Aerodactyl fossil trap and then immediately interacting with the Pikachu at (4, 5) does not move the blocking scientist.
+    -   Interacting with the Aerodactyl & Kabutops Fossils in immediate succession does not move the blocking scientist; both simply trigger traps.
+    -   Leading with a Pikachu and interacting with the NPC Pikachu at (1, 6) does not trigger a special event; it is another trap.
+    -   Re-checking dialogue with the Old Man at (2, 5) after completing all puzzle steps yields no new dialogue.
 
--   **Next Testable Hypotheses (from Agent):**
-    1.  **Present Fossil:** Obtain a Dome or Helix Fossil (Omanyte/Kabuto) and present it to the blocking scientist at (13, 5).
-    2.  **Gambler Interaction:** Speak to the MUSEUM1F_GAMBLER at (2, 5) again. (This was a previous hypothesis, but is still valid to try).
-
--   **Anomalies & Invalidated Paths:**
-    -   The single `grass` tile at (12, 2) on 2F is inaccessible from the main area. **Conclusion:** Likely an exit from a hidden area on 1F.
-    -   Path behind the main counter on 1F is blocked by impassable tiles.
-    -   Path to the east-side 'Cut' tree is blocked by the museum building.
+-   **Current Testable Hypotheses:**
+    1.  Present a revived fossil Pokémon (Omanyte/Kabuto) to the blocking scientist at (13, 5).
+    2.  Present *any* revived fossil (including Aerodactyl) to the blocking scientist.
+    3.  After completing the puzzle sequence, speak to an NPC *outside* the museum in Pewter City to trigger a change.
+    4.  Speak to the MUSEUM1F_GAMBLER at (2, 5) again.
 
 ## Active Quest: The Copycat's Gift
 -   **Objective:** Give the POKé DOLL to COPYCAT.
