@@ -42,19 +42,26 @@
 - **Ghost-type Damage:** Ghost-type moves deal SPECIAL damage, not physical.
 - **Purified Zone:** A specific tile area in the Pokémon Tower (5F) that fully heals the party upon entry.
 
-# IV. Pokemon Locations (Observed)
+# IV. Tile Mechanics (Observed)
+- **ground:** Standard walkable tile.
+- **grass:** Walkable tile with wild Pokémon encounters.
+- **water:** Requires Surf to traverse.
+- **impassable:** Cannot be walked on (walls, trees, etc.).
+- **cuttable:** A tree that can be removed with the Cut HM. Respawns on map change.
+
+# V. Pokemon Locations (Observed)
 - **Route 8:** Growlithe, Abra, Pidgey, Rattata, Jigglypuff, Vulpix
 - **Route 7:** Pidgey, Vulpix, Koffing, Jigglypuff
 
-# V. Tool & Agent Improvement Log
+# VI. Tool & Agent Improvement Log
 - **select_battle_move (FIXED):** The tool has been updated. In-game testing confirmed the battle menu is a single vertical list, not a 2x2 grid.
 - **pokemon_hunter (FIXED):** The tool has been refactored to accept a rectangular boundary to ensure all generated movements stay within a specified hunting area.
 - **exploration_planner:** Created an agent to generate optimal routes for speaking to all unvisited NPCs in a city.
 
-# VI. New Directives & Resolutions
+# VII. New Directives & Resolutions
 - **Map Marker Discipline (WARPS):** I must mark every warp tile (both entry and exit) with '🚪' immediately after using it to improve my navigational memory and avoid getting lost in complex areas.
 
-# VII. Archived Discoveries & Confirmations
+# VIII. Archived Discoveries & Confirmations
 
 ## Completed Quests
 ### The Ghost of Lavender Town
