@@ -66,3 +66,4 @@
 - Having the player's Pikachu interact with the NPC Pikachu at (27, 17) yielded no new dialogue or event. (Agent Hypothesis #5 FAILED)
 - **water:** A tile that can be crossed using the HM move Surf.
 - **water:** A tile that can be crossed using the HM move Surf.
+- **water:** A tile that can be crossed using the HM move Surf.
