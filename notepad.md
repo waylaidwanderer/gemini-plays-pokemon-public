@@ -65,3 +65,5 @@
 - **Pewter Museum Fossil Puzzle:** Leading with a Geodude triggered new dialogue from the Old Man at (2, 5) on 1F ("That is one magnificent fossil!"). This is a confirmed step in the puzzle solution.
 - **Pewter Museum Space Exhibit Puzzle:** After showing Geodude to the Old Man on 1F, the Scientist at (8, 6) on 2F gives new dialogue: 'We have a space exhibit now.'
 - **Pewter Museum Final Step:** After completing the Geodude and Space Exhibit steps, interacting with the Kabutops Fossil at (3, 7) completes the puzzle sequence. (This action did not trigger a trap, unlike previous attempts).
+- **Ground:** Standard walkable tile.
+- **Impassable:** Walls and other objects that cannot be walked on or through.

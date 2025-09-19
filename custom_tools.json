@@ -1303,7 +1303,7 @@
         "target_pokemon_name"
       ]
     },
-    "python_script": "import json\nimport re\n\ndef run():\n    screen_text = input_data['screen_text']\n    target_pokemon_name = input_data['target_pokemon_name']\n\n    lines = screen_text.split('\\n')\n    party = []\n    for line in lines:\n        # Updated regex to capture multi-word names and level\n        match = re.search(r'([A-Z\\s]+)LV (\\d+)', line, re.IGNORECASE)\n        if match:\n            name = match.group(1).strip()\n            party.append(name.upper())\n\n    if not party:\n        # Fallback for parsing only names if level is not present\n        for line in lines:\n            # Simple check for uppercase words, allows spaces\n            if any(c.isupper() for c in line) and 'LV' not in line.upper():\n                # Clean up potential artifacts\n                name = re.sub(r'[^A-Z\\s]', '', line, flags=re.IGNORECASE).strip()\n                if name and len(name) > 1:\n                    party.append(name.upper())\n\n    try:\n        target_index = party.index(target_pokemon_name.upper())\n    except ValueError:\n        print(json.dumps([]))\n        return\n\n    # The cursor starts at index 0\n    current_cursor_pos = 0\n\n    # 1. Navigate to the target Pokémon\n    button_presses = ['Down'] * (target_index - current_cursor_pos)\n\n    # 2. Select the Pokémon\n    button_presses.append('A')\n\n    # 3. Navigate to 'SWITCH' in the sub-menu (STATS -> SWITCH)\n    button_presses.append('Down')\n\n    # 4. Select 'SWITCH'\n    button_presses.append('A')\n\n    # 5. Navigate back to the first slot (leader)\n    button_presses.append('Up') # Move to the last pokemon\n    button_presses.append('Up') * (len(party) - 1 - target_index) # Move up to the first pokemon\n\n    # 6. Confirm the swap\n    button_presses.append('A')\n\n    print(json.dumps(button_presses))\n\nrun()\n",
+    "python_script": "import json\nimport re\n\ndef run():\n    screen_text = input_data['screen_text']\n    target_pokemon_name = input_data['target_pokemon_name']\n\n    lines = screen_text.strip().split('\\n')\n    party = []\n    cursor_index = -1\n    \n    i = 0\n    while i < len(lines) - 1:\n        # The last line is 'Choose a POKéMON.', so we ignore it.\n        if 'Choose a POKéMON' in lines[i]:\n            break\n\n        first_line = lines[i]\n        second_line = lines[i+1]\n\n        # Extract Pokémon name\n        name_match = re.match(r'([A-Z]+)', first_line.strip())\n        if name_match:\n            party.append(name_match.group(1))\n        else:\n            # Handle cases where the name might not be at the start\n            # This is a fallback and might need refinement\n            parts = first_line.strip().split(' ')\n            if parts:\n                party.append(parts[0])\n\n        # Check for cursor on the second line\n        if '→' in second_line:\n            cursor_index = len(party) - 1\n        \n        i += 2\n\n    if not party or cursor_index == -1:\n        print(json.dumps([])) # Fail gracefully\n        return\n\n    try:\n        target_index = party.index(target_pokemon_name.upper())\n    except ValueError:\n        print(json.dumps([])) # Target not found\n        return\n\n    buttons = []\n    # 1. Navigate from cursor to target\n    if target_index > cursor_index:\n        buttons.extend(['Down'] * (target_index - cursor_index))\n    elif target_index < cursor_index:\n        buttons.extend(['Up'] * (cursor_index - target_index))\n\n    # 2. Select target and choose SWITCH\n    buttons.append('A')\n    buttons.append('Down')  # From STATS to SWITCH\n    buttons.append('A')\n\n    # 3. Navigate from target's original position to the first slot\n    buttons.extend(['Up'] * target_index)\n\n    # 4. Confirm swap\n    buttons.append('A')\n\n    print(json.dumps(buttons))\n\nrun()\n",
     "history": [
       {
         "commit_message": "feat: Create party_manager tool. This tool automates the process of switching a Pokémon to the lead party position, addressing a key efficiency gap identified during a mandatory self-assessment. It parses the party screen to find the target Pokémon and calculates the necessary button presses for the swap.",
@@ -1334,6 +1334,26 @@
         "commit_message": "fix: Correct party swap submenu navigation. The tool was failing because it incorrectly assumed the cursor defaulted to 'SWITCH' after selecting a Pokémon. It actually defaults to 'STATS'. This commit adds the necessary 'Down' press to correctly navigate to and select 'SWITCH', fixing the critical automation failure.",
         "timestamp": "2025-09-19T01:13:04.006Z",
         "action_counter": 224296
+      },
+      {
+        "commit_message": "fix: Overhaul parsing logic to prevent TypeError. The previous version failed to correctly parse Pokémon names and cursor position from the party screen, leading to a `NoneType` error during calculations. This commit introduces a more robust regex-based parsing method to reliably extract party members and the cursor's location. This is a critical fix to restore the tool's core functionality.",
+        "timestamp": "2025-09-19T02:03:09.123Z",
+        "action_counter": 224423
+      },
+      {
+        "commit_message": "fix: Overhaul parsing logic to prevent TypeError. The previous version failed to correctly parse Pokémon names and cursor position from the party screen, leading to a `NoneType` error during calculations. This commit introduces a more robust regex-based parsing method to reliably extract party members and the cursor's location. This is a critical fix to restore the tool's core functionality.",
+        "timestamp": "2025-09-19T02:03:54.772Z",
+        "action_counter": 224424
+      },
+      {
+        "commit_message": "fix: Overhaul party swap logic. The previous version failed to correctly calculate the button presses. This commit implements a robust, state-aware sequence: navigate to the target, select it, select 'SWITCH', navigate to the first slot, and confirm the swap. This addresses a critical tool failure.",
+        "timestamp": "2025-09-19T02:05:14.841Z",
+        "action_counter": 224425
+      },
+      {
+        "commit_message": "fix: Overhaul parsing logic to prevent TypeError. The previous version failed to correctly parse Pokémon names and cursor position from the party screen, leading to a `NoneType` error during calculations. This commit introduces a more robust line-by-line parsing method to reliably extract party members and the cursor's location. This is a critical fix to restore the tool's core functionality.",
+        "timestamp": "2025-09-19T02:08:27.336Z",
+        "action_counter": 224429
       }
     ]
   }
