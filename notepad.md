@@ -13,7 +13,7 @@
     -   **Puzzle Sequence Hypotheses:**
         -   **With Geodude:** Solving the full puzzle sequence (Geodude to Old Man -> 2F Scientist dialogue -> Space Shuttle -> Kabutops Fossil) would move the blocking scientist. (Result: Sequence completed, scientist did not move.)
         -   **With Omanyte:** Repeating the full puzzle sequence with a revived fossil Pokémon (Omanyte) in the lead would move the blocking scientist. (Result: Sequence completed, scientist did not move.)
-        -   **With Aerodactyl:** Repeating the full puzzle sequence with a revived fossil Pokémon (Aerodactyl) in the lead would move the blocking scientist. (Result: Pending...)
+        -   **With Aerodactyl:** Repeating the full puzzle sequence with a revived fossil Pokémon (Aerodactyl) in the lead would move the blocking scientist. (Result: Sequence completed, scientist did not move.)
 -   **Next Testable Hypothesis:** After showing a 'key' Pokémon to the Old Man, the puzzle sequence steps might be completable out of order (e.g., interacting with the Kabutops fossil immediately).
 
     
