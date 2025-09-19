@@ -66,3 +66,4 @@
 - **Pewter Museum Space Exhibit Puzzle:** After showing Geodude to the Old Man on 1F, the Scientist at (8, 6) on 2F gives new dialogue: 'We have a space exhibit now.'
 - **Pewter Museum Final Step:** After completing the Geodude and Space Exhibit steps, interacting with the Kabutops Fossil at (3, 7) completes the puzzle sequence. (This action did not trigger a trap, unlike previous attempts).
 - **Pewter Museum Fee Trigger:** The entrance fee tile at (10, 5) can be re-triggered even after entering the museum.
+    - Interact with the Pikachu at (12, 8) to make it follow. (Result: No change, Pikachu did not follow.)
