@@ -63,20 +63,18 @@
 
 ### Self-Generated & Post-Assessment Hypotheses
 1.  **Hypothesis (External Trigger - FAILED):** After completing the internal museum puzzle sequence, speaking to the Super Nerd at (28, 18) in Pewter City yielded no new dialogue or progress.
-2.  **Hypothesis (Fossil Presentation):** The blocking scientist at (13, 5) on 1F will move if I speak to him while leading with a revived fossil Pokémon (Omanyte or Aerodactyl).
+2.  **Hypothesis (Fossil Presentation - PENDING):** The blocking scientist at (13, 5) on 1F will move if I speak to him while leading with a revived fossil Pokémon (Omanyte or Aerodactyl).
+3.  **Hypothesis (Item Use - FAILED):** Use a drink item on the Pikachu at (12, 8). (Reason: Game mechanics prevent using items on overworld NPCs; it opens the party menu instead.)
+4.  **Hypothesis (Itemfinder - FAILED):** Use the Itemfinder in the area between the fossils. (Result: 'ITEMFINDER isn't responding.')
+5.  **Hypothesis (Meowth Presentation - PENDING):** Lead with a Meowth and speak to the Gambler at (2, 5).
+6.  **Hypothesis (Trap Sequence - FAILED):** Trigger the Kabutops fossil trap, then interact with the Pikachu. (Result: This sequence only triggered a series of traps and did not move the blocking scientist.)
 
-# VIII. World Knowledge & Mechanics
+# VI. World Knowledge & Mechanics
 
 ## Tile & Object Interaction Rules
 - **PC Interaction:** The PC is stateful. Interaction must be from an adjacent tile (typically below), not on top of the PC tile itself.
 - **Fossil Trap Tiles (Pewter Museum):** Interacting with the Aerodactyl or Kabutops fossils triggers a trap, moving the player onto an impassable tile and making the NPC Pikachu disappear. This state is escaped by pressing 'B'.
 - **Pikachu Trap (Pewter Museum):** Interacting with the NPC Pikachu after triggering a fossil trap results in a similar trap state, also escaped by pressing 'B'.
-
-# IX. Agent Hypotheses (Round 2)
-- **Hypothesis 1 (Failed):** Use a drink item on the Pikachu at (12, 8). (Reason: Game mechanics prevent using items on overworld NPCs; it opens the party menu instead.)
-- **Hypothesis 2 (Failed):** Use the Itemfinder in the area between the fossils. (Result: 'ITEMFINDER isn't responding.')
-- **Hypothesis 3 (Pending):** Lead with a Meowth and speak to the Gambler.
-- **Hypothesis 4 (Failed):** Trigger the Kabutops fossil trap, then interact with the Pikachu. (Result: This sequence only triggered a series of traps and did not move the blocking scientist.)
 
 # X. Pokemon Locations (Observed)
 
