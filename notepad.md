@@ -37,8 +37,7 @@
 # V. Hypothesis Log & Strategic Pivots
 
 ### Self-Generated & Post-Assessment Hypotheses
-1.  **Hypothesis (External Trigger - FAILED):** After completing the internal museum puzzle sequence, speaking to the Super Nerd at (28, 18) in Pewter City yielded no new dialogue or progress.
-2.  **Hypothesis (Fossil Presentation - PENDING):** The blocking scientist at (13, 5) on 1F will move if I speak to him while leading with a revived fossil Pokémon (Omanyte or Aerodactyl).
+
 3.  **Hypothesis (Item Use - FAILED):** Use a drink item on the Pikachu at (12, 8). (Reason: Game mechanics prevent using items on overworld NPCs; it opens the party menu instead.)
 4.  **Hypothesis (Itemfinder - FAILED):** Use the Itemfinder in the area between the fossils. (Result: 'ITEMFINDER isn't responding.')
 5.  **Hypothesis (Meowth Presentation - PENDING):** Lead with a Meowth and speak to the Gambler at (2, 5).
@@ -52,8 +51,7 @@
 # V. Hypothesis Log & Strategic Pivots
 
 ### Self-Generated & Post-Assessment Hypotheses
-1.  **Hypothesis (External Trigger - FAILED):** After completing the internal museum puzzle sequence, speaking to the Super Nerd at (28, 18) in Pewter City yielded no new dialogue or progress.
-2.  **Hypothesis (Fossil Presentation - PENDING):** The blocking scientist at (13, 5) on 1F will move if I speak to him while leading with a revived fossil Pokémon (Omanyte or Aerodactyl).
+
 3.  **Hypothesis (Item Use - FAILED):** Use a drink item on the Pikachu at (12, 8). (Reason: Game mechanics prevent using items on overworld NPCs; it opens the party menu instead.)
 4.  **Hypothesis (Itemfinder - FAILED):** Use the Itemfinder in the area between the fossils. (Result: 'ITEMFINDER isn't responding.')
 5.  **Hypothesis (Meowth Presentation - PENDING):** Lead with a Meowth and speak to the Gambler at (2, 5).
