@@ -14,6 +14,7 @@
     -   Interact with the Aerodactyl Fossil at (3,4) and Kabutops Fossil at (3,7). (Result: Both exhibits are simple traps that temporarily lock the player. Pressing 'B' escapes. They do not open any new paths.)
     -   Use the Itemfinder on the first floor. (Result: The Itemfinder isn't responding, no items found.)
     -   Interact with the large space shuttle model on 2F of the museum. (Result: Displayed the text "SPACE SHUTTLE COLUMBIA", no other effect.)
+    -   Move onto the tile at (3, 3) to interact with the Aerodactyl fossil plaque. (Result: The tile at (3,3) is impassable.)
     -   Place a Clefairy/Clefable in the first party slot and speak to the scientist near the Moon Stone display on 2F. (Result: No change in dialogue.)
     -   Attempt to ride the Bicycle indoors on the first floor. (Result: Professor Oak's dialogue prevents use.)
     -   Use the 'POKé DOLL' item while standing next to the barrier in front of the Scientist. (Result: Professor Oak's dialogue prevents use.)
