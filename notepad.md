@@ -8,13 +8,7 @@
 -   **Active Hypothesis:** Repeating the full puzzle sequence with a revived Aerodactyl in the lead will move the blocking scientist.
 -   **Failed Hypotheses (Consolidated):**
 
-    -   **Exhibit/Object Interaction:**
-        -   Interact with the large space shuttle model on 2F. (Result: Displayed text "SPACE SHUTTLE COLUMBIA", no other effect.)
-        -   Interact with the Aerodactyl fossil plaque at (3, 3). (Result: Tile is impassable.)
-        -   Interact with the large Moon Stone display on 2F. (Result: No change.)
-        -   Examine the exterior rear wall of the museum. (Result: No effect.)
-        -   Examine the small meteorite display at (8, 6) on 2F. (Result: No text or event triggered.)
-        -   Interact with the empty display case at (11, 4) on 2F. (Result: No interaction or event triggered.)
+    
     -   **NPC Interaction & Sequencing:**
         -   Place a Clefairy/Clefable in the first party slot and speak to the scientist near the Moon Stone display on 2F. (Result: No change in dialogue.)
         -   Talk to the Youngster at (2, 8) on 2F, then return to the blocking Scientist on 1F. (Result: No change.)
@@ -28,13 +22,7 @@
 
 -   **Failed Hypotheses (Consolidated):**
 
-    -   **Exhibit/Object Interaction:**
-        -   Interact with the large space shuttle model on 2F. (Result: Displayed text "SPACE SHUTTLE COLUMBIA", no other effect.)
-        -   Interact with the Aerodactyl fossil plaque at (3, 3). (Result: Tile is impassable.)
-        -   Interact with the large Moon Stone display on 2F. (Result: No change.)
-        -   Examine the exterior rear wall of the museum. (Result: No effect.)
-        -   Examine the small meteorite display at (8, 6) on 2F. (Result: No text or event triggered.)
-        -   Interact with the empty display case at (11, 4) on 2F. (Result: No interaction or event triggered.)
+    
     -   **NPC Interaction & Sequencing:**
         -   Place a Clefairy/Clefable in the first party slot and speak to the scientist near the Moon Stone display on 2F. (Result: No change in dialogue.)
         -   Talk to the Youngster at (2, 8) on 2F, then return to the blocking Scientist on 1F. (Result: No change.)
