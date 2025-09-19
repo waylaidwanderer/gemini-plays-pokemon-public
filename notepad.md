@@ -50,19 +50,18 @@
 - **Pewter Museum Space Exhibit Puzzle:** After showing the "key" Pokémon to the Old Man on 1F, the Scientist at (8, 6) on 2F gives new dialogue: 'We have a space exhibit now.'
 - **Pewter Museum Final Step:** After completing the "key" Pokémon and Space Exhibit steps, interacting with the Kabutops Fossil at (3, 7) completes the puzzle sequence. (This action did not trigger a trap, unlike previous attempts).
 
-# V. Agent-Generated Hypotheses (Testing Phase)
+# V. Hypothesis Log & Strategic Pivots
 
+- **Core Assumption:** The solution to moving the blocking scientist on 1F is located on 2F.
+- **Contingency Plan:** If all 2F hypotheses are exhausted, the next strategic pivot will be to investigate potential puzzle triggers exclusively on 1F, questioning the core assumption.
+
+### Agent-Generated Hypotheses (Testing Phase)
 - **Hypothesis 1 (Untestable):** Speak to the other scientists in a specific order (MUSEUM1F_SCIENTIST2 -> MUSEUM1F_SCIENTIST3 -> MUSEUM1F_SCIENTIST1). (Reason: All three scientists are in unreachable areas.)
 - **Hypothesis 2 (Failed):** Interact with both the AerodactylFossil at (3, 4) and the KabutopsFossil at (3, 7) in immediate succession.
 - **Hypothesis 3 (Failed):** Interact with the `AerodactylFossil` at (3, 4), and then immediately speak to the `MUSEUM1F_GAMBLER` at (2, 5). This changed his dialogue but did not move the blocking scientist.
 - **Hypothesis 4 (Untestable):** Stand directly behind the blocking scientist at (13, 4). (Reason: The area is unreachable.)
 
-# V. Core Assumptions & Strategic Pivots
-- **Core Assumption:** The solution to moving the blocking scientist on 1F is located on 2F. 
-- **Contingency Plan:** If all 2F hypotheses are exhausted, the next strategic pivot will be to investigate potential puzzle triggers exclusively on 1F, questioning the core assumption.
-- **New Hypothesis (Self-Generated):** Trigger the Aerodactyl fossil trap at (3, 4) and then immediately interact with the Pikachu at (4, 5). (Result: Failed. The sequence of events occurred but did not move the blocking scientist.)
-
-# VII. New Hypotheses (Post-Assessment)
+### Self-Generated & Post-Assessment Hypotheses
 1.  **Hypothesis (External Trigger - FAILED):** After completing the internal museum puzzle sequence, speaking to the Super Nerd at (28, 18) in Pewter City yielded no new dialogue or progress.
 2.  **Hypothesis (Fossil Presentation):** The blocking scientist at (13, 5) on 1F will move if I speak to him while leading with a revived fossil Pokémon (Omanyte or Aerodactyl).
 
