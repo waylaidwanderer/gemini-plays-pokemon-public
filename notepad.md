@@ -55,5 +55,3 @@
 # III. Tile Traversal & Movement Rules
 - **PC Interaction:** Must be activated from the tile directly below (Y+1), while facing up.
 - **Ledges:** Can only be jumped down (from Y-1 to Y+2 in one move). Impassable from all other directions.
-- **Pewter Museum Fee Trigger:** The tile at (10, 5) on 1F triggers the entrance fee dialogue even if the player is already inside the museum.
-- **Pewter Museum Fee Trigger:** The tile at (10, 5) on 1F triggers the entrance fee dialogue even if the player is already inside the museum.
