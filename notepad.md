@@ -68,9 +68,10 @@
 
 # VIII. World Knowledge & Mechanics
 
-## Tile Mechanics
-- **ground**: Standard walkable tile.
-- **impassable**: Walls, objects, cannot be entered.
+## Tile & Object Interaction Rules
+- **PC Interaction:** The PC is stateful. Interaction must be from an adjacent tile (typically below), not on top of the PC tile itself.
+- **Fossil Trap Tiles (Pewter Museum):** Interacting with the Aerodactyl or Kabutops fossils triggers a trap, moving the player onto an impassable tile and making the NPC Pikachu disappear. This state is escaped by pressing 'B'.
+- **Pikachu Trap (Pewter Museum):** Interacting with the NPC Pikachu after triggering a fossil trap results in a similar trap state, also escaped by pressing 'B'.
 
 # IX. Agent Hypotheses (Round 2)
 - **Hypothesis 1 (Failed):** Use a drink item on the Pikachu at (12, 8). (Reason: Game mechanics prevent using items on overworld NPCs; it opens the party menu instead.)
