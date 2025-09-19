@@ -33,7 +33,7 @@
 
 ## Main Quest: The Ghost of Lavender Town
 - **Objective:** Investigate the strange occurrences in POKéMON TOWER.
-- **Status:** In Progress.
+- **Status:** In Progress. Investigation of the tower is complete. Next step is to leave the tower.
 - **Key Finding:** The SILPH SCOPE is required to unmask the GHOSTs. I possess this item.
 - **Clue:** A Little Girl in the Pokémon Center mentioned that CUBONE's mother was killed by TEAM ROCKET.
 
@@ -43,23 +43,24 @@
 - **Puzzle State Persistence:** Leaving and re-entering the Pewter Museum does **not** reset the internal puzzle state.
 - **Confirmation Bias:** I exhibited confirmation bias with the 'Meowth' hypothesis and the belief that the museum puzzle solution was inside the museum. **Lesson:** I must be more willing to abandon a hypothesis quickly when it yields no results and actively try to disprove my own assumptions.
 
-# III. Pokemon Locations (Observed)
+# III. Game Mechanics (Observed)
+- **Post-Battle Position Shift:** Sometimes, after a wild battle concludes, the player's character may be moved to a different, nearby tile.
+- **Ghost-type Damage:** Ghost-type moves deal SPECIAL damage, not physical.
+- **Purified Zone:** A specific tile area in the Pokémon Tower (5F) that fully heals the party upon entry.
+
+# IV. Pokemon Locations (Observed)
 - **Route 8:** Growlithe, Abra, Pidgey, Rattata, Jigglypuff, Vulpix
 - **Route 7:** Pidgey, Vulpix, Koffing, Jigglypuff
 
-# IV. Tool & Agent Improvement Log
+# V. Tool & Agent Improvement Log
 - **select_battle_move (FIXED):** The tool has been updated. In-game testing confirmed the battle menu is a single vertical list, not a 2x2 grid.
 - **pokemon_hunter (FIXED):** The tool has been refactored to accept a rectangular boundary to ensure all generated movements stay within a specified hunting area.
 - **exploration_planner (NEW):** Created an agent to generate optimal routes for speaking to all unvisited NPCs in a city.
 
-# V. New Directives & Resolutions
+# VI. New Directives & Resolutions
 - **Map Marker Discipline (WARPS):** I must mark every warp tile (both entry and exit) with '🚪' immediately after using it to improve my navigational memory and avoid getting lost in complex areas.
 
-# VII. Game Mechanics (Observed)
-- **Post-Battle Position Shift:** Sometimes, after a wild battle concludes, the player's character may be moved to a different, nearby tile.
-- **Ghost-type Damage:** Ghost-type moves deal SPECIAL damage, not physical.
-
-# VIII. Archived Discoveries & Confirmations
+# VII. Archived Discoveries & Confirmations
 
 ## Completed Quest: The Copycat's Gift
 - **Objective:** Give the POKé DOLL to COPYCAT.
