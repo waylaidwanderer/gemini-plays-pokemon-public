@@ -13,16 +13,16 @@
 -   **Consolidated Failed Hypotheses:**
     -   Solving the full puzzle sequence with Geodude, Omanyte, or Aerodactyl in the lead does not move the blocking scientist.
     -   Triggering the Aerodactyl fossil trap and then immediately interacting with the Pikachu at (4, 5) does not move the blocking scientist.
--   Interacting with the Aerodactyl Fossil at (3, 4) and then immediately speaking to the Old Man at (2, 5) changes his dialogue but does not move the blocking scientist.
+    -   Interacting with the Aerodactyl Fossil at (3, 4) and then immediately speaking to the Old Man at (2, 5) changes his dialogue but does not move the blocking scientist.
     -   Interacting with the Aerodactyl & Kabutops Fossils in immediate succession does not move the blocking scientist; both simply trigger traps.
     -   Leading with a Pikachu and interacting with the NPC Pikachu at (1, 6) does not trigger a special event; it is another trap.
     -   Re-checking dialogue with the Old Man at (2, 5) after completing all puzzle steps yields no new dialogue.
+    -   After completing the internal museum puzzle sequence, speaking to the Super Nerd at (28, 18) in Pewter City yielded no new dialogue or progress.
 
 -   **Current Testable Hypotheses:**
     1.  Present a revived fossil Pokémon (Omanyte/Kabuto) to the blocking scientist at (13, 5).
     2.  Present *any* revived fossil (including Aerodactyl) to the blocking scientist.
-    3.  After completing the puzzle sequence, speak to an NPC *outside* the museum in Pewter City to trigger a change.
-    4.  Speak to the MUSEUM1F_GAMBLER at (2, 5) again.
+    3.  After completing the puzzle sequence, speak to another NPC *outside* the museum in Pewter City to trigger a change.
 
 ## Active Quest: The Copycat's Gift
 -   **Objective:** Give the POKé DOLL to COPYCAT.
@@ -54,7 +54,7 @@
 
 - **Hypothesis 1 (Untestable):** Speak to the other scientists in a specific order (MUSEUM1F_SCIENTIST2 -> MUSEUM1F_SCIENTIST3 -> MUSEUM1F_SCIENTIST1). (Reason: All three scientists are in unreachable areas.)
 - **Hypothesis 2 (Failed):** Interact with both the AerodactylFossil at (3, 4) and the KabutopsFossil at (3, 7) in immediate succession.
-- **Hypothesis 3 (Failed):** Interact with the `AerodactylFossil` at (3, 4), and then immediately speak to the `MUSEUM1F_GAMBLER` at (2, 5). This changed his dialogue but did not move the blocking scientist. (Attempt 2)
+- **Hypothesis 3 (Failed):** Interact with the `AerodactylFossil` at (3, 4), and then immediately speak to the `MUSEUM1F_GAMBLER` at (2, 5). This changed his dialogue but did not move the blocking scientist.
 - **Hypothesis 4 (Untestable):** Stand directly behind the blocking scientist at (13, 4). (Reason: The area is unreachable.)
 
 # V. Core Assumptions & Strategic Pivots
@@ -63,7 +63,7 @@
 - **New Hypothesis (Self-Generated):** Trigger the Aerodactyl fossil trap at (3, 4) and then immediately interact with the Pikachu at (4, 5). (Result: Failed. The sequence of events occurred but did not move the blocking scientist.)
 
 # VII. New Hypotheses (Post-Assessment)
-1.  **Hypothesis (External Trigger):** After completing the internal museum puzzle sequence (Old Man -> 2F Scientist -> Kabutops Fossil), an NPC *outside* the museum must be spoken to. First target for testing: the Super Nerd at (28, 18) in Pewter City.
+1.  **Hypothesis (External Trigger - FAILED):** After completing the internal museum puzzle sequence, speaking to the Super Nerd at (28, 18) in Pewter City yielded no new dialogue or progress.
 2.  **Hypothesis (Fossil Presentation):** The blocking scientist at (13, 5) on 1F will move if I speak to him while leading with a revived fossil Pokémon (Omanyte or Aerodactyl).
 
 # VIII. World Knowledge & Mechanics
