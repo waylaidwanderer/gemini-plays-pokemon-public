@@ -29,6 +29,8 @@
     -   Interact with the potted plant at (11, 8). (Result: No plant exists at this location; it is a warp tile. Interaction failed.)
     -   Interact with the empty display case at (11, 4). (Result: No interaction or event triggered.)
     -   Interact with the descriptive plaques for the two large fossils in a specific order (Kabutops then Aerodactyl). (Result: Both are still simple traps; the sequence does not matter.)
+    -   Interact with the empty display case at (11, 4) with Geodude in the lead. (Result: No interaction or event triggered.)
+    -   Interact with the blocking Scientist at (13, 5) with Geodode in the lead. (Result: Untestable, scientist is behind an impassable wall.)
 -   **Anomalies Investigated (2F Grass Tile):**
     -   The single `grass` tile at (12, 2) on 2F is inaccessible from the main area. **Conclusion:** This is likely an exit point from a hidden area on 1F, not an entrance.
 -   **Invalidated Hypotheses:**
@@ -62,6 +64,6 @@
 -   **Pikachu Following Mechanic (CRITICAL CLARIFICATION):** A button press in Pikachu's direction will only cause a turn *if the player is not already facing that direction*. Pathfinding tools must account for this.
 -   **Tool Deferral Failure (CRITICAL):** Repeatedly deferred the creation of necessary tools instead of building them immediately. **Lesson Reinforced:** If a repetitive manual task can be automated, or a complex reasoning task can be delegated, building a tool or agent for it is the highest priority.
 -   **Game Corner Entry Failure (CRITICAL):** Became stuck in a loop attempting to enter the Celadon Game Corner while Pikachu blocked a warp tile. **Lesson:** If a specific path or objective is repeatedly blocked, do not persist with the same failed approach. Re-evaluate, check for alternate routes, or pivot to a different high-priority goal.
-    - Interact with the empty display case at (11, 4) with Geodude in the lead. (Result: No interaction or event triggered.)
-    - Interact with the blocking Scientist at (13, 5) with Geodude in the lead. (Result: Untestable, scientist is behind an impassable wall.)
-- **Successful Hypothesis:** Leading with a Geodude triggered new dialogue from the Old Man at (2, 5) on 1F.
+
+# V. Puzzle Solutions & Completed Steps
+- **Pewter Museum Fossil Puzzle:** Leading with a Geodude triggered new dialogue from the Old Man at (2, 5) on 1F ("That is one magnificent fossil!"). This is a confirmed step in the puzzle solution.
