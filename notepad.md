@@ -87,6 +87,3 @@
 - **Pewter Museum Fossil Puzzle:** Leading with a Geodude OR a revived fossil Pokémon (Omanyte, Aerodactyl) triggers new dialogue from the Old Man at (2, 5) on 1F. This is a confirmed step in the puzzle solution.
 - **Pewter Museum Space Exhibit Puzzle:** After showing the "key" Pokémon to the Old Man on 1F, the Scientist at (8, 6) on 2F gives new dialogue: 'We have a space exhibit now.'
 - **Pewter Museum Final Step:** After completing the "key" Pokémon and Space Exhibit steps, interacting with the Kabutops Fossil at (3, 7) completes the puzzle sequence. (This action did not trigger a trap, unlike previous attempts).
-
-# V. Future Development Ideas
-- **Agent Idea:** `team_composition_advisor`. Takes an objective (e.g., 'prepare for gym battle', 'solve puzzle requiring X') and a list of available Pokémon (party + PC) to suggest an optimal party composition.
