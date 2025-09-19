@@ -77,3 +77,7 @@
 - **Hypothesis 2 (Failed):** Use the Itemfinder in the area between the fossils. (Result: 'ITEMFINDER isn't responding.')
 - **Hypothesis 3 (Pending):** Lead with a Meowth and speak to the Gambler.
 - **Hypothesis 4 (Failed):** Trigger the Kabutops fossil trap, then interact with the Pikachu. (Result: This sequence only triggered a series of traps and did not move the blocking scientist.)
+
+# X. Pokemon Locations (Observed)
+
+- *This section will track where different Pokemon species have been found.*
