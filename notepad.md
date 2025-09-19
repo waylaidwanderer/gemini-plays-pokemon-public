@@ -4,6 +4,10 @@
 -   **Objective:** Retrieve the Old Amber.
 -   **Location:** Pewter Museum of Science.
 -   **Obstacle:** A Scientist at (13, 5) on 1F blocks the path to an item.
+-   **New Hypotheses (from Agent):**
+    1.  **Rank 1:** Place a revived Omanyte or Kabuto in the first slot of your party and speak to the blocking scientist at (13, 5).
+    2.  **Rank 2:** Read the descriptive plaque on the wall directly in front of the Aerodactyl fossil display at (3, 3).
+    3.  **Rank 3:** Interact with the potted plant at (11, 8) in the southeastern corner of the main room, checking for a hidden switch.
 -   **Untestable Hypotheses:**
     -   Set a Clefairy/Clefable as your lead party Pokémon and speak to the scientist standing near the meteorite display. (Reasoning: Cannot reach the scientist in the partitioned eastern section).
 -   **Failed Hypotheses (Consolidated):**
