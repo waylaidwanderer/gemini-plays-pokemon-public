@@ -44,6 +44,7 @@
 - **cuttable:** A tree that can be removed with HM Cut. Respawn on map change.
 - **grass:** Tall grass where wild Pokémon appear. In Pewter Pokecenter, this tile is used for the PC.
 - **warp:** A tile that transports the player to another location, such as a door or stairs.
+- **water:** A tile that can be crossed using the HM move Surf.
 
 # III. Key Discoveries & Lessons Learned
 - **Critical Directive Failure - Deferral of Tasks (CRITICAL):** I have repeatedly deferred critical maintenance tasks (tool creation, tool fixing, data management) in favor of gameplay goals. **Lesson Reinforced:** All maintenance and data management tasks are the absolute highest priority and MUST be performed successfully in the current turn.
@@ -64,7 +65,3 @@
 - **Assumption:** The Jigglypuff at (2, 4) in the Pewter Pokémon Center is decorative. **Status: Confirmed.** Interaction yielded no result.
 - **Assumption:** The PC at (14, 4) in the Pewter Pokémon Center functions normally. **Status: Confirmed.** It's a standard PC.
 - Having the player's Pikachu interact with the NPC Pikachu at (27, 17) yielded no new dialogue or event. (Agent Hypothesis #5 FAILED)
-- **water:** A tile that can be crossed using the HM move Surf.
-- **water:** A tile that can be crossed using the HM move Surf.
-- **water:** A tile that can be crossed using the HM move Surf.
-- **water:** A tile that can be crossed using the HM move Surf.
