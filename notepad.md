@@ -29,6 +29,7 @@
     - Interviewing all NPCs in Pewter City, including those in the Pokémon Center, provided no new clues for the museum puzzle.
     - Interacting with the NPC Pikachu at (27, 26) in Pewter City did not move the blocking scientist inside the museum. (Agent Hypothesis #1 FAILED)
     - Leading with a revived Aerodactyl and speaking to the Super Nerd at (28, 18) in Pewter City changed his dialogue but did not move the blocking scientist. (Agent Hypothesis #2 FAILED)
+    - Speaking to the second Super Nerd (PEWTERCITY_SUPER_NERD2) at (30, 26) yielded the same generic dialogue as the first, providing no new clues. (Agent Hypothesis #3 FAILED)
 
 ## Active Quest: The Copycat's Gift
 - **Objective:** Give the POKé DOLL to COPYCAT.
@@ -52,15 +53,8 @@
 # V. Tool & Agent Improvement Log
 - **pokemon_hunter (FIXED):** The tool has been refactored to accept a rectangular boundary to ensure all generated movements stay within a specified hunting area.
 - **city_exploration_planner (NEW):** Created an agent to generate optimal routes for speaking to all unvisited NPCs in a city.
-- **Future Agent Idea:** An agent to plan interception routes for moving NPCs.
 
-# VI. Agent Usage Reminders
-- **Battle Strategist:** I must use the `battle_strategist` agent at the very next trainer battle to evaluate its effectiveness.
-- **City Exploration Planner:** I must use the `city_exploration_planner` the next time I enter a new city with multiple NPCs.
-
-# VII. Untested Assumptions & Biases
+# VI. Untested Assumptions & Biases
 - **Assumption:** The solution to the museum puzzle is in Pewter City. **Test:** If all agent hypotheses in Pewter City fail, I will have to consider that the solution lies elsewhere and re-evaluate my main quest.
 - **Assumption:** The Jigglypuff at (2, 4) in the Pewter Pokémon Center is decorative. **Status: Confirmed.** Interaction yielded no result.
 - **Assumption:** The PC at (14, 4) in the Pewter Pokémon Center functions normally. **Status: Confirmed.** It's a standard PC.
-    - Speaking to the second Super Nerd (PEWTERCITY_SUPER_NERD2) at (30, 26) yielded the same generic dialogue as the first, providing no new clues. (Agent Hypothesis #3 FAILED)
-    - Speaking to the second Super Nerd (PEWTERCITY_SUPER_NERD2) at (30, 26) yielded the same generic dialogue as the first, providing no new clues. (Agent Hypothesis #3 FAILED)
