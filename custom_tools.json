@@ -1293,7 +1293,7 @@
         "target_pokemon_name"
       ]
     },
-    "python_script": "import json\nimport re\n\nlines = input_data['screen_text'].strip().split('\\n')\ntarget_pokemon = input_data['target_pokemon_name']\n\nparty = [] \n# Find the start of the party list\nstart_index = -1\nfor i, line in enumerate(lines):\n    if 'LV' in line and 'Choose a POKéMON' not in ''.join(lines[i:]):\n        start_index = i\n        break\n\nif start_index != -1:\n    for i in range(start_index, len(lines), 2):\n        line1 = lines[i]\n        if 'LV' in line1:\n            name_part = line1.split('LV')[0].strip()\n            name = re.sub(r'[^A-Z]+', '', name_part, flags=re.IGNORECASE).strip()\n            if name:\n                party.append(name.upper())\n        else:\n            break # Stop if a line doesn't conform to the pattern\n\nif target_pokemon.upper() not in party:\n    print(json.dumps([]))\nelse:\n    target_index = party.index(target_pokemon.upper())\n    \n    buttons = []\n    # Move to target\n    for _ in range(target_index):\n        buttons.append('Down')\n    \n    # Select target and then 'SWITCH'\n    buttons.extend(['A', 'A'])\n    \n    # Move to first slot\n    for _ in range(target_index):\n        buttons.append('Up')\n        \n    # Confirm swap\n    buttons.append('A')\n    \n    print(json.dumps(buttons))",
+    "python_script": "import json\nimport re\n\ndef manage_party_swap():\n    screen_text = input_data['screen_text']\n    target_pokemon_name = input_data['target_pokemon_name']\n    \n    lines = screen_text.split('\\n')\n    \n    party = []\n    current_pos = -1\n    for i, line in enumerate(lines):\n        if 'LV ' in line:\n            name_part = line.split('LV')[0].strip()\n            if '→' in name_part:\n                current_pos = len(party)\n            name = name_part.replace('→', '').strip()\n            if name:\n                party.append(name)\n\n    if not party or current_pos == -1:\n        print(json.dumps([]))\n        return\n\n    try:\n        target_pos = -1\n        for i, p_name in enumerate(party):\n            if p_name.lower() == target_pokemon_name.lower():\n                target_pos = i\n                break\n        if target_pos == -1:\n            print(json.dumps([]))\n            return\n    except ValueError:\n        print(json.dumps([]))\n        return\n\n    buttons = []\n    \n    # Navigate to target pokemon\n    if target_pos > current_pos:\n        buttons.extend(['Down'] * (target_pos - current_pos))\n    elif target_pos < current_pos:\n        buttons.extend(['Up'] * (current_pos - target_pos))\n            \n    # Select pokemon\n    buttons.append('A')\n    \n    # Navigate to 'SWITCH' in sub-menu (cursor defaults to 'STATS')\n    buttons.append('Down')\n    buttons.append('A')\n    \n    # Navigate to the first slot\n    if target_pos > 0:\n        buttons.extend(['Up'] * target_pos)\n            \n    # Confirm swap\n    buttons.append('A')\n    \n    print(json.dumps(buttons))\n\nmanage_party_swap()\n",
     "history": [
       {
         "commit_message": "feat: Create party_manager tool. This tool automates the process of switching a Pokémon to the lead party position, addressing a key efficiency gap identified during a mandatory self-assessment. It parses the party screen to find the target Pokémon and calculates the necessary button presses for the swap.",
@@ -1309,6 +1309,16 @@
         "commit_message": "fix: Overhaul party swap logic. The previous version failed to correctly calculate the button presses. This commit implements a robust, state-aware sequence: navigate to the target, select it, select 'SWITCH', navigate to the first slot, and confirm the swap. This addresses a critical tool failure.",
         "timestamp": "2025-09-19T00:54:55.780Z",
         "action_counter": 224246
+      },
+      {
+        "commit_message": "fix: Correct party swap submenu navigation. The tool was failing because it incorrectly assumed the cursor defaulted to 'SWITCH' after selecting a Pokémon. It actually defaults to 'STATS'. This commit adds the necessary 'Down' press to correctly navigate to and select 'SWITCH', fixing the critical automation failure.",
+        "timestamp": "2025-09-19T00:58:26.631Z",
+        "action_counter": 224255
+      },
+      {
+        "commit_message": "fix: Correct party swap submenu navigation. The tool was failing because it incorrectly assumed the cursor defaulted to 'SWITCH' after selecting a Pokémon. It actually defaults to 'STATS'. This commit adds the necessary 'Down' press to correctly navigate to and select 'SWITCH', fixing the critical automation failure.",
+        "timestamp": "2025-09-19T00:58:46.129Z",
+        "action_counter": 224256
       }
     ]
   }
