@@ -9,11 +9,7 @@
 -   **Failed Hypotheses (Consolidated):**
 
     
-    -   **NPC Interaction & Sequencing:**
-        -   Place a Clefairy/Clefable in the first party slot and speak to the scientist near the Moon Stone display on 2F. (Result: No change in dialogue.)
-        -   Talk to the Youngster at (2, 8) on 2F, then return to the blocking Scientist on 1F. (Result: No change.)
-        -   Interact with the Pikachu at (12, 8) to make it follow. (Result: No change, Pikachu did not follow.)
-        -   Swap positions with the Pikachu at (12, 8) and then interact with it. (Result: No change, Pikachu did not follow.)
+    
     -   **Puzzle Sequence Hypotheses:**
         -   **With Geodude:** Solving the full puzzle sequence (Geodude to Old Man -> 2F Scientist dialogue -> Space Shuttle -> Kabutops Fossil) would move the blocking scientist. (Result: Sequence completed, scientist did not move.)
         -   **With Omanyte:** Repeating the full puzzle sequence with a revived fossil Pokémon (Omanyte) in the lead would move the blocking scientist. (Result: Sequence completed, scientist did not move.)
@@ -23,11 +19,7 @@
 -   **Failed Hypotheses (Consolidated):**
 
     
-    -   **NPC Interaction & Sequencing:**
-        -   Place a Clefairy/Clefable in the first party slot and speak to the scientist near the Moon Stone display on 2F. (Result: No change in dialogue.)
-        -   Talk to the Youngster at (2, 8) on 2F, then return to the blocking Scientist on 1F. (Result: No change.)
-        -   Interact with the Pikachu at (12, 8) to make it follow. (Result: No change, Pikachu did not follow.)
-        -   Swap positions with the Pikachu at (12, 8) and then interact with it. (Result: No change, Pikachu did not follow.)
+    
     -   **Puzzle Sequence Hypotheses:**
         -   **With Geodude:** Solving the full puzzle sequence (Geodude to Old Man -> 2F Scientist dialogue -> Space Shuttle -> Kabutops Fossil) would move the blocking scientist. (Result: Sequence completed, scientist did not move.)
         -   **With Omanyte:** Repeating the full puzzle sequence with a revived fossil Pokémon (Omanyte) in the lead would move the blocking scientist. (Result: Sequence completed, scientist did not move.)
