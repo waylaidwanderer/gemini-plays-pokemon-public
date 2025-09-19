@@ -31,12 +31,6 @@
     - Reading the museum sign at (16, 10) and then immediately speaking to the Super Nerd at (28, 18) yielded no new dialogue. (Agent Hypothesis #4 FAILED)
     - Having the player's Pikachu interact with the NPC Pikachu at (27, 17) yielded no new dialogue or event. (Agent Hypothesis #5 FAILED)
 
-## Main Quest: The Ghost of Lavender Town
-- **Objective:** Investigate the strange occurrences in POKéMON TOWER.
-- **Status:** In Progress. Investigation of the tower is complete. Next step is to speak with Mr. Fuji.
-- **Key Finding:** The SILPH SCOPE is required to unmask the GHOSTs. I possess this item.
-- **Clue:** A Little Girl in the Pokémon Center mentioned that CUBONE's mother was killed by TEAM ROCKET.
-
 # II. Key Discoveries & Lessons Learned
 - **Critical Directive Failure - Deferral of Tasks (CRITICAL):** I have repeatedly deferred critical maintenance tasks. **Lesson Reinforced:** All maintenance and data management tasks are the absolute highest priority and MUST be performed successfully in the current turn.
 - **Game Corner Entry Failure (CRITICAL):** Became stuck in a loop attempting to enter the Celadon Game Corner. **Lesson:** If a specific path is repeatedly blocked, do not persist. Re-evaluate, check for alternate routes, or pivot to a different high-priority goal.
@@ -62,7 +56,11 @@
 
 # VII. Archived Discoveries & Confirmations
 
-## Completed Quest: The Copycat's Gift
+## Completed Quests
+### The Ghost of Lavender Town
+- **Objective:** Investigate the strange occurrences in POKéMON TOWER.
+- **Outcome:** After rescuing Mr. Fuji from Team Rocket, he provided the POKé FLUTE as a reward, concluding the quest.
+### The Copycat's Gift
 - **Objective:** Give the POKé DOLL to COPYCAT.
 - **Location:** Saffron City.
 - **Outcome:** Successfully gave the POKé DOLL to Copycat and received TM31 MIMIC in return.
