@@ -61,3 +61,8 @@
 - **Assumption:** Leaving and re-entering an area resets all puzzle states. **Test:** After the current hypothesis test, re-enter the museum and speak to the Gambler without interacting with anything to see if his dialogue has reverted to a default state.
 - **Assumption:** All non-ground tiles that are not explicitly interactive (like display cases) are impassable. **Test:** Attempt to walk into a non-interactive scenery object like a display case to confirm it is a wall.
 - **Confirmation Bias:** I exhibited confirmation bias with the 'Meowth' hypothesis, spending too much time searching across multiple routes. **Lesson:** I must be more willing to abandon a hypothesis quickly when it yields no results after a reasonable number of attempts.
+    - Using the Coin Case while facing the Gambler at (2, 5) yielded no new dialogue or event. (Hypothesis #1 Failed - Second Set)
+
+-   **Current Plan:**
+    1.  Reset the museum state by leaving and re-entering.
+    2.  Test Hypothesis #2 (Second Set): Interact with the Aerodactyl Fossil, then speak to the Gambler, then interact with the Kabutops Fossil.
