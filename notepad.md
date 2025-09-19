@@ -52,3 +52,6 @@
 
 # VI. Self-Assessment Reflections
 - **Tool Deferral Failure (CRITICAL):** During the self-assessment on turn 225424, I identified a critical failure in my process. I manually handled the spawning trees on Route 8 multiple times before finally creating the `tree_chopper` tool. This deferral of a necessary automation task is a direct violation of my core directives. **Lesson Reinforced:** If a repetitive manual task can be automated, building a tool for it is the highest priority and must be done immediately, not deferred.
+
+# VII. Agent Usage Reminders
+- **Battle Strategist:** Use the `battle_strategist` agent at the next available trainer battle to evaluate its effectiveness.
