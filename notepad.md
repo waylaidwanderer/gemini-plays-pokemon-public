@@ -48,6 +48,10 @@
 - **water:** Requires Surf to traverse.
 - **impassable:** Cannot be walked on (walls, trees, etc.).
 - **cuttable:** A tree that can be removed with the Cut HM. Respawns on map change.
+- **ledge:** One-way traversal. Can be jumped down from above, but not climbed up.
+- **steps:** Allows movement between 'ground' and 'elevated_ground' tiles.
+- **elevated_ground:** Walkable ground at a different elevation, accessible only via 'steps' or warps.
+- **warp:** A tile that teleports the player to another location (e.g., doors, stairs, cave entrances).
 
 # V. Pokemon Locations (Observed)
 - **Route 8:** Growlithe, Abra, Pidgey, Rattata, Jigglypuff, Vulpix
