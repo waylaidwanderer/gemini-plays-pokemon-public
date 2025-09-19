@@ -37,34 +37,25 @@
 - **Location:** Cerulean City (exact location of COPYCAT TBD).
 - **Status:** Item obtained. Currently searching all buildings in Cerulean City.
 
-# II. Game Mechanics & Tile Physics
-- **ground:** Standard walkable tile.
-- **impassable:** Walls, counters, and other solid barriers. Cannot be entered.
-- **ledge:** One-way downward traversal. Acts as a wall from below and sides.
-- **cuttable:** A tree that can be removed with HM Cut. Respawn on map change.
-- **grass:** Tall grass where wild Pokémon appear. In Pewter Pokecenter, this tile is used for the PC.
-- **warp:** A tile that transports the player to another location, such as a door or stairs.
-- **water:** A tile that can be crossed using the HM move Surf.
-
-# III. Key Discoveries & Lessons Learned
+# II. Key Discoveries & Lessons Learned
 - **Critical Directive Failure - Deferral of Tasks (CRITICAL):** I have repeatedly deferred critical maintenance tasks (tool creation, tool fixing, data management) in favor of gameplay goals. **Lesson Reinforced:** All maintenance and data management tasks are the absolute highest priority and MUST be performed successfully in the current turn.
 - **Game Corner Entry Failure (CRITICAL):** Became stuck in a loop attempting to enter the Celadon Game Corner while Pikachu blocked a warp tile. **Lesson:** If a specific path or objective is repeatedly blocked, do not persist with the same failed approach. Re-evaluate, check for alternate routes, or pivot to a different high-priority goal.
 - **Puzzle State Persistence:** Leaving and re-entering the Pewter Museum does **not** reset the internal puzzle state.
 - **Confirmation Bias:** I exhibited confirmation bias with the 'Meowth' hypothesis and the belief that the museum puzzle solution was inside the museum. **Lesson:** I must be more willing to abandon a hypothesis quickly when it yields no results and actively try to disprove my own assumptions.
 
-# IV. Pokemon Locations (Observed)
+# III. Pokemon Locations (Observed)
 - **Route 8:** Growlithe, Abra, Pidgey, Rattata, Jigglypuff, Vulpix
 - **Route 7:** Pidgey, Vulpix, Koffing, Jigglypuff
 
-# V. Tool & Agent Improvement Log
+# IV. Tool & Agent Improvement Log
 - **pokemon_hunter (FIXED):** The tool has been refactored to accept a rectangular boundary to ensure all generated movements stay within a specified hunting area.
 - **city_exploration_planner (NEW):** Created an agent to generate optimal routes for speaking to all unvisited NPCs in a city.
 
-# VI. Untested Assumptions & Biases
+# V. Untested Assumptions & Biases
 - **Assumption:** The solution to the museum puzzle is in Pewter City. **Test:** If all agent hypotheses in Pewter City fail, I will have to consider that the solution lies elsewhere and re-evaluate my main quest. (Status: All Pewter City hypotheses failed. Assumption is likely false).
 - **Assumption:** The Jigglypuff at (2, 4) in the Pewter Pokémon Center is decorative. **Status: Confirmed.** Interaction yielded no result.
 - **Assumption:** The PC at (14, 4) in the Pewter Pokémon Center functions normally. **Status: Confirmed.** It's a standard PC.
 - Having the player's Pikachu interact with the NPC Pikachu at (27, 17) yielded no new dialogue or event. (Agent Hypothesis #5 FAILED)
 
-# VII. New Directives & Resolutions
+# VI. New Directives & Resolutions
 - **Map Marker Discipline (WARPS):** I must mark every warp tile (both entry and exit) with '🚪' immediately after using it to improve my navigational memory and avoid getting lost in complex areas.
