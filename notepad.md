@@ -54,7 +54,7 @@
 
 - **Hypothesis 1 (Untestable):** Speak to the other scientists in a specific order (MUSEUM1F_SCIENTIST2 -> MUSEUM1F_SCIENTIST3 -> MUSEUM1F_SCIENTIST1). (Reason: All three scientists are in unreachable areas.)
 - **Hypothesis 2 (Failed):** Interact with both the AerodactylFossil at (3, 4) and the KabutopsFossil at (3, 7) in immediate succession.
-- **Hypothesis 3 (Pending):** Speak to the MUSEUM1F_GAMBLER at (2, 5) and then interact with the KabutopsFossil at (3, 7).
+- **Hypothesis 3 (Failed):** Interact with the `AerodactylFossil` at (3, 4), and then immediately speak to the `MUSEUM1F_GAMBLER` at (2, 5). This changed his dialogue but did not move the blocking scientist.
 - **Hypothesis 4 (Untestable):** Stand directly behind the blocking scientist at (13, 4). (Reason: The area is unreachable.)
 
 # V. Core Assumptions & Strategic Pivots
