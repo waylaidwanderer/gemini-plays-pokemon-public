@@ -48,6 +48,7 @@
 - **Route 7:** Pidgey, Vulpix, Koffing, Jigglypuff
 
 # IV. Tool & Agent Improvement Log
+- **select_battle_move (BUGGED):** The tool consistently fails to select the 4th move slot. Both `['Right', 'Down']` and `['Down', 'Right']` sequences incorrectly select the 2nd slot. **Next Step:** Manually test button combinations in the next applicable battle to identify the correct sequence and then fix the tool.
 - **pokemon_hunter (FIXED):** The tool has been refactored to accept a rectangular boundary to ensure all generated movements stay within a specified hunting area.
 - **exploration_planner (NEW):** Created an agent to generate optimal routes for speaking to all unvisited NPCs in a city.
 
