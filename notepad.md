@@ -67,3 +67,4 @@
 - **water:** A tile that can be crossed using the HM move Surf.
 - **water:** A tile that can be crossed using the HM move Surf.
 - **water:** A tile that can be crossed using the HM move Surf.
+- **water:** A tile that can be crossed using the HM move Surf.
