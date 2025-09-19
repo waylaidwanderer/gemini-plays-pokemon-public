@@ -38,9 +38,6 @@
 
 ### Self-Generated & Post-Assessment Hypotheses
 
-5.  **Hypothesis (Meowth Presentation - PENDING):** Lead with a Meowth and speak to the Gambler at (2, 5).
-6.  **Hypothesis (Trap Sequence - FAILED):** Trigger the Kabutops fossil trap, then interact with the Pikachu. (Result: This sequence only triggered a series of traps and did not move the blocking scientist.)
-
 # III. Key Discoveries & Lessons Learned
 
 -   **Tool Deferral Failure (CRITICAL):** Repeatedly deferred the creation of necessary tools instead of building them immediately. **Lesson Reinforced:** If a repetitive manual task can be automated, or a complex reasoning task can be delegated, building a tool or agent for it is the highest priority.
@@ -49,9 +46,6 @@
 # V. Hypothesis Log & Strategic Pivots
 
 ### Self-Generated & Post-Assessment Hypotheses
-
-5.  **Hypothesis (Meowth Presentation - PENDING):** Lead with a Meowth and speak to the Gambler at (2, 5).
-6.  **Hypothesis (Trap Sequence - FAILED):** Trigger the Kabutops fossil trap, then interact with the Pikachu. (Result: This sequence only triggered a series of traps and did not move the blocking scientist.)
 
 # X. Pokemon Locations (Observed)
 
