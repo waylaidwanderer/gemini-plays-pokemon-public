@@ -22,9 +22,9 @@
 -   **Current Testable Hypotheses & Plan:**
     1.  **Meowth Hypothesis:** A Meowth is required to progress the puzzle.
         -   **Test Plan:**
-            1.  Hunt for Meowth on Route 7 for a reasonable number of encounters.
-            2.  If unsuccessful, hunt on Route 5.
-            3.  If still unsuccessful, hunt on Route 6.
+            1.  ~~Hunt for Meowth on Route 7.~~ (Completed, unsuccessful)
+            2.  Hunt for Meowth on Route 5.
+            3.  If unsuccessful, hunt on Route 6.
             4.  If no Meowth is found, this hypothesis will be considered unlikely. I will then use the `puzzle_hypothesis_generator` to generate new ideas.
     2.  Present a revived fossil Pokémon (Omanyte/Kabuto) to the blocking scientist at (13, 5).
     3.  Present *any* revived fossil (including Aerodactyl) to the blocking scientist.
@@ -60,7 +60,7 @@
 # VI. Self-Assessment Reflections
 - **Tool Deferral Failure (CRITICAL - Turn 225424):** I identified a critical failure in my process. I manually handled the spawning trees on Route 8 multiple times before finally creating the `tree_chopper` tool. This deferral of a necessary automation task is a direct violation of my core directives. **Lesson Reinforced:** If a repetitive manual task can be automated, building a tool for it is the highest priority and must be done immediately, not deferred.
 - **Pathfinder Deferral Failure (CRITICAL - Turn 225475):** Identified a major failure in my process. I knew the `automated_path_navigator` was buggy but deferred fixing it for multiple turns to pursue a gameplay goal. **Lesson Reinforced:** Tool maintenance is the absolute highest priority. A broken tool must be fixed *immediately*, before any other action is taken.
-- **Self-Assessment (Turn 225527):** Reaffirmed the critical importance of immediate tool/agent maintenance and data management. My process has improved since the last assessment, but the lesson from 225475 is still fresh. I have formulated a more rigorous, documented plan for testing my current "Meowth Hypothesis" for the museum puzzle to avoid confirmation bias and wasted time.
+- **Data Management Deferral (CRITICAL - Turn 225552):** I failed to immediately address an overwatch critique about redundant map markers, incorrectly planning to handle it 'later'. This is a violation of my core directive to perform data management tasks immediately. **Lesson Reinforced:** All data management tasks (notepad, markers, tool/agent creation/refinement) MUST be performed in the current turn and never deferred.
 
 # VII. Agent Usage Reminders
 - **Battle Strategist:** I must use the `battle_strategist` agent at the very next trainer battle to evaluate its effectiveness and identify any necessary refinements. This is a priority.
