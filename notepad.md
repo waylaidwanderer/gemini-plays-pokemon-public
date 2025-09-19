@@ -28,16 +28,15 @@
 -   **Location:** Cerulean City (exact location of COPYCAT TBD).
 -   **Status:** Item obtained. Ready to proceed once COPYCAT is found.
 
-# II. Game Mechanics & World Rules
+# II. Game Mechanics & World Rules (Observed)
 
 -   **Battle Menu Anomaly:** The game sometimes restricts move selection to the first slot in wild battles.
 -   **PC Statefulness:** The PC is stateful. Automation tools MUST have a robust reset sequence. Interaction is from an adjacent tile, not on top of the PC tile.
 -   **Pikachu Following Mechanic:** A button press in Pikachu's direction only causes a turn if not already facing that direction.
 -   **Item Usage:** A POKé DOLL guarantees escape from a wild battle.
--   **Unique Tile Mechanics:**
-    -   **Pewter Museum Trap:** Interacting with the Aerodactyl fossil exhibit at (3,4) consistently acts as a simple trap that temporarily locks the player. Pressing 'B' escapes.
-    -   **Pewter Museum Fee Trigger:** The entrance fee tile at (10, 5) can be re-triggered even after entering the museum.
-    -   **Pewter Museum Pikachu Swap:** It is possible to swap positions with the Pikachu NPC at (12, 8) by walking onto its tile.
+-   **Pewter Museum Trap:** Interacting with the Aerodactyl fossil exhibit at (3,4) consistently acts as a simple trap that temporarily locks the player. Pressing 'B' escapes.
+-   **Pewter Museum Fee Trigger:** The entrance fee tile at (10, 5) can be re-triggered even after entering the museum.
+-   **Pewter Museum Pikachu Swap:** It is possible to swap positions with the Pikachu NPC at (12, 8) by walking onto its tile.
 
 # III. Key Discoveries & Lessons Learned
 
