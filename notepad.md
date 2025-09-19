@@ -49,7 +49,7 @@
 # V. Tool & Agent Improvement Log
 - **select_battle_move (FIXED):** The tool has been updated. In-game testing confirmed the battle menu is a single vertical list, not a 2x2 grid.
 - **pokemon_hunter (FIXED):** The tool has been refactored to accept a rectangular boundary to ensure all generated movements stay within a specified hunting area.
-- **exploration_planner (NEW):** Created an agent to generate optimal routes for speaking to all unvisited NPCs in a city.
+- **exploration_planner:** Created an agent to generate optimal routes for speaking to all unvisited NPCs in a city.
 
 # VI. New Directives & Resolutions
 - **Map Marker Discipline (WARPS):** I must mark every warp tile (both entry and exit) with '🚪' immediately after using it to improve my navigational memory and avoid getting lost in complex areas.
