@@ -38,8 +38,6 @@
 
 ### Self-Generated & Post-Assessment Hypotheses
 
-3.  **Hypothesis (Item Use - FAILED):** Use a drink item on the Pikachu at (12, 8). (Reason: Game mechanics prevent using items on overworld NPCs; it opens the party menu instead.)
-4.  **Hypothesis (Itemfinder - FAILED):** Use the Itemfinder in the area between the fossils. (Result: 'ITEMFINDER isn't responding.')
 5.  **Hypothesis (Meowth Presentation - PENDING):** Lead with a Meowth and speak to the Gambler at (2, 5).
 6.  **Hypothesis (Trap Sequence - FAILED):** Trigger the Kabutops fossil trap, then interact with the Pikachu. (Result: This sequence only triggered a series of traps and did not move the blocking scientist.)
 
@@ -52,8 +50,6 @@
 
 ### Self-Generated & Post-Assessment Hypotheses
 
-3.  **Hypothesis (Item Use - FAILED):** Use a drink item on the Pikachu at (12, 8). (Reason: Game mechanics prevent using items on overworld NPCs; it opens the party menu instead.)
-4.  **Hypothesis (Itemfinder - FAILED):** Use the Itemfinder in the area between the fossils. (Result: 'ITEMFINDER isn't responding.')
 5.  **Hypothesis (Meowth Presentation - PENDING):** Lead with a Meowth and speak to the Gambler at (2, 5).
 6.  **Hypothesis (Trap Sequence - FAILED):** Trigger the Kabutops fossil trap, then interact with the Pikachu. (Result: This sequence only triggered a series of traps and did not move the blocking scientist.)
 
