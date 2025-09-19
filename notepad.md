@@ -33,7 +33,7 @@
 
 ## Main Quest: The Ghost of Lavender Town
 - **Objective:** Investigate the strange occurrences in POKéMON TOWER.
-- **Status:** In Progress. Investigation of the tower is complete. Next step is to leave the tower.
+- **Status:** In Progress. Investigation of the tower is complete. Next step is to speak with Mr. Fuji.
 - **Key Finding:** The SILPH SCOPE is required to unmask the GHOSTs. I possess this item.
 - **Clue:** A Little Girl in the Pokémon Center mentioned that CUBONE's mother was killed by TEAM ROCKET.
 
