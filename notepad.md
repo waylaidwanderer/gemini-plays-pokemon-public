@@ -19,10 +19,16 @@
     -   Re-checking dialogue with the Old Man at (2, 5) after completing all puzzle steps yields no new dialogue.
     -   After completing the internal museum puzzle sequence, speaking to the Super Nerd at (28, 18) in Pewter City yielded no new dialogue or progress.
 
--   **Current Testable Hypotheses:**
-    1.  Present a revived fossil Pokémon (Omanyte/Kabuto) to the blocking scientist at (13, 5).
-    2.  Present *any* revived fossil (including Aerodactyl) to the blocking scientist.
-    3.  After completing the puzzle sequence, speak to another NPC *outside* the museum in Pewter City to trigger a change.
+-   **Current Testable Hypotheses & Plan:**
+    1.  **Meowth Hypothesis:** A Meowth is required to progress the puzzle.
+        -   **Test Plan:**
+            1.  Hunt for Meowth on Route 7 for a reasonable number of encounters.
+            2.  If unsuccessful, hunt on Route 5.
+            3.  If still unsuccessful, hunt on Route 6.
+            4.  If no Meowth is found, this hypothesis will be considered unlikely. I will then use the `puzzle_hypothesis_generator` to generate new ideas.
+    2.  Present a revived fossil Pokémon (Omanyte/Kabuto) to the blocking scientist at (13, 5).
+    3.  Present *any* revived fossil (including Aerodactyl) to the blocking scientist.
+    4.  After completing the puzzle sequence, speak to another NPC *outside* the museum in Pewter City to trigger a change.
 
 ## Active Quest: The Copycat's Gift
 -   **Objective:** Give the POKé DOLL to COPYCAT.
@@ -35,7 +41,8 @@
 
 # III. Pokemon Locations (Observed)
 - *This section will track where different Pokemon species have been found.*
-- **Route 8:** Growlithe, Abra
+- **Route 8:** Growlithe, Abra, Pidgey, Rattata, Jigglypuff, Vulpix
+- **Route 7:** Pidgey, Vulpix, Koffing, Jigglypuff
 
 # IV. Tool & Agent Improvement Log
 - **pokemon_hunter (FIXED):** The previous implementation was naive and did not account for map boundaries, causing movement failures. The tool has been refactored to accept a rectangular boundary (`x_min`, `x_max`, `y_min`, `y_max`) and a starting position to ensure all generated movements stay within the specified hunting area.
@@ -51,10 +58,9 @@
 - **Route 8 Spawning Trees:** Need to investigate if there's a specific trigger for the trees spawning, or if it's purely random. This could be related to step count or specific tile interactions.
 
 # VI. Self-Assessment Reflections
-- **Tool Deferral Failure (CRITICAL):** During the self-assessment on turn 225424, I identified a critical failure in my process. I manually handled the spawning trees on Route 8 multiple times before finally creating the `tree_chopper` tool. This deferral of a necessary automation task is a direct violation of my core directives. **Lesson Reinforced:** If a repetitive manual task can be automated, building a tool for it is the highest priority and must be done immediately, not deferred.
+- **Tool Deferral Failure (CRITICAL - Turn 225424):** I identified a critical failure in my process. I manually handled the spawning trees on Route 8 multiple times before finally creating the `tree_chopper` tool. This deferral of a necessary automation task is a direct violation of my core directives. **Lesson Reinforced:** If a repetitive manual task can be automated, building a tool for it is the highest priority and must be done immediately, not deferred.
+- **Pathfinder Deferral Failure (CRITICAL - Turn 225475):** Identified a major failure in my process. I knew the `automated_path_navigator` was buggy but deferred fixing it for multiple turns to pursue a gameplay goal. **Lesson Reinforced:** Tool maintenance is the absolute highest priority. A broken tool must be fixed *immediately*, before any other action is taken.
+- **Self-Assessment (Turn 225527):** Reaffirmed the critical importance of immediate tool/agent maintenance and data management. My process has improved since the last assessment, but the lesson from 225475 is still fresh. I have formulated a more rigorous, documented plan for testing my current "Meowth Hypothesis" for the museum puzzle to avoid confirmation bias and wasted time.
 
 # VII. Agent Usage Reminders
-- **Battle Strategist:** Use the `battle_strategist` agent at the next available trainer battle to evaluate its effectiveness.
-
-## Self-Assessment (Turn 225475)
-- **Pathfinder Deferral Failure (CRITICAL):** Identified a major failure in my process. I knew the `automated_path_navigator` was buggy but deferred fixing it for multiple turns to pursue a gameplay goal. **Lesson Reinforced:** Tool maintenance is the absolute highest priority. A broken tool must be fixed *immediately*, before any other action is taken.
+- **Battle Strategist:** I must use the `battle_strategist` agent at the very next trainer battle to evaluate its effectiveness and identify any necessary refinements. This is a priority.
