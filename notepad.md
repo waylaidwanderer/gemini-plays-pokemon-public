@@ -36,9 +36,6 @@
 
 # V. Hypothesis Log & Strategic Pivots
 
-- **Core Assumption:** The solution to moving the blocking scientist on 1F is located on 2F.
-- **Contingency Plan:** If all 2F hypotheses are exhausted, the next strategic pivot will be to investigate potential puzzle triggers exclusively on 1F, questioning the core assumption.
-
 ### Agent-Generated Hypotheses (Testing Phase)
 - **Hypothesis 1 (Untestable):** Speak to the other scientists in a specific order (MUSEUM1F_SCIENTIST2 -> MUSEUM1F_SCIENTIST3 -> MUSEUM1F_SCIENTIST1). (Reason: All three scientists are in unreachable areas.)
 - **Hypothesis 2 (Failed):** Interact with both the AerodactylFossil at (3, 4) and the KabutopsFossil at (3, 7) in immediate succession.
@@ -59,9 +56,6 @@
 -   **Game Corner Entry Failure (CRITICAL):** Became stuck in a loop attempting to enter the Celadon Game Corner while Pikachu blocked a warp tile. **Lesson:** If a specific path or objective is repeatedly blocked, do not persist with the same failed approach. Re-evaluate, check for alternate routes, or pivot to a different high-priority goal.
 
 # V. Hypothesis Log & Strategic Pivots
-
-- **Core Assumption:** The solution to moving the blocking scientist on 1F is located on 2F.
-- **Contingency Plan:** If all 2F hypotheses are exhausted, the next strategic pivot will be to investigate potential puzzle triggers exclusively on 1F, questioning the core assumption.
 
 ### Agent-Generated Hypotheses (Testing Phase)
 - **Hypothesis 1 (Untestable):** Speak to the other scientists in a specific order (MUSEUM1F_SCIENTIST2 -> MUSEUM1F_SCIENTIST3 -> MUSEUM1F_SCIENTIST1). (Reason: All three scientists are in unreachable areas.)
