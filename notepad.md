@@ -16,8 +16,6 @@
         -   **With Aerodactyl:** Repeating the full puzzle sequence with a revived fossil Pokémon (Aerodactyl) in the lead would move the blocking scientist. (Result: Pending...)
 -   **Next Testable Hypothesis:** After showing a 'key' Pokémon to the Old Man, the puzzle sequence steps might be completable out of order (e.g., interacting with the Kabutops fossil immediately).
 
--   **Failed Hypotheses (Consolidated):**
-
     
     
     -   **Puzzle Sequence Hypotheses:**
