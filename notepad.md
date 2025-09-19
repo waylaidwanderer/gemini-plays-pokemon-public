@@ -29,8 +29,7 @@
         -   **With Omanyte:** Repeating the full puzzle sequence with a revived fossil Pokémon (Omanyte) in the lead would move the blocking scientist. (Result: Sequence completed, scientist did not move.)
         -   **With Aerodactyl:** Repeating the full puzzle sequence with a revived fossil Pokémon (Aerodactyl) in the lead would move the blocking scientist. (Result: Pending...)
 -   **Next Testable Hypothesis:** After showing a 'key' Pokémon to the Old Man, the puzzle sequence steps might be completable out of order (e.g., interacting with the Kabutops fossil immediately).
--   **Untestable Hypotheses:**
-    -   Set a Clefairy/Clefable as your lead party Pokémon and speak to the scientist standing near the meteorite display. (Reasoning: Cannot reach the scientist in the partitioned eastern section).
+
 -   **Failed Hypotheses (Consolidated):**
     -   **Item/Move Usage:**
         -   Use the Itemfinder on 1F or 2F. (Result: No items found.)
