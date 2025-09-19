@@ -1149,7 +1149,7 @@
         "target_pokemon_name"
       ]
     },
-    "python_script": "import json\nimport re\n\ndef manage_party_revised():\n    screen_text = input_data['screen_text']\n    target_pokemon_name = input_data['target_pokemon_name']\n    \n    lines = screen_text.strip().split('\\n')\n    \n    party_names = []\n    cursor_line = -1\n    \n    for i, line in enumerate(lines):\n        if 'LV' in line:\n            name = line.split('LV')[0].strip()\n            if name:\n                party_names.append(name)\n        \n        if '→' in line:\n            cursor_line = i\n\n    if not party_names or cursor_line == -1:\n        print(json.dumps([]))\n        return\n\n    cursor_pos = (cursor_line - 1) // 2\n\n    target_pos = -1\n    try:\n        target_pos = party_names.index(target_pokemon_name)\n    except ValueError:\n        print(json.dumps([]))\n        return\n\n    if cursor_pos < 0 or cursor_pos >= len(party_names):\n        print(json.dumps([]))\n        return\n\n    buttons = []\n    \n    moves = target_pos - cursor_pos\n    if moves > 0:\n        buttons.extend(['Down'] * moves)\n    elif moves < 0:\n        buttons.extend(['Up'] * abs(moves))\n    \n    buttons.append('A')\n    \n    buttons.append('Down')\n    buttons.append('A')\n    \n    moves_to_first = target_pos\n    if moves_to_first > 0:\n        buttons.extend(['Up'] * moves_to_first)\n    \n    buttons.append('A')\n    \n    print(json.dumps(buttons))\n\nmanage_party_revised()\n",
+    "python_script": "import json\nimport re\n\ndef manage_party():\n    screen_text = input_data['screen_text']\n    target_pokemon_name = input_data['target_pokemon_name']\n    lines = screen_text.strip().split('\\n')\n    \n    pokemon_in_party = []\n    cursor_line_index = -1\n\n    # First pass: find all pokemon based on the 'LV' keyword\n    for i, line in enumerate(lines):\n        if 'LV ' in line:\n            # Extract name, which is the part before 'LV'\n            match = re.search(r'(.+?)\\s+LV\\s+\\d+', line)\n            if match:\n                pokemon_in_party.append(match.group(1).strip())\n    \n    # Second pass: find the cursor's line index\n    for i, line in enumerate(lines):\n        if '→' in line:\n            cursor_line_index = i\n            break\n\n    if not pokemon_in_party or cursor_line_index == -1:\n        print(json.dumps([]))\n        return\n\n    # Determine cursor position based on its line index relative to pokemon lines\n    # This is tricky because of the two-line format for each pokemon\n    cursor_pos = cursor_line_index // 2\n\n    try:\n        target_pos = pokemon_in_party.index(target_pokemon_name)\n    except ValueError:\n        print(json.dumps([]))\n        return\n\n    buttons = []\n    # Navigate from cursor to target\n    moves = target_pos - cursor_pos\n    if moves > 0:\n        buttons.extend(['Down'] * moves)\n    elif moves < 0:\n        buttons.extend(['Up'] * abs(moves))\n\n    # Select target and navigate submenu\n    buttons.append('A')\n    buttons.append('Down')  # Move from STATS to SWITCH\n    buttons.append('A')\n\n    # Navigate from target's original position to the first slot (pos 0)\n    moves_to_top = target_pos\n    if moves_to_top > 0:\n        buttons.extend(['Up'] * moves_to_top)\n\n    # Confirm the swap\n    buttons.append('A')\n\n    print(json.dumps(buttons))\n\nmanage_party()",
     "history": [
       {
         "commit_message": "feat: Create party_manager tool. This tool automates the process of switching a Pokémon to the lead party position, addressing a key efficiency gap identified during a mandatory self-assessment. It parses the party screen to find the target Pokémon and calculates the necessary button presses for the swap.",
@@ -1210,6 +1210,36 @@
         "commit_message": "fix: Overhaul parsing and navigation logic. The previous version used unreliable regex and line counting to determine cursor and target positions, causing it to fail by selecting the wrong Pokémon and sub-menu option. This commit introduces a more robust two-pass parsing method: first extracting all Pokémon names based on the 'LV' keyword, then finding the cursor's line index to accurately calculate its position. It also corrects the sub-menu navigation by explicitly adding a 'Down' press to select 'SWITCH' after opening the menu. This is a critical fix to restore core functionality.",
         "timestamp": "2025-09-19T05:51:10.144Z",
         "action_counter": 224909
+      },
+      {
+        "commit_message": "fix: Overhaul parsing and navigation logic. The previous version used unreliable regex and line counting to determine cursor and target positions, causing it to fail by selecting the wrong Pokémon and sub-menu option. This commit introduces a more robust two-pass parsing method: first extracting all Pokémon names based on the 'LV' keyword, then finding the cursor's line index to accurately calculate its position. It also corrects the sub-menu navigation by explicitly adding a 'Down' press to select 'SWITCH' after opening the menu. This is a critical fix to restore core functionality.",
+        "timestamp": "2025-09-19T05:55:35.037Z",
+        "action_counter": 224918
+      },
+      {
+        "commit_message": "fix: Overhaul parsing and navigation logic. The previous version used unreliable regex and line counting to determine cursor and target positions, causing it to fail by selecting the wrong Pokémon and sub-menu option. This commit introduces a more robust two-pass parsing method: first extracting all Pokémon names based on the 'LV' keyword, then finding the cursor's line index to accurately calculate its position. It also corrects the sub-menu navigation by explicitly adding a 'Down' press to select 'SWITCH' after opening the menu. This is a critical fix to restore core functionality.",
+        "timestamp": "2025-09-19T05:59:04.066Z",
+        "action_counter": 224926
+      },
+      {
+        "commit_message": "fix: Overhaul parsing and navigation logic. The previous version used unreliable regex and line counting to determine cursor and target positions, causing it to fail by selecting the wrong Pokémon and sub-menu option. This commit introduces a more robust two-pass parsing method: first extracting all Pokémon names based on the 'LV' keyword, then finding the cursor's line index to accurately calculate its position. It also corrects the sub-menu navigation by explicitly adding a 'Down' press to select 'SWITCH' after opening the menu. This is a critical fix to restore core functionality.",
+        "timestamp": "2025-09-19T05:59:31.208Z",
+        "action_counter": 224927
+      },
+      {
+        "commit_message": "fix: Overhaul parsing and navigation logic. The previous version used unreliable regex and line counting to determine cursor and target positions, causing it to fail by selecting the wrong Pokémon and sub-menu option. This commit introduces a more robust two-pass parsing method: first extracting all Pokémon names based on the 'LV' keyword, then finding the cursor's line index to accurately calculate its position. It also corrects the sub-menu navigation by explicitly adding a 'Down' press to select 'SWITCH' after opening the menu. This is a critical fix to restore core functionality.",
+        "timestamp": "2025-09-19T06:03:08.713Z",
+        "action_counter": 224935
+      },
+      {
+        "commit_message": "fix: Overhaul parsing and navigation logic. The previous version used unreliable regex and line counting to determine cursor and target positions, causing it to fail by selecting the wrong Pokémon and sub-menu option. This commit introduces a more robust two-pass parsing method: first extracting all Pokémon names based on the 'LV' keyword, then finding the cursor's line index to accurately calculate its position. It also corrects the sub-menu navigation by explicitly adding a 'Down' press to select 'SWITCH' after opening the menu. This is a critical fix to restore core functionality.",
+        "timestamp": "2025-09-19T06:03:41.699Z",
+        "action_counter": 224936
+      },
+      {
+        "commit_message": "fix: Overhaul parsing and navigation logic. The previous version used unreliable regex and line counting to determine cursor and target positions, causing it to fail by selecting the wrong Pokémon and sub-menu option. This commit introduces a more robust two-pass parsing method: first extracting all Pokémon names based on the 'LV' keyword, then finding the cursor's line index to accurately calculate its position. It also corrects the sub-menu navigation by explicitly adding a 'Down' press to select 'SWITCH' after opening the menu. This is a critical fix to restore core functionality.",
+        "timestamp": "2025-09-19T06:07:15.618Z",
+        "action_counter": 224944
       }
     ]
   },

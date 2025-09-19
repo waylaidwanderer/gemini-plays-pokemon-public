@@ -65,13 +65,6 @@
 - **Contingency Plan:** If all 2F hypotheses are exhausted, the next strategic pivot will be to investigate potential puzzle triggers exclusively on 1F, questioning the core assumption.
 - **New Hypothesis (Self-Generated):** Trigger the Aerodactyl fossil trap at (3, 4) and then immediately interact with the Pikachu at (4, 5). (Result: Failed. The sequence of events occurred but did not move the blocking scientist.)
 
-# VI. Tile Mechanics Documentation
-- **ground**: Standard walkable tile.
-- **impassable**: Walls, objects, cannot be entered.
-- **cuttable**: Tree that can be cut. Respawns on map change.
-- **ledge**: One-way downward traversal.
-- **warp**: Triggers a map transition.
-
 # VII. New Hypotheses (Post-Assessment)
 1.  **Hypothesis (External Trigger):** After completing the internal museum puzzle sequence (Old Man -> 2F Scientist -> Kabutops Fossil), an NPC *outside* the museum must be spoken to. First target for testing: the Super Nerd at (28, 18) in Pewter City.
 2.  **Hypothesis (Fossil Presentation):** The blocking scientist at (13, 5) on 1F will move if I speak to him while leading with a revived fossil Pokémon (Omanyte or Aerodactyl).
