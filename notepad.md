@@ -122,3 +122,4 @@
 
 # XI. Tool & Agent Improvement Log
 - **pokemon_hunter (FIXED):** The previous implementation was naive and did not account for map boundaries, causing movement failures. The tool has been refactored to accept a rectangular boundary (`x_min`, `x_max`, `y_min`, `y_max`) and a starting position to ensure all generated movements stay within the specified hunting area.
+- **Route 8 Spawning Trees:** Cuttable trees can spontaneously appear on this route, blocking the path and interrupting movement.
