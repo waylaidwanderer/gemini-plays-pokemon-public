@@ -1098,57 +1098,6 @@
       }
     ]
   },
-  "pokemon_hunter": {
-    "description": "Generates a JSON array of button presses for walking back and forth within a specified rectangular area in tall grass to hunt for Pokémon. Must be called with `autopress_buttons: true`.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "x_min": {
-          "type": "string"
-        },
-        "x_max": {
-          "type": "string"
-        },
-        "y_min": {
-          "type": "string"
-        },
-        "y_max": {
-          "type": "string"
-        },
-        "start_x": {
-          "type": "string"
-        },
-        "start_y": {
-          "type": "string"
-        },
-        "steps": {
-          "type": "string"
-        }
-      },
-      "required": [
-        "x_min",
-        "x_max",
-        "y_min",
-        "y_max",
-        "start_x",
-        "start_y",
-        "steps"
-      ]
-    },
-    "python_script": "import json\n\nx_min = int(input_data['x_min'])\nx_max = int(input_data['x_max'])\ny_min = int(input_data['y_min'])\ny_max = int(input_data['y_max'])\nstart_x = int(input_data['start_x'])\nstart_y = int(input_data['start_y'])\nsteps = int(input_data['steps'])\n\nbuttons = []\ncurrent_x, current_y = start_x, start_y\ndirection = 1\n\nif x_min != x_max:\n    while len(buttons) < steps:\n        if direction == 1:\n            if current_x < x_max:\n                buttons.append(\"Right\")\n                current_x += 1\n            else:\n                direction = -1\n                buttons.append(\"Left\")\n                current_x -= 1\n        else:\n            if current_x > x_min:\n                buttons.append(\"Left\")\n                current_x -= 1\n            else:\n                direction = 1\n                buttons.append(\"Right\")\n                current_x += 1\nelif y_min != y_max:\n    while len(buttons) < steps:\n        if direction == 1:\n            if current_y < y_max:\n                buttons.append(\"Down\")\n                current_y += 1\n            else:\n                direction = -1\n                buttons.append(\"Up\")\n                current_y -= 1\n        else:\n            if current_y > y_min:\n                buttons.append(\"Up\")\n                current_y -= 1\n            else:\n                direction = 1\n                buttons.append(\"Down\")\n                current_y += 1\n\nprint(json.dumps(buttons))",
-    "history": [
-      {
-        "commit_message": "feat: Create pokemon_hunter tool. This tool automates walking back and forth in tall grass to efficiently hunt for wild Pokémon. This addresses a critical need identified during self-assessment to avoid looping warnings and improve gameplay efficiency.",
-        "timestamp": "2025-09-19T07:51:40.412Z",
-        "action_counter": 225116
-      },
-      {
-        "commit_message": "fix: Add boundary checking to prevent movement failures. The tool now accepts a rectangular area (x_min, x_max, y_min, y_max) and a starting position to ensure all generated movements stay within the specified hunting zone. This is a critical fix to address a core tool failure.",
-        "timestamp": "2025-09-19T08:17:47.997Z",
-        "action_counter": 225153
-      }
-    ]
-  },
   "fly_navigator": {
     "description": "Automates using the Fly HM to travel to a specified city. It handles all menu navigation and returns a JSON array of button presses. Must be called with `autopress_buttons: true`.",
     "input_schema": {
@@ -1205,6 +1154,18 @@
         "commit_message": "fix: Rework logic for vertical move menu. The previous implementation assumed a 2x2 grid, causing incorrect selections. Systematic in-game testing confirmed the menu is a single vertical list. This commit updates the button sequences to use only 'Down' presses for navigation, restoring full functionality.",
         "timestamp": "2025-09-19T20:21:58.440Z",
         "action_counter": 226540
+      }
+    ]
+  },
+  "quit_shop_menu": {
+    "description": "Exits a standard Poké Mart menu by pressing Down twice from the 'BUY' option to select 'QUIT', then pressing A. Must be called with autopress_buttons: true.",
+    "input_schema": {},
+    "python_script": "import json\nprint(json.dumps(['Down', 'Down', 'A']))",
+    "history": [
+      {
+        "commit_message": "feat: Create quit_shop_menu tool. This tool automates exiting shop menus to prevent manual input errors, such as mixing directional and action buttons, which was identified as a recurring issue during self-assessment.",
+        "timestamp": "2025-09-19T20:46:45.767Z",
+        "action_counter": 226607
       }
     ]
   }
