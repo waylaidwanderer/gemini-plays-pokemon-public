@@ -29,13 +29,6 @@
 -   **Location:** Cerulean City (exact location of COPYCAT TBD).
 -   **Status:** Item obtained. Ready to proceed once COPYCAT is found.
 
-# II. Game Mechanics & World Rules (Observed)
-
--   **Battle Menu Anomaly:** The game sometimes restricts move selection to the first slot in wild battles.
--   **PC Statefulness:** The PC is stateful. Automation tools MUST have a robust reset sequence. Interaction is from an adjacent tile, not on top of the PC tile.
--   **Pikachu Following Mechanic:** A button press in Pikachu's direction only causes a turn if not already facing that direction.
--   **Item Usage:** A POKé DOLL guarantees escape from a wild battle.
-
 # III. Key Discoveries & Lessons Learned
 
 -   **IMMEDIATE MAINTENANCE (CRITICAL):** Deferring tool/agent fixes is a critical failure. Maintenance tasks are always the highest priority, above any in-game action.
@@ -68,13 +61,6 @@
 4.  **Hypothesis (Itemfinder - FAILED):** Use the Itemfinder in the area between the fossils. (Result: 'ITEMFINDER isn't responding.')
 5.  **Hypothesis (Meowth Presentation - PENDING):** Lead with a Meowth and speak to the Gambler at (2, 5).
 6.  **Hypothesis (Trap Sequence - FAILED):** Trigger the Kabutops fossil trap, then interact with the Pikachu. (Result: This sequence only triggered a series of traps and did not move the blocking scientist.)
-
-# II. Game Mechanics & World Rules (Observed)
-
--   **Battle Menu Anomaly:** The game sometimes restricts move selection to the first slot in wild battles.
--   **PC Statefulness:** The PC is stateful. Automation tools MUST have a robust reset sequence. Interaction is from an adjacent tile, not on top of the PC tile.
--   **Pikachu Following Mechanic:** A button press in Pikachu's direction only causes a turn if not already facing that direction.
--   **Item Usage:** A POKé DOLL guarantees escape from a wild battle.
 
 # III. Key Discoveries & Lessons Learned
 
