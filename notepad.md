@@ -8,25 +8,27 @@
 -   **Untestable Hypotheses:**
     -   Set a Clefairy/Clefable as your lead party Pokémon and speak to the scientist standing near the meteorite display. (Reasoning: Cannot reach the scientist in the partitioned eastern section).
 -   **Failed Hypotheses (Consolidated):**
-    -   Use the Itemfinder on the first floor. (Result: The Itemfinder isn't responding, no items found.)
-    -   Interact with the large space shuttle model on 2F of the museum. (Result: Displayed the text "SPACE SHUTTLE COLUMBIA", no other effect.)
-    -   Move onto the tile at (3, 3) to interact with the Aerodactyl fossil plaque. (Result: The tile at (3,3) is impassable.)
-    -   Place a Clefairy/Clefable in the first party slot and speak to the scientist near the Moon Stone display on 2F. (Result: No change in dialogue.)
-    -   Attempt to ride the Bicycle indoors on the first floor. (Result: Professor Oak's dialogue prevents use.)
-    -   Use the 'POKé DOLL' item while standing next to the barrier in front of the Scientist. (Result: Professor Oak's dialogue prevents use.)
-    -   Use a Pokémon with the move 'Dig' in front of the scientist. (Result: Warped out of the museum, similar to an Escape Rope).
-    -   Use a Poké Doll on the blocking Scientist at (13, 5). (Result: Untestable, path is blocked)
-    -   Interact with the large Moon Stone display on the 2nd floor. (Result: No change)
-    -   Talk to the Youngster at (2, 8) on 2F, then return to the blocking Scientist on 1F. (Result: No change)
-    -   Use the Itemfinder on the 2nd floor to find a hidden item. (Result: No item found)
-    -   Give a 'Fresh Water', 'Soda Pop', or 'Lemonade' to the thirsty man in NW Pewter City. (Result: Could not locate the NPC in the specified area.)
-    -   Examine the exterior rear wall of the museum for a hidden switch. (Result: Interacting with the wall at (6,1) had no effect.)
-    -   Interact with the large Space Shuttle Columbia model at (8, 4). (Result: No text or event triggered.)
-    -   Examine the small meteorite display at (8, 6). (Result: No text or event triggered.)
-    -   Interact with the potted plant at (11, 8). (Result: No plant exists at this location; it is a warp tile. Interaction failed.)
-    -   Interact with the empty display case at (11, 4). (Result: No interaction or event triggered.)
-    -   Interact with the empty display case at (11, 4) with Geodude in the lead. (Result: No interaction or event triggered.)
-    -   Interact with the blocking Scientist at (13, 5) with Geodode in the lead. (Result: Untestable, scientist is behind an impassable wall.)
+    -   **Item/Move Usage:**
+        -   Use the Itemfinder on 1F or 2F. (Result: No items found.)
+        -   Attempt to ride the Bicycle indoors. (Result: Professor Oak's dialogue prevents use.)
+        -   Use the 'POKé DOLL' item near the scientist. (Result: Professor Oak's dialogue prevents use.)
+        -   Use a Pokémon with the move 'Dig' in front of the scientist. (Result: Warped out of the museum.)
+    -   **Exhibit/Object Interaction:**
+        -   Interact with the large space shuttle model on 2F. (Result: Displayed text "SPACE SHUTTLE COLUMBIA", no other effect.)
+        -   Interact with the Aerodactyl fossil plaque at (3, 3). (Result: Tile is impassable.)
+        -   Interact with the large Moon Stone display on 2F. (Result: No change.)
+        -   Examine the exterior rear wall of the museum. (Result: No effect.)
+        -   Examine the small meteorite display at (8, 6) on 2F. (Result: No text or event triggered.)
+        -   Interact with the empty display case at (11, 4) on 2F. (Result: No interaction or event triggered.)
+    -   **NPC Interaction & Sequencing:**
+        -   Place a Clefairy/Clefable in the first party slot and speak to the scientist near the Moon Stone display on 2F. (Result: No change in dialogue.)
+        -   Talk to the Youngster at (2, 8) on 2F, then return to the blocking Scientist on 1F. (Result: No change.)
+        -   Interact with the Pikachu at (12, 8) to make it follow. (Result: No change, Pikachu did not follow.)
+        -   Swap positions with the Pikachu at (12, 8) and then interact with it. (Result: No change, Pikachu did not follow.)
+    -   **Puzzle Sequence Hypotheses:**
+        -   **With Geodude:** Solving the full puzzle sequence (Geodude to Old Man -> 2F Scientist dialogue -> Space Shuttle -> Kabutops Fossil) would move the blocking scientist. (Result: Sequence completed, scientist did not move.)
+        -   **With Omanyte:** Repeating the full puzzle sequence with a revived fossil Pokémon (Omanyte) in the lead would move the blocking scientist. (Result: Sequence completed, scientist did not move.)
+
 -   **Anomalies Investigated (2F Grass Tile):**
     -   The single `grass` tile at (12, 2) on 2F is inaccessible from the main area. **Conclusion:** This is likely an exit point from a hidden area on 1F, not an entrance.
 -   **Invalidated Hypotheses:**
@@ -48,12 +50,9 @@
 -   **Item Usage:**
     -   A POKé DOLL guarantees escape from a wild battle.
 - **Pewter Museum Fee Trigger:** The entrance fee tile at (10, 5) can be re-triggered even after entering the museum.
+- **Pewter Museum Pikachu Swap:** It is possible to swap positions with the Pikachu NPC at (12, 8) by walking onto its tile.
 
-# III. Tile Traversal & Movement Rules
-- **PC Interaction:** Must be activated from the tile directly below (Y+1), while facing up.
-- **Ledges:** Can only be jumped down (from Y-1 to Y+2 in one move). Impassable from all other directions.
-
-# IV. Key Discoveries & Lessons Learned
+# III. Key Discoveries & Lessons Learned
 
 -   **Confirmation Bias & Over-Correction (CRITICAL):** My handling of the Rocket Hideout B2F maze was a cascade of cognitive errors. **Lesson:** Do not swing from one bias to another. Trust verifiable data and tool outputs over intuition.
 -   **Hypothesis Testing Failure (Preparation):** Arrived at a location to test a hypothesis without the required Pokémon/items/moves. **Lesson:** Always verify party composition and necessary items/moves *before* traveling.
@@ -61,9 +60,7 @@
 -   **Tool Deferral Failure (CRITICAL):** Repeatedly deferred the creation of necessary tools instead of building them immediately. **Lesson Reinforced:** If a repetitive manual task can be automated, or a complex reasoning task can be delegated, building a tool or agent for it is the highest priority.
 -   **Game Corner Entry Failure (CRITICAL):** Became stuck in a loop attempting to enter the Celadon Game Corner while Pikachu blocked a warp tile. **Lesson:** If a specific path or objective is repeatedly blocked, do not persist with the same failed approach. Re-evaluate, check for alternate routes, or pivot to a different high-priority goal.
 
-# V. Puzzle Solutions & Completed Steps
-- **Pewter Museum Fossil Puzzle:** Leading with a Geodude triggered new dialogue from the Old Man at (2, 5) on 1F ("That is one magnificent fossil!"). This is a confirmed step in the puzzle solution.
-- **Pewter Museum Space Exhibit Puzzle:** After showing Geodude to the Old Man on 1F, the Scientist at (8, 6) on 2F gives new dialogue: 'We have a space exhibit now.'
-- **Pewter Museum Final Step:** After completing the Geodude and Space Exhibit steps, interacting with the Kabutops Fossil at (3, 7) completes the puzzle sequence. (This action did not trigger a trap, unlike previous attempts).
-- **Pewter Museum Fee Trigger:** The entrance fee tile at (10, 5) can be re-triggered even after entering the museum.
-    - Interact with the Pikachu at (12, 8) to make it follow. (Result: No change, Pikachu did not follow.)
+# IV. Puzzle Solutions & Completed Steps
+- **Pewter Museum Fossil Puzzle:** Leading with a Geodude OR a revived fossil Pokémon (Omanyte) triggers new dialogue from the Old Man at (2, 5) on 1F. This is a confirmed step in the puzzle solution.
+- **Pewter Museum Space Exhibit Puzzle:** After showing the "key" Pokémon to the Old Man on 1F, the Scientist at (8, 6) on 2F gives new dialogue: 'We have a space exhibit now.'
+- **Pewter Museum Final Step:** After completing the "key" Pokémon and Space Exhibit steps, interacting with the Kabutops Fossil at (3, 7) completes the puzzle sequence. (This action did not trigger a trap, unlike previous attempts).
