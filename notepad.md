@@ -30,6 +30,7 @@
     - Interacting with the NPC Pikachu at (27, 26) in Pewter City did not move the blocking scientist inside the museum. (Agent Hypothesis #1 FAILED)
     - Leading with a revived Aerodactyl and speaking to the Super Nerd at (28, 18) in Pewter City changed his dialogue but did not move the blocking scientist. (Agent Hypothesis #2 FAILED)
     - Speaking to the second Super Nerd (PEWTERCITY_SUPER_NERD2) at (30, 26) yielded the same generic dialogue as the first, providing no new clues. (Agent Hypothesis #3 FAILED)
+- Reading the museum sign at (16, 10) and then immediately speaking to the Super Nerd at (28, 18) yielded the same generic dialogue, providing no new clues. (Agent Hypothesis #4 FAILED)
 
 ## Active Quest: The Copycat's Gift
 - **Objective:** Give the POKé DOLL to COPYCAT.
