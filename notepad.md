@@ -6,6 +6,28 @@
 -   **Obstacle:** A Scientist at (13, 5) on 1F blocks the path to an item.
 
 -   **Active Hypothesis:** Repeating the full puzzle sequence with a revived Aerodactyl in the lead will move the blocking scientist.
+-   **Failed Hypotheses (Consolidated):**
+    -   **Item/Move Usage:**
+        -   Use the Itemfinder on 1F or 2F. (Result: No items found.)
+        -   Attempt to ride the Bicycle indoors. (Result: Professor Oak's dialogue prevents use.)
+        -   Use the 'POKé DOLL' item near the scientist. (Result: Professor Oak's dialogue prevents use.)
+        -   Use a Pokémon with the move 'Dig' in front of the scientist. (Result: Warped out of the museum.)
+    -   **Exhibit/Object Interaction:**
+        -   Interact with the large space shuttle model on 2F. (Result: Displayed text "SPACE SHUTTLE COLUMBIA", no other effect.)
+        -   Interact with the Aerodactyl fossil plaque at (3, 3). (Result: Tile is impassable.)
+        -   Interact with the large Moon Stone display on 2F. (Result: No change.)
+        -   Examine the exterior rear wall of the museum. (Result: No effect.)
+        -   Examine the small meteorite display at (8, 6) on 2F. (Result: No text or event triggered.)
+        -   Interact with the empty display case at (11, 4) on 2F. (Result: No interaction or event triggered.)
+    -   **NPC Interaction & Sequencing:**
+        -   Place a Clefairy/Clefable in the first party slot and speak to the scientist near the Moon Stone display on 2F. (Result: No change in dialogue.)
+        -   Talk to the Youngster at (2, 8) on 2F, then return to the blocking Scientist on 1F. (Result: No change.)
+        -   Interact with the Pikachu at (12, 8) to make it follow. (Result: No change, Pikachu did not follow.)
+        -   Swap positions with the Pikachu at (12, 8) and then interact with it. (Result: No change, Pikachu did not follow.)
+    -   **Puzzle Sequence Hypotheses:**
+        -   **With Geodude:** Solving the full puzzle sequence (Geodude to Old Man -> 2F Scientist dialogue -> Space Shuttle -> Kabutops Fossil) would move the blocking scientist. (Result: Sequence completed, scientist did not move.)
+        -   **With Omanyte:** Repeating the full puzzle sequence with a revived fossil Pokémon (Omanyte) in the lead would move the blocking scientist. (Result: Sequence completed, scientist did not move.)
+        -   **With Aerodactyl:** Repeating the full puzzle sequence with a revived fossil Pokémon (Aerodactyl) in the lead would move the blocking scientist. (Result: Pending...)
 -   **Next Testable Hypothesis:** After showing a 'key' Pokémon to the Old Man, the puzzle sequence steps might be completable out of order (e.g., interacting with the Kabutops fossil immediately).
 -   **Untestable Hypotheses:**
     -   Set a Clefairy/Clefable as your lead party Pokémon and speak to the scientist standing near the meteorite display. (Reasoning: Cannot reach the scientist in the partitioned eastern section).
