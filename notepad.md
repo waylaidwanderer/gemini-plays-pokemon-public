@@ -62,3 +62,7 @@
 - **Hypothesis 2 (Rank 2):** Interact with the `Pikachu` at (3, 8) and then immediately speak to the `MUSEUM2F_YOUNGSTER` at (1, 8). (Result: Failed. Interacting with Pikachu at its new location of (7, 7) produced no dialogue or event.)
 - **Hypothesis 3 (Rank 3):** Interact with the `MUSEUM2F_SPACE_SHUTTLE_SIGN` at (12, 3) and then immediately interact with the `Pikachu` at (3, 8).
 - **Hypothesis 4 (Rank 4):** Interact with the exhibit signs in a specific order: first the `MUSEUM2F_MOON_STONE_SIGN` at (3, 6), and second the `MUSEUM2F_SPACE_SHUTTLE_SIGN` at (12, 3).
+
+# V. Core Assumptions & Strategic Pivots
+- **Core Assumption:** The solution to moving the blocking scientist on 1F is located on 2F. 
+- **Contingency Plan:** If all 2F hypotheses are exhausted, the next strategic pivot will be to investigate potential puzzle triggers exclusively on 1F, questioning the core assumption.
