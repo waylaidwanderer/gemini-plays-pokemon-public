@@ -8,10 +8,11 @@
 -   **Consolidated Failed Hypotheses:**
     -   **Full Puzzle Sequence:** Solving the full puzzle sequence (Key Pokémon to Old Man -> 2F Scientist dialogue -> Space Shuttle -> Kabutops Fossil) with Geodude, Omanyte, or Aerodactyl in the lead does not move the blocking scientist.
     -   **Pikachu Interaction:** Triggering the Aerodactyl fossil trap and then immediately interacting with the Pikachu at (4, 5) does not move the blocking scientist.
+    -   **Fossil Sequence:** Interacting with the AerodactylFossil at (3, 4) and the KabutopsFossil at (3, 7) in immediate succession does not move the blocking scientist; both simply trigger traps.
 
 -   **Next Testable Hypotheses:**
-    1.  Interact with both the AerodactylFossil at (3, 4) and the KabutopsFossil at (3, 7) in immediate succession.
-    2.  After showing a 'key' Pokémon to the Old Man, the puzzle sequence steps might be completable out of order (e.g., interacting with the Kabutops fossil immediately).
+    1.  After showing a 'key' Pokémon to the Old Man, the puzzle sequence steps might be completable out of order (e.g., interacting with the Kabutops fossil immediately).
+    2.  Speak to the MUSEUM1F_GAMBLER at (2, 5) again, after having completed the full puzzle sequence and interacted with the other fossils.
 
 -   **Anomalies & Invalidated Paths:**
     -   The single `grass` tile at (12, 2) on 2F is inaccessible from the main area. **Conclusion:** Likely an exit from a hidden area on 1F.
