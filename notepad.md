@@ -48,9 +48,6 @@
 - **cuttable:** Can be removed with CUT. On Route 8, these can spawn randomly, blocking paths.
 - **warp:** A tile that transports the player to another location, either on the same map or a different one.
 
-## Investigation Notes
-- **Route 8 Spawning Trees:** Need to investigate if there's a specific trigger for the trees spawning, or if it's purely random. This could be related to step count or specific tile interactions.
-
 # VI. Self-Assessment Reflections
 - **Tool Deferral Failure (CRITICAL - Turn 225424):** I identified a critical failure in my process. I manually handled the spawning trees on Route 8 multiple times before finally creating the `tree_chopper` tool. This deferral of a necessary automation task is a direct violation of my core directives. **Lesson Reinforced:** If a repetitive manual task can be automated, building a tool for it is the highest priority and must be done immediately, not deferred.
 - **Pathfinder Deferral Failure (CRITICAL - Turn 225475):** Identified a major failure in my process. I knew the `automated_path_navigator` was buggy but deferred fixing it for multiple turns to pursue a gameplay goal. **Lesson Reinforced:** Tool maintenance is the absolute highest priority. A broken tool must be fixed *immediately*, before any other action is taken.
@@ -58,3 +55,8 @@
 
 # VII. Agent Usage Reminders
 - **Battle Strategist:** I must use the `battle_strategist` agent at the very next trainer battle to evaluate its effectiveness and identify any necessary refinements. This is a priority.
+
+# VIII. Untested Assumptions & Biases
+- **Assumption:** Leaving and re-entering an area resets all puzzle states. **Test:** After the current hypothesis test, re-enter the museum and speak to the Gambler without interacting with anything to see if his dialogue has reverted to a default state.
+- **Assumption:** All non-ground tiles that are not explicitly interactive (like display cases) are impassable. **Test:** Attempt to walk into a non-interactive scenery object like a display case to confirm it is a wall.
+- **Confirmation Bias:** I exhibited confirmation bias with the 'Meowth' hypothesis, spending too much time searching across multiple routes. **Lesson:** I must be more willing to abandon a hypothesis quickly when it yields no results after a reasonable number of attempts.
