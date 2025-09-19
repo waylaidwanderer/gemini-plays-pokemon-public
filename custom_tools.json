@@ -1148,5 +1148,43 @@
         "action_counter": 224601
       }
     ]
+  },
+  "pokemon_hunter": {
+    "description": "Generates a JSON array of button presses for walking back and forth between two specified coordinates in tall grass to hunt for Pokémon. Must be called with `autopress_buttons: true`.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "x1": {
+          "type": "string"
+        },
+        "y1": {
+          "type": "string"
+        },
+        "x2": {
+          "type": "string"
+        },
+        "y2": {
+          "type": "string"
+        },
+        "steps": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "x1",
+        "y1",
+        "x2",
+        "y2",
+        "steps"
+      ]
+    },
+    "python_script": "import json\n\nx1 = int(input_data['x1'])\ny1 = int(input_data['y1'])\nx2 = int(input_data['x2'])\ny2 = int(input_data['y2'])\nsteps = int(input_data['steps'])\n\nbuttons = []\ndx = x2 - x1\ndy = y2 - y1\n\nfor _ in range(steps // 2):\n    if dx > 0: buttons.extend(['Right'] * dx)\n    if dx < 0: buttons.extend(['Left'] * abs(dx))\n    if dy > 0: buttons.extend(['Down'] * dy)\n    if dy < 0: buttons.extend(['Up'] * abs(dy))\n    if dx > 0: buttons.extend(['Left'] * dx)\n    if dx < 0: buttons.extend(['Right'] * abs(dx))\n    if dy > 0: buttons.extend(['Up'] * dy)\n    if dy < 0: buttons.extend(['Down'] * abs(dy))\n\nprint(json.dumps(buttons))",
+    "history": [
+      {
+        "commit_message": "feat: Create pokemon_hunter tool. This tool automates walking back and forth in tall grass to efficiently hunt for wild Pokémon. This addresses a critical need identified during self-assessment to avoid looping warnings and improve gameplay efficiency.",
+        "timestamp": "2025-09-19T07:51:40.412Z",
+        "action_counter": 225116
+      }
+    ]
   }
 }

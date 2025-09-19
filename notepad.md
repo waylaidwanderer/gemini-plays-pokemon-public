@@ -82,3 +82,6 @@
 # X. Pokemon Locations (Observed)
 
 - *This section will track where different Pokemon species have been found.*
+
+# XI. Tool & Agent Improvement Log
+- **pokemon_hunter:** The current implementation is naive and does not account for map boundaries. This led to a movement failure on Route 3. **To-Do:** Refactor the tool to be context-aware, perhaps by accepting a valid path segment or parsing map data to stay within a defined area.
