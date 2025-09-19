@@ -1162,15 +1162,26 @@
       }
     ]
   },
-  "quit_shop_menu": {
-    "description": "Exits a standard Poké Mart menu by pressing Down twice from the 'BUY' option to select 'QUIT', then pressing A. Must be called with autopress_buttons: true.",
-    "input_schema": {},
-    "python_script": "import json\nprint(json.dumps(['Down', 'Down', 'A']))",
+  "switch_pokemon": {
+    "description": "Switches to a different Pokémon in battle from the party menu. Takes a slot number (1-6) as input. Assumes the party menu is open and the cursor is on the first Pokémon. Must be called with autopress_buttons: true.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "slot_number": {
+          "type": "string",
+          "description": "The party slot to switch to (1-6)."
+        }
+      },
+      "required": [
+        "slot_number"
+      ]
+    },
+    "python_script": "import json\nslot = int(input_data['slot_number'])\npresses = []\nif 1 <= slot <= 6:\n    # Move down to the correct slot (slot 1 requires 0 down presses)\n    presses.extend(['Down'] * (slot - 1))\n    # Select the Pokémon, then select SWITCH\n    presses.extend(['A', 'A'])\nprint(json.dumps(presses))",
     "history": [
       {
-        "commit_message": "feat: Create quit_shop_menu tool. This tool automates exiting shop menus to prevent manual input errors, such as mixing directional and action buttons, which was identified as a recurring issue during self-assessment.",
-        "timestamp": "2025-09-19T20:46:45.767Z",
-        "action_counter": 226607
+        "commit_message": "feat: Create switch_pokemon tool. This tool automates switching Pokémon in battle by taking a party slot number as input. This was identified as a necessary improvement during self-assessment to increase reliability and reduce manual input errors during combat.",
+        "timestamp": "2025-09-19T22:09:22.072Z",
+        "action_counter": 226811
       }
     ]
   }

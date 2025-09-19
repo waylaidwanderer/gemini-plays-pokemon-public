@@ -55,18 +55,6 @@
 # V. New Directives & Resolutions
 - **Map Marker Discipline (WARPS):** I must mark every warp tile (both entry and exit) with '🚪' immediately after using it to improve my navigational memory and avoid getting lost in complex areas.
 
-# VI. Tile & Movement Mechanics
-- **ground:** Standard, walkable tile.
-- **impassable:** A wall or obstacle that cannot be entered.
-- **Ledge:** Can be jumped down (one-way), but not climbed up. Acts as a wall from below and sides.
-- **Steps:** Allows movement between `ground` and `elevated_ground` tiles.
-- **Elevated Ground:** Walkable ground at a different elevation, only accessible via `steps` tiles.
-- **Spinner:** Forces movement in a specific direction. Need to document entry/exit points to solve mazes.
-- **Cuttable Tree:** Requires HM Cut to pass. Respawn on map change.
-- **Warp (1x1):** Instantaneous. To re-use, must step off and back on.
-- **Warp (Large):** Requires two steps: move onto the warp tile, then move into the boundary/direction of the warp.
-- **ladder_down:** A type of warp that leads to a lower floor.
-
 # VII. Game Mechanics (Observed)
 - **Post-Battle Position Shift:** Sometimes, after a wild battle concludes, the player's character may be moved to a different, nearby tile.
 - **Ghost-type Damage:** Ghost-type moves deal SPECIAL damage, not physical.
