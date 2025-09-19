@@ -1170,5 +1170,27 @@
         "action_counter": 226297
       }
     ]
+  },
+  "select_battle_move": {
+    "description": "Automates selecting a move from the 2x2 battle menu by its slot number (1-4). 1=Top-Left, 2=Top-Right, 3=Bottom-Left, 4=Bottom-Right. Assumes the cursor starts at slot 1. Returns button presses. Must be called with `autopress_buttons: true`.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "move_slot": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "move_slot"
+      ]
+    },
+    "python_script": "import json\ntry:\n    slot = int(input_data['move_slot'])\n    if not 1 <= slot <= 4:\n        print(json.dumps([]))\n        exit()\n    presses = []\n    if slot == 2:\n        presses.append(\"Right\")\n    elif slot == 3:\n        presses.append(\"Down\")\n    elif slot == 4:\n        presses.append(\"Right\")\n        presses.append(\"Down\")\n    presses.append(\"A\")\n    print(json.dumps(presses))\nexcept Exception as e:\n    print(json.dumps([]))",
+    "history": [
+      {
+        "commit_message": "feat: Create select_battle_move tool. This tool automates move selection in battle by taking a slot number (1-4) as input. This is a critical improvement to eliminate the frequent manual menu navigation errors identified by the overwatch system and streamline combat.",
+        "timestamp": "2025-09-19T18:43:22.279Z",
+        "action_counter": 226352
+      }
+    ]
   }
 }

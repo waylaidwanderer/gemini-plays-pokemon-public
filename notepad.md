@@ -68,3 +68,6 @@
 - **Cuttable Tree:** Requires HM Cut to pass. Respawn on map change.
 - **Warp (1x1):** Instantaneous. To re-use, must step off and back on.
 - **Warp (Large):** Requires two steps: move onto the warp tile, then move into the boundary/direction of the warp.
+
+# VIII. Game Mechanics (Observed)
+- **Post-Battle Position Shift:** Sometimes, after a wild battle concludes, the player's character may be moved to a different, nearby tile.
