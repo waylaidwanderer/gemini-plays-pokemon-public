@@ -83,3 +83,8 @@
 ## Confirmed Assumptions
 - **Assumption:** The Jigglypuff at (2, 4) in the Pewter Pokémon Center is decorative. **Status: Confirmed.** Interaction yielded no result.
 - **Assumption:** The PC at (14, 4) in the Pewter Pokémon Center functions normally. **Status: Confirmed.** It's a standard PC.
+
+# X. Self-Assessment Log
+- **Immediate Task Handling:** I have deferred tasks instead of performing them immediately. This is a critical failure. All maintenance and data management must be done in the current turn.
+- **Agent Opportunity (Future Idea):** An 'NPC Interceptor' agent could be created to predict the movement of and plan intercepts for mobile NPCs.
+- **Untested Assumption:** The POKéMON TOWER is the next key location for the ghost investigation. **Test:** Enter the tower after speaking to all Lavender Town NPCs.
