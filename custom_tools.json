@@ -1172,7 +1172,7 @@
     ]
   },
   "select_battle_move": {
-    "description": "Automates selecting a move from the 2x2 battle menu by its slot number (1-4). 1=Top-Left, 2=Top-Right, 3=Bottom-Left, 4=Bottom-Right. Assumes the cursor starts at slot 1. Returns button presses. Must be called with `autopress_buttons: true`.",
+    "description": "Automates selecting a move from the battle menu by its slot number (1-4). Assumes a vertical list and cursor starting at slot 1. Returns button presses. Must be called with `autopress_buttons: true`.",
     "input_schema": {
       "type": "object",
       "properties": {
@@ -1184,7 +1184,7 @@
         "move_slot"
       ]
     },
-    "python_script": "import json\nmove_slot = int(input_data['move_slot'])\nbuttons = []\nif move_slot == 1:\n    pass\nelif move_slot == 2:\n    buttons.append('Right')\nelif move_slot == 3:\n    buttons.append('Down')\nelif move_slot == 4:\n    buttons.extend(['Right', 'Down'])\nbuttons.append('A')\nprint(json.dumps(buttons))",
+    "python_script": "import json\n\nmove_slot = int(input_data['move_slot'])\nbuttons = []\n\nif move_slot < 1 or move_slot > 4:\n    # Invalid slot, do nothing\n    pass\nelse:\n    # Move down the required number of times\n    for _ in range(move_slot - 1):\n        buttons.append('Down')\n\n# Select the move\nbuttons.append('A')\n\nprint(json.dumps(buttons))",
     "history": [
       {
         "commit_message": "feat: Create select_battle_move tool. This tool automates move selection in battle by taking a slot number (1-4) as input. This is a critical improvement to eliminate the frequent manual menu navigation errors identified by the overwatch system and streamline combat.",
@@ -1200,6 +1200,11 @@
         "commit_message": "fix: Revert button sequence for move slot 4. The previous fix using 'Down, Right' also resulted in incorrectly selecting slot 2. This commit reverts the sequence to 'Right, Down' as a final attempt to find a working combination. If this fails, the tool's interaction with the game's input processing for this specific sequence is fundamentally flawed.",
         "timestamp": "2025-09-19T19:15:18.771Z",
         "action_counter": 226406
+      },
+      {
+        "commit_message": "fix: Rework logic for vertical move menu. The previous implementation assumed a 2x2 grid, causing incorrect selections. Systematic in-game testing confirmed the menu is a single vertical list. This commit updates the button sequences to use only 'Down' presses for navigation, restoring full functionality.",
+        "timestamp": "2025-09-19T20:21:58.440Z",
+        "action_counter": 226540
       }
     ]
   }

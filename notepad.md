@@ -48,7 +48,7 @@
 - **Route 7:** Pidgey, Vulpix, Koffing, Jigglypuff
 
 # IV. Tool & Agent Improvement Log
-- **select_battle_move (BUGGED):** The tool consistently fails to select the 4th move slot. Both `['Right', 'Down']` and `['Down', 'Right']` sequences incorrectly select the 2nd slot. **Immediate Action Required:** After exploring Saffron City, I must travel to a route with wild encounters to manually test button combinations and fix this tool without delay.
+- **select_battle_move (FIXED):** The tool has been updated. In-game testing confirmed the battle menu is a single vertical list, not a 2x2 grid. The script now correctly uses 'Down' presses for navigation.
 - **pokemon_hunter (FIXED):** The tool has been refactored to accept a rectangular boundary to ensure all generated movements stay within a specified hunting area.
 - **exploration_planner (NEW):** Created an agent to generate optimal routes for speaking to all unvisited NPCs in a city.
 
