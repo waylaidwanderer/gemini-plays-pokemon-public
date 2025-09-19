@@ -60,3 +60,11 @@
 - **Assumption:** The Jigglypuff at (2, 4) in the Pewter Pokémon Center is decorative. **Status: Confirmed.** Interaction yielded no result.
 - **Assumption:** The PC at (14, 4) in the Pewter Pokémon Center functions normally. **Status: Confirmed.** It's a standard PC.
 - Having the player's Pikachu interact with the NPC Pikachu at (27, 17) yielded no new dialogue or event. (Agent Hypothesis #5 FAILED)
+
+### Expanded Tile Physics Log
+- **ground:** Standard walkable tile.
+- **impassable:** Walls, counters, and other solid barriers. Cannot be entered.
+- **ledge:** One-way downward traversal. Acts as a wall from below and sides.
+- **cuttable:** A tree that can be removed with HM Cut. Respawn on map change.
+- **grass:** Tall grass where wild Pokémon appear. In Pewter Pokecenter, this tile is used for the PC.
+- **warp:** A tile that transports the player to another location, such as a door or stairs.
