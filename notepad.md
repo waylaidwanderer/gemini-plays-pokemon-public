@@ -61,7 +61,7 @@
 - **Hypothesis 1 (Untestable):** Interact with the `Pikachu` at (10, 5) and then immediately speak to the blocking `MUSEUM1F_SCIENTIST1` at (13, 5). (Reason: Scientist is in an unreachable area.)
 - **Hypothesis 2 (Untestable):** First, interact with the `AerodactylFossil` at (3, 4), then the `KabutopsFossil` at (3, 7), and finally speak to the blocking `MUSEUM1F_SCIENTIST1` at (13, 5). (Reason: Scientist is in an unreachable area.)
 - **Hypothesis 3 (Untestable):** Speak to the `MUSEUM1F_SCIENTIST3` at (18, 5) before attempting to speak with the blocking `MUSEUM1F_SCIENTIST1` at (13, 5). (Reason: Scientist is in an unreachable area.)
-- **Hypothesis 4 (Active Test):** Speak to the `MUSEUM1F_GAMBLER` at (2, 5) to see if his dialogue provides a clue or an item needed to move the `MUSEUM1F_SCIENTIST1` at (13, 5).
+- **Hypothesis 4 (Active Test):** Speak to the `MUSEUM1F_GAMBLER` at (2, 5) to see if his dialogue provides a clue or an item needed to move the `MUSEUM1F_SCIENTIST1` at (13, 5). (Result: Failed. He gave standard fossil dialogue.)
 
 # V. Core Assumptions & Strategic Pivots
 - **Core Assumption:** The solution to moving the blocking scientist on 1F is located on 2F. 
