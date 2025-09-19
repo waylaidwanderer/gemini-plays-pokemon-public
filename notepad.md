@@ -4,9 +4,7 @@
 -   **Objective:** Retrieve the Old Amber.
 -   **Location:** Pewter Museum of Science.
 -   **Obstacle:** A Scientist at (13, 5) on 1F blocks the path to an item.
--   **Remaining Hypotheses (from Agent):**
-    1.  **Rank 3:** Place a Jigglypuff in the first slot of your party and interact with the blocking Scientist at (13, 5).
-    2.  **Rank 4:** Place a Geodude or Onix in the first slot of your party and interact with the blocking Scientist at (13, 5).
+
 -   **Untestable Hypotheses:**
     -   Set a Clefairy/Clefable as your lead party Pokémon and speak to the scientist standing near the meteorite display. (Reasoning: Cannot reach the scientist in the partitioned eastern section).
 -   **Failed Hypotheses (Consolidated):**
