@@ -66,3 +66,4 @@
 # V. Core Assumptions & Strategic Pivots
 - **Core Assumption:** The solution to moving the blocking scientist on 1F is located on 2F. 
 - **Contingency Plan:** If all 2F hypotheses are exhausted, the next strategic pivot will be to investigate potential puzzle triggers exclusively on 1F, questioning the core assumption.
+- **New Hypothesis (Self-Generated):** Trigger the Aerodactyl fossil trap at (3, 4) and then immediately interact with the Pikachu at (4, 5). (Result: Failed. The sequence of events occurred but did not move the blocking scientist.)
