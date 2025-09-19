@@ -67,3 +67,4 @@
 - **Pewter Museum Final Step:** After completing the Geodude and Space Exhibit steps, interacting with the Kabutops Fossil at (3, 7) completes the puzzle sequence. (This action did not trigger a trap, unlike previous attempts).
 - **Ground:** Standard walkable tile.
 - **Impassable:** Walls and other objects that cannot be walked on or through.
+- **Cuttable:** A tree that can be removed with the HM 'Cut', becoming a 'ground' tile. Respawns after changing maps or blacking out.
