@@ -29,26 +29,18 @@
 -   **Location:** Cerulean City (exact location of COPYCAT TBD).
 -   **Status:** Item obtained. Ready to proceed once COPYCAT is found.
 
-# III. Key Discoveries & Lessons Learned
-
+# II. Key Discoveries & Lessons Learned
 -   **Tool Deferral Failure (CRITICAL):** Repeatedly deferred the creation of necessary tools instead of building them immediately. **Lesson Reinforced:** If a repetitive manual task can be automated, or a complex reasoning task can be delegated, building a tool or agent for it is the highest priority.
 -   **Game Corner Entry Failure (CRITICAL):** Became stuck in a loop attempting to enter the Celadon Game Corner while Pikachu blocked a warp tile. **Lesson:** If a specific path or objective is repeatedly blocked, do not persist with the same failed approach. Re-evaluate, check for alternate routes, or pivot to a different high-priority goal.
 
-# III. Key Discoveries & Lessons Learned
-
--   **Tool Deferral Failure (CRITICAL):** Repeatedly deferred the creation of necessary tools instead of building them immediately. **Lesson Reinforced:** If a repetitive manual task can be automated, or a complex reasoning task can be delegated, building a tool or agent for it is the highest priority.
--   **Game Corner Entry Failure (CRITICAL):** Became stuck in a loop attempting to enter the Celadon Game Corner while Pikachu blocked a warp tile. **Lesson:** If a specific path or objective is repeatedly blocked, do not persist with the same failed approach. Re-evaluate, check for alternate routes, or pivot to a different high-priority goal.
-
-# X. Pokemon Locations (Observed)
-
+# III. Pokemon Locations (Observed)
 - *This section will track where different Pokemon species have been found.*
+- **Route 8:** Growlithe, Abra
 
-# XI. Tool & Agent Improvement Log
+# IV. Tool & Agent Improvement Log
 - **pokemon_hunter (FIXED):** The previous implementation was naive and did not account for map boundaries, causing movement failures. The tool has been refactored to accept a rectangular boundary (`x_min`, `x_max`, `y_min`, `y_max`) and a starting position to ensure all generated movements stay within the specified hunting area.
-- **Route 8 Spawning Trees:** Cuttable trees can spontaneously appear on this route, blocking the path and interrupting movement.
 
-# XII. Game Mechanics & World Rules (Structured)
-
+# V. Game Mechanics & World Rules (Structured)
 ## Tile Traversal Rules
 - **ground, grass, elevated_ground, steps:** Standard walkable tiles.
 - **impassable:** Walls, cannot be entered.
@@ -58,5 +50,5 @@
 ## Investigation Notes
 - **Route 8 Spawning Trees:** Need to investigate if there's a specific trigger for the trees spawning, or if it's purely random. This could be related to step count or specific tile interactions.
 
-# IV. Self-Assessment Reflections
-- **Tool Deferral Failure (CRITICAL):** During the self-assessment on turn 225373, I identified a critical failure in my process. I manually handled the spawning trees on Route 8 multiple times before finally creating the `tree_chopper` tool. This deferral of a necessary automation task is a direct violation of my core directives. **Lesson Reinforced:** If a repetitive manual task can be automated, building a tool for it is the highest priority and must be done immediately, not deferred.
+# VI. Self-Assessment Reflections
+- **Tool Deferral Failure (CRITICAL):** During the self-assessment on turn 225424, I identified a critical failure in my process. I manually handled the spawning trees on Route 8 multiple times before finally creating the `tree_chopper` tool. This deferral of a necessary automation task is a direct violation of my core directives. **Lesson Reinforced:** If a repetitive manual task can be automated, building a tool for it is the highest priority and must be done immediately, not deferred.
