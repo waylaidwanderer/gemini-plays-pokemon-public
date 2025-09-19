@@ -64,6 +64,9 @@
 - **Objective:** Give the POKé DOLL to COPYCAT.
 - **Location:** Saffron City.
 - **Outcome:** Successfully gave the POKé DOLL to Copycat and received TM31 MIMIC in return.
+### The Sleeping Snorlax
+- **Objective:** Investigate the path blocked by the sleeping Snorlax.
+- **Outcome:** Used the POKé FLUTE to wake the Snorlax on Route 11, clearing the path. The Snorlax disappeared without a battle.
 
 ## Confirmed Assumptions
 - **Assumption:** The Jigglypuff at (2, 4) in the Pewter Pokémon Center is decorative. **Status: Confirmed.**
