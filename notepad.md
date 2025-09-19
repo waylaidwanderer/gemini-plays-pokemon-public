@@ -5,6 +5,8 @@
 -   **Location:** Pewter Museum of Science.
 -   **Obstacle:** A Scientist at (13, 5) on 1F blocks the path to an item.
 
+-   **Active Hypothesis:** Repeating the full puzzle sequence with a revived Aerodactyl in the lead will move the blocking scientist.
+-   **Next Testable Hypothesis:** After showing a 'key' Pokémon to the Old Man, the puzzle sequence steps might be completable out of order (e.g., interacting with the Kabutops fossil immediately).
 -   **Untestable Hypotheses:**
     -   Set a Clefairy/Clefable as your lead party Pokémon and speak to the scientist standing near the meteorite display. (Reasoning: Cannot reach the scientist in the partitioned eastern section).
 -   **Failed Hypotheses (Consolidated):**
@@ -45,22 +47,24 @@
 -   **Battle Menu Anomaly:** The game sometimes restricts move selection to the first slot in wild battles.
 -   **PC Statefulness:** The PC is stateful. Automation tools MUST have a reset sequence.
 -   **Pikachu Following Mechanic:** A button press in Pikachu's direction only causes a turn if not already facing that direction.
--   **Trap Mechanics:**
-    -   **Pewter Museum:** Interacting with the Aerodactyl fossil exhibit at (3,4) consistently acts as a simple trap that temporarily locks the player. Pressing 'B' escapes.
 -   **Item Usage:**
     -   A POKé DOLL guarantees escape from a wild battle.
-- **Pewter Museum Fee Trigger:** The entrance fee tile at (10, 5) can be re-triggered even after entering the museum.
-- **Pewter Museum Pikachu Swap:** It is possible to swap positions with the Pikachu NPC at (12, 8) by walking onto its tile.
+-   **Unique Tile Mechanics:**
+    -   **Pewter Museum Trap:** Interacting with the Aerodactyl fossil exhibit at (3,4) consistently acts as a simple trap that temporarily locks the player. Pressing 'B' escapes.
+    -   **Pewter Museum Fee Trigger:** The entrance fee tile at (10, 5) can be re-triggered even after entering the museum.
+    -   **Pewter Museum Pikachu Swap:** It is possible to swap positions with the Pikachu NPC at (12, 8) by walking onto its tile.
 
 # III. Key Discoveries & Lessons Learned
 
 -   **Confirmation Bias & Over-Correction (CRITICAL):** My handling of the Rocket Hideout B2F maze was a cascade of cognitive errors. **Lesson:** Do not swing from one bias to another. Trust verifiable data and tool outputs over intuition.
 -   **Hypothesis Testing Failure (Preparation):** Arrived at a location to test a hypothesis without the required Pokémon/items/moves. **Lesson:** Always verify party composition and necessary items/moves *before* traveling.
--   **Pikachu Following Mechanic (CRITICAL CLARIFICATION):** A button press in Pikachu's direction will only cause a turn *if the player is not already facing that direction*. Pathfinding tools must account for this.
 -   **Tool Deferral Failure (CRITICAL):** Repeatedly deferred the creation of necessary tools instead of building them immediately. **Lesson Reinforced:** If a repetitive manual task can be automated, or a complex reasoning task can be delegated, building a tool or agent for it is the highest priority.
 -   **Game Corner Entry Failure (CRITICAL):** Became stuck in a loop attempting to enter the Celadon Game Corner while Pikachu blocked a warp tile. **Lesson:** If a specific path or objective is repeatedly blocked, do not persist with the same failed approach. Re-evaluate, check for alternate routes, or pivot to a different high-priority goal.
 
 # IV. Puzzle Solutions & Completed Steps
-- **Pewter Museum Fossil Puzzle:** Leading with a Geodude OR a revived fossil Pokémon (Omanyte) triggers new dialogue from the Old Man at (2, 5) on 1F. This is a confirmed step in the puzzle solution.
+- **Pewter Museum Fossil Puzzle:** Leading with a Geodude OR a revived fossil Pokémon (Omanyte, Aerodactyl) triggers new dialogue from the Old Man at (2, 5) on 1F. This is a confirmed step in the puzzle solution.
 - **Pewter Museum Space Exhibit Puzzle:** After showing the "key" Pokémon to the Old Man on 1F, the Scientist at (8, 6) on 2F gives new dialogue: 'We have a space exhibit now.'
 - **Pewter Museum Final Step:** After completing the "key" Pokémon and Space Exhibit steps, interacting with the Kabutops Fossil at (3, 7) completes the puzzle sequence. (This action did not trigger a trap, unlike previous attempts).
+
+# V. Future Development Ideas
+- **Agent Idea:** `team_composition_advisor`. Takes an objective (e.g., 'prepare for gym battle', 'solve puzzle requiring X') and a list of available Pokémon (party + PC) to suggest an optimal party composition.
