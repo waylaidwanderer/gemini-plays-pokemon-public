@@ -7,11 +7,7 @@
 
 -   **Active Hypothesis:** Repeating the full puzzle sequence with a revived Aerodactyl in the lead will move the blocking scientist.
 -   **Failed Hypotheses (Consolidated):**
-    -   **Item/Move Usage:**
-        -   Use the Itemfinder on 1F or 2F. (Result: No items found.)
-        -   Attempt to ride the Bicycle indoors. (Result: Professor Oak's dialogue prevents use.)
-        -   Use the 'POKé DOLL' item near the scientist. (Result: Professor Oak's dialogue prevents use.)
-        -   Use a Pokémon with the move 'Dig' in front of the scientist. (Result: Warped out of the museum.)
+
     -   **Exhibit/Object Interaction:**
         -   Interact with the large space shuttle model on 2F. (Result: Displayed text "SPACE SHUTTLE COLUMBIA", no other effect.)
         -   Interact with the Aerodactyl fossil plaque at (3, 3). (Result: Tile is impassable.)
@@ -31,11 +27,7 @@
 -   **Next Testable Hypothesis:** After showing a 'key' Pokémon to the Old Man, the puzzle sequence steps might be completable out of order (e.g., interacting with the Kabutops fossil immediately).
 
 -   **Failed Hypotheses (Consolidated):**
-    -   **Item/Move Usage:**
-        -   Use the Itemfinder on 1F or 2F. (Result: No items found.)
-        -   Attempt to ride the Bicycle indoors. (Result: Professor Oak's dialogue prevents use.)
-        -   Use the 'POKé DOLL' item near the scientist. (Result: Professor Oak's dialogue prevents use.)
-        -   Use a Pokémon with the move 'Dig' in front of the scientist. (Result: Warped out of the museum.)
+
     -   **Exhibit/Object Interaction:**
         -   Interact with the large space shuttle model on 2F. (Result: Displayed text "SPACE SHUTTLE COLUMBIA", no other effect.)
         -   Interact with the Aerodactyl fossil plaque at (3, 3). (Result: Tile is impassable.)
