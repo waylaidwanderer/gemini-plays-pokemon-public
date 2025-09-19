@@ -49,7 +49,7 @@
 
 # IV. Tool & Agent Improvement Log
 - **pokemon_hunter (FIXED):** The tool has been refactored to accept a rectangular boundary to ensure all generated movements stay within a specified hunting area.
-- **city_exploration_planner (NEW):** Created an agent to generate optimal routes for speaking to all unvisited NPCs in a city.
+- **exploration_planner (NEW):** Created an agent to generate optimal routes for speaking to all unvisited NPCs in a city.
 
 # V. Untested Assumptions & Biases
 - **Assumption:** The solution to the museum puzzle is in Pewter City. **Test:** If all agent hypotheses in Pewter City fail, I will have to consider that the solution lies elsewhere and re-evaluate my main quest. (Status: All Pewter City hypotheses failed. Assumption is likely false).
