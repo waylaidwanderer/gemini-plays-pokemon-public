@@ -57,3 +57,6 @@
 
 ## Investigation Notes
 - **Route 8 Spawning Trees:** Need to investigate if there's a specific trigger for the trees spawning, or if it's purely random. This could be related to step count or specific tile interactions.
+
+# IV. Self-Assessment Reflections
+- **Tool Deferral Failure (CRITICAL):** During the self-assessment on turn 225373, I identified a critical failure in my process. I manually handled the spawning trees on Route 8 multiple times before finally creating the `tree_chopper` tool. This deferral of a necessary automation task is a direct violation of my core directives. **Lesson Reinforced:** If a repetitive manual task can be automated, building a tool for it is the highest priority and must be done immediately, not deferred.

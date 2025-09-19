@@ -1201,7 +1201,7 @@
     ]
   },
   "tree_chopper": {
-    "description": "Automates the process of cutting down a tree. It takes the tree's coordinates and the player's current position, and returns a JSON array of button presses to navigate to the tree, use the CUT HM, and then return to the original position. Must be called with `autopress_buttons: true`.",
+    "description": "Automates cutting a tree. Finds a path to the tree, faces it, navigates the menu to use CUT, and returns a JSON array of button presses. Must be called with `autopress_buttons: true`.",
     "input_schema": {
       "type": "object",
       "properties": {
@@ -1216,21 +1216,50 @@
         },
         "player_y": {
           "type": "string"
+        },
+        "player_facing": {
+          "type": "string"
         }
       },
       "required": [
         "tree_x",
         "tree_y",
         "player_x",
-        "player_y"
+        "player_y",
+        "player_facing"
       ]
     },
-    "python_script": "import json\n\n# This is a placeholder script. The actual pathfinding logic needs to be implemented.\n# For now, it will just generate the menu navigation for CUT.\n\n# Determine adjacent tile to stand on\ntree_x = int(input_data['tree_x'])\ntree_y = int(input_data['tree_y'])\nplayer_x = int(input_data['player_x'])\nplayer_y = int(input_data['player_y'])\n\n# Simplified logic: assume we can stand to the left of the tree\n# A real implementation would need to call the pathfinder.\ntarget_x = tree_x - 1\ntarget_y = tree_y\n\n# Placeholder for pathfinding call\n# path_to_tree = call_pathfinder(player_x, player_y, target_x, target_y)\n# path_back = call_pathfinder(target_x, target_y, player_x, player_y)\n\n# Menu navigation sequence for CUT (assumes Sparky is 4th)\ncut_sequence = [\"Start\", \"Down\", \"A\", \"Down\", \"Down\", \"Down\", \"A\", \"A\", \"B\", \"B\"]\n\n# In a real implementation, we would combine path movements with this menu sequence.\n# For now, just output the menu part.\nprint(json.dumps(cut_sequence))",
+    "python_script": "import json\nimport xml.etree.ElementTree as ET\nimport collections\n\ntree_x = int(input_data['tree_x'])\ntree_y = int(input_data['tree_y'])\nplayer_x = int(input_data['player_x'])\nplayer_y = int(input_data['player_y'])\nplayer_facing = input_data['player_facing']\n\nroot = ET.fromstring(map_xml_string)\nmap_width = int(root.get('width'))\nmap_height = int(root.get('height'))\ntiles = {}\nfor row in root.findall('Row'):\n    y = int(row.get('id'))\n    for tile_elem in row.findall('Tile'):\n        x = int(tile_elem.get('id'))\n        obj = tile_elem.find('Object')\n        tiles[(x, y)] = {\n            'type': tile_elem.get('type'),\n            'has_object': tile_elem.get('has-object') == 'true',\n            'object_id_name': obj.get('id-name') if obj is not None else None\n        }\n\ndef is_valid_move(pos):\n    if not (1 <= pos[0] <= map_width and 1 <= pos[1] <= map_height):\n        return False\n    tile_info = tiles.get(pos)\n    if not tile_info or tile_info['type'] not in {'ground', 'grass'}:\n        return False\n    if tile_info.get('has_object') and (tile_info.get('object_id_name') or '').upper() != 'PIKACHU':\n        return False\n    return True\n\ngoal_tiles = []\nfor dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n    adj_pos = (tree_x + dx, tree_y + dy)\n    if is_valid_move(adj_pos):\n        goal_tiles.append(adj_pos)\n\nif not goal_tiles:\n    print(json.dumps([]))\n    exit()\n\nstart = (player_x, player_y)\nqueue = collections.deque([start])\nvisited = {start}\ncame_from = {start: None}\nfinal_goal = None\n\nwhile queue:\n    current_pos = queue.popleft()\n    if current_pos in goal_tiles:\n        final_goal = current_pos\n        break\n    (cx, cy) = current_pos\n    for dx, dy in [(-1, 0), (1, 0), (0, -1), (0, 1)]:\n        next_pos = (cx + dx, cy + dy)\n        if next_pos not in visited and is_valid_move(next_pos):\n            visited.add(next_pos)\n            came_from[next_pos] = current_pos\n            queue.append(next_pos)\n\nif not final_goal:\n    print(json.dumps([]))\n    exit()\n\npath_coords = []\ncurr = final_goal\nwhile curr is not None:\n    path_coords.append(curr)\n    curr = came_from.get(curr)\npath_coords.reverse()\n\nbuttons = []\nfor i in range(len(path_coords) - 1):\n    px, py = path_coords[i]\n    nx, ny = path_coords[i+1]\n    if nx > px: buttons.append('Right')\n    elif nx < px: buttons.append('Left')\n    elif ny > py: buttons.append('Down')\n    elif ny < py: buttons.append('Up')\n\nfinal_pos = path_coords[-1]\nrequired_facing = None\nif tree_x > final_pos[0]: required_facing = 'Right'\nelif tree_x < final_pos[0]: required_facing = 'Left'\nelif tree_y > final_pos[1]: required_facing = 'Down'\nelif tree_y < final_pos[1]: required_facing = 'Up'\n\nif len(path_coords) > 1:\n    last_pos = path_coords[-2]\n    last_move_direction = None\n    if final_pos[0] > last_pos[0]: last_move_direction = 'Right'\n    elif final_pos[0] < last_pos[0]: last_move_direction = 'Left'\n    elif final_pos[1] > last_pos[1]: last_move_direction = 'Down'\n    elif final_pos[1] < last_pos[1]: last_move_direction = 'Up'\n\n    if required_facing and last_move_direction != required_facing:\n        buttons.append(required_facing)\nelif required_facing and player_facing.lower() != required_facing.lower():\n    buttons.append(required_facing)\n\nmenu_nav = ['Start', 'Down', 'A', 'Down', 'Down', 'Down', 'A', 'A']\nbuttons.extend(menu_nav)\n\nprint(json.dumps(buttons))\n",
     "history": [
       {
         "commit_message": "feat: Create tree_chopper tool to automate handling spawning trees. This tool is intended to streamline the process of dealing with the unique spawning tree mechanic on Route 8 by automating navigation to the tree, using the CUT HM, and returning. This addresses a critical inefficiency identified during self-assessment.",
         "timestamp": "2025-09-19T10:05:42.490Z",
         "action_counter": 225322
+      },
+      {
+        "commit_message": "feat: Implement menu automation for `tree_chopper`. The tool now generates the correct button sequence to open the menu, navigate to the 4th party member (Sparky), and select the CUT HM. This is a critical first step in automating the response to the spawning trees on Route 8, addressing a major gameplay inefficiency.",
+        "timestamp": "2025-09-19T10:14:20.735Z",
+        "action_counter": 225338
+      },
+      {
+        "commit_message": "feat: Add pathfinding to `tree_chopper`. The tool now calculates a path to an adjacent tile, navigates there, faces the tree, and then uses the CUT HM. This makes it a complete, one-call solution as required by overwatch feedback, addressing a critical gameplay inefficiency.",
+        "timestamp": "2025-09-19T10:22:50.970Z",
+        "action_counter": 225351
+      },
+      {
+        "commit_message": "fix: Add facing direction check and self-contained pathfinding. The tool now includes its own BFS pathfinder to navigate to the tree. It deduces the final facing direction from the path and compares it to the required direction to face the tree, only adding a turn command if necessary. This prevents failures from trying to move into the tree and makes the tool a robust, one-call solution as per overwatch feedback.",
+        "timestamp": "2025-09-19T10:32:08.287Z",
+        "action_counter": 225367
+      },
+      {
+        "commit_message": "fix: Overhaul facing logic to be more robust. The previous implementation had a subtle bug that caused it to add an unnecessary turn command. This new logic explicitly calculates the final direction of movement from the generated path and compares it to the required facing direction for the CUT action. It correctly handles cases where no movement is needed (already adjacent) by adding a turn command to ensure correct orientation, and cases where movement occurs by only adding a turn if the final direction is wrong. This is a critical fix to make the tool a reliable one-call solution.",
+        "timestamp": "2025-09-19T10:33:59.482Z",
+        "action_counter": 225368
+      },
+      {
+        "commit_message": "fix: Add `player_facing` input to fix adjacent turn bug. The tool now accepts the player's current facing direction. When no movement is needed (player is already adjacent to the tree), the tool now correctly compares the player's current facing direction with the required direction and only adds a turn command if they do not match. This is a critical fix that prevents the tool from failing when used multiple times in a row without the player moving.",
+        "timestamp": "2025-09-19T10:35:01.992Z",
+        "action_counter": 225369
       }
     ]
   }
