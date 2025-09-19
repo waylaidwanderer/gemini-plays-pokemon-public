@@ -18,11 +18,10 @@
     -   Leading with a Pikachu and interacting with the NPC Pikachu at (1, 6) does not trigger a special event; it is another trap.
     -   Re-checking dialogue with the Old Man at (2, 5) after completing all puzzle steps yields no new dialogue.
     -   After completing the internal museum puzzle sequence, speaking to the Super Nerd at (28, 18) in Pewter City yielded no new dialogue or progress.
+    -   Triggering both the Aerodactyl Fossil trap (3, 4) and the Kabutops Fossil trap (3, 7) and then speaking to the Gambler (2, 5) yields no new dialogue. (Hypothesis #1 Failed)
 
 -   **Current Plan:**
-    1.  **Conclude Meowth Hypothesis:** The search for Meowth on Routes 5, 6, and 7 has been exhaustive and unsuccessful. This hypothesis is now considered failed.
-    2.  **Return to Pewter Museum:** Travel back to the Pewter Museum of Science to re-evaluate the puzzle.
-    3.  **Generate New Hypotheses:** Use the `puzzle_hypothesis_generator` agent to brainstorm novel solutions for getting past the blocking scientist, using all currently known information and failed attempts as context.
+    1.  **Test Hypothesis #3:** Trigger *only* the Kabutops Fossil trap at (3, 7), then immediately speak to the Gambler at (2, 5). This requires resetting the museum state by leaving and re-entering.
 
 ## Active Quest: The Copycat's Gift
 -   **Objective:** Give the POKé DOLL to COPYCAT.
