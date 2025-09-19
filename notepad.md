@@ -58,7 +58,7 @@
 - **Pewter Museum Final Step:** After completing the "key" Pokémon and Space Exhibit steps, interacting with the Kabutops Fossil at (3, 7) completes the puzzle sequence. (This action did not trigger a trap, unlike previous attempts).
 
 ## Agent-Generated Hypotheses (Testing Phase)
-- **Hypothesis 1 (Rank 1 - FAILED):** Speak to the `MUSEUM2F_BRUNETTE_GIRL` at (12, 6), and then immediately interact with the Pikachu at (11, 5). (Result: No new dialogue or event was triggered.)
-- **Hypothesis 2 (Rank 2 - UNTESTABLE):** Use a fossil item, such as the 'Dome Fossil' or 'Helix Fossil', from the bag while facing the `MUSEUM2F_SCIENTIST` at (8, 6). (Reason: No fossil items in inventory.)
-- **Hypothesis 3 (Rank 3 - FAILED):** Interact with every NPC on 2F (`MUSEUM2F_GRAMPS` (1, 6), `MUSEUM2F_YOUNGSTER` (2, 8), `MUSEUM2F_SCIENTIST` (8, 6), `MUSEUM2F_BRUNETTE_GIRL` (12, 6), and `MUSEUM2F_HIKER` (13, 6)) in a single visit without leaving the floor. (Result: No new dialogue or event was triggered.)
-- **Hypothesis 4 (Rank 4):** Use a 'Potion' item from the bag on the Pikachu at (12, 5).
+- **Hypothesis 1 (Rank 1):** Interact with the `MUSEUM2F_MOON_STONE_SIGN` at (3, 6) and then immediately speak to the `MUSEUM2F_SCIENTIST` at (8, 6).
+- **Hypothesis 2 (Rank 2):** Interact with the `Pikachu` at (3, 8) and then immediately speak to the `MUSEUM2F_YOUNGSTER` at (1, 8).
+- **Hypothesis 3 (Rank 3):** Interact with the `MUSEUM2F_SPACE_SHUTTLE_SIGN` at (12, 3) and then immediately interact with the `Pikachu` at (3, 8).
+- **Hypothesis 4 (Rank 4):** Interact with the exhibit signs in a specific order: first the `MUSEUM2F_MOON_STONE_SIGN` at (3, 6), and second the `MUSEUM2F_SPACE_SHUTTLE_SIGN` at (12, 3).
