@@ -34,8 +34,8 @@
 
 ## Active Quest: The Copycat's Gift
 - **Objective:** Give the POKé DOLL to COPYCAT.
-- **Location:** Cerulean City (exact location of COPYCAT TBD).
-- **Status:** Item obtained. Currently searching all buildings in Cerulean City.
+- **Location:** Saffron City (Hypothesized).
+- **Status:** Item obtained. Currently en route to Saffron City to search.
 
 # II. Key Discoveries & Lessons Learned
 - **Critical Directive Failure - Deferral of Tasks (CRITICAL):** I have repeatedly deferred critical maintenance tasks (tool creation, tool fixing, data management) in favor of gameplay goals. **Lesson Reinforced:** All maintenance and data management tasks are the absolute highest priority and MUST be performed successfully in the current turn.
@@ -61,6 +61,8 @@
 - **Map Marker Discipline (WARPS):** I must mark every warp tile (both entry and exit) with '🚪' immediately after using it to improve my navigational memory and avoid getting lost in complex areas.
 
 # VII. Tile & Movement Mechanics
+- **ground:** Standard, walkable tile.
+- **impassable:** A wall or obstacle that cannot be entered.
 - **Ledge:** Can be jumped down (one-way), but not climbed up. Acts as a wall from below and sides.
 - **Steps:** Allows movement between `ground` and `elevated_ground` tiles.
 - **Elevated Ground:** Walkable ground at a different elevation, only accessible via `steps` tiles.
@@ -68,9 +70,7 @@
 - **Cuttable Tree:** Requires HM Cut to pass. Respawn on map change.
 - **Warp (1x1):** Instantaneous. To re-use, must step off and back on.
 - **Warp (Large):** Requires two steps: move onto the warp tile, then move into the boundary/direction of the warp.
-
-# VIII. Game Mechanics (Observed)
-- **Post-Battle Position Shift:** Sometimes, after a wild battle concludes, the player's character may be moved to a different, nearby tile.
+- **ladder_down:** A type of warp that leads to a lower floor.
 
 # VIII. Game Mechanics (Observed)
 - **Post-Battle Position Shift:** Sometimes, after a wild battle concludes, the player's character may be moved to a different, nearby tile.

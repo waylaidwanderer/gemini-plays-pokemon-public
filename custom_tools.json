@@ -1184,12 +1184,17 @@
         "move_slot"
       ]
     },
-    "python_script": "import json\ntry:\n    slot = int(input_data['move_slot'])\n    if not 1 <= slot <= 4:\n        print(json.dumps([]))\n        exit()\n    presses = []\n    if slot == 2:\n        presses.append(\"Right\")\n    elif slot == 3:\n        presses.append(\"Down\")\n    elif slot == 4:\n        presses.append(\"Right\")\n        presses.append(\"Down\")\n    presses.append(\"A\")\n    print(json.dumps(presses))\nexcept Exception as e:\n    print(json.dumps([]))",
+    "python_script": "import json\nmove_slot = int(input_data['move_slot'])\nbuttons = []\n# Cursor starts at slot 1 (Top-Left)\n# 1=Top-Left, 2=Top-Right, 3=Bottom-Left, 4=Bottom-Right\nif move_slot == 1:\n    buttons.append('A')\nelif move_slot == 2:\n    buttons.extend(['Right', 'A'])\nelif move_slot == 3:\n    buttons.extend(['Down', 'A'])\nelif move_slot == 4:\n    buttons.extend(['Down', 'Right', 'A'])\nelse:\n    # Invalid slot, do nothing\n    pass\nprint(json.dumps(buttons))",
     "history": [
       {
         "commit_message": "feat: Create select_battle_move tool. This tool automates move selection in battle by taking a slot number (1-4) as input. This is a critical improvement to eliminate the frequent manual menu navigation errors identified by the overwatch system and streamline combat.",
         "timestamp": "2025-09-19T18:43:22.279Z",
         "action_counter": 226352
+      },
+      {
+        "commit_message": "fix: Correct button sequence for move slot 4. The previous logic used 'Right, Down', which incorrectly selected slot 2. The corrected sequence is 'Down, Right', which correctly navigates to the bottom-right move slot. This is a critical fix to restore tool functionality.",
+        "timestamp": "2025-09-19T19:02:46.696Z",
+        "action_counter": 226386
       }
     ]
   }
