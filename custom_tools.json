@@ -1293,7 +1293,7 @@
         "target_pokemon_name"
       ]
     },
-    "python_script": "import json\nimport re\n\nlines = input_data['screen_text'].strip().split('\\n')\ntarget_pokemon = input_data['target_pokemon_name']\n\nparty = [] \nfor i in range(0, len(lines), 2):\n    line1 = lines[i]\n    if 'LV' in line1:\n        name_part = line1.split('LV')[0].strip()\n        # Clean up name from potential cursor artifacts\n        name = re.sub(r'[^A-Z]+', '', name_part, flags=re.IGNORECASE).strip()\n        party.append(name.upper())\n\nif target_pokemon.upper() not in party:\n    print(json.dumps([]))\nelse:\n    target_index = party.index(target_pokemon.upper())\n    \n    # Sequence of presses:\n    # 1. Move cursor to target pokémon\n    # 2. Press 'A' to select it\n    # 3. Press 'A' to select 'SWITCH' from the sub-menu\n    # 4. Move cursor to the first pokémon (slot 0)\n    # 5. Press 'A' to confirm the swap\n    \n    buttons = []\n    # Move to target\n    for _ in range(target_index):\n        buttons.append('Down')\n    \n    # Select target and then 'SWITCH'\n    buttons.extend(['A', 'A'])\n    \n    # Move to first slot\n    for _ in range(target_index):\n        buttons.append('Up')\n        \n    # Confirm swap\n    buttons.append('A')\n    \n    print(json.dumps(buttons))",
+    "python_script": "import json\nimport re\n\nlines = input_data['screen_text'].strip().split('\\n')\ntarget_pokemon = input_data['target_pokemon_name']\n\nparty = [] \n# Find the start of the party list\nstart_index = -1\nfor i, line in enumerate(lines):\n    if 'LV' in line and 'Choose a POKéMON' not in ''.join(lines[i:]):\n        start_index = i\n        break\n\nif start_index != -1:\n    for i in range(start_index, len(lines), 2):\n        line1 = lines[i]\n        if 'LV' in line1:\n            name_part = line1.split('LV')[0].strip()\n            name = re.sub(r'[^A-Z]+', '', name_part, flags=re.IGNORECASE).strip()\n            if name:\n                party.append(name.upper())\n        else:\n            break # Stop if a line doesn't conform to the pattern\n\nif target_pokemon.upper() not in party:\n    print(json.dumps([]))\nelse:\n    target_index = party.index(target_pokemon.upper())\n    \n    buttons = []\n    # Move to target\n    for _ in range(target_index):\n        buttons.append('Down')\n    \n    # Select target and then 'SWITCH'\n    buttons.extend(['A', 'A'])\n    \n    # Move to first slot\n    for _ in range(target_index):\n        buttons.append('Up')\n        \n    # Confirm swap\n    buttons.append('A')\n    \n    print(json.dumps(buttons))",
     "history": [
       {
         "commit_message": "feat: Create party_manager tool. This tool automates the process of switching a Pokémon to the lead party position, addressing a key efficiency gap identified during a mandatory self-assessment. It parses the party screen to find the target Pokémon and calculates the necessary button presses for the swap.",
@@ -1304,6 +1304,11 @@
         "commit_message": "fix: Overhaul party swap logic. The previous version failed to correctly calculate the button presses. This commit implements a robust, state-aware sequence: navigate to the target, select it, select 'SWITCH', navigate to the first slot, and confirm the swap. This addresses a critical tool failure.",
         "timestamp": "2025-09-19T00:54:21.476Z",
         "action_counter": 224245
+      },
+      {
+        "commit_message": "fix: Overhaul party swap logic. The previous version failed to correctly calculate the button presses. This commit implements a robust, state-aware sequence: navigate to the target, select it, select 'SWITCH', navigate to the first slot, and confirm the swap. This addresses a critical tool failure.",
+        "timestamp": "2025-09-19T00:54:55.780Z",
+        "action_counter": 224246
       }
     ]
   }
