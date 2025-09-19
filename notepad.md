@@ -37,12 +37,6 @@
 -   **Tool Deferral Failure (CRITICAL):** Repeatedly deferred the creation of necessary tools instead of building them immediately. **Lesson Reinforced:** If a repetitive manual task can be automated, or a complex reasoning task can be delegated, building a tool or agent for it is the highest priority.
 -   **Game Corner Entry Failure (CRITICAL):** Became stuck in a loop attempting to enter the Celadon Game Corner while Pikachu blocked a warp tile. **Lesson:** If a specific path or objective is repeatedly blocked, do not persist with the same failed approach. Re-evaluate, check for alternate routes, or pivot to a different high-priority goal.
 
-# IV. Puzzle Solutions & Completed Steps
-
-- **Pewter Museum Fossil Puzzle:** Leading with a Geodude OR a revived fossil Pokémon (Omanyte, Aerodactyl) triggers new dialogue from the Old Man at (2, 5) on 1F. This is a confirmed step in the puzzle solution.
-- **Pewter Museum Space Exhibit Puzzle:** After showing the "key" Pokémon to the Old Man on 1F, the Scientist at (8, 6) on 2F gives new dialogue: 'We have a space exhibit now.'
-- **Pewter Museum Final Step:** After completing the "key" Pokémon and Space Exhibit steps, interacting with the Kabutops Fossil at (3, 7) completes the puzzle sequence. (This action did not trigger a trap, unlike previous attempts).
-
 # V. Hypothesis Log & Strategic Pivots
 
 - **Core Assumption:** The solution to moving the blocking scientist on 1F is located on 2F.
@@ -69,12 +63,6 @@
 -   **Hypothesis Testing Failure (Preparation):** Arrived at a location to test a hypothesis without the required Pokémon/items/moves. **Lesson:** Always verify party composition and necessary items/moves *before* traveling.
 -   **Tool Deferral Failure (CRITICAL):** Repeatedly deferred the creation of necessary tools instead of building them immediately. **Lesson Reinforced:** If a repetitive manual task can be automated, or a complex reasoning task can be delegated, building a tool or agent for it is the highest priority.
 -   **Game Corner Entry Failure (CRITICAL):** Became stuck in a loop attempting to enter the Celadon Game Corner while Pikachu blocked a warp tile. **Lesson:** If a specific path or objective is repeatedly blocked, do not persist with the same failed approach. Re-evaluate, check for alternate routes, or pivot to a different high-priority goal.
-
-# IV. Puzzle Solutions & Completed Steps
-
-- **Pewter Museum Fossil Puzzle:** Leading with a Geodude OR a revived fossil Pokémon (Omanyte, Aerodactyl) triggers new dialogue from the Old Man at (2, 5) on 1F. This is a confirmed step in the puzzle solution.
-- **Pewter Museum Space Exhibit Puzzle:** After showing the "key" Pokémon to the Old Man on 1F, the Scientist at (8, 6) on 2F gives new dialogue: 'We have a space exhibit now.'
-- **Pewter Museum Final Step:** After completing the "key" Pokémon and Space Exhibit steps, interacting with the Kabutops Fossil at (3, 7) completes the puzzle sequence. (This action did not trigger a trap, unlike previous attempts).
 
 # V. Hypothesis Log & Strategic Pivots
 
