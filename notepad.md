@@ -10,7 +10,7 @@
 -   **Untestable Hypotheses:**
     -   Set a Clefairy/Clefable as your lead party Pokémon and speak to the scientist standing near the meteorite display. (Reasoning: Cannot reach the scientist in the partitioned eastern section).
 -   **Failed Hypotheses (Consolidated):**
-    -   Interact with the Aerodactyl Fossil at (3,4) and Kabutops Fossil at (3,7), even after triggering the Old Man's new dialogue with Geodude. (Result: Both exhibits remain simple traps that temporarily lock the player. Pressing 'B' escapes. They do not open any new paths.)
+    -   Interact with the Aerodactyl Fossil at (3,4) and Kabutops Fossil at (3,7), both before and after the full 2F puzzle sequence (Scientist dialogue + space exhibit interaction). (Result: Both exhibits consistently act as simple traps that temporarily lock the player. Pressing 'B' escapes. They do not open any new paths.)
     -   Use the Itemfinder on the first floor. (Result: The Itemfinder isn't responding, no items found.)
     -   Interact with the large space shuttle model on 2F of the museum. (Result: Displayed the text "SPACE SHUTTLE COLUMBIA", no other effect.)
     -   Move onto the tile at (3, 3) to interact with the Aerodactyl fossil plaque. (Result: The tile at (3,3) is impassable.)
