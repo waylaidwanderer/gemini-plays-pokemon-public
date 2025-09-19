@@ -5,10 +5,10 @@
 -   **Location:** Pewter Museum of Science.
 -   **Obstacle:** A Scientist at (13, 5) on 1F blocks the path to an item.
 -   **New Hypotheses (from Agent):**
-    1.  **Rank 1:** Interact with the large Space Shuttle Columbia model at (8, 4). (Reasoning: It's a major, unique exhibit that might distract the scientist.)
-    2.  **Rank 3:** Set a Clefairy/Clefable as your lead party Pokémon and speak to the scientist standing near the meteorite display. (Reasoning: Thematic connection to space/moon might trigger new dialogue.)
-    3.  **Rank 4:** Examine the small meteorite display at (8, 6). (Reasoning: Another unique, overlooked exhibit that could hold a clue.)
+    1.  **Rank 3:** Set a Clefairy/Clefable as your lead party Pokémon and speak to the scientist standing near the meteorite display. (Reasoning: Thematic connection to space/moon might trigger new dialogue.)
+    2.  **Rank 4:** Examine the small meteorite display at (8, 6). (Reasoning: Another unique, overlooked exhibit that could hold a clue.)
 -   **Failed Hypotheses (Consolidated):**
+    - Interact with the large Space Shuttle Columbia model at (8, 4). (Result: No text or event triggered.)
     - Give a 'Fresh Water', 'Soda Pop', or 'Lemonade' to the thirsty man in NW Pewter City. (Result: Could not locate the NPC in the specified area.)
     - Examine the exterior rear wall of the museum for a hidden switch. (Result: Interacting with the wall at (6,1) had no effect.)
 -   **Anomalies Investigated (2F Grass Tile):**
