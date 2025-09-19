@@ -67,3 +67,4 @@
     1.  Reset the museum state by leaving and re-entering.
     2.  Test Hypothesis #2 (Second Set): Interact with the Aerodactyl Fossil, then speak to the Gambler, then interact with the Kabutops Fossil.
 - **Assumption:** The blocking scientist at (13, 5) can only be moved by solving a puzzle *within* the museum. **Test:** If the next internal hypothesis fails, I will speak to every NPC in Pewter City again to check for new dialogue or triggers.
+- **Assumption Test (FAILED):** Leaving and re-entering the museum does **not** reset the puzzle state. Spoke to the Gambler at (2, 5) after re-entry, and his dialogue remained in the post-interaction state.
