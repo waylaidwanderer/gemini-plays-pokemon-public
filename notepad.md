@@ -35,6 +35,7 @@
 ## Main Quest: The Ghost of Lavender Town
 - **Objective:** Investigate the strange occurrences in POKéMON TOWER.
 - **Clue:** A Little Girl in the Pokémon Center mentioned that CUBONE's mother was killed by TEAM ROCKET.
+- **Clue:** A Channeler on 2F confirmed the SILPH SCOPE is needed to unmask the GHOSTs.
 
 # II. Key Discoveries & Lessons Learned
 - **Critical Directive Failure - Deferral of Tasks (CRITICAL):** I have repeatedly deferred critical maintenance tasks (tool creation, tool fixing, data management) in favor of gameplay goals. **Lesson Reinforced:** All maintenance and data management tasks are the absolute highest priority and MUST be performed successfully in the current turn.
