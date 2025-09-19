@@ -4,7 +4,7 @@
 -   **Objective:** Retrieve the Old Amber.
 -   **Location:** Pewter Museum of Science.
 -   **Obstacle:** A Scientist at (13, 5) on 1F blocks the path to an item.
--   **Current Investigation:** Systematically interviewing all NPCs in Pewter City after exhausting all internal museum hypotheses.
+-   **Current Investigation:** Brainstorming new hypotheses after exhausting all NPC dialogue in Pewter City.
 
 -   **Confirmed Puzzle Steps:**
     1.  Lead with a Geodude or a revived fossil Pokémon (Omanyte, Aerodactyl) and speak to the Old Man at (2, 5) on 1F.
@@ -24,6 +24,7 @@
     -   Using the Coin Case while facing the Gambler at (2, 5) yielded no new dialogue or event.
     -   Attempting to battle the Gambler at (2, 5) only produces dialogue. (Attempt #1)
     -   Standing at (3, 5) before interacting with the Gambler yields no new dialogue. (Attempt #1)
+    -   Interviewing all NPCs in Pewter City, including those in the Pokémon Center, provided no new clues for the museum puzzle.
 
 ## Active Quest: The Copycat's Gift
 -   **Objective:** Give the POKé DOLL to COPYCAT.
@@ -51,8 +52,6 @@
 - **Battle Strategist:** I must use the `battle_strategist` agent at the very next trainer battle to evaluate its effectiveness.
 
 # VII. Untested Assumptions & Biases
--   **Assumption:** The blocking scientist at (13, 5) in the museum can only be moved by solving a puzzle. **Test:** Actively being tested by interviewing all NPCs in Pewter City.
+-   **Assumption:** The blocking scientist at (13, 5) in the museum can only be moved by solving a puzzle. **Test:** This has been partially disproven by exhausting all external NPC dialogue. The solution is likely internal to the museum or involves an item/Pokemon interaction I haven't considered.
 -   **Assumption:** The Jigglypuff at (2, 4) in the Pewter Pokémon Center is decorative. **Test:** Interact with it.
--   **Assumption:** The Gentleman at (12, 8) and Link Receptionist at (12, 3) in the Pewter Pokémon Center have generic dialogue. **Test:** Interact with both.
--   **Assumption:** The PC at (14, 4) in the Pewter Pokémon Center functions normally. **Test:** Interact with it from (14, 5).
-- The Gentleman at (12, 8) and Link Receptionist at (12, 3) in the Pewter Pokémon Center have generic dialogue and provided no clues for the museum.
+-   **Assumption:** The PC at (14, 4) in the Pewter Pokémon Center functions normally. **Status: Confirmed.** It's a standard PC.
