@@ -68,3 +68,11 @@
 - **Ground:** Standard walkable tile.
 - **Impassable:** Walls and other objects that cannot be walked on or through.
 - **Cuttable:** A tree that can be removed with the HM 'Cut', becoming a 'ground' tile. Respawns after changing maps or blacking out.
+- **Grass:** Tall grass where wild Pokémon can be encountered. Walkable.
+- **Elevated Ground:** Walkable ground at a different elevation, only accessible via `steps` tiles.
+- **Steps:** Allows movement between `ground` and `elevated_ground`.
+- **Teleport:** An instant warp tile within the same location.
+- **Hole:** A warp tile that leads to a lower map area.
+- **Spinner Tiles:** Force movement in a specific direction.
+- **Cleared Boulder Barrier:** A former barrier that is now walkable.
+- **Gate Tiles:** Can be open, closed, or off-screen (state unknown).
