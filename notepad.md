@@ -46,3 +46,14 @@
 # XI. Tool & Agent Improvement Log
 - **pokemon_hunter (FIXED):** The previous implementation was naive and did not account for map boundaries, causing movement failures. The tool has been refactored to accept a rectangular boundary (`x_min`, `x_max`, `y_min`, `y_max`) and a starting position to ensure all generated movements stay within the specified hunting area.
 - **Route 8 Spawning Trees:** Cuttable trees can spontaneously appear on this route, blocking the path and interrupting movement.
+
+# XII. Game Mechanics & World Rules (Structured)
+
+## Tile Traversal Rules
+- **ground, grass, elevated_ground, steps:** Standard walkable tiles.
+- **impassable:** Walls, cannot be entered.
+- **ledge:** One-way downward traversal.
+- **cuttable:** Can be removed with CUT. On Route 8, these can spawn randomly, blocking paths.
+
+## Investigation Notes
+- **Route 8 Spawning Trees:** Need to investigate if there's a specific trigger for the trees spawning, or if it's purely random. This could be related to step count or specific tile interactions.
