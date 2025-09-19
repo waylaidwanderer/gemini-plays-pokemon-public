@@ -1285,12 +1285,17 @@
   "map_data_extractor": {
     "description": "Parses the map_xml_string to extract lists of NPCs, background objects, and items, returning them as a JSON object. This provides structured data for other tools or agents to use for analysis and decision-making.",
     "input_schema": {},
-    "python_script": "import json\nimport xml.etree.ElementTree as ET\n\nroot = ET.fromstring(map_xml_string)\nnpcs = []\nbackground_objects = []\nitems = []\n\nfor tile in root.findall('.//Tile'):\n    obj = tile.find('Object')\n    if obj is not None:\n        obj_info = {\n            'name': obj.get('name') or obj.get('id-name'),\n            'x': int(tile.get('id')),\n            'y': int(tile.find('../..').get('id'))\n        }\n        if obj.get('id-name'):\n            if 'ITEM' in (obj.get('id-name') or '').upper():\n                items.append(obj_info)\n            else:\n                npcs.append(obj_info)\n        else:\n            background_objects.append(obj_info)\n\noutput = {\n    'npcs': npcs,\n    'background_objects': background_objects,\n    'items': items\n}\n\nprint(json.dumps(output))",
+    "python_script": "import json\nimport xml.etree.ElementTree as ET\n\nroot = ET.fromstring(map_xml_string)\nnpcs = []\nbackground_objects = []\nitems = []\n\nfor row in root.findall('Row'):\n    y_coord = int(row.get('id'))\n    for tile in row.findall('Tile'):\n        x_coord = int(tile.get('id'))\n        obj = tile.find('Object')\n        if obj is not None:\n            obj_info = {\n                'name': obj.get('name') or obj.get('id-name'),\n                'x': x_coord,\n                'y': y_coord\n            }\n            if obj.get('id-name'):\n                if 'ITEM' in (obj.get('id-name') or '').upper():\n                    items.append(obj_info)\n                else:\n                    npcs.append(obj_info)\n            else:\n                background_objects.append(obj_info)\n\noutput = {\n    'npcs': npcs,\n    'background_objects': background_objects,\n    'items': items\n}\n\nprint(json.dumps(output))",
     "history": [
       {
         "commit_message": "feat: Create map_data_extractor tool. This tool parses the raw map_xml_string to extract structured lists of NPCs, background objects, and items. This is a critical fix to my workflow, as it allows me to provide agents with clean, pre-processed data instead of raw XML, preventing misuse and hallucinations.",
         "timestamp": "2025-09-19T03:29:59.030Z",
         "action_counter": 224597
+      },
+      {
+        "commit_message": "fix: Correct XML parsing logic. The previous version used an invalid method (`find('../..')`) to get the y-coordinate, causing a `NoneType` error. This commit refactors the script to iterate through each `<Row>` first to correctly capture the `y` coordinate before processing the tiles within, restoring the tool's functionality.",
+        "timestamp": "2025-09-19T03:31:19.769Z",
+        "action_counter": 224601
       }
     ]
   }
