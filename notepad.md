@@ -65,3 +65,4 @@
 1. **Battle the Gambler:** Attempt to initiate a battle with the Gambler at (2, 5). (FAILED - Interaction only produces dialogue.)
 2. **Clean State Interaction:** Speak to the Gambler as the very first action after entering the museum, before touching any fossils.
 3. **Positional Trigger:** Stand at (3, 5) and then interact with the Gambler.
+    - Standing at (3, 5) before interacting with the Gambler yields no new dialogue. (Hypothesis #3 Failed)
