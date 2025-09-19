@@ -55,3 +55,4 @@
 -   **Assumption:** The blocking scientist at (13, 5) in the museum can only be moved by solving a puzzle. **Test:** This has been partially disproven by exhausting all external NPC dialogue. The solution is likely internal to the museum or involves an item/Pokemon interaction I haven't considered.
 -   **Assumption:** The Jigglypuff at (2, 4) in the Pewter Pokémon Center is decorative. **Test:** Interact with it.
 -   **Assumption:** The PC at (14, 4) in the Pewter Pokémon Center functions normally. **Status: Confirmed.** It's a standard PC.
+    - Interacting with the NPC Pikachu at (27, 26) in Pewter City did not move the blocking scientist inside the museum.
