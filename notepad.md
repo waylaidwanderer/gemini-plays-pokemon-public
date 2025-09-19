@@ -19,16 +19,10 @@
     -   Re-checking dialogue with the Old Man at (2, 5) after completing all puzzle steps yields no new dialogue.
     -   After completing the internal museum puzzle sequence, speaking to the Super Nerd at (28, 18) in Pewter City yielded no new dialogue or progress.
 
--   **Current Testable Hypotheses & Plan:**
-    1.  **Meowth Hypothesis:** A Meowth is required to progress the puzzle. (Hypothesis failed after extensive search)
-        -   **Test History:**
-            1.  Hunted for Meowth on Route 7. (Unsuccessful)
-            2.  Hunted for Meowth on Route 5. (Unsuccessful)
-            3.  Hunted for Meowth on Route 6. (Unsuccessful)
-        -   **Conclusion:** The Meowth hypothesis is highly unlikely. Pivoting to generating new hypotheses.
-    2.  Present a revived fossil Pokémon (Omanyte/Kabuto) to the blocking scientist at (13, 5).
-    3.  Present *any* revived fossil (including Aerodactyl) to the blocking scientist.
-    4.  After completing the puzzle sequence, speak to another NPC *outside* the museum in Pewter City to trigger a change.
+-   **Current Plan:**
+    1.  **Conclude Meowth Hypothesis:** The search for Meowth on Routes 5, 6, and 7 has been exhaustive and unsuccessful. This hypothesis is now considered failed.
+    2.  **Return to Pewter Museum:** Travel back to the Pewter Museum of Science to re-evaluate the puzzle.
+    3.  **Generate New Hypotheses:** Use the `puzzle_hypothesis_generator` agent to brainstorm novel solutions for getting past the blocking scientist, using all currently known information and failed attempts as context.
 
 ## Active Quest: The Copycat's Gift
 -   **Objective:** Give the POKé DOLL to COPYCAT.
@@ -53,6 +47,7 @@
 - **impassable:** Walls, cannot be entered.
 - **ledge:** One-way downward traversal.
 - **cuttable:** Can be removed with CUT. On Route 8, these can spawn randomly, blocking paths.
+- **warp:** A tile that transports the player to another location, either on the same map or a different one.
 
 ## Investigation Notes
 - **Route 8 Spawning Trees:** Need to investigate if there's a specific trigger for the trees spawning, or if it's purely random. This could be related to step count or specific tile interactions.
