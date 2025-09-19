@@ -25,6 +25,7 @@
     -   Attempting to battle the Gambler at (2, 5) only produces dialogue. (Attempt #1)
     -   Standing at (3, 5) before interacting with the Gambler yields no new dialogue. (Attempt #1)
     -   Interviewing all NPCs in Pewter City, including those in the Pokémon Center, provided no new clues for the museum puzzle.
+-   Leading with a revived Aerodactyl and speaking to the Super Nerd at (28, 18) in Pewter City changed his dialogue but did not move the blocking scientist.
 
 ## Active Quest: The Copycat's Gift
 -   **Objective:** Give the POKé DOLL to COPYCAT.
