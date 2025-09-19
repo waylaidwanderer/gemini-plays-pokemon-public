@@ -67,3 +67,4 @@
 
 # V. Puzzle Solutions & Completed Steps
 - **Pewter Museum Fossil Puzzle:** Leading with a Geodude triggered new dialogue from the Old Man at (2, 5) on 1F ("That is one magnificent fossil!"). This is a confirmed step in the puzzle solution.
+- **Pewter Museum Space Exhibit Puzzle:** After showing Geodude to the Old Man on 1F, the Scientist at (8, 6) on 2F gives new dialogue: 'We have a space exhibit now.'
