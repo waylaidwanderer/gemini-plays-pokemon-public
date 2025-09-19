@@ -67,3 +67,4 @@
 
 # V. Puzzle Solutions & Completed Steps
 - **Pewter Museum Fossil Puzzle:** Leading with a Geodude triggered new dialogue from the Old Man at (2, 5) on 1F ("That is one magnificent fossil!"). This is a confirmed step in the puzzle solution.
+    - Interact with the Aerodactyl Fossil at (3,4) after the Old Man's new dialogue. (Result: Still a trap. No change.)
