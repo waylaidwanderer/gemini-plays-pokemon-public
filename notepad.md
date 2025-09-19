@@ -71,13 +71,6 @@
 5.  **Hypothesis (Meowth Presentation - PENDING):** Lead with a Meowth and speak to the Gambler at (2, 5).
 6.  **Hypothesis (Trap Sequence - FAILED):** Trigger the Kabutops fossil trap, then interact with the Pikachu. (Result: This sequence only triggered a series of traps and did not move the blocking scientist.)
 
-# VI. World Knowledge & Mechanics
-
-## Tile & Object Interaction Rules
-- **PC Interaction:** The PC is stateful. Interaction must be from an adjacent tile (typically below), not on top of the PC tile itself.
-- **Fossil Trap Tiles (Pewter Museum):** Interacting with the Aerodactyl or Kabutops fossils triggers a trap, moving the player onto an impassable tile and making the NPC Pikachu disappear. This state is escaped by pressing 'B'.
-- **Pikachu Trap (Pewter Museum):** Interacting with the NPC Pikachu after triggering a fossil trap results in a similar trap state, also escaped by pressing 'B'.
-
 # X. Pokemon Locations (Observed)
 
 - *This section will track where different Pokemon species have been found.*
