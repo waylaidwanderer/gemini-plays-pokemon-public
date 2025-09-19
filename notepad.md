@@ -41,14 +41,6 @@
 # IV. Tool & Agent Improvement Log
 - **pokemon_hunter (FIXED):** The previous implementation was naive and did not account for map boundaries, causing movement failures. The tool has been refactored to accept a rectangular boundary (`x_min`, `x_max`, `y_min`, `y_max`) and a starting position to ensure all generated movements stay within the specified hunting area.
 
-# V. Game Mechanics & World Rules (Structured)
-## Tile Traversal Rules
-- **ground, grass, elevated_ground, steps:** Standard walkable tiles.
-- **impassable:** Walls, cannot be entered.
-- **ledge:** One-way downward traversal.
-- **cuttable:** Can be removed with CUT. On Route 8, these can spawn randomly, blocking paths.
-- **warp:** A tile that transports the player to another location, either on the same map or a different one.
-
 # VI. Self-Assessment Reflections
 - **Tool Deferral Failure (CRITICAL - Turn 225424):** I identified a critical failure in my process. I manually handled the spawning trees on Route 8 multiple times before finally creating the `tree_chopper` tool. This deferral of a necessary automation task is a direct violation of my core directives. **Lesson Reinforced:** If a repetitive manual task can be automated, building a tool for it is the highest priority and must be done immediately, not deferred.
 - **Pathfinder Deferral Failure (CRITICAL - Turn 225475):** Identified a major failure in my process. I knew the `automated_path_navigator` was buggy but deferred fixing it for multiple turns to pursue a gameplay goal. **Lesson Reinforced:** Tool maintenance is the absolute highest priority. A broken tool must be fixed *immediately*, before any other action is taken.
