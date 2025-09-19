@@ -69,6 +69,46 @@
 5.  **Hypothesis (Meowth Presentation - PENDING):** Lead with a Meowth and speak to the Gambler at (2, 5).
 6.  **Hypothesis (Trap Sequence - FAILED):** Trigger the Kabutops fossil trap, then interact with the Pikachu. (Result: This sequence only triggered a series of traps and did not move the blocking scientist.)
 
+# II. Game Mechanics & World Rules (Observed)
+
+-   **Battle Menu Anomaly:** The game sometimes restricts move selection to the first slot in wild battles.
+-   **PC Statefulness:** The PC is stateful. Automation tools MUST have a robust reset sequence. Interaction is from an adjacent tile, not on top of the PC tile.
+-   **Pikachu Following Mechanic:** A button press in Pikachu's direction only causes a turn if not already facing that direction.
+-   **Item Usage:** A POKé DOLL guarantees escape from a wild battle.
+
+# III. Key Discoveries & Lessons Learned
+
+-   **IMMEDIATE MAINTENANCE (CRITICAL):** Deferring tool/agent fixes is a critical failure. Maintenance tasks are always the highest priority, above any in-game action.
+-   **Confirmation Bias & Over-Correction (CRITICAL):** My handling of the Rocket Hideout B2F maze was a cascade of cognitive errors. **Lesson:** Do not swing from one bias to another. Trust verifiable data and tool outputs over intuition.
+-   **Hypothesis Testing Failure (Preparation):** Arrived at a location to test a hypothesis without the required Pokémon/items/moves. **Lesson:** Always verify party composition and necessary items/moves *before* traveling.
+-   **Tool Deferral Failure (CRITICAL):** Repeatedly deferred the creation of necessary tools instead of building them immediately. **Lesson Reinforced:** If a repetitive manual task can be automated, or a complex reasoning task can be delegated, building a tool or agent for it is the highest priority.
+-   **Game Corner Entry Failure (CRITICAL):** Became stuck in a loop attempting to enter the Celadon Game Corner while Pikachu blocked a warp tile. **Lesson:** If a specific path or objective is repeatedly blocked, do not persist with the same failed approach. Re-evaluate, check for alternate routes, or pivot to a different high-priority goal.
+
+# IV. Puzzle Solutions & Completed Steps
+
+- **Pewter Museum Fossil Puzzle:** Leading with a Geodude OR a revived fossil Pokémon (Omanyte, Aerodactyl) triggers new dialogue from the Old Man at (2, 5) on 1F. This is a confirmed step in the puzzle solution.
+- **Pewter Museum Space Exhibit Puzzle:** After showing the "key" Pokémon to the Old Man on 1F, the Scientist at (8, 6) on 2F gives new dialogue: 'We have a space exhibit now.'
+- **Pewter Museum Final Step:** After completing the "key" Pokémon and Space Exhibit steps, interacting with the Kabutops Fossil at (3, 7) completes the puzzle sequence. (This action did not trigger a trap, unlike previous attempts).
+
+# V. Hypothesis Log & Strategic Pivots
+
+- **Core Assumption:** The solution to moving the blocking scientist on 1F is located on 2F.
+- **Contingency Plan:** If all 2F hypotheses are exhausted, the next strategic pivot will be to investigate potential puzzle triggers exclusively on 1F, questioning the core assumption.
+
+### Agent-Generated Hypotheses (Testing Phase)
+- **Hypothesis 1 (Untestable):** Speak to the other scientists in a specific order (MUSEUM1F_SCIENTIST2 -> MUSEUM1F_SCIENTIST3 -> MUSEUM1F_SCIENTIST1). (Reason: All three scientists are in unreachable areas.)
+- **Hypothesis 2 (Failed):** Interact with both the AerodactylFossil at (3, 4) and the KabutopsFossil at (3, 7) in immediate succession.
+- **Hypothesis 3 (Failed):** Interact with the `AerodactylFossil` at (3, 4), and then immediately speak to the `MUSEUM1F_GAMBLER` at (2, 5). This changed his dialogue but did not move the blocking scientist.
+- **Hypothesis 4 (Untestable):** Stand directly behind the blocking scientist at (13, 4). (Reason: The area is unreachable.)
+
+### Self-Generated & Post-Assessment Hypotheses
+1.  **Hypothesis (External Trigger - FAILED):** After completing the internal museum puzzle sequence, speaking to the Super Nerd at (28, 18) in Pewter City yielded no new dialogue or progress.
+2.  **Hypothesis (Fossil Presentation - PENDING):** The blocking scientist at (13, 5) on 1F will move if I speak to him while leading with a revived fossil Pokémon (Omanyte or Aerodactyl).
+3.  **Hypothesis (Item Use - FAILED):** Use a drink item on the Pikachu at (12, 8). (Reason: Game mechanics prevent using items on overworld NPCs; it opens the party menu instead.)
+4.  **Hypothesis (Itemfinder - FAILED):** Use the Itemfinder in the area between the fossils. (Result: 'ITEMFINDER isn't responding.')
+5.  **Hypothesis (Meowth Presentation - PENDING):** Lead with a Meowth and speak to the Gambler at (2, 5).
+6.  **Hypothesis (Trap Sequence - FAILED):** Trigger the Kabutops fossil trap, then interact with the Pikachu. (Result: This sequence only triggered a series of traps and did not move the blocking scientist.)
+
 # VI. World Knowledge & Mechanics
 
 ## Tile & Object Interaction Rules
