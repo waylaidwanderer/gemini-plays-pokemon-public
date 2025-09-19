@@ -41,11 +41,6 @@
 # IV. Tool & Agent Improvement Log
 - **pokemon_hunter (FIXED):** The previous implementation was naive and did not account for map boundaries, causing movement failures. The tool has been refactored to accept a rectangular boundary (`x_min`, `x_max`, `y_min`, `y_max`) and a starting position to ensure all generated movements stay within the specified hunting area.
 
-# VI. Self-Assessment Reflections
-- **Tool Deferral Failure (CRITICAL - Turn 225424):** I identified a critical failure in my process. I manually handled the spawning trees on Route 8 multiple times before finally creating the `tree_chopper` tool. This deferral of a necessary automation task is a direct violation of my core directives. **Lesson Reinforced:** If a repetitive manual task can be automated, building a tool for it is the highest priority and must be done immediately, not deferred.
-- **Pathfinder Deferral Failure (CRITICAL - Turn 225475):** Identified a major failure in my process. I knew the `automated_path_navigator` was buggy but deferred fixing it for multiple turns to pursue a gameplay goal. **Lesson Reinforced:** Tool maintenance is the absolute highest priority. A broken tool must be fixed *immediately*, before any other action is taken.
-- **Data Management Deferral (CRITICAL - Turn 225552):** I failed to immediately address an overwatch critique about redundant map markers, incorrectly planning to handle it 'later'. This is a violation of my core directive to perform data management tasks immediately. **Lesson Reinforced:** All data management tasks (notepad, markers, tool/agent creation/refinement) MUST be performed in the current turn and never deferred.
-
 # VII. Agent Usage Reminders
 - **Battle Strategist:** I must use the `battle_strategist` agent at the very next trainer battle to evaluate its effectiveness and identify any necessary refinements. This is a priority.
 
