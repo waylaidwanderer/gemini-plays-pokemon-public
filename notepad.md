@@ -84,4 +84,4 @@
 - *This section will track where different Pokemon species have been found.*
 
 # XI. Tool & Agent Improvement Log
-- **pokemon_hunter:** The current implementation is naive and does not account for map boundaries. This led to a movement failure on Route 3. **To-Do:** Refactor the tool to be context-aware, perhaps by accepting a valid path segment or parsing map data to stay within a defined area.
+- **pokemon_hunter (FIXED):** The previous implementation was naive and did not account for map boundaries, causing movement failures. The tool has been refactored to accept a rectangular boundary (`x_min`, `x_max`, `y_min`, `y_max`) and a starting position to ensure all generated movements stay within the specified hunting area.

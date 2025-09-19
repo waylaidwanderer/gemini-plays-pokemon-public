@@ -1150,20 +1150,26 @@
     ]
   },
   "pokemon_hunter": {
-    "description": "Generates a JSON array of button presses for walking back and forth between two specified coordinates in tall grass to hunt for Pokémon. Must be called with `autopress_buttons: true`.",
+    "description": "Generates a JSON array of button presses for walking back and forth within a specified rectangular area in tall grass to hunt for Pokémon. Must be called with `autopress_buttons: true`.",
     "input_schema": {
       "type": "object",
       "properties": {
-        "x1": {
+        "x_min": {
           "type": "string"
         },
-        "y1": {
+        "x_max": {
           "type": "string"
         },
-        "x2": {
+        "y_min": {
           "type": "string"
         },
-        "y2": {
+        "y_max": {
+          "type": "string"
+        },
+        "start_x": {
+          "type": "string"
+        },
+        "start_y": {
           "type": "string"
         },
         "steps": {
@@ -1171,19 +1177,26 @@
         }
       },
       "required": [
-        "x1",
-        "y1",
-        "x2",
-        "y2",
+        "x_min",
+        "x_max",
+        "y_min",
+        "y_max",
+        "start_x",
+        "start_y",
         "steps"
       ]
     },
-    "python_script": "import json\n\nx1 = int(input_data['x1'])\ny1 = int(input_data['y1'])\nx2 = int(input_data['x2'])\ny2 = int(input_data['y2'])\nsteps = int(input_data['steps'])\n\nbuttons = []\ndx = x2 - x1\ndy = y2 - y1\n\nfor _ in range(steps // 2):\n    if dx > 0: buttons.extend(['Right'] * dx)\n    if dx < 0: buttons.extend(['Left'] * abs(dx))\n    if dy > 0: buttons.extend(['Down'] * dy)\n    if dy < 0: buttons.extend(['Up'] * abs(dy))\n    if dx > 0: buttons.extend(['Left'] * dx)\n    if dx < 0: buttons.extend(['Right'] * abs(dx))\n    if dy > 0: buttons.extend(['Up'] * dy)\n    if dy < 0: buttons.extend(['Down'] * abs(dy))\n\nprint(json.dumps(buttons))",
+    "python_script": "import json\n\nx_min = int(input_data['x_min'])\nx_max = int(input_data['x_max'])\ny_min = int(input_data['y_min'])\ny_max = int(input_data['y_max'])\nstart_x = int(input_data['start_x'])\nstart_y = int(input_data['start_y'])\nsteps = int(input_data['steps'])\n\nbuttons = []\ncurrent_x, current_y = start_x, start_y\ndirection = 1\n\nif x_min != x_max:\n    while len(buttons) < steps:\n        if direction == 1:\n            if current_x < x_max:\n                buttons.append(\"Right\")\n                current_x += 1\n            else:\n                direction = -1\n                buttons.append(\"Left\")\n                current_x -= 1\n        else:\n            if current_x > x_min:\n                buttons.append(\"Left\")\n                current_x -= 1\n            else:\n                direction = 1\n                buttons.append(\"Right\")\n                current_x += 1\nelif y_min != y_max:\n    while len(buttons) < steps:\n        if direction == 1:\n            if current_y < y_max:\n                buttons.append(\"Down\")\n                current_y += 1\n            else:\n                direction = -1\n                buttons.append(\"Up\")\n                current_y -= 1\n        else:\n            if current_y > y_min:\n                buttons.append(\"Up\")\n                current_y -= 1\n            else:\n                direction = 1\n                buttons.append(\"Down\")\n                current_y += 1\n\nprint(json.dumps(buttons))",
     "history": [
       {
         "commit_message": "feat: Create pokemon_hunter tool. This tool automates walking back and forth in tall grass to efficiently hunt for wild Pokémon. This addresses a critical need identified during self-assessment to avoid looping warnings and improve gameplay efficiency.",
         "timestamp": "2025-09-19T07:51:40.412Z",
         "action_counter": 225116
+      },
+      {
+        "commit_message": "fix: Add boundary checking to prevent movement failures. The tool now accepts a rectangular area (x_min, x_max, y_min, y_max) and a starting position to ensure all generated movements stay within the specified hunting zone. This is a critical fix to address a core tool failure.",
+        "timestamp": "2025-09-19T08:17:47.997Z",
+        "action_counter": 225153
       }
     ]
   }
