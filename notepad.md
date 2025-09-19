@@ -10,7 +10,6 @@
 -   **Untestable Hypotheses:**
     -   Set a Clefairy/Clefable as your lead party Pokémon and speak to the scientist standing near the meteorite display. (Reasoning: Cannot reach the scientist in the partitioned eastern section).
 -   **Failed Hypotheses (Consolidated):**
-    -   Interact with the Aerodactyl Fossil at (3,4) and Kabutops Fossil at (3,7), both before and after the full 2F puzzle sequence (Scientist dialogue + space exhibit interaction). (Result: Both exhibits consistently act as simple traps that temporarily lock the player. Pressing 'B' escapes. They do not open any new paths.)
     -   Use the Itemfinder on the first floor. (Result: The Itemfinder isn't responding, no items found.)
     -   Interact with the large space shuttle model on 2F of the museum. (Result: Displayed the text "SPACE SHUTTLE COLUMBIA", no other effect.)
     -   Move onto the tile at (3, 3) to interact with the Aerodactyl fossil plaque. (Result: The tile at (3,3) is impassable.)
@@ -28,7 +27,6 @@
     -   Examine the small meteorite display at (8, 6). (Result: No text or event triggered.)
     -   Interact with the potted plant at (11, 8). (Result: No plant exists at this location; it is a warp tile. Interaction failed.)
     -   Interact with the empty display case at (11, 4). (Result: No interaction or event triggered.)
-    -   Interact with the descriptive plaques for the two large fossils in a specific order (Kabutops then Aerodactyl). (Result: Both are still simple traps; the sequence does not matter.)
     -   Interact with the empty display case at (11, 4) with Geodude in the lead. (Result: No interaction or event triggered.)
     -   Interact with the blocking Scientist at (13, 5) with Geodode in the lead. (Result: Untestable, scientist is behind an impassable wall.)
 -   **Anomalies Investigated (2F Grass Tile):**
@@ -48,7 +46,7 @@
 -   **PC Statefulness:** The PC is stateful. Automation tools MUST have a reset sequence.
 -   **Pikachu Following Mechanic:** A button press in Pikachu's direction only causes a turn if not already facing that direction.
 -   **Trap Mechanics:**
-    -   **Pewter Museum:** Interacting with fossil exhibits or Pikachu after cutting the tree at (27, 5) can trigger a lock. Pressing 'B' escapes.
+    -   **Pewter Museum:** Interacting with the Aerodactyl fossil exhibit at (3,4) consistently acts as a simple trap that temporarily locks the player. Pressing 'B' escapes.
 -   **Item Usage:**
     -   A POKé DOLL guarantees escape from a wild battle.
 - **Pewter Museum Fee Trigger:** The entrance fee tile at (10, 5) can be re-triggered even after entering the museum.
@@ -68,3 +66,4 @@
 # V. Puzzle Solutions & Completed Steps
 - **Pewter Museum Fossil Puzzle:** Leading with a Geodude triggered new dialogue from the Old Man at (2, 5) on 1F ("That is one magnificent fossil!"). This is a confirmed step in the puzzle solution.
 - **Pewter Museum Space Exhibit Puzzle:** After showing Geodude to the Old Man on 1F, the Scientist at (8, 6) on 2F gives new dialogue: 'We have a space exhibit now.'
+- **Pewter Museum Final Step:** After completing the Geodude and Space Exhibit steps, interacting with the Kabutops Fossil at (3, 7) completes the puzzle sequence. (This action did not trigger a trap, unlike previous attempts).
