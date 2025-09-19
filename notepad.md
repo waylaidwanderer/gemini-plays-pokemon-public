@@ -5,28 +5,18 @@
 -   **Location:** Pewter Museum of Science.
 -   **Obstacle:** A Scientist at (13, 5) on 1F blocks the path to an item.
 
--   **Active Hypothesis:** Repeating the full puzzle sequence with a revived Aerodactyl in the lead will move the blocking scientist.
--   **Failed Hypotheses (Consolidated):**
+-   **Consolidated Failed Hypotheses:**
+    -   **Full Puzzle Sequence:** Solving the full puzzle sequence (Key Pokémon to Old Man -> 2F Scientist dialogue -> Space Shuttle -> Kabutops Fossil) with Geodude, Omanyte, or Aerodactyl in the lead does not move the blocking scientist.
+    -   **Pikachu Interaction:** Triggering the Aerodactyl fossil trap and then immediately interacting with the Pikachu at (4, 5) does not move the blocking scientist.
 
-    
-    
-    -   **Puzzle Sequence Hypotheses:**
-        -   **With Geodude:** Solving the full puzzle sequence (Geodude to Old Man -> 2F Scientist dialogue -> Space Shuttle -> Kabutops Fossil) would move the blocking scientist. (Result: Sequence completed, scientist did not move.)
-        -   **With Omanyte:** Repeating the full puzzle sequence with a revived fossil Pokémon (Omanyte) in the lead would move the blocking scientist. (Result: Sequence completed, scientist did not move.)
-        -   **With Aerodactyl:** Repeating the full puzzle sequence with a revived fossil Pokémon (Aerodactyl) in the lead would move the blocking scientist. (Result: Sequence completed, scientist did not move.)
--   **Next Testable Hypothesis:** After showing a 'key' Pokémon to the Old Man, the puzzle sequence steps might be completable out of order (e.g., interacting with the Kabutops fossil immediately).
+-   **Next Testable Hypotheses:**
+    1.  Interact with both the AerodactylFossil at (3, 4) and the KabutopsFossil at (3, 7) in immediate succession.
+    2.  After showing a 'key' Pokémon to the Old Man, the puzzle sequence steps might be completable out of order (e.g., interacting with the Kabutops fossil immediately).
 
-    
-    
-    -   **Puzzle Sequence Hypotheses:**
-        -   **With Geodude:** Solving the full puzzle sequence (Geodude to Old Man -> 2F Scientist dialogue -> Space Shuttle -> Kabutops Fossil) would move the blocking scientist. (Result: Sequence completed, scientist did not move.)
-        -   **With Omanyte:** Repeating the full puzzle sequence with a revived fossil Pokémon (Omanyte) in the lead would move the blocking scientist. (Result: Sequence completed, scientist did not move.)
-
--   **Anomalies Investigated (2F Grass Tile):**
-    -   The single `grass` tile at (12, 2) on 2F is inaccessible from the main area. **Conclusion:** This is likely an exit point from a hidden area on 1F, not an entrance.
--   **Invalidated Hypotheses:**
-    -   Go behind the main counter on 1F: The tiles behind the counter are marked as impassable. (Verified by map data).
-    -   Use 'Cut' on the east-side tree (before event): The path to the tree is physically blocked by the impassable museum building itself. (Verified by pathfinder).
+-   **Anomalies & Invalidated Paths:**
+    -   The single `grass` tile at (12, 2) on 2F is inaccessible from the main area. **Conclusion:** Likely an exit from a hidden area on 1F.
+    -   Path behind the main counter on 1F is blocked by impassable tiles.
+    -   Path to the east-side 'Cut' tree is blocked by the museum building.
 
 ## Active Quest: The Copycat's Gift
 -   **Objective:** Give the POKé DOLL to COPYCAT.
