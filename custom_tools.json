@@ -1132,81 +1132,6 @@
       }
     ]
   },
-  "item_menu_navigator": {
-    "description": "Automates selecting a specific item from the inventory menu, including scrolling up or down. Takes an item name, the full screen text of the item menu, and a JSON string of the full inventory list as input. Returns a JSON array of button presses. Must be called with `autopress_buttons: true`.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "item_name": {
-          "type": "string"
-        },
-        "screen_text": {
-          "type": "string"
-        },
-        "inventory_list_json": {
-          "type": "string"
-        }
-      },
-      "required": [
-        "item_name",
-        "screen_text",
-        "inventory_list_json"
-      ]
-    },
-    "python_script": "import json\nimport re\nimport sys\n\ntry:\n    item_name_to_find = input_data['item_name']\n    screen_text = input_data['screen_text']\n    inventory_list_json = input_data['inventory_list_json']\n    \n    full_inventory = json.loads(inventory_list_json)\n    \n    full_inventory_names = [re.split(r'\\s*x\\d+', item)[0].strip() for item in full_inventory]\n\n    try:\n        target_index = full_inventory_names.index(item_name_to_find)\n    except ValueError:\n        print(json.dumps([]))\n        sys.exit()\n\n    lines = screen_text.strip().split('\\n')\n    current_item_name = ''\n    \n    for line in lines:\n        if '→' in line:\n            current_item_name = line.replace('→', '').strip().split('×')[0].strip()\n            break\n            \n    if not current_item_name:\n        print(json.dumps([]))\n        sys.exit()\n\n    try:\n        current_index = full_inventory_names.index(current_item_name)\n    except ValueError:\n        print(json.dumps([]))\n        sys.exit()\n\n    moves = []\n    diff = target_index - current_index\n    \n    if diff > 0:\n        for _ in range(diff):\n            moves.append('Down')\n    elif diff < 0:\n        for _ in range(abs(diff)):\n            moves.append('Up')\n            \n    moves.append('A')\n    \n    print(json.dumps(moves))\n\nexcept Exception as e:\n    print(json.dumps([]))",
-    "history": [
-      {
-        "commit_message": "feat: Create item_menu_navigator tool. This tool automates item selection from the inventory, addressing a critical efficiency issue identified by overwatch. It parses screen text to locate the target item and calculates the necessary button presses.",
-        "timestamp": "2025-09-17T22:38:29.396Z",
-        "action_counter": 221701
-      },
-      {
-        "commit_message": "fix: Improve item matching logic. The previous version used a regex that could fail unexpectedly. This commit replaces it with a simpler and more robust `in` check on the uppercase string, preventing silent failures where the tool would return no output. This is a critical fix for reliable menu automation.",
-        "timestamp": "2025-09-17T23:02:58.571Z",
-        "action_counter": 221737
-      },
-      {
-        "commit_message": "feat: Create item_menu_navigator tool. This tool automates item selection from the inventory, addressing a critical efficiency issue identified by overwatch. It parses screen text to locate the target item and calculates the necessary button presses.",
-        "timestamp": "2025-09-17T23:57:20.019Z",
-        "action_counter": 221851
-      },
-      {
-        "commit_message": "fix: Overhaul parsing logic to correctly handle all item types. The previous version failed to parse items without a quantity (e.g., TOWN MAP) because it required a quantity marker ('x') to identify the start of the item list. This commit removes that flawed dependency and implements a more robust parsing method that correctly identifies and extracts all items, regardless of whether they have a quantity. This is a critical fix for reliable menu automation.",
-        "timestamp": "2025-09-18T06:38:33.773Z",
-        "action_counter": 222529
-      },
-      {
-        "commit_message": "fix: Overhaul parsing logic to correctly handle all item types. The previous version failed to parse items without a quantity (e.g., TOWN MAP) because it required a quantity marker ('x') to identify the start of the item list. This commit removes that flawed dependency and implements a more robust parsing method that correctly identifies and extracts all items, regardless of whether they have a quantity. This is a critical fix for reliable menu automation.",
-        "timestamp": "2025-09-18T07:12:07.900Z",
-        "action_counter": 222548
-      },
-      {
-        "commit_message": "fix: Add 'A' press to finalize item selection. The tool previously navigated to the correct item but failed to select it, requiring a manual 'A' press in the following turn. This commit adds the final 'A' to the button sequence, making the tool fully autonomous and fixing a critical usability flaw.",
-        "timestamp": "2025-09-18T16:08:03.461Z",
-        "action_counter": 223169
-      },
-      {
-        "commit_message": "fix: Add 'A' press to finalize item selection. The tool previously navigated to the correct item but failed to select it, requiring a manual 'A' press in the following turn. This commit adds the final 'A' to the button sequence, making the tool fully autonomous and fixing a critical usability flaw.",
-        "timestamp": "2025-09-18T16:09:10.388Z",
-        "action_counter": 223170
-      },
-      {
-        "commit_message": "fix: Add 'A' press to finalize item selection. The tool previously navigated to the correct item but failed to select it, requiring a manual 'A' press in the following turn. This commit adds the final 'A' to the button sequence, making the tool fully autonomous and fixing a critical usability flaw.",
-        "timestamp": "2025-09-18T16:32:15.587Z",
-        "action_counter": 223220
-      },
-      {
-        "commit_message": "feat: Add basic scrolling logic. The tool now attempts to scroll down if the target item is not found on the current screen and a scroll indicator is present. This is a heuristic-based approach and may require further refinement for multi-page scrolling, but it's a critical first step to address the tool's failure to find items off-screen.",
-        "timestamp": "2025-09-18T20:19:04.285Z",
-        "action_counter": 223682
-      },
-      {
-        "commit_message": "feat: Add inventory list argument and up/down scrolling. The tool previously failed when the target item was off-screen above the cursor. This commit adds a new `inventory_list_json` parameter to provide the full item order. The script now calculates the difference between the current and target item indices to generate the correct number of 'Up' or 'Down' presses. This is a critical fix for reliable menu automation.",
-        "timestamp": "2025-09-19T00:02:14.802Z",
-        "action_counter": 224133
-      }
-    ]
-  },
   "pc_navigator": {
     "description": "Automates PC interactions. Starts with a reset sequence to handle the PC's statefulness. Takes an action ('deposit' or 'withdraw') and a party slot or Pokémon name as input.",
     "input_schema": {
@@ -1354,6 +1279,40 @@
         "commit_message": "fix: Overhaul parsing logic to prevent TypeError. The previous version failed to correctly parse Pokémon names and cursor position from the party screen, leading to a `NoneType` error during calculations. This commit introduces a more robust line-by-line parsing method to reliably extract party members and the cursor's location. This is a critical fix to restore the tool's core functionality.",
         "timestamp": "2025-09-19T02:08:27.336Z",
         "action_counter": 224429
+      }
+    ]
+  },
+  "route_planner_tool": {
+    "description": "Analyzes a map to plan a high-level, multi-step route between two points, avoiding large-scale obstacles like buildings or impassable zones. It outputs a JSON object containing a list of intermediate coordinates (waypoints) for the `automated_path_navigator` tool to follow.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "start_x": {
+          "type": "string"
+        },
+        "start_y": {
+          "type": "string"
+        },
+        "end_x": {
+          "type": "string"
+        },
+        "end_y": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "start_x",
+        "start_y",
+        "end_x",
+        "end_y"
+      ]
+    },
+    "python_script": "import json\nimport collections\nimport xml.etree.ElementTree as ET\n\ndef plan_route():\n    start_x = int(input_data['start_x'])\n    start_y = int(input_data['start_y'])\n    end_x = int(input_data['end_x'])\n    end_y = int(input_data['end_y'])\n\n    root = ET.fromstring(map_xml_string)\n    map_width = int(root.get('width'))\n    map_height = int(root.get('height'))\n    grid = [[0] * map_width for _ in range(map_height)]\n\n    traversable_types = {'ground', 'grass', 'ledge'}\n\n    for r_idx, row in enumerate(root.findall('Row')):\n        for t_idx, tile in enumerate(row.findall('Tile')):\n            tile_type = tile.get('type')\n            has_object = tile.get('has-object') == 'true'\n            obj = tile.find('Object')\n            is_pikachu = obj is not None and (obj.get('id-name') or '').upper() == 'PIKACHU'\n            \n            if tile_type in traversable_types and (not has_object or is_pikachu):\n                grid[r_idx][t_idx] = 1 # Traversable\n            else:\n                grid[r_idx][t_idx] = 0 # Obstacle\n\n    def is_valid(x, y):\n        return 0 <= x < map_width and 0 <= y < map_height and grid[y][x] == 1\n\n    # A* algorithm implementation\n    start_node = (start_y - 1, start_x - 1)\n    end_node = (end_y - 1, end_x - 1)\n    \n    open_set = {start_node}\n    came_from = {}\n    g_score = {start_node: 0}\n    f_score = {start_node: abs(start_node[0] - end_node[0]) + abs(start_node[1] - end_node[1])}\n\n    while open_set:\n        current = min(open_set, key=lambda o: f_score.get(o, float('inf')))\n        \n        if current == end_node:\n            path = []\n            while current in came_from:\n                path.append({'x': current[1] + 1, 'y': current[0] + 1})\n                current = came_from[current]\n            path.append({'x': start_x, 'y': start_y})\n            path.reverse()\n            \n            # Simplify path to waypoints\n            if len(path) > 2:\n                waypoints = [path[0]]\n                for i in range(1, len(path) - 1):\n                    p1 = path[i-1]\n                    p2 = path[i]\n                    p3 = path[i+1]\n                    # Check for change in direction\n                    if (p2['x'] - p1['x']) != (p3['x'] - p2['x']) or (p2['y'] - p1['y']) != (p3['y'] - p2['y']):\n                        waypoints.append(p2)\n                waypoints.append(path[-1])\n            else:\n                waypoints = path\n\n            print(json.dumps({'waypoints': waypoints}))\n            return\n\n        open_set.remove(current)\n        \n        for dy, dx in [(0,1), (0,-1), (1,0), (-1,0)]:\n            neighbor = (current[0] + dy, current[1] + dx)\n            if not (0 <= neighbor[0] < map_height and 0 <= neighbor[1] < map_width):\n                continue\n            if grid[neighbor[0]][neighbor[1]] == 0:\n                continue\n\n            tentative_g_score = g_score[current] + 1\n            if tentative_g_score < g_score.get(neighbor, float('inf')):\n                came_from[neighbor] = current\n                g_score[neighbor] = tentative_g_score\n                f_score[neighbor] = tentative_g_score + abs(neighbor[0] - end_node[0]) + abs(neighbor[1] - end_node[1])\n                if neighbor not in open_set:\n                    open_set.add(neighbor)\n\n    print(json.dumps({'waypoints': []})) # No path found\n\nplan_route()",
+    "history": [
+      {
+        "commit_message": "feat: Create high-level route planner tool. This tool analyzes the map to generate a sequence of waypoints that avoid major obstacles like buildings and impassable zones. It addresses the repeated failures of the `automated_path_navigator` by providing a strategic, multi-step plan for complex navigation, which is a direct response to a critical overwatch critique. This will prevent me from getting stuck trying to brute-force impossible paths.",
+        "timestamp": "2025-09-19T02:47:28.476Z",
+        "action_counter": 224505
       }
     ]
   }
