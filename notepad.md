@@ -20,12 +20,12 @@
     -   After completing the internal museum puzzle sequence, speaking to the Super Nerd at (28, 18) in Pewter City yielded no new dialogue or progress.
 
 -   **Current Testable Hypotheses & Plan:**
-    1.  **Meowth Hypothesis:** A Meowth is required to progress the puzzle.
-        -   **Test Plan:**
-            1.  ~~Hunt for Meowth on Route 7.~~ (Completed, unsuccessful)
-            2.  Hunt for Meowth on Route 5.
-            3.  If unsuccessful, hunt on Route 6.
-            4.  If no Meowth is found, this hypothesis will be considered unlikely. I will then use the `puzzle_hypothesis_generator` to generate new ideas.
+    1.  **Meowth Hypothesis:** A Meowth is required to progress the puzzle. (Hypothesis failed after extensive search)
+        -   **Test History:**
+            1.  Hunted for Meowth on Route 7. (Unsuccessful)
+            2.  Hunted for Meowth on Route 5. (Unsuccessful)
+            3.  Hunted for Meowth on Route 6. (Unsuccessful)
+        -   **Conclusion:** The Meowth hypothesis is highly unlikely. Pivoting to generating new hypotheses.
     2.  Present a revived fossil Pokémon (Omanyte/Kabuto) to the blocking scientist at (13, 5).
     3.  Present *any* revived fossil (including Aerodactyl) to the blocking scientist.
     4.  After completing the puzzle sequence, speak to another NPC *outside* the museum in Pewter City to trigger a change.
