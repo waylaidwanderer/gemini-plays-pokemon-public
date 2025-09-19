@@ -1103,28 +1103,6 @@
       }
     ]
   },
-  "fly_navigator": {
-    "description": "Automates using the Fly HM to travel to a specified city. It handles all menu navigation and returns a JSON array of button presses. Must be called with `autopress_buttons: true`.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "target_city": {
-          "type": "string"
-        }
-      },
-      "required": [
-        "target_city"
-      ]
-    },
-    "python_script": "import json\n\ntarget_city_upper = input_data['target_city'].upper()\nbuttons = []\n\n# Open menu, navigate to 6th Pokemon (ECHO), select Fly\nbuttons.extend(['Start', 'A', 'Down', 'Down', 'Down', 'Down', 'Down', 'A', 'A'])\n\n# This is a flawed implementation that assumes the menu starts at Pallet Town.\n# It will be refined later to use screen text parsing for accuracy.\nfly_order = [\n    \"PALLET TOWN\", \"VIRIDIAN CITY\", \"PEWTER CITY\", \"CERULEAN CITY\", \n    \"LAVENDER TOWN\", \"VERMILION CITY\", \"CELADON CITY\", \"FUCSHIA CITY\", \n    \"CINNABAR ISLAND\", \"INDIGO PLATEAU\", \"SAFFRON CITY\"\n]\n\ntry:\n    target_index = fly_order.index(target_city_upper)\n    for _ in range(target_index):\n        buttons.append('Down')\n    \n    # Select the city\n    buttons.append('A')\n    print(json.dumps(buttons))\nexcept ValueError:\n    print(json.dumps({\"error\": f\"City '{input_data['target_city']}' not found in fly map.\"}))",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2025-09-19T18:15:20.521Z",
-        "action_counter": 226297
-      }
-    ]
-  },
   "select_battle_move": {
     "description": "Automates selecting a move from the battle menu by its slot number (1-4). Assumes a vertical list and cursor starting at slot 1. Returns button presses. Must be called with `autopress_buttons: true`.",
     "input_schema": {

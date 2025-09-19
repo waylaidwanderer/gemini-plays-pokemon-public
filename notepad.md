@@ -52,6 +52,12 @@
 - **steps:** Allows movement between 'ground' and 'elevated_ground' tiles.
 - **elevated_ground:** Walkable ground at a different elevation, accessible only via 'steps' or warps.
 - **warp:** A tile that teleports the player to another location (e.g., doors, stairs, cave entrances).
+- **teleport:** Instant warp tile within the same logical location.
+- **hole:** Warp tile leading to a lower map area.
+- **cleared_boulder_barrier:** Former barrier, now acts as 'ground'.
+- **open_gate:** A previously closed gate that is now open.
+- **gate_offscreen:** A gate whose state is unknown.
+- **spinner_stop:** Tile that stops spinner movement.
 
 # V. Pokemon Locations (Observed)
 - **Route 8:** Growlithe, Abra, Pidgey, Rattata, Jigglypuff, Vulpix
