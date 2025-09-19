@@ -4,10 +4,9 @@
 -   **Objective:** Retrieve the Old Amber.
 -   **Location:** Pewter Museum of Science.
 -   **Obstacle:** A Scientist at (13, 5) on 1F blocks the path to an item.
--   **New Hypotheses (from Agent):**
-    1.  **Rank 1:** Place a revived Omanyte or Kabuto in the first slot of your party and speak to the blocking scientist at (13, 5).
-    2.  **Rank 2:** Read the descriptive plaque on the wall directly in front of the Aerodactyl fossil display at (3, 3).
-    3.  **Rank 3:** Interact with the potted plant at (11, 8) in the southeastern corner of the main room, checking for a hidden switch.
+-   **Remaining Hypotheses (from Agent):**
+    1.  **Rank 3:** Place a Jigglypuff in the first slot of your party and interact with the blocking Scientist at (13, 5).
+    2.  **Rank 4:** Place a Geodude or Onix in the first slot of your party and interact with the blocking Scientist at (13, 5).
 -   **Untestable Hypotheses:**
     -   Set a Clefairy/Clefable as your lead party Pokémon and speak to the scientist standing near the meteorite display. (Reasoning: Cannot reach the scientist in the partitioned eastern section).
 -   **Failed Hypotheses (Consolidated):**
@@ -27,6 +26,9 @@
     -   Examine the exterior rear wall of the museum for a hidden switch. (Result: Interacting with the wall at (6,1) had no effect.)
     -   Interact with the large Space Shuttle Columbia model at (8, 4). (Result: No text or event triggered.)
     -   Examine the small meteorite display at (8, 6). (Result: No text or event triggered.)
+    -   Interact with the potted plant at (11, 8). (Result: No plant exists at this location; it is a warp tile. Interaction failed.)
+    -   Interact with the empty display case at (11, 4). (Result: No interaction or event triggered.)
+    -   Interact with the descriptive plaques for the two large fossils in a specific order (Kabutops then Aerodactyl). (Result: Both are still simple traps; the sequence does not matter.)
 -   **Anomalies Investigated (2F Grass Tile):**
     -   The single `grass` tile at (12, 2) on 2F is inaccessible from the main area. **Conclusion:** This is likely an exit point from a hidden area on 1F, not an entrance.
 -   **Invalidated Hypotheses:**
@@ -49,6 +51,10 @@
     -   A POKé DOLL guarantees escape from a wild battle.
 - **Pewter Museum Fee Trigger:** The entrance fee tile at (10, 5) can be re-triggered even after entering the museum.
 
+# III. Tile Traversal & Movement Rules
+- **PC Interaction:** Must be activated from the tile directly below (Y+1), while facing up.
+- **Ledges:** Can only be jumped down (from Y-1 to Y+2 in one move). Impassable from all other directions.
+
 # IV. Key Discoveries & Lessons Learned
 
 -   **Confirmation Bias & Over-Correction (CRITICAL):** My handling of the Rocket Hideout B2F maze was a cascade of cognitive errors. **Lesson:** Do not swing from one bias to another. Trust verifiable data and tool outputs over intuition.
@@ -56,9 +62,3 @@
 -   **Pikachu Following Mechanic (CRITICAL CLARIFICATION):** A button press in Pikachu's direction will only cause a turn *if the player is not already facing that direction*. Pathfinding tools must account for this.
 -   **Tool Deferral Failure (CRITICAL):** Repeatedly deferred the creation of necessary tools instead of building them immediately. **Lesson Reinforced:** If a repetitive manual task can be automated, or a complex reasoning task can be delegated, building a tool or agent for it is the highest priority.
 -   **Game Corner Entry Failure (CRITICAL):** Became stuck in a loop attempting to enter the Celadon Game Corner while Pikachu blocked a warp tile. **Lesson:** If a specific path or objective is repeatedly blocked, do not persist with the same failed approach. Re-evaluate, check for alternate routes, or pivot to a different high-priority goal.
-
-# III. Tile Traversal & Movement Rules
-- **PC Interaction:** Must be activated from the tile directly below (Y+1), while facing up.
-- **Ledges:** Can only be jumped down (from Y-1 to Y+2 in one move). Impassable from all other directions.
-    - Interact with the potted plant at (11, 8). (Result: No plant exists at this location; it is a warp tile. Interaction failed.)
-    -   Interact with the empty display case at (11, 4). (Result: No interaction or event triggered.)
