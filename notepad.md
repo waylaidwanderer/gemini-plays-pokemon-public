@@ -61,3 +61,4 @@
 - **PC Interaction:** Must be activated from the tile directly below (Y+1), while facing up.
 - **Ledges:** Can only be jumped down (from Y-1 to Y+2 in one move). Impassable from all other directions.
     - Interact with the potted plant at (11, 8). (Result: No plant exists at this location; it is a warp tile. Interaction failed.)
+    -   Interact with the empty display case at (11, 4). (Result: No interaction or event triggered.)
