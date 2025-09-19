@@ -1128,7 +1128,7 @@
     ]
   },
   "item_menu_navigator": {
-    "description": "Automates selecting a specific item from the inventory menu. Takes an item name and the full screen text of the item menu as input, and returns a JSON array of button presses. Must be called with `autopress_buttons: true`.",
+    "description": "Automates selecting a specific item from the inventory menu, including scrolling up or down. Takes an item name, the full screen text of the item menu, and a JSON string of the full inventory list as input. Returns a JSON array of button presses. Must be called with `autopress_buttons: true`.",
     "input_schema": {
       "type": "object",
       "properties": {
@@ -1137,14 +1137,18 @@
         },
         "screen_text": {
           "type": "string"
+        },
+        "inventory_list_json": {
+          "type": "string"
         }
       },
       "required": [
         "item_name",
-        "screen_text"
+        "screen_text",
+        "inventory_list_json"
       ]
     },
-    "python_script": "import json\nimport re\n\ndef navigate_item_menu():\n    item_name = input_data['item_name'].upper()\n    screen_text = input_data['screen_text']\n    lines = screen_text.split('\\n')\n    \n    items = []\n    cursor_pos = -1\n    in_item_list = False\n    for i, line in enumerate(lines):\n        if 'EXIT' in line:\n            in_item_list = True\n            continue\n        if not in_item_list:\n            continue\n\n        cleaned_line = line.strip()\n        if cleaned_line.startswith('→'):\n            cursor_pos = len(items)\n            cleaned_line = cleaned_line.replace('→', '').strip()\n\n        # Extract item name, removing quantity\n        match = re.match(r'([A-Z\\s\\.]+)', cleaned_line)\n        if match:\n            items.append(match.group(1).strip())\n\n    if not items:\n        print(json.dumps([]))\n        return\n\n    if cursor_pos == -1: # Default to first item if no cursor found\n        cursor_pos = 0\n\n    target_index = -1\n    for i, item in enumerate(items):\n        if item_name in item:\n            target_index = i\n            break\n\n    if target_index == -1:\n        # Handle scrolling if item is not visible\n        if '↓' in screen_text:\n            # Assume we need to scroll. Press Down to check next page.\n            print(json.dumps(['Down']))\n        else:\n            print(json.dumps([])) # Item not found, and no scroll down option\n        return\n\n    moves = []\n    # Simplified logic: assume 4 items per page view for scrolling\n    # This is a heuristic and might need refinement.\n    num_items_on_screen = len(items)\n    \n    # Calculate vertical moves\n    delta = target_index - cursor_pos\n    if delta > 0:\n        moves.extend(['Down'] * delta)\n    elif delta < 0:\n        moves.extend(['Up'] * abs(delta))\n\n    moves.append('A')\n    print(json.dumps(moves))\n\nnavigate_item_menu()",
+    "python_script": "import json\nimport re\nimport sys\n\ntry:\n    item_name_to_find = input_data['item_name']\n    screen_text = input_data['screen_text']\n    inventory_list_json = input_data['inventory_list_json']\n    \n    full_inventory = json.loads(inventory_list_json)\n    \n    full_inventory_names = [re.split(r'\\s*x\\d+', item)[0].strip() for item in full_inventory]\n\n    try:\n        target_index = full_inventory_names.index(item_name_to_find)\n    except ValueError:\n        print(json.dumps([]))\n        sys.exit()\n\n    lines = screen_text.strip().split('\\n')\n    current_item_name = ''\n    \n    for line in lines:\n        if '→' in line:\n            current_item_name = line.replace('→', '').strip().split('×')[0].strip()\n            break\n            \n    if not current_item_name:\n        print(json.dumps([]))\n        sys.exit()\n\n    try:\n        current_index = full_inventory_names.index(current_item_name)\n    except ValueError:\n        print(json.dumps([]))\n        sys.exit()\n\n    moves = []\n    diff = target_index - current_index\n    \n    if diff > 0:\n        for _ in range(diff):\n            moves.append('Down')\n    elif diff < 0:\n        for _ in range(abs(diff)):\n            moves.append('Up')\n            \n    moves.append('A')\n    \n    print(json.dumps(moves))\n\nexcept Exception as e:\n    print(json.dumps([]))",
     "history": [
       {
         "commit_message": "feat: Create item_menu_navigator tool. This tool automates item selection from the inventory, addressing a critical efficiency issue identified by overwatch. It parses screen text to locate the target item and calculates the necessary button presses.",
@@ -1190,6 +1194,11 @@
         "commit_message": "feat: Add basic scrolling logic. The tool now attempts to scroll down if the target item is not found on the current screen and a scroll indicator is present. This is a heuristic-based approach and may require further refinement for multi-page scrolling, but it's a critical first step to address the tool's failure to find items off-screen.",
         "timestamp": "2025-09-18T20:19:04.285Z",
         "action_counter": 223682
+      },
+      {
+        "commit_message": "feat: Add inventory list argument and up/down scrolling. The tool previously failed when the target item was off-screen above the cursor. This commit adds a new `inventory_list_json` parameter to provide the full item order. The script now calculates the difference between the current and target item indices to generate the correct number of 'Up' or 'Down' presses. This is a critical fix for reliable menu automation.",
+        "timestamp": "2025-09-19T00:02:14.802Z",
+        "action_counter": 224133
       }
     ]
   },

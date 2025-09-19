@@ -10,21 +10,19 @@
 -   **Failed Hypotheses (Consolidated):**
     - Give a 'Fresh Water', 'Soda Pop', or 'Lemonade' to the thirsty man in NW Pewter City. (Result: Could not locate the NPC in the specified area.)
     - Examine the exterior rear wall of the museum for a hidden switch. (Result: Interacting with the wall at (6,1) had no effect.)
--   **Contingency Plans:**
-    - If all other hypotheses fail, use the Itemfinder on both floors of the museum to search for hidden items, including the Old Amber itself.
 -   **Anomalies Investigated (2F Grass Tile):**
     - The single `grass` tile at (12, 2) on 2F is inaccessible from the main area. **Conclusion:** This is likely an exit point from a hidden area on 1F, not an entrance.
 -   **Invalidated Hypotheses:**
     - Go behind the main counter on 1F: The tiles behind the counter are marked as impassable. (Verified by map data).
     - Use 'Cut' on the east-side tree (before event): The path to the tree is physically blocked by the impassable museum building itself. (Verified by pathfinder).
 -   **Failed Hypotheses (Consolidated):**
+    - Interact with the Aerodactyl Fossil at (3,4) and Kabutops Fossil at (3,7). (Result: Both exhibits are simple traps that temporarily lock the player. Pressing 'B' escapes. They do not open any new paths.)
+    - Use the Itemfinder on the first floor. (Result: The Itemfinder isn't responding, no items found.)
     - Interact with the large space shuttle model on 2F of the museum. (Result: Displayed the text "SPACE SHUTTLE COLUMBIA", no other effect.)
     - Place a Clefairy/Clefable in the first party slot and speak to the scientist near the Moon Stone display on 2F. (Result: No change in dialogue.)
     - Attempt to ride the Bicycle indoors on the first floor. (Result: Professor Oak's dialogue prevents use.)
-    - After talking to the scientist on the 2nd floor next to the Aerodactyl fossil, interact with the fossil display itself. (Result: No change, triggered standard trap.)
     - Use the 'POKé DOLL' item while standing next to the barrier in front of the Scientist. (Result: Professor Oak's dialogue prevents use.)
     - Use a Pokémon with the move 'Dig' in front of the scientist. (Result: Warped out of the museum, similar to an Escape Rope).
-    - Use the Itemfinder on the first floor, specifically in front of the large space shuttle exhibit. (Result: The exhibit is on 2F, but using Itemfinder on 1F yielded nothing.)
     - Use a Poké Doll on the blocking Scientist at (13, 5). (Result: Untestable, path is blocked)
     - Interact with the large Moon Stone display on the 2nd floor. (Result: No change)
     - Talk to the Youngster at (2, 8) on 2F, then return to the blocking Scientist on 1F. (Result: No change)
