@@ -13,6 +13,7 @@
 -   **Consolidated Failed Hypotheses:**
     -   Solving the full puzzle sequence with Geodude, Omanyte, or Aerodactyl in the lead does not move the blocking scientist.
     -   Triggering the Aerodactyl fossil trap and then immediately interacting with the Pikachu at (4, 5) does not move the blocking scientist.
+-   Interacting with the Aerodactyl Fossil at (3, 4) and then immediately speaking to the Old Man at (2, 5) changes his dialogue but does not move the blocking scientist.
     -   Interacting with the Aerodactyl & Kabutops Fossils in immediate succession does not move the blocking scientist; both simply trigger traps.
     -   Leading with a Pikachu and interacting with the NPC Pikachu at (1, 6) does not trigger a special event; it is another trap.
     -   Re-checking dialogue with the Old Man at (2, 5) after completing all puzzle steps yields no new dialogue.
