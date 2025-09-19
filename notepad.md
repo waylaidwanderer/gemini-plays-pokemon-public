@@ -55,3 +55,4 @@
 -   **Assumption:** The Jigglypuff at (2, 4) in the Pewter Pokémon Center is decorative. **Test:** Interact with it.
 -   **Assumption:** The Gentleman at (12, 8) and Link Receptionist at (12, 3) in the Pewter Pokémon Center have generic dialogue. **Test:** Interact with both.
 -   **Assumption:** The PC at (14, 4) in the Pewter Pokémon Center functions normally. **Test:** Interact with it from (14, 5).
+- The Gentleman at (12, 8) in the Pewter Pokémon Center mentioned Team Rocket at Mt. Moon, but provided no clues for the museum.
