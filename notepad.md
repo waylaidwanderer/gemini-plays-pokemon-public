@@ -75,3 +75,7 @@
 
 # VIII. Game Mechanics (Observed)
 - **Post-Battle Position Shift:** Sometimes, after a wild battle concludes, the player's character may be moved to a different, nearby tile.
+
+## Main Quest: The Ghost of Lavender Town
+- **Objective:** Investigate the strange occurrences in POKéMON TOWER.
+- **Clue:** A Little Girl in the Pokémon Center mentioned that CUBONE's mother was killed by TEAM ROCKET.
