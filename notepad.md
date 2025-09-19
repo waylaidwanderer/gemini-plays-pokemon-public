@@ -65,3 +65,4 @@
 - **Assumption:** The PC at (14, 4) in the Pewter Pokémon Center functions normally. **Status: Confirmed.** It's a standard PC.
 - Having the player's Pikachu interact with the NPC Pikachu at (27, 17) yielded no new dialogue or event. (Agent Hypothesis #5 FAILED)
 - **water:** A tile that can be crossed using the HM move Surf.
+- **water:** A tile that can be crossed using the HM move Surf.
