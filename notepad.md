@@ -64,3 +64,9 @@
 # VII. New Hypotheses (Post-Assessment)
 1.  **Hypothesis (External Trigger):** After completing the internal museum puzzle sequence (Old Man -> 2F Scientist -> Kabutops Fossil), an NPC *outside* the museum must be spoken to. First target for testing: the Super Nerd at (28, 18) in Pewter City.
 2.  **Hypothesis (Fossil Presentation):** The blocking scientist at (13, 5) on 1F will move if I speak to him while leading with a revived fossil Pokémon (Omanyte or Aerodactyl).
+
+# VIII. World Knowledge & Mechanics
+
+## Tile Mechanics
+- **ground**: Standard walkable tile.
+- **impassable**: Walls, objects, cannot be entered.
