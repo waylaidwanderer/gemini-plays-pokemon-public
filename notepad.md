@@ -70,9 +70,3 @@
 
 ## The Enigmatic Old Amber (New Hypothesis)
 - **New Hypothesis:** The trigger to move the blocking scientist is located outside of Pewter City. The Rocket Grunt in Mt. Moon B2F who is blocking a path and demanding a fossil may be the key. I will attempt to pass him with a revived fossil Pokémon in my party.
-
-## The Copycat's Gift (Stalled)
-- **Status:** Search of Cerulean City (all buildings and outdoor NPCs) is complete. Copycat was not found. Quest is stalled until new information is discovered.
-
-## The Enigmatic Old Amber (New Hypothesis)
-- **New Hypothesis:** The trigger to move the blocking scientist is located outside of Pewter City. The Rocket Grunt in Mt. Moon B2F who is blocking a path and demanding a fossil may be the key. I will attempt to pass him with a revived fossil Pokémon in my party.
