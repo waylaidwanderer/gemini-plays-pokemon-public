@@ -63,3 +63,4 @@
 - **Assumption:** The Jigglypuff at (2, 4) in the Pewter Pokémon Center is decorative. **Status: Confirmed.** Interaction yielded no result.
 - **Assumption:** The PC at (14, 4) in the Pewter Pokémon Center functions normally. **Status: Confirmed.** It's a standard PC.
     - Speaking to the second Super Nerd (PEWTERCITY_SUPER_NERD2) at (30, 26) yielded the same generic dialogue as the first, providing no new clues. (Agent Hypothesis #3 FAILED)
+    - Speaking to the second Super Nerd (PEWTERCITY_SUPER_NERD2) at (30, 26) yielded the same generic dialogue as the first, providing no new clues. (Agent Hypothesis #3 FAILED)
