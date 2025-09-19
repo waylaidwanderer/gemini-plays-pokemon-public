@@ -71,3 +71,6 @@
 
 # VIII. Game Mechanics (Observed)
 - **Post-Battle Position Shift:** Sometimes, after a wild battle concludes, the player's character may be moved to a different, nearby tile.
+
+# VIII. Game Mechanics (Observed)
+- **Post-Battle Position Shift:** Sometimes, after a wild battle concludes, the player's character may be moved to a different, nearby tile.
