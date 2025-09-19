@@ -45,6 +45,7 @@
 
 # V. Tool & Agent Improvement Log
 - **pokemon_hunter (FIXED):** The tool has been refactored to accept a rectangular boundary to ensure all generated movements stay within a specified hunting area.
+- **city_exploration_planner (NEW):** Created an agent to generate optimal routes for speaking to all unvisited NPCs in a city.
 
 # VI. Agent Usage Reminders
 - **Battle Strategist:** I must use the `battle_strategist` agent at the very next trainer battle to evaluate its effectiveness.
