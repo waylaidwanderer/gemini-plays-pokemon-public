@@ -55,3 +55,4 @@
 - The Sleeping Snorlax
 - Cerulean City Investigation
 - Silph Co. Investigation
+- **Correction:** Depositing a single item from a stack does not free an inventory slot. The new plan is to deposit a single-stack item (POTION) to properly test the inventory hypothesis.
