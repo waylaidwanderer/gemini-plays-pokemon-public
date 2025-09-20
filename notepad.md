@@ -75,3 +75,9 @@
 - **Hypothesis:** A third interaction with Pikachu, this time while he is at (20, 16), is required to open the path to the warp.
   - **Test:** Interact with Pikachu at (20, 16) from my position at (19, 16).
   - **Next Step:** If successful, test if a path to (20, 19) is now available.
+### Rocket Hideout B3F Maze (Agent-Assisted Plan)
+- **New Hypothesis (from Agent):** Defeating both Rocket Grunts on this floor (at 11,23 and 27,13) is required to solve the spinner puzzle.
+  - **Test Plan:**
+    1. Navigate to and defeat the Rocket at (27, 13).
+    2. Navigate to and defeat the Rocket at (11, 23).
+    3. Return to the spinner at (19, 17) and test if it is disabled or its path has changed.
