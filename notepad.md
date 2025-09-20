@@ -105,4 +105,4 @@
 - **Item Traps:** Some overworld items (Poké Balls) can be traps that trigger a wild Pokémon battle (e.g., Electrode in Cerulean City).
 
 ## Tool & Agent Improvement Log
-- `fly_to_location`: A tool to automate navigating the Fly map to a specified destination, preventing manual menu cycling.
+- `select_battle_option` Limitation: This tool can fail due to game state data lag (`In Battle: No` when a battle is active). The overwatch suggestion to check `Screen Text` is not implementable as tools do not have access to this variable. Manual menu navigation may be required as a fallback.
