@@ -65,7 +65,7 @@
 - **`use_hm_from_menu`:** Automates using an HM from the party menu. **Note:** This tool now uses a robust, state-agnostic cursor reset (pressing 'Up' 10 times) for all menus, making it reliable regardless of the previous menu state. It takes a Pokémon's party slot and the move's slot in their menu as input.
 - **`stun_npc`**: Freezes a specified NPC in place to prevent them from moving.
 
-# VII. Archived Discoveries & Confirmations
+# VI. Archived Discoveries
 
 ## Completed Quests
 ### The Ghost of Lavender Town
