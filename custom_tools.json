@@ -1423,12 +1423,17 @@
         "item_index"
       ]
     },
-    "python_script": "import json\n\nitem_index = int(input_data['item_index'])\n\nbuttons = []\n# 1. Access PC\nbuttons.append('A')\n# 2. Select Gem's PC\nbuttons.extend(['Down', 'A'])\n# 3. Access Item Storage\nbuttons.append('A')\n# 4. Select DEPOSIT ITEM\nbuttons.extend(['Down', 'A'])\n# 5. Navigate to item index\nif item_index > 1:\n    buttons.extend(['Down'] * (item_index - 1))\n# 6. Select item\nbuttons.append('A')\n# 7. Confirm quantity (assumes depositing one)\nbuttons.append('A')\n# 8. Back out of deposit menu\nbuttons.append('B')\n# 9. Back out of item storage type menu\nbuttons.append('B')\n# 10. Log off\nbuttons.extend(['Down', 'Down', 'Down', 'A'])\n\nprint(json.dumps(buttons))",
+    "python_script": "import json\n\nitem_index = int(input_data['item_index'])\n\nbuttons = []\n# Interact with PC\nbuttons.append('A')\n# Select 'Gem's PC' (assuming cursor starts on BILL's PC)\nbuttons.append('Down')\nbuttons.append('A')\n# Select 'DEPOSIT ITEM' (assuming cursor starts on WITHDRAW ITEM)\nbuttons.append('Down')\nbuttons.append('A')\n\n# Navigate to the item\nfor _ in range(item_index - 1):\n    buttons.append('Down')\n\n# Select and confirm deposit\nbuttons.append('A') # Select item\nbuttons.append('A') # Confirm quantity (defaults to 1)\n\n# Exit menus\nbuttons.append('B')\nbuttons.append('B')\nbuttons.append('B')\n\nprint(json.dumps(buttons))",
     "history": [
       {
         "commit_message": "feat: Create deposit_pc_item_by_index tool. This tool automates the repetitive and error-prone manual task of navigating PC menus to deposit a specific item. This was created in direct response to a mandatory self-assessment that identified a failure to create tools for recurring tasks.",
         "timestamp": "2025-09-20T16:13:42.271Z",
         "action_counter": 228966
+      },
+      {
+        "commit_message": "feat: Create deposit_pc_item_by_index tool. This tool automates the repetitive and error-prone manual task of navigating PC menus to deposit a specific item. This was created in direct response to a mandatory self-assessment that identified a failure to create tools for recurring tasks.",
+        "timestamp": "2025-09-20T17:55:26.918Z",
+        "action_counter": 229212
       }
     ]
   }
