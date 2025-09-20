@@ -112,3 +112,4 @@
 ## Silph Co. Investigation
 - **Objective:** Find clues related to the Old Amber puzzle.
 - **Key Finding (7F):** A Silph Worker at (14, 14) revealed: "We canceled the MASTER BALL project because of TEAM ROCKET."
+- **gate_offscreen:** A gate whose state is unknown.
