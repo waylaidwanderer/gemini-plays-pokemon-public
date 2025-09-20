@@ -1380,5 +1380,35 @@
         "action_counter": 228451
       }
     ]
+  },
+  "wild_pokemon_hunter": {
+    "description": "Automates walking back and forth within a defined rectangular area of grass to trigger wild Pokémon encounters. It generates a long sequence of button presses and is intended to be used with autopress_buttons.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "x_min": {
+          "type": "string"
+        },
+        "y_coord": {
+          "type": "string"
+        },
+        "x_max": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "x_min",
+        "y_coord",
+        "x_max"
+      ]
+    },
+    "python_script": "import json\nx_min = int(input_data['x_min'])\ny_coord = int(input_data['y_coord'])\nx_max = int(input_data['x_max'])\nnum_steps = 100\nbuttons = []\nfor _ in range(num_steps // ((x_max - x_min) * 2)):\n    for _ in range(x_max - x_min):\n        buttons.append('Right')\n    for _ in range(x_max - x_min):\n        buttons.append('Left')\nprint(json.dumps(buttons))",
+    "history": [
+      {
+        "commit_message": "feat: Create wild_pokemon_hunter tool. This tool automates the repetitive manual task of walking back and forth in grass to find a specific Pokémon. This was created in direct response to a mandatory self-assessment that identified a failure to create tools for recurring tasks.",
+        "timestamp": "2025-09-20T12:46:06.328Z",
+        "action_counter": 228504
+      }
+    ]
   }
 }

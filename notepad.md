@@ -96,3 +96,8 @@
 - Lead with a Pokémon holding a money/luck item (Amulet Coin) and speak to the Gambler.
 - Adjust money to a specific number (e.g., 777) and speak to the Gambler.
 - Use a 'Nugget' item on the Gambler.
+
+- **Ledge Traversal:** Ledges are one-way tiles. They can be jumped down from above, but cannot be climbed up from below or traversed horizontally.
+
+### Unconfirmed Assumptions
+- The Pokémon Meowth can be found on Route 7. This is based on general knowledge, but has not been confirmed by an in-game encounter in this ROM hack.
