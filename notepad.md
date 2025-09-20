@@ -67,3 +67,11 @@
 - **Item Traps:** Some overworld items (Poké Balls) can be traps that trigger a wild Pokémon battle.
 ## Silph Co. Investigation
 - **Key Finding (7F):** A Silph Worker at (14, 14) revealed: "We canceled the MASTER BALL project because of TEAM ROCKET."
+
+# VIII. Game Corner Investigation Plan
+- **Objective:** Determine the purpose of the Game Corner and find any hidden paths or items.
+- **Untested Assumptions to Verify:**
+  1. **Slot Machines are the primary/only source of prizes.**
+     - **Test:** Play a slot machine. Then, speak to all other reachable NPCs to see if they offer prizes or clues.
+  2. **The poster at (10, 5) is purely decorative.**
+     - **Test:** After checking slots and NPCs, interact with the poster at (10, 5) to check if it's a switch.
