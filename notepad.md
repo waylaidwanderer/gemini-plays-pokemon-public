@@ -89,3 +89,4 @@
 - **Objective:** Find clues related to the Old Amber puzzle.
 - **Key Finding (7F):** A Silph Worker at (14, 14) revealed: "We canceled the MASTER BALL project because of TEAM ROCKET."
 - **Inventory Access Bug:** When the player's inventory contains more than 20 unique item stacks, selecting 'ITEM' from the Start Menu incorrectly opens the HM pocket instead of the main bag. Depositing items to bring the count to 20 or below resolves this issue.
+- Using a REVIVE item on the fossil displays has no effect. The game opens the standard party menu.
