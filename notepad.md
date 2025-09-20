@@ -90,3 +90,9 @@
 ## Confirmed Assumptions
 - **Assumption:** The Jigglypuff at (2, 4) in the Pewter Pokémon Center is decorative. **Status: Confirmed.**
 - **Assumption:** The PC at (14, 4) in the Pewter Pokémon Center functions normally. **Status: Confirmed.**
+
+# IX. Self-Assessment (Turn 227118)
+- **Critical Directive Failure (Tool Maintenance):** Failed to immediately fix the `use_hm_from_menu` tool after it failed, instead resorting to manual inputs. This violates the core directive of prioritizing tool refinement. **Lesson Reinforced:** Tool maintenance is the highest priority and must be performed in the same turn a failure is identified.
+- **Agent Ideas:**
+  - `navigation_assistant`: Could analyze pathfinder failure reasons (e.g., 'cuttable tree', 'water') and suggest the required HM or action.
+  - `trainer_predictor`: Could predict likely Pokémon types for a given trainer class to assist in pre-battle party optimization.
