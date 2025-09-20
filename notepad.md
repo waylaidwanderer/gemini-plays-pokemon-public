@@ -62,3 +62,5 @@
 - The Sleeping Snorlax
 - Cerulean City Investigation
 - Silph Co. Investigation
+  - **Attempt 4:** Interact with Pikachu at (20, 16) after it respawned. **Result:** Pikachu did not disappear. The interaction had no effect. **Conclusion:** Hypothesis denied. All interaction-based hypotheses are now exhausted.
+- **New Hypothesis:** There is a hidden passage in the southern partition of the maze. Plan is to manually check every wall tile.
