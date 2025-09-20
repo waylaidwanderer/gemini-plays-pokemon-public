@@ -107,3 +107,7 @@
 - **Assumption:** The Jigglypuff at (2, 4) in the Pewter Pokémon Center is decorative. **Status: Confirmed.**
 - **Assumption:** The PC at (14, 4) in the Pewter Pokémon Center functions normally. **Status: Confirmed.**
 - **Item Traps:** Some overworld items (Poké Balls) can be traps that trigger a wild Pokémon battle (e.g., Electrode in Cerulean City).
+### HM Usage (Manual Sequence)
+- To use Surf from a land tile adjacent to water, you must be facing the water.
+- The correct button sequence is: Start -> A (select POKéMON) -> [Navigate to Pokémon] -> A (select Pokémon) -> A (select SURF).
+- For my current party, the cursor in the party menu defaults to the 5th Pokémon (REVENANT). To select NEPTUNE (slot 3), the sequence is: Up, Up.
