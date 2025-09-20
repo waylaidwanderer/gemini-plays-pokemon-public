@@ -1300,12 +1300,17 @@
         "option_to_select"
       ]
     },
-    "python_script": "import json\n\noption = input_data.get('option_to_select')\ntext_on_screen = \"\"\ntry:\n    screen_data = json.loads(screen_text_json)\n    if 'raw' in screen_data:\n        text_on_screen = screen_data['raw']\nexcept (json.JSONDecodeError, KeyError):\n    pass\n\nis_battle_menu_visible = 'FIGHT' in text_on_screen and 'PKMN' in text_on_screen\n\nif not is_battle_menu_visible:\n    print(json.dumps([]))\nelse:\n    if option == 'FIGHT':\n        print(json.dumps(['A']))\n    elif option == 'PKMN':\n        print(json.dumps(['Right', 'A']))\n    elif option == 'ITEM':\n        print(json.dumps(['Down', 'A']))\n    elif option == 'RUN':\n        print(json.dumps(['Right', 'Down', 'A']))\n    else:\n        print(json.dumps([]))",
+    "python_script": "import json\n\noption = input_data.get('option_to_select')\ntext_on_screen = \"\"\ntry:\n    # Use screen_text_json, not a direct variable\n    screen_data = json.loads(screen_text_json)\n    if 'raw' in screen_data:\n        text_on_screen = screen_data['raw']\nexcept (json.JSONDecodeError, KeyError):\n    pass\n\nis_battle_menu_visible = 'FIGHT' in text_on_screen and 'PKMN' in text_on_screen\n\nif not is_battle_menu_visible:\n    print(json.dumps([]))\nelse:\n    if option == 'FIGHT':\n        print(json.dumps(['A']))\n    elif option == 'PKMN':\n        print(json.dumps(['Right', 'A']))\n    elif option == 'ITEM':\n        print(json.dumps(['Down', 'A']))\n    elif option == 'RUN':\n        print(json.dumps(['Right', 'Down', 'A']))\n    else:\n        print(json.dumps([]))",
     "history": [
       {
         "commit_message": "feat: Create select_battle_menu_option tool. This tool adds screen text validation for reliability, addressing a persistent failure noted by the overwatch system. It replaces a previously deleted tool to stay within the custom tool limit.",
         "timestamp": "2025-09-20T05:39:04.027Z",
         "action_counter": 227582
+      },
+      {
+        "commit_message": "feat: Create select_battle_menu_option tool. This tool adds screen text validation for reliability, addressing a persistent failure noted by the overwatch system. It replaces a previously deleted tool to stay within the custom tool limit.",
+        "timestamp": "2025-09-20T05:39:29.202Z",
+        "action_counter": 227583
       }
     ]
   }
