@@ -4,7 +4,7 @@
 - **Objective:** Retrieve the Old Amber.
 - **Location:** Pewter Museum of Science.
 - **Obstacle:** A Scientist at (13, 5) on 1F blocks the path to an item.
-- **Status:** Stalled. All hypotheses tested in Pewter City and the Cerulean area (Routes 24/25) have failed. Currently re-investigating Silph Co. in Saffron City for new leads.
+- **Status:** New lead discovered. Showing a living Aerodactyl to the Gambler at (2, 5) changed his dialogue. The blocking scientist at (13, 5) remains, but this is the first significant progress.
 
 ### Confirmed Puzzle Steps (Internal Museum Sequence)
 1. Lead with a Geodude or a revived fossil Pokémon (Omanyte, Aerodactyl) and speak to the Old Man at (2, 5) on 1F.
@@ -13,6 +13,7 @@
 
 ### Consolidated Failed Hypotheses
 - **Internal Museum Actions:**
+    - **Agent Hypothesis #1 (Partially Confirmed):** Leading with a resurrected Aerodactyl and speaking to the Gambler at (2, 5) changes his dialogue to "magnificent fossil!". **Outcome:** This confirms a special interaction, but it does not move the blocking scientist at (13, 5).
     - Solving the full puzzle sequence with Geodude, Omanyte, or Aerodactyl in the lead does not move the blocking scientist.
     - Triggering the Aerodactyl fossil trap and then immediately interacting with the Pikachu at (4, 5) does not move the blocking scientist.
     - Interacting with the Aerodactyl Fossil at (3, 4) and then immediately speaking to the Old Man at (2, 5) changes his dialogue but does not move the blocking scientist.
@@ -22,7 +23,6 @@
     - After resetting the museum state, triggering *only* the Kabutops Fossil trap at (3, 7) and then speaking to the Gambler at (2, 5) yields no new dialogue.
     - Using the Coin Case while facing the Gambler at (2, 5) yielded no new dialogue or event.
 - **External Actions & Events:**
-    - Re-checking dialogue with the Old Man at (2, 5) after completing all puzzle steps yields no new dialogue.
     - After completing the internal museum puzzle sequence, speaking to the Super Nerd at (28, 18) in Pewter City yielded no new dialogue or progress.
     - Interviewing all NPCs in Pewter City provided no new clues for the museum puzzle.
     - Interacting with the NPC Pikachu at (27, 26) in Pewter City did not move the blocking scientist inside the museum. (Agent Hypothesis #1 FAILED)
