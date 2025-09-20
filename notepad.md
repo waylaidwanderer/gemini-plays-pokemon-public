@@ -19,8 +19,8 @@
 - Completing external events (all Gym Leader rematches, speaking to all Pewter City NPCs) has no effect on the puzzle.
 
 # II. Key Discoveries & Lessons Learned
-- **Critical Directive Failure - Deferral of Tasks (CRITICAL):** I have repeatedly deferred critical maintenance tasks like fixing tools or cleaning my notepad. **Lesson Reinforced:** All maintenance and data management tasks are the absolute highest priority and MUST be performed successfully in the current turn. Deferring tasks is an invalid strategy.
 - **Trust But Verify (CRITICAL):** I exhibited strong confirmation bias by assuming my `automated_path_navigator` was broken when it failed in Pewter City. The tool was correctly reporting an unreachable map partition, but I wasted dozens of turns trying to "fix" it instead of questioning my own flawed understanding of the map. **Lesson Reinforced:** I MUST trust my tool outputs as the default assumption. Before debugging a tool, I must first verify the game state and question my own assumptions.
+- **Critical Directive Failure - Deferral of Tasks (CRITICAL):** I have repeatedly deferred critical maintenance tasks like fixing tools or cleaning my notepad. **Lesson Reinforced:** All maintenance and data management tasks are the absolute highest priority and MUST be performed successfully in the current turn. Deferring tasks is an invalid strategy.
 - **Agent Utilization Failure:** I failed to use my `multi_stage_navigator` agent when faced with the exact complex navigation puzzle it was designed for in Pewter City, instead resorting to a flawed manual approach. **Lesson Reinforced:** I must proactively use my custom agents for the tasks they were built for.
 - **Strategic Tool Use (Pathfinder):** For complex navigation, I must break the problem down into smaller, intermediate sub-goals instead of trying to force a single, long path.
 - **Puzzle State Persistence:** Leaving and re-entering the Pewter Museum does **not** reset the internal puzzle state.
@@ -30,33 +30,17 @@
 - **Post-Battle Position Shift:** Sometimes, after a wild battle concludes, the player's character may be moved to a different, nearby tile.
 - **Ghost-type Damage:** Ghost-type moves deal SPECIAL damage, not physical.
 - **Purified Zone:** A specific tile area in the Pokémon Tower (5F) that fully heals the party upon entry.
+- **2x1 Warp Tiles:** Some warps, like the Silph Co. elevator, require a two-step activation: 1. Stand on one of the warp tiles. 2. Press a directional button (e.g., Down) into the impassable boundary to trigger the warp.
 
 ## Anomalous Events
 - **Celadon City Fly Anomaly:** Attempting to use the HM Fly from anywhere within Celadon City results in a strange event. The screen fades as if the flight is initiating, but the player is instead teleported back inside the Celadon Department Store entrance. This behavior does not occur when using Fly from adjacent maps like Route 7.
 - **Inventory Access Bug:** When the player's inventory is full (current theory: over 20 items), selecting 'ITEM' from the Start Menu incorrectly opens the HM pocket instead of the main bag. This bug is not map-specific.
 
-# IV. Tile Mechanics (Observed)
-- **ground:** Standard walkable tile.
-- **grass:** Walkable tile with wild Pokémon encounters.
-- **water:** Requires Surf to traverse.
-- **impassable:** Cannot be walked on (walls, trees, etc.).
-- **cuttable:** A tree that can be removed with the Cut HM. Respawns on map change.
-- **ledge:** One-way traversal. Can be jumped down from above, but not climbed up.
-- **steps:** Allows movement between 'ground' and 'elevated_ground' tiles.
-- **elevated_ground:** Walkable ground at a different elevation, accessible only via 'steps' or warps.
-- **warp:** A tile that teleports the player to another location (e.g., doors, stairs, cave entrances).
-- **teleport:** Instant warp tile within the same logical location.
-- **hole:** Warp tile leading to a lower map area.
-- **cleared_boulder_barrier:** Former barrier, now acts as 'ground'.
-- **open_gate:** A previously closed gate that is now open.
-- **gate_offscreen:** A gate whose state is unknown.
-- **spinner_stop:** Tile that stops spinner movement.
-
-# V. Pokemon Locations (Observed)
+# IV. Pokemon Locations (Observed)
 - **Route 8:** Growlithe, Abra, Pidgey, Rattata, Jigglypuff, Vulpix
 - **Route 7:** Pidgey, Vulpix, Koffing, Jigglypuff
 
-# VI. Implemented Tools & Agents
+# V. Implemented Tools & Agents
 
 ## Agents (High-Level Reasoning)
 - **`battle_strategist`:** Suggests optimal lead Pokémon and battle strategy.
@@ -67,10 +51,10 @@
 ## Tools (Computational & Automation)
 - **`automated_path_navigator`:** Finds the shortest path between two points.
 - **`select_battle_menu_option`:** Automates selecting main battle menu options.
-- **`use_hm_from_menu`:** **DECOMMISSIONED.** This tool has repeatedly and critically failed due to unpredictable menu cursor behavior. Multiple attempts to fix it with complex cursor resets and simplified logic have been unsuccessful. The tool is unreliable and will no longer be used. HMs will be used manually going forward.
+- **`use_hm_from_menu`:** A tool for using HMs that is currently under review for reliability issues. It must be fixed, not abandoned.
 - **`stun_npc`**: Freezes a specified NPC in place to prevent them from moving.
 
-# VII. Archived Discoveries
+# VI. Archived Discoveries
 
 ## Completed Quests
 ### The Ghost of Lavender Town
@@ -98,9 +82,8 @@
 - **Assumption:** The PC at (14, 4) in the Pewter Pokémon Center functions normally. **Status: Confirmed.**
 - **Item Traps:** Some overworld items (Poké Balls) can be traps that trigger a wild Pokémon battle.
 
-# VIII. Investigation Logs
+# VII. Investigation Logs
 
 ## Silph Co. Investigation
 - **Objective:** Find clues related to the Old Amber puzzle.
 - **Key Finding (7F):** A Silph Worker at (14, 14) revealed: "We canceled the MASTER BALL project because of TEAM ROCKET."
-- **2x1 Warp Tiles:** Some warps, like the Silph Co. elevator, require a two-step activation: 1. Stand on one of the warp tiles. 2. Press a directional button (e.g., Down) into the impassable boundary to trigger the warp.
