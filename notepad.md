@@ -64,3 +64,10 @@
     1. Press 'B' to clear any hidden dialogue.
     2. Move to (18, 17).
     3. Move onto the spinner at (19, 17).
+### Rocket Hideout B3F Maze (Attempt 4)
+- **Hypothesis:** A second interaction with Pikachu, this time while he is at (18, 16), is required to solve the spinner puzzle.
+  - **Test:** Interact with Pikachu at (18, 16) from my position at (18, 17).
+  - **Outcome:** SUCCESS. The interaction caused Pikachu to disappear from the map. The game state indicates a dialogue box may be open.
+  - **Next Step:** Test if the spinner at (19, 17) is now disabled.
+    1. Press 'B' to clear any hidden dialogue.
+    2. Move onto the spinner at (19, 17).
