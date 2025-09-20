@@ -74,7 +74,7 @@
 - **exploration_planner:** Agent to generate optimal routes for visiting all locations of a specified type.
 - **map_data_extractor:** Computational tool to parse map XML into structured JSON data.
 - **multi_stage_navigator:** Agent to break down complex navigation puzzles into a sequence of intermediate sub-goals.
-- **navigation_assistant:** Agent to analyze pathfinder failure reasons and suggest solutions.
+
 - **puzzle_hypothesis_generator:** Agent to generate novel hypotheses for in-game puzzles.
 - **select_battle_move:** Computational tool to automate selecting a move in battle.
 - **select_battle_option:** Tool to automatically select main battle menu options.
