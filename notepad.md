@@ -1,9 +1,8 @@
-# I. Active Quests & Investigation Logs
+# I. Active Investigation: The Old Amber
 
-## Main Quest: The Old Amber
 - **Objective:** Retrieve the Old Amber from the Pewter Museum of Science.
 - **Current Obstacle:** A Scientist at (13, 5) on 1F blocks the path.
-- **Next Step:** Test a new hypothesis to get past the blocking Scientist.
+- **Next Step:** Test the hypothesis that using a Rock-type move on a fossil will trigger an event.
 
 ### Confirmed Puzzle Steps (Internal Museum Sequence)
 1. Lead with a Geodude or a revived fossil Pokémon (Omanyte, Aerodactyl) and speak to the Old Man at (2, 5) on 1F.
