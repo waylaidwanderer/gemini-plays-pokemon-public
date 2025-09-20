@@ -1198,43 +1198,6 @@
       }
     ]
   },
-  "select_battle_move": {
-    "description": "Automates selecting a move from the battle menu by its slot number (1-4). Assumes a vertical list and cursor starting at slot 1. Returns button presses. Must be called with `autopress_buttons: true`.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "move_slot": {
-          "type": "string"
-        }
-      },
-      "required": [
-        "move_slot"
-      ]
-    },
-    "python_script": "import json\n\nmove_slot = int(input_data['move_slot'])\nbuttons = []\n\nif move_slot < 1 or move_slot > 4:\n    # Invalid slot, do nothing\n    pass\nelse:\n    # Move down the required number of times\n    for _ in range(move_slot - 1):\n        buttons.append('Down')\n\n# Select the move\nbuttons.append('A')\n\nprint(json.dumps(buttons))",
-    "history": [
-      {
-        "commit_message": "feat: Create select_battle_move tool. This tool automates move selection in battle by taking a slot number (1-4) as input. This is a critical improvement to eliminate the frequent manual menu navigation errors identified by the overwatch system and streamline combat.",
-        "timestamp": "2025-09-19T18:43:22.279Z",
-        "action_counter": 226352
-      },
-      {
-        "commit_message": "fix: Correct button sequence for move slot 4. The previous logic used 'Right, Down', which incorrectly selected slot 2. The corrected sequence is 'Down, Right', which correctly navigates to the bottom-right move slot. This is a critical fix to restore tool functionality.",
-        "timestamp": "2025-09-19T19:02:46.696Z",
-        "action_counter": 226386
-      },
-      {
-        "commit_message": "fix: Revert button sequence for move slot 4. The previous fix using 'Down, Right' also resulted in incorrectly selecting slot 2. This commit reverts the sequence to 'Right, Down' as a final attempt to find a working combination. If this fails, the tool's interaction with the game's input processing for this specific sequence is fundamentally flawed.",
-        "timestamp": "2025-09-19T19:15:18.771Z",
-        "action_counter": 226406
-      },
-      {
-        "commit_message": "fix: Rework logic for vertical move menu. The previous implementation assumed a 2x2 grid, causing incorrect selections. Systematic in-game testing confirmed the menu is a single vertical list. This commit updates the button sequences to use only 'Down' presses for navigation, restoring full functionality.",
-        "timestamp": "2025-09-19T20:21:58.440Z",
-        "action_counter": 226540
-      }
-    ]
-  },
   "use_hm_from_menu": {
     "description": "Automates using an HM from the party menu. Takes the Pokémon's party slot (1-6) and the HM's move slot within that Pokémon's move list (1-4) as input. Must be called with autopress_buttons: true.",
     "input_schema": {
@@ -1300,7 +1263,7 @@
         "option_to_select"
       ]
     },
-    "python_script": "import json\n\noption = input_data.get('option_to_select')\ntext_on_screen = \"\"\ntry:\n    # Use screen_text_json, not a direct variable\n    screen_data = json.loads(screen_text_json)\n    if 'raw' in screen_data:\n        text_on_screen = screen_data['raw']\nexcept (json.JSONDecodeError, KeyError):\n    pass\n\nis_battle_menu_visible = 'FIGHT' in text_on_screen and 'PKMN' in text_on_screen\n\nif not is_battle_menu_visible:\n    print(json.dumps([]))\nelse:\n    if option == 'FIGHT':\n        print(json.dumps(['A']))\n    elif option == 'PKMN':\n        print(json.dumps(['Right', 'A']))\n    elif option == 'ITEM':\n        print(json.dumps(['Down', 'A']))\n    elif option == 'RUN':\n        print(json.dumps(['Right', 'Down', 'A']))\n    else:\n        print(json.dumps([]))",
+    "python_script": "import json\n\noption = input_data.get('option_to_select')\ntext_on_screen = \"\"\ntry:\n    screen_data = json.loads(screen_text_json)\n    if 'raw' in screen_data:\n        text_on_screen = screen_data['raw']\nexcept (json.JSONDecodeError, KeyError):\n    pass\n\nis_battle_menu_visible = 'FIGHT' in text_on_screen and 'PKMN' in text_on_screen\n\nif not is_battle_menu_visible:\n    print(json.dumps([]))\nelse:\n    if option == 'FIGHT':\n        print(json.dumps(['A']))\n    elif option == 'PKMN':\n        print(json.dumps(['Right', 'A']))\n    elif option == 'ITEM':\n        print(json.dumps(['Down', 'A']))\n    elif option == 'RUN':\n        print(json.dumps(['Right', 'Down', 'A']))\n    else:\n        print(json.dumps([]))",
     "history": [
       {
         "commit_message": "feat: Create select_battle_menu_option tool. This tool adds screen text validation for reliability, addressing a persistent failure noted by the overwatch system. It replaces a previously deleted tool to stay within the custom tool limit.",
@@ -1311,6 +1274,11 @@
         "commit_message": "feat: Create select_battle_menu_option tool. This tool adds screen text validation for reliability, addressing a persistent failure noted by the overwatch system. It replaces a previously deleted tool to stay within the custom tool limit.",
         "timestamp": "2025-09-20T05:39:29.202Z",
         "action_counter": 227583
+      },
+      {
+        "commit_message": "feat: Create select_battle_menu_option tool. This tool adds screen text validation for reliability, addressing a persistent failure noted by the overwatch system. It replaces a previously deleted tool to stay within the custom tool limit.",
+        "timestamp": "2025-09-20T05:40:13.851Z",
+        "action_counter": 227584
       }
     ]
   }
