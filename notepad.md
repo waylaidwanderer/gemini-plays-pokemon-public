@@ -19,7 +19,7 @@
 - Interacting with the Pikachu at (10, 5) while having a Pokémon with Surf in the party has no effect. **Outcome:** The Pikachu briefly disappeared and reappeared, but the interaction failed to produce dialogue and the blocking scientist remains.
 - Using a REVIVE item on the fossil displays has no effect; it just opens the standard party menu.
 - Speaking to the Gambler at (2, 5) with a non-fossil Pokémon (SPARKY) in the lead results in the same "magnificent fossil!" dialogue, having no effect on the puzzle.
-- Hunting for Meowth on Route 7 to learn 'Pay Day'. **Outcome:** After an extensive search (over 50 encounters), no Meowth was found. Concluded that Meowth is either not on this route or is prohibitively rare. This invalidates the current approach to test the 'Pay Day' hypothesis.
+- Hunting for Meowth on Route 7 to learn 'Pay Day'. **Outcome:** After an extensive search (over 100 encounters), no Meowth was found. Concluded that Meowth is either not on this route or is prohibitively rare. This invalidates the current approach to test the 'Pay Day' hypothesis.
 
 # II. Key Discoveries & Lessons Learned
 - **Confirmation Bias (CRITICAL):** I exhibited strong confirmation bias by assuming my `automated_path_navigator` was broken when it failed in Pewter City. I repeatedly fed it incorrect starting coordinates based on a hallucinated position instead of trusting the Game State Information. The tool was correctly reporting an unreachable map partition. **Lesson Reinforced:** I MUST trust my tool outputs as the default assumption and always verify my own position and assumptions against the game state before debugging a tool.
