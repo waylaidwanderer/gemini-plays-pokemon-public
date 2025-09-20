@@ -1176,28 +1176,6 @@
       }
     ]
   },
-  "map_data_extractor": {
-    "description": "Parses the map_xml_string to extract lists of NPCs, background objects, items, and key structural tiles (impassable, ledge, warp), returning them as a JSON object. This provides comprehensive structured data for other tools or agents to use for analysis and decision-making.",
-    "input_schema": {},
-    "python_script": "import json\nimport xml.etree.ElementTree as ET\n\nroot = ET.fromstring(map_xml_string)\nnpcs = []\nbackground_objects = []\nitems = []\nimpassable_tiles = []\nledge_tiles = []\nwarp_tiles = []\n\nfor row in root.findall('Row'):\n    y = int(row.get('id'))\n    for tile_elem in row.findall('Tile'):\n        x = int(tile_elem.get('id'))\n        tile_type = tile_elem.get('type')\n        \n        if tile_type == 'impassable':\n            impassable_tiles.append({'x': x, 'y': y})\n        elif tile_type == 'ledge':\n            ledge_tiles.append({'x': x, 'y': y})\n        if tile_elem.find('Warp') is not None:\n            warp_tiles.append({'x': x, 'y': y})\n\n        obj_elem = tile_elem.find('Object')\n        if obj_elem is not None:\n            obj_name = obj_elem.get('name')\n            obj_id_name = obj_elem.get('id-name')\n            \n            if obj_id_name:\n                if 'item' in (obj_id_name or '').lower():\n                    items.append({'name': obj_id_name, 'x': x, 'y': y})\n                else:\n                    npcs.append({'name': obj_id_name, 'x': x, 'y': y})\n            elif obj_name:\n                background_objects.append({'name': obj_name, 'x': x, 'y': y})\n\noutput = {\n    'npcs': npcs,\n    'background_objects': background_objects,\n    'items': items,\n    'impassable_tiles': impassable_tiles,\n    'ledge_tiles': ledge_tiles,\n    'warp_tiles': warp_tiles\n}\nprint(json.dumps(output))",
-    "history": [
-      {
-        "commit_message": "feat: Create map_data_extractor tool. This tool parses the raw map_xml_string to extract structured lists of NPCs, background objects, and items. This is a critical fix to my workflow, as it allows me to provide agents with clean, pre-processed data instead of raw XML, preventing misuse and hallucinations.",
-        "timestamp": "2025-09-19T03:29:59.030Z",
-        "action_counter": 224597
-      },
-      {
-        "commit_message": "fix: Correct XML parsing logic. The previous version used an invalid method (`find('../..')`) to get the y-coordinate, causing a `NoneType` error. This commit refactors the script to iterate through each `<Row>` first to correctly capture the `y` coordinate before processing the tiles within, restoring the tool's functionality.",
-        "timestamp": "2025-09-19T03:31:19.769Z",
-        "action_counter": 224601
-      },
-      {
-        "commit_message": "refactor: Enhance map_data_extractor with structural data. This commit expands the tool to also extract impassable, ledge, and warp tiles, consolidating its function with the intended purpose of the failed `map_structure_extractor` tool. This is a critical fix to overcome the tool limit and improve workflow efficiency.",
-        "timestamp": "2025-09-20T04:48:22.962Z",
-        "action_counter": 227478
-      }
-    ]
-  },
   "use_hm_from_menu": {
     "description": "Automates using an HM from the party menu. Takes the Pokémon's party slot (1-6) and the HM's move slot within that Pokémon's move list (1-4) as input. Must be called with autopress_buttons: true.",
     "input_schema": {
@@ -1263,7 +1241,7 @@
         "option_to_select"
       ]
     },
-    "python_script": "import json\n\noption = input_data.get('option_to_select')\ntext_on_screen = \"\"\ntry:\n    screen_data = json.loads(screen_text_json)\n    if 'raw' in screen_data:\n        text_on_screen = screen_data['raw']\nexcept (json.JSONDecodeError, KeyError):\n    pass\n\nis_battle_menu_visible = 'FIGHT' in text_on_screen and 'PKMN' in text_on_screen\n\nif not is_battle_menu_visible:\n    print(json.dumps([]))\nelse:\n    buttons = []\n    if option == 'FIGHT':\n        buttons.extend(['Up', 'Left', 'A'])\n    elif option == 'PKMN':\n        buttons.extend(['Up', 'Right', 'A'])\n    elif option == 'ITEM':\n        buttons.extend(['Down', 'Left', 'A'])\n    elif option == 'RUN':\n        buttons.extend(['Down', 'Right', 'A'])\n    print(json.dumps(buttons))",
+    "python_script": "import json\n\noption = input_data.get('option_to_select')\ntext_on_screen = \"\"\ntry:\n    screen_data = json.loads(screen_text_json)\n    if 'raw' in screen_data:\n        text_on_screen = screen_data['raw']\nexcept (json.JSONDecodeError, KeyError):\n    pass\n\nis_battle_menu_visible = 'FIGHT' in text_on_screen and 'PKMN' in text_on_screen\n\nif not is_battle_menu_visible:\n    print(json.dumps([]))\nelse:\n    buttons = ['Up', 'Up', 'Left', 'Left'] # Reset cursor to FIGHT\n    if option == 'FIGHT':\n        buttons.append('A')\n    elif option == 'PKMN':\n        buttons.append('Right')\n        buttons.append('A')\n    elif option == 'ITEM':\n        buttons.append('Down')\n        buttons.append('A')\n    elif option == 'RUN':\n        buttons.extend(['Right', 'Down', 'A'])\n    print(json.dumps(buttons))",
     "history": [
       {
         "commit_message": "feat: Create select_battle_menu_option tool. This tool adds screen text validation for reliability, addressing a persistent failure noted by the overwatch system. It replaces a previously deleted tool to stay within the custom tool limit.",
@@ -1284,6 +1262,11 @@
         "commit_message": "feat: Create select_battle_menu_option tool. This tool adds screen text validation for reliability, addressing a persistent failure noted by the overwatch system. It replaces a previously deleted tool to stay within the custom tool limit.",
         "timestamp": "2025-09-20T05:40:46.250Z",
         "action_counter": 227585
+      },
+      {
+        "commit_message": "feat: Create select_battle_menu_option tool. This tool adds screen text validation for reliability, addressing a persistent failure noted by the overwatch system. It replaces a previously deleted tool to stay within the custom tool limit.",
+        "timestamp": "2025-09-20T05:41:51.930Z",
+        "action_counter": 227586
       }
     ]
   }
