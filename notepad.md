@@ -56,3 +56,15 @@
 - The Sleeping Snorlax
 - Cerulean City Investigation
 - Silph Co. Investigation
+
+# V. Rocket Hideout B3F Maze
+- **Objective:** Solve the spinner maze to reach the warp to B4F.
+- **Current Hypothesis (from Agent):** Interacting with Pikachu while he is on tile (18, 16) may disable the spinner trap at (19, 17).
+- **Test Plan:**
+  1. Current state: Gem at (20, 16), Pikachu at (19, 16).
+  2. Move Left to (19, 16) (swaps with Pikachu). Expected state: Gem at (19, 16), Pikachu at (20, 16).
+  3. Move Left to (18, 16). Expected state: Gem at (18, 16), Pikachu at (19, 16).
+  4. Move Right to (19, 16) (swaps with Pikachu). Expected state: Gem at (19, 16), Pikachu at (18, 16).
+  5. Turn Left to face Pikachu.
+  6. Press 'A' to interact.
+  7. Observe if the spinner at (19, 17) changes state or a path opens.
