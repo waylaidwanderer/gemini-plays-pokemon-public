@@ -32,10 +32,10 @@
 - **Ghost-type Damage:** Ghost-type moves deal SPECIAL damage, not physical.
 - **Purified Zone:** A specific tile area in the Pokémon Tower (5F) that fully heals the party upon entry.
 - **2x1 Warp Tiles:** Some warps, like the Silph Co. elevator, require a two-step activation: 1. Stand on one of the warp tiles. 2. Press a directional button (e.g., Down) into the impassable boundary to trigger the warp.
+- **Inventory Access Bug (Confirmed):** When the player's inventory contains more than 20 unique item stacks (21 or more), selecting 'ITEM' from the Start Menu incorrectly opens the HM pocket instead of the main bag. Depositing items to bring the count to 20 or below resolves this issue.
 
 ## Anomalous Events
 - **Celadon City Fly Anomaly:** Attempting to use the HM Fly from anywhere within Celadon City results in a strange event. The screen fades as if the flight is initiating, but the player is instead teleported back inside the Celadon Department Store entrance. This behavior does not occur when using Fly from adjacent maps like Route 7.
-- **Inventory Access Bug:** When the player's inventory is full (current theory: over 20 items), selecting 'ITEM' from the Start Menu incorrectly opens the HM pocket instead of the main bag. This bug is not map-specific.
 
 # IV. Pokemon Locations (Observed)
 - **Route 8:** Growlithe, Abra, Pidgey, Rattata, Jigglypuff, Vulpix
@@ -88,5 +88,4 @@
 ## Silph Co. Investigation
 - **Objective:** Find clues related to the Old Amber puzzle.
 - **Key Finding (7F):** A Silph Worker at (14, 14) revealed: "We canceled the MASTER BALL project because of TEAM ROCKET."
-- **Inventory Access Bug:** When the player's inventory contains more than 20 unique item stacks, selecting 'ITEM' from the Start Menu incorrectly opens the HM pocket instead of the main bag. Depositing items to bring the count to 20 or below resolves this issue.
 - Using a REVIVE item on the fossil displays has no effect. The game opens the standard party menu.
