@@ -107,47 +107,29 @@
 ## Tool & Agent Improvement Log
 `select_battle_option` Limitation & Fix Plan: The tool currently fails if the `In Battle` flag is out of sync. **Plan:** Refine the tool to include a fallback check against the `Screen Text` variable to make it more resilient to data lag. This is a high-priority fix.
 
-## Cerulean City Investigation (Post-Rocket Grunt)
-- **Clue:** The Girl in the Trashed House mentioned Team Rocket is trying to 'DIG their way into no good!'
-- **Hypothesis:** Team Rocket is digging into the Cerulean Gym from the backyard area.
-- **Plan:** Leave the Trashed House and investigate the Cerulean Gym, specifically looking for signs of digging or new pathways.
+### Cerulean City Investigation (Post-Rocket Grunt)
+- **Outcome:** Defeated the Rocket Grunt in the backyard area and Gym Leader Misty in a rematch. However, Officer Jenny at (29, 13) is still blocking the path east to Route 9. This investigation is concluded.
 
-## Cerulean City Investigation (Post-Rocket Grunt)
-- **Clue:** The Girl in the Trashed House mentioned Team Rocket is trying to 'DIG their way into no good!'
-- **Hypothesis:** Team Rocket is digging into the Cerulean Gym from the backyard area.
-- **Plan:** Leave the Trashed House and investigate the Cerulean Gym, specifically looking for signs of digging or new pathways.
+### Cerulean City Investigation (Post-Rocket Grunt)
+- **Outcome:** Defeated the Rocket Grunt in the backyard area and Gym Leader Misty in a rematch. However, Officer Jenny at (29, 13) is still blocking the path east to Route 9. This investigation is concluded.
 
-## Cerulean City Investigation (Post-Rocket Grunt)
-- **Clue:** The Girl in the Trashed House mentioned Team Rocket is trying to 'DIG their way into no good!'
-- **Hypothesis:** Team Rocket is digging into the Cerulean Gym from the backyard area.
-- **Plan:** Leave the Trashed House and investigate the Cerulean Gym, specifically looking for signs of digging or new pathways.
+### Cerulean City Investigation (Post-Rocket Grunt)
+- **Outcome:** Defeated the Rocket Grunt in the backyard area and Gym Leader Misty in a rematch. However, Officer Jenny at (29, 13) is still blocking the path east to Route 9. This investigation is concluded.
 
-## Cerulean City Investigation (Post-Rocket Grunt)
-- **Clue:** The Girl in the Trashed House mentioned Team Rocket is trying to 'DIG their way into no good!'
-- **Hypothesis:** Team Rocket is digging into the Cerulean Gym from the backyard area.
-- **Plan:** Leave the Trashed House and investigate the Cerulean Gym, specifically looking for signs of digging or new pathways.
+### Cerulean City Investigation (Post-Rocket Grunt)
+- **Outcome:** Defeated the Rocket Grunt in the backyard area and Gym Leader Misty in a rematch. However, Officer Jenny at (29, 13) is still blocking the path east to Route 9. This investigation is concluded.
 
-## Cerulean City Investigation (Post-Rocket Grunt)
-- **Clue:** The Girl in the Trashed House mentioned Team Rocket is trying to 'DIG their way into no good!'
-- **Hypothesis:** Team Rocket is digging into the Cerulean Gym from the backyard area.
-- **Plan:** Leave the Trashed House and investigate the Cerulean Gym, specifically looking for signs of digging or new pathways.
+### Cerulean City Investigation (Post-Rocket Grunt)
+- **Outcome:** Defeated the Rocket Grunt in the backyard area and Gym Leader Misty in a rematch. However, Officer Jenny at (29, 13) is still blocking the path east to Route 9. This investigation is concluded.
 
-## Cerulean City Investigation (Post-Rocket Grunt)
-- **Clue:** The Girl in the Trashed House mentioned Team Rocket is trying to 'DIG their way into no good!'
-- **Hypothesis:** Team Rocket is digging into the Cerulean Gym from the backyard area.
-- **Plan:** Leave the Trashed House and investigate the Cerulean Gym, specifically looking for signs of digging or new pathways.
+### Cerulean City Investigation (Post-Rocket Grunt)
+- **Outcome:** Defeated the Rocket Grunt in the backyard area and Gym Leader Misty in a rematch. However, Officer Jenny at (29, 13) is still blocking the path east to Route 9. This investigation is concluded.
 
-## Cerulean City Investigation (Post-Rocket Grunt)
-- **Clue:** The Girl in the Trashed House mentioned Team Rocket is trying to 'DIG their way into no good!'
-- **Hypothesis:** Team Rocket is digging into the Cerulean Gym from the backyard area.
-- **Plan:** Leave the Trashed House and investigate the Cerulean Gym, specifically looking for signs of digging or new pathways.
+### Cerulean City Investigation (Post-Rocket Grunt)
+- **Outcome:** Defeated the Rocket Grunt in the backyard area and Gym Leader Misty in a rematch. However, Officer Jenny at (29, 13) is still blocking the path east to Route 9. This investigation is concluded.
 
-## Cerulean City Investigation (Post-Rocket Grunt)
-- **Clue:** The Girl in the Trashed House mentioned Team Rocket is trying to 'DIG their way into no good!'
-- **Hypothesis:** Team Rocket is digging into the Cerulean Gym from the backyard area.
-- **Plan:** Leave the Trashed House and investigate the Cerulean Gym, specifically looking for signs of digging or new pathways.
+### Cerulean City Investigation (Post-Rocket Grunt)
+- **Outcome:** Defeated the Rocket Grunt in the backyard area and Gym Leader Misty in a rematch. However, Officer Jenny at (29, 13) is still blocking the path east to Route 9. This investigation is concluded.
 
-## Cerulean City Investigation (Post-Rocket Grunt)
-- **Clue:** The Girl in the Trashed House mentioned Team Rocket is trying to 'DIG their way into no good!'
-- **Hypothesis:** Team Rocket is digging into the Cerulean Gym from the backyard area.
-- **Plan:** Leave the Trashed House and investigate the Cerulean Gym, specifically looking for signs of digging or new pathways.
+### Cerulean City Investigation (Post-Rocket Grunt)
+- **Outcome:** Defeated the Rocket Grunt in the backyard area and Gym Leader Misty in a rematch. However, Officer Jenny at (29, 13) is still blocking the path east to Route 9. This investigation is concluded.
