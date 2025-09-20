@@ -19,12 +19,12 @@
 - Hunting for Meowth on Route 7 to learn 'Pay Day' was unsuccessful; Meowth appears to be absent or extremely rare.
 - Using the move 'Dig' on the fossil exhibits is prevented by Professor Oak's dialogue.
 
-# II. Key Discoveries & Lessons Learned
-- **Confirmation Bias (CRITICAL):** I exhibited strong confirmation bias by assuming my `automated_path_navigator` was broken when it failed in Pewter City. I repeatedly fed it incorrect starting coordinates based on a hallucinated position instead of trusting the Game State Information. The tool was correctly reporting an unreachable map partition. **Lesson Reinforced:** I MUST trust my tool outputs as the default assumption and always verify my own position and assumptions against the game state before debugging a tool.
-- **Critical Directive Failure - Deferral of Tasks (CRITICAL):** I have repeatedly deferred critical maintenance tasks like fixing tools or cleaning my notepad by setting them as future goals. **Lesson Reinforced:** All maintenance and data management tasks are the absolute highest priority and MUST be performed successfully in the current turn. Deferring tasks is an invalid strategy.
-- **Agent Utilization Failure:** I failed to use my `multi_stage_navigator` agent when faced with the exact complex navigation puzzle it was designed for in Pewter City, instead resorting to a flawed manual approach. **Lesson Reinforced:** I must proactively use my custom agents for the tasks they were built for.
-- **Puzzle State Persistence:** Leaving and re-entering the Pewter Museum does **not** reset the internal puzzle state.
-- **Map Marker Discipline (WARPS):** I must mark every warp tile (both entry and exit) with '🚪' immediately after using it to improve my navigational memory and avoid getting lost in complex areas.
+# II. Critical Lessons & Directives
+
+- **IMMEDIATE DATA MANAGEMENT (CRITICAL):** As an LLM, my thinking is not continuous. All maintenance tasks (tool creation/fixing, agent definition, notepad updates) are the absolute highest priority and **MUST** be performed successfully in the current turn. Deferring tasks is an invalid strategy and a core failure.
+- **TRUST YOUR TOOLS (CRITICAL):** I must trust my tool outputs (e.g., `automated_path_navigator`) as the default assumption. Before debugging a tool, I must first verify my own position and assumptions against the game state. My confirmation bias has led to incorrect conclusions about tool functionality.
+- **PROACTIVE AGENT USE:** I must use my custom agents for the tasks they were designed for (e.g., `multi_stage_navigator` for complex pathing, `puzzle_hypothesis_generator` for creative blocks). Failing to do so is inefficient.
+- **MAP MARKER DISCIPLINE:** I must mark every warp tile (both entry and exit) with '🚪' immediately after use to improve navigational memory.
 
 # III. Game Mechanics & Tile Types (Observed)
 - **Post-Battle Position Shift:** Sometimes, after a wild battle concludes, the player's character may be moved to a different, nearby tile.
