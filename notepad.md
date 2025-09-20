@@ -3,11 +3,11 @@
 - **Key Clue:** The **LIFT KEY** is needed to operate the elevator.
 
 ### Rocket Hideout B3F Maze (UNSOLVED)
-- **Summary:** The puzzle seems to involve sequential interactions with a Pikachu NPC at specific coordinates to alter spinner paths. The exact solution is still unknown.
+- **Summary:** The puzzle involves sequential interactions with a Pikachu NPC at specific coordinates to alter spinner paths. The path forward requires using the spinners, but the exact sequence is unknown. My pathfinder tool is currently unable to calculate spinner-based paths.
   - **Attempt 1:** Interact with Pikachu at (18, 17). **Result:** Pikachu disappeared, spinner at (19, 17) was altered, but did not open the final path.
   - **Attempt 2:** Interact with Pikachu at (18, 16). **Result:** Pikachu disappeared, spinner state seemed to change again, but did not open the final path.
   - **Attempt 3:** Interact with Pikachu at (20, 16). **Result:** Pikachu disappeared, but the path to the warp at (20, 19) remains blocked, confirmed by pathfinder tool.
-- **Current Hypothesis:** There is a hidden passage in the southern partition of the maze.
+  - **Attempt 4:** Interact with Pikachu at (21, 16). **Result:** Pikachu disappeared. Path to warp remains blocked according to pathfinder, likely due to a tool limitation with spinners.
 
 # II. Key Discoveries & Lessons Learned
 - **IMMEDIATE DATA MANAGEMENT (CRITICAL):** As an LLM, my thinking is not continuous. All maintenance tasks (tool creation/fixing, agent definition, notepad updates) are the absolute highest priority and **MUST** be performed successfully in the current turn. Deferring tasks is an invalid strategy and a core failure.
@@ -41,13 +41,6 @@
 - **`boulder_barrier` / `boulder_switch`:** Switch that clears a barrier when a boulder is pushed onto it.
 - **`closed_gate` / `open_gate` / `gate_offscreen`:** Gates that can block paths.
 
-# IV. Future Development Ideas
-- **Agent: Puzzle Solver:** An agent that takes a puzzle objective and a list of failed hypotheses and suggests new, mechanically-sound tests. Could be refined to understand known game mechanics like two-step warps.
-- **Tool: Elevator Operator:** A tool to automate the two-step process of using an elevator: `use_elevator(destination_floor)`.
-- **Agent: Inventory Manager:** An agent to suggest which items to deposit to manage the 20-item inventory bug.
-- **Tool/Agent: Spinner Maze Solver:** A specialized tool or agent to analyze spinner maze layouts and calculate the correct path, understanding forced movement mechanics.
-- **Tool: Inventory Selector:** A tool to automate selecting an item from the inventory by name or index, e.g., `select_inventory_item(name='LIFT KEY')`.
-
 # V. Archived Discoveries
 ## Archived Investigations
 ### The Old Amber
@@ -62,5 +55,3 @@
 - The Sleeping Snorlax
 - Cerulean City Investigation
 - Silph Co. Investigation
-  - **Attempt 4:** Interact with Pikachu at (20, 16) after it respawned. **Result:** Pikachu did not disappear. The interaction had no effect. **Conclusion:** Hypothesis denied. All interaction-based hypotheses are now exhausted.
-- **New Hypothesis:** There is a hidden passage in the southern partition of the maze. Plan is to manually check every wall tile.
