@@ -2,24 +2,23 @@
 - **Objective:** Find the BOSS.
 - **Key Clue:** The **LIFT KEY** is needed to operate the elevator.
 
-### Rocket Hideout B3F Maze (UNSOLVED)
-- **Current Understanding:** The puzzle involves a sequence of interactions with a Pikachu NPC, which alters the state of the spinner maze. Direct pathfinding has failed due to a tool limitation where it cannot calculate routes that involve riding on spinner tiles. The system has confirmed the exit is reachable, meaning the solution lies in using the spinners.
-- **Next Step:** I have upgraded my `automated_path_navigator` tool to correctly handle spinner traversal. I will now use this tool to find the correct path.
+### Rocket Hideout B3F Maze (SOLVED)
+- **Status:** The puzzle has been solved. My `automated_path_navigator` tool, after being upgraded to handle spinner tiles, successfully calculated the complex path required to reach the warp to B4F.
 
-# II. Key Discoveries & Lessons Learned
+# II. Core Directives & Lessons Learned
 - **IMMEDIATE DATA MANAGEMENT (CRITICAL):** As an LLM, my thinking is not continuous. All maintenance tasks (tool creation/fixing, agent definition, notepad updates) are the absolute highest priority and **MUST** be performed successfully in the current turn. Deferring tasks is an invalid strategy and a core failure.
-- **IMMEDIATE TOOL MAINTENANCE (CRITICAL):** If a custom tool malfunctions, I **MUST** fix it in the immediately following turn. Deferring tool maintenance is a critical failure. (Self-assessment lesson from `deposit_pc_item_by_index` failure).
-- **TRUST YOUR TOOLS (CRITICAL):** I must trust my tool outputs as the default assumption. Before debugging a tool, I must first verify my own position and assumptions against the game state. A 'no path found' result is a crucial piece of information, not a tool error.
-- **PROACTIVE AGENT USE:** I must use my custom agents for the tasks they were designed for. Failing to do so is inefficient.
-- **MAP MARKER DISCIPLINE:** I must mark every warp tile (both entry and exit) with '🚪' immediately after use. Hallucinations must be resolved before placing markers.
-- **HYPOTHESIS VETTING:** Before attempting to test a hypothesis, I must first confirm it is mechanically possible within the game's established rules.
+- **IMMEDIATE TOOL MAINTENANCE (CRITICAL):** If a custom tool malfunctions, I **MUST** fix it in the immediately following turn. Deferring tool maintenance is a critical failure.
+- **TRUST YOUR TOOLS & AGENTS (CRITICAL):** I must trust my tool and agent outputs as the default assumption. Before debugging, I must first verify my own position and assumptions against the game state. A 'no path found' result or an unexpected hypothesis is crucial information, not an error.
+- **PROACTIVE AGENT USE (CRITICAL):** I must use my custom agents for the tasks they were designed for. Failing to do so is inefficient and a critical failure.
+- **MAP MARKER DISCIPLINE (CRITICAL):** I must mark every warp tile (both entry and exit) with '🚪' and every defeated trainer with '☠️' immediately after the event. Maintaining accurate markers is essential.
+- **HYPOTHESIS VETTING (CRITICAL):** Before attempting to test a hypothesis, I must first confirm it is mechanically possible within the game's established rules.
 
 # III. Game Mechanics & Tile Types (Observed)
-- **Post-Battle Position Shift:** Sometimes, after a wild battle concludes, the player's character may be moved to a different, nearby tile.
+- **Post-Battle Position Shift:** The player's character may be moved to a nearby tile after a wild battle concludes.
 - **Ghost-type Damage:** Ghost-type moves deal SPECIAL damage, not physical.
-- **Purified Zone:** A specific tile area in the Pokémon Tower (5F) that fully heals the party upon entry.
+- **Purified Zone:** A tile area in Pokémon Tower (5F) that fully heals the party upon entry.
 - **Inventory Access Bug (Confirmed):** When the player's inventory contains 21 or more unique item stacks, selecting 'ITEM' from the Start Menu incorrectly opens the HM pocket.
-- **Celadon City Fly Anomaly:** Attempting to use HM Fly from anywhere within Celadon City teleports the player back inside the Celadon Department Store entrance.
+- **Celadon City Fly Anomaly:** Using HM Fly from anywhere within Celadon City teleports the player to the Celadon Department Store entrance.
 - **Fee Trigger Tile:** A tile that prompts for an entrance fee, even if the player is already inside the area. Paying the fee a second time broke a scripted movement loop.
 
 ### Tile Traversal Rules (Comprehensive)
@@ -28,25 +27,24 @@
 - **`ledge`:** One-way traversal. Can be jumped down from above (Y-1).
 - **`cuttable`:** Tree that can be cut with HM Cut. Respawns on map change.
 - **`water`:** Crossable using HM Surf.
-- `spinner_up/down/left/right`: Forces movement in the specified direction.
+- `spinner_up/down/left/right`: Forces movement. The `automated_path_navigator` can now model paths that utilize these tiles.
 - `spinner_stop`: A tile that halts movement from a spinner.
 - `teleport` / `hole` / `ladder_up` / `ladder_down`: Instant warp tiles.
 - **`2x1 Warp Tiles`:** Requires a two-step activation: 1. Stand on a warp tile. 2. Press a directional button into the impassable boundary.
-- **`Two-Step Elevator`:** A special warp requiring a two-step process: 1. Interact with the control panel to select a destination floor. 2. Step onto one of the adjacent warp tiles to travel.
+- **`Two-Step Elevator`:** A special warp requiring a two-step process: 1. Interact with the control panel to select a floor. 2. Step onto an adjacent warp tile to travel.
 - **`steps`:** Allows movement between `ground` and `elevated_ground`.
 - **`elevated_ground`:** Walkable ground at a different elevation.
 - **`boulder_barrier` / `boulder_switch`:** Switch that clears a barrier when a boulder is pushed onto it.
 - **`closed_gate` / `open_gate` / `gate_offscreen`:** Gates that can block paths.
 
-# V. Archived Discoveries
-## Archived Investigations
+# IV. Archived Investigations
 ### The Old Amber
 - **Objective:** Retrieve the Old Amber from the Pewter Museum of Science.
 - **Status:** On hold pending new leads.
 - **Confirmed Puzzle Steps:** 1. Lead with Geodude/fossil, speak to Old Man (1F). 2. Speak to Scientist (2F). 3. Interact with Kabutops Fossil (1F).
 - **Untested Agent-Generated Hypotheses:** Lead with a Pokémon holding a 'Nugget' or lead with a Porygon and speak to the Gambler NPC.
 
-# VI. Completed Quests
+# V. Completed Quests
 - The Ghost of Lavender Town
 - The Copycat's Gift
 - The Sleeping Snorlax
