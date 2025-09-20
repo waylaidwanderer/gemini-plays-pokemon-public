@@ -136,3 +136,8 @@
 - **Clue:** The Girl in the Trashed House mentioned Team Rocket is trying to 'DIG their way into no good!'
 - **Hypothesis:** Team Rocket is digging into the Cerulean Gym from the backyard area.
 - **Plan:** Leave the Trashed House and investigate the Cerulean Gym, specifically looking for signs of digging or new pathways.
+
+## Cerulean City Investigation (Post-Rocket Grunt)
+- **Clue:** The Girl in the Trashed House mentioned Team Rocket is trying to 'DIG their way into no good!'
+- **Hypothesis:** Team Rocket is digging into the Cerulean Gym from the backyard area.
+- **Plan:** Leave the Trashed House and investigate the Cerulean Gym, specifically looking for signs of digging or new pathways.
