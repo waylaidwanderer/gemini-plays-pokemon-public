@@ -78,3 +78,4 @@
 - **Agent Utilization:** If the 'Dig' hypothesis fails for the museum puzzle, I MUST use my `puzzle_hypothesis_generator` agent to brainstorm new solutions instead of relying on manual ideation.
 - **Hypothesis Test:** Use the move 'Rock Throw' while facing the Aerodactyl Fossil at (3, 4).
 - Used the move 'Rock Throw' while facing the Aerodactyl Fossil at (3, 4).
+- Using the move 'Rock Throw' on the Aerodactyl Fossil at (3, 4) just opens the item menu.
