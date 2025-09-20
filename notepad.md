@@ -74,3 +74,4 @@
 - Lead with a Pokémon holding a money/luck item (Amulet Coin) and speak to the Gambler.
 - Adjust money to a specific number (e.g., 777) and speak to the Gambler.
 - Use a 'Nugget' item on the Gambler.
+- **`Fee Trigger Tile`:** A tile that prompts for an entrance fee, even if the player is already inside the area. Dismissing the dialogue allows movement to continue.
