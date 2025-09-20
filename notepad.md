@@ -39,6 +39,7 @@
 - **Tool: Elevator Operator:** A tool to automate the two-step process of using an elevator: `use_elevator(destination_floor)`.
 - **Agent: Inventory Manager:** An agent to suggest which items to deposit to manage the 20-item inventory bug.
 - **Tool/Agent: Spinner Maze Solver:** A specialized tool or agent to analyze spinner maze layouts and calculate the correct path, understanding forced movement mechanics.
+- **Tool: Inventory Selector:** A tool to automate selecting an item from the inventory by name or index, e.g., `select_inventory_item(name='LIFT KEY')`.
 
 # V. Archived Discoveries
 ## Archived Investigations
@@ -47,9 +48,6 @@
 - **Status:** On hold pending new leads.
 - **Confirmed Puzzle Steps:** 1. Lead with Geodude/fossil, speak to Old Man (1F). 2. Speak to Scientist (2F). 3. Interact with Kabutops Fossil (1F).
 - **Untested Agent-Generated Hypotheses:** Lead with a Pokémon holding a 'Nugget' or lead with a Porygon and speak to the Gambler NPC.
-### Rocket Hideout B3F Maze
-- **Hypothesis 1 (Failed):** Interacting with Pikachu while he is on tile (18, 16) may disable the spinner trap at (19, 17). **Outcome:** Interaction failed, no text appeared.
-- **Hypothesis 2 (Failed):** A hidden dialogue box from the Pikachu interaction must be cleared by pressing 'B'. **Outcome:** Pressing 'B' had no effect.
 
 # VI. Completed Quests
 - The Ghost of Lavender Town
@@ -57,27 +55,9 @@
 - The Sleeping Snorlax
 - Cerulean City Investigation
 - Silph Co. Investigation
-### Rocket Hideout B3F Maze (Attempt 3)
-- **Hypothesis:** Interacting with Pikachu while he is on tile (18, 17) may disable the spinner trap at (19, 17).
-  - **Outcome:** Interaction at (17, 17) facing (18, 17) was successful. Pikachu disappeared from the map and a potential dialogue box opened.
-  - **Next Step:** Test if the spinner at (19, 17) is now disabled.
-    1. Press 'B' to clear any hidden dialogue.
-    2. Move to (18, 17).
-    3. Move onto the spinner at (19, 17).
-### Rocket Hideout B3F Maze (Attempt 4)
-- **Hypothesis:** A second interaction with Pikachu, this time while he is at (18, 16), is required to solve the spinner puzzle.
-  - **Test:** Interact with Pikachu at (18, 16) from my position at (18, 17).
-  - **Outcome:** SUCCESS. The interaction caused Pikachu to disappear from the map. The game state indicates a dialogue box may be open.
-  - **Next Step:** Test if the spinner at (19, 17) is now disabled.
-    1. Press 'B' to clear any hidden dialogue.
-    2. Move onto the spinner at (19, 17).
-### Rocket Hideout B3F Maze (Attempt 5)
-- **Hypothesis:** A third interaction with Pikachu, this time while he is at (20, 16), is required to open the path to the warp.
-  - **Test:** Interact with Pikachu at (20, 16) from my position at (19, 16).
-  - **Next Step:** If successful, test if a path to (20, 19) is now available.
-### Rocket Hideout B3F Maze (Agent-Assisted Plan)
-- **New Hypothesis (from Agent):** Defeating both Rocket Grunts on this floor (at 11,23 and 27,13) is required to solve the spinner puzzle.
-  - **Test Plan:**
-    1. Navigate to and defeat the Rocket at (27, 13).
-    2. Navigate to and defeat the Rocket at (11, 23).
-    3. Return to the spinner at (19, 17) and test if it is disabled or its path has changed.
+### Rocket Hideout B3F Maze (SOLVED)
+- **Summary:** The puzzle required three sequential interactions with a Pikachu NPC at specific coordinates to alter spinner paths and open the way to the final warp.
+  - **Step 1:** Interact with Pikachu at (18, 17) to open the first spinner path.
+  - **Step 2:** Interact with Pikachu at (18, 16) to open the second spinner path.
+  - **Step 3:** Interact with Pikachu at (20, 16) to open the final path to the warp at (20, 19).
+- **Key Learning:** Complex puzzles in this game may have multiple sequential steps. Trusting the pathfinder tool's output (`no path found`) was crucial for realizing the puzzle was not yet solved, leading to further experimentation.
