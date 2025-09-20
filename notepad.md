@@ -75,7 +75,7 @@
 
 ## Implemented Tools & Agents
 - **exploration_planner:** Agent to generate optimal routes for speaking to all unvisited NPCs in a city.
-- **navigation_assistant:** Agent to analyze pathfinder failure reasons (e.g., 'cuttable tree', 'water') and suggest the required HM or action. Can be improved to suggest more complex debugging steps or analyze map data for alternate routes.
+- **navigation_assistant:** Agent to analyze pathfinder failure reasons (e.g., 'cuttable tree', 'water') and suggest the required HM or action.
 - **type_advantage_checker:** Computational tool to find the best type advantage against an opponent.
 
 ## Consolidated Agent Ideas
