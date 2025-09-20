@@ -79,3 +79,9 @@
 - **Hypothesis Test:** Use the move 'Rock Throw' while facing the Aerodactyl Fossil at (3, 4).
 - Used the move 'Rock Throw' while facing the Aerodactyl Fossil at (3, 4).
 - Using the move 'Rock Throw' on the Aerodactyl Fossil at (3, 4) just opens the item menu.
+
+## Agent-Generated Hypotheses (Untested)
+- Use the move 'Metronome' while standing next to the MUSEUM1F_GAMBLER at (2, 5).
+- Have the lead Pokémon hold a 'Nugget' and then speak to the MUSEUM1F_GAMBLER at (2, 5).
+- Lead with a Porygon and speak to the MUSEUM1F_GAMBLER at (2, 5).
+- Speak to the MUSEUM1F_GAMBLER at (2, 5) while having exactly 777 Pokedollars.
