@@ -1,24 +1,15 @@
-# I. Active Investigation: The Old Amber
-- **Objective:** Retrieve the Old Amber from the Pewter Museum of Science.
-- **Current Obstacle:** A Scientist at (13, 5) on 1F blocks the path.
-- **Next Step:** Test the agent-generated hypothesis that having the lead Pokémon hold a 'Nugget' and speaking to the Gambler will trigger an event.
+# I. Rocket Hideout Investigation
+- **Objective:** Find the BOSS.
+- **Key Clue:** A Rocket Grunt on B3F at (27, 13) revealed that the **LIFT KEY** is needed to operate the elevator.
 
-### Confirmed Puzzle Steps (Internal Museum Sequence)
-1. Lead with a Geodude or a revived fossil Pokémon (Omanyte, Aerodactyl) and speak to the Old Man at (2, 5) on 1F.
-2. Speak to the Scientist at (8, 6) on 2F, who mentions the space exhibit.
-3. Interact with the Kabutops Fossil at (3, 7) on 1F.
-
-# II. Consolidated Failed Hypotheses
-- **(Attempt 1):** Using the move 'Metronome' on the Gambler at (2, 5) is impossible, as battle moves cannot be used from the overworld menu.
-- Leading with various Pokémon (resurrected Aerodactyl, non-fossil SPARKY) and speaking to the Gambler at (2, 5) changes his dialogue but does not move the blocking scientist.
-- Completing the full puzzle sequence (Old Man -> 2F Scientist -> Kabutops Fossil) does not move the blocking scientist.
-- Interacting with fossils in various orders or with different lead Pokémon has no effect.
-- Using key items (Coin Case) or consumable items (REVIVE) on NPCs or exhibits has no effect.
-- Completing external events (all Gym Leader rematches, speaking to all Pewter City NPCs) has no effect.
-- Interacting with the follower Pikachu near the fossils has no effect.
-- Hunting for Meowth on Route 7 to learn 'Pay Day' was unsuccessful; Meowth appears to be absent or extremely rare.
-- Using the move 'Dig' on the fossil exhibits is prevented by Professor Oak's dialogue.
-- Using the move 'Rock Throw' while facing the Aerodactyl Fossil at (3, 4) just opens the item menu. This confirms battle moves cannot be used on overworld objects.
+# II. Game Corner Investigation Plan
+- **Objective:** Determine the purpose of the Game Corner and find any hidden paths or items.
+- **Untested Assumptions to Verify:**
+  1. **Slot Machines are the primary/only source of prizes.**
+     - **Test:** Play a slot machine. Then, speak to all other reachable NPCs to see if they offer prizes or clues.
+  2. **The poster at (10, 5) is purely decorative.**
+     - **Test:** After checking slots and NPCs, interact with the poster at (10, 5) to check if it's a switch.
+- **Key Clue:** An NPC at (3, 11) revealed a rumor that the Game Corner is run by Team Rocket. This makes the poster at (10, 5) a high-priority target for investigation as a potential secret switch.
 
 # III. Key Discoveries & Lessons Learned
 - **IMMEDIATE DATA MANAGEMENT (CRITICAL):** As an LLM, my thinking is not continuous. All maintenance tasks (tool creation/fixing, agent definition, notepad updates) are the absolute highest priority and **MUST** be performed successfully in the current turn. Deferring tasks is an invalid strategy and a core failure.
@@ -47,11 +38,30 @@
 - **Tool Idea: Advanced PC Management:** A tool that can navigate PC menus to deposit/withdraw a specific Pokémon or item by its name or list index.
 - **Hypothesis Test Plan:** To combat fixation, after exhausting current hypotheses, I will ask the `puzzle_hypothesis_generator` for new ideas but exclude the Gambler NPC to see if it generates novel suggestions for other areas.
 
-# VI. Agent-Generated Hypotheses (Untested)
-- Have the lead Pokémon hold a 'Nugget' and then speak to the MUSEUM1F_GAMBLER at (2, 5).
-- Lead with a Porygon and speak to the MUSEUM1F_GAMBLER at (2, 5).
+# VI. Archived Discoveries
+## Archived Investigations
+### The Old Amber
+- **Objective:** Retrieve the Old Amber from the Pewter Museum of Science.
+- **Final Obstacle:** A Scientist at (13, 5) on 1F blocks the path.
+- **Status:** On hold pending new leads.
+- **Confirmed Puzzle Steps (Internal Museum Sequence):**
+  1. Lead with a Geodude or a revived fossil Pokémon and speak to the Old Man at (2, 5) on 1F.
+  2. Speak to the Scientist at (8, 6) on 2F, who mentions the space exhibit.
+  3. Interact with the Kabutops Fossil at (3, 7) on 1F.
+- **Failed Hypotheses:**
+  - Using battle moves on overworld NPCs/objects is impossible.
+  - Leading with various Pokémon (Aerodactyl, SPARKY) and speaking to the Gambler at (2, 5) only changes his dialogue.
+  - Completing the puzzle sequence does not move the blocking scientist.
+  - Interacting with fossils in various orders or with different lead Pokémon has no effect.
+  - Using key items (Coin Case) or consumable items (REVIVE) on NPCs or exhibits has no effect.
+  - Completing external events (all Gym Leader rematches, speaking to all Pewter City NPCs) has no effect.
+  - Interacting with the follower Pikachu near the fossils has no effect.
+  - Meowth with 'Pay Day' seems unavailable on Route 7.
+  - Using 'Dig' on fossil exhibits is prevented by dialogue.
+- **Untested Agent-Generated Hypotheses:**
+  - Have the lead Pokémon hold a 'Nugget' and then speak to the MUSEUM1F_GAMBLER at (2, 5).
+  - Lead with a Porygon and speak to the MUSEUM1F_GAMBLER at (2, 5).
 
-# VII. Archived Discoveries
 ## Completed Quests
 - **The Ghost of Lavender Town:** Rescued Mr. Fuji, received POKé FLUTE.
 - **The Copycat's Gift:** Gave POKé DOLL to COPYCAT, received TM31 MIMIC.
@@ -67,16 +77,3 @@
 - **Item Traps:** Some overworld items (Poké Balls) can be traps that trigger a wild Pokémon battle.
 ## Silph Co. Investigation
 - **Key Finding (7F):** A Silph Worker at (14, 14) revealed: "We canceled the MASTER BALL project because of TEAM ROCKET."
-
-# VIII. Game Corner Investigation Plan
-- **Objective:** Determine the purpose of the Game Corner and find any hidden paths or items.
-- **Untested Assumptions to Verify:**
-  1. **Slot Machines are the primary/only source of prizes.**
-     - **Test:** Play a slot machine. Then, speak to all other reachable NPCs to see if they offer prizes or clues.
-  2. **The poster at (10, 5) is purely decorative.**
-     - **Test:** After checking slots and NPCs, interact with the poster at (10, 5) to check if it's a switch.
-- **Key Clue:** An NPC at (3, 11) revealed a rumor that the Game Corner is run by Team Rocket. This makes the poster at (10, 5) a high-priority target for investigation as a potential secret switch.
-
-# IX. Rocket Hideout Investigation
-- **Objective:** Find the BOSS.
-- **Key Clue:** A Rocket Grunt on B3F at (27, 13) revealed that the **LIFT KEY** is needed to operate the elevator.
