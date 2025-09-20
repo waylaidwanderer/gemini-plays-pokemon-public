@@ -37,12 +37,11 @@
   - **Expected Outcome:** Progress in the Old Amber quest.
 
 # II. Key Discoveries & Lessons Learned
-- **Critical Directive Failure - Deferral of Tasks (CRITICAL):** I have repeatedly deferred critical maintenance tasks like marking defeated trainers. **Lesson Reinforced:** All maintenance and data management tasks are the absolute highest priority and MUST be performed successfully in the current turn.
-- **Critical Directive Failure - Tool Maintenance (CRITICAL):** I failed to immediately fix the `use_hm_from_menu` tool after it failed, instead resorting to manual inputs. I also failed to fix the `automated_path_navigator` despite multiple failures, violating the core directive of prioritizing tool refinement. **Lesson Reinforced:** Tool maintenance is the highest priority and must be performed in the same turn a failure is identified.
-- **Strategic Tool Use (Pathfinder):** My `automated_path_navigator` struggled on Route 12 due to an inefficient BFS for the specific map layout. I exhibited confirmation bias by blaming the tool instead of my strategy. **Lesson:** For complex navigation, I must break the problem down into smaller, intermediate sub-goals instead of trying to force a single, long path.
-- **Game Corner Entry Failure (CRITICAL):** Became stuck in a loop attempting to enter the Celadon Game Corner. **Lesson:** If a specific path is repeatedly blocked, do not persist. Re-evaluate, check for alternate routes, or pivot to a different high-priority goal.
+- **Critical Directive Failure - Deferral of Tasks (CRITICAL):** I have repeatedly deferred critical maintenance tasks like fixing the `automated_path_navigator` tool. **Lesson Reinforced:** All maintenance and data management tasks are the absolute highest priority and MUST be performed successfully in the current turn. Deferring tasks is an invalid strategy.
+- **Trust But Verify (CRITICAL):** I exhibited strong confirmation bias by assuming my `automated_path_navigator` was broken when it failed in Pewter City. The tool was correctly reporting an unreachable map partition, but I wasted dozens of turns trying to "fix" it instead of questioning my own flawed understanding of the map. **Lesson Reinforced:** I MUST trust my tool outputs as the default assumption. Before debugging a tool, I must first verify the game state and question my own assumptions.
+- **Agent Utilization Failure:** I failed to use my `multi_stage_navigator` agent when faced with the exact complex navigation puzzle it was designed for in Pewter City, instead resorting to a flawed manual approach. **Lesson Reinforced:** I must proactively use my custom agents for the tasks they were built for.
+- **Strategic Tool Use (Pathfinder):** For complex navigation, I must break the problem down into smaller, intermediate sub-goals instead of trying to force a single, long path. This segmented approach has proven effective in Pewter City.
 - **Puzzle State Persistence:** Leaving and re-entering the Pewter Museum does **not** reset the internal puzzle state.
-- **Confirmation Bias:** I exhibited confirmation bias with the 'Meowth' hypothesis and the belief that the museum puzzle solution was inside the museum. **Lesson:** I must be more willing to abandon a hypothesis quickly when it yields no results and actively try to disprove my own assumptions.
 - **Map Marker Discipline (WARPS):** I must mark every warp tile (both entry and exit) with '🚪' immediately after using it to improve my navigational memory and avoid getting lost in complex areas.
 
 # III. Game Mechanics (Observed)
@@ -82,6 +81,7 @@
 - **navigation_assistant:** Agent to analyze pathfinder failure reasons and suggest solutions.
 - **puzzle_hypothesis_generator:** Agent to generate novel hypotheses for in-game puzzles.
 - **select_battle_move:** Computational tool to automate selecting a move in battle.
+- **select_battle_option:** Tool to automatically select main battle menu options.
 - **type_advantage_checker:** Computational tool to find the best type advantage against an opponent.
 - **use_hm_from_menu:** Computational tool to automate using an HM from the party menu.
 
@@ -106,15 +106,3 @@
 ## Confirmed Assumptions
 - **Assumption:** The Jigglypuff at (2, 4) in the Pewter Pokémon Center is decorative. **Status: Confirmed.**
 - **Assumption:** The PC at (14, 4) in the Pewter Pokémon Center functions normally. **Status: Confirmed.**
-
-## Fixed Tools
-- **select_battle_move:** The tool has been updated. In-game testing confirmed the battle menu is a single vertical list, not a 2x2 grid.
-- **pokemon_hunter:** The tool has been refactored to accept a rectangular boundary to ensure all generated movements stay within a specified hunting area.
-- **use_hm_from_menu:** Corrected menu navigation logic. The previous version used a static, incorrect button sequence. The new script dynamically generates the correct number of 'Down' presses.
-
-## Archived NPC Dialogue Logs
-- **Visited NPCs (Fuchsia City - Post Gym Rematches)**
-  - FUCHSIACITY_YOUNGSTER1 at (11, 13) spoken to. No new dialogue.
-  - FUCHSIACITY_YOUNGSTER2 at (25, 9) spoken to. No new dialogue.
-  - FUCHSIACITY_ERIK at (31, 15) spoken to. No new dialogue.
-  - FUCHSIACITY_GAMBLER at (29, 18) - Unreachable.
