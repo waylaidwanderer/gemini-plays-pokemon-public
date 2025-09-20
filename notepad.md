@@ -95,3 +95,6 @@
 - **select_battle_move:** The tool has been updated. In-game testing confirmed the battle menu is a single vertical list, not a 2x2 grid.
 - **pokemon_hunter:** The tool has been refactored to accept a rectangular boundary to ensure all generated movements stay within a specified hunting area.
 - **use_hm_from_menu:** Corrected menu navigation logic. The previous version used a static, incorrect button sequence. The new script dynamically generates the correct number of 'Down' presses.
+## New Agent & Tool Ideas (Post-Reflection)
+- **Agent Idea: `battle_log_analyzer`**: Could analyze a series of battle logs to identify patterns in an opponent's move choices or switching strategy, providing predictive insights for future rematches.
+- **Tool Idea: `type_advantage_checker`**: A simple computational tool that takes the player's party and the current opponent's Pokémon type as input and outputs the Pokémon with the best type advantage, including a score for super-effective, not-very-effective, and immune matchups based on observed game mechanics.
