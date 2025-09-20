@@ -57,3 +57,10 @@
 - The Sleeping Snorlax
 - Cerulean City Investigation
 - Silph Co. Investigation
+### Rocket Hideout B3F Maze (Attempt 2)
+- **Hypothesis 3:** Interacting with Pikachu while he is on tile (18, 17) may disable the spinner trap at (19, 17).
+  - **Test Plan:**
+    1. Move to (18, 16) to swap positions with Pikachu, moving him to (18, 17).
+    2. Move to an adjacent tile like (17, 17).
+    3. Face and interact with Pikachu.
+    4. Check the spinner at (19, 17).
