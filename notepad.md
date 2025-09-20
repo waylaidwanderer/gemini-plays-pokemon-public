@@ -31,6 +31,11 @@
     - Reading the museum sign at (16, 10) and then immediately speaking to the Super Nerd at (28, 18) yielded no new dialogue. (Agent Hypothesis #4 FAILED)
     - Having the player's Pikachu interact with the NPC Pikachu at (27, 17) yielded no new dialogue or event. (Agent Hypothesis #5 FAILED)
 
+### New Hypotheses (Post-Gym Leader Rematches)
+- **Hypothesis:** Defeating all eight Kanto Gym Leaders in rematches may have triggered a change related to the Old Amber puzzle in the Pewter Museum of Science.
+  - **Test:** Travel to Pewter City and enter the museum. Check if the blocking Scientist at (13, 5) on 1F has moved, or if any NPCs in the museum or city have new dialogue.
+  - **Expected Outcome:** Progress in the Old Amber quest.
+
 # II. Key Discoveries & Lessons Learned
 - **Critical Directive Failure - Deferral of Tasks (CRITICAL):** I have repeatedly deferred critical maintenance tasks like marking defeated trainers. **Lesson Reinforced:** All maintenance and data management tasks are the absolute highest priority and MUST be performed successfully in the current turn.
 - **Critical Directive Failure - Tool Maintenance (CRITICAL):** I failed to immediately fix the `use_hm_from_menu` tool after it failed, instead resorting to manual inputs. This violates the core directive of prioritizing tool refinement. **Lesson Reinforced:** Tool maintenance is the highest priority and must be performed in the same turn a failure is identified.
@@ -67,11 +72,16 @@
 - **Route 7:** Pidgey, Vulpix, Koffing, Jigglypuff
 
 # VI. Tool & Agent Improvement Log
-- **exploration_planner:** Created an agent to generate optimal routes for speaking to all unvisited NPCs in a city.
-- **Consolidated Agent Ideas:**
-  - `navigation_debugger`: Analyze failed pathing attempts and suggest alternative strategies or map-based reasons for failure.
-  - `navigation_assistant`: Analyze pathfinder failure reasons (e.g., 'cuttable tree', 'water') and suggest the required HM or action.
-  - `trainer_predictor`: Predict likely Pokémon types for a given trainer class to assist in pre-battle party optimization.
+
+## Implemented Tools & Agents
+- **exploration_planner:** Agent to generate optimal routes for speaking to all unvisited NPCs in a city.
+- **navigation_assistant:** Agent to analyze pathfinder failure reasons (e.g., 'cuttable tree', 'water') and suggest the required HM or action.
+- **type_advantage_checker:** Computational tool to find the best type advantage against an opponent.
+
+## Consolidated Agent Ideas
+- `navigation_debugger`: Analyze failed pathing attempts and suggest alternative strategies or map-based reasons for failure.
+- `trainer_predictor`: Predict likely Pokémon types for a given trainer class to assist in pre-battle party optimization.
+- `battle_log_analyzer`: Could analyze a series of battle logs to identify patterns in an opponent's move choices or switching strategy, providing predictive insights for future rematches.
 
 # VII. Archived Discoveries & Confirmations
 
@@ -95,14 +105,9 @@
 - **select_battle_move:** The tool has been updated. In-game testing confirmed the battle menu is a single vertical list, not a 2x2 grid.
 - **pokemon_hunter:** The tool has been refactored to accept a rectangular boundary to ensure all generated movements stay within a specified hunting area.
 - **use_hm_from_menu:** Corrected menu navigation logic. The previous version used a static, incorrect button sequence. The new script dynamically generates the correct number of 'Down' presses.
-## New Agent & Tool Ideas (Post-Reflection)
-- **Agent Idea: `battle_log_analyzer`**: Could analyze a series of battle logs to identify patterns in an opponent's move choices or switching strategy, providing predictive insights for future rematches.
-- **Tool Idea: `type_advantage_checker`**: A simple computational tool that takes the player's party and the current opponent's Pokémon type as input and outputs the Pokémon with the best type advantage, including a score for super-effective, not-very-effective, and immune matchups based on observed game mechanics.
 
-## New Hypotheses (Post-Gym Leader Rematches)
-- **Hypothesis:** Defeating all eight Kanto Gym Leaders in rematches may have triggered a change related to the Old Amber puzzle in the Pewter Museum of Science.
-  - **Test:** Travel to Pewter City and enter the museum. Check if the blocking Scientist at (13, 5) on 1F has moved, or if any NPCs in the museum or city have new dialogue.
-  - **Expected Outcome:** Progress in the Old Amber quest.
-- FUCHSIACITY_YOUNGSTER1 at (9, 13) spoken to. No new dialogue.
+## Visited NPCs (Fuchsia City - Post Gym Rematches)
+- FUCHSIACITY_YOUNGSTER1 at (11, 13) spoken to. No new dialogue.
 - FUCHSIACITY_YOUNGSTER2 at (25, 9) spoken to. No new dialogue.
 - FUCHSIACITY_ERIK at (31, 15) spoken to. No new dialogue.
+- FUCHSIACITY_GAMBLER at (29, 18) - Unreachable.
