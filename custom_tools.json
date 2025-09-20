@@ -1193,7 +1193,7 @@
         "hm_slot_in_pokemon_menu"
       ]
     },
-    "python_script": "import json\n\npokemon_slot = int(input_data['pokemon_slot'])\nhm_slot = int(input_data['hm_slot_in_pokemon_menu'])\n\nbuttons = []\n\n# 1. Open Start Menu\nbuttons.append(\"Start\")\n\n# 2. Navigate from POKéDEX to POKéMON\nbuttons.append(\"Down\")\n\n# 3. Select POKéMON\nbuttons.append(\"A\")\n\n# 4. Navigate to the correct Pokémon in the party\nfor _ in range(pokemon_slot - 1):\n    buttons.append(\"Down\")\n\n# 5. Select the Pokémon\nbuttons.append(\"A\")\n\n# 6. Navigate to the correct HM in the move list\nfor _ in range(hm_slot - 1):\n    buttons.append(\"Down\")\n\n# 7. Select the HM\nbuttons.append(\"A\")\n\n# 8. Confirm using the HM (e.g., Surf)\nbuttons.append(\"A\")\n\nprint(json.dumps(buttons))",
+    "python_script": "import json\n\npokemon_slot = int(input_data['pokemon_slot'])\nhm_slot = int(input_data['hm_slot_in_pokemon_menu'])\n\nbuttons = []\n\n# 1. Open Start Menu\nbuttons.append(\"Start\")\n\n# 2. Reset cursor in Start Menu and navigate to POKéMON\nbuttons.extend([\"Up\"] * 10)\nbuttons.append(\"Down\")\nbuttons.append(\"A\")\n\n# 3. Reset cursor in Party Menu and navigate to the Pokémon\nbuttons.extend([\"Up\"] * 10)\nif pokemon_slot > 1:\n    buttons.extend([\"Down\"] * (pokemon_slot - 1))\nbuttons.append(\"A\")\n\n# 4. Reset cursor in Move Menu and navigate to the HM\nbuttons.extend([\"Up\"] * 10)\nif hm_slot > 1:\n    buttons.extend([\"Down\"] * (hm_slot - 1))\nbuttons.append(\"A\")\n\n# 5. Confirm HM usage if prompted\nbuttons.append(\"A\")\n\nprint(json.dumps(buttons))",
     "history": [
       {
         "commit_message": "feat: Create use_hm_from_menu tool. This tool automates using HMs from the party menu to prevent recurring manual input errors. This was identified as a necessary improvement during self-assessment.",
@@ -1239,6 +1239,11 @@
         "commit_message": "refactor: Overhaul HM tool logic to fix critical failure. The previous version used a faulty cursor reset mechanism that repeatedly failed by selecting the wrong menu options. This commit replaces it with a direct, step-by-step navigation sequence that starts from the known default cursor position ('POKéDEX'), ensuring reliable menu traversal and resolving the persistent tool failure.",
         "timestamp": "2025-09-20T07:01:22.918Z",
         "action_counter": 227730
+      },
+      {
+        "commit_message": "refactor: Implement robust multi-stage cursor reset. The tool repeatedly failed by selecting incorrect menu options (POKéDEX). This commit rewrites the script to add cursor reset sequences for the Start, Party, and Move menus, ensuring reliable navigation and resolving a persistent critical failure.",
+        "timestamp": "2025-09-20T07:04:54.839Z",
+        "action_counter": 227738
       }
     ]
   },

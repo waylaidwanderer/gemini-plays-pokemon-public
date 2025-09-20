@@ -111,3 +111,7 @@
 - To use Surf from a land tile adjacent to water, you must be facing the water.
 - The correct button sequence is: Start -> A (select POKéMON) -> [Navigate to Pokémon] -> A (select Pokémon) -> A (select SURF).
 - For my current party, the cursor in the party menu defaults to the 5th Pokémon (REVENANT). To select NEPTUNE (slot 3), the sequence is: Up, Up.
+## Manually Verified Button Sequences
+### Use Surf (from overworld)
+- **Context:** Player at (55, 12) facing left, Start Menu cursor on 'OPTION', Party Menu cursor on NEPTUNE (Slot 3), Move Menu cursor on SURF (Slot 4).
+- **Sequence:** Start -> Up -> Up -> Up -> Up -> A -> A -> A
