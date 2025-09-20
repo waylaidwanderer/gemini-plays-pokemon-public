@@ -103,3 +103,4 @@
 - **Hypothesis:** Defeating all eight Kanto Gym Leaders in rematches may have triggered a change related to the Old Amber puzzle in the Pewter Museum of Science.
   - **Test:** Travel to Pewter City and enter the museum. Check if the blocking Scientist at (13, 5) on 1F has moved, or if any NPCs in the museum or city have new dialogue.
   - **Expected Outcome:** Progress in the Old Amber quest.
+- FUCHSIACITY_YOUNGSTER1 at (9, 13) spoken to. No new dialogue.
