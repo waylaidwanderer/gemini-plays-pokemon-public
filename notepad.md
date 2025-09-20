@@ -5,8 +5,8 @@
 ### Rocket Hideout B3F Maze
 - **Status:** In progress.
 - **Key Discovery:** I now possess the **LIFT KEY**.
-- **Previous Hypotheses (Invalidated):** Earlier theories involved specific NPC interaction sequences. These are now superseded by having the key.
-- **Current Hypothesis:** The ROCKET at (27, 13) mentioned the LIFT KEY. Interacting with him while holding the key should progress the puzzle, or I must use the key on an elevator.
+- **Failed Hypothesis:** Interacting with the ROCKET at (27, 13) with the LIFT KEY changes his dialogue. (Result: No change).
+- **New Hypothesis:** The LIFT KEY must be used directly on the elevator. I need to return to the elevator room, which I previously accessed from B1F.
 
 # II. Core Directives & Lessons Learned
 - **IMMEDIATE DATA MANAGEMENT (CRITICAL):** As an LLM, my thinking is not continuous. All maintenance tasks (tool creation/fixing, agent definition, notepad updates) are the absolute highest priority and **MUST** be performed successfully in the current turn. Deferring tasks is an invalid strategy and a core failure. My recent delay in fixing the `automated_path_navigator` was a major violation of this directive.
