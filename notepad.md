@@ -80,3 +80,4 @@
 - **Critical Directive Failure (Deferral):** I have a history of deferring critical tasks like tool creation and notepad maintenance. This is an invalid strategy and must be corrected. All maintenance tasks are the highest priority.
 - **Agent Utilization:** If the 'Dig' hypothesis fails for the museum puzzle, I MUST use my `puzzle_hypothesis_generator` agent to brainstorm new solutions instead of relying on manual ideation.
 - **Tool Idea (PC Management):** A new tool, `deposit_pokemon_by_name`, would be a significant improvement over the current `deposit_top_item_from_pc` for managing my Pokémon storage.
+- Using the move 'Dig' on the fossil exhibits. **Outcome:** Professor Oak's dialogue prevents the move from being used, stating "This isn't the time to use that!". This hypothesis is invalid.

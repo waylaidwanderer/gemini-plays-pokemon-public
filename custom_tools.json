@@ -1193,7 +1193,7 @@
         "hm_slot_in_pokemon_menu"
       ]
     },
-    "python_script": "import json\nbuttons = []\n\n# Open Start Menu\nbuttons.append(\"Start\")\n\n# --- Robust Cursor Reset for Start Menu ---\n# Press 'Up' 10 times to ensure the cursor is at the top position ('POKéDEX').\nfor _ in range(10):\n    buttons.append(\"Up\")\n\n# Navigate to 'POKéMON' (1 down from the top)\nbuttons.append(\"Down\")\nbuttons.append(\"A\")\n\n# --- Robust Cursor Reset for Party Menu ---\n# Press 'Up' 10 times to ensure the cursor is at the top position (first Pokémon).\nfor _ in range(10):\n    buttons.append(\"Up\")\n\n# Select the correct Pokémon\npokemon_slot = int(input_data['pokemon_slot'])\nfor _ in range(pokemon_slot - 1):\n    buttons.append(\"Down\")\nbuttons.append(\"A\")\n\n# --- Robust Cursor Reset for Move Menu ---\n# Press 'Up' 10 times to ensure the cursor is at the top position (first move).\nfor _ in range(10):\n    buttons.append(\"Up\")\n\n# Select the correct HM\nhm_slot = int(input_data['hm_slot_in_pokemon_menu'])\nfor _ in range(hm_slot - 1):\n    buttons.append(\"Down\")\nbuttons.append(\"A\")\n\nprint(json.dumps(buttons))",
+    "python_script": "import json\n\ndef generate_hm_sequence():\n    try:\n        pokemon_slot = int(input_data['pokemon_slot'])\n        hm_slot = int(input_data['hm_slot_in_pokemon_menu'])\n\n        if not (1 <= pokemon_slot <= 6 and 1 <= hm_slot <= 4):\n            print(json.dumps([]))\n            return\n\n        buttons = ['Start']\n        \n        # Navigate to POKéMON from default Start Menu position\n        buttons.append('Down')\n        buttons.append('A')\n        \n        # Select Pokémon\n        for _ in range(pokemon_slot - 1):\n            buttons.append('Down')\n        buttons.append('A')\n        \n        # Select HM\n        for _ in range(hm_slot - 1):\n            buttons.append('Down')\n        buttons.append('A')\n\n        print(json.dumps(buttons))\n\n    except (ValueError, KeyError):\n        print(json.dumps([]))\n\ngenerate_hm_sequence()",
     "history": [
       {
         "commit_message": "feat: Create use_hm_from_menu tool. This tool automates using HMs from the party menu to prevent recurring manual input errors. This was identified as a necessary improvement during self-assessment.",
@@ -1304,6 +1304,11 @@
         "commit_message": "refactor: Implement robust, state-agnostic cursor reset. The tool repeatedly failed due to incorrect assumptions about the Start Menu's persistent cursor position. This commit completely rewrites the script to add a robust cursor reset sequence (pressing 'Up' 10 times) for the Start, Party, and Move menus. This removes any dependency on the previous menu state and ensures reliable navigation, resolving a critical and persistent tool failure based on direct feedback from the overwatch system.",
         "timestamp": "2025-09-20T14:47:25.161Z",
         "action_counter": 228760
+      },
+      {
+        "commit_message": "refactor: Overhaul script with simplified, direct navigation. The tool has repeatedly failed due to complex and unreliable cursor reset mechanisms. This commit replaces all previous logic with a simple, direct sequence of 'Down' presses from known default menu positions. This removes over-engineering and is based on the critical feedback that simpler is often more reliable. This is a direct attempt to resolve a persistent tool failure.",
+        "timestamp": "2025-09-20T14:50:12.578Z",
+        "action_counter": 228765
       }
     ]
   },
