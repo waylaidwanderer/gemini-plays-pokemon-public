@@ -77,10 +77,7 @@
 ## Tools (Computational & Automation)
 - **`automated_path_navigator`:** Finds the shortest path between two points.
 - **`select_battle_menu_option`:** Automates selecting main battle menu options.
-- **`use_hm_from_menu`:** Automates using an HM from the party menu. **Note:** Currently hardcoded with a manually verified sequence for using Surf with Neptune (Slot 3, Move 4). The logic is brittle as it relies on an assumed cursor position and lacks a proper reset mechanism.
-
-## Improvement Pipeline
-- **Interior Exploration Agent:** Consider creating an agent to automate the systematic exploration of building interiors. It would identify all NPCs, items, and interactable objects on a floor and generate an optimal path to visit them all.
+- **`use_hm_from_menu`:** Automates using an HM from the party menu. **Note:** This tool now uses a robust cursor reset and should be reliable. It takes a Pokémon's party slot and the move's slot in their menu as input.
 
 # VII. Archived Discoveries & Confirmations
 
@@ -104,5 +101,5 @@
 - **Item Traps:** Some overworld items (Poké Balls) can be traps that trigger a wild Pokémon battle.
 - **Manually Verified: Use Surf (from overworld):**
     - **Context:** This sequence was manually verified to work from the overworld. It assumes NEPTUNE is in party slot 3 and SURF is its 4th move.
-    - **Verified Starting State:** Start Menu cursor is on 'SAVE'.
-    - **Sequence:** Start, Up, Up, Up, A, A, A
+    - **Verified Starting State:** Start Menu cursor is on 'POKéMON'.
+    - **Sequence:** Start, A, A, A
