@@ -1281,52 +1281,31 @@
       }
     ]
   },
-  "type_advantage_checker": {
-    "description": "A computational tool that takes the player's party and the current opponent's Pokémon type(s) as input and outputs the Pokémon with the best type advantage, including a score for super-effective, not-very-effective, and immune matchups based on observed game mechanics.",
+  "select_battle_menu_option": {
+    "description": "Automatically selects a main battle menu option (FIGHT, PKMN, ITEM, RUN). Uses screen text for validation to ensure the menu is active, making it more reliable than checks based on the 'In Battle' flag alone. Should be called with autopress_buttons: true.",
     "input_schema": {
       "type": "object",
       "properties": {
-        "player_party": {
-          "type": "array",
-          "items": {
-            "type": "object",
-            "properties": {
-              "name": {
-                "type": "string"
-              },
-              "type1": {
-                "type": "string"
-              },
-              "type2": {
-                "type": "string",
-                "nullable": true
-              }
-            },
-            "required": [
-              "name",
-              "type1"
-            ]
-          }
-        },
-        "opponent_type1": {
-          "type": "string"
-        },
-        "opponent_type2": {
+        "option_to_select": {
           "type": "string",
-          "nullable": true
+          "enum": [
+            "FIGHT",
+            "PKMN",
+            "ITEM",
+            "RUN"
+          ]
         }
       },
       "required": [
-        "player_party",
-        "opponent_type1"
+        "option_to_select"
       ]
     },
-    "python_script": "import json\n\nplayer_party = json.loads(input_data['player_party'])\nopponent_type1 = input_data['opponent_type1']\nopponent_type2 = input_data.get('opponent_type2')\n\n# Type effectiveness chart based on observed mechanics\neffectiveness = {\n    'Normal': {'Ground': 2.0, 'Ghost': 0.0},\n    'Grass': {'Ground': 2.0},\n    'Ground': {},\n    'Ghost': {},\n    # Add more as they are discovered\n}\n\ndef calculate_damage_multiplier(attack_type, defend_type1, defend_type2):\n    mult = effectiveness.get(attack_type, {}).get(defend_type1, 1.0)\n    if defend_type2:\n        mult *= effectiveness.get(attack_type, {}).get(defend_type2, 1.0)\n    return mult\n\nbest_pokemon = None\nbest_score = -1\n\nfor pokemon in player_party:\n    score1 = calculate_damage_multiplier(pokemon['type1'], opponent_type1, opponent_type2)\n    score2 = 0\n    if pokemon.get('type2'):\n        score2 = calculate_damage_multiplier(pokemon['type2'], opponent_type1, opponent_type2)\n    \n    current_score = max(score1, score2)\n    \n    if current_score > best_score:\n        best_score = current_score\n        best_pokemon = pokemon['name']\n\nresult = {\n    'best_pokemon': best_pokemon,\n    'advantage_score': best_score,\n    'reasoning': f'{best_pokemon} has the best type advantage with a score of {best_score}x against the opponent.'\n}\n\nprint(json.dumps(result))",
+    "python_script": "import json\n\noption = input_data.get('option_to_select')\ntext_on_screen = \"\"\ntry:\n    screen_data = json.loads(screen_text_json)\n    if 'raw' in screen_data:\n        text_on_screen = screen_data['raw']\nexcept (json.JSONDecodeError, KeyError):\n    pass\n\nis_battle_menu_visible = 'FIGHT' in text_on_screen and 'PKMN' in text_on_screen\n\nif not is_battle_menu_visible:\n    print(json.dumps([]))\nelse:\n    if option == 'FIGHT':\n        print(json.dumps(['A']))\n    elif option == 'PKMN':\n        print(json.dumps(['Right', 'A']))\n    elif option == 'ITEM':\n        print(json.dumps(['Down', 'A']))\n    elif option == 'RUN':\n        print(json.dumps(['Right', 'Down', 'A']))\n    else:\n        print(json.dumps([]))",
     "history": [
       {
-        "commit_message": "Initial version",
-        "timestamp": "2025-09-20T01:30:35.793Z",
-        "action_counter": 227221
+        "commit_message": "feat: Create select_battle_menu_option tool. This tool adds screen text validation for reliability, addressing a persistent failure noted by the overwatch system. It replaces a previously deleted tool to stay within the custom tool limit.",
+        "timestamp": "2025-09-20T05:39:04.027Z",
+        "action_counter": 227582
       }
     ]
   }
