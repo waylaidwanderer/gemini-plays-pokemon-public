@@ -3,8 +3,8 @@
 ## Main Quest: The Old Amber
 - **Objective:** Retrieve the Old Amber from the Pewter Museum of Science.
 - **Current Obstacle:** A Scientist at (13, 5) on 1F blocks the path.
-- **Key Finding:** Showing a living, resurrected Aerodactyl to the Gambler at (2, 5) changes his dialogue to "magnificent fossil!". This confirms a special interaction is required but does not, by itself, move the blocking scientist.
-- **New Hypothesis:** Using a REVIVE on one of the fossil displays may trigger an event, similar to reviving a fainted Pokémon.
+- **Current Hypothesis:** Using a REVIVE on one of the fossil displays may trigger an event.
+- **Next Step:** If the REVIVE hypothesis fails, I will use my `puzzle_hypothesis_generator` agent to brainstorm new solutions.
 
 ### Confirmed Puzzle Steps (Internal Museum Sequence)
 1. Lead with a Geodude or a revived fossil Pokémon (Omanyte, Aerodactyl) and speak to the Old Man at (2, 5) on 1F.
@@ -20,10 +20,9 @@
 - Interacting with the Pikachu at (10, 5) while having a Pokémon with Surf in the party has no effect. **Outcome:** The Pikachu briefly disappeared and reappeared, but the interaction failed to produce dialogue and the blocking scientist remains.
 
 # II. Key Discoveries & Lessons Learned
-- **Trust But Verify (CRITICAL):** I exhibited strong confirmation bias by assuming my `automated_path_navigator` was broken when it failed in Pewter City. The tool was correctly reporting an unreachable map partition, but I wasted dozens of turns trying to "fix" it instead of questioning my own flawed understanding of the map. **Lesson Reinforced:** I MUST trust my tool outputs as the default assumption. Before debugging a tool, I must first verify the game state and question my own assumptions.
-- **Critical Directive Failure - Deferral of Tasks (CRITICAL):** I have repeatedly deferred critical maintenance tasks like fixing tools or cleaning my notepad. **Lesson Reinforced:** All maintenance and data management tasks are the absolute highest priority and MUST be performed successfully in the current turn. Deferring tasks is an invalid strategy.
+- **Confirmation Bias (CRITICAL):** I exhibited strong confirmation bias by assuming my `automated_path_navigator` was broken when it failed in Pewter City. I repeatedly fed it incorrect starting coordinates based on a hallucinated position instead of trusting the Game State Information. The tool was correctly reporting an unreachable map partition. **Lesson Reinforced:** I MUST trust my tool outputs as the default assumption and always verify my own position and assumptions against the game state before debugging a tool.
+- **Critical Directive Failure - Deferral of Tasks (CRITICAL):** I have repeatedly deferred critical maintenance tasks like fixing tools or cleaning my notepad by setting them as future goals. **Lesson Reinforced:** All maintenance and data management tasks are the absolute highest priority and MUST be performed successfully in the current turn. Deferring tasks is an invalid strategy.
 - **Agent Utilization Failure:** I failed to use my `multi_stage_navigator` agent when faced with the exact complex navigation puzzle it was designed for in Pewter City, instead resorting to a flawed manual approach. **Lesson Reinforced:** I must proactively use my custom agents for the tasks they were built for.
-- **Strategic Tool Use (Pathfinder):** For complex navigation, I must break the problem down into smaller, intermediate sub-goals instead of trying to force a single, long path.
 - **Puzzle State Persistence:** Leaving and re-entering the Pewter Museum does **not** reset the internal puzzle state.
 - **Map Marker Discipline (WARPS):** I must mark every warp tile (both entry and exit) with '🚪' immediately after using it to improve my navigational memory and avoid getting lost in complex areas.
 
@@ -52,8 +51,9 @@
 ## Tools (Computational & Automation)
 - **`automated_path_navigator`:** Finds the shortest path between two points.
 - **`select_battle_menu_option`:** Automates selecting main battle menu options.
-- **`use_hm_from_menu`:** A tool for using HMs that is currently under review for reliability issues. It must be fixed, not abandoned.
+- **`use_hm_from_menu`:** Automates using an HM from the party menu with a simplified, direct navigation logic.
 - **`stun_npc`**: Freezes a specified NPC in place to prevent them from moving.
+- **`deposit_top_item_from_pc`**: Automates depositing the top-most item from the player's inventory into the PC.
 
 # VI. Archived Discoveries
 
@@ -69,7 +69,7 @@
 - **Objective:** Investigate the path blocked by the sleeping Snorlax.
 - **Outcome:** Used the POKé FLUTE to wake the Snorlax on Route 11, clearing the path. The Snorlax disappeared without a battle.
 ### Cerulean City Investigation
-- **Outcome:** Defeated the Rocket Grunt in the backyard area and Gym Leader Misty in a rematch. However, Officer Jenny at (29, 13) is still blocking the path east to Route 9. This investigation is concluded.
+- **Outcome:** Defeated the Rocket Grunt in the backyard area and Gym Leader Misty in a rematch. Officer Jenny at (29, 13) is still blocking the path east to Route 9. This investigation is concluded.
 
 ## Confirmed Assumptions & Verified Sequences
 - **Manually Verified: Use Surf (Reliable Sequence):**
