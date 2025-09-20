@@ -56,5 +56,3 @@
 - The Sleeping Snorlax
 - Cerulean City Investigation
 - Silph Co. Investigation
-- **Tool: Elevator Operator:** A tool to automate the two-step process of using an elevator: `use_elevator(destination_floor)`.
-- **Agent: Inventory Manager:** An agent to suggest which items to deposit to manage the 20-item inventory bug.
