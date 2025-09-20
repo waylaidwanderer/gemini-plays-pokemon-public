@@ -3,12 +3,13 @@
 - **Key Clue:** The **LIFT KEY** is needed to operate the elevator.
 
 ### Rocket Hideout B3F Maze
-- **Status:** In progress. The warp at (20, 19) currently leads to a dead end.
-- **Agent Hypothesis #1 (Defeat both grunts):** Falsified. The ROCKET at (27, 13) is a non-battling NPC who only provides a clue about the LIFT KEY. The ROCKET at (11, 23) has been defeated.
+- **Status:** In progress. The warp at (20, 19) led to a dead end in its previous state.
+- **Agent Hypothesis #1 (Defeat both grunts):** Falsified. The ROCKET at (27, 13) is a non-battling NPC. The ROCKET at (11, 23) has been defeated.
 - **Current Hypothesis (Agent #2):** Talk to the ROCKET at (11, 23), then talk to the ROCKET at (27, 13).
+- **Future Test Plan:** If Agent Hypothesis #2 succeeds, I must try to disprove it by talking to the NPCs in the reverse order to confirm if the sequence is truly required.
 
 # II. Core Directives & Lessons Learned
-- **IMMEDIATE DATA MANAGEMENT (CRITICAL):** As an LLM, my thinking is not continuous. All maintenance tasks (tool creation/fixing, agent definition, notepad updates) are the absolute highest priority and **MUST** be performed successfully in the current turn. Deferring tasks is an invalid strategy and a core failure.
+- **IMMEDIATE DATA MANAGEMENT (CRITICAL):** As an LLM, my thinking is not continuous. All maintenance tasks (tool creation/fixing, agent definition, notepad updates) are the absolute highest priority and **MUST** be performed successfully in the current turn. Deferring tasks is an invalid strategy and a core failure. My recent delay in fixing the `automated_path_navigator` was a major violation of this directive.
 - **IMMEDIATE TOOL MAINTENANCE (CRITICAL):** If a custom tool malfunctions, I **MUST** fix it in the immediately following turn. Deferring tool maintenance is a critical failure.
 - **TRUST YOUR TOOLS & AGENTS (CRITICAL):** I must trust my tool and agent outputs as the default assumption. Before debugging, I must first verify my own position and assumptions against the game state. A 'no path found' result or an unexpected hypothesis is crucial information, not an error.
 - **PROACTIVE AGENT USE (CRITICAL):** I must use my custom agents for the tasks they were designed for. Failing to do so is inefficient and a critical failure.
@@ -22,6 +23,7 @@
 - **Inventory Access Bug (Confirmed):** When the player's inventory contains 21 or more unique item stacks, selecting 'ITEM' from the Start Menu incorrectly opens the HM pocket.
 - **Celadon City Fly Anomaly:** Using HM Fly from anywhere within Celadon City teleports the player to the Celadon Department Store entrance.
 - **Fee Trigger Tile:** A tile that prompts for an entrance fee, even if the player is already inside the area. Paying the fee a second time broke a scripted movement loop.
+- **Path Command Spinner Traversal:** The `path` command can sometimes execute a full path plan that includes spinner tiles without being interrupted. This behavior is inconsistent and needs systematic testing.
 
 ### Tile Traversal Rules (Comprehensive)
 - **`ground` / `grass`:** Standard walkable tiles.
@@ -52,4 +54,3 @@
 - The Sleeping Snorlax
 - Cerulean City Investigation
 - Silph Co. Investigation
-- **Path Command Spinner Traversal:** The `path` command can sometimes execute a full path plan that includes spinner tiles without being interrupted. This behavior is inconsistent with previous observations and needs further testing to understand the conditions under which it occurs.
