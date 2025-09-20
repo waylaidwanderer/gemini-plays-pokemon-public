@@ -89,3 +89,11 @@
 - **Objective:** Find clues related to the Old Amber puzzle.
 - **Key Finding (7F):** A Silph Worker at (14, 14) revealed: "We canceled the MASTER BALL project because of TEAM ROCKET."
 - Using a REVIVE item on the fossil displays has no effect. The game opens the standard party menu.
+- Using a REVIVE item on the fossil displays has no effect.
+
+## Agent-Generated Hypotheses (Untested)
+- Lead with a Pokémon that knows 'Pay Day' and speak to the Gambler at (2, 5).
+- Use 'Rock Smash' on the fossil exhibits.
+- Lead with a Pokémon holding a money/luck item (Amulet Coin) and speak to the Gambler.
+- Adjust money to a specific number (e.g., 777) and speak to the Gambler.
+- Use a 'Nugget' item on the Gambler.
