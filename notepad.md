@@ -38,7 +38,7 @@
 
 # II. Key Discoveries & Lessons Learned
 - **Critical Directive Failure - Deferral of Tasks (CRITICAL):** I have repeatedly deferred critical maintenance tasks like marking defeated trainers. **Lesson Reinforced:** All maintenance and data management tasks are the absolute highest priority and MUST be performed successfully in the current turn.
-- **Critical Directive Failure - Tool Maintenance (CRITICAL):** I failed to immediately fix the `use_hm_from_menu` tool after it failed, instead resorting to manual inputs. This violates the core directive of prioritizing tool refinement. **Lesson Reinforced:** Tool maintenance is the highest priority and must be performed in the same turn a failure is identified.
+- **Critical Directive Failure - Tool Maintenance (CRITICAL):** I failed to immediately fix the `use_hm_from_menu` tool after it failed, instead resorting to manual inputs. I also failed to fix the `automated_path_navigator` despite multiple failures, violating the core directive of prioritizing tool refinement. **Lesson Reinforced:** Tool maintenance is the highest priority and must be performed in the same turn a failure is identified.
 - **Strategic Tool Use (Pathfinder):** My `automated_path_navigator` struggled on Route 12 due to an inefficient BFS for the specific map layout. I exhibited confirmation bias by blaming the tool instead of my strategy. **Lesson:** For complex navigation, I must break the problem down into smaller, intermediate sub-goals instead of trying to force a single, long path.
 - **Game Corner Entry Failure (CRITICAL):** Became stuck in a loop attempting to enter the Celadon Game Corner. **Lesson:** If a specific path is repeatedly blocked, do not persist. Re-evaluate, check for alternate routes, or pivot to a different high-priority goal.
 - **Puzzle State Persistence:** Leaving and re-entering the Pewter Museum does **not** reset the internal puzzle state.
@@ -75,7 +75,7 @@
 
 ## Implemented Tools & Agents
 - **exploration_planner:** Agent to generate optimal routes for speaking to all unvisited NPCs in a city.
-- **navigation_assistant:** Agent to analyze pathfinder failure reasons (e.g., 'cuttable tree', 'water') and suggest the required HM or action.
+- **navigation_assistant:** Agent to analyze pathfinder failure reasons (e.g., 'cuttable tree', 'water') and suggest the required HM or action. Can also be used to interpret more complex failures and suggest alternate routing strategies.
 - **type_advantage_checker:** Computational tool to find the best type advantage against an opponent.
 
 ## Consolidated Agent Ideas
@@ -106,9 +106,9 @@
 - **use_hm_from_menu:** Corrected menu navigation logic. The previous version used a static, incorrect button sequence. The new script dynamically generates the correct number of 'Down' presses.
 
 ## Archived NPC Dialogue Logs
-### Visited NPCs (Fuchsia City - Post Gym Rematches)
-- FUCHSIACITY_YOUNGSTER1 at (11, 13) spoken to. No new dialogue.
-- FUCHSIACITY_YOUNGSTER2 at (25, 9) spoken to. No new dialogue.
-- FUCHSIACITY_ERIK at (31, 15) spoken to. No new dialogue.
-- FUCHSIACITY_GAMBLER at (29, 18) - Unreachable.
 - **Automated Path Navigator Failure (Pewter City):** The tool is consistently failing to find paths in Pewter City due to a directional bias in its BFS search. Multiple attempts to fix the tool by changing the neighbor exploration order have been blocked by a system error (`define_tool: Error: The provided python_script is identical...`), preventing any updates. I am forced to abandon the tool for this area and proceed with manual navigation.
+- **Visited NPCs (Fuchsia City - Post Gym Rematches)**
+  - FUCHSIACITY_YOUNGSTER1 at (11, 13) spoken to. No new dialogue.
+  - FUCHSIACITY_YOUNGSTER2 at (25, 9) spoken to. No new dialogue.
+  - FUCHSIACITY_ERIK at (31, 15) spoken to. No new dialogue.
+  - FUCHSIACITY_GAMBLER at (29, 18) - Unreachable.
