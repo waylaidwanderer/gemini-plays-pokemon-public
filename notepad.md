@@ -16,6 +16,7 @@
 - Solving the full puzzle sequence (Old Man -> 2F Scientist -> Kabutops Fossil) does not move the blocking scientist.
 - Interacting with the Aerodactyl/Kabutops fossils in various orders, with different lead Pokémon, or in combination with speaking to NPCs does not move the scientist.
 - Using key items like the Coin Case on NPCs has no effect.
+- Speaking to the Gambler at (2, 5) with a non-fossil Pokémon (SPARKY) in the lead results in the same "magnificent fossil!" dialogue, having no effect on the puzzle.
 - Completing external events (all Gym Leader rematches, speaking to all Pewter City NPCs) has no effect on the puzzle.
 - Interacting with the Pikachu at (10, 5) while having a Pokémon with Surf in the party has no effect. **Outcome:** The Pikachu briefly disappeared and reappeared, but the interaction failed to produce dialogue and the blocking scientist remains.
 
