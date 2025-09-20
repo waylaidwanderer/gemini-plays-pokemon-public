@@ -33,6 +33,7 @@
 
 ## Anomalous Events
 - **Celadon City Fly Anomaly:** Attempting to use the HM Fly from anywhere within Celadon City results in a strange event. The screen fades as if the flight is initiating, but the player is instead teleported back inside the Celadon Department Store entrance. This behavior does not occur when using Fly from adjacent maps like Route 7.
+- **Inventory Access Bug:** When the player's inventory is full (current theory: over 20 items), selecting 'ITEM' from the Start Menu incorrectly opens the HM pocket instead of the main bag. This bug is not map-specific.
 
 # IV. Tile Mechanics (Observed)
 - **ground:** Standard walkable tile.
