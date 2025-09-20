@@ -71,3 +71,7 @@
   - **Next Step:** Test if the spinner at (19, 17) is now disabled.
     1. Press 'B' to clear any hidden dialogue.
     2. Move onto the spinner at (19, 17).
+### Rocket Hideout B3F Maze (Attempt 5)
+- **Hypothesis:** A third interaction with Pikachu, this time while he is at (20, 16), is required to open the path to the warp.
+  - **Test:** Interact with Pikachu at (20, 16) from my position at (19, 16).
+  - **Next Step:** If successful, test if a path to (20, 19) is now available.
