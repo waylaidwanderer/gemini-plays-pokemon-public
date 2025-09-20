@@ -70,3 +70,4 @@
   6. Press 'A' to interact.
   7. **Outcome:** Interaction failed. No text appeared, but the game entered a state suggesting a hidden dialogue box. Hypothesis denied.
   8. **New Hypothesis:** A hidden dialogue box must be cleared by pressing 'B'.
+  8. **New Hypothesis:** A hidden dialogue box must be cleared by pressing 'B'.
