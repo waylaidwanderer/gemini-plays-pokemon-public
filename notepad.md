@@ -75,3 +75,8 @@
 - Lead with a Pokémon holding a money/luck item (Amulet Coin) and speak to the Gambler.
 - Adjust money to a specific number (e.g., 777) and speak to the Gambler.
 - Use a 'Nugget' item on the Gambler.
+
+## Self-Correction & Planning (Turn 228760)
+- **Critical Directive Failure (Deferral):** I have a history of deferring critical tasks like tool creation and notepad maintenance. This is an invalid strategy and must be corrected. All maintenance tasks are the highest priority.
+- **Agent Utilization:** If the 'Dig' hypothesis fails for the museum puzzle, I MUST use my `puzzle_hypothesis_generator` agent to brainstorm new solutions instead of relying on manual ideation.
+- **Tool Idea (PC Management):** A new tool, `deposit_pokemon_by_name`, would be a significant improvement over the current `deposit_top_item_from_pc` for managing my Pokémon storage.
