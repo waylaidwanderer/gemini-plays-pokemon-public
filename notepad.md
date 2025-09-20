@@ -33,10 +33,10 @@
     - Defeating all eight Kanto Gym Leaders in rematches did not move the blocking scientist at (13, 5) in the Pewter Museum of Science. (Hypothesis FAILED)
 
 # II. Key Discoveries & Lessons Learned
-- **Critical Directive Failure - Deferral of Tasks (CRITICAL):** I have repeatedly deferred critical maintenance tasks like fixing the `automated_path_navigator` tool. **Lesson Reinforced:** All maintenance and data management tasks are the absolute highest priority and MUST be performed successfully in the current turn. Deferring tasks is an invalid strategy.
+- **Critical Directive Failure - Deferral of Tasks (CRITICAL):** I have repeatedly deferred critical maintenance tasks like fixing tools or cleaning my notepad. **Lesson Reinforced:** All maintenance and data management tasks are the absolute highest priority and MUST be performed successfully in the current turn. Deferring tasks is an invalid strategy.
 - **Trust But Verify (CRITICAL):** I exhibited strong confirmation bias by assuming my `automated_path_navigator` was broken when it failed in Pewter City. The tool was correctly reporting an unreachable map partition, but I wasted dozens of turns trying to "fix" it instead of questioning my own flawed understanding of the map. **Lesson Reinforced:** I MUST trust my tool outputs as the default assumption. Before debugging a tool, I must first verify the game state and question my own assumptions.
 - **Agent Utilization Failure:** I failed to use my `multi_stage_navigator` agent when faced with the exact complex navigation puzzle it was designed for in Pewter City, instead resorting to a flawed manual approach. **Lesson Reinforced:** I must proactively use my custom agents for the tasks they were built for.
-- **Strategic Tool Use (Pathfinder):** For complex navigation, I must break the problem down into smaller, intermediate sub-goals instead of trying to force a single, long path. This segmented approach has proven effective in Pewter City.
+- **Strategic Tool Use (Pathfinder):** For complex navigation, I must break the problem down into smaller, intermediate sub-goals instead of trying to force a single, long path.
 - **Puzzle State Persistence:** Leaving and re-entering the Pewter Museum does **not** reset the internal puzzle state.
 - **Map Marker Discipline (WARPS):** I must mark every warp tile (both entry and exit) with '🚪' immediately after using it to improve my navigational memory and avoid getting lost in complex areas.
 
@@ -81,9 +81,11 @@
 - **type_advantage_checker:** Computational tool to find the best type advantage against an opponent.
 - **use_hm_from_menu:** Computational tool to automate using an HM from the party menu.
 
-## Consolidated Agent Ideas
-- `trainer_predictor`: Predict likely Pokémon types for a given trainer class to assist in pre-battle party optimization.
-- `battle_log_analyzer`: Could analyze a series of battle logs to identify patterns in an opponent's move choices or switching strategy, providing predictive insights for future rematches.
+## Improvement Pipeline
+- **`navigation_assistant` (Agent):** Consider for deletion. Its function (parsing pathfinder failure strings) could be integrated directly into the `automated_path_navigator` tool's error output for better efficiency.
+- **`menu_navigation_planner` (New Agent Idea):** Could take a menu description as input and output the correct sequence of button presses to navigate it. This would be useful for preventing future tool failures like the `use_hm_from_menu` issue.
+- **`trainer_predictor` (New Agent Idea):** Predict likely Pokémon types for a given trainer class to assist in pre-battle party optimization.
+- **`battle_log_analyzer` (New Agent Idea):** Could analyze a series of battle logs to identify patterns in an opponent's move choices or switching strategy, providing predictive insights for future rematches.
 
 # VII. Archived Discoveries & Confirmations
 
@@ -98,11 +100,10 @@
 ### The Sleeping Snorlax
 - **Objective:** Investigate the path blocked by the sleeping Snorlax.
 - **Outcome:** Used the POKé FLUTE to wake the Snorlax on Route 11, clearing the path. The Snorlax disappeared without a battle.
+### Cerulean City Investigation
+- **Outcome:** Defeated the Rocket Grunt in the backyard area and Gym Leader Misty in a rematch. However, Officer Jenny at (29, 13) is still blocking the path east to Route 9. This investigation is concluded.
 
 ## Confirmed Assumptions
 - **Assumption:** The Jigglypuff at (2, 4) in the Pewter Pokémon Center is decorative. **Status: Confirmed.**
 - **Assumption:** The PC at (14, 4) in the Pewter Pokémon Center functions normally. **Status: Confirmed.**
 - **Item Traps:** Some overworld items (Poké Balls) can be traps that trigger a wild Pokémon battle (e.g., Electrode in Cerulean City).
-
-# [DELETED]
-- **Outcome:** Defeated the Rocket Grunt in the backyard area and Gym Leader Misty in a rematch. However, Officer Jenny at (29, 13) is still blocking the path east to Route 9. This investigation is concluded.
