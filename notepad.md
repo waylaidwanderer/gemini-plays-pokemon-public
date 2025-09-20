@@ -111,3 +111,4 @@
 - FUCHSIACITY_YOUNGSTER2 at (25, 9) spoken to. No new dialogue.
 - FUCHSIACITY_ERIK at (31, 15) spoken to. No new dialogue.
 - FUCHSIACITY_GAMBLER at (29, 18) - Unreachable.
+- `tool_debugger_agent`: An agent that, given a failing tool and context, suggests a simpler test case to isolate the bug.
