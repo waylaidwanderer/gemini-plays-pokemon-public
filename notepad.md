@@ -113,3 +113,4 @@
 ## Silph Co. Investigation
 - **Objective:** Find clues related to the Old Amber puzzle.
 - **Key Finding (7F):** A Silph Worker at (14, 14) revealed: "We canceled the MASTER BALL project because of TEAM ROCKET."
+- **2x1 Warp Tiles:** Some warps, like the Silph Co. elevator, require a two-step activation: 1. Stand on one of the warp tiles. 2. Press a directional button (e.g., Down) into the impassable boundary to trigger the warp.
