@@ -1367,69 +1367,6 @@
       }
     ]
   },
-  "select_battle_menu_option": {
-    "description": "Automatically selects a main battle menu option (FIGHT, PKMN, ITEM, RUN). Uses screen text for validation to ensure the menu is active, making it more reliable than checks based on the 'In Battle' flag alone. Should be called with autopress_buttons: true.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "option_to_select": {
-          "type": "string",
-          "enum": [
-            "FIGHT",
-            "PKMN",
-            "ITEM",
-            "RUN"
-          ]
-        },
-        "screen_text": {
-          "type": "string",
-          "description": "The current screen text to validate the battle menu is active."
-        }
-      },
-      "required": [
-        "option_to_select",
-        "screen_text"
-      ]
-    },
-    "python_script": "import json\nimport sys\n\ntry:\n    option_to_select = input_data['option_to_select']\n    screen_text = input_data['screen_text']\n    \n    required_elements = [\"FIGHT\", \"PKMN\", \"ITEM\", \"RUN\"]\n    if not all(elem in screen_text for elem in required_elements):\n        print(f\"Error: Battle menu not detected in screen text. Text was: {screen_text}\", file=sys.stderr)\n        print(json.dumps([]))\n    else:\n        reset_cursor = [\"Up\", \"Left\"]\n        button_sequences = {\n            \"FIGHT\": [\"A\"],\n            \"PKMN\": [\"Right\", \"A\"],\n            \"ITEM\": [\"Down\", \"A\"],\n            \"RUN\": [\"Right\", \"Down\", \"A\"]\n        }\n        action_sequence = button_sequences.get(option_to_select, [])\n        final_sequence = reset_cursor + action_sequence\n        print(json.dumps(final_sequence))\nexcept Exception as e:\n    print(f\"An error occurred in select_battle_menu_option: {e}\", file=sys.stderr)\n    print(json.dumps([]))",
-    "history": [
-      {
-        "commit_message": "feat: Create select_battle_menu_option tool. This tool adds screen text validation for reliability, addressing a persistent failure noted by the overwatch system. It replaces a previously deleted tool to stay within the custom tool limit.",
-        "timestamp": "2025-09-20T05:39:04.027Z",
-        "action_counter": 227582
-      },
-      {
-        "commit_message": "feat: Create select_battle_menu_option tool. This tool adds screen text validation for reliability, addressing a persistent failure noted by the overwatch system. It replaces a previously deleted tool to stay within the custom tool limit.",
-        "timestamp": "2025-09-20T05:39:29.202Z",
-        "action_counter": 227583
-      },
-      {
-        "commit_message": "feat: Create select_battle_menu_option tool. This tool adds screen text validation for reliability, addressing a persistent failure noted by the overwatch system. It replaces a previously deleted tool to stay within the custom tool limit.",
-        "timestamp": "2025-09-20T05:40:13.851Z",
-        "action_counter": 227584
-      },
-      {
-        "commit_message": "feat: Create select_battle_menu_option tool. This tool adds screen text validation for reliability, addressing a persistent failure noted by the overwatch system. It replaces a previously deleted tool to stay within the custom tool limit.",
-        "timestamp": "2025-09-20T05:40:46.250Z",
-        "action_counter": 227585
-      },
-      {
-        "commit_message": "feat: Create select_battle_menu_option tool. This tool adds screen text validation for reliability, addressing a persistent failure noted by the overwatch system. It replaces a previously deleted tool to stay within the custom tool limit.",
-        "timestamp": "2025-09-20T05:41:51.930Z",
-        "action_counter": 227586
-      },
-      {
-        "commit_message": "fix: Overhaul script for reliability. The tool was failing due to data lag with the 'In Battle' flag. This commit adds a screen text validation check to confirm the battle menu is active. It also adds cursor reset logic to prevent incorrect selections due to persistent cursor positions, addressing critical feedback from the overwatch system.",
-        "timestamp": "2025-09-20T05:42:59.222Z",
-        "action_counter": 227587
-      },
-      {
-        "commit_message": "fix: Add screen_text input and fix NameError. The tool was failing with a `NameError` because it tried to access a non-existent `screen_text_json` variable. This commit adds `screen_text` as a required input parameter and updates the script to use this parameter for validation, resolving the critical failure.",
-        "timestamp": "2025-09-20T06:02:17.107Z",
-        "action_counter": 227623
-      }
-    ]
-  },
   "deposit_pc_item_by_index": {
     "description": "Automates depositing an item at a specific inventory index (1-20) into the PC. The player must be facing a PC. Should be called with autopress_buttons: true.",
     "input_schema": {
@@ -1481,6 +1418,33 @@
         "commit_message": "feat: Create withdraw_pc_item_by_index tool. This tool automates the repetitive task of navigating the PC menu to withdraw a specific item, improving efficiency and reducing manual error. This was created to solve the immediate need of withdrawing the LIFT KEY.",
         "timestamp": "2025-09-20T18:02:08.035Z",
         "action_counter": 229234
+      }
+    ]
+  },
+  "select_elevator_floor": {
+    "description": "Navigates the Rocket Hideout elevator menu to select a specific floor (B1F, B2F, or B4F). Assumes the menu is already open with the cursor on B1F. Should be called with autopress_buttons: true.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "floor_to_select": {
+          "type": "string",
+          "enum": [
+            "B1F",
+            "B2F",
+            "B4F"
+          ]
+        }
+      },
+      "required": [
+        "floor_to_select"
+      ]
+    },
+    "python_script": "floor = input_data['floor_to_select']\nbuttons = []\nif floor == 'B1F':\n    buttons.append('A')\nelif floor == 'B2F':\n    buttons.extend(['Down', 'A'])\nelif floor == 'B4F':\n    buttons.extend(['Down', 'Down', 'A'])\nimport json\nprint(json.dumps(buttons))",
+    "history": [
+      {
+        "commit_message": "feat: Create select_elevator_floor tool. This automates a recurring menu navigation task identified during a mandatory self-assessment, improving efficiency.",
+        "timestamp": "2025-09-20T22:43:37.801Z",
+        "action_counter": 229787
       }
     ]
   }

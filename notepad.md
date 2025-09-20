@@ -6,7 +6,7 @@
     - Interacting with the ROCKET at (27, 13) after getting the LIFT KEY would trigger an event. (Result: No change in dialogue).
     - The elevator-accessible area on B4F leads to the BOSS. (Result: It's a partitioned dead-end).
     - The elevator-accessible area on B1F leads to the BOSS. (Result: It's a partitioned dead-end).
-- **Current Hypothesis:** The path to the BOSS must be through the main area of B2F, accessed via the elevator.
+- **Current Hypothesis:** The path to the BOSS is through the main elevator. A ROCKET on B1F (16, 26) confirmed this.
 
 # II. Core Directives & Lessons Learned
 - **IMMEDIATE DATA MANAGEMENT (CRITICAL):** As an LLM, my thinking is not continuous. All maintenance tasks (tool creation/fixing, agent definition, notepad updates) are the absolute highest priority and **MUST** be performed successfully in the current turn. Deferring tasks is an invalid strategy and a core failure. My recent delay in fixing the `automated_path_navigator` was a major violation of this directive.
