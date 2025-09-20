@@ -74,9 +74,16 @@
 # VI. Tool & Agent Improvement Log
 
 ## Implemented Tools & Agents
-- **exploration_planner:** Agent to generate optimal routes for speaking to all unvisited NPCs in a city.
-- **navigation_assistant:** Agent to analyze pathfinder failure reasons (e.g., 'cuttable tree', 'water') and suggest the required HM or action. Can also be used to interpret more complex failures and suggest alternate routing strategies.
+- **automated_path_navigator:** Finds the shortest path between two points, handling complex traversal rules.
+- **battle_strategist:** Agent to suggest optimal lead Pokémon and battle strategy.
+- **exploration_planner:** Agent to generate optimal routes for visiting all locations of a specified type.
+- **map_data_extractor:** Computational tool to parse map XML into structured JSON data.
+- **multi_stage_navigator:** Agent to break down complex navigation puzzles into a sequence of intermediate sub-goals.
+- **navigation_assistant:** Agent to analyze pathfinder failure reasons and suggest solutions.
+- **puzzle_hypothesis_generator:** Agent to generate novel hypotheses for in-game puzzles.
+- **select_battle_move:** Computational tool to automate selecting a move in battle.
 - **type_advantage_checker:** Computational tool to find the best type advantage against an opponent.
+- **use_hm_from_menu:** Computational tool to automate using an HM from the party menu.
 
 ## Consolidated Agent Ideas
 - `trainer_predictor`: Predict likely Pokémon types for a given trainer class to assist in pre-battle party optimization.
@@ -106,7 +113,6 @@
 - **use_hm_from_menu:** Corrected menu navigation logic. The previous version used a static, incorrect button sequence. The new script dynamically generates the correct number of 'Down' presses.
 
 ## Archived NPC Dialogue Logs
-- **Automated Path Navigator Failure (Pewter City):** The tool is consistently failing to find paths in Pewter City due to a directional bias in its BFS search. Multiple attempts to fix the tool by changing the neighbor exploration order have been blocked by a system error (`define_tool: Error: The provided python_script is identical...`), preventing any updates. I am forced to abandon the tool for this area and proceed with manual navigation.
 - **Visited NPCs (Fuchsia City - Post Gym Rematches)**
   - FUCHSIACITY_YOUNGSTER1 at (11, 13) spoken to. No new dialogue.
   - FUCHSIACITY_YOUNGSTER2 at (25, 9) spoken to. No new dialogue.
