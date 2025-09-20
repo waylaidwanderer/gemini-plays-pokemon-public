@@ -1375,22 +1375,6 @@
       }
     ]
   },
-  "deposit_top_item_from_pc": {
-    "description": "Automates depositing the top-most item from the player's inventory into the PC. The player must be facing a PC for this to work. Should be called with autopress_buttons: true.",
-    "input_schema": {
-      "type": "object",
-      "properties": {},
-      "required": []
-    },
-    "python_script": "import json\n\n# Sequence:\n# 1. Interact with PC\n# 2. Select 'Gem's PC'\n# 3. Select 'DEPOSIT ITEM'\n# 4. Select the top item\n# 5. Confirm deposit\n# 6. Back out of all menus\n\nbutton_sequence = [\n    'A',        # Turn on PC\n    'Down',     # Move to 'Gem's PC'\n    'A',        # Select 'Gem's PC'\n    'Down',     # Move to 'DEPOSIT ITEM'\n    'A',        # Select 'DEPOSIT ITEM'\n    'A',        # Select the top item in the list\n    'A',        # Confirm the 'how many' prompt (defaults to 1)\n    'B',        # Back out to deposit/withdraw/toss menu\n    'B',        # Back out to PC main menu\n    'Down', 'Down', 'Down', 'Down', # Move to LOG OFF\n    'A'         # Select LOG OFF\n]\n\nprint(json.dumps(button_sequence))",
-    "history": [
-      {
-        "commit_message": "feat: Create deposit_top_item_from_pc tool. This addresses a critical failure pointed out by the overwatch system where I deferred tool creation instead of performing it immediately. This tool provides a basic, automated way to deposit the first item in the inventory, which is a necessary first step before creating more complex item management tools.",
-        "timestamp": "2025-09-20T12:23:08.583Z",
-        "action_counter": 228451
-      }
-    ]
-  },
   "wild_pokemon_hunter": {
     "description": "Automates walking back and forth within a defined rectangular area of grass to trigger wild Pokémon encounters. It takes the current player position to avoid walking into walls. Should be called with autopress_buttons: true.",
     "input_schema": {
@@ -1423,6 +1407,28 @@
         "commit_message": "fix: Add current_x awareness to avoid boundary collisions. The tool repeatedly failed by attempting to move past the defined x_max boundary. This commit adds `current_x` as an input and implements logic to determine the initial movement direction based on the player's position, preventing it from walking into walls. This is a critical fix to resolve a persistent tool failure.",
         "timestamp": "2025-09-20T13:05:41.003Z",
         "action_counter": 228546
+      }
+    ]
+  },
+  "deposit_pc_item_by_index": {
+    "description": "Automates depositing an item at a specific inventory index (1-20) into the PC. The player must be facing a PC. Should be called with autopress_buttons: true.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "item_index": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "item_index"
+      ]
+    },
+    "python_script": "import json\n\nitem_index = int(input_data['item_index'])\n\nbuttons = []\n# 1. Access PC\nbuttons.append('A')\n# 2. Select Gem's PC\nbuttons.extend(['Down', 'A'])\n# 3. Access Item Storage\nbuttons.append('A')\n# 4. Select DEPOSIT ITEM\nbuttons.extend(['Down', 'A'])\n# 5. Navigate to item index\nif item_index > 1:\n    buttons.extend(['Down'] * (item_index - 1))\n# 6. Select item\nbuttons.append('A')\n# 7. Confirm quantity (assumes depositing one)\nbuttons.append('A')\n# 8. Back out of deposit menu\nbuttons.append('B')\n# 9. Back out of item storage type menu\nbuttons.append('B')\n# 10. Log off\nbuttons.extend(['Down', 'Down', 'Down', 'A'])\n\nprint(json.dumps(buttons))",
+    "history": [
+      {
+        "commit_message": "feat: Create deposit_pc_item_by_index tool. This tool automates the repetitive and error-prone manual task of navigating PC menus to deposit a specific item. This was created in direct response to a mandatory self-assessment that identified a failure to create tools for recurring tasks.",
+        "timestamp": "2025-09-20T16:13:42.271Z",
+        "action_counter": 228966
       }
     ]
   }
