@@ -46,7 +46,7 @@
 
 # V. Future Development Ideas
 - **Agent Idea: Inventory Manager:** An agent to suggest which items to deposit to manage the 20-item inventory bug.
-- **Tool Idea: Advanced Item Deposit:** A tool that can deposit a specific item by name or inventory slot, improving on the current `deposit_top_item_from_pc`.
+- **Tool Idea: Advanced PC Management:** A tool that can deposit or withdraw specific Pokémon or items by name/slot. This would be a significant upgrade to the current `deposit_top_item_from_pc` and would automate the complex menu navigation I'm currently performing manually.
 
 # VI. Archived Discoveries
 ## Completed Quests
