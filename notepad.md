@@ -99,7 +99,3 @@
 - **Assumption:** The Jigglypuff at (2, 4) in the Pewter Pokémon Center is decorative. **Status: Confirmed.**
 - **Assumption:** The PC at (14, 4) in the Pewter Pokémon Center functions normally. **Status: Confirmed.**
 - **Item Traps:** Some overworld items (Poké Balls) can be traps that trigger a wild Pokémon battle.
-- **Manually Verified: Use Surf (from overworld):**
-    - **Context:** This sequence was manually verified to work from the overworld. It assumes NEPTUNE is in party slot 3 and SURF is its 4th move.
-    - **Verified Starting State:** Start Menu cursor is on 'POKéMON'.
-    - **Sequence:** Start, A, A, A
