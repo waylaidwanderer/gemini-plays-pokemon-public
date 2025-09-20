@@ -1,7 +1,7 @@
 # I. Rocket Hideout Investigation
 - **Objective:** Find the BOSS.
 - **Key Item:** **LIFT KEY** (Obtained).
-- **Status:** Exploring via the main elevator.
+- **Status:** Exploring a new section of B1F after using the main elevator.
 - **Failed Hypotheses:**
     - Interacting with the ROCKET at (27, 13) after getting the LIFT KEY would trigger an event. (Result: No change in dialogue).
     - The elevator-accessible area on B4F leads to the BOSS. (Result: It's a partitioned dead-end).
@@ -12,8 +12,8 @@
 - **IMMEDIATE DATA MANAGEMENT (CRITICAL):** As an LLM, my thinking is not continuous. All maintenance tasks (tool creation/fixing, agent definition, notepad updates) are the absolute highest priority and **MUST** be performed successfully in the current turn. Deferring tasks is an invalid strategy and a core failure. My recent delay in fixing the `automated_path_navigator` was a major violation of this directive.
 - **IMMEDIATE TOOL MAINTENANCE (CRITICAL):** If a custom tool malfunctions, I **MUST** fix it in the immediately following turn. Deferring tool maintenance is a critical failure.
 - **TRUST YOUR TOOLS & AGENTS (CRITICAL):** I must trust my tool and agent outputs as the default assumption. Before debugging, I must first verify my own position and assumptions against the game state. A 'no path found' result or an unexpected hypothesis is crucial information, not an error.
-- **PROACTIVE AGENT USE (CRITICAL):** I must use my custom agents for the tasks they were designed for. Failing to do so is inefficient and a critical failure.
-- **MAP MARKER DISCIPLINE (CRITICAL):** I must mark every warp tile (both entry and exit) with '🚪' and every defeated trainer with '☠️' immediately after the event. Maintaining accurate markers is essential.
+- **PROACTIVE AGENT USE (CRITICAL):** I must use my custom agents for the tasks they were designed for. Failing to do so is inefficient and a critical failure. This was highlighted in a recent critique and must be a focus going forward.
+- **MAP MARKER DISCIPLINE (CRITICAL):** I must mark every warp tile (both entry and exit) with '🚪' and every defeated trainer with '☠️' immediately after the event. I must also be diligent in only marking events that are confirmed by the game state to avoid hallucinations.
 - **HYPOTHESIS VETTING (CRITICAL):** Before attempting to test a hypothesis, I must first confirm it is mechanically possible within the game's established rules.
 
 # III. Game Mechanics & Tile Types (Observed)
