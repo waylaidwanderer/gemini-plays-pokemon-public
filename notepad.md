@@ -105,3 +105,4 @@
   - **Expected Outcome:** Progress in the Old Amber quest.
 - FUCHSIACITY_YOUNGSTER1 at (9, 13) spoken to. No new dialogue.
 - FUCHSIACITY_YOUNGSTER2 at (25, 9) spoken to. No new dialogue.
+- FUCHSIACITY_ERIK at (31, 15) spoken to. No new dialogue.
