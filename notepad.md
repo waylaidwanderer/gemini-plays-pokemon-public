@@ -21,7 +21,7 @@
     - Triggering both the Aerodactyl Fossil trap (3, 4) and the Kabutops Fossil trap (3, 7) and then speaking to the Gambler (2, 5) yields no new dialogue.
     - After resetting the museum state, triggering *only* the Kabutops Fossil trap at (3, 7) and then speaking to the Gambler at (2, 5) yields no new dialogue.
     - Using the Coin Case while facing the Gambler at (2, 5) yielded no new dialogue or event.
-- **External Pewter City Actions:**
+- **External Actions & Events:**
     - Re-checking dialogue with the Old Man at (2, 5) after completing all puzzle steps yields no new dialogue.
     - After completing the internal museum puzzle sequence, speaking to the Super Nerd at (28, 18) in Pewter City yielded no new dialogue or progress.
     - Interviewing all NPCs in Pewter City provided no new clues for the museum puzzle.
@@ -30,11 +30,7 @@
     - Speaking to the second Super Nerd (PEWTERCITY_SUPER_NERD2) at (30, 26) yielded the same generic dialogue. (Agent Hypothesis #3 FAILED)
     - Reading the museum sign at (16, 10) and then immediately speaking to the Super Nerd at (28, 18) yielded no new dialogue. (Agent Hypothesis #4 FAILED)
     - Having the player's Pikachu interact with the NPC Pikachu at (27, 17) yielded no new dialogue or event. (Agent Hypothesis #5 FAILED)
-
-### New Hypotheses (Post-Gym Leader Rematches)
-- **Hypothesis:** Defeating all eight Kanto Gym Leaders in rematches may have triggered a change related to the Old Amber puzzle in the Pewter Museum of Science.
-  - **Test:** Travel to Pewter City and enter the museum. Check if the blocking Scientist at (13, 5) on 1F has moved, or if any NPCs in the museum or city have new dialogue.
-  - **Expected Outcome:** Progress in the Old Amber quest.
+    - Defeating all eight Kanto Gym Leaders in rematches did not move the blocking scientist at (13, 5) in the Pewter Museum of Science. (Hypothesis FAILED)
 
 # II. Key Discoveries & Lessons Learned
 - **Critical Directive Failure - Deferral of Tasks (CRITICAL):** I have repeatedly deferred critical maintenance tasks like fixing the `automated_path_navigator` tool. **Lesson Reinforced:** All maintenance and data management tasks are the absolute highest priority and MUST be performed successfully in the current turn. Deferring tasks is an invalid strategy.
