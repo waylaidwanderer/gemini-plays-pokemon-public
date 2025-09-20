@@ -80,7 +80,7 @@
 - **`select_battle_move`:** Automates selecting a move in battle.
 - **`select_battle_option`:** Automates selecting main battle menu options.
 - **`type_advantage_checker`:** Finds the best type advantage against an opponent.
-- **`use_hm_from_menu`:** Automates using an HM from the party menu (hardcoded for Surf).
+- **`use_hm_from_menu`:** Automates using an HM from the party menu. **Note:** Currently hardcoded with a manually verified sequence for using Surf with Neptune (Slot 3, Move 4). The logic is brittle as it relies on an assumed cursor position and lacks a proper reset mechanism.
 
 # VII. Archived Discoveries & Confirmations
 
@@ -103,5 +103,6 @@
 - **Assumption:** The PC at (14, 4) in the Pewter Pokémon Center functions normally. **Status: Confirmed.**
 - **Item Traps:** Some overworld items (Poké Balls) can be traps that trigger a wild Pokémon battle.
 - **Manually Verified: Use Surf (from overworld):**
-    - **Context:** This sequence is robust and works from the overworld when the Start Menu cursor defaults to 'POKéDEX'. It assumes NEPTUNE is in party slot 3 and SURF is its 4th move.
-    - **Sequence:** Start, Down, A, Down, Down, A, Down, Down, Down, A
+    - **Context:** This sequence was manually verified to work from the overworld. It assumes NEPTUNE is in party slot 3 and SURF is its 4th move.
+    - **Verified Starting State:** Start Menu cursor is on 'POKéMON'.
+    - **Sequence:** Start, A, A, A
