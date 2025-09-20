@@ -1422,7 +1422,7 @@
     ]
   },
   "select_elevator_floor": {
-    "description": "Navigates the Rocket Hideout elevator menu to select a specific floor (B1F, B2F, or B4F). Assumes the menu is already open with the cursor on B1F. Should be called with autopress_buttons: true.",
+    "description": "Navigates the Rocket Hideout elevator menu to select a specific floor (B1F, B2F, B4F) or cancel. Assumes the menu is already open with the cursor on B1F. Should be called with autopress_buttons: true.",
     "input_schema": {
       "type": "object",
       "properties": {
@@ -1431,7 +1431,8 @@
           "enum": [
             "B1F",
             "B2F",
-            "B4F"
+            "B4F",
+            "CANCEL"
           ]
         }
       },
@@ -1439,12 +1440,17 @@
         "floor_to_select"
       ]
     },
-    "python_script": "floor = input_data['floor_to_select']\nbuttons = []\nif floor == 'B1F':\n    buttons.append('A')\nelif floor == 'B2F':\n    buttons.extend(['Down', 'A'])\nelif floor == 'B4F':\n    buttons.extend(['Down', 'Down', 'A'])\nimport json\nprint(json.dumps(buttons))",
+    "python_script": "import json\n\nfloor_to_select = input_data['floor_to_select']\nbuttons = []\n\nif floor_to_select == \"B1F\":\n    pass # Already selected\nelif floor_to_select == \"B2F\":\n    buttons.append(\"Down\")\nelif floor_to_select == \"B4F\":\n    buttons.extend([\"Down\", \"Down\"])\nelif floor_to_select == \"CANCEL\":\n    buttons.extend([\"Down\", \"Down\", \"Down\"])\n\nbuttons.append(\"A\")\nprint(json.dumps(buttons))",
     "history": [
       {
         "commit_message": "feat: Create select_elevator_floor tool. This automates a recurring menu navigation task identified during a mandatory self-assessment, improving efficiency.",
         "timestamp": "2025-09-20T22:43:37.801Z",
         "action_counter": 229787
+      },
+      {
+        "commit_message": "feat: Add CANCEL option. This allows the tool to exit the elevator menu without selecting a floor, making it more versatile for navigation.",
+        "timestamp": "2025-09-20T23:32:47.052Z",
+        "action_counter": 229892
       }
     ]
   }
