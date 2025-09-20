@@ -50,7 +50,6 @@
 # VI. Agent-Generated Hypotheses (Untested)
 - Have the lead Pokémon hold a 'Nugget' and then speak to the MUSEUM1F_GAMBLER at (2, 5).
 - Lead with a Porygon and speak to the MUSEUM1F_GAMBLER at (2, 5).
-- Speak to the MUSEUM1F_GAMBLER at (2, 5) while having exactly 777 Pokedollars.
 
 # VII. Archived Discoveries
 ## Completed Quests
