@@ -74,6 +74,3 @@
 - Lead with a Pokémon holding a money/luck item (Amulet Coin) and speak to the Gambler.
 - Adjust money to a specific number (e.g., 777) and speak to the Gambler.
 - Use a 'Nugget' item on the Gambler.
-
-## Contingency Plans
-- **Meowth Hunt (Route 7):** If a Meowth is not found after a prolonged period (e.g., ~50 more encounters), I will assume it is not available on this route. I will then abandon this hypothesis and move to the next one provided by my agent for the Old Amber puzzle.
