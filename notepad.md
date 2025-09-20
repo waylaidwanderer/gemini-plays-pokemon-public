@@ -26,7 +26,7 @@
     - After completing the internal museum puzzle sequence, speaking to the Super Nerd at (28, 18) in Pewter City yielded no new dialogue or progress.
     - Interviewing all NPCs in Pewter City provided no new clues for the museum puzzle.
     - Interacting with the NPC Pikachu at (27, 26) in Pewter City did not move the blocking scientist inside the museum. (Agent Hypothesis #1 FAILED)
-    - Leading with a revived Aerodactyl and speaking to the Super Nerd at (28, 18) in Pewter City changed his dialogue but did not move the blocking scientist. (Agent Hypothesis #2 FAILED)
+    - Leading with a revived Aerodactyl and speaking to the Super Nerd at (28, 18) in Pewter City changed his dialogue but does not move the blocking scientist. (Agent Hypothesis #2 FAILED)
     - Speaking to the second Super Nerd (PEWTERCITY_SUPER_NERD2) at (30, 26) yielded the same generic dialogue. (Agent Hypothesis #3 FAILED)
     - Reading the museum sign at (16, 10) and then immediately speaking to the Super Nerd at (28, 18) yielded no new dialogue. (Agent Hypothesis #4 FAILED)
     - Having the player's Pikachu interact with the NPC Pikachu at (27, 17) yielded no new dialogue or event. (Agent Hypothesis #5 FAILED)

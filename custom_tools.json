@@ -1177,7 +1177,7 @@
     ]
   },
   "use_hm_from_menu": {
-    "description": "Automates using an HM from the party menu. Takes the Pokémon's party slot (1-6) and the HM's move slot within that Pokémon's move list (1-4) as input. **CURRENTLY HARDCODED for using Surf with Neptune (Slot 3, Move 4) from a specific menu state.** Must be called with autopress_buttons: true.",
+    "description": "Automates using an HM from the party menu. Takes the Pokémon's party slot (1-6) and the HM's move slot within that Pokémon's move list (1-4) as input. Implements a robust cursor reset to handle unknown menu states. Should be called with autopress_buttons: true.",
     "input_schema": {
       "type": "object",
       "properties": {
@@ -1193,7 +1193,7 @@
         "hm_slot_in_pokemon_menu"
       ]
     },
-    "python_script": "import json\n\n# This script is now hardcoded with a manually verified sequence.\n# It assumes Neptune is in slot 3 and Surf is the 4th move.\n# It also assumes the Start Menu cursor defaults to POKéDEX.\n\n# Sequence: Start -> Down -> A -> Down -> Down -> A -> Down -> Down -> Down -> A\nbutton_sequence = [\"Start\", \"Down\", \"A\", \"Down\", \"Down\", \"A\", \"Down\", \"Down\", \"Down\", \"A\"]\n\nprint(json.dumps(button_sequence))",
+    "python_script": "import json\n\nbuttons = []\n# Open Start menu\nbuttons.append(\"Start\")\n\n# Reset cursor to top (POKéDEX) - pressing Up 10 times is a safe bet\nfor _ in range(10):\n    buttons.append(\"Up\")\n\n# Navigate to POKéMON\nbuttons.append(\"Down\")\nbuttons.append(\"A\")\n\n# --- Party Menu ---\n# Reset cursor to top (Slot 1)\nfor _ in range(10):\n    buttons.append(\"Up\")\n\n# Navigate to correct Pokémon slot\npokemon_slot = int(input_data['pokemon_slot'])\nfor _ in range(pokemon_slot - 1):\n    buttons.append(\"Down\")\nbuttons.append(\"A\")\n\n# --- Move Menu ---\n# Reset cursor to top (Move 1)\nfor _ in range(10):\n    buttons.append(\"Up\")\n\n# Navigate to correct HM slot\nhm_slot = int(input_data['hm_slot_in_pokemon_menu'])\nfor _ in range(hm_slot - 1):\n    buttons.append(\"Down\")\nbuttons.append(\"A\")\n\nprint(json.dumps(buttons))",
     "history": [
       {
         "commit_message": "feat: Create use_hm_from_menu tool. This tool automates using HMs from the party menu to prevent recurring manual input errors. This was identified as a necessary improvement during self-assessment.",
@@ -1259,6 +1259,11 @@
         "commit_message": "fix: Overhaul script with manually verified hardcoded sequence. The tool has failed repeatedly due to incorrect assumptions about cursor positions. This commit replaces all previous logic with a simple, hardcoded button sequence that was manually verified in-game to be correct. This resolves the persistent critical failure by removing all dynamic calculation and relying on a proven, static input.",
         "timestamp": "2025-09-20T07:25:06.987Z",
         "action_counter": 227781
+      },
+      {
+        "commit_message": "refactor: Implement robust, state-agnostic cursor reset. The tool repeatedly failed due to incorrect assumptions about the Start Menu's persistent cursor position. This commit completely rewrites the script to add a robust cursor reset sequence (pressing 'Up' 10 times) for the Start, Party, and Move menus. This removes any dependency on the previous menu state and ensures reliable navigation, resolving a critical and persistent tool failure based on direct feedback from the overwatch system.",
+        "timestamp": "2025-09-20T07:54:45.274Z",
+        "action_counter": 227835
       }
     ]
   },
