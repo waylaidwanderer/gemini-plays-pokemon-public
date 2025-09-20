@@ -111,3 +111,4 @@
 - FUCHSIACITY_YOUNGSTER2 at (25, 9) spoken to. No new dialogue.
 - FUCHSIACITY_ERIK at (31, 15) spoken to. No new dialogue.
 - FUCHSIACITY_GAMBLER at (29, 18) - Unreachable.
+- **Automated Path Navigator Failure (Pewter City):** The tool is consistently failing to find paths in Pewter City due to a directional bias in its BFS search. Multiple attempts to fix the tool by changing the neighbor exploration order have been blocked by a system error (`define_tool: Error: The provided python_script is identical...`), preventing any updates. I am forced to abandon the tool for this area and proceed with manual navigation.
