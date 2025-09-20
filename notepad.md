@@ -77,7 +77,7 @@
 ## Tools (Computational & Automation)
 - **`automated_path_navigator`:** Finds the shortest path between two points.
 - **`select_battle_menu_option`:** Automates selecting main battle menu options.
-- **`use_hm_from_menu`:** Automates using an HM from the party menu. **Note:** This tool now uses a robust cursor reset and should be reliable. It takes a Pokémon's party slot and the move's slot in their menu as input.
+- **`use_hm_from_menu`:** Automates using an HM from the party menu. **Note:** This tool now uses a robust, state-agnostic cursor reset (pressing 'Up' 10 times) for all menus, making it reliable regardless of the previous menu state. It takes a Pokémon's party slot and the move's slot in their menu as input.
 
 # VII. Archived Discoveries & Confirmations
 
@@ -96,6 +96,13 @@
 - **Outcome:** Defeated the Rocket Grunt in the backyard area and Gym Leader Misty in a rematch. However, Officer Jenny at (29, 13) is still blocking the path east to Route 9. This investigation is concluded.
 
 ## Confirmed Assumptions & Verified Sequences
+- **Manually Verified: Use Surf (Reliable Sequence):**
+    1. Open Start Menu. Cursor default is 'POKéMON'.
+    2. Press 'A' to select.
+    3. Cursor default is on the 3rd Pokémon (NEPTUNE).
+    4. Press 'A' to select.
+    5. Cursor default is on the 4th move (SURF).
+    6. Press 'A' to use.
 - **Assumption:** The Jigglypuff at (2, 4) in the Pewter Pokémon Center is decorative. **Status: Confirmed.**
 - **Assumption:** The PC at (14, 4) in the Pewter Pokémon Center functions normally. **Status: Confirmed.**
 - **Item Traps:** Some overworld items (Poké Balls) can be traps that trigger a wild Pokémon battle.
