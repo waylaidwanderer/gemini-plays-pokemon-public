@@ -106,3 +106,9 @@
 - **Assumption:** The Jigglypuff at (2, 4) in the Pewter Pokémon Center is decorative. **Status: Confirmed.**
 - **Assumption:** The PC at (14, 4) in the Pewter Pokémon Center functions normally. **Status: Confirmed.**
 - **Item Traps:** Some overworld items (Poké Balls) can be traps that trigger a wild Pokémon battle.
+
+# VIII. Investigation Logs
+
+## Silph Co. Investigation
+- **Objective:** Find clues related to the Old Amber puzzle.
+- **Key Finding (7F):** A Silph Worker at (14, 14) revealed: "We canceled the MASTER BALL project because of TEAM ROCKET."
