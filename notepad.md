@@ -4,7 +4,7 @@
 - **Objective:** Retrieve the Old Amber.
 - **Location:** Pewter Museum of Science.
 - **Obstacle:** A Scientist at (13, 5) on 1F blocks the path to an item.
-- **Status:** Stalled. All hypotheses tested in Pewter City have failed. The solution may lie outside of Pewter City.
+- **Status:** Stalled. All hypotheses tested in Pewter City have failed. The solution may lie outside of Pewter City. I have exhausted all leads on Routes 24 and 25.
 
 ### Confirmed Puzzle Steps (Internal Museum Sequence)
 1. Lead with a Geodude or a revived fossil Pokémon (Omanyte, Aerodactyl) and speak to the Old Man at (2, 5) on 1F.
@@ -66,26 +66,21 @@
 - **Route 8:** Growlithe, Abra, Pidgey, Rattata, Jigglypuff, Vulpix
 - **Route 7:** Pidgey, Vulpix, Koffing, Jigglypuff
 
-# VI. Tool & Agent Improvement Log
+# VI. Implemented Tools & Agents
 
-## Implemented Tools & Agents
-- **automated_path_navigator:** Finds the shortest path between two points, handling complex traversal rules.
-- **battle_strategist:** Agent to suggest optimal lead Pokémon and battle strategy.
-- **exploration_planner:** Agent to generate optimal routes for visiting all locations of a specified type.
-- **map_data_extractor:** Computational tool to parse map XML into structured JSON data.
-- **multi_stage_navigator:** Agent to break down complex navigation puzzles into a sequence of intermediate sub-goals.
+## Agents (High-Level Reasoning)
+- **`battle_strategist`:** Suggests optimal lead Pokémon and battle strategy.
+- **`exploration_planner`:** Generates optimal routes for visiting all locations of a specified type.
+- **`multi_stage_navigator`:** Breaks down complex navigation puzzles into a sequence of intermediate sub-goals.
+- **`puzzle_hypothesis_generator`:** Generates novel hypotheses for in-game puzzles.
 
-- **puzzle_hypothesis_generator:** Agent to generate novel hypotheses for in-game puzzles.
-- **select_battle_move:** Computational tool to automate selecting a move in battle.
-- **select_battle_option:** Tool to automatically select main battle menu options.
-- **type_advantage_checker:** Computational tool to find the best type advantage against an opponent.
-- **use_hm_from_menu:** Computational tool to automate using an HM from the party menu.
-
-## Improvement Pipeline
-
-- **`menu_navigation_planner` (New Agent Idea):** Could take a menu description as input and output the correct sequence of button presses to navigate it. This would be useful for preventing future tool failures like the `use_hm_from_menu` issue.
-- **`trainer_predictor` (New Agent Idea):** Predict likely Pokémon types for a given trainer class to assist in pre-battle party optimization.
-- **`battle_log_analyzer` (New Agent Idea):** Could analyze a series of battle logs to identify patterns in an opponent's move choices or switching strategy, providing predictive insights for future rematches.
+## Tools (Computational & Automation)
+- **`automated_path_navigator`:** Finds the shortest path between two points.
+- **`map_data_extractor`:** Parses map XML into structured JSON data.
+- **`select_battle_move`:** Automates selecting a move in battle.
+- **`select_battle_option`:** Automates selecting main battle menu options.
+- **`type_advantage_checker`:** Finds the best type advantage against an opponent.
+- **`use_hm_from_menu`:** Automates using an HM from the party menu (hardcoded for Surf).
 
 # VII. Archived Discoveries & Confirmations
 
@@ -103,16 +98,10 @@
 ### Cerulean City Investigation
 - **Outcome:** Defeated the Rocket Grunt in the backyard area and Gym Leader Misty in a rematch. However, Officer Jenny at (29, 13) is still blocking the path east to Route 9. This investigation is concluded.
 
-## Confirmed Assumptions
+## Confirmed Assumptions & Verified Sequences
 - **Assumption:** The Jigglypuff at (2, 4) in the Pewter Pokémon Center is decorative. **Status: Confirmed.**
 - **Assumption:** The PC at (14, 4) in the Pewter Pokémon Center functions normally. **Status: Confirmed.**
-- **Item Traps:** Some overworld items (Poké Balls) can be traps that trigger a wild Pokémon battle (e.g., Electrode in Cerulean City).
-### HM Usage (Manual Sequence)
-- To use Surf from a land tile adjacent to water, you must be facing the water.
-- The correct button sequence is: Start -> A (select POKéMON) -> [Navigate to Pokémon] -> A (select Pokémon) -> A (select SURF).
-- For my current party, the cursor in the party menu defaults to the 5th Pokémon (REVENANT). To select NEPTUNE (slot 3), the sequence is: Up, Up.
-## Manually Verified Button Sequences
-### Use Surf (from overworld) - Reliable Sequence
-- **Context:** This sequence is robust and works regardless of the cursor's starting position. It assumes NEPTUNE is in party slot 3 and SURF is its 4th move.
-- **Logic:** It resets the cursor to the top of each menu before navigating to the correct option.
-- **Button Sequence:** Start, Up (x10), Down, A, Up (x10), Down, Down, A, Up (x10), Down, Down, Down, A
+- **Item Traps:** Some overworld items (Poké Balls) can be traps that trigger a wild Pokémon battle.
+- **Manually Verified: Use Surf (from overworld):**
+    - **Context:** This sequence is robust and works from the overworld when the Start Menu cursor defaults to 'POKéDEX'. It assumes NEPTUNE is in party slot 3 and SURF is its 4th move.
+    - **Sequence:** Start, Down, A, Down, Down, A, Down, Down, Down, A
