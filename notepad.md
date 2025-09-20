@@ -102,12 +102,4 @@
 
 ## Fixed Tools
 - **select_battle_move:** The tool has been updated. In-game testing confirmed the battle menu is a single vertical list, not a 2x2 grid.
-- **pokemon_hunter:** The tool has been refactored to accept a rectangular boundary to ensure all generated movements stay within a specified hunting area.
-- **use_hm_from_menu:** Corrected menu navigation logic. The previous version used a static, incorrect button sequence. The new script dynamically generates the correct number of 'Down' presses.
-
-## Archived NPC Dialogue Logs
-### Visited NPCs (Fuchsia City - Post Gym Rematches)
-- FUCHSIACITY_YOUNGSTER1 at (11, 13) spoken to. No new dialogue.
-- FUCHSIACITY_YOUNGSTER2 at (25, 9) spoken to. No new dialogue.
-- FUCHSIACITY_ERIK at (31, 15) spoken to. No new dialogue.
-- FUCHSIACITY_GAMBLER at (29, 18) - Unreachable.
+- **pokemon_hunter:** The tool has been refactore... (truncated)
