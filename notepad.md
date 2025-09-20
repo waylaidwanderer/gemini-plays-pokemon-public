@@ -31,6 +31,9 @@
 - **Ghost-type Damage:** Ghost-type moves deal SPECIAL damage, not physical.
 - **Purified Zone:** A specific tile area in the Pokémon Tower (5F) that fully heals the party upon entry.
 
+## Anomalous Events
+- **Celadon City Fly Anomaly:** Attempting to use the HM Fly from anywhere within Celadon City results in a strange event. The screen fades as if the flight is initiating, but the player is instead teleported back inside the Celadon Department Store entrance. This behavior does not occur when using Fly from adjacent maps like Route 7.
+
 # IV. Tile Mechanics (Observed)
 - **ground:** Standard walkable tile.
 - **grass:** Walkable tile with wild Pokémon encounters.
@@ -63,7 +66,7 @@
 ## Tools (Computational & Automation)
 - **`automated_path_navigator`:** Finds the shortest path between two points.
 - **`select_battle_menu_option`:** Automates selecting main battle menu options.
-- **`use_hm_from_menu`:** Automates using an HM from the party menu. **Note:** This tool now uses a robust, state-agnostic cursor reset (pressing 'Up' 10 times) for all menus, making it reliable regardless of the previous menu state. It takes a Pokémon's party slot and the move's slot in their menu as input.
+- **`use_hm_from_menu`:** **DECOMMISSIONED.** This tool has repeatedly and critically failed due to unpredictable menu cursor behavior. Multiple attempts to fix it with complex cursor resets and simplified logic have been unsuccessful. The tool is unreliable and will no longer be used. HMs will be used manually going forward.
 - **`stun_npc`**: Freezes a specified NPC in place to prevent them from moving.
 
 # VII. Archived Discoveries
