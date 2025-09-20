@@ -28,8 +28,9 @@
 - **`ledge`:** One-way traversal. Can be jumped down from above (Y-1).
 - **`cuttable`:** Tree that can be cut with HM Cut. Respawns on map change.
 - **`water`:** Crossable using HM Surf.
-- **`spinner_up/down/left/right`:** Forces movement in the specified direction.
-- **`teleport` / `hole` / `ladder_up` / `ladder_down`:** Instant warp tiles.
+- `spinner_up/down/left/right`: Forces movement in the specified direction.
+- `spinner_stop`: A tile that halts movement from a spinner.
+- `teleport` / `hole` / `ladder_up` / `ladder_down`: Instant warp tiles.
 - **`2x1 Warp Tiles`:** Requires a two-step activation: 1. Stand on a warp tile. 2. Press a directional button into the impassable boundary.
 - **`Two-Step Elevator`:** A special warp requiring a two-step process: 1. Interact with the control panel to select a destination floor. 2. Step onto one of the adjacent warp tiles to travel.
 - **`steps`:** Allows movement between `ground` and `elevated_ground`.
@@ -67,4 +68,5 @@
   4. Move Right to (19, 16) (swaps with Pikachu). Expected state: Gem at (19, 16), Pikachu at (18, 16).
   5. Turn Left to face Pikachu.
   6. Press 'A' to interact.
-  7. Observe if the spinner at (19, 17) changes state or a path opens.
+  7. **Outcome:** Interaction failed. No text appeared, but the game entered a state suggesting a hidden dialogue box. Hypothesis denied.
+  8. **New Hypothesis:** A hidden dialogue box must be cleared by pressing 'B'.
