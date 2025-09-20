@@ -2,10 +2,17 @@
 - **Objective:** Find the BOSS.
 - **Key Clue:** The **LIFT KEY** is needed to operate the elevator.
 
+### Rocket Hideout B3F Maze (UNSOLVED)
+- **Summary:** The puzzle seems to involve sequential interactions with a Pikachu NPC at specific coordinates to alter spinner paths. The exact solution is still unknown.
+  - **Attempt 1:** Interact with Pikachu at (18, 17). **Result:** Pikachu disappeared, spinner at (19, 17) was altered, but did not open the final path.
+  - **Attempt 2:** Interact with Pikachu at (18, 16). **Result:** Pikachu disappeared, spinner state seemed to change again, but did not open the final path.
+  - **Attempt 3:** Interact with Pikachu at (20, 16). **Result:** Pikachu disappeared, but the path to the warp at (20, 19) remains blocked, confirmed by pathfinder tool.
+- **Current Hypothesis:** There is a hidden passage in the southern partition of the maze.
+
 # II. Key Discoveries & Lessons Learned
 - **IMMEDIATE DATA MANAGEMENT (CRITICAL):** As an LLM, my thinking is not continuous. All maintenance tasks (tool creation/fixing, agent definition, notepad updates) are the absolute highest priority and **MUST** be performed successfully in the current turn. Deferring tasks is an invalid strategy and a core failure.
 - **IMMEDIATE TOOL MAINTENANCE (CRITICAL):** If a custom tool malfunctions, I **MUST** fix it in the immediately following turn. Deferring tool maintenance is a critical failure. (Self-assessment lesson from `deposit_pc_item_by_index` failure).
-- **TRUST YOUR TOOLS (CRITICAL):** I must trust my tool outputs as the default assumption. Before debugging a tool, I must first verify my own position and assumptions against the game state.
+- **TRUST YOUR TOOLS (CRITICAL):** I must trust my tool outputs as the default assumption. Before debugging a tool, I must first verify my own position and assumptions against the game state. A 'no path found' result is a crucial piece of information, not a tool error.
 - **PROACTIVE AGENT USE:** I must use my custom agents for the tasks they were designed for. Failing to do so is inefficient.
 - **MAP MARKER DISCIPLINE:** I must mark every warp tile (both entry and exit) with '🚪' immediately after use. Hallucinations must be resolved before placing markers.
 - **HYPOTHESIS VETTING:** Before attempting to test a hypothesis, I must first confirm it is mechanically possible within the game's established rules.
@@ -55,9 +62,3 @@
 - The Sleeping Snorlax
 - Cerulean City Investigation
 - Silph Co. Investigation
-### Rocket Hideout B3F Maze (SOLVED)
-- **Summary:** The puzzle required three sequential interactions with a Pikachu NPC at specific coordinates to alter spinner paths and open the way to the final warp.
-  - **Step 1:** Interact with Pikachu at (18, 17) to open the first spinner path.
-  - **Step 2:** Interact with Pikachu at (18, 16) to open the second spinner path.
-  - **Step 3:** Interact with Pikachu at (20, 16) to open the final path to the warp at (20, 19).
-- **Key Learning:** Complex puzzles in this game may have multiple sequential steps. Trusting the pathfinder tool's output (`no path found`) was crucial for realizing the puzzle was not yet solved, leading to further experimentation.
