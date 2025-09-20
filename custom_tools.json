@@ -1235,13 +1235,18 @@
             "ITEM",
             "RUN"
           ]
+        },
+        "screen_text": {
+          "type": "string",
+          "description": "The current screen text to validate the battle menu is active."
         }
       },
       "required": [
-        "option_to_select"
+        "option_to_select",
+        "screen_text"
       ]
     },
-    "python_script": "import json\n\noption = input_data.get('option_to_select')\ntext_on_screen = \"\"\ntry:\n    # Assuming screen_text_json is a global variable injected by the system\n    screen_data = json.loads(screen_text_json)\n    if 'raw' in screen_data:\n        text_on_screen = screen_data['raw']\nexcept (json.JSONDecodeError, KeyError):\n    pass\n\nis_battle_menu_visible = 'FIGHT' in text_on_screen and 'PKMN' in text_on_screen\n\nif not is_battle_menu_visible:\n    print(json.dumps([]))\nelse:\n    buttons = ['Up', 'Up', 'Left', 'Left'] # Reset cursor to FIGHT\n    if option == 'FIGHT':\n        buttons.append('A')\n    elif option == 'PKMN':\n        buttons.append('Right')\n        buttons.append('A')\n    elif option == 'ITEM':\n        buttons.append('Down')\n        buttons.append('A')\n    elif option == 'RUN':\n        buttons.extend(['Right', 'Down', 'A'])\n    print(json.dumps(buttons))",
+    "python_script": "import json\nimport sys\n\ntry:\n    option_to_select = input_data['option_to_select']\n    screen_text = input_data['screen_text']\n    \n    required_elements = [\"FIGHT\", \"PKMN\", \"ITEM\", \"RUN\"]\n    if not all(elem in screen_text for elem in required_elements):\n        print(f\"Error: Battle menu not detected in screen text. Text was: {screen_text}\", file=sys.stderr)\n        print(json.dumps([]))\n    else:\n        reset_cursor = [\"Up\", \"Left\"]\n        button_sequences = {\n            \"FIGHT\": [\"A\"],\n            \"PKMN\": [\"Right\", \"A\"],\n            \"ITEM\": [\"Down\", \"A\"],\n            \"RUN\": [\"Right\", \"Down\", \"A\"]\n        }\n        action_sequence = button_sequences.get(option_to_select, [])\n        final_sequence = reset_cursor + action_sequence\n        print(json.dumps(final_sequence))\nexcept Exception as e:\n    print(f\"An error occurred in select_battle_menu_option: {e}\", file=sys.stderr)\n    print(json.dumps([]))",
     "history": [
       {
         "commit_message": "feat: Create select_battle_menu_option tool. This tool adds screen text validation for reliability, addressing a persistent failure noted by the overwatch system. It replaces a previously deleted tool to stay within the custom tool limit.",
@@ -1272,6 +1277,11 @@
         "commit_message": "fix: Overhaul script for reliability. The tool was failing due to data lag with the 'In Battle' flag. This commit adds a screen text validation check to confirm the battle menu is active. It also adds cursor reset logic to prevent incorrect selections due to persistent cursor positions, addressing critical feedback from the overwatch system.",
         "timestamp": "2025-09-20T05:42:59.222Z",
         "action_counter": 227587
+      },
+      {
+        "commit_message": "fix: Add screen_text input and fix NameError. The tool was failing with a `NameError` because it tried to access a non-existent `screen_text_json` variable. This commit adds `screen_text` as a required input parameter and updates the script to use this parameter for validation, resolving the critical failure.",
+        "timestamp": "2025-09-20T06:02:17.107Z",
+        "action_counter": 227623
       }
     ]
   }
