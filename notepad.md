@@ -33,10 +33,12 @@
 
 # II. Key Discoveries & Lessons Learned
 - **Critical Directive Failure - Deferral of Tasks (CRITICAL):** I have repeatedly deferred critical maintenance tasks like marking defeated trainers. **Lesson Reinforced:** All maintenance and data management tasks are the absolute highest priority and MUST be performed successfully in the current turn.
+- **Critical Directive Failure - Tool Maintenance (CRITICAL):** I failed to immediately fix the `use_hm_from_menu` tool after it failed, instead resorting to manual inputs. This violates the core directive of prioritizing tool refinement. **Lesson Reinforced:** Tool maintenance is the highest priority and must be performed in the same turn a failure is identified.
 - **Strategic Tool Use (Pathfinder):** My `automated_path_navigator` struggled on Route 12 due to an inefficient BFS for the specific map layout. I exhibited confirmation bias by blaming the tool instead of my strategy. **Lesson:** For complex navigation, I must break the problem down into smaller, intermediate sub-goals instead of trying to force a single, long path.
 - **Game Corner Entry Failure (CRITICAL):** Became stuck in a loop attempting to enter the Celadon Game Corner. **Lesson:** If a specific path is repeatedly blocked, do not persist. Re-evaluate, check for alternate routes, or pivot to a different high-priority goal.
 - **Puzzle State Persistence:** Leaving and re-entering the Pewter Museum does **not** reset the internal puzzle state.
 - **Confirmation Bias:** I exhibited confirmation bias with the 'Meowth' hypothesis and the belief that the museum puzzle solution was inside the museum. **Lesson:** I must be more willing to abandon a hypothesis quickly when it yields no results and actively try to disprove my own assumptions.
+- **Map Marker Discipline (WARPS):** I must mark every warp tile (both entry and exit) with '🚪' immediately after using it to improve my navigational memory and avoid getting lost in complex areas.
 
 # III. Game Mechanics (Observed)
 - **Post-Battle Position Shift:** Sometimes, after a wild battle concludes, the player's character may be moved to a different, nearby tile.
@@ -65,15 +67,13 @@
 - **Route 7:** Pidgey, Vulpix, Koffing, Jigglypuff
 
 # VI. Tool & Agent Improvement Log
-- **select_battle_move (FIXED):** The tool has been updated. In-game testing confirmed the battle menu is a single vertical list, not a 2x2 grid.
-- **pokemon_hunter (FIXED):** The tool has been refactored to accept a rectangular boundary to ensure all generated movements stay within a specified hunting area.
 - **exploration_planner:** Created an agent to generate optimal routes for speaking to all unvisited NPCs in a city.
-- **Agent Idea (Navigation Debugger):** A `navigation_debugger` agent could be created to analyze failed pathing attempts and suggest alternative strategies or potential map-based reasons for failure.
+- **Consolidated Agent Ideas:**
+  - `navigation_debugger`: Analyze failed pathing attempts and suggest alternative strategies or map-based reasons for failure.
+  - `navigation_assistant`: Analyze pathfinder failure reasons (e.g., 'cuttable tree', 'water') and suggest the required HM or action.
+  - `trainer_predictor`: Predict likely Pokémon types for a given trainer class to assist in pre-battle party optimization.
 
-# VII. New Directives & Resolutions
-- **Map Marker Discipline (WARPS):** I must mark every warp tile (both entry and exit) with '🚪' immediately after using it to improve my navigational memory and avoid getting lost in complex areas.
-
-# VIII. Archived Discoveries & Confirmations
+# VII. Archived Discoveries & Confirmations
 
 ## Completed Quests
 ### The Ghost of Lavender Town
@@ -91,8 +91,7 @@
 - **Assumption:** The Jigglypuff at (2, 4) in the Pewter Pokémon Center is decorative. **Status: Confirmed.**
 - **Assumption:** The PC at (14, 4) in the Pewter Pokémon Center functions normally. **Status: Confirmed.**
 
-# IX. Self-Assessment (Turn 227118)
-- **Critical Directive Failure (Tool Maintenance):** Failed to immediately fix the `use_hm_from_menu` tool after it failed, instead resorting to manual inputs. This violates the core directive of prioritizing tool refinement. **Lesson Reinforced:** Tool maintenance is the highest priority and must be performed in the same turn a failure is identified.
-- **Agent Ideas:**
-  - `navigation_assistant`: Could analyze pathfinder failure reasons (e.g., 'cuttable tree', 'water') and suggest the required HM or action.
-  - `trainer_predictor`: Could predict likely Pokémon types for a given trainer class to assist in pre-battle party optimization.
+## Fixed Tools
+- **select_battle_move:** The tool has been updated. In-game testing confirmed the battle menu is a single vertical list, not a 2x2 grid.
+- **pokemon_hunter:** The tool has been refactored to accept a rectangular boundary to ensure all generated movements stay within a specified hunting area.
+- **use_hm_from_menu:** Corrected menu navigation logic. The previous version used a static, incorrect button sequence. The new script dynamically generates the correct number of 'Down' presses.
