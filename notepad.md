@@ -82,7 +82,7 @@
 - **use_hm_from_menu:** Computational tool to automate using an HM from the party menu.
 
 ## Improvement Pipeline
-- **`navigation_assistant` (Agent):** Consider for deletion. Its function (parsing pathfinder failure strings) could be integrated directly into the `automated_path_navigator` tool's error output for better efficiency.
+
 - **`menu_navigation_planner` (New Agent Idea):** Could take a menu description as input and output the correct sequence of button presses to navigate it. This would be useful for preventing future tool failures like the `use_hm_from_menu` issue.
 - **`trainer_predictor` (New Agent Idea):** Predict likely Pokémon types for a given trainer class to assist in pre-battle party optimization.
 - **`battle_log_analyzer` (New Agent Idea):** Could analyze a series of battle logs to identify patterns in an opponent's move choices or switching strategy, providing predictive insights for future rematches.
