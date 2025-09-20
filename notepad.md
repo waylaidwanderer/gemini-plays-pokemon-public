@@ -75,3 +75,4 @@
      - **Test:** Play a slot machine. Then, speak to all other reachable NPCs to see if they offer prizes or clues.
   2. **The poster at (10, 5) is purely decorative.**
      - **Test:** After checking slots and NPCs, interact with the poster at (10, 5) to check if it's a switch.
+- **Key Clue:** An NPC at (3, 11) revealed a rumor that the Game Corner is run by Team Rocket. This makes the poster at (10, 5) a high-priority target for investigation as a potential secret switch.
