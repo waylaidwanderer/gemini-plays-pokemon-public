@@ -1252,7 +1252,7 @@
         "hm_slot_in_pokemon_menu"
       ]
     },
-    "python_script": "import json\npokemon_slot = int(input_data['pokemon_slot'])\nhm_slot = int(input_data['hm_slot_in_pokemon_menu'])\nbuttons = ['Start', 'Down', 'A']\nfor _ in range(pokemon_slot - 1):\n    buttons.append('Down')\nbuttons.append('A')\nfor _ in range(hm_slot - 1):\n    buttons.append('Down')\nbuttons.append('A')\nprint(json.dumps(buttons))",
+    "python_script": "import json\n\ndef generate_hm_sequence():\n    try:\n        pokemon_slot = int(input_data['pokemon_slot'])\n        hm_slot = int(input_data['hm_slot_in_pokemon_menu'])\n\n        if not (1 <= pokemon_slot <= 6 and 1 <= hm_slot <= 4):\n            print(json.dumps([]))\n            return\n\n        buttons = ['Start']\n        # Reset main menu cursor to top (POKéDEX)\n        for _ in range(6):\n            buttons.append('Up')\n        \n        # Navigate to POKéMON\n        buttons.append('Down')\n        buttons.append('A')\n\n        # Reset party menu cursor to top\n        for _ in range(6):\n            buttons.append('Up')\n\n        # Navigate to the correct Pokémon\n        for _ in range(pokemon_slot - 1):\n            buttons.append('Down')\n        buttons.append('A')\n\n        # Reset move menu cursor to top\n        for _ in range(4):\n            buttons.append('Up')\n\n        # Navigate to the correct HM\n        for _ in range(hm_slot - 1):\n            buttons.append('Down')\n        buttons.append('A')\n\n        print(json.dumps(buttons))\n\n    except (ValueError, KeyError):\n        print(json.dumps([]))\n\ngenerate_hm_sequence()\n",
     "history": [
       {
         "commit_message": "feat: Create use_hm_from_menu tool. This tool automates using HMs from the party menu to prevent recurring manual input errors. This was identified as a necessary improvement during self-assessment.",
@@ -1263,6 +1263,21 @@
         "commit_message": "fix: Correct menu navigation logic. The previous version used a static, incorrect button sequence that failed to account for the game's vertical menu structure. This commit refactors the script to dynamically generate the correct number of 'Down' presses based on the provided Pokémon and HM slot numbers, restoring full functionality and preventing future menu errors.",
         "timestamp": "2025-09-20T00:33:53.395Z",
         "action_counter": 227101
+      },
+      {
+        "commit_message": "fix: Add cursor reset to prevent menu errors. The previous version failed to account for the game's persistent cursor position, causing incorrect selections. This commit adds 'Up' presses to reset the cursor to the top of both the party and move menus before navigation, ensuring reliable HM activation.",
+        "timestamp": "2025-09-20T04:57:40.899Z",
+        "action_counter": 227498
+      },
+      {
+        "commit_message": "fix: Correct initial menu selection. The previous version failed to select the 'POKéMON' menu, instead defaulting to 'ITEM'. This commit adds a 'Down' press after opening the Start menu to correctly navigate from 'POKéDEX' to 'POKéMON', restoring the tool's core functionality.",
+        "timestamp": "2025-09-20T05:00:04.761Z",
+        "action_counter": 227503
+      },
+      {
+        "commit_message": "fix: Add main menu cursor reset. The tool repeatedly failed because it did not account for the game's persistent cursor position in the main Start menu. This commit adds 'Up' presses after opening the menu to reliably reset the cursor to 'POKéDEX' before navigating to 'POKéMON', ensuring correct menu selection.",
+        "timestamp": "2025-09-20T05:02:30.202Z",
+        "action_counter": 227508
       }
     ]
   },
