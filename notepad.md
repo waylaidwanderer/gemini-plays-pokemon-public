@@ -105,4 +105,4 @@
 - **Item Traps:** Some overworld items (Poké Balls) can be traps that trigger a wild Pokémon battle (e.g., Electrode in Cerulean City).
 
 ## Tool & Agent Improvement Log
-- `select_battle_option` Limitation: This tool can fail due to game state data lag (`In Battle: No` when a battle is active). The overwatch suggestion to check `Screen Text` is not implementable as tools do not have access to this variable. Manual menu navigation may be required as a fallback.
+`select_battle_option` Limitation & Fix Plan: The tool currently fails if the `In Battle` flag is out of sync. **Plan:** Refine the tool to include a fallback check against the `Screen Text` variable to make it more resilient to data lag. This is a high-priority fix.
