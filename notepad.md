@@ -4,7 +4,7 @@
 - **Objective:** Retrieve the Old Amber.
 - **Location:** Pewter Museum of Science.
 - **Obstacle:** A Scientist at (13, 5) on 1F blocks the path to an item.
-- **Status:** Stalled. All hypotheses tested in Pewter City have failed. The solution may lie outside of Pewter City. I have exhausted all leads on Routes 24 and 25.
+- **Status:** Stalled. All hypotheses tested in Pewter City and the Cerulean area (Routes 24/25) have failed. Currently re-investigating Silph Co. in Saffron City for new leads.
 
 ### Confirmed Puzzle Steps (Internal Museum Sequence)
 1. Lead with a Geodude or a revived fossil Pokémon (Omanyte, Aerodactyl) and speak to the Old Man at (2, 5) on 1F.
@@ -76,11 +76,11 @@
 
 ## Tools (Computational & Automation)
 - **`automated_path_navigator`:** Finds the shortest path between two points.
-- **`map_data_extractor`:** Parses map XML into structured JSON data.
-- **`select_battle_move`:** Automates selecting a move in battle.
-- **`select_battle_option`:** Automates selecting main battle menu options.
-- **`type_advantage_checker`:** Finds the best type advantage against an opponent.
+- **`select_battle_menu_option`:** Automates selecting main battle menu options.
 - **`use_hm_from_menu`:** Automates using an HM from the party menu. **Note:** Currently hardcoded with a manually verified sequence for using Surf with Neptune (Slot 3, Move 4). The logic is brittle as it relies on an assumed cursor position and lacks a proper reset mechanism.
+
+## Improvement Pipeline
+- **Interior Exploration Agent:** Consider creating an agent to automate the systematic exploration of building interiors. It would identify all NPCs, items, and interactable objects on a floor and generate an optimal path to visit them all.
 
 # VII. Archived Discoveries & Confirmations
 
@@ -104,5 +104,5 @@
 - **Item Traps:** Some overworld items (Poké Balls) can be traps that trigger a wild Pokémon battle.
 - **Manually Verified: Use Surf (from overworld):**
     - **Context:** This sequence was manually verified to work from the overworld. It assumes NEPTUNE is in party slot 3 and SURF is its 4th move.
-    - **Verified Starting State:** Start Menu cursor is on 'POKéMON'.
-    - **Sequence:** Start, A, A, A
+    - **Verified Starting State:** Start Menu cursor is on 'SAVE'.
+    - **Sequence:** Start, Up, Up, Up, A, A, A
