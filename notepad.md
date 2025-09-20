@@ -77,3 +77,6 @@
 
 ## Unconfirmed Assumptions
 - The Pokémon Meowth can be found on Route 7. This is based on general knowledge, but has not been confirmed by an in-game encounter in this ROM hack.
+
+## Contingency Plans
+- **Meowth Hunt (Route 7):** If a Meowth is not found after a prolonged period (e.g., ~50 more encounters), I will assume it is not available on this route. I will then abandon this hypothesis and move to the next one provided by my agent for the Old Amber puzzle.
