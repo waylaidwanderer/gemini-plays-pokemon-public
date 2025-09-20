@@ -75,11 +75,10 @@
 
 ## Implemented Tools & Agents
 - **exploration_planner:** Agent to generate optimal routes for speaking to all unvisited NPCs in a city.
-- **navigation_assistant:** Agent to analyze pathfinder failure reasons (e.g., 'cuttable tree', 'water') and suggest the required HM or action.
+- **navigation_assistant:** Agent to analyze pathfinder failure reasons (e.g., 'cuttable tree', 'water') and suggest the required HM or action. Can be improved to suggest more complex debugging steps or analyze map data for alternate routes.
 - **type_advantage_checker:** Computational tool to find the best type advantage against an opponent.
 
 ## Consolidated Agent Ideas
-- `navigation_debugger`: Analyze failed pathing attempts and suggest alternative strategies or map-based reasons for failure.
 - `trainer_predictor`: Predict likely Pokémon types for a given trainer class to assist in pre-battle party optimization.
 - `battle_log_analyzer`: Could analyze a series of battle logs to identify patterns in an opponent's move choices or switching strategy, providing predictive insights for future rematches.
 
@@ -106,9 +105,9 @@
 - **pokemon_hunter:** The tool has been refactored to accept a rectangular boundary to ensure all generated movements stay within a specified hunting area.
 - **use_hm_from_menu:** Corrected menu navigation logic. The previous version used a static, incorrect button sequence. The new script dynamically generates the correct number of 'Down' presses.
 
-## Visited NPCs (Fuchsia City - Post Gym Rematches)
+## Archived NPC Dialogue Logs
+### Visited NPCs (Fuchsia City - Post Gym Rematches)
 - FUCHSIACITY_YOUNGSTER1 at (11, 13) spoken to. No new dialogue.
 - FUCHSIACITY_YOUNGSTER2 at (25, 9) spoken to. No new dialogue.
 - FUCHSIACITY_ERIK at (31, 15) spoken to. No new dialogue.
 - FUCHSIACITY_GAMBLER at (29, 18) - Unreachable.
-- `tool_debugger_agent`: An agent that, given a failing tool and context, suggests a simpler test case to isolate the bug.
