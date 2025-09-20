@@ -27,67 +27,45 @@
 - **Puzzle State Persistence:** Leaving and re-entering the Pewter Museum does **not** reset the internal puzzle state.
 - **Map Marker Discipline (WARPS):** I must mark every warp tile (both entry and exit) with '🚪' immediately after using it to improve my navigational memory and avoid getting lost in complex areas.
 
-# III. Game Mechanics (Observed)
+# III. Game Mechanics & Tile Types (Observed)
 - **Post-Battle Position Shift:** Sometimes, after a wild battle concludes, the player's character may be moved to a different, nearby tile.
 - **Ghost-type Damage:** Ghost-type moves deal SPECIAL damage, not physical.
 - **Purified Zone:** A specific tile area in the Pokémon Tower (5F) that fully heals the party upon entry.
-- **2x1 Warp Tiles:** Some warps, like the Silph Co. elevator, require a two-step activation: 1. Stand on one of the warp tiles. 2. Press a directional button (e.g., Down) into the impassable boundary to trigger the warp.
 - **Inventory Access Bug (Confirmed):** When the player's inventory contains more than 20 unique item stacks (21 or more), selecting 'ITEM' from the Start Menu incorrectly opens the HM pocket instead of the main bag. Depositing items to bring the count to 20 or below resolves this issue.
+- **Celadon City Fly Anomaly:** Attempting to use the HM Fly from anywhere within Celadon City results in a strange event where the player is teleported back inside the Celadon Department Store entrance.
 
-## Anomalous Events
-- **Celadon City Fly Anomaly:** Attempting to use the HM Fly from anywhere within Celadon City results in a strange event. The screen fades as if the flight is initiating, but the player is instead teleported back inside the Celadon Department Store entrance. This behavior does not occur when using Fly from adjacent maps like Route 7.
+### Tile Traversal Rules
+- **`ground` / `grass`:** Standard walkable tiles.
+- **`impassable`:** Walls, objects, etc. Cannot be entered.
+- **`ledge`:** One-way traversal. Can be jumped down from above (Y-1), but cannot be climbed up or moved across horizontally.
+- **`2x1 Warp Tiles`:** Some warps (e.g., Silph Co. elevator) require a two-step activation: 1. Stand on one of the warp tiles. 2. Press a directional button into the impassable boundary to trigger the warp.
 
 # IV. Pokemon Locations (Observed)
 - **Route 8:** Growlithe, Abra, Pidgey, Rattata, Jigglypuff, Vulpix
-- **Route 7:** Pidgey, Vulpix, Koffing, Jigglypuff
+- **Route 7:** Pidgey, Vulpix, Koffing, Jigglypuff, Rattata, Pidgeotto
 
-# V. Implemented Tools & Agents
-
-## Agents (High-Level Reasoning)
-- **`battle_strategist`:** Suggests optimal lead Pokémon and battle strategy.
-- **`exploration_planner`:** Generates optimal routes for visiting all locations of a specified type.
-- **`multi_stage_navigator`:** Breaks down complex navigation puzzles into a sequence of intermediate sub-goals.
-- **`puzzle_hypothesis_generator`:** Generates novel hypotheses for in-game puzzles.
-
-## Tools (Computational & Automation)
-- **`automated_path_navigator`:** Finds the shortest path between two points.
-- **`select_battle_menu_option`:** Automates selecting main battle menu options.
-- **`use_hm_from_menu`:** Automates using an HM from the party menu with a simplified, direct navigation logic.
-- **`stun_npc`**: Freezes a specified NPC in place to prevent them from moving.
-- **`deposit_top_item_from_pc`**: Automates depositing the top-most item from the player's inventory into the PC.
+# V. Future Development Ideas
+- **Agent Idea: Inventory Manager:** An agent to suggest which items to deposit to manage the 20-item inventory bug.
+- **Tool Idea: Advanced Item Deposit:** A tool that can deposit a specific item by name or inventory slot, improving on the current `deposit_top_item_from_pc`.
 
 # VI. Archived Discoveries
-
 ## Completed Quests
-### The Ghost of Lavender Town
-- **Objective:** Investigate the strange occurrences in POKéMON TOWER.
-- **Outcome:** After rescuing Mr. Fuji from Team Rocket, he provided the POKé FLUTE as a reward, concluding the quest.
-### The Copycat's Gift
-- **Objective:** Give the POKé DOLL to COPYCAT.
-- **Location:** Saffron City.
-- **Outcome:** Successfully gave the POKé DOLL to Copycat and received TM31 MIMIC in return.
-### The Sleeping Snorlax
-- **Objective:** Investigate the path blocked by the sleeping Snorlax.
-- **Outcome:** Used the POKé FLUTE to wake the Snorlax on Route 11, clearing the path. The Snorlax disappeared without a battle.
-### Cerulean City Investigation
-- **Outcome:** Defeated the Rocket Grunt in the backyard area and Gym Leader Misty in a rematch. Officer Jenny at (29, 13) is still blocking the path east to Route 9. This investigation is concluded.
+- **The Ghost of Lavender Town:** Rescued Mr. Fuji, received POKé FLUTE.
+- **The Copycat's Gift:** Gave POKé DOLL to COPYCAT, received TM31 MIMIC.
+- **The Sleeping Snorlax:** Woke Snorlax on Route 11 with POKé FLUTE.
+- **Cerulean City Investigation:** Defeated Rocket Grunt and Gym Leader Misty in a rematch. Officer Jenny still blocks Route 9.
 
 ## Confirmed Assumptions & Verified Sequences
 - **Manually Verified: Use Surf (Reliable Sequence):**
-    1. Open Start Menu. Cursor default is 'POKéMON'.
-    2. Press 'A' to select.
-    3. Cursor default is on the 3rd Pokémon (NEPTUNE).
-    4. Press 'A' to select.
-    5. Cursor default is on the 4th move (SURF).
-    6. Press 'A' to use.
+    1. Open Start Menu -> POKéMON.
+    2. Select 3rd Pokémon (NEPTUNE).
+    3. Select 4th move (SURF).
 - **Assumption:** The Jigglypuff at (2, 4) in the Pewter Pokémon Center is decorative. **Status: Confirmed.**
 - **Assumption:** The PC at (14, 4) in the Pewter Pokémon Center functions normally. **Status: Confirmed.**
 - **Item Traps:** Some overworld items (Poké Balls) can be traps that trigger a wild Pokémon battle.
 
 # VII. Investigation Logs
-
 ## Silph Co. Investigation
-- **Objective:** Find clues related to the Old Amber puzzle.
 - **Key Finding (7F):** A Silph Worker at (14, 14) revealed: "We canceled the MASTER BALL project because of TEAM ROCKET."
 
 ## Agent-Generated Hypotheses (Untested)
@@ -97,7 +75,5 @@
 - Adjust money to a specific number (e.g., 777) and speak to the Gambler.
 - Use a 'Nugget' item on the Gambler.
 
-- **Ledge Traversal:** Ledges are one-way tiles. They can be jumped down from above, but cannot be climbed up from below or traversed horizontally.
-
-### Unconfirmed Assumptions
+## Unconfirmed Assumptions
 - The Pokémon Meowth can be found on Route 7. This is based on general knowledge, but has not been confirmed by an in-game encounter in this ROM hack.

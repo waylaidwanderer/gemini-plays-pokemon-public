@@ -1382,32 +1382,37 @@
     ]
   },
   "wild_pokemon_hunter": {
-    "description": "Automates walking back and forth within a defined rectangular area of grass to trigger wild Pokémon encounters. It generates a long sequence of button presses and is intended to be used with autopress_buttons.",
+    "description": "Automates walking back and forth within a defined rectangular area of grass to trigger wild Pokémon encounters. It takes the current player position to avoid walking into walls. Should be called with autopress_buttons: true.",
     "input_schema": {
       "type": "object",
       "properties": {
         "x_min": {
           "type": "string"
         },
-        "y_coord": {
+        "x_max": {
           "type": "string"
         },
-        "x_max": {
+        "current_x": {
           "type": "string"
         }
       },
       "required": [
         "x_min",
-        "y_coord",
-        "x_max"
+        "x_max",
+        "current_x"
       ]
     },
-    "python_script": "import json\nx_min = int(input_data['x_min'])\ny_coord = int(input_data['y_coord'])\nx_max = int(input_data['x_max'])\nnum_steps = 100\nbuttons = []\nfor _ in range(num_steps // ((x_max - x_min) * 2)):\n    for _ in range(x_max - x_min):\n        buttons.append('Right')\n    for _ in range(x_max - x_min):\n        buttons.append('Left')\nprint(json.dumps(buttons))",
+    "python_script": "import json\n\nx_min = int(input_data['x_min'])\nx_max = int(input_data['x_max'])\ncurrent_x = int(input_data['current_x'])\n\nbuttons = []\nnum_cycles = 7\n\n# Determine initial direction based on proximity to boundaries\n# If we're at or closer to the right boundary, start by moving left\nif (x_max - current_x) <= (current_x - x_min):\n    # Move all the way to the left boundary\n    for _ in range(current_x - x_min):\n        buttons.append('Left')\n    current_direction = 'Right' # Next full sweep will be to the right\nelse: # Otherwise, start by moving right\n    # Move all the way to the right boundary\n    for _ in range(x_max - current_x):\n        buttons.append('Right')\n    current_direction = 'Left' # Next full sweep will be to the left\n\n# Perform back-and-forth cycles\nfor _ in range(num_cycles):\n    if current_direction == 'Right':\n        for _ in range(x_max - x_min):\n            buttons.append('Right')\n        current_direction = 'Left'\n    else: # current_direction == 'Left'\n        for _ in range(x_max - x_min):\n            buttons.append('Left')\n        current_direction = 'Right'\n\nprint(json.dumps(buttons))",
     "history": [
       {
         "commit_message": "feat: Create wild_pokemon_hunter tool. This tool automates the repetitive manual task of walking back and forth in grass to find a specific Pokémon. This was created in direct response to a mandatory self-assessment that identified a failure to create tools for recurring tasks.",
         "timestamp": "2025-09-20T12:46:06.328Z",
         "action_counter": 228504
+      },
+      {
+        "commit_message": "fix: Add current_x awareness to avoid boundary collisions. The tool repeatedly failed by attempting to move past the defined x_max boundary. This commit adds `current_x` as an input and implements logic to determine the initial movement direction based on the player's position, preventing it from walking into walls. This is a critical fix to resolve a persistent tool failure.",
+        "timestamp": "2025-09-20T13:05:41.003Z",
+        "action_counter": 228546
       }
     ]
   }
