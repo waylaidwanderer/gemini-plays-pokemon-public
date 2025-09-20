@@ -40,6 +40,7 @@
 - **`impassable`:** Walls, objects, etc. Cannot be entered.
 - **`ledge`:** One-way traversal. Can be jumped down from above (Y-1), but cannot be climbed up or moved across horizontally.
 - **`2x1 Warp Tiles`:** Some warps (e.g., Silph Co. elevator) require a two-step activation: 1. Stand on one of the warp tiles. 2. Press a directional button into the impassable boundary to trigger the warp.
+- **`Fee Trigger Tile`:** A tile that prompts for an entrance fee, even if the player is already inside the area. Dismissing the dialogue allows movement to continue.
 
 # IV. Pokemon Locations (Observed)
 - **Route 8:** Growlithe, Abra, Pidgey, Rattata, Jigglypuff, Vulpix
@@ -74,4 +75,3 @@
 - Lead with a Pokémon holding a money/luck item (Amulet Coin) and speak to the Gambler.
 - Adjust money to a specific number (e.g., 777) and speak to the Gambler.
 - Use a 'Nugget' item on the Gambler.
-- **`Fee Trigger Tile`:** A tile that prompts for an entrance fee, even if the player is already inside the area. Dismissing the dialogue allows movement to continue.
