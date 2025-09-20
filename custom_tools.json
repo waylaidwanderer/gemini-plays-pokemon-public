@@ -1334,5 +1334,34 @@
         "action_counter": 227623
       }
     ]
+  },
+  "navigate_pc_menu": {
+    "description": "Navigates the main PC menu to a specified option (BILL's PC, Gem's PC, PROF.OAK's PC, PKMNLEAGUE, LOG OFF). It assumes the main PC menu is open and the cursor starts at the top ('BILL's PC'). Should be called with autopress_buttons: true.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "target_option": {
+          "type": "string",
+          "enum": [
+            "BILL's PC",
+            "Gem's PC",
+            "PROF.OAK's PC",
+            "PKMNLEAGUE",
+            "LOG OFF"
+          ]
+        }
+      },
+      "required": [
+        "target_option"
+      ]
+    },
+    "python_script": "import json\noptions = [\"BILL's PC\", \"Gem's PC\", \"PROF.OAK's PC\", \"PKMNLEAGUE\", \"LOG OFF\"]\ntarget = input_data['target_option']\npresses = []\nfor _ in range(len(options)):\n    presses.append(\"Up\")\ntry:\n    index = options.index(target)\n    for _ in range(index):\n        presses.append(\"Down\")\n    presses.append(\"A\")\n    print(json.dumps(presses))\nexcept ValueError:\n    print(json.dumps([]))",
+    "history": [
+      {
+        "commit_message": "feat: Create navigate_pc_menu tool. This tool automates navigation of the main PC menu to improve efficiency and reduce manual input errors during a common, repetitive task. It includes a cursor reset to handle unknown starting positions.",
+        "timestamp": "2025-09-20T09:35:58.427Z",
+        "action_counter": 228041
+      }
+    ]
   }
 }

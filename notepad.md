@@ -1,10 +1,9 @@
 # I. Active Quests & Investigation Logs
 
-## Main Quest: The Enigmatic Old Amber
-- **Objective:** Retrieve the Old Amber.
-- **Location:** Pewter Museum of Science.
-- **Obstacle:** A Scientist at (13, 5) on 1F blocks the path to an item.
-- **Status:** New lead discovered. Showing a living Aerodactyl to the Gambler at (2, 5) changed his dialogue. The blocking scientist at (13, 5) remains, but this is the first significant progress.
+## Main Quest: The Old Amber
+- **Objective:** Retrieve the Old Amber from the Pewter Museum of Science.
+- **Current Obstacle:** A Scientist at (13, 5) on 1F blocks the path.
+- **Key Finding:** Showing a living, resurrected Aerodactyl to the Gambler at (2, 5) changes his dialogue to "magnificent fossil!". This confirms a special interaction is required but does not, by itself, move the blocking scientist.
 
 ### Confirmed Puzzle Steps (Internal Museum Sequence)
 1. Lead with a Geodude or a revived fossil Pokémon (Omanyte, Aerodactyl) and speak to the Old Man at (2, 5) on 1F.
