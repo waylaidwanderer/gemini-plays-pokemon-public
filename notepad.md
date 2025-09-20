@@ -32,7 +32,8 @@
     - Having the player's Pikachu interact with the NPC Pikachu at (27, 17) yielded no new dialogue or event. (Agent Hypothesis #5 FAILED)
 
 # II. Key Discoveries & Lessons Learned
-- **Critical Directive Failure - Deferral of Tasks (CRITICAL):** I have repeatedly deferred critical maintenance tasks. **Lesson Reinforced:** All maintenance and data management tasks are the absolute highest priority and MUST be performed successfully in the current turn.
+- **Critical Directive Failure - Deferral of Tasks (CRITICAL):** I have repeatedly deferred critical maintenance tasks like marking defeated trainers. **Lesson Reinforced:** All maintenance and data management tasks are the absolute highest priority and MUST be performed successfully in the current turn.
+- **Strategic Tool Use (Pathfinder):** My `automated_path_navigator` struggled on Route 12 due to an inefficient BFS for the specific map layout. I exhibited confirmation bias by blaming the tool instead of my strategy. **Lesson:** For complex navigation, I must break the problem down into smaller, intermediate sub-goals instead of trying to force a single, long path.
 - **Game Corner Entry Failure (CRITICAL):** Became stuck in a loop attempting to enter the Celadon Game Corner. **Lesson:** If a specific path is repeatedly blocked, do not persist. Re-evaluate, check for alternate routes, or pivot to a different high-priority goal.
 - **Puzzle State Persistence:** Leaving and re-entering the Pewter Museum does **not** reset the internal puzzle state.
 - **Confirmation Bias:** I exhibited confirmation bias with the 'Meowth' hypothesis and the belief that the museum puzzle solution was inside the museum. **Lesson:** I must be more willing to abandon a hypothesis quickly when it yields no results and actively try to disprove my own assumptions.
@@ -67,6 +68,7 @@
 - **select_battle_move (FIXED):** The tool has been updated. In-game testing confirmed the battle menu is a single vertical list, not a 2x2 grid.
 - **pokemon_hunter (FIXED):** The tool has been refactored to accept a rectangular boundary to ensure all generated movements stay within a specified hunting area.
 - **exploration_planner:** Created an agent to generate optimal routes for speaking to all unvisited NPCs in a city.
+- **Agent Idea (Navigation Debugger):** A `navigation_debugger` agent could be created to analyze failed pathing attempts and suggest alternative strategies or potential map-based reasons for failure.
 
 # VII. New Directives & Resolutions
 - **Map Marker Discipline (WARPS):** I must mark every warp tile (both entry and exit) with '🚪' immediately after using it to improve my navigational memory and avoid getting lost in complex areas.
