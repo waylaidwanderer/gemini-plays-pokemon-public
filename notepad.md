@@ -3,8 +3,7 @@
 ## Main Quest: The Old Amber
 - **Objective:** Retrieve the Old Amber from the Pewter Museum of Science.
 - **Current Obstacle:** A Scientist at (13, 5) on 1F blocks the path.
-- **Current Hypothesis:** Using a REVIVE on one of the fossil displays may trigger an event.
-- **Next Step:** If the REVIVE hypothesis fails, I will use my `puzzle_hypothesis_generator` agent to brainstorm new solutions.
+- **Next Step:** Find a Pokémon with the move 'Pay Day' to test the agent's top-ranked hypothesis.
 
 ### Confirmed Puzzle Steps (Internal Museum Sequence)
 1. Lead with a Geodude or a revived fossil Pokémon (Omanyte, Aerodactyl) and speak to the Old Man at (2, 5) on 1F.
@@ -16,9 +15,10 @@
 - Solving the full puzzle sequence (Old Man -> 2F Scientist -> Kabutops Fossil) does not move the blocking scientist.
 - Interacting with the Aerodactyl/Kabutops fossils in various orders, with different lead Pokémon, or in combination with speaking to NPCs does not move the scientist.
 - Using key items like the Coin Case on NPCs has no effect.
-- Speaking to the Gambler at (2, 5) with a non-fossil Pokémon (SPARKY) in the lead results in the same "magnificent fossil!" dialogue, having no effect on the puzzle.
 - Completing external events (all Gym Leader rematches, speaking to all Pewter City NPCs) has no effect on the puzzle.
 - Interacting with the Pikachu at (10, 5) while having a Pokémon with Surf in the party has no effect. **Outcome:** The Pikachu briefly disappeared and reappeared, but the interaction failed to produce dialogue and the blocking scientist remains.
+- Using a REVIVE item on the fossil displays has no effect; it just opens the standard party menu.
+- Speaking to the Gambler at (2, 5) with a non-fossil Pokémon (SPARKY) in the lead results in the same "magnificent fossil!" dialogue, having no effect on the puzzle.
 
 # II. Key Discoveries & Lessons Learned
 - **Confirmation Bias (CRITICAL):** I exhibited strong confirmation bias by assuming my `automated_path_navigator` was broken when it failed in Pewter City. I repeatedly fed it incorrect starting coordinates based on a hallucinated position instead of trusting the Game State Information. The tool was correctly reporting an unreachable map partition. **Lesson Reinforced:** I MUST trust my tool outputs as the default assumption and always verify my own position and assumptions against the game state before debugging a tool.
@@ -89,8 +89,6 @@
 ## Silph Co. Investigation
 - **Objective:** Find clues related to the Old Amber puzzle.
 - **Key Finding (7F):** A Silph Worker at (14, 14) revealed: "We canceled the MASTER BALL project because of TEAM ROCKET."
-- Using a REVIVE item on the fossil displays has no effect. The game opens the standard party menu.
-- Using a REVIVE item on the fossil displays has no effect.
 
 ## Agent-Generated Hypotheses (Untested)
 - Lead with a Pokémon that knows 'Pay Day' and speak to the Gambler at (2, 5).
