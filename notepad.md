@@ -11,25 +11,18 @@
 3. Interact with the Kabutops Fossil at (3, 7) on 1F.
 
 ### Consolidated Failed Hypotheses
-- **Internal Museum Actions:**
-    - **Agent Hypothesis #1 (Partially Confirmed):** Leading with a resurrected Aerodactyl and speaking to the Gambler at (2, 5) changes his dialogue to "magnificent fossil!". **Outcome:** This confirms a special interaction, but it does not move the blocking scientist at (13, 5).
-    - Solving the full puzzle sequence with Geodude, Omanyte, or Aerodactyl in the lead does not move the blocking scientist.
-    - Triggering the Aerodactyl fossil trap and then immediately interacting with the Pikachu at (4, 5) does not move the blocking scientist.
-    - Interacting with the Aerodactyl Fossil at (3, 4) and then immediately speaking to the Old Man at (2, 5) changes his dialogue but does not move the blocking scientist.
-    - Interacting with the Aerodactyl & Kabutops Fossils in immediate succession does not move the blocking scientist; both simply trigger traps.
-    - Leading with a Pikachu and interacting with the NPC Pikachu at (1, 6) does not trigger a special event; it is another trap.
-    - Triggering both the Aerodactyl Fossil trap (3, 4) and the Kabutops Fossil trap (3, 7) and then speaking to the Gambler (2, 5) yields no new dialogue.
-    - After resetting the museum state, triggering *only* the Kabutops Fossil trap at (3, 7) and then speaking to the Gambler at (2, 5) yields no new dialogue.
-    - Using the Coin Case while facing the Gambler at (2, 5) yielded no new dialogue or event.
-- **External Actions & Events:**
-    - After completing the internal museum puzzle sequence, speaking to the Super Nerd at (28, 18) in Pewter City yielded no new dialogue or progress.
-    - Interviewing all NPCs in Pewter City provided no new clues for the museum puzzle.
-    - Interacting with the NPC Pikachu at (27, 26) in Pewter City did not move the blocking scientist inside the museum. (Agent Hypothesis #1 FAILED)
-    - Leading with a revived Aerodactyl and speaking to the Super Nerd at (28, 18) in Pewter City changed his dialogue but does not move the blocking scientist. (Agent Hypothesis #2 FAILED)
-    - Speaking to the second Super Nerd (PEWTERCITY_SUPER_NERD2) at (30, 26) yielded the same generic dialogue. (Agent Hypothesis #3 FAILED)
-    - Reading the museum sign at (16, 10) and then immediately speaking to the Super Nerd at (28, 18) yielded no new dialogue. (Agent Hypothesis #4 FAILED)
-    - Having the player's Pikachu interact with the NPC Pikachu at (27, 17) yielded no new dialogue or event. (Agent Hypothesis #5 FAILED)
-    - Defeating all eight Kanto Gym Leaders in rematches did not move the blocking scientist at (13, 5) in the Pewter Museum of Science. (Hypothesis FAILED)
+- **Agent Hypothesis #1 (Partially Confirmed):** Leading with a resurrected Aerodactyl and speaking to the Gambler at (2, 5) changes his dialogue to "magnificent fossil!". **Outcome:** This confirms a special interaction, but it does not move the blocking scientist at (13, 5).
+- Solving the full puzzle sequence with Geodude, Omanyte, or Aerodactyl in the lead does not move the blocking scientist.
+- Triggering the Aerodactyl fossil trap and then immediately interacting with the Pikachu at (4, 5) does not move the blocking scientist.
+- Interacting with the Aerodactyl Fossil at (3, 4) and then immediately speaking to the Old Man at (2, 5) changes his dialogue but does not move the blocking scientist.
+- Interacting with the Aerodactyl & Kabutops Fossils in immediate succession does not move the blocking scientist; both simply trigger traps.
+- Leading with a Pikachu and interacting with the NPC Pikachu at (1, 6) does not trigger a special event; it is another trap.
+- Triggering both the Aerodactyl Fossil trap (3, 4) and the Kabutops Fossil trap (3, 7) and then speaking to the Gambler (2, 5) yields no new dialogue.
+- After resetting the museum state, triggering *only* the Kabutops Fossil trap at (3, 7) and then speaking to the Gambler at (2, 5) yields no new dialogue.
+- Using the Coin Case while facing the Gambler at (2, 5) yielded no new dialogue or event.
+- After completing the internal museum puzzle sequence, speaking to the Super Nerd at (28, 18) in Pewter City yielded no new dialogue or progress.
+- Interviewing all NPCs in Pewter City provided no new clues for the museum puzzle.
+- Defeating all eight Kanto Gym Leaders in rematches did not move the blocking scientist at (13, 5) in the Pewter Museum of Science.
 
 # II. Key Discoveries & Lessons Learned
 - **Critical Directive Failure - Deferral of Tasks (CRITICAL):** I have repeatedly deferred critical maintenance tasks like fixing tools or cleaning my notepad. **Lesson Reinforced:** All maintenance and data management tasks are the absolute highest priority and MUST be performed successfully in the current turn. Deferring tasks is an invalid strategy.
