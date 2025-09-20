@@ -115,9 +115,3 @@
 
 # [DELETED]
 - **Outcome:** Defeated the Rocket Grunt in the backyard area and Gym Leader Misty in a rematch. However, Officer Jenny at (29, 13) is still blocking the path east to Route 9. This investigation is concluded.
-
-# [DELETED]
-- **Outcome:** Defeated the Rocket Grunt in the backyard area and Gym Leader Misty in a rematch. However, Officer Jenny at (29, 13) is still blocking the path east to Route 9. This investigation is concluded.
-
-# [DELETED]
-- **Outcome:** Defeated the Rocket Grunt in the backyard area and Gym Leader Misty in a rematch. However, Officer Jenny at (29, 13) is still blocking the path east to Route 9. This investigation is concluded.
