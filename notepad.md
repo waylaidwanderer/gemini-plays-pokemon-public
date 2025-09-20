@@ -52,3 +52,4 @@
 - The Sleeping Snorlax
 - Cerulean City Investigation
 - Silph Co. Investigation
+- **Path Command Spinner Traversal:** The `path` command can sometimes execute a full path plan that includes spinner tiles without being interrupted. This behavior is inconsistent with previous observations and needs further testing to understand the conditions under which it occurs.
