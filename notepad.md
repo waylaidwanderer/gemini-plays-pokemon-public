@@ -78,6 +78,7 @@
 - **`automated_path_navigator`:** Finds the shortest path between two points.
 - **`select_battle_menu_option`:** Automates selecting main battle menu options.
 - **`use_hm_from_menu`:** Automates using an HM from the party menu. **Note:** This tool now uses a robust, state-agnostic cursor reset (pressing 'Up' 10 times) for all menus, making it reliable regardless of the previous menu state. It takes a Pokémon's party slot and the move's slot in their menu as input.
+- **`stun_npc`**: Freezes a specified NPC in place to prevent them from moving.
 
 # VII. Archived Discoveries & Confirmations
 
@@ -112,4 +113,3 @@
 ## Silph Co. Investigation
 - **Objective:** Find clues related to the Old Amber puzzle.
 - **Key Finding (7F):** A Silph Worker at (14, 14) revealed: "We canceled the MASTER BALL project because of TEAM ROCKET."
-- **gate_offscreen:** A gate whose state is unknown.
