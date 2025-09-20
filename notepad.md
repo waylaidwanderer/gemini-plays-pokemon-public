@@ -81,3 +81,5 @@
 - **Tool Idea: Advanced PC Management:** A tool that can navigate PC menus to deposit/withdraw a specific Pokémon or item by its name or list index.
 - **Agent Idea: PC Interaction Planner:** An agent to plan the full sequence of menu navigations for complex PC tasks (e.g., depositing a specific item, then withdrawing another).
 - **Tool Idea: Advanced PC Management:** A tool that can navigate PC menus to deposit/withdraw a specific Pokémon or item by its name or list index.
+- **Agent Idea: PC Interaction Planner:** An agent to plan the full sequence of menu navigations for complex PC tasks (e.g., depositing a specific item, then withdrawing another).
+- **Tool Idea: Advanced PC Management:** A tool that can navigate PC menus to deposit/withdraw a specific Pokémon or item by its name or list index.
