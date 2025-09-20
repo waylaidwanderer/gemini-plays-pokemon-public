@@ -20,6 +20,7 @@
 - Using a REVIVE item on the fossil displays has no effect; it just opens the standard party menu.
 - Speaking to the Gambler at (2, 5) with a non-fossil Pokémon (SPARKY) in the lead results in the same "magnificent fossil!" dialogue, having no effect on the puzzle.
 - Hunting for Meowth on Route 7 to learn 'Pay Day'. **Outcome:** After an extensive search (over 100 encounters), no Meowth was found. Concluded that Meowth is either not on this route or is prohibitively rare. This invalidates the current approach to test the 'Pay Day' hypothesis.
+- Using the move 'Dig' on the fossil exhibits. **Outcome:** Professor Oak's dialogue prevents the move from being used, stating "This isn't the time to use that!". This hypothesis is invalid.
 
 # II. Key Discoveries & Lessons Learned
 - **Confirmation Bias (CRITICAL):** I exhibited strong confirmation bias by assuming my `automated_path_navigator` was broken when it failed in Pewter City. I repeatedly fed it incorrect starting coordinates based on a hallucinated position instead of trusting the Game State Information. The tool was correctly reporting an unreachable map partition. **Lesson Reinforced:** I MUST trust my tool outputs as the default assumption and always verify my own position and assumptions against the game state before debugging a tool.
@@ -71,13 +72,10 @@
 - **Key Finding (7F):** A Silph Worker at (14, 14) revealed: "We canceled the MASTER BALL project because of TEAM ROCKET."
 
 ## Agent-Generated Hypotheses (Untested)
-- Use 'Rock Smash' on the fossil exhibits.
-- Lead with a Pokémon holding a money/luck item (Amulet Coin) and speak to the Gambler.
-- Adjust money to a specific number (e.g., 777) and speak to the Gambler.
-- Use a 'Nugget' item on the Gambler.
+- Speak to the MUSEUM1F_GAMBLER at (2, 5) after reducing your total money to exactly 0.
+- Use the move 'Rock Smash' while facing the AerodactylFossil at (3, 4) or the KabutopsFossil at (3, 7).
+- Use a NUGGET item while facing the MUSEUM1F_GAMBLER at (2, 5).
 
 ## Self-Correction & Planning (Turn 228760)
 - **Critical Directive Failure (Deferral):** I have a history of deferring critical tasks like tool creation and notepad maintenance. This is an invalid strategy and must be corrected. All maintenance tasks are the highest priority.
 - **Agent Utilization:** If the 'Dig' hypothesis fails for the museum puzzle, I MUST use my `puzzle_hypothesis_generator` agent to brainstorm new solutions instead of relying on manual ideation.
-- **Tool Idea (PC Management):** A new tool, `deposit_pokemon_by_name`, would be a significant improvement over the current `deposit_top_item_from_pc` for managing my Pokémon storage.
-- Using the move 'Dig' on the fossil exhibits. **Outcome:** Professor Oak's dialogue prevents the move from being used, stating "This isn't the time to use that!". This hypothesis is invalid.
