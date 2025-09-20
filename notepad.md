@@ -3,7 +3,7 @@
 ## Main Quest: The Old Amber
 - **Objective:** Retrieve the Old Amber from the Pewter Museum of Science.
 - **Current Obstacle:** A Scientist at (13, 5) on 1F blocks the path.
-- **Next Step:** Find a Pokémon with the move 'Pay Day' to test the agent's top-ranked hypothesis.
+- **Next Step:** Test a new hypothesis to get past the blocking Scientist.
 
 ### Confirmed Puzzle Steps (Internal Museum Sequence)
 1. Lead with a Geodude or a revived fossil Pokémon (Omanyte, Aerodactyl) and speak to the Old Man at (2, 5) on 1F.
@@ -19,6 +19,7 @@
 - Interacting with the Pikachu at (10, 5) while having a Pokémon with Surf in the party has no effect. **Outcome:** The Pikachu briefly disappeared and reappeared, but the interaction failed to produce dialogue and the blocking scientist remains.
 - Using a REVIVE item on the fossil displays has no effect; it just opens the standard party menu.
 - Speaking to the Gambler at (2, 5) with a non-fossil Pokémon (SPARKY) in the lead results in the same "magnificent fossil!" dialogue, having no effect on the puzzle.
+- Hunting for Meowth on Route 7 to learn 'Pay Day'. **Outcome:** After an extensive search (over 50 encounters), no Meowth was found. Concluded that Meowth is either not on this route or is prohibitively rare. This invalidates the current approach to test the 'Pay Day' hypothesis.
 
 # II. Key Discoveries & Lessons Learned
 - **Confirmation Bias (CRITICAL):** I exhibited strong confirmation bias by assuming my `automated_path_navigator` was broken when it failed in Pewter City. I repeatedly fed it incorrect starting coordinates based on a hallucinated position instead of trusting the Game State Information. The tool was correctly reporting an unreachable map partition. **Lesson Reinforced:** I MUST trust my tool outputs as the default assumption and always verify my own position and assumptions against the game state before debugging a tool.
@@ -69,14 +70,10 @@
 - **Key Finding (7F):** A Silph Worker at (14, 14) revealed: "We canceled the MASTER BALL project because of TEAM ROCKET."
 
 ## Agent-Generated Hypotheses (Untested)
-- Lead with a Pokémon that knows 'Pay Day' and speak to the Gambler at (2, 5).
 - Use 'Rock Smash' on the fossil exhibits.
 - Lead with a Pokémon holding a money/luck item (Amulet Coin) and speak to the Gambler.
 - Adjust money to a specific number (e.g., 777) and speak to the Gambler.
 - Use a 'Nugget' item on the Gambler.
-
-## Unconfirmed Assumptions
-- The Pokémon Meowth can be found on Route 7. This is based on general knowledge, but has not been confirmed by an in-game encounter in this ROM hack.
 
 ## Contingency Plans
 - **Meowth Hunt (Route 7):** If a Meowth is not found after a prolonged period (e.g., ~50 more encounters), I will assume it is not available on this route. I will then abandon this hypothesis and move to the next one provided by my agent for the Old Amber puzzle.
