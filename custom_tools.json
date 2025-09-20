@@ -1177,7 +1177,7 @@
     ]
   },
   "use_hm_from_menu": {
-    "description": "Automates using an HM from the party menu. Takes the Pokémon's party slot (1-6) and the HM's move slot within that Pokémon's move list (1-4) as input. Must be called with autopress_buttons: true.",
+    "description": "Automates using an HM from the party menu. Takes the Pokémon's party slot (1-6) and the HM's move slot within that Pokémon's move list (1-4) as input. **CURRENTLY HARDCODED for using Surf with Neptune (Slot 3, Move 4) from a specific menu state.** Must be called with autopress_buttons: true.",
     "input_schema": {
       "type": "object",
       "properties": {
@@ -1193,7 +1193,7 @@
         "hm_slot_in_pokemon_menu"
       ]
     },
-    "python_script": "import json\n\npokemon_slot = int(input_data['pokemon_slot'])\nhm_slot = int(input_data['hm_slot_in_pokemon_menu'])\n\n# Sequence based on manual verification from Turn 227749\n# Start -> Up x4 -> A -> A -> A\n\n# This assumes the start menu cursor defaults to OPTION, which is 4 downs from POKEMON\n# It also assumes the party and move menu cursors default to the correct position (slot 3 and slot 4 respectively)\n# To make it more robust, I should add cursor resets, but for now, I'll use the verified sequence.\n\nbutton_sequence = [\"Start\"] + [\"Up\"] * 4 + [\"A\", \"A\", \"A\"]\n\n# Adjust for pokemon slot. Default is 3.\nif pokemon_slot < 3:\n    button_sequence = [\"Start\"] + [\"Up\"] * 4 + [\"A\"] + [\"Up\"] * (3 - pokemon_slot) + [\"A\", \"A\"]\nelif pokemon_slot > 3:\n    button_sequence = [\"Start\"] + [\"Up\"] * 4 + [\"A\"] + [\"Down\"] * (pokemon_slot - 3) + [\"A\", \"A\"]\n\n# Adjust for hm slot. Default is 4.\nif hm_slot < 4:\n    button_sequence[-1:] = [\"Up\"] * (4 - hm_slot) + [\"A\"]\nelif hm_slot > 4:\n    # This case is unlikely as there are only 4 moves\n    button_sequence[-1:] = [\"Down\"] * (hm_slot - 4) + [\"A\"]\n\nprint(json.dumps(button_sequence))\n",
+    "python_script": "import json\n# This script uses a manually verified, hardcoded button sequence from Turn 227749.\n# It assumes the Start Menu cursor is on 'OPTION'.\n# Sequence: Start -> Up x4 -> A -> A -> A\nbutton_sequence = [\"Start\", \"Up\", \"Up\", \"Up\", \"Up\", \"A\", \"A\", \"A\"]\nprint(json.dumps(button_sequence))",
     "history": [
       {
         "commit_message": "feat: Create use_hm_from_menu tool. This tool automates using HMs from the party menu to prevent recurring manual input errors. This was identified as a necessary improvement during self-assessment.",
@@ -1249,6 +1249,11 @@
         "commit_message": "refactor: Overhaul HM tool with manually verified sequence. The tool repeatedly failed due to flawed menu navigation logic. This commit replaces the old script with a hardcoded button sequence that was manually verified in-game to be correct. This new logic is based on a specific starting cursor position and should be much more reliable, resolving a persistent critical failure.",
         "timestamp": "2025-09-20T07:09:08.876Z",
         "action_counter": 227749
+      },
+      {
+        "commit_message": "refactor: Simplify tool with hardcoded, verified sequence. The previous version was overly complex and failed. This commit replaces the script with a simple, hardcoded button sequence that was manually verified in-game to be correct, resolving a persistent critical failure as advised by the overwatch system.",
+        "timestamp": "2025-09-20T07:10:13.577Z",
+        "action_counter": 227752
       }
     ]
   },

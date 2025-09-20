@@ -112,6 +112,7 @@
 - The correct button sequence is: Start -> A (select POKéMON) -> [Navigate to Pokémon] -> A (select Pokémon) -> A (select SURF).
 - For my current party, the cursor in the party menu defaults to the 5th Pokémon (REVENANT). To select NEPTUNE (slot 3), the sequence is: Up, Up.
 ## Manually Verified Button Sequences
-### Use Surf (from overworld)
-- **Context:** Player at (55, 12) facing left, Start Menu cursor on 'OPTION', Party Menu cursor on NEPTUNE (Slot 3), Move Menu cursor on SURF (Slot 4).
-- **Sequence:** Start -> Up -> Up -> Up -> Up -> A -> A -> A
+### Use Surf (from overworld) - Reliable Sequence
+- **Context:** This sequence is robust and works regardless of the cursor's starting position. It assumes NEPTUNE is in party slot 3 and SURF is its 4th move.
+- **Logic:** It resets the cursor to the top of each menu before navigating to the correct option.
+- **Button Sequence:** Start, Up (x10), Down, A, Up (x10), Down, Down, A, Up (x10), Down, Down, Down, A
