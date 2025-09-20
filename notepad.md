@@ -98,3 +98,8 @@
 ## New Agent & Tool Ideas (Post-Reflection)
 - **Agent Idea: `battle_log_analyzer`**: Could analyze a series of battle logs to identify patterns in an opponent's move choices or switching strategy, providing predictive insights for future rematches.
 - **Tool Idea: `type_advantage_checker`**: A simple computational tool that takes the player's party and the current opponent's Pokémon type as input and outputs the Pokémon with the best type advantage, including a score for super-effective, not-very-effective, and immune matchups based on observed game mechanics.
+
+## New Hypotheses (Post-Gym Leader Rematches)
+- **Hypothesis:** Defeating all eight Kanto Gym Leaders in rematches may have triggered a change related to the Old Amber puzzle in the Pewter Museum of Science.
+  - **Test:** Travel to Pewter City and enter the museum. Check if the blocking Scientist at (13, 5) on 1F has moved, or if any NPCs in the museum or city have new dialogue.
+  - **Expected Outcome:** Progress in the Old Amber quest.
