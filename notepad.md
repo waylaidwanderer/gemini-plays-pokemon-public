@@ -10,16 +10,14 @@
 3. Interact with the Kabutops Fossil at (3, 7) on 1F.
 
 ### Consolidated Failed Hypotheses
-- Leading with a resurrected Aerodactyl and speaking to the Gambler at (2, 5) changes his dialogue to "magnificent fossil!". **Outcome:** This confirms a special interaction, but it does not move the blocking scientist at (13, 5).
-- Solving the full puzzle sequence (Old Man -> 2F Scientist -> Kabutops Fossil) does not move the blocking scientist.
-- Interacting with the Aerodactyl/Kabutops fossils in various orders, with different lead Pokémon, or in combination with speaking to NPCs does not move the scientist.
-- Using key items like the Coin Case on NPCs has no effect.
-- Completing external events (all Gym Leader rematches, speaking to all Pewter City NPCs) has no effect on the puzzle.
-- Interacting with the Pikachu at (10, 5) while having a Pokémon with Surf in the party has no effect. **Outcome:** The Pikachu briefly disappeared and reappeared, but the interaction failed to produce dialogue and the blocking scientist remains.
-- Using a REVIVE item on the fossil displays has no effect; it just opens the standard party menu.
-- Speaking to the Gambler at (2, 5) with a non-fossil Pokémon (SPARKY) in the lead results in the same "magnificent fossil!" dialogue, having no effect on the puzzle.
-- Hunting for Meowth on Route 7 to learn 'Pay Day'. **Outcome:** After an extensive search (over 100 encounters), no Meowth was found. Concluded that Meowth is either not on this route or is prohibitively rare. This invalidates the current approach to test the 'Pay Day' hypothesis.
-- Using the move 'Dig' on the fossil exhibits. **Outcome:** Professor Oak's dialogue prevents the move from being used, stating "This isn't the time to use that!". This hypothesis is invalid.
+- Leading with various Pokémon (resurrected Aerodactyl, non-fossil SPARKY) and speaking to the Gambler at (2, 5) changes his dialogue but does not move the blocking scientist.
+- Completing the full puzzle sequence (Old Man -> 2F Scientist -> Kabutops Fossil) does not move the blocking scientist.
+- Interacting with fossils in various orders or with different lead Pokémon has no effect.
+- Using key items (Coin Case) or consumable items (REVIVE) on NPCs or exhibits has no effect.
+- Completing external events (all Gym Leader rematches, speaking to all Pewter City NPCs) has no effect.
+- Interacting with the follower Pikachu near the fossils has no effect.
+- Hunting for Meowth on Route 7 to learn 'Pay Day' was unsuccessful; Meowth appears to be absent or extremely rare.
+- Using the move 'Dig' on the fossil exhibits is prevented by Professor Oak's dialogue.
 
 # II. Key Discoveries & Lessons Learned
 - **Confirmation Bias (CRITICAL):** I exhibited strong confirmation bias by assuming my `automated_path_navigator` was broken when it failed in Pewter City. I repeatedly fed it incorrect starting coordinates based on a hallucinated position instead of trusting the Game State Information. The tool was correctly reporting an unreachable map partition. **Lesson Reinforced:** I MUST trust my tool outputs as the default assumption and always verify my own position and assumptions against the game state before debugging a tool.
