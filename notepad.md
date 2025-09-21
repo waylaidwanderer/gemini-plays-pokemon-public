@@ -68,16 +68,7 @@
 - **Status:** STUCK. The path at (13, 5) remains blocked by a Scientist.
 - **Failed Hypotheses (Manual & Agent - Exhaustive List):**
 
-    - Lead with a revived Aerodactyl and spoke to the 'Old Man' (2, 5). (Result: 'magnificent fossil!')
-    - Use 'Cut' on 'AerodactylFossil' (3, 4). (Result: "There isn't anything to CUT!")
-    - Path at (12, 5) is open after puzzle sequence. (Result: Path is blocked by a wall, not the Scientist).
-    - Sequence: Lead with Pikachu -> interact with Pikachu NPC -> interact with KabutopsFossil -> interact with AerodactylFossil -> speak to the Old Man. (Result: Old Man turned, but dialogue unchanged and path remains blocked).
-    - Lead with a Water-type Pokémon and interact with the KabutopsFossil. (Result: Triggered the standard fossil trap, no change.)
-    - Interact with the KabutopsFossil, then speak to the MUSEUM1F_GAMBLER. (Result: Standard 'magnificent fossil!' dialogue, no change).
-    - Sequence: Interact with KabutopsFossil -> (Pikachu NPC gone) -> interact with AerodactylFossil. (Result: Triggered standard fossil traps, no change in the blocked path.)
-    - Stand on the tile to the left of the 'MUSEUM1F_GAMBLER' (at (1, 5)) to make him face the fossils. While he is facing left, interact with the 'AerodactylFossil' at (3, 4). (Result: Gambler turned UP, not left. Interacting with the fossil was a standard trap. No change.)
-    - Use the Itemfinder on the empty floor tiles surrounding the fossils. (Result: 'Nope! ITEMFINDER isn't responding.')
-    - Interact with the 'MUSEUM1F_GAMBLER' at (2, 5) while having the Coin Case item in your inventory. (Result: 'magnificent fossil!')
+    
 
 - **New Hypotheses (To Be Tested):**
     - **Hypothesis 1 (Agent - FAILED):** Sequence: AerodactylFossil -> KabutopsFossil -> Gambler.
