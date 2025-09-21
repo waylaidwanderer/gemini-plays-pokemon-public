@@ -63,3 +63,9 @@
 
 # V. Inventory Management
 - **Overwatch Directive:** Inventory is at 19/20. Must use `inventory_manager` agent at the next PC to avoid the item bug.
+
+# VII. Future Development
+- **Agent Idea:** Create a 'Sequence Puzzle Solver' agent that can analyze environmental clues and suggest ordered sequences of actions.
+
+# VIII. Additional Game Mechanics
+- **Fossil Trap:** Interacting with the fossil exhibits in the Pewter Museum of Science can trigger a trap that temporarily places the player on an impassable tile. This trap can be escaped by pressing the 'B' button.
