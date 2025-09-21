@@ -47,9 +47,9 @@
 
 # VI. Current Investigation: Unrevived Fossil
 - **Objective:** Obtain an unrevived fossil to give to the Rocket Grunt on Mt. Moon B2F.
-- **Current Location:** Mt. Moon B2F (Dead End).
-- **Strategy:** My manual exploration of Mt. Moon has been highly inefficient due to its partitioned, multi-floor layout. I am pivoting to a new strategy: I will systematically visit each floor (1F, B1F, B2F) to gather complete map data, and then use my `multi_stage_navigator` agent to compute an optimal path to the Rocket Grunt at (30, 12) on B2F.
-- **Next Step:** Escape the current dead-end area on B2F by taking the ladder at (26, 10) back to B1F.
+- **Current Location:** Mt. Moon 1F.
+- **Strategy:** My manual exploration of Mt. Moon has been highly inefficient and prone to hallucination. I am pivoting to a new strategy as advised by the Overwatch system: I will systematically visit each floor (1F, B1F, B2F) to gather complete map data, and then use my `multi_stage_navigator` agent to compute an optimal path.
+- **Next Step:** Take the last unexplored ladder on 1F at (26, 16) to access a new section of B1F and continue data collection.
 
 # VII. Archived Investigations
 
