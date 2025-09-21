@@ -69,3 +69,4 @@
 
 # V. Inventory Management
 - **Overwatch Directive:** Inventory is at 19/20. Agent confirmed no action is needed as this is below the 21+ item bug threshold.
+- **Mt. Moon Rocket Grunt (30, 12):** Confirmed he requires an unrevived fossil to pass. Dialogue: "If you find a fossil, give it to me and scram!"
