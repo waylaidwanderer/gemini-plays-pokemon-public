@@ -85,3 +85,6 @@
 # V. Agent & Tool Development Ideas
 - **Lost Item Investigator Agent:** An agent that takes an objective (e.g., 'Find TM28') and a list of clues, then proposes a ranked sequence of locations to search and actions to perform.
 - **Automated ITEMFINDER Tool:** A tool to automate the menu navigation required to select and use the ITEMFINDER, reducing manual button presses.
+- **Hypothesis:** TM28 (DIG) is a hidden item in the Cerulean Backyard.
+- **Test:** Used ITEMFINDER at (30, 10).
+- **Result:** FAILED. ITEMFINDER did not respond.

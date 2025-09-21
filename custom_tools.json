@@ -1305,39 +1305,6 @@
       }
     ]
   },
-  "select_elevator_floor": {
-    "description": "Navigates the Rocket Hideout elevator menu to select a specific floor (B1F, B2F, B4F) or cancel. Assumes the menu is already open with the cursor on B1F. Should be called with autopress_buttons: true.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "floor_to_select": {
-          "type": "string",
-          "enum": [
-            "B1F",
-            "B2F",
-            "B4F",
-            "CANCEL"
-          ]
-        }
-      },
-      "required": [
-        "floor_to_select"
-      ]
-    },
-    "python_script": "import json\n\nfloor_to_select = input_data['floor_to_select']\nbuttons = []\n\nif floor_to_select == \"B1F\":\n    pass # Already selected\nelif floor_to_select == \"B2F\":\n    buttons.append(\"Down\")\nelif floor_to_select == \"B4F\":\n    buttons.extend([\"Down\", \"Down\"])\nelif floor_to_select == \"CANCEL\":\n    buttons.extend([\"Down\", \"Down\", \"Down\"])\n\nbuttons.append(\"A\")\nprint(json.dumps(buttons))",
-    "history": [
-      {
-        "commit_message": "feat: Create select_elevator_floor tool. This automates a recurring menu navigation task identified during a mandatory self-assessment, improving efficiency.",
-        "timestamp": "2025-09-20T22:43:37.801Z",
-        "action_counter": 229787
-      },
-      {
-        "commit_message": "feat: Add CANCEL option. This allows the tool to exit the elevator menu without selecting a floor, making it more versatile for navigation.",
-        "timestamp": "2025-09-20T23:32:47.052Z",
-        "action_counter": 229892
-      }
-    ]
-  },
   "select_move_by_slot": {
     "description": "Automates selecting a Pokémon's move in battle by its slot number (1-4). Assumes the move selection menu is open. Should be called with autopress_buttons: true.",
     "input_schema": {
@@ -1363,6 +1330,22 @@
         "commit_message": "feat: Create select_move_by_slot tool. This tool automates the selection of a move in battle based on its slot number, reducing the chance of manual error during battle menu navigation. This was created as part of a mandatory self-assessment that identified an opportunity for tool creation.",
         "timestamp": "2025-09-21T05:00:37.261Z",
         "action_counter": 230659
+      }
+    ]
+  },
+  "use_itemfinder": {
+    "description": "Automates the process of opening the menu and using the ITEMFINDER. Includes a reset sequence to ensure it can be called from any menu state. Should be called with autopress_buttons: true.",
+    "input_schema": {
+      "type": "object",
+      "properties": {},
+      "required": []
+    },
+    "python_script": "import json\n# Reset sequence to exit any menus\nbuttons = [\"B\"] * 5\n# Open Start Menu\nbuttons.append(\"Start\")\n# Navigate to ITEM\nbuttons.extend([\"Down\", \"Down\"])\n# Select ITEM\nbuttons.append(\"A\")\n# Navigate to ITEMFINDER (12th item, so 11 Down presses)\nbuttons.extend([\"Down\"] * 11)\n# Select and Use ITEMFINDER\nbuttons.extend([\"A\", \"A\"])\nprint(json.dumps(buttons))",
+    "history": [
+      {
+        "commit_message": "feat: Create use_itemfinder tool. This automates the repetitive menu navigation required to use the ITEMFINDER, improving efficiency and reducing manual error. This was created in direct response to an overwatch critique encouraging proactive tool creation.",
+        "timestamp": "2025-09-21T07:39:03.310Z",
+        "action_counter": 230917
       }
     ]
   }
