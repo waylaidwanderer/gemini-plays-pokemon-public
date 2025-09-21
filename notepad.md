@@ -61,8 +61,7 @@
 # VIII. Archived Investigations
 ### Mt. Moon Fossil Search (Manual Exploration Phase)
 - **Summary:** Initial manual exploration of Mt. Moon 1F and parts of B1F/B2F yielded no fossils. Key findings included the Cinnabar Lab info from a Super Nerd and a path blocked by a Hiker. This inefficient phase prompted a switch to a systematic, data-gathering strategy.
-### TM28 (DIG) - Cerulean Backyard
-- **Summary:** Used ITEMFINDER and visual inspection at (30, 10) and (31, 10) in the Cerulean Backyard after defeating a Rocket Grunt. No item was found. Investigation concluded.
+
 ### Old Amber Retrieval (Pewter Museum)
 - **Summary:** Solved via a complex, multi-step sequence involving NPC and exhibit interactions across both floors of the Pewter Museum.
 - **Key Lesson:** Puzzles in this hack can require non-obvious sequences of interactions that are not hinted at directly. The solution involved speaking to an Old Man with a specific Pokémon (Geodude), interacting with an unrelated exhibit (space shuttle), and then interacting with a fossil exhibit. This highlights the need for creative, systematic hypothesis testing, and confirms the value of the `sequence_puzzle_solver` agent for future complex puzzles.
