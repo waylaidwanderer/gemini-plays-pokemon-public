@@ -47,13 +47,19 @@
 
 # VI. Current Investigation: Unrevived Fossil
 - **Objective:** Obtain an unrevived fossil to give to the Rocket Grunt on Mt. Moon B2F.
-- **Current Location:** Mt. Moon 1F.
+- **Current Location:** Mt. Moon B2F (Dead End).
+- **Strategy:** My manual exploration of Mt. Moon has been highly inefficient due to its partitioned, multi-floor layout. I am pivoting to a new strategy: I will systematically visit each floor (1F, B1F, B2F) to gather complete map data, and then use my `multi_stage_navigator` agent to compute an optimal path to the Rocket Grunt at (30, 12) on B2F.
+- **Next Step:** Escape the current dead-end area on B2F by taking the ladder at (26, 10) back to B1F.
+
+# VII. Archived Investigations
+
+### Mt. Moon Fossil Search (Manual Exploration Phase)
 - **Hypothesis:** An unrevived fossil can be obtained from an NPC or item ball in Mt. Moon.
 - **Test Results:**
     - **Super Nerd at (13, 9) on B2F:** FAILED. This NPC only provided information about the Cinnabar Lab after being defeated. He did not provide a fossil.
     - **Eastern section of 1F:** FAILED. Explored fully, found no fossils or relevant NPCs.
-    - **Hiker at (6, 7) on 1F:** FAILED. The Hiker still blocks the path with the dialogue "Kids like you shouldn't be here!". This path is not currently accessible.
-- **Next Step:** Systematically explore Mt. Moon B1F.
+    - **Hiker at (6, 7) on 1F:** FAILED. The Hiker still blocks the path. This path is not currently accessible.
+    - **Ladders at (6,6), (18,12) on 1F & (26,10) on B2F:** FAILED. All explored ladders so far have led to isolated, dead-end sections of the lower floors.
     - **Hiker at (6, 7) on 1F:** FAILED. The Hiker still blocks the path with the dialogue "Kids like you shouldn't be here!". This path is not currently accessible.
 - **Next Step:** Systematically explore Mt. Moon B1F.
 
