@@ -1,21 +1,18 @@
-# I. The Old Amber Investigation
-- **Objective:** Retrieve the Old Amber from the Pewter Museum of Science.
-- **Status:** STUCK. The path at (13, 5) remains blocked by a Scientist.
-- **INCORRECT Past Hypothesis:** The sequence of (1. Lead with fossil, talk to Old Man -> 2. Talk to Scientist (2F) -> 3. Interact with Space Shuttle -> 4. Interact with Kabutops Fossil) was previously thought to be the solution. **This is WRONG.** It did not clear the path.
-
-# II. Core Directives & Lessons Learned
+# I. Core Directives & Lessons Learned
 - **IMMEDIATE DATA & TOOL MAINTENANCE (CRITICAL):** As an LLM, my thinking is not continuous. All maintenance tasks (tool creation/fixing, agent definition, notepad updates) are the absolute highest priority and **MUST** be performed successfully in the current turn. Deferring tasks is an invalid strategy.
 - **TRUST YOUR TOOLS & AGENTS (CRITICAL):** I must trust my tool and agent outputs as the default assumption. Before debugging, I must first verify my own position and assumptions against the game state.
+- **VERIFY POSITION (CRITICAL):** I have a history of position hallucinations. I **MUST** check my position in the Game State Information at the start of every turn before forming a plan.
 - **MAP MARKER DISCIPLINE (CRITICAL):** I must mark every warp tile (both entry and exit) with '🚪' and every defeated trainer with '☠️' immediately.
 - **HYPOTHESIS VETTING (CRITICAL):** Before attempting to test a hypothesis, I must first confirm it is mechanically possible within the game's established rules.
 
-# III. Game Mechanics & Tile Types (Observed)
+# II. Game Mechanics & Tile Types (Observed)
 - **Post-Battle Position Shift:** Player may be moved after a wild battle.
 - **Ghost-type Damage:** Ghost-type moves deal SPECIAL damage.
 - **Purified Zone:** A healing area in Pokémon Tower (5F).
 - **Inventory Access Bug (Confirmed):** With 21+ unique item stacks, 'ITEM' from the Start Menu opens the HM pocket.
 - **Celadon City Fly Anomaly:** Using HM Fly from anywhere within Celadon City teleports the player to the Celadon Department Store entrance.
 - **Fee Trigger Tile:** A tile that prompts for an entrance fee, even if already inside. Paying a second time broke a scripted loop.
+- **Fossil Trap:** Interacting with the fossil exhibits in the Pewter Museum of Science can trigger a trap that temporarily places the player on an impassable tile. This trap can be escaped by pressing the 'B' button.
 
 ### Tile Traversal Rules (Comprehensive)
 - `ground` / `grass`: Standard walkable tiles.
@@ -32,7 +29,7 @@
 - `boulder_barrier` / `boulder_switch`: Switch that clears a barrier when a boulder is pushed onto it.
 - `gate_*`: Gates that can block paths.
 
-# IV. Completed Quests
+# III. Completed Quests
 - The Ghost of Lavender Town
 - The Copycat's Gift
 - The Sleeping Snorlax
@@ -40,9 +37,11 @@
 - Silph Co. Investigation
 - Rocket Hideout Investigation
 
-# VI. Puzzle Hypotheses
-- **Puzzle:** Old Amber Retrieval
+# IV. Puzzle: Old Amber Retrieval
+- **Objective:** Retrieve the Old Amber from the Pewter Museum of Science.
+- **Status:** STUCK. The path at (13, 5) remains blocked by a Scientist.
 - **Failed Hypotheses (Manual & Agent - Exhaustive List):**
+    - **Sequence (WRONG):** The sequence of (1. Lead with fossil, talk to Old Man -> 2. Talk to Scientist (2F) -> 3. Interact with Space Shuttle -> 4. Interact with Kabutops Fossil) was previously thought to be the solution. **This did not work.**
     - Spoke to the 'Old Man' (2, 5) after the initial puzzle sequence. (Result: 'magnificent fossil!')
     - Interact with 'AerodactylFossil' (3, 4), then spoke to the 'Old Man' (2, 5). (Result: 'magnificent fossil!')
     - Interact with 'KabutopsFossil' (3, 7), then 'AerodactylFossil' (3, 4), then spoke to the 'Old Man' (2, 5). (Result: 'magnificent fossil!')
@@ -58,19 +57,13 @@
     - Interact with the 'MUSEUM1F_GAMBLER' at (2, 5) while having the Coin Case item in your inventory. (Result: 'magnificent fossil!')
 
 - **New Hypotheses (To Be Tested):**
-    - **Hypothesis 1 (Untestable):** Use the move 'Rock Smash' on the fossils. (Reason: Don't have the move).
-    - **Hypothesis 2 (Untestable):** Use the move 'Dig' on the tile directly in front of the fossils. (Reason: Don't have the move).
+    - **Hypothesis 1 (Agent):** Sequence: AerodactylFossil -> KabutopsFossil -> Gambler.
+    - **Hypothesis 2 (Agent):** Stand at (3, 5) and talk to Gambler.
+    - **Hypothesis 3 (Agent - Invalid):** Interact with fossils from the west side (tiles are impassable).
+    - **Hypothesis 4 (Agent):** Interact with KabutopsFossil x2, AerodactylFossil x1, then talk to Gambler.
 
 # V. Inventory Management
-- **Overwatch Directive:** Inventory is at 19/20. Must use `inventory_manager` agent at the next PC to avoid the item bug.
+- **Overwatch Directive:** Inventory is at 19/20. Agent confirmed no action is needed as this is below the 21+ item bug threshold.
 
-# VII. Future Development
+# VI. Future Development
 - **Agent Idea:** Create a 'Sequence Puzzle Solver' agent that can analyze environmental clues and suggest ordered sequences of actions.
-
-# VIII. Additional Game Mechanics
-- **Fossil Trap:** Interacting with the fossil exhibits in the Pewter Museum of Science can trigger a trap that temporarily places the player on an impassable tile. This trap can be escaped by pressing the 'B' button.
-- **New Hypotheses (Agent - Batch 2):**
-    - **Hypothesis 1 (Testing):** Sequence: AerodactylFossil -> KabutopsFossil -> Gambler.
-    - **Hypothesis 2:** Stand at (3, 5) and talk to Gambler.
-    - **Hypothesis 3 (Invalid):** Interact with fossils from the west side (tiles are impassable).
-    - **Hypothesis 4:** Interact with KabutopsFossil x2, AerodactylFossil x1, then talk to Gambler.
