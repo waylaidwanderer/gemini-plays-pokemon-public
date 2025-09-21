@@ -69,7 +69,7 @@
 - **Hypothesis 9 (Agent - FAILED):** Stand on the tile at (3, 5), to the right of the fossil display. First, face UP towards the 'AerodactylFossil'. Then, without leaving the tile, turn to face LEFT and initiate conversation with the 'MUSEUM1F_GAMBLER' at (2, 5). (Result: 'magnificent fossil!' dialogue, no change).
 
 # V. Key NPCs & Blockers
-- **Mt. Moon Rocket Grunt (30, 12):** Confirmed he requires an unrevived fossil to pass. Dialogue: "If you find a fossil, give it to me and scram!"
+- Mt. Moon Rocket Grunt (30, 12): Confirmed he requires an unrevived fossil to pass. Dialogue: "If you find a fossil, give it to me and scram!"
 
 # VI. Agent & Tool Development Ideas
 - **Multi-Floor Navigator Agent:** An agent that can plan routes across multiple floors of a dungeon by suggesting a sequence of ladders/warps to take. This would be useful for complex areas like Mt. Moon or Silph Co.
