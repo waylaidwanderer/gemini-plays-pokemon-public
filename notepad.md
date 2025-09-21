@@ -43,25 +43,23 @@
 
 # VI. Puzzle Hypotheses
 - **Puzzle:** Old Amber Retrieval
-- **Failed Hypotheses (Manual):**
-    - Spoke to the 'Old Man' (2, 5) after the puzzle sequence. (Result: 'magnificent fossil!')
+- **Failed Hypotheses (Manual & Agent - Exhaustive List):**
+    - Spoke to the 'Old Man' (2, 5) after the initial puzzle sequence. (Result: 'magnificent fossil!')
     - Interact with 'AerodactylFossil' (3, 4), then spoke to the 'Old Man' (2, 5). (Result: 'magnificent fossil!')
     - Interact with 'KabutopsFossil' (3, 7), then 'AerodactylFossil' (3, 4), then spoke to the 'Old Man' (2, 5). (Result: 'magnificent fossil!')
     - Lead with a revived Aerodactyl and spoke to the 'Old Man' (2, 5). (Result: 'magnificent fossil!')
     - Use 'Cut' on 'AerodactylFossil' (3, 4). (Result: "There isn't anything to CUT!")
-    - The path at (12, 5) is open after the puzzle sequence. (Result: Path is blocked by a wall, not the Scientist).
-- **New Hypotheses (from Agent - Round 2):**
-    - **Hypothesis 1 (Untested):** After making the 'Old Man' (2, 5) turn right, interact with the 'AerodactylFossil' at (3, 4) again while he is not looking.
-    - **Hypothesis 2 (Untested):** Interact with the 'AerodactylFossil' (3, 4) first, then the 'KabutopsFossil' (3, 7), and then speak to the 'Old Man' (2, 5).
-    - **Hypothesis 3 (Untested):** After making the 'Old Man' (2, 5) turn right, position your character directly to his right side (on tile 3, 5) and then speak to him.
-    - **Hypothesis 4 (Untested):** Stand directly in front of the 'AerodactylFossil' (3, 4) and use the Pokédex.
+    - Path at (12, 5) is open after puzzle sequence. (Result: Path is blocked by a wall, not the Scientist).
+    - Sequence: Lead with Pikachu -> interact with Pikachu NPC -> interact with KabutopsFossil -> interact with AerodactylFossil -> speak to the Old Man. (Result: Old Man turned, but dialogue unchanged and path remains blocked).
+    - Lead with a Water-type Pokémon and interact with the KabutopsFossil. (Result: Triggered the standard fossil trap, no change.)
+    - Interact with the KabutopsFossil, then speak to the MUSEUM1F_GAMBLER. (Result: Standard 'magnificent fossil!' dialogue, no change).
+    - Sequence: Interact with KabutopsFossil -> (Pikachu NPC gone) -> interact with AerodactylFossil. (Result: Triggered standard fossil traps, no change in the blocked path.)
+
+- **New Hypotheses (from Agent - Round 4):**
+    - **Hypothesis 1 (Untested):** Stand on the tile to the left of the 'MUSEUM1F_GAMBLER' (at (1, 5)) to make him face the fossils. While he is facing left, interact with the 'AerodactylFossil' at (3, 4).
+    - **Hypothesis 2 (Untested):** Use a money-related or fossil-related item from the bag, such as a 'Nugget' or a 'Rare Bone', while standing in front of the 'MUSEUM1F_GAMBLER' at (2, 5).
+    - **Hypothesis 3 (Untested):** Interact with the 'KabutopsFossil' at (3, 7) from a non-standard position, such as from the side (at coordinates (4, 7)).
+    - **Hypothesis 4 (Untested):** Interact with the 'KabutopsFossil' at (3, 7) exactly seven times in a row, then speak to the 'MUSEUM1F_GAMBLER' at (2, 5).
 
 # V. Inventory Management
 - **Overwatch Directive:** Inventory is at 19/20. Must use `inventory_manager` agent at the next PC to avoid the item bug.
-
-- **Failed Hypotheses (from Agent - Updated):
-    - **Hypothesis 3 (Tested & Failed):** Sequence: Lead with Pikachu -> interact with Pikachu NPC -> interact with KabutopsFossil -> interact with AerodactylFossil -> speak to the Old Man. (Result: Old Man turned to face right, but dialogue unchanged and path remains blocked).
-- **New Hypotheses (from Agent - Round 3):**
-    - **Hypothesis 1 (Tested & Failed):** Lead with a Water-type Pokémon in the first party slot and interact with the KabutopsFossil at (3, 7). (Result: Triggered the standard fossil trap, no change.)
-    - **Hypothesis 2 (Tested & Failed):** Interact with the KabutopsFossil at (3, 7), then speak to the MUSEUM1F_GAMBLER at (2, 5). (Result: Standard 'magnificent fossil!' dialogue, no change).
-    - **Hypothesis 3 (Untested):** Interact with the KabutopsFossil at (3, 7), then interact with the Pikachu NPC at (4, 5), and finally interact with the AerodactylFossil at (3, 4).
