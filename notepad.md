@@ -95,3 +95,4 @@
 # VIII. Self-Assessment Takeaways (Turn 230965)
 - **Agent Utilization:** I need to actively look for opportunities to use my `multi_stage_navigator` and `sequence_puzzle_solver` agents to test their effectiveness.
 - **Fossil Quest - Backup Plan:** If a systematic search of Mt. Moon yields no new fossil items, my backup plan is to test if the Rocket Grunt will accept a *revived* fossil, as my previous tests only involved unrevived or renamed Pokémon.
+- **Automated Path Navigator - Ledge Logic:** The tool failed at turn 230960 by attempting to move up into a ledge. It needs to be refined to correctly interpret and navigate around ledges from all directions, not just when jumping down.
