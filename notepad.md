@@ -43,6 +43,7 @@
 - Mt. Moon Rocket Grunt (30, 12): Confirmed he requires an unrevived fossil to pass. Dialogue: "If you find a fossil, give it to me and scram!"
 
 # V. Agent & Tool Development Ideas
+- **Lost Item Investigator Agent:** An agent that takes an objective (e.g., 'Find TM28') and a list of clues, then proposes a ranked sequence of locations to search and actions to perform.
 
 # VI. Current Investigation: Unrevived Fossil
 - **Objective:** Obtain an unrevived fossil to give to the Rocket Grunt on Mt. Moon B2F.
@@ -82,17 +83,16 @@
 - **Hypothesis 8 (Agent - FAILED / Untestable):** While having an unrevived fossil item (e.g., Dome Fossil or Helix Fossil) in your inventory, stand in front of the 'MUSEUM1F_GAMBLER' at (2, 5) and 'Use' the fossil item from the bag menu. (Note: PC item storage checked, no unrevived fossils found).
 - **Hypothesis 9 (Agent - FAILED):** Stand on the tile at (3, 5), to the right of the fossil display. First, face UP towards the 'AerodactylFossil'. Then, without leaving the tile, turn to face LEFT and initiate conversation with the 'MUSEUM1F_GAMBLER' at (2, 5). (Result: 'magnificent fossil!' dialogue, no change).
 
-# V. Agent & Tool Development Ideas
-- **Lost Item Investigator Agent:** An agent that takes an objective (e.g., 'Find TM28') and a list of clues, then proposes a ranked sequence of locations to search and actions to perform.
-- **Automated ITEMFINDER Tool:** A tool to automate the menu navigation required to select and use the ITEMFINDER, reducing manual button presses.
+# VIII. Self-Assessment Takeaways (Turn 230965)
+- **Agent Utilization:** I need to actively look for opportunities to use my `multi_stage_navigator` and `sequence_puzzle_solver` agents to test their effectiveness.
+- **Fossil Quest - Backup Plan:** If a systematic search of Mt. Moon yields no new fossil items, my backup plan is to test if the Rocket Grunt will accept a *revived* fossil, as my previous tests only involved unrevived or renamed Pokémon.
+- **Automated Path Navigator - Ledge Logic:** The tool failed at turn 230960 by attempting to move up into a ledge. It needs to be refined to correctly interpret and navigate around ledges from all directions, not just when jumping down.
+
+# IX. Archived Investigations
+### TM28 (DIG) - Cerulean Backyard
 - **Hypothesis:** TM28 (DIG) is a hidden item in the Cerulean Backyard.
 - **Test:** Used ITEMFINDER at (30, 10).
 - **Result:** FAILED. ITEMFINDER did not respond.
 - **Hypothesis:** TM28 (DIG) appeared as a visible item at (31, 10) after defeating the Rocket Grunt.
 - **Test:** Navigated to (32, 10) and visually inspected the tile.
 - **Result:** FAILED. No item sprite is present at (31, 10).
-
-# VIII. Self-Assessment Takeaways (Turn 230965)
-- **Agent Utilization:** I need to actively look for opportunities to use my `multi_stage_navigator` and `sequence_puzzle_solver` agents to test their effectiveness.
-- **Fossil Quest - Backup Plan:** If a systematic search of Mt. Moon yields no new fossil items, my backup plan is to test if the Rocket Grunt will accept a *revived* fossil, as my previous tests only involved unrevived or renamed Pokémon.
-- **Automated Path Navigator - Ledge Logic:** The tool failed at turn 230960 by attempting to move up into a ledge. It needs to be refined to correctly interpret and navigate around ledges from all directions, not just when jumping down.
