@@ -63,3 +63,4 @@
 
 # V. Inventory Management
 - **Overwatch Directive:** Inventory is at 19/20. Must use `inventory_manager` agent at the next PC to avoid the item bug.
+- Sequence: Interact with KabutopsFossil -> (Pikachu NPC gone) -> interact with AerodactylFossil. (Result: Triggered standard fossil traps, no change in the blocked path.)
