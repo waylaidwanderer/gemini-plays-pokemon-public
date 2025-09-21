@@ -70,3 +70,9 @@
 # V. Inventory Management
 - **Overwatch Directive:** Inventory is at 19/20. Agent confirmed no action is needed as this is below the 21+ item bug threshold.
 - **Mt. Moon Rocket Grunt (30, 12):** Confirmed he requires an unrevived fossil to pass. Dialogue: "If you find a fossil, give it to me and scram!"
+
+# VI. Agent & Tool Development Ideas
+- **Multi-Floor Navigator Agent:** An agent that can plan routes across multiple floors of a dungeon by suggesting a sequence of ladders/warps to take. This would be useful for complex areas like Mt. Moon or Silph Co.
+
+# VII. Current Hypotheses
+- **Hypothesis: Fossil Source:** The Super Nerd on Mt. Moon B2F (the one who offers a choice after battle) is the source for the unrevived fossil needed for the Rocket Grunt. **Test:** Navigate to him, defeat him if necessary, and see if he offers a fossil.
