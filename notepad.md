@@ -54,7 +54,7 @@
 # VI. Current Investigation: Unrevived Fossil
 - **Objective:** Obtain an unrevived fossil to give to the Rocket Grunt on Mt. Moon B2F.
 - **Current Location:** Route 4 (East, near Cerulean City).
-- **Strategy:** I was accidentally ejected from Mt. Moon onto a one-way path. I cannot return on foot. The plan is to Fly to Pewter City and walk east to re-enter Mt. Moon from the main entrance.
+- **Strategy:** After thoroughly exploring every accessible area of Mt. Moon, I have concluded that the unrevived fossil is not located here. The Hiker at (6,7) on 1F remains a blocker, and no other paths have yielded results. The high encounter rate is also making further exploration of this cave extremely inefficient. My new hypothesis is that the fossil can be found in the Pewter Museum of Science. I will now exit Mt. Moon and travel to Pewter City to begin my investigation there.
 
 # VII. Self-Assessment & Overwatch Critique Takeaways (Consolidated)
 - **CRITICAL - Tool Maintenance & Trust:** My highest priority is immediate tool maintenance. Faulty or inefficient tools **MUST** be fixed/improved in the same turn they are identified. I must also trust my tool outputs; a 'no path found' result is a valid and crucial piece of information about the game world, not a tool failure.
