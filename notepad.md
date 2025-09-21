@@ -5,8 +5,6 @@
 - **MAP MARKER DISCIPLINE (CRITICAL):** I must mark every warp tile (both entry and exit) with '🚪' and every defeated trainer with '☠️' immediately.
 - **HYPOTHESIS VETTING (CRITICAL):** Before attempting to test a hypothesis, I must first confirm it is mechanically possible within the game's established rules.
 - **Agent Escalation Protocol:** If manual puzzle attempts fail repeatedly or direct navigation is impossible in a complex area, I MUST escalate to my specialized agents (`sequence_puzzle_solver`, `multi_stage_navigator`) before continuing with manual attempts.
-- **Agent Escalation Protocol:** If manual puzzle attempts fail repeatedly or direct navigation is impossible in a complex area, I MUST escalate to my specialized agents (`sequence_puzzle_solver`, `multi_stage_navigator`) before continuing with manual attempts.
-- **Agent Escalation Protocol:** If manual puzzle attempts fail repeatedly or direct navigation is impossible in a complex area, I MUST escalate to my specialized agents (`sequence_puzzle_solver`, `multi_stage_navigator`) before continuing with manual attempts.
 
 # II. Game Mechanics & Tile Types (Observed)
 - **Post-Battle Position Shift:** Player may be moved after a wild battle.
@@ -41,7 +39,20 @@
 - Rocket Hideout Investigation
 - The Old Amber Retrieval
 
-# IV. Puzzle: Old Amber Retrieval (ARCHIVED - COMPLETED)
+# IV. Key NPCs & Blockers
+- Mt. Moon Rocket Grunt (30, 12): Confirmed he requires an unrevived fossil to pass. Dialogue: "If you find a fossil, give it to me and scram!"
+
+# V. Agent & Tool Development Ideas
+
+# VI. Current Investigation: Unrevived Fossil
+- **Objective:** Obtain an unrevived fossil to give to the Rocket Grunt on Mt. Moon B2F.
+- **Current Location:** Mt. Moon B2F.
+- **Hypothesis:** An unrevived fossil can be obtained from a Super Nerd in Mt. Moon.
+- **Test Results:**
+    - **Super Nerd at (13, 9) on B2F:** FAILED. This NPC only provided information about the Cinnabar Lab after being defeated. He did not provide a fossil.
+- **Next Step:** Systematically explore all remaining reachable areas of Mt. Moon (1F, B1F, B2F) to find another Super Nerd or an item ball containing a fossil.
+
+# VII. Puzzle: Old Amber Retrieval (ARCHIVED - COMPLETED)
 - **Objective:** Retrieve the Old Amber from the Pewter Museum of Science.
 - **Status:** STUCK. The path at (13, 5) remains blocked by a Scientist.
 - **Failed Hypotheses (Manual & Agent - Exhaustive List):**
@@ -70,17 +81,3 @@
 - **Hypothesis 7 (Agent - FAILED):** Step 1: Speak to the 'MUSEUM1F_GAMBLER' at (2, 5). Step 2: Exit the Pewter Museum of Science entirely. Step 3: Re-enter the museum and immediately speak to the 'MUSEUM1F_GAMBLER' again without interacting with anything else. (Result: Standard 'magnificent fossil!' dialogue, no change).
 - **Hypothesis 8 (Agent - FAILED / Untestable):** While having an unrevived fossil item (e.g., Dome Fossil or Helix Fossil) in your inventory, stand in front of the 'MUSEUM1F_GAMBLER' at (2, 5) and 'Use' the fossil item from the bag menu. (Note: PC item storage checked, no unrevived fossils found).
 - **Hypothesis 9 (Agent - FAILED):** Stand on the tile at (3, 5), to the right of the fossil display. First, face UP towards the 'AerodactylFossil'. Then, without leaving the tile, turn to face LEFT and initiate conversation with the 'MUSEUM1F_GAMBLER' at (2, 5). (Result: 'magnificent fossil!' dialogue, no change).
-
-# V. Key NPCs & Blockers
-- Mt. Moon Rocket Grunt (30, 12): Confirmed he requires an unrevived fossil to pass. Dialogue: "If you find a fossil, give it to me and scram!"
-
-# VI. Agent & Tool Development Ideas
-- **Multi-Floor Navigator Agent:** An agent that can plan routes across multiple floors of a dungeon by suggesting a sequence of ladders/warps to take. This would be useful for complex areas like Mt. Moon or Silph Co.
-
-# IV. Current Investigation: Unrevived Fossil
-- **Objective:** Obtain an unrevived fossil to give to the Rocket Grunt on Mt. Moon B2F.
-- **Current Location:** Mt. Moon B2F.
-- **Hypothesis:** An unrevived fossil can be obtained from a Super Nerd in Mt. Moon.
-- **Test Results:**
-    - **Super Nerd at (13, 9) on B2F:** FAILED. This NPC only provided information about the Cinnabar Lab after being defeated. He did not provide a fossil.
-- **Next Step:** Systematically explore all remaining reachable areas of Mt. Moon (1F, B1F, B2F) to find another Super Nerd or an item ball containing a fossil.
