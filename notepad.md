@@ -81,3 +81,7 @@
 - **Hypothesis 7 (Agent - FAILED):** Step 1: Speak to the 'MUSEUM1F_GAMBLER' at (2, 5). Step 2: Exit the Pewter Museum of Science entirely. Step 3: Re-enter the museum and immediately speak to the 'MUSEUM1F_GAMBLER' again without interacting with anything else. (Result: Standard 'magnificent fossil!' dialogue, no change).
 - **Hypothesis 8 (Agent - FAILED / Untestable):** While having an unrevived fossil item (e.g., Dome Fossil or Helix Fossil) in your inventory, stand in front of the 'MUSEUM1F_GAMBLER' at (2, 5) and 'Use' the fossil item from the bag menu. (Note: PC item storage checked, no unrevived fossils found).
 - **Hypothesis 9 (Agent - FAILED):** Stand on the tile at (3, 5), to the right of the fossil display. First, face UP towards the 'AerodactylFossil'. Then, without leaving the tile, turn to face LEFT and initiate conversation with the 'MUSEUM1F_GAMBLER' at (2, 5). (Result: 'magnificent fossil!' dialogue, no change).
+
+# V. Agent & Tool Development Ideas
+- **Lost Item Investigator Agent:** An agent that takes an objective (e.g., 'Find TM28') and a list of clues, then proposes a ranked sequence of locations to search and actions to perform.
+- **Automated ITEMFINDER Tool:** A tool to automate the menu navigation required to select and use the ITEMFINDER, reducing manual button presses.
