@@ -1342,17 +1342,18 @@
   },
   "run_from_battle": {
     "description": "Automates running from a wild battle by selecting the RUN option from the main battle menu. Should be called with autopress_buttons: true.",
-    "input_schema": {
-      "type": "object",
-      "properties": {},
-      "required": []
-    },
-    "python_script": "import json\nprint(json.dumps([\"Down\", \"Right\", \"A\"]))",
+    "input_schema": {},
+    "python_script": "import json\nprint(json.dumps(['Down', 'Right', 'A']))",
     "history": [
       {
         "commit_message": "feat: Create run_from_battle tool. This automates the repetitive and tedious task of manually running from wild encounters. This was created in direct response to a critical overwatch critique that identified a failure to create this tool after repeatedly running from battles in Mt. Moon.",
         "timestamp": "2025-09-21T21:04:23.844Z",
         "action_counter": 232102
+      },
+      {
+        "commit_message": "feat: Create run_from_battle tool. This automates the repetitive and tedious task of manually running from wild encounters. This was created in direct response to a critical overwatch critique that identified a failure to create this tool after repeatedly running from battles in Mt. Moon.",
+        "timestamp": "2025-09-21T21:17:02.860Z",
+        "action_counter": 232123
       }
     ]
   }
