@@ -46,7 +46,7 @@
 - **Mt. Moon Hiker (1F, 6, 7):** Blocks path with dialogue "Kids like you shouldn't be here!". **Hypothesis:** His state may change after further progress. **Next Step:** Re-check after current exploration paths are exhausted.
 
 # V. Agent & Tool Development Ideas
-- **PC Navigator Tool:** A tool with `autopress_buttons` to automate repetitive PC menu navigation, such as withdrawing or depositing specific Pokémon.
+
 - **Multi-Floor Navigator Agent:** An agent that can analyze map data for multiple floors to plan optimal routes through complex dungeons.
 - **Lost Item Investigator Agent:** An agent that takes an objective (e.g., 'Find TM28') and clues, then proposes a ranked sequence of locations to search.
 - **Path Failure Analyst Agent:** Analyzes failed `automated_path_navigator` output and suggests manual probe coordinates based on hidden path mechanics.

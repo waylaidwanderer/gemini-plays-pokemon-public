@@ -1318,28 +1318,6 @@
       }
     ]
   },
-  "withdraw_pc_item_by_index": {
-    "description": "Automates withdrawing an item at a specific inventory index (1-50) from the PC. The player must be in the 'Withdraw Item' menu. Should be called with autopress_buttons: true.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "item_index": {
-          "type": "string"
-        }
-      },
-      "required": [
-        "item_index"
-      ]
-    },
-    "python_script": "import json\n\nitem_index = int(input_data['item_index'])\n\n# Generate 'Down' presses to reach the item\nbuttons = ['Down'] * (item_index - 1)\n\n# Select the item, confirm withdrawal, and exit menus\nbuttons.extend(['A', 'A', 'B', 'B', 'B'])\n\nprint(json.dumps(buttons))",
-    "history": [
-      {
-        "commit_message": "feat: Create withdraw_pc_item_by_index tool. This tool automates the repetitive task of navigating the PC menu to withdraw a specific item, improving efficiency and reducing manual error. This was created to solve the immediate need of withdrawing the LIFT KEY.",
-        "timestamp": "2025-09-20T18:02:08.035Z",
-        "action_counter": 229234
-      }
-    ]
-  },
   "run_from_battle": {
     "description": "Automates running from a wild battle by selecting the RUN option from the main battle menu. Should be called with autopress_buttons: true.",
     "input_schema": {},
@@ -1359,6 +1337,69 @@
         "commit_message": "feat: Create run_from_battle tool. This automates the repetitive and tedious task of manually running from wild encounters. This was created in direct response to a critical overwatch critique that identified a failure to create this tool after repeatedly running from battles in Mt. Moon.",
         "timestamp": "2025-09-21T21:35:01.482Z",
         "action_counter": 232151
+      }
+    ]
+  },
+  "deposit_lead_pokemon": {
+    "description": "Automates depositing the lead Pokémon into the PC. Assumes the player is in the main PC menu ('BILL's PC', 'Gem's PC', etc.). Should be called with autopress_buttons: true.",
+    "input_schema": {},
+    "python_script": "import json\nprint(json.dumps([\"Down\", \"A\", \"A\", \"A\"]))",
+    "history": [
+      {
+        "commit_message": "feat: Create deposit_lead_pokemon tool. This automates the repetitive and error-prone manual task of depositing the lead Pokémon. This was created in direct response to a critical overwatch critique that identified a failure to create this tool after repeatedly failing to navigate the PC menu.",
+        "timestamp": "2025-09-21T22:18:41.899Z",
+        "action_counter": 232251
+      },
+      {
+        "commit_message": "fix: Correct button sequence for current menu state. The previous version failed because it assumed the user was in the top-level PC menu. This commit simplifies the script to work from within the 'BILL's PC' menu, correctly selecting 'DEPOSIT PKMN' and confirming the deposit. This addresses a critical failure from the previous turn.",
+        "timestamp": "2025-09-21T22:20:27.093Z",
+        "action_counter": 232255
+      }
+    ]
+  },
+  "withdraw_pokemon_from_pc": {
+    "description": "Automates withdrawing a Pokémon from a specific box and index, assuming the player is in the main menu of BILL's PC.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "current_box": {
+          "type": "string"
+        },
+        "target_box": {
+          "type": "string"
+        },
+        "pokemon_index": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "current_box",
+        "target_box",
+        "target_box",
+        "pokemon_index"
+      ]
+    },
+    "python_script": "import json\n\nbuttons = []\n\n# Standard entry sequence for CHANGE BOX\nbuttons.extend(['Down'] * 3 + ['A', 'A'])\n\n# --- Box Navigation Logic ---\ncurrent_box = int(input_data['current_box'])\ntarget_box = int(input_data['target_box'])\n\n# Box grid is 6 rows, 2 columns (1-indexed)\ncurrent_row = (current_box - 1) // 2\ncurrent_col = (current_box - 1) % 2\ntarget_row = (target_box - 1) // 2\ntarget_col = (target_box - 1) % 2\n\n# Calculate vertical and horizontal moves\nrow_diff = target_row - current_row\ncol_diff = target_col - current_col\n\nif row_diff > 0:\n    buttons.extend(['Down'] * row_diff)\nelif row_diff < 0:\n    buttons.extend(['Up'] * abs(row_diff))\n\nif col_diff > 0:\n    buttons.extend(['Right'] * col_diff)\nelif col_diff < 0:\n    buttons.extend(['Left'] * abs(col_diff))\n\nbuttons.append('A') # Select the target box\n\n# --- Pokémon Selection Logic ---\n# After changing box, menu resets to WITHDRAW PKMN\nbuttons.append('A') # Select WITHDRAW PKMN\n\npokemon_index = int(input_data['pokemon_index'])\n\n# Pokémon grid is 10 rows, 2 columns (1-indexed)\ntarget_poke_row = (pokemon_index - 1) // 2\ntarget_poke_col = (pokemon_index - 1) % 2\n\n# From starting cursor position (index 1)\nbuttons.extend(['Down'] * target_poke_row)\nif target_poke_col == 1:\n    buttons.append('Right')\n\n# Select and confirm withdrawal\nbuttons.extend(['A', 'A'])\n\n# --- Exit Sequence ---\n# Back out of all menus to be safe\nbuttons.extend(['B'] * 3)\n\nprint(json.dumps(buttons))",
+    "history": [
+      {
+        "commit_message": "feat: Create withdraw_pokemon_from_pc tool. This automates the catastrophically inefficient and error-prone manual task of navigating the PC to withdraw a specific Pokémon. This was created in direct response to a critical overwatch critique that identified this as a major process failure.",
+        "timestamp": "2025-09-21T22:25:18.184Z",
+        "action_counter": 232267
+      },
+      {
+        "commit_message": "fix: Overhaul entire script logic. The previous version had flawed navigation and state assumptions. This commit completely rewrites the tool to programmatically calculate the required directional inputs for both the box selection grid and the Pokémon selection grid based on their index. It also standardizes the entry and exit sequences to ensure it starts and ends in a predictable state. This addresses the catastrophic failure from the previous turn and aligns with the overwatch critique demanding robust tool creation.",
+        "timestamp": "2025-09-21T22:30:03.717Z",
+        "action_counter": 232275
+      },
+      {
+        "commit_message": "fix: Overhaul entire script logic. The previous version had flawed navigation and state assumptions. This commit completely rewrites the tool to programmatically calculate the required directional inputs for both the box selection grid and the Pokémon selection grid based on their index. It also standardizes the entry and exit sequences to ensure it starts and ends in a predictable state. This addresses the catastrophic failure from the previous turn and aligns with the overwatch critique demanding robust tool creation.",
+        "timestamp": "2025-09-21T22:34:55.543Z",
+        "action_counter": 232284
+      },
+      {
+        "commit_message": "fix: Complete rewrite of tool logic. The previous versions had catastrophic failures in both box and Pokémon selection. This commit replaces the flawed logic with a robust, programmatic approach that calculates the exact number of directional inputs required based on the grid positions of the current/target boxes and the target Pokémon's index. This addresses the repeated critical failures and aligns with the overwatch mandate to create reliable, automated tools.",
+        "timestamp": "2025-09-21T22:43:08.182Z",
+        "action_counter": 232299
       }
     ]
   }
