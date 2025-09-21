@@ -47,11 +47,13 @@
 
 # VI. Current Investigation: Unrevived Fossil
 - **Objective:** Obtain an unrevived fossil to give to the Rocket Grunt on Mt. Moon B2F.
-- **Current Location:** Mt. Moon B2F.
-- **Hypothesis:** An unrevived fossil can be obtained from a Super Nerd in Mt. Moon.
+- **Current Location:** Mt. Moon 1F.
+- **Hypothesis:** An unrevived fossil can be obtained from an NPC or item ball in Mt. Moon.
 - **Test Results:**
     - **Super Nerd at (13, 9) on B2F:** FAILED. This NPC only provided information about the Cinnabar Lab after being defeated. He did not provide a fossil.
-- **Next Step:** Systematically explore all remaining reachable areas of Mt. Moon (1F, B1F, B2F) to find another Super Nerd or an item ball containing a fossil.
+    - **Eastern section of 1F:** FAILED. Explored fully, found no fossils or relevant NPCs.
+    - **Hiker at (6, 7) on 1F:** FAILED. The Hiker still blocks the path with the dialogue "Kids like you shouldn't be here!". This path is not currently accessible.
+- **Next Step:** Systematically explore Mt. Moon B1F.
 
 # VII. Puzzle: Old Amber Retrieval (ARCHIVED - COMPLETED)
 - **Objective:** Retrieve the Old Amber from the Pewter Museum of Science.
