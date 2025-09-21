@@ -1,7 +1,7 @@
 # I. The Old Amber Investigation
 - **Objective:** Retrieve the Old Amber from the Pewter Museum of Science.
-- **Status:** In progress.
-- **Confirmed Puzzle Steps:** 1. Lead with a fossil Pokémon, speak to Old Man (1F). 2. Speak to Scientist (2F) to get 'space exhibit' clue. 3. Interact with Space Shuttle Exhibit (2F). 4. Interact with Kabutops Fossil (1F). This sequence opened the path at (13, 5).
+- **Status:** STUCK. The path at (13, 5) remains blocked by a Scientist.
+- **INCORRECT Past Hypothesis:** The sequence of (1. Lead with fossil, talk to Old Man -> 2. Talk to Scientist (2F) -> 3. Interact with Space Shuttle -> 4. Interact with Kabutops Fossil) was previously thought to be the solution. **This is WRONG.** It did not clear the path.
 
 # II. Core Directives & Lessons Learned
 - **IMMEDIATE DATA & TOOL MAINTENANCE (CRITICAL):** As an LLM, my thinking is not continuous. All maintenance tasks (tool creation/fixing, agent definition, notepad updates) are the absolute highest priority and **MUST** be performed successfully in the current turn. Deferring tasks is an invalid strategy.
@@ -54,12 +54,12 @@
     - Interact with the KabutopsFossil, then speak to the MUSEUM1F_GAMBLER. (Result: Standard 'magnificent fossil!' dialogue, no change).
     - Sequence: Interact with KabutopsFossil -> (Pikachu NPC gone) -> interact with AerodactylFossil. (Result: Triggered standard fossil traps, no change in the blocked path.)
     - Stand on the tile to the left of the 'MUSEUM1F_GAMBLER' (at (1, 5)) to make him face the fossils. While he is facing left, interact with the 'AerodactylFossil' at (3, 4). (Result: Gambler turned UP, not left. Interacting with the fossil was a standard trap. No change.)
+    - Use the Itemfinder on the empty floor tiles surrounding the fossils. (Result: 'Nope! ITEMFINDER isn't responding.')
+    - Interact with the 'MUSEUM1F_GAMBLER' at (2, 5) while having the Coin Case item in your inventory. (Result: 'magnificent fossil!')
 
 - **New Hypotheses (To Be Tested):**
-    - **Hypothesis 1 (Failed):** Use the Itemfinder on the empty floor tiles surrounding the fossils. (Result: 'Nope! ITEMFINDER isn't responding.')
-    - **Hypothesis 2 (To Be Tested):** Interact with the 'MUSEUM1F_GAMBLER' at (2, 5) while having the Coin Case item in your inventory.
-    - **Hypothesis 3 (Untestable):** Use the move 'Rock Smash' on the fossils. (Reason: Don't have the move).
-    - **Hypothesis 4 (Untestable):** Use the move 'Dig' on the tile directly in front of the fossils. (Reason: Don't have the move).
+    - **Hypothesis 1 (Untestable):** Use the move 'Rock Smash' on the fossils. (Reason: Don't have the move).
+    - **Hypothesis 2 (Untestable):** Use the move 'Dig' on the tile directly in front of the fossils. (Reason: Don't have the move).
 
 # V. Inventory Management
 - **Overwatch Directive:** Inventory is at 19/20. Must use `inventory_manager` agent at the next PC to avoid the item bug.
