@@ -40,43 +40,26 @@
 - The Old Amber Retrieval
 
 # IV. Key NPCs & Blockers
-- Mt. Moon Rocket Grunt (30, 12): Confirmed he requires an unrevived fossil to pass. Dialogue: "If you find a fossil, give it to me and scram!"
+- **Mt. Moon Rocket Grunt (B2F, 30, 12):** Confirmed he requires an unrevived fossil to pass. Dialogue: "If you find a fossil, give it to me and scram!"
+- **Mt. Moon Hiker (1F, 6, 7):** Blocks path with dialogue "Kids like you shouldn't be here!". **Hypothesis:** His state may change after further progress. **Next Step:** Re-check after current exploration paths are exhausted.
 
 # V. Agent & Tool Development Ideas
 - **Lost Item Investigator Agent:** An agent that takes an objective (e.g., 'Find TM28') and a list of clues, then proposes a ranked sequence of locations to search and actions to perform.
 
 # VI. Current Investigation: Unrevived Fossil
 - **Objective:** Obtain an unrevived fossil to give to the Rocket Grunt on Mt. Moon B2F.
-- **Current Location:** Mt. Moon 1F.
+- **Current Location:** Mt. Moon B1F.
 - **Strategy:** My manual exploration of Mt. Moon has been highly inefficient and prone to hallucination. I am pivoting to a new strategy as advised by the Overwatch system: I will systematically visit each floor (1F, B1F, B2F) to gather complete map data, and then use my `multi_stage_navigator` agent to compute an optimal path.
-- **Correction:** My previous understanding of the path taken was a hallucination. I have arrived on B2F at (26, 10) via a ladder from B1F at (18, 12).
-- **Next Step:** Explore the current partition of B2F to continue data collection.
 
-# VII. Archived Investigations
+# VII. Self-Assessment & Overwatch Critique Takeaways (Turn 231171 & 231325)
+- **CRITICAL - Tool Maintenance:** My highest priority is immediate tool maintenance. I failed by deferring a fix for the `automated_path_navigator` and by not consolidating battle tools. Faulty or inefficient tools **MUST** be fixed/improved in the same turn they are identified. (Consolidated `select_battle_action` in T231310).
+- **Notepad Organization:** Long, archived sections should be condensed to improve readability. (Condensed Pewter Museum puzzle and other archived investigations in T231325).
 
+# VIII. Archived Investigations
 ### Mt. Moon Fossil Search (Manual Exploration Phase)
-- **Hypothesis:** An unrevived fossil can be obtained from an NPC or item ball in Mt. Moon.
-- **Test Results:**
-    - **Super Nerd at (13, 9) on B2F:** FAILED. This NPC only provided information about the Cinnabar Lab after being defeated. He did not provide a fossil.
-    - **Eastern section of 1F:** FAILED. Explored fully, found no fossils or relevant NPCs.
-    - **Hiker at (6, 7) on 1F:** FAILED. The Hiker still blocks the path with the dialogue "Kids like you shouldn't be here!". This path is not currently accessible.
-    - **Ladders at (6,6), (18,12) on 1F & (26,10) on B2F:** FAILED. All explored ladders so far have led to isolated, dead-end sections of the lower floors.
-- **Next Step:** Systematically explore Mt. Moon B1F.
-
-# VII. Puzzle: Old Amber Retrieval (Completed)
+- **Summary:** Initial manual exploration of Mt. Moon 1F and parts of B1F/B2F yielded no fossils. Key findings included the Cinnabar Lab info from a Super Nerd and a path blocked by a Hiker. This inefficient phase prompted a switch to a systematic, data-gathering strategy.
+### TM28 (DIG) - Cerulean Backyard
+- **Summary:** Used ITEMFINDER and visual inspection at (30, 10) and (31, 10) in the Cerulean Backyard after defeating a Rocket Grunt. No item was found. Investigation concluded.
+### Old Amber Retrieval (Pewter Museum)
 - **Summary:** Solved via a complex, multi-step sequence involving NPC and exhibit interactions across both floors of the Pewter Museum.
 - **Key Lesson:** Puzzles in this hack can require non-obvious sequences of interactions that are not hinted at directly. The solution involved speaking to an Old Man with a specific Pokémon (Geodude), interacting with an unrelated exhibit (space shuttle), and then interacting with a fossil exhibit. This highlights the need for creative, systematic hypothesis testing, and confirms the value of the `sequence_puzzle_solver` agent for future complex puzzles.
-
-# VIII. Self-Assessment & Overwatch Critique Takeaways (Turn 231171)
-- **CRITICAL - Tool Maintenance:** My highest priority is immediate tool maintenance. I failed by deferring a fix for the `automated_path_navigator`. Faulty tools **MUST** be fixed in the same turn they are discovered.
-- **Tool Consolidation:** My battle navigation is split between `select_move_by_slot` and `select_battle_option`. I should consolidate these into a single, more robust tool to reduce errors.
-- **Notepad Organization:** Long, archived sections (like the Pewter Museum puzzle) should be condensed to improve readability. This must be done incrementally due to tool limitations.
-
-# IX. Archived Investigations
-### TM28 (DIG) - Cerulean Backyard
-- **Hypothesis:** TM28 (DIG) is a hidden item in the Cerulean Backyard.
-- **Test:** Used ITEMFINDER at (30, 10).
-- **Result:** FAILED. ITEMFINDER did not respond.
-- **Hypothesis:** TM28 (DIG) appeared as a visible item at (31, 10) after defeating the Rocket Grunt.
-- **Test:** Navigated to (32, 10) and visually inspected the tile.
-- **Result:** FAILED. No item sprite is present at (31, 10).
