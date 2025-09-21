@@ -1374,7 +1374,7 @@
         }
       ]
     },
-    "python_script": "import json\n\nbuttons = []\nmenu_option = input_data.get('menu_option')\nmove_slot = input_data.get('move_slot')\n\nif menu_option:\n    # State-agnostic selection for the main battle menu\n    if menu_option == \"FIGHT\":\n        buttons.extend([\"Up\", \"Left\", \"A\"])\n    elif menu_option == \"PKMN\":\n        buttons.extend([\"Up\", \"Right\", \"A\"])\n    elif menu_option == \"ITEM\":\n        buttons.extend([\"Down\", \"Left\", \"A\"])\n    elif menu_option == \"RUN\":\n        buttons.extend([\"Down\", \"Right\", \"A\"])\nelif move_slot:\n    # State-agnostic selection for the 2x2 move menu\n    slot = int(move_slot)\n    if slot == 1:\n        buttons.extend([\"Up\", \"Left\", \"A\"])\n    elif slot == 2:\n        buttons.extend([\"Up\", \"Right\", \"A\"])\n    elif slot == 3:\n        buttons.extend([\"Down\", \"Left\", \"A\"])\n    elif slot == 4:\n        buttons.extend([\"Down\", \"Right\", \"A\"])\n\nprint(json.dumps(buttons))",
+    "python_script": "import json\n\nbuttons = []\nmenu_option = input_data.get('menu_option')\nmove_slot = input_data.get('move_slot')\n\nif menu_option:\n    # State-agnostic selection for main battle menu\n    if menu_option == \"FIGHT\":\n        buttons.extend([\"Up\", \"Left\", \"A\"])\n    elif menu_option == \"PKMN\":\n        buttons.extend([\"Up\", \"Right\", \"A\"])\n    elif menu_option == \"ITEM\":\n        buttons.extend([\"Down\", \"Left\", \"A\"])\n    elif menu_option == \"RUN\":\n        buttons.extend([\"Down\", \"Right\", \"A\"])\nelif move_slot:\n    # Assumes cursor starts at the top of the vertical move list.\n    slot = int(move_slot)\n    if slot > 1:\n        buttons.extend([\"Down\"] * (slot - 1))\n    buttons.append(\"A\")\n\nprint(json.dumps(buttons))",
     "history": [
       {
         "commit_message": "feat: Create select_battle_action and consolidate battle tools. This is a direct response to a critical Overwatch critique. This new tool combines the functionality of selecting main battle options and moves into a single, more robust utility for all battle menu navigation. It replaces the now-deleted `use_itemfinder` tool to make space.",
@@ -1400,6 +1400,16 @@
         "commit_message": "fix: Correct move selection logic. The previous version incorrectly navigated the main battle menu when a move_slot was provided. This commit replaces that with state-agnostic logic for a 2x2 move selection grid, assuming the user is already in the move menu. This addresses a critical tool failure that occurred in battle.",
         "timestamp": "2025-09-21T12:02:15.124Z",
         "action_counter": 231392
+      },
+      {
+        "commit_message": "fix: Correct move selection logic for vertical list. The previous version incorrectly assumed a 2x2 grid for the move selection menu, causing it to select the wrong move. This commit replaces the grid-based logic with a cursor reset and downward navigation, which correctly handles the game's single-column vertical move list. This is a critical fix to address a repeated tool failure in battle.",
+        "timestamp": "2025-09-21T12:20:48.484Z",
+        "action_counter": 231431
+      },
+      {
+        "commit_message": "fix: Simplify move selection logic. The previous version used an unreliable cursor reset (`Up, Up, Up`) which repeatedly failed to select the correct move. This commit removes the reset and relies on the fact that the move selection cursor always starts at the top of the list. This is a critical fix to address a persistent tool failure in battle.",
+        "timestamp": "2025-09-21T12:29:51.600Z",
+        "action_counter": 231444
       }
     ]
   }

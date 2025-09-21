@@ -4,7 +4,7 @@
 - **VERIFY POSITION (CRITICAL):** I have a history of position hallucinations. I **MUST** check my position in the Game State Information at the start of every turn before forming a plan.
 - **MAP MARKER DISCIPLINE (CRITICAL):** I must mark every warp tile (both entry and exit) with '🚪' and every defeated trainer with '☠️' immediately.
 - **HYPOTHESIS VETTING (CRITICAL):** Before attempting to test a hypothesis, I must first confirm it is mechanically possible within the game's established rules.
-- **Agent Escalation Protocol:** If manual puzzle attempts fail repeatedly or direct navigation is impossible in a complex area, I MUST escalate to my specialized agents (`sequence_puzzle_solver`, `multi_stage_navigator`) before continuing with manual attempts.
+- **Agent Escalation Protocol (MUST FOLLOW):** If manual puzzle attempts fail repeatedly or direct navigation is impossible in a complex area, I MUST escalate to my specialized agents (`sequence_puzzle_solver`, `multi_stage_navigator`) before continuing with manual attempts.
 
 # II. Game Mechanics & Tile Types (Observed)
 - **Post-Battle Position Shift:** Player may be moved after a wild battle.
@@ -51,7 +51,7 @@
 
 # VI. Current Investigation: Unrevived Fossil
 - **Objective:** Obtain an unrevived fossil to give to the Rocket Grunt on Mt. Moon B2F.
-- **Current Location:** Mt. Moon B1F.
+- **Current Location:** Mt. Moon B2F.
 - **Strategy:** My manual exploration of Mt. Moon has been highly inefficient and prone to hallucination. I am pivoting to a new strategy as advised by the Overwatch system: I will systematically visit each floor (1F, B1F, B2F) to gather complete map data, and then use my `multi_stage_navigator` agent to compute an optimal path.
 
 # VII. Self-Assessment & Overwatch Critique Takeaways (Turn 231171 & 231325)
