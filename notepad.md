@@ -63,23 +63,9 @@
     - **Ladders at (6,6), (18,12) on 1F & (26,10) on B2F:** FAILED. All explored ladders so far have led to isolated, dead-end sections of the lower floors.
 - **Next Step:** Systematically explore Mt. Moon B1F.
 
-# VII. Puzzle: Old Amber Retrieval (ARCHIVED - COMPLETED)
-- **Objective:** Retrieve the Old Amber from the Pewter Museum of Science.
-- **Status:** STUCK. The path at (13, 5) remains blocked by a Scientist.
-- **Failed Hypotheses (Manual & Agent - Exhaustive List):**
-
-    
-
-- **New Hypotheses (To Be Tested):**
-    - **Hypothesis 1 (Agent - FAILED):** Sequence: AerodactylFossil -> KabutopsFossil -> Gambler.
-    - **Hypothesis 2 (Agent - FAILED):** Stand at (3, 5) and talk to Gambler.
-    - **Hypothesis 3 (Agent - Invalid):** Interact with fossils from the west side (tiles are impassable).
-    - **Hypothesis 4 (Agent - FAILED):** Interact with KabutopsFossil x2, AerodactylFossil x1, then talk to Gambler.
-- **Hypothesis 5 (Agent - New):** Stand on the tile directly above the 'MUSEUM1F_GAMBLER' at coordinates (2, 4) and then interact with him.
-- **Hypothesis 6 (Agent - FAILED):** Step 1: Interact with the 'KabutopsFossil' at coordinates (3, 7) exactly seven times in a row. Step 2: Immediately speak to the 'MUSEUM1F_GAMBLER' at (2, 5). (Result: Interacting with the fossil repeatedly only triggers the trap.)
-- **Hypothesis 7 (Agent - FAILED):** Step 1: Speak to the 'MUSEUM1F_GAMBLER' at (2, 5). Step 2: Exit the Pewter Museum of Science entirely. Step 3: Re-enter the museum and immediately speak to the 'MUSEUM1F_GAMBLER' again without interacting with anything else. (Result: Standard 'magnificent fossil!' dialogue, no change).
-- **Hypothesis 8 (Agent - FAILED / Untestable):** While having an unrevived fossil item (e.g., Dome Fossil or Helix Fossil) in your inventory, stand in front of the 'MUSEUM1F_GAMBLER' at (2, 5) and 'Use' the fossil item from the bag menu. (Note: PC item storage checked, no unrevived fossils found).
-- **Hypothesis 9 (Agent - FAILED):** Stand on the tile at (3, 5), to the right of the fossil display. First, face UP towards the 'AerodactylFossil'. Then, without leaving the tile, turn to face LEFT and initiate conversation with the 'MUSEUM1F_GAMBLER' at (2, 5). (Result: 'magnificent fossil!' dialogue, no change).
+# VII. Puzzle: Old Amber Retrieval (Completed)
+- **Summary:** Solved via a complex, multi-step sequence involving NPC and exhibit interactions across both floors of the Pewter Museum.
+- **Key Lesson:** Puzzles in this hack can require non-obvious sequences of interactions that are not hinted at directly. The solution involved speaking to an Old Man with a specific Pokémon (Geodude), interacting with an unrelated exhibit (space shuttle), and then interacting with a fossil exhibit. This highlights the need for creative, systematic hypothesis testing, and confirms the value of the `sequence_puzzle_solver` agent for future complex puzzles.
 
 # VIII. Self-Assessment & Overwatch Critique Takeaways (Turn 231171)
 - **CRITICAL - Tool Maintenance:** My highest priority is immediate tool maintenance. I failed by deferring a fix for the `automated_path_navigator`. Faulty tools **MUST** be fixed in the same turn they are discovered.
