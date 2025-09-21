@@ -49,5 +49,5 @@
 - **Puzzle:** Old Amber Retrieval
 - **Hypothesis 1 (Tested & Failed):** Spoke to the 'Old Man' NPC at (2, 5) after the puzzle sequence. He gave new dialogue ('magnificent fossil!') but did not provide the Old Amber.
 - **Hypothesis 2 (Tested & Failed):** Interact with 'AerodactylFossil' (3, 4), then spoke to the 'Old Man' (2, 5). His dialogue remained 'magnificent fossil!'.
-- **Hypothesis 3 (Rank 3):** Interact with 'KabutopsFossil' (3, 7), then 'AerodactylFossil' (3, 4), then speak to the 'Old Man' (2, 5).
+- **Hypothesis 3 (Tested & Failed):** Interact with 'KabutopsFossil' (3, 7), then 'AerodactylFossil' (3, 4), then spoke to the 'Old Man' (2, 5). His dialogue remained 'magnificent fossil!'.
 - **Hypothesis 4 (Rank 4):** Use a field move on the 'AerodactylFossil' (3, 4).
