@@ -75,7 +75,7 @@
 - **Multi-Floor Navigator Agent:** An agent that can plan routes across multiple floors of a dungeon by suggesting a sequence of ladders/warps to take. This would be useful for complex areas like Mt. Moon or Silph Co.
 
 # VII. Current Hypotheses
-- **Hypothesis: Fossil Source:** The Super Nerd on Mt. Moon B2F (the one who offers a choice after battle) is the source for the unrevived fossil needed for the Rocket Grunt. **Test:** Navigate to him, defeat him if necessary, and see if he offers a fossil.
+- **Hypothesis (FAILED):** The Super Nerd at (13, 9) on Mt. Moon B2F is the source for an unrevived fossil. **Result:** After interacting with him post-battle, he only provided information about the Cinnabar Lab. He did not provide a fossil.
 
 # VIII. Active To-Do List
 - Clean up redundant map markers on Mt. Moon B2F (ID 61) at (26, 10).
