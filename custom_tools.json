@@ -1417,5 +1417,27 @@
         "action_counter": 231444
       }
     ]
+  },
+  "map_data_analyzer": {
+    "description": "Parses a raw JSON string of map data to extract and display a summary of its contents (impassable tiles, ledges, warps). This tool is for analysis and should not be used for pathfinding.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "map_json_string": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "map_json_string"
+      ]
+    },
+    "python_script": "import json\ntry:\n    map_data = json.loads(input_data['map_json_string'])\n    floor_id = map_data.get('floor_id', 'N/A')\n    impassable_tiles = map_data.get('impassable_tiles', [])\n    ledge_tiles = map_data.get('ledge_tiles', [])\n    warp_tiles = map_data.get('warp_tiles', [])\n    output = f'--- Map Data Analysis for Floor ID: {floor_id} ---\\n'\n    output += f'Impassable Tiles: {len(impassable_tiles)}\\n'\n    output += f'Ledge Tiles: {len(ledge_tiles)}\\n'\n    output += f'Warp Tiles: {len(warp_tiles)}\\n'\n    print(output)\nexcept Exception as e:\n    print(f'Error parsing map data: {e}')",
+    "history": [
+      {
+        "commit_message": "feat: Create map_data_analyzer tool. This tool was created in direct response to a critical Overwatch critique that identified storing raw JSON map data in the notepad as an anti-pattern. This tool will now be used to parse and summarize this data, improving notepad readability and maintainability.",
+        "timestamp": "2025-09-21T15:22:23.932Z",
+        "action_counter": 231701
+      }
+    ]
   }
 }
