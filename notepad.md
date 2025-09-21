@@ -58,9 +58,8 @@
 - **Test Results:**
     - **Super Nerd at (13, 9) on B2F:** FAILED. This NPC only provided information about the Cinnabar Lab after being defeated. He did not provide a fossil.
     - **Eastern section of 1F:** FAILED. Explored fully, found no fossils or relevant NPCs.
-    - **Hiker at (6, 7) on 1F:** FAILED. The Hiker still blocks the path. This path is not currently accessible.
-    - **Ladders at (6,6), (18,12) on 1F & (26,10) on B2F:** FAILED. All explored ladders so far have led to isolated, dead-end sections of the lower floors.
     - **Hiker at (6, 7) on 1F:** FAILED. The Hiker still blocks the path with the dialogue "Kids like you shouldn't be here!". This path is not currently accessible.
+    - **Ladders at (6,6), (18,12) on 1F & (26,10) on B2F:** FAILED. All explored ladders so far have led to isolated, dead-end sections of the lower floors.
 - **Next Step:** Systematically explore Mt. Moon B1F.
 
 # VII. Puzzle: Old Amber Retrieval (ARCHIVED - COMPLETED)
