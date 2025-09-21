@@ -91,3 +91,7 @@
 - **Hypothesis:** TM28 (DIG) appeared as a visible item at (31, 10) after defeating the Rocket Grunt.
 - **Test:** Navigated to (32, 10) and visually inspected the tile.
 - **Result:** FAILED. No item sprite is present at (31, 10).
+
+# VIII. Self-Assessment Takeaways (Turn 230965)
+- **Agent Utilization:** I need to actively look for opportunities to use my `multi_stage_navigator` and `sequence_puzzle_solver` agents to test their effectiveness.
+- **Fossil Quest - Backup Plan:** If a systematic search of Mt. Moon yields no new fossil items, my backup plan is to test if the Rocket Grunt will accept a *revived* fossil, as my previous tests only involved unrevived or renamed Pokémon.
