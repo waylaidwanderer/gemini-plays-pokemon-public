@@ -54,3 +54,9 @@
     - **Hypothesis 1 (Untested):** Lead with a Pikachu and interact with the Pikachu NPC at (10, 5).
     - **Hypothesis 2 (Untested):** Interact with the KabutopsFossil exhibit at (3, 7).
     - **Hypothesis 3 (Untested):** Interact with the AerodactylFossil, then the KabutopsFossil, then speak to the Old Man.
+
+# V. Inventory Management
+- **Overwatch Directive:** Inventory is at 19/20. Must use `inventory_manager` agent at the next PC to avoid the item bug.
+
+- **Failed Hypotheses (from Agent - Updated):
+    - **Hypothesis 3 (Tested & Failed):** Sequence: Lead with Pikachu -> interact with Pikachu NPC -> interact with KabutopsFossil -> interact with AerodactylFossil -> speak to the Old Man. (Result: Old Man turned to face right, but dialogue unchanged and path remains blocked).
