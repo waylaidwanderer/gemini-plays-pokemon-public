@@ -70,6 +70,7 @@
 - **Marker Accuracy:** My marker labels have been repeatedly inaccurate, forcing me to waste turns on corrections. I MUST be more diligent and double-check warp destinations immediately after using them to ensure labels are correct from the start.
 
 # IX. Mt. Moon Map Data (Archived)
+<!-- CLEANUP START -->
 - Raw map data has been moved out of the notepad for readability, as per Overwatch critique.
 - Use the `map_data_analyzer` tool for future analysis of this data.
  
