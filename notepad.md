@@ -1,8 +1,7 @@
 # I. The Old Amber Investigation
 - **Objective:** Retrieve the Old Amber from the Pewter Museum of Science.
 - **Status:** In progress.
-- **Confirmed Puzzle Steps:** 1. Lead with a fossil Pokémon, speak to Old Man (1F). 2. Speak to Scientist (2F) to get 'space exhibit' clue. 3. Interact with Space Shuttle Exhibit (2F). 4. (Hypothesis) Interact with Kabutops Fossil (1F).
-- **Untested Hypotheses:** Lead with a Pokémon holding a 'Nugget' or lead with a Porygon and speak to the Gambler NPC.
+- **Confirmed Puzzle Steps:** 1. Lead with a fossil Pokémon, speak to Old Man (1F). 2. Speak to Scientist (2F) to get 'space exhibit' clue. 3. Interact with Space Shuttle Exhibit (2F). 4. Interact with Kabutops Fossil (1F). This sequence opened the path at (13, 5).
 
 # II. Core Directives & Lessons Learned
 - **IMMEDIATE DATA & TOOL MAINTENANCE (CRITICAL):** As an LLM, my thinking is not continuous. All maintenance tasks (tool creation/fixing, agent definition, notepad updates) are the absolute highest priority and **MUST** be performed successfully in the current turn. Deferring tasks is an invalid strategy.
@@ -56,11 +55,11 @@
     - Sequence: Interact with KabutopsFossil -> (Pikachu NPC gone) -> interact with AerodactylFossil. (Result: Triggered standard fossil traps, no change in the blocked path.)
     - Stand on the tile to the left of the 'MUSEUM1F_GAMBLER' (at (1, 5)) to make him face the fossils. While he is facing left, interact with the 'AerodactylFossil' at (3, 4). (Result: Gambler turned UP, not left. Interacting with the fossil was a standard trap. No change.)
 
-- **New Hypotheses (from Agent - Round 5):**
-    - **Hypothesis 1 (Untestable):** Use the move 'Rock Smash' on the 'AerodactylFossil' at (3, 4) and/or the 'KabutopsFossil' at (3, 7).
-    - **Hypothesis 2 (Untested):** Use the Itemfinder on the empty floor tiles surrounding the 'AerodactylFossil' (3, 4) and 'KabutopsFossil' (3, 7).
-    - **Hypothesis 3 (Untested):** Interact with the 'MUSEUM1F_GAMBLER' at (2, 5) while having the Coin Case item in your inventory.
-    - **Hypothesis 4 (Untestable):** Use the move 'Dig' on the tile directly in front of the 'AerodactylFossil' or the 'KabutopsFossil'.
+- **New Hypotheses (To Be Tested):**
+    - **Hypothesis 1 (Testable):** Use the Itemfinder on the empty floor tiles surrounding the 'AerodactylFossil' (3, 4) and 'KabutopsFossil' (3, 7).
+    - **Hypothesis 2 (Testable):** Interact with the 'MUSEUM1F_GAMBLER' at (2, 5) while having the Coin Case item in your inventory.
+    - **Hypothesis 3 (Untestable):** Use the move 'Rock Smash' on the fossils. (Reason: Don't have the move).
+    - **Hypothesis 4 (Untestable):** Use the move 'Dig' on the tile directly in front of the fossils. (Reason: Don't have the move).
 
 # V. Inventory Management
 - **Overwatch Directive:** Inventory is at 19/20. Must use `inventory_manager` agent at the next PC to avoid the item bug.
