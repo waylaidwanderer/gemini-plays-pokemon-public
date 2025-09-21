@@ -69,6 +69,3 @@
 
 # V. Inventory Management
 - **Overwatch Directive:** Inventory is at 19/20. Agent confirmed no action is needed as this is below the 21+ item bug threshold.
-
-# VI. Future Development
-- **Agent Idea:** Create a 'Sequence Puzzle Solver' agent that can analyze environmental clues and suggest ordered sequences of actions.
