@@ -50,10 +50,11 @@
     - Lead with a revived Aerodactyl and spoke to the 'Old Man' (2, 5). (Result: 'magnificent fossil!')
     - Use 'Cut' on 'AerodactylFossil' (3, 4). (Result: "There isn't anything to CUT!")
     - The path at (12, 5) is open after the puzzle sequence. (Result: Path is blocked by a wall, not the Scientist).
-- **New Hypotheses (from Agent):**
-    - **Hypothesis 1 (Untested):** Lead with a Pikachu and interact with the Pikachu NPC at (10, 5).
-    - **Hypothesis 2 (Untested):** Interact with the KabutopsFossil exhibit at (3, 7).
-    - **Hypothesis 3 (Untested):** Interact with the AerodactylFossil, then the KabutopsFossil, then speak to the Old Man.
+- **New Hypotheses (from Agent - Round 2):**
+    - **Hypothesis 1 (Untested):** After making the 'Old Man' (2, 5) turn right, interact with the 'AerodactylFossil' at (3, 4) again while he is not looking.
+    - **Hypothesis 2 (Untested):** Interact with the 'AerodactylFossil' (3, 4) first, then the 'KabutopsFossil' (3, 7), and then speak to the 'Old Man' (2, 5).
+    - **Hypothesis 3 (Untested):** After making the 'Old Man' (2, 5) turn right, position your character directly to his right side (on tile 3, 5) and then speak to him.
+    - **Hypothesis 4 (Untested):** Stand directly in front of the 'AerodactylFossil' (3, 4) and use the Pokédex.
 
 # V. Inventory Management
 - **Overwatch Directive:** Inventory is at 19/20. Must use `inventory_manager` agent at the next PC to avoid the item bug.
