@@ -66,3 +66,6 @@
 ### Old Amber Retrieval (Pewter Museum)
 - **Summary:** Solved via a complex, multi-step sequence involving NPC and exhibit interactions across both floors of the Pewter Museum.
 - **Key Lesson:** Puzzles in this hack can require non-obvious sequences of interactions that are not hinted at directly. The solution involved speaking to an Old Man with a specific Pokémon (Geodude), interacting with an unrelated exhibit (space shuttle), and then interacting with a fossil exhibit. This highlights the need for creative, systematic hypothesis testing, and confirms the value of the `sequence_puzzle_solver` agent for future complex puzzles.
+### Overwatch Critique Takeaways (Turn 231500)
+- **Agent Escalation:** I failed to follow my own protocol and use the `multi_stage_navigator` in a complex maze, wasting over 100 turns on inefficient manual exploration. I MUST trust my protocols and escalate to agents sooner.
+- **Marker Accuracy:** My marker labels have been repeatedly inaccurate, forcing me to waste turns on corrections. I MUST be more diligent and double-check warp destinations immediately after using them to ensure labels are correct from the start.
