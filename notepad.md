@@ -69,3 +69,8 @@
 
 # VIII. Additional Game Mechanics
 - **Fossil Trap:** Interacting with the fossil exhibits in the Pewter Museum of Science can trigger a trap that temporarily places the player on an impassable tile. This trap can be escaped by pressing the 'B' button.
+- **New Hypotheses (Agent - Batch 2):**
+    - **Hypothesis 1 (Testing):** Sequence: AerodactylFossil -> KabutopsFossil -> Gambler.
+    - **Hypothesis 2:** Stand at (3, 5) and talk to Gambler.
+    - **Hypothesis 3 (Invalid):** Interact with fossils from the west side (tiles are impassable).
+    - **Hypothesis 4:** Interact with KabutopsFossil x2, AerodactylFossil x1, then talk to Gambler.
