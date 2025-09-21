@@ -41,7 +41,7 @@
 - Rocket Hideout Investigation
 - The Old Amber Retrieval
 
-# IV. Puzzle: Old Amber Retrieval
+# IV. Puzzle: Old Amber Retrieval (ARCHIVED - COMPLETED)
 - **Objective:** Retrieve the Old Amber from the Pewter Museum of Science.
 - **Status:** STUCK. The path at (13, 5) remains blocked by a Scientist.
 - **Failed Hypotheses (Manual & Agent - Exhaustive List):**
