@@ -1336,7 +1336,7 @@
     ]
   },
   "select_battle_action": {
-    "description": "Consolidated tool to select a main battle menu option (FIGHT, PKMN, ITEM, RUN) or a move by its slot (1-4). Uses a state-agnostic selection logic for reliability. Should be called with autopress_buttons: true.",
+    "description": "Consolidated tool to select a main battle menu option (FIGHT, PKMN, ITEM, RUN) or a move by its slot (1-4). Uses a state-agnostic selection logic for reliability. Should be called with autopress_buttons: true. IMPORTANT: When selecting a move, the player must already be in the move selection menu.",
     "input_schema": {
       "type": "object",
       "properties": {
@@ -1374,7 +1374,7 @@
         }
       ]
     },
-    "python_script": "import json\n\nbuttons = []\nmenu_option = input_data.get('menu_option')\nmove_slot = input_data.get('move_slot')\n\nif menu_option:\n    # State-agnostic selection, works because menu doesn't wrap\n    if menu_option == \"FIGHT\":\n        buttons.extend([\"Up\", \"Left\", \"A\"])\n    elif menu_option == \"PKMN\":\n        buttons.extend([\"Up\", \"Right\", \"A\"])\n    elif menu_option == \"ITEM\":\n        buttons.extend([\"Down\", \"Left\", \"A\"])\n    elif menu_option == \"RUN\":\n        buttons.extend([\"Down\", \"Right\", \"A\"])\nelif move_slot:\n    # Move selection is a vertical list, reset to top and go down\n    slot = int(move_slot)\n    buttons.extend([\"Up\", \"Up\", \"Up\"]) # Reset to top\n    if slot > 1:\n        buttons.extend([\"Down\"] * (slot - 1))\n    buttons.append(\"A\")\n\nprint(json.dumps(buttons))",
+    "python_script": "import json\n\nbuttons = []\nmenu_option = input_data.get('menu_option')\nmove_slot = input_data.get('move_slot')\n\nif menu_option:\n    # State-agnostic selection for the main battle menu\n    if menu_option == \"FIGHT\":\n        buttons.extend([\"Up\", \"Left\", \"A\"])\n    elif menu_option == \"PKMN\":\n        buttons.extend([\"Up\", \"Right\", \"A\"])\n    elif menu_option == \"ITEM\":\n        buttons.extend([\"Down\", \"Left\", \"A\"])\n    elif menu_option == \"RUN\":\n        buttons.extend([\"Down\", \"Right\", \"A\"])\nelif move_slot:\n    # State-agnostic selection for the 2x2 move menu\n    slot = int(move_slot)\n    if slot == 1:\n        buttons.extend([\"Up\", \"Left\", \"A\"])\n    elif slot == 2:\n        buttons.extend([\"Up\", \"Right\", \"A\"])\n    elif slot == 3:\n        buttons.extend([\"Down\", \"Left\", \"A\"])\n    elif slot == 4:\n        buttons.extend([\"Down\", \"Right\", \"A\"])\n\nprint(json.dumps(buttons))",
     "history": [
       {
         "commit_message": "feat: Create select_battle_action and consolidate battle tools. This is a direct response to a critical Overwatch critique. This new tool combines the functionality of selecting main battle options and moves into a single, more robust utility for all battle menu navigation. It replaces the now-deleted `use_itemfinder` tool to make space.",
@@ -1395,6 +1395,11 @@
         "commit_message": "refactor: Implement state-agnostic selection logic. This is a direct response to a critical Overwatch critique that identified my previous battle tool as flawed. The old version used a blind cursor reset (`Up, Up, Left, Left`), which is unreliable. This commit replaces that with state-agnostic directional inputs (e.g., `Down, Right` for RUN) that work regardless of the cursor's starting position, making the tool significantly more robust.",
         "timestamp": "2025-09-21T11:11:10.765Z",
         "action_counter": 231301
+      },
+      {
+        "commit_message": "fix: Correct move selection logic. The previous version incorrectly navigated the main battle menu when a move_slot was provided. This commit replaces that with state-agnostic logic for a 2x2 move selection grid, assuming the user is already in the move menu. This addresses a critical tool failure that occurred in battle.",
+        "timestamp": "2025-09-21T12:02:15.124Z",
+        "action_counter": 231392
       }
     ]
   }

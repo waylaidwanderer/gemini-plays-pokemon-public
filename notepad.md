@@ -14,6 +14,7 @@
 - **Celadon City Fly Anomaly:** Using HM Fly from anywhere within Celadon City teleports the player to the Celadon Department Store entrance.
 - **Fee Trigger Tile:** A tile that prompts for an entrance fee, even if already inside. Paying a second time broke a scripted loop.
 - **Fossil Trap:** Interacting with the fossil exhibits in the Pewter Museum of Science can trigger a trap that temporarily places the player on an impassable tile. This trap can be escaped by pressing the 'B' button.
+- **Hidden Paths (Confirmed):** Some tiles that appear as impassable walls (e.g., `elevated_ground` at Mt. Moon B2F, 22, 17) can be walked through, creating hidden passages.
 
 ### Tile Traversal Rules (Comprehensive)
 - `ground` / `grass`: Standard walkable tiles.
@@ -45,6 +46,8 @@
 
 # V. Agent & Tool Development Ideas
 - **Lost Item Investigator Agent:** An agent that takes an objective (e.g., 'Find TM28') and a list of clues, then proposes a ranked sequence of locations to search and actions to perform.
+- **Path Failure Analyst Agent:** Analyzes failed `automated_path_navigator` output and suggests manual probe coordinates based on known hidden path mechanics.
+- **Wall Prober Tool:** A tool to automate systematic probing of walls for hidden passages.
 
 # VI. Current Investigation: Unrevived Fossil
 - **Objective:** Obtain an unrevived fossil to give to the Rocket Grunt on Mt. Moon B2F.
@@ -63,5 +66,3 @@
 ### Old Amber Retrieval (Pewter Museum)
 - **Summary:** Solved via a complex, multi-step sequence involving NPC and exhibit interactions across both floors of the Pewter Museum.
 - **Key Lesson:** Puzzles in this hack can require non-obvious sequences of interactions that are not hinted at directly. The solution involved speaking to an Old Man with a specific Pokémon (Geodude), interacting with an unrelated exhibit (space shuttle), and then interacting with a fossil exhibit. This highlights the need for creative, systematic hypothesis testing, and confirms the value of the `sequence_puzzle_solver` agent for future complex puzzles.
-- **Hidden Paths (Confirmed):** Some tiles that appear as impassable walls (e.g., `elevated_ground` at Mt. Moon B2F, 22, 17) can be walked through, creating hidden passages. This was confirmed after a system warning contradicted visual information.
-- **Hidden Paths (Confirmed):** Some tiles that appear as impassable walls (e.g., `elevated_ground` at Mt. Moon B2F, 22, 17) can be walked through, creating hidden passages. This was confirmed after a system warning contradicted visual information.
