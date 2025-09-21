@@ -64,3 +64,4 @@
 # V. Inventory Management
 - **Overwatch Directive:** Inventory is at 19/20. Must use `inventory_manager` agent at the next PC to avoid the item bug.
 - Sequence: Interact with KabutopsFossil -> (Pikachu NPC gone) -> interact with AerodactylFossil. (Result: Triggered standard fossil traps, no change in the blocked path.)
+- **Hypothesis 1 (Failed):** Stand on the tile to the left of the 'MUSEUM1F_GAMBLER' (at (1, 5)) to make him face the fossils. While he is facing left, interact with the 'AerodactylFossil' at (3, 4). (Result: Gambler turned UP, not left. Interacting with the fossil was a standard trap. No change.)
