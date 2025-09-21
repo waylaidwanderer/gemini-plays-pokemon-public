@@ -1335,11 +1335,21 @@
       }
     ]
   },
-  "select_move_by_slot": {
-    "description": "Automates selecting a Pokémon's move in battle by its slot number (1-4). Assumes the move selection menu is open. Should be called with autopress_buttons: true.",
+  "select_battle_action": {
+    "description": "Consolidated tool to select a main battle menu option (FIGHT, PKMN, ITEM, RUN) or a move by its slot (1-4). Uses a state-agnostic selection logic for reliability. Should be called with autopress_buttons: true.",
     "input_schema": {
       "type": "object",
       "properties": {
+        "menu_option": {
+          "type": "string",
+          "enum": [
+            "FIGHT",
+            "PKMN",
+            "ITEM",
+            "RUN"
+          ],
+          "nullable": true
+        },
         "move_slot": {
           "type": "string",
           "enum": [
@@ -1347,35 +1357,34 @@
             "2",
             "3",
             "4"
-          ]
+          ],
+          "nullable": true
         }
       },
-      "required": [
-        "move_slot"
+      "oneOf": [
+        {
+          "required": [
+            "menu_option"
+          ]
+        },
+        {
+          "required": [
+            "move_slot"
+          ]
+        }
       ]
     },
-    "python_script": "import json\n\nslot = int(input_data['move_slot'])\nbuttons = []\n# The cursor starts at slot 1.\n# We need slot - 1 down presses.\nfor _ in range(slot - 1):\n    buttons.append(\"Down\")\nbuttons.append(\"A\")\nprint(json.dumps(buttons))",
+    "python_script": "import json\n\nbuttons = []\nmenu_option = input_data.get('menu_option')\nmove_slot = input_data.get('move_slot')\n\nif menu_option:\n    # New state-agnostic selection logic to prevent battle loops.\n    if menu_option == \"FIGHT\":\n        buttons.extend([\"Up\", \"Left\", \"A\"])\n    elif menu_option == \"PKMN\":\n        buttons.extend([\"Up\", \"Right\", \"A\"])\n    elif menu_option == \"ITEM\":\n        buttons.extend([\"Down\", \"Left\", \"A\"])\n    elif menu_option == \"RUN\":\n        buttons.extend([\"Down\", \"Right\", \"A\"])\nelif move_slot:\n    # This part of the logic was not identified as faulty.\n    # It assumes the cursor starts at the top of the move list.\n    slot = int(move_slot)\n    if slot > 1:\n        buttons.extend([\"Down\"] * (slot - 1))\n    buttons.append(\"A\")\n\nprint(json.dumps(buttons))",
     "history": [
       {
-        "commit_message": "feat: Create select_move_by_slot tool. This tool automates the selection of a move in battle based on its slot number, reducing the chance of manual error during battle menu navigation. This was created as part of a mandatory self-assessment that identified an opportunity for tool creation.",
-        "timestamp": "2025-09-21T05:00:37.261Z",
-        "action_counter": 230659
-      }
-    ]
-  },
-  "use_itemfinder": {
-    "description": "Automates the process of opening the menu and using the ITEMFINDER. Includes a reset sequence to ensure it can be called from any menu state. Should be called with autopress_buttons: true.",
-    "input_schema": {
-      "type": "object",
-      "properties": {},
-      "required": []
-    },
-    "python_script": "import json\n# Reset sequence to exit any menus\nbuttons = [\"B\"] * 5\n# Open Start Menu\nbuttons.append(\"Start\")\n# Navigate to ITEM\nbuttons.extend([\"Down\", \"Down\"])\n# Select ITEM\nbuttons.append(\"A\")\n# Navigate to ITEMFINDER (12th item, so 11 Down presses)\nbuttons.extend([\"Down\"] * 11)\n# Select and Use ITEMFINDER\nbuttons.extend([\"A\", \"A\"])\nprint(json.dumps(buttons))",
-    "history": [
+        "commit_message": "feat: Create select_battle_action and consolidate battle tools. This is a direct response to a critical Overwatch critique. This new tool combines the functionality of selecting main battle options and moves into a single, more robust utility for all battle menu navigation. It replaces the now-deleted `use_itemfinder` tool to make space.",
+        "timestamp": "2025-09-21T10:23:24.895Z",
+        "action_counter": 231206
+      },
       {
-        "commit_message": "feat: Create use_itemfinder tool. This automates the repetitive menu navigation required to use the ITEMFINDER, improving efficiency and reducing manual error. This was created in direct response to an overwatch critique encouraging proactive tool creation.",
-        "timestamp": "2025-09-21T07:39:03.310Z",
-        "action_counter": 230917
+        "commit_message": "fix: Replace faulty cursor reset with state-agnostic selection. The tool's previous blind reset sequence (`Up, Up, Left, Left`) was causing an infinite loop in battle under certain conditions. This commit replaces that logic with state-agnostic directional inputs (e.g., `Up, Left` for FIGHT) that correctly select the desired menu option regardless of the cursor's starting position. This is a critical fix to address the tool failure identified by the overwatch system.",
+        "timestamp": "2025-09-21T10:46:50.064Z",
+        "action_counter": 231254
       }
     ]
   }
