@@ -39,6 +39,7 @@
 - Cerulean City Investigation
 - Silph Co. Investigation
 - Rocket Hideout Investigation
+- The Old Amber Retrieval
 
 # IV. Puzzle: Old Amber Retrieval
 - **Objective:** Retrieve the Old Amber from the Pewter Museum of Science.
