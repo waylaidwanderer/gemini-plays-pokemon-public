@@ -93,10 +93,10 @@
 - **Hypothesis 8 (Agent - FAILED / Untestable):** While having an unrevived fossil item (e.g., Dome Fossil or Helix Fossil) in your inventory, stand in front of the 'MUSEUM1F_GAMBLER' at (2, 5) and 'Use' the fossil item from the bag menu. (Note: PC item storage checked, no unrevived fossils found).
 - **Hypothesis 9 (Agent - FAILED):** Stand on the tile at (3, 5), to the right of the fossil display. First, face UP towards the 'AerodactylFossil'. Then, without leaving the tile, turn to face LEFT and initiate conversation with the 'MUSEUM1F_GAMBLER' at (2, 5). (Result: 'magnificent fossil!' dialogue, no change).
 
-# VIII. Self-Assessment Takeaways (Turn 230965)
-- **Agent Utilization:** I need to actively look for opportunities to use my `multi_stage_navigator` and `sequence_puzzle_solver` agents to test their effectiveness.
-- **Fossil Quest - Backup Plan:** If a systematic search of Mt. Moon yields no new fossil items, my backup plan is to test if the Rocket Grunt will accept a *revived* fossil, as my previous tests only involved unrevived or renamed Pokémon.
-- **Automated Path Navigator - Ledge Logic:** The tool failed at turn 230960 by attempting to move up into a ledge. It needs to be refined to correctly interpret and navigate around ledges from all directions, not just when jumping down.
+# VIII. Self-Assessment & Overwatch Critique Takeaways (Turn 231171)
+- **CRITICAL - Tool Maintenance:** My highest priority is immediate tool maintenance. I failed by deferring a fix for the `automated_path_navigator`. Faulty tools **MUST** be fixed in the same turn they are discovered.
+- **Tool Consolidation:** My battle navigation is split between `select_move_by_slot` and `select_battle_option`. I should consolidate these into a single, more robust tool to reduce errors.
+- **Notepad Organization:** Long, archived sections (like the Pewter Museum puzzle) should be condensed to improve readability. This must be done incrementally due to tool limitations.
 
 # IX. Archived Investigations
 ### TM28 (DIG) - Cerulean Backyard
