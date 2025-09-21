@@ -70,7 +70,7 @@
 - **Summary:** Solved via a complex, multi-step sequence involving NPC and exhibit interactions across both floors of the Pewter Museum.
 - **Key Lesson:** Puzzles in this hack can require non-obvious sequences of interactions that are not hinted at directly. The solution involved speaking to an Old Man with a specific Pokémon (Geodude), interacting with an unrelated exhibit (space shuttle), and then interacting with a fossil exhibit. This highlights the need for creative, systematic hypothesis testing, and confirms the value of the `sequence_puzzle_solver` agent for future complex puzzles.
 
-# IX. Mt. Moon Map Data (Archived)
+# IX. Mt. Moon Map Data (DEPRECATED - To be removed)
 <!-- CLEANUP START -->
 - Raw map data has been moved out of the notepad for readability, as per Overwatch critique.
 - Use the `map_data_analyzer` tool for future analysis of this data.
