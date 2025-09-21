@@ -1,7 +1,7 @@
 # I. The Old Amber Investigation
 - **Objective:** Retrieve the Old Amber from the Pewter Museum of Science.
 - **Status:** In progress. Next step is to travel to Pewter City.
-- **Confirmed Puzzle Steps:** 1. Lead with Geodude/fossil, speak to Old Man (1F). 2. Speak to Scientist (2F). 3. Interact with Kabutops Fossil (1F).
+- **Confirmed Puzzle Steps:** 1. Lead with Geodude/fossil, speak to Old Man (1F). 2. Speak to Scientist (2F). 3. Interact with Space Shuttle Exhibit (2F).
 - **Untested Agent-Generated Hypotheses:** Lead with a Pokémon holding a 'Nugget' or lead with a Porygon and speak to the Gambler NPC.
 
 # II. Core Directives & Lessons Learned
