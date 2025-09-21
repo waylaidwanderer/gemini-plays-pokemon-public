@@ -1368,7 +1368,7 @@
     ]
   },
   "deposit_pc_item_by_index": {
-    "description": "Automates depositing an item at a specific inventory index (1-20) into the PC. The player must be facing a PC. Should be called with autopress_buttons: true.",
+    "description": "Automates depositing an item at a specific inventory index (1-20) into the PC. The player must be facing a PC. Now includes a reset sequence to handle being called from within a menu. Should be called with autopress_buttons: true.",
     "input_schema": {
       "type": "object",
       "properties": {
@@ -1380,7 +1380,7 @@
         "item_index"
       ]
     },
-    "python_script": "import json\nbutton_sequence = [\"A\", \"Down\", \"A\", \"Down\", \"A\"]\nitem_index = int(input_data['item_index'])\nfor _ in range(item_index - 1):\n    button_sequence.append(\"Down\")\nbutton_sequence.extend([\"A\", \"A\", \"B\", \"B\", \"B\"])\nprint(json.dumps(button_sequence))",
+    "python_script": "import json\nitem_index = int(input_data['item_index'])\nbuttons = []\n# State-agnostic reset sequence\nfor _ in range(4):\n    buttons.append(\"B\")\n# Turn on PC and navigate to Deposit Item\nbuttons.extend([\"A\", \"Down\", \"A\", \"Down\", \"A\"])\n# Select item by index\nfor _ in range(item_index - 1):\n    buttons.append(\"Down\")\n# Deposit (select, confirm quantity=1)\nbuttons.extend([\"A\", \"A\"])\n# Exit PC\nfor _ in range(3):\n    buttons.append(\"B\")\nprint(json.dumps(buttons))",
     "history": [
       {
         "commit_message": "feat: Create deposit_pc_item_by_index tool. This tool automates the repetitive and error-prone manual task of navigating PC menus to deposit a specific item. This was created in direct response to a mandatory self-assessment that identified a failure to create tools for recurring tasks.",
@@ -1396,6 +1396,11 @@
         "commit_message": "fix: Overhaul script to use a loop for item selection. The previous version used a hardcoded number of 'Down' presses, which caused it to select the wrong item. This commit replaces that with a loop based on the `item_index` input, ensuring it navigates to the correct item. This addresses a critical failure identified by the overwatch system.",
         "timestamp": "2025-09-20T18:11:26.104Z",
         "action_counter": 229251
+      },
+      {
+        "commit_message": "refactor: Add state-agnostic reset sequence. The tool was repeatedly failing when called from within the PC menu. This commit adds a sequence of 'B' presses at the start of the script to ensure it exits any menu before execution, making it more robust and addressing a critical overwatch critique.",
+        "timestamp": "2025-09-21T00:01:59.641Z",
+        "action_counter": 229954
       }
     ]
   },

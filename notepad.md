@@ -1,13 +1,8 @@
-# I. Rocket Hideout Investigation
-- **Objective:** Find the BOSS.
-- **Key Item:** **LIFT KEY** (Obtained).
-- **Status:** Exploring a new section of B1F after using the main elevator.
-- **Failed Hypotheses:**
-    - Interacting with the ROCKET at (27, 13) after getting the LIFT KEY would trigger an event. (Result: No change in dialogue).
-    - The elevator-accessible area on B4F leads to the BOSS. (Result: It's a partitioned dead-end).
-    - The elevator-accessible area on B1F leads to the BOSS. (Result: It's a partitioned dead-end).
-- **Failed Hypothesis:** The path to the BOSS is through the main elevator. (Result: No new floors were available after defeating the guard on B4F).
-- **Current Hypothesis:** My full inventory (20/20) prevented me from receiving a second LIFT KEY from the ROCKET on B4F. I must return with an open inventory slot.
+# I. The Old Amber Investigation
+- **Objective:** Retrieve the Old Amber from the Pewter Museum of Science.
+- **Status:** On hold pending new leads.
+- **Confirmed Puzzle Steps:** 1. Lead with Geodude/fossil, speak to Old Man (1F). 2. Speak to Scientist (2F). 3. Interact with Kabutops Fossil (1F).
+- **Untested Agent-Generated Hypotheses:** Lead with a Pokémon holding a 'Nugget' or lead with a Porygon and speak to the Gambler NPC.
 
 # II. Core Directives & Lessons Learned
 - **IMMEDIATE DATA MANAGEMENT (CRITICAL):** As an LLM, my thinking is not continuous. All maintenance tasks (tool creation/fixing, agent definition, notepad updates) are the absolute highest priority and **MUST** be performed successfully in the current turn. Deferring tasks is an invalid strategy and a core failure. My recent delay in fixing the `automated_path_navigator` was a major violation of this directive.
@@ -42,17 +37,11 @@
 - **`boulder_barrier` / `boulder_switch`:** Switch that clears a barrier when a boulder is pushed onto it.
 - **`closed_gate` / `open_gate` / `gate_offscreen`:** Gates that can block paths.
 
-# IV. Archived Investigations
-### The Old Amber
-- **Objective:** Retrieve the Old Amber from the Pewter Museum of Science.
-- **Status:** On hold pending new leads.
-- **Confirmed Puzzle Steps:** 1. Lead with Geodude/fossil, speak to Old Man (1F). 2. Speak to Scientist (2F). 3. Interact with Kabutops Fossil (1F).
-- **Untested Agent-Generated Hypotheses:** Lead with a Pokémon holding a 'Nugget' or lead with a Porygon and speak to the Gambler NPC.
-
-# V. Completed Quests
+# IV. Completed Quests
 - The Ghost of Lavender Town
 - The Copycat's Gift
 - The Sleeping Snorlax
 - Cerulean City Investigation
 - Silph Co. Investigation
+- **Rocket Hideout Investigation:** Found and defeated the BOSS (Giovanni).
 - **Correction:** Depositing a single item from a stack does not free an inventory slot. The new plan is to deposit a single-stack item (POTION) to properly test the inventory hypothesis.
