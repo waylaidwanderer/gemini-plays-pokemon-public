@@ -63,8 +63,8 @@
 - **Marker Accuracy:** I must be more diligent and double-check warp destinations immediately after using them to ensure labels are correct from the start.
 
 # VIII. Archived Investigations
-### Mt. Moon Fossil Search (Manual Exploration Phase)
-- **Summary:** Initial manual exploration of Mt. Moon 1F and parts of B1F/B2F yielded no fossils. Key findings included the Cinnabar Lab info from a Super Nerd and a path blocked by a Hiker. This inefficient phase prompted a switch to a systematic, data-gathering strategy.
+### Mt. Moon Fossil Search
+- **Summary:** Concluded that the unrevived fossil is not in Mt. Moon after a thorough exploration of all accessible areas. The high encounter rate made further exploration inefficient. Key blockers (Rocket Grunt at B2F (30,12) and Hiker at 1F (6,7)) remain.
 
 ### Old Amber Retrieval (Pewter Museum)
 - **Summary:** Solved via a complex, multi-step sequence involving NPC and exhibit interactions across both floors of the Pewter Museum.
