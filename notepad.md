@@ -88,3 +88,6 @@
 - **Hypothesis:** TM28 (DIG) is a hidden item in the Cerulean Backyard.
 - **Test:** Used ITEMFINDER at (30, 10).
 - **Result:** FAILED. ITEMFINDER did not respond.
+- **Hypothesis:** TM28 (DIG) appeared as a visible item at (31, 10) after defeating the Rocket Grunt.
+- **Test:** Navigated to (32, 10) and visually inspected the tile.
+- **Result:** FAILED. No item sprite is present at (31, 10).
