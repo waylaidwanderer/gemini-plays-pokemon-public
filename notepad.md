@@ -63,5 +63,5 @@
     - **Hypothesis 3 (Tested & Failed):** Sequence: Lead with Pikachu -> interact with Pikachu NPC -> interact with KabutopsFossil -> interact with AerodactylFossil -> speak to the Old Man. (Result: Old Man turned to face right, but dialogue unchanged and path remains blocked).
 - **New Hypotheses (from Agent - Round 3):**
     - **Hypothesis 1 (Tested & Failed):** Lead with a Water-type Pokémon in the first party slot and interact with the KabutopsFossil at (3, 7). (Result: Triggered the standard fossil trap, no change.)
-    - **Hypothesis 2 (Untested):** Interact with the KabutopsFossil at (3, 7), then speak to the MUSEUM1F_GAMBLER at (2, 5).
+    - **Hypothesis 2 (Tested & Failed):** Interact with the KabutopsFossil at (3, 7), then speak to the MUSEUM1F_GAMBLER at (2, 5). (Result: Standard 'magnificent fossil!' dialogue, no change).
     - **Hypothesis 3 (Untested):** Interact with the KabutopsFossil at (3, 7), then interact with the Pikachu NPC at (4, 5), and finally interact with the AerodactylFossil at (3, 4).
