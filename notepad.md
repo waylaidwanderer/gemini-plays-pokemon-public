@@ -56,8 +56,8 @@
     - Stand on the tile to the left of the 'MUSEUM1F_GAMBLER' (at (1, 5)) to make him face the fossils. While he is facing left, interact with the 'AerodactylFossil' at (3, 4). (Result: Gambler turned UP, not left. Interacting with the fossil was a standard trap. No change.)
 
 - **New Hypotheses (To Be Tested):**
-    - **Hypothesis 1 (Testable):** Use the Itemfinder on the empty floor tiles surrounding the 'AerodactylFossil' (3, 4) and 'KabutopsFossil' (3, 7).
-    - **Hypothesis 2 (Testable):** Interact with the 'MUSEUM1F_GAMBLER' at (2, 5) while having the Coin Case item in your inventory.
+    - **Hypothesis 1 (Failed):** Use the Itemfinder on the empty floor tiles surrounding the fossils. (Result: 'Nope! ITEMFINDER isn't responding.')
+    - **Hypothesis 2 (To Be Tested):** Interact with the 'MUSEUM1F_GAMBLER' at (2, 5) while having the Coin Case item in your inventory.
     - **Hypothesis 3 (Untestable):** Use the move 'Rock Smash' on the fossils. (Reason: Don't have the move).
     - **Hypothesis 4 (Untestable):** Use the move 'Dig' on the tile directly in front of the fossils. (Reason: Don't have the move).
 
