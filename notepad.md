@@ -4,7 +4,7 @@
 - **VERIFY POSITION (CRITICAL):** I have a history of position hallucinations. I **MUST** check my position in the Game State Information at the start of every turn before forming a plan.
 - **MAP MARKER DISCIPLINE (CRITICAL):** I must mark every warp tile (both entry and exit) with '🚪' and every defeated trainer with '☠️' immediately.
 - **HYPOTHESIS VETTING (CRITICAL):** Before attempting to test a hypothesis, I must first confirm it is mechanically possible within the game's established rules.
-- **Agent Escalation Protocol (MUST FOLLOW):** If manual puzzle attempts fail repeatedly or direct navigation is impossible in a complex area, I MUST escalate to my specialized agents (`sequence_puzzle_solver`, `multi_stage_navigator`) before continuing with manual attempts.
+- **Agent Escalation Protocol (MUST FOLLOW):** If manual puzzle attempts fail repeatedly or direct navigation is impossible in a complex area, I MUST escalate to my specialized agent (`sequence_puzzle_solver`) before continuing with manual attempts.
 
 # II. Game Mechanics & Tile Types (Observed)
 - **Post-Battle Position Shift:** Player may be moved after a wild battle.
