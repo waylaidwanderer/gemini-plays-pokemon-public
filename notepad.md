@@ -49,7 +49,8 @@
 - **Objective:** Obtain an unrevived fossil to give to the Rocket Grunt on Mt. Moon B2F.
 - **Current Location:** Mt. Moon 1F.
 - **Strategy:** My manual exploration of Mt. Moon has been highly inefficient and prone to hallucination. I am pivoting to a new strategy as advised by the Overwatch system: I will systematically visit each floor (1F, B1F, B2F) to gather complete map data, and then use my `multi_stage_navigator` agent to compute an optimal path.
-- **Next Step:** Take the last unexplored ladder on 1F at (26, 16) to access a new section of B1F and continue data collection.
+- **Correction:** My previous understanding of the path taken was a hallucination. I have arrived on B2F at (26, 10) via a ladder from B1F at (18, 12).
+- **Next Step:** Explore the current partition of B2F to continue data collection.
 
 # VII. Archived Investigations
 
