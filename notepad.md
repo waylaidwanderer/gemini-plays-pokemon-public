@@ -54,6 +54,8 @@
     - **Eastern section of 1F:** FAILED. Explored fully, found no fossils or relevant NPCs.
     - **Hiker at (6, 7) on 1F:** FAILED. The Hiker still blocks the path with the dialogue "Kids like you shouldn't be here!". This path is not currently accessible.
 - **Next Step:** Systematically explore Mt. Moon B1F.
+    - **Hiker at (6, 7) on 1F:** FAILED. The Hiker still blocks the path with the dialogue "Kids like you shouldn't be here!". This path is not currently accessible.
+- **Next Step:** Systematically explore Mt. Moon B1F.
 
 # VII. Puzzle: Old Amber Retrieval (ARCHIVED - COMPLETED)
 - **Objective:** Retrieve the Old Amber from the Pewter Museum of Science.
