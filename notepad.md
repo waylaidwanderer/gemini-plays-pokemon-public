@@ -65,7 +65,7 @@
 - **Hypothesis 6 (Agent - New):** Step 1: Interact with the 'KabutopsFossil' at coordinates (3, 7) exactly seven times in a row. Step 2: Immediately speak to the 'MUSEUM1F_GAMBLER' at (2, 5).
 - **Hypothesis 7 (Agent - New):** Step 1: Speak to the 'MUSEUM1F_GAMBLER' at (2, 5). Step 2: Exit the Pewter Museum of Science entirely. Step 3: Re-enter the museum and immediately speak to the 'MUSEUM1F_GAMBLER' again without interacting with anything else.
 - **Hypothesis 8 (Agent - New):** While having an unrevived fossil item (e.g., Dome Fossil or Helix Fossil) in your inventory, stand in front of the 'MUSEUM1F_GAMBLER' at (2, 5) and 'Use' the fossil item from the bag menu.
-- **Hypothesis 9 (Agent - New):** Stand on the tile at (3, 5), to the right of the fossil display. First, face UP towards the 'AerodactylFossil'. Then, without leaving the tile, turn to face LEFT and initiate conversation with the 'MUSEUM1F_GAMBLER' at (2, 5).
+- **Hypothesis 9 (Agent - IN PROGRESS):** Stand on the tile at (3, 5), to the right of the fossil display. First, face UP towards the 'AerodactylFossil'. Then, without leaving the tile, turn to face LEFT and initiate conversation with the 'MUSEUM1F_GAMBLER' at (2, 5).
 
 # V. Inventory Management
 - **Overwatch Directive:** Inventory is at 19/20. Agent confirmed no action is needed as this is below the 21+ item bug threshold.
