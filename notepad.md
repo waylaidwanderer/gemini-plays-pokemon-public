@@ -41,7 +41,7 @@
 - **Objective:** Retrieve the Old Amber from the Pewter Museum of Science.
 - **Status:** STUCK. The path at (13, 5) remains blocked by a Scientist.
 - **Failed Hypotheses (Manual & Agent - Exhaustive List):**
-    - **Sequence (WRONG):** The sequence of (1. Lead with fossil, talk to Old Man -> 2. Talk to Scientist (2F) -> 3. Interact with Space Shuttle -> 4. Interact with Kabutops Fossil) was previously thought to be the solution. **This did not work.**
+    - **Sequence (Misinterpreted as a solution):** The sequence of (1. Lead with fossil, talk to Old Man -> 2. Talk to Scientist (2F) -> 3. Interact with Space Shuttle -> 4. Interact with Kabutops Fossil) was previously thought to be the solution based on a misinterpretation of event summaries. The game state confirms the Scientist at (13, 5) did NOT move. This sequence is confirmed to be a **FAILURE**.
     - Spoke to the 'Old Man' (2, 5) after the initial puzzle sequence. (Result: 'magnificent fossil!')
     - Interact with 'AerodactylFossil' (3, 4), then spoke to the 'Old Man' (2, 5). (Result: 'magnificent fossil!')
     - Interact with 'KabutopsFossil' (3, 7), then 'AerodactylFossil' (3, 4), then spoke to the 'Old Man' (2, 5). (Result: 'magnificent fossil!')
