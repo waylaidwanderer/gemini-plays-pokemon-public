@@ -54,14 +54,13 @@
     - Lead with a Water-type Pokémon and interact with the KabutopsFossil. (Result: Triggered the standard fossil trap, no change.)
     - Interact with the KabutopsFossil, then speak to the MUSEUM1F_GAMBLER. (Result: Standard 'magnificent fossil!' dialogue, no change).
     - Sequence: Interact with KabutopsFossil -> (Pikachu NPC gone) -> interact with AerodactylFossil. (Result: Triggered standard fossil traps, no change in the blocked path.)
+    - Stand on the tile to the left of the 'MUSEUM1F_GAMBLER' (at (1, 5)) to make him face the fossils. While he is facing left, interact with the 'AerodactylFossil' at (3, 4). (Result: Gambler turned UP, not left. Interacting with the fossil was a standard trap. No change.)
 
-- **New Hypotheses (from Agent - Round 4):**
-    - **Hypothesis 1 (Untested):** Stand on the tile to the left of the 'MUSEUM1F_GAMBLER' (at (1, 5)) to make him face the fossils. While he is facing left, interact with the 'AerodactylFossil' at (3, 4).
-    - **Hypothesis 2 (Untested):** Use a money-related or fossil-related item from the bag, such as a 'Nugget' or a 'Rare Bone', while standing in front of the 'MUSEUM1F_GAMBLER' at (2, 5).
-    - **Hypothesis 3 (Untested):** Interact with the 'KabutopsFossil' at (3, 7) from a non-standard position, such as from the side (at coordinates (4, 7)).
-    - **Hypothesis 4 (Untested):** Interact with the 'KabutopsFossil' at (3, 7) exactly seven times in a row, then speak to the 'MUSEUM1F_GAMBLER' at (2, 5).
+- **New Hypotheses (from Agent - Round 5):**
+    - **Hypothesis 1 (Untestable):** Use the move 'Rock Smash' on the 'AerodactylFossil' at (3, 4) and/or the 'KabutopsFossil' at (3, 7).
+    - **Hypothesis 2 (Untested):** Use the Itemfinder on the empty floor tiles surrounding the 'AerodactylFossil' (3, 4) and 'KabutopsFossil' (3, 7).
+    - **Hypothesis 3 (Untested):** Interact with the 'MUSEUM1F_GAMBLER' at (2, 5) while having the Coin Case item in your inventory.
+    - **Hypothesis 4 (Untestable):** Use the move 'Dig' on the tile directly in front of the 'AerodactylFossil' or the 'KabutopsFossil'.
 
 # V. Inventory Management
 - **Overwatch Directive:** Inventory is at 19/20. Must use `inventory_manager` agent at the next PC to avoid the item bug.
-- Sequence: Interact with KabutopsFossil -> (Pikachu NPC gone) -> interact with AerodactylFossil. (Result: Triggered standard fossil traps, no change in the blocked path.)
-- **Hypothesis 1 (Failed):** Stand on the tile to the left of the 'MUSEUM1F_GAMBLER' (at (1, 5)) to make him face the fossils. While he is facing left, interact with the 'AerodactylFossil' at (3, 4). (Result: Gambler turned UP, not left. Interacting with the fossil was a standard trap. No change.)
