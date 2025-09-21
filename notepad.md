@@ -1,6 +1,6 @@
 # I. Core Directives & Lessons Learned
 - **IMMEDIATE DATA & TOOL MAINTENANCE (CRITICAL):** As an LLM, my thinking is not continuous. All maintenance tasks (tool creation/fixing, agent definition, notepad updates) are the absolute highest priority and **MUST** be performed successfully in the current turn. Deferring tasks is an invalid strategy.
-- **TRUST YOUR TOOLS & AGENTS (CRITICAL):** I must trust my tool and agent outputs as the default assumption. Before debugging, I must first verify my own position and assumptions against the game state.
+- **TRUST YOUR TOOLS (CRITICAL):** I must trust my tool outputs as the default assumption. A 'no path found' result is a valid and crucial piece of information about the game world, not a tool failure. Before debugging a tool, I must first verify my own assumptions about reachability against the game state.
 - **VERIFY POSITION (CRITICAL):** I have a history of position hallucinations. I **MUST** check my position in the Game State Information at the start of every turn before forming a plan.
 - **MAP MARKER DISCIPLINE (CRITICAL):** I must mark every warp tile (both entry and exit) with '🚪' and every defeated trainer with '☠️' immediately.
 - **HYPOTHESIS VETTING (CRITICAL):** Before attempting to test a hypothesis, I must first confirm it is mechanically possible within the game's established rules.
@@ -15,6 +15,7 @@
 - **Fee Trigger Tile:** A tile that prompts for an entrance fee, even if already inside. Paying a second time broke a scripted loop.
 - **Fossil Trap:** Interacting with the fossil exhibits in the Pewter Museum of Science can trigger a trap that temporarily places the player on an impassable tile. This trap can be escaped by pressing the 'B' button.
 - **Hidden Paths (Confirmed):** Some tiles that appear as impassable walls (e.g., `elevated_ground` at Mt. Moon B2F, 22, 17) can be walked through, creating hidden passages.
+- **Hidden Path (Mt. Moon B1F):** The `elevated_ground` tiles between (24,4) and (28,4) are traversable, connecting two otherwise isolated ladder platforms.
 
 ### Tile Traversal Rules (Comprehensive)
 - `ground` / `grass`: Standard walkable tiles.
@@ -45,23 +46,21 @@
 - **Mt. Moon Hiker (1F, 6, 7):** Blocks path with dialogue "Kids like you shouldn't be here!". **Hypothesis:** His state may change after further progress. **Next Step:** Re-check after current exploration paths are exhausted.
 
 # V. Agent & Tool Development Ideas
+- **Multi-Floor Navigator Agent:** An agent that can analyze the map data for multiple floors simultaneously to plan optimal routes through complex, multi-level dungeons like Mt. Moon or Silph Co.
 - **Lost Item Investigator Agent:** An agent that takes an objective (e.g., 'Find TM28') and a list of clues, then proposes a ranked sequence of locations to search and actions to perform.
 - **Path Failure Analyst Agent:** Analyzes failed `automated_path_navigator` output and suggests manual probe coordinates based on known hidden path mechanics.
 - **Wall Prober Tool:** A tool to automate systematic probing of walls for hidden passages.
 
 # VI. Current Investigation: Unrevived Fossil
 - **Objective:** Obtain an unrevived fossil to give to the Rocket Grunt on Mt. Moon B2F.
-- **Current Location:** Mt. Moon B2F (Eastern Section).
-- **Strategy:** The map is partitioned into eastern and western sections. To find the fossil, I must explore the western section. My plan is to navigate through B1F to connect the two areas.
-  - 1. Go from my current location to the ladder at (26, 10) on B2F.
-  - 2. Take the ladder to B1F, arriving at (18, 12).
-  - 3. On B1F, navigate to the ladder at (14, 28).
-  - 4. Take the ladder down to the western section of B2F, arriving at (16, 28).
-  - 5. Explore the western section of B2F.
+- **Current Location:** Route 4 (East, near Cerulean City).
+- **Strategy:** I was accidentally ejected from Mt. Moon onto a one-way path. I cannot return on foot. The plan is to Fly to Pewter City and walk east to re-enter Mt. Moon from the main entrance.
 
-# VII. Self-Assessment & Overwatch Critique Takeaways (Turn 231171 & 231325)
-- **CRITICAL - Tool Maintenance:** My highest priority is immediate tool maintenance. I failed by deferring a fix for the `automated_path_navigator` and by not consolidating battle tools. Faulty or inefficient tools **MUST** be fixed/improved in the same turn they are identified. (Consolidated `select_battle_action` in T231310).
-- **Notepad Organization:** Long, archived sections should be condensed to improve readability. (Condensed Pewter Museum puzzle and other archived investigations in T231325).
+# VII. Self-Assessment & Overwatch Critique Takeaways (Consolidated)
+- **CRITICAL - Tool Maintenance & Trust:** My highest priority is immediate tool maintenance. Faulty or inefficient tools **MUST** be fixed/improved in the same turn they are identified. I must also trust my tool outputs; a 'no path found' result is a valid and crucial piece of information about the game world, not a tool failure.
+- **Notepad Organization & Data Hygiene:** My notepad must be kept clean and up-to-date. I have failed by keeping outdated information (references to non-existent agents) and by failing to perform maintenance successfully on the first attempt. Long, archived sections should be condensed to improve readability.
+- **Agent Escalation:** I must follow my own protocol and escalate to specialized agents sooner in complex situations instead of wasting time on inefficient manual exploration.
+- **Marker Accuracy:** I must be more diligent and double-check warp destinations immediately after using them to ensure labels are correct from the start.
 
 # VIII. Archived Investigations
 ### Mt. Moon Fossil Search (Manual Exploration Phase)
@@ -70,9 +69,6 @@
 ### Old Amber Retrieval (Pewter Museum)
 - **Summary:** Solved via a complex, multi-step sequence involving NPC and exhibit interactions across both floors of the Pewter Museum.
 - **Key Lesson:** Puzzles in this hack can require non-obvious sequences of interactions that are not hinted at directly. The solution involved speaking to an Old Man with a specific Pokémon (Geodude), interacting with an unrelated exhibit (space shuttle), and then interacting with a fossil exhibit. This highlights the need for creative, systematic hypothesis testing, and confirms the value of the `sequence_puzzle_solver` agent for future complex puzzles.
-### Overwatch Critique Takeaways (Turn 231500)
-- **Agent Escalation:** I failed to follow my own protocol and use the `multi_stage_navigator` in a complex maze, wasting over 100 turns on inefficient manual exploration. I MUST trust my protocols and escalate to agents sooner.
-- **Marker Accuracy:** My marker labels have been repeatedly inaccurate, forcing me to waste turns on corrections. I MUST be more diligent and double-check warp destinations immediately after using them to ensure labels are correct from the start.
 
 # IX. Mt. Moon Map Data (Archived)
 <!-- CLEANUP START -->
