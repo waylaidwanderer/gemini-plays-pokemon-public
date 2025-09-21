@@ -63,8 +63,8 @@
     - **Hypothesis 4 (Agent - FAILED):** Interact with KabutopsFossil x2, AerodactylFossil x1, then talk to Gambler.
 - **Hypothesis 5 (Agent - New):** Stand on the tile directly above the 'MUSEUM1F_GAMBLER' at coordinates (2, 4) and then interact with him.
 - **Hypothesis 6 (Agent - FAILED):** Step 1: Interact with the 'KabutopsFossil' at coordinates (3, 7) exactly seven times in a row. Step 2: Immediately speak to the 'MUSEUM1F_GAMBLER' at (2, 5). (Result: Interacting with the fossil repeatedly only triggers the trap.)
-- **Hypothesis 7 (Agent - New):** Step 1: Speak to the 'MUSEUM1F_GAMBLER' at (2, 5). Step 2: Exit the Pewter Museum of Science entirely. Step 3: Re-enter the museum and immediately speak to the 'MUSEUM1F_GAMBLER' again without interacting with anything else.
-- **Hypothesis 8 (Agent - New):** While having an unrevived fossil item (e.g., Dome Fossil or Helix Fossil) in your inventory, stand in front of the 'MUSEUM1F_GAMBLER' at (2, 5) and 'Use' the fossil item from the bag menu.
+- **Hypothesis 7 (Agent - FAILED):** Step 1: Speak to the 'MUSEUM1F_GAMBLER' at (2, 5). Step 2: Exit the Pewter Museum of Science entirely. Step 3: Re-enter the museum and immediately speak to the 'MUSEUM1F_GAMBLER' again without interacting with anything else. (Result: Standard 'magnificent fossil!' dialogue, no change).
+- **Hypothesis 8 (Agent - Untestable):** While having an unrevived fossil item (e.g., Dome Fossil or Helix Fossil) in your inventory, stand in front of the 'MUSEUM1F_GAMBLER' at (2, 5) and 'Use' the fossil item from the bag menu. (Note: No unrevived fossil items currently in inventory or PC).
 - **Hypothesis 9 (Agent - FAILED):** Stand on the tile at (3, 5), to the right of the fossil display. First, face UP towards the 'AerodactylFossil'. Then, without leaving the tile, turn to face LEFT and initiate conversation with the 'MUSEUM1F_GAMBLER' at (2, 5). (Result: 'magnificent fossil!' dialogue, no change).
 
 # V. Inventory Management
