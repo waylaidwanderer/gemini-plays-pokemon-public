@@ -1328,33 +1328,31 @@
       }
     ]
   },
-  "fly_to_city": {
-    "description": "Automates using the HM Fly from the party menu to travel to a specific city. Takes the Pokémon's party slot, the HM's move slot, and the number of 'Down' presses required in the city selection menu as input. Includes robust menu navigation.",
+  "select_move_by_slot": {
+    "description": "Automates selecting a Pokémon's move in battle by its slot number (1-4). Assumes the move selection menu is open. Should be called with autopress_buttons: true.",
     "input_schema": {
       "type": "object",
       "properties": {
-        "pokemon_slot": {
-          "type": "string"
-        },
-        "hm_slot_in_pokemon_menu": {
-          "type": "string"
-        },
-        "city_menu_down_presses": {
-          "type": "string"
+        "move_slot": {
+          "type": "string",
+          "enum": [
+            "1",
+            "2",
+            "3",
+            "4"
+          ]
         }
       },
       "required": [
-        "pokemon_slot",
-        "hm_slot_in_pokemon_menu",
-        "city_menu_down_presses"
+        "move_slot"
       ]
     },
-    "python_script": "import json\npokemon_slot = int(input_data['pokemon_slot'])\nhm_slot = int(input_data['hm_slot_in_pokemon_menu'])\ncity_down_presses = int(input_data['city_menu_down_presses'])\nbuttons = []\nbuttons.extend(['B', 'Start'])\nbuttons.append('Down')\nbuttons.append('A')\nbuttons.extend(['Down'] * (pokemon_slot - 1))\nbuttons.append('A')\nbuttons.append('Down')\nbuttons.extend(['Down'] * (hm_slot - 1))\nbuttons.append('A')\nbuttons.extend(['Down'] * city_down_presses)\nbuttons.append('A')\nprint(json.dumps(buttons))",
+    "python_script": "import json\n\nslot = int(input_data['move_slot'])\nbuttons = []\n# The cursor starts at slot 1.\n# We need slot - 1 down presses.\nfor _ in range(slot - 1):\n    buttons.append(\"Down\")\nbuttons.append(\"A\")\nprint(json.dumps(buttons))",
     "history": [
       {
-        "commit_message": "feat: Create fly_to_city tool. This is a specialized tool for HM Fly that incorporates lessons learned from the repeated failures of the generic use_hm_from_menu tool. It uses a robust 'close and reopen' menu reset and correctly handles the party sub-menu, making it more reliable for this specific, frequent task.",
-        "timestamp": "2025-09-21T00:43:18.892Z",
-        "action_counter": 230052
+        "commit_message": "feat: Create select_move_by_slot tool. This tool automates the selection of a move in battle based on its slot number, reducing the chance of manual error during battle menu navigation. This was created as part of a mandatory self-assessment that identified an opportunity for tool creation.",
+        "timestamp": "2025-09-21T05:00:37.261Z",
+        "action_counter": 230659
       }
     ]
   }

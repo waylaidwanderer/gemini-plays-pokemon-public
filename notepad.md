@@ -4,6 +4,7 @@
 - **VERIFY POSITION (CRITICAL):** I have a history of position hallucinations. I **MUST** check my position in the Game State Information at the start of every turn before forming a plan.
 - **MAP MARKER DISCIPLINE (CRITICAL):** I must mark every warp tile (both entry and exit) with '🚪' and every defeated trainer with '☠️' immediately.
 - **HYPOTHESIS VETTING (CRITICAL):** Before attempting to test a hypothesis, I must first confirm it is mechanically possible within the game's established rules.
+- **Agent Escalation Protocol:** If manual puzzle attempts fail repeatedly or direct navigation is impossible in a complex area, I MUST escalate to my specialized agents (`sequence_puzzle_solver`, `multi_stage_navigator`) before continuing with manual attempts.
 
 # II. Game Mechanics & Tile Types (Observed)
 - **Post-Battle Position Shift:** Player may be moved after a wild battle.
@@ -76,3 +77,6 @@
 
 # VII. Current Hypotheses
 - **Hypothesis: Fossil Source:** The Super Nerd on Mt. Moon B2F (the one who offers a choice after battle) is the source for the unrevived fossil needed for the Rocket Grunt. **Test:** Navigate to him, defeat him if necessary, and see if he offers a fossil.
+
+# VIII. Active To-Do List
+- Clean up redundant map markers on Mt. Moon B2F (ID 61) at (26, 10).
