@@ -106,3 +106,6 @@
     *   **Current Conclusion (Confirmed):** The tool has repeatedly confirmed system-flagged unseen tiles are unreachable, blocked by the CUT_TREE at (8, 25). I will trust my tool over the alert until I have Cut.
     *   **Alternative Hypothesis:** The tool's A* logic contains a subtle flaw for this specific map.
     *   **Test to Disprove:** If I obtain Cut, use it on the tree, and the tiles are *still* unreachable, the tool is flawed and requires immediate debugging.
+
+# VII. Action Items
+*   Redefine Farfetch'd and Apprentice map markers with their `object_id`s as soon as they are visible on screen. Current static markers have been deleted.
