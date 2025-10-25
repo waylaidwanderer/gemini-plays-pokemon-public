@@ -98,3 +98,6 @@
 *   **Training Priority:** MIASma (Gastly) should be trained up.
 *   **Move Optimization:** Replace Vulcan's EMBER with a better coverage move. Conserve MIASma's HYPNOSIS. Level Gambit via switching.
 *   **Team Weaknesses:** Critical weakness to Water-types. Lack of coverage for Rock, Ground, or Psychic types.
+
+# VIII. Reflection (Turn 20811)
+*   **Farfetch'd Puzzle Untested Assumption:** My main conclusion is that the puzzle is a fixed, scripted sequence where interaction direction is key. **Alternative Hypothesis:** The puzzle's state is also influenced by another hidden factor, such as time of day, an item in my bag, or the state of another NPC. **Test to Disprove:** If I follow my documented "correct" sequence and it fails, this alternative hypothesis is strengthened.
