@@ -68,7 +68,7 @@
     *   **Partial Reset:** Can return Farfetch'd to a previous step in the sequence.
 *   **Known Correct Sequence:**
     *   **Step 1:** Interact from West at (28, 22) -> Moves bird from (29, 22) to (28, 31).
-    *   **Step 2:** Interact from South at (28, 32) -> Moves bird from (28, 31) to (24, 35).
+    *   **Step 2:** Interact from South at (28, 32) -> Moves bird from (28, 31) to (15, 25).
     *   **Step 3:** After Step 2, the Farfetch'd moves to (15, 25), confirmed via map marker. My previous hypothesis of it moving to (24, 35) was incorrect.
     *   **Step 4:** Interact from East at (16, 29) -> Moves bird from (15, 29) to (15, 25).
     *   **Step 5:** Interact from South at (15, 26) -> Moves bird from (15, 25) to (20, 24).
