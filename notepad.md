@@ -9,8 +9,7 @@
 *   **Proactive Tile Testing:** Upon encountering any new, undocumented tile type, I MUST immediately form a hypothesis, test it, and log the results before proceeding.
 *   **Mark Warps Immediately:** Mark both warp entrance and exit immediately upon use.
 *   **Tool Correctness over Intuition:** A 'No path found' result is data, not a bug. Trust the tool's conclusion that a path is impassable.
-*   **Tool Correctness over Intuition:** A 'No path found' result is data, not a bug. Trust the tool's conclusion that a path is impassable.
-*   **Tool Correctness over Intuition:** A 'No path found' result is data, not a bug. Trust the tool's conclusion that a path is impassable.
+*   **UI Unreliability:** The `TYPE/` display in battle can be incorrect (e.g., showing EKANS as Normal). Trust observed effectiveness messages over the UI.
 
 # II. Tile Traversal Rules
 *   **Traversable:** TALL_GRASS, LONG_GRASS, DOOR, WARP_CARPET_DOWN, WARP_CARPET_RIGHT, LADDER, FLOOR.
@@ -35,6 +34,7 @@
 ## A. Verified Type Matchups
 *   Ghost has NO EFFECT on Normal.
 *   Normal has NO EFFECT on Ghost.
+*   Grass is NOT VERY EFFECTIVE against Fire.
 *   Unown's Hidden Power can be super-effective against Fire.
 ## B. Trainer Rosters
 *   **Falkner (Violet City):** Pidgey (Lv7), Pidgeotto (Lv9).
@@ -46,24 +46,13 @@
 # IV. Story & Quests
 *   **Primary Quest: Obtain HM01 Cut**
     *   **Objective:** Receive HM01 Cut from the apprentice in Ilex Forest.
-    *   **Plan:**
-        1.  Navigate south through Route 32 to the Union Cave entrance.
-        2.  Traverse Union Cave to reach Route 33.
-        3.  Travel west from Route 33 into Azalea Town.
-        4.  Enter Ilex Forest from Azalea Town.
-        5.  Solve the second Farfetch'd herding puzzle to guide it back to the apprentice.
+    *   **Plan:** Solve the second Farfetch'd herding puzzle to guide it back to the apprentice.
 *   **Secondary Quest: Complete Sprout Tower**
     *   **Objective:** Reach the top of Sprout Tower and defeat the Elder.
-    *   **Plan:**
-        1.  Travel back north through Route 32 to Violet City.
-        2.  Enter Sprout Tower.
-        3.  Systematically explore the ladder system on the western side of the tower, mapping the connections between floors to find the path to the top. I suspect a specific sequence of ladders is required.
+    *   **Plan:** Systematically explore the ladder system on the western side of the tower, mapping the connections between floors to find the path to the top.
 *   **Tertiary Quest: Investigate Union Cave Roars**
     *   **Objective:** Discover the source of the strange roars heard in Union Cave on Fridays.
-    *   **Plan:**
-        1.  Note the current day of the week.
-        2.  If it is Friday, enter Union Cave and explore the deeper, previously inaccessible areas.
-        3.  If it is not Friday, postpone this quest.
+    *   **Plan:** If it is Friday, enter Union Cave and explore the deeper, previously inaccessible areas.
 *   **NPC Hints & Lore:**
     *   WADE (Route 31): Will share BERRIES.
     *   Hiker Anthony (Phone): Tons of DUNSPARCE in DARK CAVE.
@@ -72,11 +61,12 @@
 
 ## A. Ilex Forest Farfetch'd Puzzle
 *   **Objective:** Herd the Farfetch'd to the apprentice at (7, 28) to receive HM01 Cut.
+*   **Status:** Recreated the `farfetchd_solver` tool.
 *   **History & Learnings:**
     1.  **Hypothesis 1 (Simple Herding):** Assumed a simple push mechanic. Created `farfetchd_solver` tool.
     2.  **Test 1:** Tool reported 'No path found'.
     3.  **Conclusion 1:** My hypothesis of a direct herding path was invalidated. The tool was correct; my assumption was wrong.
-*   **Current Strategy:** Systematically test different starting positions for the Farfetch'd, using the solver to check for a valid path after each manual repositioning.
+*   **Current Strategy:** Systematically search the forest to locate the Farfetch'd's current position. Once found, use the solver to calculate a path to herd it to the apprentice at (7, 28).
 
 ## B. Union Cave Navigation
 *   **Objective:** Pathfind to Hiker Daniel at (4, 6).
@@ -84,20 +74,12 @@
     1.  **Hypothesis 1 (Broken Tool):** Assumed `path_finder` was bugged after it repeatedly failed to find a path.
     2.  **Test 1:** Diagnostic trace revealed the algorithm was working perfectly.
     3.  **Conclusion 1:** The tool was correct. No land path exists between the southern and northern sections of UnionCave1F; they are separated by water.
-    4.  **Lesson Learned:** Trust tool outputs over intuition. A 'No path found' result is data, not a bug.
 
 # VI. Navigational & Cognitive Failures Log
 *   **Ilex Forest (Turns 16451-16475):** Stuck in a dead-end due to brute-force navigation instead of systematic exploration.
 *   **Azalea Town (Turns ~17015-17049):** Wasted 30+ turns due to failing to recognize one-way ledges and impassable walls, indicating poor map analysis.
 *   **Slowpoke Well B1F (Turns ~17074-17171):** Suffered a ~100 turn navigation failure due to confirmation bias, repeatedly trying a path that was proven impassable.
-*   **Union Cave Navigation (Turns ~17812-17877):** Wasted ~65 turns assuming a tool was broken instead of trusting its 'No path found' output, which correctly identified a water-separated area. **Lesson:** Trust the tools.
-*   **Route 33 (Turn 17878):** Confirmed via `path_finder` that the path west to Azalea Town from the Union Cave exit is IMPOSSIBLE. The route is a one-way trap due to impassable ledges. The only way to proceed is to re-enter Union Cave at (11, 9). This is a critical lesson in trusting my tools over visual assessment.
-*   **Union Cave B1F (via ladder at 1F (5, 19)):** Confirmed via `path_finder` that this ladder leads to a small, isolated platform with no path to the southern part of the floor. It is a dead end. The only exit is back up the ladder.
-*   **Route 32 (Turns ~18059-18060):** Wasted several turns trying to path south to Union Cave entrance (6, 79), forgetting my own documented discovery that the route contains one-way ledges making it impossible to travel north from that section. This is a critical failure in consulting my own documentation. **Lesson:** ALWAYS trust the tools and review relevant notes before planning a route.
-*   Grass is NOT VERY EFFECTIVE against Fire.
-*   **UI Unreliability:** The `TYPE/` display in battle can be incorrect (e.g., showing EKANS as Normal). Trust observed effectiveness messages over the UI.
-
-# VI. Farfetch'd Puzzle - Strategy Update
-*   **Status:** Recreated the `farfetchd_solver` tool.
-*   **Next Step:** Systematically search the forest to locate the Farfetch'd's current position.
-*   **Plan:** Once found, use the solver to calculate a path to herd it to the apprentice at (7, 28).
+*   **Union Cave Navigation (Turns ~17812-17877):** Wasted ~65 turns assuming a tool was broken instead of trusting its 'No path found' output, which correctly identified a water-separated area.
+*   **Route 33 (Turn 17878):** Confirmed via `path_finder` that the path west to Azalea Town from the Union Cave exit is IMPOSSIBLE. The route is a one-way trap due to impassable ledges.
+*   **Union Cave B1F (via ladder at 1F (5, 19)):** Confirmed via `path_finder` that this ladder leads to a small, isolated platform with no path to the southern part of the floor. It is a dead end.
+*   **Route 32 (Turns ~18059-18060):** Wasted several turns trying to path south to Union Cave entrance (6, 79), forgetting my own documented discovery that the route contains one-way ledges making it impossible to travel north from that section.
