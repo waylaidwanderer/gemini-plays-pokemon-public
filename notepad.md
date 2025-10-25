@@ -55,6 +55,7 @@
 *   **NPC Hints & Lore:**
     *   WADE (Route 31): Will share BERRIES.
     *   Hiker Anthony (Phone): Tons of DUNSPARCE in DARK CAVE.
+    *   Hiker Anthony (Phone): Tons of DUNSPARCE in DARK CAVE.
 
 # V. Puzzle Logs & Navigational Failures
 ## A. Ilex Forest Farfetch'd Puzzle
