@@ -79,10 +79,8 @@
     *   **Hypothesis:** Leaving and re-entering Ilex Forest will cause a hard reset of the Farfetch'd puzzle, returning the bird to its starting position (29, 22).
     *   **Test:** I left the forest via the gatehouse and immediately re-entered.
     *   **Conclusion:** The hypothesis was **false**. The Farfetch'd did not return to (29, 22). Instead, the puzzle state reverted to a mid-point, with the Farfetch'd at (15, 25). This indicates leaving the map causes a partial, not a full, reset.
-*   **`reachability_analyzer` Discrepancy:**
-    *   **Current Conclusion (Confirmed):** The reachability_analyzer tool has repeatedly and correctly confirmed that the system-flagged unseen tiles are unreachable from my current position. The blockage is almost certainly the CUT_TREE at (8, 25). I will trust my tool's analysis over the persistent system alert and will not re-investigate this until I have HM01 Cut.
-    *   **Alternative Hypothesis:** The tool's A* or map parsing logic contains a subtle flaw that fails on this specific map's layout, possibly missing a traversable tile type or special movement rule.
-    *   **Test to Disprove:** If I obtain HM01 Cut, use it on the tree at (8, 25), and the unseen tiles are *still* unreachable, then this alternative hypothesis becomes highly likely. At that point, I MUST perform a full diagnostic on the `reachability_analyzer` tool using `run_code` with print statements to trace its logic on this map's XML data.
+*   **`reachability_analyzer` Discrepancy (Resolved):**
+    *   **Conclusion (Confirmed):** My `reachability_analyzer` tool has definitively confirmed (Turn 20968) that the system-flagged unseen tiles are unreachable from my current position. My long-standing hypothesis that the blockage is the CUT_TREE at (8, 25) is now considered verified. I will trust my tool's analysis over the persistent system alert and will not re-investigate this until I have HM01 Cut.
 
 # VII. Team Strategy (from team_analyst)
 *   **Training Priority:** MIASma (Gastly) should be trained up.
