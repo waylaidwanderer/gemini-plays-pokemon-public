@@ -82,3 +82,4 @@
 
 # VII. Tool Development Pipeline
 *   **Task:** Define `reachability_analyzer` tool. **Priority:** CRITICAL. Must be done immediately after the current battle. **Purpose:** To systematically check if system-flagged unseen tiles are actually reachable, addressing the potential for `path_finder` flaws.
+*   **Farfetch'd Puzzle Tracking:** Use map markers to create a visual trail of the Farfetch'd's scripted path. Place a permanent marker at each old location before updating the main marker to its new position.
