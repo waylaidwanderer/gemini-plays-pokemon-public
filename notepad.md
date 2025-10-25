@@ -114,3 +114,4 @@
 # VII. Action Items (Continued)
 *   **Farfetch'd Puzzle Update (Turn 20702):** Step 4 confirmed! Interacting with the Farfetch'd at (15, 29) from the east at (16, 29) successfully moved it to (15, 25).
 *   **New Hypothesis:** Now that the bird is at (15, 25), all direct interactions seem to lead to a loop or a reset. My new hypothesis is that this is a checkpoint, and I must now speak to the apprentice at (7, 28) to trigger the next phase of the puzzle. I will travel there to test this.
+*   **Farfetch'd Puzzle Update (Turn 20706):** My hypothesis that speaking to the apprentice after moving the Farfetch'd to the checkpoint at (15, 25) would advance the quest was incorrect. He repeated his initial dialogue. New Hypothesis: Speaking to the apprentice might have triggered a change in the Farfetch'd's location. Plan: Return to (15, 25) to verify if the Farfetch'd is still there.
