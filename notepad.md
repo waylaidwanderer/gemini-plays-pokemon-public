@@ -97,3 +97,5 @@
 *   **Farfetch'd Puzzle (Alternative Hypothesis):** The bird's movement might be based purely on the number of interactions, not the direction of approach. **Test:** Next time, approach from a seemingly 'wrong' direction. If it moves to the same next point, this hypothesis is strengthened.
 
 **Farfetch'd Puzzle Reset (Turn 20421):** My hypothesis was partially correct. It is a scripted sequence, but the direction of interaction is critical. Interacting with the Farfetch'd at (20, 24) from the north (20, 23) was the incorrect move and caused the puzzle to reset, returning the Farfetch'd to its starting position at (29, 22). This confirms that a specific interaction vector is required for each step. **New Plan:** Restart the puzzle from the beginning at (29, 22), but this time, I will systematically test directions at each step to find the correct sequence.
+
+**Farfetch'd Puzzle Update (Turn 20524):** Step 2 confirmed! Interacting from the north at (28, 31) moves the Farfetch'd to (24, 35). Now proceeding to Step 3.
