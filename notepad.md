@@ -11,7 +11,7 @@
 *   **UI Unreliability:** The `TYPE/` display in battle can be incorrect (e.g., showing EKANS as Normal). Trust observed effectiveness messages over the UI.
 
 # II. Tile Traversal Rules
-*   **Traversable:** TALL_GRASS, LONG_GRASS, DOOR, WARP_CARPET_DOWN, WARP_CARPET_RIGHT, LADDER, FLOOR.
+*   **Traversable:** TALL_GRASS, LONG_GRASS, DOOR, WARP_CARPET_DOWN, LADDER, FLOOR.
 *   **Impassable (Verified):** WALL, WINDOW, CUT_TREE, SIGN, BOOKSHELF, BLACKBOARD, MART_SHELF, BUOY, TV, TOWN_MAP, BIRD, HEADBUTT_TREE, FRUIT_TREE, COMPUTER, PRINTER, VOID, WATER, CAVE, COUNTER.
 *   **Untested:** CUT_08, CUT_28_GARBAGE, RADIO, INCENSE_BURNER.
 *   **One-Way Traversal:**
@@ -20,7 +20,8 @@
     *   LEDGE_HOP_LEFT: Can only be entered from the right.
 *   **Special Interaction (Warp):**
     *   **CAVE:** Can act as a one-way warp. Route 33 (11, 9) -> Union Cave (17, 31). Route 32 (6, 79) -> Union Cave (17, 3).
-    *   **WARP_CARPET:** Activated by pressing the directional button of the warp (Left/Right/Down) while standing on the tile.
+    *   **WARP_CARPET_DOWN:** Activated by pressing Down while standing on the tile.
+    *   **WARP_CARPET_RIGHT:** Activated by pressing Right while standing on the tile.
 *   **Special Interaction (Walls/Floors):**
     *   **FLOOR_UP_WALL:** A one-way slide. Movement *from* this tile is only possible Down. Movement *onto* this tile is only possible by moving UP from a tile below (Y+1 -> Y).
     *   **Visual Ledges (FLOOR type):** Some FLOOR tiles are visually one-way ledges and are impassable from below. Verified at UnionCave1F, preventing movement from (7, 26) up to (7, 25).
@@ -47,7 +48,7 @@
 # IV. Story & Quests
 *   **Primary Quest: Obtain HM01 Cut**
     *   **Objective:** Receive HM01 Cut from the apprentice in Ilex Forest.
-    *   **Current Plan:** Systematically search the western section of the forest for the second Farfetch'd. The eastern section has been confirmed as unreachable from the current area.
+    *   **Current Plan:** Retry the Farfetch'd puzzle in the eastern section of the forest.
 *   **Secondary Quest: Complete Sprout Tower**
     *   **Objective:** Reach the top of Sprout Tower and defeat the Elder.
     *   **Status:** Blocked. Need to find the correct path up the western ladder system.
@@ -61,7 +62,7 @@
 # V. Puzzle Logs & Navigational Failures
 ## A. Ilex Forest Farfetch'd Puzzle
 *   **Objective:** Herd the Farfetch'd to the apprentice at (7, 28) to receive HM01 Cut.
-*   **Learnings:** The puzzle is a scripted sequence, not a simple push mechanic. Interacting with the Farfetch'd causes it to move to a new, predetermined location.
+*   **Learnings:** The puzzle is a scripted sequence, not a simple push mechanic. Interacting with the Farfetch'd causes it to move to a new, predetermined location. My assumption that the puzzle was solved was incorrect.
 *   **Strategy:** Use map markers to create a visual trail of the Farfetch'd's scripted path. Place a permanent marker at each old location before updating the main marker to its new position.
 
 ## B. Union Cave Navigation
@@ -81,5 +82,7 @@
 # VI. Untested Assumptions & Alternative Hypotheses
 *   **Farfetch'd Puzzle:** My current hypothesis is that interacting with the Farfetch'd from a specific direction pushes it in the opposite direction. **Alternative Hypothesis:** The Farfetch'd's movement is a fixed, scripted sequence, and each interaction simply advances it to the next point on its path, regardless of my approach vector. **Test:** If approaching from the south (15, 26) does not push it north, the 'push' hypothesis is weakened or incorrect.
 
-*   **`reachability_analyzer` Discrepancy:** My current conclusion is that the tool is correct and the system-flagged unseen tiles are unreachable due to an unseen obstacle like a one-way ledge. **Alternative Hypothesis:** The tool's A* or map parsing logic still contains a subtle flaw that fails on this specific map's layout, possibly missing a traversable tile type or special movement rule. **Test:** The only definitive test would be an exhaustive manual exploration of all paths leading toward the flagged coordinates, which is currently inefficient. I will proceed by trusting the tool but remain aware of this alternative possibility.
-*   **`path_finder` Discrepancy:** The tool consistently reports 'No path found' for the western unseen tiles flagged by the system alert. **Alternative Hypothesis:** The pathfinding logic may have a subtle flaw, possibly related to an un-documented tile interaction specific to this area. **Test:** A definitive test would require manual exploration of all possible paths, which is currently inefficient. I will trust the tool but remain aware of this possibility.
+*   **`reachability_analyzer` Discrepancy:**
+    *   **Current Conclusion:** The tool is correct. The system-flagged unseen tiles are unreachable due to an unseen obstacle, most likely the `CUT_TREE` at (8, 25).
+    *   **Alternative Hypothesis:** The tool's A* or map parsing logic contains a subtle flaw that fails on this specific map's layout, possibly missing a traversable tile type or special movement rule.
+    *   **Test to Disprove:** If I obtain HM01 Cut, use it on the tree at (8, 25), and the unseen tiles are *still* unreachable, then this alternative hypothesis becomes highly likely. At that point, I MUST perform a full diagnostic on the `reachability_analyzer` tool using `run_code` with print statements to trace its logic on this map's XML data.
