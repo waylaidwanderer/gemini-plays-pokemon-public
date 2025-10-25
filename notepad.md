@@ -11,7 +11,7 @@
 *   **UI Unreliability:** The `TYPE/` display in battle can be incorrect (e.g., showing EKANS as Normal). Trust observed effectiveness messages over the UI.
 
 # II. Tile Traversal Rules
-*   **Traversable:** TALL_GRASS, LONG_GRASS, DOOR, WARP_CARPET_DOWN, LADDER, FLOOR.
+*   **Traversable:** TALL_GRASS, LONG_GRASS, DOOR, WARP_CARPET_DOWN, LADDER, FLOOR, WARP_CARPET_RIGHT.
 *   **Impassable (Verified):** WALL, WINDOW, CUT_TREE, SIGN, BOOKSHELF, BLACKBOARD, MART_SHELF, BUOY, TV, TOWN_MAP, BIRD, HEADBUTT_TREE, FRUIT_TREE, COMPUTER, PRINTER, VOID, WATER, CAVE, COUNTER.
 *   **Untested:** CUT_08, CUT_28_GARBAGE, RADIO, INCENSE_BURNER.
 *   **One-Way Traversal:**
@@ -48,7 +48,7 @@
 # IV. Story & Quests
 *   **Primary Quest: Obtain HM01 Cut**
     *   **Objective:** Receive HM01 Cut from the apprentice in Ilex Forest.
-    *   **Current Plan:** Retry the Farfetch'd puzzle in the eastern section of the forest.
+    *   **Current Plan:** Retry the Farfetch'd puzzle in the eastern section of the forest using a systematic, multi-marker approach.
 *   **Secondary Quest: Complete Sprout Tower**
     *   **Objective:** Reach the top of Sprout Tower and defeat the Elder.
     *   **Status:** Blocked. Need to find the correct path up the western ladder system.
@@ -86,3 +86,7 @@
     *   **Current Conclusion:** The tool is correct. The system-flagged unseen tiles are unreachable due to an unseen obstacle, most likely the `CUT_TREE` at (8, 25).
     *   **Alternative Hypothesis:** The tool's A* or map parsing logic contains a subtle flaw that fails on this specific map's layout, possibly missing a traversable tile type or special movement rule.
     *   **Test to Disprove:** If I obtain HM01 Cut, use it on the tree at (8, 25), and the unseen tiles are *still* unreachable, then this alternative hypothesis becomes highly likely. At that point, I MUST perform a full diagnostic on the `reachability_analyzer` tool using `run_code` with print statements to trace its logic on this map's XML data.
+
+# VII. Process Failures & Course Corrections
+*   **Delayed Data Management (Turn 19603-19665):** Repeatedly failed to follow the "Immediate Action" principle. I identified that the Farfetch'd puzzle was unsolved but did not update my notepad or strategy for over 10 turns. This led to wasted time operating on a failed hypothesis. **Correction:** All data management (notepad, markers, agent/tool fixes) MUST be the first action in any turn where a new discovery is made.
+*   **Failure to Implement Strategy (Turn 19615-19665):** Devised a sound multi-marker strategy for the Farfetch'd puzzle in my notepad but failed to execute it, instead resorting to brute-force attempts. This was correctly identified by the Overwatch system. **Correction:** I must trust and follow my own documented plans. If a plan exists in the notepad, it must be the primary guide for my actions.
