@@ -48,7 +48,7 @@
 # IV. Story & Quests
 *   **Primary Quest: Obtain HM01 Cut**
     *   **Objective:** Receive HM01 Cut from the apprentice in Ilex Forest.
-    *   **Current Plan:** My manual approach has been inefficient. I have now confirmed the puzzle is a scripted sequence. I must use my `puzzle_solver_agent` to determine the correct sequence of interactions.
+    *   **Current Plan:** My manual approach has been inefficient. I have now confirmed the puzzle is a scripted sequence. My current plan is to follow the scripted sequence I have discovered.
     *   **Contingency:** If 3 more systematic, agent-guided attempts to solve this puzzle fail, I will pivot my primary goal to 'Explore towards Goldenrod City' and find an alternate route.
 *   **Secondary Quest: Complete Sprout Tower**
     *   **Objective:** Reach the top of Sprout Tower and defeat the Elder.
