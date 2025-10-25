@@ -98,16 +98,6 @@
 ## B. Major Navigation Failures (Summary)
 *   Wasted significant time due to confirmation bias, brute-force navigation, and failing to trust tool outputs or my own documented discoveries (e.g., one-way ledges, impassable water gaps). Key failures occurred in Ilex Forest, Azalea Town, Slowpoke Well, Route 33, and Union Cave.
 
-# VI. Untested Assumptions & Alternative Hypotheses (Refactored)
-*   **Farfetch'd Puzzle:**
-    *   **Current Assumption:** The puzzle has a single, fixed, correct solution sequence.
-    *   **Alternative Hypothesis:** The puzzle's state might be influenced by an external factor (e.g., time of day, steps taken).
-    *   **Test to Disprove:** If re-executing the known correct sequence fails, this assumption is incorrect.
-*   **`reachability_analyzer` Discrepancy:**
-    *   **Current Conclusion (Confirmed):** The tool has repeatedly confirmed system-flagged unseen tiles are unreachable, blocked by the CUT_TREE at (8, 25). I will trust my tool over the alert until I have Cut.
-    *   **Alternative Hypothesis:** The tool's A* logic contains a subtle flaw for this specific map.
-    *   **Test to Disprove:** If I obtain Cut, use it on the tree, and the tiles are *still* unreachable, the tool is flawed and requires immediate debugging.
-
 # VII. Action Items
 *   Redefine Farfetch'd and Apprentice map markers with their `object_id`s as soon as they are visible on screen. Current static markers have been deleted.
 
