@@ -48,7 +48,7 @@
 # IV. Story & Quests
 *   **Primary Quest: Obtain HM01 Cut**
     *   **Objective:** Receive HM01 Cut from the apprentice in Ilex Forest.
-    *   **Current Plan:** The multi-marker approach failed. The apprentice's dialogue is unchanged, confirming the puzzle is not solved. I must return to the eastern part of the forest to find the Farfetch'd and re-evaluate the puzzle mechanics from scratch.
+    *   **Current Plan:** My manual approach has been inefficient. I have now confirmed the puzzle is a scripted sequence. I must use my `puzzle_solver_agent` to determine the correct sequence of interactions.
 *   **Secondary Quest: Complete Sprout Tower**
     *   **Objective:** Reach the top of Sprout Tower and defeat the Elder.
     *   **Status:** Blocked. Need to find the correct path up the western ladder system.
@@ -62,8 +62,8 @@
 # V. Puzzle Logs & Navigational Failures
 ## A. Ilex Forest Farfetch'd Puzzle
 *   **Objective:** Herd the Farfetch'd to the apprentice at (7, 28) to receive HM01 Cut.
-*   **Learnings:** The puzzle is a scripted sequence, not a simple push mechanic. Interacting with the Farfetch'd causes it to move to a new, predetermined location. My assumption that the puzzle was solved was incorrect.
-*   **Strategy:** Use map markers to create a visual trail of the Farfetch'd's scripted path. Place a permanent marker at each old location before updating the main marker to its new position.
+*   **Learnings:** The puzzle is a scripted sequence, not a simple push mechanic. Interacting with the Farfetch'd and then clearing the dialogue causes it to move to a new, predetermined location.
+*   **Strategy:** Use map markers to create a visual trail of the Farfetch'd's scripted path. **Going forward, I MUST use my `puzzle_solver_agent` to determine the optimal next interaction, as per the Overwatch critique.**
 
 ## B. Union Cave Navigation
 *   **History & Learnings:** Wasted ~65 turns assuming `path_finder` was broken instead of trusting its 'No path found' output, which correctly identified that the southern and northern sections of UnionCave1F are separated by water.
@@ -88,5 +88,5 @@
     *   **Test to Disprove:** If I obtain HM01 Cut, use it on the tree at (8, 25), and the unseen tiles are *still* unreachable, then this alternative hypothesis becomes highly likely. At that point, I MUST perform a full diagnostic on the `reachability_analyzer` tool using `run_code` with print statements to trace its logic on this map's XML data.
 
 # VII. Process Failures & Course Corrections
-*   **Delayed Data Management (Turn 19603-19665):** Repeatedly failed to follow the "Immediate Action" principle. I identified that the Farfetch'd puzzle was unsolved but did not update my notepad or strategy for over 10 turns. This led to wasted time operating on a failed hypothesis. **Correction:** All data management (notepad, markers, agent/tool fixes) MUST be the first action in any turn where a new discovery is made.
-*   **Failure to Implement Strategy (Turn 19615-19665):** Devised a sound multi-marker strategy for the Farfetch'd puzzle in my notepad but failed to execute it, instead resorting to brute-force attempts. This was correctly identified by the Overwatch system. **Correction:** I must trust and follow my own documented plans. If a plan exists in the notepad, it must be the primary guide for my actions.
+*   **Delayed Data Management (Turn 19603-19665 & 19734):** Repeatedly failed to follow the "Immediate Action" principle. I identified that the Farfetch'd puzzle was unsolved but did not update my notepad or strategy for multiple turns. This led to wasted time operating on a failed hypothesis. This was correctly identified by the Overwatch system. **Correction:** All data management (notepad, markers, agent/tool fixes) MUST be the first action in any turn where a new discovery is made.
+*   **Failure to Implement Strategy / Use Tools (Turn 19615-19774):** Devised a sound multi-marker strategy for the Farfetch'd puzzle in my notepad but failed to execute it, instead resorting to brute-force attempts. More critically, I failed to use my purpose-built `puzzle_solver_agent` for this exact task. This was correctly identified by the Overwatch system. **Correction:** I must trust and follow my own documented plans and use the specialized agents I have created. If a plan exists or an agent is available, it must be the primary guide for my actions.
