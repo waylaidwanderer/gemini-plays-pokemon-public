@@ -65,7 +65,7 @@
 *   **Objective:** Herd the Farfetch'd to the apprentice at (7, 28) to receive HM01 Cut.
 *   **Learnings:** The puzzle has reset after multiple failed attempts. My previous `puzzle_solver_agent` was fundamentally flawed and has been deleted per Overwatch critique. My assumption that the Farfetch'd would reset to a mid-puzzle location was also incorrect, as it was not at (22, 31).
 *   **Current Hypothesis:** The puzzle has fully reset, and the Farfetch'd has returned to its initial starting position at (29, 22).
-*   **Current Plan:** After this wild battle, navigate to the area around (29, 22) to verify if the Farfetch'd is there. If it is, I will begin testing a simple 'push' mechanic hypothesis.
+*   **Current Plan:** After this wild battle, navigate to the area around (29, 22) to verify if the Farfetch'd is there. If it is, I have tested the 'push' mechanic hypothesis by interacting from the south (29, 23). The test failed; the Farfetch'd did not move. My new hypothesis is that the puzzle is a scripted sequence requiring interaction from a specific direction to trigger movement. My next test will be to interact from the west, at (28, 22).
 
 ## B. Union Cave Navigation
 *   **History & Learnings:** Wasted ~65 turns assuming `path_finder` was broken instead of trusting its 'No path found' output, which correctly identified that the southern and northern sections of UnionCave1F are separated by water.
