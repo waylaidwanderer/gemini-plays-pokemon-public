@@ -93,3 +93,6 @@
 # VII. Puzzle Progress & Hypotheses
 *   **Farfetch'd Puzzle Update (Turn 20702):** Step 4 confirmed! Interacting with the Farfetch'd at (15, 29) from the east at (16, 29) successfully moved it to (15, 25).
 *   **New Hypothesis:** Now that the bird is at (15, 25), all direct interactions seem to lead to a loop or a reset. My new hypothesis is that this is a checkpoint, and I must now speak to the apprentice at (7, 28) to trigger the next phase of the puzzle. I will travel there to test this.
+
+# VIII. Reflection (Turn 20811)
+*   **Farfetch'd Puzzle Untested Assumption:** My main conclusion is that the puzzle is a fixed, scripted sequence where interaction direction is key. **Alternative Hypothesis:** The puzzle's state is also influenced by another hidden factor, such as time of day, an item in my bag, or the state of another NPC. **Test to Disprove:** If I follow my documented "correct" sequence and it fails, this alternative hypothesis is strengthened.
