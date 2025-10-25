@@ -90,9 +90,6 @@
     *   At (20, 24), interacting from East (21, 24) causes a full reset.
     *   At (15, 25), interacting from South (15, 26) causes a unique reset to (20, 24).
 
-# VII. Action Items
-*   Redefine Farfetch'd and Apprentice map markers with their `object_id`s as soon as they are visible on screen. Current static markers have been deleted.
-
-# VII. Action Items (Continued)
+# VII. Puzzle Progress & Hypotheses
 *   **Farfetch'd Puzzle Update (Turn 20702):** Step 4 confirmed! Interacting with the Farfetch'd at (15, 29) from the east at (16, 29) successfully moved it to (15, 25).
 *   **New Hypothesis:** Now that the bird is at (15, 25), all direct interactions seem to lead to a loop or a reset. My new hypothesis is that this is a checkpoint, and I must now speak to the apprentice at (7, 28) to trigger the next phase of the puzzle. I will travel there to test this.
