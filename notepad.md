@@ -31,6 +31,8 @@
 
 # III. Battle Information
 ## A. Verified Type Matchups
+*   Fire is SUPER-EFFECTIVE against Bug.
+*   Fire is SUPER-EFFECTIVE against Grass.
 *   Ghost has NO EFFECT on Normal.
 *   Normal has NO EFFECT on Ghost.
 *   Grass is NOT VERY EFFECTIVE against Fire.
@@ -59,7 +61,8 @@
 # V. Puzzle Logs & Navigational Failures
 ## A. Ilex Forest Farfetch'd Puzzle
 *   **Objective:** Herd the Farfetch'd to the apprentice at (7, 28) to receive HM01 Cut.
-*   **History & Learnings:** An early hypothesis of simple herding was invalidated when a custom tool returned 'No path found', proving the puzzle is more complex.
+*   **Learnings:** The puzzle is a scripted sequence, not a simple push mechanic. Interacting with the Farfetch'd causes it to move to a new, predetermined location.
+*   **Strategy:** Use map markers to create a visual trail of the Farfetch'd's scripted path. Place a permanent marker at each old location before updating the main marker to its new position.
 
 ## B. Union Cave Navigation
 *   **History & Learnings:** Wasted ~65 turns assuming `path_finder` was broken instead of trusting its 'No path found' output, which correctly identified that the southern and northern sections of UnionCave1F are separated by water.
@@ -71,15 +74,12 @@
 *   **Route 33 (Turn 17878):** Confirmed via `path_finder` that the path west to Azalea Town from the Union Cave exit is IMPOSSIBLE due to impassable ledges.
 *   **Union Cave B1F (via ladder at 1F (5, 19)):** Confirmed via `path_finder` that this ladder leads to a small, isolated platform and is a dead end.
 *   **Route 32 (Turns ~18059-18060):** Wasted several turns trying to path south to Union Cave entrance (6, 79), forgetting my own documented discovery that the route contains one-way ledges.
+
 ## D. Tool Discrepancy Log
 *   **Ilex Forest (Turns 19212 & 19468):** My custom `reachability_analyzer` tool has now twice confirmed that the system-flagged unseen tiles ((7, 21), (9, 21), (0, 23), etc.) are unreachable from my current position. The tool's consistent '[]' output provides strong evidence that an unseen obstacle (likely a one-way ledge or a path requiring Cut) is blocking the way. I will trust my tool's analysis over the persistent system alert and proceed with my primary goal.
 
-## VI. Untested Assumptions & Alternative Hypotheses
+# VI. Untested Assumptions & Alternative Hypotheses
 *   **Farfetch'd Puzzle:** My current hypothesis is that interacting with the Farfetch'd from a specific direction pushes it in the opposite direction. **Alternative Hypothesis:** The Farfetch'd's movement is a fixed, scripted sequence, and each interaction simply advances it to the next point on its path, regardless of my approach vector. **Test:** If approaching from the south (15, 26) does not push it north, the 'push' hypothesis is weakened or incorrect.
 
 *   **`reachability_analyzer` Discrepancy:** My current conclusion is that the tool is correct and the system-flagged unseen tiles are unreachable due to an unseen obstacle like a one-way ledge. **Alternative Hypothesis:** The tool's A* or map parsing logic still contains a subtle flaw that fails on this specific map's layout, possibly missing a traversable tile type or special movement rule. **Test:** The only definitive test would be an exhaustive manual exploration of all paths leading toward the flagged coordinates, which is currently inefficient. I will proceed by trusting the tool but remain aware of this alternative possibility.
 *   **`path_finder` Discrepancy:** The tool consistently reports 'No path found' for the western unseen tiles flagged by the system alert. **Alternative Hypothesis:** The pathfinding logic may have a subtle flaw, possibly related to an un-documented tile interaction specific to this area. **Test:** A definitive test would require manual exploration of all possible paths, which is currently inefficient. I will trust the tool but remain aware of this possibility.
-
-# VII. Tool Development Pipeline
-*   **Task:** Define `reachability_analyzer` tool. **Priority:** CRITICAL. Must be done immediately after the current battle. **Purpose:** To systematically check if system-flagged unseen tiles are actually reachable, addressing the potential for `path_finder` flaws.
-*   **Farfetch'd Puzzle Tracking:** Use map markers to create a visual trail of the Farfetch'd's scripted path. Place a permanent marker at each old location before updating the main marker to its new position.
