@@ -87,7 +87,7 @@
     *   **Step 5:** Interact from North at (15, 24) -> Moves bird from (15, 25) to (15, 29).
 *   **Known Incorrect Moves:**
     *   At (20, 24), interacting from East (21, 24) causes a full reset.
-    *   At (15, 25), interacting from South (15, 26) causes a unique reset to (20, 24).
+    *   Hypothesis: At (15, 25), interacting from South (15, 26) moves bird to (20, 24). Testing if this is the next step.
 
 # VII. Puzzle Progress & Hypotheses
 *   **Farfetch'd Puzzle Update (Turn 20702):** Step 4 confirmed! Interacting with the Farfetch'd at (15, 29) from the east at (16, 29) successfully moved it to (15, 25).
