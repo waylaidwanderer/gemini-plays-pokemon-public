@@ -48,8 +48,8 @@
 # IV. Story & Quests
 *   **Primary Quest: Obtain HM01 Cut**
     *   **Objective:** Receive HM01 Cut from the apprentice in Ilex Forest.
-    *   **Current Plan:** My manual approach has been inefficient. I have now confirmed the puzzle is a scripted sequence. My current plan is to follow the scripted sequence I have discovered.
-    *   **Contingency:** If 3 more systematic, agent-guided attempts to solve this puzzle fail, I will pivot my primary goal to 'Explore towards Goldenrod City' and find an alternate route.
+    *   **Current Plan:** After getting stuck in a hallucination loop and repeatedly failing to restart the puzzle, my new plan is to leave the forest entirely to force a hard reset of the puzzle state.
+    *   **Contingency:** If a full map reset does not work, I will pivot my primary goal to 'Explore towards Goldenrod City' and find an alternate route.
 *   **Secondary Quest: Complete Sprout Tower**
     *   **Objective:** Reach the top of Sprout Tower and defeat the Elder.
     *   **Status:** Blocked. Need to find the correct path up the western ladder system.
@@ -60,20 +60,7 @@
     *   WADE (Route 31): Will share BERRIES.
     *   Hiker Anthony (Phone): Tons of DUNSPARCE in DARK CAVE.
 
-# VI. Untested Assumptions & Alternative Hypotheses
-*   **Farfetch'd Puzzle:** My current hypothesis is that interacting with the Farfetch'd from a specific direction pushes it in the opposite direction. **Alternative Hypothesis:** The Farfetch'd's movement is a fixed, scripted sequence, and each interaction simply advances it to the next point on its path, regardless of my approach vector. **Test:** If approaching from the south (15, 26) does not push it north, the 'push' hypothesis is weakened or incorrect.
-
-*   **`reachability_analyzer` Discrepancy:**
-    *   **Current Conclusion (Confirmed):** The reachability_analyzer tool has repeatedly and correctly confirmed that the system-flagged unseen tiles are unreachable from my current position. The blockage is almost certainly the CUT_TREE at (8, 25). I will trust my tool's analysis over the persistent system alert and will not re-investigate this until I have HM01 Cut.
-    *   **Alternative Hypothesis:** The tool's A* or map parsing logic contains a subtle flaw that fails on this specific map's layout, possibly missing a traversable tile type or special movement rule.
-    *   **Test to Disprove:** If I obtain HM01 Cut, use it on the tree at (8, 25), and the unseen tiles are *still* unreachable, then this alternative hypothesis becomes highly likely. At that point, I MUST perform a full diagnostic on the `reachability_analyzer` tool using `run_code` with print statements to trace its logic on this map's XML data.
-
-**Farfetch'd Puzzle Update (Turn 20043):** My prediction for Step 5 was incorrect. The Farfetch'd moved to (15, 29), not (15, 25). This disproves a simple linear path. The sequence is more complex.
-*   **Farfetch'd Puzzle (Alternative Hypothesis):** The bird's movement might be based purely on the number of interactions, not the direction of approach. **Test:** Next time, approach from a seemingly 'wrong' direction. If it moves to the same next point, this hypothesis is strengthened.
-
-**Farfetch'd Puzzle Reset (Turn 20421):** My hypothesis was partially correct. It is a scripted sequence, but the direction of interaction is critical. Interacting with the Farfetch'd at (20, 24) from the north (20, 23) was the incorrect move and caused the puzzle to reset, returning the Farfetch'd to its starting position at (29, 22). This confirms that a specific interaction vector is required for each step. **New Plan:** Restart the puzzle from the beginning at (29, 22), but this time, I will systematically test directions at each step to find the correct sequence.
-
-# V. Puzzle Logs & Navigational Failures (Refactored)
+# V. Puzzle Logs & Navigational Failures
 ## A. Ilex Forest Farfetch'd Puzzle
 *   **Objective:** Herd the Farfetch'd to the apprentice at (7, 28).
 *   **Puzzle Mechanics (Confirmed):** The puzzle is a scripted sequence. Interaction from a specific direction is required for each step. An incorrect interaction can cause a partial or full reset.
@@ -84,14 +71,18 @@
     *   **Step 2:** Interact from South at (28, 32) -> Moves bird from (28, 31) to (24, 35).
     *   **Step 3:** Interact from North at (24, 34) -> Moves bird from (24, 35) to (15, 29).
     *   **Step 4:** Interact from East at (16, 29) -> Moves bird from (15, 29) to (15, 25).
-    *   Step 6: Interact from South at (15, 26) -> Moves bird from (15, 25) to (20, 24).
+    *   **Step 5:** Interact from North at (15, 24) -> Moves bird from (15, 25) to (15, 29).
+    *   **Step 6:** Interact from South at (15, 26) -> Moves bird from (15, 25) to (20, 24).
 *   **Confirmed Reset:** Re-testing the interaction from the East at (21, 24) after correctly completing Step 6 confirmed that this move ALWAYS causes a full puzzle reset. This is a confirmed incorrect move for this stage of the puzzle.
 
-# VII. Puzzle Progress & Hypotheses
-*   **Farfetch'd Puzzle Update (Turn 20702):** Step 4 confirmed! Interacting with the Farfetch'd at (15, 29) from the east at (16, 29) successfully moved it to (15, 25).
-*   **New Hypothesis:** Now that the bird is at (15, 25), all direct interactions seem to lead to a loop or a reset. My new hypothesis is that this is a checkpoint, and I must now speak to the apprentice at (7, 28) to trigger the next phase of the puzzle. I will travel there to test this.
+# VI. Untested Assumptions & Alternative Hypotheses
+*   **Farfetch'd Puzzle Loop (Turn 20883):** After getting stuck in a severe hallucination loop at (29, 22), my attempts to restart the puzzle by interacting with the empty tile at (29, 22) failed. **Alternative Hypothesis:** The puzzle may require the player to leave the map entirely and re-enter to trigger a hard reset of the Farfetch'd's position. **Test:** Leave Ilex Forest, re-enter, and check the starting position at (29, 22).
+*   **`reachability_analyzer` Discrepancy:**
+    *   **Current Conclusion (Confirmed):** The reachability_analyzer tool has repeatedly and correctly confirmed that the system-flagged unseen tiles are unreachable from my current position. The blockage is almost certainly the CUT_TREE at (8, 25). I will trust my tool's analysis over the persistent system alert and will not re-investigate this until I have HM01 Cut.
+    *   **Alternative Hypothesis:** The tool's A* or map parsing logic contains a subtle flaw that fails on this specific map's layout, possibly missing a traversable tile type or special movement rule.
+    *   **Test to Disprove:** If I obtain HM01 Cut, use it on the tree at (8, 25), and the unseen tiles are *still* unreachable, then this alternative hypothesis becomes highly likely. At that point, I MUST perform a full diagnostic on the `reachability_analyzer` tool using `run_code` with print statements to trace its logic on this map's XML data.
 
-# IX. Team Strategy (from team_analyst)
+# VII. Team Strategy (from team_analyst)
 *   **Training Priority:** MIASma (Gastly) should be trained up.
 *   **Move Optimization:** Replace Vulcan's EMBER with a better coverage move. Conserve MIASma's HYPNOSIS. Level Gambit via switching.
 *   **Team Weaknesses:** Critical weakness to Water-types. Lack of coverage for Rock, Ground, or Psychic types.
