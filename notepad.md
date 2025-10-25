@@ -85,7 +85,7 @@
     *   **Step 3:** Interact from North at (24, 34) -> Moves bird from (24, 35) to (15, 29).
     *   **Step 4:** Interact from East at (16, 29) -> Moves bird from (15, 29) to (15, 25).
     *   Step 6: Interact from South at (15, 26) -> Moves bird from (15, 25) to (20, 24).
-*   **Re-evaluation:** Previously, interacting from East at (21, 24) caused a full reset. This may have been due to an incorrect puzzle state. **New Hypothesis:** Now that the sequence is correct, interacting from (21, 24) is the next logical step to push the bird west. Re-testing this now.
+*   **Confirmed Reset:** Re-testing the interaction from the East at (21, 24) after correctly completing Step 6 confirmed that this move ALWAYS causes a full puzzle reset. This is a confirmed incorrect move for this stage of the puzzle.
 
 # VII. Puzzle Progress & Hypotheses
 *   **Farfetch'd Puzzle Update (Turn 20702):** Step 4 confirmed! Interacting with the Farfetch'd at (15, 29) from the east at (16, 29) successfully moved it to (15, 25).
