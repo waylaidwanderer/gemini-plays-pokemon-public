@@ -86,7 +86,7 @@
 *   **Farfetch'd Puzzle:** My current hypothesis is that interacting with the Farfetch'd from a specific direction pushes it in the opposite direction. **Alternative Hypothesis:** The Farfetch'd's movement is a fixed, scripted sequence, and each interaction simply advances it to the next point on its path, regardless of my approach vector. **Test:** If approaching from the south (15, 26) does not push it north, the 'push' hypothesis is weakened or incorrect.
 
 *   **`reachability_analyzer` Discrepancy:**
-    *   **Current Conclusion:** The tool is correct. The system-flagged unseen tiles are unreachable due to an unseen obstacle, most likely the `CUT_TREE` at (8, 25).
+    *   **Current Conclusion (Confirmed):** The reachability_analyzer tool has repeatedly and correctly confirmed that the system-flagged unseen tiles are unreachable from my current position. The blockage is almost certainly the CUT_TREE at (8, 25). I will trust my tool's analysis over the persistent system alert and will not re-investigate this until I have HM01 Cut.
     *   **Alternative Hypothesis:** The tool's A* or map parsing logic contains a subtle flaw that fails on this specific map's layout, possibly missing a traversable tile type or special movement rule.
     *   **Test to Disprove:** If I obtain HM01 Cut, use it on the tree at (8, 25), and the unseen tiles are *still* unreachable, then this alternative hypothesis becomes highly likely. At that point, I MUST perform a full diagnostic on the `reachability_analyzer` tool using `run_code` with print statements to trace its logic on this map's XML data.
 
