@@ -69,7 +69,7 @@
 *   **Known Correct Sequence:**
     *   **Step 1:** Interact from West at (28, 22) -> Moves bird from (29, 22) to (28, 31).
     *   **Step 2:** Interact from South at (28, 32) -> Moves bird from (28, 31) to (24, 35).
-    *   **Step 3 (Hypothesis Failure x2):** The bird was not at (24, 35) or (15, 29). New hypothesis: the bird is at (20, 24). I will investigate this location next.
+    *   **Step 3 (Hypothesis Failure x3):** The bird was not at (24, 35), (15, 29), or (20, 24). The puzzle logic is clearly misunderstood. New hypothesis: The puzzle has fully reset. I will return to the starting position (29, 22) to verify.
     *   **Step 4:** Interact from East at (16, 29) -> Moves bird from (15, 29) to (15, 25).
     *   **Step 5:** Interact from South at (15, 26) -> Moves bird from (15, 25) to (20, 24).
 *   **Confirmed Reset:** Re-testing the interaction from the East at (21, 24) after correctly completing Step 6 confirmed that this move ALWAYS causes a full puzzle reset. This is a confirmed incorrect move for this stage of the puzzle.
