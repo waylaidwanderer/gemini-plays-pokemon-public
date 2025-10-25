@@ -13,7 +13,7 @@
 *   **Tool Correctness over Intuition:** A 'No path found' result is data, not a bug. Trust the tool's conclusion that a path is impassable.
 
 # II. Tile Traversal Rules
-*   **Traversable:** TALL_GRASS, LONG_GRASS, DOOR, WARP_CARPET_DOWN, LADDER, FLOOR.
+*   **Traversable:** TALL_GRASS, LONG_GRASS, DOOR, WARP_CARPET_DOWN, WARP_CARPET_RIGHT, LADDER, FLOOR.
 *   **Impassable (Verified):** WALL, WINDOW, CUT_TREE, SIGN, BOOKSHELF, BLACKBOARD, MART_SHELF, BUOY, TV, TOWN_MAP, BIRD, HEADBUTT_TREE, FRUIT_TREE, COMPUTER, PRINTER, VOID, WATER, CAVE, COUNTER.
 *   **Untested:** CUT_08, CUT_28_GARBAGE, RADIO, INCENSE_BURNER.
 *   **One-Way Traversal:**
