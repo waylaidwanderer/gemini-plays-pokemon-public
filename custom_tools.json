@@ -137,5 +137,27 @@
         "action_counter": 19466
       }
     ]
+  },
+  "find_object_by_id_name": {
+    "description": "Finds a map object by its internal id-name (e.g., 'MOLTRES') and returns its coordinates. Returns null if the object is not on screen.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "id_name": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "id_name"
+      ]
+    },
+    "python_script": "import xml.etree.ElementTree as ET\nimport json\n\nroot = ET.fromstring(map_xml_string)\nobject_id_name_to_find = input_data['id_name']\nfound_object = None\n\nfor row_elem in root.findall('Row'):\n    for tile_elem in row_elem.findall('Tile'):\n        object_elem = tile_elem.find('Object')\n        if object_elem is not None and object_elem.attrib.get('id-name') == object_id_name_to_find:\n            coords = tile_elem.attrib['coordinate'].strip('()').split(', ')\n            found_object = {'x': int(coords[0]), 'y': int(coords[1])}\n            break\n    if found_object:\n        break\n\nif found_object:\n    print(json.dumps(found_object))\nelse:\n    print('null')",
+    "history": [
+      {
+        "commit_message": "feat: Create find_object_by_id_name tool. This general-purpose tool scans the map XML for an object with a specific internal id-name and returns its coordinates. This was created in response to the turn 19978 critique to automate the repetitive task of searching for the Farfetch'd ('MOLTRES') in Ilex Forest.",
+        "timestamp": "2025-10-25T12:55:39.866Z",
+        "action_counter": 19978
+      }
+    ]
   }
 }
