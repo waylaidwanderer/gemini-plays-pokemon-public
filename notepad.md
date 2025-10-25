@@ -71,3 +71,5 @@
 *   **Route 33 (Turn 17878):** Confirmed via `path_finder` that the path west to Azalea Town from the Union Cave exit is IMPOSSIBLE due to impassable ledges.
 *   **Union Cave B1F (via ladder at 1F (5, 19)):** Confirmed via `path_finder` that this ladder leads to a small, isolated platform and is a dead end.
 *   **Route 32 (Turns ~18059-18060):** Wasted several turns trying to path south to Union Cave entrance (6, 79), forgetting my own documented discovery that the route contains one-way ledges.
+## D. Tool Discrepancy Log
+*   **Ilex Forest (Turn 19212):** `reachability_analyzer` consistently returns 'No path found' for unseen tiles (7, 21), (9, 21), (0, 23), (1, 23), (2, 23), (3, 23), despite a persistent system alert suggesting they are potentially reachable. The tool was updated to handle impassable targets by pathing to adjacent tiles, but the result remains negative. Concluding that the tool is correct and the tiles are currently unreachable, possibly due to unseen one-way ledges or other obstacles.
