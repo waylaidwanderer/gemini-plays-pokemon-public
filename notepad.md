@@ -76,7 +76,10 @@
 *   **Confirmed Reset:** Re-testing the interaction from the East at (21, 24) after correctly completing Step 6 confirmed that this move ALWAYS causes a full puzzle reset. This is a confirmed incorrect move for this stage of the puzzle.
 
 # VI. Untested Assumptions & Alternative Hypotheses
-*   **Farfetch'd Puzzle Loop (Turn 20883):** After getting stuck in a severe hallucination loop at (29, 22), my attempts to restart the puzzle by interacting with the empty tile at (29, 22) failed. **Alternative Hypothesis:** The puzzle may require the player to leave the map entirely and re-enter to trigger a hard reset of the Farfetch'd's position. **Test:** Leave Ilex Forest, re-enter, and check the starting position at (29, 22).
+*   **Farfetch'd Puzzle Reset (Tested Turn 20915):**
+    *   **Hypothesis:** Leaving and re-entering Ilex Forest will cause a hard reset of the Farfetch'd puzzle, returning the bird to its starting position (29, 22).
+    *   **Test:** I left the forest via the gatehouse and immediately re-entered.
+    *   **Conclusion:** The hypothesis was **false**. The Farfetch'd did not return to (29, 22). Instead, the puzzle state reverted to a mid-point, with the Farfetch'd at (15, 25). This indicates leaving the map causes a partial, not a full, reset.
 *   **`reachability_analyzer` Discrepancy:**
     *   **Current Conclusion (Confirmed):** The reachability_analyzer tool has repeatedly and correctly confirmed that the system-flagged unseen tiles are unreachable from my current position. The blockage is almost certainly the CUT_TREE at (8, 25). I will trust my tool's analysis over the persistent system alert and will not re-investigate this until I have HM01 Cut.
     *   **Alternative Hypothesis:** The tool's A* or map parsing logic contains a subtle flaw that fails on this specific map's layout, possibly missing a traversable tile type or special movement rule.
