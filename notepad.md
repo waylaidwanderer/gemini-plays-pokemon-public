@@ -98,6 +98,6 @@
 
 **Farfetch'd Puzzle Reset (Turn 20421):** My hypothesis was partially correct. It is a scripted sequence, but the direction of interaction is critical. Interacting with the Farfetch'd at (20, 24) from the north (20, 23) was the incorrect move and caused the puzzle to reset, returning the Farfetch'd to its starting position at (29, 22). This confirms that a specific interaction vector is required for each step. **New Plan:** Restart the puzzle from the beginning at (29, 22), but this time, I will systematically test directions at each step to find the correct sequence.
 
-**Farfetch'd Puzzle Update (Turn 20524):** Step 2 confirmed! Interacting from the north at (28, 31) moves the Farfetch'd to (24, 35). Now proceeding to Step 3.
+**Farfetch'd Puzzle Update (Turn 20607):** Step 2 confirmed! Interacting from the north at (28, 31) moves the Farfetch'd to (24, 35). Now proceeding to Step 3.
 **Farfetch'd Puzzle Update (Turn 20529):** Interacting with the Farfetch'd at (24, 35) from the west (23, 35) was incorrect. This caused a partial reset, moving the bird back to its previous position at (28, 31). This strongly suggests that a wrong move sends the puzzle back one step.
 **Farfetch'd Puzzle Update (Turn 20534):** Step 3 confirmed! Interacting with the Farfetch'd at (28, 31) from the south (28, 32) was the correct move. The bird has moved to an unknown location. Hypothesizing next location is (15, 29).
