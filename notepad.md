@@ -89,3 +89,6 @@
 *   **Training Priority:** MIASma (Gastly) should be trained up.
 *   **Move Optimization:** Replace Vulcan's EMBER with a better coverage move. Conserve MIASma's HYPNOSIS. Level Gambit via switching.
 *   **Team Weaknesses:** Critical weakness to Water-types. Lack of coverage for Rock, Ground, or Psychic types.
+*   **Farfetch'd Puzzle Logic (Alternative Hypothesis):**
+    *   **Hypothesis:** The puzzle is not a single linear sequence but a state machine. The bird moves between a few key locations, and the correct interaction depends on its current state (location). An interaction that causes a reset from one state might be a valid move from another.
+    *   **Test to Disprove:** Find a situation where the previously confirmed 'reset' move (interacting from the East at (21, 24)) results in a successful step forward instead of a full puzzle reset. This would confirm the state machine hypothesis.
