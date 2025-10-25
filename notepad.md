@@ -85,7 +85,6 @@
     *   **Step 3:** Interact from North at (24, 34) -> Moves bird from (24, 35) to (15, 29).
     *   **Step 4:** Interact from East at (16, 29) -> Moves bird from (15, 29) to (15, 25).
     *   **Step 5:** Interact from North at (15, 24) -> Moves bird from (15, 25) to (15, 29).
-    *   **Step 5:** Interact from North at (15, 24) -> Moves bird from (15, 25) to (15, 29).
 *   **Known Incorrect Moves:**
     *   At (20, 24), interacting from East (21, 24) causes a full reset.
     *   At (15, 25), interacting from South (15, 26) causes a unique reset to (20, 24).
