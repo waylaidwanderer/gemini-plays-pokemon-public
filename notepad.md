@@ -59,7 +59,7 @@
 # V. Puzzle Logs & Navigational Failures
 ## A. Ilex Forest Farfetch'd Puzzle
 *   **Objective:** Herd the Farfetch'd to the apprentice at (7, 28) to receive HM01 Cut.
-*   **History & Learnings:** Created `farfetchd_solver` tool based on a simple herding hypothesis. The tool's 'No path found' output invalidated the initial hypothesis, correctly proving the puzzle is more complex.
+*   **History & Learnings:** An early hypothesis of simple herding was invalidated when a custom tool returned 'No path found', proving the puzzle is more complex.
 
 ## B. Union Cave Navigation
 *   **History & Learnings:** Wasted ~65 turns assuming `path_finder` was broken instead of trusting its 'No path found' output, which correctly identified that the southern and northern sections of UnionCave1F are separated by water.
