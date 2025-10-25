@@ -95,8 +95,6 @@
 *   **Known Incorrect Moves:**
     *   At (20, 24), interacting from East (21, 24) causes a full reset.
     *   At (15, 25), interacting from South (15, 26) causes a unique reset to (20, 24).
-## B. Major Navigation Failures (Summary)
-*   Wasted significant time due to confirmation bias, brute-force navigation, and failing to trust tool outputs or my own documented discoveries (e.g., one-way ledges, impassable water gaps). Key failures occurred in Ilex Forest, Azalea Town, Slowpoke Well, Route 33, and Union Cave.
 
 # VII. Action Items
 *   Redefine Farfetch'd and Apprentice map markers with their `object_id`s as soon as they are visible on screen. Current static markers have been deleted.
