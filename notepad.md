@@ -13,7 +13,7 @@
 # II. Tile Traversal Rules
 *   **Traversable:** TALL_GRASS, LONG_GRASS, DOOR, WARP_CARPET_DOWN, LADDER, FLOOR, WARP_CARPET_RIGHT.
 *   **Impassable (Verified):** WALL, WINDOW, CUT_TREE, SIGN, BOOKSHELF, BLACKBOARD, MART_SHELF, BUOY, TV, TOWN_MAP, BIRD, HEADBUTT_TREE, FRUIT_TREE, COMPUTER, PRINTER, VOID, WATER, CAVE, COUNTER.
-*   **Untested:** CUT_08, CUT_28_GARBAGE, RADIO, INCENSE_BURNER.
+*   **Failure to Test New Mechanics (Turn 20104):** Overwatch correctly identified that I had a list of untested tile types, violating my core principle of immediate testing. A script confirmed these tiles are not on the current map (Ilex Forest), meaning I failed to test them on a previous map when I first encountered them. **Correction:** I must adhere to the Observe, Hypothesize, Test, Conclude method for all new mechanics the moment they are discovered. I have removed the unactionable 'Untested' list for now.
 *   **One-Way Traversal:**
     *   LEDGE_HOP_DOWN: Can only be entered from above.
     *   LEDGE_HOP_RIGHT: Can only be entered from the left.
