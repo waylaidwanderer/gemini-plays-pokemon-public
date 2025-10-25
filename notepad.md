@@ -78,7 +78,6 @@
 **Farfetch'd Puzzle Update (Turn 20534):** Step 3 confirmed! Interacting with the Farfetch'd at (28, 31) from the south (28, 32) was the correct move. The bird has moved to an unknown location. Hypothesizing next location is (15, 29).
 **Farfetch'd Puzzle Update (Turn 20628):** Step 4 confirmed! Interacting from the east at (15, 29) moves the Farfetch'd to (15, 25). Now proceeding to Step 5.
 **Farfetch'd Puzzle Update (Turn 20637):** Step 5 test from the south at (15, 25) was incorrect. This specific wrong move caused a unique reset, moving the Farfetch'd to (20, 24). This confirms different wrong moves have different, non-linear consequences.
-**Farfetch'd Puzzle Update (Turn 20644):** Step 6 test from the east at (20, 24) was incorrect. This caused a full puzzle reset, with the Farfetch'd disappearing from its location. Hypothesizing it has returned to the start at (29, 22).
 
 # V. Puzzle Logs & Navigational Failures (Refactored)
 ## A. Ilex Forest Farfetch'd Puzzle
