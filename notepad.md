@@ -104,3 +104,30 @@
 **Farfetch'd Puzzle Update (Turn 20628):** Step 4 confirmed! Interacting from the east at (15, 29) moves the Farfetch'd to (15, 25). Now proceeding to Step 5.
 **Farfetch'd Puzzle Update (Turn 20637):** Step 5 test from the south at (15, 25) was incorrect. This specific wrong move caused a unique reset, moving the Farfetch'd to (20, 24). This confirms different wrong moves have different, non-linear consequences.
 **Farfetch'd Puzzle Update (Turn 20644):** Step 6 test from the east at (20, 24) was incorrect. This caused a full puzzle reset, with the Farfetch'd disappearing from its location. Hypothesizing it has returned to the start at (29, 22).
+
+# V. Puzzle Logs & Navigational Failures (Refactored)
+## A. Ilex Forest Farfetch'd Puzzle
+*   **Objective:** Herd the Farfetch'd to the apprentice at (7, 28).
+*   **Puzzle Mechanics (Confirmed):** The puzzle is a scripted sequence. Interaction from a specific direction is required for each step. An incorrect interaction can cause a partial or full reset.
+    *   **Full Reset:** Returns Farfetch'd to start (29, 22).
+    *   **Partial Reset:** Can return Farfetch'd to a previous step in the sequence.
+*   **Known Correct Sequence:**
+    *   **Step 1:** Interact from West at (28, 22) -> Moves bird from (29, 22) to (28, 31).
+    *   **Step 2:** Interact from South at (28, 32) -> Moves bird from (28, 31) to (24, 35).
+    *   **Step 3:** Interact from North at (24, 34) -> Moves bird from (24, 35) to (15, 29).
+    *   **Step 4:** Interact from East at (16, 29) -> Moves bird from (15, 29) to (15, 25).
+*   **Known Incorrect Moves:**
+    *   At (20, 24), interacting from East (21, 24) causes a full reset.
+    *   At (15, 25), interacting from South (15, 26) causes a unique reset to (20, 24).
+## B. Major Navigation Failures (Summary)
+*   Wasted significant time due to confirmation bias, brute-force navigation, and failing to trust tool outputs or my own documented discoveries (e.g., one-way ledges, impassable water gaps). Key failures occurred in Ilex Forest, Azalea Town, Slowpoke Well, Route 33, and Union Cave.
+
+# VI. Untested Assumptions & Alternative Hypotheses (Refactored)
+*   **Farfetch'd Puzzle:**
+    *   **Current Assumption:** The puzzle has a single, fixed, correct solution sequence.
+    *   **Alternative Hypothesis:** The puzzle's state might be influenced by an external factor (e.g., time of day, steps taken).
+    *   **Test to Disprove:** If re-executing the known correct sequence fails, this assumption is incorrect.
+*   **`reachability_analyzer` Discrepancy:**
+    *   **Current Conclusion (Confirmed):** The tool has repeatedly confirmed system-flagged unseen tiles are unreachable, blocked by the CUT_TREE at (8, 25). I will trust my tool over the alert until I have Cut.
+    *   **Alternative Hypothesis:** The tool's A* logic contains a subtle flaw for this specific map.
+    *   **Test to Disprove:** If I obtain Cut, use it on the tree, and the tiles are *still* unreachable, the tool is flawed and requires immediate debugging.
