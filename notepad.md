@@ -60,28 +60,6 @@
     *   WADE (Route 31): Will share BERRIES.
     *   Hiker Anthony (Phone): Tons of DUNSPARCE in DARK CAVE.
 
-# V. Puzzle Logs & Navigational Failures
-## A. Ilex Forest Farfetch'd Puzzle
-*   **Objective:** Herd the Farfetch'd to the apprentice at (7, 28) to receive HM01 Cut.
-*   **Learnings:** The puzzle has reset after multiple failed attempts. A previous attempt to use a custom agent for this puzzle was fundamentally flawed. The agent has since been deleted. My assumption that the Farfetch'd would reset to a mid-puzzle location was also incorrect, as it was not at (22, 31).
-*   **Current Hypothesis:** The puzzle has fully reset, and the Farfetch'd has returned to its initial starting position at (29, 22).
-*   **Current Plan:** After this wild battle, navigate to the area around (29, 22) to verify if the Farfetch'd is there. If it is, I have tested the 'push' mechanic hypothesis by interacting from the south (29, 23). The test failed; the Farfetch'd did not move. My new hypothesis is that the puzzle is a scripted sequence requiring interaction from a specific direction to trigger movement.
-*   **Test 2 (Turn 19991):** Interacting from the west at (28, 22).
-
-## B. Union Cave Navigation
-*   **History & Learnings:** Wasted ~65 turns assuming `path_finder` was broken instead of trusting its 'No path found' output, which correctly identified that the southern and northern sections of UnionCave1F are separated by water.
-
-## C. General Navigation Failures
-*   **Ilex Forest (Turns 16451-16475):** Stuck in a dead-end due to brute-force navigation instead of systematic exploration.
-*   **Azalea Town (Turns ~17015-17049):** Wasted 30+ turns due to failing to recognize one-way ledges and impassable walls.
-*   **Slowpoke Well B1F (Turns ~17074-17171):** Suffered a ~100 turn navigation failure due to confirmation bias, repeatedly trying a path that was proven impassable.
-*   **Route 33 (Turn 17878):** Confirmed via `path_finder` that the path west to Azalea Town from the Union Cave exit is IMPOSSIBLE due to impassable ledges.
-*   **Union Cave B1F (via ladder at 1F (5, 19)):** Confirmed via `path_finder` that this ladder leads to a small, isolated platform and is a dead end.
-*   **Route 32 (Turns ~18059-18060):** Wasted several turns trying to path south to Union Cave entrance (6, 79), forgetting my own documented discovery that the route contains one-way ledges.
-
-## D. Tool Discrepancy Log
-*   **Ilex Forest (Turns 19212 & 19468):** My custom `reachability_analyzer` tool has now twice confirmed that the system-flagged unseen tiles ((7, 21), (9, 21), (0, 23), etc.) are unreachable from my current position. The tool's consistent '[]' output provides strong evidence that an unseen obstacle (likely a one-way ledge or a path requiring Cut) is blocking the way. I will trust my tool's analysis over the persistent system alert and proceed with my primary goal.
-
 # VI. Untested Assumptions & Alternative Hypotheses
 *   **Farfetch'd Puzzle:** My current hypothesis is that interacting with the Farfetch'd from a specific direction pushes it in the opposite direction. **Alternative Hypothesis:** The Farfetch'd's movement is a fixed, scripted sequence, and each interaction simply advances it to the next point on its path, regardless of my approach vector. **Test:** If approaching from the south (15, 26) does not push it north, the 'push' hypothesis is weakened or incorrect.
 
