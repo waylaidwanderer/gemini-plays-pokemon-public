@@ -63,8 +63,8 @@
 # V. Puzzle Logs & Navigational Failures
 ## A. Ilex Forest Farfetch'd Puzzle
 *   **Objective:** Herd the Farfetch'd to the apprentice at (7, 28) to receive HM01 Cut.
-*   **Learnings:** The puzzle is a scripted sequence, not a simple push mechanic. Interacting with the Farfetch'd and then clearing the dialogue causes it to move to a new, predetermined location.
-*   **Strategy:** Use map markers to create a visual trail of the Farfetch'd's scripted path. **Going forward, I MUST use my `puzzle_solver_agent` to determine the optimal next interaction, as per the Overwatch critique.**
+*   **Learnings:** The puzzle has reset. My `puzzle_solver_agent` failed because it was given faulty action history data based on a hallucinated memory of interacting from an impassable WALL tile at (21, 31). This is a critical process failure.
+*   **Strategy:** **TODO:** Refine `puzzle_solver_agent` to validate that its `recommended_action` coordinates are on traversable tiles. **New Hypothesis:** Interacting with the Farfetch'd pushes it in the opposite direction. **Test Plan:** Navigate to (23, 31) (east of the Farfetch'd at (22, 31)) and interact. Expected outcome: Farfetch'd moves west.
 
 ## B. Union Cave Navigation
 *   **History & Learnings:** Wasted ~65 turns assuming `path_finder` was broken instead of trusting its 'No path found' output, which correctly identified that the southern and northern sections of UnionCave1F are separated by water.
