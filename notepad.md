@@ -48,7 +48,7 @@
 # IV. Story & Quests
 *   **Primary Quest: Obtain HM01 Cut**
     *   **Objective:** Receive HM01 Cut from the apprentice in Ilex Forest.
-    *   **Current Plan:** Retry the Farfetch'd puzzle in the eastern section of the forest using a systematic, multi-marker approach.
+    *   **Current Plan:** The multi-marker approach failed. The apprentice's dialogue is unchanged, confirming the puzzle is not solved. I must return to the eastern part of the forest to find the Farfetch'd and re-evaluate the puzzle mechanics from scratch.
 *   **Secondary Quest: Complete Sprout Tower**
     *   **Objective:** Reach the top of Sprout Tower and defeat the Elder.
     *   **Status:** Blocked. Need to find the correct path up the western ladder system.
