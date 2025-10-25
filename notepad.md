@@ -71,8 +71,7 @@
     *   **Step 2:** Interact from South at (28, 32) -> Moves bird from (28, 31) to (24, 35).
     *   **Step 3:** Interact from North at (24, 34) -> Moves bird from (24, 35) to (15, 29).
     *   **Step 4:** Interact from East at (16, 29) -> Moves bird from (15, 29) to (15, 25).
-    *   **Step 5:** Interact from North at (15, 24) -> Moves bird from (15, 25) to (15, 29).
-    *   **Step 6:** Interact from South at (15, 26) -> Moves bird from (15, 25) to (20, 24).
+    *   **Step 5:** Interact from South at (15, 26) -> Moves bird from (15, 25) to (20, 24).
 *   **Confirmed Reset:** Re-testing the interaction from the East at (21, 24) after correctly completing Step 6 confirmed that this move ALWAYS causes a full puzzle reset. This is a confirmed incorrect move for this stage of the puzzle.
 
 # VI. Untested Assumptions & Alternative Hypotheses
