@@ -80,3 +80,6 @@
     *   **New Hypothesis:** There is a second Farfetch'd puzzle to solve. I must now search Ilex Forest for another Farfetch'd.
     *   **Alternative Hypothesis:** The trigger for the apprentice's return might be linked to another NPC in Azalea Town (e.g., Kurt) or another event I haven't completed.
 *   **Agent Opportunity:** A complex puzzle-solving agent could be useful for future herding or logic puzzles, to suggest optimal moves.
+## B. Ilex Forest Second Farfetch'd Puzzle
+*   **Objective:** Herd the second Farfetch'd, presumably back to the apprentice.
+*   **Status:** Discovered the second Farfetch'd at (29, 22). The puzzle begins now.
