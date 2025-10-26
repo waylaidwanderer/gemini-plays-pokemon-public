@@ -139,3 +139,4 @@
     24. **Failure:** Walking the path from (28, 32) to (26, 24) after a 'Kwaa!' disappearance sequence did not cause the Farfetch'd to reappear.
     25. **Failure:** Walking the path from (26, 24) to (20, 24) after a 'Kwaa!' disappearance sequence did not cause the Farfetch'd to reappear.
     26. **Failure:** Stepped on hard reset tile (15, 27) after a 'Kwaa!' disappearance sequence. Farfetch'd did not reappear.
+    26. **Discovery:** After a 'Kwaa!' disappearance, walking the path from (15, 27) to (9, 34) caused the Farfetch'd to reappear at (10, 35).
