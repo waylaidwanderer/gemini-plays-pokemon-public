@@ -62,13 +62,13 @@
 # V. Puzzle Logs & Navigational Failures
 ## A. Ilex Forest Farfetch'd Puzzle
 *   **Objective:** Herd the Farfetch'd to the apprentice at (7, 28).
-*   **Puzzle Mechanics (Confirmed):** The puzzle is a scripted sequence. Interaction from a specific direction or stepping on specific tiles is required for each step. An incorrect interaction can cause a partial or full reset.
+*   **Puzzle Mechanics (Confirmed):** The puzzle is a scripted sequence. Interaction from a specific direction or stepping on specific trigger tiles is required for each step. An incorrect interaction can cause a partial or full reset.
     *   **Full Reset:** Returns Farfetch'd to start (29, 22).
     *   **Partial Reset:** Can return Farfetch'd to a previous step in the sequence.
 *   **Known Correct Sequence:**
     *   **Step 1:** Interact from West at (28, 22) -> Moves bird from (29, 22) to (28, 31).
     *   **Step 2:** Interact from South at (28, 32) -> Moves bird from (28, 31) to (15, 25).
-    *   **Step 3 (Confirmed):** Stepping on the twig pile at (15, 27) causes the Farfetch'd at (15, 25) to move. Its new location is currently unknown.
+    *   **Step 3 (Confirmed):** Stepping on the trigger tile (a regular FLOOR tile) at (14, 27) and then at (15, 27) caused the Farfetch'd to move from (15, 25), clearing the path. The puzzle is solved by stepping on specific coordinates, not by interacting with non-existent 'twig pile' objects.
 *   **Confirmed Reset Trigger:** Interacting from the East at (21, 24) at the wrong time causes a full puzzle reset.
 
 # VI. System Alert Verifications & Alternative Hypotheses
