@@ -110,3 +110,4 @@
     21. **Discovery (Turn 22443):** The Farfetch'd reappeared at its starting position (29, 22) after following the systematic search path to (28, 22). A trigger tile was stepped on somewhere along the path from (28, 29) to (28, 22).
     22. **Failure:** Interacting from the West at (28, 22) after the Farfetch'd reappeared at its starting position (29, 22) via a systematic search path caused it to disappear.
     23. **Failure:** Stepping on tile (28, 23) after the Farfetch'd disappeared did not cause it to reappear.
+    24. **Failure:** Stepping on tile (28, 22) after the Farfetch'd disappeared did not cause it to reappear.
