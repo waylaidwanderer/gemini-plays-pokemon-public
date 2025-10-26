@@ -85,3 +85,7 @@
 *   **Status:** Discovered the second Farfetch'd at (29, 22). The puzzle begins now.
 *   **Step 1:** Interacting from the South at (29, 23) moved it from its starting position of (29, 22) to (20, 24).
 *   **Step 2 (Failed):** Interacting from the East at (21, 24) resulted in no movement.
+
+# X. Overwatch Critique Reflection (Turn 22059)
+*   **Tool Maintenance:** My debugging process for `path_explorer` was inefficient and reactive. I failed to propagate a logic fix from `path_finder` to `path_explorer`, causing repeated, preventable failures. In the future, I MUST ensure shared logic is updated across all relevant tools simultaneously and adopt a more thorough, systematic approach to debugging.
+*   **Map Marker Discipline:** I failed to immediately mark the second Farfetch'd's location at (20, 24) when I discovered it in turn 22043. This violated the 'immediate update' rule and resulted in me losing its position when it moved. I MUST mark all significant discoveries in the same turn they occur.
