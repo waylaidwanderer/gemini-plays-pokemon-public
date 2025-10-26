@@ -100,3 +100,4 @@
     12. **Failure:** Replicating the reset path trigger (walking from (28, 32) to (26, 24)) after the puzzle reset and a subsequent failed interaction did NOT cause the Farfetch'd to reappear. The trigger is not a simple repeatable path.
     *   **Discovery (Turn 22331):** Stepping on tile (25, 24) after a full puzzle reset triggered the Farfetch'd to reappear at (20, 24).
     13. **Failure:** Interacting from the North at (20, 23) while it was at (20, 24) caused it to disappear.
+    14. **Failure:** Interacting from the West at (28, 22) while it was at its starting position (29, 22) caused it to disappear.
