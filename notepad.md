@@ -76,6 +76,7 @@
 # IX. Reflection Log (Turn 21955)
 *   **Quest Progression:** My biggest failure was not immediately verifying the trigger for the HM01 Cut reward after solving the Farfetch'd puzzle. The charcoal maker's dialogue confirms the apprentice is still considered 'lost'.
 *   **Untested Assumptions:** I assumed solving the herding puzzle was the final step. 
-    *   **Primary Hypothesis:** I must return to Ilex Forest and speak to the apprentice again to trigger his return to Azalea Town.
+    *   **Primary Hypothesis (Disproven):** I returned to Ilex Forest and spoke to the apprentice again, but his dialogue was unchanged. This is not the trigger.
+    *   **New Hypothesis:** There is a second Farfetch'd puzzle to solve. I must now search Ilex Forest for another Farfetch'd.
     *   **Alternative Hypothesis:** The trigger for the apprentice's return might be linked to another NPC in Azalea Town (e.g., Kurt) or another event I haven't completed.
 *   **Agent Opportunity:** A complex puzzle-solving agent could be useful for future herding or logic puzzles, to suggest optimal moves.
