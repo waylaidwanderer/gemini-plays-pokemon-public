@@ -91,3 +91,11 @@
 # X. Overwatch Critique Reflection (Turn 22059)
 *   **Tool Maintenance:** My debugging process for `path_explorer` was inefficient and reactive. I failed to propagate a logic fix from `path_finder` to `path_explorer`, causing repeated, preventable failures. In the future, I MUST ensure shared logic is updated across all relevant tools simultaneously and adopt a more thorough, systematic approach to debugging.
 *   **Map Marker Discipline:** I failed to immediately mark the second Farfetch'd's location at (20, 24) when I discovered it in turn 22043. This violated the 'immediate update' rule and resulted in me losing its position when it moved. I MUST mark all significant discoveries in the same turn they occur.
+
+# XI. Reflection Log (Turn 22162)
+*   **Debugging Process Failure:** My debugging of `path_explorer` was inefficient. I repeatedly submitted identical, non-functional code instead of using a systematic approach. **New Process:** For future tool debugging, I will first use `run_code` to test isolated logic snippets (e.g., checking the contents of a list) before submitting a full `define_tool` update.
+*   **Untested Assumptions (HM01 Cut Quest):**
+    *   **Primary Assumption:** Solving the second Farfetch'd puzzle is the only trigger for the apprentice's return.
+    *   **Alternative Hypothesis 1:** The quest trigger is time-based or linked to another NPC in Azalea Town (like Kurt).
+    *   **Alternative Hypothesis 2:** The puzzle is not based on interaction position, but on stepping on unmarked trigger tiles, similar to the first puzzle.
+    *   **Testing Plan:** If further direct interaction with the Farfetch'd fails, I will pivot to testing these alternatives: first by systematically walking over every floor tile in the area, and second by returning to Azalea Town to check on Kurt and other NPCs.
