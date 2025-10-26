@@ -93,3 +93,6 @@
 *   **Farfetch'd Puzzle Step 3 (Hypotheses Falsified):** My documented sequence for step 3 is incorrect. After the bird moves to (15, 25), interacting from the south (15, 26) or north (15, 24) does not work, even after a full puzzle reset.
 *   **Corrected Puzzle Logic (Trigger Tile):** My previous hypothesis about 'twig piles' was incorrect; no such object exists. The puzzle is solved by stepping on a specific, unmarked FLOOR tile that acts as a trigger. Stepping on the tile at (14, 27) caused the Farfetch'd at (15, 25) to move, clearing the path.
 *   Wade (Phone): Bug-Catching Contest at the National Park today.
+
+# VIII. Agent Performance & Hallucinations
+*   **`goal_manager` Hallucination (Turn 21825):** The agent incorrectly stated that I possessed HM01 Cut. This was proven false by checking my TM/HM and Key Item pockets (Turn 21831). This led to a flawed strategic recommendation. **Conclusion:** I must verify agent outputs against the direct game state before acting on them, especially when they claim possession of key items.
