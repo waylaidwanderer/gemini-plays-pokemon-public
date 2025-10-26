@@ -113,3 +113,4 @@
 *   **Bugsy (Azalea Town):** Metapod (Lv14), Kakuna (Lv14), Scyther (Lv16).
 *   **Fisher Justin (Route 32):** Magikarp x4.
     26. **Discovery (Turn 22486):** The Farfetch'd reappeared at (28, 31) after following the path from (27, 24) to (28, 28). A trigger tile was stepped on somewhere along this path.
+    27. **Success:** Interacting from the North at (28, 30) while it was at (28, 31) moved it to (24, 35).
