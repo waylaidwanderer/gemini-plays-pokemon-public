@@ -156,3 +156,37 @@
     *   **Alternative Hypothesis 1 (Red Herring):** The puzzle is a distraction. The HM might be a reward from another NPC (like the charcoal maker in Azalea Town) now that the first puzzle is solved. **Test:** Return to Azalea Town and speak with the charcoal maker.
     *   **Alternative Hypothesis 2 (Wrong Destination):** The goal isn't to herd the Farfetch'd to the apprentice, but to a different location, such as the Ilex Forest Shrine at (8, 22). **Test:** Attempt to herd the Farfetch'd towards the shrine.
 46. **Discovery (Turn 22790):** Walking the trigger path from (26, 24) to (20, 24) after a 'disappear from East interaction' sequence caused the Farfetch'd to reappear at (15, 25).
+
+## IX. CORRECTED PUZZLE LOG (TEMP)
+### B. Ilex Forest Farfetch'd Puzzle (Second) - Chronological Log
+*   **Summary & Current Hypothesis:** The puzzle is a complex state machine. Interactions from specific directions and stepping on hidden trigger tiles cause the Farfetch'd to move, disappear, or reappear. The same action can have different results depending on the puzzle's internal state.
+*   **Objective:** Herd the second Farfetch'd, presumably back to the apprentice.
+*   **Status:** In progress.
+*   **Move History:**
+    1.  **Discovery:** Farfetch'd starts at (29, 22).
+    2.  **Success:** Interact South (29, 23) -> Moves to (20, 24).
+    3.  **Failure:** Interact East (21, 24) -> No effect.
+    4.  **Discovery (Hard Reset):** Step on (15, 27) -> Resets to (29, 22).
+    5.  **Failure:** Interact South (29, 23) after hard reset -> Disappears.
+    6.  **Discovery (Reappear Path):** Path (28, 32) -> (26, 24) after South-disappear -> Reappears at (29, 22).
+    7.  **Discovery (Reappear Trigger):** Step on (25, 24) after South-disappear -> Reappears at (20, 24).
+    8.  **Failure:** Interact North (20, 23) -> Disappears.
+    9.  **Discovery (Turn):** Interact North (20, 23) in a different state -> Turns North.
+    10. **Discovery (Delayed Disappear):** After turning, disappears on the next turn.
+    11. **Discovery (State-Dependent Trigger):** Stepping on (25, 24) after 'turn -> disappear' can cause reappearance at start (29, 22) OR (20, 24).
+    12. **Success:** Interact East (21, 24) after 'turn -> disappear -> reset to (20,24)' sequence -> Disappears.
+    13. **Discovery (Trigger Path):** Path (26, 24) -> (20, 24) after East-disappear -> Reappears at (15, 25).
+    14. **Success:** Interact North (15, 24) -> Moves to (15, 29).
+    15. **Discovery (Kwaa! Disappear):** Interact North (15, 28) while at (15, 29) -> 'Kwaa!', then disappears.
+    16. **Failure:** Tested tiles (14,28), (14,27), (14,26), (15,26), (25,24) after Kwaa!-disappear -> No effect.
+    17. **Discovery (Reappear Path):** Path (15, 27) -> (9, 34) after Kwaa!-disappear -> Reappears at (10, 35).
+    18. **Success:** Interact North (10, 34) -> Moves to (15, 29).
+    19. **Success:** Interact East (16, 29) -> Moves to (15, 25).
+    20. **Discovery (Teleport):** Interact South (15, 26) -> 'Kwaa!', teleports to (20, 24).
+    21. **Test:** Interact North (20, 23) -> Turns, 'Kwaa!'. Disappears on next turn.
+    22. **Discovery:** Step on (25, 24) after North-turn-disappear -> Reappears at (29, 22).
+    23. **Failure:** Interact South (29, 23) after reset -> Turns. Disappears on next turn.
+    24. **Discovery:** Step on (25, 24) after South-turn-disappear -> Reappears at (20, 24).
+    25. **Success:** Interact East (21, 24) -> Turns, 'Kwaa!'. Disappears on next turn.
+    26. **Discovery:** Walk trigger path (26, 24) -> (20, 24) -> Reappears at (15, 25).
+    27. **Success:** Interact North (15, 24) -> Moves to (15, 29).
