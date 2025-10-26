@@ -95,3 +95,5 @@
     11. **Failure:** Replicating the first successful move (interacting from the South at (29, 23) while it was at its starting position (29, 22)) after a reset now causes it to disappear. The puzzle is not a simple repeatable sequence.
 ### C. HM01 Cut Quest - Alternative Hypotheses
 - The second Farfetch'd puzzle might be a red herring. The HM could be obtained through another trigger, perhaps time-based or by talking to a specific NPC after the first puzzle was solved.
+### C. HM01 Cut Quest - Alternative Hypotheses
+- The second Farfetch'd puzzle might be a red herring. The HM could be obtained through another trigger, perhaps time-based or by talking to a specific NPC after the first puzzle was solved.
