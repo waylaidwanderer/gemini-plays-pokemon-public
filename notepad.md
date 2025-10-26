@@ -98,3 +98,4 @@
 # IX. To-Do & Reminders
 *   Re-create map markers for Farfetch'd (object_id: 1) and the Apprentice (object_id: 2) in Ilex Forest, linking them to their object IDs. This must be done the next time they are on screen.
 *   Hiker Anthony (Phone): Tons of DUNSPARCE in DARK CAVE.
+*   **Azalea Mart Blockage (Hypothesis Falsified):** My hypothesis that obtaining HM01 Cut would cause the Cooltrainer blocking the Poké Mart clerk to move has been proven false. He is still blocking the path as of Turn 21705. The solution to this blockage is not related to HM acquisition.
