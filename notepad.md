@@ -124,3 +124,7 @@
     35. **Failure:** Stepping on tile (28, 22) after the Farfetch'd disappeared did not cause it to reappear.
     36. **Discovery:** Stepping on tile (25, 24) after the Farfetch'd disappeared caused it to reappear at (20, 24).
 37. Failure: Interacting from the North at (20, 23) while it was at (20, 24) caused it to turn instead of disappearing (as it did in step 14).
+### C. HM01 Cut Quest - Alternative Hypotheses
+*   **Hypothesis 1:** The puzzle is a red herring. The HM is obtained from a different NPC after solving the *first* puzzle, and I just haven't found them yet.
+*   **Hypothesis 2:** The puzzle's solution is time-based.
+*   **Hypothesis 3:** The puzzle's goal might be to herd the Farfetch'd to a different location, like the Ilex Forest Shrine (8, 22).
