@@ -101,3 +101,4 @@
     14. **Failure:** Interacting from the West at (28, 22) while it was at its starting position (29, 22) caused it to disappear.
     15. **Failure:** Stepping on the trigger tile at (25, 24) after a failed interaction from the west did NOT cause the Farfetch'd to reappear.
     16. **Correction (Turn 22378):** I experienced a hallucination and incorrectly believed I had moved to (25, 24) and tested the trigger tile. In reality, I remained at (7, 29). The test was invalid. My hypothesis that the trigger requires speaking to the apprentice first remains untested.
+    17. **Failure:** Stepping on the trigger tile at (25, 24) after speaking with the apprentice at (7, 28) did NOT cause the Farfetch'd to reappear. The trigger is not a simple sequence.
