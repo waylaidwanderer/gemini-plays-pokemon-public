@@ -70,26 +70,7 @@
 *   **Objective:** Herd the second Farfetch'd, presumably back to the apprentice.
 *   **Status:** In progress. The Farfetch'd has disappeared.
 *   **Move History:**
-    1.  **Success:** Interacting from the South at (29, 23) moved it from (29, 22) to (20, 24).
-    2.  **Failure:** Interacting from the East at (21, 24) resulted in no movement.
-    3.  **Success:** Interacting from the North at (15, 24) moved it from (15, 25) to (15, 29).
-    4.  **Success:** Interacting from the North at (15, 28) while it was at (15, 29) caused it to move to (10, 35).
-    5.  **Success:** Interacting from the North at (10, 34) while it was at (10, 35) caused it to teleport to (15, 29).
-    6.  **Failure:** Interacting from the West at (14, 29) while it was at (15, 29) caused it to disappear.
-    7.  **Discovery:** Stepped on a trigger tile somewhere on the path between (25, 24) and (16, 28), causing it to reappear at (22, 31).
-    8.  **Success:** Interacting from the North at (22, 30) while it was at (22, 31) moved it to (28, 31).
-    9.  **Failure:** Interacting from the South at (28, 32) while it was at (28, 31) caused it to disappear.
-    10. **Discovery:** Stepped on a trigger tile somewhere on the path between (28, 32) and (26, 24), causing it to reappear at its starting position (29, 22). This resets the puzzle.
-    11. **Failure:** Replicating the first successful move (interacting from the South at (29, 23) while it was at its starting position (29, 22)) after a reset now causes it to disappear. The puzzle is not a simple repeatable sequence.
-    12. **Failure:** Replicating the reset path trigger (walking from (28, 32) to (26, 24)) after the puzzle reset and a subsequent failed interaction did NOT cause the Farfetch'd to reappear. The trigger is not a simple repeatable path.
-    13. **Discovery (Turn 22331):** Stepping on tile (25, 24) after a full puzzle reset triggered the Farfetch'd to reappear at (20, 24).
-    14. **Failure:** Interacting from the North at (20, 23) while it was at (20, 24) caused it to disappear.
-    15. **Failure:** Interacting from the West at (28, 22) while it was at its starting position (29, 22) caused it to disappear.
-    16. **Failure:** Stepping on the trigger tile at (25, 24) after a failed interaction from the west did NOT cause the Farfetch'd to reappear.
-    17. **Failure:** Stepping on the trigger tile at (25, 24) after speaking with the apprentice at (7, 28) did NOT cause the Farfetch'd to reappear. The trigger is not a simple sequence.
-    18. **Discovery (Turn 22404):** The Farfetch'd reappeared at (28, 31) after following the systematic search path to (28, 30). A trigger tile was stepped on somewhere along this path.
-    19. **Success:** Interacting from the North at (28, 30) while it was at (28, 31) moved it to (24, 35).
-    20. **Success (Loop Discovery):** Interacting from the West at (23, 35) while it was at (24, 35) moved it back to (28, 31). This forms a loop with step 19.
+    [LOG CHUNK 1 - PENDING REORGANIZATION]
     21. **Failure:** Interacting from the South at (28, 32) while it was at (28, 31) caused it to disappear.
     22. **Discovery (Turn 22443):** The Farfetch'd reappeared at its starting position (29, 22) after following the systematic search path to (28, 22). A trigger tile was stepped on somewhere along the path from (28, 29) to (28, 22).
     23. **Failure:** Interacting from the West at (28, 22) after the Farfetch'd reappeared at its starting position (29, 22) via a systematic search path caused it to disappear.
