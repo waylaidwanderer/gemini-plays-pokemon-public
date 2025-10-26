@@ -189,6 +189,8 @@
     24. **Discovery:** Step on (25, 24) after South-turn-disappear -> Reappears at (20, 24).
     25. **Success:** Interact East (21, 24) -> Turns, 'Kwaa!'. Disappears on next turn.
     26. **Discovery:** Walk trigger path (26, 24) -> (20, 24) -> Reappears at (15, 25).
+    27. **Test:** Interact North (15, 24) while it was at (15, 25) to replicate previous success.
+    28. **Result of Test 27:** Farfetch'd turned and said 'Kwaa!'. It did not move. This outcome is state-dependent.
     27. **Success:** Interact North (15, 24) -> Moves to (15, 29).
     28. **Discovery (Kwaa! Disappear):** Interact North (15, 28) while at (15, 29) -> 'Kwaa!', then disappears on the next turn.
     29. **Discovery (Reappear Path):** Path (15, 27) -> (9, 34) after Kwaa!-disappear -> Reappears at (10, 35).
