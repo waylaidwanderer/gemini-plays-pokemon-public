@@ -50,7 +50,7 @@
 
 ## V. Story & Quests
 *   **Primary Quest: Obtain HM01 Cut**
-    *   **Current Strategy:** Systematically explore the entire puzzle area with `path_explorer` to find all trigger tiles.
+    *   **Current Strategy:** Systematically test interactions and trigger tiles to solve the puzzle.
     *   **Status:** In progress. The second Farfetch'd has disappeared. Currently searching for it.
 *   **Secondary Quest: Kurt's Custom Balls**
     *   **Objective:** Wait one day for Kurt to finish making a custom ball from the WHT APRICORN.
