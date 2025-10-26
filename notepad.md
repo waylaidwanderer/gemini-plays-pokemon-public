@@ -172,27 +172,6 @@
     42. **Failure:** Stepping on trigger tile (25, 24) after a 'Kwaa! from West interaction -> disappear' sequence did NOT cause the Farfetch'd to reappear at its start position (29, 22).
     43. **Failure:** Stepped on hard reset tile (15, 27) after a 'Kwaa!' disappearance sequence. Farfetch'd did not reappear.
     44. **Failure:** Walking the path from (15, 27) to (9, 34) after a 'Kwaa!' disappearance sequence did not cause the Farfetch'd to reappear.
-## IX. Ilex Forest Farfetch'd Puzzle (Second) - Consolidated Log
-*   **Objective:** Herd the second Farfetch'd to the apprentice at (7, 28).
-*   **Status:** In progress.
-*   **Key Mechanics:** The puzzle is a complex state machine. The Farfetch'd's response to an interaction depends on the sequence of previous actions. Actions include interacting from a specific direction, stepping on unmarked trigger tiles, and walking specific paths.
-
-### Puzzle State Flow (Chronological & Verified):
-1.  **Start:** Farfetch'd appears at (29, 22).
-2.  **Move 1:** Interact from South at (29, 23) -> Moves to (20, 24).
-3.  **State Change 1 (Turn & Disappear):** Interact from North at (20, 23) -> Turns North, says 'Kwaa!', then disappears on the next turn.
-4.  **Reset 1:** After 'State Change 1', step on trigger tile (25, 24) -> Reappears at start (29, 22).
-5.  **State Change 2 (Turn & Disappear):** After 'Reset 1', interact from South at (29, 23) -> Turns South, says 'Kwaa!', then disappears on the next turn.
-6.  **Reset 2:** After 'State Change 2', step on trigger tile (25, 24) -> Reappears at (20, 24).
-7.  **State Change 3 (Turn & Disappear):** After 'Reset 2', interact from East at (21, 24) -> Turns East, says 'Kwaa!', then disappears on the next turn.
-8.  **Trigger Path 1:** After 'State Change 3', walk the path from (26, 24) to (20, 24) -> Reappears at (15, 25).
-9.  **Move 2:** After 'Trigger Path 1', interact from North at (15, 24) -> Moves to (15, 29).
-10. **State Change 4 (Kwaa! Disappear):** After 'Move 2', interact from North at (15, 28) -> Says 'Kwaa!', then disappears on the next turn.
-11. **Trigger Path 2:** After 'State Change 4', walk the path from (15, 27) to (9, 34) -> Reappears at (10, 35).
-12. **Move 3:** After 'Trigger Path 2', interact from North at (10, 34) -> Moves to (15, 29).
-13. **Move 4 (State-Dependent):** After 'Move 3', interact from East at (16, 29) -> Says 'Kwaa!', then moves to (15, 25) on the next turn.
-14. **Teleport 1:** After 'Move 4', interact from South at (15, 26) -> Says 'Kwaa!', teleports to (20, 24).
-15. **(Loop) Current State:** The puzzle has looped back to the state after 'Move 1' (Farfetch'd at (20, 24)). The next logical step is to replicate 'State Change 1' by interacting from the North at (20, 23).
 
 ## VIII. Untested Assumptions & Alternative Hypotheses (Reflection Turn 22786)
 *   **Primary Assumption:** The second Farfetch'd puzzle is the only way to get HM01 Cut.
