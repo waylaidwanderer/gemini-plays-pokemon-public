@@ -46,10 +46,9 @@
 *   **Wrap:** Traps the target for several turns, preventing them from switching or fleeing.
 
 # IV. Story & Quests
-*   **Primary Quest: Obtain HM01 Cut**
-    *   **Objective:** Receive HM01 Cut from the apprentice in Ilex Forest.
-    *   **Current Plan:** After getting stuck in a hallucination loop and repeatedly failing to restart the puzzle, my new plan is to leave the forest entirely to force a hard reset of the puzzle state.
-    *   **Contingency:** If a full map reset does not work, I will pivot my primary goal to 'Explore towards Goldenrod City' and find an alternate route.
+*   **Primary Quest: Travel to Goldenrod City**
+    *   **Objective:** Reach Goldenrod City by clearing the path through Ilex Forest.
+    *   **Status:** Completed the Farfetch'd puzzle and received HM01 Cut. Now I need to catch a Pokémon that can learn Cut to clear the tree at (8, 25).
 *   **Secondary Quest: Complete Sprout Tower**
     *   **Objective:** Reach the top of Sprout Tower and defeat the Elder.
     *   **Status:** Blocked. Need to find the correct path up the western ladder system.
