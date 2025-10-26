@@ -112,3 +112,4 @@
 *   **Falkner (Violet City):** Pidgey (Lv7), Pidgeotto (Lv9).
 *   **Bugsy (Azalea Town):** Metapod (Lv14), Kakuna (Lv14), Scyther (Lv16).
 *   **Fisher Justin (Route 32):** Magikarp x4.
+    26. **Discovery (Turn 22486):** The Farfetch'd reappeared at (28, 31) after following the path from (27, 24) to (28, 28). A trigger tile was stepped on somewhere along this path.
