@@ -12,7 +12,7 @@
 
 ## II. System & Tool Performance Log
 *   **System Alert Verifications:**
-    *   **Ilex Forest Unseen Tiles:** My `reachability_analyzer` tool (Turn 22578) has re-confirmed that the system-flagged unseen tiles are unreachable, blocked by the CUT_TREE at (8, 25). I will continue to ignore this alert until I obtain HM01 Cut.
+    *   **Ilex Forest Unseen Tiles:** I have previously confirmed that the system-flagged unseen tiles are unreachable, blocked by the CUT_TREE at (8, 25). I will continue to ignore this alert until I obtain HM01 Cut.
 *   **Agent & Tool Failures:**
     *   **`goal_manager` Hallucination (Turn 21825):** The agent incorrectly stated that I possessed HM01 Cut. This was proven false by checking my bag. **Correction (Turn 21865):** The agent's system prompt was updated to be stricter about item possession.
     *   **`path_finder` Failure (Turn 21869):** The tool generated an invalid path through a stationary NPC. **Correction (Turn 21871):** The tool's script was updated to check for the `has-object='true'` tile attribute.
