@@ -93,8 +93,3 @@
 *   **Farfetch'd Puzzle Step 3 (Hypotheses Falsified):** My documented sequence for step 3 is incorrect. After the bird moves to (15, 25), interacting from the south (15, 26) or north (15, 24) does not work, even after a full puzzle reset.
 *   **Corrected Puzzle Logic (Trigger Tile):** My previous hypothesis about 'twig piles' was incorrect; no such object exists. The puzzle is solved by stepping on a specific, unmarked FLOOR tile that acts as a trigger. Stepping on the tile at (14, 27) caused the Farfetch'd at (15, 25) to move, clearing the path.
 *   Wade (Phone): Bug-Catching Contest at the National Park today.
-
-# IX. To-Do & Reminders
-*   Re-create map markers for Farfetch'd (object_id: 1) and the Apprentice (object_id: 2) in Ilex Forest, linking them to their object IDs. This must be done the next time they are on screen.
-*   Hiker Anthony (Phone): Tons of DUNSPARCE in DARK CAVE.
-*   **Azalea Mart Blockage (Hypothesis Falsified):** My hypothesis that obtaining HM01 Cut would cause the Cooltrainer blocking the Poké Mart clerk to move has been proven false. He is still blocking the path as of Turn 21705. The solution to this blockage is not related to HM acquisition.
