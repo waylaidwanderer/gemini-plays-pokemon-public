@@ -129,4 +129,4 @@
     44. **Failure:** Systematic exploration of path from (29, 22) to (26, 24) did not cause reappearance.
     45. **Discovery:** The path from (26, 24) to (20, 24) contains a trigger. Stepping on a tile along this path after a 'disappear from East interaction' sequence caused the Farfetch'd to reappear at (15, 25).
 46. **Success (State-Dependent Outcome):** Interacting from the North at (15, 24) while it was at (15, 25) after a 'disappear from East -> trigger reset' sequence caused it to move to (15, 29).
-    47. **Failure (State-Dependent Outcome):** Interacting from the North at (15, 28) while it was at (15, 29) after a 'disappear from East -> trigger reset -> move from North' sequence resulted in a 'Kwaa!' and no movement.
+    47. **Discovery (Disappearance):** Interacting from the North at (15, 28) while it was at (15, 29) resulted in a 'Kwaa!' and then the Farfetch'd disappeared.
