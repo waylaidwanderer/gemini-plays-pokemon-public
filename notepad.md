@@ -63,16 +63,14 @@
 # V. Puzzle Logs & Navigational Failures
 ## A. Ilex Forest Farfetch'd Puzzle
 *   **Objective:** Herd the Farfetch'd to the apprentice at (7, 28).
-*   **Puzzle Mechanics (Confirmed):** The puzzle is a scripted sequence. Interaction from a specific direction is required for each step. An incorrect interaction can cause a partial or full reset.
+*   **Puzzle Mechanics (Confirmed):** The puzzle is a scripted sequence. Interaction from a specific direction or stepping on specific tiles is required for each step. An incorrect interaction can cause a partial or full reset.
     *   **Full Reset:** Returns Farfetch'd to start (29, 22).
     *   **Partial Reset:** Can return Farfetch'd to a previous step in the sequence.
 *   **Known Correct Sequence:**
     *   **Step 1:** Interact from West at (28, 22) -> Moves bird from (29, 22) to (28, 31).
     *   **Step 2:** Interact from South at (28, 32) -> Moves bird from (28, 31) to (15, 25).
-    *   **Step 3:** After Step 2, the Farfetch'd moves to (15, 25), confirmed via map marker. My previous hypothesis of it moving to (24, 35) was incorrect.
-    *   **Step 4:** Interact from East at (16, 29) -> Moves bird from (15, 29) to (15, 25).
-    *   **Step 5 (Hypotheses Falsified):** Both interacting from the South at (15, 26) and from the North at (15, 24) have failed to move the Farfetch'd from (15, 25). This step in my documented sequence is incorrect or the puzzle has reset.
-*   **Confirmed Reset:** Re-testing the interaction from the East at (21, 24) after correctly completing Step 6 confirmed that this move ALWAYS causes a full puzzle reset. This is a confirmed incorrect move for this stage of the puzzle.
+    *   **Step 3 (Confirmed):** Stepping on the twig pile at (15, 27) causes the Farfetch'd at (15, 25) to move. Its new location is currently unknown.
+*   **Confirmed Reset Trigger:** Interacting from the East at (21, 24) at the wrong time causes a full puzzle reset.
 
 # VI. System Alert Verifications & Alternative Hypotheses
 *   **Ilex Forest Unseen Tiles (Confirmed Unreachable):** My `reachability_analyzer` tool has definitively confirmed on multiple occasions (Turns 20968, 21230, 21298, 21303, and others) that the system-flagged unseen tiles at (7, 21), (9, 21), (0, 23), (1, 23), (2, 23), and (3, 23) are unreachable from my current position. This validates the hypothesis that the path is blocked by the CUT_TREE at (8, 25). I will trust my tool and ignore this specific alert until I obtain HM01 Cut.
