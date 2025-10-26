@@ -203,3 +203,4 @@
     29. **Success (Replicated):** Interact North (15, 28) while at (15, 29) -> 'Kwaa!', then disappears on the next turn. (Matches step 15 in the log).
     30. **Discovery (Reappear Path):** Path (15, 27) -> (9, 34) after Kwaa!-disappear -> Reappears at (10, 35).
     31. **Success:** Interact North (10, 34) -> 'Kwaa!', then moves to (15, 29).
+    32. **Discovery (State-Dependent Outcome):** Interact East (16, 29) while at (15, 29) -> 'Kwaa!', no immediate movement.
