@@ -193,3 +193,8 @@
 13. **Move 4 (State-Dependent):** After 'Move 3', interact from East at (16, 29) -> Says 'Kwaa!', then moves to (15, 25) on the next turn.
 14. **Teleport 1:** After 'Move 4', interact from South at (15, 26) -> Says 'Kwaa!', teleports to (20, 24).
 15. **(Loop) Current State:** The puzzle has looped back to the state after 'Move 1' (Farfetch'd at (20, 24)). The next logical step is to replicate 'State Change 1' by interacting from the North at (20, 23).
+
+## VIII. Untested Assumptions & Alternative Hypotheses (Reflection Turn 22786)
+*   **Primary Assumption:** The second Farfetch'd puzzle is the only way to get HM01 Cut.
+    *   **Alternative Hypothesis 1 (Red Herring):** The puzzle is a distraction. The HM might be a reward from another NPC (like the charcoal maker in Azalea Town) now that the first puzzle is solved. **Test:** Return to Azalea Town and speak with the charcoal maker.
+    *   **Alternative Hypothesis 2 (Wrong Destination):** The goal isn't to herd the Farfetch'd to the apprentice, but to a different location, such as the Ilex Forest Shrine at (8, 22). **Test:** Attempt to herd the Farfetch'd towards the shrine.
