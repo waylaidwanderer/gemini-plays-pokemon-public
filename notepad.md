@@ -83,3 +83,5 @@
 ## B. Ilex Forest Second Farfetch'd Puzzle
 *   **Objective:** Herd the second Farfetch'd, presumably back to the apprentice.
 *   **Status:** Discovered the second Farfetch'd at (29, 22). The puzzle begins now.
+*   **Step 1:** Interacting from the South at (29, 23) moved it from its starting position of (29, 22) to (20, 24).
+*   **Step 2 (Failed):** Interacting from the East at (21, 24) resulted in no movement.
