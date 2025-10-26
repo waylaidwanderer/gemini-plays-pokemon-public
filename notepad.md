@@ -131,3 +131,4 @@
 46. **Success (State-Dependent Outcome):** Interacting from the North at (15, 24) while it was at (15, 25) after a 'disappear from East -> trigger reset' sequence caused it to move to (15, 29).
     47. **Discovery (Disappearance):** Interacting from the North at (15, 28) while it was at (15, 29) resulted in a 'Kwaa!' and then the Farfetch'd disappeared.
     41. **Failure:** Stepped on tile (14, 28) after a 'disappear from North interaction' sequence. Farfetch'd did not reappear.
+    42. **Failure:** Stepped on tile (14, 27) after a 'disappear from North interaction' sequence. Farfetch'd did not reappear.
