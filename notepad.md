@@ -125,3 +125,5 @@
 38. Discovery: The Farfetch'd disappeared on the following turn without further interaction after being turned.
 41. Discovery (Turn 22616): After a 'turn -> disappear -> trigger reset' sequence caused it to reappear at (20, 24), interacting from the East at (21, 24) caused it to disappear again. This confirms the interaction's outcome is state-dependent.
 42. **Test:** Stepped on trigger tile (25, 24) after a 'disappear from East interaction' sequence.
+    43. **Failure:** Systematic exploration of path from (28, 32) to (29, 22) did not cause reappearance.
+    44. **Failure:** Systematic exploration of path from (29, 22) to (26, 24) did not cause reappearance.
