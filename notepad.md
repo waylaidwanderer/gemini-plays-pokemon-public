@@ -130,3 +130,4 @@
 *   **Hypothesis 3:** The puzzle's goal might be to herd the Farfetch'd to a different location, like the Ilex Forest Shrine (8, 22).
 38. Discovery: The Farfetch'd disappeared on the following turn without further interaction after being turned.
 39. Discovery (Turn 22582): Stepped on trigger tile (25, 24) after the Farfetch'd disappeared (from turning), causing it to reappear at its starting position (29, 22).
+40. Failure: Interacting from the South at (29, 23) after a 'turn -> disappear -> trigger reset' sequence caused the Farfetch'd to turn, not move.
