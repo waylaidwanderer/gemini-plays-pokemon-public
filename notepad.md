@@ -150,3 +150,8 @@
     33. Failure: Replicating the first successful move (interacting from the South at (29, 23) while it was at its starting position (29, 22)) after a trigger tile reset now causes it to turn instead of move. The puzzle state is more complex than just position.
     38. Discovery: The Farfetch'd disappeared on the following turn without further interaction after being turned.
     40. Discovery (Turn 22598): Stepped on trigger tile (25, 24) after a 'disappear from turning (from North interaction)' sequence. This caused the Farfetch'd to reappear at (20, 24).
+
+## VIII. Untested Assumptions & Alternative Hypotheses (Reflection Turn 22786)
+*   **Primary Assumption:** The second Farfetch'd puzzle is the only way to get HM01 Cut.
+    *   **Alternative Hypothesis 1 (Red Herring):** The puzzle is a distraction. The HM might be a reward from another NPC (like the charcoal maker in Azalea Town) now that the first puzzle is solved. **Test:** Return to Azalea Town and speak with the charcoal maker.
+    *   **Alternative Hypothesis 2 (Wrong Destination):** The goal isn't to herd the Farfetch'd to the apprentice, but to a different location, such as the Ilex Forest Shrine at (8, 22). **Test:** Attempt to herd the Farfetch'd towards the shrine.
