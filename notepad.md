@@ -208,3 +208,4 @@
     33. **Success (Teleport):** Interact South (15, 26) -> 'Kwaa!', teleports to (20, 24).
     35. **Success (Replicated):** Interact North (20, 23) -> Turns, 'Kwaa!'.
     36. **Discovery:** Disappears on the next turn.
+    37. **Discovery:** Step on (25, 24) after North-turn-disappear -> Reappears at start (29, 22).
