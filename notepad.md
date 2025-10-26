@@ -219,3 +219,4 @@
 40. Discovery: Stepping on trigger tile (25, 24) after a 'Kwaa! from South interaction -> disappear' sequence caused the Farfetch'd to reappear at (20, 24).
     36. **Discovery:** Disappears on the next turn.
     37. **Discovery:** Step on (25, 24) after North-turn-disappear -> Reappears at start (29, 22).
+    41. **Discovery:** Interacting from the West at (28, 22) after a 'North-turn-disappear -> reset' sequence causes a 'Kwaa!', and then it disappears on the next turn.
