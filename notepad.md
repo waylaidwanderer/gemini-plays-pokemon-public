@@ -91,8 +91,7 @@
 # VIII. Future Test Plans
 *   **Farfetch'd Puzzle State Machine Test:** If the known linear sequence fails again after a full reset, I will test the alternative hypothesis that the puzzle is a state machine. The test will be to intentionally perform a different incorrect action at a known failure point to see if it results in a partial reset instead of a full one. This would indicate the puzzle's state influences the outcome of interactions.
 *   **Farfetch'd Puzzle Step 3 (Hypotheses Falsified):** My documented sequence for step 3 is incorrect. After the bird moves to (15, 25), interacting from the south (15, 26) or north (15, 24) does not work, even after a full puzzle reset.
-*   **New Hypothesis (Twig Noise):** I hypothesize that the puzzle is not solved by direct interaction at this stage. Instead, stepping on the piles of twigs on the ground may create a noise that causes the Farfetch'd at (15, 25) to move.
-*   **Test:** I will navigate to the twig pile at (14, 27) and step on it to observe the effect.
+*   **Corrected Puzzle Logic (Trigger Tile):** My previous hypothesis about 'twig piles' was incorrect; no such object exists. The puzzle is solved by stepping on a specific, unmarked FLOOR tile that acts as a trigger. Stepping on the tile at (14, 27) caused the Farfetch'd at (15, 25) to move, clearing the path.
 *   Wade (Phone): Bug-Catching Contest at the National Park today.
 
 # IX. To-Do & Reminders
