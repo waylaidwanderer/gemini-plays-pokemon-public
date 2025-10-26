@@ -61,6 +61,7 @@
 *   **Status:** Solved.
 *   **Solution:** The puzzle is solved by herding the Farfetch'd and stepping on specific, unmarked FLOOR tiles that act as triggers. The key trigger tile was at (14, 27).
 ### B. Ilex Forest Farfetch'd Puzzle (Second)
+*   **Summary & Current Hypothesis:** The puzzle is not a simple, repeatable sequence. It involves a complex state machine where interactions from specific directions and stepping on hidden trigger tiles cause the Farfetch'd to move, disappear, or reappear. My hypothesis-driven approach has failed. The current strategy is to systematically explore the entire puzzle area with `path_explorer` to find all trigger tiles.
 *   **Objective:** Herd the second Farfetch'd, presumably back to the apprentice.
 *   **Status:** In progress. The Farfetch'd has disappeared.
 *   **Move History:**
