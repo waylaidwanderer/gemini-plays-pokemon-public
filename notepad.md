@@ -98,4 +98,3 @@
 # IX. To-Do & Reminders
 *   Re-create map markers for Farfetch'd (object_id: 1) and the Apprentice (object_id: 2) in Ilex Forest, linking them to their object IDs. This must be done the next time they are on screen.
 *   Hiker Anthony (Phone): Tons of DUNSPARCE in DARK CAVE.
-*   Reminder: Re-create map markers for GRAMPS (ID 2), TEACHER (ID 3), SLOWPOKE (ID 6), and SLOWPOKE (ID 8) with their object_ids next time they are on screen.
