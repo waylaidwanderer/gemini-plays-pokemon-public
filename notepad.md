@@ -146,3 +146,4 @@
     30. **Test:** Interacting from the North at (20, 23) while it is at (20, 24) to see if it moves or disappears.
     31. **Result of Test 30:** Interacting from the North at (20, 23) caused the Farfetch'd to turn and say 'Kwaa!'. It did not immediately move or disappear.
     38. Discovery: The Farfetch'd disappeared on the following turn without further interaction after being turned.
+    39. Discovery (Turn 22764): Stepped on trigger tile (25, 24) after a 'disappear from turning (from North interaction)' sequence. This caused the Farfetch'd to reappear at its starting position (29, 22).
