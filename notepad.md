@@ -40,8 +40,6 @@
 *   **Falkner (Violet City):** Pidgey (Lv7), Pidgeotto (Lv9).
 *   **Bugsy (Azalea Town):** Metapod (Lv14), Kakuna (Lv14), Scyther (Lv16).
 *   **Fisher Justin (Route 32):** Magikarp x4.
-## C. Battle Mechanics
-*   **Wrap:** Traps the target for several turns, preventing them from switching or fleeing.
 
 # IV. Story & Quests
 *   **Primary Quest: Obtain HM01 Cut**
