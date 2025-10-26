@@ -73,5 +73,6 @@
 *   **Corrected Puzzle Logic (Trigger Tile):** My previous hypothesis about 'twig piles' was incorrect; no such object exists. The puzzle is solved by stepping on a specific, unmarked FLOOR tile that acts as a trigger. Stepping on the tile at (14, 27) caused the Farfetch'd at (15, 25) to move, clearing the path.
 *   Wade (Phone): Bug-Catching Contest at the National Park today.
 
-# VIII. Agent Performance & Hallucinations
-*   **`goal_manager` Hallucination (Turn 21825):** The agent incorrectly stated that I possessed HM01 Cut. This was proven false by checking my TM/HM and Key Item pockets (Turn 21831). This led to a flawed strategic recommendation. **Conclusion:** I must verify agent outputs against the direct game state before acting on them, especially when they claim possession of key items.
+# VIII. Agent & Tool Performance Log
+*   **`goal_manager` Hallucination (Turn 21825):** The agent incorrectly stated that I possessed HM01 Cut. This was proven false by checking my bag. **Correction (Turn 21865):** The agent's system prompt was updated to be stricter about item possession, preventing it from assuming I have items not explicitly listed in its input.
+*   **`path_finder` Failure (Turn 21869):** The tool generated an invalid path through a stationary NPC. **Correction (Turn 21871):** The tool's script was updated to check for the `has-object='true'` tile attribute, making obstacle detection more robust.
