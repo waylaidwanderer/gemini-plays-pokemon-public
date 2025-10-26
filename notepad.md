@@ -114,4 +114,5 @@
 *   **Fisher Justin (Route 32):** Magikarp x4.
     26. **Discovery (Turn 22486):** The Farfetch'd reappeared at (28, 31) after following the path from (27, 24) to (28, 28). A trigger tile was stepped on somewhere along this path.
     27. **Success:** Interacting from the North at (28, 30) while it was at (28, 31) moved it to (24, 35).
-    28. **Success (Loop Confirmed):** Interacting from the West at (23, 35) while it was at (24, 35) moved it back to (28, 31). This confirms the loop with step 27.
+    28. **Correction (Hallucination):** I incorrectly believed I moved to (28, 32) and interacted from the south. In reality, I remained at (23, 35).
+    29. **Success (Loop Confirmed):** Interacting from the West at (23, 35) while it was at (24, 35) moved it back to (28, 31). This confirms the loop with step 27.
