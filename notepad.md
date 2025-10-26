@@ -100,10 +100,6 @@
     30. **Test:** Interacting from the North at (20, 23) while it is at (20, 24) to see if it moves or disappears.
     31. **Result of Test 30:** Interacting from the North at (20, 23) caused the Farfetch'd to turn and say 'Kwaa!'. It did not immediately move or disappear.
 
-## VIII. Untested Assumptions & Alternative Hypotheses (Reflection Turn 22786)
-*   **Primary Assumption:** The second Farfetch'd puzzle is the only way to get HM01 Cut.
-    *   **Alternative Hypothesis 1 (Red Herring):** The puzzle is a distraction. The HM might be a reward from another NPC (like the charcoal maker in Azalea Town) now that the first puzzle is solved. **Test:** Return to Azalea Town and speak with the charcoal maker. **Conclusion (Turn 23171):** Hypothesis invalidated. The charcoal maker's dialogue confirms his apprentice is still 'lost' in Ilex Forest. The second Farfetch'd puzzle is mandatory to progress.
-    *   **Alternative Hypothesis 2 (Wrong Destination):** The goal isn't to herd the Farfetch'd to the apprentice, but to a different location, such as the Ilex Forest Shrine at (8, 22). **Test:** Attempt to herd the Farfetch'd towards the shrine.
 46. **Discovery (Turn 22790):** Walking the trigger path from (26, 24) to (20, 24) after a 'disappear from East interaction' sequence caused the Farfetch'd to reappear at (15, 25).
 
 ## IX. CORRECTED PUZZLE LOG (TEMP)
@@ -172,8 +168,3 @@
     42. **Failure:** Stepping on trigger tile (25, 24) after a 'Kwaa! from West interaction -> disappear' sequence did NOT cause the Farfetch'd to reappear at its start position (29, 22).
     43. **Failure:** Stepped on hard reset tile (15, 27) after a 'Kwaa!' disappearance sequence. Farfetch'd did not reappear.
     44. **Failure:** Walking the path from (15, 27) to (9, 34) after a 'Kwaa!' disappearance sequence did not cause the Farfetch'd to reappear.
-
-## VIII. Untested Assumptions & Alternative Hypotheses (Reflection Turn 22786)
-*   **Primary Assumption:** The second Farfetch'd puzzle is the only way to get HM01 Cut.
-    *   **Alternative Hypothesis 1 (Red Herring):** The puzzle is a distraction. The HM might be a reward from another NPC (like the charcoal maker in Azalea Town) now that the first puzzle is solved. **Test:** Return to Azalea Town and speak with the charcoal maker. **Conclusion (Turn 23171):** Hypothesis invalidated. The charcoal maker's dialogue confirms his apprentice is still 'lost' in Ilex Forest. The second Farfetch'd puzzle is mandatory to progress.
-    *   **Alternative Hypothesis 2 (Wrong Destination):** The goal isn't to herd the Farfetch'd to the apprentice, but to a different location, such as the Ilex Forest Shrine at (8, 22). **Test:** Attempt to herd the Farfetch'd towards the shrine.
