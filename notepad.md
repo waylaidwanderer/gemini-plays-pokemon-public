@@ -128,3 +128,4 @@
 *   **Hypothesis 1:** The puzzle is a red herring. The HM is obtained from a different NPC after solving the *first* puzzle, and I just haven't found them yet.
 *   **Hypothesis 2:** The puzzle's solution is time-based.
 *   **Hypothesis 3:** The puzzle's goal might be to herd the Farfetch'd to a different location, like the Ilex Forest Shrine (8, 22).
+38. Discovery: The Farfetch'd disappeared on the following turn without further interaction after being turned.
