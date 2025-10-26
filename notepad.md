@@ -11,20 +11,18 @@
 *   **Verify Agent Outputs:** Always verify agent claims (e.g., item possession) against the direct game state before acting.
 
 # II. Tile Traversal Rules
-*   **Traversable:** TALL_GRASS, LONG_GRASS, DOOR, WARP_CARPET_DOWN, LADDER, FLOOR, WARP_CARPET_RIGHT.
+*   **Traversable:** TALL_GRASS, LONG_GRASS, DOOR, WARP_CARPET_DOWN, LADDER, FLOOR, WARP_CARPET_RIGHT, WARP_CARPET_LEFT.
 *   **Impassable (Verified):** WALL, WINDOW, CUT_TREE, SIGN, BOOKSHELF, BLACKBOARD, MART_SHELF, BUOY, TV, TOWN_MAP, BIRD, HEADBUTT_TREE, FRUIT_TREE, COMPUTER, PRINTER, VOID, WATER, CAVE, COUNTER.
-*   **Failure to Test New Mechanics (Turn 20104):** Overwatch correctly identified that I had a list of untested tile types, violating my core principle of immediate testing. A script confirmed these tiles are not on the current map (Ilex Forest), meaning I failed to test them on a previous map when I first encountered them. **Correction:** I must adhere to the Observe, Hypothesize, Test, Conclude method for all new mechanics the moment they are discovered. I have removed the unactionable 'Untested' list for now.
 *   **One-Way Traversal:**
     *   LEDGE_HOP_DOWN: Can only be entered from above.
     *   LEDGE_HOP_RIGHT: Can only be entered from the left.
     *   LEDGE_HOP_LEFT: Can only be entered from the right.
 *   **Special Interaction (Warp):**
-    *   **CAVE:** Can act as a one-way warp. Route 33 (11, 9) -> Union Cave (17, 31). Route 32 (6, 79) -> Union Cave (17, 3).
-    *   **WARP_CARPET_DOWN:** Activated by pressing Down while standing on the tile.
-    *   **WARP_CARPET_RIGHT:** Activated by pressing Right while standing on the tile.
+    *   **CAVE:** Can act as a one-way warp.
+    *   **WARP_CARPET_DOWN/RIGHT/LEFT:** Activated by pressing in the indicated direction.
 *   **Special Interaction (Walls/Floors):**
     *   **FLOOR_UP_WALL:** A one-way slide. Movement *from* this tile is only possible Down. Movement *onto* this tile is only possible by moving UP from a tile below (Y+1 -> Y).
-    *   **Visual Ledges (FLOOR type):** Some FLOOR tiles are visually one-way ledges and are impassable from below. Verified at UnionCave1F, preventing movement from (7, 26) up to (7, 25).
+    *   **Visual Ledges (FLOOR type):** Some FLOOR tiles are visually one-way ledges and are impassable from below.
 *   **Special Interaction (Interactable):**
     *   **PC:** Interact by standing below it at (X, Y+1), facing up.
     *   **COUNTER:** Interact with NPCs behind it by standing in front of the counter.
