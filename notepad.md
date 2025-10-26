@@ -69,7 +69,9 @@
     3.  **Success:** Interacting from the North at (15, 24) moved it from (15, 25) to (15, 29).
     4.  **Success:** Interacting from the North at (15, 28) while it was at (15, 29) caused it to move to (10, 35).
     5.  **Success:** Interacting from the North at (10, 34) while it was at (10, 35) caused it to teleport to (15, 29).
-    6.  **Failure:** Interacting from the West at (14, 29) while it was at (15, 29) caused it to make a sound and then disappear from view.
+    6.  **Failure:** Interacting from the West at (14, 29) while it was at (15, 29) caused it to disappear.
+    7.  **Discovery:** Stepped on a trigger tile somewhere on the path between (25, 24) and (16, 28), causing it to reappear at (22, 31).
+    8.  **Success:** Interacting from the North at (22, 30) while it was at (22, 31) moved it to (28, 31).
 
 ## VI. System & Tool Performance Log
 *   **System Alert Verifications:**
