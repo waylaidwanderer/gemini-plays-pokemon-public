@@ -14,7 +14,7 @@
 *   **Traversable:** TALL_GRASS, LONG_GRASS, DOOR, LADDER, FLOOR.
 *   **Impassable (Verified):** WALL, WINDOW, CUT_TREE, SIGN, BOOKSHELF, BLACKBOARD, MART_SHELF, BUOY, TV, TOWN_MAP, BIRD, HEADBUTT_TREE, FRUIT_TREE, COMPUTER, PRINTER, VOID, WATER, CAVE, COUNTER.
 *   **One-Way Traversal:**
-    *   LEDGE_HOP_DOWN: Can only be entered from above.
+    *   **LEDGE_HOP_DOWN:** A one-way ledge. Can only be entered from a tile directly above it (Y-1 -> Y), which forces movement to the tile below it (Y -> Y+1).
     *   LEDGE_HOP_RIGHT: Can only be entered from the left.
     *   LEDGE_HOP_LEFT: Can only be entered from the right.
 *   **Special Interaction (Warp):**
