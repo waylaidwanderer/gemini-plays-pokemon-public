@@ -12,11 +12,11 @@
 
 ## II. Tile Traversal Rules
 *   **Traversable:** TALL_GRASS, LONG_GRASS, DOOR, LADDER, FLOOR.
-*   **Impassable (Verified):** WALL, WINDOW, CUT_TREE, SIGN, BOOKSHELF, BLACKBOARD, MART_SHELF, BUOY, TV, TOWN_MAP, BIRD, HEADBUTT_TREE, FRUIT_TREE, COMPUTER, PRINTER, VOID, WATER, CAVE, COUNTER.
+*   **Impassable (Verified):** WALL, WINDOW, CUT_TREE, SIGN, BOOKSHELF, BLACKBOARD, MART_SHELF, BUOY, TV, TOWN_MAP, BIRD, HEADBUTT_TREE, FRUIT_TREE, COMPUTER, PRINTER, VOID, WATER, CAVE, COUNTER, CUT_08, CUT_28_GARBAGE.
 *   **One-Way Traversal:**
     *   **LEDGE_HOP_DOWN:** A one-way ledge. Can only be entered from a tile directly above it (Y-1 -> Y), which forces movement to the tile below it (Y -> Y+1).
-    *   LEDGE_HOP_RIGHT: Can only be entered from the left.
-    *   LEDGE_HOP_LEFT: Can only be entered from the right.
+    *   **LEDGE_HOP_RIGHT:** Can only be entered from the left.
+    *   **LEDGE_HOP_LEFT:** Can only be entered from the right.
 *   **Special Interaction (Warp):**
     *   **CAVE:** Can act as a one-way warp.
     *   **WARP_CARPET_DOWN:** Activated by pressing Down.
@@ -46,7 +46,7 @@
 ## IV. Story & Quests
 *   **Primary Quest: Obtain HM01 Cut**
     *   **Current Hypothesis:** The quest requires solving a second Farfetch'd puzzle in Ilex Forest.
-    *   **Status:** In progress. The second Farfetch'd has disappeared after a failed interaction. Currently searching for it.
+    *   **Status:** In progress. The second Farfetch'd has disappeared. Currently searching for it.
 *   **Secondary Quest: Kurt's Custom Balls**
     *   **Objective:** Wait one day for Kurt to finish making a custom ball from the WHT APRICORN.
     *   **Status:** Blocked by time.
@@ -72,6 +72,23 @@
     6.  **Failure:** Interacting from the West at (14, 29) while it was at (15, 29) caused it to disappear.
     7.  **Discovery:** Stepped on a trigger tile somewhere on the path between (25, 24) and (16, 28), causing it to reappear at (22, 31).
     8.  **Success:** Interacting from the North at (22, 30) while it was at (22, 31) moved it to (28, 31).
+    9.  **Failure:** Interacting from the South at (28, 32) while it was at (28, 31) caused it to disappear.
+    10. **Discovery:** Stepped on a trigger tile somewhere on the path between (28, 32) and (26, 24), causing it to reappear at its starting position (29, 22). This resets the puzzle.
+    11. **Failure:** Replicating the first successful move (interacting from the South at (29, 23) while it was at its starting position (29, 22)) after a reset now causes it to disappear. The puzzle is not a simple repeatable sequence.
+    12. **Failure:** Replicating the reset path trigger (walking from (28, 32) to (26, 24)) after the puzzle reset and a subsequent failed interaction did NOT cause the Farfetch'd to reappear. The trigger is not a simple repeatable path.
+    13. **Discovery (Turn 22331):** Stepping on tile (25, 24) after a full puzzle reset triggered the Farfetch'd to reappear at (20, 24).
+    14. **Failure:** Interacting from the North at (20, 23) while it was at (20, 24) caused it to disappear.
+    15. **Failure:** Interacting from the West at (28, 22) while it was at its starting position (29, 22) caused it to disappear.
+    16. **Failure:** Stepping on the trigger tile at (25, 24) after a failed interaction from the west did NOT cause the Farfetch'd to reappear.
+    17. **Failure:** Stepping on the trigger tile at (25, 24) after speaking with the apprentice at (7, 28) did NOT cause the Farfetch'd to reappear. The trigger is not a simple sequence.
+    18. **Discovery (Turn 22404):** The Farfetch'd reappeared at (28, 31) after following the systematic search path to (28, 30). A trigger tile was stepped on somewhere along this path.
+    19. **Success:** Interacting from the North at (28, 30) while it was at (28, 31) moved it to (24, 35).
+    20. **Success (Loop Discovery):** Interacting from the West at (23, 35) while it was at (24, 35) moved it back to (28, 31). This forms a loop with step 19.
+    21. **Failure:** Interacting from the South at (28, 32) while it was at (28, 31) caused it to disappear.
+### C. HM01 Cut Quest - Alternative Hypotheses
+*   The second Farfetch'd puzzle might be a red herring. The HM could be obtained through another trigger, perhaps time-based or by talking to a specific NPC after the first puzzle was solved.
+*   The puzzle's goal might be to herd the Farfetch'd to a different location, like the Ilex Forest Shrine (8, 22).
+*   The puzzle might be solved by stepping on a specific sequence of trigger tiles, not by herding the Farfetch'd.
 
 ## VI. System & Tool Performance Log
 *   **System Alert Verifications:**
@@ -88,20 +105,5 @@
 *   **Reflection Log (Turn 21955):** My biggest failure was not immediately verifying the trigger for the HM01 Cut reward after solving the first Farfetch'd puzzle. I incorrectly assumed the puzzle was the final step, but the charcoal maker's dialogue confirmed the apprentice is still 'lost'. This led me to discover the second Farfetch'd puzzle.
 *   **Overwatch Critique Reflection (Turn 22059):** My debugging process for `path_explorer` was inefficient. I failed to propagate a logic fix from `path_finder`, causing repeated failures. I also failed to immediately mark the second Farfetch'd's location, violating the 'immediate update' rule. I must be more disciplined.
 *   **Reflection Log (Turn 22162):** My debugging of `path_explorer` was inefficient. I repeatedly submitted identical, non-functional code. My new process is to use `run_code` for isolated testing first. I also documented alternative hypotheses for the HM01 Cut quest, including time-based triggers or unmarked trigger tiles.
-*   **Overwatch Critique Reflection (Turn 22262):** I was over-reliant on `battle_strategist` for trivial wild encounters and made repeated input errors in battle menus. I need to be more efficient and decisive in simple situations and more careful with my inputs. I also failed again to reorganize my notepad.
-*   **Discovery (Turn 22281):** The Farfetch'd reappeared at (22, 31) after I followed a systematic search path. This strongly suggests a trigger tile was stepped on somewhere on the path segment between (25, 24) and my current position (16, 28).
-    9. **Failure:** Interacting from the South at (28, 32) while it was at (28, 31) caused it to disappear.
-    10. **Discovery:** Stepped on a trigger tile somewhere on the path between (28, 32) and my current position (26, 24), causing it to reappear at its starting position (29, 22). This resets the puzzle.
-    11. **Failure:** Replicating the first successful move (interacting from the South at (29, 23) while it was at its starting position (29, 22)) after a reset now causes it to disappear. The puzzle is not a simple repeatable sequence.
-### C. HM01 Cut Quest - Alternative Hypotheses
-- The second Farfetch'd puzzle might be a red herring. The HM could be obtained through another trigger, perhaps time-based or by talking to a specific NPC after the first puzzle was solved.
-    12. **Failure:** Replicating the reset path trigger (walking from (28, 32) to (26, 24)) after the puzzle reset and a subsequent failed interaction did NOT cause the Farfetch'd to reappear. The trigger is not a simple repeatable path.
-    *   **Discovery (Turn 22331):** Stepping on tile (25, 24) after a full puzzle reset triggered the Farfetch'd to reappear at (20, 24).
-    13. **Failure:** Interacting from the North at (20, 23) while it was at (20, 24) caused it to disappear.
-    14. **Failure:** Interacting from the West at (28, 22) while it was at its starting position (29, 22) caused it to disappear.
-    15. **Failure:** Stepping on the trigger tile at (25, 24) after a failed interaction from the west did NOT cause the Farfetch'd to reappear.
-    16. **Correction (Turn 22378):** I experienced a hallucination and incorrectly believed I had moved to (25, 24) and tested the trigger tile. In reality, I remained at (7, 29). The test was invalid. My hypothesis that the trigger requires speaking to the apprentice first remains untested.
-    17. **Failure:** Stepping on the trigger tile at (25, 24) after speaking with the apprentice at (7, 28) did NOT cause the Farfetch'd to reappear. The trigger is not a simple sequence.
-    18. **Discovery (Turn 22404):** The Farfetch'd reappeared at (28, 31) after following the systematic search path to (28, 30). A trigger tile was stepped on somewhere along this path.
-    19. **Success:** Interacting from the North at (28, 30) while it was at (28, 31) moved it to (24, 35).
-    20. **Success (Loop Discovery):** Interacting from the West at (23, 35) while it was at (24, 35) moved it back to (28, 31). This forms a loop with step 19.
+*   **Overwatch Critique Reflection (Turn 22262):** I was over-reliant on `battle_strategist` for trivial wild encounters and made repeated input errors in battle menus. I need to be more efficient and decisive in simple situations and more careful with my inputs.
+*   **Correction (Turn 22378):** I experienced a hallucination and incorrectly believed I had moved to (25, 24) and tested the trigger tile. In reality, I remained at (7, 29). The test was invalid. My hypothesis that the trigger requires speaking to the apprentice first remains untested.
