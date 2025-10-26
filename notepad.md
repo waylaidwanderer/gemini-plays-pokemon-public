@@ -46,18 +46,20 @@
 *   **Wrap:** Traps the target for several turns, preventing them from switching or fleeing.
 
 # IV. Story & Quests
-*   **Primary Quest: Travel to Goldenrod City**
-    *   **Objective:** Reach Goldenrod City by clearing the path through Ilex Forest.
-    *   **Status:** Completed the Farfetch'd puzzle and received HM01 Cut. Now I need to catch a Pokémon that can learn Cut to clear the tree at (8, 25).
-*   **Secondary Quest: Complete Sprout Tower**
-    *   **Objective:** Reach the top of Sprout Tower and defeat the Elder.
-    *   **Status:** Blocked. Need to find the correct path up the western ladder system.
-*   **Tertiary Quest: Investigate Union Cave Roars**
-    *   **Objective:** Discover the source of the strange roars heard in Union Cave on Fridays.
-    *   **Status:** Blocked. Requires it to be Friday.
-*   **NPC Hints & Lore:**
-    *   WADE (Route 31): Will share BERRIES.
-    *   Hiker Anthony (Phone): Tons of DUNSPARCE in DARK CAVE.
+*   **Primary Quest: Use HM01 Cut**
+    *   **Objective:** Find a Pokémon that can learn HM01 Cut to clear the path in Ilex Forest.
+    *   **Status:** Currently blocked. I have no Poké Balls and the Azalea Mart clerk is blocked by an NPC.
+*   **Secondary Quest: Follow Rival**
+    *   **Objective:** Follow my Rival west through Ilex Forest.
+    *   **Status:** This is the current active plan since buying Poké Balls is blocked.
+*   **Tertiary Quest: Kurt's Custom Balls**
+    *   **Objective:** Wait one day for Kurt to finish making a custom ball from the WHT APRICORN.
+    *   **Status:** Blocked by time. This might unblock the Poké Mart.
+*   **Side Quests & NPC Hints:**
+    *   **Sprout Tower:** Reach the top and defeat the Elder. (Blocked, need to find correct path).
+    *   **Union Cave Roars:** Investigate on a Friday. (Blocked by time).
+    *   **Bug-Catching Contest:** At the National Park. (From Wade phone call).
+    *   **Hiker Anthony (Phone):** Tons of DUNSPARCE in DARK CAVE.
 
 # V. Puzzle Logs & Navigational Failures
 ## A. Ilex Forest Farfetch'd Puzzle
