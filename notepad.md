@@ -30,7 +30,7 @@
 ## IV. Tile Traversal Rules
 *   **Traversable:** TALL_GRASS, LONG_GRASS, DOOR, LADDER, FLOOR.
 *   **Impassable (Verified):** WALL, WINDOW, CUT_TREE, SIGN, BOOKSHELF, BLACKBOARD, MART_SHELF, BUOY, TV, TOWN_MAP, BIRD, HEADBUTT_TREE, FRUIT_TREE, COMPUTER, PRINTER, WATER, CAVE, COUNTER, CUT_08, CUT_28_GARBAGE.
-*   **Impassable (Hypothesized):** VOID. (Needs testing).
+*   **Impassable (Verified):** VOID.
 *   **One-Way Traversal:**
     *   **LEDGE_HOP_DOWN:** A one-way ledge. Can only be entered from a tile directly above it (Y-1 -> Y), which forces movement to the tile below it (Y -> Y+1).
     *   **LEDGE_HOP_RIGHT:** Can only be entered from the left.
