@@ -214,3 +214,4 @@
     40. Discovery: Stepping on trigger tile (25, 24) after a 'Kwaa! from South interaction -> disappear' sequence caused the Farfetch'd to reappear at (20, 24).
     23. **Discovery:** Disappears on the next turn. (Matches step 18).
     37. **Discovery:** Step on (25, 24) after North-turn-disappear -> Reappears at start (29, 22).
+38. Failure: Interacting from the South at (29, 23) after a 'turn -> disappear -> trigger reset' sequence now causes the Farfetch'd to turn and say 'Kwaa!', not move. This confirms the puzzle state has changed.
