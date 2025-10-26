@@ -161,3 +161,5 @@
 *   **Test to Disprove:** If stepping on (15, 27) has no effect, the primary assumption is invalid. The next step would be to systematically test other known trigger paths (e.g., the path from (26, 24) to (20, 24)) to see if they cause a reappearance from this specific 'disappeared' state.
     47. **Failure:** Walking the trigger path from (15, 27) to (9, 34) after a 'Kwaa! disappear' sequence did not cause the Farfetch'd to reappear. The hypothesis is invalid.
     48. **Failure:** Walking the trigger path from (26, 24) to (20, 24) after a 'Kwaa! disappear' sequence did not cause the Farfetch'd to reappear.
+    49. **Hypothesis Test (Talk to Apprentice):** Spoke to the apprentice at (7, 28) while the Farfetch'd was in a 'Kwaa! disappear' state.
+    50. **Conclusion:** Failure. The apprentice's dialogue was unchanged. This hypothesis is invalid. All known triggers have been exhausted.
