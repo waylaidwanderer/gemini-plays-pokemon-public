@@ -140,4 +140,5 @@
     25. **Failure:** Walking the path from (26, 24) to (20, 24) after a 'Kwaa!' disappearance sequence did not cause the Farfetch'd to reappear.
     26. **Failure:** Stepped on hard reset tile (15, 27) after a 'Kwaa!' disappearance sequence. Farfetch'd did not reappear.
     26. **Discovery:** After a 'Kwaa!' disappearance, walking the path from (15, 27) to (9, 34) caused the Farfetch'd to reappear at (10, 35).
-    27. **Discovery (State-Dependent Outcome):** Interacting from the North at (10, 34) while it was at (10, 35) after the 'Kwaa! -> path reset' sequence caused it to move to (15, 29).
+        27. **Discovery (State-Dependent Outcome):** Interacting from the North at (10, 34) while it was at (10, 35) after the 'Kwaa! -> path reset' sequence caused it to move to (15, 29).
+    28. **Success (State-Dependent Outcome):** Interacting from the East at (16, 29) while it was at (15, 29) caused it to move to (15, 25).
