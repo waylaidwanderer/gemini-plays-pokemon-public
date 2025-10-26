@@ -104,9 +104,7 @@
 
 ## IX. CORRECTED PUZZLE LOG (TEMP)
 ### B. Ilex Forest Farfetch'd Puzzle (Second) - Chronological Log
-*   **Summary & Current Hypothesis:** The puzzle is a complex state machine. Interactions from specific directions and stepping on hidden trigger tiles cause the Farfetch'd to move, disappear, or reappear. The same action can have different results depending on the puzzle's internal state.
-*   **Objective:** Herd the second Farfetch'd, presumably back to the apprentice.
-*   **Status:** In progress.
+
 *   **Move History:**
 
     21. **Test:** Interact North (20, 23) -> Turns, 'Kwaa!'. Disappears on next turn.
