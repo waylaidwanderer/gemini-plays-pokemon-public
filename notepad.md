@@ -77,17 +77,7 @@
     34. **Discovery:** Moving onto the Farfetch'd's tile (29, 22) from the south (29, 23) caused it to disappear.
     35. **Failure:** Stepping on tile (28, 22) after the Farfetch'd disappeared did not cause it to reappear.
     36. **Discovery:** Stepping on tile (25, 24) after the Farfetch'd disappeared caused it to reappear at (20, 24).
-37. Failure: Interacting from the North at (20, 23) while it was at (20, 24) caused it to turn instead of disappearing (as it did in step 14).
-### C. HM01 Cut Quest - Alternative Hypotheses
-*   **Hypothesis 1:** The puzzle is a red herring. The HM is obtained from a different NPC after solving the *first* puzzle, and I just haven't found them yet.
-*   **Hypothesis 2:** The puzzle's solution is time-based.
-*   **Hypothesis 3:** The puzzle's goal might be to herd the Farfetch'd to a different location, like the Ilex Forest Shrine (8, 22).
-38. Discovery: The Farfetch'd disappeared on the following turn without further interaction after being turned.
-39. Discovery (Turn 22585): Stepped on trigger tile (25, 24) after a 'disappear from turning (from South interaction)' sequence. This caused the Farfetch'd to reappear at its starting position (29, 22).
-40. Discovery (Turn 22598): Stepped on trigger tile (25, 24) after a 'disappear from turning (from North interaction)' sequence. This caused the Farfetch'd to reappear at (20, 24).
-40. Failure: Interacting from the South at (29, 23) after a 'turn -> disappear -> trigger reset' sequence caused the Farfetch'd to turn, not move.
-38. Discovery: The Farfetch'd disappeared on the following turn without further interaction after being turned.
-41. Discovery (Turn 22616): After a 'turn -> disappear -> trigger reset' sequence caused it to reappear at (20, 24), interacting from the East at (21, 24) caused it to disappear again. This confirms the interaction's outcome is state-dependent.
+
 42. **Test:** Stepped on trigger tile (25, 24) after a 'disappear from East interaction' sequence.
     43. **Failure:** Systematic exploration of path from (28, 32) to (29, 22) did not cause reappearance.
     44. **Failure:** Systematic exploration of path from (29, 22) to (26, 24) did not cause reappearance.
