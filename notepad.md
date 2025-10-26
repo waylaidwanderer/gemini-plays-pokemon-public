@@ -222,3 +222,4 @@
     41. **Discovery:** Interacting from the West at (28, 22) after a 'North-turn-disappear -> reset' sequence causes a 'Kwaa!', and then it disappears on the next turn.
     42. **Failure:** Stepping on trigger tile (25, 24) after a 'Kwaa! from West interaction -> disappear' sequence did NOT cause the Farfetch'd to reappear at its start position (29, 22).
     43. **Failure:** Stepped on hard reset tile (15, 27) after a 'Kwaa!' disappearance sequence. Farfetch'd did not reappear.
+    44. **Failure:** Walking the path from (15, 27) to (9, 34) after a 'Kwaa!' disappearance sequence did not cause the Farfetch'd to reappear.
