@@ -133,3 +133,4 @@
     41. **Failure:** Stepped on tile (14, 28) after a 'disappear from North interaction' sequence. Farfetch'd did not reappear.
     42. **Failure:** Stepped on tile (14, 27) after a 'disappear from North interaction' sequence. Farfetch'd did not reappear.
     43. **Failure:** Stepped on tile (14, 26) after a 'disappear from North interaction' sequence. Farfetch'd did not reappear.
+    44. **Failure:** Stepped on tile (15, 26) after a 'disappear from North interaction' sequence. Farfetch'd did not reappear.
