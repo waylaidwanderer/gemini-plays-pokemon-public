@@ -65,17 +65,26 @@
 *   **Objective:** Herd the Farfetch'd to the apprentice at (7, 28).
 *   **Status:** Solved.
 *   **Solution:** The puzzle is solved by herding the Farfetch'd and stepping on specific, unmarked FLOOR tiles that act as triggers. The key trigger tile was at (14, 27).
-### B. Ilex Forest Farfetch'd Puzzle (Second)
-*   **Summary & Current Hypothesis:** The puzzle is a complex state machine. Interactions from specific directions and stepping on hidden trigger tiles cause the Farfetch'd to move, disappear, or reappear. My previous attempts to solve it with simple hypotheses have failed. The current strategy is to systematically explore the puzzle area to find trigger tiles and use the `puzzle_state_tracker` agent to model the puzzle's logic.
+### B. Ilex Forest Farfetch'd Puzzle (Second) - Chronological Log
+*   **Summary & Current Hypothesis:** The puzzle is a complex state machine. Interactions from specific directions and stepping on hidden trigger tiles cause the Farfetch'd to move, disappear, or reappear. The same action can have different results depending on the puzzle's internal state.
 *   **Objective:** Herd the second Farfetch'd, presumably back to the apprentice.
 *   **Status:** In progress. The Farfetch'd has disappeared.
 *   **Move History:**
-    [LOG CHUNK 1 - PENDING REORGANIZATION]
-    21. **Failure:** Interacting from the South at (28, 32) while it was at (28, 31) caused it to disappear.
-    22. **Discovery (Turn 22443):** The Farfetch'd reappeared at its starting position (29, 22) after following the systematic search path to (28, 22). A trigger tile was stepped on somewhere along the path from (28, 29) to (28, 22).
-    23. **Failure:** Interacting from the West at (28, 22) after the Farfetch'd reappeared at its starting position (29, 22) via a systematic search path caused it to disappear.
-    24. **Failure:** Stepping on tile (28, 23) after the Farfetch'd disappeared did not cause it to reappear.
-    25. **Failure:** Stepping on tile (28, 22) after the Farfetch'd disappeared did not cause it to reappear.
+    1.  **Discovery:** Farfetch'd starts at (29, 22).
+    2.  **Success:** Interacting from South at (29, 23) -> Moved to (20, 24).
+    3.  **Failure:** Interacting from East at (21, 24) -> No effect.
+    4.  **Discovery (Reset):** Stepping on a twig pile at (15, 27) -> Reset to start (29, 22).
+    5.  **Failure:** Interacting from South at (29, 23) after reset -> Disappeared.
+    6.  **Discovery (Reappear):** Walking path from (28, 32) to (26, 24) -> Reappeared at start (29, 22).
+    7.  **Discovery (Reappear):** Stepping on (25, 24) after a disappearance -> Reappeared at (20, 24).
+    8.  **Failure:** Interacting from North at (20, 23) -> Disappeared.
+    9.  **Discovery (Turn):** Interacting from North at (20, 23) in a different state -> Turned to face North.
+    10. **Discovery (Disappear after Turn):** Farfetch'd disappeared on the next turn without interaction after being turned.
+    11. **Discovery (State-Dependent Trigger):** Stepping on (25, 24) after a 'disappear from turning' sequence can cause it to reappear at either start (29, 22) or (20, 24).
+    12. **Failure:** Interacting from South at (29, 23) after a 'turn -> disappear -> reset' sequence -> Turned to face South.
+    13. **Discovery:** Interacting from East at (21, 24) after a 'turn -> disappear -> reset to (20,24)' sequence -> Disappeared.
+    14. **Failure:** Stepping on (25, 24) after the sequence in step 13 -> No effect.
+    15. **Failure:** Walking path from (27, 24) to (28, 28) after the sequence in step 13 -> No effect.
 ### C. HM01 Cut Quest - Alternative Hypotheses
 *   **Hypothesis 1:** The puzzle is a red herring. The HM is obtained from a different NPC after solving the *first* puzzle, and I just haven't found them yet.
 *   **Hypothesis 2:** The puzzle's solution is time-based.

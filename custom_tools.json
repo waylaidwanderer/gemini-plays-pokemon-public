@@ -157,39 +157,6 @@
       }
     ]
   },
-  "reachability_analyzer": {
-    "description": "Analyzes a list of target coordinates to determine which are reachable from the player's current position using A* search. This is used to verify system alerts about potentially reachable unseen tiles.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "targets": {
-          "type": "string",
-          "description": "A stringified JSON array of target objects, where each object has 'x' and 'y' integer coordinates."
-        }
-      },
-      "required": [
-        "targets"
-      ]
-    },
-    "python_script": "import xml.etree.ElementTree as ET\nimport heapq\nimport json\n\ndef parse_map(xml_string):\n    root = ET.fromstring(xml_string)\n    width = int(root.attrib['width'])\n    height = int(root.attrib['height'])\n    grid = [['' for _ in range(width)] for _ in range(height)]\n    objects_grid = [[1 for _ in range(width)] for _ in range(height)]\n    player_pos = None\n    for y, row_elem in enumerate(root.findall('Row')):\n        for x, tile_elem in enumerate(row_elem.findall('Tile')):\n            grid[y][x] = tile_elem.attrib.get('type')\n            if tile_elem.find('Object') is not None:\n                objects_grid[y][x] = 0\n            if tile_elem.find('Player') is not None:\n                player_pos = (x, y)\n    return grid, objects_grid, width, height, player_pos\n\ndef get_neighbors(coord, width, height):\n    neighbors = []\n    for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n        neighbor = (coord[0] + dx, coord[1] + dy)\n        if 0 <= neighbor[0] < width and 0 <= neighbor[1] < height:\n            neighbors.append(neighbor)\n    return neighbors\n\ndef heuristic(a, b):\n    return abs(a[0] - b[0]) + abs(a[1] - b[1])\n\ndef a_star_search(grid, objects_grid, start, goal, width, height):\n    impassable_tiles = ['WALL', 'WINDOW', 'CUT_TREE', 'SIGN', 'BOOKSHELF', 'BLACKBOARD', 'MART_SHELF', 'BUOY', 'TV', 'TOWN_MAP', 'BIRD', 'HEADBUTT_TREE', 'FRUIT_TREE', 'COMPUTER', 'PRINTER', 'VOID', 'WATER', 'CAVE', 'COUNTER']\n    \n    search_targets = set()\n    goal_type = grid[goal[1]][goal[0]]\n    if goal_type not in impassable_tiles and objects_grid[goal[1]][goal[0]] == 1:\n        search_targets.add(goal)\n    else:\n        for neighbor in get_neighbors(goal, width, height):\n            neighbor_type = grid[neighbor[1]][neighbor[0]]\n            if neighbor_type not in impassable_tiles and objects_grid[neighbor[1]][neighbor[0]] == 1:\n                search_targets.add(neighbor)\n\n    if not search_targets:\n        return None\n\n    neighbors_diffs = [(0, 1), (0, -1), (1, 0), (-1, 0)]\n    close_set = set()\n    came_from = {}\n    gscore = {start: 0}\n    fscore = {start: min(heuristic(start, t) for t in search_targets)}\n    oheap = []\n    heapq.heappush(oheap, (fscore[start], start))\n\n    while oheap:\n        current = heapq.heappop(oheap)[1]\n\n        if current in search_targets:\n            return True\n\n        close_set.add(current)\n        \n        for dx, dy in neighbors_diffs:\n            neighbor = (current[0] + dx, current[1] + dy)\n\n            if not (0 <= neighbor[0] < width and 0 <= neighbor[1] < height):\n                continue\n\n            neighbor_type = grid[neighbor[1]][neighbor[0]]\n            if neighbor_type in impassable_tiles or objects_grid[neighbor[1]][neighbor[0]] == 0:\n                continue\n\n            if neighbor_type == 'FLOOR_UP_WALL' and (dx, dy) != (0, -1):\n                continue\n\n            current_type = grid[current[1]][current[0]]\n            if current_type == 'LEDGE_HOP_DOWN' and (dx, dy) != (0, 1): continue\n            if current_type == 'LEDGE_HOP_RIGHT' and (dx, dy) != (1, 0): continue\n            if current_type == 'LEDGE_HOP_LEFT' and (dx, dy) != (-1, 0): continue\n\n            tentative_g_score = gscore[current] + 1\n\n            if neighbor in close_set and tentative_g_score >= gscore.get(neighbor, float('inf')):\n                continue\n\n            if tentative_g_score < gscore.get(neighbor, float('inf')) or neighbor not in [i[1] for i in oheap]:\n                came_from[neighbor] = current\n                gscore[neighbor] = tentative_g_score\n                fscore[neighbor] = tentative_g_score + min(heuristic(neighbor, t) for t in search_targets)\n                heapq.heappush(oheap, (fscore[neighbor], neighbor))\n\n    return None\n\ngrid, objects_grid, width, height, player_pos = parse_map(map_xml_string)\ntargets = json.loads(input_data['targets'])\n\nreachable_tiles = []\nif player_pos:\n    for target in targets:\n        goal = (int(target['x']), int(target['y']))\n        if a_star_search(grid, objects_grid, player_pos, goal, width, height):\n            reachable_tiles.append(target)\n\nprint(json.dumps(reachable_tiles))",
-    "history": [
-      {
-        "commit_message": "feat: Create reachability_analyzer tool. This tool systematically checks if system-flagged unseen tiles are actually reachable by iterating through a list of coordinates and running an A* search for each. It's based on the proven logic of the path_finder tool but is specialized for this verification task, which is critical for efficient exploration and resolving persistent system alerts.",
-        "timestamp": "2025-10-25T07:53:36.213Z",
-        "action_counter": 19466
-      },
-      {
-        "commit_message": "feat: Create reachability_analyzer tool. This tool systematically checks if system-flagged unseen tiles are actually reachable by iterating through a list of coordinates and running an A* search for each. It's based on the proven logic of the path_finder tool but is specialized for this verification task, which is critical for efficient exploration and resolving persistent system alerts.",
-        "timestamp": "2025-10-26T03:02:29.919Z",
-        "action_counter": 21487
-      },
-      {
-        "commit_message": "fix: Correct reachability logic. The tool was previously giving false positives by only checking if a target tile was walkable, not if a valid path to it existed. This update replaces the flawed A* implementation with the more robust logic from the `path_finder` tool, which correctly handles impassable targets by searching for paths to adjacent traversable tiles. This is critical for accurate exploration.",
-        "timestamp": "2025-10-26T05:44:56.333Z",
-        "action_counter": 21790
-      }
-    ]
-  },
   "object_scanner": {
     "description": "Scans the current map's XML data to check for the presence of specific objects by their id-name. Returns a list of found objects and their coordinates.",
     "input_schema": {
@@ -314,6 +281,36 @@
         "commit_message": "fix: Prevent path looping by treating already visited tiles as impassable. The A* search was generating inefficient paths by backtracking over previously explored tiles. This change modifies the search to take the existing path as an input and avoid visiting any nodes already in it, ensuring a more direct and efficient exploration route.",
         "timestamp": "2025-10-26T12:39:49.956Z",
         "action_counter": 22481
+      }
+    ]
+  },
+  "trigger_scanner": {
+    "description": "Automates testing of potential trigger tiles for the Farfetch'd puzzle. It moves to a specified tile, then checks if the target object has appeared on the map.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "target_x": {
+          "type": "string"
+        },
+        "target_y": {
+          "type": "string"
+        },
+        "object_id_name": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "target_x",
+        "target_y",
+        "object_id_name"
+      ]
+    },
+    "python_script": "import xml.etree.ElementTree as ET\nimport json\n\n# This script is intended to be called in a sequence by the agent.\n# Step 1: Agent calls path_finder to get to the tile.\n# Step 2: Agent moves along the path.\n# Step 3: Agent calls this tool to check for the object.\n\nroot = ET.fromstring(map_xml_string)\nsearch_id_name = input_data['object_id_name']\nfound_object = None\n\nfor row_elem in root.findall('Row'):\n    for tile_elem in row_elem.findall('Tile'):\n        object_elem = tile_elem.find('Object')\n        if object_elem is not None and object_elem.attrib.get('id-name') == search_id_name:\n            coords = tile_elem.attrib['coordinate'].strip('()').split(', ')\n            found_object = {'x': int(coords[0]), 'y': int(coords[1])}\n            break\n    if found_object:\n        break\n\nif found_object:\n    print(json.dumps({'status': 'Object Found', 'location': found_object}))\nelse:\n    print(json.dumps({'status': 'Object Not Found'}))",
+    "history": [
+      {
+        "commit_message": "feat: Create trigger_scanner tool. This tool automates the process of checking if the Farfetch'd has appeared after moving to a potential trigger tile. It simplifies the hypothesis-testing loop by combining movement and observation, which will significantly speed up solving the Ilex Forest puzzle.",
+        "timestamp": "2025-10-26T14:12:54.191Z",
+        "action_counter": 22632
       }
     ]
   }
