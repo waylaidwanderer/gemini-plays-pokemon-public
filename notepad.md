@@ -68,7 +68,7 @@
 *   **Known Correct Sequence:**
     *   **Step 1:** Interact from West at (28, 22) -> Moves bird from (29, 22) to (28, 31).
     *   **Step 2:** Interact from South at (28, 32) -> Moves bird from (28, 31) to (15, 25).
-    *   **Step 3 (Confirmed):** Stepping on the trigger tile (a regular FLOOR tile) at (14, 27) and then at (15, 27) caused the Farfetch'd to move from (15, 25), clearing the path. The puzzle is solved by stepping on specific coordinates, not by interacting with non-existent 'twig pile' objects.
+    *   **Step 3 (Corrected):** Stepping on the trigger tile (a regular FLOOR tile) at (14, 27) and then at (15, 27) caused the Farfetch'd to move from (15, 25), clearing the path. The puzzle is solved by stepping on specific coordinates, not by interacting with non-existent 'twig pile' objects.
 *   **Confirmed Reset Trigger:** Interacting from the East at (21, 24) at the wrong time causes a full puzzle reset.
 
 # VI. System Alert Verifications & Alternative Hypotheses
