@@ -66,7 +66,8 @@
 *   **Step 1:** Interacting from the South at (29, 23) moved it from its starting position of (29, 22) to (20, 24).
 *   **Step 2 (Failed):** Interacting from the East at (21, 24) resulted in no movement.
 *   **Step 3 (Success):** Interacting from the North at (15, 24) moved it from (15, 25) to (15, 29).
-*   **Step 4 (Success):** Interacting from the North at (15, 28) while it was at (15, 29) caused it to move to an unknown location off-screen.
+*   **Step 4 (Success):** Interacting from the North at (15, 28) while it was at (15, 29) caused it to move to (10, 35).
+*   **Step 5 (Success):** Interacting from the North at (10, 34) while it was at (10, 35) caused it to teleport to (15, 29).
 
 # VI. System Alert Verifications
 *   **Ilex Forest Unseen Tiles:** My `reachability_analyzer` tool has confirmed these are unreachable, blocked by the CUT_TREE at (8, 25). I will ignore this alert until I obtain HM01 Cut.
