@@ -144,3 +144,4 @@
     28. **Success (State-Dependent Outcome):** Interacting from the East at (16, 29) while it was at (15, 29) caused it to move to (15, 25).
     29. **Discovery (Teleport):** Interacting from the South at (15, 26) while it was at (15, 25) resulted in a 'Kwaa!' and caused it to teleport to (20, 24).
     30. **Test:** Interacting from the North at (20, 23) while it is at (20, 24) to see if it moves or disappears.
+    31. **Result of Test 30:** Interacting from the North at (20, 23) caused the Farfetch'd to turn and say 'Kwaa!'. It did not immediately move or disappear.
