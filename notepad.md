@@ -127,3 +127,4 @@
 42. **Test:** Stepped on trigger tile (25, 24) after a 'disappear from East interaction' sequence.
     43. **Failure:** Systematic exploration of path from (28, 32) to (29, 22) did not cause reappearance.
     44. **Failure:** Systematic exploration of path from (29, 22) to (26, 24) did not cause reappearance.
+    45. **Discovery:** The path from (26, 24) to (20, 24) contains a trigger. Stepping on a tile along this path after a 'disappear from East interaction' sequence caused the Farfetch'd to reappear at (15, 25).
