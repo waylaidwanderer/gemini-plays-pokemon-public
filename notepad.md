@@ -142,4 +142,4 @@
     26. **Discovery:** After a 'Kwaa!' disappearance, walking the path from (15, 27) to (9, 34) caused the Farfetch'd to reappear at (10, 35).
         27. **Discovery (State-Dependent Outcome):** Interacting from the North at (10, 34) while it was at (10, 35) after the 'Kwaa! -> path reset' sequence caused it to move to (15, 29).
     28. **Success (State-Dependent Outcome):** Interacting from the East at (16, 29) while it was at (15, 29) caused it to move to (15, 25).
-    29. **Discovery (Disappearance):** Interacting from the South at (15, 26) while it was at (15, 25) resulted in a 'Kwaa!' and then the Farfetch'd disappeared.
+    29. **Discovery (Teleport):** Interacting from the South at (15, 26) while it was at (15, 25) resulted in a 'Kwaa!' and caused it to teleport to (20, 24).
