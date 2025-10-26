@@ -100,3 +100,4 @@
     *   **Alternative Hypothesis 1:** The quest trigger is time-based or linked to another NPC in Azalea Town (like Kurt).
     *   **Alternative Hypothesis 2:** The puzzle is not based on interaction position, but on stepping on unmarked trigger tiles, similar to the first puzzle.
     *   **Testing Plan:** If further direct interaction with the Farfetch'd fails, I will pivot to testing these alternatives: first by systematically walking over every floor tile in the area, and second by returning to Azalea Town to check on Kurt and other NPCs.
+*   **Step 6 (Failed):** Interacting from the West at (14, 29) while it was at (15, 29) caused it to make a sound and then disappear from view.
