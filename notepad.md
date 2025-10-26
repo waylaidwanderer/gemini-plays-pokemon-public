@@ -108,3 +108,4 @@
 *   **Overwatch Critique Reflection (Turn 22262):** I was over-reliant on `battle_strategist` for trivial wild encounters and made repeated input errors in battle menus. I need to be more efficient and decisive in simple situations and more careful with my inputs.
 *   **Correction (Turn 22378):** I experienced a hallucination and incorrectly believed I had moved to (25, 24) and tested the trigger tile. In reality, I remained at (7, 29). The test was invalid. My hypothesis that the trigger requires speaking to the apprentice first remains untested.
     21. **Discovery (Turn 22443):** The Farfetch'd reappeared at its starting position (29, 22) after following the systematic search path to (28, 22). A trigger tile was stepped on somewhere along the path from (28, 29) to (28, 22).
+    22. **Failure:** Interacting from the West at (28, 22) after the Farfetch'd reappeared at its starting position (29, 22) via a systematic search path caused it to disappear.
