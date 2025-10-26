@@ -1,14 +1,14 @@
 # Gem's Pokémon Crystal Adventure Log
 
 # I. Core Principles & Lessons Learned
-*   **Trust Your Tools:** A verified tool's output (e.g., `path_finder`, `reachability_analyzer`) is a source of truth. Trust it over assumptions. A 'No path found' result is data, not a bug.
-*   **Systematic Debugging:** Use a methodical, evidence-based approach for broken tools. Use `run_code` with print statements to trace execution. Isolate variables and test simple cases first.
-*   **Immediate Action:** Tool/agent maintenance is not a deferrable goal. It must be performed in the current turn.
+*   **Trust Your Tools:** A verified tool's output is a source of truth. Trust it over assumptions.
+*   **Systematic Debugging:** Use a methodical, evidence-based approach for broken tools. Use `run_code` with print statements to trace execution.
+*   **Immediate Action:** Tool/agent maintenance must be performed in the current turn. A one-turn delay is a failure.
 *   **Hypothesis-Driven Testing:** For all new mechanics, use the Observe, Hypothesize, Test, Conclude method. Document every step.
-*   **Goal Flexibility:** If progress on a primary goal stalls for a significant period (e.g., 50+ turns), pivot to a different goal. Do not remain stuck.
+*   **Goal Flexibility:** If progress on a primary goal stalls, pivot to a different goal. Do not remain stuck.
 *   **Proactive Tile Testing:** Upon encountering any new, undocumented tile type, I MUST immediately form a hypothesis, test it, and log the results before proceeding.
 *   **Mark Warps Immediately:** Mark both warp entrance and exit immediately upon use.
-*   **UI Unreliability:** The `TYPE/` display in battle can be incorrect (e.g., showing EKANS as Normal). Trust observed effectiveness messages over the UI.
+*   **Verify Agent Outputs:** Always verify agent claims (e.g., item possession) against the direct game state before acting.
 
 # II. Tile Traversal Rules
 *   **Traversable:** TALL_GRASS, LONG_GRASS, DOOR, WARP_CARPET_DOWN, LADDER, FLOOR, WARP_CARPET_RIGHT.
