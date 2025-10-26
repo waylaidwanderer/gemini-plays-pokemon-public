@@ -123,3 +123,4 @@
     34. **Discovery:** Moving onto the Farfetch'd's tile (29, 22) from the south (29, 23) caused it to disappear.
     35. **Failure:** Stepping on tile (28, 22) after the Farfetch'd disappeared did not cause it to reappear.
     36. **Discovery:** Stepping on tile (25, 24) after the Farfetch'd disappeared caused it to reappear at (20, 24).
+37. Failure: Interacting from the North at (20, 23) while it was at (20, 24) caused it to turn instead of disappearing (as it did in step 14).
