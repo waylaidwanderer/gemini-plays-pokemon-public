@@ -94,3 +94,6 @@
 *   **New Hypothesis (Twig Noise):** I hypothesize that the puzzle is not solved by direct interaction at this stage. Instead, stepping on the piles of twigs on the ground may create a noise that causes the Farfetch'd at (15, 25) to move.
 *   **Test:** I will navigate to the twig pile at (14, 27) and step on it to observe the effect.
 *   Wade (Phone): Bug-Catching Contest at the National Park today.
+
+# IX. To-Do & Reminders
+*   Re-create map markers for Farfetch'd (object_id: 1) and the Apprentice (object_id: 2) in Ilex Forest, linking them to their object IDs. This must be done the next time they are on screen.
