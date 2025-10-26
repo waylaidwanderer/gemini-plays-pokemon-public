@@ -163,3 +163,5 @@
     48. **Failure:** Walking the trigger path from (26, 24) to (20, 24) after a 'Kwaa! disappear' sequence did not cause the Farfetch'd to reappear.
     49. **Hypothesis Test (Talk to Apprentice):** Spoke to the apprentice at (7, 28) while the Farfetch'd was in a 'Kwaa! disappear' state.
     50. **Conclusion:** Failure. The apprentice's dialogue was unchanged. This hypothesis is invalid. All known triggers have been exhausted.
+    49. **Hypothesis Test (Talk to Apprentice):** Spoke to the apprentice at (7, 28) while the Farfetch'd was in a 'Kwaa! disappear' state.
+    50. **Conclusion:** Failure. The apprentice's dialogue was unchanged. This hypothesis is invalid. All known triggers have been exhausted.
