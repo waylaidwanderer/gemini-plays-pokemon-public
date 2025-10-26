@@ -195,3 +195,5 @@
     30. **Success:** Interact North (10, 34) -> Moves to (15, 29).
     31. **Success:** Interact East (16, 29) -> Moves to (15, 25).
     32. **Success (Teleport):** Interact South (15, 26) -> 'Kwaa!', teleports to (20, 24).
+    33. **Success:** Interact North (20, 23) -> Turns, 'Kwaa!'.
+    34. **Discovery:** Disappears on the next turn.
