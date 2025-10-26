@@ -102,7 +102,6 @@
 
 46. **Discovery (Turn 22790):** Walking the trigger path from (26, 24) to (20, 24) after a 'disappear from East interaction' sequence caused the Farfetch'd to reappear at (15, 25).
 
-## IX. CORRECTED PUZZLE LOG (TEMP)
 ### B. Ilex Forest Farfetch'd Puzzle (Second) - Chronological Log
 
 *   **Move History:**
