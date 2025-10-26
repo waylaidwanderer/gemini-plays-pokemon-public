@@ -71,7 +71,7 @@
     *   **Step 2:** Interact from South at (28, 32) -> Moves bird from (28, 31) to (15, 25).
     *   **Step 3:** After Step 2, the Farfetch'd moves to (15, 25), confirmed via map marker. My previous hypothesis of it moving to (24, 35) was incorrect.
     *   **Step 4:** Interact from East at (16, 29) -> Moves bird from (15, 29) to (15, 25).
-    *   **Step 5 (Failed Hypothesis):** Interacting from the South at (15, 26) has repeatedly failed to move the Farfetch'd from (15, 25). **New Hypothesis:** The correct interaction is from the North at (15, 24).
+    *   **Step 5 (Hypotheses Falsified):** Both interacting from the South at (15, 26) and from the North at (15, 24) have failed to move the Farfetch'd from (15, 25). This step in my documented sequence is incorrect or the puzzle has reset.
 *   **Confirmed Reset:** Re-testing the interaction from the East at (21, 24) after correctly completing Step 6 confirmed that this move ALWAYS causes a full puzzle reset. This is a confirmed incorrect move for this stage of the puzzle.
 
 # VI. Untested Assumptions & Alternative Hypotheses
