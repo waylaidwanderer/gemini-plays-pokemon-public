@@ -59,15 +59,8 @@
 *   **Status:** Solved.
 *   **Solution:** The puzzle is solved by herding the Farfetch'd and stepping on specific, unmarked FLOOR tiles that act as triggers. The key trigger tile was at (14, 27).
 
-# VI. System Alert Verifications & Alternative Hypotheses
-*   **Ilex Forest Unseen Tiles (Confirmed Unreachable):** My `reachability_analyzer` tool has definitively confirmed on multiple occasions (Turns 20968, 21230, 21298, 21303, and others) that the system-flagged unseen tiles at (7, 21), (9, 21), (0, 23), (1, 23), (2, 23), and (3, 23) are unreachable from my current position. This validates the hypothesis that the path is blocked by the CUT_TREE at (8, 25). I will trust my tool and ignore this specific alert until I obtain HM01 Cut.
-*   **Farfetch'd Puzzle Reset (Tested Turn 20915):**
-    *   **Hypothesis:** Leaving and re-entering Ilex Forest will cause a hard reset of the Farfetch'd puzzle, returning the bird to its starting position (29, 22).
-    *   **Test:** I left the forest via the gatehouse and immediately re-entered.
-    *   **Conclusion:** The hypothesis was **false**. The Farfetch'd did not return to (29, 22). Instead, the puzzle state reverted to a mid-point, with the Farfetch'd at (15, 25). This indicates leaving the map causes a partial, not a full, reset.
-*   **Farfetch'd Puzzle Logic (Alternative Hypothesis):**
-    *   **Hypothesis:** The puzzle is not a single linear sequence but a state machine. The bird moves between a few key locations, and the correct interaction depends on its current state (location). An interaction that causes a reset from one state might be a valid move from another.
-    *   **Test to Disprove:** Find a situation where the previously confirmed 'reset' move (interacting from the East at (21, 24)) results in a successful step forward instead of a full puzzle reset. This would confirm the state machine hypothesis.
+# VI. System Alert Verifications
+*   **Ilex Forest Unseen Tiles:** My `reachability_analyzer` tool has confirmed these are unreachable, blocked by the CUT_TREE at (8, 25). I will ignore this alert until I obtain HM01 Cut.
 
 # VII. Team Strategy (from team_analyst)
 *   **Training Priority:** MIASma (Gastly) should be trained up.
