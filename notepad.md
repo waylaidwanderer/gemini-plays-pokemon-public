@@ -104,3 +104,4 @@
     17. **Failure:** Stepping on the trigger tile at (25, 24) after speaking with the apprentice at (7, 28) did NOT cause the Farfetch'd to reappear. The trigger is not a simple sequence.
     18. **Discovery (Turn 22404):** The Farfetch'd reappeared at (28, 31) after following the systematic search path to (28, 30). A trigger tile was stepped on somewhere along this path.
     19. **Success:** Interacting from the North at (28, 30) while it was at (28, 31) moved it to (24, 35).
+    20. **Success (Loop Discovery):** Interacting from the West at (23, 35) while it was at (24, 35) moved it back to (28, 31). This forms a loop with step 19.
