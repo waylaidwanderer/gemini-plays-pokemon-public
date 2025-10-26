@@ -68,23 +68,28 @@
 ### B. Ilex Forest Farfetch'd Puzzle (Second) - Chronological Log
 *   **Summary & Current Hypothesis:** The puzzle is a complex state machine. Interactions from specific directions and stepping on hidden trigger tiles cause the Farfetch'd to move, disappear, or reappear. The same action can have different results depending on the puzzle's internal state.
 *   **Objective:** Herd the second Farfetch'd, presumably back to the apprentice.
-*   **Status:** In progress. The Farfetch'd has disappeared.
+*   **Status:** In progress. Farfetch'd is currently not on the map.
 *   **Move History:**
     1.  **Discovery:** Farfetch'd starts at (29, 22).
-    2.  **Success:** Interacting from South at (29, 23) -> Moved to (20, 24).
-    3.  **Failure:** Interacting from East at (21, 24) -> No effect.
-    4.  **Discovery (Reset):** Stepping on the FLOOR tile at (15, 27) -> Reset to start (29, 22). (Correction: This is a trigger tile, not a physical 'twig pile' object).
-    5.  **Failure:** Interacting from South at (29, 23) after reset -> Disappeared.
-    6.  **Discovery (Reappear):** Walking path from (28, 32) to (26, 24) -> Reappeared at start (29, 22).
-    7.  **Discovery (Reappear):** Stepping on (25, 24) after a disappearance -> Reappeared at (20, 24).
-    8.  **Failure:** Interacting from North at (20, 23) -> Disappeared.
-    9.  **Discovery (Turn):** Interacting from North at (20, 23) in a different state -> Turned to face North.
-    10. **Discovery (Disappear after Turn):** Farfetch'd disappeared on the next turn without interaction after being turned.
-    11. **Discovery (State-Dependent Trigger):** Stepping on (25, 24) after a 'disappear from turning' sequence can cause it to reappear at either start (29, 22) or (20, 24).
-    12. **Failure:** Interacting from South at (29, 23) after a 'turn -> disappear -> reset' sequence -> Turned to face South.
-    13. **Discovery:** Interacting from East at (21, 24) after a 'turn -> disappear -> reset to (20,24)' sequence -> Disappeared.
-    14. **Failure:** Stepping on (25, 24) after the sequence in step 13 -> No effect.
-    15. **Failure:** Walking path from (27, 24) to (28, 28) after the sequence in step 13 -> No effect.
+    2.  **Success:** Interact South (29, 23) -> Moves to (20, 24).
+    3.  **Failure:** Interact East (21, 24) -> No effect.
+    4.  **Discovery (Hard Reset):** Step on (15, 27) -> Resets to (29, 22).
+    5.  **Failure:** Interact South (29, 23) after hard reset -> Disappears.
+    6.  **Discovery (Reappear Path):** Path (28, 32) -> (26, 24) after South-disappear -> Reappears at (29, 22).
+    7.  **Discovery (Reappear Trigger):** Step on (25, 24) after South-disappear -> Reappears at (20, 24).
+    8.  **Failure:** Interact North (20, 23) -> Disappears.
+    9.  **Discovery (Turn):** Interact North (20, 23) in a different state -> Turns North.
+    10. **Discovery (Delayed Disappear):** After turning, disappears on the next turn.
+    11. **Discovery (State-Dependent Trigger):** Stepping on (25, 24) after 'turn -> disappear' can cause reappearance at start (29, 22) OR (20, 24).
+    12. **Success:** Interact East (21, 24) after 'turn -> disappear -> reset to (20,24)' sequence -> Disappears.
+    13. **Discovery (Trigger Path):** Path (26, 24) -> (20, 24) after East-disappear -> Reappears at (15, 25).
+    14. **Success:** Interact North (15, 24) -> Moves to (15, 29).
+    15. **Discovery (Kwaa! Disappear):** Interact North (15, 28) while at (15, 29) -> 'Kwaa!', then disappears.
+    16. **Discovery (Reappear Path):** Path (15, 27) -> (9, 34) after Kwaa!-disappear -> Reappears at (10, 35).
+    17. **Success:** Interact North (10, 34) -> Moves to (15, 29).
+    18. **Success:** Interact East (16, 29) -> Moves to (15, 25).
+    19. **Discovery (Teleport):** Interact South (15, 26) -> 'Kwaa!', teleports to (20, 24).
+    20. **Discovery (State Change):** Interacting with the Farfetch'd in various states can cause it to simply turn and say 'Kwaa!', disappearing on the following turn. This appears to be a distinct state change.
 ### C. HM01 Cut Quest - Alternative Hypotheses
 *   **Hypothesis 1:** The puzzle is a red herring. The HM is obtained from a different NPC after solving the *first* puzzle, and I just haven't found them yet.
 *   **Hypothesis 2:** The puzzle's solution is time-based.
