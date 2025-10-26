@@ -73,7 +73,7 @@
     1.  **Discovery:** Farfetch'd starts at (29, 22).
     2.  **Success:** Interacting from South at (29, 23) -> Moved to (20, 24).
     3.  **Failure:** Interacting from East at (21, 24) -> No effect.
-    4.  **Discovery (Reset):** Stepping on a twig pile at (15, 27) -> Reset to start (29, 22).
+    4.  **Discovery (Reset):** Stepping on the FLOOR tile at (15, 27) -> Reset to start (29, 22). (Correction: This is a trigger tile, not a physical 'twig pile' object).
     5.  **Failure:** Interacting from South at (29, 23) after reset -> Disappeared.
     6.  **Discovery (Reappear):** Walking path from (28, 32) to (26, 24) -> Reappeared at start (29, 22).
     7.  **Discovery (Reappear):** Stepping on (25, 24) after a disappearance -> Reappeared at (20, 24).
