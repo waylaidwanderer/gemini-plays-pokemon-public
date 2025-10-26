@@ -67,11 +67,7 @@
 *   **Move Optimization:** Replace Vulcan's EMBER with a better coverage move. Conserve MIASma's HYPNOSIS. Level Gambit via switching.
 *   **Team Weaknesses:** Critical weakness to Water-types. Lack of coverage for Rock, Ground, or Psychic types.
 
-# VIII. Future Test Plans
-*   **Farfetch'd Puzzle State Machine Test:** If the known linear sequence fails again after a full reset, I will test the alternative hypothesis that the puzzle is a state machine. The test will be to intentionally perform a different incorrect action at a known failure point to see if it results in a partial reset instead of a full one. This would indicate the puzzle's state influences the outcome of interactions.
-*   **Farfetch'd Puzzle Step 3 (Hypotheses Falsified):** My documented sequence for step 3 is incorrect. After the bird moves to (15, 25), interacting from the south (15, 26) or north (15, 24) does not work, even after a full puzzle reset.
-*   **Corrected Puzzle Logic (Trigger Tile):** My previous hypothesis about 'twig piles' was incorrect; no such object exists. The puzzle is solved by stepping on a specific, unmarked FLOOR tile that acts as a trigger. Stepping on the tile at (14, 27) caused the Farfetch'd at (15, 25) to move, clearing the path.
-*   Wade (Phone): Bug-Catching Contest at the National Park today.
+# VIII. Agent & Tool Performance Log
 
 # VIII. Agent & Tool Performance Log
 *   **`goal_manager` Hallucination (Turn 21825):** The agent incorrectly stated that I possessed HM01 Cut. This was proven false by checking my bag. **Correction (Turn 21865):** The agent's system prompt was updated to be stricter about item possession, preventing it from assuming I have items not explicitly listed in its input.
