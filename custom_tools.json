@@ -1,4 +1,36 @@
 {
+  "find_object_by_id_name": {
+    "description": "Finds a map object by its internal id-name (e.g., 'BIRD') and returns its coordinates. Returns null if the object is not on screen.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "id_name": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "id_name"
+      ]
+    },
+    "python_script": "import xml.etree.ElementTree as ET\nimport json\n\nroot = ET.fromstring(map_xml_string)\nsearch_id_name = input_data['id_name']\nfound_object = None\n\nfor row_elem in root.findall('Row'):\n    for tile_elem in row_elem.findall('Tile'):\n        object_elem = tile_elem.find('Object')\n        if object_elem is not None and object_elem.attrib.get('id-name') == search_id_name:\n            coords = tile_elem.attrib['coordinate'].strip('()').split(', ')\n            found_object = {'x': int(coords[0]), 'y': int(coords[1])}\n            break\n    if found_object:\n        break\n\nif found_object:\n    print(json.dumps(found_object))\nelse:\n    print('null')",
+    "history": [
+      {
+        "commit_message": "feat: Create find_object_by_id_name tool. This general-purpose tool scans the map XML for an object with a specific internal id-name and returns its coordinates. This was created in response to the turn 19978 critique to automate the repetitive task of searching for the Farfetch'd ('MOLTRES') in Ilex Forest.",
+        "timestamp": "2025-10-25T12:55:39.866Z",
+        "action_counter": 19978
+      },
+      {
+        "commit_message": "feat: Create find_object_by_id_name tool. This tool automates searching the map XML for an object by its `id-name`, which is necessary for tracking moving puzzle elements like the Farfetch'd in Ilex Forest. This replaces inefficient manual XML scanning.",
+        "timestamp": "2025-10-25T21:55:56.137Z",
+        "action_counter": 20916
+      },
+      {
+        "commit_message": "feat: Create find_object_by_id_name tool. This tool automates searching the map XML for an object by its `id-name`, which is necessary for tracking moving puzzle elements like the Farfetch'd in Ilex Forest. This replaces inefficient manual XML scanning.",
+        "timestamp": "2025-10-26T00:42:20.939Z",
+        "action_counter": 21227
+      }
+    ]
+  },
   "path_finder": {
     "description": "Finds a path to a target tile using A* search. Handles one-way ledges and impassable targets.",
     "input_schema": {
@@ -135,38 +167,6 @@
         "commit_message": "feat: Create reachability_analyzer tool. This tool systematically checks if system-flagged unseen tiles are actually reachable by iterating through a list of coordinates and running an A* search for each. It's based on the proven logic of the path_finder tool but is specialized for this verification task, which is critical for efficient exploration and resolving persistent system alerts.",
         "timestamp": "2025-10-25T07:53:36.213Z",
         "action_counter": 19466
-      }
-    ]
-  },
-  "find_object_by_id_name": {
-    "description": "Finds a map object by its internal id-name (e.g., 'BIRD') and returns its coordinates. Returns null if the object is not on screen.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "id_name": {
-          "type": "string"
-        }
-      },
-      "required": [
-        "id_name"
-      ]
-    },
-    "python_script": "import xml.etree.ElementTree as ET\nimport json\n\nroot = ET.fromstring(map_xml_string)\nsearch_id_name = input_data['id_name']\nfound_object = None\n\nfor row_elem in root.findall('Row'):\n    for tile_elem in row_elem.findall('Tile'):\n        object_elem = tile_elem.find('Object')\n        if object_elem is not None and object_elem.attrib.get('id-name') == search_id_name:\n            coords = tile_elem.attrib['coordinate'].strip('()').split(', ')\n            found_object = {'x': int(coords[0]), 'y': int(coords[1])}\n            break\n    if found_object:\n        break\n\nif found_object:\n    print(json.dumps(found_object))\nelse:\n    print('null')",
-    "history": [
-      {
-        "commit_message": "feat: Create find_object_by_id_name tool. This general-purpose tool scans the map XML for an object with a specific internal id-name and returns its coordinates. This was created in response to the turn 19978 critique to automate the repetitive task of searching for the Farfetch'd ('MOLTRES') in Ilex Forest.",
-        "timestamp": "2025-10-25T12:55:39.866Z",
-        "action_counter": 19978
-      },
-      {
-        "commit_message": "feat: Create find_object_by_id_name tool. This tool automates searching the map XML for an object by its `id-name`, which is necessary for tracking moving puzzle elements like the Farfetch'd in Ilex Forest. This replaces inefficient manual XML scanning.",
-        "timestamp": "2025-10-25T21:55:56.137Z",
-        "action_counter": 20916
-      },
-      {
-        "commit_message": "feat: Create find_object_by_id_name tool. This tool automates searching the map XML for an object by its `id-name`, which is necessary for tracking moving puzzle elements like the Farfetch'd in Ilex Forest. This replaces inefficient manual XML scanning.",
-        "timestamp": "2025-10-26T00:42:20.939Z",
-        "action_counter": 21227
       }
     ]
   }

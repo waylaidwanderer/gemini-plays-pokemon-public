@@ -88,3 +88,6 @@
 *   **Training Priority:** MIASma (Gastly) should be trained up.
 *   **Move Optimization:** Replace Vulcan's EMBER with a better coverage move. Conserve MIASma's HYPNOSIS. Level Gambit via switching.
 *   **Team Weaknesses:** Critical weakness to Water-types. Lack of coverage for Rock, Ground, or Psychic types.
+
+# VIII. Future Test Plans
+*   **Farfetch'd Puzzle State Machine Test:** If the known linear sequence fails again after a full reset, I will test the alternative hypothesis that the puzzle is a state machine. The test will be to intentionally perform a different incorrect action at a known failure point to see if it results in a partial reset instead of a full one. This would indicate the puzzle's state influences the outcome of interactions.
