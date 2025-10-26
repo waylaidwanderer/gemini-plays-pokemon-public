@@ -93,3 +93,5 @@
     9. **Failure:** Interacting from the South at (28, 32) while it was at (28, 31) caused it to disappear.
     10. **Discovery:** Stepped on a trigger tile somewhere on the path between (28, 32) and my current position (26, 24), causing it to reappear at its starting position (29, 22). This resets the puzzle.
     11. **Failure:** Replicating the first successful move (interacting from the South at (29, 23) while it was at its starting position (29, 22)) after a reset now causes it to disappear. The puzzle is not a simple repeatable sequence.
+### C. HM01 Cut Quest - Alternative Hypotheses
+- The second Farfetch'd puzzle might be a red herring. The HM could be obtained through another trigger, perhaps time-based or by talking to a specific NPC after the first puzzle was solved.
