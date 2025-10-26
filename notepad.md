@@ -66,23 +66,6 @@
 *   **Status:** Solved.
 *   **Solution:** The puzzle is solved by herding the Farfetch'd and stepping on specific, unmarked FLOOR tiles that act as triggers. The key trigger tile was at (14, 27).
 
-### C. HM01 Cut Quest - Alternative Hypotheses
-*   **Hypothesis 1:** The puzzle is a red herring. The HM is obtained from a different NPC after solving the *first* puzzle, and I just haven't found them yet.
-*   **Hypothesis 2:** The puzzle's solution is time-based.
-*   **Hypothesis 3:** The puzzle's goal might be to herd the Farfetch'd to a different location, like the Ilex Forest Shrine (8, 22).
-
-## VII. Battle Information
-### A. Verified Type Matchups
-*   Fire is SUPER-EFFECTIVE against Bug.
-*   Fire is SUPER-EFFECTIVE against Grass.
-*   Ghost has NO EFFECT on Normal.
-*   Normal has NO EFFECT on Ghost.
-*   Grass is NOT VERY EFFECTIVE against Fire.
-*   Unown's Hidden Power can be super-effective against Fire.
-### B. Trainer Rosters
-*   **Falkner (Violet City):** Pidgey (Lv7), Pidgeotto (Lv9).
-*   **Bugsy (Azalea Town):** Metapod (Lv14), Kakuna (Lv14), Scyther (Lv16).
-*   **Fisher Justin (Route 32):** Magikarp x4.
     26. **Discovery (Turn 22486):** The Farfetch'd reappeared at (28, 31) after following the path from (27, 24) to (28, 28). A trigger tile was stepped on somewhere along this path.
     27. **Success:** Interacting from the North at (28, 30) while it was at (28, 31) moved it to (24, 35).
     28. **Correction (Hallucination):** I incorrectly believed I moved to (28, 32) and interacted from the south. In reality, I remained at (23, 35).
