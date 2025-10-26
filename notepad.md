@@ -89,6 +89,3 @@
 *   **Farfetch'd Puzzle Logic (Alternative Hypothesis):**
     *   **Hypothesis:** The puzzle is not a single linear sequence but a state machine. The bird moves between a few key locations, and the correct interaction depends on its current state (location). An interaction that causes a reset from one state might be a valid move from another.
     *   **Test to Disprove:** Find a situation where the previously confirmed 'reset' move (interacting from the East at (21, 24)) results in a successful step forward instead of a full puzzle reset. This would confirm the state machine hypothesis.
-*   **Farfetch'd Puzzle Logic (Alternative Hypothesis):**
-    *   **Hypothesis:** The puzzle is not a single linear sequence but a state machine. The bird moves between a few key locations, and the correct interaction depends on its current state (location). An interaction that causes a reset from one state might be a valid move from another.
-    *   **Test to Disprove:** Find a situation where the previously confirmed 'reset' move (interacting from the East at (21, 24)) results in a successful step forward instead of a full puzzle reset. This would confirm the state machine hypothesis.
