@@ -191,3 +191,4 @@
     26. **Discovery:** Walk trigger path (26, 24) -> (20, 24) -> Reappears at (15, 25).
     27. **Success:** Interact North (15, 24) -> Moves to (15, 29).
     28. **Discovery (Kwaa! Disappear):** Interact North (15, 28) while at (15, 29) -> 'Kwaa!', then disappears on the next turn.
+    29. **Discovery (Reappear Path):** Path (15, 27) -> (9, 34) after Kwaa!-disappear -> Reappears at (10, 35).
