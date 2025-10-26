@@ -46,9 +46,9 @@
 *   **Wrap:** Traps the target for several turns, preventing them from switching or fleeing.
 
 # IV. Story & Quests
-*   **Primary Quest: Use HM01 Cut**
-    *   **Objective:** Find a Pokémon that can learn HM01 Cut to clear the path in Ilex Forest.
-    *   **Status:** Currently blocked. I have no Poké Balls and the Azalea Mart clerk is blocked by an NPC.
+*   **Primary Quest: Obtain HM01 Cut**
+    *   **Objective:** Return to Ilex Forest and speak to the apprentice's boss to receive HM01 Cut.
+    *   **Status:** The Farfetch'd puzzle is solved. I believe I failed to speak to the correct NPC to receive the reward. This is my immediate priority.
 *   **Secondary Quest: Follow Rival**
     *   **Objective:** Follow my Rival west through Ilex Forest.
     *   **Status:** This is the current active plan since buying Poké Balls is blocked.
