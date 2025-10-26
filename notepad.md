@@ -122,3 +122,4 @@
     33. **Failure:** Replicating the first successful move (interacting from the South at (29, 23) while it was at its starting position (29, 22)) after a trigger tile reset now causes it to turn instead of move. The puzzle state is more complex than just position.
     34. **Discovery:** Moving onto the Farfetch'd's tile (29, 22) from the south (29, 23) caused it to disappear.
     35. **Failure:** Stepping on tile (28, 22) after the Farfetch'd disappeared did not cause it to reappear.
+    36. **Discovery:** Stepping on tile (25, 24) after the Farfetch'd disappeared caused it to reappear at (20, 24).
