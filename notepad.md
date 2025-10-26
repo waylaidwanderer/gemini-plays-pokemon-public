@@ -209,3 +209,4 @@
     35. **Success (Replicated):** Interact North (20, 23) -> Turns, 'Kwaa!'.
     36. **Discovery:** Disappears on the next turn.
     37. **Discovery:** Step on (25, 24) after North-turn-disappear -> Reappears at start (29, 22).
+    38. Failure: Interacting from the South at (29, 23) after a 'turn -> disappear -> trigger reset' sequence now causes the Farfetch'd to turn and say 'Kwaa!', not move. This confirms the puzzle state has changed.
