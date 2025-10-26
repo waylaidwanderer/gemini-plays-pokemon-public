@@ -205,3 +205,4 @@
     31. **Success:** Interact North (10, 34) -> 'Kwaa!', then moves to (15, 29).
     32. **Discovery (State-Dependent Outcome):** Interact East (16, 29) while at (15, 29) -> 'Kwaa!', no immediate movement.
     33. **Success (Delayed Move):** After 'Kwaa!' from East interaction, Farfetch'd moved from (15, 29) to (15, 25).
+    33. **Success (Teleport):** Interact South (15, 26) -> 'Kwaa!', teleports to (20, 24).
