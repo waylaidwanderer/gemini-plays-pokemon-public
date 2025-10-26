@@ -283,35 +283,5 @@
         "action_counter": 22481
       }
     ]
-  },
-  "trigger_scanner": {
-    "description": "Automates testing of potential trigger tiles for the Farfetch'd puzzle. It moves to a specified tile, then checks if the target object has appeared on the map.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "target_x": {
-          "type": "string"
-        },
-        "target_y": {
-          "type": "string"
-        },
-        "object_id_name": {
-          "type": "string"
-        }
-      },
-      "required": [
-        "target_x",
-        "target_y",
-        "object_id_name"
-      ]
-    },
-    "python_script": "import xml.etree.ElementTree as ET\nimport json\n\n# This script is intended to be called in a sequence by the agent.\n# Step 1: Agent calls path_finder to get to the tile.\n# Step 2: Agent moves along the path.\n# Step 3: Agent calls this tool to check for the object.\n\nroot = ET.fromstring(map_xml_string)\nsearch_id_name = input_data['object_id_name']\nfound_object = None\n\nfor row_elem in root.findall('Row'):\n    for tile_elem in row_elem.findall('Tile'):\n        object_elem = tile_elem.find('Object')\n        if object_elem is not None and object_elem.attrib.get('id-name') == search_id_name:\n            coords = tile_elem.attrib['coordinate'].strip('()').split(', ')\n            found_object = {'x': int(coords[0]), 'y': int(coords[1])}\n            break\n    if found_object:\n        break\n\nif found_object:\n    print(json.dumps({'status': 'Object Found', 'location': found_object}))\nelse:\n    print(json.dumps({'status': 'Object Not Found'}))",
-    "history": [
-      {
-        "commit_message": "feat: Create trigger_scanner tool. This tool automates the process of checking if the Farfetch'd has appeared after moving to a potential trigger tile. It simplifies the hypothesis-testing loop by combining movement and observation, which will significantly speed up solving the Ilex Forest puzzle.",
-        "timestamp": "2025-10-26T14:12:54.191Z",
-        "action_counter": 22632
-      }
-    ]
   }
 }
