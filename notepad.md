@@ -95,8 +95,6 @@
     11. **Failure:** Replicating the first successful move (interacting from the South at (29, 23) while it was at its starting position (29, 22)) after a reset now causes it to disappear. The puzzle is not a simple repeatable sequence.
 ### C. HM01 Cut Quest - Alternative Hypotheses
 - The second Farfetch'd puzzle might be a red herring. The HM could be obtained through another trigger, perhaps time-based or by talking to a specific NPC after the first puzzle was solved.
-### C. HM01 Cut Quest - Alternative Hypotheses
-- The second Farfetch'd puzzle might be a red herring. The HM could be obtained through another trigger, perhaps time-based or by talking to a specific NPC after the first puzzle was solved.
     12. **Failure:** Replicating the reset path trigger (walking from (28, 32) to (26, 24)) after the puzzle reset and a subsequent failed interaction did NOT cause the Farfetch'd to reappear. The trigger is not a simple repeatable path.
     *   **Discovery (Turn 22331):** Stepping on tile (25, 24) after a full puzzle reset triggered the Farfetch'd to reappear at (20, 24).
     13. **Failure:** Interacting from the North at (20, 23) while it was at (20, 24) caused it to disappear.
