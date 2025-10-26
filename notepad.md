@@ -118,3 +118,4 @@
     29. **Success (Loop Confirmed):** Interacting from the West at (23, 35) while it was at (24, 35) moved it back to (28, 31). This confirms the loop with step 27.
     30. **Success (Loop Broken):** Interacting from the South at (28, 32) while it was at (28, 31) caused it to disappear. This breaks the loop.
     31. **Failure (Hypothesis Invalidated):** Spoke to the apprentice at (7, 28) after the Farfetch'd disappeared. His dialogue was unchanged. This proves that making the Farfetch'd disappear is NOT the solution to the puzzle.
+    32. **Discovery:** Stepped on a trigger tile somewhere on the path from (29, 28) to (27, 24) after the Farfetch'd disappeared caused it to reappear at its starting position (29, 22). This resets the puzzle.
