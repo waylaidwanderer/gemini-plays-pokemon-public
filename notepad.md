@@ -11,7 +11,7 @@
 *   **Verify Agent Outputs:** Always verify agent claims (e.g., item possession) against the direct game state before acting.
 
 # II. Tile Traversal Rules
-*   **Traversable:** TALL_GRASS, LONG_GRASS, DOOR, WARP_CARPET_DOWN, LADDER, FLOOR, WARP_CARPET_RIGHT, WARP_CARPET_LEFT.
+*   **Traversable:** TALL_GRASS, LONG_GRASS, DOOR, LADDER, FLOOR.
 *   **Impassable (Verified):** WALL, WINDOW, CUT_TREE, SIGN, BOOKSHELF, BLACKBOARD, MART_SHELF, BUOY, TV, TOWN_MAP, BIRD, HEADBUTT_TREE, FRUIT_TREE, COMPUTER, PRINTER, VOID, WATER, CAVE, COUNTER.
 *   **One-Way Traversal:**
     *   LEDGE_HOP_DOWN: Can only be entered from above.
@@ -19,7 +19,9 @@
     *   LEDGE_HOP_LEFT: Can only be entered from the right.
 *   **Special Interaction (Warp):**
     *   **CAVE:** Can act as a one-way warp.
-    *   **WARP_CARPET_DOWN/RIGHT/LEFT:** Activated by pressing in the indicated direction.
+    *   **WARP_CARPET_DOWN:** Activated by pressing Down.
+    *   **WARP_CARPET_RIGHT:** Activated by pressing Right.
+    *   **WARP_CARPET_LEFT:** Activated by pressing Left.
 *   **Special Interaction (Walls/Floors):**
     *   **FLOOR_UP_WALL:** A one-way slide. Movement *from* this tile is only possible Down. Movement *onto* this tile is only possible by moving UP from a tile below (Y+1 -> Y).
     *   **Visual Ledges (FLOOR type):** Some FLOOR tiles are visually one-way ledges and are impassable from below.
@@ -58,6 +60,12 @@
 *   **Objective:** Herd the Farfetch'd to the apprentice at (7, 28).
 *   **Status:** Solved.
 *   **Solution:** The puzzle is solved by herding the Farfetch'd and stepping on specific, unmarked FLOOR tiles that act as triggers. The key trigger tile was at (14, 27).
+## B. Ilex Forest Second Farfetch'd Puzzle
+*   **Objective:** Herd the second Farfetch'd, presumably back to the apprentice.
+*   **Status:** In progress.
+*   **Step 1:** Interacting from the South at (29, 23) moved it from its starting position of (29, 22) to (20, 24).
+*   **Step 2 (Failed):** Interacting from the East at (21, 24) resulted in no movement.
+*   **Step 3 (Success):** Interacting from the North at (15, 24) moved it from (15, 25) to (15, 29).
 
 # VI. System Alert Verifications
 *   **Ilex Forest Unseen Tiles:** My `reachability_analyzer` tool has confirmed these are unreachable, blocked by the CUT_TREE at (8, 25). I will ignore this alert until I obtain HM01 Cut.
@@ -66,8 +74,6 @@
 *   **Training Priority:** MIASma (Gastly) should be trained up.
 *   **Move Optimization:** Replace Vulcan's EMBER with a better coverage move. Conserve MIASma's HYPNOSIS. Level Gambit via switching.
 *   **Team Weaknesses:** Critical weakness to Water-types. Lack of coverage for Rock, Ground, or Psychic types.
-
-# VIII. Agent & Tool Performance Log
 
 # VIII. Agent & Tool Performance Log
 *   **`goal_manager` Hallucination (Turn 21825):** The agent incorrectly stated that I possessed HM01 Cut. This was proven false by checking my bag. **Correction (Turn 21865):** The agent's system prompt was updated to be stricter about item possession, preventing it from assuming I have items not explicitly listed in its input.
@@ -80,11 +86,6 @@
     *   **New Hypothesis:** There is a second Farfetch'd puzzle to solve. I must now search Ilex Forest for another Farfetch'd.
     *   **Alternative Hypothesis:** The trigger for the apprentice's return might be linked to another NPC in Azalea Town (e.g., Kurt) or another event I haven't completed.
 *   **Agent Opportunity:** A complex puzzle-solving agent could be useful for future herding or logic puzzles, to suggest optimal moves.
-## B. Ilex Forest Second Farfetch'd Puzzle
-*   **Objective:** Herd the second Farfetch'd, presumably back to the apprentice.
-*   **Status:** Discovered the second Farfetch'd at (29, 22). The puzzle begins now.
-*   **Step 1:** Interacting from the South at (29, 23) moved it from its starting position of (29, 22) to (20, 24).
-*   **Step 2 (Failed):** Interacting from the East at (21, 24) resulted in no movement.
 
 # X. Overwatch Critique Reflection (Turn 22059)
 *   **Tool Maintenance:** My debugging process for `path_explorer` was inefficient and reactive. I failed to propagate a logic fix from `path_finder` to `path_explorer`, causing repeated, preventable failures. In the future, I MUST ensure shared logic is updated across all relevant tools simultaneously and adopt a more thorough, systematic approach to debugging.
