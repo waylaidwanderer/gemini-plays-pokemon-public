@@ -25,7 +25,7 @@
 *   **Reflection Log (Turn 22162):** My debugging of a pathfinding tool was inefficient. I repeatedly submitted identical, non-functional code. My new process is to use `run_code` for isolated testing first. I also documented alternative hypotheses for the HM01 Cut quest, including time-based triggers or unmarked trigger tiles.
 *   **Overwatch Critique Reflection (Turn 22262):** I was over-reliant on `battle_strategist` for trivial wild encounters and made repeated input errors in battle menus. I need to be more efficient and decisive in simple situations and more careful with my inputs.
 *   **Correction (Turn 22378):** I experienced a hallucination and incorrectly believed I had moved to (25, 24) and tested the trigger tile. In reality, I remained at (7, 29). The test was invalid. My hypothesis that the trigger requires speaking to the apprentice first remains untested.
-*   **Reflection Log (Turn 22475):** I violated the 'immediate action' principle by repeatedly submitting broken code for `path_explorer` instead of debugging it immediately. I also failed to mark the Farfetch'd location promptly. This must not happen again.
+*   **Reflection Log (Turn 22475):** I violated the 'immediate action' principle by repeatedly submitting broken code for my pathfinding tool instead of debugging it immediately. I also failed to mark the Farfetch'd location promptly. This must not happen again.
 
 ## IV. Tile Traversal Rules
 *   **Traversable:** TALL_GRASS, LONG_GRASS, DOOR, LADDER, FLOOR.
