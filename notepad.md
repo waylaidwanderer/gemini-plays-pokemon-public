@@ -43,31 +43,21 @@
 
 # IV. Story & Quests
 *   **Primary Quest: Obtain HM01 Cut**
-    *   **Objective:** Return to Ilex Forest and speak to the apprentice's boss to receive HM01 Cut.
-    *   **Status:** The Farfetch'd puzzle is solved. I believe I failed to speak to the correct NPC to receive the reward. This is my immediate priority.
-*   **Secondary Quest: Follow Rival**
-    *   **Objective:** Follow my Rival west through Ilex Forest.
-    *   **Status:** This is the current active plan since buying Poké Balls is blocked.
-*   **Tertiary Quest: Kurt's Custom Balls**
+    *   **Hypothesis:** After solving the Farfetch'd puzzle, I must speak to the charcoal maker (the apprentice's boss) in Azalea Town to receive HM01 Cut.
+    *   **Status:** I have confirmed talking to the apprentice again does nothing. My immediate priority is to travel to the Charcoal Kiln in Azalea Town to test this hypothesis.
+*   **Secondary Quest: Kurt's Custom Balls**
     *   **Objective:** Wait one day for Kurt to finish making a custom ball from the WHT APRICORN.
-    *   **Status:** Blocked by time. This might unblock the Poké Mart.
+    *   **Status:** Blocked by time. Untested assumption: this quest is blocking access to the Azalea Poké Mart.
 *   **Side Quests & NPC Hints:**
-    *   **Sprout Tower:** Reach the top and defeat the Elder. (Blocked, need to find correct path).
+    *   **Sprout Tower:** Reach the top and defeat the Elder. (Blocked).
     *   **Union Cave Roars:** Investigate on a Friday. (Blocked by time).
-    *   **Bug-Catching Contest:** At the National Park. (From Wade phone call).
-    *   **Hiker Anthony (Phone):** Tons of DUNSPARCE in DARK CAVE.
+    *   **Bug-Catching Contest:** At the National Park.
 
-# V. Puzzle Logs & Navigational Failures
+# V. Puzzle Logs
 ## A. Ilex Forest Farfetch'd Puzzle
 *   **Objective:** Herd the Farfetch'd to the apprentice at (7, 28).
-*   **Puzzle Mechanics (Confirmed):** The puzzle is a scripted sequence. Interaction from a specific direction or stepping on specific trigger tiles is required for each step. An incorrect interaction can cause a partial or full reset.
-    *   **Full Reset:** Returns Farfetch'd to start (29, 22).
-    *   **Partial Reset:** Can return Farfetch'd to a previous step in the sequence.
-*   **Known Correct Sequence:**
-    *   **Step 1:** Interact from West at (28, 22) -> Moves bird from (29, 22) to (28, 31).
-    *   **Step 2:** Interact from South at (28, 32) -> Moves bird from (28, 31) to (15, 25).
-    *   **Step 3 (Corrected):** Stepping on the trigger tile (a regular FLOOR tile) at (14, 27) and then at (15, 27) caused the Farfetch'd to move from (15, 25), clearing the path. The puzzle is solved by stepping on specific coordinates, not by interacting with non-existent 'twig pile' objects.
-*   **Confirmed Reset Trigger:** Interacting from the East at (21, 24) at the wrong time causes a full puzzle reset.
+*   **Status:** Solved.
+*   **Solution:** The puzzle is solved by herding the Farfetch'd and stepping on specific, unmarked FLOOR tiles that act as triggers. The key trigger tile was at (14, 27).
 
 # VI. System Alert Verifications & Alternative Hypotheses
 *   **Ilex Forest Unseen Tiles (Confirmed Unreachable):** My `reachability_analyzer` tool has definitively confirmed on multiple occasions (Turns 20968, 21230, 21298, 21303, and others) that the system-flagged unseen tiles at (7, 21), (9, 21), (0, 23), (1, 23), (2, 23), and (3, 23) are unreachable from my current position. This validates the hypothesis that the path is blocked by the CUT_TREE at (8, 25). I will trust my tool and ignore this specific alert until I obtain HM01 Cut.
