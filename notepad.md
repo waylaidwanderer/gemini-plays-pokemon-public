@@ -1,6 +1,6 @@
 # Gem's Pokémon Crystal Adventure Log
 
-# I. Core Principles & Lessons Learned
+## I. Core Principles & Lessons Learned
 *   **Trust Your Tools:** A verified tool's output is a source of truth. Trust it over assumptions.
 *   **Systematic Debugging:** Use a methodical, evidence-based approach for broken tools. Use `run_code` with print statements to trace execution.
 *   **Immediate Action:** Tool/agent maintenance must be performed in the current turn. A one-turn delay is a failure.
@@ -10,7 +10,7 @@
 *   **Mark Warps Immediately:** Mark both warp entrance and exit immediately upon use.
 *   **Verify Agent Outputs:** Always verify agent claims (e.g., item possession) against the direct game state before acting.
 
-# II. Tile Traversal Rules
+## II. Tile Traversal Rules
 *   **Traversable:** TALL_GRASS, LONG_GRASS, DOOR, LADDER, FLOOR.
 *   **Impassable (Verified):** WALL, WINDOW, CUT_TREE, SIGN, BOOKSHELF, BLACKBOARD, MART_SHELF, BUOY, TV, TOWN_MAP, BIRD, HEADBUTT_TREE, FRUIT_TREE, COMPUTER, PRINTER, VOID, WATER, CAVE, COUNTER.
 *   **One-Way Traversal:**
@@ -30,74 +30,60 @@
     *   **COUNTER:** Interact with NPCs behind it by standing in front of the counter.
     *   **WATER:** Can be fished in with a rod.
 
-# III. Battle Information
-## A. Verified Type Matchups
+## III. Battle Information
+### A. Verified Type Matchups
 *   Fire is SUPER-EFFECTIVE against Bug.
 *   Fire is SUPER-EFFECTIVE against Grass.
 *   Ghost has NO EFFECT on Normal.
 *   Normal has NO EFFECT on Ghost.
 *   Grass is NOT VERY EFFECTIVE against Fire.
 *   Unown's Hidden Power can be super-effective against Fire.
-## B. Trainer Rosters
+### B. Trainer Rosters
 *   **Falkner (Violet City):** Pidgey (Lv7), Pidgeotto (Lv9).
 *   **Bugsy (Azalea Town):** Metapod (Lv14), Kakuna (Lv14), Scyther (Lv16).
 *   **Fisher Justin (Route 32):** Magikarp x4.
 
-# IV. Story & Quests
+## IV. Story & Quests
 *   **Primary Quest: Obtain HM01 Cut**
-    *   **Hypothesis:** After solving the Farfetch'd puzzle, I must speak to the charcoal maker (the apprentice's boss) in Azalea Town to receive HM01 Cut.
-    *   **Status:** I have confirmed talking to the apprentice again does nothing. My immediate priority is to travel to the Charcoal Kiln in Azalea Town to test this hypothesis.
+    *   **Current Hypothesis:** The quest requires solving a second Farfetch'd puzzle in Ilex Forest.
+    *   **Status:** In progress. The second Farfetch'd has disappeared after a failed interaction. Currently searching for it.
 *   **Secondary Quest: Kurt's Custom Balls**
     *   **Objective:** Wait one day for Kurt to finish making a custom ball from the WHT APRICORN.
-    *   **Status:** Blocked by time. Untested assumption: this quest is blocking access to the Azalea Poké Mart.
+    *   **Status:** Blocked by time.
 *   **Side Quests & NPC Hints:**
     *   **Sprout Tower:** Reach the top and defeat the Elder. (Blocked).
     *   **Union Cave Roars:** Investigate on a Friday. (Blocked by time).
     *   **Bug-Catching Contest:** At the National Park.
 
-# V. Puzzle Logs
-## A. Ilex Forest Farfetch'd Puzzle
+## V. Puzzle Logs
+### A. Ilex Forest Farfetch'd Puzzle (First)
 *   **Objective:** Herd the Farfetch'd to the apprentice at (7, 28).
 *   **Status:** Solved.
 *   **Solution:** The puzzle is solved by herding the Farfetch'd and stepping on specific, unmarked FLOOR tiles that act as triggers. The key trigger tile was at (14, 27).
-## B. Ilex Forest Second Farfetch'd Puzzle
+### B. Ilex Forest Farfetch'd Puzzle (Second)
 *   **Objective:** Herd the second Farfetch'd, presumably back to the apprentice.
-*   **Status:** In progress.
-*   **Step 1:** Interacting from the South at (29, 23) moved it from its starting position of (29, 22) to (20, 24).
-*   **Step 2 (Failed):** Interacting from the East at (21, 24) resulted in no movement.
-*   **Step 3 (Success):** Interacting from the North at (15, 24) moved it from (15, 25) to (15, 29).
-*   **Step 4 (Success):** Interacting from the North at (15, 28) while it was at (15, 29) caused it to move to (10, 35).
-*   **Step 5 (Success):** Interacting from the North at (10, 34) while it was at (10, 35) caused it to teleport to (15, 29).
+*   **Status:** In progress. The Farfetch'd has disappeared.
+*   **Move History:**
+    1.  **Success:** Interacting from the South at (29, 23) moved it from (29, 22) to (20, 24).
+    2.  **Failure:** Interacting from the East at (21, 24) resulted in no movement.
+    3.  **Success:** Interacting from the North at (15, 24) moved it from (15, 25) to (15, 29).
+    4.  **Success:** Interacting from the North at (15, 28) while it was at (15, 29) caused it to move to (10, 35).
+    5.  **Success:** Interacting from the North at (10, 34) while it was at (10, 35) caused it to teleport to (15, 29).
+    6.  **Failure:** Interacting from the West at (14, 29) while it was at (15, 29) caused it to make a sound and then disappear from view.
 
-# VI. System Alert Verifications
-*   **Ilex Forest Unseen Tiles:** My `reachability_analyzer` tool has confirmed these are unreachable, blocked by the CUT_TREE at (8, 25). I will ignore this alert until I obtain HM01 Cut.
+## VI. System & Tool Performance Log
+*   **System Alert Verifications:**
+    *   **Ilex Forest Unseen Tiles:** My `reachability_analyzer` tool has confirmed these are unreachable, blocked by the CUT_TREE at (8, 25). I will ignore this alert until I obtain HM01 Cut.
+*   **Agent & Tool Failures:**
+    *   **`goal_manager` Hallucination (Turn 21825):** The agent incorrectly stated that I possessed HM01 Cut. This was proven false by checking my bag. **Correction (Turn 21865):** The agent's system prompt was updated to be stricter about item possession.
+    *   **`path_finder` Failure (Turn 21869):** The tool generated an invalid path through a stationary NPC. **Correction (Turn 21871):** The tool's script was updated to check for the `has-object='true'` tile attribute.
+*   **Team Strategy (from `team_analyst`):**
+    *   **Training Priority:** MIASma (Gastly) should be trained up.
+    *   **Move Optimization:** Replace Vulcan's EMBER with a better coverage move. Conserve MIASma's HYPNOSIS. Level Gambit via switching.
+    *   **Team Weaknesses:** Critical weakness to Water-types. Lack of coverage for Rock, Ground, or Psychic types.
 
-# VII. Team Strategy (from team_analyst)
-*   **Training Priority:** MIASma (Gastly) should be trained up.
-*   **Move Optimization:** Replace Vulcan's EMBER with a better coverage move. Conserve MIASma's HYPNOSIS. Level Gambit via switching.
-*   **Team Weaknesses:** Critical weakness to Water-types. Lack of coverage for Rock, Ground, or Psychic types.
-
-# VIII. Agent & Tool Performance Log
-*   **`goal_manager` Hallucination (Turn 21825):** The agent incorrectly stated that I possessed HM01 Cut. This was proven false by checking my bag. **Correction (Turn 21865):** The agent's system prompt was updated to be stricter about item possession, preventing it from assuming I have items not explicitly listed in its input.
-*   **`path_finder` Failure (Turn 21869):** The tool generated an invalid path through a stationary NPC. **Correction (Turn 21871):** The tool's script was updated to check for the `has-object='true'` tile attribute, making obstacle detection more robust.
-
-# IX. Reflection Log (Turn 21955)
-*   **Quest Progression:** My biggest failure was not immediately verifying the trigger for the HM01 Cut reward after solving the Farfetch'd puzzle. The charcoal maker's dialogue confirms the apprentice is still considered 'lost'.
-*   **Untested Assumptions:** I assumed solving the herding puzzle was the final step. 
-    *   **Primary Hypothesis (Disproven):** I returned to Ilex Forest and spoke to the apprentice again, but his dialogue was unchanged. This is not the trigger.
-    *   **New Hypothesis:** There is a second Farfetch'd puzzle to solve. I must now search Ilex Forest for another Farfetch'd.
-    *   **Alternative Hypothesis:** The trigger for the apprentice's return might be linked to another NPC in Azalea Town (e.g., Kurt) or another event I haven't completed.
-*   **Agent Opportunity:** A complex puzzle-solving agent could be useful for future herding or logic puzzles, to suggest optimal moves.
-
-# X. Overwatch Critique Reflection (Turn 22059)
-*   **Tool Maintenance:** My debugging process for `path_explorer` was inefficient and reactive. I failed to propagate a logic fix from `path_finder` to `path_explorer`, causing repeated, preventable failures. In the future, I MUST ensure shared logic is updated across all relevant tools simultaneously and adopt a more thorough, systematic approach to debugging.
-*   **Map Marker Discipline:** I failed to immediately mark the second Farfetch'd's location at (20, 24) when I discovered it in turn 22043. This violated the 'immediate update' rule and resulted in me losing its position when it moved. I MUST mark all significant discoveries in the same turn they occur.
-
-# XI. Reflection Log (Turn 22162)
-*   **Debugging Process Failure:** My debugging of `path_explorer` was inefficient. I repeatedly submitted identical, non-functional code instead of using a systematic approach. **New Process:** For future tool debugging, I will first use `run_code` to test isolated logic snippets (e.g., checking the contents of a list) before submitting a full `define_tool` update.
-*   **Untested Assumptions (HM01 Cut Quest):**
-    *   **Primary Assumption:** Solving the second Farfetch'd puzzle is the only trigger for the apprentice's return.
-    *   **Alternative Hypothesis 1:** The quest trigger is time-based or linked to another NPC in Azalea Town (like Kurt).
-    *   **Alternative Hypothesis 2:** The puzzle is not based on interaction position, but on stepping on unmarked trigger tiles, similar to the first puzzle.
-    *   **Testing Plan:** If further direct interaction with the Farfetch'd fails, I will pivot to testing these alternatives: first by systematically walking over every floor tile in the area, and second by returning to Azalea Town to check on Kurt and other NPCs.
-*   **Step 6 (Failed):** Interacting from the West at (14, 29) while it was at (15, 29) caused it to make a sound and then disappear from view.
+## VII. Reflection & Critique Log
+*   **Reflection Log (Turn 21955):** My biggest failure was not immediately verifying the trigger for the HM01 Cut reward after solving the first Farfetch'd puzzle. I incorrectly assumed the puzzle was the final step, but the charcoal maker's dialogue confirmed the apprentice is still 'lost'. This led me to discover the second Farfetch'd puzzle.
+*   **Overwatch Critique Reflection (Turn 22059):** My debugging process for `path_explorer` was inefficient. I failed to propagate a logic fix from `path_finder`, causing repeated failures. I also failed to immediately mark the second Farfetch'd's location, violating the 'immediate update' rule. I must be more disciplined.
+*   **Reflection Log (Turn 22162):** My debugging of `path_explorer` was inefficient. I repeatedly submitted identical, non-functional code. My new process is to use `run_code` for isolated testing first. I also documented alternative hypotheses for the HM01 Cut quest, including time-based triggers or unmarked trigger tiles.
+*   **Overwatch Critique Reflection (Turn 22262):** I was over-reliant on `battle_strategist` for trivial wild encounters and made repeated input errors in battle menus. I need to be more efficient and decisive in simple situations and more careful with my inputs. I also failed again to reorganize my notepad.
