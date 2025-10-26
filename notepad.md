@@ -165,3 +165,7 @@
     50. **Conclusion:** Failure. The apprentice's dialogue was unchanged. This hypothesis is invalid. All known triggers have been exhausted.
     49. **Hypothesis Test (Talk to Apprentice):** Spoke to the apprentice at (7, 28) while the Farfetch'd was in a 'Kwaa! disappear' state.
     50. **Conclusion:** Failure. The apprentice's dialogue was unchanged. This hypothesis is invalid. All known triggers have been exhausted.
+
+## X. Reflection Action Items (Turn 23357)
+*   **Puzzle Strategy:** I have been manually solving the Farfetch'd puzzle. I MUST use my `puzzle_state_tracker` agent to approach this more systematically when I return to it.
+*   **New Hypothesis (Farfetch'd):** An alternative hypothesis for the stalled puzzle is that I need to speak to the charcoal maker *after* the Farfetch'd has entered the 'Kwaa! disappear' state. This is a specific sequence I have not yet tested.
