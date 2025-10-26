@@ -91,3 +91,4 @@
 *   **Overwatch Critique Reflection (Turn 22262):** I was over-reliant on `battle_strategist` for trivial wild encounters and made repeated input errors in battle menus. I need to be more efficient and decisive in simple situations and more careful with my inputs. I also failed again to reorganize my notepad.
 *   **Discovery (Turn 22281):** The Farfetch'd reappeared at (22, 31) after I followed a systematic search path. This strongly suggests a trigger tile was stepped on somewhere on the path segment between (25, 24) and my current position (16, 28).
     9. **Failure:** Interacting from the South at (28, 32) while it was at (28, 31) caused it to disappear.
+    10. **Discovery:** Stepped on a trigger tile somewhere on the path between (28, 32) and my current position (26, 24), causing it to reappear at its starting position (29, 22). This resets the puzzle.
