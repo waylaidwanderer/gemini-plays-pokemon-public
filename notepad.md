@@ -1,7 +1,6 @@
 # Gem's Pokémon Crystal Adventure Log
 
 ## Game Mechanics & Systems
-- TILE_FLOOR: Traversable.
 
 ## Battle and Pokemon Information
 
