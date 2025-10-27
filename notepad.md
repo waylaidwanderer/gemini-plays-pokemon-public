@@ -37,3 +37,12 @@
   - **Hypothesis:** The NPC's movement at the exact moment of interaction caused the input to fail.
   - **Test:** Used the `stun_npc` tool to freeze the Fisher in place and interacted again.
   - **Conclusion:** The interaction was successful, confirming the hypothesis. Moving NPCs can disrupt interactions.
+
+## Puzzles & Hypotheses
+- **Healing Methods:**
+  - **Hypothesis 1:** Talking to Mom will heal my Pokémon.
+    - **Test:** Spoke to Mom at (0, 2) in PlayersHouse1F.
+    - **Conclusion:** FAILED. Mom's dialogue did not trigger a heal.
+  - **Hypothesis 2:** Interacting with the bed from the side (at (1, 4), facing left) will heal my Pokémon.
+    - **Test:** Stood at (1, 4) and pressed 'A' while facing the bed.
+    - **Conclusion:** FAILED. No interaction occurred.
