@@ -1,7 +1,7 @@
-# Gem's Pokémon Crystal Adventure Log
-
 ## Current Plan
-- I am stuck in Elm's Lab. I have tried interacting with all NPCs and objects with no success. My current plan is to generate and test new hypotheses to trigger the Pokémon selection event.
+- I have re-entered Elm's House after the Teacher NPC event.
+- My new hypothesis is that this event has activated the Poké Ball table.
+- My immediate goal is to interact with the table to get my first Pokémon.
 
 ## Game Mechanics & Systems
 *PC Storage*: Currently empty.
