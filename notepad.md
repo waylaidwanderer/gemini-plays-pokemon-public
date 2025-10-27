@@ -98,4 +98,3 @@
     *   **Primary Hypothesis:** The tile is permanently impassable despite being a `FLOOR` type.
     *   **Alternative Hypothesis:** The tile is conditionally impassable (e.g., only from the south).
     *   **Test Plan:** After confirming blockage from (20, 10), move to (19, 9) and attempt to move right, and move to (21, 9) and attempt to move left.
-*   **`path_finder` Dynamic Obstacle Failure (Turn 24138):** The tool generated a path through a tile that was temporarily blocked by a moving NPC (GRAMPS, ID 2). **Conclusion:** The tool's logic is sound, but my strategy must account for dynamic obstacles. Freezing key NPCs with `stun_npc` before pathing is a valid and necessary tactic for reliable navigation in cluttered areas.
