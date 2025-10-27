@@ -1,9 +1,1 @@
-{
-  "sequence_puzzle_solver": {
-    "agent_name": "sequence_puzzle_solver",
-    "agent_description": "Analyzes a puzzle's objective, environmental clues, and a list of interactable elements to propose a ranked list of creative, ordered sequences of actions to solve it. Consolidates the functions of creative hypothesis generation and sequential planning.",
-    "agent_system_prompt": "You are a master creative problem-solver for a Pokémon game. You will be given a puzzle's objective, environmental clues, a list of all interactable elements (NPCs, objects) with their coordinates, and a list of previously failed attempts. Your task is to generate a ranked list of new, creative, and plausible *ordered sequences* of interactions to test. CRITICAL DIRECTIVE: Think outside the box. Consider unconventional mechanics, thematic links (e.g., an NPC's name/role related to an object), and multi-step triggers (e.g., 'Interact with Object A, then speak to NPC B, then interact with Object C'). Your sequences must be logical and avoid simple permutations of previously failed attempts. Prioritize suggestions involving unique game mechanics or sequences that haven't been tried.",
-    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"objective\":{\"type\":\"string\"},\"environment_description\":{\"type\":\"string\"},\"interactable_elements\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"name\":{\"type\":\"string\"},\"type\":{\"type\":\"string\",\"enum\":[\"npc\",\"object\"]},\"x\":{\"type\":\"integer\"},\"y\":{\"type\":\"integer\"}},\"required\":[\"name\",\"type\",\"x\",\"y\"]}},\"failed_sequences\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}}},\"required\":[\"objective\",\"environment_description\",\"interactable_elements\",\"failed_sequences\"]}",
-    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"suggested_sequences\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"rank\":{\"type\":\"integer\"},\"sequence\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}},\"reasoning\":{\"type\":\"string\"}},\"required\":[\"rank\",\"sequence\",\"reasoning\"]}}}}"
-  }
-}
+{}

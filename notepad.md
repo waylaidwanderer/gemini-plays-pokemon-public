@@ -1,79 +1,23 @@
-# I. Core Directives & Lessons Learned
-- **IMMEDIATE DATA & TOOL MAINTENANCE (CRITICAL):** As an LLM, my thinking is not continuous. All maintenance tasks (tool creation/fixing, agent definition, notepad updates) are the absolute highest priority and **MUST** be performed successfully in the current turn. Deferring tasks is an invalid strategy.
-- **TRUST YOUR TOOLS (CRITICAL):** I must trust my tool outputs as the default assumption. A 'no path found' result is a valid and crucial piece of information about the game world, not a tool failure. Before debugging a tool, I must first verify my own assumptions about reachability against the game state.
-- **VERIFY POSITION (CRITICAL):** I have a history of position hallucinations. I **MUST** check my position in the Game State Information at the start of every turn before forming a plan.
-- **MAP MARKER DISCIPLINE (CRITICAL):** I must mark every warp tile (both entry and exit) with '🚪' and every defeated trainer with '☠️' immediately.
-- **HYPOTHESIS VETTING (CRITICAL):** Before attempting to test a hypothesis, I must first confirm it is mechanically possible within the game's established rules.
-- **Agent Escalation Protocol (MUST FOLLOW):** If manual puzzle attempts fail repeatedly or direct navigation is impossible in a complex area, I MUST escalate to my specialized agent (`sequence_puzzle_solver`) before continuing with manual attempts.
+# Gem's Pokémon Crystal Adventure Log
 
-# II. Game Mechanics & Tile Types (Observed)
-- **Post-Battle Position Shift:** Player may be moved after a wild battle.
-- **Ghost-type Damage:** Ghost-type moves deal SPECIAL damage.
-- **Purified Zone:** A healing area in Pokémon Tower (5F).
-- **Inventory Access Bug (Confirmed):** With 21+ unique item stacks, 'ITEM' from the Start Menu opens the HM pocket.
-- **Celadon City Fly Anomaly:** Using HM Fly from anywhere within Celadon City teleports the player to the Celadon Department Store entrance.
-- **Fee Trigger Tile:** A tile that prompts for an entrance fee, even if already inside. Paying a second time broke a scripted loop.
-- **Fossil Trap:** Interacting with the fossil exhibits in the Pewter Museum of Science can trigger a trap that temporarily places the player on an impassable tile. This trap can be escaped by pressing the 'B' button.
-- **Hidden Paths (Confirmed):** Some tiles that appear as impassable walls (e.g., `elevated_ground` at Mt. Moon B2F, 22, 17) can be walked through, creating hidden passages.
-- **Hidden Path (Mt. Moon B1F):** The `elevated_ground` tiles between (24,4) and (28,4) are traversable, connecting two otherwise isolated ladder platforms.
+## Game Mechanics & Systems
+- TILE_FLOOR: Traversable.
 
-### Tile Traversal Rules (Comprehensive)
-- `ground` / `grass`: Standard walkable tiles.
-- `impassable`: Walls, objects, NPCs, etc. Cannot be entered.
-- `ledge`: One-way traversal. Can be jumped down from above (Y-1).
-- `cuttable`: Tree that can be cut with HM Cut. Respawns on map change.
-- `water`: Crossable using HM Surf.
-- `spinner_*`: Forces movement. The `automated_path_navigator` can model paths that utilize these tiles.
-- `spinner_stop`: A tile that halts movement from a spinner.
-- `teleport` / `hole` / `ladder_*`: Instant warp tiles.
-- `2x1/1x2 Warp Tiles`: Requires a two-step activation (stand on tile, press into boundary).
-- `Two-Step Elevator`: Special warp (interact with panel, step onto adjacent warp).
-- `steps`: Allows movement between `ground` and `elevated_ground`.
-- `boulder_barrier` / `boulder_switch`: Switch that clears a barrier when a boulder is pushed onto it.
-- `gate_*`: Gates that can block paths.
+## Battle and Pokemon Information
 
-# III. Completed Quests
-- The Ghost of Lavender Town
-- The Copycat's Gift
-- The Sleeping Snorlax
-- Cerulean City Investigation
-- Silph Co. Investigation
-- Rocket Hideout Investigation
-- The Old Amber Retrieval
+### My Party
 
-# IV. Key NPCs & Blockers
-- **Mt. Moon Rocket Grunt (B2F, 30, 12):** Confirmed he requires an unrevived fossil to pass. Dialogue: "If you find a fossil, give it to me and scram!"
-- **Mt. Moon Hiker (1F, 6, 7):** Blocks path with dialogue "Kids like you shouldn't be here!". **Hypothesis:** His state may change after further progress. **Next Step:** Re-check after current exploration paths are exhausted.
+### PC Storage
 
-# V. Agent & Tool Development Ideas
+### Type Effectiveness Chart
 
-- **Multi-Floor Navigator Agent:** An agent that can analyze map data for multiple floors to plan optimal routes through complex dungeons.
-- **Lost Item Investigator Agent:** An agent that takes an objective (e.g., 'Find TM28') and clues, then proposes a ranked sequence of locations to search.
-- **Path Failure Analyst Agent:** Analyzes failed `automated_path_navigator` output and suggests manual probe coordinates based on hidden path mechanics.
-- **Wall Prober Tool:** A tool to automate systematic probing of walls for hidden passages.
+## Area and Navigation Insights
 
-# VI. Current Investigation: Unrevived Fossil
-- **Objective:** Obtain an unrevived fossil to give to the Rocket Grunt on Mt. Moon B2F.
-- **Current Location:** Route 4 (East, near Cerulean City).
-- **Strategy:** After thoroughly exploring every accessible area of Mt. Moon, I have concluded that the unrevived fossil is not located here. The Hiker at (6,7) on 1F remains a blocker, and no other paths have yielded results. The high encounter rate is also making further exploration of this cave extremely inefficient. My new hypothesis is that the fossil can be found in the Pewter Museum of Science. I will now exit Mt. Moon and travel to Pewter City to begin my investigation there.
+## NPCs and Interactions
 
-# VII. Self-Assessment & Overwatch Critique Takeaways (Consolidated)
-- **CRITICAL - Tool Maintenance & Trust:** My highest priority is immediate tool maintenance. Faulty or inefficient tools **MUST** be fixed/improved in the same turn they are identified. I must also trust my tool outputs; a 'no path found' result is a valid and crucial piece of information about the game world, not a tool failure.
-- **Notepad Organization & Data Hygiene:** My notepad must be kept clean and up-to-date. I have failed by keeping outdated information (references to non-existent agents) and by failing to perform maintenance successfully on the first attempt. Long, archived sections should be condensed to improve readability.
-- **Agent Escalation:** I must follow my own protocol and escalate to specialized agents sooner in complex situations instead of wasting time on inefficient manual exploration.
-- **Marker Accuracy:** I must be more diligent and double-check warp destinations immediately after using them to ensure labels are correct from the start.
+## Obstacles and Solutions
 
-# VIII. Archived Investigations
-### Mt. Moon Fossil Search
-- **Summary:** Concluded that the unrevived fossil is not in Mt. Moon after a thorough exploration of all accessible areas. The high encounter rate made further exploration inefficient. Key blockers (Rocket Grunt at B2F (30,12) and Hiker at 1F (6,7)) remain.
-
-### Old Amber Retrieval (Pewter Museum)
-- **Summary:** Solved via a complex, multi-step sequence involving NPC and exhibit interactions across both floors of the Pewter Museum.
-- **Key Lesson:** Puzzles in this hack can require non-obvious sequences of interactions that are not hinted at directly. The solution involved speaking to an Old Man with a specific Pokémon (Geodude), interacting with an unrelated exhibit (space shuttle), and then interacting with a fossil exhibit. This highlights the need for creative, systematic hypothesis testing, and confirms the value of the `sequence_puzzle_solver` agent for future complex puzzles.
-
- 
-
-"y": 17}, {"x": 39, "y": 17}, {"x": 40, "y": 17}, {"x": 1, "y": 18}, {"x": 2, "y": 18}, {"x": 19, "y": 18}, {"x": 20, "y": 18}, {"x": 23, "y": 18}, {"x": 24, "y": 18}, {"x": 33, "y": 18}, {"x": 34, "y": 18}, {"x": 39, "y": 18}, {"x": 40, "y": 18}, {"x": 1, "y": 19}, {"x": 2, "y": 19}, {"x": 3, "y": 19}, {"x": 8, "y": 19}, {"x": 9, "y": 19}, {"x": 10, "y": 19}, {"x": 19, "y": 19}, {"x": 20, "y": 19}, {"x": 23, "y": 19}, {"x": 24, "y": 19}, {"x": 33, "y": 19}, {"x": 34, "y": 19}, {"x": 39, "y": 19}, {"x": 40, "y": 19}, {"x": 1, "y": 20}, {"x": 2, "y": 20}, {"x": 3, "y": 20}, {"x": 4, "y": 20}, {"x": 5, "y": 20}, {"x": 6, "y": 20}, {"x": 7, "y": 20}, {"x": 8, "y": 20}, {"x": 9, "y": 20}, {"x": 10, "y": 20}, {"x": 19, "y": 20}, {"x": 20, "y": 20}, {"x": 23, "y": 20}, {"x": 24, "y": 20}, {"x": 33, "y": 20}, {"x": 34, "y": 20}, {"x": 39, "y": 20}, {"x": 40, "y": 20}, {"x": 1, "y": 21}, {"x": 2, "y": 21}, {"x": 9, "y": 21}, {"x": 10, "y": 21}, {"x": 11, "y": 21}, {"x": 18, "y": 21}, {"x": 19, "y": 21}, {"x": 20, "y": 21}, {"x": 23, "y": 21}, {"x": 24, "y": 21}, {"x": 33, "y": 21}, {"x": 34, "y": 21}, {"x": 39, "y": 21}, {"x": 40, "y": 21}, {"x": 1, "y": 22}, {"x": 2, "y": 22}, {"x": 9, "y": 22}, {"x": 10, "y": 22}, {"x": 11, "y": 22}, {"x": 12, "y": 22}, {"x": 13, "y": 22}, {"x": 14, "y": 22}, {"x": 15, "y": 22}, {"x": 16, "y": 22}, {"x": 17, "y": 22}, {"x": 18, "y": 22}, {"x": 19, "y": 22}, {"x": 20, "y": 22}, {"x": 23, "y": 22}, {"x": 24, "y": 22}, {"x": 33, "y": 22}, {"x": 34, "y": 22}, {"x": 39, "y": 22}, {"x": 40, "y": 22}, {"x": 1, "y": 23}, {"x": 2, "y": 23}, {"x": 8, "y": 23}, {"x": 9, "y": 23}, {"x": 10, "y": 23}, {"x": 23, "y": 23}, {"x": 24, "y": 23}, {"x": 33, "y": 23}, {"x": 34, "y": 23}, {"x": 39, "y": 23}, {"x": 40, "y": 23}, {"x": 1, "y": 24}, {"x": 2, "y": 24}, {"x": 9, "y": 24}, {"x": 10, "y": 24}, {"x": 16, "y": 24}, {"x": 17, "y": 24}, {"x": 23, "y": 24}, {"x": 24, "y": 24}, {"x": 33, "y": 24}, {"x": 34, "y": 24}, {"x": 39, "y": 24}, {"x": 40, "y": 24}, {"x": 1, "y": 25}, {"x": 2, "y": 25}, {"x": 23, "y": 25}, {"x": 24, "y": 25}, {"x": 33, "y": 25}, {"x": 34, "y": 25}, {"x": 39, "y": 25}, {"x": 40, "y": 25}, {"x": 1, "y": 26}, {"x": 2, "y": 26}, {"x": 23, "y": 26}, {"x": 24, "y": 26}, {"x": 33, "y": 26}, {"x": 34, "y": 26}, {"x": 39, "y": 26}, {"x": 40, "y": 26}, {"x": 1, "y": 27}, {"x": 2, "y": 27}, {"x": 17, "y": 27}, {"x": 20, "y": 27}, {"x": 21, "y": 27}, {"x": 24, "y": 27}, {"x": 27, "y": 27}, {"x": 30, "y": 27}, {"x": 33, "y": 27}, {"x": 34, "y": 27}, {"x": 39, "y": 27}, {"x": 40, "y": 27}, {"x": 1, "y": 28}, {"x": 2, "y": 28}, {"x": 17, "y": 28}, {"x": 20, "y": 28}, {"x": 21, "y": 28}, {"x": 22, "y": 28}, {"x": 23, "y": 28}, {"x": 24, "y": 28}, {"x": 27, "y": 28}, {"x": 30, "y": 28}, {"x": 31, "y": 28}, {"x": 33, "y": 28}, {"x": 34, "y": 28}, {"x": 39, "y": 28}, {"x": 40, "y": 28}, {"x": 1, "y": 29}, {"x": 2, "y": 29}, {"x": 17, "y": 29}, {"x": 20, "y": 29}, {"x": 27, "y": 29}, {"x": 30, "y": 29}, {"x": 39, "y": 29}, {"x": 40, "y": 29}, {"x": 1, "y": 30}, {"x": 2, "y": 30}, {"x": 17, "y": 30}, {"x": 20, "y": 30}, {"x": 27, "y": 30}, {"x": 30, "y": 30}, {"x": 39, "y": 30}, {"x": 40, "y": 30}, {"x": 1, "y": 31}, {"x": 2, "y": 31}, {"x": 11, "y": 31}, {"x": 14, "y": 31}, {"x": 17, "y": 31}, {"x": 20, "y": 31}, {"x": 27, "y": 31}, {"x": 30, "y": 31}, {"x": 39, "y": 31}, {"x": 40, "y": 31}, {"x": 1, "y": 32}, {"x": 2, "y": 32}, {"x": 11, "y": 32}, {"x": 14, "y": 32}, {"x": 17, "y": 32}, {"x": 20, "y": 32}, {"x": 25, "y": 32}, {"x": 27, "y": 32}, {"x": 28, "y": 32}, {"x": 29, "y": 32}, {"x": 30, "y": 32}, {"x": 39, "y": 32}, {"x": 40, "y": 32}, {"x": 1, "y": 33}, {"x": 2, "y": 33}, {"x": 11, "y": 33}, {"x": 14, "y": 33}, {"x": 17, "y": 33}, {"x": 20, "y": 33}, {"x": 39, "y": 33}, {"x": 40, "y": 33}, {"x": 1, "y": 34}, {"x": 2, "y": 34}, {"x": 11, "y": 34}, {"x": 14, "y": 34}, {"x": 17, "y": 34}, {"x": 20, "y": 34}, {"x": 39, "y": 34}, {"x": 40, "y": 34}, {"x": 1, "y": 35}, {"x": 2, "y": 35}, {"x": 3, "y": 35}, {"x": 10, "y": 35}, {"x": 11, "y": 35}, {"x": 14, "y": 35}, {"x": 17, "y": 35}, {"x": 20, "y": 35}, {"x": 21, "y": 35}, {"x": 40, "y": 35}, {"x": 1, "y": 36}, {"x": 2, "y": 36}, {"x": 3, "y": 36}, {"x": 4, "y": 36}, {"x": 5, "y": 36}, {"x": 6, "y": 36}, {"x": 7, "y": 36}, {"x": 8, "y": 36}, {"x": 9, "y": 36}, {"x": 10, "y": 36}, {"x": 11, "y": 36}, {"x": 12, "y": 36}, {"x": 13, "y": 36}, {"x": 14, "y": 36}, {"x": 17, "y": 36}, {"x": 18, "y": 36}, {"x": 19, "y": 36}, {"x": 20, "y": 36}, {"x": 21, "y": 36}, {"x": 22, "y": 36}, {"x": 23, "y": 36}, {"x": 24, "y": 36}, {"x": 25, "y": 36}, {"x": 26, "y": 36}, {"x": 27, "y": 36}, {"x": 28, "y": 36}, {"x": 29, "y": 36}, {"x": 30, "y": 36}, {"x": 31, "y": 36}, {"x": 32, "y": 36}, {"x": 33, "y": 36}, {"x": 34, "y": 36}, {"x": 35, "y": 36}, {"x": 36, "y": 36}, {"x": 37, "y": 36}, {"x": 38, "y": 36}, {"x": 39, "y": 36}, {"x": 40, "y": 36}], "ledge_tiles": []}
-
-### Agent-Led Investigation
-- **Hypothesis 1 (Rank 1 - Distraction):** FAILED. Sequence: Talk to Scientist_2F -> Interact with AerodactylFossil -> Check Scientist_Blocker. The blocking scientist at (13, 5) did not move. Proceeding to Hypothesis 2.
+## Current Plan
+- Start a new game.
+- Get my first Pokémon from Professor Elm.
+- Explore New Bark Town.
