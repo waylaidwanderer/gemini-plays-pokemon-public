@@ -57,7 +57,7 @@
 
 ## V. Story & Quests
 *   **Primary Quest: Obtain HM01 Cut**
-    *   **Status:** Solved. Received from the charcoal maker's boss in Ilex Forest after solving the Farfetch'd puzzle.
+    *   **Status:** Incomplete. The apprentice is still lost in Ilex Forest. The reward is likely HM01.
 *   **Secondary Quest: Kurt's Custom Balls**
     *   **Objective:** Wait one day for Kurt to finish making a custom ball from the WHT APRICORN.
     *   **Status:** Blocked by time.
