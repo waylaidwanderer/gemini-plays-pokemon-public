@@ -1,3 +1,12 @@
+## Discoveries & Lessons Learned
+- My biggest obstacle is my own memory. I must only trust in-game observation.
+- Stunning an NPC can break scripted events, causing dialogue loops.
+- The 'Poké Ball machine' was a hallucination.
+- The southern path on Route 29 is a dead end.
+- The western path on Route 29 is blocked by CUT_TREEs and HEADBUTT_TREEs.
+- Talking to Mom does NOT heal my Pokémon. This is a critical mechanic difference from other games.
+- Resting in the player's bed does NOT heal Pokémon.
+
 ## Game Mechanics & Systems
 *PC Storage*: Currently empty.
 
@@ -26,14 +35,6 @@
 - **WALL**: Impassable. (Verified)
 - **WARP_CARPET_DOWN**: Traversable, acts as a warp tile. (Verified)
 - **WINDOW**: Impassable. (Verified)
-
-## Discoveries & Lessons Learned
-- My biggest obstacle is my own memory. I must only trust in-game observation.
-- Stunning an NPC can break scripted events, causing dialogue loops.
-- The 'Poké Ball machine' was a hallucination.
-- The southern path on Route 29 is a dead end.
-- The western path on Route 29 is blocked by CUT_TREEs and HEADBUTT_TREEs.
-- Talking to Mom does NOT heal my Pokémon. This is a critical mechanic difference from other games.
 
 ## Puzzles & Hypotheses
 - **Fisher NPC Interaction Failure (New Bark Town):**
