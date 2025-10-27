@@ -49,8 +49,7 @@
 
 ## V. Story & Quests
 *   **Primary Quest: Obtain HM01 Cut**
-    *   **Current Strategy:** Systematically test interactions and trigger tiles to solve the puzzle.
-    *   **Status:** In progress. The second Farfetch'd has disappeared. Currently searching for it.
+    *   **Status:** Solved. Received from the charcoal maker's boss in Ilex Forest after solving the Farfetch'd puzzle.
 *   **Secondary Quest: Kurt's Custom Balls**
     *   **Objective:** Wait one day for Kurt to finish making a custom ball from the WHT APRICORN.
     *   **Status:** Blocked by time.
