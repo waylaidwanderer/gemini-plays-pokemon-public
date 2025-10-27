@@ -19,7 +19,7 @@
 - **WARP_CARPET_DOWN**: Warp. (Verified)
 - **WALL**: Impassable. (Verified)
 - **BOOKSHELF**: Impassable. (Verified)
-- **WINDOW**: Appears impassable. Interacting gives flavor text. (Untested for traversal)
+- **WINDOW**: Impassable. (Verified)
 - **PC**: Appears impassable. Interacting from below triggered a scripted event. (Untested for traversal)
 - **TV**: Impassable. (Verified)
 - **TOWN_MAP**: Appears impassable. (Untested)
