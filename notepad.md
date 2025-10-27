@@ -48,3 +48,13 @@ A comprehensive list of failed attempts has been archived to improve readability
 ## Insights & Corrections
 - My biggest obstacle is my own memory. I must only trust in-game observation.
 - The 'Poké Ball machine' was a hallucination and does not exist in this room.
+
+## Refactored Notes (To Be Integrated)
+
+### Insights & Corrections
+- My biggest obstacle is my own memory. I must only trust in-game observation.
+- Stunning an NPC can break scripted events, causing dialogue loops.
+- The 'Poké Ball machine' was a hallucination.
+
+### Elm's Lab Puzzle - Archived Failed Hypotheses
+A comprehensive list of failed attempts has been archived to improve readability. The core summary is that all simple interaction (NPCs, objects, sequences) and movement triggers (all accessible tiles) have been exhaustively tested and have failed to progress the game. Repeating these actions is not a valid strategy.
