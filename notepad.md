@@ -65,3 +65,4 @@
   - **Fix:** Replaced the flawed logic with a Breadth-First Search (BFS) starting from the player's position, incorporating correct ledge traversal rules.
   - **Current Status:** The tool is now considered fixed and reliable for exploration planning.
 - **LADDER**: Traversable, acts as a warp tile. (Verified)
+- **Pokecenter2F (Cherrygrove City):** This floor is dedicated to link features (Trade Machine, Battle Machine, Time Capsule). All services are currently unavailable, making the entire floor a dead end for now.
