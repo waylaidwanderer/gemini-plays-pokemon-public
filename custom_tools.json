@@ -60,6 +60,16 @@
         "commit_message": "fix: Add logic for leaving ledges. The pathfinder was creating invalid paths by attempting to move 'backwards' off a ledge tile (e.g., left from a LEDGE_HOP_RIGHT). This adds checks for the current tile's type to prevent illegal moves away from ledges, ensuring path validity.",
         "timestamp": "2025-10-27T05:43:50.864Z",
         "action_counter": 703
+      },
+      {
+        "commit_message": "feat: Add CUT_TREE to traversable tiles for diagnostics. The path forward appears to be blocked by a CUT_TREE. This change is a temporary diagnostic measure to confirm if this is the sole obstacle preventing westward progression. If a path can be calculated with this change, it will validate that finding a way to remove the tree is the correct next step. This is not a permanent change and will be reverted after the test.",
+        "timestamp": "2025-10-27T06:40:57.208Z",
+        "action_counter": 798
+      },
+      {
+        "commit_message": "revert: Remove CUT_TREE from traversable tiles. The diagnostic test to confirm the CUT_TREE as the primary obstacle is complete. This change reverts the pathfinder to its standard operational state to prevent invalid path generation in the future.",
+        "timestamp": "2025-10-27T06:42:04.380Z",
+        "action_counter": 800
       }
     ]
   },

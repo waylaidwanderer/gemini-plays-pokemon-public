@@ -51,3 +51,10 @@
 - **LEDGE_HOP_RIGHT**: One-way ledge that can only be entered by moving right onto it. (Verified)
 - **TALL_GRASS**: Traversable, contains wild Pokémon. (Verified)
 - **HEADBUTT_TREE**: Impassable. (Verified)
+### Additional Tile Rules (Route29)
+- **LEDGE_HOP_LEFT**: One-way ledge that can only be entered by moving left onto it. (Verified)
+- **CUT_TREE**: Impassable, requires a specific ability/item to remove. (Verified by diagnostic test)
+
+## Route 29 Discoveries
+- The southern path is a dead end.
+- The western path is blocked by a CUT_TREE.
