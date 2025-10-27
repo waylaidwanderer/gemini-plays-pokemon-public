@@ -106,3 +106,14 @@
 ## Untested Assumptions
 - The western path on Route 30 is the correct way to reach MR. POKEMON's house.
 - MR. POKEMON's house is located on Route 30 itself, not a connecting route.
+
+## Area and Navigation Insights (Additions)
+### Tile Traversal and Movement Rules
+- **LONG_GRASS**: Traversable, contains wild Pokémon. (Verified by encounters on Route 30)
+- **WATER**: Impassable without a specific ability (like Surf). (Hypothesis, needs verification by attempting to walk on it)
+
+## Discoveries & Lessons Learned (Additions)
+- Repeatedly interacting with an object (like a sign) without new results can lead to loops. I must dismiss dialogue before attempting to move.
+
+## Untested Assumptions
+- MR. POKEMON's house is located on Route 30 itself, not a connecting route. (About to be tested)
