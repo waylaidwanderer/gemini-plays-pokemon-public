@@ -26,20 +26,13 @@
 - **WATER**: Appears impassable without Surf. (Untested)
 - **HEADBUTT_TREE**: Appears impassable. (Untested)
 
-## Obstacles and Solutions
 ## Insights & Corrections
 - My biggest obstacle is my own memory. I must only trust in-game observation.
-- Stunning an NPC (Professor Elm) can break scripted events, causing dialogue loops.
-- The 'Poké Ball machine' was a hallucination and does not exist in this room.
+- Stunning an NPC can break scripted events, causing dialogue loops.
+- The 'Poké Ball machine' was a hallucination.
 
-### Elm's Lab Puzzle - Failed Hypotheses Summary
-- Exhausted all simple interaction and movement hypotheses. This includes talking to all NPCs from multiple positions, interacting with all objects in various sequences, and testing for movement triggers in all accessible areas. Repeating these actions is not a valid strategy.
-- Interacting with PC, leaving, re-entering, talking to Son, then talking to Elm.
-- Interacting with bookshelves (alone and after PC).
-- Interacting with window.
-- Interacting with the central table (confirmed non-interactable).
-
-*Failed Movement Hypotheses:*
+### Elm's Lab Puzzle - Archived Failed Hypotheses
+A comprehensive list of failed attempts has been archived to improve readability. The core summary is that all simple interaction (NPCs, objects, sequences) and movement triggers (all accessible tiles) have been exhaustively tested and have failed to progress the game. Repeating these actions is not a valid strategy.
 - Attempting to leave the lab.
 - Stepping on all floor tiles.
 - Walking into the corner behind the bookshelves.
