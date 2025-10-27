@@ -39,6 +39,3 @@
 ## Insights & Corrections
 - My biggest obstacle is my own memory. I must only trust in-game observation.
 - The 'Poké Ball machine' was a hallucination and does not exist in this room.
-
-- **Hypothesis 3 (Agent):** Interact with the bookshelves on the right side of the lab. **Result:** Failed. Received flavor text: "It's full of difficult books."
-- **Hypothesis 4 (Agent):** Walk to the window directly behind Professor Elm. **Result:** Failed. Received flavor text: "My reflection! Lookin' good!"
