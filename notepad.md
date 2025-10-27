@@ -64,3 +64,4 @@
   - **Initial State:** The tool was unreliable, incorrectly identifying unreachable tiles as reachable.
   - **Fix:** Replaced the flawed logic with a Breadth-First Search (BFS) starting from the player's position, incorporating correct ledge traversal rules.
   - **Current Status:** The tool is now considered fixed and reliable for exploration planning.
+- **LADDER**: Traversable, acts as a warp tile. (Verified)
