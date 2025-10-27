@@ -38,3 +38,10 @@
 - Interacting with the central table from multiple positions had no effect.
 - Talking to Elm's Wife and Son at various points in the event sequence resulted in repeated dialogue.
 - The trigger for progression was ultimately external to the house, by attempting to leave town.
+
+### Tile Traversal and Movement Rules (ElmsLab)
+- **WALL**: Impassable. (Verified)
+- **WINDOW**: Impassable. (Verified)
+- **FLOOR**: Traversable. (Verified)
+- **BOOKSHELF**: Impassable. (Verified)
+- **ground**: Traversable, acts as a warp tile. (Verified)
