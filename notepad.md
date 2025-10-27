@@ -15,15 +15,19 @@
 ## NPCs and Interactions
 
 ## Obstacles and Solutions
+- My own memory can be an obstacle. I hallucinated a warp at (4, 5) in New Bark Town. I must rely only on in-game observation.
 
 ## Current Plan
-- Start a new game.
-- Get my first Pokémon from Professor Elm.
-- Explore New Bark Town.
+- Find Professor Elm's Lab in New Bark Town.
+- Explore the town and talk to NPCs to gather information.
+
 ### Tile Traversal and Movement Rules
 - **FLOOR**: Traversable.
 - **WALL**: Appears impassable. (Untested)
-- **STAIRCASE**: Appears impassable, likely a warp. (Untested)
+- **STAIRCASE**: Warp. (Verified)
 - **BOOKSHELF**: Appears impassable. (Untested)
 - **TOWN_MAP**: Appears impassable. (Untested)
 - **TV**: Appears impassable. (Untested)
+- **DOOR**: Warp. (Verified)
+- **WATER**: Appears impassable without Surf. (Untested)
+- **HEADBUTT_TREE**: Appears impassable. (Untested)
