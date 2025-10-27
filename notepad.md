@@ -67,3 +67,18 @@
 - **LADDER**: Traversable, acts as a warp tile. (Verified)
 - **Pokecenter2F (Cherrygrove City):** This floor is dedicated to link features (Trade Machine, Battle Machine, Time Capsule). All services are currently unavailable, making the entire floor a dead end for now.
 - **RADIO**: Impassable. (Verified by attempting to walk on it)
+
+## My Tools & Agents
+
+### Custom Tools
+- **find_path_to_target**: Calculates the shortest path between two points on the current map.
+- **generate_nickname_inputs**: Generates button presses to enter a Pokémon nickname.
+- **find_reachable_unseen_tiles**: Finds all unseen tiles that are reachable from the player's position.
+
+### Built-in Tools
+- **select_battle_option**: Automatically selects a main battle menu option (FIGHT, PKMN, PACK, RUN).
+- **stun_npc**: Freezes or unfreezes an NPC's movement.
+
+### Custom Agents
+- **hypothesis_generator**: Generates new hypotheses when stuck.
+- **simple_battle_strategist**: Recommends actions in simple wild battles.
