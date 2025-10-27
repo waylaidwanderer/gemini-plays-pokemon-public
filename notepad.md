@@ -59,22 +59,6 @@
     *   **Bug-Catching Contest:** At the National Park.
 
 ## VI. Puzzle Logs
-### A. Ilex Forest Farfetch'd Puzzle (First)
-*   **Objective:** Herd the Farfetch'd to the apprentice at (7, 28).
-*   **Status:** Solved.
-*   **Solution:** The puzzle is solved by herding the Farfetch'd and stepping on specific, unmarked FLOOR tiles that act as triggers. The key trigger tile was at (14, 27).
-
-    26. **Discovery (Turn 22486):** The Farfetch'd reappeared at (28, 31) after following the path from (27, 24) to (28, 28). A trigger tile was stepped on somewhere along this path.
-    27. **Success:** Interacting from the North at (28, 30) while it was at (28, 31) moved it to (24, 35).
-    28. **Correction (Hallucination):** I incorrectly believed I moved to (28, 32) and interacted from the south. In reality, I remained at (23, 35).
-    29. **Success (Loop Confirmed):** Interacting from the West at (23, 35) while it was at (24, 35) moved it back to (28, 31). This confirms the loop with step 27.
-    30. **Success (Loop Broken):** Interacting from the South at (28, 32) while it was at (28, 31) caused it to disappear. This breaks the loop.
-    31. **Failure (Hypothesis Invalidated):** Spoke to the apprentice at (7, 28) after the Farfetch'd disappeared. His dialogue was unchanged. This proves that making the Farfetch'd disappear is NOT the solution to the puzzle.
-    32. **Discovery:** Stepped on a trigger tile somewhere on the path from (29, 28) to (27, 24) after the Farfetch'd disappeared caused it to reappear at its starting position (29, 22). This resets the puzzle.
-    33. **Failure:** Replicating the first successful move (interacting from the South at (29, 23) while it was at its starting position (29, 22)) after a trigger tile reset now causes it to turn instead of move. The puzzle state is more complex than just position.
-    34. **Discovery:** Moving onto the Farfetch'd's tile (29, 22) from the south (29, 23) caused it to disappear.
-    35. **Failure:** Stepping on tile (28, 22) after the Farfetch'd disappeared did not cause it to reappear.
-    36. **Discovery:** Stepping on tile (25, 24) after the Farfetch'd disappeared caused it to reappear at (20, 24).
 
 42. **Test:** Stepped on trigger tile (25, 24) after a 'disappear from East interaction' sequence.
     43. **Failure:** Systematic exploration of path from (28, 32) to (29, 22) did not cause reappearance.
