@@ -6,12 +6,15 @@
 - The western path on Route 29 is blocked by CUT_TREEs and HEADBUTT_TREEs.
 - Talking to Mom does NOT heal my Pokémon. This is a critical mechanic difference from other games.
 - Resting in the player's bed does NOT heal Pokémon.
+- Repeatedly interacting with an object (like a sign) without new results can lead to loops. I must dismiss dialogue before attempting to move.
 
 ## Game Mechanics & Systems
 *PC Storage*: Currently empty.
+*Key Items*:
+- BERRY: Heals a Pokémon.
 
 ## Battle and Pokemon Information
-*My Party*: Ignis (CYNDAQUIL) Lv8.
+*My Party*: Ignis (CYNDAQUIL) Lv9.
 *Type Effectiveness Chart*: To be built based on battle observations.
 
 ## Area and Navigation Insights
@@ -23,10 +26,14 @@
 - **DOOR**: Traversable, acts as a warp tile. (Verified)
 - **FLOOR**: Traversable. (Verified)
 - **HEADBUTT_TREE**: Impassable. (Verified by observation)
+- **LADDER**: Traversable, acts as a warp tile. (Verified)
 - **LEDGE_HOP_DOWN**: One-way ledge. Can only be traversed by moving down onto it. (Verified)
 - **LEDGE_HOP_LEFT**: One-way ledge. Can only be traversed by moving left onto it. (Verified)
 - **LEDGE_HOP_RIGHT**: One-way ledge. Can only be traversed by moving right onto it. (Verified)
+- **LONG_GRASS**: Traversable, contains wild Pokémon. (Verified by encounters on Route 30)
+- **MART_SHELF**: Impassable. (Verified by pathfinder consistently treating it as a wall)
 - **PC**: Impassable. Interacting from an adjacent tile can trigger events. (Verified)
+- **RADIO**: Impassable. (Verified by attempting to walk on it)
 - **STAIRCASE**: Traversable, acts as a warp tile. (Verified)
 - **TALL_GRASS**: Traversable, contains wild Pokémon. (Verified)
 - **TOWN_MAP**: Impassable. (Verified by observation)
@@ -34,6 +41,7 @@
 - **VOID**: Impassable. (Verified)
 - **WALL**: Impassable. (Verified)
 - **WARP_CARPET_DOWN**: Traversable, acts as a warp tile. (Verified)
+- **WATER**: Impassable without a specific ability (like Surf). (Hypothesis, needs verification by attempting to walk on it)
 - **WINDOW**: Impassable. (Verified)
 
 ## Puzzles & Hypotheses
@@ -64,9 +72,14 @@
   - **Initial State:** The tool was unreliable, incorrectly identifying unreachable tiles as reachable.
   - **Fix:** Replaced the flawed logic with a Breadth-First Search (BFS) starting from the player's position, incorporating correct ledge traversal rules.
   - **Current Status:** The tool is now considered fixed and reliable for exploration planning.
-- **LADDER**: Traversable, acts as a warp tile. (Verified)
 - **Pokecenter2F (Cherrygrove City):** This floor is dedicated to link features (Trade Machine, Battle Machine, Time Capsule). All services are currently unavailable, making the entire floor a dead end for now.
-- **RADIO**: Impassable. (Verified by attempting to walk on it)
+
+## Untested Assumptions
+- MR. POKEMON's house is located on Route 30 itself, not a connecting route. (About to be tested)
+
+## Corrected Misunderstandings
+- The 'Poké Ball machine' in Elm's lab was a hallucination.
+- Hallucinated a warp at (9, 35) on Route 30. There is no warp there.
 
 ## My Tools & Agents
 
@@ -90,30 +103,3 @@
 - **define_agent**: Creates or updates a custom agent.
 - **delete_agent**: Deletes a custom agent.
 - **run_code**: Executes a single-use Python script.
-
-## Corrected Misunderstandings
-- The 'Poké Ball machine' in Elm's lab was a hallucination.
-- Hallucinated a warp at (9, 35) on Route 30. There is no warp there.
-
-## Key Items
-- **BERRY**: Received from a man in a house on Route 30. Heals a Pokémon.
-- **MART_SHELF**: Impassable. (Verified by pathfinder consistently treating it as a wall)
-
-### Tile Traversal and Movement Rules (Additions)
-- **LONG_GRASS**: Traversable, likely contains wild Pokémon. (Hypothesis, needs verification)
-- **WATER**: Impassable without a specific ability (like Surf). (Hypothesis, needs verification)
-
-## Untested Assumptions
-- The western path on Route 30 is the correct way to reach MR. POKEMON's house.
-- MR. POKEMON's house is located on Route 30 itself, not a connecting route.
-
-## Area and Navigation Insights (Additions)
-### Tile Traversal and Movement Rules
-- **LONG_GRASS**: Traversable, contains wild Pokémon. (Verified by encounters on Route 30)
-- **WATER**: Impassable without a specific ability (like Surf). (Hypothesis, needs verification by attempting to walk on it)
-
-## Discoveries & Lessons Learned (Additions)
-- Repeatedly interacting with an object (like a sign) without new results can lead to loops. I must dismiss dialogue before attempting to move.
-
-## Untested Assumptions
-- MR. POKEMON's house is located on Route 30 itself, not a connecting route. (About to be tested)
