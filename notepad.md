@@ -17,7 +17,7 @@
 - **DOOR**: Warp. (Verified)
 - **STAIRCASE**: Warp. (Verified)
 - **WARP_CARPET_DOWN**: Warp. (Verified)
-- **WALL**: Appears impassable. (Untested)
+- **WALL**: Impassable. (Verified)
 - **BOOKSHELF**: Appears impassable. Interacting gives flavor text. (Untested for traversal)
 - **WINDOW**: Appears impassable. Interacting gives flavor text. (Untested for traversal)
 - **PC**: Appears impassable. Interacting from below triggered a scripted event. (Untested for traversal)
