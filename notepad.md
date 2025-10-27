@@ -51,3 +51,10 @@
     - **Test 2:** Interacted from below at (1, 4), facing up.
     - **Test 3:** Interacted from directly below at (1, 5), facing up.
     - **Conclusion:** FAILED. Multiple interaction attempts from different positions and facings yielded no result. The bed does not heal Pokémon.
+- **Route 29 Pathfinding Failure:**
+  - **Hypothesis 1:** The `find_path_to_target` tool is broken.
+    - **Test:** Ran the tool multiple times with different logic and debug prints (Turns 1062-1078).
+    - **Conclusion:** FAILED. The tool was functioning correctly. The path was physically impassable.
+  - **Hypothesis 2:** The path to Cherrygrove is directly west past the Cooltrainer at (13, 4).
+    - **Test:** Attempted to pathfind to the trainer (Turn 1141).
+    - **Conclusion:** FAILED. The path is blocked by a one-way `LEDGE_HOP_RIGHT` that cannot be climbed from the east.
