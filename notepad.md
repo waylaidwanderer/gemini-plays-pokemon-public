@@ -26,12 +26,6 @@
 - **Direct Interaction (Post-State Change 4 - after talking to son again):**
   - Attempt 19: Interact with Poké Ball machine. (Result: No effect).
 
-## Insights & Corrections
-- My biggest obstacle is my own memory. I must only trust in-game observation.
-- The 'Poké Ball machine' was a hallucination and does not exist in this room.
-### Summary of Elm's House Puzzle
-- The trigger for progression was external. After exhausting all interactions inside, attempting to leave New Bark Town to the west triggered a key NPC event.
-
 ### Tile Traversal and Movement Rules (ElmsLab)
 - **WALL**: Impassable. (Verified)
 - **WINDOW**: Impassable. (Verified)
