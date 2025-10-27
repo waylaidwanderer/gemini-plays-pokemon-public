@@ -85,3 +85,7 @@
   - **Hypothesis:** I can reach the western unseen area from the lower plateau at (24, 10).
     - **Test:** Attempted to pathfind from (24, 10) to (13, 12) on turn 1154. Confirmed impassable by attempting to walk into HEADBUTT_TREE on turn 1164.
     - **Conclusion:** FAILED. The path is blocked by `CUT_TREE` and `HEADBUTT_TREE` tiles, and the eastern path is blocked by one-way ledges. This area is a dead end.
+- **`find_reachable_unseen_tiles` Tool Failure:**
+  - **Observation:** The tool returned a list of unseen tiles that are not reachable from my current position on the isolated lower plateau of Route 29 (turn 1167).
+  - **Hypothesis:** The tool is not correctly performing a reachability check (BFS/DFS) from the player's current position and is instead just identifying all unseen tiles adjacent to any seen tile on the map.
+  - **Conclusion:** The tool is currently unreliable for finding explorable paths and needs to be fixed.
