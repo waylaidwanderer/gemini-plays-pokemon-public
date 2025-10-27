@@ -82,3 +82,10 @@
 ### Custom Agents
 - **hypothesis_generator**: Generates new hypotheses when stuck.
 - **simple_battle_strategist**: Recommends actions in simple wild battles.
+
+## Corrected Misunderstandings
+- The 'Poké Ball machine' in Elm's lab was a hallucination.
+- Hallucinated a warp at (9, 35) on Route 30. There is no warp there.
+
+## Key Items
+- **BERRY**: Received from a man in a house on Route 30. Heals a Pokémon.
