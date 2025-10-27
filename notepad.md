@@ -56,8 +56,3 @@
   - **Hypothesis:** I can jump down the ledges to the south from the upper plateau at (17, 3).
     - **Test:** Attempted to pathfind from (17, 3) to (13, 5) on turn 1145.
     - **Conclusion:** FAILED. There is no direct path down from this part of the plateau.
-
-- **`find_reachable_unseen_tiles` Tool Failure:**
-  - **Observation:** The tool returned a list of unseen tiles that are not reachable from my current position on the isolated lower plateau of Route 29 (turn 1167).
-  - **Hypothesis:** The tool is not correctly performing a reachability check (BFS/DFS) from the player's current position and is instead just identifying all unseen tiles adjacent to any seen tile on the map.
-  - **Conclusion:** The tool is currently unreliable for finding explorable paths and needs to be fixed.
