@@ -58,3 +58,5 @@
 - **(Turn 207):** I deferred fixing a critical tool (`find_path_to_target`) for several turns instead of making it my immediate priority. All tool/agent maintenance must be performed the instant a problem is identified.
 - **Direct Interaction (Post-State Change 3 - after talking to son):**
   - Attempt 18: Talk to Prof. Elm from the front. (Result: Dialogue loop with wife).
+- **Direct Interaction (Post-State Change 4 - after talking to son again):**
+  - Attempt 19: Interact with Poké Ball machine. (Result: No effect).
