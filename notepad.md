@@ -98,3 +98,11 @@
 ## Key Items
 - **BERRY**: Received from a man in a house on Route 30. Heals a Pokémon.
 - **MART_SHELF**: Impassable. (Verified by pathfinder consistently treating it as a wall)
+
+### Tile Traversal and Movement Rules (Additions)
+- **LONG_GRASS**: Traversable, likely contains wild Pokémon. (Hypothesis, needs verification)
+- **WATER**: Impassable without a specific ability (like Surf). (Hypothesis, needs verification)
+
+## Untested Assumptions
+- The western path on Route 30 is the correct way to reach MR. POKEMON's house.
+- MR. POKEMON's house is located on Route 30 itself, not a connecting route.
