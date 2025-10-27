@@ -47,3 +47,4 @@
 - **GRASS**: Traversable, likely contains wild Pokémon. (Hypothesis)
 - **LEDGE_HOP_DOWN**: Appears to be a one-way ledge that can only be jumped down from above. (Hypothesis)
 - **TALL_GRASS**: Traversable, likely contains wild Pokémon. (Hypothesis)
+- **HEADBUTT_TREE**: Impassable. (Verified)
