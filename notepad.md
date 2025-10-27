@@ -84,18 +84,6 @@
 
 46. **Discovery (Turn 22790):** Walking the trigger path from (26, 24) to (20, 24) after a 'disappear from East interaction' sequence caused the Farfetch'd to reappear at (15, 25).
 
-## VII. Archived Puzzle Solutions
-### A. Ilex Forest Farfetch'd Puzzle
-*   **Objective:** Herd two separate Farfetch'd to the apprentice at (7, 28).
-*   **Status:** Solved.
-*   **Solution Summary:** The puzzle was a complex state machine. The Farfetch'd's movement was not just based on its position but on a hidden state that was altered by the player's interactions (direction of approach) and by stepping on specific, unmarked trigger tiles and paths. Key trigger tiles were identified at (25, 24) and (15, 27), with trigger paths existing between (26, 24)-(20, 24) and (15, 27)-(9, 34). Solving the puzzle required a long sequence of specific interactions and trigger activations to guide both Farfetch'd to the target location.
-
-## VII. Archived Puzzle Solutions
-### A. Ilex Forest Farfetch'd Puzzle
-*   **Objective:** Herd two separate Farfetch'd to the apprentice at (7, 28).
-*   **Status:** Solved.
-*   **Solution Summary:** The puzzle was a complex state machine. The Farfetch'd's movement was not just based on its position but on a hidden state that was altered by the player's interactions (direction of approach) and by stepping on specific, unmarked trigger tiles and paths. Key trigger tiles were identified at (25, 24) and (15, 27), with trigger paths existing between (26, 24)-(20, 24) and (15, 27)-(9, 34). Solving the puzzle required a long sequence of specific interactions and trigger activations to guide both Farfetch'd to the target location.
-
 ## VIII. Untested Hypotheses
 *   **Route 36 Strange Tree:** The assumption is this is the only path to Goldenrod City. An alternative is that another route exists, possibly through the National Park. **Test:** Fully explore Route 34 and its connections before returning to the tree.
 *   **Union Cave Roars:** The assumption is this leads to a rare Pokémon. An alternative is that it's an NPC event or flavor text. **Test:** Visit on a Friday and observe.
