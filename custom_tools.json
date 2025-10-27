@@ -153,39 +153,6 @@
       }
     ]
   },
-  "generate_nickname_inputs": {
-    "description": "Calculates the optimal sequence of button presses to enter a given nickname on the Pokémon naming screen. It handles both uppercase and lowercase letters and minimizes cursor movement. The output is a list of lists, where each inner list represents one turn's worth of inputs (either a sequence of directional presses or a single action button).",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "nickname": {
-          "type": "string",
-          "description": "The desired nickname, up to 10 characters."
-        }
-      },
-      "required": [
-        "nickname"
-      ]
-    },
-    "python_script": "import json\n\nkeyboards = {\n    'UPPER': [\n        ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I'],\n        ['J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R'],\n        ['S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', '-'],\n        ['?', '!', '/', '.', ','],\n        ['lower', 'DEL', 'END']\n    ],\n    'lower': [\n        ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i'],\n        ['j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r'],\n        ['s', 't', 'u', 'v', 'w', 'x', 'y', 'z', ' '],\n        ['(', ')', ':', ';', '[', ']'],\n        ['UPPER', 'DEL', 'END']\n    ]\n}\n\ndef find_char_pos(char, keyboard_layout):\n    for r, row in enumerate(keyboard_layout):\n        if char in row:\n            return (r, row.index(char))\n    return None\n\ndef generate_nickname_inputs_fixed(nickname):\n    press_sequence = []\n    current_pos = (0, 0)\n    current_keyboard_name = 'UPPER'\n\n    def add_movement(dr, dc):\n        moves = []\n        if dr > 0: moves.extend(['Down'] * dr)\n        else: moves.extend(['Up'] * abs(dr))\n        if dc > 0: moves.extend(['Right'] * dc)\n        else: moves.extend(['Left'] * abs(dc))\n        if moves: press_sequence.append(moves)\n\n    for char in nickname:\n        target_keyboard_name = 'UPPER'\n        if 'a' <= char <= 'z' or char == ' ':\n            target_keyboard_name = 'lower'\n        \n        if current_keyboard_name != target_keyboard_name:\n            switch_key = 'lower' if target_keyboard_name == 'lower' else 'UPPER'\n            keyboard_layout = keyboards[current_keyboard_name]\n            target_pos = find_char_pos(switch_key, keyboard_layout)\n            # This movement logic is simplified and may not be perfect due to the non-grid layout\n            dr, dc = target_pos[0] - current_pos[0], target_pos[1] - current_pos[1]\n            add_movement(dr, dc)\n            press_sequence.append(['A'])\n            current_keyboard_name = target_keyboard_name\n            # Assumption: cursor moves to the opposite key after switch\n            current_pos = find_char_pos('UPPER' if current_keyboard_name == 'lower' else 'lower', keyboards[current_keyboard_name])\n\n        keyboard_layout = keyboards[current_keyboard_name]\n        target_pos = find_char_pos(char, keyboard_layout)\n        dr, dc = target_pos[0] - current_pos[0], target_pos[1] - current_pos[1]\n        add_movement(dr, dc)\n        press_sequence.append(['A'])\n        current_pos = target_pos\n\n    keyboard_layout = keyboards[current_keyboard_name]\n    target_pos = find_char_pos('END', keyboard_layout)\n    dr, dc = target_pos[0] - current_pos[0], target_pos[1] - current_pos[1]\n    add_movement(dr, dc)\n    press_sequence.append(['A'])\n    \n    return press_sequence\n\ninput_nickname = input_data['nickname']\npath = generate_nickname_inputs_fixed(input_nickname)\nprint(json.dumps(path))",
-    "history": [
-      {
-        "commit_message": "feat: Create nicknaming automation tool. This tool, `generate_nickname_inputs`, automates the tedious and error-prone process of entering a Pokémon's nickname. It calculates the optimal button presses to navigate the on-screen keyboard for any given name, saving significant time and preventing manual input errors. This is a major quality-of-life improvement.",
-        "timestamp": "2025-10-27T05:03:16.685Z",
-        "action_counter": 623
-      },
-      {
-        "commit_message": "fix: Refactor output to a list of lists. The tool previously generated a single, mixed list of directional and action inputs, causing system truncation. This update changes the output to a list of lists, where each inner list contains either a sequence of directional moves or a single action button. This allows for sequential, per-turn execution, preventing input errors and making the tool functional.",
-        "timestamp": "2025-10-27T20:08:47.896Z",
-        "action_counter": 1682
-      },
-      {
-        "commit_message": "fix: Correct keyboard layout and cursor logic. The tool's internal representation of the keyboard was incorrect, causing it to select the wrong characters. This update corrects the data structure to match the in-game layout and revises the cursor tracking logic to correctly assume the cursor moves to the opposite case-switch button after a change, improving accuracy.",
-        "timestamp": "2025-10-27T20:39:29.714Z",
-        "action_counter": 1741
-      }
-    ]
-  },
   "find_reachable_unseen_tiles": {
     "description": "Finds all unseen tiles on the current map that are reachable from the player's current position. It performs a breadth-first search (BFS) starting from the player to identify all accessible tiles, then returns the coordinates of any unseen tiles found within that accessible area.",
     "input_schema": {
@@ -219,6 +186,39 @@
         "commit_message": "fix: Overhaul reachability logic to use BFS. The previous version incorrectly identified all unseen tiles adjacent to any seen tile, leading to false positives. This update replaces the flawed logic with a Breadth-First Search starting from the player's position, incorporating the proven ledge traversal rules from the pathfinding tool. The tool now accurately identifies only the unseen tiles that are physically reachable, making it a reliable guide for exploration.",
         "timestamp": "2025-10-27T11:55:54.051Z",
         "action_counter": 1176
+      }
+    ]
+  },
+  "generate_nickname_inputs": {
+    "description": "Calculates the optimal sequence of button presses to enter a given nickname on the Pokémon naming screen. It handles both uppercase and lowercase letters and minimizes cursor movement. The output is a list of lists, where each inner list represents one turn's worth of inputs (either a sequence of directional presses or a single action button).",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "nickname": {
+          "type": "string",
+          "description": "The desired nickname, up to 10 characters."
+        }
+      },
+      "required": [
+        "nickname"
+      ]
+    },
+    "python_script": "import json\n\nkeyboards = {\n    'UPPER': [\n        ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I'],\n        ['J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R'],\n        ['S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', '-'],\n        ['?', '!', '/', '.', ','],\n        ['lower', 'DEL', 'END']\n    ],\n    'lower': [\n        ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i'],\n        ['j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r'],\n        ['s', 't', 'u', 'v', 'w', 'x', 'y', 'z', ' '],\n        ['(', ')', ':', ';', '[', ']'],\n        ['UPPER', 'DEL', 'END']\n    ]\n}\n\ndef find_char_pos(char, keyboard_layout):\n    for r, row in enumerate(keyboard_layout):\n        if char in row:\n            return (r, row.index(char))\n    return None\n\ndef generate_nickname_inputs_fixed(nickname):\n    press_sequence = []\n    current_pos = (0, 0)\n    current_keyboard_name = 'UPPER'\n\n    def add_movement(dr, dc):\n        moves = []\n        if dr > 0: moves.extend(['Down'] * dr)\n        else: moves.extend(['Up'] * abs(dr))\n        if dc > 0: moves.extend(['Right'] * dc)\n        else: moves.extend(['Left'] * abs(dc))\n        if moves: press_sequence.append(moves)\n\n    for char in nickname:\n        target_keyboard_name = 'UPPER'\n        if 'a' <= char <= 'z' or char == ' ':\n            target_keyboard_name = 'lower'\n        \n        if current_keyboard_name != target_keyboard_name:\n            switch_key = 'lower' if target_keyboard_name == 'lower' else 'UPPER'\n            keyboard_layout = keyboards[current_keyboard_name]\n            target_pos = find_char_pos(switch_key, keyboard_layout)\n            # This movement logic is simplified and may not be perfect due to the non-grid layout\n            dr, dc = target_pos[0] - current_pos[0], target_pos[1] - current_pos[1]\n            add_movement(dr, dc)\n            press_sequence.append(['A'])\n            current_keyboard_name = target_keyboard_name\n            # Assumption: cursor moves to the opposite key after switch\n            current_pos = find_char_pos('UPPER' if current_keyboard_name == 'lower' else 'lower', keyboards[current_keyboard_name])\n\n        keyboard_layout = keyboards[current_keyboard_name]\n        target_pos = find_char_pos(char, keyboard_layout)\n        dr, dc = target_pos[0] - current_pos[0], target_pos[1] - current_pos[1]\n        add_movement(dr, dc)\n        press_sequence.append(['A'])\n        current_pos = target_pos\n\n    keyboard_layout = keyboards[current_keyboard_name]\n    target_pos = find_char_pos('END', keyboard_layout)\n    dr, dc = target_pos[0] - current_pos[0], target_pos[1] - current_pos[1]\n    add_movement(dr, dc)\n    press_sequence.append(['A'])\n    \n    return press_sequence\n\ninput_nickname = input_data['nickname']\npath = generate_nickname_inputs_fixed(input_nickname)\nprint(json.dumps(path))",
+    "history": [
+      {
+        "commit_message": "feat: Create nicknaming automation tool. This tool, `generate_nickname_inputs`, automates the tedious and error-prone process of entering a Pokémon's nickname. It calculates the optimal button presses to navigate the on-screen keyboard for any given name, saving significant time and preventing manual input errors. This is a major quality-of-life improvement.",
+        "timestamp": "2025-10-27T05:03:16.685Z",
+        "action_counter": 623
+      },
+      {
+        "commit_message": "fix: Refactor output to a list of lists. The tool previously generated a single, mixed list of directional and action inputs, causing system truncation. This update changes the output to a list of lists, where each inner list contains either a sequence of directional moves or a single action button. This allows for sequential, per-turn execution, preventing input errors and making the tool functional.",
+        "timestamp": "2025-10-27T20:08:47.896Z",
+        "action_counter": 1682
+      },
+      {
+        "commit_message": "fix: Correct keyboard layout and cursor logic. The tool's internal representation of the keyboard was incorrect, causing it to select the wrong characters. This update corrects the data structure to match the in-game layout and revises the cursor tracking logic to correctly assume the cursor moves to the opposite case-switch button after a change, improving accuracy.",
+        "timestamp": "2025-10-27T20:39:29.714Z",
+        "action_counter": 1741
       }
     ]
   }
