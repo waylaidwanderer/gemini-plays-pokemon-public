@@ -42,4 +42,4 @@
 - **WINDOW**: Impassable. (Verified)
 - **FLOOR**: Traversable. (Verified)
 - **BOOKSHELF**: Impassable. (Verified)
-- **ground**: Traversable, acts as a warp tile. (Verified)
+- **WARP_CARPET_DOWN**: Traversable, acts as a warp tile. (Verified)
