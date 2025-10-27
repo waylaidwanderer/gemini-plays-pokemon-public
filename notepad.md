@@ -57,13 +57,6 @@
 - **Direct Interaction (Post-State Change 4 - after talking to son again):**
   - Attempt 19: Interact with Poké Ball machine. (Result: No effect).
 
-### Elm's Lab Puzzle - Reflection & Correction
-*Correction (Turn 264):* I have been operating under the false assumption that a "Poké Ball machine" exists in this room. It does not. All previous hypotheses involving this object are invalid. I must re-evaluate based only on observable objects.
-
-*Verified Progression Trigger:*
-- Interacting with the PC at (0, 1) triggered new dialogue from Professor Elm.
-
-*Current Core Hypotheses:*
-1. The event trigger requires another interaction with an object in the room (PC, TV, Elm, Son, etc.).
-2. The event trigger requires moving to a specific tile.
-3. The event trigger requires attempting to leave the lab again.
+## Insights & Corrections
+- My biggest obstacle is my own memory. I must only trust in-game observation.
+- The 'Poké Ball machine' was a hallucination and does not exist in this room.
