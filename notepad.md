@@ -29,3 +29,10 @@
 - The 'Poké Ball machine' was a hallucination.
 - The southern path on Route 29 is a dead end.
 - The western path on Route 29 is blocked by a CUT_TREE.
+
+## Puzzles & Hypotheses
+- **Fisher NPC Interaction Failure (New Bark Town):**
+  - **Observation:** Attempting to interact with the moving Fisher NPC failed, even when adjacent and facing him.
+  - **Hypothesis:** The NPC's movement at the exact moment of interaction caused the input to fail.
+  - **Test:** Used the `stun_npc` tool to freeze the Fisher in place and interacted again.
+  - **Conclusion:** The interaction was successful, confirming the hypothesis. Moving NPCs can disrupt interactions.
