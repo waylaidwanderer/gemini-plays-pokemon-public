@@ -50,3 +50,4 @@
     - **Conclusion:** FAILED. Multiple interaction attempts from different positions and facings yielded no result. The bed does not heal Pokémon.
 - **STAIRCASE**: Traversable, acts as a warp tile. (Verified)
 - **TOWN_MAP**: Impassable. (Verified by observation, interaction not yet tested)
+- **COUNTER**: Impassable. (Verified by observation)
