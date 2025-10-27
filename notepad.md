@@ -39,3 +39,4 @@
 ## Insights & Corrections
 - My biggest obstacle is my own memory. I must only trust in-game observation.
 - The 'Poké Ball machine' was a hallucination and does not exist in this room.
+- Hypothesis: Talking to Elm's Wife after she moved to a new position will trigger a new event. (Result: Same dialogue loop. Failed.)
