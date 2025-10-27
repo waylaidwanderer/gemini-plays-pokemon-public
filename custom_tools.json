@@ -1,1 +1,36 @@
-{}
+{
+  "find_path_to_target": {
+    "description": "Calculates the shortest path from a start to an end coordinate on the current map using the A* algorithm. It considers tile traversability and objects as obstacles. Returns a JSON string of the coordinate path or an empty list if no path is found.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "start_x": {
+          "type": "string"
+        },
+        "start_y": {
+          "type": "string"
+        },
+        "end_x": {
+          "type": "string"
+        },
+        "end_y": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "start_x",
+        "start_y",
+        "end_x",
+        "end_y"
+      ]
+    },
+    "python_script": "import xml.etree.ElementTree as ET\nimport heapq\nimport json\n\ndef find_path(start_x, start_y, end_x, end_y, map_xml_string):\n    root = ET.fromstring(map_xml_string)\n    map_width = int(root.attrib['width'])\n    map_height = int(root.attrib['height'])\n\n    traversable_tiles = {'FLOOR', 'WARP_CARPET_DOWN', 'DOOR', 'STAIRCASE'}\n    \n    grid = [[1 for _ in range(map_width + 1)] for _ in range(map_height + 1)]\n    \n    for row_elem in root.findall('Row'):\n        y = int(row_elem.attrib['id'])\n        for tile_elem in row_elem.findall('Tile'):\n            x = int(tile_elem.attrib['id'])\n            tile_type = tile_elem.attrib.get('type', 'unseen')\n            \n            if tile_type not in traversable_tiles:\n                grid[y][x] = 0\n            \n            if tile_elem.find('Object') is not None and (x, y) != (end_x, end_y):\n                grid[y][x] = 0\n\n    start_node = (start_x, start_y)\n    end_node = (end_x, end_y)\n\n    if grid[start_y][start_x] == 0:\n        return []\n\n    open_set = []\n    heapq.heappush(open_set, (0, start_node))\n    came_from = {}\n    g_score = { (c_x, c_y): float('inf') for c_x in range(map_width + 1) for c_y in range(map_height + 1) }\n    g_score[start_node] = 0\n    f_score = { (c_x, c_y): float('inf') for c_x in range(map_width + 1) for c_y in range(map_height + 1) }\n    f_score[start_node] = abs(start_node[0] - end_node[0]) + abs(start_node[1] - end_node[1])\n\n    while open_set:\n        _, current = heapq.heappop(open_set)\n\n        if current == end_node:\n            path = []\n            while current in came_from:\n                path.append({'x': current[0], 'y': current[1]})\n                current = came_from[current]\n            path.append({'x': start_node[0], 'y': start_node[1]})\n            return path[::-1]\n\n        for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n            neighbor = (current[0] + dx, current[1] + dy)\n            nx, ny = neighbor\n\n            if not (0 < nx <= map_width and 0 < ny <= map_height):\n                continue\n\n            if grid[ny][nx] == 0:\n                continue\n\n            tentative_g_score = g_score[current] + 1\n            if tentative_g_score < g_score[neighbor]:\n                came_from[neighbor] = current\n                g_score[neighbor] = tentative_g_score\n                f_score[neighbor] = g_score[neighbor] + abs(neighbor[0] - end_node[0]) + abs(neighbor[1] - end_node[1])\n                if neighbor not in [i[1] for i in open_set]:\n                    heapq.heappush(open_set, (f_score[neighbor], neighbor))\n\n    return []\n\nstart_x = int(input_data['start_x'])\nstart_y = int(input_data['start_y'])\nend_x = int(input_data['end_x'])\nend_y = int(input_data['end_y'])\n\npath = find_path(start_x, start_y, end_x, end_y, map_xml_string)\nprint(json.dumps(path))",
+    "history": [
+      {
+        "commit_message": "feat: Create A* pathfinding tool. This tool, `find_path_to_target`, provides essential navigation capabilities, allowing for automated and optimal path calculation. It parses the map XML, identifies walkable tiles, and avoids obstacles like walls and NPCs. This is a foundational tool to improve exploration efficiency and solve reachability problems.",
+        "timestamp": "2025-10-27T01:14:44.384Z",
+        "action_counter": 156
+      }
+    ]
+  }
+}

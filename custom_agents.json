@@ -1,1 +1,9 @@
-{}
+{
+  "hypothesis_generator": {
+    "agent_name": "hypothesis_generator",
+    "agent_description": "Generates new, testable hypotheses when stuck, based on the current situation and a list of previously failed attempts.",
+    "agent_system_prompt": "You are a helpful assistant for a gamer playing a 2D RPG. Your goal is to generate creative, simple, and testable hypotheses to overcome obstacles. Analyze the provided context, including the current problem and a list of failed hypotheses. Do not suggest any hypothesis that is a direct repeat of a failed one. Prioritize simple actions the player might have overlooked. Think about common RPG tropes: talking to NPCs in a different order, interacting with background objects, proximity triggers, or needing to leave and re-enter an area. Your output must be a list of new, distinct hypotheses.",
+    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"problem_description\":{\"type\":\"string\",\"description\":\"A clear description of the current obstacle or puzzle.\"},\"failed_hypotheses\":{\"type\":\"array\",\"items\":{\"type\":\"string\"},\"description\":\"A list of hypotheses that have already been tested and failed.\"}},\"required\":[\"problem_description\",\"failed_hypotheses\"]}",
+    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"new_hypotheses\":{\"type\":\"array\",\"items\":{\"type\":\"string\",\"description\":\"A new hypothesis to test.\"}}},\"required\":[\"new_hypotheses\"]}"
+  }
+}
