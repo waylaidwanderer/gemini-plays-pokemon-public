@@ -11,7 +11,7 @@
 - **BOOKSHELF**: Impassable. (Verified)
 - **CUT_TREE**: Impassable, requires a specific ability/item to remove. (Verified by diagnostic test)
 - **FLOOR**: Traversable. (Verified)
-- **HEADBUTT_TREE**: Impassable. (Verified)
+- **HEADBUTT_TREE**: Impassable. (Verified by observation)
 - **LEDGE_HOP_DOWN**: One-way ledge. Can only be traversed by moving down onto it. (Verified by attempting to move up/left/right onto it and failing).
 - **LEDGE_HOP_LEFT**: One-way ledge. Can only be traversed by moving left onto it. (Verified by attempting to move up/down/right onto it and failing).
 - **LEDGE_HOP_RIGHT**: One-way ledge. Can only be traversed by moving right onto it. (Verified by attempting to move up/down/left onto it and failing).
