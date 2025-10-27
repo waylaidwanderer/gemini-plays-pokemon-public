@@ -56,3 +56,11 @@
   - **Hypothesis:** I can jump down the ledges to the south from the upper plateau at (17, 3).
     - **Test:** Attempted to pathfind from (17, 3) to (13, 5) on turn 1145.
     - **Conclusion:** FAILED. There is no direct path down from this part of the plateau.
+- **Route 29 Pathfinding Summary:**
+  - The southern path is a dead end. (Verified)
+  - The western path from the lower plateau is blocked by `CUT_TREE` and `HEADBUTT_TREE` tiles. (Verified)
+  - The eastern path from the upper plateau is blocked by one-way `LEDGE_HOP_RIGHT` tiles. (Verified)
+- **`find_reachable_unseen_tiles` Tool Status:**
+  - **Initial State:** The tool was unreliable, incorrectly identifying unreachable tiles as reachable.
+  - **Fix:** Replaced the flawed logic with a Breadth-First Search (BFS) starting from the player's position, incorporating correct ledge traversal rules.
+  - **Current Status:** The tool is now considered fixed and reliable for exploration planning.
