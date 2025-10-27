@@ -21,11 +21,6 @@
 - Stunning an NPC can break scripted events, causing dialogue loops.
 - The 'Poké Ball machine' was a hallucination.
 
-- **Direct Interaction (Post-State Change 3 - after talking to son):**
-  - Attempt 18: Talk to Prof. Elm from the front. (Result: Dialogue loop with wife).
-- **Direct Interaction (Post-State Change 4 - after talking to son again):**
-  - Attempt 19: Interact with Poké Ball machine. (Result: No effect).
-
 ### Tile Traversal and Movement Rules (ElmsLab)
 - **WALL**: Impassable. (Verified)
 - **WINDOW**: Impassable. (Verified)
