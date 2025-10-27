@@ -141,3 +141,4 @@
 *   **Route 36 Strange Tree:** The assumption is this is the only path to Goldenrod City. An alternative is that another route exists, possibly through the National Park. **Test:** Fully explore Route 34 and its connections before returning to the tree.
 *   **Union Cave Roars:** The assumption is this leads to a rare Pokémon. An alternative is that it's an NPC event or flavor text. **Test:** Visit on a Friday and observe.
 *   **Kurt's Custom Ball:** The assumption is the one-day wait is real-time. An alternative is that it's tied to in-game time or story progression (e.g., the next gym badge). **Test:** Check on Kurt after the next major story milestone.
+*   **Union Cave Unseen Tiles:** Confirmed with `reachable_unseen_tile_finder` that all unseen tiles on this map are currently unreachable.
