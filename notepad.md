@@ -101,3 +101,6 @@
 - **Assumption:** The path to Violet City continues north on Route 30.
 - **Alternative Hypothesis:** The path might be on a different route entirely, or require an HM on a previous route. 
 - **Test:** If a full exploration of Route 30 yields no path, I will return to Cherrygrove City and Route 29 to search for alternate paths.
+
+## To-Do/Test
+- **WATER Tile:** Explicitly try to walk on a WATER tile to confirm it's impassable.
