@@ -56,8 +56,9 @@
     *   **WATER:** Can be fished in with a rod.
 
 ## V. Story & Quests
-*   **Primary Quest: Obtain HM01 Cut**
-    *   **Status:** Incomplete. The apprentice is still lost in Ilex Forest. The reward is likely HM01.
+*   **Primary Quest: Obtain the ability to Cut trees**
+    *   **Objective:** Find the charcoal maker's runaway Farfetch'd in Ilex Forest.
+    *   **Status:** In Progress. Just spoke to the apprentice and confirmed the quest.
 *   **Secondary Quest: Kurt's Custom Balls**
     *   **Objective:** Wait one day for Kurt to finish making a custom ball from the WHT APRICORN.
     *   **Status:** Blocked by time.
@@ -65,6 +66,11 @@
     *   **Sprout Tower:** Reach the top and defeat the Elder. (Blocked).
     *   **Union Cave Roars:** Investigate on a Friday. (Blocked by time).
     *   **Bug-Catching Contest:** At the National Park.
+
+## X. Untested Hypotheses & Strategic Notes
+*   **Farfetch'd Puzzle:** The assumption is this puzzle is the only way to get the ability to Cut. An alternative is that another method exists. If the puzzle proves too difficult, I will re-explore Azalea Town for other clues.
+*   **Farfetch'd Location:** The assumption that it starts at (29, 22) is based on a hallucination. If it's not there, I must perform a systematic search of the entire accessible forest area.
+*   **Immediate Task:** Mark the Farfetch'd's location with a map marker as soon as it is found.
 
 ## VI. Puzzle Logs
 
