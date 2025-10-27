@@ -31,6 +31,29 @@
       }
     ]
   },
+  "object_scanner": {
+    "description": "Scans the current map's XML data to check for the presence of specific objects by their id-name. Returns a list of found objects and their coordinates.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "object_names": {
+          "type": "string",
+          "description": "A comma-separated string of object id-names to search for (e.g., 'KURT,SLOWPOKE')."
+        }
+      },
+      "required": [
+        "object_names"
+      ]
+    },
+    "python_script": "import xml.etree.ElementTree as ET\nimport json\n\nobject_names_to_find = input_data['object_names'].split(',')\nfound_objects = []\n\nroot = ET.fromstring(map_xml_string)\nfor row_elem in root.findall('Row'):\n    for tile_elem in row_elem.findall('Tile'):\n        object_elem = tile_elem.find('Object')\n        if object_elem is not None and 'id-name' in object_elem.attrib:\n            id_name = object_elem.attrib['id-name']\n            if id_name in object_names_to_find:\n                coords = tile_elem.attrib['coordinate']\n                found_objects.append({'name': id_name, 'coords': coords})\n\nprint(json.dumps(found_objects))",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2025-10-26T04:21:37.679Z",
+        "action_counter": 21642
+      }
+    ]
+  },
   "path_finder": {
     "description": "Finds a path to a target tile using A* search. Handles one-way ledges and impassable targets.",
     "input_schema": {
@@ -179,29 +202,6 @@
         "commit_message": "fix: Add check for 'has-object' attribute. The diagnostic on turn 23627 confirmed that the `find('Object')` method was failing to detect the Super Nerd NPC, causing pathing failures. This fix makes obstacle detection more robust by adding a check for the `has-object='true'` tile attribute, which is a more reliable indicator of an object's presence.",
         "timestamp": "2025-10-27T00:04:18.548Z",
         "action_counter": 23627
-      }
-    ]
-  },
-  "object_scanner": {
-    "description": "Scans the current map's XML data to check for the presence of specific objects by their id-name. Returns a list of found objects and their coordinates.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "object_names": {
-          "type": "string",
-          "description": "A comma-separated string of object id-names to search for (e.g., 'KURT,SLOWPOKE')."
-        }
-      },
-      "required": [
-        "object_names"
-      ]
-    },
-    "python_script": "import xml.etree.ElementTree as ET\nimport json\n\nobject_names_to_find = input_data['object_names'].split(',')\nfound_objects = []\n\nroot = ET.fromstring(map_xml_string)\nfor row_elem in root.findall('Row'):\n    for tile_elem in row_elem.findall('Tile'):\n        object_elem = tile_elem.find('Object')\n        if object_elem is not None and 'id-name' in object_elem.attrib:\n            id_name = object_elem.attrib['id-name']\n            if id_name in object_names_to_find:\n                coords = tile_elem.attrib['coordinate']\n                found_objects.append({'name': id_name, 'coords': coords})\n\nprint(json.dumps(found_objects))",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2025-10-26T04:21:37.679Z",
-        "action_counter": 21642
       }
     ]
   },
