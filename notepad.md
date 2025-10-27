@@ -34,10 +34,8 @@
 ## Insights & Corrections
 - My biggest obstacle is my own memory. I must only trust in-game observation.
 - The 'Poké Ball machine' was a hallucination and does not exist in this room.
-### Summary of Failed Hypotheses in Elm's House
-- Interacting with the central table from multiple positions had no effect.
-- Talking to Elm's Wife and Son at various points in the event sequence resulted in repeated dialogue.
-- The trigger for progression was ultimately external to the house, by attempting to leave town.
+### Summary of Elm's House Puzzle
+- The trigger for progression was external. After exhausting all interactions inside, attempting to leave New Bark Town to the west triggered a key NPC event.
 
 ### Tile Traversal and Movement Rules (ElmsLab)
 - **WALL**: Impassable. (Verified)
