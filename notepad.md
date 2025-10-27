@@ -89,3 +89,4 @@
 
 ## Key Items
 - **BERRY**: Received from a man in a house on Route 30. Heals a Pokémon.
+- **MART_SHELF**: Impassable. (Hypothesis)
