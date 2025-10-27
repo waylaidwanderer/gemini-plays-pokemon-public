@@ -52,14 +52,6 @@
     - **Test 3:** Interacted from directly below at (1, 5), facing up.
     - **Conclusion:** FAILED. Multiple interaction attempts from different positions and facings yielded no result. The bed does not heal Pokémon.
 
-- **Route 29 Pathfinding Failure (West):**
-  - **Hypothesis:** I can reach the Cooltrainer at (13, 4) from the eastern part of the upper path.
-    - **Test:** Attempted to pathfind from (17, 3) to (13, 4) on turn 1141.
-    - **Conclusion:** FAILED. The path is blocked by a one-way `LEDGE_HOP_RIGHT` that prevents westward movement from the upper plateau.
-- **Route 29 Pathfinding Failure (West):**
-  - **Hypothesis:** I can reach the Cooltrainer at (13, 4) from the eastern part of the upper path.
-    - **Test:** Attempted to pathfind from (17, 3) to (13, 4) on turn 1141.
-    - **Conclusion:** FAILED. The path is blocked by a one-way `LEDGE_HOP_RIGHT` that prevents westward movement from the upper plateau.
 - **Route 29 Pathfinding Failure (South Ledges):**
   - **Hypothesis:** I can jump down the ledges to the south from the upper plateau at (17, 3).
     - **Test:** Attempted to pathfind from (17, 3) to (13, 5) on turn 1145.
