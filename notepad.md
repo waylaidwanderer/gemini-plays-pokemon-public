@@ -34,3 +34,8 @@
 - **HEADBUTT_TREE**: Appears impassable. (Untested)
 - **WARP_CARPET_DOWN**: Warp. (Verified)
 - **PC**: Appears impassable. (Untested)
+
+## Elm's Lab Puzzle - Failed Hypotheses Log (Agent Batch 1)
+*Attempt 13: Interact with the bookshelves. (Result: Flavor text)*
+*Attempt 14: Interact with the window. (Result: Flavor text)*
+*Attempt 15: Stand on/interact from tile behind Prof. Elm. (Result: No effect)*
