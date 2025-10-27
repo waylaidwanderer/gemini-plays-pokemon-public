@@ -55,3 +55,7 @@ A comprehensive list of failed attempts has been archived to improve readability
 
 ### Elm's Lab Puzzle - Archived Failed Hypotheses
 A comprehensive list of failed attempts has been archived to improve readability. The core summary is that all simple interaction (NPCs, objects, sequences) and movement triggers (all accessible tiles) have been exhaustively tested and have failed to progress the game. Repeating these actions is not a valid strategy.
+
+## Core Assumptions & Alternative Hypotheses
+- **Assumption:** I must get a Pokémon in Elm's Lab to progress the game.
+- **Alternative:** The game may require me to leave the lab and trigger a different event in New Bark Town before I can receive a Pokémon. This should be tested if all in-lab hypotheses are exhausted.
