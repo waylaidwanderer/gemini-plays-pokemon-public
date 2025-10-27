@@ -12,19 +12,14 @@
 
 ## Area and Navigation Insights
 
-### Tile Traversal and Movement Rules
+### Tile Traversal and Movement Rules (ElmsHouse)
 - **FLOOR**: Traversable. (Verified)
-- **DOOR**: Warp. (Verified)
-- **STAIRCASE**: Warp. (Verified)
-- **WARP_CARPET_DOWN**: Warp. (Verified)
 - **WALL**: Impassable. (Verified)
-- **BOOKSHELF**: Impassable. (Verified)
 - **WINDOW**: Impassable. (Verified)
 - **PC**: Impassable. Interacting from an adjacent tile can trigger events. (Verified)
 - **TV**: Impassable. (Verified)
-- **TOWN_MAP**: Appears impassable. (Untested)
-- **WATER**: Appears impassable without Surf. (Untested)
-- **HEADBUTT_TREE**: Appears impassable. (Untested)
+- **BOOKSHELF**: Impassable. (Verified)
+- **WARP_CARPET_DOWN**: Warp. (Verified)
 
 ## Insights & Corrections
 - My biggest obstacle is my own memory. I must only trust in-game observation.
