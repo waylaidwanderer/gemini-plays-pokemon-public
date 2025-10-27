@@ -41,3 +41,4 @@
   - Attempt: Walk onto the tile at (2, 6) inside the door. (Result: No event triggered. Failed.)
 - **Agent Hypothesis 2.1 (Post-Outdoor Event 2) - Talk to Elm's Wife in new position:**
   - Attempt: Talk to Elm's Wife at (1, 4). (Result: Same dialogue loop. Failed.)
+- **DOOR**: Warp. (Verified)
