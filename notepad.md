@@ -81,3 +81,7 @@
   - **Hypothesis:** I can reach the western unseen area from the lower plateau at (24, 10).
     - **Test:** Attempted to pathfind from (24, 10) to (13, 12) on turn 1154.
     - **Conclusion:** FAILED. The path is blocked by `CUT_TREE` and `HEADBUTT_TREE` tiles, and the eastern path is blocked by one-way ledges. This area is a dead end.
+- **Route 29 Pathfinding Failure (Lower Path West):**
+  - **Hypothesis:** I can reach the western unseen area from the lower plateau at (24, 10).
+    - **Test:** Attempted to pathfind from (24, 10) to (13, 12) on turn 1154. Confirmed impassable by attempting to walk into HEADBUTT_TREE on turn 1164.
+    - **Conclusion:** FAILED. The path is blocked by `CUT_TREE` and `HEADBUTT_TREE` tiles, and the eastern path is blocked by one-way ledges. This area is a dead end.
