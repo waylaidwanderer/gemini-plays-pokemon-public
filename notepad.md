@@ -50,3 +50,5 @@
   - **Hypothesis 3:** Interacting with the bed from below (at (1, 4), facing up) will heal my Pokémon.
     - **Test:** Stood at (1, 4) and pressed 'A' while facing the tile at (1, 3).
     - **Conclusion:** FAILED. No interaction occurred.
+- **STAIRCASE**: Traversable, acts as a warp tile. (Verified)
+- **TOWN_MAP**: Impassable. (Verified by observation, interaction not yet tested)
