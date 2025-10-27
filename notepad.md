@@ -100,36 +100,11 @@
 
 46. **Discovery (Turn 22790):** Walking the trigger path from (26, 24) to (20, 24) after a 'disappear from East interaction' sequence caused the Farfetch'd to reappear at (15, 25).
 
-### B. Ilex Forest Farfetch'd Puzzle (Second) - Chronological Log
-
-    27. **Success:** Interact North (15, 24) -> Moves to (15, 29).
-    28. **Discovery (Kwaa! Disappear):** Interact North (15, 28) while at (15, 29) -> 'Kwaa!', then disappears on the next turn.
-    29. **Discovery (Reappear Path):** Path (15, 27) -> (9, 34) after Kwaa!-disappear -> Reappears at (10, 35).
-    30. **Success:** Interact North (10, 34) -> Moves to (15, 29).
-    31. **Success:** Interact East (16, 29) -> Moves to (15, 25).
-    32. **Success (Teleport):** Interact South (15, 26) -> 'Kwaa!', teleports to (20, 24).
-    33. **Success:** Interact North (20, 23) -> Turns, 'Kwaa!'.
-    34. **Discovery:** Disappears on the next turn.
-    29. **Success (Replicated):** Interact North (15, 28) while at (15, 29) -> 'Kwaa!', then disappears on the next turn. (Matches step 15 in the log).
-    30. **Discovery (Reappear Path):** Path (15, 27) -> (9, 34) after Kwaa!-disappear -> Reappears at (10, 35).
-    31. **Success:** Interact North (10, 34) -> 'Kwaa!', then moves to (15, 29).
-    32. **Discovery (State-Dependent Outcome):** Interact East (16, 29) while at (15, 29) -> 'Kwaa!', no immediate movement.
-    33. **Success (Delayed Move):** After 'Kwaa!' from East interaction, Farfetch'd moved from (15, 29) to (15, 25).
-    33. **Success (Teleport):** Interact South (15, 26) -> 'Kwaa!', teleports to (20, 24).
-    35. **Success (Replicated):** Interact North (20, 23) -> Turns, 'Kwaa!'.
-    36. **Discovery:** Disappears on the next turn.
-    37. **Discovery:** Step on (25, 24) after North-turn-disappear -> Reappears at start (29, 22).
-    38. Failure: Interacting from the South at (29, 23) after a 'turn -> disappear -> trigger reset' sequence now causes the Farfetch'd to turn and say 'Kwaa!', not move. This confirms the puzzle state has changed.
-    45. **Hypothesis Test (Map Reload):** Left and re-entered Ilex Forest to test if it would reset the 'Kwaa! disappear' state.
-    46. **Conclusion:** Failure. The Farfetch'd did not reappear at its starting position of (29, 22). This hypothesis is invalid.
-
-*   **Test to Disprove:** If stepping on (15, 27) has no effect, the primary assumption is invalid. The next step would be to systematically test other known trigger paths (e.g., the path from (26, 24) to (20, 24)) to see if they cause a reappearance from this specific 'disappeared' state.
-    47. **Failure:** Walking the trigger path from (15, 27) to (9, 34) after a 'Kwaa! disappear' sequence did not cause the Farfetch'd to reappear. The hypothesis is invalid.
-    48. **Failure:** Walking the trigger path from (26, 24) to (20, 24) after a 'Kwaa! disappear' sequence did not cause the Farfetch'd to reappear.
-    49. **Hypothesis Test (Talk to Apprentice):** Spoke to the apprentice at (7, 28) while the Farfetch'd was in a 'Kwaa! disappear' state.
-    50. **Conclusion:** Failure. The apprentice's dialogue was unchanged. This hypothesis is invalid. All known triggers have been exhausted.
-    49. **Hypothesis Test (Talk to Apprentice):** Spoke to the apprentice at (7, 28) while the Farfetch'd was in a 'Kwaa! disappear' state.
-    50. **Conclusion:** Failure. The apprentice's dialogue was unchanged. This hypothesis is invalid. All known triggers have been exhausted.
+## VII. Archived Puzzle Solutions
+### A. Ilex Forest Farfetch'd Puzzle
+*   **Objective:** Herd two separate Farfetch'd to the apprentice at (7, 28).
+*   **Status:** Solved.
+*   **Solution Summary:** The puzzle was a complex state machine. The Farfetch'd's movement was not just based on its position but on a hidden state that was altered by the player's interactions (direction of approach) and by stepping on specific, unmarked trigger tiles and paths. Key trigger tiles were identified at (25, 24) and (15, 27), with trigger paths existing between (26, 24)-(20, 24) and (15, 27)-(9, 34). Solving the puzzle required a long sequence of specific interactions and trigger activations to guide both Farfetch'd to the target location.
 
 ## VII. Archived Puzzle Solutions
 ### A. Ilex Forest Farfetch'd Puzzle
