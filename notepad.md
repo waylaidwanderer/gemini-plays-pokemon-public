@@ -34,11 +34,7 @@
 ## Insights & Corrections
 - My biggest obstacle is my own memory. I must only trust in-game observation.
 - The 'Poké Ball machine' was a hallucination and does not exist in this room.
-- Hypothesis: Talking to Elm's Wife after she moved to a new position will trigger a new event. (Result: Same dialogue loop. Failed.)
-- **Agent Hypothesis 2 - Interact with table from above:**
-  - Attempt: Interact with central table from (3, 2). (Result: No effect. Failed.)
-- **Agent Hypothesis 3 - Movement-based trigger:**
-  - Attempt: Walk onto the tile at (2, 6) inside the door. (Result: No event triggered. Failed.)
-- **Agent Hypothesis 2.1 (Post-Outdoor Event 2) - Talk to Elm's Wife in new position:**
-  - Attempt: Talk to Elm's Wife at (1, 4). (Result: Same dialogue loop. Failed.)
-- **DOOR**: Warp. (Verified)
+### Summary of Failed Hypotheses in Elm's House
+- Interacting with the central table from multiple positions had no effect.
+- Talking to Elm's Wife and Son at various points in the event sequence resulted in repeated dialogue.
+- The trigger for progression was ultimately external to the house, by attempting to leave town.
