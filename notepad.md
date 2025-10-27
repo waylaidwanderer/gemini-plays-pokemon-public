@@ -31,12 +31,6 @@
 - Stunning an NPC can break scripted events, causing dialogue loops.
 - The 'Poké Ball machine' was a hallucination.
 
-### Elm's Lab Puzzle - Archived Failed Hypotheses
-A comprehensive list of failed attempts has been archived to improve readability. The core summary is that all simple interaction (NPCs, objects, sequences) and movement triggers (all accessible tiles) have been exhaustively tested and have failed to progress the game. Repeating these actions is not a valid strategy.
-- Attempting to leave the lab.
-- Stepping on all floor tiles.
-- Walking into the corner behind the bookshelves.
-
 - **Direct Interaction (Post-State Change 3 - after talking to son):**
   - Attempt 18: Talk to Prof. Elm from the front. (Result: Dialogue loop with wife).
 - **Direct Interaction (Post-State Change 4 - after talking to son again):**
