@@ -16,6 +16,8 @@
 *   **Agent & Tool Failures:**
     *   **`goal_manager` Hallucination (Turn 21825):** The agent incorrectly stated that I possessed HM01 Cut. This was proven false by checking my bag. **Correction (Turn 21865):** The agent's system prompt was updated to be stricter about item possession.
     *   **`path_finder` Failure (Turn 21869):** The tool generated an invalid path through a stationary NPC. **Correction (Turn 21871):** The tool's script was updated to check for the `has-object='true'` tile attribute.
+    *   **`path_finder` Dynamic Obstacle Failure (Turn 24138):** The tool generated a path through a tile that was temporarily blocked by a moving NPC (GRAMPS, ID 2). **Conclusion:** The tool's logic is sound, but my strategy must account for dynamic obstacles. Freezing key NPCs with `stun_npc` before pathing is a valid and necessary tactic for reliable navigation in cluttered areas.
+*   **Overwatch Critique Note (Turn 24151):** The critique mentioned undocumented tile types (`FLOWERBED`, `LEDGE`, `ROOF`). A review of the map data for Azalea Town confirms that `FLOWERBED` and `ROOF` tiles are not present. The only `LEDGE` type is `LEDGE_HOP_DOWN`, which is already documented. This part of the critique appears to be based on incorrect information.
 *   **Team Strategy (from `team_analyst`):
     *   **`team_analyst` Report (Turn 22462):** The team is critically unbalanced, relying solely on Vulcan. Training priority should be MIASma. Vulcan's EMBER is nearly out of PP. The team has major weaknesses to Water, Rock, and Ground types.
 
