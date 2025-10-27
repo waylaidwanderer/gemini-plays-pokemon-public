@@ -20,7 +20,7 @@
 - **WALL**: Impassable. (Verified)
 - **BOOKSHELF**: Impassable. (Verified)
 - **WINDOW**: Impassable. (Verified)
-- **PC**: Appears impassable. Interacting from below triggered a scripted event. (Untested for traversal)
+- **PC**: Impassable. Interacting from an adjacent tile can trigger events. (Verified)
 - **TV**: Impassable. (Verified)
 - **TOWN_MAP**: Appears impassable. (Untested)
 - **WATER**: Appears impassable without Surf. (Untested)
