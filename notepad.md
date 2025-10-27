@@ -65,3 +65,7 @@
   - **Hypothesis 2:** The path to Cherrygrove is directly west past the Cooltrainer at (13, 4).
     - **Test:** Attempted to pathfind to the trainer (Turn 1141).
     - **Conclusion:** FAILED. The path is blocked by a one-way `LEDGE_HOP_RIGHT` that cannot be climbed from the east.
+- **Route 29 Pathfinding Failure (West):**
+  - **Hypothesis:** I can reach the Cooltrainer at (13, 4) from the eastern part of the upper path.
+    - **Test:** Attempted to pathfind from (17, 3) to (13, 4) on turn 1141.
+    - **Conclusion:** FAILED. The path is blocked by a one-way `LEDGE_HOP_RIGHT` that prevents westward movement from the upper plateau.
