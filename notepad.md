@@ -25,10 +25,6 @@
 
 ## Game Mechanics & Systems
 *PC Storage*: Currently empty.
-*Key Items*:
-- BERRY: Heals a Pokémon.
-- POKéDEX: A hi-tech encyclopedia that records data on Pokémon.
-- POKé BALL x5
 
 ## Battle and Pokemon Information
 *My Party*: Ignis (CYNDAQUIL) Lv9.
