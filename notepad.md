@@ -65,3 +65,4 @@ A comprehensive list of failed attempts has been archived to improve readability
 - **Hypothesis 4 (Agent):** Walk to the window directly behind Professor Elm. **Result:** Failed. Received flavor text: "My reflection! Lookin' good!"
 ## Insights & Corrections
 - **MAJOR CORRECTION:** The NPC at (1, 4) in Elm's Lab is ELM'S WIFE, not Professor Elm. He is not currently in the lab. My entire previous strategy was based on this false assumption.
+- Hypothesis (Post-Teacher Event 2): Interacting with the central Poké Ball table will now work. **Result:** Failed. No interaction.
