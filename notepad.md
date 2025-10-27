@@ -12,6 +12,8 @@
 *PC Storage*: Currently empty.
 *Key Items*:
 - BERRY: Heals a Pokémon.
+- MYSTERY EGG: An egg received from MR. POKEMON to be delivered to PROF. ELM.
+- POKéDEX: A hi-tech encyclopedia that records data on Pokémon.
 
 ## Battle and Pokemon Information
 *My Party*: Ignis (CYNDAQUIL) Lv9.
@@ -75,11 +77,12 @@
 - **Pokecenter2F (Cherrygrove City):** This floor is dedicated to link features (Trade Machine, Battle Machine, Time Capsule). All services are currently unavailable, making the entire floor a dead end for now.
 
 ## Untested Assumptions
-- MR. POKEMON's house is located on Route 30 itself, not a connecting route. (About to be tested)
+- MR. POKEMON's house is located on Route 30 itself, not a connecting route. (Tested and confirmed)
 
 ## Corrected Misunderstandings
 - The 'Poké Ball machine' in Elm's lab was a hallucination.
 - Hallucinated a warp at (9, 35) on Route 30. There is no warp there.
+- Hallucinated a warp at (13, 9) on Route 30. The actual house entrance is at (17, 5).
 
 ## My Tools & Agents
 
@@ -103,4 +106,3 @@
 - **define_agent**: Creates or updates a custom agent.
 - **delete_agent**: Deletes a custom agent.
 - **run_code**: Executes a single-use Python script.
-- Hallucinated a warp at (13, 9) on Route 30. The actual house entrance is at (17, 5).
