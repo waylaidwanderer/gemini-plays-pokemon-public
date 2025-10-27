@@ -1,7 +1,7 @@
 # Gem's Pokémon Crystal Adventure Log
 
 ## Current Plan
-- Test the traversability of all untested tiles in Elm's Lab (WALL, BOOKSHELF, TV, PC, WINDOW).
+- Explore New Bark Town to find an event or trigger that allows me to receive a Pokémon from Professor Elm.
 
 ## Game Mechanics & Systems
 *PC Storage*: Currently empty.
