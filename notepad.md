@@ -41,14 +41,12 @@
 ## Puzzles & Hypotheses
 - **Healing Methods:**
   - **Hypothesis 1:** Talking to Mom will heal my Pokémon.
-    - **Test:** Spoke to Mom at (0, 2) in PlayersHouse1F.
-    - **Conclusion:** FAILED. Mom's dialogue did not trigger a heal.
-  - **Hypothesis 2:** Interacting with the bed from the side (at (1, 4), facing left) will heal my Pokémon.
-    - **Test:** Stood at (1, 4) and pressed 'A' while facing the bed.
-    - **Conclusion:** FAILED. No interaction occurred.
-- **Healing Methods (Continued):**
-  - **Hypothesis 3:** Interacting with the bed from below (at (1, 4), facing up) will heal my Pokémon.
-    - **Test:** Stood at (1, 4) and pressed 'A' while facing the tile at (1, 3).
-    - **Conclusion:** FAILED. No interaction occurred.
+    - **Test:** Spoke to Mom at various locations in PlayersHouse1F.
+    - **Conclusion:** FAILED. Mom's dialogue does not trigger a heal in this game.
+  - **Hypothesis 2:** Resting in the player's bed will heal Pokémon.
+    - **Test 1:** Interacted from the side at (1, 4), facing left.
+    - **Test 2:** Interacted from below at (1, 4), facing up.
+    - **Test 3:** Interacted from directly below at (1, 5), facing up.
+    - **Conclusion:** FAILED. Multiple interaction attempts from different positions and facings yielded no result. The bed does not heal Pokémon.
 - **STAIRCASE**: Traversable, acts as a warp tile. (Verified)
 - **TOWN_MAP**: Impassable. (Verified by observation, interaction not yet tested)
