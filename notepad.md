@@ -90,3 +90,11 @@
 *   **Kurt's Custom Ball:** The assumption is the one-day wait is real-time. An alternative is that it's tied to in-game time or story progression (e.g., the next gym badge). **Test:** Check on Kurt after the next major story milestone.
 *   **Union Cave Unseen Tiles:** Confirmed with `reachable_unseen_tile_finder` that all unseen tiles on this map are currently unreachable.
 *   **PC:** Interact by standing on an adjacent tile (e.g., (X-1, Y), (X, Y+1)) and facing the PC.
+## IX. Agent & Tool Development Ideas
+*   **`debugging_assistant` Agent:** An agent that could take a player position, a failed path, and map XML to hypothesize about the cause of a pathing failure (e.g., "Hypothesis: Tile (X, Y) is impassable due to an unlisted property or is a one-way tile from this direction.").
+
+## X. Alternative Hypotheses for Testing
+*   **Azalea Town Blocked Tile (20, 9):**
+    *   **Primary Hypothesis:** The tile is permanently impassable despite being a `FLOOR` type.
+    *   **Alternative Hypothesis:** The tile is conditionally impassable (e.g., only from the south).
+    *   **Test Plan:** After confirming blockage from (20, 10), move to (19, 9) and attempt to move right, and move to (21, 9) and attempt to move left.
