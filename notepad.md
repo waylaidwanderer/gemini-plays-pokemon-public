@@ -31,27 +31,23 @@
 - Stunning an NPC (Professor Elm) can break scripted events, causing dialogue loops.
 
 ### Elm's Lab Puzzle - Failed Hypotheses Log
-*Total Attempts: 17*
-- **Direct Interaction (Pre-State Change):**
-  - Attempt 1-3: Talk to Prof. Elm (failed due to movement/stun bug).
-  - Attempt 4: Talk to Elm's Son (Result: Flavor text).
-  - Attempt 5: Talk to Prof. Elm after talking to son (Result: No effect).
-  - Attempt 6-7: Interact with Poké Ball machine (Result: No effect).
-- **Movement Triggers:**
-  - Attempt 8: Attempt to leave the lab (Result: Did not trigger event, was pushed out).
-- **Direct Interaction (Post-State Change 1 - after re-entering lab):**
-  - Attempt 9: Talk to Prof. Elm (Result: Dialogue loop with wife).
-  - Attempt 10: Interact with Poké Ball machine (Result: No effect).
-  - Attempt 11: Stepping on all floor tiles (blocked by Elm).
-  - Attempt 12: Talk to Elm's Son (Result: Flavor text).
-- **Agent Batch 1 Hypotheses (Post-State Change 1):**
-  - Attempt 13: Interact with the bookshelves. (Result: Flavor text)
-  - Attempt 14: Interact with the window. (Result: Flavor text)
-  - Attempt 15: Stand on/interact from tile behind Prof. Elm. (Result: No effect)
-- **Agent Batch 2 Hypotheses (Post-State Change 1):**
-  - Attempt 16: Interact with PC from below. (Result: **Success! Triggered new dialogue & State Change 2.**)
-- **Direct Interaction (Post-State Change 2 - after PC interaction):**
-  - Attempt 17: Talk to Prof. Elm from the front. (Result: Dialogue loop with wife).
+*Core Problem:* Cannot trigger the event to receive a starter Pokémon.
+*Verified Progression Trigger:* Interacting with the PC at (0, 1) triggered new dialogue from Professor Elm, but did not solve the puzzle.
+
+*Failed Interaction Hypotheses:*
+- Talking to Prof. Elm (multiple positions, multiple game states).
+- Talking to Elm's Son (from front and back).
+- Interacting with PC, then talking to Elm.
+- Interacting with PC, leaving, re-entering, then talking to Elm.
+- Interacting with PC, leaving, re-entering, talking to Son, then talking to Elm.
+- Interacting with bookshelves (alone and after PC).
+- Interacting with window.
+- Interacting with the central table (confirmed non-interactable).
+
+*Failed Movement Hypotheses:*
+- Attempting to leave the lab.
+- Stepping on all floor tiles.
+- Walking into the corner behind the bookshelves.
 
 ## Reflection & Self-Correction
 - **(Turn 103):** I have previously failed to manage data immediately and test assumptions. I must be more diligent.
