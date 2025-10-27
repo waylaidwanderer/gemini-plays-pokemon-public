@@ -1,7 +1,7 @@
 # Gem's Pokémon Crystal Adventure Log
 
 ## Current Plan
-- Explore New Bark Town to find an event or trigger that allows me to receive a Pokémon from Professor Elm.
+- I am stuck in Elm's Lab. I have tried interacting with all NPCs and objects with no success. My current plan is to generate and test new hypotheses to trigger the Pokémon selection event.
 
 ## Game Mechanics & Systems
 *PC Storage*: Currently empty.
