@@ -5,9 +5,6 @@
 - **Marker Redundancy:** My markers provide unique strategic value and are not redundant.
 - **Tool Usage:** My `generate_nickname_inputs` tool was found to be faulty and has now been fixed. My other tools are functioning correctly.
 - **Goals:** My goals adhere to the 'WHAT, not HOW' principle.
-- **Untested Assumptions:**
-  - **Assumption:** The path to Violet City is straightforward through Cherrygrove and Route 30. 
-  - **Alternative:** An unforeseen obstacle or side-quest may block the path. I will test this by proceeding along the expected route after healing my Pokémon. If blocked, I will explore Cherrygrove City more thoroughly for clues.
 
 ## Discoveries & Lessons Learned
 - Deferring tasks, like placing map markers, is a process violation. Significant events must be documented *immediately* in the turn they occur.
