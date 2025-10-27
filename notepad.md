@@ -22,7 +22,7 @@
 *   **Agent & Tool Failures:**
     *   **`goal_manager` Hallucination (Turn 21825):** The agent incorrectly stated that I possessed HM01 Cut. This was proven false by checking my bag. **Correction (Turn 21865):** The agent's system prompt was updated to be stricter about item possession.
     *   **`path_finder` Failure (Turn 21869):** The tool generated an invalid path through a stationary NPC. **Correction (Turn 21871):** The tool's script was updated to check for the `has-object='true'` tile attribute.
-    *   **`path_finder` Dynamic Obstacle Failure (Turn 24138):** The tool generated a path through a tile that was temporarily blocked by a moving NPC (GRAMPS, ID 2). **Conclusion:** The tool's logic is sound, but my strategy must account for dynamic obstacles. Freezing key NPCs with `stun_npc` before pathing is a valid and necessary tactic for reliable navigation in cluttered areas.
+    *   **`path_finder` Dynamic Obstacle Failure (Turn 24138):** The tool generated a path through a tile that was temporarily blocked by a moving NPC (GRAMPS, ID 2). **Conclusion:** The tool's logic is sound, but my strategy must account for dynamic obstacles. Temporarily freezing key NPCs may be a valid tactic for reliable navigation in cluttered areas.
 *   **Overwatch Critique Note (Turn 24151):** The critique mentioned undocumented tile types (`FLOWERBED`, `LEDGE`, `ROOF`). A review of the map data for Azalea Town confirms that `FLOWERBED` and `ROOF` tiles are not present. The only `LEDGE` type is `LEDGE_HOP_DOWN`, which is already documented. This part of the critique appears to be based on incorrect information.
 *   **Team Strategy (from `team_analyst`):
     *   **`team_analyst` Report (Turn 22462):** The team is critically unbalanced, relying solely on Vulcan. Training priority should be MIASma. Vulcan's EMBER is nearly out of PP. The team has major weaknesses to Water, Rock, and Ground types.
@@ -102,7 +102,7 @@
 *   **Route 36 Strange Tree:** The assumption is this is the only path to Goldenrod City. An alternative is that another route exists, possibly through the National Park. **Test:** Fully explore Route 34 and its connections before returning to the tree.
 *   **Union Cave Roars:** The assumption is this leads to a rare Pokémon. An alternative is that it's an NPC event or flavor text. **Test:** Visit on a Friday and observe.
 *   **Kurt's Custom Ball:** The assumption is the one-day wait is real-time. An alternative is that it's tied to in-game time or story progression (e.g., the next gym badge). **Test:** Check on Kurt after the next major story milestone.
-*   **Union Cave Unseen Tiles:** Confirmed with `reachable_unseen_tile_finder` that all unseen tiles on this map are currently unreachable.
+*   **Union Cave Unseen Tiles:** My tools have previously confirmed that all unseen tiles on this map are currently unreachable.
 *   **PC:** Interact by standing on an adjacent tile (e.g., (X-1, Y), (X, Y+1)) and facing the PC.
 ## IX. Agent & Tool Development Ideas
 *   **`debugging_assistant` Agent:** An agent that could take a player position, a failed path, and map XML to hypothesize about the cause of a pathing failure (e.g., "Hypothesis: Tile (X, Y) is impassable due to an unlisted property or is a one-way tile from this direction.").
