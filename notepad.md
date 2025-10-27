@@ -102,17 +102,6 @@
 
 ### B. Ilex Forest Farfetch'd Puzzle (Second) - Chronological Log
 
-*   **Move History:**
-
-    21. **Test:** Interact North (20, 23) -> Turns, 'Kwaa!'. Disappears on next turn.
-    22. **Discovery:** Step on (25, 24) after North-turn-disappear -> Reappears at (29, 22).
-    23. **Failure:** Interact South (29, 23) after reset -> Turns. Disappears on next turn.
-    24. **Discovery:** Step on (25, 24) after South-turn-disappear -> Reappears at (20, 24).
-    25. **Success:** Interact East (21, 24) -> Turns, 'Kwaa!'. Disappears on next turn.
-    26. **Discovery:** Walk trigger path (26, 24) -> (20, 24) -> Reappears at (15, 25).
-    27. **Test:** Interact North (15, 24) while it was at (15, 25) to replicate previous success.
-        28. **Result of Test 27:** Farfetch'd turned and said 'Kwaa!', then moved to (15, 29) on the next turn. This confirms a delayed, state-dependent move.
-    29. **Success (Replicated):** Interact North (15, 28) while at (15, 29) -> 'Kwaa!', then disappears on the next turn. (Matches step 15).
     27. **Success:** Interact North (15, 24) -> Moves to (15, 29).
     28. **Discovery (Kwaa! Disappear):** Interact North (15, 28) while at (15, 29) -> 'Kwaa!', then disappears on the next turn.
     29. **Discovery (Reappear Path):** Path (15, 27) -> (9, 34) after Kwaa!-disappear -> Reappears at (10, 35).
