@@ -13,8 +13,9 @@
   - **Assumption:** The path to Violet City is straightforward through Cherrygrove and Route 30. 
   - **Alternative:** An unforeseen obstacle or side-quest may block the path. I will test this by proceeding along the expected route after healing my Pokémon. If blocked, I will explore Cherrygrove City more thoroughly for clues.
 
-## To-Do
-- When next in Cherrygrove City, place a marker on the tile where I battled my rival to indicate he has been defeated.
+## Discoveries & Lessons Learned
+- Deferring tasks, like placing map markers, is a process violation. Significant events must be documented *immediately* in the turn they occur.
+- My `simple_battle_strategist` agent is underutilized and I will prioritize using it for all future wild battles to automate decision-making.
 
 ## Discoveries & Lessons Learned
 - My biggest obstacle is my own memory. I must only trust in-game observation.
