@@ -1,8 +1,3 @@
-## Current Plan
-- I have re-entered Elm's House after the Teacher NPC event.
-- My new hypothesis is that this event has activated the Poké Ball table.
-- My immediate goal is to interact with the table to get my first Pokémon.
-
 ## Game Mechanics & Systems
 *PC Storage*: Currently empty.
 
