@@ -27,18 +27,13 @@
 - **HEADBUTT_TREE**: Appears impassable. (Untested)
 
 ## Obstacles and Solutions
-- My own memory can be an obstacle. I must rely only on in-game observation.
+## Insights & Corrections
+- My biggest obstacle is my own memory. I must only trust in-game observation.
 - Stunning an NPC (Professor Elm) can break scripted events, causing dialogue loops.
+- The 'Poké Ball machine' was a hallucination and does not exist in this room.
 
-### Elm's Lab Puzzle - Failed Hypotheses Log
-*Core Problem:* Cannot trigger the event to receive a starter Pokémon.
-*Verified Progression Trigger:* Interacting with the PC at (0, 1) triggered new dialogue from Professor Elm, but did not solve the puzzle.
-
-*Failed Interaction Hypotheses:*
-- Talking to Prof. Elm (multiple positions, multiple game states).
-- Talking to Elm's Son (from front and back).
-- Interacting with PC, then talking to Elm.
-- Interacting with PC, leaving, re-entering, then talking to Elm.
+### Elm's Lab Puzzle - Failed Hypotheses Summary
+- Exhausted all simple interaction and movement hypotheses. This includes talking to all NPCs from multiple positions, interacting with all objects in various sequences, and testing for movement triggers in all accessible areas. Repeating these actions is not a valid strategy.
 - Interacting with PC, leaving, re-entering, talking to Son, then talking to Elm.
 - Interacting with bookshelves (alone and after PC).
 - Interacting with window.
