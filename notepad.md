@@ -2,7 +2,7 @@
 *PC Storage*: Currently empty.
 
 ## Battle and Pokemon Information
-*My Party*: Currently empty.
+*My Party*: Ignis (CYNDAQUIL) Lv7.
 *Type Effectiveness Chart*: To be built based on battle observations.
 
 ## Area and Navigation Insights
