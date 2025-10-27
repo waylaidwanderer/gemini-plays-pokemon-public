@@ -95,5 +95,31 @@
         "action_counter": 623
       }
     ]
+  },
+  "find_reachable_unseen_tiles": {
+    "description": "Finds all unseen tiles on the current map that are reachable from the player's current position. It performs a breadth-first search (BFS) starting from the player to identify all accessible tiles, then returns the coordinates of any unseen tiles found within that accessible area.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "start_x": {
+          "type": "string"
+        },
+        "start_y": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "start_x",
+        "start_y"
+      ]
+    },
+    "python_script": "import xml.etree.ElementTree as ET\nimport json\nfrom collections import deque\n\ndef find_reachable_unseen(start_x, start_y, map_xml_string):\n    root = ET.fromstring(map_xml_string)\n    map_width = int(root.attrib['width'])\n    map_height = int(root.attrib['height'])\n\n    traversable_types = {'FLOOR', 'WARP_CARPET_DOWN', 'DOOR', 'STAIRCASE', 'TALL_GRASS'}\n    ledge_types = {'LEDGE_HOP_DOWN', 'LEDGE_HOP_RIGHT', 'LEDGE_HOP_LEFT'}\n\n    grid = [[{'type': 'unseen', 'seen': False, 'traversable': False} for _ in range(map_width)] for _ in range(map_height)]\n\n    for row_elem in root.findall('Row'):\n        y = int(row_elem.attrib['id'])\n        for tile_elem in row_elem.findall('Tile'):\n            x = int(tile_elem.attrib['id'])\n            tile_type = tile_elem.attrib.get('type', 'unseen')\n            seen = tile_elem.attrib.get('seen') == 'true'\n            grid[y][x]['type'] = tile_type\n            grid[y][x]['seen'] = seen\n            \n            is_traversable = tile_type in traversable_types or tile_type in ledge_types\n            has_object = tile_elem.find('Object') is not None\n            \n            if is_traversable and not has_object:\n                grid[y][x]['traversable'] = True\n\n    q = deque([(start_x, start_y)])\n    visited = set([(start_x, start_y)])\n    reachable_unseen = []\n\n    while q:\n        cx, cy = q.popleft()\n\n        for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n            nx, ny = cx + dx, cy + dy\n\n            if not (0 <= nx < map_width and 0 <= ny < map_height):\n                continue\n\n            if (nx, ny) in visited:\n                continue\n\n            current_tile_type = grid[cy][cx]['type']\n            neighbor_tile_type = grid[ny][nx]['type']\n\n            # Ledge logic (leaving a ledge)\n            if current_tile_type == 'LEDGE_HOP_DOWN' and dy == -1: continue\n            if current_tile_type == 'LEDGE_HOP_RIGHT' and dx == -1: continue\n            if current_tile_type == 'LEDGE_HOP_LEFT' and dx == 1: continue\n\n            # Ledge logic (entering a ledge)\n            if neighbor_tile_type == 'LEDGE_HOP_DOWN' and dy != 1: continue\n            if neighbor_tile_type == 'LEDGE_HOP_RIGHT' and dx != 1: continue\n            if neighbor_tile_type == 'LEDGE_HOP_LEFT' and dx != -1: continue\n            \n            if grid[ny][nx]['traversable']:\n                visited.add((nx, ny))\n                q.append((nx, ny))\n\n    # Now, check for adjacent unseen tiles from all reachable tiles\n    final_unseen_list = set()\n    for x, y in visited:\n        for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n            nx, ny = x + dx, y + dy\n            if 0 <= nx < map_width and 0 <= ny < map_height and not grid[ny][nx]['seen']:\n                final_unseen_list.add((nx, ny))\n\n    print(json.dumps([{'x': x, 'y': y} for x, y in sorted(list(final_unseen_list))]))\n\nstart_x = int(input_data['start_x'])\nstart_y = int(input_data['start_y'])\nfind_reachable_unseen(start_x, start_y, map_xml_string)",
+    "history": [
+      {
+        "commit_message": "feat: Create tool to find reachable unseen tiles. This tool addresses the system's sticky alert about potentially reachable unseen tiles. It performs a BFS from the player's position, respecting all traversal rules including ledges, to find all accessible tiles. It then identifies and returns a list of all unseen tiles adjacent to this accessible area, providing a reliable target list for exploration and preventing attempts to pathfind to unreachable locations.",
+        "timestamp": "2025-10-27T09:24:39.107Z",
+        "action_counter": 936
+      }
+    ]
   }
 }
