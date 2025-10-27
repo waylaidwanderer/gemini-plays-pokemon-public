@@ -1,5 +1,11 @@
 # Gem's Pokémon Crystal Adventure Log
 
+## II. Current Status & Blockers
+*   **Primary Objective:** Reach Goldenrod City.
+*   **Current Blocker:** The path through Ilex Forest is blocked by a CUT_TREE. I need a Pokémon that can learn HM01 Cut.
+*   **Secondary Blocker:** I have no Poké Balls to catch a new Pokémon. The Azalea Town Mart is blocked by a Cooltrainer.
+*   **Immediate Task:** Check if any of my current party members (Vulcan, Gambit, Miasma) can learn HM01 Cut.
+
 ## I. Core Principles & Lessons Learned
 *   **Trust Your Tools:** A verified tool's output is a source of truth. Trust it over assumptions.
 *   **Systematic Debugging:** Use a methodical, evidence-based approach for broken tools. Use `run_code` with print statements to trace execution.
