@@ -75,13 +75,21 @@
 - **generate_nickname_inputs**: Generates button presses to enter a Pokémon nickname.
 - **find_reachable_unseen_tiles**: Finds all unseen tiles that are reachable from the player's position.
 
-### Built-in Tools
-- **select_battle_option**: Automatically selects a main battle menu option (FIGHT, PKMN, PACK, RUN).
-- **stun_npc**: Freezes or unfreezes an NPC's movement.
-
 ### Custom Agents
 - **hypothesis_generator**: Generates new hypotheses when stuck.
 - **simple_battle_strategist**: Recommends actions in simple wild battles.
+
+### Built-in Tools
+- **notepad_edit**: Edits my persistent notepad.
+- **define_map_marker**: Creates or updates a map marker.
+- **delete_map_marker**: Deletes a map marker.
+- **stun_npc**: Freezes or unfreezes an NPC's movement.
+- **select_battle_option**: Automatically selects a main battle menu option (FIGHT, PKMN, PACK, RUN).
+- **define_tool**: Creates or updates a reusable custom tool.
+- **delete_tool**: Deletes a custom tool.
+- **define_agent**: Creates or updates a custom agent.
+- **delete_agent**: Deletes a custom agent.
+- **run_code**: Executes a single-use Python script.
 
 ## Corrected Misunderstandings
 - The 'Poké Ball machine' in Elm's lab was a hallucination.
