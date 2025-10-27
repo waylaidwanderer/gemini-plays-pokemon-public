@@ -34,6 +34,3 @@
 - **HEADBUTT_TREE**: Appears impassable. (Untested)
 - **WARP_CARPET_DOWN**: Warp. (Verified)
 - **PC**: Appears impassable. (Untested)
-- BOOKSHELF: Appears impassable. (Untested)
-- TV: Appears impassable. (Untested)
-- PC: Appears impassable. (Untested)
