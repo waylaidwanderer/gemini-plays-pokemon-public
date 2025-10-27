@@ -17,7 +17,8 @@
 *PC Storage*: Currently empty.
 
 ## Battle and Pokemon Information
-*My Party*: Ignis (CYNDAQUIL) Lv11, Aether (PIDGEY) Lv3.
+*My Party*: Ignis (CYNDAQUIL) Lv12, Aether (PIDGEY) Lv3.
+*Ignis learned EMBER at Lv12.*
 *Type Effectiveness Chart*: To be built based on battle observations.
 
 ## Area and Navigation Insights
