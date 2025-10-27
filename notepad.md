@@ -95,3 +95,5 @@
 - Hallucinated a warp at (13, 9) on Route 30. The actual house entrance is at (17, 5).
 ## Core Principles & Lessons Learned
 - I must NEVER defer fixing a broken tool or agent. It is always the highest priority, overriding any in-game objective.
+## NPCs and Interactions
+- An NPC in a house on Route 30 mentioned that Berries can be found by checking trees.
