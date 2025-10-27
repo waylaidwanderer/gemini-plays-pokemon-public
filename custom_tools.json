@@ -320,6 +320,16 @@
         "commit_message": "fix: Add optional start coordinate arguments. The `map_xml_string` has been observed to provide a stale player position, causing consistent pathing failures. This fix allows the user to explicitly provide `start_x` and `start_y` coordinates, overriding the faulty parsed position and making the tool reliable by depending on the verified GameState.",
         "timestamp": "2025-10-27T06:26:11.174Z",
         "action_counter": 24296
+      },
+      {
+        "commit_message": "fix: Add diagnostic prints to trace input arguments. The tool is ignoring explicit start coordinates. These prints will dump the `input_data` dictionary and the values read from it to isolate the failure in argument handling.",
+        "timestamp": "2025-10-27T06:32:14.206Z",
+        "action_counter": 24303
+      },
+      {
+        "commit_message": "refactor: Remove all diagnostic prints. The tool's logic is now confirmed to be working correctly. The repeated failures were caused by user error in interpreting 0-indexed coordinates and a period where the `map_xml_string` provided stale data. The fix to allow optional start coordinates has resolved the data issue. All debug prints are now being removed to clean up the tool's output for standard use.",
+        "timestamp": "2025-10-27T06:33:29.450Z",
+        "action_counter": 24305
       }
     ]
   },

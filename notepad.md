@@ -112,3 +112,7 @@
     *   **Primary Hypothesis:** The tile is permanently impassable despite being a `FLOOR` type.
     *   **Alternative Hypothesis:** The tile is conditionally impassable (e.g., only from the south).
     *   **Test Plan:** After confirming blockage from (20, 10), move to (19, 9) and attempt to move right, and move to (21, 9) and attempt to move left.
+
+## Farfetch'd Puzzle Log (New)
+*   **Test:** Walked path (15, 27) -> (9, 34) after a 'disappear from West interaction' at (27, 31).
+*   **Result:** FAILURE. Farfetch'd did not reappear at (10, 35) or anywhere else visible. The reset path is context-dependent.
