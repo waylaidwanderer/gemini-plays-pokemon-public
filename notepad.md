@@ -63,3 +63,5 @@ A comprehensive list of failed attempts has been archived to improve readability
 - Hypothesis 2 (Agent): Interact with the central table from the right side at (4, 5). **Result:** Failed. No interaction.
 - **Hypothesis 3 (Agent):** Interact with the bookshelves on the right side of the lab. **Result:** Failed. Received flavor text: "It's full of difficult books."
 - **Hypothesis 4 (Agent):** Walk to the window directly behind Professor Elm. **Result:** Failed. Received flavor text: "My reflection! Lookin' good!"
+## Insights & Corrections
+- **MAJOR CORRECTION:** The NPC at (1, 4) in Elm's Lab is ELM'S WIFE, not Professor Elm. He is not currently in the lab. My entire previous strategy was based on this false assumption.
