@@ -61,9 +61,13 @@
 - **Direct Interaction (Post-State Change 4 - after talking to son again):**
   - Attempt 19: Interact with Poké Ball machine. (Result: No effect).
 
-### Reflection on Elm's Lab Puzzle (Turn 260)
-- **Core Assumption:** I must talk to Professor Elm to get a Pokémon.
-  - *Observation:* This has repeatedly failed, resulting in a dialogue loop.
-  - *Alternative Hypothesis 1:* The Pokémon are obtained by interacting with the Poké Ball machine, but only after a specific, undiscovered trigger event.
-  - *Alternative Hypothesis 2:* Another object or NPC in the room (besides Elm) is the primary trigger for the event.
-  - *Untested Assumption:* The Poké Ball machine contains the Pokémon. It might just be scenery.
+### Elm's Lab Puzzle - Reflection & Correction
+*Correction (Turn 264):* I have been operating under the false assumption that a "Poké Ball machine" exists in this room. It does not. All previous hypotheses involving this object are invalid. I must re-evaluate based only on observable objects.
+
+*Verified Progression Trigger:*
+- Interacting with the PC at (0, 1) triggered new dialogue from Professor Elm.
+
+*Current Core Hypotheses:*
+1. The event trigger requires another interaction with an object in the room (PC, TV, Elm, Son, etc.).
+2. The event trigger requires moving to a specific tile.
+3. The event trigger requires attempting to leave the lab again.
