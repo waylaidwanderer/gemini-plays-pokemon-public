@@ -12,7 +12,7 @@
 *PC Storage*: Currently empty.
 *Key Items*:
 - BERRY: Heals a Pokémon.
-- MYSTERY EGG: An egg received from MR. POKEMON to be delivered to PROF. ELM.
+
 - POKéDEX: A hi-tech encyclopedia that records data on Pokémon.
 
 ## Battle and Pokemon Information
