@@ -43,3 +43,6 @@
 - **FLOOR**: Traversable. (Verified)
 - **BOOKSHELF**: Impassable. (Verified)
 - **WARP_CARPET_DOWN**: Traversable, acts as a warp tile. (Verified)
+### Tile Traversal and Movement Rules (Route29)
+- **GRASS**: Traversable, likely contains wild Pokémon. (Hypothesis)
+- **LEDGE_HOP_DOWN**: Appears to be a one-way ledge that can only be jumped down from above. (Hypothesis)
