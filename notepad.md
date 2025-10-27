@@ -1,17 +1,20 @@
-## Reflection Log (Turn 1716)
-- **Data Management:** I have been diligent in performing data management tasks immediately and have not deferred any critical updates.
-- **Notepad Quality:** My notepad is well-organized and free of redundant information.
+## Reflection Log (Turn 1767)
+- **Data Management:** I identified a major process violation in turn 1738 where I deferred fixing the broken `generate_nickname_inputs` tool instead of addressing it immediately. This has been corrected, and I will prioritize tool/agent maintenance above all else going forward.
+- **Notepad Quality:** My notepad is well-organized. The previously redundant 'Key Items' section has been removed.
 - **Tile Mechanics:** My documentation of tile traversal rules is comprehensive for all encountered tile types.
-- **Agent Opportunities:** No new opportunities for custom agents have arisen in the last 50 turns.
-- **Agent Refinement:** My existing agents have not required refinement.
+- **Agent Opportunities:** No new opportunities for custom agents have arisen.
+- **Agent Refinement:** My existing agents have not required refinement as they have not yet been used.
 - **Agent Deletion:** No agents are obsolete or redundant.
-- **Map Markers:** My map marker discipline is good, though I will be more careful to check for existing markers before creating new ones.
+- **Map Markers:** My map marker discipline is good, but I failed to mark my rival as defeated in Cherrygrove City. I will do so on my next visit.
 - **Marker Redundancy:** My markers provide unique strategic value and are not redundant.
-- **Tool Usage:** My current toolset is robust and has not required new additions or major refinements.
+- **Tool Usage:** My `generate_nickname_inputs` tool was found to be faulty and has now been fixed. My other tools are functioning correctly.
 - **Goals:** My goals adhere to the 'WHAT, not HOW' principle.
 - **Untested Assumptions:**
   - **Assumption:** The path to Violet City is straightforward through Cherrygrove and Route 30. 
-  - **Alternative:** An unforeseen obstacle or side-quest may block the path. I will test this by proceeding along the expected route while remaining observant.
+  - **Alternative:** An unforeseen obstacle or side-quest may block the path. I will test this by proceeding along the expected route after healing my Pokémon. If blocked, I will explore Cherrygrove City more thoroughly for clues.
+
+## To-Do
+- When next in Cherrygrove City, place a marker on the tile where I battled my rival to indicate he has been defeated.
 
 ## Discoveries & Lessons Learned
 - My biggest obstacle is my own memory. I must only trust in-game observation.
@@ -22,12 +25,13 @@
 - Talking to Mom does NOT heal my Pokémon. This is a critical mechanic difference from other games.
 - Resting in the player's bed does NOT heal Pokémon.
 - Repeatedly interacting with an object (like a sign) without new results can lead to loops. I must dismiss dialogue before attempting to move.
+- The 'Select' button on the nicknaming screen toggles between uppercase and lowercase keyboards.
 
 ## Game Mechanics & Systems
 *PC Storage*: Currently empty.
 
 ## Battle and Pokemon Information
-*My Party*: Ignis (CYNDAQUIL) Lv9.
+*My Party*: Ignis (CYNDAQUIL) Lv10, Aether (PIDGEY) Lv3.
 *Type Effectiveness Chart*: To be built based on battle observations.
 
 ## Area and Navigation Insights
@@ -72,20 +76,14 @@
     - **Test 2:** Interacted from below at (1, 4), facing up.
     - **Test 3:** Interacted from directly below at (1, 5), facing up.
     - **Conclusion:** FAILED. Multiple interaction attempts from different positions and facings yielded no result. The bed does not heal Pokémon.
-
-- **Route 29 Pathfinding Failure (South Ledges):**
-  - **Hypothesis:** I can jump down the ledges to the south from the upper plateau at (17, 3).
-    - **Test:** Attempted to pathfind from (17, 3) to (13, 5) on turn 1145.
-    - **Conclusion:** FAILED. There is no direct path down from this part of the plateau.
-- **Route 29 Pathfinding Summary:**
-  - The southern path is a dead end. (Verified)
-  - The western path from the lower plateau is blocked by `CUT_TREE` and `HEADBUTT_TREE` tiles. (Verified)
-  - The eastern path from the upper plateau is blocked by one-way `LEDGE_HOP_RIGHT` tiles. (Verified)
-- **`find_reachable_unseen_tiles` Tool Status:**
-  - **Initial State:** The tool was unreliable, incorrectly identifying unreachable tiles as reachable.
-  - **Fix:** Replaced the flawed logic with a Breadth-First Search (BFS) starting from the player's position, incorporating correct ledge traversal rules.
-  - **Current Status:** The tool is now considered fixed and reliable for exploration planning.
-- **Pokecenter2F (Cherrygrove City):** This floor is dedicated to link features (Trade Machine, Battle Machine, Time Capsule). All services are currently unavailable, making the entire floor a dead end for now.
+- **Nickname Screen Controls:**
+  - **Observation:** Directional inputs did not move the cursor from the starting 'A' position.
+  - **Hypothesis 1:** Movement on the screen is broken.
+    - **Test:** Press 'Right' once.
+    - **Conclusion:** FAILED. Cursor did not move. This falsifies the idea that only vertical movement is broken.
+  - **Hypothesis 2:** The 'Select' button might change the input mode.
+    - **Test:** Press 'Select' once.
+    - **Conclusion:** SUCCESS. The keyboard switched to lowercase and the cursor became movable. The 'Select' button toggles the keyboard case.
 
 ## Untested Assumptions
 - MR. POKEMON's house is located on Route 30 itself, not a connecting route. (Tested and confirmed)
