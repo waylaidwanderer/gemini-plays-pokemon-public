@@ -31,3 +31,4 @@
 - **DOOR**: Warp. (Verified)
 - **WATER**: Appears impassable without Surf. (Untested)
 - **HEADBUTT_TREE**: Appears impassable. (Untested)
+- **WARP_CARPET_DOWN**: Warp. (Verified)
