@@ -20,3 +20,10 @@
 - Start a new game.
 - Get my first Pokémon from Professor Elm.
 - Explore New Bark Town.
+### Tile Traversal and Movement Rules
+- **FLOOR**: Traversable.
+- **WALL**: Appears impassable. (Untested)
+- **STAIRCASE**: Appears impassable, likely a warp. (Untested)
+- **BOOKSHELF**: Appears impassable. (Untested)
+- **TOWN_MAP**: Appears impassable. (Untested)
+- **TV**: Appears impassable. (Untested)
