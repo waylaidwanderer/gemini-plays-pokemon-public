@@ -31,7 +31,7 @@
 - Stunning an NPC (Professor Elm) can break scripted events, causing dialogue loops.
 
 ### Elm's Lab Puzzle - Failed Hypotheses Log
-*Total Attempts: 16*
+*Total Attempts: 17*
 - **Direct Interaction (Pre-State Change):**
   - Attempt 1-3: Talk to Prof. Elm (failed due to movement/stun bug).
   - Attempt 4: Talk to Elm's Son (Result: Flavor text).
@@ -39,17 +39,19 @@
   - Attempt 6-7: Interact with Poké Ball machine (Result: No effect).
 - **Movement Triggers:**
   - Attempt 8: Attempt to leave the lab (Result: Did not trigger event, was pushed out).
-- **Direct Interaction (Post-State Change - after re-entering lab):**
+- **Direct Interaction (Post-State Change 1 - after re-entering lab):**
   - Attempt 9: Talk to Prof. Elm (Result: Dialogue loop with wife).
   - Attempt 10: Interact with Poké Ball machine (Result: No effect).
   - Attempt 11: Stepping on all floor tiles (blocked by Elm).
   - Attempt 12: Talk to Elm's Son (Result: Flavor text).
-- **Agent Batch 1 Hypotheses:**
+- **Agent Batch 1 Hypotheses (Post-State Change 1):**
   - Attempt 13: Interact with the bookshelves. (Result: Flavor text)
   - Attempt 14: Interact with the window. (Result: Flavor text)
   - Attempt 15: Stand on/interact from tile behind Prof. Elm. (Result: No effect)
-- **Agent Batch 2 Hypotheses:**
-  - Attempt 16: Interact with PC from below. (Result: **Success! Triggered new dialogue.**)
+- **Agent Batch 2 Hypotheses (Post-State Change 1):**
+  - Attempt 16: Interact with PC from below. (Result: **Success! Triggered new dialogue & State Change 2.**)
+- **Direct Interaction (Post-State Change 2 - after PC interaction):**
+  - Attempt 17: Talk to Prof. Elm from the front. (Result: Dialogue loop with wife).
 
 ## Reflection & Self-Correction
 - **(Turn 103):** I have previously failed to manage data immediately and test assumptions. I must be more diligent.
