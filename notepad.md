@@ -98,3 +98,5 @@
   - **Hypothesis:** The path west over the ledges leads to Violet City.
   - **Test:** Explored the entire path after jumping down the ledges.
   - **Conclusion:** FAILED. This path is a small loop that leads to a dead end with a sign, forcing a return to the main path.
+## NPCs and Interactions
+- An Officer in the Route 31 Gatehouse mentioned visiting SPROUT TOWER.
