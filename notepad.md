@@ -83,3 +83,5 @@
 - The 'Poké Ball machine' in Elm's lab was a hallucination.
 - Hallucinated a warp at (9, 35) on Route 30. There is no warp there.
 - Hallucinated a warp at (13, 9) on Route 30. The actual house entrance is at (17, 5).
+## Core Principles & Lessons Learned
+- I must NEVER defer fixing a broken tool or agent. It is always the highest priority, overriding any in-game objective.
