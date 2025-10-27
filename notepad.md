@@ -37,9 +37,6 @@ A comprehensive list of failed attempts has been archived to improve readability
 - Stepping on all floor tiles.
 - Walking into the corner behind the bookshelves.
 
-## Reflection & Self-Correction
-- **(Turn 103):** I have previously failed to manage data immediately and test assumptions. I must be more diligent.
-
 - **Direct Interaction (Post-State Change 3 - after talking to son):**
   - Attempt 18: Talk to Prof. Elm from the front. (Result: Dialogue loop with wife).
 - **Direct Interaction (Post-State Change 4 - after talking to son again):**
