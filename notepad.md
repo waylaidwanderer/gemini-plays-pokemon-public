@@ -29,6 +29,7 @@
 - The 'Poké Ball machine' was a hallucination.
 - The southern path on Route 29 is a dead end.
 - The western path on Route 29 is blocked by a CUT_TREE.
+- Talking to Mom does NOT heal my Pokémon. This is a critical mechanic difference from other games.
 
 ## Puzzles & Hypotheses
 - **Fisher NPC Interaction Failure (New Bark Town):**
