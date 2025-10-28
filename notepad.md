@@ -95,3 +95,4 @@
   1. A staircase or ladder on 1F leads up to the western section of 2F. **(Tested & Failed: The western ladder on 1F at (2, 6) is unreachable from the central section.)**
   2. The wall at x=4 contains a hidden or secret passage.
   3. A path to the western section of 2F is accessed by first ascending to 3F and then taking a different ladder down.
+- **CRITICAL HALLUCINATION (Turn 2886):** Believed I was on Sprout Tower 2F at (6, 4) when I was actually on Sprout Tower 1F at (6, 3). All plans based on being on 2F were invalid. Corrected my position and plan based on the actual game state.
