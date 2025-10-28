@@ -61,24 +61,34 @@
 - **Sprout Tower vs. Gym:** Assumption: Sprout Tower is separate from the Gym. (Confirmed)
 - **MR. POKEMON's House Location:** Assumption: Located on Route 30. (Confirmed)
 
-### Sprout Tower Puzzle - Consolidated Hypotheses
-- **SOLUTION:** Stand on the tile at (11, 3) and interact with the Sage at (12, 3). This triggers a scripted event that makes the central pillar passable, allowing access to the central section of the floor.
-- **Hypothesis 1: Use Key Item on wall.** (DEBUNKED)
-- **Hypothesis 2: Defeating the Sage on 2F removes the wall at x=4.** (DEBUNKED)
-- **Hypothesis 3: An item or switch appeared on the tile where the Sage was defeated.** (DEBUNKED)
-- **Hypothesis 4: The defeated Sage must be spoken to again to open the path.** (DEBUNKED)
-- **Hypothesis 5: The ladder at (6,4) is now the correct path forward.** (DEBUNKED - leads back to 1F)
-- **Hypothesis 6: Walking into the central pillar on 2F will reveal a hidden path.** (DEBUNKED)
-- **Hypothesis 7: Interacting with the northern wall tiles of the central pillar on 2F will trigger an event.** (DEBUNKED)
-- **Hypothesis 8: The pillar on 1F, directly below the one on 2F, is now interactable or has changed.** (DEBUNKED)
-- **Hypothesis 9: There is an interactable object elsewhere on 2F, such as a statue or pot, that controls the pillar.** (DEBUNKED - No other interactable objects found)
-- **Hypothesis 10: Pressing 'interact' while facing the eastern wall of the pillar will cause it to move.** (DEBUNKED)
-- **Hypothesis 11: The pillar's 'flexible' nature means it can be pushed.** (DEBUNKED)
-- **Hypothesis 12: Examining the floor tiles directly adjacent to the pillar reveals a hidden switch.** (DEBUNKED)
-- **Hypothesis 13: The wall blocking the western section is an illusion or has a hidden switch.** (DEBUNKED)
-- **Hypothesis 14: The effect of interacting with the Sage at (12,3) is different depending on which adjacent tile the player stands on.** (DEBUNKED - Interaction from (12, 2) yielded the same result as (11, 3)).
-- **Hypothesis 15: A switch or path on the 3rd floor of Sprout Tower opens the western section of the 2nd floor.** (ACTIVE)
-- **Hypothesis 16: Stepping on a specific tile inside the temporarily passable central pillar triggers the opening of the western wall.** (DEBUNKED - Walked across all internal tiles, no effect)
+### Sprout Tower 2F Pillar Puzzle
+- **Partial Solution:** Standing on the tile at (11, 3) and interacting with the Sage at (12, 3) triggers a scripted event that makes the central pillar passable, allowing access to the central section of the floor. This event does not seem to be repeatable.
+- **Active Hypothesis:**
+  - The wall tile directly behind the Sage at (12, 3) has a hidden switch or is interactable.
+- **Untestable Hypotheses:**
+  - A switch or path on the 3rd floor of Sprout Tower opens the western section of the 2nd floor.
+  - All other trainers on Sprout Tower 2F must be defeated before the Sage at (12, 3) will trigger the event again.
+- **Debunked Hypotheses:**
+  - Use Key Item on wall.
+  - Defeating the Sage on 2F removes the wall at x=4.
+  - An item or switch appeared on the tile where the Sage was defeated.
+  - The defeated Sage must be spoken to again to open the path.
+  - The ladder at (6,4) is now the correct path forward.
+  - Walking into the central pillar on 2F will reveal a hidden path.
+  - Interacting with the northern wall tiles of the central pillar on 2F will trigger an event.
+  - The pillar on 1F, directly below the one on 2F, is now interactable or has changed.
+  - There is an interactable object elsewhere on 2F, such as a statue or pot, that controls the pillar.
+  - Pressing 'interact' while facing the eastern wall of the pillar will cause it to move.
+  - The pillar's 'flexible' nature means it can be pushed.
+  - Examining the floor tiles directly adjacent to the pillar reveals a hidden switch.
+  - The wall blocking the western section is an illusion or has a hidden switch.
+  - The effect of interacting with the Sage at (12,3) is different depending on which adjacent tile the player stands on.
+  - Stepping on a specific tile inside the temporarily passable central pillar triggers the opening of the western wall.
+  - An NPC on the 1st floor has new dialogue or an item that allows passage after interacting with the Sage.
+  - The player must pass through the temporarily open central pillar from east to west to trigger the removal of the wall at x=4.
+  - Interacting with the Sage from a different adjacent tile (e.g., from the south at (12, 4)) triggers the event.
+  - Interacting with the Sage at (12, 3) multiple times in a row is required to trigger the event.
+  - Interacting with the central pillar first, and then immediately interacting with the Sage at (12, 3), will trigger the event.
 
 ### Corrected Misunderstandings
 - The 'Poké Ball machine' in Elm's lab was a hallucination.
