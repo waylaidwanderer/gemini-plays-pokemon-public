@@ -18,6 +18,9 @@
 ## Future Agent Ideas
 - **puzzle_solver_assistant:** An agent to manage and prioritize hypotheses for complex puzzles.
 - **code_debugger:** An agent that takes code and an error message to suggest potential fixes.
+- **performance_analyst:** An agent to analyze my recent turns and suggest improvements based on my core principles.
+- **gym_prep_advisor:** An agent to help plan long-term goals, like what level my Pokemon should be for the next gym.
+- **pathfinder_diagnostician:** An agent to analyze the pathfinder's debug grid to suggest fixes or identify the cause of pathing failures.
 
 ## Game Mechanics & Systems
 *PC Storage*: Currently empty.
@@ -36,11 +39,12 @@
 - **DOOR**: Traversable, acts as a warp tile. (Verified)
 - **FLOOR**: Traversable. (Verified)
 - **HEADBUTT_TREE**: Impassable. (Verified by observation)
-- **LADDER**: Traversable warp. Must be activated by moving *onto* the tile from an adjacent tile. Standing on the ladder and pressing A or a direction does nothing. (Verified by accidentally warping from 2F to 1F)
+- **LADDER**: Traversable warp. Must be activated by moving *onto* the tile from an adjacent tile. Standing on the ladder and pressing A or a direction does nothing. (Verified)
 - **LEDGE_HOP_DOWN/LEFT/RIGHT**: One-way traversal.
 - **LONG_GRASS**: Traversable, contains wild Pokémon. (Verified by encounters on Route 30)
 - **MART_SHELF**: Impassable. (Verified by pathfinder consistently treating it as a wall)
 - **PC**: Impassable. Interacting from an adjacent tile can trigger events. (Verified)
+- **PILLAR**: Conditionally passable. Becomes impassable after a short time. Interaction with a specific Sage at (12, 3) makes it passable. (Verified)
 - **RADIO**: Impassable. (Verified by attempting to walk on it)
 - **STAIRCASE**: Traversable, acts as a warp tile. (Verified)
 - **TALL_GRASS**: Traversable, contains wild Pokémon. (Verified)
@@ -68,21 +72,8 @@
 - **CRITICAL HALLUCINATION (Turn 2667):** Believed I was on Sprout Tower 2F at (17, 3) when I was actually on Sprout Tower 1F at (17, 2).
 - **CRITICAL HALLUCINATION (Turn 2886):** Believed I was on Sprout Tower 2F at (6, 4) when I was actually on Sprout Tower 1F at (6, 3).
 - **Pathfinder Tool Issue:** The pathfinder was flagged as faulty. I have since fixed it by adding dynamic debug prints to better diagnose future issues.
-
 - **Hypothesis 4 (Agent):** Defeating the Sage on 2F triggered a new event or NPC on 1F. (DEBUNKED)
 - **Hypothesis 5 (Agent):** One of the southern wall tiles of the central pillar is an interactable switch.
-
-## Future Agent Ideas (from reflection)
-- **performance_analyst:** An agent to analyze my recent turns and suggest improvements based on my core principles.
-- **gym_prep_advisor:** An agent to help plan long-term goals, like what level my Pokemon should be for the next gym.
-
-## NPCs and Interactions
-- YOUNGSTER at (5, 18) in Violet City mentioned a 'wiggly tree' that 'squirms and dances'. This is likely a hint about how to interact with HEADBUTT_TREEs.
-
-## Future Agent Ideas (from reflection)
-- **pathfinder_diagnostician:** An agent to analyze the pathfinder's debug grid to suggest fixes or identify the cause of pathing failures.
-
-- **WARP_CARPET_DOWN**: Traversable, acts as a warp tile. (Verified)
 
 ### Sprout Tower Puzzle - New Hypotheses (from Agent - Turn 3590)
 1. All other Sages on Sprout Tower 2F must be defeated before interacting with the Sage at (12, 3).
@@ -97,37 +88,25 @@
 - **Test:** Spoke to the Sage at (7, 4) after returning from 2F.
 - **Conclusion:** Dialogue was unchanged. Hypothesis is DEBUNKED.
 
-## 7. Full Tool & Agent List
-### Built-in Tools
-- `notepad_edit`
-- `run_code`
-- `define_map_marker`
-- `delete_map_marker`
-- `stun_npc`
-- `select_battle_option`
-
-### Management Tools
-- `define_agent`
-- `delete_agent`
-- `define_tool`
-- `delete_tool`
-
-### Custom Tools (Code)
-- `find_path_to_target`
-- `find_reachable_unseen_tiles`
-- `generate_nickname_inputs`
-- `find_closest_unseen_tile`
-- `systematic_search`
-
-### Custom Agents (LLM)
-- `hypothesis_generator`
-- `simple_battle_strategist`
 ### Sprout Tower 2F Pillar Puzzle - Direct Interaction Test
 - **Hypothesis (from Agent):** Interacting directly with the pillar wall from an adjacent tile will trigger an event.
 - **Test:** Systematically pressed 'A' while facing the pillar from every accessible adjacent tile on the eastern side of the floor ((7,4), (7,5), (8,3), (9,3), (10,3), (11,3)).
 - **Conclusion:** No interaction occurred. Hypothesis is DEBUNKED for the eastern side of the pillar.
 
-## 7. Full Tool & Agent List
+### Sprout Tower 2F Pillar Puzzle - Re-interaction Test
+- **Hypothesis:** Talking to the Sage at (12, 3) a second time will make the pillar move.
+- **Test:** Interacted with the Sage at (12, 3) after the pillar became solid again.
+- **Conclusion:** The Sage gave flavor dialogue ("The flexible pillar protects the TOWER..."). The pillar did not move. Hypothesis is DEBUNKED. The event is not repeatable by simple re-interaction.
+
+### Sprout Tower 2F Pillar Puzzle - Positional Interaction Test
+- **Hypothesis:** Interacting with the Sage at (12, 3) from a different adjacent tile ((12, 4) instead of (11, 3)) will re-trigger the pillar event.
+- **Test:** Moved to (12, 4) and pressed 'A' while facing the Sage.
+- **Conclusion:** The Sage gave the same flavor dialogue as before. The pillar did not move. Hypothesis is DEBUNKED.
+
+## NPCs and Interactions
+- YOUNGSTER at (5, 18) in Violet City mentioned a 'wiggly tree' that 'squirms and dances'. This is likely a hint about how to interact with HEADBUTT_TREEs.
+
+## Full Tool & Agent List
 ### Built-in Tools
 - `notepad_edit`
 - `run_code`
@@ -152,14 +131,3 @@
 ### Custom Agents (LLM)
 - `hypothesis_generator`
 - `simple_battle_strategist`
-### Sprout Tower 2F Pillar Puzzle - Re-interaction Test
-- **Hypothesis:** Talking to the Sage at (12, 3) a second time will make the pillar move.
-- **Test:** Interacted with the Sage at (12, 3) after the pillar became solid again.
-- **Conclusion:** The Sage gave flavor dialogue ("The flexible pillar protects the TOWER..."). The pillar did not move. Hypothesis is DEBUNKED. The event is not repeatable by simple re-interaction.
-### Sprout Tower 2F Pillar Puzzle - Positional Interaction Test
-- **Hypothesis:** Interacting with the Sage at (12, 3) from a different adjacent tile ((12, 4) instead of (11, 3)) will re-trigger the pillar event.
-- **Test:** Moved to (12, 4) and pressed 'A' while facing the Sage.
-- **Conclusion:** The Sage gave the same flavor dialogue as before. The pillar did not move. Hypothesis is DEBUNKED.
-
-## Future Agent Ideas (from reflection)
-- **performance_analyst:** An agent to analyze my recent turns and suggest improvements based on my core principles.
