@@ -79,7 +79,7 @@
   - **Test:** Systematically walked over every reachable floor tile adjacent to the central pillar structure.
   - **Conclusion:** FAILED. No event triggered.
 - **Hypothesis 6: Hidden item on the floor.**
-  - **Status:** In progress. Automating search with `systematic_search` tool.
+  - **Status:** PENDING. No tool currently exists to automate this search.
 
 ### Past Investigations & Solved Puzzles
 - **Fisher NPC Interaction Failure (New Bark Town):**
