@@ -106,3 +106,6 @@
   - I hallucinated a path south of the pillar on 2F (Turn 2686). The pathfinder's debug output confirmed a WALL blocks it.
   - I was on 1F when I thought I was on 2F (Turn 2667).
 - **Procedural Correction:** I will no longer use `overwrite` for large notepad edits. I will use `append` for new entries and focused `replace` for corrections to avoid data loss.
+
+## Sprout Tower Exploration Notes
+- Unmarked warp detected on 2F at (2, 6). Need to investigate.
