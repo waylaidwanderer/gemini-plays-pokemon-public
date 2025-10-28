@@ -106,3 +106,7 @@
 
 ## 7. Full Tool & Agent List (Per Overwatch)
 - **Missing from previous list:** `delete_agent`, `define_tool`, `delete_tool`.
+### Sprout Tower 2F Pillar Puzzle - Re-interaction Test
+- **Hypothesis:** Talking to the Sage at (12, 3) a second time will make the pillar move.
+- **Test:** Interacted with the Sage at (12, 3) after the pillar became solid again.
+- **Conclusion:** The Sage gave flavor dialogue ("The flexible pillar protects the TOWER..."). The pillar did not move. Hypothesis is DEBUNKED. The event is not repeatable by simple re-interaction.
