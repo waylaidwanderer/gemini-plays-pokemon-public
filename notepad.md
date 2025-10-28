@@ -138,3 +138,6 @@
 - **Test:** Added a debug print to visualize the tool's internal traversability grid.
 - **Conclusion:** The tool is working correctly. The debug grid confirmed that a solid wall at x=4 divides the first floor into two unreachable sections. My fundamental understanding of the map was incorrect. The Sage at (3, 5) is unreachable from the eastern side of the tower.
 - **New Hypothesis:** Progress is gated by defeating the trainers on the eastern side of Sprout Tower 1F.
+
+## Sprout Tower - Future Tasks
+- Unstun Sage (object ID 2) on Sprout Tower 1F before leaving the tower.
