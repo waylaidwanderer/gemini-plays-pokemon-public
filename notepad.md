@@ -158,4 +158,4 @@ After exhausting all previous hypotheses, the `hypothesis_generator` provided th
 ### Sprout Tower Puzzle - New Hypotheses (from Agent - Turn 3461)
 1. Defeating all Sages in the accessible area of 2F will cause the wall at x=4 to be removed.
 2. After interacting with the Sage at (12, 3) on 2F, an NPC on the 1st floor has new dialogue or an item that allows passage.
-3. The player must pass through the temporarily open central pillar from east to west to trigger the removal of the wall at x=4.
+3. The player must pass through the temporarily open central pillar from east to west to trigger the removal of the wall at x=4. (DEBUNKED - Walked from (11,3) to (7,3), wall at x=4 remains.)
