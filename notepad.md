@@ -190,3 +190,7 @@
 - **Hypothesis (from Agent):** A hidden switch has appeared on the wall at x=4.
 - **Test 3:** Stood at (3, 4) and pressed 'A' facing the wall at (4, 4).
 - **Conclusion:** No interaction occurred. Hypothesis is DEBUNKED for this specific wall segment.
+### Sprout Tower 1F - Floor Switch Test
+- **Hypothesis (from Agent):** An interactable object or switch exists on a floor tile in the western section of the room.
+- **Test 1:** Stood at (3, 4) and pressed 'A'.
+- **Conclusion:** No interaction occurred. Hypothesis is DEBUNKED for this specific tile.
