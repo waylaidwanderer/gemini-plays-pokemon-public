@@ -92,6 +92,6 @@
 ## Sprout Tower 2F Investigation
 - **CONCLUSION:** The western section of 2F is inaccessible from the central or eastern sections on this floor.
 - **Hypotheses (from Agent):**
-  1. A staircase or ladder on 1F leads up to the western section of 2F. (Currently testing this)
+  1. A staircase or ladder on 1F leads up to the western section of 2F. **(Tested & Failed: The western ladder on 1F at (2, 6) is unreachable from the central section.)**
   2. The wall at x=4 contains a hidden or secret passage.
   3. A path to the western section of 2F is accessed by first ascending to 3F and then taking a different ladder down.
