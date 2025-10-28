@@ -119,10 +119,10 @@
   - **Test:** Spoke to the Sage at (7, 4) after returning from 2F.
   - **Conclusion:** Dialogue was unchanged. Hypothesis is DEBUNKED.
 
-### Sprout Tower 1F - Secret Path Investigation
-- **Hypothesis:** Defeating SAGE CHOW made the wall at (4, 6) passable.
-- **Test:** Attempted to walk right from (3, 6) into the wall at (4, 6).
-- **Conclusion:** Movement was blocked. The wall is still solid. Hypothesis is DEBUNKED.
+- **1F - Secret Path Investigation:**
+  - **Hypothesis:** Defeating SAGE CHOW made the wall at (4, 6) passable.
+  - **Test:** Attempted to walk right from (3, 6) into the wall at (4, 6).
+  - **Conclusion:** Movement was blocked. The wall is still solid. Hypothesis is DEBUNKED.
 
 ### Violet Mart Investigation
 - **Hypothesis:** Talking to the Cooltrainer M at (5, 2) would open the path to the Clerk.
