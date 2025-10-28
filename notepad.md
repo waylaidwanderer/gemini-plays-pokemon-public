@@ -162,6 +162,6 @@ After exhausting all previous hypotheses, the `hypothesis_generator` provided th
 - **WARP_CARPET_DOWN**: Traversable, acts as a warp tile. (Verified)
 ### Sprout Tower Puzzle - New Hypotheses (from Agent - Turn 3548)
 1. Interacting with the Sage from a different adjacent tile (e.g., from the south at (12, 4)) triggers the event. (DEBUNKED - Interaction from (12, 4) yielded the same result as (11, 3)).
-2. Interacting with the Sage at (12, 3) multiple times in a row is required to trigger the event.
+2. Interacting with the Sage at (12, 3) multiple times in a row is required to trigger the event. (DEBUNKED - Repeated interaction yielded the same result).
 3. The dialogue from the Sage at (12, 3) contains a direct clue that has been missed.
 4. All other Sages on Sprout Tower 2F must be spoken to before the Sage at (12, 3) will trigger the event.
