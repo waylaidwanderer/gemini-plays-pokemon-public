@@ -145,3 +145,8 @@
 
 ## System Limitations
 - The system's character loss threshold prevents the full removal of the duplicated archived notepad section, despite multiple attempts to comply with the Overwatch critique. Concluding this task is impossible and moving on.
+
+## Reflection (Turn 3743)
+- **New Agent Idea:** `puzzle_state_tracker` to summarize puzzle progress and remaining hypotheses.
+- **Untested Assumption:** That I am trapped in the eastern half of Sprout Tower 2F. 
+  - **Test Plan:** After completing the current systematic search, I will use `find_reachable_unseen_tiles` and re-investigate the 1F map to confirm there are no other paths to the western side of 2F.
