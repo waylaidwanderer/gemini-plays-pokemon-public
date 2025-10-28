@@ -110,3 +110,7 @@
 - **Hypothesis:** Talking to the Sage at (12, 3) a second time will make the pillar move.
 - **Test:** Interacted with the Sage at (12, 3) after the pillar became solid again.
 - **Conclusion:** The Sage gave flavor dialogue ("The flexible pillar protects the TOWER..."). The pillar did not move. Hypothesis is DEBUNKED. The event is not repeatable by simple re-interaction.
+### Sprout Tower 2F Pillar Puzzle - Positional Interaction Test
+- **Hypothesis:** Interacting with the Sage at (12, 3) from a different adjacent tile ((12, 4) instead of (11, 3)) will re-trigger the pillar event.
+- **Test:** Moved to (12, 4) and pressed 'A' while facing the Sage.
+- **Conclusion:** The Sage gave the same flavor dialogue as before. The pillar did not move. Hypothesis is DEBUNKED.
