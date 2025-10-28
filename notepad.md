@@ -52,18 +52,8 @@
 
 ## Puzzles, Hypotheses & Assumptions
 
-### Current Investigation: Sprout Tower Navigation
-- **Problem:** I am trapped in the eastern sections of Sprout Tower 1F and 2F. There is no visible path to the western sections or the main tower exit from these areas.
-- **Failed Hypotheses Log:**
-  1. The path to 3F is on the eastern side of 2F. (FAILED)
-  2. A direct path exists across 2F from east to west. (FAILED)
-  3. I must exit the tower from the eastern 1F section. (FAILED)
-  4. The central pillar is interactive. (FAILED)
-  5. A path exists on 1F to cross from east to west. (FAILED)
-- **Current Hypotheses (from Agent):**
-  1. An NPC in the eastern sections must be defeated/spoken to, creating a path.
-  2. There is a hidden switch/object on the eastern side of 2F.
-  3. A wall in the eastern sections is a secret passage.
+### Solved: Sprout Tower 2F Pillar Puzzle
+- **Solution:** Speaking to a Sage on 2F made the central pillar passable, allowing access from the eastern to the central section of the floor.
 
 ### Past Investigations & Solved Puzzles
 - **Fisher NPC Interaction Failure (New Bark Town):**
