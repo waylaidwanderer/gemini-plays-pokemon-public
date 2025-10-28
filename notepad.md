@@ -96,13 +96,6 @@
 2. The Sage at (12, 3) will make the pillar passable if spoken to from a different adjacent tile, such as from the north (12, 2) or south (12, 4).
 3. A hidden switch exists on the floor in the accessible eastern area which, when activated, makes the pillar passable.
 
-## System Limitations
-- The system's character loss threshold prevents the full removal of the duplicated archived notepad section, despite multiple attempts to comply with the Overwatch critique. Concluding this task is impossible and moving on.
-
-## Reflection (Turn 3743)
-- **New Agent Idea:** `puzzle_state_tracker` to summarize puzzle progress and remaining hypotheses.
-- **Untested Assumption:** That I am trapped in the eastern half of Sprout Tower 2F. 
-  - **Test Plan:** After completing the current systematic search, I will use `find_reachable_unseen_tiles` and re-investigate the 1F map to confirm there are no other paths to the western side of 2F.
 ### Sprout Tower 2F Pillar Puzzle - Post-Exploration
 - **Hypothesis:** Exiting the 2nd floor and then returning resets the pillar puzzle, allowing the Sage at (12, 3) to trigger it again.
 - **Test:** Returned to 2F from 1F and interacted with the Sage at (12, 3).
