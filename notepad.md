@@ -49,46 +49,40 @@
 - **WINDOW**: Impassable. (Verified)
 - **FLOOR_UP_WALL**: Appears to be impassable. (Hypothesis, needs verification)
 
-## Puzzles & Hypotheses
+## Puzzles, Hypotheses & Assumptions
 
-### Sprout Tower Location
-- **Assumption:** Sprout Tower is located in the large, unexplored northern section of Violet City.
-- **Alternative Hypothesis:** The tower might be in a different part of the city, or on a previous route blocked by an obstacle I couldn't pass before (like a CUT tree).
-- **Test:** If a thorough exploration of the northern area doesn't reveal the tower, I will systematically re-explore all other paths in Violet City and the connecting routes (30, 31).
+### Current Investigations
+- **Sprout Tower Location:**
+  - **Primary Assumption:** Sprout Tower is in the large, unexplored northern section of Violet City.
+  - **Alternative Hypothesis:** The tower might be in a different part of the city, or on a previous route blocked by an obstacle I couldn't pass before (like a CUT tree).
+  - **Test Plan:** If a thorough exploration of the northern area doesn't reveal the tower, I will systematically re-explore all other paths in Violet City and the connecting routes (30, 31).
+- **Azalea Town Path:**
+  - **Assumption:** The path to Azalea Town is south of Violet City.
+  - **Alternative Hypothesis:** The path might be west or east, possibly requiring an HM like SURF.
+  - **Test Plan:** After investigating Sprout Tower, I will explore the routes south of Violet City (Route 32).
 
-## Puzzles & Hypotheses
+### Past Investigations & Solved Puzzles
 - **Fisher NPC Interaction Failure (New Bark Town):**
-  - **Observation:** Attempting to interact with the moving Fisher NPC failed, even when adjacent and facing him.
-  - **Hypothesis:** The NPC's movement at the exact moment of interaction caused the input to fail.
-  - **Test:** Used the `stun_npc` tool to freeze the Fisher in place and interacted again.
-  - **Conclusion:** The interaction was successful, confirming the hypothesis. Moving NPCs can disrupt interactions.
-- **Healing Methods:**
-  - **Hypothesis 1:** Talking to Mom will heal my Pokémon.
-    - **Test:** Spoke to Mom at various locations in PlayersHouse1F.
-    - **Conclusion:** FAILED. Mom's dialogue does not trigger a heal in this game.
-  - **Hypothesis 2:** Resting in the player's bed will heal Pokémon.
-    - **Test 1:** Interacted from the side at (1, 4), facing left.
-    - **Test 2:** Interacted from below at (1, 4), facing up.
-    - **Test 3:** Interacted from directly below at (1, 5), facing up.
-    - **Conclusion:** FAILED. Multiple interaction attempts from different positions and facings yielded no result. The bed does not heal Pokémon.
+  - **Conclusion:** Moving NPCs can disrupt interactions. Stunning them first is a reliable solution.
+- **Healing Methods (New Bark Town):**
+  - **Conclusion:** Neither Mom nor the player's bed heals Pokémon in this game.
 - **Nickname Screen Controls:**
-  - **Observation:** Directional inputs did not move the cursor from the starting 'A' position.
-  - **Hypothesis 1:** Movement on the screen is broken.
-    - **Test:** Press 'Right' once.
-    - **Conclusion:** FAILED. Cursor did not move. This falsifies the idea that only vertical movement is broken.
-  - **Hypothesis 2:** The 'Select' button might change the input mode.
-    - **Test:** Press 'Select' once.
-    - **Conclusion:** SUCCESS. The keyboard switched to lowercase and the cursor became movable. The 'Select' button toggles the keyboard case.
-
-## Untested Assumptions
-- MR. POKEMON's house is located on Route 30 itself, not a connecting route. (Tested and confirmed)
+  - **Conclusion:** The 'Select' button toggles the keyboard case.
+- **Building Identification (Violet City):**
+  - **Assumption:** Building at (21, 29) was the Gym. **(Confirmed to be a house with a trade NPC)**
+- **Sprout Tower vs. Gym:**
+  - **Assumption:** Sprout Tower is separate from the Gym. **(Confirmed)**
+- **MR. POKEMON's House Location:**
+  - **Assumption:** Located on Route 30. **(Confirmed)**
 
 ## Corrected Misunderstandings
 - The 'Poké Ball machine' in Elm's lab was a hallucination.
 - Hallucinated a warp at (9, 35) on Route 30. There is no warp there.
 - Hallucinated a warp at (13, 9) on Route 30. The actual house entrance is at (17, 5).
+
 ## Core Principles & Lessons Learned
 - I must NEVER defer fixing a broken tool or agent. It is always the highest priority, overriding any in-game objective.
+
 ## NPCs and Interactions
 - An NPC in a house on Route 30 mentioned that Berries can be found by checking trees.
 ## Untested Assumptions (Turn 1819)
