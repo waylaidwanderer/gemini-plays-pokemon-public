@@ -152,13 +152,9 @@
   - **Hypothesis (from Agent):** An object in the western section became interactable after defeating SAGE CHOW.
   - **Conclusion:** Attempted to interact with pillars at (3,8) and (2,8). No interaction occurred. Hypothesis is DEBUNKED.
 
-- **1F - Hidden Item Test:**
-  - **Hypothesis (from Agent):** A hidden item appeared on the tile where SAGE CHOW was standing (3, 5).
-  - **Conclusion:** Interaction only triggered the Sage's post-battle dialogue. Hypothesis is DEBUNKED.
-- **1F - Floor Switch Test:**
-  - **Hypothesis (from Agent):** An interactable object or switch exists on a floor tile in the western section.
-  - **Test:** Systematically pressed 'A' on tiles (3,4), (3,3), (2,3), (2,4), and (2,5).
-  - **Conclusion:** No interaction occurred. Hypothesis is DEBUNKED.
+- **1F - Hidden Item & Floor Switch Tests:**
+  - **Hypothesis (from Agent):** A hidden item or switch appeared in the western section after defeating SAGE CHOW.
+  - **Conclusion:** Systematically interacting with the floor and the Sage's original tile yielded no results. Hypothesis is DEBUNKED.
 
 ### Violet City Gatehouse Warp Puzzle
 - **Observation:** A 1x2 warp at (39, 24) and (39, 25) with type `WARP_CARPET_RIGHT` is not activating. It is the only exit to Route 31 on the eastern side of the city.
