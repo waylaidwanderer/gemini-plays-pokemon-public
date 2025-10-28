@@ -100,13 +100,6 @@
 - An NPC in a house on Route 30 mentioned that Berries can be found by checking trees.
 - **WARP_CARPET_RIGHT**: Traversable, acts as a warp tile. (Verified)
 
-## Untested Assumptions (Turn 2132)
-- **Assumption:** The building at (21, 29) is the Violet City Gym.
-  - **Alternative Hypothesis:** It could be another important building like a Pokémon School, a Mart, or a regular house.
-  - **Test:** Enter the building to identify it.
-- **Assumption:** Sprout Tower is a separate location from the Gym.
-  - **Alternative Hypothesis:** Sprout Tower could be the Gym itself, or a prerequisite challenge before the Gym.
-  - **Test:** Find both locations and observe any connections or NPC dialogue that links them.
 *Type Effectiveness Discovery*: Ground is super-effective against Fire. (Verified in battle vs Falkner's Pidgey's MUD-SLAP).
 
 ## Item Effects
