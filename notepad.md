@@ -61,7 +61,7 @@
 - **Sprout Tower vs. Gym:** Assumption: Sprout Tower is separate from the Gym. (Confirmed)
 - **MR. POKEMON's House Location:** Assumption: Located on Route 30. (Confirmed)
 
-### Sprout Tower 2F Pillar Puzzle
+### [ARCHIVED] Sprout Tower 2F Pillar Puzzle
 
 - **Untestable Hypotheses:**
   - A switch or path on the 3rd floor of Sprout Tower opens the western section of the 2nd floor.
@@ -99,7 +99,7 @@
   - **Test:** Opened Key Items pocket while facing the wall at (4, 1).
   - **Conclusion:** FAILED. The Key Items pocket is empty. Hypothesis is debunked.
 
-### Sprout Tower 2F Pillar Puzzle
+### [ARCHIVED] Sprout Tower 2F Pillar Puzzle
 
 - **Untestable Hypotheses:**
   - A switch or path on the 3rd floor of Sprout Tower opens the western section of the 2nd floor.
