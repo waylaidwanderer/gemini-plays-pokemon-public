@@ -79,7 +79,7 @@
   - The effect of interacting with the Sage at (12,3) is different depending on which adjacent tile the player stands on.
   - Stepping on a specific tile inside the temporarily passable central pillar triggers the opening of the western wall.
   - An NPC on the 1st floor has new dialogue or an item that allows passage after interacting with the Sage.
-  - The player must pass through the temporarily open central pillar from east to west to trigger the removal of the wall at x=4.
+
   - Interacting with the Sage from a different adjacent tile (e.g., from the south at (12, 4)) triggers the event.
   - Interacting with the Sage at (12, 3) multiple times in a row is required to trigger the event.
   - Interacting with the central pillar first, and then immediately interacting with the Sage at (12, 3), will trigger the event.
@@ -113,7 +113,7 @@
   - The effect of interacting with the Sage at (12,3) is different depending on which adjacent tile the player stands on.
   - Stepping on a specific tile inside the temporarily passable central pillar triggers the opening of the western wall.
   - An NPC on the 1st floor has new dialogue or an item that allows passage after interacting with the Sage.
-  - The player must pass through the temporarily open central pillar from east to west to trigger the removal of the wall at x=4.
+
   - Interacting with the Sage from a different adjacent tile (e.g., from the south at (12, 4)) triggers the event.
   - Interacting with the Sage at (12, 3) multiple times in a row is required to trigger the event.
   - Interacting with the central pillar first, and then immediately interacting with the Sage at (12, 3), will trigger the event.
