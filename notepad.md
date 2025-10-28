@@ -152,3 +152,5 @@
 ## New Discoveries & Ideas (from Reflection)
 - **STATUE**: Impassable background object. (Verified on Sprout Tower 3F)
 - **Tool Idea**: `find_next_closest_unseen_tile`. This tool would take a list of unseen tiles and a list of already-visited/failed tiles to find the next best exploration target, automating my current manual process.
+## Tasks from Overwatch Critique
+- Investigate traversability of FLOOR_UP_WALL tile type.
