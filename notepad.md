@@ -160,3 +160,6 @@
 - **Hypothesis:** Interacting with the Sage at (12, 3) from a different adjacent tile ((12, 4) instead of (11, 3)) will re-trigger the pillar event.
 - **Test:** Moved to (12, 4) and pressed 'A' while facing the Sage.
 - **Conclusion:** The Sage gave the same flavor dialogue as before. The pillar did not move. Hypothesis is DEBUNKED.
+
+## Future Agent Ideas (from reflection)
+- **performance_analyst:** An agent to analyze my recent turns and suggest improvements based on my core principles.
