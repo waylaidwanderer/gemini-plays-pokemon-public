@@ -76,26 +76,10 @@
 ## NPCs and Interactions
 - YOUNGSTER at (5, 18) in Violet City mentioned a 'wiggly tree' that 'squirms and dances'. This is likely a hint about how to interact with HEADBUTT_TREEs.
 
-## My Custom Tools & Agents
-### Custom Tools (Code)
-- `find_path_to_target`: A* pathfinding.
-- `find_reachable_unseen_tiles`: BFS to find unseen tiles.
-- `generate_nickname_inputs`: Automates nicknaming.
-- `find_next_closest_unseen_tile`: Finds the next-best unseen tile, excluding failed targets.
-- `systematic_search`: Generates a path to visit all reachable tiles.
-
-### Custom Agents (LLM)
-- `simple_battle_strategist`: Recommends actions in simple wild battles.
-- `notepad_refactor_assistant`: Takes a high-level refactoring goal and the current notepad content, then generates the precise 'new_text' for an 'overwrite' action in the `notepad_edit` tool to achieve the goal without losing critical information.
-
 ## Future Agent Ideas
 - **performance_analyst:** An agent to analyze my recent turns and suggest improvements based on my core principles.
 - **gym_prep_advisor:** An agent to help plan long-term goals, like what level my Pokemon should be for the next gym.
 - **pathfinder_diagnostician:** An agent to analyze the pathfinder's debug grid to suggest fixes or identify the cause of pathing failures.
-
-## New Discoveries & Ideas (from Reflection)
-- **STATUE**: Impassable background object. (Verified on Sprout Tower 3F)
-- **Tool Idea**: `find_next_closest_unseen_tile`. This tool would take a list of unseen tiles and a list of already-visited/failed tiles to find the next best exploration target, automating my current manual process.
 
 ## Tasks from Overwatch Critique
 - Investigate traversability of FLOOR_UP_WALL tile type.
@@ -141,7 +125,7 @@
 ### Sprout Tower 1F - Re-interaction Test
 - **Hypothesis (from Agent):** Talking to SAGE CHOW again after the battle will cause him to open the path.
 - **Test:** Interacted with SAGE CHOW at (3, 5).
-- **Conclusion:** The Sage gave flavor dialogue ("All living beings coexist through cooperation..."). The path did not open. Hypothesis is DEBUNKED.
+- **Conclusion:** The Sage gave flavor dialogue (\"All living beings coexist through cooperation...\"). The path did not open. Hypothesis is DEBUNKED.
 
 - **1F - Wall Switch Test:**
   - **Hypothesis (from Agent):** A hidden switch has appeared on the wall at x=4.
