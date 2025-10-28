@@ -53,18 +53,6 @@
 - **WINDOW**: Impassable. (Verified)
 - **FLOOR_UP_WALL**: Appears to be impassable. (Hypothesis, needs verification)
 
-## Puzzles, Hypotheses & Assumptions
-  - **Conclusion:** FAILED. No event triggered.
-  - **Test (Below):** Attempted to pathfind to (8, 6) to interact with the pillar from below, but the path was blocked.
-  - **Conclusion:** FAILED. The position is unreachable.
-  - **Test (Above):** Systematically interacted with the northern pillar walls at (8,4), (9,4), (10,4), and (11,4) from the tiles directly above them.
-  - **Conclusion:** FAILED. No event triggered at any of the four locations.
-- **Hypothesis 5: Adjacent tile is a pressure plate.**
-  - **Test:** Systematically walked over every reachable floor tile adjacent to the central pillar structure.
-  - **Conclusion:** FAILED. No event triggered.
-- **Hypothesis 6: Hidden item on the floor.**
-  - **Status:** PENDING. No tool currently exists to automate this search.
-
 ### Past Investigations & Solved Puzzles
 - **Fisher NPC Interaction Failure (New Bark Town):**
   - **Conclusion:** Moving NPCs can disrupt interactions. Stunning them first is a reliable solution.
