@@ -93,7 +93,7 @@
 ### Sprout Tower 2F Pillar Puzzle - Re-interaction Test
 - **Hypothesis:** Talking to the Sage at (12, 3) a second time will make the pillar move.
 - **Test:** Interacted with the Sage at (12, 3) after the pillar became solid again.
-- **Conclusion:** The Sage gave flavor dialogue ("The flexible pillar protects the TOWER..."). The pillar did not move. Hypothesis is DEBUNKED. The event is not repeatable by simple re-interaction.
+- **Conclusion:** The Sage gave flavor dialogue (\"The flexible pillar protects the TOWER...\"). The pillar did not move. Hypothesis is DEBUNKED. The event is not repeatable by simple re-interaction.
 
 ### Sprout Tower 2F Pillar Puzzle - Positional Interaction Test
 - **Hypothesis:** Interacting with the Sage at (12, 3) from a different adjacent tile ((12, 4) instead of (11, 3)) will re-trigger the pillar event.
@@ -137,7 +137,6 @@
 - **Hypothesis:** The `find_path_to_target` tool was broken because it failed to find a path to the Sage at (3, 5).
 - **Test:** Added a debug print to visualize the tool's internal traversability grid.
 - **Conclusion:** The tool is working correctly. The debug grid confirmed that a solid wall at x=4 divides the first floor into two unreachable sections. My fundamental understanding of the map was incorrect. The Sage at (3, 5) is unreachable from the eastern side of the tower.
-- **New Hypothesis:** Progress is gated by defeating the trainers on the eastern side of Sprout Tower 1F.
 
 ## Sprout Tower - Future Tasks
 - Unstun Sage (object ID 2) on Sprout Tower 1F before leaving the tower.
