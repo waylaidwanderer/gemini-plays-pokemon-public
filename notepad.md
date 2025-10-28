@@ -131,6 +131,8 @@
 ### Custom Agents (LLM)
 - `hypothesis_generator`
 - `simple_battle_strategist`
+- `hypothesis_generator`
+- `simple_battle_strategist`
 ## Future Agent Ideas
 - **pathing_assistant:** An agent to analyze a path and the current object list to identify potential blockages from moving NPCs.
 
