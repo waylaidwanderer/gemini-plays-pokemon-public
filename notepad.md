@@ -160,3 +160,8 @@ After exhausting all previous hypotheses, the `hypothesis_generator` provided th
 2. After interacting with the Sage at (12, 3) on 2F, an NPC on the 1st floor has new dialogue or an item that allows passage. (DEBUNKED - Spoke to all reachable NPCs on 1F, no new dialogue.) (DEBUNKED - Spoke to all reachable NPCs on 1F, no new dialogue.)
 3. The player must pass through the temporarily open central pillar from east to west to trigger the removal of the wall at x=4. (DEBUNKED - Walked from (11,3) to (7,3), wall at x=4 remains.)
 - **WARP_CARPET_DOWN**: Traversable, acts as a warp tile. (Verified)
+### Sprout Tower Puzzle - New Hypotheses (from Agent - Turn 3548)
+1. Interacting with the Sage from a different adjacent tile (e.g., from the south at (12, 4)) triggers the event.
+2. Interacting with the Sage at (12, 3) multiple times in a row is required to trigger the event.
+3. The dialogue from the Sage at (12, 3) contains a direct clue that has been missed.
+4. All other Sages on Sprout Tower 2F must be spoken to before the Sage at (12, 3) will trigger the event.
