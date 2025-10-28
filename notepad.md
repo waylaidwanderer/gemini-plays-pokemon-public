@@ -81,7 +81,7 @@
 - `find_path_to_target`: A* pathfinding.
 - `find_reachable_unseen_tiles`: BFS to find unseen tiles.
 - `generate_nickname_inputs`: Automates nicknaming.
-- `find_closest_unseen_tile`: Finds closest unseen tile from a list.
+- `find_next_closest_unseen_tile`: Finds the next-best unseen tile, excluding failed targets.
 - `systematic_search`: Generates a path to visit all reachable tiles.
 
 ### Custom Agents (LLM)

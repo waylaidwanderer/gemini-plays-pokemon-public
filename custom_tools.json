@@ -414,7 +414,7 @@
         "start_y"
       ]
     },
-    "python_script": "import xml.etree.ElementTree as ET\nimport json\nfrom collections import deque\n\ndef find_reachable_unseen(start_x, start_y, map_xml_string):\n    root = ET.fromstring(map_xml_string)\n    map_width = int(root.attrib['width'])\n    map_height = int(root.attrib['height'])\n\n    start_x_0, start_y_0 = start_x - 1, start_y - 1\n\n    if not (0 <= start_x_0 < map_width and 0 <= start_y_0 < map_height):\n        print(json.dumps([]))\n        return\n\n    impassable_tiles = {'WALL', 'CUT_TREE', 'HEADBUTT_TREE', 'WATER', 'PC', 'BOOKSHELF', 'COUNTER', 'MART_SHELF', 'RADIO', 'TOWN_MAP', 'TV', 'WINDOW', 'VOID'}\n    ledge_tiles = {'LEDGE_HOP_DOWN', 'LEDGE_HOP_RIGHT', 'LEDGE_HOP_LEFT'}\n\n    grid = [[{'type': 'unseen', 'seen': False, 'has_object': False} for _ in range(map_width)] for _ in range(map_height)]\n\n    for row_elem in root.findall('Row'):\n        y_1based = int(row_elem.attrib['id'])\n        y = y_1based - 1\n        for tile_elem in row_elem.findall('Tile'):\n            x_1based = int(tile_elem.attrib['id'])\n            x = x_1based - 1\n            if 0 <= x < map_width and 0 <= y < map_height:\n                grid[y][x]['type'] = tile_elem.attrib.get('type', 'unseen')\n                grid[y][x]['seen'] = tile_elem.attrib.get('seen') == 'true'\n                if tile_elem.find('Object') is not None:\n                    grid[y][x]['has_object'] = True\n\n    queue = deque([(start_x_0, start_y_0)])\n    visited = set([(start_x_0, start_y_0)])\n    reachable_unseen = []\n\n    while queue:\n        current_x, current_y = queue.popleft()\n\n        if not grid[current_y][current_x]['seen']:\n            unseen_coord = {'x': current_x + 1, 'y': current_y + 1}\n            if unseen_coord not in reachable_unseen:\n                reachable_unseen.append(unseen_coord)\n\n        for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n            neighbor_x, neighbor_y = current_x + dx, current_y + dy\n\n            if not (0 <= neighbor_x < map_width and 0 <= neighbor_y < map_height) or (neighbor_x, neighbor_y) in visited:\n                continue\n\n            current_type = grid[current_y][current_x]['type']\n            neighbor_type = grid[neighbor_y][neighbor_x]['type']\n\n            if neighbor_type in impassable_tiles or grid[neighbor_y][neighbor_x]['has_object']:\n                continue\n\n            if neighbor_type == 'LEDGE_HOP_RIGHT' and current_type not in ledge_tiles and dx != 1: continue\n            if neighbor_type == 'LEDGE_HOP_DOWN' and current_type not in ledge_tiles and dy != 1: continue\n            if neighbor_type == 'LEDGE_HOP_LEFT' and current_type not in ledge_tiles and dx != -1: continue\n            if current_type == 'LEDGE_HOP_RIGHT' and dx == -1: continue\n            if current_type == 'LEDGE_HOP_DOWN' and dy == -1: continue\n            if current_type == 'LEDGE_HOP_LEFT' and dx == 1: continue\n\n            visited.add((neighbor_x, neighbor_y))\n            queue.append((neighbor_x, neighbor_y))\n\n    print(json.dumps(reachable_unseen))\n\nstart_x_str = input_data['start_x']\nstart_y_str = input_data['start_y']\nstart_x = int(start_x_str)\nstart_y = int(start_y_str)\nfind_reachable_unseen(start_x, start_y, map_xml_string)\n",
+    "python_script": "import xml.etree.ElementTree as ET\nimport json\nfrom collections import deque\n\ndef find_reachable_unseen(start_x, start_y, map_xml_string):\n    root = ET.fromstring(map_xml_string)\n    map_width = int(root.attrib['width'])\n    map_height = int(root.attrib['height'])\n\n    start_x_0, start_y_0 = start_x - 1, start_y - 1\n\n    if not (0 <= start_x_0 < map_width and 0 <= start_y_0 < map_height):\n        print(json.dumps([]))\n        return\n\n    impassable_tiles = {'WALL', 'CUT_TREE', 'HEADBUTT_TREE', 'WATER', 'PC', 'BOOKSHELF', 'COUNTER', 'MART_SHELF', 'RADIO', 'TOWN_MAP', 'TV', 'WINDOW', 'VOID'}\n    ledge_tiles = {'LEDGE_HOP_DOWN', 'LEDGE_HOP_RIGHT', 'LEDGE_HOP_LEFT'}\n\n    grid = [[{'type': 'unseen', 'seen': False, 'has_object': False} for _ in range(map_width)] for _ in range(map_height)]\n\n    for row_elem in root.findall('Row'):\n        y_1based = int(row_elem.attrib['id'])\n        y = y_1based - 1\n        for tile_elem in row_elem.findall('Tile'):\n            x_1based = int(tile_elem.attrib['id'])\n            x = x_1based - 1\n            if 0 <= x < map_width and 0 <= y < map_height:\n                grid[y][x]['type'] = tile_elem.attrib.get('type', 'unseen')\n                grid[y][x]['seen'] = tile_elem.attrib.get('seen') == 'true'\n                if tile_elem.attrib.get('has-object') == 'true':\n                    grid[y][x]['has_object'] = True\n\n    queue = deque([(start_x_0, start_y_0)])\n    visited = set([(start_x_0, start_y_0)])\n    reachable_unseen = []\n\n    while queue:\n        current_x, current_y = queue.popleft()\n\n        if not grid[current_y][current_x]['seen']:\n            unseen_coord = {'x': current_x + 1, 'y': current_y + 1}\n            if unseen_coord not in reachable_unseen:\n                reachable_unseen.append(unseen_coord)\n\n        for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n            neighbor_x, neighbor_y = current_x + dx, current_y + dy\n\n            if not (0 <= neighbor_x < map_width and 0 <= neighbor_y < map_height) or (neighbor_x, neighbor_y) in visited:\n                continue\n\n            current_type = grid[current_y][current_x]['type']\n            neighbor_type = grid[neighbor_y][neighbor_x]['type']\n\n            if neighbor_type in impassable_tiles or grid[neighbor_y][neighbor_x]['has_object']:\n                continue\n\n            if neighbor_type == 'LEDGE_HOP_RIGHT' and current_type not in ledge_tiles and dx != 1: continue\n            if neighbor_type == 'LEDGE_HOP_DOWN' and current_type not in ledge_tiles and dy != 1: continue\n            if neighbor_type == 'LEDGE_HOP_LEFT' and current_type not in ledge_tiles and dx != -1: continue\n            if current_type == 'LEDGE_HOP_RIGHT' and dx == -1: continue\n            if current_type == 'LEDGE_HOP_DOWN' and dy == -1: continue\n            if current_type == 'LEDGE_HOP_LEFT' and dx == 1: continue\n\n            visited.add((neighbor_x, neighbor_y))\n            queue.append((neighbor_x, neighbor_y))\n\n    print(json.dumps(reachable_unseen))\n\nstart_x_str = input_data['start_x']\nstart_y_str = input_data['start_y']\nstart_x = int(start_x_str)\nstart_y = int(start_y_str)\nfind_reachable_unseen(start_x, start_y, map_xml_string)\n",
     "history": [
       {
         "commit_message": "feat: Create tool to find reachable unseen tiles. This tool addresses the system's sticky alert about potentially reachable unseen tiles. It performs a BFS from the player's position, respecting all traversal rules including ledges, to find all accessible tiles. It then identifies and returns a list of all unseen tiles adjacent to this accessible area, providing a reliable target list for exploration and preventing attempts to pathfind to unreachable locations.",
@@ -520,6 +520,11 @@
         "commit_message": "fix: Remove 'unseen' from impassable tiles. The tool was incorrectly treating unseen tiles as walls, preventing the BFS from exploring them and causing it to return false negatives. This change allows the BFS to correctly traverse into and identify reachable unseen areas, making the tool functional for its intended purpose.",
         "timestamp": "2025-10-28T19:47:37.491Z",
         "action_counter": 4184
+      },
+      {
+        "commit_message": "fix: Standardize object detection logic. The tool was using an outdated `tile_elem.find('Object')` check, causing it to contradict the `find_path_to_target` tool. This update aligns the logic with the more reliable `has-object` attribute check, ensuring consistent and accurate reachability analysis across all navigation tools.",
+        "timestamp": "2025-10-28T22:10:52.306Z",
+        "action_counter": 4454
       }
     ]
   },
@@ -553,36 +558,6 @@
         "commit_message": "fix: Correct keyboard layout and cursor logic. The tool's internal representation of the keyboard was incorrect, causing it to select the wrong characters. This update corrects the data structure to match the in-game layout and revises the cursor tracking logic to correctly assume the cursor moves to the opposite case-switch button after a change, improving accuracy.",
         "timestamp": "2025-10-27T20:39:29.714Z",
         "action_counter": 1741
-      }
-    ]
-  },
-  "find_closest_unseen_tile": {
-    "description": "Analyzes a JSON string list of unseen tiles and finds the one closest to the player's current position using Manhattan distance.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "player_x": {
-          "type": "string"
-        },
-        "player_y": {
-          "type": "string"
-        },
-        "unseen_tiles_json": {
-          "type": "string"
-        }
-      },
-      "required": [
-        "player_x",
-        "player_y",
-        "unseen_tiles_json"
-      ]
-    },
-    "python_script": "import json\n\nplayer_x = int(input_data['player_x'])\nplayer_y = int(input_data['player_y'])\nunseen_tiles_json = input_data['unseen_tiles_json']\n\nunseen_tiles = json.loads(unseen_tiles_json)\n\nif not unseen_tiles:\n    print(json.dumps({}))\nelse:\n    closest_tile = None\n    min_distance = float('inf')\n\n    for tile in unseen_tiles:\n        dist = abs(tile['x'] - player_x) + abs(tile['y'] - player_y)\n        if dist < min_distance:\n            min_distance = dist\n            closest_tile = tile\n\n    print(json.dumps(closest_tile))",
-    "history": [
-      {
-        "commit_message": "feat: Create tool to find closest unseen tile. This tool encapsulates the logic from a previous `run_code` script into a reusable function, as recommended by the Overwatch system. It takes player coordinates and a JSON list of unseen tiles, then calculates and returns the closest tile. This will streamline the exploration process by providing a clear, data-driven target.",
-        "timestamp": "2025-10-28T03:24:02.003Z",
-        "action_counter": 2554
       }
     ]
   },
@@ -629,6 +604,52 @@
         "commit_message": "fix: Add LADDER to impassable tiles. The tool was generating search paths that included warp tiles, causing the search to be interrupted unintentionally. This change prevents the tool from pathing over ladders, ensuring the systematic search of a single floor completes as intended.",
         "timestamp": "2025-10-28T17:25:18.100Z",
         "action_counter": 3936
+      }
+    ]
+  },
+  "find_next_closest_unseen_tile": {
+    "description": "Analyzes a JSON list of unseen tiles, finds the one closest to the player, excluding any tiles in a provided 'failed_tiles' list. Can also filter by direction.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "player_x": {
+          "type": "string"
+        },
+        "player_y": {
+          "type": "string"
+        },
+        "unseen_tiles_json": {
+          "type": "string"
+        },
+        "failed_tiles_json": {
+          "type": "string",
+          "description": "A JSON list of coordinates to exclude."
+        },
+        "direction_filter": {
+          "type": "string",
+          "enum": [
+            "north",
+            "south",
+            "east",
+            "west",
+            "none"
+          ],
+          "description": "Optional filter to only consider tiles in a specific direction relative to the player."
+        }
+      },
+      "required": [
+        "player_x",
+        "player_y",
+        "unseen_tiles_json",
+        "failed_tiles_json"
+      ]
+    },
+    "python_script": "import json\n\nplayer_x = int(input_data['player_x'])\nplayer_y = int(input_data['player_y'])\nunseen_tiles = json.loads(input_data['unseen_tiles_json'])\nfailed_tiles = json.loads(input_data['failed_tiles_json'])\ndirection_filter = input_data.get('direction_filter', 'none')\n\nfailed_coords = set((t['x'], t['y']) for t in failed_tiles)\n\nfiltered_tiles = []\nfor tile in unseen_tiles:\n    if (tile['x'], tile['y']) in failed_coords:\n        continue\n    \n    if direction_filter == 'north' and tile['y'] >= player_y:\n        continue\n    if direction_filter == 'south' and tile['y'] <= player_y:\n        continue\n    if direction_filter == 'east' and tile['x'] <= player_x:\n        continue\n    if direction_filter == 'west' and tile['x'] >= player_x:\n        continue\n        \n    filtered_tiles.append(tile)\n\nif not filtered_tiles:\n    print(json.dumps({}))\nelse:\n    closest_tile = None\n    min_distance = float('inf')\n\n    for tile in filtered_tiles:\n        dist = abs(tile['x'] - player_x) + abs(tile['y'] - player_y)\n        if dist < min_distance:\n            min_distance = dist\n            closest_tile = tile\n\n    print(json.dumps(closest_tile))",
+    "history": [
+      {
+        "commit_message": "feat: Create tool to find the next best exploration target. This tool, `find_next_closest_unseen_tile`, automates the process of selecting a new exploration target from a list of unseen tiles. It improves on the simple 'closest tile' approach by allowing the exclusion of previously failed targets and optional directional filtering. This prevents getting stuck in repetitive loops when faced with large obstacles, addressing a key failure point identified during the turn 4471 reflection.",
+        "timestamp": "2025-10-28T22:23:34.456Z",
+        "action_counter": 4473
       }
     ]
   }
