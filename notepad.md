@@ -109,5 +109,5 @@
 - My hypothesis that the Teacher's dialogue was a trigger was disproven by manual testing of the pillar wall. The pathfinder also shows no path. The overwatch system has flagged my pathfinder tool as potentially faulty. My highest priority is now to fix the tool before re-evaluating the path.
 ## Sprout Tower 1F Investigation Update (Turn 2853)
 - My hypothesis that the Teacher's dialogue was a trigger was disproven by manual testing of the pillar wall. The pathfinder also shows no path. The overwatch system has flagged my pathfinder tool as potentially faulty. My highest priority is now to fix the tool before re-evaluating the path.
-## Sprout Tower 1F Investigation Update (Turn 2854)
-- **CONCLUSION:** Confirmed trapped in central 1F. Pathfinder tool updated and verified the area is sealed. The path forward is on 2F.
+## Sprout Tower 1F Investigation Update
+- **CONCLUSION:** Confirmed trapped in central 1F. The path forward is on 2F.
