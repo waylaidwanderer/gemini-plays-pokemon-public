@@ -71,10 +71,6 @@
 - **CRITICAL HALLUCINATION (Turn 2886):** Believed I was on Sprout Tower 2F at (6, 4) when I was actually on Sprout Tower 1F at (6, 3).
 - **Pathfinder Tool Issue:** The pathfinder was flagged as faulty. I have since fixed it by adding dynamic debug prints to better diagnose future issues.
 
-### Sprout Tower Puzzle - New Hypotheses (from Agent)
-- **Hypothesis 1 (Agent):** A second Sage is hidden from view in a corner or behind the central pillar on 2F.
-- **Hypothesis 2 (Agent):** Using a specific Key Item from the inventory while facing the blocking wall at x=4 will open the path.
-- **Hypothesis 3 (Agent):** The way forward is dependent on the in-game time of day.
 - **Hypothesis 4 (Agent):** Defeating the Sage on 2F triggered a new event or NPC on 1F. (DEBUNKED)
 - **Hypothesis 5 (Agent):** One of the southern wall tiles of the central pillar is an interactable switch.
 
