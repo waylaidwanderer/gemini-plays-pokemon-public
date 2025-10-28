@@ -8,7 +8,6 @@
 ## General Discoveries
 - My biggest obstacle is my own memory. I must only trust in-game observation.
 - Stunning an NPC can break scripted events, causing dialogue loops.
-- The 'Poké Ball machine' was a hallucination.
 - The southern path on Route 29 is a dead end.
 - The western path on Route 29 is blocked by CUT_TREEs and HEADBUTT_TREEs.
 - Talking to Mom does NOT heal my Pokémon. This is a critical mechanic difference from other games.
@@ -16,11 +15,14 @@
 - Repeatedly interacting with an object (like a sign) without new results can lead to loops. I must dismiss dialogue before attempting to move.
 - The 'Select' button on the nicknaming screen toggles between uppercase and lowercase keyboards.
 
+## Future Agent Ideas
+- **puzzle_solver_assistant:** An agent to manage and prioritize hypotheses for complex puzzles.
+- **code_debugger:** An agent that takes code and an error message to suggest potential fixes.
+
 ## Game Mechanics & Systems
 *PC Storage*: Currently empty.
 
 ## Battle and Pokemon Information
-*My Party*: Ignis (QUILAVA) Lv14, Aether (PIDGEY) Lv3, EGG (TOGEPI) Lv5.
 *Ignis learned EMBER at Lv12.*
 *Type Effectiveness Chart*: Ground is super-effective against Fire. (Verified in battle vs Falkner's Pidgey's MUD-SLAP).
 
