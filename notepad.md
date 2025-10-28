@@ -89,10 +89,7 @@
 2. The interaction with the Sage at (12, 3) only makes the pillar passable during a specific time of day (e.g., night).
 3. The player must have a specific Pokémon in the first slot of their party when interacting with the Sage at (12, 3). (DEBUNKED - Switched lead to Aether, no effect.)
 4. The floor tiles in the room with the Sage at (12,3) contain a visual pattern or clue that needs to be followed or replicated.
-### Sprout Tower Puzzle - New Hypotheses (from Agent - Turn 3654)
-1. Defeating every Sage on the 2nd floor causes the central pillar to become passable.
-2. Exiting the 2nd floor (e.g., by going down to 1F) and then returning resets the pillar puzzle, allowing the Sage at (12, 3) to trigger it again.
-3. After the initial event, the trigger NPC changes; interacting with a different Sage on the 2nd floor now makes the pillar passable.
+
 - **CRITICAL HALLUCINATION (Turn 3658):** Believed I was on Sprout Tower 2F at (6, 4) after climbing a ladder, but was actually still on Sprout Tower 1F at (6, 3). This invalidated my entire plan.
 ### Sprout Tower Puzzle - New Hypotheses (from Agent - Turn 3673)
 1. The central pillar can be moved or made passable by interacting with it directly.
