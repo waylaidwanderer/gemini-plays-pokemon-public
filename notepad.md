@@ -97,3 +97,5 @@
   3. A path to the western section of 2F is accessed by first ascending to 3F and then taking a different ladder down.
 - **CRITICAL HALLUCINATION (Turn 2886):** Believed I was on Sprout Tower 2F at (6, 4) when I was actually on Sprout Tower 1F at (6, 3). All plans based on being on 2F were invalid. Corrected my position and plan based on the actual game state.
   3. The wall at x=4 contains a hidden or secret passage. **(Tested & Failed: Attempted to walk through the wall at (4, 3) and was blocked.)**
+- **Hypothesis (Pillar Interaction - Side):** Interacting with a solid wall of the pillar from an adjacent side tile will trigger an event. **(Tested & Failed: Attempted to interact with the wall at (8, 4) from (7, 4) and nothing happened.)**
+- **New Hypothesis (Pillar Interaction - Below):** The pillar is a switch that must be activated by standing on a tile directly below it and facing up, as per common interaction mechanics for special objects.
