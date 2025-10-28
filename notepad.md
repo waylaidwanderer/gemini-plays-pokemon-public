@@ -36,7 +36,7 @@
 - **DOOR**: Traversable, acts as a warp tile. (Verified)
 - **FLOOR**: Traversable. (Verified)
 - **HEADBUTT_TREE**: Impassable. (Verified by observation)
-- **LADDER**: Traversable warp. Must be activated by moving *onto* the tile from an adjacent tile, not by pressing 'A' while standing on it. (Verified by Overwatch critique)
+- **LADDER**: Traversable warp. Must be activated by moving *onto* the tile from an adjacent tile. Standing on the ladder and pressing A or a direction does nothing. (Verified by accidentally warping from 2F to 1F)
 - **LEDGE_HOP_DOWN/LEFT/RIGHT**: One-way traversal.
 - **LONG_GRASS**: Traversable, contains wild Pokémon. (Verified by encounters on Route 30)
 - **MART_SHELF**: Impassable. (Verified by pathfinder consistently treating it as a wall)
