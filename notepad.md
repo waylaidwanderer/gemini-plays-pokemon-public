@@ -105,8 +105,9 @@
 - Unstun Sage (object ID 2) on Sprout Tower 1F before leaving the tower.
 
 ## Debunked Hypotheses & Dead Ends
-### Fisher NPC Interaction Failure (New Bark Town)
-- **Conclusion:** Moving NPCs can disrupt interactions. Stunning them first is a reliable solution.
+### New Bark Town
+- **Fisher NPC Interaction Failure:**
+  - **Conclusion:** Moving NPCs can disrupt interactions. Stunning them first is a reliable solution.
 
 ### Sprout Tower 1F Pathing Failure Investigation
 - **Hypothesis:** The `find_path_to_target` tool was broken because it failed to find a path to the Sage at (3, 5).
