@@ -73,11 +73,7 @@
   - Defeating the Sage on 2F removes the wall at x=4.
   - An item or switch appeared on the tile where the Sage was defeated.
   - The defeated Sage must be spoken to again to open the path.
-  - The ladder at (6,4) is now the correct path forward.
-  - Walking into the central pillar on 2F will reveal a hidden path.
-  - Interacting with the northern wall tiles of the central pillar on 2F will trigger an event.
-  - The pillar on 1F, directly below the one on 2F, is now interactable or has changed.
-  - There is an interactable object elsewhere on 2F, such as a statue or pot, that controls the pillar.
+
   - Pressing 'interact' while facing the eastern wall of the pillar will cause it to move.
   - The pillar's 'flexible' nature means it can be pushed.
   - Examining the floor tiles directly adjacent to the pillar reveals a hidden switch.
@@ -117,11 +113,7 @@
   - Defeating the Sage on 2F removes the wall at x=4.
   - An item or switch appeared on the tile where the Sage was defeated.
   - The defeated Sage must be spoken to again to open the path.
-  - The ladder at (6,4) is now the correct path forward.
-  - Walking into the central pillar on 2F will reveal a hidden path.
-  - Interacting with the northern wall tiles of the central pillar on 2F will trigger an event.
-  - The pillar on 1F, directly below the one on 2F, is now interactable or has changed.
-  - There is an interactable object elsewhere on 2F, such as a statue or pot, that controls the pillar.
+
   - Pressing 'interact' while facing the eastern wall of the pillar will cause it to move.
   - The pillar's 'flexible' nature means it can be pushed.
   - Examining the floor tiles directly adjacent to the pillar reveals a hidden switch.
