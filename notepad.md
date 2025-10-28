@@ -170,3 +170,7 @@
 - **Hypothesis (from Agent):** An object in the western section of the room, such as a pillar or statue, became interactable after defeating SAGE CHOW.
 - **Test 1:** Stood at (3, 7) and pressed 'A' while facing the pillar at (3, 8).
 - **Conclusion:** No interaction occurred. Hypothesis is DEBUNKED for this specific pillar from this position.
+### Sprout Tower 1F - Interactable Object Test
+- **Hypothesis (from Agent):** An object in the western section of the room, such as a pillar or statue, became interactable after defeating SAGE CHOW.
+- **Test 2:** Stood at (2, 7) and pressed 'A' while facing the pillar at (2, 8).
+- **Conclusion:** No interaction occurred. Hypothesis is DEBUNKED for this specific pillar from this position.
