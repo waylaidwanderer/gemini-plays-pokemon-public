@@ -153,3 +153,8 @@
 - **Tool Idea**: `find_next_closest_unseen_tile`. This tool would take a list of unseen tiles and a list of already-visited/failed tiles to find the next best exploration target, automating my current manual process.
 ## Tasks from Overwatch Critique
 - Investigate traversability of FLOOR_UP_WALL tile type.
+
+### Sprout Tower 1F - Secret Path Investigation
+- **Hypothesis:** Defeating SAGE CHOW made the wall at (4, 6) passable.
+- **Test:** Attempted to walk right from (3, 6) into the wall at (4, 6).
+- **Conclusion:** Movement was blocked. The wall is still solid. Hypothesis is DEBUNKED.
