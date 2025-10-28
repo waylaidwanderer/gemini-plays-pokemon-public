@@ -149,3 +149,7 @@
 - **Hypothesis 3 (Agent):** The way forward is dependent on the in-game time of day.
 - **Hypothesis 4 (Agent):** Defeating the Sage on 2F triggered a new event or NPC on 1F.
 - **Hypothesis 5 (Agent):** One of the southern wall tiles of the central pillar is an interactable switch.
+### Sprout Tower Puzzle - Ladder Interaction
+- **Hypothesis:** Ladders must be interacted with from an adjacent tile, not by standing on them.
+  - **Test:** Move to (17, 4), face up towards the ladder at (17, 3), and press 'A'.
+  - **Conclusion:** PENDING
