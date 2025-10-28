@@ -98,3 +98,11 @@
   1. The pillar can be pushed by walking directly into it. (FAILED - Walking into the pillar at (11, 5) did not move it.)
   2. The pillar sways or moves in response to the player's movement, creating a temporary path.
   3. A specific tile on the floor adjacent to the pillar acts as a trigger when stepped on.
+
+## Sprout Tower Puzzle Update (Turn 2707)
+- **New Hypothesis:** The Sage's dialogue about the 'flexible pillar' was a trigger that has now made the pillar passable. My previous pathfinding attempts were made *before* this trigger.
+- **Corrected Hallucinations (Recent):**
+  - I hallucinated an exit warp on 2F (Turn 2704). The exit is on 1F.
+  - I hallucinated a path south of the pillar on 2F (Turn 2686). The pathfinder's debug output confirmed a WALL blocks it.
+  - I was on 1F when I thought I was on 2F (Turn 2667).
+- **Procedural Correction:** I will no longer use `overwrite` for large notepad edits. I will use `append` for new entries and focused `replace` for corrections to avoid data loss.
