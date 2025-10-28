@@ -66,22 +66,6 @@
 - **Untestable Hypotheses:**
   - A switch or path on the 3rd floor of Sprout Tower opens the western section of the 2nd floor.
   - All other trainers on Sprout Tower 2F must be defeated before the Sage at (12, 3) will trigger the event again.
-- **Debunked Hypotheses:**
-  
-  - Defeating the Sage on 2F removes the wall at x=4.
-  - An item or switch appeared on the tile where the Sage was defeated.
-
-  - Pressing 'interact' while facing the eastern wall of the pillar will cause it to move.
-  - The pillar's 'flexible' nature means it can be pushed.
-  - Examining the floor tiles directly adjacent to the pillar reveals a hidden switch.
-  - The wall blocking the western section is an illusion or has a hidden switch.
-  - The effect of interacting with the Sage at (12,3) is different depending on which adjacent tile the player stands on.
-  - Stepping on a specific tile inside the temporarily passable central pillar triggers the opening of the western wall.
-  - An NPC on the 1st floor has new dialogue or an item that allows passage after interacting with the Sage.
-
-  - Interacting with the Sage from a different adjacent tile (e.g., from the south at (12, 4)) triggers the event.
-  - Interacting with the Sage at (12, 3) multiple times in a row is required to trigger the event.
-  - Interacting with the central pillar first, and then immediately interacting with the Sage at (12, 3), will trigger the event.
 
 ### Corrected Misunderstandings
 - The 'Poké Ball machine' in Elm's lab was a hallucination.
@@ -99,22 +83,6 @@
 - **Untestable Hypotheses:**
   - A switch or path on the 3rd floor of Sprout Tower opens the western section of the 2nd floor.
   - All other trainers on Sprout Tower 2F must be defeated before the Sage at (12, 3) will trigger the event again.
-- **Debunked Hypotheses:**
-  
-  - Defeating the Sage on 2F removes the wall at x=4.
-  - An item or switch appeared on the tile where the Sage was defeated.
-
-  - Pressing 'interact' while facing the eastern wall of the pillar will cause it to move.
-  - The pillar's 'flexible' nature means it can be pushed.
-  - Examining the floor tiles directly adjacent to the pillar reveals a hidden switch.
-  - The wall blocking the western section is an illusion or has a hidden switch.
-  - The effect of interacting with the Sage at (12,3) is different depending on which adjacent tile the player stands on.
-  - Stepping on a specific tile inside the temporarily passable central pillar triggers the opening of the western wall.
-  - An NPC on the 1st floor has new dialogue or an item that allows passage after interacting with the Sage.
-
-  - Interacting with the Sage from a different adjacent tile (e.g., from the south at (12, 4)) triggers the event.
-  - Interacting with the Sage at (12, 3) multiple times in a row is required to trigger the event.
-  - Interacting with the central pillar first, and then immediately interacting with the Sage at (12, 3), will trigger the event.
 
 ## Future Agent Ideas (from reflection)
 - **performance_analyst:** An agent to analyze my recent turns and suggest improvements based on my core principles.
