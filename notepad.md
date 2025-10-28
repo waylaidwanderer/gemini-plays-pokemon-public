@@ -142,3 +142,6 @@
 1. The central pillar can be moved or made passable by interacting with it directly.
 2. The Sage at (12, 3) will make the pillar passable if spoken to from a different adjacent tile, such as from the north (12, 2) or south (12, 4).
 3. A hidden switch exists on the floor in the accessible eastern area which, when activated, makes the pillar passable.
+
+## System Limitations
+- The system's character loss threshold prevents the full removal of the duplicated archived notepad section, despite multiple attempts to comply with the Overwatch critique. Concluding this task is impossible and moving on.
