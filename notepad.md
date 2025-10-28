@@ -113,3 +113,8 @@
 - **Hypothesis 3 (Agent): I must defeat every Sage on 2F in a battle to open the path.**
   - **Test:** Find and defeat all Sages on the floor.
   - **Conclusion:** PENDING
+### Sprout Tower Puzzle 2 - New Hypotheses (from Agent)
+- **Hypothesis 1 (Agent):** Another section of the central pillar is now passable or interactable.
+- **Hypothesis 2 (Agent):** An NPC on 2F has new dialogue that provides a clue.
+- **Hypothesis 3 (Agent):** The blocking wall at x=4 is an illusion and can be walked through.
+- **Hypothesis 4 (Agent):** Interacting with a scenery object is the trigger.
