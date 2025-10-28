@@ -165,3 +165,7 @@ After exhausting all previous hypotheses, the `hypothesis_generator` provided th
 2. Interacting with the Sage at (12, 3) multiple times in a row is required to trigger the event. (DEBUNKED - Repeated interaction yielded the same result).
 3. The dialogue from the Sage at (12, 3) contains a direct clue that has been missed.
 4. All other Sages on Sprout Tower 2F must be spoken to before the Sage at (12, 3) will trigger the event.
+### Sprout Tower Puzzle - New Hypotheses (from Agent - Turn 3556)
+1. All other trainers on Sprout Tower 2F must be defeated before the Sage at (12, 3) will trigger the event again.
+2. Interacting with the central pillar first, and then immediately interacting with the Sage at (12, 3), will trigger the event.
+3. The wall tile directly behind the Sage at (12, 3) has a hidden switch or is interactable.
