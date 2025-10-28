@@ -95,7 +95,7 @@
 - **MR. POKEMON's House Location:**
   - **Assumption:** Located on Route 30. **(Confirmed)**
 
-## Corrected Misunderstandings
+### Corrected Misunderstandings
 - The 'Poké Ball machine' in Elm's lab was a hallucination.
 - Hallucinated a warp at (9, 35) on Route 30. There is no warp there.
 - Hallucinated a warp at (13, 9) on Route 30. The actual house entrance is at (17, 5).
@@ -115,9 +115,10 @@
   - **Conclusion:** PENDING
 ### Sprout Tower Puzzle 2 - New Hypotheses (from Agent)
 - **Hypothesis 1 (Agent):** Another section of the central pillar is now passable or interactable.
+  - **Test:** Walked into pillar at (8, 5). **Conclusion: FAILED.**
 - **Hypothesis 2 (Agent):** An NPC on 2F has new dialogue that provides a clue.
 - **Hypothesis 3 (Agent):** The blocking wall at x=4 is an illusion and can be walked through.
+  - **Test 1:** Attempted to walk through the wall at (4, 5). **Conclusion: FAILED.**
+  - **Test 2:** Attempt to walk through wall at (4, 3). **Conclusion: PENDING.**
 - **Hypothesis 4 (Agent):** Interacting with a scenery object is the trigger.
-- **Hypothesis (Agent): The blocking wall at x=4 is an illusion.**
-  - **Test:** Attempted to walk through the wall at (4, 5).
-  - **Conclusion:** FAILED. The wall is solid.
+  - **Test:** Interacted with pillar at (8, 5). **Conclusion: FAILED.**
