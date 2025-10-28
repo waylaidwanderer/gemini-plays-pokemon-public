@@ -103,3 +103,9 @@ After exhausting all previous hypotheses, the `hypothesis_generator` provided th
 ## Future Agent Ideas (from reflection)
 - **performance_analyst:** An agent to analyze my recent turns and suggest improvements based on my core principles.
 - **gym_prep_advisor:** An agent to help plan long-term goals, like what level my Pokemon should be for the next gym.
+
+### Sprout Tower Puzzle - New Hypotheses (from Agent - Turn 3301)
+1.  Pressing the 'interact' button while facing the eastern wall of the pillar will cause it to move.
+2.  The pillar's 'flexible' nature means it can be pushed by walking into it for a sustained period of time.
+3.  Speaking to all NPCs on the floor again will reveal a new hint about how to pass the pillar.
+4.  Examining the floor tiles directly adjacent to the pillar reveals a hidden switch.
