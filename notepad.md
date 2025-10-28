@@ -24,6 +24,7 @@
 
 ## Battle and Pokemon Information
 *Ignis learned EMBER at Lv12.*
+*Ignis grew to Lv15 after defeating a wild Gastly.*
 *Type Effectiveness Chart*: Ground is super-effective against Fire. (Verified in battle vs Falkner's Pidgey's MUD-SLAP).
 
 ## Area and Navigation Insights
@@ -125,11 +126,8 @@
 - **Test 1:** Interact with the pillar wall at (8, 4) from the tile above it (8, 3).
 - **Conclusion:** FAILED. No event triggered.
 - **Test 2:** Interact with the pillar wall at (9, 4) from the tile above it (9, 3).
-- **Conclusion:** PENDING
-
-### Sprout Tower Puzzle - Systematic Pillar Test
-- **Hypothesis:** One of the northern pillar wall tiles (y=4) is an interactable switch.
-- **Test 1:** Interact with the pillar wall at (8, 4) from the tile above it (8, 3).
 - **Conclusion:** FAILED. No event triggered.
-- **Test 2:** Interact with the pillar wall at (9, 4) from the tile above it (9, 3).
+- **Test 3:** Interact with the pillar wall at (10, 4) from the tile above it (10, 3).
+- **Conclusion:** FAILED. No event triggered.
+- **Test 4:** Interact with the pillar wall at (11, 4) from the tile above it (11, 3).
 - **Conclusion:** PENDING
