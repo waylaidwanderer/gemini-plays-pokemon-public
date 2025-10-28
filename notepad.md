@@ -152,4 +152,4 @@
 ### Sprout Tower Puzzle - Ladder Interaction
 - **Hypothesis:** Ladders must be interacted with from an adjacent tile, not by standing on them.
   - **Test:** Move to (17, 4), face up towards the ladder at (17, 3), and press 'A'.
-  - **Conclusion:** PENDING
+  - **Conclusion:** SUCCESS. This triggered the warp back to 2F, confirming this is the correct interaction method for this type of ladder.
