@@ -85,3 +85,7 @@
 - **Hypothesis:** Ladders must be interacted with from an adjacent tile, not by standing on them.
   - **Test:** Move to (17, 4), face up towards the ladder at (17, 3), and press 'A'.
   - **Conclusion:** SUCCESS. This triggered the warp back to 2F, confirming this is the correct interaction method for this type of ladder.
+
+## Overwatch Critique & Process Correction (Turn 3214)
+- **Issue:** Severe loop of failed `notepad_edit` calls due to imprecise `old_text`. Poor notepad organization and failure to mark a critical scripted warp.
+- **Correction:** I will prioritize data management. I am abandoning complex `replace` edits in favor of safer `append` or more targeted `replace` actions. All critical discoveries, like scripted warps, will be marked immediately. This section will serve as a reminder of my commitment to a more disciplined process.
