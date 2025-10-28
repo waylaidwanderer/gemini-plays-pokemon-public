@@ -138,8 +138,6 @@
 - **performance_analyst:** An agent to analyze my recent turns and suggest improvements based on my core principles.
 - **gym_prep_advisor:** An agent to help plan long-term goals, like what level my Pokemon should be for the next gym.
 
-### Sprout Tower Puzzle - SOLVED!
-- **Solution:** Stand on the tile at (11, 3) and interact with the Sage at (12, 3). This triggers a scripted event that makes the central pillar passable, allowing access to the western side of the floor.
 ## NPCs and Interactions
 - YOUNGSTER at (5, 18) in Violet City mentioned a 'wiggly tree' that 'squirms and dances'. This is likely a hint about how to interact with HEADBUTT_TREEs.
 
