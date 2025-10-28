@@ -114,3 +114,6 @@
 ### Sprout Tower 1F Investigation (Post-2F Sage Defeat)
 - **New Discovery:** Spoke to the Granny at (11, 12). She said, "A BELLSPROUT over 100 feet tall… People say that it became the center pillar here."
 - **New Hypothesis:** The central pillar is a giant BELLSPROUT. The puzzle on 2F is likely related to this fact, possibly requiring a specific Pokémon or item related to BELLSPROUT.
+
+## 7. Full Tool & Agent List (Per Overwatch)
+- **Missing from previous list:** `delete_agent`, `define_tool`, `delete_tool`.
