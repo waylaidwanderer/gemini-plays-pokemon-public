@@ -153,3 +153,7 @@
 - **Hypothesis (from Agent):** There is a hidden pressure plate or floor switch somewhere on 2F that moves the pillar when stepped on.
 - **Test:** Systematically walked over every accessible tile on the eastern side of the floor.
 - **Conclusion:** No interaction occurred. Hypothesis is DEBUNKED.
+### Sprout Tower Pillar Puzzle - Interactable Object Test
+- **Hypothesis (from Agent):** One of the other objects on 2F, such as a different, non-central pillar or a statue, is an interactable switch.
+- **Test 1:** Stood at (7, 4) and pressed 'A' facing the wall at (8, 4).
+- **Conclusion:** No interaction occurred. Hypothesis is DEBUNKED for this specific wall segment.
