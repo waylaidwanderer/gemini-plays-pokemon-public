@@ -81,6 +81,6 @@
 ### Sprout Tower Puzzle - New Hypotheses (from Agent - Turn 3252)
 After exhausting all previous hypotheses, the `hypothesis_generator` provided the following new ideas:
 1.  **Defeating the Sage on 2F removes the wall at x=4.** (FAILED. The wall is still impassable.)
-2.  An item or switch appeared on the tile where the Sage was defeated.
+2.  An item or switch appeared on the tile where the Sage was defeated. (Testing by pressing A on (9, 3))
 3.  The defeated Sage must be spoken to again to open the path.
 4.  The ladder at (6,4) is now the correct path forward.
