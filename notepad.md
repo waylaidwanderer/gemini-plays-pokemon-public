@@ -45,8 +45,16 @@
 - **VOID**: Impassable. (Verified)
 - **WALL**: Impassable. (Verified)
 - **WARP_CARPET_DOWN**: Traversable, acts as a warp tile. (Verified)
-- **WATER**: Impassable without a specific ability (like Surf). (Hypothesis, needs verification by attempting to walk on it)
+- **WATER**: Impassable. (Verified by failed pathing attempts)
 - **WINDOW**: Impassable. (Verified)
+- **FLOOR_UP_WALL**: Appears to be impassable. (Hypothesis, needs verification)
+
+## Puzzles & Hypotheses
+
+### Sprout Tower Location
+- **Assumption:** Sprout Tower is located in the large, unexplored northern section of Violet City.
+- **Alternative Hypothesis:** The tower might be in a different part of the city, or on a previous route blocked by an obstacle I couldn't pass before (like a CUT tree).
+- **Test:** If a thorough exploration of the northern area doesn't reveal the tower, I will systematically re-explore all other paths in Violet City and the connecting routes (30, 31).
 
 ## Puzzles & Hypotheses
 - **Fisher NPC Interaction Failure (New Bark Town):**
