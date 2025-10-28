@@ -144,3 +144,7 @@
 
 ## Future Agent Ideas
 - **notepad_refactor_assistant:** An agent that takes a high-level goal (e.g., "remove duplicates of section X") and generates the precise `replace` action to prevent errors during manual cleanup.
+
+## New Discoveries & Ideas (from Reflection)
+- **STATUE**: Impassable background object. (Verified on Sprout Tower 3F)
+- **Tool Idea**: `find_next_closest_unseen_tile`. This tool would take a list of unseen tiles and a list of already-visited/failed tiles to find the next best exploration target, automating my current manual process.
