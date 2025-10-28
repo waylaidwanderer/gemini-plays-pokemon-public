@@ -58,6 +58,29 @@
 - **Test:** Used `find_path_to_target` to plot a course through the pillar's location after speaking to the Sage.
 - **Conclusion:** The pathfinder successfully found a route, confirming the hypothesis. Speaking to the Sage at (12, 3) makes the pillar at x=11 passable.
 
+### Sprout Tower Puzzle - Investigation Log
+- **Hypothesis 1: Path to Western 2F is on 1F.**
+  - **Test:** Traveled to 1F to find a path to the unreachable ladder at (2, 6).
+  - **Conclusion:** FAILED. Pathfinder confirmed no route exists from the central section of 1F.
+- **Hypothesis 2: Path to Western 2F is via 3F.**
+  - **Test:** Took the ladder at (17, 3) on 2F, expecting it to lead to 3F.
+  - **Conclusion:** FAILED. The ladder led down to an isolated, dead-end section of 1F.
+- **Hypothesis 3: Secret Passage in Wall at x=4.**
+  - **Test:** Attempted to walk through the wall at (4, 3) on 2F.
+  - **Conclusion:** FAILED. The wall is solid.
+- **Hypothesis 4: Pillar is an interactable switch.**
+  - **Test (Side):** Interacted with the pillar wall at (8, 4) from the side at (7, 4).
+  - **Conclusion:** FAILED. No event triggered.
+  - **Test (Below):** Attempted to pathfind to (8, 6) to interact with the pillar from below, but the path was blocked.
+  - **Conclusion:** FAILED. The position is unreachable.
+  - **Test (Above):** Systematically interacted with the northern pillar walls at (8,4), (9,4), (10,4), and (11,4) from the tiles directly above them.
+  - **Conclusion:** FAILED. No event triggered at any of the four locations.
+- **Hypothesis 5: Adjacent tile is a pressure plate.**
+  - **Test:** Systematically walked over every reachable floor tile adjacent to the central pillar structure.
+  - **Conclusion:** FAILED. No event triggered.
+- **Hypothesis 6: Hidden item on the floor.**
+  - **Status:** In progress. Automating search with `systematic_search` tool.
+
 ### Past Investigations & Solved Puzzles
 - **Fisher NPC Interaction Failure (New Bark Town):**
   - **Conclusion:** Moving NPCs can disrupt interactions. Stunning them first is a reliable solution.
@@ -76,30 +99,6 @@
 - The 'Poké Ball machine' in Elm's lab was a hallucination.
 - Hallucinated a warp at (9, 35) on Route 30. There is no warp there.
 - Hallucinated a warp at (13, 9) on Route 30. The actual house entrance is at (17, 5).
-- **CRITICAL HALLUCINATION (Turn 2667):** Believed I was on Sprout Tower 2F at (17, 3) when I was actually on Sprout Tower 1F at (17, 2). All plans based on being on 2F were invalid. Corrected my position and plan based on the actual game state.
+- **CRITICAL HALLUCINATION (Turn 2667):** Believed I was on Sprout Tower 2F at (17, 3) when I was actually on Sprout Tower 1F at (17, 2).
+- **CRITICAL HALLUCINATION (Turn 2886):** Believed I was on Sprout Tower 2F at (6, 4) when I was actually on Sprout Tower 1F at (6, 3).
 - **Pathfinder Tool Issue:** The pathfinder was flagged as faulty. I have since fixed it by adding dynamic debug prints to better diagnose future issues.
-
-## NPCs and Interactions
-- An Officer in the Route 31 Gatehouse mentioned visiting SPROUT TOWER.
-- An NPC in a house on Route 30 mentioned that Berries can be found by checking trees.
-
-## Item Effects
-- **PRZCUREBERRY**: Cures paralysis. (Hypothesis based on name)
-
-## Sprout Tower 1F Investigation
-- **CONCLUSION:** Confirmed trapped in central 1F section. The path forward must be on a different floor.
-
-## Sprout Tower 2F Investigation
-- **CONCLUSION:** The western section of 2F is inaccessible from the central or eastern sections on this floor.
-- **Hypotheses (from Agent):**
-  1. A staircase or ladder on 1F leads up to the western section of 2F. **(Tested & Failed: The western ladder on 1F at (2, 6) is unreachable from the central section.)**
-  2. The wall at x=4 contains a hidden or secret passage.
-  3. A path to the western section of 2F is accessed by first ascending to 3F and then taking a different ladder down.
-- **CRITICAL HALLUCINATION (Turn 2886):** Believed I was on Sprout Tower 2F at (6, 4) when I was actually on Sprout Tower 1F at (6, 3). All plans based on being on 2F were invalid. Corrected my position and plan based on the actual game state.
-  3. The wall at x=4 contains a hidden or secret passage. **(Tested & Failed: Attempted to walk through the wall at (4, 3) and was blocked.)**
-- **Hypothesis (Pillar Interaction - Side):** Interacting with a solid wall of the pillar from an adjacent side tile will trigger an event. **(Tested & Failed: Attempted to interact with the wall at (8, 4) from (7, 4) and nothing happened.)**
-- **New Hypothesis (Pillar Interaction - Below):** The pillar is a switch that must be activated by standing on a tile directly below it and facing up, as per common interaction mechanics for special objects.
-- **New Hypothesis (Pillar Interaction - Above):** Interacting with the pillar from above triggers an event. (Tested & Failed: Attempted to interact with the wall at (8, 4) from (8, 3), (9, 4) from (9, 3), (10, 4) from (10, 3), and (11, 4) from (11, 3). Nothing happened.) **(Tested & Failed: Attempted to interact with the wall at (8, 4) from (8, 3), (9, 4) from (9, 3), and (10, 4) from (10, 3). Nothing happened.)**
-  2. Defeating all trainers on 2F reveals the path forward.
-  3. Stepping on a specific tile adjacent to the central pillar triggers an event.
-  4. A different section of the wall on 2F contains a hidden passage.
