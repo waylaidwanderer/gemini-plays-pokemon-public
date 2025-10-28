@@ -213,7 +213,7 @@
 - **Test 2:** Moved from (38, 25) to (39, 25). **Conclusion:** Failed.
 - **Hypothesis 3:** The warp is triggered by moving onto the upper tile (39, 24) from the left.
 - **Test 3:** Moved from (38, 24) to (39, 24). **Conclusion:** Failed.
-- **Agent Hypothesis 1:** The warp is triggered by moving onto the lower tile (39, 25) from below.
+- **Agent Hypothesis 1:** The warp is triggered by moving onto the lower tile (39, 25) from below. (DEBUNKED - Cannot access the tile at (39, 26) as it is a WALL.)
 - **Agent Hypothesis 2 (Invalid):** The warp is triggered by moving from (40, 25) to (39, 25). (This is impossible as (40, 25) is a WALL.)
 - **Agent Hypothesis 3:** The warp is triggered by pressing 'A' on tile (39, 25).
 - **Agent Hypothesis 4:** The warp is triggered by pressing 'A' on tile (38, 25) while facing right.
