@@ -95,3 +95,7 @@ After exhausting all previous hypotheses, the `hypothesis_generator` provided th
   - **Test:** Moved to (8, 6) and interacted with the wall at (9, 6).
   - **Conclusion:** FAILED. Nothing happened. Hypothesis is debunked.
 4.  There is an interactable object elsewhere on 2F, such as a statue or pot, that controls the pillar.
+
+## Future Agent Ideas (from reflection)
+- **performance_analyst:** An agent to analyze my recent turns and suggest improvements based on my core principles.
+- **gym_prep_advisor:** An agent to help plan long-term goals, like what level my Pokemon should be for the next gym.
