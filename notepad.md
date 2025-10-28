@@ -61,12 +61,6 @@
 - **Sprout Tower vs. Gym:** Assumption: Sprout Tower is separate from the Gym. (Confirmed)
 - **MR. POKEMON's House Location:** Assumption: Located on Route 30. (Confirmed)
 
-### [ARCHIVED] Sprout Tower 2F Pillar Puzzle
-
-- **Untestable Hypotheses:**
-  - A switch or path on the 3rd floor of Sprout Tower opens the western section of the 2nd floor.
-  - All other trainers on Sprout Tower 2F must be defeated before the Sage at (12, 3) will trigger the event again.
-
 ### Corrected Misunderstandings
 - The 'Poké Ball machine' in Elm's lab was a hallucination.
 - Hallucinated a warp at (9, 35) on Route 30. There is no warp there.
@@ -77,12 +71,6 @@
 
 - **Hypothesis 4 (Agent):** Defeating the Sage on 2F triggered a new event or NPC on 1F. (DEBUNKED)
 - **Hypothesis 5 (Agent):** One of the southern wall tiles of the central pillar is an interactable switch.
-
-### [ARCHIVED] Sprout Tower 2F Pillar Puzzle
-
-- **Untestable Hypotheses:**
-  - A switch or path on the 3rd floor of Sprout Tower opens the western section of the 2nd floor.
-  - All other trainers on Sprout Tower 2F must be defeated before the Sage at (12, 3) will trigger the event again.
 
 ## Future Agent Ideas (from reflection)
 - **performance_analyst:** An agent to analyze my recent turns and suggest improvements based on my core principles.
