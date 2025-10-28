@@ -153,10 +153,7 @@
 - **Hypothesis 2 (Agent): The wall is an illusion or has a hidden switch.**
   - **Test:** Moved to (5, 3), faced left towards the wall at (4, 3), and pressed 'A'.
   - **Conclusion:** FAILED. No interaction occurred. Hypothesis is debunked.
-### Sprout Tower Puzzle - New Hypotheses (from Agent - Turn 3411)
-1. A switch or path on the 3rd floor of Sprout Tower opens the western section of the 2nd floor.
-2. Stepping on a specific tile inside the temporarily passable central pillar triggers the opening of the western wall.
-3. The effect of interacting with the Sage at (12,3) is different depending on which adjacent tile the player stands on. (DEBUNKED - Interaction from (12, 2) yielded the same result as (11, 3)).
+
 ### Sprout Tower Puzzle - New Hypotheses (from Agent - Turn 3461)
 1. Defeating all Sages in the accessible area of 2F will cause the wall at x=4 to be removed.
 2. After interacting with the Sage at (12, 3) on 2F, an NPC on the 1st floor has new dialogue or an item that allows passage. (DEBUNKED - Spoke to all reachable NPCs on 1F, no new dialogue.) (DEBUNKED - Spoke to all reachable NPCs on 1F, no new dialogue.)
