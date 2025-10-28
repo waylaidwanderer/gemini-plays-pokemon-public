@@ -122,6 +122,7 @@
   - **Test:** Interacted with pillar at (8, 5). **Conclusion: FAILED.**
 
 ### Sprout Tower Puzzle - Systematic Pillar Test
+### Sprout Tower Puzzle - Systematic Pillar Test
 - **Hypothesis:** One of the northern pillar wall tiles (y=4) is an interactable switch.
 - **Test 1:** Interact with the pillar wall at (8, 4) from the tile above it (8, 3).
 - **Conclusion:** FAILED. No event triggered.
@@ -131,4 +132,5 @@
 - **Conclusion:** FAILED. No event triggered.
 - **Test 4:** Interact with the pillar wall at (11, 4) from the tile above it (11, 3).
 - **Conclusion:** FAILED. No event triggered.
+- **Overall Conclusion:** This hypothesis is debunked. The northern pillar wall is not interactable.
 - **Overall Conclusion:** This hypothesis is debunked. The northern pillar wall is not interactable.
