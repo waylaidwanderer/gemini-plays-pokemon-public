@@ -114,10 +114,10 @@
 - **Test:** Added a debug print to visualize the tool's internal traversability grid.
 - **Conclusion:** The tool is working correctly. The debug grid confirmed that a solid wall at x=4 divides the first floor into two unreachable sections. My fundamental understanding of the map was incorrect. The Sage at (3, 5) is unreachable from the eastern side of the tower.
 
-### Sprout Tower 1F Investigation
-- **Hypothesis:** Defeating the Sage on 2F would change the dialogue of the Sage at (7, 4) on 1F.
-- **Test:** Spoke to the Sage at (7, 4) after returning from 2F.
-- **Conclusion:** Dialogue was unchanged. Hypothesis is DEBUNKED.
+- **1F Investigation:**
+  - **Hypothesis:** Defeating the Sage on 2F would change the dialogue of the Sage at (7, 4) on 1F.
+  - **Test:** Spoke to the Sage at (7, 4) after returning from 2F.
+  - **Conclusion:** Dialogue was unchanged. Hypothesis is DEBUNKED.
 
 ### Sprout Tower 1F - Secret Path Investigation
 - **Hypothesis:** Defeating SAGE CHOW made the wall at (4, 6) passable.
