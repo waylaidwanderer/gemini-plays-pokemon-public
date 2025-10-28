@@ -1,8 +1,9 @@
-## Discoveries & Lessons Learned
-- Deferring tasks, like placing map markers, is a process violation. Significant events must be documented *immediately* in the turn they occur.
-- My `simple_battle_strategist` agent is underutilized and I will prioritize using it for all future wild battles to automate decision-making.
-- When stuck for more than 5 turns on a puzzle, I must use the `hypothesis_generator` agent.
-- Always check for existing map markers before creating a new one to avoid duplicates.
+## Core Principles & Lessons Learned
+- **IMMEDIATE ACTION:** I must perform tasks like placing markers, updating my notepad, and fixing tools *immediately*. Deferring tasks, like placing map markers, is a process violation. Significant events must be documented *immediately* in the turn they occur.
+- **AGENT USAGE:** When stuck for more than 5 turns on a puzzle, I must use the `hypothesis_generator` agent. My `simple_battle_strategist` agent is underutilized and I will prioritize using it for all future wild battles to automate decision-making.
+- **PUZZLE DOCUMENTATION:** My entire problem-solving process (observation, hypothesis, test, conclusion) for any puzzle must be documented in this notepad as it happens.
+- **MAP MARKER DISCIPLINE:** I must always check for existing map markers before creating a new one to avoid duplicates.
+- **TOOL MAINTENANCE:** I must NEVER defer fixing a broken tool or agent. It is always the highest priority, overriding any in-game objective.
 
 ## General Discoveries
 - My biggest obstacle is my own memory. I must only trust in-game observation.
@@ -33,9 +34,7 @@
 - **FLOOR**: Traversable. (Verified)
 - **HEADBUTT_TREE**: Impassable. (Verified by observation)
 - **LADDER**: Traversable, acts as a warp tile. (Verified)
-- **LEDGE_HOP_DOWN**: One-way ledge. Can only be traversed by moving down onto it. (Verified)
-- **LEDGE_HOP_LEFT**: One-way ledge. Can only be traversed by moving left onto it. (Verified)
-- **LEDGE_HOP_RIGHT**: One-way ledge. Can only be traversed by moving right onto it. (Verified)
+- **LEDGE_HOP_DOWN/LEFT/RIGHT**: One-way traversal.
 - **LONG_GRASS**: Traversable, contains wild Pokémon. (Verified by encounters on Route 30)
 - **MART_SHELF**: Impassable. (Verified by pathfinder consistently treating it as a wall)
 - **PC**: Impassable. Interacting from an adjacent tile can trigger events. (Verified)
@@ -46,23 +45,25 @@
 - **TV**: Impassable. (Verified)
 - **VOID**: Impassable. (Verified)
 - **WALL**: Impassable. (Verified)
-- **WARP_CARPET_DOWN**: Traversable, acts as a warp tile. (Verified)
+- **WARP_CARPET_DOWN/RIGHT**: Traversable warp.
 - **WATER**: Impassable. (Verified by failed pathing attempts)
 - **WINDOW**: Impassable. (Verified)
 - **FLOOR_UP_WALL**: Appears to be impassable. (Hypothesis, needs verification)
-- **WARP_CARPET_RIGHT**: Traversable, acts as a warp tile. (Verified)
 
 ## Puzzles, Hypotheses & Assumptions
 
-### Current Investigations
-- **Sprout Tower Navigation:**
-  - **Observation:** Sprout Tower's lower floors are divided by a central pillar, creating an eastern and western section.
-  - **Hypothesis 1:** The path to the third floor is on the eastern side of the tower.
-  - **Test 1:** Attempted to find a path from the eastern ladder on 2F to the western side. Used pathfinder multiple times.
-  - **Conclusion 1:** FAILED. No path exists across the 2F from the east side. The eastern section is a dead end for upward progression.
-  - **Hypothesis 2:** I must exit the tower from the eastern section of 1F and re-enter to find a new path.
-  - **Test 2:** Attempted to find a path from the eastern section of 1F to the main tower exit.
-  - **Conclusion 2:** FAILED. No path exists from the eastern 1F section to the main exit.
+### Current Investigation: Sprout Tower Navigation
+- **Problem:** I am trapped in the eastern sections of Sprout Tower 1F and 2F. There is no visible path to the western sections or the main tower exit from these areas.
+- **Failed Hypotheses Log:**
+  1. The path to 3F is on the eastern side of 2F. (FAILED)
+  2. A direct path exists across 2F from east to west. (FAILED)
+  3. I must exit the tower from the eastern 1F section. (FAILED)
+  4. The central pillar is interactive. (FAILED)
+  5. A path exists on 1F to cross from east to west. (FAILED)
+- **Current Hypotheses (from Agent):**
+  1. An NPC in the eastern sections must be defeated/spoken to, creating a path.
+  2. There is a hidden switch/object on the eastern side of 2F.
+  3. A wall in the eastern sections is a secret passage.
 
 ### Past Investigations & Solved Puzzles
 - **Fisher NPC Interaction Failure (New Bark Town):**
@@ -82,9 +83,6 @@
 - The 'Poké Ball machine' in Elm's lab was a hallucination.
 - Hallucinated a warp at (9, 35) on Route 30. There is no warp there.
 - Hallucinated a warp at (13, 9) on Route 30. The actual house entrance is at (17, 5).
-
-## Core Principles & Lessons Learned
-- I must NEVER defer fixing a broken tool or agent. It is always the highest priority, overriding any in-game objective.
 
 ## NPCs and Interactions
 - An Officer in the Route 31 Gatehouse mentioned visiting SPROUT TOWER.
