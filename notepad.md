@@ -97,15 +97,61 @@
 - **Test:** Spoke to the Sage at (7, 4) after returning from 2F.
 - **Conclusion:** Dialogue was unchanged. Hypothesis is DEBUNKED.
 
-## 7. Full Tool & Agent List (Per Overwatch)
-- **Missing from previous list:** `delete_agent`, `define_tool`, `delete_tool`.
+## 7. Full Tool & Agent List
+### Built-in Tools
+- `notepad_edit`
+- `run_code`
+- `define_map_marker`
+- `delete_map_marker`
+- `stun_npc`
+- `select_battle_option`
+
+### Management Tools
+- `define_agent`
+- `delete_agent`
+- `define_tool`
+- `delete_tool`
+
+### Custom Tools (Code)
+- `find_path_to_target`
+- `find_reachable_unseen_tiles`
+- `generate_nickname_inputs`
+- `find_closest_unseen_tile`
+- `systematic_search`
+
+### Custom Agents (LLM)
+- `hypothesis_generator`
+- `simple_battle_strategist`
 ### Sprout Tower 2F Pillar Puzzle - Direct Interaction Test
 - **Hypothesis (from Agent):** Interacting directly with the pillar wall from an adjacent tile will trigger an event.
 - **Test:** Systematically pressed 'A' while facing the pillar from every accessible adjacent tile on the eastern side of the floor ((7,4), (7,5), (8,3), (9,3), (10,3), (11,3)).
 - **Conclusion:** No interaction occurred. Hypothesis is DEBUNKED for the eastern side of the pillar.
 
-## 7. Full Tool & Agent List (Per Overwatch)
-- **Missing from previous list:** `delete_agent`, `define_tool`, `delete_tool`.
+## 7. Full Tool & Agent List
+### Built-in Tools
+- `notepad_edit`
+- `run_code`
+- `define_map_marker`
+- `delete_map_marker`
+- `stun_npc`
+- `select_battle_option`
+
+### Management Tools
+- `define_agent`
+- `delete_agent`
+- `define_tool`
+- `delete_tool`
+
+### Custom Tools (Code)
+- `find_path_to_target`
+- `find_reachable_unseen_tiles`
+- `generate_nickname_inputs`
+- `find_closest_unseen_tile`
+- `systematic_search`
+
+### Custom Agents (LLM)
+- `hypothesis_generator`
+- `simple_battle_strategist`
 ### Sprout Tower 2F Pillar Puzzle - Re-interaction Test
 - **Hypothesis:** Talking to the Sage at (12, 3) a second time will make the pillar move.
 - **Test:** Interacted with the Sage at (12, 3) after the pillar became solid again.
