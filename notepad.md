@@ -106,3 +106,6 @@
 ### Sprout Tower Puzzle Update (Turn 2795)
 - **Agent Hypothesis 1 (2F):** Interacting with the central pillar on 2F will open a path. (FAILED - Pressing 'A' on the pillar wall at (8, 4) had no effect.)
 - **Testing Agent Hypothesis 2 (2F):** Stepping on a specific tile at the base of the pillar will trigger it.
+
+## Sprout Tower 1F Investigation Update (Turn 2810)
+- I am currently trapped in the central section. Re-interviewing NPCs to test if solving the 2F puzzle triggered a change.
