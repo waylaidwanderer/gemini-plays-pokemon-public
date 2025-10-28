@@ -96,11 +96,6 @@
 2. The Sage at (12, 3) will make the pillar passable if spoken to from a different adjacent tile, such as from the north (12, 2) or south (12, 4).
 3. A hidden switch exists on the floor in the accessible eastern area which, when activated, makes the pillar passable.
 
-### Sprout Tower 2F Pillar Puzzle - Post-Exploration
-- **Hypothesis:** Exiting the 2nd floor and then returning resets the pillar puzzle, allowing the Sage at (12, 3) to trigger it again.
-- **Test:** Returned to 2F from 1F and interacted with the Sage at (12, 3).
-- **Conclusion:** The Sage provided different dialogue ("The flexible pillar protects the TOWER, even from earthquakes.") and the pillar did not become passable. Hypothesis is DEBUNKED.
-
 ### Sprout Tower Puzzle - New Hypotheses (from Agent - Turn 3791)
 1. Talking to the defeated Sage at (12, 3) again will re-trigger the event. (DEBUNKED - Gave new dialogue, but no effect.)
 2. A different Sage in the accessible eastern area must also be defeated. (Untestable - No other Sages visible.)
