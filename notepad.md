@@ -136,11 +136,6 @@
 ## Future Agent Ideas (from reflection)
 - **pathfinder_diagnostician:** An agent to analyze the pathfinder's debug grid to suggest fixes or identify the cause of pathing failures.
 
-### Sprout Tower Puzzle - Testing
-- **Hypothesis 2 (Agent): The wall is an illusion or has a hidden switch.**
-  - **Test:** Moved to (5, 3), faced left towards the wall at (4, 3), and pressed 'A'.
-  - **Conclusion:** FAILED. No interaction occurred. Hypothesis is debunked.
-
 - **WARP_CARPET_DOWN**: Traversable, acts as a warp tile. (Verified)
 
 ### Sprout Tower Puzzle - New Hypotheses (from Agent - Turn 3590)
