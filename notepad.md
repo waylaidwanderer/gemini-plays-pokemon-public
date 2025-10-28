@@ -74,9 +74,6 @@
 - **Hypothesis 4 (Agent):** Defeating the Sage on 2F triggered a new event or NPC on 1F. (DEBUNKED)
 - **Hypothesis 5 (Agent):** One of the southern wall tiles of the central pillar is an interactable switch.
 
-## Overwatch Critique & Process Correction (Turn 3214)
-- **Issue:** Severe loop of failed `notepad_edit` calls due to imprecise `old_text`. Poor notepad organization and failure to mark a critical scripted warp.
-- **Correction:** I will prioritize data management. I am abandoning complex `replace` edits in favor of safer `append` or more targeted `replace` actions. All critical discoveries, like scripted warps, will be marked immediately. This section will serve as a reminder of my commitment to a more disciplined process.
 - **Hypothesis 2 (Agent): Use Key Item on wall.**
   - **Test:** Opened Key Items pocket while facing the wall at (4, 1).
   - **Conclusion:** FAILED. The Key Items pocket is empty. Hypothesis is debunked.
