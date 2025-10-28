@@ -97,9 +97,6 @@
 - **Test:** Spoke to the Sage at (7, 4) after returning from 2F.
 - **Conclusion:** Dialogue was unchanged. Hypothesis is DEBUNKED.
 
-## System Limitations
-- The notepad_edit tool's 'replace' and 'overwrite' actions are non-functional for large-scale cleanup due to either character limits or an inability to find specified text. Concluding that the overwatch request to clean the duplicated sections is impossible due to tool limitations. Moving on.
-
 ## 7. Full Tool & Agent List (Per Overwatch)
 - **Missing from previous list:** `delete_agent`, `define_tool`, `delete_tool`.
 ### Sprout Tower 2F Pillar Puzzle - Direct Interaction Test
