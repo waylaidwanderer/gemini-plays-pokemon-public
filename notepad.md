@@ -155,3 +155,7 @@ After exhausting all previous hypotheses, the `hypothesis_generator` provided th
 1. A switch or path on the 3rd floor of Sprout Tower opens the western section of the 2nd floor.
 2. Stepping on a specific tile inside the temporarily passable central pillar triggers the opening of the western wall.
 3. The effect of interacting with the Sage at (12,3) is different depending on which adjacent tile the player stands on. (DEBUNKED - Interaction from (12, 2) yielded the same result as (11, 3)).
+### Sprout Tower Puzzle - New Hypotheses (from Agent - Turn 3461)
+1. Defeating all Sages in the accessible area of 2F will cause the wall at x=4 to be removed.
+2. After interacting with the Sage at (12, 3) on 2F, an NPC on the 1st floor has new dialogue or an item that allows passage.
+3. The player must pass through the temporarily open central pillar from east to west to trigger the removal of the wall at x=4.
