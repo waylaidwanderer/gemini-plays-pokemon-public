@@ -311,5 +311,31 @@
         "action_counter": 2554
       }
     ]
+  },
+  "systematic_search": {
+    "description": "Performs a systematic search of all reachable tiles from a starting position. It uses BFS to find all accessible tiles and then generates an efficient path to visit each one, intended for finding hidden items.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "start_x": {
+          "type": "string"
+        },
+        "start_y": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "start_x",
+        "start_y"
+      ]
+    },
+    "python_script": "import xml.etree.ElementTree as ET\nimport json\nfrom collections import deque\n\ndef systematic_search(start_x, start_y, map_xml_string):\n    root = ET.fromstring(map_xml_string)\n    map_width = int(root.attrib['width'])\n    map_height = int(root.attrib['height'])\n\n    impassable_tiles = {'WALL', 'CUT_TREE', 'HEADBUTT_TREE', 'WATER', 'PC', 'BOOKSHELF', 'COUNTER', 'MART_SHELF', 'RADIO', 'TOWN_MAP', 'TV', 'WINDOW', 'VOID', 'unseen'}\n    ledge_tiles = {'LEDGE_HOP_DOWN', 'LEDGE_HOP_RIGHT', 'LEDGE_HOP_LEFT'}\n\n    grid = [[{'type': 'unseen', 'has_object': False} for _ in range(map_width + 1)] for _ in range(map_height + 1)]\n\n    for row_elem in root.findall('Row'):\n        y = int(row_elem.attrib['id'])\n        for tile_elem in row_elem.findall('Tile'):\n            x = int(tile_elem.attrib['id'])\n            grid[y][x]['type'] = tile_elem.attrib.get('type', 'unseen')\n            if tile_elem.find('Object') is not None:\n                grid[y][x]['has_object'] = True\n\n    queue = deque([(start_x, start_y)])\n    visited = set([(start_x, start_y)])\n    reachable_tiles = []\n\n    while queue:\n        current_x, current_y = queue.popleft()\n        reachable_tiles.append({'x': current_x, 'y': current_y})\n\n        for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n            neighbor_x, neighbor_y = current_x + dx, current_y + dy\n\n            if not (0 <= neighbor_x <= map_width and 0 <= neighbor_y <= map_height):\n                continue\n            \n            if (neighbor_x, neighbor_y) in visited:\n                continue\n\n            current_type = grid[current_y][current_x]['type']\n            neighbor_type = grid[neighbor_y][neighbor_x]['type']\n\n            if neighbor_type in impassable_tiles or grid[neighbor_y][neighbor_x]['has_object']:\n                continue\n\n            if neighbor_type == 'LEDGE_HOP_RIGHT' and current_type not in ledge_tiles and dx != 1: continue\n            if neighbor_type == 'LEDGE_HOP_DOWN' and current_type not in ledge_tiles and dy != 1: continue\n            if neighbor_type == 'LEDGE_HOP_LEFT' and current_type not in ledge_tiles and dx != -1: continue\n            if current_type == 'LEDGE_HOP_RIGHT' and dx == -1: continue\n            if current_type == 'LEDGE_HOP_DOWN' and dy == -1: continue\n            if current_type == 'LEDGE_HOP_LEFT' and dx == 1: continue\n\n            visited.add((neighbor_x, neighbor_y))\n            queue.append((neighbor_x, neighbor_y))\n    \n    # Generate a path to visit all reachable tiles. This is a simple sequential path.\n    path = []\n    if not reachable_tiles:\n        print(json.dumps([]))\n        return\n\n    path.append(reachable_tiles[0])\n    for i in range(1, len(reachable_tiles)):\n        path.append(reachable_tiles[i])\n\n    print(json.dumps(path))\n\nstart_x = int(input_data['start_x'])\nstart_y = int(input_data['start_y'])\nsystematic_search(start_x, start_y, map_xml_string)",
+    "history": [
+      {
+        "commit_message": "feat: Create tool to automate systematic searching. This tool finds all reachable tiles from a starting point using BFS and generates a path to visit each one. This automates the tedious and error-prone process of manually searching for hidden items, addressing a key reflection point.",
+        "timestamp": "2025-10-28T06:46:15.882Z",
+        "action_counter": 2963
+      }
+    ]
   }
 }
