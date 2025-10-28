@@ -60,8 +60,25 @@
 - **Building Identification (Violet City):** Assumption: Building at (21, 29) was the Gym. (Confirmed to be a house with a trade NPC)
 - **Sprout Tower vs. Gym:** Assumption: Sprout Tower is separate from the Gym. (Confirmed)
 - **MR. POKEMON's House Location:** Assumption: Located on Route 30. (Confirmed)
-- **Sprout Tower Puzzle - Ladder Interaction:** Hypothesis: Ladders must be interacted with from an adjacent tile, not by standing on them. Test: Move to (17, 4), face up towards the ladder at (17, 3), and press 'A'. Conclusion: SUCCESS. This triggered the warp back to 2F, confirming this is the correct interaction method for this type of ladder.
-- **Sprout Tower Puzzle - 1F Sage Interaction:** Hypothesis (from Agent): Defeating the Sage on 2F triggered a new event or NPC on 1F. Test: Spoke to the Sage at (7, 4) on 1F. Conclusion: FAILED. The Sage repeated his original dialogue about the HM. This hypothesis is debunked.
+
+### Sprout Tower Puzzle - Consolidated Hypotheses
+- **SOLUTION:** Stand on the tile at (11, 3) and interact with the Sage at (12, 3). This triggers a scripted event that makes the central pillar passable, allowing access to the central section of the floor.
+- **Hypothesis 1: Use Key Item on wall.** (DEBUNKED)
+- **Hypothesis 2: Defeating the Sage on 2F removes the wall at x=4.** (DEBUNKED)
+- **Hypothesis 3: An item or switch appeared on the tile where the Sage was defeated.** (DEBUNKED)
+- **Hypothesis 4: The defeated Sage must be spoken to again to open the path.** (DEBUNKED)
+- **Hypothesis 5: The ladder at (6,4) is now the correct path forward.** (DEBUNKED - leads back to 1F)
+- **Hypothesis 6: Walking into the central pillar on 2F will reveal a hidden path.** (DEBUNKED)
+- **Hypothesis 7: Interacting with the northern wall tiles of the central pillar on 2F will trigger an event.** (DEBUNKED)
+- **Hypothesis 8: The pillar on 1F, directly below the one on 2F, is now interactable or has changed.** (DEBUNKED)
+- **Hypothesis 9: There is an interactable object elsewhere on 2F, such as a statue or pot, that controls the pillar.** (DEBUNKED - No other interactable objects found)
+- **Hypothesis 10: Pressing 'interact' while facing the eastern wall of the pillar will cause it to move.** (DEBUNKED)
+- **Hypothesis 11: The pillar's 'flexible' nature means it can be pushed.** (DEBUNKED)
+- **Hypothesis 12: Examining the floor tiles directly adjacent to the pillar reveals a hidden switch.** (DEBUNKED)
+- **Hypothesis 13: The wall blocking the western section is an illusion or has a hidden switch.** (DEBUNKED)
+- **Hypothesis 14: The effect of interacting with the Sage at (12,3) is different depending on which adjacent tile the player stands on.** (DEBUNKED - Interaction from (12, 2) yielded the same result as (11, 3)).
+- **Hypothesis 15: A switch or path on the 3rd floor of Sprout Tower opens the western section of the 2nd floor.** (ACTIVE)
+- **Hypothesis 16: Stepping on a specific tile inside the temporarily passable central pillar triggers the opening of the western wall.** (ACTIVE)
 
 ### Corrected Misunderstandings
 - The 'Poké Ball machine' in Elm's lab was a hallucination.
