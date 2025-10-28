@@ -139,21 +139,6 @@
   - **Hypothesis (from Agent):** A hidden item or switch appeared in the western section after defeating SAGE CHOW.
   - **Conclusion:** Systematically interacting with the floor and the Sage's original tile yielded no results. Hypothesis is DEBUNKED.
 
-### Violet City Gatehouse Warp Puzzle
-- **Observation:** A 1x2 warp at (39, 24) and (39, 25) with type `WARP_CARPET_RIGHT` is not activating. It is the only exit to Route 31 on the eastern side of the city.
-- **Hypothesis 1:** The warp is triggered by moving onto the lower tile (39, 25) from above.
-- **Test 1:** Moved from (39, 24) to (39, 25). **Conclusion:** Failed.
-- **Hypothesis 2:** The warp is triggered by moving onto the lower tile (39, 25) from the left.
-- **Test 2:** Moved from (38, 25) to (39, 25). **Conclusion:** Failed.
-- **Hypothesis 3:** The warp is triggered by moving onto the upper tile (39, 24) from the left.
-- **Test 3:** Moved from (38, 24) to (39, 24). **Conclusion:** Failed.
-- **Agent Hypothesis 1:** The warp is triggered by moving onto the lower tile (39, 25) from below. (DEBUNKED - Cannot access the tile at (39, 26) as it is a WALL.)
-- **Agent Hypothesis 2 (Invalid):** The warp is triggered by moving from (40, 25) to (39, 25). (This is impossible as (40, 25) is a WALL.)
-- **Agent Hypothesis 3:** The warp is triggered by pressing 'A' on tile (39, 25).
-- **Test 3:** Stood on (39, 25) and pressed 'A'. **Conclusion:** Failed. No interaction occurred. Hypothesis is DEBUNKED.
-- **Agent Hypothesis 4:** The warp is triggered by pressing 'A' on tile (38, 25) while facing right.
-- **Test 4:** Stood at (38, 25) and pressed 'A' while facing right. **Conclusion:** Failed due to a position hallucination (I was actually at (39, 25)). No interaction occurred. Hypothesis is DEBUNKED. All simple hypotheses for this warp have now failed.
-
 ### Violet City Gatehouse Warp - Investigation Conclusion
 - **Status:** Currently impassable.
 - **Summary:** All simple hypotheses for activating the warp at (39, 24) and (39, 25) have been tested and have failed. This includes entering from multiple directions, moving between the two warp tiles, and attempting to interact from an adjacent tile. Repeated position hallucinations have compromised testing, but the consistent failure suggests an unknown condition is blocking this path.
