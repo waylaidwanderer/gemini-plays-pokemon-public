@@ -111,18 +111,6 @@
   - **Test:** Find and defeat all Sages on the floor.
   - **Conclusion:** PENDING
 
-### Sprout Tower Puzzle - Systematic Pillar Test
-### Sprout Tower Puzzle - Systematic Pillar Test
-- **Hypothesis:** One of the northern pillar wall tiles (y=4) is an interactable switch.
-- **Test 1:** Interact with the pillar wall at (8, 4) from the tile above it (8, 3).
-### Sprout Tower Puzzle - Systematic Pillar Test
-- **Hypothesis:** One of the northern pillar wall tiles (y=4) is an interactable switch.
-- **Test 1:** Interact with the pillar wall at (8, 4) from the tile above it (8, 3).
-
-- **Overall Conclusion:** This hypothesis is debunked. The northern pillar wall is not interactable.
-- **Hypothesis 7: Hidden item in isolated 1F area.**
-  - **Test:** Attempted systematic search of all tiles.
-  - **Conclusion:** FAILED. Search was interrupted by a scripted event that returned me to 2F, confirming the area is a dead end. The tile at (17, 4) on 2F is the trigger for this event.
 ### Sprout Tower Puzzle - New Hypotheses (from Agent)
 - **Hypothesis 1 (Agent):** A second Sage is hidden from view in a corner or behind the central pillar on 2F.
 - **Hypothesis 2 (Agent):** Using a specific Key Item from the inventory while facing the blocking wall at x=4 will open the path.
