@@ -118,3 +118,11 @@
   - **Observation:** Standing on the `WARP_CARPET_DOWN` tiles at (3,7) or (4,7) and pressing A/Down or moving from the side did not work.
   - **Conclusion:** The warp was triggered by moving *down* onto tile (3,7) from (3,6). The tile name was misleading.
 - **Type Effectiveness Discovery:** Ground is super-effective against Fire. (Verified in battle vs Falkner's Pidgey's MUD-SLAP).
+
+## Recent Discoveries & Updates (Post-Falkner)
+- **Party Update:** Ignis evolved into QUILAVA at Lv14. My party now includes an EGG.
+- **Item Acquisition:** Received the EGG from Prof. Elm's assistant in the Violet City Pokémon Center. I need to call Prof. Elm when it hatches.
+- **Puzzle Solution: Violet City Pokémon Center Exit:**
+  - **Observation:** Standing on the `WARP_CARPET_DOWN` tiles at (3,7) or (4,7) and pressing A/Down or moving from the side did not work.
+  - **Conclusion:** The warp was triggered by moving *down* onto tile (3,7) from (3,6). The tile name was misleading.
+- **Type Effectiveness Discovery:** Ground is super-effective against Fire. (Verified in battle vs Falkner's Pidgey's MUD-SLAP).
