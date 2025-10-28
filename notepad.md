@@ -67,7 +67,7 @@
   - A switch or path on the 3rd floor of Sprout Tower opens the western section of the 2nd floor.
   - All other trainers on Sprout Tower 2F must be defeated before the Sage at (12, 3) will trigger the event again.
 - **Debunked Hypotheses:**
-  - Use Key Item on wall.
+  
   - Defeating the Sage on 2F removes the wall at x=4.
   - An item or switch appeared on the tile where the Sage was defeated.
 
@@ -100,7 +100,7 @@
   - A switch or path on the 3rd floor of Sprout Tower opens the western section of the 2nd floor.
   - All other trainers on Sprout Tower 2F must be defeated before the Sage at (12, 3) will trigger the event again.
 - **Debunked Hypotheses:**
-  - Use Key Item on wall.
+  
   - Defeating the Sage on 2F removes the wall at x=4.
   - An item or switch appeared on the tile where the Sage was defeated.
 
