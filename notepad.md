@@ -129,33 +129,15 @@
 - **Test:** Spoke to the Cooltrainer.
 - **Conclusion:** He only provided generic advice. The path remains blocked. Hypothesis is DEBUNKED.
 
-### Sprout Tower Pillar Puzzle Tests
-- **Hypothesis 4 (Agent):** Defeating the Sage on 2F triggered a new event or NPC on 1F. (DEBUNKED)
-- **Hypothesis 5 (Agent):** One of the southern wall tiles of the central pillar is an interactable switch.
-- **Direct Interaction Test:**
-  - **Hypothesis (from Agent):** Interacting directly with the pillar wall from an adjacent tile will trigger an event.
-  - **Test:** Systematically pressed 'A' while facing the pillar from every accessible adjacent tile on the eastern side of the floor ((7,4), (7,5), (8,3), (9,3), (10,3), (11,3)).
-  - **Conclusion:** No interaction occurred. Hypothesis is DEBUNKED for the eastern side of the pillar.
-- **Re-interaction Test:**
-  - **Hypothesis:** Talking to the Sage at (12, 3) a second time will make the pillar move.
-  - **Test:** Interacted with the Sage at (12, 3) after the pillar became solid again.
-  - **Conclusion:** The Sage gave flavor dialogue ("The flexible pillar protects the TOWER..."). The pillar did not move. Hypothesis is DEBUNKED. The event is not repeatable by simple re-interaction.
-- **Positional Interaction Test:**
-  - **Hypothesis:** Interacting with the Sage at (12, 3) from a different adjacent tile ((12, 4) instead of (11, 3)) will re-trigger the pillar event.
-  - **Test:** Moved to (12, 4) and pressed 'A' while facing the Sage.
-  - **Conclusion:** The Sage gave the same flavor dialogue as before. The pillar did not move. Hypothesis is DEBUNKED.
-- **Repeat Interaction Test:**
-  - **Hypothesis:** Re-interacting with the Sage at (12, 3) from the original trigger spot (11, 3) will repeat the event.
-  - **Test:** Stood at (11, 3) and talked to the Sage.
-  - **Conclusion:** The Sage gave flavor dialogue. The pillar did not move. Hypothesis is DEBUNKED.
-- **Pressure Plate Test:**
-  - **Hypothesis (from Agent):** There is a hidden pressure plate or floor switch somewhere on 2F that moves the pillar when stepped on.
-  - **Test:** Systematically walked over every accessible tile on the eastern side of the floor.
-  - **Conclusion:** No interaction occurred. Hypothesis is DEBUNKED.
-- **Interactable Object Test:**
-  - **Hypothesis (from Agent):** One of the other objects on 2F, such as a different, non-central pillar or a statue, is an interactable switch.
-  - **Test 1:** Stood at (7, 4) and pressed 'A' facing the wall at (8, 4).
-  - **Conclusion:** No interaction occurred. Hypothesis is DEBUNKED for this specific wall segment.
+- **Pillar Puzzle Tests (2F):**
+  - **Hypothesis 4 (Agent):** Defeating the Sage on 2F triggered a new event or NPC on 1F. (DEBUNKED)
+  - **Hypothesis 5 (Agent):** One of the southern wall tiles of the central pillar is an interactable switch. (DEBUNKED)
+  - **Direct Interaction Test:** Interacting directly with the pillar wall from an adjacent tile will trigger an event. (DEBUNKED for eastern side)
+  - **Re-interaction Test:** Talking to the Sage at (12, 3) a second time will make the pillar move. (DEBUNKED)
+  - **Positional Interaction Test:** Interacting with the Sage at (12, 3) from a different adjacent tile will re-trigger the pillar event. (DEBUNKED)
+  - **Repeat Interaction Test:** Re-interacting with the Sage at (12, 3) from the original trigger spot (11, 3) will repeat the event. (DEBUNKED)
+  - **Pressure Plate Test:** There is a hidden pressure plate on 2F. (DEBUNKED for eastern side)
+  - **Interactable Object Test:** Another object on 2F is an interactable switch. (DEBUNKED for wall segment at (8,4))
 
 ### Sprout Tower 1F - Re-interaction Test
 - **Hypothesis (from Agent):** Talking to SAGE CHOW again after the battle will cause him to open the path.
