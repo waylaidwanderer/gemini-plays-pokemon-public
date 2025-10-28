@@ -54,12 +54,6 @@
 
 ## Puzzles, Hypotheses & Assumptions
 
-### Solved: Sprout Tower 2F Pillar Puzzle
-- **Observation:** A central pillar on 2F blocked access between the eastern and central sections.
-- **Hypothesis (from Sage dialogue):** The Sage's dialogue about the 'flexible pillar' was a trigger that has now made the pillar passable.
-- **Test:** Used `find_path_to_target` to plot a course through the pillar's location after speaking to the Sage.
-- **Conclusion:** The pathfinder successfully found a route, confirming the hypothesis. Speaking to the Sage at (12, 3) makes the pillar at x=11 passable.
-
 ### Sprout Tower Puzzle - Investigation Log
 - **Hypothesis 1: Path to Western 2F is on 1F.**
   - **Test:** Traveled to 1F to find a path to the unreachable ladder at (2, 6).
