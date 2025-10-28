@@ -182,3 +182,7 @@
 - **Hypothesis (from Agent):** A hidden switch has appeared on the wall at x=4.
 - **Test 3:** Stood at (3, 4) and pressed 'A' facing the wall at (4, 4).
 - **Conclusion:** No interaction occurred. Hypothesis is DEBUNKED for this specific wall segment.
+### Sprout Tower 1F - Hidden Item Test
+- **Hypothesis (from Agent):** A hidden item appeared on the tile where SAGE CHOW was standing (3, 5) after he was defeated.
+- **Test:** Stood at (3, 4) and pressed 'A' while facing the tile at (3, 5).
+- **Conclusion:** Interaction only triggered the Sage's post-battle dialogue. Hypothesis is DEBUNKED.
