@@ -100,9 +100,6 @@
 ## Sprout Tower Exploration Notes
 - Unmarked warp detected on 2F at (2, 6). Need to investigate.
 
-### Sprout Tower Puzzle Update (Turn 2781)
-- **Agent Hypothesis 1:** Interacting with the central pillar will open a path. (FAILED - Pressing 'A' on the pillar wall at (4, 8) had no effect.)
-- **Testing Agent Hypothesis 2:** Stepping on a specific tile at the base of the pillar will trigger it. I will now walk along the base of the pillar to test this.
 ### Solved: Sprout Tower 2F Pillar Puzzle
 - **Solution:** Speaking to a Sage on 2F made the central pillar passable, allowing access from the eastern to the central section of the floor.
 
