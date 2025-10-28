@@ -84,3 +84,5 @@ After exhausting all previous hypotheses, the `hypothesis_generator` provided th
 2.  An item or switch appeared on the tile where the Sage was defeated. (Testing by pressing A on (9, 3))
 3.  The defeated Sage must be spoken to again to open the path.
 4.  The ladder at (6,4) is now the correct path forward.
+- **Hypothesis (from Agent):** The defeated Sage must be spoken to again to open the path.
+  - **Test:** Move to (11, 3), face the Sage at (12, 3), and press 'A'.
