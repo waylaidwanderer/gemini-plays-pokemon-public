@@ -141,3 +141,7 @@
 - **Hypothesis:** Talking to the Cooltrainer M at (5, 2) would open the path to the Clerk.
 - **Test:** Spoke to the Cooltrainer.
 - **Conclusion:** He only provided generic advice. The path remains blocked. Hypothesis is DEBUNKED.
+### Sprout Tower 2F Pillar Puzzle - Repeat Interaction Test
+- **Hypothesis:** Re-interacting with the Sage at (12, 3) from the original trigger spot (11, 3) will repeat the event.
+- **Test:** Stood at (11, 3) and talked to the Sage.
+- **Conclusion:** The Sage gave flavor dialogue. The pillar did not move. Hypothesis is DEBUNKED.
