@@ -102,6 +102,7 @@
   - **Conclusion:** FAILED. This path is a small loop that leads to a dead end with a sign, forcing a return to the main path.
 ## NPCs and Interactions
 - An Officer in the Route 31 Gatehouse mentioned visiting SPROUT TOWER.
+- An NPC in a house on Route 30 mentioned that Berries can be found by checking trees.
 - **WARP_CARPET_RIGHT**: Traversable, acts as a warp tile. (Verified)
 
 ## Untested Assumptions (Turn 2132)
