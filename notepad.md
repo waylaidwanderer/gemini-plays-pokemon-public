@@ -62,9 +62,7 @@
 - **MR. POKEMON's House Location:** Assumption: Located on Route 30. (Confirmed)
 
 ### Sprout Tower 2F Pillar Puzzle
-- **Partial Solution:** Standing on the tile at (11, 3) and interacting with the Sage at (12, 3) triggers a scripted event that makes the central pillar passable, allowing access to the central section of the floor. This event does not seem to be repeatable.
-- **Active Hypothesis:**
-  - The wall tile directly behind the Sage at (12, 3) has a hidden switch or is interactable.
+
 - **Untestable Hypotheses:**
   - A switch or path on the 3rd floor of Sprout Tower opens the western section of the 2nd floor.
   - All other trainers on Sprout Tower 2F must be defeated before the Sage at (12, 3) will trigger the event again.
@@ -102,9 +100,7 @@
   - **Conclusion:** FAILED. The Key Items pocket is empty. Hypothesis is debunked.
 
 ### Sprout Tower 2F Pillar Puzzle
-- **Partial Solution:** Standing on the tile at (11, 3) and interacting with the Sage at (12, 3) triggers a scripted event that makes the central pillar passable, allowing access to the central section of the floor. This event does not seem to be repeatable.
-- **Active Hypothesis:**
-  - The wall tile directly behind the Sage at (12, 3) has a hidden switch or is interactable.
+
 - **Untestable Hypotheses:**
   - A switch or path on the 3rd floor of Sprout Tower opens the western section of the 2nd floor.
   - All other trainers on Sprout Tower 2F must be defeated before the Sage at (12, 3) will trigger the event again.
