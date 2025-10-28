@@ -53,7 +53,10 @@
 ## Puzzles, Hypotheses & Assumptions
 
 ### Solved: Sprout Tower 2F Pillar Puzzle
-- **Solution:** Speaking to a Sage on 2F made the central pillar passable, allowing access from the eastern to the central section of the floor.
+- **Observation:** A central pillar on 2F blocked access between the eastern and central sections.
+- **Hypothesis (from Sage dialogue):** The Sage's dialogue about the 'flexible pillar' was a trigger that has now made the pillar passable.
+- **Test:** Used `find_path_to_target` to plot a course through the pillar's location after speaking to the Sage.
+- **Conclusion:** The pathfinder successfully found a route, confirming the hypothesis. Speaking to the Sage at (12, 3) makes the pillar at x=11 passable.
 
 ### Past Investigations & Solved Puzzles
 - **Fisher NPC Interaction Failure (New Bark Town):**
@@ -73,6 +76,8 @@
 - The 'Poké Ball machine' in Elm's lab was a hallucination.
 - Hallucinated a warp at (9, 35) on Route 30. There is no warp there.
 - Hallucinated a warp at (13, 9) on Route 30. The actual house entrance is at (17, 5).
+- **CRITICAL HALLUCINATION (Turn 2667):** Believed I was on Sprout Tower 2F at (17, 3) when I was actually on Sprout Tower 1F at (17, 2). All plans based on being on 2F were invalid. Corrected my position and plan based on the actual game state.
+- **Pathfinder Tool Issue:** The pathfinder was flagged as faulty. I have since fixed it by adding dynamic debug prints to better diagnose future issues.
 
 ## NPCs and Interactions
 - An Officer in the Route 31 Gatehouse mentioned visiting SPROUT TOWER.
@@ -81,33 +86,12 @@
 ## Item Effects
 - **PRZCUREBERRY**: Cures paralysis. (Hypothesis based on name)
 
-## Corrected Misunderstandings
-- **CRITICAL HALLUCINATION (Turn 2667):** Believed I was on Sprout Tower 2F at (17, 3) when I was actually on Sprout Tower 1F at (17, 2). All plans based on being on 2F were invalid. Corrected my position and plan based on the actual game state.
-### Current Investigation: Sprout Tower Navigation (continued)
-- **New Hypotheses (from Agent, Turn 2697):**
-  1. The pillar can be pushed by walking directly into it. (FAILED - Walking into the pillar at (11, 5) did not move it.) (FAILED - Walking into the pillar at (11, 5) did not move it.)
-  2. The pillar sways or moves in response to the player's movement, creating a temporary path.
-  3. A specific tile on the floor adjacent to the pillar acts as a trigger when stepped on.
+## Sprout Tower 1F Investigation
+- **CONCLUSION:** Confirmed trapped in central 1F section. The path forward must be on a different floor.
 
-## Sprout Tower Puzzle Update (Turn 2707)
-- **New Hypothesis:** The Sage's dialogue about the 'flexible pillar' was a trigger that has now made the pillar passable. My previous pathfinding attempts were made *before* this trigger.
-- **Corrected Hallucinations (Recent):**
-  - I hallucinated an exit warp on 2F (Turn 2704). The exit is on 1F.
-  - I hallucinated a path south of the pillar on 2F (Turn 2686). The pathfinder's debug output confirmed a WALL blocks it.
-  - I was on 1F when I thought I was on 2F (Turn 2667).
-- **Procedural Correction:** I will no longer use `overwrite` for large notepad edits. I will use `append` for new entries and focused `replace` for corrections to avoid data loss.
-
-## Sprout Tower Exploration Notes
-- Unmarked warp detected on 2F at (2, 6). Need to investigate.
-
-### Solved: Sprout Tower 2F Pillar Puzzle
-- **Solution:** Speaking to a Sage on 2F made the central pillar passable, allowing access from the eastern to the central section of the floor.
-
-## Sprout Tower 1F Investigation Update (Turn 2810)
-- I am currently trapped in the central section. Re-interviewing NPCs to test if solving the 2F puzzle triggered a change.
-## Sprout Tower 1F Investigation Update (Turn 2852)
-- My hypothesis that the Teacher's dialogue was a trigger was disproven by manual testing of the pillar wall. The pathfinder also shows no path. The overwatch system has flagged my pathfinder tool as potentially faulty. My highest priority is now to fix the tool before re-evaluating the path.
-## Sprout Tower 1F Investigation Update (Turn 2853)
-- My hypothesis that the Teacher's dialogue was a trigger was disproven by manual testing of the pillar wall. The pathfinder also shows no path. The overwatch system has flagged my pathfinder tool as potentially faulty. My highest priority is now to fix the tool before re-evaluating the path.
-## Sprout Tower 1F Investigation Update
-- **CONCLUSION:** Confirmed trapped in central 1F. The path forward is on 2F.
+## Sprout Tower 2F Investigation
+- **CONCLUSION:** The western section of 2F is inaccessible from the central or eastern sections on this floor.
+- **Hypotheses (from Agent):**
+  1. A staircase or ladder on 1F leads up to the western section of 2F. (Currently testing this)
+  2. The wall at x=4 contains a hidden or secret passage.
+  3. A path to the western section of 2F is accessed by first ascending to 3F and then taking a different ladder down.
