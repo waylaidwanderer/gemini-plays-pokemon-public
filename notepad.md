@@ -106,33 +106,17 @@
 ## NPCs and Interactions
 - YOUNGSTER at (5, 18) in Violet City mentioned a 'wiggly tree' that 'squirms and dances'. This is likely a hint about how to interact with HEADBUTT_TREEs.
 
-## Full Tool & Agent List
-### Built-in Tools
-- `notepad_edit`
-- `run_code`
-- `define_map_marker`
-- `delete_map_marker`
-- `stun_npc`
-- `select_battle_option`
-
-### Management Tools
-- `define_agent`
-- `delete_agent`
-- `define_tool`
-- `delete_tool`
-
+## My Custom Tools & Agents
 ### Custom Tools (Code)
-- `find_path_to_target`
-- `find_reachable_unseen_tiles`
-- `generate_nickname_inputs`
-- `find_closest_unseen_tile`
-- `systematic_search`
+- `find_path_to_target`: A* pathfinding.
+- `find_reachable_unseen_tiles`: BFS to find unseen tiles.
+- `generate_nickname_inputs`: Automates nicknaming.
+- `find_closest_unseen_tile`: Finds closest unseen tile from a list.
+- `systematic_search`: Generates a path to visit all reachable tiles.
 
 ### Custom Agents (LLM)
-- `hypothesis_generator`
-- `simple_battle_strategist`
-- `hypothesis_generator`
-- `simple_battle_strategist`
+- `hypothesis_generator`: Generates new hypotheses when stuck.
+- `simple_battle_strategist`: Recommends actions in simple wild battles.
 ## Future Agent Ideas
 - **pathing_assistant:** An agent to analyze a path and the current object list to identify potential blockages from moving NPCs.
 
