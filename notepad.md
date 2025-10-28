@@ -105,15 +105,34 @@
   - **Test:** Opened Key Items pocket while facing the wall at (4, 1).
   - **Conclusion:** FAILED. The Key Items pocket is empty. Hypothesis is debunked.
 
-### Sprout Tower Puzzle - New Hypotheses (from Agent - Turn 3252)
-After exhausting all previous hypotheses, the `hypothesis_generator` provided the following new ideas:
-1.  **Defeating the Sage on 2F removes the wall at x=4.** (FAILED. The wall is still impassable.)
-2.  An item or switch appeared on the tile where the Sage was defeated. (Testing by pressing A on (9, 3))
-3.  The defeated Sage must be spoken to again to open the path.
-4.  The ladder at (6,4) is now the correct path forward.
-- **Hypothesis (from Agent):** The defeated Sage must be spoken to again to open the path.
-  - **Test:** Move to (11, 3), face the Sage at (12, 3), and press 'A'.
-  - **Conclusion:** FAILED. The Sage repeated his dialogue about the flexible pillar. This hypothesis is debunked.
+### Sprout Tower 2F Pillar Puzzle
+- **Partial Solution:** Standing on the tile at (11, 3) and interacting with the Sage at (12, 3) triggers a scripted event that makes the central pillar passable, allowing access to the central section of the floor. This event does not seem to be repeatable.
+- **Active Hypothesis:**
+  - The wall tile directly behind the Sage at (12, 3) has a hidden switch or is interactable.
+- **Untestable Hypotheses:**
+  - A switch or path on the 3rd floor of Sprout Tower opens the western section of the 2nd floor.
+  - All other trainers on Sprout Tower 2F must be defeated before the Sage at (12, 3) will trigger the event again.
+- **Debunked Hypotheses:**
+  - Use Key Item on wall.
+  - Defeating the Sage on 2F removes the wall at x=4.
+  - An item or switch appeared on the tile where the Sage was defeated.
+  - The defeated Sage must be spoken to again to open the path.
+  - The ladder at (6,4) is now the correct path forward.
+  - Walking into the central pillar on 2F will reveal a hidden path.
+  - Interacting with the northern wall tiles of the central pillar on 2F will trigger an event.
+  - The pillar on 1F, directly below the one on 2F, is now interactable or has changed.
+  - There is an interactable object elsewhere on 2F, such as a statue or pot, that controls the pillar.
+  - Pressing 'interact' while facing the eastern wall of the pillar will cause it to move.
+  - The pillar's 'flexible' nature means it can be pushed.
+  - Examining the floor tiles directly adjacent to the pillar reveals a hidden switch.
+  - The wall blocking the western section is an illusion or has a hidden switch.
+  - The effect of interacting with the Sage at (12,3) is different depending on which adjacent tile the player stands on.
+  - Stepping on a specific tile inside the temporarily passable central pillar triggers the opening of the western wall.
+  - An NPC on the 1st floor has new dialogue or an item that allows passage after interacting with the Sage.
+  - The player must pass through the temporarily open central pillar from east to west to trigger the removal of the wall at x=4.
+  - Interacting with the Sage from a different adjacent tile (e.g., from the south at (12, 4)) triggers the event.
+  - Interacting with the Sage at (12, 3) multiple times in a row is required to trigger the event.
+  - Interacting with the central pillar first, and then immediately interacting with the Sage at (12, 3), will trigger the event.
 
 ### Sprout Tower Puzzle - New Hypotheses (from Agent - Turn 3266)
 1.  Walking into the central pillar on 2F will reveal a hidden path.
