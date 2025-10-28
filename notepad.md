@@ -138,7 +138,7 @@
 - **Re-interaction Test:**
   - **Hypothesis:** Talking to the Sage at (12, 3) a second time will make the pillar move.
   - **Test:** Interacted with the Sage at (12, 3) after the pillar became solid again.
-  - **Conclusion:** The Sage gave flavor dialogue (\"The flexible pillar protects the TOWER...\"). The pillar did not move. Hypothesis is DEBUNKED. The event is not repeatable by simple re-interaction.
+  - **Conclusion:** The Sage gave flavor dialogue ("The flexible pillar protects the TOWER..."). The pillar did not move. Hypothesis is DEBUNKED. The event is not repeatable by simple re-interaction.
 - **Positional Interaction Test:**
   - **Hypothesis:** Interacting with the Sage at (12, 3) from a different adjacent tile ((12, 4) instead of (11, 3)) will re-trigger the pillar event.
   - **Test:** Moved to (12, 4) and pressed 'A' while facing the Sage.
@@ -165,31 +165,23 @@
 - **Hypothesis (from Agent):** A hidden switch has appeared on the wall at x=4.
 - **Test 1:** Stood at (3, 6) and pressed 'A' facing the wall at (4, 6).
 - **Conclusion:** No interaction occurred. Hypothesis is DEBUNKED for this specific wall segment.
+- **Test 2:** Stood at (3, 7) and pressed 'A' facing the wall at (4, 7).
+- **Conclusion:** No interaction occurred. Hypothesis is DEBUNKED for this specific wall segment.
+- **Test 3:** Stood at (3, 4) and pressed 'A' facing the wall at (4, 4).
+- **Conclusion:** No interaction occurred. Hypothesis is DEBUNKED for this specific wall segment.
 
 ### Sprout Tower 1F - Interactable Object Test
 - **Hypothesis (from Agent):** An object in the western section of the room, such as a pillar or statue, became interactable after defeating SAGE CHOW.
 - **Test 1:** Stood at (3, 7) and pressed 'A' while facing the pillar at (3, 8).
 - **Conclusion:** No interaction occurred. Hypothesis is DEBUNKED for this specific pillar from this position.
-### Sprout Tower 1F - Interactable Object Test
-- **Hypothesis (from Agent):** An object in the western section of the room, such as a pillar or statue, became interactable after defeating SAGE CHOW.
 - **Test 2:** Stood at (2, 7) and pressed 'A' while facing the pillar at (2, 8).
 - **Conclusion:** No interaction occurred. Hypothesis is DEBUNKED for this specific pillar from this position.
-### Sprout Tower 1F - Wall Switch Test
-- **Hypothesis (from Agent):** A hidden switch has appeared on the wall at x=4.
-- **Test 2:** Stood at (3, 7) and pressed 'A' facing the wall at (4, 7).
-- **Conclusion:** No interaction occurred. Hypothesis is DEBUNKED for this specific wall segment.
-### Sprout Tower 1F - Wall Switch Test
-- **Hypothesis (from Agent):** A hidden switch has appeared on the wall at x=4.
-- **Test 3:** Stood at (3, 4) and pressed 'A' facing the wall at (4, 4).
-- **Conclusion:** No interaction occurred. Hypothesis is DEBUNKED for this specific wall segment.
+
 ### Sprout Tower 1F - Hidden Item Test
 - **Hypothesis (from Agent):** A hidden item appeared on the tile where SAGE CHOW was standing (3, 5) after he was defeated.
 - **Test:** Stood at (3, 4) and pressed 'A' while facing the tile at (3, 5).
 - **Conclusion:** Interaction only triggered the Sage's post-battle dialogue. Hypothesis is DEBUNKED.
-### Sprout Tower 1F - Wall Switch Test
-- **Hypothesis (from Agent):** A hidden switch has appeared on the wall at x=4.
-- **Test 3:** Stood at (3, 4) and pressed 'A' facing the wall at (4, 4).
-- **Conclusion:** No interaction occurred. Hypothesis is DEBUNKED for this specific wall segment.
+
 ### Sprout Tower 1F - Floor Switch Test
 - **Hypothesis (from Agent):** An interactable object or switch exists on a floor tile in the western section of the room.
 - **Test 1:** Stood at (3, 4) and pressed 'A'.
