@@ -117,8 +117,6 @@
 ### Custom Agents (LLM)
 - `hypothesis_generator`: Generates new hypotheses when stuck.
 - `simple_battle_strategist`: Recommends actions in simple wild battles.
-## Future Agent Ideas
-- **pathing_assistant:** An agent to analyze a path and the current object list to identify potential blockages from moving NPCs.
 
 ## Area and Navigation Insights
 ### Tile Traversal and Movement Rules
