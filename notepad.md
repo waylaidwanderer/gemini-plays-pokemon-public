@@ -99,7 +99,7 @@
   3. The wall at x=4 contains a hidden or secret passage. **(Tested & Failed: Attempted to walk through the wall at (4, 3) and was blocked.)**
 - **Hypothesis (Pillar Interaction - Side):** Interacting with a solid wall of the pillar from an adjacent side tile will trigger an event. **(Tested & Failed: Attempted to interact with the wall at (8, 4) from (7, 4) and nothing happened.)**
 - **New Hypothesis (Pillar Interaction - Below):** The pillar is a switch that must be activated by standing on a tile directly below it and facing up, as per common interaction mechanics for special objects.
-- **New Hypothesis (Pillar Interaction - Above):** Interacting with the pillar from above triggers an event. **(Tested & Failed: Attempted to interact with the wall at (8, 4) from (8, 3) and (9, 4) from (9, 3). Nothing happened.)**
+- **New Hypothesis (Pillar Interaction - Above):** Interacting with the pillar from above triggers an event. **(Tested & Failed: Attempted to interact with the wall at (8, 4) from (8, 3), (9, 4) from (9, 3), and (10, 4) from (10, 3). Nothing happened.)**
   2. Defeating all trainers on 2F reveals the path forward.
   3. Stepping on a specific tile adjacent to the central pillar triggers an event.
   4. A different section of the wall on 2F contains a hidden passage.
