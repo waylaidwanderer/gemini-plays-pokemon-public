@@ -108,3 +108,5 @@
 
 ## Sprout Tower 1F Investigation Update (Turn 2810)
 - I am currently trapped in the central section. Re-interviewing NPCs to test if solving the 2F puzzle triggered a change.
+## Sprout Tower 1F Investigation Update (Turn 2852)
+- My hypothesis that the Teacher's dialogue was a trigger was disproven by manual testing of the pillar wall. The pathfinder also shows no path. The overwatch system has flagged my pathfinder tool as potentially faulty. My highest priority is now to fix the tool before re-evaluating the path.
