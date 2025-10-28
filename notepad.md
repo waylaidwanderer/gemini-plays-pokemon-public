@@ -95,10 +95,6 @@
 - **Hypothesis 4 (Agent):** Defeating the Sage on 2F triggered a new event or NPC on 1F. (DEBUNKED)
 - **Hypothesis 5 (Agent):** One of the southern wall tiles of the central pillar is an interactable switch.
 
-- **Hypothesis 2 (Agent): Use Key Item on wall.**
-  - **Test:** Opened Key Items pocket while facing the wall at (4, 1).
-  - **Conclusion:** FAILED. The Key Items pocket is empty. Hypothesis is debunked.
-
 ### [ARCHIVED] Sprout Tower 2F Pillar Puzzle
 
 - **Untestable Hypotheses:**
