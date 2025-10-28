@@ -143,10 +143,6 @@
 
 - **WARP_CARPET_DOWN**: Traversable, acts as a warp tile. (Verified)
 
-### Sprout Tower Puzzle - New Hypotheses (from Agent - Turn 3556)
-1. All other trainers on Sprout Tower 2F must be defeated before the Sage at (12, 3) will trigger the event again.
-2. Interacting with the central pillar first, and then immediately interacting with the Sage at (12, 3), will trigger the event. (DEBUNKED - Interacted with pillar at (8,3), then Sage at (12,3). No effect.)
-3. The wall tile directly behind the Sage at (12, 3) has a hidden switch or is interactable.
 ### Sprout Tower Puzzle - New Hypotheses (from Agent - Turn 3590)
 1. All other Sages on Sprout Tower 2F must be defeated before interacting with the Sage at (12, 3).
 2. The interaction with the Sage at (12, 3) only makes the pillar passable during a specific time of day (e.g., night).
