@@ -164,3 +164,4 @@
 1. Defeating every Sage on the 2nd floor causes the central pillar to become passable.
 2. Exiting the 2nd floor (e.g., by going down to 1F) and then returning resets the pillar puzzle, allowing the Sage at (12, 3) to trigger it again.
 3. After the initial event, the trigger NPC changes; interacting with a different Sage on the 2nd floor now makes the pillar passable.
+- **CRITICAL HALLUCINATION (Turn 3658):** Believed I was on Sprout Tower 2F at (6, 4) after climbing a ladder, but was actually still on Sprout Tower 1F at (6, 3). This invalidated my entire plan.
