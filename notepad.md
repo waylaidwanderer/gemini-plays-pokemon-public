@@ -106,4 +106,7 @@
 ### Sprout Tower Puzzle 2 - Investigation Log
 - **Hypothesis 1 (Agent): The Sage who made the pillar passable must be spoken to again.**
   - **Test:** Interact with the Sage at (12, 3) a second time.
+  - **Conclusion:** FAILED. The Sage repeated his original dialogue.
+- **Hypothesis 2 (Agent): Walking through the central pillar, now that it is passable, triggers a hidden event that opens the path.**
+  - **Test:** Walk through the central pillar area from east to west.
   - **Conclusion:** PENDING
