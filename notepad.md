@@ -117,3 +117,7 @@
 
 ## 7. Full Tool & Agent List (Per Overwatch)
 - **Missing from previous list:** `delete_agent`, `define_tool`, `delete_tool`.
+### Sprout Tower 2F Pillar Puzzle - Direct Interaction Test
+- **Hypothesis (from Agent):** Interacting directly with the pillar wall from an adjacent tile will trigger an event.
+- **Test:** Systematically pressed 'A' while facing the pillar from every accessible adjacent tile on the eastern side of the floor ((7,4), (7,5), (8,3), (9,3), (10,3), (11,3)).
+- **Conclusion:** No interaction occurred. Hypothesis is DEBUNKED for the eastern side of the pillar.
