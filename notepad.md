@@ -66,6 +66,16 @@
   - **Assumption:** Sprout Tower is separate from the Gym. **(Confirmed)**
 - **MR. POKEMON's House Location:**
   - **Assumption:** Located on Route 30. **(Confirmed)**
+- **Healing Methods (New Bark Town):**
+  - **Conclusion:** Neither Mom nor the player's bed heals Pokémon in this game.
+- **Nickname Screen Controls:**
+  - **Conclusion:** The 'Select' button toggles the keyboard case.
+- **Building Identification (Violet City):**
+  - **Assumption:** Building at (21, 29) was the Gym. **(Confirmed to be a house with a trade NPC)**
+- **Sprout Tower vs. Gym:**
+  - **Assumption:** Sprout Tower is separate from the Gym. **(Confirmed)**
+- **MR. POKEMON's House Location:**
+  - **Assumption:** Located on Route 30. **(Confirmed)**
 
 ### Corrected Misunderstandings
 - The 'Poké Ball machine' in Elm's lab was a hallucination.
