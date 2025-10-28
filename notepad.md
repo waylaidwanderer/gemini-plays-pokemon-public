@@ -2,7 +2,7 @@
 - Deferring tasks, like placing map markers, is a process violation. Significant events must be documented *immediately* in the turn they occur.
 - My `simple_battle_strategist` agent is underutilized and I will prioritize using it for all future wild battles to automate decision-making.
 
-## Discoveries & Lessons Learned
+## General Discoveries
 - My biggest obstacle is my own memory. I must only trust in-game observation.
 - Stunning an NPC can break scripted events, causing dialogue loops.
 - The 'Poké Ball machine' was a hallucination.
