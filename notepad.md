@@ -54,19 +54,6 @@
 - **FLOOR_UP_WALL**: Appears to be impassable. (Hypothesis, needs verification)
 
 ## Puzzles, Hypotheses & Assumptions
-
-### Sprout Tower Puzzle - Investigation Log
-- **Hypothesis 1: Path to Western 2F is on 1F.**
-  - **Test:** Traveled to 1F to find a path to the unreachable ladder at (2, 6).
-  - **Conclusion:** FAILED. Pathfinder confirmed no route exists from the central section of 1F.
-- **Hypothesis 2: Path to Western 2F is via 3F.**
-  - **Test:** Took the ladder at (17, 3) on 2F, expecting it to lead to 3F.
-  - **Conclusion:** FAILED. The ladder led down to an isolated, dead-end section of 1F.
-- **Hypothesis 3: Secret Passage in Wall at x=4.**
-  - **Test:** Attempted to walk through the wall at (4, 3) on 2F.
-  - **Conclusion:** FAILED. The wall is solid.
-- **Hypothesis 4: Pillar is an interactable switch.**
-  - **Test (Side):** Interacted with the pillar wall at (8, 4) from the side at (7, 4).
   - **Conclusion:** FAILED. No event triggered.
   - **Test (Below):** Attempted to pathfind to (8, 6) to interact with the pillar from below, but the path was blocked.
   - **Conclusion:** FAILED. The position is unreachable.
