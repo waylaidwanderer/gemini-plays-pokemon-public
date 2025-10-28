@@ -112,3 +112,6 @@
   - **Alternative Hypothesis:** Sprout Tower could be the Gym itself, or a prerequisite challenge before the Gym.
   - **Test:** Find both locations and observe any connections or NPC dialogue that links them.
 *Type Effectiveness Discovery*: Ground is super-effective against Fire. (Verified in battle vs Falkner's Pidgey's MUD-SLAP).
+
+## Item Effects
+- **PRZCUREBERRY**: Cures paralysis. (Hypothesis based on name)
