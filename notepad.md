@@ -161,3 +161,7 @@
 3. Walking into a specific tile of the pillar, rather than interacting with it, allows passage. (DEBUNKED - Tested all accessible pillar wall tiles)
 4. Using a Key Item from the inventory while facing the pillar triggers a change. (Unlikely - No relevant items.)
 5. There is an interactable object in the room, such as a statue or a poster on the wall, that serves as a switch. (Unlikely - No such objects visible.)
+### Sprout Tower 1F Investigation
+- **Hypothesis:** Defeating the Sage on 2F would change the dialogue of the Sage at (7, 4) on 1F.
+- **Test:** Spoke to the Sage at (7, 4) after returning from 2F.
+- **Conclusion:** Dialogue was unchanged. Hypothesis is DEBUNKED.
