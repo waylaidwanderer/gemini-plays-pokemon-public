@@ -158,6 +158,6 @@
 ### Sprout Tower Puzzle - New Hypotheses (from Agent - Turn 3791)
 1. Talking to the defeated Sage at (12, 3) again will re-trigger the event. (DEBUNKED - Gave new dialogue, but no effect.)
 2. A different Sage in the accessible eastern area must also be defeated. (Untestable - No other Sages visible.)
-3. Walking into a specific tile of the pillar, rather than interacting with it, allows passage.
+3. Walking into a specific tile of the pillar, rather than interacting with it, allows passage. (DEBUNKED - Tested all accessible pillar wall tiles)
 4. Using a Key Item from the inventory while facing the pillar triggers a change. (Unlikely - No relevant items.)
 5. There is an interactable object in the room, such as a statue or a poster on the wall, that serves as a switch. (Unlikely - No such objects visible.)
