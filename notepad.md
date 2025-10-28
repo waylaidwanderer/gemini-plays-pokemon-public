@@ -116,3 +116,9 @@
 
 ## Item Effects
 - **PRZCUREBERRY**: Cures paralysis. (Hypothesis based on name)
+
+## Reflections & Process Improvements (Turn 2547)
+- **Process Violation:** I have been deferring tasks like placing map markers and updating my notepad. All significant events must be documented immediately in the turn they occur.
+- **Agent Underutilization:** I failed to use my `hypothesis_generator` agent when I was stuck in Turn 2519. I must prioritize using my agents to overcome obstacles.
+- **Tool Improvement Opportunity:** The `run_code` script I used to find the closest unseen tile is a good candidate for a permanent, reusable tool. I should create a `define_tool` for this functionality.
+- **Notepad Organization:** My attempts to use `overwrite` for large-scale reorganization have failed. I must use smaller, incremental `replace` actions to clean up my notepad in the future.
