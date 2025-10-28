@@ -165,3 +165,8 @@
 - **Hypothesis (from Agent):** A hidden switch has appeared on the wall at x=4.
 - **Test 1:** Stood at (3, 6) and pressed 'A' facing the wall at (4, 6).
 - **Conclusion:** No interaction occurred. Hypothesis is DEBUNKED for this specific wall segment.
+
+### Sprout Tower 1F - Interactable Object Test
+- **Hypothesis (from Agent):** An object in the western section of the room, such as a pillar or statue, became interactable after defeating SAGE CHOW.
+- **Test 1:** Stood at (3, 7) and pressed 'A' while facing the pillar at (3, 8).
+- **Conclusion:** No interaction occurred. Hypothesis is DEBUNKED for this specific pillar from this position.
