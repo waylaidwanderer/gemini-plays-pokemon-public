@@ -119,3 +119,8 @@
   - **Test 2:** Attempted to walk through wall at (4, 3). **Conclusion: FAILED.**
 - **Hypothesis 4 (Agent):** Interacting with a scenery object is the trigger.
   - **Test:** Interacted with pillar at (8, 5). **Conclusion: FAILED.**
+
+### Sprout Tower Puzzle - Systematic Pillar Test
+- **Hypothesis:** One of the northern pillar wall tiles (y=4) is an interactable switch.
+- **Test 1:** Interact with the pillar wall at (8, 4) from the tile above it (8, 3).
+- **Conclusion:** PENDING
