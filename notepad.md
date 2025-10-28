@@ -90,3 +90,6 @@
 
 ## Item Effects
 - **PRZCUREBERRY**: Cures paralysis. (Hypothesis based on name)
+
+## Corrected Misunderstandings
+- **CRITICAL HALLUCINATION (Turn 2667):** Believed I was on Sprout Tower 2F at (17, 3) when I was actually on Sprout Tower 1F at (17, 2). All plans based on being on 2F were invalid. Corrected my position and plan based on the actual game state.
