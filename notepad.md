@@ -115,8 +115,6 @@
 - `hypothesis_generator`: Generates new hypotheses when stuck.
 - `simple_battle_strategist`: Recommends actions in simple wild battles.
 
-## Area and Navigation Insights
-
 ### Violet Mart Investigation
 - **Hypothesis:** Talking to the Cooltrainer M at (5, 2) would open the path to the Clerk.
 - **Test:** Spoke to the Cooltrainer.
