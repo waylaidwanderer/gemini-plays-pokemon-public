@@ -116,8 +116,7 @@
 - `simple_battle_strategist`: Recommends actions in simple wild battles.
 
 ## Area and Navigation Insights
-### Tile Traversal and Movement Rules
-- **FLOOR_UP_WALL**: Appears to be impassable. (Hypothesis, needs verification by attempting to walk on it from all directions.)
+
 ### Violet Mart Investigation
 - **Hypothesis:** Talking to the Cooltrainer M at (5, 2) would open the path to the Clerk.
 - **Test:** Spoke to the Cooltrainer.
