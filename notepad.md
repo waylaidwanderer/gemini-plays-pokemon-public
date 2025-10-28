@@ -160,3 +160,8 @@
 - **Hypothesis (from Agent):** Talking to SAGE CHOW again after the battle will cause him to open the path.
 - **Test:** Interacted with SAGE CHOW at (3, 5).
 - **Conclusion:** The Sage gave flavor dialogue ("All living beings coexist through cooperation..."). The path did not open. Hypothesis is DEBUNKED.
+
+### Sprout Tower 1F - Wall Switch Test
+- **Hypothesis (from Agent):** A hidden switch has appeared on the wall at x=4.
+- **Test 1:** Stood at (3, 6) and pressed 'A' facing the wall at (4, 6).
+- **Conclusion:** No interaction occurred. Hypothesis is DEBUNKED for this specific wall segment.
