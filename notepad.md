@@ -115,3 +115,5 @@ After exhausting all previous hypotheses, the `hypothesis_generator` provided th
   - **Test:** Already spoke to the Sage at (12, 3) after defeating him. He repeated his original dialogue.
   - **Conclusion:** FAILED. Re-interacting yielded no new information. Hypothesis is debunked.
 4.  Examining the floor tiles directly adjacent to the pillar reveals a hidden switch.
+### Sprout Tower Puzzle - SOLVED!
+- **Solution:** Stand on the tile at (11, 3) and interact with the Sage at (12, 3). This triggers a scripted event that makes the central pillar passable, allowing access to the western side of the floor.
