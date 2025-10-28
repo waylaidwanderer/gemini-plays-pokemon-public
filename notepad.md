@@ -54,28 +54,14 @@
 - **FLOOR_UP_WALL**: Appears to be impassable. (Hypothesis, needs verification)
 
 ### Past Investigations & Solved Puzzles
-- **Fisher NPC Interaction Failure (New Bark Town):**
-  - **Conclusion:** Moving NPCs can disrupt interactions. Stunning them first is a reliable solution.
-- **Healing Methods (New Bark Town):**
-  - **Conclusion:** Neither Mom nor the player's bed heals Pokémon in this game.
-- **Nickname Screen Controls:**
-  - **Conclusion:** The 'Select' button toggles the keyboard case.
-- **Building Identification (Violet City):**
-  - **Assumption:** Building at (21, 29) was the Gym. **(Confirmed to be a house with a trade NPC)**
-- **Sprout Tower vs. Gym:**
-  - **Assumption:** Sprout Tower is separate from the Gym. **(Confirmed)**
-- **MR. POKEMON's House Location:**
-  - **Assumption:** Located on Route 30. **(Confirmed)**
-- **Healing Methods (New Bark Town):**
-  - **Conclusion:** Neither Mom nor the player's bed heals Pokémon in this game.
-- **Nickname Screen Controls:**
-  - **Conclusion:** The 'Select' button toggles the keyboard case.
-- **Building Identification (Violet City):**
-  - **Assumption:** Building at (21, 29) was the Gym. **(Confirmed to be a house with a trade NPC)**
-- **Sprout Tower vs. Gym:**
-  - **Assumption:** Sprout Tower is separate from the Gym. **(Confirmed)**
-- **MR. POKEMON's House Location:**
-  - **Assumption:** Located on Route 30. **(Confirmed)**
+- **Fisher NPC Interaction Failure (New Bark Town):** Conclusion: Moving NPCs can disrupt interactions. Stunning them first is a reliable solution.
+- **Healing Methods (New Bark Town):** Conclusion: Neither Mom nor the player's bed heals Pokémon in this game.
+- **Nickname Screen Controls:** Conclusion: The 'Select' button toggles the keyboard case.
+- **Building Identification (Violet City):** Assumption: Building at (21, 29) was the Gym. (Confirmed to be a house with a trade NPC)
+- **Sprout Tower vs. Gym:** Assumption: Sprout Tower is separate from the Gym. (Confirmed)
+- **MR. POKEMON's House Location:** Assumption: Located on Route 30. (Confirmed)
+- **Sprout Tower Puzzle - Ladder Interaction:** Hypothesis: Ladders must be interacted with from an adjacent tile, not by standing on them. Test: Move to (17, 4), face up towards the ladder at (17, 3), and press 'A'. Conclusion: SUCCESS. This triggered the warp back to 2F, confirming this is the correct interaction method for this type of ladder.
+- **Sprout Tower Puzzle - 1F Sage Interaction:** Hypothesis (from Agent): Defeating the Sage on 2F triggered a new event or NPC on 1F. Test: Spoke to the Sage at (7, 4) on 1F. Conclusion: FAILED. The Sage repeated his original dialogue about the HM. This hypothesis is debunked.
 
 ### Corrected Misunderstandings
 - The 'Poké Ball machine' in Elm's lab was a hallucination.
@@ -89,16 +75,9 @@
 - **Hypothesis 1 (Agent):** A second Sage is hidden from view in a corner or behind the central pillar on 2F.
 - **Hypothesis 2 (Agent):** Using a specific Key Item from the inventory while facing the blocking wall at x=4 will open the path.
 - **Hypothesis 3 (Agent):** The way forward is dependent on the in-game time of day.
-- **Hypothesis 4 (Agent):** Defeating the Sage on 2F triggered a new event or NPC on 1F.
+- **Hypothesis 4 (Agent):** Defeating the Sage on 2F triggered a new event or NPC on 1F. (DEBUNKED)
 - **Hypothesis 5 (Agent):** One of the southern wall tiles of the central pillar is an interactable switch.
-### Sprout Tower Puzzle - Ladder Interaction
-- **Hypothesis:** Ladders must be interacted with from an adjacent tile, not by standing on them.
-  - **Test:** Move to (17, 4), face up towards the ladder at (17, 3), and press 'A'.
-  - **Conclusion:** SUCCESS. This triggered the warp back to 2F, confirming this is the correct interaction method for this type of ladder.
 
 ## Overwatch Critique & Process Correction (Turn 3214)
 - **Issue:** Severe loop of failed `notepad_edit` calls due to imprecise `old_text`. Poor notepad organization and failure to mark a critical scripted warp.
 - **Correction:** I will prioritize data management. I am abandoning complex `replace` edits in favor of safer `append` or more targeted `replace` actions. All critical discoveries, like scripted warps, will be marked immediately. This section will serve as a reminder of my commitment to a more disciplined process.
-- **Hypothesis (from Agent):** Defeating the Sage on 2F triggered a new event or NPC on 1F.
-  - **Test:** Spoke to the Sage at (7, 4) on 1F.
-  - **Conclusion:** FAILED. The Sage repeated his original dialogue about the HM. This hypothesis is debunked.
