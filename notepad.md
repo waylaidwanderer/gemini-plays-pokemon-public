@@ -57,9 +57,9 @@
   - **Alternative Hypothesis:** The tower might be in a different part of the city, or on a previous route blocked by an obstacle I couldn't pass before (like a CUT tree).
   - **Test Plan:** If a thorough exploration of the northern area doesn't reveal the tower, I will systematically re-explore all other paths in Violet City and the connecting routes (30, 31).
 - **Azalea Town Path:**
-  - **Assumption:** The path to Azalea Town is south of Violet City.
-  - **Alternative Hypothesis:** The path might be west or east, possibly requiring an HM like SURF.
-  - **Test Plan:** After investigating Sprout Tower, I will explore the routes south of Violet City (Route 32).
+  - **Hypothesis:** The path to Azalea Town is south of Violet City.
+  - **Test:** Explored the southern corridor of Violet City.
+  - **Conclusion:** FAILED. The path is a confirmed dead end. The way forward is not south from here.
 
 ### Past Investigations & Solved Puzzles
 - **Fisher NPC Interaction Failure (New Bark Town):**
