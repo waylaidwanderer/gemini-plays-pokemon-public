@@ -102,3 +102,8 @@
 - **CRITICAL HALLUCINATION (Turn 2667):** Believed I was on Sprout Tower 2F at (17, 3) when I was actually on Sprout Tower 1F at (17, 2).
 - **CRITICAL HALLUCINATION (Turn 2886):** Believed I was on Sprout Tower 2F at (6, 4) when I was actually on Sprout Tower 1F at (6, 3).
 - **Pathfinder Tool Issue:** The pathfinder was flagged as faulty. I have since fixed it by adding dynamic debug prints to better diagnose future issues.
+
+### Sprout Tower Puzzle 2 - Investigation Log
+- **Hypothesis 1 (Agent): The Sage who made the pillar passable must be spoken to again.**
+  - **Test:** Interact with the Sage at (12, 3) a second time.
+  - **Conclusion:** PENDING
