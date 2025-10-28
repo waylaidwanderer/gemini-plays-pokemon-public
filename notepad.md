@@ -109,5 +109,9 @@ After exhausting all previous hypotheses, the `hypothesis_generator` provided th
   - **Test:** Moved to (11, 1) and interacted with the wall at (10, 1).
   - **Conclusion:** FAILED. Nothing happened. Hypothesis is debunked.
 2.  The pillar's 'flexible' nature means it can be pushed by walking into it for a sustained period of time.
+  - **Test:** Pushed against the pillar wall at (10, 1) by pressing Left repeatedly.
+  - **Conclusion:** FAILED. I simply walked left. The pillar is immobile. Hypothesis is debunked.
 3.  Speaking to all NPCs on the floor again will reveal a new hint about how to pass the pillar.
+  - **Test:** Already spoke to the Sage at (12, 3) after defeating him. He repeated his original dialogue.
+  - **Conclusion:** FAILED. Re-interacting yielded no new information. Hypothesis is debunked.
 4.  Examining the floor tiles directly adjacent to the pillar reveals a hidden switch.
