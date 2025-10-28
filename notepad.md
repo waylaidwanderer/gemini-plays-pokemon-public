@@ -93,6 +93,8 @@ After exhausting all previous hypotheses, the `hypothesis_generator` provided th
   - **Test:** Moved to (7, 4) and attempted to walk right into the wall at (8, 4).
   - **Conclusion:** FAILED. The pillar is a solid wall. Hypothesis is debunked.
 2.  Interacting with the northern wall tiles of the central pillar on 2F will trigger an event.
+  - **Test:** Moved to (8, 1) and interacted with the wall at (8, 0).
+  - **Conclusion:** FAILED. Nothing happened. Hypothesis is debunked.
 3.  The pillar on 1F, directly below the one on 2F, is now interactable or has changed.
   - **Test:** Moved to (8, 6) and interacted with the wall at (9, 6).
   - **Conclusion:** FAILED. Nothing happened. Hypothesis is debunked.
