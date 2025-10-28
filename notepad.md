@@ -91,10 +91,6 @@
 4. The floor tiles in the room with the Sage at (12,3) contain a visual pattern or clue that needs to be followed or replicated.
 
 - **CRITICAL HALLUCINATION (Turn 3658):** Believed I was on Sprout Tower 2F at (6, 4) after climbing a ladder, but was actually still on Sprout Tower 1F at (6, 3). This invalidated my entire plan.
-### Sprout Tower Puzzle - New Hypotheses (from Agent - Turn 3673)
-1. The central pillar can be moved or made passable by interacting with it directly.
-2. The Sage at (12, 3) will make the pillar passable if spoken to from a different adjacent tile, such as from the north (12, 2) or south (12, 4).
-3. A hidden switch exists on the floor in the accessible eastern area which, when activated, makes the pillar passable.
 
 ### Sprout Tower 1F Investigation
 - **Hypothesis:** Defeating the Sage on 2F would change the dialogue of the Sage at (7, 4) on 1F.
