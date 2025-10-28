@@ -85,12 +85,7 @@
 
 ## NPCs and Interactions
 - An NPC in a house on Route 30 mentioned that Berries can be found by checking trees.
-## Untested Assumptions (Turn 1819)
-- **Assumption:** The path to Violet City continues north on Route 30.
-- **Alternative Hypothesis:** The path might be on a different route entirely, or require an HM on a previous route. 
-- **Test:** If a full exploration of Route 30 yields no path, I will return to Cherrygrove City and Route 29 to search for alternate paths.
-
-## To-Do/Test
+## Past Assumptions (Resolved)
 - **WATER Tile:** Explicitly try to walk on a WATER tile to confirm it's impassable.
 - **Route 30 Northern Path:**
   - **Hypothesis:** The northern path on Route 30 leads to Violet City.
