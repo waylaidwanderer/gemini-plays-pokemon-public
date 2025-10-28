@@ -149,3 +149,7 @@
 1. The player must defeat all other trainers on Sprout Tower 2F before the Sage at (12, 3) will move the pillar again.
 2. There is a hidden pressure plate or floor switch somewhere on 2F that moves the pillar when stepped on.
 3. One of the other objects on 2F, such as a different, non-central pillar or a statue, is an interactable switch.
+### Sprout Tower Pillar Puzzle - Pressure Plate Test
+- **Hypothesis (from Agent):** There is a hidden pressure plate or floor switch somewhere on 2F that moves the pillar when stepped on.
+- **Test:** Systematically walked over every accessible tile on the eastern side of the floor.
+- **Conclusion:** No interaction occurred. Hypothesis is DEBUNKED.
