@@ -141,3 +141,6 @@
 
 ## Sprout Tower - Future Tasks
 - Unstun Sage (object ID 2) on Sprout Tower 1F before leaving the tower.
+
+## Future Agent Ideas
+- **notepad_refactor_assistant:** An agent that takes a high-level goal (e.g., "remove duplicates of section X") and generates the precise `replace` action to prevent errors during manual cleanup.
