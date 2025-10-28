@@ -110,3 +110,9 @@
   - **Alternative Hypothesis:** Sprout Tower could be the Gym itself, or a prerequisite challenge before the Gym.
   - **Test:** Find both locations and observe any connections or NPC dialogue that links them.
 *Type Effectiveness Discovery*: Ground is super-effective against Fire. (Verified in battle vs Falkner's Pidgey's MUD-SLAP).
+
+## Untested Assumptions (Turn 2391)
+- **Assumption:** Sprout Tower is in the northwest part of Violet City.
+  - **Alternative Hypothesis:** It could be in the northeast, or accessible via a path I haven't found yet, perhaps even requiring me to leave and re-enter the city from a different route.
+- **Assumption:** The path to Azalea Town is south of Violet City.
+  - **Alternative Hypothesis:** The path could be west, or require passing *through* Sprout Tower or another location first.
