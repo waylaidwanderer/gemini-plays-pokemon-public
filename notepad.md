@@ -204,3 +204,12 @@
 - **Conclusion:** No interaction occurred. Hypothesis is DEBUNKED for this specific tile.
 - **Test 2:** Stood at (3, 3) and pressed 'A'.
 - **Conclusion:** No interaction occurred. Hypothesis is DEBUNKED for this specific tile.
+
+### Violet City Gatehouse Warp Puzzle
+- **Observation:** A 1x2 warp at (39, 24) and (39, 25) with type `WARP_CARPET_RIGHT` is not activating. It is the only exit to Route 31 on the eastern side of the city.
+- **Hypothesis 1:** The warp is triggered by moving onto the lower tile (39, 25) from above.
+- **Test 1:** Moved from (39, 24) to (39, 25). **Conclusion:** Failed.
+- **Hypothesis 2:** The warp is triggered by moving onto the lower tile (39, 25) from the left.
+- **Test 2:** Moved from (38, 25) to (39, 25). **Conclusion:** Failed.
+- **Hypothesis 3:** The warp is triggered by moving onto the upper tile (39, 24) from the left.
+- **Test 3:** Moved from (38, 24) to (39, 24). **Conclusion:** Failed.
