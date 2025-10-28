@@ -85,7 +85,6 @@
 - `systematic_search`: Generates a path to visit all reachable tiles.
 
 ### Custom Agents (LLM)
-- `hypothesis_generator`: Generates new hypotheses when stuck.
 - `simple_battle_strategist`: Recommends actions in simple wild battles.
 - `notepad_refactor_assistant`: Takes a high-level refactoring goal and the current notepad content, then generates the precise 'new_text' for an 'overwrite' action in the `notepad_edit` tool to achieve the goal without losing critical information.
 
