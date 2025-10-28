@@ -143,3 +143,9 @@
 - **Hypothesis 7: Hidden item in isolated 1F area.**
   - **Test:** Attempted systematic search of all tiles.
   - **Conclusion:** FAILED. Search was interrupted by a scripted event that returned me to 2F, confirming the area is a dead end.
+### Sprout Tower Puzzle - New Hypotheses (from Agent)
+- **Hypothesis 1 (Agent):** A second Sage is hidden from view in a corner or behind the central pillar on 2F.
+- **Hypothesis 2 (Agent):** Using a specific Key Item from the inventory while facing the blocking wall at x=4 will open the path.
+- **Hypothesis 3 (Agent):** The way forward is dependent on the in-game time of day.
+- **Hypothesis 4 (Agent):** Defeating the Sage on 2F triggered a new event or NPC on 1F.
+- **Hypothesis 5 (Agent):** One of the southern wall tiles of the central pillar is an interactable switch.
