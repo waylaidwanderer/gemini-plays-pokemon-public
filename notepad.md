@@ -124,3 +124,7 @@
 
 ## System Limitations
 - The notepad_edit tool's 'replace' and 'overwrite' actions are non-functional for large-scale cleanup due to either character limits or an inability to find specified text. Concluding that the overwatch request to clean the duplicated sections is impossible due to tool limitations. Moving on.
+### Sprout Tower 1F Investigation (Post-2F Sage Defeat)
+- **Hypothesis:** Defeating the Sage on 2F would change the dialogue of the moving Sage at (7, 8) on 1F.
+- **Test:** Spoke to the Sage at (7, 8) after returning from 2F.
+- **Conclusion:** Dialogue was unchanged. Hypothesis is DEBUNKED.
