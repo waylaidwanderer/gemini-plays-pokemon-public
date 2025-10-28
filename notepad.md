@@ -124,3 +124,8 @@
 - **Hypothesis:** One of the northern pillar wall tiles (y=4) is an interactable switch.
 - **Test 1:** Interact with the pillar wall at (8, 4) from the tile above it (8, 3).
 - **Conclusion:** PENDING
+
+### Sprout Tower Puzzle - Systematic Pillar Test
+- **Hypothesis:** One of the northern pillar wall tiles (y=4) is an interactable switch.
+- **Test 1:** Interact with the pillar wall at (8, 4) from the tile above it (8, 3).
+- **Conclusion:** PENDING
