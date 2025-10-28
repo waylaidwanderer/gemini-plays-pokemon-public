@@ -246,5 +246,35 @@
         "action_counter": 1741
       }
     ]
+  },
+  "find_closest_unseen_tile": {
+    "description": "Analyzes a JSON string list of unseen tiles and finds the one closest to the player's current position using Manhattan distance.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "player_x": {
+          "type": "string"
+        },
+        "player_y": {
+          "type": "string"
+        },
+        "unseen_tiles_json": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "player_x",
+        "player_y",
+        "unseen_tiles_json"
+      ]
+    },
+    "python_script": "import json\n\nplayer_x = int(input_data['player_x'])\nplayer_y = int(input_data['player_y'])\nunseen_tiles_json = input_data['unseen_tiles_json']\n\nunseen_tiles = json.loads(unseen_tiles_json)\n\nif not unseen_tiles:\n    print(json.dumps({}))\nelse:\n    closest_tile = None\n    min_distance = float('inf')\n\n    for tile in unseen_tiles:\n        dist = abs(tile['x'] - player_x) + abs(tile['y'] - player_y)\n        if dist < min_distance:\n            min_distance = dist\n            closest_tile = tile\n\n    print(json.dumps(closest_tile))",
+    "history": [
+      {
+        "commit_message": "feat: Create tool to find closest unseen tile. This tool encapsulates the logic from a previous `run_code` script into a reusable function, as recommended by the Overwatch system. It takes player coordinates and a JSON list of unseen tiles, then calculates and returns the closest tile. This will streamline the exploration process by providing a clear, data-driven target.",
+        "timestamp": "2025-10-28T03:24:02.003Z",
+        "action_counter": 2554
+      }
+    ]
   }
 }
