@@ -142,8 +142,12 @@
 ## Sprout Tower - Future Tasks
 - Unstun Sage (object ID 2) on Sprout Tower 1F before leaving the tower.
 
+### Custom Agents (LLM)
+- `hypothesis_generator`: Generates new hypotheses when stuck.
+- `simple_battle_strategist`: Recommends actions in simple wild battles.
+- `notepad_refactor_assistant`: Takes a high-level refactoring goal and the current notepad content, then generates the precise 'new_text' for an 'overwrite' action in the `notepad_edit` tool to achieve the goal without losing critical information.
+
 ## Future Agent Ideas
-- **notepad_refactor_assistant:** An agent that takes a high-level goal (e.g., "remove duplicates of section X") and generates the precise `replace` action to prevent errors during manual cleanup.
 
 ## New Discoveries & Ideas (from Reflection)
 - **STATUE**: Impassable background object. (Verified on Sprout Tower 3F)
