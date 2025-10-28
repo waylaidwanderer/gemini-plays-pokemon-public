@@ -106,6 +106,8 @@ After exhausting all previous hypotheses, the `hypothesis_generator` provided th
 
 ### Sprout Tower Puzzle - New Hypotheses (from Agent - Turn 3301)
 1.  Pressing the 'interact' button while facing the eastern wall of the pillar will cause it to move.
+  - **Test:** Moved to (11, 1) and interacted with the wall at (10, 1).
+  - **Conclusion:** FAILED. Nothing happened. Hypothesis is debunked.
 2.  The pillar's 'flexible' nature means it can be pushed by walking into it for a sustained period of time.
 3.  Speaking to all NPCs on the floor again will reveal a new hint about how to pass the pillar.
 4.  Examining the floor tiles directly adjacent to the pillar reveals a hidden switch.
