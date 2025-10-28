@@ -78,7 +78,7 @@
 - **Hypothesis 13: The wall blocking the western section is an illusion or has a hidden switch.** (DEBUNKED)
 - **Hypothesis 14: The effect of interacting with the Sage at (12,3) is different depending on which adjacent tile the player stands on.** (DEBUNKED - Interaction from (12, 2) yielded the same result as (11, 3)).
 - **Hypothesis 15: A switch or path on the 3rd floor of Sprout Tower opens the western section of the 2nd floor.** (ACTIVE)
-- **Hypothesis 16: Stepping on a specific tile inside the temporarily passable central pillar triggers the opening of the western wall.** (ACTIVE)
+- **Hypothesis 16: Stepping on a specific tile inside the temporarily passable central pillar triggers the opening of the western wall.** (DEBUNKED - Walked across all internal tiles, no effect)
 
 ### Corrected Misunderstandings
 - The 'Poké Ball machine' in Elm's lab was a hallucination.
