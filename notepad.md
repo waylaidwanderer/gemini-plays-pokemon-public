@@ -87,17 +87,6 @@
 - **CRITICAL HALLUCINATION (Turn 2886):** Believed I was on Sprout Tower 2F at (6, 4) when I was actually on Sprout Tower 1F at (6, 3).
 - **Pathfinder Tool Issue:** The pathfinder was flagged as faulty. I have since fixed it by adding dynamic debug prints to better diagnose future issues.
 
-### Sprout Tower Puzzle 2 - Investigation Log
-- **Hypothesis 1 (Agent): The Sage who made the pillar passable must be spoken to again.**
-  - **Test:** Interact with the Sage at (12, 3) a second time.
-  - **Conclusion:** FAILED. The Sage repeated his original dialogue.
-- **Hypothesis 2 (Agent): Walking through the central pillar, now that it is passable, triggers a hidden event that opens the path.**
-  - **Test:** Walk through the central pillar area from east to west.
-  - **Conclusion:** FAILED. No event triggered.
-- **Hypothesis 3 (Agent): I must defeat every Sage on 2F in a battle to open the path.**
-  - **Test:** Find and defeat all Sages on the floor.
-  - **Conclusion:** PENDING
-
 ### Sprout Tower Puzzle - New Hypotheses (from Agent)
 - **Hypothesis 1 (Agent):** A second Sage is hidden from view in a corner or behind the central pillar on 2F.
 - **Hypothesis 2 (Agent):** Using a specific Key Item from the inventory while facing the blocking wall at x=4 will open the path.
