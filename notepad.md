@@ -70,7 +70,6 @@
   - Use Key Item on wall.
   - Defeating the Sage on 2F removes the wall at x=4.
   - An item or switch appeared on the tile where the Sage was defeated.
-  - The defeated Sage must be spoken to again to open the path.
 
   - Pressing 'interact' while facing the eastern wall of the pillar will cause it to move.
   - The pillar's 'flexible' nature means it can be pushed.
@@ -104,7 +103,6 @@
   - Use Key Item on wall.
   - Defeating the Sage on 2F removes the wall at x=4.
   - An item or switch appeared on the tile where the Sage was defeated.
-  - The defeated Sage must be spoken to again to open the path.
 
   - Pressing 'interact' while facing the eastern wall of the pillar will cause it to move.
   - The pillar's 'flexible' nature means it can be pushed.
