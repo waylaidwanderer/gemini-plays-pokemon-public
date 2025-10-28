@@ -144,14 +144,9 @@
 - **Test:** Interacted with SAGE CHOW at (3, 5).
 - **Conclusion:** The Sage gave flavor dialogue ("All living beings coexist through cooperation..."). The path did not open. Hypothesis is DEBUNKED.
 
-### Sprout Tower 1F - Wall Switch Test
-- **Hypothesis (from Agent):** A hidden switch has appeared on the wall at x=4.
-- **Test 1:** Stood at (3, 6) and pressed 'A' facing the wall at (4, 6).
-- **Conclusion:** No interaction occurred. Hypothesis is DEBUNKED for this specific wall segment.
-- **Test 2:** Stood at (3, 7) and pressed 'A' facing the wall at (4, 7).
-- **Conclusion:** No interaction occurred. Hypothesis is DEBUNKED for this specific wall segment.
-- **Test 3:** Stood at (3, 4) and pressed 'A' facing the wall at (4, 4).
-- **Conclusion:** No interaction occurred. Hypothesis is DEBUNKED for this specific wall segment.
+- **1F - Wall Switch Test:**
+  - **Hypothesis (from Agent):** A hidden switch has appeared on the wall at x=4.
+  - **Conclusion:** Systematically pressing 'A' on all adjacent wall segments yielded no results. Hypothesis is DEBUNKED.
 
 ### Sprout Tower 1F - Interactable Object Test
 - **Hypothesis (from Agent):** An object in the western section of the room, such as a pillar or statue, became interactable after defeating SAGE CHOW.
