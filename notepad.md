@@ -1,6 +1,8 @@
 ## Discoveries & Lessons Learned
 - Deferring tasks, like placing map markers, is a process violation. Significant events must be documented *immediately* in the turn they occur.
 - My `simple_battle_strategist` agent is underutilized and I will prioritize using it for all future wild battles to automate decision-making.
+- When stuck for more than 5 turns on a puzzle, I must use the `hypothesis_generator` agent.
+- Always check for existing map markers before creating a new one to avoid duplicates.
 
 ## General Discoveries
 - My biggest obstacle is my own memory. I must only trust in-game observation.
@@ -17,9 +19,9 @@
 *PC Storage*: Currently empty.
 
 ## Battle and Pokemon Information
-*My Party*: Ignis (CYNDAQUIL) Lv12, Aether (PIDGEY) Lv3.
+*My Party*: Ignis (QUILAVA) Lv14, Aether (PIDGEY) Lv3, EGG (TOGEPI) Lv5.
 *Ignis learned EMBER at Lv12.*
-*Type Effectiveness Chart*: To be built based on battle observations.
+*Type Effectiveness Chart*: Ground is super-effective against Fire. (Verified in battle vs Falkner's Pidgey's MUD-SLAP).
 
 ## Area and Navigation Insights
 
@@ -48,10 +50,19 @@
 - **WATER**: Impassable. (Verified by failed pathing attempts)
 - **WINDOW**: Impassable. (Verified)
 - **FLOOR_UP_WALL**: Appears to be impassable. (Hypothesis, needs verification)
+- **WARP_CARPET_RIGHT**: Traversable, acts as a warp tile. (Verified)
 
 ## Puzzles, Hypotheses & Assumptions
 
 ### Current Investigations
+- **Sprout Tower Navigation:**
+  - **Observation:** Sprout Tower's lower floors are divided by a central pillar, creating an eastern and western section.
+  - **Hypothesis 1:** The path to the third floor is on the eastern side of the tower.
+  - **Test 1:** Attempted to find a path from the eastern ladder on 2F to the western side. Used pathfinder multiple times.
+  - **Conclusion 1:** FAILED. No path exists across the 2F from the east side. The eastern section is a dead end for upward progression.
+  - **Hypothesis 2:** I must exit the tower from the eastern section of 1F and re-enter to find a new path.
+  - **Test 2:** Attempted to find a path from the eastern section of 1F to the main tower exit.
+  - **Conclusion 2:** FAILED. No path exists from the eastern 1F section to the main exit.
 
 ### Past Investigations & Solved Puzzles
 - **Fisher NPC Interaction Failure (New Bark Town):**
@@ -76,21 +87,8 @@
 - I must NEVER defer fixing a broken tool or agent. It is always the highest priority, overriding any in-game objective.
 
 ## NPCs and Interactions
-- An NPC in a house on Route 30 mentioned that Berries can be found by checking trees.
-
-  - **Hypothesis:** The northern path on Route 30 leads to Violet City.
-  - **Test:** Explored the entire northern corridor, including both the western and eastern ends.
-  - **Conclusion:** FAILED. The northern path is a dead end.
-- **Western Ledge Path:**
-  - **Hypothesis:** The path west over the ledges leads to Violet City.
-  - **Test:** Explored the entire path after jumping down the ledges.
-  - **Conclusion:** FAILED. This path is a small loop that leads to a dead end with a sign, forcing a return to the main path.
-## NPCs and Interactions
 - An Officer in the Route 31 Gatehouse mentioned visiting SPROUT TOWER.
 - An NPC in a house on Route 30 mentioned that Berries can be found by checking trees.
-- **WARP_CARPET_RIGHT**: Traversable, acts as a warp tile. (Verified)
-
-*Type Effectiveness Discovery*: Ground is super-effective against Fire. (Verified in battle vs Falkner's Pidgey's MUD-SLAP).
 
 ## Item Effects
 - **PRZCUREBERRY**: Cures paralysis. (Hypothesis based on name)
