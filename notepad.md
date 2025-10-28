@@ -15,9 +15,6 @@
 - Repeatedly interacting with an object (like a sign) without new results can lead to loops. I must dismiss dialogue before attempting to move.
 - The 'Select' button on the nicknaming screen toggles between uppercase and lowercase keyboards.
 
-## Future Agent Ideas
-- **puzzle_solver_assistant:** An agent to manage and prioritize hypotheses for complex puzzles.
-- **code_debugger:** An agent that takes code and an error message to suggest potential fixes.
 - **performance_analyst:** An agent to analyze my recent turns and suggest improvements based on my core principles.
 - **gym_prep_advisor:** An agent to help plan long-term goals, like what level my Pokemon should be for the next gym.
 - **pathfinder_diagnostician:** An agent to analyze the pathfinder's debug grid to suggest fixes or identify the cause of pathing failures.
