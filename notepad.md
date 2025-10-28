@@ -131,3 +131,9 @@
 ### Custom Agents (LLM)
 - `hypothesis_generator`
 - `simple_battle_strategist`
+## Future Agent Ideas
+- **pathing_assistant:** An agent to analyze a path and the current object list to identify potential blockages from moving NPCs.
+
+## Area and Navigation Insights
+### Tile Traversal and Movement Rules
+- **FLOOR_UP_WALL**: Appears to be impassable. (Hypothesis, needs verification by attempting to walk on it from all directions.)
