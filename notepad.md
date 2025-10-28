@@ -163,5 +163,5 @@
 ### Sprout Tower Puzzle - New Hypotheses (from Agent - Turn 3590)
 1. All other Sages on Sprout Tower 2F must be defeated before interacting with the Sage at (12, 3).
 2. The interaction with the Sage at (12, 3) only makes the pillar passable during a specific time of day (e.g., night).
-3. The player must have a specific Pokémon in the first slot of their party when interacting with the Sage at (12, 3).
+3. The player must have a specific Pokémon in the first slot of their party when interacting with the Sage at (12, 3). (DEBUNKED - Switched lead to Aether, no effect.)
 4. The floor tiles in the room with the Sage at (12,3) contain a visual pattern or clue that needs to be followed or replicated.
