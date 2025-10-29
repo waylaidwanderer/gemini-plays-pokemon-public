@@ -78,12 +78,12 @@
 ## NPCs and Interactions
 - YOUNGSTER at (5, 18) in Violet City mentioned a 'wiggly tree' that 'squirms and dances'. This is likely a hint about how to interact with HEADBUTT_TREEs.
 
-## My Active Custom Tools
+## My Custom Tools
 - `find_path_to_target`: My A* pathfinding tool to navigate to specific coordinates.
 - `find_reachable_unseen_tiles`: A BFS-based tool to find all reachable but unexplored map tiles.
 - `generate_nickname_inputs`: A tool to automate entering Pokémon nicknames.
 - `systematic_search`: A tool to methodically explore an area for hidden items.
-- `find_next_closest_unseen_tile`: A tool to intelligently select the next best exploration target from a list of unseen tiles.
+- `find_closest_reachable_unseen_tile`: A combined tool that finds all reachable unseen tiles and returns the closest one.
 
 ## Future Agent Ideas
 - **performance_analyst:** An agent to analyze my recent turns and suggest improvements based on my core principles.
