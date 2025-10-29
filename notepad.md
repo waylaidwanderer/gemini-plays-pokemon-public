@@ -127,4 +127,4 @@
 
 ## Route 33
 - Hiker Anthony is on this route, but his exact location is unconfirmed.
-- A Pokefan M trainer is located at (6, 13).
+- Hiker Anthony is located at (6, 13). He doesn't battle but gives his phone number.
