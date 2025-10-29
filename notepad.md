@@ -86,6 +86,7 @@
 
 ### Azalea Town
 - The warps to the Gym (10, 15) and Slowpoke Well (31, 7) are currently blocked by Team Rocket grunts. I cannot reach them to investigate and mark them until I find a way to move the grunts.
+- Hiker Anthony called to say there are lots of DUNSPARCE in DARK CAVE.
 
 ## Untested Assumptions & Future Tests
 - Test the damage of EMBER vs. QUICK ATTACK on a Water-type.
@@ -121,4 +122,3 @@
 
 ## Tool Issues & Bugs
 - The built-in `select_battle_option` tool failed during a trainer battle (Turn 6112), claiming the battle menu was not visible when it was. The tool is unreliable and should not be used. Manual battle menu navigation is required until a fix is identified.
-*Hiker Anthony called to say there are lots of DUNSPARCE in DARK CAVE.*
