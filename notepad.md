@@ -53,8 +53,9 @@
 - **TV**: Impassable. (Verified)
 - **VOID**: Impassable. (Verified)
 - **WALL**: Impassable. (Verified)
-- **WARP_CARPET_DOWN/RIGHT**: Traversable warp. The 'DOWN' variant requires pressing 'Down' on the tile to activate. (Verified)
-- **WARP_CARPET_LEFT**: Traversable, acts as a warp tile. (Verified)
+- **WARP_CARPET_DOWN**: Traversable warp. Requires pressing 'Down' on the tile to activate. (Verified)
+- **WARP_CARPET_LEFT**: Traversable warp. Must be activated by moving left onto the tile. (Verified)
+- **WARP_CARPET_RIGHT**: Traversable warp. Must be activated by moving right onto the tile. (Verified)
 - **WATER**: Impassable. (Verified by pathing attempts)
 - **WINDOW**: Impassable. (Verified)
 
@@ -85,14 +86,20 @@
 - Hiker Anthony is on this route. He gives his phone number instead of battling.
 
 ### Azalea Town
-- The warps to the Gym (10, 15) and Slowpoke Well (31, 7) are currently blocked by Team Rocket grunts. I cannot reach them to investigate and mark them until I find a way to move the grunts.
 - Hiker Anthony called to say there are lots of DUNSPARCE in DARK CAVE.
 - **CONFIRMED LEAD:** The Charcoal Man's apprentice is at (7, 28) in Ilex Forest. His FARFETCH'D, which knows CUT, has run off. I need to find the FARFETCH'D to get CUT. This was mentioned by a Youngster (6, 9) and the Charcoal Man himself (2, 3).
 
+## Puzzles & Solutions
+### Ilex Forest FARFETCH'D Puzzle
+- **Objective:** Herd the FARFETCH'D back to the apprentice at (7, 28).
+- **Mechanic:** The FARFETCH'D moves in response to player interaction. The direction it moves seems to depend on the direction the player is facing when interacting.
+- **Attempt 1:** Interacted with FARFETCH'D at (15, 25) while standing at (15, 26) (facing up). It moved east to (20, 24).
+- **Alternative Hypothesis 1:** The FARFETCH'D moves to pre-scripted points regardless of player position. Test: Interact from the same direction twice and see if the outcome is different.
+- **Alternative Hypothesis 2:** The goal is not to herd it all the way to the apprentice, but to trap it or lead it to a specific trigger point.
+
 ## Untested Assumptions & Future Tests
 - Test the damage of EMBER vs. QUICK ATTACK on a Water-type.
-- Test one-way ledges (`LEDGE_HOP_DOWN`) by trying to move up them.
-- Test movement off a `LEDGE_HOP_DOWN` tile in all directions (sideways, up) to verify it's not just a one-way-down path.
+- Test one-way ledges (`LEDGE_HOP_DOWN`) by trying to move up *and sideways* off them to fully verify movement restrictions.
 - Test `HEADBUTT_TREE`s by interacting with them with different Pokémon in the lead to see if any move can be used.
 - Test traversability of BUOY tiles.
 - Test movement off a FLOOR_UP_WALL tile in all directions (sideways, down) to verify it's not just a one-way-up path.
@@ -100,12 +107,10 @@
   1. All other Sages on Sprout Tower 2F must be defeated before interacting with the Sage at (12, 3).
   2. The interaction with the Sage at (12, 3) only makes the pillar passable during a specific time of day (e.g., night).
   3. The floor tiles in the room with the Sage at (12,3) contain a visual pattern or clue that needs to be followed or replicated.
-### Ilex Forest
-1. The apprentice might not give me CUT directly; the reward could be something else or he might just have dialogue.
-2. The west exit of Azalea Town may lead to another route before reaching Ilex Forest.
 
 ## Future Agent & Tool Ideas
 - Pathing Strategist Agent: Could suggest stun-vs-reroute strategies for dealing with moving NPCs.
+- Puzzle Solver Agent: Could analyze the state of a puzzle (like the FARFETCH'D herding) and suggest the optimal next move.
 
 ## Critical Self-Correction Log
 - The 'Poké Ball machine' in Elm's lab was a hallucination.
@@ -126,14 +131,3 @@
 
 ## Tool Issues & Bugs
 - The built-in `select_battle_option` tool failed during a trainer battle (Turn 6112), claiming the battle menu was not visible when it was. The tool is unreliable and should not be used. Manual battle menu navigation is required until a fix is identified.
-- **WARP_CARPET_LEFT**: Traversable warp. Must be activated by moving left onto the tile. (Verified)
-- Test movement off a `WARP_CARPET_RIGHT` tile in all directions to verify its activation mechanic.
-### Ilex Forest - Alternative Hypotheses
-1. The warp at (9, 5) in the gatehouse might not lead to the forest, but back to town or elsewhere.
-2. The apprentice might not give me CUT directly, but instead trigger an event where the Charcoal Man gives it to me as a reward for finding him.
-- Reminder: Investigate and mark the undiscovered warp at (3, 43) in Ilex Forest.
-## Puzzles & Solutions
-### Ilex Forest FARFETCH'D Puzzle
-- **Objective:** Herd the FARFETCH'D back to the apprentice at (7, 28).
-- **Mechanic:** The FARFETCH'D moves in response to player interaction. The direction it moves seems to depend on the direction the player is facing when interacting.
-- **Attempt 1:** Interacted with FARFETCH'D at (15, 25) while standing at (15, 26) (facing up). It moved east to (20, 24).
