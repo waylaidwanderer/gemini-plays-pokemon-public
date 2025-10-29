@@ -27,6 +27,7 @@
 *Ignis grew to Lv19 after defeating Fisher Ralph's Goldeen.*
 *Ignis grew to Lv21 and learned QUICK ATTACK, replacing SMOKESCREEN.*
 *Ignis grew to Lv23 after defeating a Rocket Grunt's Koffing.*
+*Ignis grew to Lv24 after defeating Bugsy's Metapod.*
 *Type Effectiveness Chart*:
 - Ground is super-effective against Fire. (Verified in battle vs Falkner's Pidgey's MUD-SLAP).
 - Normal is not very effective against Rock/Ground. (Verified in battle vs Hiker Daniel's Onix).
