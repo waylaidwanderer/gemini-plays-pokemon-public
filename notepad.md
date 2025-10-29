@@ -91,7 +91,7 @@
 - `find_closest_reachable_unseen_tile`: A combined tool that finds all reachable unseen tiles and returns the closest one.
 
 ## My Custom Agents
-- `simple_battle_strategist`: Agent for automating wild battle decisions. (LIMITATION: Does not account for move PP.)
+- `simple_battle_strategist`: Agent for automating wild battle decisions.
 - `notepad_refactor_assistant`: An agent to refactor and restructure this notepad.
 
 ## Future Tool/Agent Ideas
