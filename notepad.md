@@ -190,3 +190,4 @@
 - **(High Priority):** Refactor `find_path_to_target` and `find_closest_reachable_unseen_tile` to eliminate duplicated A* logic. Create a single, shared A* implementation.
 - Test traversability of BUOY tiles.
 - Prioritize creating a `puzzle_solver_assistant` agent to help with complex interaction puzzles.
+- **puzzle_solver_assistant (Agent):** An agent to systematically guide the puzzle-solving process, suggesting hypotheses and tests.
