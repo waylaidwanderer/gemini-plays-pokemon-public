@@ -24,12 +24,14 @@
 *Ignis learned EMBER at Lv12.*
 *Ignis grew to Lv15 after defeating a wild Gastly.*
 *Ignis grew to level 18 after defeating Picnicker Liz's Nidoran.*
+*Ignis grew to Lv19 after defeating Fisher Ralph's Goldeen.*
 *Type Effectiveness Chart*: Ground is super-effective against Fire. (Verified in battle vs Falkner's Pidgey's MUD-SLAP).
 
 ## Area and Navigation Insights
 
 ### Tile Traversal and Movement Rules
 - **BOOKSHELF**: Impassable. (Verified)
+- **BUOY**: Traversability unknown, assumed impassable. (Observed on Route 32)
 - **COUNTER**: Impassable. (Verified by observation)
 - **CUT_TREE**: Impassable, requires a specific ability/item to remove. (Verified)
 - **DOOR**: Traversable, acts as a warp tile. (Verified)
@@ -93,10 +95,11 @@
 - `notepad_refactor_assistant`: An agent to refactor and restructure this notepad.
 
 ## Future Tool/Agent Ideas
+- **audit_agent (Agent):** An agent to analyze a log of recent turns and identify any deviations from my core principles, such as deferred data management tasks.
 - **performance_analyst (Agent):** An agent to analyze my recent turns and suggest improvements based on my core principles, such as detecting unproductive loops.
 - **gym_prep_advisor (Agent):** An agent to help plan long-term goals, like what level my Pokemon should be for the next gym.
 - **pathfinder_diagnostician (Agent):** An agent to analyze the pathfinder's debug grid to suggest fixes or identify the cause of pathing failures.
-- **exploration_planner (Tool):** A tool that finds all reachable unseen tiles and then uses the pathfinder to determine the one with the shortest actual travel distance, not just straight-line distance.
+- **exploration_planner (Tool):** This tool should combine `find_reachable_unseen_tiles` and `find_path_to_target`. It would find *all* reachable unseen tiles, then use the A* algorithm to calculate the actual travel distance to an adjacent tile for each, returning the target with the shortest true path.
 - **pathing_assistant (Agent):** An agent that suggests alternative navigation strategies (e.g., backtracking, intermediate points) when the primary pathfinder fails.
 - **complex_battle_strategist (Agent):** An advanced battle agent that considers type effectiveness, status moves, and other battle complexities.
 
@@ -169,9 +172,3 @@ Task: Test moving UP onto a FLOOR_UP_WALL tile.
 - **Test:** Followed a path plan to (6, 53).
 - **Conclusion:** Movement was blocked at (6, 54). Hypothesis is DEBUNKED.
 - **New Hypothesis:** I must interact with the Poké Ball from an adjacent tile.
-*Ignis grew to Lv19 after defeating Fisher Ralph's Goldeen.*
-
-### Reflection-Based Updates (Turn 5043)
-- **New Tile Type:** BUOY (Observed on Route 32. Traversability unknown, assumed impassable.)
-- **New Agent Idea:** `audit_agent` - An agent to analyze a log of recent turns and identify any deviations from my core principles, such as deferred data management tasks.
-- **Tool Idea Refinement:** `exploration_planner` - This tool should combine `find_reachable_unseen_tiles` and `find_path_to_target`. It would find *all* reachable unseen tiles, then use the A* algorithm to calculate the actual travel distance to an adjacent tile for each, returning the target with the shortest true path. This is a significant improvement over the current two-step process that relies on simple Manhattan distance.
