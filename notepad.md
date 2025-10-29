@@ -148,3 +148,4 @@
   - **puzzle_solver_assistant (Agent):** An agent to systematically guide the puzzle-solving process, suggesting hypotheses and tests.
   - **long_distance_pathfinder (Tool):** A tool optimized for finding paths across multiple maps, not just the one.
   - **generate_move_selection_inputs (Tool):** A tool to automate selecting a move from the battle menu.
+*Ignis grew to Lv21 and learned QUICK ATTACK, replacing SMOKESCREEN.*
