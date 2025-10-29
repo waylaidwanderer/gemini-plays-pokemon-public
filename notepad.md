@@ -68,7 +68,7 @@
 - **TV**: Impassable. (Verified)
 - **VOID**: Impassable. (Verified)
 - **WALL**: Impassable. (Verified)
-- **WARP_CARPET_DOWN/RIGHT**: Traversable, acts as a two-way warp tile. (Verified)
+- **WARP_CARPET_DOWN/RIGHT**: Traversable warp. The 'DOWN' variant requires pressing 'Down' on the tile to activate. (Verified)
 - **WARP_CARPET_LEFT**: Traversable, acts as a warp tile. (Verified)
 - **WATER**: Impassable. (Verified by pathing attempts)
 - **WINDOW**: Impassable. (Verified)
@@ -99,14 +99,6 @@
 - **Route 32 Pathing:** Conclusion: The eastern and western paths are separate at the northern end. The eastern path is a dead end due to one-way ledges.
 - **Route 32 Item Pickup:** Conclusion: An item in a Poké Ball on the ground must be interacted with from an adjacent tile, not by walking onto it.
 - **Route 32 Hidden Item (SUPER POTION):** Conclusion: The hidden item at (11, 40) was successfully retrieved by approaching from an adjacent tile ((10, 40)) while already facing the item, then pressing 'A'.
-
-## Current Objectives & Open Puzzles
-
-### General Tasks & Tests
-- Test one-way ledges by trying to move up them.
-- Test traversability of BUOY tiles.
-
-### Ongoing Puzzles
 - **Sprout Tower Puzzle - New Hypotheses (from Agent - Turn 3590):**
   1. All other Sages on Sprout Tower 2F must be defeated before interacting with the Sage at (12, 3).
   2. The interaction with the Sage at (12, 3) only makes the pillar passable during a specific time of day (e.g., night).
@@ -121,10 +113,15 @@
   - **New Hypothesis:** The name `WARP_CARPET_DOWN` implies I must press 'Down' while standing on the tile to activate it.
   - **Test:** Pressing 'Down' while at (17, 3).
 
+## Current Objectives & Open Puzzles
+
+### General Tasks & Tests
+- Test one-way ledges by trying to move up them.
+- Test traversability of BUOY tiles.
+
 ## Untested Assumptions & Future Tests
 - Test the damage of EMBER vs. QUICK ATTACK on a Water-type.
 - Fully test the traversability of `FLOOR_UP_WALL` tiles.
 
 ## Route 33
-- Hiker Anthony is on this route, but his exact location is unconfirmed.
-- Hiker Anthony is located at (6, 13). He doesn't battle but gives his phone number.
+- Hiker Anthony is on this route. He gives his phone number instead of battling.
