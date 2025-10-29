@@ -22,6 +22,7 @@
 ## Battle and Pokemon Information
 *Ignis learned EMBER at Lv12.*
 *Ignis grew to Lv15 after defeating a wild Gastly.*
+*Ignis grew to level 18 after defeating Picnicker Liz's Nidoran.*
 *Type Effectiveness Chart*: Ground is super-effective against Fire. (Verified in battle vs Falkner's Pidgey's MUD-SLAP).
 
 ## Area and Navigation Insights
@@ -77,12 +78,12 @@
 ## NPCs and Interactions
 - YOUNGSTER at (5, 18) in Violet City mentioned a 'wiggly tree' that 'squirms and dances'. This is likely a hint about how to interact with HEADBUTT_TREEs.
 
-## My Custom Tools
-- `find_path_to_target`: A pathfinding tool to navigate to specific (x, y) coordinates.
-- `find_reachable_unseen_tiles`: A tool to identify all currently reachable but unexplored map tiles.
-- `generate_nickname_inputs`: A tool to generate the sequence of button presses for nicknaming a Pokémon.
-- `systematic_search`: A tool to methodically explore a defined area by interacting with every object and stepping on every tile.
-- `find_next_closest_unseen_tile`: A tool to find the single closest unexplored tile.
+## My Active Custom Tools
+- `find_path_to_target`: My A* pathfinding tool to navigate to specific coordinates.
+- `find_reachable_unseen_tiles`: A BFS-based tool to find all reachable but unexplored map tiles.
+- `generate_nickname_inputs`: A tool to automate entering Pokémon nicknames.
+- `systematic_search`: A tool to methodically explore an area for hidden items.
+- `find_next_closest_unseen_tile`: A tool to intelligently select the next best exploration target from a list of unseen tiles.
 
 ## Future Agent Ideas
 - **performance_analyst:** An agent to analyze my recent turns and suggest improvements based on my core principles.
