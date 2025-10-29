@@ -37,6 +37,7 @@
 *Ignis grew to Lv15 after defeating a wild Gastly.*
 *Ignis grew to level 18 after defeating Picnicker Liz's Nidoran.*
 *Ignis grew to Lv19 after defeating Fisher Ralph's Goldeen.*
+*Ignis grew to Lv21 and learned QUICK ATTACK, replacing SMOKESCREEN.*
 *Type Effectiveness Chart*:
 - Ground is super-effective against Fire. (Verified in battle vs Falkner's Pidgey's MUD-SLAP).
 - Normal is not very effective against Rock/Ground. (Verified in battle vs Hiker Daniel's Onix).
@@ -119,31 +120,6 @@
     3. Stepping onto the tile from the left (16, 3). (FAILED)
   - **New Hypothesis:** The name `WARP_CARPET_DOWN` implies I must press 'Down' while standing on the tile to activate it.
   - **Test:** Pressing 'Down' while at (17, 3).
-
-## My Tools & Agents
-
-### Available Tools & Agents
-- **Built-in Tools:** `notepad_edit`, `run_code`, `define_agent`, `delete_agent`, `define_tool`, `delete_tool`, `define_map_marker`, `delete_map_marker`, `stun_npc`, `select_battle_option`.
-- **Custom Tools:** `find_path_to_target`, `find_reachable_unseen_tiles`, `generate_nickname_inputs`, `systematic_search`, `exploration_planner`.
-- **Custom Agents:** `simple_battle_strategist`, `notepad_refactor_assistant`.
-
-### Development Goals
-- **Tool Refactoring:**
-  - Refactor my pathfinding tools (`find_path_to_target`, `find_reachable_unseen_tiles`, `exploration_planner`, `systematic_search`) to eliminate duplicated A* logic and use a single, shared implementation.
-- **Future Tools & Agents Wishlist:**
-  - **audit_agent (Agent):** An agent to analyze a log of recent turns and identify any deviations from my core principles, such as deferred data management tasks.
-  - **performance_analyst (Agent):** An agent to analyze my recent turns and suggest improvements based on my core principles, such as detecting unproductive loops.
-  - **gym_prep_advisor (Agent):** An agent to help plan long-term goals, like what level my Pokemon should be for the next gym.
-  - **pathfinder_diagnostician (Agent):** (HIGH PRIORITY - per critique) An agent to analyze the pathfinder's debug grid to suggest fixes or identify the cause of pathing failures.
-  - **pathing_assistant (Agent):** An agent that suggests alternative navigation strategies (e.g., backtracking, intermediate points) when the primary pathfinder fails.
-  - **complex_battle_strategist (Agent):** An advanced battle agent that considers type effectiveness, status moves, and other battle complexities.
-  - **puzzle_solver_assistant (Agent):** An agent to systematically guide the puzzle-solving process, suggesting hypotheses and tests.
-  - **long_distance_pathfinder (Tool):** A tool optimized for finding paths across multiple maps, not just the one.
-  - **generate_move_selection_inputs (Tool):** A tool to automate selecting a move from the battle menu.
-*Ignis grew to Lv21 and learned QUICK ATTACK, replacing SMOKESCREEN.*
-
-## Agent & Tool Refinement Log
-- Improve `simple_battle_strategist` to consider type effectiveness.
 
 ## Untested Assumptions & Future Tests
 - Test the damage of EMBER vs. QUICK ATTACK on a Water-type.
