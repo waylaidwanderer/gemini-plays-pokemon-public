@@ -132,3 +132,6 @@
 ## Tool Issues & Bugs
 - The built-in `select_battle_option` tool failed in turn 6112. However, in a later turn (6439), I used it redundantly by also providing manual button presses. This indicates a lack of trust in my own tools. I must trust my tools and use them as intended.
 - **Attempt 2:** Interacted with FARFETCH'D at (20, 24) while standing at (20, 23) (facing down). It turned to face up but did not move. Hypothesis: Path was blocked by trees behind it. After I cleared the dialogue, the FARFETCH'D disappeared.
+## Reflection Log (Turn 6498)
+- **New Agent Idea:** A 'Puzzle Solver Agent' could be developed for the FARFETCH'D puzzle. It would take the current state (player position, bird position, known movement rules) and suggest the optimal next move to herd it.
+- **New Test:** Need to fully verify one-way ledge mechanics by attempting to move sideways off a ledge, in addition to up.
