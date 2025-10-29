@@ -149,3 +149,8 @@
   - **long_distance_pathfinder (Tool):** A tool optimized for finding paths across multiple maps, not just the one.
   - **generate_move_selection_inputs (Tool):** A tool to automate selecting a move from the battle menu.
 *Ignis grew to Lv21 and learned QUICK ATTACK, replacing SMOKESCREEN.*
+
+## 50-Turn Reflection (Turn 5823)
+- **Data Management:** I have repeatedly failed to mark new objects *immediately* upon discovery, violating a core principle. This must be corrected. Data management (markers, notepad, agent/tool fixes) is always the highest priority action.
+- **Agent Wishlist:** An `npc_profiler` agent could be useful for classifying NPCs based on their dialogue to distinguish between trainers, quest-givers, and flavor text.
+- **Untested Assumptions:** I am assuming the agent's EMBER recommendation vs. SLOWPOKE was a clever calculation, not a bug. I must test this by finding another Water-type to see if it repeats this behavior.
