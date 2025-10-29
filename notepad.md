@@ -164,3 +164,4 @@
 - Test traversability of BUOY tiles.
 - Prioritize creating a `puzzle_solver_assistant` agent to help with complex interaction puzzles.
 - **puzzle_solver_assistant (Agent):** An agent to systematically guide the puzzle-solving process, suggesting hypotheses and tests.
+- **Trainer Identification:** I must verify the name and location of a trainer before marking them as defeated to prevent misidentification errors like the Hiker Daniel/Russell mix-up.
