@@ -169,3 +169,4 @@ Task: Test moving UP onto a FLOOR_UP_WALL tile.
 - **Test:** Followed a path plan to (6, 53).
 - **Conclusion:** Movement was blocked at (6, 54). Hypothesis is DEBUNKED.
 - **New Hypothesis:** I must interact with the Poké Ball from an adjacent tile.
+*Ignis grew to Lv19 after defeating Fisher Ralph's Goldeen.*
