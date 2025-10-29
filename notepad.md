@@ -87,11 +87,12 @@
 ### Azalea Town
 - The warps to the Gym (10, 15) and Slowpoke Well (31, 7) are currently blocked by Team Rocket grunts. I cannot reach them to investigate and mark them until I find a way to move the grunts.
 - Hiker Anthony called to say there are lots of DUNSPARCE in DARK CAVE.
-- A Youngster at (6, 9) and the Charcoal Man (Black Belt) have both indicated that the Charcoal Man's apprentice, who knows CUT, is missing in ILEX FOREST. This is a confirmed lead.
+- **CONFIRMED LEAD:** The Charcoal Man's apprentice, who knows CUT, is missing in ILEX FOREST. This was mentioned by a Youngster (6, 9) and the Charcoal Man himself (2, 3).
 
 ## Untested Assumptions & Future Tests
 - Test the damage of EMBER vs. QUICK ATTACK on a Water-type.
 - Test one-way ledges (`LEDGE_HOP_DOWN`) by trying to move up them.
+- Test movement off a `LEDGE_HOP_DOWN` tile in all directions (sideways, up) to verify it's not just a one-way-down path.
 - Test `HEADBUTT_TREE`s by interacting with them with different Pokémon in the lead to see if any move can be used.
 - Test traversability of BUOY tiles.
 - Test movement off a FLOOR_UP_WALL tile in all directions (sideways, down) to verify it's not just a one-way-up path.
@@ -99,9 +100,12 @@
   1. All other Sages on Sprout Tower 2F must be defeated before interacting with the Sage at (12, 3).
   2. The interaction with the Sage at (12, 3) only makes the pillar passable during a specific time of day (e.g., night).
   3. The floor tiles in the room with the Sage at (12,3) contain a visual pattern or clue that needs to be followed or replicated.
-- **Azalea Gym Puzzle Hypotheses:**
-  1. The two trainers (TWINs at (4, 10) and (5, 10)) must be defeated to unlock a path forward.
-  2. There are hidden switches or levers that control the platforms/bridges in the gym.
+### Ilex Forest
+1. The apprentice might not give me CUT directly; the reward could be something else or he might just have dialogue.
+2. The west exit of Azalea Town may lead to another route before reaching Ilex Forest.
+
+## Future Agent & Tool Ideas
+- Pathing Strategist Agent: Could suggest stun-vs-reroute strategies for dealing with moving NPCs.
 
 ## Critical Self-Correction Log
 - The 'Poké Ball machine' in Elm's lab was a hallucination.
