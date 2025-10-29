@@ -89,7 +89,8 @@
 - `find_reachable_unseen_tiles`: A BFS-based tool to find all reachable but unexplored map tiles.
 - `generate_nickname_inputs`: A tool to automate entering Pokémon nicknames.
 - `systematic_search`: A tool to methodically explore an area for hidden items.
-- `find_closest_reachable_unseen_tile`: A combined tool that finds all reachable unseen tiles and returns the closest one.
+- `exploration_planner`: This tool streamlines the exploration process by combining the logic of finding the closest unseen tile and pathfinding.
+- `select_battle_option`: Automatically selects a main battle menu option (FIGHT, PKMN, PACK, RUN).
 
 ## My Custom Agents
 - `simple_battle_strategist`: Agent for automating wild battle decisions.
