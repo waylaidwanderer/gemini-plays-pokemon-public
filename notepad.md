@@ -172,3 +172,15 @@ Task: Test moving UP onto a FLOOR_UP_WALL tile.
 - **Test:** Followed a path plan to (6, 53).
 - **Conclusion:** Movement was blocked at (6, 54). Hypothesis is DEBUNKED.
 - **New Hypothesis:** I must interact with the Poké Ball from an adjacent tile.
+
+## Notepad Additions (Turn 5148)
+
+### New Tile Types
+- **CAVE**: Traversable warp.
+
+### New Future Tasks
+- Test one-way ledges by trying to move up them.
+
+### New Tool/Agent Ideas
+- **puzzle_solver_assistant (Agent):** An agent to systematically guide the puzzle-solving process, suggesting hypotheses and tests.
+- **long_distance_pathfinder (Tool):** A tool optimized for finding paths across multiple maps, not just the current one.
