@@ -128,40 +128,10 @@
   - **New Plan:** I am abandoning this route and will now pivot to exploring all unseen areas of Violet City, starting with the west side. This path is a confirmed dead end for now.
 
 ### Sprout Tower
-- **Sprout Tower 1F Pathing Failure Investigation:**
-  - **Hypothesis:** The `find_path_to_target` tool was broken because it failed to find a path to the Sage at (3, 5).
-  - **Test:** Added a debug print to visualize the tool's internal traversability grid.
-  - **Conclusion:** The tool is working correctly. The debug grid confirmed that a solid wall at x=4 divides the first floor into two unreachable sections. My fundamental understanding of the map was incorrect. The Sage at (3, 5) is unreachable from the eastern side of the tower.
-- **1F Investigation:**
-  - **Hypothesis:** Defeating the Sage on 2F would change the dialogue of the Sage at (7, 4) on 1F.
-  - **Test:** Spoke to the Sage at (7, 4) after returning from 2F.
-  - **Conclusion:** Dialogue was unchanged. Hypothesis is DEBUNKED.
-- **1F - Secret Path Investigation:**
-  - **Hypothesis:** Defeating SAGE CHOW made the wall at (4, 6) passable.
-  - **Test:** Attempted to walk right from (3, 6) into the wall at (4, 6).
-  - **Conclusion:** Movement was blocked. The wall is still solid. Hypothesis is DEBUNKED.
-- **Sprout Tower 1F - Re-interaction Test:**
-  - **Hypothesis (from Agent):** Talking to SAGE CHOW again after the battle will cause him to open the path.
-  - **Test:** Interacted with SAGE CHOW at (3, 5).
-  - **Conclusion:** The Sage gave flavor dialogue (\"All living beings coexist through cooperation...\"). The path did not open. Hypothesis is DEBUNKED.
-- **1F - Wall Switch Test:**
-  - **Hypothesis (from Agent):** A hidden switch has appeared on the wall at x=4.
-  - **Conclusion:** Systematically pressing 'A' on all adjacent wall segments yielded no results. Hypothesis is DEBUNKED.
-- **1F - Interactable Object Test:**
-  - **Hypothesis (from Agent):** An object in the western section became interactable after defeating SAGE CHOW.
-  - **Conclusion:** Attempted to interact with pillars at (3,8) and (2,8). No interaction occurred. Hypothesis is DEBUNKED.
-- **1F - Hidden Item & Floor Switch Tests:**
-  - **Hypothesis (from Agent):** A hidden item or switch appeared in the western section after defeating SAGE CHOW.
-  - **Conclusion:** Systematically interacting with the floor and the Sage's original tile yielded no results. Hypothesis is DEBUNKED.
-- **Pillar Puzzle Tests (2F):**
-  - **Hypothesis 4 (Agent):** Defeating the Sage on 2F triggered a new event or NPC on 1F. (DEBUNKED)
-  - **Hypothesis 5 (Agent):** One of the southern wall tiles of the central pillar is an interactable switch. (DEBUNKED)
-  - **Direct Interaction Test:** Interacting directly with the pillar wall from an adjacent tile will trigger an event. (DEBUNKED for eastern side)
-  - **Re-interaction Test:** Talking to the Sage at (12, 3) a second time will make the pillar move. (DEBUNKED)
-  - **Positional Interaction Test:** Interacting with the Sage at (12, 3) from a different adjacent tile will re-trigger the pillar event. (DEBUNKED)
-  - **Repeat Interaction Test:** Re-interacting with the Sage at (12, 3) from the original trigger spot (11, 3) will repeat the event. (DEBUNKED)
-  - **Pressure Plate Test:** There is a hidden pressure plate on 2F. (DEBUNKED for eastern side)
-  - **Interactable Object Test:** Another object on 2F is an interactable switch. (DEBUNKED for wall segment at (8,4))
+- **Sprout Tower:**
+  - The `find_path_to_target` tool was correct; a solid wall at x=4 divides the first floor, making the Sage at (3, 5) unreachable from the east.
+  - Defeating Sages or re-interacting with them does not open new paths, reveal switches, or change dialogue on 1F.
+  - Numerous simple interaction tests (re-interacting with the Sage, checking other objects/walls, etc.) on 2F have failed to make the central pillar move again.
 
 ### Route 32
 - **Route 32 Pathing Investigation:**
