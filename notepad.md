@@ -148,3 +148,7 @@
 ## Untested Assumptions & Future Tests
 - Test the damage of EMBER vs. QUICK ATTACK on a Water-type.
 - Fully test the traversability of `FLOOR_UP_WALL` tiles.
+
+## Route 33
+- Hiker Anthony is on this route, but his exact location is unconfirmed.
+- A Pokefan M trainer is located at (6, 13).
