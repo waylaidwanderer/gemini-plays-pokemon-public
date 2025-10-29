@@ -184,3 +184,6 @@
 ## Route 32 Layout Correction
 - The eastern path of Route 32 is a dead end, separated from the western path by one-way ledges and walls. From the area south of the Union Cave exit, it is impossible to proceed further south or west. The only exit is back north through Union Cave.
 - **FLOOR_UP_WALL**: One-way traversal. Can only be entered by moving up onto it. (Verified on Route 32)
+
+## Union Cave B1F Layout Correction
+- The basement area accessible from the ladder at (5, 19) on 1F is a large dead end. The entire reachable area was explored via BFS, and it has no exits other than the ladder back up. This was confirmed by the `exploration_planner` tool correctly finding zero reachable unseen tiles.
