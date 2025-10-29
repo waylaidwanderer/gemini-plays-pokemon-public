@@ -185,3 +185,4 @@ Task: Test moving UP onto a FLOOR_UP_WALL tile.
 - **puzzle_solver_assistant (Agent):** An agent to systematically guide the puzzle-solving process, suggesting hypotheses and tests.
 - **long_distance_pathfinder (Tool):** A tool optimized for finding paths across multiple maps, not just the current one.
 - Refactor 'Debunked Hypotheses' section into smaller chunks using 'replace'.
+- Refactor 'Debunked Hypotheses' section into smaller chunks using 'replace'.
