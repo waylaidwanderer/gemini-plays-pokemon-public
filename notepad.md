@@ -129,3 +129,4 @@
 - Test one-way ledges (`LEDGE_HOP_DOWN`) by trying to move up them.
 - Test `HEADBUTT_TREE`s by interacting with them with different Pokémon in the lead to see if any move can be used.
 - Test traversability of BUOY tiles.
+- Azalea Town Youngster at (6, 9) mentioned the Charcoal Man's Pokémon can use CUT to get through Ilex Forest.
