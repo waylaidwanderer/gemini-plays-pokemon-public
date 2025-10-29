@@ -9,8 +9,6 @@
 - **TRUST OBSERVATION:** My biggest obstacle is my own memory. I must only trust in-game observation.
 - **Trainer Identification:** I must verify the name and location of a trainer before marking them as defeated to prevent misidentification errors like the Hiker Daniel/Russell mix-up.
 
-## Current Objectives
-
 ## Game Mechanics & Discoveries
 
 ### General Mechanics
@@ -28,6 +26,7 @@
 *Ignis grew to level 18 after defeating Picnicker Liz's Nidoran.*
 *Ignis grew to Lv19 after defeating Fisher Ralph's Goldeen.*
 *Ignis grew to Lv21 and learned QUICK ATTACK, replacing SMOKESCREEN.*
+*Ignis grew to Lv23 after defeating a Rocket Grunt's Koffing.*
 *Type Effectiveness Chart*:
 - Ground is super-effective against Fire. (Verified in battle vs Falkner's Pidgey's MUD-SLAP).
 - Normal is not very effective against Rock/Ground. (Verified in battle vs Hiker Daniel's Onix).
@@ -103,6 +102,9 @@
   1. All other Sages on Sprout Tower 2F must be defeated before interacting with the Sage at (12, 3).
   2. The interaction with the Sage at (12, 3) only makes the pillar passable during a specific time of day (e.g., night).
   3. The floor tiles in the room with the Sage at (12,3) contain a visual pattern or clue that needs to be followed or replicated.
+- **Azalea Gym Puzzle Hypotheses:**
+  1. The two trainers (TWINs at (4, 10) and (5, 10)) must be defeated to unlock a path forward.
+  2. There are hidden switches or levers that control the platforms/bridges in the gym.
 
 ## Critical Self-Correction Log
 - The 'Poké Ball machine' in Elm's lab was a hallucination.
@@ -123,5 +125,4 @@
 
 ## Tool Issues & Bugs
 - The built-in `select_battle_option` tool failed during a trainer battle (Turn 6112), claiming the battle menu was not visible when it was. The tool is unreliable and should not be used. Manual battle menu navigation is required until a fix is identified.
-*Ignis grew to Lv23 after defeating a Rocket Grunt's Koffing.*
 *Hiker Anthony called to say there are lots of DUNSPARCE in DARK CAVE.*
