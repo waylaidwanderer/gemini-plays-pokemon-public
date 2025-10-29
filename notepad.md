@@ -132,3 +132,8 @@
 1. The warp at (9, 5) in the gatehouse might not lead to the forest, but back to town or elsewhere.
 2. The apprentice might not give me CUT directly, but instead trigger an event where the Charcoal Man gives it to me as a reward for finding him.
 - Reminder: Investigate and mark the undiscovered warp at (3, 43) in Ilex Forest.
+## Puzzles & Solutions
+### Ilex Forest FARFETCH'D Puzzle
+- **Objective:** Herd the FARFETCH'D back to the apprentice at (7, 28).
+- **Mechanic:** The FARFETCH'D moves in response to player interaction. The direction it moves seems to depend on the direction the player is facing when interacting.
+- **Attempt 1:** Interacted with FARFETCH'D at (15, 25) while standing at (15, 26) (facing up). It moved east to (20, 24).
