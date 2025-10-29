@@ -142,7 +142,7 @@
   - **audit_agent (Agent):** An agent to analyze a log of recent turns and identify any deviations from my core principles, such as deferred data management tasks.
   - **performance_analyst (Agent):** An agent to analyze my recent turns and suggest improvements based on my core principles, such as detecting unproductive loops.
   - **gym_prep_advisor (Agent):** An agent to help plan long-term goals, like what level my Pokemon should be for the next gym.
-  - **pathfinder_diagnostician (Agent):** An agent to analyze the pathfinder's debug grid to suggest fixes or identify the cause of pathing failures.
+  - **pathfinder_diagnostician (Agent):** (HIGH PRIORITY - per critique) An agent to analyze the pathfinder's debug grid to suggest fixes or identify the cause of pathing failures.
   - **pathing_assistant (Agent):** An agent that suggests alternative navigation strategies (e.g., backtracking, intermediate points) when the primary pathfinder fails.
   - **complex_battle_strategist (Agent):** An advanced battle agent that considers type effectiveness, status moves, and other battle complexities.
   - **puzzle_solver_assistant (Agent):** An agent to systematically guide the puzzle-solving process, suggesting hypotheses and tests.
