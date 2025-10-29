@@ -154,3 +154,6 @@ Task: Test moving UP onto a FLOOR_UP_WALL tile.
 
 ### Route 32 Pathing Investigation
 - **Conclusion:** After multiple failed pathing attempts, it is confirmed that the eastern and western paths of Route 32 are completely separate at the northern end. The eastern path is a dead end due to one-way ledges further south. The correct path forward must be found by exploring unseen areas to find a crossover or alternate route.
+
+## Tool Bugs to Fix
+- `find_closest_reachable_unseen_tile` can suggest `VOID` tiles as targets. The BFS should be updated to not consider impassable tiles as valid 'unseen' targets.
