@@ -170,3 +170,8 @@ Task: Test moving UP onto a FLOOR_UP_WALL tile.
 - **Conclusion:** Movement was blocked at (6, 54). Hypothesis is DEBUNKED.
 - **New Hypothesis:** I must interact with the Poké Ball from an adjacent tile.
 *Ignis grew to Lv19 after defeating Fisher Ralph's Goldeen.*
+
+### Reflection-Based Updates (Turn 5043)
+- **New Tile Type:** BUOY (Observed on Route 32. Traversability unknown, assumed impassable.)
+- **New Agent Idea:** `audit_agent` - An agent to analyze a log of recent turns and identify any deviations from my core principles, such as deferred data management tasks.
+- **Tool Idea Refinement:** `exploration_planner` - This tool should combine `find_reachable_unseen_tiles` and `find_path_to_target`. It would find *all* reachable unseen tiles, then use the A* algorithm to calculate the actual travel distance to an adjacent tile for each, returning the target with the shortest true path. This is a significant improvement over the current two-step process that relies on simple Manhattan distance.
