@@ -133,7 +133,10 @@
     - **Result:** FARFETCH'D turned from facing left to facing down (towards the sound). It did not change its tile.
     - **Conclusion:** Hypothesis is inconsistent. Stepping on twigs causes the FARFETCH'D to turn, but not always towards the sound. At (20, 24), it turned towards the sound. At (15, 29), it turned right, away from the sound. The turning mechanic is more complex.
 - **Active Hypotheses:**
-  - **H2:** The FARFETCH'D must be approached from behind. Interacting with it while it's facing away might cause it to move forward.
+    - **Hypothesis 2:** The FARFETCH'D must be approached from behind. Interacting with it while it's facing away might cause it to move forward.
+    - **Test:** Interacted with FARFETCH'D at (15, 29) from behind (player at 15, 30).
+    - **Result:** FARFETCH'D moved to a new, distant location at (15, 25).
+    - **Conclusion:** Hypothesis H2 is DISPROVEN. Interacting from behind triggers movement, but not a simple 'push forward'. The destination seems pre-scripted.
   - **H3:** The FARFETCH'D moves to pre-scripted points regardless of player position.
   - **H4:** The goal is not to herd it all the way to the apprentice, but to trap it or lead it to a specific trigger point.
 
