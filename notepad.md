@@ -176,3 +176,7 @@
 - **FARFETCH'D Puzzle Alternative Hypotheses:**
   1. Movement is triggered by the *number* of interactions, not the position of interaction. Test by interacting from non-behind positions multiple times.
   2. The apprentice at (7, 28) is not the final destination. The FARFETCH'D needs to be herded to a different trigger point in the forest.
+- **Hypothesis Test Log (continued):**
+  - **Test 6:** Interacted with FARFETCH'D at (20, 24) from behind (player at 20, 23).
+  - **Result:** FARFETCH'D gave dialogue, then disappeared from the map entirely.
+  - **Conclusion:** The 'interact from behind' mechanic is highly specific. Certain locations cause movement, while others cause it to disappear, likely resetting its position.
