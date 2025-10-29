@@ -158,3 +158,7 @@
     - **Test 2:** Stepped on twig pile at (14, 26) while FARFETCH'D was at (15, 29) facing left.
     - **Result:** FARFETCH'D turned from 'left' to 'right'.
     - **Conclusion:** Hypothesis is further disproven. The direction the FARFETCH'D turns seems specific to the twig pile, not just the direction of the sound.
+  - **Hypothesis 1 (re-re-test):** Stepping on a twig pile will cause the FARFETCH'D to turn towards the sound.
+    - **Test 3:** Stepped on twig pile at (15, 26) while FARFETCH'D was at (15, 25) facing right.
+    - **Result:** FARFETCH'D turned from 'right' to 'left'.
+    - **Conclusion:** Hypothesis is definitively disproven. The turning direction is specific to the twig pile, not the location of the sound.
