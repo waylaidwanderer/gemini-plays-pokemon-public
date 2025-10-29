@@ -87,7 +87,7 @@
 ### Azalea Town
 - The warps to the Gym (10, 15) and Slowpoke Well (31, 7) are currently blocked by Team Rocket grunts. I cannot reach them to investigate and mark them until I find a way to move the grunts.
 - Hiker Anthony called to say there are lots of DUNSPARCE in DARK CAVE.
-- **CONFIRMED LEAD:** The Charcoal Man's apprentice, who knows CUT, is missing in ILEX FOREST. This was mentioned by a Youngster (6, 9) and the Charcoal Man himself (2, 3).
+- **CONFIRMED LEAD:** The Charcoal Man's apprentice is at (7, 28) in Ilex Forest. His FARFETCH'D, which knows CUT, has run off. I need to find the FARFETCH'D to get CUT. This was mentioned by a Youngster (6, 9) and the Charcoal Man himself (2, 3).
 
 ## Untested Assumptions & Future Tests
 - Test the damage of EMBER vs. QUICK ATTACK on a Water-type.
