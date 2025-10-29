@@ -131,4 +131,4 @@
 
 ## Tool Issues & Bugs
 - The built-in `select_battle_option` tool failed during a trainer battle (Turn 6112), claiming the battle menu was not visible when it was. The tool is unreliable and should not be used. Manual battle menu navigation is required until a fix is identified.
-- **Attempt 2:** Interacted with FARFETCH'D at (20, 24) while standing at (20, 23) (facing down). It turned to face up but did not move. Hypothesis: Path was blocked by trees behind it.
+- **Attempt 2:** Interacted with FARFETCH'D at (20, 24) while standing at (20, 23) (facing down). It turned to face up but did not move. Hypothesis: Path was blocked by trees behind it. After I cleared the dialogue, the FARFETCH'D disappeared.
