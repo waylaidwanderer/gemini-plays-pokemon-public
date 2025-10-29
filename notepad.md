@@ -1,4 +1,6 @@
-## Core Principles & Lessons Learned
+## Core Principles & Critical Lessons
+
+### Core Principles
 - **IMMEDIATE ACTION:** I must perform tasks like placing markers, updating my notepad, and fixing tools *immediately*. Deferring tasks, like placing map markers, is a process violation. Significant events must be documented *immediately* in the turn they occur.
 - **AGENT USAGE:** When stuck for more than 5 turns on a puzzle, I must use the `hypothesis_generator` agent. My `simple_battle_strategist` agent is underutilized and I will prioritize using it for all future wild battles to automate decision-making.
 - **PUZZLE DOCUMENTATION:** My entire problem-solving process (observation, hypothesis, test, conclusion) for any puzzle must be documented in this notepad as it happens.
@@ -6,21 +8,30 @@
 - **TOOL MAINTENANCE:** I must NEVER defer fixing a broken tool or agent. It is always the highest priority, overriding any in-game objective.
 - **TOOL FAILURE:** If a tool fails, my first assumption must be that the tool is broken, not that the game is impossible. I must fix the tool before re-attempting the action.
 - **IMMEDIATE CORRECTION:** If my understanding of the game state (e.g., the existence of a tool) is proven wrong, I must immediately correct my documentation (notepad) before any other action.
+- **TRUST OBSERVATION:** My biggest obstacle is my own memory. I must only trust in-game observation.
+- **Trainer Identification:** I must verify the name and location of a trainer before marking them as defeated to prevent misidentification errors like the Hiker Daniel/Russell mix-up.
 
-## General Discoveries
-- My biggest obstacle is my own memory. I must only trust in-game observation.
-- Stunning an NPC can break scripted events, causing dialogue loops.
-- The southern path on Route 29 is a dead end.
-- The western path on Route 29 is blocked by CUT_TREEs and HEADBUTT_TREEs.
+### Critical Self-Correction Log (Hallucinations)
+- The 'Poké Ball machine' in Elm's lab was a hallucination.
+- Hallucinated a warp at (9, 35) on Route 30. There is no warp there.
+- Hallucinated a warp at (13, 9) on Route 30. The actual house entrance is at (17, 5).
+- **CRITICAL HALLUCINATION (Turn 2667):** Believed I was on Sprout Tower 2F at (17, 3) when I was actually on Sprout Tower 1F at (17, 2).
+- **CRITICAL HALLUCINATION (Turn 2886):** Believed I was on Sprout Tower 2F at (6, 4) when I was actually on Sprout Tower 1F at (6, 3).
+- **Pathfinder Tool Issue (Corrected):** The pathfinder was incorrectly assumed to be faulty. After extensive debugging, it was confirmed to be working correctly. The repeated failures were caused by my own hallucination of a traversable path on Route 32 where a large, one-way ledge system actually exists.
+- **CRITICAL HALLUCINATION (Turn 3658):** Believed I was on Sprout Tower 2F at (6, 4) after climbing a ladder, but was actually still on Sprout Tower 1F at (6, 3). This invalidated my entire plan.
+- **CRITICAL HALLUCINATION (Turns 4838-4866):** I was stuck in a multi-turn loop attempting to 'fix' the `find_path_to_target` tool by removing a debug print. I repeatedly submitted identical, already-correct code. The tool had been fixed in turn 4833. This was a significant failure of state tracking and a major hallucination that wasted many turns.
+- **CRITICAL HALLUCINATION (Turn 5590):** Believed I had exited Union Cave and was on Route 32 at (6, 79). I was actually still inside Union Cave at (17, 3), standing on the exit warp. This caused my pathfinder to fail and my entire plan to be based on an incorrect reality.
+
+## Game Mechanics & Discoveries
+
+### General Mechanics
 - Talking to Mom does NOT heal my Pokémon. This is a critical mechanic difference from other games.
 - Resting in the player's bed does NOT heal Pokémon.
+- Stunning an NPC can break scripted events, causing dialogue loops. It can also be a reliable solution for interacting with moving NPCs.
 - Repeatedly interacting with an object (like a sign) without new results can lead to loops. I must dismiss dialogue before attempting to move.
 - The 'Select' button on the nicknaming screen toggles between uppercase and lowercase keyboards.
 
-## Game Mechanics & Systems
-*PC Storage*: Currently empty.
-
-## Battle and Pokemon Information
+### Battle Information
 *Ignis learned EMBER at Lv12.*
 *Ignis grew to Lv15 after defeating a wild Gastly.*
 *Ignis grew to level 18 after defeating Picnicker Liz's Nidoran.*
@@ -29,7 +40,8 @@
 - Ground is super-effective against Fire. (Verified in battle vs Falkner's Pidgey's MUD-SLAP).
 - Normal is not very effective against Rock/Ground. (Verified in battle vs Hiker Daniel's Onix).
 
-## Area and Navigation Insights
+### PC Storage
+- Currently empty.
 
 ### Tile Traversal and Movement Rules
 - **BOOKSHELF**: Impassable. (Verified)
@@ -59,34 +71,61 @@
 - **WATER**: Impassable. (Verified by pathing attempts)
 - **WINDOW**: Impassable. (Verified)
 
-### Past Investigations & Solved Puzzles
-- **Healing Methods (New Bark Town):** Conclusion: Neither Mom nor the player's bed heals Pokémon in this game.
-- **Nickname Screen Controls:** Conclusion: The 'Select' button toggles the keyboard case.
-- **Building Identification (Violet City):** Assumption: Building at (21, 29) was the Gym. (Confirmed to be a house with a trade NPC)
-- **Sprout Tower vs. Gym:** Assumption: Sprout Tower is separate from the Gym. (Confirmed)
-- **MR. POKEMON's House Location:** Assumption: Located on Route 30. (Confirmed)
-- **Violet City Map Layout:** My assumption that the city was divided by the river was a major hallucination. The two sides are connected by walkable paths.
+## World Knowledge & Location Notes
 
-### Corrected Misunderstandings
-- The 'Poké Ball machine' in Elm's lab was a hallucination.
-- Hallucinated a warp at (9, 35) on Route 30. There is no warp there.
-- Hallucinated a warp at (13, 9) on Route 30. The actual house entrance is at (17, 5).
-- **CRITICAL HALLUCINATION (Turn 2667):** Believed I was on Sprout Tower 2F at (17, 3) when I was actually on Sprout Tower 1F at (17, 2).
-- **CRITICAL HALLUCINATION (Turn 2886):** Believed I was on Sprout Tower 2F at (6, 4) when I was actually on Sprout Tower 1F at (6, 3).
-- **Pathfinder Tool Issue (Corrected):** The pathfinder was incorrectly assumed to be faulty. After extensive debugging, it was confirmed to be working correctly. The repeated failures were caused by my own hallucination of a traversable path on Route 32 where a large, one-way ledge system actually exists.
-- **CRITICAL HALLUCINATION (Turn 3658):** Believed I was on Sprout Tower 2F at (6, 4) after climbing a ladder, but was actually still on Sprout Tower 1F at (6, 3). This invalidated my entire plan.
-- **CRITICAL HALLUCINATION (Turns 4838-4866):** I was stuck in a multi-turn loop attempting to 'fix' the `find_path_to_target` tool by removing a debug print. I repeatedly submitted identical, already-correct code. The tool had been fixed in turn 4833. This was a significant failure of state tracking and a major hallucination that wasted many turns.
+### Route 29
+- The southern path is a dead end.
+- The western path is blocked by CUT_TREEs and HEADBUTT_TREEs.
 
-### Sprout Tower Puzzle - New Hypotheses (from Agent - Turn 3590)
-1. All other Sages on Sprout Tower 2F must be defeated before interacting with the Sage at (12, 3).
-2. The interaction with the Sage at (12, 3) only makes the pillar passable during a specific time of day (e.g., night).
-3. The player must have a specific Pokémon in the first slot of their party when interacting with the Sage at (12, 3). (DEBUNKED - Switched lead to Aether, no effect.)
-4. The floor tiles in the room with the Sage at (12,3) contain a visual pattern or clue that needs to be followed or replicated.
+### Route 30
+- MR. POKEMON's house is located here. (Confirmed)
 
-## NPCs and Interactions
-- YOUNGSTER at (5, 18) in Violet City mentioned a 'wiggly tree' that 'squirms and dances'. This is likely a hint about how to interact with HEADBUTT_TREEs.
+### Violet City
+- Building at (21, 29) is a house with a trade NPC, not the Gym.
+- Sprout Tower is a separate building from the Gym.
+- The city is not divided by a river; the two sides are connected by walkable paths.
+- YOUNGSTER at (5, 18) mentioned a 'wiggly tree' that 'squirms and dances'. This is likely a hint about how to interact with HEADBUTT_TREEs.
 
-## My Custom Tools
+## Archived Investigations (Solved/Debunked)
+- **Healing Methods (New Bark Town):** Conclusion: Neither Mom nor the player's bed heals Pokémon.
+- **Fisher NPC Interaction (New Bark Town):** Conclusion: Moving NPCs can disrupt interactions. Stunning them first is a reliable solution.
+- **Nickname Screen Controls (Violet City):** Conclusion: The 'Select' button toggles the keyboard case.
+- **Violet Mart Path (Violet City):** Conclusion: The path to the clerk is blocked. Talking to the Cooltrainer M at (5, 2) does not open it.
+- **Violet City Gatehouse Warp:** Conclusion: Currently impassable and a dead end for now. All simple interaction hypotheses failed.
+- **Sprout Tower 1F Path:** Conclusion: A solid wall at x=4 divides the first floor, making the Sage at (3, 5) unreachable from the east. Defeating other Sages does not alter the layout.
+- **Sprout Tower 2F Pillar:** Conclusion: Numerous simple interaction tests (re-interacting with the Sage, checking other objects/walls, etc.) have failed to make the central pillar move again after its initial movement.
+- **Route 32 Pathing:** Conclusion: The eastern and western paths are separate at the northern end. The eastern path is a dead end due to one-way ledges.
+- **Route 32 Item Pickup:** Conclusion: An item in a Poké Ball on the ground must be interacted with from an adjacent tile, not by walking onto it.
+- **Route 32 Hidden Item (SUPER POTION):** Conclusion: The hidden item at (11, 40) was successfully retrieved by approaching from an adjacent tile ((10, 40)) while already facing the item, then pressing 'A'.
+
+## Current Objectives & Open Puzzles
+
+### High-Priority Tasks
+- Refactor `find_path_to_target` and `find_closest_reachable_unseen_tile` to eliminate duplicated A* logic. Create a single, shared A* implementation.
+
+### General Tasks & Tests
+- Test moving UP onto a FLOOR_UP_WALL tile.
+- Test one-way ledges by trying to move up them.
+- Test traversability of BUOY tiles.
+
+### Ongoing Puzzles
+- **Sprout Tower Puzzle - New Hypotheses (from Agent - Turn 3590):**
+  1. All other Sages on Sprout Tower 2F must be defeated before interacting with the Sage at (12, 3).
+  2. The interaction with the Sage at (12, 3) only makes the pillar passable during a specific time of day (e.g., night).
+  3. The player must have a specific Pokémon in the first slot of their party when interacting with the Sage at (12, 3). (DEBUNKED - Switched lead to Aether, no effect.)
+  4. The floor tiles in the room with the Sage at (12,3) contain a visual pattern or clue that needs to be followed or replicated.
+- **Union Cave Exit Puzzle (Ongoing):**
+  - **Observation:** At (17, 3) on a `WARP_CARPET_DOWN` tile. Cannot exit.
+  - **Failed Hypotheses:**
+    1. Stepping onto the tile from above (17, 2). (FAILED)
+    2. Pressing 'A' while on the tile. (FAILED)
+    3. Stepping onto the tile from the left (16, 3). (FAILED)
+  - **New Hypothesis:** The name `WARP_CARPET_DOWN` implies I must press 'Down' while standing on the tile to activate it.
+  - **Test:** Pressing 'Down' while at (17, 3).
+
+## My Tools & Agents
+
+### Existing Tools
 - `find_path_to_target`: My A* pathfinding tool to navigate to specific coordinates.
 - `find_reachable_unseen_tiles`: A BFS-based tool to find all reachable but unexplored map tiles.
 - `generate_nickname_inputs`: A tool to automate entering Pokémon nicknames.
@@ -94,83 +133,20 @@
 - `exploration_planner`: This tool streamlines the exploration process by combining the logic of finding the closest unseen tile and pathfinding.
 - `select_battle_option`: Automatically selects a main battle menu option (FIGHT, PKMN, PACK, RUN).
 
-## My Custom Agents
+### Existing Agents
 - `simple_battle_strategist`: Agent for automating wild battle decisions.
 - `notepad_refactor_assistant`: An agent to refactor and restructure this notepad.
 
-## Future Tool/Agent Ideas
-- **audit_agent (Agent):** An agent to analyze a log of recent turns and identify any deviations from my core principles, such as deferred data management tasks.
-- **performance_analyst (Agent):** An agent to analyze my recent turns and suggest improvements based on my core principles, such as detecting unproductive loops.
-- **gym_prep_advisor (Agent):** An agent to help plan long-term goals, like what level my Pokemon should be for the next gym.
-- **pathfinder_diagnostician (Agent):** An agent to analyze the pathfinder's debug grid to suggest fixes or identify the cause of pathing failures.
-- **exploration_planner (Tool):** This tool should combine `find_reachable_unseen_tiles` and `find_path_to_target`. It would find *all* reachable unseen tiles, then use the A* algorithm to calculate the actual travel distance to an adjacent tile for each, returning the target with the shortest true path.
-- **pathing_assistant (Agent):** An agent that suggests alternative navigation strategies (e.g., backtracking, intermediate points) when the primary pathfinder fails.
-- **complex_battle_strategist (Agent):** An advanced battle agent that considers type effectiveness, status moves, and other battle complexities.
-- **puzzle_solver_assistant (Agent):** An agent to systematically guide the puzzle-solving process, suggesting hypotheses and tests.
-- **long_distance_pathfinder (Tool):** A tool optimized for finding paths across multiple maps, not just the one.
-- **generate_move_selection_inputs (Tool):** A tool to automate selecting a move from the battle menu.
-
-## Future Tasks
-- Test moving UP onto a FLOOR_UP_WALL tile.
-- Test one-way ledges by trying to move up them.
-
-## Debunked Hypotheses & Dead Ends
-
-### New Bark Town
-- **Fisher NPC Interaction Failure:**
-  - **Conclusion:** Moving NPCs can disrupt interactions. Stunning them first is a reliable solution.
-
-### Violet City
-- **Violet Mart Investigation:**
-  - **Hypothesis:** Talking to the Cooltrainer M at (5, 2) would open the path to the Clerk.
-  - **Test:** Spoke to the Cooltrainer.
-  - **Conclusion:** He only provided generic advice. The path remains blocked. Hypothesis is DEBUNKED.
-- **Violet City Gatehouse Warp - Investigation Conclusion:**
-  - **Status:** Currently impassable.
-  - **Summary:** All simple hypotheses for activating the warp at (39, 24) and (39, 25) have been tested and have failed. This includes entering from multiple directions, moving between the two warp tiles, and attempting to interact from an adjacent tile. Repeated position hallucinations have compromised testing, but the consistent failure suggests an unknown condition is blocking this path.
-  - **New Plan:** I am abandoning this route and will now pivot to exploring all unseen areas of Violet City, starting with the west side. This path is a confirmed dead end for now.
-
-### Sprout Tower
-- **Sprout Tower:**
-  - The `find_path_to_target` tool was correct; a solid wall at x=4 divides the first floor, making the Sage at (3, 5) unreachable from the east.
-  - Defeating Sages or re-interacting with them does not open new paths, reveal switches, or change dialogue on 1F.
-  - Numerous simple interaction tests (re-interacting with the Sage, checking other objects/walls, etc.) on 2F have failed to make the central pillar move again.
-
-### Route 32
-- **Route 32 Pathing Investigation:**
-  - **Conclusion:** After multiple failed pathing attempts, it is confirmed that the eastern and western paths of Route 32 are completely separate at the northern end. The eastern path is a dead end due to one-way ledges further south. The correct path forward must be found by exploring unseen areas to find a crossover or alternate route.
-- **Route 32 Item Pickup:**
-  - **Hypothesis:** I can walk onto the tile with the Poké Ball to pick it up.
-  - **Test:** Followed a path plan to (6, 53).
-  - **Conclusion:** Movement was blocked at (6, 54). Hypothesis is DEBUNKED.
-  - **New Hypothesis:** I must interact with the Poké Ball from an adjacent tile.
-
-## Tool Refactoring Goals
-- **(High Priority):** Refactor `find_path_to_target` and `find_closest_reachable_unseen_tile` to eliminate duplicated A* logic. Create a single, shared A* implementation that both tools can call to ensure fixes are propagated consistently.
-### Route 32 - Hidden Item (SUPER POTION) - SOLVED
-- **Observation:** Hidden item at (11, 40).
-- **Problem:** Interacting with the item was difficult due to a movement quirk where pressing a directional button to face the item also caused movement onto the item's tile, creating a loop.
-- **Failed Hypotheses:**
-  1. Standing on the item's tile (11, 40) and pressing 'A'. (FAILED)
-  2. Standing on an adjacent tile (11, 41) and pressing 'A' while facing away. (FAILED)
-  3. Using the main menu to change facing direction without moving. (FAILED)
-- **Solution:**
-  - **Hypothesis:** Approach the item from the side to land on an adjacent tile while already facing the correct direction.
-  - **Test:** Pathed to (9, 40), then moved right to (10, 40). This left me adjacent to the item at (11, 40) and facing it.
-  - **Conclusion:** Pressing 'A' from (10, 40) successfully retrieved the SUPER POTION. Hypothesis CONFIRMED.
-
-## Reflection-Generated Tasks (Turn 5407)
-- **(High Priority):** Refactor `find_path_to_target` and `find_closest_reachable_unseen_tile` to eliminate duplicated A* logic. Create a single, shared A* implementation.
-- Test traversability of BUOY tiles.
-- Prioritize creating a `puzzle_solver_assistant` agent to help with complex interaction puzzles.
-- **puzzle_solver_assistant (Agent):** An agent to systematically guide the puzzle-solving process, suggesting hypotheses and tests.
-- **Trainer Identification:** I must verify the name and location of a trainer before marking them as defeated to prevent misidentification errors like the Hiker Daniel/Russell mix-up.
-- **CRITICAL HALLUCINATION (Turn 5590):** Believed I had exited Union Cave and was on Route 32 at (6, 79). I was actually still inside Union Cave at (17, 3), standing on the exit warp. This caused my pathfinder to fail and my entire plan to be based on an incorrect reality.
-### Union Cave Exit Puzzle (Ongoing)
-- **Observation:** At (17, 3) on a `WARP_CARPET_DOWN` tile. Cannot exit.
-- **Failed Hypotheses:**
-  1. Stepping onto the tile from above (17, 2). (FAILED)
-  2. Pressing 'A' while on the tile. (FAILED)
-  3. Stepping onto the tile from the left (16, 3). (FAILED)
-- **New Hypothesis:** The name `WARP_CARPET_DOWN` implies I must press 'Down' while standing on the tile to activate it.
-- **Test:** Pressing 'Down' while at (17, 3).
+### Development Goals
+- **Tool Refactoring:**
+  - **(High Priority):** Refactor `find_path_to_target` and `find_closest_reachable_unseen_tile` to eliminate duplicated A* logic. Create a single, shared A* implementation that both tools can call to ensure fixes are propagated consistently.
+- **Future Tools & Agents Wishlist:**
+  - **audit_agent (Agent):** An agent to analyze a log of recent turns and identify any deviations from my core principles, such as deferred data management tasks.
+  - **performance_analyst (Agent):** An agent to analyze my recent turns and suggest improvements based on my core principles, such as detecting unproductive loops.
+  - **gym_prep_advisor (Agent):** An agent to help plan long-term goals, like what level my Pokemon should be for the next gym.
+  - **pathfinder_diagnostician (Agent):** An agent to analyze the pathfinder's debug grid to suggest fixes or identify the cause of pathing failures.
+  - **pathing_assistant (Agent):** An agent that suggests alternative navigation strategies (e.g., backtracking, intermediate points) when the primary pathfinder fails.
+  - **complex_battle_strategist (Agent):** An advanced battle agent that considers type effectiveness, status moves, and other battle complexities.
+  - **puzzle_solver_assistant (Agent):** An agent to systematically guide the puzzle-solving process, suggesting hypotheses and tests.
+  - **long_distance_pathfinder (Tool):** A tool optimized for finding paths across multiple maps, not just the one.
+  - **generate_move_selection_inputs (Tool):** A tool to automate selecting a move from the battle menu.
