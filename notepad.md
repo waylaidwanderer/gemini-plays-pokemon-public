@@ -127,3 +127,11 @@
 - Hiker Anthony is on this route. He gives his phone number instead of battling.
 - **CRITICAL HALLUCINATION (Turn 5961):** Believed I had descended the ladder to AzaleaPokecenter1F (map 8_1). I was still on Pokecenter2F (map 20_1). This also re-confirmed that ladders are used by moving onto them, not by pressing a direction while standing on them.
 * The `stun_npc` effect is temporary and resets when changing maps. (Verified in Azalea Pokémon Center)
+
+## Untested Assumptions & Future Tests
+- Test one-way ledges (`LEDGE_HOP_DOWN`) by trying to move up them.
+- Test `HEADBUTT_TREE`s by interacting with them with different Pokémon in the lead to see if any move can be used.
+
+## World Knowledge & Location Notes
+### Azalea Town
+- The warps to the Gym (10, 15) and Slowpoke Well (31, 7) are currently blocked by Team Rocket grunts. I cannot reach them to investigate and mark them until I find a way to move the grunts.
