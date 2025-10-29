@@ -84,7 +84,6 @@
 - `generate_nickname_inputs`: A tool to automate entering Pokémon nicknames.
 - `systematic_search`: A tool to methodically explore an area for hidden items.
 - `find_closest_reachable_unseen_tile`: A combined tool that finds all reachable unseen tiles and returns the closest one. (BUG: Can suggest `VOID` tiles as targets. The BFS should be updated to not consider impassable tiles as valid 'unseen' targets.)
-- `select_battle_option`: A tool to automatically select a main battle menu option.
 - `simple_battle_strategist`: Agent for automating wild battle decisions. (LIMITATION: Does not account for move PP.)
 
 ## Future Tool/Agent Ideas
