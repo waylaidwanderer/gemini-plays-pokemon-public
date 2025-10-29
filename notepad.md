@@ -187,3 +187,6 @@
 
 ## Union Cave B1F Layout Correction
 - The basement area accessible from the ladder at (5, 19) on 1F is a large dead end. The entire reachable area was explored via BFS, and it has no exits other than the ladder back up. This was confirmed by the `exploration_planner` tool correctly finding zero reachable unseen tiles.
+- **FARFETCH'D Puzzle Alternative Hypotheses:**
+  1. Movement is triggered by the *number* of interactions, not the position of interaction. Test by interacting from non-behind positions multiple times.
+  2. The apprentice at (7, 28) is not the final destination. The FARFETCH'D needs to be herded to a different trigger point in the forest.
