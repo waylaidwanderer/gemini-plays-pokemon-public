@@ -31,7 +31,7 @@
 
 ### Tile Traversal and Movement Rules
 - **BOOKSHELF**: Impassable. (Verified)
-- **BUOY**: Traversability unknown, assumed impassable. (Observed on Route 32)
+- **BUOY**: Traversability unknown, assumed impassable. Might require Surf. (Observed on Route 32)
 - **CAVE**: Traversable warp.
 - **COUNTER**: Impassable. (Verified by observation)
 - **CUT_TREE**: Impassable, requires a specific ability/item to remove. (Verified)
