@@ -143,3 +143,5 @@
 ## World Knowledge & Location Notes
 ### Azalea Town
 - The warps to the Gym (10, 15) and Slowpoke Well (31, 7) are currently blocked by Team Rocket grunts. I cannot reach them to investigate and mark them until I find a way to move the grunts.
+- **CRITICAL HALLUCINATION (Turn 5981):** Believed I had a tool named `find_reachable_unseen_tiles` and tried to delete it. The tool never existed.
+- **CRITICAL HALLUCINATION (Turn 5981):** Believed my `get_on_screen_object_locations_json` tool definition failed in a previous turn when it had actually succeeded. This was a state-tracking failure.
