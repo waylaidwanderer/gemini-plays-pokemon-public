@@ -174,3 +174,10 @@
 
 ## Tool Refactoring Goals
 - **(High Priority):** Refactor `find_path_to_target` and `find_closest_reachable_unseen_tile` to eliminate duplicated A* logic. Create a single, shared A* implementation that both tools can call to ensure fixes are propagated consistently.
+### Route 32 - Hidden Item (SUPER POTION)
+- **Observation:** Hidden item at (11, 40).
+- **Hypothesis 1:** I can pick up the item by standing on its tile (11, 40) and pressing 'A'.
+- **Test:** Stood on (11, 40) and pressed 'A' multiple times (Turns 5360, 5374, 5375).
+- **Conclusion:** No item was received. Hypothesis 1 is DEBUNKED.
+- **Hypothesis 2:** I must interact with the item from an adjacent tile.
+- **Current Test:** Move to (11, 41) (below the item) and interact.
