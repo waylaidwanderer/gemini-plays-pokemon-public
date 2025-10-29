@@ -158,3 +158,13 @@ Task: Test moving UP onto a FLOOR_UP_WALL tile.
 
 ### Corrected Misunderstandings
 - **CRITICAL HALLUCINATION (Turns 4838-4866):** I was stuck in a multi-turn loop attempting to 'fix' the `find_path_to_target` tool by removing a debug print. I repeatedly submitted identical, already-correct code. The tool had been fixed in turn 4833. This was a significant failure of state tracking and a major hallucination that wasted many turns.
+
+## Core Principles & Lessons Learned (Addendum)
+- **IMMEDIATE CORRECTION:** If my understanding of the game state (e.g., the existence of a tool) is proven wrong, I must immediately correct my documentation (notepad) before any other action.
+
+## Area and Navigation Insights (Addendum)
+### Tile Traversal and Movement Rules
+- **WARP_CARPET_LEFT**: Traversable, acts as a warp tile. (Verified)
+
+## Future Tool/Agent Ideas (Addendum)
+- **complex_battle_strategist (Agent):** An advanced battle agent that considers type effectiveness, status moves, and other battle complexities.
