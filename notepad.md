@@ -168,3 +168,8 @@ Task: Test moving UP onto a FLOOR_UP_WALL tile.
 
 ## Future Tool/Agent Ideas (Addendum)
 - **complex_battle_strategist (Agent):** An advanced battle agent that considers type effectiveness, status moves, and other battle complexities.
+- **Route 32 Item Pickup:**
+  - **Hypothesis:** I can walk onto the tile with the Poké Ball to pick it up.
+  - **Test:** Followed a path plan to (6, 53).
+  - **Conclusion:** Movement was blocked at (6, 54). Hypothesis is DEBUNKED.
+  - **New Hypothesis:** I must interact with the Poké Ball from an adjacent tile.
