@@ -87,6 +87,7 @@
 ### Azalea Town
 - The warps to the Gym (10, 15) and Slowpoke Well (31, 7) are currently blocked by Team Rocket grunts. I cannot reach them to investigate and mark them until I find a way to move the grunts.
 - Hiker Anthony called to say there are lots of DUNSPARCE in DARK CAVE.
+- A Youngster at (6, 9) and the Charcoal Man (Black Belt) have both indicated that the Charcoal Man's apprentice, who knows CUT, is missing in ILEX FOREST. This is a confirmed lead.
 
 ## Untested Assumptions & Future Tests
 - Test the damage of EMBER vs. QUICK ATTACK on a Water-type.
@@ -94,7 +95,6 @@
 - Test `HEADBUTT_TREE`s by interacting with them with different Pokémon in the lead to see if any move can be used.
 - Test traversability of BUOY tiles.
 - Test movement off a FLOOR_UP_WALL tile in all directions (sideways, down) to verify it's not just a one-way-up path.
-- Azalea Town Youngster at (6, 9) mentioned the Charcoal Man's Pokémon can use CUT to get through Ilex Forest.
 - **Sprout Tower 2F Pillar Hypotheses:**
   1. All other Sages on Sprout Tower 2F must be defeated before interacting with the Sage at (12, 3).
   2. The interaction with the Sage at (12, 3) only makes the pillar passable during a specific time of day (e.g., night).
