@@ -181,3 +181,11 @@
 - **Conclusion:** No item was received. Hypothesis 1 is DEBUNKED.
 - **Hypothesis 2:** I must interact with the item from an adjacent tile.
 - **Current Test:** Move to (11, 41) (below the item) and interact.
+- **Menu Facing Trick (Route 32):**
+  - **Hypothesis:** Opening and closing the main menu at (11, 41) will change my facing direction from 'down' to 'up' without moving me.
+  - **Test:** Opened menu at (11, 41), then closed it.
+  - **Conclusion:** Facing direction remained 'down'. Hypothesis is DEBUNKED.
+- **New Plan for SUPER POTION:**
+  - **Observation:** Pressing a direction to turn also causes movement, creating an interaction loop.
+  - **New Hypothesis:** I can interact with the item from the side (10, 40) if I arrive there while facing right.
+  - **Plan:** 1. Path to (9, 40). 2. Move right to (10, 40). 3. Press 'A'.
