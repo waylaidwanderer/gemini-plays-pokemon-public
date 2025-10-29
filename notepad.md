@@ -171,3 +171,6 @@
   - **Test:** Followed a path plan to (6, 53).
   - **Conclusion:** Movement was blocked at (6, 54). Hypothesis is DEBUNKED.
   - **New Hypothesis:** I must interact with the Poké Ball from an adjacent tile.
+
+## Tool Refactoring Goals
+- **(High Priority):** Refactor `find_path_to_target` and `find_closest_reachable_unseen_tile` to eliminate duplicated A* logic. Create a single, shared A* implementation that both tools can call to ensure fixes are propagated consistently.
