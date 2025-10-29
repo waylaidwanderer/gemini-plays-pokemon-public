@@ -123,3 +123,5 @@
 
 ## Tool Issues & Bugs
 - The built-in `select_battle_option` tool failed during a trainer battle (Turn 6112), claiming the battle menu was not visible when it was. The tool is unreliable and should not be used. Manual battle menu navigation is required until a fix is identified.
+*Ignis grew to Lv23 after defeating a Rocket Grunt's Koffing.*
+*Hiker Anthony called to say there are lots of DUNSPARCE in DARK CAVE.*
