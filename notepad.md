@@ -123,17 +123,10 @@
 
 ## My Tools & Agents
 
-### Existing Tools
-- `find_path_to_target`: My A* pathfinding tool to navigate to specific coordinates.
-- `find_reachable_unseen_tiles`: A BFS-based tool to find all reachable but unexplored map tiles.
-- `generate_nickname_inputs`: A tool to automate entering Pokémon nicknames.
-- `systematic_search`: A tool to methodically explore an area for hidden items.
-- `exploration_planner`: This tool streamlines the exploration process by combining the logic of finding the closest unseen tile and pathfinding.
-- `select_battle_option`: Automatically selects a main battle menu option (FIGHT, PKMN, PACK, RUN).
-
-### Existing Agents
-- `simple_battle_strategist`: Agent for automating wild battle decisions.
-- `notepad_refactor_assistant`: An agent to refactor and restructure this notepad.
+### Available Tools & Agents
+- **Built-in Tools:** `notepad_edit`, `run_code`, `define_agent`, `delete_agent`, `define_tool`, `delete_tool`, `define_map_marker`, `delete_map_marker`, `stun_npc`, `select_battle_option`.
+- **Custom Tools:** `find_path_to_target`, `find_reachable_unseen_tiles`, `generate_nickname_inputs`, `systematic_search`, `exploration_planner`.
+- **Custom Agents:** `simple_battle_strategist`, `notepad_refactor_assistant`.
 
 ### Development Goals
 - **Tool Refactoring:**
