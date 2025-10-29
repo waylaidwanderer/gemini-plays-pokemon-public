@@ -85,12 +85,15 @@
 - `systematic_search`: A tool to methodically explore an area for hidden items.
 - `find_closest_reachable_unseen_tile`: A combined tool that finds all reachable unseen tiles and returns the closest one.
 
-## Future Agent Ideas
-- **performance_analyst:** An agent to analyze my recent turns and suggest improvements based on my core principles.
-- **gym_prep_advisor:** An agent to help plan long-term goals, like what level my Pokemon should be for the next gym.
-- **pathfinder_diagnostician:** An agent to analyze the pathfinder's debug grid to suggest fixes or identify the cause of pathing failures.
-- **exploration_planner:** A tool that finds all reachable unseen tiles and then uses the pathfinder to determine the one with the shortest actual travel distance, not just straight-line distance.
-- **pathing_assistant:** An agent that suggests alternative navigation strategies (e.g., backtracking, intermediate points) when the primary pathfinder fails.
+## Tool Bugs to Fix
+- `find_closest_reachable_unseen_tile` can suggest `VOID` tiles as targets. The BFS should be updated to not consider impassable tiles as valid 'unseen' targets.
+
+## Future Tool/Agent Ideas
+- **performance_analyst (Agent):** An agent to analyze my recent turns and suggest improvements based on my core principles, such as detecting unproductive loops.
+- **gym_prep_advisor (Agent):** An agent to help plan long-term goals, like what level my Pokemon should be for the next gym.
+- **pathfinder_diagnostician (Agent):** An agent to analyze the pathfinder's debug grid to suggest fixes or identify the cause of pathing failures.
+- **exploration_planner (Tool):** A tool that finds all reachable unseen tiles and then uses the pathfinder to determine the one with the shortest actual travel distance, not just straight-line distance.
+- **pathing_assistant (Agent):** An agent that suggests alternative navigation strategies (e.g., backtracking, intermediate points) when the primary pathfinder fails.
 
 ## Future Tasks
 Task: Test moving UP onto a FLOOR_UP_WALL tile.
