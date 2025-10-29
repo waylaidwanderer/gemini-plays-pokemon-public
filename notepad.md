@@ -143,3 +143,9 @@
 - **Status:** Currently impassable.
 - **Summary:** All simple hypotheses for activating the warp at (39, 24) and (39, 25) have been tested and have failed. This includes entering from multiple directions, moving between the two warp tiles, and attempting to interact from an adjacent tile. Repeated position hallucinations have compromised testing, but the consistent failure suggests an unknown condition is blocking this path.
 - **New Plan:** I am abandoning this route and will now pivot to exploring all unseen areas of Violet City, starting with the west side. This path is a confirmed dead end for now.
+
+## Future Agent Ideas
+- **exploration_planner:** A tool that finds all reachable unseen tiles and then uses the pathfinder to determine the one with the shortest actual travel distance, not just straight-line distance.
+
+## Tasks from Overwatch Critique
+- Investigate traversability of FLOOR_UP_WALL tile type.
