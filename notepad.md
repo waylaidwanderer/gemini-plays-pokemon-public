@@ -131,3 +131,4 @@
 ### Ilex Forest - Alternative Hypotheses
 1. The warp at (9, 5) in the gatehouse might not lead to the forest, but back to town or elsewhere.
 2. The apprentice might not give me CUT directly, but instead trigger an event where the Charcoal Man gives it to me as a reward for finding him.
+- Reminder: Investigate and mark the undiscovered warp at (3, 43) in Ilex Forest.
