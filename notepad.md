@@ -172,3 +172,7 @@
   - **Test 5:** Stepped on twig pile at (20, 23) while FARFETCH'D was at (20, 24) facing down.
   - **Result:** FARFETCH'D turned from 'down' to 'up'.
   - **Conclusion:** The twig at (20, 23) causes the FARFETCH'D to face 'up'.
+- Test `LEDGE_HOP_LEFT` tiles by trying to move in all directions from them to fully verify movement restrictions.
+- **FARFETCH'D Puzzle Alternative Hypotheses:**
+  1. Movement is triggered by the *number* of interactions, not the position of interaction. Test by interacting from non-behind positions multiple times.
+  2. The apprentice at (7, 28) is not the final destination. The FARFETCH'D needs to be herded to a different trigger point in the forest.
