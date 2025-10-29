@@ -102,7 +102,6 @@
 ## Current Objectives & Open Puzzles
 
 ### General Tasks & Tests
-- Test moving UP onto a FLOOR_UP_WALL tile.
 - Test one-way ledges by trying to move up them.
 - Test traversability of BUOY tiles.
 
@@ -143,7 +142,9 @@
   - **generate_move_selection_inputs (Tool):** A tool to automate selecting a move from the battle menu.
 *Ignis grew to Lv21 and learned QUICK ATTACK, replacing SMOKESCREEN.*
 
-## 50-Turn Reflection (Turn 5823)
-- **Data Management:** I have repeatedly failed to mark new objects *immediately* upon discovery, violating a core principle. This must be corrected. Data management (markers, notepad, agent/tool fixes) is always the highest priority action.
-- **Agent Wishlist:** An `npc_profiler` agent could be useful for classifying NPCs based on their dialogue to distinguish between trainers, quest-givers, and flavor text.
-- **Untested Assumptions:** I am assuming the agent's EMBER recommendation vs. SLOWPOKE was a clever calculation, not a bug. I must test this by finding another Water-type to see if it repeats this behavior.
+## Agent & Tool Refinement Log
+- Improve `simple_battle_strategist` to consider type effectiveness.
+
+## Untested Assumptions & Future Tests
+- Test the damage of EMBER vs. QUICK ATTACK on a Water-type.
+- Fully test the traversability of `FLOOR_UP_WALL` tiles.
