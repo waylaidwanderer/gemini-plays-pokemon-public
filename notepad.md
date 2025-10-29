@@ -130,8 +130,8 @@
 - **Hypothesis Test Log:**
   - **Hypothesis 1:** The FARFETCH'D is startled by the sound of snapping twigs.
     - **Test 1:** Stepped on twig pile at (15, 26) while FARFETCH'D was at (20, 24).
-    - **Result:** No reaction. FARFETCH'D did not move.
-    - **Conclusion:** Hypothesis is likely incorrect or requires additional conditions.
+    - **Result:** FARFETCH'D turned from facing left to facing down (towards the sound). It did not change its tile.
+    - **Conclusion:** Hypothesis confirmed. Stepping on twigs causes the FARFETCH'D to turn and face the source of the sound. This can be used to manipulate its orientation.
 - **Active Hypotheses:**
   - **H2:** The FARFETCH'D must be approached from behind. Interacting with it while it's facing away might cause it to move forward.
   - **H3:** The FARFETCH'D moves to pre-scripted points regardless of player position.
