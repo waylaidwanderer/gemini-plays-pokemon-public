@@ -49,7 +49,7 @@
 - **WARP_CARPET_DOWN/RIGHT**: Traversable warp.
 - **WATER**: Impassable. (Verified by failed pathing attempts)
 - **WINDOW**: Impassable. (Verified)
-- **FLOOR_UP_WALL**: Appears to be impassable. (Hypothesis, needs verification)
+- **FLOOR_UP_WALL**: Impassable when moving down onto it. (Verified). Traversability when moving up onto it is unknown.
 
 ### Past Investigations & Solved Puzzles
 - **Healing Methods (New Bark Town):** Conclusion: Neither Mom nor the player's bed heals Pokémon in this game.
@@ -82,12 +82,10 @@
 - **gym_prep_advisor:** An agent to help plan long-term goals, like what level my Pokemon should be for the next gym.
 - **pathfinder_diagnostician:** An agent to analyze the pathfinder's debug grid to suggest fixes or identify the cause of pathing failures.
 - **exploration_planner:** A tool that finds all reachable unseen tiles and then uses the pathfinder to determine the one with the shortest actual travel distance, not just straight-line distance.
+- **pathing_assistant:** An agent that suggests alternative navigation strategies (e.g., backtracking, intermediate points) when the primary pathfinder fails.
 
-## Tasks from Overwatch Critique
-- Investigate traversability of FLOOR_UP_WALL tile type.
-
-## Sprout Tower - Future Tasks
-- Unstun Sage (object ID 2) on Sprout Tower 1F before leaving the tower.
+## Future Tasks
+Task: Test moving UP onto a FLOOR_UP_WALL tile.
 
 ## Debunked Hypotheses & Dead Ends
 ### New Bark Town
