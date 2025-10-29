@@ -77,6 +77,13 @@
 ## NPCs and Interactions
 - YOUNGSTER at (5, 18) in Violet City mentioned a 'wiggly tree' that 'squirms and dances'. This is likely a hint about how to interact with HEADBUTT_TREEs.
 
+## My Custom Tools
+- `find_path_to_target`: A pathfinding tool to navigate to specific (x, y) coordinates.
+- `find_reachable_unseen_tiles`: A tool to identify all currently reachable but unexplored map tiles.
+- `generate_nickname_inputs`: A tool to generate the sequence of button presses for nicknaming a Pokémon.
+- `systematic_search`: A tool to methodically explore a defined area by interacting with every object and stepping on every tile.
+- `find_next_closest_unseen_tile`: A tool to find the single closest unexplored tile.
+
 ## Future Agent Ideas
 - **performance_analyst:** An agent to analyze my recent turns and suggest improvements based on my core principles.
 - **gym_prep_advisor:** An agent to help plan long-term goals, like what level my Pokemon should be for the next gym.
@@ -125,7 +132,7 @@ Task: Test moving UP onto a FLOOR_UP_WALL tile.
 ### Sprout Tower 1F - Re-interaction Test
 - **Hypothesis (from Agent):** Talking to SAGE CHOW again after the battle will cause him to open the path.
 - **Test:** Interacted with SAGE CHOW at (3, 5).
-- **Conclusion:** The Sage gave flavor dialogue (\"All living beings coexist through cooperation...\"). The path did not open. Hypothesis is DEBUNKED.
+- **Conclusion:** The Sage gave flavor dialogue ("All living beings coexist through cooperation..."). The path did not open. Hypothesis is DEBUNKED.
 
 - **1F - Wall Switch Test:**
   - **Hypothesis (from Agent):** A hidden switch has appeared on the wall at x=4.
