@@ -25,7 +25,9 @@
 *Ignis grew to Lv15 after defeating a wild Gastly.*
 *Ignis grew to level 18 after defeating Picnicker Liz's Nidoran.*
 *Ignis grew to Lv19 after defeating Fisher Ralph's Goldeen.*
-*Type Effectiveness Chart*: Ground is super-effective against Fire. (Verified in battle vs Falkner's Pidgey's MUD-SLAP).
+*Type Effectiveness Chart*:
+- Ground is super-effective against Fire. (Verified in battle vs Falkner's Pidgey's MUD-SLAP).
+- Normal is not very effective against Rock/Ground. (Verified in battle vs Hiker Daniel's Onix).
 
 ## Area and Navigation Insights
 
