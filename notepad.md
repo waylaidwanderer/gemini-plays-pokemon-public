@@ -48,7 +48,7 @@
 - **VOID**: Impassable. (Verified)
 - **WALL**: Impassable. (Verified)
 - **WARP_CARPET_DOWN/RIGHT**: Traversable warp.
-- **WATER**: Impassable. (Verified by failed pathing attempts)
+- **WATER**: Impassable. (Verified by pathing attempts)
 - **WINDOW**: Impassable. (Verified)
 - **FLOOR_UP_WALL**: Impassable when moving down onto it. (Verified). Traversability when moving up onto it is unknown.
 
@@ -83,11 +83,9 @@
 - `find_reachable_unseen_tiles`: A BFS-based tool to find all reachable but unexplored map tiles.
 - `generate_nickname_inputs`: A tool to automate entering Pokémon nicknames.
 - `systematic_search`: A tool to methodically explore an area for hidden items.
-- `find_closest_reachable_unseen_tile`: A combined tool that finds all reachable unseen tiles and returns the closest one.
+- `find_closest_reachable_unseen_tile`: A combined tool that finds all reachable unseen tiles and returns the closest one. (BUG: Can suggest `VOID` tiles as targets. The BFS should be updated to not consider impassable tiles as valid 'unseen' targets.)
 - `select_battle_option`: A tool to automatically select a main battle menu option.
-
-## Tool Bugs to Fix
-- `find_closest_reachable_unseen_tile` can suggest `VOID` tiles as targets. The BFS should be updated to not consider impassable tiles as valid 'unseen' targets.
+- `simple_battle_strategist`: Agent for automating wild battle decisions. (LIMITATION: Does not account for move PP.)
 
 ## Future Tool/Agent Ideas
 - **performance_analyst (Agent):** An agent to analyze my recent turns and suggest improvements based on my core principles, such as detecting unproductive loops.
@@ -137,7 +135,7 @@ Task: Test moving UP onto a FLOOR_UP_WALL tile.
 ### Sprout Tower 1F - Re-interaction Test
 - **Hypothesis (from Agent):** Talking to SAGE CHOW again after the battle will cause him to open the path.
 - **Test:** Interacted with SAGE CHOW at (3, 5).
-- **Conclusion:** The Sage gave flavor dialogue (\"All living beings coexist through cooperation...\"). The path did not open. Hypothesis is DEBUNKED.
+- **Conclusion:** The Sage gave flavor dialogue ("All living beings coexist through cooperation..."). The path did not open. Hypothesis is DEBUNKED.
 
 - **1F - Wall Switch Test:**
   - **Hypothesis (from Agent):** A hidden switch has appeared on the wall at x=4.
@@ -158,9 +156,6 @@ Task: Test moving UP onto a FLOOR_UP_WALL tile.
 
 ### Route 32 Pathing Investigation
 - **Conclusion:** After multiple failed pathing attempts, it is confirmed that the eastern and western paths of Route 32 are completely separate at the northern end. The eastern path is a dead end due to one-way ledges further south. The correct path forward must be found by exploring unseen areas to find a crossover or alternate route.
-
-## Tool Bugs to Fix
-- `find_closest_reachable_unseen_tile` can suggest `VOID` tiles as targets. The BFS should be updated to not consider impassable tiles as valid 'unseen' targets.
 
 ### Corrected Misunderstandings
 - **CRITICAL HALLUCINATION (Turns 4838-4866):** I was stuck in a multi-turn loop attempting to 'fix' the `find_path_to_target` tool by removing a debug print. I repeatedly submitted identical, already-correct code. The tool had been fixed in turn 4833. This was a significant failure of state tracking and a major hallucination that wasted many turns.
