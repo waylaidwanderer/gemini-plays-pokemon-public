@@ -185,3 +185,8 @@
   - **Hypothesis:** Approach the item from the side to land on an adjacent tile while already facing the correct direction.
   - **Test:** Pathed to (9, 40), then moved right to (10, 40). This left me adjacent to the item at (11, 40) and facing it.
   - **Conclusion:** Pressing 'A' from (10, 40) successfully retrieved the SUPER POTION. Hypothesis CONFIRMED.
+
+## Reflection-Generated Tasks (Turn 5407)
+- **(High Priority):** Refactor `find_path_to_target` and `find_closest_reachable_unseen_tile` to eliminate duplicated A* logic. Create a single, shared A* implementation.
+- Test traversability of BUOY tiles.
+- Prioritize creating a `puzzle_solver_assistant` agent to help with complex interaction puzzles.
