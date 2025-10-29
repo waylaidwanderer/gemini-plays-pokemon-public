@@ -126,3 +126,4 @@
 
 ## Tool Issues & Bugs
 - The built-in `select_battle_option` tool failed during a trainer battle (Turn 6112), claiming the battle menu was not visible when it was. The tool is unreliable and should not be used. Manual battle menu navigation is required until a fix is identified.
+- **WARP_CARPET_LEFT**: Traversable warp. Must be activated by moving left onto the tile. (Verified)
