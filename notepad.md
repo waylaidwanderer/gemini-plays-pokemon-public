@@ -32,10 +32,12 @@
 ### Tile Traversal and Movement Rules
 - **BOOKSHELF**: Impassable. (Verified)
 - **BUOY**: Traversability unknown, assumed impassable. (Observed on Route 32)
+- **CAVE**: Traversable warp.
 - **COUNTER**: Impassable. (Verified by observation)
 - **CUT_TREE**: Impassable, requires a specific ability/item to remove. (Verified)
 - **DOOR**: Traversable, acts as a warp tile. (Verified)
 - **FLOOR**: Traversable. (Verified)
+- **FLOOR_UP_WALL**: Impassable when moving down onto it. (Verified). Traversability when moving up onto it is unknown.
 - **HEADBUTT_TREE**: Impassable. (Verified by observation)
 - **LADDER**: Traversable warp. Must be activated by moving *onto* the tile from an adjacent tile. Standing on the ladder and pressing A or a direction does nothing. (Verified)
 - **LEDGE_HOP_DOWN/LEFT/RIGHT**: One-way traversal.
@@ -54,7 +56,6 @@
 - **WARP_CARPET_LEFT**: Traversable, acts as a warp tile. (Verified)
 - **WATER**: Impassable. (Verified by pathing attempts)
 - **WINDOW**: Impassable. (Verified)
-- **FLOOR_UP_WALL**: Impassable when moving down onto it. (Verified). Traversability when moving up onto it is unknown.
 
 ### Past Investigations & Solved Puzzles
 - **Healing Methods (New Bark Town):** Conclusion: Neither Mom nor the player's bed heals Pokémon in this game.
@@ -102,9 +103,13 @@
 - **exploration_planner (Tool):** This tool should combine `find_reachable_unseen_tiles` and `find_path_to_target`. It would find *all* reachable unseen tiles, then use the A* algorithm to calculate the actual travel distance to an adjacent tile for each, returning the target with the shortest true path.
 - **pathing_assistant (Agent):** An agent that suggests alternative navigation strategies (e.g., backtracking, intermediate points) when the primary pathfinder fails.
 - **complex_battle_strategist (Agent):** An advanced battle agent that considers type effectiveness, status moves, and other battle complexities.
+- **puzzle_solver_assistant (Agent):** An agent to systematically guide the puzzle-solving process, suggesting hypotheses and tests.
+- **long_distance_pathfinder (Tool):** A tool optimized for finding paths across multiple maps, not just the one.
+- **generate_move_selection_inputs (Tool):** A tool to automate selecting a move from the battle menu.
 
 ## Future Tasks
-Task: Test moving UP onto a FLOOR_UP_WALL tile.
+- Test moving UP onto a FLOOR_UP_WALL tile.
+- Test one-way ledges by trying to move up them.
 
 ## Debunked Hypotheses & Dead Ends
 
@@ -112,26 +117,42 @@ Task: Test moving UP onto a FLOOR_UP_WALL tile.
 - **Fisher NPC Interaction Failure:**
   - **Conclusion:** Moving NPCs can disrupt interactions. Stunning them first is a reliable solution.
 
-### Sprout Tower 1F Pathing Failure Investigation
-- **Hypothesis:** The `find_path_to_target` tool was broken because it failed to find a path to the Sage at (3, 5).
-- **Test:** Added a debug print to visualize the tool's internal traversability grid.
-- **Conclusion:** The tool is working correctly. The debug grid confirmed that a solid wall at x=4 divides the first floor into two unreachable sections. My fundamental understanding of the map was incorrect. The Sage at (3, 5) is unreachable from the eastern side of the tower.
+### Violet City
+- **Violet Mart Investigation:**
+  - **Hypothesis:** Talking to the Cooltrainer M at (5, 2) would open the path to the Clerk.
+  - **Test:** Spoke to the Cooltrainer.
+  - **Conclusion:** He only provided generic advice. The path remains blocked. Hypothesis is DEBUNKED.
+- **Violet City Gatehouse Warp - Investigation Conclusion:**
+  - **Status:** Currently impassable.
+  - **Summary:** All simple hypotheses for activating the warp at (39, 24) and (39, 25) have been tested and have failed. This includes entering from multiple directions, moving between the two warp tiles, and attempting to interact from an adjacent tile. Repeated position hallucinations have compromised testing, but the consistent failure suggests an unknown condition is blocking this path.
+  - **New Plan:** I am abandoning this route and will now pivot to exploring all unseen areas of Violet City, starting with the west side. This path is a confirmed dead end for now.
 
+### Sprout Tower
+- **Sprout Tower 1F Pathing Failure Investigation:**
+  - **Hypothesis:** The `find_path_to_target` tool was broken because it failed to find a path to the Sage at (3, 5).
+  - **Test:** Added a debug print to visualize the tool's internal traversability grid.
+  - **Conclusion:** The tool is working correctly. The debug grid confirmed that a solid wall at x=4 divides the first floor into two unreachable sections. My fundamental understanding of the map was incorrect. The Sage at (3, 5) is unreachable from the eastern side of the tower.
 - **1F Investigation:**
   - **Hypothesis:** Defeating the Sage on 2F would change the dialogue of the Sage at (7, 4) on 1F.
   - **Test:** Spoke to the Sage at (7, 4) after returning from 2F.
   - **Conclusion:** Dialogue was unchanged. Hypothesis is DEBUNKED.
-
 - **1F - Secret Path Investigation:**
   - **Hypothesis:** Defeating SAGE CHOW made the wall at (4, 6) passable.
   - **Test:** Attempted to walk right from (3, 6) into the wall at (4, 6).
   - **Conclusion:** Movement was blocked. The wall is still solid. Hypothesis is DEBUNKED.
-
-### Violet Mart Investigation
-- **Hypothesis:** Talking to the Cooltrainer M at (5, 2) would open the path to the Clerk.
-- **Test:** Spoke to the Cooltrainer.
-  - **Conclusion:** He only provided generic advice. The path remains blocked. Hypothesis is DEBUNKED.
-
+- **Sprout Tower 1F - Re-interaction Test:**
+  - **Hypothesis (from Agent):** Talking to SAGE CHOW again after the battle will cause him to open the path.
+  - **Test:** Interacted with SAGE CHOW at (3, 5).
+  - **Conclusion:** The Sage gave flavor dialogue (\"All living beings coexist through cooperation...\"). The path did not open. Hypothesis is DEBUNKED.
+- **1F - Wall Switch Test:**
+  - **Hypothesis (from Agent):** A hidden switch has appeared on the wall at x=4.
+  - **Conclusion:** Systematically pressing 'A' on all adjacent wall segments yielded no results. Hypothesis is DEBUNKED.
+- **1F - Interactable Object Test:**
+  - **Hypothesis (from Agent):** An object in the western section became interactable after defeating SAGE CHOW.
+  - **Conclusion:** Attempted to interact with pillars at (3,8) and (2,8). No interaction occurred. Hypothesis is DEBUNKED.
+- **1F - Hidden Item & Floor Switch Tests:**
+  - **Hypothesis (from Agent):** A hidden item or switch appeared in the western section after defeating SAGE CHOW.
+  - **Conclusion:** Systematically interacting with the floor and the Sage's original tile yielded no results. Hypothesis is DEBUNKED.
 - **Pillar Puzzle Tests (2F):**
   - **Hypothesis 4 (Agent):** Defeating the Sage on 2F triggered a new event or NPC on 1F. (DEBUNKED)
   - **Hypothesis 5 (Agent):** One of the southern wall tiles of the central pillar is an interactable switch. (DEBUNKED)
@@ -142,47 +163,11 @@ Task: Test moving UP onto a FLOOR_UP_WALL tile.
   - **Pressure Plate Test:** There is a hidden pressure plate on 2F. (DEBUNKED for eastern side)
   - **Interactable Object Test:** Another object on 2F is an interactable switch. (DEBUNKED for wall segment at (8,4))
 
-### Sprout Tower 1F - Re-interaction Test
-- **Hypothesis (from Agent):** Talking to SAGE CHOW again after the battle will cause him to open the path.
-- **Test:** Interacted with SAGE CHOW at (3, 5).
-  - **Conclusion:** The Sage gave flavor dialogue (\"All living beings coexist through cooperation...\"). The path did not open. Hypothesis is DEBUNKED.
-
-- **1F - Wall Switch Test:**
-  - **Hypothesis (from Agent):** A hidden switch has appeared on the wall at x=4.
-  - **Conclusion:** Systematically pressing 'A' on all adjacent wall segments yielded no results. Hypothesis is DEBUNKED.
-
-- **1F - Interactable Object Test:**
-  - **Hypothesis (from Agent):** An object in the western section became interactable after defeating SAGE CHOW.
-  - **Conclusion:** Attempted to interact with pillars at (3,8) and (2,8). No interaction occurred. Hypothesis is DEBUNKED.
-
-- **1F - Hidden Item & Floor Switch Tests:**
-  - **Hypothesis (from Agent):** A hidden item or switch appeared in the western section after defeating SAGE CHOW.
-  - **Conclusion:** Systematically interacting with the floor and the Sage's original tile yielded no results. Hypothesis is DEBUNKED.
-
-### Violet City Gatehouse Warp - Investigation Conclusion
-- **Status:** Currently impassable.
-- **Summary:** All simple hypotheses for activating the warp at (39, 24) and (39, 25) have been tested and have failed. This includes entering from multiple directions, moving between the two warp tiles, and attempting to interact from an adjacent tile. Repeated position hallucinations have compromised testing, but the consistent failure suggests an unknown condition is blocking this path.
-- **New Plan:** I am abandoning this route and will now pivot to exploring all unseen areas of Violet City, starting with the west side. This path is a confirmed dead end for now.
-
-### Route 32 Pathing Investigation
-- **Conclusion:** After multiple failed pathing attempts, it is confirmed that the eastern and western paths of Route 32 are completely separate at the northern end. The eastern path is a dead end due to one-way ledges further south. The correct path forward must be found by exploring unseen areas to find a crossover or alternate route.
-
-### Route 32 Item Pickup
-- **Hypothesis:** I can walk onto the tile with the Poké Ball to pick it up.
-- **Test:** Followed a path plan to (6, 53).
-- **Conclusion:** Movement was blocked at (6, 54). Hypothesis is DEBUNKED.
-- **New Hypothesis:** I must interact with the Poké Ball from an adjacent tile.
-
-## Notepad Additions (Turn 5148)
-
-### New Tile Types
-- **CAVE**: Traversable warp.
-
-### New Future Tasks
-- Test one-way ledges by trying to move up them.
-
-### New Tool/Agent Ideas
-- **puzzle_solver_assistant (Agent):** An agent to systematically guide the puzzle-solving process, suggesting hypotheses and tests.
-- **long_distance_pathfinder (Tool):** A tool optimized for finding paths across multiple maps, not just the current one.
-- Refactor 'Debunked Hypotheses' section into smaller chunks using 'replace'.
-- Refactor 'Debunked Hypotheses' section into smaller chunks using 'replace'.
+### Route 32
+- **Route 32 Pathing Investigation:**
+  - **Conclusion:** After multiple failed pathing attempts, it is confirmed that the eastern and western paths of Route 32 are completely separate at the northern end. The eastern path is a dead end due to one-way ledges further south. The correct path forward must be found by exploring unseen areas to find a crossover or alternate route.
+- **Route 32 Item Pickup:**
+  - **Hypothesis:** I can walk onto the tile with the Poké Ball to pick it up.
+  - **Test:** Followed a path plan to (6, 53).
+  - **Conclusion:** Movement was blocked at (6, 54). Hypothesis is DEBUNKED.
+  - **New Hypothesis:** I must interact with the Poké Ball from an adjacent tile.
