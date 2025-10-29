@@ -22,6 +22,9 @@
 - **CRITICAL HALLUCINATION (Turns 4838-4866):** I was stuck in a multi-turn loop attempting to 'fix' the `find_path_to_target` tool by removing a debug print. I repeatedly submitted identical, already-correct code. The tool had been fixed in turn 4833. This was a significant failure of state tracking and a major hallucination that wasted many turns.
 - **CRITICAL HALLUCINATION (Turn 5590):** Believed I had exited Union Cave and was on Route 32 at (6, 79). I was actually still inside Union Cave at (17, 3), standing on the exit warp. This caused my pathfinder to fail and my entire plan to be based on an incorrect reality.
 - **CRITICAL HALLUCINATION (Turn 5640):** Believed I had a tool named `find_closest_reachable_unseen_tile`. This tool does not exist.
+- **CRITICAL HALLUCINATION (Turn 5961):** Believed I had descended the ladder to AzaleaPokecenter1F (map 8_1). I was still on Pokecenter2F (map 20_1). This also re-confirmed that ladders are used by moving onto them, not by pressing a direction while standing on them.
+- **CRITICAL HALLUCINATION (Turn 5981):** Believed I had a tool named `find_reachable_unseen_tiles` and tried to delete it. The tool never existed.
+- **CRITICAL HALLUCINATION (Turn 5981):** Believed my `get_on_screen_object_locations_json` tool definition failed in a previous turn when it had actually succeeded. This was a state-tracking failure.
 
 ## Game Mechanics & Discoveries
 
@@ -31,6 +34,7 @@
 - Stunning an NPC can break scripted events, causing dialogue loops. It can also be a reliable solution for interacting with moving NPCs.
 - Repeatedly interacting with an object (like a sign) without new results can lead to loops. I must dismiss dialogue before attempting to move.
 - The 'Select' button on the nicknaming screen toggles between uppercase and lowercase keyboards.
+* The `stun_npc` effect is temporary and resets when changing maps. (Verified in Azalea Pokémon Center)
 
 ### Battle Information
 *Ignis learned EMBER at Lv12.*
@@ -88,6 +92,12 @@
 - The city is not divided by a river; the two sides are connected by walkable paths.
 - YOUNGSTER at (5, 18) mentioned a 'wiggly tree' that 'squirms and dances'. This is likely a hint about how to interact with HEADBUTT_TREEs.
 
+### Route 33
+- Hiker Anthony is on this route. He gives his phone number instead of battling.
+
+### Azalea Town
+- The warps to the Gym (10, 15) and Slowpoke Well (31, 7) are currently blocked by Team Rocket grunts. I cannot reach them to investigate and mark them until I find a way to move the grunts.
+
 ## Archived Investigations (Solved/Debunked)
 - **Healing Methods (New Bark Town):** Conclusion: Neither Mom nor the player's bed heals Pokémon.
 - **Fisher NPC Interaction (New Bark Town):** Conclusion: Moving NPCs can disrupt interactions. Stunning them first is a reliable solution.
@@ -113,35 +123,9 @@
   - **New Hypothesis:** The name `WARP_CARPET_DOWN` implies I must press 'Down' while standing on the tile to activate it.
   - **Test:** Pressing 'Down' while at (17, 3).
 
-## Current Objectives & Open Puzzles
-
-### General Tasks & Tests
-- Test one-way ledges by trying to move up them.
-- Test traversability of BUOY tiles.
-
 ## Untested Assumptions & Future Tests
 - Test the damage of EMBER vs. QUICK ATTACK on a Water-type.
 - Fully test the traversability of `FLOOR_UP_WALL` tiles.
-
-## Route 33
-- Hiker Anthony is on this route. He gives his phone number instead of battling.
-- **CRITICAL HALLUCINATION (Turn 5961):** Believed I had descended the ladder to AzaleaPokecenter1F (map 8_1). I was still on Pokecenter2F (map 20_1). This also re-confirmed that ladders are used by moving onto them, not by pressing a direction while standing on them.
-* The `stun_npc` effect is temporary and resets when changing maps. (Verified in Azalea Pokémon Center)
-
-## Untested Assumptions & Future Tests
 - Test one-way ledges (`LEDGE_HOP_DOWN`) by trying to move up them.
 - Test `HEADBUTT_TREE`s by interacting with them with different Pokémon in the lead to see if any move can be used.
-
-## World Knowledge & Location Notes
-### Azalea Town
-- The warps to the Gym (10, 15) and Slowpoke Well (31, 7) are currently blocked by Team Rocket grunts. I cannot reach them to investigate and mark them until I find a way to move the grunts.
-
-## Untested Assumptions & Future Tests
-- Test one-way ledges (`LEDGE_HOP_DOWN`) by trying to move up them.
-- Test `HEADBUTT_TREE`s by interacting with them with different Pokémon in the lead to see if any move can be used.
-
-## World Knowledge & Location Notes
-### Azalea Town
-- The warps to the Gym (10, 15) and Slowpoke Well (31, 7) are currently blocked by Team Rocket grunts. I cannot reach them to investigate and mark them until I find a way to move the grunts.
-- **CRITICAL HALLUCINATION (Turn 5981):** Believed I had a tool named `find_reachable_unseen_tiles` and tried to delete it. The tool never existed.
-- **CRITICAL HALLUCINATION (Turn 5981):** Believed my `get_on_screen_object_locations_json` tool definition failed in a previous turn when it had actually succeeded. This was a state-tracking failure.
+- Test traversability of BUOY tiles.
