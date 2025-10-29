@@ -130,3 +130,5 @@
 - Test `HEADBUTT_TREE`s by interacting with them with different Pokémon in the lead to see if any move can be used.
 - Test traversability of BUOY tiles.
 - Azalea Town Youngster at (6, 9) mentioned the Charcoal Man's Pokémon can use CUT to get through Ilex Forest.
+- **CRITICAL HALLUCINATION (Turn 6045):** Believed I had entered Kurt's house (map 8_4) when I was still in Azalea Town (map 8_7).
+- **CRITICAL HALLUCINATION (Turn 6050):** Believed I was in Azalea Town (map 8_7) when I was actually inside the Charcoal Kiln (map 8_2).
