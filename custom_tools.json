@@ -736,21 +736,5 @@
         "action_counter": 5515
       }
     ]
-  },
-  "get_on_screen_object_locations_json": {
-    "description": "Parses the map_xml_string to find all on-screen sprite objects and returns their coordinates as a JSON string for use in pathfinding tools.",
-    "input_schema": {
-      "type": "object",
-      "properties": {},
-      "required": []
-    },
-    "python_script": "import xml.etree.ElementTree as ET\nimport json\n\nroot = ET.fromstring(map_xml_string)\nobject_locations = []\nfor row_elem in root.findall('Row'):\n    y = row_elem.get('id')\n    for tile_elem in row_elem.findall('Tile'):\n        x = tile_elem.get('id')\n        if tile_elem.find(\".//Object[@id]\") is not None:\n             object_locations.append({'x': x, 'y': y})\n\nprint(json.dumps(object_locations))",
-    "history": [
-      {
-        "commit_message": "feat: Create tool to automate obstacle detection. This tool, `get_on_screen_object_locations_json`, parses the map XML to automatically generate the JSON string of on-screen object coordinates required by the `find_path_to_target` tool. This eliminates the manual and error-prone process of identifying and listing NPCs, preventing a recurring cause of pathing failures.",
-        "timestamp": "2025-10-29T12:47:54.071Z",
-        "action_counter": 5979
-      }
-    ]
   }
 }

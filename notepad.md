@@ -127,3 +127,7 @@
 ## Tool Issues & Bugs
 - The built-in `select_battle_option` tool failed during a trainer battle (Turn 6112), claiming the battle menu was not visible when it was. The tool is unreliable and should not be used. Manual battle menu navigation is required until a fix is identified.
 - **WARP_CARPET_LEFT**: Traversable warp. Must be activated by moving left onto the tile. (Verified)
+- Test movement off a `WARP_CARPET_RIGHT` tile in all directions to verify its activation mechanic.
+### Ilex Forest - Alternative Hypotheses
+1. The warp at (9, 5) in the gatehouse might not lead to the forest, but back to town or elsewhere.
+2. The apprentice might not give me CUT directly, but instead trigger an event where the Charcoal Man gives it to me as a reward for finding him.
