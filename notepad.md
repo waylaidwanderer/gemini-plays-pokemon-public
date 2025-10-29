@@ -180,3 +180,6 @@
   - **Test 6:** Interacted with FARFETCH'D at (20, 24) from behind (player at 20, 23).
   - **Result:** FARFETCH'D gave dialogue, then disappeared from the map entirely.
   - **Conclusion:** The 'interact from behind' mechanic is highly specific. Certain locations cause movement, while others cause it to disappear, likely resetting its position.
+
+## Route 32 Layout Correction
+- The eastern path of Route 32 is a dead end, separated from the western path by one-way ledges and walls. From the area south of the Union Cave exit, it is impossible to proceed further south or west. The only exit is back north through Union Cave.
