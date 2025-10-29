@@ -128,6 +128,8 @@
 - **Attempt 2:** Interacted with FARFETCH'D at (20, 24) while standing at (20, 23) (facing down). It turned to face up but did not move. Hypothesis: Path was blocked by trees behind it. After I cleared the dialogue, the FARFETCH'D disappeared.
 - **Alternative Hypothesis 1:** The FARFETCH'D moves to pre-scripted points regardless of player position. Test: Interact from the same direction twice and see if the outcome is different.
 - **Alternative Hypothesis 2:** The goal is not to herd it all the way to the apprentice, but to trap it or lead it to a specific trigger point.
+- **Alternative Hypothesis 3:** The FARFETCH'D is startled by the sound of snapping twigs. Stepping on the piles of twigs on the ground might be the trigger to make it move in a specific direction. Test: Step on a twig pile near the FARFETCH'D and observe its reaction.
+- **Alternative Hypothesis 4:** The FARFETCH'D must be approached from behind. Interacting with it while it's facing away might cause it to move forward. Test: Circle around the FARFETCH'D and interact with it from its rear.
 
 ## Untested Hypotheses
 - Test the damage of EMBER vs. QUICK ATTACK on a Water-type.
