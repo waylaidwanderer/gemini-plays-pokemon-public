@@ -68,7 +68,7 @@
 - **TV**: Impassable. (Verified)
 - **VOID**: Impassable. (Verified)
 - **WALL**: Impassable. (Verified)
-- **WARP_CARPET_DOWN/RIGHT**: Traversable warp.
+- **WARP_CARPET_DOWN/RIGHT**: Traversable, acts as a two-way warp tile. (Verified)
 - **WARP_CARPET_LEFT**: Traversable, acts as a warp tile. (Verified)
 - **WATER**: Impassable. (Verified by pathing attempts)
 - **WINDOW**: Impassable. (Verified)
