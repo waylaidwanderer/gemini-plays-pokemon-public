@@ -120,3 +120,6 @@
 - **CRITICAL HALLUCINATION (Turn 5981):** Believed my `get_on_screen_object_locations_json` tool definition failed in a previous turn when it had actually succeeded. This was a state-tracking failure.
 - **CRITICAL HALLUCINATION (Turn 6045):** Believed I had entered Kurt's house (map 8_4) when I was still in Azalea Town (map 8_7).
 - **CRITICAL HALLUCINATION (Turn 6050):** Believed I was in Azalea Town (map 8_7) when I was actually inside the Charcoal Kiln (map 8_2).
+
+## Tool Issues & Bugs
+- The built-in `select_battle_option` tool failed during a trainer battle (Turn 6112), claiming the battle menu was not visible when it was. The tool is unreliable and should not be used. Manual battle menu navigation is required until a fix is identified.
