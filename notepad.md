@@ -5,6 +5,7 @@
 - **MAP MARKER DISCIPLINE:** I must always check for existing map markers before creating a new one to avoid duplicates.
 - **TOOL MAINTENANCE:** I must NEVER defer fixing a broken tool or agent. It is always the highest priority, overriding any in-game objective.
 - **TOOL FAILURE:** If a tool fails, my first assumption must be that the tool is broken, not that the game is impossible. I must fix the tool before re-attempting the action.
+- **IMMEDIATE CORRECTION:** If my understanding of the game state (e.g., the existence of a tool) is proven wrong, I must immediately correct my documentation (notepad) before any other action.
 
 ## General Discoveries
 - My biggest obstacle is my own memory. I must only trust in-game observation.
@@ -48,6 +49,7 @@
 - **VOID**: Impassable. (Verified)
 - **WALL**: Impassable. (Verified)
 - **WARP_CARPET_DOWN/RIGHT**: Traversable warp.
+- **WARP_CARPET_LEFT**: Traversable, acts as a warp tile. (Verified)
 - **WATER**: Impassable. (Verified by pathing attempts)
 - **WINDOW**: Impassable. (Verified)
 - **FLOOR_UP_WALL**: Impassable when moving down onto it. (Verified). Traversability when moving up onto it is unknown.
@@ -68,6 +70,7 @@
 - **CRITICAL HALLUCINATION (Turn 2886):** Believed I was on Sprout Tower 2F at (6, 4) when I was actually on Sprout Tower 1F at (6, 3).
 - **Pathfinder Tool Issue (Corrected):** The pathfinder was incorrectly assumed to be faulty. After extensive debugging, it was confirmed to be working correctly. The repeated failures were caused by my own hallucination of a traversable path on Route 32 where a large, one-way ledge system actually exists.
 - **CRITICAL HALLUCINATION (Turn 3658):** Believed I was on Sprout Tower 2F at (6, 4) after climbing a ladder, but was actually still on Sprout Tower 1F at (6, 3). This invalidated my entire plan.
+- **CRITICAL HALLUCINATION (Turns 4838-4866):** I was stuck in a multi-turn loop attempting to 'fix' the `find_path_to_target` tool by removing a debug print. I repeatedly submitted identical, already-correct code. The tool had been fixed in turn 4833. This was a significant failure of state tracking and a major hallucination that wasted many turns.
 
 ### Sprout Tower Puzzle - New Hypotheses (from Agent - Turn 3590)
 1. All other Sages on Sprout Tower 2F must be defeated before interacting with the Sage at (12, 3).
@@ -83,8 +86,11 @@
 - `find_reachable_unseen_tiles`: A BFS-based tool to find all reachable but unexplored map tiles.
 - `generate_nickname_inputs`: A tool to automate entering Pokémon nicknames.
 - `systematic_search`: A tool to methodically explore an area for hidden items.
-- `find_closest_reachable_unseen_tile`: A combined tool that finds all reachable unseen tiles and returns the closest one. (BUG: Can suggest `VOID` tiles as targets. The BFS should be updated to not consider impassable tiles as valid 'unseen' targets.)
+- `find_closest_reachable_unseen_tile`: A combined tool that finds all reachable unseen tiles and returns the closest one.
+
+## My Custom Agents
 - `simple_battle_strategist`: Agent for automating wild battle decisions. (LIMITATION: Does not account for move PP.)
+- `notepad_refactor_assistant`: An agent to refactor and restructure this notepad.
 
 ## Future Tool/Agent Ideas
 - **performance_analyst (Agent):** An agent to analyze my recent turns and suggest improvements based on my core principles, such as detecting unproductive loops.
@@ -92,11 +98,13 @@
 - **pathfinder_diagnostician (Agent):** An agent to analyze the pathfinder's debug grid to suggest fixes or identify the cause of pathing failures.
 - **exploration_planner (Tool):** A tool that finds all reachable unseen tiles and then uses the pathfinder to determine the one with the shortest actual travel distance, not just straight-line distance.
 - **pathing_assistant (Agent):** An agent that suggests alternative navigation strategies (e.g., backtracking, intermediate points) when the primary pathfinder fails.
+- **complex_battle_strategist (Agent):** An advanced battle agent that considers type effectiveness, status moves, and other battle complexities.
 
 ## Future Tasks
 Task: Test moving UP onto a FLOOR_UP_WALL tile.
 
 ## Debunked Hypotheses & Dead Ends
+
 ### New Bark Town
 - **Fisher NPC Interaction Failure:**
   - **Conclusion:** Moving NPCs can disrupt interactions. Stunning them first is a reliable solution.
@@ -119,7 +127,7 @@ Task: Test moving UP onto a FLOOR_UP_WALL tile.
 ### Violet Mart Investigation
 - **Hypothesis:** Talking to the Cooltrainer M at (5, 2) would open the path to the Clerk.
 - **Test:** Spoke to the Cooltrainer.
-- **Conclusion:** He only provided generic advice. The path remains blocked. Hypothesis is DEBUNKED.
+  - **Conclusion:** He only provided generic advice. The path remains blocked. Hypothesis is DEBUNKED.
 
 - **Pillar Puzzle Tests (2F):**
   - **Hypothesis 4 (Agent):** Defeating the Sage on 2F triggered a new event or NPC on 1F. (DEBUNKED)
@@ -134,7 +142,7 @@ Task: Test moving UP onto a FLOOR_UP_WALL tile.
 ### Sprout Tower 1F - Re-interaction Test
 - **Hypothesis (from Agent):** Talking to SAGE CHOW again after the battle will cause him to open the path.
 - **Test:** Interacted with SAGE CHOW at (3, 5).
-- **Conclusion:** The Sage gave flavor dialogue ("All living beings coexist through cooperation..."). The path did not open. Hypothesis is DEBUNKED.
+  - **Conclusion:** The Sage gave flavor dialogue (\"All living beings coexist through cooperation...\"). The path did not open. Hypothesis is DEBUNKED.
 
 - **1F - Wall Switch Test:**
   - **Hypothesis (from Agent):** A hidden switch has appeared on the wall at x=4.
@@ -156,20 +164,8 @@ Task: Test moving UP onto a FLOOR_UP_WALL tile.
 ### Route 32 Pathing Investigation
 - **Conclusion:** After multiple failed pathing attempts, it is confirmed that the eastern and western paths of Route 32 are completely separate at the northern end. The eastern path is a dead end due to one-way ledges further south. The correct path forward must be found by exploring unseen areas to find a crossover or alternate route.
 
-### Corrected Misunderstandings
-- **CRITICAL HALLUCINATION (Turns 4838-4866):** I was stuck in a multi-turn loop attempting to 'fix' the `find_path_to_target` tool by removing a debug print. I repeatedly submitted identical, already-correct code. The tool had been fixed in turn 4833. This was a significant failure of state tracking and a major hallucination that wasted many turns.
-
-## Core Principles & Lessons Learned (Addendum)
-- **IMMEDIATE CORRECTION:** If my understanding of the game state (e.g., the existence of a tool) is proven wrong, I must immediately correct my documentation (notepad) before any other action.
-
-## Area and Navigation Insights (Addendum)
-### Tile Traversal and Movement Rules
-- **WARP_CARPET_LEFT**: Traversable, acts as a warp tile. (Verified)
-
-## Future Tool/Agent Ideas (Addendum)
-- **complex_battle_strategist (Agent):** An advanced battle agent that considers type effectiveness, status moves, and other battle complexities.
-- **Route 32 Item Pickup:**
-  - **Hypothesis:** I can walk onto the tile with the Poké Ball to pick it up.
-  - **Test:** Followed a path plan to (6, 53).
-  - **Conclusion:** Movement was blocked at (6, 54). Hypothesis is DEBUNKED.
-  - **New Hypothesis:** I must interact with the Poké Ball from an adjacent tile.
+### Route 32 Item Pickup
+- **Hypothesis:** I can walk onto the tile with the Poké Ball to pick it up.
+- **Test:** Followed a path plan to (6, 53).
+- **Conclusion:** Movement was blocked at (6, 54). Hypothesis is DEBUNKED.
+- **New Hypothesis:** I must interact with the Poké Ball from an adjacent tile.
