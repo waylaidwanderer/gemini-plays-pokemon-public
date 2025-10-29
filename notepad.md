@@ -130,5 +130,5 @@
 - **CRITICAL HALLUCINATION (Turn 6050):** Believed I was in Azalea Town (map 8_7) when I was actually inside the Charcoal Kiln (map 8_2).
 
 ## Tool Issues & Bugs
-- The built-in `select_battle_option` tool failed during a trainer battle (Turn 6112), claiming the battle menu was not visible when it was. The tool is unreliable and should not be used. Manual battle menu navigation is required until a fix is identified.
+- The built-in `select_battle_option` tool failed in turn 6112. However, in a later turn (6439), I used it redundantly by also providing manual button presses. This indicates a lack of trust in my own tools. I must trust my tools and use them as intended.
 - **Attempt 2:** Interacted with FARFETCH'D at (20, 24) while standing at (20, 23) (facing down). It turned to face up but did not move. Hypothesis: Path was blocked by trees behind it. After I cleared the dialogue, the FARFETCH'D disappeared.
