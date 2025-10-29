@@ -129,7 +129,7 @@
 - **CRITICAL HALLUCINATION (Turn 6045):** Believed I had entered Kurt's house (map 8_4) when I was still in Azalea Town (map 8_7).
 - **CRITICAL HALLUCINATION (Turn 6050):** Believed I was in Azalea Town (map 8_7) when I was actually inside the Charcoal Kiln (map 8_2).
 
-## Tool Issues & Bugs
+## Tool Usage Notes
 - The built-in `select_battle_option` tool failed in turn 6112. However, in a later turn (6439), I used it redundantly by also providing manual button presses. This indicates a lack of trust in my own tools. I must trust my tools and use them as intended.
 - **Attempt 2:** Interacted with FARFETCH'D at (20, 24) while standing at (20, 23) (facing down). It turned to face up but did not move. Hypothesis: Path was blocked by trees behind it. After I cleared the dialogue, the FARFETCH'D disappeared.
 ## Reflection Log (Turn 6498)
