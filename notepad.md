@@ -166,3 +166,11 @@
 - **puzzle_solver_assistant (Agent):** An agent to systematically guide the puzzle-solving process, suggesting hypotheses and tests.
 - **Trainer Identification:** I must verify the name and location of a trainer before marking them as defeated to prevent misidentification errors like the Hiker Daniel/Russell mix-up.
 - **CRITICAL HALLUCINATION (Turn 5590):** Believed I had exited Union Cave and was on Route 32 at (6, 79). I was actually still inside Union Cave at (17, 3), standing on the exit warp. This caused my pathfinder to fail and my entire plan to be based on an incorrect reality.
+### Union Cave Exit Puzzle (Ongoing)
+- **Observation:** At (17, 3) on a `WARP_CARPET_DOWN` tile. Cannot exit.
+- **Failed Hypotheses:**
+  1. Stepping onto the tile from above (17, 2). (FAILED)
+  2. Pressing 'A' while on the tile. (FAILED)
+  3. Stepping onto the tile from the left (16, 3). (FAILED)
+- **New Hypothesis:** The name `WARP_CARPET_DOWN` implies I must press 'Down' while standing on the tile to activate it.
+- **Test:** Pressing 'Down' while at (17, 3).
