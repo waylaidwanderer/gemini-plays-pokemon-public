@@ -162,3 +162,8 @@
     - **Test 3:** Stepped on twig pile at (15, 26) while FARFETCH'D was at (15, 25) facing right.
     - **Result:** FARFETCH'D turned from 'right' to 'left'.
     - **Conclusion:** Hypothesis is definitively disproven. The turning direction is specific to the twig pile, not the location of the sound.
+- **Hypothesis Test Log (continued):**
+  - **Hypothesis 2 (re-test):** Interacting with the FARFETCH'D from behind will cause it to move.
+    - **Test 4:** Interacted with FARFETCH'D at (15, 25) from behind (player at 15, 26).
+    - **Result:** Interaction failed, only produced dialogue. However, after closing the dialogue, the FARFETCH'D moved to a new location at (20, 24).
+    - **Conclusion:** The 'interact from behind' mechanic is not a universal trigger. It seems to only work at specific, pre-determined points in the puzzle sequence.
