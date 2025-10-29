@@ -183,3 +183,4 @@
 
 ## Route 32 Layout Correction
 - The eastern path of Route 32 is a dead end, separated from the western path by one-way ledges and walls. From the area south of the Union Cave exit, it is impossible to proceed further south or west. The only exit is back north through Union Cave.
+- **FLOOR_UP_WALL**: One-way traversal. Can only be entered by moving up onto it. (Verified on Route 32)
