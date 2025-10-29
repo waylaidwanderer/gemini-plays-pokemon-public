@@ -4,7 +4,7 @@
 - **IMMEDIATE ACTION:** I must perform tasks like placing markers, updating my notepad, and fixing tools *immediately*. Deferring tasks, like placing map markers, is a process violation. Significant events must be documented *immediately* in the turn they occur.
 - **AGENT USAGE:** When stuck for more than 5 turns on a puzzle, I must use the `hypothesis_generator` agent. My `simple_battle_strategist` agent is underutilized and I will prioritize using it for all future wild battles to automate decision-making.
 - **PUZZLE DOCUMENTATION:** My entire problem-solving process (observation, hypothesis, test, conclusion) for any puzzle must be documented in this notepad as it happens.
-- **MAP MARKER DISCIPLINE:** I must always check for existing map markers before creating a new one to avoid duplicates.
+- **MAP MARKER DISCIPLINE:** I must always check for existing map markers before creating a new one to avoid duplicates. I must mark BOTH ends of a warp immediately after traversal.
 - **TOOL MAINTENANCE:** I must NEVER defer fixing a broken tool or agent. It is always the highest priority, overriding any in-game objective.
 - **TOOL FAILURE:** If a tool fails, my first assumption must be that the tool is broken, not that the game is impossible. I must fix the tool before re-attempting the action.
 - **IMMEDIATE CORRECTION:** If my understanding of the game state (e.g., the existence of a tool) is proven wrong, I must immediately correct my documentation (notepad) before any other action.
@@ -21,6 +21,7 @@
 - **CRITICAL HALLUCINATION (Turn 3658):** Believed I was on Sprout Tower 2F at (6, 4) after climbing a ladder, but was actually still on Sprout Tower 1F at (6, 3). This invalidated my entire plan.
 - **CRITICAL HALLUCINATION (Turns 4838-4866):** I was stuck in a multi-turn loop attempting to 'fix' the `find_path_to_target` tool by removing a debug print. I repeatedly submitted identical, already-correct code. The tool had been fixed in turn 4833. This was a significant failure of state tracking and a major hallucination that wasted many turns.
 - **CRITICAL HALLUCINATION (Turn 5590):** Believed I had exited Union Cave and was on Route 32 at (6, 79). I was actually still inside Union Cave at (17, 3), standing on the exit warp. This caused my pathfinder to fail and my entire plan to be based on an incorrect reality.
+- **CRITICAL HALLUCINATION (Turn 5640):** Believed I had a tool named `find_closest_reachable_unseen_tile`. This tool does not exist.
 
 ## Game Mechanics & Discoveries
 
@@ -100,9 +101,6 @@
 
 ## Current Objectives & Open Puzzles
 
-### High-Priority Tasks
-- Refactor `find_path_to_target` and `find_closest_reachable_unseen_tile` to eliminate duplicated A* logic. Create a single, shared A* implementation.
-
 ### General Tasks & Tests
 - Test moving UP onto a FLOOR_UP_WALL tile.
 - Test one-way ledges by trying to move up them.
@@ -139,7 +137,7 @@
 
 ### Development Goals
 - **Tool Refactoring:**
-  - **(High Priority):** Refactor `find_path_to_target` and `find_closest_reachable_unseen_tile` to eliminate duplicated A* logic. Create a single, shared A* implementation that both tools can call to ensure fixes are propagated consistently.
+  - Refactor my pathfinding tools (`find_path_to_target`, `find_reachable_unseen_tiles`, `exploration_planner`, `systematic_search`) to eliminate duplicated A* logic and use a single, shared implementation.
 - **Future Tools & Agents Wishlist:**
   - **audit_agent (Agent):** An agent to analyze a log of recent turns and identify any deviations from my core principles, such as deferred data management tasks.
   - **performance_analyst (Agent):** An agent to analyze my recent turns and suggest improvements based on my core principles, such as detecting unproductive loops.
