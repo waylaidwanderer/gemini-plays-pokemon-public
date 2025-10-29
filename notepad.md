@@ -57,6 +57,7 @@
 - **Building Identification (Violet City):** Assumption: Building at (21, 29) was the Gym. (Confirmed to be a house with a trade NPC)
 - **Sprout Tower vs. Gym:** Assumption: Sprout Tower is separate from the Gym. (Confirmed)
 - **MR. POKEMON's House Location:** Assumption: Located on Route 30. (Confirmed)
+- **Violet City Map Layout:** My assumption that the city was divided by the river was a major hallucination. The two sides are connected by walkable paths.
 
 ### Corrected Misunderstandings
 - The 'Poké Ball machine' in Elm's lab was a hallucination.
@@ -80,6 +81,7 @@
 - **performance_analyst:** An agent to analyze my recent turns and suggest improvements based on my core principles.
 - **gym_prep_advisor:** An agent to help plan long-term goals, like what level my Pokemon should be for the next gym.
 - **pathfinder_diagnostician:** An agent to analyze the pathfinder's debug grid to suggest fixes or identify the cause of pathing failures.
+- **exploration_planner:** A tool that finds all reachable unseen tiles and then uses the pathfinder to determine the one with the shortest actual travel distance, not just straight-line distance.
 
 ## Tasks from Overwatch Critique
 - Investigate traversability of FLOOR_UP_WALL tile type.
@@ -143,9 +145,3 @@
 - **Status:** Currently impassable.
 - **Summary:** All simple hypotheses for activating the warp at (39, 24) and (39, 25) have been tested and have failed. This includes entering from multiple directions, moving between the two warp tiles, and attempting to interact from an adjacent tile. Repeated position hallucinations have compromised testing, but the consistent failure suggests an unknown condition is blocking this path.
 - **New Plan:** I am abandoning this route and will now pivot to exploring all unseen areas of Violet City, starting with the west side. This path is a confirmed dead end for now.
-
-## Future Agent Ideas
-- **exploration_planner:** A tool that finds all reachable unseen tiles and then uses the pathfinder to determine the one with the shortest actual travel distance, not just straight-line distance.
-
-## Tasks from Overwatch Critique
-- Investigate traversability of FLOOR_UP_WALL tile type.
