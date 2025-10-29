@@ -174,18 +174,14 @@
 
 ## Tool Refactoring Goals
 - **(High Priority):** Refactor `find_path_to_target` and `find_closest_reachable_unseen_tile` to eliminate duplicated A* logic. Create a single, shared A* implementation that both tools can call to ensure fixes are propagated consistently.
-### Route 32 - Hidden Item (SUPER POTION)
+### Route 32 - Hidden Item (SUPER POTION) - SOLVED
 - **Observation:** Hidden item at (11, 40).
-- **Hypothesis 1:** I can pick up the item by standing on its tile (11, 40) and pressing 'A'.
-- **Test:** Stood on (11, 40) and pressed 'A' multiple times (Turns 5360, 5374, 5375).
-- **Conclusion:** No item was received. Hypothesis 1 is DEBUNKED.
-- **Hypothesis 2:** I must interact with the item from an adjacent tile.
-- **Current Test:** Move to (11, 41) (below the item) and interact.
-- **Menu Facing Trick (Route 32):**
-  - **Hypothesis:** Opening and closing the main menu at (11, 41) will change my facing direction from 'down' to 'up' without moving me.
-  - **Test:** Opened menu at (11, 41), then closed it.
-  - **Conclusion:** Facing direction remained 'down'. Hypothesis is DEBUNKED.
-- **New Plan for SUPER POTION:**
-  - **Observation:** Pressing a direction to turn also causes movement, creating an interaction loop.
-  - **New Hypothesis:** I can interact with the item from the side (10, 40) if I arrive there while facing right.
-  - **Plan:** 1. Path to (9, 40). 2. Move right to (10, 40). 3. Press 'A'.
+- **Problem:** Interacting with the item was difficult due to a movement quirk where pressing a directional button to face the item also caused movement onto the item's tile, creating a loop.
+- **Failed Hypotheses:**
+  1. Standing on the item's tile (11, 40) and pressing 'A'. (FAILED)
+  2. Standing on an adjacent tile (11, 41) and pressing 'A' while facing away. (FAILED)
+  3. Using the main menu to change facing direction without moving. (FAILED)
+- **Solution:**
+  - **Hypothesis:** Approach the item from the side to land on an adjacent tile while already facing the correct direction.
+  - **Test:** Pathed to (9, 40), then moved right to (10, 40). This left me adjacent to the item at (11, 40) and facing it.
+  - **Conclusion:** Pressing 'A' from (10, 40) successfully retrieved the SUPER POTION. Hypothesis CONFIRMED.
