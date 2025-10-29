@@ -612,137 +612,6 @@
       }
     ]
   },
-  "find_reachable_unseen_tiles": {
-    "description": "Finds all unseen tiles on the current map that are reachable from the player's current position. It performs a breadth-first search (BFS) starting from the player to identify all accessible tiles, then returns the coordinates of any unseen tiles found within that accessible area.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "start_x": {
-          "type": "string"
-        },
-        "start_y": {
-          "type": "string"
-        }
-      },
-      "required": [
-        "start_x",
-        "start_y"
-      ]
-    },
-    "python_script": "import xml.etree.ElementTree as ET\nimport json\nfrom collections import deque\n\ndef find_reachable_unseen(start_x, start_y, map_xml_string):\n    root = ET.fromstring(map_xml_string)\n    map_width = int(root.attrib['width'])\n    map_height = int(root.attrib['height'])\n\n    start_x_0, start_y_0 = start_x - 1, start_y - 1\n\n    if not (0 <= start_x_0 < map_width and 0 <= start_y_0 < map_height):\n        print(json.dumps([]))\n        return\n\n    impassable_tiles = {'WALL', 'CUT_TREE', 'HEADBUTT_TREE', 'WATER', 'PC', 'BOOKSHELF', 'COUNTER', 'MART_SHELF', 'RADIO', 'TOWN_MAP', 'TV', 'WINDOW', 'VOID'}\n    ledge_tiles = {'LEDGE_HOP_DOWN', 'LEDGE_HOP_RIGHT', 'LEDGE_HOP_LEFT'}\n\n    grid = [[{'type': 'unseen', 'seen': False, 'has_object': False} for _ in range(map_width)] for _ in range(map_height)]\n\n    for row_elem in root.findall('Row'):\n        y_1based = int(row_elem.attrib['id'])\n        y = y_1based - 1\n        for tile_elem in row_elem.findall('Tile'):\n            x_1based = int(tile_elem.attrib['id'])\n            x = x_1based - 1\n            if 0 <= x < map_width and 0 <= y < map_height:\n                grid[y][x]['type'] = tile_elem.attrib.get('type', 'unseen')\n                grid[y][x]['seen'] = tile_elem.attrib.get('seen') == 'true'\n                if tile_elem.attrib.get('has-object') == 'true':\n                    grid[y][x]['has_object'] = True\n\n    queue = deque([(start_x_0, start_y_0)])\n    visited = set([(start_x_0, start_y_0)])\n    reachable_unseen = []\n\n    while queue:\n        current_x, current_y = queue.popleft()\n\n        if not grid[current_y][current_x]['seen']:\n            unseen_coord = {'x': current_x + 1, 'y': current_y + 1}\n            if unseen_coord not in reachable_unseen:\n                reachable_unseen.append(unseen_coord)\n\n        for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n            neighbor_x, neighbor_y = current_x + dx, current_y + dy\n\n            if not (0 <= neighbor_x < map_width and 0 <= neighbor_y < map_height) or (neighbor_x, neighbor_y) in visited:\n                continue\n\n            current_type = grid[current_y][current_x]['type']\n            neighbor_type = grid[neighbor_y][neighbor_x]['type']\n\n            if neighbor_type in impassable_tiles or grid[neighbor_y][neighbor_x]['has_object']:\n                continue\n\n            if neighbor_type == 'LEDGE_HOP_RIGHT' and current_type not in ledge_tiles and dx != 1: continue\n            if neighbor_type == 'LEDGE_HOP_DOWN' and current_type not in ledge_tiles and dy != 1: continue\n            if neighbor_type == 'LEDGE_HOP_LEFT' and current_type not in ledge_tiles and dx != -1: continue\n            if current_type == 'LEDGE_HOP_RIGHT' and dx == -1: continue\n            if current_type == 'LEDGE_HOP_DOWN' and dy == -1: continue\n            if current_type == 'LEDGE_HOP_LEFT' and dx == 1: continue\n\n            visited.add((neighbor_x, neighbor_y))\n            queue.append((neighbor_x, neighbor_y))\n\n    print(json.dumps(reachable_unseen))\n\nstart_x_str = input_data['start_x']\nstart_y_str = input_data['start_y']\nstart_x = int(start_x_str)\nstart_y = int(start_y_str)\nfind_reachable_unseen(start_x, start_y, map_xml_string)\n",
-    "history": [
-      {
-        "commit_message": "feat: Create tool to find reachable unseen tiles. This tool addresses the system's sticky alert about potentially reachable unseen tiles. It performs a BFS from the player's position, respecting all traversal rules including ledges, to find all accessible tiles. It then identifies and returns a list of all unseen tiles adjacent to this accessible area, providing a reliable target list for exploration and preventing attempts to pathfind to unreachable locations.",
-        "timestamp": "2025-10-27T09:24:39.107Z",
-        "action_counter": 936
-      },
-      {
-        "commit_message": "fix: Correct ledge traversal logic in reachability check. The BFS was using a simplified and incorrect rule for ledge traversal, causing it to fail to explore paths along adjacent ledge tiles of the same type. This resulted in the tool incorrectly reporting unreachable areas as reachable because it would 'leak' its search across impassable ledge boundaries. The logic has been updated to match the corrected, more robust rules from the `find_path_to_target` tool, ensuring the reachability check is accurate.",
-        "timestamp": "2025-10-27T11:52:03.594Z",
-        "action_counter": 1171
-      },
-      {
-        "commit_message": "fix: Overhaul reachability logic to use BFS. The previous version incorrectly identified all unseen tiles adjacent to any seen tile, leading to false positives. This update replaces the flawed logic with a Breadth-First Search starting from the player's position, incorporating the proven ledge traversal rules from the pathfinding tool. The tool now accurately identifies only the unseen tiles that are physically reachable, making it a reliable guide for exploration.",
-        "timestamp": "2025-10-27T11:55:54.051Z",
-        "action_counter": 1176
-      },
-      {
-        "commit_message": "feat: Create tool to find reachable unseen tiles. This tool addresses the system's sticky alert about potentially reachable unseen tiles. It performs a BFS from the player's position, respecting all traversal rules including ledges, to find all accessible tiles. It then identifies and returns a list of all unseen tiles adjacent to this accessible area, providing a reliable target list for exploration and preventing attempts to pathfind to unreachable locations.",
-        "timestamp": "2025-10-28T01:55:59.253Z",
-        "action_counter": 2391
-      },
-      {
-        "commit_message": "feat: Create tool to find reachable unseen tiles. This tool addresses the system's sticky alert about potentially reachable unseen tiles. It performs a BFS from the player's position, respecting all traversal rules including ledges, to find all accessible tiles. It then identifies and returns a list of all unseen tiles within this accessible area, providing a reliable target list for exploration and preventing attempts to pathfind to unreachable locations.",
-        "timestamp": "2025-10-28T04:14:15.146Z",
-        "action_counter": 2651
-      },
-      {
-        "commit_message": "feat: Create tool to find reachable unseen tiles. This tool addresses the system's sticky alert about potentially reachable unseen tiles. It performs a BFS from the player's position, respecting all traversal rules including ledges, to find all accessible tiles. It then identifies and returns a list of all unseen tiles within this accessible area, providing a reliable target list for exploration and preventing attempts to pathfind to unreachable locations.",
-        "timestamp": "2025-10-28T04:15:26.861Z",
-        "action_counter": 2652
-      },
-      {
-        "commit_message": "fix: Correct 1-indexed vs 0-indexed coordinate handling. The tool was failing to find any unseen tiles because it was using 1-indexed game coordinates to access its internal 0-indexed grid, causing it to immediately go out of bounds. This update ensures all coordinates are correctly converted for processing and then converted back for the output, making the tool functional.",
-        "timestamp": "2025-10-28T07:14:46.784Z",
-        "action_counter": 3022
-      },
-      {
-        "commit_message": "fix: Correct grid initialization logic. The tool was incorrectly initializing the grid with all tiles marked as 'seen', causing the BFS to find no unseen tiles. This update changes the default 'seen' status to False, ensuring the tool correctly identifies and explores the map.",
-        "timestamp": "2025-10-28T07:16:00.892Z",
-        "action_counter": 3025
-      },
-      {
-        "commit_message": "fix: Add debug print to diagnose grid population. The tool is persistently failing to find unseen tiles. This update adds a print statement to output the 'seen' status of the entire grid after it's populated from the XML. This will provide critical diagnostic information to determine if the grid is being created correctly or if the issue lies within the BFS algorithm itself.",
-        "timestamp": "2025-10-28T07:17:32.799Z",
-        "action_counter": 3028
-      },
-      {
-        "commit_message": "fix: Correct XML parsing for 0-indexed data. The tool was failing because the map XML now uses 0-indexed `id` attributes, but the code was still subtracting 1 during parsing. This update removes the incorrect subtractions, aligning the tool with the current data format and ensuring the grid is populated correctly. This should resolve the persistent failures.",
-        "timestamp": "2025-10-28T07:19:06.230Z",
-        "action_counter": 3031
-      },
-      {
-        "commit_message": "fix: Add comprehensive debug prints for BFS trace. The tool is persistently failing to find unseen tiles. This update re-adds the grid visualization and adds a new print statement inside the BFS loop to trace every visited coordinate. This will provide a complete execution log to diagnose the root cause of the failure.",
-        "timestamp": "2025-10-28T07:54:51.733Z",
-        "action_counter": 3091
-      },
-      {
-        "commit_message": "fix: Correct 1-indexed vs 0-indexed coordinate handling. The tool was failing because it was using 1-indexed XML coordinates to access its internal 0-indexed grid, causing it to go out of bounds and fail to find any tiles. This update correctly converts all coordinates by subtracting 1 during XML parsing and adding 1 for the final output, aligning it with the data format and making it functional.",
-        "timestamp": "2025-10-28T09:39:10.665Z",
-        "action_counter": 3224
-      },
-      {
-        "commit_message": "fix: Correct 0-indexed XML parsing. After observing the raw XML, it's confirmed that the `id` attributes for rows and tiles are 0-indexed. The previous version of the tool was incorrectly subtracting 1 from these values, causing it to read the wrong map data and fail. This update removes the incorrect subtractions, aligning the tool with the current data format and restoring its functionality.",
-        "timestamp": "2025-10-28T09:41:07.498Z",
-        "action_counter": 3226
-      },
-      {
-        "commit_message": "fix: Add debug prints for grid visualization and BFS trace. The tool is giving false negatives for unseen tiles. This update adds print statements to visualize the 'seen' status of the generated grid and trace the BFS algorithm's path. This will provide critical diagnostic information to identify why the tool is failing to find reachable unseen tiles, addressing a key issue highlighted by the overwatch critique.",
-        "timestamp": "2025-10-28T09:50:41.521Z",
-        "action_counter": 3241
-      },
-      {
-        "commit_message": "fix: Correct 1-indexed XML parsing. The tool was populating its internal grid incorrectly because it was treating 1-indexed `id` attributes from the map XML as 0-indexed. This update adds the necessary `- 1` conversion during parsing, aligning the tool with the data format and fixing the root cause of the BFS failures.",
-        "timestamp": "2025-10-28T09:53:19.762Z",
-        "action_counter": 3244
-      },
-      {
-        "commit_message": "fix: Correct 1-indexed XML parsing. The tool was populating its internal grid incorrectly because it was treating 1-indexed `id` attributes from the map XML as 0-indexed. This update adds the necessary `- 1` conversion during parsing, aligning the tool with the data format and fixing the root cause of the BFS failures.",
-        "timestamp": "2025-10-28T09:54:12.312Z",
-        "action_counter": 3245
-      },
-      {
-        "commit_message": "fix: Re-add debug prints to diagnose BFS failure. The tool is giving false negatives for unseen tiles. This re-introduces print statements to visualize the 'seen' status of the generated grid and trace the BFS algorithm's path, providing critical diagnostic information to identify why the tool is failing.",
-        "timestamp": "2025-10-28T09:56:07.109Z",
-        "action_counter": 3248
-      },
-      {
-        "commit_message": "fix: Add 'VOID' to impassable tiles. The tool was incorrectly identifying VOID tiles as traversable, leading to pathing failures. This change ensures the tool respects map boundaries and provides accurate reachability analysis.",
-        "timestamp": "2025-10-28T12:40:44.391Z",
-        "action_counter": 3522
-      },
-      {
-        "commit_message": "fix: Add 'unseen' to impassable tiles. The tool was incorrectly pathing into void areas because it defaulted to assuming any tile not present in the map XML was traversable. This change makes the tool safer by treating any truly unseen tile as a wall, preventing invalid exploration attempts.",
-        "timestamp": "2025-10-28T12:42:45.127Z",
-        "action_counter": 3524
-      },
-      {
-        "commit_message": "debug: Add full grid visualization to diagnose BFS failure. The tool is giving a false negative, failing to find reachable unseen tiles despite them being visible on the map. This update adds print statements to output the tool's internal representation of the map grid, including tile types, seen status, and object presence. This will allow for a direct visual comparison to the actual map data to identify why the BFS is failing.",
-        "timestamp": "2025-10-28T19:46:37.438Z",
-        "action_counter": 4182
-      },
-      {
-        "commit_message": "fix: Remove 'unseen' from impassable tiles. The tool was incorrectly treating unseen tiles as walls, preventing the BFS from exploring them and causing it to return false negatives. This change allows the BFS to correctly traverse into and identify reachable unseen areas, making the tool functional for its intended purpose.",
-        "timestamp": "2025-10-28T19:47:37.491Z",
-        "action_counter": 4184
-      },
-      {
-        "commit_message": "fix: Standardize object detection logic. The tool was using an outdated `tile_elem.find('Object')` check, causing it to contradict the `find_path_to_target` tool. This update aligns the logic with the more reliable `has-object` attribute check, ensuring consistent and accurate reachability analysis across all navigation tools.",
-        "timestamp": "2025-10-28T22:10:52.306Z",
-        "action_counter": 4454
-      }
-    ]
-  },
   "generate_nickname_inputs": {
     "description": "Calculates the optimal sequence of button presses to enter a given nickname on the Pokémon naming screen. It handles both uppercase and lowercase letters and minimizes cursor movement. The output is a list of lists, where each inner list represents one turn's worth of inputs (either a sequence of directional presses or a single action button).",
     "input_schema": {
@@ -865,6 +734,22 @@
         "commit_message": "feat: Create exploration_planner tool. This tool streamlines the exploration process by combining the logic of finding the closest unseen tile and pathfinding. It finds the closest reachable unseen tile by true path distance and returns the full A* path to it in a single call, improving efficiency.",
         "timestamp": "2025-10-29T08:32:52.442Z",
         "action_counter": 5515
+      }
+    ]
+  },
+  "get_on_screen_object_locations_json": {
+    "description": "Parses the map_xml_string to find all on-screen sprite objects and returns their coordinates as a JSON string for use in pathfinding tools.",
+    "input_schema": {
+      "type": "object",
+      "properties": {},
+      "required": []
+    },
+    "python_script": "import xml.etree.ElementTree as ET\nimport json\n\nroot = ET.fromstring(map_xml_string)\nobject_locations = []\nfor row_elem in root.findall('Row'):\n    y = row_elem.get('id')\n    for tile_elem in row_elem.findall('Tile'):\n        x = tile_elem.get('id')\n        if tile_elem.find(\".//Object[@id]\") is not None:\n             object_locations.append({'x': x, 'y': y})\n\nprint(json.dumps(object_locations))",
+    "history": [
+      {
+        "commit_message": "feat: Create tool to automate obstacle detection. This tool, `get_on_screen_object_locations_json`, parses the map XML to automatically generate the JSON string of on-screen object coordinates required by the `find_path_to_target` tool. This eliminates the manual and error-prone process of identifying and listing NPCs, preventing a recurring cause of pathing failures.",
+        "timestamp": "2025-10-29T12:47:54.071Z",
+        "action_counter": 5979
       }
     ]
   }

@@ -135,3 +135,11 @@
 ## World Knowledge & Location Notes
 ### Azalea Town
 - The warps to the Gym (10, 15) and Slowpoke Well (31, 7) are currently blocked by Team Rocket grunts. I cannot reach them to investigate and mark them until I find a way to move the grunts.
+
+## Untested Assumptions & Future Tests
+- Test one-way ledges (`LEDGE_HOP_DOWN`) by trying to move up them.
+- Test `HEADBUTT_TREE`s by interacting with them with different Pokémon in the lead to see if any move can be used.
+
+## World Knowledge & Location Notes
+### Azalea Town
+- The warps to the Gym (10, 15) and Slowpoke Well (31, 7) are currently blocked by Team Rocket grunts. I cannot reach them to investigate and mark them until I find a way to move the grunts.
