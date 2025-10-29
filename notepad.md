@@ -126,3 +126,4 @@
 ## Route 33
 - Hiker Anthony is on this route. He gives his phone number instead of battling.
 - **CRITICAL HALLUCINATION (Turn 5961):** Believed I had descended the ladder to AzaleaPokecenter1F (map 8_1). I was still on Pokecenter2F (map 20_1). This also re-confirmed that ladders are used by moving onto them, not by pressing a direction while standing on them.
+* The `stun_npc` effect is temporary and resets when changing maps. (Verified in Azalea Pokémon Center)
