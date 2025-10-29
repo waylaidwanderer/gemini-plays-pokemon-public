@@ -761,5 +761,31 @@
         "action_counter": 6548
       }
     ]
+  },
+  "list_reachable_unseen_tiles": {
+    "description": "Finds all unseen tiles that are reachable from the player's current position using a Breadth-First Search (BFS) on the traversability grid. Returns a list of coordinates.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "start_x": {
+          "type": "string"
+        },
+        "start_y": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "start_x",
+        "start_y"
+      ]
+    },
+    "python_script": "import xml.etree.ElementTree as ET\nimport json\nfrom collections import deque\n\nclass UnseenTileFinder:\n    def __init__(self, map_xml_string):\n        self.root = ET.fromstring(map_xml_string)\n        self.map_width = int(self.root.get('width'))\n        self.map_height = int(self.root.get('height'))\n        self.grid = {}\n        self.tile_types = {}\n        self.seen_status = {}\n        self.populate_grid()\n\n    def populate_grid(self):\n        impassable_tile_types = {\n            'WALL', 'VOID', 'WATER', 'BOOKSHELF', 'COUNTER', 'CUT_TREE',\n            'HEADBUTT_TREE', 'MART_SHELF', 'PC', 'PILLAR', 'RADIO', 'TOWN_MAP', 'TV', 'WINDOW',\n            'CAVE', 'LADDER'\n        }\n        for row_elem in self.root.findall('Row'):\n            y = int(row_elem.get('id'))\n            for tile_elem in row_elem.findall('Tile'):\n                x = int(tile_elem.get('id'))\n                coord = (x, y)\n                tile_type = tile_elem.get('type')\n                self.tile_types[coord] = tile_type\n                self.seen_status[coord] = tile_elem.get('seen') == 'true'\n                is_impassable = (\n                    tile_type in impassable_tile_types or \n                    tile_elem.get('has-object') == 'true'\n                )\n                self.grid[coord] = not is_impassable\n\n    def is_valid_move(self, from_coord, to_coord):\n        if not self.grid.get(to_coord, False):\n            return False\n        \n        from_type = self.tile_types.get(from_coord)\n        to_type = self.tile_types.get(to_coord)\n        dx, dy = to_coord[0] - from_coord[0], to_coord[1] - from_coord[1]\n\n        if to_type == 'FLOOR_UP_WALL' and dy == 1: return False\n\n        if from_type and from_type.startswith('LEDGE_HOP_'):\n            direction = from_type.split('_')[-1]\n            is_valid_hop = (\n                (direction == 'DOWN' and dy == 1 and dx == 0) or\n                (direction == 'LEFT' and dx == -1 and dy == 0) or\n                (direction == 'RIGHT' and dx == 1 and dy == 0)\n            )\n            if not is_valid_hop: return False\n        \n        if to_type and to_type.startswith('LEDGE_HOP_'):\n            direction = to_type.split('_')[-1]\n            is_invalid_move = (\n                (direction == 'DOWN' and dy == -1) or\n                (direction == 'LEFT' and dx == 1) or\n                (direction == 'RIGHT' and dx == -1)\n            ) \n            if is_invalid_move: return False\n\n        return True\n\n    def find_unseen(self, start_coord):\n        if not self.grid.get(start_coord):\n            return []\n        \n        queue = deque([start_coord])\n        visited = {start_coord}\n        border_tiles = set()\n\n        while queue:\n            x, y = queue.popleft()\n\n            for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n                neighbor_coord = (x + dx, y + dy)\n\n                if not (0 <= neighbor_coord[0] < self.map_width and 0 <= neighbor_coord[1] < self.map_height):\n                    continue\n\n                if not self.seen_status.get(neighbor_coord, False):\n                    if self.grid.get((x,y)):\n                        border_tiles.add(neighbor_coord)\n                    continue\n\n                if neighbor_coord not in visited and self.is_valid_move((x,y), neighbor_coord):\n                    visited.add(neighbor_coord)\n                    queue.append(neighbor_coord)\n        \n        return sorted(list(border_tiles))\n\ntry:\n    start_x = int(input_data['start_x'])\n    start_y = int(input_data['start_y'])\n    finder = UnseenTileFinder(map_xml_string)\n    unseen_tiles = finder.find_unseen((start_x, start_y))\n    print(json.dumps(unseen_tiles))\nexcept Exception as e:\n    print(json.dumps({'error': str(e)}))\n",
+    "history": [
+      {
+        "commit_message": "feat: Create list_reachable_unseen_tiles tool. This tool uses a Breadth-First Search (BFS) to identify all unseen tiles that are adjacent to the currently reachable area. This will provide a comprehensive list of all potential exploration paths, allowing for more strategic decisions about where to explore next, fulfilling a need identified during a system-prompted reflection.",
+        "timestamp": "2025-10-29T20:28:30.994Z",
+        "action_counter": 6707
+      }
+    ]
   }
 }
