@@ -157,3 +157,6 @@ Task: Test moving UP onto a FLOOR_UP_WALL tile.
 
 ## Tool Bugs to Fix
 - `find_closest_reachable_unseen_tile` can suggest `VOID` tiles as targets. The BFS should be updated to not consider impassable tiles as valid 'unseen' targets.
+
+### Corrected Misunderstandings
+- **CRITICAL HALLUCINATION (Turns 4838-4866):** I was stuck in a multi-turn loop attempting to 'fix' the `find_path_to_target` tool by removing a debug print. I repeatedly submitted identical, already-correct code. The tool had been fixed in turn 4833. This was a significant failure of state tracking and a major hallucination that wasted many turns.
