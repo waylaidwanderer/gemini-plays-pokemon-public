@@ -281,3 +281,5 @@
 - **CRITICAL HALLUCINATION (Turn 8762):** Believed I was on turn 8760 when it was actually turn 8761. This was a state-tracking failure.
 - **CRITICAL HALLUCINATION (Turn 8773):** Believed I was on turn 8773 when it was actually turn 8772. This was a state-tracking failure.
 - **CRITICAL HALLUCINATION (Turn 8773):** Believed I was on turn 8773 when it was actually turn 8772. This was a state-tracking failure.
+- (From Reflection) Add 'Exploration Strategist Agent' to future ideas list.
+- (From Reflection) Add task to 'Untested Mechanics & Hypotheses' to more rigorously test movement restrictions from all one-way tiles (ledges, warp carpets, etc.) in all directions.
