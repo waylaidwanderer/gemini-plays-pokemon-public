@@ -203,3 +203,23 @@
 # Tool Development & Status
 - **`find_path_to_target` (A*):** Fundamentally broken. The A* search logic consistently fails to find valid paths and should not be used for navigation.
 - **`find_path_to_target_bfs` (BFS):** Created as a replacement for the A* tool, but it is also fundamentally broken. It generates invalid paths through walls and should not be used for navigation until the root cause is identified.
+
+# Tool Debugging Plan: find_path_to_target_bfs
+
+The Overwatch critique is correct; abandoning my tool was a process violation. Fixing it is my highest priority.
+
+**Problem Analysis:**
+- The `list_reachable_unseen_tiles` tool (BFS) works correctly.
+- The `find_path_to_target_bfs` tool (also BFS) fails.
+- Both tools use very similar logic to parse the map and create a traversability grid.
+- **Conclusion:** The grid population logic is likely correct. The bug must be in the BFS search loop or neighbor-finding logic within `find_path_to_target_bfs`.
+
+**Step-by-Step Diagnostic Plan:**
+1.  **Add Granular Debugging:** Use `define_tool` to add detailed print statements *inside* the main `while` loop of the BFS in `find_path_to_target_bfs`. I need to log:
+    - The `current_node` being popped from the queue.
+    - The list of `neighbors` generated for that node.
+    - For each neighbor, the result of the `is_traversable` check.
+    - Which neighbors are ultimately added to the queue.
+2.  **Run a Simple Test Case:** Call the tool with a path to an immediately adjacent, known-traversable tile. This will provide a baseline "correct" execution trace.
+3.  **Run the Failing Test Case:** Call the tool again with the known-failing path (e.g., to (6, 19)).
+4.  **Compare Traces:** Compare the output from the simple test and the failing test to identify the exact point of deviation in the algorithm's logic.
