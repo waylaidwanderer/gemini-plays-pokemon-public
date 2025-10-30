@@ -198,3 +198,4 @@
   - **Test 8:** Interacted with FARFETCH'D at (20, 24) from behind (player at 20, 23) while it was facing down. **Result:** FARFETCH'D turned to face up but did not move. **Conclusion:** The tile at (20, 23) is not a movement trigger.
 - Test one-way ledges (`LEDGE_HOP_DOWN/LEFT/RIGHT`) by trying to move sideways off them, not just up, to fully verify movement restrictions.
   - **Observation (Turn 7093):** The FARFETCH'D at (29, 22) changed its facing direction from 'down' to 'right' spontaneously between turns.
+  - **Test 9:** Interacted with FARFETCH'D at (29, 22) from behind (player at 29, 23) while it was facing down. **Result:** FARFETCH'D gave dialogue, then disappeared from the map. **Conclusion:** This is a successful movement trigger, causing it to move to a new, unknown location.
