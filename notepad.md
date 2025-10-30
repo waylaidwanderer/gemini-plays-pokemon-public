@@ -255,3 +255,20 @@
 - **Step 26:** Placed Piece 15 into position (3,4). (Success)
 - **Step 27:** Picked up Piece 16 from position (0,1). (Success)
 - **Step 28:** Placed Piece 16 into position (4,4). (Success)
+
+# Route 36 'Odd Tree' Puzzle
+- **Objective:** Get past the tree blocking the path at (35, 9).
+- **Observations:**
+  - The tree is a unique 'WEIRD_TREE' sprite that wiggles.
+  - Lass Dana's dialogue at (49, 8) confirms this tree blocks the way to Goldenrod City.
+  - A Fisher at (44, 9) mentioned he couldn't break it with a punch.
+  - A Youngster in Violet City mentioned a 'wiggly tree' that 'squirms and dances'.
+
+### Solution Discovery Log
+- **Hypothesis 1:** Interacting with the tree by pressing 'A' will trigger an event.
+  - **Test 1:** Stood at (36, 9), faced the tree, and pressed 'A' with Ignis (Quilava) in the lead.
+  - **Result:** No text appeared, no event triggered. Interaction failed.
+  - **Conclusion:** A simple 'A' press with Quilava as the lead Pokémon is not the solution.
+
+- **Hypothesis 2:** The lead Pokémon affects the interaction with the tree.
+  - **Test Plan:** I will cycle through each of my party members as the lead and attempt to interact with the tree by pressing 'A' after each switch.
