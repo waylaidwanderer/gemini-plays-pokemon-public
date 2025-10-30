@@ -296,3 +296,6 @@
   - **Test:** Performed the sequence and traveled to (20, 24).
   - **Result:** The FARFETCH'D was not at (20, 24).
   - **Conclusion:** Hypothesis is disproven. The puzzle state is not reset by this action, or the outcome is different this time.
+
+## `exploration_planner` Tool Bug
+- **Hypothesis:** The `find_unseen_border` BFS lacks one-way tile logic, causing it to miss reachable border tiles. Fixing this is top priority.
