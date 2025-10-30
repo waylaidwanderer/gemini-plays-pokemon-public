@@ -219,3 +219,4 @@
 - **Step 4:** Placed Piece 4 (from 5,4) into position (4,1). (Success)
 - **Step 5:** Picked up Piece 5 from position (0,5). (Success)
 - **Step 6:** Placed Piece 5 (from 0,5) into position (1,2). (Success)
+- **Step 7:** Picked up Piece 6 from position (5,5). (Success)
