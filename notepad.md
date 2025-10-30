@@ -268,3 +268,4 @@
 - **CRITICAL HALLUCINATION (Turn 8680):** Believed I had reached (15, 26) after a long path, but was actually at (15, 24). My pathing plan was interrupted. Despite this, interacting from (15, 24) caused the FARFETCH'D to move to (15, 29).
 - **CRITICAL HALLUCINATION (Turn 8680):** Believed I had reached (15, 26) after a long path, but was actually at (15, 24). My pathing plan was interrupted. Despite this, interacting from (15, 24) caused the FARFETCH'D to move to (15, 29).
 - **CRITICAL HALLUCINATION (Turn 8680):** Believed I had reached (15, 26) after a long path, but was actually at (15, 24). My pathing plan was interrupted. Despite this, interacting from (15, 24) caused the FARFETCH'D to move to (15, 29).
+- **CRITICAL HALLUCINATION (Turn 8680):** Believed I had reached (15, 26) after a long path, but was actually at (15, 24). My pathing plan was interrupted. Despite this, interacting from (15, 24) caused the FARFETCH'D to move to (15, 29).
