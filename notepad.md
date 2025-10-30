@@ -306,5 +306,18 @@ My `hypothesis_generator` agent provided the following new ideas to break my loo
 2.  **Aim and Push:** Use a twig pile to aim the FARFETCH'D towards an open path *before* trying the 'interact from behind' method.
 3.  **Sound as a Lure:** Step on a twig pile that is behind the bird to see if the sound alone can make it move forward, without a direct 'A' press interaction.
 
+**Solution Discovery Log (Post-Agent):**
+- **Hypothesis 1 Test:** Interacting with the FARFETCH'D from its side (specifically, from above at (15, 28) while it was at (15, 29)) does not cause it to move away.
+  - **Test:** Stood at (15, 28), faced down, pressed 'A'.
+  - **Result:** FARFETCH'D squawked, turned to face me, and then disappeared.
+  - **Conclusion:** Hypothesis 1 is disproven. The interaction is not a simple 'push' mechanic.
+
+- **New Refined Hypothesis:** The player's X-coordinate when interacting from *below* the FARFETCH'D at (15, 25) determines its destination.
+  - **Observation 1 (Turn 8828 & 9070):** Standing at (15, 26) and interacting with the bird at (15, 25) causes it to move to the eastern dead-end at (20, 24).
+  - **Observation 2 (Turn 9120):** Standing at (15, 24) and interacting with the bird at (15, 25) causes it to move south to (15, 29).
+  - **Conclusion:** This suggests a specific path forward. I need to make the bird appear at (15, 25), then stand at (15, 24) and interact to move it south again.
+
 **Test Plan:**
-- **Test 1 (Hypothesis 1):** The FARFETCH'D is at (15, 29) facing right. I will move to (15, 28) (above it) and interact to see if it moves down.
+- **Step 1:** Return to the area around the twig pile at (14, 26) to trigger the FARFETCH'D's respawn at (15, 25).
+- **Step 2:** Once it has spawned, pathfind to (15, 24).
+- **Step 3:** Interact with the bird from (15, 24) to confirm it moves to (15, 29).
