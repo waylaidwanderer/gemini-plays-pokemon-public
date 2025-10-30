@@ -55,7 +55,7 @@
 - **COUNTER**: Impassable. (Verified by observation)
 - **CUT_TREE**: Impassable, requires a specific ability/item to remove. (Verified)
 - **DOOR**: Traversable, acts as a warp tile. (Verified)
-- **FLOOR**: Traversable. (Verified)
+- **FLOOR**: Traversable. (Verified on multiple routes, including Route 36)
 - **FLOOR_UP_WALL**: One-way traversal. Can only be entered by moving up onto it. (Verified)
 - **HEADBUTT_TREE**: Impassable. (Verified by observation)
 - **LADDER**: Traversable warp. Must be activated by moving *onto* the tile from an adjacent tile. Standing on the ladder and pressing A or a direction does nothing. (Verified)
