@@ -103,7 +103,7 @@
 - **WALL**: Impassable. (Verified)
 - **WARP_CARPET_DOWN**: Traversable warp. Requires pressing 'Down' on the tile to activate. (Verified)
 - **WARP_CARPET_LEFT**: Traversable warp. Requires pressing 'Left' while standing on the tile to activate. (Verified at 4,2 on Route 32)
-- **WARP_CARPET_RIGHT**: Traversable warp. Mechanic is currently unconfirmed, but likely requires pressing 'Right' on the tile to activate, similar to how WARP_CARPET_LEFT works.
+- **WARP_CARPET_RIGHT**: Traversable warp. Requires pressing 'Right' on the tile to activate. (Verified at 3,42 in Ilex Forest)
 - **WATER**: Impassable. (Verified by pathing attempts)
 - **WINDOW**: Impassable. (Verified)
 
