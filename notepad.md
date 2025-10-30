@@ -271,4 +271,6 @@
   - **Conclusion:** A simple 'A' press with Quilava as the lead Pokémon is not the solution.
 
 - **Hypothesis 2:** The lead Pokémon affects the interaction with the tree.
-  - **Test Plan:** I will cycle through each of my party members as the lead and attempt to interact with the tree by pressing 'A' after each switch.
+  - **Test 1 (Ignis):** Stood at (36, 9), faced the tree, and pressed 'A'. Result: No text appeared, no event triggered. Interaction failed.
+  - **Test 2 (Aether):** Stood at (36, 9), faced the tree, and pressed 'A'. Result: No text appeared, no event triggered. Interaction failed.
+  - **Test Plan:** Continue cycling through party members. Next up: O (Togepi).
