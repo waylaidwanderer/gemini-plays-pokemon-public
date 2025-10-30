@@ -13,7 +13,6 @@
 
 ## Future Agent & Tool Ideas
 - Pathing Strategist Agent: Could suggest stun-vs-reroute strategies for dealing with a moving NPC.
-- Puzzle Solver Agent: Could be developed for the FARFETCH'D puzzle. It would take the current state (player position, bird position, known movement rules) and suggest the optimal next move to herd it.
 - Repel Usage Advisor Agent: Could decide when to use a Repel based on party HP, objective, and location.
 - Exploration Strategist Agent: Could take the output of `exploration_planner` and suggest the most strategically valuable tile to explore next.
 - Stuck Detector Agent: Could analyze recent movement patterns and tool outputs to determine if I am stuck in a loop or a dead end, then suggest a strategy pivot.
@@ -41,6 +40,7 @@
 - **CRITICAL HALLUCINATION (Turn 8492):** Believed I was on turn 8490 when it was actually turn 8491. This was a state-tracking failure.
 - **CRITICAL HALLUCINATION (Turn 8517):** Believed I had warped from Azalea Town (2, 10) to Ilex Forest Azalea Gate (9, 4). I was still in Azalea Town on the original warp tile. Placed an incorrect map marker based on this false reality.
 - **CRITICAL HALLUCINATION (Turns 8539-8541):** Believed my `exploration_planner` and `list_reachable_unseen_tiles` tools were broken when they correctly reported I was in a fully explored dead-end with no reachable unseen tiles. This was a failure to trust my own tools and led to wasted diagnostic turns.
+- **CRITICAL HALLUCINATION (Turn 8680):** Believed I had reached (15, 26) after a long path, but was actually at (15, 24). My pathing plan was interrupted. Despite this, interacting from (15, 24) caused the FARFETCH'D to move to (15, 29).
 
 ## Tool Status
 ### Built-in Tools
@@ -58,13 +58,13 @@
 ### Custom Tools & Agents
 - **find_path_to_target_bfs:** Operational. (Custom Tool)
 - **exploration_planner:** Operational. (Custom Tool)
-- **systematic_search:** Operational. (Custom Tool)
+- **systematic_search:** Operational, but requires further testing after recent fixes. (Custom Tool)
 - **list_reachable_unseen_tiles:** Operational. (Custom Tool)
 - **generate_nickname_inputs:** Operational. (Custom Tool)
 - **simple_battle_strategist:** Operational. (Custom Agent)
 - **notepad_refactor_assistant:** Operational. (Custom Agent)
 - **hypothesis_generator:** Operational. (Custom Agent)
-- **farfetchd_puzzle_solver:** Operational. (Custom Agent)
+- **farfetchd_puzzle_solver:** Newly created. (Custom Agent)
 
 # Knowledge Base
 
@@ -206,6 +206,9 @@
   1. The solution requires a specific key item from my pack.
   2. The interaction is dependent on the time of day.
   3. The solution involves using the Pokégear radio near the tree.
+- **Ilex Forest FARFETCH'D Puzzle:**
+  1. The FARFETCH'D moves on a timer, independent of player interaction.
+  2. Stepping on specific non-twig floor tiles can influence the FARFETCH'D's movement or facing direction.
 
 # Solved Puzzles
 
@@ -220,6 +223,11 @@
   - **(Turn 8600):** Discovered a forced movement/spinner tile. Stepping on (23, 22) caused a slide left to (21, 22).
   - **(Turn 6701):** Stepping on the twig at (14, 26) and returning to (15, 26) caused the FARFETCH'D at (20, 24) to turn from 'down' to 'left'.
   - **(Turn 7032):** The systematic search revealed the FARFETCH'D at a new, previously unknown location: (29, 22), facing left.
+  - **(Turn 8680):** Interacting with the FARFETCH'D at (15, 25) from (15, 24) caused it to move to (15, 29).
+- **Hypothesis (Interaction from front - FAILED):** Interacting with the FARFETCH'D at (15, 25) from the tile directly in front of it (15, 24) while it faces left will trigger a movement event.
+  - **Test:** Stood at (15, 24), faced down, and pressed 'A'.
+  - **Result:** Simple dialogue "FARFETCH'D: Kwaa!" appeared. The FARFETCH'D did not move, but it turned to face up.
+  - **Conclusion:** Hypothesis disproven. Interacting from the front is not the solution for this orientation. The bird's turning provides a new clue.
 
 ## Ruins of Alph Kabuto Chamber Puzzle
 - **Objective:** Assemble the 16 pieces into a 4x4 image of Kabuto.
@@ -257,9 +265,3 @@
 - **Step 26:** Placed Piece 15 into position (3,4). (Success)
 - **Step 27:** Picked up Piece 16 from position (0,1). (Success)
 - **Step 28:** Placed Piece 16 into position (4,4). (Success)
-
-- **Hypothesis (Interaction from front):** Interacting with the FARFETCH'D at (15, 25) from the tile directly in front of it (15, 24) while it faces left will trigger a movement event.
-  - **Test:** Stood at (15, 24), faced down, and pressed 'A'.
-  - **Result:** Simple dialogue "FARFETCH'D: Kwaa!" appeared. The FARFETCH'D did not move, but it turned to face up.
-  - **Conclusion:** Hypothesis disproven. Interacting from the front is not the solution for this orientation. The bird's turning provides a new clue.
-- **CRITICAL HALLUCINATION (Turn 8680):** Believed I had reached (15, 26) after a long path, but was actually at (15, 24). My pathing plan was interrupted. Despite this, interacting from (15, 24) caused the FARFETCH'D to move to (15, 29).
