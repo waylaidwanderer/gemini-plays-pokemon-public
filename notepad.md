@@ -56,7 +56,7 @@
 
 ### Custom Tools & Agents
 - **find_path_to_target_bfs:** Operational. (Custom Tool)
-- **exploration_planner:** Faulty. (Custom Tool) - A* pathing component fails to handle one-way tiles correctly.
+- **exploration_planner:** Operational. (Custom Tool)
 - **systematic_search:** DELETED. (Custom Tool)
 - **list_reachable_unseen_tiles:** Operational. (Custom Tool)
 - **generate_nickname_inputs:** Operational. (Custom Tool)
