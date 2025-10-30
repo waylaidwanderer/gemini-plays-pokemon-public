@@ -280,3 +280,7 @@
 - **CRITICAL HALLUCINATION (Turn 8762):** Believed I was on turn 8760 when it was actually turn 8761. This was a state-tracking failure.
 - **CRITICAL HALLUCINATION (Turn 8773):** Believed I was on turn 8773 when it was actually turn 8772. This was a state-tracking failure.
 - **CRITICAL HALLUCINATION (Turn 8773):** Believed I was on turn 8773 when it was a
+- **Hypothesis:** Interacting with the FARFETCH'D at (20, 24) from above (20, 23) will trigger a forward movement.
+  - **Test:** Stood at (20, 23), faced down, and pressed 'A'.
+  - **Result:** FARFETCH'D squawked, turned to face up, and then disappeared from view.
+  - **Conclusion:** Hypothesis is disproven. This interaction does not solve the puzzle and suggests the eastern area is a dead end.
