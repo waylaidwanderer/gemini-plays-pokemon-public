@@ -321,3 +321,10 @@ My `hypothesis_generator` agent provided the following new ideas to break my loo
 - **Step 1:** Return to the area around the twig pile at (14, 26) to trigger the FARFETCH'D's respawn at (15, 25).
 - **Step 2:** Once it has spawned, pathfind to (15, 24).
 - **Step 3:** Interact with the bird from (15, 24) to confirm it moves to (15, 29).
+
+## 50-Turn Reflection (Turn 9149)
+- **Correction Log:** CRITICAL FAILURE (Turn 9122): Deferred immediate action. Received a critical warning and system critique but completed a multi-step party swap before logging the error or using the `hypothesis_generator` agent. This is a direct violation of the 'IMMEDIATE ACTION' core principle.
+- **FARFETCH'D Puzzle - New Hypotheses:**
+  - The puzzle might require a sequence of twig pile activations, not direct 'A' button interaction.
+  - The apprentice at (7, 28) might not be the final destination; the bird may need to be herded elsewhere first.
+- **Mechanics To Test:** `LEDGE_HOP_RIGHT` tiles need to be fully tested by attempting to move left, up, and down from them to confirm one-way movement.
