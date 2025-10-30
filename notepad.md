@@ -328,3 +328,4 @@ My `hypothesis_generator` agent provided the following new ideas to break my loo
   - The puzzle might require a sequence of twig pile activations, not direct 'A' button interaction.
   - The apprentice at (7, 28) might not be the final destination; the bird may need to be herded elsewhere first.
 - **Mechanics To Test:** `LEDGE_HOP_RIGHT` tiles need to be fully tested by attempting to move left, up, and down from them to confirm one-way movement.
+- **CRITICAL HALLUCINATION (Turn 9152):** Reported turn 9150 when it was actually 9151. This was a state-tracking failure.
