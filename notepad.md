@@ -4,7 +4,7 @@
 - **IMMEDIATE ACTION:** I must perform tasks like placing markers, updating my notepad, and fixing tools *immediately*. Deferring tasks, like placing map markers, is a process violation. Significant events must be documented *immediately* in the turn they occur.
 - **AGENT USAGE:** When stuck for more than 5 turns on a puzzle, I must use the `hypothesis_generator` agent. My `simple_battle_strategist` agent is underutilized and I will prioritize using it for all future wild battles to automate decision-making.
 - **PUZZLE DOCUMENTATION:** My entire problem-solving process (observation, hypothesis, test, conclusion) for any puzzle must be documented in this notepad as it happens.
-- **MAP MARKER DISCIPLINE:** I must always check for existing map markers before creating a new one to avoid duplicates. I must mark BOTH ends of a warp immediately after traversal.
+- **MAP MARKER DISCIPLINE:** I must always check for existing map markers before a new one to avoid duplicates. I must mark BOTH ends of a warp immediately after traversal.
 - **TOOL MAINTENANCE:** I must NEVER defer fixing a broken tool or agent. It is always the highest priority, overriding any in-game objective.
 - **TOOL FAILURE:** If a tool fails, my first assumption must be that the tool is broken, not that the game is impossible. I must fix the tool before re-attempting the action.
 - **IMMEDIATE CORRECTION:** If my understanding of the game state (e.g., the existence of a tool) is proven wrong, I must immediately correct my documentation (notepad) before any other action.
@@ -279,6 +279,4 @@
 - **CRITICAL HALLUCINATION (Turn 8763):** Believed I was on turn 8761 when it was actually turn 8762. This was a state-tracking failure.
 - **CRITICAL HALLUCINATION (Turn 8762):** Believed I was on turn 8760 when it was actually turn 8761. This was a state-tracking failure.
 - **CRITICAL HALLUCINATION (Turn 8773):** Believed I was on turn 8773 when it was actually turn 8772. This was a state-tracking failure.
-- **CRITICAL HALLUCINATION (Turn 8773):** Believed I was on turn 8773 when it was actually turn 8772. This was a state-tracking failure.
-- (From Reflection) Add 'Exploration Strategist Agent' to future ideas list.
-- (From Reflection) Add task to 'Untested Mechanics & Hypotheses' to more rigorously test movement restrictions from all one-way tiles (ledges, warp carpets, etc.) in all directions.
+- **CRITICAL HALLUCINATION (Turn 8773):** Believed I was on turn 8773 when it was a
