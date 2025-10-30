@@ -24,10 +24,7 @@
 - The 'Poké Ball machine' in Elm's lab was a hallucination.
 - Hallucinated a warp at (9, 35) on Route 30. There is no warp there.
 - Hallucinated a warp at (13, 9) on Route 30. The actual house entrance is at (17, 5).
-- **CRITICAL HALLUCINATION (Turn 2667):** Believed I was on Sprout Tower 2F at (17, 3) when I was actually on Sprout Tower 1F at (17, 2).
-- **CRITICAL HALLUCINATION (Turn 2886):** Believed I was on Sprout Tower 2F at (6, 4) when I was actually on Sprout Tower 1F at (6, 3).
 - **Pathfinder Tool Issue (Corrected):** The pathfinder was incorrectly assumed to be faulty. After extensive debugging, it was confirmed to be working correctly. The repeated failures were caused by my own hallucination of a traversable path on Route 32 where a large, one-way ledge system actually exists.
-- **CRITICAL HALLUCINATION (Turn 3658):** Believed I was on Sprout Tower 2F at (6, 4) after climbing a ladder, but was actually still on Sprout Tower 1F at (6, 3). This invalidated my entire plan.
 - **CRITICAL HALLUCINATION (Turns 4838-4866):** I was stuck in a multi-turn loop attempting to 'fix' the `find_path_to_target` tool by removing a debug print. I repeatedly submitted identical, already-correct code. The tool had been fixed in turn 4833. This was a significant failure of state tracking and a major hallucination that wasted many turns.
 - **CRITICAL HALLUCINATION (Turn 5590):** Believed I had exited Union Cave and was on Route 32 at (6, 79). I was actually still inside Union Cave at (17, 3), standing on the exit warp. This caused my pathfinder to fail and my entire plan to be based on an incorrect reality.
 - **CRITICAL HALLUCINATION (Turn 5640):** Believed I had a tool named `find_closest_reachable_unseen_tile`. This tool does not exist.
@@ -42,7 +39,6 @@
 - **CRITICAL HALLUCINATION (Turn 8492):** Believed I was on turn 8490 when it was actually turn 8491. This was a state-tracking failure.
 - **CRITICAL HALLUCINATION (Turn 8517):** Believed I had warped from Azalea Town (2, 10) to Ilex Forest Azalea Gate (9, 4). I was still in Azalea Town on the original warp tile. Placed an incorrect map marker based on this false reality.
 - **CRITICAL HALLUCINATION (Turns 8539-8541):** Believed my `exploration_planner` and `list_reachable_unseen_tiles` tools were broken when they correctly reported I was in a fully explored dead-end with no reachable unseen tiles. This was a failure to trust my own tools and led to wasted diagnostic turns.
-- **CRITICAL HALLUCINATION (Turn 8680):** Believed I had reached (15, 26) after a long path, but was actually at (15, 24). My pathing plan was interrupted. Despite this, interacting from (15, 24) caused the FARFETCH'D to move to (15, 29).
 - **CRITICAL HALLUCINATION (Turns 8682-8688):** I was stuck in a multi-turn loop attempting to define the `farfetchd_puzzle_solver` agent due to a repeated JSON schema error. This was a significant failure in debugging and state tracking.
 - **CRITICAL FAILURE (Turn 8716):** Failed to place a map marker for the FARFETCH'D's new location at (15, 29) in the turn it was discovered, a violation of the 'IMMEDIATE ACTION' core principle.
 
@@ -69,7 +65,7 @@
 - **notepad_refactor_assistant:** Operational. (Custom Agent)
 - **hypothesis_generator:** Operational. (Custom Agent)
 
-# Knowledge Base
+# General Knowledge & Discoveries
 
 ## Game Mechanics
 ### General Mechanics
@@ -127,12 +123,10 @@
 - Building at (21, 29) is a house with a trade NPC, not the Gym.
 - The city is not divided by a river; the two sides are connected by walkable paths.
 - YOUNGSTER at (5, 18) mentioned a 'wiggly tree' that 'squirms and dances'. This is likely a hint about how to interact with HEADBUTT_TREEs.
-- Violet Mart Path: The path to the clerk is blocked. Talking to the Cooltrainer M at (5, 2) does not open it.
 - Violet City Gatehouse Warp: Currently impassable and a dead end for now.
 
 ##### Sprout Tower
 - 1F Path: A solid wall at x=4 divides the first floor, making the Sage at (3, 5) unreachable from the east. Defeating other Sages does not alter the layout.
-- 2F Pillar: Numerous simple interaction tests (re-interacting with the Sage, checking other objects/walls, etc.) have failed to make the central pillar move again after its initial movement.
 
 #### Route 33
 - Hiker Anthony is on this route. He gives his phone number instead of battling.
@@ -153,10 +147,18 @@
 ### PC Storage
 - Currently empty.
 
+## Untested Mechanics & Hypotheses
+- Test the damage of EMBER vs. QUICK ATTACK on a Water-type.
+- Test one-way ledges (`LEDGE_HOP_DOWN`) by trying to move up *and sideways* off them to fully verify movement restrictions.
+- Test `HEADBUTT_TREE`s by interacting with them with different Pokémon in the lead to see if any move can be used.
+- Test traversability of BUOY tiles.
+- Test movement off a FLOOR_UP_WALL tile in all directions (sideways, down) to verify it's not just a one-way-up path.
+- Test `LEDGE_HOP_LEFT` tiles by trying to move in all directions from them to fully verify movement restrictions.
+- Test TALL_GRASS on Route 36.
+
 # Active Investigations
 
-## Current Puzzles
-### Route 36 'Odd Tree' Puzzle
+## Route 36 'Odd Tree' Puzzle
 - **Objective:** Get past the tree blocking the path at (35, 9).
 - **Observations:**
   - The tree is a unique 'WEIRD_TREE' sprite that wiggles.
@@ -180,39 +182,42 @@
 - **Hypothesis 3:** The tree must be interacted with from the tile directly below it (35, 10).
   - **Test Plan:** Move to (35, 10), face up, and press 'A'.
 
-## Untested Hypotheses
-- Test the damage of EMBER vs. QUICK ATTACK on a Water-type.
-- Test one-way ledges (`LEDGE_HOP_DOWN`) by trying to move up *and sideways* off them to fully verify movement restrictions.
-- Test `HEADBUTT_TREE`s by interacting with them with different Pokémon in the lead to see if any move can be used.
-- Test traversability of BUOY tiles.
-- Test movement off a FLOOR_UP_WALL tile in all directions (sideways, down) to verify it's not just a one-way-up path.
-- **Sprout Tower 2F Pillar Hypotheses:**
+#### Untested Assumptions
+- The solution requires a specific key item from my pack.
+- The interaction is dependent on the time of day.
+- The solution involves using the Pokégear radio near the tree.
+
+## Sprout Tower 2F Pillar Puzzle
+- **Objective:** Determine how to move the central pillar on 2F again.
+- **Observations:**
+  - Numerous simple interaction tests (re-interacting with the Sage, checking other objects/walls, etc.) have failed to make the central pillar move again after its initial movement.
+- **Solution Discovery Log & Key Failures:**
+  - **CRITICAL HALLUCINATION (Turn 2667):** Believed I was on Sprout Tower 2F at (17, 3) when I was actually on Sprout Tower 1F at (17, 2).
+  - **CRITICAL HALLUCINATION (Turn 2886):** Believed I was on Sprout Tower 2F at (6, 4) when I was actually on Sprout Tower 1F at (6, 3).
+  - **CRITICAL HALLUCINATION (Turn 3658):** Believed I was on Sprout Tower 2F at (6, 4) after climbing a ladder, but was actually still on Sprout Tower 1F at (6, 3). This invalidated my entire plan.
+- **Untested Hypotheses:**
   1. All other Sages on Sprout Tower 2F must be defeated before interacting with the Sage at (12, 3).
   2. The interaction with the Sage at (12, 3) only makes the pillar passable during a specific time of day (e.g., night).
   3. The floor tiles in the room with the Sage at (12,3) contain a visual pattern or clue that needs to be followed or replicated.
-- Test `LEDGE_HOP_LEFT` tiles by trying to move in all directions from them to fully verify movement restrictions.
-- **Ruins of Alph 'ESCAPE' Puzzle Hypotheses (from agent - round 1):**
+
+## Ruins of Alph 'ESCAPE' Puzzle
+- **Objective:** Solve the 'ESCAPE' wall puzzle in the Ruins of Alph.
+- **Untested Hypotheses (from agent):**
   1. Use the move 'Flash' in the chamber. (Untestable: No Flash)
   2. Use an Itemfinder to check for hidden switches. (Untestable: No Itemfinder)
   3. Activate the Pokégear radio and listen to the stations. (Failed: No Radio Card)
-- **Ruins of Alph 'ESCAPE' Puzzle Hypotheses (from agent - round 2):**
-  1. Use an Escape Rope while standing directly in front of the 'ESCAPE' wall. (Untestable: No Escape Rope)
-  2. Use the move 'Strength' to try and push the statues. (Untestable: No Strength)
-  3. Have an Unown as the first Pokemon in your party and interact with the 'ESCAPE' wall. (Next test)
-- Test TALL_GRASS on Route 36.
-
-## Untested Assumptions
-- **Ruins of Alph:**
+  4. Use an Escape Rope while standing directly in front of the 'ESCAPE' wall. (Untestable: No Escape Rope)
+  5. Use the move 'Strength' to try and push the statues. (Untestable: No Strength)
+  6. Have an Unown as the first Pokemon in your party and interact with the 'ESCAPE' wall. (Next test)
+- **Untested Assumptions:**
   1. The puzzle requires having an Escape Rope in the inventory, not necessarily using it.
   2. The 'sliding stone panels' mentioned by NPCs are a separate puzzle from the 'ESCAPE' wall.
   3. Another item or a specific non-Unown Pokémon is needed to interact with the wall.
-- **Route 36 'Odd Tree':**
-  1. The solution requires a specific key item from my pack.
-  2. The interaction is dependent on the time of day.
-  3. The solution involves using the Pokégear radio near the tree.
-- **Ilex Forest FARFETCH'D Puzzle:**
-  1. The FARFETCH'D moves on a timer, independent of player interaction.
-  2. Stepping on specific non-twig floor tiles can influence the FARFETCH'D's movement or facing direction.
+
+## Violet Mart Path Puzzle
+- **Objective:** Find a way to get to the clerk in the Violet City Mart.
+- **Observations:**
+  - The path to the clerk is blocked. Talking to the Cooltrainer M at (5, 2) does not open it.
 
 # Solved Puzzles
 
@@ -228,7 +233,11 @@
   - **(Turn 6701):** Stepping on the twig at (14, 26) and returning to (15, 26) caused the FARFETCH'D at (20, 24) to turn from 'down' to 'left'.
   - **(Turn 7032):** The systematic search revealed the FARFETCH'D at a new, previously unknown location: (29, 22), facing left.
   - **(Turn 8600):** Discovered a forced movement/spinner tile. Stepping on (23, 22) caused a slide left to (21, 22).
-  - **(Turn 8680):** Interacting with the FARFETCH'D at (15, 25) from (15, 24) caused it to move to (15, 29).
+  - **(Turn 8680):** Believed I had reached (15, 26) after a long path, but was actually at (15, 24). My pathing plan was interrupted. Despite this, interacting from (15, 24) caused the FARFETCH'D to move to (15, 29).
+
+#### Untested Assumptions During Investigation
+- The FARFETCH'D moves on a timer, independent of player interaction.
+- Stepping on specific non-twig floor tiles can influence the FARFETCH'D's movement or facing direction.
 
 ## Ruins of Alph Kabuto Chamber Puzzle
 - **Objective:** Assemble the 16 pieces into a 4x4 image of Kabuto.
