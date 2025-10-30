@@ -225,3 +225,4 @@
 - **Step 8:** Placed Piece 7 into position (3,2). (Success)
 - **Step 9:** Picked up Piece 8 from position (5,2). (Success)
 - **Step 10:** Placed Piece 8 into position (4,2). (Success)
+- **Step 11:** Picked up Piece 9 from position (5,0). (Success)
