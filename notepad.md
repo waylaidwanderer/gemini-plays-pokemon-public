@@ -200,7 +200,7 @@
 # Tool Status
 - **find_path_to_target_bfs:** Operational.
 - **exploration_planner:** Confirmed functional. Believed tool was broken when it correctly reported a dead end (Turns 7142-7147). This was a major failure to trust my tools.
-- **list_reachable_unseen_tiles:** The working BFS implementation from this tool was used to build the new pathfinder.
+
 - **get_on_screen_object_locations_json:** Confirmed functional. Believed tool definition failed in a previous turn when it had actually succeeded (Turn 5981).
 - **select_battle_option:** The built-in `select_battle_option` tool failed in turn 6112. However, in a later turn (6439), I used it redundantly by also providing manual button presses. This indicates a lack of trust in my own tools. I must trust my tools and use them as intended.
 - **Grid Puzzle Solver Agent (General Idea):** Could be generalized for puzzles like this Kabuto one. Input would be the current grid state (piece locations, cursor position, held piece). Output would be the optimal sequence of D-Pad and 'A' presses to move the next required piece to its destination. This would automate these multi-turn placement sequences.
