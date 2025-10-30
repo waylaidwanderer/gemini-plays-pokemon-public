@@ -17,6 +17,7 @@
 - Repel Usage Advisor Agent: Could decide when to use a Repel based on party HP, objective, and location.
 - Exploration Strategist Agent: Could take the output of `exploration_planner` and suggest the most strategically valuable tile to explore next.
 - Stuck Detector Agent: Could analyze recent movement patterns and tool outputs to determine if I am stuck in a loop or a dead end, then suggest a strategy pivot.
+- Puzzle Strategist Agent: Could analyze the current state of a complex puzzle and suggest a high-level strategy or next logical step.
 
 ## Critical Self-Correction Log
 - The 'Poké Ball machine' in Elm's lab was a hallucination.
@@ -140,6 +141,7 @@
   1. Use an Escape Rope while standing directly in front of the 'ESCAPE' wall. (Untestable: No Escape Rope)
   2. Use the move 'Strength' to try and push the statues. (Untestable: No Strength)
   3. Have an Unown as the first Pokemon in your party and interact with the 'ESCAPE' wall. (Next test)
+- Test TALL_GRASS on Route 36.
 
 ## Untested Assumptions & Alternative Hypotheses (Ruins of Alph)
 1. The puzzle requires having an Escape Rope in the inventory, not necessarily using it.
@@ -196,29 +198,6 @@
   - **Test 12:** Interacted with FARFETCH'D at (15, 29) from the side (player at 16, 29) while it was facing right. **Result:** FARFETCH'D moved to a new location at (15, 25). **Conclusion:** The specific tile the player stands on when interacting appears to be the trigger for pre-scripted movements, not just the general direction of approach.
   - **Test 13:** Interacted with FARFETCH'D at (15, 25) from behind (player at 15, 26). **Result:** FARFETCH'D moved to a new location at (20, 24). **Conclusion:** This confirms that (15, 26) is a successful movement trigger when the bird is at (15, 25).
 
-# Tool Status
-## Built-in Tools
-- **notepad_edit:** Operational.
-- **run_code:** Operational.
-- **define_agent:** Operational.
-- **delete_agent:** Operational.
-- **define_map_marker:** Operational.
-- **delete_map_marker:** Operational.
-- **stun_npc:** Operational.
-- **define_tool:** Operational.
-- **delete_tool:** Operational.
-- **select_battle_option:** Operational. The tool failed in turn 6112, but this was likely a user error or specific context issue. I must trust and use it as intended.
-
-## Custom Tools & Agents
-- **find_path_to_target_bfs:** Operational. (Custom Tool)
-- **exploration_planner:** Operational. (Custom Tool)
-- **systematic_search:** Operational. (Custom Tool)
-- **list_reachable_unseen_tiles:** Operational. (Custom Tool)
-- **generate_nickname_inputs:** Operational. (Custom Tool)
-- **simple_battle_strategist:** Operational. (Custom Agent)
-- **notepad_refactor_assistant:** Operational. (Custom Agent)
-- **hypothesis_generator:** Operational. (Custom Agent)
-
 ## Ruins of Alph Kabuto Chamber Puzzle
 - **Objective:** Assemble the 16 pieces into a 4x4 image of Kabuto.
 - **Learned Mechanics & Rules:**
@@ -274,3 +253,31 @@
   - **Test 1 (Ignis):** Stood at (36, 9), faced the tree, and pressed 'A'. Result: No text appeared, no event triggered. Interaction failed.
   - **Test 2 (Aether):** Stood at (36, 9), faced the tree, and pressed 'A'. Result: No text appeared, no event triggered. Interaction failed.
   - **Test Plan:** Continue cycling through party members. Next up: O (Togepi).
+
+### Untested Assumptions & Alternative Hypotheses (Route 36)
+1. The solution requires a specific key item from my pack.
+2. The interaction is dependent on the time of day.
+3. The solution involves using the Pokégear radio near the tree.
+
+# Tool Status
+## Built-in Tools
+- **notepad_edit:** Operational.
+- **run_code:** Operational.
+- **define_agent:** Operational.
+- **delete_agent:** Operational.
+- **define_map_marker:** Operational.
+- **delete_map_marker:** Operational.
+- **stun_npc:** Operational.
+- **define_tool:** Operational.
+- **delete_tool:** Operational.
+- **select_battle_option:** Operational. The tool failed in turn 6112, but this was likely a user error or specific context issue. I must trust and use it as intended.
+
+## Custom Tools & Agents
+- **find_path_to_target_bfs:** Operational. (Custom Tool)
+- **exploration_planner:** Operational. (Custom Tool)
+- **systematic_search:** Operational. (Custom Tool)
+- **list_reachable_unseen_tiles:** Operational. (Custom Tool)
+- **generate_nickname_inputs:** Operational. (Custom Tool)
+- **simple_battle_strategist:** Operational. (Custom Agent)
+- **notepad_refactor_assistant:** Operational. (Custom Agent)
+- **hypothesis_generator:** Operational. (Custom Agent)
