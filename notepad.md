@@ -234,4 +234,6 @@
 - **Step 17:** Picked up Piece 12 from position (3,0). (Success)
 - **Step 18:** Placed Piece 12 into position (4,3). (Success)
 - **Step 19:** Picked up Piece 13 from position (0,2). (Success)
+- **Step 20:** Placed Piece 13 into position (1,4). (Success)
 - **Step 19:** Picked up Piece 13 from position (0,2). (Success)
+- **Step 20:** Placed Piece 13 into position (1,4). (Success)
