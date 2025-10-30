@@ -18,6 +18,7 @@
 - Stuck Detector Agent: Could analyze recent movement patterns and tool outputs to determine if I am stuck in a loop or a dead end, then suggest a strategy pivot.
 - Puzzle Strategist Agent: Could analyze the current state of a complex puzzle and suggest a high-level strategy or next logical step.
 - Rebuild `systematic_search` tool
+- FARFETCH'D Puzzle Solver Agent: Could analyze the bird's location, my location, and known trigger points to suggest the next optimal move.
 
 ## Critical Self-Correction Log
 - The 'Poké Ball machine' in Elm's lab was a hallucination.
@@ -40,6 +41,8 @@
 - **CRITICAL HALLUCINATION (Turns 8539-8541):** Believed my `exploration_planner` and `list_reachable_unseen_tiles` tools were broken when they correctly reported I was in a fully explored dead-end with no reachable unseen tiles. This was a failure to trust my own tools and led to wasted diagnostic turns.
 - **CRITICAL HALLUCINATION (Turns 8682-8688):** I was stuck in a multi-turn loop attempting to define the `farfetchd_puzzle_solver` agent due to a repeated JSON schema error. This was a significant failure in debugging and state tracking.
 - **CRITICAL FAILURE (Turn 8716):** Failed to place a map marker for the FARFETCH'D's new location at (15, 29) in the turn it was discovered, a violation of the 'IMMEDIATE ACTION' core principle.
+- **CRITICAL HALLUCINATION (Turns 8944-8945):** Believed a map marker for the FARFETCH'D still existed at (15, 25) after it had already been deleted. This was a state-tracking failure, confirmed by the system rejecting my repeated `delete_map_marker` calls.
+- **CRITICAL HALLUCCINATION (Turn 8947):** Believed I was at position (14, 26) after a path plan, but the plan had failed because my starting position was incorrect. I was still at (15, 25). This was a state-tracking failure.
 
 ## Tool Status
 ### Built-in Tools
@@ -132,7 +135,6 @@
 
 #### Azalea Town
 - Hiker Anthony called to say there are lots of DUNSPARCE in DARK CAVE.
-- **CONFIRMED LEAD:** The Charcoal Man's apprentice is at (7, 28) in Ilex Forest. His FARFETCH'D, which knows CUT, has run off. I need to find the FARFETCH'D to get CUT. This was mentioned by a Youngster (6, 9) and the Charcoal Man himself (2, 3).
 
 ## Pokémon & Battle Info
 ### Battle Mechanics
@@ -218,10 +220,9 @@
 - **Observations:**
   - The path to the clerk is blocked. Talking to the Cooltrainer M at (5, 2) does not open it.
 
-# Solved Puzzles
-
 ## Ilex Forest FARFETCH'D Puzzle
 - **Objective:** Herd the FARFETCH'D back to the apprentice at (7, 28).
+- **Background:** **CONFIRMED LEAD:** The Charcoal Man's apprentice is at (7, 28) in Ilex Forest. His FARFETCH'D, which knows CUT, has run off. I need to find the FARFETCH'D to get CUT. This was mentioned by a Youngster (6, 9) and the Charcoal Man himself (2, 3).
 - **Learned Mechanics & Rules:**
   - **KEY INSIGHT:** The solution is not about relative direction ("behind") but about stepping on specific trigger tiles. The bird's facing direction might just be a distraction or a clue for which trigger tile is active.
   - The FARFETCH'D moves to pre-scripted locations. Its movement is triggered by player interaction from specific tiles, not just a general direction of approach (e.g. 'from behind').
@@ -229,15 +230,28 @@
   - Stepping on twig piles causes the FARFETCH'D to change its facing direction. The direction it turns is specific to the twig pile, not simply towards the sound.
   - The FARFETCH'D can change its facing direction spontaneously between turns without any player input.
   - Some interactions cause it to move to a new spot, while others cause it to disappear entirely, likely resetting its position.
-  - **(Turn 6701):** Stepping on the twig at (14, 26) and returning to (15, 26) caused the FARFETCH'D at (20, 24) to turn from 'down' to 'left'.
-  - **(Turn 7032):** The systematic search revealed the FARFETCH'D at a new, previously unknown location: (29, 22), facing left.
-  - **(Turn 8600):** Discovered a forced movement/spinner tile. Stepping on (23, 22) caused a slide left to (21, 22).
-  - **(Turn 8680):** Believed I had reached (15, 26) after a long path, but was actually at (15, 24). My pathing plan was interrupted. Despite this, interacting from (15, 24) caused the FARFETCH'D to move to (15, 29).
-  - **(Turn 8828):** Interacting with the FARFETCH'D at (15, 25) from the tile directly behind it (15, 26) caused it to move to a new location at (20, 24). This confirms that a 'behind' interaction from a specific tile is a valid trigger for scripted movement.
+  - The entire eastern section of the maze is a dead end, isolated by one-way ledges and spinner tiles. It's a red herring for the FARFETCH'D puzzle.
+
+#### Solution Discovery Log & Hypotheses
+- **(Turn 6701):** Stepping on the twig at (14, 26) and returning to (15, 26) caused the FARFETCH'D at (20, 24) to turn from 'down' to 'left'.
+- **(Turn 7032):** The systematic search revealed the FARFETCH'D at a new, previously unknown location: (29, 22), facing left.
+- **(Turn 8600):** Discovered a forced movement/spinner tile. Stepping on (23, 22) caused a slide left to (21, 22).
+- **(Turn 8680):** Believed I had reached (15, 26) after a long path, but was actually at (15, 24). My pathing plan was interrupted. Despite this, interacting from (15, 24) caused the FARFETCH'D to move to (15, 29).
+- **(Turn 8828):** Interacting with the FARFETCH'D at (15, 25) from the tile directly behind it (15, 26) caused it to move to a new location at (20, 24). This confirms that a 'behind' interaction from a specific tile is a valid trigger for scripted movement.
+- **Hypothesis:** Interacting with the FARFETCH'D at (20, 24) from above (20, 23) will trigger a forward movement.
+  - **Test:** Stood at (20, 23), faced down, and pressed 'A'.
+  - **Result:** FARFETCH'D squawked, turned to face up, and then disappeared from view.
+  - **Conclusion:** Hypothesis is disproven. This interaction does not solve the puzzle and suggests the eastern area is a dead end.
+- **Hypothesis:** Repeating the twig pile sequence (stepping on (14, 26) then moving to (15, 26)) will cause the FARFETCH'D to reappear at (20, 24).
+  - **Test:** Performed the sequence and traveled to (20, 24).
+  - **Result:** The FARFETCH'D was not at (20, 24).
+  - **Conclusion:** Hypothesis is disproven. The puzzle state is not reset by this action, or the outcome is different this time.
 
 #### Untested Assumptions During Investigation
 - The FARFETCH'D moves on a timer, independent of player interaction.
 - Stepping on specific non-twig floor tiles can influence the FARFETCH'D's movement or facing direction.
+
+# Solved Puzzles
 
 ## Ruins of Alph Kabuto Chamber Puzzle
 - **Objective:** Assemble the 16 pieces into a 4x4 image of Kabuto.
@@ -277,25 +291,9 @@
 - **Step 28:** Placed Piece 16 into position (4,4). (Success)
 - **CRITICAL HALLUCINATION (Turn 8762):** Believed I was on turn 8760 when it was actually turn 8761. This was a state-tracking failure.
 - **CRITICAL HALLUCINATION (Turn 8763):** Believed I was on turn 8761 when it was actually turn 8762. This was a state-tracking failure.
-- **CRITICAL HALLUCINATION (Turn 8762):** Believed I was on turn 8760 when it was actually turn 8761. This was a state-tracking failure.
+- **CRITICAL HALLUCINATION (Turn 8762):** Belied I was on turn 8760 when it was actually turn 8761. This was a state-tracking failure.
 - **CRITICAL HALLUCINATION (Turn 8773):** Believed I was on turn 8773 when it was actually turn 8772. This was a state-tracking failure.
 - **CRITICAL HALLUCINATION (Turn 8773):** Believed I was on turn 8773 when it was a
-- **Hypothesis:** Interacting with the FARFETCH'D at (20, 24) from above (20, 23) will trigger a forward movement.
-  - **Test:** Stood at (20, 23), faced down, and pressed 'A'.
-  - **Result:** FARFETCH'D squawked, turned to face up, and then disappeared from view.
-  - **Conclusion:** Hypothesis is disproven. This interaction does not solve the puzzle and suggests the eastern area is a dead end.
-
-#### Ilex Forest
-- The entire eastern section of the maze is a dead end, isolated by one-way ledges and spinner tiles. It's a red herring for the FARFETCH'D puzzle.
-- FARFETCH'D Puzzle Solver Agent: Could analyze the bird's location, my location, and known trigger points to suggest the next optimal move.
-- FARFETCH'D Puzzle Solver Agent: Could analyze the bird's location, my location, and known trigger points to suggest the next optimal move.
-- **CRITICAL HALLUCINATION (Turns 8944-8945):** Believed a map marker for the FARFETCH'D still existed at (15, 25) after it had already been deleted. This was a state-tracking failure, confirmed by the system rejecting my repeated `delete_map_marker` calls.
-- **CRITICAL HALLUCCINATION (Turn 8947):** Believed I was at position (14, 26) after a path plan, but the plan had failed because my starting position was incorrect. I was still at (15, 25). This was a state-tracking failure.
-
-- **Hypothesis:** Repeating the twig pile sequence (stepping on (14, 26) then moving to (15, 26)) will cause the FARFETCH'D to reappear at (20, 24).
-  - **Test:** Performed the sequence and traveled to (20, 24).
-  - **Result:** The FARFETCH'D was not at (20, 24).
-  - **Conclusion:** Hypothesis is disproven. The puzzle state is not reset by this action, or the outcome is different this time.
 
 ## `exploration_planner` Tool Bug
 - **Hypothesis:** The `find_unseen_border` BFS lacks one-way tile logic, causing it to miss reachable border tiles. Fixing this is top priority.
