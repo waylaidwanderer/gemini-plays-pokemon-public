@@ -197,3 +197,7 @@
   - **Test 12:** Interacted with FARFETCH'D at (15, 29) from the side (player at 16, 29) while it was facing right. **Result:** FARFETCH'D moved to a new location at (15, 25). **Conclusion:** The specific tile the player stands on when interacting appears to be the trigger for pre-scripted movements, not just the general direction of approach.
   - **Test 13:** Interacted with FARFETCH'D at (15, 25) from behind (player at 15, 26). **Result:** FARFETCH'D moved to a new location at (20, 24). **Conclusion:** This confirms that (15, 26) is a successful movement trigger when the bird is at (15, 25).
 - Repel Usage Advisor Agent: Could decide when to use a Repel based on party HP, objective, and location.
+- **Ruins of Alph 'ESCAPE' Puzzle Hypotheses (from agent):**
+  1. Use the move 'Flash' in the chamber.
+  2. Use an Itemfinder to check for hidden switches.
+  3. Activate the Pokégear radio and listen to the stations.
