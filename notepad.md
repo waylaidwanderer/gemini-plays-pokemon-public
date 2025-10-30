@@ -11,9 +11,6 @@
 - **TRUST OBSERVATION:** My biggest obstacle is my own memory. I must only trust in-game observation.
 - **Trainer Identification:** I must verify the name and location of a trainer before marking them as defeated to prevent misidentification errors like the Hiker Daniel/Russell mix-up.
 
-## Tool Usage Notes
-- The built-in `select_battle_option` tool failed in turn 6112. However, in a later turn (6439), I used it redundantly by also providing manual button presses. This indicates a lack of trust in my own tools. I must trust my tools and use them as intended.
-
 ## Future Agent & Tool Ideas
 - Pathing Strategist Agent: Could suggest stun-vs-reroute strategies for dealing with a moving NPC.
 - Puzzle Solver Agent: Could be developed for the FARFETCH'D puzzle. It would take the current state (player position, bird position, known movement rules) and suggest the optimal next move to herd it.
@@ -200,36 +197,9 @@
   - **Test 12:** Interacted with FARFETCH'D at (15, 29) from the side (player at 16, 29) while it was facing right. **Result:** FARFETCH'D moved to a new location at (15, 25). **Conclusion:** The specific tile the player stands on when interacting appears to be the trigger for pre-scripted movements, not just the general direction of approach.
   - **Test 13:** Interacted with FARFETCH'D at (15, 25) from behind (player at 15, 26). **Result:** FARFETCH'D moved to a new location at (20, 24). **Conclusion:** This confirms that (15, 26) is a successful movement trigger when the bird is at (15, 25).
 
-# Tool Development & Status
-- **`find_path_to_target` (A*):** Fundamentally broken. The A* search logic consistently fails to find valid paths and should not be used for navigation.
-- **`find_path_to_target_bfs` (BFS):** Created as a replacement for the A* tool, but it is also fundamentally broken. It generates invalid paths through walls and should not be used for navigation until the root cause is identified.
-
-# Tool Debugging Plan: New BFS Pathfinder
-
-The `find_path_to_target_bfs` tool is fundamentally broken after multiple rewrites. The core problem is in the search algorithm, not the grid population. My new plan is to abandon it and start fresh.
-
-**Step-by-Step Plan:**
-1.  Delete the broken `find_path_to_target_bfs` tool to free up a slot.
-2.  Define a new tool, also named `find_path_to_target_bfs`, by copying the working BFS implementation from the `list_reachable_unseen_tiles` tool.
-3.  Adapt the copied code to find a path to a specific coordinate instead of just finding the border tiles. This is a more reliable approach than trying to fix the existing flawed code.
-
-The Overwatch critique is correct; abandoning my tool was a process violation. Fixing it is my highest priority.
-
-**Problem Analysis:**
-- The `list_reachable_unseen_tiles` tool (BFS) works correctly.
-- The `find_path_to_target_bfs` tool (also BFS) fails.
-- Both tools use very similar logic to parse the map and create a traversability grid.
-- **Conclusion:** The grid population logic is likely correct. The bug must be in the BFS search loop or neighbor-finding logic within `find_path_to_target_bfs`.
-
-**Step-by-Step Diagnostic Plan:**
-1.  **Add Granular Debugging:** Use `define_tool` to add detailed print statements *inside* the main `while` loop of the BFS in `find_path_to_target_bfs`. I need to log:
-    - The `current_node` being popped from the queue.
-    - The list of `neighbors` generated for that node.
-    - For each neighbor, the result of the `is_traversable` check.
-    - Which neighbors are ultimately added to the queue.
-2.  **Run a Simple Test Case:** Call the tool with a path to an immediately adjacent, known-traversable tile. This will provide a baseline "correct" execution trace.
-3.  **Run the Failing Test Case:** Call the tool again with the known-failing path (e.g., to (6, 19)).
-4.  **Compare Traces:** Compare the output from the simple test and the failing test to identify the exact point of deviation in the algorithm's logic.
-
-# Failed Strategies
-- **Pathfinder Debugging Loop (Turns ~7858-7967):** Got stuck in a severe hallucination loop trying to fix the `find_path_to_target_bfs` tool. Repeatedly submitted identical, non-functional code while believing I was making changes. The core issue seems to be a fundamental flaw in the BFS implementation that I cannot currently solve. **Conclusion:** Abandoning all automated pathfinding tools for now. Will proceed with manual navigation and focus on exploration goals until a new, robust pathfinding strategy can be developed.
+# Tool Status
+- **find_path_to_target_bfs:** Operational.
+- **exploration_planner:** Confirmed functional. Believed tool was broken when it correctly reported a dead end (Turns 7142-7147). This was a major failure to trust my tools.
+- **list_reachable_unseen_tiles:** The working BFS implementation from this tool was used to build the new pathfinder.
+- **get_on_screen_object_locations_json:** Confirmed functional. Believed tool definition failed in a previous turn when it had actually succeeded (Turn 5981).
+- **select_battle_option:** The built-in `select_battle_option` tool failed in turn 6112. However, in a later turn (6439), I used it redundantly by also providing manual button presses. This indicates a lack of trust in my own tools. I must trust my tools and use them as intended.
