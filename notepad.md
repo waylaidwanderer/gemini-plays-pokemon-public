@@ -160,12 +160,7 @@
   - The FARFETCH'D can change its facing direction spontaneously between turns without any player input.
 
 ### Solution Discovery Log
-- **Archived Hypotheses:**
-  1. The apprentice at (7, 28) is not the final destination. The FARFETCH'D needs to be herded to a different trigger point in the forest.
-  2. A key item or HM (other than CUT) is required to solve the puzzle or access the area where the FARFETCH'D is now located.
-  3. Movement is triggered by the *number* of interactions, not the position of interaction.
-  4. The FARFETCH'D is not in this reachable area of the maze at all.
-  5. Untested Assumption: The FARFETCH'D puzzle is the only way to get the HM for CUT.
+
 - **Observations:**
   - **(Turn 6633):** The FARFETCH'D at (29, 22) changed its facing direction from 'left' to 'right' spontaneously between turns, with no player input. **Conclusion:** The FARFETCH'D's orientation is not static and can change on its own.
   - **(Turn 6701):** Stepping on the twig at (14, 26) and returning to (15, 26) caused the FARFETCH'D at (20, 24) to turn from 'down' to 'left'.
