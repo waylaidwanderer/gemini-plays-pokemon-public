@@ -298,3 +298,4 @@
 - **CRITICAL HALLUCINATION (Turn 8762):** Belied I was on turn 8760 when it was actually turn 8761. This was a state-tracking failure.
 - **CRITICAL HALLUCINATION (Turn 8773):** Believed I was on turn 8773 when it was actually turn 8772. This was a state-tracking failure.
 - **CRITICAL HALLUCINATION (Turn 8773):** Believed I was on turn 8773 when it was a
+- **CRITICAL HALLUCINATION (Turn 9122):** Reported turn 9121 when it was actually 9122. This was a state-tracking failure.
