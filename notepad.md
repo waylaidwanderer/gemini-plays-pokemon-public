@@ -36,6 +36,33 @@
 - **CRITICAL HALLUCINATION (Turn 6050):** Believed I was in Azalea Town (map 8_7) when I was actually inside the Charcoal Kiln (map 8_2).
 - **CRITICAL HALLUCINATION (Turns 7142-7147):** Believed my `exploration_planner` tool was broken when it correctly reported a dead end. I wasted five turns debugging a functional tool instead of trusting its output. This was a major failure to trust my tools and a significant hallucination.
 - **CRITICAL HALLUCINATION (Turn 7443):** Believed the warp to the Ilex Forest gatehouse was at (0, 4) on the Ilex Forest map. The actual warp is at (3, 42) on Ilex Forest; the warp at (0, 4) is on the gatehouse map.
+- **CRITICAL HALLUCINATION (Turn 8421):** Believed I had successfully warped from Ruins of Alph Outside (13, 20) to Route 32 Ruins of Alph Gate (0, 4). I was still on the Ruins of Alph Outside map at the original warp tile.
+- **CRITICAL HALLUCINATION (Turn 8430):** Believed I was on turn 8430 when it was actually turn 8429. This was a state-tracking failure.
+- **CRITICAL HALLUCINATION (Turn 8492):** Believed I was on turn 8490 when it was actually turn 8491. This was a state-tracking failure.
+- **CRITICAL HALLUCINATION (Turn 8517):** Believed I had warped from Azalea Town (2, 10) to Ilex Forest Azalea Gate (9, 4). I was still in Azalea Town on the original warp tile. Placed an incorrect map marker based on this false reality.
+
+## Tool Status
+### Built-in Tools
+- **notepad_edit:** Operational.
+- **run_code:** Operational.
+- **define_agent:** Operational.
+- **delete_agent:** Operational.
+- **define_map_marker:** Operational.
+- **delete_map_marker:** Operational.
+- **stun_npc:** Operational.
+- **define_tool:** Operational.
+- **delete_tool:** Operational.
+- **select_battle_option:** Operational. The tool failed in turn 6112, but this was likely a user error or specific context issue. I must trust and use it as intended.
+
+### Custom Tools & Agents
+- **find_path_to_target_bfs:** Operational. (Custom Tool)
+- **exploration_planner:** Operational. (Custom Tool)
+- **systematic_search:** Operational. (Custom Tool)
+- **list_reachable_unseen_tiles:** Operational. (Custom Tool)
+- **generate_nickname_inputs:** Operational. (Custom Tool)
+- **simple_battle_strategist:** Operational. (Custom Agent)
+- **notepad_refactor_assistant:** Operational. (Custom Agent)
+- **hypothesis_generator:** Operational. (Custom Agent)
 
 # Knowledge Base
 
@@ -122,6 +149,31 @@
 
 # Active Investigations
 
+## Current Puzzles
+### Route 36 'Odd Tree' Puzzle
+- **Objective:** Get past the tree blocking the path at (35, 9).
+- **Observations:**
+  - The tree is a unique 'WEIRD_TREE' sprite that wiggles.
+  - Lass Dana's dialogue at (49, 8) confirms this tree blocks the way to Goldenrod City.
+  - A Fisher at (44, 9) mentioned he couldn't break it with a punch.
+  - A Youngster in Violet City mentioned a 'wiggly tree' that 'squirms and dances'.
+
+#### Solution Discovery Log
+- **Hypothesis 1:** Interacting with the tree by pressing 'A' will trigger an event.
+  - **Test 1:** Stood at (36, 9), faced the tree, and pressed 'A' with Ignis (Quilava) in the lead.
+  - **Result:** No text appeared, no event triggered. Interaction failed.
+  - **Conclusion:** A simple 'A' press with Quilava as the lead Pokémon is not the solution.
+
+- **Hypothesis 2:** The lead Pokémon affects the interaction with the tree.
+  - **Test 1 (Ignis):** Stood at (36, 9), faced the tree, and pressed 'A'. Result: No text appeared, no event triggered. Interaction failed.
+  - **Test 2 (Aether):** Stood at (36, 9), faced the tree, and pressed 'A'. Result: No text appeared, no event triggered. Interaction failed.
+  - **Test 3 (O):** Stood at (36, 9), faced the tree, and pressed 'A'. Result: No text appeared, no event triggered. Interaction failed.
+  - **Test 4 (Glyph):** Stood at (36, 9), faced the tree, and pressed 'A'. Result: No text appeared, no event triggered. Interaction failed.
+  - **Conclusion:** Hypothesis 2 is disproven. The lead Pokémon has no effect on a simple 'A' press interaction with the tree.
+
+- **Hypothesis 3:** The tree must be interacted with from the tile directly below it (35, 10).
+  - **Test Plan:** Move to (35, 10), face up, and press 'A'.
+
 ## Untested Hypotheses
 - Test the damage of EMBER vs. QUICK ATTACK on a Water-type.
 - Test one-way ledges (`LEDGE_HOP_DOWN`) by trying to move up *and sideways* off them to fully verify movement restrictions.
@@ -143,10 +195,15 @@
   3. Have an Unown as the first Pokemon in your party and interact with the 'ESCAPE' wall. (Next test)
 - Test TALL_GRASS on Route 36.
 
-## Untested Assumptions & Alternative Hypotheses (Ruins of Alph)
-1. The puzzle requires having an Escape Rope in the inventory, not necessarily using it.
-2. The 'sliding stone panels' mentioned by NPCs are a separate puzzle from the 'ESCAPE' wall.
-3. Another item or a specific non-Unown Pokémon is needed to interact with the wall.
+## Untested Assumptions
+- **Ruins of Alph:**
+  1. The puzzle requires having an Escape Rope in the inventory, not necessarily using it.
+  2. The 'sliding stone panels' mentioned by NPCs are a separate puzzle from the 'ESCAPE' wall.
+  3. Another item or a specific non-Unown Pokémon is needed to interact with the wall.
+- **Route 36 'Odd Tree':**
+  1. The solution requires a specific key item from my pack.
+  2. The interaction is dependent on the time of day.
+  3. The solution involves using the Pokégear radio near the tree.
 
 # Solved Puzzles
 
@@ -203,59 +260,3 @@
 - **Step 26:** Placed Piece 15 into position (3,4). (Success)
 - **Step 27:** Picked up Piece 16 from position (0,1). (Success)
 - **Step 28:** Placed Piece 16 into position (4,4). (Success)
-
-# Route 36 'Odd Tree' Puzzle
-- **Objective:** Get past the tree blocking the path at (35, 9).
-- **Observations:**
-  - The tree is a unique 'WEIRD_TREE' sprite that wiggles.
-  - Lass Dana's dialogue at (49, 8) confirms this tree blocks the way to Goldenrod City.
-  - A Fisher at (44, 9) mentioned he couldn't break it with a punch.
-  - A Youngster in Violet City mentioned a 'wiggly tree' that 'squirms and dances'.
-
-### Solution Discovery Log
-- **Hypothesis 1:** Interacting with the tree by pressing 'A' will trigger an event.
-  - **Test 1:** Stood at (36, 9), faced the tree, and pressed 'A' with Ignis (Quilava) in the lead.
-  - **Result:** No text appeared, no event triggered. Interaction failed.
-  - **Conclusion:** A simple 'A' press with Quilava as the lead Pokémon is not the solution.
-
-- **Hypothesis 2:** The lead Pokémon affects the interaction with the tree.
-  - **Test 1 (Ignis):** Stood at (36, 9), faced the tree, and pressed 'A'. Result: No text appeared, no event triggered. Interaction failed.
-  - **Test 2 (Aether):** Stood at (36, 9), faced the tree, and pressed 'A'. Result: No text appeared, no event triggered. Interaction failed.
-  - **Test 3 (O):** Stood at (36, 9), faced the tree, and pressed 'A'. Result: No text appeared, no event triggered. Interaction failed.
-  - **Test 4 (Glyph):** Stood at (36, 9), faced the tree, and pressed 'A'. Result: No text appeared, no event triggered. Interaction failed.
-  - **Conclusion:** Hypothesis 2 is disproven. The lead Pokémon has no effect on a simple 'A' press interaction with the tree.
-
-- **Hypothesis 3:** The tree must be interacted with from the tile directly below it (35, 10).
-  - **Test Plan:** Move to (35, 10), face up, and press 'A'.
-
-### Untested Assumptions & Alternative Hypotheses (Route 36)
-1. The solution requires a specific key item from my pack.
-2. The interaction is dependent on the time of day.
-3. The solution involves using the Pokégear radio near the tree.
-
-# Tool Status
-## Built-in Tools
-- **notepad_edit:** Operational.
-- **run_code:** Operational.
-- **define_agent:** Operational.
-- **delete_agent:** Operational.
-- **define_map_marker:** Operational.
-- **delete_map_marker:** Operational.
-- **stun_npc:** Operational.
-- **define_tool:** Operational.
-- **delete_tool:** Operational.
-- **select_battle_option:** Operational. The tool failed in turn 6112, but this was likely a user error or specific context issue. I must trust and use it as intended.
-
-## Custom Tools & Agents
-- **find_path_to_target_bfs:** Operational. (Custom Tool)
-- **exploration_planner:** Operational. (Custom Tool)
-- **systematic_search:** Operational. (Custom Tool)
-- **list_reachable_unseen_tiles:** Operational. (Custom Tool)
-- **generate_nickname_inputs:** Operational. (Custom Tool)
-- **simple_battle_strategist:** Operational. (Custom Agent)
-- **notepad_refactor_assistant:** Operational. (Custom Agent)
-- **hypothesis_generator:** Operational. (Custom Agent)
-- **CRITICAL HALLUCINATION (Turn 8421):** Believed I had successfully warped from Ruins of Alph Outside (13, 20) to Route 32 Ruins of Alph Gate (0, 4). I was still on the Ruins of Alph Outside map at the original warp tile.
-- **CRITICAL HALLUCINATION (Turn 8430):** Believed I was on turn 8430 when it was actually turn 8429. This was a state-tracking failure.
-- **CRITICAL HALLUCINATION (Turn 8492):** Believed I was on turn 8490 when it was actually turn 8491. This was a state-tracking failure.
-- **CRITICAL HALLUCINATION (Turn 8517):** Believed I had warped from Azalea Town (2, 10) to Ilex Forest Azalea Gate (9, 4). I was still in Azalea Town on the original warp tile. Placed an incorrect map marker based on this false reality.
