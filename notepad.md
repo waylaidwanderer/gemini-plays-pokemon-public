@@ -200,3 +200,4 @@
   - **Test 12:** Interacted with FARFETCH'D at (15, 29) from the side (player at 16, 29) while it was facing right. **Result:** FARFETCH'D moved to a new location at (15, 25). **Conclusion:** The specific tile the player stands on when interacting appears to be the trigger for pre-scripted movements, not just the general direction of approach.
   - **Test 13:** Interacted with FARFETCH'D at (15, 25) from behind (player at 15, 26). **Result:** FARFETCH'D moved to a new location at (20, 24). **Conclusion:** This confirms that (15, 26) is a successful movement trigger when the bird is at (15, 25).
 - Exploration Strategist Agent: Could take the output of `list_reachable_unseen_tiles` and suggest the most strategically valuable tile to explore next.
+- **CRITICAL HALLUCINATION (Turn 7443):** Believed the warp to the Ilex Forest gatehouse was at (0, 4) on the Ilex Forest map. The actual warp is at (3, 42) on Ilex Forest; the warp at (0, 4) is on the gatehouse map.
