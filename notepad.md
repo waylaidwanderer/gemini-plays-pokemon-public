@@ -72,7 +72,7 @@
 - **WALL**: Impassable. (Verified)
 - **WARP_CARPET_DOWN**: Traversable warp. Requires pressing 'Down' on the tile to activate. (Verified)
 - **WARP_CARPET_LEFT**: Traversable warp. Must be activated by moving left onto the tile. (Verified)
-- **WARP_CARPET_RIGHT**: Traversable warp. Mechanic is currently unknown. Tests of pressing 'Right' on the tile, stepping on/off, and pressing 'A' have all failed.
+- **WARP_CARPET_RIGHT**: Traversable warp. Mechanic is currently unknown. Tests of pressing 'Right' on the tile (at 3,43), stepping on/off, pressing 'A', and stepping onto the tile from the left (at 3,42) have all failed.
 - **WATER**: Impassable. (Verified by pathing attempts)
 - **WINDOW**: Impassable. (Verified)
 
