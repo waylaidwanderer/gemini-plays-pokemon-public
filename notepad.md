@@ -140,8 +140,6 @@
 ## Union Cave B1F Layout Correction
 - The basement area accessible from the ladder at (5, 19) on 1F is a large dead end. The entire reachable area was explored via BFS, and it has no exits other than the ladder back up. This was confirmed by the `exploration_planner` tool correctly finding zero reachable unseen tiles.
 
-- Test one-way ledges (`LEDGE_HOP_DOWN/LEFT/RIGHT`) by trying to move sideways off them, not just up, to fully verify movement restrictions.
-- **CRITICAL HALLUCINATION (Turns 7142-7147):** Believed my `exploration_planner` tool was broken when it correctly reported a dead end. I wasted five turns debugging a functional tool instead of trusting its output. This was a major failure to trust my tools and a significant hallucination.
 - **CRITICAL HALLUCINATION (Turns 7142-7147):** Believed my `exploration_planner` tool was broken when it correctly reported a dead end. I wasted five turns debugging a functional tool instead of trusting its output. This was a major failure to trust my tools and a significant hallucination.
 - Exploration Strategist Agent: Could take the output of `exploration_planner` and suggest the most strategically valuable tile to explore next.
 - **CRITICAL HALLUCINATION (Turn 7443):** Believed the warp to the Ilex Forest gatehouse was at (0, 4) on the Ilex Forest map. The actual warp is at (3, 42) on Ilex Forest; the warp at (0, 4) is on the gatehouse map.
