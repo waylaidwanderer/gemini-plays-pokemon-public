@@ -17,6 +17,9 @@
 ## Future Agent & Tool Ideas
 - Pathing Strategist Agent: Could suggest stun-vs-reroute strategies for dealing with a moving NPC.
 - Puzzle Solver Agent: Could be developed for the FARFETCH'D puzzle. It would take the current state (player position, bird position, known movement rules) and suggest the optimal next move to herd it.
+- Repel Usage Advisor Agent: Could decide when to use a Repel based on party HP, objective, and location.
+- Exploration Strategist Agent: Could take the output of `exploration_planner` and suggest the most strategically valuable tile to explore next.
+- Stuck Detector Agent: Could analyze recent movement patterns and tool outputs to determine if I am stuck in a loop or a dead end, then suggest a strategy pivot.
 
 ## Critical Self-Correction Log
 - The 'Poké Ball machine' in Elm's lab was a hallucination.
@@ -34,6 +37,8 @@
 - **CRITICAL HALLUCINATION (Turn 5981):** Believed my `get_on_screen_object_locations_json` tool definition failed in a previous turn when it had actually succeeded. This was a state-tracking failure.
 - **CRITICAL HALLUCINATION (Turn 6045):** Believed I had entered Kurt's house (map 8_4) when I was still in Azalea Town (map 8_7).
 - **CRITICAL HALLUCINATION (Turn 6050):** Believed I was in Azalea Town (map 8_7) when I was actually inside the Charcoal Kiln (map 8_2).
+- **CRITICAL HALLUCINATION (Turns 7142-7147):** Believed my `exploration_planner` tool was broken when it correctly reported a dead end. I wasted five turns debugging a functional tool instead of trusting its output. This was a major failure to trust my tools and a significant hallucination.
+- **CRITICAL HALLUCINATION (Turn 7443):** Believed the warp to the Ilex Forest gatehouse was at (0, 4) on the Ilex Forest map. The actual warp is at (3, 42) on Ilex Forest; the warp at (0, 4) is on the gatehouse map.
 
 # Knowledge Base
 
@@ -72,7 +77,7 @@
 - **WALL**: Impassable. (Verified)
 - **WARP_CARPET_DOWN**: Traversable warp. Requires pressing 'Down' on the tile to activate. (Verified)
 - **WARP_CARPET_LEFT**: Traversable warp. Requires pressing 'Left' while standing on the tile to activate. (Verified at 4,2 on Route 32)
-- **WARP_CARPET_RIGHT**: Traversable warp. Mechanic is currently unknown. Tests of pressing 'Right' on the tile (at 3,43 on Route 32 and 13,20 on RuinsOfAlphOutside), stepping on/off, pressing 'A' (at 3,43 on Route 32 and 13,20 on RuinsOfAlphOutside), and stepping onto the tile from the left (at 3,42 on Route 32 and 13,20 on RuinsOfAlphOutside) have all failed.
+- **WARP_CARPET_RIGHT**: Traversable warp. Mechanic is currently unconfirmed, but likely requires pressing 'Right' on the tile to activate, similar to how WARP_CARPET_LEFT works.
 - **WATER**: Impassable. (Verified by pathing attempts)
 - **WINDOW**: Impassable. (Verified)
 
@@ -130,20 +135,20 @@
   1. All other Sages on Sprout Tower 2F must be defeated before interacting with the Sage at (12, 3).
   2. The interaction with the Sage at (12, 3) only makes the pillar passable during a specific time of day (e.g., night).
   3. The floor tiles in the room with the Sage at (12,3) contain a visual pattern or clue that needs to be followed or replicated.
-- Repel Usage Advisor Agent: Could decide when to use a Repel based on party HP, objective, and location.
 - Test `LEDGE_HOP_LEFT` tiles by trying to move in all directions from them to fully verify movement restrictions.
+- **Ruins of Alph 'ESCAPE' Puzzle Hypotheses (from agent - round 1):**
+  1. Use the move 'Flash' in the chamber. (Untestable: No Flash)
+  2. Use an Itemfinder to check for hidden switches. (Untestable: No Itemfinder)
+  3. Activate the Pokégear radio and listen to the stations. (Failed: No Radio Card)
+- **Ruins of Alph 'ESCAPE' Puzzle Hypotheses (from agent - round 2):**
+  1. Use an Escape Rope while standing directly in front of the 'ESCAPE' wall. (Untestable: No Escape Rope)
+  2. Use the move 'Strength' to try and push the statues. (Untestable: No Strength)
+  3. Have an Unown as the first Pokemon in your party and interact with the 'ESCAPE' wall. (Next test)
 
-## Route 32 Layout Correction
-- The eastern path of Route 32 is a dead end, separated from the western path by one-way ledges and walls. From the area south of the Union Cave exit, it is impossible to proceed further south or west. The only exit is back north through Union Cave.
-- **FLOOR_UP_WALL**: One-way traversal. Can only be entered by moving up onto it. (Verified on Route 32)
-
-## Union Cave B1F Layout Correction
-- The basement area accessible from the ladder at (5, 19) on 1F is a large dead end. The entire reachable area was explored via BFS, and it has no exits other than the ladder back up. This was confirmed by the `exploration_planner` tool correctly finding zero reachable unseen tiles.
-
-- **CRITICAL HALLUCINATION (Turns 7142-7147):** Believed my `exploration_planner` tool was broken when it correctly reported a dead end. I wasted five turns debugging a functional tool instead of trusting its output. This was a major failure to trust my tools and a significant hallucination.
-- Exploration Strategist Agent: Could take the output of `exploration_planner` and suggest the most strategically valuable tile to explore next.
-- **CRITICAL HALLUCINATION (Turn 7443):** Believed the warp to the Ilex Forest gatehouse was at (0, 4) on the Ilex Forest map. The actual warp is at (3, 42) on Ilex Forest; the warp at (0, 4) is on the gatehouse map.
-- Stuck Detector Agent: Could analyze recent movement patterns and tool outputs to determine if I am stuck in a loop or a dead end, then suggest a strategy pivot.
+## Untested Assumptions & Alternative Hypotheses (Ruins of Alph)
+1. The puzzle requires having an Escape Rope in the inventory, not necessarily using it.
+2. The 'sliding stone panels' mentioned by NPCs are a separate puzzle from the 'ESCAPE' wall.
+3. Another item or a specific non-Unown Pokémon is needed to interact with the wall.
 
 # Solved Puzzles
 
@@ -194,13 +199,3 @@
   - **Test 11:** Interacted with FARFETCH'D at (10, 35) from behind (player at 10, 34) while it was facing down. **Result:** FARFETCH'D gave dialogue, then moved to a new location at (15, 29). **Conclusion:** This confirms that (10, 34) is a successful movement trigger when the bird is at (10, 35).
   - **Test 12:** Interacted with FARFETCH'D at (15, 29) from the side (player at 16, 29) while it was facing right. **Result:** FARFETCH'D moved to a new location at (15, 25). **Conclusion:** The specific tile the player stands on when interacting appears to be the trigger for pre-scripted movements, not just the general direction of approach.
   - **Test 13:** Interacted with FARFETCH'D at (15, 25) from behind (player at 15, 26). **Result:** FARFETCH'D moved to a new location at (20, 24). **Conclusion:** This confirms that (15, 26) is a successful movement trigger when the bird is at (15, 25).
-- Repel Usage Advisor Agent: Could decide when to use a Repel based on party HP, objective, and location.
-- **Ruins of Alph 'ESCAPE' Puzzle Hypotheses (from agent - round 1):**
-  1. Use the move 'Flash' in the chamber. (Untestable: No Flash)
-  2. Use an Itemfinder to check for hidden switches. (Untestable: No Itemfinder)
-  3. Activate the Pokégear radio and listen to the stations. (Failed: No Radio Card)
-- **Ruins of Alph 'ESCAPE' Puzzle Hypotheses (from agent - round 2):**
-  1. Use an Escape Rope while standing directly in front of the 'ESCAPE' wall. (Untestable: No Escape Rope)
-  2. Use the move 'Strength' to try and push the statues. (Untestable: No Strength)
-  3. Have an Unown as the first Pokemon in your party and interact with the 'ESCAPE' wall. (Next test)
-- Test movement off a FLOOR_UP_WALL tile in all directions (sideways, down) to verify it's not just a one-way-up path.
