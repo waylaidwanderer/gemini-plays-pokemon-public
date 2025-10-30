@@ -152,7 +152,7 @@
   3. The floor tiles in the room with the Sage at (12,3) contain a visual pattern or clue that needs to be followed or replicated.
 - **Observation 5 (Turn 6633):** The FARFETCH'D at (29, 22) changed its facing direction from 'left' to 'right' spontaneously between turns, with no player input. **Conclusion:** The FARFETCH'D's orientation is not static and can change on its own.
 - Repel Usage Advisor Agent: Could decide when to use a Repel based on party HP, objective, and location.
-- List Reachable Unseen Tiles Tool: Would be useful for getting a full picture of exploration options, rather than just the single closest one from `exploration_planner`.
+
 - **Hypothesis Test Log (continued):**
   - **Hypothesis 1 (re-test):** Stepping on a twig pile will cause the FARFETCH'D to turn towards the sound.
     - **Test 2:** Stepped on twig pile at (14, 26) while FARFETCH'D was at (15, 29) facing left.
