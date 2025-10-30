@@ -59,7 +59,7 @@
 
 ### Custom Tools & Agents
 - **find_path_to_target_bfs:** Operational. (Custom Tool)
-- **exploration_planner:** Operational. (Custom Tool)
+- **exploration_planner:** Unreliable - BFS border logic is flawed. (Custom Tool)
 - **systematic_search:** DELETED. (Custom Tool)
 - **list_reachable_unseen_tiles:** Operational. (Custom Tool)
 - **generate_nickname_inputs:** Operational. (Custom Tool)
