@@ -197,14 +197,27 @@
   - **Test 13:** Interacted with FARFETCH'D at (15, 25) from behind (player at 15, 26). **Result:** FARFETCH'D moved to a new location at (20, 24). **Conclusion:** This confirms that (15, 26) is a successful movement trigger when the bird is at (15, 25).
 
 # Tool Status
-- **find_path_to_target_bfs:** Operational.
-- **exploration_planner:** Confirmed functional. Believed tool was broken when it correctly reported a dead end (Turns 7142-7147). This was a major failure to trust my tools.
-- **systematic_search:** Operational.
-- **list_reachable_unseen_tiles:** Operational.
-- **generate_nickname_inputs:** Operational.
+## Built-in Tools
+- **notepad_edit:** Operational.
+- **run_code:** Operational.
+- **define_agent:** Operational.
+- **delete_agent:** Operational.
+- **define_map_marker:** Operational.
+- **delete_map_marker:** Operational.
 - **stun_npc:** Operational.
-- **select_battle_option:** The built-in `select_battle_option` tool failed in turn 6112. However, in a later turn (6439), I used it redundantly by also providing manual button presses. This indicates a lack of trust in my own tools. I must trust my tools and use them as intended.
-- **Grid Puzzle Solver Tool (General Idea):** Could be generalized for puzzles like this Kabuto one. Input would be the current grid state (piece locations, cursor position, held piece). Output would be the optimal sequence of D-Pad and 'A' presses to move the next required piece to its destination. This would automate these multi-turn placement sequences.
+- **define_tool:** Operational.
+- **delete_tool:** Operational.
+- **select_battle_option:** Operational. The tool failed in turn 6112, but this was likely a user error or specific context issue. I must trust and use it as intended.
+
+## Custom Tools & Agents
+- **find_path_to_target_bfs:** Operational. (Custom Tool)
+- **exploration_planner:** Operational. (Custom Tool)
+- **systematic_search:** Operational. (Custom Tool)
+- **list_reachable_unseen_tiles:** Operational. (Custom Tool)
+- **generate_nickname_inputs:** Operational. (Custom Tool)
+- **simple_battle_strategist:** Operational. (Custom Agent)
+- **notepad_refactor_assistant:** Operational. (Custom Agent)
+- **hypothesis_generator:** Operational. (Custom Agent)
 
 ## Ruins of Alph Kabuto Chamber Puzzle
 - **Objective:** Assemble the 16 pieces into a 4x4 image of Kabuto.
