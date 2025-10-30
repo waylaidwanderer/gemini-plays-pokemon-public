@@ -284,3 +284,6 @@
   - **Test:** Stood at (20, 23), faced down, and pressed 'A'.
   - **Result:** FARFETCH'D squawked, turned to face up, and then disappeared from view.
   - **Conclusion:** Hypothesis is disproven. This interaction does not solve the puzzle and suggests the eastern area is a dead end.
+
+#### Ilex Forest
+- The entire eastern section of the maze is a dead end, isolated by one-way ledges and spinner tiles. It's a red herring for the FARFETCH'D puzzle.
