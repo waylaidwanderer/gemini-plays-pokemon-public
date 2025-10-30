@@ -204,7 +204,14 @@
 - **`find_path_to_target` (A*):** Fundamentally broken. The A* search logic consistently fails to find valid paths and should not be used for navigation.
 - **`find_path_to_target_bfs` (BFS):** Created as a replacement for the A* tool, but it is also fundamentally broken. It generates invalid paths through walls and should not be used for navigation until the root cause is identified.
 
-# Tool Debugging Plan: find_path_to_target_bfs
+# Tool Debugging Plan: New BFS Pathfinder
+
+The `find_path_to_target_bfs` tool is fundamentally broken after multiple rewrites. The core problem is in the search algorithm, not the grid population. My new plan is to abandon it and start fresh.
+
+**Step-by-Step Plan:**
+1.  Delete the broken `find_path_to_target_bfs` tool to free up a slot.
+2.  Define a new tool, also named `find_path_to_target_bfs`, by copying the working BFS implementation from the `list_reachable_unseen_tiles` tool.
+3.  Adapt the copied code to find a path to a specific coordinate instead of just finding the border tiles. This is a more reliable approach than trying to fix the existing flawed code.
 
 The Overwatch critique is correct; abandoning my tool was a process violation. Fixing it is my highest priority.
 
