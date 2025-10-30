@@ -120,18 +120,6 @@
 
 # Active Investigations
 
-## Current Puzzles
-### Ilex Forest FARFETCH'D Puzzle
-- **Objective:** Herd the FARFETCH'D back to the apprentice at (7, 28).
-- **Learned Mechanics & Rules:**
-  - The FARFETCH'D moves to pre-scripted locations. Its movement is triggered by player interaction from specific tiles, not just a general direction of approach (e.g. 'from behind').
-  - Some interactions cause it to move to a new spot, while others cause it to disappear entirely, likely resetting its position.
-  - Stepping on twig piles causes the FARFETCH'D to change its facing direction. The direction it turns is specific to the twig pile, not simply towards the sound.
-  - The FARFETCH'D can change its facing direction spontaneously between turns without any player input.
-- **Remaining Hypotheses:**
-  1. The apprentice at (7, 28) is not the final destination. The FARFETCH'D needs to be herded to a different trigger point in the forest.
-  2. A key item or HM (other than CUT) is required to solve the puzzle or access the area where the FARFETCH'D is now located.
-
 ## Untested Hypotheses
 - Test the damage of EMBER vs. QUICK ATTACK on a Water-type.
 - Test one-way ledges (`LEDGE_HOP_DOWN`) by trying to move up *and sideways* off them to fully verify movement restrictions.
@@ -142,10 +130,47 @@
   1. All other Sages on Sprout Tower 2F must be defeated before interacting with the Sage at (12, 3).
   2. The interaction with the Sage at (12, 3) only makes the pillar passable during a specific time of day (e.g., night).
   3. The floor tiles in the room with the Sage at (12,3) contain a visual pattern or clue that needs to be followed or replicated.
-- **Observation 5 (Turn 6633):** The FARFETCH'D at (29, 22) changed its facing direction from 'left' to 'right' spontaneously between turns, with no player input. **Conclusion:** The FARFETCH'D's orientation is not static and can change on its own.
 - Repel Usage Advisor Agent: Could decide when to use a Repel based on party HP, objective, and location.
+- Test `LEDGE_HOP_LEFT` tiles by trying to move in all directions from them to fully verify movement restrictions.
 
-- **Hypothesis Test Log (continued):**
+## Route 32 Layout Correction
+- The eastern path of Route 32 is a dead end, separated from the western path by one-way ledges and walls. From the area south of the Union Cave exit, it is impossible to proceed further south or west. The only exit is back north through Union Cave.
+- **FLOOR_UP_WALL**: One-way traversal. Can only be entered by moving up onto it. (Verified on Route 32)
+
+## Union Cave B1F Layout Correction
+- The basement area accessible from the ladder at (5, 19) on 1F is a large dead end. The entire reachable area was explored via BFS, and it has no exits other than the ladder back up. This was confirmed by the `exploration_planner` tool correctly finding zero reachable unseen tiles.
+
+- Test one-way ledges (`LEDGE_HOP_DOWN/LEFT/RIGHT`) by trying to move sideways off them, not just up, to fully verify movement restrictions.
+- **CRITICAL HALLUCINATION (Turns 7142-7147):** Believed my `exploration_planner` tool was broken when it correctly reported a dead end. I wasted five turns debugging a functional tool instead of trusting its output. This was a major failure to trust my tools and a significant hallucination.
+- **CRITICAL HALLUCINATION (Turns 7142-7147):** Believed my `exploration_planner` tool was broken when it correctly reported a dead end. I wasted five turns debugging a functional tool instead of trusting its output. This was a major failure to trust my tools and a significant hallucination.
+- Exploration Strategist Agent: Could take the output of `exploration_planner` and suggest the most strategically valuable tile to explore next.
+- **CRITICAL HALLUCINATION (Turn 7443):** Believed the warp to the Ilex Forest gatehouse was at (0, 4) on the Ilex Forest map. The actual warp is at (3, 42) on Ilex Forest; the warp at (0, 4) is on the gatehouse map.
+- Stuck Detector Agent: Could analyze recent movement patterns and tool outputs to determine if I am stuck in a loop or a dead end, then suggest a strategy pivot.
+
+# Solved Puzzles
+
+## Ilex Forest FARFETCH'D Puzzle
+- **Objective:** Herd the FARFETCH'D back to the apprentice at (7, 28).
+- **Learned Mechanics & Rules:**
+  - The FARFETCH'D moves to pre-scripted locations. Its movement is triggered by player interaction from specific tiles, not just a general direction of approach (e.g. 'from behind').
+  - The specific tile the player stands on when interacting appears to be the trigger for pre-scripted movements, not just the general direction of approach.
+  - Some interactions cause it to move to a new spot, while others cause it to disappear entirely, likely resetting its position.
+  - Stepping on twig piles causes the FARFETCH'D to change its facing direction. The direction it turns is specific to the twig pile, not simply towards the sound.
+  - The FARFETCH'D can change its facing direction spontaneously between turns without any player input.
+
+### Solution Discovery Log
+- **Archived Hypotheses:**
+  1. The apprentice at (7, 28) is not the final destination. The FARFETCH'D needs to be herded to a different trigger point in the forest.
+  2. A key item or HM (other than CUT) is required to solve the puzzle or access the area where the FARFETCH'D is now located.
+  3. Movement is triggered by the *number* of interactions, not the position of interaction.
+  4. The FARFETCH'D is not in this reachable area of the maze at all.
+  5. Untested Assumption: The FARFETCH'D puzzle is the only way to get the HM for CUT.
+- **Observations:**
+  - **(Turn 6633):** The FARFETCH'D at (29, 22) changed its facing direction from 'left' to 'right' spontaneously between turns, with no player input. **Conclusion:** The FARFETCH'D's orientation is not static and can change on its own.
+  - **(Turn 6701):** Stepping on the twig at (14, 26) and returning to (15, 26) caused the FARFETCH'D at (20, 24) to turn from 'down' to 'left'.
+  - **(Turn 7032):** The systematic search revealed the FARFETCH'D at a new, previously unknown location: (29, 22), facing left.
+  - **(Turn 7093):** The FARFETCH'D at (29, 22) changed its facing direction from 'down' to 'right' spontaneously between turns.
+- **Hypothesis Test Log:**
   - **Hypothesis 1 (re-test):** Stepping on a twig pile will cause the FARFETCH'D to turn towards the sound.
     - **Test 2:** Stepped on twig pile at (14, 26) while FARFETCH'D was at (15, 29) facing left.
     - **Result:** FARFETCH'D turned from 'left' to 'right'.
@@ -154,51 +179,20 @@
     - **Test 3:** Stepped on twig pile at (15, 26) while FARFETCH'D was at (15, 25) facing right.
     - **Result:** FARFETCH'D turned from 'right' to 'left'.
     - **Conclusion:** Hypothesis is definitively disproven. The turning direction is specific to the twig pile, not the location of the sound.
-- **Hypothesis Test Log (continued):**
   - **Hypothesis 2 (re-test):** Interacting with the FARFETCH'D from behind will cause it to move.
     - **Test 4:** Interacted with FARFETCH'D at (15, 25) from behind (player at 15, 26).
     - **Result:** Interaction failed, only produced dialogue. However, after closing the dialogue, the FARFETCH'D moved to a new location at (20, 24).
     - **Conclusion:** The 'interact from behind' mechanic is not a universal trigger. It seems to only work at specific, pre-determined points in the puzzle sequence.
-- **Observation (Turn 6701):** Stepping on the twig at (14, 26) and returning to (15, 26) caused the FARFETCH'D at (20, 24) to turn from 'down' to 'left'. This contradicts the agent's previous prediction.
-- **Hypothesis Test Log (continued):**
   - **Test 5:** Stepped on twig pile at (20, 23) while FARFETCH'D was at (20, 24) facing down.
   - **Result:** FARFETCH'D turned from 'down' to 'up'.
   - **Conclusion:** The twig at (20, 23) causes the FARFETCH'D to face 'up'.
-- Test `LEDGE_HOP_LEFT` tiles by trying to move in all directions from them to fully verify movement restrictions.
-- **FARFETCH'D Puzzle Alternative Hypotheses:**
-  1. Movement is triggered by the *number* of interactions, not the position of interaction. Test by interacting from non-behind positions multiple times.
-  2. The apprentice at (7, 28) is not the final destination. The FARFETCH'D needs to be herded to a different trigger point in the forest.
-- **Hypothesis Test Log (continued):**
   - **Test 6:** Interacted with FARFETCH'D at (20, 24) from behind (player at 20, 23).
   - **Result:** FARFETCH'D gave dialogue, then disappeared from the map entirely.
   - **Conclusion:** The 'interact from behind' mechanic is highly specific. Certain locations cause movement, while others cause it to disappear, likely resetting its position.
-
-## Route 32 Layout Correction
-- The eastern path of Route 32 is a dead end, separated from the western path by one-way ledges and walls. From the area south of the Union Cave exit, it is impossible to proceed further south or west. The only exit is back north through Union Cave.
-- **FLOOR_UP_WALL**: One-way traversal. Can only be entered by moving up onto it. (Verified on Route 32)
-
-## Union Cave B1F Layout Correction
-- The basement area accessible from the ladder at (5, 19) on 1F is a large dead end. The entire reachable area was explored via BFS, and it has no exits other than the ladder back up. This was confirmed by the `exploration_planner` tool correctly finding zero reachable unseen tiles.
-- **FARFETCH'D Puzzle Alternative Hypotheses:**
-  1. Movement is triggered by the *number* of interactions, not the position of interaction. Test by interacting from non-behind positions multiple times.
-  2. The apprentice at (7, 28) is not the final destination. The FARFETCH'D needs to be herded to a different trigger point in the forest.
-
-- **FARFETCH'D Puzzle Alternative Hypotheses (from reflection):**
-  1. The FARFETCH'D is not in this reachable area of the maze at all. It might have moved to an inaccessible section or left the forest entirely.
-  2. A key item or HM (other than CUT) is required to solve the puzzle or access the area where the FARFETCH'D is now located.
-  - **Observation (Turn 7032):** The systematic search revealed the FARFETCH'D at a new, previously unknown location: (29, 22), facing left.
   - **Test 8:** Interacted with FARFETCH'D at (20, 24) from behind (player at 20, 23) while it was facing down. **Result:** FARFETCH'D turned to face up but did not move. **Conclusion:** The tile at (20, 23) is not a movement trigger.
-- Test one-way ledges (`LEDGE_HOP_DOWN/LEFT/RIGHT`) by trying to move sideways off them, not just up, to fully verify movement restrictions.
-  - **Observation (Turn 7093):** The FARFETCH'D at (29, 22) changed its facing direction from 'down' to 'right' spontaneously between turns.
   - **Test 9:** Interacted with FARFETCH'D at (29, 22) from behind (player at 29, 23) while it was facing down. **Result:** FARFETCH'D gave dialogue, then disappeared from the map. **Conclusion:** This is a successful movement trigger, causing it to move to a new, unknown location.
   - **Test 10:** Interacted with FARFETCH'D at (15, 25) from a non-'behind' position (player at 15, 24). **Result:** FARFETCH'D moved to a new, pre-scripted location at (15, 29). **Conclusion:** Certain non-'behind' interactions also trigger specific movements, not just a reset/disappearance.
   - **Test 11:** Interacted with FARFETCH'D at (15, 29) from behind (player at 15, 28) while it was facing down. **Result:** FARFETCH'D gave dialogue, then disappeared from the map. **Conclusion:** This confirms that (15, 28) is a successful movement trigger when the bird is at (15, 29).
-- **CRITICAL HALLUCINATION (Turns 7142-7147):** Believed my `exploration_planner` tool was broken when it correctly reported a dead end. I wasted five turns debugging a functional tool instead of trusting its output. This was a major failure to trust my tools and a significant hallucination.
-- **CRITICAL HALLUCINATION (Turns 7142-7147):** Believed my `exploration_planner` tool was broken when it correctly reported a dead end. I wasted five turns debugging a functional tool instead of trusting its output. This was a major failure to trust my tools and a significant hallucination.
-- Untested Assumption: The FARFETCH'D puzzle is the only way to get the HM for CUT.
   - **Test 11:** Interacted with FARFETCH'D at (10, 35) from behind (player at 10, 34) while it was facing down. **Result:** FARFETCH'D gave dialogue, then moved to a new location at (15, 29). **Conclusion:** This confirms that (10, 34) is a successful movement trigger when the bird is at (10, 35).
   - **Test 12:** Interacted with FARFETCH'D at (15, 29) from the side (player at 16, 29) while it was facing right. **Result:** FARFETCH'D moved to a new location at (15, 25). **Conclusion:** The specific tile the player stands on when interacting appears to be the trigger for pre-scripted movements, not just the general direction of approach.
   - **Test 13:** Interacted with FARFETCH'D at (15, 25) from behind (player at 15, 26). **Result:** FARFETCH'D moved to a new location at (20, 24). **Conclusion:** This confirms that (15, 26) is a successful movement trigger when the bird is at (15, 25).
-- Exploration Strategist Agent: Could take the output of `exploration_planner` and suggest the most strategically valuable tile to explore next.
-- **CRITICAL HALLUCINATION (Turn 7443):** Believed the warp to the Ilex Forest gatehouse was at (0, 4) on the Ilex Forest map. The actual warp is at (3, 42) on Ilex Forest; the warp at (0, 4) is on the gatehouse map.
-- Stuck Detector Agent: Could analyze recent movement patterns and tool outputs to determine if I am stuck in a loop or a dead end, then suggest a strategy pivot.
