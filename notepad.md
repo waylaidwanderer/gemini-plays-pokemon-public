@@ -199,3 +199,4 @@
 - Test one-way ledges (`LEDGE_HOP_DOWN/LEFT/RIGHT`) by trying to move sideways off them, not just up, to fully verify movement restrictions.
   - **Observation (Turn 7093):** The FARFETCH'D at (29, 22) changed its facing direction from 'down' to 'right' spontaneously between turns.
   - **Test 9:** Interacted with FARFETCH'D at (29, 22) from behind (player at 29, 23) while it was facing down. **Result:** FARFETCH'D gave dialogue, then disappeared from the map. **Conclusion:** This is a successful movement trigger, causing it to move to a new, unknown location.
+  - **Test 10:** Interacted with FARFETCH'D at (15, 25) from a non-'behind' position (player at 15, 24). **Result:** FARFETCH'D moved to a new, pre-scripted location at (15, 29). **Conclusion:** Certain non-'behind' interactions also trigger specific movements, not just a reset/disappearance.
