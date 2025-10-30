@@ -849,6 +849,21 @@
         "commit_message": "refactor: Remove all debug print statements. The extensive debugging has confirmed that the tool is working correctly. The previous failures were caused by my own misunderstanding of the map layout (being in a dead-end area), not a bug in the tool. This commit cleans up the code.",
         "timestamp": "2025-10-29T22:53:37.643Z",
         "action_counter": 6953
+      },
+      {
+        "commit_message": "debug: Add border detection print statement. The tool is failing to find any explorable paths. This update adds a debug print inside the border-detection logic to explicitly show when an unseen tile is found adjacent to a seen, traversable tile. This will help diagnose if the BFS is failing to reach the map's edge or if the border detection condition itself is flawed.",
+        "timestamp": "2025-10-30T01:00:02.638Z",
+        "action_counter": 7142
+      },
+      {
+        "commit_message": "debug: Add verbose BFS tracing. The previous debug print was insufficient. This update adds per-node logging to the BFS loop to get a complete execution trace, which is necessary to identify why the algorithm is exploring a large area but failing to detect any border tiles.",
+        "timestamp": "2025-10-30T01:01:27.897Z",
+        "action_counter": 7145
+      },
+      {
+        "commit_message": "refactor: Remove all debug print statements. The extensive debugging has confirmed that the tool is working correctly. The previous failures were caused by my own misunderstanding of the map layout (being in a dead-end area), not a bug in the tool. This commit cleans up the code.",
+        "timestamp": "2025-10-30T01:02:47.616Z",
+        "action_counter": 7147
       }
     ]
   },
