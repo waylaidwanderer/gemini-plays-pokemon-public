@@ -203,3 +203,7 @@
 ## Tool Development Notes
 - **`find_path_to_target` (A*):** This tool is fundamentally broken. After multiple complete rewrites and extensive debugging (Turns 7858-7887), the A* search logic consistently fails to find valid paths, even when the grid data is correct. It should not be used for navigation.
 - **`find_path_to_target_bfs` (BFS):** Created as a reliable replacement for the A* tool. Uses a simpler BFS algorithm which is guaranteed to be correct for unweighted grids.
+
+## Tool Development Notes
+- **`find_path_to_target` (A*):** This tool is fundamentally broken. After multiple complete rewrites and extensive debugging (Turns 7858-7887), the A* search logic consistently fails to find valid paths, even when the grid data is correct. It should not be used for navigation.
+- **`find_path_to_target_bfs` (BFS):** Created as a reliable replacement for the A* tool. Uses a simpler BFS algorithm which is guaranteed to be correct for unweighted grids.
