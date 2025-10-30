@@ -45,6 +45,7 @@
 - **CRITICAL HALLUCCINATION (Turn 8947):** Believed I was at position (14, 26) after a path plan, but the plan had failed because my starting position was incorrect. I was still at (15, 25). This was a state-tracking failure.
 - **CRITICAL HALLUCINATION (Turn 9031):** Reported turn 9030 when it was 9031. This was a state-tracking failure.
 - **CRITICAL HALLUCINATION (Turn 9032):** Reported turn 9031 when it was 9032. This was a state-tracking failure.
+- **CRITICAL HALLUCINATION (Turn 9062):** Reported turn 9060 when it was actually turn 9061. This was a state-tracking failure.
 
 ## Tool Status
 ### Built-in Tools
