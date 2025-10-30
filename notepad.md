@@ -103,6 +103,7 @@
 - **TOWN_MAP**: Impassable. (Verified by observation)
 - **TV**: Impassable. (Verified)
 - **VOID**: Impassable. (Verified)
+- **LEDGE_HOP_RIGHT**: One-way traversal. (Verified by observation, but need to test moving left/up/down from it)
 - **WALL**: Impassable. (Verified)
 - **WARP_CARPET_DOWN**: Traversable warp. Requires pressing 'Down' on the tile to activate. (Verified)
 - **WARP_CARPET_LEFT**: Traversable warp. Requires pressing 'Left' while standing on the tile to activate. (Verified at 4,2 on Route 32)
