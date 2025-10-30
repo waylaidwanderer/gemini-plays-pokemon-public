@@ -230,3 +230,4 @@
 - **Step 13:** Picked up Piece 10 from position (0,0). (Success)
 - **Step 14:** Placed Piece 10 into position (2,3). (Success)
 - **Step 15:** Picked up Piece 11 from position (0,3). (Success)
+- **Step 16:** Placed Piece 11 into position (3,3). (Success)
