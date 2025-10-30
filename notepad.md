@@ -234,6 +234,7 @@
   - **(Turn 7032):** The systematic search revealed the FARFETCH'D at a new, previously unknown location: (29, 22), facing left.
   - **(Turn 8600):** Discovered a forced movement/spinner tile. Stepping on (23, 22) caused a slide left to (21, 22).
   - **(Turn 8680):** Believed I had reached (15, 26) after a long path, but was actually at (15, 24). My pathing plan was interrupted. Despite this, interacting from (15, 24) caused the FARFETCH'D to move to (15, 29).
+  - **(Turn 8828):** Interacting with the FARFETCH'D at (15, 25) from the tile directly behind it (15, 26) caused it to move to a new location at (20, 24). This confirms that a 'behind' interaction from a specific tile is a valid trigger for scripted movement.
 
 #### Untested Assumptions During Investigation
 - The FARFETCH'D moves on a timer, independent of player interaction.
