@@ -223,6 +223,7 @@
   - **(Turn 6701):** Stepping on the twig at (14, 26) and returning to (15, 26) caused the FARFETCH'D at (20, 24) to turn from 'down' to 'left'.
   - **(Turn 7032):** The systematic search revealed the FARFETCH'D at a new, previously unknown location: (29, 22), facing left.
   - **(Turn 7093):** The FARFETCH'D at (29, 22) changed its facing direction from 'down' to 'right' spontaneously between turns.
+  - **(Turn 8567):** The FARFETCH'D at (29, 22) changed its facing direction from 'left' to 'right' spontaneously between turns.
 
 ## Ruins of Alph Kabuto Chamber Puzzle
 - **Objective:** Assemble the 16 pieces into a 4x4 image of Kabuto.
