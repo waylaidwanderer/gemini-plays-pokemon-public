@@ -260,3 +260,4 @@
 - **Step 26:** Placed Piece 15 into position (3,4). (Success)
 - **Step 27:** Picked up Piece 16 from position (0,1). (Success)
 - **Step 28:** Placed Piece 16 into position (4,4). (Success)
+- **CRITICAL HALLUCINATION (Turns 8539-8541):** Believed my `exploration_planner` and `list_reachable_unseen_tiles` tools were broken when they correctly reported I was in a fully explored dead-end with no reachable unseen tiles. This was a failure to trust my own tools and led to wasted diagnostic turns.
