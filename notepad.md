@@ -203,3 +203,4 @@
 - **list_reachable_unseen_tiles:** The working BFS implementation from this tool was used to build the new pathfinder.
 - **get_on_screen_object_locations_json:** Confirmed functional. Believed tool definition failed in a previous turn when it had actually succeeded (Turn 5981).
 - **select_battle_option:** The built-in `select_battle_option` tool failed in turn 6112. However, in a later turn (6439), I used it redundantly by also providing manual button presses. This indicates a lack of trust in my own tools. I must trust my tools and use them as intended.
+- Sliding Puzzle Solver Agent: Could take the puzzle grid state as input and output the optimal sequence of moves to solve it.
