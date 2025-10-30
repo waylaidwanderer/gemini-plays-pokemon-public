@@ -252,7 +252,8 @@
 - **Hypothesis 2:** The lead Pokémon affects the interaction with the tree.
   - **Test 1 (Ignis):** Stood at (36, 9), faced the tree, and pressed 'A'. Result: No text appeared, no event triggered. Interaction failed.
   - **Test 2 (Aether):** Stood at (36, 9), faced the tree, and pressed 'A'. Result: No text appeared, no event triggered. Interaction failed.
-  - **Test Plan:** Continue cycling through party members. Next up: O (Togepi).
+  - **Test 3 (O):** Stood at (36, 9), faced the tree, and pressed 'A'. Result: No text appeared, no event triggered. Interaction failed.
+  - **Test Plan:** Continue cycling through party members. Next up: Glyph (Unown).
 
 ### Untested Assumptions & Alternative Hypotheses (Route 36)
 1. The solution requires a specific key item from my pack.
