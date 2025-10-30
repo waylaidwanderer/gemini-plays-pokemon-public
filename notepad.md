@@ -40,6 +40,7 @@
 - **CRITICAL HALLUCINATION (Turn 8430):** Believed I was on turn 8430 when it was actually turn 8429. This was a state-tracking failure.
 - **CRITICAL HALLUCINATION (Turn 8492):** Believed I was on turn 8490 when it was actually turn 8491. This was a state-tracking failure.
 - **CRITICAL HALLUCINATION (Turn 8517):** Believed I had warped from Azalea Town (2, 10) to Ilex Forest Azalea Gate (9, 4). I was still in Azalea Town on the original warp tile. Placed an incorrect map marker based on this false reality.
+- **CRITICAL HALLUCINATION (Turns 8539-8541):** Believed my `exploration_planner` and `list_reachable_unseen_tiles` tools were broken when they correctly reported I was in a fully explored dead-end with no reachable unseen tiles. This was a failure to trust my own tools and led to wasted diagnostic turns.
 
 ## Tool Status
 ### Built-in Tools
@@ -215,16 +216,8 @@
   - Some interactions cause it to move to a new spot, while others cause it to disappear entirely, likely resetting its position.
   - Stepping on twig piles causes the FARFETCH'D to change its facing direction. The direction it turns is specific to the twig pile, not simply towards the sound.
   - The FARFETCH'D can change its facing direction spontaneously between turns without any player input.
-
-### Solution Discovery Log
-
-- **Observations:**
-  - **(Turn 6633):** The FARFETCH'D at (29, 22) changed its facing direction from 'left' to 'right' spontaneously between turns, with no player input. **Conclusion:** The FARFETCH'D's orientation is not static and can change on its own.
   - **(Turn 6701):** Stepping on the twig at (14, 26) and returning to (15, 26) caused the FARFETCH'D at (20, 24) to turn from 'down' to 'left'.
   - **(Turn 7032):** The systematic search revealed the FARFETCH'D at a new, previously unknown location: (29, 22), facing left.
-  - **(Turn 7093):** The FARFETCH'D at (29, 22) changed its facing direction from 'down' to 'right' spontaneously between turns.
-  - **(Turn 8567):** The FARFETCH'D at (29, 22) changed its facing direction from 'left' to 'right' spontaneously between turns.
-  - **(Turn 8570):** The FARFETCH'D at (29, 22) changed its facing direction from 'right' to 'up' spontaneously between turns.
 
 ## Ruins of Alph Kabuto Chamber Puzzle
 - **Objective:** Assemble the 16 pieces into a 4x4 image of Kabuto.
@@ -262,4 +255,3 @@
 - **Step 26:** Placed Piece 15 into position (3,4). (Success)
 - **Step 27:** Picked up Piece 16 from position (0,1). (Success)
 - **Step 28:** Placed Piece 16 into position (4,4). (Success)
-- **CRITICAL HALLUCINATION (Turns 8539-8541):** Believed my `exploration_planner` and `list_reachable_unseen_tiles` tools were broken when they correctly reported I was in a fully explored dead-end with no reachable unseen tiles. This was a failure to trust my own tools and led to wasted diagnostic turns.
