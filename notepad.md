@@ -43,6 +43,7 @@
 - **CRITICAL FAILURE (Turn 8716):** Failed to place a map marker for the FARFETCH'D's new location at (15, 29) in the turn it was discovered, a violation of the 'IMMEDIATE ACTION' core principle.
 - **CRITICAL HALLUCINATION (Turns 8944-8945):** Believed a map marker for the FARFETCH'D still existed at (15, 25) after it had already been deleted. This was a state-tracking failure, confirmed by the system rejecting my repeated `delete_map_marker` calls.
 - **CRITICAL HALLUCCINATION (Turn 8947):** Believed I was at position (14, 26) after a path plan, but the plan had failed because my starting position was incorrect. I was still at (15, 25). This was a state-tracking failure.
+- **CRITICAL HALLUCINATION (Turn 9031):** Reported turn 9030 when it was 9031. This was a state-tracking failure.
 
 ## Tool Status
 ### Built-in Tools
