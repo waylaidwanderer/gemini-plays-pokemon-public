@@ -289,3 +289,4 @@
 - The entire eastern section of the maze is a dead end, isolated by one-way ledges and spinner tiles. It's a red herring for the FARFETCH'D puzzle.
 - FARFETCH'D Puzzle Solver Agent: Could analyze the bird's location, my location, and known trigger points to suggest the next optimal move.
 - FARFETCH'D Puzzle Solver Agent: Could analyze the bird's location, my location, and known trigger points to suggest the next optimal move.
+- **CRITICAL HALLUCINATION (Turns 8944-8945):** Believed a map marker for the FARFETCH'D still existed at (15, 25) after it had already been deleted. This was a state-tracking failure, confirmed by the system rejecting my repeated `delete_map_marker` calls.
