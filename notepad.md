@@ -201,3 +201,4 @@
   - **Test 13:** Interacted with FARFETCH'D at (15, 25) from behind (player at 15, 26). **Result:** FARFETCH'D moved to a new location at (20, 24). **Conclusion:** This confirms that (15, 26) is a successful movement trigger when the bird is at (15, 25).
 - Exploration Strategist Agent: Could take the output of `exploration_planner` and suggest the most strategically valuable tile to explore next.
 - **CRITICAL HALLUCINATION (Turn 7443):** Believed the warp to the Ilex Forest gatehouse was at (0, 4) on the Ilex Forest map. The actual warp is at (3, 42) on Ilex Forest; the warp at (0, 4) is on the gatehouse map.
+- Stuck Detector Agent: Could analyze recent movement patterns and tool outputs to determine if I am stuck in a loop or a dead end, then suggest a strategy pivot.
