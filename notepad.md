@@ -287,3 +287,4 @@
 
 #### Ilex Forest
 - The entire eastern section of the maze is a dead end, isolated by one-way ledges and spinner tiles. It's a red herring for the FARFETCH'D puzzle.
+- FARFETCH'D Puzzle Solver Agent: Could analyze the bird's location, my location, and known trigger points to suggest the next optimal move.
