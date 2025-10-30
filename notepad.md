@@ -294,6 +294,3 @@
 - **CRITICAL HALLUCINATION (Turn 8762):** Belied I was on turn 8760 when it was actually turn 8761. This was a state-tracking failure.
 - **CRITICAL HALLUCINATION (Turn 8773):** Believed I was on turn 8773 when it was actually turn 8772. This was a state-tracking failure.
 - **CRITICAL HALLUCINATION (Turn 8773):** Believed I was on turn 8773 when it was a
-
-## `exploration_planner` Tool Bug
-- **Hypothesis:** The `find_unseen_border` BFS lacks one-way tile logic, causing it to miss reachable border tiles. Fixing this is top priority.
