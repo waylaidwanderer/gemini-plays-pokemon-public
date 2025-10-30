@@ -329,3 +329,8 @@ My `hypothesis_generator` agent provided the following new ideas to break my loo
   - The apprentice at (7, 28) might not be the final destination; the bird may need to be herded elsewhere first.
 - **Mechanics To Test:** `LEDGE_HOP_RIGHT` tiles need to be fully tested by attempting to move left, up, and down from them to confirm one-way movement.
 - **CRITICAL HALLUCINATION (Turn 9152):** Reported turn 9150 when it was actually 9151. This was a state-tracking failure.
+
+#### New Agent-Generated Hypotheses (Turn 9185)
+1.  **Map Reset:** Leaving Ilex Forest entirely and re-entering will reset the FARFETCH'D to its starting position.
+2.  **Approach Trigger:** Approaching the starting position (15, 25) from directly behind (from tile 15, 24) will cause it to appear.
+3.  **Invisible Trigger:** Using the action button while facing the empty tile where the FARFETCH'D is supposed to start (15, 25) will make it appear.
