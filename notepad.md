@@ -17,6 +17,8 @@
 - Exploration Strategist Agent: Could take the output of `exploration_planner` and suggest the most strategically valuable tile to explore next.
 - Stuck Detector Agent: Could analyze recent movement patterns and tool outputs to determine if I am stuck in a loop or a dead end, then suggest a strategy pivot.
 - Puzzle Strategist Agent: Could analyze the current state of a complex puzzle and suggest a high-level strategy or next logical step.
+- Rebuild `systematic_search` tool
+- Create `farfetchd_puzzle_solver` agent
 
 ## Critical Self-Correction Log
 - The 'Poké Ball machine' in Elm's lab was a hallucination.
@@ -42,6 +44,7 @@
 - **CRITICAL HALLUCINATION (Turns 8539-8541):** Believed my `exploration_planner` and `list_reachable_unseen_tiles` tools were broken when they correctly reported I was in a fully explored dead-end with no reachable unseen tiles. This was a failure to trust my own tools and led to wasted diagnostic turns.
 - **CRITICAL HALLUCINATION (Turn 8680):** Believed I had reached (15, 26) after a long path, but was actually at (15, 24). My pathing plan was interrupted. Despite this, interacting from (15, 24) caused the FARFETCH'D to move to (15, 29).
 - **CRITICAL HALLUCINATION (Turns 8682-8688):** I was stuck in a multi-turn loop attempting to define the `farfetchd_puzzle_solver` agent due to a repeated JSON schema error. This was a significant failure in debugging and state tracking.
+- **CRITICAL FAILURE (Turn 8716):** Failed to place a map marker for the FARFETCH'D's new location at (15, 29) in the turn it was discovered, a violation of the 'IMMEDIATE ACTION' core principle.
 
 ## Tool Status
 ### Built-in Tools
@@ -145,6 +148,7 @@
 *Type Effectiveness Chart*:
 - Ground is super-effective against Fire. (Verified in battle vs Falkner's Pidgey's MUD-SLAP).
 - Normal is not very effective against Rock/Ground. (Verified in battle vs Hiker Daniel's Onix).
+- Psychic is not very effective against Bug. (Verified vs Caterpie)
 
 ### PC Storage
 - Currently empty.
@@ -215,19 +219,16 @@
 ## Ilex Forest FARFETCH'D Puzzle
 - **Objective:** Herd the FARFETCH'D back to the apprentice at (7, 28).
 - **Learned Mechanics & Rules:**
+  - **KEY INSIGHT:** The solution is not about relative direction ("behind") but about stepping on specific trigger tiles. The bird's facing direction might just be a distraction or a clue for which trigger tile is active.
   - The FARFETCH'D moves to pre-scripted locations. Its movement is triggered by player interaction from specific tiles, not just a general direction of approach (e.g. 'from behind').
   - The specific tile the player stands on when interacting appears to be the trigger for pre-scripted movements, not just the general direction of approach.
-  - Some interactions cause it to move to a new spot, while others cause it to disappear entirely, likely resetting its position.
   - Stepping on twig piles causes the FARFETCH'D to change its facing direction. The direction it turns is specific to the twig pile, not simply towards the sound.
   - The FARFETCH'D can change its facing direction spontaneously between turns without any player input.
-  - **(Turn 8600):** Discovered a forced movement/spinner tile. Stepping on (23, 22) caused a slide left to (21, 22).
+  - Some interactions cause it to move to a new spot, while others cause it to disappear entirely, likely resetting its position.
   - **(Turn 6701):** Stepping on the twig at (14, 26) and returning to (15, 26) caused the FARFETCH'D at (20, 24) to turn from 'down' to 'left'.
   - **(Turn 7032):** The systematic search revealed the FARFETCH'D at a new, previously unknown location: (29, 22), facing left.
+  - **(Turn 8600):** Discovered a forced movement/spinner tile. Stepping on (23, 22) caused a slide left to (21, 22).
   - **(Turn 8680):** Interacting with the FARFETCH'D at (15, 25) from (15, 24) caused it to move to (15, 29).
-- **Hypothesis (Interaction from front - FAILED):** Interacting with the FARFETCH'D at (15, 25) from the tile directly in front of it (15, 24) while it faces left will trigger a movement event.
-  - **Test:** Stood at (15, 24), faced down, and pressed 'A'.
-  - **Result:** Simple dialogue "FARFETCH'D: Kwaa!" appeared. The FARFETCH'D did not move, but it turned to face up.
-  - **Conclusion:** Hypothesis disproven. Interacting from the front is not the solution for this orientation. The bird's turning provides a new clue.
 
 ## Ruins of Alph Kabuto Chamber Puzzle
 - **Objective:** Assemble the 16 pieces into a 4x4 image of Kabuto.
