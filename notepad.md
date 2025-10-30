@@ -253,7 +253,11 @@
   - **Test 1 (Ignis):** Stood at (36, 9), faced the tree, and pressed 'A'. Result: No text appeared, no event triggered. Interaction failed.
   - **Test 2 (Aether):** Stood at (36, 9), faced the tree, and pressed 'A'. Result: No text appeared, no event triggered. Interaction failed.
   - **Test 3 (O):** Stood at (36, 9), faced the tree, and pressed 'A'. Result: No text appeared, no event triggered. Interaction failed.
-  - **Test Plan:** Continue cycling through party members. Next up: Glyph (Unown).
+  - **Test 4 (Glyph):** Stood at (36, 9), faced the tree, and pressed 'A'. Result: No text appeared, no event triggered. Interaction failed.
+  - **Conclusion:** Hypothesis 2 is disproven. The lead Pokémon has no effect on a simple 'A' press interaction with the tree.
+
+- **Hypothesis 3:** The tree must be interacted with from the tile directly below it (35, 10).
+  - **Test Plan:** Move to (35, 10), face up, and press 'A'.
 
 ### Untested Assumptions & Alternative Hypotheses (Route 36)
 1. The solution requires a specific key item from my pack.
