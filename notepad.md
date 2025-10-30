@@ -72,7 +72,7 @@
 - **WALL**: Impassable. (Verified)
 - **WARP_CARPET_DOWN**: Traversable warp. Requires pressing 'Down' on the tile to activate. (Verified)
 - **WARP_CARPET_LEFT**: Traversable warp. Requires pressing 'Left' while standing on the tile to activate. (Verified at 4,2 on Route 32)
-- **WARP_CARPET_RIGHT**: Traversable warp. Mechanic is currently unknown. Tests of pressing 'Right' on the tile (at 3,43), stepping on/off, pressing 'A', and stepping onto the tile from the left (at 3,42) have all failed.
+- **WARP_CARPET_RIGHT**: Traversable warp. Mechanic is currently unknown. Tests of pressing 'Right' on the tile (at 3,43 on Route 32), stepping on/off, pressing 'A' (at 3,43 on Route 32), and stepping onto the tile from the left (at 3,42 on Route 32 and 13,20 on RuinsOfAlphOutside) have all failed.
 - **WATER**: Impassable. (Verified by pathing attempts)
 - **WINDOW**: Impassable. (Verified)
 
