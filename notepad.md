@@ -195,3 +195,4 @@
   1. The FARFETCH'D is not in this reachable area of the maze at all. It might have moved to an inaccessible section or left the forest entirely.
   2. A key item or HM (other than CUT) is required to solve the puzzle or access the area where the FARFETCH'D is now located.
   - **Observation (Turn 7032):** The systematic search revealed the FARFETCH'D at a new, previously unknown location: (29, 22), facing left.
+  - **Test 8:** Interacted with FARFETCH'D at (20, 24) from behind (player at 20, 23) while it was facing down. **Result:** FARFETCH'D turned to face up but did not move. **Conclusion:** The tile at (20, 23) is not a movement trigger.
