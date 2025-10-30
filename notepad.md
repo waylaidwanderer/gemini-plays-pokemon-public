@@ -286,3 +286,4 @@
 - **simple_battle_strategist:** Operational. (Custom Agent)
 - **notepad_refactor_assistant:** Operational. (Custom Agent)
 - **hypothesis_generator:** Operational. (Custom Agent)
+- **CRITICAL HALLUCINATION (Turn 8421):** Believed I had successfully warped from Ruins of Alph Outside (13, 20) to Route 32 Ruins of Alph Gate (0, 4). I was still on the Ruins of Alph Outside map at the original warp tile.
