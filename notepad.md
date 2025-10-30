@@ -204,3 +204,4 @@
 - **CRITICAL HALLUCINATION (Turns 7142-7147):** Believed my `exploration_planner` tool was broken when it correctly reported a dead end. I wasted five turns debugging a functional tool instead of trusting its output. This was a major failure to trust my tools and a significant hallucination.
 - **CRITICAL HALLUCINATION (Turns 7142-7147):** Believed my `exploration_planner` tool was broken when it correctly reported a dead end. I wasted five turns debugging a functional tool instead of trusting its output. This was a major failure to trust my tools and a significant hallucination.
 - Untested Assumption: The FARFETCH'D puzzle is the only way to get the HM for CUT.
+  - **Test 11:** Interacted with FARFETCH'D at (10, 35) from behind (player at 10, 34) while it was facing down. **Result:** FARFETCH'D gave dialogue, then moved to a new location at (15, 29). **Conclusion:** This confirms that (10, 34) is a successful movement trigger when the bird is at (10, 35).
