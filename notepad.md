@@ -245,3 +245,4 @@
 - **Step 22:** Placed Piece 14 into position (2,4). (Success)
 - **Step 23:** Picked up Piece 15 from position (1,0). (Success)
 - **Step 24:** Placed Piece 15 into position (3,4). (Success)
+- **Step 25:** Picked up Piece 16 from position (0,1). (Success)
