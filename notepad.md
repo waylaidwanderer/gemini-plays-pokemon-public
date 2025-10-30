@@ -200,11 +200,6 @@
   - **Test 12:** Interacted with FARFETCH'D at (15, 29) from the side (player at 16, 29) while it was facing right. **Result:** FARFETCH'D moved to a new location at (15, 25). **Conclusion:** The specific tile the player stands on when interacting appears to be the trigger for pre-scripted movements, not just the general direction of approach.
   - **Test 13:** Interacted with FARFETCH'D at (15, 25) from behind (player at 15, 26). **Result:** FARFETCH'D moved to a new location at (20, 24). **Conclusion:** This confirms that (15, 26) is a successful movement trigger when the bird is at (15, 25).
 
-## Tool Development Notes
-- **`find_path_to_target` (A*):** This tool is fundamentally broken. After multiple complete rewrites and extensive debugging (Turns 7858-7887), the A* search logic consistently fails to find valid paths, even when the grid data is correct. It should not be used for navigation.
-- **`find_path_to_target_bfs` (BFS):** Created as a reliable replacement for the A* tool. Uses a simpler BFS algorithm which is guaranteed to be correct for unweighted grids.
-
-## Tool Development Notes
-- **`find_path_to_target` (A*):** This tool is fundamentally broken. After multiple complete rewrites and extensive debugging (Turns 7858-7887), the A* search logic consistently fails to find valid paths, even when the grid data is correct. It should not be used for navigation.
-- **`find_path_to_target_bfs` (BFS):** Created as a reliable replacement for the A* tool. Uses a simpler BFS algorithm which is guaranteed to be correct for unweighted grids.
-- **`find_path_to_target_bfs` (BFS):** Also fundamentally broken. Despite multiple rewrites and a simpler algorithm, it still generates invalid paths through walls. It should not be used for navigation until the root cause is identified.
+# Tool Development & Status
+- **`find_path_to_target` (A*):** Fundamentally broken. The A* search logic consistently fails to find valid paths and should not be used for navigation.
+- **`find_path_to_target_bfs` (BFS):** Created as a replacement for the A* tool, but it is also fundamentally broken. It generates invalid paths through walls and should not be used for navigation until the root cause is identified.
