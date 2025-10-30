@@ -204,3 +204,17 @@
 - **get_on_screen_object_locations_json:** Confirmed functional. Believed tool definition failed in a previous turn when it had actually succeeded (Turn 5981).
 - **select_battle_option:** The built-in `select_battle_option` tool failed in turn 6112. However, in a later turn (6439), I used it redundantly by also providing manual button presses. This indicates a lack of trust in my own tools. I must trust my tools and use them as intended.
 - Sliding Puzzle Solver Agent: Could take the puzzle grid state as input and output the optimal sequence of moves to solve it.
+
+## Ruins of Alph Kabuto Chamber Puzzle
+- **Objective:** Assemble the 16 pieces into a 4x4 image of Kabuto.
+- **Learned Mechanics & Rules:**
+  - Puzzle is activated by talking to the Scientist at (3, 1) and then interacting with the wall pattern at (4, 0).
+  - Pieces are picked up and placed individually; it is not a traditional sliding puzzle.
+  - The goal is to place pieces 1 through 16 in order in the central 4x4 grid.
+
+### Solution Discovery Log
+- **Step 1:** Placed Piece 1 (from 2,0) into position (1,1). (Success)
+- **Step 2:** Placed Piece 2 (from 5,1) into position (2,1). (Success)
+- **Step 3:** Placed Piece 3 (from 5,3) into position (3,1). (Success)
+- **Step 4:** Placed Piece 4 (from 5,4) into position (4,1). (Success)
+- **Step 5:** Picked up Piece 5 from position (0,5). (Success)
