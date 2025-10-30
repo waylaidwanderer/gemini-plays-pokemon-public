@@ -123,22 +123,14 @@
 ## Current Puzzles
 ### Ilex Forest FARFETCH'D Puzzle
 - **Objective:** Herd the FARFETCH'D back to the apprentice at (7, 28).
-- **Mechanic:** The FARFETCH'D moves in response to player interaction.
-- **Observation Log:**
-  - **Interaction 1:** Interacted with FARFETCH'D at (15, 25) while standing at (15, 26) (facing up). It moved east to (20, 24).
-  - **Interaction 2:** Interacted with FARFETCH'D at (20, 24) while standing at (20, 23) (facing down). It turned to face up but did not move. After dialogue, it disappeared.
-- **Hypothesis Test Log:**
-  - **Hypothesis 1:** The FARFETCH'D is startled by the sound of snapping twigs.
-    - **Test 1:** Stepped on twig pile at (15, 26) while FARFETCH'D was at (20, 24).
-    - **Result:** FARFETCH'D turned from facing left to facing down (towards the sound). It did not change its tile.
-    - **Conclusion:** Hypothesis is inconsistent. Stepping on twigs causes the FARFETCH'D to turn, but not always towards the sound. At (20, 24), it turned towards the sound. At (15, 29), it turned right, away from the sound. The turning mechanic is more complex.
-- **Active Hypotheses:**
-    - **Hypothesis 2:** The FARFETCH'D must be approached from behind. Interacting with it while it's facing away might cause it to move forward.
-    - **Test:** Interacted with FARFETCH'D at (15, 29) from behind (player at 15, 30).
-    - **Result:** FARFETCH'D moved to a new, distant location at (15, 25).
-    - **Conclusion:** Hypothesis H2 is DISPROVEN. Interacting from behind triggers movement, but not a simple 'push forward'. The destination seems pre-scripted.
-  - **H3:** The FARFETCH'D moves to pre-scripted points regardless of player position.
-  - **H4:** The goal is not to herd it all the way to the apprentice, but to trap it or lead it to a specific trigger point.
+- **Learned Mechanics & Rules:**
+  - The FARFETCH'D moves to pre-scripted locations. Its movement is triggered by player interaction from specific tiles, not just a general direction of approach (e.g. 'from behind').
+  - Some interactions cause it to move to a new spot, while others cause it to disappear entirely, likely resetting its position.
+  - Stepping on twig piles causes the FARFETCH'D to change its facing direction. The direction it turns is specific to the twig pile, not simply towards the sound.
+  - The FARFETCH'D can change its facing direction spontaneously between turns without any player input.
+- **Remaining Hypotheses:**
+  1. The apprentice at (7, 28) is not the final destination. The FARFETCH'D needs to be herded to a different trigger point in the forest.
+  2. A key item or HM (other than CUT) is required to solve the puzzle or access the area where the FARFETCH'D is now located.
 
 ## Untested Hypotheses
 - Test the damage of EMBER vs. QUICK ATTACK on a Water-type.
