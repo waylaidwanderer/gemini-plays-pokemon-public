@@ -203,3 +203,4 @@
   1. Use an Escape Rope while standing directly in front of the 'ESCAPE' wall. (Untestable: No Escape Rope)
   2. Use the move 'Strength' to try and push the statues. (Untestable: No Strength)
   3. Have an Unown as the first Pokemon in your party and interact with the 'ESCAPE' wall. (Next test)
+- Test movement off a FLOOR_UP_WALL tile in all directions (sideways, down) to verify it's not just a one-way-up path.
