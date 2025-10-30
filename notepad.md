@@ -257,3 +257,8 @@
 - **Step 26:** Placed Piece 15 into position (3,4). (Success)
 - **Step 27:** Picked up Piece 16 from position (0,1). (Success)
 - **Step 28:** Placed Piece 16 into position (4,4). (Success)
+
+- **Hypothesis (Interaction from front):** Interacting with the FARFETCH'D at (15, 25) from the tile directly in front of it (15, 24) while it faces left will trigger a movement event.
+  - **Test:** Stood at (15, 24), faced down, and pressed 'A'.
+  - **Result:** Simple dialogue "FARFETCH'D: Kwaa!" appeared. The FARFETCH'D did not move, but it turned to face up.
+  - **Conclusion:** Hypothesis disproven. Interacting from the front is not the solution for this orientation. The bird's turning provides a new clue.
