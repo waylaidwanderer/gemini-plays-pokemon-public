@@ -222,3 +222,4 @@
 - **Step 7:** Picked up Piece 6 from position (5,5). (Success)
 - **Step 8:** Placed Piece 6 into position (2,2). (Success)
 - **Step 7:** Picked up Piece 7 from position (0,4). (Success)
+- **Step 8:** Placed Piece 7 into position (3,2). (Success)
