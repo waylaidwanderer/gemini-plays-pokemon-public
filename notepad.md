@@ -64,6 +64,7 @@
 - **simple_battle_strategist:** Operational. (Custom Agent)
 - **notepad_refactor_assistant:** Operational. (Custom Agent)
 - **hypothesis_generator:** Operational. (Custom Agent)
+- **farfetchd_puzzle_solver:** Operational. (Custom Agent)
 
 # Knowledge Base
 
