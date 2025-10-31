@@ -457,3 +457,7 @@
   - Test: Stood at (15, 25) and faced North and South. East and West are blocked by impassable tiles.
   - Result: The FARFETCH'D did not appear.
   - Conclusion: Hypothesis is disproven.
+- Hypothesis: Re-enacting the exploration trigger sequence (stepping on 28,22 then 29,33) will make the FARFETCH'D reappear.
+  - Test: Traveled to (29, 33) after the bird reset to (15, 25).
+  - Result: The object-linked map marker confirmed the bird did not move from its starting position.
+  - Conclusion: Hypothesis is disproven. The exploration triggers are part of a one-time sequence and do not reset.
