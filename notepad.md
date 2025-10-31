@@ -394,4 +394,4 @@
 - **Step 26:** Placed Piece 15 into position (3,4). (Success)
 - **Step 27:** Picked up Piece 16 from position (0,1). (Success)
 - **Step 28:** Placed Piece 16 into position (4,4). (Success)
-- **CRITICAL HALLUCINATION (Turn 9586):** Believed I was at (15, 26) when I was actually at (14, 26), standing on the object I intended to interact with. This was a state-tracking failure.
+- **CRITICAL HALLUCINATION (Turns 9586 & 9591):** Repeatedly hallucinated my position at the FARFETCH'D puzzle. Believed I was at (15, 26) and turning, when I was actually moving to (14, 26). This is a severe and recurring state-tracking failure at this specific location.
