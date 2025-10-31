@@ -265,3 +265,4 @@
   - **Result:** No event triggered. The FARFETCH'D did not appear.
   - **Conclusion:** Hypothesis disproven.
 - Navigation Manager Agent: Could automate the entire navigation process, including pathfinding, executing movement, handling battle interruptions with the battle strategist, and re-pathfinding from the new location.
+- Refine find_path_to_target_bfs to correctly handle one-way traversal tiles like LEDGE_HOP_RIGHT.
