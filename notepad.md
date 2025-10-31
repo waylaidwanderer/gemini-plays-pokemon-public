@@ -418,3 +418,6 @@
 - (From Agent): Stand on the twig pile at (14, 26) and face East.
   - Test: Attempted to test this, but movement mechanics caused a loop between (14, 26) and (15, 26). Unable to face East without moving off the tile.
   - Conclusion: Hypothesis is untestable or my attempts have failed. Abandoning this line of testing to break the loop.
+- **(Turn 9887) BREAKTHROUGH:** After exhausting simple hypotheses, exploring the far eastern path of the forest triggered the FARFETCH'D to reappear at a new location, (29, 22).
+- **Conclusion:** The puzzle involves triggering events through exploration, not just direct interaction at the starting point.
+- **Next Hypothesis:** I must now interact with the FARFETCH'D from an adjacent tile at its new location to progress.
