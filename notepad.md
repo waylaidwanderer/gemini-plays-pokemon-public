@@ -430,3 +430,4 @@
   - **Result:** The FARFETCH'D did not appear.
   - **Conclusion:** Hypothesis is disproven.
 - **LEDGE_HOP_RIGHT**: One-way traversal. Can only be entered by moving right onto it. (Verified)
+- **(Turn 9903) BREAKTHROUGH:** After reaching the dead end at (29, 33), the FARFETCH'D reappeared at a new location, (28, 31). This confirms the puzzle requires exploration and triggering events in different parts of the forest.
