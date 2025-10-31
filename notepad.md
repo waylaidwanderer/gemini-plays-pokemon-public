@@ -312,7 +312,6 @@
 - **CRITICAL HALLUCINATION (Turn 11105):** Believed a warp existed at (6, 74) on UnionCave1F and set it as a navigation goal. The system confirmed no warp exists there. This is a failure to verify warp locations before setting goals.
 
 # Tool Failures
-- My `generate_path_plan` tool failed to find a simple, obvious path in the Route32Pokecenter1F (Turn 11121). This indicates a critical bug that needs to be investigated and fixed. I am using a manual path as a temporary workaround.
 
 ### Union Cave Fisher Dead End
 - **Objective:** Get past the Fisher at (15, 27).
