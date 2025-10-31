@@ -358,3 +358,7 @@
   - **Test:** Stood on the twig pile at (14, 27), pressed 'A' (Turn 9712).
   - **Result:** No event triggered.
   - **Conclusion:** Hypothesis is disproven for this specific interaction method (standing on the pile).
+- **Hypothesis (from agent):** Interacting with a twig pile by pressing 'A' from an adjacent tile will make the bird respawn.
+  - **Test:** Stood at (14, 27), faced up to the twig pile at (14, 26), and pressed 'A' (Turn 9717).
+  - **Result:** No event triggered.
+  - **Conclusion:** Hypothesis is disproven. The 'A' button interaction with twig piles does not make the FARFETCH'D respawn.
