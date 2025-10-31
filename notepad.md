@@ -244,128 +244,34 @@
 - **(Turn 8680):** Believed I had reached (15, 26) after a long path, but was actually at (15, 24). My pathing plan was interrupted. Despite this, interacting from (15, 24) caused the FARFETCH'D to move to (15, 29).
 - **(Turn 8828):** Interacting with the FARFETCH'D at (15, 25) from the tile directly behind it (15, 26) caused it to move to a new location at (20, 24).
 - **(Post-Agent Test):** Interacting with the FARFETCH'D from its side (specifically, from above at (15, 28) while it was at (15, 29)) does not cause it to move away. It turns and disappears. The interaction is not a simple 'push' mechanic.
-- **Hypothesis:** Interacting from the side (16, 29) will move the bird west.
-  - **Test:** Stood at (16, 29), faced left, pressed 'A'.
-  - **Result:** Bird squawked, then moved from (15, 29) back to its starting position at (15, 25).
-  - **Conclusion:** Hypothesis is disproven. This interaction appears to reset this step of the puzzle.
-
+- **(Turn 9725 & 9903) BREAKTHROUGH:** Exploring the far eastern path of the forest (specifically reaching dead ends at (29, 22) and (29, 33)) triggered the FARFETCH'D to reappear at new locations, (29, 22) and (28, 31) respectively. This confirms the puzzle requires triggering events through exploration.
 - **New Refined Hypothesis:** The player's X-coordinate when interacting from *below* the FARFETCH'D at (15, 25) determines its destination.
   - **Observation 1 (Turn 8828 & 9070):** Standing at (15, 26) and interacting with the bird at (15, 25) causes it to move to the eastern dead-end at (20, 24).
   - **Observation 2 (Turn 9120):** Standing at (15, 24) and interacting with the bird at (15, 25) causes it to move south to (15, 29).
   - **Conclusion:** This suggests a specific path forward. I need to make the bird appear at (15, 25), then stand at (15, 24) and interact to move it south again.
+- **Refined Hypothesis:** The bird's initial facing direction is a critical component of the puzzle. The interaction from (15, 24) only works when the bird is facing a specific direction (likely away from me).
 
-- **Hypothesis:** Interacting with the FARFETCH'D at (15, 25) from (15, 24) will always move it south.
-  - **Test (Turn 9353):** Stood at (15, 24), faced the bird (which was facing up), and pressed 'A'.
-  - **Result:** The bird turned to face me and squawked, but did not move from (15, 25).
-  - **Conclusion:** Hypothesis is disproven. The bird's initial facing direction is a critical component of the puzzle. The interaction from (15, 24) only works when the bird is facing a specific direction (likely away from me).
+#### Log of Disproven Hypotheses and Failed Tests
+- **Reset/Respawn Methods (All Failed):**
+  - Leaving and re-entering Ilex Forest.
+  - Talking to the apprentice or Charcoal Maker.
+  - Standing on, or interacting with, the empty starting tile (15, 25) from any direction.
+  - Stepping on, or interacting with, nearby twig piles (14, 26 & 14, 27).
+  - Interacting with adjacent trees.
+  - Changing player facing direction on the start tile or twig piles.
+  - Re-enacting the exploration trigger sequence (e.g., visiting 29, 33) after the bird has already been reset.
+- **Interaction Methods (All Failed):
+  - Interacting from the side or behind the bird at various locations (e.g., from (16, 29), (14, 29), (29, 31), (28, 32), (28, 22)). These actions cause the bird to disappear and reset its position.
+  - Interacting from (15, 24) when the bird is at (15, 25) but facing the wrong direction. (Bird turns but doesn't move).
+  - Interacting from below at (29, 23). (No event triggered).
+  - Attempting to walk through the bird. (Blocked; it's a solid object).
 
-- **Hypothesis (from agent):** Leaving Ilex Forest entirely and re-entering will reset the FARFETCH'D to its starting position.
-  - **Test 1:** Left Ilex Forest via the gatehouse (turn 9413), then immediately returned to the puzzle area at (15, 26) (turn 9415).
-  - **Result 1:** The FARFETCH'D was not visible at its starting position (15, 25).
-  - **Test 2:** Left Ilex Forest (turn 9494) and returned to the starting tile (15, 25) (turn 9497).
-  - **Result 2:** The FARFETCH'D was still not visible.
-  - **Conclusion:** Hypothesis is definitively disproven. Leaving and re-entering the map does not reset the bird's position if it has despawned.
-
-- **(From Agent):** Approaching the starting position (15, 25) from directly behind (from tile 15, 24) will cause it to appear.
-  - **Test:** Moved to (15, 23), then stepped down onto (15, 24).
-  - **Result:** The FARFETCH'D did not appear at (15, 25).
-  - **Conclusion:** Hypothesis is disproven.
-
-- **Hypothesis:** Interacting from the side (14, 29) while the bird is at (15, 29) will move it west.
-  - **Test (Turn 9366):** Stood at (14, 29), faced right, pressed 'A'.
-  - **Result:** Bird at (15, 29) turned to face me, squawked, then disappeared.
-  - **Conclusion:** Hypothesis is disproven. This interaction is another reset condition, causing the bird to despawn and likely return to (15, 25).
-
-- **Hypothesis (from agent):** Standing on the FARFETCH'D's starting tile (15, 25) will make it respawn.
-  - **Test:** Moved to (15, 25) (turn 9445).
-  - **Result:** The bird did not appear.
-  - **Conclusion:** Hypothesis is disproven.
-
-- **(From Agent):** Step on the twig pile at (14, 26).
-  - **Test:** Moved to (14, 26) (turn 9434), then to (15, 26) to observe.
-  - **Result:** The FARFETCH'D did not appear at its starting position (15, 25).
-  - **Conclusion:** Hypothesis is disproven.
-
-- **(From Agent):** Interact with the twig pile at (14, 27) by facing it and pressing the action button.
-  - **Test:** Stood at (14, 27), faced up, pressed 'A' (Turn 9439).
-  - **Result:** No event triggered.
-  - **Conclusion:** Hypothesis is disproven.
-
-- **(From Agent):** Approach the starting position (15, 25) from the left side (from tile 14, 25).
-  - **Test:** Analyzed the map.
-  - **Result:** The tile at (14, 25) is a HEADBUTT_TREE and is impassable.
-  - **Conclusion:** Hypothesis is invalid and cannot be tested.
-
-- **(From Agent):** Use the action button while facing the empty tile where the FARFETCH'D is supposed to start (15, 25) will make it appear.
-  - **Test:** Stood at (15, 26), faced up, pressed 'A' (Turn 9448).
-  - **Result:** No event triggered.
-  - **Conclusion:** Hypothesis is disproven.
-
-- **Hypothesis (from agent):** Talking to the apprentice at (7, 28) will reset the puzzle or provide a hint.
-  - **Test (Turn 9502):** Stood at (8, 28), faced the apprentice, and pressed 'A'.
-  - **Result:** The apprentice repeated his initial dialogue about his boss being angry and the FARFETCH'D being lost.
-  - **Conclusion:** Hypothesis is disproven. Talking to the apprentice does not reset the puzzle.
-
-- **Hypothesis (from agent):** Step on the other twig pile at (14, 27).
-  - **Test (Turn 9505):** Moved to (14, 27).
-  - **Result:** The FARFETCH'D did not appear.
-  - **Conclusion:** Hypothesis is disproven.
-
-- **Hypothesis (from agent):** Try using the 'A' button to interact with the trees adjacent to where the FARFETCH'D disappeared.
-  - **Test:** Stood at (15, 25), faced the HEADBUTT_TREE at (14, 25), and pressed 'A' (Turn 9513).
-  - **Result:** No event triggered.
-  - **Conclusion:** Hypothesis is disproven.
-- **Hypothesis: Interacting with the FARFETCH'D at (28, 31) from the right (29, 31) will push it west.**
-  - **Test (Turn 9535):** Stood at (29, 31), faced left, and pressed 'A'.
-  - **Result:** The bird squawked, then disappeared from (28, 31) after the dialogue was dismissed.
-  - **Conclusion:** Hypothesis is disproven. This interaction appears to be an incorrect move that resets the bird's position.
-
-- **Hypothesis:** Returning to the starting position (15, 25) after the bird disappeared will make it reappear.
-  - **Test:** Returned to (15, 26) to check the starting position at (15, 25).
-  - **Result:** The bird did not reappear.
-  - **Conclusion:** This action does not reset the puzzle.
-
-- **Hypothesis: Interacting from below the FARFETCH'D at (28, 31) will push it north.**
-  - **Test (Turn 9562):** Stood at (28, 32), faced down, and pressed 'A'.
-  - **Result:** The bird squawked, then disappeared from (28, 31).
-  - **Conclusion:** Hypothesis is disproven. This interaction is an incorrect move that resets the bird's position.
-- **Hypothesis (from agent):** Interacting with the twig pile at (14, 26) by pressing 'A' will make the bird respawn.
-  - **Test Plan:** Move to (15, 26), face the twig pile, and press 'A'.
-- **Hypothesis (from agent):** Interacting with the twig pile at (14, 26) by pressing 'A' will make the bird respawn.
-  - **Test:** Attempted to position at (15, 26) to face the pile.
-  - **Result:** Moved onto (14, 26) instead. The FARFETCH'D did not appear.
-  - **Conclusion:** Standing on the twig pile does not work. Will reposition to (15, 26) to test the 'A' press interaction.
-- **Hypothesis (from agent):** Interacting with a twig pile by pressing 'A' will make the bird respawn.
-  - **Test:** Stood on the twig pile at (14, 27), pressed 'A' (Turn 9712).
-  - **Result:** No event triggered.
-  - **Conclusion:** Hypothesis is disproven for this specific interaction method (standing on the pile).
-- **Hypothesis (from agent):** Interacting with a twig pile by pressing 'A' from an adjacent tile will make the bird respawn.
-  - **Test:** Stood at (14, 27), faced up to the twig pile at (14, 26), and pressed 'A' (Turn 9717).
-  - **Result:** No event triggered.
-  - **Conclusion:** Hypothesis is disproven. The 'A' button interaction with twig piles does not make the FARFETCH'D respawn.
-- **(Turn 9725) BREAKTHROUGH:** After exhausting simple hypotheses, exploring the far eastern path of the forest triggered the FARFETCH'D to reappear at a new location, (29, 22).
-- **Conclusion:** The puzzle involves triggering events through exploration, not just direct interaction at the starting point.
-- **Next Hypothesis:** I must now interact with the FARFETCH'D from an adjacent tile at its new location to progress.
-- **Hypothesis: Interacting with the FARFETCH'D at (29, 22) from below (29, 23) will push it north.**
-  - **Test (Turn 9729):** Stood at (29, 23), faced up, and pressed 'A'.
-  - **Result:** No event triggered.
-  - **Conclusion:** Hypothesis is disproven. This interaction is an incorrect move.
-- **Hypothesis: Walking onto the FARFETCH'D at (29, 22) will trigger an event.**
-  - **Test (Turn 9732):** Moved right from (28, 22).
-  - **Result:** Movement was blocked. The bird acts as a solid object that cannot be walked through.
-  - **Conclusion:** Hypothesis is disproven.
-- **Hypothesis (from agent):** Walking to the far eastern dead-end at (29, 33) will make the FARFETCH'D respawn.
-  - **Test:** Traveled to (29, 33).
-  - **Result:** The FARFETCH'D did not appear at its starting position or anywhere else on screen.
-  - **Conclusion:** Hypothesis is disproven. This is not a reliable reset method.
-- **Hypothesis (from agent):** Interact with the tree at (15, 24), directly behind the Farfetch'd's starting position.
-  - **Test:** Stood at (15, 25), faced up, and pressed 'A' (Turn 9768).
-  - **Result:** No event triggered.
-  - **Conclusion:** Hypothesis is disproven. The tile at (15, 24) has no special interaction.
-- **Hypothesis (from agent):** Talking to the Charcoal Maker in Azalea Town will provide a hint.
-  - **Test:** Spoke to the Charcoal Maker at (2, 3) in the Charcoal Kiln.
-  - **Result:** He repeated his initial dialogue about his missing apprentice.
-  - **Conclusion:** Hypothesis is disproven. This interaction does not advance the puzzle.
+#### Untested Hypotheses & Assumptions
+- The FARFETCH'D moves on a timer, independent of player interaction.
+- The puzzle might require a sequence of twig pile activations, not direct 'A' button interaction.
+- The puzzle might involve leading the bird, not pushing it.
+- The solution might require using a specific item from the bag.
+- The apprentice at (7, 28) might not be the final destination; the bird may need to be herded elsewhere first.
 
 #### Untested Hypotheses & Assumptions
 - The FARFETCH'D moves on a timer, independent of player interaction.
