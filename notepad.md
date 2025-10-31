@@ -69,6 +69,7 @@
 - **CRITICAL HALLUCINATION (Turn 9522):** Believed I had a static map marker for the FARFETCH'D at its starting position (15, 25). The marker I actually have is correctly linked to the bird's object ID and has been tracking it off-screen, proving it has moved to a new location at (22, 31).
 - **CRITICAL HALLUCINATION (Turn 9542):** Reported turn 9540 when it was actually turn 9541. This was a state-tracking failure.
 - **CRITICAL HALLUCINATION (Turn 9562):** Reported turn 9561 when it was actually turn 9562. This was a state-tracking failure.
+- **CRITICAL HALLUCINATION (Turn 9564):** Reported turn 9563 when it was actually turn 9564. This was a state-tracking failure.
 
 ## Tool Status
 ### Built-in Tools
@@ -343,9 +344,9 @@
   - **Result:** The bird did not reappear.
   - **Conclusion:** This action does not reset the puzzle.
 
-- **Hypothesis: Interacting from below the FARFETCH'D at (28, 32) will push it north.**
-  - **Test (Turn 9562):** Stood at (28, 33), faced up, and pressed 'A'.
-  - **Result:** The bird squawked, then disappeared from (28, 32).
+- **Hypothesis: Interacting from below the FARFETCH'D at (28, 31) will push it north.**
+  - **Test (Turn 9562):** Stood at (28, 32), faced down, and pressed 'A'.
+  - **Result:** The bird squawked, then disappeared from (28, 31).
   - **Conclusion:** Hypothesis is disproven. This interaction is an incorrect move that resets the bird's position.
 
 #### Untested Hypotheses & Assumptions
