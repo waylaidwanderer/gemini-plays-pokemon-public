@@ -318,3 +318,5 @@
   - **Test (Turn 9353):** Stood at (15, 24), faced the bird (which was facing up), and pressed 'A'.
   - **Result:** The bird turned to face me and squawked, but did not move from (15, 25).
   - **Conclusion:** Hypothesis is disproven. The bird's initial facing direction is a critical component of the puzzle. The interaction from (15, 24) only works when the bird is facing a specific direction (likely away from me).
+- Auto-battler Agent/Tool: Could automate the button press sequence for simple wild battles.
+- get_object_markers_json Tool: Could retrieve known object locations from map markers to feed into the pathfinder automatically.
