@@ -384,3 +384,7 @@
 - **Hypothesis 1 (Untestable):** Press the action button while standing at (15, 26) and facing west towards the northern twig pile. (Previously resulted in a movement loop).
 - **Hypothesis 2 (Testable):** Step onto the southern twig pile (14, 27) by moving south from the northern twig pile (14, 26).
 - **Hypothesis 3 (Invalid):** Step onto the northern twig pile (14, 26) by moving south from the tile at (14, 25). (Tile is impassable HEADBUTT_TREE).
+- **Hypothesis 2:** Step onto the southern twig pile (14, 27) by moving south from the northern twig pile (14, 26).
+  - **Test (Turn 10037):** Moved from (14, 26) to (14, 27).
+  - **Result:** No event triggered.
+  - **Conclusion:** Hypothesis is disproven.
