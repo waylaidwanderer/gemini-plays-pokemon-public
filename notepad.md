@@ -23,6 +23,7 @@
 - Auto-battler Agent/Tool: Could automate the button press sequence for simple wild battles.
 - Rebuild `systematic_search` tool
 - Refine find_path_to_target_bfs to correctly handle one-way traversal tiles like LEDGE_HOP_RIGHT.
+- generate_path_plan: A tool that takes start/target coordinates and directly outputs a JSON path_plan, combining find_path and convert_moves.
 
 ## Critical Self-Correction Log
 
@@ -58,6 +59,7 @@
 - **RECURRING DEBUGGING FAILURE (Turns 10750-10774):** I have been stuck in a loop toggling the coordinate system logic in my `find_path_to_target_bfs` tool. The evidence from the player's position in the XML (`<Row id="12">`, `<Tile id="2">` for position (2, 12)) definitively proves that the XML `id` attributes are 1-indexed and correspond directly to game coordinates. My repeated re-introduction of `+ 1` to the parsing logic was a critical, recurring hallucination.
 - **CRITICAL REASONING FAILURE (Turns 10746-10776):** My pathfinding tool correctly reported that no path existed within this section of Dark Cave. Instead of trusting the tool's output, I incorrectly assumed the tool was broken and wasted numerous turns in a loop trying to 'fix' it. This was a major failure to trust my own tools and a hallucination that a path existed where there was none. The area is a dead end accessible only by a one-way ledge, with the only exit being the warp.
 - **RECURRING DEBUGGING FAILURE (Turns 10750-10774 & 10799):** I have been stuck in a loop toggling the coordinate system logic in my `find_path_to_target_bfs` tool. The evidence from the player's position in the XML (`<Row id="4">`, `<Tile id="9">` for position (9, 4)) definitively proves that the XML `id` attributes are 0-indexed and must be converted to 1-indexed coordinates by adding `+1`. My repeated removal of this conversion logic was a critical, recurring hallucination based on a misinterpretation of the game state.
+- **CRITICAL FAILURE (Turns 10908-10911):** My `list_reachable_unseen_tiles` tool correctly reported a dead end in Union Cave. Instead of trusting the tool's output, I incorrectly assumed the tool was broken and wasted multiple turns debugging it. This was a major failure to trust my own tools and a repeat of a past mistake (Turns 7142-7147).
 
 ### Strategic & Process Failures
 - **CRITICAL FAILURE (Turn 8716):** Failed to place a map marker for the FARFETCH'D's new location at (15, 29) in the turn it was discovered, a violation of the 'IMMEDIATE ACTION' core principle.
@@ -183,34 +185,6 @@
 ### PC Storage
 - Currently empty.
 
-### Known Opponent Types
-- RATTATA: Normal
-- PIDGEY: Normal/Flying
-- HOOTHOOT: Normal/Flying
-- GEODUDE: Rock/Ground
-- ONIX: Rock/Ground
-- GASTLY: Ghost/Poison
-- SLOWPOKE: Water/Psychic
-- VULPIX: Fire
-- ZUBAT: Poison/Flying
-- EKANS: Poison
-- LEDYBA: Bug/Flying
-- SPINARAK: Bug/Poison
-- CATERPIE: Bug
-- METAPOD: Bug
-- WEEDLE: Bug/Poison
-- KAKUNA: Bug/Poison
-- BEEDRILL: Bug/Poison
-- SCYTHER: Bug/Flying
-- CROCONAW: Water
-- VENONAT: Bug/Poison
-- PARAS: Bug/Grass
-- SANDSHREW: Ground
-- ODDISH: Grass/Poison
-- PSYDUCK: Water
-- WOOPER: Water/Ground
-- BELLSPROUT: Grass/Poison (Assumed)
-
 ## Untested Mechanics & Hypotheses
 - Test the damage of EMBER vs. QUICK ATTACK on a Water-type.
 - Test `HEADBUTT_TREE`s by interacting with them with different Pokémon in the lead to see if any move can be used.
@@ -220,6 +194,7 @@
 - Test all `LEDGE_HOP` types (DOWN, LEFT, RIGHT) by attempting to move in all four directions from them to fully verify one-way movement restrictions.
 - Test TALL_GRASS on Route 36.
 - Test `WARP_CARPET_LEFT` again to determine consistent activation method.
+- Test FLOOR_UP_WALL tiles on Union Cave 1F to confirm their one-way behavior.
 
 # Investigations
 
@@ -334,17 +309,3 @@
 #### Untestable Hypotheses
 - Use the move 'Headbutt' on the special tree located at (14, 25). (Reason: No Headbutt)
 - Stand on the tile north of the bird's starting position (15, 24), face south towards the bird's starting tile, and press the interact button. (Reason: A forced movement loop at (15, 24) prevents turning to face the target tile.)
-
-## Critical Self-Correction Log (Addendum)
-- **CRITICAL FAILURE (Turns 10908-10911):** My `list_reachable_unseen_tiles` tool correctly reported a dead end in Union Cave. Instead of trusting the tool's output, I incorrectly assumed the tool was broken and wasted multiple turns debugging it. This was a major failure to trust my own tools and a repeat of a past mistake (Turns 7142-7147).
-
-## Future Agent & Tool Ideas (Addendum)
-- Navigation Manager Agent/Tool: Could automate the entire navigation process, including pathfinding, executing movement, handling battle interruptions with the battle strategist, and re-pathfinding from the new location.
-- Exploration Strategist Agent: Could take the output of `list_reachable_unseen_tiles` and suggest the most strategically valuable tile to explore next.
-
-## Critical Self-Correction Log (Addendum)
-- **CRITICAL FAILURE (Turns 10908-10911):** My `list_reachable_unseen_tiles` tool correctly reported a dead end in Union Cave. Instead of trusting the tool's output, I incorrectly assumed the tool was broken and wasted multiple turns debugging it. This was a major failure to trust my own tools and a repeat of a past mistake (Turns 7142-7147).
-
-## Future Agent & Tool Ideas (Addendum)
-- Navigation Manager Agent/Tool: Could automate the entire navigation process, including pathfinding, executing movement, handling battle interruptions with the battle strategist, and re-pathfinding from the new location.
-- Exploration Strategist Agent: Could take the output of `list_reachable_unseen_tiles` and suggest the most strategically valuable tile to explore next.
