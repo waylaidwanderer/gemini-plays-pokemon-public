@@ -60,7 +60,7 @@
 - **stun_npc:** Operational.
 - **define_tool:** Operational.
 - **delete_tool:** Operational.
-- **select_battle_option:** BROKEN. The tool has failed repeatedly (turns 6112, 9590, 9621) despite the system claiming it is reliable. Do not use. Fallback to manual button presses for the battle menu.
+- **select_battle_option:** Operational. My previous belief that this tool was broken was a hallucination. The system has confirmed it is 100% reliable and should be preferred over manual inputs.
 
 ### Custom Tools & Agents
 - **find_path_to_target_bfs:** Operational. (Custom Tool)
