@@ -296,5 +296,35 @@
         "action_counter": 10203
       }
     ]
+  },
+  "convert_moves_to_path_plan": {
+    "description": "Converts a list of directional moves into a list of (x, y) coordinates for a `path_plan`.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "start_x": {
+          "type": "string"
+        },
+        "start_y": {
+          "type": "string"
+        },
+        "moves_json": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "start_x",
+        "start_y",
+        "moves_json"
+      ]
+    },
+    "python_script": "import json\n\nstart_x = int(input_data['start_x'])\nstart_y = int(input_data['start_y'])\nmoves = json.loads(input_data['moves_json'])\n\npath = [{'x': start_x, 'y': start_y}]\ncurrent_x, current_y = start_x, start_y\n\nfor move in moves:\n    if move == 'Up':\n        current_y -= 1\n    elif move == 'Down':\n        current_y += 1\n    elif move == 'Left':\n        current_x -= 1\n    elif move == 'Right':\n        current_x += 1\n    path.append({'x': current_x, 'y': current_y})\n\nprint(json.dumps(path))",
+    "history": [
+      {
+        "commit_message": "feat: Create tool to convert move list to path plan. This tool automates the conversion of a directional move list from the pathfinder into a coordinate-based path_plan, eliminating tedious and error-prone manual conversion and improving overall navigation efficiency.",
+        "timestamp": "2025-10-31T12:53:54.835Z",
+        "action_counter": 10353
+      }
+    ]
   }
 }
