@@ -160,6 +160,7 @@
 - Test movement off a FLOOR_UP_WALL tile in all directions (sideways, down) to verify it's not just a one-way-up path.
 - Test `LEDGE_HOP_LEFT` tiles by trying to move in all directions from them to fully verify movement restrictions.
 - Test `LEDGE_HOP_RIGHT` tiles by trying to move left, up, and down from them to confirm one-way movement.
+- Test one-way ledges (`LEDGE_HOP_DOWN`, `LEDGE_HOP_LEFT`) by trying to move up *and sideways* off them to fully verify movement restrictions.
 - Test TALL_GRASS on Route 36.
 
 # Active Investigations
