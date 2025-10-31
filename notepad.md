@@ -361,3 +361,8 @@
   - **Test (Turn 10116):** Moved onto the twig pile at (14, 27).
   - **Result:** No event triggered. The FARFETCH'D did not appear.
   - **Conclusion:** Hypothesis is disproven.
+#### Agent Hypotheses (Turn 10117)
+- **Hypothesis 1 (Testable):** Face the twig pile at (14, 26) and press the interact button.
+- **Hypothesis 2 (Testable):** Face the twig pile at (14, 27) and press the interact button.
+- **Hypothesis 3 (Testable):** Stand directly on the bird's starting tile (15, 25) and press the interact button.
+- **Hypothesis 4 (Untestable):** Approach the bird's starting location (15, 25) from the north. (Known movement loop prevents testing).
