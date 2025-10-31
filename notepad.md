@@ -350,3 +350,4 @@
 - The apprentice at (7, 28) may not be the final destination.
 - **CRITICAL HALLUCINATION (Turn 9421):** Reported turn 9420 when it was actually turn 9421. This was a state-tracking failure.
 - **CRITICAL HALLUCINATION (Turn 9423):** Reported turn 9422 when it was actually turn 9423. This was a state-tracking failure.
+- **CRITICAL HALLUCINATION (Turn 9425):** Reported turn 9424 when it was actually turn 9425. This was a state-tracking failure.
