@@ -225,13 +225,20 @@
 - **Objective:** Herd the FARFETCH'D back to the apprentice at (7, 28).
 - **Background:** **CONFIRMED LEAD:** The Charcoal Man's apprentice is at (7, 28) in Ilex Forest. His FARFETCH'D, which knows CUT, has run off. I need to find the FARFETCH'D to get CUT. This was mentioned by a Youngster (6, 9) and the Charcoal Man himself (2, 3).
 
-#### Key Mechanics & Rules
-- The bird's movement is pre-scripted and triggered by player interaction from specific tiles. The player's exact coordinates are the key, not just the direction of approach.
-- Stepping on twig piles changes the bird's facing direction.
-- Some interactions cause the bird to move to a new location, while others make it disappear entirely, likely resetting its position.
-- The entire eastern section of the maze is a dead end and a red herring.
-- **CRUCIAL INSIGHT:** The player's X-coordinate when interacting from *below* the FARFETCH'D at (15, 25) determines its destination.
-- Player movement on certain non-twig floor tiles can change the bird's facing direction. (Verified Turn 9363)
+### Summary of Key Findings
+#### Confirmed Mechanics
+- The bird's movement is triggered by player interaction from specific coordinates and with a specific facing, not just the direction of approach.
+- Stepping on twig piles changes the bird's facing direction. The bird's initial facing direction is a critical component of the puzzle.
+- The player's X-coordinate when interacting from *below* the FARFETCH'D at its starting position (15, 25) determines its destination.
+- Some interactions move the bird correctly; incorrect interactions cause it to disappear, resetting the current step.
+- The puzzle is not confined to the initial area. Exploring other parts of the forest (e.g., the far eastern path) can trigger the bird to reappear at new locations.
+- The bird is a solid object and cannot be walked through.
+
+#### Key Disproven Hypotheses
+- **Resetting:** Leaving and re-entering Ilex Forest does NOT reset the bird's position if it has despawned.
+- **NPCs:** Talking to the apprentice or the Charcoal Maker does not reset the puzzle or provide new hints.
+- **"Pushing":** A simple "push" mechanic is not in effect. Interacting from a side or behind often causes the bird to disappear rather than move away.
+- **Respawning:** The bird does not respawn by: standing on its start tile, using the 'A' button on its empty start tile, or using the 'A' button on adjacent trees/twig piles.
 
 #### Solution Discovery Log & Current Hypothesis
 - **(Turn 8680):** Believed I had reached (15, 26) after a long path, but was actually at (15, 24). My pathing plan was interrupted. Despite this, interacting from (15, 24) caused the FARFETCH'D to move to (15, 29).
@@ -339,7 +346,7 @@
 - **(Turn 9725) BREAKTHROUGH:** After exhausting simple hypotheses, exploring the far eastern path of the forest triggered the FARFETCH'D to reappear at a new location, (29, 22).
 - **Conclusion:** The puzzle involves triggering events through exploration, not just direct interaction at the starting point.
 - **Next Hypothesis:** I must now interact with the FARFETCH'D from an adjacent tile at its new location to progress.
-- Hypothesis: Interacting with the FARFETCH'D at (29, 22) from below (29, 23) will push it north.
+- **Hypothesis: Interacting with the FARFETCH'D at (29, 22) from below (29, 23) will push it north.**
   - **Test (Turn 9729):** Stood at (29, 23), faced up, and pressed 'A'.
   - **Result:** No event triggered.
   - **Conclusion:** Hypothesis is disproven. This interaction is an incorrect move.
@@ -355,6 +362,10 @@
   - **Test:** Stood at (15, 25), faced up, and pressed 'A' (Turn 9768).
   - **Result:** No event triggered.
   - **Conclusion:** Hypothesis is disproven. The tile at (15, 24) has no special interaction.
+- **Hypothesis (from agent):** Talking to the Charcoal Maker in Azalea Town will provide a hint.
+  - **Test:** Spoke to the Charcoal Maker at (2, 3) in the Charcoal Kiln.
+  - **Result:** He repeated his initial dialogue about his missing apprentice.
+  - **Conclusion:** Hypothesis is disproven. This interaction does not advance the puzzle.
 
 #### Untested Hypotheses & Assumptions
 - The FARFETCH'D moves on a timer, independent of player interaction.
@@ -374,7 +385,3 @@
 
 ### Solution Discovery Log
 - The puzzle was solved by sequentially picking up pieces 1 through 16 from the outer edge and placing them in their correct positions within the central 4x4 grid.
-- **Hypothesis (from agent):** Talking to the Charcoal Maker in Azalea Town will provide a hint.
-  - **Test:** Spoke to the Charcoal Maker at (2, 3) in the Charcoal Kiln.
-  - **Result:** He repeated his initial dialogue about his missing apprentice.
-  - **Conclusion:** Hypothesis is disproven. This interaction does not advance the puzzle.
