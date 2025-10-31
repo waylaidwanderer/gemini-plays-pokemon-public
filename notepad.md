@@ -260,3 +260,6 @@
   - **Result:** No event triggered. The FARFETCH'D did not appear.
   - **Conclusion:** Hypothesis disproven.
 - Navigation Manager Agent: Could automate the entire navigation process, including pathfinding, executing movement, handling battle interruptions with the battle strategist, and re-pathfinding from the new location.
+
+### Tile Traversal and Movement Rules (Update)
+- **FLOOR_UP_WALL (Union Cave B1F):** This tile functions as a one-way path. You can move up onto it, but attempting to move down from it triggers a warp, sending the player back to the previous map (Union Cave 1F).
