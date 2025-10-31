@@ -382,3 +382,8 @@
   - **Test:** Moved to (14, 26) (turn 9434), then to (15, 26) to observe.
   - **Result:** The FARFETCH'D did not appear at its starting position (15, 25).
   - **Conclusion:** Hypothesis is disproven.
+
+- (From Agent): Standing on the FARFETCH'D's starting tile (15, 25) will make it respawn.
+  - Test: Moved to (15, 25) (turn 9445).
+  - Result: The bird did not appear.
+  - Conclusion: Hypothesis is disproven.
