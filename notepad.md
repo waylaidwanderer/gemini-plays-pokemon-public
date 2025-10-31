@@ -376,5 +376,7 @@
   - **Conclusion:** Attempt failed due to incorrect positioning. Hypothesis remains untested.
 - **Hypothesis (from agent):** Face the southern twig pile (14, 27) and press the interact button.
   - **Test Attempt (from south):** Attempted to stand at (14, 28) and face up. (Turns 10129-10132)
-  - **Result:** Pressing 'Up' from (14, 28) forces a move onto (14, 27), preventing a simple interaction from the adjacent tile. Similar to the movement loop at (15, 26).
-  - **Conclusion:** Hypothesis is untestable from the south due to forced movement mechanics.
+  - **Result (from south):** Pressing 'Up' from (14, 28) forces a move onto (14, 27).
+  - **Test Attempt (from east):** Attempted to stand at (15, 27) and face left. (Turn 10134)
+  - **Result (from east):** Pressing 'Left' from (15, 27) forces a move onto (14, 27).
+  - **Conclusion:** Hypothesis is untestable from any valid adjacent tile due to forced movement mechanics.
