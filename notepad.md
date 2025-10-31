@@ -431,3 +431,7 @@
   - **Conclusion:** Hypothesis is disproven.
 - **LEDGE_HOP_RIGHT**: One-way traversal. Can only be entered by moving right onto it. (Verified)
 - **(Turn 9903) BREAKTHROUGH:** After reaching the dead end at (29, 33), the FARFETCH'D reappeared at a new location, (28, 31). This confirms the puzzle requires exploration and triggering events in different parts of the forest.
+- Hypothesis: Interacting with the FARFETCH'D at (28, 31) from the right (29, 31) will push it west.
+  - **Test (Turn 9908):** Stood at (29, 31), faced left, and pressed 'A'.
+  - **Result:** The bird squawked, then disappeared. Map marker confirms it returned to its starting position at (15, 25).
+  - **Conclusion:** Hypothesis is disproven. This interaction is an incorrect move that resets the bird.
