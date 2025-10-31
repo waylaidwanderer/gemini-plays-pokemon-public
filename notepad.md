@@ -317,3 +317,8 @@
 # Tool Failures
 - My `generate_path_plan` tool failed to find a simple, obvious path in the Route32Pokecenter1F (Turn 11121). This indicates a critical bug that needs to be investigated and fixed. I am using a manual path as a temporary workaround.
 - Pathing Interruption Agent: Could automatically re-run the pathfinder from the new coordinates after a wild battle interrupts a path plan.
+
+### Union Cave Fisher Dead End
+- **Objective:** Get past the Fisher at (15, 27).
+- **Observations:** Repeatedly interacting with the Fisher only repeats his dialogue ('It's my POKéMON's fire that lights up this cave.') and does not initiate a battle.
+- **Conclusion:** The Fisher is not a trainer to be defeated. He is an impassable NPC at the end of a dead-end path. The southern loop of Union Cave 1F does not connect to the exit. Future attempts to pass this way are futile. The correct strategy is to backtrack and find an alternative route.
