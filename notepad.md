@@ -313,3 +313,8 @@
 - **Step 27:** Picked up Piece 16 from position (0,1). (Success)
 - **Step 28:** Placed Piece 16 into position (4,4). (Success)
 - **CRITICAL HALLUCINATION (Turn 9272):** Reported turn 9271 when it was actually turn 9272. This was a state-tracking failure.
+
+- **Hypothesis:** Interacting with the FARFETCH'D at (15, 25) from (15, 24) will always move it south.
+  - **Test (Turn 9353):** Stood at (15, 24), faced the bird (which was facing up), and pressed 'A'.
+  - **Result:** The bird turned to face me and squawked, but did not move from (15, 25).
+  - **Conclusion:** Hypothesis is disproven. The bird's initial facing direction is a critical component of the puzzle. The interaction from (15, 24) only works when the bird is facing a specific direction (likely away from me).
