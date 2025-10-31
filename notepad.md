@@ -373,3 +373,8 @@
   - **Test (Turn 9502):** Stood at (8, 28), faced the apprentice, and pressed 'A'.
   - **Result:** The apprentice repeated his initial dialogue about his boss being angry and the FARFETCH'D being lost.
   - **Conclusion:** Hypothesis is disproven. Talking to the apprentice does not reset the puzzle.
+
+- **Hypothesis (from agent):** Step on the other twig pile at (14, 27).
+  - **Test (Turn 9505):** Moved to (14, 27).
+  - **Result:** The FARFETCH'D did not appear.
+  - **Conclusion:** Hypothesis is disproven.
