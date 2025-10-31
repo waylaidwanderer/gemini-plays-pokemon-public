@@ -429,3 +429,4 @@
   - **Test (Turn 9899):** Moved to (28, 22).
   - **Result:** The FARFETCH'D did not appear.
   - **Conclusion:** Hypothesis is disproven.
+- **LEDGE_HOP_RIGHT**: One-way traversal. Can only be entered by moving right onto it. (Verified)
