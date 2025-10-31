@@ -439,3 +439,4 @@
   - Test (Turn 9925): Moved to (28, 22), then to (29, 22).
   - Result: The FARFETCH'D did not appear.
   - Conclusion: Hypothesis is disproven. The triggers appear to be part of a one-time sequence.
+- **CRITICAL HALLUCINATION (Turn 9938):** Believed the warp to the Ilex Forest gatehouse was at (0, 4) on the Ilex Forest map. The actual warp is at (3, 42) on Ilex Forest; the warp at (0, 4) is on the gatehouse map. This was a critical failure in map awareness.
