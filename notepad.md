@@ -344,3 +344,5 @@
   - **Test 2 (Southern Pile):** Moved down from (14, 26) to land on the twig pile at (14, 27).
   - **Result:** No event triggered. The FARFETCH'D did not appear.
   - **Conclusion:** Hypothesis disproven. Voluntarily stepping on the twig piles is not the trigger.
+
+- **BREAKTHROUGH:** Stepping on the one-way ledge at (27, 22) triggers the FARFETCH'D to appear at (29, 22). This is a confirmed trigger.
