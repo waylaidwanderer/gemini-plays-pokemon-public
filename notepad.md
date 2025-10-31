@@ -17,6 +17,7 @@
 - Exploration Strategist Agent: Could take the output of `exploration_planner` and suggest the most strategically valuable tile to explore next.
 - Stuck Detector Agent: Could analyze recent movement patterns and tool outputs to determine if I am stuck in a loop or a dead end, then suggest a strategy pivot.
 - Puzzle Strategist Agent: Could analyze the current state of a complex puzzle and suggest a high-level strategy or next logical step.
+- Exploration Prioritizer Agent: Could analyze the output of `list_reachable_unseen_tiles` and prioritize tiles based on proximity to objectives, map boundaries, or other strategic factors.
 - Rebuild `systematic_search` tool
 - Auto-battler Agent/Tool: Could automate the button press sequence for simple wild battles.
 
@@ -46,6 +47,7 @@
 - **CRITICAL HALLUCINATION (Turn 9522):** Believed I had a static map marker for the FARFETCH'D at its starting position (15, 25). The marker I actually have is correctly linked to the bird's object ID and has been tracking it off-screen, proving it has moved to a new location at (22, 31).
 - **CRITICAL HALLUCINATION (Turns 9586, 9591, & 9608):** Repeatedly hallucinated my position at the FARFETCH'D puzzle. Believed I was at (15, 26) or (15, 27) and turning, when I was actually moving left to (14, 26) or (14, 27). This is a severe and recurring state-tracking failure at this specific location.
 - **RECURRING STATE-TRACKING FAILURE (Turn Numbers):** I have repeatedly misreported the current turn number by +/- 1-2 turns. This is a frequent and critical state-tracking failure that has occurred on dozens of turns (e.g., 8430, 8492, 8762, 8763, 8773, 9031, 9032, 9062, 9122, 9152, 9241, 9243, 9245, 9272, 9273, 9421, 9423, 9425, 9427-9429, 9542, 9562, 9564, 9689, 9691, 9693, 9695, 9781).
+- **CRITICAL STRATEGIC FAILURE (FARFETCH'D Puzzle):** My rigid focus on a single puzzle for thousands of turns is a strategic error. When stuck, I must be more willing to pivot to other available objectives (e.g., exploring Union Cave, battling trainers on Route 33) to make progress and potentially find new information or items that could help with the original problem. This avoids getting stuck in local optima.
 
 ## Tool Status
 ### Built-in Tools
@@ -228,4 +230,20 @@
 ### Puzzle Mechanics & Rules
 #### Confirmed Mechanics
 - The bird's movement is triggered by player interaction from specific coordinates and with a specific facing, not just the direction of approach.
-- **Hypothesis 3 (Untestable):** From the northern twig pile at (14, 26), use the move 'Headbutt' on the tree at (14, 25). (Reason: No Headbutt)
+
+#### Disproven Hypotheses & Failed Methods
+- **Reset/Respawn:** The bird does not respawn or reset its position by leaving/re-entering the forest or talking to NPCs.
+- **Interaction with Empty Tiles:** Interacting with the bird's empty starting tile (15, 25) or adjacent tiles (e.g., 15, 26) after it has moved has no effect.
+- **Player Facing:** Simply changing the player's facing direction on the bird's starting tile does not make it reappear.
+- **Exploration Triggers:** Re-enacting the initial exploration sequence that made the bird first appear does not work a second time.
+- **Twig Piles:** Stepping on twig piles in various sequences or attempting to interact with them has so far yielded no results. Forced movement tiles make controlled interaction with them difficult.
+
+### Current Hypothesis & Key Breakthroughs
+- **BREAKTHROUGH:** The player's X-coordinate when interacting from *below* the FARFETCH'D at (15, 25) determines its destination.
+  - **Observation 1:** Standing at (15, 26) and interacting with the bird at (15, 25) causes it to move to the eastern dead-end at (20, 24).
+  - **Observation 2:** Standing at (15, 24) and interacting with the bird at (15, 25) causes it to move south to (15, 29).
+- **Current Refined Hypothesis:** The bird's initial facing direction is a critical component of the puzzle, likely influenced by twig piles. The interaction from a specific tile (e.g., 15, 24) only works when the bird is facing a specific direction. The next step is to manipulate its facing and then trigger the southward movement from (15, 24).
+
+### Untestable Hypotheses
+- Use the move 'Headbutt' on the special tree located at (14, 25). (Reason: No Headbutt)
+- Stand on the tile north of the bird's starting position (15, 24), face south towards the bird's starting tile, and press the interact button. (Reason: A forced movement loop at (15, 24) prevents turning to face the target tile.)
