@@ -326,10 +326,16 @@
 - **Hypothesis 3 (Testable):** Step on the southern twig pile (14, 27) and then immediately step on the northern twig pile (14, 26).
 - **Hypothesis 4 (Untestable):** Interact with the empty tile at (15, 26). (Known movement loop prevents testing).
 #### Agent Hypotheses (Turn 10091)
-- **Hypothesis 1 (Testable):** Talk to the apprentice at (7, 28) to see if they provide a hint or reset the bird.
+- **Hypothesis 1:** Talk to the apprentice at (7, 28) to see if they provide a hint or reset the bird.
+  - **Test (Turn 10102):** Stood at (8, 28), faced left, and interacted with the apprentice at (7, 28).
+  - **Result:** The apprentice repeated his initial dialogue about losing the FARFETCH'D. No new information was given, and the bird's position was not reset.
+  - **Conclusion:** Hypothesis is disproven.
 - **Hypothesis 2 (Testable):** Stand on the tile directly south of the bird's starting position (15, 26), face north towards the starting tile, and interact.
 - **Hypothesis 3 (Testable):** Interact with the trees immediately adjacent to the twig piles.
 #### Agent Hypotheses (Turn 10091)
-- **Hypothesis 1 (Testable):** Talk to the apprentice at (7, 28) to see if they provide a hint or reset the bird.
+- **Hypothesis 1:** Talk to the apprentice at (7, 28) to see if they provide a hint or reset the bird.
+  - **Test (Turn 10102):** Stood at (8, 28), faced left, and interacted with the apprentice at (7, 28).
+  - **Result:** The apprentice repeated his initial dialogue about losing the FARFETCH'D. No new information was given, and the bird's position was not reset.
+  - **Conclusion:** Hypothesis is disproven.
 - **Hypothesis 2 (Testable):** Stand on the tile directly south of the bird's starting position (15, 26), face north towards the starting tile, and interact.
 - **Hypothesis 3 (Testable):** Interact with the trees immediately adjacent to the twig piles.
