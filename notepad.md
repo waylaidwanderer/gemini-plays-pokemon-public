@@ -276,9 +276,11 @@
   - **Conclusion:** Hypothesis is disproven. The bird's initial facing direction is a critical component of the puzzle. The interaction from (15, 24) only works when the bird is facing a specific direction (likely away from me).
 
 - **Hypothesis (from agent):** Leaving Ilex Forest entirely and re-entering will reset the FARFETCH'D to its starting position.
-  - **Test:** Left Ilex Forest via the gatehouse (turn 9413), then immediately returned to the puzzle area at (15, 26) (turn 9415).
-  - **Result:** The FARFETCH'D was not visible at its starting position (15, 25).
-  - **Conclusion:** Hypothesis is disproven.
+  - **Test 1:** Left Ilex Forest via the gatehouse (turn 9413), then immediately returned to the puzzle area at (15, 26) (turn 9415).
+  - **Result 1:** The FARFETCH'D was not visible at its starting position (15, 25).
+  - **Test 2:** Left Ilex Forest (turn 9494) and returned to the starting tile (15, 25) (turn 9497).
+  - **Result 2:** The FARFETCH'D was still not visible.
+  - **Conclusion:** Hypothesis is definitively disproven. Leaving and re-entering the map does not reset the bird's position if it has despawned.
 
 - **(From Agent):** Approaching the starting position (15, 25) from directly behind (from tile 15, 24) will cause it to appear.
   - **Test:** Moved to (15, 23), then stepped down onto (15, 24).
