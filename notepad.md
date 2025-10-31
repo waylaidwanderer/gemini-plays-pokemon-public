@@ -112,6 +112,7 @@
 - **WARP_CARPET_RIGHT**: Traversable warp. Requires pressing 'Right' on the tile to activate. (Verified at 3,42 in Ilex Forest)
 - **WATER**: Impassable. (Verified by pathing attempts)
 - **WINDOW**: Impassable. (Verified)
+- **FLOOR_UP_WALL (Union Cave B1F):** This tile functions as a one-way path. You can move up onto it, but attempting to move down from it triggers a warp, sending the player back to the previous map (Union Cave 1F).
 
 ## World & Story
 ### Location Notes
@@ -250,7 +251,7 @@
 - **BREAKTHROUGH:** The player's X-coordinate when interacting from *below* the FARFETCH'D at (15, 25) determines its destination.
   - **Observation 1:** Standing at (15, 26) and interacting with the bird at (15, 25) causes it to move to the eastern dead-end at (20, 24).
   - **Observation 2:** Standing at (15, 24) and interacting with the bird at (15, 25) causes it to move south to (15, 29).
-- **Current Refined Hypothesis:** The bird's initial facing direction is a critical component of the puzzle, likely influenced by twig piles. The interaction from a specific tile (e.g., 15, 24) only works when the bird is facing a specific direction. The next step is to manipulate its facing and then trigger the southward movement from (15, 24).
+- **Current Refined Hypothesis:** The bird's initial facing direction is a critical component of the puzzle, likely influenced by twig piles. The next step is to manipulate its facing and then trigger the southward movement from (15, 24).
 
 #### Untestable Hypotheses
 - Use the move 'Headbutt' on the special tree located at (14, 25). (Reason: No Headbutt)
@@ -264,6 +265,3 @@
   - **Result:** No event triggered. The FARFETCH'D did not appear.
   - **Conclusion:** Hypothesis disproven.
 - Navigation Manager Agent: Could automate the entire navigation process, including pathfinding, executing movement, handling battle interruptions with the battle strategist, and re-pathfinding from the new location.
-
-#### Tile Traversal and Movement Rules (Update)
-- **FLOOR_UP_WALL (Union Cave B1F):** This tile functions as a one-way path. You can move up onto it, but attempting to move down from it triggers a warp, sending the player back to the previous map (Union Cave 1F).
