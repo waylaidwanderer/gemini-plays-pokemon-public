@@ -326,3 +326,8 @@
 - **Step 27:** Picked up Piece 16 from position (0,1). (Success)
 - **Step 28:** Placed Piece 16 into position (4,4). (Success)
 - **CRITICAL HALLUCINATION (Turn 9272):** Reported turn 9271 when it was actually turn 9272. This was a state-tracking failure.
+
+- **Hypothesis (from agent):** Standing on the FARFETCH'D's starting tile (15, 25) will make it respawn.
+  - **Test:** Moved to (15, 25).
+  - **Result:** The bird did not appear.
+  - **Conclusion:** Hypothesis is disproven.
