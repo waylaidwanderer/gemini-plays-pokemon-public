@@ -421,3 +421,7 @@
 - **(Turn 9887) BREAKTHROUGH:** After exhausting simple hypotheses, exploring the far eastern path of the forest triggered the FARFETCH'D to reappear at a new location, (29, 22).
 - **Conclusion:** The puzzle involves triggering events through exploration, not just direct interaction at the starting point.
 - **Next Hypothesis:** I must now interact with the FARFETCH'D from an adjacent tile at its new location to progress.
+- **Hypothesis:** Interacting with the FARFETCH'D at (29, 22) from the left (28, 22) will move it.
+  - **Test (Turn 9888):** Stood at (28, 22), faced right, pressed 'A'.
+  - **Result:** The bird squawked, then disappeared.
+  - **Conclusion:** Hypothesis is disproven. This interaction is an incorrect move that resets the bird's position.
