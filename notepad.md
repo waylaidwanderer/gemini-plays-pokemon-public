@@ -345,3 +345,7 @@
   - **Result:** No event triggered.
   - **Conclusion:** Hypothesis is disproven.
 - **Hypothesis 3 (Testable):** Interact with the trees immediately adjacent to the twig piles.
+- **Hypothesis 3 (Testable):** Interact with the trees immediately adjacent to the twig piles.
+  - **Test (Turn 10110):** Stood at (15, 25), faced left, and interacted with the tree at (14, 25).
+  - **Result:** No event triggered.
+  - **Conclusion:** Hypothesis is disproven.
