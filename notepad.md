@@ -188,7 +188,7 @@
   - **Conclusion:** Hypothesis 2 is disproven. The lead Pokémon has no effect on a simple 'A' press interaction with the tree.
 
 - **Hypothesis 3:** The tree must be interacted with from the tile directly below it (35, 10).
-  - **Test Plan:** Move to (35, 10), face up, and press 'A'.
+  - **Status:** Currently untestable. The path to (35, 10) is blocked.
 
 #### Untested Assumptions
 - The solution requires a specific key item from my pack.
