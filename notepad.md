@@ -323,3 +323,8 @@
 - **Observations:** Repeatedly interacting with the Fisher only repeats his dialogue ('It's my POKéMON's fire that lights up this cave.') and does not initiate a battle.
 - **Conclusion:** The Fisher is not a trainer to be defeated. He is an impassable NPC at the end of a dead-end path. The southern loop of Union Cave 1F does not connect to the exit. Future attempts to pass this way are futile. The correct strategy is to backtrack and find an alternative route.
 - Navigation Manager Agent/Tool: Could automate the entire navigation process, including pathfinding, executing movement, handling battle interruptions with the battle strategist, and re-pathfinding from the new location.
+
+# Tool Usage Protocols
+
+## `generate_path_plan`
+- **CRITICAL PROCESS:** To prevent pathing into known off-screen obstacles (like the Fisher in Union Cave), I MUST consult my notepad and map markers for the target map *before* calling this tool. The coordinates of any known impassable NPCs or other temporary blockades must be manually added to the `object_locations_json` argument. This addresses a critical design flaw where the tool cannot see off-screen objects.
