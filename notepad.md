@@ -90,15 +90,17 @@
 - **delete_tool:** Operational.
 - **select_battle_option:** Operational. My previous belief that this tool was broken was a hallucination. The system has confirmed it is 100% reliable and should be preferred over manual inputs.
 
-### Custom Tools & Agents
-- **find_path_to_target_bfs:** Operational. (Custom Tool)
-- **list_reachable_unseen_tiles:** Operational. (Custom Tool)
-- **generate_nickname_inputs:** Operational. (Custom Tool)
-- **simple_battle_strategist:** Operational. (Custom Agent)
-- **notepad_refactor_assistant:** Operational. (Custom Agent)
-- **farfetchd_puzzle_solver:** Operational. (Custom Agent)
-- **convert_moves_to_path_plan:** Operational. (Custom Tool)
-- **find_adjacent_traversable_tiles:** Operational. (Custom Tool)
+### Custom Tools
+- **find_path_to_target_bfs:** Operational.
+- **list_reachable_unseen_tiles:** Operational.
+- **generate_nickname_inputs:** Operational.
+- **convert_moves_to_path_plan:** Operational.
+- **find_adjacent_traversable_tiles:** Operational.
+
+### Custom Agents
+- **simple_battle_strategist:** Operational.
+- **notepad_refactor_assistant:** Operational.
+- **farfetchd_puzzle_solver:** Operational.
 
 # Strategic Pivots
 - **Current Pivot (Dark Cave):** The 'Odd Tree' on Route 36 is an impassable story-block, and further exploration of Violet City yielded no new paths. My current strategic pivot is to fully explore Dark Cave, as mentioned by Hiker Anthony, as it represents the next most promising avenue for progress.
