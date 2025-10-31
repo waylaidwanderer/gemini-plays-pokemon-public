@@ -389,3 +389,5 @@
   - **Test:** Traveled to (28, 28) on the eastern path.
   - **Result:** The object-linked map marker for the FARFETCH'D confirmed it did not move from its off-screen position at (15, 25).
   - **Conclusion:** Hypothesis is disproven. Random exploration is not a reliable trigger.
+- **Hypothesis (from agent):** Interacting with the twig pile at (14, 26) by pressing 'A' from an adjacent tile will make the bird respawn.
+  - **Test Plan:** Stand at (15, 26), face left, and press 'A'.
