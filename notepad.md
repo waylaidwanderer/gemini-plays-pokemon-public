@@ -223,6 +223,11 @@
 - **Observations:**
   - The path to the clerk is blocked. Talking to the Cooltrainer M at (5, 2) does not open it.
 
+## Union Cave Exploration
+- **Objective:** Explore Union Cave to find a new path forward, as the FARFETCH'D puzzle in Ilex Forest is currently blocking progress.
+
+# Paused Investigations
+
 ## Ilex Forest FARFETCH'D Puzzle
 - **Objective:** Herd the FARFETCH'D back to the apprentice at (7, 28).
 - **Background:** **CONFIRMED LEAD:** The Charcoal Man's apprentice is at (7, 28) in Ilex Forest. His FARFETCH'D, which knows CUT, has run off. I need to find the FARFETCH'D to get CUT. This was mentioned by a Youngster (6, 9) and the Charcoal Man himself (2, 3).
