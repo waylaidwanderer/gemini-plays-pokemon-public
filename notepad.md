@@ -203,8 +203,9 @@
   - **Test 4 (Glyph):** Stood at (36, 9), faced the tree, and pressed 'A'. Result: No text appeared, no event triggered. Interaction failed.
   - **Conclusion:** Hypothesis 2 is disproven. The lead Pokémon has no effect on a simple 'A' press interaction with the tree.
 
-- **Re-verification (Turn 10648):** Stood at (36, 9), faced the tree at (35, 9), and pressed 'A'.
-  - **Result:** No text appeared, no event triggered. This confirms yet again that a simple 'A' press is not the solution, regardless of lead Pokémon. Since all obvious paths are blocked, I am pivoting to exploration.
+- Re-verification (Turn 10826): Stood at (36, 9), faced the tree at (35, 9), and pressed 'A'.
+  - **Result:** No text appeared, no event triggered. This re-confirms that a simple 'A' press is not the solution. I have exhausted all simple interaction hypotheses.
+  - **Conclusion:** The 'Odd Tree' is almost certainly a story-based roadblock that requires an item or event from elsewhere. I am pivoting to explore the rest of Route 36.
 
 #### Untested Assumptions
 - The tree is a story-based roadblock that will be removed after an event elsewhere, not a solvable puzzle at this time.
