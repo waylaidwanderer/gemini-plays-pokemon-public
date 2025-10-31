@@ -276,3 +276,4 @@
 - Test `WARP_CARPET_LEFT` again to determine consistent activation method.
 - **Alternative Hypothesis (ESCAPE Puzzle):** The puzzle requires using an 'Escape Rope' item while standing directly in front of the wall.
 - **Alternative Hypothesis (Odd Tree Puzzle):** The tree is a story-based roadblock that will be removed after an event elsewhere, not a solvable puzzle at this time.
+- **RECURRING STATE-TRACKING FAILURE (Turn 10473):** Misreported turn number 10473 as 10472, a minor but recurring state-tracking failure.
