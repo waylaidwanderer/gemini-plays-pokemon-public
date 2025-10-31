@@ -348,4 +348,6 @@
   - **Test 1 (Northern Pile):** Moved left from (15, 26) to land on the twig pile at (14, 26).
   - **Result:** No event triggered. The FARFETCH'D did not appear.
   - **Conclusion:** Hypothesis partially disproven. Stepping on the northern pile is not the trigger.
-  - **Test 2 (Southern Pile):** Moving down from (14, 26) to land on the twig pile at (14, 27).
+  - **Test 2 (Southern Pile):** Moved down from (14, 26) to land on the twig pile at (14, 27).
+  - **Result:** No event triggered. The FARFETCH'D did not appear.
+  - **Conclusion:** Hypothesis disproven. Voluntarily stepping on the twig piles is not the trigger.
