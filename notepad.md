@@ -1,4 +1,4 @@
-# Meta & Principles
+# Meta
 
 ## Core Principles
 - **IMMEDIATE ACTION:** I must perform tasks like placing markers, updating my notepad, and fixing tools *immediately*. Deferring tasks, like placing map markers, is a process violation. Significant events must be documented *immediately* in the turn they occur.
@@ -48,6 +48,7 @@
 - **CRITICAL HALLUCINATION (Turns 9586, 9591, & 9608):** Repeatedly hallucinated my position at the FARFETCH'D puzzle. Believed I was at (15, 26) or (15, 27) and turning, when I was actually moving left to (14, 26) or (14, 27). This is a severe and recurring state-tracking failure at this specific location.
 - **RECURRING STATE-TRACKING FAILURE (Turn Numbers):** I have repeatedly misreported the current turn number by +/- 1-2 turns. This is a frequent and critical state-tracking failure that has occurred on dozens of turns (e.g., 8430, 8492, 8762, 8763, 8773, 9031, 9032, 9062, 9122, 9152, 9241, 9243, 9245, 9272, 9273, 9421, 9423, 9425, 9427-9429, 9542, 9562, 9564, 9689, 9691, 9693, 9695, 9781).
 - **CRITICAL STRATEGIC FAILURE (FARFETCH'D Puzzle):** My rigid focus on a single puzzle for thousands of turns is a strategic error. When stuck, I must be more willing to pivot to other available objectives (e.g., exploring Union Cave, battling trainers on Route 33) to make progress and potentially find new information or items that could help with the original problem. This avoids getting stuck in local optima.
+- **RECURRING FAILURE (Process Violation):** Repeatedly deferred immediate actions, such as fixing broken tools and updating the notepad with new information, in direct violation of the 'IMMEDIATE ACTION' core principle. This has been noted on multiple occasions (e.g., Turn 9122, Turns 9359-9408) and represents a systemic process failure that must be corrected.
 
 ## Tool Status
 ### Built-in Tools
@@ -70,7 +71,7 @@
 - **notepad_refactor_assistant:** Operational. (Custom Agent)
 - **farfetchd_puzzle_solver:** Operational. (Custom Agent)
 
-# General Knowledge & Discoveries
+# Game Knowledge
 
 ## Game Mechanics
 ### General Mechanics
@@ -159,9 +160,11 @@
 - Test all `LEDGE_HOP` types (DOWN, LEFT, RIGHT) by attempting to move in all four directions from them to fully verify one-way movement restrictions.
 - Test TALL_GRASS on Route 36.
 
-# Active Investigations
+# Investigations
 
-## Route 36 'Odd Tree' Puzzle
+## Active Investigations
+
+### Route 36 'Odd Tree' Puzzle
 - **Objective:** Get past the tree blocking the path at (35, 9).
 - **Observations:**
   - The tree is a unique 'WEIRD_TREE' sprite that wiggles.
@@ -190,7 +193,7 @@
 - The interaction is dependent on the time of day.
 - The solution involves using the Pokégear radio near the tree.
 
-## Sprout Tower 2F Pillar Puzzle
+### Sprout Tower 2F Pillar Puzzle
 - **Objective:** Determine how to move the central pillar on 2F again.
 - **Observations:**
   - Numerous simple interaction tests (re-interacting with the Sage, checking other objects/walls, etc.) have failed to make the central pillar move again after its initial movement.
@@ -203,7 +206,7 @@
   2. The interaction with the Sage at (12, 3) only makes the pillar passable during a specific time of day (e.g., night).
   3. The floor tiles in the room with the Sage at (12,3) contain a visual pattern or clue that needs to be followed or replicated.
 
-## Ruins of Alph 'ESCAPE' Puzzle
+### Ruins of Alph 'ESCAPE' Puzzle
 - **Objective:** Solve the 'ESCAPE' wall puzzle in the Ruins of Alph.
 - **Untested Hypotheses (from agent):**
   1. Use the move 'Flash' in the chamber. (Untestable: No Flash)
@@ -217,38 +220,38 @@
   2. The 'sliding stone panels' mentioned by NPCs are a separate puzzle from the 'ESCAPE' wall.
   3. Another item or a specific non-Unown Pokémon is needed to interact with the wall.
 
-## Violet Mart Path Puzzle
+### Violet Mart Path Puzzle
 - **Objective:** Find a way to get to the clerk in the Violet City Mart.
 - **Observations:**
   - The path to the clerk is blocked. Talking to the Cooltrainer M at (5, 2) does not open it.
 
-## Union Cave Exploration
+### Union Cave Exploration
 - **Objective:** Explore Union Cave to find a new path forward, as the FARFETCH'D puzzle in Ilex Forest is currently blocking progress.
 
-# Paused Investigations
+## Paused Investigations
 
-## Ilex Forest FARFETCH'D Puzzle
+### Ilex Forest FARFETCH'D Puzzle
 - **Objective:** Herd the FARFETCH'D back to the apprentice at (7, 28).
 - **Background:** **CONFIRMED LEAD:** The Charcoal Man's apprentice is at (7, 28) in Ilex Forest. His FARFETCH'D, which knows CUT, has run off. I need to find the FARFETCH'D to get CUT. This was mentioned by a Youngster (6, 9) and the Charcoal Man himself (2, 3).
 
-### Puzzle Mechanics & Rules
-#### Confirmed Mechanics
+#### Puzzle Mechanics & Rules
+##### Confirmed Mechanics
 - The bird's movement is triggered by player interaction from specific coordinates and with a specific facing, not just the direction of approach.
 
-#### Disproven Hypotheses & Failed Methods
+##### Disproven Hypotheses & Failed Methods
 - **Reset/Respawn:** The bird does not respawn or reset its position by leaving/re-entering the forest or talking to NPCs.
 - **Interaction with Empty Tiles:** Interacting with the bird's empty starting tile (15, 25) or adjacent tiles (e.g., 15, 26) after it has moved has no effect.
 - **Player Facing:** Simply changing the player's facing direction on the bird's starting tile does not make it reappear.
 - **Exploration Triggers:** Re-enacting the initial exploration sequence that made the bird first appear does not work a second time.
 - **Twig Piles:** Stepping on twig piles in various sequences or attempting to interact with them has so far yielded no results. Forced movement tiles make controlled interaction with them difficult.
 
-### Current Hypothesis & Key Breakthroughs
+#### Current Hypothesis & Key Breakthroughs
 - **BREAKTHROUGH:** The player's X-coordinate when interacting from *below* the FARFETCH'D at (15, 25) determines its destination.
   - **Observation 1:** Standing at (15, 26) and interacting with the bird at (15, 25) causes it to move to the eastern dead-end at (20, 24).
   - **Observation 2:** Standing at (15, 24) and interacting with the bird at (15, 25) causes it to move south to (15, 29).
 - **Current Refined Hypothesis:** The bird's initial facing direction is a critical component of the puzzle, likely influenced by twig piles. The interaction from a specific tile (e.g., 15, 24) only works when the bird is facing a specific direction. The next step is to manipulate its facing and then trigger the southward movement from (15, 24).
 
-### Untestable Hypotheses
+#### Untestable Hypotheses
 - Use the move 'Headbutt' on the special tree located at (14, 25). (Reason: No Headbutt)
 - Stand on the tile north of the bird's starting position (15, 24), face south towards the bird's starting tile, and press the interact button. (Reason: A forced movement loop at (15, 24) prevents turning to face the target tile.)
 - **Hypothesis:** Using the forced movement from (15, 26) to land on the northern twig pile (14, 26) is the trigger.
@@ -261,5 +264,5 @@
   - **Conclusion:** Hypothesis disproven.
 - Navigation Manager Agent: Could automate the entire navigation process, including pathfinding, executing movement, handling battle interruptions with the battle strategist, and re-pathfinding from the new location.
 
-### Tile Traversal and Movement Rules (Update)
+#### Tile Traversal and Movement Rules (Update)
 - **FLOOR_UP_WALL (Union Cave B1F):** This tile functions as a one-way path. You can move up onto it, but attempting to move down from it triggers a warp, sending the player back to the previous map (Union Cave 1F).
