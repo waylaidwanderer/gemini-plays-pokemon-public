@@ -317,3 +317,4 @@
 
 # Tool Failures
 - My `generate_path_plan` tool failed to find a simple, obvious path in the Route32Pokecenter1F (Turn 11121). This indicates a critical bug that needs to be investigated and fixed. I am using a manual path as a temporary workaround.
+- Pathing Interruption Agent: Could automatically re-run the pathfinder from the new coordinates after a wild battle interrupts a path plan.
