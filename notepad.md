@@ -425,3 +425,7 @@
   - **Test (Turn 9888):** Stood at (28, 22), faced right, pressed 'A'.
   - **Result:** The bird squawked, then disappeared.
   - **Conclusion:** Hypothesis is disproven. This interaction is an incorrect move that resets the bird's position.
+- Hypothesis: Stepping on the tile (28, 22), the last position before the bird appeared at (29, 22), will trigger its reappearance.
+  - **Test (Turn 9899):** Moved to (28, 22).
+  - **Result:** The FARFETCH'D did not appear.
+  - **Conclusion:** Hypothesis is disproven.
