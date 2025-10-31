@@ -453,3 +453,7 @@
   - Test: Stood at (15, 26), faced up, and pressed 'A' (Turn 9953).
   - Result: No event triggered.
   - Conclusion: Hypothesis is disproven.
+- (From Agent): Stand on the bird's starting tile (15, 25) and change your facing direction.
+  - Test: Stood at (15, 25) and faced North and South. East and West are blocked by impassable tiles.
+  - Result: The FARFETCH'D did not appear.
+  - Conclusion: Hypothesis is disproven.
