@@ -378,3 +378,7 @@
   - **Test:** Traveled to (29, 33).
   - **Result:** The FARFETCH'D did not appear at its starting position or anywhere else on screen.
   - **Conclusion:** Hypothesis is disproven. This is not a reliable reset method.
+- **Hypothesis (from agent):** Interact with the tree at (15, 24), directly behind the Farfetch'd's starting position.
+  - **Test:** Stood at (15, 25), faced up, and pressed 'A' (Turn 9768).
+  - **Result:** No event triggered.
+  - **Conclusion:** Hypothesis is disproven. The tile at (15, 24) has no special interaction.
