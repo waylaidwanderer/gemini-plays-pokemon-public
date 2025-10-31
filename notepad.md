@@ -290,3 +290,4 @@
 
 # Route 36 'Odd Tree' Puzzle - Log Update
 - **Alternative Hypothesis:** The solution requires an item I don't have yet (e.g., Squirtbottle) or a specific move I haven't learned (e.g., Headbutt). Will test if such a solution is acquired.
+- **CRITICAL HALLUCINATION (Turn 10615):** Believed I had successfully warped to RuinsOfAlphOutside (map 3_22) at (13, 20) when I was still in the Route32RuinsOfAlphGate (map 10_12) at (0, 4). The warp did not activate upon moving onto the tile. This led to a pathfinding tool crash due to providing out-of-bounds coordinates for the wrong map.
