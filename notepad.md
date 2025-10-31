@@ -287,3 +287,6 @@
 - **CRITICAL HALLUCINATION (Turn 10592):** Hallucinated a warp at (14, 35) on VioletCity. The GameState confirms no warp exists there. The path to Route 32 is a southern map transition, not a warp tile.
 - **RECURRING STATE-TRACKING FAILURE (Turn 10591):** Misreported turn number 10591 as 10590.
 - **CRITICAL HALLUCINATION (Turn 10597):** Hallucinated a warp at (4, 2) on VioletCity. The GameState confirms no warp exists there. This is a recurring failure to verify warp locations before setting navigation goals.
+
+# Route 36 'Odd Tree' Puzzle - Log Update
+- **Alternative Hypothesis:** The solution requires an item I don't have yet (e.g., Squirtbottle) or a specific move I haven't learned (e.g., Headbutt). Will test if such a solution is acquired.
