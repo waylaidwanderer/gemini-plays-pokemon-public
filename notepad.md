@@ -353,3 +353,6 @@
   - **Test (Turn 10005):** Stood on twig pile at (14, 26) and passed the turn.
   - **Result:** No event triggered.
   - **Conclusion:** Hypothesis is disproven for the twig pile at (14, 26).
+  - **Test (Turn 10008):** Stood on twig pile at (14, 27) and passed the turn.
+  - **Result:** No event triggered.
+  - **Conclusion:** Hypothesis is disproven for the twig pile at (14, 27).
