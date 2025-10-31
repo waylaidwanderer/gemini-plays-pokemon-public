@@ -369,3 +369,7 @@
   - Test (Turn 9729): Stood at (29, 23), faced up, and pressed 'A'.
   - Result: No event triggered.
   - Conclusion: Hypothesis is disproven. This interaction is an incorrect move.
+- Hypothesis: Walking onto the FARFETCH'D at (29, 22) will trigger an event.
+  - Test (Turn 9732): Moved right from (28, 22).
+  - Result: Movement was blocked. The bird acts as a solid object that cannot be walked through.
+  - Conclusion: Hypothesis is disproven.
