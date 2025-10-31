@@ -365,10 +365,20 @@
 - **CRITICAL HALLUCINATION (Turn 9428):** Reported turn 9427 when it was actually turn 9428. This was a state-tracking failure.
 - **CRITICAL HALLUCINATION (Turn 9429):** Reported turn 9428 when it was actually turn 9429. This was a state-tracking failure.
 
-- **(From Agent - Turn 9419):** Step on the twig pile at (14, 26).
-- **(From Agent - Turn 9419):** Interact with the twig pile at (14, 27) by facing it and pressing the action button.
-- **(From Agent - Turn 9419):** Approach the starting position (15, 25) from the left side (from tile 14, 25).
-- **(From Agent - Turn 9419):** Step on the twig pile at (14, 26).
+- (From Agent): Step on the twig pile at (14, 26).
+  - Test: Moved to (14, 26) (turn 9434), then to (15, 26) to observe.
+  - Result: The FARFETCH'D did not appear at its starting position (15, 25).
+  - Conclusion: Hypothesis is disproven.
+
+- (From Agent): Interact with the twig pile at (14, 27) by facing it and pressing the action button.
+  - Test: Stood at (14, 27), faced up, pressed 'A' (Turn 9439).
+  - Result: No event triggered.
+  - Conclusion: Hypothesis is disproven.
+
+- (From Agent): Approach the starting position (15, 25) from the left side (from tile 14, 25).
+  - Test: Analyzed the map.
+  - Result: The tile at (14, 25) is a HEADBUTT_TREE and is impassable.
+  - Conclusion: Hypothesis is invalid and cannot be tested.
   - **Test:** Moved to (14, 26) (turn 9434), then to (15, 26) to observe.
   - **Result:** The FARFETCH'D did not appear at its starting position (15, 25).
   - **Conclusion:** Hypothesis is disproven.
