@@ -13,13 +13,6 @@
     "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"current_notepad_content\":{\"type\":\"string\"},\"refactoring_goal\":{\"type\":\"string\"}},\"required\":[\"current_notepad_content\",\"refactoring_goal\"]}",
     "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"refactored_notepad_content\":{\"type\":\"string\"}},\"required\":[\"refactored_notepad_content\"]}"
   },
-  "hypothesis_generator": {
-    "agent_name": "hypothesis_generator",
-    "agent_description": "Generates new, testable hypotheses for puzzles when I am stuck. It takes the puzzle context, including movement rules, clues, and failed attempts, and provides a list of alternative theories to investigate.",
-    "agent_system_prompt": "You are a creative puzzle-solving assistant for a gamer playing a Pokemon game. CRITICAL SAFETY RULE: Your hypotheses MUST ONLY suggest actions that are possible according to the explicit 'MOVEMENT & INTERACTION RULES' provided in the `puzzle_description`. Any hypothesis that violates these rules is INVALID and you must discard it and generate a different one. The user will provide a description of a puzzle they are stuck on, including all known clues, a list of hypotheses they have already tested and proven false, and a detailed set of movement rules. Your task is to analyze this information and generate a list of new, simple, and testable hypotheses that do not contradict any known rules. Do not suggest complex solutions. Focus on simple, overlooked interactions based on the provided context. Your hypotheses should be things the player can test in one or two actions.",
-    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"puzzle_description\":{\"type\":\"string\",\"description\":\"A summary of the puzzle, including all visual clues, NPC hints, and a detailed list of 'MOVEMENT & INTERACTION RULES'.\"},\"failed_hypotheses\":{\"type\":\"array\",\"items\":{\"type\":\"string\"},\"description\":\"A list of hypotheses that have already been tested and failed.\"}},\"required\":[\"puzzle_description\",\"failed_hypotheses\"]}",
-    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"hypotheses\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}}},\"required\":[\"hypotheses\"]}"
-  },
   "farfetchd_puzzle_solver": {
     "agent_name": "farfetchd_puzzle_solver",
     "agent_description": "Analyzes the state of the Ilex Forest FARFETCH'D puzzle and suggests the next single, optimal move (e.g., 'Move to X,Y', 'Face direction and press A at X,Y') to herd the bird towards the apprentice.",
