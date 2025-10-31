@@ -299,3 +299,7 @@
   - **Result:** No text appeared, no event triggered.
   - **Conclusion:** Hypothesis disproven. Pausing investigation as other hypotheses require items I do not have.
 - **RECURRING STATE-TRACKING FAILURE (Turn 10651):** Misreported turn number 10651 as 10650.
+- **RECURRING STATE-TRACKING FAILURE (Turn 10651):** Misreported turn number 10651 as 10650.
+- Navigation Manager Agent: Could automate the entire navigation process, including pathfinding, executing movement, handling battle interruptions with the battle strategist, and re-pathfinding from the new location.
+- Exploration Strategist Agent: Could take the output of `list_reachable_unseen_tiles` and suggest the most strategically valuable tile to explore next.
+- Refine find_path_to_target_bfs to correctly handle one-way traversal tiles like LEDGE_HOP_RIGHT.
