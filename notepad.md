@@ -266,3 +266,4 @@
   - **Conclusion:** Hypothesis disproven.
 - Navigation Manager Agent: Could automate the entire navigation process, including pathfinding, executing movement, handling battle interruptions with the battle strategist, and re-pathfinding from the new location.
 - Refine find_path_to_target_bfs to correctly handle one-way traversal tiles like LEDGE_HOP_RIGHT.
+- **CRITICAL HALLUCINATION (Turn 10445):** Believed I had successfully warped to RuinsOfAlphOutside (map 3_22) at (7, 5) when I was still in the Route36RuinsOfAlphGate (map 10_16) at (4, 7). Placed an incorrect map marker and set an invalid navigation goal based on this false reality.
