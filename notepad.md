@@ -19,7 +19,6 @@
 - Puzzle Strategist Agent: Could analyze the current state of a complex puzzle and suggest a high-level strategy or next logical step.
 - Rebuild `systematic_search` tool
 - FARFETCH'D Puzzle Solver Agent: Could analyze the bird's location, my location, and known trigger points to suggest the next optimal move.
-- FARFETCH'D Puzzle Solver Agent: Could analyze the bird's location, my location, and known trigger points to suggest the next optimal move.
 - Auto-battler Agent/Tool: Could automate the button press sequence for simple wild battles.
 - get_object_markers_json Tool: Could retrieve known object locations from map markers to feed into the pathfinder automatically.
 
