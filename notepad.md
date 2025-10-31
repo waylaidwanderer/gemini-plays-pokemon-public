@@ -71,6 +71,7 @@
 - **notepad_refactor_assistant:** Operational. (Custom Agent)
 - **farfetchd_puzzle_solver:** Operational. (Custom Agent)
 - **convert_moves_to_path_plan:** Operational. (Custom Tool)
+- **find_adjacent_traversable_tiles:** Operational. (Custom Tool)
 
 # Game Knowledge
 
