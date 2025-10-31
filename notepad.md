@@ -225,102 +225,34 @@
 - **Objective:** Herd the FARFETCH'D back to the apprentice at (7, 28).
 - **Background:** **CONFIRMED LEAD:** The Charcoal Man's apprentice is at (7, 28) in Ilex Forest. His FARFETCH'D, which knows CUT, has run off. I need to find the FARFETCH'D to get CUT. This was mentioned by a Youngster (6, 9) and the Charcoal Man himself (2, 3).
 
-### Summary of Key Findings
+### Puzzle Mechanics & Rules
 #### Confirmed Mechanics
 - The bird's movement is triggered by player interaction from specific coordinates and with a specific facing, not just the direction of approach.
 - Stepping on twig piles changes the bird's facing direction. The bird's initial facing direction is a critical component of the puzzle.
 - The player's X-coordinate when interacting from *below* the FARFETCH'D at its starting position (15, 25) determines its destination.
 - Some interactions move the bird correctly; incorrect interactions cause it to disappear, resetting the current step.
-- The puzzle is not confined to the initial area. Exploring other parts of the forest (e.g., the far eastern path) can trigger the bird to reappear at new locations.
+- The puzzle is not confined to the initial area. Exploring other parts of the forest (e.g., reaching dead ends at (29, 22) and (29, 33)) can trigger the bird to reappear at new locations.
 - The bird is a solid object and cannot be walked through.
 
-#### Key Disproven Hypotheses
-- **Resetting:** Leaving and re-entering Ilex Forest does NOT reset the bird's position if it has despawned.
-- **NPCs:** Talking to the apprentice or the Charcoal Maker does not reset the puzzle or provide new hints.
-- **"Pushing":** A simple "push" mechanic is not in effect. Interacting from a side or behind often causes the bird to disappear rather than move away.
-- **Respawning:** The bird does not respawn by: standing on its start tile, using the 'A' button on its empty start tile, or using the 'A' button on adjacent trees/twig piles.
-
-#### Solution Discovery Log & Current Hypothesis
-- **(Turn 8680):** Believed I had reached (15, 26) after a long path, but was actually at (15, 24). My pathing plan was interrupted. Despite this, interacting from (15, 24) caused the FARFETCH'D to move to (15, 29).
-- **(Turn 8828):** Interacting with the FARFETCH'D at (15, 25) from the tile directly behind it (15, 26) caused it to move to a new location at (20, 24).
-- **(Post-Agent Test):** Interacting with the FARFETCH'D from its side (specifically, from above at (15, 28) while it was at (15, 29)) does not cause it to move away. It turns and disappears. The interaction is not a simple 'push' mechanic.
-- **(Turn 9725 & 9903) BREAKTHROUGH:** Exploring the far eastern path of the forest (specifically reaching dead ends at (29, 22) and (29, 33)) triggered the FARFETCH'D to reappear at new locations, (29, 22) and (28, 31) respectively. This confirms the puzzle requires triggering events through exploration.
-- **New Refined Hypothesis:** The player's X-coordinate when interacting from *below* the FARFETCH'D at (15, 25) determines its destination.
-  - **Observation 1 (Turn 8828 & 9070):** Standing at (15, 26) and interacting with the bird at (15, 25) causes it to move to the eastern dead-end at (20, 24).
-  - **Observation 2 (Turn 9120):** Standing at (15, 24) and interacting with the bird at (15, 25) causes it to move south to (15, 29).
-  - **Conclusion:** This suggests a specific path forward. I need to make the bird appear at (15, 25), then stand at (15, 24) and interact to move it south again.
-- **Refined Hypothesis:** The bird's initial facing direction is a critical component of the puzzle. The interaction from (15, 24) only works when the bird is facing a specific direction (likely away from me).
-
-#### Log of Disproven Hypotheses and Failed Tests
-- **Reset/Respawn Methods (All Failed):**
+#### Disproven Hypotheses & Failed Methods
+- **Reset/Respawn:** The bird does not respawn or reset its position by:
   - Leaving and re-entering Ilex Forest.
-  - Talking to the apprentice or Charcoal Maker.
-  - Standing on, or interacting with, the empty starting tile (15, 25) from any direction.
-  - Stepping on, or interacting with, nearby twig piles (14, 26 & 14, 27).
+  - Talking to the apprentice or the Charcoal Maker.
+  - Standing on, or interacting with, its empty starting tile (15, 25) from any direction.
+  - Stepping on, interacting with ('A' press), or waiting on the nearby twig piles at (14, 26) and (14, 27). This includes approaching them from specific directions.
   - Interacting with adjacent trees.
-  - Changing player facing direction on the start tile or twig piles.
   - Re-enacting the exploration trigger sequence (e.g., visiting 29, 33) after the bird has already been reset.
-- **Interaction Methods (All Failed):
-  - Interacting from the side or behind the bird at various locations (e.g., from (16, 29), (14, 29), (29, 31), (28, 32), (28, 22)). These actions cause the bird to disappear and reset its position.
-  - Interacting from (15, 24) when the bird is at (15, 25) but facing the wrong direction. (Bird turns but doesn't move).
-  - Interacting from below at (29, 23). (No event triggered).
-  - Attempting to walk through the bird. (Blocked; it's a solid object).
+  - Random exploration of other areas.
+- **Interaction:**
+  - A simple "push" mechanic is not in effect. Interacting from a side or behind often causes the bird to disappear rather than move away.
+  - Attempting to walk through the bird is not possible.
 
-# Solved Puzzles
-
-## Ruins of Alph Kabuto Chamber Puzzle
-- **Objective:** Assemble the 16 pieces into a 4x4 image of Kabuto.
-- **Learned Mechanics & Rules:**
-  - Puzzle is activated by talking to the Scientist at (3, 1) and then interacting with the wall pattern at (4, 0).
-  - Pieces are picked up and placed individually; it is not a traditional sliding puzzle.
-  - The goal is to place pieces 1 through 16 in order in the central 4x4 grid.
-
-### Solution Discovery Log
-- The puzzle was solved by sequentially picking up pieces 1 through 16 from the outer edge and placing them in their correct positions within the central 4x4 grid.
-
-- Received new hypotheses from agent.
-  - Hypothesis 1 (Testable): Stand on the starting tile (15, 25) and face North.
-  - Hypothesis 2 (Invalid): Interact with twig pile at (14, 26) from (14, 25). Invalid because (14, 25) is an impassable HEADBUTT_TREE.
-  - Hypothesis 3 (Testable): Stand on the twig pile at (14, 26) and face East.
-  - Plan: Test Hypothesis 1 first.
-- (From Agent): Stand on the starting tile (15, 25) and face North.
-  - Test: Moved to (15, 25) and faced up (Turn 9877).
-  - Result: The FARFETCH'D did not appear.
-  - Conclusion: Hypothesis is disproven.
-- (From Agent): Stand on the twig pile at (14, 26) and face East.
-  - Test: Attempted to test this, but movement mechanics caused a loop between (14, 26) and (15, 26). Unable to face East without moving off the tile.
-  - Conclusion: Hypothesis is untestable or my attempts have failed. Abandoning this line of testing to break the loop.
-- **(Turn 9887) BREAKTHROUGH:** After exhausting simple hypotheses, exploring the far eastern path of the forest triggered the FARFETCH'D to reappear at a new location, (29, 22).
-- **Conclusion:** The puzzle involves triggering events through exploration, not just direct interaction at the starting point.
-- **Next Hypothesis:** I must now interact with the FARFETCH'D from an adjacent tile at its new location to progress.
-- **Hypothesis:** Interacting with the FARFETCH'D at (29, 22) from the left (28, 22) will move it.
-  - **Test (Turn 9888):** Stood at (28, 22), faced right, pressed 'A'.
-  - **Result:** The bird squawked, then disappeared.
-  - **Conclusion:** Hypothesis is disproven. This interaction is an incorrect move that resets the bird's position.
-- Hypothesis: Stepping on the tile (28, 22), the last position before the bird appeared at (29, 22), will trigger its reappearance.
-  - **Test (Turn 9899):** Moved to (28, 22).
-  - **Result:** The FARFETCH'D did not appear.
-  - **Conclusion:** Hypothesis is disproven.
-- **LEDGE_HOP_RIGHT**: One-way traversal. Can only be entered by moving right onto it. (Verified)
-- **(Turn 9903) BREAKTHROUGH:** After reaching the dead end at (29, 33), the FARFETCH'D reappeared at a new location, (28, 31). This confirms the puzzle requires exploration and triggering events in different parts of the forest.
-- Hypothesis: Interacting with the FARFETCH'D at (28, 31) from the right (29, 31) will push it west.
-  - **Test (Turn 9908):** Stood at (29, 31), faced left, and pressed 'A'.
-  - **Result:** The bird squawked, then disappeared. Map marker confirms it returned to its starting position at (15, 25).
-  - **Conclusion:** Hypothesis is disproven. This interaction is an incorrect move that resets the bird.
-- Hypothesis: Re-stepping on the trigger tile at (28, 22) will make the FARFETCH'D reappear at (29, 22).
-  - Test (Turn 9925): Moved to (28, 22), then to (29, 22).
-  - Result: The FARFETCH'D did not appear.
-  - Conclusion: Hypothesis is disproven. The triggers appear to be part of a one-time sequence.
-- **CRITICAL HALLUCINATION (Turn 9938):** Believed the warp to the Ilex Forest gatehouse was at (0, 4) on the Ilex Forest map. The actual warp is at (3, 42) on Ilex Forest; the warp at (0, 4) is on the gatehouse map. This was a critical failure in map awareness.
-- Hypothesis: Leaving Ilex Forest entirely and re-entering will reset the FARFETCH'D to its starting position.
-  - **Test:** Left Ilex Forest via the gatehouse (turn 9938), then immediately returned to the puzzle area at (15, 26) (turn 9943).
-  - **Result:** The FARFETCH'D was not visible at its starting position (15, 25).
-  - **Conclusion:** Hypothesis is definitively disproven. Leaving and re-entering the map does not reset the bird's position if it has despawned.
-- Received new hypotheses from agent.
-  - Hypothesis 1 (Testable): Stand on the tile directly south of the bird's starting location (15, 26), face north towards its empty tile, and press the interact button.
-  - Hypothesis 2 (Testable): Stand on the bird's starting tile (15, 25) and change your facing direction to South, then West, then East.
-  - Hypothesis 3 (Testable): Step on one of the nearby twig piles multiple times in a row to create more noise.
-  - Plan: Test Hypothesis 1 first.
+### Current Hypothesis & Key Breakthroughs
+- **(Turn 9725 & 9903) BREAKTHROUGH:** Exploring the far eastern path of the forest (specifically reaching dead ends at (29, 22) and (29, 33)) triggered the FARFETCH'D to reappear at new locations, (29, 22) and (28, 31) respectively. This confirms the puzzle requires triggering events through exploration.
+- **(Turn 8680, 8828, 9070, 9120) BREAKTHROUGH:** The player's X-coordinate when interacting from *below* the FARFETCH'D at (15, 25) determines its destination.
+  - **Observation 1:** Standing at (15, 26) and interacting with the bird at (15, 25) causes it to move to the eastern dead-end at (20, 24).
+  - **Observation 2:** Standing at (15, 24) and interacting with the bird at (15, 25) causes it to move south to (15, 29).
+- **Current Refined Hypothesis:** The bird's initial facing direction is a critical component of the puzzle, likely influenced by twig piles. The interaction from a specific tile (e.g., 15, 24) only works when the bird is facing a specific direction. The next step is to manipulate its facing and then trigger the southward movement from (15, 24).
 - (From Agent): Stand on the tile directly south of the bird's starting location (15, 26), face north towards its empty tile, and press the interact button.
   - Test: Stood at (15, 26), faced up, and pressed 'A' (Turn 9953).
   - Result: No event triggered.
