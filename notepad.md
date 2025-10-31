@@ -335,3 +335,8 @@
   - **Test:** Stood at (28, 32), faced the bird, and will press 'A'.
   - **Result:** The first 'A' press triggered a 'Kwaa!' dialogue. The second 'A' press caused the bird to disappear.
   - **Conclusion:** Hypothesis disproven. Interacting from below (28, 32) resets the puzzle, just like interacting from the side.
+
+- **Hypothesis:** Using the forced movement from (15, 24) to land on the bird's spawn point (15, 25) is the trigger for it to appear.
+  - **Test:** Stood at (15, 24) and pressed 'Down'.
+  - **Result:** Landed at (15, 25). No event triggered. The FARFETCH'D did not appear.
+  - **Conclusion:** Hypothesis disproven.
