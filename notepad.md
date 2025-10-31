@@ -265,6 +265,11 @@
   - **Result:** The bird turned to face me and squawked, but did not move from (15, 25).
   - **Conclusion:** Hypothesis is disproven. The bird's initial facing direction is a critical component of the puzzle. The interaction from (15, 24) only works when the bird is facing a specific direction (likely away from me).
 
+- **Hypothesis (from agent):** Leaving Ilex Forest entirely and re-entering will reset the FARFETCH'D to its starting position.
+  - **Test:** Left Ilex Forest via the gatehouse (turn 9413), then immediately returned to the puzzle area at (15, 26) (turn 9415).
+  - **Result:** The FARFETCH'D was not visible at its starting position (15, 25).
+  - **Conclusion:** Hypothesis is disproven.
+
 - **New Observation (Turn 9363):** My movement from (14, 27) to (14, 29) caused the bird at (15, 29) to change its facing direction from 'down' to 'up'. This confirms player movement on regular floor tiles, not just stepping on twigs, is a trigger for changing the bird's direction.
 
 - **Hypothesis:** Interacting from the side (14, 29) while the bird is at (15, 29) will move it west.
