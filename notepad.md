@@ -295,4 +295,6 @@
 
 ### Ruins of Alph 'ESCAPE' Puzzle - Log Update
 - **Hypothesis:** Interacting with the 'ESCAPE' wall by pressing 'A' from an adjacent tile will trigger an event.
-  - **Test Plan:** Move to (10, 11), face the wall at (10, 10), and press 'A'.
+  - **Test:** Stood at (10, 11), faced the wall at (10, 10), and pressed 'A'.
+  - **Result:** No text appeared, no event triggered.
+  - **Conclusion:** Hypothesis disproven. Pausing investigation as other hypotheses require items I do not have.
