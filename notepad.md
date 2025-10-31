@@ -365,3 +365,7 @@
 - **(Turn 9725) BREAKTHROUGH:** After exhausting simple hypotheses, exploring the far eastern path of the forest triggered the FARFETCH'D to reappear at a new location, (29, 22).
 - **Conclusion:** The puzzle involves triggering events through exploration, not just direct interaction at the starting point.
 - **Next Hypothesis:** I must now interact with the FARFETCH'D from an adjacent tile at its new location to progress.
+- Hypothesis: Interacting with the FARFETCH'D at (29, 22) from below (29, 23) will push it north.
+  - Test (Turn 9729): Stood at (29, 23), faced up, and pressed 'A'.
+  - Result: No event triggered.
+  - Conclusion: Hypothesis is disproven. This interaction is an incorrect move.
