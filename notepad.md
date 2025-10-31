@@ -66,6 +66,8 @@
 - **CRITICAL HALLUCINATION (Turn 9427):** Reported turn 9426 when it was actually turn 9427. This was a state-tracking failure.
 - **CRITICAL HALLUCINATION (Turn 9428):** Reported turn 9427 when it was actually turn 9428. This was a state-tracking failure.
 - **CRITICAL HALLUCINATION (Turn 9429):** Reported turn 9428 when it was actually turn 9429. This was a state-tracking failure.
+- **CRITICAL HALLUCINATION (Turn 9522):** Believed I had a static map marker for the FARFETCH'D at its starting position (15, 25). The marker I actually have is correctly linked to the bird's object ID and has been tracking it off-screen, proving it has moved to a new location at (22, 31).
+- **CRITICAL HALLUCINATION (Turn 9542):** Reported turn 9540 when it was actually turn 9541. This was a state-tracking failure.
 
 ## Tool Status
 ### Built-in Tools
@@ -316,11 +318,24 @@
   - **Result:** No event triggered.
   - **Conclusion:** Hypothesis is disproven.
 
-**New Test Plan:**
-- **Step 1:** Confirm the FARFETCH'D has respawned at (15, 25).
-- **Step 2:** Experiment with player movement and twig piles to manipulate its facing direction until it faces away from the interaction tile (15, 24).
-- **Step 3:** Move to (15, 24).
-- **Step 4:** Interact with the bird from (15, 24) to trigger the southern movement to (15, 29).
+- **Hypothesis (from agent):** Talking to the apprentice at (7, 28) will reset the puzzle or provide a hint.
+  - **Test (Turn 9502):** Stood at (8, 28), faced the apprentice, and pressed 'A'.
+  - **Result:** The apprentice repeated his initial dialogue about his boss being angry and the FARFETCH'D being lost.
+  - **Conclusion:** Hypothesis is disproven. Talking to the apprentice does not reset the puzzle.
+
+- **Hypothesis (from agent):** Step on the other twig pile at (14, 27).
+  - **Test (Turn 9505):** Moved to (14, 27).
+  - **Result:** The FARFETCH'D did not appear.
+  - **Conclusion:** Hypothesis is disproven.
+
+- **Hypothesis (from agent):** Try using the 'A' button to interact with the trees adjacent to where the FARFETCH'D disappeared.
+  - **Test:** Stood at (15, 25), faced the HEADBUTT_TREE at (14, 25), and pressed 'A' (Turn 9513).
+  - **Result:** No event triggered.
+  - **Conclusion:** Hypothesis is disproven.
+- **Hypothesis: Interacting with the FARFETCH'D at (28, 31) from the right (29, 31) will push it west.**
+  - **Test (Turn 9535):** Stood at (29, 31), faced left, and pressed 'A'.
+  - **Result:** The bird squawked, then disappeared from (28, 31) after the dialogue was dismissed.
+  - **Conclusion:** Hypothesis is disproven. This interaction appears to be an incorrect move that resets the bird's position.
 
 #### Untested Hypotheses & Assumptions
 - The FARFETCH'D moves on a timer, independent of player interaction.
@@ -367,48 +382,3 @@
 - **Step 26:** Placed Piece 15 into position (3,4). (Success)
 - **Step 27:** Picked up Piece 16 from position (0,1). (Success)
 - **Step 28:** Placed Piece 16 into position (4,4). (Success)
-
-- **Hypothesis (from agent):** Talking to the apprentice at (7, 28) will reset the puzzle or provide a hint.
-  - **Test (Turn 9502):** Stood at (8, 28), faced the apprentice, and pressed 'A'.
-  - **Result:** The apprentice repeated his initial dialogue about his boss being angry and the FARFETCH'D being lost.
-  - **Conclusion:** Hypothesis is disproven. Talking to the apprentice does not reset the puzzle.
-
-- **Hypothesis (from agent):** Step on the other twig pile at (14, 27).
-  - **Test (Turn 9505):** Moved to (14, 27).
-  - **Result:** The FARFETCH'D did not appear.
-  - **Conclusion:** Hypothesis is disproven.
-
-- **Hypothesis (from agent):** Try using the 'A' button to interact with the trees adjacent to where the FARFETCH'D disappeared.
-  - **Test:** Stood at (15, 25), faced the HEADBUTT_TREE at (14, 25), and pressed 'A' (Turn 9513).
-  - **Result:** No event triggered.
-  - **Conclusion:** Hypothesis is disproven.
-
-- **Hypothesis (from agent):** Try using the 'A' button to interact with the trees adjacent to where the FARFETCH'D disappeared.
-  - **Test:** Stood at (15, 25), faced the HEADBUTT_TREE at (14, 25), and pressed 'A' (Turn 9513).
-  - **Result:** No event triggered.
-  - **Conclusion:** Hypothesis is disproven.
-
-- **Hypothesis (from agent):** Try using the 'A' button to interact with the trees adjacent to where the FARFETCH'D disappeared.
-  - **Test:** Stood at (15, 25), faced the HEADBUTT_TREE at (14, 25), and pressed 'A' (Turn 9513).
-  - **Result:** No event triggered.
-  - **Conclusion:** Hypothesis is disproven.
-
-- **Hypothesis (from agent):** Try using the 'A' button to interact with the trees adjacent to where the FARFETCH'D disappeared.
-  - **Test:** Stood at (15, 25), faced the HEADBUTT_TREE at (14, 25), and pressed 'A' (Turn 9513).
-  - **Result:** No event triggered.
-  - **Conclusion:** Hypothesis is disproven.
-
-- **Hypothesis (from agent):** Try using the 'A' button to interact with the trees adjacent to where the FARFETCH'D disappeared.
-  - **Test:** Stood at (15, 25), faced the HEADBUTT_TREE at (14, 25), and pressed 'A' (Turn 9513).
-  - **Result:** No event triggered.
-  - **Conclusion:** Hypothesis is disproven.
-
-- **Hypothesis (from agent):** Try using the 'A' button to interact with the trees adjacent to where the FARFETCH'D disappeared.
-  - **Test:** Stood at (15, 25), faced the HEADBUTT_TREE at (14, 25), and pressed 'A' (Turn 9513).
-  - **Result:** No event triggered.
-  - **Conclusion:** Hypothesis is disproven.
-- **CRITICAL HALLUCINATION (Turn 9522):** Believed I had a static map marker for the FARFETCH'D at its starting position (15, 25). The marker I actually have is correctly linked to the bird's object ID and has been tracking it off-screen, proving it has moved to a new location at (22, 31).
-- Hypothesis: Interacting with the FARFETCH'D at (28, 31) from the right (29, 31) will push it west.
-  - Test (Turn 9535): Stood at (29, 31), faced left, and pressed 'A'.
-  - Result: The bird squawked, then disappeared from (28, 31) after the dialogue was dismissed.
-  - Conclusion: Hypothesis is disproven. This interaction appears to be an incorrect move that resets the bird's position.
