@@ -362,3 +362,6 @@
   - **Test:** Stood at (14, 27), faced up to the twig pile at (14, 26), and pressed 'A' (Turn 9717).
   - **Result:** No event triggered.
   - **Conclusion:** Hypothesis is disproven. The 'A' button interaction with twig piles does not make the FARFETCH'D respawn.
+- **(Turn 9725) BREAKTHROUGH:** After exhausting simple hypotheses, exploring the far eastern path of the forest triggered the FARFETCH'D to reappear at a new location, (29, 22).
+- **Conclusion:** The puzzle involves triggering events through exploration, not just direct interaction at the starting point.
+- **Next Hypothesis:** I must now interact with the FARFETCH'D from an adjacent tile at its new location to progress.
