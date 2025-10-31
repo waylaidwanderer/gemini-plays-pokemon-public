@@ -402,3 +402,7 @@
 - **Hypothesis 1 (Testable):** Stand on the tile north of the bird's starting position (15, 24) and walk down, triggering the forced movement onto the bird's tile (15, 25).
 - **Hypothesis 2 (Untestable):** Stand on the tile north of the bird's starting position (15, 24), face south towards the bird's starting tile, and press the interact button. (Reason: A forced movement loop at (15, 24) prevents turning to face the target tile.)
 - **Hypothesis 3 (Testable):** Step on the twig pile at (14, 27), and then immediately step on the twig pile at (14, 26).
+- **Hypothesis 1:** Stand on the tile north of the bird's starting position (15, 24) and walk down, triggering the forced movement onto the bird's tile (15, 25).
+  - **Test (Turn 10163):** Moved from (15, 24) to (15, 25) via the forced movement.
+  - **Result:** No event triggered. The FARFETCH'D did not appear.
+  - **Conclusion:** Hypothesis is disproven.
