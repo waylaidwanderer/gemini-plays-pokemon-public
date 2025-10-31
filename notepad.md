@@ -280,6 +280,11 @@
   - **Result:** The FARFETCH'D did not appear at (15, 25).
   - **Conclusion:** Hypothesis is disproven.
 
+- **(From Agent):** Approaching the starting position (15, 25) from directly behind (from tile 15, 24) will cause it to appear.
+  - **Test:** Moved to (15, 23), then stepped down onto (15, 24).
+  - **Result:** The FARFETCH'D did not appear at (15, 25).
+  - **Conclusion:** Hypothesis is disproven.
+
 - **New Observation (Turn 9363):** My movement from (14, 27) to (14, 29) caused the bird at (15, 29) to change its facing direction from 'down' to 'up'. This confirms player movement on regular floor tiles, not just stepping on twigs, is a trigger for changing the bird's direction.
 
 - **Hypothesis:** Interacting from the side (14, 29) while the bird is at (15, 29) will move it west.
