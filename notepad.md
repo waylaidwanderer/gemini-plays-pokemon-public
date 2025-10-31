@@ -25,10 +25,9 @@
 - **select_battle_option:** Operational. My previous belief that this tool was broken was a hallucination. The system has confirmed it is 100% reliable and should be preferred over manual inputs.
 
 ### Custom Tools
-- **find_path_to_target_bfs:** Operational.
+- **generate_path_plan:** Operational (but currently buggy, failing on this map).
 - **list_reachable_unseen_tiles:** Operational.
 - **generate_nickname_inputs:** Operational.
-- **convert_moves_to_path_plan:** Operational.
 - **find_adjacent_traversable_tiles:** Operational.
 
 ### Custom Agents
