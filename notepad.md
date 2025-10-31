@@ -387,3 +387,8 @@
   - Test: Moved to (15, 25) (turn 9445).
   - Result: The bird did not appear.
   - Conclusion: Hypothesis is disproven.
+
+- (From Agent): Use the action button while facing the empty tile where the FARFETCH'D is supposed to start (15, 25) will make it appear.
+  - Test: Stood at (15, 26), faced up, pressed 'A' (Turn 9448).
+  - Result: No event triggered.
+  - Conclusion: Hypothesis is disproven.
