@@ -105,7 +105,7 @@
 - **VOID**: Impassable. (Verified)
 - **WALL**: Impassable. (Verified)
 - **WARP_CARPET_DOWN**: Traversable warp. Requires pressing 'Down' on the tile to activate. (Verified)
-- **WARP_CARPET_LEFT**: Traversable warp. Requires pressing 'Left' while standing on the tile to activate. (Verified at 4,2 on Route 32)
+- **WARP_CARPET_LEFT**: Traversable warp. Requires moving *onto* the tile from the right to activate. Pressing 'Left' while standing on the tile results in a collision. (Verified at 2,10 in Azalea Town)
 - **WARP_CARPET_RIGHT**: Traversable warp. Requires pressing 'Right' on the tile to activate. (Verified at 3,42 in Ilex Forest)
 - **WATER**: Impassable. (Verified by pathing attempts)
 - **WINDOW**: Impassable. (Verified)
