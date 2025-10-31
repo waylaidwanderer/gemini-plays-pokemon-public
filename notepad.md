@@ -411,3 +411,7 @@
   - Hypothesis 2 (Invalid): Interact with twig pile at (14, 26) from (14, 25). Invalid because (14, 25) is an impassable HEADBUTT_TREE.
   - Hypothesis 3 (Testable): Stand on the twig pile at (14, 26) and face East.
   - Plan: Test Hypothesis 1 first.
+- (From Agent): Stand on the starting tile (15, 25) and face North.
+  - Test: Moved to (15, 25) and faced up (Turn 9877).
+  - Result: The FARFETCH'D did not appear.
+  - Conclusion: Hypothesis is disproven.
