@@ -366,3 +366,7 @@
 - **Hypothesis 2 (Testable):** Face the twig pile at (14, 27) and press the interact button.
 - **Hypothesis 3 (Testable):** Stand directly on the bird's starting tile (15, 25) and press the interact button.
 - **Hypothesis 4 (Untestable):** Approach the bird's starting location (15, 25) from the north. (Known movement loop prevents testing).
+- **Hypothesis 1 (Untestable):** Face the twig pile at (14, 26) and press the interact button.
+  - **Test Plan:** Attempt to face the twig pile from the adjacent tile at (15, 26).
+  - **Result:** The documented movement loop at (15, 26) prevents turning left; it forces a move onto (14, 26). As there are no other valid adjacent tiles to interact from, this hypothesis is untestable.
+  - **Conclusion:** Hypothesis is untestable.
