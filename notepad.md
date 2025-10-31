@@ -353,3 +353,7 @@
 - **Hypothesis 1 (Testable):** Step on the twig pile located at coordinates (14, 26).
 - **Hypothesis 2 (Testable):** Step on the twig pile located at coordinates (14, 27).
 - **Hypothesis 3 (Untestable):** Stand on the tile directly north of the bird's starting position (15, 24), face south, and interact. (Known movement loop prevents testing).
+- **Hypothesis 1:** Step on the twig pile located at coordinates (14, 26).
+  - **Test (Turn 10114):** Moved onto the twig pile at (14, 26).
+  - **Result:** No event triggered. The FARFETCH'D did not appear.
+  - **Conclusion:** Hypothesis is disproven.
