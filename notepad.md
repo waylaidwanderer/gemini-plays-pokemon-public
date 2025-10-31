@@ -266,20 +266,6 @@
   - Interacting from below at (29, 23). (No event triggered).
   - Attempting to walk through the bird. (Blocked; it's a solid object).
 
-#### Untested Hypotheses & Assumptions
-- The FARFETCH'D moves on a timer, independent of player interaction.
-- The puzzle might require a sequence of twig pile activations, not direct 'A' button interaction.
-- The puzzle might involve leading the bird, not pushing it.
-- The solution might require using a specific item from the bag.
-- The apprentice at (7, 28) might not be the final destination; the bird may need to be herded elsewhere first.
-
-#### Untested Hypotheses & Assumptions
-- The FARFETCH'D moves on a timer, independent of player interaction.
-- The puzzle might require a sequence of twig pile activations, not direct 'A' button interaction.
-- The puzzle might involve leading the bird, not pushing it.
-- The solution might require using a specific item from the bag.
-- The apprentice at (7, 28) might not be the final destination; the bird may need to be herded elsewhere first.
-
 # Solved Puzzles
 
 ## Ruins of Alph Kabuto Chamber Puzzle
