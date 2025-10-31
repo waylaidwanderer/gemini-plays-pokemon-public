@@ -18,9 +18,7 @@
 - Stuck Detector Agent: Could analyze recent movement patterns and tool outputs to determine if I am stuck in a loop or a dead end, then suggest a strategy pivot.
 - Puzzle Strategist Agent: Could analyze the current state of a complex puzzle and suggest a high-level strategy or next logical step.
 - Rebuild `systematic_search` tool
-- FARFETCH'D Puzzle Solver Agent: Could analyze the bird's location, my location, and known trigger points to suggest the next optimal move.
 - Auto-battler Agent/Tool: Could automate the button press sequence for simple wild battles.
-- get_object_markers_json Tool: Could retrieve known object locations from map markers to feed into the pathfinder automatically.
 
 ## Critical Self-Correction Log
 - The 'Poké Ball machine' in Elm's lab was a hallucination.
@@ -47,7 +45,7 @@
 - **CRITICAL FAILURE (Turns 9359-9408):** Repeatedly deferred immediate documentation of new discoveries and failed hypotheses related to the FARFETCH'D puzzle, a direct violation of the 'IMMEDIATE ACTION' core principle.
 - **CRITICAL HALLUCINATION (Turn 9522):** Believed I had a static map marker for the FARFETCH'D at its starting position (15, 25). The marker I actually have is correctly linked to the bird's object ID and has been tracking it off-screen, proving it has moved to a new location at (22, 31).
 - **CRITICAL HALLUCINATION (Turns 9586, 9591, & 9608):** Repeatedly hallucinated my position at the FARFETCH'D puzzle. Believed I was at (15, 26) or (15, 27) and turning, when I was actually moving left to (14, 26) or (14, 27). This is a severe and recurring state-tracking failure at this specific location.
-- **RECURRING STATE-TRACKING FAILURE (Turn Numbers):** I have repeatedly misreported the current turn number by +/- 1-2 turns. This is a frequent and critical state-tracking failure that has occurred on dozens of turns (e.g., 8430, 8492, 8762, 8763, 8773, 9031, 9032, 9062, 9122, 9152, 9241, 9243, 9245, 9272, 9273, 9421, 9423, 9425, 9427-9429, 9542, 9562, 9564, 9689, 9691).
+- **RECURRING STATE-TRACKING FAILURE (Turn Numbers):** I have repeatedly misreported the current turn number by +/- 1-2 turns. This is a frequent and critical state-tracking failure that has occurred on dozens of turns (e.g., 8430, 8492, 8762, 8763, 8773, 9031, 9032, 9062, 9122, 9152, 9241, 9243, 9245, 9272, 9273, 9421, 9423, 9425, 9427-9429, 9542, 9562, 9564, 9689, 9691, 9693, 9695).
 
 ## Tool Status
 ### Built-in Tools
@@ -105,7 +103,6 @@
 - **TOWN_MAP**: Impassable. (Verified by observation)
 - **TV**: Impassable. (Verified)
 - **VOID**: Impassable. (Verified)
-- **LEDGE_HOP_RIGHT**: One-way traversal. (Verified by observation, but need to test moving left/up/down from it)
 - **WALL**: Impassable. (Verified)
 - **WARP_CARPET_DOWN**: Traversable warp. Requires pressing 'Down' on the tile to activate. (Verified)
 - **WARP_CARPET_LEFT**: Traversable warp. Requires pressing 'Left' while standing on the tile to activate. (Verified at 4,2 on Route 32)
@@ -155,13 +152,10 @@
 
 ## Untested Mechanics & Hypotheses
 - Test the damage of EMBER vs. QUICK ATTACK on a Water-type.
-- Test one-way ledges (`LEDGE_HOP_DOWN`) by trying to move up *and sideways* off them to fully verify movement restrictions.
 - Test `HEADBUTT_TREE`s by interacting with them with different Pokémon in the lead to see if any move can be used.
 - Test traversability of BUOY tiles.
 - Test movement off a FLOOR_UP_WALL tile in all directions (sideways, down) to verify it's not just a one-way-up path.
-- Test `LEDGE_HOP_LEFT` tiles by trying to move in all directions from them to fully verify movement restrictions.
-- Test `LEDGE_HOP_RIGHT` tiles by trying to move left, up, and down from them to confirm one-way movement.
-- Test one-way ledges (`LEDGE_HOP_DOWN`, `LEDGE_HOP_LEFT`) by trying to move up *and sideways* off them to fully verify movement restrictions.
+- Test all `LEDGE_HOP` types (DOWN, LEFT, RIGHT) by attempting to move in all four directions from them to fully verify one-way movement restrictions.
 - Test TALL_GRASS on Route 36.
 
 # Active Investigations
@@ -328,6 +322,39 @@
   - **Test (Turn 9562):** Stood at (28, 32), faced down, and pressed 'A'.
   - **Result:** The bird squawked, then disappeared from (28, 31).
   - **Conclusion:** Hypothesis is disproven. This interaction is an incorrect move that resets the bird's position.
+- **Hypothesis (from agent):** Interacting with the twig pile at (14, 26) by pressing 'A' will make the bird respawn.
+  - **Test Plan:** Move to (15, 26), face the twig pile, and press 'A'.
+- **Hypothesis (from agent):** Interacting with the twig pile at (14, 26) by pressing 'A' will make the bird respawn.
+  - **Test:** Attempted to position at (15, 26) to face the pile.
+  - **Result:** Moved onto (14, 26) instead. The FARFETCH'D did not appear.
+  - **Conclusion:** Standing on the twig pile does not work. Will reposition to (15, 26) to test the 'A' press interaction.
+- **Hypothesis (from agent):** Interacting with a twig pile by pressing 'A' will make the bird respawn.
+  - **Test:** Stood on the twig pile at (14, 27), pressed 'A' (Turn 9712).
+  - **Result:** No event triggered.
+  - **Conclusion:** Hypothesis is disproven for this specific interaction method (standing on the pile).
+- **Hypothesis (from agent):** Interacting with a twig pile by pressing 'A' from an adjacent tile will make the bird respawn.
+  - **Test:** Stood at (14, 27), faced up to the twig pile at (14, 26), and pressed 'A' (Turn 9717).
+  - **Result:** No event triggered.
+  - **Conclusion:** Hypothesis is disproven. The 'A' button interaction with twig piles does not make the FARFETCH'D respawn.
+- **(Turn 9725) BREAKTHROUGH:** After exhausting simple hypotheses, exploring the far eastern path of the forest triggered the FARFETCH'D to reappear at a new location, (29, 22).
+- **Conclusion:** The puzzle involves triggering events through exploration, not just direct interaction at the starting point.
+- **Next Hypothesis:** I must now interact with the FARFETCH'D from an adjacent tile at its new location to progress.
+- Hypothesis: Interacting with the FARFETCH'D at (29, 22) from below (29, 23) will push it north.
+  - **Test (Turn 9729):** Stood at (29, 23), faced up, and pressed 'A'.
+  - **Result:** No event triggered.
+  - **Conclusion:** Hypothesis is disproven. This interaction is an incorrect move.
+- **Hypothesis: Walking onto the FARFETCH'D at (29, 22) will trigger an event.**
+  - **Test (Turn 9732):** Moved right from (28, 22).
+  - **Result:** Movement was blocked. The bird acts as a solid object that cannot be walked through.
+  - **Conclusion:** Hypothesis is disproven.
+- **Hypothesis (from agent):** Walking to the far eastern dead-end at (29, 33) will make the FARFETCH'D respawn.
+  - **Test:** Traveled to (29, 33).
+  - **Result:** The FARFETCH'D did not appear at its starting position or anywhere else on screen.
+  - **Conclusion:** Hypothesis is disproven. This is not a reliable reset method.
+- **Hypothesis (from agent):** Interact with the tree at (15, 24), directly behind the Farfetch'd's starting position.
+  - **Test:** Stood at (15, 25), faced up, and pressed 'A' (Turn 9768).
+  - **Result:** No event triggered.
+  - **Conclusion:** Hypothesis is disproven. The tile at (15, 24) has no special interaction.
 
 #### Untested Hypotheses & Assumptions
 - The FARFETCH'D moves on a timer, independent of player interaction.
@@ -347,38 +374,3 @@
 
 ### Solution Discovery Log
 - The puzzle was solved by sequentially picking up pieces 1 through 16 from the outer edge and placing them in their correct positions within the central 4x4 grid.
-- RECURRING STATE-TRACKING FAILURE (Turn Numbers): Additional errors on turns 9689, 9691, 9693, 9695.
-
-- **Hypothesis (from agent):** Interacting with the twig pile at (14, 26) by pressing 'A' will make the bird respawn.
-  - **Test Plan:** Move to (15, 26), face the twig pile, and press 'A'.
-- **Hypothesis (from agent):** Interacting with the twig pile at (14, 26) by pressing 'A' will make the bird respawn.
-  - **Test:** Attempted to position at (15, 26) to face the pile.
-  - **Result:** Moved onto (14, 26) instead. The FARFETCH'D did not appear.
-  - **Conclusion:** Standing on the twig pile does not work. Will reposition to (15, 26) to test the 'A' press interaction.
-- **Hypothesis (from agent):** Interacting with a twig pile by pressing 'A' will make the bird respawn.
-  - **Test:** Stood on the twig pile at (14, 27), pressed 'A' (Turn 9712).
-  - **Result:** No event triggered.
-  - **Conclusion:** Hypothesis is disproven for this specific interaction method (standing on the pile).
-- **Hypothesis (from agent):** Interacting with a twig pile by pressing 'A' from an adjacent tile will make the bird respawn.
-  - **Test:** Stood at (14, 27), faced up to the twig pile at (14, 26), and pressed 'A' (Turn 9717).
-  - **Result:** No event triggered.
-  - **Conclusion:** Hypothesis is disproven. The 'A' button interaction with twig piles does not make the FARFETCH'D respawn.
-- **(Turn 9725) BREAKTHROUGH:** After exhausting simple hypotheses, exploring the far eastern path of the forest triggered the FARFETCH'D to reappear at a new location, (29, 22).
-- **Conclusion:** The puzzle involves triggering events through exploration, not just direct interaction at the starting point.
-- **Next Hypothesis:** I must now interact with the FARFETCH'D from an adjacent tile at its new location to progress.
-- Hypothesis: Interacting with the FARFETCH'D at (29, 22) from below (29, 23) will push it north.
-  - Test (Turn 9729): Stood at (29, 23), faced up, and pressed 'A'.
-  - Result: No event triggered.
-  - Conclusion: Hypothesis is disproven. This interaction is an incorrect move.
-- Hypothesis: Walking onto the FARFETCH'D at (29, 22) will trigger an event.
-  - Test (Turn 9732): Moved right from (28, 22).
-  - Result: Movement was blocked. The bird acts as a solid object that cannot be walked through.
-  - Conclusion: Hypothesis is disproven.
-- **Hypothesis (from agent):** Walking to the far eastern dead-end at (29, 33) will make the FARFETCH'D respawn.
-  - **Test:** Traveled to (29, 33).
-  - **Result:** The FARFETCH'D did not appear at its starting position or anywhere else on screen.
-  - **Conclusion:** Hypothesis is disproven. This is not a reliable reset method.
-- **Hypothesis (from agent):** Interact with the tree at (15, 24), directly behind the Farfetch'd's starting position.
-  - **Test:** Stood at (15, 25), faced up, and pressed 'A' (Turn 9768).
-  - **Result:** No event triggered.
-  - **Conclusion:** Hypothesis is disproven. The tile at (15, 24) has no special interaction.
