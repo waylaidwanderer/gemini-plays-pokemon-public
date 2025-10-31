@@ -329,3 +329,5 @@
 
 - **Hypothesis:** Interacting with the FARFETCH'D at (28, 31) from below (at 28, 32) will move it.
   - **Test:** Stood at (28, 32), faced the bird, and will press 'A'.
+  - **Result:** The first 'A' press triggered a 'Kwaa!' dialogue. The second 'A' press caused the bird to disappear.
+  - **Conclusion:** Hypothesis disproven. Interacting from below (28, 32) resets the puzzle, just like interacting from the side.
