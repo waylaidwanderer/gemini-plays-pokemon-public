@@ -365,3 +365,7 @@
   - **Test (Turn 10012):** Moved from (14, 27) to (14, 26).
   - **Result:** No event triggered. The FARFETCH'D did not appear.
   - **Conclusion:** Hypothesis is disproven.
+- **Hypothesis 2:** Step onto the northern twig pile (14, 26) by moving west from the tile at (15, 26).
+  - **Test (Turn 10014):** Moved from (15, 26) to (14, 26).
+  - **Result:** No event triggered.
+  - **Conclusion:** Hypothesis is disproven.
