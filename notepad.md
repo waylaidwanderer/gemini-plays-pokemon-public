@@ -370,3 +370,7 @@
   - **Test Plan:** Attempt to face the twig pile from the adjacent tile at (15, 26).
   - **Result:** The documented movement loop at (15, 26) prevents turning left; it forces a move onto (14, 26). As there are no other valid adjacent tiles to interact from, this hypothesis is untestable.
   - **Conclusion:** Hypothesis is untestable.
+- **Hypothesis 3 (Attempt Failed):** Interact with the southern twig pile (14, 27) from the south (14, 28).
+  - **Test (Turn 10127):** Attempted to interact from what I thought was (14, 28), but a position mismatch revealed I was standing on the twig pile at (14, 27).
+  - **Result:** No event triggered.
+  - **Conclusion:** Attempt failed due to incorrect positioning. Hypothesis remains untested.
