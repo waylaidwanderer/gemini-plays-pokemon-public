@@ -292,3 +292,4 @@
 - Stand on the tile north of the bird's starting position (15, 24), face south towards the bird's starting tile, and press the interact button. (Reason: A forced movement loop at (15, 24) prevents turning to face the target tile.)
 - **RECURRING STATE-TRACKING FAILURE (Turn 10712):** Misreported turn number 10712 as 10711.
 - **RECURRING STATE-TRACKING FAILURE (Turn 10712):** Misreported turn number 10712 as 10711.
+- **CRITICAL HALLUCINATION (Turn 10716):** Believed I had successfully warped into Dark Cave (map 26_3) when I was still on Route 31 (map 26_2) at (34, 6). The warp was interrupted by a phone call from Hiker Anthony. This was a major state-tracking failure.
