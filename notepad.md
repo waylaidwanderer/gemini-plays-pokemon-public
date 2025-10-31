@@ -343,3 +343,4 @@
 - The puzzle might involve leading the bird, not pushing it.
 - The solution might require using a specific item from the bag.
 - The apprentice at (7, 28) may not be the final destination.
+- **CRITICAL HALLUCINATION (Turn 9421):** Reported turn 9420 when it was actually turn 9421. This was a state-tracking failure.
