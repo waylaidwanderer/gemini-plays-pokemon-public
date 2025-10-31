@@ -298,3 +298,4 @@
   - **Test:** Stood at (10, 11), faced the wall at (10, 10), and pressed 'A'.
   - **Result:** No text appeared, no event triggered.
   - **Conclusion:** Hypothesis disproven. Pausing investigation as other hypotheses require items I do not have.
+- **RECURRING STATE-TRACKING FAILURE (Turn 10651):** Misreported turn number 10651 as 10650.
