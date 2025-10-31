@@ -324,3 +324,4 @@
 - PSYDUCK: Water
 - WOOPER: Water/Ground
 - BELLSPROUT: Grass/Poison (Assumed)
+- **RECURRING DEBUGGING FAILURE (Turns 10750-10774 & 10799):** I have been stuck in a loop toggling the coordinate system logic in my `find_path_to_target_bfs` tool. The evidence from the player's position in the XML (`<Row id="4">`, `<Tile id="9">` for position (9, 4)) definitively proves that the XML `id` attributes are 0-indexed and must be converted to 1-indexed coordinates by adding `+1`. My repeated removal of this conversion logic was a critical, recurring hallucination based on a misinterpretation of the game state.
