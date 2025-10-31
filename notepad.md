@@ -291,14 +291,6 @@
 
 ### Solution Discovery Log
 - The puzzle was solved by sequentially picking up pieces 1 through 16 from the outer edge and placing them in their correct positions within the central 4x4 grid.
-- **Hypothesis:** Exploring a different part of the forest (the eastern side) will trigger the FARFETCH'D to reappear.
-  - **Test:** Traveled to (28, 28) on the eastern path.
-  - **Result:** The object-linked map marker for the FARFETCH'D confirmed it did not move from its off-screen position at (15, 25).
-  - **Conclusion:** Hypothesis is disproven. Random exploration is not a reliable trigger.
-- **Hypothesis:** Stepping on the twig pile at (14, 26) will make the bird respawn.
-  - **Test:** Moved onto the tile at (14, 26).
-  - **Result:** The FARFETCH'D did not appear.
-  - **Conclusion:** Hypothesis is disproven.
 
 - **Hypothesis:** Interacting with the twig pile at (14, 26) by pressing 'A' from an adjacent tile will make the bird respawn.
   - **Test Plan:** Move to (15, 26), face left, and press 'A'.
