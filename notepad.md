@@ -19,6 +19,8 @@
 - Puzzle Strategist Agent: Could analyze the current state of a complex puzzle and suggest a high-level strategy or next logical step.
 - Rebuild `systematic_search` tool
 - FARFETCH'D Puzzle Solver Agent: Could analyze the bird's location, my location, and known trigger points to suggest the next optimal move.
+- Auto-battler Agent/Tool: Could automate the button press sequence for simple wild battles.
+- get_object_markers_json Tool: Could retrieve known object locations from map markers to feed into the pathfinder automatically.
 
 ## Critical Self-Correction Log
 - The 'Poké Ball machine' in Elm's lab was a hallucination.
@@ -72,8 +74,6 @@
 
 ### Custom Tools & Agents
 - **find_path_to_target_bfs:** Operational. (Custom Tool)
-- **exploration_planner:** DELETED. (Custom Tool)
-- **systematic_search:** DELETED. (Custom Tool)
 - **list_reachable_unseen_tiles:** Operational. (Custom Tool)
 - **generate_nickname_inputs:** Operational. (Custom Tool)
 - **simple_battle_strategist:** Operational. (Custom Agent)
@@ -260,6 +260,11 @@
   - **Observation 2 (Turn 9120):** Standing at (15, 24) and interacting with the bird at (15, 25) causes it to move south to (15, 29).
   - **Conclusion:** This suggests a specific path forward. I need to make the bird appear at (15, 25), then stand at (15, 24) and interact to move it south again.
 
+- **Hypothesis:** Interacting with the FARFETCH'D at (15, 25) from (15, 24) will always move it south.
+  - **Test (Turn 9353):** Stood at (15, 24), faced the bird (which was facing up), and pressed 'A'.
+  - **Result:** The bird turned to face me and squawked, but did not move from (15, 25).
+  - **Conclusion:** Hypothesis is disproven. The bird's initial facing direction is a critical component of the puzzle. The interaction from (15, 24) only works when the bird is facing a specific direction (likely away from me).
+
 **Test Plan:**
 - **Step 1:** Return to the area around the twig pile at (14, 26) to trigger the FARFETCH'D's respawn at (15, 25).
 - **Step 2:** Once it has spawned, pathfind to (15, 24).
@@ -304,7 +309,7 @@
 - **Step 18:** Placed Piece 11 into position (3,3). (Success)
 - **Step 19:** Picked up Piece 12 from position (3,0). (Success)
 - **Step 20:** Placed Piece 12 into position (4,3). (Success)
-- **Step 21:** Picked up Piece 13 from position (0,2). (Success)
+- **Step 21:** Placed Piece 13 from position (0,2). (Success)
 - **Step 22:** Placed Piece 13 into position (1,4). (Success)
 - **Step 23:** Picked up Piece 14 from position (4,0). (Success)
 - **Step 24:** Placed Piece 14 into position (2,4). (Success)
@@ -313,10 +318,3 @@
 - **Step 27:** Picked up Piece 16 from position (0,1). (Success)
 - **Step 28:** Placed Piece 16 into position (4,4). (Success)
 - **CRITICAL HALLUCINATION (Turn 9272):** Reported turn 9271 when it was actually turn 9272. This was a state-tracking failure.
-
-- **Hypothesis:** Interacting with the FARFETCH'D at (15, 25) from (15, 24) will always move it south.
-  - **Test (Turn 9353):** Stood at (15, 24), faced the bird (which was facing up), and pressed 'A'.
-  - **Result:** The bird turned to face me and squawked, but did not move from (15, 25).
-  - **Conclusion:** Hypothesis is disproven. The bird's initial facing direction is a critical component of the puzzle. The interaction from (15, 24) only works when the bird is facing a specific direction (likely away from me).
-- Auto-battler Agent/Tool: Could automate the button press sequence for simple wild battles.
-- get_object_markers_json Tool: Could retrieve known object locations from map markers to feed into the pathfinder automatically.
