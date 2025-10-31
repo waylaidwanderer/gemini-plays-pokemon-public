@@ -341,3 +341,10 @@
 ## Future Agent & Tool Ideas (Addendum)
 - Navigation Manager Agent/Tool: Could automate the entire navigation process, including pathfinding, executing movement, handling battle interruptions with the battle strategist, and re-pathfinding from the new location.
 - Exploration Strategist Agent: Could take the output of `list_reachable_unseen_tiles` and suggest the most strategically valuable tile to explore next.
+
+## Critical Self-Correction Log (Addendum)
+- **CRITICAL FAILURE (Turns 10908-10911):** My `list_reachable_unseen_tiles` tool correctly reported a dead end in Union Cave. Instead of trusting the tool's output, I incorrectly assumed the tool was broken and wasted multiple turns debugging it. This was a major failure to trust my own tools and a repeat of a past mistake (Turns 7142-7147).
+
+## Future Agent & Tool Ideas (Addendum)
+- Navigation Manager Agent/Tool: Could automate the entire navigation process, including pathfinding, executing movement, handling battle interruptions with the battle strategist, and re-pathfinding from the new location.
+- Exploration Strategist Agent: Could take the output of `list_reachable_unseen_tiles` and suggest the most strategically valuable tile to explore next.
