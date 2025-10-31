@@ -277,6 +277,7 @@
 - **CRITICAL HALLUCINATION (Turn 10817):** Believed I had successfully transitioned from Violet City (0, 8) to Route 36 (59, 8). I was still in Violet City. This caused my pathfinding tool to fail due to providing out-of-bounds coordinates for the wrong map and invalidated my entire plan for the turn.
 - **CRITICAL HALLUCINATION (Turn 10846):** Believed I was at (58, 8) after a path plan, but the plan had not yet been executed. I was still at (55, 8). This was a major state-tracking failure.
 - **RECURRING STATE-TRACKING FAILURE (Turn 10861):** Misreported turn number as 10860 instead of 10861.
+- **RECURRING STATE-TRACKING FAILURE (Turn 11461):** Misreported turn number as 11460 instead of 11461.
 
 ### Tool & Debugging Failures
 - **Pathfinder Tool Issue (Corrected):** The pathfinder was incorrectly assumed to be faulty. After extensive debugging, it was confirmed to be working correctly. The repeated failures were caused by my own hallucination of a traversable path on Route 32 where a large, one-way ledge system actually exists.
