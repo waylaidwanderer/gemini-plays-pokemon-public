@@ -435,3 +435,7 @@
   - **Test (Turn 9908):** Stood at (29, 31), faced left, and pressed 'A'.
   - **Result:** The bird squawked, then disappeared. Map marker confirms it returned to its starting position at (15, 25).
   - **Conclusion:** Hypothesis is disproven. This interaction is an incorrect move that resets the bird.
+- Hypothesis: Re-stepping on the trigger tile at (28, 22) will make the FARFETCH'D reappear at (29, 22).
+  - Test (Turn 9925): Moved to (28, 22), then to (29, 22).
+  - Result: The FARFETCH'D did not appear.
+  - Conclusion: Hypothesis is disproven. The triggers appear to be part of a one-time sequence.
