@@ -338,3 +338,11 @@
   - **Test:** Stood at (28, 32), faced the bird, and pressed 'A'.
   - **Result:** The first 'A' press triggered a 'Kwaa!' dialogue. The second 'A' press caused the bird to disappear.
   - **Conclusion:** Hypothesis disproven. Interacting from below (28, 32) resets the puzzle to its starting state at (15, 25). Pivoting to using the `farfetchd_puzzle_solver` agent for guidance.
+
+- **Hypothesis:** Walking to the dead end at (29, 33) will make the FARFETCH'D appear at (28, 31).
+  - **Test (Turn 11409):** Navigated to (29, 33).
+  - **Result (Turn 11411):** Navigated to (28, 31) and the FARFETCH'D was not present.
+  - **Conclusion:** Hypothesis disproven. The dead-end trigger is incorrect. Agent updated to reflect this.
+
+- **Hypothesis:** Voluntarily stepping on the twig piles is the trigger for the FARFETCH'D to appear.
+  - **Test 1 (Northern Pile):** Moving left from (15, 26) to land on the twig pile at (14, 26).
