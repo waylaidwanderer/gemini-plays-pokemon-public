@@ -440,3 +440,7 @@
   - Result: The FARFETCH'D did not appear.
   - Conclusion: Hypothesis is disproven. The triggers appear to be part of a one-time sequence.
 - **CRITICAL HALLUCINATION (Turn 9938):** Believed the warp to the Ilex Forest gatehouse was at (0, 4) on the Ilex Forest map. The actual warp is at (3, 42) on Ilex Forest; the warp at (0, 4) is on the gatehouse map. This was a critical failure in map awareness.
+- Hypothesis: Leaving Ilex Forest entirely and re-entering will reset the FARFETCH'D to its starting position.
+  - **Test:** Left Ilex Forest via the gatehouse (turn 9938), then immediately returned to the puzzle area at (15, 26) (turn 9943).
+  - **Result:** The FARFETCH'D was not visible at its starting position (15, 25).
+  - **Conclusion:** Hypothesis is definitively disproven. Leaving and re-entering the map does not reset the bird's position if it has despawned.
