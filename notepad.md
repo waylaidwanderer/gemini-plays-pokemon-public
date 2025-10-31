@@ -216,7 +216,11 @@
   3. Activate the Pokégear radio and listen to the stations. (Failed: No Radio Card)
   4. Use an Escape Rope while standing directly in front of the 'ESCAPE' wall. (Untestable: No Escape Rope)
   5. Use the move 'Strength' to try and push the statues. (Untestable: No Strength)
-  6. Have an Unown as the first Pokemon in your party and interact with the 'ESCAPE' wall. (Next test)
+    6. Having an Unown as the first Pokemon in the party triggers an event.
+     - **Hypothesis:** Interacting with the 'ESCAPE' wall with an Unown in the lead of my party will trigger an event.
+     - **Test:** Swapped Glyph (Unown) to the lead. Stood at (10, 11), faced the wall at (10, 10), and pressed 'A'.
+     - **Result:** No text appeared, no event triggered.
+     - **Conclusion:** Hypothesis disproven.
 - **Untested Assumptions:**
   1. The puzzle requires having an Escape Rope in the inventory, not necessarily using it.
   2. The 'sliding stone panels' mentioned by NPCs are a separate puzzle from the 'ESCAPE' wall.
