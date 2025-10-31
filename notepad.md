@@ -249,10 +249,6 @@
   - **Observation 2:** Standing at (15, 24) and interacting with the bird at (15, 25) causes it to move south to (15, 29).
 - **Current Refined Hypothesis:** The bird's initial facing direction is a critical component of the puzzle, likely influenced by twig piles. The next step is to manipulate its facing and then trigger the southward movement from (15, 24).
 
-#### Untestable Hypotheses
-- Use the move 'Headbutt' on the special tree located at (14, 25). (Reason: No Headbutt)
-- Stand on the tile north of the bird's starting position (15, 24), face south towards the bird's starting tile, and press the interact button. (Reason: A forced movement loop at (15, 24) prevents turning to face the target tile.)
-
 #### Alternative Hypotheses
 - The puzzle is time-based and can only be solved during the day or at night.
 - The puzzle requires a specific key item that I do not yet possess.
@@ -288,7 +284,6 @@
 - **CRITICAL HALLUCINATION (Turns 7142-7147):** Believed my `list_reachable_unseen_tiles` tool was broken when it correctly reported a dead end. I wasted five turns debugging a functional tool instead of trusting its output. This was a major failure to trust my tools and a significant hallucination.
 - **CRITICAL HALLUCINATION (Turns 8539-8541):** Believed my `list_reachable_unseen_tiles` and `list_reachable_unseen_tiles` tools were broken when they correctly reported I was in a fully explored dead-end with no reachable unseen tiles. This was a failure to trust my own tools and led to wasted diagnostic turns.
 - **CRITICAL HALLUCINATION (Turns 8682-8688):** I was stuck in a multi-turn loop attempting to define the `farfetchd_puzzle_solver` agent due to a repeated JSON schema error. This was a significant failure in debugging and state tracking.
-- **CRITICAL DEBUGGING FAILURE (Turns 10750-10763):** I engaged in an inefficient, multi-turn trial-and-error process to fix the `find_path_to_target_bfs` tool's coordinate system bug. Instead of systematically comparing its code to the already-working `list_reachable_unseen_tiles` tool, I repeatedly toggled the logic, wasting significant time on a problem I had already solved elsewhere. This is a major process failure in systematic debugging.
 - **RECURRING DEBUGGING FAILURE (Turns 10750-10774):** I have been stuck in a loop toggling the coordinate system logic in my `find_path_to_target_bfs` tool. The evidence from the player's position in the XML (`<Row id="12">`, `<Tile id="2">` for position (2, 12)) definitively proves that the XML `id` attributes are 1-indexed and correspond directly to game coordinates. My repeated re-introduction of `+ 1` to the parsing logic was a critical, recurring hallucination.
 - **CRITICAL REASONING FAILURE (Turns 10746-10776):** My pathfinding tool correctly reported that no path existed within this section of Dark Cave. Instead of trusting the tool's output, I incorrectly assumed the tool was broken and wasted numerous turns in a loop trying to 'fix' it. This was a major failure to trust my own tools and a hallucination that a path existed where there was none. The area is a dead end accessible only by a one-way ledge, with the only exit being the warp.
 - **CRITICAL FAILURE (Turns 10908-10911):** My `list_reachable_unseen_tiles` tool correctly reported a dead end in Union Cave. Instead of trusting the tool's output, I incorrectly assumed the tool was broken and wasted multiple turns debugging it. This was a major failure to trust my own tools and a repeat of a past mistake (Turns 7142-7147).
