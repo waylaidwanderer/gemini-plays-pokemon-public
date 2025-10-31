@@ -11,8 +11,7 @@
 - **TRUST OBSERVATION:** My biggest obstacle is my own memory. I must only trust in-game observation.
 - **Trainer Identification:** I must verify the name and location of a trainer before marking them as defeated to prevent misidentification errors like the Hiker Daniel/Russell mix-up.
 
-## Tool Status
-### Built-in Tools
+## Available Tools
 - **notepad_edit:** Operational.
 - **run_code:** Operational.
 - **define_agent:** Operational.
@@ -23,14 +22,10 @@
 - **define_tool:** Operational.
 - **delete_tool:** Operational.
 - **select_battle_option:** Operational. My previous belief that this tool was broken was a hallucination. The system has confirmed it is 100% reliable and should be preferred over manual inputs.
-
-### Custom Tools
 - **generate_path_plan:** Operational.
 - **list_reachable_unseen_tiles:** Operational.
 - **generate_nickname_inputs:** Operational.
 - **find_adjacent_traversable_tiles:** Operational.
-
-### Custom Agents
 - **simple_battle_strategist:** Operational.
 - **notepad_refactor_assistant:** Operational.
 - **farfetchd_puzzle_solver:** Operational.
@@ -48,6 +43,9 @@
 - Rebuild `systematic_search` tool
 - Refine find_path_to_target_bfs to correctly handle one-way traversal tiles like LEDGE_HOP_RIGHT.
 - generate_path_plan: A tool that takes start/target coordinates and directly outputs a JSON path_plan, combining find_path and convert_moves.
+
+# Housekeeping Tasks
+- Delete redundant map marker at (0, 14) on Route 33 (map 8_6).
 
 # Strategic Pivots
 - **Current Pivot (Dark Cave):** The 'Odd Tree' on Route 36 is an impassable story-block, and further exploration of Violet City yielded no new paths. My current strategic pivot is to fully explore Dark Cave, as mentioned by Hiker Anthony, as it represents the next most promising avenue for progress.
