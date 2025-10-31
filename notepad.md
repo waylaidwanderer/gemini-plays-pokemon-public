@@ -408,3 +408,7 @@
   - **Result:** No event triggered.
   - **Conclusion:** Hypothesis is disproven.
 - **CRITICAL HALLUCINATION (Turn 9522):** Believed I had a static map marker for the FARFETCH'D at its starting position (15, 25). The marker I actually have is correctly linked to the bird's object ID and has been tracking it off-screen, proving it has moved to a new location at (22, 31).
+- Hypothesis: Interacting with the FARFETCH'D at (28, 31) from the right (29, 31) will push it west.
+  - Test (Turn 9535): Stood at (29, 31), faced left, and pressed 'A'.
+  - Result: The bird squawked, then disappeared from (28, 31) after the dialogue was dismissed.
+  - Conclusion: Hypothesis is disproven. This interaction appears to be an incorrect move that resets the bird's position.
