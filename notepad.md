@@ -109,7 +109,7 @@
 - **VOID**: Impassable. (Verified)
 - **WALL**: Impassable. (Verified)
 - **WARP_CARPET_DOWN**: Traversable warp. Requires pressing 'Down' on the tile to activate. (Verified)
-- **WARP_CARPET_LEFT**: Traversable warp. Activation method seems inconsistent. Sometimes moving onto it from the right works, other times pressing 'Left' while standing on it works. Needs more testing. (Verified at 2,10 in Azalea Town and 0,4 in IlexForestAzaleaGate)
+- **WARP_CARPET_LEFT**: Traversable warp. Requires pressing 'Left' while standing on the tile to activate. (Verified at 2,10 in Azalea Town, 0,4 in IlexForestAzaleaGate, and 0,4 on Route32RuinsOfAlphGate)
 - **WARP_CARPET_RIGHT**: Traversable warp. Requires pressing 'Right' on the tile to activate. (Verified at 3,42 in Ilex Forest)
 - **WATER**: Impassable. (Verified by pathing attempts)
 - **WINDOW**: Impassable. (Verified)
