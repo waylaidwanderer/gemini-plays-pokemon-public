@@ -280,24 +280,7 @@
 - **Hypothesis 2:** Stand on the tile directly south of the bird's starting position (15, 26), face north towards the starting tile, and interact.
   - **Test (Turn 10105):** Stood at (15, 26), faced up, and pressed 'A'.
   - **Result:** No event triggered.
-  - **Conclusion:** Hypothesis is disproven.
-- **Hypothesis 3 (Testable):** Interact with the trees immediately adjacent to the twig piles.
-#### Agent Hypotheses (Turn 10091)
-- **Hypothesis 1:** Talk to the apprentice at (7, 28) to see if they provide a hint or reset the bird.
-  - **Test (Turn 10102):** Stood at (8, 28), faced left, and interacted with the apprentice at (7, 28).
-  - **Result:** The apprentice repeated his initial dialogue about losing the FARFETCH'D. No new information was given, and the bird's position was not reset.
-  - **Conclusion:** Hypothesis is disproven.
-- **Hypothesis 2:** Stand on the tile directly south of the bird's starting position (15, 26), face north towards the starting tile, and interact.
-  - **Test (Turn 10105):** Stood at (15, 26), faced up, and pressed 'A'.
-  - **Result:** No event triggered.
-  - **Conclusion:** Hypothesis is disproven.
-- **Hypothesis 3 (Testable):** Interact with the trees immediately adjacent to the twig piles.
-- **Hypothesis 3 (Testable):** Interact with the trees immediately adjacent to the twig piles.
-  - **Test (Turn 10110):** Stood at (15, 25), faced left, and interacted with the tree at (14, 25).
-  - **Result:** No event triggered.
-  - **Conclusion:** Hypothesis is disproven.
-#### Agent Hypotheses (Turn 10112)
-- **Hypothesis 1 (Testable):** Step on the twig pile located at coordinates (14, 26).
+  
 
   - **Test Plan:** Attempt to face the twig pile from the adjacent tile at (15, 26).
   - **Result:** The documented movement loop at (15, 26) prevents turning left; it forces a move onto (14, 26). As there are no other valid adjacent tiles to interact from, this hypothesis is untestable.
