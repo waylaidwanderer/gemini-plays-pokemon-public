@@ -369,3 +369,4 @@
   - **Test (Turn 10014):** Moved from (15, 26) to (14, 26).
   - **Result:** No event triggered.
   - **Conclusion:** Hypothesis is disproven.
+- **Hypothesis 4 (Invalid):** Stand on the tile directly north of the northern twig pile (14, 25), face south towards the twig, and press the action button. (Tile is impassable HEADBUTT_TREE).
