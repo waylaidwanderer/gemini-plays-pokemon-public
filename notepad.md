@@ -331,3 +331,10 @@
   - **Test:** Moved to (15, 25).
   - **Result:** The bird did not appear.
   - **Conclusion:** Hypothesis is disproven.
+- **CRITICAL FAILURE (Turns 9359-9408):** Repeatedly deferred immediate documentation of new discoveries and failed hypotheses related to the FARFETCH'D puzzle, a direct violation of the 'IMMEDIATE ACTION' core principle.
+
+#### Untested Hypotheses & Assumptions
+- The puzzle might be on a timer; the bird could move or change direction without player input.
+- The puzzle might involve leading the bird, not pushing it.
+- The solution might require using a specific item from the bag.
+- The apprentice at (7, 28) may not be the final destination.
