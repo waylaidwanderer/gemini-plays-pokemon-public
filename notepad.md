@@ -37,39 +37,17 @@
 - **CRITICAL HALLUCINATION (Turns 7142-7147):** Believed my `exploration_planner` tool was broken when it correctly reported a dead end. I wasted five turns debugging a functional tool instead of trusting its output. This was a major failure to trust my tools and a significant hallucination.
 - **CRITICAL HALLUCINATION (Turn 7443):** Believed the warp to the Ilex Forest gatehouse was at (0, 4) on the Ilex Forest map. The actual warp is at (3, 42) on Ilex Forest; the warp at (0, 4) is on the gatehouse map.
 - **CRITICAL HALLUCINATION (Turn 8421):** Believed I had successfully warped from Ruins of Alph Outside (13, 20) to Route 32 Ruins of Alph Gate (0, 4). I was still on the Ruins of Alph Outside map at the original warp tile.
-- **CRITICAL HALLUCINATION (Turn 8430):** Believed I was on turn 8430 when it was actually turn 8429. This was a state-tracking failure.
-- **CRITICAL HALLUCINATION (Turn 8492):** Believed I was on turn 8490 when it was actually turn 8491. This was a state-tracking failure.
 - **CRITICAL HALLUCINATION (Turn 8517):** Believed I had warped from Azalea Town (2, 10) to Ilex Forest Azalea Gate (9, 4). I was still in Azalea Town on the original warp tile. Placed an incorrect map marker based on this false reality.
 - **CRITICAL HALLUCINATION (Turns 8539-8541):** Believed my `exploration_planner` and `list_reachable_unseen_tiles` tools were broken when they correctly reported I was in a fully explored dead-end with no reachable unseen tiles. This was a failure to trust my own tools and led to wasted diagnostic turns.
 - **CRITICAL HALLUCINATION (Turns 8682-8688):** I was stuck in a multi-turn loop attempting to define the `farfetchd_puzzle_solver` agent due to a repeated JSON schema error. This was a significant failure in debugging and state tracking.
 - **CRITICAL FAILURE (Turn 8716):** Failed to place a map marker for the FARFETCH'D's new location at (15, 29) in the turn it was discovered, a violation of the 'IMMEDIATE ACTION' core principle.
-- **CRITICAL HALLUCINATION (Turn 8762):** Believed I was on turn 8760 when it was actually turn 8761. This was a state-tracking failure.
-- **CRITICAL HALLUCINATION (Turn 8763):** Believed I was on turn 8761 when it was actually turn 8762. This was a state-tracking failure.
-- **CRITICAL HALLUCINATION (Turn 8773):** Believed I was on turn 8773 when it was actually turn 8772. This was a state-tracking failure.
 - **CRITICAL HALLUCINATION (Turns 8944-8945):** Believed a map marker for the FARFETCH'D still existed at (15, 25) after it had already been deleted. This was a state-tracking failure, confirmed by the system rejecting my repeated `delete_map_marker` calls.
 - **CRITICAL HALLUCCINATION (Turn 8947):** Believed I was at position (14, 26) after a path plan, but the plan had failed because my starting position was incorrect. I was still at (15, 25). This was a state-tracking failure.
-- **CRITICAL HALLUCINATION (Turn 9031):** Reported turn 9030 when it was 9031. This was a state-tracking failure.
-- **CRITICAL HALLUCINATION (Turn 9032):** Reported turn 9031 when it was 9032. This was a state-tracking failure.
-- **CRITICAL HALLUCINATION (Turn 9062):** Reported turn 9060 when it was actually turn 9061. This was a state-tracking failure.
-- **CRITICAL HALLUCINATION (Turn 9122):** Reported turn 9121 when it was actually turn 9122. This was a state-tracking failure.
 - **CRITICAL FAILURE (Turn 9122):** Deferred immediate action. Received a critical warning and system critique but completed a multi-step party swap before logging the error or using the `hypothesis_generator` agent. This is a direct violation of the 'IMMEDIATE ACTION' core principle.
-- **CRITICAL HALLUCINATION (Turn 9152):** Reported turn 9150 when it was actually turn 9151. This was a state-tracking failure.
-- **CRITICAL HALLUCINATION (Turn 9241):** Reported turn 9240 when it was actually turn 9241. This was a state-tracking failure.
-- **CRITICAL HALLUCINATION (Turn 9243):** Reported turn 9242 when it was actually turn 9243. This was a state-tracking failure.
-- **CRITICAL HALLUCINATION (Turn 9245):** Reported turn 9244 when it was actually turn 9245. This was a state-tracking failure.
-- **CRITICAL HALLUCINATION (Turn 9273):** Reported turn 9272 when it was actually turn 9273. This was a state-tracking failure.
-- **CRITICAL HALLUCINATION (Turn 9272):** Reported turn 9271 when it was actually turn 9272. This was a state-tracking failure.
 - **CRITICAL FAILURE (Turns 9359-9408):** Repeatedly deferred immediate documentation of new discoveries and failed hypotheses related to the FARFETCH'D puzzle, a direct violation of the 'IMMEDIATE ACTION' core principle.
-- **CRITICAL HALLUCINATION (Turn 9421):** Reported turn 9420 when it was actually turn 9421. This was a state-tracking failure.
-- **CRITICAL HALLUCINATION (Turn 9423):** Reported turn 9422 when it was actually turn 9423. This was a state-tracking failure.
-- **CRITICAL HALLUCINATION (Turn 9425):** Reported turn 9224 when it was actually turn 9425. This was a state-tracking failure.
-- **CRITICAL HALLUCINATION (Turn 9427):** Reported turn 9426 when it was actually turn 9427. This was a state-tracking failure.
-- **CRITICAL HALLUCINATION (Turn 9428):** Reported turn 9427 when it was actually turn 9428. This was a state-tracking failure.
-- **CRITICAL HALLUCINATION (Turn 9429):** Reported turn 9428 when it was actually turn 9429. This was a state-tracking failure.
 - **CRITICAL HALLUCINATION (Turn 9522):** Believed I had a static map marker for the FARFETCH'D at its starting position (15, 25). The marker I actually have is correctly linked to the bird's object ID and has been tracking it off-screen, proving it has moved to a new location at (22, 31).
-- **CRITICAL HALLUCINATION (Turn 9542):** Reported turn 9540 when it was actually turn 9541. This was a state-tracking failure.
-- **CRITICAL HALLUCINATION (Turn 9562):** Reported turn 9561 when it was actually turn 9562. This was a state-tracking failure.
-- **CRITICAL HALLUCINATION (Turn 9564):** Reported turn 9563 when it was actually turn 9564. This was a state-tracking failure.
+- **CRITICAL HALLUCINATION (Turns 9586, 9591, & 9608):** Repeatedly hallucinated my position at the FARFETCH'D puzzle. Believed I was at (15, 26) or (15, 27) and turning, when I was actually moving left to (14, 26) or (14, 27). This is a severe and recurring state-tracking failure at this specific location.
+- **RECURRING STATE-TRACKING FAILURE (Turn Numbers):** I have repeatedly misreported the current turn number by +/- 1-2 turns. This is a frequent and critical state-tracking failure that has occurred on dozens of turns (e.g., 8430, 8492, 8762, 8763, 8773, 9031, 9032, 9062, 9122, 9152, 9241, 9243, 9245, 9272, 9273, 9421, 9423, 9425, 9427-9429, 9542, 9562, 9564).
 
 ## Tool Status
 ### Built-in Tools
@@ -366,32 +344,4 @@
   - The goal is to place pieces 1 through 16 in order in the central 4x4 grid.
 
 ### Solution Discovery Log
-- **Step 1:** Placed Piece 1 (from 2,0) into position (1,1). (Success)
-- **Step 2:** Placed Piece 2 (from 5,1) into position (2,1). (Success)
-- **Step 3:** Placed Piece 3 (from 5,3) into position (3,1). (Success)
-- **Step 4:** Placed Piece 4 (from 5,4) into position (4,1). (Success)
-- **Step 5:** Picked up Piece 5 from position (0,5). (Success)
-- **Step 6:** Placed Piece 5 (from 0,5) into position (1,2). (Success)
-- **Step 7:** Picked up Piece 6 from position (5,5). (Success)
-- **Step 8:** Placed Piece 6 into position (2,2). (Success)
-- **Step 9:** Picked up Piece 7 from position (0,4). (Success)
-- **Step 10:** Placed Piece 7 into position (3,2). (Success)
-- **Step 11:** Picked up Piece 8 from position (5,2). (Success)
-- **Step 12:** Placed Piece 8 into position (4,2). (Success)
-- **Step 13:** Picked up Piece 9 from position (5,0). (Success)
-- **Step 14:** Placed Piece 9 into position (1,3). (Success)
-- **Step 15:** Picked up Piece 10 from position (0,0). (Success)
-- **Step 16:** Placed Piece 10 into position (2,3). (Success)
-- **Step 17:** Picked up Piece 11 from position (0,3). (Success)
-- **Step 18:** Placed Piece 11 into position (3,3). (Success)
-- **Step 19:** Picked up Piece 12 from position (3,0). (Success)
-- **Step 20:** Placed Piece 12 into position (4,3). (Success)
-- **Step 21:** Placed Piece 13 from position (0,2). (Success)
-- **Step 22:** Placed Piece 13 into position (1,4). (Success)
-- **Step 23:** Picked up Piece 14 from position (4,0). (Success)
-- **Step 24:** Placed Piece 14 into position (2,4). (Success)
-- **Step 25:** Placed Piece 15 from position (1,0). (Success)
-- **Step 26:** Placed Piece 15 into position (3,4). (Success)
-- **Step 27:** Picked up Piece 16 from position (0,1). (Success)
-- **Step 28:** Placed Piece 16 into position (4,4). (Success)
-- **CRITICAL HALLUCINATION (Turns 9586, 9591, & 9608):** Repeatedly hallucinated my position at the FARFETCH'D puzzle. Believed I was at (15, 26) or (15, 27) and turning, when I was actually moving left to (14, 26) or (14, 27). This is a severe and recurring state-tracking failure at this specific location.
+- The puzzle was solved by sequentially picking up pieces 1 through 16 from the outer edge and placing them in their correct positions within the central 4x4 grid.
