@@ -406,3 +406,7 @@
   - **Test (Turn 10163):** Moved from (15, 24) to (15, 25) via the forced movement.
   - **Result:** No event triggered. The FARFETCH'D did not appear.
   - **Conclusion:** Hypothesis is disproven.
+- **Hypothesis 3:** Step on the twig pile at (14, 27), and then immediately step on the twig pile at (14, 26).
+  - **Test (Turns 10165-10166):** Moved from (15, 25) to (14, 27), then to (14, 26).
+  - **Result:** No event triggered. The FARFETCH'D did not appear.
+  - **Conclusion:** Hypothesis is disproven.
