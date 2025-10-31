@@ -333,3 +333,8 @@
   - **Test:** Stood at (15, 24) and pressed 'Down'.
   - **Result:** Landed at (15, 25). No event triggered. The FARFETCH'D did not appear.
   - **Conclusion:** Hypothesis disproven.
+
+- **Hypothesis:** Interacting with the FARFETCH'D at (28, 31) from below (at 28, 32) will move it.
+  - **Test:** Stood at (28, 32), faced the bird, and pressed 'A'.
+  - **Result:** The first 'A' press triggered a 'Kwaa!' dialogue. The second 'A' press caused the bird to disappear.
+  - **Conclusion:** Hypothesis disproven. Interacting from below (28, 32) resets the puzzle to its starting state at (15, 25). Pivoting to using the `farfetchd_puzzle_solver` agent for guidance.
