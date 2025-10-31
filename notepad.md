@@ -269,6 +269,9 @@
 - **(From Agent):** Approaching the starting position (15, 25) from directly behind (from tile 15, 24) will cause it to appear.
 - **(From Agent):** Using the action button while facing the empty tile where the FARFETCH'D is supposed to start (15, 25) will make it appear.
 
+- **Hypothesis:** Interacting with the FARFETCH'D from its right side (at 16, 29) will cause it to move west.
+  - **Test Plan:** Stand at (16, 29), face left, and press 'A'.
+
 # Solved Puzzles
 
 ## Ruins of Alph Kabuto Chamber Puzzle
