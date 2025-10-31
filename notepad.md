@@ -272,6 +272,9 @@
 - **Hypothesis:** Interacting with the FARFETCH'D from its right side (at 16, 29) will cause it to move west.
   - **Test Plan:** Stand at (16, 29), face left, and press 'A'.
 
+- **Hypothesis:** Interacting with the FARFETCH'D from its right side (at 16, 29) will cause it to move west.
+  - **Test Plan:** Stand at (16, 29), face left, and press 'A'.
+
 # Solved Puzzles
 
 ## Ruins of Alph Kabuto Chamber Puzzle
