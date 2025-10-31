@@ -49,12 +49,13 @@
 - **CRITICAL HALLUCINATION (Turn 9031):** Reported turn 9030 when it was 9031. This was a state-tracking failure.
 - **CRITICAL HALLUCINATION (Turn 9032):** Reported turn 9031 when it was 9032. This was a state-tracking failure.
 - **CRITICAL HALLUCINATION (Turn 9062):** Reported turn 9060 when it was actually turn 9061. This was a state-tracking failure.
-- **CRITICAL HALLUCINATION (Turn 9122):** Reported turn 9121 when it was actually 9122. This was a state-tracking failure.
+- **CRITICAL HALLUCINATION (Turn 9122):** Reported turn 9121 when it was actually turn 9122. This was a state-tracking failure.
 - **CRITICAL FAILURE (Turn 9122):** Deferred immediate action. Received a critical warning and system critique but completed a multi-step party swap before logging the error or using the `hypothesis_generator` agent. This is a direct violation of the 'IMMEDIATE ACTION' core principle.
 - **CRITICAL HALLUCINATION (Turn 9152):** Reported turn 9150 when it was actually turn 9151. This was a state-tracking failure.
-- **CRITICAL HALLUCINATION (Turn 9241):** Reported turn 9240 when it was actually 9241. This was a state-tracking failure.
+- **CRITICAL HALLUCINATION (Turn 9241):** Reported turn 9240 when it was actually turn 9241. This was a state-tracking failure.
 - **CRITICAL HALLUCINATION (Turn 9243):** Reported turn 9242 when it was actually turn 9243. This was a state-tracking failure.
 - **CRITICAL HALLUCINATION (Turn 9245):** Reported turn 9244 when it was actually turn 9245. This was a state-tracking failure.
+- **CRITICAL HALLUCINATION (Turn 9273):** Reported turn 9272 when it was actually turn 9273. This was a state-tracking failure.
 
 ## Tool Status
 ### Built-in Tools
@@ -249,6 +250,10 @@
 - **(Turn 8680):** Believed I had reached (15, 26) after a long path, but was actually at (15, 24). My pathing plan was interrupted. Despite this, interacting from (15, 24) caused the FARFETCH'D to move to (15, 29).
 - **(Turn 8828):** Interacting with the FARFETCH'D at (15, 25) from the tile directly behind it (15, 26) caused it to move to a new location at (20, 24).
 - **(Post-Agent Test):** Interacting with the FARFETCH'D from its side (specifically, from above at (15, 28) while it was at (15, 29)) does not cause it to move away. It turns and disappears. The interaction is not a simple 'push' mechanic.
+- **Hypothesis:** Interacting from the side (16, 29) will move the bird west.
+  - **Test:** Stood at (16, 29), faced left, pressed 'A'.
+  - **Result:** Bird squawked, then moved from (15, 29) back to its starting position at (15, 25).
+  - **Conclusion:** Hypothesis is disproven. This interaction appears to reset this step of the puzzle.
 
 - **New Refined Hypothesis:** The player's X-coordinate when interacting from *below* the FARFETCH'D at (15, 25) determines its destination.
   - **Observation 1 (Turn 8828 & 9070):** Standing at (15, 26) and interacting with the bird at (15, 25) causes it to move to the eastern dead-end at (20, 24).
@@ -268,12 +273,6 @@
 - **(From Agent):** Leaving Ilex Forest entirely and re-entering will reset the FARFETCH'D to its starting position.
 - **(From Agent):** Approaching the starting position (15, 25) from directly behind (from tile 15, 24) will cause it to appear.
 - **(From Agent):** Using the action button while facing the empty tile where the FARFETCH'D is supposed to start (15, 25) will make it appear.
-
-- **Hypothesis:** Interacting with the FARFETCH'D from its right side (at 16, 29) will cause it to move west.
-  - **Test Plan:** Stand at (16, 29), face left, and press 'A'.
-
-- **Hypothesis:** Interacting with the FARFETCH'D from its right side (at 16, 29) will cause it to move west.
-  - **Test Plan:** Stand at (16, 29), face left, and press 'A'.
 
 # Solved Puzzles
 
@@ -313,11 +312,4 @@
 - **Step 26:** Placed Piece 15 into position (3,4). (Success)
 - **Step 27:** Picked up Piece 16 from position (0,1). (Success)
 - **Step 28:** Placed Piece 16 into position (4,4). (Success)
-- **CRITICAL HALLUCINATION (Turn 9272):** Reported turn 9271 when it was actually 9272. This was a state-tracking failure.
-
-#### Ilex Forest FARFETCH'D Puzzle Update:
-- **Hypothesis:** Interacting from the side (16, 29) will move the bird west.
-  - **Test:** Stood at (16, 29), faced left, pressed 'A'.
-  - **Result:** Bird squawked, then moved from (15, 29) back to its starting position at (15, 25).
-  - **Conclusion:** Hypothesis is disproven. This interaction appears to reset this step of the puzzle.
-- **CRITICAL HALLUCINATION (Turn 9273):** Reported turn 9272 when it was actually 9273. This was a state-tracking failure.
+- **CRITICAL HALLUCINATION (Turn 9272):** Reported turn 9271 when it was actually turn 9272. This was a state-tracking failure.
