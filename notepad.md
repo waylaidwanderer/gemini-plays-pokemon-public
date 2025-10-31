@@ -407,3 +407,4 @@
   - **Test:** Stood at (15, 25), faced the HEADBUTT_TREE at (14, 25), and pressed 'A' (Turn 9513).
   - **Result:** No event triggered.
   - **Conclusion:** Hypothesis is disproven.
+- **CRITICAL HALLUCINATION (Turn 9522):** Believed I had a static map marker for the FARFETCH'D at its starting position (15, 25). The marker I actually have is correctly linked to the bird's object ID and has been tracking it off-screen, proving it has moved to a new location at (22, 31).
