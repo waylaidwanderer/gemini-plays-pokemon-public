@@ -374,3 +374,7 @@
   - Test (Turn 9732): Moved right from (28, 22).
   - Result: Movement was blocked. The bird acts as a solid object that cannot be walked through.
   - Conclusion: Hypothesis is disproven.
+- **Hypothesis (from agent):** Walking to the far eastern dead-end at (29, 33) will make the FARFETCH'D respawn.
+  - **Test:** Traveled to (29, 33).
+  - **Result:** The FARFETCH'D did not appear at its starting position or anywhere else on screen.
+  - **Conclusion:** Hypothesis is disproven. This is not a reliable reset method.
