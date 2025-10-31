@@ -337,6 +337,11 @@
   - **Result:** The bird squawked, then disappeared from (28, 31) after the dialogue was dismissed.
   - **Conclusion:** Hypothesis is disproven. This interaction appears to be an incorrect move that resets the bird's position.
 
+- **Hypothesis:** Returning to the starting position (15, 25) after the bird disappeared will make it reappear.
+  - **Test:** Returned to (15, 26) to check the starting position at (15, 25).
+  - **Result:** The bird did not reappear.
+  - **Conclusion:** This action does not reset the puzzle.
+
 #### Untested Hypotheses & Assumptions
 - The FARFETCH'D moves on a timer, independent of player interaction.
 - The puzzle might require a sequence of twig pile activations, not direct 'A' button interaction.
