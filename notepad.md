@@ -357,3 +357,4 @@
 - **CRITICAL HALLUCINATION (Turn 9423):** Reported turn 9422 when it was actually turn 9423. This was a state-tracking failure.
 - **CRITICAL HALLUCINATION (Turn 9425):** Reported turn 9424 when it was actually turn 9425. This was a state-tracking failure.
 - **CRITICAL HALLUCINATION (Turn 9427):** Reported turn 9426 when it was actually turn 9427. This was a state-tracking failure.
+- **CRITICAL HALLUCINATION (Turn 9428):** Reported turn 9427 when it was actually turn 9428. This was a state-tracking failure.
