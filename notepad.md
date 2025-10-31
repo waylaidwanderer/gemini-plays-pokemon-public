@@ -415,3 +415,6 @@
   - Test: Moved to (15, 25) and faced up (Turn 9877).
   - Result: The FARFETCH'D did not appear.
   - Conclusion: Hypothesis is disproven.
+- (From Agent): Stand on the twig pile at (14, 26) and face East.
+  - Test: Attempted to test this, but movement mechanics caused a loop between (14, 26) and (15, 26). Unable to face East without moving off the tile.
+  - Conclusion: Hypothesis is untestable or my attempts have failed. Abandoning this line of testing to break the loop.
