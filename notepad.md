@@ -249,30 +249,7 @@
 
 ### Current Hypothesis & Key Breakthroughs
 - **(Turn 9725 & 9903) BREAKTHROUGH:** Exploring the far eastern path of the forest (specifically reaching dead ends at (29, 22) and (29, 33)) triggered the FARFETCH'D to reappear at new locations, (29, 22) and (28, 31) respectively. This confirms the puzzle requires triggering events through exploration.
-- **(Turn 8680, 8828, 9070, 9120) BREAKTHROUGH:** The player's X-coordinate when interacting from *below* the FARFETCH'D at (15, 25) determines its destination.
-  - **Observation 1:** Standing at (15, 26) and interacting with the bird at (15, 25) causes it to move to the eastern dead-end at (20, 24).
-  - **Observation 2:** Standing at (15, 24) and interacting with the bird at (15, 25) causes it to move south to (15, 29).
-- **Current Refined Hypothesis:** The bird's initial facing direction is a critical component of the puzzle, likely influenced by twig piles. The interaction from a specific tile (e.g., 15, 24) only works when the bird is facing a specific direction. The next step is to manipulate its facing and then trigger the southward movement from (15, 24).
-- (From Agent): Stand on the tile directly south of the bird's starting location (15, 26), face north towards its empty tile, and press the interact button.
-  - Test: Stood at (15, 26), faced up, and pressed 'A' (Turn 9953).
-  - Result: No event triggered.
-  - Conclusion: Hypothesis is disproven.
-- (From Agent): Stand on the bird's starting tile (15, 25) and change your facing direction.
-  - Test: Stood at (15, 25) and faced North and South. East and West are blocked by impassable tiles.
-  - Result: The FARFETCH'D did not appear.
-  - Conclusion: Hypothesis is disproven.
-- Hypothesis: Re-enacting the exploration trigger sequence (stepping on 28,22 then 29,33) will make the FARFETCH'D reappear.
-  - Test: Traveled to (29, 33) after the bird reset to (15, 25).
-  - Result: The object-linked map marker confirmed the bird did not move from its starting position.
-  - Conclusion: Hypothesis is disproven. The exploration triggers are part of a one-time sequence and do not reset.
-- (From Agent): Stand on the tile directly south of the bird's starting location (15, 26), face north towards its empty tile, and press the interact button.
-  - Test: Stood at (15, 26), faced up, and pressed 'A' (Turn 9980).
-  - Result: No event triggered.
-  - Conclusion: Hypothesis is disproven.
 
-- **Hypothesis (from agent):** Face the southern twig pile (14, 27) and press the interact button.
-  - **Test Attempt (from south):** Attempted to stand at (14, 28) and face up. (Turns 10129-10132)
-  - **Result (from south):** Pressing 'Up' from (14, 28) forces a move onto (14, 27).
   - **Test Attempt (from east):** Attempted to stand at (15, 27) and face left. (Turn 10134)
   - **Result (from east):** Pressing 'Left' from (15, 27) forces a move onto (14, 27).
   
