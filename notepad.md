@@ -278,3 +278,7 @@
 - **Alternative Hypothesis (ESCAPE Puzzle):** The puzzle requires using an 'Escape Rope' item while standing directly in front of the wall.
 - **Alternative Hypothesis (Odd Tree Puzzle):** The tree is a story-based roadblock that will be removed after an event elsewhere, not a solvable puzzle at this time.
 - **RECURRING STATE-TRACKING FAILURE (Turn 10473):** Misreported turn number 10473 as 10472, a minor but recurring state-tracking failure.
+
+# Route 36 'Odd Tree' Puzzle - Log Update
+- **Re-verification (Turn 10517):** Stood at (36, 9), faced the tree at (35, 9), and pressed 'A'.
+  - **Result:** No text appeared, no event triggered. This re-confirms that a simple 'A' press from this position is not the solution.
