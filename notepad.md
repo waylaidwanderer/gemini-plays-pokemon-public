@@ -311,13 +311,6 @@
 - **Alternative Hypotheses Logged:** Documented alternative hypotheses for my pathfinding failures. 1) The path is blocked by an invisible wall, not a tool bug. 2) There is a different, hidden path to Azalea Town that I have missed.
 - **CRITICAL HALLUCINATION (Turn 11105):** Believed a warp existed at (6, 74) on UnionCave1F and set it as a navigation goal. The system confirmed no warp exists there. This is a failure to verify warp locations before setting goals.
 
-# Tool Failures
-
-### Union Cave Fisher Dead End
-- **Objective:** Get past the Fisher at (15, 27).
-- **Observations:** Repeatedly interacting with the Fisher only repeats his dialogue ('It's my POKéMON's fire that lights up this cave.') and does not initiate a battle.
-- **Conclusion:** The Fisher is not a trainer to be defeated. He is an impassable NPC at the end of a dead-end path. The southern loop of Union Cave 1F does not connect to the exit. Future attempts to pass this way are futile. The correct strategy is to backtrack and find an alternative route.
-
 # Tool Usage Protocols
 
 ## `generate_path_plan`
