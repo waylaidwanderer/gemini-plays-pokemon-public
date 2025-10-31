@@ -311,3 +311,6 @@
 #### Untestable Hypotheses
 - Use the move 'Headbutt' on the special tree located at (14, 25). (Reason: No Headbutt)
 - Stand on the tile north of the bird's starting position (15, 24), face south towards the bird's starting tile, and press the interact button. (Reason: A forced movement loop at (15, 24) prevents turning to face the target tile.)
+
+## Future Agent & Tool Ideas
+- Refine find_path_to_target_bfs to correctly handle one-way traversal tiles like LEDGE_HOP_RIGHT.
