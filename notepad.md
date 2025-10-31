@@ -384,3 +384,7 @@
 - **Hypothesis 1 (Untestable):** Use 'Headbutt' on the tree at (14, 25) from (15, 25). (Reason: No Headbutt)
 - **Hypothesis 2 (Testable):** Step onto the twig pile at (14, 26) by approaching from the east (from 15, 26).
 - **Hypothesis 3 (Testable):** Stand on (15, 25) and interact with the wall at (16, 25).
+- **Hypothesis 2:** Step onto the twig pile at (14, 26) by approaching from the east (from 15, 26).
+  - **Test (Turn 10150):** Moved from (15, 26) to (14, 26).
+  - **Result:** No event triggered.
+  - **Conclusion:** Hypothesis is disproven.
