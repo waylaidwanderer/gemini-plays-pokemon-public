@@ -345,4 +345,7 @@
   - **Conclusion:** Hypothesis disproven. The dead-end trigger is incorrect. Agent updated to reflect this.
 
 - **Hypothesis:** Voluntarily stepping on the twig piles is the trigger for the FARFETCH'D to appear.
-  - **Test 1 (Northern Pile):** Moving left from (15, 26) to land on the twig pile at (14, 26).
+  - **Test 1 (Northern Pile):** Moved left from (15, 26) to land on the twig pile at (14, 26).
+  - **Result:** No event triggered. The FARFETCH'D did not appear.
+  - **Conclusion:** Hypothesis partially disproven. Stepping on the northern pile is not the trigger.
+  - **Test 2 (Southern Pile):** Moving down from (14, 26) to land on the twig pile at (14, 27).
