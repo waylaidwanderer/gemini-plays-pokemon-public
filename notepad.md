@@ -313,3 +313,10 @@
 - **Step 26:** Placed Piece 15 into position (3,4). (Success)
 - **Step 27:** Picked up Piece 16 from position (0,1). (Success)
 - **Step 28:** Placed Piece 16 into position (4,4). (Success)
+- **CRITICAL HALLUCINATION (Turn 9272):** Reported turn 9271 when it was actually 9272. This was a state-tracking failure.
+
+#### Ilex Forest FARFETCH'D Puzzle Update:
+- **Hypothesis:** Interacting from the side (16, 29) will move the bird west.
+  - **Test:** Stood at (16, 29), faced left, pressed 'A'.
+  - **Result:** Bird squawked, then moved from (15, 29) back to its starting position at (15, 25).
+  - **Conclusion:** Hypothesis is disproven. This interaction appears to reset this step of the puzzle.
