@@ -267,10 +267,16 @@
 
 - **New Observation (Turn 9363):** My movement from (14, 27) to (14, 29) caused the bird at (15, 29) to change its facing direction from 'down' to 'up'. This confirms player movement on regular floor tiles, not just stepping on twigs, is a trigger for changing the bird's direction.
 
-**Test Plan:**
-- **Step 1:** Return to the area around the twig pile at (14, 26) to trigger the FARFETCH'D's respawn at (15, 25).
-- **Step 2:** Once it has spawned, pathfind to (15, 24).
-- **Step 3:** Interact with the bird from (15, 24) to confirm it moves to (15, 29).
+- **Hypothesis:** Interacting from the side (14, 29) while the bird is at (15, 29) will move it west.
+  - **Test (Turn 9366):** Stood at (14, 29), faced right, pressed 'A'.
+  - **Result:** Bird at (15, 29) turned to face me, squawked, then disappeared.
+  - **Conclusion:** Hypothesis is disproven. This interaction is another reset condition, causing the bird to despawn and likely return to (15, 25).
+
+**New Test Plan:**
+- **Step 1:** Confirm the FARFETCH'D has respawned at (15, 25).
+- **Step 2:** Experiment with player movement and twig piles to manipulate its facing direction until it faces away from the interaction tile (15, 24).
+- **Step 3:** Move to (15, 24).
+- **Step 4:** Interact with the bird from (15, 24) to trigger the southern movement to (15, 29).
 
 #### Untested Hypotheses & Assumptions
 - The FARFETCH'D moves on a timer, independent of player interaction.
