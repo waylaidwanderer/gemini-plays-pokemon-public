@@ -298,22 +298,7 @@
   - **Conclusion:** Hypothesis is disproven.
 #### Agent Hypotheses (Turn 10112)
 - **Hypothesis 1 (Testable):** Step on the twig pile located at coordinates (14, 26).
-- **Hypothesis 2 (Testable):** Step on the twig pile located at coordinates (14, 27).
-- **Hypothesis 3 (Untestable):** Stand on the tile directly north of the bird's starting position (15, 24), face south, and interact. (Known movement loop prevents testing).
-- **Hypothesis 1:** Step on the twig pile located at coordinates (14, 26).
-  - **Test (Turn 10114):** Moved onto the twig pile at (14, 26).
-  - **Result:** No event triggered. The FARFETCH'D did not appear.
-  - **Conclusion:** Hypothesis is disproven.
-- **Hypothesis 2:** Step on the twig pile located at coordinates (14, 27).
-  - **Test (Turn 10116):** Moved onto the twig pile at (14, 27).
-  - **Result:** No event triggered. The FARFETCH'D did not appear.
-  - **Conclusion:** Hypothesis is disproven.
-#### Agent Hypotheses (Turn 10117)
-- **Hypothesis 1 (Testable):** Face the twig pile at (14, 26) and press the interact button.
-- **Hypothesis 2 (Testable):** Face the twig pile at (14, 27) and press the interact button.
-- **Hypothesis 3 (Testable):** Stand directly on the bird's starting tile (15, 25) and press the interact button.
-- **Hypothesis 4 (Untestable):** Approach the bird's starting location (15, 25) from the north. (Known movement loop prevents testing).
-- **Hypothesis 1 (Untestable):** Face the twig pile at (14, 26) and press the interact button.
+
   - **Test Plan:** Attempt to face the twig pile from the adjacent tile at (15, 26).
   - **Result:** The documented movement loop at (15, 26) prevents turning left; it forces a move onto (14, 26). As there are no other valid adjacent tiles to interact from, this hypothesis is untestable.
   - **Conclusion:** Hypothesis is untestable.
