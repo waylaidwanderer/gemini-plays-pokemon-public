@@ -326,3 +326,6 @@
 
 ## `generate_path_plan`
 - **CRITICAL PROCESS:** To prevent pathing into known off-screen obstacles (like the Fisher in Union Cave), I MUST consult my notepad and map markers for the target map *before* calling this tool. The coordinates of any known impassable NPCs or other temporary blockades must be manually added to the `object_locations_json` argument. This addresses a critical design flaw where the tool cannot see off-screen objects.
+
+- **Hypothesis:** Interacting with the FARFETCH'D at (28, 31) from below (at 28, 32) will move it.
+  - **Test:** Stood at (28, 32), faced the bird, and will press 'A'.
