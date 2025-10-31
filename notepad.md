@@ -395,6 +395,6 @@
   - **Result:** No event triggered.
   - **Conclusion:** Hypothesis is disproven.
 #### Agent Hypotheses (Turn 10156)
-- **Hypothesis 1 (Testable):** Stand on the tile north of the bird's starting position (15, 24) and interact with the spot where the bird should be (15, 25).
+- **Hypothesis 1 (Untestable):** Stand on the tile north of the bird's starting position (15, 24) and interact with the spot where the bird should be (15, 25). (Reason: A forced movement loop at (15, 24) prevents turning to face the target tile.)
 - **Hypothesis 2 (Untestable):** Use the move 'Headbutt' on the special tree located at (14, 25). (Reason: No Headbutt)
-- **Hypothesis 3 (Vague):** Approach the twig pile at (14, 27) from a different angle and step on it.
+- **Hypothesis 3 (Untestable/Vague):** Approach the twig pile at (14, 27) from a different angle and step on it. (Reason: All adjacent traversable tiles have forced movement that prevents interacting with or approaching the twig pile in a controlled way.)
