@@ -320,3 +320,4 @@
   - **Test:** Stood at (16, 29), faced left, pressed 'A'.
   - **Result:** Bird squawked, then moved from (15, 29) back to its starting position at (15, 25).
   - **Conclusion:** Hypothesis is disproven. This interaction appears to reset this step of the puzzle.
+- **CRITICAL HALLUCINATION (Turn 9273):** Reported turn 9272 when it was actually 9273. This was a state-tracking failure.
