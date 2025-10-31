@@ -282,3 +282,4 @@
 # Route 36 'Odd Tree' Puzzle - Log Update
 - **Re-verification (Turn 10517):** Stood at (36, 9), faced the tree at (35, 9), and pressed 'A'.
   - **Result:** No text appeared, no event triggered. This re-confirms that a simple 'A' press from this position is not the solution.
+- Path-to-Moving-Target Agent/Tool: Could automate the process of stunning a moving NPC and then immediately pathfinding to them.
