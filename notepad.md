@@ -58,6 +58,14 @@
 - **CRITICAL HALLUCINATION (Turn 9243):** Reported turn 9242 when it was actually turn 9243. This was a state-tracking failure.
 - **CRITICAL HALLUCINATION (Turn 9245):** Reported turn 9244 when it was actually turn 9245. This was a state-tracking failure.
 - **CRITICAL HALLUCINATION (Turn 9273):** Reported turn 9272 when it was actually turn 9273. This was a state-tracking failure.
+- **CRITICAL HALLUCINATION (Turn 9272):** Reported turn 9271 when it was actually turn 9272. This was a state-tracking failure.
+- **CRITICAL FAILURE (Turns 9359-9408):** Repeatedly deferred immediate documentation of new discoveries and failed hypotheses related to the FARFETCH'D puzzle, a direct violation of the 'IMMEDIATE ACTION' core principle.
+- **CRITICAL HALLUCINATION (Turn 9421):** Reported turn 9420 when it was actually turn 9421. This was a state-tracking failure.
+- **CRITICAL HALLUCINATION (Turn 9423):** Reported turn 9422 when it was actually turn 9423. This was a state-tracking failure.
+- **CRITICAL HALLUCINATION (Turn 9425):** Reported turn 9224 when it was actually turn 9425. This was a state-tracking failure.
+- **CRITICAL HALLUCINATION (Turn 9427):** Reported turn 9426 when it was actually turn 9427. This was a state-tracking failure.
+- **CRITICAL HALLUCINATION (Turn 9428):** Reported turn 9427 when it was actually turn 9428. This was a state-tracking failure.
+- **CRITICAL HALLUCINATION (Turn 9429):** Reported turn 9428 when it was actually turn 9429. This was a state-tracking failure.
 
 ## Tool Status
 ### Built-in Tools
@@ -245,6 +253,7 @@
 - Some interactions cause the bird to move to a new location, while others make it disappear entirely, likely resetting its position.
 - The entire eastern section of the maze is a dead end and a red herring.
 - **CRUCIAL INSIGHT:** The player's X-coordinate when interacting from *below* the FARFETCH'D at (15, 25) determines its destination.
+- Player movement on certain non-twig floor tiles can change the bird's facing direction. (Verified Turn 9363)
 
 #### Solution Discovery Log & Current Hypothesis
 - **(Turn 8680):** Believed I had reached (15, 26) after a long path, but was actually at (15, 24). My pathing plan was interrupted. Despite this, interacting from (15, 24) caused the FARFETCH'D to move to (15, 29).
@@ -275,22 +284,35 @@
   - **Result:** The FARFETCH'D did not appear at (15, 25).
   - **Conclusion:** Hypothesis is disproven.
 
-- **(From Agent):** Approaching the starting position (15, 25) from directly behind (from tile 15, 24) will cause it to appear.
-  - **Test:** Moved to (15, 23), then stepped down onto (15, 24).
-  - **Result:** The FARFETCH'D did not appear at (15, 25).
-  - **Conclusion:** Hypothesis is disproven.
-
-- **(From Agent):** Approaching the starting position (15, 25) from directly behind (from tile 15, 24) will cause it to appear.
-  - **Test:** Moved to (15, 23), then stepped down onto (15, 24).
-  - **Result:** The FARFETCH'D did not appear at (15, 25).
-  - **Conclusion:** Hypothesis is disproven.
-
-- **New Observation (Turn 9363):** My movement from (14, 27) to (14, 29) caused the bird at (15, 29) to change its facing direction from 'down' to 'up'. This confirms player movement on regular floor tiles, not just stepping on twigs, is a trigger for changing the bird's direction.
-
 - **Hypothesis:** Interacting from the side (14, 29) while the bird is at (15, 29) will move it west.
   - **Test (Turn 9366):** Stood at (14, 29), faced right, pressed 'A'.
   - **Result:** Bird at (15, 29) turned to face me, squawked, then disappeared.
   - **Conclusion:** Hypothesis is disproven. This interaction is another reset condition, causing the bird to despawn and likely return to (15, 25).
+
+- **Hypothesis (from agent):** Standing on the FARFETCH'D's starting tile (15, 25) will make it respawn.
+  - **Test:** Moved to (15, 25) (turn 9445).
+  - **Result:** The bird did not appear.
+  - **Conclusion:** Hypothesis is disproven.
+
+- **(From Agent):** Step on the twig pile at (14, 26).
+  - **Test:** Moved to (14, 26) (turn 9434), then to (15, 26) to observe.
+  - **Result:** The FARFETCH'D did not appear at its starting position (15, 25).
+  - **Conclusion:** Hypothesis is disproven.
+
+- **(From Agent):** Interact with the twig pile at (14, 27) by facing it and pressing the action button.
+  - **Test:** Stood at (14, 27), faced up, pressed 'A' (Turn 9439).
+  - **Result:** No event triggered.
+  - **Conclusion:** Hypothesis is disproven.
+
+- **(From Agent):** Approach the starting position (15, 25) from the left side (from tile 14, 25).
+  - **Test:** Analyzed the map.
+  - **Result:** The tile at (14, 25) is a HEADBUTT_TREE and is impassable.
+  - **Conclusion:** Hypothesis is invalid and cannot be tested.
+
+- **(From Agent):** Use the action button while facing the empty tile where the FARFETCH'D is supposed to start (15, 25) will make it appear.
+  - **Test:** Stood at (15, 26), faced up, pressed 'A' (Turn 9448).
+  - **Result:** No event triggered.
+  - **Conclusion:** Hypothesis is disproven.
 
 **New Test Plan:**
 - **Step 1:** Confirm the FARFETCH'D has respawned at (15, 25).
@@ -300,12 +322,10 @@
 
 #### Untested Hypotheses & Assumptions
 - The FARFETCH'D moves on a timer, independent of player interaction.
-- Stepping on specific non-twig floor tiles can influence the FARFETCH'D's movement or facing direction.
 - The puzzle might require a sequence of twig pile activations, not direct 'A' button interaction.
+- The puzzle might involve leading the bird, not pushing it.
+- The solution might require using a specific item from the bag.
 - The apprentice at (7, 28) might not be the final destination; the bird may need to be herded elsewhere first.
-- **(From Agent):** Leaving Ilex Forest entirely and re-entering will reset the FARFETCH'D to its starting position.
-- **(From Agent):** Approaching the starting position (15, 25) from directly behind (from tile 15, 24) will cause it to appear.
-- **(From Agent):** Using the action button while facing the empty tile where the FARFETCH'D is supposed to start (15, 25) will make it appear.
 
 # Solved Puzzles
 
@@ -345,50 +365,3 @@
 - **Step 26:** Placed Piece 15 into position (3,4). (Success)
 - **Step 27:** Picked up Piece 16 from position (0,1). (Success)
 - **Step 28:** Placed Piece 16 into position (4,4). (Success)
-- **CRITICAL HALLUCINATION (Turn 9272):** Reported turn 9271 when it was actually turn 9272. This was a state-tracking failure.
-
-- **Hypothesis (from agent):** Standing on the FARFETCH'D's starting tile (15, 25) will make it respawn.
-  - **Test:** Moved to (15, 25).
-  - **Result:** The bird did not appear.
-  - **Conclusion:** Hypothesis is disproven.
-- **CRITICAL FAILURE (Turns 9359-9408):** Repeatedly deferred immediate documentation of new discoveries and failed hypotheses related to the FARFETCH'D puzzle, a direct violation of the 'IMMEDIATE ACTION' core principle.
-
-#### Untested Hypotheses & Assumptions
-- The puzzle might be on a timer; the bird could move or change direction without player input.
-- The puzzle might involve leading the bird, not pushing it.
-- The solution might require using a specific item from the bag.
-- The apprentice at (7, 28) may not be the final destination.
-- **CRITICAL HALLUCINATION (Turn 9421):** Reported turn 9420 when it was actually turn 9421. This was a state-tracking failure.
-- **CRITICAL HALLUCINATION (Turn 9423):** Reported turn 9422 when it was actually turn 9423. This was a state-tracking failure.
-- **CRITICAL HALLUCINATION (Turn 9425):** Reported turn 9424 when it was actually turn 9425. This was a state-tracking failure.
-- **CRITICAL HALLUCINATION (Turn 9427):** Reported turn 9426 when it was actually turn 9427. This was a state-tracking failure.
-- **CRITICAL HALLUCINATION (Turn 9428):** Reported turn 9427 when it was actually turn 9428. This was a state-tracking failure.
-- **CRITICAL HALLUCINATION (Turn 9429):** Reported turn 9428 when it was actually turn 9429. This was a state-tracking failure.
-
-- (From Agent): Step on the twig pile at (14, 26).
-  - Test: Moved to (14, 26) (turn 9434), then to (15, 26) to observe.
-  - Result: The FARFETCH'D did not appear at its starting position (15, 25).
-  - Conclusion: Hypothesis is disproven.
-
-- (From Agent): Interact with the twig pile at (14, 27) by facing it and pressing the action button.
-  - Test: Stood at (14, 27), faced up, pressed 'A' (Turn 9439).
-  - Result: No event triggered.
-  - Conclusion: Hypothesis is disproven.
-
-- (From Agent): Approach the starting position (15, 25) from the left side (from tile 14, 25).
-  - Test: Analyzed the map.
-  - Result: The tile at (14, 25) is a HEADBUTT_TREE and is impassable.
-  - Conclusion: Hypothesis is invalid and cannot be tested.
-  - **Test:** Moved to (14, 26) (turn 9434), then to (15, 26) to observe.
-  - **Result:** The FARFETCH'D did not appear at its starting position (15, 25).
-  - **Conclusion:** Hypothesis is disproven.
-
-- (From Agent): Standing on the FARFETCH'D's starting tile (15, 25) will make it respawn.
-  - Test: Moved to (15, 25) (turn 9445).
-  - Result: The bird did not appear.
-  - Conclusion: Hypothesis is disproven.
-
-- (From Agent): Use the action button while facing the empty tile where the FARFETCH'D is supposed to start (15, 25) will make it appear.
-  - Test: Stood at (15, 26), faced up, pressed 'A' (Turn 9448).
-  - Result: No event triggered.
-  - Conclusion: Hypothesis is disproven.
