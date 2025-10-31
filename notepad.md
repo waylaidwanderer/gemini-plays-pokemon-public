@@ -265,6 +265,8 @@
   - **Result:** The bird turned to face me and squawked, but did not move from (15, 25).
   - **Conclusion:** Hypothesis is disproven. The bird's initial facing direction is a critical component of the puzzle. The interaction from (15, 24) only works when the bird is facing a specific direction (likely away from me).
 
+- **New Observation (Turn 9363):** My movement from (14, 27) to (14, 29) caused the bird at (15, 29) to change its facing direction from 'down' to 'up'. This confirms player movement on regular floor tiles, not just stepping on twigs, is a trigger for changing the bird's direction.
+
 **Test Plan:**
 - **Step 1:** Return to the area around the twig pile at (14, 26) to trigger the FARFETCH'D's respawn at (15, 25).
 - **Step 2:** Once it has spawned, pathfind to (15, 24).
