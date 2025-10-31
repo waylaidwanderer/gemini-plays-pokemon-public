@@ -284,3 +284,5 @@
   - **Result:** No text appeared, no event triggered. This re-confirms that a simple 'A' press from this position is not the solution.
 - Path-to-Moving-Target Agent/Tool: Could automate the process of stunning a moving NPC and then immediately pathfinding to them.
 - **RECURRING STATE-TRACKING FAILURE (Turn 10591):** Misreported turn number 10591 as 10590.
+- **CRITICAL HALLUCINATION (Turn 10592):** Hallucinated a warp at (14, 35) on VioletCity. The GameState confirms no warp exists there. The path to Route 32 is a southern map transition, not a warp tile.
+- **RECURRING STATE-TRACKING FAILURE (Turn 10591):** Misreported turn number 10591 as 10590.
