@@ -293,3 +293,4 @@
 - **RECURRING STATE-TRACKING FAILURE (Turn 10712):** Misreported turn number 10712 as 10711.
 - **RECURRING STATE-TRACKING FAILURE (Turn 10712):** Misreported turn number 10712 as 10711.
 - **CRITICAL HALLUCINATION (Turn 10716):** Believed I had successfully warped into Dark Cave (map 26_3) when I was still on Route 31 (map 26_2) at (34, 6). The warp was interrupted by a phone call from Hiker Anthony. This was a major state-tracking failure.
+- **Pathfinder Limitation (Turn 10746):** The `find_path_to_target_bfs` tool currently treats all one-way tiles (LEDGE_HOP, FLOOR_UP_WALL) as impassable. This is a temporary measure to prevent pathing errors until the logic can be improved to correctly model forced movement. This means I must manually navigate any routes that require using these tiles.
