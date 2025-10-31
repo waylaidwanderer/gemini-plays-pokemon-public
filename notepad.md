@@ -280,8 +280,8 @@
 - **RECURRING STATE-TRACKING FAILURE (Turn 10473):** Misreported turn number 10473 as 10472, a minor but recurring state-tracking failure.
 
 # Route 36 'Odd Tree' Puzzle - Log Update
-- **Re-verification (Turn 10517):** Stood at (36, 9), faced the tree at (35, 9), and pressed 'A'.
-  - **Result:** No text appeared, no event triggered. This re-confirms that a simple 'A' press from this position is not the solution.
+- **Re-verification (Turn 10648):** Stood at (36, 9), faced the tree at (35, 9), and pressed 'A'.
+  - **Result:** No text appeared, no event triggered. This confirms yet again that a simple 'A' press is not the solution, regardless of lead Pokémon. Since all obvious paths are blocked, I am pivoting to exploration.
 - Path-to-Moving-Target Agent/Tool: Could automate the process of stunning a moving NPC and then immediately pathfinding to them.
 - **RECURRING STATE-TRACKING FAILURE (Turn 10591):** Misreported turn number 10591 as 10590.
 - **CRITICAL HALLUCINATION (Turn 10592):** Hallucinated a warp at (14, 35) on VioletCity. The GameState confirms no warp exists there. The path to Route 32 is a southern map transition, not a warp tile.
