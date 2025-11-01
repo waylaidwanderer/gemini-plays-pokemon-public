@@ -486,3 +486,9 @@
 ## Alternative Hypotheses
 - **FARFETCH'D Puzzle:** The puzzle may be unsolvable without a key item (e.g., Squirtbottle) or a story flag obtained elsewhere. If all logical interaction-based hypotheses are exhausted, I must pivot to another objective.
 - **Path to Goldenrod City:** The primary path might not be through the 'Odd Tree' on Route 36. An alternative route could exist through unexplored sections of Ilex Forest or Dark Cave. I must fully explore these areas to disprove the assumption that the 'Odd Tree' is the only way forward.
+
+### Ilex Forest FARFETCH'D Puzzle (Continued)
+- **Hypothesis:** Interacting from the front at (29, 23) with the bird at (29, 22) is a valid move.
+  - **Test:** Stood at (29, 23), faced up, pressed 'A'.
+  - **Result:** 'Kwaa!' dialogue, bird disappeared.
+  - **Conclusion:** Hypothesis disproven. Frontal interaction at this stage is a failure condition.
