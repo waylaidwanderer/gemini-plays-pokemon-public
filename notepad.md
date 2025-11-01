@@ -77,7 +77,7 @@
 - **CUT_TREE**: Impassable, requires a specific ability/item to remove. (Verified)
 - **DOOR**: Traversable, acts as a warp tile. (Verified)
 - **FLOOR**: Traversable. (Verified on multiple routes, including Route 36)
-- **FLOOR_UP_WALL (Union Cave 1F):** One-way traversal. Can only be entered by moving 'Up' onto it. It acts as an impassable wall from all other directions. (Verified by being blocked from moving 'Down' onto it at (7, 28))
+- **FLOOR_UP_WALL (Union Cave 1F):** One-way traversal. Functions as a ledge. You can move DOWN onto this tile, but you cannot move UP from it. (Verified by being blocked from moving 'Up' from (5, 18) to (5, 17)). The previous note about this tile was incorrect.
 - **FLOOR_UP_WALL (Union Cave B1F):** This tile functions as a one-way path. You can move up onto it, but attempting to move down from it triggers a warp, sending the player back to the previous map (Union Cave 1F).
 - **HEADBUTT_TREE**: Impassable. (Verified by observation)
 - **LADDER**: Traversable warp. Must be activated by moving *onto* the tile from an adjacent tile. Standing on the ladder and pressing A or a direction does nothing. (Verified)
