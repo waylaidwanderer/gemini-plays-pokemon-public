@@ -43,7 +43,6 @@
 - Navigation Manager Agent/Tool: Could automate the entire navigation process, including pathfinding, executing movement, handling battle interruptions with the battle strategist, and re-pathfinding from the new location.
 - Path-to-Moving-Target Agent/Tool: Could automate the process of stunning a moving NPC and then immediately pathfinding to them.
 - Auto-battler Agent/Tool: Could automate the button press sequence for simple wild battles.
-- Path-to-closest-unseen-tile tool
 
 # Housekeeping Tasks
 - Delete redundant map marker at (0, 14) on Route 33 (map 8_6).
@@ -295,7 +294,6 @@
 - *Type Effectiveness Chart Update*: Bug is super-effective against Psychic. (Verified in battle vs Zubat's Leech Life on Glyph).
 - **CRITICAL REASONING FAILURE (Turns 11717-11720):** After multiple failed attempts to fix my pathfinder's one-way ledge logic, I finally implemented a version that seemed simpler and more correct. However, it was fundamentally backward and based on a complete misunderstanding of the mechanic. The game immediately blocked my movement, proving the new code was broken. My logic from turn 11694 was actually correct, and my 'fix' was a regression that wasted several turns. This is a major failure in debugging and logical reasoning.
 - **RECURRING STATE-TRACKING FAILURE (Turn 11791):** Misreported turn number as 11790 instead of 11791.
-- Path-to-closest-unseen-tile tool
 
 # Reflection Log (Turn 11852)
 - **New Tool/Agent Ideas:**
@@ -311,10 +309,8 @@
 
 ## Reflection-Based Updates (Turn 11955)
 - **Untested Mechanics:** Added tasks to my hypotheses list to explicitly test the one-way traversal of all `LEDGE_HOP` types by attempting to move against their intended direction.
-- **New Tool Idea:** Added 'Path-to-closest-unseen-tile tool' to my future ideas list to streamline exploration.
 - **Alternative Hypotheses Logged:** Documented alternative hypotheses for my current roadblocks. For Dark Cave, the possibility of a hidden passage. For the FARFETCH'D puzzle, the possibility that it is currently unsolvable without a specific item.
 - Exploration Prioritizer Agent: Could analyze the output of `list_reachable_unseen_tiles` and prioritize tiles based on proximity to objectives, map boundaries, or other strategic factors.
-- Path-to-closest-unseen-tile tool
 
 ### Ilex Forest FARFETCH'D Puzzle (Continued)
 - **Hypothesis 3:** The lead Pokémon affects the interaction.
@@ -352,7 +348,6 @@
 
 ## Future Agent & Tool Ideas (Continued)
 - Exploration Strategist Agent: Could take the output of `list_reachable_unseen_tiles` and suggest the most strategically valuable tile to explore next (e.g., closest, or one leading to a cluster).
-- Path-to-closest-unseen-tile tool: A tool that combines `list_reachable_unseen_tiles` and `generate_path_plan` to automate finding and pathing to the nearest explorable area.
 - **CRITICAL HALLUCINATION (Turn 12268):** Believed I was at position (7, 19) when I was actually at (6, 19) after moving. This is a state-tracking failure.
 
 ### Reflection-Based Updates (Turn 12319)
