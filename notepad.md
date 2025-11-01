@@ -409,3 +409,5 @@
 
 ### Turn Execution Rules
 - Tool calls (`tools_to_call`) and path execution (`buttons_to_press: ["path"]`) are mutually exclusive. If both are present in a single turn, the tool call is prioritized and the path is not executed.
+### Ilex Forest FARFETCH'D Puzzle (Continued)
+- **New Discovery (Turn 12972):** The 'Kwaa!' dialogue from the Farfetch'd is flavor text and does NOT indicate a puzzle failure or reset. Interacting with it at (15, 25) from (15, 24) successfully moved it south to (15, 29).
