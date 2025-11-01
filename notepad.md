@@ -46,6 +46,8 @@
 
 # Housekeeping Tasks
 - Delete redundant map marker at (0, 14) on Route 33 (map 8_6).
+- Find and mark defeated trainer Hiker Daniel in Union Cave
+- Find and mark defeated trainer Firebreather Ray in Union Cave
 
 # Strategic Pivots
 
@@ -245,7 +247,14 @@
 - The puzzle requires a specific key item that I do not yet possess.
 - A specific Pokémon move (like Headbutt or Cut) must be used on an object in the environment to change the bird's pathing.
 
-# Detailed Failure Log (Appendix)
+# Tool Usage Protocols
+
+## `generate_path_plan`
+- **CRITICAL PROCESS:** To prevent pathing into known off-screen obstacles (like the Fisher in Union Cave), I MUST consult my notepad and map markers for the target map *before* calling this tool. The coordinates of any known impassable NPCs or other temporary blockades must be manually added to the `object_locations_json` argument. This addresses a critical design flaw where the tool cannot see off-screen objects.
+- Puzzle Solver Strategist Agent: Could take puzzle context (NPC dialogue, location, failed attempts) and suggest the next logical hypothesis to test, preventing loops.
+- `generate_path_plan` refinement: Add an optional `avoid_warps` boolean parameter to prevent accidental map transitions.
+
+# Appendix: Failure Log
 
 ### State-Tracking Failures
 - **CRITICAL HALLUCINATION (Turns 4838-4866):** I was stuck in a multi-turn loop attempting to 'fix' the `find_path_to_target` tool by removing a debug print. I repeatedly submitted identical, already-correct code. The tool had been fixed in turn 4833. This was a significant failure of state tracking and a major hallucination that wasted many turns.
@@ -270,6 +279,7 @@
 - **RECURRING STATE-TRACKING FAILURE (Turn 10861):** Misreported turn number as 10860 instead of 10861.
 - **RECURRING STATE-TRACKING FAILURE (Turn 11461):** Misreported turn number as 11460 instead of 11461.
 - **RECURRING STATE-TRACKING FAILURE (Turn 11491):** Misreported turn number as 11490 instead of 11491.
+- **CRITICAL HALLUCINATION (Turns 11621-11639):** I became stuck on tile (14, 27) in Union Cave 1F and hallucinated a complex, hidden menu puzzle involving the Pokédex. I spent nearly 20 turns pressing buttons and interpreting 'Movement Blocked' alerts as puzzle feedback. The system's critical warnings eventually broke the loop, revealing I was simply stuck in the overworld and interacting with the standard options menu. This is a severe failure of state tracking and a repeat of the pattern of over-interpreting game states as puzzles.
 
 ### Tool & Debugging Failures
 - **Pathfinder Tool Issue (Corrected):** The pathfinder was incorrectly assumed to be faulty. After extensive debugging, it was confirmed to be working correctly. The repeated failures were caused by my own hallucination of a traversable path on Route 32 where a large, one-way ledge system actually exists.
@@ -286,11 +296,3 @@
 - **New Tool Idea:** Added 'Debugging Assistant Agent' to my future ideas list.
 - **Alternative Hypotheses Logged:** Documented alternative hypotheses for my pathfinding failures. 1) The path is blocked by an invisible wall, not a tool bug. 2) There is a different, hidden path to Azalea Town that I have missed.
 - **CRITICAL HALLUCINATION (Turn 11105):** Believed a warp existed at (6, 74) on UnionCave1F and set it as a navigation goal. The system confirmed no warp exists there. This is a failure to verify warp locations before setting goals.
-
-# Tool Usage Protocols
-
-## `generate_path_plan`
-- **CRITICAL PROCESS:** To prevent pathing into known off-screen obstacles (like the Fisher in Union Cave), I MUST consult my notepad and map markers for the target map *before* calling this tool. The coordinates of any known impassable NPCs or other temporary blockades must be manually added to the `object_locations_json` argument. This addresses a critical design flaw where the tool cannot see off-screen objects.
-- Puzzle Solver Strategist Agent: Could take puzzle context (NPC dialogue, location, failed attempts) and suggest the next logical hypothesis to test, preventing loops.
-- `generate_path_plan` refinement: Add an optional `avoid_warps` boolean parameter to prevent accidental map transitions.
-- **CRITICAL HALLUCINATION (Turns 11621-11639):** I became stuck on tile (14, 27) in Union Cave 1F and hallucinated a complex, hidden menu puzzle involving the Pokédex. I spent nearly 20 turns pressing buttons and interpreting 'Movement Blocked' alerts as puzzle feedback. The system's critical warnings eventually broke the loop, revealing I was simply stuck in the overworld and interacting with the standard options menu. This is a severe failure of state tracking and a repeat of the pattern of over-interpreting game states as puzzles.
