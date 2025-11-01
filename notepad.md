@@ -493,3 +493,9 @@
   - **Test:** Stood at (29, 23), faced up, pressed 'A'.
   - **Result:** 'Kwaa!' dialogue, bird disappeared.
   - **Conclusion:** Hypothesis disproven. Frontal interaction at this stage is a failure condition.
+
+### Ilex Forest FARFETCH'D Puzzle (Continued)
+- **Hypothesis:** Interacting from behind at (20, 23) with the bird at (20, 24) is a valid move.
+  - **Test:** Stood at (20, 23), faced down, pressed 'A'.
+  - **Result:** 'Kwaa!' dialogue, bird disappeared.
+  - **Conclusion:** Hypothesis disproven. Interacting from behind is also a failure condition.
