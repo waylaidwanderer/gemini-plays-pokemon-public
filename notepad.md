@@ -48,7 +48,6 @@
 - Delete redundant map marker at (0, 14) on Route 33 (map 8_6).
 
 # Strategic Pivots
-- **Current Pivot (Dark Cave):** The 'Odd Tree' on Route 36 is an impassable story-block, and further exploration of Violet City yielded no new paths. My current strategic pivot is to fully explore Dark Cave, as mentioned by Hiker Anthony, as it represents the next most promising avenue for progress.
 
 # Game Knowledge
 
@@ -215,8 +214,9 @@
 - **Observations:**
   - The path to the clerk is blocked. Talking to the Cooltrainer M at (5, 2) does not open it.
 
-### Union Cave Exploration
-- **Objective:** Explore Union Cave to find a new path forward, as the FARFETCH'D puzzle in Ilex Forest is currently blocking progress.
+### Dark Cave Exploration
+- **Objective:** Fully explore Dark Cave, as it represents the next most promising avenue for progress.
+- **Background:** The 'Odd Tree' on Route 36 is an impassable story-block, and further exploration of Violet City yielded no new paths. My current strategic pivot is to fully explore Dark Cave, as mentioned by Hiker Anthony.
 
 ## Paused Investigations
 
@@ -242,12 +242,32 @@
   - **Test (Turn 10217):** Intentionally triggered the forced movement by pressing 'Up' from (14, 28).
   - **Result:** No event triggered. The FARFETCH'D did not appear.
   - **Conclusion:** Hypothesis disproven.
+- **Hypothesis:** Interacting with the FARFETCH'D at (28, 31) from below (at 28, 32) will move it.
+  - **Test:** Stood at (28, 32), faced the bird, and pressed 'A'.
+  - **Result:** The first 'A' press triggered a 'Kwaa!' dialogue. The second 'A' press caused the bird to disappear.
+  - **Conclusion:** Hypothesis disproven. Interacting from below (28, 32) resets the puzzle to its starting state at (15, 25). Pivoting to using the `farfetchd_puzzle_solver` agent for guidance.
+- **Hypothesis:** Using the forced movement from (15, 24) to land on the bird's spawn point (15, 25) is the trigger for it to appear.
+  - **Test:** Stood at (15, 24) and pressed 'Down'.
+  - **Result:** Landed at (15, 25). No event triggered. The FARFETCH'D did not appear.
+  - **Conclusion:** Hypothesis disproven.
+- **Hypothesis:** Walking to the dead end at (29, 33) will make the FARFETCH'D appear at (28, 31).
+  - **Test (Turn 11409):** Navigated to (29, 33).
+  - **Result (Turn 11411):** Navigated to (28, 31) and the FARFETCH'D was not present.
+  - **Conclusion:** Hypothesis disproven. The dead-end trigger is incorrect. Agent updated to reflect this.
+- **Hypothesis:** Voluntarily stepping on the twig piles is the trigger for the FARFETCH'D to appear.
+  - **Test 1 (Northern Pile):** Moved left from (15, 26) to land on the twig pile at (14, 26).
+  - **Result:** No event triggered. The FARFETCH'D did not appear.
+  - **Conclusion:** Hypothesis partially disproven. Stepping on the northern pile is not the trigger.
+  - **Test 2 (Southern Pile):** Moved down from (14, 26) to land on the twig pile at (14, 27).
+  - **Result:** No event triggered. The FARFETCH'D did not appear.
+  - **Conclusion:** Hypothesis disproven. Voluntarily stepping on the twig piles is not the trigger.
 
 #### Current Hypothesis & Key Breakthroughs
 - **BREAKTHROUGH:** The player's X-coordinate when interacting from *below* the FARFETCH'D at (15, 25) determines its destination.
   - **Observation 1:** Standing at (15, 26) and interacting with the bird at (15, 25) causes it to move to the eastern dead-end at (20, 24).
   - **Observation 2:** Standing at (15, 24) and interacting with the bird at (15, 25) causes it to move south to (15, 29).
 - **Current Refined Hypothesis:** The bird's initial facing direction is a critical component of the puzzle, likely influenced by twig piles. The next step is to manipulate its facing and then trigger the southward movement from (15, 24).
+- **BREAKTHROUGH:** Stepping on the one-way ledge at (27, 22) triggers the FARFETCH'D to appear at (29, 22). This is a confirmed trigger.
 
 #### Alternative Hypotheses
 - The puzzle is time-based and can only be solved during the day or at night.
@@ -278,6 +298,7 @@
 - **CRITICAL HALLUCINATION (Turn 10846):** Believed I was at (58, 8) after a path plan, but the plan had not yet been executed. I was still at (55, 8). This was a major state-tracking failure.
 - **RECURRING STATE-TRACKING FAILURE (Turn 10861):** Misreported turn number as 10860 instead of 10861.
 - **RECURRING STATE-TRACKING FAILURE (Turn 11461):** Misreported turn number as 11460 instead of 11461.
+- **RECURRING STATE-TRACKING FAILURE (Turn 11491):** Misreported turn number as 11490 instead of 11491.
 
 ### Tool & Debugging Failures
 - **Pathfinder Tool Issue (Corrected):** The pathfinder was incorrectly assumed to be faulty. After extensive debugging, it was confirmed to be working correctly. The repeated failures were caused by my own hallucination of a traversable path on Route 32 where a large, one-way ledge system actually exists.
@@ -316,33 +337,3 @@
 
 ## `generate_path_plan`
 - **CRITICAL PROCESS:** To prevent pathing into known off-screen obstacles (like the Fisher in Union Cave), I MUST consult my notepad and map markers for the target map *before* calling this tool. The coordinates of any known impassable NPCs or other temporary blockades must be manually added to the `object_locations_json` argument. This addresses a critical design flaw where the tool cannot see off-screen objects.
-
-- **Hypothesis:** Interacting with the FARFETCH'D at (28, 31) from below (at 28, 32) will move it.
-  - **Test:** Stood at (28, 32), faced the bird, and will press 'A'.
-  - **Result:** The first 'A' press triggered a 'Kwaa!' dialogue. The second 'A' press caused the bird to disappear.
-  - **Conclusion:** Hypothesis disproven. Interacting from below (28, 32) resets the puzzle, just like interacting from the side.
-
-- **Hypothesis:** Using the forced movement from (15, 24) to land on the bird's spawn point (15, 25) is the trigger for it to appear.
-  - **Test:** Stood at (15, 24) and pressed 'Down'.
-  - **Result:** Landed at (15, 25). No event triggered. The FARFETCH'D did not appear.
-  - **Conclusion:** Hypothesis disproven.
-
-- **Hypothesis:** Interacting with the FARFETCH'D at (28, 31) from below (at 28, 32) will move it.
-  - **Test:** Stood at (28, 32), faced the bird, and pressed 'A'.
-  - **Result:** The first 'A' press triggered a 'Kwaa!' dialogue. The second 'A' press caused the bird to disappear.
-  - **Conclusion:** Hypothesis disproven. Interacting from below (28, 32) resets the puzzle to its starting state at (15, 25). Pivoting to using the `farfetchd_puzzle_solver` agent for guidance.
-
-- **Hypothesis:** Walking to the dead end at (29, 33) will make the FARFETCH'D appear at (28, 31).
-  - **Test (Turn 11409):** Navigated to (29, 33).
-  - **Result (Turn 11411):** Navigated to (28, 31) and the FARFETCH'D was not present.
-  - **Conclusion:** Hypothesis disproven. The dead-end trigger is incorrect. Agent updated to reflect this.
-
-- **Hypothesis:** Voluntarily stepping on the twig piles is the trigger for the FARFETCH'D to appear.
-  - **Test 1 (Northern Pile):** Moved left from (15, 26) to land on the twig pile at (14, 26).
-  - **Result:** No event triggered. The FARFETCH'D did not appear.
-  - **Conclusion:** Hypothesis partially disproven. Stepping on the northern pile is not the trigger.
-  - **Test 2 (Southern Pile):** Moved down from (14, 26) to land on the twig pile at (14, 27).
-  - **Result:** No event triggered. The FARFETCH'D did not appear.
-  - **Conclusion:** Hypothesis disproven. Voluntarily stepping on the twig piles is not the trigger.
-
-- **BREAKTHROUGH:** Stepping on the one-way ledge at (27, 22) triggers the FARFETCH'D to appear at (29, 22). This is a confirmed trigger.
