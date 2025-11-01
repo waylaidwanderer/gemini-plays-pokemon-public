@@ -341,5 +341,35 @@
         "action_counter": 12025
       }
     ]
+  },
+  "execute_battle_action": {
+    "description": "Takes the output of simple_battle_strategist and generates the sequence of button presses to execute the recommended action (FIGHT with a specific move, or RUN). This tool automates the process of handling simple battles.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "action": {
+          "type": "string",
+          "enum": [
+            "FIGHT",
+            "RUN"
+          ]
+        },
+        "move_to_use": {
+          "type": "string",
+          "nullable": true
+        }
+      },
+      "required": [
+        "action"
+      ]
+    },
+    "python_script": "import json\n\naction = input_data.get('action')\nmove_to_use = input_data.get('move_to_use')\n\n# This list must be updated if the active Pokemon's moveset changes.\n# Current moves for Ignis (QUILAVA):\n# 1. TACKLE\n# 2. LEER\n# 3. QUICK ATTACK\n# 4. EMBER\nmove_order = ['TACKLE', 'LEER', 'QUICK ATTACK', 'EMBER']\n\nbutton_sequence = []\n\nif action == 'RUN':\n    # The select_battle_option tool is more reliable for this.\n    # This tool will be updated to call other tools in the future.\n    # For now, manual button presses are a fallback.\n    button_sequence.extend(['Right', 'Down', 'A'])\nelif action == 'FIGHT':\n    button_sequence.append('A') # Select FIGHT from the main menu\n    if move_to_use:\n        try:\n            move_index = move_order.index(move_to_use)\n            # Add 'Down' presses to navigate the move menu\n            for _ in range(move_index):\n                button_sequence.append('Down')\n            button_sequence.append('A') # Select the move\n        except ValueError:\n            # If move is not found, default to the first move to not stall.\n            button_sequence.append('A')\n\nprint(json.dumps({'buttons': button_sequence}))\n",
+    "history": [
+      {
+        "commit_message": "feat: Create battle automation tool. This tool, `execute_battle_action`, takes the strategic decision from the `simple_battle_strategist` and translates it into the concrete button presses required to execute the action in-game. This will automate the handling of trivial wild battles, significantly improving travel efficiency by removing the need for manual input during these frequent interruptions.",
+        "timestamp": "2025-11-01T06:15:21.984Z",
+        "action_counter": 12137
+      }
+    ]
   }
 }
