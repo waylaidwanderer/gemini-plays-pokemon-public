@@ -291,3 +291,5 @@
 
 ## `generate_path_plan`
 - **CRITICAL PROCESS:** To prevent pathing into known off-screen obstacles (like the Fisher in Union Cave), I MUST consult my notepad and map markers for the target map *before* calling this tool. The coordinates of any known impassable NPCs or other temporary blockades must be manually added to the `object_locations_json` argument. This addresses a critical design flaw where the tool cannot see off-screen objects.
+- Puzzle Solver Strategist Agent: Could take puzzle context (NPC dialogue, location, failed attempts) and suggest the next logical hypothesis to test, preventing loops.
+- `generate_path_plan` refinement: Add an optional `avoid_warps` boolean parameter to prevent accidental map transitions.
