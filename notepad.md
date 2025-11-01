@@ -300,3 +300,4 @@
 ### Reflection-Based Updates (Turn 11695)
 - **CRITICAL REASONING FAILURE (Turns 11683-11690):** I became stuck in a multi-turn loop attempting to fix the `generate_path_plan` tool. I repeatedly submitted identical, broken code, failing to notice that I had not actually removed the incorrect line from the `impassable_types` set. This was a severe failure of process and attention to detail.
 - **New Tool Idea:** Added 'Debugging Assistant Agent' to my future ideas list. This agent could take a script, a description of an error, and the tool's output, then suggest specific code changes or where to add debug prints.
+- *Type Effectiveness Chart Update*: Bug is super-effective against Psychic. (Verified in battle vs Zubat's Leech Life on Glyph).
