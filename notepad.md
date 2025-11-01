@@ -316,3 +316,4 @@
   - The puzzle requires a specific key item I don't have.
   - A Pokémon move like Headbutt must be used on an environmental object.
 - **CRITICAL HALLUCINATION (Turn 11872):** Believed a warp to Union Cave existed at (11, 9) on the AzaleaTown map (8_7). The system confirmed no warp exists there. The actual warp to Union Cave is on Route 33 (8_6) at (11, 9). This was a major failure in location awareness.
+- **RECURRING STATE-TRACKING FAILURE (Turn 11882):** Misreported turn number as 11880 instead of 11881.
