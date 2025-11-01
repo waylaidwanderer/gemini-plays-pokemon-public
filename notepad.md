@@ -337,3 +337,6 @@
   1. The puzzle is currently unsolvable and requires a key item (like a Squirtbottle) or a story flag from elsewhere.
   2. The puzzle is dependent on the time of day (e.g., must be solved at night).
   3. The puzzle requires a specific Pokémon move (like Headbutt) to be used on an object in the environment to alter the bird's pathing.
+
+## Union Cave 1F Tile Mechanics
+- **Task:** Check which Pokémon can learn TM31 MUD-SLAP.
