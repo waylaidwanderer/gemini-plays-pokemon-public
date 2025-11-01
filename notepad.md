@@ -390,3 +390,7 @@
 - **Hypothesis:** The rule 'interacting from the side is always a reset' might depend on the bird's facing direction.
 - **Test:** Pressed 'A' from (21, 24) to interact with the bird at (20, 24).
 - **Conclusion:** The test resulted in the 'Kwaa!' dialogue, a known reset condition. Hypothesis is DISPROVEN. Interacting from the side is a reset, regardless of the bird's facing direction.
+
+### Battle Automation Failure (Turn 12755)
+- **Observation:** My `execute_battle_action` tool generated a sequence to select 'QUICK ATTACK' (Down x2, A). However, the game state showed that 'EMBER' was selected and used instead.
+- **Conclusion:** There is a discrepancy in how the battle menu cursor movement is handled. The tool's logic for navigating the move list is likely flawed. This needs to be investigated and fixed. For now, I must be cautious when using this tool and double-check the cursor position on screen.
