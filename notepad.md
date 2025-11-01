@@ -460,3 +460,6 @@
 - **RECURRING STATE-TRACKING FAILURE (Turn 13313):** Misreported turn number as 13312 instead of 13313.
 - **RECURRING STATE-TRACKING FAILURE (Turn 13329):** Misreported turn number as 13328 instead of 13329.
 - Be more rigorous in testing one-way tiles (LEDGE_HOP, FLOOR_UP_WALL) by attempting to move in all four directions to definitively confirm movement restrictions.
+### Battle Automation Failure (Turns 13429-13432)
+- **Observation:** During the battle with a wild WEEDLE, my automated sequence to select EMBER repeatedly failed. The 'Down' button presses from the `sequence_manager` did not register in the game for multiple turns, leaving the cursor stuck on 'QUICK ATTACK'.
+- **Conclusion:** There is a fundamental issue with how the game is processing sequential directional inputs in the battle menu, or my `sequence_manager` is not sending them correctly. I had to intervene manually to finish the battle. This automation is currently unreliable and needs investigation.
