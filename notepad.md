@@ -430,3 +430,10 @@
     3. Interact with the Farfetch'd from (22, 30).
   - **Result:** The interaction produced the 'Kwaa!' dialogue, a known reset condition. The bird moved to (28, 31).
   - **Conclusion:** Hypothesis is disproven. Stepping on the twig pile at (14, 27) does not change the outcome of this interaction.
+
+### Appendix: Failure Log (Continued)
+- **CRITICAL PROCESS FAILURE (Turn 13142):** Deferred a mandatory notepad update to fix an incomplete tool list by one turn in order to continue a battle. This is a violation of the 'IMMEDIATE ACTION' principle for data management.
+
+## Future Agent & Tool Ideas (Continued)
+- **Automation Manager Agent:** An agent to manage the execution of multi-turn action sequences (e.g., from `execute_battle_action`). It would store the remaining sequence and provide the next action each turn, preventing state-tracking errors.
+- **Auto-Battler Tool:** A tool to orchestrate the entire wild battle flow. It would call `simple_battle_strategist`, then `execute_battle_action`, then manage the multi-turn execution of the button sequence, fully automating trivial encounters.
