@@ -23,6 +23,7 @@
 - **find_adjacent_traversable_tiles:** Operational.
 - **generate_nickname_inputs:** Operational.
 - **generate_path_plan:** Operational.
+- **list_reachable_unseen_tiles:** Operational.
 - **notepad_edit:** Operational.
 - **notepad_refactor_assistant:** Operational.
 - **run_code:** Operational.
