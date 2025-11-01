@@ -16,7 +16,7 @@
 - **simple_battle_strategist:** Operational.
 - **sequence_manager:** Operational.
 
-## Available Tools
+## Available Tools & Agents
 - **define_agent:** Operational.
 - **define_map_marker:** Operational.
 - **define_tool:** Operational.
@@ -29,8 +29,11 @@
 - **generate_path_plan:** Operational.
 - **list_reachable_unseen_tiles:** Operational.
 - **notepad_edit:** Operational.
+- **notepad_refactor_assistant:** Operational.
 - **run_code:** Operational.
 - **select_battle_option:** My previous belief that this tool was broken was a hallucination. The system has confirmed it is 100% reliable and should be preferred over manual inputs.
+- **sequence_manager:** Operational.
+- **simple_battle_strategist:** Operational.
 - **stun_npc:** Operational.
 
 ## Future Agent & Tool Ideas
