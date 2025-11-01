@@ -27,7 +27,7 @@
 - **find_adjacent_traversable_tiles:** Operational.
 - **generate_nickname_inputs:** Operational.
 - **generate_path_plan:** Operational.
-- **path_to_closest_unseen_tile:** Operational.
+- **list_reachable_unseen_tiles:** Operational.
 - **notepad_edit:** Operational.
 - **run_code:** Operational.
 - **select_battle_option:** My previous belief that this tool was broken was a hallucination. The system has confirmed it is 100% reliable and should be preferred over manual inputs.
@@ -85,8 +85,8 @@
 - **TALL_GRASS**: Traversable, contains wild Pokémon. (Verified)
 - **TOWN_MAP**: Impassable. (Verified by observation)
 - **TV**: Impassable. (Verified)
+- **UNKNOWN**: Traversability unknown. Was able to stand on this tile at (28, 32) in Ilex Forest.
 - **VOID**: Impassable. (Verified)
-- **WALL**: Impassable. (Verified)
 - **WARP_CARPET_DOWN**: Traversable warp. Requires pressing 'Down' on the tile to activate. (Verified)
 - **WARP_CARPET_LEFT**: Traversable warp. Requires pressing 'Left' while standing on the tile to activate. (Verified at 2,10 in Azalea Town, 0,4 in IlexForestAzaleaGate, and 0,4 on Route32RuinsOfAlphGate)
 - **WARP_CARPET_RIGHT**: Traversable warp. Requires pressing 'Right' on the tile to activate. (Verified at 3,42 in Ilex Forest)
@@ -372,9 +372,6 @@
 - **New Tool/Agent Ideas:**
   - **Auto-battler Manager Agent:** An agent to manage the entire wild battle flow. It would call `simple_battle_strategist` for a decision, then call `execute_battle_action` to get the button sequence, and then manage the multi-turn execution of that sequence to prevent manual errors.
   - **`list_reachable_unseen_tiles` Tool:** A dedicated tool to parse the map XML and return a list of all unseen tiles adjacent to seen, traversable tiles. This would provide a clear, actionable list of exploration targets to address the persistent system alert.
-
-### Process Violations (System Critiques)
-- **CRITICAL PROCESS FAILURE (Turn 12570):** The system correctly identified two major process violations. 1) I failed to immediately address the faulty `farfetchd_puzzle_solver` agent after discovering it provided incorrect advice on Turn 12443. 2) I completely ignored my own map markers at (15, 24) and (15, 26) that warned of a movement loop, wasting over 10 turns stuck in that exact loop while the bird wasn't even at its starting position. This is a severe failure of discipline. My new plan is to stop interacting with the bird's empty starting position and instead path to a known trigger point at (29, 33) to make it reappear.
 
 ### Process Violations (System Critiques)
 - **CRITICAL PROCESS FAILURE (Turn 12570):** The system correctly identified two major process violations. 1) I failed to immediately address the faulty `farfetchd_puzzle_solver` agent after discovering it provided incorrect advice on Turn 12443. 2) I completely ignored my own map markers at (15, 24) and (15, 26) that warned of a movement loop, wasting over 10 turns stuck in that exact loop while the bird wasn't even at its starting position. This is a severe failure of discipline. My new plan is to stop interacting with the bird's empty starting position and instead path to a known trigger point at (29, 33) to make it reappear.
