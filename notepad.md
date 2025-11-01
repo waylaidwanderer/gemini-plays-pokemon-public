@@ -12,7 +12,7 @@
 - **Trainer Identification:** I must verify the name and location of a trainer before marking them as defeated to prevent misidentification errors like the Hiker Daniel/Russell mix-up.
 
 ## Available Tools & Agents
-- **action_sequencer:** Operational. (Note: Unreliable, see Tool Development section).
+
 - **define_agent:** Operational.
 - **define_map_marker:** Operational.
 - **define_tool:** Operational.
