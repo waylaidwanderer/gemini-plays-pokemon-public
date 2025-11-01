@@ -499,3 +499,9 @@
   - **Test:** Stood at (20, 23), faced down, pressed 'A'.
   - **Result:** 'Kwaa!' dialogue, bird disappeared.
   - **Conclusion:** Hypothesis disproven. Interacting from behind is also a failure condition.
+
+### Ilex Forest FARFETCH'D Puzzle (Continued)
+- **Hypothesis:** Stepping on the twig pile at (14, 27) is a prerequisite for a successful interaction.
+  - **Test:** Stepped on twig at (14, 27), then interacted with FARFETCH'D at (28, 31) from (28, 32).
+  - **Result:** 'Kwaa!' dialogue, bird disappeared.
+  - **Conclusion:** Hypothesis disproven. Stepping on this specific twig does not alter the outcome of this interaction.
