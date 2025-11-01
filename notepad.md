@@ -23,6 +23,7 @@
 - **delete_agent:** Operational.
 - **delete_map_marker:** Operational.
 - **delete_tool:** Operational.
+- **execute_battle_action:** Operational.
 - **find_adjacent_traversable_tiles:** Operational.
 - **generate_nickname_inputs:** Operational.
 - **generate_path_plan:** Operational.
