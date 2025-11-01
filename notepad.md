@@ -305,3 +305,4 @@
 - *Type Effectiveness Chart Update*: Bug is super-effective against Psychic. (Verified in battle vs Zubat's Leech Life on Glyph).
 - **CRITICAL REASONING FAILURE (Turns 11717-11720):** After multiple failed attempts to fix my pathfinder's one-way ledge logic, I finally implemented a version that seemed simpler and more correct. However, it was fundamentally backward and based on a complete misunderstanding of the mechanic. The game immediately blocked my movement, proving the new code was broken. My logic from turn 11694 was actually correct, and my 'fix' was a regression that wasted several turns. This is a major failure in debugging and logical reasoning.
 - **RECURRING STATE-TRACKING FAILURE (Turn 11791):** Misreported turn number as 11790 instead of 11791.
+- Path-to-closest-unseen-tile tool
