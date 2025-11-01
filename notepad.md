@@ -203,7 +203,6 @@
 - **Key Breakthrough:** The player's X-coordinate when interacting from *below* the FARFETCH'D at its starting position (15, 25) determines its destination.
   - Interacting from (15, 24) causes the bird to move south to (15, 29).
   - Interacting from (15, 26) causes the bird to move east to (20, 24).
-- **Reliable Reset:** Interacting with the FARFETCH'D at (28, 31) from below (at 28, 32) reliably resets the puzzle to its starting state with the bird at (15, 25).
 - **Other Triggers & Rules:**
   - Stepping on the one-way ledge at (27, 22) triggers the FARFETCH'D to appear at (29, 22).
   - Interacting from the side of the bird is a failure condition that resets its position.
