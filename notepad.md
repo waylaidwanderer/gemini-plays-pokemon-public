@@ -383,3 +383,8 @@
 
 ### Process Violations (System Critiques)
 - **CRITICAL PROCESS FAILURE (Turn 12570):** The system correctly identified two major process violations. 1) I failed to immediately address the faulty `farfetchd_puzzle_solver` agent after discovering it provided incorrect advice on Turn 12443. 2) I completely ignored my own map markers at (15, 24) and (15, 26) that warned of a movement loop, wasting over 10 turns stuck in that exact loop while the bird wasn't even at its starting position. This is a severe failure of discipline. My new plan is to stop interacting with the bird's empty starting position and instead path to a known trigger point at (29, 33) to make it reappear.
+
+### Ilex Forest FARFETCH'D Puzzle (Manual Solve)
+- **Observation:** The `farfetchd_puzzle_solver` agent has been deleted due to repeated failures. I am now solving this manually. The bird is at (20, 24) facing UP. I am at (21, 24) facing LEFT.
+- **Hypothesis:** The rule 'interacting from the side is always a reset' may be incomplete. It might depend on the bird's facing direction. The new hypothesis is that interacting from the side (21, 24) while the bird is facing UP will be a productive move, pushing it west.
+- **Test Plan:** Press 'A' from current position to test this hypothesis.
