@@ -394,3 +394,15 @@
 ### Battle Automation Failure (Turn 12755)
 - **Observation:** My `execute_battle_action` tool generated a sequence to select 'QUICK ATTACK' (Down x2, A). However, the game state showed that 'EMBER' was selected and used instead.
 - **Conclusion:** There is a discrepancy in how the battle menu cursor movement is handled. The tool's logic for navigating the move list is likely flawed. This needs to be investigated and fixed. For now, I must be cautious when using this tool and double-check the cursor position on screen.
+
+## Future Agent & Tool Ideas (Reflection Turn 12943)
+- **Action Sequencer Tool:** A tool to automate the execution of multi-turn button sequences output by other tools (like `execute_battle_action`). This would take a list of lists (e.g., [['A'], ['Down'], ['Down'], ['A']]) and execute one inner list per turn, freeing me from manual management.
+
+## Alternative Hypotheses (Reflection Turn 12943)
+### Ilex Forest FARFETCH'D Puzzle
+- **Alternative Hypothesis:** The puzzle is not tied to Azalea Town's events. It may require an item from Goldenrod City (e.g., Squirtbottle), meaning another route to Goldenrod must be found first.
+- **Test to Disprove:** If the puzzle remains unsolvable after clearing Azalea Town events, I must exhaustively search for an alternative route to Goldenrod City.
+
+### Path to Goldenrod City
+- **Alternative Hypothesis:** The path is not blocked by the 'Odd Tree' on Route 36. An alternative route may exist through Ilex Forest or Dark Cave.
+- **Test to Disprove:** Fully explore all paths in Ilex Forest and Dark Cave. Finding a new path leading north would disprove the assumption that the 'Odd Tree' is the only way.
