@@ -417,3 +417,12 @@
   3. Path to the tile directly behind it.
   4. Interact with the Farfetch'd by pressing 'A'.
   5. Conclude based on whether the bird moves.
+
+### Ilex Forest FARFETCH'D Puzzle (Continued)
+- **New Proactive Hypothesis (Turn 13107):** Stepping on a twig pile is a necessary prerequisite that alters the Farfetch'd's behavior.
+  - **Test Plan:** 
+    1. Step on the twig pile at (14, 27).
+    2. Trigger the Farfetch'd to appear at (22, 31).
+    3. Interact with the Farfetch'd from (22, 30).
+  - **Result:** The interaction produced the 'Kwaa!' dialogue, a known reset condition. The bird moved to (28, 31).
+  - **Conclusion:** Hypothesis is disproven. Stepping on the twig pile at (14, 27) does not change the outcome of this interaction.

@@ -207,7 +207,7 @@
     ]
   },
   "execute_battle_action": {
-    "description": "Takes the output of simple_battle_strategist and generates the sequence of button presses to execute the recommended action (FIGHT with a specific move, or RUN). This tool automates the process of handling simple battles.",
+    "description": "Takes the output of simple_battle_strategist and the current Pokémon's moves, then generates the sequence of button presses to execute the recommended action (FIGHT with a specific move, or RUN). This tool automates the process of handling simple battles.",
     "input_schema": {
       "type": "object",
       "properties": {
@@ -221,13 +221,29 @@
         "move_to_use": {
           "type": "string",
           "nullable": true
+        },
+        "move_1_name": {
+          "type": "string"
+        },
+        "move_2_name": {
+          "type": "string",
+          "nullable": true
+        },
+        "move_3_name": {
+          "type": "string",
+          "nullable": true
+        },
+        "move_4_name": {
+          "type": "string",
+          "nullable": true
         }
       },
       "required": [
-        "action"
+        "action",
+        "move_1_name"
       ]
     },
-    "python_script": "import json\n\nmoves = [\"TACKLE\", \"LEER\", \"QUICK ATTACK\", \"EMBER\"]\naction = input_data.get('action')\nmove_to_use = input_data.get('move_to_use')\n\nbutton_sequence = []\n\nif action == 'RUN':\n    button_sequence.extend([['Right'], ['Down'], ['A']])\nelif action == 'FIGHT':\n    button_sequence.append(['A'])\n    if move_to_use in moves:\n        move_index = moves.index(move_to_use)\n        for _ in range(move_index):\n            button_sequence.append(['Down'])\n    button_sequence.append(['A'])\n\nprint(json.dumps(button_sequence))\n",
+    "python_script": "import json\n\naction = input_data.get('action')\nmove_to_use = input_data.get('move_to_use')\n\nmoves = [\n    input_data.get('move_1_name'),\n    input_data.get('move_2_name'),\n    input_data.get('move_3_name'),\n    input_data.get('move_4_name')\n]\nmoves = [move for move in moves if move] # Filter out null/None moves\n\nbutton_sequence = []\n\nif action == 'RUN':\n    button_sequence.extend([['Right'], ['Down'], ['A']])\nelif action == 'FIGHT':\n    button_sequence.append(['A'])\n    if move_to_use in moves:\n        try:\n            move_index = moves.index(move_to_use)\n            for _ in range(move_index):\n                button_sequence.append(['Down'])\n        except ValueError:\n            # Move not found, default to first move by doing nothing\n            pass\n    button_sequence.append(['A'])\n\nprint(json.dumps(button_sequence))",
     "history": [
       {
         "commit_message": "feat: Create battle automation tool. This tool, `execute_battle_action`, takes the strategic decision from the `simple_battle_strategist` and translates it into the concrete button presses required to execute the action in-game. This will automate the handling of trivial wild battles, significantly improving travel efficiency by removing the need for manual input during these frequent interruptions.",
@@ -253,6 +269,11 @@
         "commit_message": "fix: Refactor output to a list of single-item lists. The tool was repeatedly failing because the system cannot process a long, mixed sequence of button presses in a single turn. This commit changes the output format from a single list (e.g., [\"A\", \"Down\"]) to a list of single-item lists (e.g., [[\"A\"], [\"Down\"]]), allowing for per-turn execution and resolving the critical failure.",
         "timestamp": "2025-11-01T14:28:27.303Z",
         "action_counter": 12995
+      },
+      {
+        "commit_message": "refactor: Make move selection dynamic. The tool previously used a hardcoded list of moves, causing it to fail when used with any Pokémon other than Ignis, and leading to inconsistent behavior even with Ignis. This commit refactors the tool to accept the current Pokémon's four moves as input arguments, building the move list dynamically. This removes the hardcoded dependency and makes the tool robust and universally applicable for any Pokémon's moveset.",
+        "timestamp": "2025-11-01T15:34:43.124Z",
+        "action_counter": 13102
       }
     ]
   },
