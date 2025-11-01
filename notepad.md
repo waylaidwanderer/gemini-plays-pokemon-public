@@ -412,3 +412,15 @@
 ### Ilex Forest FARFETCH'D Puzzle (Continued)
 - **New Discovery (Turn 12972):** The 'Kwaa!' dialogue from the Farfetch'd is flavor text and does NOT indicate a puzzle failure or reset.
 - **Puzzle Step 1 (Executed, Turn 12988):** Successfully moved the Farfetch'd from (15, 25) to (15, 29) by interacting from (15, 24). This confirms the 'approach from rear' strategy is repeatable.
+
+### Appendix: Failure Log (Continued)
+- **CRITICAL HALLUCINATION (Turn 13022):** Believed my notepad's 'Available Agents' list was incorrect and attempted to fix it. My own `notepad_refactor_assistant` agent correctly reported that the list was already accurate. This is a significant state-tracking failure where I failed to trust my own documentation.
+
+### Ilex Forest FARFETCH'D Puzzle (Continued)
+- **New Proactive Hypothesis (Turn 13052):** My reactive 'chase the bird' strategy has failed. My new hypothesis is that stepping on a twig pile is a necessary prerequisite to successfully interacting with the Farfetch'd from behind.
+- **Test Plan:**
+  1. Step on the twig pile at (14, 27).
+  2. Observe the Farfetch'd's position and facing direction.
+  3. Path to the tile directly behind it.
+  4. Interact with the Farfetch'd by pressing 'A'.
+  5. Conclude based on whether the bird moves.
