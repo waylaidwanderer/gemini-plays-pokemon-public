@@ -456,3 +456,4 @@
 - Auto-Battler Manager Agent: An agent to orchestrate the entire wild battle flow. It would call `simple_battle_strategist` for a decision, then call `execute_battle_action` to get the button sequence, and then manage the multi-turn execution of that sequence to prevent manual errors.
 - **RECURRING STATE-TRACKING FAILURE (Turn 13261):** Misreported turn number as 13260 instead of 13261.
 - **RECURRING STATE-TRACKING FAILURE (Turn 13306):** Misreported turn number as 13305 instead of 13306.
+- **RECURRING STATE-TRACKING FAILURE (Turn 13307):** Misreported turn number as 13306 instead of 13307.
