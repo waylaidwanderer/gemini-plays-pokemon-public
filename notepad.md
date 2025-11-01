@@ -321,3 +321,5 @@
 - **Untested Mechanics:** Added tasks to my hypotheses list to explicitly test the one-way traversal of all `LEDGE_HOP` types by attempting to move against their intended direction.
 - **New Tool Idea:** Added 'Path-to-closest-unseen-tile tool' to my future ideas list to streamline exploration.
 - **Alternative Hypotheses Logged:** Documented alternative hypotheses for my current roadblocks. For Dark Cave, the possibility of a hidden passage. For the FARFETCH'D puzzle, the possibility that it is currently unsolvable without a specific item.
+- Exploration Prioritizer Agent: Could analyze the output of `list_reachable_unseen_tiles` and prioritize tiles based on proximity to objectives, map boundaries, or other strategic factors.
+- Path-to-closest-unseen-tile tool
