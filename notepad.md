@@ -29,7 +29,7 @@
 - **list_reachable_unseen_tiles:** Operational.
 - **notepad_edit:** Operational.
 - **run_code:** Operational.
-- **select_battle_option:** Operational. My previous belief that this tool was broken was a hallucination. The system has confirmed it is 100% reliable and should be preferred over manual inputs.
+- **select_battle_option:** My previous belief that this tool was broken was a hallucination. The system has confirmed it is 100% reliable and should be preferred over manual inputs.
 - **stun_npc:** Operational.
 
 ## Future Agent & Tool Ideas
@@ -42,9 +42,7 @@
 - Navigation Manager Agent/Tool: Could automate the entire navigation process, including pathfinding, executing movement, handling battle interruptions with the battle strategist, and re-pathfinding from the new location.
 - Path-to-Moving-Target Agent/Tool: Could automate the process of stunning a moving NPC and then immediately pathfinding to them.
 - Auto-battler Agent/Tool: Could automate the button press sequence for simple wild battles.
-- Rebuild `systematic_search` tool
-- Refine find_path_to_target_bfs to correctly handle one-way traversal tiles like LEDGE_HOP_RIGHT.
-- generate_path_plan: A tool that takes start/target coordinates and directly outputs a JSON path_plan, combining find_path and convert_moves.
+- Path-to-closest-unseen-tile tool
 
 # Housekeeping Tasks
 - Delete redundant map marker at (0, 14) on Route 33 (map 8_6).
