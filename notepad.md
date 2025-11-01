@@ -340,3 +340,9 @@
 
 ## Union Cave 1F Tile Mechanics
 - **Task:** Check which Pokémon can learn TM31 MUD-SLAP.
+
+## TMs & HMs
+### TM31 MUD-SLAP
+- **Description:** Reduces the foe's accuracy.
+- **Compatible Party Pokémon:** Ignis (Quilava), Aether (Pidgey), O (Togepi).
+- **Incompatible Party Pokémon:** Glyph (Unown).
