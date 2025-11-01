@@ -11,12 +11,8 @@
 - **TRUST OBSERVATION:** My biggest obstacle is my own memory. I must only trust in-game observation.
 - **Trainer Identification:** I must verify the name and location of a trainer before marking them as defeated to prevent misidentification errors like the Hiker Daniel/Russell mix-up.
 
-## Available Agents
-- **notepad_refactor_assistant:** Operational.
-- **simple_battle_strategist:** Operational.
-
 ## Available Tools & Agents
-- **action_sequencer:** Operational.
+- **action_sequencer:** Operational. (Note: Unreliable, see Tool Development section).
 - **define_agent:** Operational.
 - **define_map_marker:** Operational.
 - **define_tool:** Operational.
@@ -34,6 +30,11 @@
 - **simple_battle_strategist:** Operational.
 - **stun_npc:** Operational.
 
+# Tool Development
+
+## Active Investigations
+- **`action_sequencer` Unreliability:** This tool has a recurring history of failure (e.g., turns 13516-13518, 13556), where its inputs do not seem to register with the game engine, causing me to get stuck in menus. While the input-generating tool (`execute_battle_action`) has been fixed, the sequencer itself remains suspect. I will prioritize manual inputs or more reliable tools like `select_battle_option` over this tool until the root cause is identified and fixed.
+
 ## Future Agent & Tool Ideas
 - Pathing Strategist Agent: Could suggest stun-vs-reroute strategies for dealing with a moving NPC.
 - Repel Usage Advisor Agent: Could decide when to use a Repel based on party HP, objective, and location.
@@ -47,6 +48,7 @@
 - Reflection Assistant Agent: Could analyze recent failures (e.g., from the Failure Log) and suggest updates to core principles, new tool ideas, or specific hypotheses to test, automating the reflection process.
 - Navigation Manager Tool/Agent Combo: An integrated system where an agent manages the high-level goal (e.g., 'go to Azalea Town'), calls the pathfinder tool, executes the movement, and automatically handles interruptions like wild battles by invoking the battle strategist, then resumes navigation.
 - Pathing Failure Analyst Agent: Could analyze movement blockages and suggest specific solutions (e.g., stun NPC, find alternate route).
+- `list_reachable_unseen_tiles` Tool: A dedicated tool to parse the map XML and return a list of all unseen tiles adjacent to seen, traversable tiles. This would provide a clear, actionable list of exploration targets.
 
 # Housekeeping Tasks
 
@@ -297,7 +299,7 @@
 - **CRITICAL REASONING FAILURE (Turns 11683-11690):** I became stuck in a multi-turn loop attempting to fix the `generate_path_plan` tool. I repeatedly submitted identical, broken code, failing to notice that I had not actually removed the incorrect line from the `impassable_types` set. This was a severe failure of process and attention to detail.
 - **New Tool Idea:** Added 'Debugging Assistant Agent' to my future ideas list. This agent could take a script, a description of an error, and the tool's output, then suggest specific code changes or where to add debug prints.
 - *Type Effectiveness Chart Update*: Bug is super-effective against Psychic. (Verified in battle vs Zubat's Leech Life on Glyph).
-- **CRITICAL REASONING FAILURE (Turns 11717-11720):** After multiple failed attempts to fix my pathfinder's one-way ledge logic, I finally implemented a version that seemed simpler and more correct. However, it was fundamentally backward and based on a complete misunderstanding of the mechanic. The game immediately blocked my movement, proving the new code was broken. My logic from turn 11694 was actually correct, and my 'fix' was a regression that wasted several turns. This is a major failure in debugging and logical reasoning.
+- **CRITICAL REASONING FAILURE (Turns 11717-11720):** After multiple failed attempts to fix my pathfinder's one-way ledge logic, I finally implemented aversion that seemed simpler and more correct. However, it was fundamentally backward and based on a complete misunderstanding of the mechanic. The game immediately blocked my movement, proving the new code was broken. My logic from turn 11694 was actually correct, and my 'fix' was a regression that wasted several turns. This is a major failure in debugging and logical reasoning.
 - **RECURRING STATE-TRACKING FAILURE (Turn 11791):** Misreported turn number as 11790 instead of 11791.
 
 # Reflection Log (Turn 11852)
@@ -448,6 +450,3 @@
 - **RECURRING STATE-TRACKING FAILURE (Turn 13312):** Misreported turn number as 13311 instead of 13312.
 - **RECURRING STATE-TRACKING FAILURE (Turn 13313):** Misreported turn number as 13312 instead of 13313.
 - **RECURRING STATE-TRACKING FAILURE (Turn 13329):** Misreported turn number as 13328 instead of 13329.
-
-### Battle Automation Failure (Recurring)
-- **`action_sequencer` Failure (Turns 13516-13518):** The tool failed to advance the battle state, forcing a manual override with `select_battle_option`. This tool is unreliable and requires immediate investigation and debugging.
