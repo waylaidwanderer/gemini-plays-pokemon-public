@@ -372,7 +372,7 @@
 - Auto-battler Agent/Tool: Could automate the button press sequence for simple wild battles by combining `simple_battle_strategist` and `execute_battle_action`.
 
 ### Ilex Forest FARFETCH'D Puzzle (Continued)
-- **New Discovery (Turn 12443):** Interacting with the FARFETCH'D at (28, 31) from above (at 28, 30) is also a failure condition. It triggers the 'Kwaa!' dialogue and resets the bird's position, this time to (24, 35). The `farfetchd_puzzle_solver` agent's advice was incorrect and must be updated.
+- **New Discovery (Turn 12443):** Interacting with the FARFETCH'D at (28, 31) from above (at 28, 30) is also a failure condition. It triggers the 'Kwaa!' dialogue and resets the bird's position, this time to (24, 35).
 
 ### Reflection-Based Updates (Turn 12527)
 - **New Tile Mechanic Documented:**
