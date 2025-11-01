@@ -323,3 +323,16 @@
 - **Alternative Hypotheses Logged:** Documented alternative hypotheses for my current roadblocks. For Dark Cave, the possibility of a hidden passage. For the FARFETCH'D puzzle, the possibility that it is currently unsolvable without a specific item.
 - Exploration Prioritizer Agent: Could analyze the output of `list_reachable_unseen_tiles` and prioritize tiles based on proximity to objectives, map boundaries, or other strategic factors.
 - Path-to-closest-unseen-tile tool
+
+### Ilex Forest FARFETCH'D Puzzle (Continued)
+- **Hypothesis 3:** The lead Pokémon affects the interaction.
+  - **Test:** Swapped Ignis (Quilava) to the lead. Stood at (15, 24), faced the bird at (15, 25), and pressed 'A'.
+  - **Result:** No text appeared, no event triggered. Interaction failed.
+  - **Conclusion:** Hypothesis 3 is disproven. The lead Pokémon has no effect on a simple 'A' press interaction.
+
+- **Current State:** All simple interaction hypotheses have been exhausted and disproven. The solution is more complex.
+
+- **Alternative Hypotheses (from Reflection Turn 12059):**
+  1. The puzzle is currently unsolvable and requires a key item (like a Squirtbottle) or a story flag from elsewhere.
+  2. The puzzle is dependent on the time of day (e.g., must be solved at night).
+  3. The puzzle requires a specific Pokémon move (like Headbutt) to be used on an object in the environment to alter the bird's pathing.
