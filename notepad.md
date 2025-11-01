@@ -141,12 +141,9 @@
 - Test the damage of EMBER vs. QUICK ATTACK on a Water-type.
 - Test `HEADBUTT_TREE`s by interacting with them with different Pokémon in the lead to see if any move can be used.
 - Test traversability of BUOY tiles.
-- Test movement off a FLOOR_UP_WALL tile in all directions (sideways, down) to verify it's not just a one-way-up path.
-- Test side-to-side movement on `FLOOR_UP_WALL` tiles to fully verify one-way movement restrictions.
-- Test all `LEDGE_HOP` types (DOWN, LEFT, RIGHT) by attempting to move in all four directions from them to fully verify one-way movement restrictions.
+- Rigorously test all one-way tiles (e.g., LEDGE_HOP_DOWN/LEFT/RIGHT, FLOOR_UP_WALL on Union Cave 1F) by attempting to move in all four directions from them to definitively confirm their movement restrictions.
 - Test TALL_GRASS on Route 36.
 - Test `WARP_CARPET_LEFT` again to determine consistent activation method.
-- Test FLOOR_UP_WALL tiles on Union Cave 1F to confirm their one-way behavior.
 
 # Investigations
 
@@ -451,4 +448,3 @@
 - **RECURRING STATE-TRACKING FAILURE (Turn 13312):** Misreported turn number as 13311 instead of 13312.
 - **RECURRING STATE-TRACKING FAILURE (Turn 13313):** Misreported turn number as 13312 instead of 13313.
 - **RECURRING STATE-TRACKING FAILURE (Turn 13329):** Misreported turn number as 13328 instead of 13329.
-- Be more rigorous in testing one-way tiles (LEDGE_HOP, FLOOR_UP_WALL) by attempting to move in all four directions to definitively confirm movement restrictions.
