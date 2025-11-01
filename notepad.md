@@ -353,3 +353,12 @@
 - **Description:** Blinds the foe to reduce accuracy. Lights up dark caves.
 - **Compatible Party Pokémon:** O (Togepi).
 - **Incompatible Party Pokémon:** Ignis (Quilava), Glyph (Unown), Aether (Pidgey).
+## Union Cave B1F Tile Mechanics
+- **FLOOR (Union Cave B1F):** Traversable. (Verified)
+- **WALL (Union Cave B1F):** Impassable. (Verified)
+- **WATER (Union Cave B1F):** Impassable. (Verified)
+- **LADDER (Union Cave B1F):** Traversable warp. (Verified)
+
+## Future Agent & Tool Ideas (Continued)
+- Exploration Strategist Agent: Could take the output of `list_reachable_unseen_tiles` and suggest the most strategically valuable tile to explore next (e.g., closest, or one leading to a cluster).
+- Path-to-closest-unseen-tile tool: A tool that combines `list_reachable_unseen_tiles` and `generate_path_plan` to automate finding and pathing to the nearest explorable area.
