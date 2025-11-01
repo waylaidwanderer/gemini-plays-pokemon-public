@@ -281,15 +281,6 @@
 - **CRITICAL REASONING FAILURE (Turns 10746-10776):** My pathfinding tool correctly reported that no path existed within this section of Dark Cave. Instead of trusting the tool's output, I incorrectly assumed the tool was broken and wasted numerous turns in a loop trying to 'fix' it. This was a major failure to trust my own tools and a hallucination that a path existed where there was none. The area is a dead end accessible only by a one-way ledge, with the only exit being the warp.
 - **CRITICAL FAILURE (Turns 10908-10911):** My `list_reachable_unseen_tiles` tool correctly reported a dead end in Union Cave. Instead of trusting the tool's output, I incorrectly assumed the tool was broken and wasted multiple turns debugging it. This was a major failure to trust my own tools and a repeat of a past mistake (Turns 7142-7147).
 
-### Strategic & Process Failures
-- **CRITICAL FAILURE (Turn 8716):** Failed to place a map marker for the FARFETCH'D's new location at (15, 29) in the turn it was discovered, a violation of the 'IMMEDIATE ACTION' core principle.
-- **CRITICAL FAILURE (Turn 9122):** Deferred immediate action. Received a critical warning and system critique but completed a multi-step party swap before logging the error or using the `hypothesis_generator` agent. This is a direct violation of the 'IMMEDIATE ACTION' core principle.
-- **CRITICAL FAILURE (Turns 9359-9408):** Repeatedly deferred immediate documentation of new discoveries and failed hypotheses related to the FARFETCH'D puzzle, a direct violation of the 'IMMEDIATE ACTION' core principle.
-- **CRITICAL STRATEGIC FAILURE (FARFETCH'D Puzzle):** My rigid focus on a single puzzle for thousands of turns is a strategic error. When stuck, I must be more willing to pivot to other available objectives (e.g., exploring Union Cave, battling trainers on Route 33) to make progress and potentially find new information or items that could help with the original problem. This avoids getting stuck in local optima.
-- **RECURRING FAILURE (Process Violation):** Repeatedly deferred immediate actions, such as fixing broken tools and updating the notepad with new information, in direct violation of the 'IMMEDIATE ACTION' core principle. This has been noted on multiple occasions (e.g., Turn 9122, Turns 9359-9408) and represents a systemic process failure that must be corrected.
-- **CRITICAL FAILURE (Turn 10416):** Deferred immediate tool maintenance. Logged a task to refine the `find_path_to_target_bfs` tool instead of fixing it immediately, a direct violation of the 'TOOL MAINTENANCE' core principle.
-- **RECURRING STATE-TRACKING FAILURE (Deferred Logging):** I have repeatedly deferred the logging of turn number mismatches, a violation of the 'IMMEDIATE ACTION' principle. This occurred on turns 10622, 10651, and 10681, where the mismatch was noted but the log update was postponed.
-
 ### General Hallucinations
 - The 'Poké Ball machine' in Elm's lab was a hallucination.
 - Hallucinated a warp at (9, 35) on Route 30. There is no warp there.
