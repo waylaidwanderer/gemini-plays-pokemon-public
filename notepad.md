@@ -448,3 +448,6 @@
 - **RECURRING STATE-TRACKING FAILURE (Turn 13312):** Misreported turn number as 13311 instead of 13312.
 - **RECURRING STATE-TRACKING FAILURE (Turn 13313):** Misreported turn number as 13312 instead of 13313.
 - **RECURRING STATE-TRACKING FAILURE (Turn 13329):** Misreported turn number as 13328 instead of 13329.
+
+### Battle Automation Failure (Recurring)
+- **`action_sequencer` Failure (Turns 13516-13518):** The tool failed to advance the battle state, forcing a manual override with `select_battle_option`. This tool is unreliable and requires immediate investigation and debugging.
