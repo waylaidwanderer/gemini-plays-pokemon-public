@@ -450,3 +450,15 @@
 - **RECURRING STATE-TRACKING FAILURE (Turn 13312):** Misreported turn number as 13311 instead of 13312.
 - **RECURRING STATE-TRACKING FAILURE (Turn 13313):** Misreported turn number as 13312 instead of 13313.
 - **RECURRING STATE-TRACKING FAILURE (Turn 13329):** Misreported turn number as 13328 instead of 13329.
+
+# Tool Development Update (Turn 13587)
+- The fix to `execute_battle_action` (grouping directional inputs) appears successful. The sequence to select EMBER was executed correctly over multiple turns by `action_sequencer` in the last battle vs. Metapod.
+
+# Ilex Forest FARFETCH'D Puzzle (Continued)
+- **New Observation (Turn 13587):** After defeating a wild Metapod, the FARFETCH'D appeared at (20, 24), facing up. This may be a new trigger.
+- **New Hypothesis:** Interacting with the FARFETCH'D at (20, 24) from the tile directly above it (20, 23) will move it correctly.
+  - **Test Plan:**
+    1. Move from current position (21, 23) to (20, 23).
+    2. Face Down.
+    3. Press 'A' to interact.
+    4. Observe the bird's movement and document the outcome.
