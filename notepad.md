@@ -462,3 +462,6 @@
     2. Face Down.
     3. Press 'A' to interact.
     4. Observe the bird's movement and document the outcome.
+
+## Active Investigations
+- **`action_sequencer` Unreliability:** This tool has a recurring history of failure (e.g., turns 13516-13518, 13556), where its inputs do not seem to register with the game engine, causing me to get stuck in menus. While the input-generating tool (`execute_battle_action`) has been fixed, the sequencer itself remains suspect. I will prioritize manual inputs or more reliable tools like `select_battle_option` over this tool until the root cause is identified and fixed.
