@@ -409,9 +409,6 @@
 
 ### Turn Execution Rules
 - Tool calls (`tools_to_call`) and path execution (`buttons_to_press: ["path"]`) are mutually exclusive. If both are present in a single turn, the tool call is prioritized and the path is not executed.
-### Ilex Forest FARFETCH'D Puzzle (Continued)
-- **New Discovery (Turn 12972):** The 'Kwaa!' dialogue from the Farfetch'd is flavor text and does NOT indicate a puzzle failure or reset.
-- **Puzzle Step 1 (Executed, Turn 12988):** Successfully moved the Farfetch'd from (15, 25) to (15, 29) by interacting from (15, 24). This confirms the 'approach from rear' strategy is repeatable.
 
 ### Appendix: Failure Log (Continued)
 - **CRITICAL HALLUCINATION (Turn 13022):** Believed my notepad's 'Available Agents' list was incorrect and attempted to fix it. My own `notepad_refactor_assistant` agent correctly reported that the list was already accurate. This is a significant state-tracking failure where I failed to trust my own documentation.
