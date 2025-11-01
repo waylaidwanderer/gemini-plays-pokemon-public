@@ -362,3 +362,4 @@
 ## Future Agent & Tool Ideas (Continued)
 - Exploration Strategist Agent: Could take the output of `list_reachable_unseen_tiles` and suggest the most strategically valuable tile to explore next (e.g., closest, or one leading to a cluster).
 - Path-to-closest-unseen-tile tool: A tool that combines `list_reachable_unseen_tiles` and `generate_path_plan` to automate finding and pathing to the nearest explorable area.
+- **CRITICAL HALLUCINATION (Turn 12268):** Believed I was at position (7, 19) when I was actually at (6, 19) after moving. This is a state-tracking failure.
