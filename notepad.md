@@ -438,3 +438,18 @@
 ## Future Agent & Tool Ideas (Continued)
 - **Automation Manager Agent:** An agent to manage the execution of multi-turn action sequences (e.g., from `execute_battle_action`). It would store the remaining sequence and provide the next action each turn, preventing state-tracking errors.
 - **Auto-Battler Tool:** A tool to orchestrate the entire wild battle flow. It would call `simple_battle_strategist`, then `execute_battle_action`, then manage the multi-turn execution of the button sequence, fully automating trivial encounters.
+## Route 32 Tile Mechanics
+- **FLOOR:** Traversable. (Verified)
+- **WALL:** Impassable. (Verified)
+- **TALL_GRASS:** Traversable, contains wild Pokémon. (Verified)
+- **LONG_GRASS:** Traversable, contains wild Pokémon. (Verified)
+- **CUT_TREE:** Impassable, requires specific ability. (Verified)
+- **HEADBUTT_TREE:** Impassable. (Verified)
+- **WATER:** Impassable. (Verified)
+- **BUOY:** Traversability unknown, assumed impassable.
+- **WARP_CARPET_LEFT:** Traversable warp. (Verified)
+- **DOOR:** Traversable warp. (Verified)
+- **LADDER:** Traversable warp. (Verified)
+- **CAVE:** Traversable warp. (Verified)
+- **LEDGE_HOP_DOWN:** One-way traversal. (Verified)
+- **LEDGE_HOP_RIGHT:** One-way traversal. (Verified)
