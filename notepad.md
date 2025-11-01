@@ -52,7 +52,7 @@
 - Auto-battler Manager Agent: An agent to manage the entire wild battle flow by orchestrating `simple_battle_strategist` and `execute_battle_action`.
 
 # Housekeeping Tasks
-- Delete redundant map marker at (0, 14) on Route 33 (map 8_6).
+
 - Find and mark defeated trainer Hiker Daniel in Union Cave
 - Find and mark defeated trainer Firebreather Ray in Union Cave
 
