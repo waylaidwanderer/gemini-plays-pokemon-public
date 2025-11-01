@@ -49,7 +49,6 @@
 - Reflection Assistant Agent: Could analyze recent failures (e.g., from the Failure Log) and suggest updates to core principles, new tool ideas, or specific hypotheses to test, automating the reflection process.
 - Navigation Manager Tool/Agent Combo: An integrated system where an agent manages the high-level goal (e.g., 'go to Azalea Town'), calls the pathfinder tool, executes the movement, and automatically handles interruptions like wild battles by invoking the battle strategist, then resumes navigation.
 - Pathing Failure Analyst Agent: Could analyze movement blockages and suggest specific solutions (e.g., stun NPC, find alternate route).
-- `list_reachable_unseen_tiles` Tool: A dedicated tool to parse the map XML and return a list of all unseen tiles adjacent to seen, traversable tiles. This would provide a clear, actionable list of exploration targets.
 
 # Housekeeping Tasks
 
