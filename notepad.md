@@ -4,7 +4,7 @@
 - **IMMEDIATE ACTION:** I must perform tasks like placing markers, updating my notepad, and fixing tools *immediately*. Deferring tasks, like placing map markers, is a process violation. Significant events must be documented *immediately* in the turn they occur.
 - **AGENT USAGE:** When stuck for more than 5 turns on a puzzle, I must use the `hypothesis_generator` agent. My `simple_battle_strategist` agent is underutilized and I will prioritize using it for all future wild battles to automate decision-making.
 - **PUZZLE DOCUMENTATION:** My entire problem-solving process (observation, hypothesis, test, conclusion) for any puzzle must be documented in this notepad as it happens.
-- **MAP MARKER DISCIPLINE:** I must always check for existing map markers before a new one to avoid duplicates. I must mark BOTH ends of a warp immediately after traversal.
+- **MAP MARKER DISCIPLINE:** I must ALWAYS consult my map markers for a given location BEFORE planning any movement or interaction there. This is to avoid repeating known failures (e.g., the Ilex Forest movement loop). I must also continue to mark BOTH ends of a warp immediately after traversal.
 - **TOOL MAINTENANCE:** I must NEVER defer fixing a broken tool or agent. It is always the highest priority, overriding any in-game objective.
 - **TOOL FAILURE:** If a tool fails, my first assumption must be that the tool is broken, not that the game is impossible. I must fix the tool before re-attempting the action.
 - **IMMEDIATE CORRECTION:** If my understanding of the game state (e.g., the existence of a tool) is proven wrong, I must immediately correct my documentation (notepad) before any other action.
