@@ -282,29 +282,25 @@
       }
     ]
   },
-  "list_reachable_unseen_tiles": {
-    "description": "Parses the map XML to find and return a list of all unseen tiles that are adjacent to seen, traversable tiles. This provides a clear, actionable list of exploration targets.",
+  "action_sequencer": {
+    "description": "Takes a JSON string of a multi-turn button press sequence. Returns the first action for the current turn and the remaining sequence as a JSON string for the next turn.",
     "input_schema": {
       "type": "object",
       "properties": {
-        "start_x": {
-          "type": "string"
-        },
-        "start_y": {
+        "sequence_json": {
           "type": "string"
         }
       },
       "required": [
-        "start_x",
-        "start_y"
+        "sequence_json"
       ]
     },
-    "python_script": "import xml.etree.ElementTree as ET\nimport json\nfrom collections import deque\n\nstart_x = int(input_data['start_x'])\nstart_y = int(input_data['start_y'])\n\nroot = ET.fromstring(map_xml_string)\nmap_width = int(root.get('width'))\nmap_height = int(root.get('height'))\n\ntraversable_types = {\n    'FLOOR', 'TALL_GRASS', 'LONG_GRASS', 'LEDGE_HOP_DOWN', 'LEDGE_HOP_LEFT', 'LEDGE_HOP_RIGHT', 'FLOOR_UP_WALL',\n    'WARP_CARPET_DOWN', 'WARP_CARPET_LEFT', 'WARP_CARPET_RIGHT'\n}\n\ngrid = {}\nfor row_elem in root.findall('Row'):\n    y = int(row_elem.get('id'))\n    for tile_elem in row_elem.findall('Tile'):\n        x = int(tile_elem.get('id'))\n        tile_type = tile_elem.get('type')\n        is_seen = tile_elem.get('seen') == 'true'\n        has_object = tile_elem.get('has-object') == 'true'\n        grid[(x, y)] = {'type': tile_type, 'seen': is_seen, 'traversable': tile_type in traversable_types and not has_object}\n\n# BFS to find all reachable SEEN tiles\nqueue = deque([(start_x, start_y)])\nreachable_seen_tiles = set()\nvisited = {(start_x, start_y)}\n\nif grid.get((start_x, start_y), {}).get('traversable', False):\n    reachable_seen_tiles.add((start_x, start_y))\n\nwhile queue:\n    cx, cy = queue.popleft()\n    \n    for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n        nx, ny = cx + dx, cy + dy\n        neighbor_coord = (nx, ny)\n        \n        if neighbor_coord not in grid or neighbor_coord in visited:\n            continue\n            \n        neighbor_tile = grid[neighbor_coord]\n        if neighbor_tile['seen'] and neighbor_tile['traversable']:\n            visited.add(neighbor_coord)\n            queue.append(neighbor_coord)\n            reachable_seen_tiles.add(neighbor_coord)\n\n# Check neighbors of all reachable seen tiles for unseen tiles\nreachable_unseen_neighbors = set()\nfor x, y in reachable_seen_tiles:\n    for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n        nx, ny = x + dx, y + dy\n        neighbor_coord = (nx, ny)\n        \n        if neighbor_coord in grid and not grid[neighbor_coord]['seen']:\n            reachable_unseen_neighbors.add(neighbor_coord)\n\nresult = [{'x': x, 'y': y} for x, y in sorted(list(reachable_unseen_neighbors))]\nprint(json.dumps(result))",
+    "python_script": "import json\nsequence_json = input_data.get('sequence_json', '[]')\ntry:\n    sequence = json.loads(sequence_json)\nexcept json.JSONDecodeError:\n    sequence = []\n\naction_for_this_turn = None\nis_complete = True\nremaining_sequence = []\n\nif isinstance(sequence, list) and len(sequence) > 0:\n    action_for_this_turn = sequence.pop(0)\n    remaining_sequence = sequence\n    is_complete = len(remaining_sequence) == 0\n\noutput = {\n    \"action_for_this_turn\": action_for_this_turn,\n    \"remaining_sequence_json\": json.dumps(remaining_sequence),\n    \"is_complete\": is_complete\n}\nprint(json.dumps(output))",
     "history": [
       {
-        "commit_message": "feat: Create tool to find reachable unseen tiles. This tool, `list_reachable_unseen_tiles`, performs a BFS to find all reachable seen tiles and then identifies adjacent unseen tiles. This will provide a definitive, actionable list of exploration targets to systematically address the persistent 'Potentially Reachable Unseen Tiles' system alert and improve exploration efficiency.",
-        "timestamp": "2025-11-01T10:15:10.815Z",
-        "action_counter": 12583
+        "commit_message": "feat: Create deterministic action sequencer tool. This tool, `action_sequencer`, replaces the unreliable `sequence_manager` agent. It takes a JSON list of button presses, pops the first action for the current turn, and returns the rest. As a Python script, it will be deterministic and solve the critical issue of dropped inputs during automated battle sequences.",
+        "timestamp": "2025-11-01T18:46:49.307Z",
+        "action_counter": 13445
       }
     ]
   }
