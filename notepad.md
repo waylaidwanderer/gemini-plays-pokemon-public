@@ -181,37 +181,6 @@
 - The solution involves using the Pokégear radio near the tree.
 - The tree must be interacted with from the tile directly below it (35, 10). (Status: Currently untestable. The path to (35, 10) is blocked.)
 
-### Sprout Tower 2F Pillar Puzzle
-- **Objective:** Determine how to move the central pillar on 2F again.
-- **Observations:**
-  - Numerous simple interaction tests (re-interacting with the Sage, checking other objects/walls, etc.) have failed to make the central pillar move again after its initial movement.
-- **Untested Hypotheses:**
-  1. All other Sages on Sprout Tower 2F must be defeated before interacting with the Sage at (12, 3).
-  2. The interaction with the Sage at (12, 3) only makes the pillar passable during a specific time of day (e.g., night).
-  3. The floor tiles in the room with the Sage at (12,3) contain a visual pattern or clue that needs to be followed or replicated.
-
-### Ruins of Alph 'ESCAPE' Puzzle
-- **Objective:** Solve the 'ESCAPE' wall puzzle in the Ruins of Alph.
-- **Solution Discovery Log:**
-  - **Hypothesis:** Having an Unown as the first Pokemon in the party triggers an event.
-    - **Test:** Swapped Glyph (Unown) to the lead. Stood at (10, 11), faced the wall at (10, 10), and pressed 'A'.
-    - **Result:** No text appeared, no event triggered.
-    - **Conclusion:** Hypothesis disproven.
-  - **Hypothesis:** Interacting with the 'ESCAPE' wall by pressing 'A' from an adjacent tile will trigger an event.
-    - **Test:** Stood at (10, 11), faced the wall at (10, 10), and pressed 'A'.
-    - **Result:** No text appeared, no event triggered.
-    - **Conclusion:** Hypothesis disproven. Pausing investigation as other hypotheses require items I do not have.
-- **Untested Hypotheses (from agent):**
-  1. Use the move 'Flash' in the chamber. (Untestable: No Flash)
-  2. Use an Itemfinder to check for hidden switches. (Untestable: No Itemfinder)
-  3. Activate the Pokégear radio and listen to the stations. (Failed: No Radio Card)
-  4. Use an Escape Rope while standing directly in front of the 'ESCAPE' wall. (Untestable: No Escape Rope)
-  5. Use the move 'Strength' to try and push the statues. (Untestable: No Strength)
-- **Untested Assumptions:**
-  1. The puzzle requires having an Escape Rope in the inventory, not necessarily using it.
-  2. The 'sliding stone panels' mentioned by NPCs are a separate puzzle from the 'ESCAPE' wall.
-  3. Another item or a specific non-Unown Pokémon is needed to interact with the wall.
-
 ### Violet Mart Path Puzzle
 - **Objective:** Find a way to get to the clerk in the Violet City Mart.
 - **Observations:**
@@ -247,6 +216,28 @@
 - The puzzle is time-based and can only be solved during the day or at night.
 - The puzzle requires a specific key item that I do not yet possess.
 - A specific Pokémon move (like Headbutt or Cut) must be used on an object in the environment to change the bird's pathing.
+
+### Sprout Tower 2F Pillar Puzzle
+- **Objective:** Determine how to move the central pillar on 2F again.
+- **Observations:**
+  - Numerous simple interaction tests (re-interacting with the Sage, checking other objects/walls, etc.) have failed to make the central pillar move again after its initial movement.
+- **Untested Hypotheses:**
+  1. All other Sages on Sprout Tower 2F must be defeated before interacting with the Sage at (12, 3).
+  2. The interaction with the Sage at (12, 3) only makes the pillar passable during a specific time of day (e.g., night).
+  3. The floor tiles in the room with the Sage at (12,3) contain a visual pattern or clue that needs to be followed or replicated.
+
+### Ruins of Alph 'ESCAPE' Puzzle
+- **Objective:** Solve the 'ESCAPE' wall puzzle in the Ruins of Alph.
+- **Untested Hypotheses (from agent):**
+  1. Use the move 'Flash' in the chamber. (Untestable: No Flash)
+  2. Use an Itemfinder to check for hidden switches. (Untestable: No Itemfinder)
+  3. Activate the Pokégear radio and listen to the stations. (Failed: No Radio Card)
+  4. Use an Escape Rope while standing directly in front of the 'ESCAPE' wall. (Untestable: No Escape Rope)
+  5. Use the move 'Strength' to try and push the statues. (Untestable: No Strength)
+- **Untested Assumptions:**
+  1. The puzzle requires having an Escape Rope in the inventory, not necessarily using it.
+  2. The 'sliding stone panels' mentioned by NPCs are a separate puzzle from the 'ESCAPE' wall.
+  3. Another item or a specific non-Unown Pokémon is needed to interact with the wall.
 
 # Tool Usage Protocols
 
