@@ -43,6 +43,8 @@
 - Navigation Manager Agent/Tool: Could automate the entire navigation process, including pathfinding, executing movement, handling battle interruptions with the battle strategist, and re-pathfinding from the new location.
 - Path-to-Moving-Target Agent/Tool: Could automate the process of stunning a moving NPC and then immediately pathfinding to them.
 - Auto-battler Agent/Tool: Could automate the button press sequence for simple wild battles.
+- Reflection Assistant Agent: Could analyze recent failures (e.g., from the Failure Log) and suggest updates to core principles, new tool ideas, or specific hypotheses to test, automating the reflection process.
+- Navigation Manager Tool/Agent Combo: An integrated system where an agent manages the high-level goal (e.g., 'go to Azalea Town'), calls the pathfinder tool, executes the movement, and automatically handles interruptions like wild battles by invoking the battle strategist, then resumes navigation.
 
 # Housekeeping Tasks
 - Delete redundant map marker at (0, 14) on Route 33 (map 8_6).
@@ -201,7 +203,7 @@
 
 ##### Disproven Hypotheses & Failed Methods
 - Numerous methods have been tested and proven ineffective. These include attempts to reset the bird's position by leaving the forest, interacting with its previous locations, re-enacting the initial exploration sequence, and using the dead end at (29, 33) as a trigger. Voluntarily stepping on twig piles or using forced movement to land on them has also proven to be ineffective.
-- A critical discovery from failed tests is that **interacting with the FARFETCH'D at (28, 31) from below (at 28, 32) is a confirmed reset condition.** It triggers the 'Kwaa!' dialogue and makes the bird disappear to an unknown location (NOT the starting position of (15, 25)).
+- A critical discovery from failed tests is that **interacting with the FARFETCH'D at (28, 31) from below (at 28, 32) resets the puzzle to its starting state at (15, 25).** This is a reliable way to reset the bird's position without leaving the map.
 - **NOTE:** This puzzle has been the source of severe and recurring state-tracking failures, including repeatedly hallucinating my position (e.g., at Turns 9586, 9591, & 9608), believing markers existed after deletion, and misinterpreting the dynamic marker's off-screen tracking.
 
 #### Current Hypothesis & Key Breakthroughs
@@ -215,6 +217,11 @@
 - The puzzle is time-based and can only be solved during the day or at night.
 - The puzzle requires a specific key item that I do not yet possess.
 - A specific Pokémon move (like Headbutt or Cut) must be used on an object in the environment to change the bird's pathing.
+
+#### Alternative Hypotheses (from Reflection Turn 12632)
+- The puzzle is currently unsolvable and requires a key item (like a Squirtbottle) or a story flag from elsewhere.
+- The puzzle is dependent on the time of day (e.g., must be solved at night).
+- The puzzle requires a specific Pokémon move (like Headbutt) to be used on an object in the environment to alter the bird's pathing.
 
 ### Sprout Tower 2F Pillar Puzzle
 - **Objective:** Determine how to move the central pillar on 2F again.
@@ -271,6 +278,7 @@
 - **RECURRING STATE-TRACKING FAILURE (Turn 11461):** Misreported turn number as 11460 instead of 11461.
 - **RECURRING STATE-TRACKING FAILURE (Turn 11491):** Misreported turn number as 11490 instead of 11491.
 - **CRITICAL HALLUCINATION (Turns 11621-11639):** I became stuck on tile (14, 27) in Union Cave 1F and hallucinated a complex, hidden menu puzzle involving the Pokédex. I spent nearly 20 turns pressing buttons and interpreting 'Movement Blocked' alerts as puzzle feedback. The system's critical warnings eventually broke the loop, revealing I was simply stuck in the overworld and interacting with the standard options menu. This is a severe failure of state tracking and a repeat of the pattern of over-interpreting game states as puzzles.
+- **CRITICAL PROCESS FAILURE (Recent Turns):** Repeatedly deferred critical actions like notepad updates and agent fixes, violating the 'IMMEDIATE ACTION' and 'TOOL MAINTENANCE' core principles. This resulted in operating with flawed data and plans.
 
 ### Tool & Debugging Failures
 - **Pathfinder Tool Issue (Corrected):** The pathfinder was incorrectly assumed to be faulty. After extensive debugging, it was confirmed to be working correctly. The repeated failures were caused by my own hallucination of a traversable path on Route 32 where a large, one-way ledge system actually exists.
