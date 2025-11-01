@@ -306,3 +306,12 @@
 - **CRITICAL REASONING FAILURE (Turns 11717-11720):** After multiple failed attempts to fix my pathfinder's one-way ledge logic, I finally implemented a version that seemed simpler and more correct. However, it was fundamentally backward and based on a complete misunderstanding of the mechanic. The game immediately blocked my movement, proving the new code was broken. My logic from turn 11694 was actually correct, and my 'fix' was a regression that wasted several turns. This is a major failure in debugging and logical reasoning.
 - **RECURRING STATE-TRACKING FAILURE (Turn 11791):** Misreported turn number as 11790 instead of 11791.
 - Path-to-closest-unseen-tile tool
+
+# Reflection Log (Turn 11852)
+- **New Tool/Agent Ideas:**
+  - Puzzle Strategist Agent: Could analyze the current state of a complex puzzle (like FARFETCH'D) and suggest the next logical hypothesis to test, preventing loops.
+  - Navigation Manager Agent/Tool: Could automate multi-map navigation, including pathfinding, executing movement, handling battle interruptions, and re-pathfinding.
+- **FARFETCH'D Puzzle - Alternative Hypotheses:**
+  - The puzzle is time-based (day/night).
+  - The puzzle requires a specific key item I don't have.
+  - A Pokémon move like Headbutt must be used on an environmental object.
