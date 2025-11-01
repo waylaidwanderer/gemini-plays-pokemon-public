@@ -201,7 +201,7 @@
 
 ##### Disproven Hypotheses & Failed Methods
 - Numerous methods have been tested and proven ineffective. These include attempts to reset the bird's position by leaving the forest, interacting with its previous locations, re-enacting the initial exploration sequence, and using the dead end at (29, 33) as a trigger. Voluntarily stepping on twig piles or using forced movement to land on them has also proven to be ineffective.
-- A critical discovery from failed tests is that **interacting with the FARFETCH'D at (28, 31) from below (at 28, 32) resets the puzzle to its starting state at (15, 25).** This is a reliable way to reset the bird's position without leaving the map.
+- A critical discovery from failed tests is that **interacting with the FARFETCH'D at (28, 31) from below (at 28, 32) is a confirmed reset condition.** It triggers the 'Kwaa!' dialogue and makes the bird disappear to an unknown location (NOT the starting position of (15, 25)).
 - **NOTE:** This puzzle has been the source of severe and recurring state-tracking failures, including repeatedly hallucinating my position (e.g., at Turns 9586, 9591, & 9608), believing markers existed after deletion, and misinterpreting the dynamic marker's off-screen tracking.
 
 #### Current Hypothesis & Key Breakthroughs
