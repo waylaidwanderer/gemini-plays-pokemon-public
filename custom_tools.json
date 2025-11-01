@@ -291,25 +291,29 @@
       }
     ]
   },
-  "action_sequencer": {
-    "description": "Takes a JSON string of a multi-turn button press sequence. Returns the first action for the current turn and the remaining sequence as a JSON string for the next turn.",
+  "list_reachable_unseen_tiles": {
+    "description": "Parses the map XML and uses a BFS algorithm to find and return a list of all 'unseen' tiles that are reachable from the player's current position. This provides a clear, actionable list of exploration targets.",
     "input_schema": {
       "type": "object",
       "properties": {
-        "sequence_json": {
+        "start_x": {
+          "type": "string"
+        },
+        "start_y": {
           "type": "string"
         }
       },
       "required": [
-        "sequence_json"
+        "start_x",
+        "start_y"
       ]
     },
-    "python_script": "import json\nsequence_json = input_data.get('sequence_json', '[]')\ntry:\n    sequence = json.loads(sequence_json)\nexcept json.JSONDecodeError:\n    sequence = []\n\naction_for_this_turn = None\nis_complete = True\nremaining_sequence = []\n\nif isinstance(sequence, list) and len(sequence) > 0:\n    action_for_this_turn = sequence.pop(0)\n    remaining_sequence = sequence\n    is_complete = len(remaining_sequence) == 0\n\noutput = {\n    \"action_for_this_turn\": action_for_this_turn,\n    \"remaining_sequence_json\": json.dumps(remaining_sequence),\n    \"is_complete\": is_complete\n}\nprint(json.dumps(output))",
+    "python_script": "import xml.etree.ElementTree as ET\nimport json\nfrom collections import deque\n\nstart_x = int(input_data['start_x'])\nstart_y = int(input_data['start_y'])\n\nroot = ET.fromstring(map_xml_string)\nmap_width = int(root.get('width'))\nmap_height = int(root.get('height'))\n\ntile_info = {}\nimpassable_types = {\n    'WALL', 'VOID', 'WATER', 'BOOKSHELF', 'COUNTER', 'CUT_TREE', 'HEADBUTT_TREE',\n    'MART_SHELF', 'PC', 'PILLAR', 'RADIO', 'TOWN_MAP', 'TV', 'WINDOW'\n}\n\nfor row_elem in root.findall('Row'):\n    y = int(row_elem.get('id'))\n    for tile_elem in row_elem.findall('Tile'):\n        x = int(tile_elem.get('id'))\n        tile_type = tile_elem.get('type')\n        is_unseen = tile_elem.get('seen') == 'false'\n        has_object = tile_elem.get('has-object') == 'true'\n        is_impassable = tile_type in impassable_types or has_object\n        tile_info[(x, y)] = {'type': tile_type, 'unseen': is_unseen, 'impassable': is_impassable}\n\nqueue = deque([(start_x, start_y)])\nvisited = {(start_x, start_y)}\nreachable_unseen = []\n\nmoves = [(0, -1), (0, 1), (-1, 0), (1, 0)]\n\nwhile queue:\n    cx, cy = queue.popleft()\n\n    for dx, dy in moves:\n        nx, ny = cx + dx, cy + dy\n        neighbor = (nx, ny)\n\n        if not (0 <= ny < map_height and 0 <= nx < map_width): continue\n        if neighbor in visited: continue\n        \n        neighbor_data = tile_info.get(neighbor)\n        if not neighbor_data: continue\n\n        visited.add(neighbor)\n        if neighbor_data['unseen'] and not neighbor_data['impassable']:\n            reachable_unseen.append({'x': nx, 'y': ny})\n        elif not neighbor_data['impassable']:\n            queue.append(neighbor)\n\nprint(json.dumps(reachable_unseen))",
     "history": [
       {
-        "commit_message": "feat: Create deterministic action sequencer tool. This tool, `action_sequencer`, replaces the unreliable `sequence_manager` agent. It takes a JSON list of button presses, pops the first action for the current turn, and returns the rest. As a Python script, it will be deterministic and solve the critical issue of dropped inputs during automated battle sequences.",
-        "timestamp": "2025-11-01T18:46:49.307Z",
-        "action_counter": 13445
+        "commit_message": "Initial version",
+        "timestamp": "2025-11-01T20:53:35.876Z",
+        "action_counter": 13622
       }
     ]
   }
