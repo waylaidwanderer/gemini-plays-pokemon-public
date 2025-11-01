@@ -11,24 +11,26 @@
 - **TRUST OBSERVATION:** My biggest obstacle is my own memory. I must only trust in-game observation.
 - **Trainer Identification:** I must verify the name and location of a trainer before marking them as defeated to prevent misidentification errors like the Hiker Daniel/Russell mix-up.
 
+## Available Agents
+- **farfetchd_puzzle_solver:** Operational.
+- **notepad_refactor_assistant:** Operational.
+- **simple_battle_strategist:** Operational.
+
 ## Available Tools
-- **notepad_edit:** Operational.
-- **run_code:** Operational.
 - **define_agent:** Operational.
-- **delete_agent:** Operational.
 - **define_map_marker:** Operational.
-- **delete_map_marker:** Operational.
-- **stun_npc:** Operational.
 - **define_tool:** Operational.
+- **delete_agent:** Operational.
+- **delete_map_marker:** Operational.
 - **delete_tool:** Operational.
-- **select_battle_option:** Operational. My previous belief that this tool was broken was a hallucination. The system has confirmed it is 100% reliable and should be preferred over manual inputs.
+- **find_adjacent_traversable_tiles:** Operational.
+- **generate_nickname_inputs:** Operational.
 - **generate_path_plan:** Operational.
 - **list_reachable_unseen_tiles:** Operational.
-- **generate_nickname_inputs:** Operational.
-- **find_adjacent_traversable_tiles:** Operational.
-- **simple_battle_strategist:** Operational.
-- **notepad_refactor_assistant:** Operational.
-- **farfetchd_puzzle_solver:** Operational.
+- **notepad_edit:** Operational.
+- **run_code:** Operational.
+- **select_battle_option:** Operational. My previous belief that this tool was broken was a hallucination. The system has confirmed it is 100% reliable and should be preferred over manual inputs.
+- **stun_npc:** Operational.
 
 ## Future Agent & Tool Ideas
 - Pathing Strategist Agent: Could suggest stun-vs-reroute strategies for dealing with a moving NPC.
