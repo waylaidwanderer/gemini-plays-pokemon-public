@@ -14,6 +14,7 @@
 ## Available Agents
 - **notepad_refactor_assistant:** Operational.
 - **simple_battle_strategist:** Operational.
+- **sequence_manager:** Operational.
 
 ## Available Tools
 - **define_agent:** Operational.
