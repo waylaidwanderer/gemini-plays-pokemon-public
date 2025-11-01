@@ -196,28 +196,28 @@
 
 ### Ilex Forest FARFETCH'D Puzzle
 - **Objective:** Herd the FARFETCH'D back to the apprentice at (7, 28).
-- **Background:** **CONFIRMED LEAD:** The Charcoal Man's apprentice is at (7, 28) in Ilex Forest. His FARFETCH'D, which knows CUT, has run off. I need to find the FARFETCH'D to get CUT. This was mentioned by a Youngster (6, 9) and the Charcoal Man himself (2, 3).
+- **Background:** The Charcoal Man's apprentice is at (7, 28) in Ilex Forest. His FARFETCH'D, which knows CUT, has run off. I need to find the FARFETCH'D to get CUT. This was mentioned by a Youngster (6, 9) and the Charcoal Man himself (2, 3).
 
-#### Puzzle Mechanics & Rules
-##### Confirmed Mechanics
-- The bird's movement is triggered by player interaction from specific coordinates and with a specific facing, not just the direction of approach.
+#### Puzzle Mechanics & Discoveries
+- **Core Mechanic:** The bird's movement is triggered by player interaction from specific coordinates and with a specific facing, not just the direction of approach.
+- **Key Breakthrough:** The player's X-coordinate when interacting from *below* the FARFETCH'D at its starting position (15, 25) determines its destination.
+  - Interacting from (15, 24) causes the bird to move south to (15, 29).
+  - Interacting from (15, 26) causes the bird to move east to (20, 24).
+- **Reliable Reset:** Interacting with the FARFETCH'D at (28, 31) from below (at 28, 32) reliably resets the puzzle to its starting state with the bird at (15, 25).
+- **Other Triggers & Rules:**
+  - Stepping on the one-way ledge at (27, 22) triggers the FARFETCH'D to appear at (29, 22).
+  - Interacting from the side of the bird is a failure condition that resets its position.
+  - The 'Kwaa!' dialogue is flavor text and does NOT indicate a puzzle failure or reset.
+- **Note on Failures:** This puzzle has been the source of severe and recurring state-tracking failures, including repeatedly hallucinating my position (e.g., at Turns 9586, 9591, & 9608).
 
-##### Disproven Hypotheses & Failed Methods
-- Numerous methods have been tested and proven ineffective. These include attempts to reset the bird's position by leaving the forest, interacting with its previous locations, re-enacting the initial exploration sequence, and using the dead end at (29, 33) as a trigger. Voluntarily stepping on twig piles or using forced movement to land on them has also proven to be ineffective.
-- A critical discovery from failed tests is that **interacting with the FARFETCH'D at (28, 31) from below (at 28, 32) resets the puzzle to its starting state at (15, 25).** This is a reliable way to reset the bird's position without leaving the map.
-- **NOTE:** This puzzle has been the source of severe and recurring state-tracking failures, including repeatedly hallucinating my position (e.g., at Turns 9586, 9591, & 9608), believing markers existed after deletion, and misinterpreting the dynamic marker's off-screen tracking.
-
-#### Current Hypothesis & Key Breakthroughs
-- **BREAKTHROUGH:** The player's X-coordinate when interacting from *below* the FARFETCH'D at (15, 25) determines its destination.
-  - **Observation 1:** Standing at (15, 26) and interacting with the bird at (15, 25) causes it to move to the eastern dead-end at (20, 24).
-  - **Observation 2:** Standing at (15, 24) and interacting with the bird at (15, 25) causes it to move south to (15, 29).
-- **Current Refined Hypothesis:** The bird's initial facing direction is a critical component of the puzzle, likely influenced by twig piles. The next step is to manipulate its facing and then trigger the southward movement from (15, 24).
-- **BREAKTHROUGH:** Stepping on the one-way ledge at (27, 22) triggers the FARFETCH'D to appear at (29, 22). This is a confirmed trigger.
-
-#### Alternative Hypotheses
-- The puzzle is time-based and can only be solved during the day or at night.
-- The puzzle requires a specific key item that I do not yet possess.
-- A specific Pokémon move (like Headbutt or Cut) must be used on an object in the environment to change the bird's pathing.
+#### Current Investigation Plan
+- **Proactive Hypothesis:** Stepping on a twig pile is a necessary prerequisite that alters the Farfetch'd's initial state at (15, 25) before the first interaction. My previous reactive 'chase the bird' strategy has failed; this plan tests a preparatory action.
+- **Test Plan:**
+  1.  **Reset:** Ensure the bird is at its starting position (15, 25). If not, use the reliable reset method (interact with bird at (28, 31) from (28, 32)).
+  2.  **Trigger:** Path to and step on a specific twig pile, for example, the one at (14, 27).
+  3.  **Approach:** Path from the twig pile to (15, 24) without stepping on any other twigs.
+  4.  **Interact:** Face UP and press 'A' to interact with the bird at (15, 25).
+  5.  **Observe & Conclude:** Document the bird's new position. If it moves to a new, previously unobserved location, the hypothesis is supported. If it moves to (15, 29) as before, this specific twig does not alter the outcome.
 
 #### Alternative Hypotheses (from Reflection Turn 12632)
 - The puzzle is currently unsolvable and requires a key item (like a Squirtbottle) or a story flag from elsewhere.
