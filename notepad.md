@@ -27,7 +27,7 @@
 - **find_adjacent_traversable_tiles:** Operational.
 - **generate_nickname_inputs:** Operational.
 - **generate_path_plan:** Operational.
-- **list_reachable_unseen_tiles:** Operational.
+- **path_to_closest_unseen_tile:** Operational.
 - **notepad_edit:** Operational.
 - **run_code:** Operational.
 - **select_battle_option:** My previous belief that this tool was broken was a hallucination. The system has confirmed it is 100% reliable and should be preferred over manual inputs.
