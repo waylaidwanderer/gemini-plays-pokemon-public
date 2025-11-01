@@ -505,3 +505,10 @@
   - **Test:** Stepped on twig at (14, 27), then interacted with FARFETCH'D at (28, 31) from (28, 32).
   - **Result:** 'Kwaa!' dialogue, bird disappeared.
   - **Conclusion:** Hypothesis disproven. Stepping on this specific twig does not alter the outcome of this interaction.
+
+## Future Agent & Tool Ideas (Reflection Turn 13775)
+- **Battle Recovery Agent:** Could analyze a failed battle state (e.g., wrong menu) and generate the button presses to recover and return to the intended action.
+- **Reflection Assistant Agent:** Could analyze the last 50 turns of logs to generate a summary of process violations, suggest new tools, and identify untested assumptions, automating the reflection process.
+
+## Untested Mechanics & Hypotheses (Update Turn 13775)
+- Rigorously test all one-way tiles (e.g., LEDGE_HOP_DOWN/LEFT/RIGHT, FLOOR_UP_WALL on Union Cave 1F) by attempting to move in all four directions from them to definitively confirm their movement restrictions.
