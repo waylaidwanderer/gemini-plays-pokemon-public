@@ -359,7 +359,7 @@
   - **HM Cut Source:** It might be obtained from an NPC or location other than the FARFETCH'D puzzle.
   - **'Odd Tree' Solution:** The tree might be passable via a specific Pokémon move (like Headbutt), at a certain time of day, or after a different story flag is met, not just with a key item.
   - **Path to Goldenrod:** An alternative route might exist through Ilex Forest or elsewhere.
-- **Failed Trigger (Turn 12400):** Walking to the dead end at (29, 33) and then returning to (28, 31) did NOT cause the FARFETCH'D to appear. This trigger is inconsistent.
+- **Failed Trigger (Turns 12400, 12629):** Walking to the dead end at (29, 33) and then returning to the area has repeatedly failed to make the FARFETCH'D appear. This trigger is inconsistent and unreliable.
 - **CRITICAL HALLUCINATION (Turns 12372-12374):** Believed I had a tool named `list_reachable_unseen_tiles` and that `path_to_closest_unseen_tile` did not exist. This was a state-tracking failure that led to multiple failed tool management calls.
 - Auto-battler Agent/Tool: Could automate the button press sequence for simple wild battles by combining `simple_battle_strategist` and `execute_battle_action`.
 
