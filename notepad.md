@@ -14,9 +14,9 @@
 ## Available Agents
 - **notepad_refactor_assistant:** Operational.
 - **simple_battle_strategist:** Operational.
-- **sequence_manager:** Operational.
 
 ## Available Tools & Agents
+- **action_sequencer:** Operational.
 - **define_agent:** Operational.
 - **define_map_marker:** Operational.
 - **define_tool:** Operational.
@@ -27,12 +27,10 @@
 - **find_adjacent_traversable_tiles:** Operational.
 - **generate_nickname_inputs:** Operational.
 - **generate_path_plan:** Operational.
-- **list_reachable_unseen_tiles:** Operational.
 - **notepad_edit:** Operational.
 - **notepad_refactor_assistant:** Operational.
 - **run_code:** Operational.
 - **select_battle_option:** My previous belief that this tool was broken was a hallucination. The system has confirmed it is 100% reliable and should be preferred over manual inputs.
-- **sequence_manager:** Operational.
 - **simple_battle_strategist:** Operational.
 - **stun_npc:** Operational.
 
@@ -49,7 +47,6 @@
 - Reflection Assistant Agent: Could analyze recent failures (e.g., from the Failure Log) and suggest updates to core principles, new tool ideas, or specific hypotheses to test, automating the reflection process.
 - Navigation Manager Tool/Agent Combo: An integrated system where an agent manages the high-level goal (e.g., 'go to Azalea Town'), calls the pathfinder tool, executes the movement, and automatically handles interruptions like wild battles by invoking the battle strategist, then resumes navigation.
 - Pathing Failure Analyst Agent: Could analyze movement blockages and suggest specific solutions (e.g., stun NPC, find alternate route).
-- Auto-battler Manager Agent: An agent to manage the entire wild battle flow by orchestrating `simple_battle_strategist` and `execute_battle_action`.
 
 # Housekeeping Tasks
 
@@ -211,12 +208,6 @@
   - Stepping on the one-way ledge at (27, 22) triggers the FARFETCH'D to appear at (29, 22).
   - Interacting from the side of the bird is a failure condition that triggers the 'Kwaa!' dialogue and resets its position. This is true regardless of the bird's facing direction.
 - **Note on Failures:** This puzzle has been the source of severe and recurring state-tracking failures, including repeatedly hallucinating my position (e.g., at Turns 9586, 9591, & 9608).
-
-#### Solution Discovery Log (Continued)
-- **Hypothesis:** Interacting with the FARFETCH'D at (28, 31) from below (28, 32) will successfully move it.
-  - **Test:** After resetting the bird to (28, 31), stood at (28, 32), faced UP, and pressed 'A'.
-  - **Result:** The 'Kwaa!' dialogue appeared. This is a known failure/reset condition.
-  - **Conclusion:** Hypothesis disproven. This interaction is not a step towards the solution.
 
 #### Current Investigation Plan
 - **Proactive Hypothesis:** Stepping on a twig pile is a necessary prerequisite that alters the Farfetch'd's initial state at (15, 25) before the first interaction. My previous reactive 'chase the bird' strategy has failed; this plan tests a preparatory action.
@@ -391,9 +382,10 @@
 ### Process Violations (System Critiques)
 - **CRITICAL PROCESS FAILURE (Turn 12570):** The system correctly identified two major process violations. 1) I failed to immediately address the faulty `farfetchd_puzzle_solver` agent after discovering it provided incorrect advice on Turn 12443. 2) I completely ignored my own map markers at (15, 24) and (15, 26) that warned of a movement loop, wasting over 10 turns stuck in that exact loop while the bird wasn't even at its starting position. This is a severe failure of discipline. My new plan is to stop interacting with the bird's empty starting position and instead path to a known trigger point at (29, 33) to make it reappear.
 
-### Battle Automation Failure (Turn 12755)
-- **Observation:** My `execute_battle_action` tool generated a sequence to select 'QUICK ATTACK' (Down x2, A). However, the game state showed that 'EMBER' was selected and used instead.
-- **Conclusion:** There is a discrepancy in how the battle menu cursor movement is handled. The tool's logic for navigating the move list is likely flawed. This needs to be investigated and fixed. For now, I must be cautious when using this tool and double-check the cursor position on screen.
+### Battle Automation Failure (Recurring)
+- **Observation (Turn 12755):** My `execute_battle_action` tool generated a sequence to select 'QUICK ATTACK' (Down x2, A). However, the game state showed that 'EMBER' was selected and used instead.
+- **Observation (Turns 13429-13432):** During the battle with a wild WEEDLE, my automated sequence to select EMBER repeatedly failed. The 'Down' button presses from the `sequence_manager` did not register in the game for multiple turns, leaving the cursor stuck on 'QUICK ATTACK'. I had to intervene manually to finish the battle.
+- **Conclusion:** There is a fundamental, recurring issue with battle automation. The game may not be processing sequential directional inputs correctly, or my tools (`execute_battle_action`, `sequence_manager`) are not sending them correctly. The tool's logic for navigating the move list is likely flawed and this automation is currently unreliable and needs investigation.
 
 ## Future Agent & Tool Ideas (Reflection Turn 12943)
 - **Action Sequencer Tool:** A tool to automate the execution of multi-turn button sequences output by other tools (like `execute_battle_action`). This would take a list of lists (e.g., [['A'], ['Down'], ['Down'], ['A']]) and execute one inner list per turn, freeing me from manual management.
@@ -460,6 +452,3 @@
 - **RECURRING STATE-TRACKING FAILURE (Turn 13313):** Misreported turn number as 13312 instead of 13313.
 - **RECURRING STATE-TRACKING FAILURE (Turn 13329):** Misreported turn number as 13328 instead of 13329.
 - Be more rigorous in testing one-way tiles (LEDGE_HOP, FLOOR_UP_WALL) by attempting to move in all four directions to definitively confirm movement restrictions.
-### Battle Automation Failure (Turns 13429-13432)
-- **Observation:** During the battle with a wild WEEDLE, my automated sequence to select EMBER repeatedly failed. The 'Down' button presses from the `sequence_manager` did not register in the game for multiple turns, leaving the cursor stuck on 'QUICK ATTACK'.
-- **Conclusion:** There is a fundamental issue with how the game is processing sequential directional inputs in the battle menu, or my `sequence_manager` is not sending them correctly. I had to intervene manually to finish the battle. This automation is currently unreliable and needs investigation.
