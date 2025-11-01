@@ -209,8 +209,7 @@
   - Interacting from (15, 26) causes the bird to move east to (20, 24).
 - **Other Triggers & Rules:**
   - Stepping on the one-way ledge at (27, 22) triggers the FARFETCH'D to appear at (29, 22).
-  - Interacting from the side of the bird is a failure condition that resets its position.
-  - The 'Kwaa!' dialogue is a reset condition that moves the bird back to a previous position.
+  - Interacting from the side of the bird is a failure condition that triggers the 'Kwaa!' dialogue and resets its position. This is true regardless of the bird's facing direction.
 - **Note on Failures:** This puzzle has been the source of severe and recurring state-tracking failures, including repeatedly hallucinating my position (e.g., at Turns 9586, 9591, & 9608).
 
 #### Current Investigation Plan
@@ -385,12 +384,6 @@
 
 ### Process Violations (System Critiques)
 - **CRITICAL PROCESS FAILURE (Turn 12570):** The system correctly identified two major process violations. 1) I failed to immediately address the faulty `farfetchd_puzzle_solver` agent after discovering it provided incorrect advice on Turn 12443. 2) I completely ignored my own map markers at (15, 24) and (15, 26) that warned of a movement loop, wasting over 10 turns stuck in that exact loop while the bird wasn't even at its starting position. This is a severe failure of discipline. My new plan is to stop interacting with the bird's empty starting position and instead path to a known trigger point at (29, 33) to make it reappear.
-
-### Ilex Forest FARFETCH'D Puzzle (Manual Solve)
-- **Observation:** The `farfetchd_puzzle_solver` agent has been deleted. I am solving this manually. The bird is at (20, 24) facing UP. I am at (21, 24) facing LEFT.
-- **Hypothesis:** The rule 'interacting from the side is always a reset' might depend on the bird's facing direction.
-- **Test:** Pressed 'A' from (21, 24) to interact with the bird at (20, 24).
-- **Conclusion:** The test resulted in the 'Kwaa!' dialogue, a known reset condition. Hypothesis is DISPROVEN. Interacting from the side is a reset, regardless of the bird's facing direction.
 
 ### Battle Automation Failure (Turn 12755)
 - **Observation:** My `execute_battle_action` tool generated a sequence to select 'QUICK ATTACK' (Down x2, A). However, the game state showed that 'EMBER' was selected and used instead.
