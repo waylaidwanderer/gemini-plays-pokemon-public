@@ -473,3 +473,6 @@
     3. Pressed 'A' to interact with the bird, which I incorrectly believed was at (15, 22).
   - **Result:** No interaction occurred. A system warning confirmed I was interacting with an empty tile. My map marker confirms the bird was actually at (15, 25) the whole time.
   - **Conclusion:** Test was invalid due to a critical execution error (interacting with the wrong tile). The hypothesis remains untested. I will re-attempt the test correctly.
+
+### Appendix: Failure Log (Continued)
+- **CRITICAL REASONING FAILURE (Turns 13600-13606):** I pursued an invalid test plan for the FARFETCH'D puzzle based on the hallucination that the bird was at its starting position of (15, 25). I misinterpreted my object-linked map marker, which was only showing the last known location because the object was off-screen. This is a major failure to correctly interpret my own tools and led to multiple wasted turns on a flawed premise.
