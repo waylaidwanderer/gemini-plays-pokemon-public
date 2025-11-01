@@ -465,3 +465,11 @@
 
 ## Active Investigations
 - **`action_sequencer` Unreliability:** This tool has a recurring history of failure (e.g., turns 13516-13518, 13556), where its inputs do not seem to register with the game engine, causing me to get stuck in menus. While the input-generating tool (`execute_battle_action`) has been fixed, the sequencer itself remains suspect. I will prioritize manual inputs or more reliable tools like `select_battle_option` over this tool until the root cause is identified and fixed.
+
+- **Hypothesis (Proactive Twig Test 1):** Stepping on the twig pile at (14, 27) is a prerequisite that alters the Farfetch'd's initial state at (15, 25).
+  - **Test:**
+    1. Stepped on the twig pile at (14, 27).
+    2. Pathed to (15, 23) and faced up.
+    3. Pressed 'A' to interact with the bird, which I incorrectly believed was at (15, 22).
+  - **Result:** No interaction occurred. A system warning confirmed I was interacting with an empty tile. My map marker confirms the bird was actually at (15, 25) the whole time.
+  - **Conclusion:** Test was invalid due to a critical execution error (interacting with the wrong tile). The hypothesis remains untested. I will re-attempt the test correctly.
