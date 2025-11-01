@@ -210,7 +210,7 @@
 - **Other Triggers & Rules:**
   - Stepping on the one-way ledge at (27, 22) triggers the FARFETCH'D to appear at (29, 22).
   - Interacting from the side of the bird is a failure condition that resets its position.
-  - The 'Kwaa!' dialogue is flavor text and does NOT indicate a puzzle failure or reset.
+  - The 'Kwaa!' dialogue is a reset condition that moves the bird back to a previous position.
 - **Note on Failures:** This puzzle has been the source of severe and recurring state-tracking failures, including repeatedly hallucinating my position (e.g., at Turns 9586, 9591, & 9608).
 
 #### Current Investigation Plan
