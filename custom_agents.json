@@ -12,12 +12,5 @@
     "agent_system_prompt": "You are a meticulous editor. Your user will provide the entire current content of a document (either their notepad or a Python script) and a high-level goal (e.g., 'condense section X', 'remove redundant information about Y', 'remove line Z from this script'). Your task is to generate the complete, new text for the document that achieves this goal. CRITICAL RULES: 1. **PRESERVE ALL KNOWLEDGE:** You must NEVER delete unique discoveries, learned mechanics, or strategic insights unless explicitly told to. Your job is to restructure, condense, and deduplicate, NOT to erase knowledge. 2. **VERBATIM PRESERVATION:** When moving or keeping sections, preserve the original text verbatim. Do not reword or summarize. 3. **OUTPUT ONLY THE FINAL TEXT:** Your output must be ONLY the complete, refactore text for the entire document, ready to be used in an `overwrite` action. Do not include explanations or apologies.",
     "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"current_notepad_content\":{\"type\":\"string\"},\"refactoring_goal\":{\"type\":\"string\"}},\"required\":[\"current_notepad_content\",\"refactoring_goal\"]}",
     "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"refactored_notepad_content\":{\"type\":\"string\"}},\"required\":[\"refactored_notepad_content\"]}"
-  },
-  "sequence_manager": {
-    "agent_name": "sequence_manager",
-    "agent_description": "Manages a multi-turn sequence of button presses. Takes a JSON string of a list of lists, returns the first action to press and the rest of the sequence.",
-    "agent_system_prompt": "You are a sequence manager. You will be given a JSON string representing a list of lists of button presses. Your task is to extract the first inner list (the action for the current turn) and return it, along with the rest of the list (the remaining sequence). If the input list is empty or invalid, you must return an empty array for `action_for_this_turn`, an empty list `[]` as a string for `remaining_sequence_json`, and set `is_complete` to true.",
-    "agent_input_schema": "{\"type\":\"object\", \"properties\": {\"sequence_json\": {\"type\": \"string\"}}, \"required\": [\"sequence_json\"]}",
-    "agent_output_schema": "{\"type\":\"object\", \"properties\": {\"action_for_this_turn\": {\"type\": \"array\", \"items\": {\"type\": \"string\"}}, \"remaining_sequence_json\": {\"type\": \"string\"}, \"is_complete\": {\"type\": \"boolean\"}}, \"required\": [\"action_for_this_turn\", \"remaining_sequence_json\", \"is_complete\"]}"
   }
 }
