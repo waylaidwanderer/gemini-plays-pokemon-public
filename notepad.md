@@ -229,38 +229,9 @@
 - The bird's movement is triggered by player interaction from specific coordinates and with a specific facing, not just the direction of approach.
 
 ##### Disproven Hypotheses & Failed Methods
-- **Reset/Respawn:** The bird does not respawn or reset its position by leaving/re-entering the forest or talking to NPCs.
-- **Interaction with Empty Tiles:** Interacting with the bird's empty starting tile (15, 25) or adjacent tiles (e.g., 15, 26) after it has moved has no effect.
-- **Player Facing:** Simply changing the player's facing direction on the bird's starting tile does not make it reappear.
-- **Exploration Triggers:** Re-enacting the initial exploration sequence that made the bird first appear does not work a second time.
-- **Twig Piles:** Stepping on twig piles in various sequences or attempting to interact with them has so far yielded no results. Forced movement tiles make controlled interaction with them difficult.
-- **Hypothesis:** Using the forced movement from (15, 26) to land on the northern twig pile (14, 26) is the trigger.
-  - **Test (Turn 10214):** Intentionally triggered the forced movement by pressing 'Left' from (15, 26).
-  - **Result:** No event triggered. The FARFETCH'D did not appear.
-  - **Conclusion:** Hypothesis disproven.
-- **Hypothesis:** Using the forced movement from (14, 28) to land on the southern twig pile (14, 27) is the trigger.
-  - **Test (Turn 10217):** Intentionally triggered the forced movement by pressing 'Up' from (14, 28).
-  - **Result:** No event triggered. The FARFETCH'D did not appear.
-  - **Conclusion:** Hypothesis disproven.
-- **Hypothesis:** Interacting with the FARFETCH'D at (28, 31) from below (at 28, 32) will move it.
-  - **Test:** Stood at (28, 32), faced the bird, and pressed 'A'.
-  - **Result:** The first 'A' press triggered a 'Kwaa!' dialogue. The second 'A' press caused the bird to disappear.
-  - **Conclusion:** Hypothesis disproven. Interacting from below (28, 32) resets the puzzle to its starting state at (15, 25). Pivoting to using the `farfetchd_puzzle_solver` agent for guidance.
-- **Hypothesis:** Using the forced movement from (15, 24) to land on the bird's spawn point (15, 25) is the trigger for it to appear.
-  - **Test:** Stood at (15, 24) and pressed 'Down'.
-  - **Result:** Landed at (15, 25). No event triggered. The FARFETCH'D did not appear.
-  - **Conclusion:** Hypothesis disproven.
-- **Hypothesis:** Walking to the dead end at (29, 33) will make the FARFETCH'D appear at (28, 31).
-  - **Test (Turn 11409):** Navigated to (29, 33).
-  - **Result (Turn 11411):** Navigated to (28, 31) and the FARFETCH'D was not present.
-  - **Conclusion:** Hypothesis disproven. The dead-end trigger is incorrect. Agent updated to reflect this.
-- **Hypothesis:** Voluntarily stepping on the twig piles is the trigger for the FARFETCH'D to appear.
-  - **Test 1 (Northern Pile):** Moved left from (15, 26) to land on the twig pile at (14, 26).
-  - **Result:** No event triggered. The FARFETCH'D did not appear.
-  - **Conclusion:** Hypothesis partially disproven. Stepping on the northern pile is not the trigger.
-  - **Test 2 (Southern Pile):** Moved down from (14, 26) to land on the twig pile at (14, 27).
-  - **Result:** No event triggered. The FARFETCH'D did not appear.
-  - **Conclusion:** Hypothesis disproven. Voluntarily stepping on the twig piles is not the trigger.
+- Numerous methods have been tested and proven ineffective. These include attempts to reset the bird's position by leaving the forest, interacting with its previous locations, re-enacting the initial exploration sequence, and using the dead end at (29, 33) as a trigger. Voluntarily stepping on twig piles or using forced movement to land on them has also proven to be ineffective.
+- A critical discovery from failed tests is that **interacting with the FARFETCH'D at (28, 31) from below (at 28, 32) resets the puzzle to its starting state at (15, 25).** This is a reliable way to reset the bird's position without leaving the map.
+- **NOTE:** This puzzle has been the source of severe and recurring state-tracking failures, including repeatedly hallucinating my position (e.g., at Turns 9586, 9591, & 9608), believing markers existed after deletion, and misinterpreting the dynamic marker's off-screen tracking.
 
 #### Current Hypothesis & Key Breakthroughs
 - **BREAKTHROUGH:** The player's X-coordinate when interacting from *below* the FARFETCH'D at (15, 25) determines its destination.
