@@ -212,20 +212,18 @@
     ]
   },
   "execute_battle_action": {
-    "description": "Takes the output of simple_battle_strategist and the current Pokémon's moves, then generates the sequence of button presses to execute the recommended action (FIGHT with a specific move, or RUN). This tool automates the process of handling simple battles.",
+    "description": "Takes the output of simple_battle_strategist (when the action is FIGHT) and the current Pokémon's moves, then generates the sequence of button presses to select the specified move. This tool automates the process of executing a fight command.",
     "input_schema": {
       "type": "object",
       "properties": {
         "action": {
           "type": "string",
           "enum": [
-            "FIGHT",
-            "RUN"
+            "FIGHT"
           ]
         },
         "move_to_use": {
-          "type": "string",
-          "nullable": true
+          "type": "string"
         },
         "move_1_name": {
           "type": "string"
@@ -245,10 +243,11 @@
       },
       "required": [
         "action",
+        "move_to_use",
         "move_1_name"
       ]
     },
-    "python_script": "# injected imports [\"sys\", \"json\"]\n# injected variables [\"map_xml_string\", \"input_data\"]\n\nimport json\nimport sys\n\naction = input_data.get('action')\nmove_to_use = input_data.get('move_to_use')\n\n# DO NOT filter the list. This was the bug that caused incorrect indexing.\nmoves = [\n    input_data.get('move_1_name'),\n    input_data.get('move_2_name'),\n    input_data.get('move_3_name'),\n    input_data.get('move_4_name')\n]\n\nprint(f\"DEBUG: Raw moves list: {moves}\", file=sys.stderr)\nprint(f\"DEBUG: Target move: {move_to_use}\", file=sys.stderr)\n\nbutton_sequence = []\n\nif action == 'RUN':\n    button_sequence.extend([['Right'], ['Down'], ['A']])\nelif action == 'FIGHT':\n    button_sequence.append(['A'])\n    if move_to_use in moves:\n        try:\n            # Find the index in the original, unfiltered list of 4 moves.\n            move_index = moves.index(move_to_use)\n            print(f\"DEBUG: Correct move_index found: {move_index}\", file=sys.stderr)\n            for _ in range(move_index):\n                button_sequence.append(['Down'])\n        except ValueError:\n            # This should not happen if move_to_use is in moves, but good practice.\n            print(f\"DEBUG: ERROR - Move '{move_to_use}' not found in {moves} despite check.\", file=sys.stderr)\n            pass\n    button_sequence.append(['A'])\n\nprint(f\"DEBUG: Final button sequence: {button_sequence}\", file=sys.stderr)\nprint(json.dumps(button_sequence))\n",
+    "python_script": "import json\nimport sys\n\naction = input_data.get('action')\nif action != \"FIGHT\":\n    print(json.dumps({\"error\": \"This tool only supports the 'FIGHT' action. Use 'select_battle_option' for other menu choices.\"}), file=sys.stderr)\n    sys.exit(1)\n    \nmove_to_use = input_data.get('move_to_use')\nmove_1_name = input_data.get('move_1_name')\nmove_2_name = input_data.get('move_2_name')\nmove_3_name = input_data.get('move_3_name')\nmove_4_name = input_data.get('move_4_name')\n\nbuttons_to_press_sequence = []\nmoves = [move_1_name, move_2_name, move_3_name, move_4_name]\n\ntry:\n    move_index = moves.index(move_to_use)\nexcept ValueError:\n    print(json.dumps({\"error\": f\"Move '{move_to_use}' not found in the provided move list: {moves}\"}), file=sys.stderr)\n    sys.exit(1)\n\nbuttons_to_press_sequence.append([\"A\"])\n\ndown_presses = []\nif move_index > 0:\n    for _ in range(move_index):\n        down_presses.append(\"Down\")\n    buttons_to_press_sequence.append(down_presses)\n\nbuttons_to_press_sequence.append([\"A\"])\n\nprint(json.dumps(buttons_to_press_sequence))",
     "history": [
       {
         "commit_message": "feat: Create battle automation tool. This tool, `execute_battle_action`, takes the strategic decision from the `simple_battle_strategist` and translates it into the concrete button presses required to execute the action in-game. This will automate the handling of trivial wild battles, significantly improving travel efficiency by removing the need for manual input during these frequent interruptions.",
@@ -284,6 +283,11 @@
         "commit_message": "fix: Correct move selection logic. The tool previously filtered out empty move slots, causing the list to be re-indexed and leading to the wrong number of 'Down' presses for move selection. This commit removes the filter and finds the move's index in the original 4-slot list, ensuring the correct number of 'Down' presses is always generated. Added debug prints to verify the fix.",
         "timestamp": "2025-11-01T19:22:45.290Z",
         "action_counter": 13475
+      },
+      {
+        "commit_message": "fix: Group directional inputs and scope to FIGHT action. The tool was failing because the system cannot process single directional inputs sent on consecutive turns. This commit refactors the script to group all 'Down' presses into a single list, which the system can execute in one turn. The tool's scope has also been narrowed to only handle the 'FIGHT' action, as 'RUN' is more reliably handled by the `select_battle_option` tool. This resolves a critical battle automation failure.",
+        "timestamp": "2025-11-01T20:02:19.861Z",
+        "action_counter": 13536
       }
     ]
   },
