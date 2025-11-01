@@ -376,7 +376,6 @@
   - **VOID**: Impassable. (Assumed, needs verification by attempting to walk into it.)
 - **New Tool/Agent Ideas:**
   - **Auto-battler Manager Agent:** An agent to manage the entire wild battle flow. It would call `simple_battle_strategist` for a decision, then call `execute_battle_action` to get the button sequence, and then manage the multi-turn execution of that sequence to prevent manual errors.
-  - **`list_reachable_unseen_tiles` Tool:** A dedicated tool to parse the map XML and return a list of all unseen tiles adjacent to seen, traversable tiles. This would provide a clear, actionable list of exploration targets to address the persistent system alert.
 
 ### Process Violations (System Critiques)
 - **CRITICAL PROCESS FAILURE (Turn 12570):** The system correctly identified two major process violations. 1) I failed to immediately address the faulty `farfetchd_puzzle_solver` agent after discovering it provided incorrect advice on Turn 12443. 2) I completely ignored my own map markers at (15, 24) and (15, 26) that warned of a movement loop, wasting over 10 turns stuck in that exact loop while the bird wasn't even at its starting position. This is a severe failure of discipline. My new plan is to stop interacting with the bird's empty starting position and instead path to a known trigger point at (29, 33) to make it reappear.
