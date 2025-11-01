@@ -281,14 +281,6 @@
 - **CRITICAL REASONING FAILURE (Turns 10746-10776):** My pathfinding tool correctly reported that no path existed within this section of Dark Cave. Instead of trusting the tool's output, I incorrectly assumed the tool was broken and wasted numerous turns in a loop trying to 'fix' it. This was a major failure to trust my own tools and a hallucination that a path existed where there was none. The area is a dead end accessible only by a one-way ledge, with the only exit being the warp.
 - **CRITICAL FAILURE (Turns 10908-10911):** My `list_reachable_unseen_tiles` tool correctly reported a dead end in Union Cave. Instead of trusting the tool's output, I incorrectly assumed the tool was broken and wasted multiple turns debugging it. This was a major failure to trust my own tools and a repeat of a past mistake (Turns 7142-7147).
 
-### General Hallucinations
-- The 'Poké Ball machine' in Elm's lab was a hallucination.
-- Hallucinated a warp at (9, 35) on Route 30. There is no warp there.
-- Hallucinated a warp at (13, 9) on Route 30. The actual house entrance is at (17, 5).
-- Hallucinated a warp at (14, 35) on VioletCity. The GameState confirms no warp exists there. The path to Route 32 is a southern map transition, not a warp tile.
-- Hallucinated a warp at (4, 2) on VioletCity. The GameState confirms no warp exists there. This is a recurring failure to verify warp locations before setting navigation goals.
-- **CRITICAL HALLUCINATION (Turn 11043):** Believed I had successfully warped from Route 32 (6, 79) to Union Cave (17, 31). In reality, my movement was interrupted by a phone call from Hiker Anthony and I never left Route 32. My entire understanding of the map and my position was incorrect for a full turn, leading me to believe a phone call was happening inside a cave. This is a severe state-tracking failure.
-
 ### Reflection-Based Updates (Turn 11074)
 - **Process Violation Logged:** Added an entry to my failure log for deferring a notepad update on Turn 11043, a violation of the 'IMMEDIATE ACTION' principle.
 - **New Tool Idea:** Added 'Debugging Assistant Agent' to my future ideas list.
