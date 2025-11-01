@@ -212,6 +212,12 @@
   - Interacting from the side of the bird is a failure condition that triggers the 'Kwaa!' dialogue and resets its position. This is true regardless of the bird's facing direction.
 - **Note on Failures:** This puzzle has been the source of severe and recurring state-tracking failures, including repeatedly hallucinating my position (e.g., at Turns 9586, 9591, & 9608).
 
+#### Solution Discovery Log (Continued)
+- **Hypothesis:** Interacting with the FARFETCH'D at (28, 31) from below (28, 32) will successfully move it.
+  - **Test:** After resetting the bird to (28, 31), stood at (28, 32), faced UP, and pressed 'A'.
+  - **Result:** The 'Kwaa!' dialogue appeared. This is a known failure/reset condition.
+  - **Conclusion:** Hypothesis disproven. This interaction is not a step towards the solution.
+
 #### Current Investigation Plan
 - **Proactive Hypothesis:** Stepping on a twig pile is a necessary prerequisite that alters the Farfetch'd's initial state at (15, 25) before the first interaction. My previous reactive 'chase the bird' strategy has failed; this plan tests a preparatory action.
 - **Test Plan:**
