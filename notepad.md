@@ -365,3 +365,10 @@
 
 ### Ilex Forest FARFETCH'D Puzzle (Continued)
 - **New Discovery (Turn 12443):** Interacting with the FARFETCH'D at (28, 31) from above (at 28, 30) is also a failure condition. It triggers the 'Kwaa!' dialogue and resets the bird's position, this time to (24, 35). The `farfetchd_puzzle_solver` agent's advice was incorrect and must be updated.
+
+### Reflection-Based Updates (Turn 12527)
+- **New Tile Mechanic Documented:**
+  - **VOID**: Impassable. (Assumed, needs verification by attempting to walk into it.)
+- **New Tool/Agent Ideas:**
+  - **Auto-battler Manager Agent:** An agent to manage the entire wild battle flow. It would call `simple_battle_strategist` for a decision, then call `execute_battle_action` to get the button sequence, and then manage the multi-turn execution of that sequence to prevent manual errors.
+  - **`list_reachable_unseen_tiles` Tool:** A dedicated tool to parse the map XML and return a list of all unseen tiles adjacent to seen, traversable tiles. This would provide a clear, actionable list of exploration targets to address the persistent system alert.
