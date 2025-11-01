@@ -12,7 +12,6 @@
 - **Trainer Identification:** I must verify the name and location of a trainer before marking them as defeated to prevent misidentification errors like the Hiker Daniel/Russell mix-up.
 
 ## Available Agents
-- **farfetchd_puzzle_solver:** Operational.
 - **notepad_refactor_assistant:** Operational.
 - **simple_battle_strategist:** Operational.
 
@@ -45,6 +44,8 @@
 - Auto-battler Agent/Tool: Could automate the button press sequence for simple wild battles.
 - Reflection Assistant Agent: Could analyze recent failures (e.g., from the Failure Log) and suggest updates to core principles, new tool ideas, or specific hypotheses to test, automating the reflection process.
 - Navigation Manager Tool/Agent Combo: An integrated system where an agent manages the high-level goal (e.g., 'go to Azalea Town'), calls the pathfinder tool, executes the movement, and automatically handles interruptions like wild battles by invoking the battle strategist, then resumes navigation.
+- Pathing Failure Analyst Agent: Could analyze movement blockages and suggest specific solutions (e.g., stun NPC, find alternate route).
+- Auto-battler Manager Agent: An agent to manage the entire wild battle flow by orchestrating `simple_battle_strategist` and `execute_battle_action`.
 
 # Housekeeping Tasks
 - Delete redundant map marker at (0, 14) on Route 33 (map 8_6).
