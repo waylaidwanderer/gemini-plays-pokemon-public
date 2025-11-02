@@ -563,3 +563,10 @@
 
 ## Untested Mechanics & Hypotheses (Continued)
 - Test `LEDGE_HOP_LEFT` on Route 46 by pathing to the upper area and attempting to move right onto it to confirm one-way traversal. (Currently blocked by one-way ledges from the south).
+
+#### New Bark Town Tile Mechanics
+- **FLOOR**: Traversable. (Verified)
+- **WALL**: Impassable. (Verified)
+- **DOOR**: Traversable warp. (Verified)
+- **HEADBUTT_TREE**: Impassable. (Verified)
+- **WATER**: Impassable. (Verified)

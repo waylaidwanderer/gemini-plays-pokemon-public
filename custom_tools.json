@@ -172,17 +172,5 @@
         "action_counter": 15880
       }
     ]
-  },
-  "list_reachable_unseen_tiles": {
-    "description": "Parses the map XML to find all unseen tiles that are adjacent to already seen, traversable tiles. It returns a list of coordinates for these reachable unseen tiles, which is essential for systematic exploration.",
-    "input_schema": {},
-    "python_script": "import xml.etree.ElementTree as ET\nimport json\n\nroot = ET.fromstring(map_xml_string)\nwidth = int(root.get('width'))\nheight = int(root.get('height'))\n\ntile_info = {}\nfor row_elem in root.findall('Row'):\n    y = int(row_elem.get('id'))\n    for tile_elem in row_elem.findall('Tile'):\n        x = int(tile_elem.get('id'))\n        tile_type = tile_elem.get('type')\n        seen = tile_elem.get('seen') == 'true'\n        tile_info[(x, y)] = {'type': tile_type, 'seen': seen}\n\nreachable_unseen = []\ntraversable_types = {'FLOOR', 'TALL_GRASS', 'LONG_GRASS'}\n\nfor y in range(height):\n    for x in range(width):\n        current_coord = (x + 1, y + 1)\n        current_tile = tile_info.get(current_coord)\n\n        if current_tile and not current_tile['seen']:\n            is_reachable = False\n            for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n                adj_coord = (current_coord[0] + dx, current_coord[1] + dy)\n                adj_tile = tile_info.get(adj_coord)\n                if adj_tile and adj_tile['seen'] and adj_tile['type'] in traversable_types:\n                    is_reachable = True\n                    break\n            if is_reachable:\n                reachable_unseen.append({'x': current_coord[0], 'y': current_coord[1]})\n\nprint(json.dumps(reachable_unseen))",
-    "history": [
-      {
-        "commit_message": "feat: Create tool to list reachable unseen tiles. This tool directly addresses the persistent system reminder about exploration by parsing the map XML and identifying all unseen tiles that are adjacent to seen, traversable tiles. This provides an actionable list for systematic exploration and is a critical new capability.",
-        "timestamp": "2025-11-02T20:58:39.895Z",
-        "action_counter": 15801
-      }
-    ]
   }
 }
