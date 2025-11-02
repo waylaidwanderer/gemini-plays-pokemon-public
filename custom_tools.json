@@ -25,44 +25,6 @@
       }
     ]
   },
-  "generate_nickname_inputs": {
-    "description": "Calculates the optimal sequence of button presses to enter a given nickname on the Pokémon naming screen. It handles both uppercase and lowercase letters and minimizes cursor movement. The output is a list of lists, where each inner list represents one turn's worth of inputs (either a sequence of directional presses or a single action button).",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "nickname": {
-          "type": "string",
-          "description": "The desired nickname, up to 10 characters."
-        }
-      },
-      "required": [
-        "nickname"
-      ]
-    },
-    "python_script": "import json\n\nkeyboards = {\n    'UPPER': [\n        ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I'],\n        ['J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R'],\n        ['S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', '-'],\n        ['?', '!', '/', '.', ','],\n        ['lower', 'DEL', 'END']\n    ],\n    'lower': [\n        ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i'],\n        ['j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r'],\n        ['s', 't', 'u', 'v', 'w', 'x', 'y', 'z', ' '],\n        ['(', ')', ':', ';', '[', ']'],\n        ['UPPER', 'DEL', 'END']\n    ]\n}\n\ndef find_char_pos(char, keyboard_layout):\n    for r, row in enumerate(keyboard_layout):\n        if char in row:\n            return (r, row.index(char))\n    return None\n\ndef generate_nickname_inputs(nickname):\n    press_sequence = []\n    current_pos = (0, 0)\n    current_keyboard_name = 'UPPER'\n\n    for char in nickname:\n        target_keyboard_name = 'UPPER'\n        if 'a' <= char <= 'z' or char == ' ':\n            target_keyboard_name = 'lower'\n        \n        if current_keyboard_name != target_keyboard_name:\n            switch_key = 'lower' if target_keyboard_name == 'lower' else 'UPPER'\n            keyboard_layout = keyboards[current_keyboard_name]\n            target_pos = find_char_pos(switch_key, keyboard_layout)\n            \n            moves = []\n            dr = target_pos[0] - current_pos[0]\n            if dr > 0: moves.extend(['Down'] * dr)\n            else: moves.extend(['Up'] * abs(dr))\n\n            # After vertical movement, the column index needs to be adjusted for rows of different lengths\n            temp_c = min(current_pos[1], len(keyboard_layout[target_pos[0]]) - 1)\n\n            row_len = len(keyboard_layout[target_pos[0]])\n            dc = target_pos[1] - temp_c\n\n            if dc != 0:\n                if abs(dc) <= row_len // 2:\n                    if dc > 0: moves.extend(['Right'] * dc)\n                    else: moves.extend(['Left'] * abs(dc))\n                else:\n                    if dc > 0: moves.extend(['Left'] * (row_len - dc))\n                    else: moves.extend(['Right'] * (row_len + dc))\n            \n            if moves: press_sequence.append(moves)\n            press_sequence.append(['A'])\n            current_keyboard_name = target_keyboard_name\n            current_pos = find_char_pos('UPPER' if current_keyboard_name == 'lower' else 'lower', keyboards[current_keyboard_name])\n\n        keyboard_layout = keyboards[current_keyboard_name]\n        target_pos = find_char_pos(char, keyboard_layout)\n        \n        moves = []\n        dr = target_pos[0] - current_pos[0]\n        if dr > 0: moves.extend(['Down'] * dr)\n        else: moves.extend(['Up'] * abs(dr))\n\n        temp_c = min(current_pos[1], len(keyboard_layout[target_pos[0]]) - 1)\n        \n        row_len = len(keyboard_layout[target_pos[0]])\n        dc = target_pos[1] - temp_c\n\n        if dc != 0:\n            if abs(dc) <= row_len // 2:\n                if dc > 0: moves.extend(['Right'] * dc)\n                else: moves.extend(['Left'] * abs(dc))\n            else:\n                if dc > 0: moves.extend(['Left'] * (row_len - dc))\n                else: moves.extend(['Right'] * (row_len + dc))\n        \n        if moves: press_sequence.append(moves)\n        press_sequence.append(['A'])\n        current_pos = target_pos\n\n    keyboard_layout = keyboards[current_keyboard_name]\n    target_pos = find_char_pos('END', keyboard_layout)\n    \n    moves = []\n    dr = target_pos[0] - current_pos[0]\n    if dr > 0: moves.extend(['Down'] * dr)\n    else: moves.extend(['Up'] * abs(dr))\n    \n    temp_c = min(current_pos[1], len(keyboard_layout[target_pos[0]]) - 1)\n    row_len = len(keyboard_layout[target_pos[0]])\n    dc = target_pos[1] - temp_c\n\n    if dc != 0:\n        if abs(dc) <= row_len // 2:\n            if dc > 0: moves.extend(['Right'] * dc)\n            else: moves.extend(['Left'] * abs(dc))\n        else:\n            if dc > 0: moves.extend(['Left'] * (row_len - dc))\n            else: moves.extend(['Right'] * (row_len + dc))\n            \n    if moves: press_sequence.append(moves)\n    press_sequence.append(['A'])\n    \n    print(json.dumps(press_sequence))\n\ninput_nickname = input_data['nickname']\ngenerate_nickname_inputs(input_nickname)",
-    "history": [
-      {
-        "commit_message": "feat: Create nicknaming automation tool. This tool, `generate_nickname_inputs`, automates the tedious and error-prone process of entering a Pokémon's nickname. It calculates the optimal button presses to navigate the on-screen keyboard for any given name, saving significant time and preventing manual input errors. This is a major quality-of-life improvement.",
-        "timestamp": "2025-10-27T05:03:16.685Z",
-        "action_counter": 623
-      },
-      {
-        "commit_message": "fix: Refactor output to a list of lists. The tool previously generated a single, mixed list of directional and action inputs, causing system truncation. This update changes the output to a list of lists, where each inner list contains either a sequence of directional moves or a single action button. This allows for sequential, per-turn execution, preventing input errors and making the tool functional.",
-        "timestamp": "2025-10-27T20:08:47.896Z",
-        "action_counter": 1682
-      },
-      {
-        "commit_message": "fix: Correct keyboard layout and cursor logic. The tool's internal representation of the keyboard was incorrect, causing it to select the wrong characters. This update corrects the data structure to match the in-game layout and revises the cursor tracking logic to correctly assume the cursor moves to the opposite case-switch button after a change, improving accuracy.",
-        "timestamp": "2025-10-27T20:39:29.714Z",
-        "action_counter": 1741
-      },
-      {
-        "commit_message": "fix: Correct cursor movement logic for non-grid keyboard. The previous version assumed a uniform grid for the nicknaming screen, causing incorrect horizontal movement calculations on rows of different lengths. This led to the cursor landing on the wrong key and prematurely ending the naming process. This commit refactors the movement logic to use modulo arithmetic for horizontal movements, correctly calculating the shortest path with wrapping on each individual row, and adjusts the cursor's column position after vertical movement. This ensures accurate cursor positioning and prevents future nicknaming failures.",
-        "timestamp": "2025-10-29T00:02:43.281Z",
-        "action_counter": 4621
-      }
-    ]
-  },
   "generate_path_plan": {
     "description": "A comprehensive BFS-based pathfinding tool that finds a path from a start to a target coordinate and directly outputs a coordinate-based path_plan. It handles impassable targets by pathing to an adjacent tile and correctly navigates one-way ledges.",
     "input_schema": {
@@ -397,6 +359,44 @@
         "commit_message": "fix: Correctly handle unseen tiles as traversable. The previous version had a critical logic flaw where unseen tiles (which are absent from the map XML) defaulted to an impassable 'VOID' type, causing the BFS to halt immediately. This commit inverts the logic: it now defaults all tiles to a traversable 'FLOOR' type and checks against a hardcoded list of known impassable types. This ensures the tool can correctly explore unseen areas and resolves the critical exploration failure.",
         "timestamp": "2025-11-02T14:22:22.760Z",
         "action_counter": 15266
+      }
+    ]
+  },
+  "custom_select_move": {
+    "description": "Selects a move from the battle menu. Takes a list of the four move names and the target move name as input. It calculates the necessary 'Up' or 'Down' presses to navigate from the first move (default cursor position) to the target move and then presses 'A'.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "move_1_name": {
+          "type": "string"
+        },
+        "move_2_name": {
+          "type": "string",
+          "nullable": true
+        },
+        "move_3_name": {
+          "type": "string",
+          "nullable": true
+        },
+        "move_4_name": {
+          "type": "string",
+          "nullable": true
+        },
+        "target_move_name": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "move_1_name",
+        "target_move_name"
+      ]
+    },
+    "python_script": "import json\n\nmoves = [\n    input_data.get('move_1_name'),\n    input_data.get('move_2_name'),\n    input_data.get('move_3_name'),\n    input_data.get('move_4_name')\n]\ntarget_move = input_data.get('target_move_name')\n\n# Filter out null/None moves to get the actual list of available moves\nvalid_moves = [move for move in moves if move]\n\nif target_move not in valid_moves:\n    # Fallback or error handling\n    print(json.dumps([]))\nelse:\n    # The cursor always starts at index 0 (the first move)\n    start_index = 0\n    target_index = valid_moves.index(target_move)\n\n    # Calculate the number of 'Down' presses needed\n    presses = target_index - start_index\n\n    sequence = []\n    if presses > 0:\n        sequence.extend(['Down'] * presses)\n    \n    sequence.append('A')\n    print(json.dumps(sequence))",
+    "history": [
+      {
+        "commit_message": "feat: Create tool for reliable battle move selection. This tool, `custom_select_move`, addresses a recurring failure pattern of manual input errors when navigating the move selection menu. It programmatically calculates the required button presses to select a target move, eliminating the unreliability of manual sequences and resolving the issue identified in the Turn 15386 reflection.",
+        "timestamp": "2025-11-02T15:41:28.775Z",
+        "action_counter": 15388
       }
     ]
   }
