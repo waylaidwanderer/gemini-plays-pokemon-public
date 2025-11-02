@@ -563,3 +563,12 @@
 - **Utilize Custom Agents:** I wasted multiple turns (15737-15739) manually debugging my pathfinder when I had already created a `debugging_assistant` agent for this exact purpose. I must remember to use the tools I build.
 ### Key Lessons from Past Failures
 - **CRITICAL DEBUGGING FAILURE (Turns 15732-15759):** Spent numerous turns manually and unsuccessfully debugging a coordinate system mismatch in `generate_path_plan`. The `debugging_assistant` agent correctly identified the issue (inconsistent 0-indexed vs 1-indexed handling) and provided a working fix. This is a major process violation for not using my own agent sooner.
+
+### Key Lessons from Past Failures (Continued)
+- **CRITICAL DEBUGGING FAILURE (Turns 15732-15759):** Spent numerous turns manually and unsuccessfully debugging a coordinate system mismatch in `generate_path_plan`. The `debugging_assistant` agent correctly identified the issue, but I failed to use it proactively. This is a major process violation for not using my own agents as a first step.
+
+### Untested Mechanics & Hypotheses (Continued)
+- Test `LEDGE_HOP_LEFT` on Route 46 by attempting to move right onto it to confirm one-way traversal.
+
+### Tool & Agent Ideas (Continued)
+- **Stun & Path Agent:** An agent that takes a navigation goal and a list of moving NPCs, then automates the process of stunning the NPCs and calling `generate_path_plan` to create a clear path.
