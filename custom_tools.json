@@ -333,56 +333,5 @@
         "action_counter": 14883
       }
     ]
-  },
-  "list_reachable_unseen_tiles": {
-    "description": "Parses the map XML and runs a BFS from the player's current position to find all reachable tiles with the 'unseen' type. Returns a JSON list of coordinate dictionaries.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "start_x": {
-          "type": "string"
-        },
-        "start_y": {
-          "type": "string"
-        }
-      },
-      "required": [
-        "start_x",
-        "start_y"
-      ]
-    },
-    "python_script": "import xml.etree.ElementTree as ET\nimport collections\nimport json\n\ndef list_reachable_unseen(start_x_str, start_y_str):\n    start_x, start_y = int(start_x_str), int(start_y_str)\n    root = ET.fromstring(map_xml_string)\n    width = int(root.get('width'))\n    height = int(root.get('height'))\n    map_id = root.get('id')\n\n    traversable_types = {'FLOOR', 'TALL_GRASS', 'LONG_GRASS', 'CAVE', 'DOOR', 'STAIRCASE', 'LADDER', 'WARP_CARPET_DOWN', 'WARP_CARPET_LEFT', 'WARP_CARPET_RIGHT', 'LEDGE_HOP_DOWN', 'LEDGE_HOP_LEFT', 'LEDGE_HOP_RIGHT', 'FLOOR_UP_WALL', 'unseen'}\n    ledge_types = {'LEDGE_HOP_DOWN', 'LEDGE_HOP_LEFT', 'LEDGE_HOP_RIGHT'}\n    floor_up_wall_type = 'FLOOR_UP_WALL'\n\n    tile_data = {}\n    for y in range(height):\n        for x in range(width):\n            tile_data[(x, y)] = ('unseen', False)\n    \n    for row_elem in root.findall('Row'):\n        y = int(row_elem.get('id'))\n        for tile_elem in row_elem.findall('Tile'):\n            x = int(tile_elem.get('id'))\n            tile_type = tile_elem.get('type')\n            seen = tile_elem.get('seen') == 'true'\n            tile_data[(x, y)] = (tile_type, seen)\n\n    start_node = (start_x, start_y)\n    queue = collections.deque([start_node])\n    visited = {start_node}\n    reachable_unseen = []\n\n    while queue:\n        x, y = queue.popleft()\n\n        for dx, dy in [(0, -1), (0, 1), (-1, 0), (1, 0)]:\n            nx, ny = x + dx, y + dy\n            neighbor = (nx, ny)\n\n            if not (0 <= nx < width and 0 <= ny < height) or neighbor in visited:\n                continue\n\n            current_tile_info = tile_data.get((x, y))\n            neighbor_tile_info = tile_data.get(neighbor)\n            \n            if not current_tile_info or not neighbor_tile_info:\n                continue\n\n            current_tile_type, _ = current_tile_info\n            neighbor_tile_type, neighbor_seen = neighbor_tile_info\n\n            if neighbor_tile_type not in traversable_types:\n                continue\n            \n            if current_tile_type in ledge_types:\n                if (current_tile_type == 'LEDGE_HOP_DOWN' and dy != 1) or (current_tile_type == 'LEDGE_HOP_LEFT' and dx != -1) or (current_tile_type == 'LEDGE_HOP_RIGHT' and dx != 1):\n                    continue\n            if neighbor_tile_type in ledge_types:\n                if (neighbor_tile_type == 'LEDGE_HOP_DOWN' and dy != 1) or (neighbor_tile_type == 'LEDGE_HOP_LEFT' and dx != -1) or (neighbor_tile_type == 'LEDGE_HOP_RIGHT' and dx != 1):\n                    continue\n\n            if map_id == '3_37':\n                if current_tile_type == floor_up_wall_type and dy == -1: continue\n                if neighbor_tile_type == floor_up_wall_type and dy == 1: continue\n            elif map_id in ['10_9', '10_1']:\n                 if current_tile_type != floor_up_wall_type and neighbor_tile_type == floor_up_wall_type and dy == 1: continue\n            elif map_id == '3_38':\n                 if current_tile_type != floor_up_wall_type and neighbor_tile_type == floor_up_wall_type and dy == 1: continue\n\n            visited.add(neighbor)\n            if not neighbor_seen:\n                reachable_unseen.append({'x': nx, 'y': ny})\n            \n            if neighbor_tile_type != 'WALL':\n                queue.append(neighbor)\n\n    print(json.dumps(reachable_unseen))",
-    "history": [
-      {
-        "commit_message": "feat: Create tool to find reachable unseen tiles. This tool, `list_reachable_unseen_tiles`, addresses a recurring strategic need to identify explorable areas when progress is stalled. It performs a BFS from the player's position to find all 'unseen' tiles that are currently accessible, providing a reliable list of exploration targets and replacing manual map analysis.",
-        "timestamp": "2025-11-02T10:05:20.699Z",
-        "action_counter": 14890
-      },
-      {
-        "commit_message": "fix: Correct boundary check to use 1-based indexing. The tool was using a 0-indexed boundary check (0 <= coord < size) while operating on 1-indexed coordinates from the XML. This caused the BFS to fail immediately on any non-edge tile. This commit corrects the check to `1 <= coord <= size`, aligning it with the data source and resolving the failure.",
-        "timestamp": "2025-11-02T11:01:33.580Z",
-        "action_counter": 14954
-      },
-      {
-        "commit_message": "fix: Revert incorrect boundary check to 0-based indexing. The previous fix incorrectly implemented a 1-based check (`1 <= coord <= size`), which was a regression. This commit restores the correct 0-based check (`0 <= coord < size`) which aligns with the game's established coordinate system, resolving the tool's failure to find any tiles.",
-        "timestamp": "2025-11-02T11:02:31.390Z",
-        "action_counter": 14956
-      },
-      {
-        "commit_message": "fix: Revert incorrect boundary check to 0-based indexing. The previous fix incorrectly implemented a 1-based check (`1 <= coord <= size`), which was a regression. This commit restores the correct 0-based check (`0 <= coord < size`) which aligns with the game's established coordinate system, resolving the tool's failure to find any tiles.",
-        "timestamp": "2025-11-02T11:03:03.886Z",
-        "action_counter": 14957
-      },
-      {
-        "commit_message": "refactor: Overhaul tool to correctly handle unseen tiles. The previous version failed to find any unseen tiles because it only considered tiles present in the XML. This commit refactors the tool to first build a complete map grid with a default 'unseen' state, then populates it with known data. This ensures the BFS can traverse the entire map and correctly identify all reachable unseen tiles, resolving the critical failure.",
-        "timestamp": "2025-11-02T11:04:29.732Z",
-        "action_counter": 14959
-      },
-      {
-        "commit_message": "fix: Overhaul tool to use 0-indexed coordinates. The tool was repeatedly failing due to a persistent confusion between 0-indexed and 1-indexed coordinate systems. This commit refactors the entire tool to correctly use 0-based indexing for grid creation and boundary checks, aligning it with the game's XML data format. This resolves the critical, recurring failure.",
-        "timestamp": "2025-11-02T11:05:26.201Z",
-        "action_counter": 14961
-      }
-    ]
   }
 }
