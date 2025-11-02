@@ -509,9 +509,6 @@
 
 # Data Hygiene Updates (Turn 15152)
 
-## `list_reachable_unseen_tiles` Tool Update
-- The tool has been fixed and now uses the robust traversal logic from `generate_path_plan`.
-
 ## Route 32 Tile Mechanics
 - **FLOOR:** Traversable. (Verified)
 - **WALL:** Impassable. (Verified)
