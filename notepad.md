@@ -469,3 +469,8 @@
 - The puzzle is currently unsolvable and requires a key item (like a Squirtbottle) or a story flag obtained elsewhere.
 - The puzzle requires a specific Pokémon move (like Headbutt) to be used on an object in the environment to alter the bird's pathing.
 - The puzzle is dependent on the time of day.
+### Ilex Forest FARFETCH'D Puzzle (Continued)
+- **Hypothesis:** Interacting with the FARFETCH'D at (29, 22) from below (29, 23) will advance the puzzle.
+  - **Test:** Stood at (29, 23), faced Up, pressed 'A'.
+  - **Result:** 'Kwaa!' dialogue, bird disappeared.
+  - **Conclusion:** Hypothesis disproven. Interaction from below at this stage is a failure condition.
