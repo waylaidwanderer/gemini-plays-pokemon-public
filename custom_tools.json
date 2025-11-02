@@ -1,134 +1,4 @@
 {
-  "execute_battle_action": {
-    "description": "Takes the output of simple_battle_strategist (when the action is FIGHT) and the current Pokémon's moves, then generates the button presses for a single step of the move selection process. This tool must be called repeatedly with an incrementing 'step' argument to complete the full action.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "action": {
-          "type": "string",
-          "enum": [
-            "FIGHT"
-          ]
-        },
-        "move_to_use": {
-          "type": "string"
-        },
-        "move_1_name": {
-          "type": "string"
-        },
-        "move_2_name": {
-          "type": "string",
-          "nullable": true
-        },
-        "move_3_name": {
-          "type": "string",
-          "nullable": true
-        },
-        "move_4_name": {
-          "type": "string",
-          "nullable": true
-        },
-        "step": {
-          "type": "integer",
-          "description": "The current step in the sequence (starts at 0)."
-        }
-      },
-      "required": [
-        "action",
-        "move_to_use",
-        "move_1_name",
-        "step"
-      ]
-    },
-    "python_script": "import json\nimport sys\n\ndef execute_move_selection(action, move_to_use, move_1_name, move_2_name, move_3_name, move_4_name, step_str):\n    print(f\"[DEBUG] execute_battle_action called with:\\n  action: {action}\\n  move_to_use: {move_to_use}\\n  moves: [{move_1_name}, {move_2_name}, {move_3_name}, {move_4_name}]\\n  step: {step_str}\", file=sys.stderr)\n    if action != \"FIGHT\":\n        return\n\n    moves = [move_1_name, move_2_name, move_3_name, move_4_name]\n    moves = [m for m in moves if m is not None]\n    print(f\"[DEBUG] Constructed move list: {moves}\", file=sys.stderr)\n\n    try:\n        move_index = moves.index(move_to_use)\n        print(f\"[DEBUG] Calculated move_index for '{move_to_use}': {move_index}\", file=sys.stderr)\n    except ValueError:\n        print(f\"[DEBUG] ERROR: move_to_use '{move_to_use}' not found in move list.\", file=sys.stderr)\n        return\n\n    step = int(step_str)\n\n    output = []\n    if step < move_index:\n        output = [\"Down\"]\n    elif step == move_index:\n        output = [\"A\"]\n    \n    print(f\"[DEBUG] Final output for step {step}: {output}\", file=sys.stderr)\n    if output:\n        print(json.dumps(output))\n\n# Main script execution\nexecute_move_selection(\n    input_data.get('action'),\n    input_data.get('move_to_use'),\n    input_data.get('move_1_name'),\n    input_data.get('move_2_name'),\n    input_data.get('move_3_name'),\n    input_data.get('move_4_name'),\n    input_data.get('step', '0')\n)\n",
-    "history": [
-      {
-        "commit_message": "feat: Create battle automation tool. This tool, `execute_battle_action`, takes the strategic decision from the `simple_battle_strategist` and translates it into the concrete button presses required to execute the action in-game. This will automate the handling of trivial wild battles, significantly improving travel efficiency by removing the need for manual input during these frequent interruptions.",
-        "timestamp": "2025-11-01T06:15:21.984Z",
-        "action_counter": 12137
-      },
-      {
-        "commit_message": "fix: Refactor output to a list of lists. The tool was failing because the system cannot process a long, mixed sequence of button presses in a single turn. This commit changes the output format from a single list (e.g., [\"A\", \"Down\"]) to a list of single-item lists (e.g., [[\"A\"], [\"Down\"]]). This allows for sequential, per-turn execution of the button presses, mirroring the fix applied to the `generate_nickname_inputs` tool and resolving the execution failure.",
-        "timestamp": "2025-11-01T09:02:54.668Z",
-        "action_counter": 12451
-      },
-      {
-        "commit_message": "debug: Add verbose logging to diagnose incorrect move selection. The tool has been failing to select the correct move in battle, and in some cases, failing to enter the move menu at all. This commit adds detailed print statements to stderr to trace the input action/move, the calculated move index, the loop for appending 'Down' presses, and the final generated button sequence. This will provide the necessary data to identify the root cause of the selection failure.",
-        "timestamp": "2025-11-01T12:37:21.339Z",
-        "action_counter": 12813
-      },
-      {
-        "commit_message": "fix: Refactor output to a list of lists to enable sequential execution. The tool was failing because the system cannot process a long, mixed sequence of button presses in a single turn. This commit changes the output format from a single list (e.g., [\"A\", \"Down\"]) to a list of single-item lists (e.g., [[\"A\"], [\"Down\"]]), allowing for per-turn execution and resolving the critical failure.",
-        "timestamp": "2025-11-01T14:26:15.510Z",
-        "action_counter": 12991
-      },
-      {
-        "commit_message": "fix: Refactor output to a list of single-item lists. The tool was repeatedly failing because the system cannot process a long, mixed sequence of button presses in a single turn. This commit changes the output format from a single list (e.g., [\"A\", \"Down\"]) to a list of single-item lists (e.g., [[\"A\"], [\"Down\"]]), allowing for per-turn execution and resolving the critical failure.",
-        "timestamp": "2025-11-01T14:28:27.303Z",
-        "action_counter": 12995
-      },
-      {
-        "commit_message": "refactor: Make move selection dynamic. The tool previously used a hardcoded list of moves, causing it to fail when used with any Pokémon other than Ignis, and leading to inconsistent behavior even with Ignis. This commit refactors the tool to accept the current Pokémon's four moves as input arguments, building the move list dynamically. This removes the hardcoded dependency and makes the tool robust and universally applicable for any Pokémon's moveset.",
-        "timestamp": "2025-11-01T15:34:43.124Z",
-        "action_counter": 13102
-      },
-      {
-        "commit_message": "fix: Correct move selection logic. The tool previously filtered out empty move slots, causing the list to be re-indexed and leading to the wrong number of 'Down' presses for move selection. This commit removes the filter and finds the move's index in the original 4-slot list, ensuring the correct number of 'Down' presses is always generated. Added debug prints to verify the fix.",
-        "timestamp": "2025-11-01T19:22:45.290Z",
-        "action_counter": 13475
-      },
-      {
-        "commit_message": "fix: Group directional inputs and scope to FIGHT action. The tool was failing because the system cannot process single directional inputs sent on consecutive turns. This commit refactors the script to group all 'Down' presses into a single list, which the system can execute in one turn. The tool's scope has also been narrowed to only handle the 'FIGHT' action, as 'RUN' is more reliably handled by the `select_battle_option` tool. This resolves a critical battle automation failure.",
-        "timestamp": "2025-11-01T20:02:19.861Z",
-        "action_counter": 13536
-      },
-      {
-        "commit_message": "debug: Add verbose logging to diagnose incorrect move selection. The tool has been failing to select the correct move in battle, and in some cases, failing to enter the move menu at all. This commit adds detailed print statements to stderr to trace the input action/move, the calculated move index, the loop for appending 'Down' presses, and the final generated button sequence. This will provide the necessary data to identify the root cause of the selection failure.",
-        "timestamp": "2025-11-02T03:33:19.097Z",
-        "action_counter": 14284
-      },
-      {
-        "commit_message": "feat: Add step-by-step execution. This commit adds an optional 'step' parameter to allow the tool to output one part of the move selection sequence at a time. This fixes a critical failure where the system could not process the full multi-turn sequence at once, making battle automation reliable and addressing a core system critique.",
-        "timestamp": "2025-11-02T03:52:52.590Z",
-        "action_counter": 14312
-      },
-      {
-        "commit_message": "refactor: Remove step parameter and output full sequence. The tool's previous step-by-step execution was unreliable and caused state-tracking failures. This commit removes the `step` parameter and refactors the tool to output the entire multi-turn button sequence as a single JSON string. This makes it compatible with the new `automation_manager` agent, enabling more robust and reliable battle automation.",
-        "timestamp": "2025-11-02T05:24:28.306Z",
-        "action_counter": 14471
-      },
-      {
-        "commit_message": "feat: Re-implement step-by-step execution. The previous all-in-one sequence generation was unreliable, causing the game to miss inputs. This commit reintroduces the 'step' parameter to output one command sequence per turn. This makes battle automation robust by ensuring each part of the sequence is processed correctly before the next is sent, fixing a critical, recurring failure.",
-        "timestamp": "2025-11-02T06:24:13.788Z",
-        "action_counter": 14554
-      },
-      {
-        "commit_message": "debug: Add verbose logging to diagnose incorrect move selection. The tool has been repeatedly failing to select the correct move in battle, choosing the first move in the list instead. This commit adds detailed print statements to stderr to trace the input action/move, the full list of available moves, the calculated move index, and the final generated button sequence. This will provide the necessary data to identify the root cause of the selection failure.",
-        "timestamp": "2025-11-02T06:38:29.375Z",
-        "action_counter": 14579
-      },
-      {
-        "commit_message": "fix: Implement granular step-by-step execution. The tool was repeatedly failing to select moves because the system could not handle a list of multiple directional inputs in a single turn. This commit refactors the logic to output only one button press per call, based on an incrementing 'step' parameter. This makes the execution sequential and reliable, addressing the critical flaw identified by the system critique.",
-        "timestamp": "2025-11-02T06:44:10.970Z",
-        "action_counter": 14591
-      },
-      {
-        "commit_message": "fix: Overhaul step-by-step logic for reliability. The previous implementations of step-by-step execution were failing to register inputs, particularly for moves not in the first slot. This commit completely rewrites the script to use a simpler, more direct logic: it outputs 'Down' if the current step is less than the target move's index, and 'A' if the step equals the index. This granular, single-output approach should resolve the persistent battle automation failures by ensuring the system can process each input sequentially.",
-        "timestamp": "2025-11-02T06:48:13.030Z",
-        "action_counter": 14601
-      },
-      {
-        "commit_message": "fix: Correct SyntaxError by encapsulating logic in a function. The tool was crashing with a `SyntaxError: 'return' outside function` because the script's logic was not properly contained within a function definition. This commit wraps the entire script logic in a main function and calls it from the top level, resolving the critical syntax error and making the tool functional again.",
-        "timestamp": "2025-11-02T07:03:44.501Z",
-        "action_counter": 14619
-      },
-      {
-        "commit_message": "debug: Add verbose logging to diagnose move selection failure. The tool repeatedly fails to select the correct move. This commit adds logging for all input parameters, the constructed move list, and the calculated move index to identify the source of the error.",
-        "timestamp": "2025-11-02T08:01:45.971Z",
-        "action_counter": 14705
-      }
-    ]
-  },
   "find_adjacent_traversable_tiles": {
     "description": "Takes a target coordinate and finds all adjacent (non-diagonal) tiles that are traversable, returning them as a list of coordinates. This is useful for finding valid spots to stand when trying to interact with an object or NPC.",
     "input_schema": {
@@ -408,6 +278,51 @@
         "commit_message": "fix: Add one-way ledge logic for Union Cave 1F (map 3_37). The pathfinder was generating invalid paths by attempting to move up from 'FLOOR_UP_WALL' tiles, which is impossible. This commit adds the correct traversal rule for this map ID, preventing this critical pathing failure.",
         "timestamp": "2025-11-02T07:53:10.623Z",
         "action_counter": 14688
+      }
+    ]
+  },
+  "auto_battle_move_selector": {
+    "description": "Calculates and executes the full button sequence to select a specific move in battle. This tool uses autopress and should be used instead of manual selection or other battle automation tools.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "action": {
+          "type": "string",
+          "enum": [
+            "FIGHT"
+          ]
+        },
+        "move_to_use": {
+          "type": "string"
+        },
+        "move_1_name": {
+          "type": "string"
+        },
+        "move_2_name": {
+          "type": "string",
+          "nullable": true
+        },
+        "move_3_name": {
+          "type": "string",
+          "nullable": true
+        },
+        "move_4_name": {
+          "type": "string",
+          "nullable": true
+        }
+      },
+      "required": [
+        "action",
+        "move_to_use",
+        "move_1_name"
+      ]
+    },
+    "python_script": "import json\nimport sys\n\ndef auto_select_move(action, move_to_use, move_1_name, move_2_name, move_3_name, move_4_name):\n    if action != \"FIGHT\":\n        print(json.dumps([]))\n        return\n\n    moves = [move_1_name, move_2_name, move_3_name, move_4_name]\n    # Don't filter out None, as we need the correct index from the 4-slot list\n    # moves = [m for m in moves if m is not None]\n\n    try:\n        move_index = moves.index(move_to_use)\n    except ValueError:\n        print(f\"Error: Move '{move_to_use}' not found in moves list: {moves}\", file=sys.stderr)\n        print(json.dumps([]))\n        return\n\n    button_sequence = []\n    if move_index > 0:\n        button_sequence.extend([\"Down\"] * move_index)\n    \n    button_sequence.append(\"A\")\n    \n    print(json.dumps(button_sequence))\n\nauto_select_move(\n    input_data.get('action'),\n    input_data.get('move_to_use'),\n    input_data.get('move_1_name'),\n    input_data.get('move_2_name'),\n    input_data.get('move_3_name'),\n    input_data.get('move_4_name')\n)",
+    "history": [
+      {
+        "commit_message": "feat: Create autopress-based move selector. The previous step-by-step tool (`execute_battle_action`) was fundamentally unreliable, failing to register directional inputs. This new tool generates the entire button sequence at once and uses `autopress_buttons: true` to bypass the system's normal input limitations, providing a robust solution for battle automation.",
+        "timestamp": "2025-11-02T08:10:41.239Z",
+        "action_counter": 14720
       }
     ]
   }
