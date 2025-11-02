@@ -40,7 +40,7 @@
         "step"
       ]
     },
-    "python_script": "import json\nimport sys\n\ninput_data = input_data\naction = input_data['action']\nmove_to_use = input_data['move_to_use']\nmove_1_name = input_data['move_1_name']\nmove_2_name = input_data.get('move_2_name')\nmove_3_name = input_data.get('move_3_name')\nmove_4_name = input_data.get('move_4_name')\nstep = int(input_data['step'])\n\nmoves = [move_1_name, move_2_name, move_3_name, move_4_name]\n\nprint(f\"[DEBUG] Step: {step}, Action: {action}, Move to use: '{move_to_use}'\", file=sys.stderr)\nprint(f\"[DEBUG] Available moves: {moves}\", file=sys.stderr)\n\nif action == \"FIGHT\":\n    if step == 0:\n        try:\n            # Find the index of the move to use in the list of available moves.\n            move_index = moves.index(move_to_use)\n            print(f\"[DEBUG] Found move '{move_to_use}' at index {move_index}\", file=sys.stderr)\n            \n            # Generate the 'Down' button presses needed to select the move.\n            buttons = [\"Down\"] * move_index\n            print(f\"[DEBUG] Generated directional buttons: {buttons}\", file=sys.stderr)\n\n            # If the move is the first one, the list will be empty. In that case, we can just press 'A' in this step.\n            # Otherwise, we output the directional presses.\n            if not buttons:\n                print(json.dumps([\"A\"]))\n            else:\n                print(json.dumps(buttons))\n\n        except ValueError:\n            # This block executes if the move_to_use is not found in the moves list.\n            print(f\"[DEBUG] ERROR: Move '{move_to_use}' not found in moves list. Defaulting to first move.\", file=sys.stderr)\n            print(json.dumps([\"A\"])) # Fallback to selecting the first move\n\n    elif step == 1:\n        # The second step is always to press 'A' to confirm the move selection (unless it was the first move).\n        print(f\"[DEBUG] Executing step 1: Pressing A to confirm.\", file=sys.stderr)\n        print(json.dumps([\"A\"]))\n",
+    "python_script": "import json\nimport sys\n\naction = input_data.get('action')\nmove_to_use = input_data.get('move_to_use')\nstep = int(input_data.get('step', '0'))\nmoves = [\n    input_data.get('move_1_name'),\n    input_data.get('move_2_name'),\n    input_data.get('move_3_name'),\n    input_data.get('move_4_name')\n]\n\nbuttons_to_press = []\n\nif action == \"FIGHT\":\n    try:\n        move_index = moves.index(move_to_use)\n    except ValueError:\n        print(f\"Error: Move '{move_to_use}' not found in {moves}.\", file=sys.stderr)\n        return\n\n    num_down_presses = move_index\n\n    if step < num_down_presses:\n        buttons_to_press.append(\"Down\")\n    elif step == num_down_presses:\n        buttons_to_press.append(\"A\")\n\n    print(json.dumps(buttons_to_press))\n",
     "history": [
       {
         "commit_message": "feat: Create battle automation tool. This tool, `execute_battle_action`, takes the strategic decision from the `simple_battle_strategist` and translates it into the concrete button presses required to execute the action in-game. This will automate the handling of trivial wild battles, significantly improving travel efficiency by removing the need for manual input during these frequent interruptions.",
@@ -106,6 +106,16 @@
         "commit_message": "debug: Add verbose logging to diagnose incorrect move selection. The tool has been repeatedly failing to select the correct move in battle, choosing the first move in the list instead. This commit adds detailed print statements to stderr to trace the input action/move, the full list of available moves, the calculated move index, and the final generated button sequence. This will provide the necessary data to identify the root cause of the selection failure.",
         "timestamp": "2025-11-02T06:38:29.375Z",
         "action_counter": 14579
+      },
+      {
+        "commit_message": "fix: Implement granular step-by-step execution. The tool was repeatedly failing to select moves because the system could not handle a list of multiple directional inputs in a single turn. This commit refactors the logic to output only one button press per call, based on an incrementing 'step' parameter. This makes the execution sequential and reliable, addressing the critical flaw identified by the system critique.",
+        "timestamp": "2025-11-02T06:44:10.970Z",
+        "action_counter": 14591
+      },
+      {
+        "commit_message": "fix: Overhaul step-by-step logic for reliability. The previous implementations of step-by-step execution were failing to register inputs, particularly for moves not in the first slot. This commit completely rewrites the script to use a simpler, more direct logic: it outputs 'Down' if the current step is less than the target move's index, and 'A' if the step equals the index. This granular, single-output approach should resolve the persistent battle automation failures by ensuring the system can process each input sequentially.",
+        "timestamp": "2025-11-02T06:48:13.030Z",
+        "action_counter": 14601
       }
     ]
   },
