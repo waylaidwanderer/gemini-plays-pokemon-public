@@ -579,3 +579,15 @@
 
 ## Future Development
 - **`list_reachable_unseen_tiles` refinement:** The current tool is flawed as it only checks for adjacency and does not account for one-way obstacles like ledges. It must be integrated with the `generate_path_plan` logic to check for true reachability.
+
+# Built-in Tools
+- `notepad_edit`: Edits the notepad.
+- `run_code`: Executes a Python script.
+- `define_agent`: Creates/updates a custom agent.
+- `delete_agent`: Deletes a custom agent.
+- `define_map_marker`: Creates/updates a map marker.
+- `delete_map_marker`: Deletes a map marker.
+- `stun_npc`: Stuns/unstuns an NPC.
+- `define_tool`: Creates/updates a custom tool.
+- `delete_tool`: Deletes a custom tool.
+- `select_battle_option`: Selects a main battle menu option.
