@@ -207,11 +207,10 @@
 ## `generate_path_plan`
 - **CRITICAL PROCESS:** To prevent pathing into known off-screen obstacles (like the Fisher in Union Cave), I MUST consult my notepad and map markers for the target map *before* calling this tool. The coordinates of any known impassable NPCs or other temporary blockades must be manually added to the `object_locations_json` argument. This addresses a critical design flaw where the tool cannot see off-screen objects.
 
-## `auto_battle_move_selector`
-- **CRITICAL FLAW:** This tool is unreliable. Its logic assumes the battle menu cursor always starts on the 'FIGHT' option, which is not guaranteed. It must be redesigned to be independent of the cursor's starting position.
-
 # Future Development
 ## Tool & Agent Ideas
+### High Priority
+- **`list_reachable_unseen_tiles` tool:** A tool that parses the map XML and runs a BFS from the player's position to find all reachable `unseen` tiles.
 - **Puzzle Solver Strategist Agent:** Could take puzzle context (NPC dialogue, location, failed attempts) and suggest the next logical hypothesis to test, preventing loops.
 - **Navigation Manager Agent/Tool:** Could automate multi-map navigation, including pathfinding, executing movement, handling battle interruptions, and re-pathfinding.
 - **Exploration Strategist Agent:** Could take the output of `list_reachable_unseen_tiles` and suggest the most strategically valuable tile to explore next (e.g., closest, or one leading to a cluster).
@@ -468,7 +467,6 @@
 
 ### Appendix: Failure Log (Continued)
 - **CRITICAL REASONING FAILURE (Turn 14554):** My `generate_path_plan` tool correctly reported that no path existed to the Ilex Forest Shrine from my position at (8, 26). Instead of trusting the tool's output and analyzing the map, I incorrectly assumed the tool was broken. A manual review confirmed my path was blocked by impassable tiles. This is a major failure to trust my own tools and a repeat of past mistakes.
-- **CRITICAL TOOL FAILURE (Turns 14618-14729):** The `execute_battle_action` tool proved fundamentally unreliable and was deleted (Turn 14721). Its replacement, `auto_battle_move_selector` (created Turn 14720), is also critically flawed. It assumes the cursor starts on 'FIGHT' and fails when it starts on another option like 'PACK', leading to incorrect menu navigation. This tool requires a complete redesign.
 
 # Reflection Log (Turn 14710)
 
@@ -481,8 +479,4 @@
 
 ## Alternative Hypotheses
 - **Union Cave Layout:** My hypothesis that the cave is split into two disconnected sections has been disproven. My pathfinder successfully generated a complete route from the southern entrance (Route 33) to the northern entrance (Route 32), confirming the cave is one continuous area.
-
-## `auto_battle_move_selector`
-- **CRITICAL FLAW:** This tool is unreliable. Its logic assumes the battle menu cursor always starts on the 'FIGHT' option, which is not guaranteed. It must be redesigned to be independent of the cursor's starting position.
-- **FLOOR_UP_WALL (Route 32):** This tile functions as a one-way barrier from below. You cannot move DOWN from a different tile type onto a FLOOR_UP_WALL tile. (Verified on map 10_1)
 - **FLOOR_UP_WALL (Route 32):** This tile functions as a one-way barrier from below. You cannot move DOWN from a different tile type onto a FLOOR_UP_WALL tile. (Verified on map 10_1)
