@@ -203,7 +203,6 @@
 - `generate_path_plan`: Generates a sequence of button presses to navigate from the player's current position to a target coordinate.
   - **CRITICAL PROCESS:** To prevent pathing into known off-screen obstacles (like the Fisher in Union Cave), I MUST consult my notepad and map markers for the target map *before* calling this tool. The coordinates of any known impassable NPCs or other temporary blockades must be manually added to the `object_locations_json` argument. This addresses a critical design flaw where the tool cannot see off-screen objects.
 - `find_adjacent_traversable_tiles`: Identifies all adjacent tiles to a given coordinate that are traversable.
-- `list_reachable_unseen_tiles`: Uses pathfinding logic to identify all unseen tiles that are currently reachable from the player's position.
 
 # Future Development
 ## Tool & Agent Ideas
