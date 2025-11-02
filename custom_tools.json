@@ -353,43 +353,5 @@
         "action_counter": 15266
       }
     ]
-  },
-  "custom_select_move": {
-    "description": "Selects a move from the battle menu. Takes a list of the four move names and the target move name as input. It calculates the necessary 'Up' or 'Down' presses to navigate from the first move (default cursor position) to the target move and then presses 'A'.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "move_1_name": {
-          "type": "string"
-        },
-        "move_2_name": {
-          "type": "string",
-          "nullable": true
-        },
-        "move_3_name": {
-          "type": "string",
-          "nullable": true
-        },
-        "move_4_name": {
-          "type": "string",
-          "nullable": true
-        },
-        "target_move_name": {
-          "type": "string"
-        }
-      },
-      "required": [
-        "move_1_name",
-        "target_move_name"
-      ]
-    },
-    "python_script": "import json\n\nmoves = [\n    input_data.get('move_1_name'),\n    input_data.get('move_2_name'),\n    input_data.get('move_3_name'),\n    input_data.get('move_4_name')\n]\ntarget_move = input_data.get('target_move_name')\n\n# Filter out null/None moves to get the actual list of available moves\nvalid_moves = [move for move in moves if move]\n\nif target_move not in valid_moves:\n    # Fallback or error handling\n    print(json.dumps([]))\nelse:\n    # The cursor always starts at index 0 (the first move)\n    start_index = 0\n    target_index = valid_moves.index(target_move)\n\n    # Calculate the number of 'Down' presses needed\n    presses = target_index - start_index\n\n    sequence = []\n    if presses > 0:\n        sequence.extend(['Down'] * presses)\n    \n    sequence.append('A')\n    print(json.dumps(sequence))",
-    "history": [
-      {
-        "commit_message": "feat: Create tool for reliable battle move selection. This tool, `custom_select_move`, addresses a recurring failure pattern of manual input errors when navigating the move selection menu. It programmatically calculates the required button presses to select a target move, eliminating the unreliability of manual sequences and resolving the issue identified in the Turn 15386 reflection.",
-        "timestamp": "2025-11-02T15:41:28.775Z",
-        "action_counter": 15388
-      }
-    ]
   }
 }
