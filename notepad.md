@@ -505,4 +505,4 @@
 # My Custom Tools
 
 ## Battle Tools
-- `select_battle_option`: Reliably selects a main battle menu option (FIGHT, PKMN, PACK, RUN).
+- `custom_select_battle_option`: Reliably selects a main battle menu option (FIGHT, PKMN, PACK, RUN).
