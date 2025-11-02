@@ -466,9 +466,7 @@
 
 ### Appendix: Failure Log (Continued)
 - **CRITICAL REASONING FAILURE (Turn 14554):** My `generate_path_plan` tool correctly reported that no path existed to the Ilex Forest Shrine from my position at (8, 26). Instead of trusting the tool's output and analyzing the map, I incorrectly assumed the tool was broken. A manual review confirmed my path was blocked by impassable tiles. This is a major failure to trust my own tools and a repeat of past mistakes.
-
-### Appendix: Failure Log (Continued)
-- **CRITICAL TOOL FAILURE (Turns 14618-14641):** The `execute_battle_action` tool has proven to be fundamentally unreliable. Its step-by-step logic repeatedly fails to register inputs in the game, forcing manual intervention. The tool is being abandoned. A new, more robust battle automation solution is required.
+- **CRITICAL TOOL FAILURE (Turns 14618-14729):** The `execute_battle_action` tool proved fundamentally unreliable and was deleted (Turn 14721). Its replacement, `auto_battle_move_selector` (created Turn 14720), is also critically flawed. It assumes the cursor starts on 'FIGHT' and fails when it starts on another option like 'PACK', leading to incorrect menu navigation. This tool requires a complete redesign.
 
 # Reflection Log (Turn 14710)
 

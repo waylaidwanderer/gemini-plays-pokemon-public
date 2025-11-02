@@ -317,12 +317,17 @@
         "move_1_name"
       ]
     },
-    "python_script": "import json\nimport sys\n\ndef auto_select_move(action, move_to_use, move_1_name, move_2_name, move_3_name, move_4_name):\n    if action != \"FIGHT\":\n        print(json.dumps([]))\n        return\n\n    moves = [move_1_name, move_2_name, move_3_name, move_4_name]\n    # Don't filter out None, as we need the correct index from the 4-slot list\n    # moves = [m for m in moves if m is not None]\n\n    try:\n        move_index = moves.index(move_to_use)\n    except ValueError:\n        print(f\"Error: Move '{move_to_use}' not found in moves list: {moves}\", file=sys.stderr)\n        print(json.dumps([]))\n        return\n\n    button_sequence = []\n    if move_index > 0:\n        button_sequence.extend([\"Down\"] * move_index)\n    \n    button_sequence.append(\"A\")\n    \n    print(json.dumps(button_sequence))\n\nauto_select_move(\n    input_data.get('action'),\n    input_data.get('move_to_use'),\n    input_data.get('move_1_name'),\n    input_data.get('move_2_name'),\n    input_data.get('move_3_name'),\n    input_data.get('move_4_name')\n)",
+    "python_script": "import json\nimport sys\n\ndef select_move(action, move_to_use, move_1_name, move_2_name, move_3_name, move_4_name):\n    if action != \"FIGHT\":\n        print(json.dumps([]))\n        return\n\n    moves = [move_1_name, move_2_name, move_3_name, move_4_name]\n    \n    try:\n        move_index = moves.index(move_to_use)\n    except (ValueError, IndexError):\n        print(json.dumps([]), file=sys.stderr)\n        print(f\"Error: move '{move_to_use}' not found in {moves}.\", file=sys.stderr)\n        return\n\n    button_sequence = [\"A\"]\n\n    for _ in range(move_index):\n        button_sequence.append(\"Down\")\n\n    button_sequence.append(\"A\")\n    \n    print(json.dumps(button_sequence))\n\nselect_move(\n    input_data.get('action'),\n    input_data.get('move_to_use'),\n    input_data.get('move_1_name'),\n    input_data.get('move_2_name'),\n    input_data.get('move_3_name'),\n    input_data.get('move_4_name')\n)",
     "history": [
       {
         "commit_message": "feat: Create autopress-based move selector. The previous step-by-step tool (`execute_battle_action`) was fundamentally unreliable, failing to register directional inputs. This new tool generates the entire button sequence at once and uses `autopress_buttons: true` to bypass the system's normal input limitations, providing a robust solution for battle automation.",
         "timestamp": "2025-11-02T08:10:41.239Z",
         "action_counter": 14720
+      },
+      {
+        "commit_message": "fix: Add initial 'A' press to enter FIGHT menu. The tool was failing because it tried to navigate the move list from the main battle menu, causing it to select PACK instead. This commit prepends an 'A' to the button sequence, ensuring it correctly enters the move selection screen before attempting to choose a move. This resolves the critical battle automation failure.",
+        "timestamp": "2025-11-02T08:14:42.835Z",
+        "action_counter": 14727
       }
     ]
   }
