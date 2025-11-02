@@ -496,3 +496,8 @@
 - **Union Cave Exploration:** I have fully explored Union Cave.
   - **Alternative Hypothesis:** There may be hidden areas accessible only with HMs like Surf or Flash.
   - **Test to Disprove:** Return to the cave after acquiring new HMs to check all water and dark areas.
+
+# My Custom Tools
+
+## Battle Tools
+- `select_battle_option`: Reliably selects a main battle menu option (FIGHT, PKMN, PACK, RUN).
