@@ -1,3 +1,6 @@
+# Immediate Tasks
+- **Fix `select_battle_option` tool:** The tool is failing to detect the main battle menu. Investigate and fix its logic immediately after this battle.
+
 # Meta
 
 ## Core Principles
