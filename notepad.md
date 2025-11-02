@@ -192,18 +192,17 @@
 
 # Tool Usage Protocols
 
-## `generate_path_plan`
-- **CRITICAL PROCESS:** To prevent pathing into known off-screen obstacles (like the Fisher in Union Cave), I MUST consult my notepad and map markers for the target map *before* calling this tool. The coordinates of any known impassable NPCs or other temporary blockades must be manually added to the `object_locations_json` argument. This addresses a critical design flaw where the tool cannot see off-screen objects.
-
 ## `select_battle_option`
 - The built-in `select_battle_option` tool is unreliable and has been replaced. DO NOT USE. Use `custom_select_battle_option` instead.
 
 # My Custom Tools
+- `generate_path_plan`: Generates a sequence of button presses to navigate from the player's current position to a target coordinate.
+  - **CRITICAL PROCESS:** To prevent pathing into known off-screen obstacles (like the Fisher in Union Cave), I MUST consult my notepad and map markers for the target map *before* calling this tool. The coordinates of any known impassable NPCs or other temporary blockades must be manually added to the `object_locations_json` argument. This addresses a critical design flaw where the tool cannot see off-screen objects.
+- `find_adjacent_traversable_tiles`: Identifies all adjacent tiles to a given coordinate that are traversable.
 - `list_reachable_unseen_tiles`: Uses pathfinding logic to identify all unseen tiles that are currently reachable from the player's position.
 
 ## Battle Tools
 - `custom_select_battle_option`: Reliably selects a main battle menu option (FIGHT, PKMN, PACK, RUN).
-- `custom_select_move`: Reliably selects a move from the battle move menu.
 
 # Broken Tools
 
@@ -535,13 +534,3 @@
 ### Ilex Forest Layout Discovery
 - My `generate_path_plan` tool correctly reported that no path exists from the eastern entrance (from Azalea Town) to the western section where the FARFETCH'D puzzle continues. 
 - **Conclusion:** Ilex Forest is divided into two disconnected sections. Further progress on the puzzle is impossible from this side. I must find an alternative route to the other side of the forest, or another path forward entirely.
-
-# Immediate Tasks
-- Define a `Pathing Failure Analyst` tool to automate re-pathing around new obstacles.
-
-## Route 46 Tile Mechanics
-- **FLOOR**: Traversable. (Verified)
-- **WALL**: Impassable. (Verified)
-- **TALL_GRASS**: Traversable, contains wild Pokémon. (Verified)
-- **LEDGE_HOP_DOWN**: One-way traversal. (Verified)
-- **LEDGE_HOP_LEFT**: One-way traversal. (Verified)
