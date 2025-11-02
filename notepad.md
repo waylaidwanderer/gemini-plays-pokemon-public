@@ -219,7 +219,6 @@
 
 # Future Development
 ## Tool & Agent Ideas
-- **`list_reachable_unseen_tiles` tool:** A tool that parses the map XML and runs a BFS from the player's position to find all reachable `unseen` tiles.
 - **Puzzle Solver Strategist Agent:** Could take puzzle context (NPC dialogue, location, failed attempts) and suggest the next logical hypothesis to test, preventing loops.
 - **Navigation Manager Agent/Tool:** Could automate multi-map navigation, including pathfinding, executing movement, handling battle interruptions, and re-pathfinding.
 - **Exploration Strategist Agent:** Could take the output of `list_reachable_unseen_tiles` and suggest the most strategically valuable tile to explore next (e.g., closest, or one leading to a cluster).
