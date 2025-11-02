@@ -47,28 +47,18 @@
 
 ## World & Story
 ### Location Notes
-#### Cherrygrove City Tile Mechanics
+#### New Bark Town
 - **FLOOR**: Traversable. (Verified)
 - **WALL**: Impassable. (Verified)
-- **WATER**: Impassable. (Assumed, based on all previous water tiles)
 - **DOOR**: Traversable warp. (Verified)
 - **HEADBUTT_TREE**: Impassable. (Verified)
-- **BUOY**: Traversability unknown, assumed impassable.
+- **WATER**: Impassable. (Verified)
 #### Route 29
 - The southern path is a dead end.
 - The western path is blocked by CUT_TREEs and HEADBUTT_TREEs.
 
 #### Route 30
 - MR. POKEMON's house is located here. (Confirmed)
-- **FLOOR**: Traversable. (Verified)
-- **WALL**: Impassable. (Verified)
-- **TALL_GRASS**: Traversable, contains wild Pokémon. (Verified)
-- **LONG_GRASS**: Traversable, contains wild Pokémon. (Verified)
-- **CUT_TREE**: Impassable, requires specific ability. (Verified)
-- **HEADBUTT_TREE**: Impassable. (Verified)
-- **WATER**: Impassable. (Verified)
-- **DOOR**: Traversable warp. (Verified)
-- **LEDGE_HOP_DOWN**: One-way traversal. (Verified by pathing failure)
 
 #### Route 32
 - Route 32 has a complex layout with one-way ledges. The central path (accessed by ledge from the west) leads to the eastern path, which is a dead end, making progress south from the northern Union Cave exit impossible.
@@ -227,6 +217,7 @@
 - **Exploration Strategist Agent:** Could take the output of `list_reachable_unseen_tiles` and suggest the most strategically valuable tile to explore next (e.g., closest, or one leading to a cluster).
 - **Debugging Assistant Agent:** Could take a script, a description of an error, and the tool's output, then suggest specific code changes or where to add debug prints.
 - **Pathing Failure Analyst Agent:** Could analyze movement blockages and suggest specific solutions (e.g., stun NPC, find alternate route).
+- **Pathing Failure Analyst Tool:** A tool that takes a navigation goal, automatically detects a 'Movement Blocked' error, identifies the blocking NPC from the path plan, and re-calls `generate_path_plan` with the NPC's coordinates in `object_locations_json`.
 - **Battle Recovery Agent:** Could analyze a failed battle state (e.g., wrong menu) and generate the button presses to recover and return to the intended action.
 - **Reflection Assistant Agent:** Could analyze the last 50 turns of logs to generate a summary of process violations, suggest new tools, and identify untested assumptions, automating the reflection process.
 - **`generate_path_plan` refinement:** Add an optional `avoid_warps` boolean parameter to prevent accidental map transitions.
@@ -249,6 +240,7 @@
 - **CRITICAL REASONING FAILURE (Turn 14554):** My `generate_path_plan` tool correctly reported that no path existed to the Ilex Forest Shrine from my position at (8, 26). Instead of trusting the tool's output and analyzing the map, I incorrectly assumed the tool was broken. A manual review confirmed my path was blocked by impassable tiles. This is a major failure to trust my own tools and a repeat of past mistakes.
 - **CRITICAL HALLUCINATION (Turn 15350):** Believed I was at (14, 0) on Route 32 and attempted to move 'Up' to enter Violet City. In reality, I was at (6, 80) and my 'Up' press moved me to the cave entrance at (6, 79), warping me back into Union Cave. This is a severe failure of state tracking and location awareness.
 - **PROCESS VIOLATION (Turn 15018):** Failed to consult map marker for Fisher at (15, 27) in Union Cave before pathing, causing a movement blockage. This highlights a need for greater diligence in pre-planning.
+- **CRITICAL HALLUCINATION (Turn 15900):** Hallucinated being on Route 29 when I was in New Bark Town. This led to multiple failed pathing attempts and wasted turns. This is a severe state-tracking failure.
 
 ### Reflection-Based Updates (Turn 11074)
 - **Process Violation Logged:** Added an entry to my failure log for deferring a notepad update on Turn 11043, a violation of the 'IMMEDIATE ACTION' principle.
