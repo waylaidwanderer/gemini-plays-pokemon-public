@@ -220,7 +220,7 @@
 
 ### Core Failure Patterns (Summarized)
 - **RECURRING HALLUCINATION - Position & Map State:** A recurring failure where I believe I am at a different (x, y) coordinate or on a different map than my actual location. This has led to invalid pathing, incorrect map markers, and failed interactions. (Occurrences: Turns 5590, 5961, 6045, 6050, 8947, 9586, 9591, 9608, 10817, 10846, 11621-11639, 12268).
-- **RECURRING HALLUCINATION - Warps & Transitions:** Repeatedly believing a map transition was successful when it was not, or hallucinating the existence of warps at incorrect coordinates. This has caused pathfinder crashes and invalidated multi-turn plans. (Occurrences: Turns 7443, 8421, 8517, 10445, 10615, 11105, 11872, 11928).
+- **RECURRING HALLUCination - Warps & Transitions:** Repeatedly believing a map transition was successful when it was not, or hallucinating the existence of warps at incorrect coordinates. This has caused pathfinder crashes and invalidated multi-turn plans. (Occurrences: Turns 7443, 8421, 8517, 10445, 10615, 11105, 11872, 11928).
 - **RECURRING HALLUCINATION - Tool & Data State:** A critical pattern of either believing a tool exists when it does not, misremembering the state of my own notepad and map markers, or repeatedly attempting to "fix" an already correct tool or entry. This leads to wasted turns on debugging and operating on flawed data. (Occurrences: Turns 4838-4866, 5640, 5981, 8944-8945, 9522, 10624-10626, 12372-12374, 13022, 13600-13606).
 - **RECURRING FAILURE - Mistrust of Tools:** A critical failure pattern of assuming a working tool is broken, particularly when it reports a dead end or no path. This has led to extensive, wasted debugging cycles on correct code instead of trusting the tool's output and re-evaluating my strategic assumptions. (Occurrences: Pathfinder on Route 32, Turns 7142-7147, 8539-8541, 10746-10776, 10908-10911, 14554).
 
@@ -299,11 +299,6 @@
 
 ### Process Violations (System Critiques)
 - **CRITICAL PROCESS FAILURE (Turn 12570):** The system correctly identified two major process violations. 1) I failed to immediately address the faulty `farfetchd_puzzle_solver` agent after discovering it provided incorrect advice on Turn 12443. 2) I completely ignored my own map markers at (15, 24) and (15, 26) that warned of a movement loop, wasting over 10 turns stuck in that exact loop while the bird wasn't even at its starting position. This is a severe failure of discipline. My new plan is to stop interacting with the bird's empty starting position and instead path to a known trigger point at (29, 33) to make it reappear.
-
-### Battle Automation Failure (Recurring)
-- **Observation (Turn 12755):** My `execute_battle_action` tool generated a sequence to select 'QUICK ATTACK' (Down x2, A). However, the game state showed that 'EMBER' was selected and used instead.
-- **Observation (Turns 13429-13432):** During the battle with a wild WEEDLE, my automated sequence to select EMBER repeatedly failed. The 'Down' button presses from the `sequence_manager` did not register in the game for multiple turns, leaving the cursor stuck on 'QUICK ATTACK'. I had to intervene manually to finish the battle.
-- **Conclusion:** There is a fundamental, recurring issue with battle automation. The game may not be processing sequential directional inputs correctly, or my tools are not sending them correctly. The tool's logic for navigating the move list is likely flawed. This automation is currently unreliable and needs investigation. **Action Plan:** After this battle, I will add verbose debug prints to the `execute_battle_action` tool to trace the calculated move index and the generated button sequence to identify the root cause of the failure.
 
 ## Alternative Hypotheses (Reflection Turn 12943)
 ### Ilex Forest FARFETCH'D Puzzle
@@ -444,9 +439,6 @@
 - **Strategic Pivot:** I have now tested and disproven all simple interaction hypotheses (from the side, below, and above) in the eastern section of the puzzle. I am stuck in a loop. I will now pivot my strategy to explore the western side of the forest, including the unseen tiles near the apprentice, to look for new clues or paths.
 
 # Data Hygiene Updates (Turn 14405)
-
-## `execute_battle_action` Tool Update
-- The tool has been refactored to use a `step` parameter for reliable, sequential execution of battle commands. This resolves the recurring battle automation failures. Previous ideas for an 'Action Sequencer' or 'Automation Manager' are now obsolete.
 
 ## Ilex Forest Tile Mechanics
 - **FLOOR**: Traversable. (Verified)
