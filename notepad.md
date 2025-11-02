@@ -480,4 +480,4 @@
 - Test `LEDGE_HOP_LEFT` and `LEDGE_HOP_DOWN` tiles on Route 33 by attempting to move against their intended direction to confirm one-way traversal.
 
 ## Alternative Hypotheses
-- **Union Cave Layout:** The cave is split into two disconnected sections. Test by re-entering from Route 33 and attempting to pathfind to the Route 32 entrance. If it fails, the hypothesis is strongly supported.
+- **Union Cave Layout:** My hypothesis that the cave is split into two disconnected sections has been disproven. My pathfinder successfully generated a complete route from the southern entrance (Route 33) to the northern entrance (Route 32), confirming the cave is one continuous area.
