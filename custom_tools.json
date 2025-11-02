@@ -277,7 +277,7 @@
     ]
   },
   "execute_battle_action": {
-    "description": "Takes the output of simple_battle_strategist (when the action is FIGHT) and the current Pokémon's moves, then generates the sequence of button presses to select the specified move. This tool automates the process of executing a fight command and can be used step-by-step for multi-turn sequences.",
+    "description": "Takes the output of simple_battle_strategist (when the action is FIGHT) and the current Pokémon's moves, then generates the full sequence of button presses to select the specified move. The output is a JSON string of a list of lists, designed to be used by a sequence manager like `automation_manager`.",
     "input_schema": {
       "type": "object",
       "properties": {
@@ -304,10 +304,6 @@
         "move_4_name": {
           "type": "string",
           "nullable": true
-        },
-        "step": {
-          "type": "integer",
-          "nullable": true
         }
       },
       "required": [
@@ -316,7 +312,7 @@
         "move_1_name"
       ]
     },
-    "python_script": "import json\nimport sys\n\naction = input_data.get('action')\nmove_to_use = input_data.get('move_to_use')\nstep = int(input_data.get('step', 0))\n\nmoves = [\n    input_data.get('move_1_name'),\n    input_data.get('move_2_name'),\n    input_data.get('move_3_name'),\n    input_data.get('move_4_name')\n]\n\nif move_to_use not in moves:\n    print(json.dumps({'error': f'Move {move_to_use} not found in the provided move list.'}))\n    sys.exit()\n\nmove_index = moves.index(move_to_use)\n\npresses = []\nif move_index > 0:\n    presses = ['Down'] * move_index\n\nfull_sequence = [['A']]\nif presses:\n    full_sequence.append(presses)\nfull_sequence.append(['A'])\n\nif 0 <= step < len(full_sequence):\n    print(json.dumps(full_sequence[step]))\nelse:\n    print(json.dumps([]))",
+    "python_script": "import json\nimport sys\n\nmove_to_use = input_data.get('move_to_use')\nmoves = [\n    input_data.get('move_1_name'),\n    input_data.get('move_2_name'),\n    input_data.get('move_3_name'),\n    input_data.get('move_4_name')\n]\n\nif move_to_use not in moves:\n    print(json.dumps({'error': f'Move {move_to_use} not found in the provided move list.'}))\n    sys.exit()\n\nmove_index = moves.index(move_to_use)\n\npresses = []\nif move_index > 0:\n    presses = ['Down'] * move_index\n\nfull_sequence = [['A']]\nif presses:\n    full_sequence.append(presses)\nfull_sequence.append(['A'])\n\nprint(json.dumps(full_sequence))",
     "history": [
       {
         "commit_message": "feat: Create battle automation tool. This tool, `execute_battle_action`, takes the strategic decision from the `simple_battle_strategist` and translates it into the concrete button presses required to execute the action in-game. This will automate the handling of trivial wild battles, significantly improving travel efficiency by removing the need for manual input during these frequent interruptions.",
@@ -367,6 +363,11 @@
         "commit_message": "feat: Add step-by-step execution. This commit adds an optional 'step' parameter to allow the tool to output one part of the move selection sequence at a time. This fixes a critical failure where the system could not process the full multi-turn sequence at once, making battle automation reliable and addressing a core system critique.",
         "timestamp": "2025-11-02T03:52:52.590Z",
         "action_counter": 14312
+      },
+      {
+        "commit_message": "refactor: Remove step parameter and output full sequence. The tool's previous step-by-step execution was unreliable and caused state-tracking failures. This commit removes the `step` parameter and refactors the tool to output the entire multi-turn button sequence as a single JSON string. This makes it compatible with the new `automation_manager` agent, enabling more robust and reliable battle automation.",
+        "timestamp": "2025-11-02T05:24:28.306Z",
+        "action_counter": 14471
       }
     ]
   }
