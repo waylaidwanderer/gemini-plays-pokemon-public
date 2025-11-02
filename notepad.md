@@ -623,3 +623,15 @@
 
 ## Untested Mechanics & Hypotheses (Continued)
 - Test `LEDGE_HOP_LEFT` on Route 46 by pathing to the upper area and attempting to move right onto it to confirm one-way traversal. (Currently blocked by one-way ledges from the south).
+
+# Built-in Tools
+- `notepad_edit`: Edits the notepad.
+- `run_code`: Executes a Python script.
+- `define_agent`: Creates/updates a custom agent.
+- `delete_agent`: Deletes a custom agent.
+- `define_map_marker`: Creates/updates a map marker.
+- `delete_map_marker`: Deletes a map marker.
+- `stun_npc`: Stuns/unstuns an NPC.
+- `define_tool`: Creates/updates a custom tool.
+- `delete_tool`: Deletes a custom tool.
+- `select_battle_option`: Selects a main battle menu option.
