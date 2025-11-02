@@ -520,3 +520,9 @@
 
 ## Process Violations
 - I failed to consult my map marker for the Fisher at (15, 27) on Turn 15018, causing a pathing failure. I must be more diligent about checking markers before planning a route.
+### Dark Cave (Violet Entrance) Tile Mechanics
+- CAVE: Traversable warp. (Verified by entering)
+- FLOOR: Traversable. (Verified by walking)
+- WALL: Impassable. (Verified by pathing failure)
+- LEDGE_HOP_DOWN: One-way traversal. (Observed)
+- LEDGE_HOP_LEFT: One-way traversal. (Observed)
