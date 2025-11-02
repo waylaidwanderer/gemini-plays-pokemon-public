@@ -512,3 +512,25 @@
 - WALL: Impassable. (Verified by pathing failure)
 - LEDGE_HOP_DOWN: One-way traversal. (Observed)
 - LEDGE_HOP_LEFT: One-way traversal. (Observed)
+
+# Data Hygiene Updates (Turn 15152)
+
+## `list_reachable_unseen_tiles` Tool Update
+- The tool has been fixed and now uses the robust traversal logic from `generate_path_plan`.
+
+## Route 32 Tile Mechanics
+- **FLOOR:** Traversable. (Verified)
+- **WALL:** Impassable. (Verified)
+- **TALL_GRASS:** Traversable, contains wild Pokémon. (Verified)
+- **LONG_GRASS:** Traversable, contains wild Pokémon. (Verified)
+- **CUT_TREE:** Impassable, requires specific ability. (Verified)
+- **HEADBUTT_TREE:** Impassable. (Verified)
+- **WATER:** Impassable. (Verified)
+- **BUOY:** Traversability unknown, assumed impassable.
+- **WARP_CARPET_LEFT:** Traversable warp. (Verified)
+- **DOOR:** Traversable warp. (Verified)
+- **LADDER:** Traversable warp. (Verified)
+- **CAVE:** Traversable warp. (Verified)
+- **LEDGE_HOP_DOWN:** One-way traversal. (Verified)
+- **LEDGE_HOP_RIGHT:** One-way traversal. (Verified)
+- **FLOOR_UP_WALL:** This tile functions as a one-way barrier from below. You cannot move DOWN from a different tile type onto a FLOOR_UP_WALL tile. (Verified on map 10_1)
