@@ -204,7 +204,6 @@
 - `custom_select_battle_option`: Reliably selects a main battle menu option (FIGHT, PKMN, PACK, RUN).
 
 # Broken Tools
-- **list_reachable_unseen_tiles**: This tool is currently non-functional due to persistent coordinate system and logic errors.
 
 # Future Development
 ## Tool & Agent Ideas
