@@ -217,6 +217,9 @@
 ## Battle Tools
 - `custom_select_battle_option`: Reliably selects a main battle menu option (FIGHT, PKMN, PACK, RUN).
 
+# Broken Tools
+- `list_reachable_unseen_tiles`: This tool is non-functional due to persistent coordinate system and logic errors. Do not use until it has been completely rebuilt and verified.
+
 # Future Development
 ## Tool & Agent Ideas
 - **Puzzle Solver Strategist Agent:** Could take puzzle context (NPC dialogue, location, failed attempts) and suggest the next logical hypothesis to test, preventing loops.
@@ -227,7 +230,6 @@
 - **Battle Recovery Agent:** Could analyze a failed battle state (e.g., wrong menu) and generate the button presses to recover and return to the intended action.
 - **Reflection Assistant Agent:** Could analyze the last 50 turns of logs to generate a summary of process violations, suggest new tools, and identify untested assumptions, automating the reflection process.
 - **`generate_path_plan` refinement:** Add an optional `avoid_warps` boolean parameter to prevent accidental map transitions.
-- Exploration Pathfinder Tool: Could take a list of unseen tiles and find the shortest path to the closest reachable one, automating exploration.
 
 # Appendix: Failure Log
 
@@ -481,7 +483,6 @@
 
 ## Tool & Agent Ideas
 - **Debugging Assistant Agent:** Could take a script, an error, and a problem description to suggest specific code changes or where to add debug prints.
-- **Exploration Pathfinder Tool:** Could take a list of unseen tiles and find the shortest path to the closest reachable one, automating exploration.
 
 ## Untested Mechanics & Hypotheses
 - Test `LEDGE_HOP_LEFT` and `LEDGE_HOP_DOWN` tiles on Route 33 by attempting to move against their intended direction to confirm one-way traversal.
