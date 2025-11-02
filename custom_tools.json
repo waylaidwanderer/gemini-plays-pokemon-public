@@ -290,5 +290,33 @@
         "action_counter": 14771
       }
     ]
+  },
+  "custom_select_battle_option": {
+    "description": "A reliable tool to select a main battle menu option. Takes an option ('FIGHT', 'PKMN', 'PACK', 'RUN') and outputs the button presses to select it. Replaces the faulty built-in tool.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "option": {
+          "type": "string",
+          "enum": [
+            "FIGHT",
+            "PKMN",
+            "PACK",
+            "RUN"
+          ]
+        }
+      },
+      "required": [
+        "option"
+      ]
+    },
+    "python_script": "import json\n\noption = input_data['option']\nbutton_map = {\n    \"FIGHT\": [\"A\"],\n    \"PKMN\": [\"Right\", \"A\"],\n    \"PACK\": [\"Down\", \"A\"],\n    \"RUN\": [\"Right\", \"Down\", \"A\"]\n}\nsequence = button_map.get(option, [])\nprint(json.dumps(sequence))",
+    "history": [
+      {
+        "commit_message": "feat: Create reliable battle menu selector. This tool, `custom_select_battle_option`, replaces the functionality of the unreliable built-in `select_battle_option`. It uses a deterministic mapping of options to button presses instead of relying on screen state detection, resolving the repeated failures. This is a direct response to the system critique on Turn 14880.",
+        "timestamp": "2025-11-02T09:56:47.863Z",
+        "action_counter": 14883
+      }
+    ]
   }
 }
