@@ -573,3 +573,9 @@
 
 ### Tool & Agent Ideas (Continued)
 - **Stun & Path Agent:** An agent that takes a navigation goal and a list of moving NPCs, then automates the process of stunning the NPCs and calling `generate_path_plan` to create a clear path.
+
+## Untested Mechanics & Hypotheses
+- Test `LEDGE_HOP_LEFT` on Route 46 by pathing to the upper area and attempting to move left onto it. (Currently blocked by one-way ledges from the south).
+
+## Future Development
+- **`list_reachable_unseen_tiles` refinement:** The current tool is flawed as it only checks for adjacency and does not account for one-way obstacles like ledges. It must be integrated with the `generate_path_plan` logic to check for true reachability.
