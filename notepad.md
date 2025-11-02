@@ -469,3 +469,15 @@
 
 ### Appendix: Failure Log (Continued)
 - **CRITICAL TOOL FAILURE (Turns 14618-14641):** The `execute_battle_action` tool has proven to be fundamentally unreliable. Its step-by-step logic repeatedly fails to register inputs in the game, forcing manual intervention. The tool is being abandoned. A new, more robust battle automation solution is required.
+
+# Reflection Log (Turn 14710)
+
+## Tool & Agent Ideas
+- **Debugging Assistant Agent:** Could take a script, an error, and a problem description to suggest specific code changes or where to add debug prints.
+- **Exploration Pathfinder Tool:** Could take a list of unseen tiles and find the shortest path to the closest reachable one, automating exploration.
+
+## Untested Mechanics & Hypotheses
+- Test `LEDGE_HOP_LEFT` and `LEDGE_HOP_DOWN` tiles on Route 33 by attempting to move against their intended direction to confirm one-way traversal.
+
+## Alternative Hypotheses
+- **Union Cave Layout:** The cave is split into two disconnected sections. Test by re-entering from Route 33 and attempting to pathfind to the Route 32 entrance. If it fails, the hypothesis is strongly supported.
