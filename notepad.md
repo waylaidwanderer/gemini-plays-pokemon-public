@@ -10,6 +10,7 @@
 - **IMMEDIATE CORRECTION:** If my understanding of the game state (e.g., the existence of a tool) is proven wrong, I must immediately correct my documentation (notepad) before any other action.
 - **TRUST OBSERVATION:** My biggest obstacle is my own memory. I must only trust in-game observation.
 - **Trainer Identification:** I must verify the name and location of a trainer before marking them as defeated to prevent misidentification errors like the Hiker Daniel/Russell mix-up.
+- **PATHFINDER PRE-CHECKS:** To prevent pathing into known off-screen obstacles (like the Fisher in Union Cave), I MUST consult my notepad and map markers for the target map *before* calling `generate_path_plan`. The coordinates of any known impassable NPCs or other temporary blockades must be manually added to the `object_locations_json` argument. This addresses a critical design flaw where the tool cannot see off-screen objects.
 
 # Strategic Pivots
 
