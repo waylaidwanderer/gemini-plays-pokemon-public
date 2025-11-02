@@ -40,7 +40,7 @@
         "step"
       ]
     },
-    "python_script": "import json\nimport sys\n\ndef execute_move_selection(action, move_to_use, move_1_name, move_2_name, move_3_name, move_4_name, step_str):\n    if action != \"FIGHT\":\n        return\n\n    moves = [move_1_name, move_2_name, move_3_name, move_4_name]\n    moves = [m for m in moves if m is not None]\n\n    try:\n        move_index = moves.index(move_to_use)\n    except ValueError:\n        return\n\n    step = int(step_str)\n\n    if step < move_index:\n        print(json.dumps([\"Down\"]))\n    elif step == move_index:\n        print(json.dumps([\"A\"]))\n\n# Main script execution\nexecute_move_selection(\n    input_data.get('action'),\n    input_data.get('move_to_use'),\n    input_data.get('move_1_name'),\n    input_data.get('move_2_name'),\n    input_data.get('move_3_name'),\n    input_data.get('move_4_name'),\n    input_data.get('step', '0')\n)",
+    "python_script": "import json\nimport sys\n\ndef execute_move_selection(action, move_to_use, move_1_name, move_2_name, move_3_name, move_4_name, step_str):\n    print(f\"[DEBUG] execute_battle_action called with:\\n  action: {action}\\n  move_to_use: {move_to_use}\\n  moves: [{move_1_name}, {move_2_name}, {move_3_name}, {move_4_name}]\\n  step: {step_str}\", file=sys.stderr)\n    if action != \"FIGHT\":\n        return\n\n    moves = [move_1_name, move_2_name, move_3_name, move_4_name]\n    moves = [m for m in moves if m is not None]\n    print(f\"[DEBUG] Constructed move list: {moves}\", file=sys.stderr)\n\n    try:\n        move_index = moves.index(move_to_use)\n        print(f\"[DEBUG] Calculated move_index for '{move_to_use}': {move_index}\", file=sys.stderr)\n    except ValueError:\n        print(f\"[DEBUG] ERROR: move_to_use '{move_to_use}' not found in move list.\", file=sys.stderr)\n        return\n\n    step = int(step_str)\n\n    output = []\n    if step < move_index:\n        output = [\"Down\"]\n    elif step == move_index:\n        output = [\"A\"]\n    \n    print(f\"[DEBUG] Final output for step {step}: {output}\", file=sys.stderr)\n    if output:\n        print(json.dumps(output))\n\n# Main script execution\nexecute_move_selection(\n    input_data.get('action'),\n    input_data.get('move_to_use'),\n    input_data.get('move_1_name'),\n    input_data.get('move_2_name'),\n    input_data.get('move_3_name'),\n    input_data.get('move_4_name'),\n    input_data.get('step', '0')\n)\n",
     "history": [
       {
         "commit_message": "feat: Create battle automation tool. This tool, `execute_battle_action`, takes the strategic decision from the `simple_battle_strategist` and translates it into the concrete button presses required to execute the action in-game. This will automate the handling of trivial wild battles, significantly improving travel efficiency by removing the need for manual input during these frequent interruptions.",
@@ -121,6 +121,11 @@
         "commit_message": "fix: Correct SyntaxError by encapsulating logic in a function. The tool was crashing with a `SyntaxError: 'return' outside function` because the script's logic was not properly contained within a function definition. This commit wraps the entire script logic in a main function and calls it from the top level, resolving the critical syntax error and making the tool functional again.",
         "timestamp": "2025-11-02T07:03:44.501Z",
         "action_counter": 14619
+      },
+      {
+        "commit_message": "debug: Add verbose logging to diagnose move selection failure. The tool repeatedly fails to select the correct move. This commit adds logging for all input parameters, the constructed move list, and the calculated move index to identify the source of the error.",
+        "timestamp": "2025-11-02T08:01:45.971Z",
+        "action_counter": 14705
       }
     ]
   },
