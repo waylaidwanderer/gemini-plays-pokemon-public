@@ -479,3 +479,6 @@
 
 ## Alternative Hypotheses
 - **Union Cave Layout:** My hypothesis that the cave is split into two disconnected sections has been disproven. My pathfinder successfully generated a complete route from the southern entrance (Route 33) to the northern entrance (Route 32), confirming the cave is one continuous area.
+
+## `auto_battle_move_selector`
+- **CRITICAL FLAW:** This tool is unreliable. Its logic assumes the battle menu cursor always starts on the 'FIGHT' option, which is not guaranteed. It must be redesigned to be independent of the cursor's starting position.
