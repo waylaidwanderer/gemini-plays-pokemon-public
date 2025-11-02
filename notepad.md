@@ -207,6 +207,9 @@
 ## `generate_path_plan`
 - **CRITICAL PROCESS:** To prevent pathing into known off-screen obstacles (like the Fisher in Union Cave), I MUST consult my notepad and map markers for the target map *before* calling this tool. The coordinates of any known impassable NPCs or other temporary blockades must be manually added to the `object_locations_json` argument. This addresses a critical design flaw where the tool cannot see off-screen objects.
 
+## `auto_battle_move_selector`
+- **CRITICAL FLAW:** This tool is unreliable. Its logic assumes the battle menu cursor always starts on the 'FIGHT' option, which is not guaranteed. It must be redesigned to be independent of the cursor's starting position.
+
 # Future Development
 ## Tool & Agent Ideas
 - **Puzzle Solver Strategist Agent:** Could take puzzle context (NPC dialogue, location, failed attempts) and suggest the next logical hypothesis to test, preventing loops.
@@ -214,7 +217,6 @@
 - **Exploration Strategist Agent:** Could take the output of `list_reachable_unseen_tiles` and suggest the most strategically valuable tile to explore next (e.g., closest, or one leading to a cluster).
 - **Debugging Assistant Agent:** Could take a script, a description of an error, and the tool's output, then suggest specific code changes or where to add debug prints.
 - **Pathing Failure Analyst Agent:** Could analyze movement blockages and suggest specific solutions (e.g., stun NPC, find alternate route).
-- **Auto-Battler Tool:** A tool to orchestrate the entire wild battle flow. It would call `simple_battle_strategist`, then `execute_battle_action`, then manage the multi-turn execution of the button sequence, fully automating trivial encounters.
 - **Battle Recovery Agent:** Could analyze a failed battle state (e.g., wrong menu) and generate the button presses to recover and return to the intended action.
 - **Reflection Assistant Agent:** Could analyze the last 50 turns of logs to generate a summary of process violations, suggest new tools, and identify untested assumptions, automating the reflection process.
 - **`generate_path_plan` refinement:** Add an optional `avoid_warps` boolean parameter to prevent accidental map transitions.
