@@ -474,3 +474,7 @@
   - **Test:** Stood at (29, 23), faced Up, pressed 'A'.
   - **Result:** 'Kwaa!' dialogue, bird disappeared.
   - **Conclusion:** Hypothesis disproven. Interaction from below at this stage is a failure condition.
+
+### Ilex Forest FARFETCH'D Puzzle (Continued)
+- **New Discovery (Turn 14372):** Defeating a wild Pokémon is a trigger that causes the FARFETCH'D to appear at (20, 24).
+- **New Hypothesis:** Interacting with the FARFETCH'D at (20, 24) from the tile directly above it (20, 23) will correctly advance the puzzle.
