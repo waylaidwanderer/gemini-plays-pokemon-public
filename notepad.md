@@ -536,3 +536,14 @@
 
 ### Appendix: Failure Log (Continued)
 - **PROCESS VIOLATION (Turn 15018):** Failed to consult map marker for Fisher at (15, 27) in Union Cave before pathing, causing a movement blockage. This highlights a need for greater diligence in pre-planning.
+
+## Route 30 Tile Mechanics
+- **FLOOR**: Traversable. (Verified)
+- **WALL**: Impassable. (Verified)
+- **TALL_GRASS**: Traversable, contains wild Pokémon. (Verified)
+- **LONG_GRASS**: Traversable, contains wild Pokémon. (Verified)
+- **CUT_TREE**: Impassable, requires specific ability. (Verified)
+- **HEADBUTT_TREE**: Impassable. (Verified)
+- **WATER**: Impassable. (Verified)
+- **DOOR**: Traversable warp. (Verified)
+- **LEDGE_HOP_DOWN**: One-way traversal. (Verified by pathing failure)
