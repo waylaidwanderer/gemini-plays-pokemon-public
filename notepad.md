@@ -376,7 +376,6 @@
 - **CRITICAL PROCESS FAILURE (Turn 13142):** Deferred a mandatory notepad update to fix an incomplete tool list by one turn in order to continue a battle. This is a violation of the 'IMMEDIATE ACTION' principle for data management.
 
 ## Future Agent & Tool Ideas (Continued)
-- **Automation Manager Agent:** An agent to manage the execution of multi-turn action sequences (e.g., from `execute_battle_action`). It would store the remaining sequence and provide the next action each turn, preventing state-tracking errors.
 - **Auto-Battler Tool:** A tool to orchestrate the entire wild battle flow. It would call `simple_battle_strategist`, then `execute_battle_action`, then manage the multi-turn execution of the button sequence, fully automating trivial encounters.
 ## Route 32 Tile Mechanics
 - **FLOOR:** Traversable. (Verified)
