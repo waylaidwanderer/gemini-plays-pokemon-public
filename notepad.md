@@ -483,3 +483,6 @@
 - **WARP_CARPET_RIGHT**: Traversable warp, requires pressing 'Right'. (Verified)
 - **LEDGE_HOP_DOWN/LEFT/RIGHT**: One-way traversal. (Verified)
 - Test `FLOOR_UP_WALL` on Union Cave B1F by attempting to move in all four directions to confirm its one-way warp mechanic.
+
+### Appendix: Failure Log (Continued)
+- **CRITICAL REASONING FAILURE (Turn 14554):** My `generate_path_plan` tool correctly reported that no path existed to the Ilex Forest Shrine from my position at (8, 26). Instead of trusting the tool's output and analyzing the map, I incorrectly assumed the tool was broken. A manual review confirmed my path was blocked by impassable tiles. This is a major failure to trust my own tools and a repeat of past mistakes.

@@ -1,6 +1,6 @@
 {
   "execute_battle_action": {
-    "description": "Takes the output of simple_battle_strategist (when the action is FIGHT) and the current Pokémon's moves, then generates the full sequence of button presses to select the specified move. The output is a JSON string of a list of lists, designed to be used by a sequence manager like `automation_manager`.",
+    "description": "Takes the output of simple_battle_strategist (when the action is FIGHT) and the current Pokémon's moves, then generates the button presses for a single step of the move selection process. This tool must be called repeatedly with an incrementing 'step' argument to complete the full action.",
     "input_schema": {
       "type": "object",
       "properties": {
@@ -27,15 +27,20 @@
         "move_4_name": {
           "type": "string",
           "nullable": true
+        },
+        "step": {
+          "type": "integer",
+          "description": "The current step in the sequence (starts at 0)."
         }
       },
       "required": [
         "action",
         "move_to_use",
-        "move_1_name"
+        "move_1_name",
+        "step"
       ]
     },
-    "python_script": "import json\nimport sys\n\nmove_to_use = input_data.get('move_to_use')\nmoves = [\n    input_data.get('move_1_name'),\n    input_data.get('move_2_name'),\n    input_data.get('move_3_name'),\n    input_data.get('move_4_name')\n]\n\nif move_to_use not in moves:\n    print(json.dumps({'error': f'Move {move_to_use} not found in the provided move list.'}))\n    sys.exit()\n\nmove_index = moves.index(move_to_use)\n\npresses = []\nif move_index > 0:\n    presses = ['Down'] * move_index\n\nfull_sequence = [['A']]\nif presses:\n    full_sequence.append(presses)\nfull_sequence.append(['A'])\n\nprint(json.dumps(full_sequence))",
+    "python_script": "import json\n\nmoves = [\n    input_data.get('move_1_name'),\n    input_data.get('move_2_name'),\n    input_data.get('move_3_name'),\n    input_data.get('move_4_name')\n]\n\nmove_to_use = input_data['move_to_use']\nstep = int(input_data['step'])\n\ntry:\n    move_index = moves.index(move_to_use)\nexcept ValueError:\n    print(json.dumps([]))\n\nsequence = []\n# Step 0: Press 'A' to open the move menu\nsequence.append(['A'])\n\n# Subsequent steps: Press 'Down' to navigate to the move\ndirectional_presses = []\nfor _ in range(move_index):\n    directional_presses.append('Down')\nif directional_presses:\n    sequence.append(directional_presses)\n\n# Final step: Press 'A' to select the move\nsequence.append(['A'])\n\nif step < len(sequence):\n    print(json.dumps(sequence[step]))\nelse:\n    print(json.dumps([])) # End of sequence",
     "history": [
       {
         "commit_message": "feat: Create battle automation tool. This tool, `execute_battle_action`, takes the strategic decision from the `simple_battle_strategist` and translates it into the concrete button presses required to execute the action in-game. This will automate the handling of trivial wild battles, significantly improving travel efficiency by removing the need for manual input during these frequent interruptions.",
@@ -91,6 +96,11 @@
         "commit_message": "refactor: Remove step parameter and output full sequence. The tool's previous step-by-step execution was unreliable and caused state-tracking failures. This commit removes the `step` parameter and refactors the tool to output the entire multi-turn button sequence as a single JSON string. This makes it compatible with the new `automation_manager` agent, enabling more robust and reliable battle automation.",
         "timestamp": "2025-11-02T05:24:28.306Z",
         "action_counter": 14471
+      },
+      {
+        "commit_message": "feat: Re-implement step-by-step execution. The previous all-in-one sequence generation was unreliable, causing the game to miss inputs. This commit reintroduces the 'step' parameter to output one command sequence per turn. This makes battle automation robust by ensuring each part of the sequence is processed correctly before the next is sent, fixing a critical, recurring failure.",
+        "timestamp": "2025-11-02T06:24:13.788Z",
+        "action_counter": 14554
       }
     ]
   },
