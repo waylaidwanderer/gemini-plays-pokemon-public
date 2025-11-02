@@ -506,3 +506,4 @@
 
 ## Battle Tools
 - `custom_select_battle_option`: Reliably selects a main battle menu option (FIGHT, PKMN, PACK, RUN).
+- **Exploration Pathfinder Tool:** Could take a list of unseen tiles and find the shortest path to the closest reachable one, automating exploration.
