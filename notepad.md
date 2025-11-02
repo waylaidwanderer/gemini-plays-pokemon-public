@@ -197,7 +197,7 @@
   1. Use the move 'Flash' in the chamber. (Untestable: No Flash)
   2. Use an Itemfinder to check for hidden switches. (Untestable: No Itemfinder)
   3. Activate the Pokégear radio and listen to the stations. (Failed: No Radio Card)
-  4. Use an Escape Rope while standing directly in front of the 'ESCAPE' wall. (Untestable: No Escape Rope)
+  4. Use an Escape Rope while standing in front of the 'ESCAPE' wall. (Untestable: No Escape Rope)
   5. Use the move 'Strength' to try and push the statues. (Untestable: No Strength)
 - **Untested Assumptions:**
   1. The puzzle requires having an Escape Rope in the inventory, not necessarily using it.
@@ -212,9 +212,13 @@
 ## `select_battle_option`
 - The built-in `select_battle_option` tool is unreliable and has been replaced. DO NOT USE. Use `custom_select_battle_option` instead.
 
+# My Custom Tools
+
+## Battle Tools
+- `custom_select_battle_option`: Reliably selects a main battle menu option (FIGHT, PKMN, PACK, RUN).
+
 # Future Development
 ## Tool & Agent Ideas
-### High Priority
 - **`list_reachable_unseen_tiles` tool:** A tool that parses the map XML and runs a BFS from the player's position to find all reachable `unseen` tiles.
 - **Puzzle Solver Strategist Agent:** Could take puzzle context (NPC dialogue, location, failed attempts) and suggest the next logical hypothesis to test, preventing loops.
 - **Navigation Manager Agent/Tool:** Could automate multi-map navigation, including pathfinding, executing movement, handling battle interruptions, and re-pathfinding.
@@ -224,6 +228,7 @@
 - **Battle Recovery Agent:** Could analyze a failed battle state (e.g., wrong menu) and generate the button presses to recover and return to the intended action.
 - **Reflection Assistant Agent:** Could analyze the last 50 turns of logs to generate a summary of process violations, suggest new tools, and identify untested assumptions, automating the reflection process.
 - **`generate_path_plan` refinement:** Add an optional `avoid_warps` boolean parameter to prevent accidental map transitions.
+- **Exploration Pathfinder Tool:** Could take a list of unseen tiles and find the shortest path to the closest reachable one, automating exploration.
 
 # Appendix: Failure Log
 
@@ -477,7 +482,6 @@
 
 ## Tool & Agent Ideas
 - **Debugging Assistant Agent:** Could take a script, an error, and a problem description to suggest specific code changes or where to add debug prints.
-- **Exploration Pathfinder Tool:** Could take a list of unseen tiles and find the shortest path to the closest reachable one, automating exploration.
 
 ## Untested Mechanics & Hypotheses
 - Test `LEDGE_HOP_LEFT` and `LEDGE_HOP_DOWN` tiles on Route 33 by attempting to move against their intended direction to confirm one-way traversal.
@@ -506,4 +510,3 @@
 
 ## Battle Tools
 - `custom_select_battle_option`: Reliably selects a main battle menu option (FIGHT, PKMN, PACK, RUN).
-- **Exploration Pathfinder Tool:** Could take a list of unseen tiles and find the shortest path to the closest reachable one, automating exploration.
