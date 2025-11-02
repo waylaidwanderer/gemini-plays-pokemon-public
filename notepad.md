@@ -537,3 +537,4 @@
 
 ## Tool Development
 - The `action_sequencer_agent` has been identified as fundamentally unreliable for battle menu navigation and is being deleted.
+- **WALL**: Impassable. (Verified)
