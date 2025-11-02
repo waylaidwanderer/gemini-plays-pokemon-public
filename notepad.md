@@ -455,3 +455,12 @@
 - **LEDGE_HOP_RIGHT**: One-way traversal. (Verified)
 ## Future Agent & Tool Ideas (Continued)
 - Debugging Assistant Agent: Could take a script, a description of an error, and the tool's output, then suggest specific code changes or where to add debug prints.
+
+### Ilex Forest FARFETCH'D Puzzle (Continued)
+- **New Observation (Turn 14344):** Stepping on the ledge at (27, 22) successfully triggered the FARFETCH'D to appear at (29, 22), facing down.
+- **New Hypothesis:** Interacting with the FARFETCH'D at (29, 22) from the tile directly below it (29, 23) will correctly advance the puzzle.
+  - **Test Plan:**
+    1. Move from (28, 22) to (29, 23).
+    2. Face Up.
+    3. Press 'A' to interact.
+    4. Observe and document the outcome.
