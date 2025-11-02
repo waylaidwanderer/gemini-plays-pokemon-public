@@ -216,6 +216,7 @@
 - `notepad_refactor_assistant` (Agent): Refactors notepad content based on a goal.
 - `debugging_assistant` (Agent): Analyzes and corrects faulty Python scripts.
 - `select_battle_option`: Automatically selects a main battle menu option.
+- `select_battle_option`: Automatically selects a main battle menu option.
 - `notepad_refactor_assistant`: Refactors notepad content based on a goal.
 - `debugging_assistant`: Analyzes and corrects faulty Python scripts.
 
