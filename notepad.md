@@ -47,6 +47,14 @@
 
 ## World & Story
 ### Location Notes
+#### Cherrygrove City Tile Mechanics
+- **FLOOR**: Traversable. (Verified)
+- **WALL**: Impassable. (Verified)
+- **WATER**: Impassable. (Assumed, based on all previous water tiles)
+- **DOOR**: Traversable warp. (Verified)
+- **HEADBUTT_TREE**: Impassable. (Verified)
+- **BUOY**: Traversability unknown, assumed impassable.
+
 #### Route 29
 - The southern path is a dead end.
 - The western path is blocked by CUT_TREEs and HEADBUTT_TREEs.
@@ -192,19 +200,14 @@
 
 # Tool Usage Protocols
 
-## `select_battle_option`
-- The built-in `select_battle_option` tool is unreliable and has been replaced. DO NOT USE. Use `custom_select_battle_option` instead.
-
 # My Custom Tools
 - `generate_path_plan`: Generates a sequence of button presses to navigate from the player's current position to a target coordinate.
   - **CRITICAL PROCESS:** To prevent pathing into known off-screen obstacles (like the Fisher in Union Cave), I MUST consult my notepad and map markers for the target map *before* calling this tool. The coordinates of any known impassable NPCs or other temporary blockades must be manually added to the `object_locations_json` argument. This addresses a critical design flaw where the tool cannot see off-screen objects.
 - `find_adjacent_traversable_tiles`: Identifies all adjacent tiles to a given coordinate that are traversable.
 - `list_reachable_unseen_tiles`: Uses pathfinding logic to identify all unseen tiles that are currently reachable from the player's position.
 
-## Battle Tools
-- `custom_select_battle_option`: Reliably selects a main battle menu option (FIGHT, PKMN, PACK, RUN).
-
 # Broken Tools
+- `custom_select_move`: Failed on Turn 15501. Needs investigation.
 
 # Future Development
 ## Tool & Agent Ideas
