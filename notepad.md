@@ -534,3 +534,6 @@
 ### Ilex Forest Layout Discovery
 - My `generate_path_plan` tool correctly reported that no path exists from the eastern entrance (from Azalea Town) to the western section where the FARFETCH'D puzzle continues. 
 - **Conclusion:** Ilex Forest is divided into two disconnected sections. Further progress on the puzzle is impossible from this side. I must find an alternative route to the other side of the forest, or another path forward entirely.
+
+### Appendix: Failure Log (Continued)
+- **PROCESS VIOLATION (Turn 15018):** Failed to consult map marker for Fisher at (15, 27) in Union Cave before pathing, causing a movement blockage. This highlights a need for greater diligence in pre-planning.
