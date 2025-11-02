@@ -464,3 +464,8 @@
     2. Face Up.
     3. Press 'A' to interact.
     4. Observe and document the outcome.
+
+### Ilex Forest FARFETCH'D Puzzle - Alternative Hypotheses (from Reflection Turn 14346)
+- The puzzle is currently unsolvable and requires a key item (like a Squirtbottle) or a story flag obtained elsewhere.
+- The puzzle requires a specific Pokémon move (like Headbutt) to be used on an object in the environment to alter the bird's pathing.
+- The puzzle is dependent on the time of day.
