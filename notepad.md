@@ -159,30 +159,33 @@
 ### Ilex Forest FARFETCH'D Puzzle
 - **Objective:** Herd the FARFETCH'D back to the apprentice at (7, 28).
 - **Background:** The Charcoal Man's apprentice is at (7, 28) in Ilex Forest. His FARFETCH'D, which knows CUT, has run off. I need to find the FARFETCH'D to get CUT. This was mentioned by a Youngster (6, 9) and the Charcoal Man himself (2, 3).
-
-#### Puzzle Mechanics & Discoveries
-- **Core Mechanic:** The bird's movement is triggered by player interaction from specific coordinates and with a specific facing, not just the direction of approach.
-- **Key Breakthrough:** The player's X-coordinate when interacting from *below* the FARFETCH'D at its starting position (15, 25) determines its destination.
-  - Interacting from (15, 24) causes the bird to move south to (15, 29).
-  - Interacting from (15, 26) causes the bird to move east to (20, 24).
-- **Other Triggers & Rules:**
-  - Stepping on the one-way ledge at (27, 22) triggers the FARFETCH'D to appear at (29, 22).
-  - Interacting from the side of the bird is a failure condition that triggers the 'Kwaa!' dialogue and resets its position. This is true regardless of the bird's facing direction.
+- **Layout Discovery:** Ilex Forest is divided into two disconnected sections. My `generate_path_plan` tool correctly reported that no path exists from the eastern entrance (from Azalea Town) to the western section where the puzzle continues. Further progress on the puzzle is impossible from this side. I must find an alternative route to the other side of the forest, or another path forward entirely.
+- **Puzzle Mechanics & Discoveries:**
+  - **Core Mechanic:** The bird's movement is triggered by player interaction from specific coordinates and with a specific facing, not just the direction of approach.
+  - **Key Breakthrough:** The player's X-coordinate when interacting from *below* the FARFETCH'D at its starting position (15, 25) determines its destination.
+    - Interacting from (15, 24) causes the bird to move south to (15, 29).
+    - Interacting from (15, 26) causes the bird to move east to (20, 24).
+  - **Triggers & Rules:**
+    - Stepping on the one-way ledge at (27, 22) triggers the FARFETCH'D to appear at (29, 22). (Verified Turn 14344)
+    - Defeating a wild Pokémon is a trigger that causes the FARFETCH'D to appear at (20, 24). (Verified Turn 14372)
+    - Walking to the dead end at (29, 33) and then returning to the area has repeatedly failed to make the FARFETCH'D appear. This trigger is inconsistent and unreliable.
+  - **Failure Conditions:** Interacting from the side, front, above, or below the bird at various puzzle stages triggers the 'Kwaa!' dialogue and resets its position. This has been verified at multiple locations (e.g., from (29, 23) to (29, 22), from (20, 23) to (20, 24)).
+- **Hypotheses & Tests (Log of Disproven Ideas):**
+  - **Lead Pokémon:** The lead Pokémon has no effect on a simple 'A' press interaction.
+  - **Twig Piles:** Stepping on the twig pile at (14, 27) does not alter the outcome of subsequent interactions with the bird.
+- **Current Investigation Plan:**
+  - **Proactive Hypothesis:** Stepping on a twig pile is a necessary prerequisite that alters the Farfetch'd's initial state at (15, 25) before the first interaction. My previous reactive 'chase the bird' strategy has failed; this plan tests a preparatory action.
+  - **Test Plan:**
+    1.  **Reset:** Ensure the bird is at its starting position (15, 25). If not, use the reliable reset method (interact with bird at (28, 31) from (28, 32)).
+    2.  **Trigger:** Path to and step on a specific twig pile, for example, the one at (14, 27).
+    3.  **Approach:** Path from the twig pile to (15, 24) without stepping on any other twigs.
+    4.  **Interact:** Face UP and press 'A' to interact with the bird at (15, 25).
+    5.  **Observe & Conclude:** Document the bird's new position. If it moves to a new, previously unobserved location, the hypothesis is supported. If it moves to (15, 29) as before, this specific twig does not alter the outcome.
+- **Alternative Hypotheses (Untested):**
+  - The puzzle is currently unsolvable and requires a key item (like a Squirtbottle) or a story flag from elsewhere (e.g., from Goldenrod City).
+  - The puzzle is dependent on the time of day (e.g., must be solved at night).
+  - The puzzle requires a specific Pokémon move (like Headbutt) to be used on an object in the environment to alter the bird's pathing.
 - **Note on Failures:** This puzzle has been the source of severe and recurring state-tracking failures, including repeatedly hallucinating my position (e.g., at Turns 9586, 9591, & 9608).
-
-#### Current Investigation Plan
-- **Proactive Hypothesis:** Stepping on a twig pile is a necessary prerequisite that alters the Farfetch'd's initial state at (15, 25) before the first interaction. My previous reactive 'chase the bird' strategy has failed; this plan tests a preparatory action.
-- **Test Plan:**
-  1.  **Reset:** Ensure the bird is at its starting position (15, 25). If not, use the reliable reset method (interact with bird at (28, 31) from (28, 32)).
-  2.  **Trigger:** Path to and step on a specific twig pile, for example, the one at (14, 27).
-  3.  **Approach:** Path from the twig pile to (15, 24) without stepping on any other twigs.
-  4.  **Interact:** Face UP and press 'A' to interact with the bird at (15, 25).
-  5.  **Observe & Conclude:** Document the bird's new position. If it moves to a new, previously unobserved location, the hypothesis is supported. If it moves to (15, 29) as before, this specific twig does not alter the outcome.
-
-#### Alternative Hypotheses (from Reflection Turn 12632)
-- The puzzle is currently unsolvable and requires a key item (like a Squirtbottle) or a story flag from elsewhere.
-- The puzzle is dependent on the time of day (e.g., must be solved at night).
-- The puzzle requires a specific Pokémon move (like Headbutt) to be used on an object in the environment to alter the bird's pathing.
 
 ### Sprout Tower 2F Pillar Puzzle
 - **Objective:** Determine how to move the central pillar on 2F again.
@@ -275,19 +278,6 @@
 - **Untested Mechanics:** Added tasks to my hypotheses list to explicitly test the one-way traversal of all `LEDGE_HOP` types by attempting to move against their intended direction.
 - **Alternative Hypotheses Logged:** Documented alternative hypotheses for my current roadblocks. For Dark Cave, the possibility of a hidden passage. For the FARFETCH'D puzzle, the possibility that it is currently unsolvable without a specific item.
 
-### Ilex Forest FARFETCH'D Puzzle (Continued)
-- **Hypothesis 3:** The lead Pokémon affects the interaction.
-  - **Test:** Swapped Ignis (Quilava) to the lead. Stood at (15, 24), faced the bird at (15, 25), and pressed 'A'.
-  - **Result:** No text appeared, no event triggered. Interaction failed.
-  - **Conclusion:** Hypothesis 3 is disproven. The lead Pokémon has no effect on a simple 'A' press interaction.
-
-- **Current State:** All simple interaction hypotheses have been exhausted and disproven. The solution is more complex.
-
-- **Alternative Hypotheses (from Reflection Turn 12059):**
-  1. The puzzle is currently unsolvable and requires a key item (like a Squirtbottle) or a story flag from elsewhere.
-  2. The puzzle is dependent on the time of day (e.g., must be solved at night).
-  3. The puzzle requires a specific Pokémon move (like Headbutt) to be used on an object in the environment to alter the bird's pathing.
-
 ## Union Cave 1F Tile Mechanics
 - **Task:** Check which Pokémon can learn TM31 MUD-SLAP.
 
@@ -325,9 +315,6 @@
 - **CRITICAL PROCESS FAILURE (Turn 12570):** The system correctly identified two major process violations. 1) I failed to immediately address the faulty `farfetchd_puzzle_solver` agent after discovering it provided incorrect advice on Turn 12443. 2) I completely ignored my own map markers at (15, 24) and (15, 26) that warned of a movement loop, wasting over 10 turns stuck in that exact loop while the bird wasn't even at its starting position. This is a severe failure of discipline. My new plan is to stop interacting with the bird's empty starting position and instead path to a known trigger point at (29, 33) to make it reappear.
 
 ## Alternative Hypotheses (Reflection Turn 12943)
-### Ilex Forest FARFETCH'D Puzzle
-- **Alternative Hypothesis:** The puzzle is not tied to Azalea Town's events. It may require an item from Goldenrod City (e.g., Squirtbottle), meaning another route to Goldenrod must be found first.
-- **Test to Disprove:** If the puzzle remains unsolvable after clearing Azalea Town events, I must exhaustively search for an alternative route to Goldenrod City.
 
 ### Path to Goldenrod City
 - **Alternative Hypothesis:** The path is not blocked by the 'Odd Tree' on Route 36. An alternative route may exist through Ilex Forest or Dark Cave.
@@ -335,24 +322,6 @@
 
 ### Turn Execution Rules
 - Tool calls (`tools_to_call`) and path execution (`buttons_to_press: ["path"]`) are mutually exclusive. If both are present in a single turn, the tool call is prioritized and the path is not executed.
-
-### Ilex Forest FARFETCH'D Puzzle (Continued)
-- **New Proactive Hypothesis (Turn 13052):** My reactive 'chase the bird' strategy has failed. My new hypothesis is that stepping on a twig pile is a necessary prerequisite to successfully interacting with the Farfetch'd from behind.
-- **Test Plan:**
-  1. Step on the twig pile at (14, 27).
-  2. Observe the Farfetch'd's position and facing direction.
-  3. Path to the tile directly behind it.
-  4. Interact with the Farfetch'd by pressing 'A'.
-  5. Conclude based on whether the bird moves.
-
-### Ilex Forest FARFETCH'D Puzzle (Continued)
-- **New Proactive Hypothesis (Turn 13107):** Stepping on a twig pile is a necessary prerequisite that alters the Farfetch'd's behavior.
-  - **Test Plan:** 
-    1. Step on the twig pile at (14, 27).
-    2. Trigger the Farfetch'd to appear at (22, 31).
-    3. Interact with the Farfetch'd from (22, 30).
-  - **Result:** The interaction produced the 'Kwaa!' dialogue, a known reset condition. The bird moved to (28, 31).
-  - **Conclusion:** Hypothesis is disproven. Stepping on the twig pile at (14, 27) does not change the outcome of this interaction.
 
 ## Route 32 Tile Mechanics
 - **FLOOR:** Traversable. (Verified)
@@ -382,37 +351,10 @@
 - **LEDGE_HOP_LEFT**: One-way traversal. (Verified)
 - **LEDGE_HOP_RIGHT**: One-way traversal. (Verified)
 
-# Ilex Forest FARFETCH'D Puzzle (Continued)
-- **New Observation (Turn 13587):** After defeating a wild Metapod, the FARFETCH'D appeared at (20, 24), facing up. This may be a new trigger.
-- **New Hypothesis:** Interacting with the FARFETCH'D at (20, 24) from the tile directly above it (20, 23) will move it correctly.
-  - **Test Plan:**
-    1. Move from current position (21, 23) to (20, 23).
-    2. Face Down.
-    3. Press 'A' to interact.
-    4. Observe the bird's movement and document the outcome.
-
 # Reflection Log (Turn 13618)
+
 ## Alternative Hypotheses
-- **FARFETCH'D Puzzle:** The puzzle may be unsolvable without a key item (e.g., Squirtbottle) or a story flag obtained elsewhere. If all logical interaction-based hypotheses are exhausted, I must pivot to another objective.
 - **Path to Goldenrod City:** The primary path might not be through the 'Odd Tree' on Route 36. An alternative route could exist through unexplored sections of Ilex Forest or Dark Cave. I must fully explore these areas to disprove the assumption that the 'Odd Tree' is the only way forward.
-
-### Ilex Forest FARFETCH'D Puzzle (Continued)
-- **Hypothesis:** Interacting from the front at (29, 23) with the bird at (29, 22) is a valid move.
-  - **Test:** Stood at (29, 23), faced up, pressed 'A'.
-  - **Result:** 'Kwaa!' dialogue, bird disappeared.
-  - **Conclusion:** Hypothesis disproven. Frontal interaction at this stage is a failure condition.
-
-### Ilex Forest FARFETCH'D Puzzle (Continued)
-- **Hypothesis:** Interacting from behind at (20, 23) with the bird at (20, 24) is a valid move.
-  - **Test:** Stood at (20, 23), faced down, pressed 'A'.
-  - **Result:** 'Kwaa!' dialogue, bird disappeared.
-  - **Conclusion:** Hypothesis disproven. Interacting from behind is also a failure condition.
-
-### Ilex Forest FARFETCH'D Puzzle (Continued)
-- **Hypothesis:** Stepping on the twig pile at (14, 27) is a prerequisite for a successful interaction.
-  - **Test:** Stepped on twig at (14, 27), then interacted with FARFETCH'D at (28, 31) from (28, 32).
-  - **Result:** 'Kwaa!' dialogue, bird disappeared.
-  - **Conclusion:** Hypothesis disproven. Stepping on this specific twig does not alter the outcome of this interaction.
 
 ## Untested Mechanics & Hypotheses (Update Turn 13775)
 - Rigorously test all one-way tiles (e.g., LEDGE_HOP_DOWN/LEFT/RIGHT, FLOOR_UP_WALL on Union Cave 1F) by attempting to move in all four directions from them to definitively confirm their movement restrictions.
@@ -434,36 +376,6 @@
 ### Dark Cave (Violet Entrance)
 - **Discovery:** This entrance leads to a small, isolated section. The path north is blocked by one-way ledges, making further exploration impossible from this side without a specific ability (likely Flash).
 - **LEDGE_HOP_RIGHT**: One-way traversal. (Verified)
-
-### Ilex Forest FARFETCH'D Puzzle (Continued)
-- **New Observation (Turn 14344):** Stepping on the ledge at (27, 22) successfully triggered the FARFETCH'D to appear at (29, 22), facing down.
-- **New Hypothesis:** Interacting with the FARFETCH'D at (29, 22) from the tile directly below it (29, 23) will correctly advance the puzzle.
-  - **Test Plan:**
-    1. Move from (28, 22) to (29, 23).
-    2. Face Up.
-    3. Press 'A' to interact.
-    4. Observe and document the outcome.
-
-### Ilex Forest FARFETCH'D Puzzle - Alternative Hypotheses (from Reflection Turn 14346)
-- The puzzle is currently unsolvable and requires a key item (like a Squirtbottle) or a story flag from elsewhere.
-- The puzzle requires a specific Pokémon move (like Headbutt) to be used on an object in the environment to alter the bird's pathing.
-- The puzzle is dependent on the time of day.
-### Ilex Forest FARFETCH'D Puzzle (Continued)
-- **Hypothesis:** Interacting with the FARFETCH'D at (29, 22) from below (29, 23) will advance the puzzle.
-  - **Test:** Stood at (29, 23), faced Up, pressed 'A'.
-  - **Result:** 'Kwaa!' dialogue, bird disappeared.
-  - **Conclusion:** Hypothesis disproven. Interaction from below at this stage is a failure condition.
-
-### Ilex Forest FARFETCH'D Puzzle (Continued)
-- **New Discovery (Turn 14372):** Defeating a wild Pokémon is a trigger that causes the FARFETCH'D to appear at (20, 24).
-- **New Hypothesis:** Interacting with the FARFETCH'D at (20, 24) from the tile directly above it (20, 23) will correctly advance the puzzle.
-
-### Ilex Forest FARFETCH'D Puzzle (Continued)
-- **Hypothesis:** Interacting with the FARFETCH'D at (20, 24) from above (20, 23) will advance the puzzle.
-  - **Test:** Stood at (20, 23), faced Down, pressed 'A'.
-  - **Result:** 'Kwaa!' dialogue, bird disappeared.
-  - **Conclusion:** Hypothesis disproven. Interaction from above at this stage is a failure condition.
-- **Strategic Pivot:** I have now tested and disproven all simple interaction hypotheses (from the side, below, and above) in the eastern section of the puzzle. I am stuck in a loop. I will now pivot my strategy to explore the western side of the forest, including the unseen tiles near the apprentice, to look for new clues or paths.
 
 # Data Hygiene Updates (Turn 14405)
 
@@ -537,10 +449,6 @@
 - **LEDGE_HOP_DOWN:** One-way traversal. (Verified)
 - **LEDGE_HOP_RIGHT:** One-way traversal. (Verified)
 - **FLOOR_UP_WALL:** This tile functions as a one-way barrier from below. You cannot move DOWN from a different tile type onto a FLOOR_UP_WALL tile. (Verified on map 10_1)
-
-### Ilex Forest Layout Discovery
-- My `generate_path_plan` tool correctly reported that no path exists from the eastern entrance (from Azalea Town) to the western section where the FARFETCH'D puzzle continues. 
-- **Conclusion:** Ilex Forest is divided into two disconnected sections. Further progress on the puzzle is impossible from this side. I must find an alternative route to the other side of the forest, or another path forward entirely.
 
 ## Route 30 Tile Mechanics
 - **FLOOR**: Traversable. (Verified)
