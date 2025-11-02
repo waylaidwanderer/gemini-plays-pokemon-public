@@ -199,9 +199,11 @@
 - The built-in `select_battle_option` tool is unreliable and has been replaced. DO NOT USE. Use `custom_select_battle_option` instead.
 
 # My Custom Tools
+- `list_reachable_unseen_tiles`: Uses pathfinding logic to identify all unseen tiles that are currently reachable from the player's position.
 
 ## Battle Tools
 - `custom_select_battle_option`: Reliably selects a main battle menu option (FIGHT, PKMN, PACK, RUN).
+- `custom_select_move`: Reliably selects a move from the battle move menu.
 
 # Broken Tools
 
@@ -220,7 +222,7 @@
 
 ### Core Failure Patterns (Summarized)
 - **RECURRING HALLUCINATION - Position & Map State:** A recurring failure where I believe I am at a different (x, y) coordinate or on a different map than my actual location. This has led to invalid pathing, incorrect map markers, and failed interactions. (Occurrences: Turns 5590, 5961, 6045, 6050, 8947, 9586, 9591, 9608, 10817, 10846, 11621-11639, 12268).
-- **RECURRING HALLUCination - Warps & Transitions:** Repeatedly believing a map transition was successful when it was not, or hallucinating the existence of warps at incorrect coordinates. This has caused pathfinder crashes and invalidated multi-turn plans. (Occurrences: Turns 7443, 8421, 8517, 10445, 10615, 11105, 11872, 11928).
+- **RECURRING HALLUCINATION - Warps & Transitions:** Repeatedly believing a map transition was successful when it was not, or hallucinating the existence of warps at incorrect coordinates. This has caused pathfinder crashes and invalidated multi-turn plans. (Occurrences: Turns 7443, 8421, 8517, 10445, 10615, 11105, 11872, 11928).
 - **RECURRING HALLUCINATION - Tool & Data State:** A critical pattern of either believing a tool exists when it does not, misremembering the state of my own notepad and map markers, or repeatedly attempting to "fix" an already correct tool or entry. This leads to wasted turns on debugging and operating on flawed data. (Occurrences: Turns 4838-4866, 5640, 5981, 8944-8945, 9522, 10624-10626, 12372-12374, 13022, 13600-13606).
 - **RECURRING FAILURE - Mistrust of Tools:** A critical failure pattern of assuming a working tool is broken, particularly when it reports a dead end or no path. This has led to extensive, wasted debugging cycles on correct code instead of trusting the tool's output and re-evaluating my strategic assumptions. (Occurrences: Pathfinder on Route 32, Turns 7142-7147, 8539-8541, 10746-10776, 10908-10911, 14554).
 
@@ -352,6 +354,18 @@
 - **LEDGE_HOP_DOWN:** One-way traversal. (Verified)
 - **LEDGE_HOP_RIGHT:** One-way traversal. (Verified)
 
+## Route 29 Tile Mechanics
+- **FLOOR**: Traversable. (Verified)
+- **WALL**: Impassable. (Verified)
+- **TALL_GRASS**: Traversable, contains wild Pokémon. (Verified)
+- **LONG_GRASS**: Traversable, contains wild Pokémon. (Verified)
+- **CUT_TREE**: Impassable, requires specific ability. (Verified)
+- **HEADBUTT_TREE**: Impassable. (Verified)
+- **DOOR**: Traversable warp. (Verified)
+- **LEDGE_HOP_DOWN**: One-way traversal. (Verified)
+- **LEDGE_HOP_LEFT**: One-way traversal. (Verified)
+- **LEDGE_HOP_RIGHT**: One-way traversal. (Verified)
+
 # Ilex Forest FARFETCH'D Puzzle (Continued)
 - **New Observation (Turn 13587):** After defeating a wild Metapod, the FARFETCH'D appeared at (20, 24), facing up. This may be a new trigger.
 - **New Hypothesis:** Interacting with the FARFETCH'D at (20, 24) from the tile directly above it (20, 23) will move it correctly.
@@ -480,11 +494,6 @@
 - **Union Cave Exploration:** I have fully explored Union Cave.
   - **Alternative Hypothesis:** There may be hidden areas accessible only with HMs like Surf or Flash.
   - **Test to Disprove:** Return to the cave after acquiring new HMs to check all water and dark areas.
-
-# My Custom Tools
-
-## Battle Tools
-- `custom_select_battle_option`: Reliably selects a main battle menu option (FIGHT, PKMN, PACK, RUN).
 
 # Reflection Log (Turn 15022)
 
