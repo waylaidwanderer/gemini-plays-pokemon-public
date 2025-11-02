@@ -69,7 +69,7 @@
 - MR. POKEMON's house is located here. (Confirmed)
 
 #### Route 32
-- Route 32 has a complex layout with one-way ledges. The central path (accessed by ledge from the west) leads to the eastern path, which is a dead end, making progress south from the northern Union Cave exit impossible.
+- Route 32 has a complex layout with one-way ledged. The central path (accessed by ledge from the west) leads to the eastern path, which is a dead end, making progress south from the northern Union Cave exit impossible.
 - Hidden SUPER POTION at (11, 40).
 
 #### Violet City
@@ -218,7 +218,7 @@
 - `custom_select_battle_option`: Reliably selects a main battle menu option (FIGHT, PKMN, PACK, RUN).
 
 # Broken Tools
-- `list_reachable_unseen_tiles`: This tool is non-functional due to persistent coordinate system and logic errors. Do not use until it has been completely rebuilt and verified.
+- **list_reachable_unseen_tiles**: This tool is currently non-functional due to persistent coordinate system and logic errors.
 
 # Future Development
 ## Tool & Agent Ideas
