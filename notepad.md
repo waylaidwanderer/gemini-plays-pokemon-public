@@ -431,7 +431,7 @@
     4. Observe and document the outcome.
 
 ### Ilex Forest FARFETCH'D Puzzle - Alternative Hypotheses (from Reflection Turn 14346)
-- The puzzle is currently unsolvable and requires a key item (like a Squirtbottle) or a story flag obtained elsewhere.
+- The puzzle is currently unsolvable and requires a key item (like a Squirtbottle) or a story flag from elsewhere.
 - The puzzle requires a specific Pokémon move (like Headbutt) to be used on an object in the environment to alter the bird's pathing.
 - The puzzle is dependent on the time of day.
 ### Ilex Forest FARFETCH'D Puzzle (Continued)
@@ -479,5 +479,4 @@
 
 ## Alternative Hypotheses
 - **Union Cave Layout:** My hypothesis that the cave is split into two disconnected sections has been disproven. My pathfinder successfully generated a complete route from the southern entrance (Route 33) to the northern entrance (Route 32), confirming the cave is one continuous area.
-- **FLOOR_UP_WALL (Route 32):** This tile functions as a one-way barrier from below. You cannot move DOWN from a different tile type onto a FLOOR_UP_WALL tile. (Verified on map 10_1)
 - **FLOOR_UP_WALL (Route 32):** This tile functions as a one-way barrier from below. You cannot move DOWN from a different tile type onto a FLOOR_UP_WALL tile. (Verified on map 10_1)
