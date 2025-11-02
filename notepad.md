@@ -478,3 +478,10 @@
 ### Ilex Forest FARFETCH'D Puzzle (Continued)
 - **New Discovery (Turn 14372):** Defeating a wild Pokémon is a trigger that causes the FARFETCH'D to appear at (20, 24).
 - **New Hypothesis:** Interacting with the FARFETCH'D at (20, 24) from the tile directly above it (20, 23) will correctly advance the puzzle.
+
+### Ilex Forest FARFETCH'D Puzzle (Continued)
+- **Hypothesis:** Interacting with the FARFETCH'D at (20, 24) from above (20, 23) will advance the puzzle.
+  - **Test:** Stood at (20, 23), faced Down, pressed 'A'.
+  - **Result:** 'Kwaa!' dialogue, bird disappeared.
+  - **Conclusion:** Hypothesis disproven. Interaction from above at this stage is a failure condition.
+- **Strategic Pivot:** I have now tested and disproven all simple interaction hypotheses (from the side, below, and above) in the eastern section of the puzzle. I am stuck in a loop. I will now pivot my strategy to explore the western side of the forest, including the unseen tiles near the apprentice, to look for new clues or paths.
