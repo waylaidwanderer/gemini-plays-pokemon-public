@@ -450,3 +450,5 @@
 - The `action_sequencer_agent` has been identified as fundamentally unreliable for battle menu navigation and is being deleted.
 - **WALL**: Impassable. (Verified)
 - **AGENT KNOWLEDGE UPDATES:** Whenever a new Pokémon's type is discovered in battle, I must immediately update the `simple_battle_strategist` agent's system prompt to include this new information in its 'KNOWN POKEMON TYPES' list. This prevents knowledge decay and ensures the agent's accuracy improves over time.
+### Dark Cave (Violet Entrance)
+- **Discovery:** This entrance leads to a small, isolated section. The path north is blocked by one-way ledges, making further exploration impossible from this side without a specific ability (likely Flash).
