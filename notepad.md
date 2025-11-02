@@ -204,8 +204,18 @@
 
 ## `generate_path_plan`
 - **CRITICAL PROCESS:** To prevent pathing into known off-screen obstacles (like the Fisher in Union Cave), I MUST consult my notepad and map markers for the target map *before* calling this tool. The coordinates of any known impassable NPCs or other temporary blockades must be manually added to the `object_locations_json` argument. This addresses a critical design flaw where the tool cannot see off-screen objects.
-- Puzzle Solver Strategist Agent: Could take puzzle context (NPC dialogue, location, failed attempts) and suggest the next logical hypothesis to test, preventing loops.
-- `generate_path_plan` refinement: Add an optional `avoid_warps` boolean parameter to prevent accidental map transitions.
+
+# Future Development
+## Tool & Agent Ideas
+- **Puzzle Solver Strategist Agent:** Could take puzzle context (NPC dialogue, location, failed attempts) and suggest the next logical hypothesis to test, preventing loops.
+- **Navigation Manager Agent/Tool:** Could automate multi-map navigation, including pathfinding, executing movement, handling battle interruptions, and re-pathfinding.
+- **Exploration Strategist Agent:** Could take the output of `list_reachable_unseen_tiles` and suggest the most strategically valuable tile to explore next (e.g., closest, or one leading to a cluster).
+- **Debugging Assistant Agent:** Could take a script, a description of an error, and the tool's output, then suggest specific code changes or where to add debug prints.
+- **Pathing Failure Analyst Agent:** Could analyze movement blockages and suggest specific solutions (e.g., stun NPC, find alternate route).
+- **Auto-Battler Tool:** A tool to orchestrate the entire wild battle flow. It would call `simple_battle_strategist`, then `execute_battle_action`, then manage the multi-turn execution of the button sequence, fully automating trivial encounters.
+- **Battle Recovery Agent:** Could analyze a failed battle state (e.g., wrong menu) and generate the button presses to recover and return to the intended action.
+- **Reflection Assistant Agent:** Could analyze the last 50 turns of logs to generate a summary of process violations, suggest new tools, and identify untested assumptions, automating the reflection process.
+- **`generate_path_plan` refinement:** Add an optional `avoid_warps` boolean parameter to prevent accidental map transitions.
 
 # Appendix: Failure Log
 
@@ -244,20 +254,15 @@
 
 ### Reflection-Based Updates (Turn 11074)
 - **Process Violation Logged:** Added an entry to my failure log for deferring a notepad update on Turn 11043, a violation of the 'IMMEDIATE ACTION' principle.
-- **New Tool Idea:** Added 'Debugging Assistant Agent' to my future ideas list.
 - **Alternative Hypotheses Logged:** Documented alternative hypotheses for my pathfinding failures. 1) The path is blocked by an invisible wall, not a tool bug. 2) There is a different, hidden path to Azalea Town that I have missed.
 - **CRITICAL HALLUCINATION (Turn 11105):** Believed a warp existed at (6, 74) on UnionCave1F and set it as a navigation goal. The system confirmed no warp exists there. This is a failure to verify warp locations before setting goals.
 
 ### Reflection-Based Updates (Turn 11695)
 - **CRITICAL REASONING FAILURE (Turns 11683-11690):** I became stuck in a multi-turn loop attempting to fix the `generate_path_plan` tool. I repeatedly submitted identical, broken code, failing to notice that I had not actually removed the incorrect line from the `impassable_types` set. This was a severe failure of process and attention to detail.
-- **New Tool Idea:** Added 'Debugging Assistant Agent' to my future ideas list. This agent could take a script, a description of an error, and the tool's output, then suggest specific code changes or where to add debug prints.
 - *Type Effectiveness Chart Update*: Bug is super-effective against Psychic. (Verified in battle vs Zubat's Leech Life on Glyph).
 - **CRITICAL REASONING FAILURE (Turns 11717-11720):** After multiple failed attempts to fix my pathfinder's one-way ledge logic, I finally implemented aversion that seemed simpler and more correct. However, it was a fundamentally backward and based on a complete misunderstanding of the mechanic. The game immediately blocked my movement, proving the new code was broken. My logic from turn 11694 was actually correct, and my 'fix' was a regression that wasted several turns. This is a major failure in debugging and logical reasoning.
 
 # Reflection Log (Turn 11852)
-- **New Tool/Agent Ideas:**
-  - Puzzle Strategist Agent: Could analyze the current state of a complex puzzle (like FARFETCH'D) and suggest the next logical hypothesis to test, preventing loops.
-  - Navigation Manager Agent/Tool: Could automate multi-map navigation, including pathfinding, executing movement, handling battle interruptions, and re-pathfinding.
 - **FARFETCH'D Puzzle - Alternative Hypotheses:**
   - The puzzle is time-based (day/night).
   - The puzzle requires a specific key item I don't have.
@@ -268,7 +273,6 @@
 ## Reflection-Based Updates (Turn 11955)
 - **Untested Mechanics:** Added tasks to my hypotheses list to explicitly test the one-way traversal of all `LEDGE_HOP` types by attempting to move against their intended direction.
 - **Alternative Hypotheses Logged:** Documented alternative hypotheses for my current roadblocks. For Dark Cave, the possibility of a hidden passage. For the FARFETCH'D puzzle, the possibility that it is currently unsolvable without a specific item.
-- Exploration Prioritizer Agent: Could analyze the output of `list_reachable_unseen_tiles` and prioritize tiles based on proximity to objectives, map boundaries, or other strategic factors.
 
 ### Ilex Forest FARFETCH'D Puzzle (Continued)
 - **Hypothesis 3:** The lead Pokémon affects the interaction.
@@ -305,28 +309,20 @@
 - **WATER (Union Cave B1F):** Impassable. (Verified)
 - **LADDER (Union Cave B1F):** Traversable warp. (Verified)
 
-## Future Agent & Tool Ideas (Continued)
-- Exploration Strategist Agent: Could take the output of `list_reachable_unseen_tiles` and suggest the most strategically valuable tile to explore next (e.g., closest, or one leading to a cluster).
 - **CRITICAL HALLUCINATION (Turn 12268):** Believed I was at position (7, 19) when I was actually at (6, 19) after moving. This is a state-tracking failure.
 
 ### Reflection-Based Updates (Turn 12319)
 - **Process Violation Logged:** Deferred placing a map marker in Azalea Town by one turn (Turn 12317), a violation of the 'IMMEDIATE ACTION' principle.
-- **New Tool/Agent Ideas:**
-  - Navigation Manager Agent/Tool: Could automate multi-step navigation, including pathfinding, movement, handling interruptions, and re-pathing.
-  - Pathing Failure Analyst Agent: Could analyze movement blockages and suggest specific solutions (e.g., stun NPC, find alternate route).
 - **Alternative Hypotheses Logged:**
   - **HM Cut Source:** It might be obtained from an NPC or location other than the FARFETCH'D puzzle.
   - **'Odd Tree' Solution:** The tree might be passable via a specific Pokémon move (like Headbutt), at a certain time of day, or after a different story flag is met, not just with a key item.
   - **Path to Goldenrod:** An alternative route might exist through Ilex Forest or elsewhere.
 - **Failed Trigger (Turns 12400, 12629):** Walking to the dead end at (29, 33) and then returning to the area has repeatedly failed to make the FARFETCH'D appear. This trigger is inconsistent and unreliable.
 - **CRITICAL HALLUCINATION (Turns 12372-12374):** Believed I had a tool named `list_reachable_unseen_tiles` and that `path_to_closest_unseen_tile` did not exist. This was a state-tracking failure that led to multiple failed tool management calls.
-- Auto-battler Agent/Tool: Could automate the button press sequence for simple wild battles by combining `simple_battle_strategist` and `execute_battle_action`.
 
 ### Reflection-Based Updates (Turn 12527)
 - **New Tile Mechanic Documented:**
   - **VOID**: Impassable. (Assumed, needs verification by attempting to walk into it.)
-- **New Tool/Agent Ideas:**
-  - **Auto-battler Manager Agent:** An agent to manage the entire wild battle flow. It would call `simple_battle_strategist` for a decision, then call `execute_battle_action` to get the button sequence, and then manage the multi-turn execution of that sequence to prevent manual errors.
 
 ### Process Violations (System Critiques)
 - **CRITICAL PROCESS FAILURE (Turn 12570):** The system correctly identified two major process violations. 1) I failed to immediately address the faulty `farfetchd_puzzle_solver` agent after discovering it provided incorrect advice on Turn 12443. 2) I completely ignored my own map markers at (15, 24) and (15, 26) that warned of a movement loop, wasting over 10 turns stuck in that exact loop while the bird wasn't even at its starting position. This is a severe failure of discipline. My new plan is to stop interacting with the bird's empty starting position and instead path to a known trigger point at (29, 33) to make it reappear.
@@ -335,9 +331,6 @@
 - **Observation (Turn 12755):** My `execute_battle_action` tool generated a sequence to select 'QUICK ATTACK' (Down x2, A). However, the game state showed that 'EMBER' was selected and used instead.
 - **Observation (Turns 13429-13432):** During the battle with a wild WEEDLE, my automated sequence to select EMBER repeatedly failed. The 'Down' button presses from the `sequence_manager` did not register in the game for multiple turns, leaving the cursor stuck on 'QUICK ATTACK'. I had to intervene manually to finish the battle.
 - **Conclusion:** There is a fundamental, recurring issue with battle automation. The game may not be processing sequential directional inputs correctly, or my tools are not sending them correctly. The tool's logic for navigating the move list is likely flawed. This automation is currently unreliable and needs investigation. **Action Plan:** After this battle, I will add verbose debug prints to the `execute_battle_action` tool to trace the calculated move index and the generated button sequence to identify the root cause of the failure.
-
-## Future Agent & Tool Ideas (Reflection Turn 12943)
-- **Action Sequencer Tool:** A tool to automate the execution of multi-turn button sequences output by other tools (like `execute_battle_action`). This would take a list of lists (e.g., [['A'], ['Down'], ['Down'], ['A']]) and execute one inner list per turn, freeing me from manual management.
 
 ## Alternative Hypotheses (Reflection Turn 12943)
 ### Ilex Forest FARFETCH'D Puzzle
@@ -375,8 +368,6 @@
 ### Appendix: Failure Log (Continued)
 - **CRITICAL PROCESS FAILURE (Turn 13142):** Deferred a mandatory notepad update to fix an incomplete tool list by one turn in order to continue a battle. This is a violation of the 'IMMEDIATE ACTION' principle for data management.
 
-## Future Agent & Tool Ideas (Continued)
-- **Auto-Battler Tool:** A tool to orchestrate the entire wild battle flow. It would call `simple_battle_strategist`, then `execute_battle_action`, then manage the multi-turn execution of the button sequence, fully automating trivial encounters.
 ## Route 32 Tile Mechanics
 - **FLOOR:** Traversable. (Verified)
 - **WALL:** Impassable. (Verified)
@@ -428,10 +419,6 @@
   - **Result:** 'Kwaa!' dialogue, bird disappeared.
   - **Conclusion:** Hypothesis disproven. Stepping on this specific twig does not alter the outcome of this interaction.
 
-## Future Agent & Tool Ideas (Reflection Turn 13775)
-- **Battle Recovery Agent:** Could analyze a failed battle state (e.g., wrong menu) and generate the button presses to recover and return to the intended action.
-- **Reflection Assistant Agent:** Could analyze the last 50 turns of logs to generate a summary of process violations, suggest new tools, and identify untested assumptions, automating the reflection process.
-
 ## Untested Mechanics & Hypotheses (Update Turn 13775)
 - Rigorously test all one-way tiles (e.g., LEDGE_HOP_DOWN/LEFT/RIGHT, FLOOR_UP_WALL on Union Cave 1F) by attempting to move in all four directions from them to definitively confirm their movement restrictions.
 
@@ -452,8 +439,6 @@
 ### Dark Cave (Violet Entrance)
 - **Discovery:** This entrance leads to a small, isolated section. The path north is blocked by one-way ledges, making further exploration impossible from this side without a specific ability (likely Flash).
 - **LEDGE_HOP_RIGHT**: One-way traversal. (Verified)
-## Future Agent & Tool Ideas (Continued)
-- Debugging Assistant Agent: Could take a script, a description of an error, and the tool's output, then suggest specific code changes or where to add debug prints.
 
 ### Ilex Forest FARFETCH'D Puzzle (Continued)
 - **New Observation (Turn 14344):** Stepping on the ledge at (27, 22) successfully triggered the FARFETCH'D to appear at (29, 22), facing down.
