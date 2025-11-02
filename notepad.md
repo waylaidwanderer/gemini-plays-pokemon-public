@@ -538,3 +538,6 @@
 ## Tool Development
 - The `action_sequencer_agent` has been identified as fundamentally unreliable for battle menu navigation and is being deleted.
 - **WALL**: Impassable. (Verified)
+
+# Tool Development Lessons
+- **CRITICAL BUG (Indexing):** My custom tools that parse `map_xml_string` were failing because of an incorrect assumption about coordinate systems. The map XML uses a 1-based indexing system (e.g., `<Row id="1">`, `<Tile id="1">`), while Python lists use 0-based indexing. All grid access in my Python scripts must convert the 1-based coordinates from the XML to 0-based indices by subtracting 1 (e.g., `grid[y-1][x-1]`). Failing to do this caused tools to ignore obstacles on the map's boundaries (x=1 or y=1), leading to critical pathfinding and exploration failures.
