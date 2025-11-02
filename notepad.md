@@ -1,5 +1,4 @@
 # Immediate Tasks
-- **Fix `select_battle_option` tool:** The tool is failing to detect the main battle menu. Investigate and fix its logic immediately after this battle.
 
 # Meta
 
@@ -13,7 +12,6 @@
 - **IMMEDIATE CORRECTION:** If my understanding of the game state (e.g., the existence of a tool) is proven wrong, I must immediately correct my documentation (notepad) before any other action.
 - **TRUST OBSERVATION:** My biggest obstacle is my own memory. I must only trust in-game observation.
 - **Trainer Identification:** I must verify the name and location of a trainer before marking them as defeated to prevent misidentification errors like the Hiker Daniel/Russell mix-up.
-- **PATHFINDER PRE-CHECKS:** To prevent pathing into known off-screen obstacles (like the Fisher in Union Cave), I MUST consult my notepad and map markers for the target map *before* calling `generate_path_plan`. The coordinates of any known impassable NPCs or other temporary blockades must be manually added to the `object_locations_json` argument. This addresses a critical design flaw where the tool cannot see off-screen objects.
 - **PATHFINDER PRE-CHECKS:** To prevent pathing into known off-screen obstacles (like the Fisher in Union Cave), I MUST consult my notepad and map markers for the target map *before* calling `generate_path_plan`. The coordinates of any known impassable NPCs or other temporary blockades must be manually added to the `object_locations_json` argument. This addresses a critical design flaw where the tool cannot see off-screen objects.
 
 # Strategic Pivots
@@ -41,6 +39,7 @@
 - **FLOOR_UP_WALL (Union Cave 1F):** One-way traversal. Functions as a ledge. You can move DOWN onto this tile, but you cannot move UP from it. (Verified by being blocked from moving 'Up' from (5, 18) to (5, 17)). The previous note about this tile was incorrect.
 - **FLOOR_UP_WALL (Union Cave B1F):** This tile functions as a one-way barrier from below. You can move UP from a FLOOR_UP_WALL tile to a FLOOR tile, but you cannot move DOWN from a FLOOR tile onto a FLOOR_UP_WALL tile. (Verified by being blocked from moving 'Down' from (12, 23) to (12, 24)).
 - **HEADBUTT_TREE**: Impassable. (Verified by observation)
+- **IlexForest (TALL_GRASS):** Traversable, contains wild Pokémon. (Verified)
 - **LADDER**: Traversable warp. Must be activated by moving *onto* the tile from an adjacent tile. Standing on the ladder and pressing A or a direction does nothing. (Verified)
 - **LEDGE_HOP_DOWN/LEFT/RIGHT**: One-way traversal.
 - **LONG_GRASS**: Traversable, contains wild Pokémon. (Verified by encounters on Route 30)
@@ -209,6 +208,9 @@
 
 ## `generate_path_plan`
 - **CRITICAL PROCESS:** To prevent pathing into known off-screen obstacles (like the Fisher in Union Cave), I MUST consult my notepad and map markers for the target map *before* calling this tool. The coordinates of any known impassable NPCs or other temporary blockades must be manually added to the `object_locations_json` argument. This addresses a critical design flaw where the tool cannot see off-screen objects.
+
+## `select_battle_option`
+- The built-in `select_battle_option` tool is unreliable and has been replaced. DO NOT USE. Use `custom_select_battle_option` instead.
 
 # Future Development
 ## Tool & Agent Ideas
