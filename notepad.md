@@ -60,6 +60,15 @@
 
 #### Route 30
 - MR. POKEMON's house is located here. (Confirmed)
+- **FLOOR**: Traversable. (Verified)
+- **WALL**: Impassable. (Verified)
+- **TALL_GRASS**: Traversable, contains wild Pokémon. (Verified)
+- **LONG_GRASS**: Traversable, contains wild Pokémon. (Verified)
+- **CUT_TREE**: Impassable, requires specific ability. (Verified)
+- **HEADBUTT_TREE**: Impassable. (Verified)
+- **WATER**: Impassable. (Verified)
+- **DOOR**: Traversable warp. (Verified)
+- **LEDGE_HOP_DOWN**: One-way traversal. (Verified by pathing failure)
 
 #### Route 32
 - Route 32 has a complex layout with one-way ledges. The central path (accessed by ledge from the west) leads to the eastern path, which is a dead end, making progress south from the northern Union Cave exit impossible.
@@ -227,6 +236,12 @@
 - **CRITICAL PROCESS FAILURE (Recent Turns):** Repeatedly deferred critical actions like notepad updates and agent fixes, violating the 'IMMEDIATE ACTION' and 'TOOL MAINTENANCE' core principles. This resulted in operating with flawed data and plans.
 - **CRITICAL HALLUCINATION (Turns 8682-8688):** I was stuck in a multi-turn loop attempting to define the `farfetchd_puzzle_solver` agent due to a repeated JSON schema error. This was a significant failure in debugging and state tracking.
 - **RECURRING DEBUGGING FAILURE (Turns 10750-10774):** I have been stuck in a loop toggling the coordinate system logic in my `find_path_to_target_bfs` tool. The evidence from the player's position in the XML (`<Row id="12">`, `<Tile id="2">` for position (2, 12)) definitively proves that the XML `id` attributes are 1-indexed and correspond directly to game coordinates. My repeated re-introduction of `+ 1` to the parsing logic was a critical, recurring hallucination.
+- **CRITICAL HALLUCINATION (Turn 13022):** Believed my notepad's 'Available Agents' list was incorrect and attempted to fix it. My own `notepad_refactor_assistant` agent correctly reported that the list was already accurate. This is a significant state-tracking failure where I failed to trust my own documentation.
+- **CRITICAL PROCESS FAILURE (Turn 13142):** Deferred a mandatory notepad update to fix an incomplete tool list by one turn in order to continue a battle. This is a violation of the 'IMMEDIATE ACTION' principle for data management.
+- **CRITICAL REASONING FAILURE (Turns 13600-13606):** I pursued an invalid test plan for the FARFETCH'D puzzle based on the hallucination that the bird was at its starting position of (15, 25). I misinterpreted my object-linked map marker, which was only showing the last known location because the object was off-screen. This is a major failure to correctly interpret my own tools and led to multiple wasted turns on a flawed premise.
+- **CRITICAL REASONING FAILURE (Turn 14554):** My `generate_path_plan` tool correctly reported that no path existed to the Ilex Forest Shrine from my position at (8, 26). Instead of trusting the tool's output and analyzing the map, I incorrectly assumed the tool was broken. A manual review confirmed my path was blocked by impassable tiles. This is a major failure to trust my own tools and a repeat of past mistakes.
+- **CRITICAL HALLUCINATION (Turn 15350):** Believed I was at (14, 0) on Route 32 and attempted to move 'Up' to enter Violet City. In reality, I was at (6, 80) and my 'Up' press moved me to the cave entrance at (6, 79), warping me back into Union Cave. This is a severe failure of state tracking and location awareness.
+- **PROCESS VIOLATION (Turn 15018):** Failed to consult map marker for Fisher at (15, 27) in Union Cave before pathing, causing a movement blockage. This highlights a need for greater diligence in pre-planning.
 
 ### Reflection-Based Updates (Turn 11074)
 - **Process Violation Logged:** Added an entry to my failure log for deferring a notepad update on Turn 11043, a violation of the 'IMMEDIATE ACTION' principle.
@@ -311,9 +326,6 @@
 ### Turn Execution Rules
 - Tool calls (`tools_to_call`) and path execution (`buttons_to_press: ["path"]`) are mutually exclusive. If both are present in a single turn, the tool call is prioritized and the path is not executed.
 
-### Appendix: Failure Log (Continued)
-- **CRITICAL HALLUCINATION (Turn 13022):** Believed my notepad's 'Available Agents' list was incorrect and attempted to fix it. My own `notepad_refactor_assistant` agent correctly reported that the list was already accurate. This is a significant state-tracking failure where I failed to trust my own documentation.
-
 ### Ilex Forest FARFETCH'D Puzzle (Continued)
 - **New Proactive Hypothesis (Turn 13052):** My reactive 'chase the bird' strategy has failed. My new hypothesis is that stepping on a twig pile is a necessary prerequisite to successfully interacting with the Farfetch'd from behind.
 - **Test Plan:**
@@ -331,9 +343,6 @@
     3. Interact with the Farfetch'd from (22, 30).
   - **Result:** The interaction produced the 'Kwaa!' dialogue, a known reset condition. The bird moved to (28, 31).
   - **Conclusion:** Hypothesis is disproven. Stepping on the twig pile at (14, 27) does not change the outcome of this interaction.
-
-### Appendix: Failure Log (Continued)
-- **CRITICAL PROCESS FAILURE (Turn 13142):** Deferred a mandatory notepad update to fix an incomplete tool list by one turn in order to continue a battle. This is a violation of the 'IMMEDIATE ACTION' principle for data management.
 
 ## Route 32 Tile Mechanics
 - **FLOOR:** Traversable. (Verified)
@@ -371,9 +380,6 @@
     2. Face Down.
     3. Press 'A' to interact.
     4. Observe the bird's movement and document the outcome.
-
-### Appendix: Failure Log (Continued)
-- **CRITICAL REASONING FAILURE (Turns 13600-13606):** I pursued an invalid test plan for the FARFETCH'D puzzle based on the hallucination that the bird was at its starting position of (15, 25). I misinterpreted my object-linked map marker, which was only showing the last known location because the object was off-screen. This is a major failure to correctly interpret my own tools and led to multiple wasted turns on a flawed premise.
 
 # Reflection Log (Turn 13618)
 ## Alternative Hypotheses
@@ -460,10 +466,6 @@
 - **LEDGE_HOP_DOWN/LEFT/RIGHT**: One-way traversal. (Verified)
 - Test `FLOOR_UP_WALL` on Union Cave B1F by attempting to move in all four directions to confirm its one-way warp mechanic.
 
-### Appendix: Failure Log (Continued)
-- **CRITICAL REASONING FAILURE (Turn 14554):** My `generate_path_plan` tool correctly reported that no path existed to the Ilex Forest Shrine from my position at (8, 26). Instead of trusting the tool's output and analyzing the map, I incorrectly assumed the tool was broken. A manual review confirmed my path was blocked by impassable tiles. This is a major failure to trust my own tools and a repeat of past mistakes.
-- **CRITICAL HALLUCINATION (Turn 15350):** Believed I was at (14, 0) on Route 32 and attempted to move 'Up' to enter Violet City. In reality, I was at (6, 80) and my 'Up' press moved me to the cave entrance at (6, 79), warping me back into Union Cave. This is a severe failure of state tracking and location awareness.
-
 # Reflection Log (Turn 14710)
 
 ## Tool & Agent Ideas
@@ -529,42 +531,6 @@
 ### Ilex Forest Layout Discovery
 - My `generate_path_plan` tool correctly reported that no path exists from the eastern entrance (from Azalea Town) to the western section where the FARFETCH'D puzzle continues. 
 - **Conclusion:** Ilex Forest is divided into two disconnected sections. Further progress on the puzzle is impossible from this side. I must find an alternative route to the other side of the forest, or another path forward entirely.
-
-### Appendix: Failure Log (Continued)
-- **PROCESS VIOLATION (Turn 15018):** Failed to consult map marker for Fisher at (15, 27) in Union Cave before pathing, causing a movement blockage. This highlights a need for greater diligence in pre-planning.
-
-## Route 30 Tile Mechanics
-- **FLOOR**: Traversable. (Verified)
-- **WALL**: Impassable. (Verified)
-- **TALL_GRASS**: Traversable, contains wild Pokémon. (Verified)
-- **LONG_GRASS**: Traversable, contains wild Pokémon. (Verified)
-- **CUT_TREE**: Impassable, requires specific ability. (Verified)
-- **HEADBUTT_TREE**: Impassable. (Verified)
-- **WATER**: Impassable. (Verified)
-- **DOOR**: Traversable warp. (Verified)
-- **LEDGE_HOP_DOWN**: One-way traversal. (Verified by pathing failure)
-
-## Route 30 Tile Mechanics
-- **FLOOR**: Traversable. (Verified)
-- **WALL**: Impassable. (Verified)
-- **TALL_GRASS**: Traversable, contains wild Pokémon. (Verified)
-- **LONG_GRASS**: Traversable, contains wild Pokémon. (Verified)
-- **CUT_TREE**: Impassable, requires specific ability. (Verified)
-- **HEADBUTT_TREE**: Impassable. (Verified)
-- **WATER**: Impassable. (Verified)
-- **DOOR**: Traversable warp. (Verified)
-- **LEDGE_HOP_DOWN**: One-way traversal. (Verified by pathing failure)
-
-## Route 30 Tile Mechanics
-- **FLOOR**: Traversable. (Verified)
-- **WALL**: Impassable. (Verified)
-- **TALL_GRASS**: Traversable, contains wild Pokémon. (Verified)
-- **LONG_GRASS**: Traversable, contains wild Pokémon. (Verified)
-- **CUT_TREE**: Impassable, requires specific ability. (Verified)
-- **HEADBUTT_TREE**: Impassable. (Verified)
-- **WATER**: Impassable. (Verified)
-- **DOOR**: Traversable warp. (Verified)
-- **LEDGE_HOP_DOWN**: One-way traversal. (Verified by pathing failure)
 
 ## Route 30 Tile Mechanics
 - **FLOOR**: Traversable. (Verified)
