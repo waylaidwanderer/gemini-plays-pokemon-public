@@ -67,7 +67,7 @@
 
 #### Violet City
 - Building at (21, 29) is a house with a trade NPC, not the Gym.
-- The city is not divided by a river; the two sides are connected by walkable paths.
+- The city appears to be divided by a river. Pathfinding has failed to find a route between the east and west sides, suggesting they are disconnected.
 - YOUNGSTER at (5, 18) mentioned a 'wiggly tree' that 'squirms and dances'. This is likely a hint about how to interact with HEADBUTT_TREEs.
 - Violet City Gatehouse Warp: Currently impassable and a dead end for now.
 
