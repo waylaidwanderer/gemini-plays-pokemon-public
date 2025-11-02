@@ -554,3 +554,4 @@
 - **DOOR**: Traversable warp. (Verified)
 - **LEDGE_HOP_DOWN/LEFT/RIGHT**: One-way traversal. (Verified)
 - **CUT_TREE**: Impassable, requires specific ability. (Verified)
+- **Utilize Custom Agents:** I wasted multiple turns (15737-15739) manually debugging my pathfinder when I had already created a `debugging_assistant` agent for this exact purpose. I must remember to use the tools I build.
