@@ -498,3 +498,4 @@
 - **CUT_TREE**: Impassable, requires specific ability. (Verified)
 - **WARP_CARPET_RIGHT**: Traversable warp, requires pressing 'Right'. (Verified)
 - **LEDGE_HOP_DOWN/LEFT/RIGHT**: One-way traversal. (Verified)
+- Test `FLOOR_UP_WALL` on Union Cave B1F by attempting to move in all four directions to confirm its one-way warp mechanic.
