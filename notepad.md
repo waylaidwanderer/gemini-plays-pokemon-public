@@ -484,3 +484,4 @@
 
 ## `auto_battle_move_selector`
 - **CRITICAL FLAW:** This tool is unreliable. Its logic assumes the battle menu cursor always starts on the 'FIGHT' option, which is not guaranteed. It must be redesigned to be independent of the cursor's starting position.
+- **FLOOR_UP_WALL (Route 32):** This tile functions as a one-way barrier from below. You cannot move DOWN from a different tile type onto a FLOOR_UP_WALL tile. (Verified on map 10_1)
