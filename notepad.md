@@ -273,10 +273,6 @@
 - **Description:** Reduces the foe's accuracy.
 - **Compatible Party Pokémon:** Ignis (Quilava), Aether (Pidgey), O (Togepi).
 - **Incompatible Party Pokémon:** Glyph (Unown).
-- **CAVE (Union Cave 1F):** Traversable warp. (Verified)
-- **FLOOR (Union Cave 1F):** Traversable. (Verified)
-- **WALL (Union Cave 1F):** Impassable. (Verified)
-- **WATER (Union Cave 1F):** Impassable. (Verified)
 ### HM05 FLASH
 - **Description:** Blinds the foe to reduce accuracy. Lights up dark caves.
 - **Compatible Party Pokémon:** O (Togepi).
