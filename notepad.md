@@ -558,3 +558,14 @@
 - **WATER**: Impassable. (Verified)
 - **DOOR**: Traversable warp. (Verified)
 - **LEDGE_HOP_DOWN**: One-way traversal. (Verified by pathing failure)
+
+## Route 30 Tile Mechanics
+- **FLOOR**: Traversable. (Verified)
+- **WALL**: Impassable. (Verified)
+- **TALL_GRASS**: Traversable, contains wild Pokémon. (Verified)
+- **LONG_GRASS**: Traversable, contains wild Pokémon. (Verified)
+- **CUT_TREE**: Impassable, requires specific ability. (Verified)
+- **HEADBUTT_TREE**: Impassable. (Verified)
+- **WATER**: Impassable. (Verified)
+- **DOOR**: Traversable warp. (Verified)
+- **LEDGE_HOP_DOWN**: One-way traversal. (Verified by pathing failure)
