@@ -485,3 +485,16 @@
   - **Result:** 'Kwaa!' dialogue, bird disappeared.
   - **Conclusion:** Hypothesis disproven. Interaction from above at this stage is a failure condition.
 - **Strategic Pivot:** I have now tested and disproven all simple interaction hypotheses (from the side, below, and above) in the eastern section of the puzzle. I am stuck in a loop. I will now pivot my strategy to explore the western side of the forest, including the unseen tiles near the apprentice, to look for new clues or paths.
+
+# Data Hygiene Updates (Turn 14405)
+
+## `execute_battle_action` Tool Update
+- The tool has been refactored to use a `step` parameter for reliable, sequential execution of battle commands. This resolves the recurring battle automation failures. Previous ideas for an 'Action Sequencer' or 'Automation Manager' are now obsolete.
+
+## Ilex Forest Tile Mechanics
+- **FLOOR**: Traversable. (Verified)
+- **WALL**: Impassable. (Verified)
+- **HEADBUTT_TREE**: Impassable. (Verified)
+- **CUT_TREE**: Impassable, requires specific ability. (Verified)
+- **WARP_CARPET_RIGHT**: Traversable warp, requires pressing 'Right'. (Verified)
+- **LEDGE_HOP_DOWN/LEFT/RIGHT**: One-way traversal. (Verified)
