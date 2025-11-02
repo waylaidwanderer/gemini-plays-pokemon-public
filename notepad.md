@@ -22,10 +22,11 @@
 - **CUT_TREE**: Impassable, requires a specific ability/item to remove. (Verified)
 - **DOOR**: Traversable, acts as a warp tile. (Verified)
 - **FLOOR**: Traversable. (Verified on multiple routes, including Route 36)
-- **FLOOR_UP_WALL (Union Cave 1F):** One-way traversal. Functions as a ledge. You can move DOWN onto this tile, but you cannot move UP from it. (Verified by being blocked from moving 'Up' from (5, 18) to (5, 17)). The previous note about this tile was incorrect.
-- **FLOOR_UP_WALL (Union Cave B1F):** A complex one-way tile. You can move UP from a FLOOR_UP_WALL tile to a FLOOR tile. You cannot move DOWN from a FLOOR tile onto a FLOOR_UP_WALL tile (Verified at (12, 24)). However, you CAN move DOWN from a FLOOR_UP_WALL tile onto a LADDER tile (Verified at (7, 19)).
+- **FLOOR_UP_WALL**: A complex one-way tile with location-dependent behavior.
+  - **(Union Cave 1F):** One-way traversal. Functions as a ledge. You can move DOWN onto this tile, but you cannot move UP from it. (Verified by being blocked from moving 'Up' from (5, 18) to (5, 17)). The previous note about this tile was incorrect.
+  - **(Union Cave B1F):** A complex one-way tile. You can move UP from a FLOOR_UP_WALL tile to a FLOOR tile. You cannot move DOWN from a FLOOR tile onto a FLOOR_UP_WALL tile (Verified at (12, 24)). However, you CAN move DOWN from a FLOOR_UP_WALL tile onto a LADDER tile (Verified at (7, 19)).
+  - **(Route 32):** This tile functions as a one-way barrier from below. You cannot move DOWN from a different tile type onto a FLOOR_UP_WALL tile. (Verified on map 10_1)
 - **HEADBUTT_TREE**: Impassable. (Verified by observation)
-- **IlexForest (TALL_GRASS):** Traversable, contains wild Pokémon. (Verified)
 - **LADDER**: Traversable warp. Must be activated by moving *onto* the tile from an adjacent tile. Standing on the ladder and pressing A or a direction does nothing. (Verified)
 - **LEDGE_HOP_DOWN/LEFT/RIGHT**: One-way traversal.
 - **LONG_GRASS**: Traversable, contains wild Pokémon. (Verified by encounters on Route 30)
@@ -39,6 +40,7 @@
 - **TV**: Impassable. (Verified)
 - **UNKNOWN**: Traversability unknown. Was able to stand on this tile at (28, 32) in Ilex Forest.
 - **VOID**: Impassable. (Verified)
+- **WALL**: Impassable. (Verified)
 - **WARP_CARPET_DOWN**: Traversable warp. Requires pressing 'Down' on the tile to activate. (Verified)
 - **WARP_CARPET_LEFT**: Traversable warp. Requires pressing 'Left' while standing on the tile to activate. (Verified at 2,10 in Azalea Town, 0,4 in IlexForestAzaleaGate, and 0,4 on Route32RuinsOfAlphGate)
 - **WARP_CARPET_RIGHT**: Traversable warp. Requires pressing 'Right' on the tile to activate. (Verified at 3,42 in Ilex Forest)
@@ -47,12 +49,6 @@
 
 ## World & Story
 ### Location Notes
-#### New Bark Town
-- **FLOOR**: Traversable. (Verified)
-- **WALL**: Impassable. (Verified)
-- **DOOR**: Traversable warp. (Verified)
-- **HEADBUTT_TREE**: Impassable. (Verified)
-- **WATER**: Impassable. (Verified)
 #### Route 29
 - The southern path is a dead end.
 - The western path is blocked by CUT_TREEs and HEADBUTT_TREEs.
@@ -79,6 +75,9 @@
 #### Azalea Town
 - Hiker Anthony called to say there are lots of DUNSPARCE in DARK CAVE.
 
+#### Dark Cave (Violet Entrance)
+- **Discovery:** This entrance leads to a small, isolated section. The path north is blocked by one-way ledges, making further exploration impossible from this side without a specific ability (likely Flash).
+
 ## Pokémon & Battle Info
 ### Battle Mechanics
 *Ignis learned EMBER at Lv12.*
@@ -98,6 +97,8 @@
 - Rigorously test all one-way tiles (e.g., LEDGE_HOP_DOWN/LEFT/RIGHT, FLOOR_UP_WALL on Union Cave 1F) by attempting to move in all four directions from them to definitively confirm their movement restrictions.
 - Test TALL_GRASS on Route 36.
 - Test `WARP_CARPET_LEFT` again to determine consistent activation method.
+- Test `FLOOR_UP_WALL` on Union Cave B1F by attempting to move in all four directions to confirm its one-way warp mechanic.
+- Test `LEDGE_HOP_LEFT` and `LEDGE_HOP_DOWN` tiles on Route 33 by attempting to move against their intended direction to confirm one-way traversal.
 
 # Investigations
 
@@ -135,16 +136,16 @@
 - The solution involves using the Pokégear radio near the tree.
 - The tree must be interacted with from the tile directly below it (35, 10). (Status: Currently untestable. The path to (35, 10) is blocked.)
 
-### Violet Mart Path Puzzle
-- **Objective:** Find a way to get to the clerk in the Violet City Mart.
-- **Observations:**
-  - The path to the clerk is blocked. Talking to the Cooltrainer M at (5, 2) does not open it.
-
 ### Dark Cave Exploration
 - **Objective:** Fully explore Dark Cave, as it represents the next most promising avenue for progress.
 - **Background:** The 'Odd Tree' on Route 36 is an impassable story-block, and further exploration of Violet City yielded no new paths. My current strategic pivot is to fully explore Dark Cave, as mentioned by Hiker Anthony.
 
-## Paused Investigations
+## Archived Investigations
+
+### Violet Mart Path Puzzle
+- **Objective:** Find a way to get to the clerk in the Violet City Mart.
+- **Observations:**
+  - The path to the clerk is blocked. Talking to the Cooltrainer M at (5, 2) does not open it.
 
 ### Ilex Forest FARFETCH'D Puzzle
 - **Objective:** Herd the FARFETCH'D back to the apprentice at (7, 28).
@@ -276,11 +277,6 @@
 - **Description:** Blinds the foe to reduce accuracy. Lights up dark caves.
 - **Compatible Party Pokémon:** O (Togepi).
 - **Incompatible Party Pokémon:** Ignis (Quilava), Glyph (Unown), Aether (Pidgey).
-## Union Cave B1F Tile Mechanics
-- **FLOOR (Union Cave B1F):** Traversable. (Verified)
-- **WALL (Union Cave B1F):** Impassable. (Verified)
-- **WATER (Union Cave B1F):** Impassable. (Verified)
-- **LADDER (Union Cave B1F):** Traversable warp. (Verified)
 
 - **CRITICAL HALLUCINATION (Turn 12268):** Believed I was at position (7, 19) when I was actually at (6, 19) after moving. This is a state-tracking failure.
 
@@ -309,34 +305,6 @@
 ### Turn Execution Rules
 - Tool calls (`tools_to_call`) and path execution (`buttons_to_press: ["path"]`) are mutually exclusive. If both are present in a single turn, the tool call is prioritized and the path is not executed.
 
-## Route 32 Tile Mechanics
-- **FLOOR:** Traversable. (Verified)
-- **WALL:** Impassable. (Verified)
-- **TALL_GRASS:** Traversable, contains wild Pokémon. (Verified)
-- **LONG_GRASS:** Traversable, contains wild Pokémon. (Verified)
-- **CUT_TREE:** Impassable, requires specific ability. (Verified)
-- **HEADBUTT_TREE:** Impassable. (Verified)
-- **WATER:** Impassable. (Verified)
-- **BUOY:** Traversability unknown, assumed impassable.
-- **WARP_CARPET_LEFT:** Traversable warp. (Verified)
-- **DOOR:** Traversable warp. (Verified)
-- **LADDER:** Traversable warp. (Verified)
-- **CAVE:** Traversable warp. (Verified)
-- **LEDGE_HOP_DOWN:** One-way traversal. (Verified)
-- **LEDGE_HOP_RIGHT:** One-way traversal. (Verified)
-
-## Route 29 Tile Mechanics
-- **FLOOR**: Traversable. (Verified)
-- **WALL**: Impassable. (Verified)
-- **TALL_GRASS**: Traversable, contains wild Pokémon. (Verified)
-- **LONG_GRASS**: Traversable, contains wild Pokémon. (Verified)
-- **CUT_TREE**: Impassable, requires specific ability. (Verified)
-- **HEADBUTT_TREE**: Impassable. (Verified)
-- **DOOR**: Traversable warp. (Verified)
-- **LEDGE_HOP_DOWN**: One-way traversal. (Verified)
-- **LEDGE_HOP_LEFT**: One-way traversal. (Verified)
-- **LEDGE_HOP_RIGHT**: One-way traversal. (Verified)
-
 # Reflection Log (Turn 13618)
 
 ## Alternative Hypotheses
@@ -357,34 +325,17 @@
 
 ## Tool Development
 - The `action_sequencer_agent` has been identified as fundamentally unreliable for battle menu navigation and is being deleted.
-- **WALL**: Impassable. (Verified)
 - **AGENT KNOWLEDGE UPDATES:** Whenever a new Pokémon's type is discovered in battle, I must immediately update the `simple_battle_strategist` agent's system prompt to include this new information in its 'KNOWN POKEMON TYPES' list. This prevents knowledge decay and ensures the agent's accuracy improves over time.
-### Dark Cave (Violet Entrance)
-- **Discovery:** This entrance leads to a small, isolated section. The path north is blocked by one-way ledges, making further exploration impossible from this side without a specific ability (likely Flash).
-- **LEDGE_HOP_RIGHT**: One-way traversal. (Verified)
 
 # Data Hygiene Updates (Turn 14405)
-
-## Ilex Forest Tile Mechanics
-- **FLOOR**: Traversable. (Verified)
-- **WALL**: Impassable. (Verified)
-- **HEADBUTT_TREE**: Impassable. (Verified)
-- **CUT_TREE**: Impassable, requires specific ability. (Verified)
-- **WARP_CARPET_RIGHT**: Traversable warp, requires pressing 'Right'. (Verified)
-- **LEDGE_HOP_DOWN/LEFT/RIGHT**: One-way traversal. (Verified)
-- Test `FLOOR_UP_WALL` on Union Cave B1F by attempting to move in all four directions to confirm its one-way warp mechanic.
 
 # Reflection Log (Turn 14710)
 
 ## Tool & Agent Ideas
 - **Debugging Assistant Agent:** Could take a script, an error, and a problem description to suggest specific code changes or where to add debug prints.
 
-## Untested Mechanics & Hypotheses
-- Test `LEDGE_HOP_LEFT` and `LEDGE_HOP_DOWN` tiles on Route 33 by attempting to move against their intended direction to confirm one-way traversal.
-
 ## Alternative Hypotheses
 - **Union Cave Layout:** My hypothesis that the cave is split into two disconnected sections has been disproven. My pathfinder successfully generated a complete route from the southern entrance (Route 33) to the northern entrance (Route 32), confirming the cave is one continuous area.
-- **FLOOR_UP_WALL (Route 32):** This tile functions as a one-way barrier from below. You cannot move DOWN from a different tile type onto a FLOOR_UP_WALL tile. (Verified on map 10_1)
 
 # Reflection Log (Turn 14814)
 
@@ -410,51 +361,9 @@
 
 ## Process Violations
 - I failed to consult my map marker for the Fisher at (15, 27) on Turn 15018, causing a pathing failure. I must be more diligent about checking markers before planning a route.
-### Dark Cave (Violet Entrance) Tile Mechanics
-- CAVE: Traversable warp. (Verified by entering)
-- FLOOR: Traversable. (Verified by walking)
-- WALL: Impassable. (Verified by pathing failure)
-- LEDGE_HOP_DOWN: One-way traversal. (Observed)
-- LEDGE_HOP_LEFT: One-way traversal. (Observed)
 
 # Data Hygiene Updates (Turn 15152)
 
-## Route 32 Tile Mechanics
-- **FLOOR:** Traversable. (Verified)
-- **WALL:** Impassable. (Verified)
-- **TALL_GRASS:** Traversable, contains wild Pokémon. (Verified)
-- **LONG_GRASS:** Traversable, contains wild Pokémon. (Verified)
-- **CUT_TREE:** Impassable, requires specific ability. (Verified)
-- **HEADBUTT_TREE:** Impassable. (Verified)
-- **WATER:** Impassable. (Verified)
-- **BUOY:** Traversability unknown, assumed impassable.
-- **WARP_CARPET_LEFT:** Traversable warp. (Verified)
-- **DOOR:** Traversable warp. (Verified)
-- **LADDER:** Traversable warp. (Verified)
-- **CAVE:** Traversable warp. (Verified)
-- **LEDGE_HOP_DOWN:** One-way traversal. (Verified)
-- **LEDGE_HOP_RIGHT:** One-way traversal. (Verified)
-- **FLOOR_UP_WALL:** This tile functions as a one-way barrier from below. You cannot move DOWN from a different tile type onto a FLOOR_UP_WALL tile. (Verified on map 10_1)
-
-## Route 30 Tile Mechanics
-- **FLOOR**: Traversable. (Verified)
-- **WALL**: Impassable. (Verified)
-- **TALL_GRASS**: Traversable, contains wild Pokémon. (Verified)
-- **LONG_GRASS**: Traversable, contains wild Pokémon. (Verified)
-- **CUT_TREE**: Impassable, requires specific ability. (Verified)
-- **HEADBUTT_TREE**: Impassable. (Verified)
-- **WATER**: Impassable. (Verified)
-- **DOOR**: Traversable warp. (Verified)
-- **LEDGE_HOP_DOWN**: One-way traversal. (Verified by pathing failure)
-
-## Route 29 Tile Mechanics
-- **FLOOR**: Traversable. (Verified)
-- **WALL**: Impassable. (Verified)
-- **TALL_GRASS**: Traversable, contains wild Pokémon. (Verified)
-- **HEADBUTT_TREE**: Impassable. (Verified)
-- **DOOR**: Traversable warp. (Verified)
-- **LEDGE_HOP_DOWN/LEFT/RIGHT**: One-way traversal. (Verified)
-- **CUT_TREE**: Impassable, requires specific ability. (Verified)
 - **Utilize Custom Agents:** I wasted multiple turns (15737-15739) manually debugging my pathfinder when I had already created a `debugging_assistant` agent for this exact purpose. I must remember to use the tools I build.
 ### Key Lessons from Past Failures
 - **CRITICAL DEBUGGING FAILURE (Turns 15732-15759):** Spent numerous turns manually and unsuccessfully debugging a coordinate system mismatch in `generate_path_plan`. The `debugging_assistant` agent correctly identified the issue (inconsistent 0-indexed vs 1-indexed handling) and provided a working fix. This is a major process violation for not using my own agent sooner.
