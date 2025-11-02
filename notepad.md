@@ -530,3 +530,7 @@
 - **LEDGE_HOP_DOWN:** One-way traversal. (Verified)
 - **LEDGE_HOP_RIGHT:** One-way traversal. (Verified)
 - **FLOOR_UP_WALL:** This tile functions as a one-way barrier from below. You cannot move DOWN from a different tile type onto a FLOOR_UP_WALL tile. (Verified on map 10_1)
+
+### Ilex Forest Layout Discovery
+- My `generate_path_plan` tool correctly reported that no path exists from the eastern entrance (from Azalea Town) to the western section where the FARFETCH'D puzzle continues. 
+- **Conclusion:** Ilex Forest is divided into two disconnected sections. Further progress on the puzzle is impossible from this side. I must find an alternative route to the other side of the forest, or another path forward entirely.
