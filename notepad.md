@@ -176,15 +176,14 @@
     - Stepping on the one-way ledge at (27, 22) triggers the FARFETCH'D to appear at (29, 22). (Verified Turn 14344)
     - Defeating a wild Pokémon is a trigger that causes the FARFETCH'D to appear at (20, 24). (Verified Turn 14372)
     - Walking to the dead end at (29, 33) and then returning to the area has repeatedly failed to make the FARFETCH'D appear. This trigger is inconsistent and unreliable.
-  - **Failure Conditions:** Interacting from the side, front, above, or below the bird at various puzzle stages triggers the 'Kwaa!' dialogue and resets its position. This has been verified at multiple locations (e.g., from (29, 23) to (29, 22), from (20, 23) to (20, 24)).
+  - **Failure Conditions:** Interacting from the wrong tile (e.g., side, front, or above) at various puzzle stages triggers the 'Kwaa!' dialogue and resets its position or fails to move it. This has been verified at multiple locations: from the side at (28, 22) to (29, 22), from above at (20, 23) to (20, 24) [Verified Turn 17587], and from (29, 23) to (29, 22).
 - **Hypotheses & Tests (Log of Disproven Ideas):**
   - **Lead Pokémon:** The lead Pokémon has no effect on a simple 'A' press interaction.
   - **Twig Piles:** Stepping on the twig pile at (14, 27) does not alter the outcome of subsequent interactions with the bird.
 - **Current Investigation Plan: ARCHIVED** - This puzzle is currently unsolvable from this section of the forest. Pivoting to other objectives.
 - **Alternative Hypotheses (Untested):**
-  - The puzzle is currently unsolvable and requires a key item (like a Squirtbottle) or a story flag from elsewhere (e.g., from Goldenrod City).
-  - The puzzle is dependent on the time of day (e.g., must be solved at night).
-  - The puzzle requires a specific Pokémon move (like Headbutt) to be used on an object in the environment to alter the bird's pathing.
+  - **Puzzle Mechanics:** The puzzle requires a specific key item (like a Squirtbottle), a Pokémon move (like Headbutt) used on the environment, or is dependent on the time of day.
+  - **Strategic Alternatives:** HM01 Cut may be obtained from a different NPC or location entirely. The western part of Ilex Forest might be accessible from a different, undiscovered entrance.
 - **Note on Failures:** This puzzle has been the source of severe and recurring state-tracking failures, including repeatedly hallucinating my position (e.g., at Turns 9586, 9591, & 9608).
 
 ### Sprout Tower 2F Pillar Puzzle
@@ -273,10 +272,6 @@
 - **CRITICAL REASONING FAILURE (Turns 11717-11720):** After multiple failed attempts to fix my pathfinder's one-way ledge logic, I finally implemented aversion that seemed simpler and more correct. However, it was a fundamentally backward and based on a complete misunderstanding of the mechanic. The game immediately blocked my movement, proving the new code was broken. My logic from turn 11694 was actually correct, and my 'fix' was a regression that wasted several turns. This is a major failure in debugging and logical reasoning.
 
 # Reflection Log (Turn 11852)
-- **FARFETCH'D Puzzle - Alternative Hypotheses:**
-  - The puzzle is time-based (day/night).
-  - The puzzle requires a specific key item I don't have.
-  - A Pokémon move like Headbutt must be used on an environmental object.
 - **CRITICAL HALLUCINATION (Turn 11872):** Believed a warp to Union Cave existed at (11, 9) on the AzaleaTown map (8_7). The system confirmed no warp exists there. The actual warp to Union Cave is on Route 33 (8_6) at (11, 9). This was a major failure in location awareness.
 - **CRITICAL HALLUCINATION (Turn 11928):** Believed a warp to Dark Cave existed at (34, 5) on the VioletCity map (10_5). The system confirmed no warp exists there. This was a major failure in location awareness.
 
@@ -292,7 +287,6 @@
   - **HM Cut Source:** It might be obtained from an NPC or location other than the FARFETCH'D puzzle.
   - **'Odd Tree' Solution:** The tree might be passable via a specific Pokémon move (like Headbutt), at a certain time of day, or after a different story flag is met, not just with a key item.
   - **Path to Goldenrod:** An alternative route might exist through Ilex Forest or elsewhere.
-- **Failed Trigger (Turns 12400, 12629):** Walking to the dead end at (29, 33) and then returning to the area has repeatedly failed to make the FARFETCH'D appear. This trigger is inconsistent and unreliable.
 - **CRITICAL HALLUCINATION (Turns 12372-12374):** Believed I had a tool named `list_reachable_unseen_tiles` and that `path_to_closest_unseen_tile` did not exist. This was a state-tracking failure that led to multiple failed tool management calls.
 
 ### Reflection-Based Updates (Turn 12527)
@@ -444,18 +438,3 @@
 - **CRITICAL REASONING FAILURE (Turns 17345-17353):** Mistrusted my working `generate_path_plan` tool when it reported no path. The `trace_pathfinder` output on Turn 17352 confirmed the path was genuinely blocked by a wall, proving the tool was correct. This is a repeat of a major failure pattern of not trusting my own tools.
 - **CRITICAL REASONING FAILURE (Turns 17355-17357):** Mistrusted my working `generate_path_plan` tool when it reported no path on Union Cave 1F. The `trace_pathfinder` output confirmed the path was genuinely blocked by a wall, proving the tool was correct. This is a repeat of a major failure pattern of not trusting my own tools.
 - WEEDLE: Bug/Poison
-
-- **Hypothesis 3:** Interacting with the FARFETCH'D at its starting position (15, 25) from the tile directly below it (15, 26) will cause it to move east.
-  - **Test:** Stood at (15, 26), faced the bird, and pressed 'A'.
-  - **Result:** Success! The FARFETCH'D moved to (20, 24).
-  - **Conclusion:** Hypothesis 3 is proven. The player's position below the bird is a key trigger.
-- **Failure Condition Confirmed:** Interacting with the FARFETCH'D at (20, 24) from the tile directly above it (20, 23) triggers the 'Kwaa!' dialogue and causes the bird to disappear, resetting the puzzle. (Verified Turn 17587)
-
-### Ilex Forest FARFETCH'D Puzzle - Alternative Hypotheses (from Reflection)
-- **Assumption 1:** The puzzle *must* be solved to get HM Cut.
-  - **Alternative Hypothesis:** HM Cut is obtained elsewhere, and this puzzle is for a different reward.
-  - **Test to Disprove:** If all logical puzzle hypotheses are exhausted, pivot to exploring all other world paths.
-- **Assumption 2:** The puzzle solution only involves player movement and interaction.
-  - **Alternative Hypothesis:** The puzzle requires a specific key item, a Pokémon move used on the environment, or is time-dependent (day/night).
-  - **Test to Disprove:** After exhausting movement hypotheses, systematically test items, environmental moves, and return at different times of day.
-- **Failure Condition Confirmed:** Interacting with the FARFETCH'D at (29, 22) from the side (28, 22) triggers the 'Kwaa!' dialogue but does not move the bird.
