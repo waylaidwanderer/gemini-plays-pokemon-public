@@ -229,8 +229,8 @@
 - `notepad_refactor_assistant` (Agent): Refactors notepad content based on a goal.
 - `debugging_assistant` (Agent): Analyzes and corrects faulty Python scripts.
 - `get_on_screen_object_locations`: Parses map XML for on-screen object coordinates.
-- `find_reachable_unseen_tiles`: Finds all reachable unseen tiles on the current map.
 - `trace_pathfinder`: A debugging version of `generate_path_plan` that prints the BFS state at each step.
+- `path_with_obstacle_avoidance`: A combined pathfinding tool that first automatically detects on-screen obstacles and then generates a path to the target, avoiding them.
 
 # Future Development
 ## Tool & Agent Ideas
