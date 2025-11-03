@@ -1,6 +1,3 @@
-# Immediate Tasks
-- Place missing warp markers: Ilex Forest (8_8) at (3, 42) -> IlexForestAzaleaGate; Ilex Forest Azalea Gate (8_9) at (9, 4) -> AzaleaTown.
-
 # Strategic Pivots
 
 # Game Knowledge
