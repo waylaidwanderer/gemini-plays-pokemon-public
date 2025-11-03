@@ -174,8 +174,6 @@
   - **Failure Conditions:** Interacting from the side, front, above, or below the bird at various puzzle stages triggers the 'Kwaa!' dialogue and resets its position. This has been verified at multiple locations (e.g., from (29, 23) to (29, 22), from (20, 23) to (20, 24)).
 - **Hypotheses & Tests (Log of Disproven Ideas):**
   - **Lead Pokémon:** The lead Pokémon has no effect on a simple 'A' press interaction.
-  - **Twig Piles:** Stepping on the twig pile at (14, 27) does not alter the outcome of subsequent interactions with the bird.
-- **Hypotheses & Tests (Log of Disproven Ideas):**
   - **Twig Piles:** Stepping on the twig pile at (14, 27) does not alter the outcome of subsequent interactions with the bird. (Re-confirmed by ignoring this note and wasting turns.)
 - **Current Investigation Plan: ARCHIVED** - This puzzle is currently unsolvable from this section of the forest. Pivoting to other objectives.
 - **Alternative Hypotheses (Untested):**
@@ -226,14 +224,7 @@
 - `debugging_assistant` (Agent): Analyzes and corrects faulty Python scripts.
 - `get_on_screen_object_locations`: Parses map XML for on-screen object coordinates.
 - `list_reachable_unseen_tiles`: Finds all reachable unseen tiles on the current map.
-- `trace_pathfinder`: A debugging version of `generate_path_plan` that prints the BFS state at each step.: Parses map XML for on-screen object coordinates.
-- `list_reachable_unseen_tiles`: Finds all reachable unseen tiles on the current map.
-- `trace_pathfinder`: A debugging version of `generate_path_plan` that prints the BFS state at each step.: Parses map XML for on-screen object coordinates.
-- `list_reachable_unseen_tiles`: Finds all reachable unseen tiles on the current map.
-- `trace_pathfinder`: A debugging version of `generate_path_plan` that prints the BFS state at each step.: Parses map XML for on-screen object coordinates.
-- `list_reachable_unseen_tiles`: Finds all reachable unseen tiles on the current map.
-- `trace_pathfinder`: A debugging version of `generate_path_plan` that prints the BFS state at each step.: Parses map XML for on-screen object coordinates.
-- `list_reachable_unseen_tiles`: Finds all reachable unseen tiles on the current map.
+- `trace_pathfinder`: A debugging version of `generate_path_plan` that prints the BFS state at each step.
 
 # Future Development
 ## Tool & Agent Ideas
@@ -378,7 +369,7 @@
 - **CRITICAL DEBUGGING FAILURE (Turns 15732-15759):** Spent numerous turns manually and unsuccessfully debugging a coordinate system mismatch in `generate_path_plan`. The `debugging_assistant` agent correctly identified the issue (inconsistent 0-indexed vs 1-indexed handling) and provided a working fix. This is a major process violation for not using my own agent sooner.
 
 #### Route 32 - Western Path Discovery
-- My assumption that I was trapped on the western path was incorrect. A path north exists by moving through the tall grass at x=1 and x=0 to bypass the wall at y=55. This allows a return to the northern part of Route 32.
+- My assumption that I was trapped on the western path was incorrect. A path north exists by moving through the tall grass at x=1 and x=0 to bypass the wall at y=55. This allows a return to the northern part of a Route 32.
 
 # Reflection Log (Turn 16581)
 
