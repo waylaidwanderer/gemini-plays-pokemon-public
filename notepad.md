@@ -226,7 +226,6 @@
 - **Navigation Manager Agent/Tool:** Could automate multi-map navigation, including pathfinding, executing movement, handling battle interruptions, and re-pathfinding.
 - **Exploration Strategist Agent:** Could take the output of `find_reachable_unseen_tiles` and suggest the most strategically valuable tile to explore next (e.g., closest, or one leading to a cluster).
 - **Pathing Failure Analyst Tool (High Priority):** A tool that takes a navigation goal, automatically detects a 'Movement Blocked' error, identifies the cause (wild battle vs. object), and re-calls the appropriate pathfinder with the obstacle's coordinates if necessary.
-- **Pathing Failure Analyst Tool (High Priority):** A tool that takes a navigation goal, automatically detects a 'Movement Blocked' error, identifies the cause (wild battle vs. object), and re-calls the appropriate pathfinder with the obstacle's coordinates if necessary.
 - **Battle Recovery Agent:** Could analyze a failed battle state (e.g., wrong menu) and generate the button presses to recover and return to the intended action.
 - **Reflection Assistant Agent:** Could analyze the last 50 turns of logs to generate a summary of process violations, suggest new tools, and identify untested assumptions, automating the reflection process.
 - **`generate_path_plan` refinement:** Add an optional `avoid_warps` boolean parameter to prevent accidental map transitions.
@@ -420,7 +419,6 @@
 
 ### Ilex Forest Layout Confirmation (Turn 17216)
 - Confirmed via the Azalea Town entrance that Ilex Forest is split into disconnected sections. The southern entrance leads to a small, dead-end area with no path to the main forest where the Farfetch'd puzzle takes place.
-- **LADDER**: Traversable warp. Must be activated by moving *onto* the tile from an adjacent tile. Standing on the ladder and pressing A or a direction does nothing. (Verified)
 
 ### Union Cave B1F - Southern Path Blockage
 - **Discovery:** The path south from the entrance ladder at (7, 19) is blocked by a line of `FLOOR_UP_WALL` tiles starting at y=24.
