@@ -132,6 +132,10 @@
   - **Test 1:** Navigated to (27, 22) and stepped on the ledge, automatically moving to (28, 22).
   - **Result:** The Farfetch'd object was not visible on screen at (29, 22) or anywhere else.
   - **Conclusion:** Hypothesis 4 is disproven. The ledge trigger did not work as expected.
+- **Hypothesis 5:** Interacting with the empty starting tile at (15, 25) will make the Farfetch'd reappear.
+  - **Test 1:** Stood at (15, 25), faced up, and pressed 'A'.
+  - **Result:** Nothing happened; no text appeared and no object spawned.
+  - **Conclusion:** Hypothesis 5 is disproven. A simple interaction with the empty starting tile is not the solution.
 - **Hypothesis 5:** Stepping on the tile at (29, 33) will make the Farfetch'd reappear.
   - **Test 1:** Navigated to (29, 33).
   - **Result:** The Farfetch'd object was not visible on screen.
