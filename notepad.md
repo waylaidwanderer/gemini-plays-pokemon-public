@@ -232,6 +232,8 @@
 - `list_reachable_unseen_tiles`: Finds all reachable unseen tiles on the current map.
 - `trace_pathfinder`: A debugging version of `generate_path_plan` that prints the BFS state at each step.: Parses map XML for on-screen object coordinates.
 - `list_reachable_unseen_tiles`: Finds all reachable unseen tiles on the current map.
+- `trace_pathfinder`: A debugging version of `generate_path_plan` that prints the BFS state at each step.: Parses map XML for on-screen object coordinates.
+- `list_reachable_unseen_tiles`: Finds all reachable unseen tiles on the current map.
 
 # Future Development
 ## Tool & Agent Ideas
