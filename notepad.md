@@ -447,3 +447,8 @@
 - **CRITICAL REASONING FAILURE (Turns 17345-17353):** Mistrusted my working `generate_path_plan` tool when it reported no path. The `trace_pathfinder` output on Turn 17352 confirmed the path was genuinely blocked by a wall, proving the tool was correct. This is a repeat of a major failure pattern of not trusting my own tools.
 - **CRITICAL REASONING FAILURE (Turns 17355-17357):** Mistrusted my working `generate_path_plan` tool when it reported no path on Union Cave 1F. The `trace_pathfinder` output confirmed the path was genuinely blocked by a wall, proving the tool was correct. This is a repeat of a major failure pattern of not trusting my own tools.
 - WEEDLE: Bug/Poison
+
+- **Hypothesis 3:** Interacting with the FARFETCH'D at its starting position (15, 25) from the tile directly below it (15, 26) will cause it to move east.
+  - **Test:** Stood at (15, 26), faced the bird, and pressed 'A'.
+  - **Result:** Success! The FARFETCH'D moved to (20, 24).
+  - **Conclusion:** Hypothesis 3 is proven. The player's position below the bird is a key trigger.
