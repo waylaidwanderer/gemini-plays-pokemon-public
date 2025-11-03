@@ -364,47 +364,6 @@
       }
     ]
   },
-  "list_reachable_unseen_tiles": {
-    "description": "Parses the map XML and finds all 'unseen' tiles that are reachable from the player's current position using a BFS search. Returns a JSON list of their coordinates.",
-    "input_schema": {
-      "type": "object",
-      "properties": {},
-      "required": []
-    },
-    "python_script": "import xml.etree.ElementTree as ET\nimport collections\nimport json\n\nroot = ET.fromstring(map_xml_string)\nmap_id = root.get('id')\nimpassable_types = {'WALL', 'WATER', 'COUNTER', 'MART_SHELF', 'PC', 'TV', 'BOOKSHELF', 'RADIO', 'TOWN_MAP', 'WINDOW', 'CUT_TREE', 'HEADBUTT_TREE'}\n\nall_tiles = {}\nplayer_pos = None\nfor row_elem in root.findall('Row'):\n    for tile_elem in row_elem.findall('Tile'):\n        coord_str = tile_elem.get('coordinate')\n        x_str, y_str = coord_str.strip('()').split(',')\n        x, y = int(x_str.strip()), int(y_str.strip())\n        tile_type = tile_elem.get('type')\n        is_seen = tile_elem.get('seen') == 'true'\n        all_tiles[(x, y)] = {'type': tile_type, 'seen': is_seen}\n        if tile_elem.find('Player') is not None:\n            player_pos = (x, y)\n\nif not player_pos:\n    print(json.dumps([]))\n    exit()\n\nqueue = collections.deque([player_pos])\nvisited = {player_pos}\nreachable_unseen = []\n\nwhile queue:\n    x, y = queue.popleft()\n\n    for dx, dy in [(0, -1), (0, 1), (-1, 0), (1, 0)]:\n        nx, ny = x + dx, y + dy\n        neighbor_node = (nx, ny)\n\n        if neighbor_node in visited:\n            continue\n        \n        current_tile_info = all_tiles.get((x, y))\n        neighbor_tile_info = all_tiles.get(neighbor_node)\n\n        if not current_tile_info or not neighbor_tile_info:\n            continue\n\n        if neighbor_tile_info['type'] in impassable_types:\n            continue\n\n        current_tile_type = current_tile_info['type']\n        if current_tile_type == 'LEDGE_HOP_DOWN' and dy == -1: continue\n        if current_tile_type == 'LEDGE_HOP_LEFT' and dx == 1: continue\n        if current_tile_type == 'LEDGE_HOP_RIGHT' and dx == -1: continue\n\n        neighbor_tile_type = neighbor_tile_info['type']\n        if neighbor_tile_type == 'LEDGE_HOP_DOWN' and dy == -1: continue\n        if neighbor_tile_type == 'LEDGE_HOP_LEFT' and dx == 1: continue\n        if neighbor_tile_type == 'LEDGE_HOP_RIGHT' and dx == -1: continue\n        \n        if neighbor_tile_type == 'FLOOR_UP_WALL' and dy == 1 and map_id in ['10_9', '10_1', '3_37', '3_38']:\n            continue\n        \n        visited.add(neighbor_node)\n        \n        if not neighbor_tile_info['seen']:\n            reachable_unseen.append({'x': nx, 'y': ny})\n\n        queue.append(neighbor_node)\n\nprint(json.dumps(reachable_unseen))",
-    "history": [
-      {
-        "commit_message": "feat: Create tool to find reachable unseen tiles. This tool, `list_reachable_unseen_tiles`, parses the map XML and uses a BFS search starting from the player's position to identify all 'unseen' tiles that are part of the connected, traversable graph. This automates a critical exploration task, allowing for more systematic and efficient map clearing by distinguishing truly reachable unseen areas from those blocked by undiscovered paths.",
-        "timestamp": "2025-11-03T09:45:02.873Z",
-        "action_counter": 16850
-      },
-      {
-        "commit_message": "fix: Correct BFS logic to prevent premature termination. The original script added tiles to the visited set before checking traversability, causing the search to fail when encountering impassable tiles. The new logic first validates a neighbor is reachable, then adds it to the visited set, ensuring the entire connected graph is explored.",
-        "timestamp": "2025-11-03T09:49:00.734Z",
-        "action_counter": 16853
-      },
-      {
-        "commit_message": "fix: Correct flawed ledge-checking logic. The original script used a combined 'if/or' statement for ledge types, which incorrectly blocked valid horizontal movement near ledges and caused the BFS to terminate prematurely. The fix separates the checks into independent 'if' statements for each ledge type, ensuring movement restrictions are applied correctly and allowing the pathfinder to explore the full map.",
-        "timestamp": "2025-11-03T09:53:26.846Z",
-        "action_counter": 16857
-      },
-      {
-        "commit_message": "fix: Correct BFS logic to explore beyond the first unseen tile. The previous version's if/else structure prematurely halted the search path upon finding an unseen tile. The new logic unconditionally adds all valid neighbors to the queue, ensuring the entire connected graph is explored.",
-        "timestamp": "2025-11-03T09:57:14.819Z",
-        "action_counter": 16862
-      },
-      {
-        "commit_message": "fix: Correct overly restrictive ledge movement logic. The previous logic for moving *from* a ledge tile was flawed, blocking valid sideways movement and trapping the BFS. This commit corrects the conditions to only block movement against the ledge's one-way direction, aligning it with the verified logic from the `trace_pathfinder` tool and resolving the pathfinding failure.",
-        "timestamp": "2025-11-03T10:39:49.202Z",
-        "action_counter": 16912
-      },
-      {
-        "commit_message": "refactor: Overwrite with logic adapted from verified tracer tool. The existing script was failing for unknown reasons despite appearing logically sound. This commit replaces the entire script with a clean implementation based on the proven-correct logic from the `trace_pathfinder` tool to eliminate any subtle, undiscovered bugs and ensure reliable functionality.",
-        "timestamp": "2025-11-03T10:41:58.684Z",
-        "action_counter": 16915
-      }
-    ]
-  },
   "trace_pathfinder": {
     "description": "A debugging version of generate_path_plan. It finds a path from a start to a target coordinate, printing the state of the BFS queue and visited set at each step to trace the algorithm's execution.",
     "input_schema": {
