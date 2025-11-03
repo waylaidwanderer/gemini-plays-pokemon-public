@@ -23,7 +23,7 @@
 - **DOOR**: Traversable, acts as a warp tile. (Verified)
 - **FLOOR**: Traversable. (Verified on multiple routes, including Route 36)
 - **FLOOR_UP_WALL**: A complex one-way tile with location-dependent behavior.
-  - **(Union Cave 1F):** One-way traversal. Functions as a ledge. You can move DOWN onto this tile, but you cannot move UP from it. (Verified by being blocked from moving 'Up' from (5, 18) to (5, 17)). The previous note about this tile was incorrect.
+  - **(Union Cave 1F):** Impassable from above. You cannot move DOWN from a FLOOR tile onto a FLOOR_UP_WALL tile. (Verified by being blocked at (16, 3)). The previous note about this tile was incorrect.
   - **(Union Cave B1F):** A complex one-way tile. You can move UP from a FLOOR_UP_WALL tile to a FLOOR tile. You cannot move DOWN from a FLOOR tile onto a FLOOR_UP_WALL tile (Verified at (12, 24)). However, you CAN move DOWN from a FLOOR_UP_WALL tile onto a LADDER tile (Verified at (7, 19)).
   - **(Route 32):** Impassable from above. You cannot move DOWN from a FLOOR tile onto a FLOOR_UP_WALL tile. (Verified by manual test at (7, 75)). My pathfinder was correct all along.
 - **HEADBUTT_TREE**: Impassable. (Verified by observation)
