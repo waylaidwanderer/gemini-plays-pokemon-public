@@ -86,6 +86,7 @@
 - Ground is super-effective against Fire. (Verified in battle vs Falkner's Pidgey's MUD-SLAP).
 - Normal is not very effective against Rock/Ground. (Verified in battle vs Hiker Daniel's Onix).
 - Psychic is not very effective against Bug. (Verified vs Caterpie)
+- Fire is super-effective against Bug/Grass. (Verified vs Paras)
 
 ### PC Storage
 - Currently empty.
