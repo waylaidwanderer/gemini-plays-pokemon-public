@@ -240,8 +240,6 @@
 - **Battle Recovery Agent:** Could analyze a failed battle state (e.g., wrong menu) and generate the button presses to recover and return to the intended action.
 - **Reflection Assistant Agent:** Could analyze the last 50 turns of logs to generate a summary of process violations, suggest new tools, and identify untested assumptions, automating the reflection process.
 - **`generate_path_plan` refinement:** Add an optional `avoid_warps` boolean parameter to prevent accidental map transitions.
-- **Pathing Failure Analyst Tool:** A tool that takes a navigation goal, automatically detects a 'Movement Blocked' error, identifies the blocking NPC from the path plan, and re-calls `generate_path_plan` with the NPC's coordinates in `object_locations_json`.
-- **Tool Debugger Orchestrator Agent:** An agent to automate the multi-step process of identifying a tool bug, calling the `debugging_assistant`, applying the fix with `define_tool`, and re-running the failing test case to verify the fix.
 - **Tool Debugger Orchestrator Agent:** An agent to automate the multi-step process of identifying a tool bug, calling the `debugging_assistant`, applying the fix with `define_tool`, and re-running the failing test case to verify the fix.
 
 # Appendix: Failure Log
