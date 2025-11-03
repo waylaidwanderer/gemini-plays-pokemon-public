@@ -163,14 +163,9 @@
 - **Hypotheses & Tests (Log of Disproven Ideas):**
   - **Lead Pokémon:** The lead Pokémon has no effect on a simple 'A' press interaction.
   - **Twig Piles:** Stepping on the twig pile at (14, 27) does not alter the outcome of subsequent interactions with the bird.
-- **Current Investigation Plan:**
-  - **Proactive Hypothesis:** Stepping on a twig pile is a necessary prerequisite that alters the Farfetch'd's initial state at (15, 25) before the first interaction. My previous reactive 'chase the bird' strategy has failed; this plan tests a preparatory action.
-  - **Test Plan:**
-    1.  **Reset:** Ensure the bird is at its starting position (15, 25). If not, use the reliable reset method (interact with bird at (28, 31) from (28, 32)).
-    2.  **Trigger:** Path to and step on a specific twig pile, for example, the one at (14, 27).
-    3.  **Approach:** Path from the twig pile to (15, 24) without stepping on any other twigs.
-    4.  **Interact:** Face UP and press 'A' to interact with the bird at (15, 25).
-    5.  **Observe & Conclude:** Document the bird's new position. If it moves to a new, previously unobserved location, the hypothesis is supported. If it moves to (15, 29) as before, this specific twig does not alter the outcome.
+- **Hypotheses & Tests (Log of Disproven Ideas):**
+  - **Twig Piles:** Stepping on the twig pile at (14, 27) does not alter the outcome of subsequent interactions with the bird. (Re-confirmed by ignoring this note and wasting turns.)
+- **Current Investigation Plan: ARCHIVED** - This puzzle is currently unsolvable from this section of the forest. Pivoting to other objectives.
 - **Alternative Hypotheses (Untested):**
   - The puzzle is currently unsolvable and requires a key item (like a Squirtbottle) or a story flag from elsewhere (e.g., from Goldenrod City).
   - The puzzle is dependent on the time of day (e.g., must be solved at night).
