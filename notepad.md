@@ -417,3 +417,6 @@
 - **Path to Goldenrod City:** I assume HM Cut is required to clear the 'Odd Tree' on Route 36, which is the only path.
   - **Alternative Hypothesis:** An alternative route to Goldenrod City exists that does not require HM Cut (e.g., through the unexplored parts of Union Cave).
   - **Test to Disprove:** Fully explore all other available paths. If another route to a new city is found, this assumption is proven false.
+- **Pathing Failure Analyst Agent:** An agent that analyzes 'Movement Blocked' errors, identifies the blocking NPC from the path plan, and automatically re-calls `generate_path_plan` with the NPC's coordinates in `object_locations_json`.
+- **Exploration Strategist Agent:** An agent to parse the 'Potentially Reachable Unseen Tiles' list and suggest the most strategically valuable tile to explore next.
+- **Reachable Unseen Tiles Tool (High Priority):** A tool that takes the list of unseen tiles adjacent to walkable areas, parses the map XML, and returns a list of only those tiles that are actually reachable from the player's current position.
