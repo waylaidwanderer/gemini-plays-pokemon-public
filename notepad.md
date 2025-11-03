@@ -148,7 +148,7 @@
 - **Objective:** Fully explore Dark Cave, as it represents the next most promising avenue for progress.
 - **Background:** The 'Odd Tree' on Route 36 is an impassable story-block, and further exploration of Violet City yielded no new paths. My current strategic pivot is to fully explore Dark Cave, as mentioned by Hiker Anthony.
 
-## Archived Investigations
+## Completed Investigations
 
 ### Violet Mart Path Puzzle
 - **Objective:** Find a way to get to the clerk in the Violet City Mart.
