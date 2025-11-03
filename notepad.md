@@ -364,7 +364,7 @@
 
 # Data Hygiene Updates (Turn 15152)
 
-- **Utilize Custom Agents:** I wasted multiple turns (15737-15739) manually debugging my pathfinder when I have already created a `debugging_assistant` agent for this exact purpose. I must remember to use the tools I build.
+- **Utilize Custom Agents:** I wasted multiple turns (15737-15739) manually debugging my pathfinder when I had already created a `debugging_assistant` agent for this exact purpose. I must remember to use the tools I build.
 ### Key Lessons from Past Failures
 - **CRITICAL DEBUGGING FAILURE (Turns 15732-15759):** Spent numerous turns manually and unsuccessfully debugging a coordinate system mismatch in `generate_path_plan`. The `debugging_assistant` agent correctly identified the issue (inconsistent 0-indexed vs 1-indexed handling) and provided a working fix. This is a major process violation for not using my own agent sooner.
 
