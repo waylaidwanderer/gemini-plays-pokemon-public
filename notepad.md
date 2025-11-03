@@ -224,7 +224,8 @@
   - **CRITICAL PROCESS:** Whenever a new Pokémon's type is discovered in battle, I must immediately update this agent's system prompt to include this new information in its 'KNOWN POKEMON TYPES' list.
 - `notepad_refactor_assistant` (Agent): Refactors notepad content based on a goal.
 - `debugging_assistant` (Agent): Analyzes and corrects faulty Python scripts.
-- `get_on_screen_object_locations`
+- `get_on_screen_object_locations`: Parses map XML for on-screen object coordinates.
+- `list_reachable_unseen_tiles`: Finds all reachable unseen tiles on the current map.
 
 # Future Development
 ## Tool & Agent Ideas
