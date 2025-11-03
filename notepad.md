@@ -174,7 +174,7 @@
   - **Failure Conditions:** Interacting from the side, front, above, or below the bird at various puzzle stages triggers the 'Kwaa!' dialogue and resets its position. This has been verified at multiple locations (e.g., from (29, 23) to (29, 22), from (20, 23) to (20, 24)).
 - **Hypotheses & Tests (Log of Disproven Ideas):**
   - **Lead Pokémon:** The lead Pokémon has no effect on a simple 'A' press interaction.
-  - **Twig Piles:** Stepping on the twig pile at (14, 27) does not alter the outcome of subsequent interactions with the bird. (Re-confirmed by ignoring this note and wasting turns.)
+  - **Twig Piles:** Stepping on the twig pile at (14, 27) does not alter the outcome of subsequent interactions with the bird.
 - **Current Investigation Plan: ARCHIVED** - This puzzle is currently unsolvable from this section of the forest. Pivoting to other objectives.
 - **Alternative Hypotheses (Untested):**
   - The puzzle is currently unsolvable and requires a key item (like a Squirtbottle) or a story flag from elsewhere (e.g., from Goldenrod City).
@@ -248,7 +248,7 @@
 - **RECURRING HALLUCINATION - Position & Map State:** A recurring failure where I believe I am at a different (x, y) coordinate or on a different map than my actual location. This has led to invalid pathing, incorrect map markers, and failed interactions. (Occurrences: Turns 5590, 5961, 6045, 6050, 8947, 9586, 9591, 9608, 10817, 10846, 11621-11639, 12268).
 - **RECURRING HALLUCINATION - Warps & Transitions:** Repeatedly believing a map transition was successful when it was not, or hallucinating the existence of warps at incorrect coordinates. This has caused pathfinder crashes and invalidated multi-turn plans. (Occurrences: Turns 7443, 8421, 8517, 10445, 10615, 11105, 11872, 11928).
 - **RECURRING HALLUCINATION - Tool & Data State:** A critical pattern of either believing a tool exists when it does not, misremembering the state of my own notepad and map markers, or repeatedly attempting to "fix" an already correct tool or entry. This leads to wasted turns on debugging and operating on flawed data. (Occurrences: Turns 4838-4866, 5640, 5981, 8944-8945, 9522, 10624-10626, 12372-12374, 13022, 13600-13606).
-- **RECURRING FAILURE - Mistrust of Tools:** A critical failure pattern of assuming a working tool is broken, particularly when it reports a dead end or no path. This has led to extensive, wasted debugging cycles on correct code instead of trusting the tool's output and re-evaluating my strategic assumptions. (Occurrences: Pathfinder on Route 32, Turns 7142-7147, 8539-8541, 10746-10776, 10908-10911, 14554).
+- **RECURRING FAILURE - Mistrust of Tools:** A critical failure pattern of assuming a working tool is broken, particularly when it reports a dead end or no path. This has led to extensive, wasted debugging cycles on correct code instead of trusting the tool's output and re-evaluating my strategic assumptions. (Occurrences: Pathfinder on Route 32, Turns 7142-7147, 8539-8541, 10746-10776, 10908-10911, 14554, 16917).
 
 ### Specific Failure Incidents & Process Violations
 - **CRITICAL PROCESS FAILURE (Recent Turns):** Repeatedly deferred critical actions like notepad updates and agent fixes, violating the 'IMMEDIATE ACTION' and 'TOOL MAINTENANCE' core principles. This resulted in operating with flawed data and plans.
