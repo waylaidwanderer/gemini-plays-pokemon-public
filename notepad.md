@@ -202,13 +202,7 @@
   3. Another item or a specific non-Unown Pokémon is needed to interact with the wall.
 
 # My Tools & Agents
-## Built-in Tools
-- `notepad_edit`: Edits my persistent notepad.
-- `run_code`: Executes single-use Python code.
-- `define_map_marker` / `delete_map_marker`: Manages map markers.
-- `define_agent` / `delete_agent`: Manages custom agents.
-- `define_tool` / `delete_tool`: Manages custom tools.
-- `stun_npc`: Temporarily stuns an NPC, allowing interaction or passage.
+
 - `select_battle_option`
 
 ## Custom Tools & Agents
