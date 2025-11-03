@@ -210,7 +210,6 @@
 - `notepad_refactor_assistant` (Agent): Refactors notepad content based on a goal.
 - `debugging_assistant` (Agent): Analyzes and corrects faulty Python scripts.
 - `select_battle_option`: Automatically selects a main battle menu option.
-- `delete_tool`: Deletes a custom tool by its name.
 
 # Future Development
 ## Tool & Agent Ideas
