@@ -226,6 +226,7 @@
 - **Navigation Manager Agent/Tool:** Could automate multi-map navigation, including pathfinding, executing movement, handling battle interruptions, and re-pathfinding.
 - **Exploration Strategist Agent:** Could take the output of `find_reachable_unseen_tiles` and suggest the most strategically valuable tile to explore next (e.g., closest, or one leading to a cluster).
 - **Pathing Failure Analyst Tool (High Priority):** A tool that takes a navigation goal, automatically detects a 'Movement Blocked' error, identifies the cause (wild battle vs. object), and re-calls the appropriate pathfinder with the obstacle's coordinates if necessary.
+- **Pathing Failure Analyst Tool (High Priority):** A tool that takes a navigation goal, automatically detects a 'Movement Blocked' error, identifies the cause (wild battle vs. object), and re-calls the appropriate pathfinder with the obstacle's coordinates if necessary.
 - **Battle Recovery Agent:** Could analyze a failed battle state (e.g., wrong menu) and generate the button presses to recover and return to the intended action.
 - **Reflection Assistant Agent:** Could analyze the last 50 turns of logs to generate a summary of process violations, suggest new tools, and identify untested assumptions, automating the reflection process.
 - **`generate_path_plan` refinement:** Add an optional `avoid_warps` boolean parameter to prevent accidental map transitions.
