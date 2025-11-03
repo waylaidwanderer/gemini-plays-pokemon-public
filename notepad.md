@@ -25,6 +25,7 @@
   - **(Union Cave B1F):** A complex one-way tile. You can move UP from a FLOOR_UP_WALL tile to a FLOOR tile. You cannot move DOWN from a FLOOR tile onto a FLOOR_UP_WALL tile (Verified at (12, 24)). However, you CAN move DOWN from a FLOOR_UP_WALL tile onto a LADDER tile (Verified at (7, 19)).
   - **(Route 32 & Dark Cave Violet Entrance):** Impassable from above. You cannot move DOWN from a FLOOR tile onto a FLOOR_UP_WALL tile. (Verified by manual test on Route 32 at (7, 75) and by pathing failure in Dark Cave at (2, 16)).
 - **HEADBUTT_TREE**: Impassable. (Verified by observation)
+- **INCENSE_BURNER**: Impassable. (Verified by observation in Kurt's House)
 - **LADDER**: Traversable warp. Must be activated by moving *onto* the tile from an adjacent tile. Standing on the ladder and pressing A or a direction does nothing. (Verified)
 - **LEDGE_HOP_DOWN/LEFT/RIGHT**: One-way traversal.
 - **LONG_GRASS**: Traversable, contains wild Pokémon. (Verified by encounters on Route 30)
