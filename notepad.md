@@ -404,3 +404,21 @@
   - **Test to Disprove:** Fully explore all paths within Union Cave. If no entrance to Dark Cave is found, the next step is to search other routes on the world map.
 - **Path to Goldenrod City:** I assume HM Cut is required to clear the 'Odd Tree' on Route 36, which is a big assumption.
 - **Reachable Unseen Tiles Tool (High Priority):** A tool that takes the list of unseen tiles adjacent to walkable areas, parses the map XML, and returns a list of only those tiles that are actually reachable from the player's current position.
+
+# Reflection Log (Turn 16736)
+
+## Tool Usage Protocols (Update)
+- **Pre-Pathing Check:** Before EVERY call to `generate_path_plan`, I MUST consult the `relevant_map_markers` for the destination map to identify known obstacles. Their coordinates must be added to the `object_locations_json` argument.
+
+## Future Development (Additions)
+- **Pre-flight Checklist Agent:** An agent that takes a navigation goal and map ID, then checks map markers to warn of obstacles along the planned route.
+
+## Alternative Hypotheses (New Section)
+- **HM01 Cut Source:** The FARFETCH'D puzzle is not the only source for Cut. It may be available from another NPC or location.
+  - **Test to Disprove:** If the puzzle remains unsolvable, I must pivot to exploring every other path in the region.
+- **Ilex Forest Access:** The current entrance is not the only way to the puzzle area.
+  - **Alternative Hypothesis:** Another entrance exists on a different route, leading to the western part of the forest.
+  - **Test to Disprove:** If this side is a confirmed dead end, I must search the world map for other entrances to Ilex Forest.
+- **'Odd Tree' Solution:** The tree on Route 36 doesn't require an item from Goldenrod City.
+  - **Alternative Hypothesis:** The solution is a different item found elsewhere, a specific Pokémon move, or a story flag triggered in the current region.
+  - **Test to Disprove:** If I cannot reach Goldenrod City, I must exhaust all other leads, which may indirectly provide the solution for the tree.
