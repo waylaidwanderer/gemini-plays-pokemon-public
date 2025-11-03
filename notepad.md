@@ -228,8 +228,6 @@
   - **CRITICAL PROCESS:** Whenever a new Pokémon's type is discovered in battle, I must immediately update this agent's system prompt to include this new information in its 'KNOWN POKEMON TYPES' list.
 - `notepad_refactor_assistant` (Agent): Refactors notepad content based on a goal.
 - `debugging_assistant` (Agent): Analyzes and corrects faulty Python scripts.
-- `get_on_screen_object_locations`: Parses map XML for on-screen object coordinates.
-- `trace_pathfinder`: A debugging version of `generate_path_plan` that prints the BFS state at each step.
 - `path_with_obstacle_avoidance`: A combined pathfinding tool that first automatically detects on-screen obstacles and then generates a path to the target, avoiding them.
 
 # Future Development
@@ -243,8 +241,6 @@
 - **Reflection Assistant Agent:** Could analyze the last 50 turns of logs to generate a summary of process violations, suggest new tools, and identify untested assumptions, automating the reflection process.
 - **`generate_path_plan` refinement:** Add an optional `avoid_warps` boolean parameter to prevent accidental map transitions.
 - **Tool Debugger Orchestrator Agent:** An agent to automate the multi-step process of identifying a tool bug, calling the `debugging_assistant`, applying the fix with `define_tool`, and re-running the failing test case to verify the fix.
-- **Automated Obstacle Avoidance Tool:** A tool that combines `get_on_screen_object_locations` and `generate_path_plan` to automatically detect and path around temporary obstacles without requiring manual addition of `object_locations_json`.
-- **Deterministic Battle Strategist Tool:** A non-LLM tool that takes battle state as input and returns the best move based on a hardcoded type chart and logic. This would be a reliable backup for the `simple_battle_strategist` agent.
 
 # Appendix: Failure Log
 
