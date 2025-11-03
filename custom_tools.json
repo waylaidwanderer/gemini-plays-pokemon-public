@@ -347,5 +347,21 @@
         "action_counter": 16596
       }
     ]
+  },
+  "get_on_screen_object_locations": {
+    "description": "Parses the map_xml_string to find all on-screen objects (NPCs, items, etc.) and returns their coordinates as a JSON string formatted for the generate_path_plan tool's object_locations_json argument.",
+    "input_schema": {
+      "type": "object",
+      "properties": {},
+      "required": []
+    },
+    "python_script": "import xml.etree.ElementTree as ET\nimport json\n\nobject_locations = {}\ntry:\n    root = ET.fromstring(map_xml_string)\n    for tile_elem in root.findall('.//Object/..'):\n        obj_elem = tile_elem.find('Object')\n        obj_id = obj_elem.get('id')\n        if obj_id is None or obj_id == '0': # Skip player or objects without an ID\n            continue\n        \n        coord_str = tile_elem.get('coordinate')\n        if coord_str:\n            x_str, y_str = coord_str.strip('()').split(',')\n            x, y = int(x_str.strip()), int(y_str.strip())\n            object_locations[obj_id] = [x, y]\nexcept ET.ParseError:\n    pass\n\nprint(json.dumps(object_locations))",
+    "history": [
+      {
+        "commit_message": "feat: Create tool to automate obstacle detection. This tool, `get_on_screen_object_locations`, parses the map XML to extract the coordinates of all visible objects. This automates the previously manual and error-prone process of populating the `object_locations_json` for the pathfinder, directly addressing a recurring failure pattern of colliding with marked NPCs.",
+        "timestamp": "2025-11-03T08:18:31.715Z",
+        "action_counter": 16736
+      }
+    ]
   }
 }
