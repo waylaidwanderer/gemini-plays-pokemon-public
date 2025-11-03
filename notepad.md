@@ -121,8 +121,8 @@
 - **Key Findings:**
   - **Layout:** The path through the forest is a puzzle involving guiding a FARFETCH'D. The direct path east is blocked by a CUT_TREE that can only be passed after obtaining the HM.
   - **Core Mechanic:** The bird's movement is triggered by player interaction from specific coordinates and facing directions.
-  - **Successful Triggers:** Interacting from below at (15, 26) moves the bird to (20, 24). Stepping on the ledge at (27, 22) makes it appear at (29, 22).
-  - **Failure Conditions:** Interacting from the front (e.g., at (20, 23)), side (e.g., at (28, 22)), or with no bird present fails and/or resets the puzzle. Stepping on twig piles had no effect.
+  - **Successful Triggers:** Interacting from below at (15, 26) moves the bird to (20, 24). Stepping on the ledge at (27, 22) *once* made it appear at (29, 22). Stepping on (29, 33) *once* made it appear at (28, 31).
+  - **Failure Conditions:** Interacting from the front (e.g., at (20, 23)), side (e.g., at (28, 22)), or from behind (e.g., at (29, 23)) fails and/or resets the puzzle. Stepping on twig piles had no effect.
 - **Untested Alternatives:** The solution may require a key item (e.g., Squirtbottle), a specific Pokémon move used on the environment, or be time-dependent.
 - **Hypothesis 3:** Leaving and re-entering the map will reset the puzzle and make the Farfetch'd reappear at its starting position (15, 25).
   - **Test 1:** Exited Ilex Forest to the gatehouse, then immediately re-entered and returned to (15, 26).
@@ -132,6 +132,10 @@
   - **Test 1:** Navigated to (27, 22) and stepped on the ledge, automatically moving to (28, 22).
   - **Result:** The Farfetch'd object was not visible on screen at (29, 22) or anywhere else.
   - **Conclusion:** Hypothesis 4 is disproven. The ledge trigger did not work as expected.
+- **Hypothesis 5:** Stepping on the tile at (29, 33) will make the Farfetch'd reappear.
+  - **Test 1:** Navigated to (29, 33).
+  - **Result:** The Farfetch'd object was not visible on screen.
+  - **Conclusion:** Hypothesis 5 is disproven. This trigger also appears to be inconsistent or requires other conditions to be met.
 
 ### Route 36 'Odd Tree' Puzzle
 - **Objective:** Get past the tree blocking the path at (35, 9).
