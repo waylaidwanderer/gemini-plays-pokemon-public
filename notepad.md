@@ -116,6 +116,15 @@
 
 ## Active Investigations
 
+### Ilex Forest FARFETCH'D Puzzle
+- **Objective:** Get the FARFETCH'D back to the apprentice at (7, 28) to obtain HM01 Cut.
+- **Key Findings:**
+  - **Layout:** The path through the forest is a puzzle involving guiding a FARFETCH'D. The direct path east is blocked by a CUT_TREE that can only be passed after obtaining the HM.
+  - **Core Mechanic:** The bird's movement is triggered by player interaction from specific coordinates and facing directions.
+  - **Successful Triggers:** Interacting from below at (15, 26) moves the bird to (20, 24). Stepping on the ledge at (27, 22) makes it appear at (29, 22).
+  - **Failure Conditions:** Interacting from the front (e.g., at (20, 23)), side (e.g., at (28, 22)), or with no bird present fails and/or resets the puzzle. Stepping on twig piles had no effect.
+- **Untested Alternatives:** The solution may require a key item (e.g., Squirtbottle), a specific Pokémon move used on the environment, or be time-dependent.
+
 ### Route 36 'Odd Tree' Puzzle
 - **Objective:** Get past the tree blocking the path at (35, 9).
 - **Observations:**
@@ -166,15 +175,6 @@
 - **Observations:**
   - The path to the clerk is blocked. Talking to the Cooltrainer M at (5, 2) does not open it.
 
-### Ilex Forest FARFETCH'D Puzzle (Archived)
-- **Conclusion:** The eastern section of Ilex Forest, where this puzzle takes place, is a dead end. The puzzle is currently unsolvable from this side, as confirmed by `generate_path_plan` being unable to find a path to key areas like the Ilex Forest Shrine. All hypotheses related to solving this puzzle via movement have been exhausted.
-- **Key Findings:**
-  - **Layout:** The forest is split into disconnected eastern and western sections.
-  - **Core Mechanic:** The bird's movement is triggered by player interaction from specific coordinates and facing directions.
-  - **Successful Triggers:** Interacting from below at (15, 26) moves the bird to (20, 24). Stepping on the ledge at (27, 22) makes it appear at (29, 22).
-  - **Failure Conditions:** Interacting from the front (e.g., at (20, 23)), side (e.g., at (28, 22)), or with no bird present fails and/or resets the puzzle. Stepping on twig piles had no effect.
-- **Untested Alternatives:** The solution may require a key item (e.g., Squirtbottle), a specific Pokémon move used on the environment, or be time-dependent.
-
 ### Sprout Tower 2F Pillar Puzzle
 - **Objective:** Determine how to move the central pillar on 2F again.
 - **Observations:**
@@ -215,7 +215,7 @@
 ## Custom Tools
 - `generate_path_plan`: Generates a sequence of coordinates to navigate from the player's current position to a target coordinate.
   - **CRITICAL PROCESS:** To prevent pathing into known off-screen obstacles, I MUST consult my notepad and map markers for the target map *before* calling this tool. The coordinates of any known impassable NPCs or other temporary blockades must be manually added to the `object_locations_json` argument.
-- `trace_pathfinder`: A debugging version of `generate_path_plan` that prints the BFS state at each step.
+- `pathing_failure_analyst`: A tool that takes a navigation goal, executes a path, and if a 'Movement Blocked' error occurs, it automatically re-calls `path_with_obstacle_avoidance` to generate a new path from the point of interruption.
 - `find_adjacent_traversable_tiles`: Identifies all adjacent tiles to a given coordinate that are traversable.
 - `deterministic_battle_strategist`: Analyzes battle state and recommends the optimal, deterministic action.
 - `path_with_obstacle_avoidance`: Generates a path to a target, automatically detecting and avoiding on-screen obstacles.
@@ -225,7 +225,6 @@
 - **Puzzle Solver Strategist Agent:** Could take puzzle context (NPC dialogue, location, failed attempts) and suggest the next logical hypothesis to test, preventing loops.
 - **Navigation Manager Agent/Tool:** Could automate multi-map navigation, including pathfinding, executing movement, handling battle interruptions, and re-pathfinding.
 - **Exploration Strategist Agent:** Could take the output of `find_reachable_unseen_tiles` and suggest the most strategically valuable tile to explore next (e.g., closest, or one leading to a cluster).
-- **Pathing Failure Analyst Tool (High Priority):** A tool that takes a navigation goal, automatically detects a 'Movement Blocked' error, identifies the cause (wild battle vs. object), and re-calls the appropriate pathfinder with the obstacle's coordinates if necessary.
 - **Battle Recovery Agent:** Could analyze a failed battle state (e.g., wrong menu) and generate the button presses to recover and return to the intended action.
 - **Reflection Assistant Agent:** Could analyze the last 50 turns of logs to generate a summary of process violations, suggest new tools, and identify untested assumptions, automating the reflection process.
 - **`generate_path_plan` refinement:** Add an optional `avoid_warps` boolean parameter to prevent accidental map transitions.
@@ -416,9 +415,6 @@
 ## Alternative Hypotheses (New)
 - **Rival Trigger:** Beating Bugsy may have triggered an event with my Rival, Crimson. He may be waiting at the Ilex Forest gate to battle, after which he might provide a key item or open a new path.
   - **Test:** Path to the Ilex Forest gate and see if he appears.
-
-### Ilex Forest Layout Confirmation (Turn 17216)
-- Confirmed via the Azalea Town entrance that Ilex Forest is split into disconnected sections. The southern entrance leads to a small, dead-end area with no path to the main forest where the Farfetch'd puzzle takes place.
 
 ### Union Cave B1F - Southern Path Blockage
 - **Discovery:** The path south from the entrance ladder at (7, 19) is blocked by a line of `FLOOR_UP_WALL` tiles starting at y=24.
