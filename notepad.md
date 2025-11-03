@@ -218,6 +218,14 @@
 - `define_agent` / `delete_agent`: Manages custom agents.
 - `define_tool` / `delete_tool`: Manages custom tools.
 
+# My Tools & Agents
+## Built-in Tools
+- `notepad_edit`: Edits my persistent notepad.
+- `run_code`: Executes single-use Python code.
+- `define_map_marker` / `delete_map_marker`: Manages map markers.
+- `define_agent` / `delete_agent`: Manages custom agents.
+- `define_tool` / `delete_tool`: Manages custom tools.
+
 ## Custom Tools & Agents
 - `generate_path_plan`: Generates a sequence of coordinates to navigate from the player's current position to a target coordinate.
   - **CRITICAL PROCESS:** To prevent pathing into known off-screen obstacles, I MUST consult my notepad and map markers for the target map *before* calling this tool. The coordinates of any known impassable NPCs or other temporary blockades must be manually added to the `object_locations_json` argument.
@@ -239,6 +247,7 @@
 - **Battle Recovery Agent:** Could analyze a failed battle state (e.g., wrong menu) and generate the button presses to recover and return to the intended action.
 - **Reflection Assistant Agent:** Could analyze the last 50 turns of logs to generate a summary of process violations, suggest new tools, and identify untested assumptions, automating the reflection process.
 - **`generate_path_plan` refinement:** Add an optional `avoid_warps` boolean parameter to prevent accidental map transitions.
+- **Pathfinder Tracer Tool:** A tool that takes start/end coordinates and simulates the BFS search step-by-step, printing the queue and visited set at each iteration to make debugging easier.
 - **Pathfinder Tracer Tool:** A tool that takes start/end coordinates and simulates the BFS search step-by-step, printing the queue and visited set at each iteration to make debugging easier.
 
 # Appendix: Failure Log
