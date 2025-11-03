@@ -208,13 +208,15 @@
 - `stun_npc`: Temporarily stuns an NPC, allowing interaction or passage.
 - `select_battle_option`
 
-## Custom Tools & Agents
+## Custom Agents
+- `notepad_refactor_assistant`: Refactors notepad content based on a goal.
+- `debugging_assistant`: Analyzes and corrects faulty Python scripts.
+
+## Custom Tools
 - `generate_path_plan`: Generates a sequence of coordinates to navigate from the player's current position to a target coordinate.
   - **CRITICAL PROCESS:** To prevent pathing into known off-screen obstacles, I MUST consult my notepad and map markers for the target map *before* calling this tool. The coordinates of any known impassable NPCs or other temporary blockades must be manually added to the `object_locations_json` argument.
 - `trace_pathfinder`: A debugging version of `generate_path_plan` that prints the BFS state at each step.
 - `find_adjacent_traversable_tiles`: Identifies all adjacent tiles to a given coordinate that are traversable.
-- `notepad_refactor_assistant` (Agent): Refactors notepad content based on a goal.
-- `debugging_assistant` (Agent): Analyzes and corrects faulty Python scripts.
 - `deterministic_battle_strategist`: Analyzes battle state and recommends the optimal, deterministic action.
 - `path_with_obstacle_avoidance`: Generates a path to a target, automatically detecting and avoiding on-screen obstacles.
 
