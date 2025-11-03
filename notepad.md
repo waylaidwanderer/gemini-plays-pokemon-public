@@ -124,6 +124,14 @@
   - **Successful Triggers:** Interacting from below at (15, 26) moves the bird to (20, 24). Stepping on the ledge at (27, 22) makes it appear at (29, 22).
   - **Failure Conditions:** Interacting from the front (e.g., at (20, 23)), side (e.g., at (28, 22)), or with no bird present fails and/or resets the puzzle. Stepping on twig piles had no effect.
 - **Untested Alternatives:** The solution may require a key item (e.g., Squirtbottle), a specific Pokémon move used on the environment, or be time-dependent.
+- **Hypothesis 3:** Leaving and re-entering the map will reset the puzzle and make the Farfetch'd reappear at its starting position (15, 25).
+  - **Test 1:** Exited Ilex Forest to the gatehouse, then immediately re-entered and returned to (15, 26).
+  - **Result:** The Farfetch'd object was not visible on screen at (15, 25).
+  - **Conclusion:** Hypothesis 3 is disproven. A simple map reset is not the solution.
+- **Hypothesis 4:** Stepping on the ledge at (27, 22) will make the Farfetch'd reappear at (29, 22).
+  - **Test 1:** Navigated to (27, 22) and stepped on the ledge, automatically moving to (28, 22).
+  - **Result:** The Farfetch'd object was not visible on screen at (29, 22) or anywhere else.
+  - **Conclusion:** Hypothesis 4 is disproven. The ledge trigger did not work as expected.
 
 ### Route 36 'Odd Tree' Puzzle
 - **Objective:** Get past the tree blocking the path at (35, 9).
@@ -235,7 +243,7 @@
 ### Core Failure Patterns (Summarized)
 - **RECURRING HALLUCINATION - Position & Map State:** A recurring failure where I believe I am at a different (x, y) coordinate or on a different map than my actual location. This has led to invalid pathing, incorrect map markers, and failed interactions. (Occurrences: Turns 5590, 5961, 6045, 6050, 8947, 9586, 9591, 9608, 10817, 10846, 11621-11639, 12268).
 - **RECURRING HALLUCINATION - Warps & Transitions:** Repeatedly believing a map transition was successful when it was not, or hallucinating the existence of warps at incorrect coordinates. This has caused pathfinder crashes and invalidated multi-turn plans. (Occurrences: Turns 7443, 8421, 8517, 10445, 10615, 11105, 11872, 11928).
-- **RECURRING HALLUCINATION - Tool & Data State:** A critical pattern of either believing a tool exists when it does not, misremembering the state of my own notepad and map markers, or repeatedly attempting to "fix" an already correct tool or entry. This leads to wasted turns on debugging and operating on flawed data. (Occurrences: Turns 4838-4866, 5640, 5981, 8944-8945, 9522, 10624-10626, 12372-12374, 13022, 13600-13606).
+- **RECURRING HALLUCination - Tool & Data State:** A critical pattern of either believing a tool exists when it does not, misremembering the state of my own notepad and map markers, or repeatedly attempting to "fix" an already correct tool or entry. This leads to wasted turns on debugging and operating on flawed data. (Occurrences: Turns 4838-4866, 5640, 5981, 8944-8945, 9522, 10624-10626, 12372-12374, 13022, 13600-13606).
 - **RECURRING FAILURE - Mistrust of Tools:** A critical failure pattern of assuming a working tool is broken, particularly when it reports a dead end or no path. This has led to extensive, wasted debugging cycles on correct code instead of trusting the tool's output and re-evaluating my strategic assumptions. (Occurrences: Pathfinder on Route 32, Turns 7142-7147, 8539-8541, 10746-10776, 10908-10911, 14554, 16917, 17023).
 
 ### Specific Failure Incidents & Process Violations
@@ -413,7 +421,7 @@
 - **Automated Obstacle Avoidance Tool (High Priority):** A tool that combines `get_on_screen_object_locations` and `generate_path_plan` to automatically detect and path around temporary obstacles without requiring manual addition of `object_locations_json`.
 
 ## Alternative Hypotheses (New)
-- **Rival Trigger:** Beating Bugsy may have triggered an event with my Rival, Crimson. He may be waiting at the Ilex Forest gate to battle, after which he might provide a key item or open a new path.
+- **Rival Trigger:** Beating Bugsy may have triggered an event with my Rival, Crimson. He may be waiting at the Ilex Forest gate to battle, after which he might also provide a key item or open a new path.
   - **Test:** Path to the Ilex Forest gate and see if he appears.
 
 ### Union Cave B1F - Southern Path Blockage
@@ -423,12 +431,3 @@
 - **CRITICAL REASONING FAILURE (Turns 17345-17353):** Mistrusted my working `generate_path_plan` tool when it reported no path. The `trace_pathfinder` output on Turn 17352 confirmed the path was genuinely blocked by a wall, proving the tool was correct. This is a repeat of a major failure pattern of not trusting my own tools.
 - **CRITICAL REASONING FAILURE (Turns 17355-17357):** Mistrusted my working `generate_path_plan` tool when it reported no path on Union Cave 1F. The `trace_pathfinder` output confirmed the path was genuinely blocked by a wall, proving the tool was correct. This is a repeat of a major failure pattern of not trusting my own tools.
 - WEEDLE: Bug/Poison
-
-- **Hypothesis 3:** Leaving and re-entering the map will reset the puzzle and make the Farfetch'd reappear at its starting position (15, 25).
-  - **Test 1:** Exited Ilex Forest to the gatehouse, then immediately re-entered and returned to (15, 26).
-  - **Result:** The Farfetch'd object was not visible on screen at (15, 25).
-  - **Conclusion:** Hypothesis 3 is disproven. A simple map reset is not the solution.
-- **Hypothesis 4:** Stepping on the ledge at (27, 22) will make the Farfetch'd reappear at (29, 22).
-  - **Test 1:** Navigated to (27, 22) and stepped on the ledge, automatically moving to (28, 22).
-  - **Result:** The Farfetch'd object was not visible on screen at (29, 22) or anywhere else.
-  - **Conclusion:** Hypothesis 4 is disproven. The ledge trigger did not work as expected.
