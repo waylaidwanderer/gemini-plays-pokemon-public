@@ -225,11 +225,10 @@
   - **CRITICAL PROCESS:** To prevent pathing into known off-screen obstacles, I MUST consult my notepad and map markers for the target map *before* calling this tool. The coordinates of any known impassable NPCs or other temporary blockades must be manually added to the `object_locations_json` argument.
 - `trace_pathfinder`: A debugging version of `generate_path_plan` that prints the BFS state at each step.
 - `find_adjacent_traversable_tiles`: Identifies all adjacent tiles to a given coordinate that are traversable.
-- `simple_battle_strategist` (Agent): Analyzes battle state and recommends actions.
-  - **CRITICAL PROCESS:** Whenever a new Pokémon's type is discovered in battle, I must immediately update this agent's system prompt to include this new information in its 'KNOWN POKEMON TYPES' list.
 - `notepad_refactor_assistant` (Agent): Refactors notepad content based on a goal.
 - `debugging_assistant` (Agent): Analyzes and corrects faulty Python scripts.
-- `path_with_obstacle_avoidance`: A combined pathfinding tool that first automatically detects on-screen obstacles and then generates a path to the target, avoiding them.
+- `deterministic_battle_strategist`: Analyzes battle state and recommends the optimal, deterministic action.
+- `path_with_obstacle_avoidance`: Generates a path to a target, automatically detecting and avoiding on-screen obstacles.
 
 # Future Development
 ## Tool & Agent Ideas
