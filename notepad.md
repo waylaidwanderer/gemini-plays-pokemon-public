@@ -211,6 +211,7 @@
 - `debugging_assistant` (Agent): Analyzes and corrects faulty Python scripts.
 - `select_battle_option`: Automatically selects a main battle menu option.
 - `delete_tool`: Deletes a custom tool by its name.
+- `delete_tool`: Deletes a custom tool by its name.
 
 # Future Development
 ## Tool & Agent Ideas
