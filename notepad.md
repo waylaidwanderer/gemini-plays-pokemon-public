@@ -1,4 +1,5 @@
 # Immediate Tasks
+- Place missing warp markers: Ilex Forest (8_8) at (3, 42) -> IlexForestAzaleaGate; Ilex Forest Azalea Gate (8_9) at (9, 4) -> AzaleaTown.
 
 # Strategic Pivots
 
@@ -213,6 +214,7 @@
 - `define_agent` / `delete_agent`: Manages custom agents.
 - `define_tool` / `delete_tool`: Manages custom tools.
 - `stun_npc`: Temporarily stuns an NPC, allowing interaction or passage.
+- `select_battle_option`
 
 ## Custom Tools & Agents
 - `generate_path_plan`: Generates a sequence of coordinates to navigate from the player's current position to a target coordinate.
@@ -222,6 +224,7 @@
   - **CRITICAL PROCESS:** Whenever a new Pokémon's type is discovered in battle, I must immediately update this agent's system prompt to include this new information in its 'KNOWN POKEMON TYPES' list.
 - `notepad_refactor_assistant` (Agent): Refactors notepad content based on a goal.
 - `debugging_assistant` (Agent): Analyzes and corrects faulty Python scripts.
+- `get_on_screen_object_locations`
 
 # Future Development
 ## Tool & Agent Ideas
@@ -361,7 +364,7 @@
 
 # Data Hygiene Updates (Turn 15152)
 
-- **Utilize Custom Agents:** I wasted multiple turns (15737-15739) manually debugging my pathfinder when I had already created a `debugging_assistant` agent for this exact purpose. I must remember to use the tools I build.
+- **Utilize Custom Agents:** I wasted multiple turns (15737-15739) manually debugging my pathfinder when I have already created a `debugging_assistant` agent for this exact purpose. I must remember to use the tools I build.
 ### Key Lessons from Past Failures
 - **CRITICAL DEBUGGING FAILURE (Turns 15732-15759):** Spent numerous turns manually and unsuccessfully debugging a coordinate system mismatch in `generate_path_plan`. The `debugging_assistant` agent correctly identified the issue (inconsistent 0-indexed vs 1-indexed handling) and provided a working fix. This is a major process violation for not using my own agent sooner.
 
