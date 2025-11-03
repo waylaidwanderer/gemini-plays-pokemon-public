@@ -458,3 +458,4 @@
 - **Assumption 2:** The puzzle solution only involves player movement and interaction.
   - **Alternative Hypothesis:** The puzzle requires a specific key item, a Pokémon move used on the environment, or is time-dependent (day/night).
   - **Test to Disprove:** After exhausting movement hypotheses, systematically test items, environmental moves, and return at different times of day.
+- **Failure Condition Confirmed:** Interacting with the FARFETCH'D at (29, 22) from the side (28, 22) triggers the 'Kwaa!' dialogue but does not move the bird.
