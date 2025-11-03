@@ -229,6 +229,8 @@
 - **Reflection Assistant Agent:** Could analyze the last 50 turns of logs to generate a summary of process violations, suggest new tools, and identify untested assumptions, automating the reflection process.
 - **`generate_path_plan` refinement:** Add an optional `avoid_warps` boolean parameter to prevent accidental map transitions.
 - **Pathfinder Tracer Tool:** A tool that takes start/end coordinates and simulates the BFS search step-by-step, printing the queue and visited set at each iteration to make debugging easier.
+- **Tool Debugger Orchestrator Agent:** An agent to automate the multi-step process of identifying a tool bug, calling the `debugging_assistant`, applying the fix with `define_tool`, and re-running the failing test case to verify the fix.
+- **Reachable Unseen Tiles Tool (High Priority):** A tool that takes the list of unseen tiles adjacent to walkable areas, parses the map XML, and returns a list of only those tiles that are actually reachable from the player's current position.
 
 # Appendix: Failure Log
 
@@ -338,16 +340,10 @@
 
 # Reflection Log (Turn 14710)
 
-## Tool & Agent Ideas
-- **Debugging Assistant Agent:** Could take a script, an error, and a problem description to suggest specific code changes or where to add debug prints.
-
 ## Alternative Hypotheses
 - **Union Cave Layout:** My hypothesis that the cave is split into two disconnected sections has been disproven. My pathfinder successfully generated a complete route from the southern entrance (Route 33) to the northern entrance (Route 32), confirming the cave is one continuous area.
 
 # Reflection Log (Turn 14814)
-
-## Tool & Agent Ideas
-- **Pathing Failure Analyst Agent:** An agent that analyzes 'Movement Blocked' errors, identifies the blocking NPC from the path plan, and automatically re-calls `generate_path_plan` with the NPC's coordinates in `object_locations_json`.
 
 ## Untested Assumptions
 - **HM Cut Source:** The only way to get CUT is from the FARFETCH'D puzzle.
@@ -383,10 +379,6 @@
 ## Untested Mechanics & Hypotheses (Additions)
 - Test lateral (left/right) movement from and onto `FLOOR_UP_WALL` tiles to fully understand their mechanics.
 
-## Future Development (Additions)
-- **Tool Debugger Orchestrator Agent:** An agent to automate the multi-step process of identifying a tool bug, calling the `debugging_assistant`, applying the fix with `define_tool`, and re-running the failing test case to verify the fix.
-- **Exploration Strategist Agent:** An agent to parse the 'Potentially Reachable Unseen Tiles' list and suggest the most strategically valuable tile to explore next.
-
 ## Alternative Hypotheses (New Section)
 - **Union Cave B1F Southern Path:** The path south is blocked by a one-way ledge. 
   - **Alternative Hypothesis:** There is a hidden switch or event trigger in the accessible part of B1F that deactivates or changes the `FLOOR_UP_WALL` tiles, making the path passable.
@@ -417,6 +409,4 @@
 - **Path to Goldenrod City:** I assume HM Cut is required to clear the 'Odd Tree' on Route 36, which is the only path.
   - **Alternative Hypothesis:** An alternative route to Goldenrod City exists that does not require HM Cut (e.g., through the unexplored parts of Union Cave).
   - **Test to Disprove:** Fully explore all other available paths. If another route to a new city is found, this assumption is proven false.
-- **Pathing Failure Analyst Agent:** An agent that analyzes 'Movement Blocked' errors, identifies the blocking NPC from the path plan, and automatically re-calls `generate_path_plan` with the NPC's coordinates in `object_locations_json`.
-- **Exploration Strategist Agent:** An agent to parse the 'Potentially Reachable Unseen Tiles' list and suggest the most strategically valuable tile to explore next.
 - **Reachable Unseen Tiles Tool (High Priority):** A tool that takes the list of unseen tiles adjacent to walkable areas, parses the map XML, and returns a list of only those tiles that are actually reachable from the player's current position.
