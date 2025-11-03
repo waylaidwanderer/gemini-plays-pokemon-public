@@ -427,3 +427,6 @@
 ## Alternative Hypotheses (New)
 - **Rival Trigger:** Beating Bugsy may have triggered an event with my Rival, Crimson. He may be waiting at the Ilex Forest gate to battle, after which he might provide a key item or open a new path.
   - **Test:** Path to the Ilex Forest gate and see if he appears.
+
+### Ilex Forest Layout Confirmation (Turn 17216)
+- Confirmed via the Azalea Town entrance that Ilex Forest is split into disconnected sections. The southern entrance leads to a small, dead-end area with no path to the main forest where the Farfetch'd puzzle takes place.
