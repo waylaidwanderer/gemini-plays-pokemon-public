@@ -195,9 +195,6 @@
   2. The 'sliding stone panels' mentioned by NPCs are a separate puzzle from the 'ESCAPE' wall.
   3. Another item or a specific non-Unown Pokémon is needed to interact with the wall.
 
-# Tool Usage Protocols
-- When using the `select_battle_option` tool, the `buttons_to_press` array must be set to `["tool"]` and nothing else. The tool handles the button presses automatically.
-
 # My Tools & Agents
 ## Built-in Tools
 - `notepad_edit`: Edits my persistent notepad.
@@ -206,12 +203,10 @@
 - `define_agent` / `delete_agent`: Manages custom agents.
 - `define_tool` / `delete_tool`: Manages custom tools.
 - `stun_npc`: Temporarily stuns an NPC, allowing interaction or passage.
-- `delete_tool`: Deletes a custom tool.
 
 ## Custom Tools & Agents
 - `generate_path_plan`: Generates a sequence of coordinates to navigate from the player's current position to a target coordinate.
-  - **CRITICAL PROCESS:** Before calling this tool, I MUST use `get_on_screen_object_locations` to get a list of on-screen obstacles and pass it to the `object_locations_json` argument. For long-distance pathing, I must ALSO consult my map markers for the target map to identify known off-screen obstacles and manually add their coordinates.
-- `get_on_screen_object_locations`: Parses the map_xml_string to find all on-screen objects (NPCs, items, etc.) and returns their coordinates as a JSON string formatted for the generate_path_plan tool's object_locations_json argument.
+  - **CRITICAL PROCESS:** To prevent pathing into known off-screen obstacles, I MUST consult my notepad and map markers for the target map *before* calling this tool. The coordinates of any known impassable NPCs or other temporary blockades must be manually added to the `object_locations_json` argument.
 - `find_adjacent_traversable_tiles`: Identifies all adjacent tiles to a given coordinate that are traversable.
 - `simple_battle_strategist` (Agent): Analyzes battle state and recommends actions.
   - **CRITICAL PROCESS:** Whenever a new Pokémon's type is discovered in battle, I must immediately update this agent's system prompt to include this new information in its 'KNOWN POKEMON TYPES' list.
