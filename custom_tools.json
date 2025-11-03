@@ -388,22 +388,6 @@
       }
     ]
   },
-  "get_on_screen_object_locations": {
-    "description": "Parses the map_xml_string to find all on-screen objects (NPCs, items, etc.) and returns their coordinates as a JSON string formatted for the generate_path_plan tool's object_locations_json argument.",
-    "input_schema": {
-      "type": "object",
-      "properties": {},
-      "required": []
-    },
-    "python_script": "import xml.etree.ElementTree as ET\nimport json\n\nobject_locations = {}\ntry:\n    root = ET.fromstring(map_xml_string)\n    for tile_elem in root.findall('.//Object/..'):\n        obj_elem = tile_elem.find('Object')\n        obj_id = obj_elem.get('id')\n        if obj_id is None or obj_id == '0': # Skip player or objects without an ID\n            continue\n        \n        coord_str = tile_elem.get('coordinate')\n        if coord_str:\n            x_str, y_str = coord_str.strip('()').split(',')\n            x, y = int(x_str.strip()), int(y_str.strip())\n            object_locations[obj_id] = [x, y]\nexcept ET.ParseError:\n    pass\n\nprint(json.dumps(object_locations))",
-    "history": [
-      {
-        "commit_message": "feat: Create tool to automate obstacle detection. This tool, `get_on_screen_object_locations`, parses the map XML to extract the coordinates of all visible objects. This automates the previously manual and error-prone process of populating the `object_locations_json` for the pathfinder, directly addressing a recurring failure pattern of colliding with marked NPCs.",
-        "timestamp": "2025-11-03T08:18:31.715Z",
-        "action_counter": 16736
-      }
-    ]
-  },
   "trace_pathfinder": {
     "description": "A debugging version of generate_path_plan. It finds a path from a start to a target coordinate, printing the state of the BFS queue and visited set at each step to trace the algorithm's execution.",
     "input_schema": {
@@ -524,6 +508,97 @@
         "commit_message": "fix: Correct inverted ledge traversal logic. The tool was created with a copy of an old, buggy version of the `generate_path_plan` script. The logic for preventing movement *onto* a ledge was inverted (e.g., checking `dy == 1` instead of `dy == -1` for a down-ledge). This commit corrects the directional checks to align with game mechanics, resolving the critical pathfinding failure that caused the tool to generate paths up cliffs.",
         "timestamp": "2025-11-03T17:59:43.152Z",
         "action_counter": 17468
+      }
+    ]
+  },
+  "deterministic_battle_strategist": {
+    "description": "A deterministic, non-LLM tool that analyzes battle state and recommends the next action (FIGHT/RUN) and move. A reliable backup for the simple_battle_strategist agent.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "my_pokemon_level": {
+          "type": "integer"
+        },
+        "my_pokemon_hp_current": {
+          "type": "integer"
+        },
+        "my_pokemon_hp_max": {
+          "type": "integer"
+        },
+        "opponent_pokemon_name": {
+          "type": "string"
+        },
+        "opponent_pokemon_level": {
+          "type": "integer",
+          "nullable": true
+        },
+        "move_1_name": {
+          "type": "string"
+        },
+        "move_1_pp_current": {
+          "type": "integer"
+        },
+        "move_2_name": {
+          "type": "string",
+          "nullable": true
+        },
+        "move_2_pp_current": {
+          "type": "integer",
+          "nullable": true
+        },
+        "move_3_name": {
+          "type": "string",
+          "nullable": true
+        },
+        "move_3_pp_current": {
+          "type": "integer",
+          "nullable": true
+        },
+        "move_4_name": {
+          "type": "string",
+          "nullable": true
+        },
+        "move_4_pp_current": {
+          "type": "integer",
+          "nullable": true
+        },
+        "current_objective": {
+          "type": "string",
+          "enum": [
+            "TRAINING",
+            "TRAVELING"
+          ]
+        },
+        "battle_type": {
+          "type": "string",
+          "enum": [
+            "WILD",
+            "TRAINER"
+          ]
+        }
+      },
+      "required": [
+        "my_pokemon_level",
+        "my_pokemon_hp_current",
+        "my_pokemon_hp_max",
+        "opponent_pokemon_name",
+        "move_1_name",
+        "move_1_pp_current",
+        "current_objective",
+        "battle_type"
+      ]
+    },
+    "python_script": "import json\n\n# --- Knowledge Base ---\nKNOWN_POKEMON_TYPES = {\n    'BEEDRILL': ['Bug', 'Poison'], 'BELLSPROUT': ['Grass', 'Poison'], 'CATERPIE': ['Bug'],\n    'CROCONAW': ['Water'], 'DUNSPARCE': ['Normal'], 'EKANS': ['Poison'], 'GASTLY': ['Ghost', 'Poison'],\n    'GEODUDE': ['Rock', 'Ground'], 'HOOTHOOT': ['Normal', 'Flying'], 'HOPPIP': ['Grass', 'Flying'],\n    'KAKUNA': ['Bug', 'Poison'], 'LEDYBA': ['Bug', 'Flying'], 'METAPOD': ['Bug'], 'ODDISH': ['Grass', 'Poison'],\n    'ONIX': ['Rock', 'Ground'], 'PARAS': ['Bug', 'Grass'], 'PIDGEY': ['Normal', 'Flying'], 'POLIWAG': ['Water'],\n    'PSYDUCK': ['Water'], 'RATTATA': ['Normal'], 'SANDSHREW': ['Ground'], 'SCYTHER': ['Bug', 'Flying'],\n    'SLOWPOKE': ['Water', 'Psychic'], 'SPEAROW': ['Normal', 'Flying'], 'SPINARAK': ['Bug', 'Poison'],\n    'VENONAT': ['Bug', 'Poison'], 'VULPIX': ['Fire'], 'WEEDLE': ['Bug', 'Poison'], 'WOOPER': ['Water', 'Ground'],\n    'ZUBAT': ['Poison', 'Flying']\n}\n\nKNOWN_MOVE_TYPES = {\n    'TACKLE': 'Normal', 'QUICK ATTACK': 'Normal', 'EMBER': 'Fire', 'FLAME WHEEL': 'Fire',\n    'HIDDEN POWER': 'Psychic', 'LEER': 'Normal', 'GROWL': 'Normal', 'CHARM': 'Normal'\n}\n\nSTATUS_MOVES = {'LEER', 'GROWL', 'CHARM'}\n\nTYPE_CHART = {\n    'Fire': {'super_effective': ['Bug', 'Grass'], 'not_very_effective': ['Water', 'Fire', 'Rock', 'Ground'], 'no_effect': []},\n    'Ground': {'super_effective': ['Fire'], 'not_very_effective': [], 'no_effect': []},\n    'Normal': {'super_effective': [], 'not_very_effective': ['Rock', 'Ground'], 'no_effect': ['Ghost']},\n    'Psychic': {'super_effective': [], 'not_very_effective': ['Bug'], 'no_effect': []}\n}\n\n# --- Input Parsing ---\nmy_level = int(input_data['my_pokemon_level'])\nopponent_name = input_data['opponent_pokemon_name']\nopponent_level = int(input_data['opponent_pokemon_level']) if input_data.get('opponent_pokemon_level') else None\nobjective = input_data['current_objective']\nbattle_type = input_data['battle_type']\nmy_hp_current = int(input_data['my_pokemon_hp_current'])\nmy_hp_max = int(input_data['my_pokemon_hp_max'])\n\nmoves_input = [\n    (input_data.get('move_1_name'), input_data.get('move_1_pp_current')),\n    (input_data.get('move_2_name'), input_data.get('move_2_pp_current')),\n    (input_data.get('move_3_name'), input_data.get('move_3_pp_current')),\n    (input_data.get('move_4_name'), input_data.get('move_4_pp_current'))\n]\n\nmoves = [(name, int(pp)) for name, pp in moves_input if name and pp is not None]\n\n# --- Logic ---\nif battle_type == 'TRAINER':\n    pass\nelif objective == 'TRAINING':\n    if (my_hp_current / my_hp_max) < 0.25:\n        print(json.dumps({'action': 'RUN', 'move_to_use': None}))\n        exit()\nelse: # Traveling\n    if opponent_level is not None and my_level >= opponent_level + 20:\n        pass # Fall through to fight\n    else:\n        print(json.dumps({'action': 'RUN', 'move_to_use': None}))\n        exit()\n\n# --- Move Selection ---\nopponent_types = KNOWN_POKEMON_TYPES.get(opponent_name, [])\n\nscored_moves = []\nfor name, pp in moves:\n    if pp == 0 or name in STATUS_MOVES:\n        continue\n\n    move_type = KNOWN_MOVE_TYPES.get(name)\n    if not move_type or not opponent_types:\n        effectiveness = 1.0\n    else:\n        effectiveness = 1.0\n        chart = TYPE_CHART.get(move_type, {})\n        for opp_type in opponent_types:\n            if opp_type in chart.get('super_effective', []): effectiveness *= 2.0\n            if opp_type in chart.get('not_very_effective', []): effectiveness *= 0.5\n            if opp_type in chart.get('no_effect', []): effectiveness *= 0.0\n    \n    scored_moves.append({'name': name, 'pp': pp, 'effectiveness': effectiveness})\n\nif not scored_moves:\n    print(json.dumps({'action': 'RUN', 'move_to_use': None}))\n    exit()\n\nbest_move = sorted(scored_moves, key=lambda x: (x['effectiveness'], x['pp']), reverse=True)[0]\n\nprint(json.dumps({'action': 'FIGHT', 'move_to_use': best_move['name']}))\n",
+    "history": [
+      {
+        "commit_message": "feat: Create deterministic battle strategist. This tool replaces the unreliable simple_battle_strategist agent, which has been failing due to server errors. It uses a hardcoded type chart and logic to provide a stable and consistent source of battle advice, directly addressing a critical system critique.",
+        "timestamp": "2025-11-03T18:25:45.289Z",
+        "action_counter": 17503
+      },
+      {
+        "commit_message": "fix: Correctly filter status moves. The previous version had a flawed check that failed to exclude status moves like LEER, causing it to give incorrect battle advice. This commit introduces a dedicated `STATUS_MOVES` set and adds a clear check (`if name in STATUS_MOVES`) to the move evaluation loop, ensuring that only damaging moves are considered. This resolves the critical logic bug.",
+        "timestamp": "2025-11-03T18:29:57.269Z",
+        "action_counter": 17510
       }
     ]
   }
