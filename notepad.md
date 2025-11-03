@@ -201,6 +201,7 @@
   3. Another item or a specific non-Unown Pokémon is needed to interact with the wall.
 
 # Tool Usage Protocols
+- When using the `select_battle_option` tool, the `buttons_to_press` array must be set to `["tool"]` and nothing else. The tool handles the button presses automatically.
 
 # My Custom Tools & Agents
 - `generate_path_plan`: Generates a sequence of coordinates to navigate from the player's current position to a target coordinate.
