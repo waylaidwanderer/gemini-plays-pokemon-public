@@ -420,7 +420,3 @@
   - **Alternative Hypothesis:** The solution is a different item found elsewhere, a specific Pokémon move, or a story flag triggered in the current region.
   - **Test to Disprove:** If I cannot reach Goldenrod City, I must exhaust all other leads, which may indirectly provide the solution for the tree.
 - **RECURRING FAILURE - Mistrust of Tools (Turn 16917):** Wasted multiple turns trying to 'fix' the `list_reachable_unseen_tiles` tool. The tool correctly reported that there were no reachable unseen tiles in the current section of Union Cave B1F, but I assumed it was broken instead of concluding I was in a dead end. This highlights a critical need to trust my tools' outputs, especially when they contradict my strategic assumptions.
-
-# Immediate Tasks (from System Critique)
-- Place map marker for defeated SUPER_NERD at (4, 21) on map 3_37.
-- Place map marker for dead end at ladder (7, 19) on map 3_38.
