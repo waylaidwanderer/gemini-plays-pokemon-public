@@ -202,11 +202,20 @@
 # Tool Usage Protocols
 - When using the `select_battle_option` tool, the `buttons_to_press` array must be set to `["tool"]` and nothing else. The tool handles the button presses automatically.
 
-# My Custom Tools & Agents
+# My Tools & Agents
+## Built-in Tools
+- `notepad_edit`: Edits my persistent notepad.
+- `run_code`: Executes single-use Python code.
+- `define_map_marker` / `delete_map_marker`: Manages map markers.
+- `define_agent` / `delete_agent`: Manages custom agents.
+- `define_tool` / `delete_tool`: Manages custom tools.
+
+## Custom Tools & Agents
 - `generate_path_plan`: Generates a sequence of coordinates to navigate from the player's current position to a target coordinate.
   - **CRITICAL PROCESS:** To prevent pathing into known off-screen obstacles, I MUST consult my notepad and map markers for the target map *before* calling this tool. The coordinates of any known impassable NPCs or other temporary blockades must be manually added to the `object_locations_json` argument.
 - `find_adjacent_traversable_tiles`: Identifies all adjacent tiles to a given coordinate that are traversable.
 - `simple_battle_strategist` (Agent): Analyzes battle state and recommends actions.
+  - **CRITICAL PROCESS:** Whenever a new Pokémon's type is discovered in battle, I must immediately update this agent's system prompt to include this new information in its 'KNOWN POKEMON TYPES' list.
 - `notepad_refactor_assistant` (Agent): Refactors notepad content based on a goal.
 - `debugging_assistant` (Agent): Analyzes and corrects faulty Python scripts.
 - `select_battle_option`: Automatically selects a main battle menu option.
