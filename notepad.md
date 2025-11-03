@@ -93,7 +93,6 @@
 ## Untested Mechanics & Hypotheses
 - Test the damage of EMBER vs. QUICK ATTACK on a Water-type.
 - Test `HEADBUTT_TREE`s by interacting with them with different Pokémon in the lead to see if any move can be used.
-- Test traversability of BUOY tiles.
 - Rigorously test all one-way tiles (e.g., LEDGE_HOP_DOWN/LEFT/RIGHT, FLOOR_UP_WALL on Union Cave 1F) by attempting to move in all four directions from them to definitively confirm their movement restrictions.
 - Test TALL_GRASS on Route 36.
 - Test `WARP_CARPET_LEFT` again to determine consistent activation method.
