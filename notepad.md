@@ -226,6 +226,14 @@
 - `define_agent` / `delete_agent`: Manages custom agents.
 - `define_tool` / `delete_tool`: Manages custom tools.
 
+# My Tools & Agents
+## Built-in Tools
+- `notepad_edit`: Edits my persistent notepad.
+- `run_code`: Executes single-use Python code.
+- `define_map_marker` / `delete_map_marker`: Manages map markers.
+- `define_agent` / `delete_agent`: Manages custom agents.
+- `define_tool` / `delete_tool`: Manages custom tools.
+
 ## Custom Tools & Agents
 - `generate_path_plan`: Generates a sequence of coordinates to navigate from the player's current position to a target coordinate.
   - **CRITICAL PROCESS:** To prevent pathing into known off-screen obstacles, I MUST consult my notepad and map markers for the target map *before* calling this tool. The coordinates of any known impassable NPCs or other temporary blockades must be manually added to the `object_locations_json` argument.
