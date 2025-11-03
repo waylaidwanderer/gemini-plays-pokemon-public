@@ -146,8 +146,15 @@
 - The tree must be interacted with from the tile directly below it (35, 10). (Status: Untestable as of Turn 17023. Path confirmed to be blocked by `generate_path_plan` tool.)
 
 ### Dark Cave Exploration
-- **Objective:** Fully explore Dark Cave, as it represents the next most promising avenue for progress.
-- **Background:** The 'Odd Tree' on Route 36 is an impassable story-block, and further exploration of Violet City yielded no new paths. My current strategic pivot is to fully explore Dark Cave, as mentioned by Hiker Anthony.
+- **Objective:** Fully explore Dark Cave to find an alternative route to Goldenrod City.
+- **Background:** The 'Odd Tree' on Route 36 is an impassable story-block. My current strategic pivot is to fully explore Dark Cave, as Hiker Anthony's repeated calls suggest its importance.
+- **Hypothesis:** Dark Cave contains a path that bypasses the 'Odd Tree' and leads towards Goldenrod City.
+- **Exploration Plan:**
+  1. Enter Dark Cave from the most promising entrance (likely through Union Cave, as the Route 31 entrance was a dead end).
+  2. Systematically explore every path, prioritizing unseen tiles.
+  3. Use Flash if necessary and available to illuminate dark areas.
+  4. Document any branching paths, obstacles (like water or boulders), and potential HM requirements.
+  5. If a path leads to a new exit, mark the location and explore the new area.
 
 ## Completed Investigations
 
