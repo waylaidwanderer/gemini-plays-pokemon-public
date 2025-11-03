@@ -87,6 +87,9 @@
 - Psychic is not very effective against Bug. (Verified vs Caterpie)
 - Fire is super-effective against Bug/Grass. (Verified vs Paras)
 
+*Pokémon Types Discovered*:
+- SANDSHREW: Ground
+
 ### PC Storage
 - Currently empty.
 
