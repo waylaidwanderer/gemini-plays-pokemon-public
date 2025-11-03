@@ -163,28 +163,14 @@
 - **Observations:**
   - The path to the clerk is blocked. Talking to the Cooltrainer M at (5, 2) does not open it.
 
-### Ilex Forest FARFETCH'D Puzzle
-- **Objective:** Herd the FARFETCH'D back to the apprentice at (7, 28).
-- **Background:** The Charcoal Man's apprentice is at (7, 28) in Ilex Forest. His FARFETCH'D, which knows CUT, has run off. I need to find the FARFETCH'D to get CUT. This was mentioned by a Youngster (6, 9) and the Charcoal Man himself (2, 3).
-- **Layout Discovery:** Ilex Forest is divided into two disconnected sections. My `generate_path_plan` tool correctly reported that no path exists from the eastern entrance (from Azalea Town) to the western section where the puzzle continues. Further progress on the puzzle is impossible from this side. I must find an alternative route to the other side of the forest, or another path forward entirely.
-- **Puzzle Mechanics & Discoveries:**
-  - **Core Mechanic:** The bird's movement is triggered by player interaction from specific coordinates and with a specific facing, not just the direction of approach.
-  - **Key Breakthrough:** The player's X-coordinate when interacting from *below* the FARFETCH'D at its starting position (15, 25) determines its destination.
-    - Interacting from (15, 24) causes the bird to move south to (15, 29).
-    - Interacting from (15, 26) causes the bird to move east to (20, 24).
-  - **Triggers & Rules:**
-    - Stepping on the one-way ledge at (27, 22) triggers the FARFETCH'D to appear at (29, 22). (Verified Turn 14344)
-    - Defeating a wild Pokémon is a trigger that causes the FARFETCH'D to appear at (20, 24). (Verified Turn 14372)
-    - Walking to the dead end at (29, 33) and then returning to the area has repeatedly failed to make the FARFETCH'D appear. This trigger is inconsistent and unreliable.
-  - **Failure Conditions:** Interacting from the wrong tile (e.g., side, front, or above) at various puzzle stages triggers the 'Kwaa!' dialogue and resets its position or fails to move it. This has been verified at multiple locations: from the side at (28, 22) to (29, 22), from above at (20, 23) to (20, 24) [Verified Turn 17587], and from (29, 23) to (29, 22).
-- **Hypotheses & Tests (Log of Disproven Ideas):**
-  - **Lead Pokémon:** The lead Pokémon has no effect on a simple 'A' press interaction.
-  - **Twig Piles:** Stepping on the twig pile at (14, 27) does not alter the outcome of subsequent interactions with the bird.
-- **Current Investigation Plan: ARCHIVED** - This puzzle is currently unsolvable from this section of the forest. Pivoting to other objectives.
-- **Alternative Hypotheses (Untested):**
-  - **Puzzle Mechanics:** The puzzle requires a specific key item (like a Squirtbottle), a Pokémon move (like Headbutt) used on the environment, or is dependent on the time of day.
-  - **Strategic Alternatives:** HM01 Cut may be obtained from a different NPC or location entirely. The western part of Ilex Forest might be accessible from a different, undiscovered entrance.
-- **Note on Failures:** This puzzle has been the source of severe and recurring state-tracking failures, including repeatedly hallucinating my position (e.g., at Turns 9586, 9591, & 9608).
+### Ilex Forest FARFETCH'D Puzzle (Archived)
+- **Conclusion:** The eastern section of Ilex Forest, where this puzzle takes place, is a dead end. The puzzle is currently unsolvable from this side, as confirmed by `generate_path_plan` being unable to find a path to key areas like the Ilex Forest Shrine. All hypotheses related to solving this puzzle via movement have been exhausted.
+- **Key Findings:**
+  - **Layout:** The forest is split into disconnected eastern and western sections.
+  - **Core Mechanic:** The bird's movement is triggered by player interaction from specific coordinates and facing directions.
+  - **Successful Triggers:** Interacting from below at (15, 26) moves the bird to (20, 24). Stepping on the ledge at (27, 22) makes it appear at (29, 22).
+  - **Failure Conditions:** Interacting from the front (e.g., at (20, 23)), side (e.g., at (28, 22)), or with no bird present fails and/or resets the puzzle. Stepping on twig piles had no effect.
+- **Untested Alternatives:** The solution may require a key item (e.g., Squirtbottle), a specific Pokémon move used on the environment, or be time-dependent.
 
 ### Sprout Tower 2F Pillar Puzzle
 - **Objective:** Determine how to move the central pillar on 2F again.
@@ -234,8 +220,7 @@
 - **Puzzle Solver Strategist Agent:** Could take puzzle context (NPC dialogue, location, failed attempts) and suggest the next logical hypothesis to test, preventing loops.
 - **Navigation Manager Agent/Tool:** Could automate multi-map navigation, including pathfinding, executing movement, handling battle interruptions, and re-pathfinding.
 - **Exploration Strategist Agent:** Could take the output of `find_reachable_unseen_tiles` and suggest the most strategically valuable tile to explore next (e.g., closest, or one leading to a cluster).
-- **Pathing Failure Analyst Agent:** Could analyze movement blockages and suggest specific solutions (e.g., stun NPC, find alternate route).
-- **Pathing Failure Analyst Tool:** A tool that takes a navigation goal, automatically detects a 'Movement Blocked' error, identifies the blocking NPC from the path plan, and re-calls `generate_path_plan` with the NPC's coordinates in `object_locations_json`.
+- **Pathing Failure Analyst Tool (High Priority):** A tool that takes a navigation goal, automatically detects a 'Movement Blocked' error, identifies the cause (wild battle vs. object), and re-calls the appropriate pathfinder with the obstacle's coordinates if necessary.
 - **Battle Recovery Agent:** Could analyze a failed battle state (e.g., wrong menu) and generate the button presses to recover and return to the intended action.
 - **Reflection Assistant Agent:** Could analyze the last 50 turns of logs to generate a summary of process violations, suggest new tools, and identify untested assumptions, automating the reflection process.
 - **`generate_path_plan` refinement:** Add an optional `avoid_warps` boolean parameter to prevent accidental map transitions.
