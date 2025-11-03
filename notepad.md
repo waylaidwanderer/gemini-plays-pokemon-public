@@ -121,8 +121,8 @@
 - **Key Findings:**
   - **Layout:** The path through the forest is a puzzle involving guiding a FARFETCH'D. The direct path east is blocked by a CUT_TREE that can only be passed after obtaining the HM.
   - **Core Mechanic:** The bird's movement is triggered by player interaction from specific coordinates and facing directions.
-  - **Successful Triggers:** Interacting from below at (15, 26) moves the bird to (20, 24). Stepping on the ledge at (27, 22) *once* made it appear at (29, 22). Stepping on (29, 33) *once* made it appear at (28, 31).
-  - **Failure Conditions:** Interacting from the front (e.g., at (20, 23)), side (e.g., at (28, 22)), or from behind (e.g., at (29, 23)) fails and/or resets the puzzle. Stepping on twig piles had no effect.
+  - **Observed Triggers:** Interacting from below at (15, 26) moves the bird to (20, 24). Stepping on the ledge at (27, 22) makes it appear at (29, 22). These triggers have proven to be inconsistent and may not always work.
+  - **Failure Conditions:** Interacting from the front (e.g., at (20, 23)), side (e.g., at (28, 22)), or with no bird present fails and/or resets the puzzle. Stepping on twig piles had no effect.
 - **Untested Alternatives:** The solution may require a key item (e.g., Squirtbottle), a specific Pokémon move used on the environment, or be time-dependent.
 - **Hypothesis 3:** Leaving and re-entering the map will reset the puzzle and make the Farfetch'd reappear at its starting position (15, 25).
   - **Test 1:** Exited Ilex Forest to the gatehouse, then immediately re-entered and returned to (15, 26).
@@ -136,10 +136,6 @@
   - **Test 1:** Stood at (15, 25), faced up, and pressed 'A'.
   - **Result:** Nothing happened; no text appeared and no object spawned.
   - **Conclusion:** Hypothesis 5 is disproven. A simple interaction with the empty starting tile is not the solution.
-- **Hypothesis 5:** Stepping on the tile at (29, 33) will make the Farfetch'd reappear.
-  - **Test 1:** Navigated to (29, 33).
-  - **Result:** The Farfetch'd object was not visible on screen.
-  - **Conclusion:** Hypothesis 5 is disproven. This trigger also appears to be inconsistent or requires other conditions to be met.
 
 ### Route 36 'Odd Tree' Puzzle
 - **Objective:** Get past the tree blocking the path at (35, 9).
@@ -251,7 +247,7 @@
 ### Core Failure Patterns (Summarized)
 - **RECURRING HALLUCINATION - Position & Map State:** A recurring failure where I believe I am at a different (x, y) coordinate or on a different map than my actual location. This has led to invalid pathing, incorrect map markers, and failed interactions. (Occurrences: Turns 5590, 5961, 6045, 6050, 8947, 9586, 9591, 9608, 10817, 10846, 11621-11639, 12268).
 - **RECURRING HALLUCINATION - Warps & Transitions:** Repeatedly believing a map transition was successful when it was not, or hallucinating the existence of warps at incorrect coordinates. This has caused pathfinder crashes and invalidated multi-turn plans. (Occurrences: Turns 7443, 8421, 8517, 10445, 10615, 11105, 11872, 11928).
-- **RECURRING HALLUCination - Tool & Data State:** A critical pattern of either believing a tool exists when it does not, misremembering the state of my own notepad and map markers, or repeatedly attempting to "fix" an already correct tool or entry. This leads to wasted turns on debugging and operating on flawed data. (Occurrences: Turns 4838-4866, 5640, 5981, 8944-8945, 9522, 10624-10626, 12372-12374, 13022, 13600-13606).
+- **RECURRING HALLUCINATION - Tool & Data State:** A critical pattern of either believing a tool exists when it does not, misremembering the state of my own notepad and map markers, or repeatedly attempting to "fix" an already correct tool or entry. This leads to wasted turns on debugging and operating on flawed data. (Occurrences: Turns 4838-4866, 5640, 5981, 8944-8945, 9522, 10624-10626, 12372-12374, 13022, 13600-13606).
 - **RECURRING FAILURE - Mistrust of Tools:** A critical failure pattern of assuming a working tool is broken, particularly when it reports a dead end or no path. This has led to extensive, wasted debugging cycles on correct code instead of trusting the tool's output and re-evaluating my strategic assumptions. (Occurrences: Pathfinder on Route 32, Turns 7142-7147, 8539-8541, 10746-10776, 10908-10911, 14554, 16917, 17023).
 
 ### Specific Failure Incidents & Process Violations
