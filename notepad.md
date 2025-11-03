@@ -432,3 +432,7 @@
   - **Test 1:** Exited Ilex Forest to the gatehouse, then immediately re-entered and returned to (15, 26).
   - **Result:** The Farfetch'd object was not visible on screen at (15, 25).
   - **Conclusion:** Hypothesis 3 is disproven. A simple map reset is not the solution.
+- **Hypothesis 4:** Stepping on the ledge at (27, 22) will make the Farfetch'd reappear at (29, 22).
+  - **Test 1:** Navigated to (27, 22) and stepped on the ledge, automatically moving to (28, 22).
+  - **Result:** The Farfetch'd object was not visible on screen at (29, 22) or anywhere else.
+  - **Conclusion:** Hypothesis 4 is disproven. The ledge trigger did not work as expected.
