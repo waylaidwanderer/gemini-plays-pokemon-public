@@ -210,7 +210,6 @@
 - `define_tool` / `delete_tool`: Manages custom tools.
 - `stun_npc`: Temporarily stuns an NPC, allowing interaction or passage.
 - `select_battle_option`
-- `select_battle_option`
 
 ## Custom Tools & Agents
 - `generate_path_plan`: Generates a sequence of coordinates to navigate from the player's current position to a target coordinate.
@@ -236,6 +235,7 @@
 - **`generate_path_plan` refinement:** Add an optional `avoid_warps` boolean parameter to prevent accidental map transitions.
 - **Tool Debugger Orchestrator Agent:** An agent to automate the multi-step process of identifying a tool bug, calling the `debugging_assistant`, applying the fix with `define_tool`, and re-running the failing test case to verify the fix.
 - **Automated Obstacle Avoidance Tool:** A tool that combines `get_on_screen_object_locations` and `generate_path_plan` to automatically detect and path around temporary obstacles without requiring manual addition of `object_locations_json`.
+- **Deterministic Battle Strategist Tool:** A non-LLM tool that takes battle state as input and returns the best move based on a hardcoded type chart and logic. This would be a reliable backup for the `simple_battle_strategist` agent.
 
 # Appendix: Failure Log
 
