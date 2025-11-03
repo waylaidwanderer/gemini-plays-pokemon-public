@@ -427,3 +427,8 @@
 - **CRITICAL REASONING FAILURE (Turns 17345-17353):** Mistrusted my working `generate_path_plan` tool when it reported no path. The `trace_pathfinder` output on Turn 17352 confirmed the path was genuinely blocked by a wall, proving the tool was correct. This is a repeat of a major failure pattern of not trusting my own tools.
 - **CRITICAL REASONING FAILURE (Turns 17355-17357):** Mistrusted my working `generate_path_plan` tool when it reported no path on Union Cave 1F. The `trace_pathfinder` output confirmed the path was genuinely blocked by a wall, proving the tool was correct. This is a repeat of a major failure pattern of not trusting my own tools.
 - WEEDLE: Bug/Poison
+
+- **Hypothesis 3:** Leaving and re-entering the map will reset the puzzle and make the Farfetch'd reappear at its starting position (15, 25).
+  - **Test 1:** Exited Ilex Forest to the gatehouse, then immediately re-entered and returned to (15, 26).
+  - **Result:** The Farfetch'd object was not visible on screen at (15, 25).
+  - **Conclusion:** Hypothesis 3 is disproven. A simple map reset is not the solution.
