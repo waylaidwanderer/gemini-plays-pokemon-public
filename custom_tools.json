@@ -487,5 +487,44 @@
         "action_counter": 17356
       }
     ]
+  },
+  "path_with_obstacle_avoidance": {
+    "description": "A combined pathfinding tool that first automatically detects on-screen obstacles and then generates a path to the target, avoiding them. This automates the two-step process of calling get_on_screen_object_locations and then generate_path_plan.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "start_x": {
+          "type": "string"
+        },
+        "start_y": {
+          "type": "string"
+        },
+        "target_x": {
+          "type": "string"
+        },
+        "target_y": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "start_x",
+        "start_y",
+        "target_x",
+        "target_y"
+      ]
+    },
+    "python_script": "import xml.etree.ElementTree as ET\nimport collections\nimport json\nimport sys\n\n# --- Start of combined logic from get_on_screen_object_locations ---\nobject_locations = {}\ntry:\n    root = ET.fromstring(map_xml_string)\n    for tile_elem in root.findall('.//Object/..'):\n        obj_elem = tile_elem.find('Object')\n        obj_id = obj_elem.get('id')\n        if obj_id is None or obj_id == '0': # Skip player\n            continue\n        \n        coord_str = tile_elem.get('coordinate')\n        if coord_str:\n            x_str, y_str = coord_str.strip('()').split(',')\n            x, y = int(x_str.strip()), int(y_str.strip())\n            object_locations[obj_id] = [x, y]\nexcept ET.ParseError:\n    pass\nobject_locations_json_str = json.dumps(object_locations)\n# --- End of combined logic ---\n\n# --- Start of logic from generate_path_plan ---\nstart_x_str = input_data['start_x']\nstart_y_str = input_data['start_y']\ntarget_x_str = input_data['target_x']\ntarget_y_str = input_data['target_y']\n\nstart_x, start_y = int(start_x_str), int(start_y_str)\ntarget_x, target_y = int(target_x_str), int(target_y_str)\n\nroot = ET.fromstring(map_xml_string)\nmap_id = root.get('id')\nimpassable_types = {'WALL', 'WATER', 'COUNTER', 'MART_SHELF', 'PC', 'TV', 'BOOKSHELF', 'RADIO', 'TOWN_MAP', 'WINDOW', 'CUT_TREE', 'HEADBUTT_TREE'}\n\ntile_data = {}\nfor tile_elem in root.findall('.//Tile'):\n    coord_str = tile_elem.get('coordinate')\n    x_str, y_str = coord_str.strip('()').split(',')\n    x, y = int(x_str.strip()), int(y_str.strip())\n    tile_data[(x, y)] = {'type': tile_elem.get('type'), 'is_warp': tile_elem.get('is-warp') == 'true'}\n\nobstacle_coords = set()\nif object_locations_json_str and object_locations_json_str != 'null':\n    try:\n        loaded_locations = json.loads(object_locations_json_str)\n        if isinstance(loaded_locations, dict):\n            for obj_id, coords in loaded_locations.items():\n                if isinstance(coords, list) and len(coords) == 2:\n                    obstacle_coords.add((int(coords[0]), int(coords[1])))\n    except (json.JSONDecodeError, TypeError):\n        pass\n\nstart_node = (start_x, start_y)\ntarget_node = (target_x, target_y)\n\nqueue = collections.deque([[start_node]])\nvisited = {start_node}\n\nwhile queue:\n    path = queue.popleft()\n    x, y = path[-1]\n\n    if (x, y) == target_node:\n        print(json.dumps([{'x': px, 'y': py} for px, py in path]))\n        sys.exit()\n\n    for dx, dy in [(0, -1), (0, 1), (-1, 0), (1, 0)]:\n        nx, ny = x + dx, y + dy\n        neighbor_node = (nx, ny)\n\n        if neighbor_node in visited or neighbor_node not in tile_data:\n            continue\n        \n        if neighbor_node in obstacle_coords:\n            continue\n\n        current_tile_data = tile_data.get((x,y))\n        neighbor_tile_data = tile_data.get(neighbor_node)\n\n        current_tile_type = current_tile_data['type']\n        neighbor_tile_type = neighbor_tile_data['type']\n\n        if neighbor_tile_type in impassable_types:\n            continue\n        \n        if neighbor_tile_data['is_warp'] and neighbor_node != target_node:\n            continue\n\n        if current_tile_type == 'LEDGE_HOP_DOWN' and dy == -1: continue\n        if current_tile_type == 'LEDGE_HOP_LEFT' and dx == 1: continue\n        if current_tile_type == 'LEDGE_HOP_RIGHT' and dx == -1: continue\n        if current_tile_type == 'FLOOR_UP_WALL' and dy == -1 and map_id == '3_37': continue\n\n        # Corrected logic for moving ONTO a ledge\n        if neighbor_tile_type == 'LEDGE_HOP_DOWN' and dy == -1: continue\n        if neighbor_tile_type == 'LEDGE_HOP_LEFT' and dx == 1: continue\n        if neighbor_tile_type == 'LEDGE_HOP_RIGHT' and dx == -1: continue\n        \n        if neighbor_tile_type == 'FLOOR_UP_WALL' and dy == 1 and map_id in ['10_9', '10_1', '3_37', '3_38', '3_78']:\n            continue\n        \n        visited.add(neighbor_node)\n        new_path = list(path)\n        new_path.append(neighbor_node)\n        queue.append(new_path)\n\nprint(json.dumps([]))",
+    "history": [
+      {
+        "commit_message": "feat: Create automated obstacle avoidance pathfinder. This new tool, `path_with_obstacle_avoidance`, combines the functionality of `get_on_screen_object_locations` and `generate_path_plan` into a single call. It automatically detects on-screen NPCs and treats them as obstacles, streamlining the re-pathing process after an interruption and addressing a recurring process failure of not accounting for on-screen objects.",
+        "timestamp": "2025-11-03T17:58:14.496Z",
+        "action_counter": 17465
+      },
+      {
+        "commit_message": "fix: Correct inverted ledge traversal logic. The tool was created with a copy of an old, buggy version of the `generate_path_plan` script. The logic for preventing movement *onto* a ledge was inverted (e.g., checking `dy == 1` instead of `dy == -1` for a down-ledge). This commit corrects the directional checks to align with game mechanics, resolving the critical pathfinding failure that caused the tool to generate paths up cliffs.",
+        "timestamp": "2025-11-03T17:59:43.152Z",
+        "action_counter": 17468
+      }
+    ]
   }
 }
