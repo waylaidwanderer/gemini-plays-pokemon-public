@@ -216,7 +216,6 @@
   - **CRITICAL PROCESS:** Whenever a new Pokémon's type is discovered in battle, I must immediately update this agent's system prompt to include this new information in its 'KNOWN POKEMON TYPES' list.
 - `notepad_refactor_assistant` (Agent): Refactors notepad content based on a goal.
 - `debugging_assistant` (Agent): Analyzes and corrects faulty Python scripts.
-- `select_battle_option`: Automatically selects a main battle menu option.
 
 # Future Development
 ## Tool & Agent Ideas
