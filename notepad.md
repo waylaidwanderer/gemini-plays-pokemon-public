@@ -451,3 +451,4 @@
   - **Test:** Stood at (15, 26), faced the bird, and pressed 'A'.
   - **Result:** Success! The FARFETCH'D moved to (20, 24).
   - **Conclusion:** Hypothesis 3 is proven. The player's position below the bird is a key trigger.
+- **Failure Condition Confirmed:** Interacting with the FARFETCH'D at (20, 24) from the tile directly above it (20, 23) triggers the 'Kwaa!' dialogue and causes the bird to disappear, resetting the puzzle. (Verified Turn 17587)
