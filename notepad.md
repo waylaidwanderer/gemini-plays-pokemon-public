@@ -209,30 +209,7 @@
 - `define_map_marker` / `delete_map_marker`: Manages map markers.
 - `define_agent` / `delete_agent`: Manages custom agents.
 - `define_tool` / `delete_tool`: Manages custom tools.
-
-# My Tools & Agents
-## Built-in Tools
-- `notepad_edit`: Edits my persistent notepad.
-- `run_code`: Executes single-use Python code.
-- `define_map_marker` / `delete_map_marker`: Manages map markers.
-- `define_agent` / `delete_agent`: Manages custom agents.
-- `define_tool` / `delete_tool`: Manages custom tools.
-
-# My Tools & Agents
-## Built-in Tools
-- `notepad_edit`: Edits my persistent notepad.
-- `run_code`: Executes single-use Python code.
-- `define_map_marker` / `delete_map_marker`: Manages map markers.
-- `define_agent` / `delete_agent`: Manages custom agents.
-- `define_tool` / `delete_tool`: Manages custom tools.
-
-# My Tools & Agents
-## Built-in Tools
-- `notepad_edit`: Edits my persistent notepad.
-- `run_code`: Executes single-use Python code.
-- `define_map_marker` / `delete_map_marker`: Manages map markers.
-- `define_agent` / `delete_agent`: Manages custom agents.
-- `define_tool` / `delete_tool`: Manages custom tools.
+- `stun_npc`: Temporarily stuns an NPC, allowing interaction or passage.
 
 ## Custom Tools & Agents
 - `generate_path_plan`: Generates a sequence of coordinates to navigate from the player's current position to a target coordinate.
