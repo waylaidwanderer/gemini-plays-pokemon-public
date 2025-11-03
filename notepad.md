@@ -91,6 +91,16 @@
 ### PC Storage
 - Currently empty.
 
+## TMs & HMs
+### TM31 MUD-SLAP
+- **Description:** Reduces the foe's accuracy.
+- **Compatible Party Pokémon:** Ignis (Quilava), Aether (Pidgey), O (Togepi).
+- **Incompatible Party Pokémon:** Glyph (Unown).
+### HM05 FLASH
+- **Description:** Blinds the foe to reduce accuracy. Lights up dark caves.
+- **Compatible Party Pokémon:** O (Togepi).
+- **Incompatible Party Pokémon:** Ignis (Quilava), Glyph (Unown), Aether (Pidgey).
+
 ## Untested Mechanics & Hypotheses
 - Test the damage of EMBER vs. QUICK ATTACK on a Water-type.
 - Test `HEADBUTT_TREE`s by interacting with them with different Pokémon in the lead to see if any move can be used.
@@ -227,6 +237,7 @@
 - **Pathfinder Tracer Tool:** A tool that takes start/end coordinates and simulates the BFS search step-by-step, printing the queue and visited set at each iteration to make debugging easier.
 - **Tool Debugger Orchestrator Agent:** An agent to automate the multi-step process of identifying a tool bug, calling the `debugging_assistant`, applying the fix with `define_tool`, and re-running the failing test case to verify the fix.
 - **Reachable Unseen Tiles Tool (High Priority):** A tool that takes the list of unseen tiles adjacent to walkable areas, parses the map XML, and returns a list of only those tiles that are actually reachable from the player's current position.
+- **Automated Obstacle Avoidance Tool:** A tool that combines `get_on_screen_object_locations` and `generate_path_plan` to automatically detect and path around temporary obstacles without requiring manual addition of `object_locations_json`.
 
 # Appendix: Failure Log
 
@@ -269,19 +280,6 @@
 ## Reflection-Based Updates (Turn 11955)
 - **Untested Mechanics:** Added tasks to my hypotheses list to explicitly test the one-way traversal of all `LEDGE_HOP` types by attempting to move against their intended direction.
 - **Alternative Hypotheses Logged:** Documented alternative hypotheses for my current roadblocks. For Dark Cave, the possibility of a hidden passage. For the FARFETCH'D puzzle, the possibility that it is currently unsolvable without a specific item.
-
-## Union Cave 1F Tile Mechanics
-- **Task:** Check which Pokémon can learn TM31 MUD-SLAP.
-
-## TMs & HMs
-### TM31 MUD-SLAP
-- **Description:** Reduces the foe's accuracy.
-- **Compatible Party Pokémon:** Ignis (Quilava), Aether (Pidgey), O (Togepi).
-- **Incompatible Party Pokémon:** Glyph (Unown).
-### HM05 FLASH
-- **Description:** Blinds the foe to reduce accuracy. Lights up dark caves.
-- **Compatible Party Pokémon:** O (Togepi).
-- **Incompatible Party Pokémon:** Ignis (Quilava), Glyph (Unown), Aether (Pidgey).
 
 - **CRITICAL HALLUCINATION (Turn 12268):** Believed I was at position (7, 19) when I was actually at (6, 19) after moving. This is a state-tracking failure.
 
