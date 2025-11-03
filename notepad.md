@@ -450,3 +450,11 @@
   - **Result:** Success! The FARFETCH'D moved to (20, 24).
   - **Conclusion:** Hypothesis 3 is proven. The player's position below the bird is a key trigger.
 - **Failure Condition Confirmed:** Interacting with the FARFETCH'D at (20, 24) from the tile directly above it (20, 23) triggers the 'Kwaa!' dialogue and causes the bird to disappear, resetting the puzzle. (Verified Turn 17587)
+
+### Ilex Forest FARFETCH'D Puzzle - Alternative Hypotheses (from Reflection)
+- **Assumption 1:** The puzzle *must* be solved to get HM Cut.
+  - **Alternative Hypothesis:** HM Cut is obtained elsewhere, and this puzzle is for a different reward.
+  - **Test to Disprove:** If all logical puzzle hypotheses are exhausted, pivot to exploring all other world paths.
+- **Assumption 2:** The puzzle solution only involves player movement and interaction.
+  - **Alternative Hypothesis:** The puzzle requires a specific key item, a Pokémon move used on the environment, or is time-dependent (day/night).
+  - **Test to Disprove:** After exhausting movement hypotheses, systematically test items, environmental moves, and return at different times of day.
