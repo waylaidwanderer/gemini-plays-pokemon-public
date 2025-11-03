@@ -444,3 +444,4 @@
 - **Verification:** This was confirmed by the `trace_pathfinder` tool's output on Turn 17348, which correctly identified the tile at (7, 24) as impassable from (7, 23).
 - **CRITICAL REASONING FAILURE (Turns 17345-17353):** Mistrusted my working `generate_path_plan` tool when it reported no path. The `trace_pathfinder` output on Turn 17352 confirmed the path was genuinely blocked by a wall, proving the tool was correct. This is a repeat of a major failure pattern of not trusting my own tools.
 - **CRITICAL REASONING FAILURE (Turns 17355-17357):** Mistrusted my working `generate_path_plan` tool when it reported no path on Union Cave 1F. The `trace_pathfinder` output confirmed the path was genuinely blocked by a wall, proving the tool was correct. This is a repeat of a major failure pattern of not trusting my own tools.
+- WEEDLE: Bug/Poison
