@@ -206,6 +206,7 @@
 - `define_agent` / `delete_agent`: Manages custom agents.
 - `define_tool` / `delete_tool`: Manages custom tools.
 - `stun_npc`: Temporarily stuns an NPC, allowing interaction or passage.
+- `delete_tool`: Deletes a custom tool.
 
 ## Custom Tools & Agents
 - `generate_path_plan`: Generates a sequence of coordinates to navigate from the player's current position to a target coordinate.
