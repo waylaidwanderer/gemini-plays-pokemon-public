@@ -407,3 +407,4 @@
 - **CRITICAL HALLUCINATION (Turn 19485):** Believed I had already arrived at (26, 22) after calling my pathing tool, when I was still at my starting position of (28, 22). This caused me to execute an incorrect action ('Right') based on a hallucinated position, further deviating from my plan.
   - Leaving and re-entering Ilex Forest does not reliably reset the Farfetch'd to its starting position at (15, 25). (Verified Turn 19443)
   - Stepping on the trigger ledge at (27, 22) does not reliably make the Farfetch'd reappear. (Verified Turn 19481)
+- **Strategic Planner Agent:** Takes current goals, location, and party status to suggest the next major objective pivot when stuck.
