@@ -632,6 +632,7 @@
   - Misinterpreted an object-linked map marker for the FARFETCH'D, believing it was at its starting position when it was off-screen (Turns 13600-13606).
   - Believed I had a tool named `list_reachable_unseen_tiles` and that `path_to_closest_unseen_tile` did not exist (Turns 12372-12374).
   - Suffered severe, repeated positional hallucinations in Ilex Forest, invalidating puzzle-solving plans (e.g., Turn 19418, 19421, 19485).
+  - **CRITICAL HALLUCINATION (Turn 19701):** Believed I had successfully exited Union Cave and was on Route 33 at (11, 10). In reality, I was still on UnionCave1F at (17, 21), and my pathing tool was interrupted at (16, 12) by a wild encounter. This is a severe failure of location and map awareness.
 
 ## 2. Mistrust of Tools
 - **Description:** A critical failure pattern of assuming a working tool is broken, particularly when it reports a dead end or no path. This has led to extensive, wasted debugging cycles instead of re-evaluating strategic assumptions.
