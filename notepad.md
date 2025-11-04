@@ -418,3 +418,9 @@
   - Talking to the apprentice at (7, 28) after the Farfetch'd has despawned does not reset the puzzle; he only repeats his initial dialogue. (Verified Turn 19079)
   - Stepping on the twig pile at (18, 28) while the bird is despawned does not make it reappear. (Verified Turn 19121)
   - Stepping on the trigger tile at (29, 33) while the bird is despawned does not make it reappear. (Verified Turn 19145)
+
+## Tool & Agent Ideas (Post-Reflection Update)
+- **Field Move Tool (`use_field_move`):** Automate the menu navigation required to use an out-of-battle move like Flash or Cut. Input would be move name and Pokémon's party slot, output would be a button sequence.
+
+## Untested Mechanics & Hypotheses (Post-Reflection Update)
+- Test `VOID` tiles by attempting to walk into them to confirm they are impassable.
