@@ -201,7 +201,7 @@
 - `find_adjacent_traversable_tiles`: Identifies all adjacent tiles to a given coordinate that are traversable.
 - `deterministic_battle_strategist`: Analyzes battle state and recommends the optimal, deterministic action.
 - `find_reachable_unseen_tiles`: Parses the map XML and current player position to return a list of unseen tiles that are confirmed to be reachable, filtering out those blocked by walls or other obstacles.
-- `path_and_execute`: Generates a path to a target coordinate and returns a sequence of button presses intended for use with `autopress_buttons`. Automatically attempts to run from wild battles if interrupted.
+- `path_and_execute`: Generates a path to a target coordinate and returns a sequence of button presses intended for use with `autopress_buttons`. Automatically attempts to run from wild battles if interrupted. (NOTE: This tool has been highly unreliable, especially with one-way tiles and obstacle avoidance. Multiple fixes have been applied.)
 
 ## Tool & Agent Ideas
 - **Navigation Manager Agent/Tool (High Priority):** Automates multi-map navigation, including pathfinding, executing movement, handling random battle interruptions (running/fighting), and then automatically re-pathing to the original destination.
