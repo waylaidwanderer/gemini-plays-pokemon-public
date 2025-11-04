@@ -665,3 +665,4 @@
   - **CRITICAL HALLUCINATION (Turn 19714):** Believed I had successfully exited Union Cave and was on Route 33 at (11, 10). In reality, I was still on UnionCave1F at (17, 21), and my pathing tool was interrupted at (16, 21) by a wild encounter. This is a severe failure of location and map awareness.
 - **Union Cave 1F Layout:** The northern exit at (17, 3) is unreachable from the southern/central parts of the cave due to impassable one-way `FLOOR_UP_WALL` tiles. The cave is effectively split into two sections on this floor.
 - **Union Cave 1F Central Section:** The central area (around x=10, y=16) is a dead end for southward travel. The `path_and_execute` tool correctly confirms no path exists to the southern exit at (17, 31).
+- **Union Cave 1F Central Section:** The central area (around x=10, y=16) is a dead end for southward travel. The `path_and_execute` tool correctly confirms no path exists to the southern exit at (17, 31) or the ladder at (5, 19).
