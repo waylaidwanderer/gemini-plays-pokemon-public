@@ -658,3 +658,4 @@
 - **CRITICAL KNOWLEDGE - Game Coordinates:** The game's coordinate system and map XML data are definitively **0-indexed**. The XML `id` attributes for rows/tiles are **1-indexed**. This mismatch was a root cause of many pathfinding failures.
 - **AGENT KNOWLEDGE UPDATES:** Whenever a new Pokémon's type is discovered, I must immediately update the `simple_battle_strategist` agent's system prompt to include this new information.
 - **TOOL USAGE PROTOCOL:** Before EVERY call to `generate_path_plan`, I MUST consult `relevant_map_markers` for the destination map and add known obstacle coordinates to the `object_locations_json` argument.
+- Hallucinated my position in Union Cave (Turn 19666), believing I was at (7, 10) when I was actually at (5, 4). This invalidated my pathing plan.
