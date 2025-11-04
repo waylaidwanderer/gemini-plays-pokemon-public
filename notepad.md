@@ -190,7 +190,6 @@
 ## Custom Agents
 - `notepad_refactor_assistant`: Refactors notepad content based on a goal.
 - `debugging_assistant`: Analyzes and corrects faulty Python scripts.
-- `puzzle_solver_strategist`: Takes puzzle context (map markers, notepad notes, failed hypotheses) and suggests the next logical, non-repeating hypothesis to test.
 
 ## Custom Tools
 - `find_adjacent_traversable_tiles`: Identifies all adjacent tiles to a given coordinate that are traversable.
