@@ -122,7 +122,7 @@
   - **Layout:** The path through the forest is a puzzle involving guiding a FARFETCH'D. The direct path east is blocked by a CUT_TREE that can only be passed after obtaining the HM.
   - **Core Mechanic:** The bird's movement is triggered by player interaction from specific coordinates and facing directions.
   - **Observed Triggers:** Interacting from below at (15, 26) moves the bird to (20, 24). Stepping on the ledge at (27, 22) makes it appear at (29, 22). These triggers have proven to be inconsistent and may not always work.
-  - **Failure Conditions:** Interacting from the front (e.g., at (20, 23)), side (e.g., at (28, 22)), or with no bird present fails and/or resets the puzzle. Stepping on twig piles had no effect.
+  - **Failure/Success Conditions:** Interacting from the side (e.g., at (28, 22)) resets the puzzle. Interacting from the front (e.g., at (29, 23)) makes the bird move, but its destination is not immediately visible. Stepping on twig piles has had no effect so far.
 - **Untested Alternatives:** The solution may require a key item (e.g., Squirtbottle), a specific Pokémon move used on the environment, or be time-dependent.
 - **Hypothesis 3:** Leaving and re-entering the map will reset the puzzle and make the Farfetch'd reappear at its starting position (15, 25).
   - **Test 1:** Exited Ilex Forest to the gatehouse, then immediately re-entered and returned to (15, 26).
