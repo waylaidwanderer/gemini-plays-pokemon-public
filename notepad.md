@@ -448,3 +448,7 @@
   - **Test 1:** Navigated to (29, 33), then to (28, 32) to observe (28, 31).
   - **Result:** The Farfetch'd object was not visible on screen at (28, 31).
   - **Conclusion:** Hypothesis 6 is disproven. The trigger at (29, 33) is not the solution.
+- **Hypothesis 7:** Stepping on the twig pile at (14, 26) will cause the Farfetch'd to appear.
+  - **Test 1:** Moved from (15, 26) to (14, 26).
+  - **Result:** The Farfetch'd object was not visible on screen.
+  - **Conclusion:** Hypothesis 7 is disproven.

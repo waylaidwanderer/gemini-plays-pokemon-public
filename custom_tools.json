@@ -538,8 +538,8 @@
       }
     ]
   },
-  "pathing_failure_analyst": {
-    "description": "A tool that takes a navigation goal, executes a path, and if a 'Movement Blocked' error occurs, it automatically re-calls `path_with_obstacle_avoidance` to generate a new path from the point of interruption.",
+  "find_reachable_unseen_tiles": {
+    "description": "Parses the map XML and current player position to return a list of unseen tiles that are confirmed to be reachable, filtering out those blocked by walls or other obstacles.",
     "input_schema": {
       "type": "object",
       "properties": {
@@ -548,27 +548,19 @@
         },
         "start_y": {
           "type": "string"
-        },
-        "target_x": {
-          "type": "string"
-        },
-        "target_y": {
-          "type": "string"
         }
       },
       "required": [
         "start_x",
-        "start_y",
-        "target_x",
-        "target_y"
+        "start_y"
       ]
     },
-    "python_script": "import xml.etree.ElementTree as ET\nimport collections\nimport json\nimport sys\n\n# This is a placeholder script. This tool will require a more complex implementation\n# that interacts with the game loop, which is beyond the scope of a simple python script.\n# For now, it will just call the existing pathfinder.\n\n# --- Start of logic from path_with_obstacle_avoidance ---\nstart_x_str = input_data['start_x']\nstart_y_str = input_data['start_y']\ntarget_x_str = input_data['target_x']\ntarget_y_str = input_data['target_y']\n\nstart_x, start_y = int(start_x_str), int(start_y_str)\ntarget_x, target_y = int(target_x_str), int(target_y_str)\n\nobject_locations = {}\ntry:\n    root = ET.fromstring(map_xml_string)\n    for tile_elem in root.findall('.//Object/..'):\n        obj_elem = tile_elem.find('Object')\n        obj_id = obj_elem.get('id')\n        if obj_id == '0': # Skip player\n            continue\n        \n        coord_str = tile_elem.get('coordinate')\n        if coord_str:\n            x_str, y_str = coord_str.strip('()').split(',')\n            x, y = int(x_str.strip()), int(y_str.strip())\n            object_locations[obj_id] = [x, y]\nexcept ET.ParseError:\n    pass\nobject_locations_json_str = json.dumps(object_locations)\n\nroot = ET.fromstring(map_xml_string)\nmap_id = root.get('id')\nimpassable_types = {'WALL', 'WATER', 'COUNTER', 'MART_SHELF', 'PC', 'TV', 'BOOKSHELF', 'RADIO', 'TOWN_MAP', 'WINDOW', 'CUT_TREE', 'HEADBUTT_TREE'}\n\ntile_data = {}\nfor tile_elem in root.findall('.//Tile'):\n    coord_str = tile_elem.get('coordinate')\n    x_str, y_str = coord_str.strip('()').split(',')\n    x, y = int(x_str.strip()), int(y_str.strip())\n    tile_data[(x, y)] = {'type': tile_elem.get('type'), 'is_warp': tile_elem.get('is-warp') == 'true'}\n\nobstacle_coords = set()\nif object_locations_json_str and object_locations_json_str != 'null':\n    try:\n        loaded_locations = json.loads(object_locations_json_str)\n        if isinstance(loaded_locations, dict):\n            for obj_id, coords in loaded_locations.items():\n                if isinstance(coords, list) and len(coords) == 2:\n                    obstacle_coords.add((int(coords[0]), int(coords[1])))\n    except (json.JSONDecodeError, TypeError):\n        pass\n\nstart_node = (start_x, start_y)\ntarget_node = (target_x, target_y)\n\nqueue = collections.deque([[start_node]])\nvisited = {start_node}\n\npath_found = []\nwhile queue:\n    path = queue.popleft()\n    x, y = path[-1]\n\n    if (x, y) == target_node:\n        path_found = [{'x': px, 'y': py} for px, py in path]\n        break\n\n    for dx, dy in [(0, -1), (0, 1), (-1, 0), (1, 0)]:\n        nx, ny = x + dx, y + dy\n        neighbor_node = (nx, ny)\n\n        if neighbor_node in visited or neighbor_node not in tile_data:\n            continue\n        \n        if neighbor_node in obstacle_coords:\n            continue\n\n        current_tile_data = tile_data.get((x,y))\n        neighbor_tile_data = tile_data.get(neighbor_node)\n\n        current_tile_type = current_tile_data['type']\n        neighbor_tile_type = neighbor_tile_data['type']\n\n        if neighbor_tile_type in impassable_types:\n            continue\n        \n        if neighbor_tile_data['is_warp'] and neighbor_node != target_node:\n            continue\n\n        if current_tile_type == 'LEDGE_HOP_DOWN' and dy == -1: continue\n        if current_tile_type == 'LEDGE_HOP_LEFT' and dx == 1: continue\n        if current_tile_type == 'LEDGE_HOP_RIGHT' and dx == -1: continue\n        if current_tile_type == 'FLOOR_UP_WALL' and dy == -1 and map_id == '3_37': continue\n\n        if neighbor_tile_type == 'LEDGE_HOP_DOWN' and dy == -1: continue\n        if neighbor_tile_type == 'LEDGE_HOP_LEFT' and dx == 1: continue\n        if neighbor_tile_type == 'LEDGE_HOP_RIGHT' and dx == -1: continue\n        \n        if neighbor_tile_type == 'FLOOR_UP_WALL' and dy == 1 and map_id in ['10_9', '10_1', '3_37', '3_38', '3_78']:\n            continue\n        \n        visited.add(neighbor_node)\n        new_path = list(path)\n        new_path.append(neighbor_node)\n        queue.append(new_path)\n\nprint(json.dumps(path_found))",
+    "python_script": "import xml.etree.ElementTree as ET\nimport collections\nimport json\nimport sys\n\nstart_x_str = input_data['start_x']\nstart_y_str = input_data['start_y']\nstart_x, start_y = int(start_x_str), int(start_y_str)\n\nroot = ET.fromstring(map_xml_string)\nmap_id = root.get('id')\nimpassable_types = {'WALL', 'WATER', 'COUNTER', 'MART_SHELF', 'PC', 'TV', 'BOOKSHELF', 'RADIO', 'TOWN_MAP', 'WINDOW', 'CUT_TREE', 'HEADBUTT_TREE'}\n\ntile_data = {}\nunseen_tiles = []\nfor tile_elem in root.findall('.//Tile'):\n    coord_str = tile_elem.get('coordinate')\n    x_str, y_str = coord_str.strip('()').split(',')\n    x, y = int(x_str.strip()), int(y_str.strip())\n    tile_type = tile_elem.get('type')\n    is_warp = tile_elem.get('is-warp') == 'true'\n    tile_data[(x, y)] = {'type': tile_type, 'is_warp': is_warp}\n    if tile_elem.get('seen') == 'false':\n        unseen_tiles.append((x, y))\n\nstart_node = (start_x, start_y)\nqueue = collections.deque([start_node])\nvisited = {start_node}\nreachable_unseen = []\n\nwhile queue:\n    x, y = queue.popleft()\n\n    if (x, y) in unseen_tiles and (x, y) not in reachable_unseen:\n        reachable_unseen.append({'x': x, 'y': y})\n\n    for dx, dy in [(0, -1), (0, 1), (-1, 0), (1, 0)]:\n        nx, ny = x + dx, y + dy\n        neighbor_node = (nx, ny)\n\n        if neighbor_node in visited or neighbor_node not in tile_data:\n            continue\n\n        current_tile_data = tile_data.get((x,y))\n        neighbor_tile_data = tile_data.get(neighbor_node)\n        current_tile_type = current_tile_data['type']\n        neighbor_tile_type = neighbor_tile_data['type']\n\n        if neighbor_tile_type in impassable_types:\n            continue\n        \n        if neighbor_tile_data['is_warp']:\n            continue\n\n        if current_tile_type == 'LEDGE_HOP_DOWN' and dy == -1: continue\n        if current_tile_type == 'LEDGE_HOP_LEFT' and dx == 1: continue\n        if current_tile_type == 'LEDGE_HOP_RIGHT' and dx == -1: continue\n        if neighbor_tile_type == 'LEDGE_HOP_DOWN' and dy == -1: continue\n        if neighbor_tile_type == 'LEDGE_HOP_LEFT' and dx == 1: continue\n        if neighbor_tile_type == 'LEDGE_HOP_RIGHT' and dx == -1: continue\n        if neighbor_tile_type == 'FLOOR_UP_WALL' and dy == 1 and map_id in ['10_9', '10_1', '3_37', '3_38', '3_78']: continue\n        \n        visited.add(neighbor_node)\n        queue.append(neighbor_node)\n\nprint(json.dumps(reachable_unseen))",
     "history": [
       {
-        "commit_message": "feat: Create pathing failure analyst tool. This tool is intended to automate the process of re-pathing after a movement interruption. It encapsulates the logic of `path_with_obstacle_avoidance` as a first step. Future iterations will need to add logic to handle the game loop interaction, but this establishes the tool and addresses the immediate need to stop deferring tool creation.",
-        "timestamp": "2025-11-03T22:04:42.678Z",
-        "action_counter": 17779
+        "commit_message": "feat: Create tool to find reachable unseen tiles. This tool automates the process of checking for explorable areas by performing a BFS from the player's position and returning a list of all unseen tiles that are confirmed to be reachable. This addresses a recurring strategic need for efficient exploration.",
+        "timestamp": "2025-11-04T01:31:43.456Z",
+        "action_counter": 18091
       }
     ]
   }
