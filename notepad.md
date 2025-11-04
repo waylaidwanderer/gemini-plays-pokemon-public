@@ -402,3 +402,4 @@
 - **CRITICAL HALLUCINATION (Turn 19418):** Believed I was at (15, 26) when I was actually at (8, 34). This invalidated my entire plan for the turn and is a severe failure of state tracking.
 
 - **CRITICAL HALLUCINATION (Turn 19421):** Believed I was at (15, 26) when I was actually at (8, 33). This is a repeat of the failure on turn 19418 and indicates a severe, ongoing state-tracking problem.
+  - Leaving and re-entering Ilex Forest does not reliably reset the Farfetch'd to its starting position at (15, 25). (Verified Turn 19443)
