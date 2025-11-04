@@ -447,3 +447,11 @@
 - **WARNING:** Ignis has 0 PP left for FLAME WHEEL. Must conserve EMBER PP.
 - **PROCESS NOTE:** Recent severe positional hallucinations (e.g., Turns 18484-18489, 18533) have made puzzle-solving attempts unreliable. I must re-verify all assumptions and be extremely diligent about confirming my position after every navigation action.
 - Rigorously test all `LEDGE_HOP` tiles in Ilex Forest by attempting to move in all four directions to confirm their movement restrictions.
+- **Hypothesis:** It is possible to interact with tile (15, 25) by standing at (15, 24), facing down, and pressing 'A'.
+  - **Test:** Stood at (15, 24) and pressed 'Down'.
+  - **Result:** Player was forcibly moved to (15, 25).
+  - **Conclusion:** Hypothesis is disproven. It is mechanically impossible to simply face tile (15, 25) from (15, 24).
+- **Hypothesis:** It is possible to interact with tile (15, 25) by standing at (15, 26), facing up, and pressing 'A'.
+  - **Test:** Stood at (15, 26) and pressed 'Up'.
+  - **Result:** Player was forcibly moved to (15, 25).
+  - **Conclusion:** Hypothesis is disproven. It is mechanically impossible to simply face tile (15, 25) from (15, 26).
