@@ -131,6 +131,7 @@
 - **Execution Errors & Failed Hypotheses:**
   - Multiple hypotheses to make a missing Farfetch'd reappear (e.g., map resets, interacting with its empty starting tile, stepping on specific trigger tiles/ledges/twigs) have been tested and disproven. These tests were often based on a flawed premise that the bird was not on the map, stemming from state-tracking and positioning errors.
   - Interacting from the side at (16, 29) when the bird is at (15, 29) causes a puzzle reset, regardless of its facing direction (tested with 'left' and 'up'). The bird returns to its starting position at (15, 25).
+  - Interacting from below at (15, 30) when the bird is at (15, 29) also causes a puzzle reset. (Verified Turn 18421)
 
 ### Route 36 'Odd Tree' Puzzle
 - **Objective:** Get past the tree blocking the path at (35, 9).
