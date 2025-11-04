@@ -197,6 +197,7 @@
 - `deterministic_battle_strategist`: Analyzes battle state and recommends the optimal, deterministic action.
 - `find_reachable_unseen_tiles`: Parses the map XML and current player position to return a list of unseen tiles that are confirmed to be reachable, filtering out those blocked by walls or other obstacles.
 - `automated_navigation_tool`: Automates navigation to a target coordinate, including handling battle interruptions.
+- `manual_path_executor`: Converts a path_plan into a sequence of button presses to bypass the failing 'path' command.
 
 # Future Development
 ## Tool & Agent Ideas
