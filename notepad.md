@@ -410,3 +410,7 @@
   - Stepping on the trigger ledge at (27, 22) is unreliable for making the Farfetch'd reappear. (Failed on Turn 19481 and again on Turn 19497)
 - **Strategic Planner Agent:** Takes current goals, location, and party status to suggest the next major objective pivot when stuck.
 - Hypothesis: Making the Farfetch'd disappear from the eastern part of the map (after moving it to (28, 31)) solves the puzzle. **Result:** Disproven. Talking to the apprentice at (7, 28) afterward resulted in his initial dialogue, confirming no progress was made. This action is a puzzle reset.
+
+### Union Cave B1F - Western Section
+- **Discovery:** The western half of this floor is completely inaccessible from the southern ladder entrance at (7, 19). The path is blocked by walls and a one-way `FLOOR_UP_WALL` tile at (7, 24) that prevents southward travel.
+- **Conclusion:** Confirmed dead end. Pathfinding tool correctly reported no path exists.
