@@ -134,8 +134,9 @@
   - **Successful Moves:**
     - Interacting from behind pushes the bird forward (Verified at (15, 24) -> (15, 29)).
     - Interacting from the front moves the bird (Verified at (29, 23) -> move off-screen).
+    - Interacting from the side can move the bird (Verified at (21, 24) when bird was at (20, 24) facing right, causing it to move off-screen).
   - **Failure/Reset Condition:**
-    - Interacting from the side resets the puzzle (Verified at (16, 29) -> reset to (15, 25)).
+    - Interacting from the side *can* reset the puzzle (Verified at (16, 29) when bird was at (15, 29) facing down). The outcome seems dependent on the bird's facing direction.
   - **Neutral/Unknown:**
     - Stepping on twig piles has had no effect so far.
 - **Untested Alternatives:** The solution may require a key item (e.g., Squirtbottle), a specific Pokémon move used on the environment, or be time-dependent.
