@@ -403,3 +403,4 @@
 ## Untested Mechanics & Hypotheses (Post-Reflection Update)
 - Test `VOID` tiles by attempting to walk into them to confirm they are impassable.
   - Interacting with the Farfetch'd at (29, 22) from the left at (28, 22) makes it say 'Kwaa!' and then despawn, resetting the puzzle.
+  - Interacting with the Farfetch'd at (28, 31) from the right at (29, 31) makes it say 'Kwaa!' and then despawn, resetting the puzzle.
