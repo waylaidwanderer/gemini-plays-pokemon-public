@@ -122,36 +122,13 @@
   - **Layout:** The path through the forest is a puzzle involving guiding a FARFETCH'D. The direct path east is blocked by a CUT_TREE that can only be passed after obtaining the HM.
   - **Core Mechanic:** The bird's movement is triggered by player interaction from specific coordinates and facing directions.
   - **Puzzle Mechanics:**
-  - **Successful Moves:**
     - Interacting from behind pushes the bird forward (Verified at (15, 24) -> (15, 29)).
+    - Interacting from the front moves the bird (Verified at (29, 23) -> move off-screen).
     - Interacting from below at (15, 26) moves the bird to (20, 24) (Verified when bird was at (15, 25) and facing down).
-    - Interacting from the front moves the bird (Verified at (29, 23) -> move off-screen).
-  - **Failure/Reset Condition:**
-    - Interacting from the side resets the puzzle (Verified at (16, 29) -> reset to (15, 25)).
-  - **Neutral/Unknown:**
-    - Stepping on twig piles has had no effect so far.
-- **Puzzle Mechanics:**
-  - **Successful Moves:**
-    - Interacting from behind pushes the bird forward (Verified at (15, 24) -> (15, 29)).
-    - Interacting from the front moves the bird (Verified at (29, 23) -> move off-screen).
-    - Interacting from the side can move the bird (Verified at (21, 24) when bird was at (20, 24) facing right, causing it to move off-screen).
-  - **Failure/Reset Condition:**
-    - Interacting from the side *can* reset the puzzle (Verified at (16, 29) when bird was at (15, 29) facing down). The outcome seems dependent on the bird's facing direction.
-  - **Neutral/Unknown:**
+    - Interacting from the side can either move the bird (Verified at (21, 24) when bird was at (20, 24) facing right) or reset the puzzle (Verified at (16, 29) when bird was at (15, 29) facing down). The outcome seems dependent on the bird's facing direction.
     - Stepping on twig piles has had no effect so far.
 - **Untested Alternatives:** The solution may require a key item (e.g., Squirtbottle), a specific Pokémon move used on the environment, or be time-dependent.
-- **Hypothesis 3:** Leaving and re-entering the map will reset the puzzle and make the Farfetch'd reappear at its starting position (15, 25).
-  - **Test 1:** Exited Ilex Forest to the gatehouse, then immediately re-entered and returned to (15, 26).
-  - **Result:** The Farfetch'd object was not visible on screen at (15, 25).
-  - **Conclusion:** Hypothesis 3 is disproven. A simple map reset is not the solution.
-- **Hypothesis 4:** Stepping on the ledge at (27, 22) will make the Farfetch'd reappear at (29, 22).
-  - **Test 1:** Navigated to (27, 22) and stepped on the ledge, automatically moving to (28, 22).
-  - **Result:** The Farfetch'd object was not visible on screen at (29, 22) or anywhere else.
-  - **Conclusion:** Hypothesis 4 is disproven. The ledge trigger did not work as expected.
-- **Hypothesis 5:** Interacting with the empty starting tile at (15, 25) will make the Farfetch'd reappear.
-  - **Test 1:** Stood at (15, 25), faced up, and pressed 'A'.
-  - **Result:** Nothing happened; no text appeared and no object spawned.
-  - **Conclusion:** Hypothesis 5 is disproven. A simple interaction with the empty starting tile is not the solution.
+- **Execution Errors & Failed Hypotheses:** Multiple hypotheses to make a missing Farfetch'd reappear (e.g., map resets, interacting with its empty starting tile, stepping on specific trigger tiles/ledges/twigs) have been tested and disproven. These tests were often based on a flawed premise that the bird was not on the map, stemming from state-tracking and positioning errors.
 
 ### Route 36 'Odd Tree' Puzzle
 - **Objective:** Get past the tree blocking the path at (35, 9).
@@ -411,7 +388,6 @@
   - **Alternative Hypothesis:** Dark Cave is a completely separate location on the world map that I have not yet discovered.
   - **Test to Disprove:** Fully explore all paths within Union Cave. If no entrance to Dark Cave is found, the next step is to search other routes on the world map.
 - **Path to Goldenrod City:** I assume HM Cut is required to clear the 'Odd Tree' on Route 36, which is a big assumption.
-- **Reachable Unseen Tiles Tool (High Priority):** A tool that takes the list of unseen tiles adjacent to walkable areas, parses the map XML, and returns a list of only those tiles that are actually reachable from the player's current position.
 
 # Reflection Log (Turn 16736)
 
@@ -452,26 +428,7 @@
 - **CRITICAL REASONING FAILURE (Turns 17355-17357):** Mistrusted my working `generate_path_plan` tool when it reported no path on Union Cave 1F. The `trace_pathfinder` output confirmed the path was genuinely blocked by a wall, proving the tool was correct. This is a repeat of a major failure pattern of not trusting my own tools.
 - WEEDLE: Bug/Poison
 - **Battle Recovery Agent:** Could analyze a failed battle state (e.g., wrong menu) and generate the button presses to recover and return to the intended action.
-- **`find_reachable_unseen_tiles` (High Priority):** A tool that parses the map XML and current player position to return a list of unseen tiles that are confirmed to be reachable, filtering out those blocked by walls or other obstacles.
-- **Hypothesis 6:** Stepping on the tile at (29, 33) will cause the Farfetch'd to appear at (28, 31).
-  - **Test Plan:**
-    1. Navigate from my current position (8, 28) to (29, 33).
-    2. Step on the tile.
-    3. Navigate to a position where (28, 31) is visible and check for the Farfetch'd object.
 - **Pre-flight Checklist Agent:** An agent that takes a navigation goal and map ID, then checks map markers to warn of obstacles along the planned route.
-- **`find_reachable_unseen_tiles` (High Priority):** A tool that parses the map XML and current player position to return a list of unseen tiles that are confirmed to be reachable, filtering out those blocked by walls or other obstacles.
-- **Hypothesis 6:** Stepping on the tile at (29, 33) will cause the Farfetch'd to appear at (28, 31).
-  - **Test 1:** Navigated to (29, 33), then to (28, 32) to observe (28, 31).
-  - **Result:** The Farfetch'd object was not visible on screen at (28, 31).
-  - **Conclusion:** Hypothesis 6 is disproven. The trigger at (29, 33) is not the solution.
-- **Hypothesis 7:** Stepping on the twig pile at (14, 26) will cause the Farfetch'd to appear.
-  - **Test 1:** Moved from (15, 26) to (14, 26).
-  - **Result:** The Farfetch'd object was not visible on screen.
-  - **Conclusion:** Hypothesis 7 is disproven.
-- **Hypothesis 8:** Using the forced movement tile at (15, 24) to move to (15, 25) will cause the Farfetch'd to appear.
-  - **Test 1:** Moved onto (15, 24) and pressed 'Down', which moved the player to (15, 25).
-  - **Result:** The Farfetch'd object was not visible on screen.
-  - **Conclusion:** Hypothesis 8 is disproven.
 - **CRITICAL REASONING FAILURE (Turn 18140):** My `path_with_obstacle_avoidance` tool correctly reported no path to the Ilex Forest Shrine. Instead of trusting the tool, I assumed it was broken. Manual verification confirmed the path was genuinely blocked by a CUT_TREE at (8, 25). This is a repeat of a major failure pattern of not trusting my own tools.
 
 ## Future Development (Additions)
