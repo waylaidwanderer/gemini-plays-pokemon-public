@@ -435,3 +435,5 @@
 - **CRITICAL REASONING FAILURE (Turns 17345-17353):** Mistrusted my working `generate_path_plan` tool when it reported no path. The `trace_pathfinder` output on Turn 17352 confirmed the path was genuinely blocked by a wall, proving the tool was correct. This is a repeat of a major failure pattern of not trusting my own tools.
 - **CRITICAL REASONING FAILURE (Turns 17355-17357):** Mistrusted my working `generate_path_plan` tool when it reported no path on Union Cave 1F. The `trace_pathfinder` output confirmed the path was genuinely blocked by a wall, proving the tool was correct. This is a repeat of a major failure pattern of not trusting my own tools.
 - WEEDLE: Bug/Poison
+- **Battle Recovery Agent:** Could analyze a failed battle state (e.g., wrong menu) and generate the button presses to recover and return to the intended action.
+- **`find_reachable_unseen_tiles` (High Priority):** A tool that parses the map XML and current player position to return a list of unseen tiles that are confirmed to be reachable, filtering out those blocked by walls or other obstacles.
