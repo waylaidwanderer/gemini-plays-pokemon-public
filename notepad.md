@@ -86,9 +86,11 @@
 - Normal is not very effective against Rock/Ground. (Verified in battle vs Hiker Daniel's Onix).
 - Psychic is not very effective against Bug. (Verified vs Caterpie)
 - Fire is super-effective against Bug/Grass. (Verified vs Paras)
+- Bug is super-effective against Psychic. (Verified in battle vs Zubat's Leech Life on Glyph).
 
 *Pokémon Types Discovered*:
 - SANDSHREW: Ground
+- WEEDLE: Bug/Poison
 
 ### PC Storage
 - Currently empty.
@@ -111,6 +113,8 @@
 - Test `WARP_CARPET_LEFT` again to determine consistent activation method.
 - Test `FLOOR_UP_WALL` on Union Cave B1F by attempting to move in all four directions to confirm its one-way warp mechanic.
 - Test `LEDGE_HOP_LEFT` and `LEDGE_HOP_DOWN` tiles on Route 33 by attempting to move against their intended direction to confirm one-way traversal.
+- Test lateral (left/right) movement from and onto `FLOOR_UP_WALL` tiles to fully understand their mechanics.
+- Rigorously test all `LEDGE_HOP` tiles in Ilex Forest by attempting to move in all four directions to confirm their movement restrictions.
 
 # Investigations
 
@@ -200,41 +204,20 @@
 - `automated_navigation_tool`: Automates navigation to a target coordinate, including handling battle interruptions.
 - `manual_path_executor`: Converts a path_plan into a sequence of button presses to bypass the failing 'path' command.
 
-# Future Development
 ## Tool & Agent Ideas
-- **Navigation Manager Agent/Tool:** Could automate multi-map navigation, including pathfinding, executing movement, handling battle interruptions, and re-pathfinding.
-- **Exploration Strategist Agent:** Could take the output of `find_reachable_unseen_tiles` and suggest the most strategically valuable tile to explore next (e.g., closest, or one leading to a cluster).
-- **Battle Recovery Agent:** Could analyze a failed battle state (e.g., wrong menu) and generate the button presses to recover and return to the intended action.
-- **Reflection Assistant Agent:** Could analyze the last 50 turns of logs to generate a summary of process violations, suggest new tools, and identify untested assumptions, automating the reflection process.
+- **Navigation Manager Agent/Tool (High Priority):** Automates multi-map navigation, including pathfinding, executing movement, handling random battle interruptions (running/fighting), and then automatically re-pathing to the original destination.
+- **Exploration Strategist Agent:** Takes the output of `find_reachable_unseen_tiles` and suggests the most strategically valuable tile to explore next (e.g., closest, or one leading to a cluster).
+- **Battle Recovery Agent:** Analyzes a failed battle state (e.g., wrong menu) and generates the button presses to recover and return to the intended action.
+- **Reflection Assistant Agent:** Analyzes the last 50 turns of logs to generate a summary of process violations, suggest new tools, and identify untested assumptions, automating the reflection process.
+- **Tool Debugger Orchestrator Agent (High Priority):** Automates the multi-step process of identifying a tool bug, calling the `debugging_assistant`, applying the fix with `define_tool`, and re-running the failing test case to verify the fix.
+- **Automated Obstacle Avoidance Tool (High Priority):** Combines `get_on_screen_object_locations` and `generate_path_plan` to automatically detect and path around temporary obstacles without requiring manual addition of `object_locations_json`.
+- **Pre-flight Checklist Agent:** Takes a navigation goal and map ID, then checks map markers to warn of obstacles along the planned route.
 
 # Appendix: Completed Investigations
 
-## Violet Mart Path Puzzle
-- **Objective:** Find a way to get to the clerk in the Violet City Mart.
-- **Observations:**
-  - The path to the clerk is blocked. Talking to the Cooltrainer M at (5, 2) does not open it.
-
-## Sprout Tower 2F Pillar Puzzle
-- **Objective:** Determine how to move the central pillar on 2F again.
-- **Observations:**
-  - Numerous simple interaction tests (re-interacting with the Sage, checking other objects/walls, etc.) have failed to make the central pillar move again after its initial movement.
-- **Untested Hypotheses:**
-  1. All other Sages on Sprout Tower 2F must be defeated before interacting with the Sage at (12, 3).
-  2. The interaction with the Sage at (12, 3) only makes the pillar passable during a specific time of day (e.g., night).
-  3. The floor tiles in the room with the Sage at (12,3) contain a visual pattern or clue that needs to be followed or replicated.
-
-## Ruins of Alph 'ESCAPE' Puzzle
-- **Objective:** Solve the 'ESCAPE' wall puzzle in the Ruins of Alph.
-- **Untested Hypotheses (from agent):**
-  1. Use the move 'Flash' in the chamber. (Untestable: No Flash)
-  2. Use an Itemfinder to check for hidden switches. (Untestable: No Itemfinder)
-  3. Activate the Pokégear radio and listen to the stations. (Failed: No Radio Card)
-  4. Use an Escape Rope while standing in front of the 'ESCAPE' wall. (Untestable: No Escape Rope)
-  5. Use the move 'Strength' to try and push the statues. (Untestable: No Strength)
-- **Untested Assumptions:**
-  1. The puzzle requires having an Escape Rope in the inventory, not necessarily using it.
-  2. The 'sliding stone panels' mentioned by NPCs are a separate puzzle from the 'ESCAPE' wall.
-  3. Another item or a specific non-Unown Pokémon is needed to interact with the wall.
+- **Violet Mart Path Puzzle:** Path to the clerk is blocked by a Cooltrainer M. Deprioritized.
+- **Sprout Tower 2F Pillar Puzzle:** Central pillar is unmovable after initial interaction with a Sage. Deprioritized until other Sages are defeated or new triggers are discovered.
+- **Ruins of Alph 'ESCAPE' Puzzle:** Unsolvable at present. Requires unobtained items or abilities (e.g., Flash, Itemfinder, Escape Rope, Strength).
 
 # Appendix: Failure Log
 
@@ -262,7 +245,6 @@
 
 ### Reflection-Based Updates (Turn 11695)
 - **CRITICAL REASONING FAILURE (Turns 11683-11690):** I became stuck in a multi-turn loop attempting to fix the `generate_path_plan` tool. I repeatedly submitted identical, broken code, failing to notice that I had not actually removed the incorrect line from the `impassable_types` set. This was a severe failure of process and attention to detail.
-- *Type Effectiveness Chart Update*: Bug is super-effective against Psychic. (Verified in battle vs Zubat's Leech Life on Glyph).
 - **CRITICAL REASONING FAILURE (Turns 11717-11720):** After multiple failed attempts to fix my pathfinder's one-way ledge logic, I finally implemented aversion that seemed simpler and more correct. However, it was a fundamentally backward and based on a complete misunderstanding of the mechanic. The game immediately blocked my movement, proving the new code was broken. My logic from turn 11694 was actually correct, and my 'fix' was a regression that wasted several turns. This is a major failure in debugging and logical reasoning.
 
 # Reflection Log (Turn 11852)
@@ -361,9 +343,6 @@
 
 # Reflection Log (Turn 16581)
 
-## Untested Mechanics & Hypotheses (Additions)
-- Test lateral (left/right) movement from and onto `FLOOR_UP_WALL` tiles to fully understand their mechanics.
-
 ## Alternative Hypotheses (New Section)
 - **Union Cave B1F Southern Path:** The path south is blocked by a one-way ledge. 
   - **Alternative Hypothesis:** There is a hidden switch or event trigger in the accessible part of B1F that deactivates or changes the `FLOOR_UP_WALL` tiles, making the path passable.
@@ -376,9 +355,6 @@
   - **Test to Disprove:** Fully explore all other available paths. If another route to a new city is found, this assumption is proven false.
 
 # Reflection Log (Turn 16633)
-
-## Untested Mechanics & Hypotheses (Additions)
-- Test lateral (left/right) movement from and onto `FLOOR_UP_WALL` tiles to fully understand their mechanics.
 
 ## Alternative Hypotheses (New Section)
 - **Union Cave B1F Southern Path:** The path south is blocked by a one-way ledge. 
@@ -393,9 +369,6 @@
 
 ## Tool Usage Protocols (Update)
 - **Pre-Pathing Check:** Before EVERY call to `generate_path_plan`, I MUST consult the `relevant_map_markers` for the destination map to identify known obstacles. Their coordinates must be added to the `object_locations_json` argument.
-
-## Future Development (Additions)
-- **Pre-flight Checklist Agent:** An agent that takes a navigation goal and map ID, then checks map markers to warn of obstacles along the planned route.
 
 ## Alternative Hypotheses (New Section)
 - **HM01 Cut Source:** The FARFETCH'D puzzle is not the only source for Cut. It may be available from another NPC or location.
@@ -412,10 +385,6 @@
 ## Process Violations
 - I failed to consult my map marker for the Fisher at (15, 27) on Turn 17187, causing a pathing failure. This is a recurring process violation that requires stricter self-discipline.
 
-## Future Development (Additions)
-- **Tool Debugger Orchestrator Agent (High Priority):** An agent to automate the multi-step process of identifying a tool bug, calling the `debugging_assistant`, applying the fix with `define_tool`, and re-running the failing test case to verify the fix.
-- **Automated Obstacle Avoidance Tool (High Priority):** A tool that combines `get_on_screen_object_locations` and `generate_path_plan` to automatically detect and path around temporary obstacles without requiring manual addition of `object_locations_json`.
-
 ## Alternative Hypotheses (New)
 - **Rival Trigger:** Beating Bugsy may have triggered an event with my Rival, Crimson. He may be waiting at the Ilex Forest gate to battle, after which he might also provide a key item or open a new path.
   - **Test:** Path to the Ilex Forest gate and see if he appears.
@@ -426,25 +395,14 @@
 - **Verification:** This was confirmed by the `trace_pathfinder` tool's output on Turn 17348, which correctly identified the tile at (7, 24) as impassable from (7, 23).
 - **CRITICAL REASONING FAILURE (Turns 17345-17353):** Mistrusted my working `generate_path_plan` tool when it reported no path. The `trace_pathfinder` output on Turn 17352 confirmed the path was genuinely blocked by a wall, proving the tool was correct. This is a repeat of a major failure pattern of not trusting my own tools.
 - **CRITICAL REASONING FAILURE (Turns 17355-17357):** Mistrusted my working `generate_path_plan` tool when it reported no path on Union Cave 1F. The `trace_pathfinder` output confirmed the path was genuinely blocked by a wall, proving the tool was correct. This is a repeat of a major failure pattern of not trusting my own tools.
-- WEEDLE: Bug/Poison
-- **Battle Recovery Agent:** Could analyze a failed battle state (e.g., wrong menu) and generate the button presses to recover and return to the intended action.
-- **Pre-flight Checklist Agent:** An agent that takes a navigation goal and map ID, then checks map markers to warn of obstacles along the planned route.
 - **CRITICAL REASONING FAILURE (Turn 18140):** My `path_with_obstacle_avoidance` tool correctly reported no path to the Ilex Forest Shrine. Instead of trusting the tool, I assumed it was broken. Manual verification confirmed the path was genuinely blocked by a CUT_TREE at (8, 25). This is a repeat of a major failure pattern of not trusting my own tools.
 
-## Future Development (Additions)
-- **Navigation Manager Agent/Tool (High Priority):** An agent or tool to automate the multi-step process of pathing, executing movement, handling random battle interruptions by running or fighting, and then automatically re-pathing to the original destination.
-- **Puzzle Solver Strategist Agent (High Priority):** An agent that takes a puzzle's context (map markers, dialogue, failed hypotheses from notepad) and suggests the next logical, non-repeating hypothesis to test. This would prevent wasted turns repeating failed actions.
-
 ## Reflection-Based Action Items (Turn 18192)
-- **New Agent Idea:** `Puzzle Solver Strategist Agent` to suggest next logical, non-repeating hypotheses for puzzles.
-- **New Agent/Tool Idea:** `Navigation Manager` to automate pathing, battle handling, and re-pathing.
 - **Process Improvement:** Add more rigorous testing of all tile mechanics to the 'Untested Mechanics & Hypotheses' section.
-- Rigorously test all `LEDGE_HOP` tiles in Ilex Forest by attempting to move in all four directions to confirm their movement restrictions.
 
 # Tactical & Process Notes (Turn 18534)
 - **WARNING:** Ignis has 0 PP left for FLAME WHEEL. Must conserve EMBER PP.
 - **PROCESS NOTE:** Recent severe positional hallucinations (e.g., Turns 18484-18489, 18533) have made puzzle-solving attempts unreliable. I must re-verify all assumptions and be extremely diligent about confirming my position after every navigation action.
-- Rigorously test all `LEDGE_HOP` tiles in Ilex Forest by attempting to move in all four directions to confirm their movement restrictions.
 - **Hypothesis:** It is possible to interact with tile (15, 25) by standing at (15, 24), facing down, and pressing 'A'.
   - **Test:** Stood at (15, 24) and pressed 'Down'.
   - **Result:** Player was forcibly moved to (15, 25).
