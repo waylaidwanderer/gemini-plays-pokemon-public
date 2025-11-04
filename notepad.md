@@ -444,3 +444,7 @@
     3. Navigate to a position where (28, 31) is visible and check for the Farfetch'd object.
 - **Pre-flight Checklist Agent:** An agent that takes a navigation goal and map ID, then checks map markers to warn of obstacles along the planned route.
 - **`find_reachable_unseen_tiles` (High Priority):** A tool that parses the map XML and current player position to return a list of unseen tiles that are confirmed to be reachable, filtering out those blocked by walls or other obstacles.
+- **Hypothesis 6:** Stepping on the tile at (29, 33) will cause the Farfetch'd to appear at (28, 31).
+  - **Test 1:** Navigated to (29, 33), then to (28, 32) to observe (28, 31).
+  - **Result:** The Farfetch'd object was not visible on screen at (28, 31).
+  - **Conclusion:** Hypothesis 6 is disproven. The trigger at (29, 33) is not the solution.
