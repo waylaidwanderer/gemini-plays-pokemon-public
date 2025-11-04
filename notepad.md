@@ -130,7 +130,7 @@
 - **Untested Alternatives:** The solution may require a key item (e.g., Squirtbottle), a specific Pokémon move used on the environment, or be time-dependent.
 - **Execution Errors & Failed Hypotheses:**
   - Multiple hypotheses to make a missing Farfetch'd reappear (e.g., map resets, interacting with its empty starting tile, stepping on specific trigger tiles/ledges/twigs) have been tested and disproven. These tests were often based on a flawed premise that the bird was not on the map, stemming from state-tracking and positioning errors.
-  - Interacting from the side at (16, 29) when the bird was at (15, 29) and facing left caused a puzzle reset. The bird returned to its starting position at (15, 25).
+  - Interacting from the side at (16, 29) when the bird is at (15, 29) causes a puzzle reset, regardless of its facing direction (tested with 'left' and 'up'). The bird returns to its starting position at (15, 25).
 
 ### Route 36 'Odd Tree' Puzzle
 - **Objective:** Get past the tree blocking the path at (35, 9).
