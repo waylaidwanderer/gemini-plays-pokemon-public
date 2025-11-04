@@ -188,19 +188,20 @@
 # High-Priority Agent & Tool Ideas
 - **Tool Debugger Orchestrator Agent (High Priority):** Automates the multi-step process of identifying a tool bug, calling the `debugging_assistant`, applying the fix with `define_tool`, and re-running the failing test case to verify the fix.
 
+# Core Failure Patterns
+- **Position & Map State Hallucination:** A recurring failure where I believe I am at a different (x, y) coordinate or on a different map than my actual location. This has led to invalid pathing, incorrect map markers, and failed interactions.
+- **Warps & Transitions Hallucination:** Repeatedly believing a map transition was successful when it was not, or hallucinating the existence of warps at incorrect coordinates. This has caused pathfinder crashes and invalidated multi-turn plans.
+- **Tool & Data State Hallucination:** A critical pattern of either believing a tool exists when it does not, misremembering the state of my own notepad and map markers, or repeatedly attempting to "fix" an already correct tool or entry. This leads to wasted turns on debugging and operating on flawed data.
+- **Mistrust of Tools:** A critical failure pattern of assuming a working tool is broken, particularly when it reports a dead end or no path. This has led to extensive, wasted debugging cycles on correct code instead of trusting the tool's output and re-evaluating my strategic assumptions.
+- **Process Violations:** Repeatedly failing to follow established procedures. This includes deferring critical actions like notepad updates (violating the 'IMMEDIATE ACTION' principle), failing to consult map markers before pathing, and not using specialized agents (like the `debugging_assistant`) when appropriate.
+
 # Appendix: Completed Investigations
 
 - **Violet Mart Path Puzzle:** Path to the clerk is blocked by a Cooltrainer M. Deprioritized.
 - **Sprout Tower 2F Pillar Puzzle:** Central pillar is unmovable after initial interaction with a Sage. Deprioritized until other Sages are defeated or new triggers are discovered.
 - **Ruins of Alph 'ESCAPE' Puzzle:** Unsolvable at present. Requires unobtained items or abilities (e.g., Flash, Itemfinder, Escape Rope, Strength).
 
-# Appendix: Failure Log
-
-### Core Failure Patterns (Summarized)
-- **RECURRING HALLUCINATION - Position & Map State:** A recurring failure where I believe I am at a different (x, y) coordinate or on a different map than my actual location. This has led to invalid pathing, incorrect map markers, and failed interactions. (Occurrences: Turns 5590, 5961, 6045, 6050, 8947, 9586, 9591, 9608, 10817, 10846, 11621-11639, 12268).
-- **RECURRING HALLUCINATION - Warps & Transitions:** Repeatedly believing a map transition was successful when it was not, or hallucinating the existence of warps at incorrect coordinates. This has caused pathfinder crashes and invalidated multi-turn plans. (Occurrences: Turns 7443, 8421, 8517, 10445, 10615, 11105, 11872, 11928).
-- **RECURRING HALLUCINATION - Tool & Data State:** A critical pattern of either believing a tool exists when it does not, misremembering the state of my own notepad and map markers, or repeatedly attempting to "fix" an already correct tool or entry. This leads to wasted turns on debugging and operating on flawed data. (Occurrences: Turns 4838-4866, 5640, 5981, 8944-8945, 9522, 10624-1026, 12372-12374, 13022, 13600-13606).
-- **RECURRING FAILURE - Mistrust of Tools:** A critical failure pattern of assuming a working tool is broken, particularly when it reports a dead end or no path. This has led to extensive, wasted debugging cycles on correct code instead of trusting the tool's output and re-evaluating my strategic assumptions. (Occurrences: Pathfinder on Route 32, Turns 7142-7147, 8539-8541, 10746-10776, 10908-10911, 14554, 16917, 17023).
+# Appendix: Detailed Failure & Reflection Log
 
 ### Specific Failure Incidents & Process Violations
 - **CRITICAL PROCESS FAILURE (Recent Turns):** Repeatedly deferred critical actions like notepad updates and agent fixes, violating the 'IMMEDIATE ACTION' and 'TOOL MAINTENANCE' core principles. This resulted in operating with flawed data and plans.
@@ -399,5 +400,5 @@
 - Interacting with the Farfetch'd at (29, 22) from the left at (28, 22) makes it say 'Kwaa!' and then despawn, resetting the puzzle.
 - Interacting with the Farfetch'd at (28, 31) from the right at (29, 31) makes it say 'Kwaa!' and then despawn, resetting the puzzle.
 - **CRITICAL HALLUCINATION (Turn 19418):** Believed I was at (15, 26) when I was actually at (8, 34). This invalidated my entire plan for the turn and is a severe failure of state tracking.
-- **CRITICAL HALLUCINATION (Turn 19421):** Believed I was at (15, 26) when I was actually at (8, 33). This is a repeat of the failure on turn 19418 and indicates a severe, ongoing state-tracking problem.
+- **CRITICAL HALLUCINATION (Turn 19421):** Beloved I was at (15, 26) when I was actually at (8, 33). This is a repeat of the failure on turn 19418 and indicates a severe, ongoing state-tracking problem.
 - **CRITICAL HALLUCINATION (Turn 19421):** Believed I was at (15, 26) when I was actually at (8, 33). This is a repeat of the failure on turn 19418 and indicates a severe, ongoing state-tracking problem.
