@@ -442,3 +442,5 @@
     1. Navigate from my current position (8, 28) to (29, 33).
     2. Step on the tile.
     3. Navigate to a position where (28, 31) is visible and check for the Farfetch'd object.
+- **Pre-flight Checklist Agent:** An agent that takes a navigation goal and map ID, then checks map markers to warn of obstacles along the planned route.
+- **`find_reachable_unseen_tiles` (High Priority):** A tool that parses the map XML and current player position to return a list of unseen tiles that are confirmed to be reachable, filtering out those blocked by walls or other obstacles.
