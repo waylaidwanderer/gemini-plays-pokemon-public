@@ -129,6 +129,7 @@
     - Interacting from behind pushes the bird forward (Verified at (15, 24) -> (15, 29)).
     - Interacting from the front moves the bird (Verified at (29, 23) -> move off-screen).
     - Interacting from below at (15, 26) moves the bird to (20, 24) (Verified when bird was at (15, 25) and facing down).
+    - Interacting from above at (22, 30) when the bird is at (22, 31) moves it to (28, 31). (Verified)
     - Interacting from the side is location-dependent. From the right at (16, 29), it resets the puzzle. From the left at (14, 29), it makes the bird disappear (progress). Interacting from the side at (21, 24) when the bird is at (20, 24) makes it say 'Kwaa!' and disappear, but this ultimately resets the bird to its starting position (15, 25), which is a puzzle reset, not progress.
     - Failed Hypothesis: Stepping on the twig pile at (16, 28) makes the Farfetch'd appear at (22, 31). (Disproven by direct observation on Turn 19061 and re-verified on Turn 19092).
 - **Untested Alternatives:** The solution may require a key item (e.g., Squirtbottle), a specific Pokémon move used on the environment, or be time-dependent.
