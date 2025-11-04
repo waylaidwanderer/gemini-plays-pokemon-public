@@ -225,11 +225,11 @@
 - `debugging_assistant`: Analyzes and corrects faulty Python scripts.
 
 ## Custom Tools
+- `deterministic_battle_strategist`: Analyzes battle state and recommends the optimal, deterministic action.
+- `find_adjacent_traversable_tiles`: Identifies all adjacent tiles to a given coordinate that are traversable.
+- `find_reachable_unseen_tiles`: Parses the map XML and current player position to return a list of unseen tiles that are confirmed to be reachable, filtering out those blocked by walls or other obstacles.
 - `generate_path_plan`: Generates a sequence of coordinates to navigate from the player's current position to a target coordinate.
   - **CRITICAL PROCESS:** To prevent pathing into known off-screen obstacles, I MUST consult my notepad and map markers for the target map *before* calling this tool. The coordinates of any known impassable NPCs or other temporary blockades must be manually added to the `object_locations_json` argument.
-- `pathing_failure_analyst`: A tool that takes a navigation goal, executes a path, and if a 'Movement Blocked' error occurs, it automatically re-calls `path_with_obstacle_avoidance` to generate a new path from the point of interruption.
-- `find_adjacent_traversable_tiles`: Identifies all adjacent tiles to a given coordinate that are traversable.
-- `deterministic_battle_strategist`: Analyzes battle state and recommends the optimal, deterministic action.
 - `path_with_obstacle_avoidance`: Generates a path to a target, automatically detecting and avoiding on-screen obstacles.
 
 # Future Development
