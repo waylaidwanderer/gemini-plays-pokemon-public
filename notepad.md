@@ -461,3 +461,4 @@
 
 # Process Improvement (Turn 18842)
 - Acknowledged repeated failures to update notepad. Will prioritize immediate, small, successful edits to ensure data hygiene before proceeding with gameplay goals.
+  - Stepping on other twig piles (17, 28 and 18, 28) while the bird is despawned does not make it reappear.
