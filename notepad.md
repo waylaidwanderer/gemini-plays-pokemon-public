@@ -183,29 +183,7 @@
   4. Document any branching paths, obstacles (like water or boulders), and potential HM requirements.
   5. If a path leads to a new exit, mark the location and explore the new area.
 
-# My Tools & Agents
-
-## Built-in Tools
-- `notepad_edit`: Edits my persistent notepad.
-- `run_code`: Executes single-use Python code.
-- `define_map_marker` / `delete_map_marker`: Manages map markers.
-- `define_agent` / `delete_agent`: Manages custom agents.
-- `define_tool` / `delete_tool`: Manages custom tools.
-- `stun_npc`: Temporarily stuns an NPC, allowing interaction or passage.
-- `select_battle_option`
-
-## Custom Agents
-- `notepad_refactor_assistant`: Refactors notepad content based on a goal.
-- `debugging_assistant`: Analyzes and corrects faulty Python scripts.
-- `puzzle_solver_strategist`: Analyzes the 'Active Investigations' section of the notepad for a given puzzle and suggests the next logical, non-repeating hypothesis to test. This helps avoid repeating failed actions and getting stuck in loops.
-
-## Custom Tools
-- `find_adjacent_traversable_tiles`: Identifies all adjacent tiles to a given coordinate that are traversable.
-- `deterministic_battle_strategist`: Analyzes battle state and recommends the optimal, deterministic action.
-- `find_reachable_unseen_tiles`: Parses the map XML and current player position to return a list of unseen tiles that are confirmed to be reachable, filtering out those blocked by walls or other obstacles.
-- `path_and_execute`: Generates a path to a target coordinate and returns a sequence of button presses intended for use with `autopress_buttons`. Automatically attempts to run from wild battles if interrupted. (NOTE: This tool has been highly unreliable, especially with one-way tiles and obstacle avoidance. Multiple fixes have been applied.)
-
-## Tool & Agent Ideas
+# Tool & Agent Ideas
 - **Navigation Manager Agent/Tool (High Priority):** Automates multi-map navigation, including pathfinding, executing movement, handling random battle interruptions (running/fighting), and then automatically re-pathing to the original destination.
 - **Exploration Strategist Agent:** Takes the output of `find_reachable_unseen_tiles` and suggests the most strategically valuable tile to explore next (e.g., closest, or one leading to a cluster).
 - **Battle Recovery Agent:** Analyzes a failed battle state (e.g., wrong menu) and generates the button presses to recover and return to the intended action.
@@ -213,6 +191,7 @@
 - **Tool Debugger Orchestrator Agent (High Priority):** Automates the multi-step process of identifying a tool bug, calling the `debugging_assistant`, applying the fix with `define_tool`, and re-running the failing test case to verify the fix.
 - **Automated Obstacle Avoidance Tool (High Priority):** Combines `get_on_screen_object_locations` and `generate_path_plan` to automatically detect and path around temporary obstacles without requiring manual addition of `object_locations_json`.
 - **Pre-flight Checklist Agent:** Takes a navigation goal and map ID, then checks map markers to warn of obstacles along the planned route.
+- **Field Move Tool (`use_field_move`):** Automate the menu navigation required to use an out-of-battle move like Flash or Cut. Input would be move name and Pokémon's party slot, output would be a button sequence.
 
 # Appendix: Completed Investigations
 
@@ -421,15 +400,5 @@
   - Stepping on the twig pile at (18, 28) while the bird is despawned does not make it reappear. (Verified Turn 19121)
   - Stepping on the trigger tile at (29, 33) while the bird is despawned does not make it reappear. (Verified Turn 19145)
 
-## Tool & Agent Ideas (Post-Reflection Update)
-- **Field Move Tool (`use_field_move`):** Automate the menu navigation required to use an out-of-battle move like Flash or Cut. Input would be move name and Pokémon's party slot, output would be a button sequence.
-
 ## Untested Mechanics & Hypotheses (Post-Reflection Update)
 - Test `VOID` tiles by attempting to walk into them to confirm they are impassable.
-
-# Reflection Log (Turn 19334)
-
-## Tool & Agent Ideas (Post-Reflection Update)
-- **Tool Debugger Orchestrator Agent (High Priority):** Automates the multi-step process of identifying a tool bug, calling the `debugging_assistant`, applying the fix with `define_tool`, and re-running the failing test case to verify the fix.
-- **Automated Obstacle Avoidance Tool (High Priority):** Combines `get_on_screen_object_locations` and `generate_path_plan` to automatically detect and path around temporary obstacles without requiring manual addition of `object_locations_json`.
-- **Pre-flight Checklist Agent:** Takes a navigation goal and map ID, then checks map markers to warn of obstacles along the planned route.
