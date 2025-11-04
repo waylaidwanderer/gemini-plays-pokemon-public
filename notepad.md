@@ -437,3 +437,8 @@
 - WEEDLE: Bug/Poison
 - **Battle Recovery Agent:** Could analyze a failed battle state (e.g., wrong menu) and generate the button presses to recover and return to the intended action.
 - **`find_reachable_unseen_tiles` (High Priority):** A tool that parses the map XML and current player position to return a list of unseen tiles that are confirmed to be reachable, filtering out those blocked by walls or other obstacles.
+- **Hypothesis 6:** Stepping on the tile at (29, 33) will cause the Farfetch'd to appear at (28, 31).
+  - **Test Plan:**
+    1. Navigate from my current position (8, 28) to (29, 33).
+    2. Step on the tile.
+    3. Navigate to a position where (28, 31) is visible and check for the Farfetch'd object.
