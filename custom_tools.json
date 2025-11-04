@@ -157,8 +157,8 @@
       }
     ]
   },
-  "automated_navigation_tool": {
-    "description": "Automates navigation to a target coordinate. The tool generates a path with obstacle avoidance, executes movement, automatically handles battle interruptions by attempting to run, and then re-paths from the new location until the destination is reached. This tool is intended to be called repeatedly across turns until it reports success.",
+  "path_and_execute": {
+    "description": "Generates a path to a target coordinate and returns a sequence of button presses intended for use with `autopress_buttons`. Automatically attempts to run from wild battles if interrupted.",
     "input_schema": {
       "type": "object",
       "properties": {
@@ -167,121 +167,24 @@
         },
         "target_y": {
           "type": "string"
-        },
-        "state_json": {
-          "type": "string",
-          "description": "A JSON string representing the tool's state from the previous turn. Use an empty dict '{}' for the first call."
         }
       },
       "required": [
         "target_x",
-        "target_y",
-        "state_json"
+        "target_y"
       ]
     },
-    "python_script": "# injected imports [\"sys\", \"json\"]\n# injected variables [\"map_xml_string\", \"input_data\"]\n\nimport json\nimport xml.etree.ElementTree as ET\nimport collections\n\ninput_data_dict = json.loads(input_data['state_json'])\nstate = input_data_dict.get('state', 'START')\ntarget_x = int(input_data['target_x'])\ntarget_y = int(input_data['target_y'])\n\ndef get_player_pos():\n    root = ET.fromstring(map_xml_string)\n    player_tile = root.find('.//Player/..')\n    if player_tile is not None:\n        coord_str = player_tile.get('coordinate')\n        x_str, y_str = coord_str.strip('()').split(',')\n        return int(x_str.strip()), int(y_str.strip())\n    return None, None\n\ndef pathfind(start_x, start_y, end_x, end_y):\n    object_locations = {}\n    root = ET.fromstring(map_xml_string)\n    try:\n        for tile_elem in root.findall('.//Object/..'):\n            obj_elem = tile_elem.find('Object')\n            obj_id = obj_elem.get('id')\n            if obj_id == '0': continue\n            coord_str = tile_elem.get('coordinate')\n            if coord_str:\n                x_str, y_str = coord_str.strip('()').split(',')\n                x, y = int(x_str.strip()), int(y_str.strip())\n                object_locations[obj_id] = [x, y]\n        # Also get locations from object-linked markers for off-screen obstacles\n        for tile_elem in root.findall('.//Marker[@object_id]/..'):\n            marker_elem = tile_elem.find('Marker[@object_id]')\n            obj_id = marker_elem.get('object_id')\n            if obj_id not in object_locations: # Don't overwrite on-screen data\n                coord_str = tile_elem.get('coordinate')\n                if coord_str:\n                    x_str, y_str = coord_str.strip('()').split(',')\n                    x, y = int(x_str.strip()), int(y_str.strip())\n                    object_locations[obj_id] = [x, y]\n    except ET.ParseError:\n        pass\n    \n    map_id = root.get('id')\n    impassable_types = {'WALL', 'WATER', 'COUNTER', 'MART_SHELF', 'PC', 'TV', 'BOOKSHELF', 'RADIO', 'TOWN_MAP', 'WINDOW', 'CUT_TREE', 'HEADBUTT_TREE'}\n    tile_data = {}\n    for tile_elem in root.findall('.//Tile'):\n        coord_str = tile_elem.get('coordinate')\n        x_str, y_str = coord_str.strip('()').split(',')\n        x, y = int(x_str.strip()), int(y_str.strip())\n        tile_data[(x, y)] = {'type': tile_elem.get('type'), 'is_warp': tile_elem.get('is-warp') == 'true'}\n\n    obstacle_coords = set(tuple(coords) for coords in object_locations.values())\n    start_node = (start_x, start_y)\n    target_node = (end_x, end_y)\n\n    # Check if the target node itself is impassable\n    target_tile_data = tile_data.get(target_node)\n    is_target_impassable = (\n        target_node in obstacle_coords or\n        not target_tile_data or\n        target_tile_data['type'] in impassable_types\n    )\n\n    if is_target_impassable:\n        # Target is blocked, find the nearest valid adjacent tile to path to\n        potential_targets = []\n        for dx, dy in [(0, 1), (0, -1), (-1, 0), (1, 0)]: # Down, Up, Left, Right\n            adj_x, adj_y = end_x + dx, end_y + dy\n            adj_node = (adj_x, adj_y)\n\n            # Check if this adjacent node is a valid destination\n            if adj_node not in tile_data: continue\n            if adj_node in obstacle_coords: continue\n            \n            adj_tile_data = tile_data.get(adj_node)\n            if not adj_tile_data: continue\n            if adj_tile_data['type'] in impassable_types: continue\n            if adj_tile_data['is_warp']: continue # Don't path to a warp as an alternative\n\n            potential_targets.append(adj_node)\n        \n        if not potential_targets:\n            return None # No valid adjacent tile to path to\n\n        # Sort potential targets by Manhattan distance from the start node\n        potential_targets.sort(key=lambda p: abs(p[0] - start_x) + abs(p[1] - start_y))\n        target_node = potential_targets[0]\n\n    if start_node == target_node: return []\n\n    queue = collections.deque([[start_node]])\n    visited = {start_node}\n\n    while queue:\n        path = queue.popleft()\n        x, y = path[-1]\n        if (x, y) == target_node: return path\n\n        current_tile_data = tile_data.get((x, y))\n        if not current_tile_data or current_tile_data['type'] in impassable_types:\n            continue\n\n        for dx, dy in [(0, -1), (0, 1), (-1, 0), (1, 0)]:\n            nx, ny = x + dx, y + dy\n            neighbor_node = (nx, ny)\n            if neighbor_node in visited or neighbor_node not in tile_data: continue\n            if neighbor_node in obstacle_coords: continue\n            neighbor_tile_data = tile_data.get(neighbor_node)\n            if not neighbor_tile_data: continue\n\n            # --- REVISED ONE-WAY TILE LOGIC ---\n            # A move is invalid if it crosses a one-way barrier in the wrong direction.\n            # This applies whether the start or end tile is the one-way tile.\n\n            # Barrier to moving UP (dy = -1)\n            if dy == -1 and (current_tile_data['type'] in {'LEDGE_HOP_DOWN', 'FLOOR_UP_WALL'} or neighbor_tile_data['type'] in {'LEDGE_HOP_DOWN', 'FLOOR_UP_WALL'}):\n                continue\n            \n            # Barrier to moving RIGHT (dx = 1)\n            if dx == 1 and (current_tile_data['type'] == 'LEDGE_HOP_LEFT' or neighbor_tile_data['type'] == 'LEDGE_HOP_LEFT'):\n                continue\n            \n            # Barrier to moving LEFT (dx = -1)\n            if dx == -1 and (current_tile_data['type'] == 'LEDGE_HOP_RIGHT' or neighbor_tile_data['type'] == 'LEDGE_HOP_RIGHT'):\n                continue\n\n            if neighbor_tile_data['type'] in impassable_types: continue\n            if neighbor_tile_data['is_warp'] and neighbor_node != target_node: continue\n            visited.add(neighbor_node)\n            new_path = list(path)\n            new_path.append(neighbor_node)\n            queue.append(new_path)\n    return None\n\nplayer_x, player_y = get_player_pos()\n\nif player_x is None:\n    output = {\n        'status': 'IN_PROGRESS',\n        'message': 'In battle, attempting to run.',\n        'next_state_json': json.dumps({'state': 'BATTLE_RECOVERY'}),\n        'buttons_to_press': ['Down', 'Down', 'A']\n    }\nelse:\n    if (player_x, player_y) == (target_x, target_y):\n        output = {\n            'status': 'SUCCESS',\n            'message': 'Destination reached.',\n            'next_state_json': json.dumps({}),\n            'buttons_to_press': []\n        }\n    else:\n        path = pathfind(player_x, player_y, target_x, target_y)\n        if path is not None and len(path) > 1:\n            output = {\n                'status': 'IN_PROGRESS',\n                'message': f'Pathing from ({player_x}, {player_y}) to ({target_x}, {target_y}).',\n                'next_state_json': json.dumps({'state': 'MOVING'}),\n                'path_plan': [{'x': p[0], 'y': p[1]} for p in path]\n            }\n        else:\n            output = {\n                'status': 'FAILURE',\n                'message': f'No path found from ({player_x}, {player_y}) to ({target_x}, {target_y}).',\n                'next_state_json': json.dumps({}),\n                'buttons_to_press': []\n            }\n\nprint(json.dumps(output))\n",
+    "python_script": "import json\nimport xml.etree.ElementTree as ET\nimport collections\n\ndef pathfind(start_x, start_y, end_x, end_y, map_xml_string):\n    root = ET.fromstring(map_xml_string)\n    impassable_types = {'WALL', 'WATER', 'COUNTER', 'MART_SHELF', 'PC', 'TV', 'BOOKSHELF', 'RADIO', 'TOWN_MAP', 'WINDOW', 'CUT_TREE', 'HEADBUTT_TREE'}\n    tile_data = {}\n    for tile_elem in root.findall('.//Tile'):\n        coord_str = tile_elem.get('coordinate')\n        x_str, y_str = coord_str.strip('()').split(',')\n        x, y = int(x_str.strip()), int(y_str.strip())\n        tile_data[(x, y)] = {'type': tile_elem.get('type')}\n    obstacle_coords = set()\n    for tile_elem in root.findall('.//Object/..'):\n        obj_elem = tile_elem.find('Object')\n        if obj_elem.get('id') != '0':\n            coord_str = tile_elem.get('coordinate')\n            x_str, y_str = coord_str.strip('()').split(',')\n            obstacle_coords.add((int(x_str.strip()), int(y_str.strip())))\n    start_node = (start_x, start_y)\n    target_node = (end_x, end_y)\n    if target_node in obstacle_coords or tile_data.get(target_node, {}).get('type') in impassable_types:\n        potential_targets = []\n        for dx, dy in [(0, 1), (0, -1), (-1, 0), (1, 0)]:\n            adj_node = (end_x + dx, end_y + dy)\n            if adj_node not in obstacle_coords and tile_data.get(adj_node, {}).get('type') not in impassable_types:\n                potential_targets.append(adj_node)\n        if not potential_targets: return None\n        potential_targets.sort(key=lambda p: abs(p[0] - start_x) + abs(p[1] - start_y))\n        target_node = potential_targets[0]\n    if start_node == target_node: return []\n    queue = collections.deque([[start_node]])\n    visited = {start_node}\n    while queue:\n        path = queue.popleft()\n        x, y = path[-1]\n        if (x, y) == target_node: return path\n        for dx, dy in [(0, -1), (0, 1), (-1, 0), (1, 0)]:\n            nx, ny = x + dx, y + dy\n            neighbor_node = (nx, ny)\n            if neighbor_node in visited or neighbor_node not in tile_data: continue\n            if neighbor_node in obstacle_coords: continue\n            if tile_data.get(neighbor_node, {}).get('type') in impassable_types: continue\n            current_type = tile_data.get((x,y), {}).get('type')\n            neighbor_type = tile_data.get(neighbor_node, {}).get('type')\n            if (dy == -1 and (current_type == 'LEDGE_HOP_DOWN' or neighbor_type == 'LEDGE_HOP_DOWN')): continue\n            if (dx == 1 and (current_type == 'LEDGE_HOP_LEFT' or neighbor_type == 'LEDGE_HOP_LEFT')): continue\n            if (dx == -1 and (current_type == 'LEDGE_HOP_RIGHT' or neighbor_type == 'LEDGE_HOP_RIGHT')): continue\n            visited.add(neighbor_node)\n            new_path = list(path)\n            new_path.append(neighbor_node)\n            queue.append(new_path)\n    return None\n\ntarget_x = int(input_data['target_x'])\ntarget_y = int(input_data['target_y'])\nroot = ET.fromstring(map_xml_string)\nplayer_tile = root.find('.//Player/..')\nif player_tile is None:\n    print(json.dumps(['Down', 'Down', 'A']))\nelse:\n    coord_str = player_tile.get('coordinate')\n    x_str, y_str = coord_str.strip('()').split(',')\n    player_x, player_y = int(x_str.strip()), int(y_str.strip())\n    path = pathfind(player_x, player_y, target_x, target_y, map_xml_string)\n    if path is not None:\n        buttons = []\n        for i in range(len(path) - 1):\n            curr_x, curr_y = path[i]\n            next_x, next_y = path[i+1]\n            if next_y < curr_y: buttons.append('Up')\n            elif next_y > curr_y: buttons.append('Down')\n            elif next_x < curr_x: buttons.append('Left')\n            elif next_x > curr_x: buttons.append('Right')\n        print(json.dumps(buttons))\n    else:\n        print(json.dumps([]))",
     "history": [
       {
-        "commit_message": "feat: Create automated navigation tool. This tool, `automated_navigation_tool`, automates the entire process of navigating to a destination, including pathfinding, executing movement, handling random battle interruptions by running, and re-pathing. This is a major process improvement designed to eliminate the significant time wasted on manual battle handling during exploration and puzzle-solving.",
-        "timestamp": "2025-11-04T03:40:39.797Z",
-        "action_counter": 18295
+        "commit_message": "feat: Create unified pathing and execution tool. This new tool, `path_and_execute`, combines the pathfinding logic of `automated_navigation_tool` with the button conversion logic of `manual_path_executor`. This addresses the critical, recurring failure of the built-in `path` command by generating a reliable button sequence for `autopress_buttons` in a single tool call, streamlining the navigation process.",
+        "timestamp": "2025-11-04T14:17:31.770Z",
+        "action_counter": 19229
       },
       {
-        "commit_message": "fix: Improve battle escape logic and consolidate tools. Replaced the call to `select_battle_option` with a direct sequence of button presses ('Down', 'Down', 'A') to make running from battles more reliable. This addresses the critical failure where the tool would get stuck in a failed escape loop. The description has also been updated to reflect that this tool now incorporates the functionality of the deleted `path_with_obstacle_avoidance` tool.",
-        "timestamp": "2025-11-04T04:25:23.506Z",
-        "action_counter": 18333
-      },
-      {
-        "commit_message": "fix: Correct ledge traversal logic. The previous version had a copy-paste error that incorrectly checked for horizontal movement (`dx`) instead of vertical movement (`dy`) when determining if a left/right ledge tile could be moved onto. This commit corrects the checks to `dy == -1` for all ledge types, ensuring consistent behavior and unblocking valid horizontal paths that were previously being ignored.",
-        "timestamp": "2025-11-04T07:39:14.789Z",
-        "action_counter": 18647
-      },
-      {
-        "commit_message": "fix: Overhaul ledge traversal logic. Removed flawed checks on the current tile and corrected copy-paste errors in the neighbor tile checks. The previous logic was incorrectly pruning valid paths near ledges, causing pathfinding failures on known-good routes.",
-        "timestamp": "2025-11-04T07:42:38.272Z",
-        "action_counter": 18651
-      },
-      {
-        "commit_message": "fix: Manually correct backward ledge logic. The agent's fixes were incorrect. A `LEDGE_HOP_LEFT` blocks movement from the right (dx=-1), and a `LEDGE_HOP_RIGHT` blocks movement from the left (dx=1). This commit implements the correct logic after manual analysis.",
-        "timestamp": "2025-11-04T07:44:34.758Z",
-        "action_counter": 18654
-      },
-      {
-        "commit_message": "fix: Revert flawed manual fix and implement correct ledge logic. My previous manual fix had the conditions for horizontal ledges backward. This commit implements the correct logic: block movement from the right (dx=1) onto a LEDGE_HOP_LEFT, and block movement from the left (dx=-1) onto a LEDGE_HOP_RIGHT. This finally resolves the persistent pathfinding failures.",
-        "timestamp": "2025-11-04T07:48:14.262Z",
-        "action_counter": 18659
-      },
-      {
-        "commit_message": "feat: Add support for off-screen obstacle avoidance. The pathfinder now parses object-linked map markers from the map XML and adds their coordinates to the list of obstacles. This prevents the tool from generating invalid paths that attempt to move through off-screen objects, which was a critical failure.",
-        "timestamp": "2025-11-04T10:23:13.938Z",
-        "action_counter": 18895
-      },
-      {
-        "commit_message": "fix: Correct flawed FLOOR_UP_WALL logic. The debugging_assistant identified that the rule for this tile type was inconsistent and had a directional typo (checking for dy==1 instead of dy==-1). This commit applies the agent's fix, making the rule universal and consistent with other ledge types, which should resolve pathfinding failures caused by this bug.",
-        "timestamp": "2025-11-04T11:04:59.468Z",
-        "action_counter": 18958
-      },
-      {
-        "commit_message": "fix: Correct FLOOR_UP_WALL logic to check current tile. The movement restriction for FLOOR_UP_WALL applies when *leaving* the tile northwards, not entering it. This commit applies the debugging_assistant's new fix, which checks the `current_tile_data` instead of the `neighbor_tile_data`, correctly modeling the mechanic and resolving the persistent pathfinding failure.",
-        "timestamp": "2025-11-04T11:10:00.165Z",
-        "action_counter": 18963
-      },
-      {
-        "commit_message": "fix: Add rules for moving FROM ledges. The previous logic only prevented illegal moves ONTO ledges, but not FROM them. This allowed the BFS to explore invalid paths, polluting the 'visited' set and causing it to fail on valid routes. This completes the one-way tile logic.",
-        "timestamp": "2025-11-04T11:22:45.781Z",
-        "action_counter": 18969
-      },
-      {
-        "commit_message": "fix: Add rules for moving FROM ledges. The previous logic only prevented illegal moves ONTO ledges, but not FROM them. This allowed the BFS to explore invalid paths, polluting the 'visited' set and causing it to fail on valid routes. This completes the one-way tile logic.",
-        "timestamp": "2025-11-04T11:23:54.083Z",
-        "action_counter": 18970
-      },
-      {
-        "commit_message": "fix: Replace specific ledge checks with a general rule. The previous logic for moving ONTO ledges was incomplete, allowing invalid sideways moves which polluted the 'visited' set and caused BFS failures. This replaces the three flawed checks with a single, comprehensive rule that forbids any movement ending on a ledge tile, correctly modeling game mechanics and fixing the fundamental pathfinding error.",
-        "timestamp": "2025-11-04T11:30:20.482Z",
-        "action_counter": 18975
-      },
-      {
-        "commit_message": "fix: Overhaul one-way tile logic. Replaces separate 'onto' and 'from' rules with a unified 'barrier' model. A move is now blocked if it crosses a one-way tile in the prohibited direction, regardless of start/end tile. This correctly allows movement parallel to ledges, fixing a fundamental pathfinding failure where the `visited` set was being polluted by overly restrictive logic.",
-        "timestamp": "2025-11-04T11:36:33.659Z",
-        "action_counter": 18979
-      },
-      {
-        "commit_message": "fix: Overhaul one-way tile logic. Replaces separate 'onto' and 'from' rules with a unified 'barrier' model. A move is now blocked if it crosses a one-way tile in the prohibited direction, regardless of start/end tile. This correctly allows movement parallel to ledges, fixing a fundamental pathfinding failure where the `visited` set was being polluted by overly restrictive logic.",
-        "timestamp": "2025-11-04T11:42:12.012Z",
-        "action_counter": 18982
-      },
-      {
-        "commit_message": "fix: Add check for impassable start node. The pathfinder was failing because it never validated if the starting tile itself was impassable. This commit adds a check at the beginning of the main BFS loop to immediately prune paths originating from an invalid tile, correcting a fundamental logic error.",
-        "timestamp": "2025-11-04T11:48:25.839Z",
-        "action_counter": 18985
-      },
-      {
-        "commit_message": "fix: Handle impassable target coordinates. The pathfinder now checks if the destination tile is blocked (by an object or impassable terrain). If it is, the tool intelligently finds the nearest valid, traversable adjacent tile and paths to it instead. This resolves a critical failure where the tool would incorrectly report 'No path found' when trying to navigate to an NPC or object.",
-        "timestamp": "2025-11-04T11:54:04.181Z",
-        "action_counter": 18991
-      }
-    ]
-  },
-  "manual_path_executor": {
-    "description": "Takes a path_plan (JSON string of a list of coordinates) and converts it into a sequence of single-step button presses (Up, Down, Left, Right) to be used with autopress. This is a workaround for the failing 'path' command.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "path_plan_json": {
-          "type": "string"
-        }
-      },
-      "required": [
-        "path_plan_json"
-      ]
-    },
-    "python_script": "import json\npath_plan = json.loads(input_data['path_plan_json'])\nbuttons = []\nif len(path_plan) < 2:\n    print(json.dumps([]))\nelse:\n    for i in range(len(path_plan) - 1):\n        current_pos = path_plan[i]\n        next_pos = path_plan[i+1]\n        dx = next_pos['x'] - current_pos['x']\n        dy = next_pos['y'] - current_pos['y']\n        if dx == 1:\n            buttons.append(\"Right\")\n        elif dx == -1:\n            buttons.append(\"Left\")\n        elif dy == 1:\n            buttons.append(\"Down\")\n        elif dy == -1:\n            buttons.append(\"Up\")\n    print(json.dumps(buttons))",
-    "history": [
-      {
-        "commit_message": "feat: Create manual path executor tool. This tool serves as a critical workaround for the failing `path` command, which has been causing silent movement failures and positional hallucinations. It converts a path_plan into a sequence of directional button presses, allowing for reliable automated movement via `autopress_buttons`. This directly addresses the system critique regarding unsustainable manual movement.",
-        "timestamp": "2025-11-04T12:27:13.184Z",
-        "action_counter": 19053
+        "commit_message": "feat: Create unified pathing and execution tool. This new tool, `path_and_execute`, combines the pathfinding logic of `automated_navigation_tool` with the button conversion logic of `manual_path_executor`. This addresses the critical, recurring failure of the built-in `path` command by generating a reliable button sequence for `autopress_buttons` in a single tool call, streamlining the navigation process.",
+        "timestamp": "2025-11-04T14:21:07.531Z",
+        "action_counter": 19236
       }
     ]
   }
