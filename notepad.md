@@ -132,6 +132,8 @@
     - Interacting from the side is location-dependent. From the right at (16, 29), it resets the puzzle. From the left at (14, 29), it makes the bird disappear (progress). Interacting from the side at (21, 24) when the bird is at (20, 24) makes it say 'Kwaa!' and disappear, but this ultimately resets the bird to its starting position (15, 25), which is a puzzle reset, not progress.
     - Failed Hypothesis: Stepping on the twig pile at (16, 28) makes the Farfetch'd appear at (22, 31). (Disproven by direct observation on Turn 19061 and re-verified on Turn 19092).
 - **Untested Alternatives:** The solution may require a key item (e.g., Squirtbottle), a specific Pokémon move used on the environment, or be time-dependent.
+- **Hypotheses to Test:**
+    - Step on the twig pile at (16, 28) to make the Farfetch'd at (15, 29) change its facing direction. (Agent Suggestion)
 - **Execution Errors & Failed Hypotheses:**
   - Multiple hypotheses to make a missing Farfetch'd reappear (e.g., map resets, interacting with its empty starting tile, stepping on specific trigger tiles/ledges/twigs) have been tested and disproven. These tests were often based on a flawed premise that the bird was not on the map, stemming from state-tracking and positioning errors.
   - Interacting from the side at (16, 29) when the bird is at (15, 29) causes a puzzle reset, regardless of its facing direction (tested with 'left' and 'up'). The bird returns to its starting position at (15, 25).
