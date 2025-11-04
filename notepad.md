@@ -398,3 +398,4 @@
 ## Untested Mechanics & Hypotheses (Post-Reflection Update)
 - Interacting with the Farfetch'd at (29, 22) from the left at (28, 22) makes it say 'Kwaa!' and then despawn, resetting the puzzle.
 - Interacting with the Farfetch'd at (28, 31) from the right at (29, 31) makes it say 'Kwaa!' and then despawn, resetting the puzzle.
+- **CRITICAL HALLUCINATION (Turn 19418):** Believed I was at (15, 26) when I was actually at (8, 34). This invalidated my entire plan for the turn and is a severe failure of state tracking.
