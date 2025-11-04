@@ -476,3 +476,8 @@
 ## Future Development (Additions)
 - **Navigation Manager Agent/Tool (High Priority):** An agent or tool to automate the multi-step process of pathing, executing movement, handling random battle interruptions by running or fighting, and then automatically re-pathing to the original destination.
 - **Puzzle Solver Strategist Agent (High Priority):** An agent that takes a puzzle's context (map markers, dialogue, failed hypotheses from notepad) and suggests the next logical, non-repeating hypothesis to test. This would prevent wasted turns repeating failed actions.
+
+## Reflection-Based Action Items (Turn 18192)
+- **New Agent Idea:** `Puzzle Solver Strategist Agent` to suggest next logical, non-repeating hypotheses for puzzles.
+- **New Agent/Tool Idea:** `Navigation Manager` to automate pathing, battle handling, and re-pathing.
+- **Process Improvement:** Add more rigorous testing of all tile mechanics to the 'Untested Mechanics & Hypotheses' section.
