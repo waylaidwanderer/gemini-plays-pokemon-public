@@ -128,7 +128,7 @@
     - Interacting from the side can either move the bird (Verified at (21, 24) when bird was at (20, 24) facing right) or reset the puzzle (Verified at (16, 29) when bird was at (15, 29) facing down). The outcome seems dependent on the bird's facing direction.
     - Stepping on twig piles has had no effect so far.
 - **Untested Alternatives:** The solution may require a key item (e.g., Squirtbottle), a specific Pokémon move used on the environment, or be time-dependent.
-- **Execution Errors & Failed Hypotheses:** Multiple hypotheses to make a missing Farfetch'd reappear (e.g., map resets, interacting with its empty starting tile, stepping on specific trigger tiles/ledges/twigs) have been tested and disproven. These tests were often based on a flawed premise that the bird was not on the map, stemming from state-tracking and positioning errors.
+- **Execution Errors & Failed Hypotheses:** Interacting from (21, 24) when the bird is off-screen does not make it reappear (failed Turn 18247). Multiple hypotheses to make a missing Farfetch'd reappear (e.g., map resets, interacting with its empty starting tile, stepping on specific trigger tiles/ledges/twigs) have been tested and disproven. These tests were often based on a flawed premise that the bird was not on the map, stemming from state-tracking and positioning errors.
 
 ### Route 36 'Odd Tree' Puzzle
 - **Objective:** Get past the tree blocking the path at (35, 9).
