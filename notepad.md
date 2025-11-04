@@ -142,6 +142,7 @@
   - Stepping on the twig pile at (16, 28) does not make the Farfetch'd reappear at its starting position of (15, 25). (Verified Turn 19108)
   - Interacting with the Farfetch'd at (29, 22) from the left at (28, 22) makes it say 'Kwaa!' and then despawn, resetting the puzzle.
   - Interacting with the Farfetch'd at (28, 31) from the right at (29, 31) makes it say 'Kwaa!' and then despawn, resetting the puzzle.
+  - Interacting with the Farfetch'd at (28, 31) from the left at (27, 31) makes it say 'Kwaa!' and then despawn, resetting the puzzle.
 
 ### Route 36 'Odd Tree' Puzzle
 - **Objective:** Get past the tree blocking the path at (35, 9).
