@@ -262,5 +262,27 @@
         "action_counter": 18991
       }
     ]
+  },
+  "manual_path_executor": {
+    "description": "Takes a path_plan (JSON string of a list of coordinates) and converts it into a sequence of single-step button presses (Up, Down, Left, Right) to be used with autopress. This is a workaround for the failing 'path' command.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "path_plan_json": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "path_plan_json"
+      ]
+    },
+    "python_script": "import json\npath_plan = json.loads(input_data['path_plan_json'])\nbuttons = []\nif len(path_plan) < 2:\n    print(json.dumps([]))\nelse:\n    for i in range(len(path_plan) - 1):\n        current_pos = path_plan[i]\n        next_pos = path_plan[i+1]\n        dx = next_pos['x'] - current_pos['x']\n        dy = next_pos['y'] - current_pos['y']\n        if dx == 1:\n            buttons.append(\"Right\")\n        elif dx == -1:\n            buttons.append(\"Left\")\n        elif dy == 1:\n            buttons.append(\"Down\")\n        elif dy == -1:\n            buttons.append(\"Up\")\n    print(json.dumps(buttons))",
+    "history": [
+      {
+        "commit_message": "feat: Create manual path executor tool. This tool serves as a critical workaround for the failing `path` command, which has been causing silent movement failures and positional hallucinations. It converts a path_plan into a sequence of directional button presses, allowing for reliable automated movement via `autopress_buttons`. This directly addresses the system critique regarding unsustainable manual movement.",
+        "timestamp": "2025-11-04T12:27:13.184Z",
+        "action_counter": 19053
+      }
+    ]
   }
 }
