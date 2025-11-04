@@ -446,3 +446,4 @@
 # Tactical & Process Notes (Turn 18534)
 - **WARNING:** Ignis has 0 PP left for FLAME WHEEL. Must conserve EMBER PP.
 - **PROCESS NOTE:** Recent severe positional hallucinations (e.g., Turns 18484-18489, 18533) have made puzzle-solving attempts unreliable. I must re-verify all assumptions and be extremely diligent about confirming my position after every navigation action.
+- Rigorously test all `LEDGE_HOP` tiles in Ilex Forest by attempting to move in all four directions to confirm their movement restrictions.
