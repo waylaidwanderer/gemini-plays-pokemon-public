@@ -38,7 +38,7 @@
 - **TOWN_MAP**: Impassable. (Verified by observation)
 - **TV**: Impassable. (Verified)
 - **UNKNOWN**: Traversability unknown. Was able to stand on this tile at (28, 32) in Ilex Forest.
-- **VOID**: Impassable. (Verified)
+- **VOID**: Impassable. (Assumed, needs verification by attempting to walk into it.)
 - **WALL**: Impassable. (Verified)
 - **WARP_CARPET_DOWN**: Traversable warp. Requires pressing 'Down' on the tile to activate. (Verified)
 - **WARP_CARPET_LEFT**: Traversable warp. Requires pressing 'Left' while standing on the tile to activate. (Verified at 2,10 in Azalea Town, 0,4 in IlexForestAzaleaGate, and 0,4 on Route32RuinsOfAlphGate)
