@@ -38,7 +38,7 @@
 - **TOWN_MAP**: Impassable. (Verified by observation)
 - **TV**: Impassable. (Verified)
 - **UNKNOWN**: Traversability unknown. Was able to stand on this tile at (28, 32) in Ilex Forest.
-- **VOID**: Impassable. (Assumed, needs verification by attempting to walk into it.)
+- **VOID**: Impassable. (Verified by attempting to walk into it from (9, 4) on Route31VioletGate on Turn 19292).
 - **WALL**: Impassable. (Verified)
 - **WARP_CARPET_DOWN**: Traversable warp. Requires pressing 'Down' on the tile to activate. (Verified)
 - **WARP_CARPET_LEFT**: Traversable warp. Requires pressing 'Left' while standing on the tile to activate. (Verified at 2,10 in Azalea Town, 0,4 in IlexForestAzaleaGate, and 0,4 on Route32RuinsOfAlphGate)
@@ -266,7 +266,7 @@
 
 ### Reflection-Based Updates (Turn 12527)
 - **New Tile Mechanic Documented:**
-  - **VOID**: Impassable. (Assumed, needs verification by attempting to walk into it.)
+  - **VOID**: Impassable. (Verified by attempting to walk into it from (9, 4) on Route31VioletGate on Turn 19292).
 
 ### Process Violations (System Critiques)
 - **CRITICAL PROCESS FAILURE (Turn 12570):** The system correctly identified two major process violations. 1) I failed to immediately address the faulty `farfetchd_puzzle_solver` agent after discovering it provided incorrect advice on Turn 12443. 2) I completely ignored my own map markers at (15, 24) and (15, 26) that warned of a movement loop, wasting over 10 turns stuck in that exact loop while the bird wasn't even at its starting position. This is a severe failure of discipline. My new plan is to stop interacting with the bird's empty starting position and instead path to a known trigger point at (29, 33) to make it reappear.
