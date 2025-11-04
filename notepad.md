@@ -441,3 +441,4 @@
 - **New Agent Idea:** `Puzzle Solver Strategist Agent` to suggest next logical, non-repeating hypotheses for puzzles.
 - **New Agent/Tool Idea:** `Navigation Manager` to automate pathing, battle handling, and re-pathing.
 - **Process Improvement:** Add more rigorous testing of all tile mechanics to the 'Untested Mechanics & Hypotheses' section.
+- Rigorously test all `LEDGE_HOP` tiles in Ilex Forest by attempting to move in all four directions to confirm their movement restrictions.
