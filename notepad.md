@@ -661,3 +661,4 @@
 - **TOOL USAGE PROTOCOL:** Before EVERY call to `generate_path_plan`, I MUST consult `relevant_map_markers` for the destination map and add known obstacle coordinates to the `object_locations_json` argument.
 - Hallucinated my position in Union Cave (Turn 19666), believing I was at (7, 10) when I was actually at (5, 4). This invalidated my pathing plan.
 - **`find_reachable_unseen_tiles` tool accuracy:** The tool reported no reachable unseen tiles in Union Cave 1F. This assumes the tool's logic is perfect. To disprove this, I must manually navigate near the unseen tiles (e.g., near (0,12)) and attempt to walk into them. If I can, the tool is broken.
+  - **CRITICAL HALLUCINATION (Turn 19713):** Believed I had successfully exited Union Cave and was on Route 33 at (11, 10). In reality, I was still on UnionCave1F at (17, 21), and my pathing tool was interrupted at (16, 21) by a wild encounter. This is a severe failure of location and map awareness.
