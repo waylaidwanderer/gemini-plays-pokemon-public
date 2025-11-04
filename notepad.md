@@ -139,6 +139,8 @@
   - Interacting from the side at (16, 29) when the bird is at (15, 29) causes a puzzle reset, regardless of its facing direction (tested with 'left' and 'up'). The bird returns to its starting position at (15, 25).
   - Interacting from below at (15, 30) when the bird is at (15, 29) also causes a puzzle reset. (Verified Turn 18421)
   - Stepping on the twig pile at (16, 28) does not make the Farfetch'd reappear at its starting position of (15, 25). (Verified Turn 19108)
+  - Interacting with the Farfetch'd at (29, 22) from the left at (28, 22) makes it say 'Kwaa!' and then despawn, resetting the puzzle.
+  - Interacting with the Farfetch'd at (28, 31) from the right at (29, 31) makes it say 'Kwaa!' and then despawn, resetting the puzzle.
 
 ### Route 36 'Odd Tree' Puzzle
 - **Objective:** Get past the tree blocking the path at (35, 9).
@@ -183,15 +185,8 @@
   4. Document any branching paths, obstacles (like water or boulders), and potential HM requirements.
   5. If a path leads to a new exit, mark the location and explore the new area.
 
-# Tool & Agent Ideas
-- **Navigation Manager Agent/Tool (High Priority):** Automates multi-map navigation, including pathfinding, executing movement, handling random battle interruptions (running/fighting), and then automatically re-pathing to the original destination.
-- **Exploration Strategist Agent:** Takes the output of `find_reachable_unseen_tiles` and suggests the most strategically valuable tile to explore next (e.g., closest, or one leading to a cluster).
-- **Battle Recovery Agent:** Analyzes a failed battle state (e.g., wrong menu) and generates the button presses to recover and return to the intended action.
-- **Reflection Assistant Agent:** Analyzes the last 50 turns of logs to generate a summary of process violations, suggest new tools, and identify untested assumptions, automating the reflection process.
+# High-Priority Agent & Tool Ideas
 - **Tool Debugger Orchestrator Agent (High Priority):** Automates the multi-step process of identifying a tool bug, calling the `debugging_assistant`, applying the fix with `define_tool`, and re-running the failing test case to verify the fix.
-- **Automated Obstacle Avoidance Tool (High Priority):** Combines `get_on_screen_object_locations` and `generate_path_plan` to automatically detect and path around temporary obstacles without requiring manual addition of `object_locations_json`.
-- **Pre-flight Checklist Agent:** Takes a navigation goal and map ID, then checks map markers to warn of obstacles along the planned route.
-- **Field Move Tool (`use_field_move`):** Automate the menu navigation required to use an out-of-battle move like Flash or Cut. Input would be move name and Pokémon's party slot, output would be a button sequence.
 
 # Appendix: Completed Investigations
 
@@ -401,6 +396,5 @@
   - Stepping on the trigger tile at (29, 33) while the bird is despawned does not make it reappear. (Verified Turn 19145)
 
 ## Untested Mechanics & Hypotheses (Post-Reflection Update)
-- Test `VOID` tiles by attempting to walk into them to confirm they are impassable.
-  - Interacting with the Farfetch'd at (29, 22) from the left at (28, 22) makes it say 'Kwaa!' and then despawn, resetting the puzzle.
-  - Interacting with the Farfetch'd at (28, 31) from the right at (29, 31) makes it say 'Kwaa!' and then despawn, resetting the puzzle.
+- Interacting with the Farfetch'd at (29, 22) from the left at (28, 22) makes it say 'Kwaa!' and then despawn, resetting the puzzle.
+- Interacting with the Farfetch'd at (28, 31) from the right at (29, 31) makes it say 'Kwaa!' and then despawn, resetting the puzzle.
