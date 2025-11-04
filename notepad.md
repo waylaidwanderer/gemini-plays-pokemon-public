@@ -193,8 +193,8 @@
 - `puzzle_solver_strategist`: Takes puzzle context (map markers, notepad notes, failed hypotheses) and suggests the next logical, non-repeating hypothesis to test.
 
 ## Custom Tools
-- `deterministic_battle_strategist`: Analyzes battle state and recommends the optimal, deterministic action.
 - `find_adjacent_traversable_tiles`: Identifies all adjacent tiles to a given coordinate that are traversable.
+- `deterministic_battle_strategist`: Analyzes battle state and recommends the optimal, deterministic action.
 - `find_reachable_unseen_tiles`: Parses the map XML and current player position to return a list of unseen tiles that are confirmed to be reachable, filtering out those blocked by walls or other obstacles.
 - `automated_navigation_tool`: Automates navigation to a target coordinate, including handling battle interruptions.
 
