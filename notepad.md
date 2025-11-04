@@ -26,7 +26,7 @@
   - **(Route 32 & Dark Cave Violet Entrance):** Impassable from above. You cannot move DOWN from a FLOOR tile onto a FLOOR_UP_WALL tile. (Verified by manual test on Route 32 at (7, 75) and by pathing failure in Dark Cave at (2, 16)).
 - **HEADBUTT_TREE**: Impassable. (Verified by observation)
 - **INCENSE_BURNER**: Impassable. (Verified by observation in Kurt's House)
-- **LADDER**: A complex warp with directional activation. To descend from 1F to B1F, I moved onto the ladder at (5, 19). To ascend from B1F to 1F, I moved DOWN from (7, 18) onto the ladder at (7, 19). Simple interaction (pressing A or a direction while standing on it) does not work. (Verified)
+- **LADDER**: A complex warp with directional activation. To descend from 1F to B1F, I moved onto the ladder at (5, 19). The method to ascend is unconfirmed. My previous note was incorrect. Hypothesis: To ascend from B1F to 1F, I must stand on the tile above the ladder (7, 18) and press 'Down'. This needs to be tested. Simple interaction (pressing A or a direction while standing on it) does not work. (Partially verified, ascending method is unverified)
 - **LEDGE_HOP_DOWN/LEFT/RIGHT**: One-way traversal.
 - **LONG_GRASS**: Traversable, contains wild Pokémon. (Verified by encounters on Route 30)
 - **MART_SHELF**: Impassable. (Verified by pathfinder consistently treating it as a wall)
