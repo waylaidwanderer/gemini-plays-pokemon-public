@@ -256,7 +256,6 @@
 - **CRITICAL REASONING FAILURE (Turn 14554):** My `generate_path_plan` tool correctly reported that no path existed to the Ilex Forest Shrine from my position at (8, 26). Instead of trusting the tool's output and analyzing the map, I incorrectly assumed the tool was broken. A manual review confirmed my path was blocked by impassable tiles. This is a major failure to trust my own tools and a repeat of past mistakes.
 - **CRITICAL HALLUCINATION (Turn 15350):** Believed I was at (14, 0) on Route 32 and attempted to move 'Up' to enter Violet City. In reality, I was at (6, 80) and my 'Up' press moved me to the cave entrance at (6, 79), warping me back into Union Cave. This is a severe failure of state tracking and location awareness.
 - **PROCESS VIOLATION (Turn 15018):** Failed to consult map marker for Fisher at (15, 27) in Union Cave before pathing, causing a movement blockage. This highlights a need for greater diligence in pre-planning.
-- **CRITICAL HALLUCINATION (Turn 15900):** Hallucinated being on Route 29 when I was in New Bark Town. This led to multiple failed pathing attempts and wasted turns. This is a severe state-tracking failure.
 
 ### Reflection-Based Updates (Turn 11074)
 - **Process Violation Logged:** Added an entry to my failure log for deferring a notepad update on Turn 11043, a violation of the 'IMMEDIATE ACTION' principle.
