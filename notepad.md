@@ -418,3 +418,243 @@
 # Reflection-Based Agent & Tool Ideas (Turn 19594)
 - **Journey Planner Agent:** Takes a start and end point across multiple maps and suggests a series of intermediate `path_and_execute` calls to break up long journeys.
 - **Exploration Strategist Agent:** Takes the output of `find_reachable_unseen_tiles` and suggests the most logical next navigation goal to maximize map discovery.
+
+# --- REFACTORED NOTEPAD (TO BE FINALIZED) ---
+
+# Strategic Pivots
+
+# Game Knowledge
+
+## Game Mechanics
+### General Mechanics
+- Talking to Mom does NOT heal my Pokémon. This is a critical mechanic difference from other games.
+- Resting in the player's bed does NOT heal Pokémon.
+- Stunning an NPC can break scripted events, causing dialogue loops. It can also be a reliable solution for interacting with moving NPCs.
+- The `stun_npc` effect is temporary and resets when changing maps. (Verified in Azalea Pokémon Center)
+- Repeatedly interacting with an object (like a sign) without new results can lead to loops. I must dismiss dialogue before attempting to move.
+- The 'Select' button on the nicknaming screen toggles between uppercase and lowercase keyboards.
+- An item in a Poké Ball on the ground must be interacted with from an adjacent tile, not by walking onto it.
+- Tool calls (`tools_to_call`) and path execution (`buttons_to_press: ["path"]`) are mutually exclusive. If both are present in a single turn, the tool call is prioritized and the path is not executed.
+
+### Tile Traversal and Movement Rules
+- **BOOKSHELF**: Impassable. (Verified)
+- **BUOY**: Traversability unknown, assumed impassable. Might require Surf. (Observed on Route 32)
+- **CAVE**: Traversable warp.
+- **COUNTER**: Impassable. (Verified by observation)
+- **CUT_TREE**: Impassable, requires a specific ability/item to remove. (Verified)
+- **DOOR**: Traversable, acts as a warp tile. (Verified)
+- **FLOOR**: Traversable. (Verified on multiple routes, including Route 36)
+- **FLOOR_UP_WALL**: A complex one-way tile with location-dependent behavior.
+  - **(Union Cave 1F):** This tile is a one-way barrier. You cannot move DOWN from a FLOOR tile onto a FLOOR_UP_WALL tile (Verified at (16, 3)). Additionally, you cannot move UP from a FLOOR_UP_WALL tile onto a FLOOR tile (Verified at (5, 18)). This effectively makes it a one-way path going south.
+  - **(Union Cave B1F):** A complex one-way tile. You can move UP from a FLOOR_UP_WALL tile to a FLOOR tile. You cannot move DOWN from a FLOOR tile onto a FLOOR_UP_WALL tile (Verified at (12, 24) and (7, 24)). However, you CAN move DOWN from a FLOOR_UP_WALL tile onto a LADDER tile (Verified at (7, 19)).
+  - **(Route 32 & Dark Cave Violet Entrance):** Impassable from above. You cannot move DOWN from a FLOOR tile onto a FLOOR_UP_WALL tile. (Verified by manual test on Route 32 at (7, 75) and by pathing failure in Dark Cave at (2, 16)).
+- **HEADBUTT_TREE**: Impassable. (Verified by observation)
+- **INCENSE_BURNER**: Impassable. (Verified by observation in Kurt's House)
+- **LADDER**: A complex warp with directional activation. To descend from 1F to B1F, I moved onto the ladder at (5, 19). To ascend from B1F to 1F, I moved DOWN from (7, 18) onto the ladder at (7, 19). Simple interaction (pressing A or a direction while standing on it) does not work. (Verified)
+- **LEDGE_HOP_DOWN/LEFT/RIGHT**: One-way traversal.
+- **LONG_GRASS**: Traversable, contains wild Pokémon. (Verified by encounters on Route 30)
+- **MART_SHELF**: Impassable. (Verified by pathfinder consistently treating it as a wall)
+- **PC**: Impassable. Interacting from an adjacent tile can trigger events. (Verified)
+- **PILLAR**: Conditionally passable. Becomes impassable after a short time. Interaction with a specific Sage at (12, 3) makes it passable. (Verified)
+- **RADIO**: Impassable. (Verified by attempting to walk on it)
+- **STAIRCASE**: Traversable, acts as a warp tile. (Verified)
+- **TALL_GRASS**: Traversable, contains wild Pokémon. (Verified)
+- **TOWN_MAP**: Impassable. (Verified by observation)
+- **TV**: Impassable. (Verified)
+- **UNKNOWN**: Traversability unknown. Was able to stand on this tile at (28, 32) in Ilex Forest.
+- **VOID**: Impassable. (Verified by attempting to walk into it from (9, 4) on Route31VioletGate on Turn 19292).
+- **WALL**: Impassable. (Verified)
+- **WARP_CARPET_DOWN**: Traversable warp. Requires pressing 'Down' on the tile to activate. (Verified)
+- **WARP_CARPET_LEFT**: Traversable warp. Requires pressing 'Left' while standing on the tile to activate. (Verified at 2,10 in Azalea Town, 0,4 in IlexForestAzaleaGate, and 0,4 on Route32RuinsOfAlphGate)
+- **WARP_CARPET_RIGHT**: Traversable warp. Requires pressing 'Right' on the tile to activate. (Verified at 3,42 in Ilex Forest)
+- **WATER**: Impassable. (Verified by pathing attempts)
+- **WINDOW**: Impassable. (Verified)
+
+## World & Story
+### Location Notes
+#### Route 29
+- The southern path is a dead end.
+- The western path is blocked by CUT_TREEs and HEADBUTT_TREEs.
+
+#### Route 30
+- MR. POKEMON's house is located here. (Confirmed)
+
+#### Route 32
+- The central path on Route 32, accessed via a one-way ledge from the west, appears to be a dead end going south due to a line of `FLOOR_UP_WALL` tiles. However, there is a one-tile-wide gap at (14, 34) that allows passage south, so it is not a dead end.
+- Hidden SUPER POTION at (11, 40).
+- My assumption that I was trapped on the western path was incorrect. A path north exists by moving through the tall grass at x=1 and x=0 to bypass the wall at y=55. This allows a return to the northern part of a Route 32.
+
+#### Violet City
+- Building at (21, 29) is a house with a trade NPC, not the Gym.
+- The eastern and western sides of Cherrygrove City are connected by a walkable path that goes around the central body of water.
+- YOUNGSTER at (5, 18) mentioned a 'wiggly tree' that 'squirms and dances'. This is likely a hint about how to interact with HEADBUTT_TREEs.
+- Violet City Gatehouse Warp: Currently impassable and a dead end for now.
+
+##### Sprout Tower
+- 1F Path: A solid wall at x=4 divides the first floor, making the Sage at (3, 5) unreachable from the east. Defeating other Sages does not alter the layout.
+
+#### Route 33
+- Hiker Anthony is on this route. He gives his phone number instead of battling.
+- The northern section of Route 33 (containing unseen tiles at y=5) is inaccessible from the southern section due to one-way ledges. It is likely an exit from Union Cave.
+
+#### Azalea Town
+- Hiker Anthony called to say there are lots of DUNSPARCE in DARK CAVE.
+
+#### Dark Cave (Violet Entrance)
+- **Discovery:** This entrance leads to a small, isolated section. The path north is blocked by one-way ledges, making further exploration impossible from this side without a specific ability (likely Flash).
+
+#### Union Cave
+- My hypothesis that the cave is split into two disconnected sections has been disproven. My pathfinder successfully generated a complete route from the southern entrance (Route 33) to the northern entrance (Route 32), confirming the cave is one continuous area.
+- **B1F Western Section Discovery:** The western half of B1F is completely inaccessible from the southern ladder entrance at (7, 19). The path is blocked by walls and a one-way `FLOOR_UP_WALL` tile at (7, 24) that prevents southward travel. This area is a confirmed dead end from this entrance.
+
+## Pokémon & Battle Info
+### Battle Mechanics
+*Ignis learned EMBER at Lv12.*
+*Ignis grew to Lv21 and learned QUICK ATTACK, replacing SMOKESCREEN.*
+*WARNING: Ignis has 0 PP left for FLAME WHEEL. Must conserve EMBER PP.*
+*Type Effectiveness Chart*:
+- Ground is super-effective against Fire. (Verified in battle vs Falkner's Pidgey's MUD-SLAP).
+- Normal is not very effective against Rock/Ground. (Verified in battle vs Hiker Daniel's Onix).
+- Psychic is not very effective against Bug. (Verified vs Caterpie)
+- Fire is super-effective against Bug/Grass. (Verified vs Paras)
+- Bug is super-effective against Psychic. (Verified in battle vs Zubat's Leech Life on Glyph).
+
+*Pokémon Types Discovered*:
+- SANDSHREW: Ground
+- WEEDLE: Bug/Poison
+
+### PC Storage
+- Currently empty.
+
+## TMs & HMs
+### TM31 MUD-SLAP
+- **Description:** Reduces the foe's accuracy.
+- **Compatible Party Pokémon:** Ignis (Quilava), Aether (Pidgey), O (Togepi).
+- **Incompatible Party Pokémon:** Glyph (Unown).
+### HM05 FLASH
+- **Description:** Blinds the foe to reduce accuracy. Lights up dark caves.
+- **Compatible Party Pokémon:** O (Togepi).
+- **Incompatible Party Pokémon:** Ignis (Quilava), Glyph (Unown), Aether (Pidgey).
+
+## Untested Mechanics & Hypotheses
+- Test the damage of EMBER vs. QUICK ATTACK on a Water-type.
+- Test `HEADBUTT_TREE`s by interacting with them with different Pokémon in the lead to see if any move can be used.
+- Rigorously test all one-way tiles (e.g., LEDGE_HOP_DOWN/LEFT/RIGHT, FLOOR_UP_WALL on Union Cave 1F) by attempting to move in all four directions from them to definitively confirm their movement restrictions.
+- Test TALL_GRASS on Route 36.
+- Test `WARP_CARPET_LEFT` again to determine consistent activation method.
+- Test lateral (left/right) movement from and onto `FLOOR_UP_WALL` tiles to fully understand their mechanics.
+- **Path to Goldenrod City:** An alternative route may exist through Ilex Forest or Dark Cave that bypasses the 'Odd Tree' on Route 36.
+- **HM Cut Source:** HM01 Cut might be obtained from an NPC or location other than the FARFETCH'D puzzle.
+- **'Odd Tree' Solution:** The tree might be passable via a specific Pokémon move (like Headbutt), at a certain time of day, or with the Pokégear radio, not just a key item.
+- **Union Cave Exploration:** There may be hidden areas in Union Cave accessible only with HMs like Surf or Flash.
+- **Dark Cave Location:** Dark Cave may be a completely separate location on the world map, not accessible from within Union Cave.
+- **Rival Trigger:** Beating Bugsy may have triggered an event with my Rival, Crimson, at the Ilex Forest gate.
+
+# Investigations
+
+## Active Investigations
+
+### Ilex Forest FARFETCH'D Puzzle
+- **Objective:** Get the FARFETCH'D back to the apprentice at (7, 28) to obtain HM01 Cut.
+- **Key Findings:**
+  - **Layout:** The path through the forest is a puzzle involving guiding a FARFETCH'D. The direct path east is blocked by a CUT_TREE that can only be passed after obtaining the HM.
+  - **Core Mechanic:** The bird's movement is triggered by player interaction from specific coordinates and facing directions.
+  - **Puzzle Mechanics:**
+    - Interacting from behind pushes the bird forward (Verified at (15, 24) -> (15, 29)).
+    - Interacting from the front moves the bird (Verified at (29, 23) -> move off-screen).
+    - Interacting from below at (15, 26) moves the bird to (20, 24) (Verified when bird was at (15, 25) and facing down).
+    - Interacting from above at (22, 30) when the bird is at (22, 31) moves it to (28, 31). (Verified)
+    - Interacting from the side is location-dependent. From the right at (16, 29), it resets the puzzle. From the left at (14, 29), it makes the bird disappear (progress). Interacting from the side at (21, 24) when the bird is at (20, 24) makes it say 'Kwaa!' and disappear, but this ultimately resets the bird to its starting position (15, 25), which is a puzzle reset, not progress.
+    - Stepping on the twig pile at (16, 28) *does* make the Farfetch'd appear at (22, 31). (Re-verified Turn 19519).
+- **Hypotheses to Test:**
+    - **New Hypothesis:** The solution involves *pushing* the Farfetch'd from behind by walking into it, not interacting with 'A'.
+- **Execution Errors & Failed Hypotheses:**
+  - Failed Hypothesis: Interacting with the Farfetch'd at (22, 31) from below at (22, 32) will move it west. **Result:** The bird turned to face me, then disappeared after a second interaction, resetting the puzzle. (Verified Turn 19524)
+  - Making the Farfetch'd disappear from the eastern part of the map (after moving it to (28, 31)) is a puzzle reset, not a solution. The apprentice's dialogue does not change.
+  - Interacting from the side at (16, 29) when the bird is at (15, 29) causes a puzzle reset, regardless of its facing direction. The bird returns to its starting position at (15, 25).
+  - Interacting from below at (15, 30) when the bird is at (15, 29) also causes a puzzle reset. (Verified Turn 18421)
+  - Interacting with the Farfetch'd at (29, 22) from the left at (28, 22) makes it say 'Kwaa!' and then despawn, resetting the puzzle.
+  - Interacting with the Farfetch'd at (28, 31) from the right at (29, 31) makes it say 'Kwaa!' and then despawn, resetting the puzzle.
+  - Interacting with the Farfetch'd at (28, 31) from the left at (27, 31) makes it say 'Kwaa!' and then despawn, resetting the puzzle.
+  - Leaving and re-entering Ilex Forest does not reliably reset the Farfetch'd to its starting position at (15, 25). (Verified Turn 19443)
+  - Various triggers (other twig piles, talking to apprentice, specific ledges) do not make a despawned Farfetch'd reappear.
+  - It is mechanically impossible to face tile (15, 25) from (15, 24) or (15, 26) without being forcibly moved onto it.
+
+### Route 36 'Odd Tree' Puzzle
+- **Objective:** Get past the tree blocking the path at (35, 9).
+- **Observations:**
+  - The tree is a unique 'WEIRD_TREE' sprite that wiggles.
+  - Lass Dana's dialogue at (49, 8) confirms this tree blocks the way to Goldenrod City.
+  - A Fisher at (44, 9) mentioned he couldn't break it with a punch.
+  - A Youngster in Violet City mentioned a 'wiggly tree' that 'squirms and dances'.
+
+#### Solution Discovery Log
+- **Conclusion:** A simple 'A' press is not the solution, regardless of the lead Pokémon. This has been tested and re-verified multiple times. The 'Odd Tree' is almost certainly a story-based roadblock that requires an item or event from elsewhere. Pivoting to other exploration goals.
+
+#### Untested Assumptions
+- The tree is a story-based roadblock that will be removed after an event elsewhere, not a solvable puzzle at this time.
+- The solution requires a specific key item from my pack (e.g., Squirtbottle).
+- The interaction is dependent on the time of day.
+- The solution involves using the Pokégear radio near the tree.
+- The tree must be interacted with from the tile directly below it (35, 10). (Status: Untestable as of Turn 17023. Path confirmed to be blocked by `generate_path_plan` tool.)
+
+### Dark Cave Exploration
+- **Objective:** Fully explore Dark Cave to find an alternative route to Goldenrod City.
+- **Background:** The 'Odd Tree' on Route 36 is an impassable story-block. My current strategic pivot is to fully explore Dark Cave, as Hiker Anthony's repeated calls suggest its importance.
+- **Hypothesis:** Dark Cave contains a path that bypasses the 'Odd Tree' and leads towards Goldenrod City.
+- **Exploration Plan:**
+  1. Enter Dark Cave from the most promising entrance (likely through Union Cave, as the Route 31 entrance was a dead end).
+  2. Systematically explore every path, prioritizing unseen tiles.
+  3. Use Flash if necessary and available to illuminate dark areas.
+  4. Document any branching paths, obstacles (like water or boulders), and potential HM requirements.
+  5. If a path leads to a new exit, mark the location and explore the new area.
+
+# High-Priority Agent & Tool Ideas
+- **Tool Debugger Orchestrator Agent (High Priority):** Automates the multi-step process of identifying a tool bug, calling the `debugging_assistant`, applying the fix with `define_tool`, and re-running the failing test case to verify the fix.
+- **Debugging Assistant Agent:** Helps analyze tool failures and suggest code changes. This is a high priority to improve my debugging methodology.
+- **Strategic Planner Agent:** Takes current goals, location, and party status to suggest the next major objective pivot when stuck.
+- **Journey Planner Agent:** Takes a start and end point across multiple maps and suggests a series of intermediate `path_and_execute` calls to break up long journeys.
+- **Exploration Strategist Agent:** Takes the output of `find_reachable_unseen_tiles` and suggests the most logical next navigation goal to maximize map discovery.
+
+# Appendix: Completed Investigations
+
+- **Violet Mart Path Puzzle:** Path to the clerk is blocked by a Cooltrainer M. Deprioritized.
+- **Sprout Tower 2F Pillar Puzzle:** Central pillar is unmovable after initial interaction with a Sage. Deprioritized until other Sages are defeated or new triggers are discovered.
+- **Ruins of Alph 'ESCAPE' Puzzle:** Unsolvable at present. Requires unobtained items or abilities (e.g., Flash, Itemfinder, Escape Rope, Strength).
+
+# Core Failure Patterns & Lessons Learned
+
+## 1. State & Positional Hallucination
+- **Description:** A recurring failure where I believe I am at a different (x, y) coordinate, on a different map, or that a tool/data state is different than reality. This leads to invalid pathing, failed interactions, and wasted turns operating on flawed premises.
+- **Specific Incidents:**
+  - Believed I was at (14, 0) on Route 32, but was at (6, 80), causing an unintended warp into Union Cave (Turn 15350).
+  - Hallucinated non-existent warps: at (6, 74) on UnionCave1F (Turn 11105); at (11, 9) on AzaleaTown map (Turn 11872); at (34, 5) on VioletCity map (Turn 11928).
+  - Misinterpreted an object-linked map marker for the FARFETCH'D, believing it was at its starting position when it was off-screen (Turns 13600-13606).
+  - Believed I had a tool named `list_reachable_unseen_tiles` and that `path_to_closest_unseen_tile` did not exist (Turns 12372-12374).
+  - Suffered severe, repeated positional hallucinations in Ilex Forest, invalidating puzzle-solving plans (e.g., Turn 19418, 19421, 19485).
+
+## 2. Mistrust of Tools
+- **Description:** A critical failure pattern of assuming a working tool is broken, particularly when it reports a dead end or no path. This has led to extensive, wasted debugging cycles instead of re-evaluating strategic assumptions.
+- **Specific Incidents:**
+  - Assumed `generate_path_plan` was broken when a path was genuinely blocked by impassable tiles in Ilex Forest (Turn 14554).
+  - Assumed `generate_path_plan` was broken when a path was genuinely blocked by a wall on Union Cave B1F (Turns 17345-17353) and 1F (Turns 17355-17357).
+  - Assumed `path_with_obstacle_avoidance` was broken when a path was genuinely blocked by a CUT_TREE (Turn 18140).
+
+## 3. Process Violations
+- **Description:** Repeatedly failing to follow established procedures, leading to wasted turns and operating with flawed data.
+- **Specific Violations:**
+  - **Failure to Update Notepad Immediately:** Deferred critical updates, violating the 'IMMEDIATE ACTION' principle (e.g., Turn 11043, Turn 13142).
+  - **Failure to Consult Map Markers:** Ignored map markers warning of obstacles or loops before pathing, causing movement failures (e.g., Fisher at (15, 27) on Turns 15018 & 17187; Farfetch'd loop on Turn 12570).
+  - **Failure to Use Existing Tools/Agents:** Wasted numerous turns manually debugging when the `debugging_assistant` agent existed for that exact purpose (Turns 15732-15759). Failed to address faulty agents in a timely manner.
+
+## 4. Flawed Debugging & Logic
+- **Description:** Failures in the debugging process itself, such as getting stuck in loops, introducing regressions, or failing to identify the root cause of an issue.
+- **Specific Incidents:**
+  - Stuck in a loop toggling coordinate system logic in `find_path_to_target_bfs` instead of verifying the source data format (Turns 10750-10774).
+  - Repeatedly submitted identical, broken code without noticing the error had not been fixed (Turns 11683-11690).
+  - Implemented a 'fix' for pathfinder logic that was fundamentally backward and a regression from a previously correct version (Turns 11717-11720).
+
+## 5. Key Lessons & Discoveries
+- **CRITICAL KNOWLEDGE - Game Coordinates:** The game's coordinate system and map XML data are definitively **0-indexed**. The XML `id` attributes for rows/tiles are **1-indexed**. This mismatch was a root cause of many pathfinding failures.
+- **AGENT KNOWLEDGE UPDATES:** Whenever a new Pokémon's type is discovered, I must immediately update the `simple_battle_strategist` agent's system prompt to include this new information.
+- **TOOL USAGE PROTOCOL:** Before EVERY call to `generate_path_plan`, I MUST consult `relevant_map_markers` for the destination map and add known obstacle coordinates to the `object_locations_json` argument.
