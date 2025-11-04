@@ -452,3 +452,7 @@
   - **Test 1:** Moved from (15, 26) to (14, 26).
   - **Result:** The Farfetch'd object was not visible on screen.
   - **Conclusion:** Hypothesis 7 is disproven.
+- **Hypothesis 8:** Using the forced movement tile at (15, 24) to move to (15, 25) will cause the Farfetch'd to appear.
+  - **Test 1:** Moved onto (15, 24) and pressed 'Down', which moved the player to (15, 25).
+  - **Result:** The Farfetch'd object was not visible on screen.
+  - **Conclusion:** Hypothesis 8 is disproven.
