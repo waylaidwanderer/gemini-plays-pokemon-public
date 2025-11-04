@@ -121,7 +121,15 @@
 - **Key Findings:**
   - **Layout:** The path through the forest is a puzzle involving guiding a FARFETCH'D. The direct path east is blocked by a CUT_TREE that can only be passed after obtaining the HM.
   - **Core Mechanic:** The bird's movement is triggered by player interaction from specific coordinates and facing directions.
-  - **Observed Triggers:** Interacting from below at (15, 26) moves the bird to (20, 24). Stepping on the ledge at (27, 22) makes it appear at (29, 22). These triggers have proven to be inconsistent and may not always work.
+  - **Puzzle Mechanics:**
+  - **Successful Moves:**
+    - Interacting from behind pushes the bird forward (Verified at (15, 24) -> (15, 29)).
+    - Interacting from below at (15, 26) moves the bird to (20, 24) (Verified when bird was at (15, 25) and facing down).
+    - Interacting from the front moves the bird (Verified at (29, 23) -> move off-screen).
+  - **Failure/Reset Condition:**
+    - Interacting from the side resets the puzzle (Verified at (16, 29) -> reset to (15, 25)).
+  - **Neutral/Unknown:**
+    - Stepping on twig piles has had no effect so far.
 - **Puzzle Mechanics:**
   - **Successful Moves:**
     - Interacting from behind pushes the bird forward (Verified at (15, 24) -> (15, 29)).
