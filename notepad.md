@@ -424,3 +424,10 @@
 
 ## Untested Mechanics & Hypotheses (Post-Reflection Update)
 - Test `VOID` tiles by attempting to walk into them to confirm they are impassable.
+
+# Reflection Log (Turn 19334)
+
+## Tool & Agent Ideas (Post-Reflection Update)
+- **Tool Debugger Orchestrator Agent (High Priority):** Automates the multi-step process of identifying a tool bug, calling the `debugging_assistant`, applying the fix with `define_tool`, and re-running the failing test case to verify the fix.
+- **Automated Obstacle Avoidance Tool (High Priority):** Combines `get_on_screen_object_locations` and `generate_path_plan` to automatically detect and path around temporary obstacles without requiring manual addition of `object_locations_json`.
+- **Pre-flight Checklist Agent:** Takes a navigation goal and map ID, then checks map markers to warn of obstacles along the planned route.
