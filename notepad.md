@@ -128,7 +128,7 @@
     - Interacting from the side can either move the bird (Verified at (21, 24) when bird was at (20, 24) facing right) or reset the puzzle (Verified at (16, 29) when bird was at (15, 29) facing down). The outcome seems dependent on the bird's facing direction.
     - Stepping on twig piles has had no effect so far.
 - **Untested Alternatives:** The solution may require a key item (e.g., Squirtbottle), a specific Pokémon move used on the environment, or be time-dependent.
-- **Execution Errors & Failed Hypotheses:** Interacting from (21, 24) when the bird is off-screen does not make it reappear (failed Turn 18247). Multiple hypotheses to make a missing Farfetch'd reappear (e.g., map resets, interacting with its empty starting tile, stepping on specific trigger tiles/ledges/twigs) have been tested and disproven. These tests were often based on a flawed premise that the bird was not on the map, stemming from state-tracking and positioning errors.
+- **Execution Errors & Failed Hypotheses:** Multiple hypotheses to make a missing Farfetch'd reappear (e.g., map resets, interacting with its empty starting tile, stepping on specific trigger tiles/ledges/twigs) have been tested and disproven. These tests were often based on a flawed premise that the bird was not on the map, stemming from state-tracking and positioning errors.
 
 ### Route 36 'Odd Tree' Puzzle
 - **Objective:** Get past the tree blocking the path at (35, 9).
@@ -221,8 +221,6 @@
 - `deterministic_battle_strategist`: Analyzes battle state and recommends the optimal, deterministic action.
 - `find_adjacent_traversable_tiles`: Identifies all adjacent tiles to a given coordinate that are traversable.
 - `find_reachable_unseen_tiles`: Parses the map XML and current player position to return a list of unseen tiles that are confirmed to be reachable, filtering out those blocked by walls or other obstacles.
-- `generate_path_plan`: Generates a sequence of coordinates to navigate from the player's current position to a target coordinate.
-  - **CRITICAL PROCESS:** To prevent pathing into known off-screen obstacles, I MUST consult my notepad and map markers for the target map *before* calling this tool. The coordinates of any known impassable NPCs or other temporary blockades must be manually added to the `object_locations_json` argument.
 - `path_with_obstacle_avoidance`: Generates a path to a target, automatically detecting and avoiding on-screen obstacles.
 
 # Future Development
@@ -439,4 +437,3 @@
 - **New Agent Idea:** `Puzzle Solver Strategist Agent` to suggest next logical, non-repeating hypotheses for puzzles.
 - **New Agent/Tool Idea:** `Navigation Manager` to automate pathing, battle handling, and re-pathing.
 - **Process Improvement:** Add more rigorous testing of all tile mechanics to the 'Untested Mechanics & Hypotheses' section.
-- **Navigation Manager Agent/Tool (High Priority):** An agent or tool to automate the multi-step process of pathing, executing movement, handling random battle interruptions by running or fighting, and then automatically re-pathing to the original destination.
