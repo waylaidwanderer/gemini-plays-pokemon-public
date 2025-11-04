@@ -455,3 +455,4 @@
   - **Test:** Stood at (15, 26) and pressed 'Up'.
   - **Result:** Player was forcibly moved to (15, 25).
   - **Conclusion:** Hypothesis is disproven. It is mechanically impossible to simply face tile (15, 25) from (15, 26).
+- Interacting with the Farfetch'd from below at (22, 32) when it is at (22, 31) causes it to disappear. (Verified)
