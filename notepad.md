@@ -456,3 +456,8 @@
   - **Test 1:** Moved onto (15, 24) and pressed 'Down', which moved the player to (15, 25).
   - **Result:** The Farfetch'd object was not visible on screen.
   - **Conclusion:** Hypothesis 8 is disproven.
+- **CRITICAL REASONING FAILURE (Turn 18140):** My `path_with_obstacle_avoidance` tool correctly reported no path to the Ilex Forest Shrine. Instead of trusting the tool, I assumed it was broken. Manual verification confirmed the path was genuinely blocked by a CUT_TREE at (8, 25). This is a repeat of a major failure pattern of not trusting my own tools.
+
+## Future Development (Additions)
+- **Navigation Manager Agent/Tool (High Priority):** An agent or tool to automate the multi-step process of pathing, executing movement, handling random battle interruptions by running or fighting, and then automatically re-pathing to the original destination.
+- **Puzzle Solver Strategist Agent (High Priority):** An agent that takes a puzzle's context (map markers, dialogue, failed hypotheses from notepad) and suggests the next logical, non-repeating hypothesis to test. This would prevent wasted turns repeating failed actions.
