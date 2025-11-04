@@ -222,6 +222,7 @@
 - `find_adjacent_traversable_tiles`: Identifies all adjacent tiles to a given coordinate that are traversable.
 - `find_reachable_unseen_tiles`: Parses the map XML and current player position to return a list of unseen tiles that are confirmed to be reachable, filtering out those blocked by walls or other obstacles.
 - `path_with_obstacle_avoidance`: Generates a path to a target, automatically detecting and avoiding on-screen obstacles.
+- `automated_navigation_tool`: Automates navigation to a target coordinate, including handling battle interruptions.
 
 # Future Development
 ## Tool & Agent Ideas
