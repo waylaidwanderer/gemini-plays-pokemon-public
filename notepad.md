@@ -597,3 +597,9 @@
 ## Untested Mechanics & Hypotheses (Update Turn 20113)
 - **Dark Cave Location:** My primary assumption is that the main entrance to Dark Cave is accessible from within Union Cave. **Alternative Hypothesis:** Dark Cave may have another, separate entrance on a different route that I have not yet fully explored (e.g., Route 45/46). **Test to Disprove:** Fully explore all paths within Union Cave. If no entrance to Dark Cave is found, I must pivot to a systematic exploration of other world map routes.
 - **`path_and_execute` Reliability:** I assume my pathfinding tool is now fixed after correcting the `TypeError` and restoring the correct validation logic. **Alternative Hypothesis:** The tool's logic contains a more subtle bug that will only manifest on different maps or with different types of obstacles. **Test to Disprove:** Continue to use the tool for all navigation. The next pathing failure will disprove the 'it's fixed' hypothesis.
+
+# High-Priority Agent & Tool Ideas
+- **Puzzle Sequencer Agent:** Analyzes a puzzle's state and suggests a full sequence of `path_and_execute` calls to solve it.
+
+# Untested Mechanics & Hypotheses
+- **Farfetch'd Puzzle Reset:** Wild battles might be a reliable way to reset the puzzle. **Test to Disprove:** After the next reset, walk around for ~200 steps without a battle. If the bird reappears, the reset is step/time-based, not battle-based.
