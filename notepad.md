@@ -193,7 +193,11 @@
     - **Test:** Walked a loop from (28, 29) -> (29, 29) -> (29, 30) -> (28, 30) -> (28, 29).
     - **Result:** No event triggered.
     - **Conclusion:** Hypothesis 3 is disproven. Simple movement in the southern clearing is not the solution.
-  - **Next Step:** Return to the previously identified functional twig pile at (16, 28) and step on it, as this is a known puzzle interaction mechanic.
+  - **Hypothesis 4:** Stepping on the functional twig pile at (16, 28) will cause the FARFETCH'D to reappear.
+    - **Test:** Stepped on the twig pile at (16, 28), then moved to (22, 28) to observe the area around (22, 31).
+    - **Result:** No FARFETCH'D appeared.
+    - **Conclusion:** Hypothesis 4 is disproven. This twig pile is not the current trigger.
+  - **Next Step:** The FARFETCH'D may have reset to a previous position. I will return to its last known on-screen location, (20, 24), to check if it has reappeared there.
 
 ### Dark Cave Exploration
 - **Objective:** Fully explore Dark Cave to find an alternative route to Goldenrod City.
