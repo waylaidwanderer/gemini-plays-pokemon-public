@@ -110,6 +110,7 @@
 - **Incompatible Party Pokémon:** [Untested]
 
 ## Available Tools & Agents
+
 ### Built-in Tools
 - `notepad_edit`: Edits the persistent notepad.
 - `run_code`: Executes a single-use Python script.
@@ -179,18 +180,41 @@
 - The tree must be interacted with from the tile directly below it (35, 10). (Status: Untestable as of Turn 17023. Path confirmed to be blocked by `generate_path_plan` tool.)
 
 ### Ilex Forest FARFETCH'D Puzzle
-- **Objective:** Get the FARFETCH'D to the apprentice at (7, 28).
-- **Discovery Log:**
-  - **First Bird:** Successfully guided back to the apprentice.
-  - **Second Bird:**
-    - **Trigger:** Stepping on (29, 33) made it appear at (28, 31).
-    - **Failed Interaction 1:** Interacting from below (28, 32) caused it to turn.
-    - **Failed Interaction 2:** Interacting from the right (29, 31) caused it to disappear.
-    - **Failed Hypothesis:** The entire puzzle did not reset after the first bird was returned.
-  - **Hypothesis 7:** Stepping on the twig pile at (29, 33) will cause the FARFETCH'D to reappear.
-    - **Test:** Moved to (29, 33), then back to (28, 32) to observe (28, 31).
-    - **Result:** No FARFETCH'D appeared.
-    - **Conclusion:** Hypothesis 7 is disproven. This is not the correct trigger at this stage of the puzzle.
+- **Objective:** Guide two FARFETCH'D back to the apprentice at (7, 28).
+
+#### First Bird Investigation
+- **Initial Location:** (10, 35)
+- **Hypothesis 1:** The bird must be approached from below, at (10, 36), to be herded north.
+  - **Test:** Attempted to pathfind to (10, 36).
+  - **Result:** `path_and_execute` tool returned an empty path. Map data confirms (10, 36) is a WALL tile.
+  - **Conclusion:** Hypothesis 1 is impossible and disproven. Interaction from (10, 36) is not the solution.
+- **Hypothesis 2:** The bird needs to be herded west towards the apprentice. Interacting from the right (east) at (11, 35) might achieve this.
+  - **Test:** Pathed to (11, 35) and pressed 'Left' to face the bird.
+  - **Result:** The player character was unexpectedly moved onto the tile (10, 35) and the FARFETCH'D disappeared. The interaction failed to herd the bird.
+  - **Conclusion:** Hypothesis 2 is disproven. Interacting from the east is not the solution and causes the bird to disappear.
+- **Hypothesis 3:** Leaving and re-entering the Ilex Forest map will reset the puzzle, causing the FARFETCH'D to reappear at its starting location (10, 35).
+  - **Test:** Warped to IlexForestAzaleaGate and immediately warped back in. Navigated to (10, 34) to observe (10, 35).
+  - **Result:** The FARFETCH'D was not at (10, 35).
+  - **Conclusion:** Hypothesis 3 is disproven. The puzzle state is persistent and does not reset on map change.
+- **Hypothesis 4:** Stepping on the twig pile at (16, 28) will cause the FARFETCH'D to appear.
+  - **Test:** Stepped on (16, 28), then moved to (22, 32) to observe (22, 31).
+  - **Result:** No FARFETCH'D appeared.
+  - **Conclusion:** Hypothesis 4 is disproven.
+- **Outcome:** First bird was successfully guided back to the apprentice.
+
+#### Second Bird Investigation
+- **Trigger:** Stepping on (29, 33) made it appear at (28, 31).
+- **Failed Interaction 1:** Interacting from below (28, 32) caused it to turn.
+- **Failed Interaction 2:** Interacting from the right (29, 31) caused it to disappear.
+- **Failed Hypothesis:** The entire puzzle did not reset after the first bird was returned.
+- **Hypothesis 7:** Stepping on the twig pile at (29, 33) will cause the FARFETCH'D to reappear.
+  - **Test:** Moved to (29, 33), then back to (28, 32) to observe (28, 31).
+  - **Result:** No FARFETCH'D appeared.
+  - **Conclusion:** Hypothesis 7 is disproven. This is not the correct trigger at this stage of the puzzle.
+- **Hypothesis 8:** Leaving and re-entering the Ilex Forest map area will reset the puzzle's state, allowing the trigger at (29, 33) to work again.
+  - **Test:** Warped out to IlexForestAzaleaGate and immediately warped back in. Navigated to (29, 33) and stepped on the twig pile, then moved to (28, 32) to observe (28, 31).
+  - **Result:** The FARFETCH'D did not appear.
+  - **Conclusion:** Hypothesis 8 is disproven. A simple map reset does not make this trigger functional again.
 
 ### Dark Cave Exploration
 - **Objective:** Fully explore Dark Cave to find an alternative route to Goldenrod City.
@@ -223,32 +247,3 @@
 
 ### Reflection-Based Updates (Turn 20113)
 - **CRITICAL PROCESS FAILURE (Turns 20059-20071):** I have been stuck in a multi-turn debugging loop with the `path_and_execute` tool due to a critical failure to trust my `debugging_assistant` agent. The agent correctly identified the necessary fix (a hierarchical `if/elif` structure) on turn 20056, but I incorrectly reverted this fix on turn 20059 based on a flawed manual analysis. This mistrust, as highlighted by the system critique on turn 20071, was the root cause of the prolonged failure and is a major process violation.
-  - **Hypothesis 8:** Leaving and re-entering the Ilex Forest map area will reset the puzzle's state, allowing the trigger at (29, 33) to work again.
-    - **Test:** Warped out to IlexForestAzaleaGate and immediately warped back in. Navigated to (29, 33) and stepped on the twig pile, then moved to (28, 32) to observe (28, 31).
-    - **Result:** The FARFETCH'D did not appear.
-    - **Conclusion:** Hypothesis 8 is disproven. A simple map reset does not make this trigger functional again.
-
-### Ilex Forest FARFETCH'D Puzzle (Restart)
-- **Objective:** Guide two FARFETCH'D back to the apprentice at (7, 28).
-
-#### First Bird Investigation Log
-- **Location:** (10, 35)
-- **Hypothesis 1:** The bird must be approached from below, at (10, 36), to be herded north.
-  - **Test:** Attempted to pathfind to (10, 36).
-  - **Result:** `path_and_execute` tool returned an empty path. Map data confirms (10, 36) is a WALL tile.
-  - **Conclusion:** Hypothesis 1 is impossible and disproven. Interaction from (10, 36) is not the solution.
-
-- **Hypothesis 2:** The bird needs to be herded west towards the apprentice. Interacting from the right (east) at (11, 35) might achieve this.
-  - **Test:** Pathed to (11, 35) and pressed 'Left' to face the bird.
-  - **Result:** The player character was unexpectedly moved onto the tile (10, 35) and the FARFETCH'D disappeared. The interaction failed to herd the bird.
-  - **Conclusion:** Hypothesis 2 is disproven. Interacting from the east is not the solution and causes the bird to disappear.
-
-- **Hypothesis 3:** Leaving and re-entering the Ilex Forest map will reset the puzzle, causing the FARFETCH'D to reappear at its starting location (10, 35).
-  - **Test:** Warped to IlexForestAzaleaGate and immediately warped back in. Navigated to (10, 34) to observe (10, 35).
-  - **Result:** The FARFETCH'D was not at (10, 35).
-  - **Conclusion:** Hypothesis 3 is disproven. The puzzle state is persistent and does not reset on map change.
-
-- **Hypothesis 4:** Stepping on the twig pile at (16, 28) will cause the FARFETCH'D to appear.
-  - **Test:** Stepped on (16, 28), then moved to (22, 32) to observe (22, 31).
-  - **Result:** No FARFETCH'D appeared.
-  - **Conclusion:** Hypothesis 4 is disproven.
