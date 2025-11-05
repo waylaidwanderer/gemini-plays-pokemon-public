@@ -519,10 +519,9 @@
 ## Untested Mechanics & Hypotheses
 - Test the damage of EMBER vs. QUICK ATTACK on a Water-type.
 - Test `HEADBUTT_TREE`s by interacting with them with different Pokémon in the lead to see if any move can be used.
-- Rigorously test all one-way tiles (e.g., LEDGE_HOP_DOWN/LEFT/RIGHT, FLOOR_UP_WALL on Union Cave 1F) by attempting to move in all four directions from them to definitively confirm their movement restrictions.
+- **One-Way Tile Traversal:** Rigorously test all one-way tiles (e.g., LEDGE_HOP_DOWN/LEFT/RIGHT, FLOOR_UP_WALL) by attempting to move in all four directions (up, down, left, right) from, onto, and laterally across them to definitively confirm their movement restrictions.
 - Test TALL_GRASS on Route 36.
 - Test `WARP_CARPET_LEFT` again to determine consistent activation method.
-- Test lateral (left/right) movement from and onto `FLOOR_UP_WALL` tiles to fully understand their mechanics.
 - **Path to Goldenrod City:** An alternative route may exist through Ilex Forest or Dark Cave that bypasses the 'Odd Tree' on Route 36.
 - **HM Cut Source:** HM01 Cut might be obtained from an NPC or location other than the FARFETCH'D puzzle.
 - **'Odd Tree' Solution:** The tree might be passable via a specific Pokémon move (like Headbutt), at a certain time of day, or with the Pokégear radio, not just a key item.
