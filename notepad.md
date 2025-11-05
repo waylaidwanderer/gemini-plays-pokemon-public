@@ -24,7 +24,7 @@
   - **(Route 32 & Dark Cave Violet Entrance):** Impassable from above. You cannot move DOWN from a FLOOR tile onto a FLOOR_UP_WALL tile. (Verified by manual test on Route 32 at (7, 75) and by pathing failure in Dark Cave at (2, 16)).
 - **HEADBUTT_TREE**: Impassable. (Verified by observation)
 - **INCENSE_BURNER**: Impassable. (Verified by observation in Kurt's House)
-- **LADDER**: A complex warp with directional activation. To descend from 1F to B1F, I moved onto the ladder at (5, 19). To ascend from B1F to 1F, I moved DOWN from (7, 18) onto the ladder at (7, 19). Simple interaction (pressing A or a direction while standing on it) does not work. (Verified)
+- **LADDER**: A complex warp with directional activation. To descend from 1F to B1F, I moved onto the ladder at (5, 19). To ascend from 1F to B1F, I moved DOWN from (7, 18) onto the ladder at (7, 19). Simple interaction (pressing A or a direction while standing on it) does not work. (Verified)
 - **LEDGE_HOP_DOWN/LEFT/RIGHT**: One-way traversal.
 - **LONG_GRASS**: Traversable, contains wild Pokémon. (Verified by encounters on Route 30)
 - **MART_SHELF**: Impassable. (Verified by pathfinder consistently treating it as a wall)
@@ -70,10 +70,9 @@
 - 1F Path: A solid wall at x=4 divides the first floor, making the Sage at (3, 5) unreachable from the east. Defeating other Sages does not alter the layout.
 
 #### Route 33
-- Hiker Anthony is on this route. He gives his phone number instead of battling.
+- Hiker Anthony is on this route. He gives his phone number and has called to say there are lots of DUNSPARCE in DARK CAVE.
 
 #### Azalea Town
-- Hiker Anthony called to say there are lots of DUNSPARCE in DARK CAVE.
 
 #### Dark Cave (Violet Entrance)
 - **Discovery:** This entrance is a confirmed dead end. Even with Flash, the area is a small, isolated section completely blocked off by one-way ledges and walls, making further exploration impossible from this side.
@@ -123,18 +122,6 @@
 - `delete_tool`: Deletes a custom tool.
 - `select_battle_option`: Automatically selects a main battle menu option.
 
-### Built-in Tools
-- `notepad_edit`: Edits the persistent notepad.
-- `run_code`: Executes a single-use Python script.
-- `define_agent`: Creates or updates a custom agent.
-- `delete_agent`: Deletes a custom agent.
-- `define_map_marker`: Creates or updates a map marker.
-- `delete_map_marker`: Deletes a map marker.
-- `stun_npc`: Temporarily freezes or unfreezes an NPC.
-- `define_tool`: Creates or updates a reusable custom tool.
-- `delete_tool`: Deletes a custom tool.
-- `select_battle_option`: Automatically selects a main battle menu option.
-
 ### Custom Tools & Agents
 - `deterministic_battle_strategist`: A deterministic, non-LLM tool for battle advice.
 - `find_adjacent_traversable_tiles`: Finds traversable tiles next to a target.
@@ -143,6 +130,7 @@
 - `notepad_refactor_assistant`: Agent to help refactor the notepad.
 - `debugging_assistant`: Agent that analyzes and corrects faulty Python scripts.
 - `puzzle_solver_strategist`: Agent that suggests the next hypothesis for a puzzle.
+- `farfetchd_puzzle_solver`: Agent that analyzes the Farfetch'd puzzle and suggests next steps.
 
 ## Untested Mechanics & Hypotheses
 - Test the damage of EMBER vs. QUICK ATTACK on a Water-type.
@@ -194,25 +182,12 @@
 ### Ilex Forest FARFETCH'D Puzzle
 - **Objective:** Get the FARFETCH'D to the apprentice at (7, 28).
 - **Discovery Log:**
-  - **Successful Step:** Interacted with FARFETCH'D at (10, 35) from above (10, 34), causing it to move to (15, 29).
-  - **Failed Step:** Interacted with FARFETCH'D at (15, 29) from below (15, 30), causing it to reset to its starting position at (15, 25).
-  - **Failed Step:** Interacted with FARFETCH'D at (20, 24) from the right (21, 24), causing it to reset to its starting position at (15, 25).
-  - **Past Failure Note (Turns 13600-13606):** Pursued an invalid test plan based on the hallucination that the bird was at its starting position of (15, 25), misinterpreting an object-linked map marker. This led to wasted turns on a flawed premise.
-  - **Successful Step:** Interacted with FARFETCH'D at (15, 25) from below (15, 26), causing it to move to (20, 24).
-  - **Successful Step (Part 2):** Interacted with FARFETCH'D at (20, 24) from above (20, 23), causing it to move south and off-screen.
-  - **Current State:** The FARFETCH'D is now in an unknown location, presumably in the southern part of this maze.
-  - **Hypothesis 3:** Walking around the southern clearing will trigger the FARFETCH'D's appearance.
-    - **Test:** Walked a loop from (28, 29) -> (29, 29) -> (29, 30) -> (28, 30) -> (28, 29).
-    - **Result:** No event triggered.
-    - **Conclusion:** Hypothesis 3 is disproven. Simple movement in the southern clearing is not the solution.
-  - **Hypothesis 4:** Stepping on the functional twig pile at (16, 28) will cause the FARFETCH'D to reappear.
-    - **Test:** Stepped on the twig pile at (16, 28), then moved to (22, 28) to observe the area around (22, 31).
-    - **Result:** No FARFETCH'D appeared.
-    - **Conclusion:** Hypothesis 4 is disproven. This twig pile is not the current trigger.
-  - **Hypothesis 5:** The FARFETCH'D has reset to its last known on-screen location.
-    - **Test:** Moved to (20, 24) to observe the area.
-    - **Result:** No FARFETCH'D appeared.
-    - **Conclusion:** Hypothesis 5 is disproven. The Farfetch'd has not reset to this position.
+  - **First Bird:** Successfully guided back to the apprentice.
+  - **Second Bird:**
+    - **Trigger:** Stepping on (29, 33) made it appear at (28, 31).
+    - **Failed Interaction 1:** Interacting from below (28, 32) caused it to turn.
+    - **Failed Interaction 2:** Interacting from the right (29, 31) caused it to disappear.
+    - **Failed Hypothesis:** The entire puzzle did not reset after the first bird was returned.
 
 ### Dark Cave Exploration
 - **Objective:** Fully explore Dark Cave to find an alternative route to Goldenrod City.
@@ -245,17 +220,3 @@
 
 ### Reflection-Based Updates (Turn 20113)
 - **CRITICAL PROCESS FAILURE (Turns 20059-20071):** I have been stuck in a multi-turn debugging loop with the `path_and_execute` tool due to a critical failure to trust my `debugging_assistant` agent. The agent correctly identified the necessary fix (a hierarchical `if/elif` structure) on turn 20056, but I incorrectly reverted this fix on turn 20059 based on a flawed manual analysis. This mistrust, as highlighted by the system critique on turn 20071, was the root cause of the prolonged failure and is a major process violation.
-  - **Discovery (Turn 20713):** The FARFETCH'D appeared at (29, 22) after running from a wild battle. This appears to be a key puzzle mechanic.
-  - **Current State:** The FARFETCH'D is at (29, 22), facing right.
-  - **Hypothesis 7:** Interacting with the FARFETCH'D from the south at (29, 23) will move it in the correct direction.
-      - **Test:** Moved to (29, 23) and pressed 'A'.
-  - **Result:** The Farfetch'd made a sound and then disappeared off-screen to the west.
-  - **Result:** The Farfetch'd made a sound and then reset to (20, 24).
-  - **Conclusion:** Hypothesis 7 is disproven. Interacting from the south is incorrect.
-- **Hypothesis 8 (Revised):** The puzzle requires a specific sequence. After the Farfetch'd appears at (29, 22), interacting with it from the LEFT at (28, 22) is the correct next step.
-  - **Result:** SUCCESS! Interacting from the left caused the Farfetch'd to move off-screen, presumably towards the apprentice.
-  - **Conclusion:** The puzzle is likely solved. The next step is to go to the apprentice at (7, 28) to confirm and receive the reward.
-- **Hypothesis 6:** The entire puzzle has reset, and stepping on the twig pile at (16, 28) will spawn the first Farfetch'd again.
-  - **Test:** Moved to (16, 28), then to (15, 26) to observe (15, 25).
-  - **Result:** No Farfetch'd appeared.
-  - **Conclusion:** Hypothesis 6 is disproven. The puzzle has not fully reset. I must find the trigger for the second Farfetch'd.
