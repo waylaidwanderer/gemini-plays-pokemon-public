@@ -244,3 +244,6 @@
   - **Conclusion:** Hypothesis 2 is disproven. Interacting from the east is not the solution and causes the bird to disappear.
 
 - **Hypothesis 3:** Leaving and re-entering the Ilex Forest map will reset the puzzle, causing the FARFETCH'D to reappear at its starting location (10, 35).
+  - **Test:** Warped to IlexForestAzaleaGate and immediately warped back in. Navigated to (10, 34) to observe (10, 35).
+  - **Result:** The FARFETCH'D was not at (10, 35).
+  - **Conclusion:** Hypothesis 3 is disproven. The puzzle state is persistent and does not reset on map change.
