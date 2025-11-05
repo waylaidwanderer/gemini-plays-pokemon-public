@@ -27,36 +27,6 @@
 - **WATER**: Impassable.
 - **WINDOW**: Impassable.
 
-## World & Story
-### Location Notes
-#### Route 29
-- The southern path is a dead end.
-- The western path is blocked by CUT_TREEs and HEADBUTT_TREEs.
-
-#### Route 30
-- MR. POKEMON's house is located here. (Confirmed)
-
-#### Route 32
-- The central path on Route 32, accessed via a one-way ledge from the west, appears to be a dead end going south due to a line of `FLOOR_UP_WALL` tiles. However, there is a one-tile-wide gap at (14, 34) that allows passage south, so it is not a dead end.
-- Hidden SUPER POTION at (11, 40).
-
-#### Violet City
-- Building at (21, 29) is a house with a trade NPC, not the Gym.
-- The eastern and western sides of Cherrygrove City are connected by a walkable path that goes around the central body of water.
-- YOUNGSTER at (5, 18) mentioned a 'wiggly tree' that 'squirms and dances'. This is likely a hint about how to interact with HEADBUTT_TREEs.
-- Violet City Gatehouse Warp: Currently impassable and a dead end for now.
-
-##### Sprout Tower
-- 1F Path: A solid wall at x=4 divides the first floor, making the Sage at (3, 5) unreachable from the east. Defeating other Sages does not alter the layout.
-
-#### Route 33
-- Hiker Anthony is on this route. He gives his phone number and has called to say there are lots of DUNSPARCE in DARK CAVE.
-
-#### Azalea Town
-
-#### Dark Cave (Violet Entrance)
-- **Discovery:** This entrance is a confirmed dead end. Even with Flash, the area is a small, isolated section completely blocked off by one-way ledges and walls, making further exploration impossible from this side.
-
 ## Pokémon & Battle Info
 ### Battle Mechanics
 *Ignis learned EMBER at Lv12.*
