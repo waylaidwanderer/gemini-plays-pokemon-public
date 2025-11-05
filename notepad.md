@@ -132,7 +132,9 @@
 - `puzzle_solver_strategist`: (Agent) Suggests the next hypothesis for a puzzle.
 
 ## Untested Mechanics & Hypotheses
-- Verify which Pokémon in the current party can learn HM01 Cut.
+- **Assumption to Test:** The reason I cannot use HM01 Cut on the tree at (8, 25) is because no Pokémon in my current party is compatible. I will test this by catching a new Pokémon in Ilex Forest and attempting the interaction again. If it still fails, this assumption is incorrect.
+- Consider creating an 'HM Compatibility' agent to predict which Pokémon can learn certain HMs.
+- Consider creating a 'Party Optimizer' tool to suggest the best party order for a given route.
 - Test the damage of EMBER vs. QUICK ATTACK on a Water-type.
 - Test `HEADBUTT_TREE`s by interacting with them with different Pokémon in the lead to see if any move can be used.
 - Rigorously test all one-way tiles (e.g., LEDGE_HOP_DOWN/LEFT/RIGHT, FLOOR_UP_WALL on Union Cave 1F) by attempting to move in all four directions from them to definitively confirm their movement restrictions.
