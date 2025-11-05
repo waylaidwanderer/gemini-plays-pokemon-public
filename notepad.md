@@ -35,7 +35,7 @@
 - **TALL_GRASS**: Traversable, contains wild Pokémon. (Verified)
 - **TOWN_MAP**: Impassable. (Verified by observation)
 - **TV**: Impassable. (Verified)
-- **UNKNOWN**: Traversable. Was able to stand on this tile at (28, 32) in Ilex Forest.
+- **UNKNOWN**: Traversable. Verified at (28, 32) and (8, 26) in Ilex Forest.
 - **VOID**: Impassable. (Verified by attempting to walk into it from (9, 4) on Route31VioletGate on Turn 19292).
 - **WALL**: Impassable. (Verified)
 - **WARP_CARPET_DOWN**: Traversable warp. Requires pressing 'Down' on the tile to activate. (Verified)
