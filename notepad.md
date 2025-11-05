@@ -116,11 +116,11 @@
 - `run_code`: Executes a single-use Python script.
 - `define_agent`: Creates or updates a custom agent.
 - `delete_agent`: Deletes a custom agent.
-- `define_tool`: Creates or updates a custom tool.
-- `delete_tool`: Deletes a custom tool.
 - `define_map_marker`: Creates or updates a map marker.
 - `delete_map_marker`: Deletes a map marker.
 - `stun_npc`: Temporarily freezes or unfreezes an NPC.
+- `define_tool`: Creates or updates a custom tool.
+- `delete_tool`: Deletes a custom tool.
 - `select_battle_option`: Selects a main battle menu option.
 
 ### Custom Tools & Agents
@@ -130,6 +130,7 @@
 - `find_reachable_unseen_tiles`: (Tool) Finds unseen tiles that are confirmed to be reachable.
 - `path_and_execute`: (Tool) Generates and executes a path to a target coordinate.
 - `puzzle_solver_strategist`: (Agent) Suggests the next hypothesis for a puzzle.
+- `quest_progression_agent`: (Agent) Analyzes clues to suggest the next step in the story.
 
 ## Untested Mechanics & Hypotheses
 - **Assumption to Test (Cut Mechanic):** The ability to use HM01 Cut is dependent on having a compatible Pokémon.
