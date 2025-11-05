@@ -2,50 +2,44 @@
 
 ## Game Mechanics
 ### General Mechanics
-- Talking to Mom does NOT heal my Pokémon. This is a critical mechanic difference from other games.
+- Talking to Mom does NOT heal my Pokémon.
 - Resting in the player's bed does NOT heal Pokémon.
-- Stunning an NPC can break scripted events, causing dialogue loops. It can also be a reliable solution for interacting with moving NPCs.
-- The `stun_npc` effect is temporary and resets when changing maps. (Verified in Azalea Pokémon Center)
-- Repeatedly interacting with an object (like a sign) without new results can lead to loops. I must dismiss dialogue before attempting to move.
+- Stunning an NPC can break scripted events, but can also be a reliable solution for interacting with moving NPCs. The effect is temporary and resets when changing maps.
 - The 'Select' button on the nicknaming screen toggles between uppercase and lowercase keyboards.
 - An item in a Poké Ball on the ground must be interacted with from an adjacent tile, not by walking onto it.
 
-### Tile Traversal and Movement Rules
-- **BOOKSHELF**: Impassable. (Verified)
-- **BUOY**: Traversability unknown, assumed impassable. Might require Surf. (Observed on Route 32)
-- **CAVE**: Traversable warp.
-- **COUNTER**: Impassable. (Verified by observation)
-- **CUT_TREE**: Impassable, requires a specific ability/item to remove. (Verified)
-- **DOOR**: Traversable, acts as a warp tile. (Verified)
-- **FLOOR**: Traversable. (Verified on multiple routes, including Route 36)
-- **FLOOR_UP_WALL**: A complex one-way tile with location-dependent behavior.
-  - **(Union Cave 1F):** A complex one-way tile. You can move UP from a FLOOR tile *onto* a FLOOR_UP_WALL tile (Verified at (3, 18)), but you cannot move DOWN *onto* it (Verified at (6, 18)) or UP *from* it (Verified at (5, 18)).
-  - **(Union Cave B1F):** A complex one-way tile. You can move UP from a FLOOR_UP_WALL tile to a FLOOR tile. You cannot move DOWN from a FLOOR tile onto a FLOOR_UP_WALL tile (Verified at (12, 24), (7, 24), and re-verified at (5, 24) on turn 19885). However, you CAN move DOWN from a FLOOR_UP_WALL tile onto a LADDER tile (Verified at (7, 19)).
-  - **(Route 32 & Dark Cave Violet Entrance):** Impassable from above. You cannot move DOWN from a FLOOR tile onto a FLOOR_UP_WALL tile. (Verified by manual test on Route 32 at (7, 75) and by pathing failure in Dark Cave at (2, 16)).
-- **HEADBUTT_TREE**: Impassable. (Verified by observation)
-- **INCENSE_BURNER**: Impassable. (Verified by observation in Kurt's House)
-- **LADDER**: A complex warp with directional activation. To descend from 1F to B1F, I moved onto the ladder at (5, 19). To ascend from B1F to 1F, I moved DOWN from (7, 18) onto the ladder at (7, 19). Simple interaction (pressing A or a direction while standing on it) does not work. (Verified)
-- **LEDGE_HOP_DOWN/LEFT/RIGHT**: One-way traversal.
-- **LONG_GRASS**: Traversable, contains wild Pokémon. (Verified by encounters on Route 30)
-- **MART_SHELF**: Impassable. (Verified by pathfinder consistently treating it as a wall)
-- **PC**: Impassable. Interacting from an adjacent tile can trigger events. (Verified)
-- **PILLAR**: Conditionally passable. Becomes impassable after a short time. Interaction with a specific Sage at (12, 3) makes it passable. (Verified)
-- **RADIO**: Impassable. (Verified by attempting to walk on it)
-- **STAIRCASE**: Traversable, acts as a warp tile. (Verified)
-- **TALL_GRASS**: Traversable, contains wild Pokémon. (Verified)
-- **TOWN_MAP**: Impassable. (Verified by observation)
-- **TV**: Impassable. (Verified)
-- **UNKNOWN**: Traversable. Verified at (28, 32) and (8, 26) in Ilex Forest.
-- **VOID**: Impassable. (Verified by attempting to walk into it from (9, 4) on Route31VioletGate on Turn 19292).
-- **WALL**: Impassable. (Verified)
-- **WARP_CARPET_DOWN**: Traversable warp. Requires pressing 'Down' on the tile to activate. (Verified)
-- **WARP_CARPET_LEFT**: Traversable warp. Requires pressing 'Left' while standing on the tile to activate. (Verified at 2,10 in Azalea Town, 0,4 in IlexForestAzaleaGate, and 0,4 on Route32RuinsOfAlphGate)
-- **WARP_CARPET_RIGHT**: Traversable warp. Requires pressing 'Right' on the tile to activate. (Verified at 3,42 in Ilex Forest)
-- **WATER**: Impassable. (Verified by pathing attempts)
-- **WINDOW**: Impassable. (Verified)
-
 ### HM Usage Mechanics (CRITICAL DISCOVERY)
-- HMs are not taught to Pokémon from the bag or menu like TMs. Instead, to use an HM move outside of battle, you must interact directly with the corresponding overworld obstacle (e.g., press 'A' on a CUT_TREE). The game will then prompt you to use the move if a compatible Pokémon is in your party. (Verified with HM01 Cut in Ilex Forest).
+- HMs are not taught to Pokémon from the bag. To use an HM move outside of battle, you must interact directly with the corresponding overworld obstacle (e.g., press 'A' on a CUT_TREE). The game will then prompt you to use the move if a compatible Pokémon is in your party.
+- Using Cut on a tree removes the visual sprite, but the underlying tile remains impassable (`CUT_TREE` type). This state is persistent even after reloading the map.
+
+### Tile Traversal and Movement Rules
+- **BOOKSHELF**: Impassable.
+- **BUOY**: Traversability unknown, assumed impassable.
+- **CAVE**: Traversable warp.
+- **COUNTER**: Impassable.
+- **CUT_TREE**: Impassable, requires HM01 Cut to interact with. The tile itself remains impassable after the tree is cut.
+- **DOOR**: Traversable warp.
+- **FLOOR**: Traversable.
+- **FLOOR_UP_WALL**: A complex one-way tile. Behavior is location-dependent and needs more testing.
+- **HEADBUTT_TREE**: Impassable.
+- **INCENSE_BURNER**: Impassable.
+- **LADDER**: Complex warp with directional activation.
+- **LEDGE_HOP_DOWN/LEFT/RIGHT**: One-way traversal.
+- **LONG_GRASS**: Traversable, contains wild Pokémon.
+- **MART_SHELF**: Impassable.
+- **PC**: Impassable.
+- **PILLAR**: Conditionally passable in Sprout Tower.
+- **RADIO**: Impassable.
+- **STAIRCASE**: Traversable warp.
+- **TALL_GRASS**: Traversable, contains wild Pokémon.
+- **TOWN_MAP**: Impassable.
+- **TV**: Impassable.
+- **UNKNOWN**: Traversable.
+- **VOID**: Impassable.
+- **WALL**: Impassable.
+- **WARP_CARPET_DOWN/LEFT/RIGHT**: Traversable warps, likely requiring a directional press on the tile.
+- **WATER**: Impassable.
+- **WINDOW**: Impassable.
 
 ## World & Story
 ### Location Notes
