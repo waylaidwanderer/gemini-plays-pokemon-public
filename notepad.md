@@ -219,19 +219,6 @@
 - **Compatible Party Pokémon:** O (Togepi).
 - **Incompatible Party Pokémon:** Ignis (Quilava), Glyph (Unown), Aether (Pidgey).
 
-## Untested Mechanics & Hypotheses
-- Test the damage of EMBER vs. QUICK ATTACK on a Water-type.
-- Test `HEADBUTT_TREE`s by interacting with them with different Pokémon in the lead to see if any move can be used.
-- **One-Way Tile Traversal:** Rigorously test all one-way tiles (e.g., LEDGE_HOP_DOWN/LEFT/RIGHT, FLOOR_UP_WALL) by attempting to move in all four directions (up, down, left, right) from, onto, and laterally across them to definitively confirm their movement restrictions.
-- Test TALL_GRASS on Route 36.
-- Test `WARP_CARPET_LEFT` again to determine consistent activation method.
-- **Path to Goldenrod City:** An alternative route may exist through Ilex Forest or Dark Cave that bypasses the 'Odd Tree' on Route 36.
-- **HM Cut Source:** HM01 Cut might be obtained from an NPC or location other than the FARFETCH'D puzzle.
-- **'Odd Tree' Solution:** The tree might be passable via a specific Pokémon move (like Headbutt), at a certain time of day, or with the Pokégear radio, not just a key item.
-- **Union Cave Exploration:** There may be hidden areas in Union Cave accessible only with HMs like Surf or Flash.
-- **Dark Cave Location:** Dark Cave may be a completely separate location on the world map, not accessible from within Union Cave.
-- **Rival Trigger:** Beating Bugsy may have triggered an event with my Rival, Crimson, at the Ilex Forest gate.
-
 # High-Priority Agent & Tool Ideas
 - **Notepad Hygiene Agent/Tool:** An agent or tool to automate the process of cleaning up the notepad by incrementally deleting large sections to bypass the size threshold.
 
