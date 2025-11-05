@@ -1,17 +1,3 @@
-# Game Knowledge
-
-## Game Mechanics
-### General Mechanics
-- Talking to Mom does NOT heal my Pokémon.
-- Resting in the player's bed does NOT heal Pokémon.
-- Stunning an NPC can break scripted events, but can also be a reliable solution for interacting with moving NPCs. The effect is temporary and resets when changing maps.
-- The 'Select' button on the nicknaming screen toggles between uppercase and lowercase keyboards.
-- An item in a Poké Ball on the ground must be interacted with from an adjacent tile, not by walking onto it.
-
-### HM Usage Mechanics (CRITICAL DISCOVERY)
-- HMs are not taught to Pokémon from the bag. To use an HM move outside of battle, you must interact directly with the corresponding overworld obstacle (e.g., press 'A' on a CUT_TREE). The game will then prompt you to use the move if a compatible Pokémon is in your party.
-- Using Cut on a tree removes the visual sprite, but the underlying tile remains impassable (`CUT_TREE` type). This state is persistent even after reloading the map.
-
 ### Tile Traversal and Movement Rules
 - **BOOKSHELF**: Impassable.
 - **BUOY**: Traversability unknown, assumed impassable.
