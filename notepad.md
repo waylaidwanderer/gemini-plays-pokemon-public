@@ -132,7 +132,15 @@
 - `puzzle_solver_strategist`: (Agent) Suggests the next hypothesis for a puzzle.
 
 ## Untested Mechanics & Hypotheses
-- **Assumption to Test:** The reason I cannot use HM01 Cut on the tree at (8, 25) is because no Pokémon in my current party is compatible. I will test this by catching a new Pokémon in Ilex Forest and attempting the interaction again. If it still fails, this assumption is incorrect.
+- **Assumption to Test (Cut Mechanic):** The ability to use HM01 Cut is dependent on having a compatible Pokémon.
+  - **Alternative Hypothesis:** The ability to use Cut is story-flagged and requires a different trigger, not a specific Pokémon.
+  - **Test Plan:** 
+    1. Catch a new Pokémon in Ilex Forest (e.g., Paras).
+    2. Attempt to use Cut on the tree at (8, 25).
+    3. If it fails, return to Azalea Town and speak with the Charcoal Maker and his apprentice again to check for new dialogue or triggers.
+- **Assumption to Test (Warp Carpets):** `WARP_CARPET_LEFT` and `WARP_CARPET_RIGHT` require a directional press on the tile to activate.
+  - **Alternative Hypothesis:** These are standard warps that activate upon entering the tile, regardless of the direction of entry.
+  - **Test Plan:** Attempt to walk onto a `WARP_CARPET` tile from a non-aligned direction (e.g., Up or Down) and observe if the warp activates.
 - Consider creating an 'HM Compatibility' agent to predict which Pokémon can learn certain HMs.
 - Consider creating a 'Party Optimizer' tool to suggest the best party order for a given route.
 - Test the damage of EMBER vs. QUICK ATTACK on a Water-type.
