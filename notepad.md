@@ -59,25 +59,6 @@
 - `delete_tool`: Deletes a custom tool.
 - `select_battle_option`: Selects a main battle menu option.
 
-  - **Test Plan:** 
-    1. Catch a new Pokémon in Ilex Forest (e.g., Paras).
-    2. Attempt to use Cut on the tree at (8, 25).
-    3. If it fails, return to Azalea Town and speak with the Charcoal Maker and his apprentice again to check for new dialogue or triggers.
-- **Assumption to Test (Warp Carpets):** `WARP_CARPET_LEFT` and `WARP_CARPET_RIGHT` require a directional press on the tile to activate.
-  - **Alternative Hypothesis:** These are standard warps that activate upon entering the tile, regardless of the direction of entry.
-  - **Test Plan:** Attempt to walk onto a `WARP_CARPET` tile from a non-aligned direction (e.g., Up or Down) and observe if the warp activates.
-- Consider creating an 'HM Compatibility' agent to predict which Pokémon can learn certain HMs.
-- Consider creating a 'Party Optimizer' tool to suggest the best party order for a given route.
-- Test the damage of EMBER vs. QUICK ATTACK on a Water-type.
-- Test `HEADBUTT_TREE`s by interacting with them with different Pokémon in the lead to see if any move can be used.
-- Rigorously test all one-way tiles (e.g., LEDGE_HOP_DOWN/LEFT/RIGHT, FLOOR_UP_WALL on Union Cave 1F) by attempting to move in all four directions from them to definitively confirm their movement restrictions.
-- Test TALL_GRASS on Route 36.
-- Test `WARP_CARPET_LEFT` again to determine consistent activation method.
-- Test `FLOOR_UP_WALL` on Union Cave B1F by attempting to move in all four directions to confirm its one-way warp mechanic.
-- Test `LEDGE_HOP_LEFT` and `LEDGE_HOP_DOWN` tiles on Route 33 by attempting to move against their intended direction to confirm one-way traversal.
-- Test lateral (left/right) movement from and onto `FLOOR_UP_WALL` tiles to fully understand their mechanics.
-- Rigorously test all `LEDGE_HOP` tiles in Ilex Forest by attempting to move in all four directions to confirm their movement restrictions.
-
 # Investigations
 
 ## Active Investigations
