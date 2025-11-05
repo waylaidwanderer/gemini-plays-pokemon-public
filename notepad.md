@@ -110,18 +110,6 @@
 - **Incompatible Party Pokémon:** [Untested]
 
 ## Available Tools & Agents
-### Built-in Tools
-- `notepad_edit`: Edits the persistent notepad.
-- `run_code`: Executes a single-use Python script.
-- `define_agent`: Creates or updates a custom agent.
-- `delete_agent`: Deletes a custom agent.
-- `define_map_marker`: Creates or updates a map marker.
-- `delete_map_marker`: Deletes a map marker.
-- `stun_npc`: Temporarily freezes or unfreezes an NPC.
-- `define_tool`: Creates or updates a reusable custom tool.
-- `delete_tool`: Deletes a custom tool.
-- `select_battle_option`: Automatically selects a main battle menu option.
-
 ### Custom Tools & Agents
 - `deterministic_battle_strategist`: A deterministic, non-LLM tool for battle advice.
 - `find_adjacent_traversable_tiles`: Finds traversable tiles next to a target.
@@ -187,6 +175,10 @@
     - **Failed Interaction 1:** Interacting from below (28, 32) caused it to turn.
     - **Failed Interaction 2:** Interacting from the right (29, 31) caused it to disappear.
     - **Failed Hypothesis:** The entire puzzle did not reset after the first bird was returned.
+  - **Hypothesis 7:** Stepping on the twig pile at (29, 33) will cause the FARFETCH'D to reappear.
+    - **Test:** Moved to (29, 33), then back to (28, 32) to observe (28, 31).
+    - **Result:** No FARFETCH'D appeared.
+    - **Conclusion:** Hypothesis 7 is disproven. This is not the correct trigger at this stage of the puzzle.
 
 ### Dark Cave Exploration
 - **Objective:** Fully explore Dark Cave to find an alternative route to Goldenrod City.
@@ -219,7 +211,3 @@
 
 ### Reflection-Based Updates (Turn 20113)
 - **CRITICAL PROCESS FAILURE (Turns 20059-20071):** I have been stuck in a multi-turn debugging loop with the `path_and_execute` tool due to a critical failure to trust my `debugging_assistant` agent. The agent correctly identified the necessary fix (a hierarchical `if/elif` structure) on turn 20056, but I incorrectly reverted this fix on turn 20059 based on a flawed manual analysis. This mistrust, as highlighted by the system critique on turn 20071, was the root cause of the prolonged failure and is a major process violation.
-  - **Hypothesis 7:** Stepping on the twig pile at (29, 33) will cause the FARFETCH'D to reappear.
-    - **Test:** Moved to (29, 33), then back to (28, 32) to observe (28, 31).
-    - **Result:** No FARFETCH'D appeared.
-    - **Conclusion:** Hypothesis 7 is disproven. This is not the correct trigger at this stage of the puzzle.
