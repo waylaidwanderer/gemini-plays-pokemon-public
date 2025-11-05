@@ -233,3 +233,5 @@
   - **Test:** Navigated to (15, 26).
   - **Result:** Failed. No object appeared.
 - **Conclusion:** The entire strategy of trying to force the Farfetch'd to appear near the puzzle start is a dead end. New hypothesis: The Farfetch'd is already somewhere in the forest and must be found via exploration.
+### Cut Mechanic (CRITICAL DISCOVERY)
+- Using Cut on a tree removes the visual sprite, but the underlying tile may not immediately become traversable. The tile type in the map data (`CUT_TREE`) remains the source of truth for collision, as confirmed by a failed movement attempt at (8, 25) in Ilex Forest after cutting the tree.
