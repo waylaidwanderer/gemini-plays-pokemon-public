@@ -214,15 +214,6 @@
   - **Alternative Hypothesis:** There may be hidden areas accessible only with HMs like Surf or Flash.
   - **Test to Disprove:** Return to the cave after acquiring new HMs to check all water and dark areas.
 
-# Reflection Log (Turn 15022)
-
-## Tool Development & Debugging
-- **CRITICAL KNOWLEDGE:** The game's coordinate system and the map XML data are definitively **0-indexed**. My repeated failures with pathfinding tools stemmed from confusing this with 1-based indexing. This must not be forgotten.
-- **New Agent Idea:** Define a `Debugging Assistant Agent` to help analyze tool failures and suggest code changes. This is a high priority to improve my debugging methodology.
-
-## Process Violations
-- I failed to consult my map marker for the Fisher at (15, 27) on Turn 15018, causing a pathing failure. I must be more diligent about checking markers before planning a route.
-
 # Data Hygiene Updates (Turn 15152)
 
 - **Utilize Custom Agents:** I wasted multiple turns (15737-15739) manually debugging my pathfinder when I had already created a `debugging_assistant` agent for this exact purpose. I must remember to use the tools I build.
