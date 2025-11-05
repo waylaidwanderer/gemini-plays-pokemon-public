@@ -246,3 +246,30 @@
 - **Failed Hypothesis:** Reloading the map by leaving and re-entering Ilex Forest will update the collision data of a cut tree, making it passable.
   - **Test:** Cut the tree at (8, 25), left the map, re-entered, and attempted to walk on the tile.
   - **Result:** Failed. Movement was blocked. The `CUT_TREE` tile type remains impassable even after the sprite is gone and the map is reloaded. This is a persistent state.
+
+# CORRECTED KNOWLEDGE (Turn 21639)
+
+## Available Tools & Agents
+
+### Built-in Tools
+- `notepad_edit`: Edits the persistent notepad.
+- `run_code`: Executes a single-use Python script.
+- `define_agent`: Creates or updates a custom agent.
+- `delete_agent`: Deletes a custom agent.
+- `define_map_marker`: Creates or updates a map marker.
+- `delete_map_marker`: Deletes a map marker.
+- `stun_npc`: Temporarily freezes or unfreezes an NPC.
+- `define_tool`: Creates or updates a custom tool.
+- `delete_tool`: Deletes a custom tool.
+- `select_battle_option`: Selects a main battle menu option.
+
+### Custom Tools & Agents
+- `debugging_assistant`: (Agent) Analyzes and corrects faulty Python scripts.
+- `deterministic_battle_strategist`: (Tool) A deterministic, non-LLM tool for battle advice.
+- `find_reachable_unseen_tiles`: (Tool) Finds unseen tiles that are confirmed to be reachable.
+- `path_and_execute`: (Tool) Generates and executes a path to a target coordinate.
+
+## Agent/Tool Ideas
+- Create a 'Move Selector' tool that takes a move name as input and outputs the button presses needed to select it in battle.
+- Consider creating an 'HM Compatibility' agent to predict which Pokémon can learn certain HMs.
+- Consider creating a 'Party Optimizer' tool to suggest the best party order for a given route.
