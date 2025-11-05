@@ -199,20 +199,6 @@
 ## Untested Mechanics & Hypotheses (Update Turn 13775)
 - Rigorously test all one-way tiles (e.g., LEDGE_HOP_DOWN/LEFT/RIGHT, FLOOR_UP_WALL on Union Cave 1F) by attempting to move in all four directions from them to definitively confirm their movement restrictions.
 
-# Reflection Log (Turn 13826)
-
-## Route 33 Layout Discovery
-- The northern section of Route 33 (containing unseen tiles at y=5) is inaccessible from the southern section due to one-way ledges. My `generate_path_plan` tool correctly reported no path exists.
-- **New Hypothesis:** The northern section is likely an exit from Union Cave.
-
-## Goal Refinement
-- The cave on Route 33 at (11, 9) is confirmed by map markers to be an entrance to Union Cave, not Dark Cave.
-- **New Hypothesis:** Dark Cave, mentioned by Hiker Anthony, may be a separate area accessible from *within* Union Cave.
-
-## Tool Development
-- The `action_sequencer_agent` has been identified as fundamentally unreliable for battle menu navigation and is being deleted.
-- **AGENT KNOWLEDGE UPDATES:** Whenever a new Pokémon's type is discovered in battle, I must immediately update the `simple_battle_strategist` agent's system prompt to include this new information in its 'KNOWN POKEMON TYPES' list. This prevents knowledge decay and ensures the agent's accuracy improves over time.
-
 # Data Hygiene Updates (Turn 14405)
 
 # Reflection Log (Turn 14710)
