@@ -203,17 +203,6 @@
 
 # Reflection Log (Turn 14814)
 
-## Untested Assumptions
-- **HM Cut Source:** The only way to get CUT is from the FARFETCH'D puzzle.
-  - **Alternative Hypothesis:** CUT might be obtained from an NPC in a future town or found as an item elsewhere.
-  - **Test to Disprove:** Exhaust all other leads in the current region. If CUT is not found, the next logical step is to find a path to a new city.
-- **'Odd Tree' Solution:** The tree requires a key item.
-  - **Alternative Hypothesis:** The solution could involve a specific Pokémon move, the time of day, or a radio station.
-  - **Test to Disprove:** After exhausting other leads, return to the tree to systematically test these alternative variables.
-- **Union Cave Exploration:** I have fully explored Union Cave.
-  - **Alternative Hypothesis:** There may be hidden areas accessible only with HMs like Surf or Flash.
-  - **Test to Disprove:** Return to the cave after acquiring new HMs to check all water and dark areas.
-
 ## Reflection-Based Action Items (Turn 18192)
 - **Process Improvement:** Add more rigorous testing of all tile mechanics to the 'Untested Mechanics & Hypotheses' section.
 
