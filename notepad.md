@@ -179,6 +179,15 @@
 - The solution involves using the Pokégear radio near the tree.
 - The tree must be interacted with from the tile directly below it (35, 10). (Status: Untestable as of Turn 17023. Path confirmed to be blocked by `generate_path_plan` tool.)
 
+### Ilex Forest FARFETCH'D Puzzle
+- **Objective:** Get the FARFETCH'D to the apprentice at (7, 28).
+- **Discovery Log:**
+  - **Successful Step:** Interacted with FARFETCH'D at (10, 35) from above (10, 34), causing it to move to (15, 29).
+  - **Failed Step:** Interacted with FARFETCH'D at (15, 29) from below (15, 30), causing it to reset to its starting position at (15, 25).
+  - **Past Failure Note (Turns 13600-13606):** Pursued an invalid test plan based on the hallucination that the bird was at its starting position of (15, 25), misinterpreting an object-linked map marker. This led to wasted turns on a flawed premise.
+- **Current State:** FARFETCH'D is at (15, 25).
+- **Next Hypothesis:** Interact with the FARFETCH'D at (15, 25) from the tile below it at (15, 26).
+
 ### Dark Cave Exploration
 - **Objective:** Fully explore Dark Cave to find an alternative route to Goldenrod City.
 - **Background:** The 'Odd Tree' on Route 36 is an impassable story-block. My current strategic pivot is to fully explore Dark Cave, as Hiker Anthony's repeated calls suggest its importance.
@@ -201,7 +210,6 @@
 - **CRITICAL PROCESS FAILURE (Recent Turns):** Repeatedly deferred critical actions like notepad updates and agent fixes, violating the 'IMMEDIATE ACTION' and 'TOOL MAINTENANCE' core principles. This resulted in operating with flawed data and plans.
 - **RECURRING DEBUGGING FAILURE (Turns 10750-10774):** I have been stuck in a loop toggling the coordinate system logic in my `find_path_to_target_bfs` tool. The evidence from the player's position in the XML (`<Row id="12">`, `<Tile id="2">` for position (2, 12)) definitively proves that the XML `id` attributes are 1-indexed and correspond directly to game coordinates. My repeated re-introduction of `+ 1` to the parsing logic was a critical, recurring hallucination.
 - **CRITICAL PROCESS FAILURE (Turn 13142):** Deferred a mandatory notepad update to fix an incomplete tool list by one turn in order to continue a battle. This is a violation of the 'IMMEDIATE ACTION' principle for data management.
-- **CRITICAL REASONING FAILURE (Turns 13600-13606):** I pursued an invalid test plan for the FARFETCH'D puzzle based on the hallucination that the bird was at its starting position of (15, 25). I misinterpreted my object-linked map marker, which was only showing the last known location because the object was off-screen. This is a major failure to correctly interpret my own tools and led to multiple wasted turns on a flawed premise.
 - **CRITICAL REASONING FAILURE (Turn 14554):** My `generate_path_plan` tool correctly reported that no path existed to the Ilex Forest Shrine from my position at (8, 26). Instead of trusting the tool's output and analyzing the map, I incorrectly assumed the tool was broken. A manual review confirmed my path was blocked by impassable tiles. This is a major failure to trust my own tools and a repeat of past mistakes.
 - **CRITICAL HALLUCINATION (Turn 15350):** Believed I was at (14, 0) on Route 32 and attempted to move 'Up' to enter Violet City. In reality, I was at (6, 80) and my 'Up' press moved me to the cave entrance at (6, 79), warping me back into Union Cave. This is a severe failure of state tracking and location awareness.
 - **PROCESS VIOLATION (Turn 15018):** Failed to consult map marker for Fisher at (15, 27) in Union Cave before pathing, causing a movement blockage. This highlights a need for greater diligence in pre-planning.
@@ -216,12 +224,3 @@
 
 ### Reflection-Based Updates (Turn 20113)
 - **CRITICAL PROCESS FAILURE (Turns 20059-20071):** I have been stuck in a multi-turn debugging loop with the `path_and_execute` tool due to a critical failure to trust my `debugging_assistant` agent. The agent correctly identified the necessary fix (a hierarchical `if/elif` structure) on turn 20056, but I incorrectly reverted this fix on turn 20059 based on a flawed manual analysis. This mistrust, as highlighted by the system critique on turn 20071, was the root cause of the prolonged failure and is a major process violation.
-
-### Ilex Forest FARFETCH'D Puzzle
-- **Objective:** Get the FARFETCH'D to the apprentice at (7, 28).
-- **Successful Steps:**
-  - Interacted with FARFETCH'D at (10, 35) from above (10, 34), causing it to move to (15, 29).
-- **Failed Steps:**
-  - Interacted with FARFETCH'D at (15, 29) from below (15, 30), causing it to reset to its starting position at (15, 25).
-- **Current State:** FARFETCH'D is at (15, 25).
-- **Next Hypothesis:** Interact with the FARFETCH'D at (15, 25) from the tile below it at (15, 26).
