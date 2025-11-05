@@ -197,7 +197,10 @@
     - **Test:** Stepped on the twig pile at (16, 28), then moved to (22, 28) to observe the area around (22, 31).
     - **Result:** No FARFETCH'D appeared.
     - **Conclusion:** Hypothesis 4 is disproven. This twig pile is not the current trigger.
-  - **Next Step:** The FARFETCH'D may have reset to a previous position. I will return to its last known on-screen location, (20, 24), to check if it has reappeared there.
+  - **Hypothesis 5:** The FARFETCH'D has reset to its last known on-screen location.
+    - **Test:** Moved to (20, 24) to observe the area.
+    - **Result:** No FARFETCH'D appeared.
+    - **Conclusion:** Hypothesis 5 is disproven. The Farfetch'd has not reset to this position.
 
 ### Dark Cave Exploration
 - **Objective:** Fully explore Dark Cave to find an alternative route to Goldenrod City.
