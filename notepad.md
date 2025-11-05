@@ -257,6 +257,7 @@
   - **Test:** Stepped on (14, 26), then moved to (28, 32) to observe (28, 31).
   - **Result:** No FARFETCH'D appeared.
   - **Conclusion:** Hypothesis 10 is disproven.
+- **Hypothesis 12:** Interacting with the Ilex Forest Shrine at (8, 22) will trigger the second FARFETCH'D to reappear.
 - **Hypothesis 11:** Stepping on the twig pile at (21, 35) will trigger the second FARFETCH'D to reappear.
   - **Test:** Stepped on (21, 35), then moved to (28, 32) to observe (28, 31).
   - **Result:** No FARFETCH'D appeared.
