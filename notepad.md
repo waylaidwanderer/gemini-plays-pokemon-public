@@ -41,6 +41,12 @@
 - `delete_tool`: Deletes a custom tool.
 - `select_battle_option`: Selects a main battle menu option.
 
+### Custom Tools & Agents
+- `deterministic_battle_strategist`: Recommends battle actions based on a hardcoded type chart.
+- `find_reachable_unseen_tiles`: Finds unseen tiles that are reachable from the player's current position.
+- `path_and_execute`: Generates and returns a path to a target coordinate.
+- `debugging_assistant`: Analyzes and corrects faulty Python scripts.
+
 ### Dark Cave Exploration
 - **Objective:** Fully explore Dark Cave to find an alternative route to Goldenrod City.
 - **Background:** The 'Odd Tree' on Route 36 is an impassable story-block. My current strategic pivot is to fully explore Dark Cave, as Hiker Anthony's repeated calls suggest its importance.
@@ -89,18 +95,8 @@
 ### Cut Mechanic (CRITICAL DISCOVERY)
 - Using Cut on a tree removes the visual sprite, but the underlying tile may not immediately become traversable. The tile type in the map data (`CUT_TREE`) remains the source of truth for collision, as confirmed by a failed movement attempt at (8, 25) in Ilex Forest after cutting the tree.
 - Rigorously test all one-way tiles (e.g., LEDGE_HOP_DOWN/LEFT/RIGHT, FLOOR_UP_WALL on Union Cave 1F) by attempting to move in all four directions from them to definitively confirm their movement restrictions.
-### Ilex Forest CUT_TREE Blockage
-- **Failed Hypothesis:** Reloading the map by leaving and re-entering Ilex Forest will update the collision data of a cut tree, making it passable.
-  - **Test:** Cut the tree at (8, 25), left the map, re-entered, and attempted to walk on the tile.
-  - **Result:** Failed. Movement was blocked. The `CUT_TREE` tile type remains impassable even after the sprite is gone and the map is reloaded. This is a persistent state.
-### Ilex Forest CUT_TREE Blockage
-- **Failed Hypothesis:** Reloading the map by leaving and re-entering Ilex Forest will update the collision data of a cut tree, making it passable.
-  - **Test:** Cut the tree at (8, 25), left the map, re-entered, and attempted to walk on the tile.
-  - **Result:** Failed. Movement was blocked. The `CUT_TREE` tile type remains impassable even after the sprite is gone and the map is reloaded. This is a persistent state.
-### Ilex Forest CUT_TREE Blockage
-- **Failed Hypothesis:** Reloading the map by leaving and re-entering Ilex Forest will update the collision data of a cut tree, making it passable.
-  - **Test:** Cut the tree at (8, 25), left the map, re-entered, and attempted to walk on the tile.
-  - **Result:** Failed. Movement was blocked. The `CUT_TREE` tile type remains impassable even after the sprite is gone and the map is reloaded. This is a persistent state.
 
-# Reflection Log (Turn 21655)
-- **CRITICAL HALLUCINATION:** Believed a warp to Union Cave existed on the AzaleaTown map (8_7). The system confirmed no warp exists there. The actual warp to Union Cave is on Route 33 (8_6) at (11, 9). This was a major failure in location awareness.
+### Ilex Forest CUT_TREE Blockage
+- **Failed Hypothesis:** Reloading the map by leaving and re-entering Ilex Forest will update the collision data of a cut tree, making it passable.
+  - **Test:** Cut the tree at (8, 25), left the map, re-entered, and attempted to walk on the tile.
+  - **Result:** Failed. Movement was blocked. The `CUT_TREE` tile type remains impassable even after the sprite is gone and the map is reloaded. This is a persistent state.
