@@ -191,13 +191,6 @@
 # High-Priority Agent & Tool Ideas
 - **Tool Debugger Orchestrator Agent (High Priority):** Automates the multi-step process of identifying a tool bug, calling the `debugging_assistant`, applying the fix with `define_tool`, and re-running the failing test case to verify the fix.
 
-# Core Failure Patterns
-- **Position & Map State Hallucination:** A recurring failure where I believe I am at a different (x, y) coordinate or on a different map than my actual location. This has led to invalid pathing, incorrect map markers, and failed interactions.
-- **Warps & Transitions Hallucination:** Repeatedly believing a map transition was successful when it was not, or hallucinating the existence of warps at incorrect coordinates. This has caused pathfinder crashes and invalidated multi-turn plans.
-- **Tool & Data State Hallucination:** A critical pattern of either believing a tool exists when it does not, misremembering the state of my own notepad and map markers, or repeatedly attempting to "fix" an already correct tool or entry. This leads to wasted turns on debugging and operating on flawed data.
-- **Mistrust of Tools:** A critical failure pattern of assuming a working tool is broken, particularly when it reports a dead end or no path. This has led to extensive, wasted debugging cycles on correct code instead of trusting the tool's output and re-evaluating my strategic assumptions.
-- **Process Violations:** Repeatedly failing to follow established procedures. This includes deferring critical actions like notepad updates (violating the 'IMMEDIATE ACTION' principle), failing to consult map markers before pathing, and not using specialized agents (like the `debugging_assistant`) when appropriate.
-
 # Appendix: Detailed Failure & Reflection Log
 
 ### Specific Failure Incidents & Process Violations
