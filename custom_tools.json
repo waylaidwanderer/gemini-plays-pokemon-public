@@ -105,32 +105,6 @@
       }
     ]
   },
-  "find_adjacent_traversable_tiles": {
-    "description": "Takes a target coordinate and finds all adjacent (non-diagonal) tiles that are traversable, returning them as a list of coordinates. This is useful for finding valid spots to stand when trying to interact with an object or NPC.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "target_x": {
-          "type": "string"
-        },
-        "target_y": {
-          "type": "string"
-        }
-      },
-      "required": [
-        "target_x",
-        "target_y"
-      ]
-    },
-    "python_script": "import xml.etree.ElementTree as ET\nimport json\n\ntry:\n    target_x = int(input_data['target_x'])\n    target_y = int(input_data['target_y'])\n\n    root = ET.fromstring(map_xml_string)\n    \n    impassable_types = {\n        'WALL', 'VOID', 'WATER', 'BOOKSHELF', 'COUNTER', 'CUT_TREE',\n        'HEADBUTT_TREE', 'MART_SHELF', 'PC', 'PILLAR', 'RADIO', 'TOWN_MAP',\n        'TV', 'WINDOW'\n    }\n\n    grid = {}\n    for row_elem in root.findall('Row'):\n        y = int(row_elem.get('id'))\n        for tile_elem in row_elem.findall('Tile'):\n            x = int(tile_elem.get('id'))\n            tile_type = tile_elem.get('type')\n            has_object = tile_elem.find('Object') is not None\n            \n            is_impassable = (tile_type in impassable_types) or has_object\n            grid[(x, y)] = not is_impassable\n\n    adjacent_traversable = []\n    for dx, dy, direction in [(0, -1, 'Up'), (0, 1, 'Down'), (-1, 0, 'Left'), (1, 0, 'Right')]:\n        nx, ny = target_x + dx, target_y + dy\n        neighbor_coord = (nx, ny)\n\n        if grid.get(neighbor_coord, False):\n            adjacent_traversable.append({'x': nx, 'y': ny, 'direction_from_target': direction})\n            \n    print(json.dumps(adjacent_traversable))\n\nexcept Exception as e:\n    print(json.dumps({\"error\": str(e)}))",
-    "history": [
-      {
-        "commit_message": "feat: Create tool to find valid interaction spots. This tool, `find_adjacent_traversable_tiles`, replaces the functionality of the deleted `hypothesis_generator` agent. It deterministically parses the map XML to find all valid, traversable tiles adjacent to a target coordinate. This provides a reliable method for generating testable puzzle hypotheses and directly addresses the system critique regarding the faulty agent.",
-        "timestamp": "2025-10-31T11:18:33.232Z",
-        "action_counter": 10203
-      }
-    ]
-  },
   "find_reachable_unseen_tiles": {
     "description": "Parses the map XML and current player position to return a list of unseen tiles that are confirmed to be reachable, filtering out those blocked by walls or other obstacles.",
     "input_schema": {
