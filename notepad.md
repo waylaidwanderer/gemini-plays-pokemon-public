@@ -86,29 +86,6 @@
 ## Agent/Tool Ideas
 - Consider creating a 'Quest Progression' agent/tool. It would analyze NPC dialogue hints and current obstacles to suggest the next logical location to investigate.
 
-### Ilex Forest FARFETCH'D Puzzle (Attempt 2)
-- **Objective:** Guide two FARFETCH'D back to the apprentice at (7, 28).
-- **Failed Hypothesis 1:** The first Farfetch'd is at its original starting location (10, 35).
-  - **Test:** Went to (10, 35) and attempted to interact.
-  - **Result:** Failed. No object was present.
-- **Failed Hypothesis 2:** Stepping on the twig pile at (16, 28) will make the first FARFETCH'D appear.
-  - **Test:** Walked onto the tile (16, 28).
-  - **Result:** Failed. No object appeared.
-- **Failed Agent Hypothesis:** The `puzzle_solver_strategist` agent suggested using 'Cut' on the tree at (8, 22), which is impossible as I do not have the HM yet. This confirms the agent is unreliable for this puzzle.
-- **Failed Hypothesis 3:** Stepping on the twig pile at (14, 26) will make the first FARFETCH'D appear.
-  - **Test:** Walked onto the tile (14, 26).
-  - **Result:** Failed. No object appeared.
-- **Failed Hypothesis 4:** Stepping on the twig pile at (15, 27) will make the first FARFETCH'D appear.
-  - **Test:** Walked onto the tile (15, 27).
-  - **Result:** Failed. No object appeared.
-- **Failed Hypothesis 5:** Interacting with a twig pile by facing it and pressing 'A' will trigger the Farfetch'd.
-  - **Test:** Stood at (14, 27), faced the twig pile at (15, 27), and pressed 'A'. Also tried standing on the pile at (15, 27) and pressing 'A'.
-  - **Result:** Failed. No interaction occurred.
-- **Conclusion:** The entire 'twig pile' strategy, involving both stepping on and interacting with piles, has failed across multiple tests. This approach is now considered a dead end.
-- **Failed Hypothesis 6:** Simply entering the main puzzle area near (15, 25) will trigger the Farfetch'd to appear.
-  - **Test:** Navigated to (15, 26).
-  - **Result:** Failed. No object appeared.
-- **Conclusion:** The entire strategy of trying to force the Farfetch'd to appear near the puzzle start is a dead end. New hypothesis: The Farfetch'd is already somewhere in the forest and must be found via exploration.
 ### Cut Mechanic (CRITICAL DISCOVERY)
 - Using Cut on a tree removes the visual sprite, but the underlying tile may not immediately become traversable. The tile type in the map data (`CUT_TREE`) remains the source of truth for collision, as confirmed by a failed movement attempt at (8, 25) in Ilex Forest after cutting the tree.
 - Rigorously test all one-way tiles (e.g., LEDGE_HOP_DOWN/LEFT/RIGHT, FLOOR_UP_WALL on Union Cave 1F) by attempting to move in all four directions from them to definitively confirm their movement restrictions.
