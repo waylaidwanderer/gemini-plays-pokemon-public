@@ -240,3 +240,7 @@
 - **Failed Hypothesis:** Reloading the map by leaving and re-entering Ilex Forest will update the collision data of a cut tree, making it passable.
   - **Test:** Cut the tree at (8, 25), left the map, re-entered, and attempted to walk on the tile.
   - **Result:** Failed. Movement was blocked. The `CUT_TREE` tile type remains impassable even after the sprite is gone and the map is reloaded. This is a persistent state.
+### Ilex Forest CUT_TREE Blockage
+- **Failed Hypothesis:** Reloading the map by leaving and re-entering Ilex Forest will update the collision data of a cut tree, making it passable.
+  - **Test:** Cut the tree at (8, 25), left the map, re-entered, and attempted to walk on the tile.
+  - **Result:** Failed. Movement was blocked. The `CUT_TREE` tile type remains impassable even after the sprite is gone and the map is reloaded. This is a persistent state.
