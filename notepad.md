@@ -215,3 +215,16 @@
     - **Test:** Warped out to IlexForestAzaleaGate and immediately warped back in. Navigated to (29, 33) and stepped on the twig pile, then moved to (28, 32) to observe (28, 31).
     - **Result:** The FARFETCH'D did not appear.
     - **Conclusion:** Hypothesis 8 is disproven. A simple map reset does not make this trigger functional again.
+
+### Ilex Forest FARFETCH'D Puzzle (Restart)
+- **Objective:** Guide two FARFETCH'D back to the apprentice at (7, 28).
+
+#### First Bird Investigation Log
+- **Location:** (10, 35)
+- **Hypothesis 1:** The bird must be approached from below, at (10, 36), to be herded north.
+  - **Test:** Attempted to pathfind to (10, 36).
+  - **Result:** `path_and_execute` tool returned an empty path. Map data confirms (10, 36) is a WALL tile.
+  - **Conclusion:** Hypothesis 1 is impossible and disproven. Interaction from (10, 36) is not the solution.
+
+- **Hypothesis 2:** The bird needs to be herded west towards the apprentice. Interacting from the right (east) at (11, 35) might achieve this.
+  - **Test:** Pathfind to (11, 35) and interact with the bird at (10, 35).
