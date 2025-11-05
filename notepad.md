@@ -230,3 +230,12 @@
 - **Description:** A move that can cut down small trees.
 - **Compatible Party Pokémon:** [Untested]
 - **Incompatible Party Pokémon:** [Untested]
+
+# CORRECTED TOOL LIST (APPENDED DUE TO EDIT FAILURES)
+- `deterministic_battle_strategist`: A deterministic, non-LLM tool for battle advice
+- `find_adjacent_traversable_tiles`: Finds traversable tiles next to a target
+- `find_reachable_unseen_tiles`: Finds unseen tiles that are confirmed to be reachable
+- `path_and_execute`: Generates and executes a path to a target coordinate
+- `notepad_refactor_assistant`: Agent to help refactor the notepad
+- `debugging_assistant`: Agent that analyzes and corrects faulty Python scripts
+- `puzzle_solver_strategist`: Agent that suggests the next hypothesis for a puzzle
