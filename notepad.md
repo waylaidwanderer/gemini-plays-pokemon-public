@@ -187,9 +187,9 @@
   - **Failed Step:** Interacted with FARFETCH'D at (20, 24) from the right (21, 24), causing it to reset to its starting position at (15, 25).
   - **Past Failure Note (Turns 13600-13606):** Pursued an invalid test plan based on the hallucination that the bird was at its starting position of (15, 25), misinterpreting an object-linked map marker. This led to wasted turns on a flawed premise.
   - **Successful Step:** Interacted with FARFETCH'D at (15, 25) from below (15, 26), causing it to move to (20, 24).
-  - **Successful Step:** Interacted with FARFETCH'D at (20, 24) from above (20, 23), causing it to move off-screen.
-  - **Current State:** FARFETCH'D has moved to an unknown location.
-  - **Next Hypothesis:** Find the FARFETCH'D. Since it was pushed south, it is likely in the area south of (20, 24).
+  - **Successful Step (Part 2):** Interacted with FARFETCH'D at (20, 24) from above (20, 23), causing it to move south and off-screen.
+  - **Current State:** The FARFETCH'D is now in an unknown location, presumably in the southern part of this maze.
+  - **Next Step:** Explore the southern area to find the FARFETCH'D's new position.
 
 ### Dark Cave Exploration
 - **Objective:** Fully explore Dark Cave to find an alternative route to Goldenrod City.
