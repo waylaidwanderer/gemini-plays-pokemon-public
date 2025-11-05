@@ -192,12 +192,6 @@
 - **CRITICAL HALLUCINATION (Turn 11872):** Believed a warp to Union Cave existed at (11, 9) on the AzaleaTown map (8_7). The system confirmed no warp exists there. The actual warp to Union Cave is on Route 33 (8_6) at (11, 9). This was a major failure in location awareness.
 - **CRITICAL HALLUCINATION (Turn 11928):** Believed a warp to Dark Cave existed at (34, 5) on the VioletCity map (10_5). The system confirmed no warp exists there. This was a major failure in location awareness.
 
-## Reflection-Based Updates (Turn 11955)
-- **Untested Mechanics:** Added tasks to my hypotheses list to explicitly test the one-way traversal of all `LEDGE_HOP` types by attempting to move against their intended direction.
-- **Alternative Hypotheses Logged:** Documented alternative hypotheses for my current roadblocks. For Dark Cave, the possibility of a hidden passage. For the FARFETCH'D puzzle, the possibility that it is currently unsolvable without a specific item.
-
-- **CRITICAL HALLUCINATION (Turn 12268):** Believed I was at position (7, 19) when I was actually at (6, 19) after moving. This is a state-tracking failure.
-
 ### Reflection-Based Updates (Turn 12319)
 - **Process Violation Logged:** Deferred placing a map marker in Azalea Town by one turn (Turn 12317), a violation of the 'IMMEDIATE ACTION' principle.
 - **Alternative Hypotheses Logged:**
