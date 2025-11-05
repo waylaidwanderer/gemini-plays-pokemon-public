@@ -254,3 +254,4 @@
   - **Conclusion:** Hypothesis 9 is disproven.
 
 - **Hypothesis 10:** Stepping on the twig pile at (14, 26) will trigger the second FARFETCH'D to reappear.
+- **Hypothesis 11:** Stepping on the twig pile at (21, 35) will trigger the second FARFETCH'D to reappear.
