@@ -123,6 +123,18 @@
 - `delete_tool`: Deletes a custom tool.
 - `select_battle_option`: Automatically selects a main battle menu option.
 
+### Built-in Tools
+- `notepad_edit`: Edits the persistent notepad.
+- `run_code`: Executes a single-use Python script.
+- `define_agent`: Creates or updates a custom agent.
+- `delete_agent`: Deletes a custom agent.
+- `define_map_marker`: Creates or updates a map marker.
+- `delete_map_marker`: Deletes a map marker.
+- `stun_npc`: Temporarily freezes or unfreezes an NPC.
+- `define_tool`: Creates or updates a reusable custom tool.
+- `delete_tool`: Deletes a custom tool.
+- `select_battle_option`: Automatically selects a main battle menu option.
+
 ### Custom Tools & Agents
 - `deterministic_battle_strategist`: A deterministic, non-LLM tool for battle advice.
 - `find_adjacent_traversable_tiles`: Finds traversable tiles next to a target.
