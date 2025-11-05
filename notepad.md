@@ -40,10 +40,6 @@
 - `define_tool`: Creates or updates a custom tool.
 - `delete_tool`: Deletes a custom tool.
 - `select_battle_option`: Selects a main battle menu option.
-- `stun_npc`: Temporarily freezes or unfreezes an NPC.
-- `define_tool`: Creates or updates a custom tool.
-- `delete_tool`: Deletes a custom tool.
-- `select_battle_option`: Selects a main battle menu option.
 
 ### Dark Cave Exploration
 - **Objective:** Fully explore Dark Cave to find an alternative route to Goldenrod City.
