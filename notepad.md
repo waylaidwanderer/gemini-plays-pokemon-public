@@ -6,6 +6,7 @@
 - `notepad_refactor_assistant`: Agent to help refactor the notepad
 - `debugging_assistant`: Agent that analyzes and corrects faulty Python scripts
 - `puzzle_solver_strategist`: Agent that suggests the next hypothesis for a puzzle
+- `exploration_strategist`: Agent that analyzes a list of reachable unseen tiles and suggests the most logical next navigation goal to maximize map discovery.
 
 # Strategic Pivots
 
@@ -398,6 +399,7 @@
 - `notepad_refactor_assistant`: Agent to help refactor the notepad
 - `debugging_assistant`: Agent that analyzes and corrects faulty Python scripts
 - `puzzle_solver_strategist`: Agent that suggests the next hypothesis for a puzzle
+- `exploration_strategist`: Agent that analyzes a list of reachable unseen tiles and suggests the most logical next navigation goal to maximize map discovery.
 
 # Strategic Pivots
 
