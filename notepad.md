@@ -616,12 +616,6 @@
 - **Journey Planner Agent:** Takes a start and end point across multiple maps and suggests a series of intermediate `path_and_execute` calls to break up long journeys.
 - **Exploration Strategist Agent:** Takes the output of `find_reachable_unseen_tiles` and suggests the most logical next navigation goal to maximize map discovery.
 
-# Appendix: Completed Investigations
-
-- **Violet Mart Path Puzzle:** Path to the clerk is blocked by a Cooltrainer M. Deprioritized.
-- **Sprout Tower 2F Pillar Puzzle:** Central pillar is unmovable after initial interaction with a Sage. Deprioritized until other Sages are defeated or new triggers are discovered.
-- **Ruins of Alph 'ESCAPE' Puzzle:** Unsolvable at present. Requires unobtained items or abilities (e.g., Flash, Itemfinder, Escape Rope, Strength).
-
 # Core Failure Patterns & Lessons Learned
 
 ## 1. State & Positional Hallucination
