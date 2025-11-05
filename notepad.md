@@ -168,6 +168,9 @@
 # High-Priority Agent & Tool Ideas
 - **Tool Debugger Orchestrator Agent (High Priority):** Automates the multi-step process of identifying a tool bug, calling the `debugging_assistant`, applying the fix with `define_tool`, and re-running the failing test case to verify the fix.
 
+# High-Priority Agent & Tool Ideas
+- **Notepad Hygiene Agent/Tool:** An agent or tool to automate the process of cleaning up the notepad by incrementally deleting large sections to bypass the size threshold.
+
 # Appendix: Detailed Failure & Reflection Log
 
 ### Specific Failure Incidents & Process Violations
@@ -483,6 +486,9 @@
   3. Use Flash if necessary and available to illuminate dark areas.
   4. Document any branching paths, obstacles (like water or boulders), and potential HM requirements.
   5. If a path leads to a new exit, mark the location and explore the new area.
+
+# High-Priority Agent & Tool Ideas
+- **Notepad Hygiene Agent/Tool:** An agent or tool to automate the process of cleaning up the notepad by incrementally deleting large sections to bypass the size threshold.
 
 # Appendix: Detailed Failure & Reflection Log
 
