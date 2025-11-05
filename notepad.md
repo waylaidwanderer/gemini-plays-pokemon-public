@@ -236,4 +236,8 @@
   - **Discovery (Turn 20713):** The FARFETCH'D appeared at (29, 22) after running from a wild battle. This appears to be a key puzzle mechanic.
   - **Current State:** The FARFETCH'D is at (29, 22), facing right.
   - **Hypothesis 7:** Interacting with the FARFETCH'D from the south at (29, 23) will move it in the correct direction.
-    - **Test Plan:** Move to (29, 23) and interact with the FARFETCH'D.
+      - **Test:** Moved to (29, 23) and pressed 'A'.
+  - **Result:** The Farfetch'd made a sound and then disappeared off-screen to the west.
+  - **Conclusion:** Hypothesis 7 is confirmed. This was a successful step.
+- **Hypothesis 8:** The Farfetch'd has moved to a new pre-determined location further west in the maze.
+  - **Test Plan:** Explore the western section of the maze to find its new location.
