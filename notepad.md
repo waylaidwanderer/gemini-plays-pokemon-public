@@ -419,8 +419,6 @@
 - **Journey Planner Agent:** Takes a start and end point across multiple maps and suggests a series of intermediate `path_and_execute` calls to break up long journeys.
 - **Exploration Strategist Agent:** Takes the output of `find_reachable_unseen_tiles` and suggests the most logical next navigation goal to maximize map discovery.
 
-# --- REFACTORED NOTEPAD (TO BE FINALIZED) ---
-
 # Strategic Pivots
 
 # Game Knowledge
