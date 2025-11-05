@@ -214,17 +214,6 @@
   - **Alternative Hypothesis:** There may be hidden areas accessible only with HMs like Surf or Flash.
   - **Test to Disprove:** Return to the cave after acquiring new HMs to check all water and dark areas.
 
-# Reflection Log (Turn 16633)
-
-## Alternative Hypotheses (New Section)
-- **Union Cave B1F Southern Path:** The path south is blocked by a one-way ledge. 
-  - **Alternative Hypothesis:** There is a hidden switch or event trigger in the accessible part of B1F that deactivates or changes the `FLOOR_UP_WALL` tiles, making the path passable.
-  - **Test to Disprove:** Fully explore all reachable areas of Union Cave B1F. If no such trigger is found, the 'dead end' conclusion is strengthened.
-- **Dark Cave Location:** I assume Dark Cave is accessible from within Union Cave.
-  - **Alternative Hypothesis:** Dark Cave is a completely separate location on the world map that I have not yet discovered.
-  - **Test to Disprove:** Fully explore all paths within Union Cave. If no entrance to Dark Cave is found, the next step is to search other routes on the world map.
-- **Path to Goldenrod City:** I assume HM Cut is required to clear the 'Odd Tree' on Route 36, which is a big assumption.
-
 # Reflection Log (Turn 16736)
 
 ## Tool Usage Protocols (Update)
