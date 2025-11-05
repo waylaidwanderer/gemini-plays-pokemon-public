@@ -247,3 +247,8 @@
   - **Test:** Warped to IlexForestAzaleaGate and immediately warped back in. Navigated to (10, 34) to observe (10, 35).
   - **Result:** The FARFETCH'D was not at (10, 35).
   - **Conclusion:** Hypothesis 3 is disproven. The puzzle state is persistent and does not reset on map change.
+
+- **Hypothesis 4:** Stepping on the twig pile at (16, 28) will cause the FARFETCH'D to appear.
+  - **Test:** Stepped on (16, 28), then moved to (22, 32) to observe (22, 31).
+  - **Result:** No FARFETCH'D appeared.
+  - **Conclusion:** Hypothesis 4 is disproven.
