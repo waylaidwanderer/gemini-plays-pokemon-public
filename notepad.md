@@ -228,3 +228,7 @@
   - **Test:** Stood at (14, 27), faced the twig pile at (15, 27), and pressed 'A'. Also tried standing on the pile at (15, 27) and pressing 'A'.
   - **Result:** Failed. No interaction occurred.
 - **Conclusion:** The entire 'twig pile' strategy, involving both stepping on and interacting with piles, has failed across multiple tests. This approach is now considered a dead end.
+- **Failed Hypothesis 6:** Simply entering the main puzzle area near (15, 25) will trigger the Farfetch'd to appear.
+  - **Test:** Navigated to (15, 26).
+  - **Result:** Failed. No object appeared.
+- **Conclusion:** The entire strategy of trying to force the Farfetch'd to appear near the puzzle start is a dead end. New hypothesis: The Farfetch'd is already somewhere in the forest and must be found via exploration.
