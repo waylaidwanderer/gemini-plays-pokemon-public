@@ -387,9 +387,8 @@
 - **Discovery:** The western half of this floor is completely inaccessible from the southern ladder entrance at (7, 19). The path is blocked by walls and a one-way `FLOOR_UP_WALL` tile at (7, 24) that prevents southward travel.
 - **Conclusion:** Confirmed dead end. Pathfinding tool correctly reported no path exists.
 
-# Reflection-Based Agent & Tool Ideas (Turn 19594)
+# High-Priority Agent & Tool Ideas
 - **Journey Planner Agent:** Takes a start and end point across multiple maps and suggests a series of intermediate `path_and_execute` calls to break up long journeys.
-- **Exploration Strategist Agent:** Takes the output of `find_reachable_unseen_tiles` and suggests the most logical next navigation goal to maximize map discovery.
 
 # My Custom Tools & Agents
 - `deterministic_battle_strategist`: A deterministic, non-LLM tool for battle advice
