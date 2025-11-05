@@ -74,21 +74,7 @@
 
 ## VI. Puzzle Logs
 
-42. **Test:** Stepped on trigger tile (25, 24) after a 'disappear from East interaction' sequence.
-    43. **Failure:** Systematic exploration of path from (28, 32) to (29, 22) did not cause reappearance.
-    44. **Failure:** Systematic exploration of path from (29, 22) to (26, 24) did not cause reappearance.
-    45. **Discovery:** The path from (26, 24) to (20, 24) contains a trigger. Stepping on a tile along this path after a 'disappear from East interaction' sequence caused the Farfetch'd to reappear at (15, 25).
-46. **Success (State-Dependent Outcome):** Interacting from the North at (15, 24) while it was at (15, 25) after a 'disappear from East -> trigger reset' sequence caused it to move to (15, 29).
-    47. **Discovery (Disappearance):** Interacting from the North at (15, 28) while it was at (15, 29) resulted in a 'Kwaa!' and then the Farfetch'd disappeared.
-    41. **Failure:** Stepped on tile (14, 28) after a 'disappear from North interaction' sequence. Farfetch'd did not reappear.
-    42. **Failure:** Stepped on tile (14, 27) after a 'disappear from North interaction' sequence. Farfetch'd did not reappear.
-    43. **Failure:** Stepped on tile (14, 26) after a 'disappear from North interaction' sequence. Farfetch'd did not reappear.
-    44. **Failure:** Stepped on tile (15, 26) after a 'disappear from North interaction' sequence. Farfetch'd did not reappear.
-*   **Reflection Log (Turn 22683):** The overwatch critique highlighted a key failure in my process. I repeatedly deferred acting on my agent's strategic advice to get stuck in a multi-turn loop attempting large-scale notepad cleanups. This violates the 'immediate action' principle. I must prioritize acting on strategic plans over non-critical, multi-turn maintenance.
-    45. **Failure:** Stepped on tile (25, 24) after a 'disappear from North interaction' sequence (Kwaa!). Farfetch'd did not reappear.
-    24. **Failure:** Walking the path from (28, 32) to (26, 24) after a 'Kwaa!' disappearance sequence did not cause the Farfetch'd to reappear.
-    25. **Failure:** Walking the path from (26, 24) to (20, 24) after a 'Kwaa!' disappearance sequence did not cause the Farfetch'd to reappear.
-    26. **Failure:** Stepped on hard reset tile (15, 27) after a 'Kwaa!' disappearance sequence. Farfetch'd did not reappear.
+*   **Summary of Early Puzzle Failures:** Numerous tests involving stepping on various tiles and walking different paths after the Farfetch'd disappeared failed to produce consistent results. These early attempts were unsystematic and have been superseded by more recent, verified discoveries.
     26. **Discovery:** After a 'Kwaa!' disappearance, walking the path from (15, 27) to (9, 34) caused the Farfetch'd to reappear at (10, 35).
         27. **Discovery (State-Dependent Outcome):** Interacting from the North at (10, 34) while it was at (10, 35) after the 'Kwaa! -> path reset' sequence caused it to move to (15, 29).
     28. **Success (State-Dependent Outcome):** Interacting from the East at (16, 29) while it was at (15, 29) caused it to move to (15, 25).
