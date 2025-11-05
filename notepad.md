@@ -192,14 +192,6 @@
 - **CRITICAL HALLUCINATION (Turn 11872):** Believed a warp to Union Cave existed at (11, 9) on the AzaleaTown map (8_7). The system confirmed no warp exists there. The actual warp to Union Cave is on Route 33 (8_6) at (11, 9). This was a major failure in location awareness.
 - **CRITICAL HALLUCINATION (Turn 11928):** Believed a warp to Dark Cave existed at (34, 5) on the VioletCity map (10_5). The system confirmed no warp exists there. This was a major failure in location awareness.
 
-### Reflection-Based Updates (Turn 12319)
-- **Process Violation Logged:** Deferred placing a map marker in Azalea Town by one turn (Turn 12317), a violation of the 'IMMEDIATE ACTION' principle.
-- **Alternative Hypotheses Logged:**
-  - **HM Cut Source:** It might be obtained from an NPC or location other than the FARFETCH'D puzzle.
-  - **'Odd Tree' Solution:** The tree might be passable via a specific Pokémon move (like Headbutt), at a certain time of day, or after a different story flag is met, not just with a key item.
-  - **Path to Goldenrod:** An alternative route might exist through Ilex Forest or elsewhere.
-- **CRITICAL HALLUCINATION (Turns 12372-12374):** Believed I had a tool named `list_reachable_unseen_tiles` and that `path_to_closest_unseen_tile` did not exist. This was a state-tracking failure that led to multiple failed tool management calls.
-
 ### Reflection-Based Updates (Turn 12527)
 - **New Tile Mechanic Documented:**
   - **VOID**: Impassable. (Verified by attempting to walk into it from (9, 4) on Route31VioletGate on Turn 19292).
