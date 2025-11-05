@@ -196,9 +196,6 @@
 - **New Tile Mechanic Documented:**
   - **VOID**: Impassable. (Verified by attempting to walk into it from (9, 4) on Route31VioletGate on Turn 19292).
 
-### Process Violations (System Critiques)
-- **CRITICAL PROCESS FAILURE (Turn 12570):** The system correctly identified two major process violations. 1) I failed to immediately address the faulty `farfetchd_puzzle_solver` agent after discovering it provided incorrect advice on Turn 12443. 2) I completely ignored my own map markers at (15, 24) and (15, 26) that warned of a movement loop, wasting over 10 turns stuck in that exact loop while the bird wasn't even at its starting position. This is a severe failure of discipline. My new plan is to stop interacting with the bird's empty starting position and instead path to a known trigger point at (29, 33) to make it reappear.
-
 ## Alternative Hypotheses (Reflection Turn 12943)
 
 ### Path to Goldenrod City
