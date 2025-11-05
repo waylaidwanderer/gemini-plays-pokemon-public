@@ -548,6 +548,7 @@
 - **Hypotheses to Test:**
     - **New Hypothesis:** The solution involves *pushing* the Farfetch'd from behind by walking into it, not interacting with 'A'.
 - **Execution Errors & Failed Hypotheses:**
+  - Interacting with the Farfetch'd at (15, 29) from above (15, 28) makes it say 'Kwaa!' and then despawn, resetting the puzzle. (Verified Turn 20257)
   - Failed Hypothesis: Interacting with the Farfetch'd at (22, 31) from below at (22, 32) will move it west. **Result:** The bird turned to face me, then disappeared after a second interaction, resetting the puzzle. (Verified Turn 19524)
   - Making the Farfetch'd disappear from the eastern part of the map (after moving it to (28, 31)) is a puzzle reset, not a solution. The apprentice's dialogue does not change.
   - Interacting from the side at (16, 29) when the bird is at (15, 29) causes a puzzle reset, regardless of its facing direction. The bird returns to its starting position at (15, 25).
