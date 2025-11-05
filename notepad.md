@@ -385,25 +385,6 @@
 # High-Priority Agent & Tool Ideas
 - **Journey Planner Agent:** Takes a start and end point across multiple maps and suggests a series of intermediate `path_and_execute` calls to break up long journeys.
 
-## Pokémon & Battle Info
-### Battle Mechanics
-*Ignis learned EMBER at Lv12.*
-*Ignis grew to Lv21 and learned QUICK ATTACK, replacing SMOKESCREEN.*
-*WARNING: Ignis has 0 PP left for FLAME WHEEL. Must conserve EMBER PP.*
-*Type Effectiveness Chart*:
-- Ground is super-effective against Fire. (Verified in battle vs Falkner's Pidgey's MUD-SLAP).
-- Normal is not very effective against Rock/Ground. (Verified in battle vs Hiker Daniel's Onix).
-- Psychic is not very effective against Bug. (Verified vs Caterpie)
-- Fire is super-effective against Bug/Grass. (Verified vs Paras)
-- Bug is super-effective against Psychic. (Verified in battle vs Zubat's Leech Life on Glyph).
-
-*Pokémon Types Discovered*:
-- SANDSHREW: Ground
-- WEEDLE: Bug/Poison
-
-### PC Storage
-- Currently empty.
-
 ## TMs & HMs
 ### TM31 MUD-SLAP
 - **Description:** Reduces the foe's accuracy.
