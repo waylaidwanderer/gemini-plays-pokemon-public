@@ -45,17 +45,6 @@
 - `delete_tool`: Deletes a custom tool.
 - `select_battle_option`: Selects a main battle menu option.
 
-# Investigations
-
-## Active Investigations
-
-### Ilex Forest FARFETCH'D Puzzle
-- **Objective:** Guide two FARFETCH'D back to the apprentice at (7, 28).
-
-#### Second Bird Investigation
-- **Pattern of Failure:** The strategy of 'stepping on a twig pile' to trigger the FARFETCH'D has failed across four separate hypotheses (7, 9, 10, 11). This entire strategy is now considered a dead end.
-- **Hypothesis 12:** Interacting with the Ilex Forest Shrine at (8, 22) will trigger the second FARFETCH'D to reappear. (Status: Blocked by `CUT_TREE` at (8, 25)).
-
 ### Dark Cave Exploration
 - **Objective:** Fully explore Dark Cave to find an alternative route to Goldenrod City.
 - **Background:** The 'Odd Tree' on Route 36 is an impassable story-block. My current strategic pivot is to fully explore Dark Cave, as Hiker Anthony's repeated calls suggest its importance.
