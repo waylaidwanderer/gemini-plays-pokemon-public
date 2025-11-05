@@ -27,37 +27,6 @@
 - **WATER**: Impassable.
 - **WINDOW**: Impassable.
 
-## Available Tools & Agents
-
-### Built-in Tools
-- `notepad_edit`: Edits the persistent notepad.
-- `run_code`: Executes a single-use Python script.
-- `define_agent`: Creates or updates a custom agent.
-- `delete_agent`: Deletes a custom agent.
-- `define_map_marker`: Creates or updates a map marker.
-- `delete_map_marker`: Deletes a map marker.
-- `stun_npc`: Temporarily freezes or unfreezes an NPC.
-- `define_tool`: Creates or updates a custom tool.
-- `delete_tool`: Deletes a custom tool.
-- `select_battle_option`: Selects a main battle menu option.
-
-### Custom Tools & Agents
-- `deterministic_battle_strategist`: Recommends battle actions based on a hardcoded type chart.
-- `find_reachable_unseen_tiles`: Finds unseen tiles that are reachable from the player's current position.
-- `path_and_execute`: Generates and returns a path to a target coordinate.
-- `debugging_assistant`: Analyzes and corrects faulty Python scripts.
-
-### Dark Cave Exploration
-- **Objective:** Fully explore Dark Cave to find an alternative route to Goldenrod City.
-- **Background:** The 'Odd Tree' on Route 36 is an impassable story-block. My current strategic pivot is to fully explore Dark Cave, as Hiker Anthony's repeated calls suggest its importance.
-- **Hypothesis:** Dark Cave contains a path that bypasses the 'Odd Tree' and leads towards Goldenrod City.
-- **Exploration Plan:**
-  1. Enter Dark Cave from the most promising entrance (likely through Union Cave, as the Route 31 entrance was a dead end).
-  2. Systematically explore every path, prioritizing unseen tiles.
-  3. Use Flash if necessary and available to illuminate dark areas.
-  4. Document any branching paths, obstacles (like water or boulders), and potential HM requirements.
-  5. If a path leads to a new exit, mark the location and explore the new area.
-
 # Appendix: Detailed Failure & Reflection Log
 
 ### Specific Failure Incidents & Process Violations
@@ -73,7 +42,7 @@
 - **CRITICAL REASONING FAILURE (Turns 11717-11720):** After multiple failed attempts to fix my pathfinder's one-way ledge logic, I finally implemented aversion that seemed simpler and more correct. However, it was a fundamentally backward and based on a complete misunderstanding of the mechanic. The game immediately blocked my movement, proving the new code was broken. My logic from turn 11694 was actually correct, and my 'fix' was a regression that wasted several turns. This is a major failure in debugging and logical reasoning.
 
 # Reflection Log (Turn 11852)
-- **CRITICAL HALLUCINATION (Turn 11872):** Believed a warp to Union Cave existed at (11, 9) on the AzaleaTown map (8_7). The system confirmed no warp exists there. The actual warp to Union Cave is on Route 33 (8_6) at (11, 9). This was a major failure in location awareness.
+- **CRITICAL HALLUCination (Turn 11872):** Believed a warp to Union Cave existed at (11, 9) on the AzaleaTown map (8_7). The system confirmed no warp exists there. The actual warp to Union Cave is on Route 33 (8_6) at (11, 9). This was a major failure in location awareness.
 - **CRITICAL HALLUCINATION (Turn 11928):** Believed a warp to Dark Cave existed at (34, 5) on the VioletCity map (10_5). The system confirmed no warp exists there. This was a major failure in location awareness.
 
 ### Reflection-Based Updates (Turn 20113)
