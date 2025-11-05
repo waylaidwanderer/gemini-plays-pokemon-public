@@ -189,7 +189,11 @@
   - **Successful Step:** Interacted with FARFETCH'D at (15, 25) from below (15, 26), causing it to move to (20, 24).
   - **Successful Step (Part 2):** Interacted with FARFETCH'D at (20, 24) from above (20, 23), causing it to move south and off-screen.
   - **Current State:** The FARFETCH'D is now in an unknown location, presumably in the southern part of this maze.
-  - **Next Step:** Explore the southern area to find the FARFETCH'D's new position.
+  - **Hypothesis 3:** Walking around the southern clearing will trigger the FARFETCH'D's appearance.
+    - **Test:** Walked a loop from (28, 29) -> (29, 29) -> (29, 30) -> (28, 30) -> (28, 29).
+    - **Result:** No event triggered.
+    - **Conclusion:** Hypothesis 3 is disproven. Simple movement in the southern clearing is not the solution.
+  - **Next Step:** Return to the previously identified functional twig pile at (16, 28) and step on it, as this is a known puzzle interaction mechanic.
 
 ### Dark Cave Exploration
 - **Objective:** Fully explore Dark Cave to find an alternative route to Goldenrod City.
