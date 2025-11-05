@@ -238,6 +238,10 @@
   - **Hypothesis 7:** Interacting with the FARFETCH'D from the south at (29, 23) will move it in the correct direction.
       - **Test:** Moved to (29, 23) and pressed 'A'.
   - **Result:** The Farfetch'd made a sound and then disappeared off-screen to the west.
-  - **Conclusion:** Hypothesis 7 is confirmed. This was a successful step.
-- **Hypothesis 8:** The Farfetch'd has moved to a new pre-determined location further west in the maze.
-  - **Test Plan:** Explore the western section of the maze to find its new location.
+  - **Result:** The Farfetch'd made a sound and then reset to (20, 24).
+  - **Conclusion:** Hypothesis 7 is disproven. Interacting from the south is incorrect.
+- **Hypothesis 8 (Revised):** The puzzle requires a specific sequence. After the Farfetch'd appears at (29, 22), interacting with it from the LEFT at (28, 22) is the correct next step.
+  - **Test Plan:** 
+    1. Interact with the Farfetch'd at (20, 24) from above (20, 23) to send it south.
+    2. Enter a wild battle in the southern clearing and run away to make it appear at (29, 22).
+    3. Move to (28, 22) and interact with it from the left.
