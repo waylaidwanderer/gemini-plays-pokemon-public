@@ -128,11 +128,11 @@
 - `deterministic_battle_strategist`: (Tool) A deterministic, non-LLM tool for battle advice.
 - `find_adjacent_traversable_tiles`: (Tool) Finds traversable tiles next to a target.
 - `find_reachable_unseen_tiles`: (Tool) Finds unseen tiles that are confirmed to be reachable.
-- `notepad_refactor_assistant`: (Agent) Helps refactor the notepad.
 - `path_and_execute`: (Tool) Generates and executes a path to a target coordinate.
 - `puzzle_solver_strategist`: (Agent) Suggests the next hypothesis for a puzzle.
 
 ## Untested Mechanics & Hypotheses
+- Verify which Pokémon in the current party can learn HM01 Cut.
 - Test the damage of EMBER vs. QUICK ATTACK on a Water-type.
 - Test `HEADBUTT_TREE`s by interacting with them with different Pokémon in the lead to see if any move can be used.
 - Rigorously test all one-way tiles (e.g., LEDGE_HOP_DOWN/LEFT/RIGHT, FLOOR_UP_WALL on Union Cave 1F) by attempting to move in all four directions from them to definitively confirm their movement restrictions.
@@ -147,37 +147,12 @@
 
 ## Active Investigations
 
-### Route 36 'Odd Tree' Puzzle
-- **Objective:** Get past the tree blocking the path at (35, 9).
-- **Observations:**
-  - The tree is a unique 'WEIRD_TREE' sprite that wiggles.
-  - Lass Dana's dialogue at (49, 8) confirms this tree blocks the way to Goldenrod City.
-  - A Fisher at (44, 9) mentioned he couldn't break it with a punch.
-  - A Youngster in Violet City mentioned a 'wiggly tree' that 'squirms and dances'.
+### Ilex Forest FARFETCH'D Puzzle
+- **Objective:** Guide two FARFETCH'D back to the apprentice at (7, 28).
 
-#### Solution Discovery Log
-- **Hypothesis 1:** Interacting with the tree by pressing 'A' will trigger an event.
-  - **Test 1:** Stood at (36, 9), faced the tree, and pressed 'A' with Ignis (Quilava) in the lead.
-  - **Result:** No text appeared, no event triggered. Interaction failed.
-  - **Conclusion:** A simple 'A' press with Quilava as the lead Pokémon is not the solution.
-
-- **Hypothesis 2:** The lead Pokémon affects the interaction with the tree.
-  - **Test 1 (Ignis):** Stood at (36, 9), faced the tree, and pressed 'A'. Result: No text appeared, no event triggered. Interaction failed.
-  - **Test 2 (Aether):** Stood at (36, 9), faced the tree, and pressed 'A'. Result: No text appeared, no event triggered. Interaction failed.
-  - **Test 3 (O):** Stood at (36, 9), faced the tree, and pressed 'A'. Result: No text appeared, no event triggered. Interaction failed.
-  - **Test 4 (Glyph):** Stood at (36, 9), faced the tree, and pressed 'A'. Result: No text appeared, no event triggered. Interaction failed.
-  - **Conclusion:** Hypothesis 2 is disproven. The lead Pokémon has no effect on a simple 'A' press interaction with the tree.
-
-- Re-verification (Turn 10826): Stood at (36, 9), faced the tree at (35, 9), and pressed 'A'.
-  - **Result:** No text appeared, no event triggered. This re-confirms that a simple 'A' press is not the solution. I have exhausted all simple interaction hypotheses.
-  - **Conclusion:** The 'Odd Tree' is almost certainly a story-based roadblock that requires an item or event from elsewhere. I am pivoting to explore the rest of Route 36.
-
-#### Untested Assumptions
-- The tree is a story-based roadblock that will be removed after an event elsewhere, not a solvable puzzle at this time.
-- The solution requires a specific key item from my pack (e.g., Squirtbottle).
-- The interaction is dependent on the time of day.
-- The solution involves using the Pokégear radio near the tree.
-- The tree must be- **Hypothesis 12:** Interacting with the Ilex Forest Shrine at (8, 22) will trigger the second FARFETCH'D to reappear. (Status: Blocked by `CUT_TREE` at (8, 25)).
+#### Second Bird Investigation
+- **Pattern of Failure:** The strategy of 'stepping on a twig pile' to trigger the FARFETCH'D has failed across four separate hypotheses (7, 9, 10, 11). This entire strategy is now considered a dead end.
+- **Hypothesis 12:** Interacting with the Ilex Forest Shrine at (8, 22) will trigger the second FARFETCH'D to reappear. (Status: Blocked by `CUT_TREE` at (8, 25)).
 
 ### Dark Cave Exploration
 - **Objective:** Fully explore Dark Cave to find an alternative route to Goldenrod City.
