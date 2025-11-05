@@ -227,4 +227,8 @@
   - **Conclusion:** Hypothesis 1 is impossible and disproven. Interaction from (10, 36) is not the solution.
 
 - **Hypothesis 2:** The bird needs to be herded west towards the apprentice. Interacting from the right (east) at (11, 35) might achieve this.
-  - **Test:** Pathfind to (11, 35) and interact with the bird at (10, 35).
+  - **Test:** Pathed to (11, 35) and pressed 'Left' to face the bird.
+  - **Result:** The player character was unexpectedly moved onto the tile (10, 35) and the FARFETCH'D disappeared. The interaction failed to herd the bird.
+  - **Conclusion:** Hypothesis 2 is disproven. Interacting from the east is not the solution and causes the bird to disappear.
+
+- **Hypothesis 3:** Leaving and re-entering the Ilex Forest map will reset the puzzle, causing the FARFETCH'D to reappear at its starting location (10, 35).
