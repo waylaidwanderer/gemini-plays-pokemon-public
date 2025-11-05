@@ -27,20 +27,6 @@
 - **WATER**: Impassable.
 - **WINDOW**: Impassable.
 
-## TMs & HMs
-### TM31 MUD-SLAP
-- **Description:** Reduces the foe's accuracy.
-- **Compatible Party Pokémon:** Ignis (Quilava), Aether (Pidgey), O (Togepi).
-- **Incompatible Party Pokémon:** Glyph (Unown).
-### HM05 FLASH
-- **Description:** Blinds the foe to reduce accuracy. Lights up dark caves.
-- **Compatible Party Pokémon:** O (Togepi).
-- **Incompatible Party Pokémon:** Ignis (Quilava), Glyph (Unown), Aether (Pidgey).
-### HM01 Cut
-- **Description:** A move that can cut down small trees.
-- **Compatible Party Pokémon:** [Untested]
-- **Incompatible Party Pokémon:** [Untested]
-
 ## Available Tools & Agents
 
 ### Built-in Tools
