@@ -196,15 +196,6 @@
 - **New Tile Mechanic Documented:**
   - **VOID**: Impassable. (Verified by attempting to walk into it from (9, 4) on Route31VioletGate on Turn 19292).
 
-## Alternative Hypotheses (Reflection Turn 12943)
-
-### Path to Goldenrod City
-- **Alternative Hypothesis:** The path is not blocked by the 'Odd Tree' on Route 36. An alternative route may exist through Ilex Forest or Dark Cave.
-- **Test to Disprove:** Fully explore all paths in Ilex Forest and Dark Cave. Finding a new path leading north would disprove the assumption that the 'Odd Tree' is the only way.
-
-### Turn Execution Rules
-- Tool calls (`tools_to_call`) and path execution (`buttons_to_press: ["path"]`) are mutually exclusive. If both are present in a single turn, the tool call is prioritized and the path is not executed.
-
 ## Untested Mechanics & Hypotheses (Update Turn 13775)
 - Rigorously test all one-way tiles (e.g., LEDGE_HOP_DOWN/LEFT/RIGHT, FLOOR_UP_WALL on Union Cave 1F) by attempting to move in all four directions from them to definitively confirm their movement restrictions.
 
