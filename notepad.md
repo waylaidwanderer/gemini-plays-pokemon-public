@@ -195,3 +195,16 @@
 
 ### Reflection-Based Updates (Turn 20113)
 - **CRITICAL PROCESS FAILURE (Turns 20059-20071):** I have been stuck in a multi-turn debugging loop with the `path_and_execute` tool due to a critical failure to trust my `debugging_assistant` agent. The agent correctly identified the necessary fix (a hierarchical `if/elif` structure) on turn 20056, but I incorrectly reverted this fix on turn 20059 based on a flawed manual analysis. This mistrust, as highlighted by the system critique on turn 20071, was the root cause of the prolonged failure and is a major process violation.
+
+# Reflection-Based Updates (Turn 21308)
+
+## New Untested Hypotheses
+- **Assumption to Test (Kurt/Mart Event):** The event blocking the Poké Mart is purely time-gated.
+  - **Alternative Hypothesis:** The trigger is another story event, not time. After exploring Dark Cave, I will re-interview all Azalea Town NPCs to check for new dialogue.
+- **Assumption to Test (Dark Cave Path):** Dark Cave is the main path forward.
+  - **Alternative Hypothesis:** Dark Cave is a side area. If it's a dead end, I will return to Ilex Forest or Route 36 to re-evaluate.
+- **Assumption to Test (Ledge Mechanics):** `LEDGE_HOP_DOWN` tiles are one-way.
+  - **Test Plan:** At the next opportunity, attempt to move 'Up' onto a `LEDGE_HOP_DOWN` tile to confirm it's impassable from below.
+
+## Agent/Tool Ideas
+- Consider creating a 'Quest Progression' agent/tool. It would analyze NPC dialogue hints and current obstacles to suggest the next logical location to investigate.
