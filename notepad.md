@@ -239,3 +239,5 @@
 - `notepad_refactor_assistant`: Agent to help refactor the notepad
 - `debugging_assistant`: Agent that analyzes and corrects faulty Python scripts
 - `puzzle_solver_strategist`: Agent that suggests the next hypothesis for a puzzle
+### HM Usage Mechanics (CRITICAL DISCOVERY)
+- HMs are not taught to Pokémon from the bag or menu like TMs. Instead, to use an HM move outside of battle, you must interact directly with the corresponding overworld obstacle (e.g., press 'A' on a CUT_TREE). The game will then prompt you to use the move if a compatible Pokémon is in your party. (Verified with HM01 Cut in Ilex Forest).
