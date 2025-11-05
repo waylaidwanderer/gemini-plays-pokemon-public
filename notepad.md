@@ -227,4 +227,7 @@
 - **Failed Hypothesis 4:** Stepping on the twig pile at (15, 27) will make the first FARFETCH'D appear.
   - **Test:** Walked onto the tile (15, 27).
   - **Result:** Failed. No object appeared.
-- **Hypothesis 5:** Interacting with a twig pile by facing it and pressing 'A' will trigger the Farfetch'd. (Status: Untested)
+- **Failed Hypothesis 5:** Interacting with a twig pile by facing it and pressing 'A' will trigger the Farfetch'd.
+  - **Test:** Stood at (14, 27), faced the twig pile at (15, 27), and pressed 'A'. Also tried standing on the pile at (15, 27) and pressing 'A'.
+  - **Result:** Failed. No interaction occurred.
+- **Conclusion:** The entire 'twig pile' strategy, involving both stepping on and interacting with piles, has failed across multiple tests. This approach is now considered a dead end.
