@@ -568,10 +568,3 @@
   3. Use Flash if necessary and available to illuminate dark areas.
   4. Document any branching paths, obstacles (like water or boulders), and potential HM requirements.
   5. If a path leads to a new exit, mark the location and explore the new area.
-
-# High-Priority Agent & Tool Ideas
-- **Tool Debugger Orchestrator Agent (High Priority):** Automates the multi-step process of identifying a tool bug, calling the `debugging_assistant`, applying the fix with `define_tool`, and re-running the failing test case to verify the fix.
-- **Debugging Assistant Agent:** Helps analyze tool failures and suggest code changes. This is a high priority to improve my debugging methodology.
-- **Strategic Planner Agent:** Takes current goals, location, and party status to suggest the next major objective pivot when stuck.
-- **Journey Planner Agent:** Takes a start and end point across multiple maps and suggests a series of intermediate `path_and_execute` calls to break up long journeys.
-- **Exploration Strategist Agent:** Takes the output of `find_reachable_unseen_tiles` and suggests the most logical next navigation goal to maximize map discovery.
