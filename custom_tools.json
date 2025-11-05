@@ -159,6 +159,16 @@
         "commit_message": "fix: Correct inverted ledge-approach logic. The previous rules for moving *onto* ledges had their direction checks inverted, incorrectly blocking valid approaches from higher ground. This commit flips the direction checks for all three ledge types, resolving the pathfinding failure that prevented exploration to the west.",
         "timestamp": "2025-11-05T00:26:00.473Z",
         "action_counter": 19833
+      },
+      {
+        "commit_message": "fix: Allow southward movement onto FLOOR_UP_WALL on Union Cave B1F. The previous version had a rule that incorrectly blocked southward movement on map 3_38, preventing the tool from finding valid paths. This commit removes '3_38' from the rule's map list, aligning the logic with observed in-game mechanics and fixing the pathfinding failure.",
+        "timestamp": "2025-11-05T00:29:15.310Z",
+        "action_counter": 19838
+      },
+      {
+        "commit_message": "fix: Re-add rule to block southward movement onto FLOOR_UP_WALL on map 3_38. A manual in-game test confirmed this move is illegal. This commit restores the correct logic, bringing the tool in sync with `path_and_execute` and observed game mechanics, resolving a critical data inconsistency.",
+        "timestamp": "2025-11-05T00:36:59.197Z",
+        "action_counter": 19855
       }
     ]
   },
@@ -320,6 +330,16 @@
         "commit_message": "fix: Remove incorrect rule blocking northward movement on Union Cave 1F. The previous version had a specific rule for map `3_37` that incorrectly forbade all upward movement from `FLOOR_UP_WALL` tiles. This was based on a flawed assumption and made the northern part of the cave unreachable. Removing this line allows the pathfinder to correctly explore northward and find valid paths, resolving a critical, persistent pathfinding failure.",
         "timestamp": "2025-11-04T23:54:06.917Z",
         "action_counter": 19798
+      },
+      {
+        "commit_message": "fix: Sync FLOOR_UP_WALL logic with exploration tool. The pathfinder was failing on map 3_38 because it had an outdated rule that incorrectly blocked southward movement onto FLOOR_UP_WALL tiles. This commit removes '3_38' from that rule's map list, bringing the tool's logic in line with the already-corrected `find_reachable_unseen_tiles` tool and resolving the pathfinding failure.",
+        "timestamp": "2025-11-05T00:32:53.937Z",
+        "action_counter": 19848
+      },
+      {
+        "commit_message": "fix: Re-add rule to block southward movement onto FLOOR_UP_WALL on map 3_38. A manual in-game test on turn 19851 confirmed that this move is illegal, contradicting a previous assumption. This commit restores the correct logic to the pathfinder, ensuring it no longer generates invalid paths on this map and resolving a critical, recurring pathing failure.",
+        "timestamp": "2025-11-05T00:34:47.030Z",
+        "action_counter": 19852
       }
     ]
   }
