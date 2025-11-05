@@ -209,3 +209,12 @@
 
 ## Agent/Tool Ideas
 - Consider creating a 'Quest Progression' agent/tool. It would analyze NPC dialogue hints and current obstacles to suggest the next logical location to investigate.
+
+### Ilex Forest FARFETCH'D Puzzle (Attempt 2)
+- **Objective:** Guide two FARFETCH'D back to the apprentice at (7, 28).
+- **Failed Hypothesis 1:** The first Farfetch'd is at its original starting location (10, 35).
+  - **Test:** Went to (10, 35) and attempted to interact.
+  - **Result:** Failed. No object was present.
+- **Failed Hypothesis 2:** Stepping on the twig pile at (16, 28) will make the first FARFETCH'D appear.
+  - **Test:** Walked onto the tile (16, 28).
+  - **Result:** Failed. No object appeared.
