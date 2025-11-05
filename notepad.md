@@ -23,7 +23,7 @@
 - **UNKNOWN**: Traversable.
 - **VOID**: Impassable.
 - **WALL**: Impassable.
-- **WARP_CARPET_DOWN/LEFT/RIGHT**: Traversable warps, likely requiring a directional press on the tile.
+- **WARP_CARPET_DOWN/LEFT/RIGHT**: Traversable warps. Activated by pressing the corresponding direction while standing on the tile.
 - **WATER**: Impassable.
 - **WINDOW**: Impassable.
 
