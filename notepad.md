@@ -116,6 +116,10 @@
 - `define_tool`: Creates or updates a custom tool.
 - `delete_tool`: Deletes a custom tool.
 - `select_battle_option`: Selects a main battle menu option.
+- `stun_npc`: Temporarily freezes or unfreezes an NPC.
+- `define_tool`: Creates or updates a custom tool.
+- `delete_tool`: Deletes a custom tool.
+- `select_battle_option`: Selects a main battle menu option.
 
 ### Custom Tools & Agents
 - `debugging_assistant`: (Agent) Analyzes and corrects faulty Python scripts.
