@@ -535,7 +535,7 @@
 ## Active Investigations
 
 ### Ilex Forest FARFETCH'D Puzzle
-- **Objective:** Get the FARFETCH'D back to the apprentice at (7, 28) to obtain HM01 Cut.
+- **Objective:** Get the FARFETCH'D back to the apprentice at (7, 28) to find out the actual reward and hopefully progress the story.
 - **Key Findings:**
   - **Layout:** The path through the forest is a puzzle involving guiding a FARFETCH'D. The direct path east is blocked by a CUT_TREE that can only be passed after obtaining the HM.
   - **Core Mechanic:** The bird's movement is triggered by player interaction from specific coordinates and facing directions.
