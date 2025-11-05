@@ -110,14 +110,26 @@
 - **Incompatible Party Pokémon:** [Untested]
 
 ## Available Tools & Agents
+### Built-in Tools
+- `notepad_edit`: Edits the persistent notepad.
+- `run_code`: Executes a single-use Python script.
+- `define_agent`: Creates or updates a custom agent.
+- `delete_agent`: Deletes a custom agent.
+- `define_tool`: Creates or updates a custom tool.
+- `delete_tool`: Deletes a custom tool.
+- `define_map_marker`: Creates or updates a map marker.
+- `delete_map_marker`: Deletes a map marker.
+- `stun_npc`: Temporarily freezes or unfreezes an NPC.
+- `select_battle_option`: Selects a main battle menu option.
+
 ### Custom Tools & Agents
-- `deterministic_battle_strategist`: A deterministic, non-LLM tool for battle advice.
-- `find_adjacent_traversable_tiles`: Finds traversable tiles next to a target.
-- `find_reachable_unseen_tiles`: Finds unseen tiles that are confirmed to be reachable.
-- `path_and_execute`: Generates and executes a path to a target coordinate.
-- `notepad_refactor_assistant`: Agent to help refactor the notepad.
-- `debugging_assistant`: Agent that analyzes and corrects faulty Python scripts.
-- `puzzle_solver_strategist`: Agent that suggests the next hypothesis for a puzzle.
+- `debugging_assistant`: (Agent) Analyzes and corrects faulty Python scripts.
+- `deterministic_battle_strategist`: (Tool) A deterministic, non-LLM tool for battle advice.
+- `find_adjacent_traversable_tiles`: (Tool) Finds traversable tiles next to a target.
+- `find_reachable_unseen_tiles`: (Tool) Finds unseen tiles that are confirmed to be reachable.
+- `notepad_refactor_assistant`: (Agent) Helps refactor the notepad.
+- `path_and_execute`: (Tool) Generates and executes a path to a target coordinate.
+- `puzzle_solver_strategist`: (Agent) Suggests the next hypothesis for a puzzle.
 
 ## Untested Mechanics & Hypotheses
 - Test the damage of EMBER vs. QUICK ATTACK on a Water-type.
