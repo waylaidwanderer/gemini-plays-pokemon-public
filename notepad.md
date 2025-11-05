@@ -75,7 +75,7 @@
 - Hiker Anthony called to say there are lots of DUNSPARCE in DARK CAVE.
 
 #### Dark Cave (Violet Entrance)
-- **Discovery:** This entrance leads to a small, isolated section. The path north is blocked by one-way ledges, making further exploration impossible from this side without a specific ability (likely Flash).
+- **Discovery:** This entrance is a confirmed dead end. Even with Flash, the area is a small, isolated section completely blocked off by one-way ledges and walls, making further exploration impossible from this side.
 
 ## Pokémon & Battle Info
 ### Battle Mechanics
@@ -461,7 +461,7 @@
 - Hiker Anthony called to say there are lots of DUNSPARCE in DARK CAVE.
 
 #### Dark Cave (Violet Entrance)
-- **Discovery:** This entrance leads to a small, isolated section. The path north is blocked by one-way ledges, making further exploration impossible from this side without a specific ability (likely Flash).
+- **Discovery:** This entrance is a confirmed dead end. Even with Flash, the area is a small, isolated section completely blocked off by one-way ledges and walls, making further exploration impossible from this side.
 
 #### Union Cave
 - My hypothesis that the cave is split into two disconnected sections has been disproven. My pathfinder successfully generated a complete route from the southern entrance (Route 33) to the northern entrance (Route 32), confirming the cave is one continuous area.
