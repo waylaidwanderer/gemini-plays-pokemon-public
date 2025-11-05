@@ -186,8 +186,8 @@
   - **Failed Step:** Interacted with FARFETCH'D at (15, 29) from below (15, 30), causing it to reset to its starting position at (15, 25).
   - **Failed Step:** Interacted with FARFETCH'D at (20, 24) from the right (21, 24), causing it to reset to its starting position at (15, 25).
   - **Past Failure Note (Turns 13600-13606):** Pursued an invalid test plan based on the hallucination that the bird was at its starting position of (15, 25), misinterpreting an object-linked map marker. This led to wasted turns on a flawed premise.
-- **Current State:** FARFETCH'D is at (15, 25).
-- **Next Hypothesis:** Interact with the FARFETCH'D at (15, 25) from the tile below it at (15, 26).
+- **Successful Step:** Interacted with FARFETCH'D at (15, 25) from below (15, 26), causing it to move to (20, 24).
+- **Current State:** FARFETCH'D is at (20, 24).
 
 ### Dark Cave Exploration
 - **Objective:** Fully explore Dark Cave to find an alternative route to Goldenrod City.
