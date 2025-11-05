@@ -198,12 +198,6 @@
 - **Mistrust of Tools:** A critical failure pattern of assuming a working tool is broken, particularly when it reports a dead end or no path. This has led to extensive, wasted debugging cycles on correct code instead of trusting the tool's output and re-evaluating my strategic assumptions.
 - **Process Violations:** Repeatedly failing to follow established procedures. This includes deferring critical actions like notepad updates (violating the 'IMMEDIATE ACTION' principle), failing to consult map markers before pathing, and not using specialized agents (like the `debugging_assistant`) when appropriate.
 
-# Appendix: Completed Investigations
-
-- **Violet Mart Path Puzzle:** Path to the clerk is blocked by a Cooltrainer M. Deprioritized.
-- **Sprout Tower 2F Pillar Puzzle:** Central pillar is unmovable after initial interaction with a Sage. Deprioritized until other Sages are defeated or new triggers are discovered.
-- **Ruins of Alph 'ESCAPE' Puzzle:** Unsolvable at present. Requires unobtained items or abilities (e.g., Flash, Itemfinder, Escape Rope, Strength).
-
 # Appendix: Detailed Failure & Reflection Log
 
 ### Specific Failure Incidents & Process Violations
