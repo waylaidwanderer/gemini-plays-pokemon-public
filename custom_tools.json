@@ -253,6 +253,21 @@
         "commit_message": "fix: Remove faulty check on `current_node`. The BFS was incorrectly terminating if the node being explored *from* was a warp or other special tile. The check should only apply to the *destination* node. This removes the faulty check, allowing the algorithm to correctly explore from any valid starting position.",
         "timestamp": "2025-11-05T22:50:01.660Z",
         "action_counter": 21782
+      },
+      {
+        "commit_message": "fix: Add check for impassable source tile. The BFS was failing because it never checked if the `current_node` it was exploring *from* was impassable. This commit adds a check to ensure the algorithm only explores from valid, traversable tiles, correcting a fundamental pathfinding error.",
+        "timestamp": "2025-11-05T22:54:43.059Z",
+        "action_counter": 21786
+      },
+      {
+        "commit_message": "revert: Remove check on impassable source tile. The previous fix (turn 21786) added a check that incorrectly halted the BFS if the source tile was impassable. This was a regression. This commit reverts that change, aligning the logic with the working path_and_execute tool, which only validates destination tiles.",
+        "timestamp": "2025-11-05T22:56:04.457Z",
+        "action_counter": 21788
+      },
+      {
+        "commit_message": "fix: Correct ModuleNotFoundError by fixing XML import. The script was using `import xml.et.ElementTree`, which is an invalid module path. This commit changes it to the correct `import xml.etree.ElementTree`, resolving the crash.",
+        "timestamp": "2025-11-05T22:57:05.328Z",
+        "action_counter": 21790
       }
     ]
   },
