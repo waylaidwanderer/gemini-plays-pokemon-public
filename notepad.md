@@ -121,18 +121,6 @@
 - `delete_tool`: Deletes a custom tool.
 - `select_battle_option`: Selects a main battle menu option.
 
-### Custom Tools & Agents
-- `debugging_assistant`: (Agent) Analyzes and corrects faulty Python scripts.
-- `deterministic_battle_strategist`: (Tool) A deterministic, non-LLM tool for battle advice.
-- `find_reachable_unseen_tiles`: (Tool) Finds unseen tiles that are confirmed to be reachable.
-- `path_and_execute`: (Tool) Generates and executes a path to a target coordinate.
-
-## Agent/Tool Ideas
-- Create a 'Move Selector' tool that takes a move name as input and outputs the button presses needed to select it in battle.
-
-## Untested Mechanics & Hypotheses
-- **Assumption to Test (Cut Mechanic):** The ability to use HM01 Cut is dependent on having a compatible Pokémon.
-  - **Alternative Hypothesis:** The ability to use Cut is story-flagged and requires a different trigger, not a specific Pokémon.
   - **Test Plan:** 
     1. Catch a new Pokémon in Ilex Forest (e.g., Paras).
     2. Attempt to use Cut on the tree at (8, 25).
