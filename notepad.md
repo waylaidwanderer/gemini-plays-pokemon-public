@@ -241,7 +241,5 @@
   - **Result:** The Farfetch'd made a sound and then reset to (20, 24).
   - **Conclusion:** Hypothesis 7 is disproven. Interacting from the south is incorrect.
 - **Hypothesis 8 (Revised):** The puzzle requires a specific sequence. After the Farfetch'd appears at (29, 22), interacting with it from the LEFT at (28, 22) is the correct next step.
-  - **Test Plan:** 
-    1. Interact with the Farfetch'd at (20, 24) from above (20, 23) to send it south.
-    2. Enter a wild battle in the southern clearing and run away to make it appear at (29, 22).
-    3. Move to (28, 22) and interact with it from the left.
+  - **Result:** SUCCESS! Interacting from the left caused the Farfetch'd to move off-screen, presumably towards the apprentice.
+  - **Conclusion:** The puzzle is likely solved. The next step is to go to the apprentice at (7, 28) to confirm and receive the reward.
