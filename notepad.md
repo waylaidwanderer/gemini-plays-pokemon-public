@@ -33,7 +33,7 @@
 *   Special Interaction (Interactable):
     *   PC: Interact by standing below it at (X, Y+1), facing up.
     *   COUNTER: Interact with NPCs behind it by standing in front of the counter. (Impassability confirmed Turn 25221). (Impassability confirmed Turn 25022).
-*   Untested: VOID (Appears impassable, needs verification).
+*   Untested: VOID (Appears impassable, needs verification at next opportunity).
 
 ## VI. Story & Quests
 *   **Primary Quest:** Become the Pokémon League Champion.
@@ -80,7 +80,7 @@
 *   **Alternative Hypotheses for Switch Room Puzzle:**
     1.  **Sequence Hypothesis:** The switches must be pressed in a specific, unknown order.
     2.  **Item/Event Hypothesis:** The puzzle requires an item or event completion from elsewhere in Goldenrod City to be solvable.
+    3.  **External Switch Hypothesis:** The switch is not in the 'Switch Room Entrances' map at all, but in the main 'Underground' map or another location entirely.
 
 ## XIII. Reflection & Strategic Pivots
-*   **Void Tile Testing:** The `VOID` tile type is present on some maps but its traversability is undocumented. I must test it at the next available opportunity.
 *   **Exit Strategy:** If all hypotheses for the Goldenrod Underground puzzle fail, I will abandon it, exit the area, and focus on finding the Gym or exploring the rest of the city to prevent getting stuck. (Strategy executed in turn 25435).
