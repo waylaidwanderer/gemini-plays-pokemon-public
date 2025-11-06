@@ -83,3 +83,10 @@
 *   **Crate Switch Hypothesis (In Progress):** My current hypothesis is that one of the crate-like walls is a switch. Initial tests at (4, 23) and (5, 23) failed. I am now proceeding with a systematic test of all accessible crates from left to right, ensuring I stand below and face up as per system guidance.
 *   **Sign Clue Hypothesis (Failed):** Reading the sign at (19, 6) next to the locked door revealed it only says 'NO ENTRY BEYOND THIS POINT'. It is not a clue. Conclusion: The solution is not directly related to this sign.
 *   Untested: VOID (Appears impassable, needs verification).
+
+## XIII. Reflection & Strategic Pivots (Turn 25431)
+*   **Void Tile Testing:** The `VOID` tile type is present on the current map but its traversability is undocumented. I must test it at the next available opportunity.
+*   **Underground Puzzle - Alternative Hypotheses:** My 'Crate Switch Hypothesis' has failed multiple times. If a systematic test of all accessible crate-like floor tiles fails, I will consider the following alternatives:
+    1.  The trigger is not a crate/switch interaction.
+    2.  The puzzle requires an item or event completion from elsewhere in Goldenrod City.
+*   **Exit Strategy:** If all remaining crate-like floor tiles are tested with no result, I will abandon this puzzle for now, exit the Goldenrod Underground, and focus on finding the Gym or exploring the rest of the city. This will prevent me from getting stuck on a potentially optional or time-gated puzzle.
