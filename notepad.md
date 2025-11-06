@@ -27,6 +27,8 @@
 
 # Custom Agents
 - **`quest_progression_advisor`**: Analyzes current location, goals, and known obstacles to suggest the next logical area or NPC to investigate to advance the story.
+- **`puzzle_solver_assistant`**: Analyzes puzzle observations and suggests simple, testable hypotheses to methodically solve complex problems.
+- **`debugging_assistant`**: Analyzes a faulty Python script, a description of the problem, and any error/output, then provides a corrected version of the script.
 
 # Agent/Tool Ideas
 
