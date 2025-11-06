@@ -143,7 +143,7 @@
 (5, 5) - Tested, not a switch
 (8, 5) - Tested, not a switch
 (11, 5) - Tested, not a switch
-(14, 5) - To be tested
+(14, 5) - Tested, not a switch
 (17, 5) - Tested, not a switch
 (1, 6) - Tested, not a switch
 (5, 6) - Tested, not a switch
