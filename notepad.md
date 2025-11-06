@@ -79,3 +79,5 @@
     *   Hypothesis 1: Stepping on the tile at (21, 29) triggers the warp. Result: Failed.
     *   Hypothesis 2: Stepping *down* onto the tile from (21, 28) triggers the warp. Result: Failed.
     *   Conclusion: Simple movement does not seem to activate these warps. Activation is likely tied to an external trigger, such as a switch.
+*   **Hidden Item Trigger Hypothesis (Failed):** Interacting with hidden items (Antidote at (17, 8), Parlyz Heal at (6, 13)) from adjacent tiles did not trigger any event. This hypothesis is invalid.
+*   **Crate Switch Hypothesis (In Progress):** My current hypothesis is that one of the crate-like walls is a switch. Initial tests at (4, 23) and (5, 23) failed. I am now proceeding with a systematic test of all accessible crates from left to right, ensuring I stand below and face up as per system guidance.
