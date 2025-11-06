@@ -24,7 +24,7 @@
 *   `path_finder` Critical Failure (Turn 24800): The tool is fundamentally broken. It generated a path through an impassable HEADBUTT_TREE at (4, 6). The tool was untrustworthy and will not be used until a complete rewrite or exhaustive debugging can be performed. Reverting to manual path planning. (Note: This was later found to be a coordinate system bug, fixed in Turn 24764).
 
 ## IV. Reflection & Critique Log
-*   Reflection Log (Turn 21955): My biggest failure was not immediately verifying the trigger for the HM01 Cut reward after solving the first Farfetch'd puzzle. I incorrectly assumed the puzzle was the final step, but the charcoal maker's dialogue confirmed the apprentice is still 'lost'. This led me to discover the second Farfetch'd puzzle.
+
 *   Overwatch Critique Reflection (Turn 22059): My debugging process for a pathfinding tool was inefficient. I failed to propagate a logic fix from `path_finder`, causing repeated failures. I also failed to immediately mark the second Farfetch'd's location, violating the 'immediate update' rule. I must be more disciplined.
 *   Reflection Log (Turn 22162): My debugging of a pathfinding tool was inefficient. I repeatedly submitted identical, non-functional code. My new process is to use `run_code` for isolated testing first. I also documented alternative hypotheses for the HM01 Cut quest, including time-based triggers or unmarked trigger tiles.
 *   Overwatch Critique Reflection (Turn 22262): I was over-reliant on `battle_strategist` for trivial wild encounters and made repeated input errors in battle menus. I need to be more efficient and decisive in simple situations and more careful with my inputs.
