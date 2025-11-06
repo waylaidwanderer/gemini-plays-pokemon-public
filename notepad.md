@@ -146,3 +146,19 @@
 ## Agent/Tool Ideas
 - **Backtrack Tool:** A tool that can automatically generate a path plan to reverse the last N unique coordinates visited. This would be useful for escaping dead ends or complex areas without manual pathing.
 - **Quest Log Parser:** An agent that takes a history of NPC dialogue as input and outputs a summarized list of active quests, key characters, and locations. This would help track objectives when they are not explicitly stated in a menu.
+
+# Ilex Forest: Farfetch'd Puzzle Plan
+
+- **Objective:** Herd the lost Farfetch'd back to the apprentice at (7, 28).
+
+- **Hypothesis:** The Farfetch'd's movement is influenced by my approach direction and potentially by environmental interactions, like stepping on twig piles. It needs to be guided along a specific path.
+
+- **Systematic Test Plan:**
+  1.  **Locate:** Systematically explore the accessible areas of the forest to find the Farfetch'd's current location.
+  2.  **Observe & Test:** Once found, I will test its reaction to my actions:
+      - Approach from above and press 'A'. Document result.
+      - Approach from below and press 'A'. Document result.
+      - Approach from the left and press 'A'. Document result.
+      - Approach from the right and press 'A'. Document result.
+      - Step on any nearby twig piles and observe if its facing direction or position changes. Document result.
+  3.  **Document & Iterate:** I will record the outcome of each interaction to map out the puzzle's logic and determine the correct sequence of moves to guide it back to the apprentice.
