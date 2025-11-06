@@ -78,9 +78,6 @@
 - However, the game is currently prompting me to cut a tree at this exact location again. 
 - **Conclusion:** My previous note was likely a hallucination or I misidentified the coordinates. I am proceeding with the Cut action now and will re-test the traversability of the tile afterward. The current game state is the source of truth.
 
-## Appendix: Reflection Log (Turn 22088 - Self-Assessment)
-- **CRITICAL PROCESS FAILURE (Turns ~21998-22038):** Engaged in a prolonged, multi-turn debugging loop with my pathfinding tools. This was a major violation of the 'TRUST BUT VERIFY' principle. The tools correctly reported that no path existed, but I incorrectly assumed they were broken and wasted dozens of turns on unnecessary fixes. I must trust my tools' outputs by default and only debug them after in-game verification proves them wrong. I also violated the 'IMMEDIATE ACTION' principle multiple times by deferring data management tasks.
-
 ## Appendix: Lessons Learned from Failures
 - **Pathfinder Debugging Cycle (Turns ~22650-22660):** My most critical failure was getting stuck in a debugging loop with `path_and_execute`. I repeatedly flip-flopped on the coordinate system (0-indexed vs 1-indexed) and blindly trusted a flawed agent suggestion without verifying it against the map data. **Lesson:** Always trust direct observation (`map_xml_string` showing x=0 tiles) over assumptions or even agent outputs. Fix tools decisively and immediately.
 - **Deferred Actions:** I have a history of deferring critical data management (notepad updates, tool fixes) in favor of gameplay. **Lesson:** As an LLM, there is no 'later'. All maintenance tasks must be performed in the turn they are identified, as this is my highest priority.
