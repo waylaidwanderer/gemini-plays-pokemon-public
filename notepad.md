@@ -84,3 +84,5 @@
 *   **Observation:** The Farfetch'd was at (20, 24).
 *   **Test (Failed):** I tested my hypothesis by interacting from the north at (20, 23). This did NOT move the Farfetch'd west. Instead, it caused the Farfetch'd to move along a path from (20, 24) to (26, 24) and then disappear. This is a new, verified mechanic.
 *   **New Hypothesis:** Since the Farfetch'd has disappeared, a new trigger path is likely required to make it reappear, similar to the 'Reappearance 2' mechanic. I will start by exploring the area where it disappeared, around (26, 24), to find the start of this new path.
+## IX. Failed Hypotheses & Corrections
+*   **Trigger Path Hypothesis (Failed):** My hypothesis that walking from (26, 24) to (20, 24) would make the Farfetch'd reappear at (15, 25) was incorrect. Instead, walking this path caused the entire puzzle to reset, with the Farfetch'd returning to its starting position at (29, 22). This implies an unknown reset trigger exists along that path.
