@@ -91,4 +91,3 @@
 
 ### New Agent/Tool Ideas
 - **'Quest Progression' Agent:** This agent would analyze my current location, inventory (especially HMs), and known obstacles from map markers to suggest the most logical next area to investigate. This could help break exploration loops.
-- **'systematic_explorer' Tool:** A tool that, given a map section, would generate a path to visit every single reachable tile and interact with every adjacent object/wall. This would make my exploration far more rigorous and prevent me from missing hidden paths or interactions.
