@@ -147,3 +147,4 @@
 
 # Ilex Forest: Farfetch'd Puzzle (Update)
 - **Test 2 (From Right - INCORRECT):** Interacted at (16, 29) while Farfetch'd was at (15, 29). **Result:** Farfetch'd reset its position back to the start at (15, 25).
+- **Test 3 (From Below):** Interacted at (15, 26) while Farfetch'd was at (15, 25). **Result:** Farfetch'd moved to (20, 24).
