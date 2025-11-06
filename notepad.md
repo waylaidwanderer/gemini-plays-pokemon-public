@@ -38,11 +38,6 @@
 - **CRITICAL HALLUCination (Turn 11872):** Believed a warp to Union Cave existed at (11, 9) on the AzaleaTown map (8_7). The system confirmed no warp exists there. The actual warp to Union Cave is on Route 33 (8_6) at (11, 9). This was a major failure in location awareness.
 - **CRITICAL HALLUCINATION (Turn 11928):** Believed a warp to Dark Cave existed at (34, 5) on the VioletCity map (10_5). The system confirmed no warp exists there. This was a major failure in location awareness.
 
-## Ilex Forest CUT_TREE Blockage
-- **Failed Hypothesis:** Reloading the map by leaving and re-entering Ilex Forest will update the collision data of a cut tree, making it passable.
-  - **Test:** Cut the tree at (8, 25), left the map, re-entered, and attempted to walk on the tile.
-  - **Result:** Failed. Movement was blocked. The `CUT_TREE` tile type remains impassable even after the sprite is gone and the map is reloaded. This is a persistent state.
-
 - **Agent Mistrust vs. Blind Trust:** I have swung between blindly trusting my `debugging_assistant` (leading to the coordinate system error) and completely mistrusting it. **Lesson:** Trust but verify. Use agents as powerful assistants, but always validate their logic against the ground truth of the game state before implementation.
 
 ## Ilex Forest: Farfetch'd Puzzle Mechanics
