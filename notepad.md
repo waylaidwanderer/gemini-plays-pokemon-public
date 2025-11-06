@@ -1,8 +1,7 @@
 # Ilex Forest: Farfetch'd Puzzle (Search Failed)
 
 - **Objective:** Locate the missing Farfetch'd.
-- **Conclusion:** A complete, systematic search of the entire enclosed puzzle area has been conducted. The Farfetch'd is NOT present.
-- **New Hypothesis:** The puzzle reset requires an external trigger to make the Farfetch'd reappear, or it has moved to another section of Ilex Forest entirely. The next step is to leave this puzzle area and explore other paths within the forest.
+- **Current Status:** A systematic search of the puzzle area failed to locate the Farfetch'd after it disappeared. My current hypothesis is that an external trigger in Azalea Town is required to make it reappear.
 
 # Untested Hypotheses & Test Plans
 
