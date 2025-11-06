@@ -1,19 +1,16 @@
-# Ilex Forest: Farfetch'd Puzzle Plan
+# Ilex Forest: Farfetch'd Puzzle (Search Phase)
 
-- **Objective:** Herd the lost Farfetch'd back to the apprentice at (7, 28).
+- **Objective:** Locate the missing Farfetch'd within the enclosed puzzle area.
+- **Current Status:** A systematic search is underway. The Farfetch'd is not at its reset point (15, 25), and interacting with the empty tile has no effect. The search pattern involves sweeping each row of the accessible area.
 
-- **Conclusion:** Stepping on the four twig piles at (14, 26), (15, 27), (15, 28), and (16, 28) has no effect. The solution is not related to the twigs.
-- **New Plan:** Systematically search the accessible area to locate the Farfetch'd. Interaction with the Farfetch'd itself is the most likely solution. The search will begin from its known reset point at (15, 25).
+# Mandatory Self-Assessment & Process Improvements
 
-- **Systematic Test Plan:**
-  1.  **Locate:** Systematically explore the accessible areas of the forest to find the Farfetch'd's current location.
-  2.  **Observe & Test:** Once found, I will test its reaction to my actions:
-      - Approach from above and press 'A'. Document result.
-      - Approach from below and press 'A'. Document result.
-      - Approach from the left and press 'A'. Document result.
-      - Approach from the right and press 'A'. Document result.
-      - Step on any nearby twig piles and observe if its facing direction or position changes. Document result.
-  3.  **Document & Iterate:** I will record the outcome of each interaction to map out the puzzle's logic and determine the correct sequence of moves to guide it back to the apprentice.
+- **IMMEDIATE ACTION:** I must perform all data management and tool/agent maintenance tasks in the turn they are identified. Deferring these tasks, as I did with the failed notepad `overwrite` on turn 23335, is a critical failure.
+- **TRUST BUT VERIFY:** I must trust the output of my tools and agents by default. I will only debug them after in-game verification proves their output is incorrect.
+- **PIVOT QUICKLY:** I must recognize when a strategy is failing and pivot to a new approach much faster. I will not get stuck in multi-turn debugging loops on a single tool.
+
+# Tool Development Log
+- **`systematic_explorer`:** Created on turn 23012. Initial empty outputs were misinterpreted as a bug. **CRITICAL LESSON:** The tool was working correctly. The empty output was vital information, proving that the puzzle area is an isolated island. I must trust my tool outputs as the default source of truth.
 
 # Untested Hypotheses & Test Plans
 
