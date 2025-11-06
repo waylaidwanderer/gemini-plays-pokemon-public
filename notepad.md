@@ -83,3 +83,12 @@
   2. Enter the Ilex Forest gatehouse via the warp at (2, 11).
   3. Enter the southern forest section (via gate warp 0, 5).
   4. Systematically explore every tile of this forest section, checking every small tree for a Cut interaction prompt.
+
+# Mandatory Self-Assessment (Turn 21932)
+
+### Reflection-Based Updates
+- **PROCESS FAILURE (Turns 21923-21931):** I identified multiple instances of deferring immediate data management tasks. For example, on turn 21926, I failed to mark a warp immediately after using it, and on turn 21931, I prioritized interacting with the Nurse over correcting a hallucinated navigation goal. This violates my core principle of immediate action and must be corrected.
+
+### New Agent/Tool Ideas
+- **'Quest Progression' Agent:** This agent would analyze my current location, inventory (especially HMs), and known obstacles from map markers to suggest the most logical next area to investigate. This could help break exploration loops.
+- **'systematic_explorer' Tool:** A tool that, given a map section, would generate a path to visit every single reachable tile and interact with every adjacent object/wall. This would make my exploration far more rigorous and prevent me from missing hidden paths or interactions.
