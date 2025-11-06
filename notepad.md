@@ -135,7 +135,7 @@
 ## XVI. Critical System Instability
 *   **`path_plan` Corruption Trigger (Confirmed Turn 26316):** Executing a `path_plan`, even for a single tile, has now been confirmed to be a trigger for catastrophic game corruption. This follows a similar incident on Turn 26095. **MITIGATION STRATEGY: The `path_plan` feature is too unstable and MUST NOT BE USED.** All future overworld movement must be performed manually with single directional button presses per turn until this issue is understood and resolved.
 
-## XVI. Goldenrod Game Corner - Alternative Hypotheses (Post-Reflection)
+## XVII. Goldenrod Game Corner - Alternative Hypotheses (Post-Reflection)
 *   **Confirmation Bias Identified:** My search has exclusively tested for an 'A' button interaction. This is too narrow.
 *   **Hypothesis 2 (Movement Trigger):** The exit may be triggered by a specific movement pattern on the floor, not an interaction. Test: After exhausting 'A' presses, perform a serpentine walk over every single floor tile.
 *   **Hypothesis 3 (External Prerequisite):** The puzzle may be unsolvable without an item or event from outside. The POKEFAN_M mentioned losing his COIN CASE in the Goldenrod Underground. This is a strong lead. Test: If the in-room search fails, leave the Game Corner, find the COIN CASE, and then return to see if anything has changed.
