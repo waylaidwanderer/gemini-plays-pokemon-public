@@ -81,3 +81,4 @@
     *   Conclusion: Simple movement does not seem to activate these warps. Activation is likely tied to an external trigger, such as a switch.
 *   **Hidden Item Trigger Hypothesis (Failed):** Interacting with hidden items (Antidote at (17, 8), Parlyz Heal at (6, 13)) from adjacent tiles did not trigger any event. This hypothesis is invalid.
 *   **Crate Switch Hypothesis (In Progress):** My current hypothesis is that one of the crate-like walls is a switch. Initial tests at (4, 23) and (5, 23) failed. I am now proceeding with a systematic test of all accessible crates from left to right, ensuring I stand below and face up as per system guidance.
+*   **Sign Clue Hypothesis (Failed):** Reading the sign at (19, 6) next to the locked door revealed it only says 'NO ENTRY BEYOND THIS POINT'. It is not a clue. Conclusion: The solution is not directly related to this sign.
