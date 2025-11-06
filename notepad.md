@@ -121,8 +121,11 @@ My main goal is to solve this puzzle to get HM01 Cut.
 2.  **Hypothesis:** Interacting with the empty tile at (15, 25) from the north (15, 24) will trigger the Farfetch'd.
     -   **Result:** Failed. Did not trigger any event.
 
-### New Test Plan:
-1.  **Hypothesis:** Stepping on a twig pile changes a hidden state required to make the Farfetch'd appear.
-    -   **Test:** Systematically step on each twig pile at (14, 26), (15, 27), (15, 28), and (16, 28), and after each one, return to an adjacent tile of (15, 25) and interact with it.
-2.  **Hypothesis:** The twig piles must be stepped on in a specific sequence.
-    -   **Test:** If the first test fails, I will try stepping on them in various orders.
+### Test Plan & Results:
+1.  **Hypothesis:** Stepping on an individual twig pile changes a hidden state required to make the Farfetch'd appear.
+    -   **Test:** Systematically stepped on each twig pile at (14, 26), (15, 27), (15, 28), and (16, 28), and after each one, returned to (15, 26) and interacted with (15, 25).
+    -   **Result:** Failed. This hypothesis is incorrect.
+
+### New Plan:
+1.  **Hypothesis:** The apprentice at (7, 28) may have new dialogue or a hint.
+    -   **Test:** Navigate to the apprentice and interact with him.
