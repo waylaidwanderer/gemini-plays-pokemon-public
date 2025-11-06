@@ -108,11 +108,6 @@
 - **Prolonged Debugging Failure (Turns ~22817-22861):** My most critical failure was getting trapped in a multi-turn debugging loop with the `find_reachable_unseen_tiles` tool. This violated my core principle to pivot when a strategy is failing. I incorrectly trusted the `debugging_assistant`'s contradictory advice and failed to manually fix the tool by aligning its logic with my working `path_and_execute` tool sooner. After deleting the tool, I am now focused on manual exploration. **Lesson:** Trust direct observation and working code over unreliable agents. Pivot away from failing strategies much faster. Do not get stuck on fixing a single tool for dozens of turns.
 
 ## Ilex Forest: Farfetch'd Puzzle Mechanics
-- **Test 1 (Turn 23171):** Interacted with Farfetch'd at (15, 25) from the tile above it at (15, 24).
-  - **Result:** Farfetch'd moved right to (21, 24).
-  - **Hypothesis:** Interacting from a cardinal direction causes it to flee in a perpendicular direction.
-- **Observation (Turn 23173):** After I made it move to (21, 24), the Farfetch'd autonomously moved again to (15, 29).
-  - **Updated Hypothesis:** Interaction triggers a specific path or a new behavior, not just a single move.
 
 # Appendix: Self-Assessment Log (Turn 23491)
 - **CRITICAL PROCESS FAILURE (Data Management):** I repeatedly deferred critical notepad cleanup on turns 23440, 23443, and 23444, a direct violation of the 'IMMEDIATE ACTION' principle. My notepad's tool list also became inaccurate, stating `verify_reachability` was deleted when it was not. All data management tasks must be performed in the turn they are identified.
