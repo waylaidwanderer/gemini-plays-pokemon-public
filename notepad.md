@@ -85,3 +85,4 @@
 ## XIII. Reflection & Strategic Pivots
 *   **Exit Strategy:** If all hypotheses for the Goldenrod Underground puzzle fail, I will abandon it, exit the area, and focus on finding the Gym or exploring the rest of the city to prevent getting stuck. (Strategy executed in turn 25435).
     *   LADDER: Triggers a warp when walked onto. Does not require interaction with the 'A' button.
+*   **Warp Carpet Movement Hypothesis (Failed):** Stepping on the WARP_CARPET_DOWN tile at (21, 29) did not trigger a warp. This confirms these warps require an external trigger.
