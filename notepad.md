@@ -65,7 +65,7 @@
 - **TALL_GRASS**: Traversable, contains wild Pokémon.
 - **TOWN_MAP**: Impassable.
 - **TV**: Impassable.
-- **UNKNOWN**: Traversable.
+- **UNKNOWN**: Observed to be traversable, but requires more testing to confirm behavior in all contexts.
 - **VOID**: Impassable.
 - **WALL**: Impassable.
 - **WARP_CARPET_DOWN/LEFT/RIGHT**: Traversable warps. Activated by pressing the corresponding direction while standing on the tile.
