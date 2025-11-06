@@ -41,9 +41,7 @@
 
 ## Ilex Forest: Farfetch'd Puzzle Mechanics
 
-- **Initial Hypotheses (FAILED):** Attempts to reset the puzzle by talking to the apprentice or searching twig piles were unsuccessful.
-
-- **Hypothesis 3 (SUPERSEDED):** A full systematic search of the initial puzzle area was performed.
+- **Initial State:** The puzzle involved herding a Farfetch'd. Early hypotheses involving talking to NPCs or searching twig piles failed. A full systematic search of the initial area was also performed before discovering the multi-stage nature of the puzzle.
 
 - **Hypothesis 4 (VIA AGENT):** Agent suggested a second puzzle phase deeper in the forest.
 
