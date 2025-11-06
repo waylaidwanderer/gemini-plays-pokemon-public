@@ -43,10 +43,7 @@
 
 - **Hypothesis 4 (VIA AGENT):** Agent suggested a second puzzle phase deeper in the forest.
 
-## Hypothesis 5 (Turn 23851) - FAILED
-- **Observation:** After successfully herding the Farfetch'd to the western part of the forest, interacting with it from the right at (21, 24) caused the entire puzzle to reset, returning the Farfetch'd to (15, 25).
-- **Hypothesis:** Interacting from the right is the incorrect final step for the second phase of the puzzle.
-- **Conclusion:** The test failed.
+- **Hypothesis 5 (FAILED):** Confirmed that interacting with the Farfetch'd from the wrong direction resets the second phase of the puzzle.
 
 ## Hypothesis 6 (Turn 23851) - Trusting the Agent
 - **Observation:** The `puzzle_solver_assistant` previously suggested a second chase phase begins around (23, 25). My actions herded the Farfetch'd to this general area, but my final interaction was wrong, causing a reset.
