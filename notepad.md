@@ -154,68 +154,69 @@
 *   (12, 2) - Tested, not a switch
 *   (13, 2) - Tested, not a switch
 *   (8, 3) - Tested, not a switch
+*   (13, 3) - Tested, not a switch
 *   (0, 4) - Tested, not a switch
-*   (1, 4) - To be tested
-*   (2, 4) - To be tested
-*   (3, 4) - To be tested
-*   (4, 4) - To be tested
-*   (5, 4) - To be tested
-*   (6, 4) - To be tested
-*   (7, 4) - To be tested
+*   (1, 4) - Tested, not a switch
+*   (2, 4) - Tested, not a switch
+*   (3, 4) - Tested, not a switch
+*   (4, 4) - Tested, not a switch
+*   (5, 4) - Tested, not a switch
+*   (6, 4) - Tested, not a switch
+*   (7, 4) - Tested, not a switch
 *   (12, 4) - Tested, not a switch
 *   (13, 4) - Tested, not a switch
 *   (14, 4) - Tested, not a switch
 *   (15, 4) - Tested, not a switch
-*   (16, 4) - To be tested
-*   (17, 4) - To be tested
-*   (18, 4) - To be tested
-*   (19, 4) - To be tested
+*   (16, 4) - Tested, not a switch
+*   (17, 4) - Tested, not a switch
+*   (18, 4) - Tested, not a switch
+*   (19, 4) - Tested, not a switch
 *   (0, 5) - To be tested
 *   (5, 5) - To be tested
 *   (8, 5) - To be tested
 *   (11, 5) - To be tested
 *   (14, 5) - To be tested
-*   (17, 5) - To be tested
+*   (17, 5) - Tested, not a switch
 *   (1, 6) - To be tested
 *   (5, 6) - To be tested
-*   (8, 6) - To be tested
-*   (11, 6) - To be tested
-*   (14, 6) - To be tested
+*   (8, 6) - Tested, not a switch
+*   (11, 6) - Tested, not a switch
+*   (14, 6) - Tested, not a switch
 *   (17, 6) - To be tested
-*   (1, 7) - To be tested
+*   (1, 7) - Tested, not a switch
 *   (5, 7) - To be tested
-*   (8, 7) - To be tested
-*   (11, 7) - To be tested
-*   (14, 7) - To be tested
-*   (17, 7) - To be tested
-*   (1, 8) - To be tested
+*   (8, 7) - Tested, not a switch
+*   (11, 7) - Tested, not a switch
+*   (14, 7) - Tested, not a switch
+*   (17, 7) - Tested, not a switch
+*   (1, 8) - Tested, not a switch
 *   (5, 8) - To be tested
-*   (8, 8) - To be tested
-*   (11, 8) - To be tested
+*   (8, 8) - Tested, not a switch
+*   (11, 8) - Tested, not a switch
 *   (14, 8) - To be tested
-*   (17, 8) - To be tested
-*   (1, 9) - To be tested
+*   (17, 8) - Tested, not a switch
+*   (1, 9) - Tested, not a switch
 *   (5, 9) - To be tested
 *   (8, 9) - To be tested
-*   (11, 9) - To be tested
-*   (14, 9) - To be tested
-*   (17, 9) - To be tested
+*   (11, 9) - Tested, not a switch
+*   (14, 9) - Tested, not a switch
+*   (17, 9) - Tested, not a switch
 *   (2, 10) - To be tested
 *   (4, 10) - To be tested
 *   (8, 10) - To be tested
 *   (11, 10) - To be tested
 *   (14, 10) - To be tested
 *   (17, 10) - To be tested
-*   (1, 11) - To be tested
+*   (1, 11) - Tested, not a switch
 *   (5, 11) - To be tested
 *   (8, 11) - To be tested
 *   (11, 11) - To be tested
 *   (14, 11) - To be tested
 *   (17, 11) - To be tested
-*   (0, 12) - To be tested
+*   (0, 12) - Tested, not a switch
 *   (6, 12) - To be tested
 *   (7, 12) - To be tested
 *   (12, 12) - To be tested
 *   (13, 12) - To be tested
 *   (18, 12) - To be tested
-*   (19, 12) - To be tested
+*   (19, 12) - Tested, not a switch
