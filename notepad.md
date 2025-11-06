@@ -25,13 +25,27 @@
 - **Assumption (Dark Cave Path):** Dark Cave is the main path forward.
   - **Alternative Hypothesis:** Dark Cave is a side area. If it's a dead end, I will return to Ilex Forest or Route 36 to re-evaluate.
 
-# Custom Agents
+# Custom Agents & Tools
+
+### Custom Agents
+- **`debugging_assistant`**: Analyzes a faulty Python script, a description of the problem, and any error/output, then provides a corrected version of the script.
 - **`quest_progression_advisor`**: Analyzes current location, goals, and known obstacles to suggest the next logical area or NPC to investigate to advance the story.
 - **`puzzle_solver_assistant`**: Analyzes puzzle observations and suggests simple, testable hypotheses to methodically solve complex problems.
-- **`debugging_assistant`**: Analyzes a faulty Python script, a description of the problem, and any error/output, then provides a corrected version of the script.
 
-# Custom Tools
-- **`verify_reachability`**: Takes a list of coordinates and returns only those reachable from the player's current position.
+### Custom Tools
+- **`deterministic_battle_strategist`**: A deterministic, non-LLM tool that analyzes battle state and recommends the next action (FIGHT/RUN) and move.
+- **`path_and_execute`**: Generates a path to a target coordinate and returns it as a list of coordinate dictionaries for use with `path_plan`.
+- **`systematic_explorer`**: Finds all reachable unseen tiles from the player's current position and returns them as a list of coordinates.
+- **`verify_reachability`**: Takes a JSON string of a list of coordinates and returns a new list containing only the coordinates that are reachable from the player's current position.
+
+### Built-in Tools
+- **`notepad_edit`**: Edits the notepad.
+- **`run_code`**: Executes a Python script.
+- **`define_agent` / `delete_agent`**: Manages custom agents.
+- **`define_map_marker` / `delete_map_marker`**: Manages map markers.
+- **`stun_npc`**: Freezes/unfreezes NPCs.
+- **`define_tool` / `delete_tool`**: Manages custom tools.
+- **`select_battle_option`**: Selects a main battle menu option.
 
 # Tool Development Log
 - **`systematic_explorer` (Formerly `find_reachable_unseen_tiles`):** Created on turn 23012. Initial tests (turns 23013-23014) returned an empty list. I incorrectly assumed the tool was broken and spent several turns debugging a non-existent issue. **CRITICAL LESSON:** The tool was working correctly. The empty output was vital information, proving that the currently accessible area of Ilex Forest is an isolated island with no path to the unseen sections. I must trust my tool outputs as the default source of truth and verify in-game before attempting to debug.
