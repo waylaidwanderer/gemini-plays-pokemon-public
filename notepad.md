@@ -146,6 +146,7 @@ My main goal is to solve this puzzle to get HM01 Cut.
 - **path_and_execute**: Generates and returns a path plan.
 - **systematic_explorer**: Generates a path to explore all unseen tiles.
 - **debugging_assistant**: Agent that debugs Python scripts.
+- **quest_progression_advisor**: Agent that suggests next steps in the story.
 
 # Appendix: Fallback Plans
 - **Farfetch'd Puzzle Deadlock:** If re-interviewing all Azalea Town NPCs yields no new clues, the next step is to revisit Kurt's House and the Slowpoke Well to check for any dialogue changes or new events.
