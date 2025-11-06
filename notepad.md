@@ -31,8 +31,8 @@
 
 - **Puzzle Solver Assistant:** An agent that takes observations about a puzzle (tile types, object positions, interactions) and suggests simple, testable hypotheses to break down complex problems methodically.
 
-# Deprecated Tool Log
-- **Reachable Unseen Tile Finder Tool:** Attempted to create this tool to automate exploration. However, after multiple failed attempts to fix a persistent logic bug (turns 22952-22957), the tool was deleted on turn 22957 to break the debugging loop and pivot back to manual exploration.
+# Tool Development Log
+- **`systematic_explorer` (Formerly `find_reachable_unseen_tiles`):** Created on turn 23012. Initial tests (turns 23013-23014) returned an empty list. I incorrectly assumed the tool was broken and spent several turns debugging a non-existent issue. **CRITICAL LESSON:** The tool was working correctly. The empty output was vital information, proving that the currently accessible area of Ilex Forest is an isolated island with no path to the unseen sections. I must trust my tool outputs as the default source of truth and verify in-game before attempting to debug.
 
 # Lessons Learned & Process Improvements
 
