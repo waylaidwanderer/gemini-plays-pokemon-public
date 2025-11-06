@@ -30,7 +30,7 @@
     *   LEDGE_HOP_LEFT: Can only be entered from the right.
 *   Special Interaction (Warp):
     *   CAVE: Can act as a one-way warp.
-    *   WARP_CARPET_DOWN: Activated by walking onto it.
+    *   WARP_CARPET_DOWN: Traversable. Warp function appears to require an external trigger.
 *   Special Interaction (Interactable):
     *   PC: Interact by standing below it at (X, Y+1), facing up.
     *   COUNTER: Interact with NPCs behind it by standing in front of the counter. (Impassability confirmed Turn 25221). (Impassability confirmed Turn 25022).
