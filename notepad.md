@@ -1,7 +1,8 @@
-# Ilex Forest: Farfetch'd Puzzle (Search Phase)
+# Ilex Forest: Farfetch'd Puzzle (Search Failed)
 
-- **Objective:** Locate the missing Farfetch'd within the enclosed puzzle area.
-- **Current Status:** A systematic search is underway. The Farfetch'd is not at its reset point (15, 25), and interacting with the empty tile has no effect. The search pattern involves sweeping each row of the accessible area.
+- **Objective:** Locate the missing Farfetch'd.
+- **Conclusion:** A complete, systematic search of the entire enclosed puzzle area has been conducted. The Farfetch'd is NOT present.
+- **New Hypothesis:** The puzzle reset requires an external trigger to make the Farfetch'd reappear, or it has moved to another section of Ilex Forest entirely. The next step is to leave this puzzle area and explore other paths within the forest.
 
 # Untested Hypotheses & Test Plans
 
