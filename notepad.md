@@ -109,3 +109,20 @@
 # New Untested Hypotheses & Test Plans
 - **Assumption to Test (One-Way Tiles):** Ledge tiles are truly one-way.
   - **Test Plan:** At the next opportunity, I will attempt to move in all four directions from a ledge tile to definitively confirm its movement restrictions.
+
+# Current Objectives & Plans
+
+## Ilex Forest - Farfetch'd Puzzle
+My main goal is to solve this puzzle to get HM01 Cut.
+
+### Failed Hypotheses:
+1.  **Hypothesis:** Interacting with the empty tile at (15, 25) from the south (15, 26) will trigger the Farfetch'd.
+    -   **Result:** Failed. Caused a loop due to system input correction.
+2.  **Hypothesis:** Interacting with the empty tile at (15, 25) from the north (15, 24) will trigger the Farfetch'd.
+    -   **Result:** Failed. Did not trigger any event.
+
+### New Test Plan:
+1.  **Hypothesis:** Stepping on a twig pile changes a hidden state required to make the Farfetch'd appear.
+    -   **Test:** Systematically step on each twig pile at (14, 26), (15, 27), (15, 28), and (16, 28), and after each one, return to an adjacent tile of (15, 25) and interact with it.
+2.  **Hypothesis:** The twig piles must be stepped on in a specific sequence.
+    -   **Test:** If the first test fails, I will try stepping on them in various orders.
