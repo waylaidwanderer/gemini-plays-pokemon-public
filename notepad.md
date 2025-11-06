@@ -76,6 +76,7 @@
 *   **Wall Panel Switch Hypothesis (In Progress):** My current hypothesis is that one of the wall panels in the Switch Room is a switch.
     *   Test 1: Panel at (18, 27) from below at (18, 28). Result: Failed.
     *   Test 2: Panel at (4, 23) from below at (4, 24). Result: Failed.
+    *   Test 3: Panel at (5, 23) from below at (5, 24). Result: Failed.
 *   **Alternative Hypotheses for Switch Room Puzzle:**
     1.  **Sequence Hypothesis:** The switches must be pressed in a specific, unknown order.
     2.  **Item/Event Hypothesis:** The puzzle requires an item or event completion from elsewhere in Goldenrod City to be solvable.
