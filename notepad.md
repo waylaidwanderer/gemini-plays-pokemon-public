@@ -84,3 +84,9 @@
     *   **Primary Hypothesis:** The tile is permanently impassable despite being a `FLOOR` type.
     *   **Alternative Hypothesis:** The tile is conditionally impassable (e.g., only from the south).
     *   **Test Plan:** After confirming blockage from (20, 10), move to (19, 9) and attempt to move right, and move to (21, 9) and attempt to move left.
+
+## VII. Team Strategy & Analysis
+*   **`team_analyst` Report (Turn 24443):**
+    *   **Training Priority:** Miasma.
+    *   **Move Recommendations:** For Vulcan, replace EMBER with a coverage TM. For Miasma, keep HYPNOSIS and CURSE, but replace the weak LICK when possible. For Gambit, focus on raising happiness for evolution.
+    *   **Team Weaknesses:** Severe weakness to Ground-type attacks. Lack of coverage against Water and Rock types. A Grass or Water-type Pokémon is needed for balance.
