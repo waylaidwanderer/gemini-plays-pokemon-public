@@ -47,10 +47,6 @@
   - **Test:** Cut the tree at (8, 25), left the map, re-entered, and attempted to walk on the tile.
   - **Result:** Failed. Movement was blocked. The `CUT_TREE` tile type remains impassable even after the sprite is gone and the map is reloaded. This is a persistent state.
 
-## Appendix: Reflection Log (Turn 21829)
-
-- **Corrective Action:** Abandoning automated exploration tools temporarily. Pivoting to manual, step-by-step exploration to gather new data and break the strategic stalemate. The tools will be revisited only after new information is gathered or a clear, testable hypothesis for the bug is formed.
-
 ## Ilex Forest CUT_TREE Contradiction (Turn 22077)
 - My notepad previously stated I had already cut the tree at (8, 25) and found the tile impassable. 
 - However, the game is currently prompting me to cut a tree at this exact location again. 
