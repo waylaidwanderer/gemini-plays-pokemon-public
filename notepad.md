@@ -37,17 +37,20 @@
 ## VI. Story & Quests
 *   **Primary Quest:** Become the Pokémon League Champion.
     *   Current Objective: Get the Plain Badge in Goldenrod City.
+*   **Active Quests:**
+    *   Find the COIN CASE: A POKEFAN_M in the Game Corner lost his COIN CASE in the Goldenrod Underground.
+*   **Time-Locked Quests:**
+    *   Kurt's Custom Balls: Wait one day for Kurt to finish making a LURE BALL.
+    *   Union Cave Roars: Investigate on a Friday.
+    *   Bug-Catching Contest: At the National Park (today, per Wade).
+    *   Hiker Anthony Rematch: Wants a rematch on Route 33.
 *   **Completed Quests:**
     *   Zephyr Badge: Defeated Falkner in Violet City.
     *   Hive Badge: Defeated Bugsy in Azalea Town.
     *   HM01 Cut: Rescued the Farfetch'd in Ilex Forest.
-*   **Side Quests & NPC Hints:**
-    *   Kurt's Custom Balls: Wait one day for Kurt to finish making a custom ball. (Blocked by time).
-    *   Union Cave Roars: Investigate on a Friday. (Blocked by time).
-    *   Bug-Catching Contest: At the National Park (today, per Wade).
-    *   Strange Tree: A strange tree blocks Route 36.
-    *   Hiker Anthony wants a rematch on Route 33.
-    *   Bill's Family: Bill is at the Pokémon Center in Ecruteak City. His father is at the Game Corner.
+*   **NPC & Environmental Hints:**
+    *   A strange tree blocks Route 36.
+    *   Bill is at the Pokémon Center in Ecruteak City. His father is at the Game Corner.
 
 ## VIII. Team Strategy & Analysis
 *   `team_analyst` Report (Turn 24443):
