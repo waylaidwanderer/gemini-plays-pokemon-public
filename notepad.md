@@ -152,3 +152,8 @@ My main goal is to solve this puzzle to get HM01 Cut.
 # Appendix: Fallback Plans
 - **Farfetch'd Puzzle Deadlock:** If re-interviewing all Azalea Town NPCs yields no new clues, the next step is to revisit Kurt's House and the Slowpoke Well to check for any dialogue changes or new events.
 - **HEADBUTT_TREE**: Impassable. Assumed to be interactable with the move Headbutt.
+
+### Twig Pile Trigger Test:
+1.  **Hypothesis:** Stepping on a single twig pile will cause the Farfetch'd to appear.
+    -   **Test:** Stepped on the twig pile at (14, 26), then moved to a vantage point at (15, 27) to observe the trigger area (15, 25).
+    -   **Result:** Failed. No Farfetch'd appeared. This hypothesis is incorrect.
