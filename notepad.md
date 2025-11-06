@@ -33,7 +33,7 @@
     *   WARP_CARPET_DOWN: Activated by walking onto it.
 *   Special Interaction (Interactable):
     *   PC: Interact by standing below it at (X, Y+1), facing up.
-    *   COUNTER: Interact with NPCs behind it by standing in front of the counter. (Impassability confirmed Turn 25022).
+    *   COUNTER: Interact with NPCs behind it by standing in front of the counter. (Impassability confirmed Turn 25221). (Impassability confirmed Turn 25022).
 
 ## VI. Story & Quests
 *   **Primary Quest:** Become the Pokémon League Champion.
