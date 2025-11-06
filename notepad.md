@@ -92,3 +92,16 @@
     *   LADDER: Triggers a warp when walked onto. Does not require interaction with the 'A' button.
 *   **Warp Carpet Movement Hypothesis (Failed):** Stepping on the WARP_CARPET_DOWN tile at (21, 29) did not trigger a warp. This confirms these warps require an external trigger.
     *   Find the COIN CASE: A POKEFAN_M in the Game Corner lost his COIN CASE in the Goldenrod Underground.
+
+## XIV. Puzzle Notes: Goldenrod Game Corner
+*   **Objective:** Find the exit.
+*   **Hypothesis 1 (Failed):** The warps at (2, 13) and (3, 13) are a standard exit.
+    *   Test 1: Standing on warp tiles. Result: No effect.
+    *   Test 2: Moving between warp tiles. Result: No effect.
+    *   Test 3: Pressing 'A' on warp tiles. Result: No effect.
+    *   Test 4: Stepping down onto warp tiles from above. Result: No effect.
+*   **Hypothesis 2 (Failed):** An NPC has a clue for how to exit.
+    *   Test: Spoke to all 12 visible NPCs in the room. Result: No clues, only game tips and prize info.
+*   **Hypothesis 3 (Failed):** The 'Left Their Drink' object at (12, 1) is a switch.
+    *   Test: Interacted with the object from below at (12, 2). Result: No effect.
+*   **Current Hypothesis:** The exit is hidden in the unseen area to the west.
