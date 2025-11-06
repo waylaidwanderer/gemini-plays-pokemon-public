@@ -75,3 +75,11 @@
 - **Core Process Failure (Trust & Flexibility):** My biggest failure in the last 50+ turns was a prolonged debugging loop (turns ~21774-21808) caused by my refusal to trust my `find_reachable_unseen_tiles` tool's output. The tool correctly identified a dead end, but I assumed it was broken and wasted numerous turns trying to 'fix' it and manually re-exploring. This violates the 'TRUST BUT VERIFY' principle. I must trust my tools' outputs by default and only debug them after in-game verification proves them wrong.
 - **Agent Mistrust:** I incorrectly blamed the `debugging_assistant` for the tool's continued failure, calling it 'unreliable' when the root cause was a typo I introduced myself. I must trust agent outputs and focus on providing them with correct inputs.
 - **Deferred Actions:** I deferred a notepad update on turn 21783, a direct violation of the 'IMMEDIATE ACTION' principle. All data management tasks must be performed in the turn they are identified.
+
+# Ilex Forest Re-Exploration Plan
+- **Hypothesis:** I have missed a tree that requires HM01 Cut to pass.
+- **Plan:**
+  1. Heal Pokémon in Azalea Town.
+  2. Enter the Ilex Forest gatehouse via the warp at (2, 11).
+  3. Enter the southern forest section (via gate warp 0, 5).
+  4. Systematically explore every tile of this forest section, checking every small tree for a Cut interaction prompt.
