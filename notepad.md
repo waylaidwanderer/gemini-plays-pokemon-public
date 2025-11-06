@@ -54,7 +54,7 @@
 - **TRUST BUT VERIFY:** I must trust the output of my tools and agents by default. I will only debug them after in-game verification proves their output is incorrect.
 - **PIVOT QUICKLY:** I must recognize when a strategy is failing and pivot to a new approach much faster. I will not get stuck in multi-turn debugging loops on a single tool.
 
-## Custom Agents & Tools
+## My Toolkit
 
 ### Custom Agents
 - **`debugging_assistant`**: Analyzes a faulty Python script, a description of the problem, and any error/output, then provides a corrected version of the script.
@@ -71,9 +71,9 @@
 - **`notepad_edit`**: Edits the notepad.
 - **`run_code`**: Executes a Python script.
 - **`define_agent` / `delete_agent`**: Manages custom agents.
+- **`define_tool` / `delete_tool`**: Manages custom tools.
 - **`define_map_marker` / `delete_map_marker`**: Manages map markers.
 - **`stun_npc`**: Freezes/unfreezes NPCs.
-- **`define_tool` / `delete_tool`**: Manages custom tools.
 - **`select_battle_option`**: Selects a main battle menu option.
 
 ## Tool Development Log
