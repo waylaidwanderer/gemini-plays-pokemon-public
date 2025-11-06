@@ -70,28 +70,14 @@
 ## X. Untested Hypotheses & Strategic Notes
 *   **Farfetch'd Puzzle:** The assumption is this puzzle is the only way to get the ability to Cut. An alternative is that another method exists. If the puzzle proves too difficult, I will re-explore Azalea Town for other clues.
 *   **Farfetch'd Location:** The assumption that it starts at (29, 22) is based on a hallucination. If it's not there, I must perform a systematic search of the entire accessible forest area.
-*   **Immediate Task:** Mark the Farfetch'd's location with a map marker as soon as it is found.
-
-## VI. Puzzle Logs
-
-*   **Summary of Early Puzzle Failures:** Numerous tests involving stepping on various tiles and walking different paths after the Farfetch'd disappeared failed to produce consistent results. These early attempts were unsystematic and have been superseded by more recent, verified discoveries.
-    26. **Discovery:** After a 'Kwaa!' disappearance, walking the path from (15, 27) to (9, 34) caused the Farfetch'd to reappear at (10, 35).
-        27. **Discovery (State-Dependent Outcome):** Interacting from the North at (10, 34) while it was at (10, 35) after the 'Kwaa! -> path reset' sequence caused it to move to (15, 29).
-    28. **Success (State-Dependent Outcome):** Interacting from the East at (16, 29) while it was at (15, 29) caused it to move to (15, 25).
-    29. **Discovery (Teleport):** Interacting from the South at (15, 26) while it was at (15, 25) resulted in a 'Kwaa!' and caused it to teleport to (20, 24).
-    30. **Test:** Interacting from the North at (20, 23) while it is at (20, 24) to see if it moves or disappears.
-    31. **Result of Test 30:** Interacting from the North at (20, 23) caused the Farfetch'd to turn and say 'Kwaa!'. It did not immediately move or disappear.
-
-46. **Discovery (Turn 22790):** Walking the trigger path from (26, 24) to (20, 24) after a 'disappear from East interaction' sequence caused the Farfetch'd to reappear at (15, 25).
-
-## VIII. Untested Hypotheses
-*   **Route 36 Strange Tree:** The assumption is this is the only path to Goldenrod City. An alternative is that another route exists, possibly through the National Park. **Test:** Fully explore Route 34 and its connections before returning to the tree.
-*   **Union Cave Roars:** The assumption is this leads to a rare Pokémon. An alternative is that it's an NPC event or flavor text. **Test:** Visit on a Friday and observe.
-*   **Kurt's Custom Ball:** The assumption is the one-day wait is real-time. An alternative is that it's tied to in-game time or story progression (e.g., the next gym badge). **Test:** Check on Kurt after the next major story milestone.
-*   **Union Cave Unseen Tiles:** My tools have previously confirmed that all unseen tiles on this map are currently unreachable.
-*   **PC:** Interact by standing on an adjacent tile (e.g., (X-1, Y), (X, Y+1)) and facing the PC.
-## IX. Agent & Tool Development Ideas
-*   **`debugging_assistant` Agent:** An agent that could take a player position, a failed path, and map XML to hypothesize about the cause of a pathing failure (e.g., "Hypothesis: Tile (X, Y) is impassable due to an unlisted property or is a one-way tile from this direction.").
+## VI. Farfetch'd Puzzle - Verified Mechanics
+*   **Reset:** Stepping on the tile at (15, 27) acts as a hard reset, causing the Farfetch'd to respawn at its starting position of (29, 22).
+*   **Teleport 1:** Interacting from the South at (29, 23) while it is at (29, 22) causes it to teleport to (20, 24).
+*   **Reappearance 1:** After Teleport 1, walking the trigger path from (26, 24) to (20, 24) causes it to reappear at (15, 25).
+*   **Movement 1:** Interacting from the North at (15, 24) while it is at (15, 25) causes it to move to (15, 29).
+*   **Disappearance 1:** Interacting from the North at (15, 28) while it is at (15, 29) causes it to walk a path and disappear at (14, 35).
+*   **Reappearance 2:** After Disappearance 1, walking the trigger path from (15, 27) to (9, 34) causes it to reappear at (10, 35).
+*   **Movement 2:** Interacting from the North at (10, 34) while it is at (10, 35) causes it to move to (15, 29).
 
 ## X. Alternative Hypotheses for Testing
 *   **Azalea Town Blocked Tile (20, 9):**
