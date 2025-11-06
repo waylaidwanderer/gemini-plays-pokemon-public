@@ -166,7 +166,7 @@
 *   (19, 4) - Tested, not a switch
 *   (0, 5) - Tested, not a switch
 *   (5, 5) - Tested, not a switch
-*   (8, 5) - To be tested
+*   (8, 5) - Tested, not a switch
 *   (11, 5) - To be tested
 *   (14, 5) - Tested, not a switch
 *   (17, 5) - Tested, not a switch
