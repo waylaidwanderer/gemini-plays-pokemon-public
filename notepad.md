@@ -7,7 +7,8 @@
 - **DOOR**: Traversable warp.
 - **FLOOR**: Traversable.
 - **FLOOR_UP_WALL**: A complex one-way tile. Behavior is location-dependent and needs more testing.
-
+- **GRASS**: Traversable, contains wild Pokémon.
+- **HEADBUTT_TREE**: Impassable. Assumed to be interactable with the move Headbutt.
 - **INCENSE_BURNER**: Impassable.
 - **LADDER**: Complex warp with directional activation.
 - **LEDGE_HOP_DOWN/LEFT/RIGHT**: One-way traversal.
@@ -96,7 +97,6 @@
 - **CRITICAL PROCESS FAILURE (Turns ~21998-22038):** Engaged in a prolonged, multi-turn debugging loop with my `systematic_explorer` tool and related test scripts. This violated the core principle of pivoting when a strategy is demonstrably failing.
 - **Agent Failure Analysis:** The `debugging_assistant`'s suggested fix was implemented but did not resolve the issue, proving its hypothesis was incorrect or incomplete. My failure was persisting with the tool *after* the fix failed, instead of pivoting sooner.
 - **Corrective Action:** Abandoning automated exploration tools temporarily. Pivoting to manual, step-by-step exploration to gather new data and break the strategic stalemate. The tools will be revisited only after new information is gathered or a clear, testable hypothesis for the bug is formed.
-- **GRASS**: Traversable, contains wild Pokémon.
 
 # Ilex Forest CUT_TREE Contradiction (Turn 22077)
 - My notepad previously stated I had already cut the tree at (8, 25) and found the tile impassable. 
@@ -112,27 +112,8 @@
 
 # Current Objectives & Plans
 
-# Appendix: Available Tools
-- **notepad_edit**: Edits your notepad.
-- **run_code**: Runs Python code.
-- **define_agent**: Creates or updates a custom agent.
-- **delete_agent**: Deletes a custom agent.
-- **define_map_marker**: Defines or updates a map marker.
-- **delete_map_marker**: Deletes a map marker.
-- **stun_npc**: Stops or resumes NPC movement.
-- **define_tool**: Defines a new custom tool.
-- **delete_tool**: Deletes a custom tool.
-- **select_battle_option**: Selects a main battle menu option.
-- **deterministic_battle_strategist**: Provides battle advice.
-- **find_reachable_unseen_tiles**: Finds reachable unseen tiles.
-- **path_and_execute**: Generates and returns a path plan.
-- **systematic_explorer**: Generates a path to explore all unseen tiles.
-- **debugging_assistant**: Agent that debugs Python scripts.
-- **quest_progression_advisor**: Agent that suggests next steps in the story.
-
 # Appendix: Fallback Plans
 - **Farfetch'd Puzzle Deadlock:** If re-interviewing all Azalea Town NPCs yields no new clues, the next step is to revisit Kurt's House and the Slowpoke Well to check for any dialogue changes or new events.
-- **HEADBUTT_TREE**: Impassable. Assumed to be interactable with the move Headbutt.
 
 ### Twig Pile Trigger Test:
 1.  **Hypothesis:** Stepping on a single twig pile will cause the Farfetch'd to appear.
