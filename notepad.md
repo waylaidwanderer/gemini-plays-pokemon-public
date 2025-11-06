@@ -75,7 +75,7 @@
 *   **Teleport 1:** Interacting from the South at (29, 23) while it is at (29, 22) causes it to teleport to (20, 24).
 *   **Reappearance 1:** After Teleport 1, walking the trigger path from (26, 24) to (20, 24) causes it to reappear at (15, 25).
 *   **Movement 1:** Interacting from the North at (15, 24) while it is at (15, 25) causes it to move to (15, 29).
-*   **Disappearance 1:** Interacting from the North at (15, 28) while it is at (15, 29) causes it to walk a path and disappear at (14, 35).
+*   **Disappearance 1 (CONFIRMED):** Interacting from the North at (15, 28) while it is at (15, 29) caused it to walk a path and disappear at (14, 35).
 *   **Reappearance 2:** After Disappearance 1, walking the trigger path from (15, 27) to (9, 34) causes it to reappear at (10, 35).
 *   **Movement 2:** Interacting from the North at (10, 34) while it is at (10, 35) causes it to move to (15, 29).
 
