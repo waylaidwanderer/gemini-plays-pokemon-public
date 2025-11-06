@@ -115,16 +115,14 @@
 ## Ilex Forest - Farfetch'd Puzzle
 My main goal is to solve this puzzle to get HM01 Cut.
 
-### Failed Hypotheses:
-1.  **Hypothesis:** Interacting with the empty tile at (15, 25) from the south (15, 26) will trigger the Farfetch'd.
-    -   **Result:** Failed. Caused a loop due to system input correction.
-2.  **Hypothesis:** Interacting with the empty tile at (15, 25) from the north (15, 24) will trigger the Farfetch'd.
-    -   **Result:** Failed. Did not trigger any event.
+### Conclusively Failed Hypotheses:
+1.  **Trigger is stepping on twig piles:** Systematically stepped on all four twig piles. No Farfetch'd appeared. Conclusion: The twigs are likely for herding, not spawning.
+2.  **Trigger is forced movement:** The forced movement from (15, 26) to (15, 25) does not spawn the Farfetch'd.
+3.  **Trigger is apprentice dialogue (from side):** Interacting with the apprentice from the side (8, 28) yields no new information.
+4.  **Trigger is interacting with empty tiles:** Interacting with the empty tile at (15, 25) from various directions does nothing.
 
-### Test Plan & Results:
-1.  **Hypothesis:** Stepping on an individual twig pile changes a hidden state required to make the Farfetch'd appear.
-    -   **Test:** Systematically stepped on each twig pile at (14, 26), (15, 27), (15, 28), and (16, 28), and after each one, returned to (15, 26) and interacted with (15, 25).
-    -   **Result:** Failed. This hypothesis is incorrect.
+### Current Hypothesis (Untested):
+- Interacting with the apprentice from a different angle (from below at 7, 29) may trigger a new event.
 
 ### Apprentice Interaction Test:
 1.  **Hypothesis:** The apprentice at (7, 28) may have new dialogue or a hint after I've attempted the puzzle.
