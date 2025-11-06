@@ -50,7 +50,7 @@
 ## V. Story & Quests
 *   Primary Quest: Obtain the ability to Cut trees
     *   Objective: Find the charcoal maker's runaway Farfetch'd in Ilex Forest.
-    *   Status: In Progress. Puzzle ongoing.
+    *   Status: Complete.
 *   Secondary Quest: Kurt's Custom Balls
     *   Objective: Wait one day for Kurt to finish making a custom ball from the WHT APRICORN.
     *   Status: Blocked by time.
@@ -69,6 +69,7 @@
 *   **Step 5 - Movement 1:** Interacting from the North at (15, 24) while it is at (15, 25) causes it to move to (15, 29).
 *   **Step 6 - Disappearance 1:** Interacting from the North at (15, 28) while it is at (15, 29) causes it to walk a path and disappear at (14, 35).
 *   **Step 7 - Reappearance 2:** After 'Disappearance 1', walking the trigger path from (15, 27) to (9, 34) causes it to reappear at (10, 35).
+*   **Step 8 - Final Movement & Disappearance:** Interacting from the East at (11, 35) while it is at (10, 35) causes it to move along a complex path and disappear near the apprentice.
 *   **Looping Mechanics (Avoid):**
     *   Interacting from the North at (10, 34) while it is at (10, 35) causes it to move back to (15, 29). (Movement 2)
     *   Interacting from the East at (16, 29) while it is at (15, 29) causes it to move North to (15, 25). (Movement 3)
@@ -81,15 +82,7 @@
     *   Team Weaknesses: Severe weakness to Ground-type attacks. Lack of coverage against Water and Rock types. A Grass or Water-type Pokémon is needed for balance.
 
 ## VIII. Untested Hypotheses & Strategic Notes
-*   **New Hypothesis:** Now that the Farfetch'd is at (20, 24), I must interact with it to see what happens next.
 *   **Farfetch'd Puzzle Alternatives:** If the puzzle proves too difficult after several more attempts, I will re-explore Azalea Town for other clues.
 
-## IX. Current Farfetch'd Puzzle Hypothesis
-*   **Observation:** The Farfetch'd was at (20, 24).
-*   **Test (Failed):** I tested my hypothesis by interacting from the north at (20, 23). This did NOT move the Farfetch'd west. Instead, it caused the Farfetch'd to move along a path from (20, 24) to (26, 24) and then disappear. This is a new, verified mechanic.
-*   **New Hypothesis:** Since the Farfetch'd has disappeared, a new trigger path is likely required to make it reappear, similar to the 'Reappearance 2' mechanic. I will start by exploring the area where it disappeared, around (26, 24), to find the start of this new path.
 ## IX. Failed Hypotheses & Corrections
 *   **Trigger Path Hypothesis (Failed):** My hypothesis that walking from (26, 24) to (20, 24) would make the Farfetch'd reappear at (15, 25) was incorrect. Instead, walking this path caused the entire puzzle to reset, with the Farfetch'd returning to its starting position at (29, 22). This implies an unknown reset trigger exists along that path.
-*   Movement 6 (Disappearance 2): Interacting from the East at (21, 24) while it is at (20, 24) causes it to move along a path and disappear at (16, 23).
-*   Reappearance 3: After 'Disappearance 2', moving to (20, 24) causes the Farfetch'd to reappear at (15, 25).
-*   **Step 8 - Final Movement & Disappearance:** Interacting from the East at (11, 35) while it is at (10, 35) causes it to move along a complex path and disappear near the apprentice.
