@@ -21,7 +21,6 @@
     *   `path_finder` Failure (Turn 21869): The tool generated an invalid path through a stationary NPC. Correction (Turn 21871): The tool's script was updated to check for the `has-object='true'` tile attribute.
     *   `path_finder` Dynamic Obstacle Failure (Turn 24138): The tool generated a path through a tile that was temporarily blocked by a moving NPC (GRAMPS, ID 2). Conclusion: The tool's logic is sound, but my strategy must account for dynamic obstacles. Temporarily freezing key NPCs may be a valid tactic for reliable navigation in cluttered areas.
 *   Overwatch Critique Note (Turn 24151): The critique mentioned undocumented tile types (`FLOWERBED`, `LEDGE`, `ROOF`). A review of the map data for Azalea Town confirms that `FLOWERBED` and `ROOF` tiles are not present. The only `LEDGE` type is `LEDGE_HOP_DOWN`, which is already documented. This part of the critique appears to be based on incorrect information.
-*   `path_finder` Critical Failure (Turn 24800): The tool is fundamentally broken. It generated a path through an impassable HEADBUTT_TREE at (4, 6). The tool was untrustworthy and will not be used until a complete rewrite or exhaustive debugging can be performed. Reverting to manual path planning. (Note: This was later found to be a coordinate system bug, fixed in Turn 24764).
 
 ## V. Tile Traversal Rules
 *   Traversable: TALL_GRASS, LONG_GRASS, DOOR, LADDER, FLOOR, WARP_CARPET_RIGHT, WARP_CARPET_DOWN.
