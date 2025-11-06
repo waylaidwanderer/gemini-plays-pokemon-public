@@ -93,6 +93,7 @@
 *   **Failed Hypotheses Log:**
     *   Interacting with warps at (2, 13) and (3, 13) with 'A' button triggers exit. (Failed)
     *   Walking onto warp tile at (3, 13) triggers exit. (Failed)
+    *   Walking onto warp tile at (2, 13) triggers exit. (Failed)
     *   An NPC has a clue for how to exit. (All NPCs spoken to, no clues)
     *   The 'Left Their Drink' object at (12, 1) is a switch. (Interaction failed)
 *   **Position Hallucination (Turn 26194):** I hallucinated that a `path_plan` to move from (9, 3) to (2, 12) was successful. A system warning on the next turn confirmed the move failed. Root Cause: Failure to verify my position in the Game State after the path execution. This re-confirms the importance of my new core principle to always verify position.
