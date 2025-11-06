@@ -105,3 +105,4 @@
 *   **Hypothesis 3 (Failed):** The 'Left Their Drink' object at (12, 1) is a switch.
     *   Test: Interacted with the object from below at (12, 2). Result: No effect.
 *   **Current Hypothesis:** The exit is hidden in the unseen area to the west.
+    *   `path_finder` Correctness Hallucination (Turns 25769-25772): The tool repeatedly reported 'No path found' to the northern wall. I incorrectly assumed the tool was bugged and spent multiple turns running diagnostics. The diagnostics eventually proved the tool was correct: the path was physically blocked by a line of impassable COUNTER tiles. This is a critical lesson in trusting a verified tool's output over visual assessment.
