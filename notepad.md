@@ -23,15 +23,6 @@
 *   Overwatch Critique Note (Turn 24151): The critique mentioned undocumented tile types (`FLOWERBED`, `LEDGE`, `ROOF`). A review of the map data for Azalea Town confirms that `FLOWERBED` and `ROOF` tiles are not present. The only `LEDGE` type is `LEDGE_HOP_DOWN`, which is already documented. This part of the critique appears to be based on incorrect information.
 *   `path_finder` Critical Failure (Turn 24800): The tool is fundamentally broken. It generated a path through an impassable HEADBUTT_TREE at (4, 6). The tool was untrustworthy and will not be used until a complete rewrite or exhaustive debugging can be performed. Reverting to manual path planning. (Note: This was later found to be a coordinate system bug, fixed in Turn 24764).
 
-## IV. Reflection & Critique Log
-
-*   Overwatch Critique Reflection (Turn 22059): My debugging process for a pathfinding tool was inefficient. I failed to propagate a logic fix from `path_finder`, causing repeated failures. I also failed to immediately mark the second Farfetch'd's location, violating the 'immediate update' rule. I must be more disciplined.
-*   Reflection Log (Turn 22162): My debugging of a pathfinding tool was inefficient. I repeatedly submitted identical, non-functional code. My new process is to use `run_code` for isolated testing first. I also documented alternative hypotheses for the HM01 Cut quest, including time-based triggers or unmarked trigger tiles.
-*   Overwatch Critique Reflection (Turn 22262): I was over-reliant on `battle_strategist` for trivial wild encounters and made repeated input errors in battle menus. I need to be more efficient and decisive in simple situations and more careful with my inputs.
-*   Correction (Turn 22378): I experienced a hallucination and incorrectly believed I had moved to (25, 24) and tested the trigger tile. In reality, I remained at (7, 29). The test was invalid. My hypothesis that the trigger requires speaking to the apprentice first remains untested.
-*   Reflection Log (Turn 22475): I violated the 'immediate action' principle by repeatedly submitting broken code for my pathfinding tool instead of debugging it immediately. I also failed to mark the Farfetch'd location promptly. This must not happen again.
-*   Reflection Log (Turn 24756): My repeated pathing failures were due to my own manual data conversion errors, a critical lesson in trusting my verified tools.
-
 ## V. Tile Traversal Rules
 *   Traversable: TALL_GRASS, LONG_GRASS, DOOR, LADDER, FLOOR, WARP_CARPET_RIGHT, WARP_CARPET_DOWN.
 *   Impassable (Verified): WALL, WINDOW, CUT_TREE, SIGN, BOOKSHELF, BLACKBOARD, MART_SHELF, BUOY, TV, TOWN_MAP, BIRD, HEADBUTT_TREE, FRUIT_TREE, COMPUTER, PRINTER, WATER, CAVE, COUNTER, VOID.
