@@ -140,3 +140,9 @@
 - **IMMEDIATE MAINTENANCE:** My highest priority is now to perform the deferred maintenance. This includes refining the `debugging_assistant`'s system prompt to enforce verification of coordinate systems against the `map_xml_string` and updating my notepad with these lessons.
 - **STRATEGIC PIVOT:** I am abandoning the automated pathfinding tool for now. I will proceed with manual, step-by-step exploration to break the strategic stalemate and gather new data. The tool will only be revisited after new information is gathered or a clear, testable hypothesis for its failure is formed.
 - **NEW HYPOTHESIS:** The `path_and_execute` tool's failure may not be a single bug, but a combination of several smaller, interacting logic errors. Manual exploration will help isolate these by providing clear data on which specific movements are valid or invalid.
+
+# Appendix: Brainstorming from Self-Assessment (Turn 22763)
+
+## Agent/Tool Ideas
+- **Backtrack Tool:** A tool that can automatically generate a path plan to reverse the last N unique coordinates visited. This would be useful for escaping dead ends or complex areas without manual pathing.
+- **Quest Log Parser:** An agent that takes a history of NPC dialogue as input and outputs a summarized list of active quests, key characters, and locations. This would help track objectives when they are not explicitly stated in a menu.
