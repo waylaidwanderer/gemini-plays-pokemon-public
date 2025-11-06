@@ -47,9 +47,7 @@
 
 - **Hypothesis 4 (VIA AGENT):** Agent suggested a second puzzle phase deeper in the forest.
 
-# Appendix: Core Lessons & Mechanics
-
-## Farfetch'd Puzzle Mechanics
+## Ilex Forest: Farfetch'd Puzzle Mechanics
 
 ## Hypothesis 5 (Turn 23851) - FAILED
 - **Observation:** After successfully herding the Farfetch'd to the western part of the forest, interacting with it from the right at (21, 24) caused the entire puzzle to reset, returning the Farfetch'd to (15, 25).
