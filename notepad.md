@@ -78,6 +78,6 @@
 ## VIII. Untested Hypotheses & Strategic Notes
 *   **Farfetch'd at (15, 25) - Second Interaction:**
     *   **Observation:** The Farfetch'd has returned to (15, 25), a position it occupied earlier in the puzzle. Interacting from the North previously moved it to (15, 29). Interacting from the east is not possible due to a wall.
-    *   **Hypothesis:** To break the current pattern and herd it west towards the apprentice, I must interact with it from the West, at (14, 25).
-    *   **Test Plan:** Move to (14, 25), face right, and interact.
+    *   **Hypothesis:** The previous plan to interact from the west at (14, 25) is invalid, as that tile is an impassable HEADBUTT_TREE. The only remaining valid interaction point is from the South, at (15, 26).
+    *   **Test Plan:** Move to (15, 26), face up, and interact.
 *   **Farfetch'd Puzzle Alternatives:** If the puzzle proves too difficult after several more attempts, I will re-explore Azalea Town for other clues.
