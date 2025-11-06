@@ -61,7 +61,7 @@
 
 ## VI. Farfetch'd Puzzle - Verified Mechanics
 *   Reset: Stepping on the tile at (15, 27) acts as a hard reset, causing the Farfetch'd to respawn at its starting position of (29, 22).
-*   Teleport 1: Interacting from the South at (29, 23) while it is at (29, 22) causes it to teleport to (20, 24).
+*   Movement 5 (Run & Disappear): Interacting from the South at (29, 23) while it is at (29, 22) causes it to run west to (24, 22) and disappear.
 *   Reappearance 1: After Teleport 1, walking the trigger path from (26, 24) towards (20, 24) causes it to reappear at (20, 24).
 *   Movement 1 (Loop): Interacting from the North at (15, 24) while it is at (15, 25) causes it to move to (15, 29).
 *   Disappearance 1: Interacting from the North at (15, 28) while it is at (15, 29) caused it to walk a path and disappear at (14, 35).
