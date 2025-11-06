@@ -39,13 +39,9 @@
 - **CRITICAL HALLUCination (Turn 11872):** Believed a warp to Union Cave existed at (11, 9) on the AzaleaTown map (8_7). The system confirmed no warp exists there. The actual warp to Union Cave is on Route 33 (8_6) at (11, 9). This was a major failure in location awareness.
 - **CRITICAL HALLUCINATION (Turn 11928):** Believed a warp to Dark Cave existed at (34, 5) on the VioletCity map (10_5). The system confirmed no warp exists there. This was a major failure in location awareness.
 
-## Ilex Forest: Farfetch'd Puzzle Mechanics
-
 - **Initial State:** The puzzle involved herding a Farfetch'd. Early hypotheses involving talking to NPCs or searching twig piles failed. A full systematic search of the initial area was also performed before discovering the multi-stage nature of the puzzle.
 
 - **Hypothesis 4 (VIA AGENT):** Agent suggested a second puzzle phase deeper in the forest.
-
-## Ilex Forest: Farfetch'd Puzzle Mechanics
 
 ## Hypothesis 5 (Turn 23851) - FAILED
 - **Observation:** After successfully herding the Farfetch'd to the western part of the forest, interacting with it from the right at (21, 24) caused the entire puzzle to reset, returning the Farfetch'd to (15, 25).
