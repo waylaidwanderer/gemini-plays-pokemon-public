@@ -624,6 +624,16 @@
         "commit_message": "fix: Correct ModuleNotFoundError by fixing XML import. The script was using `import xml.et.ree.ElementTree`, which is an invalid module path. This commit changes it to the correct `import xml.etree.ElementTree`, resolving the crash.",
         "timestamp": "2025-11-06T06:38:06.499Z",
         "action_counter": 22654
+      },
+      {
+        "commit_message": "fix: Correct BFS boundary check to use 1-indexed coordinates. The previous version used a 0-indexed check (`0 <= x < width`), which was incorrect for the game's 1-indexed map data. This caused the tool to generate invalid paths through obstacles at the map boundaries. This commit changes the check to `1 <= x <= width`, resolving the critical pathfinding failure.",
+        "timestamp": "2025-11-06T06:40:07.703Z",
+        "action_counter": 22657
+      },
+      {
+        "commit_message": "revert: Revert to 0-indexed boundary check. A previous agent suggestion incorrectly changed the boundary check to be 1-indexed, which was a regression to a known bug. The map data contains tiles at x=0, confirming that the coordinate system is 0-indexed. This commit reverts the check to `0 <= x < width`, restoring the correct logic and resolving the persistent pathfinding failure.",
+        "timestamp": "2025-11-06T06:41:13.821Z",
+        "action_counter": 22659
       }
     ]
   }
