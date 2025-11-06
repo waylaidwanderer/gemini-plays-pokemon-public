@@ -97,7 +97,7 @@
 *   **Objective:** Find the exit.
 *   **Current Hypothesis:** A hidden switch exists in the southern, reachable area.
 *   **Alternative Hypothesis (Contingency Plan):** The exit trigger is not in this room. It may require an external event, such as obtaining the COIN CASE or defeating the Gym Leader. If the systematic search of this area is exhausted with no results, the next step is to leave and explore other parts of Goldenrod City.
-*   **Systematic Search Plan:** I am systematically checking every reachable tile adjacent to an impassable object (WALL, COUNTER, etc.) using my `find_reachable_interactable_tiles` tool as a guide and marking progress with map markers.
+*   **Systematic Search Plan:** I am systematically checking every reachable tile adjacent to an impassable object (WALL, COUNTER, etc.) and marking progress with map markers.
 *   **Failed Hypotheses Log:**
     *   The warps at (2, 13) and (3, 13) are a standard exit. (Confirmed inactive)
     *   An NPC has a clue for how to exit. (All NPCs spoken to, no clues)
