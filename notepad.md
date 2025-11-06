@@ -87,3 +87,4 @@
     *   LADDER: Triggers a warp when walked onto. Does not require interaction with the 'A' button.
 *   **Warp Carpet Movement Hypothesis (Failed):** Stepping on the WARP_CARPET_DOWN tile at (21, 29) did not trigger a warp. This confirms these warps require an external trigger.
 *   Hiker Anthony wants a rematch on Route 33.
+*   Bill's Family: Bill is at the Pokémon Center in Ecruteak City. His father is at the Game Corner.
