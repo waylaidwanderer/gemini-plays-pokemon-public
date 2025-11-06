@@ -2,7 +2,8 @@
 
 - **Objective:** Herd the lost Farfetch'd back to the apprentice at (7, 28).
 
-- **Current State:** The Farfetch'd is not at its usual starting position of (15, 25). I have tested the four twig piles at (14, 26), (15, 27), (15, 28), and (16, 28) with no result.
+- **Conclusion:** Stepping on the four twig piles at (14, 26), (15, 27), (15, 28), and (16, 28) has no effect. The solution is not related to the twigs.
+- **New Plan:** Systematically search the accessible area to locate the Farfetch'd. Interaction with the Farfetch'd itself is the most likely solution. The search will begin from its known reset point at (15, 25).
 
 - **Systematic Test Plan:**
   1.  **Locate:** Systematically explore the accessible areas of the forest to find the Farfetch'd's current location.

@@ -463,6 +463,16 @@
         "commit_message": "revert: Revert to 0-indexed boundary check. A previous agent suggestion incorrectly changed the boundary check to be 1-indexed, which was a regression to a known bug. The map data contains tiles at x=0, confirming that the coordinate system is 0-indexed. This commit reverts the check to `0 <= x < width`, restoring the correct logic and resolving the persistent pathfinding failure.",
         "timestamp": "2025-11-06T06:41:13.821Z",
         "action_counter": 22659
+      },
+      {
+        "commit_message": "fix: Add HEADBUTT_TREE to impassable tiles. The pathfinder was failing because it did not recognize HEADBUTT_TREE as an obstacle, causing it to generate invalid paths. This commit adds 'HEADBUTT_TREE' to the `impassable_types` set, resolving the critical pathfinding failure.",
+        "timestamp": "2025-11-06T10:19:51.563Z",
+        "action_counter": 23049
+      },
+      {
+        "commit_message": "fix: Correct ModuleNotFoundError by fixing XML import. The script was using `import xml.et.ree.ElementTree`, which is an invalid module path. This commit changes it to the correct `import xml.etree.ElementTree`, resolving the crash.",
+        "timestamp": "2025-11-06T10:21:35.616Z",
+        "action_counter": 23051
       }
     ]
   },
