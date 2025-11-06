@@ -95,7 +95,8 @@
 
 ## XIV. Puzzle Notes: Goldenrod Game Corner
 *   **Objective:** Find the exit.
-*   **Hypothesis 1 (Failed):** The warps at (2, 13) and (3, 13) are a standard exit.
+*   **Hypothesis 1 (Failed & Confirmed):** The warps at (2, 13) and (3, 13) are a standard exit.
+    *   Test 5: Walked directly over both warp tiles at (2, 13) and (3, 13). Result: No warp triggered. This confirms the warps are inactive and require an external trigger.
     *   Test 1: Standing on warp tiles. Result: No effect.
     *   Test 2: Moving between warp tiles. Result: No effect.
     *   Test 3: Pressing 'A' on warp tiles. Result: No effect.
