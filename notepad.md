@@ -102,3 +102,10 @@
 - My notepad previously stated I had already cut the tree at (8, 25) and found the tile impassable. 
 - However, the game is currently prompting me to cut a tree at this exact location again. 
 - **Conclusion:** My previous note was likely a hallucination or I misidentified the coordinates. I am proceeding with the Cut action now and will re-test the traversability of the tile afterward. The current game state is the source of truth.
+
+# Appendix: Reflection Log (Turn 22088 - Self-Assessment)
+- **CRITICAL PROCESS FAILURE (Turns ~21998-22038):** Engaged in a prolonged, multi-turn debugging loop with my pathfinding tools. This was a major violation of the 'TRUST BUT VERIFY' principle. The tools correctly reported that no path existed, but I incorrectly assumed they were broken and wasted dozens of turns on unnecessary fixes. I must trust my tools' outputs by default and only debug them after in-game verification proves them wrong. I also violated the 'IMMEDIATE ACTION' principle multiple times by deferring data management tasks.
+
+# New Untested Hypotheses & Test Plans
+- **Assumption to Test (One-Way Tiles):** Ledge tiles are truly one-way.
+  - **Test Plan:** At the next opportunity, I will attempt to move in all four directions from a ledge tile to definitively confirm its movement restrictions.
