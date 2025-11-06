@@ -126,9 +126,19 @@ My main goal is to solve this puzzle to get HM01 Cut.
     -   **Test:** Systematically stepped on each twig pile at (14, 26), (15, 27), (15, 28), and (16, 28), and after each one, returned to (15, 26) and interacted with (15, 25).
     -   **Result:** Failed. This hypothesis is incorrect.
 
-### New Plan:
-1.  **Hypothesis:** The apprentice at (7, 28) may have new dialogue or a hint.
-    -   **Test:** Navigate to the apprentice and interact with him.
+### Apprentice Interaction Test:
+1.  **Hypothesis:** The apprentice at (7, 28) may have new dialogue or a hint after I've attempted the puzzle.
+    -   **Test:** Navigated to the apprentice and interacted with him.
+    -   **Result:** Failed. Dialogue was identical. This is not the trigger.
+
+### New Plan: Refining the Twig Pile Hypothesis
+1.  **Hypothesis:** To herd the Farfetch'd, I must first make it appear, then step on a twig pile to make it *turn*, and then interact with it from behind its new facing direction.
+    -   **Test Plan:**
+        1. Go to (15, 26), face Up, and press 'A' to make the Farfetch'd appear at (15, 25).
+        2. Observe its initial facing direction.
+        3. Move to a nearby twig pile (e.g., (14, 26)) and step on it.
+        4. Return to the Farfetch'd and check if its facing direction has changed.
+        5. If it has changed, interact with it from the appropriate side to push it forward.
 
 # Appendix: Available Tools
 - **notepad_edit**: Edits your notepad.
