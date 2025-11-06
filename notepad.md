@@ -162,7 +162,7 @@
 *   (5, 4) - To be tested
 *   (6, 4) - To be tested
 *   (7, 4) - To be tested
-*   (12, 4) - To be tested
+*   (12, 4) - Tested, not a switch
 *   (13, 4) - To be tested
 *   (14, 4) - To be tested
 *   (15, 4) - To be tested
