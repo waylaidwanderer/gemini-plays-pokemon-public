@@ -63,11 +63,12 @@
 *   Reset: Stepping on the tile at (15, 27) acts as a hard reset, causing the Farfetch'd to respawn at its starting position of (29, 22).
 *   Teleport 1: Interacting from the South at (29, 23) while it is at (29, 22) causes it to teleport to (20, 24).
 *   Reappearance 1: After Teleport 1, walking the trigger path from (26, 24) towards (20, 24) causes it to reappear at (20, 24).
-*   Movement 1: Interacting from the North at (15, 24) while it is at (15, 25) causes it to move to (15, 29).
+*   Movement 1 (Loop): Interacting from the North at (15, 24) while it is at (15, 25) causes it to move to (15, 29).
 *   Disappearance 1: Interacting from the North at (15, 28) while it is at (15, 29) caused it to walk a path and disappear at (14, 35).
 *   Reappearance 2: After Disappearance 1, walking the trigger path from (15, 27) to (9, 34) causes it to reappear at (10, 35).
-*   Movement 2: Interacting from the North at (10, 34) while it is at (10, 35) causes it to move to (15, 29).
-*   Movement 3: Interacting from the East at (16, 29) while it is at (15, 29) causes it to move North to (15, 25).
+*   Movement 2 (Loop): Interacting from the North at (10, 34) while it is at (10, 35) causes it to move back to (15, 29).
+*   Movement 3 (Loop): Interacting from the East at (16, 29) while it is at (15, 29) causes it to move North to (15, 25).
+*   Movement 4 (Loop): Interacting from the South at (15, 26) while it is at (15, 25) causes it to move to (20, 24).
 
 ## VII. Team Strategy & Analysis
 *   `team_analyst` Report (Turn 24443):
@@ -76,8 +77,5 @@
     *   Team Weaknesses: Severe weakness to Ground-type attacks. Lack of coverage against Water and Rock types. A Grass or Water-type Pokémon is needed for balance.
 
 ## VIII. Untested Hypotheses & Strategic Notes
-*   **Farfetch'd at (15, 25) - Second Interaction:**
-    *   **Observation:** The Farfetch'd has returned to (15, 25), a position it occupied earlier in the puzzle. Interacting from the North previously moved it to (15, 29). Interacting from the east is not possible due to a wall.
-    *   **Movement 4 (Loop):** Interacting from the South at (15, 26) while it is at (15, 25) causes it to move to (20, 24). This resets the puzzle to a previous state.
-    *   **New Hypothesis:** Since the Farfetch'd is back at (20, 24), I must repeat the trigger path from (26, 24) to (20, 24) to make it reappear at (15, 25).
+*   **New Hypothesis:** Now that the Farfetch'd is at (20, 24), I must interact with it to see what happens next.
 *   **Farfetch'd Puzzle Alternatives:** If the puzzle proves too difficult after several more attempts, I will re-explore Azalea Town for other clues.
