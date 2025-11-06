@@ -158,13 +158,11 @@ My main goal is to solve this puzzle to get HM01 Cut.
     -   **Test:** Stepped on the twig pile at (14, 26), then moved to a vantage point at (15, 27) to observe the trigger area (15, 25).
     -   **Result:** Failed. No Farfetch'd appeared. This hypothesis is incorrect.
 
-### Systematic Twig Pile Test (Failed)
-1. **Hypothesis:** Stepping on one of the four twig piles is the initial trigger to make the Farfetch'd appear.
-   - **Test 1 (Pile at 14, 26):** Stepped on the pile, then moved to (15, 27) to observe. **Result:** Failed. No Farfetch'd appeared.
-   - **Test 2 (Pile at 15, 27):** Stepped on the pile. **Result:** Failed. No Farfetch'd appeared.
-   - **Test 3 (Pile at 15, 28):** Stepped on the pile. **Result:** Failed. No Farfetch'd appeared.
-   - **Test 4 (Pile at 16, 28):** Stepped on the pile. **Result:** Failed. No Farfetch'd appeared.
-- **Conclusion:** The initial hypothesis is conclusively false. Stepping on an individual twig pile is not the trigger to make the Farfetch'd appear. The core function of the twigs is likely to control the Farfetch'd's direction *after* it has already been spawned by another, as-yet-unknown trigger.
+### Systematic Twig Pile Test (Conclusively Failed)
+- **Hypothesis:** Stepping on an individual twig pile is the trigger to make the Farfetch'd appear.
+- **Test:** Systematically stepped on all four twig piles at (14, 26), (15, 27), (15, 28), and (16, 28).
+- **Result:** Failed. No Farfetch'd appeared after stepping on any individual pile.
+- **Conclusion:** The hypothesis is false. The twigs are not the initial trigger. Their purpose is likely to direct the Farfetch'd *after* it has been spawned by a different, undiscovered trigger.
 
 ### Forced Movement Trigger Hypothesis
 - **Hypothesis:** The forced movement from (15, 26) to (15, 25) when pressing 'Up' is the trigger to make the Farfetch'd appear.
