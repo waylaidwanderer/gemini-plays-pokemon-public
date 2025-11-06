@@ -110,7 +110,8 @@
     *   (13, 2) -> Counter at (14, 2): Checked, no effect. (Marked 🚫)
     *   (8, 3) -> Counter at (7, 3): Checked, no effect. (Marked 🚫)
     *   (13, 3) -> Counter at (14, 3): Checked, no effect. (Marked 🚫)
-    *   (0, 4) -> Counter at (0, 3): Checked, no effect. (Marked 🚫) (Marked 🚫)
+    *   (0, 4) -> Counter at (0, 3): Checked, no effect. (Marked 🚫)
+    *   (1, 4) -> Counter at (1, 3): Checked, no effect. (Marked 🚫)
     *   (13, 2) -> Counter at (14, 2): Checked, no effect. (Marked 🚫)
 *   **Failed Hypotheses Log:**
     *   The warps at (2, 13) and (3, 13) are a standard exit. (Confirmed inactive)
