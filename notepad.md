@@ -111,5 +111,5 @@
     - Row 11: (1,11), (5,11), (8,11), (14,11), (17,11) - All Checked.
     - Row 10: (1,10), (8,10), (14,10), (17,10) - All Checked. (11,10) is blocked.
     - Row 9: (1,9), (5,9), (8,9), (11,9), (14,9), (17,9) - All Checked.
-    - Row 8: (1,8) - Checked. (5,8) - Checked (Slot machine, requires Coin Case).
+    - Row 8: (1,8) - Checked. (5,8) - Checked (Slot machine). (8,8) - Checked (Slot machine).
 *   **Verify Position After Movement:** After every `path_plan` execution, I must verify my actual `current_position` from the Game State against the plan's destination to prevent movement-related hallucinations.
