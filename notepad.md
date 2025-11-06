@@ -106,3 +106,4 @@
 *   **Discovery (Teleport):** Interacting from the South at (29, 23) while it was at (29, 22) resulted in a 'Kwaa!' and caused it to teleport to (20, 24).
 *   **Discovery (Reappearance):** After a 'disappear from East interaction' sequence, walking the trigger path from (26, 24) to (20, 24) caused the Farfetch'd to reappear at (15, 25).
 *   **Discovery (Movement):** Interacting from the North at (15, 24) while the Farfetch'd was at (15, 25) caused it to move to (15, 29).
+*   **Discovery (Movement):** Interacting from the North at (10, 34) while the Farfetch'd was at (10, 35) caused it to move to (15, 29).
