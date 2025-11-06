@@ -84,12 +84,3 @@
     *   **Primary Hypothesis:** The tile is permanently impassable despite being a `FLOOR` type.
     *   **Alternative Hypothesis:** The tile is conditionally impassable (e.g., only from the south).
     *   **Test Plan:** After confirming blockage from (20, 10), move to (19, 9) and attempt to move right, and move to (21, 9) and attempt to move left.
-
-## Farfetch'd Puzzle Log (New)
-*   **Test:** Walked path (15, 27) -> (9, 34) after a 'disappear from West interaction' at (27, 31).
-*   **Result:** FAILURE. Farfetch'd did not reappear at (10, 35) or anywhere else visible. The reset path is context-dependent.
-*   **Reflection Log (Turn 24321):** I experienced a major failure in my reasoning process. I incorrectly concluded that the `path_finder` tool was generating invalid paths and spent multiple turns adding diagnostic prints to debug a non-existent bug. The tool was, in fact, working correctly the entire time, and the issue was my own misinterpretation of the output. This highlights a critical need for more careful verification of my own conclusions before dedicating time to debugging. I must trust my verified tools and double-check my own analysis to avoid such wasteful detours in the future.
-*   **Discovery (Teleport):** Interacting from the South at (29, 23) while it was at (29, 22) resulted in a 'Kwaa!' and caused it to teleport to (20, 24).
-*   **Discovery (Reappearance):** After a 'disappear from East interaction' sequence, walking the trigger path from (26, 24) to (20, 24) caused the Farfetch'd to reappear at (15, 25).
-*   **Discovery (Movement):** Interacting from the North at (15, 24) while the Farfetch'd was at (15, 25) caused it to move to (15, 29).
-*   **Discovery (Movement):** Interacting from the North at (10, 34) while the Farfetch'd was at (10, 35) caused it to move to (15, 29).
