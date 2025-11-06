@@ -157,3 +157,8 @@
 - **Assumption (HEADBUTT_TREE):** This tree type requires the move Headbutt to interact with.
   - **Alternative Hypothesis:** It is a standard impassable object, or it requires a different item or event trigger.
   - **Test Plan:** At the next opportunity, interact with a HEADBUTT_TREE by pressing 'A' to see if any interaction occurs without the move Headbutt.
+
+# New Untested Hypotheses & Test Plans (Post-Self-Assessment)
+- **Assumption (HEADBUTT_TREE):** This tree type requires the move Headbutt to interact with.
+  - **Alternative Hypothesis:** It is a standard impassable object, or it requires a different item or event trigger.
+  - **Test Plan:** At the next opportunity, interact with a HEADBUTT_TREE by pressing 'A' to see if any interaction occurs without the move Headbutt.
