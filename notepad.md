@@ -78,6 +78,6 @@
 ## VIII. Untested Hypotheses & Strategic Notes
 *   **Farfetch'd at (15, 25) - Second Interaction:**
     *   **Observation:** The Farfetch'd has returned to (15, 25), a position it occupied earlier in the puzzle. Interacting from the North previously moved it to (15, 29). Interacting from the east is not possible due to a wall.
-    *   **Hypothesis:** The previous plan to interact from the west at (14, 25) is invalid, as that tile is an impassable HEADBUTT_TREE. The only remaining valid interaction point is from the South, at (15, 26).
-    *   **Test Plan:** Move to (15, 26), face up, and interact.
+    *   **Movement 4 (Loop):** Interacting from the South at (15, 26) while it is at (15, 25) causes it to move to (20, 24). This resets the puzzle to a previous state.
+    *   **New Hypothesis:** Since the Farfetch'd is back at (20, 24), I must repeat the trigger path from (26, 24) to (20, 24) to make it reappear at (15, 25).
 *   **Farfetch'd Puzzle Alternatives:** If the puzzle proves too difficult after several more attempts, I will re-explore Azalea Town for other clues.
