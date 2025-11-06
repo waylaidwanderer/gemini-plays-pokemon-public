@@ -143,7 +143,7 @@
 *   (10, 1) - Tested, not a switch
 *   (13, 1) - Tested, not a switch
 *   (8, 2) - Tested, not a switch
-*   (11, 2) - Tested, not a switch
+(11, 2) - Tested, not a switch
 *   (12, 2) - Tested, not a switch
 *   (13, 2) - Tested, not a switch
 *   (8, 3) - Tested, not a switch
