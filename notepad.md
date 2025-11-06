@@ -105,30 +105,10 @@
     *   Test: Spoke to all 12 visible NPCs in the room. Result: No clues, only game tips and prize info.
 *   **Hypothesis 3 (Failed):** The 'Left Their Drink' object at (12, 1) is a switch.
     *   Test: Interacted with the object from below at (12, 2). Result: No effect.
-*   **Current Hypothesis:** The exit is hidden in the unseen area to the west.
-    *   `path_finder` Correctness Hallucination (Turns 25769-25772): The tool repeatedly reported 'No path found' to the northern wall. I incorrectly assumed the tool was bugged and spent multiple turns running diagnostics. The diagnostics eventually proved the tool was correct: the path was physically blocked by a line of impassable COUNTER tiles. This is a critical lesson in trusting a verified tool's output over visual assessment.
-    *   **Search Progress (Interactable Tiles):**
-        - (0, 12) - Checked
-        - (6, 12) - Checked
-        - (7, 12) - Checked
-        - (12, 12) - Checked
-        - (13, 12) - Checked
-        - (18, 12) - Checked
-        - (19, 12) - Checked
-        - (1, 11) - Checked
-        - (5, 11) - Checked
-        - (8, 11) - Checked
-        - (14, 11) - Checked
-        - (17, 11) - Checked
-        - (1, 10) - Checked
-        - (8, 10) - Checked
-        - (11, 10) - Blocked by NPC
-        - (14, 10) - Checked
-        - (17, 10) - Checked
-        - (1, 9) - Checked
-        - (5, 9) - Checked
-        - (8, 9) - Checked
-        - (11, 9) - Checked
-        - (14, 9) - Checked
-        - (17, 9) - Checked
+*   **Current Hypothesis:** A hidden switch exists in the southern, reachable area. I am conducting a systematic search of all interactable tiles identified by my `find_interactable_tiles` tool.
+*   **Search Progress:**
+    - Row 12: (0,12), (6,12), (7,12), (12,12), (13,12), (18,12), (19,12) - All Checked.
+    - Row 11: (1,11), (5,11), (8,11), (14,11), (17,11) - All Checked.
+    - Row 10: (1,10), (8,10), (14,10), (17,10) - All Checked. (11,10) is blocked.
+    - Row 9: (1,9), (5,9), (8,9), (11,9), (14,9), (17,9) - All Checked.
 *   **Verify Position After Movement:** After every `path_plan` execution, I must verify my actual `current_position` from the Game State against the plan's destination to prevent movement-related hallucinations.
