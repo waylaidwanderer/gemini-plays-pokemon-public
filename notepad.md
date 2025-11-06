@@ -86,3 +86,7 @@
 
 ## IX. Failed Hypotheses & Corrections
 *   **Trigger Path Hypothesis (Failed):** My hypothesis that walking from (26, 24) to (20, 24) would make the Farfetch'd reappear at (15, 25) was incorrect. Instead, walking this path caused the entire puzzle to reset, with the Farfetch'd returning to its starting position at (29, 22). This implies an unknown reset trigger exists along that path.
+## X. Untested Assumptions & Falsification
+*   **Assumption:** The only way to exit Ilex Forest is through the northern gatehouse to Route 34.
+*   **Alternative Hypothesis:** There may be another exit, possibly requiring an HM like Surf to cross the water areas.
+*   **Test Plan:** If I fully explore all currently accessible paths and do not find the exit, I will systematically re-explore the forest's boundaries to look for hidden paths or interactions.
