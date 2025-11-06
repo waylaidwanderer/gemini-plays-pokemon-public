@@ -58,3 +58,6 @@
 - **Test:** Stood at (25, 4), faced down, and pressed 'A' on the tree at (25, 5).
 - **Result:** No text appeared, and no action occurred.
 - **Conclusion:** Hypothesis 1 is FALSE. The tree does not respond to a standard 'A' button interaction. It is likely that the move 'Headbutt' is required to interact with these trees. For now, they are impassable obstacles.
+
+## Hallucination Log
+- **Turn 24083:** Position mismatch. Believed I was at (25, 14) but was actually at (29, 11). This caused a failed navigation attempt.
