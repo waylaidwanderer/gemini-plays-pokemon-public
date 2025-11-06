@@ -6,7 +6,7 @@
 - **CAVE**: Traversable warp.
 - **COUNTER**: Impassable.
 - **CUT_TREE**: Impassable. Requires HM01 Cut. **Verified on turn 22550:** After using Cut, the tree sprite disappears, but the underlying tile remains impassable.
-- **DOOR**: Traversable warp.
+- **DOOR**: Typically a traversable warp. However, some instances may be impassable until a story condition is met. **Observation (Route 34 Ilex Forest Gate, map 11_23, tile (13, 41)):** A specific door was found to be impassable. This suggests conditional traversability.
 - **FLOOR**: Traversable.
 - **FLOOR_UP_WALL**: A complex one-way tile. Behavior is location-dependent.
 - **GRASS**: Traversable, contains wild Pokémon.
@@ -36,21 +36,12 @@
 
 ## Cut Mechanic (CRITICAL DISCOVERY)
 - Using Cut on a tree removes the visual sprite, but the underlying tile (`CUT_TREE`) remains impassable even after reloading the map. This is a persistent state, not a temporary one.
-- **CRITICAL HALLUCination (Turn 11872):** Believed a warp to Union Cave existed at (11, 9) on the AzaleaTown map (8_7). The system confirmed no warp exists there. The actual warp to Union Cave is on Route 33 (8_6) at (11, 9). This was a major failure in location awareness.
-- **CRITICAL HALLUCINATION (Turn 11928):** Believed a warp to Dark Cave existed at (34, 5) on the VioletCity map (10_5). The system confirmed no warp exists there. This was a major failure in location awareness.
 
+## Ilex Forest Puzzle
 - **Initial State:** The puzzle involved herding a Farfetch'd. Early hypotheses involving talking to NPCs or searching twig piles failed. A full systematic search of the initial area was also performed before discovering the multi-stage nature of the puzzle.
-
 - **Hypothesis 4 (VIA AGENT):** Agent suggested a second puzzle phase deeper in the forest.
-
 - **Hypothesis 5 (FAILED):** Confirmed that interacting with the Farfetch'd from the wrong direction resets the second phase of the puzzle.
-
-## Hypothesis 6 (Turn 23851) - Trusting the Agent
-- **Observation:** The `puzzle_solver_assistant` previously suggested a second chase phase begins around (23, 25). My actions herded the Farfetch'd to this general area, but my final interaction was wrong, causing a reset.
-- **Hypothesis:** The correct solution involves repeating the steps to trigger the second chase, but then finding the correct interaction sequence in the western area to guide the Farfetch'd to the apprentice without causing a reset. The next attempt should involve interacting from a different direction (e.g., from above or below) once the Farfetch'd is in the western area.
-- **Test:**
-    1. Re-solve the first part of the puzzle to move the Farfetch'd west.
-    2. Once it is in the western area, approach it from a different direction than last time (e.g., from above at (20, 23)) and interact.
+- **Hypothesis 6 (Turn 23851) - Trusting the Agent:** The correct solution involves repeating the steps to trigger the second chase, but then finding the correct interaction sequence in the western area to guide the Farfetch'd to the apprentice without causing a reset.
 
 ## HEADBUTT_TREE Mechanics Test
 - **Observation:** The `HEADBUTT_TREE` tile type is impassable.
@@ -60,5 +51,6 @@
 - **Conclusion:** Hypothesis 1 is FALSE. The tree does not respond to a standard 'A' button interaction. It is likely that the move 'Headbutt' is required to interact with these trees. For now, they are impassable obstacles.
 
 ## Hallucination Log
+- **CRITICAL HALLUCination (Turn 11872):** Believed a warp to Union Cave existed at (11, 9) on the AzaleaTown map (8_7). The system confirmed no warp exists there. The actual warp to Union Cave is on Route 33 (8_6) at (11, 9).
+- **CRITICAL HALLUCINATION (Turn 11928):** Believed a warp to Dark Cave existed at (34, 5) on the VioletCity map (10_5). The system confirmed no warp exists there.
 - **Turn 24083:** Position mismatch. Believed I was at (25, 14) but was actually at (29, 11). This caused a failed navigation attempt.
-- **DOOR**: Impassable. Verified in Route 34 Ilex Forest Gate (11_23) at (13, 41).
