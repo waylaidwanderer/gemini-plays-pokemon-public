@@ -41,17 +41,7 @@
 
 ## Ilex Forest: Farfetch'd Puzzle Mechanics
 
-## Hypothesis 1 (Turn 23701) - FAILED
-- **Observation:** After the Farfetch'd disappeared, leaving and re-entering Ilex Forest did not make it reappear. Talking to the apprentice at (7, 28) initiates dialogue about the lost Pokémon.
-- **Hypothesis:** Speaking to the apprentice is the trigger to reset the puzzle and make the Farfetch'd reappear at its starting position (15, 25).
-- **Test:** Complete the dialogue with the apprentice and then travel to (15, 25) to check for the Farfetch'd.
-- **Conclusion (Turn 23708):** The test failed. The Farfetch'd did not reappear at (15, 25).
-
-## Hypothesis 2 (Turn 23708) - FAILED
-- **Observation:** After talking to the apprentice, the Farfetch'd is still missing from its starting position.
-- **Hypothesis:** The puzzle has been reset, but the Farfetch'd has appeared in a new, different location within the puzzle area, specifically at one of the twig piles.
-- **Test:** Systematically search the four known twig pile locations at (14, 26), (15, 27), (15, 28), and (16, 28).
-- **Conclusion (Turn 23719):** The test failed. The Farfetch'd was not at any of the twig pile locations.
+- **Initial Hypotheses (FAILED):** Attempts to reset the puzzle by talking to the apprentice or searching twig piles were unsuccessful.
 
 ## Hypothesis 3 (Turn 23719)
 - **Observation:** The Farfetch'd is not at its starting point or any of the twig piles. The puzzle area is a small, enclosed maze.
