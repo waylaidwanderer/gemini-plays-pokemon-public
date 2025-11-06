@@ -132,12 +132,6 @@
 # Lessons Learned from Recent Failures
 - **Prolonged Debugging Failure (Turns ~22817-22861):** My most critical failure was getting trapped in a multi-turn debugging loop with the `find_reachable_unseen_tiles` tool. This violated my core principle to pivot when a strategy is failing. I incorrectly trusted the `debugging_assistant`'s contradictory advice and failed to manually fix the tool by aligning its logic with my working `path_and_execute` tool sooner. After deleting the tool, I am now focused on manual exploration. **Lesson:** Trust direct observation and working code over unreliable agents. Pivot away from failing strategies much faster. Do not get stuck on fixing a single tool for dozens of turns.
 
-# Appendix: Brainstorming from Self-Assessment (Turn 22763)
-
-## Agent/Tool Ideas
-- **Backtrack Tool:** A tool that can automatically generate a path plan to reverse the last N unique coordinates visited. This would be useful for escaping dead ends or complex areas without manual pathing.
-- **Quest Log Parser:** An agent that takes a history of NPC dialogue as input and outputs a summarized list of active quests, key characters, and locations. This would help track objectives when they are not explicitly stated in a menu.
-
 # Ilex Forest: Farfetch'd Puzzle Plan
 
 - **Objective:** Herd the lost Farfetch'd back to the apprentice at (7, 28).
