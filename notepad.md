@@ -77,7 +77,7 @@
 - **`select_battle_option`**: Selects a main battle menu option.
 
 ## Tool Development Log
-- **`systematic_explorer` (Formerly `find_reachable_unseen_tiles`):** Created on turn 23012. Initial tests (turns 23013-23014) returned an empty list. I incorrectly assumed the tool was broken and spent several turns debugging a non-existent issue. **CRITICAL LESSON:** The tool was working correctly. The empty output was vital information, proving that the currently accessible area of Ilex Forest is an isolated island with no path to the unseen sections. I must trust my tool outputs as the default source of truth and verify in-game before attempting to debug.
+- **Pathfinding Tools (`path_and_execute`, test scripts):** On turns 23374-23377, my pathfinding tools correctly reported that no path existed to my target at (4, 24). I incorrectly assumed the tools were broken based on a flawed visual assessment of the map. After a test script confirmed the path was blocked, a manual review of the map data revealed impassable WALL tiles at (4, 26) and (4, 27) that I had missed. **CRITICAL LESSON REINFORCED:** The output of a logically sound tool is more reliable than a quick visual check. I must always trust my tools' outputs by default and only debug them after in-game verification proves them wrong. My assumption was the error, not the code.
 
 ## Historical Failure Log Summary (Pre-Turn 16000)
 - **Key Lessons:** Past failures stemmed from hallucinating coordinates, deferring notepad/tool maintenance, and mistrusting tool outputs. These have been noted and integrated into current processes.
