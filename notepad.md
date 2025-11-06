@@ -19,7 +19,7 @@
     *   `path_finder` Failure (Turn 21869): The tool generated an invalid path through a stationary NPC. Correction (Turn 21871): The tool's script was updated to check for the `has-object='true'` tile attribute.
     *   `path_finder` Dynamic Obstacle Failure (Turn 24138): The tool generated a path through a tile that was temporarily blocked by a moving NPC (GRAMPS, ID 2). Conclusion: The tool's logic is sound, but my strategy must account for dynamic obstacles. Temporarily freezing key NPCs may be a valid tactic for reliable navigation in cluttered areas.
     *   **Position Hallucination (Turn 25169-25171):** I hallucinated that a `path_plan` to move from (4, 18) to (3, 18) was successful. The system warning on turn 25172 confirmed the move failed and I was still at (4, 18). Root cause: Failure to verify my position in the Game State after the path execution. Corrective action: Added a new core principle to always verify my position.
-*   Overwatch Critique Note (Turn 24151): The critique mentioned undocumented tile types (`FLOWERBED`, `LEDGE`, `ROOF`). A review of the map data for Azalea Town confirms that `FLOWERBED` and `ROOF` tiles are not present. The only `LEDGE` type is `LEDGE_HOP_DOWN`, which is already documented. This part of the critique appears to be based on incorrect information.
+    *   `path_finder` Warp Impassability Bug (Turn 25470): The tool incorrectly classified warp tiles as impassable. Correction (Turn 25471): The tool's script was updated to remove `WARP_CARPET_*` and `DOOR` from the impassable list.
 
 ## V. Tile Traversal Rules
 *   Traversable: TALL_GRASS, LONG_GRASS, DOOR, LADDER, FLOOR, WARP_CARPET_RIGHT, WARP_CARPET_DOWN.
@@ -30,10 +30,10 @@
     *   LEDGE_HOP_LEFT: Can only be entered from the right.
 *   Special Interaction (Warp):
     *   CAVE: Can act as a one-way warp.
-    *   WARP_CARPET_DOWN: Traversable. Warp function appears to require an external trigger.
 *   Special Interaction (Interactable):
     *   PC: Interact by standing below it at (X, Y+1), facing up.
     *   COUNTER: Interact with NPCs behind it by standing in front of the counter. (Impassability confirmed Turn 25221). (Impassability confirmed Turn 25022).
+*   Untested: VOID (Appears impassable, needs verification).
 
 ## VI. Story & Quests
 *   **Primary Quest:** Become the Pokémon League Champion.
@@ -66,27 +66,19 @@
 *   **Test Plan:** Talk to all NPCs in the gatehouse before attempting to exit north.
 *   **Hidden Item Interaction (Postponed):** Attempting to pick up the hidden Super Potion at (4, 18) in Goldenrod Underground.
     *   **Hypothesis 1 (Failed, Turn 25104):** Interaction requires standing *on* the item tile.
-        *   Test: Stood on (4, 18) and pressed A while facing Up, Down, Left, and Right.
-        *   Result: Failed.
     *   **Hypothesis 2 (Failed, Turn 25104):** Interaction requires standing *below* the item tile.
-        *   Test: Stood on (4, 19), faced up, and pressed A.
-        *   Result: Failed.
     *   **Hypothesis 3 (Aborted):** Interaction requires standing *adjacent* to the item tile.
-        *   Test 3a Attempt (Turns 25172-25183): Attempted to move to (3, 18) to test interaction from the left. Encountered persistent position hallucinations and movement failures, preventing the test from being properly executed.
-        *   Conclusion: This location is causing repeated errors. Abandoning attempts to acquire this item for now to break the loop and continue exploration.
-## XII. Puzzle Notes: Goldenrod Underground
-*   **WARP_CARPET_DOWN Tile (Failed Hypotheses):**
-    *   Hypothesis 1: Stepping on the tile at (21, 29) triggers the warp. Result: Failed.
-    *   Hypothesis 2: Stepping *down* onto the tile from (21, 28) triggers the warp. Result: Failed.
-    *   Conclusion: Simple movement does not seem to activate these warps. Activation is likely tied to an external trigger, such as a switch.
-*   **Hidden Item Trigger Hypothesis (Failed):** Interacting with hidden items (Antidote at (17, 8), Parlyz Heal at (6, 13)) from adjacent tiles did not trigger any event. This hypothesis is invalid.
-*   **Crate Switch Hypothesis (In Progress):** My current hypothesis is that one of the crate-like walls is a switch. Initial tests at (4, 23) and (5, 23) failed. I am now proceeding with a systematic test of all accessible crates from left to right, ensuring I stand below and face up as per system guidance.
-*   **Sign Clue Hypothesis (Failed):** Reading the sign at (19, 6) next to the locked door revealed it only says 'NO ENTRY BEYOND THIS POINT'. It is not a clue. Conclusion: The solution is not directly related to this sign.
-*   Untested: VOID (Appears impassable, needs verification).
+    *   Conclusion: This location is causing repeated errors. Abandoning attempts to acquire this item for now to break the loop and continue exploration.
 
-## XIII. Reflection & Strategic Pivots (Turn 25431)
-*   **Void Tile Testing:** The `VOID` tile type is present on the current map but its traversability is undocumented. I must test it at the next available opportunity.
-*   **Underground Puzzle - Alternative Hypotheses:** My 'Crate Switch Hypothesis' has failed multiple times. If a systematic test of all accessible crate-like floor tiles fails, I will consider the following alternatives:
-    1.  The trigger is not a crate/switch interaction.
-    2.  The puzzle requires an item or event completion from elsewhere in Goldenrod City.
-*   **Exit Strategy:** If all remaining crate-like floor tiles are tested with no result, I will abandon this puzzle for now, exit the Goldenrod Underground, and focus on finding the Gym or exploring the rest of the city. This will prevent me from getting stuck on a potentially optional or time-gated puzzle.
+## XII. Puzzle Notes: Goldenrod Underground
+*   **WARP_CARPET_DOWN Tile:** My initial hypotheses that simple movement would activate the warps failed. The tile is traversable, but its warp function appears to require an external trigger.
+*   **Crate Switch Hypothesis (Failed):** Systematic testing of all accessible crate-like floor tiles and wall sections in the main underground area yielded no results. This hypothesis is invalid.
+*   **Wall Panel Switch Hypothesis (In Progress):** My current hypothesis is that one of the wall panels in the Switch Room is a switch.
+    *   Test 1: Panel at (18, 27) from below at (18, 28). Result: Failed.
+*   **Alternative Hypotheses for Switch Room Puzzle:**
+    1.  **Sequence Hypothesis:** The switches must be pressed in a specific, unknown order.
+    2.  **Item/Event Hypothesis:** The puzzle requires an item or event completion from elsewhere in Goldenrod City to be solvable.
+
+## XIII. Reflection & Strategic Pivots
+*   **Void Tile Testing:** The `VOID` tile type is present on some maps but its traversability is undocumented. I must test it at the next available opportunity.
+*   **Exit Strategy:** If all hypotheses for the Goldenrod Underground puzzle fail, I will abandon it, exit the area, and focus on finding the Gym or exploring the rest of the city to prevent getting stuck. (Strategy executed in turn 25435).
