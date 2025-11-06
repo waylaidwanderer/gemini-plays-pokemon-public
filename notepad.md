@@ -82,3 +82,4 @@
 ## XIII. Reflection & Strategic Pivots
 *   **Void Tile Testing:** The `VOID` tile type is present on some maps but its traversability is undocumented. I must test it at the next available opportunity.
 *   **Exit Strategy:** If all hypotheses for the Goldenrod Underground puzzle fail, I will abandon it, exit the area, and focus on finding the Gym or exploring the rest of the city to prevent getting stuck. (Strategy executed in turn 25435).
+    *   Test 2: Panel at (4, 23) from below at (4, 24). Result: Failed.
