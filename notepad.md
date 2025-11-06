@@ -107,7 +107,8 @@
     *   (8, 2) -> Counter at (7, 2): Checked, no effect. (Marked 🚫)
     *   (11, 2) -> Wall at (11, 1): Checked, no effect. (Marked 🚫)
     *   (12, 2) -> Wall/Drink at (12, 1): Checked, no effect. (Marked 🚫)
-    *   (13, 2) -> Counter at (14, 2): Checked, no effect. (Marked 🚫) (Marked 🚫)
+    *   (13, 2) -> Counter at (14, 2): Checked, no effect. (Marked 🚫)
+    *   (8, 3) -> Counter at (7, 3): Checked, no effect. (Marked 🚫) (Marked 🚫)
     *   (13, 2) -> Counter at (14, 2): Checked, no effect. (Marked 🚫)
 *   **Failed Hypotheses Log:**
     *   The warps at (2, 13) and (3, 13) are a standard exit. (Confirmed inactive)
