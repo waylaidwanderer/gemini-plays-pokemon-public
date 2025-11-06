@@ -157,3 +157,8 @@ My main goal is to solve this puzzle to get HM01 Cut.
 1.  **Hypothesis:** Stepping on a single twig pile will cause the Farfetch'd to appear.
     -   **Test:** Stepped on the twig pile at (14, 26), then moved to a vantage point at (15, 27) to observe the trigger area (15, 25).
     -   **Result:** Failed. No Farfetch'd appeared. This hypothesis is incorrect.
+
+### Systematic Twig Pile Test:
+1. **Hypothesis:** Stepping on one of the four twig piles is the initial trigger to make the Farfetch'd appear.
+   - **Test:** Systematically step on each twig pile individually, returning to an observation point after each one to check the trigger area at (15, 25).
+   - **Failed Hypothesis:** The forced movement from (15, 26) to (15, 25) is the trigger. Result: Failed, no Farfetch'd appeared.
