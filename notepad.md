@@ -33,7 +33,7 @@
     *   CAVE: Can act as a one-way warp.
 *   Special Interaction (Interactable):
     *   PC: Interact by standing below it at (X, Y+1), facing up.
-    *   COUNTER: Interact with NPCs behind it by standing in front of the counter. (Impassability confirmed Turn 25221). (Impassability confirmed Turn 25022).
+    *   COUNTER: Impassable. Can be interacted with from an adjacent tile to speak to NPCs or play games. (Impassability confirmed Turn 25221, 25022, and 26192).
 
 ## VI. Story & Quests
 *   **Primary Quest:** Become the Pokémon League Champion.
