@@ -159,7 +159,7 @@
 (17, 7) - Tested, not a switch
 (1, 8) - Tested, not a switch
 (5, 8) - Tested, not a switch
-(8, 8) - To be tested
+(8, 8) - Tested, game machine (needs coins)
 (11, 8) - Tested, not a switch
 (14, 8) - To be tested
 (17, 8) - Tested, not a switch
