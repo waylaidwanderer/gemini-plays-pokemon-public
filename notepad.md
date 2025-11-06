@@ -74,13 +74,8 @@
 
 # Appendix: Historical Reflection & Failure Log
 
-### Specific Failure Incidents & Process Violations
-- **CRITICAL PROCESS FAILURE (Recent Turns):** Repeatedly deferred critical actions like notepad updates and agent fixes, violating the 'IMMEDIATE ACTION' and 'TOOL MAINTENANCE' core principles. This resulted in operating with flawed data and plans.
-- **RECURRING DEBUGGING FAILURE (Turns 10750-10774):** I have been stuck in a loop toggling the coordinate system logic in my `find_path_to_target_bfs` tool. The evidence from the player's position in the XML (`<Row id="12">`, `<Tile id="2">` for position (2, 12)) definitively proves that the XML `id` attributes are 1-indexed and correspond directly to game coordinates. My repeated re-introduction of `+ 1` to the parsing logic was a critical, recurring hallucination.
-- **CRITICAL PROCESS FAILURE (Turn 13142):** Deferred a mandatory notepad update to fix an incomplete tool list by one turn in order to continue a battle. This is a violation of the 'IMMEDIATE ACTION' principle for data management.
-- **CRITICAL REASONING FAILURE (Turn 14554):** My `generate_path_plan` tool correctly reported that no path existed to the Ilex Forest Shrine from my position at (8, 26). Instead of trusting the tool's output and analyzing the map, I incorrectly assumed the tool was broken. A manual review confirmed my path was blocked by impassable tiles. This is a major failure to trust my own tools and a repeat of past mistakes.
-- **CRITICAL HALLUCINATION (Turn 15350):** Believed I was at (14, 0) on Route 32 and attempted to move 'Up' to enter Violet City. In reality, I was at (6, 80) and my 'Up' press moved me to the cave entrance at (6, 79), warping me back into Union Cave. This is a severe failure of state tracking and location awareness.
-- **PROCESS VIOLATION (Turn 15018):** Failed to consult map marker for Fisher at (15, 27) in Union Cave before pathing, causing a movement blockage. This highlights a need for greater diligence in pre-planning.
+### Historical Failure Log Summary (Pre-Turn 16000)
+- **Key Lessons:** Past failures stemmed from hallucinating coordinates, deferring notepad/tool maintenance, and mistrusting tool outputs. These have been noted and integrated into current processes.
 
 ### Reflection-Based Updates (Turn 11695)
 - **CRITICAL REASONING FAILURE (Turns 11683-11690):** I became stuck in a multi-turn loop attempting to fix the `generate_path_plan` tool. I repeatedly submitted identical, broken code, failing to notice that I had not actually removed the incorrect line from the `impassable_types` set. This was a severe failure of process and attention to detail.
