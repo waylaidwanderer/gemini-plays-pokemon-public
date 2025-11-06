@@ -151,4 +151,4 @@
   - **Updated Hypothesis:** Interaction triggers a specific path or a new behavior, not just a single move.
 
 # Ilex Forest: Farfetch'd Puzzle (Update)
-- **Test 2 (From Right):** Interacted at (16, 29) while Farfetch'd was at (15, 29). Triggered a 'Kwaa!' dialogue. Awaiting next turn to observe movement.
+- **Test 2 (From Right - INCORRECT):** Interacted at (16, 29) while Farfetch'd was at (15, 29). **Result:** Farfetch'd reset its position back to the start at (15, 25).
