@@ -28,7 +28,7 @@
 *   Reflection Log (Turn 22475): I violated the 'immediate action' principle by repeatedly submitting broken code for my pathfinding tool instead of debugging it immediately. I also failed to mark the Farfetch'd location promptly. This must not happen again.
 
 ## IV. Tile Traversal Rules
-*   Traversable: TALL_GRASS, LONG_GRASS, DOOR, LADDER, FLOOR.
+*   Traversable: TALL_GRASS, LONG_GRASS, DOOR, LADDER, FLOOR, WARP_CARPET_RIGHT.
 *   Impassable (Verified): WALL, WINDOW, CUT_TREE, SIGN, BOOKSHELF, BLACKBOARD, MART_SHELF, BUOY, TV, TOWN_MAP, BIRD, HEADBUTT_TREE, FRUIT_TREE, COMPUTER, PRINTER, WATER, CAVE, COUNTER, CUT_08, CUT_28_GARBAGE, VOID.
 *   One-Way Traversal:
     *   LEDGE_HOP_DOWN: A one-way ledge. Can only be entered from a tile directly above it (Y-1 -> Y), which forces movement to the tile below it (Y -> Y+1).
