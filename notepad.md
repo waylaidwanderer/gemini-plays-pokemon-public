@@ -55,7 +55,7 @@
 - **HEADBUTT_TREE**: Impassable. Assumed to be interactable with the move Headbutt.
 - **INCENSE_BURNER**: Impassable.
 - **LADDER**: Complex warp with directional activation.
-- **LEDGE_HOP_DOWN/LEFT/RIGHT**: One-way traversal.
+- **LEDGE_HOP_DOWN/LEFT/RIGHT**: One-way traversal. **Verified (LEFT) on turn 23091:** Attempted to move Right onto the tile at (22, 22) from (21, 22) and was blocked, confirming it cannot be entered from the right.
 - **LONG_GRASS**: Traversable, contains wild Pokémon.
 - **MART_SHELF**: Impassable.
 - **PC**: Impassable.
