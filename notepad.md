@@ -175,7 +175,7 @@
 *   (5, 5) - To be tested
 *   (8, 5) - To be tested
 *   (11, 5) - To be tested
-*   (14, 5) - To be tested
+*   (14, 5) - Tested, not a switch
 *   (17, 5) - Tested, not a switch
 *   (1, 6) - To be tested
 *   (5, 6) - To be tested
