@@ -30,6 +30,9 @@
 - **`puzzle_solver_assistant`**: Analyzes puzzle observations and suggests simple, testable hypotheses to methodically solve complex problems.
 - **`debugging_assistant`**: Analyzes a faulty Python script, a description of the problem, and any error/output, then provides a corrected version of the script.
 
+# Custom Tools
+- **`verify_reachability`**: Takes a list of coordinates and returns only those reachable from the player's current position.
+
 # Tool Development Log
 - **`systematic_explorer` (Formerly `find_reachable_unseen_tiles`):** Created on turn 23012. Initial tests (turns 23013-23014) returned an empty list. I incorrectly assumed the tool was broken and spent several turns debugging a non-existent issue. **CRITICAL LESSON:** The tool was working correctly. The empty output was vital information, proving that the currently accessible area of Ilex Forest is an isolated island with no path to the unseen sections. I must trust my tool outputs as the default source of truth and verify in-game before attempting to debug.
 
