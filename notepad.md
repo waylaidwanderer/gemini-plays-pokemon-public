@@ -12,12 +12,24 @@
 *   **Verify Position After Movement:** After every `path_plan` execution, I must verify my actual `current_position` from the Game State against the plan's destination to prevent movement-related hallucinations.
 
 ## II. Available Tools
+*   `notepad_edit`
+*   `run_code`
+*   `define_agent`
+*   `delete_agent`
+*   `define_map_marker`
+*   `delete_map_marker`
+*   `stun_npc`
 *   `define_tool`
 *   `delete_tool`
 *   `select_battle_option`
 *   `find_object_by_id_name`
 *   `object_scanner`
+*   `path_finder`
 *   `pc_exit_navigator`
+*   `find_reachable_interactable_tiles`
+*   `battle_strategist`
+*   `team_analyst`
+*   `goal_manager`
 
 ## III. System & Tool Performance Log
 *   System Alert Verifications:
