@@ -74,3 +74,8 @@
     *   **Hypothesis 3 (Aborted):** Interaction requires standing *adjacent* to the item tile.
         *   Test 3a Attempt (Turns 25172-25183): Attempted to move to (3, 18) to test interaction from the left. Encountered persistent position hallucinations and movement failures, preventing the test from being properly executed.
         *   Conclusion: This location is causing repeated errors. Abandoning attempts to acquire this item for now to break the loop and continue exploration.
+## XII. Puzzle Notes: Goldenrod Underground
+*   **WARP_CARPET_DOWN Tile (Failed Hypotheses):**
+    *   Hypothesis 1: Stepping on the tile at (21, 29) triggers the warp. Result: Failed.
+    *   Hypothesis 2: Stepping *down* onto the tile from (21, 28) triggers the warp. Result: Failed.
+    *   Conclusion: Simple movement does not seem to activate these warps. Activation is likely tied to an external trigger, such as a switch.
