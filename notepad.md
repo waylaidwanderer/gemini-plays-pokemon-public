@@ -61,3 +61,4 @@
 
 ## Hallucination Log
 - **Turn 24083:** Position mismatch. Believed I was at (25, 14) but was actually at (29, 11). This caused a failed navigation attempt.
+- **DOOR**: Impassable. Verified in Route 34 Ilex Forest Gate (11_23) at (13, 41).
