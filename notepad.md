@@ -7,7 +7,7 @@
 - **DOOR**: Traversable warp.
 - **FLOOR**: Traversable.
 - **FLOOR_UP_WALL**: A complex one-way tile. Behavior is location-dependent and needs more testing.
-- **HEADBUTT_TREE**: Impassable.
+
 - **INCENSE_BURNER**: Impassable.
 - **LADDER**: Complex warp with directional activation.
 - **LEDGE_HOP_DOWN/LEFT/RIGHT**: One-way traversal.
@@ -129,7 +129,6 @@ My main goal is to solve this puzzle to get HM01 Cut.
 ### New Plan:
 1.  **Hypothesis:** The apprentice at (7, 28) may have new dialogue or a hint.
     -   **Test:** Navigate to the apprentice and interact with him.
-- **HEADBUTT_TREE**: Impassable.
 
 # Appendix: Available Tools
 - **notepad_edit**: Edits your notepad.
