@@ -90,3 +90,4 @@
 *   **Assumption:** The only way to exit Ilex Forest is through the northern gatehouse to Route 34.
 *   **Alternative Hypothesis:** There may be another exit, possibly requiring an HM like Surf to cross the water areas.
 *   **Test Plan:** If I fully explore all currently accessible paths and do not find the exit, I will systematically re-explore the forest's boundaries to look for hidden paths or interactions.
+*   `path_finder` Critical Failure (Turn 24800): The tool is still fundamentally broken. Despite the coordinate system fix, it generated a path through an impassable HEADBUTT_TREE at (4, 6). The tool is untrustworthy and will not be used until a complete rewrite or exhaustive debugging can be performed. Reverting to manual path planning.
