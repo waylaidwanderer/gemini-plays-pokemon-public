@@ -147,3 +147,5 @@
 - **Test 1 (Turn 23171):** Interacted with Farfetch'd at (15, 25) from the tile above it at (15, 24).
   - **Result:** Farfetch'd moved right to (21, 24).
   - **Hypothesis:** Interacting from a cardinal direction causes it to flee in a perpendicular direction.
+- **Observation (Turn 23173):** After I made it move to (21, 24), the Farfetch'd autonomously moved again to (15, 29).
+  - **Updated Hypothesis:** Interaction triggers a specific path or a new behavior, not just a single move.
