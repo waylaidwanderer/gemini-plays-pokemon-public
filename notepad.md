@@ -157,7 +157,7 @@
 (11, 7) - Tested, not a switch
 (14, 7) - Tested, not a switch
 (17, 7) - Tested, not a switch
-(1, 8) - To be tested
+(1, 8) - Tested, not a switch
 (5, 8) - Tested, not a switch
 (8, 8) - To be tested
 (11, 8) - Tested, not a switch
