@@ -62,3 +62,7 @@
 *   **Assumption 2:** The only way forward from the Route 34 Gatehouse is through the northern warp.
 *   **Alternative Hypothesis:** The NPCs in the gatehouse might provide a key item or trigger an event that opens a new path, or this could be a dead end.
 *   **Test Plan:** Talk to all NPCs in the gatehouse before attempting to exit north.
+*   **Hidden Item Interaction (Failed, Turn 25104):** Attempted to pick up the hidden Super Potion at (4, 18) in Goldenrod Underground. Hypotheses tested:
+    1. Standing on the tile (4, 18) and pressing A while facing Up, Down, Left, and Right all failed.
+    2. Standing on the tile below (4, 19), facing up towards the item, and pressing A also failed. 
+    Conclusion: The interaction method is still unknown. Abandoning for now to continue exploration.
