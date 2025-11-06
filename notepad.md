@@ -39,3 +39,8 @@
 - **CRITICAL HALLUCINATION (Turn 11928):** Believed a warp to Dark Cave existed at (34, 5) on the VioletCity map (10_5). The system confirmed no warp exists there. This was a major failure in location awareness.
 
 ## Ilex Forest: Farfetch'd Puzzle Mechanics
+
+## Hypothesis 1 (Turn 23701)
+- **Observation:** After the Farfetch'd disappeared, leaving and re-entering Ilex Forest did not make it reappear. Talking to the apprentice at (7, 28) initiates dialogue about the lost Pokémon.
+- **Hypothesis:** Speaking to the apprentice is the trigger to reset the puzzle and make the Farfetch'd reappear at its starting position (15, 25).
+- **Test:** Complete the dialogue with the apprentice and then travel to (15, 25) to check for the Farfetch'd.
