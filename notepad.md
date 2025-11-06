@@ -144,7 +144,7 @@
 *   **Method:** Using the output from `find_reachable_interactable_tiles`, I will visit and interact with every single potential switch location. I will mark each location in this log as I test it.
 *   **Progress:**
 
-## XVIII. Goldenrod Game Corner - Systematic Search Log
+## XIX. Goldenrod Game Corner - Search Checklist
 *   (8, 1) - Tested, not a switch
 *   (9, 1) - Tested, not a switch
 *   (10, 1) - Tested, not a switch
