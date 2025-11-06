@@ -1,18 +1,19 @@
-# Tile Traversal and Movement Rules
+# Game Mechanics & Systems
 
+## Tile Traversal Rules
 - **BOOKSHELF**: Impassable.
 - **BUOY**: Traversability unknown, assumed impassable.
 - **CAVE**: Traversable warp.
 - **COUNTER**: Impassable.
-- **CUT_TREE**: Impassable. Requires HM01 Cut. **Verified on turn 22550:** After using Cut, the tree sprite disappears, but the underlying tile remains impassable. This is a confirmed mechanic, not a temporary state.
+- **CUT_TREE**: Impassable. Requires HM01 Cut. **Verified on turn 22550:** After using Cut, the tree sprite disappears, but the underlying tile remains impassable.
 - **DOOR**: Traversable warp.
 - **FLOOR**: Traversable.
-- **FLOOR_UP_WALL**: A complex one-way tile. Behavior is location-dependent and needs more testing.
+- **FLOOR_UP_WALL**: A complex one-way tile. Behavior is location-dependent.
 - **GRASS**: Traversable, contains wild Pokémon.
 - **HEADBUTT_TREE**: Confirmed impassable. Assumed to be interactable with the move Headbutt.
 - **INCENSE_BURNER**: Impassable.
 - **LADDER**: Complex warp with directional activation.
-- **LEDGE_HOP_DOWN/LEFT/RIGHT**: One-way traversal. **Verified (LEFT) on turn 23091:** Attempted to move Right onto the tile at (22, 22) from (21, 22) and was blocked, confirming it cannot be entered from the right.
+- **LEDGE_HOP_DOWN/LEFT/RIGHT**: One-way traversal. **Verified (LEFT) on turn 23091:** Attempted to move Right onto the tile at (22, 22) from (21, 22) and was blocked.
 - **LONG_GRASS**: Traversable, contains wild Pokémon.
 - **MART_SHELF**: Impassable.
 - **PC**: Impassable.
@@ -25,7 +26,7 @@
 - **UNKNOWN**: Confirmed to be a standard traversable floor tile.
 - **VOID**: Impassable.
 - **WALL**: Impassable.
-- **WARP_CARPET_DOWN/LEFT/RIGHT**: Traversable warps. Activated by pressing the corresponding direction while standing on the tile.
+- **WARP_CARPET_DOWN/LEFT/RIGHT**: Traversable warps. Activated by pressing the corresponding direction.
 - **WATER**: Confirmed impassable. **Verified on turn 24006:** Attempted to move Up from (4, 14) onto the water tile at (4, 13) and was blocked.
 - **WINDOW**: Impassable.
 
