@@ -139,3 +139,7 @@
 *   **Confirmation Bias Identified:** My search has exclusively tested for an 'A' button interaction. This is too narrow.
 *   **Hypothesis 2 (Movement Trigger):** The exit may be triggered by a specific movement pattern on the floor, not an interaction. Test: After exhausting 'A' presses, perform a serpentine walk over every single floor tile.
 *   **Hypothesis 3 (External Prerequisite):** The puzzle may be unsolvable without an item or event from outside. The POKEFAN_M mentioned losing his COIN CASE in the Goldenrod Underground. This is a strong lead. Test: If the in-room search fails, leave the Game Corner, find the COIN CASE, and then return to see if anything has changed.
+
+## XVIII. Goldenrod Game Corner - Systematic Search Log
+*   **Method:** Using the output from `find_reachable_interactable_tiles`, I will visit and interact with every single potential switch location. I will mark each location in this log as I test it.
+*   **Progress:**
