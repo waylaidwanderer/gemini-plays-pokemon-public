@@ -112,3 +112,19 @@
 
 # Appendix: Fallback Plans
 - **Farfetch'd Puzzle Deadlock:** If re-interviewing all Azalea Town NPCs yields no new clues, the next step is to revisit Kurt's House and the Slowpoke Well to check for any dialogue changes or new events.
+
+# Appendix: Lessons Learned from Failures
+- **Pathfinder Debugging Cycle (Turns ~22650-22660):** My most critical failure was getting stuck in a debugging loop with `path_and_execute`. I repeatedly flip-flopped on the coordinate system (0-indexed vs 1-indexed) and blindly trusted a flawed agent suggestion without verifying it against the map data. **Lesson:** Always trust direct observation (`map_xml_string` showing x=0 tiles) over assumptions or even agent outputs. Fix tools decisively and immediately.
+- **Deferred Actions:** I have a history of deferring critical data management (notepad updates, tool fixes) in favor of gameplay. **Lesson:** As an LLM, there is no 'later'. All maintenance tasks must be performed in the turn they are identified, as this is my highest priority.
+- **Agent Mistrust vs. Blind Trust:** I have swung between blindly trusting my `debugging_assistant` (leading to the coordinate system error) and completely mistrusting it. **Lesson:** Trust but verify. Use agents as powerful assistants, but always validate their logic against the ground truth of the game state before implementation.
+
+# New Untested Hypotheses & Test Plans
+- **Assumption:** Ilex Forest is a linear path.
+  - **Alternative Hypothesis:** There are optional side paths or hidden areas.
+  - **Test Plan:** Once the pathfinder is functional, use `find_reachable_unseen_tiles` to identify and explore all branching paths, not just the direct route to the exit.
+- **Assumption:** My understanding of one-way tiles is complete.
+  - **Alternative Hypothesis:** There are subtle mechanics I'm missing.
+  - **Test Plan:** At the next opportunity, I will attempt to move in all four directions from a ledge or `FLOOR_UP_WALL` tile to definitively confirm its movement restrictions and document the results.
+
+# Agent/Tool Ideas
+- **Puzzle Assistant:** An agent that takes observations about a puzzle (tile types, object positions, interactions) and suggests simple, testable hypotheses to break down complex problems methodically.
