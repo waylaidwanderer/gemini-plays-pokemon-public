@@ -79,3 +79,8 @@
 ## VIII. Untested Hypotheses & Strategic Notes
 *   **New Hypothesis:** Now that the Farfetch'd is at (20, 24), I must interact with it to see what happens next.
 *   **Farfetch'd Puzzle Alternatives:** If the puzzle proves too difficult after several more attempts, I will re-explore Azalea Town for other clues.
+
+## IX. Current Farfetch'd Puzzle Hypothesis
+*   **Observation:** The Farfetch'd is at (20, 24). My `farfetchd_puzzle_solver` agent, using its updated logic, correctly identified there is no verified mechanic for this state and made a logical guess to interact from the east (21, 24).
+*   **Test (Failed):** I tested this guess by interacting from (21, 24). The action had no effect. The hypothesis is denied.
+*   **New Hypothesis:** Since interacting from the east failed and the south is blocked by a HEADBUTT_TREE, the only remaining adjacent direction to test is from the north. I will move to (20, 23) and interact to see if this moves the Farfetch'd.
