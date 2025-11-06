@@ -11,6 +11,14 @@
 *   Verify Agent Outputs: Always verify agent claims (e.g., item possession) against the direct game state before acting.
 *   **Verify Position After Movement:** After every `path_plan` execution, I must verify my actual `current_position` from the Game State against the plan's destination to prevent movement-related hallucinations.
 
+## II. Available Tools
+*   `define_tool`
+*   `delete_tool`
+*   `select_battle_option`
+*   `find_object_by_id_name`
+*   `object_scanner`
+*   `pc_exit_navigator`
+
 ## III. System & Tool Performance Log
 *   System Alert Verifications:
     *   Ilex Forest Unseen Tiles: I have previously confirmed that the system-flagged unseen tiles are unreachable, blocked by the CUT_TREE at (8, 25). I will continue to ignore this alert until I obtain HM01 Cut.
@@ -21,6 +29,7 @@
     *   **Position Hallucination (Turn 25169-25171):** I hallucinated that a `path_plan` to move from (4, 18) to (3, 18) was successful. The system warning on turn 25172 confirmed the move failed and I was still at (4, 18). Root cause: Failure to verify my position in the Game State after the path execution. Corrective action: Added a new core principle to always verify my position.
     *   `path_finder` Warp Impassability Bug (Turn 25470): The tool incorrectly classified warp tiles as impassable. Correction (Turn 25471): The tool's script was updated to remove `WARP_CARPET_*` and `DOOR` from the impassable list.
     *   `path_finder` Game Corruption Trigger (Turn 26095): The tool's output, when executed via a long `path_plan`, triggered a catastrophic game corruption. **Conclusion:** The tool's A* logic is sound, but the game engine appears to have a stability bug related to rapid, multi-tile movements. **Mitigation Strategy:** Avoid using `path_plan` for long or complex paths. Prioritize short paths or manual, turn-by-turn movement to reduce the risk of triggering this engine bug.
+    *   **Position Hallucination (Turn 26194):** I hallucinated that a `path_plan` to move from (9, 3) to (2, 12) was successful. A system warning on the next turn confirmed the move failed. Root Cause: Failure to verify my position in the Game State after the path execution. This re-confirms the importance of my new core principle to always verify position.
 
 ## V. Tile Traversal Rules
 *   Traversable: FLOOR, TALL_GRASS, LONG_GRASS, DOOR, LADDER, WARP_CARPET_RIGHT, WARP_CARPET_DOWN.
