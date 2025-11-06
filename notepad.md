@@ -68,9 +68,6 @@
 - However, the game is currently prompting me to cut a tree at this exact location again. 
 - **Conclusion:** My previous note was likely a hallucination or I misidentified the coordinates. I am proceeding with the Cut action now and will re-test the traversability of the tile afterward. The current game state is the source of truth.
 
-## Appendix: Lessons Learned from Failures
-- **Pathfinder Debugging Cycle (Turns ~22650-22660):** My most critical failure was getting stuck in a debugging loop with `path_and_execute`. I repeatedly flip-flopped on the coordinate system (0-indexed vs 1-indexed) and blindly trusted a flawed agent suggestion without verifying it against the map data. **Lesson:** Always trust direct observation (`map_xml_string` showing x=0 tiles) over assumptions or even agent outputs. Fix tools decisively and immediately.
-- **Deferred Actions:** I have a history of deferring critical data management (notepad updates, tool fixes) in favor of gameplay. **Lesson:** As an LLM, there is no 'later'. All maintenance tasks must be performed in the turn they are identified, as this is my highest priority.
 - **Agent Mistrust vs. Blind Trust:** I have swung between blindly trusting my `debugging_assistant` (leading to the coordinate system error) and completely mistrusting it. **Lesson:** Trust but verify. Use agents as powerful assistants, but always validate their logic against the ground truth of the game state before implementation.
 
 ## Ilex Forest: Farfetch'd Puzzle Mechanics
