@@ -1,12 +1,3 @@
-# Ilex Forest: Farfetch'd Puzzle (Search Failed)
-
-- **Objective:** Locate the missing Farfetch'd.
-- **Current Status:** A systematic search of the puzzle area failed to locate the Farfetch'd after it disappeared. My current hypothesis is that an external trigger in Azalea Town is required to make it reappear.
-
-  - **Alternative Hypothesis:** The trigger is another story event, not time. After exploring Dark Cave, I will re-interview all Azalea Town NPCs to check for new dialogue.
-- **Assumption (Dark Cave Path):** Dark Cave is the main path forward.
-  - **Alternative Hypothesis:** Dark Cave is a side area. If it's a dead end, I will return to Ilex Forest or Route 36 to re-evaluate.
-
 # Tile Traversal and Movement Rules
 
 - **BOOKSHELF**: Impassable.
