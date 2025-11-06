@@ -9,6 +9,7 @@
 *   Proactive Tile Testing: Upon encountering any new, undocumented tile type, I MUST immediately form a hypothesis, test it, and log the results before proceeding.
 *   Mark Warps Immediately: Mark both warp entrance and exit immediately upon use.
 *   Verify Agent Outputs: Always verify agent claims (e.g., item possession) against the direct game state before acting.
+*   **Verify Position After Movement:** After every `path_plan` execution, I must verify my actual `current_position` from the Game State against the plan's destination to prevent movement-related hallucinations.
 
 ## III. System & Tool Performance Log
 *   System Alert Verifications:
@@ -17,6 +18,7 @@
     *   `goal_manager` Hallucination (Turn 21825): The agent incorrectly stated that I possessed HM01 Cut. This was proven false by checking my bag. Correction (Turn 21865): The agent's system prompt was updated to be stricter about item possession.
     *   `path_finder` Failure (Turn 21869): The tool generated an invalid path through a stationary NPC. Correction (Turn 21871): The tool's script was updated to check for the `has-object='true'` tile attribute.
     *   `path_finder` Dynamic Obstacle Failure (Turn 24138): The tool generated a path through a tile that was temporarily blocked by a moving NPC (GRAMPS, ID 2). Conclusion: The tool's logic is sound, but my strategy must account for dynamic obstacles. Temporarily freezing key NPCs may be a valid tactic for reliable navigation in cluttered areas.
+    *   **Position Hallucination (Turn 25169-25171):** I hallucinated that a `path_plan` to move from (4, 18) to (3, 18) was successful. The system warning on turn 25172 confirmed the move failed and I was still at (4, 18). Root cause: Failure to verify my position in the Game State after the path execution. Corrective action: Added a new core principle to always verify my position.
 *   Overwatch Critique Note (Turn 24151): The critique mentioned undocumented tile types (`FLOWERBED`, `LEDGE`, `ROOF`). A review of the map data for Azalea Town confirms that `FLOWERBED` and `ROOF` tiles are not present. The only `LEDGE` type is `LEDGE_HOP_DOWN`, which is already documented. This part of the critique appears to be based on incorrect information.
 
 ## V. Tile Traversal Rules
@@ -69,5 +71,5 @@
     *   **Hypothesis 2 (Failed, Turn 25104):** Interaction requires standing *below* the item tile.
         *   Test: Stood on (4, 19), faced up, and pressed A.
         *   Result: Failed.
-    *   **Hypothesis 3 (In Progress, Turn 25171):** Interaction requires standing *adjacent* to the item tile.
-        *   Test 3a: Stand at (3, 18) [left of item], face right, and press A.
+    *   **Hypothesis 3 (Planned):** Interaction requires standing *adjacent* to the item tile.
+        *   Test 3a (Next Step): Move to (3, 18) [left of item], face right, and press A.
