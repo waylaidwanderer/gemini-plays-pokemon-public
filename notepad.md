@@ -102,3 +102,6 @@
     *   The warps at (2, 13) and (3, 13) are a standard exit. (Confirmed inactive)
     *   An NPC has a clue for how to exit. (All NPCs spoken to, no clues)
     *   The 'Left Their Drink' object at (12, 1) is a switch. (Interaction failed)
+
+## XV. Major Glitches & Corruption
+*   **Game Corruption Event (Turn 26095):** After executing a `path_finder` tool call from (17, 9) to (14, 6) in the Goldenrod Game Corner, the game state became severely corrupted. I was transported to an unknown map (ID: 172_164) and entered a glitched battle. My party, Pokedex, badges, and money are all showing nonsensical, glitched data. The game is currently in an unplayable state.
