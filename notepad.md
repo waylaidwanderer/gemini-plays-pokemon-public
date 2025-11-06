@@ -131,3 +131,6 @@
     1.  **Movement Trigger:** The exit might be triggered by a specific movement pattern (like the Farfetch'd puzzle), not an 'A' button press.
     2.  **Item/Pokemon Trigger:** The puzzle might require using a specific item or having a specific Pokémon in the lead.
     3.  **External Prerequisite:** The puzzle may be unsolvable until an external event is completed or an item (like the COIN CASE) is acquired. This is the least likely hypothesis as it would imply a soft-lock, but it's a possibility if all in-room options are exhausted.
+
+## XVI. Critical System Instability
+*   **`path_plan` Corruption Trigger (Confirmed Turn 26316):** Executing a `path_plan`, even for a single tile, has now been confirmed to be a trigger for catastrophic game corruption. This follows a similar incident on Turn 26095. **MITIGATION STRATEGY: The `path_plan` feature is too unstable and MUST NOT BE USED.** All future overworld movement must be performed manually with single directional button presses per turn until this issue is understood and resolved.
