@@ -1,4 +1,48 @@
-### Tile Traversal and Movement Rules
+# Ilex Forest: Farfetch'd Puzzle Plan
+
+- **Objective:** Herd the lost Farfetch'd back to the apprentice at (7, 28).
+
+- **Current State:** The Farfetch'd is not at its usual starting position of (15, 25). I have tested the four twig piles at (14, 26), (15, 27), (15, 28), and (16, 28) with no result.
+
+- **Systematic Test Plan:**
+  1.  **Locate:** Systematically explore the accessible areas of the forest to find the Farfetch'd's current location.
+  2.  **Observe & Test:** Once found, I will test its reaction to my actions:
+      - Approach from above and press 'A'. Document result.
+      - Approach from below and press 'A'. Document result.
+      - Approach from the left and press 'A'. Document result.
+      - Approach from the right and press 'A'. Document result.
+      - Step on any nearby twig piles and observe if its facing direction or position changes. Document result.
+  3.  **Document & Iterate:** I will record the outcome of each interaction to map out the puzzle's logic and determine the correct sequence of moves to guide it back to the apprentice.
+
+# Untested Hypotheses & Test Plans
+
+- **Assumption (Farfetch'd Puzzle):** The puzzle is solved by herding the Farfetch'd directly towards the apprentice.
+  - **Alternative Hypothesis 1:** The puzzle is not about direct herding, but about interacting with specific environmental objects (like all twig piles) in a certain order, which will cause the Farfetch'd to return to the apprentice on its own.
+  - **Alternative Hypothesis 2:** The Farfetch'd must be herded to a different specific spot first, which triggers the next step in the puzzle.
+- **Assumption (Kurt/Mart Event):** The event blocking the Poké Mart is purely time-gated.
+  - **Alternative Hypothesis:** The trigger is another story event, not time. After exploring Dark Cave, I will re-interview all Azalea Town NPCs to check for new dialogue.
+- **Assumption (Dark Cave Path):** Dark Cave is the main path forward.
+  - **Alternative Hypothesis:** Dark Cave is a side area. If it's a dead end, I will return to Ilex Forest or Route 36 to re-evaluate.
+- **Assumption (One-Way Tiles):** My understanding of one-way tiles (Ledges, FLOOR_UP_WALL) is complete.
+  - **Alternative Hypothesis:** There are subtle mechanics I'm missing.
+  - **Test Plan:** At the next opportunity, I will attempt to move in all four directions from a one-way tile to definitively confirm its movement restrictions and document the results.
+- **Assumption (Ilex Forest Linearity):** Ilex Forest is a linear path.
+  - **Alternative Hypothesis:** There are optional side paths or hidden areas.
+  - **Test Plan:** Once the pathfinder is functional, use a `find_reachable_unseen_tiles` tool to identify and explore all branching paths, not just the direct route to the exit.
+
+# Agent/Tool Ideas
+
+- **Reachable Unseen Tile Finder Tool:** A tool that takes the map XML and player position, and returns a list of coordinates for all unseen tiles that are actually reachable via the pathfinding algorithm. This would automate exploration.
+- **Puzzle Solver Assistant:** An agent that takes observations about a puzzle (tile types, object positions, interactions) and suggests simple, testable hypotheses to break down complex problems methodically.
+
+# Lessons Learned & Process Improvements
+
+- **IMMEDIATE ACTION:** I must perform all data management and tool/agent maintenance tasks in the turn they are identified. Deferring these tasks is a critical failure.
+- **TRUST BUT VERIFY:** I must trust the output of my tools and agents by default. I will only debug them after in-game verification proves their output is incorrect. I must also improve my process for using the `debugging_assistant` by testing its suggestions thoroughly before discarding them or making further changes.
+- **PIVOT QUICKLY:** I must recognize when a strategy (especially a debugging strategy) is failing and pivot to a new approach much faster. I will not get stuck in multi-turn debugging loops on a single tool.
+
+# Tile Traversal and Movement Rules
+
 - **BOOKSHELF**: Impassable.
 - **BUOY**: Traversability unknown, assumed impassable.
 - **CAVE**: Traversable warp.
@@ -28,7 +72,9 @@
 - **WATER**: Impassable.
 - **WINDOW**: Impassable.
 
-# Appendix: Detailed Failure & Reflection Log
+---
+
+# Appendix: Historical Reflection & Failure Log
 
 ### Specific Failure Incidents & Process Violations
 - **CRITICAL PROCESS FAILURE (Recent Turns):** Repeatedly deferred critical actions like notepad updates and agent fixes, violating the 'IMMEDIATE ACTION' and 'TOOL MAINTENANCE' core principles. This resulted in operating with flawed data and plans.
@@ -49,20 +95,6 @@
 ### Reflection-Based Updates (Turn 20113)
 - **CRITICAL PROCESS FAILURE (Turns 20059-20071):** I have been stuck in a multi-turn debugging loop with the `path_and_execute` tool due to a critical failure to trust my `debugging_assistant` agent. The agent correctly identified the necessary fix (a hierarchical `if/elif` structure) on turn 20056, but I incorrectly reverted this fix on turn 20059 based on a flawed manual analysis. This mistrust, as highlighted by the system critique on turn 20071, was the root cause of the prolonged failure and is a major process violation.
 
-# Reflection-Based Updates (Turn 21308)
-
-## New Untested Hypotheses
-- **Assumption to Test (Kurt/Mart Event):** The event blocking the Poké Mart is purely time-gated.
-  - **Alternative Hypothesis:** The trigger is another story event, not time. After exploring Dark Cave, I will re-interview all Azalea Town NPCs to check for new dialogue.
-- **Assumption to Test (Dark Cave Path):** Dark Cave is the main path forward.
-  - **Alternative Hypothesis:** Dark Cave is a side area. If it's a dead end, I will return to Ilex Forest or Route 36 to re-evaluate.
-- **Assumption to Test (Ledge Mechanics):** `LEDGE_HOP_DOWN` tiles are one-way.
-  - **Test Plan:** At the next opportunity, attempt to move 'Up' onto a `LEDGE_HOP_DOWN` tile to confirm it's impassable from below.
-
-## Agent/Tool Ideas
-- **Quest Progression Agent:** Analyze NPC dialogue hints and current obstacles to suggest the next logical location to investigate.
-- **Puzzle Solver Assistant:** An agent that takes observations about a puzzle (tile types, object positions, interactions) and suggests simple, testable hypotheses.
-
 ### Cut Mechanic (CRITICAL DISCOVERY)
 - Using Cut on a tree removes the visual sprite, but the underlying tile may not immediately become traversable. The tile type in the map data (`CUT_TREE`) remains the source of truth for collision, as confirmed by a failed movement attempt at (8, 25) in Ilex Forest after cutting the tree.
 - Rigorously test all one-way tiles (e.g., LEDGE_HOP_DOWN/LEFT/RIGHT, FLOOR_UP_WALL on Union Cave 1F) by attempting to move in all four directions from them to definitively confirm their movement restrictions.
@@ -77,14 +109,6 @@
 - **Core Process Failure (Trust & Flexibility):** My biggest failure in the last 50+ turns was a prolonged debugging loop (turns ~21774-21808) caused by my refusal to trust my `find_reachable_unseen_tiles` tool's output. The tool correctly identified a dead end, but I assumed it was broken and wasted numerous turns trying to 'fix' it and manually re-exploring. This violates the 'TRUST BUT VERIFY' principle. I must trust my tools' outputs by default and only debug them after in-game verification proves them wrong.
 - **Agent Mistrust:** I incorrectly blamed the `debugging_assistant` for the tool's continued failure, calling it 'unreliable' when the root cause was a typo I introduced myself. I must trust agent outputs and focus on providing them with correct inputs.
 - **Deferred Actions:** I deferred a notepad update on turn 21783, a direct violation of the 'IMMEDIATE ACTION' principle. All data management tasks must be performed in the turn they are identified.
-
-# Ilex Forest Re-Exploration Plan
-- **Hypothesis:** I have missed a tree that requires HM01 Cut to pass.
-- **Plan:**
-  1. Heal Pokémon in Azalea Town.
-  2. Enter the Ilex Forest gatehouse via the warp at (2, 11).
-  3. Enter the southern forest section (via gate warp 0, 5).
-  4. Systematically explore every tile of this forest section, checking every small tree for a Cut interaction prompt.
 
 # Mandatory Self-Assessment (Turn 21932)
 
@@ -104,12 +128,6 @@
 # Appendix: Reflection Log (Turn 22088 - Self-Assessment)
 - **CRITICAL PROCESS FAILURE (Turns ~21998-22038):** Engaged in a prolonged, multi-turn debugging loop with my pathfinding tools. This was a major violation of the 'TRUST BUT VERIFY' principle. The tools correctly reported that no path existed, but I incorrectly assumed they were broken and wasted dozens of turns on unnecessary fixes. I must trust my tools' outputs by default and only debug them after in-game verification proves them wrong. I also violated the 'IMMEDIATE ACTION' principle multiple times by deferring data management tasks.
 
-# New Untested Hypotheses & Test Plans
-- **Assumption to Test (One-Way Tiles):** Ledge tiles are truly one-way.
-  - **Test Plan:** At the next opportunity, I will attempt to move in all four directions from a ledge tile to definitively confirm its movement restrictions.
-
-# Current Objectives & Plans
-
 # Appendix: Fallback Plans
 - **Farfetch'd Puzzle Deadlock:** If re-interviewing all Azalea Town NPCs yields no new clues, the next step is to revisit Kurt's House and the Slowpoke Well to check for any dialogue changes or new events.
 
@@ -118,47 +136,5 @@
 - **Deferred Actions:** I have a history of deferring critical data management (notepad updates, tool fixes) in favor of gameplay. **Lesson:** As an LLM, there is no 'later'. All maintenance tasks must be performed in the turn they are identified, as this is my highest priority.
 - **Agent Mistrust vs. Blind Trust:** I have swung between blindly trusting my `debugging_assistant` (leading to the coordinate system error) and completely mistrusting it. **Lesson:** Trust but verify. Use agents as powerful assistants, but always validate their logic against the ground truth of the game state before implementation.
 
-# New Untested Hypotheses & Test Plans
-- **Assumption:** Ilex Forest is a linear path.
-  - **Alternative Hypothesis:** There are optional side paths or hidden areas.
-  - **Test Plan:** Once the pathfinder is functional, use `find_reachable_unseen_tiles` to identify and explore all branching paths, not just the direct route to the exit.
-- **Assumption:** My understanding of one-way tiles is complete.
-  - **Alternative Hypothesis:** There are subtle mechanics I'm missing.
-  - **Test Plan:** At the next opportunity, I will attempt to move in all four directions from a ledge or `FLOOR_UP_WALL` tile to definitively confirm its movement restrictions and document the results.
-
-# Agent/Tool Ideas
-- **Puzzle Assistant:** An agent that takes observations about a puzzle (tile types, object positions, interactions) and suggests simple, testable hypotheses to break down complex problems methodically.
-
 # Lessons Learned from Recent Failures
 - **Prolonged Debugging Failure (Turns ~22817-22861):** My most critical failure was getting trapped in a multi-turn debugging loop with the `find_reachable_unseen_tiles` tool. This violated my core principle to pivot when a strategy is failing. I incorrectly trusted the `debugging_assistant`'s contradictory advice and failed to manually fix the tool by aligning its logic with my working `path_and_execute` tool sooner. After deleting the tool, I am now focused on manual exploration. **Lesson:** Trust direct observation and working code over unreliable agents. Pivot away from failing strategies much faster. Do not get stuck on fixing a single tool for dozens of turns.
-
-# Ilex Forest: Farfetch'd Puzzle Plan
-
-- **Objective:** Herd the lost Farfetch'd back to the apprentice at (7, 28).
-
-- **Hypothesis:** The Farfetch'd's movement is influenced by my approach direction and potentially by environmental interactions, like stepping on twig piles. It needs to be guided along a specific path.
-
-- **Systematic Test Plan:**
-  1.  **Locate:** Systematically explore the accessible areas of the forest to find the Farfetch'd's current location.
-  2.  **Observe & Test:** Once found, I will test its reaction to my actions:
-      - Approach from above and press 'A'. Document result.
-      - Approach from below and press 'A'. Document result.
-      - Approach from the left and press 'A'. Document result.
-      - Approach from the right and press 'A'. Document result.
-      - Step on any nearby twig piles and observe if its facing direction or position changes. Document result.
-  3.  **Document & Iterate:** I will record the outcome of each interaction to map out the puzzle's logic and determine the correct sequence of moves to guide it back to the apprentice.
-
-# Self-Assessment (Turn 22816)
-
-### New Untested Hypotheses & Test Plans
-- **Assumption (Farfetch'd Puzzle):** The puzzle is solved by herding the Farfetch'd directly towards the apprentice.
-  - **Alternative Hypothesis:** The puzzle is not about direct herding, but about interacting with specific environmental objects (like all twig piles) in a certain order, which will cause the Farfetch'd to return to the apprentice on its own.
-  - **Test Plan:** Interact with puzzle elements (like twig piles) that are not directly on the path between my current location and the Farfetch'd to see if they trigger a change in its position or behavior. This will help determine if the puzzle has global triggers.
-- **Assumption (HEADBUTT_TREE):** This tree type requires the move Headbutt to interact with.
-  - **Alternative Hypothesis:** It is a standard impassable object, or it requires a different item or event trigger.
-  - **Test Plan:** At the next opportunity, interact with a HEADBUTT_TREE by pressing 'A' to see if any interaction occurs without the move Headbutt.
-
-# New Untested Hypotheses & Test Plans (Post-Self-Assessment)
-- **Assumption (HEADBUTT_TREE):** This tree type requires the move Headbutt to interact with.
-  - **Alternative Hypothesis:** It is a standard impassable object, or it requires a different item or event trigger.
-  - **Test Plan:** At the next opportunity, interact with a HEADBUTT_TREE by pressing 'A' to see if any interaction occurs without the move Headbutt.
