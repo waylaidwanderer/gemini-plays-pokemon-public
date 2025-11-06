@@ -149,3 +149,6 @@
   - **Hypothesis:** Interacting from a cardinal direction causes it to flee in a perpendicular direction.
 - **Observation (Turn 23173):** After I made it move to (21, 24), the Farfetch'd autonomously moved again to (15, 29).
   - **Updated Hypothesis:** Interaction triggers a specific path or a new behavior, not just a single move.
+
+# Ilex Forest: Farfetch'd Puzzle (Update)
+- **Test 2 (From Right):** Interacted at (16, 29) while Farfetch'd was at (15, 29). Triggered a 'Kwaa!' dialogue. Awaiting next turn to observe movement.
