@@ -65,8 +65,6 @@
 ### Custom Tools
 - **`deterministic_battle_strategist`**: A deterministic, non-LLM tool that analyzes battle state and recommends the next action (FIGHT/RUN) and move.
 - **`path_and_execute`**: Generates a path to a target coordinate and returns it as a list of coordinate dictionaries for use with `path_plan`.
-- **`systematic_explorer`**: Finds all reachable unseen tiles from the player's current position and returns them as a list of coordinates.
-- **`verify_reachability`**: Takes a JSON string of a list of coordinates and returns a new list containing only the coordinates that are reachable from the player's current position.
 
 ### Built-in Tools
 - **`notepad_edit`**: Edits the notepad.
