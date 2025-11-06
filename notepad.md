@@ -38,7 +38,7 @@
 
 ## VI. Story & Quests
 *   **Primary Quest:** Become the Pokémon League Champion.
-    *   Current Objective: Travel to Goldenrod City for the next Gym Badge.
+    *   Current Objective: Get the Plain Badge in Goldenrod City.
 *   **Completed Quests:**
     *   Zephyr Badge: Defeated Falkner in Violet City.
     *   Hive Badge: Defeated Bugsy in Azalea Town.
