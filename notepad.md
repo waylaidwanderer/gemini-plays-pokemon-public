@@ -75,6 +75,7 @@
 *   **Crate Switch Hypothesis (Failed):** Systematic testing of all accessible crate-like floor tiles and wall sections in the main underground area yielded no results. This hypothesis is invalid.
 *   **Wall Panel Switch Hypothesis (In Progress):** My current hypothesis is that one of the wall panels in the Switch Room is a switch.
     *   Test 1: Panel at (18, 27) from below at (18, 28). Result: Failed.
+    *   Test 2: Panel at (4, 23) from below at (4, 24). Result: Failed.
 *   **Alternative Hypotheses for Switch Room Puzzle:**
     1.  **Sequence Hypothesis:** The switches must be pressed in a specific, unknown order.
     2.  **Item/Event Hypothesis:** The puzzle requires an item or event completion from elsewhere in Goldenrod City to be solvable.
@@ -82,4 +83,3 @@
 ## XIII. Reflection & Strategic Pivots
 *   **Void Tile Testing:** The `VOID` tile type is present on some maps but its traversability is undocumented. I must test it at the next available opportunity.
 *   **Exit Strategy:** If all hypotheses for the Goldenrod Underground puzzle fail, I will abandon it, exit the area, and focus on finding the Gym or exploring the rest of the city to prevent getting stuck. (Strategy executed in turn 25435).
-    *   Test 2: Panel at (4, 23) from below at (4, 24). Result: Failed.
