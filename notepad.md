@@ -47,45 +47,17 @@
 
 ---
 
-# Appendix: Historical Logs & Self-Assessments
+# Appendix: Core Lessons & Mechanics
 
-## Mandatory Self-Assessment & Process Improvements
+## Key Lessons from Past Failures
+- **IMMEDIATE ACTION:** All data management and tool/agent maintenance tasks must be performed in the turn they are identified. Deferring these tasks is a critical failure.
+- **TRUST BUT VERIFY:** Trust tool and agent outputs by default. Only debug them after in-game verification proves their output is incorrect. My own visual assessment can be flawed.
+- **PIVOT QUICKLY:** When a strategy is demonstrably failing (e.g., getting stuck in a multi-turn debugging loop), pivot to a new approach. Do not persist with a failing strategy.
+- **COORDINATE SYSTEM:** Always verify the coordinate system (0-indexed vs 1-indexed) by checking the `map_xml_string` before debugging pathfinding logic. Direct observation of the XML is the source of truth.
+- **HALLUCINATION AWARENESS:** I have a history of hallucinating coordinates and map features (e.g., non-existent warps). I must constantly verify my assumptions against the map data and game state.
 
-- **IMMEDIATE ACTION:** I must perform all data management and tool/agent maintenance tasks in the turn they are identified. Deferring these tasks, as I did with the failed notepad `overwrite` on turn 23335, is a critical failure.
-- **TRUST BUT VERIFY:** I must trust the output of my tools and agents by default. I will only debug them after in-game verification proves their output is incorrect.
-- **PIVOT QUICKLY:** I must recognize when a strategy is failing and pivot to a new approach much faster. I will not get stuck in multi-turn debugging loops on a single tool.
-
-## My Toolkit
-
-### Custom Agents
-- **`debugging_assistant`**: Analyzes a faulty Python script, a description of the problem, and any error/output, then provides a corrected version of the script.
-- **`quest_progression_advisor`**: Analyzes current location, goals, and known obstacles to suggest the next logical area or NPC to investigate to advance the story.
-- **`puzzle_solver_assistant`**: Analyzes puzzle observations and suggests simple, testable hypotheses to methodically solve complex problems.
-
-### Custom Tools
-- **`deterministic_battle_strategist`**: A deterministic, non-LLM tool that analyzes battle state and recommends the next action (FIGHT/RUN) and move.
-- **`path_and_execute`**: Generates a path to a target coordinate and returns it as a list of coordinate dictionaries for use with `path_plan`.
-
-### Built-in Tools
-- **`notepad_edit`**: Edits the notepad.
-- **`run_code`**: Executes a Python script.
-- **`define_agent` / `delete_agent`**: Manages custom agents.
-- **`define_tool` / `delete_tool`**: Manages custom tools.
-- **`define_map_marker` / `delete_map_marker`**: Manages map markers.
-- **`stun_npc`**: Freezes/unfreezes NPCs.
-- **`select_battle_option`**: Selects a main battle menu option.
-
-## Tool Development Log
-- **Pathfinding Tools (`path_and_execute`, test scripts):** On turns 23374-23377, my pathfinding tools correctly reported that no path existed to my target at (4, 24). I incorrectly assumed the tools were broken based on a flawed visual assessment of the map. After a test script confirmed the path was blocked, a manual review of the map data revealed impassable WALL tiles at (4, 26) and (4, 27) that I had missed. **CRITICAL LESSON REINFORCED:** The output of a logically sound tool is more reliable than a quick visual check. I must always trust my tools' outputs by default and only debug them after in-game verification proves them wrong. My assumption was the error, not the code.
-
-## Historical Failure Log Summary (Pre-Turn 16000)
-- **Key Lessons:** Past failures stemmed from hallucinating coordinates, deferring notepad/tool maintenance, and mistrusting tool outputs. These have been noted and integrated into current processes.
-
-## Reflection-Based Updates (Turn 11695)
-- **CRITICAL REASONING FAILURE (Turns 11683-11690):** I became stuck in a multi-turn loop attempting to fix the `generate_path_plan` tool. I repeatedly submitted identical, broken code, failing to notice that I had not actually removed the incorrect line from the `impassable_types` set. This was a severe failure of process and attention to detail.
-- **CRITICAL REASONING FAILURE (Turns 11717-11720):** After multiple failed attempts to fix my pathfinder's one-way ledge logic, I finally implemented a version that seemed simpler and more correct. However, it was a fundamentally backward and based on a complete misunderstanding of the mechanic. The game immediately blocked my movement, proving the new code was broken. My logic from turn 11694 was actually correct, and my 'fix' was a regression that wasted several turns. This is a major failure in debugging and logical reasoning.
-
-## Reflection Log (Turn 11852)
+## Cut Mechanic (CRITICAL DISCOVERY)
+- Using Cut on a tree removes the visual sprite, but the underlying tile (`CUT_TREE`) remains impassable even after reloading the map. This is a persistent state, not a temporary one.
 - **CRITICAL HALLUCination (Turn 11872):** Believed a warp to Union Cave existed at (11, 9) on the AzaleaTown map (8_7). The system confirmed no warp exists there. The actual warp to Union Cave is on Route 33 (8_6) at (11, 9). This was a major failure in location awareness.
 - **CRITICAL HALLUCINATION (Turn 11928):** Believed a warp to Dark Cave existed at (34, 5) on the VioletCity map (10_5). The system confirmed no warp exists there. This was a major failure in location awareness.
 
