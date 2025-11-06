@@ -61,3 +61,19 @@
 - **Observation:** Previous searches in the initial puzzle area have failed. The `puzzle_solver_assistant` suggests the puzzle has a second phase.
 - **Hypothesis:** The Farfetch'd has moved to a new location deeper in the forest to begin a second chase, specifically around coordinate (23, 25).
 - **Test:** Travel to the area around (23, 25) and search for the Farfetch'd.
+
+# Appendix: Core Lessons & Mechanics
+
+## Farfetch'd Puzzle Mechanics
+
+## Hypothesis 5 (Turn 23851) - FAILED
+- **Observation:** After successfully herding the Farfetch'd to the western part of the forest, interacting with it from the right at (21, 24) caused the entire puzzle to reset, returning the Farfetch'd to (15, 25).
+- **Hypothesis:** Interacting from the right is the incorrect final step for the second phase of the puzzle.
+- **Conclusion:** The test failed.
+
+## Hypothesis 6 (Turn 23851) - Trusting the Agent
+- **Observation:** The `puzzle_solver_assistant` previously suggested a second chase phase begins around (23, 25). My actions herded the Farfetch'd to this general area, but my final interaction was wrong, causing a reset.
+- **Hypothesis:** The correct solution involves repeating the steps to trigger the second chase, but then finding the correct interaction sequence in the western area to guide the Farfetch'd to the apprentice without causing a reset. The next attempt should involve interacting from a different direction (e.g., from above or below) once the Farfetch'd is in the western area.
+- **Test:**
+    1. Re-solve the first part of the puzzle to move the Farfetch'd west.
+    2. Once it is in the western area, approach it from a different direction than last time (e.g., from above at (20, 23)) and interact.
