@@ -22,7 +22,7 @@
     *   `path_finder` Warp Impassability Bug (Turn 25470): The tool incorrectly classified warp tiles as impassable. Correction (Turn 25471): The tool's script was updated to remove `WARP_CARPET_*` and `DOOR` from the impassable list.
 
 ## V. Tile Traversal Rules
-*   Traversable: TALL_GRASS, LONG_GRASS, DOOR, LADDER, WARP_CARPET_RIGHT, WARP_CARPET_DOWN.
+*   Traversable: FLOOR, TALL_GRASS, LONG_GRASS, DOOR, LADDER, WARP_CARPET_RIGHT, WARP_CARPET_DOWN.
 *   Impassable (Verified): WALL, WINDOW, CUT_TREE, SIGN, BOOKSHELF, BLACKBOARD, MART_SHELF, BUOY, TV, TOWN_MAP, BIRD, HEADBUTT_TREE, FRUIT_TREE, PRINTER, WATER, CAVE, PC, COUNTER, VOID.
 *   One-Way Traversal:
     *   LEDGE_HOP_DOWN: A one-way ledge. Can only be entered from a tile directly above it (Y-1 -> Y), which forces movement to the tile below it (Y -> Y+1).
