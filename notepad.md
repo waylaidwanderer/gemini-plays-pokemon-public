@@ -142,3 +142,8 @@
 - **Conclusion:** This confirms my previous finding. The puzzle area is an isolated 'island' with no reachable unseen tiles. The solution is not exploration, but interaction with the puzzle elements.
 - **Next Step:** Systematically search the *known* area to locate the Farfetch'd. I will start by moving towards (15, 25), a known spawn/reset point for the Farfetch'd.
 - **HEADBUTT_TREE**: Impassable. Assumed to be interactable with the move Headbutt.
+
+# Ilex Forest: Farfetch'd Puzzle Mechanics
+- **Test 1 (Turn 23171):** Interacted with Farfetch'd at (15, 25) from the tile above it at (15, 24).
+  - **Result:** Farfetch'd moved right to (21, 24).
+  - **Hypothesis:** Interacting from a cardinal direction causes it to flee in a perpendicular direction.
