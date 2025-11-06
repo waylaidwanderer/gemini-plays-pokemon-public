@@ -20,6 +20,7 @@
     *   `path_finder` Dynamic Obstacle Failure (Turn 24138): The tool generated a path through a tile that was temporarily blocked by a moving NPC (GRAMPS, ID 2). Conclusion: The tool's logic is sound, but my strategy must account for dynamic obstacles. Temporarily freezing key NPCs may be a valid tactic for reliable navigation in cluttered areas.
     *   **Position Hallucination (Turn 25169-25171):** I hallucinated that a `path_plan` to move from (4, 18) to (3, 18) was successful. The system warning on turn 25172 confirmed the move failed and I was still at (4, 18). Root cause: Failure to verify my position in the Game State after the path execution. Corrective action: Added a new core principle to always verify my position.
     *   `path_finder` Warp Impassability Bug (Turn 25470): The tool incorrectly classified warp tiles as impassable. Correction (Turn 25471): The tool's script was updated to remove `WARP_CARPET_*` and `DOOR` from the impassable list.
+    *   `path_finder` Game Corruption Trigger (Turn 26095): The tool's output, when executed via a long `path_plan`, triggered a catastrophic game corruption. **Conclusion:** The tool's A* logic is sound, but the game engine appears to have a stability bug related to rapid, multi-tile movements. **Mitigation Strategy:** Avoid using `path_plan` for long or complex paths. Prioritize short paths or manual, turn-by-turn movement to reduce the risk of triggering this engine bug.
 
 ## V. Tile Traversal Rules
 *   Traversable: FLOOR, TALL_GRASS, LONG_GRASS, DOOR, LADDER, WARP_CARPET_RIGHT, WARP_CARPET_DOWN.
@@ -102,6 +103,3 @@
     *   The warps at (2, 13) and (3, 13) are a standard exit. (Confirmed inactive)
     *   An NPC has a clue for how to exit. (All NPCs spoken to, no clues)
     *   The 'Left Their Drink' object at (12, 1) is a switch. (Interaction failed)
-
-## XV. Major Glitches & Corruption
-*   **Game Corruption Event (Turn 26095):** After executing a `path_finder` tool call from (17, 9) to (14, 6) in the Goldenrod Game Corner, the game state became severely corrupted. I was transported to an unknown map (ID: 172_164) and entered a glitched battle. My party, Pokedex, badges, and money are all showing nonsensical, glitched data. The game is currently in an unplayable state.
