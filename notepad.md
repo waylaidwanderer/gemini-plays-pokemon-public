@@ -113,11 +113,10 @@
     *   (0, 4) -> Counter at (0, 3): Checked, no effect. (Marked 🚫)
     *   (1, 4) -> Counter at (1, 3): Checked, no effect. (Marked 🚫)
     *   (2, 4) -> Counter at (2, 3): Checked, no effect. (Marked 🚫)
-    *   (3, 4) -> Counter at (3, 3): Checked, no effect. (Coin Clerk)
+    *   (3, 4) -> Counter at (3, 3): Coin Clerk. (Marked 🚫)
     *   (4, 4) -> Counter at (4, 3): Checked, no effect. (Marked 🚫)
-    *   (13, 2) -> Counter at (14, 2): Checked, no effect. (Marked 🚫)
+    *   (5, 4) -> Counter at (5, 3): Checked, no effect.
 *   **Failed Hypotheses Log:**
     *   The warps at (2, 13) and (3, 13) are a standard exit. (Confirmed inactive)
     *   An NPC has a clue for how to exit. (All NPCs spoken to, no clues)
     *   The 'Left Their Drink' object at (12, 1) is a switch. (Interaction failed)
-    *   Old search data based on incomplete reachability has been archived.
