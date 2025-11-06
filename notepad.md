@@ -44,7 +44,7 @@
 *   **Side Quests & NPC Hints:**
     *   Kurt's Custom Balls: Wait one day for Kurt to finish making a custom ball. (Blocked by time).
     *   Union Cave Roars: Investigate on a Friday. (Blocked by time).
-    *   Bug-Catching Contest: At the National Park.
+    *   Bug-Catching Contest: At the National Park (today, per Wade).
     *   Strange Tree: A strange tree blocks Route 36.
     *   Hiker Anthony wants a rematch on Route 33.
     *   Bill's Family: Bill is at the Pokémon Center in Ecruteak City. His father is at the Game Corner.
