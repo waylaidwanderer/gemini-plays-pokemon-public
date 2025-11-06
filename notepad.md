@@ -60,15 +60,19 @@
     *   Bug-Catching Contest: At the National Park.
 
 ## VI. Farfetch'd Puzzle - Verified Mechanics
-*   Reset: Stepping on the tile at (15, 27) acts as a hard reset, causing the Farfetch'd to respawn at its starting position of (29, 22).
-*   Movement 5 (Run & Disappear): Interacting from the South at (29, 23) while it is at (29, 22) causes it to run west to (24, 22) and disappear.
-*   Reappearance 1: After the 'Run & Disappear' mechanic, walking the trigger path from (26, 24) towards (20, 24) causes it to reappear at (20, 24).
-*   Movement 1 (Loop): Interacting from the North at (15, 24) while it is at (15, 25) causes it to move to (15, 29).
-*   Disappearance 1: Interacting from the North at (15, 28) while it is at (15, 29) caused it to walk a path and disappear at (14, 35).
-*   Reappearance 2: After Disappearance 1, walking the trigger path from (15, 27) to (9, 34) causes it to reappear at (10, 35).
-*   Movement 2 (Loop): Interacting from the North at (10, 34) while it is at (10, 35) causes it to move back to (15, 29).
-*   Movement 3 (Loop): Interacting from the East at (16, 29) while it is at (15, 29) causes it to move North to (15, 25).
-*   Movement 4 (Loop): Interacting from the South at (15, 26) while it is at (15, 25) causes it to move to (20, 24).
+*   **Goal:** Guide the Farfetch'd to the apprentice at (7, 28).
+*   **Reset:** Stepping on the tile at (15, 27) acts as a hard reset, causing the Farfetch'd to respawn at its starting position of (29, 22).
+*   **Step 1 - Run & Disappear:** Interacting from the South at (29, 23) while it is at (29, 22) causes it to run west to (24, 22) and disappear.
+*   **Step 2 - Reappearance 1:** After 'Run & Disappear', walking the trigger path from (26, 24) towards (20, 24) causes it to reappear at (20, 24).
+*   **Step 3 - Disappearance 2:** Interacting from the East at (21, 24) while it is at (20, 24) causes it to move along a path and disappear at (16, 23).
+*   **Step 4 - Reappearance 3:** After 'Disappearance 2', moving to (20, 24) causes the Farfetch'd to reappear at (15, 25).
+*   **Step 5 - Movement 1:** Interacting from the North at (15, 24) while it is at (15, 25) causes it to move to (15, 29).
+*   **Step 6 - Disappearance 1:** Interacting from the North at (15, 28) while it is at (15, 29) causes it to walk a path and disappear at (14, 35).
+*   **Step 7 - Reappearance 2:** After 'Disappearance 1', walking the trigger path from (15, 27) to (9, 34) causes it to reappear at (10, 35).
+*   **Looping Mechanics (Avoid):**
+    *   Interacting from the North at (10, 34) while it is at (10, 35) causes it to move back to (15, 29). (Movement 2)
+    *   Interacting from the East at (16, 29) while it is at (15, 29) causes it to move North to (15, 25). (Movement 3)
+    *   Interacting from the South at (15, 26) while it is at (15, 25) causes it to move to (20, 24). (Movement 4)
 
 ## VII. Team Strategy & Analysis
 *   `team_analyst` Report (Turn 24443):
