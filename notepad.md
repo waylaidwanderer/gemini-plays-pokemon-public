@@ -105,3 +105,7 @@
 *   **Confirmation Bias Identified:** My search has exclusively tested for an 'A' button interaction. This is too narrow.
 *   **Hypothesis 2 (Movement Trigger):** The exit may be triggered by a specific movement pattern on the floor, not an interaction. Test: After exhausting 'A' presses, perform a serpentine walk over every single floor tile.
 *   **Hypothesis 3 (External Prerequisite):** The puzzle may be unsolvable without an item or event from outside. The POKEFAN_M mentioned losing his COIN CASE in the Goldenrod Underground. This is a strong lead. Test: If the in-room search fails, leave the Game Corner, find the COIN CASE, and then return to see if anything has changed.
+
+## XIII. Future Agent & Strategy Notes (Post-Reflection)
+*   **Puzzle Solver Agent Idea:** A potential future agent could automate the entire puzzle-solving loop: take a list of targets, manage a 'checked' list, and output the next move and interaction. This would be a high-level automation of my current process.
+*   **Game Corner Pivot Condition:** If the next 15 systematic search targets in the Game Corner fail to reveal the exit, I MUST pivot. The primary goal will become finding the COIN CASE in the Goldenrod Underground, and I will leave the Game Corner to pursue that lead.
