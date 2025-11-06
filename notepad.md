@@ -105,7 +105,7 @@
     *   Test: Spoke to all 12 visible NPCs in the room. Result: No clues, only game tips and prize info.
 *   **Hypothesis 3 (Failed):** The 'Left Their Drink' object at (12, 1) is a switch.
     *   Test: Interacted with the object from below at (12, 2). Result: No effect.
-*   **Current Hypothesis:** A hidden switch exists in the southern, reachable area. I am conducting a systematic search of all interactable tiles identified by my `find_interactable_tiles` tool.
+*   **Current Hypothesis:** A hidden switch exists in the southern, reachable area. 
 *   **Search Progress:**
     - Row 12: (0,12), (6,12), (7,12), (12,12), (13,12), (18,12), (19,12) - All Checked.
     - Row 11: (1,11), (5,11), (8,11), (14,11), (17,11) - All Checked.
@@ -113,5 +113,5 @@
     - Row 9: (1,9), (5,9), (8,9), (11,9), (14,9), (17,9) - All Checked.
     - Row 8: (1,8) - Checked. (5,8) - Checked (Slot machine). (8,8) - Checked (Slot machine).
 *   **Verify Position After Movement:** After every `path_plan` execution, I must verify my actual `current_position` from the Game State against the plan's destination to prevent movement-related hallucinations.
-*   **Systematic Search Plan (Generated Turn 25930):**
-    *   Interactable Tile List: [(2, 1), (6, 1), (8, 1), (9, 1), (10, 1), (13, 1), (15, 1), (16, 1), (17, 1), (18, 1), (19, 1), (0, 2), (1, 2), (2, 2), (3, 2), (4, 2), (5, 2), (6, 2), (8, 2), (11, 2), (12, 2), (13, 2), (15, 2), (16, 2), (17, 2), (18, 2), (19, 2), (8, 3), (13, 3), (0, 4), (1, 4), (2, 4), (3, 4), (4, 4), (5, 4), (6, 4), (7, 4), (12, 4), (13, 4), (14, 4), (15, 4), (16, 4), (17, 4), (18, 4), (19, 4), (0, 5), (5, 5), (8, 5), (11, 5), (14, 5), (17, 5), (1, 6), (5, 6), (8, 6), (11, 6), (14, 6), (17, 6), (1, 7), (5, 7), (8, 7), (11, 7), (14, 7), (17, 7), (1, 8), (5, 8), (8, 8), (11, 8), (14, 8), (17, 8), (1, 9), (5, 9), (8, 9), (11, 9), (14, 9), (17, 9), (1, 10), (5, 10), (8, 10), (11, 10), (14, 10), (17, 10), (1, 11), (5, 11), (8, 11), (11, 11), (14, 11), (17, 11), (0, 12), (6, 12), (7, 12), (12, 12), (13, 12), (18, 12), (19, 12)]
+*   **Systematic Search Plan (Generated Turn 25936):**
+    *   Reachable Interactable Tile List: [[8, 1], [9, 1], [10, 1], [13, 1], [8, 2], [11, 2], [12, 2], [13, 2], [8, 3], [13, 3], [0, 4], [1, 4], [2, 4], [3, 4], [4, 4], [5, 4], [6, 4], [7, 4], [12, 4], [13, 4], [14, 4], [15, 4], [16, 4], [17, 4], [18, 4], [19, 4], [0, 5], [5, 5], [8, 5], [11, 5], [14, 5], [17, 5], [1, 6], [5, 6], [8, 6], [11, 6], [14, 6], [1, 7], [5, 7], [11, 7], [14, 7], [17, 7], [1, 8], [5, 8], [8, 8], [11, 8], [14, 8], [17, 8], [1, 9], [5, 9], [8, 9], [11, 9], [14, 9], [17, 9], [1, 10], [5, 10], [8, 10], [11, 10], [14, 10], [17, 10], [1, 11], [5, 11], [8, 11], [11, 11], [14, 11], [17, 11], [0, 12], [6, 12], [7, 12], [12, 12], [13, 12], [18, 12], [19, 12]]
