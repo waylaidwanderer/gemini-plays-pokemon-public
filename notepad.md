@@ -150,7 +150,7 @@
 (8, 6) - Tested, not a switch
 (11, 6) - Tested, not a switch
 (14, 6) - Tested, not a switch
-(17, 6) - To be tested
+(17, 6) - Blocked by NPC
 (1, 7) - Tested, not a switch
 (5, 7) - Tested, not a switch
 (8, 7) - Tested, not a switch
