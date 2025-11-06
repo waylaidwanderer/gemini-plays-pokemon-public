@@ -162,3 +162,13 @@
       - Approach from the right and press 'A'. Document result.
       - Step on any nearby twig piles and observe if its facing direction or position changes. Document result.
   3.  **Document & Iterate:** I will record the outcome of each interaction to map out the puzzle's logic and determine the correct sequence of moves to guide it back to the apprentice.
+
+# Self-Assessment (Turn 22816)
+
+### New Untested Hypotheses & Test Plans
+- **Assumption (Farfetch'd Puzzle):** The puzzle is solved by herding the Farfetch'd directly towards the apprentice.
+  - **Alternative Hypothesis:** The puzzle is not about direct herding, but about interacting with specific environmental objects (like all twig piles) in a certain order, which will cause the Farfetch'd to return to the apprentice on its own.
+  - **Test Plan:** Interact with puzzle elements (like twig piles) that are not directly on the path between my current location and the Farfetch'd to see if they trigger a change in its position or behavior. This will help determine if the puzzle has global triggers.
+- **Assumption (HEADBUTT_TREE):** This tree type requires the move Headbutt to interact with.
+  - **Alternative Hypothesis:** It is a standard impassable object, or it requires a different item or event trigger.
+  - **Test Plan:** At the next opportunity, interact with a HEADBUTT_TREE by pressing 'A' to see if any interaction occurs without the move Headbutt.
