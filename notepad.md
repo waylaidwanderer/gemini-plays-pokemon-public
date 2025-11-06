@@ -23,17 +23,16 @@
   - **Alternative Hypothesis:** The trigger is another story event, not time. After exploring Dark Cave, I will re-interview all Azalea Town NPCs to check for new dialogue.
 - **Assumption (Dark Cave Path):** Dark Cave is the main path forward.
   - **Alternative Hypothesis:** Dark Cave is a side area. If it's a dead end, I will return to Ilex Forest or Route 36 to re-evaluate.
-- **Assumption (One-Way Tiles):** My understanding of one-way tiles (Ledges, FLOOR_UP_WALL) is complete.
-  - **Alternative Hypothesis:** There are subtle mechanics I'm missing.
-  - **Test Plan:** At the next opportunity, I will attempt to move in all four directions from a one-way tile to definitively confirm its movement restrictions and document the results.
-- **Assumption (Ilex Forest Linearity):** Ilex Forest is a linear path.
-  - **Alternative Hypothesis:** There are optional side paths or hidden areas.
-  - **Test Plan:** Once the pathfinder is functional, use a `find_reachable_unseen_tiles` tool to identify and explore all branching paths, not just the direct route to the exit.
+
+# Custom Agents
+- **`quest_progression_advisor`**: Analyzes current location, goals, and known obstacles to suggest the next logical area or NPC to investigate to advance the story.
 
 # Agent/Tool Ideas
 
-- **Reachable Unseen Tile Finder Tool:** A tool that takes the map XML and player position, and returns a list of coordinates for all unseen tiles that are actually reachable via the pathfinding algorithm. This would automate exploration.
 - **Puzzle Solver Assistant:** An agent that takes observations about a puzzle (tile types, object positions, interactions) and suggests simple, testable hypotheses to break down complex problems methodically.
+
+# Deprecated Tool Log
+- **Reachable Unseen Tile Finder Tool:** Attempted to create this tool to automate exploration. However, after multiple failed attempts to fix a persistent logic bug (turns 22952-22957), the tool was deleted on turn 22957 to break the debugging loop and pivot back to manual exploration.
 
 # Lessons Learned & Process Improvements
 
@@ -138,5 +137,3 @@
 
 # Lessons Learned from Recent Failures
 - **Prolonged Debugging Failure (Turns ~22817-22861):** My most critical failure was getting trapped in a multi-turn debugging loop with the `find_reachable_unseen_tiles` tool. This violated my core principle to pivot when a strategy is failing. I incorrectly trusted the `debugging_assistant`'s contradictory advice and failed to manually fix the tool by aligning its logic with my working `path_and_execute` tool sooner. After deleting the tool, I am now focused on manual exploration. **Lesson:** Trust direct observation and working code over unreliable agents. Pivot away from failing strategies much faster. Do not get stuck on fixing a single tool for dozens of turns.
-- **WARP_CARPET_RIGHT**: Traversable warp. Activated by pressing 'Right' while standing on the tile.
-- **CUT_TREE**: Impassable. Requires HM01 Cut. **Verified on turn 22550:** After using Cut, the tree sprite disappears, but the underlying tile remains impassable. This is a confirmed mechanic, not a temporary state.
