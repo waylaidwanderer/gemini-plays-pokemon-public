@@ -104,6 +104,7 @@
     *   (9, 1) -> Wall at (9, 0): Checked, no effect. (Marked 🚫)
     *   (10, 1) -> Wall at (10, 0): Checked, no effect. (Marked 🚫)
     *   (13, 1) -> Wall at (13, 0): Checked, no effect. (Marked 🚫)
+    *   (8, 2) -> Counter at (7, 2): Checked, no effect.
 *   **Failed Hypotheses Log:**
     *   The warps at (2, 13) and (3, 13) are a standard exit. (Confirmed inactive)
     *   An NPC has a clue for how to exit. (All NPCs spoken to, no clues)
