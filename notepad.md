@@ -64,12 +64,13 @@
 *   **Assumption 2:** The only way forward from the Route 34 Gatehouse is through the northern warp.
 *   **Alternative Hypothesis:** The NPCs in the gatehouse might provide a key item or trigger an event that opens a new path, or this could be a dead end.
 *   **Test Plan:** Talk to all NPCs in the gatehouse before attempting to exit north.
-*   **Hidden Item Interaction (Testing):** Attempting to pick up the hidden Super Potion at (4, 18) in Goldenrod Underground.
+*   **Hidden Item Interaction (Postponed):** Attempting to pick up the hidden Super Potion at (4, 18) in Goldenrod Underground.
     *   **Hypothesis 1 (Failed, Turn 25104):** Interaction requires standing *on* the item tile.
         *   Test: Stood on (4, 18) and pressed A while facing Up, Down, Left, and Right.
         *   Result: Failed.
     *   **Hypothesis 2 (Failed, Turn 25104):** Interaction requires standing *below* the item tile.
         *   Test: Stood on (4, 19), faced up, and pressed A.
         *   Result: Failed.
-    *   **Hypothesis 3 (Planned):** Interaction requires standing *adjacent* to the item tile.
-        *   Test 3a (Next Step): Move to (3, 18) [left of item], face right, and press A.
+    *   **Hypothesis 3 (Aborted):** Interaction requires standing *adjacent* to the item tile.
+        *   Test 3a Attempt (Turns 25172-25183): Attempted to move to (3, 18) to test interaction from the left. Encountered persistent position hallucinations and movement failures, preventing the test from being properly executed.
+        *   Conclusion: This location is causing repeated errors. Abandoning attempts to acquire this item for now to break the loop and continue exploration.
