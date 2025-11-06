@@ -33,13 +33,6 @@
 
 # Appendix: Core Lessons & Mechanics
 
-## Key Lessons from Past Failures
-- **IMMEDIATE ACTION:** All data management and tool/agent maintenance tasks must be performed in the turn they are identified. Deferring these tasks is a critical failure.
-- **TRUST BUT VERIFY:** Trust tool and agent outputs by default. Only debug them after in-game verification proves their output is incorrect. My own visual assessment can be flawed.
-- **PIVOT QUICKLY:** When a strategy is demonstrably failing (e.g., getting stuck in a multi-turn debugging loop), pivot to a new approach. Do not persist with a failing strategy.
-- **COORDINATE SYSTEM:** Always verify the coordinate system (0-indexed vs 1-indexed) by checking the `map_xml_string` before debugging pathfinding logic. Direct observation of the XML is the source of truth.
-- **HALLUCINATION AWARENESS:** I have a history of hallucinating coordinates and map features (e.g., non-existent warps). I must constantly verify my assumptions against the map data and game state.
-
 ## Cut Mechanic (CRITICAL DISCOVERY)
 - Using Cut on a tree removes the visual sprite, but the underlying tile (`CUT_TREE`) remains impassable even after reloading the map. This is a persistent state, not a temporary one.
 - **CRITICAL HALLUCination (Turn 11872):** Believed a warp to Union Cave existed at (11, 9) on the AzaleaTown map (8_7). The system confirmed no warp exists there. The actual warp to Union Cave is on Route 33 (8_6) at (11, 9). This was a major failure in location awareness.
