@@ -129,3 +129,21 @@ My main goal is to solve this puzzle to get HM01 Cut.
 ### New Plan:
 1.  **Hypothesis:** The apprentice at (7, 28) may have new dialogue or a hint.
     -   **Test:** Navigate to the apprentice and interact with him.
+- **HEADBUTT_TREE**: Impassable.
+
+# Appendix: Available Tools
+- **notepad_edit**: Edits your notepad.
+- **run_code**: Runs Python code.
+- **define_agent**: Creates or updates a custom agent.
+- **delete_agent**: Deletes a custom agent.
+- **define_map_marker**: Defines or updates a map marker.
+- **delete_map_marker**: Deletes a map marker.
+- **stun_npc**: Stops or resumes NPC movement.
+- **define_tool**: Defines a new custom tool.
+- **delete_tool**: Deletes a custom tool.
+- **select_battle_option**: Selects a main battle menu option.
+- **deterministic_battle_strategist**: Provides battle advice.
+- **find_reachable_unseen_tiles**: Finds reachable unseen tiles.
+- **path_and_execute**: Generates and returns a path plan.
+- **systematic_explorer**: Generates a path to explore all unseen tiles.
+- **debugging_assistant**: Agent that debugs Python scripts.
