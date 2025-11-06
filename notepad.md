@@ -107,5 +107,28 @@
     *   Test: Interacted with the object from below at (12, 2). Result: No effect.
 *   **Current Hypothesis:** The exit is hidden in the unseen area to the west.
     *   `path_finder` Correctness Hallucination (Turns 25769-25772): The tool repeatedly reported 'No path found' to the northern wall. I incorrectly assumed the tool was bugged and spent multiple turns running diagnostics. The diagnostics eventually proved the tool was correct: the path was physically blocked by a line of impassable COUNTER tiles. This is a critical lesson in trusting a verified tool's output over visual assessment.
-    *   **CRITICAL FAILURE (REPEATED): `path_finder` MISTRUST (Turns 25769-25772 & 25799-25814):** I have now TWICE failed to trust the `path_finder` tool's correct 'No path found' output. I incorrectly assumed a bug and wasted over a dozen turns on pointless debugging. This pattern of mistrusting a verified tool is my single biggest strategic weakness and MUST be corrected. The tool's output is reality. My visual assessment is fallible.
+    *   **Search Progress (Interactable Tiles):**
+        - (0, 12) - Checked
+        - (6, 12) - Checked
+        - (7, 12) - Checked
+        - (12, 12) - Checked
+        - (13, 12) - Checked
+        - (18, 12) - Checked
+        - (19, 12) - Checked
+        - (1, 11) - Checked
+        - (5, 11) - Checked
+        - (8, 11) - Checked
+        - (14, 11) - Checked
+        - (17, 11) - Checked
+        - (1, 10) - Checked
+        - (8, 10) - Checked
+        - (11, 10) - Blocked by NPC
+        - (14, 10) - Checked
+        - (17, 10) - Checked
+        - (1, 9) - Checked
+        - (5, 9) - Checked
+        - (8, 9) - Checked
+        - (11, 9) - Checked
+        - (14, 9) - Checked
+        - (17, 9) - Checked
 *   **Verify Position After Movement:** After every `path_plan` execution, I must verify my actual `current_position` from the Game State against the plan's destination to prevent movement-related hallucinations.
