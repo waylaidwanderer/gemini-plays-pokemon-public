@@ -59,9 +59,6 @@
     *   Bug-Catching Contest: At the National Park.
     *   Strange Tree: A strange tree blocks Route 36.
 
-## VII. Farfetch'd Puzzle - Verified Mechanics (ARCHIVED)
-*   (Detailed steps for the two Farfetch'd puzzles in Ilex Forest have been archived after successful completion and reward acquisition.)
-
 ## VIII. Team Strategy & Analysis
 *   `team_analyst` Report (Turn 24443):
     *   Training Priority: Miasma.
