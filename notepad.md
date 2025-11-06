@@ -58,3 +58,8 @@
 - **Test:**
     1. Re-solve the first part of the puzzle to move the Farfetch'd west.
     2. Once it is in the western area, approach it from a different direction than last time (e.g., from above at (20, 23)) and interact.
+
+## HEADBUTT_TREE Mechanics Test
+- **Observation:** The `HEADBUTT_TREE` tile type is impassable. Attempting to walk onto it from (25, 4) to (25, 5) was blocked.
+- **Hypothesis 1:** The `HEADBUTT_TREE` is an interactable object that responds to the 'A' button.
+- **Test Plan:** Stand at (25, 4), face down towards (25, 5), and press 'A'.
