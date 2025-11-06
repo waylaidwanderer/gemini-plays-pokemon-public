@@ -138,3 +138,5 @@
 
 # Lessons Learned from Recent Failures
 - **Prolonged Debugging Failure (Turns ~22817-22861):** My most critical failure was getting trapped in a multi-turn debugging loop with the `find_reachable_unseen_tiles` tool. This violated my core principle to pivot when a strategy is failing. I incorrectly trusted the `debugging_assistant`'s contradictory advice and failed to manually fix the tool by aligning its logic with my working `path_and_execute` tool sooner. After deleting the tool, I am now focused on manual exploration. **Lesson:** Trust direct observation and working code over unreliable agents. Pivot away from failing strategies much faster. Do not get stuck on fixing a single tool for dozens of turns.
+- **WARP_CARPET_RIGHT**: Traversable warp. Activated by pressing 'Right' while standing on the tile.
+- **CUT_TREE**: Impassable. Requires HM01 Cut. **Verified on turn 22550:** After using Cut, the tree sprite disappears, but the underlying tile remains impassable. This is a confirmed mechanic, not a temporary state.
