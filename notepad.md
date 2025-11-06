@@ -92,3 +92,4 @@
 *   **Trigger Path Hypothesis (Failed):** My hypothesis that walking from (26, 24) to (20, 24) would make the Farfetch'd reappear at (15, 25) was incorrect. Instead, walking this path caused the entire puzzle to reset, with the Farfetch'd returning to its starting position at (29, 22). This implies an unknown reset trigger exists along that path.
 *   Movement 6 (Disappearance 2): Interacting from the East at (21, 24) while it is at (20, 24) causes it to move along a path and disappear at (16, 23).
 *   Reappearance 3: After 'Disappearance 2', moving to (20, 24) causes the Farfetch'd to reappear at (15, 25).
+*   **Step 8 - Final Movement & Disappearance:** Interacting from the East at (11, 35) while it is at (10, 35) causes it to move along a complex path and disappear near the apprentice.
