@@ -116,6 +116,7 @@
     *   (3, 4) -> Counter at (3, 3): Coin Clerk. (Marked 🚫)
     *   (4, 4) -> Counter at (4, 3): Checked, no effect. (Marked 🚫)
     *   (5, 4) -> Counter at (5, 3): Checked, no effect. (Marked 🚫)
+    *   (6, 4) -> Counter at (6, 3): Checked, no effect. (Marked 🚫)
 *   **Failed Hypotheses Log:**
     *   The warps at (2, 13) and (3, 13) are a standard exit. (Confirmed inactive)
     *   An NPC has a clue for how to exit. (All NPCs spoken to, no clues)
