@@ -39,11 +39,12 @@
     *   Current Objective: Get the Plain Badge in Goldenrod City.
 *   **Active Quests:**
     *   Find the COIN CASE: A POKEFAN_M in the Game Corner lost his COIN CASE in the Goldenrod Underground.
-*   **Time-Locked Quests:**
+*   **Time-Locked & NPC Call Quests:**
     *   Kurt's Custom Balls: Wait one day for Kurt to finish making a LURE BALL.
     *   Union Cave Roars: Investigate on a Friday.
     *   Bug-Catching Contest: At the National Park (today, per Wade).
     *   Hiker Anthony Rematch: Wants a rematch on Route 33.
+    *   Wade's Berries: Meet Wade on Route 31 to get BERRIES.
 *   **Completed Quests:**
     *   Zephyr Badge: Defeated Falkner in Violet City.
     *   Hive Badge: Defeated Bugsy in Azalea Town.
