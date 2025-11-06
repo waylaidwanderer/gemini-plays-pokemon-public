@@ -97,27 +97,7 @@
 *   **Objective:** Find the exit.
 *   **Current Hypothesis:** A hidden switch exists in the southern, reachable area.
 *   **Alternative Hypothesis (Contingency Plan):** The exit trigger is not in this room. It may require an external event, such as obtaining the COIN CASE or defeating the Gym Leader. If the systematic search of this area is exhausted with no results, the next step is to leave and explore other parts of Goldenrod City.
-*   **Systematic Search Plan:**
-    *   Reachable Interactable Tile List: [[8, 1], [9, 1], [10, 1], [13, 1], [8, 2], [11, 2], [12, 2], [13, 2], [8, 3], [13, 3], [0, 4], [1, 4], [2, 4], [3, 4], [4, 4], [5, 4], [6, 4], [7, 4], [12, 4], [13, 4], [14, 4], [15, 4], [16, 4], [17, 4], [18, 4], [19, 4], [0, 5], [5, 5], [8, 5], [11, 5], [14, 5], [17, 5], [1, 6], [5, 6], [8, 6], [11, 6], [14, 6], [1, 7], [5, 7], [11, 7], [14, 7], [17, 7], [1, 8], [5, 8], [8, 8], [11, 8], [14, 8], [17, 8], [1, 9], [5, 9], [8, 9], [11, 9], [14, 9], [17, 9], [1, 10], [5, 10], [8, 10], [11, 10], [14, 10], [17, 10], [1, 11], [5, 11], [8, 11], [11, 11], [14, 11], [17, 11], [0, 12], [6, 12], [7, 12], [12, 12], [13, 12], [18, 12], [19, 12]]
-*   **Search Progress Log:**
-    *   (8, 1) -> Wall at (8, 0): Checked, no effect. (Marked 🚫)
-    *   (9, 1) -> Wall at (9, 0): Checked, no effect. (Marked 🚫)
-    *   (10, 1) -> Wall at (10, 0): Checked, no effect. (Marked 🚫)
-    *   (13, 1) -> Wall at (13, 0): Checked, no effect. (Marked 🚫)
-    *   (8, 2) -> Counter at (7, 2): Checked, no effect. (Marked 🚫)
-    *   (11, 2) -> Wall at (11, 1): Checked, no effect. (Marked 🚫)
-    *   (12, 2) -> Wall/Drink at (12, 1): Checked, no effect. (Marked 🚫)
-    *   (13, 2) -> Counter at (14, 2): Checked, no effect. (Marked 🚫)
-    *   (8, 3) -> Counter at (7, 3): Checked, no effect. (Marked 🚫)
-    *   (13, 3) -> Counter at (14, 3): Checked, no effect. (Marked 🚫)
-    *   (0, 4) -> Counter at (0, 3): Checked, no effect. (Marked 🚫)
-    *   (1, 4) -> Counter at (1, 3): Checked, no effect. (Marked 🚫)
-    *   (2, 4) -> Counter at (2, 3): Checked, no effect. (Marked 🚫)
-    *   (3, 4) -> Counter at (3, 3): Coin Clerk. (Marked 🚫)
-    *   (4, 4) -> Counter at (4, 3): Checked, no effect. (Marked 🚫)
-    *   (5, 4) -> Counter at (5, 3): Checked, no effect. (Marked 🚫)
-    *   (6, 4) -> Counter at (6, 3): Checked, no effect. (Marked 🚫)
-    *   (7, 4) -> Counter at (7, 3): Checked, no effect. (Marked 🚫)
+*   **Systematic Search Plan:** I am systematically checking every reachable tile adjacent to an impassable object (WALL, COUNTER, etc.) using my `find_reachable_interactable_tiles` tool as a guide and marking progress with map markers.
 *   **Failed Hypotheses Log:**
     *   The warps at (2, 13) and (3, 13) are a standard exit. (Confirmed inactive)
     *   An NPC has a clue for how to exit. (All NPCs spoken to, no clues)
