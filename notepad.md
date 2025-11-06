@@ -43,10 +43,7 @@
 
 - **Initial Hypotheses (FAILED):** Attempts to reset the puzzle by talking to the apprentice or searching twig piles were unsuccessful.
 
-## Hypothesis 3 (Turn 23719)
-- **Observation:** The Farfetch'd is not at its starting point or any of the twig piles. The puzzle area is a small, enclosed maze.
-- **Hypothesis:** The Farfetch'd is located somewhere else within the enclosed puzzle area, on a tile that is not a twig pile.
-- **Test:** Perform a full, systematic sweep of every single reachable tile within the puzzle's boundaries to locate the Farfetch'd.
+- **Hypothesis 3 (SUPERSEDED):** A full systematic search of the initial puzzle area was performed.
 
 ## Hypothesis 4 (Turn 23805) - VIA PUZZLE_SOLVER_ASSISTANT
 - **Observation:** Previous searches in the initial puzzle area have failed. The `puzzle_solver_assistant` suggests the puzzle has a second phase.
