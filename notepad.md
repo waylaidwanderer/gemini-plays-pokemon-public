@@ -46,7 +46,13 @@
 - **Test:** Complete the dialogue with the apprentice and then travel to (15, 25) to check for the Farfetch'd.
 - **Conclusion (Turn 23708):** The test failed. The Farfetch'd did not reappear at (15, 25).
 
-## Hypothesis 2 (Turn 23708)
+## Hypothesis 2 (Turn 23708) - FAILED
 - **Observation:** After talking to the apprentice, the Farfetch'd is still missing from its starting position.
-- **Hypothesis:** The puzzle has been reset, but the Farfetch'd has appeared in a new, different location within the puzzle area.
-- **Test:** Systematically search the enclosed puzzle area, starting with the twig pile locations, to find the Farfetch'd.
+- **Hypothesis:** The puzzle has been reset, but the Farfetch'd has appeared in a new, different location within the puzzle area, specifically at one of the twig piles.
+- **Test:** Systematically search the four known twig pile locations at (14, 26), (15, 27), (15, 28), and (16, 28).
+- **Conclusion (Turn 23719):** The test failed. The Farfetch'd was not at any of the twig pile locations.
+
+## Hypothesis 3 (Turn 23719)
+- **Observation:** The Farfetch'd is not at its starting point or any of the twig piles. The puzzle area is a small, enclosed maze.
+- **Hypothesis:** The Farfetch'd is located somewhere else within the enclosed puzzle area, on a tile that is not a twig pile.
+- **Test:** Perform a full, systematic sweep of every single reachable tile within the puzzle's boundaries to locate the Farfetch'd.
