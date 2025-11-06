@@ -77,5 +77,5 @@
     *   Team Weaknesses: Severe weakness to Ground-type attacks. Lack of coverage against Water and Rock types. A Grass or Water-type Pokémon is needed for balance.
 
 ## VIII. Untested Hypotheses & Strategic Notes
-*   **New Hypothesis:** The Farfetch'd has reappeared at (20, 24). The next step is unknown. I will consult my updated `farfetchd_puzzle_solver` agent.
+*   **New Hypothesis:** Now that the Farfetch'd is at (20, 24), I must interact with it to see what happens next.
 *   **Farfetch'd Puzzle Alternatives:** If the puzzle proves too difficult after several more attempts, I will re-explore Azalea Town for other clues.
