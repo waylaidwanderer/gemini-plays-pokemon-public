@@ -212,3 +212,4 @@
 *   (13, 12) - To be tested
 *   (18, 12) - To be tested
 *   (19, 12) - Tested, not a switch
+* (11, 2) - Tested, not a switch
