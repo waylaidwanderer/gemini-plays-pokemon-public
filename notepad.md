@@ -90,3 +90,4 @@
     *   **Training Priority:** Miasma.
     *   **Move Recommendations:** For Vulcan, replace EMBER with a coverage TM. For Miasma, keep HYPNOSIS and CURSE, but replace the weak LICK when possible. For Gambit, focus on raising happiness for evolution.
     *   **Team Weaknesses:** Severe weakness to Ground-type attacks. Lack of coverage against Water and Rock types. A Grass or Water-type Pokémon is needed for balance.
+*   **Reappearance 2:** After Disappearance 1, walking the trigger path from (15, 27) to (9, 34) causes it to reappear at (10, 35).
