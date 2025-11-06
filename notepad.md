@@ -22,8 +22,8 @@
     *   `path_finder` Warp Impassability Bug (Turn 25470): The tool incorrectly classified warp tiles as impassable. Correction (Turn 25471): The tool's script was updated to remove `WARP_CARPET_*` and `DOOR` from the impassable list.
 
 ## V. Tile Traversal Rules
-*   Traversable: TALL_GRASS, LONG_GRASS, DOOR, LADDER, FLOOR, WARP_CARPET_RIGHT, WARP_CARPET_DOWN.
-*   Impassable (Verified): WALL, WINDOW, CUT_TREE, SIGN, BOOKSHELF, BLACKBOARD, MART_SHELF, BUOY, TV, TOWN_MAP, BIRD, HEADBUTT_TREE, FRUIT_TREE, PRINTER, WATER, CAVE, PC, VOID, COUNTER.
+*   Traversable: TALL_GRASS, LONG_GRASS, DOOR, LADDER, WARP_CARPET_RIGHT, WARP_CARPET_DOWN.
+*   Impassable (Verified): WALL, WINDOW, CUT_TREE, SIGN, BOOKSHELF, BLACKBOARD, MART_SHELF, BUOY, TV, TOWN_MAP, BIRD, HEADBUTT_TREE, FRUIT_TREE, PRINTER, WATER, CAVE, PC, COUNTER, VOID.
 *   One-Way Traversal:
     *   LEDGE_HOP_DOWN: A one-way ledge. Can only be entered from a tile directly above it (Y-1 -> Y), which forces movement to the tile below it (Y -> Y+1).
     *   LEDGE_HOP_RIGHT: Can only be entered from the left.
@@ -33,7 +33,6 @@
 *   Special Interaction (Interactable):
     *   PC: Interact by standing below it at (X, Y+1), facing up.
     *   COUNTER: Interact with NPCs behind it by standing in front of the counter. (Impassability confirmed Turn 25221). (Impassability confirmed Turn 25022).
-*   Untested: VOID (Appears impassable, needs verification at next opportunity).
 
 ## VI. Story & Quests
 *   **Primary Quest:** Become the Pokémon League Champion.
@@ -47,6 +46,8 @@
     *   Union Cave Roars: Investigate on a Friday. (Blocked by time).
     *   Bug-Catching Contest: At the National Park.
     *   Strange Tree: A strange tree blocks Route 36.
+    *   Hiker Anthony wants a rematch on Route 33.
+    *   Bill's Family: Bill is at the Pokémon Center in Ecruteak City. His father is at the Game Corner.
 
 ## VIII. Team Strategy & Analysis
 *   `team_analyst` Report (Turn 24443):
@@ -86,5 +87,3 @@
 *   **Exit Strategy:** If all hypotheses for the Goldenrod Underground puzzle fail, I will abandon it, exit the area, and focus on finding the Gym or exploring the rest of the city to prevent getting stuck. (Strategy executed in turn 25435).
     *   LADDER: Triggers a warp when walked onto. Does not require interaction with the 'A' button.
 *   **Warp Carpet Movement Hypothesis (Failed):** Stepping on the WARP_CARPET_DOWN tile at (21, 29) did not trigger a warp. This confirms these warps require an external trigger.
-*   Hiker Anthony wants a rematch on Route 33.
-*   Bill's Family: Bill is at the Pokémon Center in Ecruteak City. His father is at the Game Corner.
