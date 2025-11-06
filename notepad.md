@@ -121,8 +121,10 @@ My main goal is to solve this puzzle to get HM01 Cut.
 3.  **Trigger is apprentice dialogue (from side):** Interacting with the apprentice from the side (8, 28) yields no new information.
 4.  **Trigger is interacting with empty tiles:** Interacting with the empty tile at (15, 25) from various directions does nothing.
 
-### Current Hypothesis (Untested):
-- Interacting with the apprentice from a different angle (from below at 7, 29) may trigger a new event.
+### Apprentice Interaction Test:
+1.  **Hypothesis:** The apprentice at (7, 28) may have new dialogue or a hint after I've attempted the puzzle.
+    -   **Test:** Navigated to the apprentice and interacted with him.
+    -   **Result:** Failed (Attempt 2). Dialogue was identical. This lead is exhausted.
 
 ### Apprentice Interaction Test:
 1.  **Hypothesis:** The apprentice at (7, 28) may have new dialogue or a hint after I've attempted the puzzle.
