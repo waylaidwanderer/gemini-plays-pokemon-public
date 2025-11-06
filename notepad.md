@@ -60,7 +60,8 @@
   - **Test Plan:** At the next opportunity, attempt to move 'Up' onto a `LEDGE_HOP_DOWN` tile to confirm it's impassable from below.
 
 ## Agent/Tool Ideas
-- Consider creating a 'Quest Progression' agent/tool. It would analyze NPC dialogue hints and current obstacles to suggest the next logical location to investigate.
+- **Quest Progression Agent:** Analyze NPC dialogue hints and current obstacles to suggest the next logical location to investigate.
+- **Puzzle Solver Assistant:** An agent that takes observations about a puzzle (tile types, object positions, interactions) and suggests simple, testable hypotheses.
 
 ### Cut Mechanic (CRITICAL DISCOVERY)
 - Using Cut on a tree removes the visual sprite, but the underlying tile may not immediately become traversable. The tile type in the map data (`CUT_TREE`) remains the source of truth for collision, as confirmed by a failed movement attempt at (8, 25) in Ilex Forest after cutting the tree.
@@ -90,9 +91,6 @@
 ### Reflection-Based Updates
 - **PROCESS FAILURE (Turns 21923-21931):** I identified multiple instances of deferring immediate data management tasks. For example, on turn 21926, I failed to mark a warp immediately after using it, and on turn 21931, I prioritized interacting with the Nurse over correcting a hallucinated navigation goal. This violates my core principle of immediate action and must be corrected.
 
-### New Agent/Tool Ideas
-- **'Quest Progression' Agent:** This agent would analyze my current location, inventory (especially HMs), and known obstacles from map markers to suggest the most logical next area to investigate. This could help break exploration loops.
-
 # Appendix: Reflection Log (Turn 22039)
 - **CRITICAL PROCESS FAILURE (Turns ~21998-22038):** Engaged in a prolonged, multi-turn debugging loop with my `systematic_explorer` tool and related test scripts. This violated the core principle of pivoting when a strategy is demonstrably failing.
 - **Agent Failure Analysis:** The `debugging_assistant`'s suggested fix was implemented but did not resolve the issue, proving its hypothesis was incorrect or incomplete. My failure was persisting with the tool *after* the fix failed, instead of pivoting sooner.
@@ -114,21 +112,3 @@
 
 # Appendix: Fallback Plans
 - **Farfetch'd Puzzle Deadlock:** If re-interviewing all Azalea Town NPCs yields no new clues, the next step is to revisit Kurt's House and the Slowpoke Well to check for any dialogue changes or new events.
-
-### Twig Pile Trigger Test:
-1.  **Hypothesis:** Stepping on a single twig pile will cause the Farfetch'd to appear.
-    -   **Test:** Stepped on the twig pile at (14, 26), then moved to a vantage point at (15, 27) to observe the trigger area (15, 25).
-    -   **Result:** Failed. No Farfetch'd appeared. This hypothesis is incorrect.
-
-### Systematic Twig Pile Test (Conclusively Failed)
-- **Hypothesis:** Stepping on an individual twig pile is the trigger to make the Farfetch'd appear.
-- **Test:** Systematically stepped on all four twig piles at (14, 26), (15, 27), (15, 28), and (16, 28).
-- **Result:** Failed. No Farfetch'd appeared after stepping on any individual pile.
-- **Conclusion:** The hypothesis is false. The twigs are not the initial trigger. Their purpose is likely to direct the Farfetch'd *after* it has been spawned by a different, undiscovered trigger.
-
-### Forced Movement Trigger Hypothesis
-- **Hypothesis:** The forced movement from (15, 26) to (15, 25) when pressing 'Up' is the trigger to make the Farfetch'd appear.
-- **Test Plan:**
-  1. Move to (15, 26).
-  2. Press 'Up' to trigger the forced movement.
-  3. Observe if the Farfetch'd appears.
