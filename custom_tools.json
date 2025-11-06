@@ -169,5 +169,28 @@
         "action_counter": 24764
       }
     ]
+  },
+  "pc_exit_navigator": {
+    "description": "Automates the button presses required to exit from any of the main PC menus (BILL's PC, Gem's PC, or the main selection screen). It identifies the current menu and navigates to the appropriate exit option ('SEE YA!', 'LOG OFF', or 'TURN OFF').",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "current_screen_text": {
+          "type": "string",
+          "description": "The full text currently visible on the screen, used to identify the active menu."
+        }
+      },
+      "required": [
+        "current_screen_text"
+      ]
+    },
+    "python_script": "import json\n\ntext = input_data['current_screen_text']\nbuttons = []\n\nif \"WITHDRAW <PK><MN>\" in text:\n    # In BILL's PC menu\n    buttons = [\"Down\", \"Down\", \"Down\", \"Down\", \"A\"]\nelif \"WITHDRAW ITEM\" in text:\n    # In Gem's PC menu\n    buttons = [\"Down\", \"Down\", \"Down\", \"Down\", \"A\"]\nelif \"BILL's PC\" in text:\n    # In main PC selection menu\n    buttons = [\"Down\", \"Down\", \"Down\", \"A\"]\n\nif buttons:\n    print(json.dumps(buttons))\nelse:\n    print(json.dumps([\"B\", \"B\"])) # Fallback to exit sub-menus",
+    "history": [
+      {
+        "commit_message": "feat: Create pc_exit_navigator tool. This tool automates exiting from the various PC menus to prevent manual navigation errors and streamline gameplay after using the PC.",
+        "timestamp": "2025-11-06T05:57:49.396Z",
+        "action_counter": 25016
+      }
+    ]
   }
 }

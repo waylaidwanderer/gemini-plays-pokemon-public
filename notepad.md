@@ -21,7 +21,7 @@
 
 ## V. Tile Traversal Rules
 *   Traversable: TALL_GRASS, LONG_GRASS, DOOR, LADDER, FLOOR, WARP_CARPET_RIGHT, WARP_CARPET_DOWN.
-*   Impassable (Verified): WALL, WINDOW, CUT_TREE, SIGN, BOOKSHELF, BLACKBOARD, MART_SHELF, BUOY, TV, TOWN_MAP, BIRD, HEADBUTT_TREE, FRUIT_TREE, PRINTER, WATER, CAVE, PC, VOID.
+*   Impassable (Verified): WALL, WINDOW, CUT_TREE, SIGN, BOOKSHELF, BLACKBOARD, MART_SHELF, BUOY, TV, TOWN_MAP, BIRD, HEADBUTT_TREE, FRUIT_TREE, PRINTER, WATER, CAVE, PC, VOID, COUNTER.
 *   One-Way Traversal:
     *   LEDGE_HOP_DOWN: A one-way ledge. Can only be entered from a tile directly above it (Y-1 -> Y), which forces movement to the tile below it (Y -> Y+1).
     *   LEDGE_HOP_RIGHT: Can only be entered from the left.
@@ -31,7 +31,7 @@
     *   WARP_CARPET_DOWN: Activated by walking onto it.
 *   Special Interaction (Interactable):
     *   PC: Interact by standing below it at (X, Y+1), facing up.
-    *   COUNTER: Interact with NPCs behind it by standing in front of the counter. (Impassability is being tested).
+    *   COUNTER: Interact with NPCs behind it by standing in front of the counter. (Impassability confirmed Turn 25022).
 
 ## VI. Story & Quests
 *   **Primary Quest:** Become the Pokémon League Champion.
@@ -51,11 +51,6 @@
     *   Training Priority: Miasma.
     *   Move Recommendations: For Vulcan, replace EMBER with a coverage TM. For Miasma, keep HYPNOSIS and CURSE, but replace the weak LICK when possible. For Gambit, focus on raising happiness for evolution.
     *   Team Weaknesses: Severe weakness to Ground-type attacks. Lack of coverage against Water and Rock types. A Grass or Water-type Pokémon is needed for balance.
-
-## IX. Untested Hypotheses & Strategic Notes
-*   **COUNTER Tile Traversability Test:**
-*   **Hypothesis:** The `COUNTER` tile is impassable.
-*   **Test Plan:** Attempt to walk into the `COUNTER` tile at (3, 2) from the `FLOOR` tile at (3, 3).
 
 ## X. Failed Hypotheses & Corrections
 *   **Trigger Path Hypothesis (Failed):** My hypothesis that walking from (26, 24) to (20, 24) would make the Farfetch'd reappear at (15, 25) was incorrect. Instead, walking this path caused the entire puzzle to reset, with the Farfetch'd returning to its starting position at (29, 22). This implies an unknown reset trigger exists along that path.
