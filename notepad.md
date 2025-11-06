@@ -45,10 +45,7 @@
 
 - **Hypothesis 3 (SUPERSEDED):** A full systematic search of the initial puzzle area was performed.
 
-## Hypothesis 4 (Turn 23805) - VIA PUZZLE_SOLVER_ASSISTANT
-- **Observation:** Previous searches in the initial puzzle area have failed. The `puzzle_solver_assistant` suggests the puzzle has a second phase.
-- **Hypothesis:** The Farfetch'd has moved to a new location deeper in the forest to begin a second chase, specifically around coordinate (23, 25).
-- **Test:** Travel to the area around (23, 25) and search for the Farfetch'd.
+- **Hypothesis 4 (VIA AGENT):** Agent suggested a second puzzle phase deeper in the forest.
 
 # Appendix: Core Lessons & Mechanics
 
