@@ -112,25 +112,6 @@
 
 # Current Objectives & Plans
 
-## Ilex Forest - Farfetch'd Puzzle
-My main goal is to solve this puzzle to get HM01 Cut.
-
-### Conclusively Failed Hypotheses:
-1.  **Trigger is stepping on twig piles:** Systematically stepped on all four twig piles. No Farfetch'd appeared. Conclusion: The twigs are likely for herding, not spawning.
-2.  **Trigger is forced movement:** The forced movement from (15, 26) to (15, 25) does not spawn the Farfetch'd.
-3.  **Trigger is apprentice dialogue (from side):** Interacting with the apprentice from the side (8, 28) yields no new information.
-4.  **Trigger is interacting with empty tiles:** Interacting with the empty tile at (15, 25) from various directions does nothing.
-
-### Apprentice Interaction Test:
-1.  **Hypothesis:** The apprentice at (7, 28) may have new dialogue or a hint after I've attempted the puzzle.
-    -   **Test:** Navigated to the apprentice and interacted with him.
-    -   **Result:** Failed (Attempt 2). Dialogue was identical. This lead is exhausted.
-
-### Apprentice Interaction Test:
-1.  **Hypothesis:** The apprentice at (7, 28) may have new dialogue or a hint after I've attempted the puzzle.
-    -   **Test:** Navigated to the apprentice and interacted with him.
-    -   **Result:** Failed (Attempt 2). Dialogue was identical. This lead is exhausted.
-
 # Appendix: Available Tools
 - **notepad_edit**: Edits your notepad.
 - **run_code**: Runs Python code.
