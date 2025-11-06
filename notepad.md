@@ -1,11 +1,5 @@
 # Gem's Pokémon Crystal Adventure Log
 
-## II. Current Status & Blockers
-*   **Primary Objective:** Reach Goldenrod City.
-*   **Current Blocker:** The path through Ilex Forest is blocked by a CUT_TREE. I need a Pokémon that can learn HM01 Cut.
-*   **Secondary Blocker:** I have no Poké Balls to catch a new Pokémon. The Azalea Town Mart is blocked by a Cooltrainer.
-*   **Immediate Task:** Check if any of my current party members (Vulcan, Gambit, Miasma) can learn HM01 Cut.
-
 ## I. Core Principles & Lessons Learned
 *   **Trust Your Tools:** A verified tool's output is a source of truth. Trust it over assumptions.
 *   **Systematic Debugging:** Use a methodical, evidence-based approach for broken tools. Use `run_code` with print statements to trace execution.
@@ -24,8 +18,6 @@
     *   **`path_finder` Failure (Turn 21869):** The tool generated an invalid path through a stationary NPC. **Correction (Turn 21871):** The tool's script was updated to check for the `has-object='true'` tile attribute.
     *   **`path_finder` Dynamic Obstacle Failure (Turn 24138):** The tool generated a path through a tile that was temporarily blocked by a moving NPC (GRAMPS, ID 2). **Conclusion:** The tool's logic is sound, but my strategy must account for dynamic obstacles. Temporarily freezing key NPCs may be a valid tactic for reliable navigation in cluttered areas.
 *   **Overwatch Critique Note (Turn 24151):** The critique mentioned undocumented tile types (`FLOWERBED`, `LEDGE`, `ROOF`). A review of the map data for Azalea Town confirms that `FLOWERBED` and `ROOF` tiles are not present. The only `LEDGE` type is `LEDGE_HOP_DOWN`, which is already documented. This part of the critique appears to be based on incorrect information.
-*   **Team Strategy (from `team_analyst`):
-    *   **`team_analyst` Report (Turn 22462):** The team is critically unbalanced, relying solely on Vulcan. Training priority should be MIASma. Vulcan's EMBER is nearly out of PP. The team has major weaknesses to Water, Rock, and Ground types.
 
 ## III. Reflection & Critique Log
 *   **Reflection Log (Turn 21955):** My biggest failure was not immediately verifying the trigger for the HM01 Cut reward after solving the first Farfetch'd puzzle. I incorrectly assumed the puzzle was the final step, but the charcoal maker's dialogue confirmed the apprentice is still 'lost'. This led me to discover the second Farfetch'd puzzle.
@@ -58,7 +50,7 @@
 ## V. Story & Quests
 *   **Primary Quest: Obtain the ability to Cut trees**
     *   **Objective:** Find the charcoal maker's runaway Farfetch'd in Ilex Forest.
-    *   **Status:** In Progress. Just spoke to the apprentice and confirmed the quest.
+    *   **Status:** In Progress. Puzzle ongoing.
 *   **Secondary Quest: Kurt's Custom Balls**
     *   **Objective:** Wait one day for Kurt to finish making a custom ball from the WHT APRICORN.
     *   **Status:** Blocked by time.
@@ -67,27 +59,24 @@
     *   **Union Cave Roars:** Investigate on a Friday. (Blocked by time).
     *   **Bug-Catching Contest:** At the National Park.
 
-## X. Untested Hypotheses & Strategic Notes
-*   **Farfetch'd Puzzle:** The assumption is this puzzle is the only way to get the ability to Cut. An alternative is that another method exists. If the puzzle proves too difficult, I will re-explore Azalea Town for other clues.
-*   **Farfetch'd Location:** The assumption that it starts at (29, 22) is based on a hallucination. If it's not there, I must perform a systematic search of the entire accessible forest area.
 ## VI. Farfetch'd Puzzle - Verified Mechanics
 *   **Reset:** Stepping on the tile at (15, 27) acts as a hard reset, causing the Farfetch'd to respawn at its starting position of (29, 22).
 *   **Teleport 1:** Interacting from the South at (29, 23) while it is at (29, 22) causes it to teleport to (20, 24).
 *   **Reappearance 1:** After Teleport 1, walking the trigger path from (26, 24) to (20, 24) causes it to reappear at (15, 25).
 *   **Movement 1:** Interacting from the North at (15, 24) while it is at (15, 25) causes it to move to (15, 29).
-*   **Disappearance 1 (CONFIRMED):** Interacting from the North at (15, 28) while it is at (15, 29) caused it to walk a path and disappear at (14, 35).
+*   **Disappearance 1:** Interacting from the North at (15, 28) while it is at (15, 29) caused it to walk a path and disappear at (14, 35).
 *   **Reappearance 2:** After Disappearance 1, walking the trigger path from (15, 27) to (9, 34) causes it to reappear at (10, 35).
 *   **Movement 2:** Interacting from the North at (10, 34) while it is at (10, 35) causes it to move to (15, 29).
-
-## X. Alternative Hypotheses for Testing
-*   **Azalea Town Blocked Tile (20, 9):**
-    *   **Primary Hypothesis:** The tile is permanently impassable despite being a `FLOOR` type.
-    *   **Alternative Hypothesis:** The tile is conditionally impassable (e.g., only from the south).
-    *   **Test Plan:** After confirming blockage from (20, 10), move to (19, 9) and attempt to move right, and move to (21, 9) and attempt to move left.
 
 ## VII. Team Strategy & Analysis
 *   **`team_analyst` Report (Turn 24443):**
     *   **Training Priority:** Miasma.
     *   **Move Recommendations:** For Vulcan, replace EMBER with a coverage TM. For Miasma, keep HYPNOSIS and CURSE, but replace the weak LICK when possible. For Gambit, focus on raising happiness for evolution.
     *   **Team Weaknesses:** Severe weakness to Ground-type attacks. Lack of coverage against Water and Rock types. A Grass or Water-type Pokémon is needed for balance.
-*   **Reappearance 2:** After Disappearance 1, walking the trigger path from (15, 27) to (9, 34) causes it to reappear at (10, 35).
+
+## VIII. Untested Hypotheses & Strategic Notes
+*   **Farfetch'd at (15, 29) - Second Interaction:**
+    *   **Observation:** The Farfetch'd has returned to (15, 29), a position it occupied earlier in the puzzle. Interacting from the North again created a confirmed loop.
+    *   **Hypothesis:** To break the loop and herd it west towards the apprentice, I must interact with it from the East, at (16, 29).
+    *   **Test Plan:** Move to (16, 29), face left, and interact.
+*   **Farfetch'd Puzzle Alternatives:** If the puzzle proves too difficult after several more attempts, I will re-explore Azalea Town for other clues.
