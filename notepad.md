@@ -103,3 +103,10 @@
     *   The warps at (2, 13) and (3, 13) are a standard exit. (Confirmed inactive)
     *   An NPC has a clue for how to exit. (All NPCs spoken to, no clues)
     *   The 'Left Their Drink' object at (12, 1) is a switch. (Interaction failed)
+*   **Position Hallucination (Turn 26194):** I hallucinated that a `path_plan` to move from (9, 3) to (2, 12) was successful. A system warning on the next turn confirmed the move failed. Root Cause: Failure to verify my position in the Game State after the path execution. This re-confirms the importance of my new core principle to always verify position.
+
+## XV. Puzzle Notes: Goldenrod Game Corner (Continued)
+*   **Alternative Hypotheses:**
+    1.  **Movement Trigger:** The exit might be triggered by a specific movement pattern (like the Farfetch'd puzzle), not an 'A' button press.
+    2.  **Item/Pokemon Trigger:** The puzzle might require using a specific item or having a specific Pokémon in the lead.
+    3.  **External Prerequisite:** The puzzle may be unsolvable until an external event is completed or an item (like the COIN CASE) is acquired. This is the least likely hypothesis as it would imply a soft-lock, but it's a possibility if all in-room options are exhausted.
