@@ -3,7 +3,7 @@
 - **BUOY**: Traversability unknown, assumed impassable.
 - **CAVE**: Traversable warp.
 - **COUNTER**: Impassable.
-- **CUT_TREE**: Impassable, requires HM01 Cut to interact with. The tile itself remains impassable after the tree is cut.
+- **CUT_TREE**: Impassable. Requires HM01 Cut. **Verified on turn 22550:** After using Cut, the tree sprite disappears, but the underlying tile remains impassable. This is a confirmed mechanic, not a temporary state.
 - **DOOR**: Traversable warp.
 - **FLOOR**: Traversable.
 - **FLOOR_UP_WALL**: A complex one-way tile. Behavior is location-dependent and needs more testing.
