@@ -103,8 +103,5 @@
 *   **Hypothesis 3 (External Prerequisite):** The puzzle may be unsolvable without an item or event from outside. The POKEFAN_M mentioned losing his COIN CASE in the Goldenrod Underground. This is a strong lead. Test: If the in-room search fails, leave the Game Corner, find the COIN CASE, and then return to see if anything has changed.
 *   **Pivot Condition:** If the next 15 systematic search targets in the Game Corner fail to reveal the exit, I MUST pivot. The primary goal will become finding the COIN CASE in the Goldenrod Underground.
 
-## XII. Future Agent & Tool Notes
-*   **Puzzle Solver Agent Idea:** A potential future agent could automate the entire puzzle-solving loop. It would orchestrate the sub-tools (`find_reachable_interactable_tiles`, `find_checked_tiles`, `search_coordinator`, `path_finder`) to determine and execute the next step in a systematic search. 
-    *   **Input:** Current game state (map XML).
-    *   **Process:** Internally call its sub-tools to identify the next unchecked target, find a path, and generate the next action (e.g., button press to move, mark tile, or interact).
-    *   **Output:** The next single action (`buttons_to_press` array) to execute. This would create a high-level automation of my current manual process.
+## XII. Tool Development Log
+*   **`get_next_search_target` Tool (Implemented Turn 27096):** Consolidated the functionality of the `find_reachable_interactable_tiles` tool, the `find_checked_tiles` tool, and the `search_coordinator` agent into a single, efficient tool. This replaces the previous cumbersome 3-turn process for systematic searches. The older tools and agent have been deprecated and deleted.

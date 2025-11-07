@@ -116,55 +116,6 @@
       }
     ]
   },
-  "find_reachable_interactable_tiles": {
-    "description": "Scans the map from the player's current position to find all reachable FLOOR tiles, then identifies and returns a sorted list of those adjacent to impassable objects like WALLs and COUNTERs.",
-    "input_schema": {},
-    "python_script": "from xml.etree import ElementTree as ET\nimport json\n\ndef find_reachable_interactable_tiles():\n    impassable_types = ['WALL', 'COUNTER', 'BOOKSHELF', 'PC', 'TV', 'SIGN', 'MART_SHELF']\n    root = ET.fromstring(map_xml_string)\n    \n    player_tile = root.find('.//Player/..')\n    if player_tile is None:\n        print(json.dumps([]))\n        return\n\n    player_row = root.find('.//Player/../..')\n    if player_row is None:\n        print(json.dumps([]))\n        return\n\n    start_x = int(player_tile.get('id'))\n    start_y = int(player_row.get('id'))\n\n    q = [(start_x, start_y)]\n    reachable = set([(start_x, start_y)])\n    \n    while q:\n        x, y = q.pop(0)\n        for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n            nx, ny = x + dx, y + dy\n            if (nx, ny) not in reachable:\n                tile = root.find(f\".//Row[@id='{ny}']/Tile[@id='{nx}']\")\n                if tile is not None and tile.get('type') == 'FLOOR':\n                    reachable.add((nx, ny))\n                    q.append((nx, ny))\n\n    interactable_tiles = []\n    for x, y in sorted(list(reachable)):\n        for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n            nx, ny = x + dx, y + dy\n            neighbor_tile = root.find(f\".//Row[@id='{ny}']/Tile[@id='{nx}']\")\n            if neighbor_tile is not None and neighbor_tile.get('type') in impassable_types:\n                interactable_tiles.append({'x': x, 'y': y})\n                break\n                \n    print(json.dumps(interactable_tiles))\n\nfind_reachable_interactable_tiles()",
-    "history": [
-      {
-        "commit_message": "feat: Create find_reachable_interactable_tiles tool. This tool improves upon the simple `find_interactable_tiles` by first performing a flood-fill from the player's position to determine all reachable tiles. It then filters this reachable set to find tiles adjacent to interactable impassable objects. This was created to solve the Goldenrod Game Corner puzzle, where the room is split into two disconnected areas, making the previous tool generate an invalid search list.",
-        "timestamp": "2025-11-06T14:11:19.071Z",
-        "action_counter": 25934
-      },
-      {
-        "commit_message": "feat: Create find_reachable_interactable_tiles tool. This tool improves upon the simple `find_interactable_tiles` by first performing a flood-fill from the player's position to determine all reachable tiles. It then filters this reachable set to find tiles adjacent to interactable impassable objects. This was created to solve the Goldenrod Game Corner puzzle, where the room is split into two disconnected areas, making the previous tool generate an invalid search list.",
-        "timestamp": "2025-11-06T17:26:44.699Z",
-        "action_counter": 26158
-      },
-      {
-        "commit_message": "fix: Correct TypeError by using tuples in the set. The previous implementation attempted to add dictionaries to a set, which is not allowed. This commit changes the logic to store immutable tuples (x, y) in the set and then converts them to a list of dictionaries before the final output, resolving the 'unhashable type' error.",
-        "timestamp": "2025-11-06T17:28:34.043Z",
-        "action_counter": 26161
-      },
-      {
-        "commit_message": "feat: Create find_reachable_interactable_tiles tool. This tool automates the process of finding all reachable tiles adjacent to interactable objects. This was created to replace the inefficient and error-prone manual search method being used in the Goldenrod Game Corner, and to create a real version of a previously hallucinated tool.",
-        "timestamp": "2025-11-06T23:14:50.622Z",
-        "action_counter": 26887
-      },
-      {
-        "commit_message": "fix: Correct AttributeError by using XPath. The previous implementation used `.getparent()`, which is not a valid method in the `xml.etree.ElementTree` library. This commit replaces that call with a direct XPath lookup (`.//Player/../..`) to find the parent `<Row>` element, which correctly retrieves the player's Y-coordinate and resolves the crash.",
-        "timestamp": "2025-11-06T23:15:53.165Z",
-        "action_counter": 26889
-      },
-      {
-        "commit_message": "fix: Change import statement to resolve ModuleNotFoundError. The tool was failing with 'No module named 'xml.et''. This changes 'import xml.etree.ElementTree as ET' to 'from xml.etree import ElementTree as ET' as a potential workaround for a suspected environment issue with module resolution.",
-        "timestamp": "2025-11-06T23:52:09.996Z",
-        "action_counter": 26975
-      }
-    ]
-  },
-  "find_checked_tiles": {
-    "description": "Scans the map XML for tiles with a '✅' marker and returns a list of their coordinates. Used to track progress in systematic searches.",
-    "input_schema": {},
-    "python_script": "import xml.etree.ElementTree as ET\nimport json\n\nroot = ET.fromstring(map_xml_string)\nchecked_coords = []\nfor row in root.findall('.//Row'):\n    y = int(row.get('id'))\n    for tile in row.findall('.//Tile'):\n        x = int(tile.get('id'))\n        marker = tile.find(\".//Marker[@emoji='✅']\")\n        if marker is not None:\n            checked_coords.append({'x': x, 'y': y})\n\nprint(json.dumps(checked_coords))",
-    "history": [
-      {
-        "commit_message": "feat: Create find_checked_tiles tool. This tool automates the process of finding all tiles marked with a '✅' emoji, which is used to track progress in systematic searches. This replaces a repetitive `run_code` script, streamlining the puzzle-solving workflow.",
-        "timestamp": "2025-11-06T23:59:28.873Z",
-        "action_counter": 26992
-      }
-    ]
-  },
   "get_next_search_target": {
     "description": "Consolidates the logic of finding all reachable interactable tiles and all checked tiles ('✅') to determine and return the coordinates of the next unchecked target for a systematic search. Streamlines a 3-turn process into a single call.",
     "input_schema": {},
