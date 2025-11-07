@@ -84,3 +84,6 @@
   - **Result:** He said "Hey, kid! You're holding us up! Our policy is to work behind the scenes where no one can see us!".
   - **Conclusion:** The puzzle requires the player to not be present for the workers to move the boxes.
 - **Hypothesis 4:** Leaving and re-entering the basement will trigger an event that moves the boxes.
+  - **Result:** He said "Hey, kid! You're holding us up! Our policy is to work behind the scenes where no one can see us!".
+  - **Conclusion:** The puzzle requires the player to not be present for the workers to move the boxes.
+- **Hypothesis 4:** Leaving and re-entering the basement will trigger an event that moves the boxes.
