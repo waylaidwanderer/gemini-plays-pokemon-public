@@ -72,7 +72,6 @@
     *   Conclusion: This location is causing repeated errors. Abandoning attempts to acquire this item for now to break the loop and continue exploration.
 
 ## VIII. Puzzle Notes: Goldenrod Underground
-*   **WARP_CARPET_DOWN Tile:** My initial hypotheses that simple movement would activate the warps failed. The tile is traversable, but its warp function appears to require an external trigger.
 *   **Crate Switch Hypothesis (Failed):** Systematic testing of all accessible crate-like floor tiles and wall sections in the main underground area yielded no results. This hypothesis is invalid.
 *   **Wall Panel Switch Hypothesis (In Progress):** My current hypothesis is that one of the wall panels in the Switch Room is a switch.
     *   Test 1: Panel at (18, 27) from below at (18, 28). Result: Failed.
