@@ -62,4 +62,8 @@
 
 # Goldenrod Dept. Store B1F Puzzle
 - **Observation:** The basement is a warehouse with boxes (WALL tiles) blocking paths to items.
-- **Hypothesis 1:** The Machop at (7, 7) is the key to solving this puzzle. Interacting with it may trigger an event that moves the boxes.
+- **Hypothesis 1 (FAILED):** Interacting with the Machop at (7, 7) will trigger an event that moves the boxes.
+  - **Test (Turn 24418):** Spoke to the Machop at (7, 7).
+  - **Result:** It made a sound ('Maaacho!') but nothing else happened. The boxes did not move.
+  - **Conclusion:** Simple interaction is not the solution.
+- **Hypothesis 2:** One of the Black Belt NPCs on this floor can provide a clue or trigger the puzzle.
