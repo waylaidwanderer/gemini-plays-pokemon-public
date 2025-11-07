@@ -27,15 +27,7 @@
 - **Conclusion:** Hypothesis 1 is FALSE. The tree does not respond to a standard 'A' button interaction. It is likely that the move 'Headbutt' is required to interact with these trees. For now, they are impassable obstacles.
 
 ## Goldenrod Dept. Store B1F Puzzle
-- **Conclusion:** The puzzle is not solved. The visual disappearance of boxes was a red herring, as the underlying WALL tiles remain impassable. There is an undiscovered trigger for the final phase.
-
-## Goldenrod Dept. Store B1F Puzzle (Re-evaluation)
-- **Hypothesis 5 (FAILED):** Interacting with the Machop in its second position (7, 7) will trigger the next puzzle event.
-  - **Test (Turn 24518):** Spoke to the Machop.
-  - **Result:** It only made a sound ('Maaacho!'). No boxes moved.
-- **Hypothesis 6 (FAILED):** Leaving the basement and returning a *second* time will trigger the final puzzle event.
-  - **Test (Turns 24519-24536):** Left the B1F, went to the elevator room, selected B1F, and returned.
-  - **Result:** The room state did not change. The remaining boxes and the Machop were in the same positions.
+- **Conclusion:** The puzzle was solved by repeatedly using the elevator to leave and re-enter the basement, which triggered box movements. A final interaction with the Machop completed the sequence, although a visual bug left impassable collision where the boxes used to be.
 
 ## Day-Care & Unown
 - The Day-Care Lady on Route 34 mentioned my 'Glyph' has 'grown a lot'. This dialogue triggered even without an Unown in my party, suggesting it's tied to the Pokedex entry for Unown. She seems connected to the Ruins of Alph mystery.
