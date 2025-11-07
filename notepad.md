@@ -148,3 +148,4 @@
 
 ## New Discoveries
 - **WARP_CARPET_DOWN (One-Way Exit):** A specific instance of this tile at (5, 29) on map 3_54 was found to be a one-way exit, returning the player to the previous map. This suggests some warp carpets may not be bidirectional.
+- **WARP_CARPET_RIGHT**: Traversable warp. Activated by pressing Right.
