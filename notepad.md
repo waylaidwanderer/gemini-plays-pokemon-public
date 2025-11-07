@@ -26,11 +26,6 @@
 - **Result:** No text appeared, and no action occurred.
 - **Conclusion:** Hypothesis 1 is FALSE. The tree does not respond to a standard 'A' button interaction. It is likely that the move 'Headbutt' is required to interact with these trees. For now, they are impassable obstacles.
 
-## Hallucination Log
-- **CRITICAL HALLUCination (Turn 11872):** Believed a warp to Union Cave existed at (11, 9) on the AzaleaTown map (8_7). The system confirmed no warp exists there. The actual warp to Union Cave is on Route 33 (8_6) at (11, 9).
-- **CRITICAL HALLUCINATION (Turn 11928):** Believed a warp to Dark Cave existed at (34, 5) on the VioletCity map (10_5). The system confirmed no warp exists there.
-- **Turn 24083:** Position mismatch. Believed I was at (25, 14) but was actually at (29, 11). This caused a failed navigation attempt.
-
 ## Goldenrod Dept. Store B1F Puzzle
 - **Conclusion:** The puzzle is not solved. The visual disappearance of boxes was a red herring, as the underlying WALL tiles remain impassable. There is an undiscovered trigger for the final phase.
 
