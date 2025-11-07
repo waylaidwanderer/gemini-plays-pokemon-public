@@ -14,7 +14,7 @@
 *   **Clear Screen Text:** I must always clear on-screen dialogue by pressing 'A' before attempting any movement or other action. Failure to do so causes movement to be blocked and leads to position hallucinations.
 
 ## III. Tile Traversal Rules
-*   Traversable: FLOOR, TALL_GRASS, LONG_GRASS, DOOR, LADDER, WARP_CARPET_RIGHT, WARP_CARPET_DOWN, PAVEMENT.
+*   Traversable: FLOOR, TALL_GRASS, LONG_GRASS, DOOR, LADDER, WARP_CARPET_RIGHT, WARP_CARPET_DOWN.
 *   Impassable (Verified): WALL (can appear as a FENCE), WINDOW, CUT_TREE, SIGN, BOOKSHELF, BLACKBOARD, MART_SHELF, BUOY, TV, TOWN_MAP, BIRD, HEADBUTT_TREE, FRUIT_TREE, PRINTER, WATER, CAVE, PC, COUNTER, VOID.
 *   Impassable (Interactable): SLOT_MACHINE, CARD_FLIP_MACHINE (Verified impassable, interaction from adjacent tile starts a game).
 *   One-Way Traversal:
