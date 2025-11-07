@@ -98,3 +98,4 @@
 | 12 | Bottom | 1 (Pikachu) | Loss | Yellow Pikachu (5) |
 | 13 | Bottom | 1 (Pikachu) | Loss | Yellow Pikachu (2) |
 | 14 | Top | 1 (Pikachu) | Loss | Pink Jigglypuff (5) |
+| 15 | Top | 1 (Pikachu) | Loss | Yellow Pikachu (2) |
