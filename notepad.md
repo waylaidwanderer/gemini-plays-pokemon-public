@@ -63,3 +63,4 @@
 
 ## Side Quests
 - GINA on Route 34 has an item for me. (Re-added after accidental deletion)
+- Snubbull is a Normal-type Pokémon.
