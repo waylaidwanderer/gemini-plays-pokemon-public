@@ -1,12 +1,12 @@
 # Game Mechanics & Systems
 
+# Game Mechanics & Systems
+
 ## Tile Traversal Rules
 - **Impassable:** BOOKSHELF, BUOY (assumed), COUNTER, CUT_TREE, HEADBUTT_TREE, INCENSE_BURNER, MART_SHELF, PC, PILLAR (usually), RADIO, TOWN_MAP, TV, VOID (untested), WALL, WATER, WINDOW.
 - **Traversable:** FLOOR, GRASS, LONG_GRASS, TALL_GRASS, UNKNOWN.
-- **Warps:** CAVE, DOOR (conditional), LADDER (directional), WARP_CARPET (directional, sometimes one-way).
+- **Warps:** CAVE, DOOR (conditional), LADDER (directional), WARP_CARPET (directional, sometimes one-way), WARP_CARPET_UP (directional), WARP_CARPET_DOWN (directional).
 - **One-Way:** FLOOR_UP_WALL, LEDGE_HOP (directional).
-- **WARP_CARPET_UP**: Traversable warp. Activated by pressing Up.
-- **WINDOW**: Impassable.
 
 ---
 
