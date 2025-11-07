@@ -51,17 +51,11 @@
     *   Move Recommendations: Conserve Vulcan's 'FLAME WHEEL'. Keep MIASma's 'HYPNOSIS'. Plan to replace Vulcan's 'CUT' and MIASma's 'LICK'.
     *   Team Weaknesses: Severe level imbalance (over-reliant on Vulcan). Critical weakness to Water, Rock, and Ground types. The team urgently needs a Water-type Pokémon.
 
-## VI. Failed Hypotheses & Corrections
-*   **Trigger Path Hypothesis (Failed):** My hypothesis that walking from (26, 24) to (20, 24) would make the Farfetch'd reappear at (15, 25) was incorrect. Instead, walking this path caused the entire puzzle to reset, with the Farfetch'd returning to its starting position at (29, 22). This implies an unknown reset trigger exists along that path.
-
-## VII. Battle Knowledge
+## VI. Battle Knowledge
 ### Verified Type Matchups
 *   Fire is SUPER-EFFECTIVE against Bug.
 *   Fire is SUPER-EFFECTIVE against Grass.
-*   Fire is NOT VERY EFFECTIVE against Water.
-*   Fire is NOT VERY EFFECTIVE against Ground.
-*   Fire is NOT VERY EFFECTIVE against Rock.
-*   Fire is NOT VERY EFFECTIVE against Fire.
+*   Fire is NOT VERY EFFECTIVE against Water, Ground, Rock, Fire.
 *   Ground is SUPER-EFFECTIVE against Fire.
 *   Ghost has NO EFFECT on Normal.
 *   Normal has NO EFFECT on Ghost.
@@ -69,7 +63,8 @@
 *   Normal is NOT VERY EFFECTIVE against Rock/Ground.
 *   Water is SUPER-EFFECTIVE against Fire.
 
-## VIII. Archived Notes & Disproven Hypotheses
+## VII. Archived Notes & Disproven Hypotheses
+*   **Trigger Path Hypothesis (Failed):** My hypothesis that walking from (26, 24) to (20, 24) would make the Farfetch'd reappear at (15, 25) was incorrect. Instead, walking this path caused the entire puzzle to reset, with the Farfetch'd returning to its starting position at (29, 22). This implies an unknown reset trigger exists along that path.
 *   **Goldenrod Game Corner Puzzle (Solved):** The `WARP_CARPET_DOWN` tiles at (2, 13) and (3, 13) only activate if the player is standing on them and facing `down`.
 *   **Goldenrod Flower Shop Puzzle (Solved):** The `flower_shop_escaper` tool, with a 500ms sleep delay between each button press, successfully bypassed the script interruption that falsely reported movement was blocked.
 *   **Trigger Path Hypothesis (Failed):** My hypothesis that walking from (26, 24) to (20, 24) would make the Farfetch'd reappear at (15, 25) was incorrect. Instead, walking this path caused the entire puzzle to reset, with the Farfetch'd returning to its starting position at (29, 22). This implies an unknown reset trigger exists along that path.
