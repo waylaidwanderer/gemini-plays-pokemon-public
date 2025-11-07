@@ -1,35 +1,10 @@
 # Game Mechanics & Systems
 
 ## Tile Traversal Rules
-- **BOOKSHELF**: Impassable.
-- **BUOY**: Traversability unknown, assumed impassable.
-- **CAVE**: Traversable warp.
-- **COUNTER**: Impassable.
-- **CUT_TREE**: Impassable. Requires HM01 Cut. **Verified on turn 22550:** After using Cut, the tree sprite disappears, but the underlying tile remains impassable.
-- **DOOR**: Typically a traversable warp. However, some instances may be impassable until a story condition is met. **Observation (Route 34 Ilex Forest Gate, map 11_23, tile (13, 41)):** A specific door was found to be impassable. This suggests conditional traversability.
-- **FLOOR**: Traversable.
-- **FLOOR_UP_WALL**: A complex one-way tile. Behavior is location-dependent.
-- **GRASS**: Traversable, contains wild Pokémon.
-- **HEADBUTT_TREE**: Confirmed impassable. Assumed to be interactable with the move Headbutt.
-- **INCENSE_BURNER**: Impassable.
-- **LADDER**: Complex warp with directional activation.
-- **LEDGE_HOP_DOWN/LEFT/RIGHT**: One-way traversal. **Verified (LEFT) on turn 23091:** Attempted to move Right onto the tile at (22, 22) from (21, 22) and was blocked.
-- **LONG_GRASS**: Traversable, contains wild Pokémon.
-- **MART_SHELF**: Impassable.
-- **PC**: Impassable.
-- **PILLAR**: Conditionally passable in Sprout Tower.
-- **RADIO**: Impassable.
- (Observed in Goldenrod Dept. Store).
-
-- **TALL_GRASS**: Traversable, contains wild Pokémon.
-- **TOWN_MAP**: Impassable.
-- **TV**: Impassable.
-- **UNKNOWN**: Confirmed to be a standard traversable floor tile.
-- **VOID**: Impassable.
-- **WALL**: Impassable.
-- **WARP_CARPET_DOWN/LEFT/RIGHT**: Traversable warps. Activated by pressing the corresponding direction.
-- **WATER**: Confirmed impassable. **Verified on turn 24006:** Attempted to move Up from (4, 14) onto the water tile at (4, 13) and was blocked.
-- **WARP_CARPET_DOWN**: Traversable warp. Activated by pressing Down.
+- **Impassable:** BOOKSHELF, BUOY (assumed), COUNTER, CUT_TREE, HEADBUTT_TREE, INCENSE_BURNER, MART_SHELF, PC, PILLAR (usually), RADIO, TOWN_MAP, TV, VOID (untested), WALL, WATER, WINDOW.
+- **Traversable:** FLOOR, GRASS, LONG_GRASS, TALL_GRASS, UNKNOWN.
+- **Warps:** CAVE, DOOR (conditional), LADDER (directional), WARP_CARPET (directional, sometimes one-way).
+- **One-Way:** FLOOR_UP_WALL, LEDGE_HOP (directional).
 - **WARP_CARPET_UP**: Traversable warp. Activated by pressing Up.
 - **WINDOW**: Impassable.
 
