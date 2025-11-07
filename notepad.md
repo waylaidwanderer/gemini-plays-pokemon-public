@@ -4,7 +4,8 @@
 - **Impassable:** BOOKSHELF, BUOY (assumed), COUNTER, CUT_TREE, HEADBUTT_TREE, INCENSE_BURNER, MART_SHELF, PC, PILLAR (usually), RADIO, TOWN_MAP, TV, VOID, WALL, WATER, WINDOW.
 - **Traversable:** FLOOR, GRASS, LONG_GRASS, TALL_GRASS, UNKNOWN.
 - **Warps:** CAVE, DOOR (conditional), LADDER (directional), WARP_CARPET (directional), WARP_CARPET_UP (directional), WARP_CARPET_DOWN (directional, sometimes one-way), WARP_CARPET_RIGHT (directional).
-- **One-Way:** FLOOR_UP_WALL, LEDGE_HOP (directional).
+- **One-Way:** LEDGE_HOP (directional).
+- **Two-Way Impassable (Directional):** FLOOR_UP_WALL (cannot be entered from above or below).
 
 ## Evolution Methods
 - Some POKEMON evolve only by being traded: MACHOKE, KADABRA, HAUNTER, and GRAVELER.
