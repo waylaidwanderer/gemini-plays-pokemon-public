@@ -105,3 +105,6 @@
 *   **team_analyst:** Analyzes the player's party for strategic recommendations.
 *   **goal_manager:** Recommends updated goals and a navigation target based on the current game state.
 *   Fire is NOT VERY EFFECTIVE against Fire.
+
+## XI. Tool Performance Notes
+*   `path_finder` Limitation: The tool currently considers any tile with an object to be impassable. This needs to be updated to ignore defeated trainers (i.e., objects with a '☠️' marker) to allow pathing through them.
