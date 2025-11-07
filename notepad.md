@@ -56,24 +56,10 @@
 ## VI. Failed Hypotheses & Corrections
 *   **Trigger Path Hypothesis (Failed):** My hypothesis that walking from (26, 24) to (20, 24) would make the Farfetch'd reappear at (15, 25) was incorrect. Instead, walking this path caused the entire puzzle to reset, with the Farfetch'd returning to its starting position at (29, 22). This implies an unknown reset trigger exists along that path.
 
-## VII. Puzzle Notes: Goldenrod Game Corner
-*   **Objective:** Find a way to exit the building.
-*   **Primary Conclusion:** The main exit warps at (2, 13) and (3, 13) require an external trigger.
-*   **Key Clue:** A POKEFAN_M at (2, 9) lost his COIN CASE in the Goldenrod Underground. This remains the strongest lead for an external trigger once an exit is found.
-*   **Current Hypothesis:** Since I cannot be soft-locked, there must be a non-obvious exit mechanism inside the room that I have missed. My previous search for a hidden *passage* was flawed. The new hypothesis is that there is another hidden *switch* on a wall, similar to the ones that trigger minigames.
-*   **Alternative Hypotheses (if current search fails):**
-    1.  The trigger is an NPC's dialogue, possibly under a specific, unmet condition.
-    2.  The trigger requires a specific key item in the inventory (e.g., the COIN CASE).
-    3.  The trigger is a non-obvious interactable object that is not a wall or counter, such as the `GoldenrodGameCornerLeftTheirDrinkScript` at (12, 1).
-*   **Failed Hypotheses Log:**
-    *   The exit is a simple walk-in warp.
-    *   A hidden switch on a wall opens the exit (manual search failed, now using tool).
-    *   The trigger is interacting with a floor tile or another object (plant, receptionists).
-    *   Winning on the 'lucky' slot machine at (7, 7).
-    *   Winning on the hidden-switch-activated slot machine at (6, 11).
-    *   A winning streak on the card flip game (disproven after 20 losses).
-    *   Purchasing a prize (Abra).
-*   **Bizarre Interactions:** Interacting with certain WALL tiles triggers a minigame. Verified locations: (7, 10) and (7, 11) trigger slots; (18, 11) triggers the card flip game; (12, 11) triggers slots. This mechanic is the basis for the current "hidden switch" hypothesis.
+## VII. Archived Puzzle Notes: Goldenrod Game Corner
+*   **Summary:** I was trapped in the Game Corner because the exit warps were inactive.
+*   **Failed Hypotheses:** I tested numerous hypotheses, including interacting with every object, playing the games, and looking for hidden switches. None worked.
+*   **Solution:** The `WARP_CARPET_DOWN` tiles at (2, 13) and (3, 13) only activate if the player is standing on them and facing `down`. This was the non-obvious solution.
 
 ## IX. Strategic Pivot: The Coin Case (Turn 27232)
 *   **Trigger:** Repeated dialogue from POKEFAN_M at (2, 9) confirms he lost his COIN CASE in the Goldenrod Underground.
