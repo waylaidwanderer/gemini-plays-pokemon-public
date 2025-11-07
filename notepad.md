@@ -94,3 +94,6 @@
 *   **To-Do:** Test `TALL_GRASS` and `LONG_GRASS` tiles on Route 35 as soon as they are accessible.
 
 ## XII. New Tile Discoveries
+
+## VII. NPC Interaction Rules
+*   Defeated trainers remain as impassable physical obstacles after battle.
