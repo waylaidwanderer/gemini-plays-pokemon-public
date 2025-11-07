@@ -92,3 +92,4 @@
 | 6 | Bottom | 2 (Jigglypuff) | Loss | Yellow Pikachu (1) |
 | 7 | Top | 1 (Pikachu) | Loss | Green Bug (2) |
 | 8 | Bottom | 1 (Pikachu) | Loss | Pink Jigglypuff (3) |
+| 9 | Top | 1 (Pikachu) | Loss | Green Bug (6) |
