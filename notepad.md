@@ -78,3 +78,5 @@
 *   **Trigger:** Repeated dialogue from POKEFAN_M at (2, 9) confirms he lost his COIN CASE in the Goldenrod Underground.
 *   **Decision:** The systematic 'A' button search is proving fruitless. The COIN CASE is the strongest lead. Pivoting primary goal to acquiring it.
 *   **New Plan:** Exit Game Corner, go to Underground, find COIN CASE, then return.
+## XIII. Bizarre Interactions
+*   Interacting with the WALL tiles at (7, 10) and (7, 11) in the Goldenrod Game Corner triggers a slot machine minigame. This is a highly unusual and unexpected mechanic.
