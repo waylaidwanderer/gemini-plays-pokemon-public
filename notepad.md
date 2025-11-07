@@ -58,29 +58,32 @@
 ## VI. Failed Hypotheses & Corrections
 *   **Trigger Path Hypothesis (Failed):** My hypothesis that walking from (26, 24) to (20, 24) would make the Farfetch'd reappear at (15, 25) was incorrect. Instead, walking this path caused the entire puzzle to reset, with the Farfetch'd returning to its starting position at (29, 22). This implies an unknown reset trigger exists along that path.
 
-## IV. Puzzle Notes: Goldenrod Game Corner
+## VII. Puzzle Notes: Goldenrod Game Corner
 *   **Objective:** Activate the exit warps at (2, 13) and (3, 13).
 *   **Hypothesis 1 (Failed):** Winning on the 'lucky' slot machine at (7, 7) activates the exit. Test resulted in a win, but the warp remained inactive.
-*   **Hypothesis 2 (Failed):** A winning streak on the card flip game is required. This is difficult to test due to low win rate.
-*   **Hypothesis 3 (Active):** The card flip game is not random and follows a discernible pattern. Currently collecting data to test this.
-*   **Alternative Hypotheses (Untested):**
-    1.  The trigger is playing a specific number of games (win or lose).
-    2.  The trigger is winning a specific total amount of coins, not necessarily in a streak.
-    3.  The trigger requires talking to a specific NPC after meeting a certain condition in the minigames.
+*   **Hypothesis 2 (Failed):** A winning streak on the card flip game is required. This was disproven after 20 consecutive losses.
+*   **Hypothesis 3 (Active):** A hidden switch on a wall opens the exit. Currently performing a systematic search.
 
-## XII. Strategic Pivot: The Coin Case (Turn 27232)
+## VIII. Untested Assumptions & Alternative Hypotheses
+*   **Primary Assumption:** The solution to escaping the Game Corner is located *inside* the Game Corner.
+*   **Alternative Hypothesis 1:** The puzzle requires an external item. The POKEFAN_M's dialogue about his lost COIN CASE in the Goldenrod Underground is the strongest lead. It's possible I need to find this item and return with it to trigger an event.
+*   **Alternative Hypothesis 2:** The trigger is not a wall switch, but interacting with a floor tile or another object (like a plant).
+*   **Test Plan:** If the current systematic wall search yields no results after checking the entire western wall, I will pivot to testing Alternative Hypothesis 1 by re-engaging the POKEFAN_M to confirm his dialogue, then attempting to leave to find the COIN CASE.
+
+## IX. Strategic Pivot: The Coin Case (Turn 27232)
 *   **Trigger:** Repeated dialogue from POKEFAN_M at (2, 9) confirms he lost his COIN CASE in the Goldenrod Underground.
 *   **Decision:** The systematic 'A' button search is proving fruitless. The COIN CASE is the strongest lead. Pivoting primary goal to acquiring it.
 *   **New Plan:** Exit Game Corner, go to Underground, find COIN CASE, then return.
-## XIII. Bizarre Interactions
-*   Interacting with the WALL tiles at (7, 10) and (7, 11) in the Goldenrod Game Corner triggers a slot machine minigame. This is a highly unusual and unexpected mechanic.
-## VIII. Tool Performance Notes
-*   `get_next_search_target` Critique (Turn 28232): The overwatch system noted the tool suggested a blank tile (9, 2). My analysis suggests this may have been caused by the COOLTRAINER_F temporarily occupying an adjacent tile, making it a valid target at that moment. I will not modify the tool yet, but will monitor its outputs for further anomalies. If it suggests another blank tile when no NPCs are adjacent, a logic fix will become my highest priority.
-*   **Verify Position After Movement:** After every movement action, I must verify my actual `current_position` from the Game State against the plan's destination to prevent movement-related hallucinations.
 
-## XIII. Goldenrod Card Flip Game Observations
+## X. Bizarre Interactions
+*   Interacting with the WALL tiles at (7, 10) and (7, 11) in the Goldenrod Game Corner triggers a slot machine minigame. This is a highly unusual and unexpected mechanic.
+
+## XI. Tool Performance Notes
+*   `get_next_search_target` Critique (Turn 28232): The overwatch system noted the tool suggested a blank tile (9, 2). My analysis suggests this may have been caused by the COOLTRAINER_F temporarily occupying an adjacent tile, making it a valid target at that moment. I will not modify the tool yet, but will monitor its outputs for further anomalies. If it suggests another blank tile when no NPCs are adjacent, a logic fix will become my highest priority.
+
+## XII. Goldenrod Card Flip Game Observations
 *   **Hypothesis:** The game is not random and follows a discernible pattern.
-*   **Method:** Record card choice, bet choice, win/loss result, and the revealed cards for each round to identify a pattern.
+*   **Conclusion (Turn 28420):** After 20 consecutive losses, this hypothesis is considered disproven. The game is likely random or has a pattern too complex to be worth investigating further.
 
 | Round | Card Choice | Bet Choice | Result | Revealed Cards |
 |---|---|---|---|---|
