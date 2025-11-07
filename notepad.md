@@ -17,7 +17,8 @@
 
 ## III. Tile Traversal Rules
 *   Traversable: FLOOR, TALL_GRASS, LONG_GRASS, DOOR, LADDER, WARP_CARPET_RIGHT, WARP_CARPET_DOWN.
-*   Impassable (Verified): WALL, WINDOW, CUT_TREE, SIGN, BOOKSHELF, BLACKBOARD, MART_SHELF, BUOY, TV, TOWN_MAP, BIRD, HEADBUTT_TREE, FRUIT_TREE, PRINTER, WATER, CAVE, PC, COUNTER, VOID, SLOT_MACHINE, CARD_FLIP_MACHINE.
+*   Impassable (Verified): WALL, WINDOW, CUT_TREE, SIGN, BOOKSHELF, BLACKBOARD, MART_SHELF, BUOY, TV, TOWN_MAP, BIRD, HEADBUTT_TREE, FRUIT_TREE, PRINTER, WATER, CAVE, PC, COUNTER, VOID.
+*   Impassable (Interactable): SLOT_MACHINE, CARD_FLIP_MACHINE (Verified impassable, interaction from adjacent tile starts a game).
 *   One-Way Traversal:
     *   LEDGE_HOP_DOWN: A one-way ledge. Can only be entered from a tile directly above it (Y-1 -> Y), which forces movement to the tile below it (Y -> Y+1).
     *   LEDGE_HOP_RIGHT: Can only be entered from the left.
