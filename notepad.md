@@ -95,7 +95,6 @@
 ## Evolution Methods
 - Some POKEMON evolve only by being traded: MACHOKE, KADABRA, HAUNTER, and GRAVELER.
 
-## Goldenrod Dept. Store B1F Puzzle (Stage 3)
-- **Observation:** Successfully triggering Stage 2 by using the elevator opened a path at (10, 9) and (11, 9). However, this new path only leads to a small central area and does not grant access to the items at (6, 3) or (14, 2), which remain blocked by walls.
-- **Conclusion:** The puzzle is still unsolved and has at least one more stage.
-- **Current Hypothesis:** Interacting with an NPC from this newly accessed area will trigger the next stage of the puzzle.
+## Goldenrod Dept. Store B1F Puzzle (SOLVED)
+- **Solution:** The puzzle is multi-stage. The final trigger was using the elevator to travel between floors. This did not move the final set of boxes, but instead spawned two new item balls at (10, 15) and (15, 15) in the southern section of the basement.
+- **Path:** The path opened by the second stage at (10, 9) and (11, 9) allows navigation through a central corridor to the eastern side of the room, which then provides access to the southern section where the new items are located.
