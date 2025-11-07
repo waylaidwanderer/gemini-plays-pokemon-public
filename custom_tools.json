@@ -234,39 +234,15 @@
       }
     ]
   },
-  "play_card_flip": {
-    "description": "Automates playing one round of the card flip game. It selects the card, places the bet, and handles the confirmation prompts to get back to the 'play again' screen.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "card_choice": {
-          "type": "string",
-          "enum": [
-            "top",
-            "bottom"
-          ]
-        },
-        "bet_choice": {
-          "type": "string",
-          "enum": [
-            "1",
-            "2",
-            "3",
-            "4"
-          ]
-        }
-      },
-      "required": [
-        "card_choice",
-        "bet_choice"
-      ]
-    },
-    "python_script": "import json\ncard_choice = input_data['card_choice']\nbet_choice = int(input_data['bet_choice'])\npresses = ['A']\npresses.append('sleep 500')\nif card_choice == 'top':\n    presses.append('Up')\npresses.append('A')\npresses.append('sleep 500')\nif bet_choice == 2:\n    presses.append('Right')\nelif bet_choice == 3:\n    presses.extend(['Right', 'Right'])\nelif bet_choice == 4:\n    presses.extend(['Right', 'Right', 'Right'])\npresses.append('A')\npresses.append('sleep 500')\npresses.append('A')\nprint(json.dumps(presses))",
+  "find_reachable_unseen_tiles": {
+    "description": "Parses the map XML to find all 'unseen' tiles that are currently reachable from the player's position. It performs a breadth-first search to identify all accessible tiles and then filters for those that are unseen.",
+    "input_schema": {},
+    "python_script": "import xml.etree.ElementTree as ET\nimport json\n\ndef get_player_start_node(root):\n    player_tile = root.find('.//Player/..')\n    if player_tile is not None:\n        coord_str = player_tile.get('coordinate')\n        x, y = map(int, coord_str.strip('()').split(', '))\n        return (x, y)\n    return None\n\ndef find_reachable_unseen_tiles(xml_string):\n    root = ET.fromstring(xml_string)\n    start_node = get_player_start_node(root)\n    if not start_node:\n        print(json.dumps({\"error\": \"Player not found on map.\"}))\n        return\n\n    traversable_types = ['FLOOR', 'TALL_GRASS', 'LONG_GRASS', 'DOOR', 'LADDER', 'WARP_CARPET_RIGHT', 'WARP_CARPET_DOWN']\n    \n    queue = [start_node]\n    visited = {start_node}\n    reachable_unseen = []\n\n    # First, find all reachable tiles\n    all_reachable_tiles = {start_node}\n    queue_bfs = [start_node]\n    visited_bfs = {start_node}\n\n    while queue_bfs:\n        x, y = queue_bfs.pop(0)\n        all_reachable_tiles.add((x, y))\n\n        for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n            nx, ny = x + dx, y + dy\n            neighbor_coord = (nx, ny)\n\n            if neighbor_coord in visited_bfs:\n                continue\n\n            tile_element = root.find(f\".//Tile[@coordinate='({nx}, {ny})']\")\n            if tile_element is not None:\n                visited_bfs.add(neighbor_coord)\n                tile_type = tile_element.get('type')\n                has_object = tile_element.find('Object') is not None\n\n                if tile_type in traversable_types and not has_object:\n                    queue_bfs.append(neighbor_coord)\n\n    # Now, check the neighbors of all reachable tiles for unseen ones\n    for x, y in all_reachable_tiles:\n        for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n            nx, ny = x + dx, y + dy\n            neighbor_coord = (nx, ny)\n\n            tile_element = root.find(f\".//Tile[@coordinate='({nx}, {ny})']\")\n            if tile_element is not None:\n                is_seen = tile_element.get('seen') == 'true'\n                if not is_seen:\n                    reachable_unseen.append(neighbor_coord)\n\n    # Deduplicate and sort the results\n    unique_unseen_tiles = sorted(list(set(reachable_unseen)))\n    print(json.dumps({\"reachable_unseen_tiles\": unique_unseen_tiles}))\n\nfind_reachable_unseen_tiles(map_xml_string)\n",
     "history": [
       {
-        "commit_message": "feat: Create play_card_flip tool. This tool automates the repetitive button presses for the card flip minigame to streamline testing the 'winning streak' hypothesis.",
-        "timestamp": "2025-11-07T08:23:23.470Z",
-        "action_counter": 28292
+        "commit_message": "feat: Create find_reachable_unseen_tiles tool. This tool automates the process of identifying explorable areas by finding all unseen tiles that are currently reachable from the player's location. This addresses a key need identified during self-reflection to make exploration more systematic and efficient.",
+        "timestamp": "2025-11-07T13:43:50.031Z",
+        "action_counter": 28813
       }
     ]
   }
