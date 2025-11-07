@@ -110,3 +110,7 @@
 *   **Primary Hypothesis (Winning Trigger):** It is not enough to simply *play* a game; I must achieve a *win* or a specific payout.
 *   **Alternative Hypothesis (Specific Game):** The trigger could be specific to either the slot machines OR the card flip game. If winning at slots fails, I must test the card flip game.
 *   **Falsification Plan:** If winning at both types of games fails to activate the exit, this entire line of reasoning is likely incorrect, and the trigger must be something I have not yet considered.
+## XIV. Game Corner Puzzle - Minigame Hypotheses
+*   **Primary Hypothesis (Depletion Trigger):** The only way to exit the slot machine minigame is to run out of coins. (In Progress)
+*   **Alternative Hypothesis (Button Combo):** There is a non-obvious button combination (e.g., Start, Select, B+Down) that exits the game.
+*   **Alternative Hypothesis (Time-Based):** The exit trigger is based on playing for a certain amount of real time.
