@@ -59,3 +59,7 @@
 - A POKEFAN_M in the Game Corner lost his COIN CASE in the UNDERGROUND. I need to find it to play the games.
 - **Turn 24348:** Major location hallucination. Believed I was in Goldenrod City (11_18) at (14, 22) and tried to path to a non-existent warp at (18, 27). Was actually still in the Goldenrod Game Corner (11_19) at (2, 13).
 - **STAIRCASE**: Traversable warp. (Observed in Goldenrod Dept. Store).
+
+# Goldenrod Dept. Store B1F Puzzle
+- **Observation:** The basement is a warehouse with boxes (WALL tiles) blocking paths to items.
+- **Hypothesis 1:** The Machop at (7, 7) is the key to solving this puzzle. Interacting with it may trigger an event that moves the boxes.
