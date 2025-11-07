@@ -69,20 +69,9 @@
     *   **Hypothesis 1 (Failed, Turn 25104):** Interaction requires standing *on* the item tile.
     *   **Hypothesis 2 (Failed, Turn 25104):** Interaction requires standing *below* the item tile.
     *   **Hypothesis 3 (Aborted):** Interaction requires standing *adjacent* to the item tile.
-    ## X. Puzzle Notes: Goldenrod Game Corner
-*   **Objective:** Find the exit.
-*   **Primary Hypothesis (Winning Trigger):** Achieving a win in one of the minigames (slots or card flip) is the trigger to activate the exit warps.
-*   **Alternative Hypotheses:**
-    1.  **Specific Game:** The trigger is specific to either slots or the card flip game.
-    2.  **Specific Payout:** A small win is insufficient; a large payout (e.g., 300 coins) is required.
-    3.  **External Trigger:** The trigger is an NPC interaction or event that only becomes available *after* playing/winning.
-    4.  **Hidden Switch (Re-evaluation):** A hidden switch may only become active after a game is played/won.
-*   **Failed Hypotheses Log:**
-    *   A hidden switch exists without any prior trigger. (Systematic search failed).
-    *   An NPC has a direct clue for the exit. (All NPCs spoken to, no clues).
-    *   Simply *playing* a game without winning is the trigger. (Failed).
-    *   Possessing a certain number of coins (>100) is the trigger. (Failed at Turn 27911).
-    *   Running out of coins is the trigger. (Confirmed to only exit the minigame, not the main room).
+    ## X. Puzzle Notes: Goldenrod Game Corner (SOLVED)
+*   **Objective:** Activate the exit warps at (2, 13) and (3, 13).
+*   **Solution:** The trigger is to win a payout on the specific 'lucky' slot machine located at (7, 7). This machine was hinted at by the Pharmacist NPC at (8, 7). After winning, the warps become active.
 
 ## XII. Strategic Pivot: The Coin Case (Turn 27232)
 *   **Trigger:** Repeated dialogue from POKEFAN_M at (2, 9) confirms he lost his COIN CASE in the Goldenrod Underground.

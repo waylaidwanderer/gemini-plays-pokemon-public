@@ -175,12 +175,17 @@
         "amount"
       ]
     },
-    "python_script": "import json\n\npresses = ['A'] # Start conversation\npresses.append('A') # Select 'We sell COINS here.'\n\namount = input_data.get('amount')\n\nif amount == '50':\n    presses.append('A') # Select '50 COINS Y1000'\nelse: # amount == '500'\n    presses.append('Down') # Move to '500 COINS Y10000'\n    presses.append('A') # Select it\n\npresses.append('A') # Confirm purchase 'Is that right?'\n\nprint(json.dumps(presses))",
+    "python_script": "import json\npresses = [\"A\", \"A\"]\nif input_data.get('amount') == '500':\n    presses.append('Down')\npresses.extend([\"A\", \"A\"])\nprint(json.dumps(presses))",
     "history": [
       {
         "commit_message": "feat: Create buy_coins tool. This tool automates the repetitive menu navigation required to purchase coins at the Game Corner, streamlining the process of testing hypotheses that require having coins.",
         "timestamp": "2025-11-07T05:30:32.861Z",
         "action_counter": 27875
+      },
+      {
+        "commit_message": "feat: Create buy_coins tool. This tool automates the repetitive menu navigation required to purchase coins at the Game Corner, streamlining the process of testing hypotheses that require having coins.",
+        "timestamp": "2025-11-07T06:26:49.415Z",
+        "action_counter": 28031
       }
     ]
   },
@@ -202,12 +207,17 @@
         "bet_amount"
       ]
     },
-    "python_script": "import json\n\nbet = input_data.get('bet_amount', '3')\npresses = []\n\nif bet == '1':\n    presses.extend(['Down', 'Down', 'A'])\nelif bet == '2':\n    presses.extend(['Down', 'A'])\nelse: # Default to 3\n    presses.append('A')\n\n# Add presses to stop the reels\npresses.extend(['A', 'A', 'A'])\n\nprint(json.dumps(presses))",
+    "python_script": "import json\n\nbet = input_data.get('bet_amount', '3')\npresses = []\n\nif bet == '1':\n    presses.extend(['Down', 'Down', 'A'])\nelif bet == '2':\n    presses.extend(['Down', 'A'])\nelse: # Default to 3\n    presses.append('A')\n\n# Add presses to start and stop the reels with delays\npresses.extend(['sleep 500', 'A', 'sleep 500', 'A', 'sleep 500', 'A'])\n\nprint(json.dumps(presses))",
     "history": [
       {
         "commit_message": "feat: Create play_slots tool. This tool automates the repetitive button presses required to play a round of the slot machine, streamlining the process of testing hypotheses that require winning a game.",
         "timestamp": "2025-11-07T06:02:18.130Z",
         "action_counter": 27978
+      },
+      {
+        "commit_message": "fix: Add delays between button presses. The tool previously sent all 'A' presses in a single tick, causing the game to only register the first one. Adding 500ms sleeps ensures each press is registered correctly, allowing the tool to complete a full round of the slot machine.",
+        "timestamp": "2025-11-07T06:23:28.403Z",
+        "action_counter": 28024
       }
     ]
   }
