@@ -91,3 +91,7 @@
 *   **POKEFAN_M Dialogue Test (Failure):** Interacting with the 'drink' script at (12, 1) did NOT change the dialogue of the POKEFAN_M at (1, 9). This disproves the 'drink' hypothesis.
 *   **Talk-to-Everyone Hypothesis (Failure):** Speaking to every NPC in the room did not unlock the exit.
 *   **New Hypothesis (The Escape):** Since all internal triggers have been exhausted, the exit must be unconventional. The Abra in my party has the move TELEPORT, which can be used outside of battle. This is the most likely intended solution to escape the room.
+*   **Talk-to-Everyone Hypothesis (Failure):** Speaking to every NPC in the room did not unlock the exit.
+*   **Teleport Hypothesis (Failure):** The move TELEPORT cannot be used inside the Game Corner.
+*   **Step on Other Warp Tile Hypothesis (Failure):** Stepping on the warp at (3, 13) did not trigger an exit.
+*   **New Hypothesis (The Final Direction):** The `WARP_CARPET_DOWN` tile may require the player to be facing `down` to activate. This is the final testable hypothesis.
