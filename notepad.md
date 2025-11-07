@@ -57,13 +57,6 @@
 
 # Gym Information
 - **Goldenrod Gym:** Normal-type. Fighting-type moves are recommended.
+
 ## Goldenrod City - Unexplored Warps
 - System alerted to an unmarked warp at (29, 5) on map 11_2. Need to investigate.
-
-# Tool Development Notes
-- `path_and_execute` (Turn 25825): The tool previously generated paths through off-screen NPCs. This has been addressed by updating the tool to read object-linked map markers and treat them as persistent obstacles.
-- **GRASS**: Traversable. Verified on Route 35.
-
-# To-Do
-- Delete redundant '📍' marker for object ID 4 at (2, 6) on map 3_53.
-- **TALL_GRASS**: Traversable. Verified on Route 35.
