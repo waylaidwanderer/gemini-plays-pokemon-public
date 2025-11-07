@@ -93,3 +93,6 @@
 ## XI. Tool Performance Notes
 *   `path_finder` Limitation: The tool previously considered any tile with an object to be impassable. (FIXED - Turn 29314: Tool now paths to adjacent tiles for impassable targets.)
 *   **To-Do:** Test `TALL_GRASS` and `LONG_GRASS` tiles on Route 35 as soon as they are accessible.
+
+## XII. New Tile Discoveries
+*   PAVEMENT (Verified - Turn 29444): The patterned floor tile in the National Park, previously 'unknown', is traversable.
