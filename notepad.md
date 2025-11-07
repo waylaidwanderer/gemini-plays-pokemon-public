@@ -87,3 +87,4 @@
 *   **Paradox:** The game engine falsely reports movement is blocked, but the overwatch system insists I must move. The system truncates all path inputs (`path_plan`, `buttons_to_press`, and even `autopress_buttons`) upon receiving the false alert, preventing progress.
 *   **Hypothesis (Failed):** The `autopress_buttons` feature would be uninterruptible. This was disproven when the tool's execution was truncated.
 *   **New Hypothesis:** Adding small `sleep` delays between each button press in the `flower_shop_escaper` tool may desynchronize the inputs from the game's blocking script, allowing the full sequence to execute.
+*   **SOLUTION:** The `flower_shop_escaper` tool, with a 500ms sleep delay between each button press, successfully bypassed the script interruption. This allowed the full sequence of movements to execute, leading to the exit warp.

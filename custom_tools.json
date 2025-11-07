@@ -225,12 +225,22 @@
   "flower_shop_escaper": {
     "description": "Automates the button presses required to escape the scripted trap in the Goldenrod Flower Shop. This tool is necessary to bypass the game's false 'Movement Blocked' alerts.",
     "input_schema": {},
-    "python_script": "import json\npath_buttons = [\"Down\", \"Down\", \"Right\", \"Right\", \"Down\", \"Down\", \"Left\", \"Down\", \"Down\"]\nprint(json.dumps(path_buttons))",
+    "python_script": "import json\npath_buttons = [\"Down\", \"sleep 500\", \"Down\", \"sleep 500\", \"Right\", \"sleep 500\", \"Right\", \"sleep 500\", \"Down\", \"sleep 500\", \"Down\", \"sleep 500\", \"Left\", \"sleep 500\", \"Down\", \"sleep 500\", \"Down\"]\nprint(json.dumps(path_buttons))",
     "history": [
       {
         "commit_message": "feat: Create flower_shop_escaper tool. This tool automates the specific button sequence needed to exit the Goldenrod Flower Shop, bypassing the false 'Movement Blocked' alerts that interrupt normal pathing.",
         "timestamp": "2025-11-07T15:39:41.776Z",
         "action_counter": 28959
+      },
+      {
+        "commit_message": "refactor: Add sleep delays to bypass script interruption. The previous version of the tool failed because the game's blocking script would truncate the `autopress_buttons` sequence. This commit adds 100ms sleep intervals between each button press to desynchronize the inputs and allow the full escape sequence to execute.",
+        "timestamp": "2025-11-07T15:43:12.023Z",
+        "action_counter": 28962
+      },
+      {
+        "commit_message": "refactor: Increase sleep delay to 500ms. The 100ms delay was insufficient to bypass the game's input-truncating script. This commit increases the delay to 500ms as a final attempt to desynchronize the inputs and allow the full escape sequence to execute.",
+        "timestamp": "2025-11-07T15:45:31.166Z",
+        "action_counter": 28964
       }
     ]
   }
