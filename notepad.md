@@ -38,6 +38,7 @@
 *   **Completed Quests:**
     *   Zephyr Badge: Defeated Falkner in Violet City.
     *   Hive Badge: Defeated Bugsy in Azalea Town.
+    *   Plain Badge: Defeated Whitney in Goldenrod City.
     *   HM01 Cut: Rescued the Farfetch'd in Ilex Forest.
 *   **NPC & Environmental Hints:**
     *   A strange tree blocks Route 36.
