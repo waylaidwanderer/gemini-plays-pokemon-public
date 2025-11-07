@@ -59,51 +59,26 @@
 *   **Trigger Path Hypothesis (Failed):** My hypothesis that walking from (26, 24) to (20, 24) would make the Farfetch'd reappear at (15, 25) was incorrect. Instead, walking this path caused the entire puzzle to reset, with the Farfetch'd returning to its starting position at (29, 22). This implies an unknown reset trigger exists along that path.
 
 ## VII. Puzzle Notes: Goldenrod Game Corner
-*   **Objective:** Activate the exit warps at (2, 13) and (3, 13).
-*   **Active Hypothesis:** A hidden switch on a wall opens the exit. The systematic search is ongoing.
-*   **Alternative Hypothesis 1:** The puzzle requires an external item (COIN CASE). This is the strongest lead.
-*   **Alternative Hypothesis 2:** The trigger is not a wall switch, but interacting with a floor tile or another object (like the receptionist at (16,2)).
-*   **Failed Sub-Hypotheses:**
-    *   Winning on the 'lucky' slot machine at (7, 7) does not activate the exit.
-    *   A winning streak on the card flip game is not required.
-    *   Purchasing a prize (Abra) does not activate the exit.
-    *   The exit is not a simple walk-in warp; stepping on the tile does nothing.
+*   **Objective:** Find a way to exit the building.
+*   **Primary Conclusion:** The main exit warps at (2, 13) and (3, 13) require an external trigger. The solution is not inside this room.
+*   **Current Hypothesis:** There is a non-obvious exit, such as a hidden passage through a wall.
+*   **Failed Hypotheses Log:**
+    *   A hidden switch on a wall opens the exit.
+    *   The trigger is interacting with a floor tile or another object (plant, receptionist).
+    *   Winning on the 'lucky' slot machine at (7, 7) activates the exit.
+    *   Winning on the hidden-switch-activated slot machine at (6, 11) activates the exit.
+    *   A winning streak on the card flip game is required.
+    *   Purchasing a prize (Abra) activates the exit.
+    *   The exit is a simple walk-in warp.
+*   **Bizarre Interactions:** Interacting with certain WALL tiles triggers a minigame. Verified locations: (7, 10) and (7, 11) trigger slots; (18, 11) triggers the card flip game.
 
 ## IX. Strategic Pivot: The Coin Case (Turn 27232)
 *   **Trigger:** Repeated dialogue from POKEFAN_M at (2, 9) confirms he lost his COIN CASE in the Goldenrod Underground.
-*   **Decision:** The systematic 'A' button search is proving fruitless. The COIN CASE is the strongest lead. Pivoting primary goal to acquiring it.
-*   **New Plan:** Exit Game Corner, go to Underground, find COIN CASE, then return.
+*   **Decision:** This remains the strongest lead for an external trigger once an exit is found.
 
-## X. Bizarre Interactions
-*   Interacting with certain WALL tiles in the Goldenrod Game Corner triggers a minigame. Verified locations: (7, 10) and (7, 11) trigger slots; (18, 11) triggers the card flip game. This is a highly unusual and unexpected mechanic.
-
-## XI. Tool Performance Notes
+## X. Tool Performance Notes
 *   `get_next_search_target` Critique (Turn 28232): The overwatch system noted the tool suggested a blank tile (9, 2). My analysis suggests this may have been caused by the COOLTRAINER_F temporarily occupying an adjacent tile, making it a valid target at that moment. I will not modify the tool yet, but will monitor its outputs for further anomalies. If it suggests another blank tile when no NPCs are adjacent, a logic fix will become my highest priority.
 
-## XII. Goldenrod Card Flip Game Observations
+## XI. Goldenrod Card Flip Game Observations
 *   **Hypothesis:** The game is not random and follows a discernible pattern.
 *   **Conclusion (Turn 28420):** After 20 consecutive losses, this hypothesis is considered disproven. The game is likely random or has a pattern too complex to be worth investigating further.
-
-| Round | Card Choice | Bet Choice | Result | Revealed Cards |
-|---|---|---|---|---|
-| 1 | Top | 1 (Pikachu) | Loss | Pink Jigglypuff (5) |
-| 2 | Bottom | 1 (Pikachu) | Loss | Pink Jigglypuff (1) |
-| 3 | Top | 1 (Pikachu) | Loss | Blue Poliwag (6) |
-| 4 | Bottom | 1 (Pikachu) | Loss | Green Bug (5) |
-| 5 | Top | 1 (Pikachu) | Loss | Yellow Pikachu (6) |
-| 6 | Bottom | 2 (Jigglypuff) | Loss | Yellow Pikachu (1) |
-| 7 | Top | 1 (Pikachu) | Loss | Green Bug (2) |
-| 8 | Bottom | 1 (Pikachu) | Loss | Pink Jigglypuff (3) |
-| 9 | Top | 1 (Pikachu) | Loss | Green Bug (6) |
-| 10 | Bottom | 1 (Pikachu) | Loss | Blue Poliwag (4) |
-| 11 | Bottom | 4 (Bug) | Loss | Pink Jigglypuff (4) |
-| 12 | Bottom | 1 (Pikachu) | Loss | Yellow Pikachu (5) |
-| 13 | Bottom | 1 (Pikachu) | Loss | Yellow Pikachu (2) |
-| 14 | Top | 1 (Pikachu) | Loss | Pink Jigglypuff (5) |
-| 15 | Top | 1 (Pikachu) | Loss | Yellow Pikachu (2) |
-| 16 | Bottom | 1 (Pikachu) | Loss | Pink Jigglypuff (1) |
-| 17 | Top | 1 (Pikachu) | Loss | Yellow Pikachu (1) |
-| 18 | Top | 1 (Pikachu) | Loss | Green Bug (4) |
-| 19 | Top | 3 (Poliwag) | Loss | Green Bug (1) & Yellow Pikachu (3) |
-| 20 | Top | 1 (Pikachu) | Loss | Yellow Pikachu (5) |
-*   Purchasing a prize (Abra) does not activate the exit.
