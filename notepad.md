@@ -66,6 +66,8 @@
 *   **Failed Sub-Hypotheses:**
     *   Winning on the 'lucky' slot machine at (7, 7) does not activate the exit.
     *   A winning streak on the card flip game is not required.
+    *   Purchasing a prize (Abra) does not activate the exit.
+    *   The exit is not a simple walk-in warp; stepping on the tile does nothing.
 
 ## IX. Strategic Pivot: The Coin Case (Turn 27232)
 *   **Trigger:** Repeated dialogue from POKEFAN_M at (2, 9) confirms he lost his COIN CASE in the Goldenrod Underground.
