@@ -103,3 +103,4 @@
   - Leaving the basement and returning immediately.
   - Leaving the entire Dept. Store and returning (only worked for the first stage).
   - Interacting with the Machop after the first stage was cleared.
+  - Using the main elevator to travel to another floor and then returning to the basement.
