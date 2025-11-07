@@ -11,9 +11,10 @@
 *   Verify Agent Outputs: Always verify agent claims (e.g., item possession) against the direct game state before acting.
 *   **Verify Position After Movement:** After every movement action, I must verify my actual `current_position` from the Game State against the plan's destination to prevent movement-related hallucinations.
 *   **Check Map Markers:** ALWAYS check map markers before interacting with NPCs, especially trainers, to avoid repeating interactions or battles.
+*   **Clear Screen Text:** I must always clear on-screen dialogue by pressing 'A' before attempting any movement or other action. Failure to do so causes movement to be blocked and leads to position hallucinations.
 
 ## III. Tile Traversal Rules
-*   Traversable: FLOOR, TALL_GRASS, LONG_GRASS, DOOR, LADDER, WARP_CARPET_RIGHT, WARP_CARPET_DOWN.
+*   Traversable: FLOOR, TALL_GRASS, LONG_GRASS, DOOR, LADDER, WARP_CARPET_RIGHT, WARP_CARPET_DOWN, PAVEMENT.
 *   Impassable (Verified): WALL (can appear as a FENCE), WINDOW, CUT_TREE, SIGN, BOOKSHELF, BLACKBOARD, MART_SHELF, BUOY, TV, TOWN_MAP, BIRD, HEADBUTT_TREE, FRUIT_TREE, PRINTER, WATER, CAVE, PC, COUNTER, VOID.
 *   Impassable (Interactable): SLOT_MACHINE, CARD_FLIP_MACHINE (Verified impassable, interaction from adjacent tile starts a game).
 *   One-Way Traversal:
@@ -63,12 +64,16 @@
 *   Normal is NOT VERY EFFECTIVE against Rock/Ground.
 *   Water is SUPER-EFFECTIVE against Fire.
 
+## VII. NPC Interaction Rules
+*   Defeated trainers remain as impassable physical obstacles after battle.
+
 ## IX. Strategic Pivot: The Coin Case (Turn 27232)
 *   **Trigger:** Repeated dialogue from POKEFAN_M at (2, 9) confirms he lost his COIN CASE in the Goldenrod Underground.
 *   **Decision:** This remains the strongest lead for an external trigger once an exit is found.
 
 ## X. Tool Performance Notes
 *   `get_next_search_target` Critique (Turn 28232): The overwatch system noted the tool suggested a blank tile (9, 2). My analysis suggests this may have been caused by the COOLTRAINER_F temporarily occupying an adjacent tile, making it a valid target at that moment. I will not modify the tool yet, but will monitor its outputs for further anomalies. If it suggests another blank tile when no NPCs are adjacent, a logic fix will become my highest priority.
+*   The `stun_npc` tool is available and should be used to freeze moving NPCs before interaction to ensure successful pathing.
 
 ## XI. Goldenrod Card Flip Game Observations
 *   **Hypothesis:** The game is not random and follows a discernible pattern.
@@ -79,21 +84,3 @@
 *   **POKEFAN_M Dialogue Test (Failure):** Interacting with the 'drink' script at (12, 1) did NOT change the dialogue of the POKEFAN_M at (1, 9). This disproves the 'drink' hypothesis.
 *   **Talk-to-Everyone Hypothesis (Failure):** Speaking to every NPC in the room did not unlock the exit.
 *   **New Hypothesis (The Escape):** Since all internal triggers have been exhausted, the exit must be unconventional. The Abra in my party has the move TELEPORT, which can be used outside of battle. This is the most likely intended solution to escape the room.
-### Custom Tools
-*   **get_next_search_target:** Finds the next unchecked interactable tile for systematic searching.
-*   **path_finder:** Finds a path between two points on the current map using A* search.
-*   **find_reachable_unseen_tiles:** Finds all 'unseen' tiles that are reachable from the player's current position.
-
-### Custom Agents
-*   **battle_strategist:** Recommends the best action in a Pokémon battle.
-*   **team_analyst:** Analyzes the player's party for strategic recommendations.
-*   **goal_manager:** Recommends updated goals and a navigation target based on the current game state.
-
-## XI. Tool Performance Notes
-*   `path_finder` Limitation: The tool previously considered any tile with an object to be impassable. (FIXED - Turn 29314: Tool now paths to adjacent tiles for impassable targets.)
-*   **To-Do:** Test `TALL_GRASS` and `LONG_GRASS` tiles on Route 35 as soon as they are accessible.
-
-## XII. New Tile Discoveries
-
-## VII. NPC Interaction Rules
-*   Defeated trainers remain as impassable physical obstacles after battle.
