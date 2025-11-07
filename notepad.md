@@ -73,12 +73,6 @@
 - A hidden SUPER POTION at (17, 19) is currently blocked by a Pokémon sprite and is unobtainable. Repeated 'A' presses only re-trigger the Pokémon's dialogue.
 
 ## Untested Assumptions & Alternative Hypotheses
-
-- **COIN CASE Location:**
-  - **Assumption:** The COIN CASE is in the Underground, based on an NPC's dialogue.
-  - **Alternative Hypothesis:** The NPC was mistaken or I misinterpreted them. The item could be elsewhere in Goldenrod City.
-  - **Test to Falsify:** If a complete search of the Underground fails to find the COIN CASE, I will expand my search to the rest of the city.
-
 - **Goldenrod Dept. Store B1F Puzzle:**
   - **Assumption:** The puzzle is bugged or unsolvable, as the box collision remains after they visually disappear.
   - **Alternative Hypothesis:** There is a different, undiscovered trigger for the final phase of the puzzle. The visual change was a clue. The trigger might involve talking to another NPC, having a specific item/Pokémon, or an event outside the basement.
@@ -88,8 +82,6 @@
 - **Observation:** The second floor contains five rooms, each with a warp. All entrances are currently blocked by Link Receptionist NPCs.
 - **Clue:** A receptionist at (13, 3) stated, 'the TIME CAPSULE is being adjusted.'
 - **Conclusion:** These rooms are related to the 'Time Capsule' feature and are inaccessible at this time. I have investigated them as much as is currently possible.
-- **CRITICAL HALLUCINATION (Turns 25288-25360):** Believed I was exploring the Goldenrod Underground (maps 3_53, 3_54), including battling trainers, discovering items, and repeatedly attempting to use warps. System confirmed I was in Goldenrod City the entire time. This was a major, prolonged state desynchronization.
-- **WARP_CARPET_DOWN (One-Way Exit):** A specific instance of this tile at (5, 29) on map 3_54 was found to be a one-way exit, returning the player to the previous map. This suggests some warp carpets may not be bidirectional.
 
 ## Goldenrod City Tile Mechanics
 - **FLOOR**: Traversable. Verified in Goldenrod City.
@@ -97,13 +89,8 @@
 - **WATER**: Impassable. Verified in Goldenrod City.
 - **VOID**: Impassable. Verified in Goldenrod Gym.
 - **DOOR**: Traversable warp. Verified in Goldenrod City.
-
-## New Discoveries
 - **WARP_CARPET_DOWN (One-Way Exit):** A specific instance of this tile at (5, 29) on map 3_54 was found to be a one-way exit, returning the player to the previous map. This suggests some warp carpets may not be bidirectional.
 - **WARP_CARPET_RIGHT**: Traversable warp. Activated by pressing Right.
-
-## Pending Tests
-- **COUNTER**: Confirmed impassable. **Verified on turn 25624:** Attempted to path onto the COUNTER tile at (1, 4). The `path_and_execute` tool, which correctly identifies COUNTER as an impassable type, failed to generate a path *onto* the tile, instead routing to an adjacent tile. This confirms the tile is impassable.
 
 # Gym Information
 - **Goldenrod Gym:** Normal-type. Fighting-type moves are recommended.
