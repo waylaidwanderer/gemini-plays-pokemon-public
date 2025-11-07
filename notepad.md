@@ -90,3 +90,6 @@
 ## Respawning Obstacles (CRITICAL DISCOVERY)
 - **Observation (Turn 26648):** The `CUT_TREE` at (8, 25) in Ilex Forest, which was previously removed to solve the Farfetch'd puzzle, has respawned.
 - **Conclusion:** Obstacles cleared with HMs like CUT are not permanently removed and may reappear after leaving and re-entering an area. This must be considered for all future path planning.
+
+## Goldenrod Flower Shop Tile Mechanics
+- **WARP_CARPET_DOWN**: Can be a bidirectional warp, unlike the one-way exit previously discovered. This suggests the tile's function can vary by location.
