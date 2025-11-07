@@ -86,3 +86,7 @@
 - **Conclusion:** Hypothesis 1 is FALSE.
 - **Hypothesis 2:** The tree requires a key item to interact with. Based on a hint from an NPC in the Goldenrod Flower Shop (who mentioned a gift after beating the Gym Leader), the SQUIRT BOTTLE is the likely key item.
 - **Plan:** Return to Goldenrod City, locate the Flower Shop, obtain the SQUIRT BOTTLE, and return to test this hypothesis.
+
+## Respawning Obstacles (CRITICAL DISCOVERY)
+- **Observation (Turn 26648):** The `CUT_TREE` at (8, 25) in Ilex Forest, which was previously removed to solve the Farfetch'd puzzle, has respawned.
+- **Conclusion:** Obstacles cleared with HMs like CUT are not permanently removed and may reappear after leaving and re-entering an area. This must be considered for all future path planning.
