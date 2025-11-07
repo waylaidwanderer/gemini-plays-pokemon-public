@@ -111,4 +111,4 @@
 *   **Alternative Hypothesis (Specific Game):** The trigger could be specific to either the slot machines OR the card flip game. If winning at slots fails, I must test the card flip game.
 *   **Falsification Plan:** If winning at both types of games fails to activate the exit, this entire line of reasoning is likely incorrect, and the trigger must be something I have not yet considered.
 ## XIV. Game Corner Puzzle - Minigame Hypotheses
-*   **Depletion Trigger (Partially Confirmed):** Running out of coins is the trigger to exit the *slot machine minigame*, but it does NOT activate the main exit warps.
+*   **Depletion Trigger (Confirmed for Minigame Exit):** Running out of coins is the confirmed trigger to exit the *slot machine minigame*. However, this action does NOT activate the main exit warps.
