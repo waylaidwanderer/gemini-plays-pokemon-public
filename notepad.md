@@ -95,9 +95,7 @@
 ## Evolution Methods
 - Some POKEMON evolve only by being traded: MACHOKE, KADABRA, HAUNTER, and GRAVELER.
 
-## Goldenrod Dept. Store B1F Puzzle (Stage 2 SOLVED)
-- **Clue:** An NPC stated they "work behind the scenes where no one can see us."
-- **Solution:** The puzzle is multi-stage. Stage 1 is solved by leaving the Dept. Store building entirely and returning. Stage 2 is solved by leaving the basement, using the elevator to travel to another floor, and then returning to the basement. This opened a new path by changing WALL tiles at (10, 9) and (11, 9) to FLOOR tiles.
-- **Previous Failed Hypotheses:**
-  - Simple interaction with Machop or Black Belt (post-Stage 1).
-  - Leaving the basement and returning immediately (without using the elevator for Stage 2).
+## Goldenrod Dept. Store B1F Puzzle (Stage 3)
+- **Observation:** Successfully triggering Stage 2 by using the elevator opened a path at (10, 9) and (11, 9). However, this new path only leads to a small central area and does not grant access to the items at (6, 3) or (14, 2), which remain blocked by walls.
+- **Conclusion:** The puzzle is still unsolved and has at least one more stage.
+- **Current Hypothesis:** Interacting with an NPC from this newly accessed area will trigger the next stage of the puzzle.
