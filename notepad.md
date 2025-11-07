@@ -11,9 +11,9 @@
 *   Verify Agent Outputs: Always verify agent claims (e.g., item possession) against the direct game state before acting.
 *   **Verify Position After Movement:** After every movement action, I must verify my actual `current_position` from the Game State against the plan's destination to prevent movement-related hallucinations.
 
-## II. Critical System Instability: `path_plan` Corruption
-*   **Confirmed Trigger (Turn 26316):** Executing a `path_plan`, even for a single tile, has been repeatedly confirmed to be a trigger for catastrophic game corruption. 
-*   **MITIGATION STRATEGY:** The `path_plan` feature is too unstable and **MUST NOT BE USED.** All future overworld movement must be performed manually with single directional button presses per turn until this issue is resolved.
+## II. `path_plan` Usage
+*   **Previous Instability (Turn 26316):** The `path_plan` feature was previously observed to cause game corruption.
+*   **Current Status (Turn 28001):** System guidelines now strongly recommend using `path_plan` for overworld movement. The previous mitigation strategy is now obsolete. I will trust the system and use `path_plan` for all multi-tile movements.
 
 ## III. Tile Traversal Rules
 *   Traversable: FLOOR, TALL_GRASS, LONG_GRASS, DOOR, LADDER, WARP_CARPET_RIGHT, WARP_CARPET_DOWN.
