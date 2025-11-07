@@ -19,8 +19,8 @@
 - **PC**: Impassable.
 - **PILLAR**: Conditionally passable in Sprout Tower.
 - **RADIO**: Impassable.
-- **STAIRCASE**: Traversable warp. (Observed in Goldenrod Dept. Store).
-- **STAIRCASE**: Traversable warp.
+ (Observed in Goldenrod Dept. Store).
+
 - **TALL_GRASS**: Traversable, contains wild Pokémon.
 - **TOWN_MAP**: Impassable.
 - **TV**: Impassable.
@@ -61,7 +61,7 @@
 # Goldenrod City
 - A POKEFAN_M in the Game Corner lost his COIN CASE in the UNDERGROUND. I need to find it to play the games.
 - **Turn 24348:** Major location hallucination. Believed I was in Goldenrod City (11_18) at (14, 22) and tried to path to a non-existent warp at (18, 27). Was actually still in the Goldenrod Game Corner (11_19) at (2, 13).
-- **STAIRCASE**: Traversable warp. (Observed in Goldenrod Dept. Store).
+ (Observed in Goldenrod Dept. Store).
 
 # Goldenrod Dept. Store B1F Puzzle
 - **Observation:** The basement is a warehouse with boxes (WALL tiles) blocking paths to items.
