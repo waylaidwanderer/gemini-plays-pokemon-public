@@ -104,3 +104,4 @@
 | 18 | Top | 1 (Pikachu) | Loss | Green Bug (4) |
 | 19 | Top | 3 (Poliwag) | Loss | Green Bug (1) & Yellow Pikachu (3) |
 | 20 | Top | 1 (Pikachu) | Loss | Yellow Pikachu (5) |
+*   Purchasing a prize (Abra) does not activate the exit.
