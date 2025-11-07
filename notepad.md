@@ -104,3 +104,4 @@
 *   **battle_strategist:** Recommends the best action in a Pokémon battle.
 *   **team_analyst:** Analyzes the player's party for strategic recommendations.
 *   **goal_manager:** Recommends updated goals and a navigation target based on the current game state.
+*   Fire is NOT VERY EFFECTIVE against Fire.
