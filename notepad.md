@@ -11,9 +11,9 @@
 *   Verify Agent Outputs: Always verify agent claims (e.g., item possession) against the direct game state before acting.
 *   **Verify Position After Movement:** After every movement action, I must verify my actual `current_position` from the Game State against the plan's destination to prevent movement-related hallucinations.
 
-## II. Critical System Instability & Hallucinations
-*   **Position Hallucinations:** I have a recurring issue of hallucinating my position after a movement action. This has been confirmed by system warnings. Corrective Action: I must strictly adhere to my core principle of verifying my position after every move.
-*   **`path_plan` Corruption Trigger (Confirmed Turn 26316):** Executing a `path_plan`, even for a single tile, has now been confirmed on multiple occasions (e.g., Turn 26095, Turn 26316) to be a trigger for catastrophic game corruption. **MITIGATION STRATEGY: The `path_plan` feature is too unstable and MUST NOT BE USED.** All future overworld movement must be performed manually with single directional button presses per turn until this issue is understood and resolved.
+## II. Critical System Instability: `path_plan` Corruption
+*   **Confirmed Trigger (Turn 26316):** Executing a `path_plan`, even for a single tile, has been repeatedly confirmed to be a trigger for catastrophic game corruption. 
+*   **MITIGATION STRATEGY:** The `path_plan` feature is too unstable and **MUST NOT BE USED.** All future overworld movement must be performed manually with single directional button presses per turn until this issue is resolved.
 
 ## III. Tile Traversal Rules
 *   Traversable: FLOOR, TALL_GRASS, LONG_GRASS, DOOR, LADDER, WARP_CARPET_RIGHT, WARP_CARPET_DOWN.
@@ -88,7 +88,7 @@
 
 ## X. Puzzle Notes: Goldenrod Game Corner
 *   **Objective:** Find the exit.
-*   **Current Hypothesis:** A hidden switch exists in the southern, reachable area.
+*   **Current Hypothesis:** A hidden switch exists in the southern, reachable area, triggered by an 'A' button press.
 *   **Systematic Search Plan:** I am systematically checking every reachable tile adjacent to an impassable object (WALL, COUNTER, etc.) and marking progress with map markers.
 *   **Failed Hypotheses Log:**
     *   Interacting with warps at (2, 13) and (3, 13) with 'A' button triggers exit. (Failed)
@@ -96,13 +96,15 @@
     *   Walking onto warp tile at (2, 13) triggers exit. (Failed)
     *   An NPC has a clue for how to exit. (All NPCs spoken to, no clues)
     *   The 'Left Their Drink' object at (12, 1) is a switch. (Interaction failed)
-*   **Position Hallucination (Turn 26194):** I hallucinated that a `path_plan` to move from (9, 3) to (2, 12) was successful. A system warning on the next turn confirmed the move failed. Root Cause: Failure to verify my position in the Game State after the path execution. This re-confirms the importance of my new core principle to always verify position.
 
 ## XI. Goldenrod Game Corner - Alternative Hypotheses (Post-Reflection)
 *   **Confirmation Bias Identified:** My search has exclusively tested for an 'A' button interaction. This is too narrow.
 *   **Hypothesis 2 (Movement Trigger):** The exit may be triggered by a specific movement pattern on the floor, not an interaction. Test: After exhausting 'A' presses, perform a serpentine walk over every single floor tile.
 *   **Hypothesis 3 (External Prerequisite):** The puzzle may be unsolvable without an item or event from outside. The POKEFAN_M mentioned losing his COIN CASE in the Goldenrod Underground. This is a strong lead. Test: If the in-room search fails, leave the Game Corner, find the COIN CASE, and then return to see if anything has changed.
+*   **Pivot Condition:** If the next 15 systematic search targets in the Game Corner fail to reveal the exit, I MUST pivot. The primary goal will become finding the COIN CASE in the Goldenrod Underground.
 
-## XII. Future Agent & Strategy Notes (Post-Reflection)
-*   **Puzzle Solver Agent Idea:** A potential future agent could automate the entire puzzle-solving loop: take a list of targets, manage a 'checked' list, and output the next move and interaction. This would be a high-level automation of my current process.
-*   **Game Corner Pivot Condition:** If the next 15 systematic search targets in the Game Corner fail to reveal the exit, I MUST pivot. The primary goal will become finding the COIN CASE in the Goldenrod Underground, and I will leave the Game Corner to pursue that lead.
+## XII. Future Agent & Tool Notes
+*   **Puzzle Solver Agent Idea:** A potential future agent could automate the entire puzzle-solving loop. It would orchestrate the sub-tools (`find_reachable_interactable_tiles`, `find_checked_tiles`, `search_coordinator`, `path_finder`) to determine and execute the next step in a systematic search. 
+    *   **Input:** Current game state (map XML).
+    *   **Process:** Internally call its sub-tools to identify the next unchecked target, find a path, and generate the next action (e.g., button press to move, mark tile, or interact).
+    *   **Output:** The next single action (`buttons_to_press` array) to execute. This would create a high-level automation of my current manual process.
