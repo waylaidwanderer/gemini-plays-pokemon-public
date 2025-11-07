@@ -70,3 +70,8 @@
 - **Objective:** Deliver Spearow with Mail to the man on Route 31.
 - **Current Step:** Navigate from Goldenrod City to Route 34.
 - **Path:** Goldenrod City South Exit (18, 35) -> Route 34.
+
+# Current Quest Plan: Mail Delivery
+- **Objective:** Deliver Spearow with Mail to the man on Route 31.
+- **Current Step:** Navigate from Route 34, through Ilex Forest, to Route 31.
+- **Path:** Route 34 South -> Route 34 Ilex Forest Gate -> Ilex Forest -> Ilex Forest Azalea Gate -> Azalea Town -> Route 33 -> Union Cave -> Route 32 -> Route 31.
