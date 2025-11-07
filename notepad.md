@@ -93,3 +93,4 @@
 | 7 | Top | 1 (Pikachu) | Loss | Green Bug (2) |
 | 8 | Bottom | 1 (Pikachu) | Loss | Pink Jigglypuff (3) |
 | 9 | Top | 1 (Pikachu) | Loss | Green Bug (6) |
+| 10 | Bottom | 1 (Pikachu) | Loss | Blue Poliwag (4) |
