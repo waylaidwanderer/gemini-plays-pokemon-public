@@ -28,6 +28,8 @@
 - **WALL**: Impassable.
 - **WARP_CARPET_DOWN/LEFT/RIGHT**: Traversable warps. Activated by pressing the corresponding direction.
 - **WATER**: Confirmed impassable. **Verified on turn 24006:** Attempted to move Up from (4, 14) onto the water tile at (4, 13) and was blocked.
+- **WARP_CARPET_DOWN**: Traversable warp. Activated by pressing Down.
+- **WARP_CARPET_UP**: Traversable warp. Activated by pressing Up.
 - **WINDOW**: Impassable.
 
 ---
