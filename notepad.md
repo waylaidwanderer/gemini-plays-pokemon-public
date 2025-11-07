@@ -98,3 +98,6 @@
 - **FLOOR**: Traversable. Verified in National Park.
 - **LONG_GRASS**: Traversable, triggers wild encounters. Verified in National Park.
 - **TALL_GRASS**: Traversable, triggers wild encounters. Verified in National Park.
+
+## Known Bugs / Strange Mechanics
+- **Item Tossing Bug:** Attempting to 'TOSS' a single-stack item (e.g., BERRY x1) from the bag menu fails and resets the menu. Tossing one item from a multi-item stack (e.g., POTION x9 -> x8) also fails to free an inventory slot. The only confirmed way to free a slot is to have a Pokémon 'HOLD' a single-stack item.
