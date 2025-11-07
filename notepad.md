@@ -76,7 +76,7 @@
 *   **New Plan:** Exit Game Corner, go to Underground, find COIN CASE, then return.
 
 ## X. Bizarre Interactions
-*   Interacting with the WALL tiles at (7, 10) and (7, 11) in the Goldenrod Game Corner triggers a slot machine minigame. This is a highly unusual and unexpected mechanic.
+*   Interacting with certain WALL tiles in the Goldenrod Game Corner triggers a minigame. Verified locations: (7, 10) and (7, 11) trigger slots; (18, 11) triggers the card flip game. This is a highly unusual and unexpected mechanic.
 
 ## XI. Tool Performance Notes
 *   `get_next_search_target` Critique (Turn 28232): The overwatch system noted the tool suggested a blank tile (9, 2). My analysis suggests this may have been caused by the COOLTRAINER_F temporarily occupying an adjacent tile, making it a valid target at that moment. I will not modify the tool yet, but will monitor its outputs for further anomalies. If it suggests another blank tile when no NPCs are adjacent, a logic fix will become my highest priority.
