@@ -106,15 +106,3 @@
 ## XII. Future Agent & Strategy Notes (Post-Reflection)
 *   **Puzzle Solver Agent Idea:** A potential future agent could automate the entire puzzle-solving loop: take a list of targets, manage a 'checked' list, and output the next move and interaction. This would be a high-level automation of my current process.
 *   **Game Corner Pivot Condition:** If the next 15 systematic search targets in the Game Corner fail to reveal the exit, I MUST pivot. The primary goal will become finding the COIN CASE in the Goldenrod Underground, and I will leave the Game Corner to pursue that lead.
-
-## XII. Future Agent & Strategy Notes (Post-Reflection)
-*   **Puzzle Solver Agent Idea:** A potential future agent could automate the entire puzzle-solving loop: take a list of targets, manage a 'checked' list, and output the next move and interaction. This would be a high-level automation of my current process.
-*   **Game Corner Pivot Condition:** If the next 15 systematic search targets in the Game Corner fail to reveal the exit, I MUST pivot. The primary goal will become finding the COIN CASE in the Goldenrod Underground, and I will leave the Game Corner to pursue that lead.
-
-## XII. Future Agent & Strategy Notes (Post-Reflection)
-*   **Puzzle Solver Agent Idea:** A potential future agent could automate the entire puzzle-solving loop: take a list of targets, manage a 'checked' list, and output the next move and interaction. This would be a high-level automation of my current process.
-*   **Game Corner Pivot Condition:** If the next 15 systematic search targets in the Game Corner fail to reveal the exit, I MUST pivot. The primary goal will become finding the COIN CASE in the Goldenrod Underground, and I will leave the Game Corner to pursue that lead.
-
-## XII. Future Agent & Strategy Notes (Post-Reflection)
-*   **Puzzle Solver Agent Idea:** A potential future agent could automate the entire puzzle-solving loop: take a list of targets, manage a 'checked' list, and output the next move and interaction. This would be a high-level automation of my current process.
-*   **Game Corner Pivot Condition:** If the next 15 systematic search targets in the Game Corner fail to reveal the exit, I MUST pivot. The primary goal will become finding the COIN CASE in the Goldenrod Underground, and I will leave the Game Corner to pursue that lead.
