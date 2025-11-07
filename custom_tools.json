@@ -209,35 +209,39 @@
       }
     ]
   },
-  "play_slots": {
-    "description": "Automates playing one round of the slot machine. It selects the bet amount and then presses 'A' three times to stop the reels.",
+  "play_card_flip": {
+    "description": "Automates playing one round of the card flip game. It selects the card, places the bet, and handles the confirmation prompts to get back to the 'play again' screen.",
     "input_schema": {
       "type": "object",
       "properties": {
-        "bet_amount": {
+        "card_choice": {
+          "type": "string",
+          "enum": [
+            "top",
+            "bottom"
+          ]
+        },
+        "bet_choice": {
           "type": "string",
           "enum": [
             "1",
             "2",
-            "3"
+            "3",
+            "4"
           ]
         }
       },
       "required": [
-        "bet_amount"
+        "card_choice",
+        "bet_choice"
       ]
     },
-    "python_script": "import json\n\nbet = input_data.get('bet_amount', '3')\npresses = []\n\nif bet == '1':\n    presses.extend(['Down', 'Down', 'A'])\nelif bet == '2':\n    presses.extend(['Down', 'A'])\nelse: # Default to 3\n    presses.append('A')\n\n# Add presses to start and stop the reels with delays\npresses.extend(['sleep 500', 'A', 'sleep 500', 'A', 'sleep 500', 'A'])\n\nprint(json.dumps(presses))",
+    "python_script": "import json\ncard_choice = input_data['card_choice']\nbet_choice = int(input_data['bet_choice'])\npresses = ['A']\npresses.append('sleep 500')\nif card_choice == 'top':\n    presses.append('Up')\npresses.append('A')\npresses.append('sleep 500')\nif bet_choice == 2:\n    presses.append('Right')\nelif bet_choice == 3:\n    presses.extend(['Right', 'Right'])\nelif bet_choice == 4:\n    presses.extend(['Right', 'Right', 'Right'])\npresses.append('A')\npresses.append('sleep 500')\npresses.append('A')\nprint(json.dumps(presses))",
     "history": [
       {
-        "commit_message": "feat: Create play_slots tool. This tool automates the repetitive button presses required to play a round of the slot machine, streamlining the process of testing hypotheses that require winning a game.",
-        "timestamp": "2025-11-07T06:02:18.130Z",
-        "action_counter": 27978
-      },
-      {
-        "commit_message": "fix: Add delays between button presses. The tool previously sent all 'A' presses in a single tick, causing the game to only register the first one. Adding 500ms sleeps ensures each press is registered correctly, allowing the tool to complete a full round of the slot machine.",
-        "timestamp": "2025-11-07T06:23:28.403Z",
-        "action_counter": 28024
+        "commit_message": "feat: Create play_card_flip tool. This tool automates the repetitive button presses for the card flip minigame to streamline testing the 'winning streak' hypothesis.",
+        "timestamp": "2025-11-07T08:23:23.470Z",
+        "action_counter": 28292
       }
     ]
   }
