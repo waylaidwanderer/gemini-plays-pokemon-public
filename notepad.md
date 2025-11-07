@@ -1,9 +1,9 @@
 # Gem's Pokémon Crystal Adventure Log
 
 ## I. Core Principles & Lessons Learned
+*   **IMMEDIATE ACTION:** Data management tasks (marking, noting) and tool/agent maintenance MUST be performed in the CURRENT turn. Deferring is a failure.
 *   Trust Your Tools: A verified tool's output is a source of truth. Trust it over assumptions.
 *   Systematic Debugging: Use a methodical, evidence-based approach for broken tools. Use `run_code` with print statements to trace execution.
-*   Immediate Action: Tool/agent maintenance must be performed in the current turn. A one-turn delay is a failure.
 *   Hypothesis-Driven Testing: For all new mechanics, use the Observe, Hypothesize, Test, Conclude method. Document every step.
 *   Goal Flexibility: If progress on a primary goal stalls, pivot to a different goal. Do not remain stuck.
 *   Proactive Tile Testing: Upon encountering any new, undocumented tile type, I MUST immediately form a hypothesis, test it, and log the results before proceeding.
@@ -14,17 +14,18 @@
 *   **Clear Screen Text:** I must always clear on-screen dialogue by pressing 'A' before attempting any movement or other action. Failure to do so causes movement to be blocked and leads to position hallucinations.
 
 ## III. Tile Traversal Rules
-*   Traversable: FLOOR, TALL_GRASS, LONG_GRASS, DOOR, LADDER, WARP_CARPET_RIGHT, WARP_CARPET_DOWN.
+*   Traversable: FLOOR, TALL_GRASS, LONG_GRASS, DOOR, LADDER, WARP_CARPET_RIGHT, WARP_CARPET_DOWN, WARP_CARPET_LEFT.
 *   Impassable (Verified): WALL (can appear as a FENCE), WINDOW, CUT_TREE, SIGN, BOOKSHELF, BLACKBOARD, MART_SHELF, BUOY, TV, TOWN_MAP, BIRD, HEADBUTT_TREE, FRUIT_TREE, PRINTER, WATER, CAVE, PC, COUNTER, VOID.
 *   Impassable (Interactable): SLOT_MACHINE, CARD_FLIP_MACHINE (Verified impassable, interaction from adjacent tile starts a game).
 *   One-Way Traversal:
     *   LEDGE_HOP_DOWN: A one-way ledge. Can only be entered from a tile directly above it (Y-1 -> Y), which forces movement to the tile below it (Y -> Y+1).
     *   LEDGE_HOP_RIGHT: Can only be entered from the left.
     *   LEDGE_HOP_LEFT: Can only be entered from the right.
+    *   FLOOR_UP_WALL: Functions as a one-way ramp, only allowing upward movement.
 *   Special Interaction (Warp):
     *   CAVE: Can act as a one-way warp.
     *   WARP_CARPET_DOWN: Traversable. Its warp function only activates if the player is standing on the tile and facing down.
-    *   WARP_CARPET_LEFT: Traversable. Its warp function likely activates if the player is standing on the tile and facing left.
+    *   WARP_CARPET_LEFT: Traversable. Its warp function only activates if the player is standing on the tile and facing left.
 *   Special Interaction (Interactable):
     *   PC: Interact by standing below it at (X, Y+1), facing up.
     *   COUNTER: Impassable. Can be interacted with from an adjacent tile to speak to NPCs. Some counters are disguised as game machines (slots, card flip) and interacting with them will start a minigame.
@@ -67,6 +68,10 @@
 
 ## VII. NPC Interaction Rules
 *   Defeated trainers remain as impassable physical obstacles after battle.
+
+## VIII. Untested Assumptions
+*   **SQUIRTBOTTLE Necessity:** I assume the SQUIRTBOTTLE is the *only* way to move the strange tree. (Alternative: HM04 Strength might work. Test: Use Strength on the tree at (35, 9)).
+*   **SQUIRTBOTTLE Location:** I assume the SQUIRTBOTTLE is found by proceeding forward from Goldenrod City, based on the flower shop dialogue. (Alternative: It could be a reward for an unrelated side quest, like Kurt's LURE BALL, or in a previously visited area). 
 
 ## IX. Strategic Pivot: The Coin Case (Turn 27232)
 *   **Trigger:** Repeated dialogue from POKEFAN_M at (2, 9) confirms he lost his COIN CASE in the Goldenrod Underground.
