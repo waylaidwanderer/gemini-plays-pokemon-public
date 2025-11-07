@@ -92,5 +92,9 @@
 ## Evolution Methods
 - Some POKEMON evolve only by being traded: MACHOKE, KADABRA, HAUNTER, and GRAVELER.
 
-## Goldenrod Dept. Store B1F Puzzle (Current Hypothesis)
-- **Hypothesis 7 (CONFIRMED):** Based on the clue "work behind the scenes where no one can see us," a greater distance is needed than simply changing floors. Leaving the entire Department Store building and then returning triggered the final box movement.
+- **WARP_CARPET_UP**: Traversable warp. Activated by pressing Up. (Observed in Goldenrod Dept. Store B1F).
+
+## Goldenrod Dept. Store B1F Puzzle (Solved)
+- **Clue:** An NPC stated they "work behind the scenes where no one can see us."
+- **Failed Hypotheses:** Simple interaction, leaving the floor and returning, and interacting after a partial solution all failed to solve the puzzle.
+- **Correct Solution (CONFIRMED):** The puzzle is multi-stage. The trigger for each stage is to leave the basement, exit the Department Store building entirely, and then return. This process must be repeated to move all the boxes.
