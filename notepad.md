@@ -71,3 +71,9 @@
 - **Problem:** My `path_and_execute` tool has failed repeatedly, causing movement blockages and wasted turns. My approach of fixing bugs reactively is inefficient.
 - **Solution:** I must adopt a proactive, test-driven approach to tool development.
 - **New Principle:** Before relying on a complex tool for a critical task, I must first build and use diagnostic tools to verify its core logic. For pathfinding, this means creating a tool to visualize the algorithm's understanding of the map (`find_all_reachable_tiles`). This will allow me to identify and fix logical errors in a controlled way, rather than discovering them through trial-and-error during gameplay.
+
+## Route 36 Tile Mechanics
+- **FLOOR**: Traversable. Verified on Route 36.
+- **WALL**: Impassable. Verified on Route 36.
+- **HEADBUTT_TREE**: Impassable. Verified on Route 36.
+- **TALL_GRASS**: Traversable, triggers wild encounters. Verified on Route 36.
