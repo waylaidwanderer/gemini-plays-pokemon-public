@@ -69,18 +69,7 @@
     *   **Hypothesis 1 (Failed, Turn 25104):** Interaction requires standing *on* the item tile.
     *   **Hypothesis 2 (Failed, Turn 25104):** Interaction requires standing *below* the item tile.
     *   **Hypothesis 3 (Aborted):** Interaction requires standing *adjacent* to the item tile.
-    *   Conclusion: This location is causing repeated errors. Abandoning attempts to acquire this item for now to break the loop and continue exploration.
-
-## VIII. Puzzle Notes: Goldenrod Underground
-*   **Crate Switch Hypothesis (Failed):** Systematic testing of all accessible crate-like floor tiles and wall sections in the main underground area yielded no results. This hypothesis is invalid.
-*   **Wall Panel Switch Hypothesis (In Progress):** My current hypothesis is that one of the wall panels in the Switch Room is a switch.
-    *   Test 1: Panel at (18, 27) from below at (18, 28). Result: Failed.
-    *   Test 2: Panel at (4, 23) from below at (4, 24). Result: Failed.
-    ## IX. Reflection & Strategic Pivots
-*   **Exit Strategy:** If all hypotheses for the Goldenrod Underground puzzle fail, I will abandon it, exit the area, and focus on finding the Gym or exploring the rest of the city to prevent getting stuck. (Strategy executed in turn 25435).
-    *   LADDER: Triggers a warp when walked onto. Does not require interaction with the 'A' button.
-
-## X. Puzzle Notes: Goldenrod Game Corner
+    ## X. Puzzle Notes: Goldenrod Game Corner
 *   **Objective:** Find the exit.
 *   **Primary Hypothesis (Winning Trigger):** Achieving a win in one of the minigames (slots or card flip) is the trigger to activate the exit warps.
 *   **Alternative Hypotheses:**
@@ -94,9 +83,6 @@
     *   Simply *playing* a game without winning is the trigger. (Failed).
     *   Possessing a certain number of coins (>100) is the trigger. (Failed at Turn 27911).
     *   Running out of coins is the trigger. (Confirmed to only exit the minigame, not the main room).
-
-## XI. Tool Development Log
-*   **`get_next_search_target` Tool (Implemented Turn 27096):** Consolidated the functionality of the `find_reachable_interactable_tiles` tool, the `find_checked_tiles` tool, into a single, efficient tool. This replaces the previous cumbersome 3-turn process for systematic searches. The older tools and agent have been deprecated and deleted.
 
 ## XII. Strategic Pivot: The Coin Case (Turn 27232)
 *   **Trigger:** Repeated dialogue from POKEFAN_M at (2, 9) confirms he lost his COIN CASE in the Goldenrod Underground.
