@@ -120,6 +120,3 @@
 
 ## Route 34 - Day-Care Yard
 - A hidden SUPER POTION at (17, 19) is currently blocked by a Pokémon sprite and is unobtainable. Repeated 'A' presses only re-trigger the Pokémon's dialogue.
-
-## Route 34 - Day-Care Yard
-- A hidden SUPER POTION at (17, 19) is currently blocked by a Pokémon sprite and is unobtainable. Repeated 'A' presses only re-trigger the Pokémon's dialogue.
