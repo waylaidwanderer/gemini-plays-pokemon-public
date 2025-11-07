@@ -10,6 +10,7 @@
 *   Mark Warps Immediately: Mark both warp entrance and exit immediately upon use.
 *   Verify Agent Outputs: Always verify agent claims (e.g., item possession) against the direct game state before acting.
 *   **Verify Position After Movement:** After every movement action, I must verify my actual `current_position` from the Game State against the plan's destination to prevent movement-related hallucinations.
+*   **Check Map Markers:** ALWAYS check map markers before interacting with NPCs, especially trainers, to avoid repeating interactions or battles.
 
 ## III. Tile Traversal Rules
 *   Traversable: FLOOR, TALL_GRASS, LONG_GRASS, DOOR, LADDER, WARP_CARPET_RIGHT, WARP_CARPET_DOWN.
