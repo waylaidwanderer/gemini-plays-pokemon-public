@@ -119,6 +119,7 @@
 - **FLOOR**: Traversable. Verified in Goldenrod City.
 - **WALL**: Impassable. Verified in Goldenrod City.
 - **WATER**: Impassable. Verified in Goldenrod City.
+- **VOID**: Impassable. Verified in Goldenrod Gym.
 - **DOOR**: Traversable warp. Verified in Goldenrod City.
 
 ## New Discoveries
