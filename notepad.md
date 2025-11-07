@@ -114,20 +114,16 @@
 *   **battle_strategist:** Recommends the best action in a Pokémon battle.
 *   **team_analyst:** Analyzes the player's party for strategic recommendations.
 *   **goal_manager:** Recommends updated goals and a navigation target based on the current game state.
-*   Fire is NOT VERY EFFECTIVE against Fire.
 
 ## XI. Tool Performance Notes
-*   `path_finder` Limitation: The tool currently considers any tile with an object to be impassable. This needs to be updated to ignore defeated trainers (i.e., objects with a '☠️' marker) to allow pathing through them.
+*   `path_finder` Limitation: The tool previously considered any tile with an object to be impassable. (FIXED - Turn 29314: Tool now paths to adjacent tiles for impassable targets.)
 *   **To-Do:** Test `TALL_GRASS` and `LONG_GRASS` tiles on Route 35 as soon as they are accessible.
 
 ## VII. Battle Knowledge
 ### Verified Type Matchups
 *   Fire is SUPER-EFFECTIVE against Bug.
 *   Fire is SUPER-EFFECTIVE against Grass.
-*   Fire is NOT VERY EFFECTIVE against Water.
-*   Fire is NOT VERY EFFECTIVE against Ground.
-*   Fire is NOT VERY EFFECTIVE against Rock.
-*   Fire is NOT VERY EFFECTIVE against Fire.
+*   Fire is NOT VERY EFFECTIVE against Water, Ground, Rock, Fire.
 *   Ground is SUPER-EFFECTIVE against Fire.
 *   Ghost has NO EFFECT on Normal.
 *   Normal has NO EFFECT on Ghost.
