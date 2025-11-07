@@ -59,3 +59,6 @@
 - **Goldenrod Gym:** Normal-type. Fighting-type moves are recommended.
 ## Goldenrod City - Unexplored Warps
 - System alerted to an unmarked warp at (29, 5) on map 11_2. Need to investigate.
+
+# Tool Development Notes
+- `path_and_execute` (Turn 25825): The tool generated a path through an NPC (Lass Carrie in Goldenrod Gym) because the NPC was likely off-screen when the path was calculated. This indicates a need for more robust handling of potential off-screen obstacles. Need to investigate a fix.
