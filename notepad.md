@@ -32,7 +32,7 @@
 
 ## IV. Story & Quests
 *   **Primary Quest:** Become the Pokémon League Champion.
-    *   Current Objective: Get the Plain Badge in Goldenrod City.
+    *   Current Objective: Get the SQUIRTBOTTLE from the Goldenrod Flower Shop.
 *   **Time-Locked & NPC Call Quests:**
     *   Kurt's Custom Balls: Wait one day for Kurt to finish making a LURE BALL.
     *   Union Cave Roars: Investigate on a Friday.
