@@ -91,3 +91,4 @@
 | Round | Card Choice | Bet Choice | Result | Revealed Cards |
 |---|---|---|---|---|
 | 1 | Top | 1 (Pikachu) | Loss | Pink Jigglypuff (5) |
+| 2 | Bottom | 1 (Pikachu) | Loss | Pink Jigglypuff (1) |
