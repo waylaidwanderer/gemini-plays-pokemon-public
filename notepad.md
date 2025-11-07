@@ -37,15 +37,6 @@
   - **Test (Turns 24519-24536):** Left the B1F, went to the elevator room, selected B1F, and returned.
   - **Result:** The room state did not change. The remaining boxes and the Machop were in the same positions.
 
-## Goldenrod Dept. Store B1F Puzzle (Re-evaluation 2)
-- **Observation:** Using the elevator to travel between floors triggered a puzzle event. This event did not move any boxes, but instead spawned two new item balls at (10, 15) and (15, 15).
-- **Verification:** Pathfinding attempts to both new items have failed, confirming they are currently unreachable. The central path opened at (10, 9) does not connect to the southern area where the items spawned.
-- **Conclusion:** The puzzle is NOT solved. The spawning of the items was an intermediate step, not the final solution.
-- **Hypothesis 7 (FAILED):** Interacting with the Machop a third time, after the first event, will trigger the next puzzle event.
-  - **Test (Turn 24994):** Spoke to the Machop at (7, 7).
-  - **Result:** It only made a sound ('Maaacho!'). No boxes moved.
-  - **Conclusion:** Repeated interaction is not the solution. The puzzle trigger is likely related to leaving and returning to the area.
-
 ## Day-Care & Unown
 - The Day-Care Lady on Route 34 mentioned my 'Glyph' has 'grown a lot'. This dialogue triggered even without an Unown in my party, suggesting it's tied to the Pokedex entry for Unown. She seems connected to the Ruins of Alph mystery.
 
