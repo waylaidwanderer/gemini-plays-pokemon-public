@@ -137,3 +137,4 @@
 - **Observation:** The second floor contains five rooms, each with a warp. All entrances are currently blocked by Link Receptionist NPCs.
 - **Clue:** A receptionist at (13, 3) stated, 'the TIME CAPSULE is being adjusted.'
 - **Conclusion:** These rooms are related to the 'Time Capsule' feature and are inaccessible at this time. I have investigated them as much as is currently possible.
+- **CRITICAL HALLUCINATION (Turns 25288-25348):** Believed I was exploring the Goldenrod Underground (maps 3_53, 3_54), including battling trainers and discovering items. System confirmed I was in Goldenrod City the entire time. This was a major state desynchronization.
