@@ -66,3 +66,4 @@
 
 # To-Do
 - Delete redundant '📍' marker for object ID 4 at (2, 6) on map 3_53.
+- **TALL_GRASS**: Traversable. Verified on Route 35.
