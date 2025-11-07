@@ -94,8 +94,6 @@
 ## Evolution Methods
 - Some POKEMON evolve only by being traded: MACHOKE, KADABRA, HAUNTER, and GRAVELER.
 
-- **WARP_CARPET_UP**: Traversable warp. Activated by pressing Up. (Observed in Goldenrod Dept. Store B1F).
-
 ## Goldenrod Dept. Store B1F Puzzle (UNSOLVED)
 - **Clue:** An NPC stated they "work behind the scenes where no one can see us."
 - **Current State:** The puzzle is multi-stage. Leaving the building and returning moved some boxes, but the paths to the items are still blocked. The northern and southern sections of the room are disconnected.
