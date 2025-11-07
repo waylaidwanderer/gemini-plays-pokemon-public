@@ -28,7 +28,7 @@
     *   WARP_CARPET_DOWN: Traversable, but its warp function appears to require an external trigger. Simply walking on the tile is not enough to activate it.
 *   Special Interaction (Interactable):
     *   PC: Interact by standing below it at (X, Y+1), facing up.
-    *   COUNTER: Impassable. Can be interacted with from an adjacent tile to speak to NPCs or play games. (Impassability confirmed Turn 25221, 25022, and 26192).
+    *   COUNTER: Impassable. Can be interacted with from an adjacent tile to speak to NPCs. Some counters are disguised as game machines (slots, card flip) and interacting with them will start a minigame.
 
 ## IV. Story & Quests
 *   **Primary Quest:** Become the Pokémon League Champion.
