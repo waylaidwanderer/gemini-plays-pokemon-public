@@ -132,3 +132,8 @@
   - **Assumption:** The puzzle is bugged or unsolvable, as the box collision remains after they visually disappear.
   - **Alternative Hypothesis:** There is a different, undiscovered trigger for the final phase of the puzzle. The visual change was a clue. The trigger might involve talking to another NPC, having a specific item/Pokémon, or an event outside the basement.
   - **Test to Falsify:** After exhausting other objectives in Goldenrod, I will return to the Dept. Store and systematically test new potential triggers.
+
+## Goldenrod City - Pokemon Center 2F (Link Club)
+- **Observation:** The second floor contains five rooms, each with a warp. All entrances are currently blocked by Link Receptionist NPCs.
+- **Clue:** A receptionist at (13, 3) stated, 'the TIME CAPSULE is being adjusted.'
+- **Conclusion:** These rooms are related to the 'Time Capsule' feature and are inaccessible at this time. I have investigated them as much as is currently possible.
