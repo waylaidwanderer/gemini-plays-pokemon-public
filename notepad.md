@@ -62,7 +62,7 @@
 *   **Objective:** Activate the exit warps at (2, 13) and (3, 13).
 *   **Hypothesis 1 (Failed):** Winning on the 'lucky' slot machine at (7, 7) activates the exit. Test resulted in a win, but the warp remained inactive.
 *   **Hypothesis 2 (Failed):** A winning streak on the card flip game is required. This was disproven after 20 consecutive losses.
-*   **Hypothesis 3 (Active):** A hidden switch on a wall opens the exit. Currently performing a systematic search.
+*   **Hypothesis 3 (Active):** A hidden switch on a wall opens the exit. The initial search of the western wall failed. Now performing a systematic search of the eastern and southern walls.
 
 ## VIII. Untested Assumptions & Alternative Hypotheses
 *   **Primary Assumption:** The solution to escaping the Game Corner is located *inside* the Game Corner.
