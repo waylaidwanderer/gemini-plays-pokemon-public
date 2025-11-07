@@ -41,7 +41,7 @@
     *   Plain Badge: Defeated Whitney in Goldenrod City.
     *   HM01 Cut: Rescued the Farfetch'd in Ilex Forest.
 *   **NPC & Environmental Hints:**
-    *   A strange tree blocks Route 36.
+    *   A strange tree blocks Route 36. A Pokefan in the Route 35 Gate mentioned it can be moved by watering it with a SQUIRTBOTTLE.
     *   Bill is at the Pokémon Center in Ecruteak City. His father is at the Game Corner.
 
 ## V. Team Strategy & Analysis
