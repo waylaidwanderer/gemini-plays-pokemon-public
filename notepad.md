@@ -58,21 +58,15 @@
 ## VI. Failed Hypotheses & Corrections
 *   **Trigger Path Hypothesis (Failed):** My hypothesis that walking from (26, 24) to (20, 24) would make the Farfetch'd reappear at (15, 25) was incorrect. Instead, walking this path caused the entire puzzle to reset, with the Farfetch'd returning to its starting position at (29, 22). This implies an unknown reset trigger exists along that path.
 
-## VII. Untested Assumptions & Falsification
-*   **Assumption 1:** The only way to exit Ilex Forest is through the northern gatehouse to Route 34.
-*   **Alternative Hypothesis:** There may be another exit, possibly requiring an HM like Surf to cross the water areas.
-*   **Test Plan:** If I fully explore all currently accessible paths and do not find the exit, I will systematically re-explore the forest's boundaries to look for hidden paths or interactions.
-*   **Assumption 2:** The only way forward from the Route 34 Gatehouse is through the northern warp.
-*   **Alternative Hypothesis:** The NPCs in the gatehouse might provide a key item or trigger an event that opens a new path, or this could be a dead end.
-*   **Test Plan:** Talk to all NPCs in the gatehouse before attempting to exit north.
-*   **Hidden Item Interaction (Postponed):** Attempting to pick up the hidden Super Potion at (4, 18) in Goldenrod Underground.
-    *   **Hypothesis 1 (Failed, Turn 25104):** Interaction requires standing *on* the item tile.
-    *   **Hypothesis 2 (Failed, Turn 25104):** Interaction requires standing *below* the item tile.
-    *   **Hypothesis 3 (Aborted):** Interaction requires standing *adjacent* to the item tile.
-    ## X. Puzzle Notes: Goldenrod Game Corner
+## IV. Puzzle Notes: Goldenrod Game Corner
 *   **Objective:** Activate the exit warps at (2, 13) and (3, 13).
 *   **Hypothesis 1 (Failed):** Winning on the 'lucky' slot machine at (7, 7) activates the exit. Test resulted in a win, but the warp remained inactive.
-*   **Hypothesis 2 (New):** The solution is related to the card flip game. An NPC's dialogue about being 'on a roll' suggests a winning streak might be required.
+*   **Hypothesis 2 (Failed):** A winning streak on the card flip game is required. This is difficult to test due to low win rate.
+*   **Hypothesis 3 (Active):** The card flip game is not random and follows a discernible pattern. Currently collecting data to test this.
+*   **Alternative Hypotheses (Untested):**
+    1.  The trigger is playing a specific number of games (win or lose).
+    2.  The trigger is winning a specific total amount of coins, not necessarily in a streak.
+    3.  The trigger requires talking to a specific NPC after meeting a certain condition in the minigames.
 
 ## XII. Strategic Pivot: The Coin Case (Turn 27232)
 *   **Trigger:** Repeated dialogue from POKEFAN_M at (2, 9) confirms he lost his COIN CASE in the Goldenrod Underground.
