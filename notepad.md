@@ -120,3 +120,15 @@
 
 ## Route 34 - Day-Care Yard
 - A hidden SUPER POTION at (17, 19) is currently blocked by a Pokémon sprite and is unobtainable. Repeated 'A' presses only re-trigger the Pokémon's dialogue.
+
+## Untested Assumptions & Alternative Hypotheses
+
+- **COIN CASE Location:**
+  - **Assumption:** The COIN CASE is in the Underground, based on an NPC's dialogue.
+  - **Alternative Hypothesis:** The NPC was mistaken or I misinterpreted them. The item could be elsewhere in Goldenrod City.
+  - **Test to Falsify:** If a complete search of the Underground fails to find the COIN CASE, I will expand my search to the rest of the city.
+
+- **Goldenrod Dept. Store B1F Puzzle:**
+  - **Assumption:** The puzzle is bugged or unsolvable, as the box collision remains after they visually disappear.
+  - **Alternative Hypothesis:** There is a different, undiscovered trigger for the final phase of the puzzle. The visual change was a clue. The trigger might involve talking to another NPC, having a specific item/Pokémon, or an event outside the basement.
+  - **Test to Falsify:** After exhausting other objectives in Goldenrod, I will return to the Dept. Store and systematically test new potential triggers.
