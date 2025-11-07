@@ -77,3 +77,12 @@
 - **WALL**: Impassable. Verified on Route 36.
 - **HEADBUTT_TREE**: Impassable. Verified on Route 36.
 - **TALL_GRASS**: Traversable, triggers wild encounters. Verified on Route 36.
+
+## WEIRD_TREE Puzzle (Route 36)
+- **Observation:** The WEIRD_TREE at (35, 9) is blocking the path.
+- **Hypothesis 1 (Turn 26588):** The tree is a standard interactable object that responds to the 'A' button.
+- **Test:** Stood at (36, 9), faced the tree, and pressed 'A'.
+- **Result:** No text appeared, and no action occurred.
+- **Conclusion:** Hypothesis 1 is FALSE.
+- **Hypothesis 2:** The tree requires a key item to interact with. Based on a hint from an NPC in the Goldenrod Flower Shop (who mentioned a gift after beating the Gym Leader), the SQUIRT BOTTLE is the likely key item.
+- **Plan:** Return to Goldenrod City, locate the Flower Shop, obtain the SQUIRT BOTTLE, and return to test this hypothesis.
