@@ -76,13 +76,7 @@
 *   **Wall Panel Switch Hypothesis (In Progress):** My current hypothesis is that one of the wall panels in the Switch Room is a switch.
     *   Test 1: Panel at (18, 27) from below at (18, 28). Result: Failed.
     *   Test 2: Panel at (4, 23) from below at (4, 24). Result: Failed.
-    *   Test 3: Panel at (5, 23) from below at (5, 24). Result: Failed.
-*   **Alternative Hypotheses for Switch Room Puzzle:**
-    1.  **Sequence Hypothesis:** The switches must be pressed in a specific, unknown order.
-    2.  **Item/Event Hypothesis:** The puzzle requires an item or event completion from elsewhere in Goldenrod City to be solvable.
-    3.  **External Switch Hypothesis:** The switch is not in the 'Switch Room Entrances' map at all, but in the main 'Underground' map or another location entirely.
-
-## IX. Reflection & Strategic Pivots
+    ## IX. Reflection & Strategic Pivots
 *   **Exit Strategy:** If all hypotheses for the Goldenrod Underground puzzle fail, I will abandon it, exit the area, and focus on finding the Gym or exploring the rest of the city to prevent getting stuck. (Strategy executed in turn 25435).
     *   LADDER: Triggers a warp when walked onto. Does not require interaction with the 'A' button.
 
