@@ -60,3 +60,6 @@
 
 ## Goldenrod City - Unexplored Warps
 - System alerted to an unmarked warp at (29, 5) on map 11_2. Need to investigate.
+
+## Side Quests
+- GINA on Route 34 has an item for me. (Re-added after accidental deletion)
