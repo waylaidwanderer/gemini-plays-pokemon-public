@@ -60,15 +60,12 @@
 
 ## VII. Puzzle Notes: Goldenrod Game Corner
 *   **Objective:** Activate the exit warps at (2, 13) and (3, 13).
-*   **Hypothesis 1 (Failed):** Winning on the 'lucky' slot machine at (7, 7) activates the exit. Test resulted in a win, but the warp remained inactive.
-*   **Hypothesis 2 (Failed):** A winning streak on the card flip game is required. This was disproven after 20 consecutive losses.
-*   **Hypothesis 3 (Active):** A hidden switch on a wall opens the exit. The initial search of the western wall failed. Now performing a systematic search of the eastern and southern walls.
-
-## VIII. Untested Assumptions & Alternative Hypotheses
-*   **Primary Assumption:** The solution to escaping the Game Corner is located *inside* the Game Corner.
-*   **Alternative Hypothesis 1:** The puzzle requires an external item. The POKEFAN_M's dialogue about his lost COIN CASE in the Goldenrod Underground is the strongest lead. It's possible I need to find this item and return with it to trigger an event.
-*   **Alternative Hypothesis 2:** The trigger is not a wall switch, but interacting with a floor tile or another object (like a plant).
-*   **Test Plan:** If the current systematic wall search yields no results after checking the entire western wall, I will pivot to testing Alternative Hypothesis 1 by re-engaging the POKEFAN_M to confirm his dialogue, then attempting to leave to find the COIN CASE.
+*   **Active Hypothesis:** A hidden switch on a wall opens the exit. The systematic search is ongoing.
+*   **Alternative Hypothesis 1:** The puzzle requires an external item (COIN CASE). This is the strongest lead.
+*   **Alternative Hypothesis 2:** The trigger is not a wall switch, but interacting with a floor tile or another object (like the receptionist at (16,2)).
+*   **Failed Sub-Hypotheses:**
+    *   Winning on the 'lucky' slot machine at (7, 7) does not activate the exit.
+    *   A winning streak on the card flip game is not required.
 
 ## IX. Strategic Pivot: The Coin Case (Turn 27232)
 *   **Trigger:** Repeated dialogue from POKEFAN_M at (2, 9) confirms he lost his COIN CASE in the Goldenrod Underground.
