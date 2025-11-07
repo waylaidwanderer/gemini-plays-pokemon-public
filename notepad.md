@@ -48,10 +48,10 @@
     *   Bill is at the Pokémon Center in Ecruteak City. His father is at the Game Corner.
 
 ## V. Team Strategy & Analysis
-*   `team_analyst` Report (Turn 24443):
-    *   Training Priority: Miasma.
-    *   Move Recommendations: For Vulcan, replace EMBER with a coverage TM. For Miasma, keep HYPNOSIS and CURSE, but replace the weak LICK when possible. For Gambit, focus on raising happiness for evolution.
-    *   Team Weaknesses: Severe weakness to Ground-type attacks. Lack of coverage against Water and Rock types. A Grass or Water-type Pokémon is needed for balance.
+*   `team_analyst` Report (Turn 28802):
+    *   Training Priority: KA Z (Abra) is the highest priority due to being severely under-leveled.
+    *   Move Recommendations: Conserve Vulcan's 'FLAME WHEEL'. Keep MIASma's 'HYPNOSIS'. Plan to replace 'CUT' on Vulcan and 'LICK' on MIASma.
+    *   Team Weaknesses: Severe level imbalance; the team is over-reliant on Vulcan. Critical weakness to Water, Rock, and Ground types. The team urgently needs a Water-type Pokémon for balance and future HM usage.
 
 ## VI. Failed Hypotheses & Corrections
 *   **Trigger Path Hypothesis (Failed):** My hypothesis that walking from (26, 24) to (20, 24) would make the Farfetch'd reappear at (15, 25) was incorrect. Instead, walking this path caused the entire puzzle to reset, with the Farfetch'd returning to its starting position at (29, 22). This implies an unknown reset trigger exists along that path.
