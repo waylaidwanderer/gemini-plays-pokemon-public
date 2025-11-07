@@ -108,3 +108,4 @@
 
 ## XI. Tool Performance Notes
 *   `path_finder` Limitation: The tool currently considers any tile with an object to be impassable. This needs to be updated to ignore defeated trainers (i.e., objects with a '☠️' marker) to allow pathing through them.
+*   **To-Do:** Test `TALL_GRASS` and `LONG_GRASS` tiles on Route 35 as soon as they are accessible.
