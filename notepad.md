@@ -106,3 +106,5 @@
 | 20 | Top | 1 (Pikachu) | Loss | Yellow Pikachu (5) |
 
 *   **Conclusion (Turn 28421):** After 20 consecutive losses, the hypothesis that the card game follows a simple, discernible pattern is highly unlikely. It is either random or the pattern is too complex to solve with this method. Abandoning this line of investigation.
+
+*   **Conclusion (Turn 28421):** After 20 consecutive losses, the hypothesis that the card game follows a simple, discernible pattern is highly unlikely. It is either random or the pattern is too complex to solve with this method. Abandoning this line of investigation.
