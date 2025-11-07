@@ -76,3 +76,6 @@
 - **Problem:** My `path_and_execute` tool has failed repeatedly, causing movement blockages and wasted turns. My approach of fixing bugs reactively is inefficient.
 - **Solution:** I must adopt a proactive, test-driven approach to tool development.
 - **New Principle:** Before relying on a complex tool for a critical task, I must first build and use diagnostic tools to verify its core logic. For pathfinding, this means creating a tool to visualize the algorithm's understanding of the map (`find_all_reachable_tiles`). This will allow me to identify and fix logical errors in a controlled way, rather than discovering them through trial-and-error during gameplay.
+
+## Tool Mechanics
+- **`stun_npc` Tool:** This tool can only affect NPCs that are currently visible on the screen ("live objects"). Attempting to use it on an off-screen NPC will result in an error.
