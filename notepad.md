@@ -120,9 +120,3 @@
 
 ## Route 34 - Day-Care Yard
 - A hidden SUPER POTION at (17, 19) is currently blocked by a Pokémon sprite and is unobtainable. Repeated 'A' presses only re-trigger the Pokémon's dialogue.
-
-# Game Crashes & Glitches
-- **Turn 25175:** Severe game crash on Route 34. While executing a path plan starting from (14, 7), my movement was interrupted at (14, 9). The game state became completely corrupted: sent to Map ID 0_0, position (255, 0), glitched money/Pokedex/badges, and an empty party. Screen shows a blank text box. This is a critical failure state.
-
-# Game Crashes & Glitches
-- **Turn 25175:** Severe game crash on Route 34. While executing a path plan starting from (14, 7), my movement was interrupted at (14, 9). The game state became completely corrupted: sent to Map ID 0_0, position (255, 0), glitched money/Pokedex/badges, and an empty party. Screen shows a blank text box. This is a critical failure state.
