@@ -62,3 +62,6 @@
 
 # Tool Development Notes
 - `path_and_execute` (Turn 25825): The tool generated a path through an NPC (Lass Carrie in Goldenrod Gym) because the NPC was likely off-screen when the path was calculated. This indicates a need for more robust handling of potential off-screen obstacles. Need to investigate a fix.
+
+# Tool Development Notes
+- `path_and_execute` (Turn 25825): The tool generated a path through an NPC (Lass Carrie in Goldenrod Gym) because the NPC was likely off-screen when the path was calculated. This indicates a need for more robust handling of potential off-screen obstacles. Need to investigate a fix.
