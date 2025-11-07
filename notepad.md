@@ -73,11 +73,8 @@
 - **Hypothesis 3 (GAVE CLUE):** The moving Black Belt at (9, 11) provided a critical clue.
   - **Test (Turn 24437):** Spoke to the Black Belt at (9, 11).
   - **Result:** He said "Hey, kid! You're holding us up! Our policy is to work behind the scenes where no one can see us!".
-  - **Conclusion:** The puzzle requires the player to not be present for the workers to move the boxes.
-- **Hypothesis 4:** Leaving and re-entering the basement will trigger an event that moves the boxes.
-  - **Result:** He said "Hey, kid! You're holding us up! Our policy is to work behind the scenes where no one can see us!".
-  - **Conclusion:** The puzzle requires the player to not be present for the workers to move the boxes.
-- **Hypothesis 4:** Leaving and re-entering the basement will trigger an event that moves the boxes.
-  - **Result:** He said "Hey, kid! You're holding us up! Our policy is to work behind the scenes where no one can see us!".
-  - **Conclusion:** The puzzle requires the player to not be present for the workers to move the boxes.
-- **Hypothesis 4:** Leaving and re-entering the basement will trigger an event that moves the boxes.
+  - Hypothesis 4 (FAILED): Leaving and re-entering the basement will trigger an event that moves the boxes.
+  - **Test (Turn 24466):** Left the basement via the elevator and immediately returned.
+  - **Result:** The boxes and NPCs were in the same positions. Nothing changed.
+  - **Conclusion:** Simply re-loading the map is not the solution.
+- **Hypothesis 5:** I need to leave the basement, go to a *different* floor in the department store, and then return. This might be the correct trigger for the 'behind the scenes' event.
