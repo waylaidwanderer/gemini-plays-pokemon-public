@@ -88,3 +88,6 @@
 - **Hypothesis 6 (FAILED):** Leaving the basement and returning a *second* time will trigger the final puzzle event.
   - **Test (Turns 24519-24536):** Left the B1F, went to the elevator room, selected B1F, and returned.
   - **Result:** The room state did not change. The remaining boxes and the Machop were in the same positions.
+
+## Evolution Methods
+- Some POKEMON evolve only by being traded: MACHOKE, KADABRA, HAUNTER, and GRAVELER.
