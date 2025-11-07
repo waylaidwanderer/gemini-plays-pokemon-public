@@ -33,7 +33,7 @@
 ## IV. Story & Quests
 *   **Primary Quest:** Become the Pokémon League Champion.
     *   Current Objective: Get the Plain Badge in Goldenrod City.
-*   **Active Quests:**
+*   WARP_CARPET_DOWN: Traversable, but its warp function appears to require an external trigger. Simply walking on the tile is not enough to activate it.
     
 *   **Time-Locked & NPC Call Quests:**
     *   Kurt's Custom Balls: Wait one day for Kurt to finish making a LURE BALL.
