@@ -83,7 +83,6 @@
 *   **get_next_search_target:** Finds the next unchecked interactable tile for systematic searching.
 *   **path_finder:** Finds a path between two points on the current map using A* search.
 *   **find_reachable_unseen_tiles:** Finds all 'unseen' tiles that are reachable from the player's current position.
-*   **flower_shop_escaper:** Automates the button presses to escape the Goldenrod Flower Shop script trap.
 
 ### Custom Agents
 *   **battle_strategist:** Recommends the best action in a Pokémon battle.
