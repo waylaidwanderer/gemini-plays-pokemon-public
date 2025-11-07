@@ -19,6 +19,7 @@
 - **PC**: Impassable.
 - **PILLAR**: Conditionally passable in Sprout Tower.
 - **RADIO**: Impassable.
+- **STAIRCASE**: Traversable warp. (Observed in Goldenrod Dept. Store).
 - **STAIRCASE**: Traversable warp.
 - **TALL_GRASS**: Traversable, contains wild Pokémon.
 - **TOWN_MAP**: Impassable.
