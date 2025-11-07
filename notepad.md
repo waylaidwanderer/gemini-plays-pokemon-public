@@ -14,7 +14,7 @@
 # Appendix: Core Lessons & Puzzles
 
 ## Cut Mechanic (CRITICAL DISCOVERY)
-- Using Cut on a tree removes the visual sprite, but the underlying tile (`CUT_TREE`) remains impassable even after reloading the map. This is a persistent state.
+- Using Cut on a tree removes the visual sprite. The underlying tile (`CUT_TREE`) becomes traversable. This is a persistent state.
 
 ## Ilex Forest Puzzle
 - The correct solution involved a multi-stage chase, herding the Farfetch'd through the forest by interacting with it from specific directions and using twig piles to alter its path, ultimately leading it to its owner's apprentice.
