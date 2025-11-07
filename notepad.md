@@ -78,3 +78,4 @@
   - **Result:** The boxes and NPCs were in the same positions. Nothing changed.
   - **Conclusion:** Simply re-loading the map is not the solution.
 - **Hypothesis 5:** I need to leave the basement, go to a *different* floor in the department store, and then return. This might be the correct trigger for the 'behind the scenes' event.
+- **Hypothesis 6 (Elevator Mechanics):** The elevator requires a two-step process. Step 1: Interact with the panel at (3, 0) to select a destination floor. Step 2: Manually walk onto one of the `WARP_CARPET_DOWN` tiles at (1, 3) or (2, 3) to initiate the travel.
