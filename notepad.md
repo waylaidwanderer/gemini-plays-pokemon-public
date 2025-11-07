@@ -1,25 +1,23 @@
 # Game Mechanics & Systems
 
-# Game Mechanics & Systems
-
 ## Tile Traversal Rules
-- **Impassable:** BOOKSHELF, BUOY (assumed), COUNTER, CUT_TREE, HEADBUTT_TREE, INCENSE_BURNER, MART_SHELF, PC, PILLAR (usually), RADIO, TOWN_MAP, TV, VOID (untested), WALL, WATER, WINDOW.
+- **Impassable:** BOOKSHELF, BUOY (assumed), COUNTER, CUT_TREE, HEADBUTT_TREE, INCENSE_BURNER, MART_SHELF, PC, PILLAR (usually), RADIO, TOWN_MAP, TV, VOID, WALL, WATER, WINDOW.
 - **Traversable:** FLOOR, GRASS, LONG_GRASS, TALL_GRASS, UNKNOWN.
-- **Warps:** CAVE, DOOR (conditional), LADDER (directional), WARP_CARPET (directional, sometimes one-way), WARP_CARPET_UP (directional), WARP_CARPET_DOWN (directional).
+- **Warps:** CAVE, DOOR (conditional), LADDER (directional), WARP_CARPET (directional), WARP_CARPET_UP (directional), WARP_CARPET_DOWN (directional, sometimes one-way), WARP_CARPET_RIGHT (directional).
 - **One-Way:** FLOOR_UP_WALL, LEDGE_HOP (directional).
+
+## Evolution Methods
+- Some POKEMON evolve only by being traded: MACHOKE, KADABRA, HAUNTER, and GRAVELER.
 
 ---
 
-# Appendix: Core Lessons & Mechanics
+# Appendix: Core Lessons & Puzzles
 
 ## Cut Mechanic (CRITICAL DISCOVERY)
-- Using Cut on a tree removes the visual sprite, but the underlying tile (`CUT_TREE`) remains impassable even after reloading the map. This is a persistent state, not a temporary one.
+- Using Cut on a tree removes the visual sprite, but the underlying tile (`CUT_TREE`) remains impassable even after reloading the map. This is a persistent state.
 
 ## Ilex Forest Puzzle
-- **Initial State:** The puzzle involved herding a Farfetch'd. Early hypotheses involving talking to NPCs or searching twig piles failed. A full systematic search of the initial area was also performed before discovering the multi-stage nature of the puzzle.
-- **Hypothesis 4 (VIA AGENT):** Agent suggested a second puzzle phase deeper in the forest.
-- **Hypothesis 5 (FAILED):** Confirmed that interacting with the Farfetch'd from the wrong direction resets the second phase of the puzzle.
-- **Hypothesis 6 (Turn 23851) - Trusting the Agent:** The correct solution involves repeating the steps to trigger the second chase, but then finding the correct interaction sequence in the western area to guide the Farfetch'd to the apprentice without causing a reset.
+- The correct solution involved a multi-stage chase, herding the Farfetch'd through the forest by interacting with it from specific directions and using twig piles to alter its path, ultimately leading it to its owner's apprentice.
 
 ## HEADBUTT_TREE Mechanics Test
 - **Observation:** The `HEADBUTT_TREE` tile type is impassable.
