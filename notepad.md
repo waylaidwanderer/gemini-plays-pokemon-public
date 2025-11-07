@@ -24,6 +24,7 @@
 *   Special Interaction (Warp):
     *   CAVE: Can act as a one-way warp.
     *   WARP_CARPET_DOWN: Traversable. Its warp function only activates if the player is standing on the tile and facing down.
+    *   WARP_CARPET_LEFT: Traversable. Its warp function likely activates if the player is standing on the tile and facing left.
 *   Special Interaction (Interactable):
     *   PC: Interact by standing below it at (X, Y+1), facing up.
     *   COUNTER: Impassable. Can be interacted with from an adjacent tile to speak to NPCs. Some counters are disguised as game machines (slots, card flip) and interacting with them will start a minigame.
