@@ -138,3 +138,4 @@
 - **Clue:** A receptionist at (13, 3) stated, 'the TIME CAPSULE is being adjusted.'
 - **Conclusion:** These rooms are related to the 'Time Capsule' feature and are inaccessible at this time. I have investigated them as much as is currently possible.
 - **CRITICAL HALLUCINATION (Turns 25288-25360):** Believed I was exploring the Goldenrod Underground (maps 3_53, 3_54), including battling trainers, discovering items, and repeatedly attempting to use warps. System confirmed I was in Goldenrod City the entire time. This was a major, prolonged state desynchronization.
+- **WARP_CARPET_DOWN (One-Way Exit):** A specific instance of this tile at (5, 29) on map 3_54 was found to be a one-way exit, returning the player to the previous map. This suggests some warp carpets may not be bidirectional.
