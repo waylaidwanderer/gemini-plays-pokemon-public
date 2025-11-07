@@ -91,3 +91,16 @@
 *   **Hypothesis (Failed):** The `autopress_buttons` feature would be uninterruptible. This was disproven when the tool's execution was truncated.
 *   **New Hypothesis:** Adding small `sleep` delays between each button press in the `flower_shop_escaper` tool may desynchronize the inputs from the game's blocking script, allowing the full sequence to execute.
 *   **SOLUTION:** The `flower_shop_escaper` tool, with a 500ms sleep delay between each button press, successfully bypassed the script interruption. This allowed the full sequence of movements to execute, leading to the exit warp.
+
+## II. Custom Tools & Agents
+
+### Custom Tools
+*   **get_next_search_target:** Finds the next unchecked interactable tile for systematic searching.
+*   **path_finder:** Finds a path between two points on the current map using A* search.
+*   **find_reachable_unseen_tiles:** Finds all 'unseen' tiles that are reachable from the player's current position.
+*   **flower_shop_escaper:** Automates the button presses to escape the Goldenrod Flower Shop script trap.
+
+### Custom Agents
+*   **battle_strategist:** Recommends the best action in a Pokémon battle.
+*   **team_analyst:** Analyzes the player's party for strategic recommendations.
+*   **goal_manager:** Recommends updated goals and a navigation target based on the current game state.
