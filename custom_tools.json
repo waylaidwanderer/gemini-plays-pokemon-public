@@ -164,5 +164,17 @@
         "action_counter": 26992
       }
     ]
+  },
+  "get_next_search_target": {
+    "description": "Consolidates the logic of finding all reachable interactable tiles and all checked tiles ('✅') to determine and return the coordinates of the next unchecked target for a systematic search. Streamlines a 3-turn process into a single call.",
+    "input_schema": {},
+    "python_script": "from xml.etree import ElementTree as ET\nimport json\n\ndef get_next_target():\n    root = ET.fromstring(map_xml_string)\n\n    # 1. Find all reachable interactable tiles (from find_reachable_interactable_tiles)\n    impassable_types = ['WALL', 'COUNTER', 'BOOKSHELF', 'PC', 'TV', 'SIGN', 'MART_SHELF']\n    player_tile = root.find('.//Player/..')\n    if not player_tile:\n        print(json.dumps({'error': 'Player not found'}))\n        return\n    player_row = root.find('.//Player/../..')\n    if not player_row:\n        print(json.dumps({'error': 'Player row not found'}))\n        return\n\n    start_x = int(player_tile.get('id'))\n    start_y = int(player_row.get('id'))\n\n    q = [(start_x, start_y)]\n    reachable = set([(start_x, start_y)])\n    while q:\n        x, y = q.pop(0)\n        for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n            nx, ny = x + dx, y + dy\n            if (nx, ny) not in reachable:\n                tile = root.find(f\".//Row[@id='{ny}']/Tile[@id='{nx}']\")\n                if tile is not None and tile.get('type') == 'FLOOR':\n                    reachable.add((nx, ny))\n                    q.append((nx, ny))\n\n    all_targets = []\n    for x, y in sorted(list(reachable)):\n        for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n            nx, ny = x + dx, y + dy\n            neighbor_tile = root.find(f\".//Row[@id='{ny}']/Tile[@id='{nx}']\")\n            if neighbor_tile is not None and neighbor_tile.get('type') in impassable_types:\n                all_targets.append({'x': x, 'y': y})\n                break\n\n    # 2. Find all checked tiles (from find_checked_tiles)\n    checked_targets = []\n    for row in root.findall('.//Row'):\n        y = int(row.get('id'))\n        for tile in row.findall('.//Tile'):\n            x = int(tile.get('id'))\n            if tile.find(\".//Marker[@emoji='✅']\") is not None:\n                checked_targets.append({'x': x, 'y': y})\n\n    # 3. Find the next unchecked target (from search_coordinator)\n    checked_set = set((d['x'], d['y']) for d in checked_targets)\n    for target in all_targets:\n        if (target['x'], target['y']) not in checked_set:\n            print(json.dumps(target))\n            return\n\n    print(json.dumps({'message': 'All targets checked'}))\n\nget_next_target()\n",
+    "history": [
+      {
+        "commit_message": "feat: Create get_next_search_target tool. This tool consolidates the logic from three separate tools (`find_reachable_interactable_tiles`, `find_checked_tiles`, and the `search_coordinator` agent) into a single, efficient function. This replaces a cumbersome and error-prone 3-turn manual process, significantly streamlining the workflow for systematic puzzle searches.",
+        "timestamp": "2025-11-07T00:43:45.805Z",
+        "action_counter": 27096
+      }
+    ]
   }
 }
