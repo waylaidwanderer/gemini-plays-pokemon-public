@@ -93,3 +93,8 @@
 
 ## Goldenrod Flower Shop Tile Mechanics
 - **WARP_CARPET_DOWN**: Can be a bidirectional warp, unlike the one-way exit previously discovered. This suggests the tile's function can vary by location.
+
+## National Park Tile Mechanics
+- **FLOOR**: Traversable. Verified in National Park.
+- **LONG_GRASS**: Traversable, triggers wild encounters. Verified in National Park.
+- **TALL_GRASS**: Traversable, triggers wild encounters. Verified in National Park.
