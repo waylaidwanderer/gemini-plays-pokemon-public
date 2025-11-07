@@ -64,10 +64,9 @@
 *   Water is SUPER-EFFECTIVE against Fire.
 
 ## VII. Archived Notes & Disproven Hypotheses
-*   **Trigger Path Hypothesis (Failed):** My hypothesis that walking from (26, 24) to (20, 24) would make the Farfetch'd reappear at (15, 25) was incorrect. Instead, walking this path caused the entire puzzle to reset, with the Farfetch'd returning to its starting position at (29, 22). This implies an unknown reset trigger exists along that path.
+*   **Ilex Forest Farfetch'd Puzzle (Solved):** Solved by herding the Farfetch'd with a specific sequence of interactions and movements. Discovered a trigger path that resets the puzzle.
 *   **Goldenrod Game Corner Puzzle (Solved):** The `WARP_CARPET_DOWN` tiles at (2, 13) and (3, 13) only activate if the player is standing on them and facing `down`.
-*   **Goldenrod Flower Shop Puzzle (Solved):** The `flower_shop_escaper` tool, with a 500ms sleep delay between each button press, successfully bypassed the script interruption that falsely reported movement was blocked.
-*   **Trigger Path Hypothesis (Failed):** My hypothesis that walking from (26, 24) to (20, 24) would make the Farfetch'd reappear at (15, 25) was incorrect. Instead, walking this path caused the entire puzzle to reset, with the Farfetch'd returning to its starting position at (29, 22). This implies an unknown reset trigger exists along that path.
+*   **Goldenrod Flower Shop Puzzle (Solved):** The `flower_shop_escaper` tool, with a 500ms sleep delay, successfully bypassed the script that falsely blocked movement.
 
 ## IX. Strategic Pivot: The Coin Case (Turn 27232)
 *   **Trigger:** Repeated dialogue from POKEFAN_M at (2, 9) confirms he lost his COIN CASE in the Goldenrod Underground.
