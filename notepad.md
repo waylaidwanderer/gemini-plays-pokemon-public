@@ -65,3 +65,8 @@
 - GINA on Route 34 has an item for me. (Re-added after accidental deletion)
 - Snubbull is a Normal-type Pokémon.
 - **TALL_GRASS**: Traversable, triggers wild encounters. Verified in National Park.
+
+# Current Quest Plan: Mail Delivery
+- **Objective:** Deliver Spearow with Mail to the man on Route 31.
+- **Current Step:** Navigate from Goldenrod City to Route 34.
+- **Path:** Goldenrod City South Exit (18, 35) -> Route 34.
