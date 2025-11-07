@@ -37,7 +37,7 @@
     *   Kurt's Custom Balls: Wait one day for Kurt to finish making a LURE BALL.
     *   Union Cave Roars: Investigate on a Friday.
     *   Bug-Catching Contest: At the National Park (today, per Wade).
-    *   Hiker Anthony Rematch: Wants a rematch on Route 33.
+    *   Hiker Anthony Rematch: Called again, wants a rematch on Route 33 right now.
     *   Wade's Berries: Meet Wade on Route 31 to get BERRIES.
 *   **Completed Quests:**
     *   Zephyr Badge: Defeated Falkner in Violet City.
