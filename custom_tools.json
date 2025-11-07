@@ -549,5 +549,17 @@
         "action_counter": 24356
       }
     ]
+  },
+  "find_truly_reachable_unseen_tiles": {
+    "description": "Finds all unseen tiles that are truly reachable by being adjacent to a tile the player can currently stand on. Cross-references all reachable tiles with all unseen tiles.",
+    "input_schema": {},
+    "python_script": "import json\nimport xml.etree.ElementTree as ET\nfrom collections import deque\n\ndef find_truly_reachable_unseen_tiles(map_xml_string):\n    root = ET.fromstring(map_xml_string)\n    width = int(root.get('width'))\n    height = int(root.get('height'))\n\n    impassable_types = {'WALL', 'VOID', 'HEADBUTT_TREE', 'CUT_TREE', 'PC', 'TV', 'MART_SHELF', 'COUNTER', 'WATER'}\n    \n    tile_data = {}\n    unseen_tiles = []\n    start_pos = None\n    for row in root.findall('Row'):\n        for tile in row.findall('Tile'):\n            coord = tuple(map(int, tile.get('coordinate')[1:-1].split(', ')))\n            tile_data[coord] = {\n                'type': tile.get('type'),\n                'has_object': tile.find('Object') is not None,\n                'seen': tile.get('seen')\n            }\n            if tile.find('Player') is not None:\n                start_pos = coord\n            if tile.get('seen') == 'false':\n                unseen_tiles.append(coord)\n\n    if start_pos is None:\n        return []\n\n    # BFS to find all reachable tiles\n    queue = deque([start_pos])\n    reachable_tiles = {start_pos}\n\n    while queue:\n        current_pos = queue.popleft()\n        for move in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n            next_pos = (current_pos[0] + move[0], current_pos[1] + move[1])\n\n            if not (0 <= next_pos[0] < width and 0 <= next_pos[1] < height):\n                continue\n\n            if next_pos in reachable_tiles:\n                continue\n            \n            tile_info = tile_data.get(next_pos)\n            if not tile_info or tile_info['seen'] == 'false' or tile_info['type'] in impassable_types or tile_info['has_object']:\n                continue\n            \n            reachable_tiles.add(next_pos)\n            queue.append(next_pos)\n\n    # Find unseen tiles adjacent to reachable tiles\n    truly_reachable_unseen = []\n    for unseen_coord in unseen_tiles:\n        for move in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n            adj_pos = (unseen_coord[0] + move[0], unseen_coord[1] + move[1])\n            if adj_pos in reachable_tiles:\n                truly_reachable_unseen.append(unseen_coord)\n                break\n                \n    return truly_reachable_unseen\n\nresult = find_truly_reachable_unseen_tiles(map_xml_string)\nprint(json.dumps([{'x': p[0], 'y': p[1]} for p in result]))",
+    "history": [
+      {
+        "commit_message": "feat: Create tool to find truly reachable unseen tiles. This tool performs a BFS to identify all tiles currently reachable by the player and then cross-references this set with all unseen tiles on the map to find which ones are directly adjacent and therefore explorable. This was created in response to a mandatory self-reflection prompt to improve exploration efficiency.",
+        "timestamp": "2025-11-07T06:07:50.482Z",
+        "action_counter": 25155
+      }
+    ]
   }
 }
