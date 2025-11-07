@@ -70,4 +70,8 @@
   - **Test (Turn 24425):** Spoke to the Black Belt at (4, 8).
   - **Result:** He said "I lose my passion for work if someone's watching. Come on, kid, scoot!". The boxes did not move.
   - **Conclusion:** This NPC is not the solution.
-- **Hypothesis 3:** The moving Black Belt at (9, 10) can provide a clue or trigger the puzzle.
+- **Hypothesis 3 (GAVE CLUE):** The moving Black Belt at (9, 11) provided a critical clue.
+  - **Test (Turn 24437):** Spoke to the Black Belt at (9, 11).
+  - **Result:** He said "Hey, kid! You're holding us up! Our policy is to work behind the scenes where no one can see us!".
+  - **Conclusion:** The puzzle requires the player to not be present for the workers to move the boxes.
+- **Hypothesis 4:** Leaving and re-entering the basement will trigger an event that moves the boxes.
