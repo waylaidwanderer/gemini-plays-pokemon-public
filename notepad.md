@@ -102,3 +102,4 @@
 | 16 | Bottom | 1 (Pikachu) | Loss | Pink Jigglypuff (1) |
 | 17 | Top | 1 (Pikachu) | Loss | Yellow Pikachu (1) |
 | 18 | Top | 1 (Pikachu) | Loss | Green Bug (4) |
+| 19 | Top | 3 (Poliwag) | Loss | Green Bug (1) & Yellow Pikachu (3) |
