@@ -104,7 +104,3 @@
 | 18 | Top | 1 (Pikachu) | Loss | Green Bug (4) |
 | 19 | Top | 3 (Poliwag) | Loss | Green Bug (1) & Yellow Pikachu (3) |
 | 20 | Top | 1 (Pikachu) | Loss | Yellow Pikachu (5) |
-
-*   **Conclusion (Turn 28421):** After 20 consecutive losses, the hypothesis that the card game follows a simple, discernible pattern is highly unlikely. It is either random or the pattern is too complex to solve with this method. Abandoning this line of investigation.
-
-*   **Conclusion (Turn 28421):** After 20 consecutive losses, the hypothesis that the card game follows a simple, discernible pattern is highly unlikely. It is either random or the pattern is too complex to solve with this method. Abandoning this line of investigation.
