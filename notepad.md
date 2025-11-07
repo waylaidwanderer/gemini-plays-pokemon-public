@@ -33,8 +33,6 @@
 ## IV. Story & Quests
 *   **Primary Quest:** Become the Pokémon League Champion.
     *   Current Objective: Get the Plain Badge in Goldenrod City.
-*   WARP_CARPET_DOWN: Traversable, but its warp function appears to require an external trigger. Simply walking on the tile is not enough to activate it.
-    
 *   **Time-Locked & NPC Call Quests:**
     *   Kurt's Custom Balls: Wait one day for Kurt to finish making a LURE BALL.
     *   Union Cave Roars: Investigate on a Friday.
@@ -63,6 +61,10 @@
 *   **Primary Conclusion:** The main exit warps at (2, 13) and (3, 13) require an external trigger.
 *   **Key Clue:** A POKEFAN_M at (2, 9) lost his COIN CASE in the Goldenrod Underground. This remains the strongest lead for an external trigger once an exit is found.
 *   **Current Hypothesis:** Since I cannot be soft-locked, there must be a non-obvious exit mechanism inside the room that I have missed. My previous search for a hidden *passage* was flawed. The new hypothesis is that there is another hidden *switch* on a wall, similar to the ones that trigger minigames.
+*   **Alternative Hypotheses (if current search fails):**
+    1.  The trigger is an NPC's dialogue, possibly under a specific, unmet condition.
+    2.  The trigger requires a specific key item in the inventory (e.g., the COIN CASE).
+    3.  The trigger is a non-obvious interactable object that is not a wall or counter, such as the `GoldenrodGameCornerLeftTheirDrinkScript` at (12, 1).
 *   **Failed Hypotheses Log:**
     *   The exit is a simple walk-in warp.
     *   A hidden switch on a wall opens the exit (manual search failed, now using tool).
@@ -71,7 +73,7 @@
     *   Winning on the hidden-switch-activated slot machine at (6, 11).
     *   A winning streak on the card flip game (disproven after 20 losses).
     *   Purchasing a prize (Abra).
-*   **Bizarre Interactions:** Interacting with certain WALL tiles triggers a minigame. Verified locations: (7, 10) and (7, 11) trigger slots; (18, 11) triggers the card flip game. This mechanic is the basis for the current "hidden switch" hypothesis.
+*   **Bizarre Interactions:** Interacting with certain WALL tiles triggers a minigame. Verified locations: (7, 10) and (7, 11) trigger slots; (18, 11) triggers the card flip game; (12, 11) triggers slots. This mechanic is the basis for the current "hidden switch" hypothesis.
 
 ## IX. Strategic Pivot: The Coin Case (Turn 27232)
 *   **Trigger:** Repeated dialogue from POKEFAN_M at (2, 9) confirms he lost his COIN CASE in the Goldenrod Underground.

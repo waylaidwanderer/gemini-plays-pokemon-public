@@ -68,6 +68,16 @@
         "commit_message": "fix: Refine target selection logic and remove diagnostics. The tool no longer considers mobile NPCs as valid triggers for a search target, focusing only on static impassable terrain types like walls and counters. All diagnostic prints have been removed as the bug has been identified.",
         "timestamp": "2025-11-07T12:00:10.149Z",
         "action_counter": 28636
+      },
+      {
+        "commit_message": "refactor: Add diagnostic prints to debug target selection. The tool is repeatedly suggesting an already-checked tile. These prints will expose the contents of the 'all_targets' and 'checked_targets' lists just before the final selection loop, which is necessary to identify the logical error in the filtering process.",
+        "timestamp": "2025-11-07T12:27:24.560Z",
+        "action_counter": 28678
+      },
+      {
+        "commit_message": "refactor: Remove diagnostic prints. The tool's logic has been successfully debugged and the correct usage pattern identified. The prints are no longer needed and are being removed to clean up the tool's output for standard operation.",
+        "timestamp": "2025-11-07T12:33:17.754Z",
+        "action_counter": 28690
       }
     ]
   },
