@@ -94,7 +94,11 @@
 
 - **WARP_CARPET_UP**: Traversable warp. Activated by pressing Up. (Observed in Goldenrod Dept. Store B1F).
 
-## Goldenrod Dept. Store B1F Puzzle (Solved)
+## Goldenrod Dept. Store B1F Puzzle (UNSOLVED)
 - **Clue:** An NPC stated they "work behind the scenes where no one can see us."
-- **Failed Hypotheses:** Simple interaction, leaving the floor and returning, and interacting after a partial solution all failed to solve the puzzle.
-- **Correct Solution (CONFIRMED):** The puzzle is multi-stage. The trigger for each stage is to leave the basement, exit the Department Store building entirely, and then return. This process must be repeated to move all the boxes.
+- **Current State:** The puzzle is multi-stage. Leaving the building and returning moved some boxes, but the paths to the items are still blocked. The northern and southern sections of the room are disconnected.
+- **Failed Hypotheses:**
+  - Simple interaction with Machop or Black Belt.
+  - Leaving the basement and returning immediately.
+  - Leaving the entire Dept. Store and returning (only worked for the first stage).
+  - Interacting with the Machop after the first stage was cleared.
