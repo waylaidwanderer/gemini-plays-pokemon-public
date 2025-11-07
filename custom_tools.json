@@ -157,5 +157,31 @@
         "action_counter": 25016
       }
     ]
+  },
+  "buy_coins": {
+    "description": "Automates the button presses required to buy a specific number of coins from the Game Corner Clerk. Can only buy 50 or 500 coins at a time.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "amount": {
+          "type": "string",
+          "enum": [
+            "50",
+            "500"
+          ]
+        }
+      },
+      "required": [
+        "amount"
+      ]
+    },
+    "python_script": "import json\n\npresses = ['A'] # Start conversation\npresses.append('A') # Select 'We sell COINS here.'\n\namount = input_data.get('amount')\n\nif amount == '50':\n    presses.append('A') # Select '50 COINS Y1000'\nelse: # amount == '500'\n    presses.append('Down') # Move to '500 COINS Y10000'\n    presses.append('A') # Select it\n\npresses.append('A') # Confirm purchase 'Is that right?'\n\nprint(json.dumps(presses))",
+    "history": [
+      {
+        "commit_message": "feat: Create buy_coins tool. This tool automates the repetitive menu navigation required to purchase coins at the Game Corner, streamlining the process of testing hypotheses that require having coins.",
+        "timestamp": "2025-11-07T05:30:32.861Z",
+        "action_counter": 27875
+      }
+    ]
   }
 }

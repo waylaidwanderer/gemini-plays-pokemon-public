@@ -123,3 +123,4 @@
 *   **Coin Total Hypothesis:** The trigger is not winning, but possessing a certain number of coins (e.g., >100).
 *   **External Trigger Hypothesis:** The trigger is unrelated to the games and may involve a specific NPC interaction after playing, or an event in a different location entirely.
 *   **Hidden Switch Re-evaluation:** My initial systematic search for a hidden switch might have been flawed, and a switch might only become active *after* playing the games.
+*   **Coin Total Hypothesis (FAILED):** Possessing >100 coins is the trigger. (Test: Warp at (3, 13) remained inactive with 101 coins).
