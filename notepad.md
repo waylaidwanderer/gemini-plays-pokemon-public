@@ -25,6 +25,7 @@
     *   LEDGE_HOP_LEFT: Can only be entered from the right.
 *   Special Interaction (Warp):
     *   CAVE: Can act as a one-way warp.
+    *   WARP_CARPET_DOWN: Traversable, but its warp function appears to require an external trigger. Simply walking on the tile is not enough to activate it.
 *   Special Interaction (Interactable):
     *   PC: Interact by standing below it at (X, Y+1), facing up.
     *   COUNTER: Impassable. Can be interacted with from an adjacent tile to speak to NPCs or play games. (Impassability confirmed Turn 25221, 25022, and 26192).
@@ -85,7 +86,6 @@
 ## IX. Reflection & Strategic Pivots
 *   **Exit Strategy:** If all hypotheses for the Goldenrod Underground puzzle fail, I will abandon it, exit the area, and focus on finding the Gym or exploring the rest of the city to prevent getting stuck. (Strategy executed in turn 25435).
     *   LADDER: Triggers a warp when walked onto. Does not require interaction with the 'A' button.
-*   **Warp Carpet Movement Hypothesis (Failed):** Stepping on the WARP_CARPET_DOWN tile at (21, 29) did not trigger a warp. This confirms these warps require an external trigger.
 
 ## X. Puzzle Notes: Goldenrod Game Corner
 *   **Objective:** Find the exit.
@@ -117,3 +117,9 @@
 *   **Trigger:** Repeated dialogue from POKEFAN_M at (2, 9) confirms he lost his COIN CASE in the Goldenrod Underground.
 *   **Decision:** The systematic 'A' button search is proving fruitless. The COIN CASE is the strongest lead. Pivoting primary goal to acquiring it.
 *   **New Plan:** Exit Game Corner, go to Underground, find COIN CASE, then return.
+
+## XV. Game Corner Puzzle - Post-Reflection Hypotheses
+*   **Primary Hypothesis:** Playing a game (slot machine or card flip) is the trigger to activate the exit warps.
+*   **Alternative Hypothesis 1 (Winning Trigger):** It may not be enough to simply *play* a game; I might need to achieve a *win* or a specific payout.
+*   **Alternative Hypothesis 2 (Specific Game):** The trigger could be specific to either the slot machines OR the card flip game. If one fails, I must test the other.
+*   **Falsification Plan:** If interacting with and winning at both types of games fails to activate the exit, this entire line of reasoning is likely incorrect, and the trigger must be something I have not yet considered.
