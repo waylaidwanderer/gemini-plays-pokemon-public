@@ -151,4 +151,4 @@
 - **WARP_CARPET_RIGHT**: Traversable warp. Activated by pressing Right.
 
 ## Pending Tests
-- **COUNTER**: Traversability unknown. Test by attempting to path onto a COUNTER tile, such as (1, 4) in Route35GoldenrodGate.
+- **COUNTER**: Confirmed impassable. **Verified on turn 25624:** Attempted to path onto the COUNTER tile at (1, 4). The `path_and_execute` tool, which correctly identifies COUNTER as an impassable type, failed to generate a path *onto* the tile, instead routing to an adjacent tile. This confirms the tile is impassable.
