@@ -95,5 +95,3 @@
 *   **To-Do:** Test `TALL_GRASS` and `LONG_GRASS` tiles on Route 35 as soon as they are accessible.
 
 ## XII. New Tile Discoveries
-*   PAVEMENT (Verified - Turn 29444): The patterned floor tile in the National Park, previously 'unknown', is traversable.
-*   PAVEMENT (Verified - Turn 29444): The patterned floor tile in the National Park, previously 'unknown', is traversable.
