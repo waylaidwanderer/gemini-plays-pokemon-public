@@ -183,5 +183,32 @@
         "action_counter": 27875
       }
     ]
+  },
+  "play_slots": {
+    "description": "Automates playing one round of the slot machine. It selects the bet amount and then presses 'A' three times to stop the reels.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "bet_amount": {
+          "type": "string",
+          "enum": [
+            "1",
+            "2",
+            "3"
+          ]
+        }
+      },
+      "required": [
+        "bet_amount"
+      ]
+    },
+    "python_script": "import json\n\nbet = input_data.get('bet_amount', '3')\npresses = []\n\nif bet == '1':\n    presses.extend(['Down', 'Down', 'A'])\nelif bet == '2':\n    presses.extend(['Down', 'A'])\nelse: # Default to 3\n    presses.append('A')\n\n# Add presses to stop the reels\npresses.extend(['A', 'A', 'A'])\n\nprint(json.dumps(presses))",
+    "history": [
+      {
+        "commit_message": "feat: Create play_slots tool. This tool automates the repetitive button presses required to play a round of the slot machine, streamlining the process of testing hypotheses that require winning a game.",
+        "timestamp": "2025-11-07T06:02:18.130Z",
+        "action_counter": 27978
+      }
+    ]
   }
 }

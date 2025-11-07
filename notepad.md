@@ -93,9 +93,20 @@
 *   **Failed Hypotheses Log:**
     *   Interacting with warps at (2, 13) and (3, 13) with 'A' button triggers exit. (Failed)
     *   Walking onto warp tile at (3, 13) triggers exit. (Failed)
-    *   Walking onto warp tile at (2, 13) triggers exit. (Failed)
-    *   An NPC has a clue for how to exit. (All NPCs spoken to, no clues)
-    *   The 'Left Their Drink' object at (12, 1) is a switch. (Interaction failed)
+    ## X. Puzzle Notes: Goldenrod Game Corner
+*   **Objective:** Find the exit.
+*   **Primary Hypothesis (Winning Trigger):** Achieving a win in one of the minigames (slots or card flip) is the trigger to activate the exit warps.
+*   **Alternative Hypotheses:**
+    1.  **Specific Game:** The trigger is specific to either slots or the card flip game.
+    2.  **Specific Payout:** A small win is insufficient; a large payout (e.g., 300 coins) is required.
+    3.  **External Trigger:** The trigger is an NPC interaction or event that only becomes available *after* playing/winning.
+    4.  **Hidden Switch (Re-evaluation):** A hidden switch may only become active after a game is played/won.
+*   **Failed Hypotheses Log:**
+    *   A hidden switch exists without any prior trigger. (Systematic search failed).
+    *   An NPC has a direct clue for the exit. (All NPCs spoken to, no clues).
+    *   Simply *playing* a game without winning is the trigger. (Failed).
+    *   Possessing a certain number of coins (>100) is the trigger. (Failed at Turn 27911).
+    *   Running out of coins is the trigger. (Confirmed to only exit the minigame, not the main room).
 
 ## XI. Tool Development Log
 *   **`get_next_search_target` Tool (Implemented Turn 27096):** Consolidated the functionality of the `find_reachable_interactable_tiles` tool, the `find_checked_tiles` tool, into a single, efficient tool. This replaces the previous cumbersome 3-turn process for systematic searches. The older tools and agent have been deprecated and deleted.
@@ -104,23 +115,3 @@
 *   **Trigger:** Repeated dialogue from POKEFAN_M at (2, 9) confirms he lost his COIN CASE in the Goldenrod Underground.
 *   **Decision:** The systematic 'A' button search is proving fruitless. The COIN CASE is the strongest lead. Pivoting primary goal to acquiring it.
 *   **New Plan:** Exit Game Corner, go to Underground, find COIN CASE, then return.
-
-## XIII. Game Corner Puzzle - Post-Reflection Hypotheses
-*   **Hypothesis 1 (Play Trigger - FAILED):** Simply playing a game (slot machine or card flip) is the trigger to activate the exit warps. (Test: Played slots, lost, warp at (2, 13) remained inactive).
-*   **Primary Hypothesis (Winning Trigger):** It is not enough to simply *play* a game; I must achieve a *win* or a specific payout.
-*   **Alternative Hypothesis (Specific Game):** The trigger could be specific to either the slot machines OR the card flip game. If winning at slots fails, I must test the card flip game.
-*   **Falsification Plan:** If winning at both types of games fails to activate the exit, this entire line of reasoning is likely incorrect, and the trigger must be something I have not yet considered.
-
-## XIV. Game Corner Puzzle - Minigame Hypotheses
-*   **Depletion Trigger (Confirmed for Minigame Exit):** Running out of coins is the confirmed trigger to exit the *slot machine minigame*. However, this action does NOT activate the main exit warps.
-
-## XV. Game Corner Puzzle - Alternative Hypotheses (Post-Reflection)
-*   **Coin Total Hypothesis:** The trigger is not winning, but possessing a certain number of coins (e.g., >100).
-*   **External Trigger Hypothesis:** The trigger is unrelated to the games and may involve a specific NPC interaction after playing, or an event in a different location entirely.
-*   **Hidden Switch Hypothesis:** The trigger is a hidden switch I missed during my initial systematic search.
-
-## XVI. Game Corner Puzzle - Post-Reflection Hypotheses (Turn 27823)
-*   **Coin Total Hypothesis:** The trigger is not winning, but possessing a certain number of coins (e.g., >100).
-*   **External Trigger Hypothesis:** The trigger is unrelated to the games and may involve a specific NPC interaction after playing, or an event in a different location entirely.
-*   **Hidden Switch Re-evaluation:** My initial systematic search for a hidden switch might have been flawed, and a switch might only become active *after* playing the games.
-*   **Coin Total Hypothesis (FAILED):** Possessing >100 coins is the trigger. (Test: Warp at (3, 13) remained inactive with 101 coins).
