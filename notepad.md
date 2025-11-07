@@ -98,7 +98,7 @@
     *   The 'Left Their Drink' object at (12, 1) is a switch. (Interaction failed)
 
 ## XI. Tool Development Log
-*   **`get_next_search_target` Tool (Implemented Turn 27096):** Consolidated the functionality of the `find_reachable_interactable_tiles` tool, the `find_checked_tiles` tool, and the `search_coordinator` agent into a single, efficient tool. This replaces the previous cumbersome 3-turn process for systematic searches. The older tools and agent have been deprecated and deleted.
+*   **`get_next_search_target` Tool (Implemented Turn 27096):** Consolidated the functionality of the `find_reachable_interactable_tiles` tool, the `find_checked_tiles` tool, into a single, efficient tool. This replaces the previous cumbersome 3-turn process for systematic searches. The older tools and agent have been deprecated and deleted.
 
 ## XII. Strategic Pivot: The Coin Case (Turn 27232)
 *   **Trigger:** Repeated dialogue from POKEFAN_M at (2, 9) confirms he lost his COIN CASE in the Goldenrod Underground.
