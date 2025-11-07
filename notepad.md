@@ -108,3 +108,9 @@
   - **Test (Turns 25010-25024):** Left the B1F, went to the elevator room, selected B1F, and returned.
   - **Result:** The room state did not change. The remaining boxes are in the same positions. Pathfinding to items confirms they are still unreachable.
   - **Conclusion:** Simply leaving and returning is not a repeatable trigger. The puzzle is more complex.
+
+## Goldenrod Dept. Store B1F Puzzle (Re-evaluation 4)
+- **Hypothesis 9 (FAILED):** After the Machoke evolution, a final trip via the elevator will solve the puzzle by removing all boxes.
+  - **Test (Turns 25050-25067):** Left and returned via the elevator.
+  - **Result:** The boxes disappeared visually, but the underlying tiles remain impassable WALLs, confirmed by multiple pathfinding failures.
+  - **Conclusion:** The puzzle is not solved. The visual change is a clue, not the solution. The underlying collision map is the source of truth.
