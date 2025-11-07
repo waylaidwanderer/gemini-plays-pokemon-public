@@ -131,3 +131,5 @@
 
 # Gym Information
 - **Goldenrod Gym:** Normal-type. Fighting-type moves are recommended.
+## Goldenrod City - Unexplored Warps
+- System alerted to an unmarked warp at (29, 5) on map 11_2. Need to investigate.
