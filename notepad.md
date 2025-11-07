@@ -31,30 +31,8 @@
 - **CRITICAL HALLUCINATION (Turn 11928):** Believed a warp to Dark Cave existed at (34, 5) on the VioletCity map (10_5). The system confirmed no warp exists there.
 - **Turn 24083:** Position mismatch. Believed I was at (25, 14) but was actually at (29, 11). This caused a failed navigation attempt.
 
-# Goldenrod City
-- Found the COIN CASE in the Underground at (7, 25) on map 3_53. I can now play games at the Game Corner.
-- **Turn 24348:** Major location hallucination. Believed I was in Goldenrod City (11_18) at (14, 22) and tried to path to a non-existent warp at (18, 27). Was actually still in the Goldenrod Game Corner (11_19) at (2, 13).
- (Observed in Goldenrod Dept. Store).
-
-# Goldenrod Dept. Store B1F Puzzle
-- **Observation:** The basement is a warehouse with boxes (WALL tiles) blocking paths to items.
-- **Hypothesis 1 (FAILED):** Interacting with the Machop at (7, 7) will trigger an event that moves the boxes.
-  - **Test (Turn 24418):** Spoke to the Machop at (7, 7).
-  - **Result:** It made a sound ('Maaacho!') but nothing else happened. The boxes did not move.
-  - **Conclusion:** Simple interaction is not the solution.
-- **Hypothesis 2 (FAILED):** The static Black Belt at (4, 8) can provide a clue or trigger the puzzle.
-  - **Test (Turn 24425):** Spoke to the Black Belt at (4, 8).
-  - **Result:** He said "I lose my passion for work if someone's watching. Come on, kid, scoot!". The boxes did not move.
-  - **Conclusion:** This NPC is not the solution.
-- **Hypothesis 3 (GAVE CLUE):** The moving Black Belt at (9, 11) provided a critical clue.
-  - **Test (Turn 24437):** Spoke to the Black Belt at (9, 11).
-  - **Result:** He said "Hey, kid! You're holding us up! Our policy is to work behind the scenes where no one can see us!".
-  - Hypothesis 4 (FAILED): Leaving and re-entering the basement will trigger an event that moves the boxes.
-  - **Test (Turn 24466):** Left the basement via the elevator and immediately returned.
-  - **Result:** The boxes and NPCs were in the same positions. Nothing changed.
-  - **Conclusion:** Simply re-loading the map is not the solution.
-- **Hypothesis 5:** I need to leave the basement, go to a *different* floor in the department store, and then return. This might be the correct trigger for the 'behind the scenes' event.
-- **Hypothesis 6 (Elevator Mechanics):** The elevator requires a two-step process. Step 1: Interact with the panel at (3, 0) to select a destination floor. Step 2: Manually walk onto one of the `WARP_CARPET_DOWN` tiles at (1, 3) or (2, 3) and press the corresponding direction (Down) to initiate travel.
+## Goldenrod Dept. Store B1F Puzzle
+- **Conclusion:** The puzzle is not solved. The visual disappearance of boxes was a red herring, as the underlying WALL tiles remain impassable. There is an undiscovered trigger for the final phase.
 
 ## Goldenrod Dept. Store B1F Puzzle (Re-evaluation)
 - **Hypothesis 5 (FAILED):** Interacting with the Machop in its second position (7, 7) will trigger the next puzzle event.
