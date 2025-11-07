@@ -152,3 +152,6 @@
 
 ## Pending Tests
 - **COUNTER**: Confirmed impassable. **Verified on turn 25624:** Attempted to path onto the COUNTER tile at (1, 4). The `path_and_execute` tool, which correctly identifies COUNTER as an impassable type, failed to generate a path *onto* the tile, instead routing to an adjacent tile. This confirms the tile is impassable.
+
+# Gym Information
+- **Goldenrod Gym:** Normal-type. Fighting-type moves are recommended.
