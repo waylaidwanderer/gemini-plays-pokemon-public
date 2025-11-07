@@ -112,7 +112,7 @@
 *   **New Plan:** Exit Game Corner, go to Underground, find COIN CASE, then return.
 
 ## XV. Game Corner Puzzle - Post-Reflection Hypotheses
-*   **Primary Hypothesis:** Playing a game (slot machine or card flip) is the trigger to activate the exit warps.
-*   **Alternative Hypothesis 1 (Winning Trigger):** It may not be enough to simply *play* a game; I might need to achieve a *win* or a specific payout.
-*   **Alternative Hypothesis 2 (Specific Game):** The trigger could be specific to either the slot machines OR the card flip game. If one fails, I must test the other.
-*   **Falsification Plan:** If interacting with and winning at both types of games fails to activate the exit, this entire line of reasoning is likely incorrect, and the trigger must be something I have not yet considered.
+*   **Hypothesis 1 (Play Trigger - FAILED):** Simply playing a game (slot machine or card flip) is the trigger to activate the exit warps. (Test: Played slots, lost, warp at (2, 13) remained inactive).
+*   **Primary Hypothesis (Winning Trigger):** It is not enough to simply *play* a game; I must achieve a *win* or a specific payout.
+*   **Alternative Hypothesis (Specific Game):** The trigger could be specific to either the slot machines OR the card flip game. If winning at slots fails, I must test the card flip game.
+*   **Falsification Plan:** If winning at both types of games fails to activate the exit, this entire line of reasoning is likely incorrect, and the trigger must be something I have not yet considered.
