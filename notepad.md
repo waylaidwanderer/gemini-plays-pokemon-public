@@ -95,3 +95,4 @@
 *   **Teleport Hypothesis (Failure):** The move TELEPORT cannot be used inside the Game Corner.
 *   **Step on Other Warp Tile Hypothesis (Failure):** Stepping on the warp at (3, 13) did not trigger an exit.
 *   **New Hypothesis (The Final Direction):** The `WARP_CARPET_DOWN` tile may require the player to be facing `down` to activate. This is the final testable hypothesis.
+*   **SOLUTION: Game Corner Exit:** The `WARP_CARPET_DOWN` tiles at (2, 13) and (3, 13) only activate if the player is standing on them and facing `down`.
