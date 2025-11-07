@@ -63,11 +63,6 @@
 *   Normal is NOT VERY EFFECTIVE against Rock/Ground.
 *   Water is SUPER-EFFECTIVE against Fire.
 
-## VII. Archived Notes & Disproven Hypotheses
-*   **Ilex Forest Farfetch'd Puzzle (Solved):** Solved by herding the Farfetch'd with a specific sequence of interactions and movements. Discovered a trigger path that resets the puzzle.
-*   **Goldenrod Game Corner Puzzle (Solved):** The `WARP_CARPET_DOWN` tiles at (2, 13) and (3, 13) only activate if the player is standing on them and facing `down`.
-*   **Goldenrod Flower Shop Puzzle (Solved):** The `flower_shop_escaper` tool, with a 500ms sleep delay, successfully bypassed the script that falsely blocked movement.
-
 ## IX. Strategic Pivot: The Coin Case (Turn 27232)
 *   **Trigger:** Repeated dialogue from POKEFAN_M at (2, 9) confirms he lost his COIN CASE in the Goldenrod Underground.
 *   **Decision:** This remains the strongest lead for an external trigger once an exit is found.
