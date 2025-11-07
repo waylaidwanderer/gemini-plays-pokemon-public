@@ -79,3 +79,12 @@
   - **Conclusion:** Simply re-loading the map is not the solution.
 - **Hypothesis 5:** I need to leave the basement, go to a *different* floor in the department store, and then return. This might be the correct trigger for the 'behind the scenes' event.
 - **Hypothesis 6 (Elevator Mechanics):** The elevator requires a two-step process. Step 1: Interact with the panel at (3, 0) to select a destination floor. Step 2: Manually walk onto one of the `WARP_CARPET_DOWN` tiles at (1, 3) or (2, 3) and press the corresponding direction (Down) to initiate travel.
+- **WARP_CARPET_UP**: Traversable warp. Activated by pressing Up.
+
+## Goldenrod Dept. Store B1F Puzzle (Re-evaluation)
+- **Hypothesis 5 (FAILED):** Interacting with the Machop in its second position (7, 7) will trigger the next puzzle event.
+  - **Test (Turn 24518):** Spoke to the Machop.
+  - **Result:** It only made a sound ('Maaacho!'). No boxes moved.
+- **Hypothesis 6 (FAILED):** Leaving the basement and returning a *second* time will trigger the final puzzle event.
+  - **Test (Turns 24519-24536):** Left the B1F, went to the elevator room, selected B1F, and returned.
+  - **Result:** The room state did not change. The remaining boxes and the Machop were in the same positions.
