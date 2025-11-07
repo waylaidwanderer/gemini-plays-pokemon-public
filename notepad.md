@@ -21,7 +21,7 @@
     *   LEDGE_HOP_LEFT: Can only be entered from the right.
 *   Special Interaction (Warp):
     *   CAVE: Can act as a one-way warp.
-    *   WARP_CARPET_DOWN: Traversable, but its warp function appears to require an external trigger. Simply walking on the tile is not enough to activate it.
+    *   WARP_CARPET_DOWN: Traversable. Its warp function only activates if the player is standing on the tile and facing down.
 *   Special Interaction (Interactable):
     *   PC: Interact by standing below it at (X, Y+1), facing up.
     *   COUNTER: Impassable. Can be interacted with from an adjacent tile to speak to NPCs. Some counters are disguised as game machines (slots, card flip) and interacting with them will start a minigame.
