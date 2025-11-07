@@ -192,6 +192,48 @@
       }
     ]
   },
+  "find_path_to_nearest_unseen": {
+    "description": "Finds the shortest path to a reachable tile that is adjacent to an unseen tile, automating systematic exploration.",
+    "input_schema": {},
+    "python_script": "import json\nimport xml.etree.ElementTree as ET\nfrom collections import deque\n\ndef find_path_to_nearest_unseen(map_xml_string, start_pos):\n    root = ET.fromstring(map_xml_string)\n    width = int(root.get('width'))\n    height = int(root.get('height'))\n\n    impassable_types = {'WALL', 'VOID', 'HEADBUTT_TREE', 'PC', 'TV', 'MART_SHELF', 'COUNTER', 'WATER', 'CUT_TREE'}\n    \n    tile_data = {}\n    all_unseen_coords = set()\n    for row in root.findall('Row'):\n        for tile in row.findall('Tile'):\n            coord = tuple(map(int, tile.get('coordinate')[1:-1].split(', ')))\n            seen_status = tile.get('seen')\n            if seen_status == 'false':\n                all_unseen_coords.add(coord)\n            \n            has_persistent_object = False\n            for marker in tile.findall('.//Marker'):\n                if marker.get('object_id') is not None:\n                    if marker.get('emoji') != '✅':\n                         has_persistent_object = True\n                         break\n            \n            tile_data[coord] = {\n                'type': tile.get('type'),\n                'has_object': tile.find('.//Object') is not None,\n                'has_persistent_object': has_persistent_object,\n                'seen': seen_status,\n                'is_warp': tile.get('is-warp') == 'true'\n            }\n\n    queue = deque([(start_pos, [start_pos])])\n    visited = {start_pos}\n\n    if not all_unseen_coords:\n        return []\n\n    while queue:\n        current_pos, path = queue.popleft()\n\n        is_frontier = False\n        for move in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n            adj_pos = (current_pos[0] + move[0], current_pos[1] + move[1])\n            if adj_pos in all_unseen_coords:\n                is_frontier = True\n                break\n        \n        if is_frontier:\n            return path\n\n        current_tile_type = tile_data[current_pos]['type']\n\n        for move in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n            if current_tile_type == 'FLOOR_UP_WALL' and move == (0, 1):\n                continue\n\n            next_pos = (current_pos[0] + move[0], current_pos[1] + move[1])\n\n            if next_pos in visited:\n                continue\n            \n            if not (0 <= next_pos[0] < width and 0 <= next_pos[1] < height):\n                continue\n\n            tile_info = tile_data.get(next_pos)\n            \n            if not tile_info or tile_info['seen'] == 'false':\n                continue\n            \n            if tile_info['type'] in impassable_types or tile_info['has_object'] or tile_info['has_persistent_object'] or tile_info['is_warp']:\n                continue\n\n            next_tile_type = tile_info.get('type')\n            if next_tile_type == 'LEDGE_HOP_DOWN' and move == (0, -1): continue\n            if next_tile_type == 'LEDGE_HOP_LEFT' and move == (1, 0): continue\n            if next_tile_type == 'LEDGE_HOP_RIGHT' and move == (-1, 0): continue\n            if next_tile_type == 'FLOOR_UP_WALL' and move == (0, 1): continue\n\n            visited.add(next_pos)\n            new_path = path + [next_pos]\n            queue.append((next_pos, new_path))\n\n    return []\n\nroot = ET.fromstring(map_xml_string)\nplayer_tile = root.find('.//Player/..')\nif player_tile is not None:\n    start_coord_str = player_tile.get('coordinate')\n    start_x, start_y = map(int, start_coord_str[1:-1].split(', '))\n    \n    path = find_path_to_nearest_unseen(map_xml_string, (start_x, start_y))\n    print(json.dumps([{'x': p[0], 'y': p[1]} for p in path]))\nelse:\n    print(json.dumps([]))",
+    "history": [
+      {
+        "commit_message": "feat: Create tool to find and path to the nearest unseen tile. This tool automates systematic exploration by first identifying all currently reachable tiles, then finding which of those are adjacent to unseen 'frontier' tiles, and finally calculating the shortest path to the closest one. This was created in response to a pathfinding failure caused by attempting to navigate across a largely unexplored map.",
+        "timestamp": "2025-11-07T20:57:54.122Z",
+        "action_counter": 26560
+      },
+      {
+        "commit_message": "fix: Unify BFS logic to correctly find frontier tiles. The previous three-stage algorithm failed to identify frontiers when the seen area was bordered by impassable tiles. This commit replaces it with a single, unified BFS that explores and checks for adjacent unseen tiles simultaneously, resolving the critical failure where the tool returned an empty path on an unexplored map.",
+        "timestamp": "2025-11-07T21:04:42.767Z",
+        "action_counter": 26564
+      },
+      {
+        "commit_message": "fix: Correct FLOOR_UP_WALL movement logic. The previous version incorrectly blocked downward movement onto these tiles. The fix removes this restriction, allowing the pathfinder to correctly navigate these one-way paths and find previously inaccessible frontiers. This resolves the critical failure where the tool returned an empty path on an unexplored map.",
+        "timestamp": "2025-11-07T21:10:34.604Z",
+        "action_counter": 26570
+      },
+      {
+        "commit_message": "fix: Correct FLOOR_UP_WALL logic to block downward movement. The previous versions incorrectly blocked upward movement onto the tile. This commit corrects the logic to check the source tile, preventing any downward movement from a `FLOOR_UP_WALL`, which accurately models its one-way ledge behavior and resolves the critical pathing failure.",
+        "timestamp": "2025-11-07T21:13:21.054Z",
+        "action_counter": 26573
+      },
+      {
+        "commit_message": "fix: Correct persistent object detection. The previous logic incorrectly assumed defeated trainers were not obstacles, causing pathing failures. This commit changes the logic to treat any object marker (except for '✅' item pickups) as an impassable wall, reflecting the in-game behavior.",
+        "timestamp": "2025-11-07T21:33:32.341Z",
+        "action_counter": 26604
+      },
+      {
+        "commit_message": "fix: Add rule to block downward movement onto FLOOR_UP_WALL. The tool generated an invalid path by attempting to move south from (5, 35) to (5, 36), which was blocked in-game. This commit adds a check on the destination tile type to prevent moving down onto a FLOOR_UP_WALL, resolving the critical pathing failure.",
+        "timestamp": "2025-11-07T21:39:55.362Z",
+        "action_counter": 26613
+      },
+      {
+        "commit_message": "refactor: Sync warp avoidance logic with path_and_execute. This ensures all pathfinding tools treat warp tiles as impassable obstacles, preventing accidental map transitions and ensuring consistent navigation behavior.",
+        "timestamp": "2025-11-07T22:13:01.579Z",
+        "action_counter": 26663
+      }
+    ]
+  },
   "find_truly_reachable_unseen_tiles": {
     "description": "Finds all unseen tiles that are truly reachable by being adjacent to a tile the player can currently stand on and are themselves traversable.",
     "input_schema": {},
@@ -712,48 +754,6 @@
         "commit_message": "fix: Correct NameError and add warp avoidance. The tool was crashing due to a typo. This commit fixes the typo and also proactively adds the warp avoidance logic from other pathfinding tools to ensure consistent, reliable navigation.",
         "timestamp": "2025-11-07T22:15:17.325Z",
         "action_counter": 26667
-      }
-    ]
-  },
-  "find_path_to_nearest_unseen": {
-    "description": "Finds the shortest path to a reachable tile that is adjacent to an unseen tile, automating systematic exploration.",
-    "input_schema": {},
-    "python_script": "import json\nimport xml.etree.ElementTree as ET\nfrom collections import deque\n\ndef find_path_to_nearest_unseen(map_xml_string, start_pos):\n    root = ET.fromstring(map_xml_string)\n    width = int(root.get('width'))\n    height = int(root.get('height'))\n\n    impassable_types = {'WALL', 'VOID', 'HEADBUTT_TREE', 'PC', 'TV', 'MART_SHELF', 'COUNTER', 'WATER', 'CUT_TREE'}\n    \n    tile_data = {}\n    all_unseen_coords = set()\n    for row in root.findall('Row'):\n        for tile in row.findall('Tile'):\n            coord = tuple(map(int, tile.get('coordinate')[1:-1].split(', ')))\n            seen_status = tile.get('seen')\n            if seen_status == 'false':\n                all_unseen_coords.add(coord)\n            \n            has_persistent_object = False\n            for marker in tile.findall('.//Marker'):\n                if marker.get('object_id') is not None:\n                    if marker.get('emoji') != '✅':\n                         has_persistent_object = True\n                         break\n            \n            tile_data[coord] = {\n                'type': tile.get('type'),\n                'has_object': tile.find('.//Object') is not None,\n                'has_persistent_object': has_persistent_object,\n                'seen': seen_status,\n                'is_warp': tile.get('is-warp') == 'true'\n            }\n\n    queue = deque([(start_pos, [start_pos])])\n    visited = {start_pos}\n\n    if not all_unseen_coords:\n        return []\n\n    while queue:\n        current_pos, path = queue.popleft()\n\n        is_frontier = False\n        for move in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n            adj_pos = (current_pos[0] + move[0], current_pos[1] + move[1])\n            if adj_pos in all_unseen_coords:\n                is_frontier = True\n                break\n        \n        if is_frontier:\n            return path\n\n        current_tile_type = tile_data[current_pos]['type']\n\n        for move in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n            if current_tile_type == 'FLOOR_UP_WALL' and move == (0, 1):\n                continue\n\n            next_pos = (current_pos[0] + move[0], current_pos[1] + move[1])\n\n            if next_pos in visited:\n                continue\n            \n            if not (0 <= next_pos[0] < width and 0 <= next_pos[1] < height):\n                continue\n\n            tile_info = tile_data.get(next_pos)\n            \n            if not tile_info or tile_info['seen'] == 'false':\n                continue\n            \n            if tile_info['type'] in impassable_types or tile_info['has_object'] or tile_info['has_persistent_object'] or tile_info['is_warp']:\n                continue\n\n            next_tile_type = tile_info.get('type')\n            if next_tile_type == 'LEDGE_HOP_DOWN' and move == (0, -1): continue\n            if next_tile_type == 'LEDGE_HOP_LEFT' and move == (1, 0): continue\n            if next_tile_type == 'LEDGE_HOP_RIGHT' and move == (-1, 0): continue\n            if next_tile_type == 'FLOOR_UP_WALL' and move == (0, 1): continue\n\n            visited.add(next_pos)\n            new_path = path + [next_pos]\n            queue.append((next_pos, new_path))\n\n    return []\n\nroot = ET.fromstring(map_xml_string)\nplayer_tile = root.find('.//Player/..')\nif player_tile is not None:\n    start_coord_str = player_tile.get('coordinate')\n    start_x, start_y = map(int, start_coord_str[1:-1].split(', '))\n    \n    path = find_path_to_nearest_unseen(map_xml_string, (start_x, start_y))\n    print(json.dumps([{'x': p[0], 'y': p[1]} for p in path]))\nelse:\n    print(json.dumps([]))",
-    "history": [
-      {
-        "commit_message": "feat: Create tool to find and path to the nearest unseen tile. This tool automates systematic exploration by first identifying all currently reachable tiles, then finding which of those are adjacent to unseen 'frontier' tiles, and finally calculating the shortest path to the closest one. This was created in response to a pathfinding failure caused by attempting to navigate across a largely unexplored map.",
-        "timestamp": "2025-11-07T20:57:54.122Z",
-        "action_counter": 26560
-      },
-      {
-        "commit_message": "fix: Unify BFS logic to correctly find frontier tiles. The previous three-stage algorithm failed to identify frontiers when the seen area was bordered by impassable tiles. This commit replaces it with a single, unified BFS that explores and checks for adjacent unseen tiles simultaneously, resolving the critical failure where the tool returned an empty path on an unexplored map.",
-        "timestamp": "2025-11-07T21:04:42.767Z",
-        "action_counter": 26564
-      },
-      {
-        "commit_message": "fix: Correct FLOOR_UP_WALL movement logic. The previous version incorrectly blocked downward movement onto these tiles. The fix removes this restriction, allowing the pathfinder to correctly navigate these one-way paths and find previously inaccessible frontiers. This resolves the critical failure where the tool returned an empty path on an unexplored map.",
-        "timestamp": "2025-11-07T21:10:34.604Z",
-        "action_counter": 26570
-      },
-      {
-        "commit_message": "fix: Correct FLOOR_UP_WALL logic to block downward movement. The previous versions incorrectly blocked upward movement onto the tile. This commit corrects the logic to check the source tile, preventing any downward movement from a `FLOOR_UP_WALL`, which accurately models its one-way ledge behavior and resolves the critical pathing failure.",
-        "timestamp": "2025-11-07T21:13:21.054Z",
-        "action_counter": 26573
-      },
-      {
-        "commit_message": "fix: Correct persistent object detection. The previous logic incorrectly assumed defeated trainers were not obstacles, causing pathing failures. This commit changes the logic to treat any object marker (except for '✅' item pickups) as an impassable wall, reflecting the in-game behavior.",
-        "timestamp": "2025-11-07T21:33:32.341Z",
-        "action_counter": 26604
-      },
-      {
-        "commit_message": "fix: Add rule to block downward movement onto FLOOR_UP_WALL. The tool generated an invalid path by attempting to move south from (5, 35) to (5, 36), which was blocked in-game. This commit adds a check on the destination tile type to prevent moving down onto a FLOOR_UP_WALL, resolving the critical pathing failure.",
-        "timestamp": "2025-11-07T21:39:55.362Z",
-        "action_counter": 26613
-      },
-      {
-        "commit_message": "refactor: Sync warp avoidance logic with path_and_execute. This ensures all pathfinding tools treat warp tiles as impassable obstacles, preventing accidental map transitions and ensuring consistent navigation behavior.",
-        "timestamp": "2025-11-07T22:13:01.579Z",
-        "action_counter": 26663
       }
     ]
   }

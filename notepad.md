@@ -101,3 +101,10 @@
 
 ## Known Bugs / Strange Mechanics
 - **Item Tossing Bug:** Attempting to 'TOSS' a single-stack item (e.g., BERRY x1) from the bag menu fails and resets the menu. Tossing one item from a multi-item stack (e.g., POTION x9 -> x8) also fails to free an inventory slot. The only confirmed way to free a slot is to have a Pokémon 'HOLD' a single-stack item.
+
+# Plan: Obtain SQUIRT BOTTLE
+1. Exit National Park to the south, returning to Route 35.
+2. Travel south on Route 35 to the Route 35 Goldenrod Gate.
+3. Enter Goldenrod City.
+4. Navigate to the Goldenrod Flower Shop at coordinates (29, 5).
+5. Speak to the NPC inside to receive the SQUIRT BOTTLE.
