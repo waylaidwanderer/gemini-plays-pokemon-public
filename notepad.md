@@ -54,15 +54,25 @@
 ## VI. Failed Hypotheses & Corrections
 *   **Trigger Path Hypothesis (Failed):** My hypothesis that walking from (26, 24) to (20, 24) would make the Farfetch'd reappear at (15, 25) was incorrect. Instead, walking this path caused the entire puzzle to reset, with the Farfetch'd returning to its starting position at (29, 22). This implies an unknown reset trigger exists along that path.
 
-## VII. Archived Puzzle Notes
+## VII. Battle Knowledge
+### Verified Type Matchups
+*   Fire is SUPER-EFFECTIVE against Bug.
+*   Fire is SUPER-EFFECTIVE against Grass.
+*   Fire is NOT VERY EFFECTIVE against Water.
+*   Fire is NOT VERY EFFECTIVE against Ground.
+*   Fire is NOT VERY EFFECTIVE against Rock.
+*   Fire is NOT VERY EFFECTIVE against Fire.
+*   Ground is SUPER-EFFECTIVE against Fire.
+*   Ghost has NO EFFECT on Normal.
+*   Normal has NO EFFECT on Ghost.
+*   Grass is NOT VERY EFFECTIVE against Poison.
+*   Normal is NOT VERY EFFECTIVE against Rock/Ground.
+*   Water is SUPER-EFFECTIVE against Fire.
 
-### Goldenrod Game Corner
-*   **Summary:** I was trapped in the Game Corner because the exit warps were inactive.
-*   **Solution:** The `WARP_CARPET_DOWN` tiles at (2, 13) and (3, 13) only activate if the player is standing on them and facing `down`.
-
-### Goldenrod Flower Shop
-*   **Paradox:** A script falsely reported movement was blocked and truncated all movement inputs.
-*   **Solution:** A preliminary side-step was required to break the script's trigger condition. Moving from (1,1) to (0,1) and back to (1,1) allowed downward movement.
+## VIII. Archived Notes & Disproven Hypotheses
+*   **Goldenrod Game Corner Puzzle (Solved):** The `WARP_CARPET_DOWN` tiles at (2, 13) and (3, 13) only activate if the player is standing on them and facing `down`.
+*   **Goldenrod Flower Shop Puzzle (Solved):** The `flower_shop_escaper` tool, with a 500ms sleep delay between each button press, successfully bypassed the script interruption that falsely reported movement was blocked.
+*   **Trigger Path Hypothesis (Failed):** My hypothesis that walking from (26, 24) to (20, 24) would make the Farfetch'd reappear at (15, 25) was incorrect. Instead, walking this path caused the entire puzzle to reset, with the Farfetch'd returning to its starting position at (29, 22). This implies an unknown reset trigger exists along that path.
 
 ## IX. Strategic Pivot: The Coin Case (Turn 27232)
 *   **Trigger:** Repeated dialogue from POKEFAN_M at (2, 9) confirms he lost his COIN CASE in the Goldenrod Underground.
