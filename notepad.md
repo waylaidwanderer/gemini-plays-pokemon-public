@@ -88,13 +88,6 @@
 
 ## X. Puzzle Notes: Goldenrod Game Corner
 *   **Objective:** Find the exit.
-*   **Current Hypothesis:** A hidden switch exists in the southern, reachable area, triggered by an 'A' button press.
-*   **Systematic Search Plan:** I am systematically checking every reachable tile adjacent to an impassable object (WALL, COUNTER, etc.) and marking progress with map markers.
-*   **Failed Hypotheses Log:**
-    *   Interacting with warps at (2, 13) and (3, 13) with 'A' button triggers exit. (Failed)
-    *   Walking onto warp tile at (3, 13) triggers exit. (Failed)
-    ## X. Puzzle Notes: Goldenrod Game Corner
-*   **Objective:** Find the exit.
 *   **Primary Hypothesis (Winning Trigger):** Achieving a win in one of the minigames (slots or card flip) is the trigger to activate the exit warps.
 *   **Alternative Hypotheses:**
     1.  **Specific Game:** The trigger is specific to either slots or the card flip game.
