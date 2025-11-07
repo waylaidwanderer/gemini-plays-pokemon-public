@@ -63,4 +63,3 @@
 
 ## Side Quests
 - GINA on Route 34 has an item for me. (Re-added after accidental deletion)
-- **WARP_CARPET_DOWN**: Traversable warp. Activated by pressing Down. Observed in National Park.
