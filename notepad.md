@@ -52,12 +52,6 @@
   - **Result:** The room state did not change. The remaining boxes are in the same positions. Pathfinding to items confirms they are still unreachable.
   - **Conclusion:** Simply leaving and returning is not a repeatable trigger. The puzzle is more complex.
 
-## Goldenrod Dept. Store B1F Puzzle (Re-evaluation 4)
-- **Hypothesis 9 (FAILED):** After the Machoke evolution, a final trip via the elevator will solve the puzzle by removing all boxes.
-  - **Test (Turns 25050-25067):** Left and returned via the elevator.
-  - **Result:** The boxes disappeared visually, but the underlying tiles remain impassable WALLs, confirmed by multiple pathfinding failures.
-  - **Conclusion:** The puzzle is not solved. The visual change is a clue, not the solution. The underlying collision map is the source of truth.
-
 ## Day-Care & Unown
 - The Day-Care Lady on Route 34 mentioned my 'Glyph' has 'grown a lot'. This dialogue triggered even without an Unown in my party, suggesting it's tied to the Pokedex entry for Unown. She seems connected to the Ruins of Alph mystery.
 
