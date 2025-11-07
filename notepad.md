@@ -42,9 +42,6 @@
   - **Test (Turns 24519-24536):** Left the B1F, went to the elevator room, selected B1F, and returned.
   - **Result:** The room state did not change. The remaining boxes and the Machop were in the same positions.
 
-## Evolution Methods
-- Some POKEMON evolve only by being traded: MACHOKE, KADABRA, HAUNTER, and GRAVELER.
-
 ## Goldenrod Dept. Store B1F Puzzle (Re-evaluation 2)
 - **Observation:** Using the elevator to travel between floors triggered a puzzle event. This event did not move any boxes, but instead spawned two new item balls at (10, 15) and (15, 15).
 - **Verification:** Pathfinding attempts to both new items have failed, confirming they are currently unreachable. The central path opened at (10, 9) does not connect to the southern area where the items spawned.
