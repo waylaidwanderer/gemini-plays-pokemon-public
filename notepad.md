@@ -106,12 +106,6 @@
 ## XII. Tool Development Log
 *   **`get_next_search_target` Tool (Implemented Turn 27096):** Consolidated the functionality of the `find_reachable_interactable_tiles` tool, the `find_checked_tiles` tool, and the `search_coordinator` agent into a single, efficient tool. This replaces the previous cumbersome 3-turn process for systematic searches. The older tools and agent have been deprecated and deleted.
 
-## XIII. Goldenrod Game Corner - Alternative Hypotheses (Post-Reflection)
-*   **Confirmation Bias Identified:** My search has exclusively tested for an 'A' button interaction. This is too narrow.
-*   **Hypothesis 2 (Movement Trigger):** The exit may be triggered by a specific movement pattern on the floor, not an interaction. Test: After exhausting 'A' presses, perform a serpentine walk over every single floor tile.
-*   **Hypothesis 3 (Game Win Trigger):** The puzzle may require winning at either the slot machines or the card flip game to trigger an NPC state change or activate the exit. Test: If the systematic search fails, attempt to win at both games.
-*   **Hypothesis 4 (External Prerequisite):** The puzzle may be unsolvable without an item or event from outside. The POKEFAN_M mentioned losing his COIN CASE in the Goldenrod Underground. This remains the strongest lead if all in-room tests fail, implying there *must* be an exit I've overlooked.
-
 ## XIV. Strategic Pivot: The Coin Case (Turn 27232)
 *   **Trigger:** Repeated dialogue from POKEFAN_M at (2, 9) confirms he lost his COIN CASE in the Goldenrod Underground.
 *   **Decision:** The systematic 'A' button search is proving fruitless. The COIN CASE is the strongest lead. Pivoting primary goal to acquiring it.
