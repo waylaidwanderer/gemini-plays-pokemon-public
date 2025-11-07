@@ -118,15 +118,3 @@
 ## XI. Tool Performance Notes
 *   `path_finder` Limitation: The tool previously considered any tile with an object to be impassable. (FIXED - Turn 29314: Tool now paths to adjacent tiles for impassable targets.)
 *   **To-Do:** Test `TALL_GRASS` and `LONG_GRASS` tiles on Route 35 as soon as they are accessible.
-
-## VII. Battle Knowledge
-### Verified Type Matchups
-*   Fire is SUPER-EFFECTIVE against Bug.
-*   Fire is SUPER-EFFECTIVE against Grass.
-*   Fire is NOT VERY EFFECTIVE against Water, Ground, Rock, Fire.
-*   Ground is SUPER-EFFECTIVE against Fire.
-*   Ghost has NO EFFECT on Normal.
-*   Normal has NO EFFECT on Ghost.
-*   Grass is NOT VERY EFFECTIVE against Poison.
-*   Normal is NOT VERY EFFECTIVE against Rock/Ground.
-*   Water is SUPER-EFFECTIVE against Fire.
