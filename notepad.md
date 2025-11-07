@@ -66,4 +66,8 @@
   - **Test (Turn 24418):** Spoke to the Machop at (7, 7).
   - **Result:** It made a sound ('Maaacho!') but nothing else happened. The boxes did not move.
   - **Conclusion:** Simple interaction is not the solution.
-- **Hypothesis 2:** One of the Black Belt NPCs on this floor can provide a clue or trigger the puzzle.
+- **Hypothesis 2 (FAILED):** The static Black Belt at (4, 8) can provide a clue or trigger the puzzle.
+  - **Test (Turn 24425):** Spoke to the Black Belt at (4, 8).
+  - **Result:** He said "I lose my passion for work if someone's watching. Come on, kid, scoot!". The boxes did not move.
+  - **Conclusion:** This NPC is not the solution.
+- **Hypothesis 3:** The moving Black Belt at (9, 10) can provide a clue or trigger the puzzle.
