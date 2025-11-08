@@ -57,9 +57,10 @@
 - **New Principle:** Before relying on a complex tool for a critical task, I must first build and use diagnostic tools to verify its core logic. For pathfinding, this means creating a tool to visualize the algorithm's understanding of the map (`find_all_reachable_tiles`). This will allow me to identify and fix logical errors in a controlled way, rather than discovering them through trial-and-error during gameplay.
 - **Correction (Turn 26941):** My previous diagnoses of `find_path_to_nearest_unseen` and `path_and_execute` being faulty were incorrect. The tools were functioning as designed. The errors stemmed from my misinterpretation of the output and incorrect manual pathing attempts. This highlights the critical need to trust my tools and carefully verify my own actions before assuming a tool is broken.
 
-## Respawning Obstacles (CRITICAL DISCOVERY)
-- **Observation (Turn 26648):** The `CUT_TREE` at (8, 25) in Ilex Forest, which was previously removed to solve the Farfetch'd puzzle, has respawned.
-- **Conclusion:** Obstacles cleared with HMs like CUT are not permanently removed and may reappear after leaving and re-entering an area. This must be considered for all future path planning.
+## Respawning Obstacles (CONFIRMED MECHANIC)
+- **Initial Observation (Turn 26648):** The `CUT_TREE` at (8, 25) in Ilex Forest, which was previously removed, respawned after re-entering the area.
+- **Confirmation (Turn 27669):** The `CUT_TREE` at (13, 5) on Route 31, which was also previously removed, has respawned.
+- **Conclusion:** Obstacles cleared with HMs like CUT are not permanently removed. They respawn when re-entering a map. This is a consistent game mechanic and must be factored into all future path planning. My pathfinding tools must always treat `CUT_TREE` tiles as impassable unless I have just cut them in the current session on the map.
 
 ## Goldenrod Flower Shop Tile Mechanics
 - **WARP_CARPET_DOWN**: Can be a bidirectional warp, unlike the one-way exit previously discovered. This suggests the tile's function can vary by location.
