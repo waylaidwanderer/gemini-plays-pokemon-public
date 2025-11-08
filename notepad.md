@@ -134,3 +134,9 @@
 - **Test 1 (Turn 29321):** Moved from (1, 4) to (2, 4). Result: Move successful. The tile is traversable.
 - **Test 2 (Turn 29327):** Moved from (5, 5) to (5, 4). Result: Move successful. The tile is traversable.
 - **Conclusion:** Visual sprites do not always indicate impassable terrain. The tile's `type` attribute is the source of truth.
+
+## Day-Care Mystery (Route 34)
+- **Initial Observation:** Day-Care Man and Woman mentioned my Unown 'O' and something called 'Glyph' despite me never depositing 'O'.
+- **Test 1 (Interaction):** Interacted with the Pokémon in the yard at (14, 18).
+- **Result:** Dialogue appeared: "It's O that was left with the DAY-CARE MAN. It has no interest in Glyph."
+- **Conclusion:** The Pokémon in the yard are directly linked to this mystery. This strongly supports the hypothesis that the dialogue is about my Unown.
