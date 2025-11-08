@@ -790,5 +790,21 @@
         "action_counter": 27932
       }
     ]
+  },
+  "find_unseen_tiles": {
+    "description": "Parses the map_xml_string to find all tiles with seen=\"false\" and returns their coordinates as a JSON list.",
+    "input_schema": {
+      "type": "object",
+      "properties": {},
+      "required": []
+    },
+    "python_script": "import json\nimport xml.etree.ElementTree as ET\n\nunseen_tiles = []\nroot = ET.fromstring(map_xml_string)\nfor tile in root.findall('.//Tile[@seen=\"false\"]'):\n    coord_str = tile.get('coordinate')\n    x, y = map(int, coord_str[1:-1].split(', '))\n    unseen_tiles.append({'x': x, 'y': y})\n\nprint(json.dumps(unseen_tiles))",
+    "history": [
+      {
+        "commit_message": "feat: Create tool to extract unseen tile coordinates. This tool parses the map XML and returns a structured list of unseen tile coordinates, enabling agents like 'exploration_strategist' to perform strategic analysis without handling raw data, resolving a critical agent misuse error.",
+        "timestamp": "2025-11-08T10:30:32.824Z",
+        "action_counter": 27995
+      }
+    ]
   }
 }

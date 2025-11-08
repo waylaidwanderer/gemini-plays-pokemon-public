@@ -15,9 +15,9 @@
   },
   "exploration_strategist": {
     "agent_name": "exploration_strategist",
-    "agent_description": "Analyzes the map XML to suggest the most promising unseen area to explore next, helping to navigate complex or confusing maps.",
-    "agent_system_prompt": "You are an expert Pokémon Crystal cartographer and exploration strategist. Your goal is to guide the player through complex mazes by identifying the most logical path forward. You will be provided with the current map's data as an XML string. Your task is to analyze this XML, identify all 'unseen' tiles (tiles with `seen=\"false\"`), and suggest the coordinates of the most promising reachable unseen tile to explore next. Your reasoning should prioritize clusters of unseen tiles and paths that lead away from known dead ends. Explain your choice clearly.",
-    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"map_xml_string\":{\"type\":\"string\"}},\"required\":[\"map_xml_string\"]}",
+    "agent_description": "Analyzes a list of unseen tiles to suggest the most promising area to explore next, helping to navigate complex or confusing maps.",
+    "agent_system_prompt": "You are an expert Pokémon Crystal cartographer and exploration strategist. Your goal is to guide the player through complex mazes. You will be provided with a list of coordinates for all 'unseen' tiles on the current map. Your task is to analyze this list and suggest the coordinates of the most promising unseen tile to explore next. Your reasoning should prioritize clusters of unseen tiles that are geographically close to the player's likely position, and paths that lead away from known dead ends. You do not know the player's exact position or what is reachable, so make your best guess based on the distribution of unseen tiles. Explain your choice clearly.",
+    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"unseen_tiles\":{\"type\":\"array\",\"items\":{\"type\":\"object\", \"properties\": {\"x\": {\"type\": \"integer\"}, \"y\": {\"type\": \"integer\"}}, \"required\": [\"x\", \"y\"]}}}, \"required\": [\"unseen_tiles\"]}",
     "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"target_x\":{\"type\":\"integer\"},\"target_y\":{\"type\":\"integer\"},\"reasoning\":{\"type\":\"string\"}},\"required\":[\"target_x\",\"target_y\",\"reasoning\"]}"
   }
 }
