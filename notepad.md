@@ -126,3 +126,12 @@
 ## Route 36 National Park Gate Tile Mechanics
 - **FLOOR**: Traversable. Verified in the gatehouse.
 - **COUNTER**: Impassable. Verified in the gatehouse.
+
+# Reflection Turn 27286 Notes
+- **Notepad Cleanup:** Duplicate entry for "Route 36 National Park Gate Tile Mechanics" needs to be removed later.
+- **New Tile Mechanics from Route 36:**
+  - **WARP_CARPET_LEFT**: Traversable warp. Activated by pressing Left. Verified on Route 36.
+  - **WARP_CARPET_DOWN**: Traversable warp. Verified on Route 36 at Ruins of Alph entrance.
+- **Untested Assumption:** The WEIRD_TREE respawned because some obstacles in the game are not permanent.
+  - **Alternative Hypothesis:** The tree's respawn is a one-time event tied to Floria's dialogue.
+  - **Test to Falsify:** After clearing the tree, leave and return to Route 36 to check for respawn.
