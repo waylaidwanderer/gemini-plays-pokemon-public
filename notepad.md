@@ -125,3 +125,7 @@
 - **FLOOR**: Traversable. Verified in National Park.
 - **LONG_GRASS**: Traversable, triggers wild encounters. Verified in National Park.
 - **TALL_GRASS**: Traversable, triggers wild encounters. Verified in National Park.
+
+## Route 36 National Park Gate Tile Mechanics
+- **FLOOR**: Traversable. Verified in the gatehouse.
+- **COUNTER**: Impassable. Verified in the gatehouse.
