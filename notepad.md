@@ -3,17 +3,18 @@
 ## Tile Traversal Rules
 - **Impassable:** BOOKSHELF, BUOY (assumed), COUNTER, CUT_TREE, HEADBUTT_TREE, INCENSE_BURNER, MART_SHELF, PC, PILLAR (usually), RADIO, TOWN_MAP, TV, VOID, WALL, WATER, WINDOW.
 - **Traversable:** FLOOR, GRASS, LONG_GRASS, TALL_GRASS, UNKNOWN.
-- **One-Way:** LEDGE_HOP (directional).
-- **One-Way (Upward Ledge):** FLOOR_UP_WALL (cannot be moved *down from* this tile, and cannot be moved *down onto* this tile).
+- **One-Way (Ledges):**
+  - LEDGE_HOP: General one-way tile.
+  - FLOOR_UP_WALL: Cannot be moved *down from* this tile, and cannot be moved *down onto* this tile.
 - **Warps (Directional/Conditional):**
-  - CAVE: Standard warp.
-  - DOOR: Standard warp, sometimes conditional.
-  - LADDER: Directional warp (requires facing).
-  - WARP_CARPET: General directional warp.
-  - WARP_CARPET_UP: Directional, moves player up a floor.
-  - WARP_CARPET_DOWN: Directional, moves player down a floor. Can be one-way and may require pressing 'Down' to activate.
-  - WARP_CARPET_LEFT: Directional, moves player left.
-  - WARP_CARPET_RIGHT: Directional, moves player right.
+  - CAVE: Standard warp point.
+  - DOOR: Standard warp, sometimes conditional based on story events.
+  - LADDER: Directional warp that requires facing the ladder to use.
+  - WARP_CARPET: General directional warp mat.
+  - WARP_CARPET_UP: Moves player up one floor.
+  - WARP_CARPET_DOWN: Moves player down one floor. Can be one-way and may require pressing 'Down' to activate.
+  - WARP_CARPET_LEFT: Moves player left.
+  - WARP_CARPET_RIGHT: Moves player right.
 
 ## Evolution Methods
 - Some POKEMON evolve only by being traded: MACHOKE, KADABRA, HAUNTER, and GRAVELER.
