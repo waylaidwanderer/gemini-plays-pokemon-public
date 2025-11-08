@@ -71,6 +71,7 @@
 - **Problem:** My `path_and_execute` tool has failed repeatedly, causing movement blockages and wasted turns. My approach of fixing bugs reactively is inefficient.
 - **Solution:** I must adopt a proactive, test-driven approach to tool development.
 - **New Principle:** Before relying on a complex tool for a critical task, I must first build and use diagnostic tools to verify its core logic. For pathfinding, this means creating a tool to visualize the algorithm's understanding of the map (`find_all_reachable_tiles`). This will allow me to identify and fix logical errors in a controlled way, rather than discovering them through trial-and-error during gameplay.
+- **Correction (Turn 26941):** My previous diagnoses of `find_path_to_nearest_unseen` and `path_and_execute` being faulty were incorrect. The tools were functioning as designed. The errors stemmed from my misinterpretation of the output and incorrect manual pathing attempts. This highlights the critical need to trust my tools and carefully verify my own actions before assuming a tool is broken.
 
 ## Route 36 Tile Mechanics
 - **FLOOR**: Traversable. Verified on Route 36.
