@@ -204,3 +204,5 @@
 - **WALL**: Impassable. Verified on Route 34.
 - **TALL_GRASS**: Traversable, triggers wild encounters. Verified on Route 34.
 - **WARP_CARPET_DOWN**: Traversable warp. Verified on Route 34.
+- **WATER**: Impassable. Assumed based on consistent behavior.
+- **HEADBUTT_TREE**: Impassable. Assumed based on consistent behavior.
