@@ -20,16 +20,6 @@
 
 # Location Specific Mechanics
 
-## DayCare Tile Mechanics
-- **WALL**: Impassable.
-- **TOWN_MAP**: Impassable.
-- **WINDOW**: Impassable.
-- **BOOKSHELF**: Impassable.
-- **FLOOR**: Traversable.
-- **PC**: Impassable.
-- **WARP_CARPET_LEFT**: Traversable warp.
-- **WARP_CARPET_DOWN**: Traversable warp.
-
 ## Ilex Forest Tile Mechanics
 - **FLOOR**: Traversable.
 - **WALL**: Impassable.
