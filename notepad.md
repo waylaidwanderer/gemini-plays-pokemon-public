@@ -127,3 +127,10 @@
 
 # Key Items
 - BICYCLE: Received from the Goldenrod Bike Shop owner. Allows for faster travel.
+
+## Day-Care Tile Test (SOLVED)
+- **System Critique:** Suggested testing 'TABLE' and 'PLANT' tiles.
+- **Observation:** Tiles at (2, 4) and (5, 4) have table/plant sprites but are listed as 'FLOOR' in map data.
+- **Test 1 (Turn 29321):** Moved from (1, 4) to (2, 4).
+- **Result:** Move successful. The tile is traversable.
+- **Conclusion:** Visual sprites do not always indicate impassable terrain. The tile's `type` attribute is the source of truth.
