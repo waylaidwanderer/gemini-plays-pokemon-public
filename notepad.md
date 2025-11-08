@@ -153,3 +153,6 @@
 ---
 
 # Appendix: Solved Puzzles & Lessons Learned
+
+## Goldenrod Dept. Store B1F Puzzle
+- **Conclusion:** The puzzle was solved by repeatedly using the elevator to leave and re-enter the basement, which triggered box movements. A final interaction with the Machop completed the sequence, although a visual bug left impassable collision where the boxes used to be.
