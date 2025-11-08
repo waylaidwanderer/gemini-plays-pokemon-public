@@ -3,7 +3,7 @@
 ## Tile Traversal Rules
 - **Impassable:** BOOKSHELF, BUOY (assumed), COUNTER, CUT_TREE, HEADBUTT_TREE, INCENSE_BURNER, MART_SHELF, PC, PILLAR (usually), RADIO, TOWN_MAP, TV, VOID, WALL, WATER, WINDOW.
 - **Traversable:** FLOOR, GRASS, LONG_GRASS, TALL_GRASS, UNKNOWN.
-- **Warps:** CAVE, DOOR (conditional), LADDER (directional), WARP_CARPET (directional), WARP_CARPET_UP (directional), WARP_CARPET_DOWN (directional, sometimes one-way, may require pressing 'Down' to activate), WARP_CARPET_RIGHT (directional).
+- **Warps:** CAVE, DOOR (conditional), LADDER (directional), WARP_CARPET (directional), WARP_CARPET_UP (directional), WARP_CARPET_DOWN (directional, sometimes one-way, may require pressing 'Down' to activate), WARP_CARPET_RIGHT (directional), WARP_CARPET_LEFT (directional).
 - **One-Way:** LEDGE_HOP (directional).
 - **One-Way (Upward Ledge):** FLOOR_UP_WALL (cannot be moved *down from* this tile, and cannot be moved *down onto* this tile).
 
@@ -66,12 +66,6 @@
 - **New Principle:** Before relying on a complex tool for a critical task, I must first build and use diagnostic tools to verify its core logic. For pathfinding, this means creating a tool to visualize the algorithm's understanding of the map (`find_all_reachable_tiles`). This will allow me to identify and fix logical errors in a controlled way, rather than discovering them through trial-and-error during gameplay.
 - **Correction (Turn 26941):** My previous diagnoses of `find_path_to_nearest_unseen` and `path_and_execute` being faulty were incorrect. The tools were functioning as designed. The errors stemmed from my misinterpretation of the output and incorrect manual pathing attempts. This highlights the critical need to trust my tools and carefully verify my own actions before assuming a tool is broken.
 
-## Route 36 Tile Mechanics
-- **FLOOR**: Traversable. Verified on Route 36.
-- **WALL**: Impassable. Verified on Route 36.
-- **HEADBUTT_TREE**: Impassable. Verified on Route 36.
-- **TALL_GRASS**: Traversable, triggers wild encounters. Verified on Route 36.
-
 ## Respawning Obstacles (CRITICAL DISCOVERY)
 - **Observation (Turn 26648):** The `CUT_TREE` at (8, 25) in Ilex Forest, which was previously removed to solve the Farfetch'd puzzle, has respawned.
 - **Conclusion:** Obstacles cleared with HMs like CUT are not permanently removed and may reappear after leaving and re-entering an area. This must be considered for all future path planning.
@@ -120,20 +114,12 @@
   - **Alternative Hypothesis:** Participation or victory in the contest might be required to unlock the path forward.
   - **Test to Falsify:** If my progress through the National Park is blocked, I will return and attempt to join the contest to see if it triggers a story event.
 
-# Reflection Turn 27286 Notes
-- **New Tile Mechanics from Route 36:**
-  - **WARP_CARPET_LEFT**: Traversable warp. Activated by pressing Left. Verified on Route 36.
-  - **WARP_CARPET_DOWN**: Traversable warp. Verified on Route 36 at Ruins of Alph entrance.
-- **Untested Assumption:** The WEIRD_TREE respawned because some obstacles in the game are not permanent.
-  - **Alternative Hypothesis:** The tree's respawn is a one-time event tied to Floria's dialogue.
-  - **Test to Falsify:** After clearing the tree, leave and return to Route 36 to check for respawn.
-
-## Route 36 Tile Mechanics (Re-verification)
-- **FLOOR**: Traversable.
-- **WALL**: Impassable.
-- **HEADBUTT_TREE**: Impassable.
-- **TALL_GRASS**: Traversable, triggers wild encounters.
-- **WARP_CARPET_LEFT**: Traversable warp.
-- **WARP_CARPET_DOWN**: Traversable warp.
+## Route 36 Tile Mechanics
+- **FLOOR**: Traversable. Verified on Route 36.
+- **WALL**: Impassable. Verified on Route 36.
+- **HEADBUTT_TREE**: Impassable. Verified on Route 36.
+- **TALL_GRASS**: Traversable, triggers wild encounters. Verified on Route 36.
+- **WARP_CARPET_LEFT**: Traversable warp. Activated by pressing Left.
+- **WARP_CARPET_DOWN**: Traversable warp. Verified on Route 36 at Ruins of Alph entrance.
 - **DOOR**: Present at (47, 17), function unverified.
 - **FLOOR_UP_WALL**: Present from (51, 16) to (53, 16), likely one-way ledges.
