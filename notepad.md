@@ -20,19 +20,6 @@
 
 # Location Specific Mechanics
 
-## Ilex Forest Tile Mechanics
-- **FLOOR**: Traversable.
-- **WALL**: Impassable.
-- **HEADBUTT_TREE**: Impassable.
-- **WATER**: Impassable.
-- **DOOR**: Traversable warp.
-- **WARP_CARPET_RIGHT**: Traversable warp.
-- **LEDGE_HOP_DOWN**: One-way traversal.
-- **LEDGE_HOP_LEFT**: One-way traversal.
-- **LEDGE_HOP_RIGHT**: One-way traversal.
-- **VOID**: Impassable.
-- **CUT_TREE**: Impassable (respawns).
-
 ## Route 32 Tile Mechanics
 - **FLOOR**: Traversable.
 - **WALL**: Impassable.
