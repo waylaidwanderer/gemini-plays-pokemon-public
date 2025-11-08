@@ -155,3 +155,7 @@
 - **PC**: Impassable. Verified in Route 36 National Park Gate.
 - **WARP_CARPET_LEFT**: Traversable warp. Activated by pressing Left. Verified in Route 36 National Park Gate.
 - **WARP_CARPET_RIGHT**: Traversable warp. Activated by pressing Right. Verified in Route 36 National Park Gate.
+
+---
+
+# Appendix: Solved Puzzles & Lessons Learned
