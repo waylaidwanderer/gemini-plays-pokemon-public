@@ -11,6 +11,8 @@
 - Some POKEMON evolve only by being traded: MACHOKE, KADABRA, HAUNTER, and GRAVELER.
 
 ## Available Tools
+
+### Built-in Tools
 - **`notepad_edit`**: Edits the notepad.
 - **`run_code`**: Executes Python code.
 - **`define_agent` / `delete_agent`**: Manage custom agents for reasoning tasks.
@@ -18,12 +20,17 @@
 - **`stun_npc`**: Freezes/unfreezes NPC movement.
 - **`define_tool` / `delete_tool`**: Manage custom tools for computational tasks.
 - **`select_battle_option`**: Selects main battle menu options automatically.
+
+### Custom Tools
 - **`deterministic_battle_strategist`**: A rule-based agent for battle strategy.
 - **`path_and_execute`**: A pathfinding tool that generates coordinate paths.
 - **`find_unseen_tiles`**: A tool to find all unseen tiles on the map.
+
+### Custom Agents
 - **`quest_progression_advisor`**: An agent to suggest next steps in quests.
 - **`puzzle_solver_assistant`**: An agent for methodical puzzle-solving.
 - **`exploration_strategist`**: An agent to suggest promising areas to explore.
+- **`debugging_assistant`**: An agent to diagnose tool failures.
 
 ## Respawning Obstacles (CONFIRMED MECHANIC)
 - **Initial Observation (Turn 26648):** The `CUT_TREE` at (8, 25) in Ilex Forest, which was previously removed, respawned after re-entering the area.
@@ -56,7 +63,6 @@
 - **LEDGE_HOP_LEFT**: One-way traversal.
 - **LEDGE_HOP_RIGHT**: One-way traversal.
 - **VOID**: Impassable.
-- **CUT_TREE**: Impassable (respawns).
 - **CUT_TREE**: Impassable (respawns).
 
 ## Route 32 Tile Mechanics
@@ -150,6 +156,14 @@
 - **WARP_CARPET_LEFT**: Traversable warp.
 - **LEDGE_HOP_DOWN**: One-way traversal.
 
+## Pokecenter2F Tile Mechanics
+- **WALL**: Impassable.
+- **FLOOR**: Traversable.
+- **COUNTER**: Impassable.
+- **PC**: Impassable.
+- **DOOR**: Traversable warp, currently blocked by NPCs.
+- **LADDER**: Traversable warp.
+
 # Active Quests & Notes
 
 ## Mail Delivery
@@ -226,12 +240,3 @@
 - This move can be used on `HEADBUTT_TREE` tiles outside of battle by facing the tree and pressing 'A'.
 - **Test 1 (Turn 28043):** Used HEADBUTT on the tree at (16, 14). Result: "Nope. Nothing…".
 - **Conclusion:** Finding a Pokémon is not guaranteed and is likely a chance-based event.
-
-## Pokecenter2F Tile Mechanics
-- **WALL**: Impassable.
-- **FLOOR**: Traversable.
-- **COUNTER**: Impassable.
-- **PC**: Impassable.
-- **DOOR**: Traversable warp, currently blocked by NPCs.
-- **LADDER**: Traversable warp.
-- **`debugging_assistant` (Agent):** An agent to diagnose tool failures. It would take a tool's code, error message, and the current game state, then suggest a specific code change to fix the bug.
