@@ -139,3 +139,8 @@
 - **Observation:** Similar to Goldenrod City, the second floor contains rooms blocked by Link Receptionists.
 - **Clues:** Receptionists mentioned the 'CABLE TRADE CENTER', 'CABLE CLUB COLOSSEUM', and an adjusting 'TIME CAPSULE'.
 - **Conclusion:** All rooms are related to link features and are currently inaccessible. This area is a confirmed dead end for single-player progression.
+
+## Violet City - Pokemon Center 2F (Link Club)
+- **Observation:** Similar to Goldenrod City, the second floor contains rooms blocked by Link Receptionists.
+- **Clues:** Receptionists mentioned the 'CABLE TRADE CENTER', 'CABLE CLUB COLOSSEUM', and an adjusting 'TIME CAPSULE'.
+- **Conclusion:** All rooms are related to link features and are currently inaccessible. This area is a confirmed dead end for single-player progression.
