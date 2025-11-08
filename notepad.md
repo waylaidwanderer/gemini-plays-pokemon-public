@@ -18,9 +18,6 @@
 ## Known Bugs / Strange Mechanics
 - **Item Tossing Bug:** Attempting to 'TOSS' a single-stack item (e.g., BERRY x1) from the bag menu fails and resets the menu. Tossing one item from a multi-item stack (e.g., POTION x9 -> x8) also fails to free an inventory slot. The only confirmed way to free a slot is to have a Pokémon 'HOLD' a single-stack item.
 
-## Goldenrod Flower Shop Tile Mechanics
-- **WARP_CARPET_DOWN**: Can be a bidirectional warp, unlike the one-way exit previously discovered. This suggests the tile's function can vary by location.
-
 # Active Quests & Notes
 
 ## Mail Delivery
