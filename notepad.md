@@ -174,23 +174,17 @@
 - **Assumption:** The Bug-Catching Contest is an optional side quest.
   - **Alternative Hypothesis:** Participation or victory in the contest might be required to unlock the path forward.
   - **Test to Falsify:** If my progress through the National Park is blocked, I will return and attempt to join the contest to see if it triggers a story event.
-- **Correction:** The `path_plan` system and `path_and_execute` tool are reliable. My previous pathing failures were due to user error, such as targeting impassable tiles, not a flaw in the tools themselves.
 
 # Tool Development & Philosophy
 
 ## Tool Development Philosophy (Self-Correction)
-- **Problem:** My `path_and_execute` tool has failed repeatedly, causing movement blockages and wasted turns. My approach of fixing bugs reactively is inefficient.
-- **Solution:** I must adopt a proactive, test-driven approach to tool development.
-- **New Principle:** Before relying on a complex tool for a critical task, I must first build and use diagnostic tools to verify its core logic. For pathfinding, this means creating a tool to visualize the algorithm's understanding of the map. This will allow me to identify and fix logical errors in a controlled way, rather than discovering them through trial-and-error during gameplay.
-- **Correction (Turn 26941 & 27961):** My previous diagnoses of my pathfinding tools being faulty were incorrect. The tools were functioning as designed. The errors stemmed from my misinterpretation of the output, incorrect manual pathing attempts, and failure to investigate in-game obstacles. This highlights the critical need to trust my tools and carefully verify my own actions before assuming a tool is broken.
-- **Correction (Turn 28110):** The pathfinding tool's failure on turn 28100 was not a bug. It correctly identified that a wall blocked the path. My assumption that the tool was broken was a critical error in methodology. I must always trust my tools' outputs first and verify the in-game situation for obstacles before attempting to debug the tool itself.
-- **Correction (Turn 28138):** I have repeated the same error. On turn 28137, the `path_and_execute` tool returned an empty path. I again failed to trust it and had to manually verify that a wall was blocking the way. **This is a critical, recurring failure in my methodology.** When a pathfinding tool returns no path, my first and only assumption must be that the destination is genuinely unreachable from my current position. I am forbidden from assuming the tool is broken until I have moved to the area and visually confirmed that a path *does* exist and the tool was wrong.
-- **Correction (Turn 28159):** I have failed *again*. The `path_and_execute` tool correctly returned an empty path for my southern route, but I ignored it and created a manual `path_plan` which resulted in me walking into a wall. This pattern of distrusting my tools is my single biggest weakness. I must force myself to adhere to the principle: if the pathfinder says no, the answer is no. My next action should always be to investigate why the path is blocked, not to assume the tool is wrong.
+- **Correction (Turn 28227):** My previous assumptions about my pathfinding tools being faulty were incorrect. The tools were functioning as designed. The errors stemmed from my misinterpretation of the output, incorrect manual pathing attempts, and failure to investigate in-game obstacles. This highlights the critical need to trust my tools and carefully verify my own actions before assuming a tool is broken. I must always trust my tools' outputs first and verify the in-game situation for obstacles before attempting to debug the tool itself. This is a recurring failure in my methodology that I must correct.
 
 ## Agent/Tool Ideas
 - **`strategic_battle_advisor` (Agent):** A more advanced battle agent that takes into account my entire party, the opponent's known movesets, and suggests not just the best move but also whether to switch Pokémon.
 - **`battle_state_parser` (Tool):** A supporting tool for the battle advisor. It would parse raw screen text and game state during a battle and output a structured JSON object with current HP, status, known moves, etc., for both my Pokémon and the opponent.
 - **`puzzle_data_compiler` (Agent):** An agent to maintain a structured summary of a complex puzzle's state. I would feed it observations turn-by-turn, and it would compile the data, which could then be used as input for the `puzzle_solver_assistant`.
+- **`use_hm` (Tool):** A tool to automate the menu navigation for using an HM move outside of battle. It would take a Pokémon's name and the move name as input and generate the necessary button presses.
 
 # Appendix: Solved Puzzles & Lessons Learned
 
