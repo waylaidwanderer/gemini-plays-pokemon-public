@@ -205,9 +205,6 @@
 ## HM Move Mechanics (NEW)
 - **Forgetting HMs:** It has been confirmed that HM moves (like CUT) cannot be forgotten via TM replacement. This suggests a special NPC, the 'Move Deleter', may be required to remove them, a common feature in later games. This needs to be verified.
 
-## HM Move Mechanics (NEW)
-- **Forgetting HMs:** It has been confirmed that HM moves (like CUT) cannot be forgotten via TM replacement. This suggests a special NPC, the 'Move Deleter', may be required to remove them, a common feature in later games. This needs to be verified.
-
 ## HEADBUTT Mechanic (NEW)
 - Received TM02 (HEADBUTT) from a Rocker NPC in Ilex Forest at (15, 14).
 - My Typhlosion, Ignis, already knows this move.
