@@ -234,3 +234,4 @@
 - **PC**: Impassable.
 - **DOOR**: Traversable warp, currently blocked by NPCs.
 - **LADDER**: Traversable warp.
+- **`debugging_assistant` (Agent):** An agent to diagnose tool failures. It would take a tool's code, error message, and the current game state, then suggest a specific code change to fix the bug.
