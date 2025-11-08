@@ -47,20 +47,9 @@
 - **Assumption:** The strange dialogue from Gramps and Granny ('Your O', 'your Glyph') is related to the Unown I caught.
   - **Alternative Hypothesis:** It could be a default dialogue that triggers if you don't have any Pokémon in the Day-Care, and 'O' or 'Glyph' is just a placeholder or a bug.
   - **Test to Falsify:** The next time I have a free party slot and some money, I will deposit a common Pokémon (like a Pidgey) and then immediately talk to them again. If the dialogue changes to refer to the Pidgey by name, my initial hypothesis is likely correct. If it stays the same, the dialogue is likely just a default script.
-- **Assumption:** The only path to Ecruteak City is east through the National Park.
-  - **Alternative Hypothesis:** There may be another path, possibly through an unexplored section of Dark Cave or a different exit from Goldenrod City.
-  - **Test to Falsify:** After reaching Ecruteak via the main path, I will return to these locations to perform a more thorough search for alternate routes.
-- **Assumption:** The Bug-Catching Contest is an optional side quest.
-  - **Alternative Hypothesis:** Participation or victory in the contest might be required to unlock the path forward.
-  - **Test to Falsify:** If my progress through the National Park is blocked, I will return and attempt to join the contest to see if it triggers a story event.
-- **Assumption:** The elevator is the only way to move between non-adjacent floors in the Dept. Store.
-  - **Alternative Hypothesis:** There might be a hidden staircase or a warp that connects, for example, the 2nd floor directly to the 4th floor, bypassing the 3rd.
-  - **Test to Falsify:** After exploring all visible stairs and the elevator, I will systematically walk along every wall on every floor, pressing 'A' to check for hidden passages.
-- **Assumption:** All clerks in the Dept. Store are non-essential, providing only flavor text or shop services.
-  - **Alternative Hypothesis:** One of the clerks might be a key NPC who gives an item or triggers an event necessary for story progression.
-  - **Test to Falsify:** I must speak to every single clerk on every floor to ensure I don't miss any critical dialogue.
-- **Assumption:** The eastern path through the National Park is the only way forward.
-  - **Alternative Hypothesis:** There might be a northern or western path that is also viable. Test by systematically exploring other unseen areas after the eastern path is checked.
+- **Assumption:** HM Flash is in Violet City.
+  - **Alternative Hypothesis:** HM Flash might be in a different city, or the solution to Dark Cave doesn't require Flash.
+  - **Test to Falsify:** If a systematic search of all buildings and NPCs in Violet City yields no HM, I must conclude it is not here and proceed to the next available area.
 
 # Tool Development & Philosophy
 
@@ -73,6 +62,7 @@
 - **`puzzle_data_compiler` (Agent):** An agent to maintain a structured summary of a complex puzzle's state. I would feed it observations turn-by-turn, and it would compile the data, which could then be used as input for the `puzzle_solver_assistant`.
 - **`use_hm` (Tool):** A tool to automate the menu navigation for using an HM move outside of battle. It would take a Pokémon's name and the move name as input and generate the necessary button presses.
 - **`repel_strategist` (Agent):** Agent to analyze location, party, and inventory to decide if using a Repel is more efficient than running from many wild battles.
+- **`area_clearance_agent` (Agent):** Takes a list of NPC coordinates and unexplored warps on a map and generates a prioritized, efficient plan to visit each one, ensuring complete exploration.
 
 # Appendix: Solved Puzzles & Lessons Learned
 
@@ -124,16 +114,11 @@
 - **One-Way:** LEDGE_HOP_DOWN, LEDGE_HOP_LEFT
 - **Warp:** WARP_CARPET_DOWN
 
-## Tool Ideas
-- `path_and_execute` refinement: Add an optional boolean argument `avoid_warps` (defaulting to True). If True, the pathfinder should treat all warp tiles as impassable unless the warp tile is the explicit `target_x`/`target_y`.
 ## Route 31 Cooltrainer (SOLVED)
 - **Hypothesis:** The Cooltrainer M blocking the path on Route 31 must be defeated to proceed.
 - **Test:** After stunning him, I interacted with him at (33, 8).
 - **Result:** He gave flavor text about needing a POKéMON with a light-up move for Dark Cave. No battle was initiated.
 - **Conclusion:** Hypothesis is FALSE. He is a non-battling NPC who provides a hint. He was also not blocking the path, which was a major misinterpretation on my part.
-- **Assumption:** HM05 (Flash) is located in Sprout Tower.
-  - **Alternative Hypothesis:** The HM could be given by an NPC elsewhere in Violet City, such as in the Pokémon Academy, or in a different city entirely.
-  - **Test to Falsify:** If the Elder in Sprout Tower does not provide the HM, I will systematically explore all buildings and talk to all NPCs in Violet City before leaving to search other areas.
 
 ## Pathfinding Tool Improvement Idea
 - The pathfinder's logic for handling `📍` map markers is too simplistic. It treats all such markers as impassable walls, which is incorrect for non-blocking NPCs. This needs to be refined. Possible solutions:
@@ -145,10 +130,7 @@
 - **Immediate Solution:** I will now use the '💬' emoji to mark non-blocking, dialogue-only NPCs. My pathfinder does not recognize this emoji, so it will not treat them as obstacles.
 - **Long-Term Goal:** I need to update the `path_and_execute` tool to have more sophisticated logic, allowing it to differentiate between blocking and non-blocking markers instead of relying on this workaround.
 
-# Map Marker To-Do
-- Next time on SproutTower1F, add marker at (9, 15): `🚪 To VioletCity (23, 5)`
-
 ## Tool Discrepancy (Turn 28952)
 - `find_reachable_unseen_tiles` reported (37, 15) as reachable.
 - `path_and_execute` failed to find a path to it.
-- **Conclusion:** `find_reachable_unseen_tiles` has a logic flaw and cannot be fully trusted. It likely doesn't account for complex barriers like ledges or water that the pathfinder does. Needs debugging.
+- **Conclusion:** `find_reachable_unseen_tiles` had a logic flaw and could not be fully trusted. It likely didn't account for complex barriers like ledges or water that the pathfinder does. This has since been fixed by integrating the robust pathfinding logic from `path_and_execute`.
