@@ -201,3 +201,7 @@
 - **Hypothesis 5:** The item is in the PC's Item Storage. **Result: FALSE.**
 - **Hypothesis 6:** A Pokémon in the PC is holding the item. **Result: FALSE.**
 - **Conclusion:** My bag was full during the initial conversation, so the item was automatically given to my lead Pokémon to hold.
+
+## HEADBUTT Mechanic (NEW)
+- Received TM02 (HEADBUTT) from a Rocker NPC in Ilex Forest at (15, 14).
+- This move can be used on `HEADBUTT_TREE` tiles outside of battle to shake them. This may cause sleeping Pokémon to fall out.
