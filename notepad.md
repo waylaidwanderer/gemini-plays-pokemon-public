@@ -36,8 +36,8 @@
 - **Attempt 2 (Failed):** An officer in the Route 31 Violet Gate was not the recipient. The quest is on hold until the correct NPC is found.
 
 ## GINA's Item
-- **Status:** Available.
-- **Task:** GINA called and has an item for me on Route 34.
+- **Status:** Blocked (Full Bag).
+- **Task:** GINA has a LEAF STONE for me on Route 34, but my PACK is full. I need to make space and talk to her again.
 
 # Gym Information
 - **Goldenrod Gym:** Normal-type. Fighting-type moves are recommended.
