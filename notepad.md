@@ -139,3 +139,8 @@
 - The pathfinder's logic for handling `📍` map markers is too simplistic. It treats all such markers as impassable walls, which is incorrect for non-blocking NPCs. This needs to be refined. Possible solutions:
   - Use different emojis for blocking vs. non-blocking NPCs.
   - Create a more complex marker system that includes a 'blocking' flag.
+
+## Map Marker Strategy (Refinement)
+- **Problem:** My `path_and_execute` tool treats all '📍' markers as impassable walls, which is incorrect for non-blocking NPCs and has caused repeated pathing failures.
+- **Immediate Solution:** I will now use the '💬' emoji to mark non-blocking, dialogue-only NPCs. My pathfinder does not recognize this emoji, so it will not treat them as obstacles.
+- **Long-Term Goal:** I need to update the `path_and_execute` tool to have more sophisticated logic, allowing it to differentiate between blocking and non-blocking markers instead of relying on this workaround.
