@@ -102,16 +102,11 @@
 ## Known Bugs / Strange Mechanics
 - **Item Tossing Bug:** Attempting to 'TOSS' a single-stack item (e.g., BERRY x1) from the bag menu fails and resets the menu. Tossing one item from a multi-item stack (e.g., POTION x9 -> x8) also fails to free an inventory slot. The only confirmed way to free a slot is to have a Pokémon 'HOLD' a single-stack item.
 
-# Plan: Obtain SQUIRT BOTTLE
-1. Exit National Park to the south, returning to Route 35.
-2. Travel south on Route 35 to the Route 35 Goldenrod Gate.
-3. Enter Goldenrod City.
-4. Navigate to the Goldenrod Flower Shop at coordinates (29, 5).
-5. Speak to the NPC inside to receive the SQUIRT BOTTLE. (Failed twice - NPC only repeats dialogue about her sister).
-
-**Hypothesis 2 (Failed):** The trigger for receiving the SQUIRT BOTTLE requires speaking to Gym Leader Whitney again *after* the battle. **Result:** Whitney just gave dismissive dialogue.
-**Agent Hypothesis (A1):** The event with Whitney is stuck. Reloading the map by exiting and re-entering may reset NPC states and allow the event to proceed correctly.
-**Agent's Plan:**
-1. Exit the Goldenrod Gym.
-2. Re-enter the Goldenrod Gym.
-3. Walk down the path from the entrance towards Whitney, which should trigger an interaction with the Lass at (9, 6).
+## SQUIRT BOTTLE Quest (Route 36 WEIRD_TREE)
+- **Objective:** Obtain the SQUIRT BOTTLE to clear the WEIRD_TREE at (35, 9) on Route 36.
+- **Clue:** An NPC in the Goldenrod Flower Shop mentioned a gift after beating the Gym Leader. The Teacher NPC is worried about her sister who went to see the tree.
+- **Hypothesis 1 (Failed):** The trigger is simply defeating Gym Leader Whitney. **Result:** The Flower Shop NPC only repeated dialogue about her sister.
+- **Hypothesis 2 (Failed):** The trigger requires speaking to Gym Leader Whitney again *after* the battle. **Result:** Whitney just gave dismissive dialogue.
+- **Hypothesis 3 (Failed):** The trigger requires speaking to the Lass at (9, 6) in the gym, then speaking to Whitney again. **Result:** Lass gave generic dialogue, and Whitney's dialogue was unchanged.
+- **Agent Hypothesis (In Progress):** The event with Whitney is stuck. Reloading the map by exiting and re-entering may reset NPC states and allow the event to proceed correctly.
+  - **Agent's Plan:** 1. Exit the Goldenrod Gym (Complete). 2. Re-enter the Goldenrod Gym (Complete). 3. Walk down the path and interact with the Lass at (9, 6) (Complete, no effect). **Next Step:** Return to Whitney and speak with her again.
