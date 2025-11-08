@@ -242,6 +242,10 @@
 
 ## Goldenrod Dept. Store Tile Mechanics
 - **STAIRCASE**: Traversable warp.
+- **FLOOR**: Traversable.
+- **WALL**: Impassable.
+- **COUNTER**: Impassable.
+- **MART_SHELF**: Impassable.
 
 # Untested Assumptions & Alternative Hypotheses (Updated)
 - **Assumption:** The elevator is the only way to move between non-adjacent floors in the Dept. Store.
