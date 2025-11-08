@@ -59,6 +59,8 @@
 - **Assumption:** All clerks in the Dept. Store are non-essential, providing only flavor text or shop services.
   - **Alternative Hypothesis:** One of the clerks might be a key NPC who gives an item or triggers an event necessary for story progression.
   - **Test to Falsify:** I must speak to every single clerk on every floor to ensure I don't miss any critical dialogue.
+- **Assumption:** The eastern path through the National Park is the only way forward.
+  - **Alternative Hypothesis:** There might be a northern or western path that is also viable. Test by systematically exploring other unseen areas after the eastern path is checked.
 
 # Tool Development & Philosophy
 
@@ -70,6 +72,7 @@
 - **`battle_state_parser` (Tool):** A supporting tool for the battle advisor. It would parse raw screen text and game state during a battle and output a structured JSON object with current HP, status, known moves, etc., for both my Pokémon and the opponent.
 - **`puzzle_data_compiler` (Agent):** An agent to maintain a structured summary of a complex puzzle's state. I would feed it observations turn-by-turn, and it would compile the data, which could then be used as input for the `puzzle_solver_assistant`.
 - **`use_hm` (Tool):** A tool to automate the menu navigation for using an HM move outside of battle. It would take a Pokémon's name and the move name as input and generate the necessary button presses.
+- **`repel_strategist` (Agent):** Agent to analyze location, party, and inventory to decide if using a Repel is more efficient than running from many wild battles.
 
 # Appendix: Solved Puzzles & Lessons Learned
 
@@ -108,28 +111,3 @@
 - My Typhlosion, Ignis, already knows this move.
 - This move can be used on `HEADBUTT_TREE` tiles outside of battle by facing the tree and pressing 'A'.
 - **Test 1 (Turn 28043):** Used HEADBUTT on the tree at (16, 14). Result: "Nope. Nothing…".
-
-# Notepad Update (Turn 28748)
-
-## Corrected Tile Traversal Rules (to replace old section later)
-- **Impassable:** BOOKSHELF, BUOY (assumed), COUNTER, CUT_TREE, HEADBUTT_TREE, INCENSE_BURNER, MART_SHELF, PC, PILLAR (usually), RADIO, TOWN_MAP, TV, VOID, WALL, WATER, WINDOW.
-- **Traversable:** FLOOR, GRASS, LONG_GRASS, TALL_GRASS, UNKNOWN.
-- **One-Way (Ledges):**
-  - LEDGE_HOP: General one-way tile.
-  - FLOOR_UP_WALL: Cannot be moved *down from* this tile, and cannot be moved *down onto* this tile.
-- **Warps (Directional/Conditional):**
-  - CAVE: Standard warp point.
-  - DOOR: Standard warp, sometimes conditional based on story events.
-  - LADDER: Directional warp that requires facing the ladder to use.
-  - WARP_CARPET: General directional warp mat.
-  - WARP_CARPET_UP: Moves player up one floor.
-  - WARP_CARPET_DOWN: Moves player down one floor. Can be one-way and may require pressing 'Down' to activate.
-  - WARP_CARPET_LEFT: Moves player left.
-  - WARP_CARPET_RIGHT: Moves player right.
-
-## New Untested Assumption
-- **Assumption:** The eastern path through the National Park is the only way forward.
-  - **Alternative Hypothesis:** There might be a northern or western path that is also viable. Test by systematically exploring other unseen areas after the eastern path is checked.
-
-## New Agent Idea
-- **`repel_strategist` (Agent):** Agent to analyze location, party, and inventory to decide if using a Repel is more efficient than running from many wild battles.
