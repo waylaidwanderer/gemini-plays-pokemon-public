@@ -111,3 +111,12 @@
 - **Agent Hypothesis (Failed):** Reloading the map did not change any NPC dialogue or trigger the event.
 - **Hypothesis 4 (Current):** The trigger for the SQUIRT BOTTLE is not in Goldenrod City. I must first travel to Route 36, locate the WEIRD_TREE, and interact with the Flower Shop lady's sister. This interaction will likely prompt the Flower Shop lady to give me the SQUIRT BOTTLE upon my return.
   - **Plan:** 1. Exit Goldenrod Gym. 2. Travel to Route 36. 3. Find the sister near the WEIRD_TREE.
+
+## Route 35 Tile Mechanics
+- **FLOOR**: Traversable. Verified on Route 35.
+- **WALL**: Impassable. Verified on Route 35.
+- **TALL_GRASS**: Traversable, triggers wild encounters. Verified on Route 35.
+- **HEADBUTT_TREE**: Impassable. Verified on Route 35.
+- **WATER**: Impassable. Verified on Route 35.
+- **DOOR**: Traversable warp. Verified on Route 35.
+- **WARP_CARPET_DOWN**: Traversable warp. Verified on Route 35.
