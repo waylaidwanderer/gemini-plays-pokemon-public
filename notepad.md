@@ -254,3 +254,6 @@
 - **Assumption:** All clerks in the Dept. Store are non-essential, providing only flavor text or shop services.
   - **Alternative Hypothesis:** One of the clerks might be a key NPC who gives an item or triggers an event necessary for story progression.
   - **Test to Falsify:** I must speak to every single clerk on every floor to ensure I don't miss any critical dialogue.
+## Goldenrod Dept. Store 5F Tile Mechanics
+- **WARP_CARPET_LEFT**: Untested, assumed traversable warp.
+- **WARP_CARPET_RIGHT**: Untested, assumed traversable warp.
