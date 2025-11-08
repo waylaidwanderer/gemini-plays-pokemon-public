@@ -101,10 +101,6 @@
 - **DOOR**: Traversable warp. Verified on Route 35.
 - **WARP_CARPET_DOWN**: Traversable warp. Verified on Route 35.
 
-## Route 36 National Park Gate Tile Mechanics
-- **FLOOR**: Traversable. Verified in the gatehouse.
-- **COUNTER**: Impassable. Verified in the gatehouse.
-
 ## National Park Tile Mechanics
 - **FLOOR**: Traversable. Verified in National Park.
 - **WALL**: Impassable. Verified in National Park.
