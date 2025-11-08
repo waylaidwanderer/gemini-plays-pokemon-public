@@ -58,16 +58,6 @@
 ## Goldenrod Flower Shop Tile Mechanics
 - **WARP_CARPET_DOWN**: Can be a bidirectional warp, unlike the one-way exit previously discovered. This suggests the tile's function can vary by location.
 
-## Violet City Tile Mechanics
-- **FLOOR**: Traversable.
-- **WALL**: Impassable.
-- **WATER**: Impassable.
-- **DOOR**: Traversable warp.
-- **HEADBUTT_TREE**: Impassable.
-- **CUT_TREE**: Impassable (respawns).
-- **LEDGE_HOP_DOWN**: One-way traversal.
-- **WARP_CARPET_RIGHT**: Traversable warp. Activated by pressing Right.
-
 ## Pokecenter2F Tile Mechanics
 - **WALL**: Impassable.
 - **FLOOR**: Traversable.
