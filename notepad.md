@@ -33,6 +33,7 @@
 - **LEDGE_HOP_DOWN**: One-way traversal.
 - **LEDGE_HOP_LEFT**: One-way traversal.
 - **LEDGE_HOP_RIGHT**: One-way traversal.
+- **VOID**: Impassable.
 
 ## Route 32 Tile Mechanics
 - **FLOOR**: Traversable.
@@ -154,6 +155,9 @@
 - **Assumption:** The Bug-Catching Contest is an optional side quest.
   - **Alternative Hypothesis:** Participation or victory in the contest might be required to unlock the path forward.
   - **Test to Falsify:** If my progress through the National Park is blocked, I will return and attempt to join the contest to see if it triggers a story event.
+- **Assumption:** The `path` command is completely broken.
+  - **Alternative Hypothesis:** The `path` command might only work for short, simple paths without interruptions (like moving NPCs or wild encounters).
+  - **Test to Falsify:** On a clear, short path, I will try using `path_plan` with `["path"]` for a 3-4 tile move to see if it executes correctly.
 
 # Tool Development & Philosophy
 
@@ -161,10 +165,13 @@
 - **Problem:** My `path_and_execute` tool has failed repeatedly, causing movement blockages and wasted turns. My approach of fixing bugs reactively is inefficient.
 - **Solution:** I must adopt a proactive, test-driven approach to tool development.
 - **New Principle:** Before relying on a complex tool for a critical task, I must first build and use diagnostic tools to verify its core logic. For pathfinding, this means creating a tool to visualize the algorithm's understanding of the map. This will allow me to identify and fix logical errors in a controlled way, rather than discovering them through trial-and-error during gameplay.
-- **Correction (Turn 26941):** My previous diagnoses of my pathfinding tools being faulty were incorrect. The tools were functioning as designed. The errors stemmed from my misinterpretation of the output and incorrect manual pathing attempts. This highlights the critical need to trust my tools and carefully verify my own actions before assuming a tool is broken.
+- **Correction (Turn 26941 & 27961):** My previous diagnoses of my pathfinding tools being faulty were incorrect. The tools were functioning as designed. The errors stemmed from my misinterpretation of the output, incorrect manual pathing attempts, and failure to investigate in-game obstacles. This highlights the critical need to trust my tools and carefully verify my own actions before assuming a tool is broken.
 
 ## Tool Development Notes (Self-Critique)
 - **Critique on Hardcoded Menu Navigation:** Relying on a hardcoded sequence of button presses for menu navigation is extremely brittle and prone to failure if the menu state is not exactly as predicted. This design is inefficient. **Action:** Perform menu navigation manually until a more robust, screen-aware solution can be developed.
+
+## Agent/Tool Ideas
+- **Exploration Strategist Agent:** An agent that takes the map XML and a list of unseen tiles as input and suggests the most promising area to explore next. This could help prioritize exploration when I'm unsure where to go.
 
 # Appendix: Solved Puzzles & Lessons Learned
 
