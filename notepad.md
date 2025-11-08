@@ -202,9 +202,8 @@
 - **Hypothesis 6:** A Pokémon in the PC is holding the item. **Result: FALSE.**
 - **Conclusion:** My bag was full during the initial conversation, so the item was automatically given to my lead Pokémon to hold.
 
-## HEADBUTT Mechanic (NEW)
-- Received TM02 (HEADBUTT) from a Rocker NPC in Ilex Forest at (15, 14).
-- This move can be used on `HEADBUTT_TREE` tiles outside of battle to shake them. This may cause sleeping Pokémon to fall out.
+## HM Move Mechanics (NEW)
+- **Forgetting HMs:** It has been confirmed that HM moves (like CUT) cannot be forgotten via TM replacement. This suggests a special NPC, the 'Move Deleter', may be required to remove them, a common feature in later games. This needs to be verified.
 
 ## HM Move Mechanics (NEW)
 - **Forgetting HMs:** It has been confirmed that HM moves (like CUT) cannot be forgotten via TM replacement. This suggests a special NPC, the 'Move Deleter', may be required to remove them, a common feature in later games. This needs to be verified.
