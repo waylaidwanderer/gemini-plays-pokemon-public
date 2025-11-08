@@ -104,8 +104,3 @@
 ## Goldenrod Dept. Store 5F Tile Mechanics
 - **WARP_CARPET_LEFT**: Untested, assumed traversable warp.
 - **WARP_CARPET_RIGHT**: Untested, assumed traversable warp.
-## Goldenrod Magnet Train Station Tile Mechanics
-- **FLOOR**: Traversable.
-- **WALL**: Impassable.
-- **VOID**: Impassable.
-- **WARP_CARPET_DOWN**: Traversable warp.
