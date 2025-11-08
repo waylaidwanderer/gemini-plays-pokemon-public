@@ -17,9 +17,6 @@
 
 # Appendix: Core Lessons & Puzzles
 
-## Cut Mechanic (CRITICAL DISCOVERY)
-- The `CUT_TREE` tile is an interactable obstacle. To pass, one must face it from an adjacent tile and press 'A' to trigger the prompt to use the move CUT. After using CUT, the tile becomes a standard FLOOR tile, and the path is permanently cleared.
-
 ## Ilex Forest Puzzle
 - The correct solution involved a multi-stage chase, herding the Farfetch'd through the forest by interacting with it from specific directions and using twig piles to alter its path, ultimately leading it to its owner's apprentice.
 
@@ -159,6 +156,3 @@
 ---
 
 # Appendix: Solved Puzzles & Lessons Learned
-
-## Cut Mechanic (CRITICAL DISCOVERY)
-- The `CUT_TREE` tile is an interactable obstacle. To pass, one must face it from an adjacent tile and press 'A' to trigger the prompt to use the move CUT. After using CUT, the tile becomes a standard FLOOR tile, and the path is permanently cleared.
