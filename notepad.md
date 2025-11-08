@@ -131,3 +131,6 @@
 - **Test:** After stunning him, I interacted with him at (33, 8).
 - **Result:** He gave flavor text about needing a POKéMON with a light-up move for Dark Cave. No battle was initiated.
 - **Conclusion:** Hypothesis is FALSE. He is a non-battling NPC who provides a hint. He was also not blocking the path, which was a major misinterpretation on my part.
+- **Assumption:** HM05 (Flash) is located in Sprout Tower.
+  - **Alternative Hypothesis:** The HM could be given by an NPC elsewhere in Violet City, such as in the Pokémon Academy, or in a different city entirely.
+  - **Test to Falsify:** If the Elder in Sprout Tower does not provide the HM, I will systematically explore all buildings and talk to all NPCs in Violet City before leaving to search other areas.
