@@ -108,3 +108,28 @@
 - My Typhlosion, Ignis, already knows this move.
 - This move can be used on `HEADBUTT_TREE` tiles outside of battle by facing the tree and pressing 'A'.
 - **Test 1 (Turn 28043):** Used HEADBUTT on the tree at (16, 14). Result: "Nope. Nothing…".
+
+# Notepad Update (Turn 28748)
+
+## Corrected Tile Traversal Rules (to replace old section later)
+- **Impassable:** BOOKSHELF, BUOY (assumed), COUNTER, CUT_TREE, HEADBUTT_TREE, INCENSE_BURNER, MART_SHELF, PC, PILLAR (usually), RADIO, TOWN_MAP, TV, VOID, WALL, WATER, WINDOW.
+- **Traversable:** FLOOR, GRASS, LONG_GRASS, TALL_GRASS, UNKNOWN.
+- **One-Way (Ledges):**
+  - LEDGE_HOP: General one-way tile.
+  - FLOOR_UP_WALL: Cannot be moved *down from* this tile, and cannot be moved *down onto* this tile.
+- **Warps (Directional/Conditional):**
+  - CAVE: Standard warp point.
+  - DOOR: Standard warp, sometimes conditional based on story events.
+  - LADDER: Directional warp that requires facing the ladder to use.
+  - WARP_CARPET: General directional warp mat.
+  - WARP_CARPET_UP: Moves player up one floor.
+  - WARP_CARPET_DOWN: Moves player down one floor. Can be one-way and may require pressing 'Down' to activate.
+  - WARP_CARPET_LEFT: Moves player left.
+  - WARP_CARPET_RIGHT: Moves player right.
+
+## New Untested Assumption
+- **Assumption:** The eastern path through the National Park is the only way forward.
+  - **Alternative Hypothesis:** There might be a northern or western path that is also viable. Test by systematically exploring other unseen areas after the eastern path is checked.
+
+## New Agent Idea
+- **`repel_strategist` (Agent):** Agent to analyze location, party, and inventory to decide if using a Repel is more efficient than running from many wild battles.
