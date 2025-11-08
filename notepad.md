@@ -134,3 +134,8 @@
 - `find_reachable_unseen_tiles` reported (37, 15) as reachable.
 - `path_and_execute` failed to find a path to it.
 - **Conclusion:** `find_reachable_unseen_tiles` had a logic flaw and could not be fully trusted. It likely didn't account for complex barriers like ledges or water that the pathfinder does. This has since been fixed by integrating the robust pathfinding logic from `path_and_execute`.
+
+## Violet City - Pokemon Center 2F (Link Club)
+- **Observation:** Similar to Goldenrod City, the second floor contains rooms blocked by Link Receptionists.
+- **Clues:** Receptionists mentioned the 'CABLE TRADE CENTER', 'CABLE CLUB COLOSSEUM', and an adjusting 'TIME CAPSULE'.
+- **Conclusion:** All rooms are related to link features and are currently inaccessible. This area is a confirmed dead end for single-player progression.
