@@ -30,7 +30,6 @@
 - **`quest_progression_advisor`**: An agent to suggest next steps in quests.
 - **`puzzle_solver_assistant`**: An agent for methodical puzzle-solving.
 - **`exploration_strategist`**: An agent to suggest promising areas to explore.
-- **`debugging_assistant`**: An agent to diagnose tool failures.
 
 ## Respawning Obstacles (CONFIRMED MECHANIC)
 - **Initial Observation (Turn 26648):** The `CUT_TREE` at (8, 25) in Ilex Forest, which was previously removed, respawned after re-entering the area.
