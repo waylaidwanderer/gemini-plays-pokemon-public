@@ -135,18 +135,8 @@
 - **Hypothesis 1:** The Teacher NPC in the Goldenrod Flower Shop will provide a replacement. **Result: FALSE.**
 - **Hypothesis 2:** The Lass NPC in the Goldenrod Flower Shop will provide a replacement or clue. **Result: FALSE.**
 - **Hypothesis 3:** Whitney in the Goldenrod Gym will provide a replacement or clue. **Result: FALSE.**
-- **Hypothesis 4:** One of my party Pokémon is holding the item. **Result: FALSE.**
-- **Hypothesis 5:** The item is in the PC's Item Storage.
-- **Test 5:** Checked the PC's Item Storage.
-- **Result 5:** Only a REPEL was found.
-- **Conclusion:** Hypothesis 5 is FALSE.
-- **Next Step:** Check if a Pokémon in the PC is holding the item. If not, return to the Flower Shop to see if my bag was full during the initial conversation.
-## SQUIRT BOTTLE Investigation
-- **Problem:** The SQUIRT BOTTLE is missing from my bag.
-- **Hypothesis 1:** The Teacher NPC in the Goldenrod Flower Shop will provide a replacement. **Result: FALSE.**
-- **Hypothesis 2:** The Lass NPC in the Goldenrod Flower Shop will provide a replacement or clue. **Result: FALSE.**
-- **Hypothesis 3:** Whitney in the Goldenrod Gym will provide a replacement or clue. **Result: FALSE.**
-- **Hypothesis 4:** One of my party Pokémon is holding the item. **Result: FALSE.**
+- **Hypothesis 4:** One of my party Pokémon is holding the item. **Result: FALSE (Ignis was holding a BERRY).**
 - **Hypothesis 5:** The item is in the PC's Item Storage. **Result: FALSE.**
 - **Hypothesis 6:** A Pokémon in the PC is holding the item. **Result: FALSE.**
-- **Next Step:** Return to the Flower Shop to test the hypothesis that my bag was full during the initial conversation.
+- **Current Hypothesis:** My bag was full during the initial conversation with the Flower Shop lady.
+- **Next Step:** Return to the Goldenrod Flower Shop to test this.
