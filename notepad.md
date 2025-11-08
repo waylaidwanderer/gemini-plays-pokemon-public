@@ -18,15 +18,6 @@
 ## Known Bugs / Strange Mechanics
 - **Item Tossing Bug:** Attempting to 'TOSS' a single-stack item (e.g., BERRY x1) from the bag menu fails and resets the menu. Tossing one item from a multi-item stack (e.g., POTION x9 -> x8) also fails to free an inventory slot. The only confirmed way to free a slot is to have a Pokémon 'HOLD' a single-stack item.
 
-## Goldenrod City Tile Mechanics
-- **FLOOR**: Traversable.
-- **WALL**: Impassable.
-- **WATER**: Impassable.
-- **VOID**: Impassable. Verified in Goldenrod Gym.
-- **DOOR**: Traversable warp.
-- **WARP_CARPET_DOWN (One-Way Exit):** A specific instance of this tile at (5, 29) on map 3_54 was found to be a one-way exit, returning the player to the previous map. This suggests some warp carpets may not be bidirectional.
-- **WARP_CARPET_RIGHT**: Traversable warp. Activated by pressing Right.
-
 ## Goldenrod Flower Shop Tile Mechanics
 - **WARP_CARPET_DOWN**: Can be a bidirectional warp, unlike the one-way exit previously discovered. This suggests the tile's function can vary by location.
 
