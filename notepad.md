@@ -159,3 +159,6 @@
 ---
 
 # Appendix: Solved Puzzles & Lessons Learned
+
+## Cut Mechanic (CRITICAL DISCOVERY)
+- The `CUT_TREE` tile is an interactable obstacle. To pass, one must face it from an adjacent tile and press 'A' to trigger the prompt to use the move CUT. After using CUT, the tile becomes a standard FLOOR tile, and the path is permanently cleared.
