@@ -120,3 +120,8 @@
 - **WATER**: Impassable. Verified on Route 35.
 - **DOOR**: Traversable warp. Verified on Route 35.
 - **WARP_CARPET_DOWN**: Traversable warp. Verified on Route 35.
+
+## National Park Tile Mechanics
+- **FLOOR**: Traversable. Verified in National Park.
+- **LONG_GRASS**: Traversable, triggers wild encounters. Verified in National Park.
+- **TALL_GRASS**: Traversable, triggers wild encounters. Verified in National Park.
