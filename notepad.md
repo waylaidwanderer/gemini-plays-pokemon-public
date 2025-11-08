@@ -129,3 +129,6 @@
 ## Route 36 National Park Gate Tile Mechanics
 - **FLOOR**: Traversable. Verified in the gatehouse.
 - **COUNTER**: Impassable. Verified in the gatehouse.
+
+## SQUIRT BOTTLE Quest (Hypothesis 4)
+- **Trigger:** The trigger for the SQUIRT BOTTLE is not in Goldenrod City. I must first travel to Route 36, locate the WEIRD_TREE, and interact with the Flower Shop lady's sister. This interaction will likely prompt the Flower Shop lady to give me the SQUIRT BOTTLE upon my return.
