@@ -226,3 +226,11 @@
 - This move can be used on `HEADBUTT_TREE` tiles outside of battle by facing the tree and pressing 'A'.
 - **Test 1 (Turn 28043):** Used HEADBUTT on the tree at (16, 14). Result: "Nope. Nothing…".
 - **Conclusion:** Finding a Pokémon is not guaranteed and is likely a chance-based event.
+
+## Pokecenter2F Tile Mechanics
+- **WALL**: Impassable.
+- **FLOOR**: Traversable.
+- **COUNTER**: Impassable.
+- **PC**: Impassable.
+- **DOOR**: Traversable warp, currently blocked by NPCs.
+- **LADDER**: Traversable warp.
