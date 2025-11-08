@@ -191,3 +191,10 @@
 - **Hypothesis 5:** The item is in the PC's Item Storage. **Result: FALSE.**
 - **Hypothesis 6:** A Pokémon in the PC is holding the item. **Result: FALSE.**
 - **Conclusion:** My bag was full during the initial conversation, so the item was automatically given to my lead Pokémon to hold.
+
+## Route 34 Ilex Forest Gate Tile Mechanics
+- **FLOOR**: Traversable.
+- **WALL**: Impassable.
+- **COUNTER**: Impassable.
+- **DOOR**: Traversable warp.
+- **WARP_CARPET_DOWN**: Traversable warp.
