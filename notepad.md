@@ -20,16 +20,6 @@
 
 # Location Specific Mechanics
 
-## Route 36 Tile Mechanics
-- **FLOOR**: Traversable.
-- **WALL**: Impassable.
-- **HEADBUTT_TREE**: Impassable.
-- **TALL_GRASS**: Traversable, triggers wild encounters.
-- **WARP_CARPET_LEFT**: Traversable warp. Activated by pressing Left.
-- **WARP_CARPET_DOWN**: Traversable warp. Verified at Ruins of Alph entrance.
-- **DOOR**: Present at (47, 17), function unverified.
-- **FLOOR_UP_WALL**: Present from (51, 16) to (53, 16), likely one-way ledges.
-
 ## National Park Tile Mechanics
 - **FLOOR**: Traversable.
 - **WALL**: Impassable.
