@@ -198,3 +198,9 @@
 - **COUNTER**: Impassable.
 - **DOOR**: Traversable warp.
 - **WARP_CARPET_DOWN**: Traversable warp.
+
+## Route 34 Tile Mechanics
+- **FLOOR**: Traversable. Verified on Route 34.
+- **WALL**: Impassable. Verified on Route 34.
+- **TALL_GRASS**: Traversable, triggers wild encounters. Verified on Route 34.
+- **WARP_CARPET_DOWN**: Traversable warp. Verified on Route 34.
