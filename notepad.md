@@ -20,16 +20,6 @@
 
 # Location Specific Mechanics
 
-## Route 34 & Gatehouse Tile Mechanics
-- **FLOOR**: Traversable.
-- **WALL**: Impassable.
-- **COUNTER**: Impassable.
-- **DOOR**: Traversable warp.
-- **TALL_GRASS**: Traversable, triggers wild encounters.
-- **WARP_CARPET_DOWN**: Traversable warp.
-- **WATER**: Impassable.
-- **HEADBUTT_TREE**: Impassable.
-
 ## Route 35 Tile Mechanics
 - **FLOOR**: Traversable.
 - **WALL**: Impassable.
