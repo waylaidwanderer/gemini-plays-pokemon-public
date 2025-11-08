@@ -140,3 +140,10 @@
 - **Hypothesis 6:** A Pokémon in the PC is holding the item. **Result: FALSE.**
 - **Current Hypothesis:** My bag was full during the initial conversation with the Flower Shop lady.
 - **Next Step:** Return to the Goldenrod Flower Shop to test this.
+
+## National Park Tile Mechanics
+- **FLOOR**: Traversable. Verified in National Park.
+- **WALL**: Impassable. Verified in National Park.
+- **TALL_GRASS**: Traversable, triggers wild encounters. Verified in National Park.
+- **LONG_GRASS**: Traversable, triggers wild encounters. Verified in National Park.
+- **WARP_CARPET_RIGHT**: Traversable warp. Activated by pressing Right. Verified in National Park.
