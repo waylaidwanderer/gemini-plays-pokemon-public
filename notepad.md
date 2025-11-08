@@ -127,3 +127,13 @@
 - **Untested Assumption:** The WEIRD_TREE respawned because some obstacles in the game are not permanent.
   - **Alternative Hypothesis:** The tree's respawn is a one-time event tied to Floria's dialogue.
   - **Test to Falsify:** After clearing the tree, leave and return to Route 36 to check for respawn.
+
+## Route 36 Tile Mechanics (Re-verification)
+- **FLOOR**: Traversable.
+- **WALL**: Impassable.
+- **HEADBUTT_TREE**: Impassable.
+- **TALL_GRASS**: Traversable, triggers wild encounters.
+- **WARP_CARPET_LEFT**: Traversable warp.
+- **WARP_CARPET_DOWN**: Traversable warp.
+- **DOOR**: Present at (47, 17), function unverified.
+- **FLOOR_UP_WALL**: Present from (51, 16) to (53, 16), likely one-way ledges.
