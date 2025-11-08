@@ -102,15 +102,6 @@
 - **LEDGE_HOP_DOWN**: One-way traversal.
 - **WARP_CARPET_RIGHT**: Traversable warp. Activated by pressing Right.
 
-## Azalea Town Tile Mechanics
-- **FLOOR**: Traversable.
-- **WALL**: Impassable.
-- **HEADBUTT_TREE**: Impassable.
-- **DOOR**: Traversable warp.
-- **CAVE**: Traversable warp.
-- **WARP_CARPET_LEFT**: Traversable warp.
-- **LEDGE_HOP_DOWN**: One-way traversal.
-
 ## Pokecenter2F Tile Mechanics
 - **WALL**: Impassable.
 - **FLOOR**: Traversable.
