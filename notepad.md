@@ -10,27 +10,6 @@
 ## Evolution Methods
 - Some POKEMON evolve only by being traded: MACHOKE, KADABRA, HAUNTER, and GRAVELER.
 
-## Available Tools
-
-### Built-in Tools
-- **`notepad_edit`**: Edits the notepad.
-- **`run_code`**: Executes Python code.
-- **`define_agent` / `delete_agent`**: Manage custom agents for reasoning tasks.
-- **`define_map_marker` / `delete_map_marker`**: Manage map markers for strategic notes.
-- **`stun_npc`**: Freezes/unfreezes NPC movement.
-- **`define_tool` / `delete_tool`**: Manage custom tools for computational tasks.
-- **`select_battle_option`**: Selects main battle menu options automatically.
-
-### Custom Tools
-- **`deterministic_battle_strategist`**: A rule-based agent for battle strategy.
-- **`path_and_execute`**: A pathfinding tool that generates coordinate paths.
-- **`find_reachable_unseen_tiles`**: A tool that finds unseen tiles adjacent to seen, traversable tiles and confirms which are reachable from the player's current position.
-
-### Custom Agents
-- **`quest_progression_advisor`**: An agent to suggest next steps in quests.
-- **`puzzle_solver_assistant`**: An agent for methodical puzzle-solving.
-- **`exploration_strategist`**: An agent to suggest promising areas to explore.
-
 ## Respawning Obstacles (CONFIRMED MECHANIC)
 - **Initial Observation (Turn 26648):** The `CUT_TREE` at (8, 25) in Ilex Forest, which was previously removed, respawned after re-entering the area.
 - **Confirmation (Turn 27669):** The `CUT_TREE` at (13, 5) on Route 31, which was also previously removed, has respawned.
