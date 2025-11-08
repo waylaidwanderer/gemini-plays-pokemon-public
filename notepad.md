@@ -35,10 +35,9 @@
 - **Attempt 1 (Failed):** An officer in the Route 35 Goldenrod Gate gave the quest.
 - **Attempt 2 (Failed):** An officer in the Route 31 Violet Gate was not the recipient. The quest is on hold until the correct NPC is found.
 
-## Goldenrod City - Pokemon Center 2F (Link Club)
-- **Observation:** The second floor contains five rooms, each with a warp. All entrances are currently blocked by Link Receptionist NPCs.
-- **Clue:** A receptionist at (13, 3) stated, 'the TIME CAPSULE is being adjusted.'
-- **Conclusion:** These rooms are the CABLE TRADE CENTER, CABLE CLUB COLOSSEUM, and TIME CAPSULE. All are related to link features and are currently inaccessible as they are blocked by receptionists. This area is a dead end for now.
+## GINA's Item
+- **Status:** Available.
+- **Task:** GINA called and has an item for me on Route 34.
 
 # Gym Information
 - **Goldenrod Gym:** Normal-type. Fighting-type moves are recommended.
@@ -56,6 +55,11 @@
 ## Tool Development Philosophy (Self-Correction)
 - **Correction (Turn 28227):** My previous assumptions about my pathfinding tools being faulty were incorrect. The tools were functioning as designed. The errors stemmed from my misinterpretation of the output, incorrect manual pathing attempts, and failure to investigate in-game obstacles. This highlights the critical need to trust my tools and carefully verify my own actions before assuming a tool is broken. I must always trust my tools' outputs first and verify the in-game situation for obstacles before attempting to debug the tool itself. This is a recurring failure in my methodology that I must correct.
 
+## Map Marker Strategy for Pathfinding
+- **Problem:** My `path_and_execute` tool treats all '📍' markers as impassable walls, which is incorrect for non-blocking NPCs and has caused repeated pathing failures.
+- **Immediate Workaround:** I will use the '💬' emoji to mark non-blocking, dialogue-only NPCs. My pathfinder does not recognize this emoji, so it will not treat them as obstacles.
+- **Long-Term Goal:** I need to update the `path_and_execute` tool to have more sophisticated logic, allowing it to differentiate between blocking and non-blocking markers instead of relying on this workaround.
+
 ## Agent/Tool Ideas
 - **`strategic_battle_advisor` (Agent):** A more advanced battle agent that takes into account my entire party, the opponent's known movesets, and suggests not just the best move but also whether to switch Pokémon.
 - **`battle_state_parser` (Tool):** A supporting tool for the battle advisor. It would parse raw screen text and game state during a battle and output a structured JSON object with current HP, status, known moves, etc., for both my Pokémon and the opponent.
@@ -63,6 +67,7 @@
 - **`use_hm` (Tool):** A tool to automate the menu navigation for using an HM move outside of battle. It would take a Pokémon's name and the move name as input and generate the necessary button presses.
 - **`repel_strategist` (Agent):** Agent to analyze location, party, and inventory to decide if using a Repel is more efficient than running from many wild battles.
 - **`area_clearance_agent` (Agent):** Takes a list of NPC coordinates and unexplored warps on a map and generates a prioritized, efficient plan to visit each one, ensuring complete exploration.
+- **`path_interruption_diagnoser` (Agent):** When movement is blocked, this agent would analyze the situation (e.g., tile type, presence of moving vs. static NPCs) and suggest the most logical next step, like recalculating a path or using `stun_npc`.
 
 # Appendix: Solved Puzzles & Lessons Learned
 
@@ -102,11 +107,7 @@
 - This move can be used on `HEADBUTT_TREE` tiles outside of battle by facing the tree and pressing 'A'.
 - **Test 1 (Turn 28043):** Used HEADBUTT on the tree at (16, 14). Result: "Nope. Nothing…".
 
-## GINA's Item
-- **Status:** Available.
-- **Task:** GINA called and has an item for me on Route 34.
-
-# Dark Cave Notes
+## Dark Cave Notes
 
 ## Tile Traversal Rules (Initial Observations)
 - **Traversable:** FLOOR
@@ -120,19 +121,6 @@
 - **Result:** He gave flavor text about needing a POKéMON with a light-up move for Dark Cave. No battle was initiated.
 - **Conclusion:** Hypothesis is FALSE. He is a non-battling NPC who provides a hint. He was also not blocking the path, which was a major misinterpretation on my part.
 
-## Pathfinding Tool Improvement Idea
-- The pathfinder's logic for handling `📍` map markers is too simplistic. It treats all such markers as impassable walls, which is incorrect for non-blocking NPCs. This needs to be refined. Possible solutions:
-  - Use different emojis for blocking vs. non-blocking NPCs.
-  - Create a more complex marker system that includes a 'blocking' flag.
-
-## Map Marker Strategy (Refinement)
-- **Problem:** My `path_and_execute` tool treats all '📍' markers as impassable walls, which is incorrect for non-blocking NPCs and has caused repeated pathing failures.
-- **Immediate Solution:** I will now use the '💬' emoji to mark non-blocking, dialogue-only NPCs. My pathfinder does not recognize this emoji, so it will not treat them as obstacles.
-- **Long-Term Goal:** I need to update the `path_and_execute` tool to have more sophisticated logic, allowing it to differentiate between blocking and non-blocking markers instead of relying on this workaround.
-
-## Tool Discrepancy (Turn 28952)
-- `find_reachable_unseen_tiles` reported (37, 15) as reachable.
-- `path_and_execute` failed to find a path to it.
+## Tool Discrepancy (SOLVED, Turn 28952)
+- **Problem:** `find_reachable_unseen_tiles` reported (37, 15) as reachable, but `path_and_execute` failed to find a path to it.
 - **Conclusion:** `find_reachable_unseen_tiles` had a logic flaw and could not be fully trusted. It likely didn't account for complex barriers like ledges or water that the pathfinder does. This has since been fixed by integrating the robust pathfinding logic from `path_and_execute`.
-- **`path_interruption_diagnoser` (Agent):** When movement is blocked, this agent would analyze the situation (e.g., tile type, presence of moving vs. static NPCs) and suggest the most logical next step, like recalculating a path or using `stun_npc`.
-- **Untested:** TABLE, PLANT (Encountered in Goldenrod P.P. Speech House, traversability not yet confirmed).
