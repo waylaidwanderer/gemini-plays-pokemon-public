@@ -135,3 +135,4 @@
 - `path_and_execute` failed to find a path to it.
 - **Conclusion:** `find_reachable_unseen_tiles` had a logic flaw and could not be fully trusted. It likely didn't account for complex barriers like ledges or water that the pathfinder does. This has since been fixed by integrating the robust pathfinding logic from `path_and_execute`.
 - **`path_interruption_diagnoser` (Agent):** When movement is blocked, this agent would analyze the situation (e.g., tile type, presence of moving vs. static NPCs) and suggest the most logical next step, like recalculating a path or using `stun_npc`.
+- **Untested:** TABLE, PLANT (Encountered in Goldenrod P.P. Speech House, traversability not yet confirmed).
