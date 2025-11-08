@@ -156,12 +156,6 @@
 - **Attempt 1 (Failed):** An officer in the Route 35 Goldenrod Gate gave the quest.
 - **Attempt 2 (Failed):** An officer in the Route 31 Violet Gate was not the recipient. The quest is on hold until the correct NPC is found.
 
-## Day-Care & Unown
-- The Day-Care Lady on Route 34 mentioned my 'Glyph' has 'grown a lot'. This dialogue triggered even without an Unown in my party, suggesting it's tied to the Pokedex entry for Unown. She seems connected to the Ruins of Alph mystery.
-
-## Route 34 - Day-Care Yard
-- A hidden SUPER POTION at (17, 19) is currently blocked by a Pokémon sprite and is unobtainable. Repeated 'A' presses only re-trigger the Pokémon's dialogue.
-
 ## Goldenrod City - Pokemon Center 2F (Link Club)
 - **Observation:** The second floor contains five rooms, each with a warp. All entrances are currently blocked by Link Receptionist NPCs.
 - **Clue:** A receptionist at (13, 3) stated, 'the TIME CAPSULE is being adjusted.'
@@ -171,6 +165,9 @@
 - **Goldenrod Gym:** Normal-type. Fighting-type moves are recommended.
 
 # Untested Assumptions & Alternative Hypotheses
+- **Assumption:** The strange dialogue from Gramps and Granny ('Your O', 'your Glyph') is related to the Unown I caught.
+  - **Alternative Hypothesis:** It could be a default dialogue that triggers if you don't have any Pokémon in the Day-Care, and 'O' or 'Glyph' is just a placeholder or a bug.
+  - **Test to Falsify:** The next time I have a free party slot and some money, I will deposit a common Pokémon (like a Pidgey) and then immediately talk to them again. If the dialogue changes to refer to the Pidgey by name, my initial hypothesis is likely correct. If it stays the same, the dialogue is likely just a default script.
 - **Assumption:** The only path to Ecruteak City is east through the National Park.
   - **Alternative Hypothesis:** There may be another path, possibly through an unexplored section of Dark Cave or a different exit from Goldenrod City.
   - **Test to Falsify:** After reaching Ecruteak via the main path, I will return to these locations to perform a more thorough search for alternate routes.
@@ -190,8 +187,10 @@
 - **Correction (Turn 26941 & 27961):** My previous diagnoses of my pathfinding tools being faulty were incorrect. The tools were functioning as designed. The errors stemmed from my misinterpretation of the output, incorrect manual pathing attempts, and failure to investigate in-game obstacles. This highlights the critical need to trust my tools and carefully verify my own actions before assuming a tool is broken.
 - **Correction (Turn 28110):** The pathfinding tool's failure on turn 28100 was not a bug. It correctly identified that a wall blocked the path. My assumption that the tool was broken was a critical error in methodology. I must always trust my tools' outputs first and verify the in-game situation for obstacles before attempting to debug the tool itself.
 
-## Tool Development Notes (Self-Critique)
-- **Critique on Hardcoded Menu Navigation:** Relying on a hardcoded sequence of button presses for menu navigation is extremely brittle and prone to failure if the menu state is not exactly as predicted. This design is inefficient. **Action:** Perform menu navigation manually until a more robust, screen-aware solution can be developed.
+## Agent/Tool Ideas
+- **`strategic_battle_advisor` (Agent):** A more advanced battle agent that takes into account my entire party, the opponent's known movesets, and suggests not just the best move but also whether to switch Pokémon.
+- **`battle_state_parser` (Tool):** A supporting tool for the battle advisor. It would parse raw screen text and game state during a battle and output a structured JSON object with current HP, status, known moves, etc., for both my Pokémon and the opponent.
+- **`puzzle_data_compiler` (Agent):** An agent to maintain a structured summary of a complex puzzle's state. I would feed it observations turn-by-turn, and it would compile the data, which could then be used as input for the `puzzle_solver_assistant`.
 
 # Appendix: Solved Puzzles & Lessons Learned
 
