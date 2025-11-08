@@ -57,6 +57,7 @@
 - **LEDGE_HOP_RIGHT**: One-way traversal.
 - **VOID**: Impassable.
 - **CUT_TREE**: Impassable (respawns).
+- **CUT_TREE**: Impassable (respawns).
 
 ## Route 32 Tile Mechanics
 - **FLOOR**: Traversable.
