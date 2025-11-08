@@ -39,12 +39,6 @@
 ## Route 34 - Day-Care Yard
 - A hidden SUPER POTION at (17, 19) is currently blocked by a Pokémon sprite and is unobtainable. Repeated 'A' presses only re-trigger the Pokémon's dialogue.
 
-## Untested Assumptions & Alternative Hypotheses
-- **Goldenrod Dept. Store B1F Puzzle:**
-  - **Assumption:** The puzzle is bugged or unsolvable, as the box collision remains after they visually disappear.
-  - **Alternative Hypothesis:** There is a different, undiscovered trigger for the final phase of the puzzle. The visual change was a clue. The trigger might involve talking to another NPC, having a specific item/Pokémon, or an event outside the basement.
-  - **Test to Falsify:** After exhausting other objectives in Goldenrod, I will return to the Dept. Store and systematically test new potential triggers.
-
 ## Goldenrod City - Pokemon Center 2F (Link Club)
 - **Observation:** The second floor contains five rooms, each with a warp. All entrances are currently blocked by Link Receptionist NPCs.
 - **Clue:** A receptionist at (13, 3) stated, 'the TIME CAPSULE is being adjusted.'
@@ -65,7 +59,6 @@
 ## Side Quests
 - GINA on Route 34 has an item for me.
 - Snubbull is a Normal-type Pokémon.
-- **TALL_GRASS**: Traversable, triggers wild encounters. Verified in National Park.
 
 ## Tool Development Philosophy (Self-Correction)
 - **Problem:** My `path_and_execute` tool has failed repeatedly, causing movement blockages and wasted turns. My approach of fixing bugs reactively is inefficient.
@@ -78,15 +71,6 @@
 - **WALL**: Impassable. Verified on Route 36.
 - **HEADBUTT_TREE**: Impassable. Verified on Route 36.
 - **TALL_GRASS**: Traversable, triggers wild encounters. Verified on Route 36.
-
-## WEIRD_TREE Puzzle (Route 36)
-- **Observation:** The WEIRD_TREE at (35, 9) is blocking the path.
-- **Hypothesis 1 (Turn 26588):** The tree is a standard interactable object that responds to the 'A' button.
-- **Test:** Stood at (36, 9), faced the tree, and pressed 'A'.
-- **Result:** No text appeared, and no action occurred.
-- **Conclusion:** Hypothesis 1 is FALSE.
-- **Hypothesis 2:** The tree requires a key item to interact with. Based on a hint from an NPC in the Goldenrod Flower Shop (who mentioned a gift after beating the Gym Leader), the SQUIRT BOTTLE is the likely key item.
-- **Plan:** Return to Goldenrod City, locate the Flower Shop, obtain the SQUIRT BOTTLE, and return to test this hypothesis.
 
 ## Respawning Obstacles (CRITICAL DISCOVERY)
 - **Observation (Turn 26648):** The `CUT_TREE` at (8, 25) in Ilex Forest, which was previously removed to solve the Farfetch'd puzzle, has respawned.
@@ -121,6 +105,14 @@
 - **FLOOR**: Traversable. Verified in the gatehouse.
 - **COUNTER**: Impassable. Verified in the gatehouse.
 
+## National Park Tile Mechanics
+- **FLOOR**: Traversable. Verified in National Park.
+- **WALL**: Impassable. Verified in National Park.
+- **TALL_GRASS**: Traversable, triggers wild encounters. Verified in National Park.
+- **LONG_GRASS**: Traversable, triggers wild encounters. Verified in National Park.
+- **WARP_CARPET_DOWN**: Traversable warp. Verified in National Park.
+- **WARP_CARPET_RIGHT**: Traversable warp. Activated by pressing Right. Verified in National Park.
+
 # Blocked Quests
 - **Mail Delivery:** The Officer in the Route 35 Goldenrod Gate is currently unreachable due to the counter layout. The quest is on hold.
 
@@ -131,4 +123,3 @@
 - **Assumption:** The Bug-Catching Contest is an optional side quest.
   - **Alternative Hypothesis:** Participation or victory in the contest might be required to unlock the path forward.
   - **Test to Falsify:** If my progress through the National Park is blocked, I will return and attempt to join the contest to see if it triggers a story event.
-## Reminders
