@@ -123,9 +123,6 @@
 - **Assumption:** The Bug-Catching Contest is an optional side quest.
   - **Alternative Hypothesis:** Participation or victory in the contest might be required to unlock the path forward.
   - **Test to Falsify:** If my progress through the National Park is blocked, I will return and attempt to join the contest to see if it triggers a story event.
-## Route 36 National Park Gate Tile Mechanics
-- **FLOOR**: Traversable. Verified in the gatehouse.
-- **COUNTER**: Impassable. Verified in the gatehouse.
 
 # Reflection Turn 27286 Notes
 - **Notepad Cleanup:** Duplicate entry for "Route 36 National Park Gate Tile Mechanics" needs to be removed later.
