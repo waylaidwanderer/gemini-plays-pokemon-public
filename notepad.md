@@ -18,16 +18,6 @@
 ## Known Bugs / Strange Mechanics
 - **Item Tossing Bug:** Attempting to 'TOSS' a single-stack item (e.g., BERRY x1) from the bag menu fails and resets the menu. Tossing one item from a multi-item stack (e.g., POTION x9 -> x8) also fails to free an inventory slot. The only confirmed way to free a slot is to have a Pokémon 'HOLD' a single-stack item.
 
-# Location Specific Mechanics
-
-## National Park Tile Mechanics
-- **FLOOR**: Traversable.
-- **WALL**: Impassable.
-- **TALL_GRASS**: Traversable, triggers wild encounters.
-- **LONG_GRASS**: Traversable, triggers wild encounters.
-- **WARP_CARPET_DOWN**: Traversable warp.
-- **WARP_CARPET_RIGHT**: Traversable warp. Activated by pressing Right.
-
 ## Goldenrod City Tile Mechanics
 - **FLOOR**: Traversable.
 - **WALL**: Impassable.
