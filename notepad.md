@@ -3,9 +3,17 @@
 ## Tile Traversal Rules
 - **Impassable:** BOOKSHELF, BUOY (assumed), COUNTER, CUT_TREE, HEADBUTT_TREE, INCENSE_BURNER, MART_SHELF, PC, PILLAR (usually), RADIO, TOWN_MAP, TV, VOID, WALL, WATER, WINDOW.
 - **Traversable:** FLOOR, GRASS, LONG_GRASS, TALL_GRASS, UNKNOWN.
-- **Warps:** CAVE, DOOR (conditional), LADDER (directional), WARP_CARPET (directional), WARP_CARPET_UP (directional), WARP_CARPET_DOWN (directional, sometimes one-way, may require pressing 'Down' to activate), WARP_CARPET_RIGHT (directional), WARP_CARPET_LEFT (directional).
 - **One-Way:** LEDGE_HOP (directional).
 - **One-Way (Upward Ledge):** FLOOR_UP_WALL (cannot be moved *down from* this tile, and cannot be moved *down onto* this tile).
+- **Warps (Directional/Conditional):**
+  - CAVE: Standard warp.
+  - DOOR: Standard warp, sometimes conditional.
+  - LADDER: Directional warp (requires facing).
+  - WARP_CARPET: General directional warp.
+  - WARP_CARPET_UP: Directional, moves player up a floor.
+  - WARP_CARPET_DOWN: Directional, moves player down a floor. Can be one-way and may require pressing 'Down' to activate.
+  - WARP_CARPET_LEFT: Directional, moves player left.
+  - WARP_CARPET_RIGHT: Directional, moves player right.
 
 ## Evolution Methods
 - Some POKEMON evolve only by being traded: MACHOKE, KADABRA, HAUNTER, and GRAVELER.
@@ -44,6 +52,12 @@
 - **Assumption:** The Bug-Catching Contest is an optional side quest.
   - **Alternative Hypothesis:** Participation or victory in the contest might be required to unlock the path forward.
   - **Test to Falsify:** If my progress through the National Park is blocked, I will return and attempt to join the contest to see if it triggers a story event.
+- **Assumption:** The elevator is the only way to move between non-adjacent floors in the Dept. Store.
+  - **Alternative Hypothesis:** There might be a hidden staircase or a warp that connects, for example, the 2nd floor directly to the 4th floor, bypassing the 3rd.
+  - **Test to Falsify:** After exploring all visible stairs and the elevator, I will systematically walk along every wall on every floor, pressing 'A' to check for hidden passages.
+- **Assumption:** All clerks in the Dept. Store are non-essential, providing only flavor text or shop services.
+  - **Alternative Hypothesis:** One of the clerks might be a key NPC who gives an item or triggers an event necessary for story progression.
+  - **Test to Falsify:** I must speak to every single clerk on every floor to ensure I don't miss any critical dialogue.
 
 # Tool Development & Philosophy
 
@@ -93,14 +107,3 @@
 - My Typhlosion, Ignis, already knows this move.
 - This move can be used on `HEADBUTT_TREE` tiles outside of battle by facing the tree and pressing 'A'.
 - **Test 1 (Turn 28043):** Used HEADBUTT on the tree at (16, 14). Result: "Nope. Nothing…".
-
-# Untested Assumptions & Alternative Hypotheses (Updated)
-- **Assumption:** The elevator is the only way to move between non-adjacent floors in the Dept. Store.
-  - **Alternative Hypothesis:** There might be a hidden staircase or a warp that connects, for example, the 2nd floor directly to the 4th floor, bypassing the 3rd.
-  - **Test to Falsify:** After exploring all visible stairs and the elevator, I will systematically walk along every wall on every floor, pressing 'A' to check for hidden passages.
-- **Assumption:** All clerks in the Dept. Store are non-essential, providing only flavor text or shop services.
-  - **Alternative Hypothesis:** One of the clerks might be a key NPC who gives an item or triggers an event necessary for story progression.
-  - **Test to Falsify:** I must speak to every single clerk on every floor to ensure I don't miss any critical dialogue.
-## Goldenrod Dept. Store 5F Tile Mechanics
-- **WARP_CARPET_LEFT**: Untested, assumed traversable warp.
-- **WARP_CARPET_RIGHT**: Untested, assumed traversable warp.
