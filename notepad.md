@@ -3,7 +3,7 @@
 ## Tile Traversal Rules
 - **Impassable:** BOOKSHELF, BUOY (assumed), COUNTER, CUT_TREE, HEADBUTT_TREE, INCENSE_BURNER, MART_SHELF, PC, PILLAR (usually), RADIO, TOWN_MAP, TV, VOID, WALL, WATER, WINDOW.
 - **Traversable:** FLOOR, GRASS, LONG_GRASS, TALL_GRASS, UNKNOWN.
-- **Warps:** CAVE, DOOR (conditional), LADDER (directional), WARP_CARPET (directional), WARP_CARPET_UP (directional), WARP_CARPET_DOWN (directional, sometimes one-way), WARP_CARPET_RIGHT (directional).
+- **Warps:** CAVE, DOOR (conditional), LADDER (directional), WARP_CARPET (directional), WARP_CARPET_UP (directional), WARP_CARPET_DOWN (directional, sometimes one-way, may require pressing 'Down' to activate), WARP_CARPET_RIGHT (directional).
 - **One-Way:** LEDGE_HOP (directional).
 - **One-Way (Upward Ledge):** FLOOR_UP_WALL (cannot be moved *down from* this tile, and cannot be moved *down onto* this tile).
 
@@ -120,16 +120,6 @@
 ## Route 36 National Park Gate Tile Mechanics
 - **FLOOR**: Traversable. Verified in the gatehouse.
 - **COUNTER**: Impassable. Verified in the gatehouse.
-
-## SQUIRT BOTTLE Quest & WEIRD_TREE Puzzle (SOLVED)
-- **Objective:** Clear the WEIRD_TREE on Route 36.
-- **Solution:**
-  1. Defeat Gym Leader Whitney in Goldenrod Gym.
-  2. Speak to the Lass at (9, 6) in the Gym. This prompts Whitney to give you the Plain Badge and TM45.
-  3. Go to the Goldenrod Flower Shop. The woman at (2, 3) will give you the SQUIRT BOTTLE.
-  4. Travel to Route 36 and use the SQUIRT BOTTLE on the WEIRD_TREE at (35, 9).
-  5. The tree reveals itself as a Sudowoodo. After the encounter, the path is clear.
-  6. An NPC at (36, 9) will then give you TM08 (Rock Smash).
 
 # Blocked Quests
 - **Mail Delivery:** The Officer in the Route 35 Goldenrod Gate is currently unreachable due to the counter layout. The quest is on hold.
