@@ -107,4 +107,10 @@
 2. Travel south on Route 35 to the Route 35 Goldenrod Gate.
 3. Enter Goldenrod City.
 4. Navigate to the Goldenrod Flower Shop at coordinates (29, 5).
-5. Speak to the NPC inside to receive the SQUIRT BOTTLE.
+5. Speak to the NPC inside to receive the SQUIRT BOTTLE. (Failed twice - NPC only repeats dialogue about her sister).
+
+**New Hypothesis:** The trigger for receiving the SQUIRT BOTTLE requires speaking to Gym Leader Whitney again *after* the battle.
+**New Plan:**
+1. Return to Goldenrod Gym.
+2. Speak to Gym Leader Whitney.
+3. Return to the Flower Shop and speak to the Teacher.
