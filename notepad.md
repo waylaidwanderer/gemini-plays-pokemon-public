@@ -24,7 +24,7 @@
 ### Custom Tools
 - **`deterministic_battle_strategist`**: A rule-based agent for battle strategy.
 - **`path_and_execute`**: A pathfinding tool that generates coordinate paths.
-- **`find_unseen_tiles`**: A tool to find all unseen tiles on the map.
+- **`find_reachable_unseen_tiles`**: A tool that finds unseen tiles adjacent to seen, traversable tiles and confirms which are reachable from the player's current position.
 
 ### Custom Agents
 - **`quest_progression_advisor`**: An agent to suggest next steps in quests.

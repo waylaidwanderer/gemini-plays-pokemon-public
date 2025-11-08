@@ -871,19 +871,24 @@
       }
     ]
   },
-  "find_unseen_tiles": {
-    "description": "Parses the map_xml_string to find all tiles with seen=\"false\" and returns their coordinates as a JSON list.",
+  "find_reachable_unseen_tiles": {
+    "description": "Parses the map XML to find unseen tiles adjacent to seen, traversable tiles, and then runs a pathfinding check to determine which of them are actually reachable from the player's current position. Returns a list of reachable unseen coordinates.",
     "input_schema": {
       "type": "object",
       "properties": {},
       "required": []
     },
-    "python_script": "import json\nimport xml.etree.ElementTree as ET\n\nunseen_tiles = []\nroot = ET.fromstring(map_xml_string)\nfor tile in root.findall('.//Tile[@seen=\"false\"]'):\n    coord_str = tile.get('coordinate')\n    x, y = map(int, coord_str[1:-1].split(', '))\n    unseen_tiles.append({'x': x, 'y': y})\n\nprint(json.dumps(unseen_tiles))",
+    "python_script": "import sys\nimport json\nimport xml.etree.ElementTree as ET\nfrom collections import deque\n\ndef find_path(map_xml_string, start_pos, target_pos, tile_data, width, height, impassable_types):\n    queue = deque([(start_pos, [start_pos])])\n    visited = {start_pos}\n    while queue:\n        current_pos, path = queue.popleft()\n        if current_pos == target_pos:\n            return path\n        for move in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n            next_pos = (current_pos[0] + move[0], current_pos[1] + move[1])\n            if next_pos in visited or not (0 <= next_pos[0] < width and 0 <= next_pos[1] < height):\n                continue\n            tile_info = tile_data.get(next_pos)\n            if not tile_info or tile_info['type'] in impassable_types or tile_info['has_object'] or (tile_info['seen'] == 'false' and next_pos != target_pos):\n                continue\n            visited.add(next_pos)\n            queue.append((next_pos, path + [next_pos]))\n    return []\n\nroot = ET.fromstring(map_xml_string)\nwidth = int(root.get('width'))\nheight = int(root.get('height'))\nimpassable_types = {'WALL', 'VOID', 'PC', 'TV', 'MART_SHELF', 'COUNTER', 'WATER', 'CUT_TREE', 'BOOKSHELF', 'PILLAR', 'RADIO', 'TOWN_MAP', 'INCENSE_BURNER', 'BUOY', 'HEADBUTT_TREE'}\ntile_data = {}\nseen_traversable_tiles = set()\nunseen_tiles = []\nplayer_pos = None\n\nfor row in root.findall('Row'):\n    for tile in row.findall('Tile'):\n        coord = tuple(map(int, tile.get('coordinate')[1:-1].split(', ')))\n        is_obstacle = tile.find('.//Object') is not None and tile.find('.//Player') is None\n        tile_type = tile.get('type').strip()\n        is_seen = tile.get('seen') == 'true'\n        tile_data[coord] = {'type': tile_type, 'has_object': is_obstacle, 'seen': 'true' if is_seen else 'false'}\n        if is_seen and tile_type not in impassable_types and not is_obstacle:\n            seen_traversable_tiles.add(coord)\n        if not is_seen:\n            unseen_tiles.append(coord)\n        if tile.find('.//Player') is not None:\n            player_pos = coord\n\npotentially_reachable_unseen = []\nfor x, y in unseen_tiles:\n    for move in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n        adj_pos = (x + move[0], y + move[1])\n        if adj_pos in seen_traversable_tiles:\n            potentially_reachable_unseen.append((x, y))\n            break\n\nif not player_pos:\n    print(json.dumps([]))\nelse:\n    reachable_unseen_tiles = []\n    for target_pos in potentially_reachable_unseen:\n        # Find a path to an adjacent traversable tile, not the unseen tile itself\n        path_found = False\n        for move in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n            adj_to_target = (target_pos[0] + move[0], target_pos[1] + move[1])\n            if adj_to_target in seen_traversable_tiles:\n                path = find_path(map_xml_string, player_pos, adj_to_target, tile_data, width, height, impassable_types)\n                if path:\n                    reachable_unseen_tiles.append({'x': target_pos[0], 'y': target_pos[1]})\n                    path_found = True\n                    break\n    print(json.dumps(reachable_unseen_tiles))",
     "history": [
       {
-        "commit_message": "feat: Create tool to extract unseen tile coordinates. This tool parses the map XML and returns a structured list of unseen tile coordinates, enabling agents like 'exploration_strategist' to perform strategic analysis without handling raw data, resolving a critical agent misuse error.",
-        "timestamp": "2025-11-08T10:30:32.824Z",
-        "action_counter": 27995
+        "commit_message": "feat: Create tool to find reachable unseen tiles. This tool automates the analysis of the 'Potentially Reachable Unseen Tiles' alert by parsing the map, identifying unseen tiles adjacent to known traversable areas, and then running a pathfinding check from the player's position to confirm reachability. This resolves a major strategic bottleneck by turning a vague system alert into a concrete list of actionable exploration targets.",
+        "timestamp": "2025-11-08T15:54:36.893Z",
+        "action_counter": 28534
+      },
+      {
+        "commit_message": "feat: Create tool to find reachable unseen tiles. This tool automates the analysis of the 'Potentially Reachable Unseen Tiles' alert by parsing the map, identifying unseen tiles adjacent to known traversable areas, and then running a pathfinding check from the player's position to confirm reachability. This resolves a major strategic bottleneck by turning a vague system alert into a concrete list of actionable exploration targets.",
+        "timestamp": "2025-11-08T16:24:49.677Z",
+        "action_counter": 28585
       }
     ]
   }
