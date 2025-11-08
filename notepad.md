@@ -167,8 +167,5 @@
 - **Hypothesis 3:** Whitney in the Goldenrod Gym will provide a replacement or clue. **Result: FALSE.**
 - **Hypothesis 4:** One of my party Pokémon is holding the item. **Result: FALSE.**
 - **Hypothesis 5:** The item is in the PC's Item Storage. **Result: FALSE.**
-- **Hypothesis 6:** A Pokémon in the PC is holding the item.
-- **Test 6:** Checked the Pokémon Storage System.
-- **Result 6:** No Pokémon are stored in the PC.
-- **Conclusion:** Hypothesis 6 is FALSE.
+- **Hypothesis 6:** A Pokémon in the PC is holding the item. **Result: FALSE.**
 - **Next Step:** Return to the Flower Shop to test the hypothesis that my bag was full during the initial conversation.
