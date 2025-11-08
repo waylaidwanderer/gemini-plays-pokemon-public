@@ -126,3 +126,8 @@
 
 ## Tool Ideas
 - `path_and_execute` refinement: Add an optional boolean argument `avoid_warps` (defaulting to True). If True, the pathfinder should treat all warp tiles as impassable unless the warp tile is the explicit `target_x`/`target_y`.
+## Route 31 Cooltrainer (SOLVED)
+- **Hypothesis:** The Cooltrainer M blocking the path on Route 31 must be defeated to proceed.
+- **Test:** After stunning him, I interacted with him at (33, 8).
+- **Result:** He gave flavor text about needing a POKéMON with a light-up move for Dark Cave. No battle was initiated.
+- **Conclusion:** Hypothesis is FALSE. He is a non-battling NPC who provides a hint. He was also not blocking the path, which was a major misinterpretation on my part.
