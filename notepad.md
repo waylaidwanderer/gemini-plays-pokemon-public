@@ -171,3 +171,12 @@
 - **Hypothesis 5:** The item is in the PC's Item Storage. **Result: FALSE.**
 - **Hypothesis 6:** A Pokémon in the PC is holding the item. **Result: FALSE.**
 - **Conclusion:** My bag was full during the initial conversation, so the item was automatically given to my lead Pokémon to hold.
+
+## Azalea Town Tile Mechanics
+- **FLOOR**: Traversable. Verified in Azalea Town.
+- **WALL**: Impassable. Verified in Azalea Town.
+- **HEADBUTT_TREE**: Impassable. Verified in Azalea Town.
+- **DOOR**: Traversable warp. Verified in Azalea Town.
+- **CAVE**: Traversable warp. Verified in Azalea Town.
+- **WARP_CARPET_LEFT**: Traversable warp. Verified in Azalea Town.
+- **LEDGE_HOP_DOWN**: One-way traversal. Verified in Azalea Town.
