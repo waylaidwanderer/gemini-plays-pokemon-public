@@ -110,8 +110,9 @@
 5. Speak to the NPC inside to receive the SQUIRT BOTTLE. (Failed twice - NPC only repeats dialogue about her sister).
 
 **Hypothesis 2 (Failed):** The trigger for receiving the SQUIRT BOTTLE requires speaking to Gym Leader Whitney again *after* the battle. **Result:** Whitney just gave dismissive dialogue.
-**New Hypothesis (H3):** After speaking to Whitney, I must speak to another trainer in the gym. This might trigger a new dialogue from Whitney or give me a clue.
+**Hypothesis 3 (Failed):** The trigger for the SQUIRT BOTTLE required speaking to the Lass at (9, 6) and then Whitney again. **Result:** Both NPCs just repeated their previous dialogue.
+**New Hypothesis (H4):** The full trigger sequence is: Defeat Whitney, speak to the Lass in the gym, speak to Whitney again, and THEN return to the Flower Shop to speak with the Teacher.
 **New Plan:**
-1. Speak to the Lass trainer at (9, 6).
-2. Speak to Whitney again.
-3. If that fails, return to the Flower Shop and speak to the Teacher.
+1. Exit the Goldenrod Gym.
+2. Navigate back to the Goldenrod Flower Shop.
+3. Speak to the Teacher NPC inside.
