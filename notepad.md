@@ -20,21 +20,6 @@
 
 # Location Specific Mechanics
 
-## Route 32 Tile Mechanics
-- **FLOOR**: Traversable.
-- **WALL**: Impassable.
-- **TALL_GRASS**: Traversable, triggers wild encounters.
-- **HEADBUTT_TREE**: Impassable.
-- **WATER**: Impassable.
-- **WARP_CARPET_LEFT**: Traversable warp.
-- **DOOR**: Traversable warp.
-- **CAVE**: Traversable warp.
-- **LEDGE_HOP_DOWN**: One-way traversal.
-- **LEDGE_HOP_RIGHT**: One-way traversal.
-- **FLOOR_UP_WALL**: One-way upward ledge.
-- **LADDER**: Traversable (used for piers).
-- **BUOY**: Untested, assumed impassable.
-
 ## Route 34 & Gatehouse Tile Mechanics
 - **FLOOR**: Traversable.
 - **WALL**: Impassable.
