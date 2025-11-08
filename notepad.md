@@ -130,3 +130,6 @@
   4. Travel to Route 36 and use the SQUIRT BOTTLE on the WEIRD_TREE at (35, 9).
   5. The tree reveals itself as a Sudowoodo. After the encounter, the path is clear.
   6. An NPC at (36, 9) will then give you TM08 (Rock Smash).
+
+# Blocked Quests
+- **Mail Delivery:** The Officer in the Route 35 Goldenrod Gate is currently unreachable due to the counter layout. The quest is on hold.
