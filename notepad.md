@@ -147,3 +147,11 @@
 - **TALL_GRASS**: Traversable, triggers wild encounters. Verified in National Park.
 - **LONG_GRASS**: Traversable, triggers wild encounters. Verified in National Park.
 - **WARP_CARPET_RIGHT**: Traversable warp. Activated by pressing Right. Verified in National Park.
+
+## Route 36 National Park Gate Tile Mechanics
+- **FLOOR**: Traversable. Verified in Route 36 National Park Gate.
+- **WALL**: Impassable. Verified in Route 36 National Park Gate.
+- **COUNTER**: Impassable. Verified in Route 36 National Park Gate.
+- **PC**: Impassable. Verified in Route 36 National Park Gate.
+- **WARP_CARPET_LEFT**: Traversable warp. Activated by pressing Left. Verified in Route 36 National Park Gate.
+- **WARP_CARPET_RIGHT**: Traversable warp. Activated by pressing Right. Verified in Route 36 National Park Gate.
