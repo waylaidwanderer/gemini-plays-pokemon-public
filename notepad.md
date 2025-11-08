@@ -121,7 +121,6 @@
   - **Test to Falsify:** If my progress through the National Park is blocked, I will return and attempt to join the contest to see if it triggers a story event.
 
 # Reflection Turn 27286 Notes
-- **Notepad Cleanup:** Duplicate entry for "Route 36 National Park Gate Tile Mechanics" needs to be removed later.
 - **New Tile Mechanics from Route 36:**
   - **WARP_CARPET_LEFT**: Traversable warp. Activated by pressing Left. Verified on Route 36.
   - **WARP_CARPET_DOWN**: Traversable warp. Verified on Route 36 at Ruins of Alph entrance.

@@ -135,157 +135,6 @@
       }
     ]
   },
-  "find_all_reachable_tiles": {
-    "description": "Finds all tiles reachable from the player's current position on the current map using a Breadth-First Search (BFS) algorithm and returns them as a list of coordinate dictionaries.",
-    "input_schema": {},
-    "python_script": "import json\nimport xml.etree.ElementTree as ET\nfrom collections import deque\n\ndef find_all_reachable_tiles_func(map_xml_string, start_pos):\n    root = ET.fromstring(map_xml_string)\n    width = int(root.get('width'))\n    height = int(root.get('height'))\n\n    impassable_types = {'WALL', 'VOID', 'HEADBUTT_TREE', 'PC', 'TV', 'MART_SHELF', 'COUNTER', 'WATER', 'CUT_TREE'}\n    \n    tile_data = {}\n    for row in root.findall('Row'):\n        for tile in row.findall('Tile'):\n            coord = tuple(map(int, tile.get('coordinate')[1:-1].split(', ')))\n            has_persistent_object = False\n            for marker in tile.findall('.//Marker'):\n                if marker.get('object_id') is not None:\n                    if marker.get('emoji') != '✅':\n                         has_persistent_object = True\n                         break\n            tile_data[coord] = {\n                'type': tile.get('type').strip(),\n                'has_object': tile.find('.//Object') is not None,\n                'has_persistent_object': has_persistent_object,\n                'seen': tile.get('seen'),\n                'is_warp': tile.get('is-warp') == 'true'\n            }\n\n    queue = deque([start_pos])\n    visited = {start_pos}\n\n    while queue:\n        current_pos = queue.popleft()\n        current_tile_info = tile_data.get(current_pos)\n        current_tile_type = current_tile_info.get('type') if current_tile_info else None\n\n        for move in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n            if current_tile_type:\n                if current_tile_type == 'LEDGE_HOP_DOWN' and move == (0, -1):\n                    continue\n                if current_tile_type == 'LEDGE_HOP_LEFT' and move == (1, 0):\n                    continue\n                if current_tile_type == 'LEDGE_HOP_RIGHT' and move == (-1, 0):\n                    continue\n                if current_tile_type == 'FLOOR_UP_WALL' and move == (0, -1):\n                    continue\n\n            next_pos = (current_pos[0] + move[0], current_pos[1] + move[1])\n\n            if next_pos in visited or not (0 <= next_pos[0] < width and 0 <= next_pos[1] < height):\n                continue\n\n            tile_info = tile_data.get(next_pos)\n            if not tile_info or tile_info['seen'] == 'false' or tile_info['type'] in impassable_types or tile_info['has_object'] or tile_info['has_persistent_object'] or tile_info['is_warp']:\n                continue\n\n            visited.add(next_pos)\n            queue.append(next_pos)\n\n    return list(visited)\n\nroot = ET.fromstring(map_xml_string)\nplayer_tile = root.find('.//Player/..')\nif player_tile is not None:\n    start_coord_str = player_tile.get('coordinate')\n    start_x, start_y = map(int, start_coord_str[1:-1].split(', '))\n    \n    reachable_tiles = find_all_reachable_tiles_func(map_xml_string, (start_x, start_y))\n    print(json.dumps([{'x': p[0], 'y': p[1]} for p in reachable_tiles]))\nelse:\n    print(json.dumps([]))",
-    "history": [
-      {
-        "commit_message": "feat: Create tool to find all reachable tiles. This tool adapts the BFS logic from existing pathfinders to exhaustively map all tiles accessible from the player's current position. It's essential for performing systematic searches of enclosed areas, like the Ilex Forest puzzle, to ensure no tiles are missed.",
-        "timestamp": "2025-11-06T18:20:17.131Z",
-        "action_counter": 23720
-      },
-      {
-        "commit_message": "fix: Add check for unseen tiles and improve ledge logic. The tool was generating invalid data by pathing through unseen tiles. This commit adds a check for `seen == 'false'` to the BFS loop. It also incorporates the more robust, two-way ledge validation logic from the `path_and_execute` tool to improve its accuracy on future maps.",
-        "timestamp": "2025-11-06T22:56:34.691Z",
-        "action_counter": 24199
-      },
-      {
-        "commit_message": "fix: Correct ModuleNotFoundError by fixing XML import. The script was using `import xml.et`, which is an invalid module path. This commit changes it to the correct `import xml.etree.ElementTree`, resolving the crash.",
-        "timestamp": "2025-11-07T05:13:59.540Z",
-        "action_counter": 25027
-      },
-      {
-        "commit_message": "refactor: Sync logic with path_and_execute tool. This commit updates the `find_all_reachable_tiles` tool to use the same, more robust logic as the `path_and_execute` tool. This includes the improved recursive object detection (`.//Object`), persistent off-screen object detection via map markers, and the newly discovered directional movement restriction for `CUT_TREE` tiles. This ensures that the diagnostic tool provides an accurate representation of what the pathfinder considers reachable, which is critical for debugging pathing failures.",
-        "timestamp": "2025-11-07T19:06:51.004Z",
-        "action_counter": 26377
-      },
-      {
-        "commit_message": "feat: Create diagnostic tool to visualize pathfinder's reachable tiles. This tool, `find_all_reachable_tiles`, adapts the BFS logic from `path_and_execute` to exhaustively map all tiles the pathfinder considers accessible from the player's current position. This is a critical step in proactively debugging the pathfinder by allowing direct comparison between its perceived map and the actual game world, rather than relying on failed pathing attempts to reveal bugs.",
-        "timestamp": "2025-11-07T20:00:51.302Z",
-        "action_counter": 26455
-      },
-      {
-        "commit_message": "refactor: Sync logic with path_and_execute. This commit updates the diagnostic tool to use the same, more robust logic as the `path_and_execute` tool, including the newly discovered rule that blocks downward movement onto `FLOOR_UP_WALL` tiles. This ensures that the diagnostic tool provides an accurate representation of what the pathfinder considers reachable, which is critical for debugging pathing failures.",
-        "timestamp": "2025-11-07T20:29:17.320Z",
-        "action_counter": 26505
-      },
-      {
-        "commit_message": "feat: Create diagnostic tool to visualize pathfinder's reachable tiles. This tool, `find_all_reachable_tiles`, adapts the BFS logic from `path_and_execute` to exhaustively map all tiles the pathfinder considers accessible from the player's current position. This is a critical step in proactively debugging the pathfinder by allowing direct comparison between its perceived map and the actual game world, rather than relying on failed pathing attempts to reveal bugs.",
-        "timestamp": "2025-11-07T21:14:18.431Z",
-        "action_counter": 26575
-      },
-      {
-        "commit_message": "fix: Correct persistent object detection. The previous logic incorrectly assumed defeated trainers were not obstacles, causing pathing failures. This commit changes the logic to treat any object marker (except for '✅' item pickups) as an impassable wall, reflecting the in-game behavior.",
-        "timestamp": "2025-11-07T21:33:32.342Z",
-        "action_counter": 26604
-      },
-      {
-        "commit_message": "fix: Add rule to block downward movement onto FLOOR_UP_WALL. The tool generated an invalid path by attempting to move south from (5, 35) to (5, 36), which was blocked in-game. This commit adds a check on the destination tile type to prevent moving down onto a FLOOR_UP_WALL, resolving the critical pathing failure.",
-        "timestamp": "2025-11-07T21:39:55.363Z",
-        "action_counter": 26613
-      },
-      {
-        "commit_message": "refactor: Sync warp avoidance logic with path_and_execute. This ensures all pathfinding tools treat warp tiles as impassable obstacles, preventing accidental map transitions and ensuring consistent navigation behavior.",
-        "timestamp": "2025-11-07T22:13:01.580Z",
-        "action_counter": 26663
-      },
-      {
-        "commit_message": "refactor: Sync logic with find_path_to_nearest_unseen. This commit updates the diagnostic tool to use the same, more robust logic as the main exploration tool. This includes the source-based ledge checks and the tile type string sanitization (`.strip()`), ensuring consistent behavior across all pathfinding tools. This is critical for accurately diagnosing pathing failures.",
-        "timestamp": "2025-11-08T01:43:17.072Z",
-        "action_counter": 27045
-      }
-    ]
-  },
-  "find_path_to_nearest_unseen": {
-    "description": "Finds the shortest path to a reachable tile that is adjacent to an unseen tile, automating systematic exploration.",
-    "input_schema": {},
-    "python_script": "import json\nimport xml.etree.ElementTree as ET\nfrom collections import deque\n\nroot = ET.fromstring(map_xml_string)\nplayer_tile = root.find('.//Player/..')\nif player_tile is None:\n    print(json.dumps([]))\nelse:\n    start_coord_str = player_tile.get('coordinate')\n    start_x, start_y = map(int, start_coord_str[1:-1].split(', '))\n    start_pos = (start_x, start_y)\n\n    width = int(root.get('width'))\n    height = int(root.get('height'))\n\n    impassable_types = {'WALL', 'VOID', 'HEADBUTT_TREE', 'PC', 'TV', 'MART_SHELF', 'COUNTER', 'WATER', 'CUT_TREE'}\n    \n    tile_data = {}\n    all_unseen_coords = set()\n    for row in root.findall('Row'):\n        for tile in row.findall('Tile'):\n            coord = tuple(map(int, tile.get('coordinate')[1:-1].split(', ')))\n            seen_status = tile.get('seen')\n            if seen_status == 'false':\n                all_unseen_coords.add(coord)\n            \n            has_persistent_object = False\n            for marker in tile.findall('.//Marker'):\n                if marker.get('object_id') is not None:\n                    if marker.get('emoji') != '\t✅':\n                         has_persistent_object = True\n                         break\n            \n            tile_data[coord] = {\n                'type': tile.get('type').strip(),\n                'has_object': tile.find('.//Object') is not None,\n                'has_persistent_object': has_persistent_object,\n                'seen': seen_status,\n                'is_warp': tile.get('is-warp') == 'true'\n            }\n\n    queue = deque([(start_pos, [start_pos])])\n    visited = {start_pos}\n\n    path_found = False\n    if all_unseen_coords:\n        while queue:\n            current_pos, path = queue.popleft()\n            current_tile_info = tile_data.get(current_pos)\n            current_tile_type = current_tile_info.get('type') if current_tile_info else None\n\n            is_frontier = False\n            for move in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n                adj_pos = (current_pos[0] + move[0], current_pos[1] + move[1])\n                if adj_pos in all_unseen_coords:\n                    is_frontier = True\n                    break\n            \n            if is_frontier:\n                print(json.dumps([{'x': p[0], 'y': p[1]} for p in path]))\n                path_found = True\n                break\n\n            for move in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n                if current_tile_type:\n                    if current_tile_type == 'LEDGE_HOP_DOWN' and move == (0, -1):\n                        continue\n                    if current_tile_type == 'LEDGE_HOP_LEFT' and move == (1, 0):\n                        continue\n                    if current_tile_type == 'LEDGE_HOP_RIGHT' and move == (-1, 0):\n                        continue\n                    if current_tile_type == 'FLOOR_UP_WALL' and move == (0, -1):\n                        continue\n\n                next_pos = (current_pos[0] + move[0], current_pos[1] + move[1])\n\n                if next_pos in visited:\n                    continue\n                \n                if not (0 <= next_pos[0] < width and 0 <= next_pos[1] < height):\n                    continue\n\n                tile_info = tile_data.get(next_pos)\n                \n                if not tile_info or tile_info['seen'] == 'false':\n                    continue\n                \n                if tile_info['type'] in impassable_types or tile_info['has_object'] or tile_info['has_persistent_object'] or tile_info['is_warp']:\n                    continue\n\n                visited.add(next_pos)\n                new_path = path + [next_pos]\n                queue.append((next_pos, new_path))\n    \n    if not path_found:\n        print(json.dumps([]))",
-    "history": [
-      {
-        "commit_message": "feat: Create tool to find and path to the nearest unseen tile. This tool automates systematic exploration by first identifying all currently reachable tiles, then finding which of those are adjacent to unseen 'frontier' tiles, and finally calculating the shortest path to the closest one. This was created in response to a pathfinding failure caused by attempting to navigate across a largely unexplored map.",
-        "timestamp": "2025-11-07T20:57:54.122Z",
-        "action_counter": 26560
-      },
-      {
-        "commit_message": "fix: Unify BFS logic to correctly find frontier tiles. The previous three-stage algorithm failed to identify frontiers when the seen area was bordered by impassable tiles. This commit replaces it with a single, unified BFS that explores and checks for adjacent unseen tiles simultaneously, resolving the critical failure where the tool returned an empty path on an unexplored map.",
-        "timestamp": "2025-11-07T21:04:42.767Z",
-        "action_counter": 26564
-      },
-      {
-        "commit_message": "fix: Correct FLOOR_UP_WALL movement logic. The previous version incorrectly blocked downward movement onto these tiles. The fix removes this restriction, allowing the pathfinder to correctly navigate these one-way paths and find previously inaccessible frontiers. This resolves the critical failure where the tool returned an empty path on an unexplored map.",
-        "timestamp": "2025-11-07T21:10:34.604Z",
-        "action_counter": 26570
-      },
-      {
-        "commit_message": "fix: Correct FLOOR_UP_WALL logic to block downward movement. The previous versions incorrectly blocked upward movement onto the tile. This commit corrects the logic to check the source tile, preventing any downward movement from a `FLOOR_UP_WALL`, which accurately models its one-way ledge behavior and resolves the critical pathing failure.",
-        "timestamp": "2025-11-07T21:13:21.054Z",
-        "action_counter": 26573
-      },
-      {
-        "commit_message": "fix: Correct persistent object detection. The previous logic incorrectly assumed defeated trainers were not obstacles, causing pathing failures. This commit changes the logic to treat any object marker (except for '✅' item pickups) as an impassable wall, reflecting the in-game behavior.",
-        "timestamp": "2025-11-07T21:33:32.341Z",
-        "action_counter": 26604
-      },
-      {
-        "commit_message": "fix: Add rule to block downward movement onto FLOOR_UP_WALL. The tool generated an invalid path by attempting to move south from (5, 35) to (5, 36), which was blocked in-game. This commit adds a check on the destination tile type to prevent moving down onto a FLOOR_UP_WALL, resolving the critical pathing failure.",
-        "timestamp": "2025-11-07T21:39:55.362Z",
-        "action_counter": 26613
-      },
-      {
-        "commit_message": "refactor: Sync warp avoidance logic with path_and_execute. This ensures all pathfinding tools treat warp tiles as impassable obstacles, preventing accidental map transitions and ensuring consistent navigation behavior.",
-        "timestamp": "2025-11-07T22:13:01.579Z",
-        "action_counter": 26663
-      },
-      {
-        "commit_message": "fix: Correct FLOOR_UP_WALL movement logic. The previous version incorrectly blocked downward movement from/to these tiles. The fix corrects the logic to block upward movement *into* a FLOOR_UP_WALL tile, which matches its name and the behavior of other ledge-like tiles. This resolves the critical failure where the tool returned an empty path on an unexplored map.",
-        "timestamp": "2025-11-08T01:26:54.354Z",
-        "action_counter": 27025
-      },
-      {
-        "commit_message": "fix: Correct ledge logic to be source-based. The tool was incorrectly checking the destination tile for movement restrictions, causing it to fail on valid paths adjacent to ledges. This commit moves the checks to be based on the source tile (`current_pos`), which correctly models the game's one-way traversal mechanics and resolves the critical pathing failure.",
-        "timestamp": "2025-11-08T01:32:30.999Z",
-        "action_counter": 27031
-      },
-      {
-        "commit_message": "chore: Add debug print to diagnose impassable tile failure. The tool is generating paths through HEADBUTT_TREEs despite logic that should prevent it. This print will show the tile type and the result of the `in impassable_types` check for the specific failing coordinate (23, 4) to identify the root cause of the error.",
-        "timestamp": "2025-11-08T01:34:30.914Z",
-        "action_counter": 27034
-      },
-      {
-        "commit_message": "chore: Add more robust debug print to stdout. The previous stderr print failed. This version uses repr() and prints to stdout to guarantee output for diagnosing the impassable tile failure.",
-        "timestamp": "2025-11-08T01:39:06.434Z",
-        "action_counter": 27038
-      },
-      {
-        "commit_message": "fix: Sanitize tile type strings to prevent pathing failures. The tool was generating invalid paths into impassable tiles because the tile type string from the game data contained a trailing space ('HEADBUTT_TREE '), causing the `in impassable_types` check to fail. This commit adds `.strip()` to the tile type parsing logic, resolving this critical data cleanliness issue.",
-        "timestamp": "2025-11-08T01:40:06.934Z",
-        "action_counter": 27040
-      },
-      {
-        "commit_message": "fix: Sanitize tile type strings to prevent pathing failures. The tool was generating invalid paths into impassable tiles because the tile type string from the game data contained a trailing space ('HEADBUTT_TREE '), causing the `in impassable_types` check to fail. This commit adds `.strip()` to the tile type parsing logic, resolving this critical data cleanliness issue.",
-        "timestamp": "2025-11-08T01:41:32.368Z",
-        "action_counter": 27041
-      }
-    ]
-  },
-  "find_truly_reachable_unseen_tiles": {
-    "description": "Finds all unseen tiles that are truly reachable by being adjacent to a tile the player can currently stand on and are themselves traversable.",
-    "input_schema": {},
-    "python_script": "import json\nimport xml.etree.ElementTree as ET\nfrom collections import deque\n\ndef find_truly_reachable_unseen_tiles(map_xml_string):\n    root = ET.fromstring(map_xml_string)\n    width = int(root.get('width'))\n    height = int(root.get('height'))\n\n    impassable_types = {'WALL', 'VOID', 'HEADBUTT_TREE', 'CUT_TREE', 'PC', 'TV', 'MART_SHELF', 'COUNTER', 'WATER'}\n    \n    tile_data = {}\n    unseen_tiles = []\n    start_pos = None\n    for row in root.findall('Row'):\n        for tile in row.findall('Tile'):\n            coord = tuple(map(int, tile.get('coordinate')[1:-1].split(', ')))\n            tile_data[coord] = {\n                'type': tile.get('type'),\n                'has_object': tile.find('Object') is not None,\n                'seen': tile.get('seen')\n            }\n            if tile.find('Player') is not None:\n                start_pos = coord\n            if tile.get('seen') == 'false':\n                unseen_tiles.append(coord)\n\n    if start_pos is None:\n        return []\n\n    # BFS to find all reachable tiles\n    queue = deque([start_pos])\n    reachable_tiles = {start_pos}\n\n    while queue:\n        current_pos = queue.popleft()\n        for move in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n            next_pos = (current_pos[0] + move[0], current_pos[1] + move[1])\n\n            if not (0 <= next_pos[0] < width and 0 <= next_pos[1] < height):\n                continue\n\n            if next_pos in reachable_tiles:\n                continue\n            \n            tile_info = tile_data.get(next_pos)\n            if not tile_info or tile_info['seen'] == 'false' or tile_info['type'] in impassable_types or tile_info['has_object']:\n                continue\n            \n            reachable_tiles.add(next_pos)\n            queue.append(next_pos)\n\n    # Find unseen, traversable tiles adjacent to reachable tiles\n    truly_reachable_unseen = []\n    for unseen_coord in unseen_tiles:\n        is_adjacent_to_reachable = False\n        for move in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n            adj_pos = (unseen_coord[0] + move[0], unseen_coord[1] + move[1])\n            if adj_pos in reachable_tiles:\n                is_adjacent_to_reachable = True\n                break\n        \n        if is_adjacent_to_reachable:\n            unseen_tile_info = tile_data.get(unseen_coord)\n            if unseen_tile_info and unseen_tile_info['type'] not in impassable_types and not unseen_tile_info['has_object']:\n                truly_reachable_unseen.append(unseen_coord)\n                \n    return truly_reachable_unseen\n\nresult = find_truly_reachable_unseen_tiles(map_xml_string)\nprint(json.dumps([{'x': p[0], 'y': p[1]} for p in result]))",
-    "history": [
-      {
-        "commit_message": "feat: Create tool to find truly reachable unseen tiles. This tool performs a BFS to identify all tiles currently reachable by the player and then cross-references this set with all unseen tiles on the map to find which ones are directly adjacent and therefore explorable. This was created in response to a mandatory self-reflection prompt to improve exploration efficiency.",
-        "timestamp": "2025-11-07T06:07:50.482Z",
-        "action_counter": 25155
-      },
-      {
-        "commit_message": "fix: Add traversability check for unseen tiles. The previous version only checked if an unseen tile was adjacent to a reachable area, leading it to incorrectly suggest impassable tiles like WALLs as valid exploration targets. This commit adds a check to ensure the unseen tile itself is not in the `impassable_types` set and has no object before adding it to the final list, resolving the critical logical flaw.",
-        "timestamp": "2025-11-07T06:30:42.555Z",
-        "action_counter": 25201
-      }
-    ]
-  },
   "path_and_execute": {
     "description": "Generates a path to a target coordinate and returns it as a list of coordinate dictionaries for use with `path_plan`. Automatically attempts to run from wild battles if interrupted.",
     "input_schema": {
@@ -799,6 +648,38 @@
         "commit_message": "refactor: Sync logic with other pathfinding tools. This commit updates the tool to use more robust logic from other pathfinders, including sanitizing emoji strings for object detection (`.strip()`) and adding a destination-based check for `FLOOR_UP_WALL` tiles. This ensures consistent and more reliable navigation behavior across all tools.",
         "timestamp": "2025-11-08T03:30:53.628Z",
         "action_counter": 27259
+      }
+    ]
+  },
+  "menu_navigator": {
+    "description": "Navigates the pack menu to find and select a specific item. This tool is intended to be used with autopress_buttons. It cannot read the screen, so it relies on a fixed sequence of button presses.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "target_item_pocket": {
+          "type": "string",
+          "enum": [
+            "Items",
+            "Balls",
+            "Key Items",
+            "TM/HM"
+          ]
+        },
+        "target_item_position": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "target_item_pocket",
+        "target_item_position"
+      ]
+    },
+    "python_script": "import json\n\npockets = [\"Items\", \"Balls\", \"Key Items\", \"TM/HM\"]\nstart_pocket = \"Items\" # Always starts here\ntarget_pocket = input_data['target_item_pocket']\ntarget_position = int(input_data['target_item_position'])\n\nstart_index = pockets.index(start_pocket)\ntarget_index = pockets.index(target_pocket)\n\nmoves = []\ndiff = target_index - start_index\n\nif diff > 0:\n    for _ in range(diff):\n        moves.append(\"Right\")\nelif diff < 0:\n    for _ in range(abs(diff)):\n        moves.append(\"Left\")\n\n# Now navigate to the item position\n# The cursor starts at the first item, so we need position-1 downs\nfor _ in range(target_position - 1):\n    moves.append(\"Down\")\n\n# Final 'A' to select the item, then 'A' to select 'USE'\nmoves.append(\"A\")\nmoves.append(\"A\")\n\nprint(json.dumps(moves))",
+    "history": [
+      {
+        "commit_message": "feat: Create menu_navigator tool to automate item selection. This tool is a direct response to being stuck for over 50 turns in a bugged menu. It provides a programmatic way to navigate the pack, which should be more reliable than manual input. The initial version relies on knowing the item's exact position in the list, which is a limitation that can be improved later.",
+        "timestamp": "2025-11-08T04:08:07.564Z",
+        "action_counter": 27338
       }
     ]
   }
