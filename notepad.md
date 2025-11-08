@@ -226,5 +226,3 @@
 - This move can be used on `HEADBUTT_TREE` tiles outside of battle by facing the tree and pressing 'A'.
 - **Test 1 (Turn 28043):** Used HEADBUTT on the tree at (16, 14). Result: "Nope. Nothing…".
 - **Conclusion:** Finding a Pokémon is not guaranteed and is likely a chance-based event.
-## Tool Failures
-- **`path_and_execute` (Recurring Failure):** The tool repeatedly fails to path around on-screen NPCs, even when the tile is correctly flagged with `has-object='true'`. This has happened multiple times on Route 34. This needs a thorough debugging session to fix the obstacle avoidance logic.
