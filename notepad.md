@@ -98,14 +98,15 @@
 ## Known Bugs / Strange Mechanics
 - **Item Tossing Bug:** Attempting to 'TOSS' a single-stack item (e.g., BERRY x1) from the bag menu fails and resets the menu. Tossing one item from a multi-item stack (e.g., POTION x9 -> x8) also fails to free an inventory slot. The only confirmed way to free a slot is to have a Pokémon 'HOLD' a single-stack item.
 
-## SQUIRT BOTTLE Quest (Route 36 WEIRD_TREE)
-- **Objective:** Obtain the SQUIRT BOTTLE to clear the WEIRD_TREE at (35, 9) on Route 36.
-- **Clue:** An NPC in the Goldenrod Flower Shop mentioned a gift after beating the Gym Leader. The Teacher NPC is worried about her sister who went to see the tree.
-- **Hypothesis 1 (Failed):** The trigger is simply defeating Gym Leader Whitney. **Result:** The Flower Shop NPC only repeated dialogue about her sister.
-- **Hypothesis 2 (Failed):** The trigger requires speaking to Gym Leader Whitney again *after* the battle. **Result:** Whitney just gave dismissive dialogue.
-- **Agent Hypothesis (Failed):** Reloading the map did not change any NPC dialogue or trigger the event.
-- **Hypothesis 4 (Current):** The trigger for the SQUIRT BOTTLE is not in Goldenrod City. I must first travel to Route 36, locate the WEIRD_TREE, and interact with the Flower Shop lady's sister. This interaction will likely prompt the Flower Shop lady to give me the SQUIRT BOTTLE upon my return.
-  - **Plan:** 1. Exit Goldenrod Gym. 2. Travel to Route 36. 3. Find the sister near the WEIRD_TREE.
+## SQUIRT BOTTLE Quest & WEIRD_TREE Puzzle (SOLVED)
+- **Objective:** Clear the WEIRD_TREE on Route 36.
+- **Solution:**
+  1. Defeat Gym Leader Whitney in Goldenrod Gym.
+  2. Speak to the Lass at (9, 6) in the Gym. This prompts Whitney to give you the Plain Badge and TM45.
+  3. Go to the Goldenrod Flower Shop. The woman at (2, 3) will give you the SQUIRT BOTTLE.
+  4. Travel to Route 36 and use the SQUIRT BOTTLE on the WEIRD_TREE at (35, 9).
+  5. The tree reveals itself as a Sudowoodo. After the encounter, the path is clear.
+  6. An NPC at (36, 9) will then give you TM08 (Rock Smash).
 
 ## Route 35 Tile Mechanics
 - **FLOOR**: Traversable. Verified on Route 35.
