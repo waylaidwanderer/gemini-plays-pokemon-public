@@ -23,6 +23,17 @@
 
 # Location Specific Mechanics
 
+## Ilex Forest Tile Mechanics
+- **FLOOR**: Traversable.
+- **WALL**: Impassable.
+- **HEADBUTT_TREE**: Impassable.
+- **WATER**: Impassable.
+- **DOOR**: Traversable warp.
+- **WARP_CARPET_RIGHT**: Traversable warp.
+- **LEDGE_HOP_DOWN**: One-way traversal.
+- **LEDGE_HOP_LEFT**: One-way traversal.
+- **LEDGE_HOP_RIGHT**: One-way traversal.
+
 ## Route 32 Tile Mechanics
 - **FLOOR**: Traversable.
 - **WALL**: Impassable.
@@ -95,6 +106,15 @@
 - **LEDGE_HOP_DOWN**: One-way traversal. Verified in Violet City.
 - **WARP_CARPET_RIGHT**: Traversable warp. Activated by pressing Right. Verified in Violet City.
 
+## Azalea Town Tile Mechanics
+- **FLOOR**: Traversable. Verified in Azalea Town.
+- **WALL**: Impassable. Verified in Azalea Town.
+- **HEADBUTT_TREE**: Impassable. Verified in Azalea Town.
+- **DOOR**: Traversable warp. Verified in Azalea Town.
+- **CAVE**: Traversable warp. Verified in Azalea Town.
+- **WARP_CARPET_LEFT**: Traversable warp. Verified in Azalea Town.
+- **LEDGE_HOP_DOWN**: One-way traversal. Verified in Azalea Town.
+
 # Active Quests & Notes
 
 ## Mail Delivery
@@ -130,8 +150,8 @@
 ## Tool Development Philosophy (Self-Correction)
 - **Problem:** My `path_and_execute` tool has failed repeatedly, causing movement blockages and wasted turns. My approach of fixing bugs reactively is inefficient.
 - **Solution:** I must adopt a proactive, test-driven approach to tool development.
-- **New Principle:** Before relying on a complex tool for a critical task, I must first build and use diagnostic tools to verify its core logic. For pathfinding, this means creating a tool to visualize the algorithm's understanding of the map (`find_all_reachable_tiles`). This will allow me to identify and fix logical errors in a controlled way, rather than discovering them through trial-and-error during gameplay.
-- **Correction (Turn 26941):** My previous diagnoses of `find_path_to_nearest_unseen` and `path_and_execute` being faulty were incorrect. The tools were functioning as designed. The errors stemmed from my misinterpretation of the output and incorrect manual pathing attempts. This highlights the critical need to trust my tools and carefully verify my own actions before assuming a tool is broken.
+- **New Principle:** Before relying on a complex tool for a critical task, I must first build and use diagnostic tools to verify its core logic. For pathfinding, this means creating a tool to visualize the algorithm's understanding of the map. This will allow me to identify and fix logical errors in a controlled way, rather than discovering them through trial-and-error during gameplay.
+- **Correction (Turn 26941):** My previous diagnoses of my pathfinding tools being faulty were incorrect. The tools were functioning as designed. The errors stemmed from my misinterpretation of the output and incorrect manual pathing attempts. This highlights the critical need to trust my tools and carefully verify my own actions before assuming a tool is broken.
 
 ## Tool Development Notes (Self-Critique)
 - **Critique on Hardcoded Menu Navigation:** Relying on a hardcoded sequence of button presses for menu navigation is extremely brittle and prone to failure if the menu state is not exactly as predicted. This design is inefficient. **Action:** Perform menu navigation manually until a more robust, screen-aware solution can be developed.
@@ -171,30 +191,3 @@
 - **Hypothesis 5:** The item is in the PC's Item Storage. **Result: FALSE.**
 - **Hypothesis 6:** A Pokémon in the PC is holding the item. **Result: FALSE.**
 - **Conclusion:** My bag was full during the initial conversation, so the item was automatically given to my lead Pokémon to hold.
-
-## Azalea Town Tile Mechanics
-- **FLOOR**: Traversable. Verified in Azalea Town.
-- **WALL**: Impassable. Verified in Azalea Town.
-- **HEADBUTT_TREE**: Impassable. Verified in Azalea Town.
-- **DOOR**: Traversable warp. Verified in Azalea Town.
-- **CAVE**: Traversable warp. Verified in Azalea Town.
-- **WARP_CARPET_LEFT**: Traversable warp. Verified in Azalea Town.
-- **LEDGE_HOP_DOWN**: One-way traversal. Verified in Azalea Town.
-
-## Azalea Town Tile Mechanics
-- **FLOOR**: Traversable. Verified in Azalea Town.
-- **WALL**: Impassable. Verified in Azalea Town.
-- **HEADBUTT_TREE**: Impassable. Verified in Azalea Town.
-- **DOOR**: Traversable warp. Verified in Azalea Town.
-- **CAVE**: Traversable warp. Verified in Azalea Town.
-- **WARP_CARPET_LEFT**: Traversable warp. Verified in Azalea Town.
-- **LEDGE_HOP_DOWN**: One-way traversal. Verified in Azalea Town.
-
-## Azalea Town Tile Mechanics
-- **FLOOR**: Traversable. Verified in Azalea Town.
-- **WALL**: Impassable. Verified in Azalea Town.
-- **HEADBUTT_TREE**: Impassable. Verified in Azalea Town.
-- **DOOR**: Traversable warp. Verified in Azalea Town.
-- **CAVE**: Traversable warp. Verified in Azalea Town.
-- **WARP_CARPET_LEFT**: Traversable warp. Verified in Azalea Town.
-- **LEDGE_HOP_DOWN**: One-way traversal. Verified in Azalea Town.
