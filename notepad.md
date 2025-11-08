@@ -123,3 +123,11 @@
 
 # Blocked Quests
 - **Mail Delivery:** The Officer in the Route 35 Goldenrod Gate is currently unreachable due to the counter layout. The quest is on hold.
+
+## Untested Assumptions & Alternative Hypotheses (Post-Reflection)
+- **Assumption:** The only path to Ecruteak City is east through the National Park.
+  - **Alternative Hypothesis:** There may be another path, possibly through an unexplored section of Dark Cave or a different exit from Goldenrod City.
+  - **Test to Falsify:** After reaching Ecruteak via the main path, I will return to these locations to perform a more thorough search for alternate routes.
+- **Assumption:** The Bug-Catching Contest is an optional side quest.
+  - **Alternative Hypothesis:** Participation or victory in the contest might be required to unlock the path forward.
+  - **Test to Falsify:** If my progress through the National Park is blocked, I will return and attempt to join the contest to see if it triggers a story event.
