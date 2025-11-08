@@ -161,7 +161,7 @@
 ## Goldenrod City - Pokemon Center 2F (Link Club)
 - **Observation:** The second floor contains five rooms, each with a warp. All entrances are currently blocked by Link Receptionist NPCs.
 - **Clue:** A receptionist at (13, 3) stated, 'the TIME CAPSULE is being adjusted.'
-- **Conclusion:** These rooms are related to the 'Time Capsule' feature and are inaccessible at this time. I have investigated them as much as is currently possible.
+- **Conclusion:** These rooms are the CABLE TRADE CENTER, CABLE CLUB COLOSSEUM, and TIME CAPSULE. All are related to link features and are currently inaccessible as they are blocked by receptionists. This area is a dead end for now.
 
 # Gym Information
 - **Goldenrod Gym:** Normal-type. Fighting-type moves are recommended.
