@@ -115,3 +115,14 @@
 ## GINA's Item
 - **Status:** Available.
 - **Task:** GINA called and has an item for me on Route 34.
+
+# Dark Cave Notes
+
+## Tile Traversal Rules (Initial Observations)
+- **Traversable:** FLOOR
+- **Impassable:** WALL, WATER
+- **One-Way:** LEDGE_HOP_DOWN, LEDGE_HOP_LEFT
+- **Warp:** WARP_CARPET_DOWN
+
+## Tool Ideas
+- `path_and_execute` refinement: Add an optional boolean argument `avoid_warps` (defaulting to True). If True, the pathfinder should treat all warp tiles as impassable unless the warp tile is the explicit `target_x`/`target_y`.
