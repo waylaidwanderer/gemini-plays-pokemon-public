@@ -20,15 +20,6 @@
 
 # Location Specific Mechanics
 
-## Route 35 Tile Mechanics
-- **FLOOR**: Traversable.
-- **WALL**: Impassable.
-- **TALL_GRASS**: Traversable, triggers wild encounters.
-- **HEADBUTT_TREE**: Impassable.
-- **WATER**: Impassable.
-- **DOOR**: Traversable warp.
-- **WARP_CARPET_DOWN**: Traversable warp.
-
 ## Route 36 Tile Mechanics
 - **FLOOR**: Traversable.
 - **WALL**: Impassable.
