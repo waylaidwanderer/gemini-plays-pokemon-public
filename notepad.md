@@ -111,3 +111,7 @@
 - My Typhlosion, Ignis, already knows this move.
 - This move can be used on `HEADBUTT_TREE` tiles outside of battle by facing the tree and pressing 'A'.
 - **Test 1 (Turn 28043):** Used HEADBUTT on the tree at (16, 14). Result: "Nope. Nothing…".
+
+## GINA's Item
+- **Status:** Available.
+- **Task:** GINA called and has an item for me on Route 34.
