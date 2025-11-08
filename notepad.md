@@ -96,7 +96,17 @@
 - **WARP_CARPET_RIGHT**: Traversable warp. Activated by pressing Right. Verified in National Park.
 
 # Blocked Quests
-- **Mail Delivery:** The Officer in the Route 35 Goldenrod Gate is currently unreachable due to the counter layout. The quest is on hold.
+- **Mail Delivery:** An attempt to deliver the mail to an officer in the Route 31 Violet Gate failed; he was not the recipient. The quest is on hold until the correct NPC is found.
+
+## Violet City Tile Mechanics
+- **FLOOR**: Traversable. Verified in Violet City.
+- **WALL**: Impassable. Verified in Violet City.
+- **WATER**: Impassable. Verified in Violet City.
+- **DOOR**: Traversable warp. Verified in Violet City.
+- **HEADBUTT_TREE**: Impassable. Verified in Violet City.
+- **CUT_TREE**: Impassable (respawns). Verified in Violet City.
+- **LEDGE_HOP_DOWN**: One-way traversal. Verified in Violet City.
+- **WARP_CARPET_RIGHT**: Traversable warp. Activated by pressing Right. Verified in Violet City.
 
 ## Untested Assumptions & Alternative Hypotheses (Post-Reflection)
 - **Assumption:** The only path to Ecruteak City is east through the National Park.
