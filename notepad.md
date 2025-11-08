@@ -156,3 +156,6 @@
 ---
 
 # Appendix: Solved Puzzles & Lessons Learned
+
+## Ilex Forest Puzzle
+- The correct solution involved a multi-stage chase, herding the Farfetch'd through the forest by interacting with it from specific directions and using twig piles to alter its path, ultimately leading it to its owner's apprentice.
