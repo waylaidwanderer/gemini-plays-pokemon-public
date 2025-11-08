@@ -134,3 +134,8 @@
 - **Assumption:** HM05 (Flash) is located in Sprout Tower.
   - **Alternative Hypothesis:** The HM could be given by an NPC elsewhere in Violet City, such as in the Pokémon Academy, or in a different city entirely.
   - **Test to Falsify:** If the Elder in Sprout Tower does not provide the HM, I will systematically explore all buildings and talk to all NPCs in Violet City before leaving to search other areas.
+
+## Pathfinding Tool Improvement Idea
+- The pathfinder's logic for handling `📍` map markers is too simplistic. It treats all such markers as impassable walls, which is incorrect for non-blocking NPCs. This needs to be refined. Possible solutions:
+  - Use different emojis for blocking vs. non-blocking NPCs.
+  - Create a more complex marker system that includes a 'blocking' flag.
