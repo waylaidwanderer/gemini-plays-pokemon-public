@@ -126,3 +126,11 @@
 
 ## Tool Development Notes (Self-Critique)
 - **`menu_navigator` Flaw:** The current implementation relies on a hardcoded sequence of button presses, making it extremely brittle and prone to failure if the menu state is not exactly as predicted. This design is inefficient. **Action:** Avoid using this tool. Perform menu navigation manually until a more robust, screen-aware solution can be developed.
+
+# SQUIRT BOTTLE Investigation
+- **Problem:** The SQUIRT BOTTLE is missing from my bag. I have checked all pockets.
+- **Hypothesis 1:** The Teacher NPC in the Goldenrod Flower Shop will provide a replacement.
+- **Test 1:** Spoke to the Teacher NPC at (2, 4).
+- **Result 1:** She gave generic dialogue and did not provide a new SQUIRT BOTTLE.
+- **Conclusion 1:** Hypothesis 1 is FALSE.
+- **Next Step:** Investigate the Lass NPC in the same shop.

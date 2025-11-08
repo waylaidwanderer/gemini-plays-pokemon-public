@@ -660,52 +660,5 @@
         "action_counter": 27375
       }
     ]
-  },
-  "menu_navigator": {
-    "description": "Navigates the pack menu to find and select a specific item. This tool is intended to be used with autopress_buttons. It cannot read the screen, so it relies on a fixed sequence of button presses.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "target_item_pocket": {
-          "type": "string",
-          "enum": [
-            "Items",
-            "Balls",
-            "Key Items",
-            "TM/HM"
-          ]
-        },
-        "target_item_position": {
-          "type": "integer"
-        }
-      },
-      "required": [
-        "target_item_pocket",
-        "target_item_position"
-      ]
-    },
-    "python_script": "import json\n\npocket_map = {\n    \"Items\": [],\n    \"Balls\": [\"Right\"],\n    \"Key Items\": [\"Right\", \"Right\"],\n    \"TM/HM\": [\"Right\", \"Right\", \"Right\"]\n}\n\npocket_presses = pocket_map.get(input_data[\"target_item_pocket\"], [])\n\nitem_pos = int(input_data[\"target_item_position\"])\ndown_presses = [\"Down\"] * (item_pos - 1)\n\n# Corrected sequence: Start, Down, Down, A to open the pack\nbutton_sequence = [\"Start\", \"Down\", \"Down\", \"A\"] + pocket_presses + down_presses + [\"A\", \"A\"]\n\nprint(json.dumps(button_sequence))",
-    "history": [
-      {
-        "commit_message": "feat: Create menu_navigator tool to automate item selection. This tool is a direct response to being stuck for over 50 turns in a bugged menu. It provides a programmatic way to navigate the pack, which should be more reliable than manual input. The initial version relies on knowing the item's exact position in the list, which is a limitation that can be improved later.",
-        "timestamp": "2025-11-08T04:08:07.564Z",
-        "action_counter": 27338
-      },
-      {
-        "commit_message": "fix: Add menu-opening presses to the sequence. The tool was previously unusable from the overworld because it lacked the initial 'Start' and 'A' presses to open the pack. This commit adds them to the beginning of the generated button sequence, making the tool self-contained and resolving the critical failure.",
-        "timestamp": "2025-11-08T04:38:12.596Z",
-        "action_counter": 27384
-      },
-      {
-        "commit_message": "fix: Correct menu opening sequence. The tool was incorrectly pressing 'A' on the POKéDEX option instead of navigating down to 'PACK'. This commit changes the initial sequence to 'Start', 'Down', 'A', ensuring the pack is opened correctly from the overworld.",
-        "timestamp": "2025-11-08T04:39:31.399Z",
-        "action_counter": 27387
-      },
-      {
-        "commit_message": "fix: Correct menu opening sequence again. The tool was pressing 'Down' only once, selecting 'POKEMON' instead of 'PACK'. This commit changes the sequence to 'Start', 'Down', 'Down', 'A' to correctly navigate to and open the pack from the overworld.",
-        "timestamp": "2025-11-08T04:43:29.326Z",
-        "action_counter": 27394
-      }
-    ]
   }
 }
