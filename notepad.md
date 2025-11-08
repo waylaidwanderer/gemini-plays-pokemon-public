@@ -144,3 +144,7 @@
 - **Test 4:** Checked the stats of my party Pokémon.
 - **Result 4:** Ignis (TYPHLOSION) was holding the SQUIRT BOTTLE.
 - **Conclusion:** Hypothesis 4 is TRUE. The mystery is solved.
+
+## Future Tool/Agent Ideas
+- **Inventory Management Agent:** An agent that takes the current bag state and a goal (e.g., 'free up 1 slot') and outputs a concrete plan (e.g., 'Give BITTER BERRY to Aether').
+- **Screen-Aware Menu Navigator:** A long-term project to create a tool that can read the screen to navigate menus dynamically, avoiding the brittleness of hardcoded button sequences.
