@@ -155,9 +155,9 @@
 - **Assumption:** The Bug-Catching Contest is an optional side quest.
   - **Alternative Hypothesis:** Participation or victory in the contest might be required to unlock the path forward.
   - **Test to Falsify:** If my progress through the National Park is blocked, I will return and attempt to join the contest to see if it triggers a story event.
-- **Assumption:** The `path` command is completely broken.
-  - **Alternative Hypothesis:** The `path` command might only work for short, simple paths without interruptions (like moving NPCs or wild encounters).
-  - **Test to Falsify:** On a clear, short path, I will try using `path_plan` with `["path"]` for a 3-4 tile move to see if it executes correctly.
+- **Assumption:** The `path_plan` system is unreliable.
+  - **Alternative Hypothesis:** The `path_plan` system might only work for short, simple paths without interruptions (like moving NPCs or wild encounters), or my pathfinding tool is generating flawed paths.
+  - **Test to Falsify:** On a clear, short path, I will generate a path with my tool and then use it with `path_plan` to see if it executes correctly.
 
 # Tool Development & Philosophy
 
@@ -202,10 +202,10 @@
 - **Hypothesis 6:** A Pokémon in the PC is holding the item. **Result: FALSE.**
 - **Conclusion:** My bag was full during the initial conversation, so the item was automatically given to my lead Pokémon to hold.
 
-## HM Move Mechanics (NEW)
+## HM Move Mechanics
 - **Forgetting HMs:** It has been confirmed that HM moves (like CUT) cannot be forgotten via TM replacement. This suggests a special NPC, the 'Move Deleter', may be required to remove them, a common feature in later games. This needs to be verified.
 
-## HEADBUTT Mechanic (NEW)
+## HEADBUTT Mechanic
 - Received TM02 (HEADBUTT) from a Rocker NPC in Ilex Forest at (15, 14).
 - My Typhlosion, Ignis, already knows this move.
 - This move can be used on `HEADBUTT_TREE` tiles outside of battle by facing the tree and pressing 'A'.
