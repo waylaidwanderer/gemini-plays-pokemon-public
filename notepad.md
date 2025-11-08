@@ -10,8 +10,20 @@
 ## Evolution Methods
 - Some POKEMON evolve only by being traded: MACHOKE, KADABRA, HAUNTER, and GRAVELER.
 
-## Tool Mechanics
-- **`stun_npc` Tool:** This tool can only affect NPCs that are currently visible on the screen ("live objects"). Attempting to use it on an off-screen NPC will result in an error.
+## Available Tools
+- **`notepad_edit`**: Edits the notepad.
+- **`run_code`**: Executes Python code.
+- **`define_agent` / `delete_agent`**: Manage custom agents for reasoning tasks.
+- **`define_map_marker` / `delete_map_marker`**: Manage map markers for strategic notes.
+- **`stun_npc`**: Freezes/unfreezes NPC movement.
+- **`define_tool` / `delete_tool`**: Manage custom tools for computational tasks.
+- **`select_battle_option`**: Selects main battle menu options automatically.
+- **`deterministic_battle_strategist`**: A rule-based agent for battle strategy.
+- **`path_and_execute`**: A pathfinding tool that generates coordinate paths.
+- **`find_unseen_tiles`**: A tool to find all unseen tiles on the map.
+- **`quest_progression_advisor`**: An agent to suggest next steps in quests.
+- **`puzzle_solver_assistant`**: An agent for methodical puzzle-solving.
+- **`exploration_strategist`**: An agent to suggest promising areas to explore.
 
 ## Respawning Obstacles (CONFIRMED MECHANIC)
 - **Initial Observation (Turn 26648):** The `CUT_TREE` at (8, 25) in Ilex Forest, which was previously removed, respawned after re-entering the area.
@@ -22,6 +34,16 @@
 - **Item Tossing Bug:** Attempting to 'TOSS' a single-stack item (e.g., BERRY x1) from the bag menu fails and resets the menu. Tossing one item from a multi-item stack (e.g., POTION x9 -> x8) also fails to free an inventory slot. The only confirmed way to free a slot is to have a Pokémon 'HOLD' a single-stack item.
 
 # Location Specific Mechanics
+
+## DayCare Tile Mechanics
+- **WALL**: Impassable.
+- **TOWN_MAP**: Impassable.
+- **WINDOW**: Impassable.
+- **BOOKSHELF**: Impassable.
+- **FLOOR**: Traversable.
+- **PC**: Impassable.
+- **WARP_CARPET_LEFT**: Traversable warp.
+- **WARP_CARPET_DOWN**: Traversable warp.
 
 ## Ilex Forest Tile Mechanics
 - **FLOOR**: Traversable.
@@ -166,6 +188,7 @@
 - **Solution:** I must adopt a proactive, test-driven approach to tool development.
 - **New Principle:** Before relying on a complex tool for a critical task, I must first build and use diagnostic tools to verify its core logic. For pathfinding, this means creating a tool to visualize the algorithm's understanding of the map. This will allow me to identify and fix logical errors in a controlled way, rather than discovering them through trial-and-error during gameplay.
 - **Correction (Turn 26941 & 27961):** My previous diagnoses of my pathfinding tools being faulty were incorrect. The tools were functioning as designed. The errors stemmed from my misinterpretation of the output, incorrect manual pathing attempts, and failure to investigate in-game obstacles. This highlights the critical need to trust my tools and carefully verify my own actions before assuming a tool is broken.
+- **Correction (Turn 28110):** The pathfinding tool's failure on turn 28100 was not a bug. It correctly identified that a wall blocked the path. My assumption that the tool was broken was a critical error in methodology. I must always trust my tools' outputs first and verify the in-game situation for obstacles before attempting to debug the tool itself.
 
 ## Tool Development Notes (Self-Critique)
 - **Critique on Hardcoded Menu Navigation:** Relying on a hardcoded sequence of button presses for menu navigation is extremely brittle and prone to failure if the menu state is not exactly as predicted. This design is inefficient. **Action:** Perform menu navigation manually until a more robust, screen-aware solution can be developed.

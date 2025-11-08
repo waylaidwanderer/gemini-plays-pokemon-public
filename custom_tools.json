@@ -793,6 +793,21 @@
         "commit_message": "fix: Remove all debug print statements. The tool was failing because it was outputting debug logs to stdout instead of a clean JSON array. This commit removes all non-essential print statements, ensuring the tool's output is correctly formatted for autopress_buttons.",
         "timestamp": "2025-11-08T10:56:03.748Z",
         "action_counter": 28045
+      },
+      {
+        "commit_message": "refactor: Re-add extensive debug logging to diagnose pathing failure. The tool is failing to find simple, valid paths. This commit re-adds print statements to the BFS loop to trace the algorithm's state and identify why valid neighbor tiles are being rejected.",
+        "timestamp": "2025-11-08T11:28:40.486Z",
+        "action_counter": 28091
+      },
+      {
+        "commit_message": "refactor: Add debug logging for object detection. The pathfinder is failing to identify on-screen NPCs as obstacles. This commit adds a print statement to the tile data creation loop to trace the `has_object` flag for every tile, which is a necessary step to diagnose why the obstacle detection is failing.",
+        "timestamp": "2025-11-08T11:31:13.923Z",
+        "action_counter": 28095
+      },
+      {
+        "commit_message": "refactor: Remove debug logging. The pathfinding logic has been validated and the extensive print statements are no longer needed. This commit removes them to ensure the tool returns a clean JSON output for pathing.",
+        "timestamp": "2025-11-08T11:32:20.406Z",
+        "action_counter": 28097
       }
     ]
   },
