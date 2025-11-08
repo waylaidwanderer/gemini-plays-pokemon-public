@@ -132,4 +132,3 @@
   - **Alternative Hypothesis:** Participation or victory in the contest might be required to unlock the path forward.
   - **Test to Falsify:** If my progress through the National Park is blocked, I will return and attempt to join the contest to see if it triggers a story event.
 ## Reminders
-- Unstun Teacher NPC (ID 6) in National Park upon return.
