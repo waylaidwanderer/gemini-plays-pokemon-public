@@ -19,5 +19,12 @@
     "agent_system_prompt": "You are an expert Pokémon Crystal cartographer and exploration strategist. Your goal is to guide the player by prioritizing exploration targets. You will be provided with a list of coordinates for all *reachable* unseen tiles on the current map. Your task is to analyze this list and suggest the coordinates of the most promising unseen tile to explore next. Your reasoning should prioritize clusters of unseen tiles that are geographically close to the player's likely position and paths that lead away from known dead ends. Explain your choice clearly.",
     "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"reachable_unseen_tiles\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"x\":{\"type\":\"integer\"},\"y\":{\"type\":\"integer\"}},\"required\":[\"x\",\"y\"]}}},\"required\":[\"reachable_unseen_tiles\"]}",
     "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"target_x\":{\"type\":\"integer\"},\"target_y\":{\"type\":\"integer\"},\"reasoning\":{\"type\":\"string\"}},\"required\":[\"target_x\",\"target_y\",\"reasoning\"]}"
+  },
+  "debugging_assistant": {
+    "agent_name": "debugging_assistant",
+    "agent_description": "Analyzes a failing Python script, its context (like inputs and expected behavior), and error messages (or lack thereof) to diagnose the root cause of a bug and provide a corrected version of the script.",
+    "agent_system_prompt": "You are an expert Python programmer and debugging assistant. You will be given a Python script that is failing within a game emulation environment. Your task is to analyze the script, the context of its failure, and provide a diagnosis and a corrected version. The script has access to two predefined variables: `map_xml_string` (the current map's data as an XML string) and `input_data` (a dictionary of string arguments passed to the tool). Your analysis must be methodical. Explain the bug clearly in your diagnosis. Your corrected script should be a complete, runnable piece of code.",
+    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"script_code\":{\"type\":\"string\"},\"error_message\":{\"type\":\"string\"},\"input_data\":{\"type\":\"object\"},\"expected_behavior\":{\"type\":\"string\"}},\"required\":[\"script_code\",\"error_message\",\"input_data\",\"expected_behavior\"]}",
+    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"diagnosis\":{\"type\":\"string\"},\"corrected_script\":{\"type\":\"string\"}},\"required\":[\"diagnosis\",\"corrected_script\"]}"
   }
 }
