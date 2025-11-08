@@ -170,9 +170,6 @@
 ## Tool Development Notes (Self-Critique)
 - **Critique on Hardcoded Menu Navigation:** Relying on a hardcoded sequence of button presses for menu navigation is extremely brittle and prone to failure if the menu state is not exactly as predicted. This design is inefficient. **Action:** Perform menu navigation manually until a more robust, screen-aware solution can be developed.
 
-## Agent/Tool Ideas
-- **Exploration Strategist Agent:** An agent that takes the map XML and a list of unseen tiles as input and suggests the most promising area to explore next. This could help prioritize exploration when I'm unsure where to go.
-
 # Appendix: Solved Puzzles & Lessons Learned
 
 ## HEADBUTT_TREE Mechanics Test
