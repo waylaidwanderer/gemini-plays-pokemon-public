@@ -134,3 +134,13 @@
 - **Result 1:** She gave generic dialogue and did not provide a new SQUIRT BOTTLE.
 - **Conclusion 1:** Hypothesis 1 is FALSE.
 - **Next Step:** Investigate the Lass NPC in the same shop.
+
+## SQUIRT BOTTLE Investigation (SOLVED)
+- **Problem:** The SQUIRT BOTTLE was missing from my bag.
+- **Hypothesis 1:** The Teacher NPC in the Goldenrod Flower Shop will provide a replacement. **Result: FALSE.**
+- **Hypothesis 2:** The Lass NPC in the Goldenrod Flower Shop will provide a replacement or clue. **Result: FALSE.**
+- **Hypothesis 3:** Whitney in the Goldenrod Gym will provide a replacement or clue. **Result: FALSE.**
+- **Hypothesis 4:** One of my Pokémon is holding the item.
+- **Test 4:** Checked the stats of my party Pokémon.
+- **Result 4:** Ignis (TYPHLOSION) was holding the SQUIRT BOTTLE.
+- **Conclusion:** Hypothesis 4 is TRUE. The mystery is solved.
