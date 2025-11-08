@@ -17,9 +17,6 @@
 
 # Appendix: Core Lessons & Puzzles
 
-## Ilex Forest Puzzle
-- The correct solution involved a multi-stage chase, herding the Farfetch'd through the forest by interacting with it from specific directions and using twig piles to alter its path, ultimately leading it to its owner's apprentice.
-
 ## HEADBUTT_TREE Mechanics Test
 - **Observation:** The `HEADBUTT_TREE` tile type is impassable.
 - **Hypothesis 1 (Turn 24065):** The `HEADBUTT_TREE` is an interactable object that responds to the 'A' button.
@@ -156,6 +153,3 @@
 ---
 
 # Appendix: Solved Puzzles & Lessons Learned
-
-## Ilex Forest Puzzle
-- The correct solution involved a multi-stage chase, herding the Farfetch'd through the forest by interacting with it from specific directions and using twig piles to alter its path, ultimately leading it to its owner's apprentice.
