@@ -684,7 +684,7 @@
         "target_item_position"
       ]
     },
-    "python_script": "import json\n\npocket_map = {\n    \"Items\": 0,\n    \"Balls\": 1,\n    \"Key Items\": 2,\n    \"TM/HM\": 3\n}\n\ntarget_pocket_index = pocket_map.get(input_data.get(\"target_item_pocket\"), 0)\nitem_position = int(input_data.get(\"target_item_position\", \"1\"))\n\n# Start -> Down (to PACK) -> A (select PACK)\nbutton_presses = [\"Start\", \"Down\", \"A\"]\n\n# Navigate to the correct pocket\nfor _ in range(target_pocket_index):\n    button_presses.append(\"Right\")\n\n# Navigate to the item\nfor _ in range(item_position - 1):\n    button_presses.append(\"Down\")\n\n# Select the item, then select 'USE'\nbutton_presses.extend([\"A\", \"A\"])\n\nprint(json.dumps(button_presses))",
+    "python_script": "import json\n\npocket_map = {\n    \"Items\": [],\n    \"Balls\": [\"Right\"],\n    \"Key Items\": [\"Right\", \"Right\"],\n    \"TM/HM\": [\"Right\", \"Right\", \"Right\"]\n}\n\npocket_presses = pocket_map.get(input_data[\"target_item_pocket\"], [])\n\nitem_pos = int(input_data[\"target_item_position\"])\ndown_presses = [\"Down\"] * (item_pos - 1)\n\n# Corrected sequence: Start, Down, Down, A to open the pack\nbutton_sequence = [\"Start\", \"Down\", \"Down\", \"A\"] + pocket_presses + down_presses + [\"A\", \"A\"]\n\nprint(json.dumps(button_sequence))",
     "history": [
       {
         "commit_message": "feat: Create menu_navigator tool to automate item selection. This tool is a direct response to being stuck for over 50 turns in a bugged menu. It provides a programmatic way to navigate the pack, which should be more reliable than manual input. The initial version relies on knowing the item's exact position in the list, which is a limitation that can be improved later.",
@@ -700,6 +700,11 @@
         "commit_message": "fix: Correct menu opening sequence. The tool was incorrectly pressing 'A' on the POKéDEX option instead of navigating down to 'PACK'. This commit changes the initial sequence to 'Start', 'Down', 'A', ensuring the pack is opened correctly from the overworld.",
         "timestamp": "2025-11-08T04:39:31.399Z",
         "action_counter": 27387
+      },
+      {
+        "commit_message": "fix: Correct menu opening sequence again. The tool was pressing 'Down' only once, selecting 'POKEMON' instead of 'PACK'. This commit changes the sequence to 'Start', 'Down', 'Down', 'A' to correctly navigate to and open the pack from the overworld.",
+        "timestamp": "2025-11-08T04:43:29.326Z",
+        "action_counter": 27394
       }
     ]
   }

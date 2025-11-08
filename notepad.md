@@ -123,3 +123,6 @@
 - **WARP_CARPET_DOWN**: Traversable warp. Verified on Route 36 at Ruins of Alph entrance.
 - **DOOR**: Present at (47, 17), function unverified.
 - **FLOOR_UP_WALL**: Present from (51, 16) to (53, 16), likely one-way ledges.
+
+## Tool Development Notes (Self-Critique)
+- **`menu_navigator` Flaw:** The current implementation relies on a hardcoded sequence of button presses, making it extremely brittle and prone to failure if the menu state is not exactly as predicted. This design is inefficient. **Action:** Avoid using this tool. Perform menu navigation manually until a more robust, screen-aware solution can be developed.
