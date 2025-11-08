@@ -125,7 +125,7 @@
 - **FLOOR_UP_WALL**: Present from (51, 16) to (53, 16), likely one-way ledges.
 
 ## Tool Development Notes (Self-Critique)
-- **`menu_navigator` Flaw:** The current implementation relies on a hardcoded sequence of button presses, making it extremely brittle and prone to failure if the menu state is not exactly as predicted. This design is inefficient. **Action:** Avoid using this tool. Perform menu navigation manually until a more robust, screen-aware solution can be developed.
+- **Critique on Hardcoded Menu Navigation:** Relying on a hardcoded sequence of button presses for menu navigation is extremely brittle and prone to failure if the menu state is not exactly as predicted. This design is inefficient. **Action:** Perform menu navigation manually until a more robust, screen-aware solution can be developed.
 
 ## Future Tool/Agent Ideas
 - **Inventory Management Agent:** An agent that takes the current bag state and a goal (e.g., 'free up 1 slot') and outputs a concrete plan (e.g., 'Give BITTER BERRY to Aether').
