@@ -174,9 +174,7 @@
 - **Assumption:** The Bug-Catching Contest is an optional side quest.
   - **Alternative Hypothesis:** Participation or victory in the contest might be required to unlock the path forward.
   - **Test to Falsify:** If my progress through the National Park is blocked, I will return and attempt to join the contest to see if it triggers a story event.
-- **Assumption:** The `path_plan` system is unreliable.
-  - **Alternative Hypothesis:** The `path_plan` system might only work for short, simple paths without interruptions (like moving NPCs or wild encounters), or my pathfinding tool is generating flawed paths.
-  - **Test to Falsify:** On a clear, short path, I will generate a path with my tool and then use it with `path_plan` to see if it executes correctly.
+- **Correction:** The `path_plan` system and `path_and_execute` tool are reliable. My previous pathing failures were due to user error, such as targeting impassable tiles, not a flaw in the tools themselves.
 
 # Tool Development & Philosophy
 
