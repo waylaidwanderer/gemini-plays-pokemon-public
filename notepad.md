@@ -123,7 +123,12 @@
 ## SQUIRT BOTTLE Quest (Hypothesis 4)
 - **Trigger:** The trigger for the SQUIRT BOTTLE is not in Goldenrod City. I must first travel to Route 36, locate the WEIRD_TREE, and interact with the Flower Shop lady's sister. This interaction will likely prompt the Flower Shop lady to give me the SQUIRT BOTTLE upon my return.
 
-## SQUIRT BOTTLE Quest (Hypothesis 5 - Current)
-- **Observation:** The explorable area of Route 36 is a closed loop with no path to the WEIRD_TREE. This was confirmed by the `find_all_reachable_tiles` tool.
-- **Conclusion:** The trigger for the SQUIRT BOTTLE cannot be on Route 36.
-- **New Hypothesis:** The trigger is in Goldenrod City and is related to the aftermath of the battle with Gym Leader Whitney. After the battle, she was crying. I must return to the Goldenrod Gym and interact with the other trainers or Whitney herself to resolve this, which will likely unlock the SQUIRT BOTTLE gift at the Flower Shop.
+## SQUIRT BOTTLE Quest (Hypothesis 5 - Failed)
+- **Hypothesis:** The trigger for the SQUIRT BOTTLE is interacting with Gym Leader Whitney after she has finished crying.
+- **Test:** Returned to Goldenrod Gym and spoke with Whitney at (8, 3).
+- **Result:** Whitney gave dismissive dialogue ("Ah, that was a good cry! ... Bye-bye!"). No event was triggered.
+- **Conclusion:** Hypothesis 5 is FALSE.
+
+## SQUIRT BOTTLE Quest (Hypothesis 6 - Current)
+- **Hypothesis:** The trigger involves speaking to another trainer in the Gym *after* Whitney has stopped crying. The Lass at (9, 6) is the closest and most logical next NPC to interact with.
+- **Plan:** Path to (9, 5) and interact with the Lass at (9, 6).
