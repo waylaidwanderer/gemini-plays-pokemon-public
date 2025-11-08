@@ -49,47 +49,57 @@
 - **LADDER**: Traversable (used for piers).
 - **BUOY**: Untested, assumed impassable.
 
+## Route 34 & Gatehouse Tile Mechanics
+- **FLOOR**: Traversable.
+- **WALL**: Impassable.
+- **COUNTER**: Impassable.
+- **DOOR**: Traversable warp.
+- **TALL_GRASS**: Traversable, triggers wild encounters.
+- **WARP_CARPET_DOWN**: Traversable warp.
+- **WATER**: Impassable.
+- **HEADBUTT_TREE**: Impassable.
+
 ## Route 35 Tile Mechanics
-- **FLOOR**: Traversable. Verified on Route 35.
-- **WALL**: Impassable. Verified on Route 35.
-- **TALL_GRASS**: Traversable, triggers wild encounters. Verified on Route 35.
-- **HEADBUTT_TREE**: Impassable. Verified on Route 35.
-- **WATER**: Impassable. Verified on Route 35.
-- **DOOR**: Traversable warp. Verified on Route 35.
-- **WARP_CARPET_DOWN**: Traversable warp. Verified on Route 35.
+- **FLOOR**: Traversable.
+- **WALL**: Impassable.
+- **TALL_GRASS**: Traversable, triggers wild encounters.
+- **HEADBUTT_TREE**: Impassable.
+- **WATER**: Impassable.
+- **DOOR**: Traversable warp.
+- **WARP_CARPET_DOWN**: Traversable warp.
 
 ## Route 36 Tile Mechanics
-- **FLOOR**: Traversable. Verified on Route 36.
-- **WALL**: Impassable. Verified on Route 36.
-- **HEADBUTT_TREE**: Impassable. Verified on Route 36.
-- **TALL_GRASS**: Traversable, triggers wild encounters. Verified on Route 36.
+- **FLOOR**: Traversable.
+- **WALL**: Impassable.
+- **HEADBUTT_TREE**: Impassable.
+- **TALL_GRASS**: Traversable, triggers wild encounters.
 - **WARP_CARPET_LEFT**: Traversable warp. Activated by pressing Left.
-- **WARP_CARPET_DOWN**: Traversable warp. Verified on Route 36 at Ruins of Alph entrance.
+- **WARP_CARPET_DOWN**: Traversable warp. Verified at Ruins of Alph entrance.
 - **DOOR**: Present at (47, 17), function unverified.
 - **FLOOR_UP_WALL**: Present from (51, 16) to (53, 16), likely one-way ledges.
 
 ## Route 36 National Park Gate Tile Mechanics
-- **FLOOR**: Traversable. Verified in Route 36 National Park Gate.
-- **WALL**: Impassable. Verified in Route 36 National Park Gate.
-- **COUNTER**: Impassable. Verified in Route 36 National Park Gate.
-- **PC**: Impassable. Verified in Route 36 National Park Gate.
-- **WARP_CARPET_LEFT**: Traversable warp. Activated by pressing Left. Verified in Route 36 National Park Gate.
-- **WARP_CARPET_RIGHT**: Traversable warp. Activated by pressing Right. Verified in Route 36 National Park Gate.
+- **FLOOR**: Traversable.
+- **WALL**: Impassable.
+- **COUNTER**: Impassable.
+- **PC**: Impassable.
+- **WARP_CARPET_LEFT**: Traversable warp. Activated by pressing Left.
+- **WARP_CARPET_RIGHT**: Traversable warp. Activated by pressing Right.
 
 ## National Park Tile Mechanics
-- **FLOOR**: Traversable. Verified in National Park.
-- **WALL**: Impassable. Verified in National Park.
-- **TALL_GRASS**: Traversable, triggers wild encounters. Verified in National Park.
-- **LONG_GRASS**: Traversable, triggers wild encounters. Verified in National Park.
-- **WARP_CARPET_DOWN**: Traversable warp. Verified in National Park.
-- **WARP_CARPET_RIGHT**: Traversable warp. Activated by pressing Right. Verified in National Park.
+- **FLOOR**: Traversable.
+- **WALL**: Impassable.
+- **TALL_GRASS**: Traversable, triggers wild encounters.
+- **LONG_GRASS**: Traversable, triggers wild encounters.
+- **WARP_CARPET_DOWN**: Traversable warp.
+- **WARP_CARPET_RIGHT**: Traversable warp. Activated by pressing Right.
 
 ## Goldenrod City Tile Mechanics
-- **FLOOR**: Traversable. Verified in Goldenrod City.
-- **WALL**: Impassable. Verified in Goldenrod City.
-- **WATER**: Impassable. Verified in Goldenrod City.
+- **FLOOR**: Traversable.
+- **WALL**: Impassable.
+- **WATER**: Impassable.
 - **VOID**: Impassable. Verified in Goldenrod Gym.
-- **DOOR**: Traversable warp. Verified in Goldenrod City.
+- **DOOR**: Traversable warp.
 - **WARP_CARPET_DOWN (One-Way Exit):** A specific instance of this tile at (5, 29) on map 3_54 was found to be a one-way exit, returning the player to the previous map. This suggests some warp carpets may not be bidirectional.
 - **WARP_CARPET_RIGHT**: Traversable warp. Activated by pressing Right.
 
@@ -97,23 +107,23 @@
 - **WARP_CARPET_DOWN**: Can be a bidirectional warp, unlike the one-way exit previously discovered. This suggests the tile's function can vary by location.
 
 ## Violet City Tile Mechanics
-- **FLOOR**: Traversable. Verified in Violet City.
-- **WALL**: Impassable. Verified in Violet City.
-- **WATER**: Impassable. Verified in Violet City.
-- **DOOR**: Traversable warp. Verified in Violet City.
-- **HEADBUTT_TREE**: Impassable. Verified in Violet City.
-- **CUT_TREE**: Impassable (respawns). Verified in Violet City.
-- **LEDGE_HOP_DOWN**: One-way traversal. Verified in Violet City.
-- **WARP_CARPET_RIGHT**: Traversable warp. Activated by pressing Right. Verified in Violet City.
+- **FLOOR**: Traversable.
+- **WALL**: Impassable.
+- **WATER**: Impassable.
+- **DOOR**: Traversable warp.
+- **HEADBUTT_TREE**: Impassable.
+- **CUT_TREE**: Impassable (respawns).
+- **LEDGE_HOP_DOWN**: One-way traversal.
+- **WARP_CARPET_RIGHT**: Traversable warp. Activated by pressing Right.
 
 ## Azalea Town Tile Mechanics
-- **FLOOR**: Traversable. Verified in Azalea Town.
-- **WALL**: Impassable. Verified in Azalea Town.
-- **HEADBUTT_TREE**: Impassable. Verified in Azalea Town.
-- **DOOR**: Traversable warp. Verified in Azalea Town.
-- **CAVE**: Traversable warp. Verified in Azalea Town.
-- **WARP_CARPET_LEFT**: Traversable warp. Verified in Azalea Town.
-- **LEDGE_HOP_DOWN**: One-way traversal. Verified in Azalea Town.
+- **FLOOR**: Traversable.
+- **WALL**: Impassable.
+- **HEADBUTT_TREE**: Impassable.
+- **DOOR**: Traversable warp.
+- **CAVE**: Traversable warp.
+- **WARP_CARPET_LEFT**: Traversable warp.
+- **LEDGE_HOP_DOWN**: One-way traversal.
 
 # Active Quests & Notes
 
@@ -156,13 +166,6 @@
 ## Tool Development Notes (Self-Critique)
 - **Critique on Hardcoded Menu Navigation:** Relying on a hardcoded sequence of button presses for menu navigation is extremely brittle and prone to failure if the menu state is not exactly as predicted. This design is inefficient. **Action:** Perform menu navigation manually until a more robust, screen-aware solution can be developed.
 
-## Future Tool/Agent Ideas
-- **Inventory Management Agent:** An agent that takes the current bag state and a goal (e.g., 'free up 1 slot') and outputs a concrete plan (e.g., 'Give BITTER BERRY to Aether').
-- **Screen-Aware Menu Navigator:** A long-term project to create a tool that can read the screen to navigate menus dynamically, avoiding the brittleness of hardcoded button sequences.
-- **Wild Battle Runner:** A simple agent or tool to automatically handle running from non-essential wild battles.
-
----
-
 # Appendix: Solved Puzzles & Lessons Learned
 
 ## HEADBUTT_TREE Mechanics Test
@@ -191,18 +194,3 @@
 - **Hypothesis 5:** The item is in the PC's Item Storage. **Result: FALSE.**
 - **Hypothesis 6:** A Pokémon in the PC is holding the item. **Result: FALSE.**
 - **Conclusion:** My bag was full during the initial conversation, so the item was automatically given to my lead Pokémon to hold.
-
-## Route 34 Ilex Forest Gate Tile Mechanics
-- **FLOOR**: Traversable.
-- **WALL**: Impassable.
-- **COUNTER**: Impassable.
-- **DOOR**: Traversable warp.
-- **WARP_CARPET_DOWN**: Traversable warp.
-
-## Route 34 Tile Mechanics
-- **FLOOR**: Traversable. Verified on Route 34.
-- **WALL**: Impassable. Verified on Route 34.
-- **TALL_GRASS**: Traversable, triggers wild encounters. Verified on Route 34.
-- **WARP_CARPET_DOWN**: Traversable warp. Verified on Route 34.
-- **WATER**: Impassable. Assumed based on consistent behavior.
-- **HEADBUTT_TREE**: Impassable. Assumed based on consistent behavior.
