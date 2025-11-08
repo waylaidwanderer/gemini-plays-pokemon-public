@@ -30,14 +30,6 @@
 - **DOOR**: Present at (47, 17), function unverified.
 - **FLOOR_UP_WALL**: Present from (51, 16) to (53, 16), likely one-way ledges.
 
-## Route 36 National Park Gate Tile Mechanics
-- **FLOOR**: Traversable.
-- **WALL**: Impassable.
-- **COUNTER**: Impassable.
-- **PC**: Impassable.
-- **WARP_CARPET_LEFT**: Traversable warp. Activated by pressing Left.
-- **WARP_CARPET_RIGHT**: Traversable warp. Activated by pressing Right.
-
 ## National Park Tile Mechanics
 - **FLOOR**: Traversable.
 - **WALL**: Impassable.
