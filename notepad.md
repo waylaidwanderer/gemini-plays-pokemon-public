@@ -121,15 +121,12 @@
 - **FLOOR**: Traversable. Verified in the gatehouse.
 - **COUNTER**: Impassable. Verified in the gatehouse.
 
-## SQUIRT BOTTLE Quest (Hypothesis 4)
-- **Trigger:** The trigger for the SQUIRT BOTTLE is not in Goldenrod City. I must first travel to Route 36, locate the WEIRD_TREE, and interact with the Flower Shop lady's sister. This interaction will likely prompt the Flower Shop lady to give me the SQUIRT BOTTLE upon my return.
-
-## SQUIRT BOTTLE Quest (Hypothesis 5 - Failed)
-- **Hypothesis:** The trigger for the SQUIRT BOTTLE is interacting with Gym Leader Whitney after she has finished crying.
-- **Test:** Returned to Goldenrod Gym and spoke with Whitney at (8, 3).
-- **Result:** Whitney gave dismissive dialogue ("Ah, that was a good cry! ... Bye-bye!"). No event was triggered.
-- **Conclusion:** Hypothesis 5 is FALSE.
-
-## SQUIRT BOTTLE Quest (Hypothesis 6 - Current)
-- **Hypothesis:** The trigger involves speaking to another trainer in the Gym *after* Whitney has stopped crying. The Lass at (9, 6) is the closest and most logical next NPC to interact with.
-- **Plan:** Path to (9, 5) and interact with the Lass at (9, 6).
+## SQUIRT BOTTLE Quest & WEIRD_TREE Puzzle (SOLVED)
+- **Objective:** Clear the WEIRD_TREE on Route 36.
+- **Solution:**
+  1. Defeat Gym Leader Whitney in Goldenrod Gym.
+  2. Speak to the Lass at (9, 6) in the Gym. This prompts Whitney to give you the Plain Badge and TM45.
+  3. Go to the Goldenrod Flower Shop. The woman at (2, 3) will give you the SQUIRT BOTTLE.
+  4. Travel to Route 36 and use the SQUIRT BOTTLE on the WEIRD_TREE at (35, 9).
+  5. The tree reveals itself as a Sudowoodo. After the encounter, the path is clear.
+  6. An NPC at (36, 9) will then give you TM08 (Rock Smash).
