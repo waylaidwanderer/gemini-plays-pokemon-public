@@ -147,3 +147,8 @@
 
 # Map Marker To-Do
 - Next time on SproutTower1F, add marker at (9, 15): `🚪 To VioletCity (23, 5)`
+
+## Tool Discrepancy (Turn 28952)
+- `find_reachable_unseen_tiles` reported (37, 15) as reachable.
+- `path_and_execute` failed to find a path to it.
+- **Conclusion:** `find_reachable_unseen_tiles` has a logic flaw and cannot be fully trusted. It likely doesn't account for complex barriers like ledges or water that the pathfinder does. Needs debugging.
