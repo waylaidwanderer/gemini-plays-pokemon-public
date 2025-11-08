@@ -149,3 +149,14 @@
 ## Future Tool/Agent Ideas
 - **Inventory Management Agent:** An agent that takes the current bag state and a goal (e.g., 'free up 1 slot') and outputs a concrete plan (e.g., 'Give BITTER BERRY to Aether').
 - **Screen-Aware Menu Navigator:** A long-term project to create a tool that can read the screen to navigate menus dynamically, avoiding the brittleness of hardcoded button sequences.
+## SQUIRT BOTTLE Investigation
+- **Problem:** The SQUIRT BOTTLE is missing from my bag.
+- **Hypothesis 1:** The Teacher NPC in the Goldenrod Flower Shop will provide a replacement. **Result: FALSE.**
+- **Hypothesis 2:** The Lass NPC in the Goldenrod Flower Shop will provide a replacement or clue. **Result: FALSE.**
+- **Hypothesis 3:** Whitney in the Goldenrod Gym will provide a replacement or clue. **Result: FALSE.**
+- **Hypothesis 4:** One of my party Pokémon is holding the item. **Result: FALSE.**
+- **Hypothesis 5:** The item is in the PC's Item Storage.
+- **Test 5:** Checked the PC's Item Storage.
+- **Result 5:** Only a REPEL was found.
+- **Conclusion:** Hypothesis 5 is FALSE.
+- **Next Step:** Check if a Pokémon in the PC is holding the item. If not, return to the Flower Shop to see if my bag was full during the initial conversation.
