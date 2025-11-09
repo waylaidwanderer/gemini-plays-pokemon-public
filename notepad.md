@@ -199,3 +199,9 @@
 - **Test:** Defeated all five Kimono Girls and repeatedly interacted with the Gentleman between turns 29727 and 29738.
 - **Result:** The Gentleman only repeated his initial, pre-defeat dialogue. No new outcome was triggered.
 - **Conclusion:** Hypothesis is FALSE. Repeatedly interacting with an NPC that provides no new information is an invalid strategy and will not yield new results. This confirms my general interaction rule: if an NPC doesn't change their dialogue after a significant event, move on.
+
+# Lessons Learned
+
+## Map Marker Discipline (Overwatch Critique, Turn 29822)
+- **Failure:** I failed to immediately mark the warp at (6, 13) in the Dance Theater, violating the 'immediate update' directive.
+- **Correction:** I must be diligent in marking **both** the entry and exit points of any warp immediately after using it. This is critical for maintaining accurate navigation data.
