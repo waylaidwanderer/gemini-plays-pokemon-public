@@ -149,9 +149,3 @@
 ## Tile Traversal Rules (Initial Observations)
 - **Traversable:** FLOOR, TALL_GRASS
 - **Impassable:** HEADBUTT_TREE, WALL
-
-# Route 37 Notes
-
-## Tile Traversal Rules (Initial Observations)
-- **Traversable:** FLOOR, TALL_GRASS
-- **Impassable:** HEADBUTT_TREE, WALL
