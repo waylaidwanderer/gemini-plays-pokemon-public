@@ -169,6 +169,9 @@
 - **One-Way (Ledges, Untested):**
   - LEDGE_HOP_DOWN
   - LEDGE_HOP_RIGHT
+- **One-Way (Ledges, Untested):**
+  - LEDGE_HOP_DOWN
+  - LEDGE_HOP_RIGHT
 - **Pokecenter Tests:**
   - `PC` at (9, 1): Confirmed impassable.
   - `COUNTER` at (4, 2): Confirmed impassable.
