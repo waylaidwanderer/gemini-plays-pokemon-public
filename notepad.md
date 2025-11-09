@@ -182,12 +182,6 @@
 - **Result:** The script correctly identified the tile at (8, 5) as an impassable 'WALL'. It then successfully found an alternate path around the obstacle.
 - **Conclusion:** Hypothesis is FALSE. The tool is functioning correctly. The failure was due to my own flawed manual path plan that did not account for the wall. This reinforces the critical need to trust my tools and verify my own assumptions about the map layout before attempting to debug the code.
 
-# Burned Tower Notes
-
-## Tile Traversal Rules (Initial Observations)
-- **Traversable:** FLOOR, WARP_CARPET_DOWN
-- **Impassable:** WALL, VOID
-
 # Lessons Learned
 
 ## Pathfinding Tool Trust (Turn 30219)
