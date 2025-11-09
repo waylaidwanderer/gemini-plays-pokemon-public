@@ -185,4 +185,7 @@
       - **Result:** No event was triggered. Hypothesis is FALSE.
 
   11. Passively observing NPC movement triggers an event. (Result: No event triggered after 3 turns. Hypothesis is FALSE).
-  12. Actively following one of the NPCs triggers an event. (Starting test with Gramps).
+  12. Actively following one of the NPCs triggers an event. (Result: No event triggered. Hypothesis is FALSE).
+
+# Current Active Hypothesis (from puzzle_solver_assistant)
+- The platform at (17, 15) contains a hidden item or switch.
