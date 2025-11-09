@@ -226,13 +226,19 @@
 
 # Tool Development & Philosophy
 
-## Available Custom Tools & Agents
+## Available Tools & Agents (Comprehensive)
+### Custom Tools & Agents
 - **`path_and_execute` (Tool):** Generates a path to a target coordinate.
 - **`find_reachable_unseen_tiles` (Tool):** Finds all reachable unseen tiles on the current map.
 - **`quest_progression_advisor` (Agent):** Suggests next logical story step when stuck.
 - **`puzzle_solver_assistant` (Agent):** Suggests simple, testable hypotheses for puzzles.
 - **`exploration_strategist` (Agent):** Prioritizes exploration targets from a list of reachable unseen tiles.
 - **`debugging_assistant` (Agent):** Diagnoses and corrects failing Python scripts.
+
+### Built-in Tools
+- **`select_battle_option`:** Reliably selects a main battle menu option (FIGHT, PKMN, PACK, RUN).
+- **`stun_npc`:** Freezes or unfreezes an NPC's movement, crucial for reliable interaction and pathing.
+- **`run_code`:** Executes one-off Python scripts for analysis or calculation.
 
 # Game Mechanics & Systems (Addendum)
 
