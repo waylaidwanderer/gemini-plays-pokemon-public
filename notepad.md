@@ -3,7 +3,7 @@
 ## Tile Traversal Rules (Consolidated)
 - **Impassable:** BOOKSHELF, BUOY (assumed), COUNTER, CUT_TREE, HEADBUTT_TREE, INCENSE_BURNER, MART_SHELF, PC, PILLAR (usually), POKEDEX, RADIO, TOWN_MAP, TV, VOID, WALL, WATER, WINDOW, TABLE.
 - **Traversable (Visual Obstacles):** PLANT (The sprite is an obstacle, but the tile type is FLOOR).
-- **Traversable:** FLOOR, GRASS, LONG_GRASS, TALL_GRASS, UNKNOWN.
+- **Traversable:** FLOOR, GRASS, LONG_GRASS, TALL_GRASS.
 - **One-Way (Ledges):**
   - LEDGE_HOP: General one-way tile.
   - LEDGE_HOP_DOWN: One-way down.
