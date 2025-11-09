@@ -151,34 +151,24 @@
 
 # Ecruteak City Notes
 
-## Tile Traversal Rules (Initial Observations)
-- **Traversable:** FLOOR
-- **Impassable:** WALL, HEADBUTT_TREE
-
-# Ecruteak City Notes
+## General Info
+- Met BILL in the Pokémon Center upon first entry (Turn 29604). He announced the TIME CAPSULE is finished and left for Goldenrod City.
+- A man mentioned there are hidden items in the BURNED TOWER, which may be related to finding Morty.
 
 ## Ecruteak Gym
 - **Leader:** Morty
 - **Title:** The Mystic Seer of the Future
 - **Likely Type:** Ghost or Psychic
 
-# Ecruteak City Notes
+## Key Items
+- **ITEMFINDER:** Received from a man in the city. Used to find hidden items.
 
-## Bill Encounter (Turn 29604)
-- Met BILL in the Ecruteak Pokémon Center upon first entry.
-- He announced his TIME CAPSULE is finished and will be available at all Pokémon Centers starting tomorrow.
-- The TIME CAPSULE allows trading with past-generation games, but new Pokémon and moves cannot be sent back.
-- After his announcement, he left for Goldenrod City.
-
-## Tile Traversal Test Results (Ecruteak Pokecenter)
-- `PC` at (9, 1): Confirmed impassable after attempting to walk onto it from (9, 2).
-- `COUNTER` at (4, 2): Confirmed impassable after attempting to walk onto it from (4, 3).
-
-# Key Items
-- ITEMFINDER: Received from a man in Ecruteak City. Used to find hidden items.
-
-# Ecruteak City Notes
-- A man mentioned there are hidden items in the BURNED TOWER. This is a strong lead for finding Morty.
+## Tile Traversal Rules & Tests
+- **Traversable:** FLOOR
+- **Impassable:** WALL, HEADBUTT_TREE
+- **Pokecenter Tests:**
+  - `PC` at (9, 1): Confirmed impassable.
+  - `COUNTER` at (4, 2): Confirmed impassable.
 
 # Ecruteak Itemfinder House Notes
 
