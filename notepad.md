@@ -161,3 +161,17 @@
 - **Leader:** Morty
 - **Title:** The Mystic Seer of the Future
 - **Likely Type:** Ghost or Psychic
+
+# Ecruteak City Notes
+
+## Bill Encounter (Turn 29604)
+- Met BILL in the Ecruteak Pokémon Center upon first entry.
+- He announced his TIME CAPSULE is finished and will be available at all Pokémon Centers starting tomorrow.
+- The TIME CAPSULE allows trading with past-generation games, but new Pokémon and moves cannot be sent back.
+- After his announcement, he left for Goldenrod City.
+
+## Tile Traversal Test Plan (Ecruteak Pokecenter)
+- **Objective:** Verify the traversal properties of all tile types in this building based on direct observation.
+- **Tiles to Test:**
+  - `COUNTER` (e.g., at (1, 2)): Hypothesis is impassable. Test by attempting to walk onto it.
+  - `PC` (at (9, 1)): Hypothesis is impassable. Test by attempting to walk onto it.
