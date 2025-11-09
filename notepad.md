@@ -110,20 +110,6 @@
 ## Key Items
 - **ITEMFINDER:** Received from a man in the city. Used to find hidden items.
 
-# Ecruteak Itemfinder House Notes
-
-## Tile Traversal Rules (Initial Observations)
-- **Traversable:** FLOOR
-- **Impassable:** WALL, POKEDEX
-
-# Dance Theater Notes
-
-## Tile Traversal Rules (Initial Observations)
-- **Traversable:** FLOOR
-- **Impassable:** WALL
-- **Warp:** WARP_CARPET_DOWN
-- **One-Way:** LEDGE_HOP_DOWN
-
 # Data Correction (Turn 29763)
 - Per overwatch critique, formally documenting that `COUNTER` and `MART_SHELF` tile types are impassable.
 
