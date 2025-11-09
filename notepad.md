@@ -100,16 +100,18 @@
 - **Title:** The Mystic Seer of the Future
 - **Likely Type:** Ghost or Psychic
 
-# Tin Tower Entrance Puzzle
+# Current Puzzle: Tin Tower Entrance
 - **Goal:** Find the correct path to ascend the tower.
-- **Observations:** The room contains two wandering NPCs (a Sage and a Gramps), a central structure, and a ladder. The path to the left side of the room is blocked by the central structure.
-- **Failed Hypotheses:**
-  1.  **Hypothesis:** The ladder at (5, 3) is the way forward.
-      - **Test:** Climbed the ladder.
-      - **Result:** Led to a dead-end platform at (17, 15). Hypothesis is FALSE.
-  2.  **Hypothesis:** The Gramps NPC has the solution.
-      - **Test:** Interacted with the Gramps after stunning him.
-      - **Result:** He only provided lore about the towers. Hypothesis is FALSE.
+- **Observations:** The room contains two wandering NPCs (Sage and Gramps), a central structure, and a ladder. The path to the left is blocked.
+- **Failed Hypotheses Log:**
+  1. The ladder at (5, 3) is the way forward. (Result: Dead end).
+  2. Interacting with the Gramps provides the solution. (Result: Only lore).
+  3. Interacting with the Sage provides the solution. (Result: Only lore).
+  4. Passively observing NPC movement triggers an event. (Result: No event triggered).
+  5. Actively following the Sage triggers an event. (Result: No event triggered).
+  6. Actively following the Gramps triggers an event. (Result: No event triggered).
+  7. Replicating the Gramps' path triggers an event. (Result: Blocked by NPC, unable to test fully).
+- **Current Hypothesis:** I must walk the exact same path as the Sage to reveal the way forward.
 
 # Untested Assumptions & Alternative Hypotheses (Self-Assessment)
 - **Assumption:** The path to my Rival, Crimson, in the Burned Tower is permanently blocked by the broken floor.
