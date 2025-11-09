@@ -270,3 +270,27 @@
 
 ## HEADBUTT Mechanic
 - Received TM02 (HEADBUTT) in Ilex Forest. Can be used on `HEADBUTT_TREE` tiles outside of battle.
+
+# Appendix: Solved Puzzles & Lessons Learned
+
+## GINA's Item (Route 34)
+- **Status:** COMPLETE.
+- **Task:** Received LEAF STONE from GINA after making space in my bag.
+
+## SQUIRT BOTTLE Quest & WEIRD_TREE Puzzle (Route 36)
+- **Status:** SOLVED.
+- **Solution:** Defeat Whitney -> Talk to Lass -> Get SQUIRT BOTTLE from Flower Shop -> Use on tree -> Battle Sudowoodo -> Get TM08 (Rock Smash).
+
+## SQUIRT BOTTLE Investigation
+- **Status:** SOLVED.
+- **Conclusion:** My bag was full, so the item was automatically given to my lead Pokémon to hold.
+
+## Dance Theater Gentleman (Ecruteak City)
+- **Status:** LESSON LEARNED.
+- **Conclusion:** Repeatedly interacting with an NPC that provides no new information is an invalid strategy and will not yield new results.
+
+## HM Move Mechanics
+- **Forgetting HMs:** Confirmed that HM moves cannot be forgotten via TM replacement.
+
+## HEADBUTT Mechanic
+- Received TM02 (HEADBUTT) in Ilex Forest. Can be used on `HEADBUTT_TREE` tiles outside of battle.
