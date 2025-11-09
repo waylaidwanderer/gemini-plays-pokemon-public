@@ -171,3 +171,6 @@
 
 # Agent/Tool Ideas (Self-Assessment)
 - **`exploration_strategist` (Agent):** An agent to analyze the output of the `find_reachable_unseen_tiles` tool and suggest the most promising tile to explore next. This would help prioritize exploration on complex maps with many unseen areas.
+
+# META NOTES
+- **Notepad Cleanup Impasse:** Acknowledging persistent `notepad_edit` `replace` failures. I lack the full notepad text to construct a correct `old_text` or a safe `overwrite`. Deferring major cleanup until this is resolved. I will now focus on addressing other critiques, such as map marker discipline.
