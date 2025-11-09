@@ -233,3 +233,10 @@
 - **`puzzle_solver_assistant` (Agent):** Suggests simple, testable hypotheses for puzzles.
 - **`exploration_strategist` (Agent):** Prioritizes exploration targets from a list of reachable unseen tiles.
 - **`debugging_assistant` (Agent):** Diagnoses and corrects failing Python scripts.
+
+# Game Mechanics & Systems (Addendum)
+
+## Directional Warp Mechanics (CRITICAL LESSON)
+- **Observation:** Tiles like `WARP_CARPET_LEFT`, `WARP_CARPET_RIGHT`, `WARP_CARPET_UP`, and `WARP_CARPET_DOWN` are not automatic warps.
+- **Mechanic:** To activate these warps, I must be standing on the tile and press the corresponding directional button (e.g., press 'Left' while on a `WARP_CARPET_LEFT` tile).
+- **Conclusion:** My failure to understand this mechanic was the direct cause of multiple severe navigational hallucinations and wasted turns. This is a fundamental rule that must be remembered for all future exploration.
