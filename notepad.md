@@ -200,3 +200,6 @@
 - **Impassable:** WALL
 - **Warp:** WARP_CARPET_DOWN
 - **One-Way:** LEDGE_HOP_DOWN
+
+# Data Correction (Turn 29763)
+- Per overwatch critique, formally documenting that `COUNTER` and `MART_SHELF` tile types are impassable.
