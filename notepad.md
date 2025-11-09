@@ -61,7 +61,7 @@
 
 ## Agent/Tool Ideas
 - **`multi_map_navigator` (Tool):** A tool that can plan a route across multiple maps. It would take a final destination (e.g., a city or route number) and generate a sequence of `path_and_execute_v3` calls to navigate through each map segment automatically.
-- **`strategic_battle_advisor` (Agent):** A more advanced battle agent that takes into account my entire party, the opponent's known movesets, and suggests not just the best move but also whether to switch Pokémon.
+
 - **`battle_state_parser` (Tool):** A supporting tool for the battle advisor. It would parse raw screen text and game state during a battle and output a structured JSON object with current HP, status, known moves, etc., for both my Pokémon and the opponent.
 - **`puzzle_data_compiler` (Agent):** An agent to maintain a structured summary of a complex puzzle's state. I would feed it observations turn-by-turn, and it would compile the data, which could then be used as input for the `puzzle_solver_assistant`.
 
