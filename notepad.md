@@ -149,12 +149,6 @@
   - **Result:** Dialogue appeared: "It's Glyph that was left with the DAY-CARE LADY. It has no interest in O."
 - **Conclusion:** The two Pokémon in the yard, "O" and "Glyph", were left with the Day-Care couple. They do not seem to get along. The game is somehow linking my caught Unown 'O' to the 'O' in the Day-Care, even though I never deposited it. The mystery is ongoing.
 
-# Route 37 Notes
-
-## Tile Traversal Rules (Initial Observations)
-- **Traversable:** FLOOR, TALL_GRASS
-- **Impassable:** HEADBUTT_TREE, WALL
-
 # Ecruteak City Notes
 
 ## Tile Traversal Rules (Initial Observations)
