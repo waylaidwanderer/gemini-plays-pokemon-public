@@ -128,7 +128,8 @@
 
 </details>
 
-# Lessons Learned
+<details>
+<summary>Lessons Learned (Archive)</summary>
 
 ## Map Marker Discipline (Overwatch Critique, Turn 29822)
 - **Failure:** I failed to immediately mark the warp at (6, 13) in the Dance Theater, violating the 'immediate update' directive.
@@ -136,6 +137,8 @@
 
 ## VOID Tile
 - **Observation (Turn 30248):** The `VOID` tile type is impassable. This was confirmed by the pathfinder failing to route through it and must be added to the consolidated list of impassable tiles.
+
+</details>
 
 # Untested Assumptions (Self-Assessment)
 - **Assumption:** The path to my Rival, Crimson, is permanently blocked by the broken floor.
