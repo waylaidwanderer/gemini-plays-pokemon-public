@@ -71,7 +71,7 @@
 - **`use_hm` (Tool):** A tool to automate the menu navigation for using an HM move outside of battle. It would take a Pokémon's name and the move name as input and generate the necessary button presses.
 - **`repel_strategist` (Agent):** Agent to analyze location, party, and inventory to decide if using a Repel is more efficient than running from many wild battles.
 - **`area_clearance_agent` (Agent):** Takes a list of NPC coordinates and unexplored warps on a map and generates a prioritized, efficient plan to visit each one, ensuring complete exploration.
-- **`path_interruption_diagnoser` (Agent):** When movement is blocked, this agent would analyze the situation (e.g., tile type, presence of moving vs. static NPCs) and suggest the most logical next step, like recalculating a path or using `stun_npc`.
+- **`path_interruption_diagnoser` (Tool):** A computational tool that analyzes the map XML when a path is blocked. It would identify the blocking object (static vs. moving NPC), its ID, and suggest a programmatic solution, such as outputting coordinates for an alternate path or a command to stun the specific object ID. This is better as a tool than an agent due to the direct data parsing required.
 - **`auto_clear_dialogue` (Tool):** A tool to automatically press 'A' to clear any on-screen dialogue, like phone calls.
 - **`inventory_manager` (Agent):** An agent to analyze the bag and suggest the least valuable item to toss when inventory is full.
 
