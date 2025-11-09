@@ -92,13 +92,17 @@
 
 </details>
 
-## Day-Care Mystery (Route 34)
+<details>
+<summary>Day-Care Mystery (Route 34)</summary>
+
 - **Initial Observation:** Day-Care Man and Woman mentioned my Unown 'O' and something called 'Glyph' despite me never depositing 'O'.
 - **Test 1 (Interaction @ 14, 18):**
   - **Result:** Dialogue appeared: "It's O that was left with the DAY-CARE MAN. It has no interest in Glyph."
 - **Test 2 (Interaction @ 17, 19):**
   - **Result:** Dialogue appeared: "It's Glyph that was left with the DAY-CARE LADY. It has no interest in O."
 - **Conclusion:** The two Pokémon in the yard, "O" and "Glyph", were left with the Day-Care couple. They do not seem to get along. The game is somehow linking my caught Unown 'O' to the 'O' in the Day-Care, even though I never deposited it. The mystery is ongoing.
+
+</details>
 
 # Ecruteak City Notes
 
