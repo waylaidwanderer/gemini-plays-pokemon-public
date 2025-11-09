@@ -64,7 +64,7 @@
 - **`strategic_battle_advisor` (Agent):** A more advanced battle agent that takes into account my entire party, the opponent's known movesets, and suggests not just the best move but also whether to switch Pokémon.
 - **`battle_state_parser` (Tool):** A supporting tool for the battle advisor. It would parse raw screen text and game state during a battle and output a structured JSON object with current HP, status, known moves, etc., for both my Pokémon and the opponent.
 - **`puzzle_data_compiler` (Agent):** An agent to maintain a structured summary of a complex puzzle's state. I would feed it observations turn-by-turn, and it would compile the data, which could then be used as input for the `puzzle_solver_assistant`.
-- **`repel_strategist` (Agent):** Agent to analyze location, party, and inventory to decide if using a Repel is more efficient than running from many wild battles.
+
 - **`area_clearance_agent` (Agent):** Takes a list of NPC coordinates and unexplored warps on a map and generates a prioritized, efficient plan to visit each one, ensuring complete exploration.
 
 # Key Items
