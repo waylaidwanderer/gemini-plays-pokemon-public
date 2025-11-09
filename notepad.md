@@ -130,26 +130,6 @@
   - **Alternative Hypothesis:** An event, possibly triggered by exploring other parts of the tower or interacting with key NPCs like Morty and Eusine, is required to repair the floor or open an alternate route.
   - **Test to Falsify:** Systematically explore all other reachable areas and warps in the Burned Tower. If no progress is made, the assumption may be correct, but exploration must be exhausted first.
 
-# Agent/Tool Ideas (Self-Assessment)
-- **`exploration_strategist` (Agent):** An agent to analyze the output of the `find_reachable_unseen_tiles` tool and suggest the most promising tile to explore next. This would help prioritize exploration on complex maps with many unseen areas.
-
-## Burned Tower Puzzle
-- **Hypothesis (Turn 30481):** Being rejected from the Ecruteak Gym may have altered the state of the Burned Tower, possibly changing NPC dialogue or unlocking a path. Test: Re-enter the tower and interact with NPCs/rival.
-
-# Current Puzzle: Burned Tower
-- **Objective:** Find a way to progress past the broken floor.
-- **Key Event:** Moving to the west side of the tower triggered the appearance of Crimson, and caused Eusine to disappear and Morty to move.
-- **Current Hypothesis:** Interacting with the now-stunned Morty will trigger the next story event.
-- **Alternative Hypothesis 1:** The rival event activated one of the previously inactive floor pits. If talking to Morty fails, I must re-test all reachable pits.
-- **Alternative Hypothesis 2:** The solution involves interacting with the rival again. If other options fail, I must return to his location.
-- **Failed Hypotheses:**
-    - The floor pits are active by default (tested before the rival event).
-    - Interacting with Morty/Eusine before the rival event triggers progress.
-    - Interacting with the rival from across the gap is possible.
-
-## Agent/Tool Ideas (New)
-- **`npc_interaction_strategist` (Agent):** Given an NPC ID, suggests the best plan to approach and interact, including using `stun_npc` if the NPC is mobile.
-
 ## Missed Map Marker (Overwatch Critique, Turn 30601)
 - **Failure:** I failed to mark the Ecruteak City side of the Burned Tower warp, violating the 'immediate update' directive.
 - **Correction:** I must be diligent in marking **both** the entry and exit points of any warp immediately after using it. This is critical for maintaining accurate navigation data.
