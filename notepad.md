@@ -118,11 +118,15 @@
 ## Key Items
 - **ITEMFINDER:** Received from a man in the city. Used to find hidden items.
 
-## Dance Theater Gentleman (Lesson Learned)
+<details>
+<summary>Dance Theater Gentleman (Lesson Learned)</summary>
+
 - **Hypothesis:** Defeating all Kimono Girls would cause the Gentleman at (7, 10) to give a reward.
 - **Test:** Defeated all five Kimono Girls and repeatedly interacted with the Gentleman between turns 29727 and 29738.
 - **Result:** The Gentleman only repeated his initial, pre-defeat dialogue. No new outcome was triggered.
 - **Conclusion:** Hypothesis is FALSE. Repeatedly interacting with an NPC that provides no new information is an invalid strategy and will not yield new results. This confirms my general interaction rule: if an NPC doesn't change their dialogue after a significant event, move on.
+
+</details>
 
 # Lessons Learned
 
