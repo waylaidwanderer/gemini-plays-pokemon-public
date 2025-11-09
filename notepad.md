@@ -80,17 +80,7 @@
 
 # Key Items
 - BICYCLE: Received from the Goldenrod Bike Shop owner. Allows for faster travel.
-
-<details>
-<summary>Day-Care Tile Test (SOLVED)</summary>
-
-- **System Critique:** Suggested testing 'TABLE' and 'PLANT' tiles.
-- **Observation:** Tiles at (2, 4) and (5, 4) have table/plant sprites but are listed as 'FLOOR' in map data.
-- **Test 1 (Turn 29321):** Moved from (1, 4) to (2, 4). Result: Move successful. The tile is traversable.
-- **Test 2 (Turn 29327):** Moved from (5, 5) to (5, 4). Result: Move successful. The tile is traversable.
-- **Conclusion:** Visual sprites do not always indicate impassable terrain. The tile's `type` attribute is the source of truth.
-
-</details>
+- ITEMFINDER: Received from a man in Ecruteak City. Used to find hidden items.
 
 <details>
 <summary>Day-Care Mystery (Route 34)</summary>
@@ -115,8 +105,18 @@
 - **Title:** The Mystic Seer of the Future
 - **Likely Type:** Ghost or Psychic
 
-## Key Items
-- **ITEMFINDER:** Received from a man in the city. Used to find hidden items.
+# Archive: Solved Puzzles & Lessons Learned
+
+<details>
+<summary>Day-Care Tile Test (SOLVED)</summary>
+
+- **System Critique:** Suggested testing 'TABLE' and 'PLANT' tiles.
+- **Observation:** Tiles at (2, 4) and (5, 4) have table/plant sprites but are listed as 'FLOOR' in map data.
+- **Test 1 (Turn 29321):** Moved from (1, 4) to (2, 4). Result: Move successful. The tile is traversable.
+- **Test 2 (Turn 29327):** Moved from (5, 5) to (5, 4). Result: Move successful. The tile is traversable.
+- **Conclusion:** Visual sprites do not always indicate impassable terrain. The tile's `type` attribute is the source of truth.
+
+</details>
 
 <details>
 <summary>Dance Theater Gentleman (Lesson Learned)</summary>
