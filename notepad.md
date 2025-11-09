@@ -150,9 +150,9 @@
 ## Agent/Tool Ideas (New)
 - **`npc_interaction_strategist` (Agent):** Given an NPC ID, suggests the best plan to approach and interact, including using `stun_npc` if the NPC is mobile.
 
-# Overwatch Critique Corrections (Turn 30601)
-- **Notepad Inaccuracy:** Acknowledged that `puzzle_solver_assistant` is a defined agent, not an idea. Will correct the relevant entries during the next major refactor.
-- **Missed Map Marker:** Acknowledged failure to mark the Ecruteak City side of the Burned Tower warp. Returning to Ecruteak City immediately to correct this.
+## Missed Map Marker (Overwatch Critique, Turn 30601)
+- **Failure:** I failed to mark the Ecruteak City side of the Burned Tower warp, violating the 'immediate update' directive.
+- **Correction:** I must be diligent in marking **both** the entry and exit points of any warp immediately after using it. This is critical for maintaining accurate navigation data.
 
 # Phone Contacts
 - **TODD (CAMPER):** Met on Route 34. Calls with training tips.
