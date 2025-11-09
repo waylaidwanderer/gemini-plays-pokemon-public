@@ -149,3 +149,9 @@
 ## Tile Traversal Rules (Initial Observations)
 - **Traversable:** FLOOR, TALL_GRASS
 - **Impassable:** HEADBUTT_TREE, WALL
+
+# Ecruteak City Notes
+
+## Tile Traversal Rules (Initial Observations)
+- **Traversable:** FLOOR
+- **Impassable:** WALL, HEADBUTT_TREE
