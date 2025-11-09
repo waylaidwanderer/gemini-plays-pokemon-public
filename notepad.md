@@ -160,3 +160,6 @@
   - **Alternative Hypothesis:** The event was just a cutscene, and they are not actually catchable yet, or they are in a specific, fixed location.
   - **Test to Falsify:** This is difficult to test directly. I must rely on future NPC dialogue or random encounters to confirm or deny their roaming status.
 - **Puzzles/Special:** PIT (Appears to be a one-way warp, likely down. Needs testing.)
+
+# Ecruteak Gym Puzzle
+- **Gym Guide Hint:** The trainers in the gym have secrets about Ecruteak. Defeating them may reveal the path.
