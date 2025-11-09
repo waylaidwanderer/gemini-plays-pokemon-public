@@ -170,7 +170,13 @@
 
 # Game Mechanics & Systems (Addendum)
 
-## Directional Warp Mechanics (CRITICAL LESSON)
-- **Observation:** Tiles like `WARP_CARPET_LEFT`, `WARP_CARPET_RIGHT`, `WARP_CARPET_UP`, and `WARP_CARPET_DOWN` are not automatic warps.
-- **Mechanic:** To activate these warps, I must be standing on the tile and press the corresponding directional button (e.g., press 'Left' while on a `WARP_CARPET_LEFT` tile).
-- **Conclusion:** My failure to understand this mechanic was the direct cause of multiple severe navigational hallucinations and wasted turns. This is a fundamental rule that must be remembered for all future exploration.
+## VOID Tile
+- **Observation (Turn 30248):** The `VOID` tile type is impassable. This was confirmed by the pathfinder failing to route through it and must be added to the consolidated list of impassable tiles.
+
+# Untested Assumptions (Self-Assessment)
+- **Assumption:** The path to my Rival, Crimson, is permanently blocked by the broken floor.
+  - **Alternative Hypothesis:** An event, possibly triggered by exploring other parts of the tower or interacting with key NPCs like Morty and Eusine, is required to repair the floor or open an alternate route.
+  - **Test to Falsify:** Systematically explore all other reachable areas and warps in the Burned Tower. If no progress is made, the assumption may be correct, but exploration must be exhausted first.
+
+# Agent/Tool Ideas (Self-Assessment)
+- **`exploration_strategist` (Agent):** An agent to analyze the output of the `find_reachable_unseen_tiles` tool and suggest the most promising tile to explore next. This would help prioritize exploration on complex maps with many unseen areas.
