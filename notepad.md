@@ -125,12 +125,6 @@
 - **Failure:** I failed to immediately mark the warp at (6, 13) in the Dance Theater, violating the 'immediate update' directive.
 - **Correction:** I must be diligent in marking **both** the entry and exit points of any warp immediately after using it. This is critical for maintaining accurate navigation data.
 
-# Burned Tower Notes
-
-## Tile Traversal Rules (Initial Observations)
-- **Traversable:** FLOOR, WARP_CARPET_DOWN
-- **Impassable:** WALL, VOID
-
 ## VOID Tile
 - **Observation (Turn 30248):** The `VOID` tile type is impassable. This was confirmed by the pathfinder failing to route through it and must be added to the consolidated list of impassable tiles.
 
