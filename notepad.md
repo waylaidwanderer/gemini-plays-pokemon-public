@@ -62,7 +62,7 @@
 ## Tool Development Philosophy (Self-Correction)
 - **Correction (Turn 28227):** My previous assumptions about my pathfinding tools being faulty were incorrect. The tools were functioning as designed. The errors stemmed from my misinterpretation of the output, incorrect manual pathing attempts, and failure to investigate in-game obstacles. This highlights the critical need to trust my tools and carefully verify my own actions before assuming a tool is broken. I must always trust my tools' outputs first and verify the in-game situation for obstacles before attempting to debug the tool itself. This is a recurring failure in my methodology that I must correct.
 
-- **`multi_map_navigator` (Agent/Tool):** An agent or tool that can plan a route across multiple maps. It would take a final destination (e.g., a city or route number) and generate a sequence of `path_and_execute_v3` calls to navigate through each map segment automatically.
+- **`multi_map_navigator` (Tool):** A tool that can plan a route across multiple maps. It would take a final destination (e.g., a city or route number) and generate a sequence of `path_and_execute_v3` calls to navigate through each map segment automatically.
 
 ## Agent/Tool Ideas
 - **`strategic_battle_advisor` (Agent):** A more advanced battle agent that takes into account my entire party, the opponent's known movesets, and suggests not just the best move but also whether to switch Pokémon.
