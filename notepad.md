@@ -322,3 +322,10 @@
 
 ## HEADBUTT Mechanic
 - Received TM02 (HEADBUTT) in Ilex Forest. Can be used on `HEADBUTT_TREE` tiles outside of battle.
+
+## Pathfinding Tool Trust (Turn 30168)
+- **Problem:** `path_and_execute` failed to generate a path from (8, 4) to (8, 6).
+- **Hypothesis:** The tool was broken.
+- **Test:** Ran a diagnostic version of the script with debug prints.
+- **Result:** The script correctly identified the tile at (8, 5) as an impassable 'WALL'. It then successfully found an alternate path around the obstacle.
+- **Conclusion:** Hypothesis is FALSE. The tool is functioning correctly. The failure was due to my own flawed manual path plan that did not account for the wall. This reinforces the critical need to trust my tools and verify my own assumptions about the map layout before attempting to debug the code.
