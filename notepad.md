@@ -132,3 +132,6 @@
 
 # Agent/Tool Ideas (Self-Assessment)
 - **`exploration_strategist` (Agent):** An agent to analyze the output of the `find_reachable_unseen_tiles` tool and suggest the most promising tile to explore next. This would help prioritize exploration on complex maps with many unseen areas.
+
+## Burned Tower Puzzle
+- **Hypothesis (Turn 30481):** Being rejected from the Ecruteak Gym may have altered the state of the Burned Tower, possibly changing NPC dialogue or unlocking a path. Test: Re-enter the tower and interact with NPCs/rival.
