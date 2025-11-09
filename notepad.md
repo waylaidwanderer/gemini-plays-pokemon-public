@@ -187,3 +187,11 @@
 ## Tile Traversal Rules (Initial Observations)
 - **Traversable:** FLOOR, WARP_CARPET_DOWN
 - **Impassable:** WALL, VOID
+
+# Lessons Learned
+
+## Pathfinding Tool Trust (Turn 30219)
+- **Problem:** `path_and_execute` failed to find a path to (8, 10). I assumed the tool was broken.
+- **Test:** Ran a diagnostic version of the script with debug prints.
+- **Result:** The script correctly identified that the path was blocked by unseen tiles. My manual path tracing was flawed because it did not account for the fog-of-war.
+- **Conclusion:** Hypothesis is FALSE. The tool is functioning correctly. The failure was due to my own flawed manual analysis of the map. This reinforces the critical need to trust my tools' outputs and verify my own assumptions about the map layout before attempting to debug the code. This is a recurring personal failure.
