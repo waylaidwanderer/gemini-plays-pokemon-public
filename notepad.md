@@ -66,6 +66,7 @@
 - **`path_and_execute_v3`**: My primary pathfinding tool. Correctly treats objects and hazards like PITs as impassable.
 - **`auto_clear_dialogue`**: Automates clearing dialogue boxes.
 - **`use_hm_cut`**: Automates using the HM CUT from the menu.
+- **`stun_npc`**: Temporarily freezes an NPC's movement.
 
 ### Custom Agents
 - **`quest_progression_advisor`**: Suggests the next logical step to advance the story when I'm stuck.
@@ -98,6 +99,17 @@
 - **Leader:** Morty
 - **Title:** The Mystic Seer of the Future
 - **Likely Type:** Ghost or Psychic
+
+# Tin Tower Entrance Puzzle
+- **Goal:** Find the correct path to ascend the tower.
+- **Observations:** The room contains two wandering NPCs (a Sage and a Gramps), a central structure, and a ladder. The path to the left side of the room is blocked by the central structure.
+- **Failed Hypotheses:**
+  1.  **Hypothesis:** The ladder at (5, 3) is the way forward.
+      - **Test:** Climbed the ladder.
+      - **Result:** Led to a dead-end platform at (17, 15). Hypothesis is FALSE.
+  2.  **Hypothesis:** The Gramps NPC has the solution.
+      - **Test:** Interacted with the Gramps after stunning him.
+      - **Result:** He only provided lore about the towers. Hypothesis is FALSE.
 
 # Untested Assumptions & Alternative Hypotheses (Self-Assessment)
 - **Assumption:** The path to my Rival, Crimson, in the Burned Tower is permanently blocked by the broken floor.
@@ -164,12 +176,3 @@
 - **Assumption:** The legendary beasts will now be roaming the world.
   - **Alternative Hypothesis:** The event was just a cutscene, and they are not actually catchable yet, or they are in a specific, fixed location.
   - **Test to Falsify:** This is difficult to test directly. I must rely on future NPC dialogue or random encounters to confirm or deny their roaming status.
-
-# Ecruteak Gym Puzzle
-- **Gym Guide Hint:** The trainers in the gym have secrets about Ecruteak. Defeating them may reveal the path.
-- **Working Hypothesis (Revised):** Defeating a gym trainer causes the next trainer to appear, revealing the next segment of the invisible path. The puzzle is a linear sequence of battles.
-- **Trainer Log:**
-  1. Defeated Sage Ping at (3, 13).
-  2. Defeated Medium Grace at (2, 7).
-  3. Defeated Sage Jeffrey at (3, 7).
-  4. Defeated Medium Martha at (7, 5).
