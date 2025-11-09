@@ -188,3 +188,7 @@
   12. Actively following one of the NPCs triggers an event. (Result: No event triggered. Hypothesis is FALSE).
 
 11. The platform at (17, 15) contains a hidden item or switch. (Result: Systematically walked over and interacted with every tile and adjacent surface. No event triggered. Hypothesis is FALSE).
+
+# Current Plan (from puzzle_solver_assistant)
+- **Hypothesis:** An event in the Burned Tower must be triggered to unblock the path.
+- **Test Plan:** 1. Leave Tin Tower. 2. Go to Burned Tower. 3. Explore until event triggers. 4. Return to Tin Tower.
