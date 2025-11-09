@@ -46,29 +46,19 @@
 # Gym Information
 - **Goldenrod Gym:** Normal-type. Fighting-type moves are recommended.
 
-# Untested Assumptions & Alternative Hypotheses
-- **Assumption:** The strange dialogue from Gramps and Granny ('Your O', 'your Glyph') is related to the Unown I caught.
-  - **Alternative Hypothesis:** It could be a default dialogue that triggers if you don't have any Pokémon in the Day-Care, and 'O' or 'Glyph' is just a placeholder or a bug.
-  - **Test to Falsify:** The next time I have a free party slot and some money, I will deposit a common Pokémon (like a Pidgey) and then immediately talk to them again. If the dialogue changes to refer to the Pidgey by name, my initial hypothesis is likely correct. If it stays the same, the dialogue is likely just a default script.
-- **Assumption:** HM Flash is in Violet City.
-  - **Alternative Hypothesis:** HM Flash might be in a different city, or the solution to Dark Cave doesn't require Flash.
-  - **Test to Falsify:** If a systematic search of all buildings and NPCs in Violet City yields no HM, I must conclude it is not here and proceed to the next available area.
-- **Assumption:** The two `WEIRD_TREE` objects on Route 37 are Sudowoodo that require the SQUIRT BOTTLE.
-  - **Alternative Hypothesis:** They could be a different type of event tree requiring a different item/trigger, or a permanent story blockade.
-  - **Test to Falsify:** Next time on Route 37, use the SQUIRT BOTTLE on them. If nothing happens, the assumption is false.
-
 # Tool Development & Philosophy
 
 ## Tool Development Philosophy (Self-Correction)
 - **Correction (Turn 28227):** My previous assumptions about my pathfinding tools being faulty were incorrect. The tools were functioning as designed. The errors stemmed from my misinterpretation of the output, incorrect manual pathing attempts, and failure to investigate in-game obstacles. This highlights the critical need to trust my tools and carefully verify my own actions before assuming a tool is broken. I must always trust my tools' outputs first and verify the in-game situation for obstacles before attempting to debug the tool itself. This is a recurring failure in my methodology that I must correct.
 
-- **`multi_map_navigator` (Tool):** A tool that can plan a route across multiple maps. It would take a final destination (e.g., a city or route number) and generate a sequence of `path_and_execute_v3` calls to navigate through each map segment automatically.
+## Tool Implementation Priority
+- **`use_hm` (Tool):** High priority. I manually used CUT (Turns 31153-31158) when I should have automated it. I will define this tool at the next convenient opportunity (e.g., in a Pokémon Center) to improve efficiency.
 
 ## Agent/Tool Ideas
+- **`multi_map_navigator` (Tool):** A tool that can plan a route across multiple maps. It would take a final destination (e.g., a city or route number) and generate a sequence of `path_and_execute_v3` calls to navigate through each map segment automatically.
 - **`strategic_battle_advisor` (Agent):** A more advanced battle agent that takes into account my entire party, the opponent's known movesets, and suggests not just the best move but also whether to switch Pokémon.
 - **`battle_state_parser` (Tool):** A supporting tool for the battle advisor. It would parse raw screen text and game state during a battle and output a structured JSON object with current HP, status, known moves, etc., for both my Pokémon and the opponent.
 - **`puzzle_data_compiler` (Agent):** An agent to maintain a structured summary of a complex puzzle's state. I would feed it observations turn-by-turn, and it would compile the data, which could then be used as input for the `puzzle_solver_assistant`.
-- **`use_hm` (Tool):** A tool to automate the menu navigation for using an HM move outside of battle. It would take a Pokémon's name and the move name as input and generate the necessary button presses.
 - **`repel_strategist` (Agent):** Agent to analyze location, party, and inventory to decide if using a Repel is more efficient than running from many wild battles.
 - **`area_clearance_agent` (Agent):** Takes a list of NPC coordinates and unexplored warps on a map and generates a prioritized, efficient plan to visit each one, ensuring complete exploration.
 - **`path_interruption_diagnoser` (Tool):** A computational tool that analyzes the map XML when a path is blocked. It would identify the blocking object (static vs. moving NPC), its ID, and suggest a programmatic solution, such as outputting coordinates for an alternate path or a command to stun the specific object ID. This is better as a tool than an agent due to the direct data parsing required.
@@ -99,6 +89,25 @@
 - **Leader:** Morty
 - **Title:** The Mystic Seer of the Future
 - **Likely Type:** Ghost or Psychic
+
+# Untested Assumptions & Alternative Hypotheses (Self-Assessment)
+- **Assumption:** The path to my Rival, Crimson, in the Burned Tower is permanently blocked by the broken floor.
+  - **Alternative Hypothesis:** An event, possibly triggered by exploring other parts of the tower or interacting with key NPCs like Morty and Eusine, is required to repair the floor or open an alternate route.
+  - **Test to Falsify:** Systematically explore all other reachable areas and warps in the Burned Tower. If no progress is made, the assumption may be correct, but exploration must be exhausted first.
+- **Assumption:** Wade on Route 31 will give me a `BITTER BERRY` for the sick Miltank.
+    - **Alternative Hypothesis:** Wade might give me a different kind of berry, or no berry at all, and the Miltank quest requires something else I haven't found.
+    - **Test to Falsify:** Talk to Wade. If he doesn't give me a `BITTER BERRY`, the assumption is false.
+- **Assumption:** The mail delivery officer is on Route 31.
+    - **Alternative Hypothesis:** The officer could be on any route connected to Goldenrod. I've only checked one gate.
+    - **Test to Falsify:** Systematically check all other gates connected to major routes.
+
+# Phone Contacts
+- **TODD (CAMPER):** Met on Route 34. Calls with training tips.
+
+## Miltank Healing
+- **Status:** In Progress.
+- **Task:** Deliver the BITTER BERRY from Wade to the sick Miltank on Route 39.
+- **Location:** Moomoo Farm, barn building.
 
 # Archive: Solved Puzzles & Lessons Learned
 
@@ -133,24 +142,8 @@
 ## VOID Tile
 - **Observation (Turn 30248):** The `VOID` tile type is impassable. This was confirmed by the pathfinder failing to route through it and must be added to the consolidated list of impassable tiles.
 
-</details>
-
-# Untested Assumptions (Self-Assessment)
-- **Assumption:** The path to my Rival, Crimson, is permanently blocked by the broken floor.
-  - **Alternative Hypothesis:** An event, possibly triggered by exploring other parts of the tower or interacting with key NPCs like Morty and Eusine, is required to repair the floor or open an alternate route.
-  - **Test to Falsify:** Systematically explore all other reachable areas and warps in the Burned Tower. If no progress is made, the assumption may be correct, but exploration must be exhausted first.
-
 ## Missed Map Marker (Overwatch Critique, Turn 30601)
 - **Failure:** I failed to mark the Ecruteak City side of the Burned Tower warp, violating the 'immediate update' directive.
 - **Correction:** I must be diligent in marking **both** the entry and exit points of any warp immediately after using it. This is critical for maintaining accurate navigation data.
 
-# Phone Contacts
-- **TODD (CAMPER):** Met on Route 34. Calls with training tips.
-
-## Miltank Healing
-- **Status:** In Progress.
-- **Task:** Deliver the BITTER BERRY from Wade to the sick Miltank on Route 39.
-- **Location:** Moomoo Farm, barn building.
-
-## Tool Implementation Priority (Overwatch Critique, Turn 31201)
-- **`use_hm` (Tool):** High priority. I manually used CUT (Turns 31153-31158) when I should have automated it. I will define this tool at the next convenient opportunity (e.g., in a Pokémon Center) to improve efficiency.
+</details>
