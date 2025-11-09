@@ -169,6 +169,9 @@
 - **One-Way (Ledges, Untested):**
   - LEDGE_HOP_DOWN
   - LEDGE_HOP_RIGHT
+## Tile Traversal Rules & Tests
+- **Traversable:** FLOOR
+- **Impassable:** WALL, HEADBUTT_TREE
 - **One-Way (Ledges, Untested):**
   - LEDGE_HOP_DOWN
   - LEDGE_HOP_RIGHT
