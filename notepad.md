@@ -43,6 +43,12 @@
 - **Status:** COMPLETE.
 - **Task:** Received LEAF STONE from GINA on Route 34 after making space in my bag.
 
+## Miltank Healing
+- **Status:** On Hold.
+- **Task:** Find a BERRY to heal the sick Miltank on Route 39.
+- **Location:** Moomoo Farm, barn building.
+- **Failed Attempt:** Spoke to Wade on Route 31 after he called about having berries. He did not provide a BITTER BERRY or any other kind of berry. The solution lies elsewhere.
+
 # Gym Information
 - **Goldenrod Gym:** Normal-type. Fighting-type moves are recommended.
 
@@ -94,9 +100,6 @@
 - **Assumption:** The path to my Rival, Crimson, in the Burned Tower is permanently blocked by the broken floor.
   - **Alternative Hypothesis:** An event, possibly triggered by exploring other parts of the tower or interacting with key NPCs like Morty and Eusine, is required to repair the floor or open an alternate route.
   - **Test to Falsify:** Systematically explore all other reachable areas and warps in the Burned Tower. If no progress is made, the assumption may be correct, but exploration must be exhausted first.
-- **Assumption:** Wade on Route 31 will give me a `BITTER BERRY` for the sick Miltank.
-    - **Alternative Hypothesis:** Wade might give me a different kind of berry, or no berry at all, and the Miltank quest requires something else I haven't found.
-    - **Test to Falsify:** Talk to Wade. If he doesn't give me a `BITTER BERRY`, the assumption is false.
 - **Assumption:** The mail delivery officer is on Route 31.
     - **Alternative Hypothesis:** The officer could be on any route connected to Goldenrod. I've only checked one gate.
     - **Test to Falsify:** Systematically check all other gates connected to major routes.
@@ -104,12 +107,17 @@
 # Phone Contacts
 - **TODD (CAMPER):** Met on Route 34. Calls with training tips.
 
-## Miltank Healing
-- **Status:** In Progress.
-- **Task:** Deliver the BITTER BERRY from Wade to the sick Miltank on Route 39.
-- **Location:** Moomoo Farm, barn building.
-
 # Archive: Solved Puzzles & Lessons Learned
+
+<details>
+<summary>Wade's Berries (Hypothesis Falsified)</summary>
+
+- **Assumption:** Wade on Route 31 would give me a `BITTER BERRY` for the sick Miltank after calling me.
+- **Test:** Defeated Wade in a rematch and spoke to him on Turn 31288.
+- **Result:** Wade's dialogue was non-committal ("You'll hear from me..."). He did not provide any berries.
+- **Conclusion:** Hypothesis is FALSE. The solution to the Miltank quest is not with Wade.
+
+</details>
 
 <details>
 <summary>Day-Care Tile Test (SOLVED)</summary>
