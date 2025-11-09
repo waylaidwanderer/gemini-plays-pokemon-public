@@ -14,6 +14,7 @@
   - CAVE: Standard warp point.
   - DOOR: Standard warp, sometimes conditional based on story events.
   - LADDER: Directional warp that requires facing the ladder to use.
+  - PIT: One-way warp that teleports the player back to the start of the puzzle.
   - WARP_CARPET: General directional warp mat.
   - WARP_CARPET_UP: Moves player up one floor.
   - WARP_CARPET_DOWN: Moves player down one floor. Can be one-way and may require pressing 'Down' to activate.
@@ -159,7 +160,7 @@
 - **Assumption:** The legendary beasts will now be roaming the world.
   - **Alternative Hypothesis:** The event was just a cutscene, and they are not actually catchable yet, or they are in a specific, fixed location.
   - **Test to Falsify:** This is difficult to test directly. I must rely on future NPC dialogue or random encounters to confirm or deny their roaming status.
-- **Puzzles/Special:** PIT (Appears to be a one-way warp, likely down. Needs testing.)
 
 # Ecruteak Gym Puzzle
 - **Gym Guide Hint:** The trainers in the gym have secrets about Ecruteak. Defeating them may reveal the path.
+- **Working Hypothesis:** The invisible path is revealed by walking along the line of sight of the trainers in the gym. Defeating the trainers seems to make new trainers appear, revealing more of the path.
