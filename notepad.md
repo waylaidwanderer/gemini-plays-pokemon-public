@@ -78,37 +78,6 @@
 - **`auto_clear_dialogue` (Tool):** A tool to automatically press 'A' to clear any on-screen dialogue, like phone calls.
 - **`inventory_manager` (Agent):** An agent to analyze the bag and suggest the least valuable item to toss when inventory is full.
 
-# Appendix: Solved Puzzles & Lessons Learned
-
-## HEADBUTT_TREE Mechanics Test
-- **Observation:** The `HEADBUTT_TREE` tile type is impassable.
-- **Hypothesis 1 (Turn 24065):** The `HEADBUTT_TREE` is an interactable object that responds to the 'A' button.
-- **Test:** Stood at (25, 4), faced down, and pressed 'A' on the tree at (25, 5).
-- **Result:** No text appeared, and no action occurred.
-- **Conclusion:** Hypothesis 1 is FALSE. The tree does not respond to a standard 'A' button interaction. It is likely that the move 'Headbutt' is required to interact with these trees. For now, they are impassable obstacles.
-
-## SQUIRT BOTTLE Quest & WEIRD_TREE Puzzle (SOLVED)
-- **Objective:** Clear the WEIRD_TREE on Route 36.
-- **Solution:**
-
-## Dark Cave Notes
-
-## Tile Traversal Rules (Initial Observations)
-- **Traversable:** FLOOR
-- **Impassable:** WALL, WATER
-- **One-Way:** LEDGE_HOP_DOWN, LEDGE_HOP_LEFT
-- **Warp:** WARP_CARPET_DOWN
-
-## Route 31 Cooltrainer (SOLVED)
-- **Hypothesis:** The Cooltrainer M blocking the path on Route 31 must be defeated to proceed.
-- **Test:** After stunning him, I interacted with him at (33, 8).
-- **Result:** He gave flavor text about needing a POKéMON with a light-up move for Dark Cave. No battle was initiated.
-- **Conclusion:** Hypothesis is FALSE. He is a non-battling NPC who provides a hint. He was also not blocking the path, which was a major misinterpretation on my part.
-
-## Tool Discrepancy (SOLVED, Turn 28952)
-- **Problem:** `find_reachable_unseen_tiles` reported (37, 15) as reachable, but `path_and_execute` failed to find a path to it.
-- **Conclusion:** `find_reachable_unseen_tiles` had a logic flaw and could not be fully trusted. It likely didn't account for complex barriers like ledges or water that the pathfinder does. This has since been fixed by integrating the robust pathfinding logic from `path_and_execute`.
-
 # Key Items
 - BICYCLE: Received from the Goldenrod Bike Shop owner. Allows for faster travel.
 
