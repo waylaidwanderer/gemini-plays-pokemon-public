@@ -179,3 +179,9 @@
 
 # Ecruteak City Notes
 - A man mentioned there are hidden items in the BURNED TOWER. This is a strong lead for finding Morty.
+
+# Ecruteak Itemfinder House Notes
+
+## Tile Traversal Rules (Initial Observations)
+- **Traversable:** FLOOR
+- **Impassable:** WALL, POKEDEX
