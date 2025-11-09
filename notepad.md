@@ -113,6 +113,7 @@
   7. Replicating the Gramps' path triggers an event. (Result: Blocked by NPC, unable to test fully).
   8. Replicating the Sage's path triggers an event. (Result: No event triggered).
   9. NPC dialogue changes after obtaining the Fog Badge. (Result: Spoke to both Sage and Gramps. Dialogue was unchanged. Hypothesis is FALSE).
+  10. Stepping on a specific tile on the central platform is the trigger. (Result: Systematically walked over every reachable tile on the platform. No event triggered. Hypothesis is FALSE).
 
 # Untested Assumptions & Alternative Hypotheses (Self-Assessment)
 - **Assumption:** The path to my Rival, Crimson, in the Burned Tower is permanently blocked by the broken floor.
