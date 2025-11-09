@@ -154,3 +154,10 @@
 ## Tile Traversal Rules (Initial Observations)
 - **Traversable:** FLOOR
 - **Impassable:** WALL, HEADBUTT_TREE
+
+# Ecruteak City Notes
+
+## Ecruteak Gym
+- **Leader:** Morty
+- **Title:** The Mystic Seer of the Future
+- **Likely Type:** Ghost or Psychic
