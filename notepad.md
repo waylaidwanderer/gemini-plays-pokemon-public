@@ -151,3 +151,6 @@
 - **Status:** In Progress.
 - **Task:** Deliver the BITTER BERRY from Wade to the sick Miltank on Route 39.
 - **Location:** Moomoo Farm, barn building.
+
+## Tool Implementation Priority (Overwatch Critique, Turn 31201)
+- **`use_hm` (Tool):** High priority. I manually used CUT (Turns 31153-31158) when I should have automated it. I will define this tool at the next convenient opportunity (e.g., in a Pokémon Center) to improve efficiency.
