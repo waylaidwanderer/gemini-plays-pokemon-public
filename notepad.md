@@ -148,3 +148,8 @@
 
 # Phone Contacts
 - **TODD (CAMPER):** Met on Route 34. Calls with training tips.
+
+## Miltank Healing
+- **Status:** In Progress.
+- **Task:** Deliver the BITTER BERRY from Wade to the sick Miltank on Route 39.
+- **Location:** Moomoo Farm, barn building.
