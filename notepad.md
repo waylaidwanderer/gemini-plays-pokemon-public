@@ -185,3 +185,10 @@
 ## Tile Traversal Rules (Initial Observations)
 - **Traversable:** FLOOR
 - **Impassable:** WALL, POKEDEX
+
+# Dance Theater Notes
+
+## Tile Traversal Rules (Initial Observations)
+- **Traversable:** FLOOR
+- **Impassable:** WALL
+- **Warp:** WARP_CARPET_DOWN
