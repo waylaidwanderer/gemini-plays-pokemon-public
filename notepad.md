@@ -175,21 +175,6 @@
 - **Mechanic:** To activate these warps, I must be standing on the tile and press the corresponding directional button (e.g., press 'Left' while on a `WARP_CARPET_LEFT` tile).
 - **Conclusion:** My failure to understand this mechanic was the direct cause of multiple severe navigational hallucinations and wasted turns. This is a fundamental rule that must be remembered for all future exploration.
 
-## Pathfinding Tool Trust (Turn 30168)
-- **Problem:** `path_and_execute` failed to generate a path from (8, 4) to (8, 6).
-- **Hypothesis:** The tool was broken.
-- **Test:** Ran a diagnostic version of the script with debug prints.
-- **Result:** The script correctly identified the tile at (8, 5) as an impassable 'WALL'. It then successfully found an alternate path around the obstacle.
-- **Conclusion:** Hypothesis is FALSE. The tool is functioning correctly. The failure was due to my own flawed manual path plan that did not account for the wall. This reinforces the critical need to trust my tools and verify my own assumptions about the map layout before attempting to debug the code.
-
-# Lessons Learned
-
-## Pathfinding Tool Trust (Turn 30219)
-- **Problem:** `path_and_execute` failed to find a path to (8, 10). I assumed the tool was broken.
-- **Test:** Ran a diagnostic version of the script with debug prints.
-- **Result:** The script correctly identified that the path was blocked by unseen tiles. My manual path tracing was flawed because it did not account for the fog-of-war.
-- **Conclusion:** Hypothesis is FALSE. The tool is functioning correctly. The failure was due to my own flawed manual analysis of the map. This reinforces the critical need to trust my tools' outputs and verify my own assumptions about the map layout before attempting to debug the code. This is a recurring personal failure.
-
 # Lessons Learned
 
 ## Pathfinding Tool Trust (Turn 30235)
