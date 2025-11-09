@@ -111,7 +111,7 @@
   5. Actively following the Sage triggers an event. (Result: No event triggered).
   6. Actively following the Gramps triggers an event. (Result: No event triggered).
   7. Replicating the Gramps' path triggers an event. (Result: Blocked by NPC, unable to test fully).
-- **Current Hypothesis:** I must walk the exact same path as the Sage to reveal the way forward.
+- Replicating the Sage's path triggers an event. (Result: No event triggered).
 
 # Untested Assumptions & Alternative Hypotheses (Self-Assessment)
 - **Assumption:** The path to my Rival, Crimson, in the Burned Tower is permanently blocked by the broken floor.
