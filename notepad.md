@@ -181,4 +181,5 @@
       - **Result:** No event was triggered. Hypothesis is FALSE.
 
 ## New Hypothesis (Tin Tower)
-- **Hypothesis:** I must walk the exact same path as one of the NPCs to reveal the way forward.
+- **Failed Hypothesis:** Replicating the Sage's path did not work.
+- **New Hypothesis:** I must walk the exact same path as the Gramps to reveal the way forward.
