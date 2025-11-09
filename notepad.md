@@ -90,31 +90,6 @@
 ## SQUIRT BOTTLE Quest & WEIRD_TREE Puzzle (SOLVED)
 - **Objective:** Clear the WEIRD_TREE on Route 36.
 - **Solution:**
-  1. Defeat Gym Leader Whitney in Goldenrod Gym.
-  2. Speak to the Lass at (9, 6) in the Gym. This prompts Whitney to give you the Plain Badge and TM45.
-  3. Go to the Goldenrod Flower Shop. The woman at (2, 3) will give you the SQUIRT BOTTLE.
-  4. Travel to Route 36 and use the SQUIRT BOTTLE on the WEIRD_TREE at (35, 9).
-  5. The tree reveals itself as a Sudowoodo. After the encounter, the path is clear.
-  6. An NPC at (36, 9) will then give you TM08 (Rock Smash).
-
-## SQUIRT BOTTLE Investigation (SOLVED)
-- **Problem:** The SQUIRT BOTTLE is missing from my bag.
-- **Hypothesis 1:** The Teacher NPC in the Goldenrod Flower Shop will provide a replacement. **Result: FALSE.**
-- **Hypothesis 2:** The Lass NPC in the Goldenrod Flower Shop will provide a replacement or clue. **Result: FALSE.**
-- **Hypothesis 3:** Whitney in the Goldenrod Gym will provide a replacement or clue. **Result: FALSE.**
-- **Hypothesis 4:** One of my party Pokémon is holding the item. **Result: TRUE (Ignis was holding it).**
-- **Hypothesis 5:** The item is in the PC's Item Storage. **Result: FALSE.**
-- **Hypothesis 6:** A Pokémon in the PC is holding the item. **Result: FALSE.**
-- **Conclusion:** My bag was full during the initial conversation, so the item was automatically given to my lead Pokémon to hold.
-
-## HM Move Mechanics
-- **Forgetting HMs:** It has been confirmed that HM moves (like CUT) cannot be forgotten via TM replacement. This suggests a special NPC, the 'Move Deleter', may be required to remove them, a common feature in later games. This needs to be verified.
-
-## HEADBUTT Mechanic
-- Received TM02 (HEADBUTT) from a Rocker NPC in Ilex Forest at (15, 14).
-- My Typhlosion, Ignis, already knows this move.
-- This move can be used on `HEADBUTT_TREE` tiles outside of battle by facing the tree and pressing 'A'.
-- **Test 1 (Turn 28043):** Used HEADBUTT on the tree at (16, 14). Result: "Nope. Nothing…".
 
 ## Dark Cave Notes
 
