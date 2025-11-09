@@ -1,11 +1,14 @@
 # Game Mechanics & Systems
 
-## Tile Traversal Rules
-- **Impassable:** BOOKSHELF, BUOY (assumed), COUNTER, CUT_TREE, HEADBUTT_TREE, INCENSE_BURNER, MART_SHELF, PC, PILLAR (usually), RADIO, TOWN_MAP, TV, VOID, WALL, WATER, WINDOW, TABLE.
+## Tile Traversal Rules (Consolidated)
+- **Impassable:** BOOKSHELF, BUOY (assumed), COUNTER, CUT_TREE, HEADBUTT_TREE, INCENSE_BURNER, MART_SHELF, PC, PILLAR (usually), POKEDEX, RADIO, TOWN_MAP, TV, VOID, WALL, WATER, WINDOW, TABLE.
 - **Traversable (Visual Obstacles):** PLANT (The sprite is an obstacle, but the tile type is FLOOR).
 - **Traversable:** FLOOR, GRASS, LONG_GRASS, TALL_GRASS, UNKNOWN.
 - **One-Way (Ledges):**
   - LEDGE_HOP: General one-way tile.
+  - LEDGE_HOP_DOWN: One-way down.
+  - LEDGE_HOP_LEFT: One-way left.
+  - LEDGE_HOP_RIGHT: One-way right.
   - FLOOR_UP_WALL: Cannot be moved *down from* this tile, and cannot be moved *down onto* this tile.
 - **Warps (Directional/Conditional):**
   - CAVE: Standard warp point.
