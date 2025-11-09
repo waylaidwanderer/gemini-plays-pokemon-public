@@ -173,3 +173,9 @@
 ## Tile Traversal Test Results (Ecruteak Pokecenter)
 - `PC` at (9, 1): Confirmed impassable after attempting to walk onto it from (9, 2).
 - `COUNTER` at (4, 2): Confirmed impassable after attempting to walk onto it from (4, 3).
+
+# Key Items
+- ITEMFINDER: Received from a man in Ecruteak City. Used to find hidden items.
+
+# Ecruteak City Notes
+- A man mentioned there are hidden items in the BURNED TOWER. This is a strong lead for finding Morty.
