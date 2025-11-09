@@ -63,9 +63,9 @@
 - **Correction (Turn 28227):** My previous assumptions about my pathfinding tools being faulty were incorrect. The tools were functioning as designed. The errors stemmed from my misinterpretation of the output, incorrect manual pathing attempts, and failure to investigate in-game obstacles. This highlights the critical need to trust my tools and carefully verify my own actions before assuming a tool is broken. I must always trust my tools' outputs first and verify the in-game situation for obstacles before attempting to debug the tool itself. This is a recurring failure in my methodology that I must correct.
 
 ## Map Marker Strategy for Pathfinding
-- **Problem:** My `path_and_execute` tool treats all '📍' markers as impassable walls, which is incorrect for non-blocking NPCs and has caused repeated pathing failures.
+- **Problem:** My `path_and_execute_v3` tool treats all '📍' markers as impassable walls, which is incorrect for non-blocking NPCs and has caused repeated pathing failures.
 - **Immediate Workaround:** I will use the '💬' emoji to mark non-blocking, dialogue-only NPCs. My pathfinder does not recognize this emoji, so it will not treat them as obstacles.
-- **Long-Term Goal:** I need to update the `path_and_execute` tool to have more sophisticated logic, allowing it to differentiate between blocking and non-blocking markers instead of relying on this workaround.
+- **Long-Term Goal:** I need to update the `path_and_execute_v3` tool to have more sophisticated logic, such as an `ignore_object_ids` parameter, to differentiate between blocking and non-blocking markers instead of relying on this workaround.
 
 ## Agent/Tool Ideas
 - **`strategic_battle_advisor` (Agent):** A more advanced battle agent that takes into account my entire party, the opponent's known movesets, and suggests not just the best move but also whether to switch Pokémon.
