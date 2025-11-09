@@ -50,6 +50,9 @@
 - **Assumption:** HM Flash is in Violet City.
   - **Alternative Hypothesis:** HM Flash might be in a different city, or the solution to Dark Cave doesn't require Flash.
   - **Test to Falsify:** If a systematic search of all buildings and NPCs in Violet City yields no HM, I must conclude it is not here and proceed to the next available area.
+- **Assumption:** The two `WEIRD_TREE` objects on Route 37 are Sudowoodo that require the SQUIRT BOTTLE.
+  - **Alternative Hypothesis:** They could be a different type of event tree requiring a different item/trigger, or a permanent story blockade.
+  - **Test to Falsify:** Next time on Route 37, use the SQUIRT BOTTLE on them. If nothing happens, the assumption is false.
 
 # Tool Development & Philosophy
 
@@ -69,6 +72,8 @@
 - **`repel_strategist` (Agent):** Agent to analyze location, party, and inventory to decide if using a Repel is more efficient than running from many wild battles.
 - **`area_clearance_agent` (Agent):** Takes a list of NPC coordinates and unexplored warps on a map and generates a prioritized, efficient plan to visit each one, ensuring complete exploration.
 - **`path_interruption_diagnoser` (Agent):** When movement is blocked, this agent would analyze the situation (e.g., tile type, presence of moving vs. static NPCs) and suggest the most logical next step, like recalculating a path or using `stun_npc`.
+- **`auto_clear_dialogue` (Tool):** A tool to automatically press 'A' to clear any on-screen dialogue, like phone calls.
+- **`inventory_manager` (Agent):** An agent to analyze the bag and suggest the least valuable item to toss when inventory is full.
 
 # Appendix: Solved Puzzles & Lessons Learned
 
@@ -142,7 +147,7 @@
   - **Result:** Dialogue appeared: "It's O that was left with the DAY-CARE MAN. It has no interest in Glyph."
 - **Test 2 (Interaction @ 17, 19):**
   - **Result:** Dialogue appeared: "It's Glyph that was left with the DAY-CARE LADY. It has no interest in O."
-- **Conclusion:** The two Pokémon in the yard, "O" and "Glyph", were left with the Day-Care Man and Lady, respectively. They do not seem to get along. The game is somehow linking my caught Unown 'O' to the 'O' in the Day-Care, even though I never deposited it. The mystery is ongoing.
+- **Conclusion:** The two Pokémon in the yard, "O" and "Glyph", were left with the Day-Care couple. They do not seem to get along. The game is somehow linking my caught Unown 'O' to the 'O' in the Day-Care, even though I never deposited it. The mystery is ongoing.
 
 # Route 37 Notes
 
