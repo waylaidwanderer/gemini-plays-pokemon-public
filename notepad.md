@@ -167,4 +167,5 @@
 - **Trainer Log:**
   1. Defeated Sage Ping at (3, 13).
   2. Defeated Medium Grace at (2, 7).
-  3. Defeated Sage Jeffrey at (7, 5).
+  3. Defeated Sage Jeffrey, who appeared as a Granny sprite, at (7, 5).
+  4. Defeated Medium Martha at (7, 5).
