@@ -163,4 +163,8 @@
 
 # Ecruteak Gym Puzzle
 - **Gym Guide Hint:** The trainers in the gym have secrets about Ecruteak. Defeating them may reveal the path.
-- **Working Hypothesis:** The invisible path is revealed by walking along the line of sight of the trainers in the gym. Defeating the trainers seems to make new trainers appear, revealing more of the path.
+- **Working Hypothesis (Revised):** Defeating a gym trainer causes the next trainer to appear, revealing the next segment of the invisible path. The puzzle is a linear sequence of battles.
+- **Trainer Log:**
+  1. Defeated Sage Ping at (3, 13).
+  2. Defeated Medium Grace at (2, 7).
+  3. Defeated Sage Jeffrey at (7, 5).
