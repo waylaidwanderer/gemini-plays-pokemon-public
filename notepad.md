@@ -161,15 +161,6 @@
 - **Traversable:** FLOOR, WARP_CARPET_DOWN
 - **Impassable:** WALL, VOID
 
-# Game Mechanics & Systems
-
-## Directional Warp Mechanics (CRITICAL)
-- **Observation:** Tiles like `WARP_CARPET_LEFT`, `WARP_CARPET_RIGHT`, `WARP_CARPET_UP`, and `WARP_CARPET_DOWN` are not automatic.
-- **Mechanic:** To activate these warps, I must be standing on the tile and press the corresponding directional button (e.g., press 'Left' on a `WARP_CARPET_LEFT`).
-- **Lesson:** Failure to understand this mechanic was the direct cause of multiple severe hallucinations about my location. This must be remembered for all future navigation.
-
-# Game Mechanics & Systems (Addendum)
-
 ## VOID Tile
 - **Observation (Turn 30248):** The `VOID` tile type is impassable. This was confirmed by the pathfinder failing to route through it and must be added to the consolidated list of impassable tiles.
 
