@@ -110,9 +110,6 @@
 ## Key Items
 - **ITEMFINDER:** Received from a man in the city. Used to find hidden items.
 
-# Data Correction (Turn 29763)
-- Per overwatch critique, formally documenting that `COUNTER` and `MART_SHELF` tile types are impassable.
-
 ## Dance Theater Gentleman (Lesson Learned)
 - **Hypothesis:** Defeating all Kimono Girls would cause the Gentleman at (7, 10) to give a reward.
 - **Test:** Defeated all five Kimono Girls and repeatedly interacted with the Gentleman between turns 29727 and 29738.
