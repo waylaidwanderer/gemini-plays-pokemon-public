@@ -199,26 +199,6 @@
 - **Mechanic:** To activate these warps, I must be standing on the tile and press the corresponding directional button (e.g., press 'Left' on a `WARP_CARPET_LEFT`).
 - **Lesson:** Failure to understand this mechanic was the direct cause of multiple severe hallucinations about my location. This must be remembered for all future navigation.
 
-# Tool Development & Philosophy
-
-## Available Tools & Agents
-### Custom Tools & Agents
-- **`path_and_execute` (Tool):** Generates a path to a target coordinate.
-- **`find_reachable_unseen_tiles` (Tool):** Finds all reachable unseen tiles on the current map.
-- **`quest_progression_advisor` (Agent):** Analyzes current situation to suggest the next logical story step.
-- **`puzzle_solver_assistant` (Agent):** Suggests simple, testable hypotheses for puzzles.
-- **`exploration_strategist` (Agent):** Prioritizes exploration targets from a list of reachable unseen tiles.
-- **`debugging_assistant` (Agent):** Diagnoses and corrects failing Python scripts.
-
-### Built-in Tools
-- **`notepad_edit`:** Edits the persistent notepad.
-- **`run_code`:** Executes one-off Python scripts.
-- **`define_agent` / `delete_agent`:** Manages custom agents.
-- **`define_map_marker` / `delete_map_marker`:** Manages map markers.
-- **`stun_npc`:** Freezes or unfreezes an NPC's movement.
-- **`define_tool` / `delete_tool`:** Manages custom tools.
-- **`select_battle_option`:** Reliably selects a main battle menu option.
-
 # Game Mechanics & Systems (Addendum)
 
 ## Directional Warp Mechanics (CRITICAL LESSON)
