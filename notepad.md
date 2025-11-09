@@ -66,7 +66,6 @@
 - **`puzzle_data_compiler` (Agent):** An agent to maintain a structured summary of a complex puzzle's state. I would feed it observations turn-by-turn, and it would compile the data, which could then be used as input for the `puzzle_solver_assistant`.
 - **`repel_strategist` (Agent):** Agent to analyze location, party, and inventory to decide if using a Repel is more efficient than running from many wild battles.
 - **`area_clearance_agent` (Agent):** Takes a list of NPC coordinates and unexplored warps on a map and generates a prioritized, efficient plan to visit each one, ensuring complete exploration.
-- **`path_interruption_diagnoser` (Tool):** A computational tool that analyzes the map XML when a path is blocked. It would identify the blocking object (static vs. moving NPC), its ID, and suggest a programmatic solution, such as outputting coordinates for an alternate path or a command to stun the specific object ID. This is better as a tool than an agent due to the direct data parsing required.
 
 # Key Items
 - BICYCLE: Received from the Goldenrod Bike Shop owner. Allows for faster travel.
@@ -154,7 +153,6 @@
 - **Correction:** I must be diligent in marking **both** the entry and exit points of any warp immediately after using it. This is critical for maintaining accurate navigation data.
 
 </details>
-- **`path_interruption_diagnoser` (Tool):** A computational tool that analyzes the map XML when a path is blocked. It would identify the blocking object (static vs. moving NPC), its ID, and suggest a programmatic solution, such as outputting coordinates for an alternate path or a command to stun the specific object ID. This is better as a tool than an agent due to the direct data parsing required.
 
 # Burned Tower Notes
 - The rock at (15, 4) requires a POKéMON move to break it, likely Rock Smash. This path is currently blocked.
