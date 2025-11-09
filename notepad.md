@@ -176,3 +176,9 @@
 - **Assumption:** The legendary beasts will now be roaming the world.
   - **Alternative Hypothesis:** The event was just a cutscene, and they are not actually catchable yet, or they are in a specific, fixed location.
   - **Test to Falsify:** This is difficult to test directly. I must rely on future NPC dialogue or random encounters to confirm or deny their roaming status.
+  3. **Hypothesis:** Following the NPCs will trigger an event.
+      - **Test:** Followed both the Sage and the Gramps around the room.
+      - **Result:** No event was triggered. Hypothesis is FALSE.
+
+## New Hypothesis (Tin Tower)
+- **Hypothesis:** I must walk the exact same path as one of the NPCs to reveal the way forward.
