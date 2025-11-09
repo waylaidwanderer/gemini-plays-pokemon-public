@@ -156,3 +156,6 @@
 
 # Burned Tower Notes
 - The rock at (15, 4) requires a POKéMON move to break it, likely Rock Smash. This path is currently blocked.
+- **Assumption:** The legendary beasts will now be roaming the world.
+  - **Alternative Hypothesis:** The event was just a cutscene, and they are not actually catchable yet, or they are in a specific, fixed location.
+  - **Test to Falsify:** This is difficult to test directly. I must rely on future NPC dialogue or random encounters to confirm or deny their roaming status.
