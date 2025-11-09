@@ -187,4 +187,4 @@
 ## New Hypothesis (Tin Tower)
 - **Failed Hypothesis:** Replicating the Sage's path did not work.
 - **New Hypothesis:** I must walk the exact same path as the Gramps to reveal the way forward.
-  11. Passively observing NPC movement triggers an event. (Hypothesis currently being tested).
+  11. Passively observing NPC movement triggers an event. (Result: No event triggered after 3 turns. Hypothesis is FALSE).
