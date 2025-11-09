@@ -135,3 +135,17 @@
 
 ## Burned Tower Puzzle
 - **Hypothesis (Turn 30481):** Being rejected from the Ecruteak Gym may have altered the state of the Burned Tower, possibly changing NPC dialogue or unlocking a path. Test: Re-enter the tower and interact with NPCs/rival.
+
+# Current Puzzle: Burned Tower
+- **Objective:** Find a way to progress past the broken floor.
+- **Key Event:** Moving to the west side of the tower triggered the appearance of Crimson, and caused Eusine to disappear and Morty to move.
+- **Current Hypothesis:** Interacting with the now-stunned Morty will trigger the next story event.
+- **Alternative Hypothesis 1:** The rival event activated one of the previously inactive floor pits. If talking to Morty fails, I must re-test all reachable pits.
+- **Alternative Hypothesis 2:** The solution involves interacting with the rival again. If other options fail, I must return to his location.
+- **Failed Hypotheses:**
+    - The floor pits are active by default (tested before the rival event).
+    - Interacting with Morty/Eusine before the rival event triggers progress.
+    - Interacting with the rival from across the gap is possible.
+
+## Agent/Tool Ideas (New)
+- **`npc_interaction_strategist` (Agent):** Given an NPC ID, suggests the best plan to approach and interact, including using `stun_npc` if the NPC is mobile.
