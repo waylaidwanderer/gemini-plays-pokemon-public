@@ -225,9 +225,25 @@
     ]
   },
   "use_hm_cut": {
-    "description": "Automates using CUT from the party menu. Assumes the lead Pokémon has CUT as its second move. Will output a sequence of button presses.",
-    "input_schema": {},
-    "python_script": "import json\nbutton_sequence = [\"Start\", \"sleep 200\", \"A\", \"sleep 200\", \"A\", \"sleep 200\", \"Down\", \"sleep 100\", \"A\", \"sleep 200\", \"A\", \"sleep 200\", \"A\"]\nprint(json.dumps(button_sequence))",
+    "description": "Automates using CUT from the party menu. Takes the Pokémon's party position and the move's slot as arguments.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "pokemon_position": {
+          "type": "string",
+          "description": "The 1-indexed position of the Pokémon in the party (1-6)."
+        },
+        "move_slot": {
+          "type": "string",
+          "description": "The 1-indexed slot of the CUT move (1-4)."
+        }
+      },
+      "required": [
+        "pokemon_position",
+        "move_slot"
+      ]
+    },
+    "python_script": "import json\n\npokemon_position = int(input_data['pokemon_position'])\nmove_slot = int(input_data['move_slot'])\n\nbuttons = [\"Start\", \"sleep 200\", \"Down\", \"sleep 200\", \"A\", \"sleep 500\"]\n\n# Navigate to the correct Pokémon\nfor _ in range(pokemon_position - 1):\n    buttons.extend([\"Down\", \"sleep 200\"])\n\nbuttons.append(\"A\")\nbuttons.append(\"sleep 500\")\n\n# Navigate to the correct move\nfor _ in range(move_slot - 1):\n    buttons.extend([\"Down\", \"sleep 200\"])\n\nbuttons.append(\"A\")\n\nprint(json.dumps(buttons))",
     "history": [
       {
         "commit_message": "feat: Create initial version of use_hm_cut tool. This automates the menu navigation to use the HM CUT, addressing a critical overwatch critique. This version assumes the lead Pokémon has CUT as its second move and will be refined later for more general use.",
@@ -238,6 +254,11 @@
         "commit_message": "feat: Create initial version of use_hm_cut tool. This automates the menu navigation to use the HM CUT, addressing a critical overwatch critique. This version assumes the lead Pokémon has CUT as its second move and will be refined later for more general use.",
         "timestamp": "2025-11-09T19:17:27.637Z",
         "action_counter": 31321
+      },
+      {
+        "commit_message": "refactor: Parameterize tool to accept Pokémon and move slots. The previous version was hardcoded for the lead Pokémon's second move, making it brittle. This commit adds `pokemon_position` and `move_slot` arguments to make the tool robust and adaptable to changes in party or move order, addressing a critical overwatch critique.",
+        "timestamp": "2025-11-09T19:35:58.497Z",
+        "action_counter": 31351
       }
     ]
   }
