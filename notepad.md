@@ -110,22 +110,6 @@
 ## Key Items
 - **ITEMFINDER:** Received from a man in the city. Used to find hidden items.
 
-## Tile Traversal Rules & Tests
-- **Traversable:** FLOOR
-- **Impassable:** WALL, HEADBUTT_TREE
-- **One-Way (Ledges, Untested):**
-  - LEDGE_HOP_DOWN
-  - LEDGE_HOP_RIGHT
-## Tile Traversal Rules & Tests
-- **Traversable:** FLOOR
-- **Impassable:** WALL, HEADBUTT_TREE
-- **One-Way (Ledges, Untested):**
-  - LEDGE_HOP_DOWN
-  - LEDGE_HOP_RIGHT
-- **Pokecenter Tests:**
-  - `PC` at (9, 1): Confirmed impassable.
-  - `COUNTER` at (4, 2): Confirmed impassable.
-
 # Ecruteak Itemfinder House Notes
 
 ## Tile Traversal Rules (Initial Observations)
