@@ -187,5 +187,4 @@
   11. Passively observing NPC movement triggers an event. (Result: No event triggered after 3 turns. Hypothesis is FALSE).
   12. Actively following one of the NPCs triggers an event. (Result: No event triggered. Hypothesis is FALSE).
 
-# Current Active Hypothesis (from puzzle_solver_assistant)
-- The platform at (17, 15) contains a hidden item or switch.
+11. The platform at (17, 15) contains a hidden item or switch. (Result: Systematically walked over and interacted with every tile and adjacent surface. No event triggered. Hypothesis is FALSE).
