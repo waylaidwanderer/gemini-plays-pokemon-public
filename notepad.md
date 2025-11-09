@@ -155,3 +155,4 @@
 - **Correction:** I must be diligent in marking **both** the entry and exit points of any warp immediately after using it. This is critical for maintaining accurate navigation data.
 
 </details>
+- **`path_interruption_diagnoser` (Tool):** A computational tool that analyzes the map XML when a path is blocked. It would identify the blocking object (static vs. moving NPC), its ID, and suggest a programmatic solution, such as outputting coordinates for an alternate path or a command to stun the specific object ID. This is better as a tool than an agent due to the direct data parsing required.

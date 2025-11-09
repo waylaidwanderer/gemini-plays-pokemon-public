@@ -227,12 +227,17 @@
   "use_hm_cut": {
     "description": "Automates using CUT from the party menu. Assumes the lead Pokémon has CUT as its second move. Will output a sequence of button presses.",
     "input_schema": {},
-    "python_script": "import json\nbuttons = [\"Start\", \"Down\", \"A\", \"A\", \"Down\", \"A\"]\nprint(json.dumps(buttons))",
+    "python_script": "import json\nbutton_sequence = [\"Start\", \"sleep 200\", \"A\", \"sleep 200\", \"A\", \"sleep 200\", \"Down\", \"sleep 100\", \"A\", \"sleep 200\", \"A\", \"sleep 200\", \"A\"]\nprint(json.dumps(button_sequence))",
     "history": [
       {
         "commit_message": "feat: Create initial version of use_hm_cut tool. This automates the menu navigation to use the HM CUT, addressing a critical overwatch critique. This version assumes the lead Pokémon has CUT as its second move and will be refined later for more general use.",
         "timestamp": "2025-11-09T18:42:31.134Z",
         "action_counter": 31262
+      },
+      {
+        "commit_message": "feat: Create initial version of use_hm_cut tool. This automates the menu navigation to use the HM CUT, addressing a critical overwatch critique. This version assumes the lead Pokémon has CUT as its second move and will be refined later for more general use.",
+        "timestamp": "2025-11-09T19:17:27.637Z",
+        "action_counter": 31321
       }
     ]
   }
