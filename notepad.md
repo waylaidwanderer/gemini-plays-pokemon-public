@@ -153,3 +153,6 @@
 # Overwatch Critique Corrections (Turn 30601)
 - **Notepad Inaccuracy:** Acknowledged that `puzzle_solver_assistant` is a defined agent, not an idea. Will correct the relevant entries during the next major refactor.
 - **Missed Map Marker:** Acknowledged failure to mark the Ecruteak City side of the Burned Tower warp. Returning to Ecruteak City immediately to correct this.
+
+# Phone Contacts
+- **TODD (CAMPER):** Met on Route 34. Calls with training tips.
