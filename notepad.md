@@ -148,3 +148,4 @@
 
 # Phone Contacts
 - **TODD (CAMPER):** Met on Route 34. Calls with training tips.
+- **`multi_map_navigator` (Agent/Tool):** An agent or tool that can plan a route across multiple maps. It would take a final destination (e.g., a city or route number) and generate a sequence of `path_and_execute_v3` calls to navigate through each map segment automatically.
