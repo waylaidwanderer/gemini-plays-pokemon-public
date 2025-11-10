@@ -59,12 +59,7 @@
 ## Philosophy (Self-Correction)
 - **Correction (Turn 28227):** My previous assumptions about my pathfinding tools being faulty were incorrect. The tools were functioning as designed. The errors stemmed from my misinterpretation of the output, incorrect manual pathing attempts, and failure to investigate in-game obstacles. This highlights the critical need to trust my tools and carefully verify my own actions before assuming a tool is broken. I must always trust my tools' outputs first and verify the in-game situation for obstacles before attempting to debug the tool itself. This is a recurring failure in my methodology that I must correct.
 
-## My Custom Toolkit: Philosophy, Tools & Agents
-
-### Philosophy (Self-Correction)
-- **Correction (Turn 28227):** My previous assumptions about my pathfinding tools being faulty were incorrect. The tools were functioning as designed. The errors stemmed from my misinterpretation of the output, incorrect manual pathing attempts, and failure to investigate in-game obstacles. This highlights the critical need to trust my tools and carefully verify my own actions before assuming a tool is broken. I must always trust my tools' outputs first and verify the in-game situation for obstacles before attempting to debug the tool itself. This is a recurring failure in my methodology that I must correct.
-
-### Built-in Tools
+## Built-in Tools
 - `run_code`: Executes single-use Python code.
 - `define_map_marker` / `delete_map_marker`: Manages map markers.
 - `notepad_edit`: Edits my persistent notepad.
@@ -73,24 +68,18 @@
 - `define_tool` / `delete_tool`: Manages custom tools.
 - `define_agent` / `delete_agent`: Manages custom agents.
 
-### Custom Tools (Defined via `define_tool`)
+## Custom Tools (Defined via `define_tool`)
 - `deterministic_battle_strategist`: A non-LLM tool that provides a reliable backup battle strategy.
 - `find_reachable_unseen_tiles`: Finds all reachable unseen tiles on the current map.
 - `path_and_execute_v3`: My primary pathfinding tool. Correctly treats objects as impassable.
 - `auto_clear_dialogue`: Automates clearing dialogue boxes.
 - `use_hm_cut`: Automates using the HM CUT from the menu.
 
-### Custom Agents (Defined via `define_agent`)
+## Custom Agents (Defined via `define_agent`)
 - `quest_progression_advisor`: Suggests the next logical step to advance the story when I'm stuck.
 - `puzzle_solver_assistant`: Helps me methodically solve complex puzzles by suggesting simple, testable hypotheses.
 - `exploration_strategist`: Suggests the most promising area to explore next based on reachable unseen tiles.
 - `city_exploration_planner`: Analyzes a city map to suggest a systematic and efficient exploration route.
-
-## Custom Agents
-- **`quest_progression_advisor`**: Suggests the next logical step to advance the story when I'm stuck.
-- **`puzzle_solver_assistant`**: My newly created agent to help me methodically solve complex puzzles by suggesting simple, testable hypotheses.
-- **`exploration_strategist`**: Suggests the most promising area to explore next based on reachable unseen tiles.
-- **`city_exploration_planner`**: Analyzes a city map to suggest a systematic and efficient exploration route to visit all key points of interest (Gym, Mart, PC, unmarked warps).
 
 # Key Items
 - BICYCLE: Received from the Goldenrod Bike Shop owner. Allows for faster travel.
