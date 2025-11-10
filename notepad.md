@@ -100,9 +100,33 @@
 - **Title:** The Mystic Seer of the Future
 - **Likely Type:** Ghost or Psychic
 
-# Current Puzzle: Tin Tower Entrance
+# Untested Assumptions & Alternative Hypotheses (Self-Assessment)
+- **Assumption:** The event with the legendary beasts fleeing is the *only* event in this basement required to progress in the Tin Tower.
+  - **Alternative Hypothesis:** There might be another trigger, item, or NPC interaction in this basement that is also required. For example, the Super Nerd at (10, 12) might have something important to say.
+  - **Test to Falsify:** After exploring all reachable areas of this basement, if the path in the Tin Tower is still blocked, my assumption is false. I must talk to the Super Nerd before leaving.
+- **Assumption:** The mail delivery officer is on Route 31.
+    - **Alternative Hypothesis:** The officer could be on any route connected to Goldenrod. I've only checked one gate.
+    - **Test to Falsify:** Systematically check all other gates connected to major routes.
+- **Assumption:** My `find_reachable_unseen_tiles` tool is correct that there are no reachable unseen tiles in the Burned Tower B1F.
+    - **Alternative Hypothesis:** The tool has a bug, and there is a path to the unseen areas and the unmarked warp at (3, 13).
+    - **Test to Falsify:** I can manually try to find a path to the warp at (3, 13). If I can get there, the tool is wrong and needs to be fixed immediately.
+
+# Phone Contacts
+- **TODD (CAMPER):** Met on Route 34. Calls with training tips.
+
+# Burned Tower Notes
+- The rock at (15, 4) on 1F requires a POKéMON move to break it, likely Rock Smash. This path is currently blocked.
+- **Assumption:** The legendary beasts will now be roaming the world.
+  - **Alternative Hypothesis:** The event was just a cutscene, and they are not actually catchable yet, or they are in a specific, fixed location.
+  - **Test to Falsify:** This is difficult to test directly. I must rely on future NPC dialogue or random encounters to confirm or deny their roaming status.
+
+# Archive: Solved Puzzles & Lessons Learned
+
+<details>
+<summary>Tin Tower Entrance Puzzle (SOLVED)</summary>
+
 - **Goal:** Find the correct path to ascend the tower.
-- **Observations:** The room contains two wandering NPCs (Sage and Gramps), a central structure, and a ladder. The path to the left is blocked.
+- **Solution:** An event in the Burned Tower (releasing the Legendary Beasts) was required to open the path.
 - **Failed Hypotheses Log:**
   1. The ladder at (5, 3) is the way forward. (Result: Dead end).
   2. Interacting with the Gramps provides the solution. (Result: Only lore).
@@ -114,19 +138,9 @@
   8. Replicating the Sage's path triggers an event. (Result: No event triggered).
   9. NPC dialogue changes after obtaining the Fog Badge. (Result: Spoke to both Sage and Gramps. Dialogue was unchanged. Hypothesis is FALSE).
   10. Stepping on a specific tile on the central platform is the trigger. (Result: Systematically walked over every reachable tile on the platform. No event triggered. Hypothesis is FALSE).
+  11. The small platform at (17, 15) contains a hidden item/switch. (Result: Exhaustively searched every tile and adjacent surface. No interaction found. Hypothesis is FALSE).
 
-# Untested Assumptions & Alternative Hypotheses (Self-Assessment)
-- **Assumption:** The path to my Rival, Crimson, in the Burned Tower is permanently blocked by the broken floor.
-  - **Alternative Hypothesis:** An event, possibly triggered by exploring other parts of the tower or interacting with key NPCs like Morty and Eusine, is required to repair the floor or open an alternate route.
-  - **Test to Falsify:** Systematically explore all other reachable areas and warps in the Burned Tower. If no progress is made, the assumption may be correct, but exploration must be exhausted first.
-- **Assumption:** The mail delivery officer is on Route 31.
-    - **Alternative Hypothesis:** The officer could be on any route connected to Goldenrod. I've only checked one gate.
-    - **Test to Falsify:** Systematically check all other gates connected to major routes.
-
-# Phone Contacts
-- **TODD (CAMPER):** Met on Route 34. Calls with training tips.
-
-# Archive: Solved Puzzles & Lessons Learned
+</details>
 
 <details>
 <summary>Wade's Berries (Hypothesis Falsified)</summary>
@@ -174,13 +188,3 @@
 - **Correction:** I must be diligent in marking **both** the entry and exit points of any warp immediately after using it. This is critical for maintaining accurate navigation data.
 
 </details>
-
-# Burned Tower Notes
-- The rock at (15, 4) requires a POKéMON move to break it, likely Rock Smash. This path is currently blocked.
-- **Assumption:** The legendary beasts will now be roaming the world.
-  - **Alternative Hypothesis:** The event was just a cutscene, and they are not actually catchable yet, or they are in a specific, fixed location.
-  - **Test to Falsify:** This is difficult to test directly. I must rely on future NPC dialogue or random encounters to confirm or deny their roaming status.
-
-# Current Plan (from puzzle_solver_assistant)
-- **Hypothesis:** An event in the Burned Tower must be triggered to unblock the path.
-- **Test Plan:** 1. Leave Tin Tower. 2. Go to Burned Tower. 3. Explore until event triggers. 4. Return to Tin Tower.
