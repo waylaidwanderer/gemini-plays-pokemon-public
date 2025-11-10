@@ -218,3 +218,11 @@
 - **Assumption:** Tiles like `WINDOW` are impassable.
   - **Alternative Hypothesis:** They might be traversable under certain conditions or from a specific direction.
   - **Test to Falsify:** When an opportunity arises where a `WINDOW` tile is adjacent to a reachable `FLOOR` tile, attempt to move onto it.
+
+# Olivine Lighthouse 1F Ladder Puzzle
+- **Goal:** Activate the warp at (16, 13) / (17, 13).
+- **Failed Hypotheses Log:**
+  1. Standing on (16, 13) or (17, 13) automatically triggers the warp. (Result: FAILED)
+  2. Pressing 'Up' while on either warp tile triggers it. (Result: FAILED)
+  3. Pressing 'A' while on either warp tile triggers it. (Result: FAILED)
+- **Next Hypothesis:** Stand on the adjacent tile at (17, 12), face the ladder (Down), and press 'A'.
