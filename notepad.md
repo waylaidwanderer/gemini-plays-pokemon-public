@@ -70,6 +70,7 @@
 - `notepad_edit`: Edits my persistent notepad.
 - `stun_npc`: Temporarily freezes an NPC.
 - `select_battle_option`: Automates selecting a main battle menu option.
+- `select_battle_option`: Automates selecting a main battle menu option.
 - `define_tool` / `delete_tool`: Manages custom tools.
 - `define_agent` / `delete_agent`: Manages custom agents.
 
