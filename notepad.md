@@ -54,12 +54,6 @@
 - **Failed Hypothesis 2:** Wade on Route 31 would give me Berries. He did not.
 - **Conclusion:** The quest is currently unsolvable. This path is a dead end for now.
 
-# Travel Plan: Operation Moomoo (Take 2)
-- **Goal:** Heal the sick Miltank on Route 39.
-- **New Information:** Wade called and confirmed he now has Berries to share.
-- **Route:** Violet City -> Route 31.
-- **Current Step:** Travel from Violet City to Route 31 to meet Wade.
-
 # Archive: Log of Blocked Paths, Solved Puzzles & Old Info
 
 <details>
