@@ -87,7 +87,6 @@
 - `city_exploration_planner`: Analyzes a city map to suggest a systematic and efficient exploration route.
 
 ## Toolkit Issues
-- **`exploration_strategist` (DELETED):** This agent was fundamentally flawed and has been removed. It incorrectly suggested unseen tiles as valid targets because it could not parse map data to verify a tile's `seen` status. It must be replaced by a robust tool.
 
 # Key Items
 - BICYCLE: Received from the Goldenrod Bike Shop owner. Allows for faster travel.
