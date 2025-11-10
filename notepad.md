@@ -44,11 +44,11 @@
 - **Status:** COMPLETE.
 - **Task:** Received LEAF STONE from GINA on Route 34 after making space in my bag.
 
-## Miltank Healing
-- **Status:** On Hold.
-- **Task:** Find a BERRY to heal the sick Miltank on Route 39.
-- **Location:** Moomoo Farm, barn building.
-- **Failed Attempt:** Spoke to Wade on Route 31 after he called about having berries. He did not provide a BITTER BERRY or any other kind of berry. The solution lies elsewhere.
+## Miltank Healing (Route 39)
+- **Status:** BLOCKED
+- **Task:** Find the correct BERRY to heal the sick Miltank.
+- **Update:** Obtained a `MINT BERRY` from the Fruit Tree at (9, 3) on Route 39. However, when attempting to give it to the Miltank, the game dialogue stated "Gem has no BERRIES...".
+- **Hypothesis:** The `MINT BERRY` is not the correct item. The quest may require a generic "BERRY" or a different specific type. I need to check my inventory to confirm I have the MINT BERRY and then search for other berry sources.
 
 # Gym Information
 - **Goldenrod Gym:** Normal-type. Fighting-type moves are recommended.
