@@ -4,39 +4,14 @@
 - **Impassable:** BOOKSHELF, BUOY (assumed), COUNTER, CUT_TREE, HEADBUTT_TREE, INCENSE_BURNER, MART_SHELF, PC, PILLAR (usually), POKEDEX, RADIO, TOWN_MAP, TV, VOID, WALL, WATER, WINDOW, TABLE.
 - **Traversable (Visual Obstacles):** PLANT (The sprite is an obstacle, but the tile type is FLOOR).
 - **Traversable:** FLOOR, GRASS, LONG_GRASS, TALL_GRASS.
-- **One-Way (Ledges):**
-  - LEDGE_HOP: General one-way tile.
-  - LEDGE_HOP_DOWN: One-way down.
-  - LEDGE_HOP_LEFT: One-way left.
-  - LEDGE_HOP_RIGHT: One-way right.
-  - FLOOR_UP_WALL: Cannot be moved *down from* this tile, and cannot be moved *down onto* this tile.
-- **Warps (Directional/Conditional):**
-  - CAVE: Standard warp point.
-  - DOOR: Standard warp, sometimes conditional based on story events.
-  - LADDER: Directional warp that requires facing the ladder to use.
-  - PIT: One-way warp. In Ecruteak Gym, it reset the puzzle. In Olivine Lighthouse, it warps the player down one floor.
-  - WARP_CARPET: General directional warp mat.
-  - WARP_CARPET_UP: Moves player up one floor.
-  - WARP_CARPET_DOWN: Moves player down one floor. Can be one-way and may require pressing 'Down' to activate.
-  - WARP_CARPET_LEFT: Moves player left. Seems to be triggered by pressing 'Left' while standing on the tile.
-  - WARP_CARPET_RIGHT: Moves player right.
+- **One-Way (Ledges):** LEDGE_HOP_DOWN, LEDGE_HOP_LEFT, LEDGE_HOP_RIGHT, FLOOR_UP_WALL.
+- **Warps:** CAVE, DOOR, LADDER, PIT, WARP_CARPET, WARP_CARPET_UP, WARP_CARPET_DOWN, WARP_CARPET_LEFT, WARP_CARPET_RIGHT.
 
-## Evolution Methods
-- Some POKEMON evolve only by being traded: MACHOKE, KADABRA, HAUNTER, and GRAVELER.
-
-## Respawning Obstacles (CONFIRMED MECHANIC)
-- **Initial Observation (Turn 26648):** The `CUT_TREE` at (8, 25) in Ilex Forest, which was previously removed, respawned after re-entering the area.
-- **Confirmation (Turn 27669):** The `CUT_TREE` at (13, 5) on Route 31, which was also previously removed, has respawned.
-- **Conclusion:** Obstacles cleared with HMs like CUT are not permanently removed. They respawn when re-entering a map. This is a consistent game mechanic and must be factored into all future path planning. My pathfinding tools must always treat `CUT_TREE` tiles as impassable unless I have just cut them in the current session on the map.
-
-## HM Move Mechanics (CRITICAL)
-- **Permanence:** HM moves (like CUT, SURF, STRENGTH) cannot be forgotten through normal means (e.g., when learning a new move via TM/HM or level-up). This was confirmed when I tried to replace CUT with STRENGTH on Ignis. This implies a special NPC, the Move Deleter, is required to remove them, but their location is currently unknown.
-
-## Known Bugs / Strange Mechanics
-- **Item Management Bugs (CRITICAL):**
-  - **Item Destruction on 'TAKE' (CONFIRMED):** Attempting to 'TAKE' a held item from a Pokémon while the player's bag is full will cause the item to be permanently destroyed. The game displays a confirmation message ('Took [ITEM] from [POKEMON].') as if the action was successful, but the item is not transferred and is lost forever. This was confirmed in turns 33294-33355 with Aether's BITTER BERRY.
-  - **Item Tossing Failure (CONFIRMED):** Attempting to 'TOSS' any item from the bag menu fails and resets the menu, regardless of whether it's a single item or an entire stack. This was confirmed in turns 33266-33269.
-- **Conclusion:** The only safe and confirmed way to free an inventory slot is to have a Pokémon 'HOLD' a single-stack item.
+## Confirmed Mechanics
+- **Respawning Obstacles:** HM-cleared obstacles (like CUT_TREE) respawn upon re-entering a map.
+- **HM Move Permanence:** HM moves cannot be forgotten through normal means.
+- **Item Management Bugs (CRITICAL):** Taking a held item with a full bag destroys it. Tossing items fails. The only safe way to free a slot is to have a Pokémon hold an item.
+- **Evolution via Trade:** Some POKEMON evolve only by being traded: MACHOKE, KADABRA, HAUNTER, and GRAVELER.
 
 # Active Quests & Current Hypotheses
 
