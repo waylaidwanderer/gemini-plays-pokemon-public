@@ -18,7 +18,7 @@
   - WARP_CARPET: General directional warp mat.
   - WARP_CARPET_UP: Moves player up one floor.
   - WARP_CARPET_DOWN: Moves player down one floor. Can be one-way and may require pressing 'Down' to activate.
-  - WARP_CARPET_LEFT: Moves player left.
+  - WARP_CARPET_LEFT: Moves player left. Seems to be triggered by pressing 'Left' while standing on the tile.
   - WARP_CARPET_RIGHT: Moves player right.
 
 ## Evolution Methods
