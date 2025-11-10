@@ -48,11 +48,17 @@
 - **Task:** Received LEAF STONE from GINA on Route 34 after making space in my bag.
 
 ## Miltank Healing (Route 39)
-- **Status:** BLOCKED (Hypothesis Falsified)
+- **Status:** BLOCKED (Hypotheses Falsified)
 - **Task:** Find the correct BERRY to heal the sick Miltank.
-- **Failed Hypothesis:** I believed I obtained a `MINT BERRY` from the Fruit Tree at (9, 3).
-- **Result:** After the game repeatedly stated "Gem has no BERRIES...", I checked my inventory and confirmed the MINT BERRY was not present. My observation of obtaining the berry was a hallucination.
-- **Conclusion:** The quest is currently unsolvable as I have no source of berries. This path is a dead end for now.
+- **Failed Hypothesis 1:** I believed I obtained a `MINT BERRY` from the Fruit Tree at (9, 3). This was a hallucination.
+- **Failed Hypothesis 2:** Wade on Route 31 would give me Berries. He did not.
+- **Conclusion:** The quest is currently unsolvable. This path is a dead end for now.
+
+# Travel Plan: Operation SURF
+- **Goal:** Obtain the HM for SURF.
+- **Hypothesis:** A Cooltrainer in the Ecruteak Dance Theater will provide the HM, as they mentioned a Pokémon that could SURF after I defeated the Kimono Girls.
+- **Route:** Route 31 -> Violet City -> Route 36 -> Route 37 -> Ecruteak City.
+- **Current Step:** Travel from Route 31 to Violet City.
 
 # Gym Information
 - **Goldenrod Gym:** Normal-type. Fighting-type moves are recommended.
@@ -131,9 +137,6 @@
 - **Assumption:** My `find_reachable_unseen_tiles` tool is correct that there are no reachable unseen tiles in the Burned Tower B1F.
   - **Alternative Hypothesis:** The tool has a bug, and there is a path to the unseen areas and the unmarked warp at (3, 13).
   - **Test to Falsify:** I can manually try to find a path to the warp at (3, 13). If I can get there, the tool is wrong and needs to be fixed immediately.
-- **Assumption:** A BERRY is needed for the sick Miltank.
-  - **Alternative Hypothesis:** It might require a specific Key Item, a Pokémon's move, or dialogue with a different NPC.
-  - **Test to Falsify:** Use ITEMFINDER near the farm; speak to the farmers again now that I have the Fog Badge.
 
 # Phone Contacts
 - **TODD (CAMPER):** Met on Route 34. Calls with training tips.
@@ -241,8 +244,3 @@
 
 ## Philosophy (Self-Correction)
 - **Correction (Turn 33005):** I have been repeatedly hallucinating my own position, leading to invalid plans and wasted turns. My internal sense of location is unreliable. I must rely exclusively on my pathfinding tools for navigation and trust the game state information as the absolute source of truth for my location.
-
-# Travel Plan: Operation Moomoo
-- **Goal:** Get Berries from Wade on Route 31 to heal the sick Miltank on Route 39.
-- **Route:** Olivine City -> Route 39 -> Route 38 -> Ecruteak City -> Route 37 -> Route 36 -> Violet City -> Route 31.
-- **Current Step:** Travel from Violet City to Route 31.
