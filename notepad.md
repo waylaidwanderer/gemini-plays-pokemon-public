@@ -33,7 +33,7 @@
 - **Permanence:** HM moves (like CUT, SURF, STRENGTH) cannot be forgotten through normal means (e.g., when learning a new move via TM/HM or level-up). This was confirmed when I tried to replace CUT with STRENGTH on Ignis. This implies a special NPC, the Move Deleter, is required to remove them, but their location is currently unknown.
 
 ## Known Bugs / Strange Mechanics
-- **Item Tossing Bug:** Attempting to 'TOSS' a single-stack item (e.g., BERRY x1) from the bag menu fails and resets the menu. Tossing one item from a multi-item stack (e.g., POTION x9 -> x8) also fails to free an inventory slot. The only confirmed way to free a slot is to have a Pokémon 'HOLD' a single-stack item.
+- **Item Tossing Bug (CONFIRMED):** Attempting to 'TOSS' any item from the bag menu fails and resets the menu, regardless of whether it's a single item, a partial stack, or an entire stack. This was confirmed in turns 33266-33269. The only confirmed way to free an inventory slot is to have a Pokémon 'HOLD' a single-stack item.
 
 # Active Quests & Notes
 
