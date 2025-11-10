@@ -72,6 +72,7 @@
 - **`quest_progression_advisor`**: Suggests the next logical step to advance the story when I'm stuck.
 - **`puzzle_solver_assistant`**: My newly created agent to help me methodically solve complex puzzles by suggesting simple, testable hypotheses.
 - **`exploration_strategist`**: Suggests the most promising area to explore next based on reachable unseen tiles.
+- **`city_exploration_planner`**: Analyzes a city map to suggest a systematic and efficient exploration route to visit all key points of interest (Gym, Mart, PC, unmarked warps).
 
 # Key Items
 - BICYCLE: Received from the Goldenrod Bike Shop owner. Allows for faster travel.
