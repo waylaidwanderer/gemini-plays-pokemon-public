@@ -180,14 +180,6 @@
 - **Assumption:** The legendary beasts will now be roaming the world.
   - **Alternative Hypothesis:** The event was just a cutscene, and they are not actually catchable yet, or they are in a specific, fixed location.
   - **Test to Falsify:** This is difficult to test directly. I must rely on future NPC dialogue or random encounters to confirm or deny their roaming status.
-  3. **Hypothesis:** Following the NPCs will trigger an event.
-      - **Test:** Followed both the Sage and the Gramps around the room.
-      - **Result:** No event was triggered. Hypothesis is FALSE.
-
-  11. Passively observing NPC movement triggers an event. (Result: No event triggered after 3 turns. Hypothesis is FALSE).
-  12. Actively following one of the NPCs triggers an event. (Result: No event triggered. Hypothesis is FALSE).
-
-11. The platform at (17, 15) contains a hidden item or switch. (Result: Systematically walked over and interacted with every tile and adjacent surface. No event triggered. Hypothesis is FALSE).
 
 # Current Plan (from puzzle_solver_assistant)
 - **Hypothesis:** An event in the Burned Tower must be triggered to unblock the path.
