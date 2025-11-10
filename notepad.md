@@ -101,12 +101,18 @@
 
 # Untested Assumptions & Alternative Hypotheses (Self-Assessment)
 - **Conclusion (Burned Tower):** The Super Nerd was not present at (10, 12), invalidating the hypothesis that he was a required interaction. My `find_reachable_unseen_tiles` tool confirms there are no other reachable areas. The legendary beast event appears to be the sole trigger required to progress in the Tin Tower.
+- **Assumption:** The next gym is east of Ecruteak City.
+  - **Alternative Hypothesis:** The next gym could be in Cianwood City, which an NPC mentioned is where to find FLY. The path to Cianwood might be west, not east.
+  - **Test to Falsify:** If the path east leads to a dead end or a different city without a gym (e.g., Mahogany Town), I must then explore west from Ecruteak (Route 38).
 - **Assumption:** The mail delivery officer is on Route 31.
-    - **Alternative Hypothesis:** The officer could be on any route connected to Goldenrod. I've only checked one gate.
-    - **Test to Falsify:** Systematically check all other gates connected to major routes.
+  - **Alternative Hypothesis:** The officer could be on any route connected to Goldenrod. I've only checked one gate.
+  - **Test to Falsify:** Systematically check all other gates connected to major routes.
 - **Assumption:** My `find_reachable_unseen_tiles` tool is correct that there are no reachable unseen tiles in the Burned Tower B1F.
-    - **Alternative Hypothesis:** The tool has a bug, and there is a path to the unseen areas and the unmarked warp at (3, 13).
-    - **Test to Falsify:** I can manually try to find a path to the warp at (3, 13). If I can get there, the tool is wrong and needs to be fixed immediately.
+  - **Alternative Hypothesis:** The tool has a bug, and there is a path to the unseen areas and the unmarked warp at (3, 13).
+  - **Test to Falsify:** I can manually try to find a path to the warp at (3, 13). If I can get there, the tool is wrong and needs to be fixed immediately.
+- **Assumption:** A BERRY is needed for the sick Miltank.
+  - **Alternative Hypothesis:** It might require a specific Key Item, a Pokémon's move, or dialogue with a different NPC.
+  - **Test to Falsify:** Use ITEMFINDER near the farm; speak to the farmers again now that I have the Fog Badge.
 
 # Phone Contacts
 - **TODD (CAMPER):** Met on Route 34. Calls with training tips.
@@ -116,6 +122,10 @@
 - **Assumption:** The legendary beasts will now be roaming the world.
   - **Alternative Hypothesis:** The event was just a cutscene, and they are not actually catchable yet, or they are in a specific, fixed location.
   - **Test to Falsify:** This is difficult to test directly. I must rely on future NPC dialogue or random encounters to confirm or deny their roaming status.
+
+# Tin Tower Progression
+- **Status:** BLOCKED.
+- **Reason:** A Sage in the WiseTriosRoom is preventing entry, stating I should refrain from entering now that the legendary beasts have been awakened. The path is physically blocked.
 
 # Archive: Solved Puzzles & Lessons Learned
 
@@ -185,7 +195,3 @@
 - **Correction:** I must be diligent in marking **both** the entry and exit points of any warp immediately after using it. This is critical for maintaining accurate navigation data.
 
 </details>
-
-# Tin Tower Progression
-- **Status:** BLOCKED.
-- **Reason:** A Sage in the WiseTriosRoom is preventing entry, stating I should refrain from entering now that the legendary beasts have been awakened. The path is physically blocked.
