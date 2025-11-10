@@ -245,4 +245,4 @@
 # Travel Plan: Operation Moomoo
 - **Goal:** Get Berries from Wade on Route 31 to heal the sick Miltank on Route 39.
 - **Route:** Olivine City -> Route 39 -> Route 38 -> Ecruteak City -> Route 37 -> Route 36 -> Violet City -> Route 31.
-- **Current Step:** Travel from Ecruteak City to Route 37.
+- **Current Step:** Travel from Route 37 to Route 36.
