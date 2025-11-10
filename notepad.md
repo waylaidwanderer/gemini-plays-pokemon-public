@@ -54,11 +54,11 @@
 - **Failed Hypothesis 2:** Wade on Route 31 would give me Berries. He did not.
 - **Conclusion:** The quest is currently unsolvable. This path is a dead end for now.
 
-# Travel Plan: Operation SURF
-- **Goal:** Obtain the HM for SURF.
-- **Hypothesis:** A Cooltrainer in the Ecruteak Dance Theater will provide the HM, as they mentioned a Pokémon that could SURF after I defeated the Kimono Girls.
-- **Route:** Route 31 -> Violet City -> Route 36 -> Route 37 -> Ecruteak City.
-- **Current Step:** Travel from Route 31 to Violet City.
+# Travel Plan: Operation Moomoo (Take 2)
+- **Goal:** Heal the sick Miltank on Route 39.
+- **New Information:** Wade called and confirmed he now has Berries to share.
+- **Route:** Violet City -> Route 31.
+- **Current Step:** Travel from Violet City to Route 31 to meet Wade.
 
 # Gym Information
 - **Goldenrod Gym:** Normal-type. Fighting-type moves are recommended.
