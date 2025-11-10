@@ -33,7 +33,10 @@
 - **Permanence:** HM moves (like CUT, SURF, STRENGTH) cannot be forgotten through normal means (e.g., when learning a new move via TM/HM or level-up). This was confirmed when I tried to replace CUT with STRENGTH on Ignis. This implies a special NPC, the Move Deleter, is required to remove them, but their location is currently unknown.
 
 ## Known Bugs / Strange Mechanics
-- **Item Tossing Bug (CONFIRMED):** Attempting to 'TOSS' any item from the bag menu fails and resets the menu, regardless of whether it's a single item, a partial stack, or an entire stack. This was confirmed in turns 33266-33269. The only confirmed way to free an inventory slot is to have a Pokémon 'HOLD' a single-stack item.
+- **Item Management Bugs (CRITICAL):
+**  - **Item Destruction on 'TAKE' (CONFIRMED):** Attempting to 'TAKE' a held item from a Pokémon while the player's bag is full will cause the item to be permanently destroyed. The game displays a confirmation message ('Took [ITEM] from [POKEMON].') as if the action was successful, but the item is not transferred and is lost forever. This was confirmed in turns 33294-33355 with Aether's BITTER BERRY.
+  - **Item Tossing Failure (CONFIRMED):** Attempting to 'TOSS' any item from the bag menu fails and resets the menu, regardless of whether it's a single item or an entire stack. This was confirmed in turns 33266-33269.
+- **Conclusion:** The only safe and confirmed way to free an inventory slot is to have a Pokémon 'HOLD' a single-stack item.
 
 # Active Quests & Notes
 
