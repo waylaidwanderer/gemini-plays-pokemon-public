@@ -80,8 +80,10 @@
 ### Custom Agents (Defined via `define_agent`)
 - `quest_progression_advisor`: Suggests the next logical step to advance the story when I'm stuck.
 - `puzzle_solver_assistant`: Helps me methodically solve complex puzzles by suggesting simple, testable hypotheses.
-
 - `city_exploration_planner`: Analyzes a city map to suggest a systematic and efficient exploration route.
+
+## Toolkit Issues
+- **`exploration_strategist` (CRITICAL FAILURE):** The agent is fundamentally flawed. Even after a refinement attempt, it continues to suggest unseen tiles as valid targets. It does not have access to the full map data to verify a tile's `seen` status. It should not be used again until it is completely replaced by a robust tool that can parse the map XML directly.
 
 # Key Items
 - BICYCLE: Received from the Goldenrod Bike Shop owner. Allows for faster travel.
@@ -240,6 +242,3 @@
 - **Assumption:** The only way to Cianwood is west of Route 38.
   - **Alternative Hypothesis:** The path to Cianwood requires SURF, and I need to get SURF somewhere else first. The path might not be a land route at all.
   - **Test to Falsify:** Find the HM for SURF. If I can use it, I can test if there's a water route from Olivine or another location to Cianwood.
-
-# Toolkit Issues
-- **`exploration_strategist` (CRITICAL FAILURE):** The agent is fundamentally flawed. Even after a refinement attempt, it continues to suggest unseen tiles as valid targets. It does not have access to the full map data to verify a tile's `seen` status. It should not be used again until it is completely replaced by a robust tool that can parse the map XML directly.
