@@ -186,3 +186,7 @@
 - **Correction:** I must be diligent in marking **both** the entry and exit points of any warp immediately after using it. This is critical for maintaining accurate navigation data.
 
 </details>
+
+# Tin Tower Progression
+- **Status:** BLOCKED.
+- **Reason:** A Sage in the WiseTriosRoom is preventing entry, stating I should refrain from entering now that the legendary beasts have been awakened. The path is physically blocked.
