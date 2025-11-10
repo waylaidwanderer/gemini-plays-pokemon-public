@@ -244,3 +244,11 @@
 
 ## Philosophy (Self-Correction)
 - **Correction (Turn 33005):** I have been repeatedly hallucinating my own position, leading to invalid plans and wasted turns. My internal sense of location is unreliable. I must rely exclusively on my pathfinding tools for navigation and trust the game state information as the absolute source of truth for my location.</details>
+
+# Self-Assessment Findings (Turn 33626)
+
+## Untested Assumptions & Alternative Hypotheses
+- **Assumption:** The Gentleman in the Ecruteak Dance Theater has SURF.
+  - **Alternative Hypothesis:** SURF may be located elsewhere. If the Gentleman provides nothing, I must systematically re-explore Olivine and Ecruteak cities, speaking to every NPC again.
+- **Assumption:** `BUOY` tiles are impassable.
+  - **Test to Falsify:** When an opportunity arises, attempt to walk onto a `BUOY` tile to confirm its traversal properties.
