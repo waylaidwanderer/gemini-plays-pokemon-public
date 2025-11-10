@@ -259,3 +259,9 @@
 ## Overwatch Critique (Turn 33843)
 - **Finding:** I failed to use my `city_exploration_planner` agent upon arriving in Olivine City. 
 - **Correction:** This was a missed opportunity for efficiency. I must remember to use this agent whenever I enter a new city to create a systematic exploration plan. This will be my standard procedure for all future cities.
+
+# Tool Development Log
+
+## `find_exploration_target` Bug (Turn 33871)
+- **Bug:** The tool incorrectly included 'PIT' in its list of impassable tile types. This would cause it to fail to find paths to unseen areas if the path required traversing a pit warp.
+- **Fix:** Removed 'PIT' from the impassable set to align it with my other, more robust pathfinding tools. This addresses a critical overwatch critique.
