@@ -198,3 +198,6 @@
 
 # Route 42 Notes
 - A sign on Route 42 confirms it connects Ecruteak City and Mahogany Town.
+
+## Recurring Bugs & Lessons
+- **Coordinate System Mismatch (CRITICAL):** My pathfinding tools have repeatedly failed due to using 1-based indexing for boundary checks (`1 <= x <= width`) while the game's map data is 0-indexed (`0 <= x < width`). This must be the first thing I check for any future pathfinding failures. The correct check is `0 <= coordinate < dimension`.
