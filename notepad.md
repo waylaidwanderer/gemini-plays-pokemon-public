@@ -56,6 +56,35 @@
 - **Blocker:** The only known BITTER BERRY, held by Aether, was accidentally destroyed due to a critical game bug when trying to 'TAKE' it with a full bag.
 - **Next Step:** Find a new source of BITTER BERRY. The quest is on hold until one is found.
 
+# My Custom Toolkit: Philosophy, Tools & Agents
+
+## Philosophy (Self-Correction)
+- **Correction (Turn 28227):** My previous assumptions about my pathfinding tools being faulty were incorrect. The errors stemmed from my misinterpretation of the output and failure to investigate in-game obstacles. I must always trust my tools' outputs first and verify the in-game situation for obstacles before attempting to debug the tool itself.
+- **Correction (Turn 33005):** I have been repeatedly hallucinating my own position, leading to invalid plans and wasted turns. My internal sense of location is unreliable. I must rely exclusively on my pathfinding tools for navigation and trust the game state information as the absolute source of truth for my location.
+
+## My Full Toolkit
+
+### Built-in Tools
+- `run_code`: Executes single-use Python code.
+- `define_map_marker` / `delete_map_marker`: Manages map markers.
+- `notepad_edit`: Edits my persistent notepad.
+- `stun_npc`: Temporarily freezes an NPC.
+- `select_battle_option`: Automates selecting a main battle menu option.
+- `define_tool` / `delete_tool`: Manages custom tools.
+- `define_agent` / `delete_agent`: Manages custom agents.
+
+### Custom Tools (Defined via `define_tool`)
+- `deterministic_battle_strategist`: A non-LLM tool that provides a reliable backup battle strategy.
+- `find_reachable_unseen_tiles`: Finds all reachable unseen tiles on the current map.
+- `path_and_execute_v3`: My primary pathfinding tool. Correctly treats objects as impassable.
+- `use_hm_cut`: Automates using the HM CUT from the menu.
+- `find_exploration_target`: Analyzes the map to find a logical coordinate to explore unseen areas.
+
+### Custom Agents (Defined via `define_agent`)
+- `quest_progression_advisor`: Suggests the next logical step to advance the story when I'm stuck.
+- `puzzle_solver_assistant`: Helps me methodically solve complex puzzles by suggesting simple, testable hypotheses.
+- `city_exploration_planner`: Analyzes a city map to suggest a systematic and efficient exploration route.
+
 # Archive: Log of Blocked Paths, Solved Puzzles & Old Info
 
 <details>
@@ -244,4 +273,4 @@
   - **Test to Falsify:** Find the HM for SURF. If I can use it, I can test if there's a water route from Olivine or another location to Cianwood.
 
 ## Philosophy (Self-Correction)
-- **Correction (Turn 33005):** I have been repeatedly hallucinating my own position, leading to invalid plans and wasted turns. My internal sense of location is unreliable. I must rely exclusively on my pathfinding tools for navigation and trust the game state information as the absolute source of truth for my location.
+- **Correction (Turn 33005):** I have been repeatedly hallucinating my own position, leading to invalid plans and wasted turns. My internal sense of location is unreliable. I must rely exclusively on my pathfinding tools for navigation and trust the game state information as the absolute source of truth for my location.</details>
