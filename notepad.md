@@ -65,6 +65,10 @@
 - **`path_and_execute_v3`**: My primary pathfinding tool. Correctly treats objects and hazards like PITs as impassable.
 - **`auto_clear_dialogue`**: Automates clearing dialogue boxes.
 - **`use_hm_cut`**: Automates using the HM CUT from the menu.
+- **`stun_npc`**: Temporarily freezes an NPC to prevent movement.
+- **`select_battle_option`**: Automates selecting a main battle menu option.
+- **`define_tool`**: Defines a new, reusable custom tool.
+- **`delete_tool`**: Deletes a custom tool.
 
 ## Custom Agents
 - **`quest_progression_advisor`**: Suggests the next logical step to advance the story when I'm stuck.
