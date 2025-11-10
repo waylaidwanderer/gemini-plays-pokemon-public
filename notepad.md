@@ -38,23 +38,16 @@
   - **Item Tossing Failure (CONFIRMED):** Attempting to 'TOSS' any item from the bag menu fails and resets the menu, regardless of whether it's a single item or an entire stack. This was confirmed in turns 33266-33269.
 - **Conclusion:** The only safe and confirmed way to free an inventory slot is to have a Pokémon 'HOLD' a single-stack item.
 
-# Active Quests & Notes
+# Active Quests & Current Hypotheses
 
-## Mail Delivery
-- **Status:** On Hold.
-- **Task:** Deliver SPEAROW with MAIL to an officer.
-- **Attempt 1 (Failed):** An officer in the Route 35 Goldenrod Gate gave the quest.
-- **Attempt 2 (Failed):** An officer in the Route 31 Violet Gate was not the recipient. The quest is on hold until the correct NPC is found.
+## Primary Objective: Find HM SURF
+- **Current Hypothesis:** The Gentleman in the Ecruteak Dance Theater will provide SURF as a reward now that the Legendary Beasts event has occurred.
+- **Test Plan:** Travel to Ecruteak City and speak to the Gentleman. If this fails, explore east from Ecruteak towards Mahogany Town.
 
-## GINA's Item
-- **Status:** COMPLETE.
-- **Task:** Received LEAF STONE from GINA on Route 34 after making space in my bag.
-
-## Miltank Healing (Route 39)
-- **Status:** BLOCKED
-- **Task:** Heal the sick Miltank with a BITTER BERRY.
-- **Blocker:** The only known BITTER BERRY, held by Aether, was accidentally destroyed due to a critical game bug when trying to 'TAKE' it with a full bag.
-- **Next Step:** Find a new source of BITTER BERRY. The quest is on hold until one is found.
+## Blocked Quests
+- **Miltank Healing (Route 39):** On hold. Need to find a new BITTER BERRY.
+- **Olivine Lighthouse:** On hold. Path is blocked, likely requires 'special medicine' which may be found in Cianwood City after obtaining SURF.
+- **Mail Delivery:** On hold. Recipient's location is unknown.
 
 # My Custom Toolkit: Philosophy, Tools & Agents
 
