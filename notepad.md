@@ -14,7 +14,7 @@
   - CAVE: Standard warp point.
   - DOOR: Standard warp, sometimes conditional based on story events.
   - LADDER: Directional warp that requires facing the ladder to use.
-  - PIT: One-way warp that teleports the player back to the start of the puzzle.
+  - PIT: One-way warp. In Ecruteak Gym, it reset the puzzle. In Olivine Lighthouse, it warps the player down one floor.
   - WARP_CARPET: General directional warp mat.
   - WARP_CARPET_UP: Moves player up one floor.
   - WARP_CARPET_DOWN: Moves player down one floor. Can be one-way and may require pressing 'Down' to activate.
