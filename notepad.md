@@ -116,15 +116,10 @@
 - **Title:** The Mystic Seer of the Future
 - **Likely Type:** Ghost or Psychic
 
-# Olivine Lighthouse 1F Ladder Puzzle (STUCK)
-- **Goal:** Activate the warp at (16, 13) / (17, 13).
-- **Status:** All simple interaction hypotheses have failed. There are no other reachable unseen tiles on this floor.
-- **Consolidated Failed Hypotheses:**
-  1. Standing on the warp tile automatically triggers it. (FAILED)
-  2. Interacting with the warp tile (pressing 'A') without a specific facing direction. (FAILED)
-  3. Interacting from adjacent tiles ((16, 12), (17, 12)). (FAILED)
-  4. Pressing 'Up' on the warp tile (results in moving off the tile). (FAILED)
-- **Current Hypothesis:** The warp is a directional ladder. Activation requires being on the warp tile (16, 13) AND facing the ladder (Up). The immediate challenge is changing facing direction without moving off the tile.
+# Olivine Lighthouse Puzzle (BLOCKED - External Item/Event Required Hypothesis)
+- **Status:** I have exhausted all simple interaction hypotheses for the stairs on 2F and have explored all reachable areas on 1F and 2F. My exploration tools confirm there are no further paths inside the lighthouse currently accessible.
+- **Conclusion:** Progression is likely blocked pending an external key item (e.g., medicine for the sick Ampharos) or a story event triggered elsewhere.
+- **Future Plan:** Upon returning, I will use the ITEMFINDER on every tile of every floor to check for hidden items or switches.
 
 # Untested Assumptions & Alternative Hypotheses (Self-Assessment)
 - **Conclusion (Burned Tower):** The Super Nerd was not present at (10, 12), invalidating the hypothesis that he was a required interaction. My `find_reachable_unseen_tiles` tool confirms there are no other reachable areas. The legendary beast event appears to be the sole trigger required to progress in the Tin Tower.
