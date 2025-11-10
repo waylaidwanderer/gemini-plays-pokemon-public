@@ -201,3 +201,13 @@
 
 ## Recurring Bugs & Lessons
 - **Coordinate System Mismatch (CRITICAL):** My pathfinding tools have repeatedly failed due to using 1-based indexing for boundary checks (`1 <= x <= width`) while the game's map data is 0-indexed (`0 <= x < width`). This must be the first thing I check for any future pathfinding failures. The correct check is `0 <= coordinate < dimension`.
+
+# Recurring Bugs & Lessons
+
+## Coordinate System Mismatch (CRITICAL)
+- **Problem:** My pathfinding tools have repeatedly failed due to using 1-based indexing for boundary checks (`1 <= x <= width`) while the game's map data is 0-indexed (`0 <= x < width`). This causes the pathfinder to incorrectly reject valid coordinates at the map's edge (e.g., x=0 or y=0) as 'out of bounds'.
+- **Solution:** All future pathfinding or map-parsing tools MUST use `0 <= coordinate < dimension` for all boundary checks. This must be the first thing I check for any future pathfinding failures.
+
+## Notepad Overwrite Failure
+- **Observation:** Using `notepad_edit` with `action: "overwrite"` can fail if the change results in a significant net loss of characters (e.g., >20%).
+- **Solution:** For major reorganization, be careful not to delete too much content at once. For adding new sections or notes, `append` is the safer action.
