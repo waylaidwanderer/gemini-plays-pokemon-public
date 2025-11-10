@@ -29,6 +29,9 @@
 - **Confirmation (Turn 27669):** The `CUT_TREE` at (13, 5) on Route 31, which was also previously removed, has respawned.
 - **Conclusion:** Obstacles cleared with HMs like CUT are not permanently removed. They respawn when re-entering a map. This is a consistent game mechanic and must be factored into all future path planning. My pathfinding tools must always treat `CUT_TREE` tiles as impassable unless I have just cut them in the current session on the map.
 
+## HM Move Mechanics (CRITICAL)
+- **Permanence:** HM moves (like CUT, SURF, STRENGTH) cannot be forgotten through normal means (e.g., when learning a new move via TM/HM or level-up). This was confirmed when I tried to replace CUT with STRENGTH on Ignis. This implies a special NPC, the Move Deleter, is required to remove them, but their location is currently unknown.
+
 ## Known Bugs / Strange Mechanics
 - **Item Tossing Bug:** Attempting to 'TOSS' a single-stack item (e.g., BERRY x1) from the bag menu fails and resets the menu. Tossing one item from a multi-item stack (e.g., POTION x9 -> x8) also fails to free an inventory slot. The only confirmed way to free a slot is to have a Pokémon 'HOLD' a single-stack item.
 
@@ -75,6 +78,7 @@
 - `find_reachable_unseen_tiles`: Finds all reachable unseen tiles on the current map.
 - `path_and_execute_v3`: My primary pathfinding tool. Correctly treats objects as impassable.
 - `use_hm_cut`: Automates using the HM CUT from the menu.
+- `find_exploration_target`: Analyzes the map to find a logical coordinate to explore unseen areas.
 
 ### Custom Agents (Defined via `define_agent`)
 - `quest_progression_advisor`: Suggests the next logical step to advance the story when I'm stuck.
@@ -110,6 +114,16 @@
 - **Leader:** Morty
 - **Title:** The Mystic Seer of the Future
 - **Likely Type:** Ghost or Psychic
+
+# Olivine Lighthouse 1F Ladder Puzzle (STUCK)
+- **Goal:** Activate the warp at (16, 13) / (17, 13).
+- **Status:** All simple interaction hypotheses have failed. There are no other reachable unseen tiles on this floor.
+- **Consolidated Failed Hypotheses:**
+  1. Standing on the warp tile automatically triggers it. (FAILED)
+  2. Interacting with the warp tile (pressing 'A') without a specific facing direction. (FAILED)
+  3. Interacting from adjacent tiles ((16, 12), (17, 12)). (FAILED)
+  4. Pressing 'Up' on the warp tile (results in moving off the tile). (FAILED)
+- **Current Hypothesis:** The warp is a directional ladder. Activation requires being on the warp tile (16, 13) AND facing the ladder (Up). The immediate challenge is changing facing direction without moving off the tile.
 
 # Untested Assumptions & Alternative Hypotheses (Self-Assessment)
 - **Conclusion (Burned Tower):** The Super Nerd was not present at (10, 12), invalidating the hypothesis that he was a required interaction. My `find_reachable_unseen_tiles` tool confirms there are no other reachable areas. The legendary beast event appears to be the sole trigger required to progress in the Tin Tower.
@@ -222,29 +236,6 @@
   - **Alternative Hypothesis:** They might be traversable under certain conditions or from a specific direction.
   - **Test to Falsify:** When an opportunity arises where a `WINDOW` tile is adjacent to a reachable `FLOOR` tile, attempt to move onto it.
 
-# Olivine Lighthouse 1F Ladder Puzzle (STUCK)
-- **Goal:** Activate the warp at (16, 13) / (17, 13).
-- **Status:** All simple hypotheses have failed. There are no other reachable unseen tiles on this floor.
-- **Failed Hypotheses Log:**
-  1. Standing on (16, 13) or (17, 13) automatically triggers the warp. (FAILED)
-  2. Pressing 'Up' while on either warp tile triggers it. (FAILED)
-  3. Pressing 'A' while on either warp tile triggers it. (FAILED)
-  4. Interacting from the adjacent tile at (17, 12) while facing down. (FAILED)
-  5. Interacting from the adjacent tile at (16, 12) while facing down. (FAILED)
-  6. Approaching the ladder from below (suggested by agent). (IMPOSSIBLE - blocked by WALL)
-  7. The POKEFAN_F at (16, 9) is a trainer that needs to be battled. (FAILED - Interaction only yields lore).
-- **Next Hypothesis:** A hidden item is required to progress.
-- **Goal:** Activate the warp at (16, 13) / (17, 13).
-- **Status:** All simple hypotheses have failed. There are no other reachable unseen tiles on this floor.
-- **Failed Hypotheses Log:**
-  1. Standing on (16, 13) or (17, 13) automatically triggers the warp. (FAILED)
-  2. Pressing 'Up' while on either warp tile triggers it. (FAILED)
-  3. Pressing 'A' while on either warp tile triggers it. (FAILED)
-  4. Interacting from the adjacent tile at (17, 12) while facing down. (FAILED)
-  5. Interacting from the adjacent tile at (16, 12) while facing down. (FAILED)
-  6. Approaching the ladder from below (suggested by agent). (IMPOSSIBLE - blocked by WALL)
-- **Next Hypothesis:** An external event is required. The POKEFAN_F at (16, 9) is the only other interactable element on this floor and may provide a hint or trigger.
-
 # Post-Reflection Alternative Hypotheses (Turn 32690)
 - **Assumption:** The solution to the Lighthouse puzzle is inside the Lighthouse.
   - **Alternative Hypothesis:** The solution requires an item or event from outside the Lighthouse, possibly from another city entirely. The puzzle might be unsolvable for now.
@@ -252,6 +243,3 @@
 - **Assumption:** The only way to Cianwood is west of Route 38.
   - **Alternative Hypothesis:** The path to Cianwood requires SURF, and I need to get SURF somewhere else first. The path might not be a land route at all.
   - **Test to Falsify:** Find the HM for SURF. If I can use it, I can test if there's a water route from Olivine or another location to Cianwood.
-
-## HM Move Mechanics (CRITICAL)
-- **Permanence:** HM moves (like CUT, SURF, STRENGTH) cannot be forgotten through normal means (e.g., when learning a new move via TM/HM or level-up). This was confirmed when I tried to replace CUT with STRENGTH on Ignis. This implies a special NPC, the Move Deleter, is required to remove them, but their location is currently unknown.
