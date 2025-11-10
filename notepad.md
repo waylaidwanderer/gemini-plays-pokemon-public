@@ -6,6 +6,7 @@
 - **Traversable:** FLOOR, GRASS, LONG_GRASS, TALL_GRASS.
 - **One-Way (Ledges):** LEDGE_HOP_DOWN, LEDGE_HOP_LEFT, LEDGE_HOP_RIGHT, FLOOR_UP_WALL.
 - **Warps:** CAVE, DOOR, LADDER, PIT, WARP_CARPET, WARP_CARPET_UP, WARP_CARPET_DOWN, WARP_CARPET_LEFT, WARP_CARPET_RIGHT.
+- **Unusual Map Transitions:** Moving north from Route 39 at (9, 0) warps the player to the far east side of Route 38 at (35, 8), not the expected western entrance.
 
 ## Confirmed Mechanics
 - **Respawning Obstacles:** HM-cleared obstacles (like CUT_TREE) respawn upon re-entering a map.
