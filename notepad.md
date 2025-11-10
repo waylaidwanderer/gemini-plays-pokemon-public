@@ -199,7 +199,8 @@
 - **Hypothesis:** Defeating all Kimono Girls would cause the Gentleman at (7, 10) to give a reward.
 - **Test:** Defeated all five Kimono Girls and repeatedly interacted with the Gentleman between turns 29727 and 29738.
 - **Result:** The Gentleman only repeated his initial, pre-defeat dialogue. No new outcome was triggered.
-- **Conclusion:** Hypothesis is FALSE. Repeatedly interacting with an NPC that provides no new information is an invalid strategy and will not yield new results. This confirms my general interaction rule: if an NPC doesn't change their dialogue after a significant event, move on.
+- **Conclusion (Original):** Hypothesis was FALSE pre-Legendary event. Re-interacting yielded no results.
+- **New Hypothesis:** The awakening of the Legendary Beasts in the Burned Tower was a major world event. It is possible this event changed the Gentleman's state, and he may now offer a reward or the HM SURF. Re-testing this interaction is now a valid strategy.
 
 </details>
 
