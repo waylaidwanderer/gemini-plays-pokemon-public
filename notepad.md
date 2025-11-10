@@ -80,7 +80,7 @@
 ### Custom Agents (Defined via `define_agent`)
 - `quest_progression_advisor`: Suggests the next logical step to advance the story when I'm stuck.
 - `puzzle_solver_assistant`: Helps me methodically solve complex puzzles by suggesting simple, testable hypotheses.
-- `exploration_strategist`: Suggests the most promising area to explore next based on reachable unseen tiles.
+
 - `city_exploration_planner`: Analyzes a city map to suggest a systematic and efficient exploration route.
 
 # Key Items
