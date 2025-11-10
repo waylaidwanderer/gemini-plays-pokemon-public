@@ -252,3 +252,6 @@
 - **Assumption:** The only way to Cianwood is west of Route 38.
   - **Alternative Hypothesis:** The path to Cianwood requires SURF, and I need to get SURF somewhere else first. The path might not be a land route at all.
   - **Test to Falsify:** Find the HM for SURF. If I can use it, I can test if there's a water route from Olivine or another location to Cianwood.
+
+## HM Move Mechanics (CRITICAL)
+- **Permanence:** HM moves (like CUT, SURF, STRENGTH) cannot be forgotten through normal means (e.g., when learning a new move via TM/HM or level-up). This was confirmed when I tried to replace CUT with STRENGTH on Ignis. This implies a special NPC, the Move Deleter, is required to remove them, but their location is currently unknown.
