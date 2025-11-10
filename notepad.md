@@ -60,6 +60,11 @@
 - **Route:** Violet City -> Route 31.
 - **Current Step:** Travel from Violet City to Route 31 to meet Wade.
 
+# Archive: Log of Blocked Paths, Solved Puzzles & Old Info
+
+<details>
+<summary>Click to expand full game log</summary>
+
 # Gym Information
 - **Goldenrod Gym:** Normal-type. Fighting-type moves are recommended.
 
