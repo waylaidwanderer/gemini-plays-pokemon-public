@@ -212,3 +212,6 @@
 ## Notepad Overwrite Failure
 - **Observation:** Using `notepad_edit` with `action: "overwrite"` can fail if the change results in a significant net loss of characters (e.g., >20%).
 - **Solution:** For major reorganization, be careful not to delete too much content at once. For adding new sections or notes, `append` is the safer action.
+
+# Olivine City Notes
+- Rival Crimson appeared outside the Gym. He said the Gym Leader is not here, but is at the Lighthouse taking care of a sick Pokémon. My next step should be to find the Lighthouse.
