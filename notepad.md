@@ -83,19 +83,6 @@
 - `exploration_strategist`: Suggests the most promising area to explore next based on reachable unseen tiles.
 - `city_exploration_planner`: Analyzes a city map to suggest a systematic and efficient exploration route.
 
-## Custom Tools (Defined via `define_tool`)
-- `deterministic_battle_strategist`: A non-LLM tool that provides a reliable backup battle strategy.
-- `find_reachable_unseen_tiles`: Finds all reachable unseen tiles on the current map.
-- `path_and_execute_v3`: My primary pathfinding tool. Correctly treats objects as impassable.
-- `auto_clear_dialogue`: Automates clearing dialogue boxes.
-- `use_hm_cut`: Automates using the HM CUT from the menu.
-
-## Custom Agents (Defined via `define_agent`)
-- `quest_progression_advisor`: Suggests the next logical step to advance the story when I'm stuck.
-- `puzzle_solver_assistant`: Helps me methodically solve complex puzzles by suggesting simple, testable hypotheses.
-- `exploration_strategist`: Suggests the most promising area to explore next based on reachable unseen tiles.
-- `city_exploration_planner`: Analyzes a city map to suggest a systematic and efficient exploration route.
-
 # Key Items
 - BICYCLE: Received from the Goldenrod Bike Shop owner. Allows for faster travel.
 - ITEMFINDER: Received from a man in Ecruteak City. Used to find hidden items.
