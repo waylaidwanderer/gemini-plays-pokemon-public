@@ -33,8 +33,8 @@
 - **Permanence:** HM moves (like CUT, SURF, STRENGTH) cannot be forgotten through normal means (e.g., when learning a new move via TM/HM or level-up). This was confirmed when I tried to replace CUT with STRENGTH on Ignis. This implies a special NPC, the Move Deleter, is required to remove them, but their location is currently unknown.
 
 ## Known Bugs / Strange Mechanics
-- **Item Management Bugs (CRITICAL):
-**  - **Item Destruction on 'TAKE' (CONFIRMED):** Attempting to 'TAKE' a held item from a Pokémon while the player's bag is full will cause the item to be permanently destroyed. The game displays a confirmation message ('Took [ITEM] from [POKEMON].') as if the action was successful, but the item is not transferred and is lost forever. This was confirmed in turns 33294-33355 with Aether's BITTER BERRY.
+- **Item Management Bugs (CRITICAL):**
+  - **Item Destruction on 'TAKE' (CONFIRMED):** Attempting to 'TAKE' a held item from a Pokémon while the player's bag is full will cause the item to be permanently destroyed. The game displays a confirmation message ('Took [ITEM] from [POKEMON].') as if the action was successful, but the item is not transferred and is lost forever. This was confirmed in turns 33294-33355 with Aether's BITTER BERRY.
   - **Item Tossing Failure (CONFIRMED):** Attempting to 'TOSS' any item from the bag menu fails and resets the menu, regardless of whether it's a single item or an entire stack. This was confirmed in turns 33266-33269.
 - **Conclusion:** The only safe and confirmed way to free an inventory slot is to have a Pokémon 'HOLD' a single-stack item.
 
@@ -92,37 +92,6 @@
 
 # Gym Information
 - **Goldenrod Gym:** Normal-type. Fighting-type moves are recommended.
-
-# My Custom Toolkit: Philosophy, Tools & Agents
-
-## Philosophy (Self-Correction)
-- **Correction (Turn 28227):** My previous assumptions about my pathfinding tools being faulty were incorrect. The errors stemmed from my misinterpretation of the output and failure to investigate in-game obstacles. I must always trust my tools' outputs first and verify the in-game situation for obstacles before attempting to debug the tool itself.
-- **Correction (Turn 33005):** I have been repeatedly hallucinating my own position, leading to invalid plans and wasted turns. My internal sense of location is unreliable. I must rely exclusively on my pathfinding tools for navigation and trust the game state information as the absolute source of truth for my location.
-
-## My Full Toolkit
-
-### Built-in Tools
-- `run_code`: Executes single-use Python code.
-- `define_map_marker` / `delete_map_marker`: Manages map markers.
-- `notepad_edit`: Edits my persistent notepad.
-- `stun_npc`: Temporarily freezes an NPC.
-- `select_battle_option`: Automates selecting a main battle menu option.
-- `define_tool` / `delete_tool`: Manages custom tools.
-- `define_agent` / `delete_agent`: Manages custom agents.
-
-### Custom Tools (Defined via `define_tool`)
-- `deterministic_battle_strategist`: A non-LLM tool that provides a reliable backup battle strategy.
-- `find_reachable_unseen_tiles`: Finds all reachable unseen tiles on the current map.
-- `path_and_execute_v3`: My primary pathfinding tool. Correctly treats objects as impassable.
-- `use_hm_cut`: Automates using the HM CUT from the menu.
-- `find_exploration_target`: Analyzes the map to find a logical coordinate to explore unseen areas.
-
-### Custom Agents (Defined via `define_agent`)
-- `quest_progression_advisor`: Suggests the next logical step to advance the story when I'm stuck.
-- `puzzle_solver_assistant`: Helps me methodically solve complex puzzles by suggesting simple, testable hypotheses.
-- `city_exploration_planner`: Analyzes a city map to suggest a systematic and efficient exploration route.
-
-## Toolkit Issues
 
 # Key Items
 - BICYCLE: Received from the Goldenrod Bike Shop owner. Allows for faster travel.
