@@ -51,10 +51,10 @@
 - **Task:** Received LEAF STONE from GINA on Route 34 after making space in my bag.
 
 ## Miltank Healing (Route 39)
-- **Status:** UNBLOCKED
+- **Status:** BLOCKED
 - **Task:** Heal the sick Miltank with a BITTER BERRY.
-- **Discovery:** After a long, fruitless journey to find berries, I discovered that my Pidgey, Aether, was holding a `BITTER BERRY` the entire time. All previous hypotheses about needing to find berries elsewhere were incorrect.
-- **Next Step:** Take the BITTER BERRY from Aether and give it to the Miltank in the barn.
+- **Blocker:** The only known BITTER BERRY, held by Aether, was accidentally destroyed due to a critical game bug when trying to 'TAKE' it with a full bag.
+- **Next Step:** Find a new source of BITTER BERRY. The quest is on hold until one is found.
 
 # Archive: Log of Blocked Paths, Solved Puzzles & Old Info
 
