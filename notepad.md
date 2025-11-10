@@ -74,7 +74,6 @@
 - `deterministic_battle_strategist`: A non-LLM tool that provides a reliable backup battle strategy.
 - `find_reachable_unseen_tiles`: Finds all reachable unseen tiles on the current map.
 - `path_and_execute_v3`: My primary pathfinding tool. Correctly treats objects as impassable.
-- `auto_clear_dialogue`: Automates clearing dialogue boxes.
 - `use_hm_cut`: Automates using the HM CUT from the menu.
 
 ### Custom Agents (Defined via `define_agent`)
@@ -83,7 +82,7 @@
 - `city_exploration_planner`: Analyzes a city map to suggest a systematic and efficient exploration route.
 
 ## Toolkit Issues
-- **`exploration_strategist` (CRITICAL FAILURE):** The agent is fundamentally flawed. Even after a refinement attempt, it continues to suggest unseen tiles as valid targets. It does not have access to the full map data to verify a tile's `seen` status. It should not be used again until it is completely replaced by a robust tool that can parse the map XML directly.
+- **`exploration_strategist` (DELETED):** This agent was fundamentally flawed and has been removed. It incorrectly suggested unseen tiles as valid targets because it could not parse map data to verify a tile's `seen` status. It must be replaced by a robust tool.
 
 # Key Items
 - BICYCLE: Received from the Goldenrod Bike Shop owner. Allows for faster travel.
