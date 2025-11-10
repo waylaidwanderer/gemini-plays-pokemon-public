@@ -15,14 +15,24 @@
 
 # Active Quests & Current Hypotheses
 
-## Primary Objective: Find HM SURF
-- **Current Hypothesis:** The Gentleman in the Ecruteak Dance Theater will provide SURF as a reward now that the Legendary Beasts event has occurred.
-- **Test Plan:** Travel to Ecruteak City and speak to the Gentleman. If this fails, explore east from Ecruteak towards Mahogany Town.
+## Current Status: Stuck on Route 39
+- **Problem:** My attempts to leave Route 39 via the north and west exits have failed. Both paths are confirmed dead ends from my current accessible area.
+- **New Hypothesis:** Since I cannot leave the route, a progression trigger must exist on this map. Re-investigating the Moomoo Farm is the most logical next step.
+- **Test Plan:** Exit the barn and enter the main farmhouse. Speak to all NPCs to check for new dialogue or events.
 
-## Blocked Quests
-- **Miltank Healing (Route 39):** On hold. Need to find a new BITTER BERRY.
-- **Olivine Lighthouse:** On hold. Path is blocked, likely requires 'special medicine' which may be found in Cianwood City after obtaining SURF.
-- **Mail Delivery:** On hold. Recipient's location is unknown.
+## On Hold Quests
+- **Primary Objective (Find HM SURF):** On hold until I can leave Route 39.
+- **Miltank Healing (Route 39):** On hold. The immediate quest is to find an exit, not heal the Miltank, though the two may be related.
+- **Olivine Lighthouse:** On hold.
+- **Mail Delivery:** On hold.
+
+# Untested Assumptions & Alternative Hypotheses (Post-Reflection)
+- **Assumption:** I need a `BITTER BERRY` to heal the Miltank.
+  - **Alternative Hypothesis:** The solution might not involve a specific berry, but another item or a story trigger from the farmers.
+  - **Test to Falsify:** Speak to the farmers in the main house after interacting with the Miltank.
+- **Assumption:** The Gentleman in Ecruteak has SURF.
+  - **Alternative Hypothesis:** SURF could be a reward for healing the Ampharos, or it could be in Cianwood City itself.
+  - **Test to Falsify:** If the Ecruteak lead fails (once I can get there), I must systematically re-explore all previous towns.
 
 # My Custom Toolkit: Philosophy & Tools
 
