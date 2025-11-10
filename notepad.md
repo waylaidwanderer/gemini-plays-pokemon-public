@@ -34,7 +34,7 @@
 ## My Full Toolkit
 - **Built-in:** `run_code`, `define/delete_map_marker`, `notepad_edit`, `stun_npc`, `select_battle_option`, `define/delete_tool`, `define/delete_agent`.
 - **Custom Tools:** `deterministic_battle_strategist`, `find_reachable_unseen_tiles`, `path_and_execute_v3`, `use_hm_cut`, `find_exploration_target`.
-- **Custom Agents:** `quest_progression_advisor`, `puzzle_solver_assistant`, `city_exploration_planner`.
+- **Custom Agents:** `quest_progression_advisor`, `puzzle_solver_assistant`, `city_exploration_planner`, `world_navigator_agent`.
 
 # Archive: Log of Blocked Paths, Solved Puzzles & Old Info
 
