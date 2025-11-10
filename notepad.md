@@ -244,3 +244,6 @@
 - **Assumption:** The only way to Cianwood is west of Route 38.
   - **Alternative Hypothesis:** The path to Cianwood requires SURF, and I need to get SURF somewhere else first. The path might not be a land route at all.
   - **Test to Falsify:** Find the HM for SURF. If I can use it, I can test if there's a water route from Olivine or another location to Cianwood.
+
+## Philosophy (Self-Correction)
+- **Correction (Turn 33005):** I have been repeatedly hallucinating my own position, leading to invalid plans and wasted turns. My internal sense of location is unreliable. I must rely exclusively on my pathfinding tools for navigation and trust the game state information as the absolute source of truth for my location.
