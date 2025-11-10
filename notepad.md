@@ -239,3 +239,7 @@
 - **Assumption:** The correct 'BERRY' for the Miltank can be found by using HEADBUTT on a tree on this route.
   - **Alternative Hypothesis:** The 'BERRY' might be a hidden item on the ground, requiring the ITEMFINDER. Alternatively, healing the Miltank could be a red herring, and another, less obvious trigger exists on this route to unlock progression.
   - **Test to Falsify:** If using HEADBUTT on all accessible trees yields no 'BERRY', I must then systematically use the ITEMFINDER on every tile of Route 39.
+
+## Route 39 Miltank Puzzle Log
+- **Hypothesis:** The 'BERRY' needed for the Miltank can be found by using HEADBUTT on a tree.
+- **Test 1 (Tree @ 2, 30):** Used HEADBUTT. Result: Wild LEDYBA encounter. No BERRY obtained. Hypothesis remains unconfirmed. Proceeding to test next tree.
