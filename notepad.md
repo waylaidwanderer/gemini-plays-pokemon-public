@@ -49,34 +49,17 @@
 - **Olivine Lighthouse:** On hold. Path is blocked, likely requires 'special medicine' which may be found in Cianwood City after obtaining SURF.
 - **Mail Delivery:** On hold. Recipient's location is unknown.
 
-# My Custom Toolkit: Philosophy, Tools & Agents
+# My Custom Toolkit: Philosophy & Tools
 
 ## Philosophy (Self-Correction)
-- **Correction (Turn 28227):** My previous assumptions about my pathfinding tools being faulty were incorrect. The errors stemmed from my misinterpretation of the output and failure to investigate in-game obstacles. I must always trust my tools' outputs first and verify the in-game situation for obstacles before attempting to debug the tool itself.
-- **Correction (Turn 33005):** I have been repeatedly hallucinating my own position, leading to invalid plans and wasted turns. My internal sense of location is unreliable. I must rely exclusively on my pathfinding tools for navigation and trust the game state information as the absolute source of truth for my location.
+- **(Turn 28227):** Trust tool outputs first; verify in-game obstacles before debugging.
+- **(Turn 33005):** Rely exclusively on pathfinding tools for navigation.
+- **(Turn 33843):** Use `city_exploration_planner` upon entering any new city.
 
 ## My Full Toolkit
-
-### Built-in Tools
-- `run_code`: Executes single-use Python code.
-- `define_map_marker` / `delete_map_marker`: Manages map markers.
-- `notepad_edit`: Edits my persistent notepad.
-- `stun_npc`: Temporarily freezes an NPC.
-- `select_battle_option`: Automates selecting a main battle menu option.
-- `define_tool` / `delete_tool`: Manages custom tools.
-- `define_agent` / `delete_agent`: Manages custom agents.
-
-### Custom Tools (Defined via `define_tool`)
-- `deterministic_battle_strategist`: A non-LLM tool that provides a reliable backup battle strategy.
-- `find_reachable_unseen_tiles`: Finds all reachable unseen tiles on the current map.
-- `path_and_execute_v3`: My primary pathfinding tool. Correctly treats objects as impassable.
-- `use_hm_cut`: Automates using the HM CUT from the menu.
-- `find_exploration_target`: Analyzes the map to find a logical coordinate to explore unseen areas.
-
-### Custom Agents (Defined via `define_agent`)
-- `quest_progression_advisor`: Suggests the next logical step to advance the story when I'm stuck.
-- `puzzle_solver_assistant`: Helps me methodically solve complex puzzles by suggesting simple, testable hypotheses.
-- `city_exploration_planner`: Analyzes a city map to suggest a systematic and efficient exploration route.
+- **Built-in:** `run_code`, `define/delete_map_marker`, `notepad_edit`, `stun_npc`, `select_battle_option`, `define/delete_tool`, `define/delete_agent`.
+- **Custom Tools:** `deterministic_battle_strategist`, `find_reachable_unseen_tiles`, `path_and_execute_v3`, `use_hm_cut`, `find_exploration_target`.
+- **Custom Agents:** `quest_progression_advisor`, `puzzle_solver_assistant`, `city_exploration_planner`.
 
 # Archive: Log of Blocked Paths, Solved Puzzles & Old Info
 
