@@ -195,3 +195,6 @@
 - **Correction:** I must be diligent in marking **both** the entry and exit points of any warp immediately after using it. This is critical for maintaining accurate navigation data.
 
 </details>
+
+# Route 42 Notes
+- A sign on Route 42 confirms it connects Ecruteak City and Mahogany Town.
