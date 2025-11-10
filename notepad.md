@@ -243,3 +243,4 @@
 ## Route 39 Miltank Puzzle Log
 - **Hypothesis:** The 'BERRY' needed for the Miltank can be found by using HEADBUTT on a tree.
 - **Test 1 (Tree @ 2, 30):** Used HEADBUTT. Result: Wild LEDYBA encounter. No BERRY obtained. Hypothesis remains unconfirmed. Proceeding to test next tree.
+- **Test 2 (Tree @ 3, 28):** Used HEADBUTT. Result: 'Nope. Nothing…'. No BERRY obtained. Hypothesis remains unconfirmed. Proceeding to test next tree.
