@@ -251,4 +251,5 @@
 - **Assumption:** The Gentleman in the Ecruteak Dance Theater has SURF.
   - **Alternative Hypothesis:** SURF may be located elsewhere. If the Gentleman provides nothing, I must systematically re-explore Olivine and Ecruteak cities, speaking to every NPC again.
 - **Assumption:** `BUOY` tiles are impassable.
+  - **Test to Falsify:** At the next opportunity, I must attempt to walk onto a `BUOY` tile to confirm its traversal properties. The ones south of the port at (24, 32) look like a good place to test this.
   - **Test to Falsify:** When an opportunity arises, attempt to walk onto a `BUOY` tile to confirm its traversal properties.
