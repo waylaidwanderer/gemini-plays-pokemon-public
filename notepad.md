@@ -347,3 +347,4 @@
   - **Conclusion:** Hypothesis is FALSE.
 - **Hypothesis 9 (Three-Sage Interaction Sequence):** Interacting with all three Sages in a specific sequence ((6, 2) -> (7, 7) -> (7, 5)) will unblock the path.
   - **Test Plan:** Talk to Sage at (6, 2), then Sage at (7, 7), then talk to the blocking Sage at (7, 5), and finally attempt to walk to the warp at (7, 4).
+  - **Test (Step 1):** Interacted with Sage at (6, 2). Result: Lore dialogue, no change.
