@@ -322,3 +322,6 @@
 - **Hypothesis 1 (Direct Path):** Walk directly to the warp at (7, 4).
   - **Result:** Intercepted by Sage at (7, 5), dialogue triggered, and position reset. Attempted twice.
   - **Conclusion:** Hypothesis is FALSE. A trigger event prevents direct passage.
+- **Hypothesis 2 (Interact with Sage 1):** Interacting with the Sage at (6, 2) will unblock the path.
+  - **Result:** The Sage provided lore dialogue but did not move, and the blocking Sage's position was unchanged.
+  - **Conclusion:** Hypothesis is FALSE.
