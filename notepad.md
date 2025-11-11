@@ -387,7 +387,7 @@
 - [x] Warp at (5, 15) (Blocked by Rocket)
 - [x] Warp at (9, 13)
 - [x] GoldenrodCityStationSign at (10, 14)
-- [ ] GoldenrodCitySign at (22, 18)
+- [x] GoldenrodCitySign at (22, 18)
 - [ ] GoldenrodCityRadioTowerSign at (4, 17)
 - [ ] Warp at (14, 21)
 - [ ] GoldenrodCityGameCornerSign at (16, 22)
