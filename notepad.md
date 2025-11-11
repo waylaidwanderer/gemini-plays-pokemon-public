@@ -12,12 +12,13 @@
 - **HM Move Permanence:** HM moves cannot be forgotten through normal means.
 - **Item Management Bugs (CRITICAL):** Taking a held item with a full bag destroys it. Tossing items fails. The only safe way to free a slot is to have a Pokémon hold an item.
 - **Evolution via Trade:** Some POKEMON evolve only by being traded: MACHOKE, KADABRA, HAUNTER, and GRAVELER.
+- **Phone List Limit:** The phone list can become full, preventing you from adding new contacts.
 
 # Active Quests & Current Plan
 
 ## Current Status: Blocked - Main Quest Progression Halted
 - **Primary Blockers:** I cannot get SURF or the 'special medicine' for the sick Ampharos. All main quest paths are blocked.
-- **Current Plan:** With my main quests stalled, I will begin a systematic exploration of Goldenrod City to find new leads. I will use my `multi_stop_pathfinder` tool to generate an efficient route to visit all points of interest.
+- **Current Plan:** With my main quests stalled, I will continue my systematic exploration of Goldenrod City to find new leads.
 
 # My Custom Toolkit: Philosophy & Tools
 
@@ -44,7 +45,7 @@
 - **(Turn 28227):** Trust tool outputs first; verify in-game obstacles before debugging.
 - **(Turn 33005):** Rely exclusively on pathfinding tools for navigation.
 - **(Turn 33843):** Use `city_exploration_planner` upon entering any new city.
-- **(Turn 34861 - CRITICAL):** `path_plan` is for coordinate-based overworld movement. `autopress_buttons` is for menu-based button string execution. Confusing them leads to critical tool failures and wasted debugging time.
+- **(Turn 34861, 35208 - CRITICAL):** `path_plan` is for coordinate-based overworld movement. `autopress_buttons` is for menu-based button string execution. Confusing them leads to critical tool failures and wasted debugging time.
 - **(Turn 35400 - CRITICAL):** Deferring tool/agent creation is an invalid strategy. I must act immediately on development ideas to improve my capabilities.
 
 # Archive: Log of Blocked Paths, Solved Puzzles & Old Info
@@ -297,7 +298,7 @@
   - **Test to Falsify:** If the systematic re-exploration of Olivine and Ecruteak fails, I must thoroughly re-explore Route 42, using the ITEMFINDER on every tile.
 - **Assumption:** An NPC's dialogue is the key to progressing.
   - **Alternative Hypothesis:** The key is a hidden item, and no NPC provides a direct clue.
-  - **Test to Falsify:** If the NPC sweep of Olivine and Ecruteak fails, I must perform a full sweep of both cities with the ITEMFINDER on every tile.
+  - **Test to Falsify:** If the NPC sweep of Olivine and Ecruteak fails, I must perform a full sweep of both cities with the ITEMFINDER on every single tile.
 
 # Olivine Lighthouse Puzzle Log (SOLVED - BLOCKED)
 - **Discovery:** The warps at (16, 11) and (17, 11) on 2F share the same destination entry points as the pits at (16, 13) and (17, 13). 
@@ -367,3 +368,5 @@
 
 # Goldenrod City Notes
 - Todd called (Turn 35401) to announce a bargain sale at the Goldenrod Dept. Store is happening now.
+
+</details>
