@@ -362,7 +362,6 @@
 # Radio Tower Clues
 - A Teacher on 2F mentioned that lullabies on the radio may make POKéMON sleep.</details>
 - **(Turn 35208 - CRITICAL):** `path_plan` is for coordinate-based overworld movement. `autopress_buttons` is for menu-based button string execution. Confusing them leads to critical tool failures and wasted debugging time.
-- **Phone List Limit:** The phone list can become full, preventing you from adding new contacts.
 
 # Goldenrod City Notes
 - Todd called (Turn 35401) to announce a bargain sale at the Goldenrod Dept. Store is happening now.
