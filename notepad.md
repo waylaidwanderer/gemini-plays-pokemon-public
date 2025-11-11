@@ -242,9 +242,13 @@
   - **Test to Falsify:** If using HEADBUTT on all accessible trees yields no 'BERRY', I must then systematically use the ITEMFINDER on every tile of Route 39.
 
 ## Route 39 Miltank Puzzle Log
-- **Hypothesis:** The 'BERRY' needed for the Miltank can be found by using HEADBUTT on a tree.
-- **Test 1 (Tree @ 2, 30):** Used HEADBUTT. Result: Wild LEDYBA encounter. No BERRY obtained. Hypothesis remains unconfirmed. Proceeding to test next tree.
-- **Test 2 (Tree @ 3, 28):** Used HEADBUTT. Result: 'Nope. Nothing…'. No BERRY obtained. Hypothesis remains unconfirmed. Proceeding to test next tree.
-- **Test 3 (Tree @ 2, 29):** Used HEADBUTT. Result: Wild HOOTHOOT encounter. No BERRY obtained.
-- **Conclusion:** The Headbutt hypothesis is FALSE. The BERRY is not obtainable from the trees on this route.
-- **New Hypothesis:** The progression trigger is inside the Moomoo Farmhouse. I need to speak to the farmers again.
+- **Hypothesis 1 (Headbutt):** The 'BERRY' needed for the Miltank can be found by using HEADBUTT on a tree.
+  - **Result:** Tested all three accessible trees. Encounters with wild POKéMON, but no BERRY obtained.
+  - **Conclusion:** Hypothesis is FALSE.
+- **Hypothesis 2 (Farmers):** Speaking to the farmers in the Moomoo Farmhouse will provide a new clue.
+  - **Result:** Spoke to both the male and female farmers. Their dialogue was unchanged and only repeated the problem.
+  - **Conclusion:** Hypothesis is FALSE.
+- **New Hypothesis:** The solution is an item on Route 39.
+- **Test Plan:**
+  1. Check the Fruit Tree at (9, 3) to see if it has respawned a BERRY.
+  2. If the tree has no BERRY, systematically use the ITEMFINDER on every tile of Route 39 to find a hidden item.
