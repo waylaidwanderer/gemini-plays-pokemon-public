@@ -257,3 +257,6 @@
   - **Conclusion:** Hypothesis is FALSE.
 
 **New Plan:** The Miltank quest is now on hold. My new primary objective is to travel back to Ecruteak City to test the hypothesis that the Gentleman in the Dance Theater will provide a reward (potentially SURF) now that the Legendary Beast event in the Burned Tower has occurred.
+
+# Olivine City Notes
+- A Fishing Guru in Tim's House (building at 25, 11) wants to trade a KRABBY for his VOLTORB.
