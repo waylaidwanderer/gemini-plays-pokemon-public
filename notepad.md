@@ -41,6 +41,7 @@
 - **`quest_progression_advisor` (Agent):** Suggests next story steps when I'm stuck.
 - **`puzzle_solver_assistant` (Agent):** Provides simple hypotheses for puzzles.
 - **`city_exploration_planner` (Agent):** Generates a systematic and efficient exploration plan for a new city.
+- **`world_navigator_agent` (Agent):** Suggests a new major region or city to investigate when local leads are exhausted.
 
 ## Philosophy & Lessons Learned (Self-Correction)
 - **(Turn 28227):** Trust tool outputs first; verify in-game obstacles before debugging.
