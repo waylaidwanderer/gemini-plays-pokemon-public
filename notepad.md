@@ -403,3 +403,11 @@
 - [ ] GoldenrodCityBikeShopSign at (28, 30)
 - [ ] GoldenrodCityUndergroundSignSouth at (12, 30)
 - [ ] Warp at (11, 29)
+
+# Self-Assessment Findings (Turn 35758)
+
+## Agent Ideas
+- **World Navigator Agent:** An agent that can plan multi-map journeys between cities by generating a sequence of warps and routes to take.
+
+## Agent Refinements
+- `quest_progression_advisor` needs to be more critical of suggestions that rely on items I don't possess. I have updated its prompt to check my inventory before making item-based suggestions.
