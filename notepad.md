@@ -39,7 +39,6 @@
 - **`map_object_extractor` (Tool):** Extracts all interactable objects from a map.
 - **`quest_progression_advisor` (Agent):** Suggests next story steps when I'm stuck.
 - **`puzzle_solver_assistant` (Agent):** Provides simple hypotheses for puzzles.
-- **`city_exploration_planner` (Agent):** Creates efficient routes for exploring cities.
 
 ## Philosophy & Lessons Learned (Self-Correction)
 - **(Turn 28227):** Trust tool outputs first; verify in-game obstacles before debugging.
