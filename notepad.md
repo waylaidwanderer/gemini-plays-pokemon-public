@@ -423,3 +423,6 @@
 - [ ] OlivineLighthouseSign at (30, 28)
 
 </details>
+
+# Tool Mechanics & Lessons
+- **stun_npc:** This tool freezes an NPC, preventing them from moving. It does NOT make the NPC traversable. You still must navigate around the stunned NPC.
