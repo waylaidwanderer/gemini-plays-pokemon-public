@@ -17,7 +17,7 @@
 
 ## Current Status: Blocked - Medicine/SURF Required
 - **Primary Blockers:** I cannot progress in the Olivine Lighthouse without 'special medicine', and I cannot travel to Cianwood City or Mahogany Town without SURF.
-- **Current Plan:** Having exhausted all leads in Olivine City, I am now traveling to Ecruteak City to thoroughly explore Route 42 for a path to Mahogany Town. This is the next logical step in searching for a new lead, an overlooked NPC, or a hidden item.
+- **Current Plan:** I am currently inside the Tin Tower, attempting to solve the WiseTriosRoom puzzle. My objective is to find a way past the blocking Sage to progress deeper into the tower, which may hold a clue to my larger goals.
 
 # My Custom Toolkit: Philosophy & Tools
 
