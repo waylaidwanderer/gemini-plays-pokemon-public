@@ -383,7 +383,7 @@
 - [x] Warp at (24, 7)
 - [x] Warp at (29, 5)
 - [x] GoldenrodCityFlowerShopSign at (30, 6)
-- [ ] Warp at (33, 9)
+- [x] Warp at (33, 9)
 - [ ] GoldenrodGymSign at (26, 9)
 - [ ] Warp at (5, 15)
 - [ ] Warp at (9, 13)
