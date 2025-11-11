@@ -224,6 +224,16 @@
         "commit_message": "fix: Filter unseen tiles by traversability. The tool was incorrectly identifying impassable tiles like WALLs as reachable unseen targets because it only checked the 'seen' attribute. This commit adds a check to ensure that only unseen tiles with a traversable `type` are included in the final output, resolving the critical failure that caused the player to path into a wall.",
         "timestamp": "2025-11-11T19:21:03.293Z",
         "action_counter": 35831
+      },
+      {
+        "commit_message": "refactor: Add extensive debug logging to diagnose BFS failure. The tool is critically failing to find any reachable unseen tiles despite a clear path being visible. This commit adds detailed print statements to stderr to trace every step of the BFS expansion, which is essential to identify the root cause of the pathfinding logic error.",
+        "timestamp": "2025-11-11T22:16:37.699Z",
+        "action_counter": 36122
+      },
+      {
+        "commit_message": "refactor: Remove all debug logging. The debug print statements were essential for diagnosing the recent pathfinding issue but are no longer needed. This commit removes them to ensure a clean, parseable JSON output is always returned, resolving the critical execution error caused by stderr.",
+        "timestamp": "2025-11-11T22:17:38.124Z",
+        "action_counter": 36124
       }
     ]
   },
