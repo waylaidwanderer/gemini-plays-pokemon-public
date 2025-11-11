@@ -17,7 +17,7 @@
 
 ## Current Status: Blocked - Medicine/SURF Required
 - **Primary Blockers:** I cannot progress in the Olivine Lighthouse without 'special medicine', and I cannot travel to Cianwood City or Mahogany Town without SURF.
-- **Current Plan:** I am currently inside the Tin Tower, attempting to solve the WiseTriosRoom puzzle. My objective is to find a way past the blocking Sage to progress deeper into the tower, which may hold a clue to my larger goals.
+- **New Plan:** The Tin Tower puzzle is currently unsolvable. My new plan is to systematically re-explore all previously visited cities, starting with Goldenrod City, to find new leads that may have appeared after major story events (like the awakening of the legendary beasts).
 
 # My Custom Toolkit: Philosophy & Tools
 
