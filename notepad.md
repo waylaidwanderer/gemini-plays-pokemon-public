@@ -378,7 +378,7 @@
 
 - [x] Warp at (19, 1)
 - [x] GoldenrodCityUndergroundSignNorth at (8, 6)
-- [ ] Warp at (9, 5)
+- [x] Warp at (9, 5)
 - [ ] GoldenrodCityNameRaterSign at (12, 7)
 - [ ] Warp at (15, 7)
 - [ ] Warp at (24, 7)
