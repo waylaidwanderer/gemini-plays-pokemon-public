@@ -42,6 +42,7 @@
 - **`puzzle_solver_assistant` (Agent):** Provides simple hypotheses for puzzles.
 - **`city_exploration_planner` (Agent):** Generates a systematic and efficient exploration plan for a new city.
 - **`dungeon_exploration_planner` (Agent):** Automates exploring complex areas like dungeons.
+- **`dungeon_exploration_planner` (Agent):** Automates exploring complex areas like dungeons.
 
 ## Philosophy & Lessons Learned (Self-Correction)
 - **(Turn 28227):** Trust tool outputs first; verify in-game obstacles before debugging.
