@@ -15,10 +15,11 @@
 
 # Active Quests & Current Hypotheses
 
-## Current Status: Stuck on Route 39
-- **Problem:** My attempts to leave Route 39 via the north and west exits have failed. Both paths are confirmed dead ends from my current accessible area.
-- **New Hypothesis:** Since I cannot leave the route, a progression trigger must exist on this map. Re-investigating the Moomoo Farm is the most logical next step.
-- **Test Plan:** Exit the barn and enter the main farmhouse. Speak to all NPCs to check for new dialogue or events.
+## Current Status: Investigating Moomoo Farm
+- **Problem:** I need to find a way to heal the sick Miltank to potentially unlock progression on Route 39.
+- **Current Hypothesis:** The farmers inside the Moomoo Farmhouse hold the key to solving this puzzle, as they were the source of the quest.
+- **Test Plan:** Speak to both the male and female farmers in the house. The male farmer's dialogue was unchanged. I will now speak to the female farmer.
+  - **Alternative Hypothesis:** If the farmers provide no new info, the solution might be a hidden item on Route 39, requiring the ITEMFINDER.
 
 ## On Hold Quests
 - **Primary Objective (Find HM SURF):** On hold until I can leave Route 39.
