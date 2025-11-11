@@ -17,7 +17,10 @@
 
 ## Current Status: Blocked - Main Quest Progression Halted
 - **Primary Blockers:** I cannot get SURF or the 'special medicine' for the sick Ampharos. All main quest paths are blocked.
-- **Current Plan:** All known main quests are blocked. My current strategy is to systematically re-explore all previously visited cities to find new leads that may have appeared after major story events (like the awakening of the legendary beasts). I am currently re-exploring Goldenrod City.
+- **Current Plan:** My manual exploration is inefficient. I am now acting on the overwatch critique to automate this process.
+  1. **(DONE)** Create `map_object_extractor` tool.
+  2. **(IN PROGRESS)** Define a new `Systematic Explorer` agent that uses `map_object_extractor` and `multi_stop_pathfinder` to automate systematic exploration of any given map.
+  3. Once the agent is built, I will resume my systematic re-exploration of all previously visited cities to find new leads that may have appeared after major story events.
 
 # My Custom Toolkit: Philosophy & Tools
 
@@ -35,21 +38,18 @@
 - **`deterministic_battle_strategist` (Tool):** Provides reliable battle advice.
 - **`find_reachable_unseen_tiles` (Tool):** Finds explorable unseen areas.
 - **`path_and_execute_v3` (Tool):** My primary navigation tool.
-- **`use_hm_cut` (Tool):** Automates using CUT.
 - **`multi_stop_pathfinder` (Tool):** Calculates the most efficient route to visit a list of coordinates.
+- **`map_object_extractor` (Tool):** Extracts all interactable objects from a map.
 - **`quest_progression_advisor` (Agent):** Suggests next story steps when I'm stuck.
 - **`puzzle_solver_assistant` (Agent):** Provides simple hypotheses for puzzles.
 - **`city_exploration_planner` (Agent):** Creates efficient routes for exploring cities.
-
-## Tool/Agent Development Ideas
-- **Systematic City Explorer (Agent):** An agent to automate the planning of re-exploring a city. It would take a city map as input, use a new tool to identify all interactable objects (NPCs, signs, warps), and then use `multi_stop_pathfinder` to generate an optimal route to visit everything.
-- **Map Object Extractor (Tool):** A tool that parses the `map_xml_string` to extract the coordinates and names of all interactable objects (NPCs, signs, items, warps) on the current map. This would be a core component for the Systematic City Explorer agent.
 
 ## Philosophy & Lessons Learned (Self-Correction)
 - **(Turn 28227):** Trust tool outputs first; verify in-game obstacles before debugging.
 - **(Turn 33005):** Rely exclusively on pathfinding tools for navigation.
 - **(Turn 33843):** Use `city_exploration_planner` upon entering any new city.
 - **(Turn 34861 - CRITICAL):** `path_plan` is for coordinate-based overworld movement. `autopress_buttons` is for menu-based button string execution. Confusing them leads to critical tool failures and wasted debugging time.
+- **(Turn 35400 - CRITICAL):** Deferring tool/agent creation is an invalid strategy. I must act immediately on development ideas to improve my capabilities.
 
 # Archive: Log of Blocked Paths, Solved Puzzles & Old Info
 
@@ -283,13 +283,7 @@
 ## Tile Rule Additions
 - **Traversable:** TALL_GRASS (Functions like regular GRASS, but may have different encounter rates).
 
-# Tool Development Ideas
-- **Persistent Navigator:** A tool or agent that can handle multi-map navigation and gracefully recover from interruptions like wild battles.
-
 # Self-Assessment Findings (Turn 34459)
-
-## Tool Development Ideas
-- **Multi-Stop Pathfinder:** A tool that takes a list of coordinates and calculates the most efficient route to visit all of them. This would automate the planning for my systematic NPC sweeps.
 
 ## Untested Assumptions & Alternative Hypotheses
 - **Assumption:** An NPC's dialogue will change after a major story event, providing a new lead.
@@ -300,10 +294,6 @@
   - **Test to Falsify:** After exhausting all leads in Olivine, thoroughly re-explore all of Route 42.
 
 # Self-Assessment Findings (Turn 34511)
-
-## Agent/Tool Development Ideas
-- **Systematic Exploration Agent:** An agent to automate the planning of re-exploring a city. It would take a list of buildings and output an optimal route to visit each one and interact with every NPC inside.
-- **Multi-Stop Pathfinder Tool:** A tool that takes a list of coordinates and calculates the most efficient route to visit all of them. This would be a core component of the exploration agent.
 
 ## Untested Assumptions & Alternative Hypotheses
 - **Assumption:** The solution to my progression block is in a previously visited area.

@@ -153,7 +153,7 @@
   "find_reachable_unseen_tiles": {
     "description": "Parses the map XML to find unseen tiles and runs a robust pathfinding check for each one to determine which are actually reachable from the player's current position. Returns a list of reachable unseen coordinates.",
     "input_schema": {},
-    "python_script": "import sys\nimport json\nimport xml.etree.ElementTree as ET\nfrom collections import deque\n\ndef find_reachable_unseen_tiles(map_xml_string):\n    sys.stderr.write(\"--- Starting find_reachable_unseen_tiles ---\\n\")\n    root = ET.fromstring(map_xml_string)\n    width = int(root.get('width'))\n    height = int(root.get('height'))\n    \n    player_pos = None\n    grid = {}\n    all_unseen_tiles = set()\n    \n    for row_elem in root.findall('Row'):\n        y = int(row_elem.get('id'))\n        for tile_elem in row_elem.findall('Tile'):\n            x = int(tile_elem.get('id'))\n            grid[(x, y)] = tile_elem\n            if tile_elem.find('Player') is not None:\n                player_pos = (x, y)\n            if tile_elem.get('seen') == 'false':\n                all_unseen_tiles.add((x, y))\n\n    if not player_pos:\n        sys.stderr.write(\"ERROR: Player position not found.\\n\")\n        print(json.dumps([]))\n        return\n    sys.stderr.write(f\"Player at: {player_pos}\\n\")\n\n    if not all_unseen_tiles:\n        sys.stderr.write(\"No unseen tiles on this map.\\n\")\n        print(json.dumps([]))\n        return\n\n    impassable_tile_types = {\n        'WALL', 'WATER', 'VOID', 'PC', 'TV', 'COUNTER', 'BOOKSHELF', \n        'TOWN_MAP', 'POKEDEX', 'RADIO', 'PILLAR', 'MART_SHELF', \n        'INCENSE_BURNER', 'CUT_TREE', 'HEADBUTT_TREE'\n    }\n    \n    queue = deque([player_pos])\n    reachable_seen_tiles = {player_pos}\n\n    sys.stderr.write(\"Starting BFS on seen tiles...\\n\")\n    while queue:\n        x, y = queue.popleft()\n        sys.stderr.write(f\"  Processing tile ({x}, {y})\\n\")\n\n        for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n            next_x, next_y = x + dx, y + dy\n            sys.stderr.write(f\"    Checking neighbor ({next_x}, {next_y})... \")\n\n            if not (0 <= next_x < width and 0 <= next_y < height):\n                sys.stderr.write(\"REJECTED: Out of bounds.\\n\")\n                continue\n            if (next_x, next_y) in reachable_seen_tiles:\n                sys.stderr.write(\"REJECTED: Already visited.\\n\")\n                continue\n\n            tile = grid.get((next_x, next_y))\n            if not tile:\n                sys.stderr.write(\"REJECTED: Tile not in grid.\\n\")\n                continue\n            \n            if tile.get('seen') == 'false':\n                sys.stderr.write(\"REJECTED: Tile is unseen.\\n\")\n                continue\n            \n            tile_type = tile.get('type')\n            if tile_type in impassable_tile_types:\n                sys.stderr.write(f\"REJECTED: Impassable type '{tile_type}'.\\n\")\n                continue\n\n            has_object = tile.get('has-object') == 'true' and tile.find('Player') is None\n            if has_object:\n                sys.stderr.write(\"REJECTED: Has an object.\\n\")\n                continue\n            \n            current_tile = grid.get((x,y))\n            if not current_tile: continue\n            current_tile_type = current_tile.get('type')\n            \n            if current_tile_type == 'LEDGE_HOP_DOWN' and dy != 1: continue\n            if current_tile_type == 'LEDGE_HOP_LEFT' and dx != -1: continue\n            if current_tile_type == 'LEDGE_HOP_RIGHT' and dx != 1: continue\n\n            if tile_type == 'LEDGE_HOP_DOWN' and (dy == -1 or dx != 0): continue\n            if tile_type == 'LEDGE_HOP_LEFT' and (dx == 1 or dy != 0): continue\n            if tile_type == 'LEDGE_HOP_RIGHT' and (dx == -1 or dy != 0): continue\n            \n            if tile_type == 'FLOOR_UP_WALL' and dy == 1: continue\n\n            sys.stderr.write(\"ACCEPTED. Adding to queue.\\n\")\n            reachable_seen_tiles.add((next_x, next_y))\n            queue.append((next_x, next_y))\n\n    sys.stderr.write(f\"BFS finished. Size of reachable_seen_tiles: {len(reachable_seen_tiles)}\\n\")\n    \n    reachable_unseen_frontier = set()\n    for x, y in reachable_seen_tiles:\n        for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n            neighbor_x, neighbor_y = x + dx, y + dy\n            if (neighbor_x, neighbor_y) in all_unseen_tiles:\n                reachable_unseen_frontier.add((neighbor_x, neighbor_y))\n\n    sys.stderr.write(f\"Frontier calculated. Size of reachable_unseen_frontier: {len(reachable_unseen_frontier)}\\n\")\n\n    sorted_frontier = sorted(list(reachable_unseen_frontier))\n    \n    print(json.dumps([{'x': x, 'y': y} for x, y in sorted_frontier]))\n\nfind_reachable_unseen_tiles(map_xml_string)",
+    "python_script": "import xml.etree.ElementTree as ET\nimport json\nimport sys\nfrom collections import deque\n\ndef find_unseen():\n    try:\n        root = ET.fromstring(map_xml_string)\n    except ET.ParseError as e:\n        print(json.dumps({\"error\": f\"Error parsing map_xml_string: {e}\"}))\n        return\n\n    map_width = int(root.get('width'))\n    map_height = int(root.get('height'))\n    \n    player_pos = None\n    grid = {}\n    all_unseen_tiles = set()\n\n    for y, row_elem in enumerate(root.findall('Row')):\n        for x, tile_elem in enumerate(row_elem.findall('Tile')):\n            grid[(x, y)] = tile_elem\n            if tile_elem.find('Player') is not None:\n                player_pos = (x, y)\n            if tile_elem.get('seen') == 'false':\n                all_unseen_tiles.add((x, y))\n\n    if not player_pos:\n        print(json.dumps({\"error\": \"Player position not found on the map.\"}))\n        return\n\n    start_x, start_y = player_pos\n\n    impassable_tile_types = {\n        'WALL', 'WATER', 'VOID', 'PC', 'TV', 'COUNTER', 'BOOKSHELF', \n        'TOWN_MAP', 'POKEDEX', 'RADIO', 'PILLAR', 'MART_SHELF', \n        'INCENSE_BURNER', 'CUT_TREE', 'HEADBUTT_TREE', 'unseen'\n    }\n\n    queue = deque([player_pos])\n    reachable_seen_tiles = {player_pos}\n\n    while queue:\n        x, y = queue.popleft()\n\n        for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n            next_x, next_y = x + dx, y + dy\n\n            if not (0 <= next_x < map_width and 0 <= next_y < map_height):\n                continue\n            if (next_x, next_y) in reachable_seen_tiles:\n                continue\n\n            tile = grid.get((next_x, next_y))\n            if tile is None or tile.get('seen') == 'false':\n                continue\n            \n            tile_type = tile.get('type')\n            has_object = tile.get('has-object') == 'true'\n\n            if tile_type in impassable_tile_types or has_object:\n                continue\n\n            current_tile = grid.get((x, y))\n            if current_tile is None: continue\n            current_tile_type = current_tile.get('type')\n\n            if current_tile_type == 'LEDGE_HOP_DOWN' and dy != 1: continue\n            if current_tile_type == 'LEDGE_HOP_LEFT' and dx != -1: continue\n            if current_tile_type == 'LEDGE_HOP_RIGHT' and dx != 1: continue\n            if tile_type == 'LEDGE_HOP_DOWN' and (dy == -1 or dx != 0): continue\n            if tile_type == 'LEDGE_HOP_LEFT' and (dx == 1 or dy != 0): continue\n            if tile_type == 'LEDGE_HOP_RIGHT' and (dx == -1 or dy != 0): continue\n            if tile_type == 'FLOOR_UP_WALL' and dy == 1: continue\n            \n            reachable_seen_tiles.add((next_x, next_y))\n            queue.append((next_x, next_y))\n\n    reachable_unseen_frontier = set()\n    for x, y in reachable_seen_tiles:\n        for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n            nx, ny = x + dx, y + dy\n            if (nx, ny) in all_unseen_tiles:\n                reachable_unseen_frontier.add((nx, ny))\n\n    print(json.dumps([{\"x\": x, \"y\": y} for x, y in sorted(list(reachable_unseen_frontier))]))\n\nfind_unseen()",
     "history": [
       {
         "commit_message": "feat: Create tool to find reachable unseen tiles. This tool automates the analysis of the 'Potentially Reachable Unseen Tiles' alert by parsing the map, identifying unseen tiles adjacent to known traversable areas, and then running a pathfinding check from the player's position to confirm reachability. This resolves a major strategic bottleneck by turning a vague system alert into a concrete list of actionable exploration targets.",
@@ -214,6 +214,11 @@
         "commit_message": "refactor: Add extremely verbose debug logging to BFS. The tool is critically failing to expand its BFS beyond the starting tile. This commit adds detailed print statements to stderr to trace every single neighbor check, including the reason for rejection. This is a last-ditch effort to find the root cause of the persistent pathfinding failure.",
         "timestamp": "2025-11-11T12:47:22.995Z",
         "action_counter": 35302
+      },
+      {
+        "commit_message": "fix: Overhaul pathfinding logic to correctly identify reachable tiles. The previous BFS implementation was critically flawed, failing to expand beyond the starting area and incorrectly reporting valid tiles as 'not in grid'. This commit replaces the faulty logic with a robust BFS adapted from `path_and_execute_v3`. The new logic first maps all reachable *seen* tiles, then identifies any *unseen* tiles that are directly adjacent to this known area. This resolves the persistent exploration failure and ensures the tool provides accurate results.",
+        "timestamp": "2025-11-11T13:18:42.421Z",
+        "action_counter": 35338
       }
     ]
   },
@@ -413,44 +418,6 @@
       }
     ]
   },
-  "use_hm_cut": {
-    "description": "Automates using CUT from the party menu. Takes the Pokémon's party position and the move's slot as arguments.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "pokemon_position": {
-          "type": "string",
-          "description": "The 1-indexed position of the Pokémon in the party (1-6)."
-        },
-        "move_slot": {
-          "type": "string",
-          "description": "The 1-indexed slot of the CUT move (1-4)."
-        }
-      },
-      "required": [
-        "pokemon_position",
-        "move_slot"
-      ]
-    },
-    "python_script": "import json\n\npokemon_position = int(input_data['pokemon_position'])\nmove_slot = int(input_data['move_slot'])\n\nbuttons = [\"Start\", \"sleep 200\", \"Down\", \"sleep 200\", \"A\", \"sleep 500\"]\n\n# Navigate to the correct Pokémon\nfor _ in range(pokemon_position - 1):\n    buttons.extend([\"Down\", \"sleep 200\"])\n\nbuttons.append(\"A\")\nbuttons.append(\"sleep 500\")\n\n# Navigate to the correct move\nfor _ in range(move_slot - 1):\n    buttons.extend([\"Down\", \"sleep 200\"])\n\nbuttons.append(\"A\")\n\nprint(json.dumps(buttons))",
-    "history": [
-      {
-        "commit_message": "feat: Create initial version of use_hm_cut tool. This automates the menu navigation to use the HM CUT, addressing a critical overwatch critique. This version assumes the lead Pokémon has CUT as its second move and will be refined later for more general use.",
-        "timestamp": "2025-11-09T18:42:31.134Z",
-        "action_counter": 31262
-      },
-      {
-        "commit_message": "feat: Create initial version of use_hm_cut tool. This automates the menu navigation to use the HM CUT, addressing a critical overwatch critique. This version assumes the lead Pokémon has CUT as its second move and will be refined later for more general use.",
-        "timestamp": "2025-11-09T19:17:27.637Z",
-        "action_counter": 31321
-      },
-      {
-        "commit_message": "refactor: Parameterize tool to accept Pokémon and move slots. The previous version was hardcoded for the lead Pokémon's second move, making it brittle. This commit adds `pokemon_position` and `move_slot` arguments to make the tool robust and adaptable to changes in party or move order, addressing a critical overwatch critique.",
-        "timestamp": "2025-11-09T19:35:58.497Z",
-        "action_counter": 31351
-      }
-    ]
-  },
   "multi_stop_pathfinder": {
     "description": "Calculates the most efficient route to visit a list of coordinates, starting from the player's current position. It uses the pathfinding logic from path_and_execute_v3 to calculate distances between points.",
     "input_schema": {
@@ -489,6 +456,18 @@
         "commit_message": "feat: Create multi_stop_pathfinder tool. This tool calculates the most efficient route to visit a list of points of interest, using a nearest-neighbor approach based on pathfinding distance. It leverages the robust pathfinding logic from path_and_execute_v3 to handle obstacles and impassable targets. This is a critical step towards automating systematic city exploration.",
         "timestamp": "2025-11-11T09:26:04.505Z",
         "action_counter": 35032
+      }
+    ]
+  },
+  "map_object_extractor": {
+    "description": "Parses the map_xml_string to extract the coordinates and names of all interactable objects (NPCs, signs, items, warps) on the current map.",
+    "input_schema": {},
+    "python_script": "import xml.etree.ElementTree as ET\nimport json\n\ndef extract_objects():\n    try:\n        root = ET.fromstring(map_xml_string)\n    except ET.ParseError as e:\n        print(json.dumps({'error': f'Error parsing map_xml_string: {e}'}))\n        return\n\n    objects = []\n    for row_elem in root.findall('Row'):\n        y = int(row_elem.get('id'))\n        for tile_elem in row_elem.findall('Tile'):\n            x = int(tile_elem.get('id'))\n            \n            # Extract Objects (NPCs, items, signs)\n            for obj_elem in tile_elem.findall('Object'):\n                obj_info = {\"x\": x, \"y\": y}\n                id_name = obj_elem.get('id-name')\n                bg_name = obj_elem.get('name') # For background objects like signs\n                \n                if id_name:\n                    obj_info['name'] = id_name\n                    if 'item' in id_name.lower():\n                        obj_info['type'] = 'item'\n                    else:\n                        obj_info['type'] = 'npc' # Assume it's an NPC if not an item\n                elif bg_name:\n                    obj_info['name'] = bg_name\n                    obj_info['type'] = 'sign' # Background objects are usually signs\n                else:\n                    continue # Skip objects without a clear identifier\n                \n                objects.append(obj_info)\n\n            # Extract Warps\n            if tile_elem.find('Warp') is not None:\n                objects.append({\n                    \"name\": \"Warp\",\n                    \"type\": \"warp\",\n                    \"x\": x,\n                    \"y\": y\n                })\n\n    print(json.dumps({\"extracted_objects\": objects}))\n\nextract_objects()",
+    "history": [
+      {
+        "commit_message": "feat: Create map_object_extractor tool. This tool parses the map XML to identify and list all interactable objects (NPCs, signs, items, warps) and their coordinates. This is a foundational component required for the planned `Route Exploration Planner` agent, addressing a critical overwatch critique to improve exploration efficiency.",
+        "timestamp": "2025-11-11T13:35:49.312Z",
+        "action_counter": 35373
       }
     ]
   }
