@@ -12,7 +12,6 @@
 - **HM Move Permanence:** HM moves cannot be forgotten through normal means.
 - **Item Management Bugs (CRITICAL):** Taking a held item with a full bag destroys it. Tossing items fails. The only safe way to free a slot is to have a Pokémon hold an item.
 - **Evolution via Trade:** Some POKEMON evolve only by being traded: MACHOKE, KADABRA, HAUNTER, and GRAVELER.
-- **Phone List Limit:** The phone list can become full, preventing you from adding new contacts.
 - **Multi-Press Dialogue:** Some NPC dialogues require pressing 'A' multiple times to advance through all the text *before* a choice prompt (like YES/NO) appears. Trying to select an answer before the full text is shown can lead to unintended movement or dialogue loops.
 - **Phone List Limit:** The phone list can become full, preventing you from adding new contacts.
 
