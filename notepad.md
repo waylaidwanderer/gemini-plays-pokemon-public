@@ -334,3 +334,8 @@
 - **Assumption:** The solution is dialogue-based.
   - **Alternative Hypothesis:** The solution is a hidden item that has now appeared somewhere in the world.
   - **Test to Falsify:** If the full NPC sweep of Ecruteak fails, I must perform a full sweep of the city with the ITEMFINDER on every single tile.
+
+# Tin Tower WiseTriosRoom Puzzle Log
+- **Hypothesis 1 (Direct Path):** Walk directly to the warp at (7, 4).
+  - **Result:** Intercepted by Sage at (7, 5), dialogue triggered, and position reset. Attempted twice.
+  - **Conclusion:** Hypothesis is FALSE. A trigger event prevents direct passage.
