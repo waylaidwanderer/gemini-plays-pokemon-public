@@ -308,3 +308,8 @@
 - **Assumption:** An NPC's dialogue is the key to progressing.
   - **Alternative Hypothesis:** The key is a hidden item, and no NPC provides a direct clue.
   - **Test to Falsify:** If the NPC sweep of Olivine and Ecruteak fails, I must perform a full sweep of both cities with the ITEMFINDER on every tile.
+
+# Olivine Lighthouse Puzzle Log (SOLVED - BLOCKED)
+- **Discovery:** The warps at (16, 11) and (17, 11) on 2F share the same destination entry points as the pits at (16, 13) and (17, 13). 
+- **Conclusion:** These are one-way warps leading down to 1F, not a path to higher floors. The Lighthouse is confirmed to be blocked until the 'special medicine' is found elsewhere.
+- **New Plan:** With all leads in Olivine City exhausted, I will travel to Ecruteak City and thoroughly re-explore Route 42 for a path to Mahogany Town.
