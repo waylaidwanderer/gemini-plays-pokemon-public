@@ -15,11 +15,9 @@
 
 # Active Quests & Current Plan
 
-## Current Status: Blocked - Multiple Paths Require External Triggers
+## Current Status: Blocked - Main Quest Progression Halted
 - **Primary Blockers:** I cannot get SURF or the 'special medicine' for the sick Ampharos. All main quest paths are blocked.
-- **Radio Tower (BLOCKED):** Progression past the 2F is blocked by a scripted event that prevents use of the stairs.
-- **Tin Tower (BLOCKED):** A Sage blocks entry, stating I should not enter now that the legendary beasts are awakened.
-- **Current Plan:** All known quests are blocked. My new plan is to systematically re-explore all previously visited cities to find new leads that may have appeared after major story events (like the awakening of the legendary beasts). I will begin with Goldenrod City.
+- **Current Plan:** All known main quests are blocked. My current strategy is to systematically re-explore all previously visited cities to find new leads that may have appeared after major story events (like the awakening of the legendary beasts). I am currently re-exploring Goldenrod City.
 
 # My Custom Toolkit: Philosophy & Tools
 
@@ -44,8 +42,8 @@
 - **`city_exploration_planner` (Agent):** Creates efficient routes for exploring cities.
 
 ## Tool/Agent Development Ideas
-- **Systematic City Explorer (Agent):** An agent to automate the planning of re-exploring a city. It would take a city map as input and generate an optimal route to visit every building and interact with every NPC inside.
-- **Multi-Stop Pathfinder (Tool):** A tool that takes a list of coordinates and calculates the most efficient route to visit all of them. This would be a core component of the exploration agent.
+- **Systematic City Explorer (Agent):** An agent to automate the planning of re-exploring a city. It would take a city map as input, use a new tool to identify all interactable objects (NPCs, signs, warps), and then use `multi_stop_pathfinder` to generate an optimal route to visit everything.
+- **Map Object Extractor (Tool):** A tool that parses the `map_xml_string` to extract the coordinates and names of all interactable objects (NPCs, signs, items, warps) on the current map. This would be a core component for the Systematic City Explorer agent.
 
 ## Philosophy & Lessons Learned (Self-Correction)
 - **(Turn 28227):** Trust tool outputs first; verify in-game obstacles before debugging.
@@ -285,7 +283,7 @@
 ## Tile Rule Additions
 - **Traversable:** TALL_GRASS (Functions like regular GRASS, but may have different encounter rates).
 
-## Tool Development Ideas
+# Tool Development Ideas
 - **Persistent Navigator:** A tool or agent that can handle multi-map navigation and gracefully recover from interruptions like wild battles.
 
 # Self-Assessment Findings (Turn 34459)
@@ -375,4 +373,4 @@
   - **Conclusion:** Hypothesis is FALSE.
 
 # Radio Tower Clues
-- A Teacher on 2F mentioned that lullabies on the radio may make POKéMON sleep.
+- A Teacher on 2F mentioned that lullabies on the radio may make POKéMON sleep.</details>
