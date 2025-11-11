@@ -7,6 +7,9 @@
 - **One-Way (Ledges):** LEDGE_HOP_DOWN, LEDGE_HOP_LEFT, LEDGE_HOP_RIGHT, FLOOR_UP_WALL.
 - **Warps:** CAVE, DOOR, LADDER, PIT, WARP_CARPET, WARP_CARPET_UP, WARP_CARPET_DOWN, WARP_CARPET_LEFT, WARP_CARPET_RIGHT.
 
+## Battle Mechanics & Tips
+- **DEFENSE CURL + ROLLOUT:** Using DEFENSE CURL significantly increases the power of ROLLOUT.
+
 ## Confirmed Mechanics
 - **Respawning Obstacles:** HM-cleared obstacles (like CUT_TREE) respawn upon re-entering a map.
 - **HM Move Permanence:** HM moves cannot be forgotten through normal means.
@@ -39,7 +42,6 @@
 - **`deterministic_battle_strategist` (Tool):** Provides reliable battle advice.
 - **`find_reachable_unseen_tiles` (Tool):** Finds explorable unseen areas.
 - **`path_and_execute_v3` (Tool):** My primary navigation tool.
-- **`multi_stop_pathfinder` (Tool):** Calculates the most efficient route to visit a list of coordinates.
 - **`map_object_extractor` (Tool):** Extracts all interactable objects from a map.
 - **`quest_progression_advisor` (Agent):** Suggests next story steps when I'm stuck.
 - **`puzzle_solver_assistant` (Agent):** Provides simple hypotheses for puzzles.
