@@ -421,3 +421,6 @@
 - [ ] OlivineLighthouseSign at (30, 28)
 
 </details>
+
+# Special Dialogue Mechanics
+- **Multi-Press Dialogue:** Some NPC dialogues require pressing 'A' multiple times to advance through all the text *before* a choice prompt (like YES/NO) appears. Trying to select an answer before the full text is shown can lead to unintended movement or dialogue loops.
