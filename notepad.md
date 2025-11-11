@@ -17,7 +17,7 @@
 
 ## Current Status: Blocked - Main Quest Progression Halted
 - **Primary Blockers:** I cannot get SURF or the 'special medicine' for the sick Ampharos. All main quest paths are blocked.
-- **Current Plan:** I have now created my `Systematic Explorer` and `Route Exploration Planner` agents to automate exploration. My `city_exploration_planner` agent is currently failing due to server issues, so I will use my `multi_stop_pathfinder` tool as a backup. I will now begin a systematic exploration of Goldenrod City to find new leads.
+- **Current Plan:** With my main quests stalled, I will begin a systematic exploration of Goldenrod City to find new leads. I will use my `multi_stop_pathfinder` tool to generate an efficient route to visit all points of interest.
 
 # My Custom Toolkit: Philosophy & Tools
 
