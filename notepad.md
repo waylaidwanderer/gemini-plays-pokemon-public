@@ -23,7 +23,7 @@
 ## Current Status: Blocked - Main Quest Progression Halted
 - **Primary Blockers:** I cannot get SURF or the 'special medicine' for the sick Ampharos. All main quest paths are blocked.
 - **Strongest Lead:** A Teacher in the Olivine Pokémon Center mentioned a person in Cianwood City with a rare Pokémon. This strongly implies the 'special medicine' is in Cianwood, which requires SURF to reach.
-- **Current Plan:** Systematically re-explore all accessible areas to find a new lead, an overlooked NPC, or a hidden item that could lead to SURF. I am currently executing a systematic exploration plan for Olivine City.
+- **Current Plan:** Systematically explore the Olivine Lighthouse to find a way to the top.
 
 # My Custom Toolkit: Philosophy & Tools
 
@@ -35,7 +35,6 @@
 - **`define_agent` / `delete_agent`:** Manages custom agents.
 - **`define_tool` / `delete_tool`:** Manages custom tools.
 - **`select_battle_option`:** Selects main battle menu options.
-- **`delete_tool`:** Deletes a custom tool.
 
 ### Custom Tools & Agents
 - **`stun_npc` (Tool):** Freezes/unfreezes a moving NPC.
@@ -43,6 +42,7 @@
 - **`find_reachable_unseen_tiles` (Tool):** Finds explorable unseen areas.
 - **`path_and_execute_v3` (Tool):** My primary navigation tool.
 - **`map_object_extractor` (Tool):** Extracts all interactable objects from a map.
+- **`dungeon_floor_planner` (Tool):** Systematically plans exploration of dungeon floors.
 - **`quest_progression_advisor` (Agent):** Suggests next story steps when I'm stuck.
 - **`puzzle_solver_assistant` (Agent):** Provides simple hypotheses for puzzles.
 - **`city_exploration_planner` (Agent):** Generates a systematic and efficient exploration plan for a new city.
