@@ -330,3 +330,6 @@
   - **Conclusion:** Hypothesis is FALSE.
 - **Hypothesis 4 (Direct Interaction with Blocker):** Approaching the blocking Sage at (7, 5) from a non-trigger tile and initiating dialogue will yield a different result.
   - **Test Plan:** Move to (6, 5), face the Sage, and press 'A'.
+- **Hypothesis 4 (Direct Interaction with Blocker):** Approaching the blocking Sage at (7, 5) from a non-trigger tile and initiating dialogue will yield a different result.
+  - **Result:** The Sage provided lore dialogue but did not move, and his position was unchanged.
+  - **Conclusion:** Hypothesis is FALSE.
