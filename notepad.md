@@ -340,3 +340,4 @@
 - **Hypothesis 7 (Three-Sage Sequence):** Interacting with all three Sages in a specific sequence ((6, 2) -> (5, 7) -> (7, 5)) will unblock the path.
   - **Test (Step 1):** Interacted with Sage at (6, 2). Result: Lore dialogue, no change.
   - **Test (Step 2):** Interacted with Sage at (5, 7). Result: Lore dialogue, no change.
+  - **Test (Step 2):** Interacted with Sage at (5, 7). Result: Lore dialogue, no change.
