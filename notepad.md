@@ -393,3 +393,6 @@
   - **Test (Step 2):** Interacted with Sage at (7, 7). Result: Lore dialogue, no change.
   - **Test (Step 3):** Interacted with blocking Sage at (7, 5). Result: Lore dialogue, no change.
   - **Conclusion:** Hypothesis is FALSE.
+
+# Radio Tower Clues
+- A Teacher on 2F mentioned that lullabies on the radio may make POKéMON sleep.
