@@ -13,12 +13,14 @@
 - **Item Management Bugs (CRITICAL):** Taking a held item with a full bag destroys it. Tossing items fails. The only safe way to free a slot is to have a Pokémon hold an item.
 - **Evolution via Trade:** Some POKEMON evolve only by being traded: MACHOKE, KADABRA, HAUNTER, and GRAVELER.
 - **Phone List Limit:** The phone list can become full, preventing you from adding new contacts.
+- **Multi-Press Dialogue:** Some NPC dialogues require pressing 'A' multiple times to advance through all the text *before* a choice prompt (like YES/NO) appears. Trying to select an answer before the full text is shown can lead to unintended movement or dialogue loops.
 
 # Active Quests & Current Plan
 
 ## Current Status: Blocked - Main Quest Progression Halted
 - **Primary Blockers:** I cannot get SURF or the 'special medicine' for the sick Ampharos. All main quest paths are blocked.
-- **Current Plan:** Lass DANA called with a gift on Route 38. This is a strong lead, so I am pausing my Goldenrod City exploration to travel there immediately.
+- **Strongest Lead:** A Teacher in the Olivine Pokémon Center mentioned a person in Cianwood City with a rare Pokémon. This strongly implies the 'special medicine' is in Cianwood, which requires SURF to reach.
+- **Current Plan:** Systematically re-explore all accessible areas to find a new lead, an overlooked NPC, or a hidden item that could lead to SURF. I am currently executing a systematic exploration plan for Olivine City.
 
 # My Custom Toolkit: Philosophy & Tools
 
@@ -408,11 +410,11 @@
 - [x] Warp at (25, 11)
 - [x] Warp at (29, 11)
 - [x] Warp at (13, 15)
-- [ ] Warp at (19, 17)
-- [ ] OlivineCityMartSign at (20, 17)
-- [ ] Warp at (7, 21)
-- [ ] Warp at (13, 21)
-- [ ] OlivineCityPokecenterSign at (14, 21)
+- [x] Warp at (19, 17)
+- [x] OlivineCityMartSign at (20, 17)
+- [x] Warp at (7, 21)
+- [x] Warp at (13, 21)
+- [x] OlivineCityPokecenterSign at (14, 21)
 - [ ] OlivineCityBattleTowerSign at (3, 23)
 - [ ] OlivineCityPortSign at (20, 24)
 - [ ] Warp at (19, 27)
@@ -421,6 +423,3 @@
 - [ ] OlivineLighthouseSign at (30, 28)
 
 </details>
-
-# Special Dialogue Mechanics
-- **Multi-Press Dialogue:** Some NPC dialogues require pressing 'A' multiple times to advance through all the text *before* a choice prompt (like YES/NO) appears. Trying to select an answer before the full text is shown can lead to unintended movement or dialogue loops.
