@@ -421,7 +421,7 @@
 
 - [x] OlivineGymSign at (7, 11)
 - [x] Warp at (10, 11)
-- [ ] OlivineCitySign at (17, 11)
+- [x] OlivineCitySign at (17, 11)
 - [ ] Warp at (25, 11)
 - [ ] Warp at (29, 11)
 - [ ] Warp at (13, 15)
