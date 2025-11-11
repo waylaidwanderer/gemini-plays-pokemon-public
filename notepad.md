@@ -381,7 +381,7 @@
 - [x] Warp at (9, 5)
 - [x] GoldenrodCityNameRaterSign at (12, 7)
 - [x] Warp at (15, 7)
-- [ ] Warp at (24, 7)
+- [x] Warp at (24, 7)
 - [ ] Warp at (29, 5)
 - [ ] GoldenrodCityFlowerShopSign at (30, 6)
 - [ ] Warp at (33, 9)
