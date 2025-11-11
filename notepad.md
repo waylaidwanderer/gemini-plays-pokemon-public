@@ -388,7 +388,7 @@
 - [x] Warp at (9, 13)
 - [x] GoldenrodCityStationSign at (10, 14)
 - [x] GoldenrodCitySign at (22, 18)
-- [ ] GoldenrodCityRadioTowerSign at (4, 17)
+- [x] GoldenrodCityRadioTowerSign at (4, 17)
 - [ ] Warp at (14, 21)
 - [ ] GoldenrodCityGameCornerSign at (16, 22)
 - [ ] Warp at (31, 21)
