@@ -423,7 +423,7 @@
 - [x] Warp at (10, 11)
 - [x] OlivineCitySign at (17, 11)
 - [x] Warp at (25, 11)
-- [ ] Warp at (29, 11)
+- [x] Warp at (29, 11)
 - [ ] Warp at (13, 15)
 - [ ] Warp at (19, 17)
 - [ ] OlivineCityMartSign at (20, 17)
