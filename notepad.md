@@ -325,6 +325,8 @@
 - **Hypothesis 2 (Interact with Sage 1):** Interacting with the Sage at (6, 2) will unblock the path.
   - **Result:** The Sage provided lore dialogue but did not move, and the blocking Sage's position was unchanged.
   - **Conclusion:** Hypothesis is FALSE.
+  - **Result:** The Sage provided lore dialogue but did not move, and the blocking Sage's position was unchanged.
+  - **Conclusion:** Hypothesis is FALSE.
 - **Hypothesis 3 (Interact with Sage 2):** Interacting with the Sage at (7, 7) will unblock the path.
   - **Result:** The Sage provided lore dialogue but did not move, and the blocking Sage's position was unchanged.
   - **Conclusion:** Hypothesis is FALSE.
