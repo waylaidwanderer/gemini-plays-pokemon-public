@@ -342,3 +342,5 @@
   - **Conclusion:** Hypothesis is FALSE.
   - **Test (Step 2):** Interacted with Sage at (5, 7). Result: Lore dialogue, no change.
   - **Test (Step 2):** Interacted with Sage at (5, 7). Result: Lore dialogue, no change.
+- **Hypothesis 8 (Line of Sight):** The non-blocking Sages act as spotters. Walking in front of them triggers the reset. The solution is to find a path that goes behind them.
+  - **Test Plan:** From (5, 4), navigate to (5, 1), then to (7, 1), and finally down to the warp at (7, 4).
