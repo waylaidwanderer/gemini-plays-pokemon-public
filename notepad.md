@@ -368,3 +368,6 @@
 - **Phone List Limit:** The phone list can become full, preventing you from adding new contacts.
 - **Route Exploration Planner (Agent):** An agent to automate planning the exploration of outdoor routes. It would take a map as input, use `map_object_extractor` to identify all trainers and points of interest, and then use `multi_stop_pathfinder` to generate an optimal route to visit everything.
 - **Map Object Extractor (Tool):** A tool that parses the `map_xml_string` to extract the coordinates and names of all interactable objects (NPCs, signs, items, warps) on the current map. This would be a core component for the Route Exploration Planner and Systematic City Explorer agents.
+
+# Goldenrod City Notes
+- Todd called (Turn 35401) to announce a bargain sale at the Goldenrod Dept. Store is happening now.
