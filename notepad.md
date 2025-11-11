@@ -33,6 +33,7 @@
 - **`define_agent` / `delete_agent`:** Manages custom agents.
 - **`define_tool` / `delete_tool`:** Manages custom tools.
 - **`select_battle_option`:** Selects main battle menu options.
+- **`delete_tool`:** Deletes a custom tool.
 
 ### Custom Tools & Agents
 - **`stun_npc` (Tool):** Freezes/unfreezes a moving NPC.
