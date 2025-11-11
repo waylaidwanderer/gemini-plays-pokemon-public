@@ -15,9 +15,11 @@
 
 # Active Quests & Current Plan
 
-## Current Status: Blocked - Medicine/SURF Required
-- **Primary Blockers:** I cannot progress in the Olivine Lighthouse without 'special medicine', and I cannot travel to Cianwood City or Mahogany Town without SURF.
-- **New Plan:** The Tin Tower puzzle is currently unsolvable. My new plan is to systematically re-explore all previously visited cities, starting with Goldenrod City, to find new leads that may have appeared after major story events (like the awakening of the legendary beasts).
+## Current Status: Blocked - Multiple Paths Require External Triggers
+- **Primary Blockers:** I cannot get SURF or the 'special medicine' for the sick Ampharos. All main quest paths are blocked.
+- **Radio Tower (BLOCKED):** Progression past the 2F is blocked by a scripted event that prevents use of the stairs.
+- **Tin Tower (BLOCKED):** A Sage blocks entry, stating I should not enter now that the legendary beasts are awakened.
+- **Current Plan:** All known quests are blocked. My new plan is to systematically re-explore all previously visited cities to find new leads that may have appeared after major story events (like the awakening of the legendary beasts). I will begin with Goldenrod City.
 
 # My Custom Toolkit: Philosophy & Tools
 
