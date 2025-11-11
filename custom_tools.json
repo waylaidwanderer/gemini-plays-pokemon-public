@@ -410,7 +410,7 @@
         "move_slot"
       ]
     },
-    "python_script": "import json\n\npokemon_pos = int(input_data['pokemon_position'])\nmove_slt = int(input_data['move_slot'])\n\n# Open menu, navigate DOWN to POKEMON, then select\nbuttons = [\"Start\", \"Down\", \"A\"]\n\n# Navigate to the correct Pokemon\nif pokemon_pos > 1:\n    buttons.extend([\"Down\"] * (pokemon_pos - 1))\n\nbuttons.append(\"A\") # Select the Pokemon\n\n# Navigate to the correct move\nif move_slt > 1:\n    buttons.extend([\"Down\"] * (move_slt - 1))\n\nbuttons.append(\"A\") # Select the move\n\nprint(json.dumps(buttons))",
+    "python_script": "import json\n\npokemon_position = int(input_data['pokemon_position'])\nmove_slot = int(input_data['move_slot'])\n\nbuttons = ['B', 'B', 'B', 'Start', 'Down', 'A']\n\n# Navigate to the correct pokemon\nfor _ in range(pokemon_position - 1):\n    buttons.append('Down')\nbuttons.append('A')\n\n# Navigate to MOVE\nbuttons.extend(['Down', 'Down', 'Down', 'A'])\n\n# Navigate to the correct move\nfor _ in range(move_slot - 1):\n    buttons.append('Down')\nbuttons.append('A')\n\nprint(json.dumps(buttons))",
     "history": [
       {
         "commit_message": "feat: Create use_headbutt tool. This automates the menu navigation to use the move HEADBUTT on trees, a potentially recurring action. This replaces manual menuing for greater efficiency.",
@@ -421,6 +421,16 @@
         "commit_message": "fix: Correct menu navigation logic. The tool was incorrectly assuming 'POKéMON' is the first option in the start menu, when it is the second. This commit adds a 'Down' press after 'Start' to correctly navigate to and select the 'POKéMON' menu, resolving the critical failure where the tool would open the Pokédex instead.",
         "timestamp": "2025-11-10T23:38:47.040Z",
         "action_counter": 34145
+      },
+      {
+        "commit_message": "fix: Correct menu navigation to select MOVE. The tool was failing because it did not navigate the sub-menu after selecting a Pokémon. This commit adds three 'Down' presses to correctly move the cursor from 'STATS' to 'MOVE', resolving the critical failure where the tool would attempt to use an item instead.",
+        "timestamp": "2025-11-10T23:53:17.788Z",
+        "action_counter": 34173
+      },
+      {
+        "commit_message": "fix: Add menu reset sequence. The tool was failing when called from within a menu. This commit adds a series of 'B' presses at the start of the sequence to ensure the game returns to the overworld before proceeding, resolving the critical failure and making the tool more robust.",
+        "timestamp": "2025-11-10T23:55:19.521Z",
+        "action_counter": 34177
       }
     ]
   }
