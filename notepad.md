@@ -333,3 +333,4 @@
 - **Hypothesis 4 (Direct Interaction with Blocker):** Approaching the blocking Sage at (7, 5) from a non-trigger tile and initiating dialogue will yield a different result.
   - **Result:** The Sage provided lore dialogue but did not move, and his position was unchanged.
   - **Conclusion:** Hypothesis is FALSE.
+- **Hypothesis 5 (Sage Sequence 1):** Interacting with the non-blocking Sages in a specific sequence (first (6, 2), then (7, 7)) will unblock the path.
