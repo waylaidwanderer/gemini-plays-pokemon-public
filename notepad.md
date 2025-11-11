@@ -374,12 +374,3 @@
 
 # Radio Tower Clues
 - A Teacher on 2F mentioned that lullabies on the radio may make POKéMON sleep.</details>
-
-# Self-Correction & Strategy Updates (Turn 35187)
-
-## Philosophy & Lessons Learned
-- **(Turn 35187 - CRITICAL):** I must maintain a perfect, up-to-the-second internal state. Deferring actions or planning based on a hallucinated location is a critical failure. I must verify my location before every major action.
-
-## Tool/Agent Development Ideas
-- **Systematic City Explorer (Agent):** An agent to automate the planning of re-exploring a city. It would take a city map as input, use a new tool to identify all interactable objects (NPCs, signs, warps), and then use `multi_stop_pathfinder` to generate an optimal route to visit everything.
-- **Map Object Extractor (Tool):** A tool that parses the `map_xml_string` to extract the coordinates and names of all interactable objects (NPCs, signs, items, warps) on the current map. This would be a core component for the Systematic City Explorer agent.
