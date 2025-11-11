@@ -386,7 +386,7 @@
 - [x] Warp at (33, 9)
 - [x] GoldenrodGymSign at (26, 9)
 - [x] Warp at (5, 15) (Blocked by Rocket)
-- [ ] Warp at (9, 13)
+- [x] Warp at (9, 13)
 - [ ] GoldenrodCityStationSign at (10, 14)
 - [ ] GoldenrodCitySign at (22, 18)
 - [ ] GoldenrodCityRadioTowerSign at (4, 17)
