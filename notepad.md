@@ -281,3 +281,16 @@
 
 ## Tool Development Ideas
 - **Persistent Navigator:** A tool or agent that can handle multi-map navigation and gracefully recover from interruptions like wild battles.
+
+# Self-Assessment Findings (Turn 34459)
+
+## Tool Development Ideas
+- **Multi-Stop Pathfinder:** A tool that takes a list of coordinates and calculates the most efficient route to visit all of them. This would automate the planning for my systematic NPC sweeps.
+
+## Untested Assumptions & Alternative Hypotheses
+- **Assumption:** An NPC's dialogue will change after a major story event, providing a new lead.
+  - **Alternative Hypothesis:** The trigger for progression is a hidden item, not new dialogue. 
+  - **Test to Falsify:** If the NPC sweep of Olivine City fails, use the ITEMFINDER on every tile of the city.
+- **Assumption:** The path to Mahogany Town via Route 42 is completely blocked by water.
+  - **Alternative Hypothesis:** There is a path around the water on Route 42 that I missed.
+  - **Test to Falsify:** After exhausting all leads in Olivine, thoroughly re-explore all of Route 42.
