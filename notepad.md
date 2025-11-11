@@ -337,8 +337,8 @@
 - **Hypothesis 6 (Sage Sequence 2):** Interacting with the non-blocking Sages in a specific sequence (first (5, 7), then (6, 2)) will unblock the path.
   - **Result:** Interacted with Sage at (5, 7), then Sage at (6, 2). Both provided only lore dialogue. The blocking Sage at (7, 5) did not move.
   - **Conclusion:** Hypothesis is FALSE.
-- **Hypothesis 7 (Three-Sage Sequence):** Interacting with all three Sages in a specific sequence ((6, 2) -> (5, 7) -> (7, 5)) will unblock the path.
-  - **Test (Step 1):** Interacted with Sage at (6, 2). Result: Lore dialogue, no change.
-  - **Test (Step 2):** Interacted with Sage at (5, 7). Result: Lore dialogue, no change.
+- **Hypothesis 7 (Three-Sage Sequence - Walk Past):** Interacting with Sages at (6, 2) then (5, 7) would allow me to walk past the blocking Sage.
+  - **Result:** After interacting with the two Sages, attempting to walk to the warp still triggered the interception event and reset my position.
+  - **Conclusion:** Hypothesis is FALSE.
   - **Test (Step 2):** Interacted with Sage at (5, 7). Result: Lore dialogue, no change.
   - **Test (Step 2):** Interacted with Sage at (5, 7). Result: Lore dialogue, no change.
