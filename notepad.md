@@ -17,10 +17,7 @@
 
 ## Current Status: Blocked - Main Quest Progression Halted
 - **Primary Blockers:** I cannot get SURF or the 'special medicine' for the sick Ampharos. All main quest paths are blocked.
-- **Current Plan:** My manual exploration is inefficient. I am now acting on the overwatch critique to automate this process.
-  1. **(DONE)** Create `map_object_extractor` tool.
-  2. **(IN PROGRESS)** Define a new `Systematic Explorer` agent that uses `map_object_extractor` and `multi_stop_pathfinder` to automate systematic exploration of any given map.
-  3. Once the agent is built, I will resume my systematic re-exploration of all previously visited cities to find new leads that may have appeared after major story events.
+- **Current Plan:** I have now created my `Systematic Explorer` and `Route Exploration Planner` agents to automate exploration. My `city_exploration_planner` agent is currently failing due to server issues, so I will use my `multi_stop_pathfinder` tool as a backup. I will now begin a systematic exploration of Goldenrod City to find new leads.
 
 # My Custom Toolkit: Philosophy & Tools
 
