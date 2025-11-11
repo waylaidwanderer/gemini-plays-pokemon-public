@@ -38,7 +38,7 @@
 - **`find_reachable_unseen_tiles` (Tool):** Finds explorable unseen areas.
 - **`path_and_execute_v3` (Tool):** My primary navigation tool.
 - **`use_hm_cut` (Tool):** Automates using CUT.
-- **`use_headbutt` (Tool):** Automates using HEADBUTT.
+- **`multi_stop_pathfinder` (Tool):** Calculates the most efficient route to visit a list of coordinates.
 - **`quest_progression_advisor` (Agent):** Suggests next story steps when I'm stuck.
 - **`puzzle_solver_assistant` (Agent):** Provides simple hypotheses for puzzles.
 - **`city_exploration_planner` (Agent):** Creates efficient routes for exploring cities.
