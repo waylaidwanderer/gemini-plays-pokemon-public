@@ -370,6 +370,16 @@
         "commit_message": "fix: Add 'unseen' to impassable tiles. The tool was generating invalid paths to and through unseen tiles because it did not treat them as impassable. This commit adds 'unseen' to the `impassable_tile_types` set, resolving the critical navigation failure and ensuring the tool's adjacent-tile logic works correctly for exploration.",
         "timestamp": "2025-11-11T04:13:15.936Z",
         "action_counter": 34608
+      },
+      {
+        "commit_message": "refactor: Add extensive debug logging to diagnose pathing failure. The tool is repeatedly failing to identify the correct player starting position, leading to invalid paths. This commit re-adds detailed print statements to trace the player position discovery logic and the final start coordinates used by the pathfinder. This is a critical step to diagnose and resolve the root cause of the persistent navigation failures.",
+        "timestamp": "2025-11-11T04:33:02.122Z",
+        "action_counter": 34638
+      },
+      {
+        "commit_message": "refactor: Remove debug logging. The pathfinding logic has been validated, and the debug prints have served their purpose in identifying and fixing the player position bug. The extensive print statements are no longer necessary and have been removed to clean up the tool's output.",
+        "timestamp": "2025-11-11T04:34:00.224Z",
+        "action_counter": 34640
       }
     ]
   },
