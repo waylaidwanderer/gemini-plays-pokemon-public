@@ -325,13 +325,9 @@
 - **Hypothesis 2 (Interact with Sage 1):** Interacting with the Sage at (6, 2) will unblock the path.
   - **Result:** The Sage provided lore dialogue but did not move, and the blocking Sage's position was unchanged.
   - **Conclusion:** Hypothesis is FALSE.
-  - **Result:** The Sage provided lore dialogue but did not move, and the blocking Sage's position was unchanged.
-  - **Conclusion:** Hypothesis is FALSE.
 - **Hypothesis 3 (Interact with Sage 2):** Interacting with the Sage at (7, 7) will unblock the path.
   - **Result:** The Sage provided lore dialogue but did not move, and the blocking Sage's position was unchanged.
   - **Conclusion:** Hypothesis is FALSE.
-- **Hypothesis 4 (Direct Interaction with Blocker):** Approaching the blocking Sage at (7, 5) from a non-trigger tile and initiating dialogue will yield a different result.
-  - **Test Plan:** Move to (6, 5), face the Sage, and press 'A'.
 - **Hypothesis 4 (Direct Interaction with Blocker):** Approaching the blocking Sage at (7, 5) from a non-trigger tile and initiating dialogue will yield a different result.
   - **Result:** The Sage provided lore dialogue but did not move, and his position was unchanged.
   - **Conclusion:** Hypothesis is FALSE.
@@ -342,3 +338,5 @@
   - **Result:** Interacted with Sage at (5, 7), then Sage at (6, 2). Both provided only lore dialogue. The blocking Sage at (7, 5) did not move.
   - **Conclusion:** Hypothesis is FALSE.
 - **Hypothesis 7 (Three-Sage Sequence):** Interacting with all three Sages in a specific sequence ((6, 2) -> (5, 7) -> (7, 5)) will unblock the path.
+  - **Test (Step 1):** Interacted with Sage at (6, 2). Result: Lore dialogue, no change.
+  - **Test (Step 2):** Interacted with Sage at (5, 7). Result: Lore dialogue, no change.
