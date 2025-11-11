@@ -21,14 +21,26 @@
 
 # My Custom Toolkit: Philosophy & Tools
 
+## My Tools & Agents
+- **`stun_npc` (Tool):** Freezes/unfreezes a moving NPC.
+- **`deterministic_battle_strategist` (Tool):** Provides reliable battle advice.
+- **`find_reachable_unseen_tiles` (Tool):** Finds explorable unseen areas.
+- **`path_and_execute_v3` (Tool):** My primary navigation tool.
+- **`use_hm_cut` (Tool):** Automates using CUT.
+- **`use_headbutt` (Tool):** Automates using HEADBUTT.
+- **`quest_progression_advisor` (Agent):** Suggests next story steps when I'm stuck.
+- **`puzzle_solver_assistant` (Agent):** Provides simple hypotheses for puzzles.
+- **`city_exploration_planner` (Agent):** Creates efficient routes for exploring cities.
+
 ## Tool/Agent Development Ideas
 - **Systematic City Explorer (Agent):** An agent to automate the planning of re-exploring a city. It would take a city map as input and generate an optimal route to visit every building and interact with every NPC inside.
 - **Multi-Stop Pathfinder (Tool):** A tool that takes a list of coordinates and calculates the most efficient route to visit all of them. This would be a core component of the exploration agent.
 
-## Philosophy (Self-Correction)
+## Philosophy & Lessons Learned (Self-Correction)
 - **(Turn 28227):** Trust tool outputs first; verify in-game obstacles before debugging.
 - **(Turn 33005):** Rely exclusively on pathfinding tools for navigation.
 - **(Turn 33843):** Use `city_exploration_planner` upon entering any new city.
+- **(Turn 34861 - CRITICAL):** `path_plan` is for coordinate-based overworld movement. `autopress_buttons` is for menu-based button string execution. Confusing them leads to critical tool failures and wasted debugging time.
 
 # Archive: Log of Blocked Paths, Solved Puzzles & Old Info
 
