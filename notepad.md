@@ -30,11 +30,6 @@
 - **(Turn 33005):** Rely exclusively on pathfinding tools for navigation.
 - **(Turn 33843):** Use `city_exploration_planner` upon entering any new city.
 
-## My Full Toolkit
-- **Built-in:** `run_code`, `define_map_marker`, `delete_map_marker`, `notepad_edit`, `stun_npc`, `select_battle_option`, `define_tool`, `delete_tool`, `define_agent`, `delete_agent`.
-- **Custom Tools:** `deterministic_battle_strategist`, `find_reachable_unseen_tiles`, `path_and_execute_v3`, `use_hm_cut`, `use_headbutt`.
-- **Custom Agents:** `quest_progression_advisor`, `puzzle_solver_assistant`, `city_exploration_planner`.
-
 # Archive: Log of Blocked Paths, Solved Puzzles & Old Info
 
 <details>
@@ -301,3 +296,13 @@
 - **Discovery:** The warps at (16, 11) and (17, 11) on 2F share the same destination entry points as the pits at (16, 13) and (17, 13). 
 - **Conclusion:** These are one-way warps leading down to 1F, not a path to higher floors. The Lighthouse is confirmed to be blocked until the 'special medicine' is found elsewhere.
 - **New Plan:** With all leads in Olivine City exhausted, I will travel to Ecruteak City and thoroughly re-explore Route 42 for a path to Mahogany Town.
+
+# Self-Assessment Findings (Turn 34614)
+
+## Untested Assumptions & Alternative Hypotheses
+- **Assumption:** The path to Mahogany Town is via Route 42.
+  - **Alternative Hypothesis:** Route 42 is a complete dead end without SURF, and the actual path forward is hidden somewhere I've already been (e.g., an NPC's dialogue changed after a major event, and I need to re-talk to everyone).
+  - **Test to Falsify:** If my full exploration of Route 42 (all reachable land paths) leads to a dead end, I must begin a systematic re-sweep of all previously visited cities, starting with Ecruteak and Olivine, talking to every single NPC again.
+- **Assumption:** The 'special medicine' for the Ampharos is a key item I will find.
+  - **Alternative Hypothesis:** The 'medicine' is not an item, but a person or an event. For example, a doctor NPC might need to be escorted to the lighthouse.
+  - **Test to Falsify:** This is harder to test directly. However, if I find the HM for FLY before finding a 'medicine' item, it would lend weight to the idea that I need to fly someone to Olivine City.
