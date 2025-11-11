@@ -30,6 +30,17 @@
 - **`define_tool` / `delete_tool`:** Manages custom tools.
 - **`select_battle_option`:** Selects main battle menu options.
 
+# My Custom Toolkit: Philosophy & Tools
+
+## My Tools & Agents
+### Built-in Tools
+- **`notepad_edit`:** Edits my persistent notepad.
+- **`run_code`:** Executes single-use Python scripts.
+- **`define_map_marker` / `delete_map_marker`:** Manages map markers.
+- **`define_agent` / `delete_agent`:** Manages custom agents.
+- **`define_tool` / `delete_tool`:** Manages custom tools.
+- **`select_battle_option`:** Selects main battle menu options.
+
 ### Custom Tools & Agents
 - **`stun_npc` (Tool):** Freezes/unfreezes a moving NPC.
 - **`deterministic_battle_strategist` (Tool):** Provides reliable battle advice.
