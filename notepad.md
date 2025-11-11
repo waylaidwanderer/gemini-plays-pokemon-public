@@ -13,29 +13,17 @@
 - **Item Management Bugs (CRITICAL):** Taking a held item with a full bag destroys it. Tossing items fails. The only safe way to free a slot is to have a Pokémon hold an item.
 - **Evolution via Trade:** Some POKEMON evolve only by being traded: MACHOKE, KADABRA, HAUNTER, and GRAVELER.
 
-# Active Quests & Current Hypotheses
+# Active Quests & Current Plan
 
-## Current Status: Investigating Moomoo Farm
-- **Problem:** I need to find a way to heal the sick Miltank to potentially unlock progression on Route 39.
-- **Current Hypothesis:** The farmers inside the Moomoo Farmhouse hold the key to solving this puzzle, as they were the source of the quest.
-- **Test Plan:** Speak to both the male and female farmers in the house. The male farmer's dialogue was unchanged. I will now speak to the female farmer.
-  - **Alternative Hypothesis:** If the farmers provide no new info, the solution might be a hidden item on Route 39, requiring the ITEMFINDER.
-
-## On Hold Quests
-- **Primary Objective (Find HM SURF):** On hold until I can leave Route 39.
-- **Miltank Healing (Route 39):** On hold. The immediate quest is to find an exit, not heal the Miltank, though the two may be related.
-- **Olivine Lighthouse:** On hold.
-- **Mail Delivery:** On hold.
-
-# Untested Assumptions & Alternative Hypotheses (Post-Reflection)
-- **Assumption:** I need a `BITTER BERRY` to heal the Miltank.
-  - **Alternative Hypothesis:** The solution might not involve a specific berry, but another item or a story trigger from the farmers.
-  - **Test to Falsify:** Speak to the farmers in the main house after interacting with the Miltank.
-- **Assumption:** The Gentleman in Ecruteak has SURF.
-  - **Alternative Hypothesis:** SURF could be a reward for healing the Ampharos, or it could be in Cianwood City itself.
-  - **Test to Falsify:** If the Ecruteak lead fails (once I can get there), I must systematically re-explore all previous towns.
+## Current Status: Blocked - Medicine/SURF Required
+- **Primary Blockers:** I cannot progress in the Olivine Lighthouse without 'special medicine', and I cannot travel to Cianwood City or Mahogany Town without SURF.
+- **Current Plan:** Having exhausted all leads in Olivine City, I am now traveling to Ecruteak City to thoroughly explore Route 42 for a path to Mahogany Town. This is the next logical step in searching for a new lead, an overlooked NPC, or a hidden item.
 
 # My Custom Toolkit: Philosophy & Tools
+
+## Tool/Agent Development Ideas
+- **Systematic City Explorer (Agent):** An agent to automate the planning of re-exploring a city. It would take a city map as input and generate an optimal route to visit every building and interact with every NPC inside.
+- **Multi-Stop Pathfinder (Tool):** A tool that takes a list of coordinates and calculates the most efficient route to visit all of them. This would be a core component of the exploration agent.
 
 ## Philosophy (Self-Correction)
 - **(Turn 28227):** Trust tool outputs first; verify in-game obstacles before debugging.
