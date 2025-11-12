@@ -5,6 +5,19 @@
 ### Current Status: Blocked - Main Quest Progression Halted
 - **Primary Blockers:** I cannot get SURF or the 'special medicine' for the sick Ampharos. All main quest paths are blocked.
 - **Strongest Lead:** A Teacher in the Olivine Pokémon Center mentioned a person in Cianwood City with a rare Pokémon. This strongly implies the 'special medicine' is in Cianwood, which requires SURF to reach.
+- **Current Plan:** Systematic re-exploration of all previously visited cities, starting with Violet City, to find any missed triggers or changed NPC dialogue.
+
+## 2. Untested Assumptions & Alternative Hypotheses (Active)
+
+- **Assumption:** I am blocked from progressing the main story until I find SURF or the medicine.
+  - **Alternative Hypothesis:** A major story trigger exists in a previously visited city (like Violet City) that I missed, and this trigger does not require SURF. Re-talking to every NPC or re-exploring every building might unlock the path forward.
+  - **Test to Falsify:** My current action plan (systematic re-exploration of all cities) is the test. If I find a new path or dialogue, the alternative hypothesis is supported.
+
+- **Assumption:** The medicine for the Ampharos is an item found *within* the Lighthouse.
+  - **Alternative Hypothesis:** The medicine must be retrieved from another city (e.g., Cianwood) and brought *to* the Lighthouse. The immediate goal in the lighthouse may just be to reach the top to speak with the Gym Leader.
+
+- **Assumption:** The solution to my progression block is in a previously visited area.
+  - **Alternative Hypothesis:** The solution requires reaching a new area, and I have missed the trigger. For instance, there might be a hidden path on Route 42 leading to Mahogany Town.
 
 ## 2. Critical Bugs & Lessons
 - **Coordinate System Mismatch (CRITICAL):** My pathfinding tools have repeatedly failed due to using 1-based indexing for boundary checks (`1 <= x <= width`) while the game's map data is 0-indexed (`0 <= x < width`). This must be the first thing I check for any future pathfinding failures. The correct check is `0 <= coordinate < dimension`.
