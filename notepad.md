@@ -86,7 +86,7 @@
 - [x] VioletCityMartSign at (10, 17)
 - [x] VioletGymSign at (15, 17)
 - [x] EarlsPokemonAcademySign at (27, 17)
-- [ ] VioletCitySign at (24, 20)
+- [x] VioletCitySign at (24, 20)
 - [ ] Warp at (39, 24) - Route 31 Gate (East)
 - [ ] Warp at (31, 25) - Pokémon Center
 - [ ] VioletCityPokecenterSign at (32, 25)
