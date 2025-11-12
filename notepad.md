@@ -477,3 +477,20 @@
 ### New Tile Mechanics
 - **HEADBUTT_TREE:** Impassable. Can be interacted with using the move HEADBUTT to trigger wild Pokémon encounters.
 - **DOOR:** A two-way warp tile that transports the player between maps when moved onto.
+
+# Violet City Re-Exploration Plan (Systematic Sweep)
+- [ ] Warp at (23, 5) - Sprout Tower
+- [ ] SproutTowerSign at (24, 8)
+- [ ] Warp at (3, 15) - Nickname Speech House
+- [ ] Warp at (9, 17) - Violet Mart
+- [ ] VioletCityMartSign at (10, 17)
+- [ ] VioletGymSign at (15, 17)
+- [ ] Warp at (18, 17) - Violet Gym
+- [ ] EarlsPokemonAcademySign at (27, 17)
+- [ ] Warp at (30, 17) - Earl's Pokémon Academy
+- [ ] VioletCitySign at (24, 20)
+- [ ] Warp at (39, 24) - Route 31 Gate (East)
+- [ ] Warp at (31, 25) - Pokémon Center
+- [ ] VioletCityPokecenterSign at (32, 25)
+- [ ] Warp at (39, 25) - Route 31 Gate (East, Glitch Warp)
+- [ ] Warp at (21, 29) - Kyle's House
