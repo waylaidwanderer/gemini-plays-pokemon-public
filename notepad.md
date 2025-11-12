@@ -517,3 +517,8 @@
 </details>
 
 </details>
+- **WARP_CARPET_LEFT:** A one-way warp tile (activates by moving left onto it).
+- **WARP_CARPET_RIGHT:** A one-way warp tile (activates by moving right onto it).
+
+### Tool/Agent Development Ideas
+- **`generate_city_exploration_plan` (Tool Idea):** A tool that takes a city name, uses `map_object_extractor` to find all warps and signs, then uses `city_exploration_planner` to generate an optimal exploration checklist.
