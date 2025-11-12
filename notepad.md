@@ -41,7 +41,7 @@
 - **`path_plan` vs `autopress_buttons`:** `path_plan` is for coordinate-based overworld movement. `autopress_buttons` is for menu-based button string execution. Confusing them leads to critical tool failures.
 
 ## 5. Tile Mechanics
-- **BOOKSHELF:** Impassable. (Confirmed in Radio Tower 2F by attempting to walk into the tile at (11, 1) from (11, 2)).
+- **BOOKSHELF:** Impassable. (Assumed, as pathfinder cannot route through it. Needs direct in-game test to confirm).
 - **COUNTER:** Impassable.
 - **DOOR:** A two-way warp tile.
 - **FLOOR:** Traversable.
