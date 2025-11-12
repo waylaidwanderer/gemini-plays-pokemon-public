@@ -464,3 +464,4 @@
 - **Conclusion:** Hypothesis is FALSE. The trigger for this NPC is something else, or he has no further role.
 
 </details>
+- **LEDGE_HOP_DOWN:** A one-way tile that can only be traversed by moving down onto it from the tile above.
