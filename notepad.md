@@ -1,3 +1,65 @@
+# Gem's Strategic Brain
+
+## 1. Active Quests & Current Plan
+
+### Current Status: Blocked - Main Quest Progression Halted
+- **Primary Blockers:** I cannot get SURF or the 'special medicine' for the sick Ampharos. All main quest paths are blocked.
+- **Strongest Lead:** A Teacher in the Olivine Pokémon Center mentioned a person in Cianwood City with a rare Pokémon. This strongly implies the 'special medicine' is in Cianwood, which requires SURF to reach.
+- **Current Plan:** Systematically explore the Olivine Lighthouse to find a way to the top. I am currently on 1F after falling through a pit and must return to the main path via the ladder at (3, 11).
+
+## 2. Game Mechanics & Systems
+
+### Tile Traversal Rules
+- **Impassable (Verified):** BOOKSHELF, COUNTER, CUT_TREE, HEADBUTT_TREE, INCENSE_BURNER, MART_SHELF, PC, PILLAR, POKEDEX, RADIO, TOWN_MAP, TV, VOID, WALL, WATER, TABLE.
+- **Impassable (Assumed, Untested):** WINDOW, BUOY.
+- **Traversable:** FLOOR, GRASS, LONG_GRASS, TALL_GRASS, PLANT (sprite is obstacle, tile is FLOOR).
+- **One-Way (Ledges):** LEDGE_HOP_DOWN, LEDGE_HOP_LEFT, LEDGE_HOP_RIGHT, FLOOR_UP_WALL.
+- **Warps:** CAVE, DOOR, LADDER, PIT, WARP_CARPET, WARP_CARPET_UP, WARP_CARPET_DOWN, WARP_CARPET_LEFT, WARP_CARPET_RIGHT.
+
+### Battle Mechanics & Tips
+- **DEFENSE CURL + ROLLOUT:** Using DEFENSE CURL significantly increases the power of ROLLOUT.
+
+### Confirmed System Mechanics
+- **Respawning Obstacles:** HM-cleared obstacles (like CUT_TREE) respawn upon re-entering a map.
+- **HM Move Permanence:** HM moves cannot be forgotten through normal means.
+- **Item Management Bugs (CRITICAL):** Taking a held item with a full bag destroys it. Tossing items fails. The only safe way to free a slot is to have a Pokémon hold an item.
+- **Evolution via Trade:** MACHOKE, KADABRA, HAUNTER, and GRAVELER evolve only by being traded.
+- **Multi-Press Dialogue:** Some NPC dialogues require pressing 'A' multiple times to advance all text before a choice prompt appears.
+- **Phone List Limit:** The phone list can hold a limited number of contacts. If full, you cannot add more until one is deleted.
+- **`stun_npc` Tool:** This tool freezes an NPC's movement. It does NOT make the NPC traversable; they remain a solid obstacle.
+
+## 3. My Custom Toolkit: Audit & Development
+
+### My Tools & Agents (Audited)
+*   **`deterministic_battle_strategist` (Tool):** Provides reliable battle advice.
+*   **`find_reachable_unseen_tiles` (Tool):** Finds explorable unseen areas.
+*   **`path_and_execute_v3` (Tool):** My primary navigation tool.
+*   **`map_object_extractor` (Tool):** Extracts all interactable objects from a map.
+*   **`dungeon_floor_planner` (Tool):** Systematically plans exploration of dungeon floors. (NEEDS FIXING).
+*   **`quest_progression_advisor` (Agent):** Suggests next story steps when I'm stuck.
+*   **`puzzle_solver_assistant` (Agent):** Provides simple hypotheses for puzzles.
+*   **`city_exploration_planner` (Agent):** Generates an efficient exploration plan for a new city.
+*   **`world_navigator_agent` (Agent):** Suggests a new major region when local leads are exhausted.
+
+### Tool/Agent Development Ideas
+- **`dungeon_floor_planner` v2 (CRITICAL FIX):** The current version does not check if its planned points of interest are actually reachable. It needs to integrate pathfinding logic (from `path_and_execute_v3`) to verify pathability between each POI to generate a valid, traversable route.
+- **`dungeon_navigation_strategist` (Agent Idea):** A new agent that analyzes dungeon layouts and tool outputs (e.g., pathfinder failures) to suggest high-level strategies for overcoming complex navigation blocks, such as when a path is blocked by an unmovable NPC or a puzzle.
+
+## 4. Untested Assumptions & Alternative Hypotheses
+
+- **Assumption:** The medicine for the Ampharos is an item found *within* the Lighthouse.
+  - **Alternative Hypothesis:** The medicine must be retrieved from another city (e.g., Cianwood) and brought *to* the Lighthouse. The immediate goal in the lighthouse may just be to reach the top to speak with the Gym Leader.
+  - **Test to Falsify:** If I reach the top of the lighthouse and find no medicine item, this supports the alternative hypothesis.
+
+- **Assumption:** I am required to clear the Olivine Lighthouse *right now* to progress the story.
+  - **Alternative Hypothesis:** The Lighthouse is currently unsolvable without a key item (like SURF) obtained elsewhere. I may be intended to leave and explore another region first.
+  - **Test to Falsify:** If a complete exploration of all reachable areas in the lighthouse yields no path forward, I must conclude I am blocked and use my `world_navigator_agent` to find an alternative main quest path.
+
+# Archive: Log of Blocked Paths, Solved Puzzles & Old Info
+
+<details>
+<summary>Click to expand full game log</summary>
+
 # Game Mechanics & Systems
 
 ## Tile Traversal Rules (Consolidated)
@@ -55,7 +117,7 @@
 - **(Turn 34861, 35208 - CRITICAL):** `path_plan` is for coordinate-based overworld movement. `autopress_buttons` is for menu-based button string execution. Confusing them leads to critical tool failures and wasted debugging time.
 - **(Turn 35400 - CRITICAL):** Deferring tool/agent creation is an invalid strategy. I must act immediately on development ideas to improve my capabilities.
 
-# Archive: Log of Blocked Paths, Solved Puzzles & Old Info
+# Archive: Log of Blocked Paths, Solved Pzzles & Old Info
 
 <details>
 <summary>Click to expand full game log</summary>
