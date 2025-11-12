@@ -319,18 +319,6 @@
       }
     ]
   },
-  "map_object_extractor": {
-    "description": "Parses the map_xml_string to extract the coordinates and names of all interactable objects (NPCs, signs, items, warps) on the current map.",
-    "input_schema": {},
-    "python_script": "import xml.etree.ElementTree as ET\nimport json\n\ndef extract_objects():\n    try:\n        root = ET.fromstring(map_xml_string)\n    except ET.ParseError as e:\n        print(json.dumps({'error': f'Error parsing map_xml_string: {e}'}))\n        return\n\n    objects = []\n    for row_elem in root.findall('Row'):\n        y = int(row_elem.get('id'))\n        for tile_elem in row_elem.findall('Tile'):\n            x = int(tile_elem.get('id'))\n            \n            # Extract Objects (NPCs, items, signs)\n            for obj_elem in tile_elem.findall('Object'):\n                obj_info = {\"x\": x, \"y\": y}\n                id_name = obj_elem.get('id-name')\n                bg_name = obj_elem.get('name') # For background objects like signs\n                \n                if id_name:\n                    obj_info['name'] = id_name\n                    if 'item' in id_name.lower():\n                        obj_info['type'] = 'item'\n                    else:\n                        obj_info['type'] = 'npc' # Assume it's an NPC if not an item\n                elif bg_name:\n                    obj_info['name'] = bg_name\n                    obj_info['type'] = 'sign' # Background objects are usually signs\n                else:\n                    continue # Skip objects without a clear identifier\n                \n                objects.append(obj_info)\n\n            # Extract Warps\n            if tile_elem.find('Warp') is not None:\n                objects.append({\n                    \"name\": \"Warp\",\n                    \"type\": \"warp\",\n                    \"x\": x,\n                    \"y\": y\n                })\n\n    print(json.dumps({\"extracted_objects\": objects}))\n\nextract_objects()",
-    "history": [
-      {
-        "commit_message": "feat: Create map_object_extractor tool. This tool parses the map XML to identify and list all interactable objects (NPCs, signs, items, warps) and their coordinates. This is a foundational component required for the planned `Route Exploration Planner` agent, addressing a critical overwatch critique to improve exploration efficiency.",
-        "timestamp": "2025-11-11T13:35:49.312Z",
-        "action_counter": 35373
-      }
-    ]
-  },
   "path_and_execute_v3": {
     "description": "Generates a path to a target coordinate. This version correctly treats all objects as impassable obstacles, finds an adjacent tile if the target is blocked, reads map markers to avoid off-screen obstacles, and now avoids accidentally pathing through warp tiles.",
     "input_schema": {
@@ -769,6 +757,28 @@
         "commit_message": "refactor: Remove all debug logging. The debug print statements were essential for diagnosing the recent pathfinding issue but are no longer needed. This commit removes them to ensure a clean, parseable JSON output is always returned, resolving the critical execution error caused by stderr.",
         "timestamp": "2025-11-12T20:55:42.771Z",
         "action_counter": 38058
+      }
+    ]
+  },
+  "automated_poi_navigator": {
+    "description": "Parses a given checklist from the notepad, finds the next unvisited POI (line starting with '- [ ]'), extracts its name and coordinates, and returns them.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "checklist": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "checklist"
+      ]
+    },
+    "python_script": "import re\nimport json\n\nchecklist_text = input_data['checklist']\npattern = re.compile(r\"- \\s\\[ \\s\\]\\s(.*?)\\s+at\\s+\\((\\d+),\\s*(\\d+)\\)\")\n\nfor line in checklist_text.splitlines():\n    match = pattern.search(line)\n    if match:\n        poi_name = match.group(1).strip()\n        x = match.group(2)\n        y = match.group(3)\n        print(json.dumps({\"next_poi_name\": poi_name, \"x\": x, \"y\": y}))\n        return\n\nprint(json.dumps({\"error\": \"No unvisited POIs found in the checklist.\"}))",
+    "history": [
+      {
+        "commit_message": "feat: Create automated_poi_navigator tool. This tool automates the process of identifying the next unvisited point of interest from a checklist in the notepad. This directly addresses an overwatch critique to turn procedural ideas into functional tools, improving exploration efficiency by removing a manual, error-prone step from my workflow.",
+        "timestamp": "2025-11-12T21:48:34.190Z",
+        "action_counter": 38132
       }
     ]
   }

@@ -81,7 +81,7 @@
 *   `deterministic_battle_strategist` (Tool): Provides reliable battle advice.
 *   `find_reachable_unseen_tiles` (Tool): Finds explorable unseen areas.
 *   `find_undefeated_trainers` (Tool): Finds undefeated trainers on the current map.
-*   `map_object_extractor` (Tool): Extracts all interactable objects from a map.
+*   `automated_poi_navigator` (Tool): Parses a given checklist from the notepad, finds the next unvisited POI (line starting with '- [ ]'), extracts its name and coordinates, and returns them.
 *   `path_and_execute_v3` (Tool): My primary navigation tool.
 
 #### My Custom Agents
