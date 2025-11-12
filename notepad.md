@@ -62,7 +62,7 @@
 - **VOID:** Impassable.
 - **WATER:** Impassable without SURF.
 - **WALL:** Impassable.
-- **WARP_CARPET_DOWN:** A one-way warp tile.
+- **WARP_CARPET_DOWN:** A one-way warp tile. (Activation method: Stand on the tile and press Down).
 - **WARP_CARPET_DOWN:** A one-way warp tile. (Activation method: Stand on the tile and press Down).
 - **WARP_CARPET_LEFT:** A one-way warp tile (Activation method: Stand on the tile and press Left).
 - **WARP_CARPET_RIGHT:** A one-way warp tile (Activation method: Stand on the tile and press Right).
@@ -495,32 +495,6 @@
 - [ ] Warp at (29, 29) - Bike Shop
 - [ ] GoldenrodCityUndergroundSignSouth at (12, 30)
 - [ ] GoldenrodCityBikeShopSign at (28, 30)
-- [x] Warp at (19, 1) - Route 35 Gate
-- [x] Warp at (29, 5) - Flower Shop
-- [Current] Warp at (9, 5) - Underground Entrance (North)
-- [ ] GoldenrodCityUndergroundSignNorth at (8, 6)
-- [ ] GoldenrodCityFlowerShopSign at (30, 6)
-- [ ] Warp at (24, 7) - Bill's House
-- [ ] Warp at (15, 7) - Name Rater's House
-- [ ] GoldenrodGymSign at (26, 9)
-- [ ] Warp at (33, 9) - PPSpeechHouse
-- [ ] Warp at (9, 13) - Magnet Train Station
-- [ ] GoldenrodCityStationSign at (10, 14)
-- [ ] Warp at (5, 15) - Radio Tower
-- [ ] GoldenrodCityRadioTowerSign at (4, 17)
-- [ ] GoldenrodCitySign at (22, 18)
-- [ ] Warp at (14, 21) - Game Corner
-- [ ] Warp at (31, 21) - House
-- [ ] GoldenrodCityGameCornerSign at (16, 22)
-- [ ] Warp at (5, 25) - Bill's Family's House
-- [ ] GoldenrodDeptStoreSign at (26, 27)
-- [ ] Warp at (24, 27) - Dept. Store
-- [ ] GoldenrodCityPokecenterSign at (16, 27)
-- [ ] Warp at (15, 27) - Pokémon Center
-- [ ] Warp at (11, 29) - Underground Entrance (South)
-- [ ] Warp at (29, 29) - Bike Shop
-- [ ] GoldenrodCityBikeShopSign at (28, 30)
-- [ ] GoldenrodCityUndergroundSignSouth at (12, 30)
 
 <details>
 <summary>Ecruteak Dance Theater Gentleman (Hypothesis Falsified - Post-Morty)</summary>
