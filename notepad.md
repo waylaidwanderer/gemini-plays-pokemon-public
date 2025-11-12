@@ -106,7 +106,7 @@
 - [ ] Warp at (15, 7) - Name Rater's House
 - [x] GoldenrodCityNameRaterSign at (12, 7)
 - [x] GoldenrodGymSign at (26, 9)
-- [ ] Warp at (33, 9) - PPSpeechHouse
+- [x] Warp at (33, 9) - PPSpeechHouse
 - [ ] Warp at (9, 13) - Magnet Train Station
 - [ ] GoldenrodCityStationSign at (10, 14)
 - [ ] Warp at (5, 15) - Radio Tower
