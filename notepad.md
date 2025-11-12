@@ -487,7 +487,7 @@
 - [x] Warp at (9, 17) - Violet Mart
 - [ ] VioletCityMartSign at (10, 17)
 - [ ] VioletGymSign at (15, 17)
-- [ ] Warp at (18, 17) - Violet Gym
+- [x] Warp at (18, 17) - Violet Gym
 - [ ] EarlsPokemonAcademySign at (27, 17)
 - [ ] Warp at (30, 17) - Earl's Pokémon Academy
 - [ ] VioletCitySign at (24, 20)
