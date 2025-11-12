@@ -56,10 +56,9 @@
 *   `puzzle_solver_assistant` (Agent): Provides simple hypotheses for puzzles.
 *   `city_exploration_planner` (Agent): Generates an efficient exploration plan for a new city.
 *   `world_navigator_agent` (Agent): Suggests a new major region when local leads are exhausted.
-*   `city_exploration_planner` (Agent): Generates an efficient exploration plan for a new city.
-*   `world_navigator_agent` (Agent): Suggests a new major region when local leads are exhausted.
 
 ### Tool/Agent Development Ideas
+- **`pathfinding_debugger` (Agent Idea):** An agent that takes tool code, an error message, and a debug log as input to suggest a potential fix for a failing pathfinding tool.
 - **`dungeon_navigation_strategist` (Agent Idea):** A new agent that analyzes dungeon layouts and tool outputs to suggest high-level strategies for overcoming complex navigation blocks.
 - **`pre_gym_checklist` (Tool Idea):** A tool that analyzes my party composition against a known gym leader's type to suggest preparations.
 
