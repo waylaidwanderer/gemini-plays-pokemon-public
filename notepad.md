@@ -9,14 +9,6 @@
 ### Procedural Improvements (From Overwatch Critique)
 - **Agent Utilization:** I must use my `city_exploration_planner` agent for Goldenrod City to automate plan generation and improve efficiency.
 
-### Violet City Re-Exploration Plan (Completed)
-- [x] Sprout Tower
-- [x] Violet City Signs (all)
-- [x] Route 31 Gate
-- [x] Pokémon Center
-- [x] VioletCityPokecenterSign at (32, 25)
-- [x] Kyle's House (Warp at 21, 29)
-
 ## 2. Untested Assumptions & Alternative Hypotheses (Active)
 
 - **Assumption:** The path forward is blocked by a missing key item (SURF/medicine).
@@ -65,6 +57,8 @@
 - **WARP_CARPET_DOWN:** A one-way warp tile. (Activation method: Stand on the tile and press Down).
 - **WARP_CARPET_LEFT:** A one-way warp tile (Activation method: Stand on the tile and press Left).
 - **WARP_CARPET_RIGHT:** A one-way warp tile (Activation method: Stand on the tile and press Right).
+- **FLOOR_UP_WALL:** Impassable. (Observed in map data, needs in-game test to confirm).
+- **BOOKSHELF:** Impassable. (Confirmed in Radio Tower 2F by attempting to walk into the tile at (11, 1) from (11, 2)).
 
 ## 6. My Custom Toolkit: Audit & Development
 
@@ -99,6 +93,7 @@
 - **`generate_city_exploration_plan` (Agent Idea):** A new agent that takes a city name, uses `map_object_extractor` to find all warps and signs, then uses `city_exploration_planner` to generate an optimal exploration checklist. This would automate the creation of my city re-exploration plans.
 - **`dungeon_navigation_strategist` (Agent Idea):** A new agent that analyzes dungeon layouts and tool outputs to suggest high-level strategies for overcoming complex navigation blocks.
 - **`pre_gym_checklist` (Tool Idea):** A tool that analyzes my party composition against a known gym leader's type to suggest preparations.
+- **`long_range_navigator` (Agent Idea):** A high-level planner that takes a start and end city and determines the sequence of routes and warps to travel between them.
 
 # Archive: Log of Blocked Paths, Solved Puzzles & Old Info
 <details>
@@ -413,33 +408,33 @@
 <details>
 <summary>Archive: Goldenrod City Exploration Plan (Completed)</summary>
 
-- [x] Warp at (19, 1)
+- [x] Warp at (19, 1) - Route 35 Gate
+- [x] Warp at (9, 5) - Underground Entrance (North)
+- [x] Warp at (29, 5) - Flower Shop
 - [x] GoldenrodCityUndergroundSignNorth at (8, 6)
-- [x] Warp at (9, 5)
-- [x] GoldenrodCityNameRaterSign at (12, 7)
-- [x] Warp at (15, 7)
-- [x] Warp at (24, 7)
-- [x] Warp at (29, 5)
 - [x] GoldenrodCityFlowerShopSign at (30, 6)
-- [x] Warp at (33, 9)
+- [x] GoldenrodCityNameRaterSign at (12, 7)
+- [x] Warp at (15, 7) - Name Rater's House
+- [x] Warp at (24, 7) - Goldenrod Gym (Mistakenly entered)
 - [x] GoldenrodGymSign at (26, 9)
-- [x] Warp at (5, 15) (Blocked by Rocket)
-- [x] Warp at (9, 13)
+- [x] Warp at (33, 9) - PPSpeechHouse
+- [x] Warp at (9, 13) - Magnet Train Station
 - [x] GoldenrodCityStationSign at (10, 14)
-- [x] GoldenrodCitySign at (22, 18)
-- [x] GoldenrodCityRadioTowerSign at (4, 17)
-- [x] Warp at (14, 21)
-- [x] GoldenrodCityGameCornerSign at (16, 22)
-- [x] Warp at (31, 21)
-- [x] Warp at (5, 25)
-- [x] Warp at (15, 27)
-- [x] GoldenrodCityPokecenterSign at (16, 27)
-- [x] Warp at (24, 27)
-- [x] GoldenrodDeptStoreSign at (26, 27)
-- [x] Warp at (29, 29)
-- [x] GoldenrodCityBikeShopSign at (28, 30)
-- [x] GoldenrodCityUndergroundSignSouth at (12, 30)
-- [x] Warp at (11, 29)
+- [x] Warp at (5, 15) - Radio Tower
+- [ ] GoldenrodCityRadioTowerSign at (4, 17)
+- [ ] GoldenrodCitySign at (22, 18)
+- [ ] Warp at (14, 21) - Game Corner
+- [ ] Warp at (31, 21) - House
+- [ ] GoldenrodCityGameCornerSign at (16, 22)
+- [ ] Warp at (5, 25) - Bill's Family's House
+- [ ] Warp at (15, 27) - Pokémon Center
+- [ ] GoldenrodCityPokecenterSign at (16, 27)
+- [ ] Warp at (24, 27) - Dept. Store
+- [ ] GoldenrodDeptStoreSign at (26, 27)
+- [ ] Warp at (11, 29) - Underground Entrance (South)
+- [ ] Warp at (29, 29) - Bike Shop
+- [ ] GoldenrodCityUndergroundSignSouth at (12, 30)
+- [ ] GoldenrodCityBikeShopSign at (28, 30)
 
 </details>
 
@@ -475,7 +470,7 @@
 - [x] GoldenrodCityNameRaterSign at (12, 7)
 - [x] Warp at (15, 7) - Name Rater's House
 - [x] Warp at (24, 7) - Goldenrod Gym (Mistakenly entered)
-- [ ] GoldenrodGymSign at (26, 9)
+- [x] GoldenrodGymSign at (26, 9)
 - [x] Warp at (33, 9) - PPSpeechHouse
 - [x] Warp at (9, 13) - Magnet Train Station
 - [x] GoldenrodCityStationSign at (10, 14)
@@ -507,9 +502,21 @@
 
 </details>
 - **Pathing Hallucination (CRITICAL):** During turns 37389-37390, I experienced a severe hallucination, believing I had successfully pathed to and arrived at Kyle's House when I was still standing in front of the Pokémon Center with a text box open. This reinforces the absolute necessity of verifying my position from the Game State before every single action and not assuming a path plan has completed successfully.
-- **FLOOR_UP_WALL:** Impassable. (Observed in map data, needs in-game test to confirm).
+- **Warp Hallucination (CRITICAL):** During turn 37428, I experienced a severe hallucination, believing I had warped from Route 36 into the National Park Gatehouse. I was still on Route 36 at my original coordinates. This led to a failed pathfinding attempt based on an entirely false premise. This reinforces the absolute necessity of verifying my map and coordinates from the Game State *after* every warp action, before planning the next move.
 
 ### Tool/Agent Development Ideas
 - **`long_range_navigator` (Agent Idea):** A high-level planner that takes a start and end city and determines the sequence of routes and warps to travel between them.
-- **Warp Hallucination (CRITICAL):** During turn 37428, I experienced a severe hallucination, believing I had warped from Route 36 into the National Park Gatehouse. I was still on Route 36 at my original coordinates. This led to a failed pathfinding attempt based on an entirely false premise. This reinforces the absolute necessity of verifying my map and coordinates from the Game State *after* every warp action, before planning the next move.
-- **BOOKSHELF:** Impassable. (Confirmed in Radio Tower 2F by attempting to walk into the tile at (11, 1) from (11, 2)).
+
+</details>
+
+<details>
+<summary>Violet City Re-Exploration Plan (Completed)</summary>
+
+- [x] Sprout Tower
+- [x] Violet City Signs (all)
+- [x] Route 31 Gate
+- [x] Pokémon Center
+- [x] VioletCityPokecenterSign at (32, 25)
+- [x] Kyle's House (Warp at 21, 29)
+
+</details>
