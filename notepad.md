@@ -450,3 +450,32 @@
 - [ ] Warp at (29, 29)
 - [ ] GoldenrodCityBikeShopSign at (28, 30)
 - [ ] GoldenrodCityUndergroundSignSouth at (12, 30)
+
+# Goldenrod City Re-Exploration Plan
+- [x] Warp at (19, 1)
+- [x] Warp at (29, 5) - Flower Shop
+- [ ] Warp at (9, 5) - Underground Entrance
+- [ ] GoldenrodCityUndergroundSignNorth at (8, 6)
+- [ ] GoldenrodCityFlowerShopSign at (30, 6)
+- [ ] Warp at (24, 7) - Bill's House
+- [ ] Warp at (15, 7) - House
+- [ ] GoldenrodCityNameRaterSign at (12, 7)
+- [ ] GoldenrodGymSign at (26, 9)
+- [ ] Warp at (33, 9) - Gym
+- [ ] Warp at (9, 13) - Magnet Train Station
+- [ ] GoldenrodCityStationSign at (10, 14)
+- [ ] Warp at (5, 15) - Radio Tower
+- [ ] GoldenrodCityRadioTowerSign at (4, 17)
+- [ ] GoldenrodCitySign at (22, 18)
+- [ ] Warp at (14, 21) - Game Corner
+- [ ] Warp at (31, 21) - House
+- [ ] GoldenrodCityGameCornerSign at (16, 22)
+- [ ] Warp at (5, 25) - Bill's Family House
+- [ ] GoldenrodDeptStoreSign at (26, 27)
+- [ ] Warp at (24, 27) - Dept. Store
+- [ ] GoldenrodCityPokecenterSign at (16, 27)
+- [ ] Warp at (15, 27) - Pokémon Center
+- [ ] Warp at (11, 29) - Underground Entrance
+- [ ] Warp at (29, 29) - Bike Shop
+- [ ] GoldenrodCityBikeShopSign at (28, 30)
+- [ ] GoldenrodCityUndergroundSignSouth at (12, 30)
