@@ -482,7 +482,7 @@
 # Violet City Re-Exploration Plan (Systematic Sweep)
 - [ ] Warp at (23, 5) - Sprout Tower
 - [ ] SproutTowerSign at (24, 8)
-- [ ] Warp at (3, 15) - Nickname Speech House
+- [x] Warp at (3, 15) - Nickname Speech House
 - [ ] Warp at (9, 17) - Violet Mart
 - [ ] VioletCityMartSign at (10, 17)
 - [ ] VioletGymSign at (15, 17)
