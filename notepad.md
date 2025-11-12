@@ -99,8 +99,11 @@
 - **Hypothesis 4:** Interacting with the Teacher at (9, 9) will move the central pillar.
   - **Result:** The Teacher provided only lore dialogue. The pillar did not move.
   - **Conclusion:** Hypothesis is FALSE.
-- **New Hypothesis 5:** The trigger to move the pillar is located on the 2nd floor. I must take an alternate ladder up to find it.
-  - **Test Plan:** Travel to the ladder at (17, 3) and ascend to Sprout Tower 2F. Explore 2F for a switch, NPC, or event that affects the 1F pillar.
+- **Hypothesis 5:** The trigger to move the pillar is located on the 2nd floor, accessible via the ladder at (17, 3).
+  - **Result:** The pathfinding tool confirmed there is no path to the ladder at (17, 3) from the western side of the room.
+  - **Conclusion:** Hypothesis is UNTESTABLE and likely FALSE. The two sides of 1F are separate.
+- **New Hypothesis 6:** The trigger to move the pillar is on the section of the 2nd floor accessible from the ladder at (2, 6). I must have missed it on my initial exploration.
+  - **Test Plan:** Travel to the ladder at (2, 6) and ascend to Sprout Tower 2F. Thoroughly re-explore this area for a switch, NPC, or event that affects the 1F pillar.
 
 # Archive: Log of Blocked Paths, Solved Puzzles & Old Info
 <details>
