@@ -11,10 +11,12 @@
 - **Assumption:** The path forward is blocked by a missing key item (SURF/medicine).
   - **Alternative Hypothesis:** The block is event-based, and the trigger is an NPC I haven't spoken to since a major world event (e.g., releasing the legendary beasts).
   - **Test to Falsify:** My current systematic sweep of Violet City is the test. If this yields no leads, I will expand the sweep to other cities like Goldenrod.
-
-- **Assumption:** The unseen tiles on Sprout Tower 2F are part of a puzzle.
-  - **Alternative Hypothesis:** They are decorative and unreachable.
-  - **Conclusion (Turn 36954):** My `find_reachable_unseen_tiles` tool has confirmed they are unreachable. Hypothesis is FALSE.
+- **Assumption:** The trigger for progression is an NPC I need to re-talk to.
+  - **Alternative Hypothesis:** The trigger is a hidden item that has now appeared somewhere.
+  - **Test to Falsify:** If the full NPC sweep of all cities fails, I must perform a full sweep of all cities with the ITEMFINDER on every single tile.
+- **Assumption:** The path to Mahogany Town via Route 42 is completely blocked by water.
+  - **Alternative Hypothesis:** There is a hidden land path on Route 42 or through Mt. Mortar that I missed.
+  - **Test to Falsify:** After exhausting city re-exploration, I must thoroughly re-explore Route 42 and Mt. Mortar.
 
 ## 3. Critical Bugs & Lessons
 - **Coordinate System Mismatch (CRITICAL):** My pathfinding tools have repeatedly failed due to using 1-based indexing for boundary checks (`1 <= x <= width`) while the game's map data is 0-indexed (`0 <= x < width`). The correct check is `0 <= coordinate < dimension`. This must be the first thing I check for any future pathfinding failures.
@@ -25,8 +27,8 @@
 - **Respawning Obstacles:** HM-cleared obstacles (like CUT_TREE) respawn upon re-entering a map.
 - **HM Move Permanence:** HM moves cannot be forgotten through normal means.
 - **Multi-Press Dialogue:** Some NPC dialogues require pressing 'A' multiple times to advance all text.
-- **Phone List Limit:** The phone list can hold a limited number of contacts.
-- **`stun_npc` Tool:** This tool freezes an NPC's movement. It does NOT make the NPC traversable. The stun effect appears to wear off after a map transition or a certain number of turns.
+- **Phone List Limit:** The phone list can become full, preventing you from adding new contacts.
+- **`stun_npc` Tool:** This tool freezes an NPC's movement, preventing them from moving. It does NOT make the NPC traversable; you must still navigate around them. The stun effect appears to wear off after a map transition or a certain number of turns.
 - **Evolution via Trade:** MACHOKE, KADABRA, HAUNTER, and GRAVELER evolve only by being traded.
 
 ## 5. Tile Mechanics
@@ -40,6 +42,7 @@
 - **PILLAR:** Impassable. (Confirmed in Sprout Tower).
 - **TALL_GRASS:** Traversable, triggers wild encounters.
 - **VOID:** Impassable.
+- **WATER:** Impassable without SURF.
 - **WALL:** Impassable.
 - **WARP_CARPET_DOWN:** A one-way warp tile.
 
@@ -61,6 +64,23 @@
 ### Tool/Agent Development Ideas
 - **`dungeon_navigation_strategist` (Agent Idea):** A new agent that analyzes dungeon layouts and tool outputs to suggest high-level strategies for overcoming complex navigation blocks.
 - **`pre_gym_checklist` (Tool Idea):** A tool that analyzes my party composition against a known gym leader's type to suggest preparations.
+
+# Violet City Re-Exploration Plan (Systematic Sweep)
+- [ ] Warp at (23, 5) - Sprout Tower
+- [ ] SproutTowerSign at (24, 8)
+- [x] Warp at (3, 15) - Nickname Speech House
+- [x] Warp at (9, 17) - Violet Mart
+- [ ] VioletCityMartSign at (10, 17)
+- [ ] VioletGymSign at (15, 17)
+- [x] Warp at (18, 17) - Violet Gym
+- [ ] EarlsPokemonAcademySign at (27, 17)
+- [x] Warp at (30, 17) - Earl's Pokémon Academy
+- [ ] VioletCitySign at (24, 20)
+- [ ] Warp at (39, 24) - Route 31 Gate (East)
+- [ ] Warp at (31, 25) - Pokémon Center
+- [ ] VioletCityPokecenterSign at (32, 25)
+- [ ] Warp at (39, 25) - Route 31 Gate (East, Glitch Warp)
+- [ ] Warp at (21, 29) - Kyle's House
 
 # Archive: Log of Blocked Paths, Solved Puzzles & Old Info
 <details>
@@ -429,10 +449,6 @@
 
 </details>
 
-# Tool Mechanics & Lessons
-- **stun_npc:** This tool freezes an NPC, preventing them from moving. It does NOT make the NPC traversable. You still must navigate around the stunned NPC.
-- **Phone List Limit:** The phone list can become full, preventing you from adding new contacts.
-
 # Goldenrod City Re-Exploration Plan (Consolidated)
 - [x] Warp at (19, 1) - Route 35 Gate
 - [x] Warp at (29, 5) - Flower Shop
@@ -480,31 +496,4 @@
 - **HEADBUTT_TREE:** Impassable. Can be interacted with using the move HEADBUTT to trigger wild Pokémon encounters.
 - **DOOR:** A two-way warp tile that transports the player between maps when moved onto.
 
-# Violet City Re-Exploration Plan (Systematic Sweep)
-- [ ] Warp at (23, 5) - Sprout Tower
-- [ ] SproutTowerSign at (24, 8)
-- [x] Warp at (3, 15) - Nickname Speech House
-- [x] Warp at (9, 17) - Violet Mart
-- [ ] VioletCityMartSign at (10, 17)
-- [ ] VioletGymSign at (15, 17)
-- [x] Warp at (18, 17) - Violet Gym
-- [ ] EarlsPokemonAcademySign at (27, 17)
-- [x] Warp at (30, 17) - Earl's Pokémon Academy
-- [ ] VioletCitySign at (24, 20)
-- [ ] Warp at (39, 24) - Route 31 Gate (East)
-- [ ] Warp at (31, 25) - Pokémon Center
-- [ ] VioletCityPokecenterSign at (32, 25)
-- [ ] Warp at (39, 25) - Route 31 Gate (East, Glitch Warp)
-- [ ] Warp at (21, 29) - Kyle's House
-
-# Self-Assessment Findings (Turn 37059)
-
-## Untested Assumptions & Alternative Hypotheses
-- **Assumption:** The trigger for progression is an NPC I need to re-talk to.
-  - **Alternative Hypothesis:** The trigger is a hidden item that has now appeared somewhere. 
-  - **Test to Falsify:** If the full NPC sweep of all cities fails, I must perform a full sweep of all cities with the ITEMFINDER on every single tile.
-- **Assumption:** The path to Mahogany Town via Route 42 is completely blocked by water.
-  - **Alternative Hypothesis:** There is a hidden land path on Route 42 or through Mt. Mortar that I missed.
-  - **Test to Falsify:** After exhausting city re-exploration, I must thoroughly re-explore Route 42 and Mt. Mortar.
-- **VOID:** Impassable.
-- **WATER:** Impassable without SURF.
+</details>
