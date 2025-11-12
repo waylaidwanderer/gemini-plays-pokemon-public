@@ -31,6 +31,7 @@
 
 ## 3. Critical Bugs & Lessons
 - **Hallucination Loop (CRITICAL):** I have a severe tendency to hallucinate my position and actions, especially after using warps. I repeatedly think I have moved when I haven't, leading to invalid actions and system warnings. I must break this cycle by verifying my position in the game state *before* every single action.
+- **Pokémon Center Hallucination Loop (CRITICAL):** During turns 37345-37355, I experienced a severe and persistent hallucination loop, believing I was on the first floor of the Pokémon Center when I was on the second. This led to multiple invalid actions and required several turns to correct. This reinforces the need to **always** verify my location from the Game State before planning any action.
 - **Coordinate System Mismatch (CRITICAL):** My pathfinding tools have repeatedly failed due to using 1-based indexing for boundary checks (`1 <= x <= width`) while the game's map data is 0-indexed (`0 <= x < width`). The correct check is `0 <= coordinate < dimension`. This must be the first thing I check for any future pathfinding failures.
 - **Tool Trust:** I wasted significant time debugging `find_reachable_unseen_tiles` when it was working correctly. I must trust my tools' outputs and verify the in-game situation before assuming a bug.
 - **Item Management Bugs (CRITICAL):** Taking a held item with a full bag destroys it. Tossing items fails. The only safe way to free a slot is to have a Pokémon hold an item.
