@@ -86,14 +86,8 @@
 
 #### My Custom Agents
 *   `city_exploration_planner` (Agent): Generates an efficient exploration plan for a new city.
-
 *   `quest_progression_advisor` (Agent): Suggests next story steps when I'm stuck.
-*   `world_navigator_agent` (Agent): Suggests a new major region when local leads are exhausted.
-
-### Tool/Agent Development Ideas
-- **`generate_city_exploration_plan` (Agent Idea):** A new agent that takes a city name, uses `map_object_extractor` to find all warps and signs, then uses `city_exploration_planner` to generate an optimal exploration checklist. This would automate the creation of my city re-exploration plans.
-- **`dungeon_navigation_strategist` (Agent Idea):** A new agent that analyzes dungeon layouts and tool outputs to suggest high-level strategies for overcoming complex navigation blocks.
-- **`pre_gym_checklist` (Tool Idea):** A tool that analyzes my party composition against a known gym leader's type to suggest preparations.
+*   `world_navigator_agent` (Agent): Analyzes the player's overall progress, current location, badges, known dead ends, and failed hypotheses to suggest a new major region or city to investigate when all local leads are exhausted.
 
 # Goldenrod City Re-Exploration Plan (Generated)
 - [ ] Warp at (19, 1) - Route 35 Gate
@@ -504,9 +498,6 @@
 - **Pathing Hallucination (CRITICAL):** During turns 37389-37390, I experienced a severe hallucination, believing I had successfully pathed to and arrived at Kyle's House when I was still standing in front of the Pokémon Center with a text box open. This reinforces the absolute necessity of verifying my position from the Game State before every single action and not assuming a path plan has completed successfully.
 - **Warp Hallucination (CRITICAL):** During turn 37428, I experienced a severe hallucination, believing I had warped from Route 36 into the National Park Gatehouse. I was still on Route 36 at my original coordinates. This led to a failed pathfinding attempt based on an entirely false premise. This reinforces the absolute necessity of verifying my map and coordinates from the Game State *after* every warp action, before planning the next move.
 
-### Tool/Agent Development Ideas
-- **`generate_city_exploration_plan` (Agent Idea):** A new agent that takes a city name, uses `map_object_extractor` to find all warps and signs, then uses `city_exploration_planner` to generate an optimal exploration checklist. This would automate the creation of my city re-exploration plans.
-
 # Goldenrod Underground Log
 - **Hypothesis:** The SUPER_NERD at (6, 9) is a shopkeeper.
   - **Test:** Attempted to interact with the counter in front of him multiple times from the correct position (5, 10).
@@ -537,4 +528,3 @@
 
 # Critical Bugs & Lessons
 - **Text Box Loop (CRITICAL):** During turns 37932-37937, I was stuck in a text box loop from a sign. Repeatedly pressing 'A' did not work. The solution was to press 'B' to close the dialogue. This is a critical lesson: if 'A' fails to advance or close text, the next hypothesis must be to try 'B'.
-- **`automated_poi_navigator` (Agent Idea):** An agent that takes my current position and the notepad's exploration plan, identifies the next unvisited POI, and returns its coordinates. This would automate the 'what's next?' part of my exploration loop.
