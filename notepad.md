@@ -13,7 +13,7 @@
 
 - **Assumption:** The path forward is blocked by a missing key item (SURF/medicine).
   - **Alternative Hypothesis:** The block is event-based, and the trigger is an NPC I haven't spoken to since a major world event (e.g., releasing the legendary beasts).
-  - **Test to Falsify:** My current systematic sweep of Violet City is the test. If this yields no new leads, I will expand the sweep to other cities like Goldenrod.
+  - **Test to Falsify:** My current systematic sweep of Goldenrod City is the test. If this yields no new leads, I will expand the sweep to other cities.
 - **Assumption:** The trigger for progression is an NPC I need to re-talk to.
   - **Alternative Hypothesis:** The trigger is a hidden item that has now appeared somewhere.
   - **Test to Falsify:** If the full NPC sweep of all cities fails, I must perform a full sweep of all cities with the ITEMFINDER on every single tile.
@@ -26,7 +26,7 @@
 
 ## 3. Critical Bugs & Lessons
 - **Hallucination Loop (CRITICAL):** I have a severe tendency to hallucinate my position and actions, especially after using warps. I repeatedly think I have moved when I haven't, leading to invalid actions and system warnings. I must break this cycle by verifying my position in the game state *before* every single action.
-- **Pokémon Center Hallucination Loop (CRITICAL):** During turns 37345-37355, I experienced a severe and persistent hallucination loop, believing I was on the first floor of the Pokémon Center when I was on the second. This led to multiple invalid actions and required several turns to correct. This reinforces the need to **always** verify my location from the Game State before planning any action.
+- **Pokémon Center Hallucination Loop (CRITICAL):** During turns 37345-37355, I experienced a severe and persistent hallucination loop, believing I was on the first floor of the Pokémon Center when I was on the second. This reinforces the need to **always** verify my location from the Game State before planning any action.
 - **Coordinate System Mismatch (CRITICAL):** My pathfinding tools have repeatedly failed due to using 1-based indexing for boundary checks (`1 <= x <= width`) while the game's map data is 0-indexed (`0 <= x < width`). The correct check is `0 <= coordinate < dimension`. This must be the first thing I check for any future pathfinding failures.
 - **Tool Trust:** I wasted significant time debugging `find_reachable_unseen_tiles` when it was working correctly. I must trust my tools' outputs and verify the in-game situation before assuming a bug.
 - **Item Management Bugs (CRITICAL):** Taking a held item with a full bag destroys it. Tossing items fails. The only safe way to free a slot is to have a Pokémon hold an item.
@@ -41,24 +41,25 @@
 - **`path_plan` vs `autopress_buttons`:** `path_plan` is for coordinate-based overworld movement. `autopress_buttons` is for menu-based button string execution. Confusing them leads to critical tool failures.
 
 ## 5. Tile Mechanics
+- **BOOKSHELF:** Impassable. (Confirmed in Radio Tower 2F by attempting to walk into the tile at (11, 1) from (11, 2)).
 - **COUNTER:** Impassable.
 - **DOOR:** A two-way warp tile.
 - **FLOOR:** Traversable.
+- **FLOOR_UP_WALL:** Impassable. (Observed in map data, needs in-game test to confirm).
 - **HEADBUTT_TREE:** Impassable. Can be interacted with using HEADBUTT.
 - **LADDER:** A two-way warp tile.
 - **LEDGE_HOP_DOWN:** A one-way tile (can only be entered from above).
 - **MART_SHELF:** Impassable.
 - **PC:** Impassable. Interactable from the tile below it.
 - **PILLAR:** Impassable. (Confirmed in Sprout Tower).
+- **STAIRCASE:** A two-way warp tile.
 - **TALL_GRASS:** Traversable, triggers wild encounters.
 - **VOID:** Impassable.
-- **WATER:** Impassable without SURF.
 - **WALL:** Impassable.
 - **WARP_CARPET_DOWN:** A one-way warp tile. (Activation method: Stand on the tile and press Down).
 - **WARP_CARPET_LEFT:** A one-way warp tile (Activation method: Stand on the tile and press Left).
 - **WARP_CARPET_RIGHT:** A one-way warp tile (Activation method: Stand on the tile and press Right).
-- **FLOOR_UP_WALL:** Impassable. (Observed in map data, needs in-game test to confirm).
-- **BOOKSHELF:** Impassable. (Confirmed in Radio Tower 2F by attempting to walk into the tile at (11, 1) from (11, 2)).
+- **WATER:** Impassable without SURF.
 
 ## 6. My Custom Toolkit: Audit & Development
 
@@ -79,21 +80,20 @@
 #### My Custom Tools
 *   `deterministic_battle_strategist` (Tool): Provides reliable battle advice.
 *   `find_reachable_unseen_tiles` (Tool): Finds explorable unseen areas.
-*   `path_and_execute_v3` (Tool): My primary navigation tool.
-*   `map_object_extractor` (Tool): Extracts all interactable objects from a map.
 *   `find_undefeated_trainers` (Tool): Finds undefeated trainers on the current map.
+*   `map_object_extractor` (Tool): Extracts all interactable objects from a map.
+*   `path_and_execute_v3` (Tool): My primary navigation tool.
 
 #### My Custom Agents
-*   `quest_progression_advisor` (Agent): Suggests next story steps when I'm stuck.
 *   `city_exploration_planner` (Agent): Generates an efficient exploration plan for a new city.
+*   `long_range_navigator` (Agent): A high-level planner that determines the sequence of routes and cities to travel between them.
+*   `quest_progression_advisor` (Agent): Suggests next story steps when I'm stuck.
 *   `world_navigator_agent` (Agent): Suggests a new major region when local leads are exhausted.
-*   `long_range_navigator` (Agent): A high-level planner that takes a start and end location and determines the sequence of routes and cities to travel between them.
 
 ### Tool/Agent Development Ideas
 - **`generate_city_exploration_plan` (Agent Idea):** A new agent that takes a city name, uses `map_object_extractor` to find all warps and signs, then uses `city_exploration_planner` to generate an optimal exploration checklist. This would automate the creation of my city re-exploration plans.
 - **`dungeon_navigation_strategist` (Agent Idea):** A new agent that analyzes dungeon layouts and tool outputs to suggest high-level strategies for overcoming complex navigation blocks.
 - **`pre_gym_checklist` (Tool Idea):** A tool that analyzes my party composition against a known gym leader's type to suggest preparations.
-- **`long_range_navigator` (Agent Idea):** A high-level planner that takes a start and end city and determines the sequence of routes and warps to travel between them.
 
 # Goldenrod City Re-Exploration Plan (Generated)
 - [ ] Warp at (19, 1) - Route 35 Gate
@@ -449,7 +449,7 @@
 - [x] Warp at (33, 9) - PPSpeechHouse
 - [x] Warp at (9, 13) - Magnet Train Station
 - [x] GoldenrodCityStationSign at (10, 14)
-- [x] Warp at (5, 15) - Radio Tower
+- [ ] Warp at (5, 15) - Radio Tower
 - [ ] GoldenrodCityRadioTowerSign at (4, 17)
 - [ ] GoldenrodCitySign at (22, 18)
 - [ ] Warp at (14, 21) - Game Corner
@@ -505,21 +505,6 @@
 - **Warp Hallucination (CRITICAL):** During turn 37428, I experienced a severe hallucination, believing I had warped from Route 36 into the National Park Gatehouse. I was still on Route 36 at my original coordinates. This led to a failed pathfinding attempt based on an entirely false premise. This reinforces the absolute necessity of verifying my map and coordinates from the Game State *after* every warp action, before planning the next move.
 
 ### Tool/Agent Development Ideas
-- **`long_range_navigator` (Agent Idea):** A high-level planner that takes a start and end city and determines the sequence of routes and warps to travel between them.
-
-</details>
-
-<details>
-<summary>Violet City Re-Exploration Plan (Completed)</summary>
-
-- [x] Sprout Tower
-- [x] Violet City Signs (all)
-- [x] Route 31 Gate
-- [x] Pokémon Center
-- [x] VioletCityPokecenterSign at (32, 25)
-- [x] Kyle's House (Warp at 21, 29)
-
-</details>
 - **`generate_city_exploration_plan` (Agent Idea):** A new agent that takes a city name, uses `map_object_extractor` to find all warps and signs, then uses `city_exploration_planner` to generate an optimal exploration checklist. This would automate the creation of my city re-exploration plans.
 
 # Goldenrod Underground Log
@@ -552,4 +537,3 @@
 
 # Critical Bugs & Lessons
 - **Text Box Loop (CRITICAL):** During turns 37932-37937, I was stuck in a text box loop from a sign. Repeatedly pressing 'A' did not work. The solution was to press 'B' to close the dialogue. This is a critical lesson: if 'A' fails to advance or close text, the next hypothesis must be to try 'B'.
-- **STAIRCASE:** A two-way warp tile.

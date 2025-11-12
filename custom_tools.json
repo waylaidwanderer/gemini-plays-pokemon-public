@@ -749,6 +749,16 @@
         "commit_message": "feat: Add logic to find adjacent tile for impassable targets. The tool previously failed if the target coordinate was an object or impassable tile. This commit adds logic to check if the target is impassable and, if so, to find a path to the first reachable adjacent tile. This resolves a critical usability issue where I had to manually calculate adjacent coordinates.",
         "timestamp": "2025-11-12T16:10:31.971Z",
         "action_counter": 37683
+      },
+      {
+        "commit_message": "refactor: Add extensive debug logging to diagnose BFS failure. The tool is critically failing to find a simple, verifiable path in the Radio Tower. This commit adds detailed print statements to stderr to trace every step of the BFS expansion, which is essential to identify the root cause of the pathfinding logic error.",
+        "timestamp": "2025-11-12T20:17:38.746Z",
+        "action_counter": 37995
+      },
+      {
+        "commit_message": "refactor: Remove all debug logging. The extensive debug prints were essential for confirming that the pathfinding logic is correct and the 'No path found' errors were due to a genuine in-game obstacle, not a tool bug. The logging is no longer needed and has been removed to ensure a clean, parseable JSON output.",
+        "timestamp": "2025-11-12T20:18:53.838Z",
+        "action_counter": 37997
       }
     ]
   }
