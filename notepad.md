@@ -51,9 +51,6 @@
 
 # Game Mechanics & Systems
 
-## Battle Mechanics & Tips
-- **DEFENSE CURL + ROLLOUT:** Using DEFENSE CURL significantly increases the power of ROLLOUT.
-
 ## Confirmed Mechanics
 - **Respawning Obstacles:** HM-cleared obstacles (like CUT_TREE) respawn upon re-entering a map.
 - **HM Move Permanence:** HM moves cannot be forgotten through normal means.
