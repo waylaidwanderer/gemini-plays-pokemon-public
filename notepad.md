@@ -30,6 +30,7 @@
 - **Phone List Limit:** The phone list can become full, preventing you from adding new contacts.
 - **`stun_npc` Tool:** This tool freezes an NPC's movement, preventing them from moving. It does NOT make the NPC traversable; you must still navigate around them. The stun effect appears to wear off after a map transition or a certain number of turns.
 - **Evolution via Trade:** MACHOKE, KADABRA, HAUNTER, and GRAVELER evolve only by being traded.
+- **`path_plan` vs `autopress_buttons`:** `path_plan` is for coordinate-based overworld movement. `autopress_buttons` is for menu-based button string execution. Confusing them leads to critical tool failures.
 
 ## 5. Tile Mechanics
 - **COUNTER:** Impassable.
@@ -385,8 +386,7 @@
   - **Conclusion:** Hypothesis is FALSE.
 
 # Radio Tower Clues
-- A Teacher on 2F mentioned that lullabies on the radio may make POKéMON sleep.</details>
-- **(Turn 35208 - CRITICAL):** `path_plan` is for coordinate-based overworld movement. `autopress_buttons` is for menu-based button string execution. Confusing them leads to critical tool failures and wasted debugging time.
+- A Teacher on 2F mentioned that lullabies on the radio may make POKéMON sleep.
 
 # Goldenrod City Notes
 - Todd called (Turn 35401) to announce a bargain sale at the Goldenrod Dept. Store is happening now.
