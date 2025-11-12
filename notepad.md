@@ -506,3 +506,5 @@
 - **Assumption:** The path to Mahogany Town via Route 42 is completely blocked by water.
   - **Alternative Hypothesis:** There is a hidden land path on Route 42 or through Mt. Mortar that I missed.
   - **Test to Falsify:** After exhausting city re-exploration, I must thoroughly re-explore Route 42 and Mt. Mortar.
+- **VOID:** Impassable.
+- **WATER:** Impassable without SURF.
