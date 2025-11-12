@@ -506,3 +506,7 @@
 
 </details>
 - **Pathing Hallucination (CRITICAL):** During turns 37389-37390, I experienced a severe hallucination, believing I had successfully pathed to and arrived at Kyle's House when I was still standing in front of the Pokémon Center with a text box open. This reinforces the absolute necessity of verifying my position from the Game State before every single action and not assuming a path plan has completed successfully.
+- **FLOOR_UP_WALL:** Impassable. (Observed in map data, needs in-game test to confirm).
+
+### Tool/Agent Development Ideas
+- **`long_range_navigator` (Agent Idea):** A high-level planner that takes a start and end city and determines the sequence of routes and warps to travel between them.
