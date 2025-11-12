@@ -6,6 +6,14 @@
 - **Primary Blockers:** I cannot get SURF or the 'special medicine' for the sick Ampharos. All main quest paths are blocked.
 - **Current Plan:** Systematic re-exploration of all previously visited cities, starting with Violet City, to find any missed triggers or changed NPC dialogue.
 
+### Violet City Re-Exploration Plan
+- [x] Sprout Tower
+- [x] Violet City Signs (all)
+- [x] Route 31 Gate
+- [x] Pokémon Center
+- [ ] VioletCityPokecenterSign at (32, 25)
+- [ ] Kyle's House (Warp at 21, 29)
+
 ## 2. Untested Assumptions & Alternative Hypotheses (Active)
 
 - **Assumption:** The path forward is blocked by a missing key item (SURF/medicine).
@@ -17,8 +25,12 @@
 - **Assumption:** The path to Mahogany Town via Route 42 is completely blocked by water.
   - **Alternative Hypothesis:** There is a hidden land path on Route 42 or through Mt. Mortar that I missed.
   - **Test to Falsify:** After exhausting city re-exploration, I must thoroughly re-explore Route 42 and Mt. Mortar.
+- **Assumption:** My `path_and_execute_v3` tool is mostly reliable.
+  - **Alternative Hypothesis:** There is a persistent bug in how it evaluates certain impassable tiles.
+  - **Test to Falsify:** The next time it generates an invalid path, I must immediately add debug logging to find the root cause.
 
 ## 3. Critical Bugs & Lessons
+- **Hallucination Loop (CRITICAL):** I have a severe tendency to hallucinate my position and actions, especially after using warps. I repeatedly think I have moved when I haven't, leading to invalid actions and system warnings. I must break this cycle by verifying my position in the game state *before* every single action.
 - **Coordinate System Mismatch (CRITICAL):** My pathfinding tools have repeatedly failed due to using 1-based indexing for boundary checks (`1 <= x <= width`) while the game's map data is 0-indexed (`0 <= x < width`). The correct check is `0 <= coordinate < dimension`. This must be the first thing I check for any future pathfinding failures.
 - **Tool Trust:** I wasted significant time debugging `find_reachable_unseen_tiles` when it was working correctly. I must trust my tools' outputs and verify the in-game situation before assuming a bug.
 - **Item Management Bugs (CRITICAL):** Taking a held item with a full bag destroys it. Tossing items fails. The only safe way to free a slot is to have a Pokémon hold an item.
@@ -28,7 +40,7 @@
 - **HM Move Permanence:** HM moves cannot be forgotten through normal means.
 - **Multi-Press Dialogue:** Some NPC dialogues require pressing 'A' multiple times to advance all text.
 - **Phone List Limit:** The phone list can become full, preventing you from adding new contacts.
-- **`stun_npc` Tool:** This tool freezes an NPC's movement, preventing them from moving. It does NOT make the NPC traversable; you must still navigate around them. The stun effect appears to wear off after a map transition or a certain number of turns.
+- **`stun_npc` Tool:** This tool freezes an NPC's movement. It does NOT make the NPC traversable; you must still navigate around them.
 - **Evolution via Trade:** MACHOKE, KADABRA, HAUNTER, and GRAVELER evolve only by being traded.
 - **`path_plan` vs `autopress_buttons`:** `path_plan` is for coordinate-based overworld movement. `autopress_buttons` is for menu-based button string execution. Confusing them leads to critical tool failures.
 
@@ -40,12 +52,15 @@
 - **LADDER:** A two-way warp tile.
 - **LEDGE_HOP_DOWN:** A one-way tile (can only be entered from above).
 - **MART_SHELF:** Impassable.
+- **PC:** Impassable. Interactable from the tile below it.
 - **PILLAR:** Impassable. (Confirmed in Sprout Tower).
 - **TALL_GRASS:** Traversable, triggers wild encounters.
 - **VOID:** Impassable.
 - **WATER:** Impassable without SURF.
 - **WALL:** Impassable.
 - **WARP_CARPET_DOWN:** A one-way warp tile.
+- **WARP_CARPET_LEFT:** A one-way warp tile (activates by moving left onto it).
+- **WARP_CARPET_RIGHT:** A one-way warp tile (activates by moving right onto it).
 
 ## 6. My Custom Toolkit: Audit & Development
 
@@ -77,40 +92,9 @@
 *   `world_navigator_agent` (Agent): Suggests a new major region when local leads are exhausted.
 
 ### Tool/Agent Development Ideas
+- **`generate_city_exploration_plan` (Agent Idea):** A new agent that takes a city name, uses `map_object_extractor` to find all warps and signs, then uses `city_exploration_planner` to generate an optimal exploration checklist. This would automate the creation of my city re-exploration plans.
 - **`dungeon_navigation_strategist` (Agent Idea):** A new agent that analyzes dungeon layouts and tool outputs to suggest high-level strategies for overcoming complex navigation blocks.
 - **`pre_gym_checklist` (Tool Idea):** A tool that analyzes my party composition against a known gym leader's type to suggest preparations.
-
-### Violet City Re-Exploration Plan
-- [x] Sprout Tower - **CONCLUSION: DEAD END**
-- [x] SproutTowerSign at (24, 8)
-- [x] VioletCityMartSign at (10, 17)
-- [x] VioletGymSign at (15, 17)
-- [x] EarlsPokemonAcademySign at (27, 17)
-- [x] VioletCitySign at (24, 20)
-- [ ] Warp at (39, 24) - Route 31 Gate (East)
-- [ ] Warp at (31, 25) - Pokémon Center
-- [ ] VioletCityPokecenterSign at (32, 25)
-- [ ] Warp at (21, 29) - Kyle's House
-
-## 2. Active Hypotheses
-- **Hypothesis:** The block is event-based, and the trigger is an NPC I haven't spoken to since a major world event (e.g., releasing the legendary beasts).
-  - **Test:** My current systematic sweep of Violet City is the test. If this yields no leads, I will expand the sweep to other cities like Goldenrod.
-- **Hypothesis:** The trigger is a hidden item that has now appeared somewhere.
-  - **Test:** If the full NPC sweep of all cities fails, I must perform a full sweep of all cities with the ITEMFINDER on every single tile.
-
-# Archive: Log of Blocked Paths, Solved Puzzles & Old Info
-<details>
-<summary>Click to expand full game log</summary>
-
-# Gym Information
-- **Goldenrod Gym:** Normal-type. Fighting-type moves are recommended.
-
-# Key Items
-- BICYCLE: Received from the Goldenrod Bike Shop owner. Allows for faster travel.
-- ITEMFINDER: Received from a man in Ecruteak City. Used to find hidden items.
-
-<details>
-<summary>Day-Care Mystery (Route 34)</summary>
 
 # Archive: Log of Blocked Paths, Solved Puzzles & Old Info
 <details>
@@ -517,8 +501,3 @@
 </details>
 
 </details>
-- **WARP_CARPET_LEFT:** A one-way warp tile (activates by moving left onto it).
-- **WARP_CARPET_RIGHT:** A one-way warp tile (activates by moving right onto it).
-
-### Tool/Agent Development Ideas
-- **`generate_city_exploration_plan` (Tool Idea):** A tool that takes a city name, uses `map_object_extractor` to find all warps and signs, then uses `city_exploration_planner` to generate an optimal exploration checklist.
