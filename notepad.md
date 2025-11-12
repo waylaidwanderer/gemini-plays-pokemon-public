@@ -520,3 +520,4 @@
 - [x] Kyle's House (Warp at 21, 29)
 
 </details>
+- **`generate_city_exploration_plan` (Agent Idea):** A new agent that takes a city name, uses `map_object_extractor` to find all warps and signs, then uses `city_exploration_planner` to generate an optimal exploration checklist. This would automate the creation of my city re-exploration plans.
