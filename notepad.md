@@ -104,8 +104,8 @@
 - [ ] GoldenrodCityFlowerShopSign at (30, 6)
 - [ ] Warp at (24, 7) - Goldenrod Gym
 - [ ] Warp at (15, 7) - Name Rater's House
-- [ ] GoldenrodCityNameRaterSign at (12, 7)
-- [ ] GoldenrodGymSign at (26, 9)
+- [x] GoldenrodCityNameRaterSign at (12, 7)
+- [x] GoldenrodGymSign at (26, 9)
 - [ ] Warp at (33, 9) - PPSpeechHouse
 - [ ] Warp at (9, 13) - Magnet Train Station
 - [ ] GoldenrodCityStationSign at (10, 14)
