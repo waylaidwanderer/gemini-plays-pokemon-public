@@ -537,3 +537,4 @@
 
 # Critical Bugs & Lessons
 - **Text Box Loop (CRITICAL):** During turns 37932-37937, I was stuck in a text box loop from a sign. Repeatedly pressing 'A' did not work. The solution was to press 'B' to close the dialogue. This is a critical lesson: if 'A' fails to advance or close text, the next hypothesis must be to try 'B'.
+- **`automated_poi_navigator` (Agent Idea):** An agent that takes my current position and the notepad's exploration plan, identifies the next unvisited POI, and returns its coordinates. This would automate the 'what's next?' part of my exploration loop.
