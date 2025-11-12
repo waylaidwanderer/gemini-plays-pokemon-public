@@ -62,13 +62,6 @@
 
 # Game Mechanics & Systems
 
-## Tile Traversal Rules (Consolidated)
-- **Impassable:** BOOKSHELF, BUOY (assumed), COUNTER, CUT_TREE, HEADBUTT_TREE, INCENSE_BURNER, MART_SHELF, PC, PILLAR (usually), POKEDEX, RADIO, TOWN_MAP, TV, VOID, WALL, WATER, WINDOW, TABLE.
-- **Traversable (Visual Obstacles):** PLANT (The sprite is an obstacle, but the tile type is FLOOR).
-- **Traversable:** FLOOR, GRASS, LONG_GRASS, TALL_GRASS.
-- **One-Way (Ledges):** LEDGE_HOP_DOWN, LEDGE_HOP_LEFT, LEDGE_HOP_RIGHT, FLOOR_UP_WALL.
-- **Warps:** CAVE, DOOR, LADDER, PIT, WARP_CARPET, WARP_CARPET_UP, WARP_CARPET_DOWN, WARP_CARPET_LEFT, WARP_CARPET_RIGHT.
-
 ## Battle Mechanics & Tips
 - **DEFENSE CURL + ROLLOUT:** Using DEFENSE CURL significantly increases the power of ROLLOUT.
 
