@@ -50,20 +50,31 @@
 ## 6. My Custom Toolkit: Audit & Development
 
 ### My Tools & Agents (Audited)
+
+#### Built-in Tools & Agents
+*   `notepad_edit` (Tool): Edits my persistent notepad document.
+*   `run_code` (Tool): Executes single-use Python code snippets.
+*   `define_map_marker` (Tool): Creates or updates a map marker.
+*   `delete_map_marker` (Tool): Deletes a map marker.
+*   `stun_npc` (Tool): Freezes an NPC's movement.
+*   `select_battle_option` (Tool): Automatically selects a main battle menu option.
+*   `define_tool` (Tool): Defines a new custom tool.
+*   `delete_tool` (Tool): Deletes a custom tool.
+*   `define_agent` (Agent): Defines a new custom agent.
+*   `delete_agent` (Agent): Deletes a custom agent.
+
+#### My Custom Tools
 *   `deterministic_battle_strategist` (Tool): Provides reliable battle advice.
 *   `find_reachable_unseen_tiles` (Tool): Finds explorable unseen areas.
 *   `path_and_execute_v3` (Tool): My primary navigation tool.
 *   `map_object_extractor` (Tool): Extracts all interactable objects from a map.
-*   `stun_npc` (Tool): Freezes an NPC's movement.
 *   `find_undefeated_trainers` (Tool): Finds undefeated trainers on the current map.
-*   `select_battle_option` (Tool): Automatically selects a main battle menu option.
-*   `define_tool` (Tool): Defines a new custom tool.
-*   `delete_tool` (Tool): Deletes a custom tool.
+
+#### My Custom Agents
 *   `quest_progression_advisor` (Agent): Suggests next story steps when I'm stuck.
 *   `puzzle_solver_assistant` (Agent): Provides simple hypotheses for puzzles.
 *   `city_exploration_planner` (Agent): Generates an efficient exploration plan for a new city.
 *   `world_navigator_agent` (Agent): Suggests a new major region when local leads are exhausted.
-*   `delete_agent` (Agent): Deletes a custom agent.
 
 ### Tool/Agent Development Ideas
 - **`dungeon_navigation_strategist` (Agent Idea):** A new agent that analyzes dungeon layouts and tool outputs to suggest high-level strategies for overcoming complex navigation blocks.
