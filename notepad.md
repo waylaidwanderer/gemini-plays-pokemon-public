@@ -443,13 +443,13 @@
 - [x] Warp at (33, 9) - PPSpeechHouse
 - [x] Warp at (9, 13) - Magnet Train Station
 - [x] GoldenrodCityStationSign at (10, 14)
-- [ ] Warp at (5, 15) - Radio Tower
+- [x] Warp at (5, 15) - Radio Tower
 - [x] GoldenrodCityRadioTowerSign at (4, 17)
 - [x] GoldenrodCitySign at (22, 18)
 - [x] Warp at (14, 21) - Game Corner
 - [ ] Warp at (31, 21) - House
 - [ ] GoldenrodCityGameCornerSign at (16, 22)
-- [ ] Warp at (5, 25) - Bill's Family's House
+- [x] Warp at (5, 25) - Bill's Family's House
 - [ ] Warp at (15, 27) - Pokémon Center
 - [ ] GoldenrodCityPokecenterSign at (16, 27)
 - [ ] Warp at (24, 27) - Dept. Store
