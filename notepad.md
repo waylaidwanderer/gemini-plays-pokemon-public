@@ -101,9 +101,9 @@
   - **Conclusion:** Hypothesis is FALSE.
 - **Hypothesis 5:** The trigger to move the pillar is located on the 2nd floor, accessible via the ladder at (17, 3).
   - **Result:** The pathfinding tool confirmed there is no path to the ladder at (17, 3) from the western side of the room.
-  - **Conclusion:** Hypothesis is UNTESTABLE and likely FALSE. The two sides of 1F are separate.
-- **New Hypothesis 6:** The trigger to move the pillar is on the section of the 2nd floor accessible from the ladder at (2, 6). I must have missed it on my initial exploration.
-  - **Test Plan:** Travel to the ladder at (2, 6) and ascend to Sprout Tower 2F. Thoroughly re-explore this area for a switch, NPC, or event that affects the 1F pillar.
+  - **Conclusion:** Hypothesis is UNTESTABLE and CONFIRMED FALSE. The two sides of 1F are separate areas and do not connect.
+- **New Hypothesis 6:** The trigger to move the pillar is on the section of the 2nd floor accessible from the ladder at (2, 6). To reach this area, I must first return to the initial section of 1F via the ladder at (6, 4).
+  - **Test Plan:** Travel to the ladder at (6, 4) and descend. Then, navigate to the ladder at (2, 6) and ascend to the other section of Sprout Tower 2F. Thoroughly re-explore this new area for a switch, NPC, or event.
 
 # Archive: Log of Blocked Paths, Solved Puzzles & Old Info
 <details>
