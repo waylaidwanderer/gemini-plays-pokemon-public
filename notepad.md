@@ -5,19 +5,35 @@
 ### Current Status: Blocked - Main Quest Progression Halted
 - **Primary Blockers:** I cannot get SURF or the 'special medicine' for the sick Ampharos. All main quest paths are blocked.
 - **Strongest Lead:** A Teacher in the Olivine Pokémon Center mentioned a person in Cianwood City with a rare Pokémon. This strongly implies the 'special medicine' is in Cianwood, which requires SURF to reach.
-### Battle Mechanics & Tips
+
+## 2. Critical Bugs & Lessons
+- **Coordinate System Mismatch (CRITICAL):** My pathfinding tools have repeatedly failed due to using 1-based indexing for boundary checks (`1 <= x <= width`) while the game's map data is 0-indexed (`0 <= x < width`). This must be the first thing I check for any future pathfinding failures. The correct check is `0 <= coordinate < dimension`.
+- **Item Management Bugs (CRITICAL):** Taking a held item with a full bag destroys it. Tossing items fails. The only safe way to free a slot is to have a Pokémon hold an item.
+
+## 3. Battle Mechanics & Tips
 - **DEFENSE CURL + ROLLOUT:** Using DEFENSE CURL significantly increases the power of ROLLOUT.
 
-### Confirmed System Mechanics
+## 4. Confirmed System Mechanics
 - **Respawning Obstacles:** HM-cleared obstacles (like CUT_TREE) respawn upon re-entering a map.
 - **HM Move Permanence:** HM moves cannot be forgotten through normal means.
-- **Item Management Bugs (CRITICAL):** Taking a held item with a full bag destroys it. Tossing items fails. The only safe way to free a slot is to have a Pokémon hold an item.
-- **Evolution via Trade:** MACHOKE, KADABRA, HAUNTER, and GRAVELER evolve only by being traded.
 - **Multi-Press Dialogue:** Some NPC dialogues require pressing 'A' multiple times to advance all text before a choice prompt appears.
 - **Phone List Limit:** The phone list can hold a limited number of contacts. If full, you cannot add more until one is deleted.
 - **`stun_npc` Tool:** This tool freezes an NPC's movement. It does NOT make the NPC traversable; they remain a solid obstacle.
+- **Evolution via Trade:** MACHOKE, KADABRA, HAUNTER, and GRAVELER evolve only by being traded.
 
-## 3. My Custom Toolkit: Audit & Development
+## 5. Tile Mechanics
+- **COUNTER:** Impassable.
+- **DOOR:** A two-way warp tile that transports the player between maps when moved onto.
+- **FLOOR:** Traversable.
+- **HEADBUTT_TREE:** Impassable. Can be interacted with using the move HEADBUTT to trigger wild Pokémon encounters.
+- **LADDER:** A two-way warp tile that transports the player between floors when moved onto.
+- **LEDGE_HOP_DOWN:** A one-way tile that can only be traversed by moving down onto it from the tile above.
+- **TALL_GRASS:** Traversable. Functions like regular GRASS, but may have different encounter rates.
+- **VOID:** Impassable.
+- **WALL:** Impassable.
+- **WARP_CARPET_DOWN:** A one-way warp tile that transports the player when moved onto.
+
+## 6. My Custom Toolkit: Audit & Development
 
 ### My Tools & Agents (Audited)
 *   **`deterministic_battle_strategist` (Tool):** Provides reliable battle advice.
@@ -33,7 +49,7 @@
 - **`dungeon_floor_planner` v2 (CRITICAL FIX):** The current version does not check if its planned points of interest are actually reachable. It needs to integrate pathfinding logic (from `path_and_execute_v3`) to verify pathability between each POI to generate a valid, traversable route.
 - **`dungeon_navigation_strategist` (Agent Idea):** A new agent that analyzes dungeon layouts and tool outputs (e.g., pathfinder failures) to suggest high-level strategies for overcoming complex navigation blocks, such as when a path is blocked by an unmovable NPC or a puzzle.
 
-## 4. Untested Assumptions & Alternative Hypotheses
+## 7. Untested Assumptions & Alternative Hypotheses
 
 - **Assumption:** The medicine for the Ampharos is an item found *within* the Lighthouse.
   - **Alternative Hypothesis:** The medicine must be retrieved from another city (e.g., Cianwood) and brought *to* the Lighthouse. The immediate goal in the lighthouse may just be to reach the top to speak with the Gym Leader.
@@ -43,7 +59,7 @@
   - **Alternative Hypothesis:** The Lighthouse is currently unsolvable without a key item (like SURF) obtained elsewhere. I may be intended to leave and explore another region first.
   - **Test to Falsify:** If a complete exploration of all reachable areas in the lighthouse yields no path forward, I must conclude I am blocked and use my `world_navigator_agent` to find an alternative main quest path.
 
-# Archive: Log of Blocked Paths, Solved Pzzles & Old Info
+# Archive: Log of Blocked Paths, Solved Puzzles & Old Info
 
 <details>
 <summary>Click to expand full game log</summary>
@@ -180,9 +196,6 @@
 
 # Route 42 Notes
 - A sign on Route 42 confirms it connects Ecruteak City and Mahogany Town.
-
-## Recurring Bugs & Lessons
-- **Coordinate System Mismatch (CRITICAL):** My pathfinding tools have repeatedly failed due to using 1-based indexing for boundary checks (`1 <= x <= width`) while the game's map data is 0-indexed (`0 <= x < width`). This must be the first thing I check for any future pathfinding failures. The correct check is `0 <= coordinate < dimension`.
 
 # Olivine City Notes
 - Rival Crimson appeared outside the Gym. He said the Gym Leader is not here, but is at the Lighthouse taking care of a sick Pokémon. My next step should be to find the Lighthouse.
@@ -418,14 +431,6 @@
 - **stun_npc:** This tool freezes an NPC, preventing them from moving. It does NOT make the NPC traversable. You still must navigate around the stunned NPC.
 - **Phone List Limit:** The phone list can become full, preventing you from adding new contacts.
 
-# Tile Mechanics
-- **COUNTER:** Impassable.
-- **LADDER:** A two-way warp tile that transports the player between floors when moved onto.
-- **WALL:** Impassable.
-- **FLOOR:** Traversable.
-- **VOID:** Impassable.
-- **WARP_CARPET_DOWN:** A one-way warp tile that transports the player when moved onto.
-
 # Goldenrod City Re-Exploration Plan (Consolidated)
 - [x] Warp at (19, 1) - Route 35 Gate
 - [x] Warp at (29, 5) - Flower Shop
@@ -453,7 +458,6 @@
 - [ ] Warp at (29, 29) - Bike Shop
 - [ ] GoldenrodCityBikeShopSign at (28, 30)
 - [ ] GoldenrodCityUndergroundSignSouth at (12, 30)
-- FLOOR: Traversable.
 
 <details>
 <summary>Ecruteak Dance Theater Gentleman (Hypothesis Falsified - Post-Morty)</summary>
@@ -464,22 +468,3 @@
 - **Conclusion:** Hypothesis is FALSE. The trigger for this NPC is something else, or he has no further role.
 
 </details>
-- **LEDGE_HOP_DOWN:** A one-way tile that can only be traversed by moving down onto it from the tile above.
-
-# OVERWATCH CRITIQUE FIXES (Turn 36872)
-
-## Recurring Bugs & Lessons (Moved from Archive)
-- **Coordinate System Mismatch (CRITICAL):** My pathfinding tools have repeatedly failed due to using 1-based indexing for boundary checks (`1 <= x <= width`) while the game's map data is 0-indexed (`0 <= x < width`). This must be the first thing I check for any future pathfinding failures. The correct check is `0 <= coordinate < dimension`.
-
-## Tile Mechanics (Additions)
-- **HEADBUTT_TREE:** Impassable. Can be interacted with using the move HEADBUTT to trigger wild Pokémon encounters.
-- **DOOR:** A two-way warp tile that transports the player between maps when moved onto.
-
-# OVERWATCH CRITIQUE FIXES (Turn 36872)
-
-## Recurring Bugs & Lessons (Moved from Archive)
-- **Coordinate System Mismatch (CRITICAL):** My pathfinding tools have repeatedly failed due to using 1-based indexing for boundary checks (`1 <= x <= width`) while the game's map data is 0-indexed (`0 <= x < width`). This must be the first thing I check for any future pathfinding failures. The correct check is `0 <= coordinate < dimension`.
-
-## Tile Mechanics (Additions)
-- **HEADBUTT_TREE:** Impassable. Can be interacted with using the move HEADBUTT to trigger wild Pokémon encounters.
-- **DOOR:** A two-way warp tile that transports the player between maps when moved onto.
