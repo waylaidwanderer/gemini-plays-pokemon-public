@@ -86,7 +86,7 @@
 
 #### My Custom Agents
 *   `city_exploration_planner` (Agent): Generates an efficient exploration plan for a new city.
-*   `long_range_navigator` (Agent): A high-level planner that determines the sequence of routes and cities to travel between them.
+
 *   `quest_progression_advisor` (Agent): Suggests next story steps when I'm stuck.
 *   `world_navigator_agent` (Agent): Suggests a new major region when local leads are exhausted.
 
