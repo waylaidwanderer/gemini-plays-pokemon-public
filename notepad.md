@@ -97,24 +97,20 @@
 - [ ] Warp at (39, 25) - Route 31 Gate (East, Glitch Warp)
 - [ ] Warp at (21, 29) - Kyle's House
 
-# Sprout Tower 1F Puzzle Log
-- **Hypothesis 1:** Interacting with the wandering Sage at (6, 7) will move the central pillar.
-  - **Result:** The Sage provided only lore dialogue. The pillar did not move.
-  - **Conclusion:** Hypothesis is FALSE.
-- **Hypothesis 2:** Interacting with the stationary Sage at (7, 4) will move the central pillar.
-  - **Result:** The Sage provided a hint about an HM but did not move the pillar.
-  - **Conclusion:** Hypothesis is FALSE.
-- **Hypothesis 3:** Interacting with SAGE CHOW at (3, 5) will move the central pillar.
-  - **Result:** Path to SAGE CHOW is physically blocked by a wall. Unable to test.
-  - **Conclusion:** Hypothesis is UNTESTABLE from current location.
-- **Hypothesis 4:** Interacting with the Teacher at (9, 9) will move the central pillar.
-  - **Result:** The Teacher provided only lore dialogue. The pillar did not move.
-  - **Conclusion:** Hypothesis is FALSE.
-- **Hypothesis 5:** The trigger to move the pillar is located on the 2nd floor, accessible via the ladder at (17, 3).
-  - **Result:** The pathfinding tool confirmed there is no path to the ladder at (17, 3) from the western side of the room.
-  - **Conclusion:** Hypothesis is UNTESTABLE and CONFIRMED FALSE. The two sides of 1F are separate areas and do not connect.
-- **New Hypothesis 6:** The trigger to move the pillar is on the section of the 2nd floor accessible from the ladder at (2, 6). To reach this area, I must first return to the initial section of 1F via the ladder at (6, 4).
-  - **Test Plan:** Travel to the ladder at (6, 4) and descend. Then, navigate to the ladder at (2, 6) and ascend to the other section of Sprout Tower 2F. Thoroughly re-explore this new area for a switch, NPC, or event.
+## 2. Active Puzzles & Hypotheses
+
+### Sprout Tower 1F Pillar Puzzle
+- **Goal:** Move the central pillar to access the rest of the tower.
+- **Current Understanding:** The tower is divided into sections. The trigger for the pillar is not on the eastern side of 1F or 2F. The solution must be on the western side of 2F.
+- **Active Hypothesis:** The trigger is on the section of the 2nd floor accessible from the ladder at (2, 6). 
+- **Test Plan:** Travel to the ladder at (2, 6) and ascend. Thoroughly explore this new area for a switch, NPC, or event.
+
+### Log of Failed Hypotheses (Sprout Tower)
+- **H1:** Interacting with wandering Sage at (6, 7) moves the pillar. (Result: Lore dialogue only).
+- **H2:** Interacting with stationary Sage at (7, 4) moves the pillar. (Result: Lore dialogue only).
+- **H3:** Interacting with SAGE CHOW at (3, 5) moves the pillar. (Result: Path is blocked by a wall).
+- **H4:** Interacting with the Teacher at (9, 9) moves the pillar. (Result: Lore dialogue only).
+- **H5:** The trigger is on 2F, accessible via the ladder at (17, 3). (Result: Path is blocked by a wall).
 
 # Archive: Log of Blocked Paths, Solved Puzzles & Old Info
 <details>
