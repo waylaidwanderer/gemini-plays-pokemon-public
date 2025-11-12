@@ -457,3 +457,9 @@
 ### Tile Traversal Rules
 - **Impassable (Assumed, Untested):** BUOY.
 - **Warps (Contextual):** WINDOW tiles can function as warps, as seen in Olivine Lighthouse.
+
+## Game Mechanics & Systems
+
+### Tile Traversal Rules
+- **Impassable (Assumed, Untested):** BUOY.
+- **Warps (Contextual):** WINDOW tiles can function as warps, as seen in Olivine Lighthouse.
