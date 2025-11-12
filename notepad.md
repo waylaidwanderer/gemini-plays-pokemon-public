@@ -527,3 +527,13 @@
   - **Test:** Attempted to interact with the counter in front of him multiple times from the correct position (5, 10).
   - **Result:** No interaction or shop menu appeared.
   - **Conclusion:** Hypothesis is FALSE. This NPC is only a trainer.
+
+# Goldenrod Underground Hidden Item Puzzle Log (Super Potion @ 4, 18)
+- **Hypothesis 1:** Stand on the item tile (4, 18) and press 'A'.
+  - **Result:** Tested while facing left, up, down, and right. All attempts failed.
+  - **Conclusion:** Hypothesis is FALSE.
+- **Hypothesis 2:** Stand on an adjacent tile and press 'A' while facing the item.
+  - **Result:** Tested from (5, 18) facing left. Attempt failed.
+  - **Conclusion:** Hypothesis is likely FALSE.
+- **New Hypothesis:** Stand on the tile *below* the item (4, 19), face up, and press 'A'.
+  - **Test Plan:** Move to (4, 19), turn to face up, then press 'A'.
