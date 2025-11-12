@@ -534,5 +534,22 @@
         "action_counter": 36721
       }
     ]
+  },
+  "find_undefeated_trainers": {
+    "description": "Parses the map XML to find all trainers (both on and off-screen) and cross-references them with '☠️' map markers to return a list of coordinates for undefeated trainers.",
+    "input_schema": {},
+    "python_script": "import xml.etree.ElementTree as ET\nimport json\n\ndef find_trainers():\n    root = ET.fromstring(map_xml_string)\n    all_trainers = {}\n    defeated_trainer_ids = set()\n    trainer_labels = {'SUPER_NERD', 'POKEMANIAC', 'POKEFAN_M', 'POKEFAN_F', 'YOUNGSTER', 'LASS', 'BURGLAR'}\n\n    for row_elem in root.findall('Row'):\n        for tile_elem in row_elem.findall('Tile'):\n            x = int(tile_elem.get('id'))\n            y = int(row_elem.get('id'))\n            \n            # Find trainers from on-screen objects\n            for obj_elem in tile_elem.findall('Object'):\n                if obj_elem.get('name') == 'OBJECTTYPE_TRAINER':\n                    trainer_id = int(obj_elem.get('id'))\n                    if trainer_id not in all_trainers:\n                        all_trainers[trainer_id] = {'x': x, 'y': y}\n            \n            # Find trainers from markers and also collect defeated IDs\n            for marker_elem in tile_elem.findall('Marker'):\n                obj_id_str = marker_elem.get('object_id')\n                if not obj_id_str:\n                    continue\n                \n                obj_id = int(obj_id_str)\n                \n                if marker_elem.get('emoji') == '☠️':\n                    defeated_trainer_ids.add(obj_id)\n                \n                if marker_elem.get('emoji') == '📍':\n                    label = marker_elem.text\n                    if label in trainer_labels:\n                         if obj_id not in all_trainers:\n                            all_trainers[obj_id] = {'x': x, 'y': y}\n\n    undefeated = []\n    for trainer_id, coords in all_trainers.items():\n        if trainer_id not in defeated_trainer_ids:\n            undefeated.append(coords)\n            \n    print(json.dumps(undefeated))\n\nfind_trainers()",
+    "history": [
+      {
+        "commit_message": "feat: Create find_undefeated_trainers tool. This tool automates the process of locating trainers who have not yet been defeated by parsing map data and cross-referencing with existing '☠️' markers. This directly supports the new hypothesis for solving the Goldenrod Underground puzzle and addresses self-assessment feedback to automate repetitive tasks.",
+        "timestamp": "2025-11-12T04:18:03.990Z",
+        "action_counter": 36746
+      },
+      {
+        "commit_message": "feat: Refactor to find off-screen trainers. The tool now parses '📍' map markers to identify trainers who are not currently on screen, cross-referencing them against '☠️' markers. This resolves a critical failure where the tool would incorrectly report no undefeated trainers were present on a map if they were out of view.",
+        "timestamp": "2025-11-12T04:19:31.913Z",
+        "action_counter": 36749
+      }
+    ]
   }
 }
