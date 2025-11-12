@@ -479,7 +479,7 @@
 - [x] Warp at (33, 9) - PPSpeechHouse
 - [x] Warp at (9, 13) - Magnet Train Station
 - [x] GoldenrodCityStationSign at (10, 14)
-- [ ] Warp at (5, 15) - Radio Tower
+- [x] Warp at (5, 15) - Radio Tower (Blocked - stairs to 2F push player back)
 - [ ] GoldenrodCityRadioTowerSign at (4, 17)
 - [ ] GoldenrodCitySign at (22, 18)
 - [ ] Warp at (14, 21) - Game Corner
