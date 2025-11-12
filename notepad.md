@@ -470,7 +470,7 @@
 # Goldenrod City Re-Exploration Plan (Generated)
 - [x] Warp at (19, 1) - Route 35 Gate
 - [x] Warp at (9, 5) - Underground Entrance (North)
-- [ ] Warp at (29, 5) - Flower Shop
+- [x] Warp at (29, 5) - Flower Shop
 - [ ] GoldenrodCityUndergroundSignNorth at (8, 6)
 - [ ] GoldenrodCityFlowerShopSign at (30, 6)
 - [ ] GoldenrodCityNameRaterSign at (12, 7)
