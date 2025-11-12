@@ -13,7 +13,7 @@
 
 - **Assumption:** The path forward is blocked by a missing key item (SURF/medicine).
   - **Alternative Hypothesis:** The block is event-based, and the trigger is an NPC I haven't spoken to since a major world event (e.g., releasing the legendary beasts).
-  - **Test to Falsify:** My current systematic sweep of Violet City is the test. If this yields no leads, I will expand the sweep to other cities like Goldenrod.
+  - **Test to Falsify:** My current systematic sweep of Violet City is the test. If this yields no new leads, I will expand the sweep to other cities like Goldenrod.
 - **Assumption:** The trigger for progression is an NPC I need to re-talk to.
   - **Alternative Hypothesis:** The trigger is a hidden item that has now appeared somewhere.
   - **Test to Falsify:** If the full NPC sweep of all cities fails, I must perform a full sweep of all cities with the ITEMFINDER on every single tile.
@@ -94,6 +94,35 @@
 - **`dungeon_navigation_strategist` (Agent Idea):** A new agent that analyzes dungeon layouts and tool outputs to suggest high-level strategies for overcoming complex navigation blocks.
 - **`pre_gym_checklist` (Tool Idea):** A tool that analyzes my party composition against a known gym leader's type to suggest preparations.
 - **`long_range_navigator` (Agent Idea):** A high-level planner that takes a start and end city and determines the sequence of routes and warps to travel between them.
+
+# Goldenrod City Re-Exploration Plan (Generated)
+- [ ] Warp at (19, 1) - Route 35 Gate
+- [ ] Warp at (29, 5) - Flower Shop
+- [ ] Warp at (9, 5) - Underground Entrance (North)
+- [ ] GoldenrodCityUndergroundSignNorth at (8, 6)
+- [ ] GoldenrodCityFlowerShopSign at (30, 6)
+- [ ] Warp at (24, 7) - Goldenrod Gym
+- [ ] Warp at (15, 7) - Name Rater's House
+- [ ] GoldenrodCityNameRaterSign at (12, 7)
+- [ ] GoldenrodGymSign at (26, 9)
+- [ ] Warp at (33, 9) - PPSpeechHouse
+- [ ] Warp at (9, 13) - Magnet Train Station
+- [ ] GoldenrodCityStationSign at (10, 14)
+- [ ] Warp at (5, 15) - Radio Tower
+- [ ] GoldenrodCityRadioTowerSign at (4, 17)
+- [ ] GoldenrodCitySign at (22, 18)
+- [ ] Warp at (14, 21) - Game Corner
+- [ ] Warp at (31, 21) - House
+- [ ] GoldenrodCityGameCornerSign at (16, 22)
+- [ ] Warp at (5, 25) - Bill's Family's House
+- [ ] GoldenrodDeptStoreSign at (26, 27)
+- [ ] Warp at (24, 27) - Dept. Store
+- [ ] GoldenrodCityPokecenterSign at (16, 27)
+- [ ] Warp at (15, 27) - Pokémon Center
+- [ ] Warp at (11, 29) - Underground Entrance (South)
+- [ ] Warp at (29, 29) - Bike Shop
+- [ ] GoldenrodCityBikeShopSign at (28, 30)
+- [ ] GoldenrodCityUndergroundSignSouth at (12, 30)
 
 # Archive: Log of Blocked Paths, Solved Puzzles & Old Info
 <details>
@@ -461,35 +490,6 @@
 
 </details>
 
-# Goldenrod City Re-Exploration Plan (Generated)
-- [x] Warp at (19, 1) - Route 35 Gate
-- [x] Warp at (9, 5) - Underground Entrance (North)
-- [x] Warp at (29, 5) - Flower Shop
-- [x] GoldenrodCityUndergroundSignNorth at (8, 6)
-- [x] GoldenrodCityFlowerShopSign at (30, 6)
-- [x] GoldenrodCityNameRaterSign at (12, 7)
-- [x] Warp at (15, 7) - Name Rater's House
-- [x] Warp at (24, 7) - Goldenrod Gym (Mistakenly entered)
-- [x] GoldenrodGymSign at (26, 9)
-- [x] Warp at (33, 9) - PPSpeechHouse
-- [x] Warp at (9, 13) - Magnet Train Station
-- [x] GoldenrodCityStationSign at (10, 14)
-- [x] Warp at (5, 15) - Radio Tower
-- [ ] GoldenrodCityRadioTowerSign at (4, 17)
-- [ ] GoldenrodCitySign at (22, 18)
-- [ ] Warp at (14, 21) - Game Corner
-- [ ] Warp at (31, 21) - House
-- [ ] GoldenrodCityGameCornerSign at (16, 22)
-- [ ] Warp at (5, 25) - Bill's Family's House
-- [ ] Warp at (15, 27) - Pokémon Center
-- [ ] GoldenrodCityPokecenterSign at (16, 27)
-- [ ] Warp at (24, 27) - Dept. Store
-- [ ] GoldenrodDeptStoreSign at (26, 27)
-- [ ] Warp at (11, 29) - Underground Entrance (South)
-- [ ] Warp at (29, 29) - Bike Shop
-- [ ] GoldenrodCityUndergroundSignSouth at (12, 30)
-- [ ] GoldenrodCityBikeShopSign at (28, 30)
-
 <details>
 <summary>Ecruteak Dance Theater Gentleman (Hypothesis Falsified - Post-Morty)</summary>
 
@@ -549,32 +549,3 @@
 - **Conclusion:** Hypothesis is FALSE. The HM SURF is not obtained from the Kimono Girls at this time.
 
 </details>
-
-# Goldenrod City Re-Exploration Plan (Generated)
-- [ ] Warp at (19, 1) - Route 35 Gate
-- [ ] Warp at (29, 5) - Flower Shop
-- [ ] Warp at (9, 5) - Underground Entrance (North)
-- [ ] GoldenrodCityUndergroundSignNorth at (8, 6)
-- [ ] GoldenrodCityFlowerShopSign at (30, 6)
-- [ ] Warp at (24, 7) - Goldenrod Gym
-- [ ] Warp at (15, 7) - Name Rater's House
-- [ ] GoldenrodCityNameRaterSign at (12, 7)
-- [ ] GoldenrodGymSign at (26, 9)
-- [ ] Warp at (33, 9) - PPSpeechHouse
-- [ ] Warp at (9, 13) - Magnet Train Station
-- [ ] GoldenrodCityStationSign at (10, 14)
-- [ ] Warp at (5, 15) - Radio Tower
-- [ ] GoldenrodCityRadioTowerSign at (4, 17)
-- [ ] GoldenrodCitySign at (22, 18)
-- [ ] Warp at (14, 21) - Game Corner
-- [ ] Warp at (31, 21) - House
-- [ ] GoldenrodCityGameCornerSign at (16, 22)
-- [ ] Warp at (5, 25) - Bill's Family's House
-- [ ] GoldenrodDeptStoreSign at (26, 27)
-- [ ] Warp at (24, 27) - Dept. Store
-- [ ] GoldenrodCityPokecenterSign at (16, 27)
-- [ ] Warp at (15, 27) - Pokémon Center
-- [ ] Warp at (11, 29) - Underground Entrance (South)
-- [ ] Warp at (29, 29) - Bike Shop
-- [ ] GoldenrodCityBikeShopSign at (28, 30)
-- [ ] GoldenrodCityUndergroundSignSouth at (12, 30)
