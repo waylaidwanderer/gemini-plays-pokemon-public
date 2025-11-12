@@ -110,7 +110,7 @@
 - [x] GoldenrodCityStationSign at (10, 14)
 - [x] Warp at (5, 15) - Radio Tower
 - [x] GoldenrodCityRadioTowerSign at (4, 17)
-- [ ] GoldenrodCitySign at (22, 18)
+- [x] GoldenrodCitySign at (22, 18)
 - [ ] Warp at (14, 21) - Game Corner
 - [ ] Warp at (31, 21) - House
 - [ ] GoldenrodCityGameCornerSign at (16, 22)
@@ -451,7 +451,7 @@
 - [x] GoldenrodCityStationSign at (10, 14)
 - [ ] Warp at (5, 15) - Radio Tower
 - [x] GoldenrodCityRadioTowerSign at (4, 17)
-- [ ] GoldenrodCitySign at (22, 18)
+- [x] GoldenrodCitySign at (22, 18)
 - [ ] Warp at (14, 21) - Game Corner
 - [ ] Warp at (31, 21) - House
 - [ ] GoldenrodCityGameCornerSign at (16, 22)
