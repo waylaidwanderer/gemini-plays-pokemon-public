@@ -83,7 +83,7 @@
 ### Violet City Re-Exploration Plan
 - [x] Sprout Tower - **CONCLUSION: DEAD END**
 - [x] SproutTowerSign at (24, 8)
-- [ ] VioletCityMartSign at (10, 17)
+- [x] VioletCityMartSign at (10, 17)
 - [ ] VioletGymSign at (15, 17)
 - [ ] EarlsPokemonAcademySign at (27, 17)
 - [ ] VioletCitySign at (24, 20)
