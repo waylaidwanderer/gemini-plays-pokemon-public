@@ -510,3 +510,4 @@
 
 ### Tool/Agent Development Ideas
 - **`long_range_navigator` (Agent Idea):** A high-level planner that takes a start and end city and determines the sequence of routes and warps to travel between them.
+- **Warp Hallucination (CRITICAL):** During turn 37428, I experienced a severe hallucination, believing I had warped from Route 36 into the National Park Gatehouse. I was still on Route 36 at my original coordinates. This led to a failed pathfinding attempt based on an entirely false premise. This reinforces the absolute necessity of verifying my map and coordinates from the Game State *after* every warp action, before planning the next move.
