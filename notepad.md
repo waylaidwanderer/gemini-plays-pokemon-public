@@ -85,7 +85,6 @@
 
 #### My Custom Agents
 *   `quest_progression_advisor` (Agent): Suggests next story steps when I'm stuck.
-*   `puzzle_solver_assistant` (Agent): Provides simple hypotheses for puzzles.
 *   `city_exploration_planner` (Agent): Generates an efficient exploration plan for a new city.
 *   `world_navigator_agent` (Agent): Suggests a new major region when local leads are exhausted.
 *   `long_range_navigator` (Agent): A high-level planner that takes a start and end location and determines the sequence of routes and cities to travel between them.
