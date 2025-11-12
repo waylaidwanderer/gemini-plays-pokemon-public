@@ -110,7 +110,7 @@
 - **H2:** Interacting with stationary Sage at (7, 4) moves the pillar. (Result: Lore dialogue only).
 - **H3:** Interacting with SAGE CHOW at (3, 5) moves the pillar. (Result: Path is blocked by a wall).
 - **H4:** Interacting with the Teacher at (9, 9) moves the pillar. (Result: Lore dialogue only).
-- **H5:** The trigger is on 2F, accessible via the ladder at (17, 3). (Result: Path is blocked by a wall).
+- **H5:** The trigger is on 2F, accessible via the ladder at (17, 3). (Result: The pathfinding tool confirmed there is no path to the ladder at (17, 3) from the western side of the room. The two sides of 1F are separate.)
 
 # Archive: Log of Blocked Paths, Solved Puzzles & Old Info
 <details>
