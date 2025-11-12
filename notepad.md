@@ -63,7 +63,6 @@
 - **WATER:** Impassable without SURF.
 - **WALL:** Impassable.
 - **WARP_CARPET_DOWN:** A one-way warp tile. (Activation method: Stand on the tile and press Down).
-- **WARP_CARPET_DOWN:** A one-way warp tile. (Activation method: Stand on the tile and press Down).
 - **WARP_CARPET_LEFT:** A one-way warp tile (Activation method: Stand on the tile and press Left).
 - **WARP_CARPET_RIGHT:** A one-way warp tile (Activation method: Stand on the tile and press Right).
 
