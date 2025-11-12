@@ -473,7 +473,7 @@
 - [x] GoldenrodCityUndergroundSignNorth at (8, 6)
 - [x] GoldenrodCityFlowerShopSign at (30, 6)
 - [x] GoldenrodCityNameRaterSign at (12, 7)
-- [ ] Warp at (15, 7) - Name Rater's House
+- [x] Warp at (15, 7) - Name Rater's House
 - [ ] Warp at (24, 7) - Bill's House
 - [ ] GoldenrodGymSign at (26, 9)
 - [ ] Warp at (33, 9) - PPSpeechHouse
