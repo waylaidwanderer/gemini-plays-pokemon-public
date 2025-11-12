@@ -108,7 +108,7 @@
 - [x] Warp at (14, 21) - Game Corner
 - [ ] Warp at (31, 21) - House
 - [ ] GoldenrodCityGameCornerSign at (16, 22)
-- [ ] Warp at (5, 25) - Bill's Family's House
+- [x] Warp at (5, 25) - Bill's Family's House
 - [ ] GoldenrodDeptStoreSign at (26, 27)
 - [ ] Warp at (24, 27) - Dept. Store
 - [ ] GoldenrodCityPokecenterSign at (16, 27)
