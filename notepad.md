@@ -4,48 +4,43 @@
 
 ### Current Status: Blocked - Main Quest Progression Halted
 - **Primary Blockers:** I cannot get SURF or the 'special medicine' for the sick Ampharos. All main quest paths are blocked.
-- **Strongest Lead:** A Teacher in the Olivine Pokémon Center mentioned a person in Cianwood City with a rare Pokémon. This strongly implies the 'special medicine' is in Cianwood, which requires SURF to reach.
 - **Current Plan:** Systematic re-exploration of all previously visited cities, starting with Violet City, to find any missed triggers or changed NPC dialogue.
 
 ## 2. Untested Assumptions & Alternative Hypotheses (Active)
 
-- **Assumption:** I am blocked from progressing the main story until I find SURF or the medicine.
-  - **Alternative Hypothesis:** A major story trigger exists in a previously visited city (like Violet City) that I missed, and this trigger does not require SURF. Re-talking to every NPC or re-exploring every building might unlock the path forward.
-  - **Test to Falsify:** My current action plan (systematic re-exploration of all cities) is the test. If I find a new path or dialogue, the alternative hypothesis is supported.
+- **Assumption:** The path forward is blocked by a missing key item (SURF/medicine).
+  - **Alternative Hypothesis:** The block is event-based, and the trigger is an NPC I haven't spoken to since a major world event (e.g., releasing the legendary beasts).
+  - **Test to Falsify:** My current systematic sweep of Violet City is the test. If this yields no leads, I will expand the sweep to other cities like Goldenrod.
 
-- **Assumption:** The medicine for the Ampharos is an item found *within* the Lighthouse.
-  - **Alternative Hypothesis:** The medicine must be retrieved from another city (e.g., Cianwood) and brought *to* the Lighthouse. The immediate goal in the lighthouse may just be to reach the top to speak with the Gym Leader.
+- **Assumption:** The unseen tiles on Sprout Tower 2F are part of a puzzle.
+  - **Alternative Hypothesis:** They are decorative and unreachable.
+  - **Conclusion (Turn 36954):** My `find_reachable_unseen_tiles` tool has confirmed they are unreachable. Hypothesis is FALSE.
 
-- **Assumption:** The solution to my progression block is in a previously visited area.
-  - **Alternative Hypothesis:** The solution requires reaching a new area, and I have missed the trigger. For instance, there might be a hidden path on Route 42 leading to Mahogany Town.
-
-## 2. Critical Bugs & Lessons
-- **Coordinate System Mismatch (CRITICAL):** My pathfinding tools have repeatedly failed due to using 1-based indexing for boundary checks (`1 <= x <= width`) while the game's map data is 0-indexed (`0 <= x < width`). This must be the first thing I check for any future pathfinding failures. The correct check is `0 <= coordinate < dimension`.
+## 3. Critical Bugs & Lessons
+- **Coordinate System Mismatch (CRITICAL):** My pathfinding tools have repeatedly failed due to using 1-based indexing for boundary checks (`1 <= x <= width`) while the game's map data is 0-indexed (`0 <= x < width`). The correct check is `0 <= coordinate < dimension`. This must be the first thing I check for any future pathfinding failures.
+- **Tool Trust:** I wasted significant time debugging `find_reachable_unseen_tiles` when it was working correctly. I must trust my tools' outputs and verify the in-game situation before assuming a bug.
 - **Item Management Bugs (CRITICAL):** Taking a held item with a full bag destroys it. Tossing items fails. The only safe way to free a slot is to have a Pokémon hold an item.
-
-## 3. Battle Mechanics & Tips
-- **DEFENSE CURL + ROLLOUT:** Using DEFENSE CURL significantly increases the power of ROLLOUT.
 
 ## 4. Confirmed System Mechanics
 - **Respawning Obstacles:** HM-cleared obstacles (like CUT_TREE) respawn upon re-entering a map.
 - **HM Move Permanence:** HM moves cannot be forgotten through normal means.
-- **Multi-Press Dialogue:** Some NPC dialogues require pressing 'A' multiple times to advance all text before a choice prompt appears.
-- **Phone List Limit:** The phone list can hold a limited number of contacts. If full, you cannot add more until one is deleted.
-- **`stun_npc` Tool:** This tool freezes an NPC's movement. It does NOT make the NPC traversable; they remain a solid obstacle.
+- **Multi-Press Dialogue:** Some NPC dialogues require pressing 'A' multiple times to advance all text.
+- **Phone List Limit:** The phone list can hold a limited number of contacts.
+- **`stun_npc` Tool:** This tool freezes an NPC's movement. It does NOT make the NPC traversable. The stun effect appears to wear off after a map transition or a certain number of turns.
 - **Evolution via Trade:** MACHOKE, KADABRA, HAUNTER, and GRAVELER evolve only by being traded.
 
 ## 5. Tile Mechanics
 - **COUNTER:** Impassable.
-- **DOOR:** A two-way warp tile that transports the player between maps when moved onto.
+- **DOOR:** A two-way warp tile.
 - **FLOOR:** Traversable.
-- **HEADBUTT_TREE:** Impassable. Can be interacted with using the move HEADBUTT to trigger wild Pokémon encounters.
-- **LADDER:** A two-way warp tile that transports the player between floors when moved onto.
-- **LEDGE_HOP_DOWN:** A one-way tile that can only be traversed by moving down onto it from the tile above.
+- **HEADBUTT_TREE:** Impassable. Can be interacted with using HEADBUTT.
+- **LADDER:** A two-way warp tile.
+- **LEDGE_HOP_DOWN:** A one-way tile (can only be entered from above).
 - **PILLAR:** Impassable. (Confirmed in Sprout Tower).
-- **TALL_GRASS:** Traversable. Functions like regular GRASS, but may have different encounter rates.
+- **TALL_GRASS:** Traversable, triggers wild encounters.
 - **VOID:** Impassable.
 - **WALL:** Impassable.
-- **WARP_CARPET_DOWN:** A one-way warp tile that transports the player when moved onto.
+- **WARP_CARPET_DOWN:** A one-way warp tile.
 
 ## 6. My Custom Toolkit: Audit & Development
 
@@ -54,33 +49,19 @@
 *   `find_reachable_unseen_tiles` (Tool): Finds explorable unseen areas.
 *   `path_and_execute_v3` (Tool): My primary navigation tool.
 *   `map_object_extractor` (Tool): Extracts all interactable objects from a map.
-*   `stun_npc` (Tool): Freezes an NPC's movement. It does NOT make the NPC traversable.
+*   `stun_npc` (Tool): Freezes an NPC's movement.
 *   `find_undefeated_trainers` (Tool): Finds undefeated trainers on the current map.
 *   `select_battle_option` (Tool): Automatically selects a main battle menu option.
 *   `quest_progression_advisor` (Agent): Suggests next story steps when I'm stuck.
 *   `puzzle_solver_assistant` (Agent): Provides simple hypotheses for puzzles.
 *   `city_exploration_planner` (Agent): Generates an efficient exploration plan for a new city.
 *   `world_navigator_agent` (Agent): Suggests a new major region when local leads are exhausted.
-*   `puzzle_solver_assistant` (Agent): Provides simple hypotheses for puzzles.
-*   `city_exploration_planner` (Agent): Generates an efficient exploration plan for a new city.
-*   `world_navigator_agent` (Agent): Suggests a new major region when local leads are exhausted.
 
 ### Tool/Agent Development Ideas
-- **`dungeon_floor_planner` v2 (CRITICAL FIX):** The current version does not check if its planned points of interest are actually reachable. It needs to integrate pathfinding logic (from `path_and_execute_v3`) to verify pathability between each POI to generate a valid, traversable route.
-- **`dungeon_navigation_strategist` (Agent Idea):** A new agent that analyzes dungeon layouts and tool outputs (e.g., pathfinder failures) to suggest high-level strategies for overcoming complex navigation blocks, such as when a path is blocked by an unmovable NPC or a puzzle.
-
-## 7. Untested Assumptions & Alternative Hypotheses
-
-- **Assumption:** The medicine for the Ampharos is an item found *within* the Lighthouse.
-  - **Alternative Hypothesis:** The medicine must be retrieved from another city (e.g., Cianwood) and brought *to* the Lighthouse. The immediate goal in the lighthouse may just be to reach the top to speak with the Gym Leader.
-  - **Test to Falsify:** If I reach the top of the lighthouse and find no medicine item, this supports the alternative hypothesis.
-
-- **Assumption:** I am required to clear the Olivine Lighthouse *right now* to progress the story.
-  - **Alternative Hypothesis:** The Lighthouse is currently unsolvable without a key item (like SURF) obtained elsewhere. I may be intended to leave and explore another region first.
-  - **Test to Falsify:** If a complete exploration of all reachable areas in the lighthouse yields no path forward, I must conclude I am blocked and use my `world_navigator_agent` to find an alternative main quest path.
+- **`dungeon_navigation_strategist` (Agent Idea):** A new agent that analyzes dungeon layouts and tool outputs to suggest high-level strategies for overcoming complex navigation blocks.
+- **`pre_gym_checklist` (Tool Idea):** A tool that analyzes my party composition against a known gym leader's type to suggest preparations.
 
 # Archive: Log of Blocked Paths, Solved Puzzles & Old Info
-
 <details>
 <summary>Click to expand full game log</summary>
 
