@@ -6,12 +6,15 @@
 - **Primary Blockers:** I cannot get SURF or the 'special medicine' for the sick Ampharos. All main quest paths are blocked.
 - **Current Plan:** Systematic re-exploration of all previously visited cities, starting with Violet City, to find any missed triggers or changed NPC dialogue.
 
+### Procedural Improvements (From Overwatch Critique)
+- **Agent Utilization:** I must use my `city_exploration_planner` agent for the next city I explore to automate plan generation and improve efficiency.
+
 ### Violet City Re-Exploration Plan
 - [x] Sprout Tower
 - [x] Violet City Signs (all)
 - [x] Route 31 Gate
 - [x] Pokémon Center
-- [ ] VioletCityPokecenterSign at (32, 25)
+- [x] VioletCityPokecenterSign at (32, 25)
 - [ ] Kyle's House (Warp at 21, 29)
 
 ## 2. Untested Assumptions & Alternative Hypotheses (Active)
