@@ -479,3 +479,10 @@
 - [ ] Warp at (29, 29) - Bike Shop
 - [ ] GoldenrodCityBikeShopSign at (28, 30)
 - [ ] GoldenrodCityUndergroundSignSouth at (12, 30)
+
+# Goldenrod Flower Shop Tile Analysis (Overwatch Critique)
+- **Observation:** The map contains tiles with sprites for plants, flowers, and a large table/counter.
+- **Analysis:** Cross-referencing with map memory confirms these visual elements do not represent their own tile types. 
+  - The flower pots are on `WALL` tiles and are impassable.
+  - The large table is a `COUNTER` tile and is impassable.
+- **Conclusion:** This reinforces the established mechanic that a tile's `type` attribute is the sole determinant of its traversability, not its visual appearance. This is consistent with findings from the Day-Care.
