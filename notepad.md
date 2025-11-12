@@ -99,18 +99,18 @@
 
 ## 2. Active Puzzles & Hypotheses
 
-### Sprout Tower 1F Pillar Puzzle
-- **Goal:** Move the central pillar to access the rest of the tower.
-- **Current Understanding:** The tower is divided into sections. The trigger for the pillar is not on the eastern side of 1F or 2F. The solution must be on the western side of 2F.
-- **Active Hypothesis:** The trigger is on the section of the 2nd floor accessible from the ladder at (2, 6). 
-- **Test Plan:** Travel to the ladder at (2, 6) and ascend. Thoroughly explore this new area for a switch, NPC, or event.
+### Sprout Tower Puzzle (CONCLUSION: DEAD END)
+- **Goal:** Find the HM rumored to be at the top of the tower.
+- **Final Understanding:** Sprout Tower is physically divided into two inaccessible sections (East and West) on both 1F and 2F. The main entrance warp at (9, 15) only leads to the Eastern section. There is no way to cross to the Western section from inside the tower.
+- **Conclusion:** Re-exploration of Sprout Tower is a dead end. The hint about an HM is either misleading, or requires an external item/event I do not currently possess. I am abandoning this location.
 
 ### Log of Failed Hypotheses (Sprout Tower)
 - **H1:** Interacting with wandering Sage at (6, 7) moves the pillar. (Result: Lore dialogue only).
 - **H2:** Interacting with stationary Sage at (7, 4) moves the pillar. (Result: Lore dialogue only).
-- **H3:** Interacting with SAGE CHOW at (3, 5) moves the pillar. (Result: Path is blocked by a wall).
-- **H4:** Interacting with the Teacher at (9, 9) moves the pillar. (Result: Lore dialogue only).
-- **H5:** The trigger is on 2F, accessible via the ladder at (17, 3). (Result: The pathfinding tool confirmed there is no path to the ladder at (17, 3) from the western side of the room. The two sides of 1F are separate.)
+- **H3:** Interacting with SAGE CHOW at (3, 5) is the trigger. (Result: Path is blocked by a wall).
+- **H4:** Interacting with the Teacher at (9, 9) is the trigger. (Result: Lore dialogue only).
+- **H5:** The eastern ladder at (17, 3) on 2F leads up. (Result: It leads down to an isolated part of 1F).
+- **H6:** Re-entering the tower leads to the western side of 1F. (Result: The entrance warp always leads to the eastern side).
 
 # Archive: Log of Blocked Paths, Solved Puzzles & Old Info
 <details>

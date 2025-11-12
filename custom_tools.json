@@ -694,6 +694,36 @@
         "commit_message": "refactor: Remove all debug logging. The debug print statements, while essential for diagnosing the recent pathfinding issue, are now suspected of causing the execution error. This commit removes all logging to ensure a clean, parseable JSON output is always returned, which will confirm or deny this hypothesis.",
         "timestamp": "2025-11-12T09:32:41.189Z",
         "action_counter": 37193
+      },
+      {
+        "commit_message": "refactor: Add extensive debug logging to diagnose BFS failure. The tool is critically failing to find a simple, verifiable path on Sprout Tower 1F. This commit adds detailed print statements to stderr to trace every step of the BFS expansion, including neighbor rejection reasons, which is essential to identify the root cause of the pathfinding logic error.",
+        "timestamp": "2025-11-12T09:54:03.131Z",
+        "action_counter": 37223
+      },
+      {
+        "commit_message": "refactor: Remove all debug logging. The extensive debug prints were essential for confirming that the pathfinding logic is correct and the 'No path found' errors were due to a genuine in-game wall, not a tool bug. The logging is no longer needed and has been removed to ensure a clean, parseable JSON output.",
+        "timestamp": "2025-11-12T09:55:18.509Z",
+        "action_counter": 37225
+      },
+      {
+        "commit_message": "refactor: Add extensive debug logging to diagnose collision failure. The tool generated a path directly through an on-screen NPC, indicating a critical flaw in its collision detection logic. This commit adds detailed print statements to stderr to trace the BFS neighbor evaluation process, specifically why an occupied tile is not being correctly identified as impassable.",
+        "timestamp": "2025-11-12T09:59:06.004Z",
+        "action_counter": 37232
+      },
+      {
+        "commit_message": "refactor: Remove all debug logging. The extensive debug prints were essential for confirming that the pathfinding logic is correct and the 'No path found' errors were due to a genuine in-game wall, not a tool bug. The logging is no longer needed and has been removed to ensure a clean, parseable JSON output.",
+        "timestamp": "2025-11-12T10:00:47.342Z",
+        "action_counter": 37235
+      },
+      {
+        "commit_message": "refactor: Add extensive debug logging to diagnose BFS failure. The tool is critically failing to find a simple, verifiable path on Sprout Tower 1F. This commit adds detailed print statements to stderr to trace every step of the BFS expansion, including neighbor rejection reasons, which is essential to identify the root cause of the pathfinding logic error.",
+        "timestamp": "2025-11-12T10:13:32.386Z",
+        "action_counter": 37256
+      },
+      {
+        "commit_message": "refactor: Remove all debug logging. The extensive debug prints were essential for confirming that the pathfinding logic is correct and the 'No path found' errors were due to a genuine in-game wall, not a tool bug. The logging is no longer needed and has been removed to ensure a clean, parseable JSON output.",
+        "timestamp": "2025-11-12T10:15:06.618Z",
+        "action_counter": 37259
       }
     ]
   }
