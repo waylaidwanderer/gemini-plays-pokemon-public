@@ -487,13 +487,4 @@
 
 </details>
 
-## MAINTENANCE & CRITICAL LESSONS (Active - Per Overwatch Critique)
-
-### Critical Bugs
-- **Coordinate System Mismatch (CRITICAL):** My pathfinding tools have repeatedly failed due to using 1-based indexing for boundary checks (`1 <= x <= width`) while the game's map data is 0-indexed (`0 <= x < width`). This must be the first thing I check for any future pathfinding failures. The correct check is `0 <= coordinate < dimension`.
-
-### New Tile Mechanics
-- **HEADBUTT_TREE:** Impassable. Can be interacted with using the move HEADBUTT to trigger wild Pokémon encounters.
-- **DOOR:** A two-way warp tile that transports the player between maps when moved onto.
-
 </details>
