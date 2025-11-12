@@ -454,3 +454,13 @@
 - [ ] GoldenrodCityBikeShopSign at (28, 30)
 - [ ] GoldenrodCityUndergroundSignSouth at (12, 30)
 - FLOOR: Traversable.
+
+<details>
+<summary>Ecruteak Dance Theater Gentleman (Hypothesis Falsified - Post-Morty)</summary>
+
+- **Hypothesis:** The Gentleman at (7, 10) would provide a reward (potentially SURF) after defeating Gym Leader Morty.
+- **Test:** Interacted with the Gentleman on Turn 36847 after defeating Morty.
+- **Result:** The Gentleman's dialogue was unchanged. He did not provide any item or reward.
+- **Conclusion:** Hypothesis is FALSE. The trigger for this NPC is something else, or he has no further role.
+
+</details>
