@@ -80,37 +80,23 @@
 - **`dungeon_navigation_strategist` (Agent Idea):** A new agent that analyzes dungeon layouts and tool outputs to suggest high-level strategies for overcoming complex navigation blocks.
 - **`pre_gym_checklist` (Tool Idea):** A tool that analyzes my party composition against a known gym leader's type to suggest preparations.
 
-# Violet City Re-Exploration Plan (Systematic Sweep)
-- [ ] Warp at (23, 5) - Sprout Tower
-- [ ] SproutTowerSign at (24, 8)
-- [x] Warp at (3, 15) - Nickname Speech House
-- [x] Warp at (9, 17) - Violet Mart
+### Violet City Re-Exploration Plan
+- [x] Sprout Tower - **CONCLUSION: DEAD END**
+- [x] SproutTowerSign at (24, 8)
 - [ ] VioletCityMartSign at (10, 17)
 - [ ] VioletGymSign at (15, 17)
-- [x] Warp at (18, 17) - Violet Gym
 - [ ] EarlsPokemonAcademySign at (27, 17)
-- [x] Warp at (30, 17) - Earl's Pokémon Academy
 - [ ] VioletCitySign at (24, 20)
 - [ ] Warp at (39, 24) - Route 31 Gate (East)
 - [ ] Warp at (31, 25) - Pokémon Center
 - [ ] VioletCityPokecenterSign at (32, 25)
-- [ ] Warp at (39, 25) - Route 31 Gate (East, Glitch Warp)
 - [ ] Warp at (21, 29) - Kyle's House
 
-## 2. Active Puzzles & Hypotheses
-
-### Sprout Tower Puzzle (CONCLUSION: DEAD END)
-- **Goal:** Find the HM rumored to be at the top of the tower.
-- **Final Understanding:** Sprout Tower is physically divided into two inaccessible sections (East and West) on both 1F and 2F. The main entrance warp at (9, 15) only leads to the Eastern section. There is no way to cross to the Western section from inside the tower.
-- **Conclusion:** Re-exploration of Sprout Tower is a dead end. The hint about an HM is either misleading, or requires an external item/event I do not currently possess. I am abandoning this location.
-
-### Log of Failed Hypotheses (Sprout Tower)
-- **H1:** Interacting with wandering Sage at (6, 7) moves the pillar. (Result: Lore dialogue only).
-- **H2:** Interacting with stationary Sage at (7, 4) moves the pillar. (Result: Lore dialogue only).
-- **H3:** Interacting with SAGE CHOW at (3, 5) is the trigger. (Result: Path is blocked by a wall).
-- **H4:** Interacting with the Teacher at (9, 9) is the trigger. (Result: Lore dialogue only).
-- **H5:** The eastern ladder at (17, 3) on 2F leads up. (Result: It leads down to an isolated part of 1F).
-- **H6:** Re-entering the tower leads to the western side of 1F. (Result: The entrance warp always leads to the eastern side).
+## 2. Active Hypotheses
+- **Hypothesis:** The block is event-based, and the trigger is an NPC I haven't spoken to since a major world event (e.g., releasing the legendary beasts).
+  - **Test:** My current systematic sweep of Violet City is the test. If this yields no leads, I will expand the sweep to other cities like Goldenrod.
+- **Hypothesis:** The trigger is a hidden item that has now appeared somewhere.
+  - **Test:** If the full NPC sweep of all cities fails, I must perform a full sweep of all cities with the ITEMFINDER on every single tile.
 
 # Archive: Log of Blocked Paths, Solved Puzzles & Old Info
 <details>
