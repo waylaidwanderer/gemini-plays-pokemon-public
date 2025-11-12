@@ -111,7 +111,7 @@
 - [x] Warp at (5, 15) - Radio Tower
 - [x] GoldenrodCityRadioTowerSign at (4, 17)
 - [x] GoldenrodCitySign at (22, 18)
-- [ ] Warp at (14, 21) - Game Corner
+- [x] Warp at (14, 21) - Game Corner
 - [ ] Warp at (31, 21) - House
 - [ ] GoldenrodCityGameCornerSign at (16, 22)
 - [ ] Warp at (5, 25) - Bill's Family's House
@@ -452,7 +452,7 @@
 - [ ] Warp at (5, 15) - Radio Tower
 - [x] GoldenrodCityRadioTowerSign at (4, 17)
 - [x] GoldenrodCitySign at (22, 18)
-- [ ] Warp at (14, 21) - Game Corner
+- [x] Warp at (14, 21) - Game Corner
 - [ ] Warp at (31, 21) - House
 - [ ] GoldenrodCityGameCornerSign at (16, 22)
 - [ ] Warp at (5, 25) - Bill's Family's House
