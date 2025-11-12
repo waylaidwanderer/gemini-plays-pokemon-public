@@ -64,7 +64,7 @@
 - **`find_reachable_unseen_tiles` (Tool):** Finds explorable unseen areas.
 - **`path_and_execute_v3` (Tool):** My primary navigation tool.
 - **`map_object_extractor` (Tool):** Extracts all interactable objects from a map.
-- **`dungeon_floor_planner` (Tool):** Systematically plans exploration of dungeon floors.
+*   **`dungeon_floor_planner` (Tool):** **CRITICALLY BROKEN.** The pathfinding logic is fundamentally flawed and cannot handle disconnected map sections. It needs a full rewrite from scratch, not minor fixes.
 - **`quest_progression_advisor` (Agent):** Suggests next story steps when I'm stuck.
 - **`puzzle_solver_assistant` (Agent):** Provides simple hypotheses for puzzles.
 - **`city_exploration_planner` (Agent):** Generates a systematic and efficient exploration plan for a new city.
