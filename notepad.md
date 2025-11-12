@@ -359,7 +359,7 @@
 </details>
 
 <details>
-<summary>Goldenrod City Exploration Plan (Completed)</summary>
+<summary>Archive: Goldenrod City Exploration Plan (Completed)</summary>
 
 - [x] Warp at (19, 1)
 - [x] GoldenrodCityUndergroundSignNorth at (8, 6)
