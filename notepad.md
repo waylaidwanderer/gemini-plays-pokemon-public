@@ -4,7 +4,7 @@
 
 ### Current Status: Blocked - Main Quest Progression Halted
 - **Primary Blockers:** I cannot get SURF or the 'special medicine' for the sick Ampharos. All main quest paths are blocked.
-- **Current Plan:** With Violet City fully re-explored and no new leads found, the new plan is to travel to Goldenrod City and begin a systematic re-exploration there.
+- **Current Plan:** With the Goldenrod Underground proving to be a dead end, my new lead is the 'MEDICINE BOX' on the 4th floor of the Goldenrod Dept. Store. This could be the 'special medicine' I need.
 
 ### Procedural Improvements (From Overwatch Critique)
 - **Agent Utilization:** I must use my `city_exploration_planner` agent for Goldenrod City to automate plan generation and improve efficiency.
@@ -89,14 +89,34 @@
 *   `quest_progression_advisor` (Agent): Suggests next story steps when I'm stuck.
 *   `world_navigator_agent` (Agent): Analyzes the player's overall progress, current location, badges, known dead ends, and failed hypotheses to suggest a new major region or city to investigate when all local leads are exhausted.
 
-# Goldenrod City Re-Exploration Plan (Generated)
-- [ ] Warp at (19, 1) - Route 35 Gate
-- [ ] Warp at (29, 5) - Flower Shop
-- [ ] Warp at (9, 5) - Underground Entrance (North)
-- [ ] GoldenrodCityUndergroundSignNorth at (8, 6)
-- [ ] GoldenrodCityFlowerShopSign at (30, 6)
-- [ ] Warp at (24, 7) - Goldenrod Gym
-- [ ] Warp at (15, 7) - Name Rater's House
+# Archive: Log of Blocked Paths, Solved Puzzles & Old Info
+<details>
+<summary>Click to expand full game log</summary>
+
+# Goldenrod Underground Switch Room Puzzle Log (UNSOLVED - DEAD END)
+- **Goal:** Find a switch in the 'Switch Room' to open the locked door at (18, 6) in the main underground.
+- **Hypothesis 1:** The decorative objects on the western wall are switches.
+  - **Test:** Attempted to interact with the object at (0, 22) from the tile below it (0, 23), facing up.
+  - **Result:** No interaction occurred. The object is not in the map's background object list.
+  - **Conclusion:** Hypothesis is FALSE.
+- **Hypothesis 2:** The box-like objects with red buttons are switches.
+  - **Test:** Attempted to interact with the object at (3, 24) from the adjacent tile (2, 24).
+  - **Result:** No interaction occurred.
+  - **Conclusion:** Hypothesis is FALSE.
+- **Hypothesis 3:** There is a hidden floor switch or trigger.
+  - **Test:** Systematically walked over every single reachable tile in both the eastern and western corridors of the Switch Room (accessed via two separate entrances).
+  - **Result:** No event was triggered.
+  - **Conclusion:** Hypothesis is FALSE.
+- **Final Conclusion:** The 'Switch Room' is a red herring. It contains no switches or mechanisms to open the locked door. The solution must be elsewhere.
+
+# Archive: Goldenrod City Re-Exploration Plan (Completed)
+- [x] Warp at (19, 1) - Route 35 Gate
+- [x] Warp at (29, 5) - Flower Shop
+- [x] Warp at (9, 5) - Underground Entrance (North)
+- [x] GoldenrodCityUndergroundSignNorth at (8, 6)
+- [x] GoldenrodCityFlowerShopSign at (30, 6)
+- [x] Warp at (24, 7) - Goldenrod Gym
+- [x] Warp at (15, 7) - Name Rater's House
 - [x] GoldenrodCityNameRaterSign at (12, 7)
 - [x] GoldenrodGymSign at (26, 9)
 - [x] Warp at (33, 9) - PPSpeechHouse
@@ -106,21 +126,17 @@
 - [x] GoldenrodCityRadioTowerSign at (4, 17)
 - [x] GoldenrodCitySign at (22, 18)
 - [x] Warp at (14, 21) - Game Corner
-- [ ] Warp at (31, 21) - House
-- [ ] GoldenrodCityGameCornerSign at (16, 22)
+- [x] Warp at (31, 21) - House
+- [x] GoldenrodCityGameCornerSign at (16, 22)
 - [x] Warp at (5, 25) - Bill's Family's House
-- [ ] GoldenrodDeptStoreSign at (26, 27)
-- [ ] Warp at (24, 27) - Dept. Store
-- [ ] GoldenrodCityPokecenterSign at (16, 27)
-- [ ] Warp at (15, 27) - Pokémon Center
-- [ ] Warp at (11, 29) - Underground Entrance (South)
-- [ ] Warp at (29, 29) - Bike Shop
-- [ ] GoldenrodCityBikeShopSign at (28, 30)
-- [ ] GoldenrodCityUndergroundSignSouth at (12, 30)
-
-# Archive: Log of Blocked Paths, Solved Puzzles & Old Info
-<details>
-<summary>Click to expand full game log</summary>
+- [x] GoldenrodDeptStoreSign at (26, 27)
+- [x] Warp at (24, 27) - Dept. Store
+- [x] GoldenrodCityPokecenterSign at (16, 27)
+- [x] Warp at (15, 27) - Pokémon Center
+- [x] Warp at (11, 29) - Underground Entrance (South)
+- [x] Warp at (29, 29) - Bike Shop
+- [x] GoldenrodCityBikeShopSign at (28, 30)
+- [x] GoldenrodCityUndergroundSignSouth at (12, 30)
 
 # Gym Information
 - **Goldenrod Gym:** Normal-type. Fighting-type moves are recommended.
@@ -425,39 +441,6 @@
 
 # Goldenrod City Notes
 - Todd called (Turn 35401) to announce a bargain sale at the Goldenrod Dept. Store is happening now.
-
-</details>
-
-<details>
-<summary>Archive: Goldenrod City Exploration Plan (Completed)</summary>
-
-- [x] Warp at (19, 1) - Route 35 Gate
-- [x] Warp at (9, 5) - Underground Entrance (North)
-- [x] Warp at (29, 5) - Flower Shop
-- [x] GoldenrodCityUndergroundSignNorth at (8, 6)
-- [x] GoldenrodCityFlowerShopSign at (30, 6)
-- [x] GoldenrodCityNameRaterSign at (12, 7)
-- [x] Warp at (15, 7) - Name Rater's House
-- [x] Warp at (24, 7) - Goldenrod Gym (Mistakenly entered)
-- [x] GoldenrodGymSign at (26, 9)
-- [x] Warp at (33, 9) - PPSpeechHouse
-- [x] Warp at (9, 13) - Magnet Train Station
-- [x] GoldenrodCityStationSign at (10, 14)
-- [x] Warp at (5, 15) - Radio Tower
-- [x] GoldenrodCityRadioTowerSign at (4, 17)
-- [x] GoldenrodCitySign at (22, 18)
-- [x] Warp at (14, 21) - Game Corner
-- [ ] Warp at (31, 21) - House
-- [ ] GoldenrodCityGameCornerSign at (16, 22)
-- [x] Warp at (5, 25) - Bill's Family's House
-- [ ] Warp at (15, 27) - Pokémon Center
-- [ ] GoldenrodCityPokecenterSign at (16, 27)
-- [ ] Warp at (24, 27) - Dept. Store
-- [ ] GoldenrodDeptStoreSign at (26, 27)
-- [ ] Warp at (11, 29) - Underground Entrance (South)
-- [ ] Warp at (29, 29) - Bike Shop
-- [ ] GoldenrodCityUndergroundSignSouth at (12, 30)
-- [ ] GoldenrodCityBikeShopSign at (28, 30)
 
 </details>
 
