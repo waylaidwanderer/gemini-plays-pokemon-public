@@ -453,3 +453,4 @@
 - [ ] Warp at (29, 29) - Bike Shop
 - [ ] GoldenrodCityBikeShopSign at (28, 30)
 - [ ] GoldenrodCityUndergroundSignSouth at (12, 30)
+- FLOOR: Traversable.
