@@ -495,3 +495,16 @@
 - [ ] VioletCityPokecenterSign at (32, 25)
 - [ ] Warp at (39, 25) - Route 31 Gate (East, Glitch Warp)
 - [ ] Warp at (21, 29) - Kyle's House
+
+## Corrected Tool List (Temporary - to be integrated)
+*   `deterministic_battle_strategist` (Tool): Provides reliable battle advice.
+*   `find_reachable_unseen_tiles` (Tool): Finds explorable unseen areas.
+*   `path_and_execute_v3` (Tool): My primary navigation tool.
+*   `map_object_extractor` (Tool): Extracts all interactable objects from a map.
+*   `stun_npc` (Tool): Freezes an NPC's movement.
+*   `find_undefeated_trainers` (Tool): Finds undefeated trainers on the current map.
+*   `select_battle_option` (Tool): Automatically selects a main battle menu option.
+*   `quest_progression_advisor` (Agent): Suggests next story steps when I'm stuck.
+*   `puzzle_solver_assistant` (Agent): Provides simple hypotheses for puzzles.
+*   `city_exploration_planner` (Agent): Generates an efficient exploration plan for a new city.
+*   `world_navigator_agent` (Agent): Suggests a new major region when local leads are exhausted.
