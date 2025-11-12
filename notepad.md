@@ -41,6 +41,7 @@
 - **HEADBUTT_TREE:** Impassable. Can be interacted with using the move HEADBUTT to trigger wild Pokémon encounters.
 - **LADDER:** A two-way warp tile that transports the player between floors when moved onto.
 - **LEDGE_HOP_DOWN:** A one-way tile that can only be traversed by moving down onto it from the tile above.
+- **PILLAR:** Impassable. (Confirmed in Sprout Tower).
 - **TALL_GRASS:** Traversable. Functions like regular GRASS, but may have different encounter rates.
 - **VOID:** Impassable.
 - **WALL:** Impassable.
@@ -49,14 +50,17 @@
 ## 6. My Custom Toolkit: Audit & Development
 
 ### My Tools & Agents (Audited)
-*   **`deterministic_battle_strategist` (Tool):** Provides reliable battle advice.
-*   **`find_reachable_unseen_tiles` (Tool):** Finds explorable unseen areas.
-*   **`path_and_execute_v3` (Tool):** My primary navigation tool.
-*   **`map_object_extractor` (Tool):** Extracts all interactable objects from a map.
-*   **`quest_progression_advisor` (Agent):** Suggests next story steps when I'm stuck.
-*   **`puzzle_solver_assistant` (Agent):** Provides simple hypotheses for puzzles.
-*   **`city_exploration_planner` (Agent):** Generates an efficient exploration plan for a new city.
-*   **`world_navigator_agent` (Agent):** Suggests a new major region when local leads are exhausted.
+*   `deterministic_battle_strategist` (Tool): Provides reliable battle advice.
+*   `find_reachable_unseen_tiles` (Tool): Finds explorable unseen areas.
+*   `path_and_execute_v3` (Tool): My primary navigation tool.
+*   `map_object_extractor` (Tool): Extracts all interactable objects from a map.
+*   `stun_npc` (Tool): Freezes an NPC's movement. It does NOT make the NPC traversable.
+*   `find_undefeated_trainers` (Tool): Finds undefeated trainers on the current map.
+*   `select_battle_option` (Tool): Automatically selects a main battle menu option.
+*   `quest_progression_advisor` (Agent): Suggests next story steps when I'm stuck.
+*   `puzzle_solver_assistant` (Agent): Provides simple hypotheses for puzzles.
+*   `city_exploration_planner` (Agent): Generates an efficient exploration plan for a new city.
+*   `world_navigator_agent` (Agent): Suggests a new major region when local leads are exhausted.
 
 ### Tool/Agent Development Ideas
 - **`dungeon_floor_planner` v2 (CRITICAL FIX):** The current version does not check if its planned points of interest are actually reachable. It needs to integrate pathfinding logic (from `path_and_execute_v3`) to verify pathability between each POI to generate a valid, traversable route.
