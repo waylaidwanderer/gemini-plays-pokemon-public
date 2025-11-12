@@ -5,17 +5,6 @@
 ### Current Status: Blocked - Main Quest Progression Halted
 - **Primary Blockers:** I cannot get SURF or the 'special medicine' for the sick Ampharos. All main quest paths are blocked.
 - **Strongest Lead:** A Teacher in the Olivine Pokémon Center mentioned a person in Cianwood City with a rare Pokémon. This strongly implies the 'special medicine' is in Cianwood, which requires SURF to reach.
-- **Current Plan:** Systematically explore the Olivine Lighthouse to find a way to the top. I am currently on 1F after falling through a pit and must return to the main path via the ladder at (3, 11).
-
-## 2. Game Mechanics & Systems
-
-### Tile Traversal Rules
-- **Impassable (Verified):** BOOKSHELF, COUNTER, CUT_TREE, HEADBUTT_TREE, INCENSE_BURNER, MART_SHELF, PC, PILLAR, POKEDEX, RADIO, TOWN_MAP, TV, VOID, WALL, WATER, TABLE.
-- **Impassable (Assumed, Untested):** WINDOW, BUOY.
-- **Traversable:** FLOOR, GRASS, LONG_GRASS, TALL_GRASS, PLANT (sprite is obstacle, tile is FLOOR).
-- **One-Way (Ledges):** LEDGE_HOP_DOWN, LEDGE_HOP_LEFT, LEDGE_HOP_RIGHT, FLOOR_UP_WALL.
-- **Warps:** CAVE, DOOR, LADDER, PIT, WARP_CARPET, WARP_CARPET_UP, WARP_CARPET_DOWN, WARP_CARPET_LEFT, WARP_CARPET_RIGHT.
-
 ### Battle Mechanics & Tips
 - **DEFENSE CURL + ROLLOUT:** Using DEFENSE CURL significantly increases the power of ROLLOUT.
 
