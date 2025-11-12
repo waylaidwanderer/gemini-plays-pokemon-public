@@ -471,7 +471,7 @@
 - [x] Warp at (19, 1) - Route 35 Gate
 - [x] Warp at (9, 5) - Underground Entrance (North)
 - [x] Warp at (29, 5) - Flower Shop
-- [ ] GoldenrodCityUndergroundSignNorth at (8, 6)
+- [x] GoldenrodCityUndergroundSignNorth at (8, 6)
 - [x] GoldenrodCityFlowerShopSign at (30, 6)
 - [ ] GoldenrodCityNameRaterSign at (12, 7)
 - [ ] Warp at (15, 7) - Name Rater's House
