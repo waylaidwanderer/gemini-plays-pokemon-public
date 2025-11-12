@@ -505,3 +505,4 @@
 </details>
 
 </details>
+- **Pathing Hallucination (CRITICAL):** During turns 37389-37390, I experienced a severe hallucination, believing I had successfully pathed to and arrived at Kyle's House when I was still standing in front of the Pokémon Center with a text box open. This reinforces the absolute necessity of verifying my position from the Game State before every single action and not assuming a path plan has completed successfully.
