@@ -93,6 +93,14 @@
 - **Hypothesis 2:** Interacting with the stationary Sage at (7, 4) will move the central pillar.
   - **Result:** The Sage provided a hint about an HM but did not move the pillar.
   - **Conclusion:** Hypothesis is FALSE.
+- **Hypothesis 3:** Interacting with SAGE CHOW at (3, 5) will move the central pillar.
+  - **Result:** Path to SAGE CHOW is physically blocked by a wall. Unable to test.
+  - **Conclusion:** Hypothesis is UNTESTABLE from current location.
+- **Hypothesis 4:** Interacting with the Teacher at (9, 9) will move the central pillar.
+  - **Result:** The Teacher provided only lore dialogue. The pillar did not move.
+  - **Conclusion:** Hypothesis is FALSE.
+- **New Hypothesis 5:** The trigger to move the pillar is located on the 2nd floor. I must take an alternate ladder up to find it.
+  - **Test Plan:** Travel to the ladder at (17, 3) and ascend to Sprout Tower 2F. Explore 2F for a switch, NPC, or event that affects the 1F pillar.
 
 # Archive: Log of Blocked Paths, Solved Puzzles & Old Info
 <details>
