@@ -57,10 +57,13 @@
 *   `stun_npc` (Tool): Freezes an NPC's movement.
 *   `find_undefeated_trainers` (Tool): Finds undefeated trainers on the current map.
 *   `select_battle_option` (Tool): Automatically selects a main battle menu option.
+*   `define_tool` (Tool): Defines a new custom tool.
+*   `delete_tool` (Tool): Deletes a custom tool.
 *   `quest_progression_advisor` (Agent): Suggests next story steps when I'm stuck.
 *   `puzzle_solver_assistant` (Agent): Provides simple hypotheses for puzzles.
 *   `city_exploration_planner` (Agent): Generates an efficient exploration plan for a new city.
 *   `world_navigator_agent` (Agent): Suggests a new major region when local leads are exhausted.
+*   `delete_agent` (Agent): Deletes a custom agent.
 
 ### Tool/Agent Development Ideas
 - **`dungeon_navigation_strategist` (Agent Idea):** A new agent that analyzes dungeon layouts and tool outputs to suggest high-level strategies for overcoming complex navigation blocks.
@@ -82,6 +85,14 @@
 - [ ] VioletCityPokecenterSign at (32, 25)
 - [ ] Warp at (39, 25) - Route 31 Gate (East, Glitch Warp)
 - [ ] Warp at (21, 29) - Kyle's House
+
+# Sprout Tower 1F Puzzle Log
+- **Hypothesis 1:** Interacting with the wandering Sage at (6, 7) will move the central pillar.
+  - **Result:** The Sage provided only lore dialogue. The pillar did not move.
+  - **Conclusion:** Hypothesis is FALSE.
+- **Hypothesis 2:** Interacting with the stationary Sage at (7, 4) will move the central pillar.
+  - **Result:** The Sage provided a hint about an HM but did not move the pillar.
+  - **Conclusion:** Hypothesis is FALSE.
 
 # Archive: Log of Blocked Paths, Solved Puzzles & Old Info
 <details>
