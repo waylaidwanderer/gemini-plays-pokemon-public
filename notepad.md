@@ -418,3 +418,6 @@
 # Tool Mechanics & Lessons
 - **stun_npc:** This tool freezes an NPC, preventing them from moving. It does NOT make the NPC traversable. You still must navigate around the stunned NPC.
 - **Phone List Limit:** The phone list can become full, preventing you from adding new contacts.
+
+# Tool Development Log (New)
+- **`path_and_execute_v3` Bug (CRITICAL):** The tool failed to generate a valid path because it does not account for off-screen NPCs. It generated a path through Schoolboy Alan on Route 36. The tool MUST be updated to read my map markers to identify and avoid off-screen obstacles.
