@@ -43,39 +43,6 @@
 - **Assumption:** I am required to clear the Olivine Lighthouse *right now* to progress the story.
   - **Alternative Hypothesis:** The Lighthouse is currently unsolvable without a key item (like SURF) obtained elsewhere. I may be intended to leave and explore another region first.
   - **Test to Falsify:** If a complete exploration of all reachable areas in the lighthouse yields no path forward, I must conclude I am blocked and use my `world_navigator_agent` to find an alternative main quest path.
-- **Evolution via Trade:** Some POKEMON evolve only by being traded: MACHOKE, KADABRA, HAUNTER, and GRAVELER.
-- **Multi-Press Dialogue:** Some NPC dialogues require pressing 'A' multiple times to advance through all the text *before* a choice prompt (like YES/NO) appears. Trying to select an answer before the full text is shown can lead to unintended movement or dialogue loops.
-- **Phone List Limit:** The phone list can become full, preventing you from adding new contacts.
-
-# My Custom Toolkit: Philosophy & Tools
-
-## My Tools & Agents
-### Built-in Tools
-- **`notepad_edit`:** Edits my persistent notepad.
-- **`run_code`:** Executes single-use Python scripts.
-- **`define_map_marker` / `delete_map_marker`:** Manages map markers.
-- **`define_agent` / `delete_agent`:** Manages custom agents.
-- **`define_tool` / `delete_tool`:** Manages custom tools.
-- **`select_battle_option`:** Selects main battle menu options.
-
-### Custom Tools & Agents
-- **`stun_npc` (Tool):** Freezes/unfreezes a moving NPC.
-- **`deterministic_battle_strategist` (Tool):** Provides reliable battle advice.
-- **`find_reachable_unseen_tiles` (Tool):** Finds explorable unseen areas.
-- **`path_and_execute_v3` (Tool):** My primary navigation tool.
-- **`map_object_extractor` (Tool):** Extracts all interactable objects from a map.
-*   **`dungeon_floor_planner` (Tool):** **CRITICALLY BROKEN.** The pathfinding logic is fundamentally flawed and cannot handle disconnected map sections. It needs a full rewrite from scratch, not minor fixes.
-- **`quest_progression_advisor` (Agent):** Suggests next story steps when I'm stuck.
-- **`puzzle_solver_assistant` (Agent):** Provides simple hypotheses for puzzles.
-- **`city_exploration_planner` (Agent):** Generates a systematic and efficient exploration plan for a new city.
-- **`world_navigator_agent` (Agent):** Suggests a new major region or city to investigate when local leads are exhausted.
-
-## Philosophy & Lessons Learned (Self-Correction)
-- **(Turn 28227):** Trust tool outputs first; verify in-game obstacles before debugging.
-- **(Turn 33005):** Rely exclusively on pathfinding tools for navigation.
-- **(Turn 33843):** Use `city_exploration_planner` upon entering any new city.
-- **(Turn 34861, 35208 - CRITICAL):** `path_plan` is for coordinate-based overworld movement. `autopress_buttons` is for menu-based button string execution. Confusing them leads to critical tool failures and wasted debugging time.
-- **(Turn 35400 - CRITICAL):** Deferring tool/agent creation is an invalid strategy. I must act immediately on development ideas to improve my capabilities.
 
 # Archive: Log of Blocked Paths, Solved Pzzles & Old Info
 
