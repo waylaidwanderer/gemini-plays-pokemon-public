@@ -485,3 +485,11 @@
   - The flower pots are on `WALL` tiles and are impassable.
   - The large table is a `COUNTER` tile and is impassable.
 - **Conclusion:** This reinforces the established mechanic that a tile's `type` attribute is the sole determinant of its traversability, not its visual appearance. This is consistent with findings from the Day-Care.
+
+# Goldenrod City Re-Exploration (In Progress)
+- [x] Warp at (19, 1) - Route 35 Gate
+- [x] Warp at (29, 5) - Flower Shop
+- [Current] Warp at (9, 5) - Underground Entrance (North)
+
+# Tile Mechanics Update
+- **COUNTER:** Impassable. Observed in Goldenrod Underground.
