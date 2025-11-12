@@ -61,6 +61,9 @@
 *   `puzzle_solver_assistant` (Agent): Provides simple hypotheses for puzzles.
 *   `city_exploration_planner` (Agent): Generates an efficient exploration plan for a new city.
 *   `world_navigator_agent` (Agent): Suggests a new major region when local leads are exhausted.
+*   `puzzle_solver_assistant` (Agent): Provides simple hypotheses for puzzles.
+*   `city_exploration_planner` (Agent): Generates an efficient exploration plan for a new city.
+*   `world_navigator_agent` (Agent): Suggests a new major region when local leads are exhausted.
 
 ### Tool/Agent Development Ideas
 - **`dungeon_floor_planner` v2 (CRITICAL FIX):** The current version does not check if its planned points of interest are actually reachable. It needs to integrate pathfinding logic (from `path_and_execute_v3`) to verify pathability between each POI to generate a valid, traversable route.
