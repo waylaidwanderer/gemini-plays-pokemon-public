@@ -472,7 +472,7 @@
 - [x] Warp at (9, 5) - Underground Entrance (North)
 - [x] Warp at (29, 5) - Flower Shop
 - [ ] GoldenrodCityUndergroundSignNorth at (8, 6)
-- [ ] GoldenrodCityFlowerShopSign at (30, 6)
+- [x] GoldenrodCityFlowerShopSign at (30, 6)
 - [ ] GoldenrodCityNameRaterSign at (12, 7)
 - [ ] Warp at (15, 7) - Name Rater's House
 - [ ] Warp at (24, 7) - Bill's House
