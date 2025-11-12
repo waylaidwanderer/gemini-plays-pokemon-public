@@ -88,6 +88,7 @@
 *   `puzzle_solver_assistant` (Agent): Provides simple hypotheses for puzzles.
 *   `city_exploration_planner` (Agent): Generates an efficient exploration plan for a new city.
 *   `world_navigator_agent` (Agent): Suggests a new major region when local leads are exhausted.
+*   `long_range_navigator` (Agent): A high-level planner that takes a start and end location and determines the sequence of routes and cities to travel between them.
 
 ### Tool/Agent Development Ideas
 - **`generate_city_exploration_plan` (Agent Idea):** A new agent that takes a city name, uses `map_object_extractor` to find all warps and signs, then uses `city_exploration_planner` to generate an optimal exploration checklist. This would automate the creation of my city re-exploration plans.
