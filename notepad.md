@@ -47,7 +47,7 @@
 - **FLOOR:** Traversable.
 - **FLOOR_UP_WALL:** Impassable. (Observed in map data, needs in-game test to confirm).
 - **HEADBUTT_TREE:** Impassable. Can be interacted with using HEADBUTT.
-- **LADDER:** A two-way warp tile.
+- **LADDER:** A two-way warp tile. (Confirmed in Goldenrod Underground. Activation method: Walk onto the tile from the direction opposite you want to travel. E.g., to go 'up' a ladder, walk onto it from the tile above it by pressing Down.)
 - **LEDGE_HOP_DOWN:** A one-way tile (can only be entered from above).
 - **MART_SHELF:** Impassable.
 - **PC:** Impassable. Interactable from the tile below it.
