@@ -477,7 +477,7 @@
 - [x] Warp at (24, 7) - Goldenrod Gym (Mistakenly entered)
 - [ ] GoldenrodGymSign at (26, 9)
 - [x] Warp at (33, 9) - PPSpeechHouse
-- [ ] Warp at (9, 13) - Magnet Train Station
+- [x] Warp at (9, 13) - Magnet Train Station
 - [ ] GoldenrodCityStationSign at (10, 14)
 - [ ] Warp at (5, 15) - Radio Tower
 - [ ] GoldenrodCityRadioTowerSign at (4, 17)
