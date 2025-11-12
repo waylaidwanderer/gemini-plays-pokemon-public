@@ -418,8 +418,13 @@
 - **stun_npc:** This tool freezes an NPC, preventing them from moving. It does NOT make the NPC traversable. You still must navigate around the stunned NPC.
 - **Phone List Limit:** The phone list can become full, preventing you from adding new contacts.
 
-# Tool Development Log (New)
-- **`path_and_execute_v3` Bug (CRITICAL):** The tool failed to generate a valid path because it does not account for off-screen NPCs. It generated a path through Schoolboy Alan on Route 36. The tool MUST be updated to read my map markers to identify and avoid off-screen obstacles.
+# Tile Mechanics
+- **COUNTER:** Impassable.
+- **LADDER:** A two-way warp tile that transports the player between floors when moved onto.
+- **WALL:** Impassable.
+- **FLOOR:** Traversable.
+- **VOID:** Impassable.
+- **WARP_CARPET_DOWN:** A one-way warp tile that transports the player when moved onto.
 
 # Goldenrod City Re-Exploration Plan (Consolidated)
 - [x] Warp at (19, 1) - Route 35 Gate
@@ -448,15 +453,3 @@
 - [ ] Warp at (29, 29) - Bike Shop
 - [ ] GoldenrodCityBikeShopSign at (28, 30)
 - [ ] GoldenrodCityUndergroundSignSouth at (12, 30)
-
-# Tile Mechanics Update
-- **COUNTER:** Impassable. Observed in Goldenrod Underground.
-
-# Tile Mechanics Update (Overwatch Critique)
-- **LADDER:** A two-way warp tile that transports the player between floors when moved onto.
-
-# Tile Mechanics (Goldenrod Underground)
-- WALL: Impassable.
-- FLOOR: Traversable.
-- LADDER: Two-way warp tile. Moving onto it triggers a map transition.
-- COUNTER: Impassable.
