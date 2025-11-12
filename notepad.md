@@ -454,3 +454,9 @@
 
 # Tile Mechanics Update (Overwatch Critique)
 - **LADDER:** A two-way warp tile that transports the player between floors when moved onto.
+
+# Tile Mechanics (Goldenrod Underground)
+- WALL: Impassable.
+- FLOOR: Traversable.
+- LADDER: Two-way warp tile. Moving onto it triggers a map transition.
+- COUNTER: Impassable.
