@@ -496,3 +496,13 @@
 - [ ] VioletCityPokecenterSign at (32, 25)
 - [ ] Warp at (39, 25) - Route 31 Gate (East, Glitch Warp)
 - [ ] Warp at (21, 29) - Kyle's House
+
+# Self-Assessment Findings (Turn 37059)
+
+## Untested Assumptions & Alternative Hypotheses
+- **Assumption:** The trigger for progression is an NPC I need to re-talk to.
+  - **Alternative Hypothesis:** The trigger is a hidden item that has now appeared somewhere. 
+  - **Test to Falsify:** If the full NPC sweep of all cities fails, I must perform a full sweep of all cities with the ITEMFINDER on every single tile.
+- **Assumption:** The path to Mahogany Town via Route 42 is completely blocked by water.
+  - **Alternative Hypothesis:** There is a hidden land path on Route 42 or through Mt. Mortar that I missed.
+  - **Test to Falsify:** After exhausting city re-exploration, I must thoroughly re-explore Route 42 and Mt. Mortar.
