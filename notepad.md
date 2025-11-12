@@ -58,7 +58,6 @@
 *   `delete_map_marker` (Tool): Deletes a map marker.
 *   `stun_npc` (Tool): Freezes an NPC's movement.
 *   `select_battle_option` (Tool): Automatically selects a main battle menu option.
-*   `select_battle_option` (Tool): Automatically selects a main battle menu option.
 *   `define_tool` (Tool): Defines a new custom tool.
 *   `delete_tool` (Tool): Deletes a custom tool.
 *   `define_agent` (Agent): Defines a new custom agent.
