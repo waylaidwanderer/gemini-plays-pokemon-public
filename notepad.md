@@ -112,6 +112,20 @@
 <details>
 <summary>Day-Care Mystery (Route 34)</summary>
 
+# Archive: Log of Blocked Paths, Solved Puzzles & Old Info
+<details>
+<summary>Click to expand full game log</summary>
+
+# Gym Information
+- **Goldenrod Gym:** Normal-type. Fighting-type moves are recommended.
+
+# Key Items
+- BICYCLE: Received from the Goldenrod Bike Shop owner. Allows for faster travel.
+- ITEMFINDER: Received from a man in Ecruteak City. Used to find hidden items.
+
+<details>
+<summary>Day-Care Mystery (Route 34)</summary>
+
 - **Initial Observation:** Day-Care Man and Woman mentioned my Unown 'O' and something called 'Glyph' despite me never depositing 'O'.
 - **Test 1 (Interaction @ 14, 18):**
   - **Result:** Dialogue appeared: "It's O that was left with the DAY-CARE MAN. It has no interest in Glyph."
