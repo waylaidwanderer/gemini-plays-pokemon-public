@@ -4,18 +4,18 @@
 
 ### Current Status: Blocked - Main Quest Progression Halted
 - **Primary Blockers:** I cannot get SURF or the 'special medicine' for the sick Ampharos. All main quest paths are blocked.
-- **Current Plan:** Systematic re-exploration of all previously visited cities, starting with Violet City, to find any missed triggers or changed NPC dialogue.
+- **Current Plan:** With Violet City fully re-explored and no new leads found, the new plan is to travel to Goldenrod City and begin a systematic re-exploration there.
 
 ### Procedural Improvements (From Overwatch Critique)
-- **Agent Utilization:** I must use my `city_exploration_planner` agent for the next city I explore to automate plan generation and improve efficiency.
+- **Agent Utilization:** I must use my `city_exploration_planner` agent for Goldenrod City to automate plan generation and improve efficiency.
 
-### Violet City Re-Exploration Plan
+### Violet City Re-Exploration Plan (Completed)
 - [x] Sprout Tower
 - [x] Violet City Signs (all)
 - [x] Route 31 Gate
 - [x] Pokémon Center
 - [x] VioletCityPokecenterSign at (32, 25)
-- [ ] Kyle's House (Warp at 21, 29)
+- [x] Kyle's House (Warp at 21, 29)
 
 ## 2. Untested Assumptions & Alternative Hypotheses (Active)
 
