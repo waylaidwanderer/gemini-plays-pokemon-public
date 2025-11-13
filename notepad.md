@@ -474,3 +474,6 @@
 
 ## Confirmed System Mechanics
 - **PC Usage:** BILL's PC is for Pokémon Storage. Gem's PC is for Item Storage. This is a critical distinction to remember to avoid wasting time in the wrong menu.
+
+# Self-Assessment Action Items (Turn 39243)
+- **Task:** Test unverified tile types (BOOKSHELF, FENCE, FLOOR_UP_WALL) at the next opportunity to confirm their traversability.
