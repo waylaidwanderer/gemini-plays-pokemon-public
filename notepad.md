@@ -477,12 +477,9 @@
   - **Alternative Hypothesis:** The 'medicine' could be an NPC, or it could be located in a different city entirely.
   - **Test to Falsify:** A thorough exploration of Cianwood City that yields no medicine will falsify this assumption.
 
-# Olivine City Exploration Plan (Manual)
-- My `city_exploration_planner` agent failed. I will explore manually.
-- **Phase 1 (West):** Gym, Cafe, Good Rod House, Pokecenter.
-- **Phase 2 (East):** TimsHouse, PunishmentSpeechHouse, Mart.
-- **Phase 3 (South):** Port, Lighthouse, Battle Tower area.
-- **Phase 4 (Coast):** Find entrance to Route 40.
+## LLM Reality Lesson (Self-Correction)
+- **Failure (Turn 38766):** I deferred fixing my faulty `city_exploration_planner` agent until after a battle, violating the immediate maintenance directive.
+- **Correction:** I must perform all data management and tool/agent maintenance tasks in the *current* turn they are identified. There is no 'later'.
 
 # Future Development & Strategic Planning
 
