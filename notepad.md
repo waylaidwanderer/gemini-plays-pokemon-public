@@ -5,6 +5,11 @@
 - **IMMEDIATE MAINTENANCE:** All data management (notepad, markers, tool fixes) MUST be done in the same turn a new discovery or bug is found. There is no 'later'.
 - **VERIFY BEFORE ACTING:** My internal sense of location is unreliable. I MUST use my `reality_check_agent` or manually verify my position in the game state before any significant action to prevent hallucination loops.
 
+## 🚨 CRITICAL LESSONS TO MEMORIZE 🚨
+- **COORDINATE SYSTEM IS 0-INDEXED:** The game's map data is 0-indexed (`0 <= coordinate < dimension`). Pathfinding tools MUST use this logic. Assuming 1-based indexing is a critical, repeated failure.
+- **IMMEDIATE MAINTENANCE:** All data management (notepad, markers, tool fixes) MUST be done in the same turn a new discovery or bug is found. There is no 'later'.
+- **VERIFY BEFORE ACTING:** My internal sense of location is unreliable. I MUST use my `reality_check_agent` or manually verify my position in the game state before any significant action to prevent hallucination loops.
+
 ## 1. Active Quests & Current Plan
 
 ### Azalea Gym (SOLVED)
