@@ -484,6 +484,3 @@
 
 # Goldenrod City Notes (Update)
 - Todd called (Turn 38870) to announce a bargain sale at the Goldenrod Dept. Store is happening now.
-
-# Goldenrod City Notes (Update)
-- Todd called (Turn 38870) to announce a bargain sale at the Goldenrod Dept. Store is happening now.
