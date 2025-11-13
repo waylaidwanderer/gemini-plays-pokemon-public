@@ -435,6 +435,7 @@
 - `deterministic_battle_strategist`
 - `find_reachable_unseen_tiles`
 - `path_and_execute_v3`
+- `pokemon_nicknamer`
 - `menu_navigator`
 - `quest_progression_advisor`
 - `city_exploration_planner`
