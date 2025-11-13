@@ -168,13 +168,15 @@
 </details>
 
 <details>
-<summary>Dance Theater Gentleman (Lesson Learned)</summary>
+<details>
+<summary>Ecruteak Dance Theater Gentleman (Hypothesis Falsified)</summary>
 
-- **Hypothesis:** Defeating all Kimono Girls would cause the Gentleman at (7, 10) to give a reward.
-- **Test:** Defeated all five Kimono Girls and repeatedly interacted with the Gentleman between turns 29727 and 29738.
-- **Result:** The Gentleman only repeated his initial, pre-defeat dialogue. No new outcome was triggered.
-- **Conclusion (Original):** Hypothesis was FALSE pre-Legendary event. Re-interacting yielded no results.
-- **New Hypothesis:** The awakening of the Legendary Beasts in the Burned Tower was a major world event. It is possible this event changed the Gentleman's state, and he may now offer a reward or the HM SURF. Re-testing this interaction is now a valid strategy.
+- **Hypothesis:** The Gentleman at (7, 10) would provide a reward (potentially SURF) after the Legendary Beast event in the Burned Tower.
+- **Test:** Interacted with the Gentleman on Turn 34336 after the event.
+- **Result:** The Gentleman's dialogue was unchanged. He did not provide any item or reward.
+- **Conclusion:** Hypothesis is FALSE. The trigger for this NPC is something else, or he has no further role. The HM SURF is not obtained from him at this time.
+
+</details>
 
 </details>
 
