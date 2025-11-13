@@ -460,3 +460,16 @@
 
 # Critical Bugs & Lessons
 - **Text Box Loop (CRITICAL):** During turns 37932-37937, I was stuck in a text box loop from a sign. Repeatedly pressing 'A' did not work. The solution was to press 'B' to close the dialogue. This is a critical lesson: if 'A' fails to advance or close text, the next hypothesis must be to try 'B'.
+
+# Self-Assessment Findings (Turn 38567)
+
+## Agent/Tool Development Ideas
+- **Multi-Map Navigation Agent:** Create an agent that takes a high-level destination (e.g., 'Olivine City') and generates a sequence of sub-goals for each map transition (e.g., 'Path to Route 35 Gate', 'Cross National Park', etc.). This would automate high-level journey planning.
+
+## Untested Assumptions & Alternative Hypotheses
+- **Assumption:** The path to Olivine City from Ecruteak is a straightforward land route.
+  - **Alternative Hypothesis:** A new, unforeseen obstacle may block the path on Route 38 or 39, requiring a different approach, possibly using SURF from an earlier point.
+  - **Test to Falsify:** Proceed with the current travel plan. If a new obstacle appears, the assumption is falsified.
+- **Assumption:** The 'special medicine' for the sick Ampharos is a key item found in Cianwood City.
+  - **Alternative Hypothesis:** The 'medicine' could be an NPC, or it could be located in a different city entirely.
+  - **Test to Falsify:** A thorough exploration of Cianwood City that yields no medicine will falsify this assumption.
