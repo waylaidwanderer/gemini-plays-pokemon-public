@@ -454,3 +454,6 @@
 
 # Critical Bugs & Lessons
 - **Text Box Loop (CRITICAL):** During turns 37932-37937, I was stuck in a text box loop from a sign. Repeatedly pressing 'A' did not work. The solution was to press 'B' to close the dialogue. This is a critical lesson: if 'A' fails to advance or close text, the next hypothesis must be to try 'B'.
+
+# Tool Development Ideas
+- `teach_hm_from_bag`: A tool to automate the multi-step menu navigation for teaching an HM to a Pokémon. Input: `hm_name`, `pokemon_name`, `move_to_replace`. Output: A sequence of button presses for `autopress_buttons`.
