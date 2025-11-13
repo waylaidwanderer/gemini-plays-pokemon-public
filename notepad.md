@@ -483,3 +483,5 @@
 - **Task:** Test unverified tile types (BOOKSHELF, WINDOW, TOWN_MAP, TV, RADIO) at the next opportunity to confirm their traversability.
 - **Agent Idea:** `reality_check_agent` - could take my `thoughts` and the `game_state` to flag discrepancies before I act, preventing hallucination loops.
 - **FLOOR_UP_WALL:** Impassable when approached from above (from a tile with a lower y-coordinate). (Confirmed by failed movement at (18, 49) on Cianwood City).
+## Agent/Tool Development Ideas (Post-Self-Assessment)
+- **`plan_next_exploration_step` Agent/Tool:** Create a single tool or agent that combines the functionality of `find_reachable_unseen_tiles` and `exploration_strategist`. It would take no input and output a single suggested coordinate, streamlining the exploration workflow into one step.
