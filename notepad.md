@@ -433,10 +433,10 @@
 - `delete_tool`
 - `select_battle_option`
 - `deterministic_battle_strategist`
-- `find_reachable_unseen_tiles`
 - `path_and_execute_v3`
 - `pokemon_nicknamer`
 - `menu_navigator`
+- `plan_next_exploration_step`
 
 ## Agent Management
 - `define_agent`
@@ -446,7 +446,6 @@
 - `quest_progression_advisor`
 - `city_exploration_planner`
 - `world_navigator_agent`
-- `exploration_strategist`
 
 # New Hypothesis (Post-Cianwood Arrival)
 - **Assumption:** The 'special medicine' for the Ampharos is a key item I will find or be given in Cianwood City.
@@ -465,10 +464,10 @@
 - `delete_tool`
 - `select_battle_option`
 - `deterministic_battle_strategist`
-- `find_reachable_unseen_tiles`
 - `path_and_execute_v3`
 - `pokemon_nicknamer`
 - `menu_navigator`
+- `plan_next_exploration_step`
 
 ## Agent Management
 - `define_agent`
@@ -478,7 +477,6 @@
 - `quest_progression_advisor`
 - `city_exploration_planner`
 - `world_navigator_agent`
-- `exploration_strategist`
 
 # Maintenance & Lessons Learned (Turn 39210)
 
