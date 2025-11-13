@@ -47,29 +47,26 @@
 - **`path_plan` vs `autopress_buttons`:** `path_plan` is for coordinate-based overworld movement. `autopress_buttons` is for menu-based button string execution. Confusing them leads to critical tool failures.
 
 ## 5. Tile Mechanics
-- **BOOKSHELF:** Impassable. (Confirmed by failed movement attempt at (0, 2) in Cianwood Pharmacy).
-- **BUOY:** Impassable. (Confirmed by attempting to move onto it on Route 40).
+- **BOOKSHELF:** Impassable. (Confirmed in Cianwood Pharmacy).
+- **BUOY:** Impassable. (Confirmed by attempting to surf into it on Route 40).
 - **COUNTER:** Impassable.
 - **DOOR:** A two-way warp tile.
-- **FENCE:** Impassable. (Assumed, as it visually appears to be a barrier. Needs direct in-game test to confirm upon encounter).
 - **FLOOR:** Traversable.
-- **FLOOR_UP_WALL:** Impassable. (Observed in map data, needs in-game test to confirm).
-- **GRASS:** Traversable, no wild encounters. (Assumed, as it looks like a clear path. Needs direct in-game test to confirm upon encounter).
+- **FLOOR_UP_WALL:** A one-way tile, impassable when approached from below (i.e., you cannot move up onto it).
 - **HEADBUTT_TREE:** Impassable. Can be interacted with using HEADBUTT.
-- **LADDER:** A two-way warp tile. (Confirmed in Goldenrod Underground. Activation method: Walk onto the tile from the direction opposite you want to travel. E.g., to go 'up' a ladder, walk onto it from the tile above it by pressing Down.)
+- **LADDER:** A two-way warp tile.
 - **LEDGE_HOP_DOWN:** A one-way tile (can only be entered from above).
 - **MART_SHELF:** Impassable.
-- **PC:** Impassable. Interactable from the tile below it.
-- **PILLAR:** Impassable. (Confirmed in Sprout Tower).
+- **PC:** Impassable. Interactable from an adjacent tile.
+- **PILLAR:** Impassable.
+- **ROCK:** Impassable object. Requires STRENGTH to move/remove.
 - **STAIRCASE:** A two-way warp tile.
 - **TALL_GRASS:** Traversable, triggers wild encounters.
 - **VOID:** Impassable.
 - **WALL:** Impassable.
-- **WARP_CARPET_DOWN:** A one-way warp tile. (Activation method: Stand on the tile and press Down).
-- **WARP_CARPET_LEFT:** A one-way warp tile (Activation method: Stand on the tile and press Left).
-- **WARP_CARPET_RIGHT:** A one-way warp tile (Activation method: Stand on the tile and press Right).
+- **WARP_CARPET:** A one-way warp tile, activated by pressing in the indicated direction.
 - **WATER:** Impassable without SURF.
-- **WHIRLPOOL:** WHIRLPOOL: Impassable. (Confirmed by attempting to move onto it at (22, 12) on Route 41).
+- **WHIRLPOOL:** Impassable.
 
 # Tool & Agent Development Log
 
