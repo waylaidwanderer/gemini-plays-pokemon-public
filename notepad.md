@@ -507,3 +507,9 @@
 - ALAN (SCHOOLBOY) has an item for me on ROUTE 36.
 - DANA (LASS) wants a rematch on ROUTE 38.
 - HUEY (SAILOR) wants a rematch in the OLIVINE LIGHTHOUSE.
+
+# Route 30 Ledge Puzzle
+- **Hypothesis 1:** The ledge at (6, 47) is passable from below.
+  - **Test:** Attempted to move north from (6, 48) on Turn 39805.
+  - **Result:** Movement failed.
+  - **Conclusion:** Hypothesis is FALSE. The ledge is a one-way obstacle.
